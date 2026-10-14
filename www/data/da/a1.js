@@ -3,7 +3,7 @@ const A1_WORDS = [
     "de": "Apfel",
     "de_article": "der",
     "de_plural": "die Äpfel",
-    "lv": "Et æble",
+    "lv": "Æble",
     "level": "A1"
   },
   {
@@ -40,93 +40,176 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "At tale",
       "explanation": [
-        "Hovedidé: At tale, tale eller bruge sprog.",
-        "Sprechen betyder hovedsageligt: at tale.",
-        "Ofte præget af: sprog/samtale.",
-        "Sprechen beskriver at tale eller bruge sprog."
+        "Grundbetydning: sprechen betyder at tale, at sige ord højt, men også at beherske et sprog (Deutsch sprechen – at tale tysk) eller at tale med nogen.",
+        "Former: er spricht (vokalskifte e → i), sprach, hat gesprochen. Sproget står efter sprechen uden forholdsord, mens emnet tilføjes med über + akkusativ (at tale om noget) og samtalepartneren med mit + dativ (at tale med nogen).",
+        "I telefonen eller i en formel sammenhæng betyder Kann ich Herrn Müller sprechen? 'Kan jeg tale med hr. Müller?'."
       ],
       "examples": [
         {
-          "de": "Ich spreche Deutsch.",
-          "lv": "Jeg taler tysk."
+          "de": "Sprichst du Deutsch?",
+          "lv": "Taler du tysk?"
         },
         {
-          "de": "Wir sprechen über die Arbeit.",
-          "lv": "Vi taler om arbejde."
+          "de": "Ich spreche mit meiner Lehrerin.",
+          "lv": "Jeg taler med min lærer."
         },
         {
-          "de": "Sie spricht mit ihrer Lehrerin.",
-          "lv": "Hun taler med sin lærer."
+          "de": "Wir sprechen über das Wetter.",
+          "lv": "Vi taler om vejret."
+        },
+        {
+          "de": "Er spricht sehr leise.",
+          "lv": "Han taler meget lavt."
+        },
+        {
+          "de": "Kann ich bitte Herrn Müller sprechen?",
+          "lv": "Må jeg tale med hr. Müller?"
         }
       ],
       "comparison": [
         {
-          "word": "sprechen",
-          "meaning": "Tale (proces, sprog)",
-          "example": "Wir sprechen über die Arbeit. – Vi taler om arbejde."
+          "word": "sagen",
+          "meaning": "at sige",
+          "example": "Er sagt Hallo. – Han siger hej."
         },
         {
-          "word": "sagen",
-          "meaning": "Sige (noget bestemt)",
-          "example": "Sag mir die Wahrheit. – Fortæl mig sandheden."
+          "word": "reden",
+          "meaning": "at tale, at snakke",
+          "example": "Wir reden den ganzen Abend. – Vi snakker hele aftenen."
+        },
+        {
+          "word": "erzählen",
+          "meaning": "at fortælle",
+          "example": "Sie erzählt eine Geschichte. – Hun fortæller en historie."
         }
       ],
       "tip": [
-        "sprechen = at tale",
-        "Brug sprechen, når konteksten passer til denne betydning."
+        "Lær ordet sammen med vokalskiftet: ich spreche, du sprichst, er spricht.",
+        "Sprogets navn står uden forholdsord: Ich spreche Englisch."
       ],
       "important": [
-        "sprechen = at tale.",
-        "Du taler, samtaler eller bruger sprog."
+        "At tale om noget hedder normalt sprechen über + akkusativ; sprechen von + dativ er muligt, men betyder snarere at nævne eller fortælle om nogen eller noget.",
+        "Det stærke udsagnsords kort tillægsform er gesprochen, ikke “gesprecht”."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "sprechen",
+            "spricht",
+            "sprach",
+            "gesprochen"
+          ],
           "purple": [
-            "Hovedidé"
+            "at tale"
           ]
         },
         "examples": [
           {
             "de": {
-              "green": [
+              "blue": [
+                "Sprichst"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Taler"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
                 "spreche"
               ]
             },
             "lv": {
               "purple": [
-                "Jeg"
+                "taler"
               ]
             }
           },
           {
             "de": {
-              "green": [
+              "blue": [
                 "sprechen"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "taler"
+              ]
+            }
           },
           {
             "de": {
-              "green": [
+              "blue": [
                 "spricht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "taler"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sprechen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tale"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sagen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "at sige"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "reden"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "at tale"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "erzählen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "at fortælle"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "sprechen"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "green": [
-              "sprechen"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -140,36 +223,71 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Lille",
       "explanation": [
-        "Hovedidé: Lille i størrelse eller omfang.",
-        "Klein betyder hovedsageligt: lille størrelse.",
-        "Beskriver ofte størrelsen på en ting eller person."
+        "Grundbetydning: klein beskriver noget, der er lille af størrelse, højde, omfang eller alder: ein kleines Haus, ein kleines Kind, ein kleiner Mann.",
+        "Gradbøjning: klein, kleiner, am kleinsten. Foran et navneord bøjes ordet: ein kleiner Tisch, eine kleine Wohnung, ein kleines Zimmer, kleine Kinder.",
+        "I overført betydning kan klein også betyde ubetydelig: ein kleines Problem (et mindre problem)."
       ],
       "examples": [
         {
           "de": "Das Zimmer ist klein.",
-          "lv": "Værelset ist klein."
+          "lv": "Værelset er lille."
         },
         {
-          "de": "Das Kind ist noch klein.",
-          "lv": "Værelset ist klein."
+          "de": "Sie hat eine kleine Schwester.",
+          "lv": "Hun har en lille søster."
         },
         {
-          "de": "Ich habe eine kleine Tasche.",
-          "lv": "Barnet er stadig lille."
+          "de": "Ich wohne in einer kleinen Stadt.",
+          "lv": "Jeg bor i en lille by."
+        },
+        {
+          "de": "Er ist kleiner als sein Bruder.",
+          "lv": "Han er mindre end sin bror."
+        },
+        {
+          "de": "Das ist nur ein kleiner Fehler.",
+          "lv": "Det er bare en lille fejl."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "kurz",
+          "meaning": "kort",
+          "example": "Der Weg ist kurz. – Vejen er kort."
+        },
+        {
+          "word": "wenig",
+          "meaning": "lidt, ikke meget (mængde)",
+          "example": "Ich habe wenig Zeit. – Jeg har kun lidt tid."
+        },
+        {
+          "word": "groß",
+          "meaning": "stor",
+          "example": "Das Haus ist groß. – Huset er stort."
         }
       ],
       "tip": [
-        "klein = lille",
-        "Brug klein, når konteksten passer til denne betydning."
+        "Det modsatte er groß (stor); lær de to ord som et par.",
+        "Når ordet står efter sein/werden, får det ingen endelse: Das Haus ist klein."
       ],
       "important": [
-        "klein = lille i størrelsen.",
-        "klein = mazs."
+        "Om en persons højde siger man klein, men om kort tid eller afstand bruger man kurz.",
+        "Foran et navneord er endelsen obligatorisk: ein kleines Auto, ikke 'ein klein Auto'."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "klein",
+            "kleiner",
+            "am kleinsten",
+            "kleines",
+            "kleine",
+            "kleiner Tisch"
+          ],
           "purple": [
-            "Hovedidé"
+            "lille",
+            "lille af størrelse",
+            "ubetydelig"
           ]
         },
         "examples": [
@@ -181,19 +299,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Værelset"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "klein"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Værelset"
+                "lille"
               ]
             }
           },
@@ -205,31 +311,99 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Barnet"
+                "lille"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "kleinen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "lille"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "kleiner"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "mindre"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "kleiner"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "lille"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "kurz"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "kort"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "wenig"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "lidt, ikke meget (mængde)"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "groß"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "stor"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "mazs"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "blue": [
-              "klein"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
   },
   {
     "de": "alle",
-    "lv": "Alle sammen",
+    "lv": "Alle",
     "level": "A1"
   },
   {
@@ -255,45 +429,75 @@ const A1_WORDS = [
   },
   {
     "de": "an",
-    "lv": "Kl • Til • Præsenter",
+    "lv": "Ved • På • Til",
     "level": "A1",
     "study": {
       "id": "a1-an",
       "layout": "standardStudy",
-      "translation": "Kl • Til • Præsenter",
-      "explanation": "Bruges, når noget befinder sig ved en væg, et vindue, en dør, en flod, en strand eller en anden kant eller overflade.",
+      "translation": "Ved • På • Til",
+      "explanation": [
+        "Grundbetydning: an angiver placering lige ved noget eller berøring med en lodret flade eller kant: an der Wand (på væggen), am Fenster (ved vinduet), am Fluss (ved floden).",
+        "Det hører til vekselforholdsordene: på spørgsmålet Wo? (hvor?) følger dativ (an der Tür), på spørgsmålet Wohin? (hvorhen?) akkusativ (an die Tür). Sammentrækninger: an dem → am, an das → ans.",
+        "Om tid bruges det med dage og dagens dele: am Montag, am Abend. Mange udsagnsord kræver an + akkusativ: an dich denken (at tænke på dig)."
+      ],
       "examples": [
         {
-          "de": "an der Wand",
-          "lv": "På væggen / på væggen"
+          "de": "Das Bild hängt an der Wand.",
+          "lv": "Billedet hænger på væggen."
         },
         {
-          "de": "am Fenster",
-          "lv": "Ved vinduet"
+          "de": "Ich hänge das Bild an die Wand.",
+          "lv": "Jeg hænger billedet op på væggen."
         },
         {
-          "de": "am Meer",
-          "lv": "Ved havet"
+          "de": "Er steht am Fenster.",
+          "lv": "Han står ved vinduet."
+        },
+        {
+          "de": "Am Montag habe ich Deutschkurs.",
+          "lv": "På mandag har jeg tyskkursus."
+        },
+        {
+          "de": "Ich denke oft an dich.",
+          "lv": "Jeg tænker tit på dig."
         }
       ],
       "comparison": [
         {
-          "word": "an",
-          "meaning": "Ved overfladen eller kanten",
-          "example": "an der Wand – Ved væggen"
-        },
-        {
           "word": "auf",
-          "meaning": "På en vandret overflade",
-          "example": "auf dem Tisch – På bordet"
+          "meaning": "på (oven på en flade)",
+          "example": "Das Buch liegt auf dem Tisch. – Bogen ligger på bordet."
         },
         {
           "word": "bei",
-          "meaning": "Til en person eller et sted",
-          "example": "beim Arzt – Til lægen"
+          "meaning": "hos (en person), ved (et sted)",
+          "example": "Ich bin bei meiner Oma. – Jeg er hos min bedstemor."
+        },
+        {
+          "word": "in",
+          "meaning": "i, inde i",
+          "example": "Das Heft ist in der Tasche. – Hæftet er i tasken."
         }
       ],
+      "tip": [
+        "Wo? → an + dativ, Wohin? → an + akkusativ. Tjek spørgsmålet.",
+        "Med ugedage og dagens dele bruger man am: am Dienstag, am Morgen."
+      ],
+      "important": [
+        "Dansk 'ved' og 'hos' er ikke altid an: at bo hos nogen (på besøg, hjemme) hedder bei.",
+        "an + akkusativ svarer ofte til dansk 'på' (denken an – tænke på, glauben an – tro på), ikke til 'ved'."
+      ],
       "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "an",
+            "ans"
+          ],
+          "purple": [
+            "ved",
+            "på"
+          ]
+        },
         "examples": [
           {
             "de": {
@@ -303,8 +507,19 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "væggen",
-                "væggen"
+                "på"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "an"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "på"
               ]
             }
           },
@@ -316,19 +531,31 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Ved"
+                "ved"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "am"
+                "Am"
               ]
             },
             "lv": {
               "purple": [
-                "Ved"
+                "På"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "an"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "på"
               ]
             }
           }
@@ -337,30 +564,12 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "an"
-              ]
-            },
-            "example": {
-              "green": [
-                "an"
-              ],
-              "purple": [
-                "der"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
                 "auf"
               ]
             },
-            "example": {
-              "yellow": [
-                "auf"
-              ],
+            "meaning": {
               "purple": [
-                "auf"
+                "på"
               ]
             }
           },
@@ -370,46 +579,34 @@ const A1_WORDS = [
                 "bei"
               ]
             },
-            "example": {
-              "red": [
-                "beim"
-              ],
+            "meaning": {
               "purple": [
-                "beim"
+                "hos"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "in"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "i, inde i"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "an"
-            ],
-            "purple": [
-              "pie"
-            ],
-            "green": [
-              "sienas",
-              "loga",
-              "malas"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "purple": [
-              "ikke"
-            ]
-          }
+          {},
+          {}
         ]
-      },
-      "tip": {
-        "text": "Husk: pie sienas/loga/malas → an."
-      },
-      "important": [
-        "an betyder ikke bare \"på\". Det bruges ofte om placering ved en overflade, væg, et vindue eller en kant.",
-        "Auf bruges normalt på en vandret overflade."
-      ]
+      }
     }
   },
   {
@@ -421,12 +618,12 @@ const A1_WORDS = [
   },
   {
     "de": "anfangen",
-    "lv": "For at starte",
+    "lv": "At begynde • At starte",
     "level": "A1"
   },
   {
     "de": "anders",
-    "lv": "Ellers",
+    "lv": "Anderledes",
     "level": "A1"
   },
   {
@@ -442,54 +639,84 @@ const A1_WORDS = [
       "id": "a1-ab",
       "layout": "standardStudy",
       "translation": "Fra",
-      "explanation": "Bruges når noget starter fra et bestemt tidspunkt, sted eller punkt. Betyder ofte \"startende fra\".",
+      "explanation": [
+        "Grundbetydning: ab angiver et startpunkt i tid, pris eller sted og betyder 'fra og med': ab Montag (fra mandag), ab 18 Uhr, ab 10 Euro.",
+        "Forholdsordet styrer dativ: ab nächstem Monat, ab dem 1. Mai. Ved tidsangivelser står det ofte uden kendeord: ab Montag, ab morgen. Ab er også en adskillelig forstavelse: abfahren (at køre af sted), abholen (at hente).",
+        "I modsætning til seit (siden) ser ab fremad eller på et bestemt startpunkt, ofte i fremtiden."
+      ],
       "examples": [
         {
-          "de": "ab heute",
-          "lv": "Fra i dag",
-          "level": "A1"
+          "de": "Ab Montag arbeite ich wieder.",
+          "lv": "Fra mandag arbejder jeg igen."
         },
         {
-          "de": "ab Montag",
-          "lv": "Fra mandag"
+          "de": "Die Preise beginnen ab 5 Euro.",
+          "lv": "Priserne starter fra 5 euro."
         },
         {
-          "de": "ab 8 Uhr",
-          "lv": "Fra 8"
+          "de": "Ab 18 Uhr ist das Büro geschlossen.",
+          "lv": "Fra klokken 18 er kontoret lukket."
         },
         {
-          "de": "ab Bahnhof",
-          "lv": "Fra stationen"
+          "de": "Ab wann hast du frei?",
+          "lv": "Fra hvornår har du fri?"
+        },
+        {
+          "de": "Kinder ab sechs Jahren dürfen mitkommen.",
+          "lv": "Børn fra seks år må komme med."
         }
       ],
       "comparison": [
         {
-          "word": "ab",
-          "meaning": "Starter fra tidspunkt/tidspunkt",
-          "example": "ab Montag – Fra mandag"
+          "word": "seit",
+          "meaning": "siden",
+          "example": "Ich lerne seit einem Jahr Deutsch. – Jeg har lært tysk i et år."
         },
         {
           "word": "von",
-          "meaning": "Fra nogen/noget • Oprindelse",
-          "example": "von mir – Fra mig"
+          "meaning": "fra (udgangspunkt, afsender)",
+          "example": "Das Geschenk ist von meiner Mutter. – Gaven er fra min mor."
         },
         {
           "word": "aus",
-          "meaning": "Ud indefra",
-          "example": "aus dem Haus – Fra huset / ud af huset"
+          "meaning": "fra (ud af noget, oprindelse)",
+          "example": "Ich komme aus Lettland. – Jeg kommer fra Letland."
         }
       ],
+      "tip": [
+        "Husk ab = 'fra og med' – tænk 'fra dette tidspunkt og fremad'.",
+        "Ab wann? er et praktisk spørgsmål, når du vil vide, hvornår noget begynder."
+      ],
+      "important": [
+        "Ab bruges ikke om, hvor man kommer fra – dertil bruger man aus eller von.",
+        "Hvis handlingen begyndte i fortiden og stadig varer ved, bruger man normalt seit, ikke ab."
+      ],
       "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "ab",
+            "Ab",
+            "ab Montag",
+            "ab 18 Uhr",
+            "ab 10 Euro",
+            "abfahren",
+            "abholen"
+          ],
+          "purple": [
+            "fra og med",
+            "fra"
+          ]
+        },
         "examples": [
           {
             "de": {
               "blue": [
-                "ab"
+                "Ab"
               ]
             },
             "lv": {
               "purple": [
-                "Fra"
+                "Fra mandag"
               ]
             }
           },
@@ -501,14 +728,14 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Fra"
+                "fra"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "ab"
+                "Ab"
               ]
             },
             "lv": {
@@ -520,12 +747,24 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
+                "Ab"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Fra hvornår"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
                 "ab"
               ]
             },
             "lv": {
               "purple": [
-                "Fra"
+                "fra"
               ]
             }
           }
@@ -534,15 +773,12 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "ab"
+                "seit"
               ]
             },
-            "example": {
-              "green": [
-                "ab"
-              ],
+            "meaning": {
               "purple": [
-                "Montag"
+                "siden"
               ]
             }
           },
@@ -552,12 +788,9 @@ const A1_WORDS = [
                 "von"
               ]
             },
-            "example": {
-              "yellow": [
-                "von"
-              ],
+            "meaning": {
               "purple": [
-                "von"
+                "fra (udgangspunkt, afsender)"
               ]
             }
           },
@@ -567,45 +800,22 @@ const A1_WORDS = [
                 "aus"
               ]
             },
-            "example": {
-              "blue": [
-                "aus"
-              ],
+            "meaning": {
               "purple": [
-                "aus"
+                "fra (ud af noget, oprindelse)"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "ab"
-            ],
-            "purple": [
-              "Husk"
-            ],
-            "green": [
-              "Husk",
-              "Husk"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "purple": [
-              "viser"
-            ]
-          }
+          {},
+          {}
         ]
-      },
-      "tip": {
-        "text": "Husk: udgangspunkt i tid/sted → ab."
-      },
-      "important": [
-        "ab viser udgangspunktet i tid eller sted.",
-        "Hvis tanken stammer fra eller bevæger sig udad indefra, bruges von eller aus oftere."
-      ]
+      }
     }
   },
   {
@@ -635,42 +845,70 @@ const A1_WORDS = [
       "id": "a1-aber",
       "layout": "standardStudy",
       "translation": "Men",
-      "explanation": "Bruges til at introducere en kontrast eller udtrykke en indvending. Betyder ofte \"men\", \"dog\" eller \"men\".",
+      "explanation": [
+        "Grundbetydning: aber er bindeordet 'men', som stiller to tanker op over for hinanden: Ich will kommen, aber ich habe keine Zeit.",
+        "Det ændrer ikke ordstillingen: aber står på plads 0, og udsagnsordet står bagefter ligesom i en almindelig sætning. Før aber sætter man normalt komma.",
+        "I talesprog kan aber også være en partikel, der forstærker overraskelse: Das ist aber schön! (Hvor er det dog smukt!). Som svar betyder Aber gern! 'Ja, meget gerne!'."
+      ],
       "examples": [
         {
-          "de": "Ich möchte mitkommen, aber ich habe keine Zeit.",
-          "lv": "Jeg vil gerne med, men jeg har ikke tid."
+          "de": "Ich möchte kommen, aber ich habe keine Zeit.",
+          "lv": "Jeg vil gerne komme, men jeg har ikke tid."
         },
         {
-          "de": "Das Essen war lecker, aber zu teuer.",
-          "lv": "Maden var lækker, men overpris."
+          "de": "Das Auto ist alt, aber es fährt gut.",
+          "lv": "Bilen er gammel, men den kører godt."
         },
         {
-          "de": "Er hat recht, aber ich sehe das anders.",
-          "lv": "Han har ret, men jeg tror noget andet."
+          "de": "Er ist klein, aber stark.",
+          "lv": "Han er lille, men stærk."
+        },
+        {
+          "de": "Das ist aber schön!",
+          "lv": "Hvor er det dog smukt!"
+        },
+        {
+          "de": "Kann ich dir helfen? – Aber gern!",
+          "lv": "Kan jeg hjælpe dig? – Ja, meget gerne!"
         }
       ],
       "comparison": [
         {
-          "word": "aber",
-          "meaning": "Modsat • Indvending • Dog",
-          "example": "Ich komme, aber später. – Jeg kommer, men senere."
-        },
-        {
           "word": "sondern",
-          "meaning": "Ikke • Men",
-          "example": "Ich wollte keinen Tee, sondern Kaffee. – Jeg ville have te, ikke kaffe."
+          "meaning": "men (efter en nægtelse)",
+          "example": "Er ist nicht dumm, sondern faul. – Han er ikke dum, men doven."
         },
         {
-          "word": "jedoch",
-          "meaning": "Imidlertid",
-          "example": "Es ist kalt, jedoch sonnig. – Det er koldt, men solrigt."
+          "word": "doch",
+          "meaning": "dog, alligevel",
+          "example": "Es regnet, doch wir gehen raus. – Det regner, alligevel går vi ud."
+        },
+        {
+          "word": "und",
+          "meaning": "og",
+          "example": "Ich lese und schreibe. – Jeg læser og skriver."
         }
       ],
-      "tip": {
-        "text": "Husk: modsat/indvending → aber."
-      },
+      "tip": [
+        "Sæt komma før aber, når det forbinder to sætninger eller sætningsdele.",
+        "Aber påvirker ikke udsagnsordets plads: Aber ich habe keine Zeit."
+      ],
+      "important": [
+        "Når første del er nægtet, og anden del retter den ('ikke X, men Y'), bruger man sondern, ikke aber – selvom dansk siger 'men' i begge tilfælde.",
+        "Aber kan også forbinde to selvstændige sætninger; står det først i sætningen, stiller det sig op over for det, der lige er sagt."
+      ],
       "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "aber",
+            "Aber"
+          ],
+          "purple": [
+            "men",
+            "dog",
+            "meget gerne"
+          ]
+        },
         "examples": [
           {
             "de": {
@@ -680,7 +918,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Jeg"
+                "men"
               ]
             }
           },
@@ -692,7 +930,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Maden"
+                "men"
               ]
             }
           },
@@ -704,7 +942,31 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Han"
+                "men"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "aber"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "dog"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Aber"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "meget gerne"
               ]
             }
           }
@@ -713,80 +975,54 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "aber"
+                "sondern"
               ]
             },
-            "example": {
-              "green": [
-                "aber"
-              ],
+            "meaning": {
               "purple": [
-                "Ich"
+                "men (efter en nægtelse)"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "sondern"
+                "doch"
               ]
             },
-            "example": {
-              "yellow": [
-                "sondern"
-              ],
+            "meaning": {
               "purple": [
-                "Ich"
+                "dog, alligevel"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "jedoch"
+                "und"
               ]
             },
-            "example": {
-              "red": [
-                "jedoch"
-              ],
+            "meaning": {
               "purple": [
-                "ist"
+                "og"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "green": [
-              "aber"
-            ],
-            "purple": [
-              "Husk",
-              "Husk"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "purple": [
-              "aber",
-              "aber",
-              "aber",
-              "aber"
-            ]
-          }
+          {},
+          {}
         ]
-      },
-      "important": [
-        "aber viser det modsatte eller opposition.",
-        "Når det modsatte er \"ikke..., men...\", bruger på tysk normalt sondern."
-      ]
+      }
     }
   },
   {
     "de": "achten",
-    "lv": "At observere",
+    "lv": "At være opmærksom på • At respektere",
     "level": "A1"
   },
   {
@@ -812,48 +1048,76 @@ const A1_WORDS = [
   },
   {
     "de": "also",
-    "lv": "Derfor",
+    "lv": "Altså • Så",
     "level": "A1",
     "study": {
       "id": "a1-also",
       "layout": "standardStudy",
-      "translation": "Derfor",
-      "explanation": "Bruges til at drage en konklusion eller vise et resultat. Betyder \"derfor\", \"derfor\".",
+      "translation": "Altså • Så",
+      "explanation": [
+        "Grundbetydning: also udtrykker en konklusion: 'altså, så'. Es regnet, also bleiben wir zu Hause.",
+        "Som konklusionsord står also normalt først i sætningen eller efter et komma, og så følger udsagnsordet lige efter: Also gehen wir. I talesprog bruges det ofte som indledningsord ligesom dansk 'nå, altså': Also, wie war dein Tag?",
+        "Ordet also er ikke engelsk also ('også'); 'også' hedder auch på tysk. Til gengæld ligner det dansk 'altså'."
+      ],
       "examples": [
         {
-          "de": "Es regnet, also bleibe ich zu Hause.",
-          "lv": "Det regner, så jeg bliver hjemme."
+          "de": "Es regnet, also bleiben wir zu Hause.",
+          "lv": "Det regner, så vi bliver hjemme."
         },
         {
-          "de": "Du bist krank, also gehst du nicht zur Arbeit.",
-          "lv": "Du er syg, så gå ikke på arbejde."
+          "de": "Du bist müde, also geh ins Bett.",
+          "lv": "Du er træt, så gå i seng."
         },
         {
-          "de": "Ich habe viel gelernt, also verstehe ich es jetzt.",
-          "lv": "Jeg har studeret meget, så nu forstår jeg det."
+          "de": "Also, wie war dein Tag?",
+          "lv": "Nå, hvordan var din dag?"
+        },
+        {
+          "de": "Ich denke, also bin ich.",
+          "lv": "Jeg tænker, altså er jeg."
+        },
+        {
+          "de": "Also gut, dann bis morgen.",
+          "lv": "Okay, så ses vi i morgen."
         }
       ],
       "comparison": [
         {
-          "word": "also",
-          "meaning": "Så • Derfor",
-          "example": "Es regnet, also bleibe ich zu Hause. – Det regner, så jeg bliver hjemme."
-        },
-        {
           "word": "auch",
-          "meaning": "Også",
+          "meaning": "også",
           "example": "Ich komme auch. – Jeg kommer også."
         },
         {
           "word": "deshalb",
-          "meaning": "Derfor",
-          "example": "Es regnet, deshalb bleibe ich zu Hause. – Det regner, så jeg bliver hjemme."
+          "meaning": "derfor",
+          "example": "Es regnet, deshalb bleiben wir hier. – Det regner, derfor bliver vi her."
+        },
+        {
+          "word": "dann",
+          "meaning": "så, derefter",
+          "example": "Zuerst essen wir, dann gehen wir. – Først spiser vi, så går vi."
         }
       ],
-      "tip": {
-        "text": "Husk: konklusion → ogås."
-      },
+      "tip": [
+        "Also = 'altså, så' – med det kan du indlede en konklusion eller samle op på en tanke.",
+        "Når du siger ja til noget, kan du forstå Also gut! som 'nå, okay' eller 'så er det en aftale'."
+      ],
+      "important": [
+        "Also betyder ikke 'også' – forveksl det ikke med engelsk; 'også' hedder auch på tysk.",
+        "I talesprog er also ofte bare et indledningsord, som ikke skal oversættes ordret."
+      ],
       "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "also",
+            "Also"
+          ],
+          "purple": [
+            "altså",
+            "konklusion",
+            "nå, altså"
+          ]
+        },
         "examples": [
           {
             "de": {
@@ -863,7 +1127,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Det"
+                "så"
               ]
             }
           },
@@ -875,7 +1139,19 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "syg"
+                "så"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Also"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Nå"
               ]
             }
           },
@@ -887,7 +1163,19 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Jeg"
+                "altså"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Also"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Okay"
               ]
             }
           }
@@ -896,30 +1184,12 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "also"
-              ]
-            },
-            "example": {
-              "green": [
-                "also"
-              ],
-              "purple": [
-                "regnet"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
                 "auch"
               ]
             },
-            "example": {
-              "yellow": [
-                "auch"
-              ],
+            "meaning": {
               "purple": [
-                "Ich"
+                "også"
               ]
             }
           },
@@ -929,38 +1199,34 @@ const A1_WORDS = [
                 "deshalb"
               ]
             },
-            "example": {
-              "green": [
-                "deshalb"
-              ],
+            "meaning": {
               "purple": [
-                "regnet"
+                "derfor"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "dann"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "så, derefter"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "green": [
-              "Husk"
-            ],
-            "purple": [
-              "Husk"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "purple": [
-              "ogsga"
-            ]
-          }
+          {},
+          {}
         ]
-      },
-      "important": [
-        "ogsga viser en konklusion: den næste tanke følger af det før sagt.",
-        "Dansk 'derfor' kan ofte også være deshalb."
-      ]
+      }
     }
   },
   {
@@ -977,12 +1243,12 @@ const A1_WORDS = [
   },
   {
     "de": "anschauen",
-    "lv": "Se på",
+    "lv": "At se på",
     "level": "A1"
   },
   {
     "de": "anziehen",
-    "lv": "Tag på",
+    "lv": "At tage på",
     "level": "A1"
   },
   {
@@ -1013,7 +1279,7 @@ const A1_WORDS = [
     "de": "Antwort",
     "de_article": "die",
     "de_plural": "die Antworten",
-    "lv": "Svaret",
+    "lv": "Svar",
     "level": "A1"
   },
   {
@@ -1025,7 +1291,7 @@ const A1_WORDS = [
     "de": "Anzug",
     "de_article": "der",
     "de_plural": "die Anzüge",
-    "lv": "Et jakkesæt",
+    "lv": "Jakkesæt",
     "level": "A1"
   },
   {
@@ -1039,7 +1305,7 @@ const A1_WORDS = [
     "de": "Apfelsine",
     "de_article": "die",
     "de_plural": "die Apfelsinen",
-    "lv": "En appelsin",
+    "lv": "Appelsin",
     "level": "A1"
   },
   {
@@ -1071,7 +1337,7 @@ const A1_WORDS = [
     "de": "Arm",
     "de_article": "der",
     "de_plural": "die Arme",
-    "lv": "Hånd",
+    "lv": "Arm",
     "level": "A1"
   },
   {
@@ -1085,7 +1351,7 @@ const A1_WORDS = [
     "de": "Ärztin",
     "de_article": "die",
     "de_plural": "die Ärztinnen",
-    "lv": "En læge",
+    "lv": "Læge",
     "level": "A1"
   },
   {
@@ -1102,10 +1368,9 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Også",
       "explanation": [
-        "Hovedidé: Den mest almindelige og neutrale \"også\".",
-        "Auch betyder dybest set: simpelt 'også'.",
-        "Ofte karakteriseret ved: tilføjelse.",
-        "Auch er det mest almindelige ord for 'også'."
+        "Grundbetydning: auch betyder 'også, ligeledes': Ich komme auch. Det tilføjer endnu en person, ting eller kendsgerning til det, der allerede er sagt.",
+        "Auch bøjes ikke. Dets plads i sætningen afgør, hvad det henviser til: Auch ich habe Hunger (også jeg), Ich habe auch Hunger (jeg er også sulten). Ved nægtelse bruger man auch nicht – 'heller ikke'.",
+        "I talesprog kan auch forstærke et spørgsmål eller en bebrejdelse: Hast du auch daran gedacht? ('Har du nu også husket det?')."
       ],
       "examples": [
         {
@@ -1113,27 +1378,55 @@ const A1_WORDS = [
           "lv": "Jeg kommer også."
         },
         {
-          "de": "Sie arbeitet auch hier.",
-          "lv": "Jeg kommer også"
+          "de": "Er spricht Deutsch und auch Englisch.",
+          "lv": "Han taler tysk og også engelsk."
         },
         {
-          "de": "Ich wünsche Ihnen auch einen schönen Tag.",
-          "lv": "Hun arbejder også her."
+          "de": "Auch ich habe Hunger.",
+          "lv": "Også jeg er sulten."
+        },
+        {
+          "de": "Hast du auch Geschwister?",
+          "lv": "Har du også søskende?"
+        },
+        {
+          "de": "Ich mag keinen Fisch. – Ich auch nicht.",
+          "lv": "Jeg kan ikke lide fisk. – Det kan jeg heller ikke."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sogar",
+          "meaning": "endda, selv",
+          "example": "Sogar mein Opa kommt. – Selv min bedstefar kommer."
+        },
+        {
+          "word": "noch",
+          "meaning": "endnu, mere",
+          "example": "Ich möchte noch einen Kaffee. – Jeg vil gerne have en kop kaffe til."
+        },
+        {
+          "word": "also",
+          "meaning": "altså, så",
+          "example": "Es regnet, also bleiben wir hier. – Det regner, så vi bliver her."
         }
       ],
       "tip": [
-        "auch = også",
-        "Brug auch, når konteksten passer til denne betydning."
+        "Sæt auch lige foran det ord, det henviser til.",
+        "'Heller ikke' hedder auch nicht eller auch kein på tysk."
       ],
       "important": [
-        "Ich auch wünsche Ihnen er ikke den rigtige ordstilling.",
-        "auch = også.",
-        "Forkert: Ich auch wünsche Ihnen einen schönen Tag."
+        "Vil du sige 'en til, mere' om mængde, bruger du noch: noch ein Kaffee (en kop kaffe til), ikke auch.",
+        "Forveksl ikke auch med also: also betyder 'altså, så'."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "auch",
+            "Auch"
+          ],
           "purple": [
-            "Hovedidé"
+            "også"
           ]
         },
         "examples": [
@@ -1145,7 +1438,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Jeg"
+                "også"
               ]
             }
           },
@@ -1157,7 +1450,19 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Jeg"
+                "også"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Auch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Også"
               ]
             }
           },
@@ -1169,72 +1474,143 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Hun"
+                "også"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "auch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "heller ikke"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sogar"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "endda, selv"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "noch"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "endnu, mere"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "also"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "altså, så"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "auch"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "blue": [
-              "auch"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
   },
   {
     "de": "auf",
-    "lv": "Til",
+    "lv": "På • Op på",
     "level": "A1",
     "study": {
       "id": "a1-auf",
       "layout": "standardStudy",
-      "translation": "Til",
-      "explanation": "Bruges til at angive placering på eller bevægelse hen på en overflade eller et sted.",
+      "translation": "På • Op på",
+      "explanation": [
+        "Grundbetydning: auf betyder 'på' oven på en flade: auf dem Tisch (på bordet), auf der Straße (på gaden), auf dem Land (på landet). Det bruges også om sprog: auf Deutsch (på tysk).",
+        "Det er et vekselforholdsord: Wo? (hvor?) → dativ (auf dem Tisch), Wohin? (hvorhen?) → akkusativ (auf den Tisch). I forbindelsen warten auf + akkusativ betyder det 'at vente på nogen eller noget'.",
+        "Med intetkønsordet das trækkes det sammen til aufs (auf das): aufs Land fahren."
+      ],
       "examples": [
         {
-          "de": "Ich stelle das Buch auf den Tisch.",
-          "lv": "Jeg lagde bogen på bordet."
+          "de": "Das Buch liegt auf dem Tisch.",
+          "lv": "Bogen ligger på bordet."
         },
         {
-          "de": "Wir fahren auf den Berg.",
-          "lv": "Vi skal til bjerget."
+          "de": "Ich lege das Buch auf den Tisch.",
+          "lv": "Jeg lægger bogen på bordet."
         },
         {
-          "de": "Die Katze springt auf das Sofa.",
-          "lv": "Katten hopper i sofaen."
+          "de": "Wir warten auf den Bus.",
+          "lv": "Vi venter på bussen."
+        },
+        {
+          "de": "Wie sagt man das auf Deutsch?",
+          "lv": "Hvordan siger man det på tysk?"
+        },
+        {
+          "de": "Er wohnt auf dem Land.",
+          "lv": "Han bor på landet."
         }
       ],
       "comparison": [
         {
-          "word": "auf",
-          "meaning": "Til (overflade eller op)",
-          "example": "Ich stelle das Glas auf den Tisch. – Jeg satte glasset på bordet."
-        },
-        {
           "word": "an",
-          "meaning": "Ved (lodret overflade)",
-          "example": "Ich hänge das Bild an die Wand. – Jeg hænger billedet op på væggen."
+          "meaning": "ved, på (lodret flade)",
+          "example": "Das Bild hängt an der Wand. – Billedet hænger på væggen."
         },
         {
           "word": "in",
-          "meaning": "Indenfor",
-          "example": "Ich lege das Buch in die Tasche. – Jeg lagde bogen i min taske."
+          "meaning": "i, inde i",
+          "example": "Das Buch ist in der Tasche. – Bogen er i tasken."
+        },
+        {
+          "word": "über",
+          "meaning": "over",
+          "example": "Die Lampe hängt über dem Tisch. – Lampen hænger over bordet."
         }
       ],
-      "tip": {
-        "text": "Husk: på overfladen/over → auf."
-      },
+      "tip": [
+        "At vente hedder warten auf – præcis som dansk 'vente på' – og derefter følger akkusativ.",
+        "Sprogets navn efter auf skrives med stort: auf Deutsch."
+      ],
+      "important": [
+        "Ikke alle danske 'på' og 'til' bliver til auf: at rejse til Berlin hedder nach Berlin, ikke 'auf Berlin', og 'på mandag' hedder am Montag.",
+        "Efter warten auf står navneordet i akkusativ: auf den Bus."
+      ],
       "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "auf"
+          ],
+          "purple": [
+            "på",
+            "på tysk",
+            "på landet"
+          ]
+        },
         "examples": [
           {
             "de": {
@@ -1244,7 +1620,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Jeg"
+                "på"
               ]
             }
           },
@@ -1256,7 +1632,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "skal"
+                "på"
               ]
             }
           },
@@ -1268,7 +1644,31 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Katten"
+                "venter på"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "auf"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "på tysk"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "auf"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "på landet"
               ]
             }
           }
@@ -1277,28 +1677,12 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "auf"
-              ]
-            },
-            "example": {
-              "blue": [
-                "auf"
-              ],
-              "purple": [
-                "Ich"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
                 "an"
               ]
             },
-            "example": {
-              "green": [
-                "an",
-                "die"
+            "meaning": {
+              "purple": [
+                "ved, på"
               ]
             }
           },
@@ -1308,41 +1692,34 @@ const A1_WORDS = [
                 "in"
               ]
             },
-            "example": {
-              "yellow": [
-                "in"
+            "meaning": {
+              "purple": [
+                "i, inde i"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "über"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "over"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "auf"
-            ],
-            "purple": [
-              "Husk"
-            ],
-            "green": [
-              "Husk",
-              "Husk"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "purple": [
-              "auf",
-              "auf",
-              "auf"
-            ]
-          }
+          {},
+          {}
         ]
-      },
-      "important": [
-        "auf er ikke et hvilket som helst 'på'. Det betyder ofte at bevæge sig eller være på overfladen/overfladen.",
-        "Ved en lodret overflade bruges ofte an; inde i noget bruges in."
-      ]
+      }
     }
   },
   {
@@ -1352,17 +1729,17 @@ const A1_WORDS = [
   },
   {
     "de": "aufpassen",
-    "lv": "Vær forsigtig",
+    "lv": "At passe på",
     "level": "A1"
   },
   {
     "de": "aufstehen",
-    "lv": "Stå op",
+    "lv": "At stå op",
     "level": "A1"
   },
   {
     "de": "aufwärts",
-    "lv": "Op",
+    "lv": "Opad",
     "level": "A1"
   },
   {
@@ -1376,7 +1753,7 @@ const A1_WORDS = [
     "de": "Augenblick",
     "de_article": "der",
     "de_plural": "die Augenblicke",
-    "lv": "Et øjeblik",
+    "lv": "Øjeblik",
     "level": "A1"
   },
   {
@@ -1393,76 +1770,133 @@ const A1_WORDS = [
       "id": "a1-aus",
       "layout": "standardStudy",
       "translation": "Fra • Ud",
-      "explanation": "Bruges når noget kommer indefra, kommer ud eller angiver oprindelse.",
+      "explanation": [
+        "Grundbetydning: aus betyder 'fra, ud af' (indefra) og angiver oprindelse, materiale eller årsag: aus dem Haus (ud af huset), aus Lettland (fra Letland), aus Holz (af træ).",
+        "Forholdsordet styrer altid dativ: aus dem Haus, aus der Stadt, aus einem Buch.",
+        "I betydningen årsag udtrykker aus et følelsesmæssigt motiv: aus Angst (af frygt), aus Liebe (af kærlighed)."
+      ],
       "examples": [
         {
-          "de": "Ich komme aus Deutschland.",
-          "lv": "Jeg er fra tyskland."
+          "de": "Ich komme aus Lettland.",
+          "lv": "Jeg kommer fra Letland."
         },
         {
-          "de": "Er geht aus dem Haus.",
-          "lv": "Han forlader huset."
+          "de": "Er nimmt ein Heft aus der Tasche.",
+          "lv": "Han tager et hæfte op af tasken."
         },
         {
-          "de": "Ich nehme das Buch aus der Tasche.",
-          "lv": "Jeg tager bogen op af tasken."
+          "de": "Der Tisch ist aus Holz.",
+          "lv": "Bordet er lavet af træ."
+        },
+        {
+          "de": "Sie schweigt aus Angst.",
+          "lv": "Hun tier af frygt."
+        },
+        {
+          "de": "Der Zug aus Berlin hat Verspätung.",
+          "lv": "Toget fra Berlin er forsinket."
         }
       ],
       "comparison": [
         {
-          "word": "aus",
-          "meaning": "Indefra, ud af",
-          "example": "aus dem Haus – Hjemmefra"
-        },
-        {
           "word": "von",
-          "meaning": "Fra person, sted, overflade",
-          "example": "von meinem Freund – Fra min ven"
+          "meaning": "fra (en person, et punkt)",
+          "example": "Ich habe einen Brief von meiner Mutter. – Jeg har et brev fra min mor."
         },
         {
-          "word": "ab",
-          "meaning": "Starter fra et tidspunkt eller et tidspunkt",
-          "example": "ab Montag – Fra mandag"
+          "word": "bei",
+          "meaning": "hos, ved",
+          "example": "Ich bin bei meiner Oma. – Jeg er hos min bedstemor."
+        },
+        {
+          "word": "nach",
+          "meaning": "til (en by, et land)",
+          "example": "Ich fahre nach Berlin. – Jeg tager til Berlin."
         }
       ],
-      "tip": {
-        "text": "Husk: ud indefra → aus."
-      },
+      "tip": [
+        "Aus = 'ud af noget indefra': Auto, Haus, Tasche. Det modsatte er in.",
+        "Om oprindelse fra et land eller en by bruger man aus: Ich bin aus Riga."
+      ],
+      "important": [
+        "Efter aus står der altid dativ, aldrig akkusativ.",
+        "Den person, man får noget fra, står med von: ein Brief von Anna, ikke 'aus Anna'."
+      ],
       "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "aus",
+            "aus dem Haus",
+            "aus Lettland",
+            "aus Holz",
+            "aus Angst",
+            "aus Liebe"
+          ],
+          "purple": [
+            "fra",
+            "ud af",
+            "af træ",
+            "af frygt"
+          ]
+        },
         "examples": [
           {
             "de": {
-              "green": [
+              "blue": [
                 "aus"
               ]
             },
             "lv": {
               "purple": [
-                "Jeg"
+                "fra"
               ]
             }
           },
           {
             "de": {
-              "green": [
+              "blue": [
                 "aus"
               ]
             },
             "lv": {
               "purple": [
-                "Han"
+                "op af"
               ]
             }
           },
           {
             "de": {
-              "green": [
+              "blue": [
                 "aus"
               ]
             },
             "lv": {
               "purple": [
-                "Jeg"
+                "af"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "aus"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "af frygt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "aus"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "fra"
               ]
             }
           }
@@ -1471,72 +1905,49 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "aus"
+                "von"
               ]
             },
-            "example": {
-              "green": [
-                "aus"
-              ],
+            "meaning": {
               "purple": [
-                "aus"
+                "fra (en person, et punkt)"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "von"
+                "bei"
               ]
             },
-            "example": {
-              "green": [
-                "von"
-              ],
+            "meaning": {
               "purple": [
-                "von"
+                "hos, ved"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "ab"
+                "nach"
               ]
             },
-            "example": {
-              "yellow": [
-                "ab"
-              ],
+            "meaning": {
               "purple": [
-                "Montag"
+                "til (en by, et land)"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "green": [
-              "aus"
-            ],
-            "purple": [
-              "Husk"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "purple": [
-              "aus",
-              "aus"
-            ]
-          }
+          {},
+          {}
         ]
-      },
-      "important": [
-        "aus viser normalt bevægelse ud indefra eller oprindelse.",
-        "Hvis det kun drejer sig om et udgangspunkt i tid eller sted, bruges ofte ab."
-      ]
+      }
     }
   },
   {
@@ -1551,96 +1962,75 @@ const A1_WORDS = [
   },
   {
     "de": "aufs",
-    "lv": "Til • På • Hvor?",
+    "lv": "På • Op på",
     "level": "A1",
     "study": {
       "id": "a1-aufs",
       "layout": "standardStudy",
-      "translation": "Til • På • Hvor?",
+      "translation": "På • Op på",
       "explanation": [
-        "Aufs er en forkortelse af præpositionen auf og artiklen das.",
-        "Fuld form: auf das (hvor?).",
-        "Bruges når handlingen angiver retningen til en specifik ting eller overflade - besvarer spørgsmålet hvor?",
-        "Bruges ofte med bevægelse: klatre, sæt dig ned, læg ned, kør hen til noget.",
-        "I dagligtale og daglig tale bruges aufs næsten altid i stedet for den fulde auf das."
+        "Grundbetydning: aufs er en sammentrækning af auf das og betyder 'på, op på' foran et intetkønsord ved spørgsmålet Wohin? (hvorhen?): aufs Dach, aufs Bett, aufs Land.",
+        "Aufs er en akkusativform: auf + das Bett → aufs Bett. I dativ (Wo?) findes formen aufs ikke: auf dem Bett.",
+        "Det indgår også i faste udtryk: sich aufs Wochenende freuen (at glæde sig til weekenden), aufs Beste (på bedste måde)."
       ],
       "examples": [
         {
-          "de": "Ich gehe aufs Dach.",
-          "lv": "Jeg går op på taget"
+          "de": "Ich lege das Handy aufs Bett.",
+          "lv": "Jeg lægger mobilen på sengen."
         },
         {
-          "de": "Sie setzt sich aufs Sofa.",
-          "lv": "Hun sætter sig på sofaen."
+          "de": "Am Wochenende fahren wir aufs Land.",
+          "lv": "I weekenden tager vi ud på landet."
         },
         {
-          "de": "Wir fahren aufs Land.",
-          "lv": "Vi går på landet."
+          "de": "Die Katze springt aufs Sofa.",
+          "lv": "Katten springer op på sofaen."
         },
         {
-          "de": "Stell die Tasche aufs Bett.",
-          "lv": "Læg posen på sengen."
+          "de": "Er klettert aufs Dach.",
+          "lv": "Han klatrer op på taget."
         },
         {
-          "de": "Er springt aufs Pferd.",
-          "lv": "Han går op på en hest."
-        },
-        {
-          "de": "Leg das Buch aufs Regal.",
-          "lv": "Læg bogen på hylden."
-        },
-        {
-          "de": "Komm schnell aufs Boot!",
-          "lv": "Kom hurtigt til båden!"
-        },
-        {
-          "de": "Wir gehen aufs Fest.",
-          "lv": "Vi skal til fest."
+          "de": "Ich freue mich aufs Wochenende.",
+          "lv": "Jeg glæder mig til weekenden."
         }
       ],
       "comparison": [
         {
-          "word": "aufs",
-          "meaning": "Til en konkret sag (Akk.)",
-          "example": "aufs Dach – På taget"
+          "word": "auf das",
+          "meaning": "på (fuld form)",
+          "example": "Ich lege das Buch auf das Bett. – Jeg lægger bogen på sengen."
         },
         {
-          "word": "auf",
-          "meaning": "Til overfladen eller op",
-          "example": "auf den Tisch – På bordet"
+          "word": "auf dem",
+          "meaning": "på (dativ)",
+          "example": "Das Buch liegt auf dem Bett. – Bogen ligger på sengen."
         },
         {
-          "word": "an",
-          "meaning": "På en lodret overflade",
-          "example": "an die Wand – Ved væggen"
-        },
-        {
-          "word": "ins",
-          "meaning": "Indad",
-          "example": "ins Zimmer – I rummet"
-        },
-        {
-          "word": "zum",
-          "meaning": "Til / hos (hvem?)",
-          "example": "zum Arzt – Til lægen"
+          "word": "auf den",
+          "meaning": "på (hankøn, akkusativ)",
+          "example": "Ich lege das Buch auf den Tisch. – Jeg lægger bogen på bordet."
         }
       ],
       "tip": [
-        "Husk: auf + das → aufs (kurp?, kurp?).",
-        "Den fulde auf das tales næsten aldrig i daglig tale - aufs bruges."
+        "Aufs bruges kun med intetkønsord i akkusativ: das Bett → aufs Bett.",
+        "Når das er betonet, skriver man den fulde form auf das."
       ],
       "important": [
-        "aufs = auf das, kun med et navneord af ethvert køn, hvor? i bøjning.",
-        "Svar på hvor? — bevægelse til et bestemt sted eller overflade.",
-        "På en vandret overflade bruges ofte auf den i stedet for aufs.",
-        "Ikke at forveksle med en (på væggen) eller ins (inde i rummet)."
+        "Med hankøns- og hunkønsord bruger man ikke aufs: auf den Tisch, auf die Straße.",
+        "Ved stilstand (Wo?) siger man auf dem Bett, ikke 'aufs Bett'."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "aufs",
+            "auf das",
+            "auf dem",
+            "aufs Bett",
+            "aufs Dach"
+          ],
           "purple": [
-            "Aufs",
-            "Aufs",
-            "Aufs"
+            "på, op på"
           ]
         },
         "examples": [
@@ -1652,7 +2042,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Jeg"
+                "på"
               ]
             }
           },
@@ -1664,7 +2054,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Hun"
+                "på"
               ]
             }
           },
@@ -1676,7 +2066,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "går"
+                "op på"
               ]
             }
           },
@@ -1688,7 +2078,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Læg"
+                "op på"
               ]
             }
           },
@@ -1700,43 +2090,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Han"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "aufs"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Læg"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "aufs"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Kom"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "aufs"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "skal"
+                "glæder mig til"
               ]
             }
           }
@@ -1745,104 +2099,47 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "aufs"
+                "auf das"
               ]
             },
             "meaning": {
               "purple": [
-                "Til"
-              ]
-            },
-            "example": {
-              "blue": [
-                "aufs Dach"
+                "på (fuld form)"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "auf"
+                "auf dem"
               ]
             },
             "meaning": {
               "purple": [
-                "Til"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "auf den Tisch"
+                "på (dativ)"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "an"
+                "auf den"
               ]
             },
             "meaning": {
               "purple": [
-                "lodret"
-              ]
-            },
-            "example": {
-              "green": [
-                "an die Wand"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "ins"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Indad"
-              ]
-            },
-            "example": {
-              "green": [
-                "ins Zimmer"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "zum"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Til",
-                "Til"
-              ]
-            },
-            "example": {
-              "red": [
-                "zum Arzt"
+                "på (hankøn, akkusativ)"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "kurp?",
-              "auf das"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "purple": [
-              "auf das"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -1898,69 +2195,78 @@ const A1_WORDS = [
   },
   {
     "de": "baden",
-    "lv": "At svømme",
+    "lv": "At bade",
     "level": "A1",
     "study": {
       "id": "a1-baden",
       "layout": "standardStudy",
-      "translation": "At svømme",
+      "translation": "At bade",
       "explanation": [
-        "Hovedidé: baden betyder at bade, være i vand eller nyde vand.",
-        "Baden bruges, når det kommer til rekreation i vandet, søen, havet eller poolen.",
-        "Baden kan også betyde at tage et bad.",
-        "Når vægten er på selve bevægelsen eller svømningssporten, er schwimmen mere almindeligt brugt på tysk."
+        "Grundbetydning: baden betyder at tage et karbad eller at bade i vand for fornøjelsens skyld: im See baden (at bade i søen), in der Wanne baden (at tage et karbad). Former: er badet, badete, hat gebadet.",
+        "Udsagnsordet er regelmæssigt og står ofte sammen med gehen: baden gehen (at tage ud og bade). Med et genstandsled betyder det 'at bade nogen': das Baby baden.",
+        "At svømme som bevægelse (fx at svømme en bestemt distance) hedder schwimmen, ikke baden."
       ],
       "examples": [
         {
-          "de": "Ich gehe baden.",
-          "lv": "Jeg svømmer"
+          "de": "Im Sommer baden wir im See.",
+          "lv": "Om sommeren bader vi i søen."
         },
         {
-          "de": "Wir gehen im See baden.",
-          "lv": "Vi svømmer i søen."
+          "de": "Abends bade ich gern in der Wanne.",
+          "lv": "Om aftenen bader jeg gerne i badekarret."
         },
         {
-          "de": "Er schwimmt sehr gut.",
-          "lv": "Han svømmer meget godt."
+          "de": "Sie badet das Baby.",
+          "lv": "Hun bader babyen."
         },
         {
-          "de": "Ich schwimme jeden Montag.",
-          "lv": "Jeg svømmer hver mandag."
+          "de": "Wollen wir morgen baden gehen?",
+          "lv": "Skal vi tage ud og bade i morgen?"
+        },
+        {
+          "de": "Hier darf man nicht baden.",
+          "lv": "Her må man ikke bade."
         }
       ],
       "comparison": [
         {
-          "word": "baden",
-          "meaning": "Svøm/vær i vand/vask",
-          "example": "Ich gehe baden. = Jeg går badning."
-        },
-        {
           "word": "schwimmen",
-          "meaning": "At svømme som en bevægelse eller sport",
-          "example": "Er schwimmt sehr gut. = Han svømmer meget godt."
+          "meaning": "at svømme",
+          "example": "Er schwimmt jeden Tag im Pool. – Han svømmer i poolen hver dag."
         },
         {
           "word": "duschen",
-          "meaning": "Tag et brusebad",
-          "example": "Ich dusche am Morgen. = Jeg bader om morgenen."
+          "meaning": "at tage brusebad",
+          "example": "Ich dusche jeden Morgen. – Jeg tager brusebad hver morgen."
         },
         {
-          "word": "schwimmen gehen",
-          "meaning": "Tag på svømning",
-          "example": "Ich gehe heute schwimmen. = Jeg går i dag til at svømme."
+          "word": "sich waschen",
+          "meaning": "at vaske sig",
+          "example": "Ich wasche mich schnell. – Jeg vasker mig hurtigt."
         }
       ],
-      "tip": {
-        "text": "Husk: hvile i vand → baden; svømmebevægelse → schwimmen."
-      },
+      "tip": [
+        "Baden gehen = at tage ud og bade. Prøv at bruge udtrykket om sommeren.",
+        "Sammenlign med schwimmen og duschen – de er ikke synonymer."
+      ],
       "important": [
-        "baden og schwimmen er ikke synonyme.",
-        "på dansk siger man ofte bare \"at svømme\", men på tysk skal man vælge efter situationen."
+        "Baden betyder ikke 'at svømme' som sport – dertil bruger man schwimmen.",
+        "At tage brusebad hedder duschen, ikke baden. Pas på: dansk 'gå i bad' betyder som regel et brusebad og hedder derfor duschen."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "baden",
+            "badet",
+            "badete",
+            "gebadet",
+            "baden gehen",
+            "das Baby baden"
+          ],
           "purple": [
-            "Hovedidé"
+            "at bade",
+            "at tage et karbad",
+            "at bade nogen"
           ]
         },
         "examples": [
@@ -1972,7 +2278,31 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Jeg"
+                "bader"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bade"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "bader"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "badet"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "bader"
               ]
             }
           },
@@ -1980,38 +2310,23 @@ const A1_WORDS = [
             "de": {
               "blue": [
                 "baden"
-              ],
-              "green": [
-                "See"
               ]
             },
             "lv": {
               "purple": [
-                "svømmer"
+                "bade"
               ]
             }
           },
           {
             "de": {
-              "red": [
-                "schwimmt"
+              "blue": [
+                "baden"
               ]
             },
             "lv": {
-              "red": [
-                "Han"
-              ]
-            }
-          },
-          {
-            "de": {
-              "red": [
-                "schwimme"
-              ]
-            },
-            "lv": {
-              "red": [
-                "Jeg"
+              "purple": [
+                "bade"
               ]
             }
           }
@@ -2020,38 +2335,12 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "baden"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Svøm/vær",
-                "Svøm/vær",
-                "Svøm/vær"
-              ]
-            },
-            "example": {
-              "blue": [
-                "baden"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
                 "schwimmen"
               ]
             },
             "meaning": {
               "purple": [
-                "svømme",
-                "svømme",
-                "sport"
-              ]
-            },
-            "example": {
-              "red": [
-                "schwimmt"
+                "at svømme"
               ]
             }
           },
@@ -2063,53 +2352,30 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Tag"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "dusche"
+                "at tage brusebad"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "schwimmen gehen"
+                "sich waschen"
               ]
             },
             "meaning": {
               "purple": [
-                "svømning"
-              ]
-            },
-            "example": {
-              "green": [
-                "schwimmen"
+                "at vaske sig"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "baden"
-            ],
-            "purple": [
-              "Husk"
-            ],
-            "red": [
-              "schwimmen",
-              "Husk"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "purple": [
-              "baden"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -2151,12 +2417,12 @@ const A1_WORDS = [
     "de": "Baum",
     "de_article": "der",
     "de_plural": "die Bäume",
-    "lv": "Et træ",
+    "lv": "Træ",
     "level": "A1"
   },
   {
     "de": "bedeuten",
-    "lv": "Betyde",
+    "lv": "At betyde",
     "level": "A1"
   },
   {
@@ -2168,81 +2434,143 @@ const A1_WORDS = [
   },
   {
     "de": "beginnen",
-    "lv": "For at starte",
+    "lv": "At begynde",
     "level": "A1"
   },
   {
     "de": "bei",
-    "lv": "På",
+    "lv": "Hos • Ved",
     "level": "A1",
     "study": {
       "id": "a1-bei",
       "layout": "standardStudy",
-      "translation": "På",
-      "explanation": "Bruges, når noget er hos eller i nærheden af en person, organisation eller et sted, og også i visse situationer eller omstændigheder.",
+      "translation": "Hos • Ved",
+      "explanation": [
+        "Grundbetydning: bei angiver placering hos en person, en virksomhed eller i nærheden af et sted: bei meiner Oma (hos min bedstemor), bei der Bank (i banken, ved banken), beim Arzt (hos lægen).",
+        "Styrer kun dativ. Sammentrækning: bei dem → beim. Bruges også om, mens noget foregår: beim Essen (mens man spiser), beim Lernen (mens man lærer).",
+        "At arbejde i en virksomhed: bei Siemens arbeiten. Bei udtrykker ikke bevægelse hen til nogen, kun befindelse; om bevægelse bruger man zu."
+      ],
       "examples": [
         {
-          "de": "Ich bin bei meinem Freund.",
-          "lv": "Jeg er hjemme hos min ven."
+          "de": "Ich wohne bei meiner Tante.",
+          "lv": "Jeg bor hos min tante."
         },
         {
-          "de": "Sie arbeitet bei Siemens.",
-          "lv": "Hun arbejder for Siemens."
+          "de": "Sie arbeitet bei einer Bank.",
+          "lv": "Hun arbejder i en bank."
         },
         {
-          "de": "Bei Regen bleiben wir zu Hause.",
-          "lv": "Vi bliver hjemme, når det regner."
+          "de": "Er ist beim Arzt.",
+          "lv": "Han er hos lægen."
+        },
+        {
+          "de": "Beim Essen spricht man nicht.",
+          "lv": "Man taler ikke, mens man spiser."
+        },
+        {
+          "de": "Das Hotel liegt bei dem Bahnhof.",
+          "lv": "Hotellet ligger ved banegården."
         }
       ],
       "comparison": [
         {
-          "word": "bei",
-          "meaning": "Hos en person, virksomhed eller under visse omstændigheder",
-          "example": "Ich bin bei meiner Schwester. – Jeg er hos min søster."
+          "word": "zu",
+          "meaning": "hen til, til (hvorhen?)",
+          "example": "Ich gehe zu meiner Oma. – Jeg går hen til min bedstemor."
         },
         {
           "word": "an",
-          "meaning": "Ved en væg, kant, kyst eller anden afgrænset overflade",
-          "example": "Das Bild hängt an der Wand. – Billedet hænger på væggen."
+          "meaning": "ved (en flade)",
+          "example": "Er steht am Fenster. – Han står ved vinduet."
         },
         {
-          "word": "zu",
-          "meaning": "Wen skal til (retning)",
-          "example": "Ich gehe zu meinem Freund. – Jeg skal til min ven."
+          "word": "mit",
+          "meaning": "med",
+          "example": "Ich gehe mit Anna. – Jeg går med Anna."
         }
       ],
-      "tip": {
-        "text": "Husk: hos en person/sted/virksomhed → bei."
-      },
+      "tip": [
+        "Bei = at være hos nogen, zu = at gå hen til nogen: Ich bin beim Arzt, Ich gehe zum Arzt.",
+        "Beim + navneord dannet af et udsagnsord (beim Essen, beim Lernen) er en praktisk måde at sige 'mens man gør noget' på."
+      ],
+      "important": [
+        "Bei styrer altid dativ, aldrig akkusativ.",
+        "På spørgsmålet Wohin? (hvorhen?) kan bei ikke bruges – der bruger man zu eller nach."
+      ],
       "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "bei",
+            "beim",
+            "bei meiner Oma",
+            "bei der Bank",
+            "bei dem"
+          ],
+          "purple": [
+            "hos",
+            "ved",
+            "hos lægen",
+            "mens man spiser"
+          ]
+        },
         "examples": [
           {
-            "blue": [
-              "bei"
-            ],
             "de": {
               "blue": [
                 "bei"
               ]
-            }
-          },
-          {
-            "blue": [
-              "bei"
-            ],
-            "de": {
-              "blue": [
-                "bei"
+            },
+            "lv": {
+              "purple": [
+                "hos"
               ]
             }
           },
           {
-            "blue": [
-              "Bei"
-            ],
             "de": {
               "blue": [
-                "Bei"
+                "bei"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "i"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "beim"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "hos"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Beim"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "mens man spiser"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bei"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ved"
               ]
             }
           }
@@ -2250,13 +2578,13 @@ const A1_WORDS = [
         "comparison": [
           {
             "word": {
-              "purple": [
-                "bei"
+              "green": [
+                "zu"
               ]
             },
-            "example": {
+            "meaning": {
               "purple": [
-                "bei"
+                "hen til, til"
               ]
             }
           },
@@ -2266,49 +2594,34 @@ const A1_WORDS = [
                 "an"
               ]
             },
-            "example": {
-              "green": [
-                "an"
+            "meaning": {
+              "purple": [
+                "ved"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "zu"
+                "mit"
               ]
             },
-            "example": {
-              "red": [
-                "zu"
+            "meaning": {
+              "purple": [
+                "med"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "purple": [
-              "bei"
-            ],
-            "green": [
-              "Husk",
-              "Husk",
-              "Husk"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "purple": [
-              "bei"
-            ]
-          }
+          {},
+          {}
         ]
-      },
-      "important": [
-        "bei betyder ofte på en person, på et sted eller på en virksomhed.",
-        "Når det kommer til at flytte til overfladen, har du normalt brug for auf, ikke bei."
-      ]
+      }
     }
   },
   {
@@ -2327,7 +2640,7 @@ const A1_WORDS = [
     "de": "Beispiel",
     "de_article": "das",
     "de_plural": "die Beispiele",
-    "lv": "Et eksempel",
+    "lv": "Eksempel",
     "level": "A1"
   },
   {
@@ -2337,7 +2650,7 @@ const A1_WORDS = [
   },
   {
     "de": "benutzen",
-    "lv": "Bruge",
+    "lv": "At bruge",
     "level": "A1"
   },
   {
@@ -2354,71 +2667,85 @@ const A1_WORDS = [
   },
   {
     "de": "beste",
-    "lv": "Den bedste",
+    "lv": "Bedst",
     "level": "A1"
   },
   {
     "de": "Besuch",
     "de_article": "der",
     "de_plural": "die Besuche",
-    "lv": "Et besøg",
+    "lv": "Besøg",
     "level": "A1",
     "study": {
       "id": "a1-besuch",
       "layout": "standardStudy",
-      "translation": "Et besøg",
+      "translation": "Besøg",
       "explanation": [
-        "Hovedidé: der Besuch betyder et besøg hos en person, på et sted eller i forbindelse med en begivenhed.",
-        "På dansk oversættes Besuch normalt med besøg.",
-        "Det kan både være et socialt besøg og et besøg på for eksempel et museum.",
-        "Flertal: die Besuche."
+        "Grundbetydning: der Besuch er et hankønsord med to hovedbetydninger: besøg (det at besøge et sted, Besuch im Museum) og gæster eller det at være på besøg (Wir haben Besuch). Bemærk, at tysk Besuch er hankøn, mens dansk besøg er intetkøn.",
+        "Flertal er die Besuche. Om gæster bruger man normalt ental uden kendeord: Wir bekommen Besuch (vi får besøg); om det at være på besøg: zu Besuch sein (at være på besøg).",
+        "Den person, der er på besøg, kalder man der Gast; der Besuch er selve handlingen eller dem, der kommer, samlet set."
       ],
       "examples": [
         {
-          "de": "Der Besuch im Museum war interessant.",
-          "lv": "Besøget på museet var interessant."
+          "de": "Der Besuch im Museum dauert zwei Stunden.",
+          "lv": "Besøget på museet varer to timer."
         },
         {
-          "de": "Danke für deinen Besuch.",
-          "lv": "Tak for dit besøg."
+          "de": "Wir bekommen morgen Besuch aus Berlin.",
+          "lv": "I morgen får vi besøg fra Berlin."
         },
         {
-          "de": "Der Arzt macht einen Besuch.",
-          "lv": "Lægen kommer på hjemmebesøg."
+          "de": "Ich freue mich auf deinen Besuch.",
+          "lv": "Jeg glæder mig til dit besøg."
+        },
+        {
+          "de": "Meine Oma ist zu Besuch.",
+          "lv": "Min bedstemor er på besøg."
+        },
+        {
+          "de": "Nach dem Besuch beim Arzt gehe ich einkaufen.",
+          "lv": "Efter besøget hos lægen går jeg ud og handler."
         }
       ],
       "comparison": [
         {
-          "word": "der Besuch",
-          "meaning": "besøg • socialt besøg • hjemmebesøg",
-          "example": "Danke für deinen Besuch. – Tak for dit besøg."
-        },
-        {
-          "word": "der Besucher",
-          "meaning": "besøgende",
-          "example": "Der Besucher wartet draußen. – Besøgende venter udenfor."
+          "word": "der Gast",
+          "meaning": "gæst (personen)",
+          "example": "Er ist unser Gast. – Han er vores gæst."
         },
         {
           "word": "besuchen",
           "meaning": "at besøge",
-          "example": "Ich besuche meine Großeltern. – Jeg besøger mine bedsteforældre."
+          "example": "Ich besuche meine Oma. – Jeg besøger min bedstemor."
+        },
+        {
+          "word": "der Ausflug",
+          "meaning": "udflugt",
+          "example": "Wir machen einen Ausflug. – Vi tager på udflugt."
         }
       ],
-      "tip": {
-        "text": "Husk: Besuch er selve besøget, mens Besucher er personen, der besøger et sted."
-      },
+      "tip": [
+        "'Vi har gæster' siger du som Wir haben Besuch – uden kendeord og uden flertal, ligesom dansk 'vi har besøg'.",
+        "Zu Besuch sein = at være på besøg; zu Besuch kommen = at komme på besøg."
+      ],
       "important": [
-        "der Besuch kan bruges om forskellige former for besøg.",
-        "Flertal: die Besuche."
+        "Flertallet Besuche betyder flere besøg, ikke flere gæster.",
+        "Der Besuch og der Gast er ikke det samme: Gast er selve personen."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "der Besuch",
-            "die Besuche"
+            "Besuch",
+            "die Besuche",
+            "Wir haben Besuch",
+            "zu Besuch sein",
+            "der Gast"
           ],
           "purple": [
-            "besøg"
+            "besøg",
+            "gæster",
+            "på besøg"
           ]
         },
         "examples": [
@@ -2426,17 +2753,11 @@ const A1_WORDS = [
             "de": {
               "blue": [
                 "Besuch"
-              ],
-              "green": [
-                "Museum"
               ]
             },
             "lv": {
               "purple": [
                 "Besøget"
-              ],
-              "green": [
-                "museet"
               ]
             }
           },
@@ -2456,17 +2777,35 @@ const A1_WORDS = [
             "de": {
               "blue": [
                 "Besuch"
-              ],
-              "green": [
-                "Arzt"
               ]
             },
             "lv": {
               "purple": [
-                "hjemmebesøg"
-              ],
-              "green": [
-                "Lægen"
+                "besøg"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Besuch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "på besøg"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Besuch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "besøget"
               ]
             }
           }
@@ -2475,26 +2814,12 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "der Besuch"
+                "der Gast"
               ]
             },
             "meaning": {
               "purple": [
-                "besøg",
-                "socialt",
-                "hjemmebesøg"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "der Besucher"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "besøgende"
+                "gæst"
               ]
             }
           },
@@ -2506,36 +2831,30 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "besøge"
+                "at besøge"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Ausflug"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "udflugt"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "Besuch"
-            ],
-            "purple": [],
-            "green": [
-              "Besucher"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "blue": [
-              "der Besuch"
-            ],
-            "purple": [
-              "besøg"
-            ]
-          },
-          {
-            "blue": [
-              "die Besuche"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -2549,67 +2868,77 @@ const A1_WORDS = [
   },
   {
     "de": "besuchen",
-    "lv": "At deltage • At besøge",
+    "lv": "At besøge",
     "level": "A1",
     "study": {
       "id": "a1-besuchen",
       "layout": "standardStudy",
       "translation": "At besøge",
       "explanation": [
-        "Hovedidé: besuchen betyder at besøge en person eller et sted.",
-        "Man kan for eksempel besøge familie, venner, en by eller et museum.",
-        "I visse sammenhænge kan besuchen også bruges om at gå på eller deltage i noget, for eksempel en skole eller et kursus.",
-        "Bøjes: ich besuche, du besuchst, er/sie/es besucht."
+        "Grundbetydning: besuchen betyder at besøge et sted eller at tage på besøg hos en person – ligesom dansk 'besøge'. Det styrer akkusativ: Ich besuche meine Oma, Wir besuchen das Museum. Om skole og kurser: die Schule besuchen (at gå i skole), einen Kurs besuchen (at gå på et kursus).",
+        "Former: er besucht, besuchte, hat besucht. Forstavelsen be- er uadskillelig, derfor ich besuche, wir haben besucht; ge- bruges ikke.",
+        "At komme hen til nogen kan også hedde zu jemandem gehen, men besuchen understreger et bevidst besøg."
       ],
       "examples": [
         {
-          "de": "Ich besuche das Museum.",
-          "lv": "Vi besøger museet."
+          "de": "Ich besuche meine Oma jeden Sonntag.",
+          "lv": "Jeg besøger min bedstemor hver søndag."
         },
         {
-          "de": "Wir besuchen einen Deutschkurs.",
-          "lv": "Han besøger en ven."
+          "de": "Wir besuchen morgen das Museum.",
+          "lv": "I morgen besøger vi museet."
         },
         {
-          "de": "Ich besuche meine Großeltern.",
-          "lv": "Jeg besøger mine bedsteforældre."
+          "de": "Er besucht einen Deutschkurs.",
+          "lv": "Han går på et tyskkursus."
+        },
+        {
+          "de": "Hast du ihn im Krankenhaus besucht?",
+          "lv": "Har du besøgt ham på hospitalet?"
+        },
+        {
+          "de": "Sie besucht ihre Freundin in Berlin.",
+          "lv": "Hun besøger sin veninde i Berlin."
         }
       ],
       "comparison": [
         {
-          "word": "besuchen",
-          "meaning": "at besøge en person eller et sted",
-          "example": "Ich besuche meine Großeltern. – Jeg besøger mine bedsteforældre."
-        },
-        {
-          "word": "treffen",
-          "meaning": "at møde",
-          "example": "Ich treffe meinen Freund. – Jeg møder min ven."
+          "word": "besichtigen",
+          "meaning": "at bese (som turist)",
+          "example": "Wir besichtigen das Schloss. – Vi beser slottet."
         },
         {
           "word": "zu jemandem gehen",
-          "meaning": "at gå til nogen",
-          "example": "Ich gehe zu meinem Freund. – Jeg går til min ven."
+          "meaning": "at gå hen til nogen",
+          "example": "Ich gehe zu Anna. – Jeg går hen til Anna."
+        },
+        {
+          "word": "teilnehmen",
+          "meaning": "at deltage",
+          "example": "Er nimmt am Kurs teil. – Han deltager i kurset."
         }
       ],
-      "tip": {
-        "text": "Husk: besuchen = at besøge en person eller et sted."
-      },
+      "tip": [
+        "Besuchen styrer akkusativ uden forholdsord: jemanden besuchen, ikke 'zu jemandem besuchen'.",
+        "I førnutid: hat besucht, ikke 'hat gebesucht'."
+      ],
       "important": [
-        "besuchen bruges med akkusativ.",
-        "besuchen er ikke det samme som sehen (at se)."
+        "Besuchen er et uadskilleligt udsagnsord, derfor har kort tillægsform ikke ge-.",
+        "Med besuchen kan man tale både om personer og om steder eller arrangementer."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "besuchen"
+            "besuchen",
+            "besucht",
+            "besuchte",
+            "hat besucht",
+            "die Schule besuchen",
+            "Ich besuche meine Oma"
           ],
           "purple": [
-            "besøge"
-          ],
-          "green": [
-            "person",
-            "sted"
+            "at besøge",
+            "på besøg"
           ]
         },
         "examples": [
@@ -2617,17 +2946,11 @@ const A1_WORDS = [
             "de": {
               "blue": [
                 "besuche"
-              ],
-              "green": [
-                "Großeltern"
               ]
             },
             "lv": {
               "purple": [
                 "besøger"
-              ],
-              "green": [
-                "bedsteforældre"
               ]
             }
           },
@@ -2635,17 +2958,11 @@ const A1_WORDS = [
             "de": {
               "blue": [
                 "besuchen"
-              ],
-              "green": [
-                "Museum"
               ]
             },
             "lv": {
               "purple": [
                 "besøger"
-              ],
-              "green": [
-                "museet"
               ]
             }
           },
@@ -2653,17 +2970,35 @@ const A1_WORDS = [
             "de": {
               "blue": [
                 "besucht"
-              ],
-              "green": [
-                "Freund"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "går på"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "besucht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "besøgt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "besucht"
               ]
             },
             "lv": {
               "purple": [
                 "besøger"
-              ],
-              "green": [
-                "ven"
               ]
             }
           }
@@ -2672,37 +3007,12 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "besuchen"
+                "besichtigen"
               ]
             },
             "meaning": {
               "purple": [
-                "besøge"
-              ]
-            },
-            "example": {
-              "blue": [
-                "besuche"
-              ],
-              "purple": [
-                "besøger"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "treffen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "møde"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "treffe"
+                "at bese (som turist)"
               ]
             }
           },
@@ -2714,39 +3024,30 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "gå"
+                "at gå hen til nogen"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "teilnehmen"
               ]
             },
-            "example": {
-              "yellow": [
-                "gehe"
+            "meaning": {
+              "purple": [
+                "at deltage"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "besuchen"
-            ],
-            "purple": [
-              "besøge"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "blue": [
-              "besuchen"
-            ],
-            "purple": [
-              "akkusativ"
-            ]
-          },
-          {
-            "green": [],
-            "purple": []
-          }
+          {},
+          {}
         ]
       }
     }
@@ -2755,7 +3056,7 @@ const A1_WORDS = [
     "de": "Bett",
     "de_article": "das",
     "de_plural": "die Betten",
-    "lv": "Sengen",
+    "lv": "Seng",
     "level": "A1"
   },
   {
@@ -2766,131 +3067,173 @@ const A1_WORDS = [
       "id": "a1-bis",
       "layout": "standardStudy",
       "translation": "Indtil",
-      "explanation": "Refererer til en grænse, et tidspunkt eller en tilstand.",
+      "explanation": [
+        "Grundbetydning: bis angiver en grænse i tid eller sted: indtil, til. Bis Montag (indtil mandag), bis 18 Uhr (til kl. 18), bis Berlin (til Berlin).",
+        "Bis står normalt uden kendeord og uden kasusendelse foran navne og tidsangivelser: bis morgen, bis Freitag. Om steder ofte: bis zum Bahnhof (bis zu + dativ). Om et tidsrum bruger man von … bis …: von 9 bis 17 Uhr.",
+        "Bis kan også være bindeordet 'indtil, til': Warte, bis ich komme – udsagnsordet står sidst i sætningen."
+      ],
       "examples": [
         {
-          "de": "Ich warte bis zu deiner Ankunft.",
-          "lv": "Jeg venter på din ankomst."
+          "de": "Ich arbeite bis 17 Uhr.",
+          "lv": "Jeg arbejder til kl. 17."
         },
         {
-          "de": "Bleib hier, bis ich zurückkomme.",
-          "lv": "Bliv her indtil jeg kommer tilbage."
+          "de": "Bis morgen!",
+          "lv": "Vi ses i morgen!"
         },
         {
-          "de": "Ich lerne Deutsch bis zum Abend.",
-          "lv": "Jeg læser tysk til aften."
+          "de": "Fahren Sie bis zum Bahnhof.",
+          "lv": "Kør helt hen til banegården."
         },
         {
-          "de": "Bis jetzt habe ich nichts verstanden.",
-          "lv": "Indtil videre har jeg ikke forstået noget."
+          "de": "Warte hier, bis ich zurückkomme.",
+          "lv": "Vent her, til jeg kommer tilbage."
+        },
+        {
+          "de": "Der Zug fährt bis Berlin.",
+          "lv": "Toget kører til Berlin."
         }
       ],
       "comparison": [
         {
-          "word": "bis",
-          "meaning": "Indtil (tidspunktet er nået)",
-          "example": "Ich bleibe bis morgen. – Jeg bliver til 18:00."
+          "word": "von",
+          "meaning": "fra",
+          "example": "Von 9 bis 17 Uhr. – Fra kl. 9 til 17."
         },
         {
-          "word": "bis zu",
-          "meaning": "Indtil (indtil et bestemt tidspunkt)",
-          "example": "bis zum Bahnhof – Jeg arbejder fra 9 til 17."
+          "word": "ab",
+          "meaning": "fra og med",
+          "example": "Ab Montag arbeite ich wieder. – Fra mandag arbejder jeg igen."
         },
         {
-          "word": "bis jetzt",
-          "meaning": "Indtil",
-          "example": "Bis jetzt habe ich nichts verstanden. – Jeg venter på, at du kommer."
+          "word": "während",
+          "meaning": "mens, under",
+          "example": "Während ich koche, liest er. – Mens jeg laver mad, læser han."
         }
       ],
-      "tip": {
-        "text": "Husk: grænse i tid/tilstand → bis."
-      },
+      "tip": [
+        "Bis + zu + dativ bruges om steder med kendeord: bis zum Bahnhof, bis zur Schule.",
+        "Bis bald! = vi ses snart!"
+      ],
+      "important": [
+        "Når bis er bindeord, står udsagnsordet sidst i sætningen.",
+        "Bis kræver ikke kendeord foran tidspunkter og byer: bis Montag, ikke 'bis den Montag'."
+      ],
       "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "bis",
+            "Bis"
+          ],
+          "purple": [
+            "indtil",
+            "til"
+          ]
+        },
         "examples": [
           {
-            "purple": [
-              "bis"
-            ]
+            "de": {
+              "blue": [
+                "bis"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "til"
+              ]
+            }
           },
           {
-            "purple": [
-              "bis"
-            ]
+            "de": {
+              "blue": [
+                "Bis"
+              ]
+            }
           },
           {
-            "purple": [
-              "bis"
-            ]
+            "de": {
+              "blue": [
+                "bis"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "til"
+              ]
+            }
           },
           {
-            "blue": [
-              "Bis jetzt"
-            ]
+            "de": {
+              "blue": [
+                "bis"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "til"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bis"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "til"
+              ]
+            }
           }
         ],
         "comparison": [
           {
             "word": {
-              "purple": [
-                "bis"
+              "green": [
+                "von"
               ]
             },
-            "example": {
+            "meaning": {
               "purple": [
-                "bis"
+                "fra"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "bis zu"
+                "ab"
               ]
             },
-            "example": {
-              "green": [
-                "bis"
+            "meaning": {
+              "purple": [
+                "fra og med"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "bis jetzt"
+                "während"
               ]
             },
-            "example": {
-              "yellow": []
+            "meaning": {
+              "purple": [
+                "mens"
+              ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "purple": [
-              "bis"
-            ],
-            "green": [
-              "Husk",
-              "Husk",
-              "Husk"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "purple": [
-              "bis",
-              "bis",
-              "bis"
-            ]
-          }
+          {},
+          {}
         ]
-      },
-      "important": [
-        "bis = til en grænse eller et tidspunkt.",
-        "bis jetzt = indtil nu; bis dass = indtil.",
-        "bis jetzt betyder indtil nu."
-      ]
+      }
     }
   },
   {
@@ -2907,36 +3250,67 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Venligst",
       "explanation": [
-        "Hovedidé: bitte med lille begyndelsesbogstav bruges som et høfligt ord, for eksempel i betydningen venligst.",
-        "Bitte bruges hovedsageligt som et høfligt ord, for eksempel i betydningen venligst.",
-        "Beskriver ofte: et høfligt ord."
+        "Grundbetydning: bitte er et høflighedsord, man bruger, når man beder om noget (Kannst du mir bitte helfen?), tilbyder noget (Bitte, nehmen Sie Platz) eller svarer på en tak (Danke! – Bitte!). Dansk har ikke ét ord til det hele: det svarer til 'venligst', 'vær så god' og 'selv tak'.",
+        "Ordet bøjes ikke. Bitte schön er en høfligere variant, når man rækker nogen noget ('vær så god'), bitte sehr er endnu mere formelt. Wie bitte? betyder 'Hvad siger du?', hvis man ikke har hørt, hvad der blev sagt.",
+        "Navneordet die Bitte med stort begyndelsesbogstav betyder 'anmodning, bøn' – det er et andet ord."
       ],
       "examples": [
         {
-          "de": "Eine Tasse Kaffee, bitte.",
-          "lv": "En kop kaffe, tak."
+          "de": "Können Sie mir bitte helfen?",
+          "lv": "Kan du venligst hjælpe mig?"
         },
         {
-          "de": "Komm bitte herein.",
-          "lv": "Kom venligst ind."
+          "de": "Bitte, nehmen Sie Platz.",
+          "lv": "Vær så god at tage plads."
         },
         {
-          "de": "Bitte schön!",
-          "lv": "Værsgo!"
+          "de": "Danke für das Geschenk! – Bitte!",
+          "lv": "Tak for gaven! – Selv tak!"
+        },
+        {
+          "de": "Wie bitte?",
+          "lv": "Hvad siger du?"
+        },
+        {
+          "de": "Bitte schön, hier ist Ihr Kaffee.",
+          "lv": "Værsgo, her er din kaffe."
         }
       ],
-      "tip": {
-        "text": "Husk: bitte med lille begyndelsesbogstav bruges som et høfligt ord; die Bitte med stort begyndelsesbogstav betyder en anmodning."
-      },
+      "comparison": [
+        {
+          "word": "danke",
+          "meaning": "tak",
+          "example": "Danke für deine Hilfe! – Tak for din hjælp!"
+        },
+        {
+          "word": "die Bitte",
+          "meaning": "anmodning, bøn",
+          "example": "Ich habe eine Bitte. – Jeg har en bøn."
+        },
+        {
+          "word": "gern geschehen",
+          "meaning": "selv tak, det var så lidt",
+          "example": "Danke! – Tak! Svaret Gern geschehen! betyder 'Det var så lidt!'."
+        }
+      ],
+      "tip": [
+        "Som svar på Danke siger man Bitte! eller Gern geschehen! – på dansk 'selv tak' eller 'det var så lidt'.",
+        "Wie bitte? er en høflig måde at bede om en gentagelse på."
+      ],
       "important": [
-        "bitte er små bogstaver - det er et høfligt ord, ikke et substantiv.",
-        "die Bitte med stort bogstav og artiklen die er et navneord.",
-        "Flertal: die Bitten (anmodninger)."
+        "Navneordet die Bitte (anmodning) skrives med stort; høflighedsordet bitte skrives med lille.",
+        "Midt i sætningen står bitte normalt efter udsagnsordet eller stedordet: Kannst du bitte kommen?"
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "bitte",
+            "Bitte"
+          ],
           "purple": [
-            "Hovedidé"
+            "venligst",
+            "vær så god",
+            "selv tak"
           ]
         },
         "examples": [
@@ -2948,7 +3322,31 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "tak"
+                "venligst"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Bitte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Vær så god"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Bitte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Selv tak"
               ]
             }
           },
@@ -2960,7 +3358,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Venligst"
+                "Hvad siger du"
               ]
             }
           },
@@ -2977,19 +3375,16 @@ const A1_WORDS = [
             }
           }
         ],
-        "tip": {},
-        "important": [
-          {
-            "blue": [
-              "bitte"
-            ]
-          }
-        ],
         "comparison": [
           {
             "word": {
-              "blue": [
-                "bitte"
+              "green": [
+                "danke"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "tak"
               ]
             }
           },
@@ -2998,131 +3393,205 @@ const A1_WORDS = [
               "green": [
                 "die Bitte"
               ]
+            },
+            "meaning": {
+              "purple": [
+                "anmodning, bøn"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "gern geschehen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "selv tak, det var så lidt"
+              ]
             }
           }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
         ]
-      },
-      "comparison": [
-        {
-          "word": "bitte",
-          "meaning": "venligst",
-          "example": "Komm bitte herein. -- Kom venligst ind."
-        },
-        {
-          "word": "die Bitte",
-          "meaning": "anmodning",
-          "example": "Ich habe eine Bitte. -- Jeg har en anmodning."
-        }
-      ]
+      }
     }
   },
   {
     "de": "Bitte",
     "de_article": "die",
     "de_plural": "die Bitten",
-    "lv": "En anmodning",
+    "lv": "Anmodning • Bøn",
     "level": "A1",
     "study": {
       "id": "a1-bitte-study",
       "layout": "standardStudy",
-      "translation": "En anmodning",
+      "translation": "Anmodning • Bøn",
       "explanation": [
-        "Hovedidé: die Bitte er et navneord og betyder en anmodning.",
-        "Die Bitte betyder: en anmodning.",
-        "Beskriver ofte: et høfligt ord.",
-        "Die Bitte betyder i bund og grund: anmodning/anmodning."
+        "Grundbetydning: die Bitte er et hunkønsord, der betyder anmodning eller bøn – det, man gerne vil opnå hos en anden person.",
+        "Flertal er die Bitten. Typiske forbindelser: eine Bitte haben (have en bøn, ville bede om noget), eine Bitte an jemanden richten (rette en anmodning til nogen), eine Bitte erfüllen (opfylde en anmodning), die Bitte um Hilfe (anmodningen om hjælp).",
+        "Ordet bitte med lille er høflighedsordet 'venligst, vær så god', ikke et navneord; det bruges, når man beder om noget, og som svar på Danke."
       ],
       "examples": [
         {
-          "de": "Ich habe eine Bitte.",
-          "lv": "Jeg har en anmodning."
+          "de": "Ich habe eine Bitte an dich.",
+          "lv": "Jeg har en bøn til dig."
         },
         {
-          "de": "Er erfüllt meine Bitte.",
-          "lv": "Han opfylder min anmodning."
+          "de": "Er erfüllt meine Bitte sofort.",
+          "lv": "Han opfylder straks min anmodning."
         },
         {
-          "de": "Sie hat zwei Bitten.",
-          "lv": "Hun har to anmodninger."
+          "de": "Sie hat zwei Bitten an den Chef.",
+          "lv": "Hun har to anmodninger til chefen."
+        },
+        {
+          "de": "Das ist meine letzte Bitte.",
+          "lv": "Det er min sidste bøn."
         }
       ],
-      "tip": {
-        "text": "Husk: die Bitte er et navneord og betyder en anmodning; bitte med lille begyndelsesbogstav bruges som et høfligt ord."
-      },
+      "comparison": [
+        {
+          "word": "bitte",
+          "meaning": "venligst",
+          "example": "Kannst du bitte das Fenster öffnen? – Kan du venligst åbne vinduet?"
+        },
+        {
+          "word": "die Frage",
+          "meaning": "spørgsmål",
+          "example": "Ich habe eine Frage. – Jeg har et spørgsmål."
+        },
+        {
+          "word": "der Wunsch",
+          "meaning": "ønske",
+          "example": "Mein Wunsch ist ein Hund. – Mit ønske er en hund."
+        }
+      ],
+      "tip": [
+        "Har ordet et kendeord eller et ejestedord foran sig (eine Bitte, meine Bitte), er det navneordet 'anmodning'; står det alene i sætningen (Komm bitte!), betyder det 'venligst'.",
+        "Som svar på Danke! siger man Bitte! – det er en høflighedsfrase (selv tak, det var så lidt)."
+      ],
       "important": [
-        "bitte er små bogstaver - det er et høfligt ord, ikke et substantiv.",
-        "die Bitte med stort bogstav og artiklen die er et navneord.",
-        "Flertal: die Bitten (anmodninger)."
+        "Navneordet die Bitte skrives med stort, høflighedsordet bitte med lille (i begyndelsen af en sætning skrives begge med stort).",
+        "At bede om noget udtrykkes på tysk normalt med bitten um + akkusativ: Ich bitte um Hilfe."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "die Bitte",
+            "die Bitten",
+            "bitte",
+            "Bitte"
+          ],
           "purple": [
-            "Hovedidé"
+            "anmodning",
+            "bøn"
           ]
         },
         "examples": [
           {
             "de": {
-              "green": [
+              "blue": [
                 "Bitte"
               ]
             },
             "lv": {
               "purple": [
-                "Jeg"
+                "bøn"
               ]
             }
           },
           {
             "de": {
-              "green": [
+              "blue": [
                 "Bitte"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "anmodning"
+              ]
+            }
           },
           {
             "de": {
-              "green": [
+              "blue": [
                 "Bitten"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "anmodninger"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Bitte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "bøn"
+              ]
+            }
           }
-        ],
-        "tip": {},
-        "important": [
-          {}
         ],
         "comparison": [
           {
             "word": {
               "green": [
-                "die Bitte"
+                "bitte"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "venligst"
               ]
             }
           },
           {
             "word": {
-              "blue": [
-                "bitte"
+              "green": [
+                "die Frage"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "spørgsmål"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Wunsch"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ønske"
               ]
             }
           }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
         ]
-      },
-      "comparison": [
-        {
-          "word": "die Bitte",
-          "meaning": "anmodning",
-          "example": "Ich habe eine Bitte. -- Jeg har en anmodning."
-        },
-        {
-          "word": "bitte",
-          "meaning": "venligst",
-          "example": "Komm bitte herein. -- Kom venligst ind."
-        }
-      ]
+      }
     }
   },
   {
@@ -3146,14 +3615,14 @@ const A1_WORDS = [
   },
   {
     "de": "bitten",
-    "lv": "At spørge",
+    "lv": "At bede",
     "level": "A1"
   },
   {
     "de": "Blatt",
     "de_article": "das",
     "de_plural": "die Blätter",
-    "lv": "Side",
+    "lv": "Blad • Ark",
     "level": "A1"
   },
   {
@@ -3163,70 +3632,78 @@ const A1_WORDS = [
   },
   {
     "de": "bleiben",
-    "lv": "Ophold",
+    "lv": "At blive",
     "level": "A1",
     "study": {
       "id": "a1-bleiben",
       "layout": "standardStudy",
-      "translation": "Ophold",
+      "translation": "At blive",
       "explanation": [
-        "Hovedidé: bleiben betyder at blive.",
-        "Bleiben bruges, når en person eller ting ikke forsvinder og forbliver på samme sted eller samme tilstand.",
-        "Det er det modsatte af gehen og fahren, når det kommer til at tage afsted.",
-        "En meget almindelig sætning er Ich bleibe zu Hause."
+        "Grundbetydning: bleiben betyder at blive (forblive) på et sted eller i en tilstand: Ich bleibe zu Hause (jeg bliver hjemme), Das Wetter bleibt schön (vejret bliver ved med at være godt).",
+        "Former: er bleibt, blieb, ist geblieben. I førnutid bruger man sein, ikke haben: Ich bin zu Hause geblieben.",
+        "Efter bleiben kan der stå et sted eller et tillægsord; med en navnemåde danner det faste udtryk: stehen bleiben (at standse), sitzen bleiben (at blive siddende). Pas på: dansk 'blive' i betydningen 'blive til' hedder werden, ikke bleiben."
       ],
       "examples": [
         {
-          "de": "Ich bleibe zu Hause.",
-          "lv": "Jeg bliver hjemme"
+          "de": "Ich bleibe heute zu Hause.",
+          "lv": "I dag bliver jeg hjemme."
         },
         {
-          "de": "Bleib hier!",
-          "lv": "Bliv her!"
+          "de": "Wie lange bleibst du in Berlin?",
+          "lv": "Hvor længe bliver du i Berlin?"
         },
         {
-          "de": "Wir bleiben noch eine Stunde.",
-          "lv": "Vi bliver en time mere."
+          "de": "Das Wetter bleibt schön.",
+          "lv": "Vejret bliver ved med at være godt."
         },
         {
-          "de": "Ich gehe nach Hause.",
-          "lv": "Jeg tager hjem"
+          "de": "Wir sind drei Tage geblieben.",
+          "lv": "Vi blev i tre dage."
+        },
+        {
+          "de": "Bleib bitte ruhig!",
+          "lv": "Hold dig nu rolig!"
         }
       ],
       "comparison": [
         {
-          "word": "bleiben",
-          "meaning": "Ophold",
-          "example": "Ich bleibe hier. = Jeg bliver her."
-        },
-        {
-          "word": "gehen",
-          "meaning": "Gå / gå til fods",
-          "example": "Ich gehe nach Hause. = Jeg går hjem."
-        },
-        {
-          "word": "fahren",
-          "meaning": "Kør/gå med transport",
-          "example": "Ich fahre nach Hause. = Jeg kører hjem."
+          "word": "wohnen",
+          "meaning": "at bo",
+          "example": "Ich wohne in Riga. – Jeg bor i Riga."
         },
         {
           "word": "warten",
-          "meaning": "At vente",
-          "example": "Ich warte hier. = Jeg venter her."
+          "meaning": "at vente",
+          "example": "Ich warte auf den Bus. – Jeg venter på bussen."
+        },
+        {
+          "word": "sein",
+          "meaning": "at være",
+          "example": "Ich bin zu Hause. – Jeg er hjemme."
         }
       ],
-      "tip": {
-        "text": "Husk: gå ikke væk → bleiben; går til fods → gå."
-      },
+      "tip": [
+        "I førnutid siger du ist geblieben, ikke 'hat geblieben'.",
+        "Bleib! er bydemåde: Bleib hier!"
+      ],
       "important": [
-        "bleiben betyder ophold, ikke vent.",
-        "Ich bleibe hier = Jeg bliver her; Ich warte hier = Jeg venter her."
+        "Bleiben er et stærkt udsagnsord: blieb, ist geblieben.",
+        "Forveksl det ikke med wohnen: hvor man bor, er wohnen; hvor man opholder sig midlertidigt, er bleiben."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "bleiben",
+            "bleibt",
+            "blieb",
+            "ist geblieben",
+            "stehen bleiben",
+            "bleibe"
+          ],
           "purple": [
-            "Hovedidé",
-            "Hovedidé"
+            "at blive",
+            "forblive",
+            "jeg bliver hjemme"
           ]
         },
         "examples": [
@@ -3238,7 +3715,43 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Jeg"
+                "bliver"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bleibst"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "bliver"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bleibt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "bliver ved med at være"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "geblieben"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "blev"
               ]
             }
           },
@@ -3250,31 +3763,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Bliv"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "bleiben"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "bliver"
-              ]
-            }
-          },
-          {
-            "de": {
-              "red": [
-                "gehe"
-              ]
-            },
-            "lv": {
-              "red": [
-                "Jeg"
+                "Hold dig"
               ]
             }
           }
@@ -3283,53 +3772,12 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "bleiben"
+                "wohnen"
               ]
             },
             "meaning": {
               "purple": [
-                "Ophold"
-              ]
-            },
-            "example": {
-              "blue": [
-                "bleibe"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "gehen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "til",
-                "til"
-              ]
-            },
-            "example": {
-              "red": [
-                "gehe"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "fahren"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Kør/gå",
-                "transport"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "fahre"
+                "at bo"
               ]
             }
           },
@@ -3341,35 +3789,30 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "vente"
+                "at vente"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sein"
               ]
             },
-            "example": {
-              "green": [
-                "warte"
+            "meaning": {
+              "purple": [
+                "at være"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "bleiben"
-            ],
-            "purple": [
-              "Husk"
-            ],
-            "red": [
-              "Husk"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "purple": [
-              "bleiben"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -3390,14 +3833,14 @@ const A1_WORDS = [
     "de": "Blume",
     "de_article": "die",
     "de_plural": "die Blumen",
-    "lv": "En blomst",
+    "lv": "Blomst",
     "level": "A1"
   },
   {
     "de": "Boot",
     "de_article": "das",
     "de_plural": "die Boote",
-    "lv": "En båd",
+    "lv": "Båd",
     "level": "A1"
   },
   {
@@ -3419,7 +3862,7 @@ const A1_WORDS = [
     "de": "Brief",
     "de_article": "der",
     "de_plural": "die Briefe",
-    "lv": "Bogstav",
+    "lv": "Brev",
     "level": "A1"
   },
   {
@@ -3431,121 +3874,136 @@ const A1_WORDS = [
   },
   {
     "de": "bringen",
-    "lv": "Medbringe",
+    "lv": "At bringe",
     "level": "A1",
     "study": {
       "id": "a1-bringen",
       "layout": "standardStudy",
-      "translation": "Medbringe",
+      "translation": "At bringe",
       "explanation": [
-        "Hovedidé: bringen betyder at bringe, bære eller levere noget til nogen.",
-        "Bringen bruges, når noget flyttes til et andet sted eller til en anden person.",
-        "Det er ikke det samme som nehmen, for nehmen betyder at tage for sig selv.",
-        "Holen betyder at gå efter og hente eller tage.",
-        "Oversættelsen bestemmes af konteksten."
+        "Grundbetydning: bringen betyder at bringe, at komme med eller at køre nogen eller noget hen til et bestemt sted eller en person: Ich bringe dir ein Glas Wasser, Ich bringe die Kinder zur Schule.",
+        "Former: er bringt, brachte, hat gebracht. Ofte er der to led: til hvem? (dativ) og hvad? (akkusativ): Er bringt mir das Buch.",
+        "Både dansk 'komme med (hertil)' og 'bringe hen (derhen)' hedder bringen på tysk; retningen fremgår af sammenhængen eller af et forholdsord (zu, nach)."
       ],
       "examples": [
         {
-          "de": "Ich bringe dir ein Buch.",
-          "lv": "Jeg bringer dig en bog."
-        },
-        {
-          "de": "Ich bringe das Paket zur Post.",
-          "lv": "Jeg bringer pakken til posthuset."
+          "de": "Kannst du mir ein Glas Wasser bringen?",
+          "lv": "Kan du komme med et glas vand til mig?"
         },
         {
           "de": "Ich bringe die Kinder zur Schule.",
           "lv": "Jeg kører børnene i skole."
+        },
+        {
+          "de": "Der Kellner bringt die Rechnung.",
+          "lv": "Tjeneren kommer med regningen."
+        },
+        {
+          "de": "Sie bringt ihm das Buch.",
+          "lv": "Hun bringer ham bogen."
+        },
+        {
+          "de": "Er hat Blumen gebracht.",
+          "lv": "Han kom med blomster."
         }
       ],
       "comparison": [
         {
-          "word": "bringen",
-          "meaning": "Medbring/tag/lever",
-          "example": "Ich bringe dir ein Buch. -- Jeg bringer dig en bog."
+          "word": "holen",
+          "meaning": "at hente",
+          "example": "Ich hole Brot. – Jeg henter brød."
         },
         {
-          "word": "bringen",
-          "meaning": "At tage / at tage",
-          "example": "Ich bringe das Paket zur Post. -- Jeg bringer pakken til posthuset."
+          "word": "mitbringen",
+          "meaning": "at tage med",
+          "example": "Bring bitte Brot mit! – Tag lige brød med!"
         },
         {
-          "word": "bringen",
-          "meaning": "Gå efter/hent",
-          "example": "Ich bringe die Kinder zur Schule. -- Jeg kører børnene i skole."
-        },
-        {
-          "word": "bringen",
-          "meaning": "Tag væk og medbring",
-          "example": "Ich bringe dir ein Buch. -- Tager du brød med?"
-        },
-        {
-          "word": "nehmen",
-          "meaning": "at tage",
-          "example": "Ich nehme das Buch. -- Jeg tager bogen."
+          "word": "tragen",
+          "meaning": "at bære, have på",
+          "example": "Sie trägt eine Tasche. – Hun bærer en taske."
         }
       ],
-      "tip": {
-        "text": "Husk: flytte til nogen → bringen; tag selv → nehmen."
-      },
+      "tip": [
+        "Bringen tager ofte både til hvem? (dativ) og hvad? (akkusativ): jemandem etwas bringen.",
+        "Når du går hen efter noget og kommer tilbage med det, bruger du holen (at hente)."
+      ],
       "important": [
-        "bringen viser retning til nogen eller til et sted.",
-        "nehmen betyder at tage, men ikke nødvendigvis at levere til en anden.",
-        "Den danske oversættelse afhænger af konteksten."
+        "I førnutid hedder det hat gebracht, ikke 'hat gebringt'.",
+        "Forveksl ikke bringen (at bringe, komme med) med tragen (at bære, have på)."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "bringen",
+            "bringt",
+            "brachte",
+            "gebracht"
+          ],
           "purple": [
-            "Hovedidé"
+            "at bringe",
+            "at komme med",
+            "at køre"
           ]
         },
         "examples": [
           {
             "de": {
-              "blue": [],
-              "yellow": []
+              "blue": [
+                "bringen"
+              ]
             },
             "lv": {
-              "purple": []
+              "purple": [
+                "komme med"
+              ]
             }
           },
           {
             "de": {
               "blue": [
                 "bringe"
-              ],
-              "green": []
+              ]
             },
             "lv": {
               "purple": [
-                "Jeg"
+                "kører"
               ]
             }
           },
           {
             "de": {
-              "blue": [],
-              "yellow": []
+              "blue": [
+                "bringt"
+              ]
             },
             "lv": {
-              "purple": []
+              "purple": [
+                "kommer med"
+              ]
             }
           },
           {
             "de": {
-              "red": [
-                "nehme"
-              ],
-              "yellow": [
-                "Buch"
+              "blue": [
+                "bringt"
               ]
             },
             "lv": {
-              "red": [
-                "Jeg"
-              ],
-              "yellow": [
-                "Jeg"
+              "purple": [
+                "bringer"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "gebracht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kom med"
               ]
             }
           }
@@ -3554,81 +4012,47 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "bringen"
+                "holen"
               ]
             },
             "meaning": {
-              "purple": []
-            },
-            "example": {
-              "blue": []
+              "purple": [
+                "at hente"
+              ]
             }
           },
           {
             "word": {
-              "green": []
-            },
-            "meaning": {
-              "purple": [
-                "tage",
-                "tage"
-              ]
-            },
-            "example": {
-              "red": []
-            }
-          },
-          {
-            "word": {
-              "green": []
-            },
-            "meaning": {
-              "purple": [
-                "efter/hent",
-                "efter/hent"
-              ]
-            },
-            "example": {
-              "yellow": []
-            }
-          },
-          {
-            "word": {
-              "green": []
-            },
-            "meaning": {
-              "purple": [
-                "Tag",
-                "Tag"
-              ]
-            },
-            "example": {
               "green": [
-                "mit"
+                "mitbringen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "at tage med"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "tragen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "at bære, have på"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "bringen"
-            ],
-            "purple": [
-              "Husk"
-            ],
-            "red": [
-              "nehmen",
-              "Husk"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "purple": [
-              "bringen"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -3637,14 +4061,14 @@ const A1_WORDS = [
     "de": "Butterbrot",
     "de_article": "das",
     "de_plural": "die Butterbrote",
-    "lv": "En sandwich",
+    "lv": "Smørrebrød",
     "level": "A1"
   },
   {
     "de": "Brötchen",
     "de_article": "das",
     "de_plural": "die Brötchen",
-    "lv": "En bolle",
+    "lv": "Rundstykke • Bolle",
     "level": "A1"
   },
   {
@@ -3727,7 +4151,7 @@ const A1_WORDS = [
     "de": "Cousine",
     "de_article": "die",
     "de_plural": "die Cousinen",
-    "lv": "Fætter",
+    "lv": "Kusine",
     "level": "A1"
   },
   {
@@ -3739,58 +4163,70 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Der",
       "explanation": [
-        "Hovedidé: da på A1-niveau betyder oftest der.",
-        "Da angiver et sted eller henviser til noget allerede nævnt.",
-        "Alt efter situationen kan det også oversættes til her eller her.",
-        "På A1-niveau lærer vi hovedsageligt da som et generelt stedord."
+        "Grundbetydning: da som stedsbiord betyder 'der' (et sted, man peger på): Da ist mein Bus! I talesprog betyder da sein også 'at være til stede, at være her': Ist Anna da?",
+        "Da kan også være et tidsbiord 'da, dengang' (Da kam er) og et underordnende bindeord 'da, eftersom': Da es regnet, bleiben wir zu Hause – udsagnsordet står sidst i ledsætningen.",
+        "Placering: står da først i sætningen, følger udsagnsordet lige efter: Da vorne ist die Bank."
       ],
       "examples": [
         {
-          "de": "Da ist mein Auto.",
-          "lv": "Der er min bil."
+          "de": "Da ist mein Bus!",
+          "lv": "Der er min bus!"
         },
         {
-          "de": "Ich war da.",
-          "lv": "Jeg var der"
+          "de": "Ist Anna da? – Nein, sie ist nicht da.",
+          "lv": "Er Anna her? – Nej, hun er her ikke."
         },
         {
-          "de": "Da kommt er.",
-          "lv": "Her kommer han."
+          "de": "Da vorne ist die Bank.",
+          "lv": "Derhenne er banken."
         },
         {
-          "de": "Komm mal da her!",
-          "lv": "Kom her!"
+          "de": "Da es regnet, bleiben wir zu Hause.",
+          "lv": "Da det regner, bliver vi hjemme."
+        },
+        {
+          "de": "Ich bin gleich da.",
+          "lv": "Jeg er der lige straks."
         }
       ],
       "comparison": [
         {
-          "word": "da",
-          "meaning": "Der • Her • Her (generelt)",
-          "example": "Da ist mein Auto."
+          "word": "dort",
+          "meaning": "der (længere væk), derhenne",
+          "example": "Dort steht ein Haus. – Derhenne står et hus."
         },
         {
           "word": "hier",
-          "meaning": "Her (på et bestemt sted)",
-          "example": "Hier ist mein Auto."
+          "meaning": "her",
+          "example": "Ich bin hier. – Jeg er her."
         },
         {
-          "word": "dort",
-          "meaning": "Der (videre)",
-          "example": "Dort ist mein Auto."
-        },
-        {
-          "word": "dann",
-          "meaning": "Så",
-          "example": "Dann gehen wir nach Hause. = Så går vi hjem."
+          "word": "weil",
+          "meaning": "fordi",
+          "example": "Ich bleibe, weil ich krank bin. – Jeg bliver, fordi jeg er syg."
         }
       ],
-      "tip": {
-        "text": "Husk: generelt der/der → da."
-      },
+      "tip": [
+        "Ist noch Milch da? = Er der mere mælk? Med da sein kan man udtrykke, at noget findes eller er til rådighed.",
+        "Når da er bindeord, flytter udsagnsordet om til slutningen."
+      ],
+      "important": [
+        "Da som bindeord er mere formelt end weil og står normalt først i sætningen – ligesom dansk 'da' og 'eftersom'.",
+        "På spørgsmålet Warum? svarer man normalt med weil, ikke med da."
+      ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "da",
+            "Da",
+            "da sein",
+            "Da es regnet"
+          ],
           "purple": [
-            "Hovedidé"
+            "der",
+            "til stede",
+            "dengang",
+            "eftersom"
           ]
         },
         "examples": [
@@ -3814,7 +4250,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Jeg"
+                "her"
               ]
             }
           },
@@ -3825,8 +4261,20 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "green": [
-                "Her"
+              "purple": [
+                "Derhenne"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Da"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Da"
               ]
             }
           },
@@ -3837,8 +4285,8 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "green": [
-                "Kom"
+              "purple": [
+                "der"
               ]
             }
           }
@@ -3847,18 +4295,12 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "da"
+                "dort"
               ]
             },
             "meaning": {
               "purple": [
-                "Der",
-                "Der"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Da"
+                "der (længere væk), derhenne"
               ]
             }
           },
@@ -3870,94 +4312,32 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Her"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "Hier"
+                "her"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "dort"
+                "weil"
               ]
             },
             "meaning": {
               "purple": [
-                "Der"
-              ]
-            },
-            "example": {
-              "red": [
-                "Dort"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "dann"
-              ]
-            },
-            "meaning": {},
-            "example": {
-              "red": [
-                "Dann"
+                "fordi"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "da"
-            ],
-            "purple": [
-              "Husk"
-            ],
-            "green": [
-              "Husk"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "purple": [
-              "generelt",
-              "generelt"
-            ]
-          }
+          {},
+          {}
         ]
-      },
-      "accents": {
-        "blue": [
-          "da",
-          "Da"
-        ],
-        "purple": [
-          "tur",
-          "Tur"
-        ],
-        "green": [
-          "te",
-          "Te",
-          "here"
-        ],
-        "yellow": [
-          "hier"
-        ],
-        "red": [
-          "dort",
-          "dann"
-        ]
-      },
-      "important": [
-        "da er et generelt stednavn.",
-        "her er konkret 'her', dort er yderligere 'der'."
-      ]
+      }
     }
   },
   {
@@ -3972,66 +4352,141 @@ const A1_WORDS = [
   },
   {
     "de": "das",
-    "lv": "Neutrum bestemt artikel",
+    "lv": "Bestemt artikel (intetkøn)",
     "level": "A1",
     "study": {
       "id": "a1-das",
       "layout": "standardStudy",
-      "translation": "Neutrum bestemt artikel",
-      "explanation": "Bruges til intetkønssubstantiver. I nogle sætninger kan \"det\" også fungere som et pronomen eller et relativt pronomen.",
+      "translation": "Bestemt artikel (intetkøn)",
+      "explanation": [
+        "Grundbetydning: das er den bestemte artikel for intetkønsord i nominativ og akkusativ: das Kind, das Haus, das Auto. Dansk sætter bestemthed som endelse (barnet, huset), men tysk sætter artiklen foran ordet, og kønnet skal læres sammen med ordet.",
+        "I de andre kasus hedder intetkøn dem (dativ) og des (genitiv); i flertal er det die for alle køn.",
+        "Das er også et påpegende stedord (Das ist mein Bruder – det er min bror) og et henførende stedord. Forveksl det ikke med dass (at): det skrives med to s og indleder ledsætninger."
+      ],
       "examples": [
         {
-          "de": "Das ist mein Auto.",
-          "lv": "Det er min bil"
+          "de": "Das Kind spielt im Garten.",
+          "lv": "Barnet leger i haven."
         },
         {
-          "de": "Das ist gut.",
-          "lv": "Det er godt."
+          "de": "Ich sehe das Haus.",
+          "lv": "Jeg ser huset."
         },
         {
-          "de": "Das Buch, das ich lese, ist interessant.",
-          "lv": "Bogen jeg læser er interessant."
+          "de": "Das ist mein Bruder.",
+          "lv": "Det er min bror."
+        },
+        {
+          "de": "Ich nehme das Auto.",
+          "lv": "Jeg tager bilen."
+        },
+        {
+          "de": "Das Buch auf dem Tisch ist neu.",
+          "lv": "Bogen på bordet er ny."
         }
       ],
       "comparison": [
         {
-          "word": "das",
-          "meaning": "Det (artikel / pronomen)",
-          "example": "Das ist mein Auto. – Det er min bil."
+          "word": "dass",
+          "meaning": "at",
+          "example": "Ich weiß, dass er kommt. – Jeg ved, at han kommer."
         },
         {
-          "word": "dies",
-          "meaning": "Denne her",
-          "example": "Dies ist mein Auto. – Det her er min bil."
+          "word": "der",
+          "meaning": "bestemt artikel, hankøn",
+          "example": "Der Mann liest. – Manden læser."
         },
         {
-          "word": "welches",
-          "meaning": "Wen • Hvilken • Wen",
-          "example": "Das ist das Buch, welches ich lese. – Det er en bog, jeg læser."
+          "word": "die",
+          "meaning": "bestemt artikel, hunkøn",
+          "example": "Die Frau liest. – Kvinden læser."
         }
       ],
-      "tip": {
-        "text": "Husk: vidus dzimte → das; ka → dass."
-      },
+      "tip": [
+        "For intetkønsord er nominativ og akkusativ ens: das Kind (hvem/hvad?).",
+        "Lær navneordet sammen med artiklen: das Haus, ikke kun Haus."
+      ],
+      "important": [
+        "Das (artikel eller stedord) og dass (bindeordet 'at') er ikke det samme ord.",
+        "I dativ hedder intetkøn dem: mit dem Kind, ikke 'mit das Kind'."
+      ],
       "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "das",
+            "Das",
+            "das Kind",
+            "das Haus",
+            "das Auto",
+            "dem",
+            "des",
+            "die",
+            "dass"
+          ],
+          "purple": [
+            "bestemte artikel",
+            "intetkønsord",
+            "påpegende stedord"
+          ]
+        },
         "examples": [
           {
-            "blue": [
-              "Das"
-            ]
+            "de": {
+              "blue": [
+                "Das"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Barnet"
+              ]
+            }
           },
           {
-            "blue": [
-              "Das"
-            ]
+            "de": {
+              "blue": [
+                "das"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "huset"
+              ]
+            }
           },
           {
             "de": {
               "blue": [
                 "Das"
-              ],
-              "yellow": [
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Det"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
                 "das"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "bilen"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Das"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Bogen"
               ]
             }
           }
@@ -4040,69 +4495,49 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "das"
+                "dass"
               ]
             },
-            "example": {
-              "blue": [
-                "Das"
+            "meaning": {
+              "purple": [
+                "at"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "dies"
+                "der"
               ]
             },
-            "example": {
-              "green": [
-                "Dies"
+            "meaning": {
+              "purple": [
+                "bestemt artikel, hankøn"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "welches"
+                "die"
               ]
             },
-            "example": {
-              "blue": [
-                "Das",
-                "das"
-              ],
-              "yellow": [
-                "welches"
+            "meaning": {
+              "purple": [
+                "bestemt artikel, hunkøn"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "das"
-            ],
-            "purple": [
-              "vidus dzimte"
-            ],
-            "red": [
-              "dass"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "purple": [
-              "niveau"
-            ]
-          }
+          {},
+          {}
         ]
-      },
-      "important": [
-        "På A1-niveau studeres das først som en artikel af mellemkønnet.",
-        "das er ikke det samme som dass - das kan være en artikel eller et pronomen, dass betyder 'det'."
-      ]
+      }
     }
   },
   {
@@ -4113,47 +4548,69 @@ const A1_WORDS = [
       "id": "a1-dass",
       "layout": "standardStudy",
       "translation": "At",
-      "explanation": "Introducerer en hjælpesætning, der udtrykker en kendsgerning, tanke eller udsagn.",
+      "explanation": [
+        "Grundbetydning: dass er det underordnende bindeord 'at', som indleder en ledsætning efter ord som sagen, wissen, denken, hoffen og udtryk som Es ist schön …: Ich weiß, dass du müde bist.",
+        "Før dass står der altid komma. I ledsætningen står det bøjede udsagnsord sidst: …, dass er keine Zeit hat. Det er en vigtig forskel fra dansk, hvor ordstillingen efter 'at' ikke ændres på den måde.",
+        "Dass skrives med to s. Intetkønsartiklen og det påpegende stedord das er et andet ord."
+      ],
       "examples": [
         {
           "de": "Ich weiß, dass du müde bist.",
-          "lv": "Jeg ved, du er træt."
+          "lv": "Jeg ved, at du er træt."
         },
         {
-          "de": "Er sagt, dass er kommt.",
-          "lv": "Han siger, at han vil komme."
+          "de": "Er sagt, dass er keine Zeit hat.",
+          "lv": "Han siger, at han ikke har tid."
         },
         {
-          "de": "Ich glaube, dass das stimmt.",
-          "lv": "Jeg tror, det er rigtigt."
+          "de": "Es ist schön, dass du hier bist.",
+          "lv": "Det er dejligt, at du er her."
+        },
+        {
+          "de": "Ich hoffe, dass es morgen nicht regnet.",
+          "lv": "Jeg håber, at det ikke regner i morgen."
+        },
+        {
+          "de": "Sie sagt, dass sie nach Berlin fährt.",
+          "lv": "Hun siger, at hun tager til Berlin."
         }
       ],
       "comparison": [
         {
-          "word": "dass",
-          "meaning": "At",
-          "example": "Ich weiß, dass er kommt. – Jeg ved, han kommer."
+          "word": "das",
+          "meaning": "intetkønsartikel",
+          "example": "Das Kind lacht. – Barnet griner."
         },
         {
           "word": "weil",
-          "meaning": "Fordi • Fordi",
-          "example": "Ich bleibe zu Hause, weil es regnet. – Jeg bliver hjemme, fordi det regner."
-        },
-        {
-          "word": "damit",
-          "meaning": "Til",
-          "example": "Ich lerne Deutsch, damit ich in Deutschland arbeiten kann. – Jeg lærer tysk, så jeg kan arbejde i Tyskland."
+          "meaning": "fordi",
+          "example": "Ich bleibe, weil ich krank bin. – Jeg bliver, fordi jeg er syg."
         },
         {
           "word": "ob",
-          "meaning": "Eller",
+          "meaning": "om",
           "example": "Ich weiß nicht, ob er kommt. – Jeg ved ikke, om han kommer."
         }
       ],
-      "tip": {
-        "text": "Husk: ka → dass."
-      },
+      "tip": [
+        "Efter dass: sæt komma og flyt udsagnsordet til slutningen.",
+        "Ledsætningen med dass kan også stå først: Dass du kommst, freut mich."
+      ],
+      "important": [
+        "Forveksl ikke dass og das: das er artikel eller stedord, dass er bindeord.",
+        "Efter dass står udsagnsordet aldrig på andenpladsen."
+      ],
       "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "dass",
+            "das"
+          ],
+          "purple": [
+            "'at'",
+            "bindeord"
+          ]
+        },
         "examples": [
           {
             "de": {
@@ -4163,7 +4620,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Jeg"
+                "at"
               ]
             }
           },
@@ -4175,7 +4632,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Han"
+                "at"
               ]
             }
           },
@@ -4187,7 +4644,31 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Jeg"
+                "at"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "dass"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "at"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "dass"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "at"
               ]
             }
           }
@@ -4196,15 +4677,12 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "dass"
+                "das"
               ]
             },
-            "example": {
-              "blue": [
-                "dass"
-              ],
+            "meaning": {
               "purple": [
-                "Ich"
+                "intetkønsartikel"
               ]
             }
           },
@@ -4214,27 +4692,9 @@ const A1_WORDS = [
                 "weil"
               ]
             },
-            "example": {
-              "green": [
-                "weil"
-              ],
+            "meaning": {
               "purple": [
-                "Ich"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "damit"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "damit"
-              ],
-              "purple": [
-                "Ich"
+                "fordi"
               ]
             }
           },
@@ -4244,51 +4704,34 @@ const A1_WORDS = [
                 "ob"
               ]
             },
-            "example": {
-              "red": [
-                "ob"
-              ],
+            "meaning": {
               "purple": [
-                "Ich"
+                "om"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "dass"
-            ],
-            "purple": [
-              "ka"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "purple": [
-              "dass",
-              "dass"
-            ]
-          }
+          {},
+          {}
         ]
-      },
-      "important": [
-        "dass betyder \"det\" og introducerer en hjælpesætning.",
-        "For at skal ikke forveksles med das, som kan være en artikel eller 'det'."
-      ]
+      }
     }
   },
   {
     "de": "Datum",
     "de_article": "das",
     "de_plural": "die Daten",
-    "lv": "Datoen",
+    "lv": "Dato",
     "level": "A1"
   },
   {
     "de": "dein",
-    "lv": "Dine",
+    "lv": "Din • Dit",
     "level": "A1"
   },
   {
@@ -4304,82 +4747,184 @@ const A1_WORDS = [
       "id": "a1-der",
       "layout": "standardStudy",
       "translation": "Den maskuline bestemte artikel",
-      "explanation": "Brugt med maskuline navneord. I nogle sætninger kan \"der\" også fungere som et pronomen eller et relativt pronomen.",
+      "explanation": [
+        "Grundbetydning: der er den bestemte artikel for hankønsord i nominativ: der Mann, der Tisch, der Hund.",
+        "Der optræder også i andre kasus: for hunkøn i dativ og genitiv (der Frau) og for alle navneord i flertal i genitiv (die Autos der Eltern). Hankøn hedder den i akkusativ, dem i dativ og des i genitiv.",
+        "Dansk sætter bestemthed som endelse (manden, bordet); tysk sætter artiklen foran, og kønnet skal læres sammen med ordet."
+      ],
       "examples": [
         {
-          "de": "Der Mann ist hier.",
-          "lv": "Manden er her."
+          "de": "Der Mann liest Zeitung.",
+          "lv": "Manden læser avis."
         },
         {
-          "de": "Der Bus kommt.",
-          "lv": "Bussen kører."
+          "de": "Der Tisch ist groß.",
+          "lv": "Bordet er stort."
         },
         {
-          "de": "Der Lehrer spricht.",
-          "lv": "Læreren taler."
+          "de": "Ich gebe der Frau das Buch.",
+          "lv": "Jeg giver kvinden bogen."
+        },
+        {
+          "de": "Das Auto der Eltern ist neu.",
+          "lv": "Forældrenes bil er ny."
+        },
+        {
+          "de": "Der Hund schläft im Garten.",
+          "lv": "Hunden sover i haven."
         }
       ],
-      "tip": {
-        "text": "Husk: maskulin → passer."
-      },
+      "comparison": [
+        {
+          "word": "den",
+          "meaning": "hankøn, akkusativ",
+          "example": "Ich sehe den Mann. – Jeg ser manden."
+        },
+        {
+          "word": "dem",
+          "meaning": "dativ",
+          "example": "Ich helfe dem Mann. – Jeg hjælper manden."
+        },
+        {
+          "word": "des",
+          "meaning": "genitiv",
+          "example": "Das Auto des Mannes ist neu. – Mandens bil er ny."
+        }
+      ],
+      "tip": [
+        "Hankøn hedder der i nominativ og den i akkusativ: der Hund, aber Ich sehe den Hund.",
+        "Lær der sammen med navneordet: der Tisch."
+      ],
+      "important": [
+        "Der er ikke kun en hankønsform: hunkønsord har samme form i dativ, der Frau.",
+        "Skriv ikke 'ich sehe der Mann'; i akkusativ skal det være den Mann."
+      ],
       "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "der",
+            "Der",
+            "der Mann",
+            "den",
+            "dem",
+            "des",
+            "der Frau"
+          ],
+          "purple": [
+            "bestemte artikel",
+            "hankønsord",
+            "hunkøn"
+          ]
+        },
         "examples": [
           {
-            "blue": [
-              "Der"
-            ]
+            "de": {
+              "blue": [
+                "Der"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Manden"
+              ]
+            }
           },
           {
-            "blue": [
-              "Der"
-            ]
+            "de": {
+              "blue": [
+                "Der"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Bordet"
+              ]
+            }
           },
           {
-            "blue": [
-              "Der"
-            ]
+            "de": {
+              "blue": [
+                "der"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kvinden"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "der"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Forældrenes"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Der"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Hunden"
+              ]
+            }
           }
         ],
         "comparison": [
           {
-            "word": {},
-            "example": {}
+            "word": {
+              "green": [
+                "den"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "hankøn, akkusativ"
+              ]
+            }
           },
           {
-            "word": {},
-            "example": {}
+            "word": {
+              "green": [
+                "dem"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "dativ"
+              ]
+            }
           },
           {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
+            "word": {
+              "green": [
+                "des"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "genitiv"
+              ]
+            }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "Husk"
-            ],
-            "purple": [
-              "Husk"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "purple": [
-              "niveau"
-            ]
-          }
+          {},
+          {}
         ]
-      },
-      "important": [
-        "På A1-niveau bør du først lære som en maskulin artikel.",
-        "Pronomen og relative anvendelser kommer senere."
-      ]
+      }
     }
   },
   {
@@ -4401,95 +4946,177 @@ const A1_WORDS = [
       "id": "a1-die",
       "layout": "standardStudy",
       "translation": "Den feminine bestemte artikel",
-      "explanation": "Brugt med feminine navneord. I nogle sætninger kan \"dø\" også fungere som et pronomen eller et relativt pronomen.",
+      "explanation": [
+        "Grundbetydning: die er den bestemte artikel for hunkønsord i nominativ og akkusativ: die Frau, die Lampe, die Stadt.",
+        "Samme form die bruges i flertal for alle køn i nominativ og akkusativ: die Kinder, die Autos, die Tische. I dativ hedder det der (hunkøn) og den (flertal, hvor navneordet får -n).",
+        "Die kan også være et påpegende eller henførende stedord: die Frau, die dort steht."
+      ],
       "examples": [
         {
-          "de": "Die Frau ist hier.",
-          "lv": "Kvinden er her."
+          "de": "Die Frau trinkt Tee.",
+          "lv": "Kvinden drikker te."
         },
         {
-          "de": "Die Katze schläft.",
-          "lv": "Killingen sover."
+          "de": "Ich kenne die Stadt gut.",
+          "lv": "Jeg kender byen godt."
         },
         {
-          "de": "Die Lehrerin erklärt.",
-          "lv": "Læreren forklarer."
+          "de": "Die Kinder spielen im Park.",
+          "lv": "Børnene leger i parken."
+        },
+        {
+          "de": "Ich sehe die Autos.",
+          "lv": "Jeg ser bilerne."
+        },
+        {
+          "de": "Die Lampe ist neu.",
+          "lv": "Lampen er ny."
         }
       ],
-      "tip": {
-        "text": "Husk: feminin → dø."
-      },
+      "comparison": [
+        {
+          "word": "der",
+          "meaning": "hankøn; hunkøn i dativ",
+          "example": "Der Mann liest. – Manden læser."
+        },
+        {
+          "word": "das",
+          "meaning": "intetkøn",
+          "example": "Das Kind lacht. – Barnet griner."
+        },
+        {
+          "word": "den",
+          "meaning": "flertal i dativ",
+          "example": "Mit den Kindern spiele ich. – Jeg leger med børnene."
+        }
+      ],
+      "tip": [
+        "For hunkøn er nominativ og akkusativ ens: die Frau.",
+        "I flertal er artiklen i nominativ og akkusativ altid die."
+      ],
+      "important": [
+        "I dativ hedder hunkøn der: mit der Frau, ikke 'mit die Frau'.",
+        "Die viser ikke kun hunkøn: det kan også være flertal."
+      ],
       "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "die"
+          ],
+          "purple": [
+            "bestemte artikel",
+            "hunkønsord"
+          ]
+        },
         "examples": [
           {
-            "blue": [
-              "Die"
-            ]
+            "de": {
+              "blue": [
+                "Die"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Kvinden"
+              ]
+            }
           },
           {
-            "blue": [
-              "Die"
-            ]
+            "de": {
+              "blue": [
+                "die"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "byen"
+              ]
+            }
           },
           {
-            "blue": [
-              "Die"
-            ]
+            "de": {
+              "blue": [
+                "Die"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Børnene"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "die"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "bilerne"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Die"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Lampen"
+              ]
+            }
           }
         ],
         "comparison": [
           {
-            "word": {},
-            "example": {}
+            "word": {
+              "green": [
+                "der"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "hankøn"
+              ]
+            }
           },
           {
-            "word": {},
-            "example": {}
+            "word": {
+              "green": [
+                "das"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "intetkøn"
+              ]
+            }
           },
           {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
+            "word": {
+              "green": [
+                "den"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "flertal"
+              ]
+            }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "Husk"
-            ],
-            "purple": [
-              "Husk"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "purple": [
-              "niveau",
-              "niveau"
-            ]
-          }
+          {},
+          {}
         ]
-      },
-      "important": [
-        "På A1-niveau studeres die først som en feminin artikel.",
-        "Flertalsformen bruges også til alle køn."
-      ]
+      }
     }
   },
   {
@@ -4501,31 +5128,82 @@ const A1_WORDS = [
   },
   {
     "de": "dieser",
-    "lv": "Denne her",
+    "lv": "Denne",
     "level": "A1",
     "study": {
       "id": "a1-dieser",
       "layout": "standardStudy",
-      "translation": "Denne her",
-      "explanation": "Peger på en nærliggende person, ting eller dyr. Brugt sammen med et maskulint substantiv.",
+      "translation": "Denne",
+      "explanation": [
+        "Grundbetydning: dieser peger på en person eller ting tæt på: dieser Mann (denne mand), diese Frau (denne kvinde), dieses Kind (dette barn), diese Kinder (disse børn).",
+        "Bøjes som den bestemte artikel der: nominativ dieser/diese/dieses, akkusativ diesen (hankøn), dativ diesem/dieser/diesem. I flertal: diese, diesen. Intetkønsformen dieses Jahr betyder 'i år'.",
+        "Dieser kan stå i stedet for et navneord med kasusendelse, når det er klart, hvad man taler om: Dieser gefällt mir (den her kan jeg lide)."
+      ],
       "examples": [
         {
-          "de": "Dieser Mann ist nett.",
-          "lv": "Denne mand er flink."
+          "de": "Dieser Tisch ist neu.",
+          "lv": "Dette bord er nyt."
         },
         {
-          "de": "Ich sehe diesen Hund.",
-          "lv": "Jeg kan godt lide denne hund"
+          "de": "Ich kaufe diese Jacke.",
+          "lv": "Jeg køber denne jakke."
         },
         {
-          "de": "Dieser Stift ist neu.",
-          "lv": "Denne pen er ny."
+          "de": "Dieses Kind heißt Lena.",
+          "lv": "Dette barn hedder Lena."
+        },
+        {
+          "de": "Kennst du diesen Mann?",
+          "lv": "Kender du denne mand?"
+        },
+        {
+          "de": "Mit diesem Auto fahre ich nicht.",
+          "lv": "Jeg kører ikke i denne bil."
         }
       ],
-      "tip": {
-        "text": "Husk: denne + maskulin → dieser."
-      },
+      "comparison": [
+        {
+          "word": "jener",
+          "meaning": "hin, den der (længere væk)",
+          "example": "Jener Mann dort ist mein Chef. – Den mand derhenne er min chef."
+        },
+        {
+          "word": "der",
+          "meaning": "bestemt artikel",
+          "example": "Der Tisch ist neu. – Bordet er nyt."
+        },
+        {
+          "word": "dies",
+          "meaning": "dette (stedord)",
+          "example": "Dies ist mein Bruder. – Dette er min bror."
+        }
+      ],
+      "tip": [
+        "Dieser bøjes som der: der Mann → dieser Mann, den Mann → diesen Mann.",
+        "Dieses Jahr = i år, diese Woche = i denne uge."
+      ],
+      "important": [
+        "Endelsen på dieser afhænger af navneordets køn, kasus og tal: diesen Mann, diesem Mann.",
+        "Dieser peger på noget nærmere; på noget længere væk kan man pege med jener (sjældnere) eller med et betonet der/die/das."
+      ],
       "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "dieser",
+            "diese",
+            "dieses",
+            "diesen",
+            "diesem",
+            "dieser Mann",
+            "dieses Jahr"
+          ],
+          "purple": [
+            "denne",
+            "dette",
+            "disse",
+            "i år"
+          ]
+        },
         "examples": [
           {
             "de": {
@@ -4535,7 +5213,31 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Denne"
+                "Dette"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "diese"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "denne"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Dieses"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Dette"
               ]
             }
           },
@@ -4547,66 +5249,70 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "lide"
+                "denne"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "Dieser"
+                "diesem"
               ]
             },
             "lv": {
               "purple": [
-                "Denne"
+                "denne"
               ]
             }
           }
         ],
         "comparison": [
           {
-            "word": {},
-            "example": {}
+            "word": {
+              "green": [
+                "jener"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "hin, den der (længere væk)"
+              ]
+            }
           },
           {
-            "word": {},
-            "example": {}
+            "word": {
+              "green": [
+                "der"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "bestemt artikel"
+              ]
+            }
           },
           {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
+            "word": {
+              "green": [
+                "dies"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "dette (stedord)"
+              ]
+            }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "dieser"
-            ],
-            "purple": [
-              "Husk"
-            ],
-            "green": [
-              "Husk"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "purple": [
-              "dieser"
-            ]
-          }
+          {},
+          {}
         ]
-      },
-      "important": [
-        "dieser, diese og dieser skifter efter køn.",
-        "Flertalsformen er igen diese."
-      ]
+      }
     }
   },
   {
@@ -4655,7 +5361,7 @@ const A1_WORDS = [
   },
   {
     "de": "dritte",
-    "lv": "Den tredje",
+    "lv": "Tredje",
     "level": "A1"
   },
   {
@@ -4679,64 +5385,114 @@ const A1_WORDS = [
     "de": "Ecke",
     "de_article": "die",
     "de_plural": "die Ecken",
-    "lv": "Hjørnet",
+    "lv": "Hjørne",
     "level": "A1"
   },
   {
     "de": "Ei",
     "de_article": "das",
     "de_plural": "die Eier",
-    "lv": "Et æg",
+    "lv": "Æg",
     "level": "A1"
   },
   {
     "de": "ein",
-    "lv": "Ubestemt artikel • En • Nogen",
+    "lv": "En • Et",
     "level": "A1",
     "study": {
       "id": "a1-ein",
       "layout": "standardStudy",
-      "translation": "Ubestemt artikel • En • Nogen",
+      "translation": "En • Et",
       "explanation": [
-        "Hovedpointe: ein er ubestemt artikel.",
-        "ein er ubestemt artikel for maskuline og intetkøn substantiver i nominativ.",
-        "ein bruges i maskulint: ein Mann.",
-        "ein bruges i intetkøn: ein Buch.",
-        "I feminint bruges: eine.",
-        "I akkusativ maskulint: einen."
+        "Grundbetydning: ein er den ubestemte artikel: ein Mann, eine Frau, ein Kind. Den viser, at navneordet er nyt eller ubestemt (en mand, en kvinde) – ligesom dansk en/et.",
+        "Hankøn og intetkøn har ein, hunkøn eine. I akkusativ har hankøn einen: Ich habe einen Bruder. I dativ: einem (hankøn/intetkøn), einer (hunkøn). I flertal findes der ingen ubestemt artikel; ved nægtelse bruger man kein.",
+        "Ein er også talordet 'én/ét': Ich habe nur ein Kind. Så udtales det med tryk."
       ],
       "examples": [
         {
-          "de": "Ein Mann wartet draußen.",
-          "lv": "En mand venter udenfor."
+          "de": "Ich habe einen Bruder.",
+          "lv": "Jeg har en bror."
         },
         {
-          "de": "Ich habe ein Buch.",
-          "lv": "Jeg har én bog."
+          "de": "Das ist eine gute Idee.",
+          "lv": "Det er en god idé."
         },
         {
-          "de": "Er sucht einen Stift.",
-          "lv": "Han leder efter en kuglepen."
+          "de": "Er kauft ein Auto.",
+          "lv": "Han køber en bil."
         },
         {
-          "de": "Ein Kind spielt.",
-          "lv": "Barnet leger."
+          "de": "Ein Kind spielt im Garten.",
+          "lv": "Et barn leger i haven."
+        },
+        {
+          "de": "Ich habe keinen Hund.",
+          "lv": "Jeg har ingen hund."
         }
       ],
-      "tip": {
-        "text": "Husk: uspecifik en/nogen → ein."
-      },
+      "comparison": [
+        {
+          "word": "kein",
+          "meaning": "ingen, ikke nogen",
+          "example": "Ich habe kein Auto. – Jeg har ingen bil."
+        },
+        {
+          "word": "der",
+          "meaning": "bestemt artikel",
+          "example": "Der Mann kommt. – Manden kommer."
+        },
+        {
+          "word": "eins",
+          "meaning": "en (når man tæller)",
+          "example": "Eins, zwei, drei. – En, to, tre."
+        }
+      ],
+      "tip": [
+        "I flertal er der ingen ubestemt artikel: Ich habe Bücher.",
+        "Ved nægtelse bruger man kein: kein Mann, keine Frau."
+      ],
+      "important": [
+        "Ein er ikke kun en artikel – med tryk betyder det 'én/ét'.",
+        "I akkusativ hedder det einen foran hankønsord, ikke 'ein': Ich sehe einen Mann."
+      ],
       "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "ein",
+            "eine",
+            "einen",
+            "einem",
+            "einer",
+            "kein"
+          ],
+          "purple": [
+            "ubestemte artikel",
+            "en/et",
+            "én/ét"
+          ]
+        },
         "examples": [
           {
             "de": {
               "blue": [
-                "Ein"
+                "einen"
               ]
             },
             "lv": {
               "purple": [
-                "mand"
+                "en"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "eine"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "en"
               ]
             }
           },
@@ -4748,112 +5504,82 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Jeg"
+                "en"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "einen"
+                "Ein"
               ]
             },
             "lv": {
               "purple": [
-                "Han"
+                "Et barn"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "keinen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ingen"
               ]
             }
           }
         ],
         "comparison": [
           {
-            "word": {},
-            "example": {}
+            "word": {
+              "green": [
+                "kein"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ingen, ikke nogen"
+              ]
+            }
           },
           {
-            "word": {},
-            "example": {}
+            "word": {
+              "green": [
+                "der"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "bestemt artikel"
+              ]
+            }
           },
           {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
+            "word": {
+              "green": [
+                "eins"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "en (når man tæller)"
+              ]
+            }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "ein"
-            ],
-            "purple": [
-              "Husk",
-              "Husk"
-            ],
-            "green": [
-              "Husk"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "blue": [
-              "ein"
-            ],
-            "red": [
-              "ein"
-            ]
-          },
-          {
-            "blue": [
-              "der",
-              "die",
-              "das"
-            ],
-            "green": [
-              "Hvis"
-            ]
-          }
+          {},
+          {}
         ]
-      },
-      "important": [
-        "ein er ikke en bestemt artikel.",
-        "Hvis sagen allerede er konkret kendt, er der ofte behov for der, die eller das.",
-        "eine — feminint.",
-        "einen — akkusativ."
-      ],
-      "comparison": [
-        {
-          "word": "ein Mann",
-          "meaning": "hankøn",
-          "example": "Ein Mann wartet draußen. = En mand venter udenfor."
-        },
-        {
-          "word": "eine Frau",
-          "meaning": "hunkøn",
-          "example": "eine Frau = en kvinde"
-        },
-        {
-          "word": "ein Buch",
-          "meaning": "intetkøn",
-          "example": "Ich habe ein Buch. = Jeg har en bog."
-        },
-        {
-          "word": "einen Mann",
-          "meaning": "akkusativ",
-          "example": "einen Mann = en mand"
-        }
-      ]
+      }
     }
   },
   {
@@ -4869,74 +5595,76 @@ const A1_WORDS = [
   {
     "de": "Eis",
     "de_article": "das",
-    "lv": "Is • Is",
+    "lv": "Is",
     "level": "A1",
     "study": {
       "id": "a1-eis",
       "layout": "standardStudy",
-      "translation": "Is • Is",
+      "translation": "Is",
       "explanation": [
-        "Hovedidé: das Eis kan betyde både is og is.",
-        "Når det kommer til koldt frosset vand, siger dansk normalt is.",
-        "Når det kommer til mad eller dessert, betyder das Eis meget ofte is i hverdagen.",
-        "Konteksten fortæller dig som regel med det samme, hvilken betydning der er tilsigtet.",
-        "På A1-niveau er de vigtigste sætninger ein Eis essen og Eis im Glas."
+        "Grundbetydning: das Eis er et intetkønsord med to betydninger: is (frossent vand) og is (spiseis) – præcis som på dansk. Ich esse gern Eis; Im Winter bedeckt Eis den See.",
+        "Ental: das Eis. Flertal er sjældent; når man bestiller, siger man zwei Eis (to is). Betydningen afgøres af sammenhængen.",
+        "I sammensatte ord: der Eiswürfel (isterning), die Eiscreme (flødeis), das Eishockey (ishockey)."
       ],
       "examples": [
         {
-          "de": "Ich esse ein Eis.",
-          "lv": "Jeg spiser is"
+          "de": "Im Winter bedeckt Eis den See.",
+          "lv": "Om vinteren dækker isen søen."
+        },
+        {
+          "de": "Ich esse gern Eis.",
+          "lv": "Jeg spiser gerne is."
         },
         {
           "de": "Möchtest du ein Eis?",
-          "lv": "Vil du have is"
+          "lv": "Vil du have en is?"
         },
         {
-          "de": "Im Winter liegt Eis auf dem See.",
-          "lv": "Om vinteren er der is på søen."
+          "de": "Ein Eis mit Schokolade, bitte.",
+          "lv": "En is med chokolade, tak."
         },
         {
-          "de": "Das Eis ist kalt.",
-          "lv": "Isen er kold."
-        },
-        {
-          "de": "Ich nehme ein Eis mit Schokolade.",
-          "lv": "Jeg skal have chokoladeis."
+          "de": "Das Eis auf dem Fluss ist dünn.",
+          "lv": "Isen på floden er tynd."
         }
       ],
       "comparison": [
         {
-          "word": "das Eis",
-          "meaning": "Is / is",
-          "example": "Ich esse ein Eis. = Jeg spiser en is."
-        },
-        {
           "word": "der Schnee",
-          "meaning": "Det vil sne",
-          "example": "Der Schnee ist weiß. = Sneen er hvid."
+          "meaning": "sne",
+          "example": "Im Winter liegt Schnee. – Om vinteren ligger der sne."
         },
         {
-          "word": "kalt",
-          "meaning": "Kold",
-          "example": "Das Wasser ist kalt. = Vandet er koldt."
+          "word": "die Eiscreme",
+          "meaning": "flødeis",
+          "example": "Sie isst Eiscreme. – Hun spiser flødeis."
         },
         {
-          "word": "das Dessert",
-          "meaning": "Dessert",
-          "example": "Eis ist ein Dessert. = Is er en dessert."
+          "word": "der Eiswürfel",
+          "meaning": "isterning",
+          "example": "Ein Eiswürfel im Glas. – En isterning i glasset."
         }
       ],
-      "tip": {
-        "text": "Husk: mad → is; vinter/vand → is."
-      },
+      "tip": [
+        "Ein Eis betyder normalt en portion is.",
+        "Is i en drink nævner man med mit: Wasser mit Eis (vand med is)."
+      ],
       "important": [
-        "på dansk is og is er to forskellige ord, men på tysk bruger man ofte das Eis om begge.",
-        "Kontekst er nøglen: mad betyder is, kold overflade eller vand betyder is."
+        "Das Eis er intetkøn: das Eis, ikke 'die Eis' – mens dansk is er fælleskøn.",
+        "I hverdagen kalder man spiseis bare Eis; det samme ord betyder også frossent vand, så betydningen afgøres af sammenhængen."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "Eis",
+            "Eiswürfel",
+            "Eiscreme",
+            "Eishockey"
+          ],
           "purple": [
-            "Hovedidé"
+            "is",
+            "frossent vand",
+            "spiseis"
           ]
         },
         "examples": [
@@ -4948,7 +5676,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Jeg"
+                "isen"
               ]
             }
           },
@@ -4960,7 +5688,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Vil"
+                "is"
               ]
             }
           },
@@ -4972,7 +5700,19 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "vinteren"
+                "is"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Eis"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "is"
               ]
             }
           },
@@ -4987,114 +5727,53 @@ const A1_WORDS = [
                 "Isen"
               ]
             }
-          },
-          {
-            "de": {
-              "blue": [
-                "Eis"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Jeg"
-              ]
-            }
           }
         ],
         "comparison": [
           {
             "word": {
               "green": [
-                "das Eis"
+                "Schnee"
               ]
             },
-            "meaning": {},
-            "example": {
-              "blue": [
-                "Eis"
-              ],
+            "meaning": {
               "purple": [
-                "Ich"
+                "sne"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "der Schnee"
+                "Eiscreme"
               ]
             },
             "meaning": {
               "purple": [
-                "Det"
-              ]
-            },
-            "example": {
-              "green": [
-                "Schnee",
-                "Der"
+                "flødeis"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "kalt"
+                "Eiswürfel"
               ]
             },
             "meaning": {
               "purple": [
-                "Kold"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "kalt",
-                "Das"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "das Dessert"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Dessert"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Eis"
-              ],
-              "red": [
-                "Dessert"
+                "isterning"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "purple": [
-              "Husk",
-              "Husk"
-            ],
-            "green": [
-              "Husk",
-              "Husk",
-              "Husk"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "purple": [
-              "dansk",
-              "dansk"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -5121,7 +5800,7 @@ const A1_WORDS = [
     "de": "Ende",
     "de_article": "das",
     "de_plural": "die Enden",
-    "lv": "Slutningen",
+    "lv": "Slutning • Ende",
     "level": "A1"
   },
   {
@@ -5133,7 +5812,7 @@ const A1_WORDS = [
     "de": "Erbse",
     "de_article": "die",
     "de_plural": "die Erbsen",
-    "lv": "En ært",
+    "lv": "Ært",
     "level": "A1"
   },
   {
@@ -5152,111 +5831,144 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Først • Kun",
       "explanation": [
-        "Hovedpointe: erst betyder oftest kun. Men i visse sammenhænge kan det også betyde først.",
-        "erst indikerer ofte, at noget sker senere end forventet.",
-        "Ich bin erst 18. — Jeg er kun 18.",
-        "Es ist erst Montag. — Det er kun mandag.",
-        "Erst lernen, dann spielen. — Først læres der, så leger man."
+        "Grundbetydning: erst er et biord med to hovedbetydninger: 'først, kun' om tid (ikke tidligere, endnu ikke mere end): Es ist erst 8 Uhr (klokken er kun 8), og 'først' (som det første): Erst essen wir, dann gehen wir.",
+        "Er kommt erst morgen betyder 'han kommer først i morgen'. I modsætning til nur (kun, om mængde) understreger erst, at noget endnu ikke er sket eller ikke har nået et bestemt tidspunkt – præcis som dansk 'først' i 'han kommer først i morgen'.",
+        "Forveksl det ikke med erste (første), som er et ordenstal."
       ],
       "examples": [
         {
-          "de": "Erst lernen, dann spielen.",
-          "lv": "Drik først, kør så."
+          "de": "Es ist erst acht Uhr.",
+          "lv": "Klokken er kun otte."
         },
         {
-          "de": "Ich komme erst morgen.",
-          "lv": "Jeg kommer først i morgen."
+          "de": "Er kommt erst morgen.",
+          "lv": "Han kommer først i morgen."
         },
         {
-          "de": "Er ist erst 18 Jahre alt.",
-          "lv": "Han er kun 18 år gammel."
+          "de": "Erst essen wir, dann gehen wir spazieren.",
+          "lv": "Først spiser vi, så går vi en tur."
         },
         {
-          "de": "Wir essen erst um acht Uhr.",
-          "lv": "Vi spiser først klokken otte."
+          "de": "Ich bin erst seit einer Woche hier.",
+          "lv": "Jeg har kun været her en uge."
+        },
+        {
+          "de": "Erst jetzt verstehe ich das.",
+          "lv": "Først nu forstår jeg det."
         }
       ],
       "comparison": [
         {
-          "word": "erst",
-          "meaning": "Først • Kun",
-          "example": "Erst lernen, dann spielen. – Erst arbeiten, dann Pause. = Arbejd først, så pause."
+          "word": "nur",
+          "meaning": "kun (mængde)",
+          "example": "Ich habe nur einen Euro. – Jeg har kun én euro."
         },
         {
           "word": "zuerst",
-          "meaning": "Først • I begyndelsen",
-          "example": "Zuerst frühstücken wir. = Først spiser vi morgenmad."
+          "meaning": "først, i begyndelsen",
+          "example": "Zuerst lese ich, dann schreibe ich. – Først læser jeg, så skriver jeg."
         },
         {
-          "word": "nur",
-          "meaning": "Kun",
-          "example": "Ich habe nur 5 Euro. = Jeg har kun 5 euro."
-        },
-        {
-          "word": "dann",
-          "meaning": "Så",
-          "example": "Dann gehen wir nach Hause. = Så går vi hjem."
+          "word": "schon",
+          "meaning": "allerede",
+          "example": "Es ist schon acht Uhr. – Klokken er allerede otte."
         }
       ],
-      "tip": {
-        "text": "Husk: laiks/skaits → erst; daudzums → nur."
-      },
-      "accents": {
-        "blue": [
-          "erst",
-          "Erst"
-        ],
-        "green": [
-          "zuerst",
-          "Zuerst"
-        ],
-        "yellow": [
-          "nur"
-        ],
-        "red": [
-          "dann",
-          "Dann"
-        ]
-      },
+      "tip": [
+        "Erst + tid = 'først, kun (så sent / så lidt)': erst um 8, erst morgen.",
+        "Erst … dann = først … så."
+      ],
+      "important": [
+        "Erst og nur er ikke det samme: nur handler om mængde, erst om tid.",
+        "Erst er ikke helt det samme som zuerst: zuerst betyder normalt 'først, i begyndelsen' i en række af trin."
+      ],
       "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "erst",
+            "Erst",
+            "erste",
+            "Es ist erst 8 Uhr",
+            "Erst essen wir"
+          ],
+          "purple": [
+            "først",
+            "kun",
+            "første"
+          ]
+        },
         "examples": [
           {
-            "blue": [
-              "Erst"
-            ],
-            "red": [
-              "dann"
-            ]
+            "de": {
+              "blue": [
+                "erst"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kun"
+              ]
+            }
           },
           {
-            "blue": [
-              "erst"
-            ]
+            "de": {
+              "blue": [
+                "erst"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "først"
+              ]
+            }
           },
           {
-            "blue": [
-              "erst"
-            ]
+            "de": {
+              "blue": [
+                "Erst"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Først"
+              ]
+            }
           },
           {
-            "blue": [
-              "erst"
-            ]
+            "de": {
+              "blue": [
+                "erst"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kun"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Erst"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Først"
+              ]
+            }
           }
         ],
         "comparison": [
           {
             "word": {
               "green": [
-                "erst"
+                "nur"
               ]
             },
-            "example": {
-              "blue": [
-                "Erst"
-              ],
-              "red": [
-                "dann"
+            "meaning": {
+              "purple": [
+                "kun (mængde)"
               ]
             }
           },
@@ -5266,213 +5978,226 @@ const A1_WORDS = [
                 "zuerst"
               ]
             },
-            "example": {
-              "green": [
-                "Zuerst"
+            "meaning": {
+              "purple": [
+                "først, i begyndelsen"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "nur"
+                "schon"
               ]
             },
-            "example": {
-              "yellow": [
-                "nur"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "dann"
-              ]
-            },
-            "example": {
-              "red": [
-                "Dann"
+            "meaning": {
+              "purple": [
+                "allerede"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "erst"
-            ],
-            "yellow": [
-              "nur"
-            ],
-            "green": [
-              "laiks",
-              "skaits"
-            ],
-            "purple": [
-              "daudzums"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "purple": [
-              "erst",
-              "erst"
-            ]
-          }
+          {},
+          {}
         ]
-      },
-      "important": [
-        "erst og nur kan begge lyde som \"kun\", men er ikke ens.",
-        "først taler ofte om tid, sekvens eller endnu at nå et punkt; nur begrænser mængden.",
-        "zuerst betyder oftest: først."
-      ]
+      }
     }
   },
   {
     "de": "erste",
-    "lv": "Den første",
+    "lv": "Første",
     "level": "A1"
   },
   {
     "de": "es",
-    "lv": "Det • Det • Upersonlig form",
+    "lv": "Det • Den",
     "level": "A1",
     "study": {
       "id": "a1-es",
       "layout": "standardStudy",
-      "translation": "Det • Det • Upersonlig form",
+      "translation": "Det • Den",
       "explanation": [
-        "Hovedpointe: es er et pronomen.",
-        "Det bruges: det, i upersonlige konstruktioner."
+        "Grundbetydning: es er tredjepersons stedord for intetkøn: Das Kind weint. Es ist müde. I akkusativ er formen den samme: Ich sehe es; i dativ hedder det ihm.",
+        "Es bruges også i upersonlige sætninger uden en konkret handlende: Es regnet (det regner), Es ist kalt (det er koldt), Wie geht es dir? (hvordan har du det?), Es gibt … (der er, der findes). Her svarer es til dansk 'det' eller 'der'.",
+        "Es står for intetkønsord (das Buch → es), mens hankøns- og hunkønsord erstattes af er og sie. Dansk 'den' om en ting svarer derfor ofte til er eller sie på tysk."
       ],
       "examples": [
         {
-          "de": "Es regnet.",
-          "lv": "Det regner."
+          "de": "Das Buch ist alt, aber ich lese es gern.",
+          "lv": "Bogen er gammel, men jeg læser den gerne."
         },
         {
-          "de": "Es ist kalt.",
-          "lv": "Det er koldt."
+          "de": "Es regnet heute.",
+          "lv": "Det regner i dag."
         },
         {
-          "de": "Das Kind schläft.",
-          "lv": "Barnet sover."
+          "de": "Wie geht es dir?",
+          "lv": "Hvordan har du det?"
         },
         {
-          "de": "Es ist müde.",
-          "lv": "Det er træt."
+          "de": "Es gibt hier ein Café.",
+          "lv": "Der er en café her."
+        },
+        {
+          "de": "Wie spät ist es? – Es ist acht Uhr.",
+          "lv": "Hvad er klokken? – Den er otte."
         }
       ],
-      "info": [
-        "Dansk \"jeg\" = tysk \"ich\"",
-        "Tysk es = det • upersonlig form"
+      "comparison": [
+        {
+          "word": "er",
+          "meaning": "han / den (hankøn)",
+          "example": "Der Tisch ist neu. Er ist groß. – Bordet er nyt. Det er stort."
+        },
+        {
+          "word": "sie",
+          "meaning": "hun / den (hunkøn)",
+          "example": "Die Lampe ist neu. Sie ist schön. – Lampen er ny. Den er smuk."
+        },
+        {
+          "word": "das",
+          "meaning": "det (påpegende)",
+          "example": "Das ist mein Bruder. – Det er min bror."
+        }
       ],
-      "tip": {
-        "text": "Husk: dansk \"det\" → ich, ikke tysk es."
-      },
+      "tip": [
+        "Lær Wie geht es dir? og Es gibt … som faste udtryk.",
+        "Om et intetkønsord henviser man med es: das Auto → es."
+      ],
+      "important": [
+        "I upersonlige sætninger må es ikke udelades: man kan ikke sige 'Regnet heute' – ligesom man på dansk ikke kan udelade 'det' i 'det regner'.",
+        "Om personer bruges es kun ved intetkønsord som das Kind, das Mädchen; ellers er eller sie."
+      ],
       "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "es",
+            "Es",
+            "ihm",
+            "Es regnet",
+            "Wie geht es dir",
+            "Es gibt"
+          ],
+          "purple": [
+            "det",
+            "det regner",
+            "intetkøn"
+          ]
+        },
         "examples": [
           {
-            "blue": [
-              "Es"
-            ]
+            "de": {
+              "blue": [
+                "es"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "den"
+              ]
+            }
           },
           {
-            "blue": [
-              "Es"
-            ]
-          },
-          {},
-          {
-            "blue": [
-              "Es"
-            ]
-          },
-          {
-            "blue": [
-              "Es"
-            ]
+            "de": {
+              "blue": [
+                "Es"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Det regner"
+              ]
+            }
           },
           {
-            "blue": [
-              "Es"
-            ]
+            "de": {
+              "blue": [
+                "es"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "det"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Es"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Der er"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "es"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Den er otte"
+              ]
+            }
           }
         ],
         "comparison": [
           {
-            "word": {},
-            "example": {}
+            "word": {
+              "green": [
+                "er"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "han / den (hankøn)"
+              ]
+            }
           },
           {
-            "word": {},
-            "example": {}
+            "word": {
+              "green": [
+                "sie"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "hun / den (hunkøn)"
+              ]
+            }
           },
           {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
+            "word": {
+              "green": [
+                "das"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "det (påpegende)"
+              ]
+            }
           }
         ],
-        "info": [
-          {
-            "blue": []
-          },
-          {
-            "green": []
-          }
+        "tip": [
+          {},
+          {}
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "es"
-            ],
-            "red": [
-              "ich"
-            ],
-            "purple": [
-              "es"
-            ]
-          }
-        },
         "important": [
-          {
-            "purple": [
-              "Det"
-            ]
-          }
+          {},
+          {}
         ]
-      },
-      "important": [
-        "Det tyske jeg er ikke det danske jeg.",
-        "Dansk \"I\" på tysk is ich; Tysk es betyder ofte det/det eller er ikke oversat.",
-        "Det danske \"jeg\" betyder tysk \"ich\"; tysk es betyder ofte \"det\" eller oversættes ikke."
-      ],
-      "comparison": [
-        {
-          "word": "es",
-          "meaning": "det • upersonlig form",
-          "example": "Es regnet. -- Det regner."
-        },
-        {
-          "word": "ich",
-          "meaning": "jeg (personlig form)",
-          "example": "Ich lerne Deutsch. -- Jeg lærer tysk."
-        }
-      ]
+      }
     }
   },
   {
@@ -5491,9 +6216,9 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Noget • Lidt",
       "explanation": [
-        "Hovedidé: etwas betyder noget eller lidt afhængigt af konteksten.",
-        "Hvis etwas erstatter en ukendt ting, siger dansk normalt noget.",
-        "Når etwas står foran et adjektiv eller mængde, betyder det ofte lidt."
+        "Grundbetydning: etwas er et ubestemt stedord 'noget': Ich möchte etwas trinken, Hast du etwas Neues? Det bøjes ikke og opfører sig som intetkøn ental.",
+        "Efter etwas skrives et tillægsord som et navneord med stort begyndelsesbogstav og endelsen -es: etwas Neues (noget nyt), etwas Gutes (noget godt); undtagelsen er etwas anderes (noget andet), som normalt skrives med lille.",
+        "Etwas kan også betyde 'lidt, en smule': etwas Zeit (lidt tid), etwas müde (lidt træt)."
       ],
       "examples": [
         {
@@ -5501,58 +6226,60 @@ const A1_WORDS = [
           "lv": "Jeg vil gerne have noget at drikke."
         },
         {
-          "de": "Hast du etwas Zeit?",
-          "lv": "Har du lidt tid"
+          "de": "Hast du etwas Neues?",
+          "lv": "Har du noget nyt?"
         },
         {
-          "de": "Ich bin etwas müde.",
-          "lv": "Jeg er lidt træt"
+          "de": "Das ist etwas anderes.",
+          "lv": "Det er noget andet."
         },
         {
-          "de": "Ich habe etwas für dich.",
-          "lv": "Jeg har noget til dig"
+          "de": "Kannst du mir etwas Zeit geben?",
+          "lv": "Kan du give mig lidt tid?"
         },
         {
-          "de": "Das ist etwas teuer.",
-          "lv": "Det er lidt dyrt."
+          "de": "Das Wasser ist etwas kalt.",
+          "lv": "Vandet er lidt koldt."
         }
       ],
       "comparison": [
         {
-          "word": "etwas",
-          "meaning": "Noget/lidt",
-          "example": "Ich brauche etwas. = Jeg har brug for noget."
-        },
-        {
-          "word": "was",
-          "meaning": "Noget (i daglig tale)",
-          "example": "Willst du was trinken? = Vil du drikke noget?"
-        },
-        {
-          "word": "ein bisschen",
-          "meaning": "Lidt",
-          "example": "Ich bin ein bisschen müde. = Jeg er lidt træt."
-        },
-        {
           "word": "nichts",
-          "meaning": "Intet",
-          "example": "Ich brauche nichts. = Jeg behøver ikke noget."
+          "meaning": "ingenting, intet",
+          "example": "Ich habe nichts gesehen. – Jeg så ingenting."
+        },
+        {
+          "word": "alles",
+          "meaning": "alt",
+          "example": "Er weiß alles. – Han ved alt."
+        },
+        {
+          "word": "jemand",
+          "meaning": "nogen",
+          "example": "Jemand ist an der Tür. – Der er nogen ved døren."
         }
       ],
-      "tip": {
-        "text": "Husk: ting → noget; grad → lidt."
-      },
+      "tip": [
+        "Efter etwas bliver tillægsordet et navneord: etwas Schönes, ikke 'etwas schönes'.",
+        "Det modsatte af etwas er nichts (ingenting)."
+      ],
       "important": [
-        "etwas er ikke det samme som nichts: etwas betyder noget, men nichts betyder ingenting.",
-        "på dansk lyder nogle gange bedre end noget, for eksempel: etwas trinken = at drikke noget.",
-        "På dansk lyder det ofte bedre med \"noget\" i stedet for \"noget\", for eksempel: etwas trinken = drikke noget."
+        "Etwas bøjes ikke: mit etwas, für etwas.",
+        "Etwas skifter ikke efter køn, og udsagnsordet står i ental: Etwas ist passiert."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "etwas",
+            "etwas Neues",
+            "etwas Gutes",
+            "etwas anderes",
+            "etwas Zeit"
+          ],
           "purple": [
-            "Hovedidé",
-            "Hovedidé",
-            "Hovedidé"
+            "noget",
+            "lidt",
+            "en smule"
           ]
         },
         "examples": [
@@ -5564,7 +6291,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Jeg"
+                "noget"
               ]
             }
           },
@@ -5576,7 +6303,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Har"
+                "noget"
               ]
             }
           },
@@ -5588,7 +6315,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Jeg"
+                "noget"
               ]
             }
           },
@@ -5600,7 +6327,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Jeg"
+                "lidt"
               ]
             }
           },
@@ -5612,71 +6339,12 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Det"
+                "lidt"
               ]
             }
           }
         ],
         "comparison": [
-          {
-            "word": {
-              "green": [
-                "etwas"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Noget/lidt",
-                "Noget/lidt"
-              ]
-            },
-            "example": {
-              "blue": [
-                "etwas"
-              ],
-              "purple": [
-                "Ich"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "was"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Noget"
-              ]
-            },
-            "example": {
-              "green": [
-                "was"
-              ],
-              "purple": [
-                "Willst"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "ein bisschen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Lidt"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "ein bisschen",
-                "Ich"
-              ]
-            }
-          },
           {
             "word": {
               "green": [
@@ -5685,292 +6353,178 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Intet"
+                "ingenting, intet"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "alles"
               ]
             },
-            "example": {
-              "red": [
-                "nichts",
-                "Ich"
+            "meaning": {
+              "purple": [
+                "alt"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "jemand"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "nogen"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "purple": [
-              "Husk",
-              "Husk"
-            ],
-            "yellow": [
-              "Husk"
-            ],
-            "green": [
-              "Husk"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "purple": [
-              "etwas",
-              "etwas",
-              "etwas"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
   },
   {
     "de": "euch",
-    "lv": "Dig • Dig",
+    "lv": "Jer",
     "level": "A1",
     "study": {
       "id": "a1-euch",
       "layout": "standardStudy",
-      "translation": "Dig • Dig",
-      "explanation": "\"euch\" er et 2. person flertalspronomen. Det bruges både som et direkte supplement (hvor?) - \"dig\" og som et indirekte supplement (til hvem?) - \"til dig\".",
+      "translation": "Jer",
+      "explanation": [
+        "Grundbetydning: euch er akkusativ- og dativformen af det personlige stedord ihr (I – til flere venner, børn eller familiemedlemmer): Ich sehe euch (jeg ser jer), Ich gebe euch das Buch (jeg giver jer bogen).",
+        "Euch er også det tilbagevisende stedord til ihr: Setzt euch! (sæt jer!), Freut ihr euch auf die Ferien? Når man taler høfligt til nogen, bruger man Sie, Ihnen, ikke euch.",
+        "Nominativ er ihr; det tilsvarende ejestedord er euer (jeres)."
+      ],
       "examples": [
         {
-          "de": "Ich sehe euch.",
-          "lv": "Jeg ser dig"
+          "de": "Ich sehe euch morgen.",
+          "lv": "Jeg ser jer i morgen."
         },
         {
-          "de": "Ich helfe euch.",
-          "lv": "Jeg hjælper dig"
+          "de": "Ich gebe euch die Schlüssel.",
+          "lv": "Jeg giver jer nøglerne."
         },
         {
-          "de": "Ich gebe euch das Buch.",
-          "lv": "Jeg giver dig en bog"
+          "de": "Wir danken euch für die Hilfe.",
+          "lv": "Vi takker jer for hjælpen."
         },
         {
-          "de": "Ich danke euch.",
-          "lv": "Jeg takker dig"
+          "de": "Setzt euch bitte!",
+          "lv": "Sæt jer venligst ned!"
         },
         {
-          "de": "Ihr erinnert euch.",
-          "lv": "Du husker"
+          "de": "Freut ihr euch auf die Ferien?",
+          "lv": "Glæder I jer til ferien?"
         }
       ],
       "comparison": [
         {
           "word": "ihr",
-          "meaning": "Du",
-          "example": "Ihr seid freundlich. = I er venlige."
+          "meaning": "I (nominativ)",
+          "example": "Ihr seid nett. – I er søde."
         },
         {
-          "word": "euch",
-          "meaning": "Dig/til dig",
-          "example": "Ich helfe euch. = Jeg hjælper jer."
+          "word": "Ihnen",
+          "meaning": "Dem (høflig form)",
+          "example": "Ich helfe Ihnen. – Jeg hjælper Dem."
         },
         {
-          "word": "euer",
-          "meaning": "Dine",
-          "example": "Das ist euer Haus. = Det er jeres hus."
+          "word": "dich",
+          "meaning": "dig",
+          "example": "Ich sehe dich. – Jeg ser dig."
         }
       ],
-      "info": [
-        "ihr = you (subject form of the sentence)",
-        "euch = you (where? form) / you (whom? form)",
-        "euer = your (possessive form)"
+      "tip": [
+        "Euch bruger man, når man er dus med flere personer: ihr → euch.",
+        "I bydemåde med tilbagevisende udsagnsord: Beeilt euch! (skynd jer!)."
       ],
-      "tip": {
-        "text": "\"euch\" billede til spørgsmålet \"til hvem?\" eller er det direkte komplement i sætninger med \"dig\".",
-        "example": "Jeg hjælper dig. = Ich helfe euch. jeg ser dig = Ich sehe euch. Jeg fortæller dig. = Ich erzähle euch."
-      },
-      "accents": {
-        "blue": [
-          "ihr"
-        ],
-        "yellow": [
-          "euch"
-        ],
-        "green": [
-          "euer"
-        ]
-      }
-    }
-  },
-  {
-    "de": "euer",
-    "lv": "Dine",
-    "level": "A1"
-  },
-  {
-    "de": "fahren",
-    "lv": "Køre",
-    "level": "A1",
-    "study": {
-      "id": "a1-fahren",
-      "layout": "standardStudy",
-      "translation": "Køre",
-      "explanation": [
-        "Hovedidé: fahren betyder at køre et køretøj og i nogle sætninger også at tage eller tage nogen.",
-        "Fahren bruges, når du rejser med bil, bus, tog, cykel eller andet køretøj.",
-        "Når sætningen har en person som objekt, kan fahren betyde at føre eller tage væk.",
-        "Hvis bevægelsen er til fods, bruges som regel gehen eller laufen."
+      "important": [
+        "Euch er både akkusativ og dativ: Ich sehe euch (akk.), Ich helfe euch (dat.) – formen er den samme, ligesom dansk 'jer'.",
+        "I den høflige tiltaleform bruger man ikke euch, men Sie / Ihnen."
       ],
-      "examples": [
-        {
-          "de": "Ich fahre nach Berlin.",
-          "lv": "Jeg skal til Berlin."
-        },
-        {
-          "de": "Ich fahre mit dem Auto.",
-          "lv": "Jeg kører bil."
-        },
-        {
-          "de": "Ich fahre meine Tochter zur Schule.",
-          "lv": "Jeg tager min datter med i skole."
-        },
-        {
-          "de": "Ich fahre dich nach Hause.",
-          "lv": "Jeg tager dig hjem"
-        },
-        {
-          "de": "Wir fahren morgen nach München.",
-          "lv": "Vi skal til München i morgen."
-        }
-      ],
-      "comparison": [
-        {
-          "word": "fahren",
-          "meaning": "Kør transporten",
-          "example": "Ich fahre mit dem Bus. = Jeg kører med bussen."
-        },
-        {
-          "word": "gehen",
-          "meaning": "Gå til fods",
-          "example": "Ich gehe nach Hause. = Jeg går hjem."
-        },
-        {
-          "word": "laufen",
-          "meaning": "Løb / gå",
-          "example": "Er läuft schnell. = Han løber hurtigt."
-        },
-        {
-          "word": "bringen",
-          "meaning": "Medbring/lever",
-          "example": "Ich bringe das Buch. = Jeg bringer bogen."
-        },
-        {
-          "word": "mitnehmen",
-          "meaning": "Tag med dig",
-          "example": "Ich nehme dich mit. = Jeg tager dig med."
-        }
-      ],
-      "tip": {
-        "text": "Husk: køretøj → fahren; til fods → gå."
-      },
-      "important": {
-        "text": "Fahren ≠ kun at køre",
-        "example": "På tysk betyder det samme verbum ofte: at køre • at køre med • at tage med afhængigt af sammenhængen."
-      },
-      "accents": {
-        "blue": [
-          "fahren",
-          "fahre"
-        ],
-        "purple": [
-          "køre",
-          "tage",
-          "føre"
-        ],
-        "green": [
-          "køretøj",
-          "bil",
-          "transport"
-        ],
-        "yellow": [
-          "gehen",
-          "laufen"
-        ],
-        "red": [
-          "bringen",
-          "mitnehmen"
-        ]
-      },
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "euch",
+            "ihr",
+            "Setzt euch",
+            "Sie",
+            "Ihnen",
+            "euer"
+          ],
           "purple": [
-            "Hovedidé",
-            "Hovedidé",
-            "Hovedidé"
+            "jer"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "fahre"
+                "euch"
               ]
             },
             "lv": {
               "purple": [
-                "Jeg"
+                "jer"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "fahre"
-              ],
-              "green": [
-                "Auto"
+                "euch"
               ]
             },
             "lv": {
               "purple": [
-                "Jeg"
+                "jer"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "fahre"
-              ],
-              "green": [
-                "Tochter",
-                "Schule"
+                "euch"
               ]
             },
             "lv": {
               "purple": [
-                "Jeg"
+                "jer"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "fahre"
-              ],
-              "green": [
-                "dich",
-                "Hause"
+                "euch"
               ]
             },
             "lv": {
               "purple": [
-                "Jeg"
+                "Sæt jer"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "fahren"
-              ],
-              "green": [
-                "München"
+                "euch"
               ]
             },
             "lv": {
               "purple": [
-                "skal"
+                "jer"
               ]
             }
           }
@@ -5979,18 +6533,196 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "fahren"
+                "ihr"
               ]
             },
             "meaning": {
-              "purple": []
-            },
-            "example": {
-              "blue": [
-                "fahre"
+              "purple": [
+                "I (nominativ)"
               ]
             }
           },
+          {
+            "word": {
+              "green": [
+                "Ihnen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Dem (høflig form)"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "dich"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "dig"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
+    }
+  },
+  {
+    "de": "euer",
+    "lv": "Jeres",
+    "level": "A1"
+  },
+  {
+    "de": "fahren",
+    "lv": "At køre",
+    "level": "A1",
+    "study": {
+      "id": "a1-fahren",
+      "layout": "standardStudy",
+      "translation": "At køre",
+      "explanation": [
+        "Grundbetydning: fahren betyder at køre eller rejse, altså at bevæge sig med et transportmiddel: Wir fahren mit dem Bus, Er fährt nach Berlin. Det kan også betyde at føre et køretøj: Sie fährt einen Mercedes.",
+        "Former: du fährst, er fährt (a → ä), fuhr, ist gefahren. Uden genstandsled bruger man sein: Ich bin nach Wien gefahren. Med et akkusativled (man fører et køretøj) bruger man haben: Ich habe das Auto gefahren.",
+        "Ved hvorhen? siger man nach (by, land), zu (person, sted) eller in + akkusativ; om transportmidlet bruger man mit + dativ. Bemærk: dansk 'fare' betyder noget andet – fahren svarer til 'køre' eller 'tage (af sted)'."
+      ],
+      "examples": [
+        {
+          "de": "Wir fahren mit dem Bus.",
+          "lv": "Vi kører med bus."
+        },
+        {
+          "de": "Er fährt nach Berlin.",
+          "lv": "Han tager til Berlin."
+        },
+        {
+          "de": "Wohin fährst du im Sommer?",
+          "lv": "Hvor rejser du hen om sommeren?"
+        },
+        {
+          "de": "Sie ist gestern nach Wien gefahren.",
+          "lv": "Hun tog til Wien i går."
+        },
+        {
+          "de": "Der Zug fährt sehr schnell.",
+          "lv": "Toget kører meget hurtigt."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "gehen",
+          "meaning": "at gå",
+          "example": "Ich gehe zu Fuß. – Jeg går til fods."
+        },
+        {
+          "word": "fliegen",
+          "meaning": "at flyve",
+          "example": "Wir fliegen nach Rom. – Vi flyver til Rom."
+        },
+        {
+          "word": "laufen",
+          "meaning": "at løbe, at gå",
+          "example": "Er läuft schnell. – Han løber hurtigt."
+        }
+      ],
+      "tip": [
+        "Lær formerne med vokalskiftet: ich fahre, du fährst, er fährt.",
+        "Kort tillægsform gefahren står med sein ved bevægelse og med haben, når der er et akkusativled."
+      ],
+      "important": [
+        "Fahren betyder ikke at gå til fods – dertil bruger man gehen.",
+        "Fahren er ikke 'at flyve': med fly hedder det fliegen på tysk."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "fahren",
+            "fährt",
+            "fährst",
+            "fuhr",
+            "gefahren",
+            "mit dem Bus",
+            "nach Berlin"
+          ],
+          "purple": [
+            "at køre",
+            "rejse",
+            "at føre"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "fahren"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kører"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fährt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tager"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fährst"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "rejser"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "gefahren"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tog"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fährt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kører"
+              ]
+            }
+          }
+        ],
+        "comparison": [
           {
             "word": {
               "green": [
@@ -5999,12 +6731,19 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "til"
+                "at gå"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "fliegen"
               ]
             },
-            "example": {
-              "yellow": [
-                "gehe"
+            "meaning": {
+              "purple": [
+                "at flyve"
               ]
             }
           },
@@ -6016,90 +6755,25 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Løb",
-                "Løb"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "läuft"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "bringen"
-              ]
-            },
-            "meaning": {
-              "purple": []
-            },
-            "example": {
-              "red": [
-                "bringe"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "mitnehmen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Tag"
-              ]
-            },
-            "example": {
-              "red": [
-                "nehme",
-                "mit"
+                "at løbe, at gå"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "fahren"
-            ],
-            "yellow": [
-              "Husk"
-            ],
-            "green": [
-              "Husk",
-              "Husk"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "text": {
-              "blue": [
-                "fahren"
-              ],
-              "purple": [
-                "køre"
-              ]
-            },
-            "example": {
-              "blue": [
-                "fahren"
-              ],
-              "purple": [
-                "køre"
-              ]
-            }
-          }
+          {},
+          {}
         ]
       }
     }
   },
   {
     "de": "falsch",
-    "lv": "Ukorrekt",
+    "lv": "Forkert",
     "level": "A1"
   },
   {
@@ -6151,7 +6825,7 @@ const A1_WORDS = [
   {
     "de": "Wochenende",
     "de_article": "das",
-    "lv": "Weekenden",
+    "lv": "Weekend",
     "level": "A1",
     "de_plural": "die Wochenenden"
   },
@@ -6159,17 +6833,17 @@ const A1_WORDS = [
     "de": "Fernseher",
     "de_article": "der",
     "de_plural": "die Fernseher",
-    "lv": "Television",
+    "lv": "Fjernsyn • TV",
     "level": "A1"
   },
   {
     "de": "fertig",
-    "lv": "Parat",
+    "lv": "Færdig • Klar",
     "level": "A1"
   },
   {
     "de": "fett",
-    "lv": "Fedt",
+    "lv": "Fed",
     "level": "A1"
   },
   {
@@ -6188,51 +6862,78 @@ const A1_WORDS = [
   },
   {
     "de": "finden",
-    "lv": "Find • Overvej",
+    "lv": "At finde • At synes",
     "level": "A1",
     "study": {
       "id": "a1-finden",
       "layout": "standardStudy",
-      "translation": "Find • Overvej",
+      "translation": "At finde • At synes",
       "explanation": [
-        "Hovedidé: finden betyder oftest at finde.",
-        "I samtale betyder finden meget ofte også at overveje eller tænke over noget.",
-        "Hvis det handler om en tabt ting, oversættes det til at finde.",
-        "Hvis det handler om en mening, oversættes det til at tænke eller synes."
+        "Grundbetydning: finden betyder at finde (Ich finde meinen Schlüssel nicht) og at udtrykke en mening – at synes: Ich finde den Film gut, Ich finde, dass das eine gute Idee ist.",
+        "Former: er findet, fand, hat gefunden. I betydningen 'synes' står finden med akkusativ og et tillægsord: den Film gut finden (synes, at filmen er god).",
+        "Finden betyder at finde noget bestemt eller tilfældigt; selve det at lede er suchen."
       ],
       "examples": [
         {
-          "de": "Ich finde meinen Schlüssel.",
-          "lv": "Jeg kan ikke finde min nøgle"
-        },
-        {
-          "de": "Ich finde das gut.",
-          "lv": "Fandt du din telefon"
+          "de": "Ich finde meinen Schlüssel nicht.",
+          "lv": "Jeg kan ikke finde min nøgle."
         },
         {
           "de": "Wie findest du den Film?",
-          "lv": "Det forekommer mig godt."
+          "lv": "Hvad synes du om filmen?"
+        },
+        {
+          "de": "Ich finde das Essen lecker.",
+          "lv": "Jeg synes, maden er lækker."
+        },
+        {
+          "de": "Ich finde, das ist eine gute Idee.",
+          "lv": "Jeg synes, det er en god idé."
+        },
+        {
+          "de": "Wir haben ein Hotel gefunden.",
+          "lv": "Vi har fundet et hotel."
         }
       ],
       "comparison": [
         {
-          "word": "finden",
-          "meaning": "Find/overvej",
-          "example": "Ich finde das gut. = Jeg synes, det er godt."
+          "word": "suchen",
+          "meaning": "at lede, at søge",
+          "example": "Ich suche meinen Schlüssel. – Jeg leder efter min nøgle."
+        },
+        {
+          "word": "denken",
+          "meaning": "at tænke",
+          "example": "Ich denke an dich. – Jeg tænker på dig."
+        },
+        {
+          "word": "glauben",
+          "meaning": "at tro",
+          "example": "Ich glaube, er kommt. – Jeg tror, han kommer."
         }
       ],
-      "tip": {
-        "text": "Husk: tabt ting → funde; mening → jeg kan finde..."
-      },
+      "tip": [
+        "Wie findest du …? er det daglige spørgsmål om en mening – som dansk 'Hvad synes du om …?'.",
+        "I en meningssætning: finden + akkusativ + tillægsord."
+      ],
       "important": [
-        "finden betyder ikke kun \"finde\".",
-        "Ich finde das gut betyder \"Jeg synes, det er godt\", ikke \"Jeg synes, det er godt\"."
+        "Gefunden er den rigtige korte tillægsform, ikke 'gefindet'.",
+        "Finden ≠ suchen: man leder med suchen og finder med finden."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "finden",
+            "findet",
+            "fand",
+            "gefunden",
+            "Ich finde",
+            "den Film gut finden"
+          ],
           "purple": [
-            "Hovedidé",
-            "Hovedidé"
+            "at finde",
+            "at synes",
+            "en mening"
           ]
         },
         "examples": [
@@ -6244,27 +6945,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Jeg"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": []
-            },
-            "lv": {
-              "purple": [
-                "din"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": []
-            },
-            "lv": {
-              "purple": [
-                "Det"
+                "finde"
               ]
             }
           },
@@ -6276,7 +6957,43 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Hvad"
+                "synes"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "finde"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "synes"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "finde"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "synes"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "gefunden"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "fundet"
               ]
             }
           }
@@ -6285,39 +7002,12 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "finden"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Find",
-                "Find"
-              ]
-            },
-            "example": {
-              "blue": [
-                "finde"
-              ],
-              "purple": [
-                "Ich"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
                 "suchen"
               ]
             },
             "meaning": {
               "purple": [
-                "søge"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "suche",
-                "Ich"
+                "at lede, at søge"
               ]
             }
           },
@@ -6329,13 +7019,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "tænke"
-              ]
-            },
-            "example": {
-              "green": [
-                "denke",
-                "Ich"
+                "at tænke"
               ]
             }
           },
@@ -6347,35 +7031,18 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Tro/tænk",
-                "Tro/tænk"
-              ]
-            },
-            "example": {
-              "red": [
-                "glaube",
-                "Ich"
+                "at tro"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "finde"
-            ],
-            "purple": [
-              "Husk",
-              "Husk"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "purple": [
-              "atrast"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -6416,14 +7083,14 @@ const A1_WORDS = [
     "de": "Flugzeug",
     "de_article": "das",
     "de_plural": "die Flugzeuge",
-    "lv": "Et fly",
+    "lv": "Fly",
     "level": "A1"
   },
   {
     "de": "Fluss",
     "de_article": "der",
     "de_plural": "die Flüsse",
-    "lv": "Floden",
+    "lv": "Flod",
     "level": "A1"
   },
   {
@@ -6456,53 +7123,71 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Kvinde • Hustru",
       "explanation": [
-        "Hovedidé: die Frau kan betyde kvinde (køn) eller hustru (ægtefælle).",
-        "Hvis det blot er et spørgsmål om køn eller person, die Frau = kvinde.",
-        "I tilfælde af en ægtefælle, die Frau = hustru (meine Frau = min kone).",
-        "Det besiddende pronomen (meine/deine/seine Frau) betyder næsten altid hustru - ægtefælle.",
-        "Flertal: die Frauen.",
-        "Den hankønsform der Mann har samme dobbeltbetydning: mand OG mand."
+        "Grundbetydning: die Frau er et hunkønsord med betydningerne kvinde, fru (Frau Schmidt) og hustru eller kone (meine Frau). Flertal er die Frauen.",
+        "Foran et efternavn betyder Frau 'fru': Guten Tag, Frau Berger! Udtrykket meine Frau betyder normalt 'min kone', når man taler om familien.",
+        "I ental bøjes selve ordet Frau ikke, kun artiklen skifter: die Frau, der Frau."
       ],
       "examples": [
         {
-          "de": "Sie ist eine nette Frau.",
-          "lv": "Hun er en dejlig kvinde."
+          "de": "Die Frau dort ist meine Lehrerin.",
+          "lv": "Kvinden derhenne er min lærer."
         },
         {
-          "de": "Das ist meine Frau.",
-          "lv": "Det her er min kone."
+          "de": "Frau Schmidt ist Ärztin.",
+          "lv": "Fru Schmidt er læge."
         },
         {
-          "de": "Wie viele Frauen sind hier?",
-          "lv": "Hvor mange kvinder er her?"
+          "de": "Meine Frau arbeitet in Riga.",
+          "lv": "Min kone arbejder i Riga."
         },
         {
-          "de": "Meine Frau arbeitet in Berlin.",
-          "lv": "Min kone arbejder i Berlin."
+          "de": "Zwei Frauen warten vor dem Haus.",
+          "lv": "To kvinder venter foran huset."
         },
         {
-          "de": "Die Frau trägt ein Kleid.",
-          "lv": "En kvinde bærer en kjole."
+          "de": "Guten Tag, Frau Berger!",
+          "lv": "Goddag, fru Berger!"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "der Mann",
+          "meaning": "mand",
+          "example": "Der Mann liest. – Manden læser."
         },
         {
-          "de": "Seine Frau ist Ärztin.",
-          "lv": "Hans kone er læge."
+          "word": "die Dame",
+          "meaning": "dame",
+          "example": "Die Dame wartet. – Damen venter."
+        },
+        {
+          "word": "das Mädchen",
+          "meaning": "pige",
+          "example": "Das Mädchen lacht. – Pigen griner."
         }
       ],
       "tip": [
-        "Det besiddende pronomen (meine/deine/seine Frau) betyder næsten altid hustru.",
-        "Uden besiddelse (die Frau, eine Frau) betyder normalt en kvinde."
+        "I høflig tiltale bruger man Frau + efternavn, ikke kun fornavnet.",
+        "Die Frau, die Frauen – flertal med -en."
       ],
       "important": [
-        "die Frau = kvinde ELLER kone - alt efter sammenhængen.",
-        "meine Frau = min kone (ikke \"min kvinde\").",
-        "Flertal: die Frauen."
+        "Frau foran et efternavn betyder ikke, at kvinden er gift; det er en høflighedsform, som i Tyskland bruges langt mere end dansk 'fru'.",
+        "Fräulein er gammeldags; i dag siger man Frau."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "die Frau",
+            "Frau",
+            "Frauen",
+            "meine Frau",
+            "Frau Schmidt"
+          ],
           "purple": [
-            "min",
-            "min"
+            "kvinde",
+            "fru",
+            "hustru",
+            "kone"
           ]
         },
         "examples": [
@@ -6514,43 +7199,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Hun"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "meine Frau"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Det"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "Frauen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Hvor"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "Meine Frau"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Min"
+                "Kvinden"
               ]
             }
           },
@@ -6562,45 +7211,99 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kvinde"
+                "Fru"
               ]
             }
           },
           {
             "de": {
-              "green": [
-                "Seine Frau"
+              "blue": [
+                "Frau"
               ]
             },
             "lv": {
               "purple": [
-                "Hans"
+                "kone"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Frauen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kvinder"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Frau"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "fru"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "der Mann"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "mand"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Dame"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "dame"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "das Mädchen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "pige"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "Det",
-              "Det"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "purple": [
-              "die",
-              "die"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
   },
   {
     "de": "frei",
-    "lv": "Gratis",
+    "lv": "Fri • Gratis",
     "level": "A1"
   },
   {
@@ -6614,19 +7317,19 @@ const A1_WORDS = [
     "de": "Freund",
     "de_article": "der",
     "de_plural": "die Freunde",
-    "lv": "En ven",
+    "lv": "Ven",
     "level": "A1"
   },
   {
     "de": "Freundin",
     "de_article": "die",
     "de_plural": "die Freundinnen",
-    "lv": "Kæreste",
+    "lv": "Veninde • Kæreste",
     "level": "A1"
   },
   {
     "de": "freundlich",
-    "lv": "Slags",
+    "lv": "Venlig",
     "level": "A1"
   },
   {
@@ -6680,7 +7383,7 @@ const A1_WORDS = [
   },
   {
     "de": "fünfzehnte",
-    "lv": "Den femtende",
+    "lv": "Femtende",
     "level": "A1"
   },
   {
@@ -6690,61 +7393,82 @@ const A1_WORDS = [
   },
   {
     "de": "fünfzigste",
-    "lv": "Den halvtredsindstyvende",
+    "lv": "Halvtredsindstyvende",
     "level": "A1"
   },
   {
     "de": "für",
-    "lv": "For • For",
+    "lv": "For",
     "level": "A1",
     "study": {
       "id": "a1-fuer",
       "layout": "standardStudy",
-      "translation": "For • For",
+      "translation": "For",
       "explanation": [
-        "Hovedidé: für er en præposition, der altid styrer akkusativ kasus - normalt for eller for på dansk.",
-        "Når man taler om modtager eller hensigt, für = for (für dich = for dig).",
-        "Når man taler om bytte, gebyr eller årsag, für = for (danke für das Geschenk = tak for gaven).",
-        "Für kræver altid akkusativ, uanset betydning."
+        "Grundbetydning: für er et forholdsord, der angiver modtager, formål eller tidsrum: Das Geschenk ist für dich (gaven er til dig), für zwei Wochen (i to uger), Danke für die Hilfe (tak for hjælpen).",
+        "Für styrer altid akkusativ: für mich, für den Plan, für die Kinder. I udtrykket ich bin für … betyder det 'jeg er for'. I spørgsmålet Was für ein …? betyder det 'hvilken slags'.",
+        "Tysk für svarer ofte til dansk 'for', men også til 'til' eller 'i': Das ist für dich (det er til dig), für zwei Wochen (i to uger)."
       ],
       "examples": [
         {
-          "de": "Das ist für dich.",
-          "lv": "Det er til dig."
+          "de": "Das Geschenk ist für dich.",
+          "lv": "Gaven er til dig."
         },
         {
-          "de": "Danke für die Hilfe.",
-          "lv": "Tak for din hjælp."
+          "de": "Ich kaufe Blumen für meine Mutter.",
+          "lv": "Jeg køber blomster til min mor."
         },
         {
-          "de": "Ich kaufe ein Geschenk für meine Mutter.",
-          "lv": "Jeg køber en gave til min mor."
+          "de": "Danke für deine Hilfe!",
+          "lv": "Tak for din hjælp!"
         },
         {
-          "de": "Was bezahlst du für das Auto?",
-          "lv": "Hvor meget betaler du for en bil?"
+          "de": "Wir fahren für zwei Wochen nach Spanien.",
+          "lv": "Vi tager til Spanien i to uger."
         },
         {
-          "de": "Das Buch ist für Kinder.",
-          "lv": "Bogen er for børn."
+          "de": "Ich bin für diesen Plan.",
+          "lv": "Jeg er for denne plan."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "gegen",
+          "meaning": "imod",
+          "example": "Ich bin gegen den Plan. – Jeg er imod planen."
         },
         {
-          "de": "Für heute ist das genug.",
-          "lv": "Det er nok for i dag."
+          "word": "um",
+          "meaning": "for at / omkring",
+          "example": "Er geht, um Brot zu kaufen. – Han går ud for at købe brød."
+        },
+        {
+          "word": "seit",
+          "meaning": "siden",
+          "example": "Ich lerne seit einem Jahr Deutsch. – Jeg har lært tysk i et år."
         }
       ],
       "tip": [
-        "für altid + akkusativ - uanset betydning.",
-        "Modtager/hensigt → for; bytte/grund/gebyr → stk."
+        "Efter für bruger man kun akkusativ: für mich, ikke 'für mir'.",
+        "Danke für + akkusativ: Danke für das Essen."
       ],
       "important": [
-        "für + Akkusativ altid, fx für mich, für dich, für das Kind.",
-        "danke für / bezahlen für = 'for', ikke 'før'."
+        "Für med en tidsangivelse udtrykker den planlagte varighed (für zwei Wochen); en handling, der har varet indtil nu, udtrykkes med seit.",
+        "At gå hen til nogen hedder ikke für, men zu: Ich gehe zum Arzt."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "für",
+            "für dich",
+            "für die Hilfe",
+            "für zwei Wochen",
+            "Was für ein"
+          ],
           "purple": [
-            "for"
+            "til dig",
+            "for",
+            "i to uger"
           ]
         },
         "examples": [
@@ -6756,19 +7480,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Det"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "für"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Tak"
+                "til dig"
               ]
             }
           },
@@ -6780,19 +7492,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Jeg"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "für"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Hvor"
+                "til min mor"
               ]
             }
           },
@@ -6811,29 +7511,73 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "Für"
+                "für"
               ]
             },
             "lv": {
               "purple": [
-                "Det"
+                "i to uger"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "für"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "for"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "gegen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "imod"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "um"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "for at / omkring"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "seit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "siden"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "für"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "purple": [
-              "für"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -6856,44 +7600,181 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Fodbold",
       "explanation": [
-        "Hovedidé: Fußball betyder fodbold.",
-        "Ordet bruges oftest om sporten: Fußball spielen = at spille fodbold.",
-        "Det kan også betegne selve fodbolden, når sammenhængen gør det klart."
+        "Grundbetydning: der Fußball er et hankønsord med betydningerne fodbold (sportsgrenen) og fodbold (selve bolden). Flertal die Fußbälle bruges om bolde.",
+        "Om sporten bruger man ordet uden artikel: Ich spiele Fußball (jeg spiller fodbold). Om bolden skal der en artikel på: der Fußball liegt im Garten.",
+        "I sammensatte ord: das Fußballspiel (fodboldkamp), der Fußballplatz (fodboldbane)."
       ],
       "examples": [
         {
-          "de": "Ich spiele Fußball.",
-          "lv": "Jeg spiller fodbold."
+          "de": "Ich spiele jeden Samstag Fußball.",
+          "lv": "Jeg spiller fodbold hver lørdag."
+        },
+        {
+          "de": "Mein Bruder liebt Fußball.",
+          "lv": "Min bror elsker fodbold."
         },
         {
           "de": "Der Fußball liegt im Garten.",
           "lv": "Fodbolden ligger i haven."
         },
         {
-          "de": "Wir kaufen zwei Fußbälle.",
-          "lv": "Vi køber to fodbolde."
+          "de": "Er hat einen neuen Fußball bekommen.",
+          "lv": "Han har fået en ny fodbold."
+        },
+        {
+          "de": "Fußball ist ein beliebter Sport.",
+          "lv": "Fodbold er en populær sport."
         }
       ],
       "comparison": [
         {
-          "word": "Fußball",
-          "meaning": "sporten fodbold",
-          "example": "Ich spiele Fußball. – Jeg spiller fodbold."
+          "word": "der Ball",
+          "meaning": "bold",
+          "example": "Der Ball ist rund. – Bolden er rund."
         },
         {
-          "word": "der Fußball",
-          "meaning": "en fodbold",
-          "example": "Der Fußball ist neu. – Fodbolden ligger i haven."
+          "word": "der Handball",
+          "meaning": "håndbold",
+          "example": "Er spielt Handball. – Han spiller håndbold."
+        },
+        {
+          "word": "der Basketball",
+          "meaning": "basketball",
+          "example": "Wir spielen Basketball. – Vi spiller basketball."
         }
       ],
       "tip": [
-        "Uden artikel betyder spielen Fußball normalt at spille fodbold.",
-        "I tællelig betydning betyder ein Fußball og die Fußbälle en fodbold og fodbolde."
+        "Efter spielen står sportsgrenen uden artikel: Fußball spielen.",
+        "Der Fußball er bolden, Fußball uden artikel er spillet."
       ],
       "important": [
-        "der Fußball kan afhængigt af sammenhængen betegne sporten eller en fodbold.",
-        "Sportgrene Fußball bruges normalt i singularis."
-      ]
+        "Om sporten bruges Fußball ikke i flertal; die Fußbälle er flere bolde.",
+        "På tysk hedder fodbold ikke 'Football' – det er et engelsk ord. Bemærk stavningen med ß: Fußball."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "der Fußball",
+            "Fußball",
+            "Fußbälle",
+            "Fußballspiel",
+            "Fußballplatz"
+          ],
+          "purple": [
+            "fodbold",
+            "selve bolden",
+            "bolde"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Fußball"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "fodbold"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Fußball"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "fodbold"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Fußball"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Fodbolden"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Fußball"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "fodbold"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Fußball"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Fodbold"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "der Ball"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "bold"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Handball"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "håndbold"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Basketball"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "basketball"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
     }
   },
   {
@@ -6905,48 +7786,184 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Hel • Helt",
       "explanation": [
-        "Hovedidé: ganz kan betyde hel eller helt afhængigt af sammenhængen.",
-        "Foran et substantiv betyder ganz ofte hel: der ganze Tag = hele dagen.",
-        "Sammen med et adjektiv eller adverbium kan ganz betyde helt eller ret: ganz allein = helt alene, ganz gut = ret godt."
+        "Grundbetydning: ganz som tillægsord betyder hel, hele, fuld: der ganze Tag (hele dagen), die ganze Familie (hele familien), das ganze Buch (hele bogen). Det bøjes som et almindeligt tillægsord.",
+        "Som biord betyder ganz 'helt, fuldstændig, ganske': ganz neu (helt ny), ganz einfach (helt enkelt), ganz gut (ganske godt).",
+        "Foran stednavne uden artikel bøjes ganz ikke: ganz Europa (hele Europa), ganz Lettland (hele Letland)."
       ],
       "examples": [
         {
-          "de": "Ich arbeite den ganzen Tag.",
-          "lv": "Jeg arbejder hele dagen."
+          "de": "Ich habe den ganzen Tag gearbeitet.",
+          "lv": "Jeg har arbejdet hele dagen."
         },
         {
-          "de": "Das ganze Haus ist sauber.",
-          "lv": "Hele huset er rent."
+          "de": "Sie isst die ganze Pizza.",
+          "lv": "Hun spiser hele pizzaen."
         },
         {
-          "de": "Das ist ganz sicher.",
-          "lv": "Det er helt sikkert."
+          "de": "Das ist ganz einfach.",
+          "lv": "Det er helt enkelt."
         },
         {
-          "de": "Das Essen ist ganz gut.",
-          "lv": "Det er ret godt."
+          "de": "Die ganze Familie kommt zum Fest.",
+          "lv": "Hele familien kommer til festen."
+        },
+        {
+          "de": "Das Buch ist ganz neu.",
+          "lv": "Bogen er helt ny."
         }
       ],
       "comparison": [
         {
-          "word": "ganz",
-          "meaning": "hel • helt",
-          "example": "der ganze Tag – hele dagen"
+          "word": "alle",
+          "meaning": "alle",
+          "example": "Alle Kinder spielen. – Alle børnene leger."
         },
         {
-          "word": "alles",
-          "meaning": "alt",
-          "example": "Alles ist gut. – Alt er godt."
+          "word": "voll",
+          "meaning": "fuld",
+          "example": "Das Glas ist voll. – Glasset er fuldt."
+        },
+        {
+          "word": "halb",
+          "meaning": "halv",
+          "example": "Das Glas ist halb leer. – Glasset er halvtomt."
         }
       ],
       "tip": [
-        "Foran substantiver betyder ganz ofte alt eller hele.",
-        "Foran adjektiver betyder ganz ofte helt eller ganske."
+        "Endelserne er de samme som for andre tillægsord: der ganze Tag, ein ganzer Tag.",
+        "Ganz + tillægsord forstærker: ganz gut, ganz neu. Men pas på: ganz gut betyder ofte kun 'ganske godt', ikke 'helt fantastisk'."
       ],
       "important": [
-        "Se på ordet efter ganz for at vælge den naturlige danske oversættelse.",
-        "alles = alt som pronomen."
-      ]
+        "Som tillægsord bøjes ganz (der ganze Tag), som biord bøjes det ikke (ganz neu).",
+        "Foran lande- og bynavne bøjes ganz ikke: ganz Europa, ikke 'ganze Europa'."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "ganz",
+            "der ganze Tag",
+            "die ganze Familie",
+            "das ganze Buch",
+            "ganz neu",
+            "ganz einfach",
+            "ganz Europa",
+            "ganz Lettland"
+          ],
+          "purple": [
+            "hel",
+            "hele dagen",
+            "helt ny"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "ganzen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "hele"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ganze"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "hele"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ganz"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "helt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ganze"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Hele"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ganz"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "helt"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "alle"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "alle"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "voll"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "fuld"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "halb"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "halv"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
     }
   },
   {
@@ -6967,7 +7984,7 @@ const A1_WORDS = [
     "de": "Gast",
     "de_article": "der",
     "de_plural": "die Gäste",
-    "lv": "En gæst",
+    "lv": "Gæst",
     "level": "A1"
   },
   {
@@ -6979,126 +7996,132 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "At give",
       "explanation": [
-        "Hovedidé: geben betyder at give.",
-        "Geben bruges, når nogen giver noget til en anden person.",
-        "Dette er den modsatte retning af nehmen.",
-        "Bekommen betyder at modtage, altså at være den, der får noget."
+        "Grundbetydning: geben betyder at give nogen noget. Typisk opbygning: jemandem (dativ, til hvem?) etwas (akkusativ, hvad?): Ich gebe dir das Buch.",
+        "Former: du gibst, er gibt (e → i), gab, hat gegeben. Udtrykket es gibt + akkusativ betyder 'der er, der findes': Es gibt hier ein Café.",
+        "Desuden: eine Antwort geben (give et svar), Hausaufgaben geben (give lektier for), die Hand geben (give hånd)."
       ],
       "examples": [
         {
-          "de": "Gib mir bitte das Buch.",
-          "lv": "Giv mig venligst bogen"
+          "de": "Ich gebe dir das Buch.",
+          "lv": "Jeg giver dig bogen."
         },
         {
-          "de": "Ich gebe dir meine Nummer.",
-          "lv": "Jeg giver dig mit nummer"
+          "de": "Gibst du mir bitte den Zucker?",
+          "lv": "Vil du række mig sukkeret?"
         },
         {
-          "de": "Ich nehme das Buch.",
-          "lv": "Jeg tager bogen"
+          "de": "Es gibt hier viele Restaurants.",
+          "lv": "Der er mange restauranter her."
         },
         {
-          "de": "Ich bekomme ein Geschenk.",
-          "lv": "Jeg får en gave"
+          "de": "Der Lehrer gibt den Kindern Hausaufgaben.",
+          "lv": "Læreren giver børnene lektier for."
+        },
+        {
+          "de": "Was gibt es heute zum Essen?",
+          "lv": "Hvad skal vi have at spise i dag?"
         }
       ],
       "comparison": [
         {
-          "word": "geben",
-          "meaning": "At give",
-          "example": "Gib mir das Buch. = Giv mig bogen."
+          "word": "schenken",
+          "meaning": "at forære, at give i gave",
+          "example": "Er schenkt ihr Blumen. – Han forærer hende blomster."
         },
         {
           "word": "nehmen",
-          "meaning": "At tage / at tage",
-          "example": "Ich nehme das Buch. = Jeg tager bogen."
+          "meaning": "at tage",
+          "example": "Ich nehme den Kaffee. – Jeg tager kaffen."
         },
         {
           "word": "bekommen",
-          "meaning": "Modtage/få",
-          "example": "Ich bekomme ein Geschenk. = Jeg får en gave."
-        },
-        {
-          "word": "bringen",
-          "meaning": "Medbring/lever",
-          "example": "Ich bringe dir das Buch. = Jeg bringer dig bogen."
+          "meaning": "at få",
+          "example": "Ich bekomme ein Geschenk. – Jeg får en gave."
         }
       ],
-      "tip": {
-        "text": "Husk: prik væk → geben; tag selv → nehmen."
-      },
+      "tip": [
+        "Sæt først personen i dativ, derefter tingen i akkusativ: Ich gebe dem Kind einen Apfel.",
+        "Es gibt står altid med akkusativ: Es gibt einen Park."
+      ],
       "important": [
-        "geben og nehmen er modsatte retninger.",
-        "bekommen betyder at modtage, ikke at give."
+        "Tredje person ental hedder er gibt (ikke 'er gebt'); gebt er formen for ihr.",
+        "Es gibt betyder ikke 'det giver': det er et fast udtryk, der betyder 'der er'."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "geben",
+            "gibt",
+            "gibst",
+            "gab",
+            "gegeben",
+            "Es gibt",
+            "die Hand geben"
+          ],
           "purple": [
-            "Hovedidé"
+            "at give",
+            "der er",
+            "give hånd"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "Gib"
-              ],
-              "yellow": [
-                "Buch"
+                "gebe"
               ]
             },
             "lv": {
               "purple": [
-                "Giv"
+                "giver"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "gebe"
-              ],
-              "yellow": [
-                "Nummer"
+                "Gibst"
               ]
             },
             "lv": {
-              "purple": []
-            }
-          },
-          {
-            "de": {
-              "red": [
-                "nehme"
-              ],
-              "yellow": [
-                "Buch"
-              ]
-            },
-            "lv": {
-              "red": [
-                "Jeg"
-              ],
-              "yellow": [
-                "Jeg"
+              "purple": [
+                "række"
               ]
             }
           },
           {
             "de": {
-              "red": [
-                "bekomme"
-              ],
-              "yellow": [
-                "Geschenk"
+              "blue": [
+                "gibt"
               ]
             },
             "lv": {
-              "red": [
-                "Jeg"
-              ],
-              "yellow": [
-                "Jeg"
+              "purple": [
+                "Der er"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "gibt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "giver"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "gibt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "skal vi have"
               ]
             }
           }
@@ -7107,17 +8130,12 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "geben"
+                "schenken"
               ]
             },
             "meaning": {
               "purple": [
-                "give"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Gib"
+                "at forære, at give i gave"
               ]
             }
           },
@@ -7129,13 +8147,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "tage",
-                "tage"
-              ]
-            },
-            "example": {
-              "red": [
-                "nehme"
+                "at tage"
               ]
             }
           },
@@ -7147,60 +8159,25 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Modtage/få",
-                "Modtage/få"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "bekomme"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "bringen"
-              ]
-            },
-            "meaning": {
-              "purple": []
-            },
-            "example": {
-              "green": [
-                "bringe"
+                "at få"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "geben"
-            ],
-            "purple": [
-              "Husk"
-            ],
-            "red": [
-              "nehmen",
-              "Husk"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "purple": [
-              "geben",
-              "geben"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
   },
   {
     "de": "geboren",
-    "lv": "Blev født",
+    "lv": "Født",
     "level": "A1"
   },
   {
@@ -7212,54 +8189,190 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "At kunne lide",
       "explanation": [
-        "Hovedidé: gefallen bruges, når nogen synes godt om noget.",
-        "Den tyske konstruktion er anderledes end den danske: Das gefällt mir = Det kan jeg godt lide.",
-        "Det, man synes om, er subjektet på tysk, mens personen står i dativ."
+        "Grundbetydning: gefallen betyder at kunne lide, men opbygningen er omvendt i forhold til dansk: det, man kan lide, er grundled (i nominativ), mens personen, der kan lide det, står i dativ: Das Buch gefällt mir (jeg kan lide bogen, ordret: bogen behager mig).",
+        "Former: es gefällt, gefiel, hat gefallen. Når man kan lide flere ting, står udsagnsordet i flertal: Die Schuhe gefallen mir.",
+        "Gefallen udtrykker et umiddelbart indtryk (udseende, oplevelse); om en mere varig forkærlighed (mad, personer) bruger man oftere mögen."
       ],
       "examples": [
         {
-          "de": "Das gefällt mir.",
-          "lv": "Det kan jeg godt lide."
+          "de": "Das Buch gefällt mir.",
+          "lv": "Jeg kan godt lide bogen."
         },
         {
-          "de": "Gefällt dir das Kleid?",
-          "lv": "Kan du lide kjolen?"
+          "de": "Wie gefällt dir die Stadt?",
+          "lv": "Hvordan kan du lide byen?"
         },
         {
-          "de": "Der Film gefällt uns.",
-          "lv": "Vi kan godt lide filmen."
+          "de": "Die Schuhe gefallen ihr sehr.",
+          "lv": "Hun kan rigtig godt lide skoene."
+        },
+        {
+          "de": "Gefällt Ihnen das Hotel?",
+          "lv": "Kan De lide hotellet?"
+        },
+        {
+          "de": "Das Lied hat mir nicht gefallen.",
+          "lv": "Jeg kunne ikke lide sangen."
         }
       ],
       "comparison": [
         {
-          "word": "gefallen",
-          "meaning": "at kunne lide",
-          "example": "Das gefällt mir. – Det kan jeg godt lide."
-        },
-        {
           "word": "mögen",
           "meaning": "at kunne lide",
-          "example": "Ich mag das. – Det kan jeg godt lide."
+          "example": "Ich mag Kaffee. – Jeg kan godt lide kaffe."
+        },
+        {
+          "word": "gern haben",
+          "meaning": "at holde af",
+          "example": "Ich habe ihn gern. – Jeg holder af ham."
+        },
+        {
+          "word": "lieben",
+          "meaning": "at elske",
+          "example": "Ich liebe meine Familie. – Jeg elsker min familie."
         }
       ],
       "tip": [
-        "Husk konstruktionen: Das gefällt mir.",
-        "Danner ikke direkte latinsk ordorden."
+        "Personen, der kan lide noget, står i dativ: mir, dir, ihm, ihr.",
+        "Grundleddet er det, man kan lide: Der Film gefällt mir."
       ],
       "important": [
-        "Personen står i dativ: mir, dir, ihm, ihr, uns osv.",
-        "Das gefällt mir = jeg kan godt lide det."
-      ]
+        "Gefallen bruges ikke med akkusativ: sig ikke 'Ich gefalle den Film'.",
+        "Ich gefalle ihm betyder 'han kan lide mig', ikke 'jeg elsker ham'."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "gefallen",
+            "Gefallen",
+            "gefällt",
+            "gefiel"
+          ],
+          "purple": [
+            "at kunne lide",
+            "kan lide",
+            "behager"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "gefällt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kan godt lide"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "gefällt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kan du lide"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "gefallen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kan rigtig godt lide"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Gefällt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Kan De lide"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "gefallen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kunne ikke lide"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "mögen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "at kunne lide"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "gern haben"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "at holde af"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "lieben"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "at elske"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
     }
   },
   {
     "de": "gegen",
-    "lv": "Vs",
+    "lv": "Mod",
     "level": "A1"
   },
   {
     "de": "gehen",
-    "lv": "Gå",
+    "lv": "At gå",
     "level": "A1"
   },
   {
@@ -7280,113 +8393,384 @@ const A1_WORDS = [
   },
   {
     "de": "geradeaus",
-    "lv": "Lige frem",
+    "lv": "Ligeud",
     "level": "A1"
   },
   {
     "de": "gern",
-    "lv": "Med vilje",
+    "lv": "Gerne",
     "level": "A1"
   },
   {
     "de": "Geschichte",
     "de_article": "die",
     "de_plural": "die Geschichten",
-    "lv": "Historie • Historie",
+    "lv": "Historie",
     "level": "A1",
     "study": {
       "id": "a1-geschichte-study",
       "layout": "standardStudy",
-      "translation": "Historie • Fortælling",
+      "translation": "Historie",
       "explanation": [
-        "Hovedidé: Geschichte kan betyde både historie og fortælling.",
-        "eine Geschichte er en historie eller fortælling, som man for eksempel kan læse eller fortælle.",
-        "Geschichte kan også være historie som skolefag eller fagområde."
+        "Grundbetydning: die Geschichte er et hunkønsord, der betyder historie, dvs. en fortælling om noget, der er sket: Opa erzählt eine Geschichte. Flertal er die Geschichten.",
+        "Det har også betydningen historie som fag og fortid: Geschichte lernen (lære historie), die Geschichte Europas (Europas historie). Ligesom dansk 'historie' dækker ordet altså begge betydninger, og sammenhængen afgør, hvilken der menes.",
+        "Typiske forbindelser: eine Geschichte erzählen (fortælle en historie), eine Geschichte lesen (læse en historie)."
       ],
       "examples": [
         {
-          "de": "Er erzählt eine Geschichte.",
-          "lv": "Han fortæller en historie."
+          "de": "Opa erzählt eine Geschichte.",
+          "lv": "Bedstefar fortæller en historie."
         },
         {
-          "de": "Ich lerne Geschichte.",
-          "lv": "Jeg lærer historie."
+          "de": "Das ist eine lange Geschichte.",
+          "lv": "Det er en lang historie."
         },
         {
-          "de": "Das ist die Geschichte Deutschlands.",
-          "lv": "Det er Tysklands historie."
+          "de": "Ich lese gern Geschichten.",
+          "lv": "Jeg læser gerne historier."
+        },
+        {
+          "de": "Die Kinder hören eine Geschichte vor dem Schlafen.",
+          "lv": "Børnene hører en historie, før de skal sove."
+        },
+        {
+          "de": "In der Schule lerne ich Geschichte.",
+          "lv": "I skolen har jeg historie."
         }
       ],
       "comparison": [
         {
-          "word": "eine Geschichte",
-          "meaning": "en historie • fortælling",
-          "example": "eine interessante Geschichte – en interessant historie"
+          "word": "das Märchen",
+          "meaning": "eventyr",
+          "example": "Sie liest ein Märchen. – Hun læser et eventyr."
         },
         {
-          "word": "Geschichte",
-          "meaning": "historie",
-          "example": "Geschichte lernen – lære historie"
+          "word": "die Erzählung",
+          "meaning": "fortælling",
+          "example": "Die Erzählung ist kurz. – Fortællingen er kort."
+        },
+        {
+          "word": "die Vergangenheit",
+          "meaning": "fortid",
+          "example": "Das gehört der Vergangenheit an. – Det hører fortiden til."
         }
       ],
       "tip": [
-        "Med eine og i flertal handler det normalt om en fortælling.",
-        "Som undervisningsfag betyder Geschichte historie."
+        "At fortælle en historie = eine Geschichte erzählen.",
+        "Geschichte er også et skolefag: Geschichte (historie)."
       ],
       "important": [
-        "die Geschichte er hunkøn.",
-        "Geschichte som historie bruges normalt i singularis."
-      ]
+        "Die Geschichte betyder ikke 'eventyr' – et eventyr hedder das Märchen.",
+        "Flertal er die Geschichten, ikke 'Geschichtes'."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "die Geschichte",
+            "Geschichte",
+            "Geschichten",
+            "eine Geschichte erzählen"
+          ],
+          "purple": [
+            "historie",
+            "fortælling"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Geschichte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "historie"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Geschichte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "historie"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Geschichten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "historier"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Geschichte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "historie"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Geschichte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "historie"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "das Märchen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "eventyr"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Erzählung"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "fortælling"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Vergangenheit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "fortid"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
     }
   },
   {
     "de": "Geschwister",
     "de_article": "die",
-    "lv": "Brødre og søstre",
+    "lv": "Søskende",
     "level": "A1",
     "study": {
       "id": "a1-geschwister-study",
       "layout": "standardStudy",
       "translation": "Søskende",
       "explanation": [
-        "Hovedidé: Geschwister betyder søskende.",
-        "Ordet bruges om brødre og søstre samlet.",
-        "die Geschwister har samme form i flertal."
+        "Grundbetydning: die Geschwister er et flertalsord, der betyder søskende, dvs. alle børnene i en familie: Hast du Geschwister? En entalsform bruges praktisk talt ikke.",
+        "En enkelt bror eller søster kalder man der Bruder eller die Schwester. Artiklen er die Geschwister, og udsagnsordet står i flertal: Meine Geschwister wohnen in Hamburg. I dativ: mit meinen Geschwistern.",
+        "Ordet siger ikke noget om køn: Ich habe zwei Geschwister kan være brødre, søstre eller begge dele – præcis som dansk 'søskende'."
       ],
       "examples": [
         {
-          "de": "Ich habe zwei Geschwister.",
-          "lv": "Jeg har to søskende."
+          "de": "Hast du Geschwister?",
+          "lv": "Har du søskende?"
         },
         {
-          "de": "Meine Geschwister wohnen in Berlin.",
-          "lv": "Mine søskende bor i Berlin."
+          "de": "Ich habe drei Geschwister.",
+          "lv": "Jeg har tre søskende."
+        },
+        {
+          "de": "Meine Geschwister wohnen in Hamburg.",
+          "lv": "Mine søskende bor i Hamburg."
+        },
+        {
+          "de": "Sie hat keine Geschwister.",
+          "lv": "Hun har ingen søskende."
+        },
+        {
+          "de": "Er spielt gern mit seinen Geschwistern.",
+          "lv": "Han leger gerne med sine søskende."
         }
       ],
       "comparison": [
         {
-          "word": "Geschwister",
-          "meaning": "søskende",
-          "example": "Meine Geschwister – mine søskende"
-        },
-        {
-          "word": "Bruder",
+          "word": "der Bruder",
           "meaning": "bror",
-          "example": "mein Bruder – min bror"
+          "example": "Mein Bruder heißt Tom. – Min bror hedder Tom."
         },
         {
-          "word": "Schwester",
+          "word": "die Schwester",
           "meaning": "søster",
-          "example": "meine Schwester – min søster"
+          "example": "Meine Schwester ist Ärztin. – Min søster er læge."
+        },
+        {
+          "word": "die Eltern",
+          "meaning": "forældre",
+          "example": "Meine Eltern arbeiten. – Mine forældre arbejder."
         }
       ],
       "tip": [
-        "Geschwister bruges normalt i flertal.",
-        "For en enkelt person vælg Bruder eller Schwester."
+        "Når du spørger til familien, så sig Hast du Geschwister?",
+        "Lær ordet som flertal: die Geschwister, mit den Geschwistern."
       ],
       "important": [
-        "Geschwister bruges normalt som flertalsord."
-      ]
+        "Geschwister bruges ikke om én bror eller én søster.",
+        "Udsagnsordet står i flertal: Die Geschwister sind klein."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "die Geschwister",
+            "Geschwister",
+            "Geschwistern",
+            "der Bruder",
+            "die Schwester"
+          ],
+          "purple": [
+            "søskende",
+            "bror eller søster"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Geschwister"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "søskende"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Geschwister"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "søskende"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Geschwister"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "søskende"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Geschwister"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "søskende"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Geschwistern"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "søskende"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "der Bruder"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "bror"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Schwester"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "søster"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Eltern"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "forældre"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
     }
   },
   {
@@ -7416,7 +8800,7 @@ const A1_WORDS = [
     "de": "Getränk",
     "de_article": "das",
     "de_plural": "die Getränke",
-    "lv": "En drink",
+    "lv": "Drik • Drikkevare",
     "level": "A1"
   },
   {
@@ -7430,7 +8814,7 @@ const A1_WORDS = [
     "de": "Glas",
     "de_article": "das",
     "de_plural": "die Gläser",
-    "lv": "Et glas",
+    "lv": "Glas",
     "level": "A1"
   },
   {
@@ -7440,56 +8824,77 @@ const A1_WORDS = [
   },
   {
     "de": "gleich",
-    "lv": "straks • ens",
+    "lv": "Straks • Ens",
     "level": "A1",
     "study": {
       "id": "a1-gleich",
       "layout": "standardStudy",
-      "translation": "straks • ens",
+      "translation": "Straks • Ens",
       "explanation": [
-        "gleich har to hovedbetydninger: „straks / om lidt“ og „ens / den samme“.",
-        "Om tid: Ich komme gleich. = Jeg kommer straks.",
-        "Ved sammenligning: die gleiche Farbe = den samme farve.",
-        "Konteksten viser betydningen."
+        "Hovedidé: gleich som biord betyder 'straks, om lidt': Ich komme gleich, Der Film beginnt gleich. Det angiver den nære fremtid, ofte uden et præcist tidspunkt.",
+        "Som tillægsord betyder gleich 'ens, den samme': Die Kinder sind gleich alt. Udtrykket Das ist mir gleich betyder 'det er mig lige meget'.",
+        "Sammen med en stedsangivelse betyder gleich 'lige': gleich nebenan (lige ved siden af), gleich hier (lige her)."
       ],
       "examples": [
         {
           "de": "Ich komme gleich.",
-          "lv": "Jeg kommer med det samme."
+          "lv": "Jeg kommer straks."
         },
         {
-          "de": "Wir haben die gleiche Farbe.",
-          "lv": "Vi har samme farve."
+          "de": "Der Film beginnt gleich.",
+          "lv": "Filmen begynder straks."
         },
         {
-          "de": "Das Essen ist gleich fertig.",
-          "lv": "Maden er snart klar."
+          "de": "Moment, ich bin gleich fertig.",
+          "lv": "Et øjeblik, jeg er færdig om lidt."
         },
         {
-          "de": "Beide Wege sind gleich lang.",
-          "lv": "Begge stier er lige lange."
+          "de": "Die Kinder sind gleich alt.",
+          "lv": "Børnene er lige gamle."
         },
         {
-          "de": "Bis gleich!",
-          "lv": "Vi ses snart!"
+          "de": "Das ist mir gleich.",
+          "lv": "Det er mig lige meget."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sofort",
+          "meaning": "med det samme",
+          "example": "Komm sofort her! – Kom herhen med det samme!"
         },
         {
-          "de": "Sie sind gleich groß.",
-          "lv": "De har samme højde."
+          "word": "bald",
+          "meaning": "snart",
+          "example": "Bis bald! – Vi ses snart!"
+        },
+        {
+          "word": "ähnlich",
+          "meaning": "lignende",
+          "example": "Die Brüder sind ähnlich. – Brødrene ligner hinanden."
         }
       ],
       "tip": [
-        "Om tid → straks / om lidt.",
-        "Ved sammenligning → ens / den samme."
+        "Gleich betyder 'om et øjeblik'; skal 'med det samme' understreges, bruger man sofort.",
+        "Gleich nebenan bruges for at sige 'lige ved siden af'."
       ],
       "important": [
-        "gleich betyder enten „straks“ eller „ens“.",
-        "Bis gleich! = „Vi ses om lidt!“"
+        "Gleich er også tillægsordet 'ens', så det er konteksten, der afgør betydningen.",
+        "Når man siger gleich, taler man som regel om nogle få minutter, ikke om en time."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "gleich"
+            "gleich",
+            "gleich nebenan",
+            "gleich hier",
+            "Das ist mir gleich"
+          ],
+          "purple": [
+            "straks",
+            "ens",
+            "lige meget",
+            "lige"
           ]
         },
         "examples": [
@@ -7499,7 +8904,11 @@ const A1_WORDS = [
                 "gleich"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "straks"
+              ]
+            }
           },
           {
             "de": {
@@ -7507,7 +8916,11 @@ const A1_WORDS = [
                 "gleich"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "straks"
+              ]
+            }
           },
           {
             "de": {
@@ -7515,7 +8928,11 @@ const A1_WORDS = [
                 "gleich"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "om lidt"
+              ]
+            }
           },
           {
             "de": {
@@ -7523,7 +8940,11 @@ const A1_WORDS = [
                 "gleich"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "lige gamle"
+              ]
+            }
           },
           {
             "de": {
@@ -7531,15 +8952,49 @@ const A1_WORDS = [
                 "gleich"
               ]
             },
-            "lv": {}
-          },
+            "lv": {
+              "purple": [
+                "lige meget"
+              ]
+            }
+          }
+        ],
+        "comparison": [
           {
-            "de": {
-              "blue": [
-                "gleich"
+            "word": {
+              "green": [
+                "sofort"
               ]
             },
-            "lv": {}
+            "meaning": {
+              "purple": [
+                "med det samme"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "bald"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "snart"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "ähnlich"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "lignende"
+              ]
+            }
           }
         ],
         "tip": [
@@ -7599,9 +9054,9 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Stor",
       "explanation": [
-        "Hovedidé: Stor i størrelsen eller til en person - høj i højden.",
-        "Groß betyder primært: stor størrelse.",
-        "Ofte karakteriseret ved: overordnet størrelse."
+        "Hovedidé: groß betyder stor – det beskriver stor størrelse, høj vækst, lang tid eller stor betydning: ein großes Haus, ein großer Mann (en høj mand), eine große Stadt, ein großer Fehler.",
+        "Gradbøjning: groß, größer, am größten. Foran et navneord bøjes det: ein großer Tisch, eine große Stadt, ein großes Zimmer.",
+        "Om en persons højde betyder groß 'høj': Er ist 1,90 Meter groß. Bemærk, at man her på dansk siger 'høj', ikke 'stor'."
       ],
       "examples": [
         {
@@ -7609,30 +9064,61 @@ const A1_WORDS = [
           "lv": "Huset er stort."
         },
         {
-          "de": "Berlin ist eine große Stadt.",
-          "lv": "Huset er stort."
+          "de": "Er ist sehr groß, fast zwei Meter.",
+          "lv": "Han er meget høj, næsten to meter."
         },
         {
-          "de": "Er ist groß.",
-          "lv": "Han er høj."
+          "de": "Wir wohnen in einer großen Stadt.",
+          "lv": "Vi bor i en stor by."
         },
         {
-          "de": "Das Zimmer ist groß.",
-          "lv": "Værelset er stort."
+          "de": "Meine Schwester ist größer als ich.",
+          "lv": "Min søster er højere end mig."
+        },
+        {
+          "de": "Das war ein großer Fehler.",
+          "lv": "Det var en stor fejl."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "klein",
+          "meaning": "lille",
+          "example": "Das Zimmer ist klein. – Værelset er lille."
+        },
+        {
+          "word": "hoch",
+          "meaning": "høj",
+          "example": "Der Turm ist hoch. – Tårnet er højt."
+        },
+        {
+          "word": "riesig",
+          "meaning": "kæmpestor",
+          "example": "Das Haus ist riesig. – Huset er kæmpestort."
         }
       ],
       "tip": [
-        "groß = liels",
-        "Brug groß, når konteksten passer til denne betydning."
+        "Modsætningen er klein: groß – klein.",
+        "Komparativ med omlyd: groß → größer."
       ],
       "important": [
-        "For en person betyder Er ist groß høj.",
-        "groß = liels."
+        "Om en bygning er groß ikke det samme som 'høj': en høj bygning er ein hohes Haus.",
+        "I Schweiz bruger man ikke ß og skriver gross; andre steder skriver man groß."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "groß",
+            "größer",
+            "am größten",
+            "großes Haus",
+            "großer Mann",
+            "1,90 Meter groß"
+          ],
           "purple": [
-            "Hovedidé"
+            "stor",
+            "høj",
+            "højde"
           ]
         },
         "examples": [
@@ -7644,19 +9130,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Huset"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "große"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Huset"
+                "stort"
               ]
             }
           },
@@ -7666,34 +9140,94 @@ const A1_WORDS = [
                 "groß"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "høj"
+              ]
+            }
           },
           {
             "de": {
               "blue": [
-                "groß"
+                "großen"
               ]
             },
             "lv": {
               "purple": [
-                "Værelset"
+                "stor"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "größer"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "højere"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "großer"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "stor"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "klein"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "lille"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "hoch"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "høj"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "riesig"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "kæmpestor"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "liels"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "blue": [
-              "groß"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -7708,9 +9242,9 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Bedsteforældre",
       "explanation": [
-        "Hovedidé: Großeltern betyder bedsteforældre.",
-        "Ordet bruges samlet om bedstemor og bedstefar.",
-        "die Großeltern bruges kun i flertal."
+        "Hovedidé: die Großeltern er et navneord i flertal, der betyder bedsteforældre – bedstemor og bedstefar sammen: Meine Großeltern wohnen auf dem Land.",
+        "Hver for sig: der Großvater (bedstefar), die Großmutter (bedstemor); i talesprog der Opa og die Oma. Der findes ingen entalsform af Großeltern.",
+        "I dativ flertal ændres formen ikke (ordet ender allerede på -n): bei den Großeltern, mit den Großeltern."
       ],
       "examples": [
         {
@@ -7718,34 +9252,165 @@ const A1_WORDS = [
           "lv": "Mine bedsteforældre bor på landet."
         },
         {
-          "de": "Ich besuche meine Großeltern.",
-          "lv": "Jeg besøger mine bedsteforældre."
+          "de": "Wir besuchen am Sonntag unsere Großeltern.",
+          "lv": "Vi besøger vores bedsteforældre på søndag."
+        },
+        {
+          "de": "Hast du noch Großeltern?",
+          "lv": "Har du stadig bedsteforældre?"
+        },
+        {
+          "de": "Er verbringt die Ferien bei den Großeltern.",
+          "lv": "Han tilbringer ferien hos sine bedsteforældre."
+        },
+        {
+          "de": "Die Großeltern meiner Mutter leben in Riga.",
+          "lv": "Min mors bedsteforældre bor i Riga."
         }
       ],
       "comparison": [
         {
-          "word": "Großeltern",
-          "meaning": "bedsteforældre",
-          "example": "meine Großeltern – mine bedsteforældre"
+          "word": "die Eltern",
+          "meaning": "forældre",
+          "example": "Meine Eltern arbeiten. – Mine forældre arbejder."
         },
         {
-          "word": "Großmutter",
-          "meaning": "bedstemor",
-          "example": "meine Großmutter – min bedstemor"
-        },
-        {
-          "word": "Großvater",
+          "word": "der Opa",
           "meaning": "bedstefar",
-          "example": "mein Großvater – min bedstefar"
+          "example": "Mein Opa liest gern. – Min bedstefar læser gerne."
+        },
+        {
+          "word": "die Oma",
+          "meaning": "bedstemor",
+          "example": "Meine Oma kocht gut. – Min bedstemor laver god mad."
         }
       ],
       "tip": [
-        "Großeltern er flertal.",
-        "For en enkelt person bruges Großmutter eller Großvater."
+        "Oma og Opa er talesprogsformer for bedstemor og bedstefar – på dansk siger man ofte mormor/farmor og morfar/farfar.",
+        "Großeltern er flertal, så udsagnsordet står også i flertal: Die Großeltern kommen."
       ],
       "important": [
-        "Kun flertal: die Großeltern."
-      ]
+        "Großeltern er ikke det samme som Eltern – forældre hedder Eltern.",
+        "Om én bedstemor eller bedstefar bruges Großeltern ikke: så hedder det Großmutter eller Großvater."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Großeltern"
+          ],
+          "purple": [
+            "bedsteforældre"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Großeltern"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "bedsteforældre"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Großeltern"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "bedsteforældre"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Großeltern"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "bedsteforældre"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Großeltern"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "bedsteforældre"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Großeltern"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "bedsteforældre"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "die Eltern"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "forældre"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Opa"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "bedstefar"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Oma"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "bedstemor"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
     }
   },
   {
@@ -7802,11 +9467,9 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "God",
       "explanation": [
-        "Hovedidé: gut er et adjektiv/adverbium - godt, vellykket, okay.",
-        "Gut beskriver kvalitet, sundhed eller hvordan noget går (Es geht mir gut. = Jeg har det godt.).",
-        "I høflighedssætningen guten Tag/Abend/Morgen ændrer gut slutningen efter bøjningen.",
-        "Hvis gut beskriver et verbum, er det et adverbium (gut schwimmen = at svømme godt).",
-        "Ikke at forveksle med das Gut - det er et substantiv (ejendom, herregård) med stort bogstav og artikel."
+        "Hovedidé: gut betyder god: ein guter Freund, eine gute Idee, ein gutes Buch. Som biord betyder det 'godt': Er spricht gut Deutsch.",
+        "Gradbøjningen er uregelmæssig: gut, besser, am besten – ligesom dansk god, bedre, bedst. Foran et navneord: ein guter Mann, eine gute Frau, ein gutes Kind.",
+        "I faste vendinger: Guten Tag! (goddag), Gute Nacht! (godnat), Mir geht es gut (jeg har det godt)."
       ],
       "examples": [
         {
@@ -7814,40 +9477,62 @@ const A1_WORDS = [
           "lv": "Maden er god."
         },
         {
-          "de": "Wie geht es dir? – Gut, danke!",
-          "lv": "Hvordan har du det - ok, tak!"
-        },
-        {
           "de": "Er spricht gut Deutsch.",
           "lv": "Han taler godt tysk."
-        },
-        {
-          "de": "Guten Morgen!",
-          "lv": "Godmorgen!"
         },
         {
           "de": "Das ist eine gute Idee.",
           "lv": "Det er en god idé."
         },
         {
-          "de": "Alles ist gut.",
-          "lv": "Alt er fint."
+          "de": "Mir geht es gut, danke.",
+          "lv": "Jeg har det godt, tak."
+        },
+        {
+          "de": "Gute Nacht!",
+          "lv": "Godnat!"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "schön",
+          "meaning": "smuk, dejlig",
+          "example": "Das Wetter ist schön. – Vejret er dejligt."
+        },
+        {
+          "word": "besser",
+          "meaning": "bedre",
+          "example": "Heute geht es mir besser. – I dag har jeg det bedre."
+        },
+        {
+          "word": "toll",
+          "meaning": "fantastisk",
+          "example": "Das ist toll! – Det er fantastisk!"
         }
       ],
       "tip": [
-        "tarm uden en artikel er et adjektiv/adverbium - godt/vel.",
-        "das Gut med stort bogstav og artikel er et helt andet ord - et substantiv (ejendom, herregård)."
+        "Gut er både tillægsord og biord med samme form.",
+        "Lær besser og am besten særskilt – det er ikke regelmæssige former."
       ],
       "important": [
-        "tarm = god/vel (tillægsord/tillægsord).",
-        "das Gut = ejendom/herregård (substantiv) - ikke at forveksle med gut.",
-        "Guten Tag/Morgen/Abend - tarmændringer slutter efter bøjning."
+        "I sammenligninger siger man ikke 'guter als'; det rigtige er besser als.",
+        "Gut betyder ikke 'smuk': smuk eller dejlig hedder schön."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "gut",
+            "gute",
+            "guter",
+            "gutes",
+            "besser",
+            "am besten",
+            "Guten Tag",
+            "Gute Nacht"
+          ],
           "purple": [
-            "Hovedidé",
-            "Hovedidé"
+            "god",
+            "godt"
           ]
         },
         "examples": [
@@ -7859,19 +9544,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Maden"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "Gut"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Hvordan"
+                "god"
               ]
             }
           },
@@ -7883,19 +9556,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Han"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "Guten"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Godmorgen"
+                "godt"
               ]
             }
           },
@@ -7907,7 +9568,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Det"
+                "god"
               ]
             }
           },
@@ -7919,41 +9580,68 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Alt"
+                "godt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Gute"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Godnat"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "schön"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "smuk, dejlig"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "besser"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "bedre"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "toll"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "fantastisk"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "blue": [
-              "gut"
-            ]
-          },
-          {
-            "green": [
-              "das Gut"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "blue": [
-              "tarm"
-            ]
-          },
-          {
-            "green": [
-              "das Gut"
-            ]
-          },
-          {
-            "blue": [
-              "Guten Tag",
-              "Morgen",
-              "Abend"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -7967,71 +9655,77 @@ const A1_WORDS = [
   },
   {
     "de": "haben",
-    "lv": "Jeg har",
+    "lv": "At have",
     "level": "A1",
     "study": {
       "id": "a1-haben",
       "layout": "standardStudy",
-      "translation": "Jeg har",
+      "translation": "At have",
       "explanation": [
-        "Hovedidé: haben betyder, at nogen har eller har adgang til noget.",
-        "Den danske dativkonstruktion \"jeg har / du har\" på tysk er nominativ + haben: Ich habe ..., Du hast ..., Er hat ... — ikke *mir habe.",
-        "Haben efterfølges af akkusativ: Ich habe ein Auto. = Jeg har en bil.",
-        "Haben bruges også som hjælpeverbum i Perfektum: Ich habe gelernt."
+        "Hovedidé: haben betyder 'have', 'eje noget': Ich habe einen Bruder (jeg har en bror), Wir haben Zeit. Det tager akkusativ.",
+        "Former: ich habe, du hast, er hat, wir haben, ihr habt, sie haben; hatte, hat gehabt. Haben er også hjælpeudsagnsord i førnutid ligesom dansk 'have': Ich habe das Buch gelesen.",
+        "I mange udtryk beskriver haben en tilstand, hvor dansk ofte bruger 'være': Hunger haben (være sulten), Durst haben (være tørstig), Angst haben (være bange), Recht haben (have ret)."
       ],
       "examples": [
         {
-          "de": "Ich habe ein Auto.",
-          "lv": "Jeg har en bil"
+          "de": "Ich habe einen Bruder.",
+          "lv": "Jeg har en bror."
         },
         {
-          "de": "Hast du Zeit?",
-          "lv": "Har du tid"
+          "de": "Wir haben heute Zeit.",
+          "lv": "Vi har tid i dag."
         },
         {
-          "de": "Wir haben Hunger.",
-          "lv": "Vi er sultne."
+          "de": "Hast du Hunger?",
+          "lv": "Er du sulten?"
         },
         {
-          "de": "Ich habe das gemacht.",
-          "lv": "Jeg gjorde det"
+          "de": "Sie hat ein neues Auto.",
+          "lv": "Hun har en ny bil."
+        },
+        {
+          "de": "Er hat das Buch gelesen.",
+          "lv": "Han har læst bogen."
         }
       ],
       "comparison": [
         {
-          "word": "haben",
-          "meaning": "Jeg har",
-          "example": "Ich habe Zeit. = Jeg har tid."
+          "word": "sein",
+          "meaning": "være",
+          "example": "Ich bin müde. – Jeg er træt."
         },
         {
-          "word": "sein",
-          "meaning": "At være",
-          "example": "Ich bin hier. = Jeg er her."
+          "word": "besitzen",
+          "meaning": "eje, besidde",
+          "example": "Er besitzt ein Haus. – Han ejer et hus."
         },
         {
           "word": "bekommen",
-          "meaning": "At modtage",
-          "example": "Ich bekomme ein Geschenk. = Jeg får en gave."
-        },
-        {
-          "word": "machen",
-          "meaning": "At gøre/lave",
-          "example": "Ich mache das. = Jeg gør det."
+          "meaning": "få, modtage",
+          "example": "Ich bekomme ein Geschenk. – Jeg får en gave."
         }
       ],
-      "tip": {
-        "text": "Husk: Ich habe → jeg har."
-      },
+      "tip": [
+        "Haben + navneord i akkusativ: Ich habe einen Hund, Ich habe keinen Hund.",
+        "I førnutid bruger de fleste udsagnsord haben: ich habe gelesen."
+      ],
       "important": [
-        "på dansk \"Jeg har\" = på tysk Ich habe + akkusativ. Brug ikke dativens kasus: forkert *mir habe.",
-        "Med sein og dativ: Mir ist kaldt. = Jeg er kold. (det er ikke haveben!)",
-        "Perfekt: Ich habe gelernt = jeg har lært."
+        "Alder udtrykkes på tysk med sein: Ich bin 20, ikke 'Ich habe 20'.",
+        "Ved nægtelse bruges kein: Ich habe kein Auto, ikke 'nicht ein Auto'."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "haben",
+            "habe",
+            "Haben",
+            "hast",
+            "hat",
+            "hatte"
+          ],
           "purple": [
-            "Hovedidé",
-            "Hovedidé"
+            "have",
+            "har"
           ]
         },
         "examples": [
@@ -8043,7 +9737,19 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Jeg"
+                "har"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "haben"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "har"
               ]
             }
           },
@@ -8055,31 +9761,31 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Har"
+                "sulten"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "haben"
+                "hat"
               ]
             },
             "lv": {
               "purple": [
-                "sultne"
+                "har"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "habe"
+                "hat"
               ]
             },
             "lv": {
               "purple": [
-                "Jeg"
+                "har"
               ]
             }
           }
@@ -8088,34 +9794,24 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "haben"
+                "sein"
               ]
             },
             "meaning": {
               "purple": [
-                "Jeg"
-              ]
-            },
-            "example": {
-              "blue": [
-                "habe"
-              ],
-              "purple": [
-                "Ich"
+                "være"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "sein"
+                "besitzen"
               ]
             },
-            "meaning": {},
-            "example": {
-              "green": [
-                "bin",
-                "Ich"
+            "meaning": {
+              "purple": [
+                "eje, besidde"
               ]
             }
           },
@@ -8127,154 +9823,128 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "modtage"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "bekomme",
-                "Ich"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "machen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "gøre/lave"
-              ]
-            },
-            "example": {
-              "red": [
-                "mache",
-                "Ich"
+                "få, modtage"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "Ich habe"
-            ],
-            "purple": [
-              "jeg har"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "purple": [
-              "dansk"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
   },
   {
     "de": "halb",
-    "lv": "Side",
+    "lv": "Halv",
     "level": "A1"
   },
   {
     "de": "Hälfte",
     "de_article": "die",
     "de_plural": "die Hälften",
-    "lv": "Side",
+    "lv": "Halvdel",
     "level": "A1"
   },
   {
     "de": "Hals",
     "de_article": "der",
     "de_plural": "die Hälse",
-    "lv": "Halsen",
+    "lv": "Hals",
     "level": "A1"
   },
   {
     "de": "halten",
-    "lv": "Hold • Stop",
+    "lv": "At holde • At stoppe",
     "level": "A1",
     "study": {
       "id": "a1-halten",
       "layout": "standardStudy",
-      "translation": "Hold • Stop",
+      "translation": "At holde • At stoppe",
       "explanation": [
-        "Hovedidé: halten betyder at holde, men med transport eller bevægelse kan det betyde at stoppe eller stoppe.",
-        "Med en genstand i hånden er halten normalt at holde.",
-        "Med bus, tog eller bil betyder halten ofte at stoppe.",
-        "I meningssætningen ich halte das für... betyder det at betragte som."
+        "Hovedidé: halten betyder at holde noget i hånden eller fastholde det: Sie hält ein Baby im Arm. Det har også betydningerne standse (Der Zug hält), anse for (etwas für gut halten) og holde en tale (eine Rede halten).",
+        "Former: du hältst, er hält (a → ä), hielt, hat gehalten. Anse for: jemanden/etwas für + akkusativ halten.",
+        "Halt! som bydemåde betyder 'stop!', men Halt die Tür! betyder 'Hold døren!'."
       ],
       "examples": [
         {
-          "de": "Ich halte die Tasche.",
-          "lv": "Jeg holder en taske"
+          "de": "Sie hält ein Baby im Arm.",
+          "lv": "Hun holder en baby i armene."
         },
         {
-          "de": "Der Bus hält hier.",
-          "lv": "Bussen stopper her."
+          "de": "Der Zug hält in Hamburg.",
+          "lv": "Toget standser i Hamborg."
         },
         {
-          "de": "Bitte halten Sie an.",
-          "lv": "Stop venligst"
+          "de": "Ich halte das für eine gute Idee.",
+          "lv": "Jeg anser det for en god idé."
         },
         {
-          "de": "Ich halte das für richtig.",
-          "lv": "Jeg anser det for korrekt."
+          "de": "Er hält eine Rede.",
+          "lv": "Han holder en tale."
+        },
+        {
+          "de": "Halt bitte die Tür!",
+          "lv": "Hold lige døren, tak!"
         }
       ],
       "comparison": [
         {
-          "word": "halten",
-          "meaning": "Hold / stop",
-          "example": "Der Bus hält. = Bussen holder."
+          "word": "tragen",
+          "meaning": "bære",
+          "example": "Sie trägt eine Tasche. – Hun bærer en taske."
         },
         {
           "word": "nehmen",
-          "meaning": "At tage",
-          "example": "Ich nehme die Tasche. = Jeg tager tasken."
+          "meaning": "tage",
+          "example": "Ich nehme das Buch. – Jeg tager bogen."
         },
         {
           "word": "anhalten",
-          "meaning": "At stoppe",
-          "example": "Bitte halten Sie an. = Stop venligst."
-        },
-        {
-          "word": "denken",
-          "meaning": "At tænke",
-          "example": "Ich denke, das ist richtig. = Jeg tror, det er rigtigt."
+          "meaning": "standse, stoppe",
+          "example": "Der Fahrer hält den Bus an. – Chaufføren standser bussen."
         }
       ],
-      "tip": {
-        "text": "Husk: i hånden → halten; transportør → holder/stopper."
-      },
+      "tip": [
+        "Om tog og busser betyder halten 'standse ved et stoppested': Der Bus hält hier.",
+        "Anse for = halten für + akkusativ."
+      ],
       "important": [
-        "halten er ikke bare 'hold'. Med transport betyder det ofte stop.",
-        "Ich halte das für... er en meningssætning: \"Jeg betragter det som...\".",
-        "Bitte halten Sie an bruges separabel verbum anhalten."
+        "Halten er et stærkt udsagnsord: hielt, hat gehalten.",
+        "Halten betyder ikke 'vente' – det hedder warten."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "halten",
+            "hält",
+            "hältst",
+            "hielt",
+            "gehalten",
+            "Halt"
+          ],
           "purple": [
-            "Hovedidé",
-            "Hovedidé",
-            "Hovedidé"
+            "holde",
+            "anse for",
+            "Anse for",
+            "Hold"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "halte"
+                "hält"
               ]
             },
             "lv": {
               "purple": [
-                "Jeg"
+                "holder"
               ]
             }
           },
@@ -8286,19 +9956,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Bussen"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "halten"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "stop"
+                "standser"
               ]
             }
           },
@@ -8310,7 +9968,26 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Jeg"
+                "anser"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hält"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "holder"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Halt"
               ]
             }
           }
@@ -8319,21 +9996,12 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "halten"
+                "tragen"
               ]
             },
             "meaning": {
               "purple": [
-                "Hold",
-                "Hold"
-              ]
-            },
-            "example": {
-              "blue": [
-                "hält"
-              ],
-              "purple": [
-                "Der"
+                "bære"
               ]
             }
           },
@@ -8347,12 +10015,6 @@ const A1_WORDS = [
               "purple": [
                 "tage"
               ]
-            },
-            "example": {
-              "yellow": [
-                "nehme",
-                "Ich"
-              ]
             }
           },
           {
@@ -8362,49 +10024,19 @@ const A1_WORDS = [
               ]
             },
             "meaning": {
-              "purple": []
-            },
-            "example": {
-              "red": []
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "denken"
-              ]
-            },
-            "meaning": {
               "purple": [
-                "tænke"
-              ]
-            },
-            "example": {
-              "green": [
-                "denke",
-                "Ich"
+                "standse, stoppe"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "halten"
-            ],
-            "purple": [
-              "Husk",
-              "Husk"
-            ],
-            "green": []
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "purple": [
-              "halten"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -8413,64 +10045,203 @@ const A1_WORDS = [
     "de": "Haltestelle",
     "de_article": "die",
     "de_plural": "die Haltestellen",
-    "lv": "Stop",
+    "lv": "Stoppested",
     "level": "A1"
   },
   {
     "de": "Hand",
     "de_article": "die",
     "de_plural": "die Hände",
-    "lv": "Hånd (håndflade)",
+    "lv": "Hånd",
     "level": "A1",
     "study": {
       "id": "a1-hand-study",
       "layout": "standardStudy",
       "translation": "Hånd",
       "explanation": [
-        "Hovedidé: die Hand betyder hånd.",
-        "Ordet bruges om kropsdelen fra håndleddet og ud til fingrene.",
-        "Flertal: die Hände."
+        "Hovedidé: die Hand er et hunkønsnavneord, der betyder hånd – armens yderste del fra håndleddet: Ich wasche mir die Hände. Flertal er die Hände (med omlyd).",
+        "Her ligner tysk dansk: Hand er hånden med fingrene fra håndleddet og ud, mens hele armen fra skulderen er der Arm – præcis som dansk hånd og arm.",
+        "Hyppige udtryk: die Hand geben (give hånden), in der Hand (i hånden), mit der Hand (med hånden)."
       ],
       "examples": [
         {
-          "de": "Ich wasche meine Hände.",
-          "lv": "Jeg vasker mine hænder."
+          "de": "Gib mir deine Hand!",
+          "lv": "Giv mig din hånd!"
         },
         {
-          "de": "Sie hält das Glas in der Hand.",
-          "lv": "Hun holder glasset i hånden."
+          "de": "Ich wasche mir die Hände.",
+          "lv": "Jeg vasker hænder."
         },
         {
-          "de": "Mein Arm tut weh.",
-          "lv": "Min arm gør ondt."
+          "de": "Er hat eine Tasche in der Hand.",
+          "lv": "Han har en taske i hånden."
+        },
+        {
+          "de": "Sie gibt dem Chef die Hand.",
+          "lv": "Hun giver chefen hånden."
+        },
+        {
+          "de": "Meine Hände sind kalt.",
+          "lv": "Mine hænder er kolde."
         }
       ],
       "comparison": [
         {
-          "word": "die Hand",
-          "meaning": "hånd",
-          "example": "in der Hand – i hånden"
-        },
-        {
           "word": "der Arm",
           "meaning": "arm",
           "example": "Mein Arm tut weh. – Min arm gør ondt."
+        },
+        {
+          "word": "der Finger",
+          "meaning": "finger",
+          "example": "Ich habe einen Finger verletzt. – Jeg har skadet en finger."
+        },
+        {
+          "word": "die Faust",
+          "meaning": "knytnæve",
+          "example": "Er ballt die Faust. – Han knytter næven."
         }
       ],
       "tip": [
-        "Hand = hånd.",
-        "Arm = arm fra skulder til hånd."
+        "I flertal får ordet omlyd: die Hand → die Hände.",
+        "Man vasker hænder med sich die Hände waschen: Ich wasche mir die Hände."
       ],
       "important": [
-        "in der Hand = i hånden."
-      ]
+        "Hand må ikke forveksles med Arm: Arm er armen fra skulderen til hånden.",
+        "Flertal er die Hände, ikke 'die Hands'."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "die Hand",
+            "Hand",
+            "Hände",
+            "die Hand geben",
+            "in der Hand",
+            "mit der Hand",
+            "der Arm"
+          ],
+          "purple": [
+            "hånd",
+            "give hånden"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Hand"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "hånd"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Hände"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "hænder"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Hand"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "hånden"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Hand"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "hånden"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Hände"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "hænder"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "der Arm"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "arm"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Finger"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "finger"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Faust"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "knytnæve"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
     }
   },
   {
     "de": "Handschuh",
     "de_article": "der",
     "de_plural": "die Handschuhe",
-    "lv": "En handske",
+    "lv": "Handske",
     "level": "A1"
   },
   {
@@ -8484,7 +10255,7 @@ const A1_WORDS = [
     "de": "Handtuch",
     "de_article": "das",
     "de_plural": "die Handtücher",
-    "lv": "Et håndklæde",
+    "lv": "Håndklæde",
     "level": "A1"
   },
   {
@@ -8498,96 +10269,100 @@ const A1_WORDS = [
     "de": "Hauptstadt",
     "de_article": "die",
     "de_plural": "die Hauptstädte",
-    "lv": "Hovedstaden",
+    "lv": "Hovedstad",
     "level": "A1"
   },
   {
     "de": "Heft",
     "de_article": "das",
     "de_plural": "die Hefte",
-    "lv": "Notesbog",
+    "lv": "Hæfte",
     "level": "A1"
   },
   {
     "de": "heiraten",
-    "lv": "Bliv gift",
+    "lv": "At gifte sig",
     "level": "A1"
   },
   {
     "de": "heiß",
-    "lv": "Varmt",
+    "lv": "Varm • Hed",
     "level": "A1"
   },
   {
     "de": "heißen",
-    "lv": "At blive kaldt • Mean",
+    "lv": "At hedde",
     "level": "A1",
     "study": {
       "id": "a1-heißen",
       "layout": "standardStudy",
-      "translation": "At blive kaldt • Mean",
+      "translation": "At hedde",
       "explanation": [
-        "Hovedidé: heißen bruges oftest til at sige, hvad nogen hedder.",
-        "Udtrykket Ich heiße... betyder \"mit navn er...\".",
-        "Med ord eller udtryk kan heißen også betyde middel.",
-        "På A1-niveau er den vigtigste sætning Wie heißt du?"
+        "Hovedidé: heißen betyder at hedde – det fortæller, hvad nogen eller noget hedder. Ich heiße Anna svarer direkte til dansk “jeg hedder Anna”.",
+        "Former: heißt, hieß, hat geheißen. Efter heißen står navnet i nominativ: Er heißt Paul. Som spørgsmål: Wie heißt du? (Hvad hedder du?), Wie heißt das auf Deutsch? (Hvad hedder det på tysk?).",
+        "En anden betydning er “betyde”: Was heißt “Danke” auf Lettisch? – Hvad betyder “Danke” på lettisk?"
       ],
       "examples": [
         {
           "de": "Ich heiße Anna.",
-          "lv": "Mit navn er Anna."
+          "lv": "Jeg hedder Anna."
         },
         {
           "de": "Wie heißt du?",
-          "lv": "Hvad er dit navn"
+          "lv": "Hvad hedder du?"
+        },
+        {
+          "de": "Das Kind heißt Lukas.",
+          "lv": "Barnet hedder Lukas."
         },
         {
           "de": "Wie heißt das auf Deutsch?",
           "lv": "Hvad hedder det på tysk?"
         },
         {
-          "de": "Was heißt das?",
-          "lv": "Hvad betyder det"
+          "de": "Was heißt “Danke” auf Lettisch?",
+          "lv": "Hvad betyder “Danke” på lettisk?"
         }
       ],
       "comparison": [
         {
-          "word": "heißen",
-          "meaning": "At blive kaldt/betyde",
-          "example": "Ich heiße Anna. = Jeg hedder Anna."
-        },
-        {
           "word": "nennen",
-          "meaning": "At ringe/navne",
-          "example": "Er nennt mich Tom. = Han kalder mig Tom."
+          "meaning": "kalde (ved navn)",
+          "example": "Er nennt mich Tom. – Han kalder mig Tom."
         },
         {
           "word": "bedeuten",
-          "meaning": "Betyde",
-          "example": "Was bedeutet das? = Hvad betyder det?"
+          "meaning": "betyde",
+          "example": "Was bedeutet das Wort? – Hvad betyder ordet?"
         },
         {
           "word": "rufen",
-          "meaning": "Ring/ring",
-          "example": "Ich rufe dich. = Jeg kalder på dig."
-        },
-        {
-          "word": "anrufen",
-          "meaning": "at ringe",
-          "example": "Ich rufe dich an. = Jeg ringer til dig."
+          "meaning": "råbe, kalde på",
+          "example": "Ich rufe dich. – Jeg kalder på dig."
         }
       ],
-      "tip": {
-        "text": "Husk: Ich heiße... → mit navn er..."
-      },
+      "tip": [
+        "Lær det som en helhed: Ich heiße … = Jeg hedder …; Wie heißt du? = Hvad hedder du?",
+        "Når du spørger om navn, så sig Wie heißt du?, ikke “Wie bist du?”."
+      ],
       "important": [
-        "Wie heißt du? betyder \"Hvad hedder du?\", ikke bogstaveligt \"hvad hedder du?\".",
-        "Var heißt das? betyder ofte \"Hvad betyder det?\"."
+        "Navnet efter heißen står i nominativ (Ich heiße Anna), ikke i akkusativ.",
+        "Udsagnsordet heißen er stærkt: hieß, ikke “heißte”."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "heißen",
+            "heißt",
+            "hieß",
+            "geheißen",
+            "Ich heiße",
+            "Wie heißt du"
+          ],
           "purple": [
-            "Hovedidé"
+            "hedde",
+            "hedder",
+            "betyde"
           ]
         },
         "examples": [
@@ -8599,7 +10374,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Mit"
+                "hedder"
               ]
             }
           },
@@ -8611,7 +10386,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Hvad"
+                "hedder"
               ]
             }
           },
@@ -8623,7 +10398,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Hvad"
+                "hedder"
               ]
             }
           },
@@ -8635,7 +10410,19 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Hvad"
+                "hedder"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "heißt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "betyder"
               ]
             }
           }
@@ -8644,39 +10431,12 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "heißen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "blive",
-                "blive"
-              ]
-            },
-            "example": {
-              "blue": [
-                "heiße"
-              ],
-              "purple": [
-                "Ich"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
                 "nennen"
               ]
             },
             "meaning": {
               "purple": [
-                "ringe/navne"
-              ]
-            },
-            "example": {
-              "green": [
-                "nennt",
-                "nennt"
+                "kalde"
               ]
             }
           },
@@ -8688,13 +10448,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Betyde"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "bedeutet",
-                "Was"
+                "betyde"
               ]
             }
           },
@@ -8706,41 +10460,18 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Ring/ring",
-                "Ring/ring"
-              ]
-            },
-            "example": {
-              "red": [
-                "rufe"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "anrufen"
+                "råbe, kalde på"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "Ich heiße"
-            ],
-            "purple": [
-              "mit navn er"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "purple": [
-              "Wie",
-              "Wie"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -8754,7 +10485,7 @@ const A1_WORDS = [
     "de": "Hemd",
     "de_article": "das",
     "de_plural": "die Hemden",
-    "lv": "En skjorte",
+    "lv": "Skjorte",
     "level": "A1"
   },
   {
@@ -8768,7 +10499,7 @@ const A1_WORDS = [
     "de": "Herr",
     "de_article": "der",
     "de_plural": "die Herren",
-    "lv": "Hr",
+    "lv": "Herre • Hr.",
     "level": "A1"
   },
   {
@@ -8802,122 +10533,179 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Høj",
       "explanation": [
-        "Hovedidé: Høj lodret, niveau eller højde.",
-        "Hoch betyder primært: stor i højden.",
-        "Ofte karakteriseret ved: lodret højde."
+        "Hovedidé: hoch er tillægsordet “høj” – om genstande, bygninger og bjerge, men også om priser, temperatur og niveau.",
+        "Vigtigt: når hoch står foran et navneord og bøjes, falder c bort: ein hoher Berg, ein hohes Haus, die hohen Preise. Komparativ er höher, superlativ am höchsten.",
+        "Om en persons højde siger man normalt groß (stor, høj), ikke hoch – selvom man på dansk siger “høj”."
       ],
       "examples": [
         {
-          "de": "Der Berg ist hoch.",
-          "lv": "Bjerget er højt."
+          "de": "Der Berg ist sehr hoch.",
+          "lv": "Bjerget er meget højt."
         },
         {
-          "de": "Das Regal ist zwei Meter hoch.",
-          "lv": "Bjerget er højt."
+          "de": "Das ist ein hoher Turm.",
+          "lv": "Det er et højt tårn."
         },
         {
-          "de": "Die Miete ist hoch.",
-          "lv": "Huslejen er høj."
+          "de": "Die Preise sind zu hoch.",
+          "lv": "Priserne er for høje."
         },
         {
-          "de": "Die Mauer ist hoch.",
-          "lv": "Muren er høj."
+          "de": "Das Haus ist zehn Meter hoch.",
+          "lv": "Huset er ti meter højt."
         },
         {
-          "de": "Die Preise sind hoch.",
-          "lv": "Priserne er høje."
+          "de": "Heute ist die Temperatur höher als gestern.",
+          "lv": "I dag er temperaturen højere end i går."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "groß",
+          "meaning": "stor; høj (om personer)",
+          "example": "Mein Bruder ist 1,90 m groß. – Min bror er 1,90 m høj."
+        },
+        {
+          "word": "niedrig",
+          "meaning": "lav",
+          "example": "Die Decke ist niedrig. – Loftet er lavt."
+        },
+        {
+          "word": "tief",
+          "meaning": "dyb",
+          "example": "Der See ist tief. – Søen er dyb."
         }
       ],
       "tip": [
-        "hoch = augsts",
-        "Brug hoch, når konteksten passer til denne betydning."
+        "Husk: hoch → hoher/hohe/hohes (uden c), men som omsagnsled forbliver det hoch: Der Turm ist hoch.",
+        "Modsætninger: hoch ≠ niedrig (om højde) og hoch ≠ tief (om dybde)."
       ],
       "important": [
-        "Hoch bruges ofte til priser og niveau.",
-        "hoch = augsts.",
-        "Høj lodret, niveau eller højde."
+        "At skrive “hocher” er en fejl – det rigtige er hoher.",
+        "Om en persons højde bruger man normalt ikke hoch; man siger groß."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "hoch",
+            "hoher",
+            "hohes",
+            "hohen",
+            "höher",
+            "am höchsten",
+            "groß"
+          ],
           "purple": [
-            "Hovedidé"
+            "høj"
           ]
         },
         "examples": [
           {
             "de": {
-              "green": [
+              "blue": [
                 "hoch"
               ]
             },
             "lv": {
               "purple": [
-                "Bjerget"
+                "højt"
               ]
             }
           },
           {
             "de": {
-              "green": [
-                "hoch"
+              "blue": [
+                "hoher"
               ]
             },
             "lv": {
               "purple": [
-                "Bjerget"
+                "højt"
               ]
             }
           },
           {
             "de": {
-              "green": [
+              "blue": [
                 "hoch"
               ]
             },
             "lv": {
               "purple": [
-                "Huslejen"
+                "høje"
               ]
             }
           },
           {
             "de": {
-              "green": [
+              "blue": [
                 "hoch"
               ]
             },
             "lv": {
               "purple": [
-                "Muren"
+                "højt"
               ]
             }
           },
           {
             "de": {
-              "green": [
-                "hoch"
+              "blue": [
+                "höher"
               ]
             },
             "lv": {
               "purple": [
-                "Priserne"
+                "højere"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "groß"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "stor; høj"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "niedrig"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "lav"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "tief"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "dyb"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "augsts"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "green": [
-              "hoch"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -8929,44 +10717,79 @@ const A1_WORDS = [
   },
   {
     "de": "hören",
-    "lv": "Hør • Lyt",
+    "lv": "At høre • At lytte",
     "level": "A1",
     "study": {
       "id": "a1-hoeren-study",
       "layout": "standardStudy",
-      "translation": "Hør • Lyt",
+      "translation": "At høre • At lytte",
       "explanation": [
-        "Hovedidé: At høre lyd eller lytte til musik.",
-        "Hören betyder primært: at opfatte lyd.",
-        "Ofte karakteriseret ved: lyde.",
-        "Hören bruges til lyde, musik og hvad der høres."
+        "Hovedidé: hören betyder “høre” (opfatte lyd) og også “lytte til” (bevidst høre på noget, fx musik eller radio). Ich höre Musik – jeg hører musik.",
+        "Former: hört, hörte, hat gehört; med akkusativ: etwas hören. Med von: von jemandem hören – høre fra nogen (Ich habe lange nichts von ihm gehört).",
+        "Når man lytter til en person, bruger man zuhören med dativ: Ich höre dir zu."
       ],
       "examples": [
         {
           "de": "Ich höre Musik.",
-          "lv": "Jeg lytter til musik."
+          "lv": "Jeg hører musik."
         },
         {
-          "de": "Die Kinder hören eine Geschichte.",
-          "lv": "Børnene lytter til historien."
+          "de": "Hörst du das Geräusch?",
+          "lv": "Hører du lyden?"
         },
         {
-          "de": "Ich höre dich.",
-          "lv": "Jeg hører dig"
+          "de": "Ich höre dich nicht gut.",
+          "lv": "Jeg kan ikke høre dig ordentligt."
+        },
+        {
+          "de": "Wir hören jeden Morgen Radio.",
+          "lv": "Vi hører radio hver morgen."
+        },
+        {
+          "de": "Ich habe lange nichts von ihm gehört.",
+          "lv": "Jeg har ikke hørt fra ham i lang tid."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "zuhören",
+          "meaning": "lytte (til nogen)",
+          "example": "Er hört mir nicht zu. – Han lytter ikke til mig."
+        },
+        {
+          "word": "anhören",
+          "meaning": "lytte til, høre igennem",
+          "example": "Ich höre mir das Lied an. – Jeg lytter til sangen."
+        },
+        {
+          "word": "aufhören",
+          "meaning": "holde op, stoppe",
+          "example": "Wir hören um fünf auf. – Vi stopper klokken fem."
         }
       ],
       "tip": [
-        "Hør en lyd eller lyt til musik.",
-        "Brug hören, når konteksten passer til denne betydning."
+        "Skeln mellem dem: høre = hören, men lytte til nogen = jemandem zuhören.",
+        "Hören bruges ofte i telefonen: Hören Sie mich? – Kan De høre mig?"
       ],
       "important": [
-        "hören = at høre/lytte til en lyd.",
-        "Hør en lyd eller lyt til musik."
+        "Efter zuhören kommer altid dativ: Ich höre dir zu, ikke “dich”.",
+        "Hören og aufhören er forskellige ord: aufhören er et udsagnsord med adskilleligt forled og betyder “holde op”."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "hören",
+            "hört",
+            "hörte",
+            "gehört",
+            "etwas hören",
+            "von jemandem hören",
+            "zuhören"
+          ],
           "purple": [
-            "Hovedidé"
+            "høre",
+            "lytte til",
+            "høre fra"
           ]
         },
         "examples": [
@@ -8976,16 +10799,23 @@ const A1_WORDS = [
                 "höre"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "hører"
+              ]
+            }
           },
           {
             "de": {
               "blue": [
-                "hören",
-                "hören"
+                "Hörst"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Hører"
+              ]
+            }
           },
           {
             "de": {
@@ -8995,133 +10825,31 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Jeg"
-              ]
-            }
-          }
-        ],
-        "tip": [
-          {
-            "purple": [
-              "Hør",
-              "Hør"
-            ]
-          }
-        ],
-        "important": [
-          {
-            "blue": [
-              "hören"
-            ]
-          }
-        ]
-      }
-    }
-  },
-  {
-    "de": "hübsch",
-    "lv": "Pænt • Pænt",
-    "level": "A1",
-    "study": {
-      "id": "a1-huebsch",
-      "layout": "standardStudy",
-      "translation": "Pæn • Smuk",
-      "explanation": [
-        "Hovedidé: hübsch betyder pæn, smuk eller tiltalende.",
-        "Om personer oversættes det ofte med pæn eller smuk.",
-        "Om ting kan det ofte oversættes med pæn eller flot.",
-        "Karaktertræk eller venlig adfærd beskrives på tysk oftere med nett."
-      ],
-      "examples": [
-        {
-          "de": "Sie trägt ein hübsches Kleid.",
-          "lv": "Hun har en pæn kjole."
-        },
-        {
-          "de": "Das Zimmer ist hübsch.",
-          "lv": "Værelset er pænt."
-        },
-        {
-          "de": "Das ist ein hübsches Bild.",
-          "lv": "Det er et pænt billede."
-        }
-      ],
-      "comparison": [
-        {
-          "word": "hübsch",
-          "meaning": "pæn • tiltalende",
-          "example": "Das ist ein hübsches Kleid. – Det er en pæn kjole."
-        },
-        {
-          "word": "schön",
-          "meaning": "smuk • dejlig",
-          "example": "Der Garten ist schön. – Haven er smuk."
-        },
-        {
-          "word": "nett",
-          "meaning": "sød • venlig",
-          "example": "Sie ist sehr nett. – Hun er meget sød."
-        }
-      ],
-      "tip": {
-        "text": "Husk: hübsch beskriver noget eller nogen, der ser pæn, smuk eller tiltalende ud."
-      },
-      "important": [
-        "Betydningen afhænger af sammenhængen: pæn, smuk eller flot.",
-        "For en persons karakter eller venlig adfærdsmåde er nett normalt mere passende."
-      ],
-      "sectionAccents": {
-        "explanation": {
-          "blue": [
-            "hübsch"
-          ],
-          "purple": [
-            "pæn",
-            "smuk",
-            "tiltalende"
-          ],
-          "yellow": []
-        },
-        "examples": [
-          {
-            "de": {
-              "blue": [
-                "hübsches"
-              ],
-              "green": [
-                "Kleid"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "pæn"
-              ],
-              "green": [
-                "kjole"
+                "høre"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "hübsch"
+                "hören"
               ]
             },
             "lv": {
               "purple": [
-                "pænt"
+                "hører"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "hübsches"
+                "gehört"
               ]
             },
             "lv": {
               "purple": [
-                "pænt"
+                "hørt fra"
               ]
             }
           }
@@ -9130,24 +10858,169 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "hübsch"
+                "zuhören"
               ]
             },
             "meaning": {
               "purple": [
-                "pæn",
-                "tiltalende"
+                "lytte"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "anhören"
               ]
             },
-            "example": {
+            "meaning": {
+              "purple": [
+                "lytte til, høre igennem"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "aufhören"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "holde op, stoppe"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
+    }
+  },
+  {
+    "de": "hübsch",
+    "lv": "Pæn • Køn",
+    "level": "A1",
+    "study": {
+      "id": "a1-huebsch",
+      "layout": "standardStudy",
+      "translation": "Pæn • Køn",
+      "explanation": [
+        "Hovedidé: hübsch er tillægsordet “pæn, køn” – om menneskers udseende, tøj, huse og ting, der behager øjet. Det er mildere end schön (smuk).",
+        "Foran et navneord bøjes hübsch som et almindeligt tillægsord: ein hübsches Kleid, eine hübsche Frau, hübsche Blumen. Komparativ: hübscher, superlativ: am hübschesten.",
+        "I talesprog kan ganz hübsch også betyde “temmelig meget”: Das war ganz hübsch teuer – ligesom dansk “pænt dyrt”."
+      ],
+      "examples": [
+        {
+          "de": "Sie ist ein hübsches Mädchen.",
+          "lv": "Hun er en køn pige."
+        },
+        {
+          "de": "Das Kleid ist wirklich hübsch.",
+          "lv": "Kjolen er virkelig pæn."
+        },
+        {
+          "de": "Was für ein hübsches Haus!",
+          "lv": "Sikke et pænt hus!"
+        },
+        {
+          "de": "Du siehst heute hübsch aus.",
+          "lv": "Du ser pæn ud i dag."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "schön",
+          "meaning": "smuk, dejlig",
+          "example": "Das Wetter ist schön. – Vejret er dejligt."
+        },
+        {
+          "word": "süß",
+          "meaning": "sød; nuttet",
+          "example": "Das Baby ist süß. – Babyen er sød."
+        },
+        {
+          "word": "schick",
+          "meaning": "elegant, smart",
+          "example": "Du siehst schick aus. – Du ser smart ud."
+        }
+      ],
+      "tip": [
+        "Hübsch bruges som en mild kompliment, schön som en stærkere.",
+        "Tilføj endelse, når ordet står foran et navneord: ein hübsches Kleid, men Das Kleid ist hübsch."
+      ],
+      "important": [
+        "Om mænd bruges hübsch sjældnere; oftere siger man gut aussehend eller attraktiv.",
+        "Hübsch er meget udbredt i talesprog, men er ikke det samme som schön – schön er mere generelt og stærkere."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "hübsch",
+            "hübsches"
+          ],
+          "purple": [
+            "pæn",
+            "køn"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
               "blue": [
                 "hübsches"
-              ],
+              ]
+            },
+            "lv": {
+              "purple": [
+                "køn"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hübsch"
+              ]
+            },
+            "lv": {
               "purple": [
                 "pæn"
               ]
             }
           },
+          {
+            "de": {
+              "blue": [
+                "hübsches"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pænt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hübsch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pæn"
+              ]
+            }
+          }
+        ],
+        "comparison": [
           {
             "word": {
               "green": [
@@ -9156,47 +11029,42 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "smuk",
-                "dejlig"
+                "smuk, dejlig"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "nett"
+                "süß"
               ]
             },
             "meaning": {
               "purple": [
-                "sød",
-                "venlig"
+                "sød; nuttet"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "schick"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "elegant, smart"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "hübsch"
-            ],
-            "purple": [
-              "pæn"
-            ],
-            "yellow": []
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "blue": [],
-            "purple": [
-              "pæn"
-            ]
-          },
-          {
-            "yellow": [],
-            "purple": []
-          }
+          {},
+          {}
         ]
       }
     }
@@ -9213,99 +11081,91 @@ const A1_WORDS = [
   },
   {
     "de": "ich",
-    "lv": "Mig",
+    "lv": "Jeg",
     "level": "A1"
   },
   {
     "de": "ihr",
-    "lv": "Du • Hende",
+    "lv": "I • Hende • Hendes",
     "level": "A1",
     "study": {
       "id": "a1-ihr",
       "layout": "standardStudy",
-      "translation": "Du • Hende",
+      "translation": "I • Hende • Hendes",
       "explanation": [
-        "Hovedidé: ihr har flere funktioner. Det kan være pronomenet \"I\" for flere personer eller dativformen af sie, \"hende\".",
-        "Med små bogstaver ihr som adresse til flere personer oversættes som dig (Kommt ihr mit? = Kommer du med?).",
-        "Ihr som besiddende pronomen betyder hende (ihr Buch = hendes bog).",
-        "Ihr som dativform (af sie) betyder for hende (Ich gebe ihr das Buch. = jeg giver hende en bog.).",
-        "Udsagnsordsformen (kommt, habt) viser, at det handler om dig – at henvende dig til flere personer.",
-        "Den høflige adresse er altid Sie med stort bogstav, ikke ihr."
+        "Hovedidé: ihr er et kort, men flertydigt ord. 1) Personligt stedord i nominativ: ihr = I (flere personer, man er dus med): Ihr seid nett. 2) Dativ af sie (hun): Ich helfe ihr – jeg hjælper hende. 3) Ejestedord: ihr Bruder – hendes/deres bror.",
+        "Ejestedordet ihr bøjes som ein: ihr Buch, ihre Mutter, ihren Vater, ihrem Kind. Det kan betyde “hendes” (om én kvinde) eller “deres” (om flere).",
+        "Forskel: ihr (I, flere man er dus med) ≠ Sie (høfligt De, altid med stort) ≠ Ihr/Ihnen (høfligt: Deres/Dem)."
       ],
       "examples": [
         {
-          "de": "Kommt ihr heute Abend?",
-          "lv": "Kommer du i aften"
+          "de": "Ihr seid heute spät.",
+          "lv": "I kommer sent i dag."
+        },
+        {
+          "de": "Kommt ihr morgen zur Party?",
+          "lv": "Kommer I til festen i morgen?"
         },
         {
           "de": "Ich gebe ihr das Buch.",
           "lv": "Jeg giver hende bogen."
         },
         {
-          "de": "Wo wohnt ihr?",
-          "lv": "Hvor bor du"
+          "de": "Ich helfe ihr beim Kochen.",
+          "lv": "Jeg hjælper hende med madlavningen."
         },
         {
-          "de": "Er schreibt ihr einen Brief.",
-          "lv": "Han skriver et brev til hende."
+          "de": "Ihr Bruder wohnt in Riga.",
+          "lv": "Hendes bror bor i Riga."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "du",
+          "meaning": "du (én person)",
+          "example": "Kommst du mit? – Kommer du med?"
         },
         {
-          "de": "Habt ihr Zeit?",
-          "lv": "Har du tid"
+          "word": "Sie",
+          "meaning": "De (høfligt)",
+          "example": "Wie heißen Sie? – Hvad hedder De?"
         },
         {
-          "de": "Das ist ihr Auto.",
-          "lv": "Det er hendes bil."
+          "word": "Ihnen",
+          "meaning": "Dem (høfligt)",
+          "example": "Ich helfe Ihnen gern. – Jeg hjælper Dem gerne."
         }
       ],
       "tip": [
-        "ihr sammen med en verbalform som kommt eller habt betyder \"I\"; ihr i andre sammenhænge kan blandt andet betyde \"hende\" eller \"hendes\".",
-        "Tjek: Har du...? / Kommt ihr...? = dig; Ich gebe ihr... / ihr Buch = for hende/hendes."
+        "Når du taler til to eller flere personer, du er dus med, så sig ihr + udsagnsord med endelsen -t: ihr habt, ihr kommt.",
+        "Dativ-ihr genkender du på udsagnsordet: helfen, geben, danken og gehören kræver dativ."
       ],
       "important": [
-        "ihr = dig (adresse til flere) ELLER hende (dativ) ELLER hende (besiddende) - afhængig af sammenhængen.",
-        "Den høflige adresse er altid Sie med stort bogstav, ikke ihr.",
-        "Forkert: Ihr (høflig) → Korrekt: Sie."
+        "Ihr (I, nominativ) skrives med lille begyndelsesbogstav midt i sætningen; det høflige Ihr/Ihnen altid med stort.",
+        "Brug ikke ihr som “du” – én person er du, flere er ihr."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "ihr",
+            "Ihr"
+          ],
           "purple": [
-            "Hovedidé",
-            "Hovedidé"
+            "I",
+            "hende",
+            "hendes"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "ihr"
+                "Ihr"
               ]
             },
             "lv": {
               "purple": [
-                "Kommer"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "ihr"
-              ]
-            },
-            "lv": {
-              "purple": []
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "ihr"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Hvor"
+                "I"
               ]
             }
           },
@@ -9317,7 +11177,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Han"
+                "I"
               ]
             }
           },
@@ -9329,7 +11189,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Har"
+                "hende"
               ]
             }
           },
@@ -9341,29 +11201,68 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "er"
+                "hende"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Ihr"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Hendes"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "du"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "du"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "Sie"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "De"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "Ihnen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Dem"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "blue": [
-              "ihr"
-            ]
-          },
-          {
-            "blue": [
-              "ihr"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "purple": [
-              "ihr"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -9377,87 +11276,73 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "I • Hvor?",
       "explanation": [
-        "Im er en forkortelse for præpositionen i og artiklen dem.",
-        "Fuld form: in dem (til hvem?).",
-        "Brugt med maskuline navneord og navneord af ethvert køn, når du besvarer spørgsmålet hvor? — placering.",
-        "Med tid og årstider: im Januar, im Sommer, im Winter.",
-        "I praksis bruges im næsten altid i stedet for fuld i dem."
+        "Hovedidé: im er en sammentrækning af in dem – forholdsordet in sammen med dativ-artiklen dem. Det svarer på spørgsmålet “hvor?” (wo?): im Haus – i huset, im Zimmer – i værelset.",
+        "Det bruges med hankøns- og intetkønsord: im Garten (der Garten), im Hotel (das Hotel). Ved hunkøn hedder det in der (in der Küche), i flertal in den.",
+        "Im bruges også om tid: im Sommer (om sommeren), im Juli (i juli), im Jahr 2020 – med måneder og årstider."
       ],
       "examples": [
         {
-          "de": "Ich bin im Park.",
-          "lv": "Jeg er i parken"
+          "de": "Das Kind ist im Zimmer.",
+          "lv": "Barnet er i værelset."
         },
         {
-          "de": "Wir wohnen im Zentrum.",
-          "lv": "Vi bor i centrum."
+          "de": "Die Milch steht im Kühlschrank.",
+          "lv": "Mælken står i køleskabet."
         },
         {
-          "de": "Im Sommer ist es warm.",
-          "lv": "Det er varmt om sommeren."
+          "de": "Im Winter ist es kalt.",
+          "lv": "Om vinteren er det koldt."
         },
         {
-          "de": "Er arbeitet im Büro.",
-          "lv": "Han arbejder på et kontor."
+          "de": "Wir fahren im Juli nach Berlin.",
+          "lv": "Vi tager til Berlin i juli."
         },
         {
-          "de": "Das Kind spielt im Garten.",
-          "lv": "Barnet leger i haven."
-        },
-        {
-          "de": "Im Januar fahre ich nach Wien.",
-          "lv": "Jeg tog til Wien i januar."
-        },
-        {
-          "de": "Sie ist im Kino.",
-          "lv": "Hun er i biografen."
-        },
-        {
-          "de": "Wir treffen uns im Restaurant.",
-          "lv": "Vi mødes på en restaurant."
+          "de": "Er arbeitet im Krankenhaus.",
+          "lv": "Han arbejder på hospitalet."
         }
       ],
       "comparison": [
         {
-          "word": "im",
-          "meaning": "Hvor inde? (til hvem?)",
-          "example": "im Park – I parken"
-        },
-        {
           "word": "ins",
-          "meaning": "Indad, hvor? (Acc.)",
-          "example": "ins Kino – Til biografen"
+          "meaning": "hvorhen? (in das)",
+          "example": "Ich gehe ins Zimmer. – Jeg går ind i værelset."
         },
         {
-          "word": "in",
-          "meaning": "I / til (ingen artikel)",
-          "example": "in Berlin – I Berlin"
+          "word": "in der",
+          "meaning": "hvor? (hunkøn)",
+          "example": "Sie ist in der Küche. – Hun er i køkkenet."
         },
         {
           "word": "am",
-          "meaning": "På, hvor? (til hvem?)",
-          "example": "am Fenster – Ved vinduet"
-        },
-        {
-          "word": "auf",
-          "meaning": "På overfladen",
-          "example": "auf dem Tisch – På bordet"
+          "meaning": "på, om (dage)",
+          "example": "Am Montag arbeite ich. – På mandag arbejder jeg."
         }
       ],
       "tip": [
-        "Husk: in + dem → im (kam?, kur?).",
-        "Hvor? → ins; hvor? → im - lad være med at forveksle disse to!"
+        "Im = hvor? (ingen bevægelse), ins = hvorhen? (bevægelse): Ich bin im Kino – Ich gehe ins Kino.",
+        "Med måneder og årstider altid im: im Mai, im Herbst."
       ],
       "important": [
-        "im = in dem, kun med et hankøns- eller intetkønssubstantiv for hvem? i bøjning.",
-        "Svar på hvor?, ikke hvor? — placering, ikke bevægelse.",
-        "Med måneder og årstider: im März, im Herbst.",
-        "For kvinder: in der Schule, ikke im Schule."
+        "Im er in + dem (hvor?); in das trækkes sammen til ins (hvorhen?), så im og ins må ikke forveksles.",
+        "Med ugedage og tider på døgnet bruges am (am Montag, am Abend), ikke im."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "im",
+            "in dem",
+            "in der",
+            "im Haus",
+            "im Zimmer",
+            "im Sommer",
+            "im Juli"
+          ],
           "purple": [
-            "forkortelse"
+            "i huset",
+            "i værelset",
+            "om sommeren",
+            "i juli"
           ]
         },
         "examples": [
@@ -9469,7 +11354,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Jeg"
+                "i værelset"
               ]
             }
           },
@@ -9481,7 +11366,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "bor"
+                "i køleskabet"
               ]
             }
           },
@@ -9493,7 +11378,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Det"
+                "Om vinteren"
               ]
             }
           },
@@ -9505,7 +11390,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Han"
+                "i juli"
               ]
             }
           },
@@ -9517,43 +11402,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Barnet"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "Im"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Jeg"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "im"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Hun"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "im"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "mødes"
+                "på hospitalet"
               ]
             }
           }
@@ -9562,53 +11411,24 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "im"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Hvor",
-                "Hvor"
-              ]
-            },
-            "example": {
-              "blue": [
-                "im Park"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
                 "ins"
               ]
             },
             "meaning": {
               "purple": [
-                "Indad",
-                "Indad"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "ins Kino"
+                "hvorhen?"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "in"
+                "in der"
               ]
             },
             "meaning": {
               "purple": [
-                "til"
-              ]
-            },
-            "example": {
-              "green": [
-                "in Berlin"
+                "hvor?"
               ]
             }
           },
@@ -9620,46 +11440,18 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "hvor"
-              ]
-            },
-            "example": {
-              "green": [
-                "am Fenster"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "auf"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "overfladen"
-              ]
-            },
-            "example": {
-              "red": [
-                "auf dem Tisch"
+                "på, om"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "kur?"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "purple": [
-              "in dem"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -9678,350 +11470,132 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "I • Til",
       "explanation": [
-        "Hovedidé: betyder normalt i eller til et sted, når der henvises til et rum, land, by eller bygning.",
-        "Med placering oversættes in ofte som i eller i: i Berlin = i Berlin.",
-        "Med bevægelsen i betyder indad: ins Kino = til biografen.",
-        "Den danske oversættelse ændres afhængigt af konteksten."
+        "Hovedidé: in er et forholdsord, der angiver sted “inde i” (hvor?) eller retning “ind i, til” (hvorhen?). På dansk svarer det oftest til i: in Riga – i Riga; ins Kino – i biografen.",
+        "Med dativ – hvor? (wo?): Ich bin in der Schule. Med akkusativ – hvorhen? (wohin?): Ich gehe in die Schule.",
+        "Ved byer og lande uden artikel bruger man normalt in (sted) og nach (retning): Ich wohne in Berlin, ich fahre nach Berlin. Om tid betyder in også “om”: in einer Stunde (om en time)."
       ],
       "examples": [
         {
-          "de": "Ich bin in Berlin.",
-          "lv": "Jeg er i berlin"
+          "de": "Ich wohne in Riga.",
+          "lv": "Jeg bor i Riga."
         },
         {
-          "de": "Ich gehe in die Schule.",
-          "lv": "Jeg går i skole"
+          "de": "Das Buch liegt in der Tasche.",
+          "lv": "Bogen ligger i tasken."
         },
         {
-          "de": "Das Buch ist in der Tasche.",
-          "lv": "Bogen er i tasken."
+          "de": "Wir gehen in die Schule.",
+          "lv": "Vi går i skole."
         },
         {
-          "de": "Wir gehen ins Kino.",
-          "lv": "Vi skal i biografen."
-        }
-      ],
-      "tip": {
-        "text": "Husk: i/rum → i."
-      },
-      "important": [
-        "in er ikke altid bogstaveligt \"in\"; på dansk siges ofte i Berlin, i skolen, i biografen.",
-        "Når det kommer til overflade, har du ofte brug for auf i stedet for in."
-      ],
-      "sectionAccents": {
-        "explanation": {
-          "purple": [
-            "Hovedidé",
-            "Hovedidé"
-          ]
-        },
-        "examples": [
-          {
-            "de": {
-              "blue": [
-                "in"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Jeg"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "in"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Jeg"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "in"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Bogen"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "ins"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "skal"
-              ]
-            }
-          }
-        ],
-        "comparison": [
-          {
-            "word": {},
-            "meaning": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "meaning": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "meaning": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "meaning": {},
-            "example": {}
-          }
-        ],
-        "tip": {
-          "left": {
-            "blue": [
-              "Husk"
-            ],
-            "purple": [
-              "Husk",
-              "Husk"
-            ]
-          }
-        },
-        "important": [
-          {
-            "purple": [
-              "ikke",
-              "ikke"
-            ]
-          }
-        ]
-      }
-    }
-  },
-  {
-    "de": "ins",
-    "lv": "I • Ind i • Hvor?",
-    "level": "A1",
-    "study": {
-      "id": "a1-ins",
-      "layout": "standardStudy",
-      "translation": "I • Ind i • Hvor?",
-      "explanation": [
-        "Ins er en forkortelse af præpositionen i og artiklen das.",
-        "Fuld form: in das (hvor?).",
-        "Brugt med navneord af ethvert køn, når du besvarer spørgsmålet hvor? — indadgående bevægelse.",
-        "Ofte med verber: gehen, fahren, kommen, legen, stecken.",
-        "I praksis bruges ins næsten altid i stedet for fuld indas."
-      ],
-      "examples": [
-        {
-          "de": "Ich gehe ins Kino.",
-          "lv": "Jeg går i biografen"
+          "de": "Sie legt das Buch in die Tasche.",
+          "lv": "Hun lægger bogen i tasken."
         },
         {
-          "de": "Sie geht ins Bett.",
-          "lv": "Hun går i seng."
-        },
-        {
-          "de": "Wir fahren ins Ausland.",
-          "lv": "Vi skal til udlandet."
-        },
-        {
-          "de": "Komm ins Haus!",
-          "lv": "Kom til huset!"
-        },
-        {
-          "de": "Er steckt das Geld in den Geldbeutel.",
-          "lv": "Han putter pengene i sin pung."
-        },
-        {
-          "de": "Wir gehen ins Museum.",
-          "lv": "Vi går på museum."
-        },
-        {
-          "de": "Sie legt die Blumen ins Wasser.",
-          "lv": "Hun sætter blomsterne i vandet."
-        },
-        {
-          "de": "Fahr bitte ins Zentrum.",
-          "lv": "Venligst gå til centret."
+          "de": "In einer Stunde bin ich da.",
+          "lv": "Om en time er jeg der."
         }
       ],
       "comparison": [
         {
-          "word": "ins",
-          "meaning": "Indad, hvor? (Acc.)",
-          "example": "ins Kino – Til biografen"
-        },
-        {
           "word": "im",
-          "meaning": "Hvor inde? (til hvem?)",
-          "example": "im Kino – Biograf"
+          "meaning": "hvor? (in dem)",
+          "example": "Ich bin im Büro. – Jeg er på kontoret."
         },
         {
-          "word": "in",
-          "meaning": "I / til (med uafhængig artikel)",
-          "example": "in die Stadt – Til byen"
+          "word": "ins",
+          "meaning": "hvorhen? (in das)",
+          "example": "Wir gehen ins Büro. – Vi går hen på kontoret."
         },
         {
-          "word": "aufs",
-          "meaning": "Til overfladen (Akk.)",
-          "example": "aufs Dach – På taget"
-        },
-        {
-          "word": "zum",
-          "meaning": "Til / hos (hvem?)",
-          "example": "zum Arzt – Til lægen"
+          "word": "nach",
+          "meaning": "til (by, land)",
+          "example": "Ich fahre nach Berlin. – Jeg tager til Berlin."
         }
       ],
       "tip": [
-        "Husk: in + das → ins (kurp?, kurp?).",
-        "Hvor? → ins; hvor? → im - dette er den vigtigste forskel!"
+        "Spørg: hvor? (wo?) → dativ; hvorhen? (wohin?) → akkusativ.",
+        "Normalt trækkes der sammen: in dem → im, in das → ins."
       ],
       "important": [
-        "ins = in das, kun med et navneord af ethvert køn hvor? i bøjning.",
-        "Svar på hvor?, ikke hvor? — bevægelse, ikke placering.",
-        "For det maskuline køn: in den Wald; af kvinder: in die Schule.",
-        "Forveksle ikke: ins Kino gehen (i biografen) vs. im Kino sein (at være i biografen)."
+        "Ved byer og lande med retning bruges normalt nach, ikke in: nach Deutschland, nach Riga.",
+        "Ved lande med artikel bruges in: in die Schweiz, in die USA."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "in",
+            "ins"
+          ],
           "purple": [
-            "Ins",
-            "Ins",
-            "Ins"
+            "inde i",
+            "ind i",
+            "til"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "ins"
+                "in"
               ]
             },
             "lv": {
               "purple": [
-                "Jeg"
+                "i"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "ins"
+                "in"
               ]
             },
             "lv": {
               "purple": [
-                "Hun"
+                "i"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "ins"
+                "in"
               ]
             },
             "lv": {
               "purple": [
-                "skal"
+                "i"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "ins"
+                "in"
               ]
             },
             "lv": {
               "purple": [
-                "Kom"
+                "i"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "in den"
+                "In"
               ]
             },
             "lv": {
               "purple": [
-                "Han",
-                "Han",
-                "Han"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "ins"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "går"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "ins"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Hun"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "ins"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Venligst"
+                "Om"
               ]
             }
           }
         ],
         "comparison": [
-          {
-            "word": {
-              "green": [
-                "ins"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Indad",
-                "Indad"
-              ]
-            },
-            "example": {
-              "blue": [
-                "ins Kino"
-              ]
-            }
-          },
           {
             "word": {
               "green": [
@@ -10030,84 +11604,224 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Hvor",
-                "Hvor"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "im Kino"
+                "hvor?"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "in"
+                "ins"
               ]
             },
             "meaning": {
               "purple": [
-                "til",
-                "til",
+                "hvorhen?"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "nach"
+              ]
+            },
+            "meaning": {
+              "purple": [
                 "til"
-              ]
-            },
-            "example": {
-              "green": [
-                "in die Stadt"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "aufs"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Til"
-              ]
-            },
-            "example": {
-              "green": [
-                "aufs Dach"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "zum"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Til",
-                "Til"
-              ]
-            },
-            "example": {
-              "red": [
-                "zum Arzt"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "kurp?"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
+          {},
+          {}
+        ]
+      }
+    }
+  },
+  {
+    "de": "ins",
+    "lv": "Ind i • I",
+    "level": "A1",
+    "study": {
+      "id": "a1-ins",
+      "layout": "standardStudy",
+      "translation": "Ind i • I",
+      "explanation": [
+        "Hovedidé: ins er en sammentrækning af in das – forholdsordet in med akkusativ-artiklen das. Det svarer på spørgsmålet “hvorhen?” (wohin?) og betyder “ind i, i”: Ich gehe ins Kino – jeg går i biografen.",
+        "Det bruges kun med intetkønsnavneord (das Kino, das Haus, das Bett). Ved hankøn hedder det in den (in den Garten), ved hunkøn in die (in die Schule).",
+        "Ofte i faste udtryk: ins Bett gehen (gå i seng), ins Ausland fahren (rejse til udlandet), ins Wasser springen (springe i vandet)."
+      ],
+      "examples": [
+        {
+          "de": "Wir gehen ins Kino.",
+          "lv": "Vi går i biografen."
+        },
+        {
+          "de": "Er legt das Buch ins Regal.",
+          "lv": "Han stiller bogen ind på reolen."
+        },
+        {
+          "de": "Sie fährt ins Ausland.",
+          "lv": "Hun rejser til udlandet."
+        },
+        {
+          "de": "Die Kinder springen ins Wasser.",
+          "lv": "Børnene springer i vandet."
+        },
+        {
+          "de": "Ich gehe jetzt ins Bett.",
+          "lv": "Jeg går i seng nu."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "im",
+          "meaning": "hvor? (in dem)",
+          "example": "Ich bin im Kino. – Jeg er i biografen."
+        },
+        {
+          "word": "in die",
+          "meaning": "hvorhen? (hunkøn)",
+          "example": "Wir gehen in die Stadt. – Vi går ind til byen."
+        },
+        {
+          "word": "in den",
+          "meaning": "hvorhen? (hankøn)",
+          "example": "Er geht in den Garten. – Han går ud i haven."
+        }
+      ],
+      "tip": [
+        "Bevægelse → ins (hvorhen?), hvile → im (hvor?): ins Kino gehen, im Kino sein.",
+        "Ins bruges kun med das-ord – tjek kønnet."
+      ],
+      "important": [
+        "Ved hankøn og hunkøn findes ins ikke: man skal sige in den Garten, in die Schule.",
+        "Hvis das skal fremhæves særligt, kan man bruge den fulde form: Ich gehe in das Haus, nicht in die Garage."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "ins",
+            "in das"
+          ],
+          "purple": [
+            "hvorhen",
+            "ind i"
+          ]
+        },
+        "examples": [
           {
-            "purple": [
-              "in das"
-            ]
+            "de": {
+              "blue": [
+                "ins"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "i"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ins"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ind på"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ins"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "til"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ins"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "i"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ins"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "i seng"
+              ]
+            }
           }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "im"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "hvor?"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "in die"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "hvorhen?"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "in den"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "hvorhen?"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
         ]
       }
     }
@@ -10125,12 +11839,12 @@ const A1_WORDS = [
   },
   {
     "de": "jawohl",
-    "lv": "Præcis sådan",
+    "lv": "Javel",
     "level": "A1"
   },
   {
     "de": "jeder",
-    "lv": "Hver enkelt",
+    "lv": "Hver • Enhver",
     "level": "A1"
   },
   {
@@ -10158,56 +11872,69 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Ung (om mennesker)",
       "explanation": [
-        "Hovedidé: jung betyder ung i alderen - brugt af mennesker og dyr, ikke ting.",
-        "Jung beskriver alder – det modsatte er alt (gammelt).",
-        "på dansk har ordet ung to betydninger: ung i alderen (jung) og ung/nyligt oprettet (neu).",
-        "For nyligt oprettede eller erhvervede ting, brug neu, ne jung.",
-        "Jung bruges også i overført betydning: en ny generation, et ungt par, unge mennesker.",
-        "Der er også substantivet die Jugend (ungdom)."
+        "Hovedidé: jung betyder “ung” om alderen på mennesker, dyr eller planter – Mein Bruder ist jung. Om ting (en bog, en bil) bruger man neu (ny).",
+        "Komparativ er jünger (med omlyd), superlativ am jüngsten: Er ist jünger als ich. Foran et navneord: ein junger Mann, eine junge Frau, junge Leute.",
+        "Modsætning: alt (gammel). Navneordet der Junge (flertal die Jungen) betyder “dreng”, ikke “ung”."
       ],
       "examples": [
         {
-          "de": "Sie ist noch jung.",
-          "lv": "Hun er stadig ung."
+          "de": "Meine Schwester ist noch jung.",
+          "lv": "Min søster er stadig ung."
         },
         {
-          "de": "Der Hund ist jung.",
-          "lv": "Hunden er ung."
+          "de": "Das ist ein junger Mann.",
+          "lv": "Det er en ung mand."
         },
         {
-          "de": "Wir sind noch jung.",
-          "lv": "Vi er stadig unge."
+          "de": "Er ist jünger als ich.",
+          "lv": "Han er yngre end mig."
         },
         {
-          "de": "Er sieht sehr jung aus.",
-          "lv": "Han ser meget ung ud."
+          "de": "Die jungen Leute tanzen.",
+          "lv": "De unge mennesker danser."
         },
         {
-          "de": "Das ist ein junges Paar.",
-          "lv": "Det er et nyt par."
+          "de": "Als junge Frau lebte sie in Riga.",
+          "lv": "Som ung kvinde boede hun i Riga."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "neu",
+          "meaning": "ny (om ting)",
+          "example": "Das Auto ist neu. – Bilen er ny."
         },
         {
-          "de": "Die junge Frau lächelt.",
-          "lv": "Den unge kvinde smiler."
+          "word": "alt",
+          "meaning": "gammel",
+          "example": "Mein Opa ist alt. – Min bedstefar er gammel."
         },
         {
-          "de": "Mein Bruder ist jünger als ich.",
-          "lv": "Min bror er yngre end mig."
+          "word": "klein",
+          "meaning": "lille",
+          "example": "Das Kind ist noch klein. – Barnet er stadig lille."
         }
       ],
       "tip": [
-        "jung handler om alder (mennesker, dyr) - når du taler om ting, der for nylig er blevet skabt, så brug neu.",
-        "Modsat: jung ↔ alt (ung ↔ gammel)."
+        "Jung = mennesker, dyr; neu = ting, nyheder: ein junger Hund, ein neues Handy.",
+        "Husk omlyden: jung → jünger → am jüngsten."
       ],
       "important": [
-        "jung beskriver alder, ikke tingenes nyheder.",
-        "Til nye ting (telefon, bil, hus) brug neu i stedet for jung.",
-        "Forkert: Mein Handy ist jung. → Korrekt: Mein Handy ist neu."
+        "Brug ikke jung om ting – sig neu.",
+        "Komparativ har altid omlyd: jünger, ikke “junger”."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "jung",
+            "junger",
+            "junge",
+            "jünger",
+            "am jüngsten",
+            "alt"
+          ],
           "purple": [
-            "Hovedidé"
+            "ung"
           ]
         },
         "examples": [
@@ -10219,65 +11946,19 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Hun"
+                "ung"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "jung"
+                "junger"
               ]
             },
             "lv": {
               "purple": [
-                "Hunden"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "jung"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "stadig"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "jung"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Han"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": []
-            },
-            "lv": {
-              "purple": [
-                "Det"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "junge"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Den"
+                "ung"
               ]
             }
           },
@@ -10289,40 +11970,80 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Min"
+                "yngre"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "jungen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "unge"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "junge"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ung"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "neu"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ny"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "alt"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "gammel"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "klein"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "lille"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "alt"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "blue": [
-              "jung"
-            ]
-          },
-          {
-            "green": [
-              "neu"
-            ],
-            "blue": [
-              "jung"
-            ]
-          },
-          {
-            "blue": [
-              "jung"
-            ],
-            "green": [
-              "neu"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -10353,28 +12074,18 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Ingen • Intet",
       "explanation": [
-        "Hovedidé: kein er en negationsartikel, der negerer et substantiv - dansk, afhængigt af konteksten, ingen eller intet.",
-        "Kein bøjes som ein (kein/keine/keinen...) og står foran et substantiv.",
-        "Med tællelige navneord (mennesker) oversættes kein ofte med ingen (kein Mensch = intet menneske).",
-        "Med uforpligtende eller abstrakte navneord oversættes kein ofte med ingenting/slet ikke (kein Geld = ingen penge/ingen penge).",
-        "Kein afviser et helt navneord, ikke kun et verbum (sammenlign nicht)."
+        "Hovedidé: kein er nægtelsen af navneord, der ellers ville have den ubestemte artikel ein eller slet ingen artikel. På dansk svarer det til “ingen, intet” eller “ikke nogen”: Ich habe kein Auto – jeg har ingen bil; Er hat keine Zeit – han har ikke tid.",
+        "Kein bøjes som ein: kein Mann, keine Frau, kein Kind, i flertal keine Kinder. I akkusativ: keinen Mann, i dativ: keinem Kind.",
+        "Det bruges ofte med haben og es gibt: Es gibt keinen Zucker. Udsagnsord, tillægsord og biord nægtes med nicht, ikke med kein."
       ],
       "examples": [
         {
-          "de": "Ich habe kein Geld.",
-          "lv": "Jeg har ikke penge"
-        },
-        {
-          "de": "Es gibt keine Milch mehr.",
-          "lv": "Der er slet ikke mere mælk."
-        },
-        {
-          "de": "Kein Mensch war da.",
-          "lv": "Ingen var der."
-        },
-        {
           "de": "Ich habe keine Zeit.",
-          "lv": "Jeg har ikke tid"
+          "lv": "Jeg har ikke tid."
+        },
+        {
+          "de": "Er hat keinen Hund.",
+          "lv": "Han har ingen hund."
         },
         {
           "de": "Das ist kein Problem.",
@@ -10383,33 +12094,84 @@ const A1_WORDS = [
         {
           "de": "Wir haben keine Kinder.",
           "lv": "Vi har ingen børn."
+        },
+        {
+          "de": "Heute gibt es keinen Kaffee.",
+          "lv": "I dag er der ingen kaffe."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "nicht",
+          "meaning": "ikke (handling, egenskab)",
+          "example": "Ich arbeite nicht. – Jeg arbejder ikke."
+        },
+        {
+          "word": "nichts",
+          "meaning": "intet, ingenting",
+          "example": "Ich sehe nichts. – Jeg ser ingenting."
+        },
+        {
+          "word": "niemand",
+          "meaning": "ingen (person)",
+          "example": "Niemand ist hier. – Der er ingen her."
         }
       ],
       "tip": [
-        "kein fornægter et substantiv (kein + substantiv), nicht negerer et verbum eller en klausul.",
-        "kein bøjes som ein: kein/keine/keinen/keiner."
+        "Hvis sætningen ville have “ein” eller ingen artikel, nægter man med kein: Ich habe ein Auto → Ich habe kein Auto.",
+        "Ved udsagnsord, tillægsord eller bestemt artikel (der, die) bruger man nicht."
       ],
       "important": [
-        "kein + substantiv = 'der er ingen/intet X', ikke 'nicht ein X'.",
-        "Forkert: Ich have nicht ein Geld. → Korrekt: Ich habe kein Geld."
+        "Ved navneord med bestemt artikel nægter man med nicht: Ich sehe das Auto nicht.",
+        "Typisk fejl: “Ich bin kein müde” er forkert – det skal være Ich bin nicht müde."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "kein",
+            "keine",
+            "keinen",
+            "keinem"
+          ],
           "purple": [
-            "Hovedidé",
-            "Hovedidé"
+            "ingen",
+            "intet"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
+                "keine"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ikke"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "keinen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ingen"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
                 "kein"
               ]
             },
             "lv": {
               "purple": [
-                "Jeg"
+                "ikke noget"
               ]
             }
           },
@@ -10421,88 +12183,68 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Der"
+                "ingen"
               ]
             }
           },
           {
             "de": {
+              "blue": [
+                "keinen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ingen"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
               "green": [
-                "Kein"
+                "nicht"
               ]
             },
-            "lv": {
+            "meaning": {
               "purple": [
-                "Ingen"
+                "ikke"
               ]
             }
           },
           {
-            "de": {
-              "blue": [
-                "keine"
+            "word": {
+              "green": [
+                "nichts"
               ]
             },
-            "lv": {
+            "meaning": {
               "purple": [
-                "Jeg"
+                "intet, ingenting"
               ]
             }
           },
           {
-            "de": {
-              "blue": [
-                "kein"
+            "word": {
+              "green": [
+                "niemand"
               ]
             },
-            "lv": {
+            "meaning": {
               "purple": [
-                "Det"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "keine"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "har"
+                "ingen"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "blue": [
-              "kein"
-            ],
-            "green": [
-              "nicht"
-            ]
-          },
-          {
-            "blue": [
-              "kein/keine/keinen/keiner"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "blue": [
-              "kein"
-            ]
-          },
-          {
-            "red": [
-              "nicht ein Geld"
-            ],
-            "blue": [
-              "kein Geld"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -10511,71 +12253,84 @@ const A1_WORDS = [
     "de": "Keks",
     "de_article": "der",
     "de_plural": "die Kekse",
-    "lv": "Cookie",
+    "lv": "Småkage • Kiks",
     "level": "A1"
   },
   {
     "de": "kennen",
-    "lv": "At vide",
+    "lv": "At kende",
     "level": "A1",
     "id": "a1-kennen",
     "study": {
       "id": "a1-kennen-study",
       "layout": "standardStudy",
-      "translation": "At vide",
+      "translation": "At kende",
       "explanation": [
-        "Hovedidé: At kende en person, et sted eller en ting af erfaring.",
-        "Kennen betyder primært: personligt bekendtskab.",
-        "Beskriver ofte: mennesker, steder.",
-        "Kennen bruges, når du kender en person, et sted eller en ting fra personlig erfaring."
+        "Hovedidé: kennen betyder “kende” – være bekendt med en person, et sted eller en ting, men ikke at vide en kendsgerning. Ich kenne Anna – jeg kender Anna.",
+        "Former: kennt, kannte, hat gekannt. Altid med akkusativ: jemanden/etwas kennen. I datid skifter selvlyden: kennen → kannte (med a).",
+        "Forskellen til wissen svarer til dansk kende og vide: kennen – kende en person/et sted, wissen – vide en kendsgerning: Ich kenne ihn, men Ich weiß, dass er Arzt ist."
       ],
       "examples": [
         {
-          "de": "Ich kenne ihn.",
-          "lv": "Jeg kender ham."
+          "de": "Ich kenne diesen Mann nicht.",
+          "lv": "Jeg kender ikke denne mand."
         },
         {
-          "de": "Kennen Sie diese Frau?",
-          "lv": "Kender du denne kvinde"
+          "de": "Kennst du Berlin?",
+          "lv": "Kender du Berlin?"
         },
         {
-          "de": "Wo habt ihr euch kennengelernt?",
-          "lv": "Hvor mødtes du?"
+          "de": "Wir kennen uns seit drei Jahren.",
+          "lv": "Vi har kendt hinanden i tre år."
         },
         {
-          "de": "Ich kenne ihn.",
-          "lv": "Jeg kender ham"
+          "de": "Er kennt die Regeln.",
+          "lv": "Han kender reglerne."
         },
         {
-          "de": "kennen",
-          "lv": "At kende wissen"
+          "de": "Sie kannte viele Leute in der Stadt.",
+          "lv": "Hun kendte mange mennesker i byen."
         }
       ],
       "comparison": [
         {
-          "word": "kennen",
-          "meaning": "Kend (person, sted, ting)",
-          "example": "Ich kenne ihn. – Jeg kender ham."
+          "word": "wissen",
+          "meaning": "vide (en kendsgerning)",
+          "example": "Ich weiß die Antwort. – Jeg ved, hvad svaret er."
         },
         {
-          "word": "wissen",
-          "meaning": "Kend (fakta, information)",
-          "example": "Ich weiß seinen Namen. – Jeg kender hans navn."
+          "word": "können",
+          "meaning": "kunne",
+          "example": "Ich kann Deutsch. – Jeg kan tysk."
+        },
+        {
+          "word": "kennenlernen",
+          "meaning": "lære at kende",
+          "example": "Wir lernen ihn kennen. – Vi lærer ham at kende."
         }
       ],
       "tip": [
-        "kende = at vide",
-        "Brug kennen, når konteksten passer til denne betydning."
+        "Kennen = kende en person eller et sted; wissen = vide en kendsgerning eller et svar.",
+        "Lær tidsformerne samlet: kennen – kannte – gekannt."
       ],
       "important": [
-        "kennen = at kende en person/sted.",
-        "kende = at vide.",
-        "At kende en person, et sted eller en ting af erfaring."
+        "Kennen bruges ikke med en dass-sætning: “Ich kenne, dass…” er forkert; brug wissen.",
+        "Kennen og können udtales og staves næsten ens – byt ikke rundt på dem."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "kennen",
+            "kennt",
+            "kannte",
+            "gekannt",
+            "wissen",
+            "Ich kenne ihn"
+          ],
           "purple": [
-            "Hovedidé"
+            "kende",
+            "kender",
+            "vide"
           ]
         },
         "examples": [
@@ -10587,64 +12342,104 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Jeg"
+                "kender"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "kennen",
-                "kennen"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": []
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "kenne"
+                "Kennst"
               ]
             },
             "lv": {
               "purple": [
-                "Jeg"
+                "Kender"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "kennen",
                 "kennen"
               ]
             },
             "lv": {
               "purple": [
-                "kende"
+                "kendt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "kennt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kender"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "kannte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kendte"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "wissen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "vide"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "können"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "kunne"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "kennenlernen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "lære at kende"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "kennen"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "blue": [
-              "kennen"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -10659,88 +12454,179 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "At vide",
       "explanation": [
-        "Hovedidé: At kende et faktum, svar eller information.",
-        "Wissen betyder hovedsageligt: viden, information eller fakta.",
-        "Ofte præget af: svar, data.",
-        "Wissen bruges, når du kender et faktum, svar eller information."
+        "Hovedidé: wissen betyder “vide” – kende til en kendsgerning, en oplysning eller et svar, man har lært eller fået at vide. Ich weiß die Antwort – jeg ved, hvad svaret er.",
+        "Formerne er uregelmæssige: ich weiß, du weißt, er/sie/es weiß, wir wissen; datid wusste, førnutid hat gewusst. Det bruges ofte med en dass-sætning eller et spørgeord: Ich weiß, dass… / Weißt du, wo…?",
+        "Forskel fra kennen: wissen – en kendsgerning, kennen – kende en person eller et sted. Præcis som dansk vide og kende."
       ],
       "examples": [
         {
-          "de": "Ich weiß, wo er wohnt.",
-          "lv": "Jeg ved, hvor han bor."
+          "de": "Ich weiß die Antwort nicht.",
+          "lv": "Jeg ved ikke, hvad svaret er."
         },
         {
-          "de": "Woher wissen Sie das?",
-          "lv": "Hvordan ved du det?"
+          "de": "Weißt du, wo er wohnt?",
+          "lv": "Ved du, hvor han bor?"
         },
         {
-          "de": "Ich weiß die Antwort.",
-          "lv": "Jeg kender svaret."
+          "de": "Er weiß alles über Autos.",
+          "lv": "Han ved alt om biler."
+        },
+        {
+          "de": "Wir wissen es schon.",
+          "lv": "Det ved vi allerede."
+        },
+        {
+          "de": "Ich wusste nicht, dass du hier bist.",
+          "lv": "Jeg vidste ikke, at du var her."
         }
       ],
       "comparison": [
         {
-          "word": "wissen",
-          "meaning": "Kend (fakta, information)",
-          "example": "Ich weiß, wo er wohnt. – Jeg ved, hvor han bor."
+          "word": "kennen",
+          "meaning": "kende",
+          "example": "Ich kenne ihn. – Jeg kender ham."
         },
         {
-          "word": "kennen",
-          "meaning": "Kend (person, sted, ting)",
-          "example": "Ich kenne die Stadt. – Jeg kender byen."
+          "word": "können",
+          "meaning": "kunne",
+          "example": "Er kann schwimmen. – Han kan svømme."
+        },
+        {
+          "word": "erfahren",
+          "meaning": "få at vide, erfare",
+          "example": "Ich habe es gestern erfahren. – Jeg fik det at vide i går."
         }
       ],
       "tip": [
-        "wissen = at vide",
-        "Brug wissen, når sammenhængen passer til denne betydning."
+        "Ich weiß – 1. og 3. person ental har ingen endelse (ikke “ich wisse”); lær den som en særlig form.",
+        "Weißt eller kennst? Følger der en person eller et sted → kennen; følger der en kendsgerning → wissen."
       ],
       "important": [
-        "wissen = kende kendsgerningen.",
-        "wissen = at vide.",
-        "Kend et faktum, svar eller information."
+        "Uregelmæssig nutid: weiß, ikke “wisse”/“wisst” (wisst er kun ihr-formen).",
+        "Efter wissen kommer ofte en ledsætning med dass, ob, wo, was – i den står udsagnsordet til sidst."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "wissen",
+            "weiß",
+            "weißt",
+            "wusste",
+            "gewusst",
+            "kennen"
+          ],
           "purple": [
-            "Hovedidé"
+            "vide",
+            "ved"
           ]
         },
         "examples": [
           {
-            "de": {},
-            "lv": {}
+            "de": {
+              "blue": [
+                "weiß"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ved"
+              ]
+            }
           },
           {
             "de": {
-              "green": [
-                "wissen",
+              "blue": [
+                "Weißt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Ved"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "weiß"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ved"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
                 "wissen"
               ]
             },
             "lv": {
               "purple": [
-                "Hvordan"
+                "ved"
               ]
             }
           },
           {
-            "de": {},
-            "lv": {}
+            "de": {
+              "blue": [
+                "wusste"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vidste"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "kennen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "kende"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "können"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "kunne"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "erfahren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "få at vide, erfare"
+              ]
+            }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "wissen"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "green": [
-              "wissen"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -10763,7 +12649,7 @@ const A1_WORDS = [
     "de": "Kind",
     "de_article": "das",
     "de_plural": "die Kinder",
-    "lv": "Et barn",
+    "lv": "Barn",
     "level": "A1"
   },
   {
@@ -10792,26 +12678,25 @@ const A1_WORDS = [
   },
   {
     "de": "können",
-    "lv": "kunne",
+    "lv": "At kunne",
     "level": "A1",
     "study": {
       "id": "a1-können",
       "layout": "standardStudy",
-      "translation": "kunne",
+      "translation": "At kunne",
       "explanation": [
-        "können betyder at kunne eller være i stand til noget.",
-        "Det bruges om både evne og mulighed.",
-        "können er et modalverbum, så det andet verbum normalt står sidst.",
-        "På dansk gengives det normalt med „kunne“."
+        "Hovedidé: können (kunne) er et mådesudsagnsord. Det udtrykker evne (Er kann schwimmen – han kan svømme), mulighed (Wir können heute kommen – vi kan komme i dag) og anmodning (Kannst du mir helfen? – Kan du hjælpe mig?).",
+        "Former: ich kann, du kannst, er/sie/es kann, wir können, ihr könnt, sie können; datid konnte, førnutid hat gekonnt. Det andet udsagnsord står i navnemåde sidst i sætningen: Ich kann heute nicht kommen.",
+        "Om sprog og færdigheder kan können også stå uden et andet udsagnsord – ligesom på dansk: Ich kann Deutsch (jeg kan tysk)."
       ],
       "examples": [
         {
           "de": "Ich kann Deutsch sprechen.",
-          "lv": "Jeg kan tale tysk"
+          "lv": "Jeg kan tale tysk."
         },
         {
           "de": "Kannst du mir helfen?",
-          "lv": "Kan du hjælpe mig"
+          "lv": "Kan du hjælpe mig?"
         },
         {
           "de": "Wir können heute kommen.",
@@ -10819,271 +12704,72 @@ const A1_WORDS = [
         },
         {
           "de": "Er kann gut schwimmen.",
-          "lv": "Han kan godt svømme."
+          "lv": "Han kan svømme godt."
+        },
+        {
+          "de": "Sie kann leider nicht kommen.",
+          "lv": "Hun kan desværre ikke komme."
         }
       ],
       "comparison": [
         {
-          "word": "können",
-          "meaning": "kunne",
-          "example": "Ich kann schwimmen. = Jeg kan svømme."
-        },
-        {
           "word": "dürfen",
-          "meaning": "At få lov",
-          "example": "Darf ich gehen? = Må jeg gå?"
+          "meaning": "måtte, have lov til",
+          "example": "Hier darf man nicht rauchen. – Her må man ikke ryge."
         },
         {
           "word": "müssen",
-          "meaning": "skulle / være nødt til",
-          "example": "Ich muss lernen. = Jeg skal lære."
+          "meaning": "skulle, være nødt til",
+          "example": "Ich muss arbeiten. – Jeg skal arbejde."
         },
         {
-          "word": "wissen",
-          "meaning": "At vide",
-          "example": "Ich weiß das. = Jeg ved det."
+          "word": "kennen",
+          "meaning": "kende",
+          "example": "Ich kenne ihn. – Jeg kender ham."
         }
       ],
-      "tip": {
-        "text": "Husk: dygtighed/evne → können."
-      },
+      "tip": [
+        "Ich kann, er kann – i 1. og 3. person ental er der ingen endelse.",
+        "At kunne noget (et sprog, et spil) kan også udtrykkes uden udsagnsord: Kannst du Schach? – Kan du spille skak?"
+      ],
       "important": [
-        "können = kunne; dürfen = måtte / have lov.",
-        "I en sætning med können kommer det andet verbum ofte til sidst: Ich kann schwimmen."
+        "Bland ikke können og kennen sammen: können – kunne, kennen – kende.",
+        "I førnutid bruger mådesudsagnsord normalt erstatningsformen: Ich habe nicht kommen können (navnemåde til sidst)."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "können"
-          ]
-        },
-        "examples": [
-          {
-            "de": {
-              "blue": []
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": []
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "können"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": []
-            },
-            "lv": {}
-          }
-        ],
-        "comparison": [
-          {
-            "word": {
-              "green": [
-                "können"
-              ]
-            },
-            "meaning": {},
-            "example": {}
-          },
-          {
-            "word": {
-              "green": [
-                "dürfen"
-              ]
-            },
-            "meaning": {},
-            "example": {}
-          },
-          {
-            "word": {
-              "green": [
-                "müssen"
-              ]
-            },
-            "meaning": {},
-            "example": {}
-          },
-          {
-            "word": {
-              "green": [
-                "wissen"
-              ]
-            },
-            "meaning": {},
-            "example": {}
-          }
-        ],
-        "tip": {
-          "left": {}
-        },
-        "important": [
-          {},
-          {}
-        ]
-      }
-    }
-  },
-  {
-    "de": "kosten",
-    "lv": "At betale",
-    "level": "A1",
-    "study": {
-      "id": "a1-kosten",
-      "layout": "standardStudy",
-      "translation": "At betale",
-      "explanation": [
-        "Hovedidé: kosten betyder at betale sådan og sådan - taler om prisen på en ting.",
-        "Dette ord bruges, når man spørger eller siger, hvor meget noget koster, ikke når en person foretager en betaling.",
-        "Et prisspørgsmål på tysk begynder ofte med Var kostet...?",
-        "Det danske ord at betale er korrekt i denne sammenhæng: Das kostet 5 Euro. = Det koster 5 euro.",
-        "Når en person giver penge for en vare eller tjeneste, bruger tysk bezahlen eller zahlen."
-      ],
-      "examples": [
-        {
-          "de": "Das kostet 5 Euro.",
-          "lv": "Det koster 5 euro."
-        },
-        {
-          "de": "Was kostet das?",
-          "lv": "Hvor meget koster det"
-        },
-        {
-          "de": "Wie viel kostet der Pullover?",
-          "lv": "Hvor meget koster en sweater?"
-        },
-        {
-          "de": "Das Essen kostet nicht viel.",
-          "lv": "Maden koster ikke meget."
-        },
-        {
-          "de": "Ich bezahle die Rechnung.",
-          "lv": "Jeg betaler regningen"
-        },
-        {
-          "de": "Kann ich bar bezahlen?",
-          "lv": "Kan jeg betale kontant"
-        },
-        {
-          "de": "Er zahlt mit Karte.",
-          "lv": "Han betaler med kort."
-        },
-        {
-          "de": "Ich zahle gleich.",
-          "lv": "Jeg betaler nu"
-        }
-      ],
-      "comparison": [
-        {
-          "word": "kosten",
-          "meaning": "Betal (pris) • Hvor meget",
-          "example": "Das kostet 5 Euro. = Det koster 5 euro."
-        },
-        {
-          "word": "bezahlen",
-          "meaning": "Betal • Betal (penge)",
-          "example": "Ich bezahle die Rechnung. = Jeg betaler regningen."
-        },
-        {
-          "word": "zahlen",
-          "meaning": "At betale • At betale",
-          "example": "Kann ich bar zahlen? = Kan jeg betale kontant?"
-        },
-        {
-          "word": "Was kostet...?",
-          "meaning": "Hvor meget koster det...?",
-          "example": "Was kostet das Buch? = Hvad koster bogen?"
-        }
-      ],
-      "tip": [
-        "Husk: spørgsmål om pris → kosten (Was kostet das?).",
-        "Husk: at foretage en betaling → bezahlen / zahlen (Ich bezahle die Rechnung.)."
-      ],
-      "important": [
-        "kosten og bezahlen er ikke synonyme: kosten = hvor meget det koster; bezahlen = tjene penge.",
-        "på dansk bruges i begge tilfælde ofte til at betale, men på tysk skal man vælge efter situationen."
-      ],
-      "sectionAccents": {
-        "explanation": {
+            "können",
+            "kann",
+            "Kannst",
+            "kannst",
+            "könnt",
+            "konnte",
+            "gekonnt"
+          ],
           "purple": [
-            "Hovedidé",
-            "Hovedidé"
+            "kunne",
+            "kan",
+            "Kan"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "kostet"
+                "kann"
               ]
             },
             "lv": {
               "purple": [
-                "Det"
+                "kan"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "kostet"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Hvor"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "kostet"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Hvor"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "kostet"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Maden"
-              ]
-            }
-          },
-          {
-            "de": {
-              "yellow": [
-                "bezahle"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Jeg"
-              ]
-            }
-          },
-          {
-            "de": {
-              "yellow": [
-                "bezahlen"
+                "Kannst"
               ]
             },
             "lv": {
@@ -11094,25 +12780,37 @@ const A1_WORDS = [
           },
           {
             "de": {
-              "yellow": [
-                "zahlt"
+              "blue": [
+                "können"
               ]
             },
             "lv": {
               "purple": [
-                "Han"
+                "kan"
               ]
             }
           },
           {
             "de": {
-              "yellow": [
-                "zahle"
+              "blue": [
+                "kann"
               ]
             },
             "lv": {
               "purple": [
-                "Jeg"
+                "kan"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "kann"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kan"
               ]
             }
           }
@@ -11121,25 +12819,189 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "kosten"
+                "dürfen"
               ]
             },
             "meaning": {
               "purple": [
-                "Betal",
-                "Betal",
-                "Betal"
-              ]
-            },
-            "example": {
-              "blue": [
-                "kostet"
-              ],
-              "purple": [
-                "Das"
+                "måtte, have lov til"
               ]
             }
           },
+          {
+            "word": {
+              "green": [
+                "müssen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "skulle, være nødt til"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "kennen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "kende"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
+    }
+  },
+  {
+    "de": "kosten",
+    "lv": "At koste",
+    "level": "A1",
+    "study": {
+      "id": "a1-kosten",
+      "layout": "standardStudy",
+      "translation": "At koste",
+      "explanation": [
+        "Hovedidé: kosten betyder “koste” om den pris, en vare eller en tjenesteydelse har: Das kostet fünf Euro – det koster fem euro. Grundleddet er en ting, ikke en person.",
+        "Former: kostet, kostete, hat gekostet. Spørgsmål om pris: Was kostet das? (Hvad koster det?), Wie viel kostet der Pullover? I flertal: Die Schuhe kosten 60 Euro.",
+        "Den person, det koster, står i akkusativ: Das kostet mich zehn Euro. I overført betydning kan kosten også betyde “kræve” tid eller kræfter: Das kostet viel Zeit."
+      ],
+      "examples": [
+        {
+          "de": "Das kostet fünf Euro.",
+          "lv": "Det koster fem euro."
+        },
+        {
+          "de": "Was kostet das?",
+          "lv": "Hvad koster det?"
+        },
+        {
+          "de": "Wie viel kostet der Pullover?",
+          "lv": "Hvad koster sweateren?"
+        },
+        {
+          "de": "Die Schuhe kosten sechzig Euro.",
+          "lv": "Skoene koster tres euro."
+        },
+        {
+          "de": "Das kostet mich viel Zeit.",
+          "lv": "Det koster mig meget tid."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "bezahlen",
+          "meaning": "betale",
+          "example": "Ich bezahle die Rechnung. – Jeg betaler regningen."
+        },
+        {
+          "word": "zahlen",
+          "meaning": "betale (om en person)",
+          "example": "Wir zahlen bar. – Vi betaler kontant."
+        },
+        {
+          "word": "kaufen",
+          "meaning": "købe",
+          "example": "Ich kaufe ein Brot. – Jeg køber et brød."
+        }
+      ],
+      "tip": [
+        "Kosten – tingens pris, zahlen/bezahlen – personen betaler: Der Kaffee kostet drei Euro, ich bezahle ihn.",
+        "Man spørger om prisen: Was kostet…? eller Wie viel kostet…?"
+      ],
+      "important": [
+        "Navneordet die Kosten (flertal) betyder “omkostninger”; kosten som udsagnsord betyder “koste”.",
+        "Kosten kan også betyde “smage på” (Willst du die Suppe kosten?), men i hverdagen bruger man probieren."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "kosten",
+            "kostet",
+            "kostete",
+            "gekostet",
+            "Was kostet das?"
+          ],
+          "purple": [
+            "koste",
+            "koster",
+            "kræve"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "kostet"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "koster"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "kostet"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "koster"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "kostet"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "koster"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "kosten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "koster"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "kostet"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "koster"
+              ]
+            }
+          }
+        ],
+        "comparison": [
           {
             "word": {
               "green": [
@@ -11148,75 +13010,42 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Betal",
-                "Betal"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "bezahle"
-              ],
-              "purple": [
-                "Ich"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "zahlen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "betale",
                 "betale"
               ]
-            },
-            "example": {
-              "yellow": [
+            }
+          },
+          {
+            "word": {
+              "green": [
                 "zahlen"
-              ],
+              ]
+            },
+            "meaning": {
               "purple": [
-                "Kann"
+                "betale"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "Was kostet"
+                "kaufen"
               ]
             },
             "meaning": {
               "purple": [
-                "Hvor"
-              ]
-            },
-            "example": {
-              "blue": [
-                "kostet"
-              ],
-              "purple": [
-                "Was"
+                "købe"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "Husk"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "purple": [
-              "kosten",
-              "kosten"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -11254,14 +13083,14 @@ const A1_WORDS = [
     "de": "Huhn",
     "de_article": "das",
     "de_plural": "die Hühner",
-    "lv": "Kylling",
+    "lv": "Høne",
     "level": "A1"
   },
   {
     "de": "Hund",
     "de_article": "der",
     "de_plural": "die Hunde",
-    "lv": "En hund",
+    "lv": "Hund",
     "level": "A1"
   },
   {
@@ -11329,7 +13158,7 @@ const A1_WORDS = [
     "de": "Kleid",
     "de_article": "das",
     "de_plural": "die Kleider",
-    "lv": "En kjole",
+    "lv": "Kjole",
     "level": "A1"
   },
   {
@@ -11349,21 +13178,21 @@ const A1_WORDS = [
     "de": "Koch",
     "de_article": "der",
     "de_plural": "die Köche",
-    "lv": "Lave mad",
+    "lv": "Kok",
     "level": "A1"
   },
   {
     "de": "Köchin",
     "de_article": "die",
     "de_plural": "die Köchinnen",
-    "lv": "Lave mad",
+    "lv": "Kok",
     "level": "A1"
   },
   {
     "de": "Kopf",
     "de_article": "der",
     "de_plural": "die Köpfe",
-    "lv": "Hovedet",
+    "lv": "Hoved",
     "level": "A1"
   },
   {
@@ -11391,7 +13220,7 @@ const A1_WORDS = [
     "de": "Kuh",
     "de_article": "die",
     "de_plural": "die Kühe",
-    "lv": "En ko",
+    "lv": "Ko",
     "level": "A1"
   },
   {
@@ -11405,56 +13234,76 @@ const A1_WORDS = [
     "de": "Kuss",
     "de_article": "der",
     "de_plural": "die Küsse",
-    "lv": "Et kys",
+    "lv": "Kys",
     "level": "A1"
   },
   {
     "de": "Laden",
     "de_article": "der",
     "de_plural": "die Läden",
-    "lv": "butik",
+    "lv": "Butik",
     "level": "A1",
     "study": {
       "id": "a1-laden-study",
       "layout": "standardStudy",
-      "translation": "butik",
+      "translation": "Butik",
       "explanation": [
-        "der Laden med stort L er et navneord: en mindre butik.",
-        "laden med lille l er et verbum: at læsse eller oplade.",
-        "im Laden einkaufen = at handle i en butik.",
-        "Flertal: die Läden."
+        "Hovedidé: der Laden er et hankønsnavneord – en (mindre) butik, hvor man køber varer. Flertal er die Läden (med omlyd).",
+        "Brug: in den Laden gehen (gå i butikken), im Laden einkaufen (handle i butikken). I sammensætninger: Blumenladen (blomsterbutik), Bioladen, Schreibwarenladen. Et stort supermarked hedder Supermarkt.",
+        "Der Fensterladen (flertal die Fensterläden) er en vinduesskodde. Udsagnsordet laden (læsse, oplade) staves på samme måde, men er et udsagnsord: Ich lade mein Handy. Og pas på: Laden har intet med dansk “lade” at gøre."
       ],
       "examples": [
         {
           "de": "Ich gehe in den Laden.",
-          "lv": "Jeg går ind i butikken."
+          "lv": "Jeg går ned i butikken."
         },
         {
-          "de": "Der Laden ist geschlossen.",
-          "lv": "Butikken er lukket."
+          "de": "Der Laden ist heute geschlossen.",
+          "lv": "Butikken er lukket i dag."
         },
         {
-          "de": "Es gibt viele Läden hier.",
-          "lv": "Her er mange butikker."
+          "de": "In dieser Straße gibt es viele Läden.",
+          "lv": "I denne gade er der mange butikker."
         },
         {
-          "de": "Ich muss mein Handy laden.",
-          "lv": "Jeg skal oplade min telefon."
+          "de": "Der Blumenladen öffnet um neun Uhr.",
+          "lv": "Blomsterbutikken åbner klokken ni."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "das Geschäft",
+          "meaning": "forretning, butik; handel",
+          "example": "Das Geschäft ist groß. – Forretningen er stor."
+        },
+        {
+          "word": "der Supermarkt",
+          "meaning": "supermarked",
+          "example": "Der Supermarkt ist billig. – Supermarkedet er billigt."
+        },
+        {
+          "word": "der Kiosk",
+          "meaning": "kiosk",
+          "example": "Am Kiosk gibt es Zeitungen. – I kiosken kan man købe aviser."
         }
       ],
       "tip": [
-        "der Laden → navneord (butik).",
-        "laden → verbum (at læsse / oplade)."
+        "Der Laden er et dagligdags ord i talesprog; das Geschäft er mere neutralt.",
+        "Spørg: Wo ist der nächste Laden? – Hvor er den nærmeste butik?"
       ],
       "important": [
-        "der Laden = butik (navneord).",
-        "laden = at læsse eller oplade (verbum).",
-        "Flertal: die Läden."
+        "Der Laden (hankøn, die Läden) og laden (udsagnsord) er to forskellige ord.",
+        "I flertal har ordet altid omlyd: die Läden, ikke “die Laden”."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "Laden"
+            "Laden",
+            "Läden"
+          ],
+          "purple": [
+            "butik",
+            "butikken"
           ]
         },
         "examples": [
@@ -11464,7 +13313,11 @@ const A1_WORDS = [
                 "Laden"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "butikken"
+              ]
+            }
           },
           {
             "de": {
@@ -11472,7 +13325,11 @@ const A1_WORDS = [
                 "Laden"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Butikken"
+              ]
+            }
           },
           {
             "de": {
@@ -11480,15 +13337,61 @@ const A1_WORDS = [
                 "Läden"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "butikker"
+              ]
+            }
           },
           {
             "de": {
               "blue": [
-                "laden"
+                "Blumenladen"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Blomsterbutikken"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "das Geschäft"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "forretning, butik"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Supermarkt"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "supermarked"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Kiosk"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "kiosk"
+              ]
+            }
           }
         ],
         "tip": [
@@ -11496,7 +13399,6 @@ const A1_WORDS = [
           {}
         ],
         "important": [
-          {},
           {},
           {}
         ]
@@ -11514,17 +13416,16 @@ const A1_WORDS = [
     "de": "Land",
     "de_article": "das",
     "de_plural": "die Länder",
-    "lv": "land • landdistrikt",
+    "lv": "Land",
     "level": "A1",
     "study": {
       "id": "a1-land",
       "layout": "standardStudy",
-      "translation": "land • landdistrikt",
+      "translation": "Land",
       "explanation": [
-        "das Land kan betyde et land eller landdistriktet uden for byen.",
-        "Ved et territorium med grænser betyder det „land“.",
-        "I modsætning til byen betyder auf dem Land „på landet“.",
-        "Konteksten afgør betydningen."
+        "Hovedidé: das Land er et intetkønsnavneord med flere betydninger: land/stat (Deutschland ist ein Land), landet i modsætning til byen (auf dem Land – på landet) og jord/landområde.",
+        "Flertal: die Länder (lande); historisk findes også die Lande, men det bruges sjældent. Udtryk: aufs Land fahren (tage ud på landet), auf dem Land leben (bo på landet), im Ausland / im Inland (i udlandet / i indlandet).",
+        "I Tyskland er et Bundesland en delstat. Jord (muld) eller gulv hedder der Boden, ikke das Land."
       ],
       "examples": [
         {
@@ -11532,51 +13433,61 @@ const A1_WORDS = [
           "lv": "Tyskland er et smukt land."
         },
         {
-          "de": "Ich komme aus einem kleinen Land.",
-          "lv": "Jeg kommer fra et lille land."
-        },
-        {
-          "de": "Wir fahren aufs Land.",
-          "lv": "Vi kører ud på landet."
+          "de": "Lettland ist ein kleines Land.",
+          "lv": "Letland er et lille land."
         },
         {
           "de": "Auf dem Land ist es ruhig.",
-          "lv": "Der er stille på landet."
+          "lv": "På landet er der roligt."
+        },
+        {
+          "de": "Wir fahren am Wochenende aufs Land.",
+          "lv": "Vi tager på landet i weekenden."
+        },
+        {
+          "de": "Welche Länder kennst du schon?",
+          "lv": "Hvilke lande kender du allerede?"
         }
       ],
       "comparison": [
         {
-          "word": "das Land",
-          "meaning": "land / landdistrikt",
-          "example": "Deutschland ist ein Land. – Tyskland er et land."
+          "word": "der Staat",
+          "meaning": "stat",
+          "example": "Der Staat zahlt die Schule. – Staten betaler for skolen."
+        },
+        {
+          "word": "der Boden",
+          "meaning": "jord; gulv",
+          "example": "Der Boden ist nass. – Gulvet er vådt."
         },
         {
           "word": "die Stadt",
           "meaning": "by",
           "example": "Ich wohne in der Stadt. – Jeg bor i byen."
-        },
-        {
-          "word": "das Dorf",
-          "meaning": "landsby",
-          "example": "Er lebt in einem Dorf. – Han bor i en landsby."
-        },
-        {
-          "word": "die Erde",
-          "meaning": "Jorden / planeten",
-          "example": "Die Erde ist rund. – Jorden er rund."
         }
       ],
-      "tip": {
-        "text": "Land som stat → das Land; området uden for byen → auf dem Land."
-      },
+      "tip": [
+        "Husk: das Land – die Länder; auf dem Land betyder “på landet”, men in einem Land “i et land”.",
+        "Modsætningen til by: die Stadt ≠ das Land."
+      ],
       "important": [
-        "aufs Land betyder „ud på landet“, ikke „til et land“.",
-        "das Land er ikke det samme som die Stadt."
+        "Das Land (område, landet) og der Staat (staten som institution) er ikke synonymer.",
+        "Flertal er normalt die Länder med omlyd; die Lande er sjældent og højtideligt."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "Land"
+            "Land",
+            "das Land",
+            "die Länder",
+            "auf dem Land",
+            "aufs Land",
+            "Bundesland"
+          ],
+          "purple": [
+            "land/stat",
+            "på landet",
+            "jord"
           ]
         },
         "examples": [
@@ -11586,7 +13497,11 @@ const A1_WORDS = [
                 "Land"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "land"
+              ]
+            }
           },
           {
             "de": {
@@ -11594,7 +13509,11 @@ const A1_WORDS = [
                 "Land"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "land"
+              ]
+            }
           },
           {
             "de": {
@@ -11602,26 +13521,61 @@ const A1_WORDS = [
                 "Land"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "På landet"
+              ]
+            }
           },
           {
             "de": {
               "blue": [
-                "Land"
+                "aufs Land"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "på landet"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Länder"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "lande"
+              ]
+            }
           }
         ],
         "comparison": [
           {
             "word": {
               "green": [
-                "das Land"
+                "der Staat"
               ]
             },
-            "meaning": {},
-            "example": {}
+            "meaning": {
+              "purple": [
+                "stat"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Boden"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "jord; gulv"
+              ]
+            }
           },
           {
             "word": {
@@ -11629,31 +13583,17 @@ const A1_WORDS = [
                 "die Stadt"
               ]
             },
-            "meaning": {},
-            "example": {}
-          },
-          {
-            "word": {
-              "green": [
-                "das Dorf"
+            "meaning": {
+              "purple": [
+                "by"
               ]
-            },
-            "meaning": {},
-            "example": {}
-          },
-          {
-            "word": {
-              "green": [
-                "die Erde"
-              ]
-            },
-            "meaning": {},
-            "example": {}
+            }
           }
         ],
-        "tip": {
-          "left": {}
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
           {},
           {}
@@ -11663,18 +13603,16 @@ const A1_WORDS = [
   },
   {
     "de": "lang",
-    "lv": "Lang • Lang",
+    "lv": "Lang",
     "level": "A1",
     "study": {
       "id": "a1-lang",
       "layout": "standardStudy",
-      "translation": "Lang • Lang",
+      "translation": "Lang",
       "explanation": [
-        "Hovedidé: lang rumligt betyder lang, tidsmæssigt lang.",
-        "Når det kommer til størrelse eller afstand, er lang = lang (ein langer Tisch = langbord).",
-        "Når det handler om tid, betyder lang \"lang\": ein langer Tag = en lang dag.",
-        "I sætningen den ganzen Tag lang betyder det hele dagen (i længden).",
-        "Engelsk 'lang' i forskellige sammenhænge er to forskellige ord, men tysk lang dækker begge betydninger."
+        "Hovedidé: lang betyder “lang” både om størrelse og om tid – Der Tisch ist lang, Der Film war sehr lang. Med tidsenheder: zwei Stunden lang – i to timer.",
+        "Komparativ: länger (længere), superlativ: am längsten. Biordet lange betyder “længe”: Ich warte schon lange. Foran navneord: eine lange Reise, lange Haare.",
+        "Spørgsmålet Wie lange dauert es? (Hvor længe varer det?) bruger lange, ikke lang – ligesom dansk skelner mellem lang og længe."
       ],
       "examples": [
         {
@@ -11682,38 +13620,60 @@ const A1_WORDS = [
           "lv": "Bordet er meget langt."
         },
         {
-          "de": "Der Film war sehr lang.",
-          "lv": "Filmen var meget lang."
-        },
-        {
-          "de": "Wie lange dauert es?",
-          "lv": "Hvor længe holder det"
+          "de": "Der Film war zwei Stunden lang.",
+          "lv": "Filmen var to timer lang."
         },
         {
           "de": "Sie hat lange Haare.",
           "lv": "Hun har langt hår."
         },
         {
-          "de": "Ich warte schon lange.",
-          "lv": "Jeg har ventet længe."
+          "de": "Das Seil ist drei Meter lang.",
+          "lv": "Rebet er tre meter langt."
         },
         {
-          "de": "Den ganzen Tag lang.",
-          "lv": "Hele dagen (i længden)."
+          "de": "Wir warten schon lange.",
+          "lv": "Vi har ventet længe."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "kurz",
+          "meaning": "kort",
+          "example": "Der Weg ist kurz. – Vejen er kort."
+        },
+        {
+          "word": "groß",
+          "meaning": "stor; høj (om personer)",
+          "example": "Er ist sehr groß. – Han er meget høj."
+        },
+        {
+          "word": "lange",
+          "meaning": "længe",
+          "example": "Er schläft lange. – Han sover længe."
         }
       ],
       "tip": [
-        "For størrelse eller afstand (hår, vej, bord) → lang.",
-        "Om tid (dag, ventetid, film) → lang."
+        "Lang (tillægsord) beskriver længde eller varighed; lange (biord) – hvor længe en handling varer.",
+        "Om personer siger man groß (høj), ikke lang."
       ],
       "important": [
-        "lang = lang (størrelse) ELLER lang (tid) - afhængig af konteksten.",
-        "wie lange = hvor længe (spørgsmål om tid, ikke størrelse)."
+        "Bland ikke lang og lange sammen: Ich warte lange (ikke “lang”).",
+        "Efter et navneord med tid står lang uden endelse: zwei Stunden lang."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "lang",
+            "lange",
+            "länger",
+            "am längsten",
+            "Wie lange dauert es?"
+          ],
           "purple": [
-            "lang"
+            "lang",
+            "længe",
+            "længere"
           ]
         },
         "examples": [
@@ -11725,55 +13685,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Bordet"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "lang"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Filmen"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "lange"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Hvor"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "lange"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Hun"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "lange"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Jeg"
+                "langt"
               ]
             }
           },
@@ -11785,29 +13697,92 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Hele"
+                "lang"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "lange"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "langt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "lang"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "langt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "lange"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "længe"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "kurz"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "kort"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "groß"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "stor; høj"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "lange"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "længe"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "blue": [
-              "For"
-            ]
-          },
-          {
-            "green": [
-              "For"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "purple": [
-              "lang"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -11829,70 +13804,76 @@ const A1_WORDS = [
   },
   {
     "de": "lassen",
-    "lv": "Forlad • Lad",
+    "lv": "At lade • At efterlade",
     "level": "A1",
     "study": {
       "id": "a1-lassen",
       "layout": "standardStudy",
-      "translation": "Forlad • Lad",
+      "translation": "At lade • At efterlade",
       "explanation": [
-        "Hovedidé: lassen betyder at forlade noget eller lade noget ske.",
-        "Hvis noget forbliver på plads, oversætter lassen som orlov.",
-        "Hvis du giver tilladelse til nogen, oversætter lassen som lad.",
-        "En meget hyppig form i samtale er Lass mich! = Lad mig være! eller lad mig!"
+        "Hovedidé: lassen er et udsagnsord med flere betydninger: 1) lade blive, efterlade (et sted): Ich lasse die Tasche hier; 2) lade, tillade: Meine Eltern lassen mich gehen; 3) få noget gjort (som regel af en anden): Ich lasse das Auto reparieren. Det svarer i høj grad til dansk “lade”.",
+        "Former: ich lasse, du lässt, er lässt; datid ließ, førnutid hat gelassen. Med en navnemåde hedder førnutid hat … lassen (ikke gelassen): Er hat mich gehen lassen. Bydemåde: Lass! / Lasst uns! (lad os …).",
+        "Med akkusativ: etwas lassen; med navnemåde (uden zu): jemanden etwas tun lassen. Ofte: Lass mich in Ruhe! – Lad mig være i fred!"
       ],
       "examples": [
         {
           "de": "Ich lasse die Tasche hier.",
-          "lv": "Jeg efterlod posen her"
+          "lv": "Jeg lader tasken blive her."
         },
         {
           "de": "Lass das bitte auf dem Tisch.",
-          "lv": "Lad det være på bordet, tak."
+          "lv": "Lad det ligge på bordet."
         },
         {
           "de": "Meine Eltern lassen mich gehen.",
-          "lv": "Mine forældre lod mig gå."
+          "lv": "Mine forældre lader mig gå."
         },
         {
           "de": "Lass mich in Ruhe!",
           "lv": "Lad mig være i fred!"
+        },
+        {
+          "de": "Er lässt sein Auto reparieren.",
+          "lv": "Han får sin bil repareret."
         }
       ],
       "comparison": [
         {
-          "word": "lassen",
-          "meaning": "Forlad / lad",
-          "example": "Ich lasse das hier. = Jeg efterlader det her."
-        },
-        {
-          "word": "bleiben",
-          "meaning": "Ophold",
-          "example": "Ich bleibe hier. = Jeg bliver her."
+          "word": "verlassen",
+          "meaning": "forlade",
+          "example": "Er verlässt die Stadt. – Han forlader byen."
         },
         {
           "word": "erlauben",
-          "meaning": "Tillade",
-          "example": "Sie erlaubt mir das. = Hun tillader mig det."
+          "meaning": "tillade",
+          "example": "Mein Vater erlaubt es. – Min far tillader det."
         },
         {
-          "word": "geben",
-          "meaning": "At give",
-          "example": "Gib mir das Buch. = Giv mig bogen."
+          "word": "zurücklassen",
+          "meaning": "efterlade",
+          "example": "Er lässt den Hund zurück. – Han efterlader hunden."
         }
       ],
-      "tip": {
-        "text": "Husk: noget bliver tilbage → lassen; nogen har lov → lassen."
-      },
+      "tip": [
+        "Tidsformer: lassen – ließ – hat gelassen; i 2. og 3. person ental lässt.",
+        "Lassen + navnemåde udtrykker “få/lade gøre”: Ich lasse mir die Haare schneiden – jeg får klippet håret (frisøren klipper det)."
+      ],
       "important": [
-        "lassen er ikke bare 'at forlade'. Det betyder også ofte 'at lade'.",
-        "Lass mich i Ruhe! der er en meget almindelig sætning: \"Lad mig være!\""
+        "Lassen og verlassen er forskellige: lassen – lade/efterlade, verlassen – forlade (et sted eller en person).",
+        "Når lassen står sammen med en navnemåde, bruger man i førnutid hat … lassen (den såkaldte Ersatzinfinitiv), ikke hat gelassen."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "lassen",
+            "lasse",
+            "Lass",
+            "Lasst"
+          ],
           "purple": [
-            "Hovedidé",
-            "Hovedidé"
+            "efterlade",
+            "lade",
+            "tillade"
           ]
         },
         "examples": [
@@ -11904,7 +13885,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Jeg"
+                "lader"
               ]
             }
           },
@@ -11928,19 +13909,31 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Mine"
+                "lader"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "Lass mich"
+                "Lass"
               ]
             },
             "lv": {
               "purple": [
                 "Lad"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "lässt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "får"
               ]
             }
           }
@@ -11949,35 +13942,12 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "lassen"
+                "verlassen"
               ]
             },
             "meaning": {
               "purple": [
-                "Forlad",
-                "Forlad"
-              ]
-            },
-            "example": {
-              "blue": [
-                "lasse"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "bleiben"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Ophold"
-              ]
-            },
-            "example": {
-              "green": [
-                "bleibe"
+                "forlade"
               ]
             }
           },
@@ -11989,68 +13959,46 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Tillade"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "erlaubt"
+                "tillade"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "geben"
+                "zurücklassen"
               ]
             },
             "meaning": {
               "purple": [
-                "give"
-              ]
-            },
-            "example": {
-              "red": [
-                "Gib"
+                "efterlade"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "lassen"
-            ],
-            "purple": [
-              "Husk",
-              "Husk"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "purple": [
-              "lassen",
-              "lassen"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
   },
   {
     "de": "laufen",
-    "lv": "Kør • Betjen",
+    "lv": "At løbe • At gå • At fungere",
     "level": "A1",
     "study": {
       "id": "a1-laufen",
       "layout": "standardStudy",
-      "translation": "Kør • Betjen",
+      "translation": "At løbe • At gå • At fungere",
       "explanation": [
-        "Hovedidé: Laufen betyder at løbe, men med enheder kan det betyde at løbe.",
-        "For en person eller et dyr betyder laufen ofte at løbe eller gå i hurtigt tempo.",
-        "For en film, maskine eller program betyder laufen, at den kører eller sker.",
-        "Ved benbevægelse på A1-niveau sammenlignes oftest gehen og laufen."
+        "Hovedidé: laufen betyder “løbe” eller “gå (til fods)”: Er läuft sehr schnell. I overført betydning betyder det også “fungere, køre” og “foregå, blive vist”: Die Maschine läuft gut, Der Film läuft schon (filmen er allerede i gang).",
+        "Former: ich laufe, du läufst, er läuft; lief, ist gelaufen. Hjælpeudsagnsordet er sein: Er ist gelaufen. Man spørger: Wie läuft’s? – Hvordan går det?",
+        "Med en retning betyder laufen ofte at gå til fods, ikke at køre: Wir laufen zur Schule. Hurtigt løb udtrykkes ofte med rennen."
       ],
       "examples": [
         {
@@ -12059,52 +14007,58 @@ const A1_WORDS = [
         },
         {
           "de": "Die Kinder laufen im Park.",
-          "lv": "Børn løber i parken."
+          "lv": "Børnene løber rundt i parken."
         },
         {
           "de": "Der Film läuft schon.",
-          "lv": "Filmen kører allerede."
+          "lv": "Filmen er allerede i gang."
         },
         {
           "de": "Die Maschine läuft gut.",
-          "lv": "Maskinen fungerer godt."
+          "lv": "Maskinen kører godt."
+        },
+        {
+          "de": "Wir laufen zur Schule.",
+          "lv": "Vi går til skole."
         }
       ],
       "comparison": [
         {
-          "word": "laufen",
-          "meaning": "Kør/betjen",
-          "example": "Er läuft schnell. = Han løber hurtigt."
+          "word": "rennen",
+          "meaning": "løbe (hurtigt), styrte",
+          "example": "Er rennt zum Bus. – Han løber hen til bussen."
         },
         {
           "word": "gehen",
-          "meaning": "Gå til fods",
-          "example": "Ich gehe nach Hause. = Jeg går hjem."
-        },
-        {
-          "word": "fahren",
-          "meaning": "Kør transporten",
-          "example": "Ich fahre mit dem Bus. = Jeg kører med bussen."
+          "meaning": "gå",
+          "example": "Ich gehe nach Hause. – Jeg går hjem."
         },
         {
           "word": "funktionieren",
-          "meaning": "At operere",
-          "example": "Das funktioniert gut. = Det fungerer godt."
+          "meaning": "fungere, virke",
+          "example": "Das Radio funktioniert nicht. – Radioen virker ikke."
         }
       ],
-      "tip": {
-        "text": "Husk: fødder hurtig → laufen; transportør → fahren."
-      },
+      "tip": [
+        "Laufen betyder på tysk ofte også “gå til fods”: Ich laufe zur Arbeit.",
+        "I talesprog spørger man Wie läuft’s? (hvordan går det?) og svarer fx: Es läuft gut."
+      ],
       "important": [
-        "Laufen er ikke bare 'løb'. For en film eller enhed kan det betyde \"go\" eller \"act\".",
-        "Ich laufe betyder bevægelse til fods, ikke kørsel."
+        "I førnutid bruges sein: Ich bin gelaufen, ikke “habe gelaufen”.",
+        "Ich laufe, men du läufst, er läuft – i 2. og 3. person ental er der omlyd."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "laufen",
+            "läuft",
+            "lief",
+            "gelaufen"
+          ],
           "purple": [
-            "Hovedidé",
-            "Hovedidé",
-            "Hovedidé"
+            "løbe",
+            "gå (til fods)",
+            "fungere"
           ]
         },
         "examples": [
@@ -12116,7 +14070,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Han"
+                "løber"
               ]
             }
           },
@@ -12128,7 +14082,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Børn"
+                "løber"
               ]
             }
           },
@@ -12140,7 +14094,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Filmen"
+                "i gang"
               ]
             }
           },
@@ -12152,7 +14106,19 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Maskinen"
+                "kører"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "laufen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "går"
               ]
             }
           }
@@ -12161,18 +14127,12 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "laufen"
+                "rennen"
               ]
             },
             "meaning": {
               "purple": [
-                "Kør/betjen",
-                "Kør/betjen"
-              ]
-            },
-            "example": {
-              "blue": [
-                "läuft"
+                "løbe"
               ]
             }
           },
@@ -12184,29 +14144,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "til"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "gehe"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "fahren"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Kør"
-              ]
-            },
-            "example": {
-              "red": [
-                "fahre"
+                "gå"
               ]
             }
           },
@@ -12218,195 +14156,205 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "operere"
-              ]
-            },
-            "example": {
-              "green": [
-                "funktioniert"
+                "fungere, virke"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "laufen"
-            ],
-            "purple": [
-              "Husk"
-            ],
-            "red": [
-              "fahren"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "purple": [
-              "laufen",
-              "laufen",
-              "laufen",
-              "laufen"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
   },
   {
     "de": "laut",
-    "lv": "Højt",
+    "lv": "Høj • Larmende",
     "level": "A1",
     "study": {
       "id": "a1-laut",
       "layout": "standardStudy",
-      "translation": "Højt",
+      "translation": "Høj • Larmende",
       "explanation": [
-        "Hovedidé: Adjektiv med små bogstaver. Beskriver lydstyrke - hvor høj en lyd eller tale er.",
-        "Laut betyder hovedsageligt: høj eller kraftig lyd.",
-        "Beskriver ofte: adjektiv.",
-        "Laut betyder i bund og grund: lydsignal.",
-        "Beskriver ofte: navneord (der).",
-        "Små bogstaver laut er et adjektiv - det beskriver hvor høj lyden er (Die Musik ist laut = musikken er høj).",
-        "Der Laut med stort bogstav og artiklen der er et substantiv - det betyder lyd som ting eller signal (Der Laut ist schön = lyden er smuk).",
-        "Flertal: die Laute."
+        "Hovedidé: laut er både tillægsord og biord: “høj, larmende” og “højt”: Die Musik ist laut. Det beskriver lyd, et støjende sted eller en stemme: Sprich nicht so laut!",
+        "Komparativ: lauter (højere), superlativ: am lautesten. Foran navneord: ein lauter Knall, laute Musik. Modsætningen er leise (stille, lav).",
+        "Laut er også et forholdsord, “ifølge” (laut Gesetz – ifølge loven), men det er et andet ord; navneordet der Laut betyder “lyd”."
       ],
       "examples": [
         {
-          "de": "Die Musik ist laut.",
-          "lv": "Musikken er høj."
-        },
-        {
-          "de": "Die Musik ist laut.",
-          "lv": "Musikken er høj."
+          "de": "Die Musik ist zu laut.",
+          "lv": "Musikken er for høj."
         },
         {
           "de": "Sprich nicht so laut!",
           "lv": "Tal ikke så højt!"
         },
         {
-          "de": "Das ist sehr laut.",
-          "lv": "Det er meget højt."
+          "de": "In der Stadt ist es sehr laut.",
+          "lv": "Der er meget larmende i byen."
         },
         {
-          "de": "Der Laut ist schön.",
-          "lv": "Lyden er smuk."
+          "de": "Er lacht laut.",
+          "lv": "Han ler højt."
         },
         {
-          "de": "Ich höre einen Laut.",
-          "lv": "Jeg hører en lyd"
+          "de": "Die Nachbarn sind heute laut.",
+          "lv": "Naboerne larmer i dag."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "leise",
+          "meaning": "stille, lav",
+          "example": "Sei bitte leise! – Vær stille, tak!"
+        },
+        {
+          "word": "der Lärm",
+          "meaning": "larm, støj",
+          "example": "Der Lärm stört mich. – Larmen forstyrrer mig."
+        },
+        {
+          "word": "ruhig",
+          "meaning": "rolig, stille",
+          "example": "Die Straße ist ruhig. – Gaden er rolig."
         }
       ],
       "tip": [
-        "Lille laut = højlydt (tillægsord: ist laut). der Laut med stort = lyd (substantiv: ein Laut, der Laut).",
-        "laut = lyd"
+        "Laut og leise er modsætninger: laut = højt, leise = stille.",
+        "Laut bruges også som biord: Er lacht laut – han ler højt."
       ],
       "important": [
-        "laut er små bogstaver og har ingen artikel - det er et adjektiv.",
-        "der Laut med stort bogstav og artiklen der er et navneord.",
-        "Flertal: die Laute (sproglyde, bip).",
-        "Forkert: Der Laut ist sehr. → Korrekt: Das ist sehr laut."
+        "Laut (forholdsord, “ifølge”) og laut (høj, larmende) staves ens, men betyder noget forskelligt.",
+        "Bland ikke laut og Laut sammen: laut – høj, der Laut – lyd."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "laut",
+            "lauter",
+            "am lautesten",
+            "leise",
+            "Laut"
+          ],
           "purple": [
-            "Hovedidé"
+            "høj",
+            "larmende",
+            "højt",
+            "lyd"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "laut",
                 "laut"
               ]
             },
             "lv": {
               "purple": [
-                "Musikken"
+                "høj"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "laut",
                 "laut"
               ]
             },
             "lv": {
               "purple": [
-                "Musikken"
+                "højt"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "laut",
                 "laut"
               ]
             },
             "lv": {
               "purple": [
-                "Tal"
+                "larmende"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "laut",
                 "laut"
               ]
             },
             "lv": {
               "purple": [
-                "Det"
+                "højt"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "laut",
                 "laut"
               ]
             },
             "lv": {
               "purple": [
-                "Lyden"
+                "larmer"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "leise"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "stille, lav"
               ]
             }
           },
           {
-            "de": {
-              "blue": [
-                "laut",
-                "laut"
+            "word": {
+              "green": [
+                "der Lärm"
               ]
             },
-            "lv": {
+            "meaning": {
               "purple": [
-                "Jeg"
+                "larm, støj"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "ruhig"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "rolig, stille"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "Lille"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "blue": [
-              "laut"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -12415,70 +14363,116 @@ const A1_WORDS = [
     "de": "Laut",
     "de_article": "der",
     "de_plural": "die Laute",
-    "lv": "Lyden",
+    "lv": "Lyd",
     "level": "A1",
     "study": {
       "id": "a1-laut-study",
       "layout": "standardStudy",
-      "translation": "Lyden",
+      "translation": "Lyd",
       "explanation": [
-        "Hovedidé: Der Laut er et navneord og skrives med stort begyndelsesbogstav. Det betyder en lyd eller sproglyd.",
-        "Der Laut betyder primært: høj lyd.",
-        "Beskriver ofte: adjektiv.",
-        "Der Laut betyder primært: lydsignal.",
-        "Beskriver ofte: navneord (der).",
-        "Små bogstaver laut er et adjektiv - det beskriver hvor høj lyden er (Die Musik ist laut = musikken er høj).",
-        "Der Laut med stort bogstav og artiklen der er et substantiv - det betyder lyd som ting eller signal (Der Laut ist schön = lyden er smuk).",
-        "Flertal: die Laute."
+        "Hovedidé: der Laut er et hankønsnavneord – en lyd (som et menneske eller dyr frembringer, men også en sproglyd: selvlyd, medlyd). Flertal er die Laute.",
+        "Udtryk: keinen Laut von sich geben (ikke give en lyd fra sig), ein Laut der Überraschung (et overraskelsesudbrud). I sprogvidenskab: Vokale und Konsonanten sind Laute.",
+        "Forskel fra laut: laut er tillægsordet “høj, larmende”; Laut er navneordet “lyd”. En tone i musik og en støj hedder Ton og Geräusch."
       ],
       "examples": [
         {
-          "de": "Der Laut ist schön.",
-          "lv": "Lyden er smuk."
+          "de": "Ich höre keinen Laut.",
+          "lv": "Jeg hører ikke en lyd."
         },
         {
-          "de": "Die Musik ist laut.",
-          "lv": "Musikken er høj."
+          "de": "Das Kind gibt keinen Laut von sich.",
+          "lv": "Barnet giver ikke en lyd fra sig."
         },
         {
-          "de": "Sprich nicht so laut!",
-          "lv": "Tal ikke så højt!"
+          "de": "Das Wort “Hand” hat vier Laute.",
+          "lv": "Ordet “Hand” har fire lyde."
         },
         {
-          "de": "Das ist sehr laut.",
-          "lv": "Det er meget højt."
+          "de": "Der Laut kam aus dem Wald.",
+          "lv": "Lyden kom fra skoven."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "der Ton",
+          "meaning": "tone; lyd (i musik)",
+          "example": "Der Ton ist zu hoch. – Tonen er for høj."
         },
         {
-          "de": "Der Laut ist schön.",
-          "lv": "Lyden er smuk."
+          "word": "das Geräusch",
+          "meaning": "lyd, støj",
+          "example": "Ich höre ein Geräusch. – Jeg hører en lyd."
         },
         {
-          "de": "Ich höre einen Laut.",
-          "lv": "Jeg hører en lyd"
+          "word": "der Klang",
+          "meaning": "klang",
+          "example": "Der Klang ist schön. – Klangen er smuk."
         }
       ],
       "tip": [
-        "Lille laut = højlydt (tillægsord: ist laut). der Laut med stort = lyd (substantiv: ein Laut, der Laut).",
-        "der Laut = lyd"
+        "Der Laut – die Laute: flertal med -e, uden omlyd.",
+        "Om sproglyde: Vokal (selvlyd), Konsonant (medlyd) – begge er Laute."
       ],
       "important": [
-        "laut er små bogstaver og har ingen artikel - det er et adjektiv.",
-        "der Laut med stort bogstav og artiklen der er et navneord.",
-        "Flertal: die Laute (sproglyde, bip).",
-        "Forkert: Der Laut ist sehr. → Korrekt: Das ist sehr laut."
+        "Bland ikke der Laut (lyd) og laut (høj) sammen, selvom stavemåden kun adskiller sig ved stort og lille begyndelsesbogstav.",
+        "Om musiklyde bruger man oftere Ton end Laut."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "Laut",
+            "der Laut",
+            "die Laute",
+            "laut",
+            "Ton",
+            "Geräusch"
+          ],
           "purple": [
-            "Hovedidé"
+            "lyd",
+            "høj, larmende"
           ]
         },
         "examples": [
           {
             "de": {
-              "green": [
-                "der Laut",
-                "laut"
+              "blue": [
+                "Laut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "lyd"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Laut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "lyd"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Laute"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "lyde"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Laut"
               ]
             },
             "lv": {
@@ -12486,77 +14480,52 @@ const A1_WORDS = [
                 "Lyden"
               ]
             }
-          },
+          }
+        ],
+        "comparison": [
           {
-            "de": {
+            "word": {
               "green": [
-                "laut"
+                "der Ton"
               ]
             },
-            "lv": {
+            "meaning": {
               "purple": [
-                "Musikken"
+                "tone"
               ]
             }
           },
           {
-            "de": {
+            "word": {
               "green": [
-                "laut"
+                "das Geräusch"
               ]
             },
-            "lv": {
+            "meaning": {
               "purple": [
-                "Tal"
+                "lyd, støj"
               ]
             }
           },
           {
-            "de": {
+            "word": {
               "green": [
-                "laut"
+                "der Klang"
               ]
             },
-            "lv": {
+            "meaning": {
               "purple": [
-                "Det"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "der Laut",
-                "laut"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Lyden"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "laut"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Jeg"
+                "klang"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "Lille"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
+          {},
           {}
         ]
       }
@@ -12579,71 +14548,76 @@ const A1_WORDS = [
   },
   {
     "de": "legen",
-    "lv": "Læg ned",
+    "lv": "At lægge",
     "level": "A1",
     "study": {
       "id": "a1-legen",
       "layout": "standardStudy",
-      "translation": "Læg ned",
+      "translation": "At lægge",
       "explanation": [
-        "Hovedidé: legen betyder at lægge noget ned eller vandret.",
-        "Legen bruges, når du selv flytter tingen og sætter den på et bord, seng eller anden overflade.",
-        "Det adskiller sig fra liegen, hvilket betyder, at noget allerede ligger eller ligger.",
-        "På A1-niveau er den vigtigste forskel: legen = at lægge sig, liegen = at ligge ned."
+        "Hovedidé: legen betyder “lægge” (noget ned i liggende stilling): Ich lege das Buch auf den Tisch. Det svarer på spørgsmålet wohin? og kræver akkusativ ved stedsangivelsen: auf den Tisch, ins Regal, in die Tasche.",
+        "Former: legt, legte, hat gelegt (regelmæssigt). Tilbagevisende: sich legen – lægge sig: Ich lege mich ins Bett. Nogle gange også “lægge æg”: Die Henne legt Eier.",
+        "Forskel fra liegen – præcis som dansk lægge og ligge: legen udtrykker en handling (hvorhen?), liegen en tilstand (hvor?): Ich lege das Buch auf den Tisch, men Das Buch liegt auf dem Tisch."
       ],
       "examples": [
         {
           "de": "Ich lege das Buch auf den Tisch.",
-          "lv": "Jeg lagde bogen på bordet."
-        },
-        {
-          "de": "Leg den Schlüssel hierhin.",
-          "lv": "Læg nøglen her."
+          "lv": "Jeg lægger bogen på bordet."
         },
         {
           "de": "Sie legt das Kind ins Bett.",
           "lv": "Hun lægger barnet i seng."
         },
         {
-          "de": "Das Buch liegt auf dem Tisch.",
-          "lv": "Bogen ligger på bordet."
+          "de": "Leg den Schlüssel bitte hierhin.",
+          "lv": "Læg nøglen her, tak."
+        },
+        {
+          "de": "Die Henne legt jeden Tag ein Ei.",
+          "lv": "Hønen lægger et æg hver dag."
+        },
+        {
+          "de": "Ich lege mich kurz hin.",
+          "lv": "Jeg lægger mig lige lidt."
         }
       ],
       "comparison": [
         {
-          "word": "legen",
-          "meaning": "Læg ned",
-          "example": "Ich lege das Buch auf den Tisch. = Jeg lægger bogen på bordet."
-        },
-        {
           "word": "liegen",
-          "meaning": "At være / sove",
-          "example": "Das Buch liegt auf dem Tisch. = Bogen ligger på bordet."
+          "meaning": "ligge, befinde sig",
+          "example": "Das Buch liegt auf dem Tisch. – Bogen ligger på bordet."
         },
         {
           "word": "stellen",
-          "meaning": "Sæt oprejst",
-          "example": "Ich stelle die Flasche auf den Tisch. = Jeg stiller flasken på bordet."
+          "meaning": "stille (stående)",
+          "example": "Ich stelle die Flasche auf den Tisch. – Jeg stiller flasken på bordet."
         },
         {
           "word": "setzen",
-          "meaning": "Sæt dig ned / sæt dig ned",
-          "example": "Ich setze mich. = Jeg sætter mig ned."
+          "meaning": "sætte, anbringe",
+          "example": "Sie setzt das Kind auf den Stuhl. – Hun sætter barnet på stolen."
         }
       ],
-      "tip": {
-        "text": "Husk: tu noliec → legen; lieta jau atrodas → liegen."
-      },
+      "tip": [
+        "Legen (hvorhen? – akkusativ): hat gelegt; liegen (hvor? – dativ): hat gelegen.",
+        "Lær trioen: legen (lægge ned), stellen (stille op), setzen (sætte)."
+      ],
       "important": [
-        "legen og liegen er ikke det samme.",
-        "Ich lege das Buch = jeg lægger bogen fra mig. Das Buch ligger = bogen ligger."
+        "Bland ikke legen (regelmæssigt, hat gelegt) og liegen (stærkt udsagnsord: lag, gelegen) sammen.",
+        "Efter legen står stedet i akkusativ: auf den Tisch, ikke “auf dem Tisch”."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "legen",
+            "lege",
+            "legt",
+            "legte",
+            "gelegt"
+          ],
           "purple": [
-            "Hovedidé",
-            "Hovedidé",
-            "Hovedidé"
+            "lægge",
+            "lægge sig"
           ]
         },
         "examples": [
@@ -12651,15 +14625,23 @@ const A1_WORDS = [
             "de": {
               "blue": [
                 "lege"
-              ],
-              "yellow": [
-                "Buch",
-                "Tisch"
               ]
             },
             "lv": {
               "purple": [
-                "Jeg"
+                "lægger"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "legt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "lægger"
               ]
             }
           },
@@ -12667,9 +14649,6 @@ const A1_WORDS = [
             "de": {
               "blue": [
                 "Leg"
-              ],
-              "yellow": [
-                "Schlüssel"
               ]
             },
             "lv": {
@@ -12682,37 +14661,23 @@ const A1_WORDS = [
             "de": {
               "blue": [
                 "legt"
-              ],
-              "green": [
-                "Kind"
-              ],
-              "yellow": [
-                "Bett"
               ]
             },
             "lv": {
               "purple": [
-                "Hun"
+                "lægger"
               ]
             }
           },
           {
             "de": {
-              "red": [
-                "liegt"
-              ],
-              "yellow": [
-                "Buch",
-                "Tisch"
+              "blue": [
+                "lege"
               ]
             },
             "lv": {
-              "red": [
-                "Bogen"
-              ],
-              "yellow": [
-                "Bogen",
-                "Bogen"
+              "purple": [
+                "lægger mig"
               ]
             }
           }
@@ -12721,35 +14686,12 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "legen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Læg"
-              ]
-            },
-            "example": {
-              "blue": [
-                "lege"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
                 "liegen"
               ]
             },
             "meaning": {
               "purple": [
-                "være",
-                "være"
-              ]
-            },
-            "example": {
-              "red": [
-                "liegt"
+                "ligge, befinde sig"
               ]
             }
           },
@@ -12761,12 +14703,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Sæt"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "stelle"
+                "stille"
               ]
             }
           },
@@ -12778,36 +14715,18 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Sæt"
-              ]
-            },
-            "example": {
-              "green": [
-                "setze"
+                "sætte, anbringe"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "legen"
-            ],
-            "purple": [
-              "noliec"
-            ],
-            "red": [
-              "liegen",
-              "atrodas"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "purple": [
-              "legen"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -12816,14 +14735,14 @@ const A1_WORDS = [
     "de": "Lehrer",
     "de_article": "der",
     "de_plural": "die Lehrer",
-    "lv": "Læreren",
+    "lv": "Lærer",
     "level": "A1"
   },
   {
     "de": "Lehrerin",
     "de_article": "die",
     "de_plural": "die Lehrerinnen",
-    "lv": "En lærer",
+    "lv": "Lærer",
     "level": "A1"
   },
   {
@@ -12845,111 +14764,158 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Stille",
       "explanation": [
-        "Hovedidé: Støjsvag eller lav lydstyrke.",
-        "Leise betyder grundlæggende: lavt volumen.",
-        "Beskriver ofte: lyd/stemme/musik.",
-        "Leise beskriver en lav lydstyrke eller stille stemme/lyd."
+        "Hovedidé: leise betyder “stille, lavt” – om lyd med lav styrke: Sei leise! Sprich leise! Det beskriver stemmer, musik og skridt. Modsætningen er laut.",
+        "Gradbøjning: leiser (mere stille), am leisesten. Foran et navneord får det endelse: eine leise Stimme, leise Musik. Det bruges ofte som biord: Die Kinder sprechen leise.",
+        "I overført betydning kan leise også betyde “svag, en smule”: ein leiser Zweifel – en svag tvivl."
       ],
       "examples": [
         {
-          "de": "Bitte sei leise.",
-          "lv": "Vær venligst stille."
+          "de": "Bitte sei leise!",
+          "lv": "Vær stille, tak!"
         },
         {
-          "de": "Bitte sei leise.",
-          "lv": "Vær venligst stille"
-        },
-        {
-          "de": "Die Musik ist leise.",
-          "lv": "Musikken er stille."
+          "de": "Die Musik ist zu leise.",
+          "lv": "Musikken er for lav."
         },
         {
           "de": "Sprich bitte leise.",
-          "lv": "Tal venligst stille."
+          "lv": "Tal lavt, tak."
+        },
+        {
+          "de": "Das Baby schläft, wir müssen leise sein.",
+          "lv": "Babyen sover, vi skal være stille."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "laut",
+          "meaning": "høj, larmende",
+          "example": "Die Musik ist laut. – Musikken er høj."
+        },
+        {
+          "word": "still",
+          "meaning": "stille, rolig",
+          "example": "Es ist still im Raum. – Der er stille i rummet."
+        },
+        {
+          "word": "ruhig",
+          "meaning": "rolig",
+          "example": "Er bleibt ruhig. – Han forbliver rolig."
         }
       ],
       "tip": [
-        "leise = stille",
-        "Brug leise, når konteksten passer til denne betydning."
+        "Leise – om lydstyrke (stemme, musik), still – om stilhed generelt (ingen larm).",
+        "Modsætning: leise ≠ laut."
       ],
       "important": [
-        "leise = stille i lyden.",
-        "leise = volumen.",
-        "Støjsvag eller lav lydstyrke."
+        "Leise er også biord: Er geht leise – han går stille.",
+        "Leise er ikke det samme som still: still betyder ofte “uden bevægelse/lyd” (stille Nacht) – dansk “stille” dækker begge dele."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "leise"
+          ],
           "purple": [
-            "Hovedidé"
+            "stille",
+            "lavt"
           ]
         },
         "examples": [
           {
             "de": {
-              "green": [
-                "leise",
+              "blue": [
                 "leise"
               ]
             },
             "lv": {
               "purple": [
-                "Vær"
+                "stille"
               ]
             }
           },
           {
             "de": {
-              "green": [
-                "leise",
+              "blue": [
                 "leise"
               ]
             },
             "lv": {
               "purple": [
-                "Vær"
+                "lav"
               ]
             }
           },
           {
             "de": {
-              "green": [
-                "leise",
+              "blue": [
                 "leise"
               ]
             },
             "lv": {
               "purple": [
-                "Musikken"
+                "lavt"
               ]
             }
           },
           {
             "de": {
-              "green": [
-                "leise",
+              "blue": [
                 "leise"
               ]
             },
             "lv": {
               "purple": [
-                "Tal"
+                "stille"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "laut"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "høj, larmende"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "still"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "stille, rolig"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "ruhig"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "rolig"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "kluss"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "green": [
-              "leise"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -12961,7 +14927,7 @@ const A1_WORDS = [
   },
   {
     "de": "letzte",
-    "lv": "Den sidste",
+    "lv": "Sidste",
     "level": "A1"
   },
   {
@@ -12979,7 +14945,7 @@ const A1_WORDS = [
   },
   {
     "de": "lieb",
-    "lv": "Kære",
+    "lv": "Kær • Sød",
     "level": "A1"
   },
   {
@@ -13002,17 +14968,16 @@ const A1_WORDS = [
   },
   {
     "de": "liegen",
-    "lv": "At være • At sove",
+    "lv": "At ligge • At befinde sig",
     "level": "A1",
     "study": {
       "id": "a1-liegen",
       "layout": "standardStudy",
-      "translation": "At være • At sove",
+      "translation": "At ligge • At befinde sig",
       "explanation": [
-        "Hovedidé: Liegen betyder at ligge eller ligge vandret.",
-        "For en person betyder løgn ofte at sove.",
-        "For en ting ligger betyder, at den er et sted.",
-        "Det adskiller sig fra legen, som betyder at lægge noget fra sig."
+        "Hovedidé: liegen betyder “ligge” (en person eller genstand i vandret stilling) og “befinde sig” (om beliggenhed): Das Buch liegt auf dem Tisch, Riga liegt an der Düna. Det svarer på spørgsmålet wo?, derfor står stedet i dativ.",
+        "Former: liegt, lag, hat gelegen (i Sydtyskland også ist gelegen). I overført betydning: Es liegt an dir – det afhænger af dig.",
+        "Forskel fra legen – ligesom dansk ligge og lægge: liegen – tilstand (hvor?), legen – handling (hvorhen?): Ich lege das Buch auf den Tisch."
       ],
       "examples": [
         {
@@ -13021,52 +14986,58 @@ const A1_WORDS = [
         },
         {
           "de": "Mein Handy liegt im Auto.",
-          "lv": "Min telefon er i bilen."
+          "lv": "Min telefon ligger i bilen."
         },
         {
-          "de": "Er liegt im Bett.",
-          "lv": "Han sover i sengen."
+          "de": "Er liegt noch im Bett.",
+          "lv": "Han ligger stadig i sengen."
         },
         {
-          "de": "Ich lege das Buch auf den Tisch.",
-          "lv": "Jeg lagde bogen på bordet."
+          "de": "Riga liegt an der Düna.",
+          "lv": "Riga ligger ved Daugava."
+        },
+        {
+          "de": "Das Dorf liegt in den Bergen.",
+          "lv": "Landsbyen ligger i bjergene."
         }
       ],
       "comparison": [
         {
-          "word": "liegen",
-          "meaning": "At være / sove",
-          "example": "Das Buch liegt hier. = Bogen ligger her."
-        },
-        {
           "word": "legen",
-          "meaning": "Læg ned",
-          "example": "Ich lege das Buch hierhin. = Jeg lægger bogen her."
+          "meaning": "lægge",
+          "example": "Ich lege das Buch auf den Tisch. – Jeg lægger bogen på bordet."
         },
         {
           "word": "stehen",
-          "meaning": "Stå/vær stående",
-          "example": "Die Flasche steht auf dem Tisch. = Flasken står på bordet."
+          "meaning": "stå",
+          "example": "Die Flasche steht auf dem Tisch. – Flasken står på bordet."
         },
         {
-          "word": "sein",
-          "meaning": "At være",
-          "example": "Ich bin hier."
+          "word": "sitzen",
+          "meaning": "sidde",
+          "example": "Er sitzt auf dem Stuhl. – Han sidder på stolen."
         }
       ],
-      "tip": {
-        "text": "Husk: tingen er allerede på plads → liegen; tu til lægge sig ned → legen."
-      },
+      "tip": [
+        "Liegen = hvor? (dativ), legen = hvorhen? (akkusativ): liegen – lag – gelegen; legen – legte – gelegt.",
+        "Placering beskrives med liegen (ligger), stehen (står), sitzen (sidder)."
+      ],
       "important": [
-        "liegen viser en stat eller lokation.",
-        "legen viser en handling: nogen lægger noget fra sig."
+        "Førnutid er i standardsprog hat gelegen; i Sydtyskland også ist gelegen.",
+        "Liegen bruges ikke med en stedsangivelse i akkusativ: Das Buch liegt auf dem Tisch (dativ), ikke “auf den Tisch”."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "liegen",
+            "liegt",
+            "lag",
+            "gelegen",
+            "legen"
+          ],
           "purple": [
-            "Hovedidé",
-            "Hovedidé",
-            "Hovedidé"
+            "ligge",
+            "befinde sig"
           ]
         },
         "examples": [
@@ -13074,15 +15045,11 @@ const A1_WORDS = [
             "de": {
               "blue": [
                 "liegt"
-              ],
-              "yellow": [
-                "Buch",
-                "Tisch"
               ]
             },
             "lv": {
               "purple": [
-                "Bogen"
+                "ligger"
               ]
             }
           },
@@ -13090,15 +15057,11 @@ const A1_WORDS = [
             "de": {
               "blue": [
                 "liegt"
-              ],
-              "yellow": [
-                "Handy",
-                "Auto"
               ]
             },
             "lv": {
               "purple": [
-                "Min"
+                "ligger"
               ]
             }
           },
@@ -13106,34 +15069,35 @@ const A1_WORDS = [
             "de": {
               "blue": [
                 "liegt"
-              ],
-              "green": [
-                "Bett"
               ]
             },
             "lv": {
               "purple": [
-                "Han"
+                "ligger"
               ]
             }
           },
           {
             "de": {
-              "red": [
-                "lege"
-              ],
-              "yellow": [
-                "Buch",
-                "Tisch"
+              "blue": [
+                "liegt"
               ]
             },
             "lv": {
-              "red": [
-                "Jeg"
-              ],
-              "yellow": [
-                "Jeg",
-                "Jeg"
+              "purple": [
+                "ligger"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "liegt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ligger"
               ]
             }
           }
@@ -13142,35 +15106,12 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "liegen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "være",
-                "være"
-              ]
-            },
-            "example": {
-              "blue": [
-                "liegt"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
                 "legen"
               ]
             },
             "meaning": {
               "purple": [
-                "Læg"
-              ]
-            },
-            "example": {
-              "red": [
-                "lege"
+                "lægge"
               ]
             }
           },
@@ -13182,49 +15123,30 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Stå/vær"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "steht"
+                "stå"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "sein"
+                "sitzen"
               ]
             },
-            "meaning": {},
-            "example": {
-              "green": [
-                "bin"
+            "meaning": {
+              "purple": [
+                "sidde"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "liegen"
-            ],
-            "purple": [
-              "Husk"
-            ],
-            "red": [
-              "legen",
-              "Husk"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "purple": [
-              "liegen"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -13245,7 +15167,7 @@ const A1_WORDS = [
   },
   {
     "de": "links",
-    "lv": "Venstre • Venstre",
+    "lv": "Til venstre • Venstre",
     "level": "A1"
   },
   {
@@ -13265,13 +15187,159 @@ const A1_WORDS = [
       "id": "a1-liter",
       "layout": "standardStudy",
       "translation": "Liter",
-      "explanation": "I Tyskland siger man normalt 'der liter', men i Østrig og Schweiz kan man også høre 'das liter'. Flertalsformen forbliver uændret: 'die liter'.",
+      "explanation": [
+        "Hovedidé: der Liter er en rumfangsenhed – liter. Det bruges om væsker: Milch, Wasser, Benzin.",
+        "Flertal: die Liter (uden endelse). Efter et talord ændres måleenheden ikke, og navneordet følger uden forholdsord – ligesom på dansk: zwei Liter Milch (to liter mælk), drei Liter Wasser. Der Liter er hankøn; i talesprog bruges nogle gange også das Liter.",
+        "Forkortelse l: 1 l = 1000 Milliliter (ml, milliliter)."
+      ],
+      "examples": [
+        {
+          "de": "Ich kaufe zwei Liter Milch.",
+          "lv": "Jeg køber to liter mælk."
+        },
+        {
+          "de": "Wie viele Liter Wasser trinkst du am Tag?",
+          "lv": "Hvor mange liter vand drikker du om dagen?"
+        },
+        {
+          "de": "Das Auto braucht acht Liter auf hundert Kilometer.",
+          "lv": "Bilen bruger otte liter pr. hundrede kilometer."
+        },
+        {
+          "de": "Die Flasche hat einen Liter Inhalt.",
+          "lv": "Flasken rummer en liter."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "der Meter",
+          "meaning": "meter",
+          "example": "Der Tisch ist zwei Meter lang. – Bordet er to meter langt."
+        },
+        {
+          "word": "das Kilo",
+          "meaning": "kilo",
+          "example": "Ich kaufe ein Kilo Äpfel. – Jeg køber et kilo æbler."
+        },
+        {
+          "word": "der Milliliter",
+          "meaning": "milliliter",
+          "example": "Ich brauche 200 Milliliter Milch. – Jeg skal bruge 200 milliliter mælk."
+        }
+      ],
+      "tip": [
+        "Efter et talord forbliver enheden uændret: zwei Liter (forkert: “zwei Liters”).",
+        "Væsken følger uden forholdsord: ein Liter Wasser (ikke “ein Liter von Wasser”)."
+      ],
+      "important": [
+        "Der Liter, die Liter – uændret i flertal.",
+        "En halv liter hedder ein halber Liter (500 ml)."
+      ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "Liter"
+          ],
           "purple": [
-            "'die liter'"
+            "liter"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Liter"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "liter"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Liter"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "liter"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Liter"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "liter"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Liter"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "liter"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "der Meter"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "meter"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "das Kilo"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "kilo"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Milliliter"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "milliliter"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -13296,25 +15364,24 @@ const A1_WORDS = [
   },
   {
     "de": "machen",
-    "lv": "Gør • Lav",
+    "lv": "At gøre • At lave",
     "level": "A1",
     "study": {
       "id": "a1-machen",
       "layout": "standardStudy",
-      "translation": "Gør • Lav",
+      "translation": "At gøre • At lave",
       "explanation": [
-        "Hovedidé: machen er et meget almindeligt ord, der betyder at lave eller at lave.",
-        "Hvis det handler om handling generelt, oversættes det til, hvordan man gør.",
-        "Hvis noget er lavet eller tilberedt, oversættes det til at lave eller lave mad.",
-        "I mange sætninger oversættes machen naturligt til dansk, ikke bogstaveligt."
+        "Hovedidé: machen er et meget hyppigt udsagnsord, der betyder “gøre” og “lave”: Was machst du? (Hvad laver du?), Wir machen Pizza (vi laver pizza), Ich mache Hausaufgaben (jeg laver lektier).",
+        "Former: macht, machte, hat gemacht. Med akkusativ: etwas machen. I mange udtryk danner det en fast forbindelse: Spaß machen (være sjovt), eine Pause machen (holde pause), Sport machen (dyrke sport), Urlaub machen (holde ferie).",
+        "Ved betaling betyder machen “blive (i alt)”: Das macht zehn Euro – det bliver ti euro."
       ],
       "examples": [
         {
-          "de": "Was machst du?",
-          "lv": "Hvad laver du"
+          "de": "Was machst du heute?",
+          "lv": "Hvad laver du i dag?"
         },
         {
-          "de": "Ich mache Hausaufgaben.",
+          "de": "Ich mache meine Hausaufgaben.",
           "lv": "Jeg laver mine lektier."
         },
         {
@@ -13324,20 +15391,47 @@ const A1_WORDS = [
         {
           "de": "Das macht Spaß.",
           "lv": "Det er sjovt."
+        },
+        {
+          "de": "Das macht zusammen zwölf Euro.",
+          "lv": "Det bliver tolv euro i alt."
         }
       ],
-      "tip": {
-        "text": "Husk: Var machst du? = Ko tu dari?"
-      },
+      "comparison": [
+        {
+          "word": "tun",
+          "meaning": "gøre (generelt)",
+          "example": "Was tust du da? – Hvad gør du der?"
+        },
+        {
+          "word": "herstellen",
+          "meaning": "fremstille, producere",
+          "example": "Die Firma stellt Autos her. – Firmaet producerer biler."
+        },
+        {
+          "word": "kochen",
+          "meaning": "koge, lave mad",
+          "example": "Ich koche Suppe. – Jeg laver suppe."
+        }
+      ],
+      "tip": [
+        "Machen bruges med mange navneord: Sport, Urlaub, Fehler, Pause, Lärm, Spaß machen.",
+        "Udtrykket Mach’s gut! betyder “Hav det godt!”."
+      ],
       "important": [
-        "machen er et meget bredt ord, men på dansk skal ofte oversættes naturligt efter situationen.",
-        "Das macht Spaß betyder \"det er sjovt\", ikke bogstaveligt \"det gør det sjovt\"."
+        "Faste forbindelser skal læres samlet: Fehler machen (lave fejl), ikke “Fehler tun”.",
+        "Machen er et regelmæssigt udsagnsord: machte, gemacht."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "machen",
+            "mache",
+            "macht"
+          ],
           "purple": [
-            "Hovedidé",
-            "Hovedidé"
+            "gøre",
+            "lave"
           ]
         },
         "examples": [
@@ -13349,7 +15443,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Hvad"
+                "laver"
               ]
             }
           },
@@ -13357,24 +15451,6 @@ const A1_WORDS = [
             "de": {
               "blue": [
                 "mache"
-              ],
-              "yellow": [
-                "Hausaufgaben"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Jeg"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "machen"
-              ],
-              "yellow": [
-                "Pizza"
               ]
             },
             "lv": {
@@ -13386,55 +15462,85 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "macht Spaß"
+                "machen"
               ]
             },
             "lv": {
               "purple": [
-                "Det"
+                "laver"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "macht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "er sjovt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "macht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "bliver"
               ]
             }
           }
         ],
         "comparison": [
           {
-            "word": {},
-            "meaning": {},
-            "example": {}
+            "word": {
+              "green": [
+                "tun"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "gøre"
+              ]
+            }
           },
           {
-            "word": {},
-            "meaning": {},
-            "example": {}
+            "word": {
+              "green": [
+                "herstellen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "fremstille, producere"
+              ]
+            }
           },
           {
-            "word": {},
-            "meaning": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "meaning": {},
-            "example": {}
+            "word": {
+              "green": [
+                "kochen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "koge, lave mad"
+              ]
+            }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "Husk"
-            ],
-            "purple": [
-              "ko tu dari"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "purple": [
-              "machen",
-              "machen"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -13443,14 +15549,14 @@ const A1_WORDS = [
     "de": "Mädchen",
     "de_article": "das",
     "de_plural": "die Mädchen",
-    "lv": "En pige",
+    "lv": "Pige",
     "level": "A1"
   },
   {
     "de": "Mahlzeit",
     "de_article": "die",
     "de_plural": "die Mahlzeiten",
-    "lv": "Et måltid",
+    "lv": "Måltid",
     "level": "A1"
   },
   {
@@ -13463,81 +15569,85 @@ const A1_WORDS = [
     "de": "Mal",
     "de_article": "das",
     "de_plural": "die Male",
-    "lv": "Tid",
+    "lv": "Gang",
     "level": "A1",
     "study": {
       "id": "a1-mal",
       "layout": "standardStudy",
-      "translation": "Tid",
+      "translation": "Gang",
       "explanation": [
-        "Hovedidé: das Mal betyder én gang som en begivenhed eller lejlighed.",
-        "Bruges ofte med tal: ein Mal, zwei Mal, drei Mal.",
-        "Med et ordenstal: das erste Mal, das zweite Mal.",
-        "Tal ikke med den daglige partikel mal (Komm mal her!) - det er en anden betydning."
+        "Hovedidé: das Mal er et intetkønsnavneord – “gang” (en gang, hvor noget sker): das erste Mal (første gang), jedes Mal (hver gang), beim nächsten Mal (næste gang).",
+        "Efter et talord står Mal normalt i ental og skrives enten adskilt eller i ét ord: zwei Mal / zweimal, drei Mal / dreimal. Flertal die Male bruges sjældent, fx mehrere Male.",
+        "Mal er også en partikel i talesprog (med lille begyndelsesbogstav): Komm mal her! – Kom lige her! Det er en anden brug, som gør en opfordring mildere – ligesom dansk “lige”."
       ],
       "examples": [
         {
           "de": "Das erste Mal war schwer.",
-          "lv": "Den første tid var hård."
+          "lv": "Første gang var svær."
         },
         {
-          "de": "Ich war schon zwei Mal in Berlin.",
+          "de": "Ich war schon zweimal in Berlin.",
           "lv": "Jeg har allerede været i Berlin to gange."
         },
         {
-          "de": "Ein Mal reicht.",
-          "lv": "En gang er nok."
+          "de": "Jedes Mal vergesse ich es.",
+          "lv": "Hver gang glemmer jeg det."
         },
         {
-          "de": "Noch ein Mal, bitte!",
-          "lv": "Endnu en gang tak!"
+          "de": "Beim nächsten Mal komme ich früher.",
+          "lv": "Næste gang kommer jeg tidligere."
+        },
+        {
+          "de": "Noch einmal, bitte!",
+          "lv": "En gang til, tak!"
         }
       ],
-      "tip": {
-        "text": "Husk: das Mal = tid (substantiv); mal uden artikel = dagligdags partikel."
-      },
+      "comparison": [
+        {
+          "word": "einmal",
+          "meaning": "én gang",
+          "example": "Ich war einmal in Wien. – Jeg har været i Wien én gang."
+        },
+        {
+          "word": "mal",
+          "meaning": "partikel (mildner)",
+          "example": "Komm mal her! – Kom lige her!"
+        },
+        {
+          "word": "die Zeit",
+          "meaning": "tid",
+          "example": "Ich habe keine Zeit. – Jeg har ikke tid."
+        }
+      ],
+      "tip": [
+        "Nyttige forbindelser: zum ersten Mal (for første gang), diesmal (denne gang), jedes Mal (hver gang).",
+        "Antal gange udtrykkes med -mal: einmal, zweimal, dreimal."
+      ],
       "important": [
-        "das Mal / die Male - navneord med artikel.",
-        "ein Mal, zwei Mal — tæller gange.",
-        "mal uden artikel (Komm mal her!) er ikke det samme som das Mal."
+        "Das Mal betyder også “mærke, plet”: das Muttermal (modermærke), das Denkmal (monument).",
+        "Efter et talord skrives sammensætningen med lille: zweimal, ikke “Zweimal”."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "Mal",
+            "zweimal",
+            "dreimal",
+            "Male",
+            "mal"
+          ],
           "purple": [
-            "Hovedidé",
-            "Hovedidé",
-            "Hovedidé"
+            "gang",
+            "første gang",
+            "hver gang",
+            "næste gang"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "erste Mal"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Den"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "zwei Mal"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Jeg"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "Ein Mal"
+                "Mal"
               ]
             },
             "lv": {
@@ -13549,36 +15659,104 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "ein Mal"
+                "zweimal"
               ]
             },
             "lv": {
               "purple": [
-                "Endnu"
+                "to gange"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Mal"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "gang"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Mal"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "gang"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "einmal"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "gang"
               ]
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "Husk",
-            "Husk"
-          ]
-        },
-        "important": [
+        "comparison": [
           {
-            "purple": [
-              "das",
-              "das Mal"
-            ]
+            "word": {
+              "green": [
+                "einmal"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "én gang"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "mal"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "partikel"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Zeit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "tid"
+              ]
+            }
           }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
         ]
       }
     }
   },
   {
     "de": "malen",
-    "lv": "At male • At male",
+    "lv": "At male",
     "level": "A1"
   },
   {
@@ -13597,19 +15775,16 @@ const A1_WORDS = [
     "de": "Mann",
     "de_article": "der",
     "de_plural": "die Männer",
-    "lv": "Mand • Mand",
+    "lv": "Mand • Ægtemand",
     "level": "A1",
     "study": {
       "id": "a1-mann",
       "layout": "standardStudy",
-      "translation": "Mand • Mand",
+      "translation": "Mand • Ægtemand",
       "explanation": [
-        "Hovedidé: der Mann kan betyde mand (køn) eller mand (ægtefælle).",
-        "Hvis det blot er et spørgsmål om køn eller person, er der Mann = mand.",
-        "For en ægtefælle er der Mann = mand (mein Mann = min mand).",
-        "Det besiddende pronomen (mein/dein/ihr Mann) betyder næsten altid ægtemand - ægtefælle.",
-        "Flertal: die Männer.",
-        "Den feminine form die Frau har samme dobbeltbetydning: kvinde OG hustru."
+        "Hovedidé: der Mann er et hankønsnavneord med to betydninger: mand (Er ist ein netter Mann) og ægtemand (Mein Mann arbeitet in Berlin) – ligesom dansk “min mand”.",
+        "Flertal: die Männer (med omlyd). Genitiv: des Mannes, dativ flertal: den Männern. I sammensætninger: Ehemann, Geschäftsmann (flertal Geschäftsleute).",
+        "Forskel fra ordet man: man (man, en) er et stedord og skrives med lille og ét n. Et menneske i almindelighed hedder der Mensch."
       ],
       "examples": [
         {
@@ -13618,39 +15793,58 @@ const A1_WORDS = [
         },
         {
           "de": "Das ist mein Mann.",
-          "lv": "Det her er min mand."
+          "lv": "Det er min mand."
         },
         {
           "de": "Wie viele Männer sind hier?",
           "lv": "Hvor mange mænd er her?"
         },
         {
-          "de": "Mein Mann arbeitet in Berlin.",
-          "lv": "Min mand arbejder i Berlin."
+          "de": "Der Mann dort ist Arzt.",
+          "lv": "Manden derovre er læge."
         },
         {
-          "de": "Der Mann trägt einen Anzug.",
-          "lv": "Manden har et jakkesæt på."
+          "de": "Mein Mann kocht heute Abend.",
+          "lv": "Min mand laver mad i aften."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "der Herr",
+          "meaning": "herre",
+          "example": "Der Herr wartet draußen. – Herren venter udenfor."
         },
         {
-          "de": "Ihr Mann ist Arzt.",
-          "lv": "Hendes mand er læge."
+          "word": "der Ehemann",
+          "meaning": "ægtemand",
+          "example": "Ihr Ehemann ist Arzt. – Hendes mand er læge."
+        },
+        {
+          "word": "der Mensch",
+          "meaning": "menneske",
+          "example": "Jeder Mensch braucht Wasser. – Alle mennesker har brug for vand."
         }
       ],
       "tip": [
-        "Det besiddende pronomen (mein/dein/ihr Mann) betyder næsten altid ægtemand (ægtefælle).",
-        "Uden besiddelse (der Mann, ein Mann) betyder normalt en mand."
+        "Mein Mann, dein Mann – med et ejestedord betyder der Mann ægtemand.",
+        "Flertal med omlyd: der Mann → die Männer."
       ],
       "important": [
-        "der Mann = mand ELLER ægtemand - alt efter sammenhængen.",
-        "mein Mann = min mand (ikke 'min mand').",
-        "Flertal: die mänd."
+        "Bland ikke der Mann og man sammen: man betyder “man, en” (Man kann hier parken).",
+        "Der Mann betyder normalt ikke “menneske” – det hedder der Mensch."
       ],
       "sectionAccents": {
         "explanation": {
-          "purple": [
+          "blue": [
             "Mann",
-            "Mann"
+            "der Mann",
+            "die Männer",
+            "man",
+            "Mensch"
+          ],
+          "purple": [
+            "mand",
+            "ægtemand"
           ]
         },
         "examples": [
@@ -13662,19 +15856,19 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Han"
+                "mand"
               ]
             }
           },
           {
             "de": {
-              "green": [
-                "mein Mann"
+              "blue": [
+                "Mann"
               ]
             },
             "lv": {
               "purple": [
-                "Det"
+                "mand"
               ]
             }
           },
@@ -13686,19 +15880,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Hvor"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "Mein Mann"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Min"
+                "mænd"
               ]
             }
           },
@@ -13716,31 +15898,62 @@ const A1_WORDS = [
           },
           {
             "de": {
-              "green": [
-                "Ihr Mann"
+              "blue": [
+                "Mann"
               ]
             },
             "lv": {
               "purple": [
-                "er"
+                "mand"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "der Herr"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "herre"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Ehemann"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ægtemand"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Mensch"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "menneske"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "Det"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "purple": [
-              "der",
-              "der"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -13769,7 +15982,7 @@ const A1_WORDS = [
     "de": "Meer",
     "de_article": "das",
     "de_plural": "die Meere",
-    "lv": "Havet",
+    "lv": "Hav",
     "level": "A1"
   },
   {
@@ -13786,28 +15999,28 @@ const A1_WORDS = [
   },
   {
     "de": "mein",
-    "lv": "Mine",
+    "lv": "Min • Mit",
     "level": "A1"
   },
   {
     "de": "Mensch",
     "de_article": "der",
     "de_plural": "die Menschen",
-    "lv": "En person",
+    "lv": "Menneske",
     "level": "A1"
   },
   {
     "de": "Messer",
     "de_article": "das",
     "de_plural": "die Messer",
-    "lv": "En kniv",
+    "lv": "Kniv",
     "level": "A1"
   },
   {
     "de": "Meter",
     "de_article": "der",
     "de_plural": "die Meter",
-    "lv": "Måler",
+    "lv": "Meter",
     "level": "A1"
   },
   {
@@ -13827,7 +16040,7 @@ const A1_WORDS = [
     "de": "Minute",
     "de_article": "die",
     "de_plural": "die Minuten",
-    "lv": "Et minut",
+    "lv": "Minut",
     "level": "A1"
   },
   {
@@ -13839,98 +16052,81 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Med",
       "explanation": [
-        "Hovedidé: mit betyder oftest med.",
-        "Mit bruges, når en person er sammen med nogen eller gør noget med en ting.",
-        "Med transport betyder det ofte at tage bus, tog eller bil.",
-        "På A1-niveau er meget hyppige sætninger mit dem Bus, mit dem Auto og mit dir."
+        "Hovedidé: mit er et forholdsord med dativ og betyder “med”. Det angiver en ledsager (mit dir – med dig), et middel eller transportmiddel (mit dem Bus – med bussen), et redskab (mit dem Stift – med blyanten) og noget, der hører til (Kaffee mit Milch – kaffe med mælk).",
+        "Efter mit kommer altid dativ: mit dem Mann, mit der Frau, mit dem Kind, mit den Freunden. Dativ flertal får normalt -n.",
+        "Som adskilleligt forled indgår mit i mange udsagnsord: mitkommen (komme med), mitnehmen (tage med): Kommst du mit?"
       ],
       "examples": [
         {
           "de": "Ich komme mit dir.",
-          "lv": "Jeg kommer med dig"
+          "lv": "Jeg kommer med dig."
         },
         {
           "de": "Ich fahre mit dem Bus.",
-          "lv": "Jeg tager med bus"
+          "lv": "Jeg kører med bussen."
         },
         {
           "de": "Sie schreibt mit dem Stift.",
-          "lv": "Hun skriver med en kuglepen."
+          "lv": "Hun skriver med blyanten."
         },
         {
           "de": "Kommst du mit?",
-          "lv": "Vil du tage med mig?"
+          "lv": "Kommer du med?"
+        },
+        {
+          "de": "Ich möchte Kaffee mit Milch.",
+          "lv": "Jeg vil gerne have kaffe med mælk."
         }
       ],
       "comparison": [
         {
-          "word": "mit",
-          "meaning": "Med / sammen med",
-          "example": "Ich komme mit dir. = Jeg kommer med dig."
-        },
-        {
           "word": "ohne",
-          "meaning": "Uden",
-          "example": "Ich komme ohne dich. = Jeg kommer uden dig."
+          "meaning": "uden",
+          "example": "Kaffee ohne Zucker. – Kaffe uden sukker."
         },
         {
           "word": "bei",
-          "meaning": "Hos / hos nogen",
-          "example": "Ich bin bei Anna."
+          "meaning": "hos, ved",
+          "example": "Ich wohne bei meinen Eltern. – Jeg bor hos mine forældre."
         },
         {
-          "word": "zu",
-          "meaning": "Til / kl",
-          "example": "Ich gehe zum Arzt. = Jeg går til lægen."
+          "word": "zusammen",
+          "meaning": "sammen",
+          "example": "Wir lernen zusammen. – Vi lærer sammen."
         }
       ],
-      "tip": {
-        "text": "Husk: sammen med nogen eller med transport → mit."
-      },
+      "tip": [
+        "Mit + dativ, altid: mit mir, mit dir, mit ihm, mit uns.",
+        "Transportmiddel udtrykkes med mit: mit dem Zug, mit dem Auto, men “til fods” hedder zu Fuß."
+      ],
       "important": [
-        "mit kræver dativ: mit dem Bus, mit der Mutter, mit dir.",
-        "Hvor bor du? betyder \"Vil du tage med?\""
+        "Mit kræver aldrig akkusativ: mit dem Bus (ikke “mit den Bus”).",
+        "Kommst du mit? svarer præcis til dansk “Kommer du med?” – mitkommen har adskilleligt forled, og mit står til sidst."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "mit",
+            "mit dir",
+            "mit dem Bus",
+            "mit dem Mann",
+            "mitkommen",
+            "mitnehmen"
+          ],
           "purple": [
-            "Hovedidé"
+            "med"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "mit dir"
+                "mit"
               ]
             },
             "lv": {
               "purple": [
-                "Jeg"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "mit dem Bus"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "bus"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "mit dem Stift"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Hun"
+                "med"
               ]
             }
           },
@@ -13942,7 +16138,43 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Vil"
+                "med"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "mit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "med"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "mit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "med"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "mit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "med"
               ]
             }
           }
@@ -13951,35 +16183,12 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "mit"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Med",
-                "Med"
-              ]
-            },
-            "example": {
-              "blue": [
-                "mit dir"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
                 "ohne"
               ]
             },
             "meaning": {
               "purple": [
-                "Uden"
-              ]
-            },
-            "example": {
-              "red": [
-                "ohne dich"
+                "uden"
               ]
             }
           },
@@ -13991,60 +16200,44 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Hos"
-              ]
-            },
-            "example": {
-              "green": [
-                "bei Anna"
+                "hos, ved"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "zu"
+                "zusammen"
               ]
             },
-            "meaning": {},
-            "example": {
-              "yellow": [
-                "zum Arzt"
+            "meaning": {
+              "purple": [
+                "sammen"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "mit"
-            ],
-            "purple": [
-              "Husk",
-              "Husk"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "purple": [
-              "dativ"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
   },
   {
     "de": "mitnehmen",
-    "lv": "Tag med dig",
+    "lv": "At tage med",
     "level": "A1"
   },
   {
     "de": "Mittag",
     "de_article": "der",
     "de_plural": "die Mittage",
-    "lv": "Frokost",
+    "lv": "Middagstid",
     "level": "A1"
   },
   {
@@ -14070,64 +16263,72 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "At kunne lide",
       "explanation": [
-        "Hovedidé: mögen betyder ofte at kunne lide noget.",
-        "Ich mag... er normalt \"jeg kan lide...\" på dansk.",
-        "Möchte er en anden form, der bruges til høfligt belært: Jeg vil gerne.",
-        "På A1-niveau er den vigtigste sætning Ich mag das."
+        "Hovedidé: mögen betyder “kunne lide, holde af”, når man taler om mennesker, mad, musik eller ting: Ich mag Musik – jeg kan lide musik. Ligesom på dansk er den, der kan lide noget, grundled, og det, man kan lide, står i akkusativ: Ich mag dich.",
+        "Former: ich mag, du magst, er/sie/es mag, wir mögen, ihr mögt, sie mögen; mochte, hat gemocht. Det er et mådesudsagnsord, men står ofte alene med en akkusativ.",
+        "Til en høflig anmodning bruger man möchte: Ich möchte einen Kaffee – jeg vil gerne have en kaffe (afledt af mögen, men brugt som en selvstændig form)."
       ],
       "examples": [
         {
           "de": "Ich mag Musik.",
-          "lv": "Jeg kan godt lide musik"
+          "lv": "Jeg kan lide musik."
         },
         {
           "de": "Magst du Kaffee?",
-          "lv": "Kan du lide kaffe"
+          "lv": "Kan du lide kaffe?"
         },
         {
-          "de": "Sie mag Kinder.",
-          "lv": "Hun kan godt lide børn."
+          "de": "Sie mag Kinder sehr.",
+          "lv": "Hun holder meget af børn."
         },
         {
-          "de": "Ich möchte einen Kaffee.",
-          "lv": "Jeg vil gerne have kaffe"
+          "de": "Er mag keinen Fisch.",
+          "lv": "Han kan ikke lide fisk."
+        },
+        {
+          "de": "Wir mögen unseren Lehrer.",
+          "lv": "Vi kan godt lide vores lærer."
         }
       ],
       "comparison": [
         {
-          "word": "mögen",
-          "meaning": "At kunne lide",
-          "example": "Ich mag Musik."
-        },
-        {
-          "word": "möchte",
-          "meaning": "Vil gerne",
-          "example": "Ich möchte Kaffee. = Jeg ønsker kaffe."
-        },
-        {
-          "word": "wollen",
-          "meaning": "Vil du",
-          "example": "Ich will nach Hause. = Jeg vil hjem."
+          "word": "gefallen",
+          "meaning": "synes om, falde i smag (dativ)",
+          "example": "Das Kleid gefällt mir. – Jeg synes godt om kjolen."
         },
         {
           "word": "lieben",
-          "meaning": "At elske",
-          "example": "Ich liebe dich. = Jeg elsker dig."
+          "meaning": "elske",
+          "example": "Ich liebe dich. – Jeg elsker dig."
+        },
+        {
+          "word": "möchte",
+          "meaning": "vil gerne (have)",
+          "example": "Ich möchte Tee. – Jeg vil gerne have te."
         }
       ],
-      "tip": {
-        "text": "Husk: Ich mag... = Jeg kan godt lide..."
-      },
+      "tip": [
+        "Mögen: det, du generelt kan lide (Musik, Kaffee, Menschen); gefallen: det, der falder i din smag, fx ved første øjekast.",
+        "I samtale bruger man ofte gern: Ich trinke gern Tee = Ich mag Tee."
+      ],
       "important": [
-        "mögen er ikke et navneord for høflig 'jeg vil gerne'. Möchte bruges normalt til dette.",
-        "Ich mag Kaffee betyder \"Jeg kan godt lide kaffe\"."
+        "Med gefallen er det omvendt – Der Hund gefällt mir (dativ); med mögen siger man Ich mag + akkusativ: Ich mag den Hund.",
+        "Möchte er en tydelig anmodning, mag udtrykker en holdning."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "mögen",
+            "mag",
+            "magst",
+            "mochte",
+            "gemocht",
+            "möchte",
+            "Ich mag"
+          ],
           "purple": [
-            "lide",
-            "Hovedidé",
-            "Hovedidé"
+            "kunne lide",
+            "kan lide",
+            "vil gerne have"
           ]
         },
         "examples": [
@@ -14139,7 +16340,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "lide"
+                "kan lide"
               ]
             }
           },
@@ -14151,7 +16352,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Kan"
+                "Kan du lide"
               ]
             }
           },
@@ -14163,22 +16364,31 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "lide"
+                "holder meget af"
               ]
             }
           },
           {
             "de": {
-              "red": [
-                "möchte"
+              "blue": [
+                "mag"
               ]
             },
             "lv": {
-              "red": [
-                "Jeg"
-              ],
-              "yellow": [
-                "Jeg"
+              "purple": [
+                "kan ikke lide"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "mögen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kan godt lide"
               ]
             }
           }
@@ -14187,51 +16397,12 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "mögen"
+                "gefallen"
               ]
             },
             "meaning": {
               "purple": [
-                "lide"
-              ]
-            },
-            "example": {
-              "blue": [
-                "mag"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "möchte"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Vil"
-              ]
-            },
-            "example": {
-              "red": [
-                "möchte"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "wollen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Vil"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "will"
+                "synes om"
               ]
             }
           },
@@ -14245,31 +16416,28 @@ const A1_WORDS = [
               "purple": [
                 "elske"
               ]
-            },
-            "example": {
+            }
+          },
+          {
+            "word": {
               "green": [
-                "liebe"
+                "möchte"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "vil gerne"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "Ich mag"
-            ],
-            "purple": [
-              "Husk"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "purple": [
-              "mögen",
-              "mögen"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -14304,14 +16472,9 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "I morgen",
       "explanation": [
-        "Hovedidé: Adverbiet af tid er små bogstaver. Betyder næste dag - i morgen.",
-        "morgen betyder hovedsageligt: den næste dag.",
-        "Ofte præget af: vejr.",
-        "Morgen betyder primært: en del af dagen.",
-        "Beskriver ofte: navneord (der).",
-        "Morgen betyder i bund og grund: flere morgener.",
-        "Ofte karakteriseret ved: navneord (pl.).",
-        "Morgen med et lille begyndelsesbogstav betyder i morgen - næste dag (Ich komme morgen = jeg kommer i morgen, Bis morgen!"
+        "Hovedidé: morgen er biordet “i morgen” (den næste dag): Ich komme morgen. Det skrives med lille og bøjes ikke.",
+        "Hyppige forbindelser: morgen früh (i morgen tidlig), morgen Abend (i morgen aften), bis morgen (vi ses i morgen), übermorgen (i overmorgen). Dagsdele efter morgen skrives med stort: morgen Nachmittag.",
+        "Forskel fra Morgen: der Morgen er navneordet “morgen”, mens morgen er biordet “i morgen”. I begyndelsen af en sætning kan man kun skelne dem på betydningen. Pas på: dansk “morgen” som tidspunkt svarer til der Morgen."
       ],
       "examples": [
         {
@@ -14320,99 +16483,254 @@ const A1_WORDS = [
         },
         {
           "de": "Bis morgen!",
-          "lv": "Indtil i morgen!"
-        },
-        {
-          "de": "Ich komme morgen.",
-          "lv": "Jeg kommer i morgen"
+          "lv": "Vi ses i morgen!"
         },
         {
           "de": "Morgen ist Montag.",
-          "lv": "I morgen er det mandag"
+          "lv": "I morgen er det mandag."
         },
         {
-          "de": "Guten Morgen!",
-          "lv": "Godmorgen!"
+          "de": "Morgen früh fahre ich nach Hamburg.",
+          "lv": "I morgen tidlig tager jeg til Hamborg."
         },
         {
-          "de": "Der Morgen ist schön.",
-          "lv": "Morgenen er smuk."
+          "de": "Was machst du morgen Abend?",
+          "lv": "Hvad laver du i morgen aften?"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "heute",
+          "meaning": "i dag",
+          "example": "Heute regnet es. – I dag regner det."
+        },
+        {
+          "word": "gestern",
+          "meaning": "i går",
+          "example": "Gestern war ich zu Hause. – I går var jeg hjemme."
+        },
+        {
+          "word": "übermorgen",
+          "meaning": "i overmorgen",
+          "example": "Übermorgen kommt Anna. – I overmorgen kommer Anna."
         }
       ],
       "tip": [
-        "Lille morgen = i morgen (Ich komme morgen). der Morgen med stort bogstav = morgen (Guten Morgen!, am Morgen).",
-        "morgen = rit"
+        "Står der en artikel (der Morgen), eller siger man am Morgen, er det navneordet “morgen”; betyder det “den næste dag”, er det morgen.",
+        "Guten Morgen! indeholder navneordet der Morgen; “vi ses i morgen” hedder bis morgen."
       ],
       "important": [
-        "morgen er små bogstaver - det er et tidsadverbium (i morgen).",
-        "der Morgen med stort bogstav og artiklen der er et navneord (morgen).",
-        "Godmorgen! — altid med stort M (morgen, ikke i morgen).",
-        "Forkert: Guten morgen! → Korrekt: Guten Morgen!"
+        "Morgen früh ≠ heute Morgen: det første er “i morgen tidlig”, det andet “i morges”.",
+        "Dagsdele efter morgen skrives med stort: morgen Abend, morgen Nachmittag."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "morgen",
+            "Morgen",
+            "morgen früh",
+            "bis morgen",
+            "übermorgen"
+          ],
           "purple": [
-            "Hovedidé"
+            "i morgen",
+            "i overmorgen"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "morgen",
                 "morgen"
               ]
             },
             "lv": {
               "purple": [
-                "Jeg"
+                "i morgen"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "morgen",
                 "morgen"
               ]
             },
             "lv": {
               "purple": [
-                "Indtil"
+                "i morgen"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "morgen",
-                "morgen"
+                "Morgen"
               ]
             },
             "lv": {
               "purple": [
-                "Jeg"
+                "I morgen"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "morgen",
-                "morgen"
+                "Morgen"
               ]
             },
             "lv": {
               "purple": [
-                "morgen"
+                "I morgen tidlig"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "morgen",
                 "morgen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "i morgen aften"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "heute"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "i dag"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "gestern"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "i går"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "übermorgen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "i overmorgen"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
+    }
+  },
+  {
+    "de": "Morgen",
+    "de_article": "der",
+    "de_plural": "die Morgen",
+    "lv": "Morgen",
+    "level": "A1",
+    "study": {
+      "id": "a1-morgen-study",
+      "layout": "standardStudy",
+      "translation": "Morgen",
+      "explanation": [
+        "Hovedidé: der Morgen er et hankønsnavneord – morgen (dagens begyndelse). Flertal die Morgen bruges sjældent. De hyppigste udtryk: Guten Morgen! (Godmorgen!), am Morgen (om morgenen), heute Morgen (i morges).",
+        "Am Morgen (am = an dem) betyder “om morgenen”. Om noget, der gentages, bruger man biordet morgens (hver morgen / om morgenen): Ich stehe morgens um sechs auf.",
+        "Forskel fra morgen: morgen (med lille) betyder “i morgen”, der Morgen – “morgen(en)”."
+      ],
+      "examples": [
+        {
+          "de": "Guten Morgen!",
+          "lv": "Godmorgen!"
+        },
+        {
+          "de": "Am Morgen trinke ich Kaffee.",
+          "lv": "Om morgenen drikker jeg kaffe."
+        },
+        {
+          "de": "Heute Morgen war es kalt.",
+          "lv": "I morges var det koldt."
+        },
+        {
+          "de": "Jeden Morgen gehe ich spazieren.",
+          "lv": "Hver morgen går jeg en tur."
+        },
+        {
+          "de": "Der Morgen ist schön.",
+          "lv": "Morgenen er smuk."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "morgen",
+          "meaning": "i morgen",
+          "example": "Morgen komme ich. – I morgen kommer jeg."
+        },
+        {
+          "word": "der Vormittag",
+          "meaning": "formiddag",
+          "example": "Am Vormittag lerne ich. – Om formiddagen lærer jeg."
+        },
+        {
+          "word": "der Abend",
+          "meaning": "aften",
+          "example": "Am Abend lese ich. – Om aftenen læser jeg."
+        }
+      ],
+      "tip": [
+        "Guten Morgen! siger man indtil omkring middag; senere siger man Guten Tag!",
+        "Morgens (om morgenen, sædvanligvis) skrives med lille, am Morgen med stort M."
+      ],
+      "important": [
+        "Bland ikke der Morgen (morgen) og morgen (i morgen) sammen: Ich komme morgen ≠ Ich komme am Morgen.",
+        "Heute Morgen – med stort M; morgen früh – med lille m."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Morgen",
+            "der Morgen",
+            "am Morgen",
+            "Guten Morgen",
+            "heute Morgen",
+            "morgens",
+            "morgen"
+          ],
+          "purple": [
+            "morgen",
+            "i morgen"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Morgen"
               ]
             },
             "lv": {
@@ -14424,8 +16742,43 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "morgen",
+                "Morgen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "morgenen"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Morgen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "I morges"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Morgen"
+              ]
+            },
+            "lv": {
+              "purple": [
                 "morgen"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Morgen"
               ]
             },
             "lv": {
@@ -14435,160 +16788,50 @@ const A1_WORDS = [
             }
           }
         ],
-        "tip": [
+        "comparison": [
           {
-            "purple": [
-              "Lille"
-            ]
-          }
-        ],
-        "important": [
-          {
-            "blue": [
-              "morgen"
-            ]
-          }
-        ]
-      }
-    }
-  },
-  {
-    "de": "Morgen",
-    "de_article": "der",
-    "de_plural": "die Morgen",
-    "lv": "Morgenen",
-    "level": "A1",
-    "study": {
-      "id": "a1-morgen-study",
-      "layout": "standardStudy",
-      "translation": "Morgenen",
-      "explanation": [
-        "Hovedidé: Et navneord med en artikel passer til og skrives med stort. Dag del - morgen.",
-        "Der Morgen betyder hovedsageligt: morgenen, den tidlige del af dagen.",
-        "Ofte præget af: vejr.",
-        "Der Morgen betyder primært: en del af dagen.",
-        "Beskriver ofte: navneord (der).",
-        "Der Morgen betyder i bund og grund: flere morgener.",
-        "Ofte karakteriseret ved: navneord (pl.).",
-        "Morgen med et lille begyndelsesbogstav betyder i morgen - næste dag (Ich komme morgen = jeg kommer i morgen, Bis morgen!"
-      ],
-      "examples": [
-        {
-          "de": "Guten Morgen!",
-          "lv": "Godmorgen!"
-        },
-        {
-          "de": "Bis morgen!",
-          "lv": "Indtil i morgen!"
-        },
-        {
-          "de": "Ich komme morgen.",
-          "lv": "Jeg kommer i morgen"
-        },
-        {
-          "de": "Morgen ist Montag.",
-          "lv": "I morgen er det mandag"
-        },
-        {
-          "de": "Guten Morgen!",
-          "lv": "Godmorgen!"
-        },
-        {
-          "de": "Der Morgen ist schön.",
-          "lv": "Morgenen er smuk."
-        }
-      ],
-      "tip": [
-        "Lille morgen = i morgen (Ich komme morgen). der Morgen med stort bogstav = morgen (Guten Morgen!, am Morgen).",
-        "der Morgen = rit"
-      ],
-      "important": [
-        "morgen er små bogstaver - det er et tidsadverbium (i morgen).",
-        "der Morgen med stort bogstav og artiklen der er et navneord (morgen).",
-        "Godmorgen! — altid med stort M (morgen, ikke i morgen).",
-        "Forkert: Guten morgen! → Korrekt: Guten Morgen!"
-      ],
-      "sectionAccents": {
-        "explanation": {
-          "purple": [
-            "Hovedidé"
-          ]
-        },
-        "examples": [
-          {
-            "de": {
+            "word": {
               "green": [
                 "morgen"
               ]
             },
-            "lv": {}
-          },
-          {
-            "de": {
-              "green": [
-                "morgen"
-              ]
-            },
-            "lv": {
+            "meaning": {
               "purple": [
-                "Indtil"
+                "i morgen"
               ]
             }
           },
           {
-            "de": {
+            "word": {
               "green": [
-                "morgen"
+                "der Vormittag"
               ]
             },
-            "lv": {
+            "meaning": {
               "purple": [
-                "Jeg"
+                "formiddag"
               ]
             }
           },
           {
-            "de": {
+            "word": {
               "green": [
-                "morgen"
+                "der Abend"
               ]
             },
-            "lv": {
+            "meaning": {
               "purple": [
-                "morgen"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "morgen"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "green": [
-                "der Morgen",
-                "morgen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Morgenen"
+                "aften"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "Lille"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
+          {},
           {}
         ]
       }
@@ -14608,7 +16851,7 @@ const A1_WORDS = [
     "de": "Mund",
     "de_article": "der",
     "de_plural": "die Münder",
-    "lv": "Munden",
+    "lv": "Mund",
     "level": "A1"
   },
   {
@@ -14619,22 +16862,21 @@ const A1_WORDS = [
   },
   {
     "de": "müssen",
-    "lv": "At have brug for",
+    "lv": "At skulle • At måtte",
     "level": "A1",
     "study": {
       "id": "a1-müssen",
       "layout": "standardStudy",
-      "translation": "At have brug for",
+      "translation": "At skulle • At måtte",
       "explanation": [
-        "Hovedidé: müssen betyder at gøre noget.",
-        "På dansk oversættes müssen ofte med \"mig ja...\", \"du ja...\", \"vi ja...\".",
-        "I en tysk sætning kommer det andet udsagnsord normalt til sidst.",
-        "På A1-niveau er den vigtigste form Ich muss..."
+        "Hovedidé: müssen er et mådesudsagnsord, der betyder “skulle, være nødt til, måtte”: Ich muss gehen – jeg skal gå. Det udtrykker nødvendighed eller pligt.",
+        "Former: ich muss, du musst, er/sie/es muss, wir müssen, ihr müsst, sie müssen; musste, hat gemusst. Det andet udsagnsord står i navnemåde sidst i sætningen: Ich muss heute arbeiten.",
+        "Vigtigt: nicht müssen betyder “ikke behøve”, ikke “ikke måtte”: Du musst nicht kommen – du behøver ikke komme. “Ikke måtte” hedder nicht dürfen. Pas på den falske ven: dansk “må ikke” er nicht dürfen, ikke nicht müssen."
       ],
       "examples": [
         {
-          "de": "Ich muss gehen.",
-          "lv": "Jeg er nødt til at gå"
+          "de": "Ich muss jetzt gehen.",
+          "lv": "Jeg skal gå nu."
         },
         {
           "de": "Du musst warten.",
@@ -14642,83 +16884,63 @@ const A1_WORDS = [
         },
         {
           "de": "Wir müssen lernen.",
-          "lv": "Vi skal lære."
+          "lv": "Vi er nødt til at lære."
         },
         {
           "de": "Ich muss heute arbeiten.",
-          "lv": "Jeg skal arbejde i dag"
+          "lv": "Jeg skal arbejde i dag."
+        },
+        {
+          "de": "Du musst nicht kommen.",
+          "lv": "Du behøver ikke komme."
         }
       ],
       "comparison": [
         {
-          "word": "müssen",
-          "meaning": "Behøver/skal gøre",
-          "example": "Ich muss gehen. = Jeg skal gå."
-        },
-        {
-          "word": "können",
-          "meaning": "Kunne/kende",
-          "example": "Ich kann kommen. = Jeg kan komme."
-        },
-        {
-          "word": "wollen",
-          "meaning": "Vil du",
-          "example": "Ich will nach Hause. = Jeg vil hjem."
+          "word": "sollen",
+          "meaning": "skulle (efter anvisning), burde",
+          "example": "Du sollst mehr schlafen. – Du bør sove mere."
         },
         {
           "word": "dürfen",
-          "meaning": "At få lov",
-          "example": "Darf ich gehen? = Må jeg gå?"
+          "meaning": "måtte, have lov til",
+          "example": "Hier darf man nicht rauchen. – Her må man ikke ryge."
+        },
+        {
+          "word": "brauchen",
+          "meaning": "have brug for",
+          "example": "Ich brauche Hilfe. – Jeg har brug for hjælp."
         }
       ],
-      "tip": {
-        "text": "Husk: Ich muss... = Jeg skal..."
-      },
+      "tip": [
+        "Muss er stærkere end sollen: muss = nødvendigt, soll = efter en andens anvisning.",
+        "Vil man sige “det behøver du ikke”, siger man nicht müssen eller nicht brauchen zu."
+      ],
       "important": [
-        "müssen er et modalt verbum.",
-        "Det andet verbum står normalt sidst i sætningen: Ich muss heute arbeiten."
+        "Nicht müssen ≠ nicht dürfen: Du musst nicht gehen (ikke nødvendigt) ≠ Du darfst nicht gehen (forbudt).",
+        "Müssen bruges ikke med zu: Ich muss gehen, ikke “Ich muss zu gehen”."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "muss",
+            "musst",
+            "musste",
+            "müssen",
+            "müsst"
+          ],
           "purple": [
-            "Hovedidé",
-            "Hovedidé",
-            "Hovedidé",
-            "Hovedidé"
+            "skulle",
+            "være nødt til",
+            "måtte",
+            "ikke behøve"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "muss",
-                "gehen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Jeg"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "musst",
-                "warten"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "vente"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "müssen",
-                "lernen"
+                "muss"
               ]
             },
             "lv": {
@@ -14730,13 +16952,48 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "muss",
-                "arbeiten"
+                "musst"
               ]
             },
             "lv": {
               "purple": [
-                "Jeg"
+                "må"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "müssen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "er nødt til"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "muss"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "skal"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "musst"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "behøver ikke"
               ]
             }
           }
@@ -14745,53 +17002,12 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "müssen"
+                "sollen"
               ]
             },
             "meaning": {
               "purple": [
-                "Behøver/skal",
-                "Behøver/skal"
-              ]
-            },
-            "example": {
-              "blue": [
-                "muss"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "können"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Kunne/kende",
-                "Kunne/kende"
-              ]
-            },
-            "example": {
-              "green": [
-                "kann"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "wollen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Vil"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "will"
+                "skulle (efter anvisning), burde"
               ]
             }
           },
@@ -14803,33 +17019,30 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "lov"
+                "måtte, have lov til"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "brauchen"
               ]
             },
-            "example": {
-              "red": [
-                "Darf"
+            "meaning": {
+              "purple": [
+                "have brug for"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "Ich muss"
-            ],
-            "purple": [
-              "Husk"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "purple": [
-              "müssen",
-              "müssen"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -14845,7 +17058,7 @@ const A1_WORDS = [
     "de": "Mütze",
     "de_article": "die",
     "de_plural": "die Mützen",
-    "lv": "Hat",
+    "lv": "Hue",
     "level": "A1"
   },
   {
@@ -14857,61 +17070,64 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Til • Efter",
       "explanation": [
-        "Hovedidé: nach betyder at med steder og efter med tid eller sekvens.",
-        "Med byer og lande uden artiklen nach ofte betyder at.",
-        "Med tiden betyder nach efter.",
-        "I sætningen nach Hause betyder det hjem."
+        "Hovedidé: nach er et forholdsord med dativ. Det betyder 1) “til” ved byer, lande og nach Hause: Ich fahre nach Berlin; 2) “efter” om tid: nach dem Essen (efter maden), zehn nach acht (ti minutter over otte); 3) “efter” i betydningen “ifølge”: meiner Meinung nach (efter min mening).",
+        "Efter nach følger dativ: nach dem Unterricht, nach der Arbeit. Ved byer og lande uden artikel: nach Deutschland, nach Riga. Ved lande med artikel bruger man in: in die Schweiz.",
+        "Ofte: nach Hause gehen (gå hjem), nach links / nach rechts (til venstre / til højre)."
       ],
       "examples": [
         {
           "de": "Ich fahre nach Berlin.",
-          "lv": "Jeg skal til Berlin."
+          "lv": "Jeg tager til Berlin."
         },
         {
           "de": "Wir gehen nach Hause.",
-          "lv": "Vi skal hjem."
+          "lv": "Vi går hjem."
         },
         {
           "de": "Nach dem Essen gehen wir spazieren.",
-          "lv": "Efter at have spist går vi en tur."
+          "lv": "Efter maden går vi en tur."
         },
         {
           "de": "Es ist zehn nach acht.",
-          "lv": "Klokken er ti over otte."
+          "lv": "Klokken er ti minutter over otte."
+        },
+        {
+          "de": "Gehen Sie nach links.",
+          "lv": "Gå til venstre."
         }
       ],
       "comparison": [
         {
-          "word": "nach",
-          "meaning": "Til/efter",
-          "example": "Ich fahre nach Berlin."
-        },
-        {
           "word": "zu",
-          "meaning": "Til / kl",
-          "example": "Ich gehe zum Arzt. = Jeg går til lægen."
+          "meaning": "til, hos (person, institution)",
+          "example": "Ich gehe zum Arzt. – Jeg går til lægen."
         },
         {
           "word": "in",
-          "meaning": "I / til stedet med artiklen",
-          "example": "Ich gehe in die Schule. = Jeg går til skolen."
+          "meaning": "til (land med artikel)",
+          "example": "Wir fahren in die Schweiz. – Vi tager til Schweiz."
         },
         {
-          "word": "vor",
-          "meaning": "Før / foran",
-          "example": "Vor dem Essen wasche ich die Hände. = Før maden vasker jeg hænderne."
+          "word": "nachdem",
+          "meaning": "efter at",
+          "example": "Nachdem ich gegessen hatte, ging ich. – Efter at jeg havde spist, gik jeg."
         }
       ],
-      "tip": {
-        "text": "Husk: nach Hause; nach Berlin; efter at have spist."
-      },
+      "tip": [
+        "Nach + by/land uden artikel: nach Berlin, nach Lettland; ved en person eller institution bruges zu: zum Arzt.",
+        "Nach om tid = efter: nach der Schule; nach om sted = til."
+      ],
       "important": [
-        "nach bruges ikke med alle steder.",
-        "Til skole er normalt in die Schule, ikke nach Schule."
+        "Nach + dativ, ikke akkusativ: nach dem Essen, nach der Arbeit.",
+        "Nach bruges ikke om en konkret bygning: Ich gehe in die Schule, ikke “nach die Schule”."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "nach"
+          ],
           "purple": [
+            "til",
             "efter"
           ]
         },
@@ -14920,26 +17136,23 @@ const A1_WORDS = [
             "de": {
               "blue": [
                 "nach"
-              ],
-              "green": [
-                "Berlin"
               ]
             },
             "lv": {
               "purple": [
-                "Jeg"
+                "til"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "nach Hause"
+                "nach"
               ]
             },
             "lv": {
               "purple": [
-                "skal"
+                "hjem"
               ]
             }
           },
@@ -14947,9 +17160,6 @@ const A1_WORDS = [
             "de": {
               "blue": [
                 "Nach"
-              ],
-              "yellow": [
-                "Essen"
               ]
             },
             "lv": {
@@ -14966,7 +17176,19 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Klokken"
+                "over"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "nach"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "til"
               ]
             }
           }
@@ -14975,31 +17197,12 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "nach"
+                "zu"
               ]
             },
             "meaning": {
               "purple": [
-                "Til/efter",
-                "Til/efter"
-              ]
-            },
-            "example": {
-              "blue": [
-                "nach"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "zu"
-              ]
-            },
-            "meaning": {},
-            "example": {
-              "yellow": [
-                "zum Arzt"
+                "til, hos"
               ]
             }
           },
@@ -15013,60 +17216,28 @@ const A1_WORDS = [
               "purple": [
                 "til"
               ]
-            },
-            "example": {
-              "green": [
-                "in die Schule"
-              ]
             }
           },
           {
             "word": {
               "green": [
-                "vor"
+                "nachdem"
               ]
             },
             "meaning": {
               "purple": [
-                "Før",
-                "Før"
-              ]
-            },
-            "example": {
-              "red": [
-                "Vor"
+                "efter at"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "nach Hause",
-              "nach Berlin"
-            ],
-            "purple": [
-              "Husk"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "blue": [
-              "nach"
-            ],
-            "red": [
-              "nach"
-            ]
-          },
-          {
-            "green": [
-              "in die Schule"
-            ],
-            "red": [
-              "nach Schule"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -15094,7 +17265,7 @@ const A1_WORDS = [
     "de": "Nase",
     "de_article": "die",
     "de_plural": "die Nasen",
-    "lv": "Næsen",
+    "lv": "Næse",
     "level": "A1"
   },
   {
@@ -15117,50 +17288,64 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Selvfølgelig • Naturlig",
       "explanation": [
-        "Hovedidé: natürlich som et adverb betyder selvfølgelig, som et adjektiv betyder det naturligt.",
-        "I samtale, bekræftende noget, natürlich = selvfølgelig (Kommst du mit? – Natürlich! = Følger du med? – Selvfølgelig!).",
-        "Når man taler om natur, oprindelse eller kvaliteter, er natürlich = naturlig (natürliche Schönheit = naturlig skønhed).",
-        "Konteksten (svar/bekræftelse eller beskrivelse) viser den korrekte betydning."
+        "Hovedidé: natürlich er både biord og tillægsord. Som svar betyder natürlich »selvfølgelig«: Kommst du mit? – Natürlich! Som tillægsord betyder det »naturlig«: natürliche Haare, eine natürliche Reaktion.",
+        "Som tillægsord får det endelser: eine natürliche Farbe, ein natürliches Verhalten. Komparativ: natürlicher, superlativ: am natürlichsten.",
+        "Modsætning: künstlich (kunstig)."
       ],
       "examples": [
         {
           "de": "Kommst du mit? – Natürlich!",
-          "lv": "Kommer du med mig? - selvfølgelig!"
+          "lv": "Kommer du med? – Selvfølgelig!"
+        },
+        {
+          "de": "Natürlich helfe ich dir.",
+          "lv": "Selvfølgelig hjælper jeg dig."
         },
         {
           "de": "Das ist eine natürliche Reaktion.",
           "lv": "Det er en naturlig reaktion."
         },
         {
-          "de": "Natürlich helfe ich dir.",
-          "lv": "Jeg vil selvfølgelig hjælpe dig."
-        },
-        {
           "de": "Sie hat natürliche rote Haare.",
           "lv": "Hun har naturligt rødt hår."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "klar",
+          "meaning": "klart; selvfølgelig",
+          "example": "Klar, ich komme. – Klart, jeg kommer."
         },
         {
-          "de": "Natürlich kann ich das machen.",
-          "lv": "Selvfølgelig kan jeg gøre det."
+          "word": "selbstverständlich",
+          "meaning": "selvfølgelig, en selvfølge",
+          "example": "Selbstverständlich helfe ich. – Selvfølgelig hjælper jeg."
         },
         {
-          "de": "Das ist ganz natürlich.",
-          "lv": "Dette er helt naturligt/normalt."
+          "word": "künstlich",
+          "meaning": "kunstig",
+          "example": "Das ist künstliches Licht. – Det er kunstigt lys."
         }
       ],
       "tip": [
-        "Som et separat ord, bekræftelse eller besvarelse → selvfølgelig.",
-        "Sammen med et substantiv kan natürlich beskrive noget naturligt eller en naturlig egenskab."
+        "Natürlich! er en af de mest almindelige måder at sige »selvfølgelig« på.",
+        "Natürlich kan stå først i sætningen eller midt i den: Natürlich komme ich. / Ich helfe dir natürlich."
       ],
       "important": [
-        "natürlich = selvfølgelig (adverbium, bekræftelse) ELLER naturlig (tillægsord).",
-        "Naturligt! som et separat udråbstegn altid = selvfølgelig!"
+        "Natürlich og künstlich er modsætninger.",
+        "Bemærk: natürlich i betydningen »naturlig« får endelse foran et navneord."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "natürlich",
+            "Natürlich",
+            "natürliche",
+            "künstlich"
+          ],
           "purple": [
-            "man",
-            "man"
+            "selvfølgelig",
+            "naturlig"
           ]
         },
         "examples": [
@@ -15172,43 +17357,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Kommer"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "natürliche"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Det"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "Natürlich"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Jeg"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "natürliche"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Hun"
+                "Selvfølgelig"
               ]
             }
           },
@@ -15226,36 +17375,74 @@ const A1_WORDS = [
           },
           {
             "de": {
-              "green": [
-                "natürlich"
+              "blue": [
+                "natürliche"
               ]
             },
             "lv": {
               "purple": [
-                "Dette"
+                "naturlig"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "natürliche"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "naturligt"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "klar"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "klart"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "selbstverständlich"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "selvfølgelig"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "künstlich"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "kunstig"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "blue": [
-              "Som"
-            ]
-          },
-          {
-            "green": [
-              "Som"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "purple": [
-              "natürlich",
-              "natürlich"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -15267,70 +17454,78 @@ const A1_WORDS = [
   },
   {
     "de": "nehmen",
-    "lv": "At tage • At tage",
+    "lv": "At tage",
     "level": "A1",
     "study": {
       "id": "a1-nehmen",
       "layout": "standardStudy",
-      "translation": "At tage • At tage",
+      "translation": "At tage",
       "explanation": [
-        "Hovedidé: nehmen betyder at tage eller tage.",
-        "Nehmen bruges, når du tager noget for dig selv eller vælger.",
-        "Det er ikke det samme som bringen, fordi bringen betyder at bringe eller tage til nogen.",
-        "Holen betyder at gå efter og hente/tage."
+        "Hovedidé: nehmen betyder »tage« (noget i hånden, til sig selv) og »vælge«: Ich nehme den Bus (jeg tager bussen), Ich nehme einen Kaffee (jeg tager en kaffe). Det bruges også om medicin: Tabletten nehmen (tage piller).",
+        "Former: ich nehme, du nimmst, er nimmt; nahm, hat genommen. Bydemåde: Nimm! (med i, ikke »nehm«). Altid med akkusativ.",
+        "Afledninger med adskilleligt forled: mitnehmen (tage med), wegnehmen (tage fra nogen), annehmen (tage imod, antage), zunehmen (tage på i vægt)."
       ],
       "examples": [
         {
           "de": "Ich nehme den Bus.",
-          "lv": "Jeg tager med bus"
+          "lv": "Jeg tager bussen."
         },
         {
           "de": "Nimm das Buch!",
           "lv": "Tag bogen!"
         },
         {
-          "de": "Ich bringe dir das Buch.",
-          "lv": "Jeg bragte dig en bog"
+          "de": "Sie nimmt ein Stück Kuchen.",
+          "lv": "Hun tager et stykke kage."
         },
         {
-          "de": "Ich hole dich ab.",
-          "lv": "Jeg tager dig"
+          "de": "Ich nehme einen Kaffee, bitte.",
+          "lv": "Jeg tager en kaffe, tak."
+        },
+        {
+          "de": "Er nimmt jeden Tag Tabletten.",
+          "lv": "Han tager piller hver dag."
         }
       ],
       "comparison": [
         {
-          "word": "nehmen",
-          "meaning": "At tage / at tage",
-          "example": "Nimm das Buch! = Tag bogen!"
-        },
-        {
           "word": "bringen",
-          "meaning": "Medbring/tag/lever",
-          "example": "Ich bringe dir das Buch. = Jeg bringer dig bogen."
+          "meaning": "bringe, komme med",
+          "example": "Ich bringe dir das Buch. – Jeg kommer med bogen til dig."
         },
         {
           "word": "holen",
-          "meaning": "Gå efter/hent",
-          "example": "Ich hole Wasser. = Jeg henter vand."
+          "meaning": "hente",
+          "example": "Ich hole Brot. – Jeg henter brød."
         },
         {
-          "word": "mitnehmen",
-          "meaning": "Tag med dig",
-          "example": "Ich nehme dich mit. = Jeg tager dig med."
+          "word": "geben",
+          "meaning": "give",
+          "example": "Gib mir das Buch! – Giv mig bogen!"
         }
       ],
-      "tip": {
-        "text": "Husk: tag selv → nehmen; bringe nogen → bringen."
-      },
+      "tip": [
+        "Nehmen – nahm – genommen: lær bøjningsformerne sammen med nimmt.",
+        "Med transportmidler: den Bus/den Zug nehmen — tage bussen/toget, præcis som på dansk."
+      ],
       "important": [
-        "Ich nehme den Bus på dansk betyder \"jeg tager bussen\".",
-        "nehmen er ikke det samme som bringen."
+        "Bydemåden er Nimm!, ikke »Nehm!«.",
+        "Bland ikke nehmen og bringen sammen: nehmen — tage til sig selv, bringen — bringe til en anden."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "nehmen",
+            "nehme",
+            "nimmt",
+            "nimmst",
+            "nahm",
+            "genommen",
+            "Nimm"
+          ],
           "purple": [
-            "Hovedidé",
-            "Hovedidé"
+            "tage",
+            "vælge"
           ]
         },
         "examples": [
@@ -15338,14 +17533,11 @@ const A1_WORDS = [
             "de": {
               "blue": [
                 "nehme"
-              ],
-              "yellow": [
-                "Bus"
               ]
             },
             "lv": {
               "purple": [
-                "bus"
+                "tager"
               ]
             }
           },
@@ -15353,9 +17545,6 @@ const A1_WORDS = [
             "de": {
               "blue": [
                 "Nimm"
-              ],
-              "yellow": [
-                "Buch"
               ]
             },
             "lv": {
@@ -15366,37 +17555,37 @@ const A1_WORDS = [
           },
           {
             "de": {
-              "red": [
-                "bringe"
-              ],
-              "yellow": [
-                "Buch"
+              "blue": [
+                "nimmt"
               ]
             },
             "lv": {
-              "red": [
-                "Jeg"
-              ],
-              "yellow": [
-                "Jeg"
+              "purple": [
+                "tager"
               ]
             }
           },
           {
             "de": {
-              "red": [
-                "hole"
-              ],
-              "green": [
-                "dich"
+              "blue": [
+                "nehme"
               ]
             },
             "lv": {
-              "red": [
-                "Jeg"
-              ],
-              "green": [
-                "Jeg"
+              "purple": [
+                "tager"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "nimmt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tager"
               ]
             }
           }
@@ -15405,32 +17594,11 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "nehmen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "tage",
-                "tage"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Nimm"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
                 "bringen"
               ]
             },
             "meaning": {
-              "purple": []
-            },
-            "example": {
-              "red": [
+              "purple": [
                 "bringe"
               ]
             }
@@ -15443,62 +17611,37 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "efter/hent",
-                "efter/hent"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "hole"
+                "hente"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "mitnehmen"
+                "geben"
               ]
             },
             "meaning": {
               "purple": [
-                "Tag"
-              ]
-            },
-            "example": {
-              "green": [
-                "nehme",
-                "mit"
+                "give"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "nehmen"
-            ],
-            "purple": [
-              "Husk"
-            ],
-            "red": [
-              "bringen",
-              "Husk"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "purple": [
-              "Ich"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
   },
   {
     "de": "nein",
-    "lv": "Ingen",
+    "lv": "Nej",
     "level": "A1"
   },
   {
@@ -15508,24 +17651,21 @@ const A1_WORDS = [
   },
   {
     "de": "nett",
-    "lv": "Pæn",
+    "lv": "Flink • Rar • Sød",
     "level": "A1"
   },
   {
     "de": "neu",
-    "lv": "Nyt (om ting)",
+    "lv": "Ny",
     "level": "A1",
     "study": {
       "id": "a1-neu",
       "layout": "standardStudy",
-      "translation": "Nyt (om ting)",
+      "translation": "Ny",
       "explanation": [
-        "Hovedidé: neu betyder nyt i form af en ting - for nylig oprettet, købt eller brugt for første gang.",
-        "Neu beskriver ting, enheder, tøj, huse, ideer osv. - ikke menneske- eller dyrealder.",
-        "på dansk har ordet ung to betydninger: ung i alderen (jung) og ung/nyligt oprettet (neu).",
-        "For en persons eller et dyrs alder bruges jung, ikke neu.",
-        "Neu bruges også billedligt: nyt job, ny information, ny begyndelse.",
-        "Det modsatte er alt (gammelt) • Navneordet das Neue betyder nyt."
+        "Hovedidé: neu betyder »ny« om ting og fænomener, der er opstået eller købt for nylig: ein neues Handy, eine neue Wohnung, neue Schuhe. Om en persons alder bruger man jung (ung).",
+        "Foran et navneord bøjes neu: ein neuer Tisch, eine neue Jacke, ein neues Auto, neue Freunde. Komparativ: neuer, superlativ: am neuesten. Efter sein står det uden endelse: Mein Handy ist neu.",
+        "Om personer betyder neu »nyankommen, ny på arbejdet eller i klassen«: ein neuer Kollege, eine neue Lehrerin."
       ],
       "examples": [
         {
@@ -15538,38 +17678,51 @@ const A1_WORDS = [
         },
         {
           "de": "Das ist meine neue Wohnung.",
-          "lv": "Dette er min nye lejlighed."
+          "lv": "Det er min nye lejlighed."
         },
         {
           "de": "Ich habe neue Schuhe gekauft.",
-          "lv": "Jeg købte nye sko."
+          "lv": "Jeg har købt nye sko."
         },
         {
-          "de": "Das ist eine neue Idee.",
-          "lv": "Det er en ny idé."
+          "de": "Wir haben einen neuen Kollegen.",
+          "lv": "Vi har fået en ny kollega."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "jung",
+          "meaning": "ung (om personer)",
+          "example": "Meine Tante ist jung. – Min tante er ung."
         },
         {
-          "de": "Er hat einen neuen Job.",
-          "lv": "Han har et nyt job."
+          "word": "alt",
+          "meaning": "gammel",
+          "example": "Das Haus ist alt. – Huset er gammelt."
         },
         {
-          "de": "Was gibt es Neues?",
-          "lv": "Hvad er nyt"
+          "word": "modern",
+          "meaning": "moderne",
+          "example": "Das Büro ist modern. – Kontoret er moderne."
         }
       ],
       "tip": [
-        "neu handler om ting, enheder og nyheder - når du taler om en persons alder, så brug jung.",
-        "Modsat: neu ↔ alt (ny ↔ gammel)."
+        "Modsætninger: neu ≠ alt (ny ≠ gammel); jung ≠ alt (ung ≠ gammel om personer).",
+        "Neu kan sammensættes: neu eröffnet (nyåbnet), neu bauen (bygge på ny)."
       ],
       "important": [
-        "neu beskriver ting og nyheder, ej heller alderen på en person eller et dyr.",
-        "For en persons eller et dyrs alder, brug jung i stedet for neu.",
-        "Forkert: Meine Schwester ist neu. → Korrekt: Meine Schwester ist jung."
+        "Om en persons alder siger man jung, ikke neu — ligesom dansk skelner mellem ung og ny.",
+        "Neu (ny) og neun (ni) er to forskellige ord."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "neu",
+            "neues",
+            "neuer"
+          ],
           "purple": [
-            "Hovedidé"
+            "ny"
           ]
         },
         "examples": [
@@ -15581,7 +17734,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Min"
+                "ny"
               ]
             }
           },
@@ -15593,7 +17746,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "har"
+                "ny"
               ]
             }
           },
@@ -15605,7 +17758,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Dette"
+                "nye"
               ]
             }
           },
@@ -15617,19 +17770,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Jeg"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "neue"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Det"
+                "nye"
               ]
             }
           },
@@ -15641,52 +17782,56 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Han"
+                "ny"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "jung"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ung"
               ]
             }
           },
           {
-            "de": {
-              "blue": [
-                "Neues"
+            "word": {
+              "green": [
+                "alt"
               ]
             },
-            "lv": {
+            "meaning": {
               "purple": [
-                "Hvad"
+                "gammel"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "modern"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "moderne"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "alt"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "blue": [
-              "neu"
-            ]
-          },
-          {
-            "green": [
-              "jung"
-            ],
-            "blue": [
-              "neu"
-            ]
-          },
-          {
-            "blue": [
-              "neu"
-            ],
-            "green": [
-              "jung"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -15703,7 +17848,7 @@ const A1_WORDS = [
   },
   {
     "de": "neunte",
-    "lv": "Den niende",
+    "lv": "Niende",
     "level": "A1"
   },
   {
@@ -15713,7 +17858,7 @@ const A1_WORDS = [
   },
   {
     "de": "neunzehnte",
-    "lv": "Den nittende",
+    "lv": "Nittende",
     "level": "A1"
   },
   {
@@ -15723,12 +17868,12 @@ const A1_WORDS = [
   },
   {
     "de": "neunzigste",
-    "lv": "Den halvfemsindstyvende",
+    "lv": "Halvfemsindstyvende",
     "level": "A1"
   },
   {
     "de": "nicht",
-    "lv": "Ingen",
+    "lv": "Ikke",
     "level": "A1"
   },
   {
@@ -15755,10 +17900,9 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Endnu",
       "explanation": [
-        "Hovedidé: Noget der stadig foregår eller endnu ikke er færdigt.",
-        "Noch betyder her hovedsageligt, at noget stadig foregår.",
-        "Beskriver ofte: fortsættelse eller ufærdig tilstand.",
-        "Noch betyder stadig: noget, der stadig foregår eller endnu ikke afsluttet."
+        "Hovedidé: noch er et biord, der betyder »endnu, stadig«. Det udtrykker, at noget fortsætter (Ich bin noch zu Hause — jeg er stadig hjemme), eller at der kommer noget mere til (Möchtest du noch einen Kaffee? — vil du have en kaffe mere?).",
+        "Almindelige forbindelser: noch nicht (endnu ikke), noch einmal (en gang til), noch ein/eine (en til, et til), immer noch (stadig). Biordet bøjes ikke.",
+        "Modsætning: noch nicht ≠ schon (allerede); nicht mehr (ikke længere)."
       ],
       "examples": [
         {
@@ -15766,82 +17910,171 @@ const A1_WORDS = [
           "lv": "Jeg er stadig hjemme."
         },
         {
-          "de": "Ich bin noch zu Hause.",
-          "lv": "Jeg er stadig hjemme"
+          "de": "Bist du noch da?",
+          "lv": "Er du der stadig?"
         },
         {
-          "de": "Bist du noch da?",
-          "lv": "Er du her stadig"
+          "de": "Möchtest du noch einen Kaffee?",
+          "lv": "Vil du have en kop kaffe mere?"
+        },
+        {
+          "de": "Er ist noch nicht da.",
+          "lv": "Han er ikke kommet endnu."
+        },
+        {
+          "de": "Es regnet immer noch.",
+          "lv": "Det regner stadig."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "schon",
+          "meaning": "allerede",
+          "example": "Ich habe schon gegessen. – Jeg har allerede spist."
+        },
+        {
+          "word": "nicht mehr",
+          "meaning": "ikke længere, ikke mere",
+          "example": "Er wohnt nicht mehr hier. – Han bor her ikke længere."
+        },
+        {
+          "word": "auch",
+          "meaning": "også",
+          "example": "Ich komme auch. – Jeg kommer også."
         }
       ],
       "tip": [
-        "Noget er stadig i gang eller ikke overstået endnu.",
-        "Brug noch når konteksten passer til denne betydning."
+        "Noch nicht (endnu ikke) er modsætningen til schon: Hast du schon gegessen? – Nein, noch nicht.",
+        "Noch ein/eine/einen = en til, et til: noch einen Kaffee (en kaffe til)."
       ],
       "important": [
-        "noch = endnu.",
-        "Noget er stadig i gang eller ikke overstået endnu."
+        "Noch nicht betyder »endnu ikke«, ikke »ikke længere« — det hedder nicht mehr.",
+        "Noch som forstærkning ved komparativ: noch größer (endnu større)."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "noch",
+            "noch nicht",
+            "noch einmal",
+            "noch ein",
+            "immer noch",
+            "nicht mehr",
+            "schon"
+          ],
           "purple": [
-            "Hovedidé"
+            "endnu",
+            "stadig",
+            "ikke længere"
           ]
         },
         "examples": [
           {
             "de": {
-              "green": [
-                "noch",
+              "blue": [
                 "noch"
               ]
             },
             "lv": {
               "purple": [
-                "Jeg"
+                "stadig"
               ]
             }
           },
           {
             "de": {
-              "green": [
-                "noch",
+              "blue": [
                 "noch"
               ]
             },
             "lv": {
               "purple": [
-                "Jeg"
+                "stadig"
               ]
             }
           },
           {
             "de": {
-              "green": [
-                "noch",
+              "blue": [
                 "noch"
               ]
             },
             "lv": {
               "purple": [
-                "her"
+                "mere"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "noch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "endnu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "noch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "stadig"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "schon"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "allerede"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "nicht mehr"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ikke længere"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "auch"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "også"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "Noget"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "green": [
-              "noch"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -15868,28 +18101,23 @@ const A1_WORDS = [
     "de": "Nummer",
     "de_article": "die",
     "de_plural": "die Nummern",
-    "lv": "Antal",
+    "lv": "Nummer",
     "level": "A1"
   },
   {
     "de": "nur",
-    "lv": "Kun • Kun",
+    "lv": "Kun • Bare",
     "level": "A1",
     "study": {
       "id": "a1-nur-study",
       "layout": "standardStudy",
-      "translation": "Kun • Kun",
+      "translation": "Kun • Bare",
       "explanation": [
-        "Hovedidé: Begrænser antal, antal personer, valg eller muligheder.",
-        "Nur betyder primært: begrænset mængde eller valg.",
-        "Beskriver ofte: hvor mange, præcist, eller hvem den eneste.",
-        "Nur betyder kun, udelukkende, intet mere: det begrænser mængde eller valg."
+        "Hovedidé: nur er et biord, der betyder »kun, bare« — det udtrykker en begrænsning: Ich habe nur zehn Euro (jeg har kun ti euro). Det bøjes ikke og står ved det ord, det begrænser.",
+        "Nur står normalt lige foran det ord, der begrænses: Nur du kannst mir helfen (kun du kan hjælpe mig), Ich möchte nur Kaffee. Sammen med nicht: nicht nur … sondern auch (ikke kun … men også).",
+        "I talesprog kan nur forstærke spørgsmål: Wie ist das nur möglich? — Hvordan er det dog muligt?"
       ],
       "examples": [
-        {
-          "de": "Ich habe nur zehn Euro.",
-          "lv": "Jeg har kun ti euro."
-        },
         {
           "de": "Ich habe nur zehn Euro.",
           "lv": "Jeg har kun ti euro."
@@ -15900,70 +18128,70 @@ const A1_WORDS = [
         },
         {
           "de": "Ich möchte nur Kaffee.",
-          "lv": "Jeg vil bare have kaffe"
+          "lv": "Jeg vil kun have kaffe."
         },
         {
-          "de": "Ich habe nur acht Euro.",
-          "lv": "Jeg har kun otte euro."
+          "de": "Das kostet nur fünf Euro.",
+          "lv": "Det koster kun fem euro."
+        },
+        {
+          "de": "Er spricht nicht nur Deutsch, sondern auch Englisch.",
+          "lv": "Han taler ikke kun tysk, men også engelsk."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "erst",
+          "meaning": "kun, først (om tid og mængde)",
+          "example": "Es ist erst acht Uhr. – Klokken er kun otte."
+        },
+        {
+          "word": "einzig",
+          "meaning": "eneste",
+          "example": "Das ist der einzige Weg. – Det er den eneste vej."
+        },
+        {
+          "word": "bloß",
+          "meaning": "bare (talesprog)",
+          "example": "Ich wollte dich bloß fragen. – Jeg ville bare spørge dig."
         }
       ],
       "tip": [
-        "Begrænser antal, antal personer, valg eller muligheder.",
-        "Brug nur når konteksten passer til denne betydning."
+        "Nur = begrænsning, erst = »først, kun« om tid: Es ist erst acht — klokken er kun otte.",
+        "Sæt nur lige foran det ord, du vil begrænse, for placeringen ændrer sætningens betydning."
       ],
       "important": [
-        "Dansk \"kun\" på tysk er ikke altid nur.",
-        "nur = kun / udelukkende."
+        "Nur og nun (nu) adskiller sig kun med ét bogstav — bland dem ikke sammen.",
+        "Nicht nur … sondern auch er en fast konstruktion."
       ],
       "sectionAccents": {
         "explanation": {
-          "orange": [
+          "blue": [
             "nur",
-            "nur"
+            "nicht nur … sondern auch"
           ],
-          "green": [
-            "Hovedidé"
-          ],
-          "red": [
-            "Hovedidé"
-          ],
-          "yellow": [
-            "Hovedidé",
-            "Hovedidé"
+          "purple": [
+            "kun",
+            "bare"
           ]
         },
         "examples": [
           {
             "de": {
-              "orange": [
-                "nur",
+              "blue": [
                 "nur"
               ]
             },
             "lv": {
               "purple": [
-                "Jeg"
+                "kun"
               ]
             }
           },
           {
             "de": {
-              "orange": [
-                "nur",
-                "nur"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Jeg"
-              ]
-            }
-          },
-          {
-            "de": {
-              "orange": [
-                "nur",
-                "nur"
+              "blue": [
+                "Nur"
               ]
             },
             "lv": {
@@ -15974,27 +18202,75 @@ const A1_WORDS = [
           },
           {
             "de": {
-              "orange": [
-                "nur",
+              "blue": [
                 "nur"
               ]
             },
             "lv": {
               "purple": [
-                "Jeg"
+                "kun"
               ]
             }
           },
           {
             "de": {
-              "orange": [
-                "nur",
+              "blue": [
                 "nur"
               ]
             },
             "lv": {
               "purple": [
-                "Jeg"
+                "kun"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "nur"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kun"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "erst"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "kun"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "einzig"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "eneste"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "bloß"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "bare"
               ]
             }
           }
@@ -16004,11 +18280,8 @@ const A1_WORDS = [
           {}
         ],
         "important": [
-          {
-            "orange": [
-              "nur"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -16022,10 +18295,9 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Om",
       "explanation": [
-        "Hovedidé: ob introducerer et indirekte spørgsmål og betyder på dansk oftest om.",
-        "Ob bruges efter ord som fragen, wissen, sehen, sagen, når der ikke er noget direkte spørgsmål.",
-        "Ob bruges normalt ikke i et direkte spørgsmål på tysk.",
-        "På A1-niveau er det vigtigt at skelne ob fra oder."
+        "Hovedidé: ob er et underordningsbindeord, der betyder »om« og indleder et indirekte spørgsmål (ja/nej-spørgsmål): Ich weiß nicht, ob er kommt — jeg ved ikke, om han kommer.",
+        "Ordstilling: efter ob står udsagnsordet sidst i ledsætningen: Sie fragt, ob du Zeit hast. Der står altid komma foran ob. Typiske udsagnsord: fragen, wissen, nicht wissen, sich fragen, sagen.",
+        "Ob bruges kun, når svaret er »ja« eller »nej«. Har spørgsmålet et spørgeord (wo, wann), skal der ikke stå ob: Ich weiß, wo er wohnt."
       ],
       "examples": [
         {
@@ -16034,51 +18306,50 @@ const A1_WORDS = [
         },
         {
           "de": "Sie fragt, ob du Zeit hast.",
-          "lv": "Hun spørger om du har tid."
+          "lv": "Hun spørger, om du har tid."
         },
         {
           "de": "Sag mir, ob das stimmt.",
-          "lv": "Fortæl mig om dette er sandt."
+          "lv": "Sig mig, om det passer."
         },
         {
-          "de": "Kommst du heute oder morgen?",
-          "lv": "Kommer du i dag eller i morgen?"
+          "de": "Ich frage mich, ob es morgen regnet.",
+          "lv": "Jeg spekulerer på, om det regner i morgen."
         }
       ],
       "comparison": [
         {
-          "word": "ob",
-          "meaning": "Eller i et indirekte spørgsmål",
-          "example": "Ich weiß nicht, ob er kommt. = Jeg ved ikke, om han kommer."
-        },
-        {
-          "word": "oder",
-          "meaning": "Eller vælg mellem muligheder",
-          "example": "Kaffee oder Tee? = Kaffe eller te?"
-        },
-        {
           "word": "wenn",
-          "meaning": "Hvis / hvornår",
-          "example": "Wenn du Zeit hast..."
+          "meaning": "hvis; når",
+          "example": "Wenn es regnet, bleibe ich zu Hause. – Hvis det regner, bliver jeg hjemme."
         },
         {
           "word": "dass",
-          "meaning": "At",
-          "example": "Ich weiß, dass er kommt. = Jeg ved, at han kommer."
+          "meaning": "at",
+          "example": "Ich weiß, dass er kommt. – Jeg ved, at han kommer."
+        },
+        {
+          "word": "oder",
+          "meaning": "eller (valg)",
+          "example": "Kaffee oder Tee? – Kaffe eller te?"
         }
       ],
-      "tip": {
-        "text": "Husk: Jeg ved ikke om... → ob; kaffe eller te → eller."
-      },
+      "tip": [
+        "Ob = om (i indirekte spørgsmål), wenn = hvis/når, dass = at: lær dem som en trio.",
+        "Efter ob står udsagnsordet sidst: …, ob er morgen kommt."
+      ],
       "important": [
-        "ob er ikke den sædvanlige form for et \"eller\" valg mellem to ting.",
-        "Kaffee eller Tee? bruges eller, ikke ob."
+        "Bland ikke ob og oder sammen: ob er et underordningsbindeord, oder er et sideordningsbindeord, der giver valg mellem ord eller sætninger.",
+        "Ob betyder ikke »hvis« — en betingelse udtrykkes med wenn. Dansk »om« kan godt betyde »hvis« (om nødvendigt), men det hedder aldrig ob på tysk."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "ob",
+            "Ob"
+          ],
           "purple": [
-            "Hovedidé",
-            "Hovedidé"
+            "om"
           ]
         },
         "examples": [
@@ -16090,7 +18361,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Jeg"
+                "om"
               ]
             }
           },
@@ -16102,7 +18373,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Hun"
+                "om"
               ]
             }
           },
@@ -16114,60 +18385,24 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Fortæl"
+                "om"
               ]
             }
           },
           {
             "de": {
-              "red": [
-                "oder"
+              "blue": [
+                "ob"
               ]
             },
             "lv": {
-              "red": [
-                "Kommer"
+              "purple": [
+                "om"
               ]
             }
           }
         ],
         "comparison": [
-          {
-            "word": {
-              "green": [
-                "ob"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "indirekte",
-                "indirekte"
-              ]
-            },
-            "example": {
-              "blue": [
-                "ob"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "oder"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Eller",
-                "Eller"
-              ]
-            },
-            "example": {
-              "red": [
-                "oder"
-              ]
-            }
-          },
           {
             "word": {
               "green": [
@@ -16176,13 +18411,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Hvis",
-                "Hvis"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "Wenn"
+                "hvis"
               ]
             }
           },
@@ -16192,117 +18421,111 @@ const A1_WORDS = [
                 "dass"
               ]
             },
-            "meaning": {},
-            "example": {
+            "meaning": {
+              "purple": [
+                "at"
+              ]
+            }
+          },
+          {
+            "word": {
               "green": [
-                "dass"
+                "oder"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "eller"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "ob"
-            ],
-            "purple": [
-              "Husk"
-            ],
-            "red": [
-              "Husk",
-              "Husk"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "blue": [
-              "ob"
-            ]
-          },
-          {
-            "red": [
-              "oder"
-            ],
-            "blue": [
-              "ob"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
   },
   {
     "de": "oben",
-    "lv": "Over",
+    "lv": "Oppe • Foroven",
     "level": "A1"
   },
   {
     "de": "oder",
-    "lv": "Eller • Eller",
+    "lv": "Eller",
     "level": "A1",
     "study": {
       "id": "a1-oder",
       "layout": "standardStudy",
-      "translation": "Eller • Eller",
+      "translation": "Eller",
       "explanation": [
-        "Hovedidé: oder bruges, når vi vælger mellem to eller flere muligheder.",
-        "på dansk betyder oder oftest eller.",
-        "Det er ikke det samme som ob, som introducerer et indirekte spørgsmål.",
-        "I samtaler kan oder også stå i slutningen af sætningen: Du kommst, oder?"
+        "Hovedidé: oder er et sideordningsbindeord, der betyder »eller« — det giver et valg mellem muligheder: Kaffee oder Tee? Det forbinder ord, udtryk eller sætninger og ændrer ikke ordstillingen.",
+        "Ordstillingen ændres ikke efter oder: Ich gehe nach Hause, oder ich bleibe hier. I talesprog danner oder sidst i sætningen et bekræftende spørgsmål: Du kommst, oder? — Du kommer, ikke?",
+        "Fast konstruktion: entweder … oder … — enten … eller …."
       ],
       "examples": [
         {
-          "de": "Kaffee oder Tee?",
-          "lv": "Kaffe eller te?"
+          "de": "Möchtest du Kaffee oder Tee?",
+          "lv": "Vil du have kaffe eller te?"
         },
         {
-          "de": "Heute oder morgen?",
-          "lv": "I dag eller i morgen?"
+          "de": "Kommst du heute oder morgen?",
+          "lv": "Kommer du i dag eller i morgen?"
         },
         {
           "de": "Willst du Pizza oder Salat?",
-          "lv": "Vil du have pizza eller salat"
+          "lv": "Vil du have pizza eller salat?"
         },
         {
-          "de": "Du kommst, oder?",
-          "lv": "Du kommer, vil du ikke?"
+          "de": "Du kommst doch, oder?",
+          "lv": "Du kommer vel, ikke?"
+        },
+        {
+          "de": "Wir fahren entweder nach Berlin oder nach Hamburg.",
+          "lv": "Vi kører enten til Berlin eller til Hamborg."
         }
       ],
       "comparison": [
         {
-          "word": "oder",
-          "meaning": "Eller vælg",
-          "example": "Kaffee oder Tee? = Kaffe eller te?"
-        },
-        {
-          "word": "ob",
-          "meaning": "Eller i et indirekte spørgsmål",
-          "example": "Ich weiß nicht, ob er kommt. = Jeg ved ikke, om han kommer."
-        },
-        {
           "word": "und",
-          "meaning": "Og",
-          "example": "Kaffee und Kuchen. = Kaffe og kage."
+          "meaning": "og",
+          "example": "Kaffee und Tee – kaffe og te"
         },
         {
           "word": "aber",
-          "meaning": "Men",
-          "example": "Ich komme, aber später. = Jeg kommer, men senere."
+          "meaning": "men",
+          "example": "Ich möchte kommen, aber ich habe keine Zeit. – Jeg vil gerne komme, men jeg har ikke tid."
+        },
+        {
+          "word": "ob",
+          "meaning": "om (i indirekte spørgsmål)",
+          "example": "Ich weiß nicht, ob er kommt. – Jeg ved ikke, om han kommer."
         }
       ],
-      "tip": {
-        "text": "Husk: valg mellem varianter → oder."
-      },
+      "tip": [
+        "Oder = valg, und = tilføjelse, aber = modsætning: kaffe eller te / kaffe og te / kaffe, men uden sukker.",
+        "Du kommst, oder? er en meget almindelig måde at bede om bekræftelse på — ligesom dansk »ikke?«."
+      ],
       "important": [
-        "oder bruges til at vælge: Kaffee eller Tee.",
-        "I et indirekte spørgsmål er \"om\" normalt ob."
+        "Oder (eller) og ob (om i indirekte spørgsmål) kan ikke erstatte hinanden: Ich weiß nicht, ob er kommt oder bleibt.",
+        "Efter oder ændres udsagnsordets plads ikke: Ich gehe oder ich bleibe."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "oder",
+            "oder",
+            "entweder … oder"
+          ],
           "purple": [
-            "Hovedidé",
-            "Hovedidé"
+            "eller",
+            "enten … eller"
           ]
         },
         "examples": [
@@ -16310,15 +18533,11 @@ const A1_WORDS = [
             "de": {
               "blue": [
                 "oder"
-              ],
-              "yellow": [
-                "Kaffee",
-                "Tee"
               ]
             },
             "lv": {
               "purple": [
-                "Kaffe"
+                "eller"
               ]
             }
           },
@@ -16330,23 +18549,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "dag"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "oder"
-              ],
-              "yellow": [
-                "Pizza",
-                "Salat"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Vil"
+                "eller"
               ]
             }
           },
@@ -16358,7 +18561,31 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kommer"
+                "eller"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "oder"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ikke"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "oder"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "eller"
               ]
             }
           }
@@ -16367,49 +18594,12 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "oder"
+                "und"
               ]
             },
             "meaning": {
               "purple": [
-                "Eller",
-                "Eller"
-              ]
-            },
-            "example": {
-              "blue": [
-                "oder"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "ob"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "indirekte",
-                "indirekte"
-              ]
-            },
-            "example": {
-              "red": [
-                "ob"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "und"
-              ]
-            },
-            "meaning": {},
-            "example": {
-              "green": [
-                "und"
+                "og"
               ]
             }
           },
@@ -16421,34 +18611,30 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Men"
+                "men"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "ob"
               ]
             },
-            "example": {
-              "yellow": [
-                "aber"
+            "meaning": {
+              "purple": [
+                "om"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "oder"
-            ],
-            "purple": [
-              "Husk",
-              "Husk"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "purple": [
-              "oder",
-              "oder"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -16492,7 +18678,7 @@ const A1_WORDS = [
     "de": "Orange",
     "de_article": "die",
     "de_plural": "die Orangen",
-    "lv": "En appelsin",
+    "lv": "Appelsin",
     "level": "A1"
   },
   {
@@ -16504,7 +18690,7 @@ const A1_WORDS = [
     "de": "Paar",
     "de_article": "das",
     "de_plural": "die Paare",
-    "lv": "Et par",
+    "lv": "Par",
     "level": "A1"
   },
   {
@@ -16518,74 +18704,82 @@ const A1_WORDS = [
     "de": "Park",
     "de_article": "der",
     "de_plural": "die Parks",
-    "lv": "Parkere",
+    "lv": "Park",
     "level": "A1"
   },
   {
     "de": "passen",
-    "lv": "Tilpas • Tilpas",
+    "lv": "At passe • At klæde",
     "level": "A1",
     "study": {
       "id": "a1-passen",
       "layout": "standardStudy",
-      "translation": "Tilpas • Tilpas",
+      "translation": "At passe • At klæde",
       "explanation": [
-        "Hovedidé: passager betyder at passe, passe eller være egnet.",
-        "For tøj betyder passager ofte at passe til størrelsen.",
-        "For farver eller stil betyder passager at passe.",
-        "En meget almindelig sætning er Das passt. = Det passer."
+        "Hovedidé: passen betyder »passe« — i størrelse, form, tid eller stil. Die Jacke passt mir — jakken passer mig. Personen står i dativ: Der Termin passt mir nicht.",
+        "Former: passt, passte, hat gepasst. Med zu + dativ betyder det »klæde, passe til«: Die Farbe passt zu dir (farven klæder dig), Das passt zusammen (det passer sammen).",
+        "Alene betyder Das passt! »Det passer!« eller »Fint!« — et udtryk for enighed."
       ],
       "examples": [
         {
           "de": "Die Jacke passt mir.",
-          "lv": "Jakken passer til mig."
+          "lv": "Jakken passer mig."
         },
         {
           "de": "Das Kleid passt gut.",
-          "lv": "Kjolen sidder godt."
+          "lv": "Kjolen passer godt."
         },
         {
           "de": "Die Farbe passt zu dir.",
-          "lv": "Denne farve passer til dig."
+          "lv": "Farven klæder dig."
         },
         {
-          "de": "Das passt.",
-          "lv": "Det passer."
+          "de": "Der Termin passt mir nicht.",
+          "lv": "Tidspunktet passer mig ikke."
+        },
+        {
+          "de": "Das passt!",
+          "lv": "Det passer!"
         }
       ],
       "comparison": [
         {
-          "word": "passen",
-          "meaning": "Pasform / pasform",
-          "example": "Die Jacke passt mir. = Jakken passer mig."
+          "word": "gefallen",
+          "meaning": "kunne lide, falde i ens smag",
+          "example": "Das Kleid gefällt mir. – Jeg kan godt lide kjolen."
         },
         {
           "word": "stehen",
-          "meaning": "At stå / at stå",
-          "example": "Rot steht dir gut. = Rød ser godt ud på dig."
+          "meaning": "klæde (om tøj)",
+          "example": "Das Kleid steht dir gut. – Kjolen klæder dig godt."
         },
         {
-          "word": "geeignet sein",
-          "meaning": "At være egnet",
-          "example": "Das ist geeignet."
-        },
-        {
-          "word": "funktionieren",
-          "meaning": "At operere",
-          "example": "Das funktioniert. = Det fungerer."
+          "word": "aufpassen",
+          "meaning": "passe på",
+          "example": "Pass auf! – Pas på!"
         }
       ],
-      "tip": {
-        "text": "Husk: Das passt. = Tas der."
-      },
+      "tip": [
+        "Passen + dativ: Die Hose passt mir (ikke »mich«).",
+        "Med Das passt! siger du ja til et tidspunkt, en løsning eller en størrelse."
+      ],
       "important": [
-        "passerge handler ikke kun om tøj.",
-        "Det kan også betyde, at timingen, planen eller løsningen er rigtig."
+        "Passen (passe) og aufpassen (passe på) er forskellige udsagnsord; aufpassen har adskilleligt forled — ligesom dansk »passe« og »passe på«.",
+        "Efter passen står personen altid i dativ: mir, dir, ihm, ihr."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "passen",
+            "passt",
+            "passte",
+            "gepasst",
+            "zu dir"
+          ],
           "purple": [
-            "Hovedidé"
+            "passe",
+            "klæde",
+            "passer"
           ]
         },
         "examples": [
@@ -16593,14 +18787,11 @@ const A1_WORDS = [
             "de": {
               "blue": [
                 "passt"
-              ],
-              "yellow": [
-                "Jacke"
               ]
             },
             "lv": {
               "purple": [
-                "Jakken"
+                "passer"
               ]
             }
           },
@@ -16608,14 +18799,11 @@ const A1_WORDS = [
             "de": {
               "blue": [
                 "passt"
-              ],
-              "yellow": [
-                "Kleid"
               ]
             },
             "lv": {
               "purple": [
-                "Kjolen"
+                "passer"
               ]
             }
           },
@@ -16623,26 +18811,35 @@ const A1_WORDS = [
             "de": {
               "blue": [
                 "passt"
-              ],
-              "yellow": [
-                "Farbe"
               ]
             },
             "lv": {
               "purple": [
-                "Denne"
+                "klæder"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "Das passt"
+                "passt"
               ]
             },
             "lv": {
               "purple": [
-                "Det"
+                "passer"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "passt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "passer"
               ]
             }
           }
@@ -16651,18 +18848,12 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "passen"
+                "gefallen"
               ]
             },
             "meaning": {
               "purple": [
-                "Pasform",
-                "Pasform"
-              ]
-            },
-            "example": {
-              "blue": [
-                "passt"
+                "kunne lide"
               ]
             }
           },
@@ -16674,67 +18865,30 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "stå",
-                "stå"
-              ]
-            },
-            "example": {
-              "green": [
-                "steht"
+                "klæde"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "geeignet sein"
+                "aufpassen"
               ]
             },
             "meaning": {
               "purple": [
-                "være"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "geeignet"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "funktionieren"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "operere"
-              ]
-            },
-            "example": {
-              "red": [
-                "funktioniert"
+                "passe på"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "Das passt"
-            ],
-            "purple": [
-              "tas der"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "purple": [
-              "passerge"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -16743,7 +18897,7 @@ const A1_WORDS = [
     "de": "Pause",
     "de_article": "die",
     "de_plural": "die Pausen",
-    "lv": "En pause",
+    "lv": "Pause",
     "level": "A1"
   },
   {
@@ -16757,7 +18911,7 @@ const A1_WORDS = [
     "de": "Pferd",
     "de_article": "das",
     "de_plural": "die Pferde",
-    "lv": "En hest",
+    "lv": "Hest",
     "level": "A1"
   },
   {
@@ -16785,13 +18939,13 @@ const A1_WORDS = [
     "de": "Platz",
     "de_article": "der",
     "de_plural": "die Plätze",
-    "lv": "Placere",
+    "lv": "Plads",
     "level": "A1"
   },
   {
     "de": "Polizei",
     "de_article": "die",
-    "lv": "Politiet",
+    "lv": "Politi",
     "level": "A1"
   },
   {
@@ -16816,19 +18970,18 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "At prøve • At smage",
       "explanation": [
-        "Hovedidé: probieren betyder at prøve eller smage.",
-        "Når det kommer til mad eller drikke, betyder probieren ofte at smage.",
-        "Når det kommer til en handling, metode eller ting, betyder probieren at prøve.",
-        "Det er ikke det samme som prüfen, hvilket betyder at kontrollere mere omhyggeligt."
+        "Hovedidé: probieren betyder »prøve« (noget nyt) og »smage« (mad, drikke): Probier mal die Suppe! Ich möchte den Kuchen probieren.",
+        "Former: probiert, probierte, hat probiert (uden ge-, fordi det ender på -ieren). Altid med akkusativ: etwas probieren. Afledning med adskilleligt forled: anprobieren (prøve tøj på).",
+        "Venligt sammen med mal: Probier mal! — Prøv lige!"
       ],
       "examples": [
         {
           "de": "Probier mal die Suppe!",
-          "lv": "Smag på suppen!"
+          "lv": "Smag lige på suppen!"
         },
         {
           "de": "Ich möchte den Kuchen probieren.",
-          "lv": "Jeg vil smage kagen."
+          "lv": "Jeg vil gerne smage kagen."
         },
         {
           "de": "Wir probieren eine neue Methode.",
@@ -16836,44 +18989,45 @@ const A1_WORDS = [
         },
         {
           "de": "Kann ich die Jacke anprobieren?",
-          "lv": "Må jeg prøve jakken"
+          "lv": "Må jeg prøve jakken på?"
         }
       ],
       "comparison": [
         {
-          "word": "probieren",
-          "meaning": "Prøv / smag",
-          "example": "Probier mal die Suppe! = Smag suppen!"
-        },
-        {
           "word": "versuchen",
-          "meaning": "At prøve",
-          "example": "Ich versuche es. = Jeg prøver det."
+          "meaning": "forsøge",
+          "example": "Ich versuche zu schlafen. – Jeg forsøger at sove."
         },
         {
-          "word": "prüfen",
-          "meaning": "At tjekke",
-          "example": "Ich prüfe die Rechnung. = Jeg kontrollerer regningen."
+          "word": "kosten",
+          "meaning": "smage; koste",
+          "example": "Kosten Sie bitte den Wein. – Smag venligst på vinen."
         },
         {
           "word": "anprobieren",
-          "meaning": "For at prøve",
-          "example": "Ich probiere die Jacke an. = Jeg prøver jakken på."
+          "meaning": "prøve på (tøj)",
+          "example": "Ich probiere die Schuhe an. – Jeg prøver skoene på."
         }
       ],
-      "tip": {
-        "text": "Skal: mad → probieren = efter smag."
-      },
+      "tip": [
+        "Probieren — smage på mad eller prøve noget nyt; versuchen — forsøge at gøre noget: Ich versuche zu kommen.",
+        "Mal gør det blødere: Probier mal! (prøv lige)."
+      ],
       "important": [
-        "probieren er ikke hovedordet for formel eksamen.",
-        "At kontrollere et dokument eller en faktura er normalt prüfen."
+        "Probieren betyder ikke »forsøge, anstrenge sig«; det hedder versuchen.",
+        "Førnutid uden ge-: hat probiert, ikke »hat geprobiert«."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "probieren",
+            "probiert",
+            "probierte",
+            "anprobieren"
+          ],
           "purple": [
-            "Hovedidé",
-            "Hovedidé",
-            "Hovedidé"
+            "prøve",
+            "smage"
           ]
         },
         "examples": [
@@ -16881,9 +19035,6 @@ const A1_WORDS = [
             "de": {
               "blue": [
                 "Probier"
-              ],
-              "yellow": [
-                "Suppe"
               ]
             },
             "lv": {
@@ -16896,14 +19047,11 @@ const A1_WORDS = [
             "de": {
               "blue": [
                 "probieren"
-              ],
-              "yellow": [
-                "Kuchen"
               ]
             },
             "lv": {
               "purple": [
-                "Jeg"
+                "smage"
               ]
             }
           },
@@ -16911,9 +19059,6 @@ const A1_WORDS = [
             "de": {
               "blue": [
                 "probieren"
-              ],
-              "yellow": [
-                "Methode"
               ]
             },
             "lv": {
@@ -16924,19 +19069,13 @@ const A1_WORDS = [
           },
           {
             "de": {
-              "green": [
+              "blue": [
                 "anprobieren"
-              ],
-              "yellow": [
-                "Jacke"
               ]
             },
             "lv": {
-              "green": [
-                "jeg"
-              ],
-              "yellow": [
-                "jeg"
+              "purple": [
+                "prøve"
               ]
             }
           }
@@ -16945,52 +19084,24 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "probieren"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Prøv",
-                "Prøv"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Probier"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
                 "versuchen"
               ]
             },
             "meaning": {
               "purple": [
-                "prøve"
-              ]
-            },
-            "example": {
-              "green": [
-                "versuche"
+                "forsøge"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "prüfen"
+                "kosten"
               ]
             },
             "meaning": {
               "purple": [
-                "tjekke"
-              ]
-            },
-            "example": {
-              "red": [
-                "prüfe"
+                "smage"
               ]
             }
           },
@@ -17002,36 +19113,18 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "For"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "probiere",
-                "an"
+                "prøve på"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "probieren"
-            ],
-            "yellow": [
-              "Skal"
-            ],
-            "purple": [
-              "Skal"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "purple": [
-              "probieren"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -17071,7 +19164,7 @@ const A1_WORDS = [
   },
   {
     "de": "Rad fahren",
-    "lv": "Kør en cykel",
+    "lv": "At cykle",
     "level": "A1"
   },
   {
@@ -17088,7 +19181,7 @@ const A1_WORDS = [
   },
   {
     "de": "rechts",
-    "lv": "Til højre • Til højre",
+    "lv": "Til højre • Højre",
     "level": "A1"
   },
   {
@@ -17106,12 +19199,12 @@ const A1_WORDS = [
     "de": "Regenschirm",
     "de_article": "der",
     "de_plural": "die Regenschirme",
-    "lv": "En paraply",
+    "lv": "Paraply",
     "level": "A1"
   },
   {
     "de": "regnen",
-    "lv": "Det regner",
+    "lv": "At regne",
     "level": "A1"
   },
   {
@@ -17123,50 +19216,77 @@ const A1_WORDS = [
       "id": "a1-reis",
       "layout": "standardStudy",
       "translation": "Ris",
-      "explanation": "På tysk bruges ordet \"der Reis\" kun i ental, så verbet i sætningen skal være i entalsform (f.eks. \"ist\", ikke \"sind\"). Lettere siger dog ofte \"ris\".",
+      "explanation": [
+        "Hovedidé: der Reis er et hankønsnavneord — ris som kornsort og som mad. På tysk er det et entalsord: Der Reis ist fertig (risen er færdig). Det passer fint med dansk, hvor »ris« heller ikke bruges i flertal.",
+        "Flertal bruges normalt ikke; har man brug for det, taler man om sorter: Reissorten. I retter: Reis mit Gemüse, Milchreis (risengrød), Reiskocher (riskoger).",
+        "Reis og Reise (rejse) er forskellige ord."
+      ],
       "examples": [
         {
           "de": "Der Reis ist fertig.",
-          "lv": "Risene er klar."
+          "lv": "Risen er færdig."
         },
         {
-          "de": "Ich esse Reis.",
-          "lv": "Jeg spiser ris"
+          "de": "Ich esse gern Reis mit Gemüse.",
+          "lv": "Jeg spiser gerne ris med grøntsager."
         },
         {
-          "de": "Kochst du Reis?",
-          "lv": "Koger du ris?"
+          "de": "Kochst du heute Reis?",
+          "lv": "Laver du ris i dag?"
         },
         {
           "de": "Der Reis schmeckt gut.",
-          "lv": "Risene smager godt."
+          "lv": "Risen smager godt."
         }
       ],
-      "tip": {
-        "text": "Husk: der Reis er ental på tysk, men normalt ris på dansk."
-      },
+      "comparison": [
+        {
+          "word": "die Nudeln",
+          "meaning": "pasta, nudler",
+          "example": "Ich koche Nudeln. – Jeg laver pasta."
+        },
+        {
+          "word": "die Kartoffeln",
+          "meaning": "kartofler",
+          "example": "Wir essen Kartoffeln. – Vi spiser kartofler."
+        },
+        {
+          "word": "das Brot",
+          "meaning": "brød",
+          "example": "Ich kaufe Brot. – Jeg køber brød."
+        }
+      ],
+      "tip": [
+        "Der Reis bruges uden flertal og uden kendeord, når man taler om mad generelt: Ich esse Reis.",
+        "Skeln mellem Reis (ris) og Reise (rejse): Reise ender på -e."
+      ],
       "important": [
-        "der Reis - på tysk kun ental (Der Reis ist..., nicht *sind).",
-        "på dansk oversættes ofte i flertal: risene er klar."
+        "Tysk Reis står i ental: der Reis ist fertig, ikke »die Reis sind«.",
+        "Der Reis, ikke »die Reis«."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "Reis",
+            "der Reis",
+            "Reissorten",
+            "Milchreis",
+            "Reise"
+          ],
           "purple": [
-            "tysk",
-            "tysk"
+            "ris"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "Reis",
-                "ist"
+                "Reis"
               ]
             },
             "lv": {
               "purple": [
-                "Risene"
+                "Risen"
               ]
             }
           },
@@ -17178,16 +19298,81 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Jeg"
+                "ris"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Reis"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ris"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Reis"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Risen"
               ]
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "Husk"
-          ]
-        }
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "die Nudeln"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "pasta"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Kartoffeln"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "kartofler"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "das Brot"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "brød"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -17208,7 +19393,7 @@ const A1_WORDS = [
   },
   {
     "de": "rufen",
-    "lv": "At ringe",
+    "lv": "At råbe • At kalde",
     "level": "A1"
   },
   {
@@ -17220,7 +19405,7 @@ const A1_WORDS = [
     "de": "Rose",
     "de_article": "die",
     "de_plural": "die Rosen",
-    "lv": "En rose",
+    "lv": "Rose",
     "level": "A1"
   },
   {
@@ -17246,62 +19431,177 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "At sige",
       "explanation": [
-        "Hovedidé: Fortæl en bestemt idé, ord eller sætning.",
-        "Sagen betyder hovedsageligt: at sige noget eller udtrykke en bestemt tanke.",
-        "Beskriver ofte: ord/sætninger.",
-        "Sagen bruges til en bestemt given tekst."
+        "Hovedidé: sagen betyder »sige«, når nogen udtrykker ord eller en mening: Was hast du gesagt? Er sagt die Wahrheit. Wie sagt man das auf Deutsch?",
+        "Former: sagt, sagte, hat gesagt. Den person, man siger noget til, står i dativ, tingen i akkusativ: Ich sage dir die Wahrheit. Ofte med en dass-sætning: Sie sagt, dass sie müde ist.",
+        "I direkte tale: Er sagt: „Ich komme.“ Forskellen fra sprechen: sagen — sige et bestemt indhold, sprechen — tale (et sprog, med nogen)."
       ],
       "examples": [
         {
           "de": "Was hast du gesagt?",
-          "lv": "Hvad sagde du"
+          "lv": "Hvad sagde du?"
+        },
+        {
+          "de": "Er sagt immer die Wahrheit.",
+          "lv": "Han siger altid sandheden."
+        },
+        {
+          "de": "Wie sagt man das auf Deutsch?",
+          "lv": "Hvordan siger man det på tysk?"
+        },
+        {
+          "de": "Sag mir bitte deinen Namen!",
+          "lv": "Sig mig venligst dit navn!"
+        },
+        {
+          "de": "Sie sagt, dass sie müde ist.",
+          "lv": "Hun siger, at hun er træt."
         }
       ],
       "comparison": [
         {
-          "word": "sagen",
-          "meaning": "Fortæl (en bestemt tekst)",
-          "example": "Was hast du gesagt? – Hvad sagde du"
+          "word": "sprechen",
+          "meaning": "tale",
+          "example": "Ich spreche Deutsch. – Jeg taler tysk."
         },
         {
-          "word": "sprechen",
-          "meaning": "Tal (sprog, snak)",
-          "example": "Ich spreche Deutsch. – Jeg taler tysk."
+          "word": "erzählen",
+          "meaning": "fortælle",
+          "example": "Er erzählt eine Geschichte. – Han fortæller en historie."
+        },
+        {
+          "word": "meinen",
+          "meaning": "mene",
+          "example": "Was meinst du? – Hvad mener du?"
         }
       ],
       "tip": [
-        "sagen = sige",
-        "Brug sagen når sammenhængen passer til denne betydning."
+        "Sagen + dativ (til hvem?) + akkusativ (hvad?): Ich sage dir etwas.",
+        "Efter sagen følger ofte en dass-sætning eller direkte tale."
       ],
       "important": [
-        "sagen = sige.",
-        "At formidle en bestemt tanke, ord eller sætning."
+        "Bland ikke sagen (sige) og sprechen (tale et sprog eller med nogen) sammen: Ich spreche Deutsch, ikke »Ich sage Deutsch«.",
+        "Sagen er regelmæssigt: sagte, gesagt."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "sagen",
+            "sagt",
+            "sagte",
+            "gesagt",
+            "sprechen"
+          ],
           "purple": [
-            "Hovedidé"
+            "sige"
           ]
         },
         "examples": [
           {
-            "de": {},
-            "lv": {}
+            "de": {
+              "blue": [
+                "gesagt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "sagde"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sagt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "siger"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sagt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "siger"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Sag"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Sig"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sagt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "siger"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sprechen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "tale"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "erzählen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "fortælle"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "meinen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "mene"
+              ]
+            }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "teikt"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "blue": [
-              "sagen"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -17329,76 +19629,101 @@ const A1_WORDS = [
     "de": "Schaf",
     "de_article": "das",
     "de_plural": "die Schafe",
-    "lv": "Et får",
+    "lv": "Får",
     "level": "A1"
   },
   {
     "de": "schauen",
-    "lv": "Ur",
+    "lv": "At se • At kigge",
     "level": "A1",
     "study": {
       "id": "a1-schauen-study",
       "layout": "standardStudy",
-      "translation": "Ur",
+      "translation": "At se • At kigge",
       "explanation": [
-        "Hovedidé: At se eller kigge aktivt.",
-        "Schauen betyder primært: at se aktivt.",
-        "Beskriver ofte: handling.",
-        "Schauen betyder at se aktivt."
+        "Hovedidé: schauen betyder »se, kigge« — rette blikket mod noget: Wir schauen aus dem Fenster. I Sydtyskland, Østrig og Schweiz er det meget almindeligt; i nord siger man oftere gucken eller sehen.",
+        "Former: schaut, schaute, hat geschaut. Ofte med forholdsord: auf + akkusativ (Er schaut auf die Uhr), aus dem Fenster (ud ad vinduet), nach + dativ (Sie schaut nach dem Kind — hun ser til barnet). Bydemåde: Schau mal! — Se lige!",
+        "Udtrykket Ich schaue fern betyder »jeg ser fjernsyn«."
       ],
       "examples": [
         {
           "de": "Ich schaue fern.",
-          "lv": "Jeg ser tv."
+          "lv": "Jeg ser fjernsyn."
         },
         {
           "de": "Wir schauen aus dem Fenster.",
-          "lv": "Vi kigger ud af vinduet."
+          "lv": "Vi kigger ud ad vinduet."
         },
         {
-          "de": "Ich schaue fern.",
-          "lv": "Jeg ser tv"
+          "de": "Schau mal, wer da kommt!",
+          "lv": "Se lige, hvem der kommer!"
+        },
+        {
+          "de": "Er schaut auf die Uhr.",
+          "lv": "Han kigger på uret."
+        },
+        {
+          "de": "Sie schaut nach dem Kind.",
+          "lv": "Hun ser til barnet."
         }
       ],
       "comparison": [
         {
-          "word": "schauen",
-          "meaning": "Se (aktivt)",
-          "example": "Ich schaue aus dem Fenster. – Jeg kigger ud af vinduet."
+          "word": "sehen",
+          "meaning": "se (kunne se)",
+          "example": "Ich sehe einen Vogel. – Jeg ser en fugl."
         },
         {
-          "word": "sehen",
-          "meaning": "Se (uden hensigt)",
-          "example": "Ich sehe dich. – Jeg ser dig"
+          "word": "ansehen",
+          "meaning": "se på, se (en film)",
+          "example": "Ich sehe mir den Film an. – Jeg ser filmen."
+        },
+        {
+          "word": "gucken",
+          "meaning": "kigge (talesprog)",
+          "example": "Guck mal! – Kig lige!"
         }
       ],
       "tip": [
-        "schauen = at se",
-        "Brug schauen, når konteksten passer til denne betydning."
+        "Schau mal! og Guck mal! er talesproglige måder at fange opmærksomheden på.",
+        "Schauen auf + akkusativ — kigge på noget bestemt."
       ],
       "important": [
-        "schauen = at se.",
-        "Se eller se aktivt."
+        "Schauen og sehen: sehen — se (evnen), schauen — kigge bevidst.",
+        "I Nordtyskland siger man oftere sehen/gucken, i syd schauen."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "schauen",
+            "schaut",
+            "schaute",
+            "geschaut",
+            "Schau mal",
+            "gucken"
+          ],
           "purple": [
-            "Hovedidé"
+            "se",
+            "kigge",
+            "ser til"
           ]
         },
         "examples": [
           {
             "de": {
-              "green": [
+              "blue": [
                 "schaue"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "ser"
+              ]
+            }
           },
           {
             "de": {
-              "green": [
-                "schauen",
+              "blue": [
                 "schauen"
               ]
             },
@@ -17410,26 +19735,86 @@ const A1_WORDS = [
           },
           {
             "de": {
-              "green": [
-                "schaue"
+              "blue": [
+                "Schau"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Se"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "schaut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kigger"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "schaut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ser til"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sehen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "se"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "ansehen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "se på"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "gucken"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "kigge"
+              ]
+            }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "schauen"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "green": [
-              "schauen"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -17453,7 +19838,7 @@ const A1_WORDS = [
     "de": "Schlüssel",
     "de_article": "der",
     "de_plural": "die Schlüssel",
-    "lv": "Nøglen",
+    "lv": "Nøgle",
     "level": "A1"
   },
   {
@@ -17469,12 +19854,12 @@ const A1_WORDS = [
   {
     "de": "Schnee",
     "de_article": "der",
-    "lv": "Det vil sne",
+    "lv": "Sne",
     "level": "A1"
   },
   {
     "de": "schneien",
-    "lv": "Det sner",
+    "lv": "At sne",
     "level": "A1"
   },
   {
@@ -17497,59 +19882,177 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Allerede",
       "explanation": [
-        "Hovedidé: Noget er allerede sket eller er allerede i kraft.",
-        "Schon betyder hovedsageligt, at noget allerede er sket eller allerede gælder.",
-        "Beskriver ofte: et faktum, der skete, eller en eksisterende tilstand.",
-        "Schon betyder allerede: noget er allerede sket eller er allerede i kraft."
+        "Hovedidé: schon er et biord, der betyder »allerede« — det viser, at noget er sket tidligere eller hurtigere end ventet: Ich bin schon zu Hause. Hast du schon gegessen?",
+        "Schon står normalt efter udsagnsordet eller foran det ord, der fremhæves. I talesprog kan schon også være en partikel, der bekræfter: Das ist schon gut (det er nu godt nok), Es wird schon gehen (det skal nok gå).",
+        "Modsætning: noch nicht — endnu ikke."
       ],
       "examples": [
         {
           "de": "Ich bin schon zu Hause.",
-          "lv": "Jeg er allerede hjemme"
+          "lv": "Jeg er allerede hjemme."
+        },
+        {
+          "de": "Hast du schon gegessen?",
+          "lv": "Har du allerede spist?"
+        },
+        {
+          "de": "Es ist schon spät.",
+          "lv": "Det er allerede sent."
+        },
+        {
+          "de": "Wie lange wohnst du schon hier?",
+          "lv": "Hvor længe har du boet her nu?"
+        },
+        {
+          "de": "Es wird schon gehen.",
+          "lv": "Det skal nok gå."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "noch",
+          "meaning": "endnu, stadig",
+          "example": "Ich bin noch nicht fertig. – Jeg er ikke færdig endnu."
+        },
+        {
+          "word": "erst",
+          "meaning": "først, kun (om tid)",
+          "example": "Es ist erst acht Uhr. – Klokken er kun otte."
+        },
+        {
+          "word": "bereits",
+          "meaning": "allerede (formelt)",
+          "example": "Er ist bereits abgereist. – Han er allerede rejst."
         }
       ],
       "tip": [
-        "Noget er allerede sket eller er allerede i kraft.",
-        "Brug schon, når konteksten passer til denne betydning."
+        "Noch nicht = endnu ikke; schon = allerede: Hast du schon gegessen? – Nein, noch nicht.",
+        "Et spørgsmål med schon forventer ofte svaret »ja«."
       ],
       "important": [
-        "schon = allerede.",
-        "Noget er allerede sket eller er allerede i kraft."
+        "Schon betyder ikke »smuk«; smuk hedder schön — de staves og udtales forskelligt (schön ligner dansk »skøn«).",
+        "Er noget sket senere end ventet, siger man erst: Er kommt erst um zehn (han kommer først klokken ti)."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "schon",
+            "noch nicht",
+            "Es wird schon gehen"
+          ],
           "purple": [
-            "Hovedidé"
+            "allerede",
+            "endnu ikke",
+            "skal nok"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "schon",
                 "schon"
               ]
             },
             "lv": {
               "purple": [
-                "Jeg"
+                "allerede"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "schon"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "allerede"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "schon"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "allerede"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "schon"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "schon"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "skal nok"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "noch"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "endnu"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "erst"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "først"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "bereits"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "allerede"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "Noget"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "blue": [
-              "schon"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -17589,7 +20092,7 @@ const A1_WORDS = [
     "de": "Schüler",
     "de_article": "der",
     "de_plural": "die Schüler",
-    "lv": "En studerende",
+    "lv": "Elev",
     "level": "A1"
   },
   {
@@ -17601,7 +20104,7 @@ const A1_WORDS = [
     "de": "Schwein",
     "de_article": "das",
     "de_plural": "die Schweine",
-    "lv": "En gris",
+    "lv": "Gris",
     "level": "A1"
   },
   {
@@ -17620,15 +20123,14 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "At svømme",
       "explanation": [
-        "Hovedidé: schwimmen betyder at svømme som bevægelse eller sport.",
-        "Schwimmen bruges, når en person svømmer i vand med en svømmebevægelse.",
-        "Når det kommer til at slappe af i vandet eller svømme, bruges baden ofte.",
-        "På A1 niveau er det vigtigt at skelne: schwimmen = at svømme, baden = at bade."
+        "Hovedidé: schwimmen betyder »svømme« — bevæge sig gennem vandet eller holde sig oven vande: Ich schwimme gern. Wir schwimmen im Schwimmbad.",
+        "Former: schwimmt, schwamm, ist geschwommen (stærkt udsagnsord). Med retning står ist i førnutid: Sie ist über den See geschwommen; også om selve aktiviteten bruger standardsproget oftest ist (Ich bin gestern geschwommen), sommetider hat.",
+        "Dansk skelner mellem at svømme og at bade; på tysk hedder det at bade i havet eller i en sø som regel baden: Wir baden im Meer."
       ],
       "examples": [
         {
           "de": "Ich schwimme gern.",
-          "lv": "Jeg kan godt lide at svømme"
+          "lv": "Jeg svømmer gerne."
         },
         {
           "de": "Er schwimmt sehr gut.",
@@ -17636,46 +20138,55 @@ const A1_WORDS = [
         },
         {
           "de": "Wir schwimmen im Schwimmbad.",
-          "lv": "Vi svømmer i poolen."
+          "lv": "Vi svømmer i svømmehallen."
         },
         {
-          "de": "Ich gehe baden.",
-          "lv": "Jeg svømmer"
+          "de": "Sie ist über den See geschwommen.",
+          "lv": "Hun svømmede over søen."
+        },
+        {
+          "de": "Kannst du schon schwimmen?",
+          "lv": "Kan du allerede svømme?"
         }
       ],
       "comparison": [
         {
-          "word": "schwimmen",
-          "meaning": "At svømme som en bevægelse eller sport",
-          "example": "Er schwimmt sehr gut. = Han svømmer meget godt."
-        },
-        {
           "word": "baden",
-          "meaning": "Svøm/vær i vand",
-          "example": "Ich gehe baden. = Jeg går badning."
+          "meaning": "bade; tage bad",
+          "example": "Wir baden im Meer. – Vi bader i havet."
         },
         {
-          "word": "schwimmen gehen",
-          "meaning": "Tag på svømning",
-          "example": "Wir gehen schwimmen. = Vi går til at svømme."
+          "word": "tauchen",
+          "meaning": "dykke",
+          "example": "Er taucht tief. – Han dykker dybt."
         },
         {
-          "word": "duschen",
-          "meaning": "Tag et brusebad",
-          "example": "Ich dusche morgens. = Jeg bader om morgenen."
+          "word": "segeln",
+          "meaning": "sejle",
+          "example": "Wir segeln im Sommer. – Vi sejler om sommeren."
         }
       ],
-      "tip": {
-        "text": "Husk: svømmebevægelse → schwimmen; hvile i vand → baden."
-      },
+      "tip": [
+        "Schwimmen – schwamm – geschwommen: lær de tre former sammen.",
+        "Svømme = schwimmen, bade og nyde vandet = baden."
+      ],
       "important": [
-        "schwimmen og baden er ikke det samme.",
-        "på dansk står der ofte \"svøm\", men på tysk skal man se om det er bevægelse eller badning."
+        "I førnutid hedder schwimmen normalt ist geschwommen, ikke »hat«.",
+        "Som navneord: das Schwimmen — svømning (sport)."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "schwimmen",
+            "schwimmt",
+            "schwamm",
+            "geschwommen",
+            "ist geschwommen",
+            "baden"
+          ],
           "purple": [
-            "Hovedidé"
+            "svømme",
+            "bade"
           ]
         },
         "examples": [
@@ -17687,7 +20198,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "lide"
+                "svømmer"
               ]
             }
           },
@@ -17695,21 +20206,6 @@ const A1_WORDS = [
             "de": {
               "blue": [
                 "schwimmt"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Han"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "schwimmen"
-              ],
-              "green": [
-                "Schwimmbad"
               ]
             },
             "lv": {
@@ -17720,13 +20216,37 @@ const A1_WORDS = [
           },
           {
             "de": {
-              "red": [
-                "baden"
+              "blue": [
+                "schwimmen"
               ]
             },
             "lv": {
-              "red": [
-                "Jeg"
+              "purple": [
+                "svømmer"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "geschwommen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "svømmede"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "schwimmen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "svømme"
               ]
             }
           }
@@ -17735,95 +20255,47 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "schwimmen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "svømme",
-                "svømme",
-                "sport"
-              ]
-            },
-            "example": {
-              "blue": [
-                "schwimmt"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
                 "baden"
               ]
             },
             "meaning": {
               "purple": [
-                "Svøm/vær",
-                "Svøm/vær"
-              ]
-            },
-            "example": {
-              "red": [
-                "baden"
+                "bade"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "schwimmen gehen"
+                "tauchen"
               ]
             },
             "meaning": {
               "purple": [
-                "svømning"
-              ]
-            },
-            "example": {
-              "green": [
-                "schwimmen"
+                "dykke"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "duschen"
+                "segeln"
               ]
             },
             "meaning": {
               "purple": [
-                "Tag"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "dusche"
+                "sejle"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "schwimmen"
-            ],
-            "purple": [
-              "Husk"
-            ],
-            "red": [
-              "baden",
-              "Husk"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "purple": [
-              "schwimmen"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -17840,7 +20312,7 @@ const A1_WORDS = [
   },
   {
     "de": "sechste",
-    "lv": "Den sjette",
+    "lv": "Sjette",
     "level": "A1"
   },
   {
@@ -17850,7 +20322,7 @@ const A1_WORDS = [
   },
   {
     "de": "sechzehnte",
-    "lv": "Den sekstende",
+    "lv": "Sekstende",
     "level": "A1"
   },
   {
@@ -17860,7 +20332,7 @@ const A1_WORDS = [
   },
   {
     "de": "sechzigste",
-    "lv": "Den tresindstyvende",
+    "lv": "Tresindstyvende",
     "level": "A1"
   },
   {
@@ -17872,63 +20344,69 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "At se",
       "explanation": [
-        "Hovedidé: sehen betyder at se med øjnene.",
-        "Når det kommer til, hvad øjnene opfatter, bruges sehen.",
-        "At se bevidst er ofte schauen eller ansehen.",
-        "En meget almindelig sætning er Ich sehe dich. = Jeg ser dig."
+        "Hovedidé: sehen betyder at se med øjnene — opfatte det, der er omkring eller foran én. Udsagnsordet er stærkt: ich sehe, du siehst, er sieht (e skifter til ie), datid sah, førnutid hat gesehen.",
+        "Normalt følger et genstandsled i akkusativ: Ich sehe einen Hund. Med sich betyder sich sehen at mødes eller se hinanden: Wir sehen uns morgen.",
+        "Når man ser bevidst, længe eller på noget bestemt, bruger man som regel schauen eller ansehen; sehen udtrykker oftere selve det at se."
       ],
       "examples": [
         {
-          "de": "Ich sehe dich.",
-          "lv": "Jeg ser dig"
+          "de": "Ich sehe einen Vogel im Garten.",
+          "lv": "Jeg ser en fugl i haven."
         },
         {
-          "de": "Siehst du das Auto?",
-          "lv": "Kan du se den bil"
+          "de": "Siehst du das Haus dort?",
+          "lv": "Kan du se huset derhenne?"
         },
         {
-          "de": "Ich sehe nichts.",
-          "lv": "Jeg kan ikke se noget"
+          "de": "Ohne Brille sieht er schlecht.",
+          "lv": "Uden briller ser han dårligt."
         },
         {
-          "de": "Wir schauen einen Film.",
-          "lv": "Vi ser en film."
+          "de": "Wir sehen uns morgen.",
+          "lv": "Vi ses i morgen."
+        },
+        {
+          "de": "Hast du gestern den Film gesehen?",
+          "lv": "Så du filmen i går?"
         }
       ],
       "comparison": [
         {
-          "word": "sehen",
-          "meaning": "At se",
-          "example": "Ich sehe dich. = Jeg ser dig."
-        },
-        {
           "word": "schauen",
-          "meaning": "Ur",
-          "example": "Ich schaue auf das Bild. = Jeg ser på billedet."
+          "meaning": "kigge",
+          "example": "Schau mal, der Hund! – Se lige, hunden!"
         },
         {
           "word": "ansehen",
-          "meaning": "Se/se",
-          "example": "Ich sehe mir den Film an. = Jeg ser filmen."
+          "meaning": "se på, betragte",
+          "example": "Ich sehe mir das Bild an. – Jeg ser på billedet."
         },
         {
-          "word": "hören",
-          "meaning": "At høre",
-          "example": "Ich höre Musik."
+          "word": "blicken",
+          "meaning": "kaste et blik, skue",
+          "example": "Sie blickt aus dem Fenster. – Hun kigger ud ad vinduet."
         }
       ],
-      "tip": {
-        "text": "Husk: øjnene opfatter → sehen; bevidst skøjter → schauen/ansehen."
-      },
+      "tip": [
+        "Husk formerne du siehst / er sieht — det er en af de hyppigste fejl, fordi e skifter til ie.",
+        "Sehen betyder også »forstå« i udtryk som Ich sehe, was du meinst — ligesom dansk »jeg ser, hvad du mener«."
+      ],
       "important": [
-        "sehen er ikke det samme som anschauen.",
-        "Ich sehe dich = Jeg ser dig; Ich schaue den Film = Jeg ser filmen."
+        "Man siger du siehst, er sieht, ikke du sehst, er seht.",
+        "Når man ser noget (en film, et billede), bruger man som regel sich (dativ) + ansehen, ikke kun sehen."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "sehen",
+            "sehe",
+            "siehst",
+            "sieht",
+            "sah",
+            "gesehen"
+          ],
           "purple": [
-            "Hovedidé",
-            "Hovedidé"
+            "se"
           ]
         },
         "examples": [
@@ -17952,31 +20430,43 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Kan"
+                "se"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "sehe"
+                "sieht"
               ]
             },
             "lv": {
               "purple": [
-                "Jeg"
+                "ser"
               ]
             }
           },
           {
             "de": {
-              "red": [
-                "schauen"
+              "blue": [
+                "sehen"
               ]
             },
             "lv": {
-              "red": [
-                "ser"
+              "purple": [
+                "ses"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "gesehen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Så"
               ]
             }
           }
@@ -17985,30 +20475,12 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "sehen"
+                "schauen"
               ]
             },
             "meaning": {
               "purple": [
-                "se"
-              ]
-            },
-            "example": {
-              "blue": [
-                "sehe"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "schauen"
-              ]
-            },
-            "meaning": {},
-            "example": {
-              "red": [
-                "schaue"
+                "kigge"
               ]
             }
           },
@@ -18020,55 +20492,30 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Se/se",
-                "Se/se"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "sehe",
-                "an"
+                "se på"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "hören"
+                "blicken"
               ]
             },
             "meaning": {
               "purple": [
-                "høre"
-              ]
-            },
-            "example": {
-              "green": [
-                "höre"
+                "kaste et blik"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "sehen"
-            ],
-            "purple": [
-              "Husk"
-            ],
-            "red": [
-              "schauen",
-              "ansehen"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "purple": [
-              "sehen"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -18094,63 +20541,71 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "At være",
       "explanation": [
-        "Hovedidé: sein betyder at være.",
-        "Sein er et af de vigtigste tyske verber.",
-        "På A1-niveau er særligt vigtige former ich bin, du bist, er ist og wir sind.",
-        "Sein bruges også i mange lokative eller karakteristiske sætninger."
+        "Hovedidé: sein er det grundlæggende tyske udsagnsord »være«. Det er uregelmæssigt: ich bin, du bist, er/sie/es ist, wir sind, ihr seid, sie/Sie sind; datid war, førnutid ist gewesen.",
+        "Det bruges til at sige, hvem nogen er (Er ist Arzt), hvordan noget er (Das Haus ist groß), hvor nogen er (Wir sind hier), og hvor gammel man er (Ich bin 20 Jahre alt). På tysk udelades sein aldrig: man kan ikke sige »Ich Lehrer«.",
+        "Sein er også hjælpeudsagnsord i førnutid ved udsagnsord for bevægelse og tilstandsskifte (ich bin gefahren, ich bin gewesen) — ligesom dansk »jeg er kørt«."
       ],
       "examples": [
         {
-          "de": "Ich bin hier.",
-          "lv": "Jeg er her"
+          "de": "Ich bin müde.",
+          "lv": "Jeg er træt."
         },
         {
-          "de": "Du bist müde.",
-          "lv": "Du er træt"
+          "de": "Er ist Arzt.",
+          "lv": "Han er læge."
         },
         {
-          "de": "Er ist Lehrer.",
-          "lv": "Han er lærer."
+          "de": "Wir sind heute zu Hause.",
+          "lv": "Vi er hjemme i dag."
         },
         {
-          "de": "Wir sind zu Hause.",
-          "lv": "Vi er hjemme."
+          "de": "Gestern war das Wetter schön.",
+          "lv": "I går var vejret godt."
+        },
+        {
+          "de": "Seid ihr schon lange hier?",
+          "lv": "Har I været her længe?"
         }
       ],
       "comparison": [
         {
-          "word": "sein",
-          "meaning": "At være",
-          "example": "Ich bin hier."
-        },
-        {
           "word": "haben",
-          "meaning": "Jeg har",
-          "example": "Ich habe Zeit. = Jeg har tid."
+          "meaning": "have",
+          "example": "Ich habe Hunger. – Jeg er sulten."
         },
         {
           "word": "werden",
-          "meaning": "At blive",
-          "example": "Ich werde müde. = Jeg bliver træt."
+          "meaning": "blive (om forandring)",
+          "example": "Er wird Arzt. – Han bliver læge."
         },
         {
           "word": "bleiben",
-          "meaning": "Ophold",
-          "example": "Ich bleibe hier. = Jeg bliver her."
+          "meaning": "forblive, blive (på stedet)",
+          "example": "Wir bleiben hier. – Vi bliver her."
         }
       ],
-      "tip": {
-        "text": "Husk: ich bin = jeg er; du bist = du er."
-      },
+      "tip": [
+        "Lær formerne bin – bist – ist – sind – seid – sind som én række; de bruges meget ofte.",
+        "Erhverv nævnes uden kendeord: Ich bin Lehrer — ligesom dansk »jeg er lærer«."
+      ],
       "important": [
-        "sein-former skal læres særskilt: bin, bist, ist, sind.",
-        "Ich bin er \"jeg er\" ikke \"jeg være\"."
+        "Alder siges med sein: Ich bin 20 Jahre alt (ikke »habe«).",
+        "Sult og tørst siges med haben: Ich habe Hunger, Ich habe Durst — hvor dansk siger »jeg er sulten/tørstig«."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "sein",
+            "bin",
+            "bist",
+            "ist",
+            "sind",
+            "seid",
+            "war",
+            "ist gewesen"
+          ],
           "purple": [
-            "Hovedidé",
-            "Hovedidé"
+            "være"
           ]
         },
         "examples": [
@@ -18162,19 +20617,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "her"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "bist"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "træt"
+                "er"
               ]
             }
           },
@@ -18186,7 +20629,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Han"
+                "er"
               ]
             }
           },
@@ -18198,7 +20641,31 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "hjemme"
+                "er"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "war"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "var"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Seid"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "været"
               ]
             }
           }
@@ -18207,30 +20674,12 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "sein"
-              ]
-            },
-            "meaning": {},
-            "example": {
-              "blue": [
-                "bin"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
                 "haben"
               ]
             },
             "meaning": {
               "purple": [
-                "Jeg"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "habe"
+                "have"
               ]
             }
           },
@@ -18244,11 +20693,6 @@ const A1_WORDS = [
               "purple": [
                 "blive"
               ]
-            },
-            "example": {
-              "green": [
-                "werde"
-              ]
             }
           },
           {
@@ -18259,33 +20703,18 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Ophold"
-              ]
-            },
-            "example": {
-              "red": [
-                "bleibe"
+                "forblive"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "ich bin",
-              "du bist"
-            ],
-            "purple": [
-              "jeg er"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "purple": [
-              "sein"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -18299,101 +20728,84 @@ const A1_WORDS = [
     "de": "Seite",
     "de_article": "die",
     "de_plural": "die Seiten",
-    "lv": "Side • Side",
+    "lv": "Side",
     "level": "A1",
     "study": {
       "id": "a1-seite",
       "layout": "standardStudy",
-      "translation": "Side • Side",
+      "translation": "Side",
       "explanation": [
-        "Hovedidé: Die Seite kan betyde en side i en bog eller et dokument, men også en side af noget.",
-        "I en bog, et blad eller en hjemmeside er den Seite = side (Seite 5 = side 5).",
-        "I rumlig forstand er die Seite = side (auf der linken Seite = til venstre).",
-        "I overført betydning kan die Seite også betyde en side i konflikt eller tanker (auf meiner Seite = på min side).",
-        "Konteksten (bog/læsning eller position/forhold) viser den korrekte betydning.",
-        "Flertal for begge betydninger: die Seiten."
+        "Hovedidé: die Seite er et hunkønsnavneord, flertal die Seiten. Det har flere betydninger: side i en bog eller et hæfte (Seite 5), side som retning (linke Seite — venstre side), hjemmeside og aspekt (eine gute Seite — en god side).",
+        "Sidetal angives med auf Seite + tal, uden kendeord: auf Seite 20. Når man taler om placering, bruger man auf der Seite (dativ): auf der rechten Seite.",
+        "Et stykke papir som selvstændig genstand hedder das Blatt, ikke die Seite."
       ],
       "examples": [
         {
-          "de": "Schlagt die Seite zwanzig auf.",
-          "lv": "Gå til side tyve."
+          "de": "Bitte öffnen Sie das Buch auf Seite 20.",
+          "lv": "Slå venligst op på side 20 i bogen."
         },
         {
-          "de": "Auf der linken Seite ist ein Park.",
-          "lv": "Til venstre er en park."
+          "de": "Die Bank ist auf der anderen Seite der Straße.",
+          "lv": "Banken ligger på den anden side af gaden."
         },
         {
-          "de": "Die Webseite lädt langsam.",
-          "lv": "Websiden indlæses langsomt."
+          "de": "Auf der linken Seite steht ein Baum.",
+          "lv": "På venstre side står et træ."
         },
         {
-          "de": "Er steht auf meiner Seite.",
-          "lv": "Han er på min side."
+          "de": "Diese Seite lädt sehr langsam.",
+          "lv": "Denne hjemmeside indlæses meget langsomt."
         },
         {
-          "de": "Das Buch hat 200 Seiten.",
-          "lv": "Bogen har 200 sider."
+          "de": "Er hat auch gute Seiten.",
+          "lv": "Han har også gode sider."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "das Blatt",
+          "meaning": "ark, blad",
+          "example": "Ich brauche ein Blatt Papier. – Jeg har brug for et ark papir."
         },
         {
-          "de": "Auf der anderen Seite der Straße.",
-          "lv": "På den anden side af gaden."
+          "word": "die Richtung",
+          "meaning": "retning",
+          "example": "In welche Richtung gehst du? – I hvilken retning går du?"
+        },
+        {
+          "word": "die Webseite",
+          "meaning": "hjemmeside",
+          "example": "Die Webseite ist neu. – Hjemmesiden er ny."
         }
       ],
       "tip": [
-        "Taler om en bog eller læsning → side. Taler om position, retning eller forhold → side.",
-        "Seite X er altid en side i en bog, ikke en halv."
+        "Husk parret: auf Seite 5 (sidetal) og auf der Seite (placering) — kun i det andet tilfælde er der kendeord.",
+        "Ordet er hunkøn: die Seite, eine Seite."
       ],
       "important": [
-        "die Seite = side ELLER side - konteksten bestemmer.",
-        "Flertal for begge betydninger: die Seiten."
+        "Et enkelt stykke papir hedder ikke die Seite, men das Blatt.",
+        "Flertal die Seiten ender altid på -n."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "die Seite",
+            "Seite",
+            "Seiten",
+            "auf Seite",
+            "auf der Seite",
+            "das Blatt"
+          ],
           "purple": [
-            "min",
-            "min"
+            "side",
+            "hjemmeside",
+            "aspekt"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "Seite"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "til"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "Seite"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Til"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "Webseite"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Websiden"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
                 "Seite"
               ]
             },
@@ -18406,42 +20818,97 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "Seiten"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Bogen"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
                 "Seite"
               ]
             },
             "lv": {
               "purple": [
-                "den"
+                "side"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Seite"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "side"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Seite"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "hjemmeside"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Seiten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "sider"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "das Blatt"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ark"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Richtung"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "retning"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Webseite"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "hjemmeside"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "Taler"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "purple": [
-              "die",
-              "die"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -18450,7 +20917,7 @@ const A1_WORDS = [
     "de": "Sekunde",
     "de_article": "die",
     "de_plural": "die Sekunden",
-    "lv": "Et sekund",
+    "lv": "Sekund",
     "level": "A1"
   },
   {
@@ -18461,71 +20928,78 @@ const A1_WORDS = [
   },
   {
     "de": "sich",
-    "lv": "Dig selv • For dig selv",
+    "lv": "Sig • Sig selv",
     "level": "A1",
     "study": {
       "id": "a1-sich",
       "layout": "standardStudy",
-      "translation": "Dig selv • For dig selv",
+      "translation": "Sig • Sig selv",
       "explanation": [
-        "Hovedidé: sich viser, at handlingen refererer til gøreren selv.",
-        "på dansk oversættes det ofte som selv eller selv.",
-        "I nogle tyske verber er sich en obligatorisk del, såsom sich waschen.",
-        "Vigtigt at bemærke på A1-niveau: ich wasche mich, er wäscht sich."
+        "Hovedidé: sich er det tilbagevisende stedord i 3. person og ved høflighedsformen Sie: det viser, at handlingen vender tilbage til den, der udfører den. Akkusativ og dativ har samme form: sich.",
+        "De andre personer har andre former: ich – mich, du – dich, wir – uns, ihr – euch. For eksempel er wäscht sich (han vasker sig), men ich wasche mich — ligesom dansk »sig«, der også kun bruges i 3. person.",
+        "Mange tyske udsagnsord er refleksive (sich freuen, sich setzen, sich vorstellen), og på dansk svarer de ofte til udsagnsord med »sig«: glæde sig, sætte sig, præsentere sig."
       ],
       "examples": [
         {
-          "de": "Er wäscht sich.",
-          "lv": "Han tager et bad."
+          "de": "Er wäscht sich jeden Morgen.",
+          "lv": "Han vasker sig hver morgen."
         },
         {
-          "de": "Ich setze mich.",
-          "lv": "Jeg sætter mig ned."
+          "de": "Sie freut sich auf das Wochenende.",
+          "lv": "Hun glæder sig til weekenden."
         },
         {
-          "de": "Sie freut sich.",
-          "lv": "Hun er glad."
+          "de": "Die Kinder setzen sich auf das Sofa.",
+          "lv": "Børnene sætter sig i sofaen."
         },
         {
-          "de": "Ich wasche das Auto.",
-          "lv": "Jeg vasker bilen"
+          "de": "Er kauft sich ein neues Handy.",
+          "lv": "Han køber sig en ny telefon."
+        },
+        {
+          "de": "Sie stellt sich kurz vor.",
+          "lv": "Hun præsenterer sig kort."
         }
       ],
       "comparison": [
         {
-          "word": "sich",
-          "meaning": "Mig selv / mig selv",
-          "example": "Er wäscht sich. = Han vasker sig."
-        },
-        {
           "word": "mich",
-          "meaning": "Mig / mig selv på ich",
-          "example": "Ich wasche mich. = Jeg vasker mig."
+          "meaning": "mig / mig selv",
+          "example": "Ich wasche mich. – Jeg vasker mig."
         },
         {
-          "word": "dich",
-          "meaning": "Dig / mig selv på du",
-          "example": "Du wäschst dich."
+          "word": "uns",
+          "meaning": "os / os selv",
+          "example": "Wir freuen uns. – Vi glæder os."
         },
         {
-          "word": "ihn",
-          "meaning": "Ham",
-          "example": "Ich sehe ihn. = Jeg ser ham."
+          "word": "einander",
+          "meaning": "hinanden",
+          "example": "Sie helfen einander. – De hjælper hinanden."
         }
       ],
-      "tip": {
-        "text": "Husk: handling på sig selv → sich/mich/dich."
-      },
+      "tip": [
+        "Også ved høflighedsformen Sie skriver man sich med lille: Setzen Sie sich!",
+        "Lær de refleksive udsagnsord sammen med sich: sich freuen, sich setzen."
+      ],
       "important": [
-        "sich er ikke et selvstændigt navneord.",
-        "Det ændrer sig efter person: ich → mich, du → dich, er/sie/es → sich."
+        "Sich kan ikke bruges med ich, du, wir, ihr — der skal det være mich, dich, uns, euch.",
+        "I flertal kan Sie sehen sich betyde både »de ser sig selv« og »de ser hinanden«; det afgøres af sammenhængen."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "sich",
+            "mich",
+            "dich",
+            "uns",
+            "euch",
+            "wäscht sich"
+          ],
           "purple": [
-            "Hovedidé",
-            "Hovedidé",
-            "Hovedidé"
+            "tilbagevisende",
+            "sig",
+            "vender tilbage"
           ]
         },
         "examples": [
@@ -18537,19 +21011,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Han"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "mich"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Jeg"
+                "vasker sig"
               ]
             }
           },
@@ -18561,25 +21023,43 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Hun"
+                "glæder sig"
               ]
             }
           },
           {
             "de": {
-              "red": [
-                "wasche"
-              ],
-              "yellow": [
-                "Auto"
+              "blue": [
+                "sich"
               ]
             },
             "lv": {
-              "red": [
-                "Jeg"
-              ],
-              "yellow": [
-                "Jeg"
+              "purple": [
+                "sætter sig"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "sig"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "præsenterer sig"
               ]
             }
           }
@@ -18588,103 +21068,47 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "sich"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Mig",
-                "Mig"
-              ]
-            },
-            "example": {
-              "blue": [
-                "sich"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
                 "mich"
               ]
             },
             "meaning": {
               "purple": [
-                "Mig",
-                "Mig"
-              ]
-            },
-            "example": {
-              "green": [
-                "mich"
+                "mig / mig selv"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "dich"
+                "uns"
               ]
             },
             "meaning": {
               "purple": [
-                "Dig",
-                "Dig"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "dich"
+                "os / os selv"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "ihn"
+                "einander"
               ]
             },
             "meaning": {
               "purple": [
-                "Ham"
-              ]
-            },
-            "example": {
-              "red": [
-                "ihn"
+                "hinanden"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "sich"
-            ],
-            "purple": [
-              "Husk"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "blue": [
-              "sich"
-            ],
-            "red": [
-              "sich"
-            ]
-          },
-          {
-            "green": [
-              "mich",
-              "dich"
-            ],
-            "blue": [
-              "sich"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -18698,49 +21122,70 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Sikker • Helt sikkert",
       "explanation": [
-        "Hovedidé: sicher som adjektiv betyder sikker, som adverb betyder det sikkert/sandsynligvis.",
-        "Når man taler om et sted, en situation eller en person, er sicher = sikkert (ein sicherer Ort = sikkert sted).",
-        "Som bekræftelse eller forsikring i en sætning, sicher = bestemt/selvfølgelig (Das ist sicher wahr. = Det er bestemt sandt.).",
-        "Helt sikkert! som et særskilt svar betyder selvfølgelig!/sandsynligvis!"
+        "Hovedidé: sicher er både tillægsord og biord. Som tillægsord betyder det sikker (uden fare: ein sicherer Weg) eller overbevist (Ich bin sicher). Som biord betyder det helt sikkert eller sikkert: Er kommt sicher.",
+        "Udtrykket sich (dativ) sicher sein betyder at være sikker på noget: Ich bin mir sicher. Gradbøjning: sicherer, am sichersten; navneordet er die Sicherheit.",
+        "Sicher først i sætningen kan også være et svar: Sicher! — Selvfølgelig!"
       ],
       "examples": [
         {
-          "de": "Ist das Wasser sicher?",
-          "lv": "Er vandet sikkert?"
+          "de": "Der Weg ist nachts nicht sicher.",
+          "lv": "Vejen er ikke sikker om natten."
         },
         {
-          "de": "Kommst du morgen? – Sicher!",
-          "lv": "Kommer du i morgen - helt sikkert!"
+          "de": "Ich bin mir ganz sicher.",
+          "lv": "Jeg er helt sikker."
         },
         {
-          "de": "Er ist sicher zu Hause.",
-          "lv": "Han er formentlig hjemme."
+          "de": "Er kommt sicher heute noch.",
+          "lv": "Han kommer helt sikkert i dag."
         },
         {
-          "de": "Das ist eine sichere Lösung.",
-          "lv": "Det er en sikker løsning."
+          "de": "Das Kind fährt schon sicher Fahrrad.",
+          "lv": "Barnet cykler allerede sikkert."
         },
         {
-          "de": "Ich bin mir sicher.",
-          "lv": "Jeg er sikker"
+          "de": "Sicher, ich helfe dir gern.",
+          "lv": "Selvfølgelig, jeg hjælper dig gerne."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "bestimmt",
+          "meaning": "bestemt, helt sikkert",
+          "example": "Er kommt bestimmt. – Han kommer bestemt."
         },
         {
-          "de": "Fahr sicher!",
-          "lv": "Kør sikkert!"
+          "word": "vielleicht",
+          "meaning": "måske",
+          "example": "Vielleicht kommt er. – Måske kommer han."
+        },
+        {
+          "word": "gefährlich",
+          "meaning": "farlig",
+          "example": "Der Weg ist gefährlich. – Vejen er farlig."
         }
       ],
       "tip": [
-        "Om et sted eller en situation (sikkerhed) → sikker.",
-        "Som en tro eller bekræftelse i en sætning → bestemt/sandsynligvis."
+        "Med sicher sein bruger man ofte mir/dir: Ich bin mir sicher — det lyder mere naturligt end bare Ich bin sicher.",
+        "Husk modsætningen: sicher – unsicher (usikker)."
       ],
       "important": [
-        "sicher = sikker (tillægsord) ELLER sikkert/sandsynligvis (adverbium).",
-        "sich sicher sein = for at være sikker."
+        "Sicher som biord udtrykker stor sandsynlighed, men ikke altid absolut vished — ligesom dansk »sikkert«.",
+        "Bland ikke sicher sammen med vielleicht: vielleicht betyder kun »måske«."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "sicher",
+            "Ich bin mir sicher",
+            "die Sicherheit",
+            "Sicher"
+          ],
           "purple": [
-            "Hovedidé"
+            "sikker",
+            "overbevist",
+            "helt sikkert",
+            "Selvfølgelig"
           ]
         },
         "examples": [
@@ -18752,174 +21197,191 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "vandet"
+                "sikker"
               ]
             }
           },
           {
             "de": {
-              "green": [
+              "blue": [
+                "sicher"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "sikker"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sicher"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "helt sikkert"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sicher"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "sikkert"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
                 "Sicher"
               ]
             },
             "lv": {
               "purple": [
-                "Kommer"
+                "Selvfølgelig"
               ]
             }
-          },
+          }
+        ],
+        "comparison": [
           {
-            "de": {
+            "word": {
               "green": [
-                "sicher"
+                "bestimmt"
               ]
             },
-            "lv": {
+            "meaning": {
               "purple": [
-                "Han"
+                "bestemt"
               ]
             }
           },
           {
-            "de": {
-              "blue": [
-                "sichere"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Det"
-              ]
-            }
-          },
-          {
-            "de": {
+            "word": {
               "green": [
-                "sicher"
+                "vielleicht"
               ]
             },
-            "lv": {
+            "meaning": {
               "purple": [
-                "Jeg"
+                "måske"
               ]
             }
           },
           {
-            "de": {
-              "blue": [
-                "sicher"
+            "word": {
+              "green": [
+                "gefährlich"
               ]
             },
-            "lv": {
+            "meaning": {
               "purple": [
-                "Kør"
+                "farlig"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "blue": [
-              "sted"
-            ]
-          },
-          {
-            "green": [
-              "sted",
-              "sted"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "purple": [
-              "sicher",
-              "sicher"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
   },
   {
     "de": "sie",
-    "lv": "De/hende",
+    "lv": "Hun • De",
     "level": "A1",
     "study": {
       "id": "a1-sie-study",
       "layout": "standardStudy",
-      "translation": "De/hende",
+      "translation": "Hun • De",
       "explanation": [
-        "Hovedidé: Flertal - taler om mere end én person. Verbet ender på -en: kochen, essen, gehen.",
-        "sie betyder her hovedsageligt: hun.",
-        "Ofte karakteriseret ved: ental verbum (-t).",
-        "sie betyder her hovedsageligt: de.",
-        "Ofte karakteriseret ved: flertal verbum (-en).",
-        "Sie betyder her hovedsageligt: De, som høflig tiltale.",
-        "Ofte beskrevet: nødvendigvis med stort S.",
-        "Den lille sie betyder hende, når verbet er ental (Sie kocht = hun laver mad)."
+        "Hovedidé: sie er et stedord i 3. person. I ental betyder det hun (sie ist), i flertal de (sie sind). Udsagnsordets endelse viser, hvilken af de to der menes: sie kommt (hun) og sie kommen (de).",
+        "Kasus: akkusativ sie (ich sehe sie — jeg ser hende/dem), dativ i ental ihr, i flertal ihnen. Om en ting med hunkønskendeord kan man også bruge sie: die Tasche – sie (den).",
+        "Sie med stort (Sie) er høflighedsformen »De«; først i sætningen hjælper indholdet og udsagnsordets form til at skelne."
       ],
       "examples": [
         {
-          "de": "Sie kochen.",
-          "lv": "De laver mad."
+          "de": "Sie ist meine Lehrerin.",
+          "lv": "Hun er min lærer."
         },
         {
-          "de": "Sie kocht.",
-          "lv": "Hun laver mad."
+          "de": "Sie wohnen in Riga.",
+          "lv": "De bor i Riga."
         },
         {
-          "de": "Sie isst.",
-          "lv": "Hun spiser"
+          "de": "Ich sehe sie jeden Tag.",
+          "lv": "Jeg ser hende hver dag."
         },
         {
-          "de": "Sie kochen.",
-          "lv": "De laver mad."
+          "de": "Sie sind noch zu Hause.",
+          "lv": "De er stadig hjemme."
         },
         {
-          "de": "Sie spielen Fußball.",
-          "lv": "De spiller fodbold."
+          "de": "Ich gebe ihr das Buch.",
+          "lv": "Jeg giver hende bogen."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "er",
+          "meaning": "han",
+          "example": "Er arbeitet. – Han arbejder."
         },
         {
-          "de": "Sie kochen, bitte.",
-          "lv": "Du laver mad"
+          "word": "es",
+          "meaning": "det, den",
+          "example": "Es regnet. – Det regner."
+        },
+        {
+          "word": "Sie",
+          "meaning": "De (høfligt)",
+          "example": "Wie heißen Sie? – Hvad hedder De?"
         }
       ],
       "tip": [
-        "Flertal - henviser til mere end én person. Verbet ender på -en: kochen, essen, gehen.",
-        "Brug sie, når konteksten passer til denne betydning."
+        "Kig på udsagnsordet: sie macht = hun gør, sie machen = de gør.",
+        "Husk dativ: ihr (hende) og ihnen (dem)."
       ],
       "important": [
-        "Høflighed altid med stort S: Sie, not sie.",
-        "Hun: Sie kocht. De: sie kochen. Du: Sie kochen.",
-        "Forkert: sie kocht → Korrekt: Sie kocht",
-        "Forkert: Sie kocht (de) → Korrekt: Sie kochen"
+        "Sie med stort midt i sætningen er altid høflighedsformen »De«.",
+        "Først i sætningen kan Sie kommen betyde både »de kommer« og »De kommer«; det forstår man af sammenhængen."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "sie",
+            "sie ist",
+            "sie sind",
+            "sie kommt",
+            "sie kommen",
+            "ihr",
+            "ihnen",
+            "Sie"
+          ],
           "purple": [
-            "er"
+            "hun",
+            "de",
+            "hende"
           ]
         },
         "examples": [
           {
             "de": {
-              "green": [
-                "sie",
-                "sie"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "laver"
-              ]
-            }
-          },
-          {
-            "de": {
               "blue": [
-                "sie",
-                "sie"
+                "Sie"
               ]
             },
             "lv": {
@@ -18931,205 +21393,286 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "sie",
-                "sie"
+                "Sie"
               ]
             },
             "lv": {
               "purple": [
-                "Hun"
+                "De"
               ]
             }
           },
           {
             "de": {
+              "blue": [
+                "sie"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "hende"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Sie"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "De"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ihr"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "hende"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
               "green": [
-                "sie",
-                "sie"
+                "er"
               ]
             },
-            "lv": {
+            "meaning": {
               "purple": [
-                "laver"
+                "han"
               ]
             }
           },
           {
-            "de": {
+            "word": {
               "green": [
-                "sie",
-                "sie"
+                "es"
               ]
             },
-            "lv": {
+            "meaning": {
               "purple": [
-                "spiller"
+                "det"
               ]
             }
           },
           {
-            "de": {
-              "yellow": [
-                "sie"
+            "word": {
+              "green": [
+                "Sie"
               ]
             },
-            "lv": {
+            "meaning": {
               "purple": [
-                "laver"
+                "De (høfligt)"
               ]
             }
           }
         ],
         "tip": [
+          {},
           {}
         ],
         "important": [
-          {
-            "green": [
-              "sie"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
   },
   {
     "de": "Sie",
-    "lv": "Du",
+    "lv": "De (høflig tiltale)",
     "level": "A1",
     "study": {
       "id": "a1-sie-study-2",
       "layout": "standardStudy",
-      "translation": "Du",
+      "translation": "De (høflig tiltale)",
       "explanation": [
-        "Hovedidé: Høflighedsadresse - altid med stort S. på dansk: dig. Ofte med et verbum i flertal.",
-        "Sie betyder grundlæggende: én kvinde.",
-        "Ofte karakteriseret ved: ental verbum (-t).",
-        "sie betyder her hovedsageligt: de.",
-        "Ofte karakteriseret ved: flertal verbum (-en).",
-        "Sie betyder her hovedsageligt: De, som høflig tiltale.",
-        "Ofte beskrevet: nødvendigvis med stort S.",
-        "Den lille sie betyder hende, når verbet er ental (Sie kocht = hun laver mad)."
+        "Hovedidé: Sie med stort er den høflige tiltaleform — til én eller flere personer, man er »De« med. Udsagnsordet står i 3. person flertal: Sie sind, Sie haben, Sie kommen. På dansk er De næsten forsvundet, men på tysk er Sie stadig helt almindeligt.",
+        "Kasus: akkusativ Sie, dativ Ihnen, ejestedord Ihr/Ihre (også med stort): Ich danke Ihnen für Ihre Hilfe.",
+        "Sie bruges over for fremmede, på arbejdet, hos myndigheder og i butikker. Til venner, familie og børn siger man du (til flere — ihr)."
       ],
       "examples": [
         {
-          "de": "Sie kochen, bitte.",
-          "lv": "Du laver mad, tak."
+          "de": "Wie heißen Sie?",
+          "lv": "Hvad hedder De?"
         },
         {
-          "de": "Sie kocht.",
-          "lv": "Hun laver mad."
+          "de": "Können Sie mir bitte helfen?",
+          "lv": "Kan De hjælpe mig?"
         },
         {
-          "de": "Sie isst.",
-          "lv": "Hun spiser"
+          "de": "Woher kommen Sie?",
+          "lv": "Hvor kommer De fra?"
         },
         {
-          "de": "Sie kochen.",
-          "lv": "De laver mad."
+          "de": "Ich danke Ihnen für Ihre Hilfe.",
+          "lv": "Jeg takker Dem for Deres hjælp."
         },
         {
-          "de": "Sie spielen Fußball.",
-          "lv": "De spiller fodbold."
+          "de": "Darf ich Sie etwas fragen?",
+          "lv": "Må jeg spørge Dem om noget?"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "du",
+          "meaning": "du",
+          "example": "Hast du Zeit? – Har du tid?"
         },
         {
-          "de": "Sie kochen, bitte.",
-          "lv": "Du laver mad"
+          "word": "ihr",
+          "meaning": "I (venner)",
+          "example": "Habt ihr Zeit? – Har I tid?"
+        },
+        {
+          "word": "sie",
+          "meaning": "de / hun",
+          "example": "Sie haben Zeit. – De har tid."
         }
       ],
       "tip": [
-        "Høflighed - altid med stort S. på dansk: dig. Ofte med et verbum i flertal.",
-        "Brug Sie, når konteksten passer til denne betydning."
+        "Hvis du ikke ved, hvordan du skal tiltale en fremmed voksen, så sig Sie — det er det sikreste valg. Den danske du-kultur gælder ikke i Tyskland.",
+        "Husk: Sie, Ihnen, Ihr skrives altid med stort."
       ],
       "important": [
-        "Høflighed altid med stort S: Sie, not sie.",
-        "Hun: Sie kocht. De: sie kochen. Du: Sie kochen.",
-        "Forkert: sie kocht → Korrekt: Sie kocht",
-        "Forkert: Sie kocht (de) → Korrekt: Sie kochen"
+        "Sie og sie er forskellige ord: Sie = De, sie = hun/de.",
+        "Ved høflighedsformen står udsagnsordet i flertal, også når man tiltaler én person."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "Sie",
+            "Ihnen",
+            "Ihr",
+            "Ihre",
+            "Sie sind",
+            "du",
+            "ihr"
+          ],
           "purple": [
-            "Hovedidé"
+            "høflige tiltaleform",
+            "De"
           ]
         },
         "examples": [
           {
             "de": {
-              "yellow": [
-                "Sie",
-                "sie"
+              "blue": [
+                "Sie"
               ]
             },
             "lv": {
               "purple": [
-                "laver"
+                "De"
               ]
             }
           },
           {
             "de": {
-              "yellow": [
-                "Sie",
-                "sie"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "yellow": [
-                "Sie",
-                "sie"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "yellow": [
-                "Sie",
-                "sie"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "yellow": [
-                "Sie",
-                "sie"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "yellow": [
-                "Sie",
-                "sie"
+              "blue": [
+                "Sie"
               ]
             },
             "lv": {
               "purple": [
-                "laver"
+                "De"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Sie"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "De"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Ihnen",
+                "Ihre"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Dem",
+                "Deres"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Sie"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Dem"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "du"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "du"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "ihr"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "I (venner)"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sie"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "de / hun"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "Høflighed"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "yellow": [
-              "Sie"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -19141,7 +21684,7 @@ const A1_WORDS = [
   },
   {
     "de": "siebente",
-    "lv": "Den syvende",
+    "lv": "Syvende",
     "level": "A1"
   },
   {
@@ -19151,7 +21694,7 @@ const A1_WORDS = [
   },
   {
     "de": "siebzehnte",
-    "lv": "Den syttende",
+    "lv": "Syttende",
     "level": "A1"
   },
   {
@@ -19161,7 +21704,7 @@ const A1_WORDS = [
   },
   {
     "de": "siebzigste",
-    "lv": "Den halvfjerdsende",
+    "lv": "Halvfjerdsindstyvende",
     "level": "A1"
   },
   {
@@ -19178,66 +21721,124 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "At sidde",
       "explanation": [
-        "Hovedidé: sitzen betyder at sidde.",
-        "Sitzen bruges til at sidde en person eller et dyr.",
-        "Nogle gange betyder sitzen også at være et bestemt sted, men i A1 er hovedbetydningen at sidde.",
-        "Det er vigtigt at skelne: sitzen = sidde, stehen = stå, ligge = ligge."
+        "Hovedidé: sitzen udtrykker en tilstand — nogen befinder sig i siddende stilling. Former: sitzt, saß, hat gesessen (i syd ofte også ist gesessen). Spørgsmålet er Wo?, derfor står stedet i dativ: auf dem Stuhl, am Tisch, im Zug.",
+        "Handlingen »sætte sig« udtrykkes med sich setzen, og »sætte nogen ned« med setzen. Disse udsagnsord svarer på spørgsmålet Wohin? og kræver akkusativ.",
+        "Parret sitzen – setzen svarer til par som liegen – legen og stehen – stellen — præcis som dansk sidde – sætte, ligge – lægge, stå – stille."
       ],
       "examples": [
         {
-          "de": "Ich sitze am Tisch.",
-          "lv": "Jeg sidder ved bordet."
+          "de": "Der Mann sitzt auf dem Stuhl.",
+          "lv": "Manden sidder på stolen."
         },
         {
-          "de": "Die Kinder sitzen im Bus.",
-          "lv": "Børnene sidder i bussen."
+          "de": "Wir sitzen im Zug nach Berlin.",
+          "lv": "Vi sidder i toget til Berlin."
         },
         {
-          "de": "Er steht an der Tür.",
-          "lv": "Han står ved døren."
+          "de": "Sie sitzt am Tisch und liest.",
+          "lv": "Hun sidder ved bordet og læser."
         },
         {
-          "de": "Die Katze liegt auf dem Sofa.",
-          "lv": "Katten sover på sofaen."
+          "de": "Wo sitzt du im Kino?",
+          "lv": "Hvor sidder du i biografen?"
+        },
+        {
+          "de": "Ich sitze den ganzen Tag am Computer.",
+          "lv": "Jeg sidder hele dagen ved computeren."
         }
       ],
       "comparison": [
         {
-          "word": "sitzen",
-          "meaning": "At sidde",
-          "example": "Ich sitze am Tisch. = Jeg sidder ved bordet."
-        },
-        {
-          "word": "stehen",
-          "meaning": "At stå",
-          "example": "Er steht an der Tür. = Han står ved døren."
-        },
-        {
-          "word": "liegen",
-          "meaning": "Sov/lig dig",
-          "example": "Die Katze liegt dort."
+          "word": "sich setzen",
+          "meaning": "sætte sig",
+          "example": "Setz dich bitte! – Sæt dig ned!"
         },
         {
           "word": "setzen",
-          "meaning": "At sidde/sætte sig ned",
-          "example": "Ich setze mich. = Jeg sætter mig ned."
+          "meaning": "sætte (nogen ned)",
+          "example": "Ich setze das Kind auf den Stuhl. – Jeg sætter barnet på stolen."
+        },
+        {
+          "word": "liegen",
+          "meaning": "ligge",
+          "example": "Das Buch liegt auf dem Tisch. – Bogen ligger på bordet."
         }
       ],
-      "tip": {
-        "text": "Husk: siddende → sitzen; stående → stehen; liggende → ligge."
-      },
+      "tip": [
+        "Spørger man Wo?, siger man sitzen med dativ; spørger man Wohin?, siger man sich setzen med akkusativ.",
+        "Lær rækken sitzen – saß – gesessen sammen."
+      ],
       "important": [
-        "sitzen viser tilstanden 'siddende'.",
-        "At sidde ned er sich setzen, ikke sitzen."
+        "Bland ikke sitzen sammen med sich setzen: Ich sitze (jeg sidder) og Ich setze mich (jeg sætter mig).",
+        "Efter sitzen står stedet i dativ: auf dem Stuhl, ikke auf den Stuhl."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "sitzen",
+            "sitzt",
+            "saß",
+            "hat gesessen",
+            "sich setzen",
+            "setzen",
+            "Wo?",
+            "Wohin?"
+          ],
           "purple": [
-            "Hovedidé",
-            "Hovedidé"
+            "siddende",
+            "sætte sig",
+            "sidde"
           ]
         },
         "examples": [
+          {
+            "de": {
+              "blue": [
+                "sitzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "sidder"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sitzen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "sidder"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sitzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "sidder"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sitzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "sidder"
+              ]
+            }
+          },
           {
             "de": {
               "blue": [
@@ -19246,46 +21847,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Jeg"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "sitzen"
-              ],
-              "green": [
-                "Kinder"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Børnene"
-              ]
-            }
-          },
-          {
-            "de": {
-              "red": [
-                "steht"
-              ]
-            },
-            "lv": {
-              "red": [
-                "Han"
-              ]
-            }
-          },
-          {
-            "de": {
-              "yellow": [
-                "liegt"
-              ]
-            },
-            "lv": {
-              "yellow": [
-                "Katten"
+                "sidder"
               ]
             }
           }
@@ -19294,52 +21856,12 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "sitzen"
+                "sich setzen"
               ]
             },
             "meaning": {
               "purple": [
-                "sidde"
-              ]
-            },
-            "example": {
-              "blue": [
-                "sitze"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "stehen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "stå"
-              ]
-            },
-            "example": {
-              "red": [
-                "steht"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "liegen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Sov/lig",
-                "Sov/lig"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "liegt"
+                "sætte sig"
               ]
             }
           },
@@ -19351,38 +21873,30 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "sig"
+                "sætte"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "liegen"
               ]
             },
-            "example": {
-              "green": [
-                "setze"
+            "meaning": {
+              "purple": [
+                "ligge"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "sitzen"
-            ],
-            "purple": [
-              "Husk"
-            ],
-            "red": [
-              "stehen"
-            ],
-            "yellow": [
-              "ligge"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "purple": [
-              "sitzen"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -19396,7 +21910,7 @@ const A1_WORDS = [
     "de": "Socke",
     "de_article": "die",
     "de_plural": "die Socken",
-    "lv": "En sok",
+    "lv": "Sok",
     "level": "A1"
   },
   {
@@ -19420,90 +21934,82 @@ const A1_WORDS = [
   },
   {
     "de": "sollen",
-    "lv": "Skulle",
+    "lv": "At skulle",
     "level": "A1",
     "study": {
       "id": "a1-sollen",
       "layout": "standardStudy",
-      "translation": "Skulle",
+      "translation": "At skulle",
       "explanation": [
-        "Hovedidé: sollen betyder, at nogen skal eller skal gøre noget som anvist.",
-        "Sollen bruges ofte, når en anden fortæller dig, hvad du skal gøre.",
-        "Den er ikke så stærk som müssen.",
-        "En meget almindelig sætning er Was soll ich machen? = Hvad skal jeg gøre?"
+        "Hovedidé: sollen er et modalverbum, der udtrykker, at nogen (en anden person, en regel, en læge) ønsker eller kræver, at noget sker. Former: ich soll, du sollst, er soll, wir sollen; datid sollte, førnutid hat gesollt (sammen med en navnemåde — hat ... sollen).",
+        "Det andet udsagnsord står sidst i sætningen i navnemåde: Du sollst mehr Wasser trinken. Konjunktivformen sollte udtrykker et råd: Du solltest schlafen (du burde sove).",
+        "Med spørgsmålet Soll ich ...? spørger man, om nogen ønsker, at man gør noget — på dansk »skal jeg ...?«."
       ],
       "examples": [
         {
-          "de": "Was soll ich machen?",
-          "lv": "Hvad skal jeg gøre"
+          "de": "Der Arzt sagt, ich soll mehr Wasser trinken.",
+          "lv": "Lægen siger, at jeg skal drikke mere vand."
         },
         {
-          "de": "Du sollst kommen.",
-          "lv": "Du skal komme"
+          "de": "Soll ich das Fenster öffnen?",
+          "lv": "Skal jeg åbne vinduet?"
         },
         {
-          "de": "Ich soll zu Hause bleiben.",
-          "lv": "Jeg er nødt til at blive hjemme"
+          "de": "Du solltest früher ins Bett gehen.",
+          "lv": "Du burde gå tidligere i seng."
         },
         {
-          "de": "Ich muss jetzt gehen.",
-          "lv": "Jeg er nødt til at gå nu"
+          "de": "Wir sollen um acht Uhr da sein.",
+          "lv": "Vi skal være der klokken otte."
         }
       ],
       "comparison": [
         {
-          "word": "sollen",
-          "meaning": "Bør/bør gøre som anvist",
-          "example": "Was soll ich machen? = Hvad skal jeg gøre?"
-        },
-        {
           "word": "müssen",
-          "meaning": "Absolut brug for",
-          "example": "Ich muss gehen. = Jeg skal gå."
+          "meaning": "være nødt til, skulle",
+          "example": "Ich muss arbeiten. – Jeg er nødt til at arbejde."
         },
         {
-          "word": "können",
-          "meaning": "Kunne",
-          "example": "Ich kann kommen. = Jeg kan komme."
+          "word": "dürfen",
+          "meaning": "måtte, have lov til",
+          "example": "Darf ich gehen? – Må jeg gå?"
         },
         {
           "word": "wollen",
-          "meaning": "Vil du",
-          "example": "Ich will bleiben. = Jeg vil blive."
+          "meaning": "ville",
+          "example": "Ich will schlafen. – Jeg vil sove."
         }
       ],
-      "tip": {
-        "text": "Husk: nogen fortæller, hvad de skal gøre → sollen; skal gøres → müssen."
-      },
+      "tip": [
+        "Sollen bruges, når kravet kommer fra en anden: Der Lehrer sagt, wir sollen lesen.",
+        "Vil du give et råd, så brug sollte: Du solltest mehr schlafen."
+      ],
       "important": [
-        "Kan Soll ich machen? er en meget almindelig sætning.",
-        "sollen og müssen er ikke helt det samme."
+        "Nicht sollen betyder som regel »ikke skulle« eller »ikke måtte«: Du sollst nicht lügen.",
+        "Sollen er ikke det samme som müssen: müssen udtrykker nødvendighed, sollen — en anden persons vilje eller en regel."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "sollen",
+            "soll",
+            "sollst",
+            "sollte",
+            "solltest",
+            "hat gesollt",
+            "Soll ich"
+          ],
           "purple": [
-            "Hovedidé"
+            "skal",
+            "råd",
+            "burde"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "soll",
-                "machen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Hvad"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "sollst",
-                "kommen"
+                "soll"
               ]
             },
             "lv": {
@@ -19515,26 +22021,36 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "soll",
-                "bleiben"
+                "Soll"
               ]
             },
             "lv": {
               "purple": [
-                "Jeg"
+                "Skal"
               ]
             }
           },
           {
             "de": {
-              "red": [
-                "muss",
-                "gehen"
+              "blue": [
+                "solltest"
               ]
             },
             "lv": {
-              "red": [
-                "Jeg"
+              "purple": [
+                "burde"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sollen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "skal"
               ]
             }
           }
@@ -19543,52 +22059,24 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "sollen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Bør/bør",
-                "Bør/bør"
-              ]
-            },
-            "example": {
-              "blue": [
-                "soll"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
                 "müssen"
               ]
             },
             "meaning": {
               "purple": [
-                "Absolut"
-              ]
-            },
-            "example": {
-              "red": [
-                "muss"
+                "være nødt til"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "können"
+                "dürfen"
               ]
             },
             "meaning": {
               "purple": [
-                "Kunne"
-              ]
-            },
-            "example": {
-              "green": [
-                "kann"
+                "have lov til"
               ]
             }
           },
@@ -19600,44 +22088,18 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Vil"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "will"
+                "ville"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "sollen"
-            ],
-            "purple": [
-              "Husk"
-            ],
-            "red": [
-              "müssen",
-              "Husk"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "blue": [
-              "Kan"
-            ]
-          },
-          {
-            "blue": [
-              "sollen"
-            ],
-            "red": [
-              "müssen"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -19660,7 +22122,7 @@ const A1_WORDS = [
     "de": "Sonne",
     "de_article": "die",
     "de_plural": "die Sonnen",
-    "lv": "Solen",
+    "lv": "Sol",
     "level": "A1"
   },
   {
@@ -19672,19 +22134,19 @@ const A1_WORDS = [
   },
   {
     "de": "spät",
-    "lv": "Sent",
+    "lv": "Sen • Sent",
     "level": "A1"
   },
   {
     "de": "spazieren gehen",
-    "lv": "Gå en tur",
+    "lv": "At gå en tur",
     "level": "A1"
   },
   {
     "de": "Spiel",
     "de_article": "das",
     "de_plural": "die Spiele",
-    "lv": "Spillet",
+    "lv": "Spil",
     "level": "A1"
   },
   {
@@ -19696,7 +22158,7 @@ const A1_WORDS = [
     "de": "Spielzeug",
     "de_article": "das",
     "de_plural": "die Spielzeuge",
-    "lv": "Et legetøj",
+    "lv": "Legetøj",
     "level": "A1"
   },
   {
@@ -19720,75 +22182,89 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "At stå",
       "explanation": [
-        "Hovedidé: stehen betyder at stå eller stå.",
-        "For en person betyder stehen at stå.",
-        "For en genstand betyder stehen, at den står eller er på et bestemt sted.",
-        "Det er vigtigt at skelne: stehen = at stå, sitzen = at sidde, ligge = at ligge."
+        "Hovedidé: stehen udtrykker en tilstand — nogen eller noget står op eller befinder sig et sted. Former: steht, stand, hat gestanden (i syd ofte ist gestanden). Stedet angives med dativ: auf dem Tisch, an der Haltestelle.",
+        "Stehen bruges også om skrevet tekst (Das steht in der Zeitung — det står i avisen) og om udseende: Das Kleid steht dir gut (kjolen klæder dig).",
+        "Handlingen »stille noget op« udtrykkes med stellen med akkusativ; »stå op« hedder aufstehen."
       ],
       "examples": [
         {
-          "de": "Ich stehe an der Tür.",
-          "lv": "Jeg står ved døren."
+          "de": "Das Glas steht auf dem Tisch.",
+          "lv": "Glasset står på bordet."
         },
         {
-          "de": "Der Stuhl steht in der Küche.",
-          "lv": "Stolen står i køkkenet."
+          "de": "Wir stehen an der Haltestelle und warten.",
+          "lv": "Vi står ved stoppestedet og venter."
         },
         {
-          "de": "Er sitzt am Tisch.",
-          "lv": "Han sidder ved bordet."
+          "de": "Das steht in der Zeitung.",
+          "lv": "Det står i avisen."
         },
         {
-          "de": "Das Buch liegt auf dem Tisch.",
-          "lv": "Bogen ligger på bordet."
+          "de": "Die Kinder stehen schon vor der Tür.",
+          "lv": "Børnene står allerede foran døren."
         }
       ],
       "comparison": [
         {
-          "word": "stehen",
-          "meaning": "Stå/vær stående",
-          "example": "Ich stehe hier. = Jeg står her."
+          "word": "stellen",
+          "meaning": "stille (noget op)",
+          "example": "Ich stelle das Glas auf den Tisch. – Jeg stiller glasset på bordet."
         },
         {
-          "word": "sitzen",
-          "meaning": "At sidde",
-          "example": "Er sitzt am Tisch. = Han sidder ved bordet."
+          "word": "aufstehen",
+          "meaning": "stå op",
+          "example": "Ich stehe um sechs Uhr auf. – Jeg står op klokken seks."
         },
         {
           "word": "liegen",
-          "meaning": "Sov/lig dig",
-          "example": "Das Buch liegt dort."
-        },
-        {
-          "word": "stellen",
-          "meaning": "Sæt oprejst",
-          "example": "Ich stelle die Flasche hin. = Jeg stiller flasken hen."
+          "meaning": "ligge",
+          "example": "Das Buch liegt auf dem Tisch. – Bogen ligger på bordet."
         }
       ],
-      "tip": {
-        "text": "Husk: stående → stehen; siddende → sidden; liggende → ligge."
-      },
+      "tip": [
+        "Lær parret stehen (wo?, dativ) – stellen (wohin?, akkusativ).",
+        "Husk formerne stand og gestanden som én række."
+      ],
       "important": [
-        "Stehen viser en tilstand, ikke handlingen med at 'lægge ned'.",
-        "At stille en genstand oprejst er stellen, ikke stehen."
+        "I førnutid bruger man normalt hat gestanden; ist gestanden høres i syd.",
+        "Aufstehen er ikke det samme som stehen: aufstehen udtrykker en bevægelse opad (stå op)."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "stehen",
+            "steht",
+            "stand",
+            "gestanden",
+            "Stehen"
+          ],
           "purple": [
-            "Hovedidé",
-            "Hovedidé"
+            "tilstand",
+            "står"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "stehe"
+                "steht"
               ]
             },
             "lv": {
               "purple": [
-                "Jeg"
+                "står"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "stehen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "står"
               ]
             }
           },
@@ -19796,38 +22272,23 @@ const A1_WORDS = [
             "de": {
               "blue": [
                 "steht"
-              ],
-              "yellow": [
-                "Stuhl"
               ]
             },
             "lv": {
               "purple": [
-                "Stolen"
+                "står"
               ]
             }
           },
           {
             "de": {
-              "red": [
-                "sitzt"
+              "blue": [
+                "stehen"
               ]
             },
             "lv": {
-              "red": [
-                "Han"
-              ]
-            }
-          },
-          {
-            "de": {
-              "red": [
-                "liegt"
-              ]
-            },
-            "lv": {
-              "red": [
-                "Bogen"
+              "purple": [
+                "står"
               ]
             }
           }
@@ -19836,35 +22297,24 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "stehen"
+                "stellen"
               ]
             },
             "meaning": {
               "purple": [
-                "Stå/vær",
-                "Stå/vær"
-              ]
-            },
-            "example": {
-              "blue": [
-                "stehe"
+                "stille"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "sitzen"
+                "aufstehen"
               ]
             },
             "meaning": {
               "purple": [
-                "sidde"
-              ]
-            },
-            "example": {
-              "red": [
-                "sitzt"
+                "stå op"
               ]
             }
           },
@@ -19876,56 +22326,18 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Sov/lig",
-                "Sov/lig"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "liegt"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "stellen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Sæt"
-              ]
-            },
-            "example": {
-              "green": [
-                "stelle"
+                "ligge"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "stehen"
-            ],
-            "purple": [
-              "Husk"
-            ],
-            "red": [
-              "sidden"
-            ],
-            "yellow": [
-              "ligge"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "purple": [
-              "stehen"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -19962,21 +22374,21 @@ const A1_WORDS = [
     "de": "Student",
     "de_article": "der",
     "de_plural": "die Studenten",
-    "lv": "En studerende",
+    "lv": "Studerende",
     "level": "A1"
   },
   {
     "de": "Stuhl",
     "de_article": "der",
     "de_plural": "die Stühle",
-    "lv": "En stol",
+    "lv": "Stol",
     "level": "A1"
   },
   {
     "de": "Stunde",
     "de_article": "die",
     "de_plural": "die Stunden",
-    "lv": "En time",
+    "lv": "Time",
     "level": "A1"
   },
   {
@@ -20000,7 +22412,7 @@ const A1_WORDS = [
     "de": "Tante",
     "de_article": "die",
     "de_plural": "die Tanten",
-    "lv": "Moster",
+    "lv": "Tante • Moster • Faster",
     "level": "A1"
   },
   {
@@ -20012,14 +22424,14 @@ const A1_WORDS = [
     "de": "Tasche",
     "de_article": "die",
     "de_plural": "die Taschen",
-    "lv": "En taske",
+    "lv": "Taske",
     "level": "A1"
   },
   {
     "de": "Tasse",
     "de_article": "die",
     "de_plural": "die Tassen",
-    "lv": "En kop",
+    "lv": "Kop",
     "level": "A1"
   },
   {
@@ -20045,14 +22457,14 @@ const A1_WORDS = [
   },
   {
     "de": "telefonieren",
-    "lv": "Ring på telefonen",
+    "lv": "At telefonere • At ringe",
     "level": "A1"
   },
   {
     "de": "Teller",
     "de_article": "der",
     "de_plural": "die Teller",
-    "lv": "Plade",
+    "lv": "Tallerken",
     "level": "A1"
   },
   {
@@ -20071,14 +22483,14 @@ const A1_WORDS = [
     "de": "Tier",
     "de_article": "das",
     "de_plural": "die Tiere",
-    "lv": "Et dyr",
+    "lv": "Dyr",
     "level": "A1"
   },
   {
     "de": "Tisch",
     "de_article": "der",
     "de_plural": "die Tische",
-    "lv": "Tabel",
+    "lv": "Bord",
     "level": "A1"
   },
   {
@@ -20123,7 +22535,7 @@ const A1_WORDS = [
     "de": "Tür",
     "de_article": "die",
     "de_plural": "die Türen",
-    "lv": "Døren",
+    "lv": "Dør",
     "level": "A1"
   },
   {
@@ -20135,69 +22547,75 @@ const A1_WORDS = [
   },
   {
     "de": "über",
-    "lv": "Over • For",
+    "lv": "Over • Om",
     "level": "A1",
     "study": {
       "id": "a1-über",
       "layout": "standardStudy",
-      "translation": "Over • For",
+      "translation": "Over • Om",
       "explanation": [
-        "Hovedidé: über betyder over eller om afhængig af konteksten.",
-        "Når det kommer til placering, betyder det ofte ovenfor.",
-        "Når det kommer til en samtale, tekst eller emne, betyder over ca.",
-        "I bevægelse kan über betyde forbi."
+        "Hovedidé: über er et forholdsord, der betyder over, hen over og (om et emne) om. Om sted kræver det dativ, når man spørger Wo? (Die Lampe hängt über dem Tisch), og akkusativ, når man spørger Wohin? (Wir gehen über die Brücke).",
+        "Når man taler om et emne, kræver über altid akkusativ: sprechen über, denken über, sich freuen über. Med et tal betyder über »mere end«: über eine Stunde.",
+        "Betydningen »om« er ikke det samme som von: über + akkusativ udtrykker oftest emnet for en samtale eller en tanke."
       ],
       "examples": [
         {
           "de": "Die Lampe hängt über dem Tisch.",
-          "lv": "En lampe hænger over bordet."
+          "lv": "Lampen hænger over bordet."
+        },
+        {
+          "de": "Wir gehen über die Brücke.",
+          "lv": "Vi går over broen."
         },
         {
           "de": "Wir sprechen über das Wetter.",
-          "lv": "Vi taler om tid."
+          "lv": "Vi taler om vejret."
         },
         {
-          "de": "Das Kind läuft über die Straße.",
-          "lv": "Barnet løber over gaden."
+          "de": "Ich habe ein Buch über Lettland gelesen.",
+          "lv": "Jeg har læst en bog om Letland."
         },
         {
-          "de": "Ich freue mich über das Geschenk.",
-          "lv": "Jeg er glad for gaven."
+          "de": "Ich warte schon über eine Stunde.",
+          "lv": "Jeg har ventet i over en time."
         }
       ],
       "comparison": [
         {
-          "word": "über",
-          "meaning": "Over / over / på tværs",
-          "example": "Wir sprechen über das Wetter. = Vi taler om vejret."
-        },
-        {
           "word": "auf",
-          "meaning": "På overfladen",
-          "example": "Das Buch liegt auf dem Tisch. = Bogen ligger på bordet."
-        },
-        {
-          "word": "unter",
-          "meaning": "Under",
-          "example": "Die Tasche ist unter dem Tisch."
+          "meaning": "på",
+          "example": "Das Buch liegt auf dem Tisch. – Bogen ligger på bordet."
         },
         {
           "word": "von",
-          "meaning": "Fra/om fra en eller anden kilde",
-          "example": "Ich höre von dir. = Jeg hører fra dig."
+          "meaning": "om / fra",
+          "example": "Er erzählt von seiner Reise. – Han fortæller om sin rejse."
+        },
+        {
+          "word": "unter",
+          "meaning": "under",
+          "example": "Die Katze schläft unter dem Tisch. – Katten sover under bordet."
         }
       ],
-      "tip": {
-        "text": "Husk: emne i samtale → über; over bordet → über."
-      },
+      "tip": [
+        "Stil spørgsmålet: Wo? — dativ, Wohin? — akkusativ; men efter sprechen über, denken über bruges altid akkusativ.",
+        "Husk parret über – unter (over – under)."
+      ],
       "important": [
-        "über er ikke bare et stednavn.",
-        "sprechen über betyder \"at tale om\"."
+        "Über er ikke det samme som auf: über betyder over uden berøring, auf — direkte på overfladen.",
+        "Efter über står emnet i akkusativ: über das Wetter, ikke über dem Wetter."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "über",
+            "über dem Tisch",
+            "über die Brücke"
+          ],
           "purple": [
-            "over"
+            "over",
+            "hen over",
+            "om"
           ]
         },
         "examples": [
@@ -20205,27 +22623,11 @@ const A1_WORDS = [
             "de": {
               "blue": [
                 "über"
-              ],
-              "yellow": [
-                "Tisch"
-              ]
-            },
-            "lv": {
-              "purple": []
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "über"
-              ],
-              "green": [
-                "Wetter"
               ]
             },
             "lv": {
               "purple": [
-                "taler"
+                "over"
               ]
             }
           },
@@ -20233,14 +22635,11 @@ const A1_WORDS = [
             "de": {
               "blue": [
                 "über"
-              ],
-              "yellow": [
-                "Straße"
               ]
             },
             "lv": {
               "purple": [
-                "Barnet"
+                "over"
               ]
             }
           },
@@ -20248,14 +22647,35 @@ const A1_WORDS = [
             "de": {
               "blue": [
                 "über"
-              ],
-              "yellow": [
-                "Geschenk"
               ]
             },
             "lv": {
               "purple": [
-                "Jeg"
+                "om"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "über"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "om"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "über"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "over"
               ]
             }
           }
@@ -20264,53 +22684,12 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "über"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Over",
-                "Over",
-                "Over"
-              ]
-            },
-            "example": {
-              "blue": [
-                "über"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
                 "auf"
               ]
             },
             "meaning": {
               "purple": [
-                "overfladen"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "auf"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "unter"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Under"
-              ]
-            },
-            "example": {
-              "red": [
-                "unter"
+                "på"
               ]
             }
           },
@@ -20322,33 +22701,30 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Fra/om"
+                "om / fra"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "unter"
               ]
             },
-            "example": {
-              "green": [
-                "von"
+            "meaning": {
+              "purple": [
+                "under"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "über"
-            ],
-            "purple": [
-              "Husk",
-              "Husk"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "purple": [
-              "über"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -20365,69 +22741,72 @@ const A1_WORDS = [
   },
   {
     "de": "um",
-    "lv": "Omkring • Kl",
+    "lv": "Omkring • Klokken",
     "level": "A1",
     "study": {
       "id": "a1-um",
       "layout": "standardStudy",
-      "translation": "Omkring • Kl",
+      "translation": "Omkring • Klokken",
       "explanation": [
-        "Hovedidé: um betyder meget ofte ur med tid eller omkring/omkring med sted.",
-        "Med nøjagtig tid betyder um klokken.",
-        "Med et sted betyder um omkring eller omkring.",
-        "I sætningen um ... zu hjælper det med at udtrykke hensigten: at."
+        "Hovedidé: um er et forholdsord, der altid kræver akkusativ. Om tid angiver um et præcist klokkeslæt: um acht Uhr (klokken otte). Om sted angiver det noget rundt om: um den Tisch (omkring bordet), um die Ecke (om hjørnet).",
+        "Spørgsmålet om tid er Um wie viel Uhr ...? (hvad tid?). Klokkeslæt står uden kendeord efter um: um 8 Uhr, ikke in 8 Uhr.",
+        "Med zu + navnemåde udtrykker um formål: Er lernt, um zu verstehen (han lærer for at forstå)."
       ],
       "examples": [
         {
-          "de": "Ich komme um acht Uhr.",
-          "lv": "Jeg kommer klokken otte."
+          "de": "Der Unterricht beginnt um acht Uhr.",
+          "lv": "Undervisningen begynder klokken otte."
         },
         {
           "de": "Wir sitzen um den Tisch.",
-          "lv": "Vi sidder rundt om bordet."
+          "lv": "Vi sidder omkring bordet."
         },
         {
-          "de": "Er geht um die Ecke.",
-          "lv": "Han går rundt om hjørnet."
+          "de": "Die Bank ist gleich um die Ecke.",
+          "lv": "Banken ligger lige om hjørnet."
         },
         {
-          "de": "Ich lerne, um Deutsch zu sprechen.",
-          "lv": "Jeg er ved at lære at tale tysk."
+          "de": "Um wie viel Uhr kommst du?",
+          "lv": "Hvad tid kommer du?"
         }
       ],
       "comparison": [
         {
-          "word": "um",
-          "meaning": "Ved / omkring / til",
-          "example": "Ich komme um acht. = Jeg kommer klokken otte."
-        },
-        {
-          "word": "am",
-          "meaning": "Pr. dag / kl",
-          "example": "Am Montag komme ich. = På mandag kommer jeg."
-        },
-        {
           "word": "gegen",
-          "meaning": "Omkring tid / vs",
-          "example": "Ich komme gegen acht. = Jeg kommer omkring klokken otte."
+          "meaning": "omkring (cirka)",
+          "example": "Ich komme gegen acht Uhr. – Jeg kommer omkring klokken otte."
         },
         {
-          "word": "für",
-          "meaning": "For / til fordel for",
-          "example": "Das ist für dich."
+          "word": "bis",
+          "meaning": "indtil, til",
+          "example": "Ich bleibe bis acht Uhr. – Jeg bliver til klokken otte."
+        },
+        {
+          "word": "in",
+          "meaning": "i / om (tid)",
+          "example": "In einer Woche fahre ich ab. – Om en uge rejser jeg."
         }
       ],
-      "tip": {
-        "text": "Husk: um acht = klokken otte."
-      },
+      "tip": [
+        "Sig præcise klokkeslæt med um: um 7 Uhr, um halb acht (halv otte).",
+        "Sig omtrentlige tidspunkter med gegen: gegen 7 Uhr."
+      ],
       "important": [
-        "Ved klokkeslæt svarer um normalt til \"klokken\" på dansk.",
-        "um ... zu betyder ofte \"at ...\"."
+        "Efter um følger altid akkusativ: um den Tisch, um die Ecke.",
+        "Man kan ikke sige »in 8 Uhr«: det hedder um 8 Uhr."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "um",
+            "um acht Uhr",
+            "um den Tisch",
+            "um die Ecke"
+          ],
           "purple": [
-            "Hovedidé"
+            "klokken",
+            "omkring",
+            "om hjørnet"
           ]
         },
         "examples": [
@@ -20435,14 +22814,11 @@ const A1_WORDS = [
             "de": {
               "blue": [
                 "um"
-              ],
-              "yellow": [
-                "acht Uhr"
               ]
             },
             "lv": {
               "purple": [
-                "Jeg"
+                "klokken"
               ]
             }
           },
@@ -20450,14 +22826,11 @@ const A1_WORDS = [
             "de": {
               "blue": [
                 "um"
-              ],
-              "yellow": [
-                "Tisch"
               ]
             },
             "lv": {
               "purple": [
-                "sidder"
+                "omkring"
               ]
             }
           },
@@ -20465,27 +22838,23 @@ const A1_WORDS = [
             "de": {
               "blue": [
                 "um"
-              ],
-              "yellow": [
-                "Ecke"
               ]
             },
             "lv": {
               "purple": [
-                "Han"
+                "om hjørnet"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "um",
-                "zu"
+                "Um"
               ]
             },
             "lv": {
               "purple": [
-                "Jeg"
+                "Hvad tid"
               ]
             }
           }
@@ -20494,92 +22863,47 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "um"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Ved",
-                "Ved",
-                "Ved"
-              ]
-            },
-            "example": {
-              "blue": [
-                "um"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "am"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Pr",
-                "Pr"
-              ]
-            },
-            "example": {
-              "green": [
-                "Am"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
                 "gegen"
               ]
             },
             "meaning": {
               "purple": [
-                "Omkring",
-                "Omkring"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "gegen"
+                "omkring (cirka)"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "für"
+                "bis"
               ]
             },
             "meaning": {
               "purple": [
-                "For"
+                "indtil"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "in"
               ]
             },
-            "example": {
-              "red": [
-                "für"
+            "meaning": {
+              "purple": [
+                "i / om"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "um acht"
-            ],
-            "purple": [
-              "Husk"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "purple": [
-              "klokken"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -20596,7 +22920,7 @@ const A1_WORDS = [
   },
   {
     "de": "unten",
-    "lv": "Nederst",
+    "lv": "Nede • Nedenunder",
     "level": "A1"
   },
   {
@@ -20608,63 +22932,65 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Under",
       "explanation": [
-        "Hovedidé: unter betyder under eller mellem afhængigt af konteksten.",
-        "Hvis der er noget under et bord, en stol eller en anden genstand, så brug unter.",
-        "Når man taler om en gruppe mennesker, kan unter betyde mellem.",
-        "Det er det modsatte af über, når man henviser til retningen op/ned."
+        "Hovedidé: unter er et forholdsord med hovedbetydningen under. Spørger man Wo?, følger dativ (Die Katze schläft unter dem Tisch); spørger man Wohin?, følger akkusativ (Er legt den Schlüssel unter die Zeitung).",
+        "I overført betydning kan unter betyde blandt (unter Freunden — blandt venner), mindre end (unter 18 Jahren — under 18 år) og under nogens indflydelse eller under visse forhold.",
+        "Modsætningen er über (over), men tæt på i betydning om sted og overflade ligger også auf."
       ],
       "examples": [
         {
-          "de": "Die Tasche ist unter dem Tisch.",
-          "lv": "Tasken er under bordet."
+          "de": "Die Katze schläft unter dem Tisch.",
+          "lv": "Katten sover under bordet."
         },
         {
-          "de": "Die Katze liegt unter dem Stuhl.",
-          "lv": "Katten sover under stolen."
+          "de": "Er legt den Schlüssel unter die Zeitung.",
+          "lv": "Han lægger nøglen under avisen."
         },
         {
-          "de": "Unter Freunden sagt man das so.",
-          "lv": "Blandt venner siges det."
+          "de": "Unter uns gesagt, ich mag ihn nicht.",
+          "lv": "Mellem os sagt kan jeg ikke lide ham."
         },
         {
-          "de": "Die Lampe hängt über dem Tisch.",
-          "lv": "En lampe hænger over bordet."
+          "de": "Kinder unter sechs Jahren fahren kostenlos.",
+          "lv": "Børn under seks år kører gratis."
         }
       ],
       "comparison": [
         {
-          "word": "unter",
-          "meaning": "Under/mellem",
-          "example": "Die Tasche ist unter dem Tisch."
-        },
-        {
           "word": "über",
-          "meaning": "Over / for",
-          "example": "Die Lampe hängt über dem Tisch. = Lampen hænger over bordet."
+          "meaning": "over",
+          "example": "Die Lampe hängt über dem Tisch. – Lampen hænger over bordet."
         },
         {
           "word": "zwischen",
-          "meaning": "Mellem to ting",
-          "example": "Zwischen den Häusern. = Mellem husene."
+          "meaning": "mellem",
+          "example": "Der Stuhl steht zwischen Tisch und Tür. – Stolen står mellem bordet og døren."
         },
         {
-          "word": "auf",
-          "meaning": "På overfladen",
-          "example": "Auf dem Tisch. = På bordet."
+          "word": "hinter",
+          "meaning": "bag",
+          "example": "Der Garten ist hinter dem Haus. – Haven ligger bag huset."
         }
       ],
-      "tip": {
-        "text": "Husk: zem galda → unter dem Tisch."
-      },
+      "tip": [
+        "Wo? — unter dem Tisch; Wohin? — unter den Tisch. Lær det sammen med de andre forholdsord med to kasus.",
+        "Udtrykket unter uns betyder »mellem os« og bruges, når man siger noget fortroligt."
+      ],
       "important": [
-        "unter kan også betyde \"mellem\", især med personer eller grupper.",
-        "unter og über er ofte modsætninger i betydningen sted."
+        "Unter er ikke det samme som zwischen: unter henviser til en mængde eller gruppe (unter Freunden), zwischen — til to bestemte ting.",
+        "Unter + tal betyder »mindre end«: unter 18 betyder yngre end 18."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "unter",
+            "unter dem Tisch",
+            "unter die Zeitung",
+            "unter 18"
+          ],
           "purple": [
-            "man",
-            "man"
+            "under",
+            "blandt",
+            "mindre end"
           ]
         },
         "examples": [
@@ -20672,14 +22998,11 @@ const A1_WORDS = [
             "de": {
               "blue": [
                 "unter"
-              ],
-              "yellow": [
-                "Tisch"
               ]
             },
             "lv": {
               "purple": [
-                "Tasken"
+                "under"
               ]
             }
           },
@@ -20687,14 +23010,11 @@ const A1_WORDS = [
             "de": {
               "blue": [
                 "unter"
-              ],
-              "yellow": [
-                "Stuhl"
               ]
             },
             "lv": {
               "purple": [
-                "Katten"
+                "under"
               ]
             }
           },
@@ -20702,29 +23022,24 @@ const A1_WORDS = [
             "de": {
               "blue": [
                 "Unter"
-              ],
-              "green": [
-                "Freunden"
               ]
             },
             "lv": {
               "purple": [
-                "Blandt"
+                "Mellem os"
               ]
             }
           },
           {
             "de": {
-              "red": [
-                "über"
-              ],
-              "yellow": [
-                "Tisch"
+              "blue": [
+                "unter"
               ]
             },
             "lv": {
-              "red": [],
-              "yellow": []
+              "purple": [
+                "under"
+              ]
             }
           }
         ],
@@ -20732,36 +23047,12 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "unter"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Under",
-                "Under"
-              ]
-            },
-            "example": {
-              "blue": [
-                "unter"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
                 "über"
               ]
             },
             "meaning": {
               "purple": [
-                "Over",
-                "Over"
-              ]
-            },
-            "example": {
-              "red": [
-                "Die"
+                "over"
               ]
             }
           },
@@ -20773,49 +23064,30 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Mellem"
-              ]
-            },
-            "example": {
-              "green": [
-                "Zwischen"
+                "mellem"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "auf"
+                "hinter"
               ]
             },
             "meaning": {
               "purple": [
-                "overfladen"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "Auf"
+                "bag"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "unter dem Tisch"
-            ],
-            "purple": [
-              "zem galda"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "purple": [
-              "unter"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -20858,63 +23130,70 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "At forstå",
       "explanation": [
-        "Hovedidé: verstehen betyder at forstå.",
-        "Det bruges, når du forstår et sprog, person, tekst eller situation.",
-        "Du normalt behøver ikke at \"kende\" eller \"undervise\" dansk her • De er oftere können.",
-        "En meget almindelig sætning er Ich verstehe. = Jeg forstår."
+        "Hovedidé: verstehen betyder forstå — både sprog, mening og mennesker. Former: versteht, verstand, hat verstanden. Forstavelsen ver- er uadskillelig, derfor har førnutid ikke ge-: hat verstanden.",
+        "Normalt følger akkusativ: Ich verstehe die Frage. Refleksivt betyder sich verstehen at forstå hinanden og komme godt ud af det sammen: Wir verstehen uns gut. Med von kan det også betyde at have forstand på noget: Er versteht viel von Autos.",
+        "Hvis man ikke opfatter lyden, bruger man hören; hvis man ikke fatter tanken — nicht verstehen eller nicht begreifen."
       ],
       "examples": [
         {
-          "de": "Ich verstehe dich.",
-          "lv": "Jeg forstår dig"
+          "de": "Ich verstehe die Frage nicht.",
+          "lv": "Jeg forstår ikke spørgsmålet."
         },
         {
           "de": "Verstehst du Deutsch?",
-          "lv": "Forstår du tysk"
+          "lv": "Forstår du tysk?"
         },
         {
-          "de": "Ich verstehe das nicht.",
-          "lv": "Jeg forstår det ikke."
+          "de": "Ich habe Sie leider nicht verstanden.",
+          "lv": "Jeg forstod Dem desværre ikke."
         },
         {
-          "de": "Ich kann Deutsch sprechen.",
-          "lv": "Jeg kan tale tysk"
+          "de": "Meine Schwester und ich verstehen uns sehr gut.",
+          "lv": "Min søster og jeg forstår hinanden rigtig godt."
+        },
+        {
+          "de": "Er versteht viel von Autos.",
+          "lv": "Han har forstand på biler."
         }
       ],
       "comparison": [
         {
-          "word": "verstehen",
-          "meaning": "At forstå",
-          "example": "Ich verstehe dich. = Jeg forstår dig."
+          "word": "begreifen",
+          "meaning": "begribe, fatte",
+          "example": "Ich begreife das nicht. – Det begriber jeg ikke."
         },
         {
-          "word": "können",
-          "meaning": "Kunne/kende",
-          "example": "Ich kann schwimmen. = Jeg kan svømme."
-        },
-        {
-          "word": "wissen",
-          "meaning": "Kend kendsgerningen",
-          "example": "Ich weiß das. = Jeg ved det."
+          "word": "hören",
+          "meaning": "høre",
+          "example": "Ich höre dich nicht. – Jeg kan ikke høre dig."
         },
         {
           "word": "kennen",
-          "meaning": "At vide",
-          "example": "Ich kenne ihn. = Jeg kender ham."
+          "meaning": "kende",
+          "example": "Ich kenne ihn. – Jeg kender ham."
         }
       ],
-      "tip": {
-        "text": "Husk: at forstå teksten/personen → verstehen; at vide, hvordan man gør noget → können."
-      },
+      "tip": [
+        "I førnutid siger man hat verstanden, ikke »hat geverstanden« — forstavelsen ver- er uadskillelig.",
+        "Har du ikke forstået, hvad der blev sagt, så sig: Ich habe das nicht verstanden eller Ich verstehe das nicht."
+      ],
       "important": [
-        "verstehen er ikke grundordet for 'at forstå'.",
-        "Ich verstehe Deutsch betyder \"jeg forstår på tysk\"."
+        "Verstehen er ikke det samme som hören: Ich höre dich nicht betyder, at jeg ikke kan høre dig, ikke at jeg ikke forstår dig.",
+        "Sich gut verstehen (forstå hinanden godt) udtrykker et godt forhold mellem mennesker."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "verstehen",
+            "versteht",
+            "verstand",
+            "verstanden",
+            "verstehe"
+          ],
           "purple": [
-            "Hovedidé",
-            "Hovedidé"
+            "forstå",
+            "forstå hinanden",
+            "have forstand på"
           ]
         },
         "examples": [
@@ -20926,7 +23205,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Jeg"
+                "forstår"
               ]
             }
           },
@@ -20945,24 +23224,36 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "verstehe"
+                "verstanden"
               ]
             },
             "lv": {
               "purple": [
-                "Jeg"
+                "forstod"
               ]
             }
           },
           {
             "de": {
-              "red": [
-                "kann"
+              "blue": [
+                "verstehen"
               ]
             },
             "lv": {
-              "red": [
-                "kan"
+              "purple": [
+                "forstår hinanden"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "versteht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "har forstand på"
               ]
             }
           }
@@ -20971,52 +23262,24 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "verstehen"
+                "begreifen"
               ]
             },
             "meaning": {
               "purple": [
-                "forstå"
-              ]
-            },
-            "example": {
-              "blue": [
-                "verstehe"
+                "begribe"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "können"
+                "hören"
               ]
             },
             "meaning": {
               "purple": [
-                "Kunne/kende",
-                "Kunne/kende"
-              ]
-            },
-            "example": {
-              "red": [
-                "kann"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "wissen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Kend"
-              ]
-            },
-            "example": {
-              "green": [
-                "weiß"
+                "høre"
               ]
             }
           },
@@ -21028,36 +23291,18 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "vide"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "kenne"
+                "kende"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "verstehen"
-            ],
-            "purple": [
-              "Husk"
-            ],
-            "red": [
-              "können",
-              "Husk"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "purple": [
-              "verstehen"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -21069,7 +23314,7 @@ const A1_WORDS = [
   },
   {
     "de": "viel",
-    "lv": "En masse",
+    "lv": "Meget • Mange",
     "level": "A1"
   },
   {
@@ -21089,7 +23334,7 @@ const A1_WORDS = [
   },
   {
     "de": "vierte",
-    "lv": "Den fjerde",
+    "lv": "Fjerde",
     "level": "A1"
   },
   {
@@ -21099,7 +23344,7 @@ const A1_WORDS = [
   },
   {
     "de": "vierzehnte",
-    "lv": "Den fjortende",
+    "lv": "Fjortende",
     "level": "A1"
   },
   {
@@ -21109,14 +23354,14 @@ const A1_WORDS = [
   },
   {
     "de": "vierzigste",
-    "lv": "Den fyrretyvende",
+    "lv": "Fyrretyvende",
     "level": "A1"
   },
   {
     "de": "Vogel",
     "de_article": "der",
     "de_plural": "die Vögel",
-    "lv": "En fugl",
+    "lv": "Fugl",
     "level": "A1"
   },
   {
@@ -21133,87 +23378,64 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Fra",
       "explanation": [
-        "Vom er en forkortelse for præpositionen von og artiklen dem.",
-        "Fuld form: von dem (til hvem?).",
-        "Bruges sammen med substantiver af hankøn og intetkøn, når de angiver oprindelse eller retning fra hvad.",
-        "Svarer på spørgsmål fra hvem? eller hvorfra?",
-        "I praksis bruges vom næsten altid i stedet for den fulde von dem."
+        "Hovedidé: vom er en sammentrækning af von + dem, altså von med dativ ved hankøns- eller intetkønsord. Det betyder fra (oprindelse, udgangspunkt, afsender): vom Arzt, vom Bahnhof, vom ersten Tag an.",
+        "Ved hunkøn og i flertal findes sammentrækningen ikke: von der Frau, von den Kindern. Vom er kun von dem.",
+        "Når kendeordet skal fremhæves, skriver man von dem; i hverdagen og i skrift bruger man normalt vom."
       ],
       "examples": [
         {
-          "de": "Ich komme vom Bahnhof.",
-          "lv": "Jeg kommer fra stationen"
+          "de": "Das Geschenk ist vom Opa.",
+          "lv": "Gaven er fra morfar."
         },
         {
-          "de": "Das Geschenk ist vom Vater.",
-          "lv": "Gaven er fra far."
+          "de": "Wir kommen gerade vom Arzt.",
+          "lv": "Vi kommer lige fra lægen."
         },
         {
-          "de": "Er kommt vom Arzt.",
-          "lv": "Han kommer fra lægen."
+          "de": "Der Zug vom Gleis drei fährt gleich ab.",
+          "lv": "Toget fra spor tre kører om lidt."
         },
         {
-          "de": "Sie fährt vom Flughafen.",
-          "lv": "Hun kører fra lufthavnen."
-        },
-        {
-          "de": "Das ist vom Markt.",
-          "lv": "Det er fra markedet."
-        },
-        {
-          "de": "Wir kommen vom Fest.",
-          "lv": "Vi kommer fra en fest."
-        },
-        {
-          "de": "Er holt Milch vom Bauern.",
-          "lv": "Han tager mælk fra bonden."
-        },
-        {
-          "de": "Die Nachricht ist vom Chef.",
-          "lv": "Beskeden er fra chefen."
+          "de": "Vom ersten Tag an arbeite ich hier.",
+          "lv": "Fra den første dag arbejder jeg her."
         }
       ],
       "comparison": [
         {
-          "word": "vom",
-          "meaning": "Fra (en bestemt ting, for hvem?)",
-          "example": "vom Bahnhof – Fra stationen"
-        },
-        {
           "word": "von",
-          "meaning": "Fra (generelt)",
-          "example": "von mir – Fra mig"
+          "meaning": "fra",
+          "example": "Das Buch ist von der Lehrerin. – Bogen er fra lærerinden."
         },
         {
           "word": "aus",
-          "meaning": "Indefra / oprindelse",
-          "example": "aus Deutschland – Fra Tyskland"
+          "meaning": "fra (ud af / land)",
+          "example": "Er kommt aus dem Haus. – Han kommer ud af huset."
         },
         {
-          "word": "ab",
-          "meaning": "Starter kl (tid/sted)",
-          "example": "ab Montag – Fra mandag"
-        },
-        {
-          "word": "zu",
-          "meaning": "Til/ved (modsat retning)",
-          "example": "zum Arzt – Til lægen"
+          "word": "zum",
+          "meaning": "til / hen til",
+          "example": "Ich gehe zum Arzt. – Jeg går til lægen."
         }
       ],
       "tip": [
-        "Husk: von + dem → vom (kam?).",
-        "I daglig tale siger man næsten aldrig von dem – brug vom."
+        "Vom bruges kun ved hankøns- og intetkønsord: vom Mann, vom Kind.",
+        "Ved hunkøn siger man von der: von der Schule, von der Arbeit."
       ],
       "important": [
-        "vom = von dem, kun med et hankøns- eller intetkønsnavn for hvem? i bøjning.",
-        "Angiver oprindelsen, kilden eller retningen fra noget bestemt.",
-        "For det kvindelige køn: von der Mutter, ikke vom Mutter.",
-        "Ikke at forveksle med aus (oprindelsesland) eller ab (udgangspunkt)."
+        "Vom = von + dem, ikke von + den.",
+        "Det land eller den by, man kommer fra, angives med aus, ikke vom."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "vom",
+            "von dem",
+            "von der",
+            "von den"
+          ],
           "purple": [
-            "Vom"
+            "fra",
+            "dativ"
           ]
         },
         "examples": [
@@ -21225,7 +23447,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Jeg"
+                "fra"
               ]
             }
           },
@@ -21237,7 +23459,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Gaven"
+                "fra"
               ]
             }
           },
@@ -21249,67 +23471,19 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Han"
+                "fra"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "vom"
+                "Vom"
               ]
             },
             "lv": {
               "purple": [
-                "Hun"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "vom"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Det"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "vom"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "kommer"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "vom"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "tager"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "vom"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Beskeden"
+                "Fra"
               ]
             }
           }
@@ -21318,34 +23492,12 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "vom"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Fra"
-              ]
-            },
-            "example": {
-              "blue": [
-                "vom Bahnhof"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
                 "von"
               ]
             },
             "meaning": {
               "purple": [
-                "Fra"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "von mir"
+                "fra"
               ]
             }
           },
@@ -21357,64 +23509,30 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Indefra"
-              ]
-            },
-            "example": {
-              "green": [
-                "aus Deutschland"
+                "fra (ud af / land)"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "ab"
+                "zum"
               ]
             },
             "meaning": {
               "purple": [
-                "Starter"
-              ]
-            },
-            "example": {
-              "green": [
-                "ab Montag"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "zu"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Til/ved",
-                "Til/ved"
-              ]
-            },
-            "example": {
-              "red": [
-                "zum Arzt"
+                "til / hen til"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "von dem"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "purple": [
-              "von dem"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -21433,93 +23551,102 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Før • Foran",
       "explanation": [
-        "Hovedidé: vor betyder før i tid eller foran sted.",
-        "Når det kommer til tid, betyder vor før.",
-        "Når det kommer til sted, betyder vor foran eller ved.",
-        "I klokkeslæt betyder vor 'indtil', fx fünf vor acht."
+        "Hovedidé: vor er et forholdsord med betydningerne foran og før. Om sted følger dativ, når man spørger Wo? (Das Auto steht vor dem Haus), og akkusativ ved Wohin? (Stell den Stuhl vor das Fenster).",
+        "Om tid betyder vor med dativ før eller for ... siden: vor dem Essen (før maden), vor einer Woche (for en uge siden). Også ved frygt: Angst vor Hunden — være bange for hunde.",
+        "Modsætningen er nach (efter) om tid og hinter (bag) om sted."
       ],
       "examples": [
         {
-          "de": "Vor dem Essen wasche ich die Hände.",
-          "lv": "Jeg vasker hænder før jeg spiser."
-        },
-        {
           "de": "Das Auto steht vor dem Haus.",
-          "lv": "Bilen er parkeret foran huset."
+          "lv": "Bilen står foran huset."
         },
         {
-          "de": "Es ist fünf vor acht.",
-          "lv": "Klokken er fem til otte."
+          "de": "Wir essen vor dem Kino.",
+          "lv": "Vi spiser før biografen."
         },
         {
-          "de": "Nach dem Essen gehen wir spazieren.",
-          "lv": "Efter at have spist går vi en tur."
+          "de": "Vor einer Woche war ich in Berlin.",
+          "lv": "For en uge siden var jeg i Berlin."
+        },
+        {
+          "de": "Stell den Stuhl vor das Fenster.",
+          "lv": "Stil stolen foran vinduet."
+        },
+        {
+          "de": "Ich habe Angst vor Hunden.",
+          "lv": "Jeg er bange for hunde."
         }
       ],
       "comparison": [
         {
-          "word": "vor",
-          "meaning": "Før / foran",
-          "example": "Vor dem Essen... = Før maden..."
-        },
-        {
           "word": "nach",
-          "meaning": "Efter / til",
-          "example": "Nach dem Essen... = Efter maden..."
-        },
-        {
-          "word": "neben",
-          "meaning": "Ved siden af",
-          "example": "Neben dem Haus. = Ved siden af huset."
+          "meaning": "efter",
+          "example": "Nach dem Essen trinken wir Tee. – Efter maden drikker vi te."
         },
         {
           "word": "hinter",
-          "meaning": "Bagved",
-          "example": "Hinter dem Haus. = Bag huset."
+          "meaning": "bag",
+          "example": "Der Garten ist hinter dem Haus. – Haven ligger bag huset."
+        },
+        {
+          "word": "seit",
+          "meaning": "siden",
+          "example": "Ich wohne seit einem Jahr hier. – Jeg har boet her i et år."
         }
       ],
-      "tip": {
-        "text": "Husk: før tid, foran sted → vor."
-      },
+      "tip": [
+        "Om tid betyder vor før eller for ... siden: vor zwei Tagen (for to dage siden), vor dem Essen (før maden).",
+        "Husk udtrykket Angst haben vor + dativ."
+      ],
       "important": [
-        "vor kan være både tid og sted.",
-        "vor dem Essen = før spisning; vor dem Haus = foran huset."
+        "Vor + tidsenhed angiver, hvor længe siden noget skete (vor zwei Tagen); varighed frem til nu udtrykkes med seit.",
+        "Efter vor om sted vælger du dativ (Wo?) eller akkusativ (Wohin?)."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "vor"
+          ],
           "purple": [
-            "Hovedidé",
-            "Hovedidé"
+            "foran",
+            "før",
+            "for ... siden"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
+                "vor"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "foran"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "vor"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "før"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
                 "Vor"
-              ],
-              "yellow": [
-                "Essen"
               ]
             },
             "lv": {
               "purple": [
-                "Jeg"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "vor"
-              ],
-              "yellow": [
-                "Haus"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Bilen"
+                "For en uge siden"
               ]
             }
           },
@@ -21531,25 +23658,19 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Klokken"
+                "foran"
               ]
             }
           },
           {
             "de": {
-              "red": [
-                "Nach"
-              ],
-              "yellow": [
-                "Essen"
+              "blue": [
+                "Angst"
               ]
             },
             "lv": {
-              "red": [
-                "Efter"
-              ],
-              "yellow": [
-                "Efter"
+              "purple": [
+                "bange for"
               ]
             }
           }
@@ -21558,53 +23679,12 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "vor"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Før",
-                "Før"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Vor"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
                 "nach"
               ]
             },
             "meaning": {
               "purple": [
-                "Efter",
-                "Efter"
-              ]
-            },
-            "example": {
-              "red": [
-                "Nach"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "neben"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Ved"
-              ]
-            },
-            "example": {
-              "green": [
-                "Neben"
+                "efter"
               ]
             }
           },
@@ -21616,34 +23696,30 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Bagved"
+                "bag"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "seit"
               ]
             },
-            "example": {
-              "yellow": [
-                "Hinter"
+            "meaning": {
+              "purple": [
+                "siden"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "vor"
-            ],
-            "purple": [
-              "Husk",
-              "Husk"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "purple": [
-              "vor",
-              "vor"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -21652,7 +23728,7 @@ const A1_WORDS = [
     "de": "Vorname",
     "de_article": "der",
     "de_plural": "die Vornamen",
-    "lv": "Ord",
+    "lv": "Fornavn",
     "level": "A1"
   },
   {
@@ -21671,7 +23747,7 @@ const A1_WORDS = [
   },
   {
     "de": "wann",
-    "lv": "Når",
+    "lv": "Hvornår",
     "level": "A1"
   },
   {
@@ -21691,19 +23767,16 @@ const A1_WORDS = [
   },
   {
     "de": "was",
-    "lv": "Wen • Hvad",
+    "lv": "Hvad",
     "level": "A1",
     "study": {
       "id": "a1-was",
       "layout": "standardStudy",
-      "translation": "Wen • Hvad",
+      "translation": "Hvad",
       "explanation": [
-        "Hovedidé: hvad er et spørgsmålsord om ting og begivenheder - på dansk er det hvad eller hvad, afhængigt af sætningens del.",
-        "Blev spurgt om ting, begivenheder og fakta, ikke om personer.",
-        "På tysk ændres var ikke efter bøjning - det ser altid ud som om var.",
-        "Hvis was er emnet for sætningen, oversættes det til kas (Was ist das? = Hvad er det?) på dansk.",
-        "Hvis var er komplementet (objektet) til verbet, oversættes det til ko (Was machst du? = Was machst du?) på dansk.",
-        "Folk bliver spurgt med wer (hvem/hvem), ikke var."
+        "Hovedidé: was er et spørgende stedord om ting og begivenheder. Det svarer til dansk hvad både i nominativ (Was ist das?) og i akkusativ (Was machst du?). Det har hverken køn eller flertal.",
+        "Med was für ein spørger man om slags: Was für ein Auto hast du? Was bruges også som henførende stedord efter alles, etwas, nichts, das: Alles, was du sagst, ist richtig.",
+        "Om personer spørger man med wer, om ting med was."
       ],
       "examples": [
         {
@@ -21711,45 +23784,58 @@ const A1_WORDS = [
           "lv": "Hvad er det?"
         },
         {
-          "de": "Was ist passiert?",
-          "lv": "Hvad skete der?"
+          "de": "Was machst du am Wochenende?",
+          "lv": "Hvad laver du i weekenden?"
         },
         {
-          "de": "Was machst du gerade?",
-          "lv": "Hvad laver du nu"
+          "de": "Was für ein Auto hast du?",
+          "lv": "Hvad for en bil har du?"
         },
         {
-          "de": "Was möchtest du trinken?",
-          "lv": "Hvad vil du drikke"
+          "de": "Ich weiß nicht, was er will.",
+          "lv": "Jeg ved ikke, hvad han vil."
         },
         {
-          "de": "Was bedeutet dieses Wort?",
-          "lv": "Hvad betyder dette ord?"
+          "de": "Alles, was du sagst, ist richtig.",
+          "lv": "Alt, hvad du siger, er rigtigt."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "wer",
+          "meaning": "hvem (person)",
+          "example": "Wer ist das? – Hvem er det?"
         },
         {
-          "de": "Was ist dein Lieblingsessen?",
-          "lv": "Hvad er din yndlingsmad?"
+          "word": "welcher",
+          "meaning": "hvilken",
+          "example": "Welches Buch liest du? – Hvilken bog læser du?"
         },
         {
-          "de": "Was hast du gesagt?",
-          "lv": "Hvad sagde du"
+          "word": "wie",
+          "meaning": "hvordan",
+          "example": "Wie heißt du? – Hvad hedder du?"
         }
       ],
       "tip": [
-        "var i sig selv ændrer sig ikke - på tysk er det altid var; på dansk vælge hvem eller hvad ifølge sætningens del.",
-        "Hurtigt trick: hvis spørgsmålet kan besvares med 'Det er ...', så brug hvem; hvis svaret kommer efter udsagnsordet som et supplement, så brug ko."
+        "Spørger du om en ting, så begynd med was; spørger du om en person — med wer, wen, wem.",
+        "Efter alles, etwas, nichts bruges was, ikke das."
       ],
       "important": [
-        "blev spurgt om ting, begivenheder og fakta - aldrig om personer.",
-        "Folk bliver spurgt med wer (hvem/hvem), ikke kan.",
-        "was für (ein/eine) betyder nogen/hvad med og spørger om en kvalitet eller type (Was für ein Film ist das? = Hvilken slags film er det?).",
-        "Forkert: Wer ist passiert? → Korrekt: Var det passeret?"
+        "Was bruges ikke om en person: »Was ist er?« betyder »Hvad er han (af erhverv)?«, ikke »Hvem er han?«.",
+        "Efter alles, nichts, etwas bruges was: alles, was ..., ikke alles, das ..."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "was",
+            "Was",
+            "was für ein",
+            "wer"
+          ],
           "purple": [
-            "kas",
-            "ko"
+            "hvad",
+            "ting"
           ]
         },
         "examples": [
@@ -21780,92 +23866,85 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "Was"
+                "Was für ein"
               ]
             },
             "lv": {
               "purple": [
-                "Hvad"
+                "Hvad for en"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "Was"
+                "was"
               ]
             },
             "lv": {
               "purple": [
-                "Hvad"
+                "hvad"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "Was"
+                "was"
               ]
             },
             "lv": {
               "purple": [
-                "Hvad"
+                "hvad"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "wer"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "hvem"
               ]
             }
           },
           {
-            "de": {
-              "blue": [
-                "Was"
+            "word": {
+              "green": [
+                "welcher"
               ]
             },
-            "lv": {
+            "meaning": {
               "purple": [
-                "Hvad"
+                "hvilken"
               ]
             }
           },
           {
-            "de": {
-              "blue": [
-                "Was"
+            "word": {
+              "green": [
+                "wie"
               ]
             },
-            "lv": {
+            "meaning": {
               "purple": [
-                "Hvad"
+                "hvordan"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "ko"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "blue": [
-              "blev"
-            ]
-          },
-          {
-            "blue": [
-              "wer"
-            ]
-          },
-          {
-            "blue": [
-              "was für"
-            ]
-          },
-          {
-            "blue": [
-              "Forkert"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -21877,7 +23956,7 @@ const A1_WORDS = [
   },
   {
     "de": "sich waschen",
-    "lv": "At vaske",
+    "lv": "At vaske sig",
     "level": "A1"
   },
   {
@@ -21911,7 +23990,7 @@ const A1_WORDS = [
   },
   {
     "de": "welcher",
-    "lv": "WHO",
+    "lv": "Hvilken",
     "level": "A1"
   },
   {
@@ -21923,82 +24002,83 @@ const A1_WORDS = [
   },
   {
     "de": "wenig",
-    "lv": "Ikke meget",
+    "lv": "Lidt • Få",
     "level": "A1"
   },
   {
     "de": "wenn",
-    "lv": "Hvis • Hvornår",
+    "lv": "Hvis • Når",
     "level": "A1",
     "study": {
       "id": "a1-wenn",
       "layout": "standardStudy",
-      "translation": "Hvis • Hvornår",
+      "translation": "Hvis • Når",
       "explanation": [
-        "Hovedidé: wenn betyder hvis eller hvornår afhængigt af situationen.",
-        "Hvis det er en betingelse, så oversæt som om.",
-        "Hvis det drejer sig om gentagen eller generel tid, så oversæt som hvornår.",
-        "Efter wenn ender verbet normalt med en tysk sætning."
+        "Hovedidé: wenn er et underordningsbindeord, der indleder en ledsætning om en betingelse eller en gentagen handling. I ledsætningen står udsagnsordet sidst: Wenn es regnet, bleibe ich zu Hause.",
+        "På dansk kan det være hvis (betingelse: wenn du willst) eller når (gentagelse eller et tidspunkt i fremtiden: immer wenn, wenn ich Zeit habe). Står ledsætningen først, følger hovedsætningens udsagnsord lige efter kommaet.",
+        "En enkeltstående begivenhed i fortiden udtrykkes ikke med wenn, men med als: Als ich klein war ... (da jeg var lille ...)."
       ],
       "examples": [
-        {
-          "de": "Wenn du Zeit hast, komm vorbei.",
-          "lv": "Hvis du har tid, så kig forbi."
-        },
         {
           "de": "Wenn es regnet, bleibe ich zu Hause.",
           "lv": "Hvis det regner, bliver jeg hjemme."
         },
         {
-          "de": "Wenn ich müde bin, trinke ich Kaffee.",
-          "lv": "Når jeg er træt drikker jeg kaffe."
+          "de": "Wenn ich Zeit habe, rufe ich dich an.",
+          "lv": "Når jeg har tid, ringer jeg til dig."
         },
         {
-          "de": "Ich weiß nicht, ob er kommt.",
-          "lv": "Jeg ved ikke, om han kommer."
+          "de": "Immer wenn er kommt, bringt er Blumen.",
+          "lv": "Hver gang han kommer, har han blomster med."
+        },
+        {
+          "de": "Wenn du willst, können wir ins Kino gehen.",
+          "lv": "Hvis du vil, kan vi gå i biografen."
         }
       ],
       "comparison": [
         {
-          "word": "wenn",
-          "meaning": "Hvis / hvornår",
-          "example": "Wenn du Zeit hast..."
-        },
-        {
-          "word": "ob",
-          "meaning": "Eller i et indirekte spørgsmål",
-          "example": "Ich weiß nicht, ob... = Jeg ved ikke, om..."
+          "word": "als",
+          "meaning": "da (én gang i fortiden)",
+          "example": "Als ich klein war, wohnte ich in Riga. – Da jeg var lille, boede jeg i Riga."
         },
         {
           "word": "wann",
-          "meaning": "Når der er tale om",
-          "example": "Wann kommst du?"
+          "meaning": "hvornår (spørgsmål)",
+          "example": "Wann kommst du? – Hvornår kommer du?"
         },
         {
-          "word": "weil",
-          "meaning": "Fordi",
-          "example": "Ich bleibe, weil ich krank bin."
+          "word": "ob",
+          "meaning": "om",
+          "example": "Ich weiß nicht, ob er kommt. – Jeg ved ikke, om han kommer."
         }
       ],
-      "tip": {
-        "text": "Husk: tilstand → wenn; spørgsmålet \"hvornår?\" → vil."
-      },
+      "tip": [
+        "Efter en Wenn-ledsætning står hovedsætningens udsagnsord først: Wenn es regnet, bleibe ich ...",
+        "Vil du udtrykke betingelsen »hvis«, kan du sige wenn eller falls (i tilfælde af at)."
+      ],
       "important": [
-        "wenn og wann er ikke det samme.",
-        "Kommer du? der er et spørgsmål. Wenn du kommst... er en tilstand/spændt."
+        "Om en enkelt begivenhed i fortiden bruger man als, ikke wenn — ligesom dansk skelner mellem da og når.",
+        "Wenn er ikke et spørgeord; i spørgsmålet »hvornår?« bruger man wann."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "wenn",
+            "Wenn",
+            "als"
+          ],
           "purple": [
-            "Hovedidé"
+            "hvis",
+            "når",
+            "betingelse"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "Wenn",
-                "hast"
+                "Wenn"
               ]
             },
             "lv": {
@@ -22010,21 +24090,7 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "Wenn",
-                "regnet"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Hvis"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "Wenn",
-                "bin"
+                "Wenn"
               ]
             },
             "lv": {
@@ -22035,13 +24101,25 @@ const A1_WORDS = [
           },
           {
             "de": {
-              "red": [
-                "ob"
+              "blue": [
+                "wenn"
               ]
             },
             "lv": {
-              "red": [
-                "Jeg"
+              "purple": [
+                "Hver gang"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Wenn"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Hvis"
               ]
             }
           }
@@ -22050,35 +24128,12 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "wenn"
+                "als"
               ]
             },
             "meaning": {
               "purple": [
-                "Hvis",
-                "Hvis"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Wenn"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "ob"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "indirekte"
-              ]
-            },
-            "example": {
-              "red": [
-                "ob"
+                "da (én gang i fortiden)"
               ]
             }
           },
@@ -22090,128 +24145,108 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Når"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "Wann"
+                "hvornår (spørgsmål)"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "weil"
+                "ob"
               ]
             },
             "meaning": {
               "purple": [
-                "Fordi"
-              ]
-            },
-            "example": {
-              "green": [
-                "weil"
+                "om"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "wenn"
-            ],
-            "purple": [
-              "Husk"
-            ],
-            "yellow": [
-              "wenn",
-              "Husk"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "blue": [
-              "wenn"
-            ],
-            "yellow": [
-              "wann"
-            ]
-          },
-          {
-            "yellow": [
-              "Wenn"
-            ],
-            "blue": [
-              "Wenn du kommst"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
   },
   {
     "de": "wer",
-    "lv": "Wen • Wen",
+    "lv": "Hvem",
     "level": "A1",
     "study": {
       "id": "a1-wer",
       "layout": "standardStudy",
-      "translation": "Wen • Wen",
+      "translation": "Hvem",
       "explanation": [
-        "Hovedidé: wer er et spørgsmålsord om en persons identitet - på dansk er det hvem eller hvem.",
-        "Vi spurgte om mennesker, ikke om ting eller begivenheder.",
-        "Ting og begivenheder spørges med var, ikke wer.",
-        "Wer på tysk er normalt genstand for en sætning (nominativ) — Wer ist das? = Hvad er det?",
-        "Når man spørger, hvem af flere personer, bruges wer ofte sammen med von (wer von euch = hvem af jer).",
-        "Wer skifter form efter bøjning: wen (akkusativ), wem (dativ), wessen (genitiv) - det er netop formen wer, der er mest almindelig på A1-niveau."
+        "Hovedidé: wer er et spørgende stedord om personer. Kasus: wer (nominativ), wen (akkusativ), wem (dativ), wessen (genitiv). For eksempel: Wer kommt? Wen siehst du? Mit wem sprichst du?",
+        "Udsagnsordet efter wer står normalt i 3. person ental: Wer hat das gemacht? Om ting og begivenheder spørger man med was.",
+        "Wer kan også indlede en ledsætning: Ich weiß nicht, wer das ist (jeg ved ikke, hvem det er)."
       ],
       "examples": [
         {
           "de": "Wer ist das?",
-          "lv": "Hvad er det?"
+          "lv": "Hvem er det?"
         },
         {
-          "de": "Wer bist du?",
-          "lv": "Wen er du"
+          "de": "Wer kommt heute zur Party?",
+          "lv": "Hvem kommer til festen i dag?"
         },
         {
-          "de": "Wer kommt heute?",
-          "lv": "Hvad kommer der i dag?"
+          "de": "Wen rufst du an?",
+          "lv": "Hvem ringer du til?"
         },
         {
-          "de": "Wer ist deine Lehrerin?",
-          "lv": "Wen er din lærer"
+          "de": "Mit wem sprichst du?",
+          "lv": "Hvem taler du med?"
         },
         {
-          "de": "Wer von euch spricht Deutsch?",
-          "lv": "Wen af jer taler tysk?"
+          "de": "Wessen Tasche ist das?",
+          "lv": "Hvis taske er det?"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "was",
+          "meaning": "hvad (ting)",
+          "example": "Was ist das? – Hvad er det?"
         },
         {
-          "de": "Wer hat das gesagt?",
-          "lv": "Wen sagde det?"
+          "word": "welcher",
+          "meaning": "hvilken",
+          "example": "Welcher Mann ist das? – Hvilken mand er det?"
         },
         {
-          "de": "Wer möchte Kaffee?",
-          "lv": "Wen vil have kaffe?"
+          "word": "wie",
+          "meaning": "hvordan",
+          "example": "Wie heißt du? – Hvad hedder du?"
         }
       ],
       "tip": [
-        "wer spørger om personer (hvem/hvem) - om ting og begivenheder, vi bruger var.",
-        "For at spørge om et valg mellem flere personer, brug wer von... (hvilken af...)."
+        "Sig wer, wen, wem, wessen som en række på fire former.",
+        "Vælg kasus efter, hvad udsagnsordet kræver: anrufen + akkusativ – Wen?, helfen + dativ – Wem?"
       ],
       "important": [
-        "Der blev kun spurgt om personer, aldrig om ting.",
-        "Ting og begivenheder spørges med var, ikke wer.",
-        "wer skifter form ved bøjning: wen, wem, wessen - men grundformen er wer.",
-        "Forkert: Wer ist passiert? → Korrekt: Var det passeret?"
+        "Wer bruges om personer; om ting spørger man med was.",
+        "Dansk skelner ligesom tysk: wer = hvem, was = hvad. Lad dig ikke forvirre af, at wer ligner dansk »hvor« — det hedder wo."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "wer",
+            "Wer",
+            "wen",
+            "Wen",
+            "wem",
+            "wessen",
+            "was"
+          ],
           "purple": [
-            "Hovedidé"
+            "personer",
+            "hvem"
           ]
         },
         "examples": [
@@ -22223,7 +24258,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Hvad"
+                "Hvem"
               ]
             }
           },
@@ -22235,105 +24270,92 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
+                "Hvem"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
                 "Wen"
               ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "Wer"
-              ]
             },
             "lv": {
               "purple": [
-                "Hvad"
+                "Hvem"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "Wer"
+                "wem"
               ]
             },
             "lv": {
               "purple": [
-                "Wen"
+                "Hvem"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "Wer"
+                "Wessen"
               ]
             },
             "lv": {
               "purple": [
-                "Wen"
+                "Hvis"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "was"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "hvad (ting)"
               ]
             }
           },
           {
-            "de": {
-              "blue": [
-                "Wer"
+            "word": {
+              "green": [
+                "welcher"
               ]
             },
-            "lv": {
+            "meaning": {
               "purple": [
-                "Wen"
+                "hvilken"
               ]
             }
           },
           {
-            "de": {
-              "blue": [
-                "Wer"
+            "word": {
+              "green": [
+                "wie"
               ]
             },
-            "lv": {
+            "meaning": {
               "purple": [
-                "Wen"
+                "hvordan"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "wer"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "blue": [
-              "Der"
-            ]
-          },
-          {
-            "green": [
-              "Ting"
-            ],
-            "blue": [
-              "wer"
-            ]
-          },
-          {
-            "blue": [
-              "wer"
-            ]
-          },
-          {
-            "blue": [
-              "Wer"
-            ],
-            "green": [
-              "Forkert"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -22347,66 +24369,111 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "At blive",
       "explanation": [
-        "Hovedidé: werden på A1 betyder oftest at blive.",
-        "Det bruges, når noget ændrer sig eller bliver anderledes.",
-        "På senere tysk bruges werden også om fremtiden og det passive.",
-        "På A1-niveau er den vigtigste sætning Ich werde müde. = Jeg er ved at være træt."
+        "Hovedidé: werden er et uregelmæssigt udsagnsord: ich werde, du wirst, er wird, wir werden; datid wurde, førnutid ist geworden. Det har tre anvendelser: blive (Es wird kalt), fremtid (Ich werde kommen) og passiv (Das Haus wird gebaut).",
+        "Når man bliver noget, står erhvervet uden kendeord: Sie wird Ärztin. I passiv førnutid bruger man worden (ist gebaut worden), ikke geworden.",
+        "At blive noget er ikke det samme som at få noget: blive = werden, få = bekommen. Og at blive på et sted hedder bleiben."
       ],
       "examples": [
         {
-          "de": "Ich werde müde.",
-          "lv": "Jeg er ved at være træt."
-        },
-        {
-          "de": "Es wird kalt.",
-          "lv": "Det bliver koldt."
+          "de": "Es wird dunkel.",
+          "lv": "Det bliver mørkt."
         },
         {
           "de": "Sie wird Ärztin.",
           "lv": "Hun bliver læge."
         },
         {
-          "de": "Ich bin müde.",
-          "lv": "Jeg er træt"
+          "de": "Das Essen wird kalt.",
+          "lv": "Maden bliver kold."
+        },
+        {
+          "de": "Ich werde nächste Woche nach Hamburg fahren.",
+          "lv": "Jeg vil køre til Hamborg i næste uge."
+        },
+        {
+          "de": "Das Brot wird jeden Tag frisch gebacken.",
+          "lv": "Brødet bliver bagt frisk hver dag."
         }
       ],
       "comparison": [
         {
-          "word": "werden",
-          "meaning": "At blive",
-          "example": "Ich werde müde. = Jeg bliver træt."
+          "word": "sein",
+          "meaning": "være",
+          "example": "Er ist Arzt. – Han er læge."
         },
         {
-          "word": "sein",
-          "meaning": "At være",
-          "example": "Ich bin müde."
+          "word": "bekommen",
+          "meaning": "få",
+          "example": "Ich bekomme ein Geschenk. – Jeg får en gave."
         },
         {
           "word": "bleiben",
-          "meaning": "Ophold",
-          "example": "Ich bleibe hier. = Jeg bliver her."
-        },
-        {
-          "word": "machen",
-          "meaning": "At gøre/lave",
-          "example": "Ich mache das. = Jeg gør det."
+          "meaning": "forblive, blive (på stedet)",
+          "example": "Wir bleiben zu Hause. – Vi bliver hjemme."
         }
       ],
-      "tip": {
-        "text": "Husk: forandring/tilstand bliver anderledes → werden."
-      },
+      "tip": [
+        "Lær de tre anvendelser: werden + tillægsord, werden + navnemåde, werden + kort tillægsform (participium).",
+        "Erhverv nævnes uden kendeord: Er wird Lehrer."
+      ],
       "important": [
-        "werden er ikke det samme som sein.",
-        "Ich werde müde = jeg er ved at blive træt; Ich bin müde = jeg er træt."
+        "Werden er ikke bekommen: Ich werde ein Buch betyder »jeg bliver en bog«, ikke »jeg får en bog«. Og bekommen betyder ikke dansk »bekomme«, men »få«.",
+        "I passiv førnutid bruger man worden: Das Haus ist gebaut worden."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "werden",
+            "werde",
+            "wirst",
+            "wird",
+            "wurde",
+            "ist geworden",
+            "worden"
+          ],
           "purple": [
-            "Hovedidé",
-            "Hovedidé"
+            "blive",
+            "fremtid",
+            "passiv"
           ]
         },
         "examples": [
+          {
+            "de": {
+              "blue": [
+                "wird"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "bliver"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "wird"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "bliver"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "wird"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "bliver"
+              ]
+            }
+          },
           {
             "de": {
               "blue": [
@@ -22415,7 +24482,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Jeg"
+                "vil køre"
               ]
             }
           },
@@ -22427,31 +24494,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Det"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "wird"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Hun"
-              ]
-            }
-          },
-          {
-            "de": {
-              "red": [
-                "bin"
-              ]
-            },
-            "lv": {
-              "red": [
-                "Jeg"
+                "bliver"
               ]
             }
           }
@@ -22460,30 +24503,24 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "werden"
+                "sein"
               ]
             },
             "meaning": {
               "purple": [
-                "blive"
-              ]
-            },
-            "example": {
-              "blue": [
-                "werde"
+                "være"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "sein"
+                "bekommen"
               ]
             },
-            "meaning": {},
-            "example": {
-              "red": [
-                "bin"
+            "meaning": {
+              "purple": [
+                "få"
               ]
             }
           },
@@ -22495,51 +24532,18 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Ophold"
-              ]
-            },
-            "example": {
-              "green": [
-                "bleibe"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "machen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "gøre/lave",
-                "gøre/lave"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "mache"
+                "forblive"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "werden"
-            ],
-            "purple": [
-              "Husk",
-              "Husk"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "purple": [
-              "werden"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -22547,39 +24551,29 @@ const A1_WORDS = [
   {
     "de": "Wetter",
     "de_article": "das",
-    "lv": "Tid (vejr)",
+    "lv": "Vejr",
     "level": "A1",
     "study": {
       "id": "a1-wetter",
       "layout": "standardStudy",
-      "translation": "Tid (vejr)",
+      "translation": "Vejr",
       "explanation": [
-        "Hovedidé: das Wetter betyder vejret - solrigt, regnfuldt, koldt eller varmt.",
-        "Det danske ord \"laiks\" kan betyde både vejret og tiden på uret - på tysk er det anderledes.",
-        "Tal om vejret i naturen med das Wetter: Wie ist das Wetter heute?",
-        "Das Wetter bruges ofte i en sætning sammen med ord som varm eller kalt.",
-        "Ikke at forveksle med die Zeit - det er tid som et øjeblik eller mulighed (Ich habe keine Zeit)."
+        "Hovedidé: das Wetter er et intetkønsnavneord, der betegner vejret — regn, sol, vind, temperatur. Flertal die Wetter bruges næsten ikke; man bruger ental: das Wetter ist schön.",
+        "Spørgsmålet er Wie ist das Wetter? Hyppige forbindelser: gutes/schlechtes Wetter (godt/dårligt vejr), der Wetterbericht (vejrudsigten).",
+        "Das Wetter er i familie med dansk »vejr« og bruges på samme måde. Bland det ikke sammen med die Zeit (tid): det er to helt forskellige ord."
       ],
       "examples": [
         {
-          "de": "Wie ist das Wetter heute?",
-          "lv": "Hvad er klokken i dag?"
+          "de": "Das Wetter ist heute schön.",
+          "lv": "Vejret er godt i dag."
         },
         {
-          "de": "Das Wetter ist schön.",
-          "lv": "Vejret er dejligt."
+          "de": "Wie ist das Wetter in Riga?",
+          "lv": "Hvordan er vejret i Riga?"
         },
         {
-          "de": "Das Wetter ist schlecht.",
-          "lv": "Vejret er dårligt."
-        },
-        {
-          "de": "Im Winter ist das Wetter oft kalt.",
-          "lv": "Vejret er ofte koldt om vinteren."
-        },
-        {
-          "de": "Wir sprechen über das Wetter.",
-          "lv": "Vi taler om tid."
+          "de": "Wenn das Wetter schlecht ist, bleiben wir zu Hause.",
+          "lv": "Hvis vejret er dårligt, bliver vi hjemme."
         },
         {
           "de": "Morgen wird das Wetter besser.",
@@ -22588,38 +24582,39 @@ const A1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Wetter",
-          "meaning": "Vejrforhold",
-          "example": "Das Wetter ist schön."
+          "word": "die Zeit",
+          "meaning": "tid",
+          "example": "Ich habe keine Zeit. – Jeg har ikke tid."
         },
         {
-          "word": "Zeit",
-          "meaning": "Tid (øjeblik)",
-          "example": "Ich habe keine Zeit. = Jeg har ingen tid."
+          "word": "das Klima",
+          "meaning": "klima",
+          "example": "Das Klima in Lettland ist kühl. – Klimaet i Letland er køligt."
         },
         {
-          "word": "Regen",
-          "meaning": "Regn",
-          "example": "Es gibt viel Regen."
-        },
-        {
-          "word": "Sonne",
-          "meaning": "Solen",
-          "example": "Die Sonne scheint. = Solen skinner."
+          "word": "der Regen",
+          "meaning": "regn",
+          "example": "Der Regen hört auf. – Regnen holder op."
         }
       ],
       "tip": [
-        "Når du taler om sol, regn eller temperatur udenfor - brug das Wetter.",
-        "Husk: Wie ist das Wetter? = Hvad er klokken? (ikke et ur)."
+        "Spørg Wie ist das Wetter? og svar med Es ist sonnig / Es regnet.",
+        "Sammensæt: das Wetter + Bericht = der Wetterbericht (vejrudsigten)."
       ],
       "important": [
-        "das Wetter = vejret, ikke tiden på uret.",
-        "die Zeit = tid som et øjeblik eller mulighed - endnu et kort A1."
+        "Das Wetter er et entalsord: das Wetter ist, ikke »die Wetter sind«.",
+        "Bland ikke das Wetter sammen med die Zeit: Wetter handler om vejret, Zeit om tid."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "das Wetter",
+            "Wetter",
+            "der Wetterbericht"
+          ],
           "purple": [
-            "Hovedidé"
+            "vejret",
+            "vejr"
           ]
         },
         "examples": [
@@ -22631,18 +24626,6 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Hvad"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "Wetter"
-              ]
-            },
-            "lv": {
-              "purple": [
                 "Vejret"
               ]
             }
@@ -22655,22 +24638,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Vejret"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "Wetter"
-              ],
-              "yellow": [
-                "Winter"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Vejret"
+                "vejret"
               ]
             }
           },
@@ -22682,7 +24650,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "taler"
+                "vejret"
               ]
             }
           },
@@ -22690,14 +24658,11 @@ const A1_WORDS = [
             "de": {
               "blue": [
                 "Wetter"
-              ],
-              "green": [
-                "besser"
               ]
             },
             "lv": {
               "purple": [
-                "morgen"
+                "vejret"
               ]
             }
           }
@@ -22706,90 +24671,47 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "Wetter"
+                "die Zeit"
               ]
             },
             "meaning": {
               "purple": [
-                "Vejrforhold"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Wetter"
+                "tid"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "Zeit"
+                "das Klima"
               ]
             },
             "meaning": {
               "purple": [
-                "Tid"
-              ]
-            },
-            "example": {
-              "green": [
-                "Zeit"
+                "klima"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "Regen"
+                "der Regen"
               ]
             },
             "meaning": {
               "purple": [
-                "Regn"
-              ]
-            },
-            "example": {
-              "green": [
-                "Regen"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "Sonne"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Solen"
-              ]
-            },
-            "example": {
-              "green": [
-                "Sonne"
+                "regn"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "blue": [
-              "Wetter"
-            ]
-          },
-          {
-            "blue": [
-              "Wetter"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "purple": [
-              "das"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -22808,66 +24730,73 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Hvordan • Hvor meget",
       "explanation": [
-        "Hovedidé: wie spørger om art eller kvalitet (hvordan) og om mængde eller antal (hvor meget), afhængigt af konteksten.",
-        "Wie alene (Wie geht's?) spørger om vejen - på dansk hvordan.",
-        "Wie + adjektiv (wie viel, wie alt, wie lange) spørger om mængde, alder eller varighed - hvor meget på dansk.",
-        "Wie viel(e) betyder hvor meget • Wie alt betyder hvor gammel • Wie lange betyder hvor længe.",
-        "Til sammenligning betyder wie ligesom (så groß wie = så stor som)."
+        "Hovedidé: wie er et spørgeord, der spørger om måde (hvordan?) og mål (hvor?): Wie heißt du? Wie alt bist du? Wie lange dauert das? Det danner også sammenligning med so ... wie (lige så ... som): Er ist so groß wie sein Vater.",
+        "Om grad eller mængde bruges det sammen med et andet ord: wie viel (hvor meget), wie lange (hvor længe), wie oft (hvor ofte), wie alt (hvor gammel).",
+        "Ved ulighed i en sammenligning bruger man als, ikke wie: Er ist größer als ich."
       ],
       "examples": [
         {
-          "de": "Wie geht es dir?",
-          "lv": "Hvordan har du det"
-        },
-        {
           "de": "Wie heißt du?",
-          "lv": "Hvad er dit navn"
+          "lv": "Hvad hedder du?"
         },
         {
-          "de": "Wie viel kostet das?",
-          "lv": "Hvor meget koster det"
+          "de": "Wie geht es dir?",
+          "lv": "Hvordan har du det?"
         },
         {
-          "de": "Wie alt bist du?",
-          "lv": "Hvor gammel er du"
-        },
-        {
-          "de": "Wie lange dauert der Film?",
-          "lv": "Hvor lang er filmen?"
+          "de": "Wie lange wohnst du schon hier?",
+          "lv": "Hvor længe har du boet her?"
         },
         {
           "de": "Er ist so groß wie sein Vater.",
           "lv": "Han er lige så høj som sin far."
+        },
+        {
+          "de": "Wie viel kostet das?",
+          "lv": "Hvor meget koster det?"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "als",
+          "meaning": "end",
+          "example": "Er ist größer als ich. – Han er højere end mig."
+        },
+        {
+          "word": "wo",
+          "meaning": "hvor (sted)",
+          "example": "Wo wohnst du? – Hvor bor du?"
+        },
+        {
+          "word": "was",
+          "meaning": "hvad",
+          "example": "Was machst du? – Hvad laver du?"
         }
       ],
       "tip": [
-        "wie af sig selv = hvordan (weis); wie + adjektiv (viel/alt/lange) = hvor meget (beløb).",
-        "Til sammenligning, så ... wie = som ... som."
+        "Wie danner sammen med et andet ord hyppige spørgsmål: wie viel, wie lange, wie oft, wie alt.",
+        "»Lige så ... som« siger du med so ... wie, men »mere end« med komparativ + als."
       ],
       "important": [
-        "wie viel(e) = hvor meget; wie alt = hvor gammel; wie lange = hvor længe.",
-        "wie alene (Wie...?) normalt = hvordan, ikke hvor meget.",
-        "Forkert: Hvor gammel er du? → Korrekt: Hvordan har du det? (Wie geht's?)"
+        "I en sammenligning bruges wie ikke efter komparativ: größer als, ikke »größer wie«.",
+        "Wie spørger om måde og mål; om sted spørger man med wo — pas på, dansk »hvor« kan dække begge dele."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "wie",
+            "Wie",
+            "so ... wie",
+            "wie viel",
+            "wie lange"
+          ],
           "purple": [
-            "Hovedidé"
+            "hvordan",
+            "hvor",
+            "lige så ... som"
           ]
         },
         "examples": [
-          {
-            "de": {
-              "blue": [
-                "Wie"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Hvordan"
-              ]
-            }
-          },
           {
             "de": {
               "blue": [
@@ -22888,31 +24817,19 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Hvor"
+                "Hvordan"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "Wie"
+                "Wie lange"
               ]
             },
             "lv": {
               "purple": [
-                "Hvor"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "Wie"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Hvor"
+                "Hvor længe"
               ]
             }
           },
@@ -22924,28 +24841,68 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Han"
+                "som"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Wie viel"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Hvor meget"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "als"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "end"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "wo"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "hvor (sted)"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "was"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "hvad"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "wie",
-              "wie"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "purple": [
-              "cik daudz",
-              "cik vecs",
-              "cik ilgi",
-              "wie"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -22964,14 +24921,14 @@ const A1_WORDS = [
     "de": "Wind",
     "de_article": "der",
     "de_plural": "die Winde",
-    "lv": "Vinden",
+    "lv": "Vind",
     "level": "A1"
   },
   {
     "de": "Zigarette",
     "de_article": "die",
     "de_plural": "die Zigaretten",
-    "lv": "En cigaret",
+    "lv": "Cigaret",
     "level": "A1"
   },
   {
@@ -22997,117 +24954,137 @@ const A1_WORDS = [
   },
   {
     "de": "zu",
-    "lv": "Til • Kl",
+    "lv": "Til • Hos",
     "level": "A1",
     "study": {
       "id": "a1-zu",
       "layout": "standardStudy",
-      "translation": "Til • Kl",
+      "translation": "Til • Hos",
       "explanation": [
-        "Hovedidé: zu betyder meget ofte til eller ved, men det har også en rolle med infinitiv.",
-        "Med mennesker og institutioner betyder zu ofte på eller til.",
-        "Med adjektiver kan zu også betyde.",
-        "I konstruktionen zu + ubestemt er det med til at danne det ubestemte: zu lernen, zu gehen."
+        "Hovedidé: zu er et forholdsord, der altid kræver dativ og angiver retning hen til en person eller et sted: zu meiner Oma, zum Arzt, zur Schule. Hjemme (hvor?) hedder zu Hause, hjem (hvorhen?) — nach Hause.",
+        "Zu udtrykker også formål (zum Essen — til at spise), overmål som dansk »for« (zu heiß — for varm) og er navnemådesmærke ligesom dansk »at«: Ich habe keine Lust, zu arbeiten (jeg har ikke lyst til at arbejde).",
+        "Sammentrækninger: zu dem = zum, zu der = zur."
       ],
       "examples": [
         {
           "de": "Ich gehe zum Arzt.",
-          "lv": "Jeg skal til lægen."
+          "lv": "Jeg går til lægen."
         },
         {
-          "de": "Wir gehen zur Schule.",
-          "lv": "Vi går i skole."
+          "de": "Wir fahren zu meiner Oma.",
+          "lv": "Vi kører hen til min mormor."
         },
         {
-          "de": "Das ist zu teuer.",
-          "lv": "Det er for dyrt."
+          "de": "Er geht zu Fuß zur Schule.",
+          "lv": "Han går til skolen til fods."
         },
         {
-          "de": "Ich habe keine Zeit zu lernen.",
-          "lv": "Jeg har ikke tid til at studere."
+          "de": "Der Kaffee ist zu heiß.",
+          "lv": "Kaffen er for varm."
+        },
+        {
+          "de": "Sie ist zu Hause.",
+          "lv": "Hun er hjemme."
         }
       ],
       "comparison": [
         {
-          "word": "zu",
-          "meaning": "Til / ved / også / infinitiv",
-          "example": "Ich gehe zum Arzt. = Jeg går til lægen."
-        },
-        {
           "word": "nach",
-          "meaning": "Til med byer/lande",
-          "example": "Ich fahre nach Berlin."
-        },
-        {
-          "word": "in",
-          "meaning": "I/til et sted",
-          "example": "Ich gehe in die Schule. = Jeg går i skole."
+          "meaning": "til (by / land)",
+          "example": "Ich fahre nach Berlin. – Jeg kører til Berlin."
         },
         {
           "word": "bei",
-          "meaning": "Hos nogen / på arbejde",
-          "example": "Ich bin bei Anna."
+          "meaning": "hos (befinde sig)",
+          "example": "Ich bin beim Arzt. – Jeg er hos lægen."
+        },
+        {
+          "word": "in",
+          "meaning": "i, ind i",
+          "example": "Ich gehe in den Supermarkt. – Jeg går i supermarkedet."
         }
       ],
-      "tip": {
-        "text": "Husk: til lægen → zum Arzt; for dyrt → zu teuer."
-      },
+      "tip": [
+        "Husk: zu = hvorhen? (retning), bei = hvor? (være hos).",
+        "Ved personer bruges zu: zu mir, zu dir, zu uns (hen til mig, dig, os)."
+      ],
       "important": [
-        "zu har mange anvendelsesmuligheder, så se altid på konstruktionen.",
-        "zu teuer betyder \"for dyrt\", ikke \"for dyrt\"."
+        "Zu kræver kun dativ: zu meinem Freund, zu der Schule.",
+        "Ved byer og lande bruger man nach, ikke zu: nach Berlin."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "zu",
+            "zum",
+            "zur",
+            "zu Hause",
+            "nach Hause"
+          ],
           "purple": [
-            "Hovedidé"
+            "til",
+            "hen til",
+            "for"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "zum Arzt"
+                "zum"
               ]
             },
             "lv": {
               "purple": [
-                "Jeg"
+                "til"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "zur Schule"
+                "zu"
               ]
             },
             "lv": {
               "purple": [
-                "går"
+                "hen til"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "zu teuer"
+                "zur"
               ]
             },
             "lv": {
               "purple": [
-                "Det"
+                "til skolen"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "zu lernen"
+                "zu"
               ]
             },
             "lv": {
               "purple": [
-                "Jeg"
+                "for"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "zu"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "hjemme"
               ]
             }
           }
@@ -23116,55 +25093,12 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "zu"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Til",
-                "Til",
-                "Til",
-                "infinitiv"
-              ]
-            },
-            "example": {
-              "blue": [
-                "zum Arzt"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
                 "nach"
               ]
             },
             "meaning": {
               "purple": [
-                "Til"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "nach Berlin"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "in"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "I/til",
-                "I/til"
-              ]
-            },
-            "example": {
-              "green": [
-                "in die Schule"
+                "til (by / land)"
               ]
             }
           },
@@ -23176,34 +25110,30 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Hos"
+                "hos (befinde sig)"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "in"
               ]
             },
-            "example": {
-              "red": [
-                "bei Anna"
+            "meaning": {
+              "purple": [
+                "i, ind i"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "zum Arzt",
-              "zu teuer"
-            ],
-            "purple": [
-              "Husk",
-              "Husk"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "purple": [
-              "har"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -23216,77 +25146,83 @@ const A1_WORDS = [
   },
   {
     "de": "zuerst",
-    "lv": "Først og fremmest",
+    "lv": "Først",
     "level": "A1"
   },
   {
     "de": "Zug",
     "de_article": "der",
     "de_plural": "die Züge",
-    "lv": "Toget",
+    "lv": "Tog",
     "level": "A1",
     "study": {
       "id": "a1-zug",
       "layout": "standardStudy",
-      "translation": "Toget",
+      "translation": "Tog",
       "explanation": [
-        "Hovedidé: der Zug på A1-niveau betyder oftest tog.",
-        "Det bruges i hverdagssituationer om kørsel, ankomst og afgang.",
-        "Zug har også andre betydninger, men på A1-niveau er tog den vigtigste.",
-        "Meget almindelige sætninger er mit dem Zug fahren og Der Zug kommt."
+        "Hovedidé: der Zug er et hankønsnavneord, der betyder tog. Flertal er die Züge (med omlyd). Efter forholdsord: mit dem Zug (med toget), im Zug (i toget), in den Zug einsteigen (stige på toget).",
+        "Ordet Zug har også andre betydninger: træk (i et spil), træk (luft, der trækker), optog. På dette kort handler det om tog.",
+        "Tæt på i betydning ligger die Bahn, der betyder jernbane eller tog i det hele taget."
       ],
       "examples": [
         {
-          "de": "Der Zug kommt um acht Uhr.",
-          "lv": "Toget ankommer klokken otte."
+          "de": "Der Zug nach Hamburg fährt um neun Uhr ab.",
+          "lv": "Toget til Hamborg kører klokken ni."
         },
         {
-          "de": "Ich fahre mit dem Zug.",
-          "lv": "Jeg rejser med tog"
+          "de": "Ich fahre mit dem Zug zur Arbeit.",
+          "lv": "Jeg tager toget på arbejde."
         },
         {
-          "de": "Der Zug ist voll.",
-          "lv": "Toget er fyldt."
+          "de": "Der Zug hat zehn Minuten Verspätung.",
+          "lv": "Toget er ti minutter forsinket."
         },
         {
-          "de": "Der Bus kommt später.",
-          "lv": "Bussen kommer senere."
+          "de": "Wir sind in den falschen Zug gestiegen.",
+          "lv": "Vi steg på det forkerte tog."
+        },
+        {
+          "de": "Die Züge sind heute voll.",
+          "lv": "Togene er fulde i dag."
         }
       ],
       "comparison": [
         {
-          "word": "der Zug",
-          "meaning": "Toget",
-          "example": "Der Zug kommt. = Toget kommer."
-        },
-        {
           "word": "die Bahn",
-          "meaning": "Jernbane / rejser med tog",
-          "example": "Ich fahre mit der Bahn. = Jeg kører med toget."
-        },
-        {
-          "word": "der Bus",
-          "meaning": "Bus",
-          "example": "Der Bus kommt. = Bussen kommer."
+          "meaning": "jernbane / tog",
+          "example": "Ich fahre mit der Bahn. – Jeg kører med toget."
         },
         {
           "word": "die Straßenbahn",
-          "meaning": "Sporvogn",
-          "example": "Die Straßenbahn ist hier."
+          "meaning": "sporvogn",
+          "example": "Die Straßenbahn kommt gleich. – Sporvognen kommer lige om lidt."
+        },
+        {
+          "word": "der Bus",
+          "meaning": "bus",
+          "example": "Der Bus fährt um acht. – Bussen kører klokken otte."
         }
       ],
-      "tip": {
-        "text": "Husk: specifikt tog → der Zug."
-      },
+      "tip": [
+        "Husk parret mit dem Zug (med toget) og im Zug (i toget) — begge gange står der Zug i dativ.",
+        "I flertal die Züge bliver u til ü."
+      ],
       "important": [
-        "der Zug i titlen skal læses som \"tog\".",
-        "De mere sjældne betydninger er ikke nødvendige i A1-hovedoverskriften."
+        "Ordet er hankøn: der Zug, ikke »die Zug«.",
+        "Der Zug kan også betyde træk (luft), så tjek sammenhængen."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "der Zug",
+            "Zug",
+            "Züge",
+            "die Züge",
+            "mit dem Zug"
+          ],
           "purple": [
-            "Hovedidé",
-            "Hovedidé"
+            "tog",
+            "toget"
           ]
         },
         "examples": [
@@ -23305,12 +25241,12 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "mit dem Zug"
+                "Zug"
               ]
             },
             "lv": {
               "purple": [
-                "Jeg"
+                "toget"
               ]
             }
           },
@@ -23328,13 +25264,25 @@ const A1_WORDS = [
           },
           {
             "de": {
-              "red": [
-                "Bus"
+              "blue": [
+                "Zug"
               ]
             },
             "lv": {
-              "red": [
-                "Bussen"
+              "purple": [
+                "tog"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Züge"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Togene"
               ]
             }
           }
@@ -23343,52 +25291,12 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "der Zug"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Toget"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Zug"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
                 "die Bahn"
               ]
             },
             "meaning": {
               "purple": [
-                "Jernbane",
-                "Jernbane"
-              ]
-            },
-            "example": {
-              "green": [
-                "Bahn"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "der Bus"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Bus"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "Bus"
+                "jernbane / tog"
               ]
             }
           },
@@ -23400,128 +25308,106 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Sporvogn"
+                "sporvogn"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Bus"
               ]
             },
-            "example": {
-              "red": [
-                "Straßenbahn"
+            "meaning": {
+              "purple": [
+                "bus"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "der Zug"
-            ],
-            "purple": [
-              "Husk"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "purple": [
-              "der",
-              "der"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
   },
   {
     "de": "zum",
-    "lv": "Til • Kl",
+    "lv": "Til • Hos",
     "level": "A1",
     "study": {
       "id": "a1-zum",
       "layout": "standardStudy",
-      "translation": "Til • Kl",
+      "translation": "Til • Hos",
       "explanation": [
-        "Zum er en forkortelse af præpositionen zu og artiklen dem.",
-        "Fuld form: zu dem (til hvem?).",
-        "Bruges sammen med navneord for maskuline og intetkøn, når de angiver retning eller formål.",
-        "Betyder ofte for noget eller for nogen - for lægen, til stationen, for en ven.",
-        "I praksis bruges zum næsten altid i stedet for fuld zu dem."
+        "Hovedidé: zum er en sammentrækning af zu + dem, altså zu med dativ ved hankøns- eller intetkønsord. Det betyder til eller hen til (retning): zum Bahnhof, zum Bäcker; det kan også udtrykke formål: zum Frühstück, zum Geburtstag.",
+        "Ved hunkøn hedder det zur (zu der), i flertal — zu den. Med en navnemåde brugt som navneord udtrykker zum formål: zum Lesen (til at læse i).",
+        "Zum Frühstück betyder »til morgenmad« — både om tidspunktet og om det, man spiser."
       ],
       "examples": [
         {
-          "de": "Ich gehe zum Arzt.",
-          "lv": "Jeg skal til lægen."
+          "de": "Ich gehe zum Bahnhof.",
+          "lv": "Jeg går til stationen."
         },
         {
-          "de": "Wir fahren zum Bahnhof.",
-          "lv": "Vi skal til stationen."
+          "de": "Er geht zum Bäcker.",
+          "lv": "Han går hen til bageren."
         },
         {
-          "de": "Sie geht zum Supermarkt.",
-          "lv": "Hun går til butikken."
+          "de": "Was möchtest du zum Frühstück?",
+          "lv": "Hvad vil du have til morgenmad?"
         },
         {
-          "de": "Komm zum Essen!",
-          "lv": "Kom og spis!"
+          "de": "Zum Geburtstag wünsche ich dir alles Gute.",
+          "lv": "Til din fødselsdag ønsker jeg dig alt godt."
         },
         {
-          "de": "Er fährt zum Flughafen.",
-          "lv": "Han skal til lufthavnen."
-        },
-        {
-          "de": "Wir gehen zum Konzert.",
-          "lv": "Vi skal til koncert."
-        },
-        {
-          "de": "Das Geschenk ist zum Geburtstag.",
-          "lv": "Gaven er til en fødselsdag."
-        },
-        {
-          "de": "Ich gehe zum Friseur.",
-          "lv": "Jeg går til frisøren."
+          "de": "Das Haus steht zum Verkauf.",
+          "lv": "Huset er til salg."
         }
       ],
       "comparison": [
         {
-          "word": "zum",
-          "meaning": "Til / hos (hvem?)",
-          "example": "zum Arzt – Til lægen"
-        },
-        {
           "word": "zur",
-          "meaning": "Til / hos (hustrus familie)",
-          "example": "zur Schule – Til skole"
+          "meaning": "til / hen til (hunkøn)",
+          "example": "Ich gehe zur Schule. – Jeg går i skole."
         },
         {
-          "word": "zu",
-          "meaning": "Til / ved / også",
-          "example": "zu Hause – Hjemme"
+          "word": "beim",
+          "meaning": "hos (befinde sig)",
+          "example": "Ich bin beim Arzt. – Jeg er hos lægen."
         },
         {
           "word": "nach",
-          "meaning": "Til (byer/lande)",
-          "example": "nach Berlin – Til Berlin"
-        },
-        {
-          "word": "bei",
-          "meaning": "På (sted)",
-          "example": "beim Arzt – Til lægen"
+          "meaning": "til (by)",
+          "example": "Ich fahre nach Berlin. – Jeg kører til Berlin."
         }
       ],
       "tip": [
-        "Husk: zu + dem → zum (kam?).",
-        "For feminine ord: zu + der → zur."
+        "Zum bruges kun ved der- og das-ord: zum Mann, zum Kind; ved en kvinde — zur Frau.",
+        "I udtrykket zum Beispiel (for eksempel) er zum en fast form."
       ],
       "important": [
-        "zum = zu dem, kun med et maskulint eller kønsløst navneord for hvem? i bøjning.",
-        "Angiver retningen eller målet: til lægen, til stationen, til en ven.",
-        "For det feminine køn bruges zur: zur Bank, zur Post.",
-        "Ikke at forveksle med bei (placeret ved) eller nach (til byer uden artikel)."
+        "Zum = zu dem, ikke zu den.",
+        "Zum bruges ikke ved hunkønsord: ikke »zum Schule«, men zur Schule."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "zum",
+            "zur",
+            "zu den",
+            "zum Bahnhof"
+          ],
           "purple": [
-            "Zum",
-            "Zum"
+            "til",
+            "hen til",
+            "formål"
           ]
         },
         "examples": [
@@ -23533,7 +25419,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Jeg"
+                "til"
               ]
             }
           },
@@ -23545,7 +25431,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "skal"
+                "hen til"
               ]
             }
           },
@@ -23557,7 +25443,19 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Hun"
+                "til morgenmad"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Zum"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Til din fødselsdag"
               ]
             }
           },
@@ -23569,55 +25467,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Kom"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "zum"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Han"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "zum"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "skal"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "zum"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Gaven"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "zum"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Jeg"
+                "til salg"
               ]
             }
           }
@@ -23626,55 +25476,24 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "zum"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Til",
-                "Til"
-              ]
-            },
-            "example": {
-              "blue": [
-                "zum Arzt"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
                 "zur"
               ]
             },
             "meaning": {
               "purple": [
-                "Til",
-                "Til"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "zur Schule"
+                "til / hen til (hunkøn)"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "zu"
+                "beim"
               ]
             },
             "meaning": {
               "purple": [
-                "Til",
-                "Til",
-                "Til"
-              ]
-            },
-            "example": {
-              "green": [
-                "zu Hause"
+                "hos (befinde sig)"
               ]
             }
           },
@@ -23686,58 +25505,25 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Til"
-              ]
-            },
-            "example": {
-              "green": [
-                "nach Berlin"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "bei"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "sted"
-              ]
-            },
-            "example": {
-              "red": [
-                "beim Arzt"
+                "til (by)"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "blue": [
-              "zum"
-            ]
-          },
-          {
-            "yellow": [
-              "zur"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "purple": [
-              "zu dem"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
   },
   {
     "de": "zumachen",
-    "lv": "Tæt på",
+    "lv": "At lukke",
     "level": "A1"
   },
   {
@@ -23762,7 +25548,7 @@ const A1_WORDS = [
   },
   {
     "de": "zwanzigste",
-    "lv": "Den tyvende",
+    "lv": "Tyvende",
     "level": "A1"
   },
   {
@@ -23782,7 +25568,7 @@ const A1_WORDS = [
   },
   {
     "de": "zweite",
-    "lv": "Den anden",
+    "lv": "Anden",
     "level": "A1"
   },
   {
@@ -23804,105 +25590,171 @@ const A1_WORDS = [
   },
   {
     "de": "zwölfte",
-    "lv": "Den tolvte",
+    "lv": "Tolvte",
     "level": "A1"
   },
   {
     "de": "fernsehen",
-    "lv": "Se tv",
+    "lv": "At se tv",
     "level": "A1",
     "study": {
       "id": "a1-fernsehen",
       "layout": "standardStudy",
-      "translation": "Se tv",
-      "explanation": "Hovedidé: fernsehen er et split verbum — ich sehe fern, du siehst fern. Det betyder at se fjernsyn. Ikke at forveksle med navneordet das Fernsehen (fjernsyn som medie).",
+      "translation": "At se tv",
+      "explanation": [
+        "Hovedidé: fernsehen er et udsagnsord med adskilleligt forled: ich sehe fern, du siehst fern, er sieht fern; datid sah fern, førnutid hat ferngesehen. Navnemåde med zu: fernzusehen.",
+        "I sætningen står fern sidst: Ich sehe abends fern. Det betyder at se tv eller fjernsyn, som regel uden genstandsled. Tysk fern-sehen svarer ord for ord til dansk fjern-syn.",
+        "En bestemt film eller udsendelse ser man som regel med ansehen: Wir sehen uns einen Film an."
+      ],
       "examples": [
         {
-          "de": "Ich sehe heute Abend fern.",
-          "lv": "Jeg ser tv i aften."
+          "de": "Ich sehe abends gern fern.",
+          "lv": "Om aftenen ser jeg gerne tv."
         },
         {
-          "de": "Siehst du oft fern?",
-          "lv": "Ser du ofte tv?"
+          "de": "Die Kinder sehen jeden Tag eine Stunde fern.",
+          "lv": "Børnene ser tv en time hver dag."
         },
         {
-          "de": "Die Kinder sehen am Nachmittag fern.",
-          "lv": "Børnene ser tv om eftermiddagen."
+          "de": "Wir haben gestern lange ferngesehen.",
+          "lv": "Vi så tv længe i går."
+        },
+        {
+          "de": "Er hat keine Lust fernzusehen.",
+          "lv": "Han har ikke lyst til at se tv."
         }
       ],
       "comparison": [
         {
-          "word": "fernsehen",
-          "meaning": "Se tv",
-          "example": "Ich sehe fern. = Jeg ser fjernsyn."
-        },
-        {
           "word": "das Fernsehen",
-          "meaning": "Fjernsyn (medier)",
-          "example": "Im Fernsehen läuft ein Film. = Der vises en film i fjernsynet."
+          "meaning": "fjernsyn, tv",
+          "example": "Das Fernsehen berichtet darüber. – Fjernsynet beretter om det."
         },
         {
-          "word": "sehen",
-          "meaning": "At se",
-          "example": "Ich sehe einen Film. = Jeg ser en film."
+          "word": "der Fernseher",
+          "meaning": "fjernsyn (apparatet)",
+          "example": "Der Fernseher ist neu. – Fjernsynet er nyt."
+        },
+        {
+          "word": "ansehen",
+          "meaning": "se på, se",
+          "example": "Wir sehen einen Film an. – Vi ser en film."
         }
       ],
-      "tip": {
-        "leftBlocks": [
-          {
-            "text": "Fernsehen (ich sehe fern) bruges til handlingen. Das Fernsehen bruges til et tv-program eller medie."
-          }
-        ]
-      },
-      "important": {
-        "text": "Fernsehen = verbum (ich sehe bregne). das Fernsehen = navneord, kun ental."
-      },
+      "tip": [
+        "Husk: fern ryger sidst i sætningen — Ich sehe heute Abend fern.",
+        "I førnutid skrives det i ét ord: ferngesehen."
+      ],
+      "important": [
+        "Man kan ikke sige »Ich fernsehe«: det hedder Ich sehe fern.",
+        "Som navneord (das Fernsehen) betyder ordet fjernsyn; som udsagnsord betyder det at se tv."
+      ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "fernsehen",
+            "sehe fern"
+          ],
           "purple": [
-            "Hovedidé"
+            "se tv",
+            "fjernsyn"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "sehe",
-                "fern"
+                "sehe"
               ]
             },
             "lv": {
               "purple": [
-                "Jeg"
+                "ser"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "Siehst",
-                "fern"
+                "sehen"
               ]
             },
             "lv": {
               "purple": [
-                "Ser"
+                "ser tv"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "sehen",
-                "fern"
+                "ferngesehen"
               ]
             },
             "lv": {
               "purple": [
-                "Børnene"
+                "så tv"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fernzusehen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "se tv"
               ]
             }
           }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "das Fernsehen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "fjernsyn"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Fernseher"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "fjernsyn (apparatet)"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "ansehen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "se på"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
         ]
       }
     }
@@ -23917,143 +25769,161 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Television",
       "explanation": [
-        "Hovedidé: Navneord, kun ental. Beskriver TV som et medie eller udsendelse generelt.",
-        "Das Fernsehen betyder i bund og grund: at se en udsendelse.",
-        "Beskriver ofte: handling.",
-        "Das Fernsehen betyder primært: TV som medie.",
-        "Beskriver ofte: et substantiv (kun ental).",
-        "Fernsehen er et verbum, der kan opdeles: ich sehe fern, du siehst fern.",
-        "Das Fernsehen er et substantiv og kun ental - det har ingen flertalsform."
+        "Hovedidé: das Fernsehen er et intetkønsnavneord, der betegner fjernsyn som medie eller det samlede udbud af udsendelser. Flertal bruges næsten ikke. Det står ofte med im: im Fernsehen (i fjernsynet), beim Fernsehen (ansat ved tv).",
+        "Det er dannet af udsagnsordet fernsehen (se tv) — præcis som dansk fjernsyn. Apparatet hedder der Fernseher, mens aktiviteten hedder fernsehen.",
+        "Navneordet skrives med stort; som udsagnsord er fernsehen adskilleligt."
       ],
       "examples": [
         {
-          "de": "Was gibt es heute im Fernsehen?",
-          "lv": "Hvad er der på tv i dag?"
+          "de": "Das Fernsehen berichtet über den Unfall.",
+          "lv": "Fjernsynet beretter om ulykken."
         },
         {
-          "de": "Was gibt es heute im Fernsehen?",
-          "lv": "Hvad er der på tv i dag?"
+          "de": "Der Film läuft heute im Fernsehen.",
+          "lv": "Filmen vises i fjernsynet i dag."
         },
         {
-          "de": "Im Fernsehen läuft ein Film.",
-          "lv": "En film afspilles på tv."
+          "de": "Mein Vater arbeitet beim Fernsehen.",
+          "lv": "Min far arbejder ved fjernsynet."
         },
         {
-          "de": "Das Fernsehen ist heute langweilig.",
-          "lv": "Tv-programmet i dag er kedeligt."
+          "de": "Das Programm im Fernsehen ist langweilig.",
+          "lv": "Programmet i fjernsynet er kedeligt."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "der Fernseher",
+          "meaning": "fjernsyn (apparatet)",
+          "example": "Der Fernseher ist kaputt. – Fjernsynet er i stykker."
         },
         {
-          "de": "Ich sehe heute Abend fern.",
-          "lv": "Jeg ser tv i aften."
+          "word": "fernsehen",
+          "meaning": "se tv",
+          "example": "Ich sehe gern fern. – Jeg ser gerne tv."
         },
         {
-          "de": "Was gibt es im Fernsehen?",
-          "lv": "Hvad vises på tv?"
+          "word": "das Radio",
+          "meaning": "radio",
+          "example": "Das Radio läuft. – Radioen spiller."
         }
       ],
       "tip": [
-        "Når du taler om en handling, så brug fernsehen (ich sehe bregne). Når du taler om et tv-program eller et medie, så brug das Fernsehen.",
-        "Navneord, kun ental. Beskriver tv-mediet eller udsendelsen generelt."
+        "Sig im Fernsehen, når noget vises i fjernsynet.",
+        "Der Fernseher (apparatet) og das Fernsehen (mediet) er to forskellige ord."
       ],
       "important": [
-        "fernsehen er splittet: sehen + bregne.",
-        "das Fernsehen er ikke flertal - ikke *die Fernsehen.",
-        "Forkert: die Fernsehen → Korrekt: das Fernsehen",
-        "Handling: fernsehen → ich sehe bregne."
+        "Das Fernsehen er intetkøn, derfor das Fernsehen.",
+        "Bland ikke das Fernsehen sammen med der Fernseher: det første er mediet, det andet apparatet."
       ],
       "sectionAccents": {
         "explanation": {
-          "green": [
-            "Fernsehen"
+          "blue": [
+            "das Fernsehen",
+            "Fernsehen",
+            "im Fernsehen",
+            "der Fernseher"
           ],
-          "yellow": [
-            "Fernsehen"
+          "purple": [
+            "fjernsyn",
+            "medie"
           ]
         },
         "examples": [
           {
             "de": {
-              "green": [
-                "Fernsehen",
-                "fernsehen"
+              "blue": [
+                "Fernsehen"
               ]
             },
             "lv": {
               "purple": [
-                "Hvad"
+                "Fjernsynet"
               ]
             }
           },
           {
             "de": {
-              "green": [
-                "Fernsehen",
-                "fernsehen"
+              "blue": [
+                "Fernsehen"
               ]
             },
             "lv": {
               "purple": [
-                "Hvad"
+                "fjernsynet"
               ]
             }
           },
           {
             "de": {
-              "green": [
-                "Fernsehen",
-                "fernsehen"
+              "blue": [
+                "Fernsehen"
               ]
             },
             "lv": {
               "purple": [
-                "film"
+                "fjernsynet"
               ]
             }
           },
           {
             "de": {
-              "green": [
-                "das Fernsehen",
-                "fernsehen"
+              "blue": [
+                "Fernsehen"
               ]
             },
             "lv": {
               "purple": [
-                "programmet"
+                "fjernsynet"
               ]
             }
-          },
+          }
+        ],
+        "comparison": [
           {
-            "de": {},
-            "lv": {
-              "purple": [
-                "Jeg"
-              ]
-            }
-          },
-          {
-            "de": {
+            "word": {
               "green": [
-                "Fernsehen",
+                "der Fernseher"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "fjernsyn (apparatet)"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
                 "fernsehen"
               ]
             },
-            "lv": {
+            "meaning": {
               "purple": [
-                "Hvad"
+                "se tv"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "das Radio"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "radio"
               ]
             }
           }
         ],
         "tip": [
+          {},
           {}
         ],
         "important": [
-          {
-            "green": [
-              "fernsehen"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -24068,48 +25938,72 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Appetit",
       "explanation": [
-        "Hovedidé: Appetit er lysten til at spise. Ordet bruges normalt i ental.",
-        "Der Appetit betyder grundlæggende: lysten til at spise.",
-        "Beskriver ofte: følelse (kun ental).",
-        "Der Appetit er kun ental – appetit.",
-        "På A1-niveau mødes de ofte, for eksempel: Guten Appetit!"
+        "Hovedpointe: der Appetit er et hankønsnavneord, der betegner appetit – lysten til at spise. Flertal bruges stort set ikke. Den mest almindelige forbindelse er Appetit haben (have appetit): Ich habe keinen Appetit.",
+        "Guten Appetit! er et ønske før måltidet, på dansk \"god appetit\" eller \"velbekomme\". Har man lyst til en bestemt ret, siger man Appetit auf + akkusativ: Appetit auf Eis.",
+        "Der Appetit ligger tæt på der Hunger, men appetit er lysten til at spise, mens sult er et fysisk behov."
       ],
       "examples": [
         {
-          "de": "Guten Appetit!",
-          "lv": "God appetit!"
+          "de": "Ich habe heute keinen Appetit.",
+          "lv": "Jeg har ingen appetit i dag."
         },
         {
           "de": "Guten Appetit!",
           "lv": "God appetit!"
         },
         {
-          "de": "Ich habe keinen Appetit.",
-          "lv": "Jeg har ingen appetit."
+          "de": "Das Kind hat großen Appetit auf Eis.",
+          "lv": "Barnet har stor lyst til is."
+        },
+        {
+          "de": "Der Appetit kommt beim Essen.",
+          "lv": "Appetitten kommer, mens man spiser."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "der Hunger",
+          "meaning": "sult",
+          "example": "Ich habe Hunger. – Jeg er sulten."
+        },
+        {
+          "word": "die Lust",
+          "meaning": "lyst",
+          "example": "Ich habe Lust auf Pizza. – Jeg har lyst til pizza."
+        },
+        {
+          "word": "der Durst",
+          "meaning": "tørst",
+          "example": "Ich habe Durst. – Jeg er tørstig."
         }
       ],
       "tip": [
-        "der Appetit = appetit",
-        "Brug der Appetit når konteksten passer til denne betydning."
+        "Appetit udtrykkes med haben: Ich habe Appetit.",
+        "Som svar på Guten Appetit! siger man normalt Danke, gleichfalls!"
       ],
       "important": [
-        "der Appetit er kun ental.",
-        "Forkert: die Appetit → Korrekt: der Appetit",
-        "Forkert: Ich bin Appetit. → Korrekt: Jeg har appetit.",
-        "Føl: der Appetit."
+        "Appetit er ikke hunkøn: der Appetit.",
+        "Om lyst til en bestemt ret bruger man Appetit auf + akkusativ."
       ],
       "sectionAccents": {
         "explanation": {
-          "purple": [
+          "blue": [
+            "der Appetit",
             "Appetit",
-            "Appetit"
+            "Guten Appetit",
+            "Appetit haben",
+            "Appetit auf"
+          ],
+          "purple": [
+            "appetit",
+            "lysten til at spise"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "appetit"
+                "Appetit"
               ]
             },
             "lv": {
@@ -24121,7 +26015,7 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "appetit"
+                "Appetit"
               ]
             },
             "lv": {
@@ -24133,29 +26027,73 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "appetit"
+                "Appetit"
               ]
             },
             "lv": {
               "purple": [
-                "appetit"
+                "lyst"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Appetit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Appetitten"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "der Hunger"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "sult"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Lust"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "lyst"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Durst"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "tørst"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "Appetit"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "blue": [
-              "der Appetit"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -24169,128 +26107,181 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "At spise",
       "explanation": [
-        "Hovedidé: Verbum - at spise mad.",
-        "Essen betyder primært: at indtage mad.",
-        "Beskriver ofte: handling.",
-        "Essen betyder i bund og grund: mad eller måltid.",
-        "Beskriver ofte: regn.",
-        "Essen betyder at spise.",
-        "Das Essen kan betyde mad eller et måltid generelt."
+        "Hovedpointe: essen er et stærkt udsagnsord, der betyder at spise. Former: ich esse, du isst, er isst, wir essen; datid aß, førnutid hat gegessen. Normalt følger en akkusativ: Ich esse Brot.",
+        "Måltider udtrykkes med zu: zu Mittag essen (spise frokost), zu Abend essen (spise aftensmad). Man kan også bruge essen uden genstandsled om selve måltidet: Wir essen um sieben.",
+        "Når et dyr spiser, bruger man fressen; taler man om maden som navneord, skriver man das Essen."
       ],
       "examples": [
         {
-          "de": "Ich esse gern Pizza.",
-          "lv": "Jeg kan godt lide at spise pizza."
+          "de": "Ich esse gern Fisch.",
+          "lv": "Jeg spiser gerne fisk."
         },
         {
-          "de": "Was wollt ihr essen?",
-          "lv": "Hvad vil du spise"
+          "de": "Was isst du zum Frühstück?",
+          "lv": "Hvad spiser du til morgenmad?"
         },
         {
-          "de": "Wir essen um 12 Uhr.",
-          "lv": "Vi spiser ved 12-tiden."
+          "de": "Er hat noch nichts gegessen.",
+          "lv": "Han har ikke spist noget endnu."
         },
         {
-          "de": "Das Essen ist fertig.",
-          "lv": "Maden er klar."
+          "de": "Wir essen heute im Restaurant.",
+          "lv": "Vi spiser på restaurant i dag."
         },
         {
-          "de": "Das Essen schmeckt sehr gut.",
-          "lv": "Maden smager meget godt."
+          "de": "Meine Schwester isst kein Fleisch.",
+          "lv": "Min søster spiser ikke kød."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "fressen",
+          "meaning": "spise (om dyr)",
+          "example": "Die Katze frisst Fisch. – Katten spiser fisk."
         },
         {
-          "de": "Das Essen schmeckt gut.",
-          "lv": "Maden smager godt."
+          "word": "trinken",
+          "meaning": "drikke",
+          "example": "Ich trinke Tee. – Jeg drikker te."
+        },
+        {
+          "word": "das Essen",
+          "meaning": "mad",
+          "example": "Das Essen ist fertig. – Maden er klar."
         }
       ],
       "tip": [
-        "essen = at spise",
-        "Brug essen, når konteksten passer til denne betydning."
+        "Husk den uregelmæssige form du isst / er isst – ikke essest eller esst.",
+        "Aftensmad og frokost udtrykker du med zu Abend essen, zu Mittag essen."
       ],
       "important": [
-        "essen er et verbum uden en artikel.",
-        "das Essen er ikke det samme som essen.",
-        "Handling: essens.",
-        "Sag/måltid: das Essen."
+        "Mennesker spiser (essen), dyr – normalt fressen.",
+        "Essen som udsagnsord skrives med lille begyndelsesbogstav, som navneord das Essen – med stort."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "essen",
+            "esse",
+            "isst",
+            "aß",
+            "hat gegessen",
+            "gegessen",
+            "das Essen",
+            "fressen"
+          ],
           "purple": [
-            "Hovedidé"
+            "at spise",
+            "spiser"
           ]
         },
         "examples": [
           {
             "de": {
-              "green": [
+              "blue": [
                 "esse"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "green": [
-                "essen",
-                "essen"
               ]
             },
             "lv": {
               "purple": [
-                "Hvad"
+                "spiser"
               ]
             }
           },
           {
             "de": {
-              "green": [
-                "essen",
-                "essen"
+              "blue": [
+                "isst"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "spiser"
+              ]
+            }
           },
           {
             "de": {
-              "green": [
-                "essen",
-                "essen"
+              "blue": [
+                "gegessen"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "spist"
+              ]
+            }
           },
           {
             "de": {
-              "green": [
-                "essen",
+              "blue": [
                 "essen"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "spiser"
+              ]
+            }
           },
           {
             "de": {
-              "green": [
-                "essen",
-                "essen"
+              "blue": [
+                "isst"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "spiser ikke"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "fressen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "spise (om dyr)"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "trinken"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "drikke"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "das Essen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "mad"
+              ]
+            }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "essen"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "green": [
-              "essen"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -24305,63 +26296,72 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Mad • Måltid",
       "explanation": [
-        "Hovedidé: Navneord - mad eller hele måltidet.",
-        "Das Essen betyder primært: at indtage mad.",
-        "Beskriver ofte: handling.",
-        "Das Essen betyder i bund og grund: mad eller måltid.",
-        "Beskriver ofte: regn.",
-        "Essen betyder at spise.",
-        "Das Essen kan betyde mad eller et måltid generelt."
+        "Hovedpointe: das Essen er et intetkønsnavneord. Det betyder mad, der laves eller spises (Das Essen ist fertig), og måltid (Nach dem Essen ...). Flertal die Essen er meget sjældent; flere retter kaldes Gerichte eller Mahlzeiten.",
+        "Hyppige forbindelser: zum Essen (til måltidet, ved bordet), nach dem Essen (efter maden), das Essen kochen (lave mad).",
+        "Navneordet skrives med stort begyndelsesbogstav som alle tyske navneord; med lille er essen udsagnsordet \"at spise\"."
       ],
       "examples": [
         {
-          "de": "Das Essen schmeckt gut.",
-          "lv": "Maden smager godt."
+          "de": "Das Essen ist fertig!",
+          "lv": "Maden er klar!"
         },
         {
-          "de": "Was wollt ihr essen?",
-          "lv": "Hvad vil du spise"
+          "de": "Nach dem Essen trinken wir Tee.",
+          "lv": "Efter maden drikker vi te."
         },
         {
-          "de": "Wir essen um 12 Uhr.",
-          "lv": "Vi spiser ved 12-tiden."
+          "de": "Das Essen in dieser Kantine schmeckt gut.",
+          "lv": "Maden i denne kantine smager godt."
         },
         {
-          "de": "Das Essen ist fertig.",
-          "lv": "Maden er klar."
+          "de": "Zum Essen kommen alle um sieben Uhr.",
+          "lv": "Alle kommer til spisning klokken syv."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "essen",
+          "meaning": "spise",
+          "example": "Ich esse gern Fisch. – Jeg spiser gerne fisk."
         },
         {
-          "de": "Das Essen schmeckt sehr gut.",
-          "lv": "Maden smager meget godt."
+          "word": "die Mahlzeit",
+          "meaning": "måltid",
+          "example": "Wir haben drei Mahlzeiten am Tag. – Vi har tre måltider om dagen."
         },
         {
-          "de": "Das Essen schmeckt gut.",
-          "lv": "Maden smager godt."
+          "word": "das Gericht",
+          "meaning": "ret (bestemt)",
+          "example": "Dieses Gericht ist scharf. – Denne ret er stærk."
         }
       ],
       "tip": [
-        "das Essen = at spise",
-        "Brug das Essen, når konteksten passer til denne betydning."
+        "Taler man om en bestemt ret med et navn, bruger man normalt das Gericht.",
+        "At lave mad hedder kochen: das Essen kochen."
       ],
       "important": [
-        "essen er et verbum uden en artikel.",
-        "das Essen er ikke det samme som essen.",
-        "Handling: essens.",
-        "Sag/måltid: das Essen."
+        "Das Essen er intetkøn, ikke hankøn: altså ikke \"der Essen\".",
+        "Das Essen og essen staves ens, men navneordet skrives med stort."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "das Essen",
+            "Essen",
+            "nach dem Essen",
+            "zum Essen",
+            "essen"
+          ],
           "purple": [
-            "Hovedidé",
-            "Hovedidé"
+            "mad",
+            "måltid"
           ]
         },
         "examples": [
           {
             "de": {
-              "yellow": [
-                "das Essen",
-                "essen"
+              "blue": [
+                "Essen"
               ]
             },
             "lv": {
@@ -24372,25 +26372,20 @@ const A1_WORDS = [
           },
           {
             "de": {
-              "yellow": [
-                "essen"
+              "blue": [
+                "Essen"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "maden"
+              ]
+            }
           },
           {
             "de": {
-              "yellow": [
-                "essen"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "yellow": [
-                "das Essen",
-                "essen"
+              "blue": [
+                "Essen"
               ]
             },
             "lv": {
@@ -24401,27 +26396,51 @@ const A1_WORDS = [
           },
           {
             "de": {
-              "yellow": [
-                "das Essen",
-                "essen"
+              "blue": [
+                "Essen"
               ]
             },
             "lv": {
               "purple": [
-                "Maden"
+                "spisning"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "essen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "spise"
               ]
             }
           },
           {
-            "de": {
-              "yellow": [
-                "das Essen",
-                "essen"
+            "word": {
+              "green": [
+                "die Mahlzeit"
               ]
             },
-            "lv": {
+            "meaning": {
               "purple": [
-                "Maden"
+                "måltid"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "das Gericht"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ret (bestemt)"
               ]
             }
           }
@@ -24431,6 +26450,7 @@ const A1_WORDS = [
           {}
         ],
         "important": [
+          {},
           {}
         ]
       }
@@ -24446,134 +26466,159 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Grøntsager",
       "explanation": [
-        "Hovedidé: Grøntsager generelt. Tysk har ikke en flertalsform for *die Gemüse.",
-        "Das Gemüse betyder hovedsagelig: grøntsager generelt.",
-        "Ofte beskrevet: i ethvert køn (kun ental)."
+        "Hovedpointe: das Gemüse er et intetkønsnavneord, som på tysk normalt er et samlebegreb i ental: das Gemüse ist gesund, selvom man på dansk siger \"grøntsager\" i flertal. Flertal die Gemüse er sjældent.",
+        "De enkelte grøntsager kaldes ved deres navn: die Karotte, die Gurke, der Kohl. Typiske forbindelser er frisches Gemüse, Gemüse kaufen, Gemüse anbauen.",
+        "Modstykket er das Obst (frugt), og begge ord står i ental."
       ],
       "examples": [
         {
-          "de": "Ich esse gern Gemüse.",
-          "lv": "Jeg kan godt lide at spise grøntsager."
+          "de": "Frisches Gemüse ist gesund.",
+          "lv": "Friske grøntsager er sunde."
         },
         {
-          "de": "Ich esse gern Gemüse.",
-          "lv": "Jeg kan godt lide at spise grøntsager."
+          "de": "Ich kaufe Gemüse auf dem Markt.",
+          "lv": "Jeg køber grøntsager på torvet."
         },
         {
-          "de": "Das Gemüse ist frisch.",
-          "lv": "Grøntsagerne er friske."
+          "de": "Zum Mittagessen gibt es Fleisch mit Gemüse.",
+          "lv": "Til frokost er der kød med grøntsager."
         },
         {
-          "de": "Wir kaufen Gemüse auf dem Markt.",
-          "lv": "Vi køber grøntsager på markedet."
+          "de": "Meine Oma baut Gemüse im Garten an.",
+          "lv": "Min bedstemor dyrker grøntsager i haven."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "das Obst",
+          "meaning": "frugt",
+          "example": "Das Obst ist frisch. – Frugten er frisk."
         },
         {
-          "de": "Ich mag Obst und Gemüse.",
-          "lv": "Jeg kan godt lide frugt og grøntsager."
+          "word": "der Salat",
+          "meaning": "salat",
+          "example": "Der Salat ist frisch. – Salaten er frisk."
         },
         {
-          "de": "Ich esse Gemüse.",
-          "lv": "Jeg spiser grøntsager."
+          "word": "die Kartoffel",
+          "meaning": "kartoffel",
+          "example": "Die Kartoffel ist gekocht. – Kartoflen er kogt."
         }
       ],
       "tip": [
-        "das Gemüse = grøntsager",
-        "Brug das Gemüse, når konteksten passer til denne betydning."
+        "Sig das Gemüse ist ... (i ental), ikke \"die Gemüse sind\".",
+        "Typer af grøntsager kan du kalde Gemüsesorten."
       ],
       "important": [
-        "Forkert: die Gemüse, die Obsts.",
-        "Forkert: die Gemüse → Korrekt: das Gemüse",
-        "das Gemüse = grøntsager (generelt)."
+        "Das Gemüse er intetkøn og står normalt i ental.",
+        "Det danske flertal \"grøntsager\" svarer ofte til tysk ental Gemüse."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "das Gemüse",
+            "Gemüse",
+            "frisches Gemüse",
+            "das Obst"
+          ],
           "purple": [
-            "Hovedidé"
+            "grøntsager"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "gemüse"
+                "Gemüse"
               ]
             },
             "lv": {
               "purple": [
-                "Jeg"
+                "grøntsager"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "gemüse"
+                "Gemüse"
               ]
             },
             "lv": {
               "purple": [
-                "Jeg"
+                "grøntsager"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "das Gemüse",
-                "gemüse"
+                "Gemüse"
               ]
             },
             "lv": {
               "purple": [
-                "Grøntsagerne"
+                "grøntsager"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "gemüse"
+                "Gemüse"
               ]
             },
             "lv": {
               "purple": [
-                "køber"
+                "grøntsager"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "das Obst"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "frugt"
               ]
             }
           },
           {
-            "de": {
-              "blue": [
-                "gemüse"
+            "word": {
+              "green": [
+                "der Salat"
               ]
             },
-            "lv": {
+            "meaning": {
               "purple": [
-                "Jeg"
+                "salat"
               ]
             }
           },
           {
-            "de": {
-              "blue": [
-                "gemüse"
+            "word": {
+              "green": [
+                "die Kartoffel"
               ]
             },
-            "lv": {
+            "meaning": {
               "purple": [
-                "Jeg"
+                "kartoffel"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "das"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
+          {},
           {}
         ]
       }
@@ -24582,58 +26627,77 @@ const A1_WORDS = [
   {
     "de": "Obst",
     "de_article": "das",
-    "lv": "Frugter",
+    "lv": "Frugt",
     "level": "A1",
     "study": {
       "id": "a1-obst",
       "layout": "standardStudy",
-      "translation": "Frugter",
+      "translation": "Frugt",
       "explanation": [
-        "Hovedidé: Frugt generelt. Tysk har ingen flertalsform *die Obsts.",
-        "Das Obst betyder hovedsageligt: frugt generelt.",
-        "Ofte beskrevet: i ethvert køn (kun ental)."
+        "Hovedpointe: das Obst er et intetkønsnavneord, der på tysk er et samlebegreb i ental: das Obst ist frisch. Det betegner spiselig frugt og bær samlet set (Äpfel, Birnen, Beeren). Flertal bruges ikke.",
+        "En enkelt frugt hedder die Frucht eller kaldes ved sit navn: der Apfel, die Birne. Man siger typisk Obst essen, Obst kaufen.",
+        "Modstykket er das Gemüse (grøntsager), og begge ord står i ental – ligesom dansk \"frugt\" kan bruges som samlebegreb."
       ],
       "examples": [
         {
-          "de": "Wir essen viel Obst.",
-          "lv": "Vi spiser meget frugt."
+          "de": "Ich esse jeden Tag Obst.",
+          "lv": "Jeg spiser frugt hver dag."
         },
         {
-          "de": "Wir essen viel Obst.",
-          "lv": "Vi spiser meget frugt."
+          "de": "Das Obst auf dem Markt ist frisch.",
+          "lv": "Frugten på torvet er frisk."
         },
         {
-          "de": "Obst ist gesund.",
-          "lv": "Frugt er sundt."
+          "de": "Äpfel und Birnen sind Obst.",
+          "lv": "Æbler og pærer er frugt."
         },
         {
-          "de": "Ich mag Obst und Gemüse.",
-          "lv": "Jeg kan godt lide frugt og grøntsager."
+          "de": "Zum Nachtisch gibt es frisches Obst.",
+          "lv": "Til dessert er der frisk frugt."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "die Frucht",
+          "meaning": "en frugt (enkelt)",
+          "example": "Der Apfel ist eine Frucht. – Æblet er en frugt."
         },
         {
-          "de": "Wir essen Obst.",
-          "lv": "Vi spiser frugt."
+          "word": "das Gemüse",
+          "meaning": "grøntsager",
+          "example": "Das Gemüse ist gesund. – Grøntsagerne er sunde."
+        },
+        {
+          "word": "die Beere",
+          "meaning": "bær",
+          "example": "Die Beere ist süß. – Bærret er sødt."
         }
       ],
       "tip": [
-        "das Obst = frugter",
-        "Brug das Obst når sammenhængen passer til denne betydning."
+        "Obst er et samlebegreb; taler man om én frugt, bruger man Frucht eller frugtens navn.",
+        "Der Apfel og die Birne er Obst, men Möhre er Gemüse."
       ],
       "important": [
-        "Forkert: die Obsts → Korrekt: das Obst",
-        "das Obst = frugter (i almindelighed)."
+        "Das Obst er intetkøn i ental: das Obst ist, ikke \"die Obst sind\".",
+        "Flertallet \"Früchte\" hører til ordet Frucht, ikke til Obst."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "das Obst",
+            "Obst",
+            "die Frucht",
+            "das Gemüse"
+          ],
           "purple": [
-            "Frugt"
+            "frugt"
           ]
         },
         "examples": [
           {
             "de": {
-              "green": [
-                "obst"
+              "blue": [
+                "Obst"
               ]
             },
             "lv": {
@@ -24644,8 +26708,20 @@ const A1_WORDS = [
           },
           {
             "de": {
-              "green": [
-                "obst"
+              "blue": [
+                "Obst"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Frugten"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Obst"
               ]
             },
             "lv": {
@@ -24656,20 +26732,8 @@ const A1_WORDS = [
           },
           {
             "de": {
-              "green": [
-                "obst"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Frugt"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "obst"
+              "blue": [
+                "Obst"
               ]
             },
             "lv": {
@@ -24677,33 +26741,53 @@ const A1_WORDS = [
                 "frugt"
               ]
             }
-          },
+          }
+        ],
+        "comparison": [
           {
-            "de": {
+            "word": {
               "green": [
-                "obst"
+                "die Frucht"
               ]
             },
-            "lv": {
+            "meaning": {
               "purple": [
-                "frugt"
+                "en frugt (enkelt)"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "das Gemüse"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "grøntsager"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Beere"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "bær"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "das"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "green": [
-              "das Obst"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -24718,123 +26802,154 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Ferie (skole)",
       "explanation": [
-        "Hovedidé: kun flertal. Skole- eller studieferier - altid i flertal.",
-        "Die Ferien betyder i bund og grund: skoleferier.",
-        "Ofte karakteriseret ved: kun flertal.",
-        "Die Ferien er kun flertal — altid i flertal (i den Ferien)."
+        "Hovedpointe: die Ferien er et navneord, der kun findes i flertal (pluralia tantum), og betyder ferie fra skole, universitet eller domstol: Die Ferien beginnen. Der findes intet ental, så man siger die Ferien sind, ikke \"die Ferie\".",
+        "Hyppige forbindelser: Sommerferien, Winterferien, in den Ferien (i ferien), Ferien haben. Elever og studerende har Ferien; en person i arbejde har Urlaub.",
+        "Kendeordet i flertal er die, i dativ den: in den Ferien. Bemærk: dansk \"ferie\" dækker begge dele, men tysk skelner mellem Ferien og Urlaub."
       ],
       "examples": [
         {
-          "de": "In den Ferien fahren wir ans Meer.",
-          "lv": "I weekenden tager vi til havet."
+          "de": "Die Ferien beginnen nächste Woche.",
+          "lv": "Ferien begynder i næste uge."
         },
         {
-          "de": "In den Ferien habe ich viel Zeit.",
-          "lv": "Jeg har meget tid i ferien."
+          "de": "In den Sommerferien fahren wir ans Meer.",
+          "lv": "I sommerferien tager vi til havet."
         },
         {
-          "de": "Was macht ihr in den Ferien?",
-          "lv": "Hvad laver du på ferier"
+          "de": "Ich habe in den Ferien viel gelesen.",
+          "lv": "Jeg læste meget i ferien."
         },
         {
-          "de": "Die Schule ist in den Ferien zu.",
-          "lv": "Skolen er lukket i helligdage."
-        },
-        {
-          "de": "In den Ferien fahren wir ans Meer.",
-          "lv": "På ferie tager vi til havet."
-        },
-        {
-          "de": "In den Ferien",
-          "lv": "I ferier (skole)."
+          "de": "Die Kinder haben zwei Wochen Ferien.",
+          "lv": "Børnene har to ugers ferie."
         }
       ],
       "comparison": [
         {
-          "word": "die Ferien",
-          "meaning": "Skole-/studiepause (kun dsk.)",
-          "example": "In den Ferien fahren wir weg. – Vi tager et sted hen i weekenden."
+          "word": "der Urlaub",
+          "meaning": "ferie (fra arbejde)",
+          "example": "Ich habe nächste Woche Urlaub. – Jeg har ferie i næste uge."
         },
         {
-          "word": "der Urlaub",
-          "meaning": "Orlov fra arbejde (kun alle)",
-          "example": "Ich habe zwei Wochen Urlaub. – Jeg har to ugers ferie."
+          "word": "der Feiertag",
+          "meaning": "helligdag",
+          "example": "Der 1. Mai ist ein Feiertag. – 1. maj er en helligdag."
+        },
+        {
+          "word": "das Wochenende",
+          "meaning": "weekend",
+          "example": "Am Wochenende schlafe ich lange. – I weekenden sover jeg længe."
         }
       ],
       "tip": [
-        "kun flertal. Skole- eller studieferier - altid i flertal.",
-        "Brug die Ferien, når sammenhængen passer til denne betydning."
+        "Skoleferie hedder Ferien, mens folk i arbejde har Urlaub.",
+        "I flertal dativ hedder det in den Ferien."
       ],
       "important": [
-        "Ferien altid med dativ: in den Ferien.",
-        "Forkert: in der Ferien → Korrekt: in den Ferien",
-        "Skole: die Ferien (kun flertal).",
-        "kun flertal. Skole- eller studieferier - altid i flertal."
+        "Ferien har ingen entalsform: man kan ikke sige \"eine Ferie\".",
+        "Ferien betyder oftest skoleferie, ikke ferie fra arbejdet."
       ],
       "sectionAccents": {
         "explanation": {
-          "purple": [
-            "Hovedidé"
+          "blue": [
+            "Ferien",
+            "Ferie"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "ferien"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "ferien"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "ferien"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "ferien"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "ferien"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "ferien"
+                "Ferien"
               ]
             },
             "lv": {
               "purple": [
-                "ferier"
+                "Ferien"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Sommerferien"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "sommerferien"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Ferien"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ferien"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Ferien"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ferie"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "Urlaub"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ferie"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "Feiertag"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "helligdag"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "Wochenende"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "weekend"
               ]
             }
           }
         ],
         "tip": [
+          {},
           {}
         ],
         "important": [
+          {},
           {}
         ]
       }
@@ -24851,102 +26966,73 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Ferie",
       "explanation": [
-        "Hovedidé: kun ental. Orlov fra arbejde - altid ental.",
-        "Der Urlaub betyder i bund og grund: fri fra arbejde.",
-        "Ofte karakteriseret ved: kun ental.",
-        "Der Urlaub er kun ental - ferie fra arbejde (im Urlaub)."
+        "Hovedpointe: der Urlaub er et hankønsnavneord, der betyder ferie fra arbejdet. Flertal die Urlaube er sjældent. Man siger Urlaub haben, Urlaub nehmen, Urlaub machen (holde ferie), im Urlaub sein, in den Urlaub fahren.",
+        "Det gælder folk i arbejde; elever og studerende har die Ferien.",
+        "Urlaub kan også betyde ferie i bred forstand, altså den tid man har fri og rejser: Wir machen Urlaub in Italien."
       ],
       "examples": [
         {
-          "de": "Mein Vater ist im Urlaub.",
-          "lv": "Min far er på ferie."
+          "de": "Ich nehme im August Urlaub.",
+          "lv": "Jeg tager ferie i august."
         },
         {
-          "de": "Mein Vater ist im Urlaub.",
-          "lv": "Min far er på ferie."
+          "de": "Wir machen Urlaub in Italien.",
+          "lv": "Vi holder ferie i Italien."
         },
         {
-          "de": "Nächste Woche habe ich Urlaub.",
-          "lv": "Jeg har ferie i næste uge."
+          "de": "Mein Vater hat nächste Woche Urlaub.",
+          "lv": "Min far har ferie i næste uge."
         },
         {
-          "de": "Wir machen Urlaub in Spanien.",
-          "lv": "Vi er på ferie i Spanien."
+          "de": "Wie viele Tage Urlaub hast du noch?",
+          "lv": "Hvor mange feriedage har du tilbage?"
         },
         {
-          "de": "im Urlaub",
-          "lv": "På ferie (arbejde)."
+          "de": "Sie ist im Urlaub.",
+          "lv": "Hun er på ferie."
         }
       ],
       "comparison": [
         {
-          "word": "der Urlaub",
-          "meaning": "Orlov fra arbejde (kun alle)",
-          "example": "Mein Vater ist im Urlaub. – Min far er på ferie."
+          "word": "die Ferien",
+          "meaning": "ferie (skole)",
+          "example": "Die Ferien beginnen. – Ferien begynder."
         },
         {
-          "word": "die Ferien",
-          "meaning": "Skole-/studiepause (kun dsk.)",
-          "example": "Die Kinder haben Ferien. – Børn har ferie."
+          "word": "die Reise",
+          "meaning": "rejse",
+          "example": "Die Reise war lang. – Rejsen var lang."
+        },
+        {
+          "word": "der Feierabend",
+          "meaning": "fyraften",
+          "example": "Nach Feierabend gehe ich schwimmen. – Efter fyraften går jeg til svømning."
         }
       ],
       "tip": [
-        "kun ental. Orlov fra arbejde - altid ental.",
-        "Brug der Urlaub, når konteksten passer til denne betydning."
+        "Husk: im Urlaub sein, in den Urlaub fahren, Urlaub nehmen.",
+        "Urlaub bruges normalt uden kendeord: Urlaub haben, Urlaub nehmen."
       ],
       "important": [
-        "Forkert: die Ferie, der Urlabe (på A1-niveau).",
-        "Ferie: være på ferie / holde ferie.",
-        "Forkert: die Urlaube → Korrekt: der Urlaub",
-        "Arbejde: der Urlaub (kun ental)."
+        "Om elever siger man normalt Ferien, ikke Urlaub.",
+        "Urlaub er ikke det samme som Reise: Reise er en rejse, Urlaub er fritid fra arbejdet."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "Urlaub",
+            "Urlaube"
+          ],
           "purple": [
-            "Hovedidé"
+            "ferie fra arbejdet",
+            "holde ferie"
           ]
         },
         "examples": [
           {
             "de": {
-              "green": [
-                "urlaub"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Min"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "urlaub"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Min"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "urlaub"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Jeg"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "urlaub"
+              "blue": [
+                "Urlaub"
               ]
             },
             "lv": {
@@ -24957,30 +27043,98 @@ const A1_WORDS = [
           },
           {
             "de": {
-              "green": [
-                "urlaub"
+              "blue": [
+                "Urlaub"
               ]
             },
             "lv": {
               "purple": [
                 "ferie"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Urlaub"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ferie"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Urlaub"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "feriedage"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Urlaub"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ferie"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "die Ferien"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ferie (skole)"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Reise"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "rejse"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Feierabend"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "fyraften"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "kun"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "green": [
-              "der Urlabe"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -24996,7 +27150,7 @@ const A1_WORDS = [
     "de": "Staat",
     "de_article": "der",
     "de_plural": "die Staaten",
-    "lv": "Land",
+    "lv": "Stat",
     "level": "A1"
   },
   {
@@ -25010,135 +27164,159 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Ur",
       "explanation": [
-        "Hovedidé: Ur eller armbåndsur. Også tiden på uret: Es ist acht Uhr.",
-        "Die Uhr betyder grundlæggende: enhed eller tid i et ur.",
-        "Ofte karakteriseret ved: et bestemt tidspunkt.",
-        "Die Uhr betyder et ur - en enhed eller tid i et ur (Es ist acht Uhr, meine Uhr)."
+        "Hovedpointe: die Uhr er et hunkønsnavneord, flertal die Uhren. Det betyder ur som genstand (Armbanduhr, Wanduhr). Sammen med et tal angiver Uhr klokkeslæt: um acht Uhr (klokken otte); i denne betydning bøjes Uhr ikke.",
+        "Spørgsmålet om tiden: Wie viel Uhr ist es? eller Wie spät ist es? Varighed i timer udtrykkes med die Stunde: zwei Stunden.",
+        "Uhr angiver et tidspunkt (um acht Uhr), mens Stunde angiver varighed (acht Stunden); de to må ikke forveksles."
       ],
       "examples": [
         {
-          "de": "Es ist acht Uhr.",
-          "lv": "Klokken er otte (klokken otte)."
+          "de": "Die Uhr an der Wand geht falsch.",
+          "lv": "Uret på væggen går forkert."
         },
         {
-          "de": "Es ist acht Uhr.",
-          "lv": "Klokken er otte (klokken otte)."
+          "de": "Ich trage eine neue Uhr.",
+          "lv": "Jeg går med et nyt ur."
         },
         {
-          "de": "Meine Uhr ist kaputt.",
-          "lv": "Mit ur er gået i stykker."
+          "de": "Wie viel Uhr ist es?",
+          "lv": "Hvad er klokken?"
         },
         {
-          "de": "Es ist acht Uhr.",
-          "lv": "Klokken er otte."
+          "de": "Der Film beginnt um acht Uhr.",
+          "lv": "Filmen begynder klokken otte."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "die Zeit",
+          "meaning": "tid",
+          "example": "Ich habe keine Zeit. – Jeg har ikke tid."
         },
         {
-          "de": "Es ist acht Uhr.",
-          "lv": "Klokken er otte (klokken)."
+          "word": "die Stunde",
+          "meaning": "time",
+          "example": "Der Film dauert zwei Stunden. – Filmen varer to timer."
         },
         {
-          "de": "die Uhr",
-          "lv": "Enhed/tid på ur • Die Zeit"
+          "word": "die Armbanduhr",
+          "meaning": "armbåndsur",
+          "example": "Meine Armbanduhr ist kaputt. – Mit armbåndsur er gået i stykker."
         }
       ],
       "tip": [
-        "Ur eller armbåndsur. Også tiden på uret: Es ist acht Uhr.",
-        "Brug die Uhr, når sammenhængen passer til denne betydning."
+        "Klokkeslæt siger du med um + tal + Uhr: um sieben Uhr.",
+        "Til varighed bruger man die Stunde, ikke Uhr: zwei Stunden."
       ],
       "important": [
-        "die Uhr: enhed (meine Uhr) eller tid (acht Uhr).",
-        "die Uhr: tjek konteksten før brug."
+        "Uhr bøjes ikke ved klokkeslæt: drei Uhr, ikke \"drei Uhren\".",
+        "Die Uhr og die Stunde er forskellige: det første er et apparat eller et tidspunkt, det andet en varighed."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "Uhr",
+            "Uhren"
+          ],
           "purple": [
-            "Hovedidé"
+            "ur som genstand",
+            "klokken"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "uhr"
+                "Uhr"
               ]
             },
             "lv": {
               "purple": [
-                "Klokken"
+                "Uret"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "uhr"
+                "Uhr"
               ]
             },
             "lv": {
               "purple": [
-                "Klokken"
+                "nyt ur"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "uhr"
+                "Uhr"
               ]
             },
             "lv": {
               "purple": [
-                "Mit"
+                "klokken"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "uhr"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "uhr"
+                "Uhr"
               ]
             },
             "lv": {
               "purple": [
-                "Klokken"
+                "klokken"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "die Zeit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "tid"
               ]
             }
           },
           {
-            "de": {
-              "blue": [
-                "die Uhr",
-                "uhr"
+            "word": {
+              "green": [
+                "die Stunde"
               ]
             },
-            "lv": {
+            "meaning": {
               "purple": [
-                "Enhed/tid"
+                "time"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Armbanduhr"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "armbåndsur"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "eller"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "blue": [
-              "die Uhr"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -25154,190 +27332,344 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Tid (øjeblik/periode)",
       "explanation": [
-        "Hovedidé: Tid som begreb - et øjeblik, en mulighed, en periode.",
-        "Die Zeit betyder primært: øjeblik, mulighed.",
-        "Ofte karakteriseret ved: et abstrakt begreb.",
-        "Die Zeit er et abstrakt begreb - tid, øjeblik eller mulighed (Ich habe keine Zeit)."
+        "Hovedpointe: die Zeit er et hunkønsnavneord, flertal die Zeiten. Det betyder tid som øjeblik, periode eller mulighed: Ich habe keine Zeit. Zeit haben betyder at have tid (være ledig), Zeit brauchen at have brug for tid.",
+        "Hyppige udtryk: zur Zeit / zurzeit (for tiden), die Zeit vergeht (tiden går), Es ist Zeit (det er tid). I flertal betyder die Zeiten tidsaldre eller perioder: in schweren Zeiten.",
+        "Vejret hedder das Wetter, ikke die Zeit."
       ],
       "examples": [
         {
-          "de": "Ich habe keine Zeit.",
-          "lv": "Jeg har ikke tid."
+          "de": "Ich habe heute keine Zeit.",
+          "lv": "Jeg har ikke tid i dag."
         },
         {
-          "de": "Ich habe keine Zeit.",
-          "lv": "Jeg har ikke tid"
+          "de": "Wie viel Zeit brauchst du?",
+          "lv": "Hvor meget tid har du brug for?"
         },
         {
-          "de": "Hast du Zeit?",
-          "lv": "Har du tid"
+          "de": "Zurzeit wohne ich in Riga.",
+          "lv": "For tiden bor jeg i Riga."
         },
         {
-          "de": "Die Zeit vergeht schnell.",
-          "lv": "Tiden går hurtigt."
+          "de": "In schweren Zeiten helfen Freunde.",
+          "lv": "I svære tider hjælper venner."
+        },
+        {
+          "de": "Es ist Zeit zu gehen.",
+          "lv": "Det er tid til at gå."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "das Wetter",
+          "meaning": "vejr",
+          "example": "Das Wetter ist schön. – Vejret er dejligt."
+        },
+        {
+          "word": "das Mal",
+          "meaning": "gang",
+          "example": "Das ist das erste Mal. – Det er første gang."
+        },
+        {
+          "word": "die Uhr",
+          "meaning": "ur",
+          "example": "Die Uhr geht falsch. – Uret går forkert."
         }
       ],
       "tip": [
-        "Tid som begreb - et øjeblik, en mulighed, en periode.",
-        "Brug die Zeit, når konteksten passer til denne betydning."
+        "Zeit haben betyder \"have tid\", mens Zeit brauchen betyder \"have brug for tid\".",
+        "Zurzeit skrives i ét ord."
       ],
       "important": [
-        "die Zeit: Tjek konteksten før brug.",
-        "die Zeit: Tjek konteksten før brug."
+        "Zeit er ikke det samme som Wetter: vejret hedder das Wetter.",
+        "Antallet af gange angives med Mal, ikke Zeit: zum ersten Mal."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "die Zeit",
+            "Zeit",
+            "Zeiten",
+            "zurzeit",
+            "das Wetter"
+          ],
           "purple": [
-            "Hovedidé"
+            "tid",
+            "tidsaldre"
           ]
         },
         "examples": [
           {
             "de": {
-              "green": [
-                "zeit"
+              "blue": [
+                "Zeit"
               ]
             },
             "lv": {
               "purple": [
-                "Jeg"
+                "tid"
               ]
             }
           },
           {
             "de": {
-              "green": [
-                "zeit"
+              "blue": [
+                "Zeit"
               ]
             },
             "lv": {
               "purple": [
-                "Jeg"
+                "tid"
               ]
             }
           },
           {
             "de": {
-              "green": [
-                "zeit"
+              "blue": [
+                "Zurzeit"
               ]
             },
             "lv": {
               "purple": [
-                "Har"
+                "For tiden"
               ]
             }
           },
           {
             "de": {
-              "green": [
-                "die Zeit",
-                "zeit"
+              "blue": [
+                "Zeiten"
               ]
             },
             "lv": {
               "purple": [
-                "Tiden"
+                "tider"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Zeit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tid"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "das Wetter"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "vejr"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "das Mal"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "gang"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Uhr"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ur"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "Tid"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "green": [
-              "die Zeit"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
   },
   {
     "de": "einmal",
-    "lv": "Én gang • Én gang",
+    "lv": "Én gang • Engang",
     "level": "A1",
     "study": {
       "id": "a1-einmal",
       "layout": "standardStudy",
-      "translation": "Én gang • Én gang",
+      "translation": "Én gang • Engang",
       "explanation": [
-        "Hovedidé: Refererer til en tid eller fortid (engang var jeg...).",
-        "Einmal betyder dybest set: én gang / i fortiden.",
-        "Ofte præget af: vejrforhold.",
-        "Einmal refererer til én tid eller fortiden (når jeg...)."
+        "Hovedpointe: einmal er et biord, der betyder én gang (Einmal pro Woche) eller et ubestemt tidspunkt – engang. Eventyrbegyndelsen Es war einmal ... svarer til dansk \"Der var engang ...\".",
+        "Brug: einmal + pro Tag/Woche/Monat (én gang om dagen/ugen/måneden), schon einmal (allerede en gang), noch einmal (en gang til), nicht einmal (ikke engang).",
+        "I talesprog forkortes einmal ofte til mal: Komm mal her! Det svarer nogenlunde til dansk \"lige\" og gør bydemåden mildere."
       ],
       "examples": [
         {
-          "de": "Ich war einmal in Berlin.",
-          "lv": "Jeg var engang i Berlin."
+          "de": "Ich war schon einmal in Wien.",
+          "lv": "Jeg har allerede været i Wien en gang."
         },
         {
-          "de": "Ich war einmal in Berlin.",
-          "lv": "Jeg var engang i Berlin."
+          "de": "Einmal pro Woche gehe ich schwimmen.",
+          "lv": "En gang om ugen går jeg til svømning."
+        },
+        {
+          "de": "Es war einmal ein König.",
+          "lv": "Der var engang en konge."
+        },
+        {
+          "de": "Komm doch einmal vorbei!",
+          "lv": "Kig dog forbi engang!"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "zweimal",
+          "meaning": "to gange",
+          "example": "Ich war zweimal dort. – Jeg var der to gange."
+        },
+        {
+          "word": "noch einmal",
+          "meaning": "en gang til",
+          "example": "Sag es noch einmal. – Sig det en gang til."
+        },
+        {
+          "word": "mal",
+          "meaning": "småord (blødgør)",
+          "example": "Komm mal her! – Kom lige her!"
         }
       ],
       "tip": [
-        "einmal = en gang",
-        "Brug einmal når konteksten passer til denne betydning."
+        "Antal gange udtrykkes med -mal: einmal, zweimal, dreimal.",
+        "For at bede venligt kan du tilføje mal: Sag mal!"
       ],
       "important": [
-        "einmal = én eller én gang i fortiden.",
-        "Henviser til en tid eller fortid (engang var jeg...)."
+        "Biordet einmal skrives i ét ord; ein Mal med stort M er navneordet \"én gang\" (ein einziges Mal – kun én eneste gang).",
+        "I eventyrbegyndelser betyder einmal \"engang\", ikke \"én gang\"."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "einmal",
+            "Einmal"
+          ],
           "purple": [
-            "Hovedidé"
+            "én gang",
+            "engang"
           ]
         },
         "examples": [
           {
             "de": {
-              "green": [
-                "einmal",
+              "blue": [
                 "einmal"
               ]
             },
             "lv": {
               "purple": [
-                "Jeg"
+                "en gang"
               ]
             }
           },
           {
             "de": {
-              "green": [
-                "einmal",
+              "blue": [
+                "Einmal"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "En gang"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
                 "einmal"
               ]
             },
             "lv": {
               "purple": [
-                "Jeg"
+                "engang"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "einmal"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "engang"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "zweimal"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "to gange"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "noch einmal"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "en gang til"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "mal"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "småord"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "vienreiz"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "green": [
-              "einmal"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -25351,81 +27683,160 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Igen",
       "explanation": [
-        "Hovedidé: Betyder igen - at gentage en handling eller bede om at den bliver gentaget."
+        "Hovedpointe: noch mal er et meget udbredt talesprogsudtryk, der betyder igen, en gang til – altså at gentage en handling. Det er det samme som noch einmal, bare mindre formelt. Man kan også skrive nochmal.",
+        "Det bruges til at bede om en gentagelse (Sag das bitte noch mal) eller til at sige, at man gør noget én gang til: Ich lese den Text noch mal.",
+        "I modsætning til wieder (igen, et nyt tilfælde) gentager noch mal præcis det samme; på dansk dækker \"igen\" ofte begge dele."
       ],
       "examples": [
         {
-          "de": "Noch mal, bitte.",
-          "lv": "Igen, tak."
+          "de": "Kannst du das bitte noch mal sagen?",
+          "lv": "Kan du sige det en gang til?"
         },
         {
-          "de": "Noch mal, bitte.",
-          "lv": "Igen tak"
+          "de": "Ich muss den Text noch mal lesen.",
+          "lv": "Jeg skal læse teksten igen."
         },
         {
-          "de": "Sag das noch mal.",
-          "lv": "Sig det igen"
+          "de": "Noch mal danke für die Hilfe!",
+          "lv": "Endnu en gang tak for hjælpen!"
+        },
+        {
+          "de": "Wir probieren es noch mal.",
+          "lv": "Vi prøver igen."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "noch einmal",
+          "meaning": "en gang til (mere formelt)",
+          "example": "Bitte sagen Sie es noch einmal. – Vær venlig at sige det en gang til."
+        },
+        {
+          "word": "wieder",
+          "meaning": "igen",
+          "example": "Er ist wieder krank. – Han er syg igen."
+        },
+        {
+          "word": "zurück",
+          "meaning": "tilbage",
+          "example": "Ich komme gleich zurück. – Jeg er straks tilbage."
         }
       ],
       "tip": [
-        "Brug endund mal når sammenhængen passer til denne betydning.",
-        "Brug endund mal når sammenhængen passer til denne betydning."
+        "Hvis du ikke forstod noget, så sig: Noch mal, bitte!",
+        "I mere formelle tekster skriver du noch einmal."
       ],
       "important": [
-        "Igen betyder at gentage en handling eller bede om en gentagelse.",
-        "noch mal: tjek konteksten før brug."
+        "Noch mal er ikke det samme som wieder: wieder udtrykker, at noget sker igen, noch mal at det bliver gentaget.",
+        "Noch mal er talesprog; i officielle tekster bruger man hellere noch einmal."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "noch mal",
+            "noch einmal",
+            "wieder",
+            "nochmal"
+          ],
           "purple": [
-            "Hovedidé"
+            "igen",
+            "en gang til"
           ]
         },
         "examples": [
           {
             "de": {
-              "yellow": [
-                "noch mal",
+              "blue": [
                 "noch mal"
               ]
             },
             "lv": {
               "purple": [
-                "Igen"
+                "en gang til"
               ]
             }
           },
           {
             "de": {
-              "yellow": [
-                "noch mal",
+              "blue": [
                 "noch mal"
               ]
             },
             "lv": {
               "purple": [
-                "Igen"
+                "igen"
               ]
             }
           },
           {
             "de": {
-              "yellow": [
-                "noch mal",
+              "blue": [
+                "Noch mal"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Endnu en gang"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
                 "noch mal"
               ]
             },
             "lv": {
               "purple": [
-                "Sig"
+                "igen"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "noch einmal"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "en gang til (mere formelt)"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "wieder"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "igen"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "zurück"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "tilbage"
               ]
             }
           }
         ],
         "tip": [
+          {},
           {}
         ],
         "important": [
+          {},
           {}
         ]
       }
