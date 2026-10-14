@@ -20,7 +20,7 @@ const B2_WORDS = [
   },
   {
     "de": "nachhaltig",
-    "lv": "Bæredygtigt",
+    "lv": "Bæredygtig",
     "level": "B2"
   },
   {
@@ -30,7 +30,7 @@ const B2_WORDS = [
   },
   {
     "de": "widersprechen",
-    "lv": "Objekt",
+    "lv": "At modsige • At protestere",
     "level": "B2"
   },
   {
@@ -44,7 +44,7 @@ const B2_WORDS = [
     "de": "Akrobat",
     "de_article": "der",
     "de_plural": "die Akrobaten",
-    "lv": "En akrobat",
+    "lv": "Akrobat",
     "level": "B2"
   },
   {
@@ -58,12 +58,12 @@ const B2_WORDS = [
     "de": "Akt",
     "de_article": "der",
     "de_plural": "die Akte",
-    "lv": "Akt • Dokument",
+    "lv": "Akt • Handling",
     "level": "B2"
   },
   {
     "de": "akzeptabel",
-    "lv": "Acceptabelt",
+    "lv": "Acceptabel",
     "level": "B2"
   },
   {
@@ -81,7 +81,7 @@ const B2_WORDS = [
   },
   {
     "de": "anbelangen",
-    "lv": "Der henvises til",
+    "lv": "At angå • At vedrøre",
     "level": "B2"
   },
   {
@@ -109,12 +109,192 @@ const B2_WORDS = [
   },
   {
     "de": "angebracht",
-    "lv": "Egnet • Egnet",
-    "level": "B2"
+    "lv": "Passende • Egnet",
+    "level": "B2",
+    "study": {
+      "id": "b2-angebracht",
+      "layout": "standardStudy",
+      "translation": "Passende • Egnet",
+      "explanation": [
+        "Grundbetydning: angebracht er et tillægsord (af anbringen), der betyder passende, på sin plads, egnet i den konkrete situation. Det bruges normalt som udsagnsled med sein: Vorsicht ist angebracht.",
+        "Man bruger det til at vurdere en adfærd, en bemærkning eller en handling: den er passende eller upassende (nicht angebracht, unangebracht). Forbindelser: ein angebrachter Ton, eine angebrachte Bemerkung.",
+        "I bogstavelig betydning betyder angebracht også anbragt, fastgjort: Das Schild ist an der Tür angebracht (skiltet er anbragt på døren). Det er den samme form som førnutid af anbringen (bringt an, brachte an, hat angebracht) – sammenlign med dansk anbringe."
+      ],
+      "examples": [
+        {
+          "de": "Hier ist Vorsicht angebracht.",
+          "lv": "Her er forsigtighed på sin plads."
+        },
+        {
+          "de": "Seine Bemerkung war nicht angebracht.",
+          "lv": "Hans bemærkning var ikke passende."
+        },
+        {
+          "de": "Ein freundlicher Ton ist hier angebracht.",
+          "lv": "En venlig tone er passende her."
+        },
+        {
+          "de": "Ich halte das für angebracht.",
+          "lv": "Jeg anser det for passende."
+        },
+        {
+          "de": "Das Schild ist an der Tür angebracht.",
+          "lv": "Skiltet er anbragt på døren."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "passend",
+          "meaning": "passende",
+          "example": "Das ist ein passendes Geschenk. – Det er en passende gave."
+        },
+        {
+          "word": "angemessen",
+          "meaning": "rimelig, passende (i forhold til)",
+          "example": "Der Preis ist angemessen. – Prisen er rimelig."
+        },
+        {
+          "word": "unangebracht",
+          "meaning": "upassende, malplaceret",
+          "example": "Das war ein unangebrachter Witz. – Det var en malplaceret vittighed."
+        }
+      ],
+      "tip": [
+        "Udtrykket Das ist angebracht bruges til at vurdere en situation; det modsatte er unangebracht.",
+        "Hyppige kollokationer: Vorsicht ist angebracht, Zurückhaltung ist angebracht."
+      ],
+      "important": [
+        "Angebracht bruges normalt med sein; foran et navneord får det endelse: eine angebrachte Bemerkung.",
+        "Forveksl det ikke med angemessen: angebracht handler om sted og tidspunkt, angemessen om at stå i rimeligt forhold til noget."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "angebracht",
+            "anbringen",
+            "unangebracht"
+          ],
+          "purple": [
+            "passende",
+            "på sin plads",
+            "anbragt"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "angebracht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "på sin plads"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "angebracht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "passende"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "angebracht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "passende"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "angebracht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "passende"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "angebracht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "anbragt"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "passend"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "passende"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "angemessen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "rimelig"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "unangebracht"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "upassende",
+                "malplaceret"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "angehen",
-    "lv": "Forhold til • Vende imod",
+    "lv": "At angå • At tage fat på",
     "level": "B2"
   },
   {
@@ -146,22 +326,22 @@ const B2_WORDS = [
   },
   {
     "de": "anbrechen",
-    "lv": "For at begynde • Hack",
+    "lv": "At begynde • At anbryde",
     "level": "B2"
   },
   {
     "de": "anbremsen",
-    "lv": "Begynd at bremse",
+    "lv": "At bremse ned",
     "level": "B2"
   },
   {
     "de": "anfreunden",
-    "lv": "Få venner",
+    "lv": "At blive venner",
     "level": "B2"
   },
   {
     "de": "angeblich",
-    "lv": "Som om • Tilsyneladende",
+    "lv": "Angiveligt • Påstået",
     "level": "B2"
   },
   {
@@ -176,7 +356,7 @@ const B2_WORDS = [
   },
   {
     "de": "angeordnet",
-    "lv": "Bestemt • Bestilt",
+    "lv": "Fastsat • Beordret",
     "level": "B2"
   },
   {
@@ -191,17 +371,17 @@ const B2_WORDS = [
   },
   {
     "de": "abberufen",
-    "lv": "Tilbagekald • Afvis",
+    "lv": "At hjemkalde • At afsætte",
     "level": "B2"
   },
   {
     "de": "abblitzen",
-    "lv": "Afvise",
+    "lv": "At blive afvist",
     "level": "B2"
   },
   {
     "de": "abbringen",
-    "lv": "Fraråde • Aflede",
+    "lv": "At tale fra • At aflede",
     "level": "B2"
   },
   {
@@ -221,7 +401,7 @@ const B2_WORDS = [
   {
     "de": "Abenteuerlust",
     "de_article": "die",
-    "lv": "Lyst til en affære",
+    "lv": "Eventyrlyst",
     "level": "B2"
   },
   {
@@ -238,37 +418,342 @@ const B2_WORDS = [
   },
   {
     "de": "abfertigen",
-    "lv": "Ekspedere • Affærdige",
+    "lv": "At ekspedere • At affærdige",
     "level": "B2"
   },
   {
     "de": "sich abfinden",
-    "lv": "Affinde sig med",
+    "lv": "At affinde sig med",
     "level": "B2",
     "study": {
       "id": "b2-sich-abfinden",
-      "layout": "minimalStudy",
-      "translation": "Affinde sig med",
-      "rektion": "mit + kam?",
-      "explanation": "Sich abfinden kræver den bestemte præposition mit + kam?.",
-      "forms": "mit + kam?",
-      "formsLabel": "Management:",
+      "layout": "standardStudy",
+      "translation": "At affinde sig med",
+      "explanation": [
+        "Grundbetydning: sich abfinden mit er et refleksivt udsagnsord, der betyder at affinde sig med noget ubehageligt, som man ikke kan ændre. Efter mit følger dativ: sich mit etwas abfinden – præcis som dansk affinde sig med.",
+        "Former: er findet sich ab, fand sich ab, hat sich abgefunden. Forstavelsen ab- er adskillelig: Ich finde mich damit ab. I førnutid er hjælpeudsagnsordet haben, og ge- sættes ind mellem ab- og udsagnsordet.",
+        "Uden refleksivt stedord betyder abfinden at kompensere: jemanden mit Geld abfinden (give nogen en økonomisk kompensation)."
+      ],
+      "examples": [
+        {
+          "de": "Er kann sich nicht mit der Niederlage abfinden.",
+          "lv": "Han kan ikke affinde sig med nederlaget."
+        },
+        {
+          "de": "Sie hat sich mit ihrem Schicksal abgefunden.",
+          "lv": "Hun har affundet sig med sin skæbne."
+        },
+        {
+          "de": "Wir müssen uns damit abfinden.",
+          "lv": "Vi må affinde os med det."
+        },
+        {
+          "de": "Mit dem neuen Chef finde ich mich langsam ab.",
+          "lv": "Jeg affinder mig så småt med den nye chef."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich gewöhnen an",
+          "meaning": "vænne sig til",
+          "example": "Ich gewöhne mich an die Kälte. – Jeg vænner mig til kulden."
+        },
+        {
+          "word": "akzeptieren",
+          "meaning": "acceptere, anerkende",
+          "example": "Wir akzeptieren die Entscheidung. – Vi accepterer beslutningen."
+        },
+        {
+          "word": "sich fügen",
+          "meaning": "bøje sig for, underkaste sig",
+          "example": "Er fügt sich dem Beschluss. – Han bøjer sig for beslutningen."
+        }
+      ],
+      "tip": [
+        "Efter mit bruges dativ: mit dem Verlust, mit der Situation. Med stedord siger man damit.",
+        "Vil du sige, at du ikke vil give dig, så sig Ich finde mich nicht damit ab."
+      ],
+      "important": [
+        "Forveksl det ikke med abfinden uden sich: det betyder at kompensere eller holde skadesløs med penge.",
+        "Førnutid er sich abgefunden (med -ge- i midten), ikke gabgefunden."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich abfinden"
+            "abfinden",
+            "abgefunden",
+            "findet",
+            "finde",
+            "fand"
           ],
-          "red": [
-            "mit + kam?"
+          "purple": [
+            "affinde sig med",
+            "affinde sig"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "abfinden"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "affinde sig med"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "abgefunden"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "affundet sig med"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "abfinden"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "affinde os med"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "finde"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "affinder mig"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich gewöhnen an"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "vænne sig til"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "akzeptieren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "acceptere"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich fügen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "bøje sig for"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
   {
     "de": "abgesehen",
-    "lv": "Skønt • Derudover",
-    "level": "B2"
+    "lv": "Bortset fra",
+    "level": "B2",
+    "study": {
+      "id": "b2-abgesehen",
+      "layout": "standardStudy",
+      "translation": "Bortset fra",
+      "explanation": [
+        "Grundbetydning: abgesehen er en kort tillægsform, der sammen med von fungerer som forholdsord og betyder bortset fra eller undtagen: Abgesehen vom Wetter war alles gut.",
+        "Efter abgesehen von følger dativ: abgesehen von einem Fehler. Følger der en hel sætning, bruger man abgesehen davon, dass …, og udsagnsordet står sidst i bisætningen."
+      ],
+      "examples": [
+        {
+          "de": "Abgesehen vom Wetter war der Urlaub schön.",
+          "lv": "Bortset fra vejret var ferien dejlig."
+        },
+        {
+          "de": "Abgesehen davon, dass es teuer ist, gefällt es mir.",
+          "lv": "Bortset fra at det er dyrt, kan jeg godt lide det."
+        },
+        {
+          "de": "Abgesehen von einem Kratzer ist das Auto in Ordnung.",
+          "lv": "Bortset fra en ridse er bilen i orden."
+        },
+        {
+          "de": "Abgesehen von ihr waren alle da.",
+          "lv": "Bortset fra hende var alle der."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "außer",
+          "meaning": "undtagen",
+          "example": "Alle außer mir waren da. – Alle undtagen mig var der."
+        },
+        {
+          "word": "bis auf",
+          "meaning": "på nær",
+          "example": "Bis auf einen Fehler war alles richtig. – På nær én fejl var alt rigtigt."
+        },
+        {
+          "word": "einschließlich",
+          "meaning": "inklusive",
+          "example": "Der Preis gilt einschließlich Frühstück. – Prisen er inklusive morgenmad."
+        }
+      ],
+      "tip": [
+        "Efter abgesehen sætter man altid von (eller davon, dass): abgesehen von dir.",
+        "En hyppig indledning til en bemærkning: Abgesehen davon … (Bortset fra det …)."
+      ],
+      "important": [
+        "Abgesehen bruges normalt sammen med von eller davon, dass, så det er tydeligt, hvad der undtages.",
+        "Efter abgesehen von står navneordet i dativ: abgesehen vom Preis (= von dem Preis)."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Abgesehen",
+            "abgesehen"
+          ],
+          "purple": [
+            "bortset fra",
+            "undtagen"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Abgesehen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Bortset fra"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Abgesehen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Bortset fra"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Abgesehen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Bortset fra"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Abgesehen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Bortset fra"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "außer"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "undtagen"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "bis auf"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "på nær"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "einschließlich"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "inklusive"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "abgespannt",
@@ -277,36 +762,36 @@ const B2_WORDS = [
   },
   {
     "de": "abgetan",
-    "lv": "Opsagt • Afgjort",
+    "lv": "Afgjort • Afvist",
     "level": "B2"
   },
   {
     "de": "abgrenzen",
-    "lv": "Afgræns • Tag afstand",
+    "lv": "At afgrænse • At tage afstand",
     "level": "B2"
   },
   {
     "de": "Abgrund",
     "de_article": "der",
     "de_plural": "die Abgründe",
-    "lv": "Afgrunden",
+    "lv": "Afgrund",
     "level": "B2"
   },
   {
     "de": "abhören",
-    "lv": "Aflytning • Aflytning",
+    "lv": "At aflytte",
     "level": "B2"
   },
   {
     "de": "ableiten",
-    "lv": "Aflede • Udlede",
+    "lv": "At aflede • At udlede",
     "level": "B2"
   },
   {
     "de": "Abneigung",
     "de_article": "die",
     "de_plural": "die Abneigungen",
-    "lv": "Kan ikke lide • Antipati",
+    "lv": "Modvilje • Antipati",
     "level": "B2"
   },
   {
@@ -325,7 +810,7 @@ const B2_WORDS = [
   },
   {
     "de": "abrichten",
-    "lv": "Træn et dyr",
+    "lv": "At dressere • At afrette",
     "level": "B2"
   },
   {
@@ -339,32 +824,32 @@ const B2_WORDS = [
     "de": "Absatzmarkt",
     "de_article": "der",
     "de_plural": "die Absatzmärkte",
-    "lv": "Outlet marked",
+    "lv": "Afsætningsmarked",
     "level": "B2"
   },
   {
     "de": "abscheulich",
-    "lv": "Ulækkert • Ulækkert",
+    "lv": "Afskyelig • Modbydelig",
     "level": "B2"
   },
   {
     "de": "abschieben",
-    "lv": "Skub væk • Forvis",
+    "lv": "At udvise • At skubbe væk",
     "level": "B2"
   },
   {
     "de": "abschlagen",
-    "lv": "Afslå • Hugge af",
+    "lv": "At afslå • At hugge af",
     "level": "B2"
   },
   {
     "de": "abschleppen",
-    "lv": "Fjern bilen",
+    "lv": "At bugsere • At slæbe væk",
     "level": "B2"
   },
   {
     "de": "abschrecken",
-    "lv": "Intrimider • Afkøl hurtigt",
+    "lv": "At afskrække • At bratkøle",
     "level": "B2"
   },
   {
@@ -376,7 +861,7 @@ const B2_WORDS = [
   },
   {
     "de": "absondern",
-    "lv": "Udskille • Adskille",
+    "lv": "At udskille • At adskille",
     "level": "B2"
   },
   {
@@ -390,12 +875,12 @@ const B2_WORDS = [
     "de": "Abstecher",
     "de_article": "der",
     "de_plural": "die Abstecher",
-    "lv": "Omdirigering • Kort tur",
+    "lv": "Afstikker • Smuttur",
     "level": "B2"
   },
   {
     "de": "abstimmen",
-    "lv": "At stemme • At blive enige",
+    "lv": "At stemme • At afstemme",
     "level": "B2"
   },
   {
@@ -407,91 +892,404 @@ const B2_WORDS = [
   },
   {
     "de": "abstoßend",
-    "lv": "Frastødende • Ulækkert",
+    "lv": "Frastødende • Modbydelig",
     "level": "B2"
   },
   {
     "de": "Absturz",
     "de_article": "der",
     "de_plural": "die Abstürze",
-    "lv": "Fall • Fall",
+    "lv": "Styrt • Fald",
     "level": "B2"
   },
   {
     "de": "absurd",
-    "lv": "Absurd • Fornuftsløs",
+    "lv": "Absurd • Meningsløs",
     "level": "B2"
   },
   {
     "de": "abtragen",
-    "lv": "Fjerne • Nedrive",
-    "level": "B2"
+    "lv": "At fjerne • At nedrive • At slide op",
+    "level": "B2",
+    "study": {
+      "id": "b2-abtragen",
+      "layout": "standardStudy",
+      "translation": "At fjerne • At nedrive • At slide op",
+      "explanation": [
+        "Hovedidé: abtragen er et adskilleligt udsagnsord med flere betydninger: slide op (tøj), nedrive eller grave væk (en bygning, en bakke) og bære ud eller rydde af (f.eks. tallerkener fra bordet). Former: trägt ab, trug ab, hat abgetragen.",
+        "Førnutids tillægsform abgetragen beskriver ofte opslidt tøj: abgetragene Schuhe. I byggeri betyder abtragen at nedrive eller fjerne noget lidt efter lidt: eine Mauer abtragen.",
+        "Desuden betyder abtragen at afdrage gæld lidt efter lidt: Schulden abtragen – sammenlign med dansk afdrage. I alle betydninger skilles forstavelsen ab- fra: Er trägt die Teller ab."
+      ],
+      "examples": [
+        {
+          "de": "Die Schuhe sind schon stark abgetragen.",
+          "lv": "Skoene er allerede meget slidte."
+        },
+        {
+          "de": "Man trägt die alte Mauer Stein für Stein ab.",
+          "lv": "Den gamle mur bliver taget ned sten for sten."
+        },
+        {
+          "de": "Die Kellnerin trägt die Teller ab.",
+          "lv": "Servitricen bærer tallerkenerne ud."
+        },
+        {
+          "de": "Er trägt seine Schulden in Raten ab.",
+          "lv": "Han afdrager sin gæld i rater."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "abreißen",
+          "meaning": "rive ned",
+          "example": "Man hat das alte Haus abgerissen. – Man har revet det gamle hus ned."
+        },
+        {
+          "word": "abräumen",
+          "meaning": "rydde (bordet)",
+          "example": "Sie räumt den Tisch ab. – Hun rydder af bordet."
+        },
+        {
+          "word": "verschleißen",
+          "meaning": "slides, blive slidt",
+          "example": "Die Reifen verschleißen schnell. – Dækkene slides hurtigt."
+        }
+      ],
+      "tip": [
+        "Konteksten afgør betydningen: om tøj betyder abtragen at slide op, om en mur at nedrive, om mad at bære ud.",
+        "På en restaurant hører man ofte abtragen, når bordet bliver ryddet."
+      ],
+      "important": [
+        "Forveksl ikke abtragen med abreißen: abreißen er at rive en bygning helt ned på én gang, abtragen at fjerne noget lidt efter lidt.",
+        "Førnutid: hat abgetragen (med ge- mellem ab- og tragen)."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "abtragen",
+            "trägt ab",
+            "trug ab",
+            "abgetragen",
+            "abtragen"
+          ],
+          "purple": [
+            "slide op",
+            "nedrive",
+            "bære ud",
+            "opslidt",
+            "afdrage"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "abgetragen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "slidte"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "trägt",
+                "ab"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "taget ned"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "trägt",
+                "ab"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "bærer"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "trägt",
+                "ab"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "afdrager"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "abreißen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "rive ned"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "abräumen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "rydde"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "verschleißen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "slides"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "abtreten",
-    "lv": "Træde tilbage • Overdrage",
+    "lv": "At træde tilbage • At overdrage",
     "level": "B2"
   },
   {
     "de": "abweichen",
-    "lv": "Afvige • Afvige",
+    "lv": "At afvige",
     "level": "B2"
   },
   {
     "de": "abweisen",
-    "lv": "Afvis • Afvis",
+    "lv": "At afvise",
     "level": "B2"
   },
   {
     "de": "abwenden",
-    "lv": "For at forebygge",
+    "lv": "At afværge • At forhindre",
     "level": "B2"
   },
   {
     "de": "Affäre",
     "de_article": "die",
     "de_plural": "die Affären",
-    "lv": "Affære • Roman",
+    "lv": "Affære • Kærlighedsaffære",
     "level": "B2"
   },
   {
     "de": "sich abwenden",
-    "lv": "Vend dig væk fra",
+    "lv": "At vende sig bort",
     "level": "B2",
     "study": {
       "id": "b2-sich-abwenden",
-      "layout": "minimalStudy",
-      "translation": "Vend dig væk fra",
-      "rektion": "von + kam?",
-      "explanation": "Sich abwenden kræver den bestemte præposition von + kam?.",
-      "forms": "von + kam?",
-      "formsLabel": "Management:",
+      "layout": "standardStudy",
+      "translation": "At vende sig bort",
+      "explanation": [
+        "Hovedidé: sich abwenden er et adskilleligt tilbagevisende udsagnsord, der betyder at vende sig bort – fysisk vende blikket eller kroppen væk eller i overført betydning tage afstand fra nogen eller noget. Efter von følger dativ: sich von jemandem abwenden.",
+        "Former: wendet sich ab, wandte (sjældnere wendete) sich ab, hat sich abgewandt (sjældnere abgewendet). Forstavelsen ab- skilles fra: Sie wendet sich ab.",
+        "Uden tilbagevisende stedord betyder abwenden + akkusativ at afværge: eine Gefahr abwenden (afværge en fare), og her bruges som regel de regelmæssige former: wendete ab, hat abgewendet."
+      ],
+      "examples": [
+        {
+          "de": "Sie wandte sich vom Fenster ab.",
+          "lv": "Hun vendte sig bort fra vinduet."
+        },
+        {
+          "de": "Viele Wähler haben sich von der Partei abgewandt.",
+          "lv": "Mange vælgere har vendt sig bort fra partiet."
+        },
+        {
+          "de": "Er wendet sich von seinen Freunden ab.",
+          "lv": "Han vender sig bort fra sine venner."
+        },
+        {
+          "de": "Die Mutter wandte sich enttäuscht ab.",
+          "lv": "Moderen vendte sig skuffet bort."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "abwenden",
+          "meaning": "afværge",
+          "example": "Wir konnten die Katastrophe abwenden. – Vi kunne afværge katastrofen."
+        },
+        {
+          "word": "sich zuwenden",
+          "meaning": "vende sig mod",
+          "example": "Sie wendet sich dem Kind zu. – Hun vender sig mod barnet."
+        },
+        {
+          "word": "sich umdrehen",
+          "meaning": "vende sig om",
+          "example": "Er dreht sich um. – Han vender sig om."
+        }
+      ],
+      "tip": [
+        "Efter von bruges dativ: von der Politik, von den Freunden.",
+        "Husk modsætningen: sich abwenden (vende sig bort) og sich zuwenden (vende sig mod)."
+      ],
+      "important": [
+        "Sich abwenden og abwenden betyder noget forskelligt: den tilbagevisende form udtrykker at vende sig bort, mens abwenden + akkusativ betyder at afværge, f.eks. en fare.",
+        "I førnutid bruges abgewandt oftere end abgewendet ved sich abwenden."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich abwenden"
+            "abwenden"
           ],
-          "red": [
-            "von + kam?"
+          "purple": [
+            "vende sig bort"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "wandte",
+                "ab"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vendte sig bort"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "abgewandt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vendt sig bort"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "wendet",
+                "ab"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vender sig bort"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "wandte",
+                "ab"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vendte sig"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "abwenden"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "afværge"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "zuwenden"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "vende sig mod"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "umdrehen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "vende sig om"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
   {
     "de": "Abzweigung",
     "de_article": "die",
-    "lv": "Filial • Filial",
+    "lv": "Afgrening • Sidevej",
     "level": "B2"
   },
   {
     "de": "ächzen",
-    "lv": "Stønne • Stønne",
+    "lv": "At stønne • At jamre",
     "level": "B2"
   },
   {
     "de": "affig",
-    "lv": "Prangende • Indbildsk",
+    "lv": "Affekteret • Indbildsk",
     "level": "B2"
   },
   {
@@ -508,12 +1306,12 @@ const B2_WORDS = [
     "de": "Andeutung",
     "de_article": "die",
     "de_plural": "die Andeutungen",
-    "lv": "Tip • Indikation",
+    "lv": "Antydning • Hentydning",
     "level": "B2"
   },
   {
     "de": "andeuten",
-    "lv": "Angiv • Tip",
+    "lv": "At antyde • At hentyde",
     "level": "B2"
   },
   {
@@ -524,14 +1322,14 @@ const B2_WORDS = [
   },
   {
     "de": "annähernd",
-    "lv": "Ca. • Ca",
+    "lv": "Omtrentlig • Tilnærmelsesvis",
     "level": "B2"
   },
   {
     "de": "Anorak",
     "de_article": "der",
     "de_plural": "die Anoraks",
-    "lv": "Sportsjakke med hætte",
+    "lv": "Anorak",
     "level": "B2"
   },
   {
@@ -545,14 +1343,14 @@ const B2_WORDS = [
     "de": "Areal",
     "de_article": "das",
     "de_plural": "die Areale",
-    "lv": "Rækkevidde",
+    "lv": "Areal • Område",
     "level": "B2"
   },
   {
     "de": "Arie",
     "de_article": "die",
     "de_plural": "die Arien",
-    "lv": "Aria",
+    "lv": "Arie",
     "level": "B2"
   },
   {
@@ -591,7 +1389,7 @@ const B2_WORDS = [
     "de": "Ausbeutung",
     "de_article": "die",
     "de_plural": "die Ausbeutungen",
-    "lv": "Operation",
+    "lv": "Udbytning",
     "level": "B2"
   },
   {
@@ -603,14 +1401,14 @@ const B2_WORDS = [
   },
   {
     "de": "sich aufdrängen",
-    "lv": "At chikanere",
+    "lv": "At trænge sig på",
     "level": "B2"
   },
   {
     "de": "Aufruf",
     "de_article": "der",
     "de_plural": "die Aufrufe",
-    "lv": "Udråb • Invitation",
+    "lv": "Opråb • Opfordring",
     "level": "B2"
   },
   {
@@ -631,15 +1429,177 @@ const B2_WORDS = [
     "de": "Augenmaß",
     "de_article": "das",
     "de_plural": "die Augenmaße",
-    "lv": "Akumometer",
+    "lv": "Øjemål",
     "level": "B2"
   },
   {
     "de": "Äußerlichkeit",
     "de_article": "die",
     "de_plural": "die Äußerlichkeiten",
-    "lv": "Prangende",
-    "level": "B2"
+    "lv": "Overfladiskhed • Ydre",
+    "level": "B2",
+    "study": {
+      "id": "b2--u-erlichkeit",
+      "layout": "standardStudy",
+      "translation": "Overfladiskhed • Ydre",
+      "explanation": [
+        "Hovedidé: die Äußerlichkeit er et hunkønsnavneord, der betyder en ydre, overfladisk ting – noget udvendigt, som ikke er væsentligt. Det bruges ofte i flertal.",
+        "Flertal er die Äußerlichkeiten. Ordet bruges som regel kritisk: Er achtet nur auf Äußerlichkeiten (han lægger kun vægt på det ydre).",
+        "Ordet er afledt af äußerlich (ydre, udvortes); navneordet die Äußerlichkeit betegner det, der kun er udadtil, uden dybde – en overfladiskhed."
+      ],
+      "examples": [
+        {
+          "de": "Ihm sind Äußerlichkeiten nicht wichtig.",
+          "lv": "Ydre ting er ikke vigtige for ham."
+        },
+        {
+          "de": "Das ist nur eine Äußerlichkeit.",
+          "lv": "Det er kun en ydre detalje."
+        },
+        {
+          "de": "Sie achtet zu sehr auf Äußerlichkeiten.",
+          "lv": "Hun lægger for meget vægt på det ydre."
+        },
+        {
+          "de": "Man sollte sich nicht von Äußerlichkeiten täuschen lassen.",
+          "lv": "Man bør ikke lade sig narre af det ydre."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "das Äußere",
+          "meaning": "det ydre (udseende)",
+          "example": "Sein Äußeres täuscht. – Hans ydre bedrager."
+        },
+        {
+          "word": "die Oberflächlichkeit",
+          "meaning": "overfladiskhed",
+          "example": "Ich mag keine Oberflächlichkeit. – Jeg kan ikke lide overfladiskhed."
+        },
+        {
+          "word": "das Aussehen",
+          "meaning": "udseende",
+          "example": "Sein Aussehen hat sich verändert. – Hans udseende har ændret sig."
+        }
+      ],
+      "tip": [
+        "Bruges typisk med auf (auf Äußerlichkeiten achten) eller med nur: nur eine Äußerlichkeit.",
+        "Ordet lyder ofte kritisk: det antyder, at noget kun er overfladisk."
+      ],
+      "important": [
+        "Flertal Äußerlichkeiten er meget mere almindeligt end ental.",
+        "Äußerlichkeit er ikke det neutrale udseende: udseendet hedder das Äußere."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Äußerlichkeit",
+            "Äußerlichkeiten"
+          ],
+          "purple": [
+            "ydre, overfladisk ting",
+            "det ydre",
+            "overfladiskhed"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Äußerlichkeiten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Ydre ting"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Äußerlichkeit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ydre detalje"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Äußerlichkeiten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "det ydre"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Äußerlichkeiten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "det ydre"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "das Äußere"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "det ydre"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Oberflächlichkeit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "overfladiskhed"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "das Aussehen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "udseende"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "Äußerung",
@@ -650,82 +1610,601 @@ const B2_WORDS = [
   },
   {
     "de": "aussetzen",
-    "lv": "Udsætte • Suspendere",
-    "level": "B2"
+    "lv": "At udsætte • At afbryde",
+    "level": "B2",
+    "study": {
+      "id": "b2-aussetzen",
+      "layout": "standardStudy",
+      "translation": "At udsætte • At afbryde",
+      "explanation": [
+        "Hovedidé: aussetzen er et adskilleligt udsagnsord med flere betydninger: sætte ud eller efterlade (en hund, et barn), udsætte for (kulde, fare), sætte ud eller gå i stå (om en motor, et arbejde) og med an + dativ – have noget at udsætte på.",
+        "Former: setzt aus, setzte aus, hat ausgesetzt. I betydningen udsætte for bruges dativ: jemanden/etwas einer Gefahr aussetzen; sich der Sonne aussetzen. Udtrykket ausgesetzt sein betyder at være udsat for.",
+        "Kritik udtrykkes med etwas an jemandem/etwas auszusetzen haben: Ich habe nichts daran auszusetzen – præcis som dansk have noget at udsætte på. Her står zu mellem forstavelsen og stammen: auszusetzen."
+      ],
+      "examples": [
+        {
+          "de": "Sie setzten den Hund im Wald aus.",
+          "lv": "De satte hunden ud i skoven."
+        },
+        {
+          "de": "Die Kinder sind der Kälte ausgesetzt.",
+          "lv": "Børnene er udsat for kulden."
+        },
+        {
+          "de": "Der Motor setzte plötzlich aus.",
+          "lv": "Motoren satte pludselig ud."
+        },
+        {
+          "de": "Ich habe nichts an deinem Plan auszusetzen.",
+          "lv": "Jeg har intet at udsætte på din plan."
+        },
+        {
+          "de": "Du solltest dich nicht zu lange der Sonne aussetzen.",
+          "lv": "Du bør ikke udsætte dig for solen for længe."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "unterbrechen",
+          "meaning": "afbryde",
+          "example": "Das Spiel wurde unterbrochen. – Kampen blev afbrudt."
+        },
+        {
+          "word": "kritisieren",
+          "meaning": "kritisere",
+          "example": "Er kritisiert den Plan. – Han kritiserer planen."
+        },
+        {
+          "word": "verlassen",
+          "meaning": "forlade",
+          "example": "Er hat seine Familie verlassen. – Han har forladt sin familie."
+        }
+      ],
+      "tip": [
+        "Konteksten afgør betydningen: et dyr eller et barn – efterlade, solen eller en fare – udsætte for, en motor – sætte ud.",
+        "Ved kritik bruges som regel nægtende form: nichts auszusetzen haben."
+      ],
+      "important": [
+        "I betydningen udsætte for følger dativ efter aussetzen (der Gefahr, dem Risiko), ikke akkusativ.",
+        "Forveksl ikke ausgesetzt sein (være udsat for) med ausgestellt (udstillet eller udstedt). Bemærk også, at dansk udsætte i betydningen udskyde som regel hedder verschieben på tysk."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "aussetzen",
+            "setzt",
+            "setzte",
+            "ausgesetzt",
+            "auszusetzen"
+          ],
+          "purple": [
+            "sætte ud",
+            "efterlade",
+            "udsætte for",
+            "gå i stå",
+            "have noget at udsætte på",
+            "være udsat for"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "setzten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "satte"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ausgesetzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "udsat"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "setzte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "satte"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "auszusetzen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "udsætte"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "aussetzen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "udsætte"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "unterbrechen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "afbryde"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "kritisieren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "kritisere"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "verlassen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "forlade"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "aussichtslos",
-    "lv": "Håbløs • Ingen udsigt",
+    "lv": "Håbløs • Udsigtsløs",
     "level": "B2"
   },
   {
     "de": "ausspannen",
-    "lv": "Slappe af • Spænde fra",
+    "lv": "At slappe af • At spænde fra",
     "level": "B2"
   },
   {
     "de": "ausstatten",
-    "lv": "At levere • At designe",
+    "lv": "At udstyre • At indrette",
     "level": "B2"
   },
   {
     "de": "aussterben",
-    "lv": "Dø ud",
+    "lv": "At uddø",
     "level": "B2"
   },
   {
     "de": "ausstopfen",
-    "lv": "Stoppe ud • Udstoppe",
+    "lv": "At udstoppe • At fylde",
     "level": "B2"
   },
   {
     "de": "ausströmen",
-    "lv": "Strømme ud • Udstråle",
-    "level": "B2"
+    "lv": "At strømme ud • At udstråle",
+    "level": "B2",
+    "study": {
+      "id": "b2-ausstr-men",
+      "layout": "standardStudy",
+      "translation": "At strømme ud • At udstråle",
+      "explanation": [
+        "Hovedidé: ausströmen betyder at strømme ud eller sive ud (om gas, luft, væske) eller i overført betydning at udstråle, sprede (ro, varme). Forstavelsen aus- skilles fra.",
+        "Former: strömt aus, strömte aus. Når noget strømmer ud, og der er tale om bevægelse, er hjælpeudsagnsordet i førnutid sein: Das Gas ist ausgeströmt. Med et akkusativobjekt (Ruhe ausströmen) bruges haben: Sie hat Ruhe ausgeströmt.",
+        "Ordet hænger sammen med strömen (strømme) – ligesom på dansk. De mest almindelige anvendelser er tekniske, om gasudslip, og overførte, om et menneskes udstråling."
+      ],
+      "examples": [
+        {
+          "de": "Aus dem Rohr strömt Gas aus.",
+          "lv": "Der strømmer gas ud af røret."
+        },
+        {
+          "de": "Das Wasser ist aus dem Tank ausgeströmt.",
+          "lv": "Vandet er strømmet ud af tanken."
+        },
+        {
+          "de": "Sie strömt Ruhe aus.",
+          "lv": "Hun udstråler ro."
+        },
+        {
+          "de": "Aus der Küche strömte ein feiner Duft aus.",
+          "lv": "Fra køkkenet strømmede en fin duft ud."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "ausfließen",
+          "meaning": "løbe ud",
+          "example": "Das Öl fließt aus dem Tank aus. – Olien løber ud af tanken."
+        },
+        {
+          "word": "austreten",
+          "meaning": "sive ud, slippe ud",
+          "example": "Aus dem Rohr tritt Gas aus. – Der siver gas ud af røret."
+        },
+        {
+          "word": "ausstrahlen",
+          "meaning": "udstråle",
+          "example": "Er strahlt Freude aus. – Han udstråler glæde."
+        }
+      ],
+      "tip": [
+        "Om gasudslip siger man Gas strömt aus; det betegner som regel en farlig situation.",
+        "Førnutid dannes med sein, når der ikke er noget objekt: ist ausgeströmt."
+      ],
+      "important": [
+        "Hjælpeudsagnsordet i førnutid er sein, når noget strømmer ud (ist ausgeströmt), og haben, når der er et objekt (hat Ruhe ausgeströmt).",
+        "Ausströmen er ikke det samme som ausschütten (hælde ud): det gør et menneske."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "ausströmen",
+            "strömt aus",
+            "strömte aus",
+            "ausgeströmt",
+            "strömen"
+          ],
+          "purple": [
+            "strømme ud",
+            "sive ud",
+            "udstråle"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "strömt",
+                "aus"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "strømmer"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ausgeströmt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "strømmet ud"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "strömt",
+                "aus"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "udstråler"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "strömte",
+                "aus"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "strømmede"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "ausfließen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "løbe ud"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "austreten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "sive ud"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "ausstrahlen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "udstråle"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "austragen",
-    "lv": "Udkæmpe • Levere",
+    "lv": "At omdele • At udkæmpe",
     "level": "B2"
   },
   {
     "de": "austreiben",
-    "lv": "Kør ud • Afvænning",
+    "lv": "At uddrive • At afvænne",
     "level": "B2"
   },
   {
     "de": "austreten",
-    "lv": "Træde ud • Lække ud",
-    "level": "B2"
+    "lv": "At træde ud • At melde sig ud",
+    "level": "B2",
+    "study": {
+      "id": "b2-austreten",
+      "layout": "standardStudy",
+      "translation": "At træde ud • At melde sig ud",
+      "explanation": [
+        "Hovedidé: austreten er et adskilleligt udsagnsord med to hovedgrupper af betydninger: uden objekt (med sein) – melde sig ud af en organisation eller sive ud; med akkusativ (med haben) – træde ud eller slide ved at træde på.",
+        "Former: tritt aus, trat aus. Udmeldelse: Er ist aus dem Verein ausgetreten (aus + dativ). Udslip: Gas ist ausgetreten. Udtrædning: Er hat die Zigarette ausgetreten (trådte den ud).",
+        "Førnutids tillægsform ausgetreten bruges som tillægsord om et slidt, nedtrådt sted: ausgetretene Stufen (udtrådte trappetrin)."
+      ],
+      "examples": [
+        {
+          "de": "Er ist aus dem Verein ausgetreten.",
+          "lv": "Han har meldt sig ud af foreningen."
+        },
+        {
+          "de": "Aus dem Tank ist Öl ausgetreten.",
+          "lv": "Der er sivet olie ud af tanken."
+        },
+        {
+          "de": "Er hat die Zigarette auf dem Boden ausgetreten.",
+          "lv": "Han har trådt cigaretten ud på gulvet."
+        },
+        {
+          "de": "Die alten Stufen sind schon ausgetreten.",
+          "lv": "De gamle trappetrin er allerede nedslidte."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "eintreten",
+          "meaning": "gå ind, melde sig ind",
+          "example": "Er tritt in den Verein ein. – Han melder sig ind i foreningen."
+        },
+        {
+          "word": "kündigen",
+          "meaning": "opsige",
+          "example": "Sie hat den Vertrag gekündigt. – Hun har opsagt kontrakten."
+        },
+        {
+          "word": "ausscheiden",
+          "meaning": "udtræde (af en stilling)",
+          "example": "Er scheidet aus dem Vorstand aus. – Han udtræder af bestyrelsen."
+        }
+      ],
+      "tip": [
+        "Hjælpeudsagnsordet afgør betydningen: ist ausgetreten (melde sig ud, sive ud), hat ausgetreten (træde ud med foden).",
+        "Udmeldelse af en organisation udtrykkes med aus + dativ: aus der Kirche austreten."
+      ],
+      "important": [
+        "Austreten er ikke det samme som eintreten (gå ind eller melde sig ind) – det er snarere det modsatte.",
+        "I hverdagssprog er ich muss mal austreten en høflig måde at sige, at man skal på toilettet."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "austreten",
+            "ausgetreten",
+            "ausgetretene",
+            "tritt",
+            "trat"
+          ],
+          "purple": [
+            "melde sig ud",
+            "Udmeldelse",
+            "sive ud",
+            "træde ud",
+            "udtrådte"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "ausgetreten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "meldt sig ud"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ausgetreten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "sivet"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ausgetreten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "trådt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ausgetreten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nedslidte"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "eintreten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "gå ind"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "kündigen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "opsige"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "ausscheiden"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "udtræde"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "auswärtig",
-    "lv": "Udenrigs • Udenrigsanliggender",
+    "lv": "Udenlandsk • Udenbys",
     "level": "B2"
   },
   {
     "de": "ausweichend",
-    "lv": "Undvigende • Usikker",
+    "lv": "Undvigende • Vag",
     "level": "B2"
   },
   {
     "de": "ausweisen",
-    "lv": "Udvise • Dokumentere",
+    "lv": "At udvise • At dokumentere",
     "level": "B2"
   },
   {
     "de": "auswerfen",
-    "lv": "At smide ud • At smide ud",
+    "lv": "At kaste ud • At udstøde",
     "level": "B2"
   },
   {
     "de": "auswerten",
-    "lv": "Evaluere • Evaluere",
+    "lv": "At evaluere • At vurdere",
     "level": "B2"
   },
   {
     "de": "auszeichnen",
-    "lv": "Udmærke • Hædre",
+    "lv": "At udmærke • At hædre",
     "level": "B2"
   },
   {
@@ -744,26 +2223,26 @@ const B2_WORDS = [
     "de": "Schwebebalken",
     "de_article": "der",
     "de_plural": "die Schwebebalken",
-    "lv": "Balance stråle",
+    "lv": "Balancebom",
     "level": "B2"
   },
   {
     "de": "bändigen",
-    "lv": "Beherske • Undertrykke",
+    "lv": "At tæmme • At beherske",
     "level": "B2"
   },
   {
     "de": "Blutbank",
     "de_article": "die",
     "de_plural": "die Blutbanken",
-    "lv": "Blodreserver",
+    "lv": "Blodbank",
     "level": "B2"
   },
   {
     "de": "Organbank",
     "de_article": "die",
     "de_plural": "die Organbanken",
-    "lv": "Orgelbank",
+    "lv": "Organbank",
     "level": "B2"
   },
   {
@@ -777,7 +2256,7 @@ const B2_WORDS = [
     "de": "Bankleitzahl",
     "de_article": "die",
     "de_plural": "die Bankleitzahlen",
-    "lv": "Bankindeks",
+    "lv": "Registreringsnummer",
     "level": "B2"
   },
   {
@@ -812,12 +2291,12 @@ const B2_WORDS = [
     "de": "Barbarei",
     "de_article": "die",
     "de_plural": "die Barbareien",
-    "lv": "Barbarisme",
+    "lv": "Barbari",
     "level": "B2"
   },
   {
     "de": "barhäuptig",
-    "lv": "Med blottet hoved",
+    "lv": "Barhovedet",
     "level": "B2"
   },
   {
@@ -829,27 +2308,27 @@ const B2_WORDS = [
     "de": "Barren",
     "de_article": "der",
     "de_plural": "die Barren",
-    "lv": "Bifloder",
+    "lv": "Barre",
     "level": "B2"
   },
   {
     "de": "Barrenturnen",
     "de_article": "das",
-    "lv": "Øvelse på bifloder",
+    "lv": "Barreøvelse",
     "level": "B2"
   },
   {
     "de": "Militärbasis",
     "de_article": "die",
     "de_plural": "die Militärbasen",
-    "lv": "Militær base",
+    "lv": "Militærbase",
     "level": "B2"
   },
   {
     "de": "Baukredit",
     "de_article": "der",
     "de_plural": "die Baukredite",
-    "lv": "Lån til byggestart",
+    "lv": "Byggelån",
     "level": "B2"
   },
   {
@@ -884,51 +2363,358 @@ const B2_WORDS = [
     "de": "Baumschule",
     "de_article": "die",
     "de_plural": "die Baumschulen",
-    "lv": "Træplanteskole",
+    "lv": "Planteskole",
     "level": "B2"
   },
   {
     "de": "Bauwesen",
     "de_article": "das",
-    "lv": "Byggeri • Byggeri",
+    "lv": "Byggeri • Bygningsvæsen",
     "level": "B2"
   },
   {
     "de": "bebauen",
-    "lv": "Proces • Byg",
-    "level": "B2"
+    "lv": "At bebygge • At dyrke",
+    "level": "B2",
+    "study": {
+      "id": "b2-bebauen",
+      "layout": "standardStudy",
+      "translation": "At bebygge • At dyrke",
+      "explanation": [
+        "Hovedidé: bebauen er et udsagnsord med to betydninger: bebygge en grund med bygninger og dyrke jorden, en mark, i landbruget. Det er uadskilleligt og tager akkusativ.",
+        "Former: bebaut, bebaute, hat bebaut. Førnutids tillægsform bebaut bruges ofte som tillægsord: dicht bebaut (tæt bebygget), unbebaut (ubebygget). Om bygninger siger man mit Häusern bebauen.",
+        "Om marker bruges også anbauen (dyrke en afgrøde): Weizen anbauen; bebauen er bredere og handler om at dyrke jorden generelt."
+      ],
+      "examples": [
+        {
+          "de": "Das Grundstück wird mit Wohnhäusern bebaut.",
+          "lv": "Grunden bliver bebygget med beboelseshuse."
+        },
+        {
+          "de": "Die Bauern bebauen das Feld mit Weizen.",
+          "lv": "Bønderne dyrker hvede på marken."
+        },
+        {
+          "de": "Das Gelände darf nicht bebaut werden.",
+          "lv": "Området må ikke bebygges."
+        },
+        {
+          "de": "Der Hang ist dicht bebaut.",
+          "lv": "Skråningen er tæt bebygget."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "bauen",
+          "meaning": "bygge",
+          "example": "Sie bauen ein Haus. – De bygger et hus."
+        },
+        {
+          "word": "anbauen",
+          "meaning": "dyrke, bygge til",
+          "example": "Hier baut man Wein an. – Her dyrker man vin."
+        },
+        {
+          "word": "bearbeiten",
+          "meaning": "bearbejde",
+          "example": "Er bearbeitet den Boden. – Han bearbejder jorden."
+        }
+      ],
+      "tip": [
+        "I betydningen bebygge bruges mit: mit Häusern bebauen; ordet ses også ofte i passiv: bebaut werden.",
+        "Modsætningen er unbebaut – ubebygget."
+      ],
+      "important": [
+        "Bebauen er ikke det samme som bauen: bauen er at bygge noget, bebauen at dække et areal med bygninger.",
+        "I landbruget bruges anbauen oftere om at dyrke planter."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "bebauen",
+            "bebaut",
+            "bebaute",
+            "unbebaut",
+            "anbauen"
+          ],
+          "purple": [
+            "bebygge",
+            "dyrke",
+            "bebygget"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "bebaut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "bebygget"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bebauen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "dyrker"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bebaut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "bebygges"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bebaut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "bebygget"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "bauen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "bygge"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "anbauen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "dyrke"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "bearbeiten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "bearbejde"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "bedürfen",
-    "lv": "Behov • Være nødvendigt",
+    "lv": "At behøve • At kræve",
     "level": "B2"
   },
   {
     "de": "befallen",
-    "lv": "Kom op • Angreb",
+    "lv": "At ramme • At angribe",
     "level": "B2"
   },
   {
     "de": "sich befassen",
-    "lv": "Beskæftige sig med",
+    "lv": "At beskæftige sig med",
     "level": "B2",
     "study": {
       "id": "b2-sich-befassen",
-      "layout": "minimalStudy",
-      "translation": "Beskæftige sig med",
-      "rektion": "mit + kam?",
-      "explanation": "Sich befassen kræver den bestemte præposition mit + kam?.",
-      "forms": "mit + kam?",
-      "formsLabel": "Management:",
+      "layout": "standardStudy",
+      "translation": "At beskæftige sig med",
+      "explanation": [
+        "Hovedidé: sich befassen er et tilbagevisende udsagnsord, der betyder at beskæftige sig med eller behandle et spørgsmål eller et emne, ofte skriftligt eller fagligt. Efter mit følger dativ: sich mit etwas befassen.",
+        "Former: befasst sich, befasste sich, hat sich befasst. Forstavelsen be- er uadskillelig, derfor intet ge-.",
+        "Ordet lyder mere formelt end sich beschäftigen; det bruges om udvalg, undersøgelser, domstole og folk, der undersøger et spørgsmål. Dansk befatte sig med er en nær slægtning."
+      ],
+      "examples": [
+        {
+          "de": "Ich befasse mich mit der Geschichte der Stadt.",
+          "lv": "Jeg beskæftiger mig med byens historie."
+        },
+        {
+          "de": "Der Ausschuss befasst sich mit dem Problem.",
+          "lv": "Udvalget beskæftiger sig med problemet."
+        },
+        {
+          "de": "Damit habe ich mich noch nie befasst.",
+          "lv": "Det har jeg aldrig beskæftiget mig med."
+        },
+        {
+          "de": "Die Studie befasst sich mit den Folgen des Klimawandels.",
+          "lv": "Undersøgelsen behandler følgerne af klimaforandringerne."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich beschäftigen mit",
+          "meaning": "beskæftige sig med",
+          "example": "Er beschäftigt sich mit Musik. – Han beskæftiger sig med musik."
+        },
+        {
+          "word": "sich auseinandersetzen mit",
+          "meaning": "sætte sig ind i, tage stilling til",
+          "example": "Wir setzen uns mit dem Thema auseinander. – Vi sætter os grundigt ind i emnet."
+        },
+        {
+          "word": "behandeln",
+          "meaning": "behandle",
+          "example": "Das Buch behandelt dieses Thema. – Bogen behandler dette emne."
+        }
+      ],
+      "tip": [
+        "Efter mit bruges dativ: mit dem Thema, mit der Frage.",
+        "Hvis du vil udtrykke dig enklere, kan du sige sich beschäftigen mit, som betyder det samme."
+      ],
+      "important": [
+        "Førnutid er hat sich befasst, ikke hat sich gebefasst: be- er en uadskillelig forstavelse.",
+        "Sich befassen handler mere om at tænke over og behandle noget end om fysisk aktivitet."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich befassen"
+            "sich befassen",
+            "befasst sich"
           ],
-          "red": [
-            "mit + kam?"
+          "purple": [
+            "beskæftige sig med",
+            "behandle"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "befasse"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "beskæftiger mig"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "befasst"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "beskæftiger sig"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "befasst"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "beskæftiget mig"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "befasst"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "behandler"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich beschäftigen mit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "beskæftige sig med"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich auseinandersetzen mit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "sætte sig ind i"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "behandeln"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "behandle"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -943,78 +2729,219 @@ const B2_WORDS = [
     "de": "Befugnis",
     "de_article": "die",
     "de_plural": "die Befugnisse",
-    "lv": "Rettigheder • Myndighed",
+    "lv": "Beføjelse • Myndighed",
     "level": "B2"
   },
   {
     "de": "begehren",
-    "lv": "Begære • Ønske",
+    "lv": "At begære • At ønske",
     "level": "B2"
   },
   {
     "de": "begierig",
-    "lv": "Trang",
+    "lv": "Begærlig • Ivrig",
     "level": "B2"
   },
   {
     "de": "begnadigen",
-    "lv": "At have barmhjertighed",
+    "lv": "At benåde",
     "level": "B2"
   },
   {
     "de": "sich begnügen",
-    "lv": "Være tilfreds med",
+    "lv": "At nøjes med",
     "level": "B2",
     "study": {
       "id": "b2-sich-begnuegen",
-      "layout": "minimalStudy",
-      "translation": "Være tilfreds med",
-      "rektion": "mit + kam?",
-      "explanation": "Sich begnügen kræver den bestemte præposition mit + kam?.",
-      "forms": "mit + kam?",
-      "formsLabel": "Management:",
+      "layout": "standardStudy",
+      "translation": "At nøjes med",
+      "explanation": [
+        "Hovedidé: sich begnügen er et tilbagevisende udsagnsord, der betyder at nøjes med mindre, end man kunne ønske sig. Efter mit følger dativ: sich mit etwas begnügen.",
+        "Former: begnügt sich, begnügte sich, hat sich begnügt. Forstavelsen be- er uadskillelig, derfor intet ge-.",
+        "Efter mit følger et navneord, et stedordsbiord (damit) eller en navnemådsgruppe: sich damit begnügen, etwas zu tun (nøjes med at gøre noget)."
+      ],
+      "examples": [
+        {
+          "de": "Er begnügt sich mit einem kleinen Gehalt.",
+          "lv": "Han nøjes med en lille løn."
+        },
+        {
+          "de": "Wir mussten uns mit Brot und Wasser begnügen.",
+          "lv": "Vi måtte nøjes med brød og vand."
+        },
+        {
+          "de": "Sie begnügt sich nicht mit dem zweiten Platz.",
+          "lv": "Hun nøjes ikke med andenpladsen."
+        },
+        {
+          "de": "Ich begnüge mich damit, zuzuschauen.",
+          "lv": "Jeg nøjes med at kigge på."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "zufrieden sein mit",
+          "meaning": "være tilfreds med",
+          "example": "Ich bin mit dem Ergebnis zufrieden. – Jeg er tilfreds med resultatet."
+        },
+        {
+          "word": "sich zufriedengeben",
+          "meaning": "slå sig til tåls",
+          "example": "Er gibt sich nicht zufrieden. – Han slår sig ikke til tåls."
+        },
+        {
+          "word": "sich beschränken auf",
+          "meaning": "begrænse sig til",
+          "example": "Ich beschränke mich auf das Wichtigste. – Jeg begrænser mig til det vigtigste."
+        }
+      ],
+      "tip": [
+        "Efter mit bruges dativ: mit wenig, mit dem Ergebnis.",
+        "Hyppig modsætning: sich nicht begnügen, når nogen vil have mere."
+      ],
+      "important": [
+        "Sich begnügen er ikke det samme som zufrieden sein: det udtrykker, at man skruer ned for sine krav.",
+        "Førnutid er hat sich begnügt (uden ge-)."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich begnügen"
+            "begnügen",
+            "begnügt"
           ],
-          "red": [
-            "mit + kam?"
+          "purple": [
+            "nøjes med"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "begnügt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nøjes"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "begnügen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nøjes"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "begnügt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nøjes"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "begnüge"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nøjes"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "zufrieden sein mit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "være tilfreds"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich zufriedengeben"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "slå sig til tåls"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich beschränken auf"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "begrænse sig"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
   {
     "de": "begünstigen",
-    "lv": "Begunstige • Fremme",
+    "lv": "At begunstige • At fremme",
     "level": "B2"
   },
   {
     "de": "begutachten",
-    "lv": "Giv feedback • Evaluer",
+    "lv": "At bedømme • At vurdere",
     "level": "B2"
   },
   {
     "de": "beharren",
-    "lv": "At eksistere • At forblive",
+    "lv": "At insistere • At fastholde",
     "level": "B2"
   },
   {
     "de": "beharrlich",
-    "lv": "Vedvarende • Vedvarende",
+    "lv": "Vedholdende • Udholdende",
     "level": "B2"
   },
   {
     "de": "behüten",
-    "lv": "At beskytte • At beskytte",
+    "lv": "At beskytte • At vogte",
     "level": "B2"
   },
   {
     "de": "Beihilfe",
     "de_article": "die",
     "de_plural": "die Beihilfen",
-    "lv": "Statsydelse • Bonus",
+    "lv": "Tilskud • Medvirken",
     "level": "B2"
   },
   {
@@ -1041,7 +2968,7 @@ const B2_WORDS = [
   },
   {
     "de": "beistimmen",
-    "lv": "At godkende • At støtte",
+    "lv": "At give medhold • At tilslutte sig",
     "level": "B2"
   },
   {
@@ -1051,17 +2978,17 @@ const B2_WORDS = [
   },
   {
     "de": "beizen",
-    "lv": "At ætse • At plette",
+    "lv": "At ætse • At bejdse",
     "level": "B2"
   },
   {
     "de": "bejahen",
-    "lv": "Bekræft • Bekræft",
+    "lv": "At bekræfte • At sige ja til",
     "level": "B2"
   },
   {
     "de": "bejahrt",
-    "lv": "Om mange år",
+    "lv": "Bedaget • Gammel",
     "level": "B2"
   },
   {
@@ -1071,7 +2998,7 @@ const B2_WORDS = [
   },
   {
     "de": "bekräftigen",
-    "lv": "Bekræft • Certificer",
+    "lv": "At bekræfte • At stadfæste",
     "level": "B2"
   },
   {
@@ -1085,12 +3012,12 @@ const B2_WORDS = [
     "de": "Straßenbelag",
     "de_article": "der",
     "de_plural": "die Straßenbeläge",
-    "lv": "Tilstedeværelse på gaden",
+    "lv": "Vejbelægning",
     "level": "B2"
   },
   {
     "de": "belagern",
-    "lv": "Belejring • Surround",
+    "lv": "At belejre • At omringe",
     "level": "B2"
   },
   {
@@ -1100,7 +3027,7 @@ const B2_WORDS = [
   },
   {
     "de": "belästigen",
-    "lv": "Chikanere • Gene",
+    "lv": "At chikanere • At genere",
     "level": "B2"
   },
   {
@@ -1110,12 +3037,12 @@ const B2_WORDS = [
   },
   {
     "de": "beleben",
-    "lv": "Genoplive",
+    "lv": "At genoplive • At oplive",
     "level": "B2"
   },
   {
     "de": "sich beleben",
-    "lv": "Kom i live",
+    "lv": "At livne op",
     "level": "B2"
   },
   {
@@ -1125,7 +3052,7 @@ const B2_WORDS = [
   },
   {
     "de": "belichten",
-    "lv": "Oplys • Udsæt",
+    "lv": "At belyse • At eksponere",
     "level": "B2"
   },
   {
@@ -1136,27 +3063,177 @@ const B2_WORDS = [
   },
   {
     "de": "belustigen",
-    "lv": "Underholde",
+    "lv": "At more • At underholde",
     "level": "B2"
   },
   {
     "de": "sich bemächtigen",
-    "lv": "Seise • Tage i besiddelse af",
+    "lv": "At bemægtige sig • At tage i besiddelse",
     "level": "B2",
     "study": {
       "id": "b2-sich-bemaechtigen",
-      "layout": "minimalStudy",
-      "translation": "Seise • Tage i besiddelse af",
-      "rektion": "+ possessive form",
-      "explanation": "Sich bemechtigen bruges i moderne tysk med besiddelsesformen uden præposition.",
-      "forms": "+ possessive form",
-      "formsLabel": "Management:",
+      "layout": "standardStudy",
+      "translation": "At bemægtige sig • At tage i besiddelse",
+      "explanation": [
+        "Hovedidé: sich bemächtigen er et formelt tilbagevisende udsagnsord, der betyder at bemægtige sig eller tage i besiddelse – en ting, et sted eller magten, ofte med magt – og i overført betydning bruges det om følelser, der griber et menneske.",
+        "Efter sich bemächtigen følger genitiv: sich einer Sache bemächtigen. Former: bemächtigt sich, bemächtigte sich, hat sich bemächtigt. Forstavelsen be- er uadskillelig.",
+        "Ordet hører til skrift- og litteratursproget; i hverdagen siger man i stedet etwas nehmen eller ergreifen."
+      ],
+      "examples": [
+        {
+          "de": "Die Rebellen bemächtigten sich der Stadt.",
+          "lv": "Oprørerne bemægtigede sig byen."
+        },
+        {
+          "de": "Er bemächtigte sich des Autoschlüssels.",
+          "lv": "Han bemægtigede sig bilnøglen."
+        },
+        {
+          "de": "Große Angst bemächtigte sich seiner.",
+          "lv": "En stor angst greb ham."
+        },
+        {
+          "de": "Die Armee hat sich der Macht bemächtigt.",
+          "lv": "Hæren har bemægtiget sig magten."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "ergreifen",
+          "meaning": "gribe, tage",
+          "example": "Er ergreift die Macht. – Han griber magten."
+        },
+        {
+          "word": "sich aneignen",
+          "meaning": "tilegne sig",
+          "example": "Er hat sich das Geld angeeignet. – Han har tilegnet sig pengene."
+        },
+        {
+          "word": "besetzen",
+          "meaning": "besætte",
+          "example": "Die Soldaten besetzen die Stadt. – Soldaterne besætter byen."
+        }
+      ],
+      "tip": [
+        "Husk genitiv: sich des Hauses bemächtigen, sich der Macht bemächtigen.",
+        "Ordet kan du møde i historiske tekster, i nyheder og i litteraturen."
+      ],
+      "important": [
+        "Sich bemächtigen kræver genitiv, ikke akkusativ.",
+        "Forveksl det ikke med ermächtigen (bemyndige): det er et andet ord."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "Sich bemechtigen"
+            "sich bemächtigen",
+            "bemächtigt sich",
+            "bemächtigte sich",
+            "bemächtigt"
+          ],
+          "purple": [
+            "bemægtige sig",
+            "tage i besiddelse"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "bemächtigten",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "bemægtigede sig"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bemächtigte",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "bemægtigede sig"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bemächtigte",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "greb"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bemächtigt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "bemægtiget sig"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "ergreifen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "gribe"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich aneignen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "tilegne sig"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "besetzen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "besætte"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -1176,28 +3253,28 @@ const B2_WORDS = [
   },
   {
     "de": "berechtigen",
-    "lv": "At give rettigheder",
+    "lv": "At berettige",
     "level": "B2"
   },
   {
     "de": "beredt",
-    "lv": "Snakkerig",
+    "lv": "Veltalende",
     "level": "B2"
   },
   {
     "de": "bereichern",
-    "lv": "Berige",
+    "lv": "At berige",
     "level": "B2"
   },
   {
     "de": "Bergbau",
     "de_article": "der",
-    "lv": "Mineindustrien",
+    "lv": "Minedrift • Bjergværksdrift",
     "level": "B2"
   },
   {
     "de": "bergen",
-    "lv": "Bjerge • Redde",
+    "lv": "At bjærge • At redde",
     "level": "B2"
   },
   {
@@ -1211,51 +3288,200 @@ const B2_WORDS = [
     "de": "Bergwerk",
     "de_article": "das",
     "de_plural": "die Bergwerke",
-    "lv": "Mine • Skaft",
+    "lv": "Mine • Skakt",
     "level": "B2"
   },
   {
     "de": "bersten",
-    "lv": "Briste • Sprænges",
+    "lv": "At briste • At sprænges",
     "level": "B2"
   },
   {
     "de": "berufen",
-    "lv": "Udnævn • Inviter",
+    "lv": "At udnævne • At kalde",
     "level": "B2"
   },
   {
     "de": "sich berufen",
-    "lv": "Der henvises til",
+    "lv": "At påberåbe sig • At henvise til",
     "level": "B2",
     "study": {
       "id": "b2-sich-berufen",
-      "layout": "minimalStudy",
-      "translation": "Der henvises til",
-      "rektion": "auf + ko?",
-      "explanation": "Sich berufen kræver den bestemte præposition auf + ko?.",
-      "forms": "auf + ko?",
-      "formsLabel": "Management:",
+      "layout": "standardStudy",
+      "translation": "At påberåbe sig • At henvise til",
+      "explanation": [
+        "Hovedidé: sich berufen auf er et tilbagevisende udsagnsord, der betyder at påberåbe sig eller henvise til noget som grundlag for et argument: en lov, en kontrakt, en kilde eller en person. Efter auf følger akkusativ: sich auf etwas berufen.",
+        "Former: beruft sich, berief sich, hat sich berufen. Forstavelsen be- er uadskillelig.",
+        "Alene (uden sich) betyder berufen at udnævne til en stilling: Er wurde zum Professor berufen. Det er en anden betydning end at påberåbe sig noget."
+      ],
+      "examples": [
+        {
+          "de": "Er beruft sich auf sein Recht.",
+          "lv": "Han påberåber sig sin ret."
+        },
+        {
+          "de": "Der Politiker beruft sich auf eine Studie.",
+          "lv": "Politikeren henviser til en undersøgelse."
+        },
+        {
+          "de": "Sie berief sich auf den Vertrag.",
+          "lv": "Hun påberåbte sig kontrakten."
+        },
+        {
+          "de": "Dabei kann ich mich auf niemanden berufen.",
+          "lv": "I den sag kan jeg ikke henvise til nogen."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "verweisen auf",
+          "meaning": "henvise til, pege på",
+          "example": "Er verweist auf den Artikel. – Han henviser til artiklen."
+        },
+        {
+          "word": "sich stützen auf",
+          "meaning": "støtte sig til, bygge på",
+          "example": "Das Urteil stützt sich auf Beweise. – Dommen bygger på beviser."
+        },
+        {
+          "word": "zitieren",
+          "meaning": "citere",
+          "example": "Sie zitiert den Autor. – Hun citerer forfatteren."
+        }
+      ],
+      "tip": [
+        "Brug auf + akkusativ: auf das Gesetz, auf einen Zeugen.",
+        "I retssprog og juridisk sprog er sich berufen auf en fast formel."
+      ],
+      "important": [
+        "Sich berufen auf er ikke det samme som berufen: uden sich betyder det at udnævne (til en stilling).",
+        "Førnutid er hat sich berufen (uden ge-)."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich berufen"
+            "sich berufen",
+            "beruft sich",
+            "berief sich",
+            "berufen",
+            "berufen auf"
           ],
-          "red": [
-            "auf + ko?"
+          "purple": [
+            "påberåbe sig",
+            "henvise til",
+            "udnævne"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "beruft",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "påberåber sig"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "beruft",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "henviser til"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "berief",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "påberåbte sig"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "berufen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "henvise til"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "verweisen auf"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "henvise til"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich stützen auf"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "støtte sig til"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "zitieren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "citere"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
   {
     "de": "beruhen",
-    "lv": "At blive grundlagt • At være baseret",
+    "lv": "At bero på • At være baseret på",
     "level": "B2"
   },
   {
     "de": "besänftigen",
-    "lv": "Berolige • Formilde",
+    "lv": "At berolige • At formilde",
     "level": "B2"
   },
   {
@@ -1263,44 +3489,353 @@ const B2_WORDS = [
     "de_article": "die",
     "de_plural": "die Besatzungen",
     "lv": "Besætning • Bemanding",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-besatzung",
+      "layout": "standardStudy",
+      "translation": "Besætning • Bemanding",
+      "explanation": [
+        "Hovedidé: die Besatzung er et hunkønsnavneord med to hovedbetydninger: et skibs eller et flys besætning (de mennesker, der arbejder om bord) og besættelsestropper eller selve besættelsen efter en krig.",
+        "Flertal er die Besatzungen. Forbindelser og sammensætninger: die Besatzung eines Schiffes (et skibs besætning), die Besatzungsmacht (besættelsesmagt), die Besatzungszone (besættelseszone). Et nært ord er die Mannschaft (hold, mandskab).",
+        "Konteksten afgør betydningen: Flugzeug, Schiff – besætning; Krieg, Stadt, Land – besættelse. Bemærk, at dansk besætning kun dækker den første betydning."
+      ],
+      "examples": [
+        {
+          "de": "Die Besatzung des Schiffes besteht aus zwanzig Mann.",
+          "lv": "Skibets besætning består af tyve mand."
+        },
+        {
+          "de": "Die Besatzung des Flugzeugs begrüßt die Passagiere.",
+          "lv": "Flyets besætning byder passagererne velkommen."
+        },
+        {
+          "de": "Nach dem Krieg stand die Stadt unter Besatzung.",
+          "lv": "Efter krigen var byen under besættelse."
+        },
+        {
+          "de": "Die Besatzung zog nach zwei Jahren ab.",
+          "lv": "Besættelsestropperne trak sig tilbage efter to år."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "die Mannschaft",
+          "meaning": "hold, mandskab",
+          "example": "Die Mannschaft gewinnt das Spiel. – Holdet vinder kampen."
+        },
+        {
+          "word": "die Crew",
+          "meaning": "besætning, crew",
+          "example": "Die Crew bereitet den Start vor. – Besætningen forbereder starten."
+        },
+        {
+          "word": "die Besetzung",
+          "meaning": "rollebesætning, besættelse",
+          "example": "Die Besetzung des Films ist hervorragend. – Filmens rollebesætning er fremragende."
+        }
+      ],
+      "tip": [
+        "Når det handler om en flyvning, omfatter Besatzung både piloter og kabinepersonale; passagererne hedder Fluggäste.",
+        "I historisk betydning bruges ofte sammensætninger med Besatzungs-."
+      ],
+      "important": [
+        "Forveksl ikke die Besatzung med die Besetzung: Besetzung er rollebesætningen eller selve besættelsen som handling.",
+        "Flertal die Besatzungen betyder flere besætninger eller flere besættelsesstyrker."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Besatzung",
+            "Besatzungen"
+          ],
+          "purple": [
+            "besætning",
+            "besættelsestropper"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Besatzung"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "besætning"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Besatzung"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "besætning"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Besatzung"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "besættelse"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Besatzung"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Besættelsestropperne"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "die Mannschaft"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "hold"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Crew"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "besætning"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Besetzung"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "rollebesætning"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "beschämen",
-    "lv": "Til skam",
+    "lv": "At beskæmme • At gøre til skamme",
     "level": "B2"
   },
   {
     "de": "beschatten",
-    "lv": "Overskygge • Spor",
+    "lv": "At overskygge • At skygge",
     "level": "B2"
   },
   {
     "de": "beschimpfen",
-    "lv": "Skælde ud • Fornærme",
+    "lv": "At skælde ud • At fornærme",
     "level": "B2"
   },
   {
     "de": "sich beschränken",
-    "lv": "Begræns dig selv til",
+    "lv": "At begrænse sig til",
     "level": "B2",
     "study": {
       "id": "b2-sich-beschraenken",
-      "layout": "minimalStudy",
-      "translation": "Begræns dig selv til",
-      "rektion": "auf + ko?",
-      "explanation": "Sich beschränken kræver den bestemte præposition auf + ko?.",
-      "forms": "auf + ko?",
-      "formsLabel": "Management:",
+      "layout": "standardStudy",
+      "translation": "At begrænse sig til",
+      "explanation": [
+        "Hovedidé: sich beschränken auf er et tilbagevisende udsagnsord, der betyder at begrænse sig til noget – kun gøre en bestemt del uden at gå ud over den. Efter auf følger akkusativ: sich auf etwas beschränken.",
+        "Former: beschränkt sich, beschränkte sich, hat sich beschränkt. Forstavelsen be- er uadskillelig, derfor intet ge-.",
+        "Uden sich betyder beschränken at begrænse noget andet: die Zahl beschränken. Om ting, der indskrænker sig til noget, bruges sich beschränken auf: Das Problem beschränkt sich auf …"
+      ],
+      "examples": [
+        {
+          "de": "Ich beschränke mich auf das Wichtigste.",
+          "lv": "Jeg begrænser mig til det vigtigste."
+        },
+        {
+          "de": "Der Redner beschränkte sich auf drei Punkte.",
+          "lv": "Taleren begrænsede sig til tre punkter."
+        },
+        {
+          "de": "Wir müssen uns auf das Nötigste beschränken.",
+          "lv": "Vi må begrænse os til det mest nødvendige."
+        },
+        {
+          "de": "Das Problem beschränkt sich nicht auf Deutschland.",
+          "lv": "Problemet er ikke begrænset til Tyskland."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "begrenzen",
+          "meaning": "begrænse",
+          "example": "Wir begrenzen die Zahl der Gäste. – Vi begrænser antallet af gæster."
+        },
+        {
+          "word": "sich begnügen mit",
+          "meaning": "nøjes med",
+          "example": "Er begnügt sich mit wenig. – Han nøjes med lidt."
+        },
+        {
+          "word": "einschränken",
+          "meaning": "indskrænke, begrænse",
+          "example": "Ich muss meinen Verbrauch einschränken. – Jeg må indskrænke mit forbrug."
+        }
+      ],
+      "tip": [
+        "Efter auf bruges akkusativ: auf das Wesentliche, auf drei Punkte.",
+        "Ofte følger nur i sætningen: Ich beschränke mich nur auf …"
+      ],
+      "important": [
+        "På dansk siger man begrænse sig til, men på tysk bruges auf – ikke zu eller mit.",
+        "Sich beschränken er ikke det samme som sich begnügen: det første udtrykker, at man begrænser sig selv, det andet, at man nøjes."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich beschränken"
+            "sich beschränken",
+            "beschränkt sich",
+            "beschränkte sich",
+            "beschränkt"
           ],
-          "red": [
-            "auf + ko?"
+          "purple": [
+            "begrænse sig til",
+            "begrænse",
+            "indskrænker sig"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "beschränke",
+                "mich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "begrænser mig"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "beschränkte",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "begrænsede sig"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "beschränken"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "begrænse os"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "beschränkt",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "begrænset"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "begrenzen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "begrænse"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich begnügen mit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "nøjes"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "einschränken"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "indskrænke"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -1313,29 +3848,189 @@ const B2_WORDS = [
   },
   {
     "de": "beschwören",
-    "lv": "Besværge • Påkalde",
+    "lv": "At sværge på • At bønfalde • At besværge",
     "level": "B2"
   },
   {
     "de": "besessen",
-    "lv": "Besat • Besættelsespræget",
-    "level": "B2"
+    "lv": "Besat • Optaget",
+    "level": "B2",
+    "study": {
+      "id": "b2-besessen",
+      "layout": "standardStudy",
+      "translation": "Besat • Optaget",
+      "explanation": [
+        "Hovedidé: besessen er et tillægsord (fra besitzen), der betyder besat eller optaget: så grebet af en idé eller en følelse, at den dominerer tankerne. Efter von følger dativ: besessen von etwas.",
+        "Det bruges også om fanatisk begejstring: von der Arbeit besessen sein, wie besessen arbeiten (arbejde som en besat).",
+        "Pas på: besessen er også førnutids tillægsform af besitzen (eje): Er hat ein Haus besessen. Det er en anden anvendelse; dette kort handler om tillægsordet besat."
+      ],
+      "examples": [
+        {
+          "de": "Er ist besessen von seiner Arbeit.",
+          "lv": "Han er besat af sit arbejde."
+        },
+        {
+          "de": "Sie ist von der Idee besessen, berühmt zu werden.",
+          "lv": "Hun er besat af tanken om at blive berømt."
+        },
+        {
+          "de": "Der Mann wirkte wie vom Teufel besessen.",
+          "lv": "Manden virkede, som om han var besat af djævelen."
+        },
+        {
+          "de": "Er arbeitet wie besessen.",
+          "lv": "Han arbejder som en besat."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "besitzen",
+          "meaning": "eje",
+          "example": "Er besitzt ein Haus. – Han ejer et hus."
+        },
+        {
+          "word": "fanatisch",
+          "meaning": "fanatisk",
+          "example": "Er ist ein fanatischer Fan. – Han er en fanatisk fan."
+        },
+        {
+          "word": "besetzt",
+          "meaning": "optaget (om en plads)",
+          "example": "Der Platz ist besetzt. – Pladsen er optaget."
+        }
+      ],
+      "tip": [
+        "Typiske forbindelser: besessen von einer Idee, besessen von Macht, wie besessen.",
+        "I positiv betydning kan det også dreje sig om lidenskab: ein besessener Sammler (en passioneret samler)."
+      ],
+      "important": [
+        "Efter besessen følger von + dativ: besessen von der Arbeit – på dansk besat af.",
+        "Forveksl ikke besessen med besetzt: besetzt betyder optaget (Der Platz ist besetzt). Pas på, for dansk besat kan også bruges om en optaget plads."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "besessen"
+          ],
+          "purple": [
+            "besat",
+            "optaget"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "besessen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "besat"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "besessen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "besat"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "besessen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "besat"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "besessen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "besat"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "besitzen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "eje"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "fanatisch"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "fanatisk"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "besetzt"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "optaget"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "besiedeln",
-    "lv": "Lejr indbyggerne",
+    "lv": "At befolke • At kolonisere",
     "level": "B2"
   },
   {
     "de": "Besinnung",
     "de_article": "die",
     "de_plural": "die Besinnungen",
-    "lv": "Bevidsthed • Bevidsthed",
+    "lv": "Bevidsthed • Besindelse",
     "level": "B2"
   },
   {
     "de": "bespielen",
-    "lv": "Optag musik på kassette eller diskette",
+    "lv": "At indspille",
     "level": "B2"
   },
   {
@@ -1347,12 +4042,12 @@ const B2_WORDS = [
   },
   {
     "de": "beständig",
-    "lv": "Konstant • Konstant",
+    "lv": "Bestandig • Konstant",
     "level": "B2"
   },
   {
     "de": "bestärken",
-    "lv": "Styrke • Bekræfte",
+    "lv": "At styrke • At bekræfte",
     "level": "B2"
   },
   {
@@ -1367,12 +4062,12 @@ const B2_WORDS = [
   },
   {
     "de": "bestrahlen",
-    "lv": "Bestråle • Skinne",
+    "lv": "At bestråle • At belyse",
     "level": "B2"
   },
   {
     "de": "bestreiten",
-    "lv": "Bestride • Afholde",
+    "lv": "At bestride • At afholde",
     "level": "B2"
   },
   {
@@ -1382,25 +4077,173 @@ const B2_WORDS = [
   },
   {
     "de": "sich betätigen",
-    "lv": "Betjene • Deltage",
+    "lv": "At være aktiv • At deltage",
     "level": "B2",
     "study": {
       "id": "b2-sich-betaetigen",
-      "layout": "minimalStudy",
-      "translation": "Betjene • Deltage",
-      "rektion": "in + kur?",
-      "explanation": "Sich betätigen kræver den bestemte præposition i + hvor?.",
-      "forms": "in + kur?",
-      "formsLabel": "Management:",
+      "layout": "standardStudy",
+      "translation": "At være aktiv • At deltage",
+      "explanation": [
+        "Hovedidé: sich betätigen er et tilbagevisende udsagnsord, der betyder at være aktiv inden for et område eller deltage i en beskæftigelse. Det bruges ofte med als eller med et biord: sich sportlich betätigen, sich politisch betätigen.",
+        "Former: betätigt sich, betätigte sich, hat sich betätigt. Forstavelsen be- er uadskillelig, derfor intet ge-.",
+        "Uden tilbagevisende stedord betyder betätigen at betjene eller aktivere: einen Schalter betätigen (trykke på en kontakt), die Bremse betätigen."
+      ],
+      "examples": [
+        {
+          "de": "Er betätigt sich als Helfer im Verein.",
+          "lv": "Han er aktiv som hjælper i foreningen."
+        },
+        {
+          "de": "Sie betätigt sich gern sportlich.",
+          "lv": "Hun er gerne sportsligt aktiv."
+        },
+        {
+          "de": "Rentner können sich ehrenamtlich betätigen.",
+          "lv": "Pensionister kan være aktive som frivillige."
+        },
+        {
+          "de": "Wer hat den Notschalter betätigt?",
+          "lv": "Hvem har aktiveret nødkontakten?"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich beschäftigen",
+          "meaning": "beskæftige sig",
+          "example": "Er beschäftigt sich mit Musik. – Han beskæftiger sig med musik."
+        },
+        {
+          "word": "teilnehmen",
+          "meaning": "deltage",
+          "example": "Sie nimmt am Kurs teil. – Hun deltager i kurset."
+        },
+        {
+          "word": "mitmachen",
+          "meaning": "være med (dagligsprog)",
+          "example": "Machst du mit? – Er du med?"
+        }
+      ],
+      "tip": [
+        "Tilføj et biord for at angive området: politisch, kreativ, ehrenamtlich, sportlich.",
+        "I betydningen virke som noget bruges als: sich als Künstler betätigen."
+      ],
+      "important": [
+        "Glem ikke sich: uden det betyder betätigen at betjene, ikke at være aktiv.",
+        "Sich betätigen er ikke det samme som arbeiten: det udtrykker aktivt engagement, ikke kun lønnet arbejde."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich betätigen"
+            "sich betätigen",
+            "betätigt sich",
+            "betätigte sich",
+            "betätigt",
+            "betätigen"
           ],
-          "red": [
-            "Sich"
+          "purple": [
+            "være aktiv",
+            "deltage",
+            "betjene"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "betätigt",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "er aktiv"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "betätigt",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "sportsligt aktiv"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "betätigen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "være aktive"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "betätigt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "aktiveret"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich beschäftigen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "beskæftige sig"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "teilnehmen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "deltage"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "mitmachen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "være med"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -1413,25 +4256,25 @@ const B2_WORDS = [
   },
   {
     "de": "beteuern",
-    "lv": "At certificere",
+    "lv": "At forsikre • At bedyre",
     "level": "B2"
   },
   {
     "de": "Betracht",
     "de_article": "der",
-    "lv": "Hensyn • Hensyn",
+    "lv": "Betragtning • Hensyn",
     "level": "B2"
   },
   {
     "de": "sich betragen",
-    "lv": "At opføre sig • Opføre sig",
+    "lv": "At opføre sig",
     "level": "B2"
   },
   {
     "de": "Betriebsrat",
     "de_article": "der",
     "de_plural": "die Betriebsräte",
-    "lv": "Selskabsråd",
+    "lv": "Samarbejdsudvalg",
     "level": "B2"
   },
   {
@@ -1443,7 +4286,7 @@ const B2_WORDS = [
   },
   {
     "de": "beurlauben",
-    "lv": "Bevilge orlov • Frigivelse fra arbejde",
+    "lv": "At give orlov • At fritage fra arbejde",
     "level": "B2"
   },
   {
@@ -1456,12 +4299,12 @@ const B2_WORDS = [
     "de": "Bewaffnung",
     "de_article": "die",
     "de_plural": "die Bewaffnungen",
-    "lv": "Bevæbning • Bevæbning",
+    "lv": "Bevæbning • Oprustning",
     "level": "B2"
   },
   {
     "de": "bewähren",
-    "lv": "Bevise sit værd • Stå sin prøve",
+    "lv": "At bevise sit værd • At stå sin prøve",
     "level": "B2"
   },
   {
@@ -1471,12 +4314,12 @@ const B2_WORDS = [
   },
   {
     "de": "bewältigen",
-    "lv": "Overvinde • Håndtere",
+    "lv": "At overvinde • At klare",
     "level": "B2"
   },
   {
     "de": "bewandert",
-    "lv": "Dygtig • Kompetent",
+    "lv": "Bevandret • Kyndig",
     "level": "B2"
   },
   {
@@ -1495,24 +4338,24 @@ const B2_WORDS = [
   },
   {
     "de": "bewilligen",
-    "lv": "Bevilge • Godkende",
+    "lv": "At bevilge • At godkende",
     "level": "B2"
   },
   {
     "de": "Bewusstsein",
     "de_article": "das",
     "de_plural": "die Bewusstseine",
-    "lv": "Bevidsthed • Bevidsthed",
+    "lv": "Bevidsthed",
     "level": "B2"
   },
   {
     "de": "bezähmen",
-    "lv": "Fortryll • Fængslende",
+    "lv": "At tæmme • At beherske",
     "level": "B2"
   },
   {
     "de": "bezeugen",
-    "lv": "At certificere",
+    "lv": "At bevidne",
     "level": "B2"
   },
   {
@@ -1529,7 +4372,7 @@ const B2_WORDS = [
   },
   {
     "de": "bezwingen",
-    "lv": "Overvinde • Besejre",
+    "lv": "At overvinde • At besejre",
     "level": "B2"
   },
   {
@@ -1553,7 +4396,7 @@ const B2_WORDS = [
     "de": "Bildhauer",
     "de_article": "der",
     "de_plural": "die Bildhauer",
-    "lv": "Billedhugger • Billedhugger",
+    "lv": "Billedhugger • Skulptør",
     "level": "B2"
   },
   {
@@ -1570,7 +4413,7 @@ const B2_WORDS = [
   },
   {
     "de": "billigen",
-    "lv": "Anerkend som god • Enig",
+    "lv": "At billige • At godkende",
     "level": "B2"
   },
   {
@@ -1582,13 +4425,13 @@ const B2_WORDS = [
   },
   {
     "de": "binnen",
-    "lv": "Under • Indenfor",
+    "lv": "Inden for",
     "level": "B2"
   },
   {
     "de": "Binnenhandel",
     "de_article": "der",
-    "lv": "Intern handel",
+    "lv": "Indenrigshandel",
     "level": "B2"
   },
   {
@@ -1627,53 +4470,53 @@ const B2_WORDS = [
   },
   {
     "de": "bildend",
-    "lv": "Fantasifuld • Pædagogisk",
+    "lv": "Dannende • Billedskabende",
     "level": "B2"
   },
   {
     "de": "blähen",
-    "lv": "Puste op • Udspile",
+    "lv": "At puste op • At udspile",
     "level": "B2"
   },
   {
     "de": "sich blähen",
-    "lv": "Pust op • Pust op",
+    "lv": "At svulme op • At blære sig",
     "level": "B2"
   },
   {
     "de": "Blasorchester",
     "de_article": "das",
     "de_plural": "die Blasorchester",
-    "lv": "Brass band",
+    "lv": "Blæseorkester",
     "level": "B2"
   },
   {
     "de": "Bleigehalt",
     "de_article": "der",
     "de_plural": "die Bleigehalte",
-    "lv": "Lead indhold",
+    "lv": "Blyindhold",
     "level": "B2"
   },
   {
     "de": "bleihaltig",
-    "lv": "Indeholder bly",
+    "lv": "Blyholdig",
     "level": "B2"
   },
   {
     "de": "bleichen",
-    "lv": "Blege • Blegne",
+    "lv": "At blege • At blegne",
     "level": "B2"
   },
   {
     "de": "blenden",
-    "lv": "Blænde • Vildlede",
+    "lv": "At blænde • At vildlede",
     "level": "B2"
   },
   {
     "de": "Blindgänger",
     "de_article": "der",
     "de_plural": "die Blindgänger",
-    "lv": "Ueksploderet bombe • Projektil",
+    "lv": "Blindgænger",
     "level": "B2"
   },
   {
@@ -1687,14 +4530,14 @@ const B2_WORDS = [
     "de": "Blitzlicht",
     "de_article": "das",
     "de_plural": "die Blitzlichter",
-    "lv": "Flash lys",
+    "lv": "Blitz",
     "level": "B2"
   },
   {
     "de": "Militärblock",
     "de_article": "der",
     "de_plural": "die Militärblöcke",
-    "lv": "Militær blok",
+    "lv": "Militærblok",
     "level": "B2"
   },
   {
@@ -1720,7 +4563,7 @@ const B2_WORDS = [
     "de": "Blumenkranz",
     "de_article": "der",
     "de_plural": "die Blumenkränze",
-    "lv": "Krans af blomster",
+    "lv": "Blomsterkrans",
     "level": "B2"
   },
   {
@@ -1733,13 +4576,13 @@ const B2_WORDS = [
     "de": "Blutkonserve",
     "de_article": "die",
     "de_plural": "die Blutkonserven",
-    "lv": "Dåseblod",
+    "lv": "Konserveret blod",
     "level": "B2"
   },
   {
     "de": "Blutalkohol",
     "de_article": "der",
-    "lv": "Mængden af alkohol i blodet",
+    "lv": "Promille",
     "level": "B2"
   },
   {
@@ -1757,14 +4600,14 @@ const B2_WORDS = [
     "de": "Blutspender",
     "de_article": "der",
     "de_plural": "die Blutspender",
-    "lv": "Donor",
+    "lv": "Bloddonor",
     "level": "B2"
   },
   {
     "de": "Blutsturz",
     "de_article": "der",
     "de_plural": "die Blutstürze",
-    "lv": "Pludselig blødning fra mund eller næse",
+    "lv": "Blodstyrtning",
     "level": "B2"
   },
   {
@@ -1777,33 +4620,33 @@ const B2_WORDS = [
   {
     "de": "Bodenschätze",
     "de_article": "die",
-    "lv": "Mineraler",
+    "lv": "Råstoffer • Mineralforekomster",
     "level": "B2"
   },
   {
     "de": "bohnern",
-    "lv": "Voks gulvet",
+    "lv": "At bone",
     "level": "B2"
   },
   {
     "de": "Bootsmann",
     "de_article": "der",
     "de_plural": "die Bootsleute",
-    "lv": "Bådsmanden",
+    "lv": "Bådsmand",
     "level": "B2"
   },
   {
     "de": "Bootssteg",
     "de_article": "der",
     "de_plural": "die Bootsstege",
-    "lv": "Båd dock",
+    "lv": "Bådebro",
     "level": "B2"
   },
   {
     "de": "Bord",
     "de_article": "das",
     "de_plural": "die Borde",
-    "lv": "Bestyrelse",
+    "lv": "Skibsside • Ræling",
     "level": "B2"
   },
   {
@@ -1817,14 +4660,14 @@ const B2_WORDS = [
     "de": "Börse",
     "de_article": "die",
     "de_plural": "die Börsen",
-    "lv": "Børsen",
+    "lv": "Børs",
     "level": "B2"
   },
   {
     "de": "Borte",
     "de_article": "die",
     "de_plural": "die Borten",
-    "lv": "Grænse",
+    "lv": "Bort • Kantebånd",
     "level": "B2"
   },
   {
@@ -1843,21 +4686,21 @@ const B2_WORDS = [
   },
   {
     "de": "brach",
-    "lv": "Rå • Læg til side",
+    "lv": "Brak • Udyrket",
     "level": "B2"
   },
   {
     "de": "Brandschaden",
     "de_article": "der",
     "de_plural": "die Brandschäden",
-    "lv": "Tab forårsaget af brand",
+    "lv": "Brandskade",
     "level": "B2"
   },
   {
     "de": "Brandstätte",
     "de_article": "die",
     "de_plural": "die Brandstätten",
-    "lv": "Bålplads",
+    "lv": "Brandtomt",
     "level": "B2"
   },
   {
@@ -1871,14 +4714,14 @@ const B2_WORDS = [
     "de": "Brandmal",
     "de_article": "das",
     "de_plural": "die Brandmale",
-    "lv": "Brænd • Brænd ar",
+    "lv": "Brændemærke • Brandsår",
     "level": "B2"
   },
   {
     "de": "Brandstifter",
     "de_article": "der",
     "de_plural": "die Brandstifter",
-    "lv": "En brandstifter",
+    "lv": "Brandstifter",
     "level": "B2"
   },
   {
@@ -1890,7 +4733,7 @@ const B2_WORDS = [
   },
   {
     "de": "brauen",
-    "lv": "Lav øl • Bryg",
+    "lv": "At brygge",
     "level": "B2"
   },
   {
@@ -1922,26 +4765,26 @@ const B2_WORDS = [
   },
   {
     "de": "brillant",
-    "lv": "Fremragende • Fremragende",
+    "lv": "Strålende • Fremragende",
     "level": "B2"
   },
   {
     "de": "brüten",
-    "lv": "At gruble • Tænker konstant på noget",
+    "lv": "At ruge • At gruble",
     "level": "B2"
   },
   {
     "de": "Buche",
     "de_article": "die",
     "de_plural": "die Buchen",
-    "lv": "Bøg • Avnbøg",
+    "lv": "Bøg",
     "level": "B2"
   },
   {
     "de": "Buchführer",
     "de_article": "der",
     "de_plural": "die Buchführer",
-    "lv": "Revisor",
+    "lv": "Bogholder",
     "level": "B2"
   },
   {
@@ -1988,14 +4831,14 @@ const B2_WORDS = [
     "de": "Bühnenbildner",
     "de_article": "der",
     "de_plural": "die Bühnenbildner",
-    "lv": "Dekoratør",
+    "lv": "Scenograf",
     "level": "B2"
   },
   {
     "de": "Bundesland",
     "de_article": "das",
     "de_plural": "die Bundesländer",
-    "lv": "Føderalt land",
+    "lv": "Delstat • Forbundsland",
     "level": "B2"
   },
   {
@@ -2015,26 +4858,26 @@ const B2_WORDS = [
     "de": "Bündnis",
     "de_article": "das",
     "de_plural": "die Bündnisse",
-    "lv": "Union",
+    "lv": "Forbund • Alliance",
     "level": "B2"
   },
   {
     "de": "Bürde",
     "de_article": "die",
     "de_plural": "die Bürden",
-    "lv": "Byrde • Byrde",
+    "lv": "Byrde • Last",
     "level": "B2"
   },
   {
     "de": "Bürge",
     "de_article": "der",
     "de_plural": "die Bürgen",
-    "lv": "Garant • Ringleder",
+    "lv": "Kautionist • Garant",
     "level": "B2"
   },
   {
     "de": "bürgen",
-    "lv": "For at garantere",
+    "lv": "At kautionere • At gå i god for",
     "level": "B2"
   },
   {
@@ -2046,12 +4889,12 @@ const B2_WORDS = [
     "de": "Chaot",
     "de_article": "der",
     "de_plural": "die Chaoten",
-    "lv": "Rodet person",
+    "lv": "Rodehoved",
     "level": "B2"
   },
   {
     "de": "chartern",
-    "lv": "Charter et fly eller skib til en bestemt rejse",
+    "lv": "At chartre",
     "level": "B2"
   },
   {
@@ -2072,7 +4915,7 @@ const B2_WORDS = [
     "de": "Chefredakteur",
     "de_article": "der",
     "de_plural": "die Chefredakteure",
-    "lv": "Administrerende redaktør",
+    "lv": "Chefredaktør • Ansvarshavende redaktør",
     "level": "B2"
   },
   {
@@ -2106,7 +4949,7 @@ const B2_WORDS = [
     "de": "Chorleiter",
     "de_article": "der",
     "de_plural": "die Chorleiter",
-    "lv": "Kormester",
+    "lv": "Korleder • Kordirigent",
     "level": "B2"
   },
   {
@@ -2132,7 +4975,7 @@ const B2_WORDS = [
     "de": "Computervirus",
     "de_article": "der",
     "de_plural": "die Computerviren",
-    "lv": "Computer virus",
+    "lv": "Computervirus",
     "level": "B2"
   },
   {
@@ -2146,19 +4989,19 @@ const B2_WORDS = [
     "de": "Dachziegel",
     "de_article": "der",
     "de_plural": "die Dachziegel",
-    "lv": "Flise",
+    "lv": "Tagsten",
     "level": "B2"
   },
   {
     "de": "Dahlie",
     "de_article": "die",
     "de_plural": "die Dahlien",
-    "lv": "Dahlia",
+    "lv": "Georgine • Dahlia",
     "level": "B2"
   },
   {
     "de": "damalig",
-    "lv": "Så • Af den tid",
+    "lv": "Daværende",
     "level": "B2"
   },
   {
@@ -2170,7 +5013,7 @@ const B2_WORDS = [
   },
   {
     "de": "dämmern",
-    "lv": "Skumre • Gry",
+    "lv": "At skumre • At gry",
     "level": "B2"
   },
   {
@@ -2182,12 +5025,12 @@ const B2_WORDS = [
   },
   {
     "de": "dampfen",
-    "lv": "Røg • Fordamp",
+    "lv": "At dampe • At fordampe",
     "level": "B2"
   },
   {
     "de": "dämpfen",
-    "lv": "Dæmpe • Dampe",
+    "lv": "At dæmpe • At dampe",
     "level": "B2"
   },
   {
@@ -2201,24 +5044,24 @@ const B2_WORDS = [
     "de": "Dampfheizung",
     "de_article": "die",
     "de_plural": "die Dampfheizungen",
-    "lv": "Damp opvarmning",
+    "lv": "Dampopvarmning",
     "level": "B2"
   },
   {
     "de": "darbieten",
-    "lv": "Give • Præsenter",
+    "lv": "At fremføre • At tilbyde",
     "level": "B2"
   },
   {
     "de": "Darbietung",
     "de_article": "die",
     "de_plural": "die Darbietungen",
-    "lv": "Ydelse • Ydelse",
+    "lv": "Fremførelse • Optræden",
     "level": "B2"
   },
   {
     "de": "darlegen",
-    "lv": "Disposition • Forklar",
+    "lv": "At fremlægge • At forklare",
     "level": "B2"
   },
   {
@@ -2247,59 +5090,388 @@ const B2_WORDS = [
     "de_article": "die",
     "de_plural": "die Darstellungen",
     "lv": "Fremstilling • Afbildning",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-darstellung",
+      "layout": "standardStudy",
+      "translation": "Fremstilling • Afbildning",
+      "explanation": [
+        "Hovedidé: die Darstellung er et hunkønsnavneord dannet af udsagnsordet darstellen. Det betyder en fremstilling eller afbildning af noget: det, man siger, skriver, tegner eller spiller.",
+        "Flertal er die Darstellungen. Betydninger: fremstilling (en beskrivelse af begivenheder med ord), afbildning (på en tegning, i et diagram: grafische Darstellung) og fortolkning (en skuespillers gengivelse af en rolle).",
+        "Hyppige forbindelser: eine Darstellung geben (give en fremstilling), die Darstellung der Ereignisse, die grafische Darstellung (den grafiske fremstilling)."
+      ],
+      "examples": [
+        {
+          "de": "Die Darstellung des Unfalls war sehr genau.",
+          "lv": "Fremstillingen af ulykken var meget præcis."
+        },
+        {
+          "de": "Die Zeitung gibt eine einseitige Darstellung der Ereignisse.",
+          "lv": "Avisen giver en ensidig fremstilling af begivenhederne."
+        },
+        {
+          "de": "Die Darstellung des Hamlet durch den jungen Schauspieler war beeindruckend.",
+          "lv": "Den unge skuespillers fortolkning af Hamlet var imponerende."
+        },
+        {
+          "de": "Die grafische Darstellung zeigt die Entwicklung der Preise.",
+          "lv": "Den grafiske fremstilling viser prisudviklingen."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "die Beschreibung",
+          "meaning": "beskrivelse",
+          "example": "Die Beschreibung ist genau. – Beskrivelsen er præcis."
+        },
+        {
+          "word": "der Bericht",
+          "meaning": "rapport, beretning",
+          "example": "Der Bericht ist kurz. – Rapporten er kort."
+        },
+        {
+          "word": "die Schilderung",
+          "meaning": "levende skildring",
+          "example": "Seine Schilderung war lebendig. – Hans skildring var levende."
+        }
+      ],
+      "tip": [
+        "Efter Darstellung følger ofte von eller genitiv: die Darstellung des Problems, die Darstellung von Daten.",
+        "Om et diagram eller en skitse siger man grafische Darstellung."
+      ],
+      "important": [
+        "Darstellung er ikke det samme som Beschreibung: Beschreibung er en beskrivelse med ord, mens Darstellung også kan være en tegning, et diagram eller en rolletolkning.",
+        "Die Darstellung er hunkøn, i flertal die Darstellungen."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "die Darstellung",
+            "Darstellung",
+            "Darstellungen",
+            "darstellen"
+          ],
+          "purple": [
+            "fremstilling",
+            "afbildning",
+            "fortolkning"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Darstellung"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Fremstillingen"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Darstellung"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "fremstilling"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Darstellung"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "fortolkning"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Darstellung"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "fremstilling"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "die Beschreibung"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "beskrivelse"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Bericht"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "rapport"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Schilderung"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "skildring"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "Dasein",
     "de_article": "das",
-    "lv": "Eksistens • Eksistens",
+    "lv": "Tilværelse • Eksistens",
     "level": "B2"
   },
   {
     "de": "dasjenige",
-    "lv": "At",
-    "level": "B2"
+    "lv": "Det (som)",
+    "level": "B2",
+    "study": {
+      "id": "b2-dasjenige",
+      "layout": "standardStudy",
+      "translation": "Det (som)",
+      "explanation": [
+        "Hovedidé: dasjenige er et påpegende stedord i intetkøn, der betyder det (det, som). Det peger som regel på noget, der bliver præciseret i en efterfølgende henførende bisætning: dasjenige, was/das …",
+        "Ordet bøjes: dasjenige (nominativ, akkusativ), desjenigen (genitiv), demjenigen (dativ). I hankøn hedder det derjenige, i hunkøn diejenige, i flertal diejenigen. Begge dele bøjes (das + jenige).",
+        "Ordet er formelt og mest almindeligt i skrift; i tale siger man som regel das eller das, was – ligesom dansk det, der."
+      ],
+      "examples": [
+        {
+          "de": "Dasjenige, was er sagte, war richtig.",
+          "lv": "Det, som han sagde, var rigtigt."
+        },
+        {
+          "de": "Ich nehme dasjenige Buch, das auf dem Tisch liegt.",
+          "lv": "Jeg tager den bog, der ligger på bordet."
+        },
+        {
+          "de": "Dasjenige Kind, das zuerst fertig ist, bekommt einen Preis.",
+          "lv": "Det barn, der bliver færdigt først, får en præmie."
+        },
+        {
+          "de": "Mit demjenigen Auto, das du gekauft hast, bin ich zufrieden.",
+          "lv": "Jeg er tilfreds med den bil, du har købt."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "derjenige / diejenige",
+          "meaning": "den (som)",
+          "example": "Derjenige, der kommt, bekommt Kuchen. – Den, der kommer, får kage."
+        },
+        {
+          "word": "das, was",
+          "meaning": "det, som",
+          "example": "Ich verstehe das, was du sagst. – Jeg forstår det, du siger."
+        },
+        {
+          "word": "dieses",
+          "meaning": "denne, dette",
+          "example": "Dieses Buch gefällt mir. – Jeg kan godt lide denne bog."
+        }
+      ],
+      "tip": [
+        "Efter dasjenige kan du som regel forvente en henførende bisætning med das eller was; i sætningen kan det erstattes af det enkle das.",
+        "Begge dele bøjes: mit demjenigen Auto, ikke mit dasjenigen."
+      ],
+      "important": [
+        "Dasjenige bruges normalt ikke uden bisætning.",
+        "Forveksl det ikke med dieses (dette): dasjenige peger på noget, der straks bliver præciseret."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "dasjenige",
+            "demjenigen",
+            "desjenigen",
+            "derjenige",
+            "diejenige",
+            "diejenigen"
+          ],
+          "purple": [
+            "det (det, som)",
+            "det, der"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Dasjenige"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Det"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "dasjenige"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "den"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Dasjenige"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Det"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "demjenigen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "den"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "derjenige / diejenige"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "den"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "das, was"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "det, som"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "dieses"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "denne, dette"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "Datei",
     "de_article": "die",
     "de_plural": "die Dateien",
-    "lv": "Arkivskab",
+    "lv": "Fil • Kartotek",
     "level": "B2"
   },
   {
     "de": "Datenspeicher",
     "de_article": "der",
     "de_plural": "die Datenspeicher",
-    "lv": "Computer hukommelse",
+    "lv": "Datalager • Hukommelse",
     "level": "B2"
   },
   {
     "de": "Datenträger",
     "de_article": "der",
     "de_plural": "die Datenträger",
-    "lv": "Diskette",
+    "lv": "Lagringsmedie • Datamedie",
     "level": "B2"
   },
   {
     "de": "Dattel",
     "de_article": "die",
     "de_plural": "die Datteln",
-    "lv": "Dato",
+    "lv": "Daddel",
     "level": "B2"
   },
   {
     "de": "Daune",
     "de_article": "die",
     "de_plural": "die Daunen",
-    "lv": "Ned",
+    "lv": "Dun",
     "level": "B2"
   },
   {
     "de": "Dealer",
     "de_article": "der",
     "de_plural": "die Dealer",
-    "lv": "Illegal narkohandler",
+    "lv": "Narkohandler • Pusher",
     "level": "B2"
   },
   {
@@ -2313,7 +5485,7 @@ const B2_WORDS = [
     "de": "Deck",
     "de_article": "das",
     "de_plural": "die Decks",
-    "lv": "Dækket på et skib",
+    "lv": "Dæk",
     "level": "B2"
   },
   {
@@ -2337,7 +5509,7 @@ const B2_WORDS = [
   },
   {
     "de": "dehnen",
-    "lv": "Strække • Udvide",
+    "lv": "At strække • At udvide",
     "level": "B2"
   },
   {
@@ -2366,31 +5538,31 @@ const B2_WORDS = [
   },
   {
     "de": "delikat",
-    "lv": "Delikat • Lækkert",
+    "lv": "Delikat • Lækker",
     "level": "B2"
   },
   {
     "de": "Delikt",
     "de_article": "das",
     "de_plural": "die Delikte",
-    "lv": "Kriminalitet • At bryde loven",
+    "lv": "Lovovertrædelse • Forbrydelse",
     "level": "B2"
   },
   {
     "de": "dementieren",
-    "lv": "Træk oplysninger tilbage",
+    "lv": "At dementere",
     "level": "B2"
   },
   {
     "de": "Demission",
     "de_article": "die",
     "de_plural": "die Demissionen",
-    "lv": "Fratræden • Fratrædelse",
+    "lv": "Fratræden • Afgang",
     "level": "B2"
   },
   {
     "de": "demütigen",
-    "lv": "Ydmyge",
+    "lv": "At ydmyge",
     "level": "B2"
   },
   {
@@ -2405,7 +5577,7 @@ const B2_WORDS = [
   },
   {
     "de": "deponieren",
-    "lv": "Depositum • Depositum",
+    "lv": "At deponere • At indsætte",
     "level": "B2"
   },
   {
@@ -2415,12 +5587,12 @@ const B2_WORDS = [
   },
   {
     "de": "derjenige",
-    "lv": "At",
+    "lv": "Den (som)",
     "level": "B2"
   },
   {
     "de": "deuten",
-    "lv": "Tyde • Fortolke",
+    "lv": "At tyde • At fortolke • At pege",
     "level": "B2"
   },
   {
@@ -2440,7 +5612,7 @@ const B2_WORDS = [
     "de": "Devisenbörse",
     "de_article": "die",
     "de_plural": "die Devisenbörsen",
-    "lv": "Valutaveksling",
+    "lv": "Valutabørs",
     "level": "B2"
   },
   {
@@ -2461,14 +5633,14 @@ const B2_WORDS = [
     "de": "Morddezernat",
     "de_article": "das",
     "de_plural": "die Morddezernate",
-    "lv": "Kriminalafdelingen",
+    "lv": "Drabsafdeling",
     "level": "B2"
   },
   {
     "de": "Dia",
     "de_article": "das",
     "de_plural": "die Dias",
-    "lv": "Glide",
+    "lv": "Lysbillede • Dias",
     "level": "B2"
   },
   {
@@ -2488,12 +5660,12 @@ const B2_WORDS = [
   {
     "de": "Diätkost",
     "de_article": "die",
-    "lv": "Diæternæring",
+    "lv": "Diætkost",
     "level": "B2"
   },
   {
     "de": "dichten",
-    "lv": "At synge • At synge",
+    "lv": "At digte",
     "level": "B2"
   },
   {
@@ -2517,7 +5689,7 @@ const B2_WORDS = [
   },
   {
     "de": "diejenige",
-    "lv": "Så",
+    "lv": "Den (som)",
     "level": "B2"
   },
   {
@@ -2534,7 +5706,7 @@ const B2_WORDS = [
   },
   {
     "de": "dienstlich",
-    "lv": "Servicestilling",
+    "lv": "Tjenstlig • Officiel",
     "level": "B2"
   },
   {
@@ -2544,21 +5716,170 @@ const B2_WORDS = [
   },
   {
     "de": "dingen",
-    "lv": "At blive enige • At være enig",
-    "level": "B2"
+    "lv": "At hyre • At fæste",
+    "level": "B2",
+    "study": {
+      "id": "b2-dingen",
+      "layout": "standardStudy",
+      "translation": "At hyre • At fæste",
+      "explanation": [
+        "Hovedidé: dingen er et sjældent, gammeldags udsagnsord, der betyder at hyre eller fæste (et menneske mod betaling til et arbejde). I dag hører man det især i udtrykket ein gedungener Mörder (en lejet morder) og i historiske tekster.",
+        "Former: dingt, dang, hat gedungen (den regelmæssige bøjning dingte, gedingt forekommer også). Typisk hyrer man Söldner, Mörder, Führer. I hverdagen siger man anheuern eller engagieren.",
+        "Efter dingen følger akkusativ: jemanden dingen."
+      ],
+      "examples": [
+        {
+          "de": "Der Graf dingte Söldner für den Krieg.",
+          "lv": "Greven hyrede lejesoldater til krigen."
+        },
+        {
+          "de": "Sie dangen einen Führer für die Reise.",
+          "lv": "De hyrede en fører til rejsen."
+        },
+        {
+          "de": "Die Polizei sucht einen gedungenen Mörder.",
+          "lv": "Politiet leder efter en lejet morder."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "anheuern",
+          "meaning": "hyre (dagligsprog)",
+          "example": "Sie heuern einen Fahrer an. – De hyrer en chauffør."
+        },
+        {
+          "word": "engagieren",
+          "meaning": "engagere, ansætte",
+          "example": "Wir engagieren einen Musiker. – Vi engagerer en musiker."
+        },
+        {
+          "word": "mieten",
+          "meaning": "leje",
+          "example": "Er mietet ein Auto. – Han lejer en bil."
+        }
+      ],
+      "tip": [
+        "Oftest møder du udtrykket ein gedungener Mörder; ellers er ordet sjældent.",
+        "I levende sprog foretrækkes anheuern (hyre) eller engagieren."
+      ],
+      "important": [
+        "Dingen er et litterært eller historisk ord; i hverdagstale ville det lyde mærkeligt.",
+        "Formerne svinger (dang/gedungen og dingte/gedingt); oftest bruges den stærke bøjning."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "dingen",
+            "dingte",
+            "dang",
+            "gedungen",
+            "gedungener"
+          ],
+          "purple": [
+            "hyre",
+            "fæste",
+            "lejet morder"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "dingte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "hyrede"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "dangen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "hyrede"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "gedungenen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "lejet"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "anheuern"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "hyre"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "engagieren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "engagere"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "mieten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "leje"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "Direktion",
     "de_article": "die",
     "de_plural": "die Direktionen",
-    "lv": "Kontrol af præpositioner",
+    "lv": "Direktion • Ledelse",
     "level": "B2"
   },
   {
     "de": "Dirigent",
     "de_article": "der",
     "de_plural": "die Dirigenten",
-    "lv": "Dirigenten",
+    "lv": "Dirigent",
     "level": "B2"
   },
   {
@@ -2604,24 +5925,189 @@ const B2_WORDS = [
     "de": "Dohle",
     "de_article": "die",
     "de_plural": "die Dohlen",
-    "lv": "Covarner",
+    "lv": "Allike",
     "level": "B2"
   },
   {
     "de": "Dom",
     "de_article": "der",
     "de_plural": "die Dome",
-    "lv": "Domkirke • Råd",
+    "lv": "Domkirke • Katedral",
     "level": "B2"
   },
   {
     "de": "donnern",
-    "lv": "Tordne • Brage",
-    "level": "B2"
+    "lv": "At tordne • At brage",
+    "level": "B2",
+    "study": {
+      "id": "b2-donnern",
+      "layout": "standardStudy",
+      "translation": "At tordne • At brage",
+      "explanation": [
+        "Hovedidé: donnern betyder at tordne eller brage: om torden (es donnert – det tordner), om tung larm (et tog, en lastbil, artilleri) eller om en høj stemme.",
+        "Former: donnert, donnerte, hat gedonnert. Om torden bruges det upersonlige es: Es donnert – ligesom dansk det tordner. Når udsagnsordet beskriver en bevægelse med larm, bruges sein i førnutid: Der Zug ist über die Brücke gedonnert.",
+        "I overført betydning betyder donnern at råbe højt og vredt: Der Chef donnerte los."
+      ],
+      "examples": [
+        {
+          "de": "Es blitzt und donnert.",
+          "lv": "Det lyner og tordner."
+        },
+        {
+          "de": "Der Zug donnert über die Brücke.",
+          "lv": "Toget buldrer hen over broen."
+        },
+        {
+          "de": "Die Lastwagen donnerten über die Straße.",
+          "lv": "Lastbilerne bragede hen ad gaden."
+        },
+        {
+          "de": "Der Chef donnerte: „Raus hier!“",
+          "lv": "Chefen tordnede: „Ud herfra!“"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "grollen",
+          "meaning": "rumle (langt væk)",
+          "example": "In der Ferne grollt es. – Det rumler i det fjerne."
+        },
+        {
+          "word": "krachen",
+          "meaning": "knage, brage",
+          "example": "Das Eis kracht unter den Füßen. – Isen knager under fødderne."
+        },
+        {
+          "word": "rumpeln",
+          "meaning": "rumle, skramle",
+          "example": "Der Wagen rumpelt über die Steine. – Vognen skramler hen over stenene."
+        }
+      ],
+      "tip": [
+        "Om torden siger man Es donnert; om lyn – Es blitzt.",
+        "Når det handler om larm og bevægelse, kan donnern stå med sein: ist gedonnert."
+      ],
+      "important": [
+        "Torden: es donnert med hat gedonnert, ikke ist.",
+        "Donnern handler ikke kun om torden: det kan også bruges om tunge køretøjer eller en vred stemme."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "donnern",
+            "donnert",
+            "donnerte",
+            "gedonnert",
+            "Es donnert"
+          ],
+          "purple": [
+            "tordne",
+            "brage",
+            "det tordner"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "donnert"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tordner"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "donnert"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "buldrer"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "donnerten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "bragede"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "donnerte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tordnede"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "grollen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "rumle"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "krachen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "knage"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "rumpeln"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "skramle"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "dopen",
-    "lv": "Brug dopingmidler",
+    "lv": "At dope",
     "level": "B2"
   },
   {
@@ -2633,31 +6119,31 @@ const B2_WORDS = [
   },
   {
     "de": "doppelsinnig",
-    "lv": "Tvetydigt",
+    "lv": "Tvetydig",
     "level": "B2"
   },
   {
     "de": "Doppelzentner",
     "de_article": "der",
     "de_plural": "die Doppelzentner",
-    "lv": "Centner",
+    "lv": "Dobbeltcentner",
     "level": "B2"
   },
   {
     "de": "Dorn",
     "de_article": "der",
     "de_plural": "die Dornen",
-    "lv": "Torn • Sting",
+    "lv": "Torn • Pig",
     "level": "B2"
   },
   {
     "de": "dornig",
-    "lv": "Prickly • Prickly",
+    "lv": "Tornet • Pigget",
     "level": "B2"
   },
   {
     "de": "dörren",
-    "lv": "At tørre • At tørre",
+    "lv": "At tørre • At udtørre",
     "level": "B2"
   },
   {
@@ -2691,7 +6177,7 @@ const B2_WORDS = [
     "de": "Dosenmilch",
     "de_article": "die",
     "de_plural": "die Dosenmilche",
-    "lv": "Kondenseret mælk i dåser",
+    "lv": "Dåsemælk • Kondenseret mælk",
     "level": "B2"
   },
   {
@@ -2705,21 +6191,21 @@ const B2_WORDS = [
     "de": "Dosis",
     "de_article": "die",
     "de_plural": "die Dosen",
-    "lv": "Dosis • Dosis",
+    "lv": "Dosis",
     "level": "B2"
   },
   {
     "de": "Dotterblume",
     "de_article": "die",
     "de_plural": "die Dotterblumen",
-    "lv": "Haletuds",
+    "lv": "Kabbeleje",
     "level": "B2"
   },
   {
     "de": "Dragee",
     "de_article": "das",
     "de_plural": "die Dragees",
-    "lv": "Dragee",
+    "lv": "Dragé",
     "level": "B2"
   },
   {
@@ -2745,12 +6231,12 @@ const B2_WORDS = [
     "de": "Drang",
     "de_article": "der",
     "de_plural": "die Dränge",
-    "lv": "Drev • Hældning",
+    "lv": "Trang • Drift",
     "level": "B2"
   },
   {
     "de": "drängen",
-    "lv": "Trænge • Presse",
+    "lv": "At trænge • At presse • At skynde på",
     "level": "B2"
   },
   {
@@ -2777,38 +6263,38 @@ const B2_WORDS = [
     "de": "Drehbleistift",
     "de_article": "der",
     "de_plural": "die Drehbleistifte",
-    "lv": "Automatisk blyant",
+    "lv": "Stiftblyant",
     "level": "B2"
   },
   {
     "de": "Drehung",
     "de_article": "die",
     "de_plural": "die Drehungen",
-    "lv": "Spin • Revolution",
+    "lv": "Drejning • Omdrejning",
     "level": "B2"
   },
   {
     "de": "Dreisprung",
     "de_article": "der",
     "de_plural": "die Dreisprünge",
-    "lv": "Tredobbelt spring",
+    "lv": "Trespring",
     "level": "B2"
   },
   {
     "de": "dreschen",
-    "lv": "Pisk kornet • Pisk æggehviden",
+    "lv": "At tærske • At piske",
     "level": "B2"
   },
   {
     "de": "Dressman",
     "de_article": "der",
     "de_plural": "die Dressmen",
-    "lv": "Modeldemonstrator i modeshows",
+    "lv": "Mandlig model",
     "level": "B2"
   },
   {
     "de": "dringen",
-    "lv": "Trænge • Bryde igennem",
+    "lv": "At trænge • At bryde igennem",
     "level": "B2"
   },
   {
@@ -2822,40 +6308,40 @@ const B2_WORDS = [
     "de": "Drohung",
     "de_article": "die",
     "de_plural": "die Drohungen",
-    "lv": "Trusler",
+    "lv": "Trussel",
     "level": "B2"
   },
   {
     "de": "Drops",
     "de_article": "der",
     "de_plural": "die Drops",
-    "lv": "Syrlige frugtkarameller • Slikkepinde",
+    "lv": "Bolsje • Drops",
     "level": "B2"
   },
   {
     "de": "Drossel",
     "de_article": "die",
     "de_plural": "die Drosseln",
-    "lv": "Stær",
+    "lv": "Drossel",
     "level": "B2"
   },
   {
     "de": "drosseln",
-    "lv": "Kvæle • Kvæle",
+    "lv": "At drosle • At begrænse",
     "level": "B2"
   },
   {
     "de": "Nadeldrucker",
     "de_article": "der",
     "de_plural": "die Nadeldrucker",
-    "lv": "Digital printer",
+    "lv": "Nåleprinter • Matrixprinter",
     "level": "B2"
   },
   {
     "de": "Druckerei",
     "de_article": "die",
     "de_plural": "die Druckereien",
-    "lv": "Typografi",
+    "lv": "Trykkeri",
     "level": "B2"
   },
   {
@@ -2883,7 +6369,7 @@ const B2_WORDS = [
     "de": "Drucksache",
     "de_article": "die",
     "de_plural": "die Drucksachen",
-    "lv": "Bandrole • Udskrivning i postforsendelser",
+    "lv": "Tryksag",
     "level": "B2"
   },
   {
@@ -2895,7 +6381,7 @@ const B2_WORDS = [
   },
   {
     "de": "dulden",
-    "lv": "Lide • Udholde",
+    "lv": "At tåle • At tolerere",
     "level": "B2"
   },
   {
@@ -2914,14 +6400,14 @@ const B2_WORDS = [
     "de": "Dumpingpreis",
     "de_article": "der",
     "de_plural": "die Dumpingpreise",
-    "lv": "Dumpet pris",
+    "lv": "Dumpingpris",
     "level": "B2"
   },
   {
     "de": "Düne",
     "de_article": "die",
     "de_plural": "die Dünen",
-    "lv": "Klitten",
+    "lv": "Klit",
     "level": "B2"
   },
   {
@@ -2944,12 +6430,12 @@ const B2_WORDS = [
   },
   {
     "de": "dunkeln",
-    "lv": "Det bliver mørkt • Det bliver mørkt",
+    "lv": "At mørkne",
     "level": "B2"
   },
   {
     "de": "dünken",
-    "lv": "Synes • Synes",
+    "lv": "At synes • At forekomme",
     "level": "B2"
   },
   {
@@ -2957,11 +6443,177 @@ const B2_WORDS = [
     "de_article": "der",
     "de_plural": "die Dünste",
     "lv": "Dis • Damp",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-dunst",
+      "layout": "standardStudy",
+      "translation": "Dis • Damp",
+      "explanation": [
+        "Hovedidé: der Dunst er et hankønsnavneord, der betyder dis, diset luft eller dunst: et let slør, der gør luften uklar, eller dufte og dampe.",
+        "Flertal er die Dünste (med omlyd) og bruges sjældent – mest om dampe og uddunstninger: giftige Dünste. I ental betegner der Dunst ofte disen over en by, en sø eller en dal.",
+        "Udtrykket keinen blassen Dunst von etwas haben betyder, at man ikke har den fjerneste anelse."
+      ],
+      "examples": [
+        {
+          "de": "Über dem See lag ein feiner Dunst.",
+          "lv": "Over søen lå der en let dis."
+        },
+        {
+          "de": "In der Küche hing der Dunst von gebratenem Fleisch.",
+          "lv": "I køkkenet hang der os af stegt kød."
+        },
+        {
+          "de": "Giftige Dünste stiegen aus dem Fass auf.",
+          "lv": "Giftige dampe steg op fra tønden."
+        },
+        {
+          "de": "Ich habe keinen blassen Dunst davon.",
+          "lv": "Jeg har ikke den fjerneste anelse om det."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "der Nebel",
+          "meaning": "tåge",
+          "example": "Im Herbst gibt es oft Nebel. – Om efteråret er der ofte tåge."
+        },
+        {
+          "word": "der Dampf",
+          "meaning": "damp (varm)",
+          "example": "Dampf steigt aus dem Topf auf. – Der stiger damp op fra gryden."
+        },
+        {
+          "word": "der Rauch",
+          "meaning": "røg",
+          "example": "Rauch steigt aus dem Schornstein auf. – Der stiger røg op fra skorstenen."
+        }
+      ],
+      "tip": [
+        "Brug Dunst, når luften er diset, eller når der er dufte og dampe i luften; om tæt tåge siger man Nebel.",
+        "Udtrykket keinen blassen Dunst haben er dagligsprog; brug det i uformel tale."
+      ],
+      "important": [
+        "Der Dunst er ikke det samme som Dampf: Dampf er varm damp, Dunst er let dis eller uddunstninger.",
+        "Flertal die Dünste har omlyd og bruges sjældent."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "der Dunst",
+            "die Dünste",
+            "Dunst",
+            "Dünste",
+            "keinen blassen Dunst"
+          ],
+          "purple": [
+            "dis",
+            "diset luft",
+            "dampe",
+            "den fjerneste anelse"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Dunst"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "dis"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Dunst"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "os"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Dünste"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "dampe"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Dunst"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "den fjerneste anelse"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "der Nebel"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "tåge"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Dampf"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "damp"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Rauch"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "røg"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "durcharbeiten",
-    "lv": "Gennemarbejde • Arbejde sig igennem",
+    "lv": "At gennemarbejde • At arbejde sig igennem",
     "level": "B2"
   },
   {
@@ -2971,29 +6623,29 @@ const B2_WORDS = [
   },
   {
     "de": "durchbrechen",
-    "lv": "Bryde igennem • Gennembryde",
+    "lv": "At bryde igennem • At gennembryde",
     "level": "B2"
   },
   {
     "de": "durchbrennen",
-    "lv": "Brænde igennem • Stikke af",
+    "lv": "At brænde igennem • At stikke af",
     "level": "B2"
   },
   {
     "de": "durchbringen",
-    "lv": "Få igennem • Forsørge",
+    "lv": "At få igennem • At forsørge • At ødsle bort",
     "level": "B2"
   },
   {
     "de": "Durchbruch",
     "de_article": "der",
     "de_plural": "die Durchbrüche",
-    "lv": "Breach • Et brud i en dæmning",
+    "lv": "Gennembrud • Brud",
     "level": "B2"
   },
   {
     "de": "durchdringen",
-    "lv": "Trænge igennem • Gennemtrænge",
+    "lv": "At trænge igennem • At gennemtrænge",
     "level": "B2"
   },
   {
@@ -3006,7 +6658,7 @@ const B2_WORDS = [
   {
     "de": "Durchfuhr",
     "de_article": "die",
-    "lv": "Gennemkørsel • Transit",
+    "lv": "Transit • Gennemførsel",
     "level": "B2"
   },
   {
@@ -3023,19 +6675,19 @@ const B2_WORDS = [
   },
   {
     "de": "durchlaufen",
-    "lv": "Gennemløb • Gennemløb",
+    "lv": "At løbe igennem • At gennemløbe",
     "level": "B2"
   },
   {
     "de": "durchmachen",
-    "lv": "Gennemgå • Opleve",
+    "lv": "At gennemgå • At opleve",
     "level": "B2"
   },
   {
     "de": "Durchmesser",
     "de_article": "der",
     "de_plural": "die Durchmesser",
-    "lv": "Diameter • Diameter",
+    "lv": "Diameter",
     "level": "B2"
   },
   {
@@ -3047,32 +6699,32 @@ const B2_WORDS = [
     "de": "Durchreise",
     "de_article": "die",
     "de_plural": "die Durchreisen",
-    "lv": "Passerer igennem",
+    "lv": "Gennemrejse",
     "level": "B2"
   },
   {
     "de": "durchschauen",
-    "lv": "Se gennem • Reveal",
+    "lv": "At gennemskue • At se igennem",
     "level": "B2"
   },
   {
     "de": "durchschlagen",
-    "lv": "Slå igennem • Kæmpe sig igennem",
+    "lv": "At slå igennem • At kæmpe sig igennem",
     "level": "B2"
   },
   {
     "de": "durchsehen",
-    "lv": "Gennemse • Kontrollere",
+    "lv": "At gennemse • At kontrollere",
     "level": "B2"
   },
   {
     "de": "durchsetzen",
-    "lv": "Kom igennem • Opnå",
+    "lv": "At gennemføre • At sætte igennem",
     "level": "B2"
   },
   {
     "de": "durchstellen",
-    "lv": "Forbind en telefonsamtale",
+    "lv": "At stille om",
     "level": "B2"
   },
   {
@@ -3084,19 +6736,19 @@ const B2_WORDS = [
     "de": "Dürre",
     "de_article": "die",
     "de_plural": "die Dürren",
-    "lv": "Tørhed",
+    "lv": "Tørke",
     "level": "B2"
   },
   {
     "de": "dürsten",
-    "lv": "Tørste • Længes",
+    "lv": "At tørste • At længes",
     "level": "B2"
   },
   {
     "de": "Düsenantrieb",
     "de_article": "der",
     "de_plural": "die Düsenantriebe",
-    "lv": "Jetmotor",
+    "lv": "Jetdrift • Jetmotor",
     "level": "B2"
   },
   {
@@ -3108,19 +6760,19 @@ const B2_WORDS = [
   },
   {
     "de": "ebenbürtig",
-    "lv": "Tilsvarende",
+    "lv": "Jævnbyrdig • Ligeværdig",
     "level": "B2"
   },
   {
     "de": "Eberesche",
     "de_article": "die",
     "de_plural": "die Ebereschen",
-    "lv": "Svovlmos • Røn",
+    "lv": "Røn",
     "level": "B2"
   },
   {
     "de": "ebnen",
-    "lv": "Niveau • Glat",
+    "lv": "At jævne • At planere",
     "level": "B2"
   },
   {
@@ -3139,12 +6791,12 @@ const B2_WORDS = [
     "de": "Edelstein",
     "de_article": "der",
     "de_plural": "die Edelsteine",
-    "lv": "En ædelsten",
+    "lv": "Ædelsten",
     "level": "B2"
   },
   {
     "de": "effektvoll",
-    "lv": "Effektiv",
+    "lv": "Effektfuld",
     "level": "B2"
   },
   {
@@ -3158,12 +6810,12 @@ const B2_WORDS = [
     "de": "Eheberatung",
     "de_article": "die",
     "de_plural": "die Eheberatungen",
-    "lv": "Familierådgivning",
+    "lv": "Ægteskabsrådgivning • Parrådgivning",
     "level": "B2"
   },
   {
     "de": "ehelich",
-    "lv": "Ægteskab-",
+    "lv": "Ægteskabelig • Ægte",
     "level": "B2"
   },
   {
@@ -3177,24 +6829,24 @@ const B2_WORDS = [
     "de": "Eheschließung",
     "de_article": "die",
     "de_plural": "die Eheschließungen",
-    "lv": "Ægteskab • Ægteskab",
+    "lv": "Vielse • Indgåelse af ægteskab",
     "level": "B2"
   },
   {
     "de": "ehren",
-    "lv": "Ære • Hædre",
+    "lv": "At ære • At hædre",
     "level": "B2"
   },
   {
     "de": "Ehrenamt",
     "de_article": "das",
     "de_plural": "die Ehrenämter",
-    "lv": "Æresstilling",
+    "lv": "Æreshverv",
     "level": "B2"
   },
   {
     "de": "ehrenamtlich",
-    "lv": "Gratis • Ved udførelse af ærespligt",
+    "lv": "Frivillig • Ulønnet",
     "level": "B2"
   },
   {
@@ -3214,19 +6866,19 @@ const B2_WORDS = [
     "de": "Ehrenplatz",
     "de_article": "der",
     "de_plural": "die Ehrenplätze",
-    "lv": "Æressted",
+    "lv": "Æresplads",
     "level": "B2"
   },
   {
     "de": "Ehrensache",
     "de_article": "die",
     "de_plural": "die Ehrensachen",
-    "lv": "Et spørgsmål om ære",
+    "lv": "Æressag",
     "level": "B2"
   },
   {
     "de": "ehrenvoll",
-    "lv": "Ærede • Ærede",
+    "lv": "Ærefuld • Hæderfuld",
     "level": "B2"
   },
   {
@@ -3240,19 +6892,19 @@ const B2_WORDS = [
     "de": "Ehrenwort",
     "de_article": "das",
     "de_plural": "die Ehrenworte",
-    "lv": "Hæderlig",
+    "lv": "Æresord",
     "level": "B2"
   },
   {
     "de": "ehrgeizig",
-    "lv": "Grådig",
+    "lv": "Ærgerrig",
     "level": "B2"
   },
   {
     "de": "Ehrung",
     "de_article": "die",
     "de_plural": "die Ehrungen",
-    "lv": "Hædring • Ceremoni for hæder",
+    "lv": "Hædring • Hædersbevisning",
     "level": "B2"
   },
   {
@@ -3304,7 +6956,7 @@ const B2_WORDS = [
   },
   {
     "de": "eigenhändig",
-    "lv": "Selvfremstillet",
+    "lv": "Egenhændig",
     "level": "B2"
   },
   {
@@ -3315,7 +6967,7 @@ const B2_WORDS = [
   },
   {
     "de": "eigensinnig",
-    "lv": "Stædig • Stædig",
+    "lv": "Stædig • Egensindig",
     "level": "B2"
   },
   {
@@ -3326,25 +6978,189 @@ const B2_WORDS = [
   {
     "de": "eigenwillig",
     "lv": "Egenrådig • Stædig",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-eigenwillig",
+      "layout": "standardStudy",
+      "translation": "Egenrådig • Stædig",
+      "explanation": [
+        "Hovedidé: eigenwillig er et tillægsord, der beskriver et menneske eller en ting med sin egen vilje og stil: egenrådig, stædig, men ofte også særpræget og original – noget, der ikke følger andre.",
+        "Om et menneske betyder det som regel egenrådig og viljestærk: ein eigenwilliges Kind. Om en stil, en fortolkning eller en smag betyder det særpræget: ein eigenwilliger Stil, eine eigenwillige Interpretation.",
+        "Ordet er sammensat af eigen (egen) og Wille (vilje) og kan derfor forstås som med egen vilje."
+      ],
+      "examples": [
+        {
+          "de": "Sie ist ein eigenwilliges Kind.",
+          "lv": "Hun er et egenrådigt barn."
+        },
+        {
+          "de": "Er hat eine eigenwillige Art, Probleme zu lösen.",
+          "lv": "Han har en særpræget måde at løse problemer på."
+        },
+        {
+          "de": "Der Künstler ist für seinen eigenwilligen Stil bekannt.",
+          "lv": "Kunstneren er kendt for sin særprægede stil."
+        },
+        {
+          "de": "Der alte Mann bleibt eigenwillig und lässt sich nichts sagen.",
+          "lv": "Den gamle mand er stadig stædig og lader sig ikke sige noget."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "eigensinnig",
+          "meaning": "egensindig, stædig",
+          "example": "Das Kind ist eigensinnig. – Barnet er egensindigt."
+        },
+        {
+          "word": "stur",
+          "meaning": "stædig, stivsindet",
+          "example": "Er bleibt stur bei seiner Meinung. – Han holder stædigt fast ved sin mening."
+        },
+        {
+          "word": "originell",
+          "meaning": "original",
+          "example": "Das ist eine originelle Idee. – Det er en original idé."
+        }
+      ],
+      "tip": [
+        "Konteksten afgør betydningen: et barn, et ældre menneske – snarere egenrådig; en stil, en idé – særpræget.",
+        "Ordet bøjes som alle tillægsord: ein eigenwilliger Mensch."
+      ],
+      "important": [
+        "Eigenwillig betyder egenrådig, ikke vilkårlig: vilkårlig hedder willkürlich (tilfældig, uden regler). Eigenwillig handler om menneskets egen vilje og stil.",
+        "Ordet kan være både kritisk og anerkendende; det afhænger af sætningen."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "eigenwillig",
+            "eigenwilliges",
+            "eigenwilliger",
+            "eigenwillige"
+          ],
+          "purple": [
+            "egenrådig",
+            "stædig",
+            "særpræget"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "eigenwilliges"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "egenrådigt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "eigenwillige"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "særpræget"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "eigenwilligen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "særprægede"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "eigenwillig"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "stædig"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "eigensinnig"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "egensindig"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "stur"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "stædig"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "originell"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "original"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "Eilbote",
     "de_article": "der",
     "de_plural": "die Eilboten",
-    "lv": "Messenger • Kurer",
+    "lv": "Ilbud • Kurer",
     "level": "B2"
   },
   {
     "de": "Eilbrief",
     "de_article": "der",
     "de_plural": "die Eilbriefe",
-    "lv": "Et presserende brev",
+    "lv": "Ekspresbrev",
     "level": "B2"
   },
   {
     "de": "einäschern",
-    "lv": "Kremer • Brænd i bål",
+    "lv": "At kremere • At brænde ned",
     "level": "B2"
   },
   {
@@ -3368,17 +7184,17 @@ const B2_WORDS = [
   },
   {
     "de": "einbürgern",
-    "lv": "Give statsborgerskab • Indføre",
+    "lv": "At naturalisere • At indføre",
     "level": "B2"
   },
   {
     "de": "einbüßen",
-    "lv": "Lider materielle tab",
+    "lv": "At miste • At lide tab",
     "level": "B2"
   },
   {
     "de": "eindringen",
-    "lv": "Trænge ind • Bryde ind",
+    "lv": "At trænge ind • At bryde ind",
     "level": "B2"
   },
   {
@@ -3388,27 +7204,27 @@ const B2_WORDS = [
   },
   {
     "de": "einfältig",
-    "lv": "Selvretfærdig • Naiv",
+    "lv": "Enfoldig • Naiv",
     "level": "B2"
   },
   {
     "de": "einfassen",
-    "lv": "Indramme • Omslutte",
+    "lv": "At indfatte • At indramme",
     "level": "B2"
   },
   {
     "de": "einflussreich",
-    "lv": "Indflydelsesrig • Imponerende",
+    "lv": "Indflydelsesrig",
     "level": "B2"
   },
   {
     "de": "einförmig",
-    "lv": "Uniform • Monoton",
+    "lv": "Ensformig • Monoton",
     "level": "B2"
   },
   {
     "de": "einfrieren",
-    "lv": "Fryse • Indefryse",
+    "lv": "At fryse ned • At indefryse",
     "level": "B2"
   },
   {
@@ -3429,24 +7245,24 @@ const B2_WORDS = [
     "de": "Eingabe",
     "de_article": "die",
     "de_plural": "die Eingaben",
-    "lv": "Applikation • Indtastning af data i computeren",
+    "lv": "Andragende • Indtastning",
     "level": "B2"
   },
   {
     "de": "eingebildet",
-    "lv": "Conceited • Conceited",
+    "lv": "Indbildsk • Vigtig",
     "level": "B2"
   },
   {
     "de": "Eingebung",
     "de_article": "die",
     "de_plural": "die Eingebungen",
-    "lv": "Inspiration • En pludselig idé",
+    "lv": "Inspiration • Indskydelse",
     "level": "B2"
   },
   {
     "de": "eingehen",
-    "lv": "Indgå • Modtage",
+    "lv": "At indgå • At gå ind på • At krympe",
     "level": "B2"
   },
   {
@@ -3491,24 +7307,24 @@ const B2_WORDS = [
   },
   {
     "de": "eingleisig",
-    "lv": "Monorail",
+    "lv": "Enkeltsporet",
     "level": "B2"
   },
   {
     "de": "eingrenzen",
-    "lv": "Grænse • Afgræns",
+    "lv": "At afgrænse • At begrænse",
     "level": "B2"
   },
   {
     "de": "Eingriff",
     "de_article": "der",
     "de_plural": "die Eingriffe",
-    "lv": "Intervention • Kirurgi",
+    "lv": "Indgreb • Operation",
     "level": "B2"
   },
   {
     "de": "einhüllen",
-    "lv": "Indhylle • Pakke ind",
+    "lv": "At indhylle • At pakke ind",
     "level": "B2"
   },
   {
@@ -3520,63 +7336,203 @@ const B2_WORDS = [
   },
   {
     "de": "einkassieren",
-    "lv": "Samle",
+    "lv": "At inkassere • At opkræve",
     "level": "B2"
   },
   {
     "de": "Einklang",
     "de_article": "der",
     "de_plural": "die Einklänge",
-    "lv": "Aftale",
+    "lv": "Samklang • Overensstemmelse",
     "level": "B2"
   },
   {
     "de": "einkleiden",
-    "lv": "Dress up • Dress up",
+    "lv": "At iklæde • At klæde på",
     "level": "B2"
   },
   {
     "de": "sich einlassen",
-    "lv": "Slip ind",
+    "lv": "At indlade sig",
     "level": "B2",
     "study": {
       "id": "b2-sich-einlassen",
-      "layout": "minimalStudy",
-      "translation": "Slip ind",
-      "rektion": "auf + ko?",
-      "explanation": "Sich einlassen kræver den bestemte præposition auf + ko?.",
-      "forms": "auf + ko?",
-      "formsLabel": "Management:",
+      "layout": "standardStudy",
+      "translation": "At indlade sig",
+      "explanation": [
+        "Hovedidé: sich einlassen er et adskilleligt tilbagevisende udsagnsord, der betyder at indlade sig på noget eller med nogen – gå ind i en handel eller et forhold, ofte et risikabelt. Det bruges med auf + akkusativ (sich auf etwas einlassen) eller mit + dativ (sich mit jemandem einlassen) – præcis som dansk indlade sig på/med.",
+        "Former: lässt sich ein, ließ sich ein, hat sich eingelassen. Forstavelsen ein- skilles fra: Ich lasse mich darauf nicht ein.",
+        "Uden tilbagevisende stedord betyder einlassen at lukke ind: jemanden einlassen (lukke nogen ind i et rum)."
+      ],
+      "examples": [
+        {
+          "de": "Ich lasse mich auf das Risiko nicht ein.",
+          "lv": "Jeg indlader mig ikke på den risiko."
+        },
+        {
+          "de": "Auf solche Geschäfte sollte man sich nicht einlassen.",
+          "lv": "På den slags forretninger bør man ikke indlade sig."
+        },
+        {
+          "de": "Sie hat sich mit dem Falschen eingelassen.",
+          "lv": "Hun har indladt sig med den forkerte."
+        },
+        {
+          "de": "Er ließ sich auf eine Diskussion ein.",
+          "lv": "Han indlod sig på en diskussion."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich beteiligen an",
+          "meaning": "deltage i",
+          "example": "Er beteiligt sich an der Diskussion. – Han deltager i diskussionen."
+        },
+        {
+          "word": "sich engagieren",
+          "meaning": "engagere sig",
+          "example": "Sie engagiert sich für den Umweltschutz. – Hun engagerer sig i miljøbeskyttelse."
+        },
+        {
+          "word": "eingehen auf",
+          "meaning": "gå ind på, acceptere",
+          "example": "Er geht auf den Vorschlag ein. – Han går ind på forslaget."
+        }
+      ],
+      "tip": [
+        "Efter auf bruges akkusativ: auf ein Abenteuer, auf einen Kompromiss. Efter mit bruges dativ: mit jemandem.",
+        "Ofte med nægtelse: Darauf lasse ich mich nicht ein (det indlader jeg mig ikke på)."
+      ],
+      "important": [
+        "Sich einlassen mit jemandem lyder ofte kritisk, som om forholdet er uønsket.",
+        "Forveksl det ikke med einlassen uden sich: det betyder at lukke ind."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich einlassen"
+            "einlassen",
+            "lässt",
+            "ließ",
+            "eingelassen",
+            "lasse"
           ],
-          "red": [
-            "auf + ko?"
+          "purple": [
+            "indlade sig på",
+            "lukke ind"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "lasse"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "einlassen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "indlade sig"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "eingelassen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "indladt sig"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ließ"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "indlod sig"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich beteiligen an"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "deltage"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich engagieren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "engagere sig"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "eingehen auf"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "gå ind på"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
   {
     "de": "einleiten",
-    "lv": "Indtast",
+    "lv": "At indlede",
     "level": "B2"
   },
   {
     "de": "einleuchten",
-    "lv": "Bliv forstået • Vær tydelig",
+    "lv": "At være indlysende • At give mening",
     "level": "B2"
   },
   {
     "de": "einliefern",
-    "lv": "Bring in • Bring",
+    "lv": "At indlægge • At indbringe",
     "level": "B2"
   },
   {
     "de": "einmachen",
-    "lv": "Konservere • Sylte",
+    "lv": "At konservere • At sylte",
     "level": "B2"
   },
   {
@@ -3586,59 +7542,330 @@ const B2_WORDS = [
   },
   {
     "de": "sich einprägen",
-    "lv": "At huske",
+    "lv": "At indprente sig • At lære udenad",
     "level": "B2",
     "study": {
       "id": "b2-sich-einpraegen",
-      "layout": "minimalStudy",
-      "translation": "At huske",
-      "rektion": "in + ko?",
-      "explanation": "Sich einprægen kræver den bestemte præposition i + ko?.",
-      "forms": "in + ko?",
-      "formsLabel": "Management:",
+      "layout": "standardStudy",
+      "translation": "At indprente sig • At lære udenad",
+      "explanation": [
+        "Hovedidé: sich einprägen betyder at indprente sig noget, lægge det godt på hukommelsen. Det bruges som regel med et stedord i dativ og et objekt i akkusativ: Ich präge mir die Nummer ein.",
+        "Former: prägt sich ein, prägte sich ein, hat sich eingeprägt. Forstavelsen ein- skilles fra: Ich präge mir das ein. I førnutid står ge- mellem ein- og udsagnsordet.",
+        "Når noget af sig selv brænder sig fast i hukommelsen, står sich i akkusativ: Das Bild hat sich mir eingeprägt (billedet har brændt sig fast i min hukommelse)."
+      ],
+      "examples": [
+        {
+          "de": "Ich präge mir die Telefonnummer ein.",
+          "lv": "Jeg indprenter mig telefonnummeret."
+        },
+        {
+          "de": "Prägt euch diese Regel gut ein!",
+          "lv": "Indprent jer denne regel godt!"
+        },
+        {
+          "de": "Das Bild hat sich mir tief eingeprägt.",
+          "lv": "Billedet har brændt sig dybt fast i min hukommelse."
+        },
+        {
+          "de": "Diesen Namen sollte man sich einprägen.",
+          "lv": "Det navn bør man indprente sig."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "auswendig lernen",
+          "meaning": "lære udenad",
+          "example": "Wir lernen das Gedicht auswendig. – Vi lærer digtet udenad."
+        },
+        {
+          "word": "sich merken",
+          "meaning": "huske, lægge mærke til",
+          "example": "Merk dir das! – Husk det!"
+        },
+        {
+          "word": "behalten",
+          "meaning": "huske, beholde i hukommelsen",
+          "example": "Ich habe den Namen behalten. – Jeg har husket navnet."
+        }
+      ],
+      "tip": [
+        "Når du skal lære gloser, kan du bruge sich etwas einprägen eller det velkendte sich merken.",
+        "Stedordet i dativ følger efter udsagnsordet: mir, dir, sich, uns, euch."
+      ],
+      "important": [
+        "Når et menneske selv indprenter sig noget, står stedordet i dativ (mir, dir); når noget brænder sig fast i hukommelsen, står sich i akkusativ, mens personen står i dativ (mir).",
+        "Førnutid er hat sich eingeprägt (med haben)."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "Sich einprægen"
+            "einprägen",
+            "präge",
+            "prägt",
+            "prägte",
+            "eingeprägt"
           ],
-          "red": [
-            "Sich"
+          "purple": [
+            "indprente sig",
+            "lægge det godt på hukommelsen",
+            "brænder sig fast",
+            "brændt sig fast"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "präge"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "indprenter mig"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Prägt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Indprent"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "eingeprägt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "brændt sig"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "einprägen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "indprente sig"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "auswendig lernen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "lære udenad"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich merken"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "huske"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "behalten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "beholde i hukommelsen"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
   {
     "de": "einrechnen",
-    "lv": "At tælle • At tælle",
+    "lv": "At indregne • At medregne",
     "level": "B2"
   },
   {
     "de": "einschläfern",
-    "lv": "Læg til at sove",
+    "lv": "At få til at sove • At aflive",
     "level": "B2"
   },
   {
     "de": "sich einschleichen",
-    "lv": "Snige ind • Snige sig ind",
+    "lv": "At snige sig ind",
     "level": "B2",
     "study": {
       "id": "b2-sich-einschleichen",
-      "layout": "minimalStudy",
-      "translation": "Snige ind • Snige sig ind",
-      "rektion": "in + ko?",
-      "explanation": "Sich einschleichen kræver den bestemte præposition i + ko?.",
-      "forms": "in + ko?",
-      "formsLabel": "Management:",
+      "layout": "standardStudy",
+      "translation": "At snige sig ind",
+      "explanation": [
+        "Hovedidé: sich einschleichen betyder at snige sig ind et sted, ubemærket og i smug, eller – om fejl, tvivl og lignende – at opstå umærkeligt, at liste sig ind.",
+        "Adskillelig forstavelse: ich schleiche mich ein, schlich mich ein, habe mich eingeschlichen. Stedet, man sniger sig ind i, angives med in + akkusativ (in das Haus, ins Haus). I førnutid bruges haben, fordi udsagnsordet er tilbagevisende."
+      ],
+      "examples": [
+        {
+          "de": "Der Dieb schleicht sich nachts ins Haus ein.",
+          "lv": "Tyven sniger sig ind i huset om natten."
+        },
+        {
+          "de": "Ein Fehler hat sich in den Text eingeschlichen.",
+          "lv": "Der har sneget sig en fejl ind i teksten."
+        },
+        {
+          "de": "Er hat sich unbemerkt in den Saal eingeschlichen.",
+          "lv": "Han sneg sig ubemærket ind i salen."
+        },
+        {
+          "de": "Mit der Zeit schlichen sich Zweifel ein.",
+          "lv": "Med tiden listede tvivlen sig ind."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "schleichen",
+          "meaning": "liste, snige sig",
+          "example": "Die Katze schleicht durch den Garten. – Katten lister gennem haven."
+        },
+        {
+          "word": "eindringen",
+          "meaning": "trænge ind",
+          "example": "Der Täter ist in die Wohnung eingedrungen. – Gerningsmanden er trængt ind i lejligheden."
+        }
+      ],
+      "tip": [
+        "Om fejl og tvivl siger man ofte: Ein Fehler hat sich eingeschlichen – der har sneget sig en fejl ind.",
+        "Husk adskillelsen: Er schleicht sich ein, men Er hat sich eingeschlichen."
+      ],
+      "important": [
+        "Forveksl det ikke med schleichen (liste, gå stille): sich einschleichen betegner altid, at man kommer ind et sted.",
+        "Efter in står stedet i akkusativ, når der angives retning: sich in den Raum einschleichen."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich einschleichen"
+            "sich einschleichen",
+            "schleiche mich ein"
           ],
-          "red": [
-            "Sich"
+          "purple": [
+            "snige sig ind",
+            "liste sig ind"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "schleicht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "sniger sig ind"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "eingeschlichen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "sneget sig"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "eingeschlichen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "sneg sig"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "schlichen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "listede"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "schleichen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "liste"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "eindringen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "trænge ind"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -3651,25 +7878,172 @@ const B2_WORDS = [
   },
   {
     "de": "sich einschränken",
-    "lv": "Begræns dig selv",
+    "lv": "At begrænse sig",
     "level": "B2",
     "study": {
       "id": "b2-sich-einschraenken",
-      "layout": "minimalStudy",
-      "translation": "Begræns dig selv",
-      "rektion": "auf + ko?",
-      "explanation": "Sich einschränken kræver den bestemte præposition auf + ko?.",
-      "forms": "auf + ko?",
-      "formsLabel": "Management:",
+      "layout": "standardStudy",
+      "translation": "At begrænse sig",
+      "explanation": [
+        "Hovedidé: sich einschränken betyder at begrænse sig – bruge penge, spise eller leve mere sparsomt end sædvanligt eller holde sig til noget bestemt. Sammenlign dansk indskrænke sig.",
+        "Former: ich schränke mich ein, schränkte mich ein, habe mich eingeschränkt. Med auf + akkusativ angives, hvad man begrænser sig til: sich auf das Nötigste einschränken. Uden tilføjelse betyder det ofte at spare på udgifterne.",
+        "Uden sich er einschränken et transitivt udsagnsord: etwas einschränken – begrænse noget (trafikken, rettighederne)."
+      ],
+      "examples": [
+        {
+          "de": "Wir müssen uns finanziell einschränken.",
+          "lv": "Vi er nødt til at begrænse os økonomisk."
+        },
+        {
+          "de": "Er schränkt sich auf das Nötigste ein.",
+          "lv": "Han begrænser sig til det nødvendigste."
+        },
+        {
+          "de": "Nach der Entlassung musste sich die Familie stark einschränken.",
+          "lv": "Efter fyringen måtte familien skære kraftigt ned."
+        },
+        {
+          "de": "Sie schränkt sich beim Essen ein, um abzunehmen.",
+          "lv": "Hun holder igen med maden for at tabe sig."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "einschränken",
+          "meaning": "begrænse, indskrænke",
+          "example": "Die Stadt schränkt den Verkehr ein. – Byen begrænser trafikken."
+        },
+        {
+          "word": "verzichten",
+          "meaning": "give afkald",
+          "example": "Er verzichtet auf Zucker. – Han giver afkald på sukker."
+        },
+        {
+          "word": "sparen",
+          "meaning": "spare",
+          "example": "Wir sparen Strom. – Vi sparer på strømmen."
+        }
+      ],
+      "tip": [
+        "Vil du sige, at du begynder at spare, så brug sich einschränken uden tilføjelse.",
+        "Med auf + akkusativ nævner du det, du begrænser dig til."
+      ],
+      "important": [
+        "Adskillelig forstavelse ein-: Ich schränke mich ein, ikke Ich einschränke mich.",
+        "Forveksl ikke det tilbagevisende sich einschränken med det transitive einschränken (begrænse noget)."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich einschränken"
+            "einschränken",
+            "schränke",
+            "eingeschränkt",
+            "ein"
           ],
-          "red": [
-            "auf + ko?"
+          "purple": [
+            "begrænse sig",
+            "begrænser sig",
+            "begrænse noget"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "einschränken"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "begrænse os"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "schränkt",
+                "ein"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "begrænser sig"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "einschränken"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "skære kraftigt ned"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "schränkt",
+                "ein"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "holder igen"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "einschränken"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "begrænse"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "verzichten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "give afkald"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sparen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "spare"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -3677,22 +8051,22 @@ const B2_WORDS = [
     "de": "Einschreiben",
     "de_article": "das",
     "de_plural": "die Einschreiben",
-    "lv": "Rekommanderet brev eller pakke",
+    "lv": "Anbefalet brev",
     "level": "B2"
   },
   {
     "de": "einschulen",
-    "lv": "Indskrive barnet i skolen",
+    "lv": "At indskrive i skolen",
     "level": "B2"
   },
   {
     "de": "einsichtig",
-    "lv": "Fornuftig • Fornuft",
+    "lv": "Fornuftig • Forstående",
     "level": "B2"
   },
   {
     "de": "einspeichern",
-    "lv": "Indtast data • Gem",
+    "lv": "At indlæse • At gemme",
     "level": "B2"
   },
   {
@@ -3706,22 +8080,22 @@ const B2_WORDS = [
     "de": "Einstandsgeld",
     "de_article": "das",
     "de_plural": "die Einstandsgelder",
-    "lv": "Indgangsgebyr",
+    "lv": "Indmeldelsesgebyr",
     "level": "B2"
   },
   {
     "de": "einstimmig",
-    "lv": "Enstemmig • Enstemmig",
+    "lv": "Enstemmig • Enig",
     "level": "B2"
   },
   {
     "de": "einströmen",
-    "lv": "Flow ind",
+    "lv": "At strømme ind",
     "level": "B2"
   },
   {
     "de": "eintauchen",
-    "lv": "Dyppe • Dykke ned",
+    "lv": "At dyppe • At dykke ned",
     "level": "B2"
   },
   {
@@ -3737,12 +8111,12 @@ const B2_WORDS = [
   },
   {
     "de": "einträglich",
-    "lv": "Rentabelt • Rentabelt",
+    "lv": "Indbringende • Rentabel",
     "level": "B2"
   },
   {
     "de": "einüben",
-    "lv": "Lær at • Iscenesætte",
+    "lv": "At indøve • At indstudere",
     "level": "B2"
   },
   {
@@ -3759,29 +8133,29 @@ const B2_WORDS = [
   },
   {
     "de": "einweichen",
-    "lv": "Dukkert",
+    "lv": "At lægge i blød",
     "level": "B2"
   },
   {
     "de": "einweihen",
-    "lv": "Afsløre højtideligt • Betro en hemmelighed",
+    "lv": "At indvie • At betro",
     "level": "B2"
   },
   {
     "de": "einwenden",
-    "lv": "Modsætte dig • Fremsætte indsigelser",
+    "lv": "At indvende • At gøre indsigelse",
     "level": "B2"
   },
   {
     "de": "einwilligen",
-    "lv": "At være enig • At være rolig",
+    "lv": "At samtykke • At gå med til",
     "level": "B2"
   },
   {
     "de": "Eisblume",
     "de_article": "die",
     "de_plural": "die Eisblumen",
-    "lv": "Is blomst",
+    "lv": "Isblomst",
     "level": "B2"
   },
   {
@@ -3808,12 +8182,12 @@ const B2_WORDS = [
     "de": "Eisengießerei",
     "de_article": "die",
     "de_plural": "die Eisengießereien",
-    "lv": "Støbejernsstøberi",
+    "lv": "Jernstøberi",
     "level": "B2"
   },
   {
     "de": "eisfrei",
-    "lv": "Isfri • Ingen is",
+    "lv": "Isfri",
     "level": "B2"
   },
   {
@@ -3833,7 +8207,7 @@ const B2_WORDS = [
   {
     "de": "Eissegeln",
     "de_article": "das",
-    "lv": "Sejlads med is-yachts",
+    "lv": "Issejlads",
     "level": "B2"
   },
   {
@@ -3844,7 +8218,7 @@ const B2_WORDS = [
   {
     "de": "Ekel",
     "de_article": "der",
-    "lv": "Afsky • Afsky",
+    "lv": "Afsky • Væmmelse",
     "level": "B2"
   },
   {
@@ -3858,71 +8232,360 @@ const B2_WORDS = [
     "de": "Elster",
     "de_article": "die",
     "de_plural": "die Elstern",
-    "lv": "Hikke",
+    "lv": "Skade",
     "level": "B2"
   },
   {
     "de": "Empfangschef",
     "de_article": "der",
     "de_plural": "die Empfangschefs",
-    "lv": "Hotel administrator",
+    "lv": "Receptionschef",
     "level": "B2"
   },
   {
     "de": "sich empfehlen",
-    "lv": "Bliv anbefalet",
+    "lv": "At være tilrådelig • At tage afsked",
     "level": "B2",
     "study": {
       "id": "b2-sich-empfehlen",
-      "layout": "minimalStudy",
-      "translation": "Bliv anbefalet",
-      "rektion": "zu + kam?",
-      "explanation": "Sich empfehlen kræver den bestemte præposition zu + kam?.",
-      "forms": "zu + kam?",
-      "formsLabel": "Management:",
+      "layout": "standardStudy",
+      "translation": "At være tilrådelig • At tage afsked",
+      "explanation": [
+        "Hovedidé: sich empfehlen bruges i denne betydning næsten kun i 3. person med es eller med et ubestemt navneord: es empfiehlt sich, … – det er tilrådeligt, det anbefales at gøre noget.",
+        "Former: empfiehlt sich, empfahl sich, hat sich empfohlen (e skifter til ie). Derefter følger ofte zu + navnemåde eller en dass-sætning: Es empfiehlt sich, früh zu buchen.",
+        "I en anden, formel betydning kan sich empfehlen også betyde at tage afsked: Er empfahl sich früh."
+      ],
+      "examples": [
+        {
+          "de": "Es empfiehlt sich, früh zu buchen.",
+          "lv": "Det anbefales at bestille i god tid."
+        },
+        {
+          "de": "Bei Regen empfiehlt sich eine Jacke.",
+          "lv": "I regnvejr anbefales en jakke."
+        },
+        {
+          "de": "Es empfiehlt sich, die Datei vorher zu speichern.",
+          "lv": "Det anbefales at gemme filen først."
+        },
+        {
+          "de": "Vor der Reise empfiehlt sich eine Impfung.",
+          "lv": "Før rejsen anbefales en vaccination."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "empfehlen",
+          "meaning": "anbefale",
+          "example": "Ich empfehle dir dieses Restaurant. – Jeg anbefaler dig denne restaurant."
+        },
+        {
+          "word": "ratsam",
+          "meaning": "tilrådelig",
+          "example": "Es ist ratsam, einen Schirm mitzunehmen. – Det er tilrådeligt at tage en paraply med."
+        },
+        {
+          "word": "sich verabschieden",
+          "meaning": "sige farvel, tage afsked",
+          "example": "Wir verabschieden uns jetzt. – Nu siger vi farvel."
+        }
+      ],
+      "tip": [
+        "Sætningsmønster: Es empfiehlt sich + zu + navnemåde – praktisk, når du ikke vil nævne, hvem der anbefaler noget.",
+        "Synonym med enklere opbygning: Es ist ratsam."
+      ],
+      "important": [
+        "Denne betydning står næsten altid i 3. person (empfiehlt sich); former med ich eller du passer ikke her.",
+        "Forveksl det ikke med empfehlen (anbefale nogen noget): Ich empfehle dir das Buch."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich empfehlen"
+            "sich empfehlen",
+            "empfiehlt sich",
+            "empfahl",
+            "empfohlen",
+            "zu"
           ],
-          "red": [
-            "zu + kam?"
+          "purple": [
+            "tilrådeligt",
+            "det anbefales",
+            "tage afsked"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "empfiehlt",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "anbefales"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "empfiehlt",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "anbefales"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "empfiehlt",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "anbefales"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "empfiehlt",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "anbefales"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "empfehlen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "anbefale"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "ratsam"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "tilrådelig"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich verabschieden"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "tage afsked"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
   {
     "de": "empor",
-    "lv": "Op • Op",
+    "lv": "Op • Opad",
     "level": "B2"
   },
   {
     "de": "empören",
-    "lv": "Forarge forargelse",
+    "lv": "At forarge • At oprøre",
     "level": "B2"
   },
   {
     "de": "sich empören",
-    "lv": "Bliv vred • Oprør",
+    "lv": "At blive forarget • At gøre oprør",
     "level": "B2",
     "study": {
       "id": "b2-sich-empoeren",
-      "layout": "minimalStudy",
-      "translation": "Bliv vred • Oprør",
-      "rektion": "über + ko?",
-      "explanation": "Sich empören kræver den bestemte præposition über + ko?.",
-      "forms": "über + ko?",
-      "formsLabel": "Management:",
+      "layout": "standardStudy",
+      "translation": "At blive forarget • At gøre oprør",
+      "explanation": [
+        "Hovedidé: sich empören betyder at blive stærkt forarget og reagere vredt på uretfærdighed eller overtrædelser. Sjældnere og mere litterært betyder det at gøre oprør mod magthaverne (sich gegen jemanden empören).",
+        "Former: empört sich, empörte sich, hat sich empört. Hvad man er forarget over, angives med über + akkusativ: sich über die Lüge empören. Modstand mod nogen udtrykkes med gegen + akkusativ.",
+        "Afledningen empört betyder forarget: Sie war empört. Dansk har også empøre sig (over) i samme betydning."
+      ],
+      "examples": [
+        {
+          "de": "Alle empörten sich über die Entscheidung.",
+          "lv": "Alle blev forargede over beslutningen."
+        },
+        {
+          "de": "Sie hat sich über seine Lüge empört.",
+          "lv": "Hun blev forarget over hans løgn."
+        },
+        {
+          "de": "Das Volk empörte sich gegen den Herrscher.",
+          "lv": "Folket gjorde oprør mod herskeren."
+        },
+        {
+          "de": "Ich empöre mich über so viel Ungerechtigkeit.",
+          "lv": "Jeg er forarget over så megen uretfærdighed."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich aufregen",
+          "meaning": "hidse sig op",
+          "example": "Er regt sich über den Lärm auf. – Han hidser sig op over larmen."
+        },
+        {
+          "word": "sich ärgern",
+          "meaning": "ærgre sig, blive vred",
+          "example": "Ich ärgere mich über den Stau. – Jeg ærgrer mig over køen."
+        },
+        {
+          "word": "empört",
+          "meaning": "forarget",
+          "example": "Sie war empört. – Hun var forarget."
+        }
+      ],
+      "tip": [
+        "Lær forbindelsen sich über etwas empören (+ akkusativ).",
+        "Sich empören er stærkere end sich ärgern: det udtrykker moralsk forargelse."
+      ],
+      "important": [
+        "Efter über følger akkusativ: über die Lüge, ikke über der Lüge.",
+        "I betydningen gøre oprør bruges gegen: sich gegen die Regierung empören."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich empören"
+            "empören",
+            "empört",
+            "empörte"
           ],
-          "red": [
-            "über + ko?"
+          "purple": [
+            "blive stærkt forarget",
+            "gøre oprør",
+            "forarget"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "empörten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "forargede"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "empört"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "forarget"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "empörte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "gjorde oprør"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "empöre"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich aufregen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "hidse sig op"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich ärgern"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ærgre sig"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "empört"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "forarget"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -3940,12 +8603,12 @@ const B2_WORDS = [
   },
   {
     "de": "entbehren",
-    "lv": "Undvære • Mangle",
+    "lv": "At undvære • At mangle",
     "level": "B2"
   },
   {
     "de": "entbinden",
-    "lv": "Fritage • Forløse",
+    "lv": "At fritage • At forløse • At føde",
     "level": "B2"
   },
   {
@@ -3957,42 +8620,42 @@ const B2_WORDS = [
   },
   {
     "de": "entehren",
-    "lv": "Rob ære • Skændsel",
+    "lv": "At vanære • At krænke",
     "level": "B2"
   },
   {
     "de": "enteignen",
-    "lv": "Ekspropriere • Ekspropriere",
+    "lv": "At ekspropriere",
     "level": "B2"
   },
   {
     "de": "enterben",
-    "lv": "Arveløse",
+    "lv": "At gøre arveløs",
     "level": "B2"
   },
   {
     "de": "entfallen",
-    "lv": "Falde ud • Glem",
+    "lv": "At falde bort • At gå i glemmebogen",
     "level": "B2"
   },
   {
     "de": "entfalten",
-    "lv": "Udfolde • Udvikle",
+    "lv": "At udfolde • At udvikle",
     "level": "B2"
   },
   {
     "de": "sich entfalten",
-    "lv": "Udfolde sig • Udvikle sig",
+    "lv": "At udfolde sig • At udvikle sig",
     "level": "B2"
   },
   {
     "de": "entflammen",
-    "lv": "Antænde • Opflamme",
+    "lv": "At antænde • At begejstre",
     "level": "B2"
   },
   {
     "de": "entführen",
-    "lv": "Take away • Kidnap",
+    "lv": "At bortføre • At kidnappe",
     "level": "B2"
   },
   {
@@ -4002,51 +8665,200 @@ const B2_WORDS = [
   },
   {
     "de": "entgleisen",
-    "lv": "Afsporer",
+    "lv": "At køre af sporet • At afspore",
     "level": "B2"
   },
   {
     "de": "sich enthalten",
-    "lv": "Afstå fra",
+    "lv": "At afholde sig fra",
     "level": "B2",
     "study": {
       "id": "b2-sich-enthalten",
-      "layout": "minimalStudy",
-      "translation": "Afstå fra",
-      "rektion": "von + kam?",
-      "explanation": "Sich enthalten kræver den bestemte præposition von + kam?.",
-      "forms": "von + kam?",
-      "formsLabel": "Management:",
+      "layout": "standardStudy",
+      "translation": "At afholde sig fra",
+      "explanation": [
+        "Hovedidé: sich enthalten betyder bevidst at afholde sig fra noget – ikke gøre det, ikke bruge det, ikke stemme. Sproget er formelt og skriftsprogligt.",
+        "Efter det følger genitiv: sich der Stimme enthalten (undlade at stemme), sich jeden Kommentars enthalten. Former: enthält sich, enthielt sich, hat sich enthalten.",
+        "Uden sich betyder enthalten at indeholde: Das Getränk enthält Zucker."
+      ],
+      "examples": [
+        {
+          "de": "Bei der Abstimmung enthielten sich zwei Abgeordnete der Stimme.",
+          "lv": "Ved afstemningen undlod to medlemmer at stemme."
+        },
+        {
+          "de": "Ich enthalte mich jedes Kommentars.",
+          "lv": "Jeg afholder mig fra enhver kommentar."
+        },
+        {
+          "de": "Sie hat sich des Alkohols enthalten.",
+          "lv": "Hun har afholdt sig fra alkohol."
+        },
+        {
+          "de": "Er konnte sich kaum des Lachens enthalten.",
+          "lv": "Han kunne knap nok lade være med at le."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "enthalten",
+          "meaning": "indeholde",
+          "example": "Das Getränk enthält Zucker. – Drikken indeholder sukker."
+        },
+        {
+          "word": "verzichten",
+          "meaning": "give afkald",
+          "example": "Er verzichtet auf Fleisch. – Han giver afkald på kød."
+        },
+        {
+          "word": "sich zurückhalten",
+          "meaning": "holde sig tilbage",
+          "example": "Er hält sich bei Diskussionen zurück. – Han holder sig tilbage i diskussioner."
+        }
+      ],
+      "tip": [
+        "Lær udtrykket sich der Stimme enthalten – det er en typisk vending ved afstemninger.",
+        "I hverdagen siger man ofte enklere: Ich verzichte auf …"
+      ],
+      "important": [
+        "Efter sich enthalten følger genitiv, ikke et forholdsord: sich des Alkohols enthalten.",
+        "Forveksl det ikke med enthalten uden sich – det betyder at indeholde."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich enthalten"
+            "sich enthalten",
+            "enthalten",
+            "enthält"
           ],
-          "red": [
-            "von + kam?"
+          "purple": [
+            "afholde sig fra",
+            "undlade at stemme",
+            "indeholde"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "enthielten",
+                "sich",
+                "Stimme"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "undlod"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "enthalte",
+                "mich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "afholder mig"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sich",
+                "enthalten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "afholdt sig"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sich",
+                "enthalten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "lade være"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "enthalten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "indeholde"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "verzichten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "give afkald"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich zurückhalten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "holde sig tilbage"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
   {
     "de": "enthüllen",
-    "lv": "Afsløre • Afdæk",
+    "lv": "At afsløre • At afdække",
     "level": "B2"
   },
   {
     "de": "entkorken",
-    "lv": "Fjern kork",
+    "lv": "At tage proppen af",
     "level": "B2"
   },
   {
     "de": "entkräften",
-    "lv": "Afkræfte • Svække",
+    "lv": "At afkræfte • At svække",
     "level": "B2"
   },
   {
     "de": "entladen",
-    "lv": "Aflæs • Aflæs",
+    "lv": "At aflæsse • At aflade",
     "level": "B2"
   },
   {
@@ -4056,22 +8868,174 @@ const B2_WORDS = [
   },
   {
     "de": "sich entledigen",
-    "lv": "Slip af • Slip af med",
+    "lv": "At skille sig af med • At slippe af med",
     "level": "B2",
     "study": {
       "id": "b2-sich-entledigen",
-      "layout": "minimalStudy",
-      "translation": "Slip af • Slip af med",
-      "rektion": "+ possessive form",
-      "explanation": "Sich entledigen bruges i moderne tysk med besiddelsesformen uden præposition.",
-      "forms": "+ possessive form",
-      "formsLabel": "Management:",
+      "layout": "standardStudy",
+      "translation": "At skille sig af med • At slippe af med",
+      "explanation": [
+        "Hovedidé: sich entledigen betyder at skille sig af med noget uønsket – tøj, gæld, en pligt, et våben. Ordet er formelt og skriftsprogligt.",
+        "Efter det følger genitiv: sich seines Mantels entledigen. Former: entledigt sich, entledigte sich, hat sich entledigt. I hverdagssprog bruges oftere etwas loswerden.",
+        "På dansk: skille sig af med, slippe af med; om tøj – tage af."
+      ],
+      "examples": [
+        {
+          "de": "Er entledigte sich seines nassen Mantels.",
+          "lv": "Han tog sin våde frakke af."
+        },
+        {
+          "de": "Die Firma hat sich ihrer Schulden entledigt.",
+          "lv": "Firmaet har skilt sig af med sin gæld."
+        },
+        {
+          "de": "Sie wollte sich der lästigen Pflicht entledigen.",
+          "lv": "Hun ville slippe af med den irriterende pligt."
+        },
+        {
+          "de": "Die Täter entledigten sich der Waffe.",
+          "lv": "Gerningsmændene skilte sig af med våbnet."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "loswerden",
+          "meaning": "slippe af med, blive af med",
+          "example": "Ich werde die Erkältung nicht los. – Jeg kan ikke slippe af med forkølelsen."
+        },
+        {
+          "word": "sich befreien",
+          "meaning": "befri sig",
+          "example": "Er befreit sich von den Fesseln. – Han befrier sig fra lænkerne."
+        },
+        {
+          "word": "wegwerfen",
+          "meaning": "smide ud, smide væk",
+          "example": "Ich werfe alte Zeitungen weg. – Jeg smider gamle aviser ud."
+        }
+      ],
+      "tip": [
+        "I hverdagen siger du etwas loswerden; sich entledigen hører til den officielle eller litterære stil.",
+        "Husk genitiv: sich der Sorgen entledigen."
+      ],
+      "important": [
+        "Efter sich entledigen står der intet forholdsord – kun genitiv.",
+        "Ordet er formelt; i talesprog lyder det alt for højtideligt."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich entledigen"
+            "sich entledigen",
+            "entledigte",
+            "entledigt",
+            "entledigen"
+          ],
+          "purple": [
+            "skille sig af med",
+            "slippe af med",
+            "tage af"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "entledigte",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tog"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sich",
+                "entledigt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "skilt sig af med"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sich",
+                "entledigen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "slippe af med"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "entledigten",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "skilte sig af med"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "loswerden"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "slippe af med"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich befreien"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "befri sig"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "wegwerfen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "smide ud"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -4082,66 +9046,357 @@ const B2_WORDS = [
   },
   {
     "de": "entmutigen",
-    "lv": "Tag modet væk",
+    "lv": "At gøre modløs • At tage modet fra",
     "level": "B2"
   },
   {
     "de": "entnehmen",
-    "lv": "Tage ud • Udtage",
+    "lv": "At tage ud • At udlede",
     "level": "B2"
   },
   {
     "de": "sich entrüsten",
-    "lv": "Bliv vred • Oprør",
+    "lv": "At blive forarget • At harmes",
     "level": "B2",
     "study": {
       "id": "b2-sich-entruesten",
-      "layout": "minimalStudy",
-      "translation": "Bliv vred • Oprør",
-      "rektion": "über + ko?",
-      "explanation": "Sich entrüsten kræver den bestemte præposition über + ko?.",
-      "forms": "über + ko?",
-      "formsLabel": "Management:",
+      "layout": "standardStudy",
+      "translation": "At blive forarget • At harmes",
+      "explanation": [
+        "Hovedidé: sich entrüsten betyder at blive forarget eller harmes og give udtryk for stærk forargelse over en handling eller nogens ord. Det er en moralsk, følelsesladet forargelse.",
+        "Grunden til forargelsen angives med über + akkusativ: sich über die Frechheit entrüsten. Former: entrüstet sich, entrüstete sich, hat sich entrüstet. Tillægsordet entrüstet betyder forarget, indigneret.",
+        "Ordet ligger tæt på sich empören, men er sjældnere og mere litterært i hverdagen."
+      ],
+      "examples": [
+        {
+          "de": "Die Zuschauer entrüsteten sich über den Schiedsrichter.",
+          "lv": "Tilskuerne blev forargede over dommeren."
+        },
+        {
+          "de": "Sie entrüstete sich über die Frechheit.",
+          "lv": "Hun harmedes over frækheden."
+        },
+        {
+          "de": "Warum entrüstest du dich so?",
+          "lv": "Hvorfor bliver du så forarget?"
+        },
+        {
+          "de": "Viele haben sich über den Bericht entrüstet.",
+          "lv": "Mange blev forargede over rapporten."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich empören",
+          "meaning": "blive forarget, harmes",
+          "example": "Wir empören uns über die Ungerechtigkeit. – Vi bliver forargede over uretfærdigheden."
+        },
+        {
+          "word": "sich aufregen",
+          "meaning": "hidse sig op",
+          "example": "Reg dich nicht auf! – Hids dig nu ikke op!"
+        },
+        {
+          "word": "entrüstet",
+          "meaning": "forarget, indigneret",
+          "example": "Er sah mich entrüstet an. – Han så forarget på mig."
+        }
+      ],
+      "tip": [
+        "Lær hele vendingen: sich über etwas entrüsten (+ akkusativ).",
+        "Tillægsordet entrüstet bruges ofte sammen med sein eller med udsagnsord: entrüstet reagieren."
+      ],
+      "important": [
+        "Efter über følger akkusativ.",
+        "I hverdagen hører du oftere sich aufregen eller sich ärgern."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich entrüsten"
+            "sich entrüsten",
+            "entrüstete sich"
           ],
-          "red": [
-            "über + ko?"
+          "purple": [
+            "blive forarget",
+            "harmes",
+            "forargelse",
+            "indigneret"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "entrüsteten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "forargede"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "entrüstete"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "harmedes"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "entrüstest"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "forarget"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "entrüstet"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "forargede"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich empören"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "blive forarget"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich aufregen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "hidse sig op"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "entrüstet"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "forarget"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
   {
     "de": "entsagen",
-    "lv": "Give up • Give up",
+    "lv": "At give afkald på • At forsage",
     "level": "B2"
   },
   {
     "de": "entseuchen",
-    "lv": "Desinficer",
+    "lv": "At desinficere",
     "level": "B2"
   },
   {
     "de": "sich entsinnen",
-    "lv": "At huske • At huske",
+    "lv": "At erindre sig • At huske",
     "level": "B2",
     "study": {
       "id": "b2-sich-entsinnen",
-      "layout": "minimalStudy",
-      "translation": "At huske • At huske",
-      "rektion": "+ possessive form",
-      "explanation": "Sich entsinnen bruges i moderne tysk med besiddelsesformen uden præposition, for eksempel: Ich entsinne mich eines Fehlers.",
-      "forms": "+ possessive form",
-      "formsLabel": "Management:",
+      "layout": "standardStudy",
+      "translation": "At erindre sig • At huske",
+      "explanation": [
+        "Hovedidé: sich entsinnen betyder at erindre sig eller huske noget fra fortiden. Ordet er skriftsprogligt og en smule gammeldags – ligesom dansk erindre sig.",
+        "Efter det følger som regel genitiv (sich seiner entsinnen, sich der Worte entsinnen), i dag også an + akkusativ. Hyppig vending: Soviel ich mich entsinne, … – så vidt jeg husker. Former: entsinnt sich, entsann sich, hat sich entsonnen."
+      ],
+      "examples": [
+        {
+          "de": "Ich entsinne mich seiner gut.",
+          "lv": "Jeg husker ham godt."
+        },
+        {
+          "de": "Kannst du dich an den Namen entsinnen?",
+          "lv": "Kan du huske navnet?"
+        },
+        {
+          "de": "Sie entsann sich der Worte ihrer Mutter.",
+          "lv": "Hun erindrede sin mors ord."
+        },
+        {
+          "de": "Soviel ich mich entsinne, war es ein Montag.",
+          "lv": "Så vidt jeg husker, var det en mandag."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich erinnern",
+          "meaning": "huske, erindre",
+          "example": "Ich erinnere mich an den Urlaub. – Jeg husker ferien."
+        },
+        {
+          "word": "gedenken",
+          "meaning": "mindes",
+          "example": "Wir gedenken der Opfer. – Vi mindes ofrene."
+        },
+        {
+          "word": "vergessen",
+          "meaning": "glemme",
+          "example": "Ich habe seinen Namen vergessen. – Jeg har glemt hans navn."
+        }
+      ],
+      "tip": [
+        "I hverdagssprog bruger man sich erinnern an + akkusativ; sich entsinnen hører til skriftsproget og en højere stil.",
+        "Fast vending: Soviel ich mich entsinne."
+      ],
+      "important": [
+        "Formerne er usædvanlige: entsann, hat sich entsonnen.",
+        "Forveksl ikke sich entsinnen (huske) med gedenken (mindes)."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich entsinnen"
+            "entsinnen",
+            "entsinne",
+            "entsann",
+            "entsonnen"
+          ],
+          "purple": [
+            "erindre sig",
+            "huske",
+            "så vidt jeg husker"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "entsinne"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "husker"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "entsinnen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "huske"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "entsann"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "erindrede"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "entsinne"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "husker"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich erinnern"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "huske"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "gedenken"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "mindes"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "vergessen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "glemme"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -4154,31 +9409,31 @@ const B2_WORDS = [
   },
   {
     "de": "entstellen",
-    "lv": "Forvrænge • Vansire",
+    "lv": "At forvrænge • At vansire",
     "level": "B2"
   },
   {
     "de": "entweichen",
-    "lv": "Undslippe • Sive ud",
+    "lv": "At undslippe • At sive ud",
     "level": "B2"
   },
   {
     "de": "entwerfen",
-    "lv": "Cast • Omrids",
+    "lv": "At skitsere • At udkaste",
     "level": "B2"
   },
   {
     "de": "Entwerter",
     "de_article": "der",
     "de_plural": "die Entwerter",
-    "lv": "Komposter",
+    "lv": "Billetstempler",
     "level": "B2"
   },
   {
     "de": "Entwertung",
     "de_article": "die",
     "de_plural": "die Entwertungen",
-    "lv": "Sænkning af værdi • Devaluering",
+    "lv": "Værdiforringelse • Devaluering",
     "level": "B2"
   },
   {
@@ -4190,17 +9445,17 @@ const B2_WORDS = [
   },
   {
     "de": "entwurzeln",
-    "lv": "Rykke op med rode • Rodrive",
+    "lv": "At rykke op med rode • At udrydde",
     "level": "B2"
   },
   {
     "de": "entziehen",
-    "lv": "Fratage • Unddrage",
+    "lv": "At fratage • At unddrage",
     "level": "B2"
   },
   {
     "de": "entziffern",
-    "lv": "Dechifrere",
+    "lv": "At dechifrere • At tyde",
     "level": "B2"
   },
   {
@@ -4210,17 +9465,17 @@ const B2_WORDS = [
   },
   {
     "de": "entzückt",
-    "lv": "Ophidset",
+    "lv": "Henrykt • Begejstret",
     "level": "B2"
   },
   {
     "de": "entzünden",
-    "lv": "Antænde • Tænde",
+    "lv": "At antænde • At tænde",
     "level": "B2"
   },
   {
     "de": "sich entzünden",
-    "lv": "Antændes • Blive betændt",
+    "lv": "At antændes • At blive betændt",
     "level": "B2"
   },
   {
@@ -4234,7 +9489,7 @@ const B2_WORDS = [
     "de": "Epidemie",
     "de_article": "die",
     "de_plural": "die Epidemien",
-    "lv": "En epidemi",
+    "lv": "Epidemi",
     "level": "B2"
   },
   {
@@ -4247,30 +9502,173 @@ const B2_WORDS = [
   {
     "de": "Erachten",
     "de_article": "das",
-    "lv": "Tanker • Indsigt",
+    "lv": "Mening • Skøn",
     "level": "B2"
   },
   {
     "de": "sich erbarmen",
-    "lv": "To have mercy • To have mercy",
+    "lv": "At forbarme sig",
     "level": "B2",
     "study": {
       "id": "b2-sich-erbarmen",
-      "layout": "minimalStudy",
-      "translation": "To have mercy • To have mercy",
-      "rektion": "über + ko?",
-      "explanation": "Sich erbarmen kræver den bestemte præposition über + ko?.",
-      "forms": "über + ko?",
-      "formsLabel": "Management:",
+      "layout": "standardStudy",
+      "translation": "At forbarme sig",
+      "explanation": [
+        "Hovedidé: sich erbarmen betyder at føle medlidenhed med en, der lider, og hjælpe eller vise barmhjertighed – at forbarme sig over nogen. Sproget er højtideligt, ofte religiøst eller ironisk.",
+        "Efter det følger som regel genitiv: sich des Hundes erbarmen. Sjældnere bruges über + akkusativ. Former: erbarmt sich, erbarmte sich, hat sich erbarmt.",
+        "I dagligsprog i spøg: Wer erbarmt sich und …? – Hvem forbarmer sig og …?"
+      ],
+      "examples": [
+        {
+          "de": "Der Richter erbarmte sich des Angeklagten.",
+          "lv": "Dommeren forbarmede sig over den anklagede."
+        },
+        {
+          "de": "Erbarme dich meiner!",
+          "lv": "Forbarm dig over mig!"
+        },
+        {
+          "de": "Endlich erbarmte sich jemand des hungrigen Hundes.",
+          "lv": "Endelig forbarmede nogen sig over den sultne hund."
+        },
+        {
+          "de": "Wer erbarmt sich und holt mir einen Kaffee?",
+          "lv": "Hvem forbarmer sig og henter en kop kaffe til mig?"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "begnadigen",
+          "meaning": "benåde",
+          "example": "Der Präsident begnadigt den Häftling. – Præsidenten benåder fangen."
+        },
+        {
+          "word": "Mitleid haben",
+          "meaning": "have medlidenhed",
+          "example": "Ich habe Mitleid mit ihr. – Jeg har ondt af hende."
+        },
+        {
+          "word": "helfen",
+          "meaning": "hjælpe",
+          "example": "Er hilft dem Nachbarn. – Han hjælper naboen."
+        }
+      ],
+      "tip": [
+        "Efter sich erbarmen sætter du genitiv: sich der Kinder erbarmen.",
+        "Typisk bøn: Herr, erbarme dich! (Herre, forbarm dig!)"
+      ],
+      "important": [
+        "Ordet er stilistisk højtideligt; i hverdagen siger man Mitleid haben eller helfen.",
+        "Forveksl det ikke med begnadigen (benåde juridisk, f.eks. en dømt)."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich erbarmen"
+            "sich erbarmen",
+            "erbarmt"
           ],
-          "red": [
-            "über + ko?"
+          "purple": [
+            "forbarme sig",
+            "vise barmhjertighed",
+            "forbarmer sig"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "erbarmte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "forbarmede sig"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Erbarme"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Forbarm dig"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "erbarmte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "forbarmede"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "erbarmt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "forbarmer sig"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "begnadigen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "benåde"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "Mitleid haben"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "have medlidenhed"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "helfen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "hjælpe"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -4278,19 +9676,19 @@ const B2_WORDS = [
     "de": "Erbauer",
     "de_article": "der",
     "de_plural": "die Erbauer",
-    "lv": "Løfter",
+    "lv": "Bygherre • Bygmester",
     "level": "B2"
   },
   {
     "de": "Erbanspruch",
     "de_article": "der",
     "de_plural": "die Erbansprüche",
-    "lv": "Arverettigheder",
+    "lv": "Arvekrav • Arveret",
     "level": "B2"
   },
   {
     "de": "erbrechen",
-    "lv": "Break open • Hack",
+    "lv": "At kaste op • At brække sig",
     "level": "B2"
   },
   {
@@ -4302,7 +9700,7 @@ const B2_WORDS = [
   },
   {
     "de": "erdrücken",
-    "lv": "For at undertrykke • For at undertrykke",
+    "lv": "At knuse • At undertrykke",
     "level": "B2"
   },
   {
@@ -4316,54 +9714,214 @@ const B2_WORDS = [
     "de": "Erdsatellit",
     "de_article": "der",
     "de_plural": "die Erdsatelliten",
-    "lv": "Jordens kunstige satellit",
+    "lv": "Jordsatellit • Kunstig satellit",
     "level": "B2"
   },
   {
     "de": "Erdtrabant",
     "de_article": "der",
     "de_plural": "die Erdtrabanten",
-    "lv": "Jordens følgesvend",
+    "lv": "Måne • Jordsatellit",
     "level": "B2"
   },
   {
     "de": "erfassen",
-    "lv": "Grib • Forstå",
+    "lv": "At gribe • At forstå",
     "level": "B2"
   },
   {
     "de": "erforschen",
-    "lv": "Udforsk • Find ud af det",
+    "lv": "At udforske • At undersøge",
     "level": "B2"
   },
   {
     "de": "Erfrierung",
     "de_article": "die",
     "de_plural": "die Erfrierungen",
-    "lv": "Forfrysninger",
+    "lv": "Forfrysning",
     "level": "B2"
   },
   {
     "de": "sich ergeben",
-    "lv": "Til resultat • At give op",
+    "lv": "At fremgå • At overgive sig",
     "level": "B2",
     "study": {
       "id": "b2-sich-ergeben",
-      "layout": "minimalStudy",
-      "translation": "Til resultat • At give op",
-      "rektion": "aus + kam?",
-      "explanation": "Sich ergeben kræver den bestemte præposition aus + kam?.",
-      "forms": "aus + kam?",
-      "formsLabel": "Management:",
+      "layout": "standardStudy",
+      "translation": "At fremgå • At overgive sig",
+      "explanation": [
+        "Hovedidé: sich ergeben er et ord med to betydninger. Med aus + dativ betyder det at fremgå eller opstå som følge af noget: Aus dem Test ergibt sich ein Problem. Med dativ uden forholdsord betyder det at overgive sig eller underkaste sig: sich dem Feind ergeben.",
+        "Former: ergibt sich, ergab sich, hat sich ergeben. I betydningen fremgå er grundleddet som regel en ting (es, ein Problem, eine Chance), så udsagnsordet står i 3. person.",
+        "I betydningen overgive sig er grundleddet et menneske: sich ergeben, sich in sein Schicksal ergeben (affinde sig med sin skæbne)."
+      ],
+      "examples": [
+        {
+          "de": "Aus dem Gespräch ergab sich ein neues Projekt.",
+          "lv": "Ud af samtalen opstod et nyt projekt."
+        },
+        {
+          "de": "Daraus ergibt sich ein Problem.",
+          "lv": "Deraf følger et problem."
+        },
+        {
+          "de": "Die Soldaten ergaben sich dem Feind.",
+          "lv": "Soldaterne overgav sig til fjenden."
+        },
+        {
+          "de": "Er hat sich in sein Schicksal ergeben.",
+          "lv": "Han har affundet sig med sin skæbne."
+        },
+        {
+          "de": "Ergib dich!",
+          "lv": "Overgiv dig!"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "ergeben",
+          "meaning": "give (som resultat)",
+          "example": "Die Rechnung ergibt 50 Euro. – Beregningen giver 50 euro."
+        },
+        {
+          "word": "folgen",
+          "meaning": "følge",
+          "example": "Daraus folgt nichts. – Deraf følger intet."
+        },
+        {
+          "word": "aufgeben",
+          "meaning": "give op",
+          "example": "Er gibt nicht auf. – Han giver ikke op."
+        }
+      ],
+      "tip": [
+        "Til betydningen fremgå skal du lære Daraus ergibt sich, dass … – deraf følger, at …",
+        "Når det handler om underkastelse, følger ofte dativ: sich dem Willen ergeben."
+      ],
+      "important": [
+        "Forveksl det ikke med ergeben uden sich: det betyder at give et resultat (Das ergibt Sinn).",
+        "Betydningen afgøres som regel af grundleddet: en ting – fremgår, et menneske – overgiver sig."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich ergeben"
+            "ergeben",
+            "ergibt",
+            "ergab"
           ],
-          "red": [
-            "aus + kam?"
+          "purple": [
+            "fremgå",
+            "overgive sig",
+            "affinde sig"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "ergab"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "opstod"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ergibt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "følger"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ergaben"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "overgav sig"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ergeben"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "affundet sig"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Ergib"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Overgiv dig"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "ergeben"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "give"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "folgen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "følge"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "aufgeben"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "give op"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -4374,7 +9932,7 @@ const B2_WORDS = [
   },
   {
     "de": "ergrauen",
-    "lv": "Bliver grå",
+    "lv": "At blive grå • At gråne",
     "level": "B2"
   },
   {
@@ -4384,22 +9942,22 @@ const B2_WORDS = [
   },
   {
     "de": "erheben",
-    "lv": "Hæve • Rejse",
+    "lv": "At hæve • At rejse",
     "level": "B2"
   },
   {
     "de": "sich erheben",
-    "lv": "Rejse sig • Hæve sig",
+    "lv": "At rejse sig • At hæve sig",
     "level": "B2"
   },
   {
     "de": "erheblich",
-    "lv": "Bemærkelsesværdig • Vigtigt",
+    "lv": "Betydelig • Væsentlig",
     "level": "B2"
   },
   {
     "de": "erkämpfen",
-    "lv": "At vinde",
+    "lv": "At tilkæmpe sig • At vinde",
     "level": "B2"
   },
   {
@@ -4411,7 +9969,7 @@ const B2_WORDS = [
   },
   {
     "de": "erlangen",
-    "lv": "Opnå • Erhverve",
+    "lv": "At opnå • At erhverve",
     "level": "B2"
   },
   {
@@ -4423,34 +9981,34 @@ const B2_WORDS = [
   },
   {
     "de": "erlassen",
-    "lv": "Udstede • Eftergive",
+    "lv": "At udstede • At eftergive",
     "level": "B2"
   },
   {
     "de": "erläutern",
-    "lv": "Forklar • Forklar",
+    "lv": "At forklare • At uddybe",
     "level": "B2"
   },
   {
     "de": "Erle",
     "de_article": "die",
     "de_plural": "die Erlen",
-    "lv": "Alder",
+    "lv": "El • Elletræ",
     "level": "B2"
   },
   {
     "de": "erleiden",
-    "lv": "Lide • Pådrage sig",
+    "lv": "At lide • At pådrage sig",
     "level": "B2"
   },
   {
     "de": "erlöschen",
-    "lv": "Slukke • Udløbe",
+    "lv": "At gå ud • At udløbe",
     "level": "B2"
   },
   {
     "de": "ermächtigen",
-    "lv": "Bemyndige",
+    "lv": "At bemyndige",
     "level": "B2"
   },
   {
@@ -4460,35 +10018,179 @@ const B2_WORDS = [
   },
   {
     "de": "ermitteln",
-    "lv": "Find ud af • Find ud af",
+    "lv": "At finde ud af • At efterforske",
     "level": "B2"
   },
   {
     "de": "erniedrigen",
-    "lv": "Sænke • Ydmyge",
+    "lv": "At sænke • At ydmyge",
     "level": "B2"
   },
   {
     "de": "sich erniedrigen",
-    "lv": "Ydmyg dig selv",
+    "lv": "At ydmyge sig",
     "level": "B2",
     "study": {
       "id": "b2-sich-erniedrigen",
-      "layout": "minimalStudy",
-      "translation": "Ydmyg dig selv",
-      "rektion": "vor + kam?",
-      "explanation": "Sich erniedrigen kræver den bestemte præposition vor + kam?.",
-      "forms": "vor + kam?",
-      "formsLabel": "Management:",
+      "layout": "standardStudy",
+      "translation": "At ydmyge sig",
+      "explanation": [
+        "Hovedidé: sich erniedrigen betyder at ydmyge sig selv, at opføre sig sådan, at man mister sin værdighed – f.eks. ved at tigge eller krybe for nogen.",
+        "Hvem man ydmyger sig over for, angives med vor + dativ: sich vor dem Chef erniedrigen. Former: erniedrigt sich, erniedrigte sich, hat sich erniedrigt.",
+        "Uden sich betyder erniedrigen at ydmyge en anden: Er erniedrigt seine Kollegen. Sammenlign dansk fornedre."
+      ],
+      "examples": [
+        {
+          "de": "Ich erniedrige mich nicht vor dem Chef.",
+          "lv": "Jeg ydmyger mig ikke over for chefen."
+        },
+        {
+          "de": "Er hat sich erniedrigt, um Geld zu bitten.",
+          "lv": "Han har ydmyget sig ved at bede om penge."
+        },
+        {
+          "de": "Sie erniedrigte sich nie vor anderen.",
+          "lv": "Hun ydmygede sig aldrig over for andre."
+        },
+        {
+          "de": "So tief würde ich mich nicht erniedrigen.",
+          "lv": "Så dybt ville jeg ikke nedværdige mig."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "demütigen",
+          "meaning": "ydmyge",
+          "example": "Er demütigt seinen Gegner vor allen. – Han ydmyger sin modstander foran alle."
+        },
+        {
+          "word": "sich unterwerfen",
+          "meaning": "underkaste sig",
+          "example": "Er unterwirft sich dem Willen des Königs. – Han underkaster sig kongens vilje."
+        },
+        {
+          "word": "sich blamieren",
+          "meaning": "blamere sig, dumme sig",
+          "example": "Er hat sich vor allen blamiert. – Han har blameret sig foran alle."
+        }
+      ],
+      "tip": [
+        "Med vor + dativ nævner du den, man ydmyger sig over for.",
+        "Skeln mellem sich erniedrigen – man ydmyger sig selv – og jemanden erniedrigen – man ydmyger en anden."
+      ],
+      "important": [
+        "Efter vor følger dativ: vor dem Chef, vor anderen.",
+        "Passivformen erniedrigt werden betyder at blive ydmyget."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich erniedrigen"
+            "erniedrigen",
+            "erniedrigt",
+            "erniedrigte"
           ],
-          "red": [
-            "vor + kam?"
+          "purple": [
+            "ydmyge sig",
+            "ydmyger sig",
+            "ydmyge"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "erniedrige"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ydmyger mig"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "erniedrigt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ydmyget sig"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "erniedrigte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ydmygede sig"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "erniedrigen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nedværdige mig"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "demütigen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ydmyge"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich unterwerfen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "underkaste sig"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich blamieren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "blamere sig"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -4496,7 +10198,7 @@ const B2_WORDS = [
     "de": "Ernteertrag",
     "de_article": "der",
     "de_plural": "die Ernteerträge",
-    "lv": "Afgrøde",
+    "lv": "Høstudbytte",
     "level": "B2"
   },
   {
@@ -4508,40 +10210,184 @@ const B2_WORDS = [
   },
   {
     "de": "erörtern",
-    "lv": "Diskuter • Diskuter",
+    "lv": "At drøfte • At diskutere",
     "level": "B2"
   },
   {
     "de": "erpressen",
-    "lv": "Afpresse",
+    "lv": "At afpresse",
     "level": "B2"
   },
   {
     "de": "erregen",
-    "lv": "Ophidse • Vække",
+    "lv": "At ophidse • At vække",
     "level": "B2"
   },
   {
     "de": "sich erregen",
-    "lv": "Bekymre dig om",
+    "lv": "At ophidse sig",
     "level": "B2",
     "study": {
       "id": "b2-sich-erregen",
-      "layout": "minimalStudy",
-      "translation": "Bekymre dig om",
-      "rektion": "über + ko?",
-      "explanation": "Sich erregen kræver den bestemte præposition über + ko?.",
-      "forms": "über + ko?",
-      "formsLabel": "Management:",
+      "layout": "standardStudy",
+      "translation": "At ophidse sig",
+      "explanation": [
+        "Hovedidé: sich erregen betyder at ophidse sig eller blive oprørt over noget – reagere følelsesmæssigt, ofte vredt. Hvad man ophidser sig over, angives med über + akkusativ: sich über die Kosten erregen.",
+        "Former: erregt sich, erregte sich, hat sich erregt. I hverdagen siger man i denne betydning oftere sich aufregen; sich erregen er mere skriftsprogligt.",
+        "Uden sich betyder erregen at vække eller fremkalde: Aufmerksamkeit erregen – vække opmærksomhed."
+      ],
+      "examples": [
+        {
+          "de": "Er erregt sich über jede Kleinigkeit.",
+          "lv": "Han ophidser sig over hver eneste lille ting."
+        },
+        {
+          "de": "Warum erregst du dich so über die Nachricht?",
+          "lv": "Hvorfor ophidser du dig sådan over nyheden?"
+        },
+        {
+          "de": "Sie erregte sich über die ungerechte Note.",
+          "lv": "Hun ophidsede sig over den uretfærdige karakter."
+        },
+        {
+          "de": "Das Publikum hat sich über den Skandal erregt.",
+          "lv": "Publikum blev forarget over skandalen."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich aufregen",
+          "meaning": "hidse sig op",
+          "example": "Er regt sich über den Lärm auf. – Han hidser sig op over larmen."
+        },
+        {
+          "word": "erregen",
+          "meaning": "vække, fremkalde",
+          "example": "Das Bild erregt Aufsehen. – Billedet vækker opsigt."
+        },
+        {
+          "word": "sich beruhigen",
+          "meaning": "falde til ro",
+          "example": "Beruhige dich! – Fald nu ned!"
+        }
+      ],
+      "tip": [
+        "I hverdagen siger du Reg dich nicht auf!, men i skrift kan du vælge sich erregen.",
+        "Årsagen angives som regel med über + akkusativ."
+      ],
+      "important": [
+        "Forveksl det ikke med erregen uden sich (vække, ophidse).",
+        "Efter über følger akkusativ: über die Nachricht."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich erregen"
+            "erregen",
+            "erregt",
+            "erregte"
           ],
-          "red": [
-            "über + ko?"
+          "purple": [
+            "ophidse sig",
+            "ophidser sig",
+            "blive oprørt"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "erregt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ophidser sig"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "erregst"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ophidser du dig"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "erregte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ophidsede sig"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "erregt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "forarget"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich aufregen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "hidse sig op"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "erregen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "vække"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich beruhigen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "falde til ro"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -4549,7 +10395,7 @@ const B2_WORDS = [
     "de": "Erreger",
     "de_article": "der",
     "de_plural": "die Erreger",
-    "lv": "Sygdomsmiddel • Virus",
+    "lv": "Sygdomsfremkalder • Smitstof",
     "level": "B2"
   },
   {
@@ -4576,22 +10422,22 @@ const B2_WORDS = [
   },
   {
     "de": "erschlagen",
-    "lv": "Slå af",
+    "lv": "At slå ihjel",
     "level": "B2"
   },
   {
     "de": "erschöpfen",
-    "lv": "Til udstødning • At trætte",
+    "lv": "At udtømme • At udmatte",
     "level": "B2"
   },
   {
     "de": "erschüttern",
-    "lv": "Ryste • Chokere",
+    "lv": "At ryste • At chokere",
     "level": "B2"
   },
   {
     "de": "erschweren",
-    "lv": "Gør det svært • Gør det sværere",
+    "lv": "At besværliggøre • At vanskeliggøre",
     "level": "B2"
   },
   {
@@ -4601,29 +10447,29 @@ const B2_WORDS = [
   },
   {
     "de": "ersparen",
-    "lv": "Spare • Skåne",
+    "lv": "At spare • At skåne",
     "level": "B2"
   },
   {
     "de": "Ersparnis",
     "de_article": "die",
     "de_plural": "die Ersparnisse",
-    "lv": "Besparelser • Besparelser",
+    "lv": "Besparelse • Opsparing",
     "level": "B2"
   },
   {
     "de": "erstarren",
-    "lv": "Frys op",
+    "lv": "At stivne",
     "level": "B2"
   },
   {
     "de": "ersticken",
-    "lv": "Kvæle • Kvæles",
+    "lv": "At kvæle • At kvæles",
     "level": "B2"
   },
   {
     "de": "sich erstrecken",
-    "lv": "Strække sig • Brede sig",
+    "lv": "At strække sig • At brede sig",
     "level": "B2"
   },
   {
@@ -4633,17 +10479,17 @@ const B2_WORDS = [
   },
   {
     "de": "ertönen",
-    "lv": "Genlyd • Genlyd",
+    "lv": "At lyde • At runge",
     "level": "B2"
   },
   {
     "de": "ertragen",
-    "lv": "Tåle • Affinde sig med",
+    "lv": "At tåle • At affinde sig med",
     "level": "B2"
   },
   {
     "de": "erträglich",
-    "lv": "Tolerabel • Tolerabel",
+    "lv": "Tålelig • Udholdelig",
     "level": "B2"
   },
   {
@@ -4655,35 +10501,183 @@ const B2_WORDS = [
     "de": "Erwägung",
     "de_article": "die",
     "de_plural": "die Erwägungen",
-    "lv": "Hensyn • Hensyn",
+    "lv": "Overvejelse • Hensyn",
     "level": "B2"
   },
   {
     "de": "erweisen",
-    "lv": "Vise • Yde",
+    "lv": "At vise • At yde",
     "level": "B2"
   },
   {
     "de": "sich erweisen",
-    "lv": "Vis sig at være",
+    "lv": "At vise sig",
     "level": "B2",
     "study": {
       "id": "b2-sich-erweisen",
-      "layout": "minimalStudy",
-      "translation": "Vis sig at være",
-      "rektion": "als + kas?",
-      "explanation": "Sich erweisen kræver den bestemte præposition als + hvad?.",
-      "forms": "als + kas?",
-      "formsLabel": "Management:",
+      "layout": "standardStudy",
+      "translation": "At vise sig",
+      "explanation": [
+        "Hovedidé: sich erweisen als betyder at vise sig at være noget – med tiden bliver det klart, hvordan nogen eller noget i virkeligheden er. Efter als står ordet i samme kasus som grundleddet, som regel nominativ: Das erwies sich als Fehler.",
+        "Former: erweist sich, erwies sich, hat sich erwiesen. Det bruges ofte i 3. person om en ting, men kan også bruges om et menneske: Er erwies sich als zuverlässig.",
+        "Konstruktionen ligger tæt på sich herausstellen als; sich erweisen er lidt mere formelt."
+      ],
+      "examples": [
+        {
+          "de": "Das Medikament erwies sich als sehr wirksam.",
+          "lv": "Medicinen viste sig at være meget virkningsfuld."
+        },
+        {
+          "de": "Er hat sich als zuverlässiger Partner erwiesen.",
+          "lv": "Han har vist sig at være en pålidelig partner."
+        },
+        {
+          "de": "Die Information erwies sich als falsch.",
+          "lv": "Oplysningen viste sig at være forkert."
+        },
+        {
+          "de": "Der Plan wird sich als Erfolg erweisen.",
+          "lv": "Planen vil vise sig at blive en succes."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich herausstellen",
+          "meaning": "vise sig",
+          "example": "Es stellte sich heraus, dass er recht hatte. – Det viste sig, at han havde ret."
+        },
+        {
+          "word": "scheinen",
+          "meaning": "synes, se ud til",
+          "example": "Das scheint richtig zu sein. – Det ser ud til at være rigtigt."
+        },
+        {
+          "word": "beweisen",
+          "meaning": "bevise",
+          "example": "Er beweist seinen Mut. – Han beviser sit mod."
+        }
+      ],
+      "tip": [
+        "Brug mønsteret sich als + tillægsord/navneord erweisen.",
+        "Efter als står der intet kendeord, hvis der kun følger et tillægsord: als wirksam."
+      ],
+      "important": [
+        "Efter als står navneordet som regel i samme kasus som grundleddet: Er erwies sich als guter Freund.",
+        "Forveksl det ikke med erweisen uden sich (vise, yde): einen Dienst erweisen (yde en tjeneste)."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich erweisen"
+            "sich erweisen",
+            "erwies",
+            "erweist",
+            "erwiesen",
+            "erweisen"
           ],
-          "red": [
-            "Sich"
+          "purple": [
+            "vise sig at være"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "erwies",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "viste sig"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sich",
+                "erwiesen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vist sig"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "erwies",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "viste sig"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sich",
+                "erweisen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vise sig"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich herausstellen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "vise sig"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "scheinen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "synes"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "beweisen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "bevise"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -4696,7 +10690,7 @@ const B2_WORDS = [
   },
   {
     "de": "erwerben",
-    "lv": "Erhverve • Anskaffe",
+    "lv": "At erhverve • At anskaffe",
     "level": "B2"
   },
   {
@@ -4708,26 +10702,26 @@ const B2_WORDS = [
   },
   {
     "de": "erzielen",
-    "lv": "Opnå",
+    "lv": "At opnå",
     "level": "B2"
   },
   {
     "de": "erzürnen",
-    "lv": "Bliv vred",
+    "lv": "At gøre vred • At ophidse",
     "level": "B2"
   },
   {
     "de": "Esche",
     "de_article": "die",
     "de_plural": "die Eschen",
-    "lv": "Aske",
+    "lv": "Ask",
     "level": "B2"
   },
   {
     "de": "Espe",
     "de_article": "die",
     "de_plural": "die Espen",
-    "lv": "Aspen",
+    "lv": "Asp",
     "level": "B2"
   },
   {
@@ -4739,7 +10733,7 @@ const B2_WORDS = [
   },
   {
     "de": "europaweit",
-    "lv": "På en paneuropæisk skala",
+    "lv": "Europadækkende • I hele Europa",
     "level": "B2"
   },
   {
@@ -4751,21 +10745,21 @@ const B2_WORDS = [
   },
   {
     "de": "exekutieren",
-    "lv": "Udfør dødsstraf",
+    "lv": "At henrette",
     "level": "B2"
   },
   {
     "de": "Exekutive",
     "de_article": "die",
     "de_plural": "die Exekutiven",
-    "lv": "Udøvende organ",
+    "lv": "Udøvende magt",
     "level": "B2"
   },
   {
     "de": "Exil",
     "de_article": "das",
     "de_plural": "die Exile",
-    "lv": "Forvisning • Forvisning",
+    "lv": "Eksil • Landflygtighed",
     "level": "B2"
   },
   {
@@ -4789,24 +10783,24 @@ const B2_WORDS = [
   },
   {
     "de": "expandieren",
-    "lv": "Vokse hurtigt • Udvid",
+    "lv": "At ekspandere • At udvide sig",
     "level": "B2"
   },
   {
     "de": "Export",
     "de_article": "der",
     "de_plural": "die Exporte",
-    "lv": "Eksport • Eksport",
+    "lv": "Eksport • Udførsel",
     "level": "B2"
   },
   {
     "de": "exportieren",
-    "lv": "Eksport • Tag ud",
+    "lv": "At eksportere • At udføre",
     "level": "B2"
   },
   {
     "de": "exquisit",
-    "lv": "Undersøgt • Subtil",
+    "lv": "Udsøgt • Fin",
     "level": "B2"
   },
   {
@@ -4819,14 +10813,14 @@ const B2_WORDS = [
     "de": "Fabel",
     "de_article": "die",
     "de_plural": "die Fabeln",
-    "lv": "En fabel",
+    "lv": "Fabel",
     "level": "B2"
   },
   {
     "de": "Fabrikat",
     "de_article": "das",
     "de_plural": "die Fabrikate",
-    "lv": "Industriel produktion • Produkt",
+    "lv": "Fabrikat • Produkt",
     "level": "B2"
   },
   {
@@ -4838,7 +10832,7 @@ const B2_WORDS = [
   },
   {
     "de": "fachmännisch",
-    "lv": "Dygtig",
+    "lv": "Fagkyndig • Fagmæssig",
     "level": "B2"
   },
   {
@@ -4855,7 +10849,7 @@ const B2_WORDS = [
   },
   {
     "de": "fahnden",
-    "lv": "Søg intensivt",
+    "lv": "At efterlyse • At eftersøge",
     "level": "B2"
   },
   {
@@ -4869,13 +10863,13 @@ const B2_WORDS = [
     "de": "Fahrdamm",
     "de_article": "der",
     "de_plural": "die Fahrdämme",
-    "lv": "Kørbar del af gaden • Fortov",
+    "lv": "Kørebane",
     "level": "B2"
   },
   {
     "de": "Fahrerflucht",
     "de_article": "die",
-    "lv": "Forlader ulykkesstedet",
+    "lv": "Flugtbilisme",
     "level": "B2"
   },
   {
@@ -4887,31 +10881,31 @@ const B2_WORDS = [
     "de": "Falke",
     "de_article": "der",
     "de_plural": "die Falken",
-    "lv": "En høg",
+    "lv": "Falk",
     "level": "B2"
   },
   {
     "de": "Fallschirmturm",
     "de_article": "der",
     "de_plural": "die Fallschirmtürme",
-    "lv": "Faldskærmsudspringer tårn",
+    "lv": "Faldskærmstårn",
     "level": "B2"
   },
   {
     "de": "Falltür",
     "de_article": "die",
     "de_plural": "die Falltüren",
-    "lv": "Luge • Dør indbygget i gulvet",
+    "lv": "Faldlem • Lem",
     "level": "B2"
   },
   {
     "de": "fälschen",
-    "lv": "At fake",
+    "lv": "At forfalske",
     "level": "B2"
   },
   {
     "de": "fälschlich",
-    "lv": "Misforstået • Forkert",
+    "lv": "Fejlagtig • Forkert",
     "level": "B2"
   },
   {
@@ -4925,7 +10919,7 @@ const B2_WORDS = [
     "de": "Farbige",
     "de_article": "der",
     "de_plural": "die Farbigen",
-    "lv": "Den farvede mand",
+    "lv": "Farvet person",
     "level": "B2"
   },
   {
@@ -4975,21 +10969,163 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-fassen",
-      "layout": "minimalStudy",
-      "translation": "At gribe • At modtage • At tilbageholde",
-      "rektion": "an + kam?",
-      "explanation": "Sich fassen kræver den bestemte præposition an + kam?.",
-      "forms": "an + kam?",
-      "formsLabel": "Management:",
+      "layout": "standardStudy",
+      "translation": "At tage sig sammen • At fatte sig",
+      "explanation": [
+        "Hovedidé: sich fassen betyder at tage sig sammen og genvinde roen efter et chok eller en sindsbevægelse – at fatte sig. Former: fasst sich, fasste sich, hat sich gefasst. Det tager intet forholdsord.",
+        "Den faste vending sich kurz fassen betyder at fatte sig i korthed: Fassen Sie sich bitte kurz! Uden sich betyder fassen at gribe eller tage fat i (jemanden am Arm fassen) og også at træffe en beslutning (einen Entschluss fassen – jf. dansk fatte en beslutning)."
+      ],
+      "examples": [
+        {
+          "de": "Nach dem Schock fasste sie sich schnell.",
+          "lv": "Efter chokket fattede hun sig hurtigt."
+        },
+        {
+          "de": "Fass dich kurz, ich habe wenig Zeit.",
+          "lv": "Fat dig i korthed, jeg har ikke meget tid."
+        },
+        {
+          "de": "Er konnte sich vor Wut kaum fassen.",
+          "lv": "Han kunne næsten ikke styre sig af raseri."
+        },
+        {
+          "de": "Ich muss mich erst einmal fassen.",
+          "lv": "Jeg må lige tage mig sammen først."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "fassen",
+          "meaning": "gribe",
+          "example": "Das Kind fasst die Hand der Mutter. – Barnet griber moderens hånd."
+        },
+        {
+          "word": "sich beherrschen",
+          "meaning": "beherske sig",
+          "example": "Sie beherrscht sich trotz der Kritik. – Hun behersker sig trods kritikken."
+        },
+        {
+          "word": "sich beruhigen",
+          "meaning": "falde til ro",
+          "example": "Nach dem Streit beruhigt er sich langsam. – Efter skænderiet falder han langsomt til ro."
+        }
+      ],
+      "tip": [
+        "Efter en stor nyhed kan du sige Ich muss mich erst fassen – jeg må lige tage mig sammen.",
+        "Når du beder nogen om at fatte sig i korthed, siger du Fassen Sie sich kurz!"
+      ],
+      "important": [
+        "Forveksl ikke sich fassen (tage sig sammen) med fassen uden sich (gribe, begribe).",
+        "I vendingen sich kurz fassen bøjes kurz ikke."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich fassen"
+            "sich fassen",
+            "fasst sich"
           ],
-          "red": [
-            "an + kam?"
+          "purple": [
+            "tage sig sammen",
+            "fatte sig",
+            "fatte sig i korthed"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "fasste"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "fattede"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Fass"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Fat dig i korthed"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fassen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "styre sig"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fassen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tage mig sammen"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "fassen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "gribe"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich beherrschen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "beherske sig"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich beruhigen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "falde til ro"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -5002,19 +11138,19 @@ const B2_WORDS = [
   },
   {
     "de": "fassungslos",
-    "lv": "Overrasket • Chokeret",
+    "lv": "Målløs • Chokeret",
     "level": "B2"
   },
   {
     "de": "Faulbaum",
     "de_article": "der",
     "de_plural": "die Faulbäume",
-    "lv": "Eva",
+    "lv": "Tørst (busk)",
     "level": "B2"
   },
   {
     "de": "fechten",
-    "lv": "Fægtning",
+    "lv": "At fægte",
     "level": "B2"
   },
   {
@@ -5026,7 +11162,7 @@ const B2_WORDS = [
   },
   {
     "de": "feilen",
-    "lv": "At skuffe",
+    "lv": "At file",
     "level": "B2"
   },
   {
@@ -5051,12 +11187,12 @@ const B2_WORDS = [
     "de": "Ferkel",
     "de_article": "der",
     "de_plural": "die Ferkel",
-    "lv": "En pattegrise",
+    "lv": "Pattegris",
     "level": "B2"
   },
   {
     "de": "fernstudieren",
-    "lv": "Undersøgelse ved korrespondance",
+    "lv": "At studere via fjernundervisning",
     "level": "B2"
   },
   {
@@ -5070,19 +11206,19 @@ const B2_WORDS = [
     "de": "Fessel",
     "de_article": "die",
     "de_plural": "die Fesseln",
-    "lv": "Kæde • Sjækler",
+    "lv": "Lænke • Fodlænke",
     "level": "B2"
   },
   {
     "de": "festigen",
-    "lv": "Strengthen • Strengthen",
+    "lv": "At styrke • At befæste",
     "level": "B2"
   },
   {
     "de": "Festigkeit",
     "de_article": "die",
     "de_plural": "die Festigkeiten",
-    "lv": "Hårdhed",
+    "lv": "Fasthed • Styrke",
     "level": "B2"
   },
   {
@@ -5102,7 +11238,7 @@ const B2_WORDS = [
     "de": "Fetzen",
     "de_article": "der",
     "de_plural": "die Fetzen",
-    "lv": "Mave • Risiko",
+    "lv": "Las • Pjalt",
     "level": "B2"
   },
   {
@@ -5140,7 +11276,7 @@ const B2_WORDS = [
   {
     "de": "Firmenkapital",
     "de_article": "das",
-    "lv": "Firmaets kapital",
+    "lv": "Selskabskapital",
     "level": "B2"
   },
   {
@@ -5168,46 +11304,227 @@ const B2_WORDS = [
     "de": "Flaum",
     "de_article": "der",
     "de_plural": null,
-    "lv": "Ned • Fnug",
+    "lv": "Dun • Fnug",
     "level": "B2"
   },
   {
     "de": "flauschig",
-    "lv": "Fluffy",
+    "lv": "Dunet • Blød",
     "level": "B2"
   },
   {
     "de": "flechten",
-    "lv": "Twist • Flet",
+    "lv": "At flette",
     "level": "B2"
   },
   {
     "de": "fleckig",
     "lv": "Plettet • Skjoldet",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-fleckig",
+      "layout": "standardStudy",
+      "translation": "Plettet • Skjoldet",
+      "explanation": [
+        "Hovedidé: fleckig er et tillægsord, der beskriver en overflade med pletter eller skjolder – snavset tøj, hud med pletter, et dyrs plettede pels.",
+        "Gradbøjning: fleckig, fleckiger, am fleckigsten. Det bruges både foran et navneord (ein fleckiges Hemd) og efter sein (Das Hemd ist fleckig). Stammen er der Fleck (plet), flertal die Flecken."
+      ],
+      "examples": [
+        {
+          "de": "Die Tischdecke ist fleckig.",
+          "lv": "Dugen er plettet."
+        },
+        {
+          "de": "Das Hemd ist nach dem Essen fleckig.",
+          "lv": "Skjorten har fået pletter efter maden."
+        },
+        {
+          "de": "Seine Haut war rot und fleckig.",
+          "lv": "Hans hud var rød og skjoldet."
+        },
+        {
+          "de": "Die Kuh hat ein fleckiges Fell.",
+          "lv": "Koen har en plettet pels."
+        },
+        {
+          "de": "Das Pferd hat ein braun-weißes, fleckiges Fell.",
+          "lv": "Hesten har en brun- og hvidplettet pels."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "gefleckt",
+          "meaning": "plettet, broget",
+          "example": "Der Hund ist schwarz-weiß gefleckt. – Hunden er sort- og hvidplettet."
+        },
+        {
+          "word": "schmutzig",
+          "meaning": "snavset",
+          "example": "Die Hose ist schmutzig. – Bukserne er snavsede."
+        },
+        {
+          "word": "gestreift",
+          "meaning": "stribet",
+          "example": "Er trägt ein gestreiftes Hemd. – Han har en stribet skjorte på."
+        }
+      ],
+      "tip": [
+        "Tænk på der Fleck: fleckig er det, der har Flecken.",
+        "Om et dyrs naturlige pletter bruges ofte gefleckt."
+      ],
+      "important": [
+        "Fleckig udtrykker ofte et uønsket eller ujævnt udseende (snavset tøj, røde pletter på huden).",
+        "Når der føjes en endelse til, så husk e: ein fleckiges Fell, eine fleckige Haut."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "fleckig",
+            "Fleck",
+            "Flecken",
+            "fleckiges",
+            "fleckiger",
+            "fleckigsten"
+          ],
+          "purple": [
+            "pletter",
+            "skjolder",
+            "plettede"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "fleckig"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "plettet"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fleckig"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pletter"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fleckig"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "skjoldet"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fleckiges"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "plettet"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fleckiges"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "hvidplettet"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "gefleckt"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "plettet"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "schmutzig"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "snavset"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "gestreift"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "stribet"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "fliederfarben",
-    "lv": "Lilla farve",
+    "lv": "Syrenfarvet • Lilla",
     "level": "B2"
   },
   {
     "de": "flimmern",
-    "lv": "Flimre • Blafre",
+    "lv": "At flimre • At blafre",
     "level": "B2"
   },
   {
     "de": "Flinte",
     "de_article": "die",
     "de_plural": "die Flinten",
-    "lv": "[jagt] haglgevær",
+    "lv": "Haglgevær • Jagtgevær",
     "level": "B2"
   },
   {
     "de": "Flosse",
     "de_article": "die",
     "de_plural": "die Flossen",
-    "lv": "Flipper",
+    "lv": "Finne • Luffe",
     "level": "B2"
   },
   {
@@ -5226,7 +11543,7 @@ const B2_WORDS = [
     "de": "Flugfeld",
     "de_article": "das",
     "de_plural": "die Flugfelder",
-    "lv": "Lufthavn",
+    "lv": "Flyveplads",
     "level": "B2"
   },
   {
@@ -5245,33 +11562,33 @@ const B2_WORDS = [
     "de": "Flunder",
     "de_article": "die",
     "de_plural": "die Flundern",
-    "lv": "Hytte",
+    "lv": "Skrubbe",
     "level": "B2"
   },
   {
     "de": "Flur",
     "de_article": "die",
     "de_plural": "die Fluren",
-    "lv": "Mark • Glade",
+    "lv": "Mark • Slette",
     "level": "B2"
   },
   {
     "de": "Flussarm",
     "de_article": "der",
     "de_plural": "die Flussarme",
-    "lv": "Tilbageløb",
+    "lv": "Flodarm",
     "level": "B2"
   },
   {
     "de": "Flussbett",
     "de_article": "das",
     "de_plural": "die Flussbetten",
-    "lv": "Seng",
+    "lv": "Flodleje",
     "level": "B2"
   },
   {
     "de": "folgern",
-    "lv": "For at konkludere",
+    "lv": "At konkludere • At udlede",
     "level": "B2"
   },
   {
@@ -5311,22 +11628,22 @@ const B2_WORDS = [
     "de": "Förster",
     "de_article": "der",
     "de_plural": "die Förster",
-    "lv": "Ranger",
+    "lv": "Skovfoged • Forstmand",
     "level": "B2"
   },
   {
     "de": "sich fortpflanzen",
-    "lv": "Multiplicer • Spred",
+    "lv": "At formere sig • At forplante sig",
     "level": "B2"
   },
   {
     "de": "fortschaffen",
-    "lv": "Fjerne • Transportere væk",
+    "lv": "At fjerne • At bortskaffe",
     "level": "B2"
   },
   {
     "de": "fortschreiten",
-    "lv": "Udvikle videre",
+    "lv": "At skride frem • At udvikle sig",
     "level": "B2"
   },
   {
@@ -5338,7 +11655,7 @@ const B2_WORDS = [
     "de": "Fracht",
     "de_article": "die",
     "de_plural": "die Frachten",
-    "lv": "Fragt • Fragt",
+    "lv": "Fragt • Last",
     "level": "B2"
   },
   {
@@ -5355,7 +11672,7 @@ const B2_WORDS = [
     "de": "Fraktion",
     "de_article": "die",
     "de_plural": "die Fraktionen",
-    "lv": "Brøk",
+    "lv": "Fraktion • Gruppe",
     "level": "B2"
   },
   {
@@ -5367,7 +11684,7 @@ const B2_WORDS = [
     "de": "Fräser",
     "de_article": "der",
     "de_plural": "die Fräser",
-    "lv": "Fræsemaskine • Fræsemaskine",
+    "lv": "Fræser • Fræsemaskine",
     "level": "B2"
   },
   {
@@ -5396,33 +11713,195 @@ const B2_WORDS = [
   },
   {
     "de": "freisprechen",
-    "lv": "At retfærdiggøre",
+    "lv": "At frikende",
     "level": "B2"
   },
   {
     "de": "Fremde",
     "de_article": "die",
-    "lv": "Fremmedhed • Udlænding",
+    "lv": "Udland • Fremmed land",
     "level": "B2"
   },
   {
     "de": "fremdgehen",
-    "lv": "Bliv utro",
+    "lv": "At være utro",
     "level": "B2"
   },
   {
     "de": "friedfertig",
-    "lv": "Fredelig • Overensstemmende",
+    "lv": "Fredelig • Fredsommelig",
     "level": "B2"
   },
   {
     "de": "fristlos",
-    "lv": "Ubestemt",
-    "level": "B2"
+    "lv": "Uden varsel • Øjeblikkelig",
+    "level": "B2",
+    "study": {
+      "id": "b2-fristlos",
+      "layout": "standardStudy",
+      "translation": "Uden varsel • Øjeblikkelig",
+      "explanation": [
+        "Hovedidé: fristlos betyder uden varsel, med øjeblikkelig virkning. Oftest bruges det om opsigelse af en ansættelses- eller lejekontrakt: eine fristlose Kündigung, jemandem fristlos kündigen.",
+        "Ordet består af Frist (frist) + -los (-løs, uden). Det er både tillægsord og biord: eine fristlose Kündigung, fristlos entlassen. Som regel kan en opsigelse uden varsel kun ske af en vigtig grund (wichtiger Grund) – i dansk arbejdsliv taler man om bortvisning."
+      ],
+      "examples": [
+        {
+          "de": "Der Arbeitgeber kündigte ihm fristlos.",
+          "lv": "Arbejdsgiveren opsagde ham uden varsel."
+        },
+        {
+          "de": "Die Firma hat den Mitarbeiter fristlos entlassen.",
+          "lv": "Firmaet har bortvist medarbejderen."
+        },
+        {
+          "de": "Eine fristlose Kündigung ist nur aus wichtigem Grund möglich.",
+          "lv": "En opsigelse uden varsel er kun mulig af en vigtig grund."
+        },
+        {
+          "de": "Sie kündigte den Mietvertrag fristlos.",
+          "lv": "Hun ophævede lejekontrakten uden varsel."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sofort",
+          "meaning": "straks",
+          "example": "Komm bitte sofort! – Kom straks!"
+        },
+        {
+          "word": "fristgerecht",
+          "meaning": "rettidig, med varsel",
+          "example": "Er kündigte fristgerecht. – Han sagde op med det korrekte varsel."
+        },
+        {
+          "word": "kündigen",
+          "meaning": "opsige, sige op",
+          "example": "Sie kündigt ihre Wohnung. – Hun opsiger sin lejlighed."
+        }
+      ],
+      "tip": [
+        "Husk modsætningen: fristlose Kündigung (opsigelse uden varsel) over for fristgerechte Kündigung (opsigelse med varsel).",
+        "Endelsen -los følger mønsteret arbeitslos, sorglos, fristlos – ligesom dansk -løs i arbejdsløs og sorgløs."
+      ],
+      "important": [
+        "Fristlos bruges om opsigelse eller afskedigelse, ikke om enhver hastende handling; almindelig hast udtrykkes med sofort.",
+        "I arbejdsretten kræver en opsigelse uden varsel som regel en vigtig grund."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "fristlos",
+            "fristlose",
+            "Frist",
+            "Kündigung"
+          ],
+          "purple": [
+            "uden varsel",
+            "øjeblikkelig virkning"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "fristlos"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "uden varsel"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fristlos"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "bortvist"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fristlose"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "uden varsel"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fristlos"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "uden varsel"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sofort"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "straks"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "fristgerecht"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "rettidig"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "kündigen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "opsige"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "fromm",
-    "lv": "Fromme",
+    "lv": "From",
     "level": "B2"
   },
   {
@@ -5436,12 +11915,12 @@ const B2_WORDS = [
     "de": "Frostschaden",
     "de_article": "der",
     "de_plural": "die Frostschäden",
-    "lv": "Skader forårsaget af frost",
+    "lv": "Frostskade",
     "level": "B2"
   },
   {
     "de": "fruchtlos",
-    "lv": "Ufrugtbar",
+    "lv": "Frugtesløs • Forgæves",
     "level": "B2"
   },
   {
@@ -5452,25 +11931,176 @@ const B2_WORDS = [
   },
   {
     "de": "sich fügen",
-    "lv": "Tilpas • Adlyd",
+    "lv": "At føje sig • At tilpasse sig",
     "level": "B2",
     "study": {
       "id": "b2-sich-fuegen",
-      "layout": "minimalStudy",
-      "translation": "Tilpas • Adlyd",
-      "rektion": "in + ko?",
-      "explanation": "Sich fügen kræver den bestemte præposition i + ko?.",
-      "forms": "in + ko?",
-      "formsLabel": "Management:",
+      "layout": "standardStudy",
+      "translation": "At føje sig • At tilpasse sig",
+      "explanation": [
+        "Hovedidé: sich fügen betyder at føje sig efter en regel, en beslutning eller omstændighederne (sich dem Beschluss fügen) eller at falde ind i en helhed og tilpasse sig (sich in die Gruppe fügen).",
+        "Former: fügt sich, fügte sich, hat sich gefügt. I betydningen føje sig følger ofte dativ (sich dem Willen fügen), i betydningen tilpasse sig eller affinde sig in + akkusativ (sich in sein Schicksal fügen).",
+        "Vendingen Alles fügt sich betyder: alt falder efterhånden på plads. Uden sich er fügen transitivt: Teile zusammenfügen – sætte dele sammen."
+      ],
+      "examples": [
+        {
+          "de": "Er fügte sich dem Beschluss des Vorstands.",
+          "lv": "Han føjede sig efter bestyrelsens beslutning."
+        },
+        {
+          "de": "Sie musste sich in ihr Schicksal fügen.",
+          "lv": "Hun måtte affinde sig med sin skæbne."
+        },
+        {
+          "de": "Das Kind fügt sich den Regeln.",
+          "lv": "Barnet retter sig efter reglerne."
+        },
+        {
+          "de": "Neue Kollegen müssen sich in das Team fügen.",
+          "lv": "Nye kolleger må tilpasse sig teamet."
+        },
+        {
+          "de": "Alles fügte sich zum Guten.",
+          "lv": "Alt vendte sig til det bedste."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich anpassen",
+          "meaning": "tilpasse sig",
+          "example": "Er passt sich dem Klima an. – Han tilpasser sig klimaet."
+        },
+        {
+          "word": "gehorchen",
+          "meaning": "adlyde",
+          "example": "Der Hund gehorcht seinem Herrn. – Hunden adlyder sin herre."
+        },
+        {
+          "word": "fügen",
+          "meaning": "føje sammen, sætte sammen",
+          "example": "Er fügt zwei Teile zusammen. – Han sætter to dele sammen."
+        }
+      ],
+      "tip": [
+        "Vil du sige, at nogen bøjer sig for en beslutning, så vælg sich dem Beschluss fügen.",
+        "Lær også vendingen sich in sein Schicksal fügen."
+      ],
+      "important": [
+        "Forveksl det ikke med fügen uden sich (tilføje, sætte sammen).",
+        "Direkte lydighed over for en ordre eller forældre udtrykkes som regel med gehorchen, ikke med sich fügen."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich fügen"
+            "fügen",
+            "fügt",
+            "fügte",
+            "gefügt"
           ],
-          "red": [
-            "Sich"
+          "purple": [
+            "føje sig",
+            "tilpasse sig",
+            "affinde sig"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "fügte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "føjede sig"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fügen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "affinde sig"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fügt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "retter sig"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fügen"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fügte"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich anpassen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "tilpasse sig"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "gehorchen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "adlyde"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "fügen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "sætte sammen"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -5478,7 +12108,7 @@ const B2_WORDS = [
     "de": "Fuhre",
     "de_article": "die",
     "de_plural": "die Fuhren",
-    "lv": "Vogn • Last",
+    "lv": "Læs • Vognlæs",
     "level": "B2"
   },
   {
@@ -5496,14 +12126,14 @@ const B2_WORDS = [
   },
   {
     "de": "funken",
-    "lv": "Sendes i radioen",
+    "lv": "At sende over radio",
     "level": "B2"
   },
   {
     "de": "Funker",
     "de_article": "der",
     "de_plural": "die Funker",
-    "lv": "Radiooperatør • Radiooperatør",
+    "lv": "Radiotelegrafist • Radiooperatør",
     "level": "B2"
   },
   {
@@ -5517,14 +12147,14 @@ const B2_WORDS = [
     "de": "Funkstation",
     "de_article": "die",
     "de_plural": "die Funkstationen",
-    "lv": "Broadcasting station",
+    "lv": "Radiostation • Sendestation",
     "level": "B2"
   },
   {
     "de": "Funkstörung",
     "de_article": "die",
     "de_plural": "die Funkstörungen",
-    "lv": "Transmissionsinterferens",
+    "lv": "Radioforstyrrelse",
     "level": "B2"
   },
   {
@@ -5538,7 +12168,7 @@ const B2_WORDS = [
     "de": "Funktionär",
     "de_article": "der",
     "de_plural": "die Funktionäre",
-    "lv": "Aktivist • Medarbejder",
+    "lv": "Partifunktionær • Tillidsmand",
     "level": "B2"
   },
   {
@@ -5552,14 +12182,14 @@ const B2_WORDS = [
     "de": "Fürsorge",
     "de_article": "die",
     "de_plural": "die Fürsorgen",
-    "lv": "Pleje • Værgemål",
+    "lv": "Omsorg • Forsorg",
     "level": "B2"
   },
   {
     "de": "Fürsprache",
     "de_article": "die",
     "de_plural": "die Fürsprachen",
-    "lv": "Overtalelse • Forsvarligt godt navn",
+    "lv": "Forbøn • Anbefaling",
     "level": "B2"
   },
   {
@@ -5580,7 +12210,7 @@ const B2_WORDS = [
     "de": "Gage",
     "de_article": "die",
     "de_plural": "die Gagen",
-    "lv": "Kunstnerens honorar",
+    "lv": "Gage • Honorar",
     "level": "B2"
   },
   {
@@ -5592,12 +12222,12 @@ const B2_WORDS = [
   },
   {
     "de": "gangbar",
-    "lv": "Gåbar",
+    "lv": "Farbar • Gangbar",
     "level": "B2"
   },
   {
     "de": "gängig",
-    "lv": "Gåture",
+    "lv": "Gængs • Almindelig",
     "level": "B2"
   },
   {
@@ -5611,14 +12241,14 @@ const B2_WORDS = [
     "de": "Garbe",
     "de_article": "die",
     "de_plural": "die Garben",
-    "lv": "Bundle • Bundle",
+    "lv": "Neg",
     "level": "B2"
   },
   {
     "de": "Garde",
     "de_article": "die",
     "de_plural": "die Garden",
-    "lv": "Vagt",
+    "lv": "Garde",
     "level": "B2"
   },
   {
@@ -5630,21 +12260,21 @@ const B2_WORDS = [
     "de": "Garnknäuel",
     "de_article": "das",
     "de_plural": "die Garnknäuel",
-    "lv": "Klump",
+    "lv": "Garnnøgle",
     "level": "B2"
   },
   {
     "de": "Garnspule",
     "de_article": "die",
     "de_plural": "die Garnspulen",
-    "lv": "Spole • Spole",
+    "lv": "Spole",
     "level": "B2"
   },
   {
     "de": "Gasableser",
     "de_article": "der",
     "de_plural": "die Gasableser",
-    "lv": "Gasmåler",
+    "lv": "Gasmåleraflæser",
     "level": "B2"
   },
   {
@@ -5658,7 +12288,7 @@ const B2_WORDS = [
     "de": "Gatte",
     "de_article": "der",
     "de_plural": "die Gatten",
-    "lv": "Manden",
+    "lv": "Ægtemand • Gemal",
     "level": "B2"
   },
   {
@@ -5672,14 +12302,14 @@ const B2_WORDS = [
     "de": "Gattung",
     "de_article": "die",
     "de_plural": "die Gattungen",
-    "lv": "Arter • Race",
+    "lv": "Art • Slægt • Genre",
     "level": "B2"
   },
   {
     "de": "Gebärde",
     "de_article": "die",
     "de_plural": "die Gebärden",
-    "lv": "Bevægelse • Funktion",
+    "lv": "Gestus • Gebærde",
     "level": "B2"
   },
   {
@@ -5703,17 +12333,17 @@ const B2_WORDS = [
     "de": "Gedeck",
     "de_article": "das",
     "de_plural": "die Gedecke",
-    "lv": "Bestik til én person",
+    "lv": "Kuvert",
     "level": "B2"
   },
   {
     "de": "gedeihen",
-    "lv": "Trives • Blomstre",
+    "lv": "At trives • At blomstre",
     "level": "B2"
   },
   {
     "de": "gedenken",
-    "lv": "Mindes • Have til hensigt",
+    "lv": "At mindes • At have til hensigt",
     "level": "B2"
   },
   {
@@ -5734,13 +12364,13 @@ const B2_WORDS = [
     "de": "Gefährte",
     "de_article": "der",
     "de_plural": "die Gefährten",
-    "lv": "Et medlem",
+    "lv": "Ledsager • Kammerat",
     "level": "B2"
   },
   {
     "de": "Gefallen",
     "de_article": "das",
-    "lv": "Synes om • Synes om",
+    "lv": "Behag • Fornøjelse",
     "level": "B2"
   },
   {
@@ -5759,14 +12389,14 @@ const B2_WORDS = [
     "de": "Gefecht",
     "de_article": "das",
     "de_plural": "die Gefechte",
-    "lv": "Kamp • Kamp",
+    "lv": "Kamp • Træfning",
     "level": "B2"
   },
   {
     "de": "Gefolge",
     "de_article": "das",
     "de_plural": "die Gefolge",
-    "lv": "Entourage • Ledsager",
+    "lv": "Følge • Entourage",
     "level": "B2"
   },
   {
@@ -5787,14 +12417,14 @@ const B2_WORDS = [
     "de": "Gegenmittel",
     "de_article": "das",
     "de_plural": "die Gegenmittel",
-    "lv": "Modgiften",
+    "lv": "Modmiddel • Modgift",
     "level": "B2"
   },
   {
     "de": "Gegenrede",
     "de_article": "die",
     "de_plural": "die Gegenreden",
-    "lv": "Erklæring • Indsigelse",
+    "lv": "Indvending • Indsigelse",
     "level": "B2"
   },
   {
@@ -5808,7 +12438,7 @@ const B2_WORDS = [
     "de": "Amtsgeheimnis",
     "de_article": "das",
     "de_plural": "die Amtsgeheimnisse",
-    "lv": "Embedets hemmelighed",
+    "lv": "Tjenestehemmelighed",
     "level": "B2"
   },
   {
@@ -5820,26 +12450,26 @@ const B2_WORDS = [
     "de": "Geiselnahme",
     "de_article": "die",
     "de_plural": "die Geiselnahmen",
-    "lv": "Tager gidsler",
+    "lv": "Gidseltagning",
     "level": "B2"
   },
   {
     "de": "Geistliche",
     "de_article": "der",
     "de_plural": "die Geistlichen",
-    "lv": "Præstemand",
+    "lv": "Gejstlig • Præst",
     "level": "B2"
   },
   {
     "de": "gekünstelt",
-    "lv": "Kunstig • Unaturligt",
+    "lv": "Kunstlet • Unaturlig",
     "level": "B2"
   },
   {
     "de": "Geländelauf",
     "de_article": "der",
     "de_plural": "die Geländeläufe",
-    "lv": "Langrend",
+    "lv": "Terrænløb",
     "level": "B2"
   },
   {
@@ -5854,8 +12484,174 @@ const B2_WORDS = [
   },
   {
     "de": "gelaunt",
-    "lv": "Åh",
-    "level": "B2"
+    "lv": "Til mode • Oplagt",
+    "level": "B2",
+    "study": {
+      "id": "b2-gelaunt",
+      "layout": "standardStudy",
+      "translation": "Til mode • Oplagt",
+      "explanation": [
+        "Hovedidé: gelaunt er et tillægsord, der kun bruges sammen med et biord: gut gelaunt (i godt humør), schlecht gelaunt (i dårligt humør). Det beskriver et menneskes humør – hvordan man er til mode.",
+        "Alene, uden biord, bruges det næsten aldrig. Gradbøjningen sker via biordet: besser gelaunt, am besten gelaunt. Stamordet er die Laune (humør), flertal die Launen – jf. dansk lune."
+      ],
+      "examples": [
+        {
+          "de": "Er ist heute gut gelaunt.",
+          "lv": "Han er i godt humør i dag."
+        },
+        {
+          "de": "Sie kam schlecht gelaunt ins Büro.",
+          "lv": "Hun kom i dårligt humør på kontoret."
+        },
+        {
+          "de": "Der Chef ist heute nicht besonders gut gelaunt.",
+          "lv": "Chefen er ikke i specielt godt humør i dag."
+        },
+        {
+          "de": "Wie ist er heute gelaunt?",
+          "lv": "Hvordan er hans humør i dag?"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "die Laune",
+          "meaning": "humør",
+          "example": "Er hat gute Laune. – Han er i godt humør."
+        },
+        {
+          "word": "gut drauf",
+          "meaning": "i godt humør (dagligsprog)",
+          "example": "Er ist heute gut drauf. – Han er i hopla i dag."
+        },
+        {
+          "word": "gestimmt",
+          "meaning": "stemt, indstillet",
+          "example": "Sie ist heiter gestimmt. – Hun er i munter stemning."
+        }
+      ],
+      "tip": [
+        "Lær de faste forbindelser: gut gelaunt, schlecht gelaunt, bestens gelaunt.",
+        "Med Laune kan man sige gute Laune haben."
+      ],
+      "important": [
+        "Gelaunt står næsten altid sammen med gut, schlecht, besser eller et andet biord.",
+        "Ordet er ikke det samme som gestimmt (stemt, indstillet), selvom betydningen ligger tæt på."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "gelaunt",
+            "gut gelaunt",
+            "schlecht gelaunt",
+            "Laune",
+            "Launen"
+          ],
+          "purple": [
+            "humør",
+            "til mode"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "gut",
+                "gelaunt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "i godt humør"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "schlecht",
+                "gelaunt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "i dårligt humør"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "gut",
+                "gelaunt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "godt humør"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "gelaunt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "humør"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "die Laune"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "humør"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "gut drauf"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "i godt humør"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "gestimmt"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "stemt"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "Geldbuße",
@@ -5908,14 +12704,14 @@ const B2_WORDS = [
     "de": "Gelöbnis",
     "de_article": "das",
     "de_plural": "die Gelöbnisse",
-    "lv": "Højtidelig løfte",
+    "lv": "Højtideligt løfte",
     "level": "B2"
   },
   {
     "de": "Geltung",
     "de_article": "die",
     "de_plural": "die Geltungen",
-    "lv": "Betydning • Betydning",
+    "lv": "Betydning • Gyldighed",
     "level": "B2"
   },
   {
@@ -5939,7 +12735,7 @@ const B2_WORDS = [
   },
   {
     "de": "gemessen",
-    "lv": "Balanceret • Overvejet",
+    "lv": "Afmålt • Besindig",
     "level": "B2"
   },
   {
@@ -5959,7 +12755,7 @@ const B2_WORDS = [
   {
     "de": "Gemüsebau",
     "de_article": "der",
-    "lv": "Rodafgrøder • Grøntsagsafgrøder",
+    "lv": "Grøntsagsdyrkning • Grøntsagsavl",
     "level": "B2"
   },
   {
@@ -5996,21 +12792,21 @@ const B2_WORDS = [
   },
   {
     "de": "genesen",
-    "lv": "Få det godt • Få det godt",
+    "lv": "At komme sig • At blive rask",
     "level": "B2"
   },
   {
     "de": "Genesung",
     "de_article": "die",
     "de_plural": "die Genesungen",
-    "lv": "Genopretning • Genopretning",
+    "lv": "Helbredelse • Rekonvalescens",
     "level": "B2"
   },
   {
     "de": "Genick",
     "de_article": "das",
     "de_plural": "die Genicke",
-    "lv": "Nakkeknude",
+    "lv": "Nakke",
     "level": "B2"
   },
   {
@@ -6019,21 +12815,164 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-genieren",
-      "layout": "minimalStudy",
+      "layout": "standardStudy",
       "translation": "At skamme sig",
-      "rektion": "vor + kam?",
-      "explanation": "Sich genieren kræver den bestemte præposition vor + kam?.",
-      "forms": "vor + kam?",
-      "formsLabel": "Management:",
+      "explanation": [
+        "Hovedbetydning: sich genieren betyder at skamme sig, at føle sig generet eller forlegen ved at gøre noget, når andre er til stede. Det er samme ord som dansk \"genere sig\". G udtales som en blød sj-lyd: [ʒeˈniːrən].",
+        "De personer, man er generet over for, angives med vor + dativ: sich vor den Gästen genieren. Former: geniert sich, genierte sich, hat sich geniert. Bruges ofte med nægtelse: Genieren Sie sich nicht! — Bare rolig, lad være med at være genert!"
+      ],
+      "examples": [
+        {
+          "de": "Er geniert sich vor fremden Leuten.",
+          "lv": "Han er genert over for fremmede mennesker."
+        },
+        {
+          "de": "Du brauchst dich nicht zu genieren.",
+          "lv": "Du behøver ikke at skamme dig."
+        },
+        {
+          "de": "Sie genierte sich, nach dem Weg zu fragen.",
+          "lv": "Hun var for genert til at spørge om vej."
+        },
+        {
+          "de": "Bitte genieren Sie sich nicht, greifen Sie zu!",
+          "lv": "Vær så god, lad være med at være genert, tag for dig!"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich schämen",
+          "meaning": "at skamme sig",
+          "example": "Ich schäme mich für meinen Fehler. – Jeg skammer mig over min fejl."
+        },
+        {
+          "word": "schüchtern",
+          "meaning": "genert, sky",
+          "example": "Er ist sehr schüchtern. – Han er meget genert."
+        },
+        {
+          "word": "peinlich",
+          "meaning": "pinlig",
+          "example": "Das ist mir peinlich. – Det er pinligt for mig."
+        }
+      ],
+      "tip": [
+        "Gæstfri opfordring: Genieren Sie sich nicht! — Tag endelig for dig!",
+        "I en ubehagelig situation kan du også sige Das ist mir unangenehm."
+      ],
+      "important": [
+        "sich genieren udtrykker social generthed, mens sich schämen udtrykker skam over ens egne handlinger.",
+        "Ordet er lånt fra fransk, ligesom dansk \"genere\", så udtalen med sj-lyd er vigtig."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich genieren"
+            "genieren",
+            "geniert",
+            "genierte",
+            "Genieren"
           ],
-          "red": [
-            "vor + kam?"
+          "purple": [
+            "skamme sig",
+            "generet"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "geniert"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "genert"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "genieren"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "skamme dig"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "genierte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "genert"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "genieren"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "være genert"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "schämen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "skamme sig"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "schüchtern"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "genert, sky"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "peinlich"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "pinlig"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -6041,14 +12980,14 @@ const B2_WORDS = [
     "de": "Genosse",
     "de_article": "der",
     "de_plural": "die Genossen",
-    "lv": "Et medlem",
+    "lv": "Kammerat • Fælle",
     "level": "B2"
   },
   {
     "de": "Genossin",
     "de_article": "die",
     "de_plural": "die Genossinnen",
-    "lv": "Et medlem • Et medlem",
+    "lv": "Kammerat • Partifælle",
     "level": "B2"
   },
   {
@@ -6060,32 +12999,32 @@ const B2_WORDS = [
     "de": "Genugtuung",
     "de_article": "die",
     "de_plural": "die Genugtuungen",
-    "lv": "Tilfredshed",
+    "lv": "Tilfredsstillelse • Oprejsning",
     "level": "B2"
   },
   {
     "de": "Gepäcknetz",
     "de_article": "das",
     "de_plural": "die Gepäcknetze",
-    "lv": "Bagage net",
+    "lv": "Bagagenet",
     "level": "B2"
   },
   {
     "de": "Gepäckwagen",
     "de_article": "der",
     "de_plural": "die Gepäckwagen",
-    "lv": "Bagage bil",
+    "lv": "Bagagevogn",
     "level": "B2"
   },
   {
     "de": "geraten",
-    "lv": "Komme • Havne",
+    "lv": "At havne • At komme • At lykkes",
     "level": "B2"
   },
   {
     "de": "Geratewohl",
     "de_article": "das",
-    "lv": "Held og lykke",
+    "lv": "På lykke og fromme",
     "level": "B2"
   },
   {
@@ -6102,7 +13041,7 @@ const B2_WORDS = [
   },
   {
     "de": "gerinnen",
-    "lv": "Størkne • Koagulere",
+    "lv": "At størkne • At koagulere",
     "level": "B2"
   },
   {
@@ -6116,26 +13055,26 @@ const B2_WORDS = [
     "de": "Gerüst",
     "de_article": "das",
     "de_plural": "die Gerüste",
-    "lv": "Stilladser",
+    "lv": "Stillads",
     "level": "B2"
   },
   {
     "de": "Gesamtzahl",
     "de_article": "die",
     "de_plural": "die Gesamtzahlen",
-    "lv": "Total",
+    "lv": "Samlet antal",
     "level": "B2"
   },
   {
     "de": "Gesandte",
     "de_article": "der",
     "de_plural": "die Gesandten",
-    "lv": "Messenger",
+    "lv": "Gesandt • Udsending",
     "level": "B2"
   },
   {
     "de": "geschäftig",
-    "lv": "Aktiv • Livlig",
+    "lv": "Travl • Driftig",
     "level": "B2"
   },
   {
@@ -6149,7 +13088,7 @@ const B2_WORDS = [
     "de": "Geschiedene",
     "de_article": "der",
     "de_plural": "die Geschiedenen",
-    "lv": "Skilsmisse",
+    "lv": "Fraskilt",
     "level": "B2"
   },
   {
@@ -6201,7 +13140,7 @@ const B2_WORDS = [
     "de": "Geschwür",
     "de_article": "das",
     "de_plural": "die Geschwüre",
-    "lv": "Plante • Sår",
+    "lv": "Byld • Sår",
     "level": "B2"
   },
   {
@@ -6213,25 +13152,167 @@ const B2_WORDS = [
   },
   {
     "de": "sich gesellen",
-    "lv": "At være med",
+    "lv": "At slutte sig til",
     "level": "B2",
     "study": {
       "id": "b2-sich-gesellen",
-      "layout": "minimalStudy",
-      "translation": "At være med",
-      "rektion": "zu + kam?",
-      "explanation": "Sich gesellen kræver den bestemte præposition zu + kam?.",
-      "forms": "zu + kam?",
-      "formsLabel": "Management:",
+      "layout": "standardStudy",
+      "translation": "At slutte sig til",
+      "explanation": [
+        "Hovedbetydning: sich gesellen betyder at slutte sig til en person eller en gruppe, at sætte sig eller stille sig sammen med dem. Det kan også udtrykke, at noget kommer oveni noget andet (Zu der Kälte gesellte sich Regen).",
+        "Med zu + dativ angiver man, hvem eller hvad man slutter sig til: sich zu jemandem gesellen. Former: gesellt sich, gesellte sich, hat sich gesellt. Ordet er lidt skriftsprogligt.",
+        "Kendt ordsprog: Gleich und gleich gesellt sich gern. — krage søger mage."
+      ],
+      "examples": [
+        {
+          "de": "Er gesellte sich zu uns an den Tisch.",
+          "lv": "Han slog sig ned hos os ved bordet."
+        },
+        {
+          "de": "Zu der Kälte gesellte sich noch Regen.",
+          "lv": "Til kulden kom der også regn."
+        },
+        {
+          "de": "Darf ich mich zu Ihnen gesellen?",
+          "lv": "Må jeg slutte mig til Dem?"
+        },
+        {
+          "de": "Sie gesellte sich zu den anderen Gästen.",
+          "lv": "Hun sluttede sig til de andre gæster."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich anschließen",
+          "meaning": "at slutte sig til",
+          "example": "Ich schließe mich der Gruppe an. – Jeg slutter mig til gruppen."
+        },
+        {
+          "word": "dazukommen",
+          "meaning": "at komme til, støde til",
+          "example": "Er kommt später dazu. – Han støder til senere."
+        },
+        {
+          "word": "begleiten",
+          "meaning": "at følge, ledsage",
+          "example": "Ich begleite dich nach Hause. – Jeg følger dig hjem."
+        }
+      ],
+      "tip": [
+        "Efter sich gesellen følger zu + dativ: zu uns, zu ihm, zu den Gästen.",
+        "Ordet passer godt, når nogen slutter sig til uformelt, for eksempel ved et bord."
+      ],
+      "important": [
+        "Om formelt at melde sig ind i en organisation bruger man normalt sich anschließen eller beitreten, ikke sich gesellen.",
+        "Beslægtet med sich gesellen er ordet der Geselle (svend, kammerat) — sammenlign dansk \"selskab\" og \"svend\"."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich gesellen"
+            "gesellen",
+            "gesellte",
+            "gesellt"
           ],
-          "red": [
-            "zu + kam?"
+          "purple": [
+            "slutte sig til"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "gesellte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "slog sig ned hos"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "gesellte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kom der også"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "gesellen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "slutte mig til"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "gesellte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "sluttede sig til"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich anschließen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "slutte sig til"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "dazukommen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "komme til, støde til"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "begleiten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "følge, ledsage"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -6239,20 +13320,20 @@ const B2_WORDS = [
     "de": "Gesichtszug",
     "de_article": "der",
     "de_plural": "die Gesichtszüge",
-    "lv": "Feature",
+    "lv": "Ansigtstræk",
     "level": "B2"
   },
   {
     "de": "Gesinnung",
     "de_article": "die",
     "de_plural": "die Gesinnungen",
-    "lv": "Overbevisninger • Stemning",
+    "lv": "Sindelag • Holdning",
     "level": "B2"
   },
   {
     "de": "Gespött",
     "de_article": "das",
-    "lv": "Tænder",
+    "lv": "Spot • Hån",
     "level": "B2"
   },
   {
@@ -6267,21 +13348,169 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-gestalten",
-      "layout": "minimalStudy",
+      "layout": "standardStudy",
       "translation": "At forme sig til",
-      "rektion": "zu + kam?",
-      "explanation": "Sich gestalten kræver den bestemte præposition zu + kam?.",
-      "forms": "zu + kam?",
-      "formsLabel": "Management:",
+      "explanation": [
+        "Hovedbetydning: sich gestalten betyder at forme sig, at udvikle sig — om en begivenhed, forhandlinger eller fremtiden: hvordan det ender med at blive. Normalt følger et tillægsord (schwierig, positiv) eller zu + dativ (zu einem Erfolg).",
+        "Former: gestaltet sich, gestaltete sich, hat sich gestaltet. Grundled er normalt et abstrakt navneord: Verhandlungen, Zukunft, Abend, Zusammenarbeit.",
+        "Uden sich betyder gestalten at forme, udforme, indrette (den Garten gestalten)."
+      ],
+      "examples": [
+        {
+          "de": "Die Verhandlungen gestalten sich schwierig.",
+          "lv": "Forhandlingerne viser sig at være vanskelige."
+        },
+        {
+          "de": "Der Abend gestaltete sich zu einem Erfolg.",
+          "lv": "Aftenen blev en succes."
+        },
+        {
+          "de": "Wie wird sich die Zukunft gestalten?",
+          "lv": "Hvordan vil fremtiden forme sig?"
+        },
+        {
+          "de": "Das Treffen gestaltete sich anders als geplant.",
+          "lv": "Mødet forløb anderledes end planlagt."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "gestalten",
+          "meaning": "at forme, udforme",
+          "example": "Wir gestalten den Garten neu. – Vi anlægger haven på ny."
+        },
+        {
+          "word": "werden",
+          "meaning": "at blive",
+          "example": "Er wird Lehrer. – Han bliver lærer."
+        },
+        {
+          "word": "sich entwickeln",
+          "meaning": "at udvikle sig",
+          "example": "Das Kind entwickelt sich gut. – Barnet udvikler sig godt."
+        }
+      ],
+      "tip": [
+        "Hyppig forbindelse: sich schwierig gestalten — at vise sig at være vanskelig.",
+        "I forretnings- og officiel stil: Die Zusammenarbeit gestaltet sich erfolgreich."
+      ],
+      "important": [
+        "sich gestalten bruges mest i formelt sprog; i hverdagen siger man hellere werden eller verlaufen.",
+        "Grundleddet er normalt ikke en person, men en begivenhed eller en proces."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich gestalten"
+            "sich gestalten",
+            "gestalten",
+            "gestaltet",
+            "gestaltete"
           ],
-          "red": [
-            "zu + kam?"
+          "purple": [
+            "forme sig",
+            "udvikle sig"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "gestalten",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "viser sig at være"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "gestaltete",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "blev"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sich",
+                "gestalten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "forme sig"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "gestaltete",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "forløb"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "gestalten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "forme, udforme"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "werden"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "blive"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich entwickeln"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "udvikle sig"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -6294,14 +13523,14 @@ const B2_WORDS = [
   },
   {
     "de": "gestehen",
-    "lv": "Indrøm • Indrøm",
+    "lv": "At indrømme • At tilstå",
     "level": "B2"
   },
   {
     "de": "Gestein",
     "de_article": "das",
     "de_plural": "die Gesteine",
-    "lv": "Klippen",
+    "lv": "Bjergart • Sten",
     "level": "B2"
   },
   {
@@ -6315,21 +13544,21 @@ const B2_WORDS = [
     "de": "Gestrüpp",
     "de_article": "das",
     "de_plural": "die Gestrüppe",
-    "lv": "Busk",
+    "lv": "Krat",
     "level": "B2"
   },
   {
     "de": "Gesuch",
     "de_article": "das",
     "de_plural": "die Gesuche",
-    "lv": "Anmodning • Indsendelse",
+    "lv": "Anmodning • Ansøgning",
     "level": "B2"
   },
   {
     "de": "Getriebe",
     "de_article": "das",
     "de_plural": "die Getriebe",
-    "lv": "Motoren",
+    "lv": "Gearkasse • Transmission",
     "level": "B2"
   },
   {
@@ -6345,19 +13574,19 @@ const B2_WORDS = [
   },
   {
     "de": "gewähren",
-    "lv": "Giv • Tildel",
+    "lv": "At give • At bevilge",
     "level": "B2"
   },
   {
     "de": "gewaltsam",
-    "lv": "Med magt • Med magt",
+    "lv": "Voldelig • Med magt",
     "level": "B2"
   },
   {
     "de": "Gewalttat",
     "de_article": "die",
     "de_plural": "die Gewalttaten",
-    "lv": "Vold • En voldshandling",
+    "lv": "Voldshandling • Voldsgerning",
     "level": "B2"
   },
   {
@@ -6369,14 +13598,14 @@ const B2_WORDS = [
     "de": "Gewässer",
     "de_article": "das",
     "de_plural": "die Gewässer",
-    "lv": "Vand",
+    "lv": "Farvand • Vandområde",
     "level": "B2"
   },
   {
     "de": "Gewebe",
     "de_article": "das",
     "de_plural": "die Gewebe",
-    "lv": "Klud • Væv",
+    "lv": "Stof • Væv",
     "level": "B2"
   },
   {
@@ -6388,12 +13617,12 @@ const B2_WORDS = [
   },
   {
     "de": "gewieft",
-    "lv": "Hærdet • Klog",
+    "lv": "Snu • Durkdreven",
     "level": "B2"
   },
   {
     "de": "gewissenlos",
-    "lv": "Uden samvittighed • Uærlig",
+    "lv": "Samvittighedsløs • Uærlig",
     "level": "B2"
   },
   {
@@ -6416,22 +13645,22 @@ const B2_WORDS = [
   },
   {
     "de": "geldgierig",
-    "lv": "Grådig efter penge",
+    "lv": "Pengebegærlig • Pengegrisk",
     "level": "B2"
   },
   {
     "de": "machtgierig",
-    "lv": "Magtkrævende",
+    "lv": "Magtbegærlig • Magtsyg",
     "level": "B2"
   },
   {
     "de": "rachgierig",
-    "lv": "Hævnlyst",
+    "lv": "Hævngerrig",
     "level": "B2"
   },
   {
     "de": "raffgierig",
-    "lv": "Tryllebindende",
+    "lv": "Grisk • Havesyg",
     "level": "B2"
   },
   {
@@ -6444,7 +13673,7 @@ const B2_WORDS = [
     "de": "Gipsabdruck",
     "de_article": "der",
     "de_plural": "die Gipsabdrücke",
-    "lv": "Gips aftryk",
+    "lv": "Gipsaftryk",
     "level": "B2"
   },
   {
@@ -6463,7 +13692,7 @@ const B2_WORDS = [
   },
   {
     "de": "gläsern",
-    "lv": "Glas • Glasagtig",
+    "lv": "Af glas • Glasagtig",
     "level": "B2"
   },
   {
@@ -6483,38 +13712,38 @@ const B2_WORDS = [
     "de": "Glasur",
     "de_article": "die",
     "de_plural": "die Glasuren",
-    "lv": "Glasur • Glasur",
+    "lv": "Glasur",
     "level": "B2"
   },
   {
     "de": "Glatze",
     "de_article": "die",
     "de_plural": "die Glatzen",
-    "lv": "Bare hoved",
+    "lv": "Skaldet isse • Skaldepande",
     "level": "B2"
   },
   {
     "de": "Stirnglatze",
     "de_article": "die",
     "de_plural": "die Stirnglatzen",
-    "lv": "Udækket pande",
+    "lv": "Vigende hårgrænse • Skaldet pande",
     "level": "B2"
   },
   {
     "de": "gleichmütig",
-    "lv": "Sammensat • Koldblodet",
+    "lv": "Ligevægtig • Rolig",
     "level": "B2"
   },
   {
     "de": "Gleichnis",
     "de_article": "das",
     "de_plural": "die Gleichnisse",
-    "lv": "Lighed",
+    "lv": "Lignelse",
     "level": "B2"
   },
   {
     "de": "gleiten",
-    "lv": "Glid • Svæv",
+    "lv": "At glide • At svæve",
     "level": "B2"
   },
   {
@@ -6526,22 +13755,22 @@ const B2_WORDS = [
   },
   {
     "de": "gliedern",
-    "lv": "At dele",
+    "lv": "At inddele • At opdele",
     "level": "B2"
   },
   {
     "de": "glimmen",
-    "lv": "Ulme • Gløde",
+    "lv": "At ulme • At gløde",
     "level": "B2"
   },
   {
     "de": "glotzen",
-    "lv": "Skele",
+    "lv": "At glo • At glane",
     "level": "B2"
   },
   {
     "de": "glühen",
-    "lv": "Gløde • Brænde",
+    "lv": "At gløde • At brænde",
     "level": "B2"
   },
   {
@@ -6549,31 +13778,348 @@ const B2_WORDS = [
     "de_article": "die",
     "de_plural": "die Gluten",
     "lv": "Glød • Hede",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-glut",
+      "layout": "standardStudy",
+      "translation": "Glød • Hede",
+      "explanation": [
+        "Hovedbetydning: die Glut er et navneord i hunkøn. Det betyder glødende kul eller gløderne fra en ild, der er ved at gå ud, og også stærk varme, hede (die Glut der Sonne). I overført betydning betyder Glut også glød, lidenskab.",
+        "Flertal er sjældent (die Gluten); normalt bruges ental: die Glut. Hyppige udtryk: die Glut anfachen (puste liv i gløderne), unter der Asche glimmt noch Glut (under asken gløder kullene stadig)."
+      ],
+      "examples": [
+        {
+          "de": "Die Glut des Lagerfeuers wärmte uns noch.",
+          "lv": "Gløderne fra lejrbålet varmede os stadig."
+        },
+        {
+          "de": "In der Glut der Mittagssonne ruhte das ganze Dorf.",
+          "lv": "I middagssolens hede hvilede hele landsbyen."
+        },
+        {
+          "de": "Er blies in die Glut, bis wieder Flammen aufstiegen.",
+          "lv": "Han pustede til gløderne, indtil flammerne igen slog op."
+        },
+        {
+          "de": "Mit großer Glut sprach sie über ihr Projekt.",
+          "lv": "Hun talte med stor lidenskab om sit projekt."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "die Hitze",
+          "meaning": "varme, hede",
+          "example": "Im Sommer ist die Hitze groß. – Om sommeren er varmen stor."
+        },
+        {
+          "word": "die Asche",
+          "meaning": "aske",
+          "example": "Unter der Asche liegt noch Glut. – Under asken er der stadig gløder."
+        },
+        {
+          "word": "die Flamme",
+          "meaning": "flamme",
+          "example": "Die Flamme wird kleiner. – Flammen bliver mindre."
+        }
+      ],
+      "tip": [
+        "Glut er ildens resterende, røde glød, mens Flamme er en synlig flamme.",
+        "Husk ved lejrbålet: Feuer — ild, Flamme — flamme, Glut — gløder."
+      ],
+      "important": [
+        "Glut bruges normalt i ental; flertal die Gluten er meget sjældent.",
+        "Til at beskrive almindelig varme rækker die Hitze normalt; Glut lyder stærkere og mere poetisk."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "die Glut",
+            "Glut",
+            "Gluten"
+          ],
+          "purple": [
+            "glødende kul",
+            "gløderne",
+            "hede"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Glut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Gløderne"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Glut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "hede"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Glut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "gløderne"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Glut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "lidenskab"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "die Hitze"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "varme, hede"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Asche"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "aske"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Flamme"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "flamme"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "Gnade",
     "de_article": "die",
     "de_plural": "die Gnaden",
-    "lv": "Barmhjertighed • Undskyld",
-    "level": "B2"
+    "lv": "Nåde • Benådning",
+    "level": "B2",
+    "study": {
+      "id": "b2-gnade",
+      "layout": "standardStudy",
+      "translation": "Nåde • Benådning",
+      "explanation": [
+        "Hovedbetydning: die Gnade er et navneord i hunkøn. Det betyder nåde, barmhjertighed — en velvillig holdning fra den, der har magten, og benådning, eftergivelse af en straf.",
+        "Flertal bruges sjældent (die Gnaden). Hyppige forbindelser: um Gnade bitten (bede om nåde), Gnade walten lassen (lade nåde gå for ret), auf Gnade und Ungnade (prisgivet nogen), die Gnade Gottes (Guds nåde)."
+      ],
+      "examples": [
+        {
+          "de": "Der Verurteilte bat um Gnade.",
+          "lv": "Den dømte bad om nåde."
+        },
+        {
+          "de": "Der Präsident ließ Gnade walten.",
+          "lv": "Præsidenten lod nåde gå for ret."
+        },
+        {
+          "de": "Wir sind ihm auf Gnade und Ungnade ausgeliefert.",
+          "lv": "Vi er helt prisgivet ham."
+        },
+        {
+          "de": "Er verdankt sein Leben der Gnade des Königs.",
+          "lv": "Han skylder kongens nåde sit liv."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "das Mitleid",
+          "meaning": "medlidenhed",
+          "example": "Ich habe Mitleid mit ihm. – Jeg har medlidenhed med ham."
+        },
+        {
+          "word": "die Begnadigung",
+          "meaning": "benådning",
+          "example": "Die Begnadigung wurde abgelehnt. – Benådningen blev afvist."
+        },
+        {
+          "word": "die Gunst",
+          "meaning": "gunst, velvilje",
+          "example": "Er genießt die Gunst des Chefs. – Han nyder chefens gunst."
+        }
+      ],
+      "tip": [
+        "Husk forbindelsen um Gnade bitten (bede om nåde); forholdsordet um styrer akkusativ.",
+        "Sammen med walten lassen siger man Gnade walten lassen — lade nåde gå for ret."
+      ],
+      "important": [
+        "Gnade handler om velvilje fra en højerestående person eller fra Gud; almindelig medfølelse med andre hedder Mitleid.",
+        "Forveksl ikke med Gunst (gunst, velvillig holdning)."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Gnade",
+            "Gnaden"
+          ],
+          "purple": [
+            "nåde",
+            "benådning"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Gnade"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nåde"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Gnade"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nåde"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Gnade"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Gnade"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nåde"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "das Mitleid"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "medlidenhed"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Begnadigung"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "benådning"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Gunst"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "gunst, velvilje"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "Gnadenbrot",
     "de_article": "das",
-    "lv": "Nådens brød",
+    "lv": "Nådsensbrød",
     "level": "B2"
   },
   {
     "de": "gnädig",
-    "lv": "Nådig • Respekteret",
+    "lv": "Nådig • Mild",
     "level": "B2"
   },
   {
     "de": "Goldader",
     "de_article": "die",
     "de_plural": "die Goldadern",
-    "lv": "Guld åre",
+    "lv": "Guldåre",
     "level": "B2"
   },
   {
@@ -6587,7 +14133,7 @@ const B2_WORDS = [
     "de": "Goldlegierung",
     "de_article": "die",
     "de_plural": "die Goldlegierungen",
-    "lv": "Guld legering",
+    "lv": "Guldlegering",
     "level": "B2"
   },
   {
@@ -6601,7 +14147,7 @@ const B2_WORDS = [
     "de": "Goldwäscher",
     "de_article": "der",
     "de_plural": "die Goldwäscher",
-    "lv": "Guld skive",
+    "lv": "Guldvasker",
     "level": "B2"
   },
   {
@@ -6615,7 +14161,7 @@ const B2_WORDS = [
     "de": "Gondel",
     "de_article": "die",
     "de_plural": "die Gondeln",
-    "lv": "Gondol • Svævebane",
+    "lv": "Gondol • Svævebanekabine",
     "level": "B2"
   },
   {
@@ -6636,20 +14182,20 @@ const B2_WORDS = [
     "de": "Götze",
     "de_article": "der",
     "de_plural": "die Götzen",
-    "lv": "Et idol",
+    "lv": "Afgud • Idol",
     "level": "B2"
   },
   {
     "de": "Götzendienst",
     "de_article": "der",
-    "lv": "Tjener et idol",
+    "lv": "Afgudsdyrkelse",
     "level": "B2"
   },
   {
     "de": "Grabung",
     "de_article": "die",
     "de_plural": "die Grabungen",
-    "lv": "Udgravninger",
+    "lv": "Udgravning",
     "level": "B2"
   },
   {
@@ -6659,30 +14205,171 @@ const B2_WORDS = [
   },
   {
     "de": "grauen",
-    "lv": "Væve",
+    "lv": "At gry • At dages",
     "level": "B2"
   },
   {
     "de": "sich grauen",
-    "lv": "At være bange for",
+    "lv": "At grue for • At gyse ved",
     "level": "B2",
     "study": {
       "id": "b2-sich-grauen",
-      "layout": "minimalStudy",
-      "translation": "At være bange for",
-      "rektion": "vor + kam?",
-      "explanation": "Sich grauen kræver den bestemte præposition vor + kam?.",
-      "forms": "vor + kam?",
-      "formsLabel": "Management:",
+      "layout": "standardStudy",
+      "translation": "At grue for • At gyse ved",
+      "explanation": [
+        "Hovedbetydning: sich grauen betyder at grue for noget, at føle frygt, uro eller afsky på forhånd — at være bange for noget ubehageligt, der venter. Sammenlign dansk \"grue\". I standardsprog bruges det næsten altid upersonligt: Mir graut vor …, Es graut mir vor … (dativ).",
+        "Med vor + dativ angiver man, hvad man gruer for: Mir graut vor der Prüfung. Formen med tilbagevisende stedord (ich graue mich) høres også, men sjældnere. Førnutid: hat gegraut.",
+        "Ordet er beslægtet med das Grauen (rædsel) og udtrykket der Tag graut (dagen gryr)."
+      ],
+      "examples": [
+        {
+          "de": "Mir graut vor der Prüfung.",
+          "lv": "Jeg gruer for eksamen."
+        },
+        {
+          "de": "Es graut ihm vor dem Winter.",
+          "lv": "Han gruer for vinteren."
+        },
+        {
+          "de": "Mir graut davor, allein zu wohnen.",
+          "lv": "Jeg gruer for at bo alene."
+        },
+        {
+          "de": "Vor dem Montagmorgen graut es mir schon jetzt.",
+          "lv": "Jeg gruer allerede nu for mandag morgen."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich fürchten",
+          "meaning": "at være bange, frygte",
+          "example": "Ich fürchte mich vor Spinnen. – Jeg er bange for edderkopper."
+        },
+        {
+          "word": "Angst haben",
+          "meaning": "at være bange",
+          "example": "Er hat Angst vor Hunden. – Han er bange for hunde."
+        },
+        {
+          "word": "das Grauen",
+          "meaning": "rædsel, gru",
+          "example": "Das Grauen packte ihn. – Rædslen greb ham."
+        }
+      ],
+      "tip": [
+        "Ordet bruges som upersonlig konstruktion: Mir graut vor …",
+        "I hverdagen er det sikrere at vælge Angst haben vor + dativ eller sich fürchten vor + dativ."
+      ],
+      "important": [
+        "Den person, der er bange, står ofte i dativ (mir, ihm), ikke i nominativ.",
+        "Når du siger Mir graut, skal du ikke tilføje et tilbagevisende stedord."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich grauen"
+            "grauen",
+            "graut"
           ],
-          "red": [
-            "vor + kam?"
+          "purple": [
+            "grue for"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "graut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "gruer for"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "graut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "gruer for"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "graut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "gruer for"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "graut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "gruer"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich fürchten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "være bange, frygte"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "Angst haben"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "være bange"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "das Grauen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "rædsel, gru"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -6693,7 +14380,7 @@ const B2_WORDS = [
   },
   {
     "de": "gravierend",
-    "lv": "Betydende",
+    "lv": "Alvorlig • Betydelig",
     "level": "B2"
   },
   {
@@ -6705,14 +14392,14 @@ const B2_WORDS = [
   },
   {
     "de": "grell",
-    "lv": "Strålende • Blændende",
+    "lv": "Grel • Blændende • Skarp",
     "level": "B2"
   },
   {
     "de": "Grenzbeamte",
     "de_article": "der",
     "de_plural": "die Grenzbeamten",
-    "lv": "Grænsevagtbetjent",
+    "lv": "Grænsebetjent",
     "level": "B2"
   },
   {
@@ -6750,78 +14437,78 @@ const B2_WORDS = [
   },
   {
     "de": "grinsen",
-    "lv": "At smile",
+    "lv": "At smile bredt • At smile skævt",
     "level": "B2"
   },
   {
     "de": "Großmacht",
     "de_article": "die",
     "de_plural": "die Großmächte",
-    "lv": "A great power",
+    "lv": "Stormagt",
     "level": "B2"
   },
   {
     "de": "Großmut",
     "de_article": "die",
-    "lv": "Generosity",
+    "lv": "Ædelmodighed • Storsind",
     "level": "B2"
   },
   {
     "de": "großmütig",
-    "lv": "Gavmild",
+    "lv": "Ædelmodig • Storsindet",
     "level": "B2"
   },
   {
     "de": "Gründonnerstag",
     "de_article": "der",
     "de_plural": "die Gründonnerstage",
-    "lv": "Grøn torsdag før påske",
+    "lv": "Skærtorsdag",
     "level": "B2"
   },
   {
     "de": "Grundrecht",
     "de_article": "das",
     "de_plural": "die Grundrechte",
-    "lv": "Fundamental rights",
+    "lv": "Grundrettighed",
     "level": "B2"
   },
   {
     "de": "Grundriss",
     "de_article": "der",
     "de_plural": "die Grundrisse",
-    "lv": "Plan",
+    "lv": "Plantegning • Grundrids",
     "level": "B2"
   },
   {
     "de": "Grußwort",
     "de_article": "das",
     "de_plural": "die Grußworte",
-    "lv": "A short formal address",
+    "lv": "Velkomsttale • Hilsen",
     "level": "B2"
   },
   {
     "de": "Gummizug",
     "de_article": "der",
     "de_plural": "die Gummizüge",
-    "lv": "Elastic band",
+    "lv": "Elastik",
     "level": "B2"
   },
   {
     "de": "Gunst",
     "de_article": "die",
-    "lv": "Favour",
+    "lv": "Gunst • Velvilje",
     "level": "B2"
   },
   {
     "de": "Günstling",
     "de_article": "der",
     "de_plural": "die Günstlinge",
-    "lv": "Favourite • Protégé",
+    "lv": "Yndling • Protegé",
     "level": "B2"
   },
   {
     "de": "gurgeln",
-    "lv": "Gargle • Mouth",
+    "lv": "At gurgle",
     "level": "B2"
   },
   {
@@ -6835,7 +14522,7 @@ const B2_WORDS = [
     "de": "Gutachten",
     "de_article": "das",
     "de_plural": "die Gutachten",
-    "lv": "Feedback • Udtalelse fra en ekspert",
+    "lv": "Ekspertudtalelse • Erklæring",
     "level": "B2"
   },
   {
@@ -6848,7 +14535,7 @@ const B2_WORDS = [
     "de": "Güterversand",
     "de_article": "der",
     "de_plural": null,
-    "lv": "Forsendelse af varer",
+    "lv": "Vareforsendelse",
     "level": "B2"
   },
   {
@@ -6860,7 +14547,7 @@ const B2_WORDS = [
   },
   {
     "de": "gutheißen",
-    "lv": "Anerkend som god",
+    "lv": "At godkende • At billige",
     "level": "B2"
   },
   {
@@ -6870,26 +14557,26 @@ const B2_WORDS = [
   },
   {
     "de": "haaren",
-    "lv": "At kaste en fjer",
+    "lv": "At fælde",
     "level": "B2"
   },
   {
     "de": "habsüchtig",
-    "lv": "Greedy • Greedy",
+    "lv": "Havesyg • Grisk",
     "level": "B2"
   },
   {
     "de": "Hafenbecken",
     "de_article": "das",
     "de_plural": "die Hafenbecken",
-    "lv": "Havnevandsområde",
+    "lv": "Havnebassin",
     "level": "B2"
   },
   {
     "de": "Hafengebühr",
     "de_article": "die",
     "de_plural": "die Hafengebühren",
-    "lv": "Havnepligt",
+    "lv": "Havneafgift",
     "level": "B2"
   },
   {
@@ -6903,7 +14590,7 @@ const B2_WORDS = [
     "de": "Hahnenkamm",
     "de_article": "der",
     "de_plural": "die Hahnenkämme",
-    "lv": "Hanesekst",
+    "lv": "Hanekam",
     "level": "B2"
   },
   {
@@ -6924,31 +14611,31 @@ const B2_WORDS = [
     "de": "Handelsklasse",
     "de_article": "die",
     "de_plural": "die Handelsklassen",
-    "lv": "Klasse af varer",
+    "lv": "Handelsklasse • Kvalitetsklasse",
     "level": "B2"
   },
   {
     "de": "Hängebrücke",
     "de_article": "die",
     "de_plural": "die Hängebrücken",
-    "lv": "Skråstagsbro",
+    "lv": "Hængebro",
     "level": "B2"
   },
   {
     "de": "Hängsel",
     "de_article": "das",
     "de_plural": "die Hängsel",
-    "lv": "Syet bøjle",
+    "lv": "Hængestrop • Strop",
     "level": "B2"
   },
   {
     "de": "hänseln",
-    "lv": "Nerrot • Hvin",
+    "lv": "At drille • At tirre",
     "level": "B2"
   },
   {
     "de": "hantieren",
-    "lv": "At handle • Handle med hvad",
+    "lv": "At hantere • At pusle med",
     "level": "B2"
   },
   {
@@ -6962,12 +14649,12 @@ const B2_WORDS = [
     "de": "Harsch",
     "de_article": "der",
     "de_plural": "die Harsche",
-    "lv": "Svovl • Frossen sne",
+    "lv": "Skare • Skaresne",
     "level": "B2"
   },
   {
     "de": "härten",
-    "lv": "Hærde",
+    "lv": "At hærde",
     "level": "B2"
   },
   {
@@ -6979,58 +14666,73 @@ const B2_WORDS = [
     "de": "Haube",
     "de_article": "die",
     "de_plural": "die Hauben",
-    "lv": "Kasket • Hætte",
+    "lv": "Hætte • Kyse • Motorhjelm",
     "level": "B2",
     "study": {
       "id": "b2-haube",
       "layout": "standardStudy",
-      "translation": "Kasket • Hætte",
+      "translation": "Hætte • Kyse • Motorhjelm",
       "explanation": [
-        "Hovedidé: die Haube kan betyde hovedhætte/hætte eller hætte/omslag - konteksten bestemmer betydningen.",
-        "På hovedet: die Haube = kasket, hætte eller forfatters teknik i en bestemt sammenhæng (z. B. Nonne mit Haube).",
-        "På bilen: die Motorhaube eller einfach die Haube = motorhjelm.",
-        "I køkkenet: die Dunsthaube = emhætte over komfuret. I teknologien: en hætte eller dæksel over en enhed."
+        "Hovedbetydning: die Haube er et navneord i hunkøn, flertal die Hauben. Første betydning — en hætte eller kyse, der dækker hovedet (en gammeldags kvindekyse, en nonnes hovedbeklædning). Anden betydning — en kappe eller et dække over et apparat: Motorhaube (motorhjelm på en bil), Dunsthaube (emhætte over komfuret).",
+        "Udtrykket unter die Haube kommen betyder i talesprog at blive gift."
       ],
       "examples": [
         {
-          "de": "Sie trägt eine warme Haube.",
-          "lv": "Hun har en varm hat på."
-        },
-        {
-          "de": "Die Nonne trägt eine schwarze Haube.",
-          "lv": "Nonnen bærer en sort hætte."
+          "de": "Die Großmutter trug eine weiße Haube.",
+          "lv": "Bedstemor bar en hvid kyse."
         },
         {
           "de": "Er öffnet die Haube des Autos.",
-          "lv": "Han åbner motorhjelmen på bilen."
-        },
-        {
-          "de": "Die Motorhaube ist kaputt.",
-          "lv": "Motorhjelmen er knækket."
+          "lv": "Han åbner bilens motorhjelm."
         },
         {
           "de": "Über dem Herd hängt eine Dunsthaube.",
-          "lv": "En emhætte er fastgjort over komfuret."
+          "lv": "Over komfuret hænger en emhætte."
         },
         {
-          "de": "Setz den Deckel als Haube auf den Topf.",
-          "lv": "Læg låg på gryden som låg."
+          "de": "Meine Tante ist endlich unter die Haube gekommen.",
+          "lv": "Min tante er endelig blevet gift."
+        },
+        {
+          "de": "Beim Friseur saß sie unter der Haube.",
+          "lv": "Hos frisøren sad hun under tørrehjelmen."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "die Mütze",
+          "meaning": "hue",
+          "example": "Im Winter trage ich eine Mütze. – Om vinteren går jeg med hue."
+        },
+        {
+          "word": "der Deckel",
+          "meaning": "låg",
+          "example": "Der Deckel passt nicht auf den Topf. – Låget passer ikke til gryden."
+        },
+        {
+          "word": "die Abdeckung",
+          "meaning": "afdækning, dæksel",
+          "example": "Die Abdeckung schützt das Gerät. – Dækslet beskytter apparatet."
         }
       ],
       "tip": [
-        "Taler om hoved, nonne, hat → kasket / hætte.",
-        "Det handler om en bil, motor → motorhjelm.",
-        "Vi taler om et komfur, apparat → emhætte eller emhætte."
+        "I bilsammenhæng er Haube normalt motorhjelmen foran: die Motorhaube.",
+        "I sammensatte ord giver Haube betydningen dække eller kappe: Dunsthaube, Motorhaube."
       ],
       "important": [
-        "die Haube = kasket/hætte ELLER kaleche ELLER kaleche/hjelm - alt efter sammenhængen.",
-        "Forbindelser hjælper: Motorhaube (auto), Dunsthaube (dyd)."
+        "Haube er ikke en almindelig hue; den hue, man går med om vinteren, hedder Mütze.",
+        "Udtrykket unter die Haube kommen er talesprog og lidt spøgefuldt."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "Haube",
+            "Hauben"
+          ],
           "purple": [
-            "Hovedidé",
-            "Hovedidé"
+            "hætte",
+            "kyse",
+            "motorhjelm"
           ]
         },
         "examples": [
@@ -7042,7 +14744,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Hun"
+                "kyse"
               ]
             }
           },
@@ -7054,37 +14756,13 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Nonnen"
+                "motorhjelm"
               ]
             }
           },
           {
             "de": {
-              "green": [
-                "Haube"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Han"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "Motorhaube"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Motorhjelmen"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
+              "blue": [
                 "Dunsthaube"
               ]
             },
@@ -7102,10 +14780,68 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Læg"
+                "blevet gift"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Haube"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tørrehjelmen"
               ]
             }
           }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "Mütze"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "hue"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "Deckel"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "låg"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "Abdeckung"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "afdækning, dæksel"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
         ]
       }
     }
@@ -7121,19 +14857,19 @@ const B2_WORDS = [
     "de": "Hausherr",
     "de_article": "der",
     "de_plural": "die Hausherren",
-    "lv": "Hjemmemor • Entertainer",
+    "lv": "Husherre • Vært",
     "level": "B2"
   },
   {
     "de": "Hausrat",
     "de_article": "der",
-    "lv": "Liv",
+    "lv": "Indbo • Husgeråd",
     "level": "B2"
   },
   {
     "de": "Hautjucken",
     "de_article": "das",
-    "lv": "Hud kløe",
+    "lv": "Hudkløe",
     "level": "B2"
   },
   {
@@ -7145,48 +14881,48 @@ const B2_WORDS = [
   },
   {
     "de": "hauteng",
-    "lv": "Stramt tøj",
+    "lv": "Tætsiddende • Stramtsiddende",
     "level": "B2"
   },
   {
     "de": "Heck",
     "de_article": "das",
     "de_plural": "die Hecke",
-    "lv": "Agterstavnen på et skib",
+    "lv": "Agterende • Hæk",
     "level": "B2"
   },
   {
     "de": "Heckklappe",
     "de_article": "die",
     "de_plural": "die Heckklappen",
-    "lv": "Bagagerumsdør til bilen",
+    "lv": "Bagklap",
     "level": "B2"
   },
   {
     "de": "Heilige",
     "de_article": "der",
     "de_plural": "die Heiligen",
-    "lv": "Helgenen",
+    "lv": "Helgen",
     "level": "B2"
   },
   {
     "de": "Heiligtum",
     "de_article": "das",
     "de_plural": "die Heiligtümer",
-    "lv": "Hellig sted • Hellighed",
+    "lv": "Helligdom • Hellighed",
     "level": "B2"
   },
   {
     "de": "Heilkunde",
     "de_article": "die",
-    "lv": "Behandling • Medicin",
+    "lv": "Lægekunst • Medicin",
     "level": "B2"
   },
   {
     "de": "Heilquelle",
     "de_article": "die",
     "de_plural": "die Heilquellen",
-    "lv": "Kilde til helbredelse",
+    "lv": "Helsekilde • Kurkilde",
     "level": "B2"
   },
   {
@@ -7200,39 +14936,39 @@ const B2_WORDS = [
     "de": "Heilpraktiker",
     "de_article": "der",
     "de_plural": "die Heilpraktiker",
-    "lv": "Healer",
+    "lv": "Naturlæge • Alternativ behandler",
     "level": "B2"
   },
   {
     "de": "heimatlos",
-    "lv": "Uden et hjemland",
+    "lv": "Fædrelandsløs • Hjemløs",
     "level": "B2"
   },
   {
     "de": "Heimkehr",
     "de_article": "die",
-    "lv": "Hjemrejse • Til fædrelandet",
+    "lv": "Hjemkomst • Hjemvenden",
     "level": "B2"
   },
   {
     "de": "Heimwerker",
     "de_article": "der",
     "de_plural": "die Heimwerker",
-    "lv": "Hushåndværker • Husmester",
+    "lv": "Gør-det-selv-mand • Hobbyhåndværker",
     "level": "B2"
   },
   {
     "de": "Heizkraftwerk",
     "de_article": "das",
     "de_plural": "die Heizkraftwerke",
-    "lv": "Termisk kraftværk",
+    "lv": "Kraftvarmeværk",
     "level": "B2"
   },
   {
     "de": "Heizöl",
     "de_article": "das",
     "de_plural": "die Heizöle",
-    "lv": "Flydende brændstof • Brændstofolie",
+    "lv": "Fyringsolie",
     "level": "B2"
   },
   {
@@ -7244,7 +14980,7 @@ const B2_WORDS = [
   },
   {
     "de": "hemmen",
-    "lv": "Hæmme • Bremse",
+    "lv": "At hæmme • At bremse",
     "level": "B2"
   },
   {
@@ -7256,50 +14992,196 @@ const B2_WORDS = [
   },
   {
     "de": "henken",
-    "lv": "En gang • Hæng en person",
+    "lv": "At hænge",
     "level": "B2"
   },
   {
     "de": "herabsetzen",
-    "lv": "Lavere • Nedsætte",
+    "lv": "At nedsætte • At nedgøre",
     "level": "B2"
   },
   {
     "de": "herangehen",
-    "lv": "Kom på arbejde",
+    "lv": "At gå i gang med • At nærme sig",
     "level": "B2"
   },
   {
     "de": "herantreten",
-    "lv": "Nærme sig",
+    "lv": "At nærme sig • At henvende sig til",
     "level": "B2"
   },
   {
     "de": "heraufkommen",
-    "lv": "Kom op • Rejs dig",
+    "lv": "At komme op",
     "level": "B2"
   },
   {
     "de": "sich herausbilden",
-    "lv": "At forme sig til",
+    "lv": "At udvikle sig • At danne sig",
     "level": "B2",
     "study": {
       "id": "b2-sich-herausbilden",
-      "layout": "minimalStudy",
-      "translation": "At forme sig til",
-      "rektion": "zu + kam?",
-      "explanation": "Sich herausbilden kræver den bestemte præposition zu + kam?.",
-      "forms": "zu + kam?",
-      "formsLabel": "Management:",
+      "layout": "standardStudy",
+      "translation": "At udvikle sig • At danne sig",
+      "explanation": [
+        "Hovedbetydning: sich herausbilden betyder gradvist at udvikle sig, at danne sig ud fra noget tidligere — om en stil, en vane, roller, en by. Med aus + dativ angiver man, hvad noget udvikler sig ud af.",
+        "Adskillelig forstavelse heraus-: bildet sich heraus, bildete sich heraus, hat sich herausgebildet. Processen er gradvis, så grundleddet er ofte et abstrakt navneord."
+      ],
+      "examples": [
+        {
+          "de": "Aus dem kleinen Dorf bildete sich eine große Stadt heraus.",
+          "lv": "Af den lille landsby udviklede der sig en stor by."
+        },
+        {
+          "de": "Mit der Zeit hat sich ein neuer Stil herausgebildet.",
+          "lv": "Med tiden har en ny stil udviklet sig."
+        },
+        {
+          "de": "Aus dem Jungen hat sich ein guter Musiker herausgebildet.",
+          "lv": "Af drengen har der udviklet sig en god musiker."
+        },
+        {
+          "de": "In der Gruppe bildeten sich schnell feste Rollen heraus.",
+          "lv": "I gruppen dannede der sig hurtigt faste roller."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich entwickeln",
+          "meaning": "at udvikle sig",
+          "example": "Das Kind entwickelt sich gut. – Barnet udvikler sig godt."
+        },
+        {
+          "word": "entstehen",
+          "meaning": "at opstå",
+          "example": "Hier entstand eine neue Siedlung. – Her opstod en ny bebyggelse."
+        },
+        {
+          "word": "bilden",
+          "meaning": "at danne",
+          "example": "Wir bilden eine Gruppe. – Vi danner en gruppe."
+        }
+      ],
+      "tip": [
+        "Husk adskillelsen: Es bildet sich heraus, men Es hat sich herausgebildet.",
+        "Hyppig forbindelse: aus etwas bildet sich etwas heraus."
+      ],
+      "important": [
+        "sich herausbilden udtrykker en gradvis proces, ikke en enkeltstående begivenhed.",
+        "Forveksl ikke med bilden (danne, forme): det er et overgangsudsagnsord."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich herausbilden"
+            "herausbilden",
+            "bildet sich heraus",
+            "bildete sich heraus",
+            "hat sich herausgebildet",
+            "heraus-"
           ],
-          "red": [
-            "zu + kam?"
+          "purple": [
+            "udvikle sig",
+            "danne sig"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "bildete",
+                "heraus"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "udviklede der sig"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "herausgebildet"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "udviklet sig"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "herausgebildet"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "udviklet sig"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bildeten",
+                "heraus"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "dannede der sig"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich entwickeln"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "udvikle sig"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "entstehen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "opstå"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "bilden"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "danne"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -7310,54 +15192,338 @@ const B2_WORDS = [
   },
   {
     "de": "sich heraushalten",
-    "lv": "Hold dig væk fra",
+    "lv": "At holde sig udenfor",
     "level": "B2",
     "study": {
       "id": "b2-sich-heraushalten",
-      "layout": "minimalStudy",
-      "translation": "Hold dig væk fra",
-      "rektion": "aus + kam?",
-      "explanation": "Sich heraushalten kræver en bestemt præposition aus + kam?.",
-      "forms": "aus + kam?",
-      "formsLabel": "Management:",
+      "layout": "standardStudy",
+      "translation": "At holde sig udenfor",
+      "explanation": [
+        "Hovedbetydning: sich heraushalten betyder at holde sig udenfor, ikke at blande sig, ikke at deltage i en konflikt eller sag. Med aus + dativ angiver man, hvad man holder sig ude af: sich aus dem Streit heraushalten.",
+        "Adskillelig forstavelse heraus-: hält sich heraus, hielt sich heraus, hat sich herausgehalten. Bydemåde: Halt dich da heraus! Uden sich er heraushalten et overgangsudsagnsord: jemanden aus etwas heraushalten — holde nogen uden for noget."
+      ],
+      "examples": [
+        {
+          "de": "Halt dich aus dem Streit heraus!",
+          "lv": "Hold dig uden for skænderiet!"
+        },
+        {
+          "de": "Ich halte mich aus der Politik heraus.",
+          "lv": "Jeg holder mig uden for politik."
+        },
+        {
+          "de": "Er hat sich aus allem herausgehalten.",
+          "lv": "Han har holdt sig uden for det hele."
+        },
+        {
+          "de": "Die Eltern wollten sich aus der Entscheidung heraushalten.",
+          "lv": "Forældrene ville holde sig uden for beslutningen."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich einmischen",
+          "meaning": "at blande sig",
+          "example": "Misch dich nicht ein! – Bland dig ikke!"
+        },
+        {
+          "word": "sich zurückhalten",
+          "meaning": "at holde sig tilbage",
+          "example": "Bei Diskussionen halte ich mich zurück. – I diskussioner holder jeg mig tilbage."
+        },
+        {
+          "word": "heraushalten",
+          "meaning": "at holde uden for",
+          "example": "Halt die Kinder aus dem Streit heraus. – Hold børnene uden for skænderiet."
+        }
+      ],
+      "tip": [
+        "I bydemåde siger man: Halt dich da heraus! — bland dig udenom!",
+        "Normalt følger aus + dativ: aus dem Konflikt, aus meinen Angelegenheiten."
+      ],
+      "important": [
+        "Efter aus står navneordet i dativ: aus dem Streit.",
+        "Det modsatte er sich einmischen (blande sig)."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich heraushalten"
+            "heraushalten",
+            "hält",
+            "hielt",
+            "herausgehalten",
+            "Halt"
           ],
-          "red": [
-            "aus + kam?"
+          "purple": [
+            "holde sig udenfor"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Halt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Hold dig uden for"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "halte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "holder mig uden for"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "herausgehalten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "holdt sig uden for"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "heraushalten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "holde sig uden for"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich einmischen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "blande sig"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich zurückhalten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "holde sig tilbage"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "heraushalten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "holde uden for"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
   {
     "de": "herausstellen",
-    "lv": "Sæt ud",
+    "lv": "At sætte ud • At fremhæve",
     "level": "B2"
   },
   {
     "de": "sich herausstellen",
-    "lv": "Vis sig at være",
+    "lv": "At vise sig",
     "level": "B2",
     "study": {
       "id": "b2-sich-herausstellen",
-      "layout": "minimalStudy",
-      "translation": "Vis sig at være",
-      "rektion": "als + kas?",
-      "explanation": "Sich herausstellen kræver den bestemte præposition als + hvad?.",
-      "forms": "als + kas?",
-      "formsLabel": "Management:",
+      "layout": "standardStudy",
+      "translation": "At vise sig",
+      "explanation": [
+        "Hovedbetydning: sich herausstellen betyder at vise sig, at komme for dagen — at det bliver klart, hvem eller hvad nogen eller noget i virkeligheden er. Med als + nominativ: Er stellte sich als Betrüger heraus. Den typiske vending er Es stellte sich heraus, dass …",
+        "Adskillelig forstavelse heraus-: stellt sich heraus, stellte sich heraus, hat sich herausgestellt. Grundleddet er normalt en sag eller en oplysning, men kan også være en person."
+      ],
+      "examples": [
+        {
+          "de": "Es stellte sich heraus, dass er recht hatte.",
+          "lv": "Det viste sig, at han havde ret."
+        },
+        {
+          "de": "Der Verdacht stellte sich als falsch heraus.",
+          "lv": "Mistanken viste sig at være forkert."
+        },
+        {
+          "de": "Das Projekt hat sich als großer Erfolg herausgestellt.",
+          "lv": "Projektet har vist sig at være en stor succes."
+        },
+        {
+          "de": "Wer der Täter ist, wird sich bald herausstellen.",
+          "lv": "Hvem gerningsmanden er, vil snart vise sig."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich erweisen",
+          "meaning": "at vise sig",
+          "example": "Die Methode erwies sich als nützlich. – Metoden viste sig at være nyttig."
+        },
+        {
+          "word": "sich zeigen",
+          "meaning": "at vise sig, komme til syne",
+          "example": "Es zeigte sich, dass er müde war. – Det viste sig, at han var træt."
+        },
+        {
+          "word": "herausfinden",
+          "meaning": "at finde ud af",
+          "example": "Ich finde das heraus. – Jeg finder ud af det."
+        }
+      ],
+      "tip": [
+        "I begyndelsen af en sætning er det praktisk at bruge Es stellte sich heraus, dass … — det viste sig, at …",
+        "Med als angiver man resultatet: sich als falsch herausstellen."
+      ],
+      "important": [
+        "Forstavelsen heraus- skilles fra: Es stellt sich heraus, ikke es herausstellt sich.",
+        "Forveksl ikke med herausstellen uden sich (fremhæve, stille frem): etwas herausstellen."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich herausstellen"
+            "herausstellen"
           ],
-          "red": [
-            "Sich"
+          "purple": [
+            "vise sig"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "stellte",
+                "heraus"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "viste sig"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "stellte",
+                "heraus"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "viste sig"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "herausgestellt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vist sig"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "herausstellen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vise sig"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "erweisen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "vise sig"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "zeigen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "vise sig, komme til syne"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "herausfinden"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "finde ud af"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -7373,35 +15539,178 @@ const B2_WORDS = [
   },
   {
     "de": "hervorheben",
-    "lv": "Fremhæv • Fremhæv",
+    "lv": "At fremhæve • At understrege",
     "level": "B2"
   },
   {
     "de": "hervorrufen",
-    "lv": "Fremkalde • Forårsage",
+    "lv": "At fremkalde • At forårsage",
     "level": "B2"
   },
   {
     "de": "sich hervortun",
-    "lv": "Skil dig ud",
+    "lv": "At udmærke sig",
     "level": "B2",
     "study": {
       "id": "b2-sich-hervortun",
-      "layout": "minimalStudy",
-      "translation": "Skil dig ud",
-      "rektion": "in + kur?",
-      "explanation": "Sich hervortun kræver en bestemt præposition i + hvor?.",
-      "forms": "in + kur?",
-      "formsLabel": "Management:",
+      "layout": "standardStudy",
+      "translation": "At udmærke sig",
+      "explanation": [
+        "Hovedbetydning: sich hervortun betyder at udmærke sig, at skille sig ud fra andre med evner, præstationer eller en egenskab. Området for præstationen angives med in + dativ, egenskaben med durch + akkusativ og rollen med als.",
+        "Adskillelig forstavelse hervor-: tut sich hervor, tat sich hervor, hat sich hervorgetan. Ordet er lidt formelt og bruges ofte i beskrivelser af succes.",
+        "Nogle gange kan det også betyde, at man prøver at gøre sig bemærket for at få opmærksomhed."
+      ],
+      "examples": [
+        {
+          "de": "Sie hat sich im Sport besonders hervorgetan.",
+          "lv": "Hun har især udmærket sig inden for sport."
+        },
+        {
+          "de": "Er tut sich durch Fleiß hervor.",
+          "lv": "Han udmærker sig ved flid."
+        },
+        {
+          "de": "Im Krieg tat sich der General als mutiger Anführer hervor.",
+          "lv": "I krigen udmærkede generalen sig som en modig leder."
+        },
+        {
+          "de": "Wer sich hervortut, bekommt oft viel Aufmerksamkeit.",
+          "lv": "Den, der udmærker sig, får ofte meget opmærksomhed."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich auszeichnen",
+          "meaning": "at udmærke sig",
+          "example": "Er zeichnet sich durch Ehrlichkeit aus. – Han udmærker sig ved ærlighed."
+        },
+        {
+          "word": "hervorheben",
+          "meaning": "at fremhæve",
+          "example": "Der Lehrer hebt die Fehler hervor. – Læreren fremhæver fejlene."
+        },
+        {
+          "word": "auffallen",
+          "meaning": "at falde i øjnene",
+          "example": "Sie fällt in der Menge auf. – Hun falder i øjnene i mængden."
+        }
+      ],
+      "tip": [
+        "Angiv området for præstationen med in + dativ: sich in Mathe hervortun.",
+        "Hvis du vil nævne den egenskab, der gør en fremragende, bruger du durch: sich durch Mut hervortun."
+      ],
+      "important": [
+        "sich hervortun er adskilleligt: Er tut sich hervor, men Er hat sich hervorgetan.",
+        "Forveksl ikke med hervorheben (fremhæve noget): det er et overgangsudsagnsord og ikke tilbagevisende."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich hervortun"
+            "hervortun",
+            "tut sich hervor",
+            "hervorgetan"
           ],
-          "red": [
-            "Sich"
+          "purple": [
+            "udmærke sig"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "hervorgetan"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "udmærket sig"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hervor"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "udmærker sig"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hervor"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "udmærkede",
+                "sig"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hervortut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "udmærker sig"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich auszeichnen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "udmærke sig"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "hervorheben"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "fremhæve"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "auffallen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "falde i øjnene"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -7421,35 +15730,213 @@ const B2_WORDS = [
   {
     "de": "Herzversagen",
     "de_article": "das",
-    "lv": "Hjertestop • Insufficiens",
+    "lv": "Hjertesvigt • Hjertestop",
     "level": "B2"
   },
   {
     "de": "Hetze",
     "de_article": "die",
     "de_plural": "die Hetzen",
-    "lv": "Tilskyndelse • Tilskyndelse",
+    "lv": "Hetz • Jag",
     "level": "B2"
   },
   {
     "de": "hetzen",
-    "lv": "Jage • Ophidse",
-    "level": "B2"
+    "lv": "At jage • At hetze • At ophidse",
+    "level": "B2",
+    "study": {
+      "id": "b2-hetzen",
+      "layout": "standardStudy",
+      "translation": "At jage • At hetze • At ophidse",
+      "explanation": [
+        "Hovedbetydning: hetzen er et udsagnsord med flere betydninger. Det betyder at jage, at pudse hunde på nogen, at forfølge et bytte og drive det frem; i overført betydning — at hetze, at ophidse til had (gegen jemanden hetzen). Uden genstandsled og med sein kan det også betyde at jage af sted, skynde sig: durch die Stadt hetzen.",
+        "Former: hetzt, hetzte, hat gehetzt (overgangsudsagnsord) eller ist gehetzt (i betydningen bevægelse). Hyppige afledninger: aufhetzen (ophidse), die Hetze (hetz; jag, travlhed).",
+        "I talesprog betyder Hetz mich nicht! jag mig nu ikke!"
+      ],
+      "examples": [
+        {
+          "de": "Der Jäger hetzt die Hunde auf den Hirsch.",
+          "lv": "Jægeren pudser hundene på hjorten."
+        },
+        {
+          "de": "Er hetzt gegen Ausländer.",
+          "lv": "Han hetzer mod udlændinge."
+        },
+        {
+          "de": "Die Hunde hetzten den Hasen über das Feld.",
+          "lv": "Hundene jagede haren hen over marken."
+        },
+        {
+          "de": "Ich bin den ganzen Tag durch die Stadt gehetzt.",
+          "lv": "Jeg har jaget rundt i byen hele dagen."
+        },
+        {
+          "de": "Hetz mich nicht!",
+          "lv": "Jag mig nu ikke!"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "jagen",
+          "meaning": "at jage",
+          "example": "Der Jäger jagt Rehe. – Jægeren jager rådyr."
+        },
+        {
+          "word": "aufhetzen",
+          "meaning": "at ophidse",
+          "example": "Er hetzt die Menge auf. – Han ophidser mængden."
+        },
+        {
+          "word": "eilen",
+          "meaning": "at skynde sig, ile",
+          "example": "Ich eile zum Bahnhof. – Jeg skynder mig til stationen."
+        }
+      ],
+      "tip": [
+        "I politisk sammenhæng betyder hetzen gegen + akkusativ at hetze mod nogen.",
+        "I jagtsammenhæng siger man ofte: Hunde hetzen den Hasen."
+      ],
+      "important": [
+        "Ordet hetzen er ofte negativt: hetz eller ubehageligt jag.",
+        "I betydningen bevægelse dannes førnutid med sein (ist gehetzt), ellers med haben."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "hetzen",
+            "hetzt"
+          ],
+          "purple": [
+            "jage",
+            "hetze",
+            "ophidse"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "hetzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pudser hundene på"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hetzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "hetzer"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hetzten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "jagede"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "gehetzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "jaget rundt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Hetz"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Jag"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "jagen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "jage"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "aufhetzen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ophidse"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "eilen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "skynde sig, ile"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "heucheln",
-    "lv": "At lade som om • At lade som om",
+    "lv": "At hykle • At lade som om",
     "level": "B2"
   },
   {
     "de": "Heuschnupfen",
     "de_article": "der",
-    "lv": "Allergisk rhinitis fra pollen",
+    "lv": "Høfeber",
     "level": "B2"
   },
   {
     "de": "hierdurch",
-    "lv": "Med det • Med dette",
+    "lv": "Herved • Hermed",
     "level": "B2"
   },
   {
@@ -7463,75 +15950,381 @@ const B2_WORDS = [
     "de": "Hilfsdienst",
     "de_article": "der",
     "de_plural": "die Hilfsdienste",
-    "lv": "Helpdesk",
+    "lv": "Hjælpetjeneste",
     "level": "B2"
   },
   {
     "de": "hingeben",
-    "lv": "Giv væk • Lån væk",
+    "lv": "At give hen • At ofre",
     "level": "B2"
   },
   {
     "de": "sich hingeben",
-    "lv": "Overgivelse • Overgivelse",
+    "lv": "At hengive sig • At overgive sig",
     "level": "B2",
     "study": {
       "id": "b2-sich-hingeben",
-      "layout": "minimalStudy",
-      "translation": "Overgivelse • Overgivelse",
-      "rektion": "+ kam?",
-      "explanation": "Sich hingeben kræver + for hvem?.",
-      "forms": "+ kam?",
-      "formsLabel": "Management:",
+      "layout": "standardStudy",
+      "translation": "At hengive sig • At overgive sig",
+      "explanation": [
+        "Hovedbetydning: sich hingeben betyder at hengive sig helt til noget — musik, drømme, nydelse, sorg eller følelser. Derefter følger dativ: sich der Musik hingeben, sich seinen Träumen hingeben.",
+        "Adskillelig forstavelse hin-: gibt sich hin, gab sich hin, hat sich hingegeben. Uden sich betyder etwas hingeben at ofre, at give noget hen: sein Leben hingeben."
+      ],
+      "examples": [
+        {
+          "de": "Sie gab sich ganz der Musik hin.",
+          "lv": "Hun hengav sig helt til musikken."
+        },
+        {
+          "de": "Er gibt sich seinen Träumen hin.",
+          "lv": "Han hengiver sig til sine drømme."
+        },
+        {
+          "de": "Wir haben uns dem Genuss hingegeben.",
+          "lv": "Vi har overgivet os til nydelsen."
+        },
+        {
+          "de": "Gib dich keinen falschen Hoffnungen hin!",
+          "lv": "Gør dig ingen falske forhåbninger!"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich widmen",
+          "meaning": "at hellige sig, vie sig",
+          "example": "Er widmet sich der Forschung. – Han helliger sig forskningen."
+        },
+        {
+          "word": "sich überlassen",
+          "meaning": "at overlade sig til",
+          "example": "Er überlässt sich seinen Gedanken. – Han giver sig hen til sine tanker."
+        },
+        {
+          "word": "sich ergeben",
+          "meaning": "at overgive sig",
+          "example": "Der Soldat ergibt sich. – Soldaten overgiver sig."
+        }
+      ],
+      "tip": [
+        "Efter sich hingeben sætter du dativ: der Arbeit, dem Schmerz, den Erinnerungen.",
+        "Husk adskillelsen: Sie gibt sich hin, men Sie hat sich hingegeben."
+      ],
+      "important": [
+        "sich hingeben udtrykker ofte fuldstændig fordybelse og lyder højtideligt.",
+        "Forveksl ikke med sich ergeben (overgive sig, følge af): det er et andet udsagnsord."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich hingeben"
+            "hingeben",
+            "hingegeben",
+            "gab",
+            "gibt",
+            "hin"
           ],
-          "red": [
-            "Sich"
+          "purple": [
+            "hengive sig"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "gab",
+                "hin"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "hengav sig"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "gibt",
+                "hin"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "hengiver sig"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hingegeben"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "overgivet os"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Gib",
+                "hin"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Gør dig"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich widmen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "hellige sig, vie sig"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich überlassen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "overlade sig til"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich ergeben"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "overgive sig"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
   {
     "de": "hinreißen",
-    "lv": "At gribe • At tage væk",
+    "lv": "At henrive • At rive med",
     "level": "B2"
   },
   {
     "de": "Hinsicht",
     "de_article": "die",
     "de_plural": "die Hinsichten",
-    "lv": "Besked",
-    "level": "B2"
+    "lv": "Henseende",
+    "level": "B2",
+    "study": {
+      "id": "b2-hinsicht",
+      "layout": "standardStudy",
+      "translation": "Henseende",
+      "explanation": [
+        "Hovedbetydning: die Hinsicht er et navneord i hunkøn, der betyder henseende, synspunkt, i hvilken forstand noget gælder. Det svarer til dansk \"henseende\" i forbindelser som i denne henseende, i en vis forstand — ikke til en nyhed eller besked.",
+        "Det bruges mest i forholdsordsforbindelser: in dieser Hinsicht (i denne henseende), in gewisser Hinsicht (i en vis forstand), in jeder Hinsicht (i enhver henseende). Flertal die Hinsichten er sjældent. Formelt siger man også in Hinsicht auf + akkusativ (med hensyn til) eller hinsichtlich + genitiv."
+      ],
+      "examples": [
+        {
+          "de": "In dieser Hinsicht hast du recht.",
+          "lv": "I denne henseende har du ret."
+        },
+        {
+          "de": "In gewisser Hinsicht ist das ein Vorteil.",
+          "lv": "I en vis forstand er det en fordel."
+        },
+        {
+          "de": "Das Hotel war in jeder Hinsicht perfekt.",
+          "lv": "Hotellet var perfekt i enhver henseende."
+        },
+        {
+          "de": "In Hinsicht auf die Kosten gibt es noch Fragen.",
+          "lv": "Med hensyn til omkostningerne er der stadig spørgsmål."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "die Nachricht",
+          "meaning": "nyhed, besked",
+          "example": "Ich habe eine Nachricht bekommen. – Jeg har fået en besked."
+        },
+        {
+          "word": "der Bezug",
+          "meaning": "forbindelse, relation",
+          "example": "In Bezug auf den Termin gibt es Fragen. – Med hensyn til tidspunktet er der spørgsmål."
+        },
+        {
+          "word": "die Rücksicht",
+          "meaning": "hensyn",
+          "example": "Er nimmt Rücksicht auf andere. – Han tager hensyn til andre."
+        }
+      ],
+      "tip": [
+        "Lær som faste vendinger: in dieser Hinsicht, in jeder Hinsicht.",
+        "Efter in følger i disse forbindelser dativ: in dieser Hinsicht, in jeder Hinsicht."
+      ],
+      "important": [
+        "Hinsicht betyder ikke en nyhed eller oplysning — det hedder Nachricht eller Information.",
+        "Efter forholdsordet hinsichtlich (med hensyn til) følger genitiv: hinsichtlich der Kosten."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Hinsicht",
+            "Hinsichten",
+            "hinsichtlich"
+          ],
+          "purple": [
+            "henseende"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Hinsicht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "henseende"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Hinsicht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "forstand"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Hinsicht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "henseende"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Hinsicht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Med hensyn til"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "Nachricht"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "nyhed, besked"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "Bezug"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "forbindelse, relation"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "Rücksicht"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "hensyn"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "hinsichtlich",
-    "lv": "Vedrørende • Pga",
+    "lv": "Vedrørende • Med hensyn til",
     "level": "B2"
   },
   {
     "de": "hintergehen",
-    "lv": "At snyde • At skuffe",
+    "lv": "At bedrage • At snyde",
     "level": "B2"
   },
   {
     "de": "Hinterhalt",
     "de_article": "der",
     "de_plural": "die Hinterhalte",
-    "lv": "Gemmestedet",
+    "lv": "Baghold",
     "level": "B2"
   },
   {
     "de": "hinterziehen",
-    "lv": "Underslæbe penge • Betal ikke skat",
+    "lv": "At unddrage • At snyde i skat",
     "level": "B2"
   },
   {
     "de": "hinüberfahren",
-    "lv": "At krydse • At krydse",
+    "lv": "At køre over • At sejle over",
     "level": "B2"
   },
   {
@@ -7559,7 +16352,7 @@ const B2_WORDS = [
     "de": "Hirschkuh",
     "de_article": "die",
     "de_plural": "die Hirschkühe",
-    "lv": "Moder hjorte",
+    "lv": "Hind",
     "level": "B2"
   },
   {
@@ -7571,7 +16364,7 @@ const B2_WORDS = [
     "de": "Hitzkopf",
     "de_article": "der",
     "de_plural": "die Hitzköpfe",
-    "lv": "Hothead",
+    "lv": "Hidsigprop • Brushoved",
     "level": "B2"
   },
   {
@@ -7583,7 +16376,7 @@ const B2_WORDS = [
   },
   {
     "de": "HIV-negativ",
-    "lv": "HIV negativ",
+    "lv": "HIV-negativ",
     "level": "B2"
   },
   {
@@ -7595,57 +16388,77 @@ const B2_WORDS = [
     "de": "Hobelbank",
     "de_article": "die",
     "de_plural": "die Hobelbänke",
-    "lv": "Høvlemaskine",
+    "lv": "Høvlebænk",
     "level": "B2"
   },
   {
     "de": "Hoch",
     "de_article": "das",
     "de_plural": "die Hochs",
-    "lv": "Skål \"længe leve!\"",
+    "lv": "Leve • Skål • Højtryk",
     "level": "B2",
     "study": {
       "id": "b2-hoch-study",
       "layout": "standardStudy",
-      "translation": "Skål \"længe leve!\"",
+      "translation": "Leve • Skål • Højtryk",
       "explanation": [
-        "Hovedidé: das Hoch med stort bogstav og artiklen das er et substantiv - et festråb/skål (Ein Hoch auf...! = Længe leve...!) eller i vejret - et område med højtryk.",
-        "Små bogstaver hoch er et adjektiv - høj (der Berg ist hoch).",
-        "Udtrykket ein Hoch ausbringen betyder at løfte en skål.",
-        "I vejret betyder das Hoch en anticyklon, et område med højt lufttryk (modsat: das Tief)."
+        "Hovedbetydning: das Hoch er i denne betydning et leve, en skål, et hurraråb, man udbringer til ære for nogen: ein Hoch auf das Brautpaar ausbringen. Det er et navneord i intetkøn, flertal die Hochs.",
+        "Samme ord betyder i meteorologien et højtryk, et område med højt lufttryk, der som regel giver klart vejr: ein Hoch über Skandinavien. I overført betydning er ein Hoch også en god, succesfuld periode.",
+        "Tillægsordet hoch (høj) er et andet ord og skrives med lille begyndelsesbogstav."
       ],
       "examples": [
         {
           "de": "Wir bringen ein Hoch auf das Brautpaar aus.",
-          "lv": "Vi skåler for de nygifte."
+          "lv": "Vi udbringer en skål for brudeparret."
         },
         {
-          "de": "Ein Hoch auf dich!",
-          "lv": "Længe leve dig!"
+          "de": "Ein dreifaches Hoch auf den Jubilar!",
+          "lv": "Et trefoldigt leve for jubilaren!"
         },
         {
-          "de": "Morgen kommt ein Hoch.",
-          "lv": "En anticyklon (højtryk) ventes i morgen."
+          "de": "Morgen bringt ein Hoch sonniges Wetter.",
+          "lv": "I morgen giver et højtryk solrigt vejr."
         },
         {
-          "de": "Der Berg ist sehr hoch.",
-          "lv": "Bjerget er meget højt."
+          "de": "Nach dem Tief folgt ein Hoch.",
+          "lv": "Efter lavtrykket følger et højtryk."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "der Toast",
+          "meaning": "skål, tale",
+          "example": "Er hält einen Toast. – Han holder en tale."
+        },
+        {
+          "word": "das Tief",
+          "meaning": "lavtryk",
+          "example": "Das Tief bringt Regen. – Lavtrykket bringer regn."
+        },
+        {
+          "word": "hoch",
+          "meaning": "høj",
+          "example": "Der Berg ist hoch. – Bjerget er højt."
         }
       ],
       "tip": [
-        "das Hoch med stort bogstav - et festråb eller en anticyklon i vejrnyheder.",
-        "små bogstaver hoch - høj (tillægsord)."
+        "Når man udbringer en skål, bruger man forbindelsen ein Hoch auf + akkusativ: auf den Gastgeber.",
+        "I vejrudsigten er Hoch det modsatte af Tief."
       ],
       "important": [
-        "das Hoch = skål (\"længe leve!\") ELLER anticyklon (vejr) - substantiv.",
-        "hoch = høj — adjektiv, uden artikel.",
-        "Kontrast i vejret: das Hoch ↔ das Tief."
+        "Navneordet das Hoch skrives med stort, tillægsordet hoch med lille.",
+        "Flertal er die Hochs, ikke die Höchen."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "Hoch",
+            "hoch"
+          ],
           "purple": [
-            "Hovedidé",
-            "Hovedidé"
+            "leve",
+            "skål",
+            "højtryk"
           ]
         },
         "examples": [
@@ -7657,7 +16470,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "skåler"
+                "skål"
               ]
             }
           },
@@ -7669,7 +16482,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Længe"
+                "leve"
               ]
             }
           },
@@ -7681,51 +16494,68 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "anticyklon"
+                "højtryk"
               ]
             }
           },
           {
             "de": {
+              "blue": [
+                "Hoch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "højtryk"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "der Toast"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "skål, tale"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "das Tief"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "lavtryk"
+              ]
+            }
+          },
+          {
+            "word": {
               "green": [
                 "hoch"
               ]
             },
-            "lv": {
+            "meaning": {
               "purple": [
-                "Bjerget"
+                "høj"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "blue": [
-              "das Hoch"
-            ]
-          },
-          {
-            "green": [
-              "hoch"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "blue": [
-              "das Hoch"
-            ]
-          },
-          {
-            "green": [
-              "hoch"
-            ]
-          },
-          {
-            "blue": [
-              "das Tief"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -7740,19 +16570,19 @@ const B2_WORDS = [
   {
     "de": "Hochmut",
     "de_article": "der",
-    "lv": "Arrogance • Arrogance",
+    "lv": "Hovmod • Arrogance",
     "level": "B2"
   },
   {
     "de": "hochmütig",
-    "lv": "Hovmodig • Hovmodig",
+    "lv": "Hovmodig • Arrogant",
     "level": "B2"
   },
   {
     "de": "Hochspannung",
     "de_article": "die",
     "de_plural": "die Hochspannungen",
-    "lv": "Høj spænding",
+    "lv": "Højspænding",
     "level": "B2"
   },
   {
@@ -7773,7 +16603,7 @@ const B2_WORDS = [
     "de": "Hochverrat",
     "de_article": "der",
     "de_plural": null,
-    "lv": "Forræderi",
+    "lv": "Højforræderi",
     "level": "B2"
   },
   {
@@ -7786,53 +16616,61 @@ const B2_WORDS = [
       "id": "b2-hochwasser",
       "layout": "standardStudy",
       "translation": "Oversvømmelse • Høj vandstand",
-      "explanation": "Hovedidé: das Hochwasser betyder en oversvømmelse eller en meget høj vandstand i en flod, sø eller hav. Flertal: die Hochwasser. Bruges ofte i presse og advarsler.",
+      "explanation": [
+        "Hovedbetydning: das Hochwasser er et navneord i intetkøn. Det betyder meget høj vandstand i en flod, et hav eller en sø og den oversvømmelse, det fører til. Flertal er die Hochwasser (også Hochwässer).",
+        "Hyppige udtryk: Hochwasser führen (floden har høj vandstand), vor Hochwasser warnen (advare mod oversvømmelse), vom Hochwasser betroffen sein (være ramt af oversvømmelse). Det modsatte er das Niedrigwasser."
+      ],
       "examples": [
         {
           "de": "Nach dem Regen gibt es Hochwasser.",
-          "lv": "Efter regnen er der en oversvømmelse."
+          "lv": "Efter regnen er der oversvømmelse."
         },
         {
-          "de": "Das Hochwasser bedroht die Stadt.",
-          "lv": "Høje vandstande truer byen."
+          "de": "Der Fluss führt Hochwasser.",
+          "lv": "Floden har høj vandstand."
         },
         {
           "de": "Die Behörden warnen vor Hochwasser.",
-          "lv": "Myndighederne advarer om oversvømmelser."
+          "lv": "Myndighederne advarer mod oversvømmelse."
+        },
+        {
+          "de": "Das Hochwasser hat mehrere Dörfer erreicht.",
+          "lv": "Oversvømmelsen har nået flere landsbyer."
         }
       ],
       "comparison": [
         {
-          "word": "das Hochwasser",
-          "meaning": "Oversvømmelse • Høj vandstand",
-          "example": "Es gibt Hochwasser. = Der er oversvømmelse."
-        },
-        {
           "word": "die Überschwemmung",
-          "meaning": "Oversvømmelse (specifik)",
-          "example": "Die Überschwemmung zerstörte Häuser. = Oversvømmelsen ødelagde huse."
+          "meaning": "oversvømmelse",
+          "example": "Die Überschwemmung zerstörte die Ernte. – Oversvømmelsen ødelagde høsten."
         },
         {
-          "word": "der Pegel",
-          "meaning": "Vandstand",
-          "example": "Der Pegel steigt. = Vandstanden stiger."
+          "word": "die Flut",
+          "meaning": "flod, højvande",
+          "example": "Die Flut kommt am Abend. – Floden kommer om aftenen."
+        },
+        {
+          "word": "das Niedrigwasser",
+          "meaning": "lav vandstand",
+          "example": "Bei Niedrigwasser fahren weniger Schiffe. – Ved lav vandstand sejler der færre skibe."
         }
       ],
-      "tip": {
-        "leftBlocks": [
-          {
-            "text": "Hoch = høj, Wasser = vand. Hochwasser = høj vandstand, betyder ofte oversvømmelse."
-          }
-        ]
-      },
-      "important": {
-        "text": "Das Hochwasser = oversvømmelse eller høj vandstand. Flertal: die Hochwasser."
-      },
+      "tip": [
+        "Husk modsætningen: Hochwasser — Niedrigwasser.",
+        "I nyhederne vil du ofte høre Hochwasserwarnung, Hochwasserschutz."
+      ],
+      "important": [
+        "Hochwasser er ikke det samme som Flut (tidevandets flod).",
+        "I flertal er kendeordet die, men selve ordet er uændret: die Hochwasser."
+      ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "Hochwasser"
+          ],
           "purple": [
-            "flod",
-            "Hovedidé"
+            "høj vandstand",
+            "oversvømmelse"
           ]
         },
         "examples": [
@@ -7844,7 +16682,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Efter"
+                "oversvømmelse"
               ]
             }
           },
@@ -7856,7 +16694,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Høje"
+                "høj vandstand"
               ]
             }
           },
@@ -7868,30 +16706,88 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Myndighederne"
+                "oversvømmelse"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Hochwasser"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Oversvømmelsen"
               ]
             }
           }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "die Überschwemmung"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "oversvømmelse"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Flut"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "flod, højvande"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "das Niedrigwasser"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "lav vandstand"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
         ]
       }
     }
   },
   {
     "de": "hochwertig",
-    "lv": "Høj værdi",
+    "lv": "Af høj kvalitet • Værdifuld",
     "level": "B2"
   },
   {
     "de": "Hohlmaß",
     "de_article": "das",
     "de_plural": "die Hohlmaße",
-    "lv": "Mål for volumen",
+    "lv": "Rummål",
     "level": "B2"
   },
   {
     "de": "Hohn",
     "de_article": "der",
-    "lv": "Latterliggørelse • Latterliggørelse",
+    "lv": "Hån • Spot",
     "level": "B2"
   },
   {
@@ -7903,14 +16799,14 @@ const B2_WORDS = [
   },
   {
     "de": "holpern",
-    "lv": "At ryste • At ryste",
+    "lv": "At skumple",
     "level": "B2"
   },
   {
     "de": "Honorar",
     "de_article": "das",
     "de_plural": "die Honorare",
-    "lv": "Royalty",
+    "lv": "Honorar",
     "level": "B2"
   },
   {
@@ -7929,7 +16825,7 @@ const B2_WORDS = [
     "de": "Hypothek",
     "de_article": "die",
     "de_plural": "die Hypotheken",
-    "lv": "Pant",
+    "lv": "Pantelån • Prioritet",
     "level": "B2"
   },
   {
@@ -7952,7 +16848,7 @@ const B2_WORDS = [
   },
   {
     "de": "in flagranti",
-    "lv": "Catch • At gøre noget ulovligt",
+    "lv": "På fersk gerning",
     "level": "B2"
   },
   {
@@ -7969,12 +16865,12 @@ const B2_WORDS = [
   },
   {
     "de": "innewohnen",
-    "lv": "Hjem",
+    "lv": "At være iboende",
     "level": "B2"
   },
   {
     "de": "inszenieren",
-    "lv": "Til iscenesættelse",
+    "lv": "At iscenesætte",
     "level": "B2"
   },
   {
@@ -7993,14 +16889,14 @@ const B2_WORDS = [
   },
   {
     "de": "irrsinnig",
-    "lv": "Sindssyg • Sindssyg",
+    "lv": "Sindssyg • Vanvittig",
     "level": "B2"
   },
   {
     "de": "Junkie",
     "de_article": "der",
     "de_plural": "die Junkies",
-    "lv": "En stofmisbruger",
+    "lv": "Narkoman • Junkie",
     "level": "B2"
   },
   {
@@ -8039,7 +16935,7 @@ const B2_WORDS = [
   },
   {
     "de": "kapitalistisch",
-    "lv": "Kapitalist",
+    "lv": "Kapitalistisk",
     "level": "B2"
   },
   {
@@ -8053,13 +16949,13 @@ const B2_WORDS = [
     "de": "Karrierefrau",
     "de_article": "die",
     "de_plural": "die Karrierefrauen",
-    "lv": "Karriere kvinde",
+    "lv": "Karrierekvinde",
     "level": "B2"
   },
   {
     "de": "Kaufkraft",
     "de_article": "die",
-    "lv": "Penge • Også personlig købekraft",
+    "lv": "Købekraft",
     "level": "B2"
   },
   {
@@ -8070,7 +16966,7 @@ const B2_WORDS = [
   },
   {
     "de": "kidnappen",
-    "lv": "Kidnap • Tag gidsel",
+    "lv": "At kidnappe • At bortføre",
     "level": "B2"
   },
   {
@@ -8082,7 +16978,7 @@ const B2_WORDS = [
     "de": "Klappe",
     "de_article": "die",
     "de_plural": "die Klappen",
-    "lv": "Ventil • Ventil",
+    "lv": "Klap • Ventil",
     "level": "B2"
   },
   {
@@ -8099,7 +16995,7 @@ const B2_WORDS = [
   },
   {
     "de": "klassifizieren",
-    "lv": "Klassificer",
+    "lv": "At klassificere",
     "level": "B2"
   },
   {
@@ -8143,7 +17039,7 @@ const B2_WORDS = [
   },
   {
     "de": "kompatibel",
-    "lv": "Kan tilsluttes",
+    "lv": "Kompatibel",
     "level": "B2"
   },
   {
@@ -8162,7 +17058,7 @@ const B2_WORDS = [
     "de": "Konsequenz",
     "de_article": "die",
     "de_plural": "die Konsequenzen",
-    "lv": "Konsekvens • Konsekvensfasthed",
+    "lv": "Konsekvens • Følge",
     "level": "B2"
   },
   {
@@ -8201,7 +17097,7 @@ const B2_WORDS = [
     "de": "Korps",
     "de_article": "das",
     "de_plural": "die Korps",
-    "lv": "Legeme",
+    "lv": "Korps",
     "level": "B2"
   },
   {
@@ -8211,14 +17107,14 @@ const B2_WORDS = [
   },
   {
     "de": "korrupt",
-    "lv": "Købbar • Bestikkelig",
+    "lv": "Korrupt • Bestikkelig",
     "level": "B2"
   },
   {
     "de": "Kosmonaut",
     "de_article": "der",
     "de_plural": "die Kosmonauten",
-    "lv": "En kosmonaut",
+    "lv": "Kosmonaut",
     "level": "B2"
   },
   {
@@ -8232,7 +17128,7 @@ const B2_WORDS = [
     "de": "Kriegszustand",
     "de_article": "der",
     "de_plural": "die Kriegszustände",
-    "lv": "Krigslov",
+    "lv": "Krigstilstand",
     "level": "B2"
   },
   {
@@ -8246,20 +17142,20 @@ const B2_WORDS = [
     "de": "Laie",
     "de_article": "der",
     "de_plural": "die Laien",
-    "lv": "En dilettant",
+    "lv": "Lægmand • Amatør",
     "level": "B2"
   },
   {
     "de": "Laienkunst",
     "de_article": "die",
-    "lv": "Kunstnerisk selvvirksomhed",
+    "lv": "Amatørkunst",
     "level": "B2"
   },
   {
     "de": "Landarbeiter",
     "de_article": "der",
     "de_plural": "die Landarbeiter",
-    "lv": "En landbrugsarbejder",
+    "lv": "Landarbejder",
     "level": "B2"
   },
   {
@@ -8279,14 +17175,14 @@ const B2_WORDS = [
   {
     "de": "Länderkunde",
     "de_article": "die",
-    "lv": "Regional geografi",
+    "lv": "Regionalgeografi",
     "level": "B2"
   },
   {
     "de": "Landsmann",
     "de_article": "der",
     "de_plural": "die Landsleute",
-    "lv": "Landsmand • Amtsbo",
+    "lv": "Landsmand",
     "level": "B2"
   },
   {
@@ -8300,22 +17196,22 @@ const B2_WORDS = [
     "de": "Landzunge",
     "de_article": "die",
     "de_plural": "die Landzungen",
-    "lv": "Jordens tunge",
+    "lv": "Odde • Landtange",
     "level": "B2"
   },
   {
     "de": "langfristig",
-    "lv": "Langsigtet • Langsigtet",
+    "lv": "Langsigtet • Langvarig",
     "level": "B2"
   },
   {
     "de": "länglich",
-    "lv": "Forlænget",
+    "lv": "Aflang",
     "level": "B2"
   },
   {
     "de": "lästig",
-    "lv": "Byrdefuldt",
+    "lv": "Besværlig • Generende",
     "level": "B2"
   },
   {
@@ -8325,7 +17221,7 @@ const B2_WORDS = [
   },
   {
     "de": "lauern",
-    "lv": "At putte sig",
+    "lv": "At lure • At ligge på lur",
     "level": "B2"
   },
   {
@@ -8339,26 +17235,26 @@ const B2_WORDS = [
     "de": "Laufmasche",
     "de_article": "die",
     "de_plural": "die Laufmaschen",
-    "lv": "Der er kommet et sting af sokken",
+    "lv": "Løbemaske",
     "level": "B2"
   },
   {
     "de": "Laufsteg",
     "de_article": "der",
     "de_plural": "die Laufstege",
-    "lv": "Tungen i modeshow",
+    "lv": "Catwalk",
     "level": "B2"
   },
   {
     "de": "Laufwerk",
     "de_article": "das",
     "de_plural": "die Laufwerke",
-    "lv": "Motor • Motor",
+    "lv": "Drev • Drivværk",
     "level": "B2"
   },
   {
     "de": "lauschen",
-    "lv": "At lytte omhyggeligt • Aflyt",
+    "lv": "At lytte opmærksomt • At smuglytte",
     "level": "B2"
   },
   {
@@ -8372,31 +17268,31 @@ const B2_WORDS = [
     "de": "Lawinenopfer",
     "de_article": "das",
     "de_plural": "die Lawinenopfer",
-    "lv": "Et lavineoffer",
+    "lv": "Lavineoffer",
     "level": "B2"
   },
   {
     "de": "Leader",
     "de_article": "der",
     "de_plural": "die Leader",
-    "lv": "Lederen",
+    "lv": "Leder",
     "level": "B2"
   },
   {
     "de": "legalisieren",
-    "lv": "Legalisere",
+    "lv": "At legalisere",
     "level": "B2"
   },
   {
     "de": "Lehrstuhl",
     "de_article": "der",
     "de_plural": "die Lehrstühle",
-    "lv": "Afdeling",
+    "lv": "Lærestol • Professorat",
     "level": "B2"
   },
   {
     "de": "leiblich",
-    "lv": "Kødeligt",
+    "lv": "Legemlig • Biologisk",
     "level": "B2"
   },
   {
@@ -8410,14 +17306,14 @@ const B2_WORDS = [
     "de": "Leichenhalle",
     "de_article": "die",
     "de_plural": "die Leichenhallen",
-    "lv": "På kapelkirkegården",
+    "lv": "Ligkapel",
     "level": "B2"
   },
   {
     "de": "Leichtgewicht",
     "de_article": "das",
     "de_plural": "die Leichtgewichte",
-    "lv": "Let vægt",
+    "lv": "Letvægt",
     "level": "B2"
   },
   {
@@ -8427,57 +17323,75 @@ const B2_WORDS = [
   },
   {
     "de": "leichtsinnig",
-    "lv": "Letsindigt",
+    "lv": "Letsindig",
     "level": "B2"
   },
   {
     "de": "Leiden",
     "de_article": "das",
     "de_plural": "die Leiden",
-    "lv": "Lang og svær sygdom",
+    "lv": "Lidelse",
     "level": "B2",
     "study": {
       "id": "b2-leiden-study",
       "layout": "standardStudy",
-      "translation": "Lang og svær sygdom",
+      "translation": "Lidelse",
       "explanation": [
-        "Hovedidé: das Leiden med stort bogstav og artiklen das er et substantiv - lidende, lang/alvorlig sygdom.",
-        "Leiden med små bogstaver er verbet - at lide.",
-        "Das Leiden bruges ofte i medicinsk eller litterær sammenhæng (ein schweres Leiden = svær sygdom).",
-        "Flertal: die Leiden."
+        "Hovedbetydning: das Leiden er et navneord i intetkøn, der bruges på to måder: som lidelse (das Leiden der Menschen) og som en langvarig, ofte kronisk sygdom (ein schweres Leiden). Flertal er die Leiden.",
+        "Ordet er udsagnsordet leiden (lide) brugt som navneord. Typiske forbindelser: ein chronisches Leiden, ein altes Leiden, nach langem, schwerem Leiden (i dødsannoncer).",
+        "Sammenlignet med det almindelige Krankheit understreger Leiden sygdommens varighed og alvor."
       ],
       "examples": [
         {
           "de": "Er hat ein schweres Leiden.",
-          "lv": "Han har en alvorlig sygdom."
+          "lv": "Han har en alvorlig lidelse."
         },
         {
           "de": "Das Leiden der Patienten war groß.",
-          "lv": "Patienternes lidelse var stor."
+          "lv": "Patienternes lidelser var store."
         },
         {
-          "de": "Er leidet an einer seltenen Krankheit.",
-          "lv": "Han lider af en sjælden sygdom."
+          "de": "Nach langem Leiden ist er gestorben.",
+          "lv": "Efter lang tids lidelse døde han."
         },
         {
-          "de": "Ihr Leiden dauerte Jahre.",
-          "lv": "Hendes sygdom varede i årevis."
+          "de": "Ein chronisches Leiden begleitet ihn seit Jahren.",
+          "lv": "En kronisk sygdom har fulgt ham i årevis."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "die Krankheit",
+          "meaning": "sygdom",
+          "example": "Eine Krankheit kann ansteckend sein. – En sygdom kan være smitsom."
+        },
+        {
+          "word": "der Schmerz",
+          "meaning": "smerte",
+          "example": "Der Schmerz ist stark. – Smerten er stærk."
+        },
+        {
+          "word": "leiden",
+          "meaning": "at lide",
+          "example": "Er leidet an Asthma. – Han lider af astma."
         }
       ],
       "tip": [
-        "das Leiden med stort bogstav - navneord (lidelse, svær sygdom).",
-        "leiden med små bogstaver - verbum (at lide)."
+        "Med udsagnsordet leiden siger man: an einer Krankheit leiden (lide af en sygdom).",
+        "I dødsannoncer vil du ofte læse: nach schwerem Leiden."
       ],
       "important": [
-        "das Leiden = lidelse/svær sygdom (substantiv).",
-        "leiden = lide (udsagnsord).",
-        "Flertal: die Leiden."
+        "Leiden er et navneord med stort, mens leiden er et udsagnsord med lille.",
+        "I hverdagen kalder man en kortvarig sygdom Krankheit, ikke Leiden."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "Leiden"
+          ],
           "purple": [
-            "Hovedidé",
-            "Hovedidé"
+            "lidelse",
+            "sygdom"
           ]
         },
         "examples": [
@@ -8489,7 +17403,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Han"
+                "lidelse"
               ]
             }
           },
@@ -8501,63 +17415,80 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Patienternes"
+                "lidelser"
               ]
             }
           },
           {
             "de": {
+              "blue": [
+                "Leiden"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "lidelse"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Leiden"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "sygdom"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
               "green": [
-                "leidet"
+                "die Krankheit"
               ]
             },
-            "lv": {
+            "meaning": {
               "purple": [
-                "Han"
+                "sygdom"
               ]
             }
           },
           {
-            "de": {
-              "blue": [
-                "Leiden"
+            "word": {
+              "green": [
+                "der Schmerz"
               ]
             },
-            "lv": {
+            "meaning": {
               "purple": [
-                "Hendes"
+                "smerte"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "leiden"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "lide"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "blue": [
-              "das Leiden"
-            ]
-          },
-          {
-            "green": [
-              "leiden"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "blue": [
-              "das Leiden"
-            ]
-          },
-          {
-            "green": [
-              "leiden"
-            ]
-          },
-          {
-            "blue": [
-              "die Leiden"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -8578,14 +17509,14 @@ const B2_WORDS = [
     "de": "Leitartikel",
     "de_article": "der",
     "de_plural": "die Leitartikel",
-    "lv": "Indledende artikel",
+    "lv": "Leder • Lederartikel",
     "level": "B2"
   },
   {
     "de": "Leitfaden",
     "de_article": "der",
     "de_plural": "die Leitfäden",
-    "lv": "Manuel",
+    "lv": "Vejledning • Håndbog",
     "level": "B2"
   },
   {
@@ -8599,19 +17530,19 @@ const B2_WORDS = [
     "de": "Lesbe",
     "de_article": "die",
     "de_plural": "die Lesben",
-    "lv": "En lesbisk",
+    "lv": "Lesbe",
     "level": "B2"
   },
   {
     "de": "lesegeschützt",
-    "lv": "Tekst, der kun kan læses efter indtastning af en adgangskode",
+    "lv": "Læsebeskyttet",
     "level": "B2"
   },
   {
     "de": "Leuchtreklame",
     "de_article": "die",
     "de_plural": "die Leuchtreklamen",
-    "lv": "Let reklame",
+    "lv": "Lysreklame",
     "level": "B2"
   },
   {
@@ -8628,34 +17559,34 @@ const B2_WORDS = [
     "de": "Liebesaffäre",
     "de_article": "die",
     "de_plural": "die Liebesaffären",
-    "lv": "Intim forbindelse",
+    "lv": "Kærlighedsaffære",
     "level": "B2"
   },
   {
     "de": "liebkosten",
-    "lv": "At kærtegne • Kærtegne",
+    "lv": "At kærtegne • At kæle for",
     "level": "B2"
   },
   {
     "de": "liederlich",
-    "lv": "Sjusket • Sjusket",
+    "lv": "Sjusket • Udsvævende",
     "level": "B2"
   },
   {
     "de": "lindern",
-    "lv": "Lindre • Lindre smerter",
+    "lv": "At lindre • At dulme",
     "level": "B2"
   },
   {
     "de": "lispeln",
-    "lv": "At glide",
+    "lv": "At læspe",
     "level": "B2"
   },
   {
     "de": "List",
     "de_article": "die",
     "de_plural": "die Listen",
-    "lv": "Bedrageri",
+    "lv": "List • Kneb",
     "level": "B2"
   },
   {
@@ -8667,14 +17598,14 @@ const B2_WORDS = [
     "de": "Litfaßsäule",
     "de_article": "die",
     "de_plural": "die Litfaßsäulen",
-    "lv": "Plakat stang",
+    "lv": "Plakatsøjle",
     "level": "B2"
   },
   {
     "de": "Lochband",
     "de_article": "das",
     "de_plural": "die Lochbänder",
-    "lv": "Perfolent",
+    "lv": "Hulstrimmel",
     "level": "B2"
   },
   {
@@ -8687,7 +17618,7 @@ const B2_WORDS = [
   {
     "de": "Lohnabbau",
     "de_article": "der",
-    "lv": "Fald i lønninger",
+    "lv": "Lønnedgang • Lønnedsættelse",
     "level": "B2"
   },
   {
@@ -8701,28 +17632,28 @@ const B2_WORDS = [
     "de": "Lösegeld",
     "de_article": "das",
     "de_plural": "die Lösegelder",
-    "lv": "Indløsningsgebyr",
+    "lv": "Løsepenge • Løsesum",
     "level": "B2"
   },
   {
     "de": "Losung",
     "de_article": "die",
     "de_plural": "die Losungen",
-    "lv": "Slogan • Adgangskode",
+    "lv": "Slogan • Løsen",
     "level": "B2"
   },
   {
     "de": "Löwenmähne",
     "de_article": "die",
     "de_plural": "die Löwenmähnen",
-    "lv": "Løvens manke",
+    "lv": "Løvemanke",
     "level": "B2"
   },
   {
     "de": "Löwenpranke",
     "de_article": "die",
     "de_plural": "die Löwenpranken",
-    "lv": "Løvens pote",
+    "lv": "Løvepote",
     "level": "B2"
   },
   {
@@ -8735,19 +17666,19 @@ const B2_WORDS = [
     "de": "Luftbad",
     "de_article": "das",
     "de_plural": "die Luftbäder",
-    "lv": "Luftsvømning",
+    "lv": "Luftbad",
     "level": "B2"
   },
   {
     "de": "Luftaufnahme",
     "de_article": "die",
     "de_plural": "die Luftaufnahmen",
-    "lv": "Luftfoto • Luftfoto",
+    "lv": "Luftfoto • Luftbillede",
     "level": "B2"
   },
   {
     "de": "luftdicht",
-    "lv": "Luftgennemtrængelig • Hermetisk",
+    "lv": "Lufttæt • Hermetisk",
     "level": "B2"
   },
   {
@@ -8760,7 +17691,7 @@ const B2_WORDS = [
     "de": "Lufthafen",
     "de_article": "der",
     "de_plural": "die Lufthäfen",
-    "lv": "Lufthavnen",
+    "lv": "Lufthavn",
     "level": "B2"
   },
   {
@@ -8773,7 +17704,7 @@ const B2_WORDS = [
     "de": "Luftgewehr",
     "de_article": "das",
     "de_plural": "die Luftgewehre",
-    "lv": "Luftpistol",
+    "lv": "Luftgevær",
     "level": "B2"
   },
   {
@@ -8787,20 +17718,20 @@ const B2_WORDS = [
     "de": "Lustspiel",
     "de_article": "das",
     "de_plural": "die Lustspiele",
-    "lv": "Komedie • Spøgespil",
+    "lv": "Lystspil • Komedie",
     "level": "B2"
   },
   {
     "de": "Machtantritt",
     "de_article": "der",
     "de_plural": "die Machtantritte",
-    "lv": "Kommer til magten",
+    "lv": "Magtovertagelse",
     "level": "B2"
   },
   {
     "de": "Machtgier",
     "de_article": "die",
-    "lv": "Begær efter magt",
+    "lv": "Magtbegær",
     "level": "B2"
   },
   {
@@ -8819,14 +17750,14 @@ const B2_WORDS = [
     "de": "Magister",
     "de_article": "der",
     "de_plural": "die Magister",
-    "lv": "Kandidatgrad",
+    "lv": "Magister",
     "level": "B2"
   },
   {
     "de": "Mahd",
     "de_article": "die",
     "de_plural": "die Mahden",
-    "lv": "Høstet",
+    "lv": "Slåning • Høslæt",
     "level": "B2"
   },
   {
@@ -8845,13 +17776,13 @@ const B2_WORDS = [
   },
   {
     "de": "mahnen",
-    "lv": "For at minde",
+    "lv": "At formane • At minde om • At rykke",
     "level": "B2"
   },
   {
     "de": "Mahnschreiben",
     "de_article": "das",
-    "lv": "En påmindelse",
+    "lv": "Rykkerbrev • Påmindelse",
     "level": "B2"
   },
   {
@@ -8863,7 +17794,7 @@ const B2_WORDS = [
   },
   {
     "de": "manipulieren",
-    "lv": "Manipulere",
+    "lv": "At manipulere",
     "level": "B2"
   },
   {
@@ -8877,7 +17808,7 @@ const B2_WORDS = [
     "de": "Marine",
     "de_article": "die",
     "de_plural": "die Marinen",
-    "lv": "Navy • Havlandskab",
+    "lv": "Flåde • Marinemaleri",
     "level": "B2"
   },
   {
@@ -8891,21 +17822,21 @@ const B2_WORDS = [
     "de": "Marketing",
     "de_article": "das",
     "de_plural": null,
-    "lv": "Markedsføring • Handel",
+    "lv": "Markedsføring • Marketing",
     "level": "B2"
   },
   {
     "de": "Marktlücke",
     "de_article": "die",
     "de_plural": "die Marktlücken",
-    "lv": "Nichemarked",
+    "lv": "Markedsniche • Hul i markedet",
     "level": "B2"
   },
   {
     "de": "Marssonde",
     "de_article": "die",
     "de_plural": "die Marssonden",
-    "lv": "Mars sonde",
+    "lv": "Marssonde",
     "level": "B2"
   },
   {
@@ -8931,7 +17862,7 @@ const B2_WORDS = [
     "de": "Maskenbildner",
     "de_article": "der",
     "de_plural": "die Maskenbildner",
-    "lv": "Professionel makeupartist og frisør",
+    "lv": "Maskør",
     "level": "B2"
   },
   {
@@ -8944,12 +17875,12 @@ const B2_WORDS = [
   {
     "de": "Massenware",
     "de_article": "die",
-    "lv": "Forbrugsvarer",
+    "lv": "Massevare",
     "level": "B2"
   },
   {
     "de": "maßlos",
-    "lv": "Umålelig • Uendelig",
+    "lv": "Umådelig • Grænseløs",
     "level": "B2"
   },
   {
@@ -8962,7 +17893,7 @@ const B2_WORDS = [
     "de": "Matinée",
     "de_article": "die",
     "de_plural": "die Matinéen",
-    "lv": "Morgenshow",
+    "lv": "Matiné • Formiddagsforestilling",
     "level": "B2"
   },
   {
@@ -8974,7 +17905,7 @@ const B2_WORDS = [
     "de": "Meerbusen",
     "de_article": "der",
     "de_plural": "die Meerbusen",
-    "lv": "Havbugten",
+    "lv": "Havbugt • Bugt",
     "level": "B2"
   },
   {
@@ -8993,31 +17924,31 @@ const B2_WORDS = [
   },
   {
     "de": "mehren",
-    "lv": "Gange",
+    "lv": "At øge • At forøge",
     "level": "B2"
   },
   {
     "de": "meiden",
-    "lv": "Undgå",
+    "lv": "At undgå • At sky",
     "level": "B2"
   },
   {
     "de": "Meisterwerk",
     "de_article": "das",
     "de_plural": "die Meisterwerke",
-    "lv": "Et mesterværk",
+    "lv": "Mesterværk",
     "level": "B2"
   },
   {
     "de": "Meldefrist",
     "de_article": "die",
     "de_plural": "die Meldefristen",
-    "lv": "Ansøgningsfrist",
+    "lv": "Tilmeldingsfrist",
     "level": "B2"
   },
   {
     "de": "menschenscheu",
-    "lv": "Usocial • Forsigtig",
+    "lv": "Menneskesky • Sky",
     "level": "B2"
   },
   {
@@ -9027,20 +17958,20 @@ const B2_WORDS = [
   },
   {
     "de": "meutern",
-    "lv": "Rebel • Rebel",
+    "lv": "At gøre mytteri • At gøre oprør",
     "level": "B2"
   },
   {
     "de": "Mieder",
     "de_article": "das",
     "de_plural": "die Mieder",
-    "lv": "Tights bælte • Overdel",
+    "lv": "Korset • Snørliv",
     "level": "B2"
   },
   {
     "de": "Miederwaren",
     "de_article": "die",
-    "lv": "Korsetter • BH'er",
+    "lv": "Korsetvarer",
     "level": "B2"
   },
   {
@@ -9054,7 +17985,7 @@ const B2_WORDS = [
     "de": "Milbe",
     "de_article": "die",
     "de_plural": "die Milben",
-    "lv": "Sæt kryds",
+    "lv": "Mide",
     "level": "B2"
   },
   {
@@ -9066,18 +17997,18 @@ const B2_WORDS = [
   },
   {
     "de": "mildern",
-    "lv": "Dulme smerten • Blødgøre dømmekraften",
+    "lv": "At mildne • At lindre",
     "level": "B2"
   },
   {
     "de": "militant",
-    "lv": "Krigsførende",
+    "lv": "Militant • Krigerisk",
     "level": "B2"
   },
   {
     "de": "Militär",
     "de_article": "das",
-    "lv": "Tropper • Hæren",
+    "lv": "Militær • Hær",
     "level": "B2"
   },
   {
@@ -9094,54 +18025,54 @@ const B2_WORDS = [
   },
   {
     "de": "minder",
-    "lv": "Mindre • Mindre",
+    "lv": "Mindre",
     "level": "B2"
   },
   {
     "de": "Minderung",
     "de_article": "die",
     "de_plural": "die Minderungen",
-    "lv": "Aftagende",
+    "lv": "Formindskelse • Nedsættelse",
     "level": "B2"
   },
   {
     "de": "minderwertig",
-    "lv": "Værdiløs",
+    "lv": "Mindreværdig",
     "level": "B2"
   },
   {
     "de": "missachten",
-    "lv": "Se bort fra",
+    "lv": "At ignorere • At se bort fra",
     "level": "B2"
   },
   {
     "de": "missbilligen",
-    "lv": "Ikke at anerkende som god • Tjen",
+    "lv": "At misbillige",
     "level": "B2"
   },
   {
     "de": "missbrauchen",
-    "lv": "Misbrug",
+    "lv": "At misbruge",
     "level": "B2"
   },
   {
     "de": "missfallen",
-    "lv": "Kan ikke lide",
+    "lv": "At mishage",
     "level": "B2"
   },
   {
     "de": "missglücken",
-    "lv": "Mislykkedes • Mislykkedes",
+    "lv": "At mislykkes",
     "level": "B2"
   },
   {
     "de": "missgönnen",
-    "lv": "Ikke at ønske • At smerte",
+    "lv": "At misunde",
     "level": "B2"
   },
   {
     "de": "misstrauen",
-    "lv": "Ikke at stole på",
+    "lv": "At mistro",
     "level": "B2"
   },
   {
@@ -9151,31 +18082,31 @@ const B2_WORDS = [
   },
   {
     "de": "mittels",
-    "lv": "Ved hjælp af noget",
+    "lv": "Ved hjælp af",
     "level": "B2"
   },
   {
     "de": "Mittelsmann",
     "de_article": "der",
     "de_plural": "die Mittelsmänner",
-    "lv": "En mægler mellem modstandere eller partnere",
+    "lv": "Mellemmand • Mægler",
     "level": "B2"
   },
   {
     "de": "mitwirken",
-    "lv": "Deltage • Handle sammen",
+    "lv": "At medvirke • At deltage",
     "level": "B2"
   },
   {
     "de": "Mitwisser",
     "de_article": "der",
     "de_plural": "die Mitwisser",
-    "lv": "Medsammensvoren",
+    "lv": "Medvider",
     "level": "B2"
   },
   {
     "de": "mobilisieren",
-    "lv": "Mobilisere",
+    "lv": "At mobilisere",
     "level": "B2"
   },
   {
@@ -9187,13 +18118,13 @@ const B2_WORDS = [
     "de": "Moment",
     "de_article": "das",
     "de_plural": "die Momente",
-    "lv": "Afgørende omstændighed • Faktor",
+    "lv": "Faktor • Moment",
     "level": "B2"
   },
   {
     "de": "Monatsschrift",
     "de_article": "die",
-    "lv": "Månedlig",
+    "lv": "Månedsskrift • Månedsblad",
     "level": "B2",
     "de_plural": "die Monatsschriften"
   },
@@ -9217,23 +18148,23 @@ const B2_WORDS = [
   },
   {
     "de": "münden",
-    "lv": "Munde ud • Udmunde",
+    "lv": "At munde ud • At udmunde",
     "level": "B2"
   },
   {
     "de": "Muße",
     "de_article": "die",
-    "lv": "Fritid • Fritid",
+    "lv": "Fritid • Ro",
     "level": "B2"
   },
   {
     "de": "müßig",
-    "lv": "Inaktiv • Inaktiv",
+    "lv": "Ørkesløs • Ledig • Nytteløs",
     "level": "B2"
   },
   {
     "de": "mutieren",
-    "lv": "At tale",
+    "lv": "At mutere • At komme i overgang",
     "level": "B2"
   },
   {
@@ -9254,76 +18185,76 @@ const B2_WORDS = [
     "de": "Nachbildung",
     "de_article": "die",
     "de_plural": "die Nachbildungen",
-    "lv": "Imitation • Imitation",
+    "lv": "Efterligning • Imitation",
     "level": "B2"
   },
   {
     "de": "Nachdruck",
     "de_article": "der",
     "de_plural": "die Nachdrucke",
-    "lv": "Vægt • Genoptryk",
+    "lv": "Eftertryk • Genoptryk",
     "level": "B2",
     "study": {
       "id": "b2-nachdruck",
       "layout": "standardStudy",
-      "translation": "Vægt • Genoptryk",
+      "translation": "Eftertryk • Genoptryk",
       "explanation": [
-        "Hovedidé: der Nachdruck kan betyde en fremhævelse eller et genoptryk af en bog.",
-        "Nachdruck auf etwas legen = at understrege noget, insistere på noget.",
-        "Der Nachdruck eines Buches = genoptryk af bogen.",
-        "Kontekst (transaktioner/forhandlinger eller publicering) bestemmer den korrekte betydning."
+        "Hovedbetydning: der Nachdruck er et navneord i hankøn. Hovedbetydningen er eftertryk, bestemthed, insisteren, hvormed man siger eller gør noget: mit Nachdruck (med eftertryk), Nachdruck auf etwas legen (lægge vægt på noget).",
+        "I denne betydning bruges ental: der Nachdruck, des Nachdrucks. Den anden betydning er inden for bogtryk et genoptryk eller en eftertrykt udgave; så er flertal die Nachdrucke. På publikationer ser man ofte: Nachdruck verboten! — Eftertryk forbudt!"
       ],
       "examples": [
         {
-          "de": "Er legt Nachdruck auf die Frist.",
-          "lv": "Han understreger deadline."
+          "de": "Mit Nachdruck forderte sie eine Antwort.",
+          "lv": "Hun krævede med eftertryk et svar."
         },
         {
-          "de": "Mit Nachdruck forderte sie eine Antwort.",
-          "lv": "Hun forlangte et svar."
+          "de": "Er legt besonderen Nachdruck auf die Qualität.",
+          "lv": "Han lægger særlig vægt på kvaliteten."
         },
         {
           "de": "Der Nachdruck des Romans erschien im Frühjahr.",
-          "lv": "Et genoptryk af romanen udkom i foråret."
+          "lv": "Genoptrykket af romanen udkom i foråret."
         },
         {
-          "de": "Dieses Buch ist bereits im Nachdruck.",
-          "lv": "Denne bog er allerede i genoptryk."
-        },
-        {
-          "de": "Der Verlag plant einen Nachdruck.",
-          "lv": "Forlaget planlægger en genudgivelse."
+          "de": "Nachdruck verboten!",
+          "lv": "Eftertryk forbudt!"
         }
       ],
       "comparison": [
         {
-          "word": "Nachdruck legen auf",
-          "meaning": "Understreg, insister",
-          "example": "Er legt Nachdruck auf die Frist. = Han lægger vægt på fristen."
+          "word": "die Betonung",
+          "meaning": "betoning, tryk",
+          "example": "Die Betonung liegt auf der ersten Silbe. – Trykket ligger på første stavelse."
         },
         {
-          "word": "der Nachdruck (Buch)",
-          "meaning": "Genudsted",
-          "example": "Der Nachdruck erschien im Frühjahr. = Genoptrykket udkom i foråret."
+          "word": "die Auflage",
+          "meaning": "oplag, udgave",
+          "example": "Das Buch erscheint in zweiter Auflage. – Bogen udkommer i andet oplag."
         },
         {
-          "word": "der Druck",
-          "meaning": "Tryk / print",
-          "example": "Unter Druck stehen = at være under pres."
+          "word": "nachdrücklich",
+          "meaning": "eftertrykkelig",
+          "example": "Er bat nachdrücklich um Hilfe. – Han bad indtrængende om hjælp."
         }
       ],
       "tip": [
-        "I diskussioner og krav: Nachdruck = betoning.",
-        "I forlag og bøger: Nachdruck = genoptryk."
+        "Lær to faste forbindelser: mit Nachdruck og Nachdruck verleihen.",
+        "Det beslægtede tillægsord nachdrücklich betyder eftertrykkelig, indtrængende."
       ],
       "important": [
-        "Nachdruck auf etwas legen = at understrege.",
-        "der Nachdruck eines Buches = genoptryk."
+        "Nachdruck står i denne betydning i ental; flertal die Nachdrucke drejer sig om udgaver.",
+        "Forveksl ikke med Druck (tryk, pres; trykning): det har en anden betydning."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "der Nachdruck",
+            "Nachdruck",
+            "Nachdrucke"
+          ],
           "purple": [
-            "Hovedidé"
+            "eftertryk",
+            "genoptryk"
           ]
         },
         "examples": [
@@ -9335,7 +18266,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Han"
+                "eftertryk"
               ]
             }
           },
@@ -9347,46 +18278,80 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Hun"
+                "lægger særlig vægt på"
               ]
             }
           },
           {
             "de": {
-              "green": [
+              "blue": [
                 "Nachdruck"
               ]
             },
             "lv": {
               "purple": [
-                "genoptryk"
+                "Genoptrykket"
               ]
             }
           },
           {
             "de": {
-              "green": [
+              "blue": [
                 "Nachdruck"
               ]
             },
             "lv": {
               "purple": [
-                "Denne"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "Nachdruck"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Forlaget"
+                "Eftertryk"
               ]
             }
           }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "die Betonung"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "betoning, tryk"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Auflage"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "oplag, udgave"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "nachdrücklich"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "eftertrykkelig"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
         ]
       }
     }
@@ -9398,12 +18363,12 @@ const B2_WORDS = [
   },
   {
     "de": "nachgehen",
-    "lv": "Følg • Find ud af det",
+    "lv": "At følge • At undersøge",
     "level": "B2"
   },
   {
     "de": "nachgiebig",
-    "lv": "Nedladende",
+    "lv": "Eftergivende • Medgørlig",
     "level": "B2"
   },
   {
@@ -9428,13 +18393,174 @@ const B2_WORDS = [
   },
   {
     "de": "nachsitzen",
-    "lv": "Bliv i skole efter arbejdstid som straf",
+    "lv": "At sidde efter",
     "level": "B2"
   },
   {
     "de": "nachträglich",
     "lv": "Efterfølgende • Senere",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-nachtr-glich",
+      "layout": "standardStudy",
+      "translation": "Efterfølgende • Senere",
+      "explanation": [
+        "Hovedbetydning: nachträglich betyder efterfølgende, bagefter — efter selve handlingen eller fristen, noget der tilføjes eller gøres senere. Det er både tillægsord (eine nachträgliche Änderung) og biord (nachträglich ändern).",
+        "En hyppig betydning er forsinkelse: nachträglich gratulieren — ønske tillykke efter begivenheden. Tillægsordet kan også udtrykke noget ekstra: eine nachträgliche Zahlung (en efterbetaling)."
+      ],
+      "examples": [
+        {
+          "de": "Eine nachträgliche Änderung ist nicht mehr möglich.",
+          "lv": "En efterfølgende ændring er ikke længere mulig."
+        },
+        {
+          "de": "Ich habe den Text nachträglich geändert.",
+          "lv": "Jeg ændrede teksten bagefter."
+        },
+        {
+          "de": "Es gibt eine nachträgliche Zahlung.",
+          "lv": "Der er en efterbetaling."
+        },
+        {
+          "de": "Herzlichen Glückwunsch nachträglich!",
+          "lv": "Hjertelig tillykke, lidt forsinket!"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "später",
+          "meaning": "senere",
+          "example": "Wir sprechen später. – Vi tales ved senere."
+        },
+        {
+          "word": "zusätzlich",
+          "meaning": "ekstra, yderligere",
+          "example": "Es gibt zusätzliche Kosten. – Der er ekstra omkostninger."
+        },
+        {
+          "word": "nachher",
+          "meaning": "bagefter",
+          "example": "Ich rufe dich nachher an. – Jeg ringer til dig bagefter."
+        }
+      ],
+      "tip": [
+        "Når du ønsker tillykke for sent, siger du nachträglich: Alles Gute nachträglich!",
+        "I modsætning til später antyder nachträglich, at noget egentlig skulle være sket tidligere."
+      ],
+      "important": [
+        "nachträglich drejer sig om noget, der sker efter noget allerede sket, ikke om et hvilket som helst senere tidspunkt i fremtiden.",
+        "Tillægsordet bøjes: nachträglicher, nachträgliche, nachträgliches."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "nachträglich",
+            "nachträgliche"
+          ],
+          "purple": [
+            "efterfølgende",
+            "bagefter",
+            "senere"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "nachträgliche"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "efterfølgende"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "nachträglich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "bagefter"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "nachträgliche"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "efterbetaling"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "nachträglich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "lidt forsinket"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "später"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "senere"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "zusätzlich"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ekstra, yderligere"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "nachher"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "bagefter"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "Nachweis",
@@ -9454,12 +18580,12 @@ const B2_WORDS = [
     "de": "Nährboden",
     "de_article": "der",
     "de_plural": "die Nährböden",
-    "lv": "Medium",
+    "lv": "Grobund • Næringssubstrat",
     "level": "B2"
   },
   {
     "de": "namens",
-    "lv": "I navnet • I efternavnet",
+    "lv": "Ved navn • På vegne af",
     "level": "B2"
   },
   {
@@ -9473,7 +18599,7 @@ const B2_WORDS = [
     "de": "Narkosearzt",
     "de_article": "der",
     "de_plural": "die Narkoseärzte",
-    "lv": "Læge anæstesiolog",
+    "lv": "Anæstesilæge • Narkoselæge",
     "level": "B2"
   },
   {
@@ -9493,14 +18619,14 @@ const B2_WORDS = [
   {
     "de": "Naturgewalten",
     "de_article": "die",
-    "lv": "Naturens kræfter",
+    "lv": "Naturkræfter",
     "level": "B2"
   },
   {
     "de": "Nebelschwaden",
     "de_article": "der",
     "de_plural": "die Nebelschwaden",
-    "lv": "Et skår af tåge",
+    "lv": "Tågebanke • Tågeslør",
     "level": "B2"
   },
   {
@@ -9514,21 +18640,21 @@ const B2_WORDS = [
     "de": "Neger",
     "de_article": "der",
     "de_plural": "die Neger",
-    "lv": "En neger",
+    "lv": "Neger",
     "level": "B2"
   },
   {
     "de": "Nenner",
     "de_article": "der",
     "de_plural": "die Nenner",
-    "lv": "Nævneren",
+    "lv": "Nævner",
     "level": "B2"
   },
   {
     "de": "Nervenarzt",
     "de_article": "der",
     "de_plural": "die Nervenärzte",
-    "lv": "Læge i nervesygdomme",
+    "lv": "Neurolog • Nervelæge",
     "level": "B2"
   },
   {
@@ -9541,7 +18667,7 @@ const B2_WORDS = [
     "de": "Neuauflage",
     "de_article": "die",
     "de_plural": "die Neuauflagen",
-    "lv": "Re • Revideret udgave",
+    "lv": "Nyudgave • Genoptryk",
     "level": "B2"
   },
   {
@@ -9560,14 +18686,14 @@ const B2_WORDS = [
     "de": "Neuerscheinung",
     "de_article": "die",
     "de_plural": "die Neuerscheinungen",
-    "lv": "Ny • Ny udgave",
+    "lv": "Nyhed • Nyudgivelse",
     "level": "B2"
   },
   {
     "de": "Neuerung",
     "de_article": "die",
     "de_plural": "die Neuerungen",
-    "lv": "En opgradering",
+    "lv": "Nyskabelse • Fornyelse",
     "level": "B2"
   },
   {
@@ -9581,7 +18707,7 @@ const B2_WORDS = [
     "de": "Nichtbeachtung",
     "de_article": "die",
     "de_plural": "die Nichtbeachtungen",
-    "lv": "Se bort fra • Ignorerer",
+    "lv": "Tilsidesættelse • Ignorering",
     "level": "B2"
   },
   {
@@ -9598,7 +18724,7 @@ const B2_WORDS = [
   },
   {
     "de": "niederlegen",
-    "lv": "Nedlægge • Fratræde",
+    "lv": "At nedlægge • At lægge ned",
     "level": "B2"
   },
   {
@@ -9611,7 +18737,7 @@ const B2_WORDS = [
   {
     "de": "Niedertracht",
     "de_article": "die",
-    "lv": "Smaghed",
+    "lv": "Nederdrægtighed • Lumskhed",
     "level": "B2"
   },
   {
@@ -9626,7 +18752,7 @@ const B2_WORDS = [
   },
   {
     "de": "normieren",
-    "lv": "At rationere",
+    "lv": "At normere • At standardisere",
     "level": "B2"
   },
   {
@@ -9638,34 +18764,34 @@ const B2_WORDS = [
     "de": "Notstand",
     "de_article": "der",
     "de_plural": "die Notstände",
-    "lv": "Katastrofal tilstand • Undtagelsestilstand",
+    "lv": "Nødsituation • Undtagelsestilstand",
     "level": "B2"
   },
   {
     "de": "Notwehr",
     "de_article": "die",
-    "lv": "Nødvendig beskyttelse",
+    "lv": "Nødværge",
     "level": "B2"
   },
   {
     "de": "Nutzeffekt",
     "de_article": "der",
     "de_plural": "die Nutzeffekte",
-    "lv": "Effektivitetsforhold",
+    "lv": "Virkningsgrad • Nyttevirkning",
     "level": "B2"
   },
   {
     "de": "Nutzholz",
     "de_article": "das",
     "de_plural": "die Nutzhölzer",
-    "lv": "Sagsakter",
+    "lv": "Gavntræ • Tømmer",
     "level": "B2"
   },
   {
     "de": "Oberhand",
     "de_article": "die",
     "de_plural": null,
-    "lv": "Overhøjhed",
+    "lv": "Overtag",
     "level": "B2"
   },
   {
@@ -9677,25 +18803,25 @@ const B2_WORDS = [
   },
   {
     "de": "obgleich",
-    "lv": "Selvom selvom",
+    "lv": "Selvom • Skønt",
     "level": "B2"
   },
   {
     "de": "Obhut",
     "de_article": "die",
-    "lv": "Beskyttelse",
+    "lv": "Varetægt • Omsorg",
     "level": "B2"
   },
   {
     "de": "Oboe",
     "de_article": "die",
     "de_plural": "die Oboen",
-    "lv": "Oboen",
+    "lv": "Obo",
     "level": "B2"
   },
   {
     "de": "observieren",
-    "lv": "Spor • Observer",
+    "lv": "At observere • At skygge",
     "level": "B2"
   },
   {
@@ -9708,7 +18834,7 @@ const B2_WORDS = [
     "de": "Offenbarung",
     "de_article": "die",
     "de_plural": "die Offenbarungen",
-    "lv": "En åbenbaring",
+    "lv": "Åbenbaring",
     "level": "B2"
   },
   {
@@ -9720,7 +18846,7 @@ const B2_WORDS = [
     "de": "Ökobauer",
     "de_article": "der",
     "de_plural": "die Ökobauern",
-    "lv": "En landmand, der producerer økologisk rene landbrugsprodukter",
+    "lv": "Økologisk landmand",
     "level": "B2"
   },
   {
@@ -9754,35 +18880,35 @@ const B2_WORDS = [
   {
     "de": "Ölpest",
     "de_article": "die",
-    "lv": "Vand- og kystnær olieforurening",
+    "lv": "Olieforurening • Olieudslip",
     "level": "B2"
   },
   {
     "de": "Ölpflanze",
     "de_article": "die",
     "de_plural": "die Ölpflanzen",
-    "lv": "Olie plante",
+    "lv": "Olieplante",
     "level": "B2"
   },
   {
     "de": "Olympiasieger",
     "de_article": "der",
     "de_plural": "die Olympiasieger",
-    "lv": "Vinder af de olympiske lege",
+    "lv": "Olympisk mester",
     "level": "B2"
   },
   {
     "de": "Operator",
     "de_article": "der",
     "de_plural": "die Operatoren",
-    "lv": "Stor computerbesætningsspecialist",
+    "lv": "Operatør",
     "level": "B2"
   },
   {
     "de": "Opposition",
     "de_article": "die",
     "de_plural": "die Oppositionen",
-    "lv": "Oppositionen",
+    "lv": "Opposition",
     "level": "B2"
   },
   {
@@ -9796,7 +18922,7 @@ const B2_WORDS = [
     "de": "Organempfänger",
     "de_article": "der",
     "de_plural": "die Organempfänger",
-    "lv": "Modtager af transplanteret organ",
+    "lv": "Organmodtager",
     "level": "B2"
   },
   {
@@ -9810,7 +18936,7 @@ const B2_WORDS = [
     "de": "Organspende",
     "de_article": "die",
     "de_plural": "die Organspenden",
-    "lv": "Donere et organ til transplantation",
+    "lv": "Organdonation",
     "level": "B2"
   },
   {
@@ -9834,36 +18960,178 @@ const B2_WORDS = [
   },
   {
     "de": "orten",
-    "lv": "Find ved hjælp af værktøjer",
+    "lv": "At lokalisere • At pejle",
     "level": "B2"
   },
   {
     "de": "Ortszeit",
     "de_article": "die",
-    "lv": "Lokal tid",
+    "lv": "Lokaltid",
     "level": "B2"
   },
   {
     "de": "sich paaren",
-    "lv": "At parre sig med",
+    "lv": "At parre sig",
     "level": "B2",
     "study": {
       "id": "b2-sich-paaren",
-      "layout": "minimalStudy",
-      "translation": "At parre sig med",
-      "rektion": "mit + kam?",
-      "explanation": "Sich paaren kræver den bestemte præposition mit + kam?.",
-      "forms": "mit + kam?",
-      "formsLabel": "Management:",
+      "layout": "standardStudy",
+      "translation": "At parre sig",
+      "explanation": [
+        "Hovedbetydning: sich paaren betyder at parre sig — om dyr, når de formerer sig. Med mit + dativ angiver man partneren: Der Löwe paart sich mit der Löwin. I overført betydning forenes to egenskaber eller ting: Mut paart sich mit Klugheit.",
+        "Former: paart sich, paarte sich, hat sich gepaart. Uden sich er paaren et overgangsudsagnsord: Züchter paaren zwei Tiere — opdrættere parrer to dyr."
+      ],
+      "examples": [
+        {
+          "de": "Die Vögel paaren sich im Frühjahr.",
+          "lv": "Fuglene parrer sig om foråret."
+        },
+        {
+          "de": "Der Löwe paart sich mit der Löwin.",
+          "lv": "Løven parrer sig med løvinden."
+        },
+        {
+          "de": "Bei ihm paart sich Mut mit Klugheit.",
+          "lv": "Hos ham forenes mod med klogskab."
+        },
+        {
+          "de": "Hier paart sich Tradition mit Moderne.",
+          "lv": "Her forenes tradition med modernitet."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "paaren",
+          "meaning": "at parre",
+          "example": "Der Züchter paart zwei Hunde. – Opdrætteren parrer to hunde."
+        },
+        {
+          "word": "verbinden",
+          "meaning": "at forbinde, forene",
+          "example": "Das Hotel verbindet Komfort mit Natur. – Hotellet forener komfort med natur."
+        },
+        {
+          "word": "sich vereinigen",
+          "meaning": "at forene sig",
+          "example": "Die Gruppen vereinigen sich. – Grupperne forener sig."
+        }
+      ],
+      "tip": [
+        "Til den overførte betydning kan du lære et fast par: Mut paart sich mit Klugheit.",
+        "Angiv partneren med mit + dativ: mit dem Männchen, mit der Tradition."
+      ],
+      "important": [
+        "Om mennesker bruges ordet sjældent, fordi det lyder biologisk eller groft.",
+        "Efter mit følger dativ."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich paaren"
+            "paaren",
+            "paart",
+            "paarte",
+            "gepaart"
           ],
-          "red": [
-            "mit + kam?"
+          "purple": [
+            "parre sig"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "paaren"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "parrer sig"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "paart"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "parrer sig"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "paart"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "forenes"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "paart"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "forenes"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "paaren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "parre"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "verbinden"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "forbinde, forene"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich vereinigen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "forene sig"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -9871,19 +19139,19 @@ const B2_WORDS = [
     "de": "Pacht",
     "de_article": "die",
     "de_plural": "die Pachten",
-    "lv": "Udlejning",
+    "lv": "Forpagtning",
     "level": "B2"
   },
   {
     "de": "Pachtvertrag",
     "de_article": "der",
     "de_plural": "die Pachtverträge",
-    "lv": "Lejeaftale",
+    "lv": "Forpagtningskontrakt",
     "level": "B2"
   },
   {
     "de": "pachten",
-    "lv": "At leje",
+    "lv": "At forpagte • At leje",
     "level": "B2"
   },
   {
@@ -9904,14 +19172,14 @@ const B2_WORDS = [
     "de": "Panzerschrank",
     "de_article": "der",
     "de_plural": "die Panzerschränke",
-    "lv": "Sikker • Jernskab",
+    "lv": "Pengeskab • Boks",
     "level": "B2"
   },
   {
     "de": "Parole",
     "de_article": "die",
     "de_plural": "die Parolen",
-    "lv": "Adgangskode • Slogan",
+    "lv": "Slogan • Løsen",
     "level": "B2"
   },
   {
@@ -9928,7 +19196,7 @@ const B2_WORDS = [
   },
   {
     "de": "parteilich",
-    "lv": "Partisan • Partier",
+    "lv": "Partisk • Partimæssig",
     "level": "B2"
   },
   {
@@ -9961,14 +19229,14 @@ const B2_WORDS = [
     "de": "Pater",
     "de_article": "der",
     "de_plural": "die Patres",
-    "lv": "En katolsk præst • Tilhører en orden",
+    "lv": "Pater • Ordenspræst",
     "level": "B2"
   },
   {
     "de": "Peepshow",
     "de_article": "die",
     "de_plural": "die Peepshows",
-    "lv": "Et erotisk program, der ses separat gennem boksen",
+    "lv": "Peepshow",
     "level": "B2"
   },
   {
@@ -9982,7 +19250,7 @@ const B2_WORDS = [
     "de": "Pendelverkehr",
     "de_article": "der",
     "de_plural": "die Pendelverkehre",
-    "lv": "Lokal pendlertrafik",
+    "lv": "Pendeltrafik",
     "level": "B2"
   },
   {
@@ -10001,38 +19269,38 @@ const B2_WORDS = [
     "de": "Personalakte",
     "de_article": "die",
     "de_plural": "die Personalakten",
-    "lv": "Personlig sag",
+    "lv": "Personalemappe • Personalesag",
     "level": "B2"
   },
   {
     "de": "Pfahlbau",
     "de_article": "der",
     "de_plural": "die Pfahlbauten",
-    "lv": "Pælekonstruktion",
+    "lv": "Pælebygning • Pælehus",
     "level": "B2"
   },
   {
     "de": "pfänden",
-    "lv": "Beskriv ejendommen • Pant",
+    "lv": "At gøre udlæg i • At beslaglægge",
     "level": "B2"
   },
   {
     "de": "Pfandschein",
     "de_article": "der",
     "de_plural": "die Pfandscheine",
-    "lv": "Panttegn",
+    "lv": "Pantebevis",
     "level": "B2"
   },
   {
     "de": "Pflichtbesuch",
     "de_article": "der",
     "de_plural": "die Pflichtbesuche",
-    "lv": "Høflighedsopkald",
+    "lv": "Høflighedsbesøg • Pligtbesøg",
     "level": "B2"
   },
   {
     "de": "pfuschen",
-    "lv": "Sjuskearbejde • Fuske",
+    "lv": "At fuske • At sjuske",
     "level": "B2"
   },
   {
@@ -10065,7 +19333,7 @@ const B2_WORDS = [
     "de": "Pilotfilm",
     "de_article": "der",
     "de_plural": "die Pilotfilme",
-    "lv": "Seriens åbningsfilm",
+    "lv": "Pilotfilm • Pilotafsnit",
     "level": "B2"
   },
   {
@@ -10079,41 +19347,41 @@ const B2_WORDS = [
     "de": "Pilotsendung",
     "de_article": "die",
     "de_plural": "die Pilotsendungen",
-    "lv": "Serieåbner",
+    "lv": "Pilotudsendelse • Pilotafsnit",
     "level": "B2"
   },
   {
     "de": "Pilotstudie",
     "de_article": "die",
     "de_plural": "die Pilotstudien",
-    "lv": "Introduktion til forskningsserien",
+    "lv": "Pilotstudie • Forundersøgelse",
     "level": "B2"
   },
   {
     "de": "Plädoyer",
     "de_article": "das",
     "de_plural": "die Plädoyers",
-    "lv": "En tale af en anklager eller en advokat i retten",
+    "lv": "Plædering • Procedure",
     "level": "B2"
   },
   {
     "de": "Plateau",
     "de_article": "das",
     "de_plural": "die Plateaus",
-    "lv": "Flad bakke",
+    "lv": "Plateau • Højslette",
     "level": "B2"
   },
   {
     "de": "Poltergeist",
     "de_article": "der",
     "de_plural": "die Poltergeister",
-    "lv": "En poltergeist",
+    "lv": "Poltergeist",
     "level": "B2"
   },
   {
     "de": "Porno",
     "de_article": "der",
-    "lv": "Værk indeholdende pornografi",
+    "lv": "Porno • Pornofilm",
     "level": "B2"
   },
   {
@@ -10137,17 +19405,17 @@ const B2_WORDS = [
   },
   {
     "de": "postlagernd",
-    "lv": "Efter anmodning",
+    "lv": "Poste restante",
     "level": "B2"
   },
   {
     "de": "prägen",
-    "lv": "Præge • Forme",
+    "lv": "At præge • At forme",
     "level": "B2"
   },
   {
     "de": "prägnant",
-    "lv": "Livligt udtrykt",
+    "lv": "Præcis • Rammende",
     "level": "B2"
   },
   {
@@ -10157,7 +19425,7 @@ const B2_WORDS = [
   },
   {
     "de": "prämieren",
-    "lv": "Belønne",
+    "lv": "At præmiere • At belønne",
     "level": "B2"
   },
   {
@@ -10176,7 +19444,7 @@ const B2_WORDS = [
     "de": "Preisträger",
     "de_article": "der",
     "de_plural": "die Preisträger",
-    "lv": "Prisvinder • Prisvinder",
+    "lv": "Prisvinder • Prismodtager",
     "level": "B2"
   },
   {
@@ -10202,7 +19470,7 @@ const B2_WORDS = [
   },
   {
     "de": "propagieren",
-    "lv": "At udbrede sig",
+    "lv": "At propagandere for • At udbrede",
     "level": "B2"
   },
   {
@@ -10221,7 +19489,7 @@ const B2_WORDS = [
     "de": "PS",
     "de_article": "das",
     "de_plural": "die PS",
-    "lv": "Hestekræfter",
+    "lv": "Hestekraft",
     "level": "B2"
   },
   {
@@ -10234,41 +19502,41 @@ const B2_WORDS = [
     "de": "Putsch",
     "de_article": "der",
     "de_plural": "die Putsche",
-    "lv": "Putsch",
+    "lv": "Kup • Statskup",
     "level": "B2"
   },
   {
     "de": "qualifizieren",
-    "lv": "At kvalificere sig",
+    "lv": "At kvalificere",
     "level": "B2"
   },
   {
     "de": "Quantität",
     "de_article": "die",
     "de_plural": "die Quantitäten",
-    "lv": "Mængde • Mængde",
+    "lv": "Mængde • Kvantitet",
     "level": "B2"
   },
   {
     "de": "quellen",
-    "lv": "Sive • Svulme",
+    "lv": "At vælde frem • At svulme",
     "level": "B2"
   },
   {
     "de": "querüber",
-    "lv": "Modsat",
+    "lv": "Tværs over • Lige over for",
     "level": "B2"
   },
   {
     "de": "quittieren",
-    "lv": "Skriv under for kvittering",
+    "lv": "At kvittere",
     "level": "B2"
   },
   {
     "de": "Quote",
     "de_article": "die",
     "de_plural": "die Quoten",
-    "lv": "Kvota",
+    "lv": "Kvote",
     "level": "B2"
   },
   {
@@ -10282,7 +19550,7 @@ const B2_WORDS = [
     "de": "Radierung",
     "de_article": "die",
     "de_plural": "die Radierungen",
-    "lv": "Slibning • Ætsning",
+    "lv": "Radering • Ætsning",
     "level": "B2"
   },
   {
@@ -10307,7 +19575,7 @@ const B2_WORDS = [
     "de": "Rain",
     "de_article": "der",
     "de_plural": "die Raine",
-    "lv": "Pindsvin",
+    "lv": "Markskel • Agerren",
     "level": "B2"
   },
   {
@@ -10323,7 +19591,7 @@ const B2_WORDS = [
   {
     "de": "Rauchwaren",
     "de_article": "die",
-    "lv": "Pels • Pelsprodukter",
+    "lv": "Pelsvarer",
     "level": "B2"
   },
   {
@@ -10337,7 +19605,7 @@ const B2_WORDS = [
     "de": "Rauminhalt",
     "de_article": "der",
     "de_plural": "die Rauminhalte",
-    "lv": "Bind",
+    "lv": "Rumfang • Volumen",
     "level": "B2"
   },
   {
@@ -10348,12 +19616,12 @@ const B2_WORDS = [
   },
   {
     "de": "rechtlos",
-    "lv": "Lovløs",
+    "lv": "Retsløs",
     "level": "B2"
   },
   {
     "de": "rechtmäßig",
-    "lv": "Legal",
+    "lv": "Retmæssig • Lovlig",
     "level": "B2"
   },
   {
@@ -10365,19 +19633,19 @@ const B2_WORDS = [
   },
   {
     "de": "rechtsfähig",
-    "lv": "Retlig handleevne",
+    "lv": "Retsdygtig",
     "level": "B2"
   },
   {
     "de": "Rechtsstaat",
     "de_article": "der",
     "de_plural": "die Rechtsstaaten",
-    "lv": "Retsstatslandet",
+    "lv": "Retsstat",
     "level": "B2"
   },
   {
     "de": "recken",
-    "lv": "Strække • Strække sig",
+    "lv": "At strække • At strække sig",
     "level": "B2"
   },
   {
@@ -10394,14 +19662,14 @@ const B2_WORDS = [
   },
   {
     "de": "redselig",
-    "lv": "Snakkerig • Snakkerig",
+    "lv": "Snakkesalig",
     "level": "B2"
   },
   {
     "de": "Referenz",
     "de_article": "die",
     "de_plural": "die Referenzen",
-    "lv": "Anbefalinger",
+    "lv": "Reference • Anbefaling",
     "level": "B2"
   },
   {
@@ -10432,7 +19700,7 @@ const B2_WORDS = [
     "de": "Regenfront",
     "de_article": "die",
     "de_plural": "die Regenfronten",
-    "lv": "Regnbånd",
+    "lv": "Regnfront",
     "level": "B2"
   },
   {
@@ -10451,38 +19719,38 @@ const B2_WORDS = [
     "de": "Reich",
     "de_article": "das",
     "de_plural": "die Reiche",
-    "lv": "Imperium • Land",
+    "lv": "Rige • Imperium",
     "level": "B2"
   },
   {
     "de": "Reifeprüfung",
     "de_article": "die",
     "de_plural": "die Reifeprüfungen",
-    "lv": "Beredskabstest",
+    "lv": "Studentereksamen",
     "level": "B2"
   },
   {
     "de": "Reifezeugnis",
     "de_article": "das",
     "de_plural": "die Reifezeugnisse",
-    "lv": "Beredskabsattest",
+    "lv": "Studentereksamensbevis",
     "level": "B2"
   },
   {
     "de": "reizbar",
-    "lv": "Let irritabel",
+    "lv": "Pirrelig • Irritabel",
     "level": "B2"
   },
   {
     "de": "relevant",
-    "lv": "Væsentlig • Vigtigt",
+    "lv": "Relevant • Væsentlig",
     "level": "B2"
   },
   {
     "de": "Relief",
     "de_article": "das",
     "de_plural": "die Reliefs",
-    "lv": "Terræn",
+    "lv": "Relief",
     "level": "B2"
   },
   {
@@ -10494,30 +19762,173 @@ const B2_WORDS = [
     "de": "Resolution",
     "de_article": "die",
     "de_plural": "die Resolutionen",
-    "lv": "Opløsning",
+    "lv": "Resolution",
     "level": "B2"
   },
   {
     "de": "sich revanchieren",
-    "lv": "Betal tilbage • Tag hævn",
+    "lv": "At revanchere sig • At gengælde",
     "level": "B2",
     "study": {
       "id": "b2-sich-revanchieren",
-      "layout": "minimalStudy",
-      "translation": "Betal tilbage • Tag hævn",
-      "rektion": "bei + kam?",
-      "explanation": "Sich revanchieren kræver den bestemte præposition bei + kam?.",
-      "forms": "bei + kam?",
-      "formsLabel": "Management:",
+      "layout": "standardStudy",
+      "translation": "At revanchere sig • At gengælde",
+      "explanation": [
+        "Hovedbetydning: sich revanchieren betyder at revanchere sig, at gengælde, at svare på nogens handling med en lignende handling. Oftest er det positivt — at gengælde en venlighed (en invitation, en gave), men det kan også betyde at tage revanche for noget ondt. Udtale: [revɑ̃ˈʃiːrən], ch som sj.",
+        "Hvem man gengælder, angives med bei + dativ, hvad man gengælder, med für + akkusativ, og hvormed, med mit + dativ: sich bei jemandem für etwas mit etwas revanchieren. Former: revanchiert sich, revanchierte sich, hat sich revanchiert."
+      ],
+      "examples": [
+        {
+          "de": "Ich möchte mich bei dir für die Einladung revanchieren.",
+          "lv": "Jeg vil gerne gengælde din invitation."
+        },
+        {
+          "de": "Er revanchierte sich mit einem Geschenk.",
+          "lv": "Han gengældte det med en gave."
+        },
+        {
+          "de": "Die Mannschaft revanchierte sich für die Niederlage.",
+          "lv": "Holdet tog revanche for nederlaget."
+        },
+        {
+          "de": "Dafür werde ich mich noch revanchieren!",
+          "lv": "Det skal jeg nok gengælde!"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich bedanken",
+          "meaning": "at takke",
+          "example": "Ich bedanke mich bei dir. – Jeg takker dig."
+        },
+        {
+          "word": "sich rächen",
+          "meaning": "at hævne sig",
+          "example": "Er rächt sich an seinem Feind. – Han hævner sig på sin fjende."
+        },
+        {
+          "word": "vergelten",
+          "meaning": "at gengælde",
+          "example": "Man soll Gutes mit Gutem vergelten. – Man skal gengælde godt med godt."
+        }
+      ],
+      "tip": [
+        "Efter en venlig invitation kan du sige: Beim nächsten Mal revanchiere ich mich!",
+        "Sammenhængen afgør det: i en taksituation er ordet positivt, i sport og konflikter betyder det revanche."
+      ],
+      "important": [
+        "revanchieren betyder ikke altid ond hævn; i hverdagen gengælder man ofte med en god gerning.",
+        "Efter bei følger dativ: bei dir, bei den Gästen; efter für — akkusativ."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich revanchieren"
+            "revanchieren",
+            "revanchiert",
+            "revanchierte"
           ],
-          "red": [
-            "bei + kam?"
+          "purple": [
+            "revanchere sig",
+            "gengælde",
+            "revanche"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "revanchieren"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "gengælde"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "revanchierte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "gengældte"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "revanchierte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tog revanche"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "revanchieren"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "gengælde"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "bedanken"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "takke"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "rächen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "hævne sig"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "vergelten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "gengælde"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -10525,21 +19936,21 @@ const B2_WORDS = [
     "de": "Richtfest",
     "de_article": "das",
     "de_plural": "die Richtfeste",
-    "lv": "Dragonfly festival",
+    "lv": "Rejsegilde",
     "level": "B2"
   },
   {
     "de": "Ringbahn",
     "de_article": "die",
     "de_plural": "die Ringbahnen",
-    "lv": "Cirkulær jernbane",
+    "lv": "Ringbane",
     "level": "B2"
   },
   {
     "de": "Ringelnatter",
     "de_article": "die",
     "de_plural": "die Ringelnattern",
-    "lv": "Sulten",
+    "lv": "Snog",
     "level": "B2"
   },
   {
@@ -10572,7 +19983,7 @@ const B2_WORDS = [
     "de": "Rückhalt",
     "de_article": "der",
     "de_plural": "die Rückhalte",
-    "lv": "Support • Support",
+    "lv": "Støtte • Opbakning",
     "level": "B2"
   },
   {
@@ -10582,26 +19993,26 @@ const B2_WORDS = [
   },
   {
     "de": "rückständig",
-    "lv": "Forfaldne • Forfaldne til betaling",
+    "lv": "Tilbagestående • Forfalden",
     "level": "B2"
   },
   {
     "de": "Rücktritt",
     "de_article": "der",
     "de_plural": "die Rücktritte",
-    "lv": "Resignation",
+    "lv": "Tilbagetræden • Fratræden",
     "level": "B2"
   },
   {
     "de": "Rüge",
     "de_article": "die",
     "de_plural": "die Rügen",
-    "lv": "Skæld ud • Skæld ud",
+    "lv": "Irettesættelse • Reprimande",
     "level": "B2"
   },
   {
     "de": "rühmen",
-    "lv": "Rose • Prale af",
+    "lv": "At rose • At prale af",
     "level": "B2"
   },
   {
@@ -10618,7 +20029,7 @@ const B2_WORDS = [
     "de": "Rüstung",
     "de_article": "die",
     "de_plural": "die Rüstungen",
-    "lv": "Bevæbning • Bevæbning",
+    "lv": "Oprustning • Rustning",
     "level": "B2"
   },
   {
@@ -10632,12 +20043,12 @@ const B2_WORDS = [
     "de": "Sachkenntnis",
     "de_article": "die",
     "de_plural": "die Sachkenntnisse",
-    "lv": "Færdighed • Kompetence",
+    "lv": "Sagkundskab • Kompetence",
     "level": "B2"
   },
   {
     "de": "sachkundig",
-    "lv": "Dygtig • Kompetent",
+    "lv": "Sagkyndig • Kompetent",
     "level": "B2"
   },
   {
@@ -10649,7 +20060,7 @@ const B2_WORDS = [
   },
   {
     "de": "sächlich",
-    "lv": "~es Geschlecht gram. • Ethvert køn",
+    "lv": "Intetkøn",
     "level": "B2"
   },
   {
@@ -10668,38 +20079,38 @@ const B2_WORDS = [
   },
   {
     "de": "sämtlich",
-    "lv": "Alle [uden undtagelse] • I fuld kraft",
+    "lv": "Samtlige • Alle",
     "level": "B2"
   },
   {
     "de": "Sandbank",
     "de_article": "die",
     "de_plural": "die Sandbänke",
-    "lv": "Stime",
+    "lv": "Sandbanke • Revle",
     "level": "B2"
   },
   {
     "de": "sanieren",
-    "lv": "At reparere • Ek. gøre rentabelt",
+    "lv": "At sanere • At renovere",
     "level": "B2"
   },
   {
     "de": "Sanitätsstelle",
     "de_article": "die",
     "de_plural": "die Sanitätsstellen",
-    "lv": "Medicinsk punkt",
+    "lv": "Førstehjælpsstation",
     "level": "B2"
   },
   {
     "de": "Satellit",
     "de_article": "der",
     "de_plural": "die Satelliten",
-    "lv": "Pol. satellit • Astr. ledsager",
+    "lv": "Satellit • Drabant",
     "level": "B2"
   },
   {
     "de": "sättigen",
-    "lv": "Mætte • Gøre mæt",
+    "lv": "At mætte",
     "level": "B2"
   },
   {
@@ -10711,7 +20122,7 @@ const B2_WORDS = [
   },
   {
     "de": "sausen",
-    "lv": "Suse • Fare afsted",
+    "lv": "At suse • At fare af sted",
     "level": "B2"
   },
   {
@@ -10725,12 +20136,12 @@ const B2_WORDS = [
     "de": "Schadenersatz",
     "de_article": "der",
     "de_plural": null,
-    "lv": "Materiel erstatning for tab",
+    "lv": "Skadeserstatning • Erstatning",
     "level": "B2"
   },
   {
     "de": "schädigen",
-    "lv": "Skade • Forårsage skade",
+    "lv": "At skade • At beskadige",
     "level": "B2"
   },
   {
@@ -10767,7 +20178,7 @@ const B2_WORDS = [
   },
   {
     "de": "schärfsichtig",
-    "lv": "Med et skarpt blik • Observant",
+    "lv": "Skarpsynet • Opmærksom",
     "level": "B2"
   },
   {
@@ -10779,38 +20190,38 @@ const B2_WORDS = [
     "de": "Schattierung",
     "de_article": "die",
     "de_plural": "die Schattierungen",
-    "lv": "Hue • Nuance",
+    "lv": "Nuance • Farvetone",
     "level": "B2"
   },
   {
     "de": "schaudern",
-    "lv": "At være forfærdet • [at] gyse",
+    "lv": "At gyse • At skælve",
     "level": "B2"
   },
   {
     "de": "Schauplatz",
     "de_article": "der",
     "de_plural": "die Schauplätze",
-    "lv": "Arenaen",
+    "lv": "Skueplads • Arena",
     "level": "B2"
   },
   {
     "de": "Schaustück",
     "de_article": "das",
     "de_plural": "die Schaustücke",
-    "lv": "Udstille",
+    "lv": "Udstillingsgenstand",
     "level": "B2"
   },
   {
     "de": "scheiden",
-    "lv": "Skille • Adskille",
+    "lv": "At skille • At adskille",
     "level": "B2"
   },
   {
     "de": "Scheidewand",
     "de_article": "die",
     "de_plural": "die Scheidewände",
-    "lv": "Septum",
+    "lv": "Skillevæg",
     "level": "B2"
   },
   {
@@ -10822,40 +20233,185 @@ const B2_WORDS = [
   },
   {
     "de": "scheitern",
-    "lv": "Mislykkedes • Bryde op",
+    "lv": "At mislykkes • At strande",
     "level": "B2"
   },
   {
     "de": "schelmisch",
-    "lv": "Splittende",
+    "lv": "Skælmsk • Drilsk",
     "level": "B2"
   },
   {
     "de": "schelten",
-    "lv": "To bart • To bart",
+    "lv": "At skælde ud",
     "level": "B2"
   },
   {
     "de": "sich scheren",
-    "lv": "Pas på",
+    "lv": "At bryde sig om • At bekymre sig om",
     "level": "B2",
     "study": {
       "id": "b2-sich-scheren",
-      "layout": "minimalStudy",
-      "translation": "Pas på",
-      "rektion": "um + ko?",
-      "explanation": "Sich scheren kræver en bestemt præposition um + ko?.",
-      "forms": "um + ko?",
-      "formsLabel": "Management:",
+      "layout": "standardStudy",
+      "translation": "At bryde sig om • At bekymre sig om",
+      "explanation": [
+        "Hovedbetydning: sich scheren um er i denne betydning et talesprogsudtryk for at bryde sig om eller bekymre sig om noget, men næsten kun med nægtelse eller i spørgsmål: Er schert sich nicht um die Regeln — han er ligeglad med reglerne.",
+        "Former: schert sich, scherte sich, hat sich geschert. Med um + akkusativ angiver man, hvad man bryder sig om. Retorisk spørgsmål: Was schert mich das? — hvad rager det mig?",
+        "Den grove bydemåde Scher dich weg! betyder skrub af! Uden det tilbagevisende stedord sich betyder udsagnsordet scheren at klippe, at studse (Schafe scheren)."
+      ],
+      "examples": [
+        {
+          "de": "Er schert sich nicht um die Regeln.",
+          "lv": "Han er ligeglad med reglerne."
+        },
+        {
+          "de": "Was schert mich das Gerede der anderen?",
+          "lv": "Hvad rager andres snak mig?"
+        },
+        {
+          "de": "Sie schert sich wenig um ihre Gesundheit.",
+          "lv": "Hun bekymrer sig ikke meget om sit helbred."
+        },
+        {
+          "de": "Scher dich weg!",
+          "lv": "Skrub af!"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich kümmern",
+          "meaning": "at tage sig af",
+          "example": "Ich kümmere mich um die Kinder. – Jeg tager mig af børnene."
+        },
+        {
+          "word": "interessieren",
+          "meaning": "at interessere",
+          "example": "Das interessiert mich nicht. – Det interesserer mig ikke."
+        },
+        {
+          "word": "scheren",
+          "meaning": "at klippe",
+          "example": "Der Bauer schert die Schafe. – Bonden klipper fårene."
+        }
+      ],
+      "tip": [
+        "I hverdagssprog hører man typisk sich scheren um med nicht: Er schert sich nicht darum.",
+        "Hvis du neutralt vil sige tage sig af, så vælg sich kümmern um + akkusativ."
+      ],
+      "important": [
+        "sich scheren um bruges normalt med nægtelse; i bekræftende sætninger lyder det usædvanligt.",
+        "Scher dich weg! er groft — brug det ikke i en høflig samtale."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich scheren"
+            "scheren",
+            "schert",
+            "scherte",
+            "geschert",
+            "Scher"
           ],
-          "red": [
-            "um + ko?"
+          "purple": [
+            "bryde sig om",
+            "bekymre sig om"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "schert"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ligeglad med"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "schert"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "rager"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "schert"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "bekymrer sig"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Scher"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Skrub af"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich kümmern"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "tage sig af"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "interessieren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "interessere"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "scheren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "klippe"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -10863,7 +20419,7 @@ const B2_WORDS = [
     "de": "Schiebedach",
     "de_article": "das",
     "de_plural": "die Schiebedächer",
-    "lv": "Bilsoltag",
+    "lv": "Skydetag",
     "level": "B2"
   },
   {
@@ -10883,7 +20439,7 @@ const B2_WORDS = [
     "de": "Schiffbruch",
     "de_article": "der",
     "de_plural": "die Schiffbrüche",
-    "lv": "Forlis katastrofe",
+    "lv": "Skibbrud • Forlis",
     "level": "B2"
   },
   {
@@ -10895,7 +20451,7 @@ const B2_WORDS = [
   },
   {
     "de": "schillern",
-    "lv": "Iriserende • Bad i forskellige farver",
+    "lv": "At spille i alle farver • At irisere",
     "level": "B2"
   },
   {
@@ -10907,33 +20463,33 @@ const B2_WORDS = [
   },
   {
     "de": "schlafwandeln",
-    "lv": "At blive moonstruck",
+    "lv": "At gå i søvne",
     "level": "B2"
   },
   {
     "de": "Schlaganfall",
     "de_article": "der",
     "de_plural": "die Schlaganfälle",
-    "lv": "Lammelse",
+    "lv": "Slagtilfælde • Apopleksi",
     "level": "B2"
   },
   {
     "de": "schlagfertig",
-    "lv": "Ressourcestærk • Vigtig",
+    "lv": "Slagfærdig • Kvik i replikken",
     "level": "B2"
   },
   {
     "de": "Schlagwort",
     "de_article": "das",
     "de_plural": "die Schlagwörter",
-    "lv": "Slogan • Passende ord",
+    "lv": "Slagord • Stikord",
     "level": "B2"
   },
   {
     "de": "Schleudersitz",
     "de_article": "der",
     "de_plural": "die Schleudersitze",
-    "lv": "Et flykatapultsæde",
+    "lv": "Katapultsæde",
     "level": "B2"
   },
   {
@@ -10945,7 +20501,7 @@ const B2_WORDS = [
     "de": "Schlusswort",
     "de_article": "das",
     "de_plural": "die Schlussworte",
-    "lv": "Sidste ord",
+    "lv": "Slutord • Afslutningstale",
     "level": "B2"
   },
   {
@@ -10959,7 +20515,7 @@ const B2_WORDS = [
     "de": "Schmarotzer",
     "de_article": "der",
     "de_plural": "die Schmarotzer",
-    "lv": "Gluttonisk • Parasit",
+    "lv": "Snylter • Parasit",
     "level": "B2"
   },
   {
@@ -10971,17 +20527,17 @@ const B2_WORDS = [
     "de": "Schmerzensgeld",
     "de_article": "das",
     "de_plural": "die Schmerzensgelder",
-    "lv": "Smerte penge",
+    "lv": "Godtgørelse for svie og smerte",
     "level": "B2"
   },
   {
     "de": "schmerzlich",
-    "lv": "Smertefuldt • Trist",
+    "lv": "Smertelig • Sørgelig",
     "level": "B2"
   },
   {
     "de": "schmollen",
-    "lv": "Udklædning",
+    "lv": "At surmule",
     "level": "B2"
   },
   {
@@ -10994,7 +20550,7 @@ const B2_WORDS = [
     "de": "Schnappschuss",
     "de_article": "der",
     "de_plural": "die Schnappschüsse",
-    "lv": "Et øjebliksbillede på ein Bild",
+    "lv": "Øjebliksbillede",
     "level": "B2"
   },
   {
@@ -11016,19 +20572,19 @@ const B2_WORDS = [
   },
   {
     "de": "schreiten",
-    "lv": "Gå • Gå",
+    "lv": "At skride • At gå",
     "level": "B2"
   },
   {
     "de": "Bittschrift",
     "de_article": "die",
     "de_plural": "die Bittschriften",
-    "lv": "En anmodning",
+    "lv": "Bønskrift • Andragende",
     "level": "B2"
   },
   {
     "de": "schrill",
-    "lv": "Skarp • Skarp",
+    "lv": "Skingrende • Skarp",
     "level": "B2"
   },
   {
@@ -11047,7 +20603,7 @@ const B2_WORDS = [
     "de": "Schuldschein",
     "de_article": "der",
     "de_plural": "die Schuldscheine",
-    "lv": "Skiftebrev",
+    "lv": "Gældsbrev • Gældsbevis",
     "level": "B2"
   },
   {
@@ -11061,14 +20617,14 @@ const B2_WORDS = [
     "de": "Schutzfarbe",
     "de_article": "die",
     "de_plural": "die Schutzfarben",
-    "lv": "Beskyttende maling",
+    "lv": "Beskyttelsesfarve • Camouflagefarve",
     "level": "B2"
   },
   {
     "de": "Schutzimpfung",
     "de_article": "die",
     "de_plural": "die Schutzimpfungen",
-    "lv": "Beskyttende podning",
+    "lv": "Vaccination",
     "level": "B2"
   },
   {
@@ -11087,40 +20643,40 @@ const B2_WORDS = [
     "de": "Schwarm",
     "de_article": "der",
     "de_plural": "die Schwärme",
-    "lv": "Passion • Bortrykkelse",
+    "lv": "Sværm • Flok",
     "level": "B2"
   },
   {
     "de": "schwärmen",
-    "lv": "Sværme • Være begejstret",
+    "lv": "At sværme • At være begejstret",
     "level": "B2"
   },
   {
     "de": "Schwarzarbeit",
     "de_article": "die",
     "de_plural": "die Schwarzarbeiten",
-    "lv": "Ulovligt arbejde, som der ikke betales skat for",
+    "lv": "Sort arbejde",
     "level": "B2"
   },
   {
     "de": "Schwarze",
     "de_article": "der",
     "de_plural": "die Schwarze",
-    "lv": "En person med sort hudfarve",
+    "lv": "Sort person",
     "level": "B2"
   },
   {
     "de": "Schwarzmarkt",
     "de_article": "der",
     "de_plural": "die Schwarzmärkte",
-    "lv": "Sorte marked",
+    "lv": "Sort marked",
     "level": "B2"
   },
   {
     "de": "Schwebebahn",
     "de_article": "die",
     "de_plural": "die Schwebebahnen",
-    "lv": "Ophæng [jernbane].",
+    "lv": "Svævebane • Hængebane",
     "level": "B2"
   },
   {
@@ -11132,19 +20688,19 @@ const B2_WORDS = [
   },
   {
     "de": "schwelen",
-    "lv": "Glødende",
+    "lv": "At ulme",
     "level": "B2"
   },
   {
     "de": "Schwerathletik",
     "de_article": "die",
     "de_plural": "die Schwerathletiken",
-    "lv": "Sp. vægtløftning",
+    "lv": "Sværatletik • Vægtløftning",
     "level": "B2"
   },
   {
     "de": "schwerfällig",
-    "lv": "Tung • Belastet",
+    "lv": "Tung • Klodset",
     "level": "B2"
   },
   {
@@ -11156,7 +20712,7 @@ const B2_WORDS = [
   },
   {
     "de": "schwinden",
-    "lv": "Svækkes • Forsvinde",
+    "lv": "At svinde • At forsvinde",
     "level": "B2"
   },
   {
@@ -11169,14 +20725,14 @@ const B2_WORDS = [
     "de": "Seemacht",
     "de_article": "die",
     "de_plural": "die Seemächte",
-    "lv": "Havets [stor] kraft",
+    "lv": "Sømagt",
     "level": "B2"
   },
   {
     "de": "Segelflieger",
     "de_article": "der",
     "de_plural": "die Segelflieger",
-    "lv": "Svævefly",
+    "lv": "Svæveflyver",
     "level": "B2"
   },
   {
@@ -11208,10 +20764,8 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "Eksistens",
       "explanation": [
-        "Hovedidé: das Sein med stort bogstav og artiklen das er et substantiv - eksistens, eksistens (filosofisk begreb).",
-        "Sein med et lille bogstav er et verbum - at være.",
-        "Das Sein bruges ofte i en filosofisk eller abstrakt sammenhæng (das menschliche Sein).",
-        "Substantivisering: sein → das Sein, ligesom können → das Können."
+        "Hovedbetydning: das Sein er et navneord i intetkøn, afledt af udsagnsordet sein. I filosofien betyder det eksistens, væren — det, at noget overhovedet er til. Det modsatte er das Nichts eller das Nichtsein (ikke-væren).",
+        "Ordet findes kun i ental (das Sein, des Seins), der er intet flertal. Kendt vending: Sein oder Nichtsein (Hamlets \"At være eller ikke være\"). Navneordet Sein skrives med stort."
       ],
       "examples": [
         {
@@ -11223,27 +20777,47 @@ const B2_WORDS = [
           "lv": "At være eller ikke være, det er spørgsmålet."
         },
         {
-          "de": "Ich bin müde.",
-          "lv": "Jeg er træt"
+          "de": "Das Sein bestimmt das Bewusstsein.",
+          "lv": "Væren bestemmer bevidstheden."
         },
         {
-          "de": "Das Sein bestimmt das Bewusstsein.",
-          "lv": "Eksistensen bestemmer bevidstheden."
+          "de": "Der Philosoph denkt über das Sein nach.",
+          "lv": "Filosoffen tænker over væren."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "das Dasein",
+          "meaning": "tilværelse, eksistens",
+          "example": "Sein Dasein war schwer. – Hans tilværelse var hård."
+        },
+        {
+          "word": "das Wesen",
+          "meaning": "væsen",
+          "example": "Das Wesen der Sache ist einfach. – Sagens væsen er enkelt."
+        },
+        {
+          "word": "die Existenz",
+          "meaning": "eksistens",
+          "example": "Er bezweifelt ihre Existenz. – Han betvivler deres eksistens."
         }
       ],
       "tip": [
-        "das Sein med stort bogstav - et substantiv (eksistens, i filosofisk forstand).",
-        "sein små bogstaver - verbum (at være)."
+        "Navneordet Sein optræder ofte i filosofien: das Sein und das Bewusstsein.",
+        "Noget andet er det ejestedord sein (hans), som skrives med lille."
       ],
       "important": [
-        "das Sein = eksistens (substantiv, abstrakt/filosofisk).",
-        "sein = at være (verbum, hverdagslig).",
-        "Dette ord er et substantiviseret verbum, ligesom das Können."
+        "Das Sein er ikke et hverdagsord; i hverdagen siger man das Leben eller die Existenz.",
+        "Forveksl ikke navneordet das Sein med udsagnsordet sein (være) og med stedordet sein (hans)."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "Sein"
+          ],
           "purple": [
-            "Hovedidé"
+            "eksistens",
+            "væren"
           ]
         },
         "examples": [
@@ -11255,31 +20829,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Den"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "Sein"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "være"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "bin"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Jeg"
+                "eksistens"
               ]
             }
           },
@@ -11291,39 +20841,80 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Eksistensen"
+                "At være"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Sein"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Væren"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Sein"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "væren"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "das Dasein"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "tilværelse, eksistens"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "das Wesen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "væsen"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Existenz"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "eksistens"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "blue": [
-              "das Sein"
-            ]
-          },
-          {
-            "green": [
-              "sein"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "blue": [
-              "das Sein"
-            ]
-          },
-          {
-            "green": [
-              "sein"
-            ]
-          },
-          {
-            "blue": [
-              "das Können"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -11350,7 +20941,7 @@ const B2_WORDS = [
   },
   {
     "de": "selbstlos",
-    "lv": "Uselvisk • Uselvisk",
+    "lv": "Uselvisk • Selvopofrende",
     "level": "B2"
   },
   {
@@ -11369,19 +20960,19 @@ const B2_WORDS = [
     "de": "Senat",
     "de_article": "der",
     "de_plural": "die Senate",
-    "lv": "Senatet • Videnskabeligt råd",
+    "lv": "Senat • Akademisk råd",
     "level": "B2"
   },
   {
     "de": "Sensenblatt",
     "de_article": "das",
     "de_plural": "die Sensenblätter",
-    "lv": "Ljeblad",
+    "lv": "Leblad",
     "level": "B2"
   },
   {
     "de": "sensibel",
-    "lv": "Sensitive • Sensitive",
+    "lv": "Følsom • Fintfølende",
     "level": "B2"
   },
   {
@@ -11401,17 +20992,17 @@ const B2_WORDS = [
     "de": "Seuchenherd",
     "de_article": "der",
     "de_plural": "die Seuchenherde",
-    "lv": "Kilden til epidemien",
+    "lv": "Smittekilde • Smittearnested",
     "level": "B2"
   },
   {
     "de": "sickern",
-    "lv": "Dryp • Sut",
+    "lv": "At sive • At dryppe",
     "level": "B2"
   },
   {
     "de": "siegreich",
-    "lv": "Kronet med sejre",
+    "lv": "Sejrrig",
     "level": "B2"
   },
   {
@@ -11430,7 +21021,7 @@ const B2_WORDS = [
   },
   {
     "de": "simulieren",
-    "lv": "Simuler • Imiter",
+    "lv": "At simulere • At efterligne",
     "level": "B2"
   },
   {
@@ -11442,7 +21033,7 @@ const B2_WORDS = [
   },
   {
     "de": "sittlich",
-    "lv": "Dydige",
+    "lv": "Sædelig • Moralsk",
     "level": "B2"
   },
   {
@@ -11466,50 +21057,65 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "Hvis • Forudsat at",
       "explanation": [
-        "Hovedidé: sofät er en betinget konjunktion - betyder hvis/forudsat at.",
-        "Sofè introducerer en betinget hjælpesætning, der ligner wenn, men er mere formel og typisk for den skrevne stil.",
-        "Soufen betyder IKKE 'fordi' (kausativ konjunktion) - det er da eller weil på tysk.",
-        "Almindelig brugt i juridiske/formelle tekster (sofern nicht anders verfahrt = medmindre andet er aftalt)."
+        "Hovedbetydning: sofern er et underordnende bindeord, der indleder en betingelse: hvis, forudsat at. Det udtrykker, at noget kun gælder eller sker, hvis betingelsen er opfyldt.",
+        "Efter sofern begynder en ledsætning, hvor udsagnsordet står sidst: Ich komme, sofern ich Zeit habe. Ledsætningen adskilles med komma. Bindeordet er stilistisk lidt mere formelt end wenn og optræder ofte i kontrakter og regler.",
+        "Det kan også bruges i forkortet form: sofern möglich — om muligt."
       ],
       "examples": [
         {
           "de": "Ich komme, sofern ich Zeit habe.",
-          "lv": "Jeg kommer, når jeg har tid."
+          "lv": "Jeg kommer, hvis jeg har tid."
         },
         {
           "de": "Sofern nichts anderes vereinbart ist, gilt der Standardpreis.",
-          "lv": "Med mindre andet er aftalt, gælder standardprisen."
+          "lv": "Medmindre andet er aftalt, gælder standardprisen."
         },
         {
-          "de": "Sofern das Wetter gut ist, machen wir einen Ausflug.",
-          "lv": "Forudsat vejret er godt, tager vi på tur."
-        },
-        {
-          "de": "Sofern möglich, bitte pünktlich sein.",
-          "lv": "Vær venlig, hvis det er muligt."
+          "de": "Wir fahren morgen, sofern das Wetter gut ist.",
+          "lv": "Vi kører i morgen, forudsat at vejret er godt."
         },
         {
           "de": "Er hilft, sofern er kann.",
           "lv": "Han hjælper, hvis han kan."
         },
         {
-          "de": "Da es regnet, bleiben wir zu Hause.",
-          "lv": "Da det regner, bliver vi hjemme."
+          "de": "Sofern es möglich ist, rufe ich dich an.",
+          "lv": "Hvis det er muligt, ringer jeg til dig."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "wenn",
+          "meaning": "hvis, når",
+          "example": "Wenn es regnet, bleibe ich zu Hause. – Hvis det regner, bliver jeg hjemme."
+        },
+        {
+          "word": "falls",
+          "meaning": "i tilfælde af at, hvis",
+          "example": "Falls du kommst, ruf an. – Hvis du kommer, så ring."
+        },
+        {
+          "word": "soweit",
+          "meaning": "så vidt",
+          "example": "Soweit ich weiß, ist er krank. – Så vidt jeg ved, er han syg."
         }
       ],
       "tip": [
-        "hvis/forudsat at (tilstand) - ikke at forveksle med årsag.",
-        "'da' (årsag) på tysk er da/weil, ne soufen."
+        "Brug sofern, når du vil understrege betingelsen: Sofern keine Einwände bestehen, …",
+        "Husk ordstillingen: sofern + grundled + … + udsagnsord til sidst."
       ],
       "important": [
-        "hvis der er en betinget, ikke en årsagssammenhæng.",
-        "Forkert: soufen = som → Korrekt: da/weil = as."
+        "Efter sofern står udsagnsordet sidst i ledsætningen, ikke på andenpladsen.",
+        "sofern er ikke det samme som soweit (så vidt): soweit angiver omfang, sofern en betingelse."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "sofern"
+          ],
           "purple": [
-            "Hovedidé",
-            "Hovedidé"
+            "hvis",
+            "forudsat at"
           ]
         },
         "examples": [
@@ -11521,7 +21127,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Jeg"
+                "hvis"
               ]
             }
           },
@@ -11533,31 +21139,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Med"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "Sofern"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Forudsat"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "Sofern"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Vær"
+                "Medmindre"
               ]
             }
           },
@@ -11569,43 +21151,80 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Han"
+                "forudsat at"
               ]
             }
           },
           {
             "de": {
-              "red": [
-                "Da"
+              "blue": [
+                "sofern"
               ]
             },
             "lv": {
-              "red": [
-                "det"
+              "purple": [
+                "hvis"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Sofern"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Hvis"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "wenn"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "hvis, når"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "falls"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "i tilfælde af at, hvis"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "soweit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "så vidt"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "blue": [
-              "soufen",
-              "soufen"
-            ]
-          },
-          {
-            "red": [
-              "da",
-              "weil"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "purple": [
-              "hvis"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -11619,7 +21238,7 @@ const B2_WORDS = [
   },
   {
     "de": "solidarisch",
-    "lv": "Solidær",
+    "lv": "Solidarisk",
     "level": "B2"
   },
   {
@@ -11640,7 +21259,7 @@ const B2_WORDS = [
     "de": "Sonderfall",
     "de_article": "der",
     "de_plural": "die Sonderfälle",
-    "lv": "Ekstraordinært tilfælde",
+    "lv": "Særtilfælde • Undtagelsestilfælde",
     "level": "B2"
   },
   {
@@ -11661,7 +21280,7 @@ const B2_WORDS = [
     "de": "Sorgenkind",
     "de_article": "das",
     "de_plural": "die Sorgenkinder",
-    "lv": "Omsorgsbarn",
+    "lv": "Problembarn • Bekymringsbarn",
     "level": "B2"
   },
   {
@@ -11674,7 +21293,7 @@ const B2_WORDS = [
     "de": "Sorgerecht",
     "de_article": "das",
     "de_plural": "die Sorgerechte",
-    "lv": "Retten til omsorg",
+    "lv": "Forældremyndighed",
     "level": "B2"
   },
   {
@@ -11685,7 +21304,7 @@ const B2_WORDS = [
   },
   {
     "de": "sozialistisch",
-    "lv": "Socialist",
+    "lv": "Socialistisk",
     "level": "B2"
   },
   {
@@ -11709,33 +21328,33 @@ const B2_WORDS = [
   },
   {
     "de": "spezifisch",
-    "lv": "Bestemt",
+    "lv": "Specifik",
     "level": "B2"
   },
   {
     "de": "Sphäre",
     "de_article": "die",
     "de_plural": "die Sphären",
-    "lv": "Kugle • Område",
+    "lv": "Sfære • Område",
     "level": "B2"
   },
   {
     "de": "Spielgerät",
     "de_article": "das",
     "de_plural": "die Spielgeräte",
-    "lv": "Inventar af sportsspil",
+    "lv": "Legeredskab • Spilleudstyr",
     "level": "B2"
   },
   {
     "de": "Spießbürger",
     "de_article": "der",
     "de_plural": "die Spießbürger",
-    "lv": "En herboende borger",
+    "lv": "Spidsborger • Småborger",
     "level": "B2"
   },
   {
     "de": "spionieren",
-    "lv": "At spionere • At spionere",
+    "lv": "At spionere • At udspionere",
     "level": "B2"
   },
   {
@@ -11746,36 +21365,198 @@ const B2_WORDS = [
   },
   {
     "de": "spötteln",
-    "lv": "Ironiser",
+    "lv": "At ironisere • At spotte",
     "level": "B2"
   },
   {
     "de": "spotten",
-    "lv": "Hån • Tænder",
+    "lv": "At håne • At spotte",
     "level": "B2"
   },
   {
     "de": "spöttisch",
-    "lv": "Hånende • Tandagtig",
+    "lv": "Hånende • Spydig",
     "level": "B2"
   },
   {
     "de": "Sprechanlage",
     "de_article": "die",
     "de_plural": "die Sprechanlagen",
-    "lv": "Samtaleanlæg derhjemme",
+    "lv": "Dørtelefon • Samtaleanlæg",
     "level": "B2"
   },
   {
     "de": "sprengen",
-    "lv": "Sprænge • Overskride",
-    "level": "B2"
+    "lv": "At sprænge • At vande",
+    "level": "B2",
+    "study": {
+      "id": "b2-sprengen",
+      "layout": "standardStudy",
+      "translation": "At sprænge • At vande",
+      "explanation": [
+        "Hovedbetydning: sprengen er et overgangsudsagnsord med flere betydninger. Den første — at sprænge, sprænge i luften (eine Brücke sprengen), at sprænge eller kløve med kraft (der Frost sprengt Felsen). Den anden — at stænke, bestænke med vand (Wäsche sprengen) og at vande (den Rasen sprengen).",
+        "Former: sprengt, sprengte, hat gesprengt. Roden er den samme, men betydningerne er forskellige; sammenhængen viser, hvad der menes. I overført betydning: die Grenzen sprengen — sprænge rammerne."
+      ],
+      "examples": [
+        {
+          "de": "Die Armee sprengte die Brücke.",
+          "lv": "Hæren sprængte broen."
+        },
+        {
+          "de": "Er sprengt jeden Abend den Rasen.",
+          "lv": "Han vander plænen hver aften."
+        },
+        {
+          "de": "Vor dem Bügeln sprengt sie die Wäsche mit Wasser.",
+          "lv": "Før strygningen stænker hun vasketøjet med vand."
+        },
+        {
+          "de": "Der Frost sprengt die Felsen.",
+          "lv": "Frosten sprænger klipperne."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "gießen",
+          "meaning": "at vande",
+          "example": "Ich gieße die Blumen. – Jeg vander blomsterne."
+        },
+        {
+          "word": "explodieren",
+          "meaning": "at eksplodere",
+          "example": "Die Bombe explodiert. – Bomben eksploderer."
+        },
+        {
+          "word": "sprühen",
+          "meaning": "at sprøjte, forstøve",
+          "example": "Er sprüht Wasser auf die Pflanzen. – Han sprøjter vand på planterne."
+        }
+      ],
+      "tip": [
+        "I havesammenhæng betyder den Rasen sprengen at vande plænen med slange eller vandspreder.",
+        "Med Bombe, Brücke, Tür sprengen forstås sprængning eller opbrydning."
+      ],
+      "important": [
+        "Hyppig forbindelse: etwas in die Luft sprengen — sprænge noget i luften.",
+        "Genstandsleddet afgør betydningen: Brücke — sprænge, Rasen — vande, Wäsche — stænke."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "sprengen",
+            "sprengt",
+            "sprengte",
+            "gesprengt"
+          ],
+          "purple": [
+            "sprænge",
+            "vande"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "sprengte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "sprængte"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sprengt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vander"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sprengt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "stænker"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sprengt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "sprænger"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "gießen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "vande"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "explodieren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "eksplodere"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sprühen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "sprøjte, forstøve"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "Sprengstoff",
     "de_article": "der",
     "de_plural": "die Sprengstoffe",
-    "lv": "Eksplosiv",
+    "lv": "Sprængstof",
     "level": "B2"
   },
   {
@@ -11808,14 +21589,14 @@ const B2_WORDS = [
   },
   {
     "de": "spurlos",
-    "lv": "Uden et spor • Uden et spor",
+    "lv": "Sporløs • Uden spor",
     "level": "B2"
   },
   {
     "de": "Staatenlose",
     "de_article": "der",
     "de_plural": "die Staatenlosen",
-    "lv": "En statsløs person",
+    "lv": "Statsløs",
     "level": "B2"
   },
   {
@@ -11836,14 +21617,14 @@ const B2_WORDS = [
     "de": "Staatshaushalt",
     "de_article": "der",
     "de_plural": "die Staatshaushalte",
-    "lv": "Statens budget",
+    "lv": "Statsbudget",
     "level": "B2"
   },
   {
     "de": "Staatsmann",
     "de_article": "der",
     "de_plural": "die Staatsmänner",
-    "lv": "En statsmand",
+    "lv": "Statsmand",
     "level": "B2"
   },
   {
@@ -11855,14 +21636,14 @@ const B2_WORDS = [
   },
   {
     "de": "stabilisieren",
-    "lv": "Stabilisere",
+    "lv": "At stabilisere",
     "level": "B2"
   },
   {
     "de": "Stahlwerk",
     "de_article": "das",
     "de_plural": "die Stahlwerke",
-    "lv": "Stålstøberi",
+    "lv": "Stålværk",
     "level": "B2"
   },
   {
@@ -11872,24 +21653,24 @@ const B2_WORDS = [
   },
   {
     "de": "starren",
-    "lv": "Se godt efter • Blænding",
+    "lv": "At stirre • At glo",
     "level": "B2"
   },
   {
     "de": "starrköpfig",
-    "lv": "Genstridig • Genstridig",
+    "lv": "Stædig • Genstridig",
     "level": "B2"
   },
   {
     "de": "starrsinnig",
-    "lv": "Genstridig • Genstridig",
+    "lv": "Stivsindet • Stædig",
     "level": "B2"
   },
   {
     "de": "Stätte",
     "de_article": "die",
     "de_plural": "die Stätten",
-    "lv": "Placere",
+    "lv": "Sted • Plads",
     "level": "B2"
   },
   {
@@ -11903,7 +21684,7 @@ const B2_WORDS = [
     "de": "Steckbrief",
     "de_article": "der",
     "de_plural": "die Steckbriefe",
-    "lv": "Beskrivelse af den eftersøgte i politiet",
+    "lv": "Efterlysning • Signalement",
     "level": "B2"
   },
   {
@@ -11914,39 +21695,39 @@ const B2_WORDS = [
   {
     "de": "Steuergelder",
     "de_article": "die",
-    "lv": "Alle de penge, regeringen modtager i skat",
+    "lv": "Skattepenge • Skatteindtægter",
     "level": "B2"
   },
   {
     "de": "Steuererhöhung",
     "de_article": "die",
     "de_plural": "die Steuererhöhungen",
-    "lv": "Hæve skatter",
+    "lv": "Skatteforhøjelse • Skattestigning",
     "level": "B2"
   },
   {
     "de": "Steuersenkung",
     "de_article": "die",
     "de_plural": "die Steuersenkungen",
-    "lv": "Sænkning af skatter",
+    "lv": "Skattenedsættelse • Skattelettelse",
     "level": "B2"
   },
   {
     "de": "Stoßverkehr",
     "de_article": "der",
-    "lv": "Myldretid • Øget trafik på et bestemt tidspunkt af dagen",
+    "lv": "Myldretid • Myldretrafik",
     "level": "B2"
   },
   {
     "de": "Strafanzeige",
     "de_article": "die",
     "de_plural": "die Strafanzeigen",
-    "lv": "Indledning af en straffesag mod nogen",
+    "lv": "Politianmeldelse • Anmeldelse",
     "level": "B2"
   },
   {
     "de": "stranden",
-    "lv": "Gå på grund • Kom ud for en ulykke",
+    "lv": "At gå på grund • At strande",
     "level": "B2"
   },
   {
@@ -11956,18 +21737,18 @@ const B2_WORDS = [
   },
   {
     "de": "streitbar",
-    "lv": "Argumenterende",
+    "lv": "Stridbar • Trættekær",
     "level": "B2"
   },
   {
     "de": "Streitkräfte",
     "de_article": "die",
-    "lv": "Alle militære organisationer og militære styrker i landet",
+    "lv": "Væbnede styrker • Krigsmagt",
     "level": "B2"
   },
   {
     "de": "strippen",
-    "lv": "Lav en striptease",
+    "lv": "At strippe",
     "level": "B2"
   },
   {
@@ -11981,7 +21762,7 @@ const B2_WORDS = [
     "de": "Stripperin",
     "de_article": "die",
     "de_plural": "die Stripperinnen",
-    "lv": "Striptease danser",
+    "lv": "Stripteasedanserinde • Stripper",
     "level": "B2"
   },
   {
@@ -11994,40 +21775,40 @@ const B2_WORDS = [
     "de": "Strolch",
     "de_article": "der",
     "de_plural": "die Strolche",
-    "lv": "En vagabond",
+    "lv": "Vagabond • Slyngel",
     "level": "B2"
   },
   {
     "de": "Stücklohn",
     "de_article": "der",
     "de_plural": "die Stücklöhne",
-    "lv": "Betaling for akkordarbejde",
+    "lv": "Akkordløn",
     "level": "B2"
   },
   {
     "de": "Studiengebühr",
     "de_article": "die",
     "de_plural": "die Studiengebühren",
-    "lv": "Studieafgifter på universitetet",
+    "lv": "Studieafgift",
     "level": "B2"
   },
   {
     "de": "stur",
-    "lv": "Stædig • Stædig",
+    "lv": "Stædig • Halsstarrig",
     "level": "B2"
   },
   {
     "de": "Stützpunkt",
     "de_article": "der",
     "de_plural": "die Stützpunkte",
-    "lv": "Militær base",
+    "lv": "Militærbase • Støttepunkt",
     "level": "B2"
   },
   {
     "de": "Suchaktion",
     "de_article": "die",
     "de_plural": "die Suchaktionen",
-    "lv": "Eftersøgning organiseret af politiet",
+    "lv": "Eftersøgning • Eftersøgningsaktion",
     "level": "B2"
   },
   {
@@ -12041,14 +21822,14 @@ const B2_WORDS = [
     "de": "Tagebau",
     "de_article": "der",
     "de_plural": "die Tagebaue",
-    "lv": "Åben minedrift af mineraler",
+    "lv": "Dagbrud • Åben minedrift",
     "level": "B2"
   },
   {
     "de": "Tagegeld",
     "de_article": "das",
     "de_plural": "die Tagegelder",
-    "lv": "Forretningsrejse dagpenge",
+    "lv": "Dagpenge • Diæter",
     "level": "B2"
   },
   {
@@ -12067,7 +21848,7 @@ const B2_WORDS = [
   },
   {
     "de": "tagen",
-    "lv": "Hold en • Session",
+    "lv": "At holde møde • At samles",
     "level": "B2"
   },
   {
@@ -12080,7 +21861,7 @@ const B2_WORDS = [
   {
     "de": "Tatkraft",
     "de_article": "die",
-    "lv": "Energi • Vigor",
+    "lv": "Energi • Handlekraft",
     "level": "B2"
   },
   {
@@ -12091,32 +21872,32 @@ const B2_WORDS = [
   {
     "de": "Terrorismus",
     "de_article": "der",
-    "lv": "Terorismer",
+    "lv": "Terrorisme",
     "level": "B2"
   },
   {
     "de": "Testperson",
     "de_article": "die",
     "de_plural": "die Testpersonen",
-    "lv": "Testemne",
+    "lv": "Forsøgsperson • Testperson",
     "level": "B2"
   },
   {
     "de": "texten",
-    "lv": "Skriv tekster til en sang eller reklamefilm",
+    "lv": "At skrive tekster",
     "level": "B2"
   },
   {
     "de": "These",
     "de_article": "die",
     "de_plural": "die Thesen",
-    "lv": "Afhandling",
+    "lv": "Tese • Påstand",
     "level": "B2"
   },
   {
     "de": "Tiefsinn",
     "de_article": "der",
-    "lv": "Tankedybde",
+    "lv": "Dybsindighed",
     "level": "B2"
   },
   {
@@ -12127,28 +21908,28 @@ const B2_WORDS = [
   },
   {
     "de": "tönen",
-    "lv": "Lyde • Klinge",
+    "lv": "At lyde • At klinge • At tone",
     "level": "B2"
   },
   {
     "de": "Töpferscheibe",
     "de_article": "die",
     "de_plural": "die Töpferscheiben",
-    "lv": "Podnieka ripa",
+    "lv": "Drejeskive",
     "level": "B2"
   },
   {
     "de": "Tor",
     "de_article": "der",
     "de_plural": "die Toren",
-    "lv": "Fjol • Fælde",
+    "lv": "Tåbe • Fjols",
     "level": "B2"
   },
   {
     "de": "Totalschaden",
     "de_article": "der",
     "de_plural": "die Totalschäden",
-    "lv": "Skader på køretøjet, der ikke kan repareres efter ulykken",
+    "lv": "Totalskade",
     "level": "B2"
   },
   {
@@ -12160,19 +21941,19 @@ const B2_WORDS = [
   },
   {
     "de": "totschießen",
-    "lv": "At skyde",
+    "lv": "At skyde ihjel • At skyde ned",
     "level": "B2"
   },
   {
     "de": "totschlagen",
-    "lv": "Slå af",
+    "lv": "At slå ihjel",
     "level": "B2"
   },
   {
     "de": "Trabant",
     "de_article": "der",
     "de_plural": "die Trabanten",
-    "lv": "Astr. ledsager",
+    "lv": "Satellit • Drabant",
     "level": "B2"
   },
   {
@@ -12186,7 +21967,7 @@ const B2_WORDS = [
     "de": "Trägerrakete",
     "de_article": "die",
     "de_plural": "die Trägerraketen",
-    "lv": "Launcher",
+    "lv": "Bæreraket",
     "level": "B2"
   },
   {
@@ -12200,7 +21981,7 @@ const B2_WORDS = [
     "de": "Transvestit",
     "de_article": "der",
     "de_plural": "die Transvestiten",
-    "lv": "En transvestit",
+    "lv": "Transvestit",
     "level": "B2"
   },
   {
@@ -12212,24 +21993,24 @@ const B2_WORDS = [
   },
   {
     "de": "treffend",
-    "lv": "Apt • Betydelig",
+    "lv": "Rammende • Træffende",
     "level": "B2"
   },
   {
     "de": "Tretmine",
     "de_article": "die",
     "de_plural": "die Tretminen",
-    "lv": "Antipersonel mine",
+    "lv": "Personelmine • Landmine",
     "level": "B2"
   },
   {
     "de": "treuherzig",
-    "lv": "Hjertelig • Hjertelig",
+    "lv": "Troskyldig • Oprigtig",
     "level": "B2"
   },
   {
     "de": "treulos",
-    "lv": "Upålidelig • Upålidelig",
+    "lv": "Troløs • Utro",
     "level": "B2"
   },
   {
@@ -12268,12 +22049,12 @@ const B2_WORDS = [
   },
   {
     "de": "trügen",
-    "lv": "Trick • Bedrag",
+    "lv": "At bedrage • At narre",
     "level": "B2"
   },
   {
     "de": "trügerisch",
-    "lv": "Deceitful • Deceitful",
+    "lv": "Bedragerisk • Vildledende",
     "level": "B2"
   },
   {
@@ -12292,23 +22073,183 @@ const B2_WORDS = [
   },
   {
     "de": "überbringen",
-    "lv": "Overbringe • Levere",
-    "level": "B2"
+    "lv": "At overbringe • At aflevere",
+    "level": "B2",
+    "study": {
+      "id": "b2--berbringen",
+      "layout": "standardStudy",
+      "translation": "At overbringe • At aflevere",
+      "explanation": [
+        "Hovedbetydning: überbringen betyder at overbringe en besked, en lykønskning, et brev eller en gave til modtageren — at bringe det og aflevere det personligt. Modtageren står i dativ: jemandem etwas überbringen.",
+        "Uadskillelig forstavelse über-: überbringt, überbrachte, hat überbracht. I navnemåde står zu foran udsagnsordet: um die Nachricht zu überbringen. Ordet er lidt formelt."
+      ],
+      "examples": [
+        {
+          "de": "Er überbrachte uns die traurige Nachricht.",
+          "lv": "Han overbragte os den triste nyhed."
+        },
+        {
+          "de": "Der Botschafter überbringt die Glückwünsche des Präsidenten.",
+          "lv": "Ambassadøren overbringer præsidentens lykønskninger."
+        },
+        {
+          "de": "Der Bote hat den Brief persönlich überbracht.",
+          "lv": "Budet har afleveret brevet personligt."
+        },
+        {
+          "de": "Sie überbrachte dem Jubilar ein Geschenk.",
+          "lv": "Hun overrakte jubilaren en gave."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "bringen",
+          "meaning": "at bringe",
+          "example": "Bring mir bitte ein Glas Wasser. – Bring mig et glas vand, tak."
+        },
+        {
+          "word": "übermitteln",
+          "meaning": "at videregive, sende",
+          "example": "Ich übermittle Ihnen die Daten. – Jeg sender Dem dataene."
+        },
+        {
+          "word": "ausrichten",
+          "meaning": "at overbringe, hilse",
+          "example": "Richte ihm Grüße aus. – Hils ham fra mig."
+        }
+      ],
+      "tip": [
+        "Typiske genstandsled: eine Nachricht, Grüße, Glückwünsche, ein Geschenk überbringen.",
+        "I samtale siger man enklere ausrichten (om hilsner) eller bringen."
+      ],
+      "important": [
+        "Forstavelsen über- kan her ikke skilles fra: Er überbringt die Nachricht, ikke er bringt die Nachricht über.",
+        "Modtageren står i dativ: dem Chef, den Eltern."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "überbringen",
+            "überbringt"
+          ],
+          "purple": [
+            "overbringe",
+            "aflevere"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "überbrachte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "overbragte"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "überbringt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "overbringer"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "überbracht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "afleveret"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "überbrachte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "overrakte"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "bringen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "bringe"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "übermitteln"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "videregive, sende"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "ausrichten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "overbringe, hilse"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "Übereinkommen",
     "de_article": "das",
-    "lv": "Aftale • Arrangement",
+    "lv": "Aftale • Overenskomst",
     "level": "B2"
   },
   {
     "de": "überfahren",
-    "lv": "Kør over • Børst let over",
+    "lv": "At køre over • At køre ned",
     "level": "B2"
   },
   {
     "de": "überfallen",
-    "lv": "At angribe pludselig",
+    "lv": "At overfalde • At angribe",
     "level": "B2"
   },
   {
@@ -12320,34 +22261,34 @@ const B2_WORDS = [
   },
   {
     "de": "überfordern",
-    "lv": "Stil alt for store krav",
+    "lv": "At overbebyrde • At stille for store krav",
     "level": "B2"
   },
   {
     "de": "überführen",
-    "lv": "At bringe over • At bevæge sig over floden",
+    "lv": "At overføre • At transportere • At overbevise om skyld",
     "level": "B2"
   },
   {
     "de": "übergehen",
-    "lv": "Forbigå • Gå over til",
+    "lv": "At forbigå • At overse • At springe over",
     "level": "B2"
   },
   {
     "de": "überhören",
-    "lv": "Ikke [at] høre på grund af skødesløshed • Lad som om du ikke hører",
+    "lv": "At ikke opfatte • At lade som om man ikke hører",
     "level": "B2"
   },
   {
     "de": "überlassen",
-    "lv": "At overlade til nogens rådighed • At tillade at vælge",
+    "lv": "At overlade • At lade nogen vælge",
     "level": "B2"
   },
   {
     "de": "Überlastung",
     "de_article": "die",
     "de_plural": "die Überlastungen",
-    "lv": "Overbelaste",
+    "lv": "Overbelastning",
     "level": "B2"
   },
   {
@@ -12359,7 +22300,7 @@ const B2_WORDS = [
   },
   {
     "de": "übermitteln",
-    "lv": "Aflever • Send et brev",
+    "lv": "At videregive • At overbringe",
     "level": "B2"
   },
   {
@@ -12371,47 +22312,47 @@ const B2_WORDS = [
   },
   {
     "de": "überschätzen",
-    "lv": "Overvurder",
+    "lv": "At overvurdere",
     "level": "B2"
   },
   {
     "de": "überschreiten",
-    "lv": "Bestå • Overskridelse",
+    "lv": "At overskride • At krydse • At overtræde",
     "level": "B2"
   },
   {
     "de": "übersichtlich",
-    "lv": "Gennemsigtig",
+    "lv": "Overskuelig",
     "level": "B2"
   },
   {
     "de": "übersiedeln",
-    "lv": "Flyt til et andet sted • Skift bopæl",
+    "lv": "At flytte • At bosætte sig andetsteds",
     "level": "B2"
   },
   {
     "de": "überstehen",
-    "lv": "Udholde • Udholde problemer",
+    "lv": "At klare sig igennem • At udholde • At overleve",
     "level": "B2"
   },
   {
     "de": "übertragen",
-    "lv": "Overføre • Transmittere",
+    "lv": "At overføre • At transmittere • At oversætte",
     "level": "B2"
   },
   {
     "de": "übertreten",
-    "lv": "At bryde loven • At overtræde noget",
+    "lv": "At overtræde • At træde over",
     "level": "B2"
   },
   {
     "de": "überwältigen",
-    "lv": "Overvind • Slå",
+    "lv": "At overvælde • At overmande",
     "level": "B2"
   },
   {
     "de": "ultimativ",
-    "lv": "Ultimativt",
+    "lv": "Ultimativ",
     "level": "B2"
   },
   {
@@ -12422,67 +22363,67 @@ const B2_WORDS = [
   },
   {
     "de": "umarbeiten",
-    "lv": "Genbrug • Genindspil",
+    "lv": "At omarbejde • At bearbejde",
     "level": "B2"
   },
   {
     "de": "Umbruch",
     "de_article": "der",
     "de_plural": "die Umbrüche",
-    "lv": "En stor ændring i politik",
+    "lv": "Omvæltning • Brud",
     "level": "B2"
   },
   {
     "de": "umdenken",
-    "lv": "Skift mening afhængigt af situationen",
+    "lv": "At ændre holdning • At omstille sig",
     "level": "B2"
   },
   {
     "de": "umfassen",
-    "lv": "Omfatte • Omfavne",
+    "lv": "At omfatte • At omslutte • At omfavne",
     "level": "B2"
   },
   {
     "de": "Umfeld",
     "de_article": "das",
     "de_plural": "die Umfelder",
-    "lv": "Miljø social • Politisk",
+    "lv": "Miljø • Omgivelser",
     "level": "B2"
   },
   {
     "de": "umgestalten",
-    "lv": "Transform",
+    "lv": "At omforme • At omdanne",
     "level": "B2"
   },
   {
     "de": "umhören, sich",
-    "lv": "At lytte",
+    "lv": "At høre sig for • At spørge sig for",
     "level": "B2"
   },
   {
     "de": "Umkreis",
     "de_article": "der",
     "de_plural": "die Umkreise",
-    "lv": "Kvarter",
+    "lv": "Omegn • Omkreds",
     "level": "B2"
   },
   {
     "de": "umkreisen",
-    "lv": "Kredse om • Omkredse",
+    "lv": "At kredse om • At omringe",
     "level": "B2"
   },
   {
     "de": "Umlauf",
     "de_article": "der",
     "de_plural": "die Umläufe",
-    "lv": "Cirkulation • Cirkulation",
+    "lv": "Kredsløb • Cirkulation",
     "level": "B2"
   },
   {
     "de": "Umlaufbahn",
     "de_article": "die",
     "de_plural": "die Umlaufbahnen",
-    "lv": "Orbit",
+    "lv": "Kredsløb • Bane",
     "level": "B2"
   },
   {
@@ -12494,17 +22435,17 @@ const B2_WORDS = [
   },
   {
     "de": "umschließen",
-    "lv": "Omslutte • Indeslutte",
+    "lv": "At omslutte • At indeslutte",
     "level": "B2"
   },
   {
     "de": "umschreiben",
-    "lv": "Beskrive",
+    "lv": "At omskrive • At beskrive",
     "level": "B2"
   },
   {
     "de": "umschulen",
-    "lv": "At lære folk med ét job et andet job • At omskole",
+    "lv": "At omskole",
     "level": "B2"
   },
   {
@@ -12517,12 +22458,12 @@ const B2_WORDS = [
   {
     "de": "Umsicht",
     "de_article": "die",
-    "lv": "Forsigtig • Forsigtighed",
+    "lv": "Omsigt • Omtanke",
     "level": "B2"
   },
   {
     "de": "umsiedeln",
-    "lv": "Tvangsoverflyttes til et andet opholdssted",
+    "lv": "At genbosætte • At tvangsforflytte",
     "level": "B2"
   },
   {
@@ -12534,17 +22475,17 @@ const B2_WORDS = [
     "de": "Umsturz",
     "de_article": "der",
     "de_plural": "die Umstürze",
-    "lv": "Putsch",
+    "lv": "Omvæltning • Statskup",
     "level": "B2"
   },
   {
     "de": "umwandeln",
-    "lv": "Konverter • Konverter",
+    "lv": "At omdanne • At forvandle",
     "level": "B2"
   },
   {
     "de": "umwickeln",
-    "lv": "Indpakning • Indpakning",
+    "lv": "At vikle om • At indhylle",
     "level": "B2"
   },
   {
@@ -12554,7 +22495,7 @@ const B2_WORDS = [
   },
   {
     "de": "unanständig",
-    "lv": "Uhøflig • Opført sig forkert",
+    "lv": "Uanstændig • Upassende",
     "level": "B2"
   },
   {
@@ -12569,7 +22510,7 @@ const B2_WORDS = [
   },
   {
     "de": "unbebaut",
-    "lv": "Uopdyrket til jord • Ubebygget",
+    "lv": "Ubebygget • Uopdyrket",
     "level": "B2"
   },
   {
@@ -12579,17 +22520,17 @@ const B2_WORDS = [
   },
   {
     "de": "unbegreiflich",
-    "lv": "Ufatteligt • Uforståeligt",
+    "lv": "Ufattelig • Uforståelig",
     "level": "B2"
   },
   {
     "de": "unbegründet",
-    "lv": "Ugrundet • Ugrundet",
+    "lv": "Ubegrundet • Grundløs",
     "level": "B2"
   },
   {
     "de": "unbehaglich",
-    "lv": "Urolig",
+    "lv": "Ubehagelig • Utilpas",
     "level": "B2"
   },
   {
@@ -12599,12 +22540,12 @@ const B2_WORDS = [
   },
   {
     "de": "unbemerkbar",
-    "lv": "Umærkeligt",
+    "lv": "Umærkelig",
     "level": "B2"
   },
   {
     "de": "unberechenbar",
-    "lv": "Uoverskuelig",
+    "lv": "Uberegnelig",
     "level": "B2"
   },
   {
@@ -12614,12 +22555,12 @@ const B2_WORDS = [
   },
   {
     "de": "unbestechlich",
-    "lv": "Uforgængelig",
+    "lv": "Ubestikkelig",
     "level": "B2"
   },
   {
     "de": "unbewusst",
-    "lv": "Ubevidst • Ubevidst foretaget",
+    "lv": "Ubevidst • Instinktiv • Utilsigtet",
     "level": "B2"
   },
   {
@@ -12629,7 +22570,7 @@ const B2_WORDS = [
   },
   {
     "de": "unentbehrlich",
-    "lv": "Nødvendig",
+    "lv": "Uundværlig",
     "level": "B2"
   },
   {
@@ -12644,14 +22585,14 @@ const B2_WORDS = [
   },
   {
     "de": "unerträglich",
-    "lv": "Utålelig • Utålelig",
+    "lv": "Utålelig • Uudholdelig",
     "level": "B2"
   },
   {
     "de": "Unfug",
     "de_article": "der",
     "de_plural": "die Unfuge",
-    "lv": "Uvæsen • Tåbeligheder",
+    "lv": "Ugagn • Sludder",
     "level": "B2"
   },
   {
@@ -12668,7 +22609,7 @@ const B2_WORDS = [
     "de": "Union",
     "de_article": "die",
     "de_plural": "die Unionen",
-    "lv": "Union • Union",
+    "lv": "Union • Forbund",
     "level": "B2"
   },
   {
@@ -12679,7 +22620,7 @@ const B2_WORDS = [
   },
   {
     "de": "unmenschlich",
-    "lv": "Umenneskelig • Umenneskelig",
+    "lv": "Umenneskelig",
     "level": "B2"
   },
   {
@@ -12691,17 +22632,17 @@ const B2_WORDS = [
     "de": "Unstimmigkeit",
     "de_article": "die",
     "de_plural": "die Unstimmigkeiten",
-    "lv": "Uenigheder",
+    "lv": "Uoverensstemmelse • Uenighed",
     "level": "B2"
   },
   {
     "de": "unterbreiten",
-    "lv": "Forklar • Præsenter",
+    "lv": "At forelægge • At fremlægge",
     "level": "B2"
   },
   {
     "de": "unterdrücken",
-    "lv": "Undertrykke • Undertrykke",
+    "lv": "At undertrykke • At kvæle",
     "level": "B2"
   },
   {
@@ -12720,7 +22661,7 @@ const B2_WORDS = [
     "de": "Untergrund",
     "de_article": "der",
     "de_plural": "die Untergründe",
-    "lv": "Underjordisk",
+    "lv": "Undergrund",
     "level": "B2"
   },
   {
@@ -12731,12 +22672,12 @@ const B2_WORDS = [
   },
   {
     "de": "unterirdisch",
-    "lv": "Underjordisk-",
+    "lv": "Underjordisk",
     "level": "B2"
   },
   {
     "de": "unterjochen",
-    "lv": "At underlægge sig",
+    "lv": "At undertvinge • At underkue",
     "level": "B2"
   },
   {
@@ -12744,21 +22685,199 @@ const B2_WORDS = [
     "de_article": "die",
     "de_plural": "die Unterlagen",
     "lv": "Underlag • Dokumentation",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-unterlage",
+      "layout": "standardStudy",
+      "translation": "Underlag • Dokumentation",
+      "explanation": [
+        "Hovedbetydning: die Unterlage er et navneord i hunkøn. I ental er det noget, der ligger under noget andet — et underlag, et skriveunderlag, en plade, en støtte (eine Unterlage zum Schreiben). I flertal betyder die Unterlagen dokumenter, materialer, dokumentation.",
+        "Flertal er die Unterlagen, og det er netop flertalsformen, der bruges allermest: die Unterlagen einreichen (indsende dokumenterne), Unterlagen anfordern (bede om dokumenter). Betydningen i ental og flertal er ret forskellig, så se på sammenhængen."
+      ],
+      "examples": [
+        {
+          "de": "Als Unterlage verwenden wir ein Brett.",
+          "lv": "Som underlag bruger vi et bræt."
+        },
+        {
+          "de": "Die Matte dient als Unterlage für die Übungen.",
+          "lv": "Måtten fungerer som underlag til øvelserne."
+        },
+        {
+          "de": "Bitte reichen Sie die Unterlagen bis Freitag ein.",
+          "lv": "Indsend venligst dokumentationen senest fredag."
+        },
+        {
+          "de": "Er hat alle Unterlagen für den Antrag gesammelt.",
+          "lv": "Han har samlet alle papirerne til ansøgningen."
+        },
+        {
+          "de": "Eine feste Unterlage stützt das Werkstück.",
+          "lv": "Et fast underlag støtter emnet."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "das Dokument",
+          "meaning": "dokument",
+          "example": "Das Dokument ist wichtig. – Dokumentet er vigtigt."
+        },
+        {
+          "word": "die Grundlage",
+          "meaning": "grundlag",
+          "example": "Das ist die Grundlage des Vertrags. – Det er grundlaget for kontrakten."
+        },
+        {
+          "word": "der Untersetzer",
+          "meaning": "bordskåner, glasbrik",
+          "example": "Stell das Glas auf den Untersetzer. – Stil glasset på glasbrikken."
+        }
+      ],
+      "tip": [
+        "Om papirer og i kontorsammenhæng bruges næsten altid flertal: Unterlagen.",
+        "Det, man lægger under en genstand, hedder Unterlage; det, man stiller et glas på, hedder Untersetzer."
+      ],
+      "important": [
+        "Unterlagen er ikke ét dokument, men en samling dokumenter; et enkelt dokument hedder das Dokument.",
+        "Forveksl ikke med Grundlage (grundlag, basis): det er et bredere, mere abstrakt ord."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "die Unterlage",
+            "Unterlage",
+            "Unterlagen"
+          ],
+          "purple": [
+            "underlag",
+            "dokumentation",
+            "dokumenter"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Unterlage"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "underlag"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Unterlage"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "underlag"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Unterlagen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "dokumentationen"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Unterlagen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "papirerne"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Unterlage"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "underlag"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "das Dokument"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "dokument"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Grundlage"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "grundlag"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Untersetzer"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "bordskåner, glasbrik"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "unterlassen",
-    "lv": "At stoppe med at gøre noget • Ikke at gøre",
+    "lv": "At undlade • At lade være med",
     "level": "B2"
   },
   {
     "de": "unterordnen",
-    "lv": "Underordnet • Subjekt",
+    "lv": "At underordne • At underlægge",
     "level": "B2"
   },
   {
     "de": "unterschlagen",
-    "lv": "Til passende",
+    "lv": "At underslå • At tilegne sig",
     "level": "B2"
   },
   {
@@ -12772,42 +22891,42 @@ const B2_WORDS = [
     "de": "Untertan",
     "de_article": "der",
     "de_plural": "die Untertanen",
-    "lv": "Statsborger",
+    "lv": "Undersåt",
     "level": "B2"
   },
   {
     "de": "untertauchen",
-    "lv": "Dykke ned • Gå under jorden",
+    "lv": "At dykke ned • At gå under jorden",
     "level": "B2"
   },
   {
     "de": "unterweisen",
-    "lv": "Vis • Instruer",
+    "lv": "At instruere • At undervise",
     "level": "B2"
   },
   {
     "de": "unterwerfen",
-    "lv": "Med forbehold for",
+    "lv": "At underkaste • At undertvinge",
     "level": "B2"
   },
   {
     "de": "sich unterwerfen",
-    "lv": "At adlyde",
+    "lv": "At underkaste sig",
     "level": "B2"
   },
   {
     "de": "untragbar",
-    "lv": "Uacceptabelt • Uudholdeligt",
+    "lv": "Uacceptabel • Uudholdelig",
     "level": "B2"
   },
   {
     "de": "unüberlegt",
-    "lv": "Hensynsløs • Hensynsløs",
+    "lv": "Ubetænksom • Letsindig",
     "level": "B2"
   },
   {
     "de": "unvermeidlich",
-    "lv": "Overhængende • Uundgåelig",
+    "lv": "Uundgåelig • Uafvendelig",
     "level": "B2"
   },
   {
@@ -12837,7 +22956,7 @@ const B2_WORDS = [
   },
   {
     "de": "üppig",
-    "lv": "Rigelig • Buttet",
+    "lv": "Yppig • Frodig • Rigelig",
     "level": "B2"
   },
   {
@@ -12851,14 +22970,14 @@ const B2_WORDS = [
     "de": "Urheberrecht",
     "de_article": "das",
     "de_plural": "die Urheberrechte",
-    "lv": "Copyright",
+    "lv": "Ophavsret",
     "level": "B2"
   },
   {
     "de": "Urkunde",
     "de_article": "die",
     "de_plural": "die Urkunden",
-    "lv": "Dokument • Artikel",
+    "lv": "Dokument • Diplom",
     "level": "B2"
   },
   {
@@ -12870,22 +22989,22 @@ const B2_WORDS = [
   },
   {
     "de": "ursprünglich",
-    "lv": "Initial",
+    "lv": "Oprindelig",
     "level": "B2"
   },
   {
     "de": "vage",
-    "lv": "Uklar • Upræcist",
+    "lv": "Vag • Uklar • Upræcis",
     "level": "B2"
   },
   {
     "de": "väterlich",
-    "lv": "Faderlig- • Faderlig",
+    "lv": "Faderlig",
     "level": "B2"
   },
   {
     "de": "verachten",
-    "lv": "Foragte • Hån",
+    "lv": "At foragte • At ringeagte",
     "level": "B2"
   },
   {
@@ -12897,22 +23016,22 @@ const B2_WORDS = [
     "de": "Veranlagung",
     "de_article": "die",
     "de_plural": "die Veranlagungen",
-    "lv": "Talenter • Evner",
+    "lv": "Anlæg • Disposition",
     "level": "B2"
   },
   {
     "de": "veranlassen",
-    "lv": "Foranledige • Iværksætte",
+    "lv": "At foranledige • At forårsage",
     "level": "B2"
   },
   {
     "de": "verbittert",
-    "lv": "Oprørt",
+    "lv": "Bitter",
     "level": "B2"
   },
   {
     "de": "verborgen",
-    "lv": "Skjult • Hemmelighed",
+    "lv": "Skjult • Hemmelig",
     "level": "B2"
   },
   {
@@ -12936,40 +23055,183 @@ const B2_WORDS = [
   },
   {
     "de": "verdünnen",
-    "lv": "Fortynde • Gøre tyndere",
+    "lv": "At fortynde • At gøre tyndere",
     "level": "B2"
   },
   {
     "de": "verehren",
-    "lv": "Ære • Højagte",
+    "lv": "At ære • At beundre • At forære",
     "level": "B2"
   },
   {
     "de": "vereinigen",
-    "lv": "Kombiner • Tilslut",
+    "lv": "At forene • At samle",
     "level": "B2"
   },
   {
     "de": "sich vereinigen",
-    "lv": "Slå sammen med",
+    "lv": "At forene sig • At slå sig sammen",
     "level": "B2",
     "study": {
       "id": "b2-sich-vereinigen",
-      "layout": "minimalStudy",
-      "translation": "Slå sammen med",
-      "rektion": "mit + kam?",
-      "explanation": "Sich vereinigen kræver den bestemte præposition mit + kam?.",
-      "forms": "mit + kam?",
-      "formsLabel": "Management:",
+      "layout": "standardStudy",
+      "translation": "At forene sig • At slå sig sammen",
+      "explanation": [
+        "Hovedbetydning: sich vereinigen betyder at forene sig, at slå sig sammen — om lande, partier, virksomheder, kræfter. Med mit + dativ angiver man partneren: sich mit einer Gruppe vereinigen. Resultatet angives med zu + dativ: sich zu einer Union vereinigen.",
+        "Former: vereinigt sich, vereinigte sich, hat sich vereinigt. Uden sich er vereinigen et overgangsudsagnsord: Länder vereinigen — forene lande. Eksempel i et navn: die Vereinigten Staaten (De Forenede Stater)."
+      ],
+      "examples": [
+        {
+          "de": "Die beiden Firmen vereinigten sich zu einem Konzern.",
+          "lv": "De to firmaer slog sig sammen til én koncern."
+        },
+        {
+          "de": "Die Partei vereinigte sich mit einer kleineren Gruppe.",
+          "lv": "Partiet slog sig sammen med en mindre gruppe."
+        },
+        {
+          "de": "Die Länder haben sich zu einer Union vereinigt.",
+          "lv": "Landene har forenet sig i en union."
+        },
+        {
+          "de": "Alle Kräfte vereinigten sich gegen den Gegner.",
+          "lv": "Alle kræfter forenede sig mod modstanderen."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "vereinen",
+          "meaning": "at forene",
+          "example": "Das Fest vereint alle Generationen. – Festen forener alle generationer."
+        },
+        {
+          "word": "sich zusammenschließen",
+          "meaning": "at slå sig sammen",
+          "example": "Die Firmen schließen sich zusammen. – Firmaerne slår sig sammen."
+        },
+        {
+          "word": "fusionieren",
+          "meaning": "at fusionere",
+          "example": "Zwei Banken fusionieren. – To banker fusionerer."
+        }
+      ],
+      "tip": [
+        "Hyppig forbindelse: sich zu etwas vereinigen (forene sig til noget).",
+        "I hverdagen siger man ofte enklere: sich zusammenschließen."
+      ],
+      "important": [
+        "Det nærtstående ord vereinen (forene) bruges oftest om mennesker og følelser, mens vereinigen oftere bruges om organisationer og lande.",
+        "Efter mit følger dativ: mit der Partei, mit dem Nachbarn."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich vereinigen"
+            "vereinigen",
+            "vereinigt",
+            "vereinigte",
+            "Vereinigten"
           ],
-          "red": [
-            "mit + kam?"
+          "purple": [
+            "forene sig",
+            "slå sig sammen"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "vereinigten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "slog sig sammen"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "vereinigte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "slog sig sammen"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "vereinigt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "forenet sig"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "vereinigten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "forenede sig"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "vereinen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "forene"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich zusammenschließen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "slå sig sammen"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "fusionieren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "fusionere"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -12982,7 +23244,7 @@ const B2_WORDS = [
   },
   {
     "de": "vererben",
-    "lv": "Efterlad • Arv",
+    "lv": "At testamentere • At lade gå i arv",
     "level": "B2"
   },
   {
@@ -13001,63 +23263,225 @@ const B2_WORDS = [
   },
   {
     "de": "verfallen",
-    "lv": "Forfalde • Udløbe",
+    "lv": "At forfalde • At udløbe",
     "level": "B2"
   },
   {
     "de": "Verfasser",
     "de_article": "der",
     "de_plural": "die Verfasser",
-    "lv": "Komponist • Forfatter",
+    "lv": "Forfatter • Ophavsmand",
     "level": "B2"
   },
   {
     "de": "verfügen",
-    "lv": "Råde over • Bestemme",
-    "level": "B2"
+    "lv": "At råde over • At bestemme",
+    "level": "B2",
+    "study": {
+      "id": "b2-verf-gen",
+      "layout": "standardStudy",
+      "translation": "At råde over • At bestemme",
+      "explanation": [
+        "Hovedbetydning: verfügen er i denne betydning et officielt udsagnsord: at bestemme, beordre eller påbyde noget ved en myndigheds afgørelse (eine Maßnahme verfügen). Grundleddet er normalt en myndighed, en direktør, en domstol eller en hersker.",
+        "Uadskillelig forstavelse ver-: verfügt, verfügte, hat verfügt. Derefter kan der følge akkusativ (eine Ausgangssperre verfügen) eller en dass-sætning.",
+        "Den særskilte konstruktion verfügen über + akkusativ betyder at råde over noget, at have noget til rådighed: über Erfahrung verfügen — at have erfaring."
+      ],
+      "examples": [
+        {
+          "de": "Die Behörde verfügt eine Ausgangssperre.",
+          "lv": "Myndigheden indfører udgangsforbud."
+        },
+        {
+          "de": "Der König verfügte, dass das Tor geschlossen wird.",
+          "lv": "Kongen bestemte, at porten skulle lukkes."
+        },
+        {
+          "de": "Der Direktor verfügte die sofortige Schließung des Werks.",
+          "lv": "Direktøren beordrede fabrikken lukket øjeblikkeligt."
+        },
+        {
+          "de": "Er verfügt über große Erfahrung.",
+          "lv": "Han råder over stor erfaring."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "anordnen",
+          "meaning": "at beordre, påbyde",
+          "example": "Der Arzt ordnet Ruhe an. – Lægen ordinerer ro."
+        },
+        {
+          "word": "bestimmen",
+          "meaning": "at bestemme, fastsætte",
+          "example": "Das Gesetz bestimmt die Frist. – Loven fastsætter fristen."
+        },
+        {
+          "word": "besitzen",
+          "meaning": "at eje",
+          "example": "Er besitzt ein Haus. – Han ejer et hus."
+        }
+      ],
+      "tip": [
+        "I officiel stil betegner verfügen en administrativ afgørelse; i hverdagen siger man i stedet anordnen eller bestimmen.",
+        "Vendingen Er verfügt über … betyder han har / råder over …, og den bruges oftere end den første betydning."
+      ],
+      "important": [
+        "Forveksl ikke verfügen (bestemme) med verfügen über (råde over, have): forholdsordet ændrer betydningen.",
+        "Når verfügen betyder bestemme, er forholdsordet über ikke nødvendigt."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "verfügen",
+            "verfügt",
+            "verfügte"
+          ],
+          "purple": [
+            "bestemme",
+            "råde over"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "verfügt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "indfører"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verfügte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "bestemte"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verfügte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "beordrede"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verfügt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "råder over"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "anordnen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "beordre, påbyde"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "bestimmen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "bestemme, fastsætte"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "besitzen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "eje"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "Verfügung",
     "de_article": "die",
     "de_plural": "die Verfügungen",
-    "lv": "Bestille",
+    "lv": "Bestemmelse • Påbud • Rådighed",
     "level": "B2"
   },
   {
     "de": "verführen",
-    "lv": "Forføre • Forføre",
+    "lv": "At forføre • At forlede",
     "level": "B2"
   },
   {
     "de": "vergeblich",
-    "lv": "Vain • Vain",
+    "lv": "Forgæves • Frugtesløs",
     "level": "B2"
   },
   {
     "de": "Vergehen",
     "de_article": "das",
     "de_plural": "die Vergehen",
-    "lv": "Krænkelse",
+    "lv": "Forseelse • Overtrædelse",
     "level": "B2"
   },
   {
     "de": "vergeuden",
-    "lv": "At spilde • At spilde",
+    "lv": "At spilde • At ødsle bort",
     "level": "B2"
   },
   {
     "de": "vergiften",
-    "lv": "To poison • To poison",
+    "lv": "At forgifte",
     "level": "B2"
   },
   {
     "de": "verhandeln",
-    "lv": "Diskuter • Forhandle",
+    "lv": "At forhandle • At drøfte",
     "level": "B2"
   },
   {
     "de": "verhasst",
-    "lv": "Hadet • Usynligt",
+    "lv": "Forhadt",
     "level": "B2"
   },
   {
@@ -13067,43 +23491,43 @@ const B2_WORDS = [
   },
   {
     "de": "verhöhnen",
-    "lv": "Spot • Bule",
+    "lv": "At håne • At spotte",
     "level": "B2"
   },
   {
     "de": "Verhör",
     "de_article": "das",
     "de_plural": "die Verhöre",
-    "lv": "[fra] forhør",
+    "lv": "Forhør • Afhøring",
     "level": "B2"
   },
   {
     "de": "verhören",
-    "lv": "[af] afhøring",
+    "lv": "At afhøre • At forhøre",
     "level": "B2"
   },
   {
     "de": "sich verhören",
-    "lv": "Hør igen",
+    "lv": "At høre forkert",
     "level": "B2"
   },
   {
     "de": "verhüten",
-    "lv": "Forhindre • Bevogt dig mod",
+    "lv": "At forhindre • At forebygge",
     "level": "B2"
   },
   {
     "de": "Verlauf",
     "de_article": "der",
     "de_plural": "die Verläufe",
-    "lv": "Fremskridt • Fremskridt",
+    "lv": "Forløb • Gang",
     "level": "B2"
   },
   {
     "de": "Verleger",
     "de_article": "der",
     "de_plural": "die Verleger",
-    "lv": "Forlaget",
+    "lv": "Forlægger • Udgiver",
     "level": "B2"
   },
   {
@@ -13124,14 +23548,14 @@ const B2_WORDS = [
     "de": "Vermerk",
     "de_article": "der",
     "de_plural": "die Vermerke",
-    "lv": "Bemærk • Marker",
+    "lv": "Notat • Påtegning • Bemærkning",
     "level": "B2"
   },
   {
     "de": "Vermögen",
     "de_article": "das",
     "de_plural": "die Vermögen",
-    "lv": "Ejendom",
+    "lv": "Formue • Evne",
     "level": "B2"
   },
   {
@@ -13158,14 +23582,14 @@ const B2_WORDS = [
     "de": "Vers",
     "de_article": "der",
     "de_plural": "die Verse",
-    "lv": "Artikel",
+    "lv": "Vers • Strofe",
     "level": "B2"
   },
   {
     "de": "Versager",
     "de_article": "der",
     "de_plural": "die Versager",
-    "lv": "Taber • Taber",
+    "lv": "Taber • Fiasko",
     "level": "B2"
   },
   {
@@ -13179,67 +23603,67 @@ const B2_WORDS = [
     "de": "Versehen",
     "de_article": "das",
     "de_plural": "die Versehen",
-    "lv": "Fejl • Revision",
+    "lv": "Fejltagelse • Forglemmelse",
     "level": "B2"
   },
   {
     "de": "verkommen",
-    "lv": "Forfalde • Degenerere",
+    "lv": "At forfalde • At forsumpe",
     "level": "B2"
   },
   {
     "de": "verkörpern",
-    "lv": "Legemliggørelse",
+    "lv": "At legemliggøre • At personificere",
     "level": "B2"
   },
   {
     "de": "verkraften",
-    "lv": "Oprethold moralsk styrke til at overvinde noget ubehageligt",
+    "lv": "At klare • At kunne bære",
     "level": "B2"
   },
   {
     "de": "verkümmern",
-    "lv": "At afslå",
+    "lv": "At visne hen • At sygne hen",
     "level": "B2"
   },
   {
     "de": "verkünden",
-    "lv": "Meddel • Meddel",
+    "lv": "At bekendtgøre • At forkynde",
     "level": "B2"
   },
   {
     "de": "verleumden",
-    "lv": "Bagvaskelse • Bagvaskelse",
+    "lv": "At bagtale • At bagvaske",
     "level": "B2"
   },
   {
     "de": "vermehren",
-    "lv": "Multiplicer • Multiplicer",
+    "lv": "At forøge • At formere",
     "level": "B2"
   },
   {
     "de": "sich vermehren",
-    "lv": "Multiplicere",
+    "lv": "At formere sig • At forøges",
     "level": "B2"
   },
   {
     "de": "vermessen",
-    "lv": "At måle",
+    "lv": "At opmåle",
     "level": "B2"
   },
   {
     "de": "vermindern",
-    "lv": "[at] reducere",
+    "lv": "At formindske • At reducere",
     "level": "B2"
   },
   {
     "de": "vermitteln",
-    "lv": "Formidle • Mægle",
+    "lv": "At formidle • At mægle",
     "level": "B2"
   },
   {
     "de": "vermögend",
-    "lv": "Rich • Fed",
+    "lv": "Velhavende • Formuende",
     "level": "B2"
   },
   {
@@ -13249,61 +23673,209 @@ const B2_WORDS = [
   },
   {
     "de": "vernichten",
-    "lv": "Ødelæg • Ødelæg",
+    "lv": "At tilintetgøre • At ødelægge",
     "level": "B2"
   },
   {
     "de": "verordnen",
-    "lv": "Ordinere • Foreskrive",
+    "lv": "At forordne • At ordinere",
     "level": "B2"
   },
   {
     "de": "verpfänden",
-    "lv": "Løfte",
+    "lv": "At pantsætte",
     "level": "B2"
   },
   {
     "de": "verrechnen",
-    "lv": "Beregne",
+    "lv": "At afregne • At modregne",
     "level": "B2"
   },
   {
     "de": "verrenken",
-    "lv": "At forskyde led",
+    "lv": "At forvride • At få af led",
     "level": "B2"
   },
   {
     "de": "versagen",
-    "lv": "Svigte • Nægte",
+    "lv": "At svigte • At nægte",
     "level": "B2"
   },
   {
     "de": "sich versehen",
-    "lv": "Glem • Udstyr med",
+    "lv": "At se forkert • At tage fejl",
     "level": "B2",
     "study": {
       "id": "b2-sich-versehen",
-      "layout": "minimalStudy",
-      "translation": "Glem • Udstyr med",
-      "rektion": "mit + kam?",
-      "explanation": "Sich verschein kræver den bestemte præposition mit + kam?.",
-      "forms": "mit + kam?",
-      "formsLabel": "Management:",
+      "layout": "standardStudy",
+      "translation": "At se forkert • At tage fejl",
+      "explanation": [
+        "Hovedbetydning: sich versehen betyder at se forkert, at tage fejl — ikke at opfatte noget korrekt eller at begå en fejl af uopmærksomhed (for eksempel i en dato eller et tal). Former: versieht sich, versah sich, hat sich versehen.",
+        "Udbredte udtryk: Wenn ich mich nicht versehe, … (hvis jeg ikke tager fejl, …) og ehe man sich versieht (før man ved af det). Uden sich betyder versehen at forsyne, udstyre (mit etwas versehen)."
+      ],
+      "examples": [
+        {
+          "de": "Ich habe mich beim Datum versehen.",
+          "lv": "Jeg har set forkert på datoen."
+        },
+        {
+          "de": "Wenn ich mich nicht versehe, kommt dort Anna.",
+          "lv": "Hvis jeg ikke tager fejl, kommer Anna derhenne."
+        },
+        {
+          "de": "Ehe man sich versieht, ist der Sommer vorbei.",
+          "lv": "Før man ved af det, er sommeren forbi."
+        },
+        {
+          "de": "Da hast du dich wohl versehen.",
+          "lv": "Der har du vist set forkert."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich irren",
+          "meaning": "at tage fejl",
+          "example": "Ich habe mich geirrt. – Jeg tog fejl."
+        },
+        {
+          "word": "sich verlesen",
+          "meaning": "at læse forkert",
+          "example": "Ich habe mich verlesen. – Jeg har læst forkert."
+        },
+        {
+          "word": "versehen",
+          "meaning": "at forsyne, udstyre",
+          "example": "Er versieht den Brief mit einer Marke. – Han sætter et frimærke på brevet."
+        }
+      ],
+      "tip": [
+        "Det tilbagevisende sich versehen udtrykker en tilfældig fejl: Ich habe mich versehen.",
+        "Med Wenn ich mich nicht versehe, … udtrykker du forsigtigt en formodning."
+      ],
+      "important": [
+        "sich versehen har intet med dårligt syn at gøre, men betyder at se forkert eller begå en fejl.",
+        "Forveksl ikke sich versehen (se forkert) med versehen mit (forsyne med): det har ikke sich."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "Sich verschein"
+            "sich versehen",
+            "versehen",
+            "versieht",
+            "versehe",
+            "versah"
           ],
-          "red": [
-            "mit + kam?"
+          "purple": [
+            "se forkert",
+            "tage fejl"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "mich",
+                "versehen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "set forkert"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "mich",
+                "versehe"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tager fejl"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sich",
+                "versieht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ved af det"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "dich",
+                "versehen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "set forkert"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich irren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "tage fejl"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich verlesen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "læse forkert"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "versehen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "forsyne, udstyre"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
   {
     "de": "versetzen",
-    "lv": "Flyt • Flyt",
+    "lv": "At flytte • At forflytte",
     "level": "B2"
   },
   {
@@ -13328,74 +23900,323 @@ const B2_WORDS = [
   },
   {
     "de": "sich versöhnen",
-    "lv": "Affinde sig med",
+    "lv": "At forsone sig",
     "level": "B2",
     "study": {
       "id": "b2-sich-versoehnen",
-      "layout": "minimalStudy",
-      "translation": "Affinde sig med",
-      "rektion": "mit + kam?",
-      "explanation": "Sich versöhnen kræver den bestemte præposition mit + kam?.",
-      "forms": "mit + kam?",
-      "formsLabel": "Management:",
+      "layout": "standardStudy",
+      "translation": "At forsone sig",
+      "explanation": [
+        "Hovedbetydning: sich versöhnen betyder at forsone sig, at blive gode venner igen efter et skænderi eller en konflikt — at genoprette et godt forhold til nogen.",
+        "Udsagnsordet er tilbagevisende: ich versöhne mich, er versöhnt sich; i datid er versöhnte sich, i førnutid er hat sich versöhnt. Hvem man forsoner sig med, angives med mit + dativ: sich mit jemandem versöhnen.",
+        "Ordet kan også være et overgangsudsagnsord: jemanden versöhnen — forsone nogen (med en anden)."
+      ],
+      "examples": [
+        {
+          "de": "Die Geschwister haben sich nach dem Streit versöhnt.",
+          "lv": "Søskendene er blevet gode venner igen efter skænderiet."
+        },
+        {
+          "de": "Ich möchte mich mit dir versöhnen.",
+          "lv": "Jeg vil gerne forsone mig med dig."
+        },
+        {
+          "de": "Er versöhnte sich mit seinem Vater.",
+          "lv": "Han forsonede sig med sin far."
+        },
+        {
+          "de": "Wann versöhnt ihr euch endlich?",
+          "lv": "Hvornår bliver I endelig gode venner igen?"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "verzeihen",
+          "meaning": "at tilgive",
+          "example": "Ich verzeihe dir. – Jeg tilgiver dig."
+        },
+        {
+          "word": "sich vertragen",
+          "meaning": "at komme godt ud af det med hinanden",
+          "example": "Die Kinder vertragen sich gut. – Børnene kommer godt ud af det med hinanden."
+        }
+      ],
+      "tip": [
+        "Husk parret: sich versöhnen mit + dativ. Den person, man forsoner sig med, kommer altid efter mit.",
+        "Før forsoningen er der normalt et skænderi: sich streiten → sich versöhnen."
+      ],
+      "important": [
+        "I denne betydning er det tilbagevisende sich obligatorisk: ich versöhne mich, ikke ich versöhne.",
+        "Førnutid dannes med haben: er hat sich versöhnt."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich versöhnen"
+            "versöhnen",
+            "versöhne",
+            "versöhnt"
           ],
-          "red": [
-            "mit + kam?"
+          "purple": [
+            "forsone sig"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "versöhnt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "blevet gode venner igen"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "versöhnen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "forsone mig"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "versöhnte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "forsonede sig"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "versöhnt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "bliver I endelig gode venner igen"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "verzeihen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "tilgive"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich vertragen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "komme godt ud af det med hinanden"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
   {
     "de": "verspielen",
-    "lv": "Spil • Tab",
+    "lv": "At spille bort • At sætte over styr",
     "level": "B2"
   },
   {
     "de": "verspotten",
-    "lv": "Bule • Latterliggørelse",
+    "lv": "At håne • At latterliggøre",
     "level": "B2"
   },
   {
     "de": "verständig",
-    "lv": "Fornuft • Fornuftig",
+    "lv": "Forstandig • Fornuftig",
     "level": "B2"
   },
   {
     "de": "verstauchen",
-    "lv": "At forskyde led",
+    "lv": "At forstuve",
     "level": "B2"
   },
   {
     "de": "versteigern",
-    "lv": "Sælg på auktion",
+    "lv": "At bortauktionere • At sælge på auktion",
     "level": "B2"
   },
   {
     "de": "sich verstellen",
-    "lv": "Efterligne",
+    "lv": "At forstille sig",
     "level": "B2",
     "study": {
       "id": "b2-sich-verstellen",
-      "layout": "minimalStudy",
-      "translation": "Efterligne",
-      "rektion": "als + ko?",
-      "explanation": "Sich verstellen kræver den bestemte præposition als + ko?.",
-      "forms": "als + ko?",
-      "formsLabel": "Management:",
+      "layout": "standardStudy",
+      "translation": "At forstille sig",
+      "explanation": [
+        "Hovedbetydning: sich verstellen betyder at forstille sig, at ændre sin opførsel eller optræden, så andre ikke ser ens sande karakter eller følelser. Man er så ikke sig selv.",
+        "Udsagnsordet er tilbagevisende: ich verstelle mich, er verstellt sich; i datid verstellte sich, i førnutid hat sich verstellt. Uden sich betyder verstellen også at flytte, spærre eller indstille (den Weg verstellen — spærre vejen; den Sitz verstellen — indstille sædet) samt at forstille stemmen (die Stimme verstellen).",
+        "Den danske glose at udgive sig for svarer mere præcist til sich ausgeben als (sich als Arzt ausgeben — udgive sig for at være læge); selve sich verstellen betyder normalt blot at forstille sig, at spille skuespil."
+      ],
+      "examples": [
+        {
+          "de": "Er verstellt sich vor den Gästen und tut freundlich.",
+          "lv": "Han forstiller sig over for gæsterne og spiller venlig."
+        },
+        {
+          "de": "Du musst dich nicht verstellen.",
+          "lv": "Du behøver ikke at forstille dig."
+        },
+        {
+          "de": "Sie verstellte ihre Stimme am Telefon.",
+          "lv": "Hun forstillede sin stemme i telefonen."
+        },
+        {
+          "de": "Bei ihm weiß man nie, ob er sich verstellt.",
+          "lv": "Hos ham ved man aldrig, om han forstiller sig."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich ausgeben als",
+          "meaning": "at udgive sig for",
+          "example": "Er gibt sich als Arzt aus. – Han udgiver sig for at være læge."
+        },
+        {
+          "word": "so tun, als ob",
+          "meaning": "at lade som om",
+          "example": "Sie tut so, als ob sie schliefe. – Hun lader, som om hun sover."
+        }
+      ],
+      "tip": [
+        "Hvis du vil sige at udgive sig for nogen, så brug sich ausgeben als; sich verstellen er mere generelt: ikke at være sig selv.",
+        "Nyttig vending: Du brauchst dich nicht zu verstellen — du behøver ikke at spille skuespil."
+      ],
+      "important": [
+        "Forveksl ikke med verstellen uden sich: Er verstellt den Weg betyder, at han spærrer vejen."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
+            "verstellen",
+            "verstellt sich",
+            "verstelle mich",
             "sich verstellen"
           ],
-          "red": [
-            "als + ko?"
+          "purple": [
+            "forstille sig"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "verstellt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "forstiller sig"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verstellen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "forstille dig"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verstellte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "forstillede"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verstellt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "forstiller sig"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich ausgeben als"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "udgive sig for"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "so tun, als ob"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "lade som om"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {}
+        ]
       }
     }
   },
@@ -13403,7 +24224,7 @@ const B2_WORDS = [
     "de": "Verstorbene",
     "de_article": "der",
     "de_plural": "die Verstorbenen",
-    "lv": "Den afdøde • Den afdøde",
+    "lv": "Afdød",
     "level": "B2"
   },
   {
@@ -13415,12 +24236,12 @@ const B2_WORDS = [
   },
   {
     "de": "vertagen",
-    "lv": "Udskyd • Læg ned",
+    "lv": "At udsætte • At udskyde",
     "level": "B2"
   },
   {
     "de": "vertiefen",
-    "lv": "Uddybe",
+    "lv": "At uddybe",
     "level": "B2"
   },
   {
@@ -13432,46 +24253,46 @@ const B2_WORDS = [
   },
   {
     "de": "verwalten",
-    "lv": "Styre",
+    "lv": "At forvalte • At administrere",
     "level": "B2"
   },
   {
     "de": "verwandeln",
-    "lv": "Transform",
+    "lv": "At forvandle • At omdanne",
     "level": "B2"
   },
   {
     "de": "verweigern",
-    "lv": "Afvis • Afvis",
+    "lv": "At nægte • At afslå",
     "level": "B2"
   },
   {
     "de": "verweilen",
-    "lv": "Hæng rundt",
+    "lv": "At dvæle • At opholde sig",
     "level": "B2"
   },
   {
     "de": "Verweis",
     "de_article": "der",
     "de_plural": "die Verweise",
-    "lv": "Reprimande • Reprimande",
+    "lv": "Irettesættelse • Henvisning",
     "level": "B2"
   },
   {
     "de": "Verwendung",
     "de_article": "die",
     "de_plural": "die Verwendungen",
-    "lv": "Udnyttelse",
+    "lv": "Anvendelse • Brug",
     "level": "B2"
   },
   {
     "de": "verwickeln",
-    "lv": "Indvikle • Involvere",
+    "lv": "At indvikle • At involvere",
     "level": "B2"
   },
   {
     "de": "verwirren",
-    "lv": "Forvirre • Bringe i vildrede",
+    "lv": "At forvirre • At bringe i vildrede",
     "level": "B2"
   },
   {
@@ -13483,35 +24304,178 @@ const B2_WORDS = [
   },
   {
     "de": "verwöhnen",
-    "lv": "Spoil • Spoil",
+    "lv": "At forkæle",
     "level": "B2"
   },
   {
     "de": "verwundern",
-    "lv": "For at skabe forundring",
+    "lv": "At forundre",
     "level": "B2"
   },
   {
     "de": "sich verwundern",
-    "lv": "Spekulerer på",
+    "lv": "At undre sig",
     "level": "B2",
     "study": {
       "id": "b2-sich-verwundern",
-      "layout": "minimalStudy",
-      "translation": "Spekulerer på",
-      "rektion": "über + ko?",
-      "explanation": "Sich verwundern kræver den bestemte præposition über + ko?.",
-      "forms": "über + ko?",
-      "formsLabel": "Management:",
+      "layout": "standardStudy",
+      "translation": "At undre sig",
+      "explanation": [
+        "Hovedbetydning: sich verwundern betyder at undre sig — at blive overrasket over noget uventet eller uforståeligt.",
+        "Udsagnsordet er tilbagevisende og bruges med forholdsordet über + akkusativ: sich über etwas verwundern. Former: ich verwundere mich, er verwundert sich, verwunderte sich, hat sich verwundert. Ofte følger også en ledsætning med dass: sich darüber verwundern, dass …",
+        "I talesprog bruger man oftere det enklere sich wundern; sich verwundern lyder mere formelt og skriftsprogligt."
+      ],
+      "examples": [
+        {
+          "de": "Ich verwundere mich über seine Antwort.",
+          "lv": "Jeg undrer mig over hans svar."
+        },
+        {
+          "de": "Sie verwunderte sich darüber, dass niemand kam.",
+          "lv": "Hun undrede sig over, at ingen kom."
+        },
+        {
+          "de": "Wir verwundern uns über das schlechte Wetter im Mai.",
+          "lv": "Vi undrer os over det dårlige vejr i maj."
+        },
+        {
+          "de": "Er hat sich sehr über den Preis verwundert.",
+          "lv": "Han undrede sig meget over prisen."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich wundern",
+          "meaning": "at undre sig",
+          "example": "Ich wundere mich über ihn. – Jeg undrer mig over ham."
+        },
+        {
+          "word": "staunen",
+          "meaning": "at forbavses, beundre",
+          "example": "Die Kinder staunen über den Zauberer. – Børnene er forbløffede over tryllekunstneren."
+        },
+        {
+          "word": "überrascht sein",
+          "meaning": "at være overrasket",
+          "example": "Ich bin überrascht. – Jeg er overrasket."
+        }
+      ],
+      "tip": [
+        "Lær det sammen: sich verwundern über + akkusativ (ikke med dativ).",
+        "I hverdagen siger du enklere sich wundern; sich verwundern er den mere formelle udgave."
+      ],
+      "important": [
+        "Forveksl ikke med verwunden (såre) — det er et andet ord med en anden betydning."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich verwundern"
+            "sich verwundern",
+            "über",
+            "verwundert",
+            "verwunderte",
+            "sich wundern",
+            "verwundere"
           ],
-          "red": [
-            "über + ko?"
+          "purple": [
+            "undre sig"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "verwundere"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "undrer mig"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verwunderte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "undrede sig"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verwundern"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "undrer os"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verwundert"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "undrede sig"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich wundern"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "undre sig"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "staunen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "forbavses, beundre"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "überrascht sein"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "være overrasket"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {}
+        ]
       }
     }
   },
@@ -13536,7 +24500,7 @@ const B2_WORDS = [
   },
   {
     "de": "sich verzögern",
-    "lv": "Forsinkelse • Udsætte",
+    "lv": "At blive forsinket • At trække ud",
     "level": "B2"
   },
   {
@@ -13546,7 +24510,7 @@ const B2_WORDS = [
   },
   {
     "de": "verzweifeln",
-    "lv": "Gået ud",
+    "lv": "At fortvivle",
     "level": "B2"
   },
   {
@@ -13558,14 +24522,14 @@ const B2_WORDS = [
     "de": "Viehbestand",
     "de_article": "der",
     "de_plural": "die Viehbestände",
-    "lv": "[samlet] antal husdyr",
+    "lv": "Husdyrbestand • Kvægbestand",
     "level": "B2"
   },
   {
     "de": "Viehzucht",
     "de_article": "die",
     "de_plural": "die Viehzuchten",
-    "lv": "Dyrehold",
+    "lv": "Kvægavl • Husdyrbrug",
     "level": "B2"
   },
   {
@@ -13588,7 +24552,7 @@ const B2_WORDS = [
     "de": "Volkszählung",
     "de_article": "die",
     "de_plural": "die Volkszählungen",
-    "lv": "Officiel folketælling",
+    "lv": "Folketælling",
     "level": "B2"
   },
   {
@@ -13598,7 +24562,7 @@ const B2_WORDS = [
   },
   {
     "de": "vollenden",
-    "lv": "Slutte",
+    "lv": "At fuldende • At fuldføre",
     "level": "B2"
   },
   {
@@ -13615,7 +24579,7 @@ const B2_WORDS = [
   },
   {
     "de": "vollzählig",
-    "lv": "Eksisterende fuldt ud",
+    "lv": "Fuldtallig",
     "level": "B2"
   },
   {
@@ -13627,14 +24591,14 @@ const B2_WORDS = [
     "de": "Volumen",
     "de_article": "das",
     "de_plural": "die Volumen",
-    "lv": "Lydstyrke • Lydstyrke",
+    "lv": "Volumen • Rumfang",
     "level": "B2"
   },
   {
     "de": "Vorahnung",
     "de_article": "die",
     "de_plural": "die Vorahnungen",
-    "lv": "Forudsigelse",
+    "lv": "Forudanelse • Anelse",
     "level": "B2"
   },
   {
@@ -13644,29 +24608,29 @@ const B2_WORDS = [
   },
   {
     "de": "voraussehen",
-    "lv": "At forudsige",
+    "lv": "At forudse",
     "level": "B2"
   },
   {
     "de": "voraussetzen",
-    "lv": "Kræv • Vær en forudsætning",
+    "lv": "At forudsætte • At kræve",
     "level": "B2"
   },
   {
     "de": "Vorbehalt",
     "de_article": "der",
     "de_plural": "die Vorbehalte",
-    "lv": "Tilstand",
+    "lv": "Forbehold",
     "level": "B2"
   },
   {
     "de": "vorbestraft",
-    "lv": "Med en tidligere dom",
+    "lv": "Tidligere straffet",
     "level": "B2"
   },
   {
     "de": "vorbeugen",
-    "lv": "For at forebygge",
+    "lv": "At forebygge",
     "level": "B2"
   },
   {
@@ -13678,7 +24642,7 @@ const B2_WORDS = [
   },
   {
     "de": "vorder",
-    "lv": "Front",
+    "lv": "Forreste",
     "level": "B2"
   },
   {
@@ -13690,7 +24654,7 @@ const B2_WORDS = [
   },
   {
     "de": "vordringen",
-    "lv": "Bryde frem",
+    "lv": "At trænge frem • At rykke frem",
     "level": "B2"
   },
   {
@@ -13702,31 +24666,31 @@ const B2_WORDS = [
   },
   {
     "de": "vorfristig",
-    "lv": "For tidligt • Forud for tidsplanen",
+    "lv": "Førtidig • Før tiden",
     "level": "B2"
   },
   {
     "de": "Vorkehrung",
     "de_article": "die",
     "de_plural": "die Vorkehrungen",
-    "lv": "Beskyttende foranstaltninger",
+    "lv": "Forholdsregel • Foranstaltning",
     "level": "B2"
   },
   {
     "de": "Vorliebe",
     "de_article": "die",
     "de_plural": "die Vorlieben",
-    "lv": "Især kunne lide",
+    "lv": "Forkærlighed • Præference",
     "level": "B2"
   },
   {
     "de": "vornehmen",
-    "lv": "Foretage • Påtage sig",
+    "lv": "At foretage • At sætte sig for",
     "level": "B2"
   },
   {
     "de": "vornherein",
-    "lv": "Allerede i begyndelsen",
+    "lv": "På forhånd • Fra begyndelsen",
     "level": "B2"
   },
   {
@@ -13766,17 +24730,17 @@ const B2_WORDS = [
     "de": "Vorstrafe",
     "de_article": "die",
     "de_plural": "die Vorstrafen",
-    "lv": "Tidligere straffeattest",
+    "lv": "Tidligere straf • Tidligere dom",
     "level": "B2"
   },
   {
     "de": "vortragen",
-    "lv": "Fremlægge • Recitere",
+    "lv": "At fremføre • At holde foredrag • At recitere",
     "level": "B2"
   },
   {
     "de": "vortrefflich",
-    "lv": "Fremragende • Fremragende",
+    "lv": "Fremragende • Fortræffelig",
     "level": "B2"
   },
   {
@@ -13790,14 +24754,14 @@ const B2_WORDS = [
     "de": "Vorwahl",
     "de_article": "die",
     "de_plural": "die Vorwahlen",
-    "lv": "Koden for en anden by eller et andet land i en telefonsamtale",
+    "lv": "Områdenummer • Landekode",
     "level": "B2"
   },
   {
     "de": "Vorwand",
     "de_article": "der",
     "de_plural": "die Vorwände",
-    "lv": "Påskud • Påskud",
+    "lv": "Påskud • Undskyldning",
     "level": "B2"
   },
   {
@@ -13816,19 +24780,19 @@ const B2_WORDS = [
   },
   {
     "de": "vorzeitig",
-    "lv": "For tidligt • For tidligt",
+    "lv": "For tidlig • Førtidig",
     "level": "B2"
   },
   {
     "de": "vorzüglich",
-    "lv": "Fremragende • Fremragende",
+    "lv": "Fremragende • Udsøgt",
     "level": "B2"
   },
   {
     "de": "Wacholder",
     "de_article": "der",
     "de_plural": "die Wacholder",
-    "lv": "Gran • Enebær",
+    "lv": "Ene • Enebærbusk",
     "level": "B2"
   },
   {
@@ -13842,7 +24806,7 @@ const B2_WORDS = [
     "de": "Wade",
     "de_article": "die",
     "de_plural": "die Waden",
-    "lv": "Rogn",
+    "lv": "Læg",
     "level": "B2"
   },
   {
@@ -13856,7 +24820,7 @@ const B2_WORDS = [
     "de": "Wahlfach",
     "de_article": "das",
     "de_plural": "die Wahlfächer",
-    "lv": "Valgfrit fag på skole eller universitet",
+    "lv": "Valgfag",
     "level": "B2"
   },
   {
@@ -13877,17 +24841,17 @@ const B2_WORDS = [
     "de": "Wählscheibe",
     "de_article": "die",
     "de_plural": "die Wählscheiben",
-    "lv": "Telefon opkaldstastatur",
+    "lv": "Nummerskive",
     "level": "B2"
   },
   {
     "de": "wahren",
-    "lv": "Spare",
+    "lv": "At bevare • At værne om",
     "level": "B2"
   },
   {
     "de": "wahrnehmen",
-    "lv": "Opfatte",
+    "lv": "At opfatte • At sanse • At varetage",
     "level": "B2"
   },
   {
@@ -13901,7 +24865,7 @@ const B2_WORDS = [
     "de": "Wall",
     "de_article": "der",
     "de_plural": "die Wälle",
-    "lv": "Dæmning • Dæmning",
+    "lv": "Vold • Dæmning",
     "level": "B2"
   },
   {
@@ -13911,28 +24875,28 @@ const B2_WORDS = [
   },
   {
     "de": "wanken",
-    "lv": "Grillning • Adj. at svinge",
+    "lv": "At vakle • At svaje",
     "level": "B2"
   },
   {
     "de": "Warenausgabe",
     "de_article": "die",
     "de_plural": "die Warenausgaben",
-    "lv": "Købskontrol og udstedelse",
+    "lv": "Vareudlevering",
     "level": "B2"
   },
   {
     "de": "Warnanlage",
     "de_article": "die",
     "de_plural": "die Warnanlagen",
-    "lv": "Signaleringsenhed",
+    "lv": "Alarmanlæg • Advarselssystem",
     "level": "B2"
   },
   {
     "de": "Wartung",
     "de_article": "die",
     "de_plural": "die Wartungen",
-    "lv": "Opretholdelse",
+    "lv": "Vedligeholdelse • Service",
     "level": "B2"
   },
   {
@@ -13953,12 +24917,12 @@ const B2_WORDS = [
     "de": "Wasserwerfer",
     "de_article": "der",
     "de_plural": "die Wasserwerfer",
-    "lv": "Politibil - vandkanon",
+    "lv": "Vandkanon",
     "level": "B2"
   },
   {
     "de": "weben",
-    "lv": "Væve",
+    "lv": "At væve",
     "level": "B2"
   },
   {
@@ -13972,7 +24936,7 @@ const B2_WORDS = [
     "de": "Wegstrecke",
     "de_article": "die",
     "de_plural": "die Wegstrecken",
-    "lv": "Vejstrækning • Stk",
+    "lv": "Vejstrækning • Strækning",
     "level": "B2"
   },
   {
@@ -13986,7 +24950,7 @@ const B2_WORDS = [
     "de": "Wehe",
     "de_article": "die",
     "de_plural": "die Wehen",
-    "lv": "Klit • Kupena",
+    "lv": "Snedrive • Ve",
     "level": "B2"
   },
   {
@@ -13999,14 +24963,14 @@ const B2_WORDS = [
   {
     "de": "Wehrpflicht",
     "de_article": "die",
-    "lv": "Krigslov",
+    "lv": "Værnepligt",
     "level": "B2"
   },
   {
     "de": "Weib",
     "de_article": "das",
     "de_plural": "die Weiber",
-    "lv": "Jf. ikke en kvinde",
+    "lv": "Kvindfolk • Kvindemenneske",
     "level": "B2"
   },
   {
@@ -14019,7 +24983,7 @@ const B2_WORDS = [
     "de": "Weise",
     "de_article": "der",
     "de_plural": "die Weisen",
-    "lv": "Den kloge mand",
+    "lv": "Vismand",
     "level": "B2"
   },
   {
@@ -14038,14 +25002,14 @@ const B2_WORDS = [
     "de": "Weltlage",
     "de_article": "die",
     "de_plural": "die Weltlagen",
-    "lv": "Den internationale situation",
+    "lv": "Verdenssituation",
     "level": "B2"
   },
   {
     "de": "Weltmacht",
     "de_article": "die",
     "de_plural": "die Weltmächte",
-    "lv": "A great power",
+    "lv": "Verdensmagt • Stormagt",
     "level": "B2"
   },
   {
@@ -14058,7 +25022,7 @@ const B2_WORDS = [
     "de": "Wendepunkt",
     "de_article": "der",
     "de_plural": "die Wendepunkte",
-    "lv": "Et vendepunkt",
+    "lv": "Vendepunkt",
     "level": "B2"
   },
   {
@@ -14072,7 +25036,7 @@ const B2_WORDS = [
     "de": "Werkbank",
     "de_article": "die",
     "de_plural": "die Werkbänke",
-    "lv": "Værktøjsmaskine",
+    "lv": "Arbejdsbænk • Høvlebænk",
     "level": "B2"
   },
   {
@@ -14093,21 +25057,21 @@ const B2_WORDS = [
     "de": "Werktätige",
     "de_article": "der",
     "de_plural": "die Werktätigen",
-    "lv": "Den arbejdende",
+    "lv": "Arbejder",
     "level": "B2"
   },
   {
     "de": "Werkteil",
     "de_article": "der",
     "de_plural": "die Werkteile",
-    "lv": "Detalje",
+    "lv": "Del • Komponent",
     "level": "B2"
   },
   {
     "de": "Wertpapier",
     "de_article": "das",
     "de_plural": "die Wertpapiere",
-    "lv": "Sikkerhed",
+    "lv": "Værdipapir",
     "level": "B2"
   },
   {
@@ -14115,32 +25079,195 @@ const B2_WORDS = [
     "de_article": "das",
     "de_plural": "die Wesen",
     "lv": "Væsen • Natur",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-wesen",
+      "layout": "standardStudy",
+      "translation": "Væsen • Natur",
+      "explanation": [
+        "Hovedbetydning: das Wesen er et opslagsord med flere betydninger. For det første et levende væsen eller en skabning (ein fremdes Wesen), for det andet det inderste i noget, dets natur eller essens (das Wesen der Sache), for det tredje et menneskes karakter eller natur (ein freundliches Wesen).",
+        "Det er et navneord i intetkøn: das Wesen. Flertal er die Wesen (uden omlyd). I betydningen essens har ordet normalt intet flertal.",
+        "Hyppigt brugt udtryk: im Wesentlichen — i det væsentlige, hovedsagelig."
+      ],
+      "examples": [
+        {
+          "de": "Im Märchen kommt ein fremdes Wesen vor.",
+          "lv": "I eventyret optræder et fremmed væsen."
+        },
+        {
+          "de": "Der Mensch ist ein soziales Wesen.",
+          "lv": "Mennesket er et socialt væsen."
+        },
+        {
+          "de": "Das Wesen der Demokratie ist die Teilnahme aller.",
+          "lv": "Demokratiets kerne er alles deltagelse."
+        },
+        {
+          "de": "Sie hat ein freundliches Wesen.",
+          "lv": "Hun har et venligt væsen."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "der Charakter",
+          "meaning": "karakter",
+          "example": "Er hat einen starken Charakter. – Han har en stærk karakter."
+        },
+        {
+          "word": "das Lebewesen",
+          "meaning": "levende væsen",
+          "example": "Pflanzen sind Lebewesen. – Planter er levende væsener."
+        },
+        {
+          "word": "der Kern",
+          "meaning": "kerne",
+          "example": "Das ist der Kern des Problems. – Det er kernen i problemet."
+        }
+      ],
+      "tip": [
+        "Husk tre betydninger: væsen (noget levende), essens (det, der ligger til grund for noget), karakter (hvordan et menneske er).",
+        "Sammenhængen afgør betydningen: med tillægsord som freundlich eller ruhig drejer det sig normalt om karakter."
+      ],
+      "important": [
+        "Forveksl ikke med das Wesentliche (det væsentlige, det vigtigste) — det er et andet navneord."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "das Wesen",
+            "die Wesen",
+            "Wesen",
+            "im Wesentlichen",
+            "das Wesen der Sache",
+            "ein fremdes Wesen"
+          ],
+          "purple": [
+            "væsen",
+            "natur"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Wesen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "væsen"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Wesen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "væsen"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Wesen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kerne"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Wesen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "væsen"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "der Charakter"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "karakter"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "das Lebewesen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "levende væsen"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Kern"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "kerne"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "Wettlauf",
     "de_article": "der",
     "de_plural": "die Wettläufe",
-    "lv": "Sp. hasteløb • Rush",
+    "lv": "Kapløb",
     "level": "B2"
   },
   {
     "de": "Wettrennen",
     "de_article": "das",
     "de_plural": "die Wettrennen",
-    "lv": "Race • Race",
+    "lv": "Kapløb • Væddeløb",
     "level": "B2"
   },
   {
     "de": "Wettrudern",
     "de_article": "das",
-    "lv": "Roløb",
+    "lv": "Kaproning",
     "level": "B2"
   },
   {
     "de": "Wettschwimmen",
     "de_article": "das",
-    "lv": "Svømmeløb",
+    "lv": "Kapsvømning",
     "level": "B2"
   },
   {
@@ -14150,7 +25277,7 @@ const B2_WORDS = [
   },
   {
     "de": "wider",
-    "lv": "Vs",
+    "lv": "Mod • Imod",
     "level": "B2"
   },
   {
@@ -14160,7 +25287,7 @@ const B2_WORDS = [
   },
   {
     "de": "widerlich",
-    "lv": "Ulækkert • Afskyeligt",
+    "lv": "Ulækker • Afskyelig",
     "level": "B2"
   },
   {
@@ -14172,25 +25299,166 @@ const B2_WORDS = [
   },
   {
     "de": "sich widersetzen",
-    "lv": "Modstå • Ansigt",
+    "lv": "At modsætte sig • At gøre modstand",
     "level": "B2",
     "study": {
       "id": "b2-sich-widersetzen",
-      "layout": "minimalStudy",
-      "translation": "Modstå • Ansigt",
-      "rektion": "+ kam?",
-      "explanation": "Sich widersetzen kræver + for hvem?.",
-      "forms": "+ kam?",
-      "formsLabel": "Management:",
+      "layout": "standardStudy",
+      "translation": "At modsætte sig • At gøre modstand",
+      "explanation": [
+        "Hovedbetydning: sich widersetzen betyder at modsætte sig nogen eller noget, at gøre modstand — ikke at bøje sig for en ordre, et pres, en beslutning eller en person.",
+        "Udsagnsordet er tilbagevisende og styrer dativ: sich jemandem/etwas widersetzen. Former: widersetzt sich, widersetzte sich, hat sich widersetzt. Forstavelsen wider- er uadskillelig."
+      ],
+      "examples": [
+        {
+          "de": "Er widersetzte sich dem Befehl.",
+          "lv": "Han modsatte sig ordren."
+        },
+        {
+          "de": "Die Bürger widersetzen sich der Entscheidung der Regierung.",
+          "lv": "Borgerne modsætter sig regeringens beslutning."
+        },
+        {
+          "de": "Sie hat sich dem Druck nicht widersetzt.",
+          "lv": "Hun gjorde ikke modstand mod presset."
+        },
+        {
+          "de": "Niemand wagte es, sich dem Chef zu widersetzen.",
+          "lv": "Ingen turde sætte sig op imod chefen."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Widerstand leisten",
+          "meaning": "at yde modstand",
+          "example": "Das Volk leistete Widerstand. – Folket ydede modstand."
+        },
+        {
+          "word": "sich wehren gegen",
+          "meaning": "at forsvare sig mod",
+          "example": "Er wehrt sich gegen die Vorwürfe. – Han forsvarer sig mod beskyldningerne."
+        },
+        {
+          "word": "ablehnen",
+          "meaning": "at afvise",
+          "example": "Sie lehnt das Angebot ab. – Hun afviser tilbuddet."
+        }
+      ],
+      "tip": [
+        "Efter sich widersetzen følger altid dativ: dem Befehl, dem Druck, dem Chef.",
+        "Passer til formel eller skriftlig stil; i talesprog siger man oftere sich wehren."
+      ],
+      "important": [
+        "Brug ikke forholdsord: det hedder ikke sich gegen etwas widersetzen, men sich etwas widersetzen (dativ) — selv om man på dansk siger modsætte sig noget."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich widersetzen"
+            "sich widersetzen",
+            "widersetzt",
+            "widersetzte",
+            "dativ"
           ],
-          "red": [
-            "Sich"
+          "purple": [
+            "modsætte sig",
+            "gøre modstand"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "widersetzte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "modsatte sig"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "widersetzen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "modsætter sig"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "widersetzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "gjorde ikke modstand"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "widersetzen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "sætte sig op imod"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "Widerstand leisten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "yde modstand"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich wehren gegen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "forsvare sig mod"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "ablehnen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "afvise"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {}
+        ]
       }
     }
   },
@@ -14204,35 +25472,35 @@ const B2_WORDS = [
   {
     "de": "Wiederaufbau",
     "de_article": "der",
-    "lv": "Restaurering • Rekonstruktion",
+    "lv": "Genopbygning • Rekonstruktion",
     "level": "B2"
   },
   {
     "de": "wiedergeben",
-    "lv": "Gengive • Reproducere",
+    "lv": "At gengive • At reproducere",
     "level": "B2"
   },
   {
     "de": "wildern",
-    "lv": "Deltag i krybskytteri",
+    "lv": "At drive krybskytteri",
     "level": "B2"
   },
   {
     "de": "Willkür",
     "de_article": "die",
-    "lv": "Vilkårlig",
+    "lv": "Vilkårlighed",
     "level": "B2"
   },
   {
     "de": "Windbeutel",
     "de_article": "der",
     "de_plural": "die Windbeutel",
-    "lv": "Vindkage",
+    "lv": "Vandbakkelse",
     "level": "B2"
   },
   {
     "de": "winden",
-    "lv": "Vride • Sno",
+    "lv": "At sno • At vikle",
     "level": "B2"
   },
   {
@@ -14249,31 +25517,31 @@ const B2_WORDS = [
   },
   {
     "de": "zollfrei",
-    "lv": "Fri for told",
+    "lv": "Toldfri",
     "level": "B2"
   },
   {
     "de": "zollpflichtig",
-    "lv": "Med forbehold for told",
+    "lv": "Toldpligtig",
     "level": "B2"
   },
   {
     "de": "Zucht",
     "de_article": "die",
     "de_plural": "die Zuchten",
-    "lv": "Opdragelse • Dyrkning",
+    "lv": "Avl • Opdræt • Disciplin",
     "level": "B2"
   },
   {
     "de": "Zuckerrübe",
     "de_article": "die",
     "de_plural": "die Zuckerrüben",
-    "lv": "Sukkerroer",
+    "lv": "Sukkerroe",
     "level": "B2"
   },
   {
     "de": "zuerkennen",
-    "lv": "At bestille • At tildele",
+    "lv": "At tilkende • At tildele",
     "level": "B2"
   },
   {
@@ -14291,59 +25559,59 @@ const B2_WORDS = [
   },
   {
     "de": "zureden",
-    "lv": "Overtale",
+    "lv": "At overtale",
     "level": "B2"
   },
   {
     "de": "zürnen",
-    "lv": "At blive vred",
+    "lv": "At være vred",
     "level": "B2"
   },
   {
     "de": "zurückprallen",
-    "lv": "Bliv tilbage",
+    "lv": "At prelle af • At springe tilbage",
     "level": "B2"
   },
   {
     "de": "zurückweisen",
-    "lv": "Afvise",
+    "lv": "At afvise",
     "level": "B2"
   },
   {
     "de": "Zusage",
     "de_article": "die",
     "de_plural": "die Zusagen",
-    "lv": "Behageligt svar",
+    "lv": "Tilsagn • Bekræftelse",
     "level": "B2"
   },
   {
     "de": "zusammenfügen",
-    "lv": "For at forbinde",
+    "lv": "At sammenføje • At forbinde",
     "level": "B2"
   },
   {
     "de": "zusammenlegen",
-    "lv": "Put • Sæt [sammen]",
+    "lv": "At lægge sammen • At folde sammen • At slå sammen",
     "level": "B2"
   },
   {
     "de": "zuschneiden",
-    "lv": "At skære",
+    "lv": "At skære til",
     "level": "B2"
   },
   {
     "de": "zuströmen",
-    "lv": "Strømmer ind",
+    "lv": "At strømme til",
     "level": "B2"
   },
   {
     "de": "zuteilen",
-    "lv": "Tildel • Tildel",
+    "lv": "At tildele • At fordele",
     "level": "B2"
   },
   {
     "de": "zutrauen",
-    "lv": "Forvent • Tænk dig",
+    "lv": "At tiltro • At tro i stand til",
     "level": "B2"
   },
   {
@@ -14357,76 +25625,97 @@ const B2_WORDS = [
     "de": "Zuwachs",
     "de_article": "der",
     "de_plural": "die Zuwächse",
-    "lv": "Øge",
+    "lv": "Tilvækst • Forøgelse",
     "level": "B2"
   },
   {
     "de": "zuweisen",
-    "lv": "Tildel • Tildel",
+    "lv": "At tildele • At anvise",
     "level": "B2",
     "study": {
       "id": "b2-zuweisen",
       "layout": "standardStudy",
-      "translation": "Tildel • Tildel",
-      "explanation": "Hovedidé: zuweisen betyder officielt at tildele eller tildele - en opgave, rolle, ressource eller penge til en bestemt person eller afdeling. Delelig: weise ... zu.",
+      "translation": "At tildele • At anvise",
+      "explanation": [
+        "Hovedbetydning: zuweisen betyder officielt at tildele eller anvise nogen noget (en plads, en opgave, en bolig, midler) eller at placere en person et bestemt sted.",
+        "Adskilleligt udsagnsord: er weist zu, wies zu, hat zugewiesen. Normalt med dativ (hvem?) og akkusativ (hvad?): jemandem etwas zuweisen. Passiv bruges også ofte: Mir wurde ein Platz zugewiesen.",
+        "Ordet er formelt og bruges i sproget hos myndigheder, skoler og virksomheder."
+      ],
       "examples": [
         {
-          "de": "Der Chef weist ihm eine neue Aufgabe zu.",
-          "lv": "Chefen giver ham en ny opgave."
+          "de": "Die Schule weist den Kindern Klassenräume zu.",
+          "lv": "Skolen tildeler børnene klasselokaler."
         },
         {
-          "de": "Die Mittel wurden dem Projekt zugewiesen.",
-          "lv": "Der blev afsat midler til projektet."
+          "de": "Der Chef wies mir eine neue Aufgabe zu.",
+          "lv": "Chefen gav mig en ny opgave."
         },
         {
-          "de": "Sie wurde einer anderen Abteilung zugewiesen.",
-          "lv": "Han blev tilknyttet en anden afdeling."
+          "de": "Dem Studenten wurde ein Platz im Wohnheim zugewiesen.",
+          "lv": "Den studerende fik anvist en plads på kollegiet."
+        },
+        {
+          "de": "Die Stadt hat der Familie eine Wohnung zugewiesen.",
+          "lv": "Kommunen har anvist familien en bolig."
         }
       ],
       "comparison": [
         {
-          "word": "zuweisen",
-          "meaning": "Tildel • Tildel",
-          "example": "Er weist die Aufgabe zu. = Han tildeler opgaven."
+          "word": "zuteilen",
+          "meaning": "at tildele, fordele",
+          "example": "Man teilt uns die Arbeit zu. – Man fordeler arbejdet til os."
+        },
+        {
+          "word": "zuordnen",
+          "meaning": "at tilordne, sætte sammen med",
+          "example": "Ordne die Wörter den Bildern zu. – Sæt ordene sammen med billederne."
         },
         {
           "word": "geben",
-          "meaning": "At give",
-          "example": "Er gibt mir die Arbeit. = Han giver mig arbejdet."
-        },
-        {
-          "word": "verteilen",
-          "meaning": "At dele",
-          "example": "Er verteilt die Aufgaben. = Han fordeler opgaverne."
+          "meaning": "at give",
+          "example": "Ich gebe dir das Buch. – Jeg giver dig bogen."
         }
       ],
-      "tip": {
-        "leftBlocks": [
-          {
-            "text": "Zuweisen lægger vægt på formelle opgaver - i arbejde, administration, projekter."
-          }
-        ]
-      },
-      "important": {
-        "text": "Zuweisen = at tildele eller tildele officielt. Perfekt: tildelt. Delelig: weise ... zu."
-      },
+      "tip": [
+        "Husk adskillelsen: Er weist mir etwas zu, men i ledsætning …, weil er mir etwas zuweist.",
+        "Dativ er modtageren: wem? — dem Studenten, der Familie."
+      ],
+      "important": [
+        "Førnutids tillægsform er zugewiesen — ge- indsættes mellem zu og weisen."
+      ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "zuweisen",
+            "weist zu"
+          ],
           "purple": [
-            "Hovedidé"
+            "tildele",
+            "anvise"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "weist",
-                "zu"
+                "weist"
               ]
             },
             "lv": {
               "purple": [
-                "Chefen"
+                "tildeler"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "wies"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "gav"
               ]
             }
           },
@@ -14438,7 +25727,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Der"
+                "fik anvist"
               ]
             }
           },
@@ -14450,10 +25739,55 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Han"
+                "anvist"
               ]
             }
           }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "zuteilen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "tildele, fordele"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "zuordnen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "tilordne, sætte sammen med"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "geben"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "give"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {}
         ]
       }
     }
@@ -14462,7 +25796,7 @@ const B2_WORDS = [
     "de": "Zuwendung",
     "de_article": "die",
     "de_plural": "die Zuwendungen",
-    "lv": "Godtgørelse",
+    "lv": "Tilskud • Ydelse • Omsorg",
     "level": "B2"
   },
   {
@@ -14472,59 +25806,69 @@ const B2_WORDS = [
     "study": {
       "id": "b2-zuwider",
       "layout": "standardStudy",
-      "translation": "Mod • Modsat • Kan ikke lide",
-      "explanation": "Hovedidé: zuwider er et ord med flere funktioner. Som præposition + dativ betyder det \"mod, imod\": mir zuwider. Som en del af udtrykket jemandem zuwider sein/laufen betyder \"at ikke lide nogen, at blive ubehagelig\". Ikke at forveksle med bredere (imod).",
+      "translation": "Imod • Modbydelig",
+      "explanation": [
+        "Hovedbetydning: zuwider er et ord, der bruges med dativ på to måder. Med sein — etwas ist mir zuwider — betyder det, at noget er modbydeligt for mig, at jeg ikke kan fordrage det. Efter et navneord — dem Gesetz zuwider — betyder det imod, i strid med noget.",
+        "I den første betydning er zuwider et tillægsord, og det bøjes ikke: Das ist mir zuwider. I den anden betydning står det normalt efter et navneord i dativ: dem Gesetz zuwider handeln. Her bruges ofte de adskillelige udsagnsord zuwiderhandeln (handle imod) og zuwiderlaufen (stride imod): Das läuft dem Plan zuwider.",
+        "Det er et formelt, lidt skriftsprogligt ord."
+      ],
       "examples": [
         {
-          "de": "Er handelte mir zuwider.",
-          "lv": "Han handlede mod min vilje."
+          "de": "Dieser Geruch ist mir zuwider.",
+          "lv": "Den lugt kan jeg ikke fordrage."
         },
         {
-          "de": "Sein Benehmen ist mir zuwider.",
-          "lv": "Jeg kan ikke lide hans opførsel."
+          "de": "Lügen ist ihm zuwider.",
+          "lv": "Løgn er ham modbydelig."
         },
         {
-          "de": "Das läuft mir zuwider.",
-          "lv": "Jeg kan ikke lide det / det gør mig ked af det."
+          "de": "Das läuft dem Gesetz zuwider.",
+          "lv": "Det strider imod loven."
+        },
+        {
+          "de": "Er handelte den Regeln zuwider.",
+          "lv": "Han handlede imod reglerne."
         }
       ],
       "comparison": [
         {
-          "word": "zuwider (+ Dat.)",
-          "meaning": "Mod • Modsat",
-          "example": "mir zuwider = pret manu gribu"
+          "word": "entgegen",
+          "meaning": "imod, i modsætning til",
+          "example": "Entgegen der Vorhersage regnete es nicht. – I modsætning til vejrudsigten regnede det ikke."
         },
         {
-          "word": "jemandem zuwider sein",
-          "meaning": "Nogen vil ikke lide det",
-          "example": "Es ist mir zuwider. = Det er mig imod."
+          "word": "widerlich",
+          "meaning": "modbydelig, ækel",
+          "example": "Der Geruch ist widerlich. – Lugten er modbydelig."
         },
         {
-          "word": "wider",
-          "meaning": "Imod (præposition)",
-          "example": "wider den Willen = pret gribu"
-        },
-        {
-          "word": "widersprechen",
-          "meaning": "Modsætte dig • Uenig",
-          "example": "Ich widerspreche. = Es iebilstu."
+          "word": "gegen",
+          "meaning": "mod, imod",
+          "example": "Das ist gegen die Regeln. – Det er imod reglerne."
         }
       ],
-      "tip": {
-        "leftBlocks": [
-          {
-            "text": "Grundbetydning: mod / modsat (mir zuwider). Idiomatisk: jemandem zuwider sein/laufen = at ikke lide nogen."
-          }
-        ]
-      },
-      "important": {
-        "text": "Zuwider + dativ = imod, modsat. zuwider sein = ikke lide. Det er ikke det samme som bredere."
-      },
+      "tip": [
+        "Lær én vending: Das ist mir zuwider. — Det er mig imod / det kan jeg ikke fordrage.",
+        "Efter zuwider følger altid dativ: mir, ihm, dem Gesetz."
+      ],
+      "important": [
+        "Efter zuwider bruges ikke akkusativ: ikke mich zuwider, men mir zuwider.",
+        "I betydningen imod står zuwider normalt efter navneordet: dem Gesetz zuwider; entgegen står normalt foran: entgegen dem Gesetz."
+      ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "zuwider",
+            "zuwiderhandeln",
+            "zuwiderlaufen",
+            "läuft",
+            "mir zuwider",
+            "dem Gesetz zuwider",
+            "Das ist mir zuwider"
+          ],
           "purple": [
-            "Hovedidé",
-            "Hovedidé"
+            "modbydeligt",
+            "imod"
           ]
         },
         "examples": [
@@ -14536,7 +25880,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Han"
+                "kan jeg ikke fordrage"
               ]
             }
           },
@@ -14548,7 +25892,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Jeg"
+                "modbydelig"
               ]
             }
           },
@@ -14560,22 +25904,80 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Jeg"
+                "strider imod"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "zuwider"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "imod"
               ]
             }
           }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "entgegen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "imod, i modsætning til"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "widerlich"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "modbydelig, ækel"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "gegen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "mod, imod"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
         ]
       }
     }
   },
   {
     "de": "zwanglos",
-    "lv": "Gratis • Utvunget",
+    "lv": "Utvungen • Uformel",
     "level": "B2"
   },
   {
     "de": "zweckmäßig",
-    "lv": "Hensigtsmæssigt",
+    "lv": "Hensigtsmæssig",
     "level": "B2"
   },
   {
@@ -14600,7 +26002,7 @@ const B2_WORDS = [
     "de": "Zwischenfall",
     "de_article": "der",
     "de_plural": "die Zwischenfälle",
-    "lv": "En hændelse",
+    "lv": "Hændelse • Episode",
     "level": "B2"
   },
   {
@@ -14612,232 +26014,336 @@ const B2_WORDS = [
   },
   {
     "de": "wechseln",
-    "lv": "Udskift • Udskift",
+    "lv": "At skifte • At veksle",
     "level": "B2",
     "study": {
       "id": "b2-wechseln",
       "layout": "standardStudy",
-      "translation": "Udskift • Udskift",
+      "translation": "At skifte • At veksle",
       "explanation": [
-        "Hovedidé: At bytte eller bytte noget til noget andet - penge, tøj, arbejde, skole, fag.",
-        "Wechseln betyder i bund og grund: at erstatte med en anden.",
-        "Ofte karakteriseret ved: bytte / bytte.",
-        "Wechseln bruges, når du skifter eller skifter noget til noget andet - penge, tøj, arbejde, skole eller fag."
+        "Hovedbetydning: wechseln betyder at skifte én ting ud med en anden eller at veksle penge: Geld wechseln, die Schule wechseln, den Reifen wechseln. Uden genstandsled kan det også betyde at skifte, ændre sig (Das Wetter wechselt).",
+        "Former: wechselt, wechselte, hat gewechselt. Som overgangsudsagnsord styrer det akkusativ: etwas wechseln. Ved skift i retning bruges forholdsordene in/auf/zu: Er wechselt zu einem anderen Verein.",
+        "Navneordet er der Wechsel (skift). Hvis man gør noget anderledes (i stedet for at erstatte det), bruger man oftere ändern eller sich verändern."
       ],
       "examples": [
         {
-          "de": "Ich wechsle die Schule.",
-          "lv": "Jeg skifter skole."
+          "de": "Ich muss noch Geld wechseln.",
+          "lv": "Jeg skal lige veksle penge."
         },
         {
-          "de": "Ich muss Geld wechseln.",
-          "lv": "Jeg skal veksle penge."
+          "de": "Sie wechselt die Schule im Sommer.",
+          "lv": "Hun skifter skole til sommer."
         },
         {
-          "de": "Wir wechseln das Thema.",
-          "lv": "Vi skifter emne."
+          "de": "Können Sie mir zwanzig Euro wechseln?",
+          "lv": "Kan De veksle tyve euro for mig?"
         },
         {
-          "de": "Ich wechsle die Schule.",
-          "lv": "Jeg skifter skole."
+          "de": "Das Wetter wechselt oft.",
+          "lv": "Vejret skifter ofte."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "ändern",
+          "meaning": "at ændre (gøre anderledes)",
+          "example": "Ich ändere meinen Plan. – Jeg ændrer min plan."
+        },
+        {
+          "word": "tauschen",
+          "meaning": "at bytte",
+          "example": "Wir tauschen die Plätze. – Vi bytter pladser."
+        },
+        {
+          "word": "sich verändern",
+          "meaning": "at forandre sig",
+          "example": "Die Stadt hat sich verändert. – Byen har forandret sig."
         }
       ],
       "tip": [
-        "At bytte eller bytte noget til noget andet - penge, tøj, arbejde, skole, fag.",
-        "Brug wechseln, når konteksten passer til denne betydning."
+        "Når man veksler penge, siger man Geld wechseln; småpenge beder man om med Können Sie mir das wechseln?",
+        "Når du skifter noget ud med noget nyt, er det wechseln: den Reifen, die Wohnung, den Beruf."
       ],
       "important": [
-        "wechseln = at bytte eller bytte til en anden (Geld, Schule, Thema).",
-        "Penge, skole, arbejde, emne: wechseln.",
-        "At bytte eller bytte noget til noget andet - penge, tøj, arbejde, skole, fag."
+        "Forveksl ikke med ändern: wechseln betyder at erstatte med noget andet, ändern at gøre anderledes."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "wechseln",
+            "wechselt",
+            "wechselte",
+            "gewechselt",
+            "der Wechsel",
+            "Geld wechseln"
+          ],
           "purple": [
-            "Hovedidé"
+            "skifte",
+            "veksle"
           ]
         },
         "examples": [
           {
             "de": {
-              "green": [
-                "wechsle"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "green": [
-                "wechseln",
+              "blue": [
                 "wechseln"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "veksle"
+              ]
+            }
           },
           {
             "de": {
-              "green": [
-                "wechseln",
+              "blue": [
+                "wechselt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "skifter"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
                 "wechseln"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "veksle"
+              ]
+            }
           },
           {
             "de": {
-              "green": [
-                "wechsle"
+              "blue": [
+                "wechselt"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "skifter"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "ändern"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ændre"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "tauschen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "bytte"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich verändern"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "forandre sig"
+              ]
+            }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "bytte",
-              "bytte"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "green": [
-              "wechseln"
-            ]
-          }
+          {}
         ]
       }
     }
   },
   {
     "de": "bieten",
-    "lv": "Tilbyde • Give",
+    "lv": "At tilbyde • At byde",
     "level": "B2",
     "study": {
       "id": "b2-bieten",
       "layout": "standardStudy",
-      "translation": "Tilbyde • Give",
+      "translation": "At tilbyde • At byde",
       "explanation": [
-        "Hovedidé: Tilbyd muligheder, kurser, tjenester eller fordele – som et sted eller et program tilbyder.",
-        "Bieten betyder hovedsageligt: at give mulighed / fordel.",
-        "Beskriver ofte: hvad stedet/uddannelsen giver.",
-        "Bieten betyder hovedsageligt: at give en mulighed.",
-        "Ofte karakteriseret ved: mere formel.",
-        "Bieten beskriver ofte, hvad et sted, et program eller en tjeneste giver (Die Schule bietet viele Kurse)."
+        "Hovedbetydning: bieten betyder at tilbyde, at byde (en pris, en mulighed, hjælp) eller at give, yde (en udsigt, sikkerhed, underholdning). Grundleddet kan både være en person og et sted eller en institution.",
+        "Stærkt udsagnsord: er bietet, bot, hat geboten. Normalt med akkusativ og med personen i dativ: jemandem etwas bieten. Når man byder en pris på en auktion eller ved et køb: Wie viel bietest du?",
+        "Med den adskillelige forstavelse betyder anbieten et konkret tilbud til nogen; det enkle bieten beskriver ofte, hvad et sted eller en ting kan give."
       ],
       "examples": [
         {
-          "de": "Die Schule bietet viele Kurse.",
-          "lv": "Skolen tilbyder mange kurser."
+          "de": "Das Hotel bietet einen schönen Blick auf das Meer.",
+          "lv": "Hotellet byder på en smuk udsigt over havet."
         },
         {
-          "de": "Darf ich Ihnen etwas anbieten?",
-          "lv": "Kan jeg tilbyde dig noget"
+          "de": "Wie viel bietest du für das Auto?",
+          "lv": "Hvor meget byder du for bilen?"
         },
         {
-          "de": "Die Schule bietet viele Kurse.",
-          "lv": "Skolen tilbyder mange kurser."
+          "de": "Die Stadt bietet jungen Leuten viele Möglichkeiten.",
+          "lv": "Byen giver unge mennesker mange muligheder."
         },
         {
-          "de": "Die App bietet Sicherheit.",
-          "lv": "Appen giver sikkerhed."
+          "de": "Das Museum bietet jeden Sonntag eine Führung.",
+          "lv": "Museet tilbyder en rundvisning hver søndag."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "anbieten",
+          "meaning": "at tilbyde nogen",
+          "example": "Darf ich Ihnen Tee anbieten? – Må jeg byde Dem på te?"
         },
         {
-          "de": "bieten",
-          "lv": "Hvad noget giver • Anbieten"
+          "word": "gewähren",
+          "meaning": "at bevilge, yde",
+          "example": "Die Bank gewährt einen Kredit. – Banken bevilger et lån."
+        },
+        {
+          "word": "geben",
+          "meaning": "at give",
+          "example": "Ich gebe dir mein Wort. – Jeg giver dig mit ord."
         }
       ],
       "tip": [
-        "Tilbyd muligheder, kurser, tjenester eller fordele – som stedet eller programmet giver.",
-        "Brug bieten, når konteksten passer til denne betydning."
+        "Når du beskriver, hvad et sted eller en tjeneste byder på, bruger du bieten: Das Hotel bietet WLAN.",
+        "Når du tilbyder en bestemt ting til en person, bruger man oftere anbieten."
       ],
       "important": [
-        "bieten: Die Schule bietet Kurse. (udeleligt)",
-        "Ko vieta/programma sniedz: bieten."
+        "Datid er bot (ikke bietete): er bot, hat geboten."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "bieten",
+            "bietet",
+            "bietest",
+            "bot",
+            "geboten",
+            "anbieten"
+          ],
           "purple": [
-            "Hovedidé",
-            "Hovedidé"
+            "tilbyde",
+            "byde"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "biete"
+                "bietet"
               ]
             },
             "lv": {
               "purple": [
-                "Skolen"
+                "byder på"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "bieten",
-                "bieten"
+                "bietest"
               ]
             },
             "lv": {
               "purple": [
-                "Kan"
+                "byder"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "biete"
+                "bietet"
               ]
             },
             "lv": {
               "purple": [
-                "Skolen"
+                "giver"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "biete"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "bieten",
-                "bieten"
+                "bietet"
               ]
             },
             "lv": {
               "purple": [
-                "Hvad"
+                "tilbyder"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "anbieten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "tilbyde nogen"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "gewähren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "bevilge, yde"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "geben"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "give"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "Tilbyd",
-              "Tilbyd"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "blue": [
-              "bieten"
-            ]
-          }
+          {}
         ]
       }
     }
@@ -14850,168 +26356,240 @@ const B2_WORDS = [
       "id": "b2-anbieten",
       "layout": "standardStudy",
       "translation": "At tilbyde",
-      "explanation": "Hovedidé: anbieten betyder aktivt at tilbyde nogen en tjeneste, en drink, et job eller en service. Opdelbart verbum: ich biete an, er bietet an. Lægger vægt på initiativ fra tilbudsgivers side.",
+      "explanation": [
+        "Hovedbetydning: anbieten betyder at tilbyde nogen noget: en drik, hjælp, et arbejde, en vare eller en tjeneste. Personen bestemmer selv, om tilbuddet skal tages imod.",
+        "Adskilleligt udsagnsord: er bietet an, bot an, hat angeboten. Konstruktion: jemandem etwas anbieten. Med navnemåde: Er bot an, mich zu fahren. Tilbagevisende betyder sich anbieten at tilbyde sig, at være oplagt: Das bietet sich an.",
+        "Navneordet er das Angebot (tilbud)."
+      ],
       "examples": [
         {
-          "de": "Ich biete dir meine Hilfe an.",
-          "lv": "Jeg tilbyder dig min hjælp."
+          "de": "Darf ich Ihnen einen Kaffee anbieten?",
+          "lv": "Må jeg byde Dem på en kop kaffe?"
         },
         {
-          "de": "Darf ich Ihnen etwas anbieten?",
-          "lv": "Kan jeg tilbyde dig noget"
+          "de": "Die Firma bietet neue Produkte an.",
+          "lv": "Firmaet tilbyder nye produkter."
         },
         {
-          "de": "Das Unternehmen bietet neue Stellen an.",
-          "lv": "Virksomheden tilbyder nye job."
+          "de": "Er bot mir an, mich nach Hause zu fahren.",
+          "lv": "Han tilbød at køre mig hjem."
+        },
+        {
+          "de": "Sie hat uns ihre Hilfe angeboten.",
+          "lv": "Hun har tilbudt os sin hjælp."
         }
       ],
       "comparison": [
         {
-          "word": "anbieten",
-          "meaning": "Tilbud (aktiv)",
-          "example": "Ich biete Hilfe an. = Jeg tilbyder hjælp."
-        },
-        {
           "word": "bieten",
-          "meaning": "Tilbyd • Giv",
-          "example": "Er bietet viel Geld. = Han tilbyder mange penge."
+          "meaning": "at tilbyde, byde på",
+          "example": "Das Hotel bietet viel. – Hotellet byder på meget."
         },
         {
           "word": "vorschlagen",
-          "meaning": "Foreslå",
-          "example": "Ich schlage vor. = Es ierosinu."
+          "meaning": "at foreslå",
+          "example": "Ich schlage vor, dass wir gehen. – Jeg foreslår, at vi går."
+        },
+        {
+          "word": "empfehlen",
+          "meaning": "at anbefale",
+          "example": "Ich empfehle dir das Buch. – Jeg anbefaler dig bogen."
         }
       ],
-      "tip": {
-        "leftBlocks": [
-          {
-            "text": "Anbieten understreger, at nogen aktivt tilbyder noget til en bestemt person: Ich biete dir ... an."
-          }
-        ]
-      },
-      "important": {
-        "text": "Anbieten = at tilbyde aktivt. Delelig: roer ... en. Perfekt: angeboten."
-      },
+      "tip": [
+        "Husk adskillelsen: Er bietet mir Hilfe an, men i ledsætning …, weil er mir Hilfe anbietet.",
+        "Når du svarer på et tilbud, kan du sige: Danke, gern. eller Nein, danke."
+      ],
+      "important": [
+        "Anbieten er et tilbud til en bestemt person; Angebot kan også være en vare, der fås i butikken (et tilbud)."
+      ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "anbieten",
+            "bietet an",
+            "bot an",
+            "angeboten",
+            "bietet",
+            "bot",
+            "Angebot"
+          ],
           "purple": [
-            "Hovedidé"
+            "tilbyde"
           ]
         },
         "examples": [
           {
             "de": {
-              "green": [
-                "biete",
-                "an"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Jeg"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
+              "blue": [
                 "anbieten"
               ]
             },
             "lv": {
               "purple": [
-                "Kan"
+                "byde Dem på"
               ]
             }
           },
           {
             "de": {
-              "green": [
-                "bietet",
-                "an"
+              "blue": [
+                "bietet"
               ]
             },
             "lv": {
               "purple": [
-                "Virksomheden"
+                "tilbyder"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bot"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tilbød"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "angeboten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tilbudt"
               ]
             }
           }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "bieten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "tilbyde, byde på"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "vorschlagen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "foreslå"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "empfehlen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "anbefale"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {}
         ]
       }
     }
   },
   {
     "de": "fordern",
-    "lv": "Kræv • Kræv",
+    "lv": "At kræve • At forlange",
     "level": "B2",
     "study": {
       "id": "b2-fordern",
       "layout": "standardStudy",
-      "translation": "Kræv • Kræv",
+      "translation": "At kræve • At forlange",
       "explanation": [
-        "Hovedidé: At bede om penge, rettigheder, ændringer eller forpligtelser – et aktivt krav.",
-        "Fordern betyder hovedsageligt: at kræve / forlange.",
-        "Ofte karakteriseret ved: aktiv efterspørgsel.",
-        "Fordern betyder hovedsageligt: at kræve en standard.",
-        "Ofte karakteriseret ved: formel.",
-        "Fordern bruges, når nogen beder om penge, rettigheder, vekslepenge eller en forpligtelse (Sie fordern mehr Geld)."
+        "Hovedbetydning: fordern betyder at kræve eller forlange noget bestemt, som man har ret til eller mener at have krav på. Det er normalt stærkere end bitten (bede).",
+        "Regelmæssigt udsagnsord: er fordert, forderte, hat gefordert. Hvad man kræver — akkusativ, af hvem — von + dativ: etwas von jemandem fordern. Der kan også følge en dass-sætning. I overført betydning kan fordern betyde at kræve ofre: Der Unfall forderte zwei Todesopfer.",
+        "Pas på med et ord, der ligner: fordern (kræve) og fördern (fremme) adskiller sig ved omlyden."
       ],
       "examples": [
         {
-          "de": "Sie fordert mehr Geld.",
-          "lv": "Hun beder om flere penge."
+          "de": "Die Arbeiter fordern höhere Löhne.",
+          "lv": "Arbejderne kræver højere lønninger."
         },
         {
-          "de": "Wir fordern mehr Transparenz.",
-          "lv": "Vi kræver mere gennemsigtighed."
+          "de": "Der Lehrer fordert von uns mehr Disziplin.",
+          "lv": "Læreren forlanger mere disciplin af os."
         },
         {
-          "de": "Sie fordert mehr Geld.",
-          "lv": "Hun beder om flere penge."
+          "de": "Der Unfall forderte zwei Todesopfer.",
+          "lv": "Ulykken kostede to mennesker livet."
         },
         {
-          "de": "Wir fordern mehr Sicherheit.",
-          "lv": "Vi kræver mere sikkerhed."
+          "de": "Sie forderte, dass er sich entschuldigt.",
+          "lv": "Hun forlangte, at han undskyldte."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "fördern",
+          "meaning": "at fremme",
+          "example": "Sport fördert die Gesundheit. – Sport fremmer sundheden."
         },
         {
-          "de": "fordern",
-          "lv": "At forlange • Förden"
+          "word": "verlangen",
+          "meaning": "at forlange, bede om",
+          "example": "Er verlangt die Rechnung. – Han beder om regningen."
+        },
+        {
+          "word": "bitten",
+          "meaning": "at bede",
+          "example": "Ich bitte dich um Hilfe. – Jeg beder dig om hjælp."
         }
       ],
       "tip": [
-        "Kræv penge, rettigheder, ændringer eller forpligtelser - et aktivt krav.",
-        "Brug fordern, når konteksten passer til denne betydning."
+        "Når du kræver noget af nogen: etwas von jemandem fordern (von + dativ).",
+        "Skeln mellem parret fordern — fördern: o uden omlyd er kræve, ö er fremme."
       ],
       "important": [
-        "fordern = efterspørge / kræve (uden ö).",
-        "Krav, anmodning: fordern (uden ö).",
-        "Kræv penge, rettigheder, ændringer eller forpligtelser - et aktivt krav."
+        "Den, man kræver noget af, angives normalt med von: etwas von jemandem fordern."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "fordern",
+            "fordert",
+            "forderte",
+            "gefordert",
+            "fördern",
+            "von"
+          ],
           "purple": [
-            "Hovedidé",
-            "Hovedidé"
+            "kræve",
+            "forlange"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "forde"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Hun"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "fordern",
                 "fordern"
               ]
             },
@@ -15024,209 +26602,588 @@ const B2_WORDS = [
           {
             "de": {
               "blue": [
-                "forde"
+                "fordert"
               ]
             },
             "lv": {
               "purple": [
-                "Hun"
+                "forlanger"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "fordern",
-                "fordern"
+                "forderte"
               ]
             },
             "lv": {
               "purple": [
-                "kræver"
+                "kostede"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "fordern",
-                "fordern"
+                "forderte"
               ]
             },
             "lv": {
               "purple": [
-                "forlange"
+                "forlangte"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "fördern"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "fremme"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "verlangen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "forlange, bede om"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "bitten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "bede"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "Kræv",
-              "Kræv"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "blue": [
-              "fordern"
-            ]
-          }
+          {}
         ]
       }
     }
   },
   {
     "de": "fördern",
-    "lv": "Fremme • Support",
+    "lv": "At fremme • At støtte",
     "level": "B2",
     "study": {
       "id": "b2-foerdern",
       "layout": "standardStudy",
-      "translation": "Fremme • Support",
+      "translation": "At fremme • At støtte",
       "explanation": [
-        "Hovedidé: Fremme udvikling, støtte en person, et projekt eller en proces.",
-        "Fordern betyder hovedsagelig: fremme udvikling.",
-        "Ofte karakteriseret ved: støtte / fremskridt.",
-        "Fordern betyder hovedsagelig: at udvinde mineraler.",
-        "Ofte kendetegnet ved: i industrien.",
-        "Fördern betyder hovedsageligt: at udvikle talent.",
-        "Ofte præget af: i uddannelse.",
-        "Fordern betyder at fremme udvikling, at støtte en person eller et projekt (Sport fördern die Gesundheit)."
+        "Hovedidé: fördern betyder at fremme og støtte – at hjælpe noget med at udvikle sig: et talent, sundheden, økonomien, et projekt. Ofte er der også tale om økonomisk støtte.",
+        "Regelmæssigt udsagnsord: er fördert, förderte, hat gefördert. Altid med akkusativ: etwas/jemanden fördern. Navneordet er die Förderung (fremme, støtte).",
+        "Pas på: fördern (med ö) er et andet ord end fordern (at kræve) – fordern svarer til dansk fordre."
       ],
       "examples": [
         {
-          "de": "Sport fördert die Gesundheit.",
-          "lv": "Sport fremmer sundhed."
+          "de": "Der Staat fördert erneuerbare Energien.",
+          "lv": "Staten støtter vedvarende energi."
         },
         {
           "de": "Sport fördert die Gesundheit.",
-          "lv": "Sport fremmer sundhed."
+          "lv": "Sport fremmer sundheden."
         },
         {
-          "de": "In der Region wird Öl gefördert.",
-          "lv": "Der udvindes olie i regionen."
+          "de": "Die Stiftung fördert junge Künstler.",
+          "lv": "Fonden støtter unge kunstnere."
         },
         {
-          "de": "Die Schule fördert begabte Kinder.",
-          "lv": "Skolen støtter dygtige børn."
+          "de": "Gute Lehrer fördern die Talente der Kinder.",
+          "lv": "Gode lærere fremmer børnenes talenter."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "fordern",
+          "meaning": "at kræve",
+          "example": "Die Arbeiter fordern mehr Geld. – Arbejderne kræver flere penge."
+        },
+        {
+          "word": "unterstützen",
+          "meaning": "at støtte",
+          "example": "Ich unterstütze dich. – Jeg støtter dig."
+        },
+        {
+          "word": "helfen",
+          "meaning": "at hjælpe",
+          "example": "Er hilft mir. – Han hjælper mig."
         }
       ],
       "tip": [
-        "Fremme udvikling, støtte en person, et projekt eller en proces.",
-        "Brug fordern, når konteksten passer til denne betydning."
+        "Når noget hjælper noget andet med at udvikle sig, bruger man fördern: das Wachstum, die Gesundheit, die Kinder.",
+        "Navneordet die Förderung: staatliche Förderung – statsstøtte."
       ],
       "important": [
-        "förden = fremme / støtte (med ö).",
-        "Forfremmelse, støtte: förden (med ö).",
-        "Fremme udvikling, støtte en person, et projekt eller en proces."
+        "Fördern styrer akkusativ, ikke dativ (i modsætning til helfen): Er fördert mich."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "fördern",
+            "fördert",
+            "förderte",
+            "gefördert",
+            "Förderung",
+            "fordern"
+          ],
           "purple": [
-            "Hovedidé",
-            "Hovedidé"
+            "fremme",
+            "støtte"
           ]
         },
         "examples": [
           {
             "de": {
-              "green": [
-                "förde"
+              "blue": [
+                "fördert"
               ]
             },
             "lv": {
               "purple": [
-                "Sport"
+                "støtter"
               ]
             }
           },
           {
             "de": {
-              "green": [
-                "förde"
+              "blue": [
+                "fördert"
               ]
             },
             "lv": {
               "purple": [
-                "Sport"
+                "fremmer"
               ]
             }
           },
           {
             "de": {
-              "green": [
-                "gefördert"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "green": [
-                "förde"
+              "blue": [
+                "fördert"
               ]
             },
             "lv": {
               "purple": [
-                "Skolen"
+                "støtter"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fördern"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "fremmer"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "fordern"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "at kræve"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "unterstützen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "at støtte"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "helfen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "at hjælpe"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "Fremme"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "green": [
-              "förden"
-            ]
-          }
+          {}
         ]
       }
     }
   },
   {
     "de": "sich verlaufen",
-    "lv": "Gå tabt",
+    "lv": "At fare vild",
     "level": "B2",
     "study": {
       "id": "b2-sich-verlaufen",
-      "layout": "minimalStudy",
-      "translation": "Gå tabt",
-      "explanation": "Sich verlaufen betyder at fare vild. Den har ingen fast præposition. Ikke at forveksle med verlaufen.",
+      "layout": "standardStudy",
+      "translation": "At fare vild",
+      "explanation": [
+        "Hovedidé: sich verlaufen betyder at fare vild til fods – at komme væk fra den rigtige vej og ikke vide, hvor man er.",
+        "Tilbagevisende udsagnsord: ich verlaufe mich, er verläuft sich, verlief sich, hat sich verlaufen. I førnutid bruges haben. Ordet bruges som regel med en stedsangivelse: im Wald, in der Stadt, in den Bergen.",
+        "Farer man vild i et køretøj, siger man sich verfahren; sich verirren er mere generelt og kan betyde at forvilde sig."
+      ],
+      "examples": [
+        {
+          "de": "Wir haben uns im Wald verlaufen.",
+          "lv": "Vi for vild i skoven."
+        },
+        {
+          "de": "Ich verlaufe mich in dieser Stadt ständig.",
+          "lv": "Jeg farer hele tiden vild i denne by."
+        },
+        {
+          "de": "Der Tourist hat sich in der Altstadt verlaufen.",
+          "lv": "Turisten for vild i den gamle bydel."
+        },
+        {
+          "de": "Pass auf, dass du dich nicht verläufst!",
+          "lv": "Pas på, at du ikke farer vild!"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich verfahren",
+          "meaning": "at fare vild (i bil)",
+          "example": "Wir haben uns verfahren. – Vi er faret vild i bilen."
+        },
+        {
+          "word": "sich verirren",
+          "meaning": "at forvilde sig",
+          "example": "Das Kind hat sich verirrt. – Barnet har forvildet sig."
+        },
+        {
+          "word": "verlaufen",
+          "meaning": "at forløbe",
+          "example": "Die Prüfung verlief gut. – Eksamen forløb godt."
+        }
+      ],
+      "tip": [
+        "Til fods – sich verlaufen; i bil – sich verfahren.",
+        "Når du er faret vild, kan du sige: Ich habe mich verlaufen. Können Sie mir helfen?"
+      ],
+      "important": [
+        "Forveksl det ikke med verlaufen uden sich: Die Grenze verläuft entlang des Flusses har en helt anden betydning."
+      ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "sich verlaufen",
+            "verlaufe",
+            "verläuft",
+            "verlief",
+            "verlaufen",
+            "verfahren"
+          ],
           "purple": [
-            "Sich"
+            "fare vild"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "verlaufen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "for vild"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verlaufe"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "farer hele tiden vild"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verlaufen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "for vild"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verläufst"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "farer vild"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich verfahren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "i bil"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich verirren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "forvilde sig"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "verlaufen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "forløbe"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {}
+        ]
       }
     }
   },
   {
     "de": "verlaufen",
-    "lv": "For at fortsætte • At rulle",
+    "lv": "At forløbe • At gå",
     "level": "B2",
     "study": {
       "id": "b2-verlaufen",
-      "layout": "minimalStudy",
-      "translation": "For at fortsætte • At rulle",
-      "explanation": "Verlaufen (bez sich) betyder at løbe eller rulle. Ikke synonymt med sich verlaufen (fare vild).",
+      "layout": "standardStudy",
+      "translation": "At forløbe • At gå",
+      "explanation": [
+        "Hovedidé: verlaufen (uden sich) betyder at forløbe, at gå på en bestemt måde: Die Prüfung ist gut verlaufen. Det beskriver, hvordan noget udviklede sig eller endte over tid.",
+        "Former: es verläuft, es verlief, es ist verlaufen – i førnutid bruges sein. Om rum kan verlaufen betyde at strække sig, at gå (om en vej, en grænse, en linje): Die Grenze verläuft entlang des Flusses.",
+        "Med sich er det et andet ord: sich verlaufen – at fare vild."
+      ],
+      "examples": [
+        {
+          "de": "Die Prüfung ist gut verlaufen.",
+          "lv": "Eksamen gik godt."
+        },
+        {
+          "de": "Die Operation verlief ohne Probleme.",
+          "lv": "Operationen forløb uden problemer."
+        },
+        {
+          "de": "Die Grenze verläuft entlang des Flusses.",
+          "lv": "Grænsen går langs floden."
+        },
+        {
+          "de": "Wie ist die Besprechung verlaufen?",
+          "lv": "Hvordan forløb mødet?"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich verlaufen",
+          "meaning": "at fare vild",
+          "example": "Ich habe mich verlaufen. – Jeg er faret vild."
+        },
+        {
+          "word": "stattfinden",
+          "meaning": "at finde sted",
+          "example": "Die Feier findet morgen statt. – Festen finder sted i morgen."
+        },
+        {
+          "word": "ablaufen",
+          "meaning": "at forløbe, at udløbe",
+          "example": "Der Tag ist ruhig abgelaufen. – Dagen forløb roligt."
+        }
+      ],
+      "tip": [
+        "Som regel tilføjer man, hvordan noget forløb: gut, schlecht, ruhig, ohne Probleme verlaufen.",
+        "I medicin beskriver det ofte et sygdomsforløb: Die Krankheit verläuft leicht."
+      ],
+      "important": [
+        "I førnutid bruges sein: ist verlaufen (ikke hat verlaufen)."
+      ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "verlaufen",
+            "verläuft",
+            "verlief",
+            "ist verlaufen",
+            "sich verlaufen"
+          ],
           "purple": [
-            "Verlaufen",
-            "Verlaufen"
+            "forløbe",
+            "at gå",
+            "strække sig"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "verlaufen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "gik"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verlief"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "forløb"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verläuft"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "går"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verlaufen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "forløb"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich verlaufen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "at fare vild"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "stattfinden"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "at finde sted"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "ablaufen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "at forløbe"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {}
+        ]
       }
     }
   }

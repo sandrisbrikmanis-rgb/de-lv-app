@@ -8,19 +8,19 @@ const C2_WORDS = [
   },
   {
     "de": "konterkarieren",
-    "lv": "At forstyrre",
+    "lv": "At modarbejde • At forpurre",
     "level": "C2"
   },
   {
     "de": "Stichhaltigkeit",
     "de_article": "die",
     "de_plural": "die Stichhaltigkeiten",
-    "lv": "Rimelighed",
+    "lv": "Holdbarhed • Gyldighed",
     "level": "C2"
   },
   {
     "de": "unmissverständlich",
-    "lv": "Umiskendelig",
+    "lv": "Utvetydig • Umisforståelig",
     "level": "C2"
   },
   {
@@ -32,7 +32,7 @@ const C2_WORDS = [
   },
   {
     "de": "veranschaulichen",
-    "lv": "At vise beviseligt",
+    "lv": "At anskueliggøre • At illustrere",
     "level": "C2"
   },
   {
@@ -45,14 +45,14 @@ const C2_WORDS = [
   {
     "de": "Sorgfaltspflicht",
     "de_article": "die",
-    "lv": "Omsorgspligt",
+    "lv": "Agtsomhedspligt • Omhuspligt",
     "level": "C2"
   },
   {
     "de": "Anfangsbuchstabe",
     "de_article": "der",
     "de_plural": "die Anfangsbuchstaben",
-    "lv": "Indledende brev",
+    "lv": "Forbogstav",
     "level": "C2"
   },
   {
@@ -80,7 +80,7 @@ const C2_WORDS = [
     "de": "Teilnehmerausweis",
     "de_article": "der",
     "de_plural": "die Teilnehmerausweise",
-    "lv": "Medlemskort",
+    "lv": "Deltagerkort • Deltagerbevis",
     "level": "C2"
   },
   {
@@ -90,7 +90,7 @@ const C2_WORDS = [
   },
   {
     "de": "beaufsichtigen",
-    "lv": "Overvåge",
+    "lv": "At overvåge • At føre tilsyn med",
     "level": "C2"
   },
   {
@@ -104,12 +104,12 @@ const C2_WORDS = [
     "de": "Behandlungsraum",
     "de_article": "der",
     "de_plural": "die Behandlungsräume",
-    "lv": "Lægens kontor",
+    "lv": "Behandlingsrum • Konsultationsrum",
     "level": "C2"
   },
   {
     "de": "beispielsweise",
-    "lv": "F.eks",
+    "lv": "For eksempel",
     "level": "C2"
   },
   {
@@ -128,7 +128,7 @@ const C2_WORDS = [
     "de": "Benzingutschein",
     "de_article": "der",
     "de_plural": "die Benzingutscheine",
-    "lv": "Benzin kupon",
+    "lv": "Benzinkupon",
     "level": "C2"
   },
   {
@@ -161,14 +161,14 @@ const C2_WORDS = [
     "de": "Berufsausbildung",
     "de_article": "die",
     "de_plural": "die Berufsausbildungen",
-    "lv": "Professionel uddannelse",
+    "lv": "Erhvervsuddannelse",
     "level": "C2"
   },
   {
     "de": "Tintenstrahldrucker",
     "de_article": "der",
     "de_plural": "die Tintenstrahldrucker",
-    "lv": "Inkjet printer",
+    "lv": "Blækprinter",
     "level": "C2"
   },
   {
@@ -181,21 +181,146 @@ const C2_WORDS = [
       "id": "c2-gewichtseinheit",
       "layout": "standardStudy",
       "translation": "Vægtenhed",
-      "explanation": "Hovedidé: die Gewichtseinheit betyder vægtenhed. Det bruges, når man taler om kilogram, gram, tons og andre vægt-/masseenheder.",
+      "explanation": [
+        "Hovedidé: die Gewichtseinheit er en vægtenhed, som man bruger til at måle vægt: gram, kilogram, ton, pund.",
+        "Sammensat navneord i hunkøn: die Gewichtseinheit, flertal die Gewichtseinheiten. Det består af das Gewicht (vægt) og die Einheit (enhed) – ligesom dansk vægt + enhed.",
+        "Det sammensatte ord er teknisk og neutralt; i hverdagen bruger man de konkrete enheder (Kilogramm, Gramm, Pfund)."
+      ],
       "examples": [
         {
-          "de": "Kilogramm ist eine Gewichtseinheit.",
+          "de": "Das Kilogramm ist eine Gewichtseinheit.",
           "lv": "Kilogram er en vægtenhed."
         },
         {
-          "de": "Welche Gewichtseinheit soll ich benutzen?",
-          "lv": "Hvilken vægtenhed skal jeg bruge?"
+          "de": "Das Pfund ist eine alte Gewichtseinheit.",
+          "lv": "Pund er en gammel vægtenhed."
         },
         {
-          "de": "Gramm und Tonne sind Gewichtseinheiten.",
-          "lv": "Gram og ton er vægtenheder."
+          "de": "Welche Gewichtseinheit wird in Deutschland verwendet?",
+          "lv": "Hvilken vægtenhed bruger man i Tyskland?"
         }
-      ]
+      ],
+      "comparison": [
+        {
+          "word": "die Maßeinheit",
+          "meaning": "måleenhed",
+          "example": "Der Meter ist eine Maßeinheit. – Meter er en måleenhed."
+        },
+        {
+          "word": "die Längeneinheit",
+          "meaning": "længdeenhed",
+          "example": "Der Kilometer ist eine Längeneinheit. – Kilometer er en længdeenhed."
+        },
+        {
+          "word": "das Gewicht",
+          "meaning": "vægt",
+          "example": "Das Gewicht beträgt zwei Kilo. – Vægten er to kilo."
+        }
+      ],
+      "tip": [
+        "Et sammensat navneord får køn efter sidste led: die Einheit, altså die Gewichtseinheit.",
+        "På samme måde dannes: Längeneinheit, Zeiteinheit, Volumeneinheit."
+      ],
+      "important": [
+        "I hverdagen betegner Gewicht ofte masse, men i fysik er vægt og masse forskellige begreber."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "die Gewichtseinheit",
+            "die Gewichtseinheiten",
+            "Gewichtseinheit",
+            "das Gewicht",
+            "die Einheit"
+          ],
+          "purple": [
+            "vægtenhed"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Gewichtseinheit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vægtenhed"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Gewichtseinheit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vægtenhed"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Gewichtseinheit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vægtenhed"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "die Maßeinheit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "måleenhed"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Längeneinheit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "længdeenhed"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "das Gewicht"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "vægt"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {}
+        ]
+      }
     }
   },
   {
@@ -206,14 +331,14 @@ const C2_WORDS = [
   },
   {
     "de": "entgegenkommen",
-    "lv": "Kom over",
+    "lv": "At komme imod • At imødekomme",
     "level": "C2"
   },
   {
     "de": "Gebrauchtwagen",
     "de_article": "der",
     "de_plural": "die Gebrauchtwagen",
-    "lv": "Brugt bil",
+    "lv": "Brugt bil • Brugtvogn",
     "level": "C2"
   },
   {
@@ -248,7 +373,7 @@ const C2_WORDS = [
     "de": "Gepäckaufbewahrung",
     "de_article": "die",
     "de_plural": "die Gepäckaufbewahrungen",
-    "lv": "Opbevaring af bagage",
+    "lv": "Bagageopbevaring",
     "level": "C2"
   },
   {
@@ -317,21 +442,21 @@ const C2_WORDS = [
     "de": "Kostenerstattung",
     "de_article": "die",
     "de_plural": "die Kostenerstattungen",
-    "lv": "Godtgørelse af omkostninger",
+    "lv": "Refusion • Udgiftsgodtgørelse",
     "level": "C2"
   },
   {
     "de": "Kostensteigerung",
     "de_article": "die",
     "de_plural": "die Kostensteigerungen",
-    "lv": "Stigende omkostninger",
+    "lv": "Omkostningsstigning",
     "level": "C2"
   },
   {
     "de": "Krankenversicherung",
     "de_article": "die",
     "de_plural": "die Krankenversicherungen",
-    "lv": "Forsikring i tilfælde af sygdom",
+    "lv": "Sygeforsikring",
     "level": "C2"
   },
   {
@@ -345,7 +470,7 @@ const C2_WORDS = [
     "de": "Krankheitsüberträger",
     "de_article": "der",
     "de_plural": "die Krankheitsüberträger",
-    "lv": "Bærere af sygdom",
+    "lv": "Smittebærer",
     "level": "C2"
   },
   {
@@ -366,14 +491,14 @@ const C2_WORDS = [
     "de": "Lungenentzündung",
     "de_article": "die",
     "de_plural": "die Lungenentzündungen",
-    "lv": "Lungekræft",
+    "lv": "Lungebetændelse",
     "level": "C2"
   },
   {
     "de": "Nebelscheinwerfer",
     "de_article": "der",
     "de_plural": "die Nebelscheinwerfer",
-    "lv": "Tågelygte til biler",
+    "lv": "Tågelygte",
     "level": "C2"
   },
   {
@@ -408,14 +533,14 @@ const C2_WORDS = [
     "de": "Schlafwagenzimmer",
     "de_article": "das",
     "de_plural": "die Schlafwagenzimmer",
-    "lv": "Soveværelse",
+    "lv": "Sovevognskupé",
     "level": "C2"
   },
   {
     "de": "Schlittschuhkufe",
     "de_article": "die",
     "de_plural": "die Schlittschuhkufen",
-    "lv": "Slæde hældning",
+    "lv": "Skøjteskinne",
     "level": "C2"
   },
   {
@@ -427,12 +552,12 @@ const C2_WORDS = [
   },
   {
     "de": "selbstverständlich",
-    "lv": "Selvforklarende",
+    "lv": "Selvfølgelig • Selvindlysende",
     "level": "C2"
   },
   {
     "de": "sicherheitshalber",
-    "lv": "For sikkerheden",
+    "lv": "For sikkerheds skyld",
     "level": "C2"
   },
   {
@@ -460,7 +585,7 @@ const C2_WORDS = [
     "de": "Straßenüberführung",
     "de_article": "die",
     "de_plural": "die Straßenüberführungen",
-    "lv": "Vejoverkørsel",
+    "lv": "Vejoverføring • Vejbro",
     "level": "C2"
   },
   {
@@ -489,12 +614,12 @@ const C2_WORDS = [
   },
   {
     "de": "verschlechtern",
-    "lv": "Værre",
+    "lv": "At forværre",
     "level": "C2"
   },
   {
     "de": "sich verschlechtern",
-    "lv": "Få det værre",
+    "lv": "At forværres • At blive værre",
     "level": "C2"
   },
   {
@@ -515,21 +640,21 @@ const C2_WORDS = [
     "de": "Windschutzscheibe",
     "de_article": "die",
     "de_plural": "die Windschutzscheiben",
-    "lv": "Bilens forrude",
+    "lv": "Forrude",
     "level": "C2"
   },
   {
     "de": "Sehenswürdigkeit",
     "de_article": "die",
     "de_plural": "die Sehenswürdigkeiten",
-    "lv": "Et fremtrædende sted",
+    "lv": "Seværdighed",
     "level": "C2"
   },
   {
     "de": "Abenteuergeschichte",
     "de_article": "die",
     "de_plural": "die Abenteuergeschichten",
-    "lv": "Historien om en affære",
+    "lv": "Eventyrhistorie",
     "level": "C2"
   },
   {
@@ -578,7 +703,7 @@ const C2_WORDS = [
     "de": "Ausbildungsbeihilfe",
     "de_article": "die",
     "de_plural": "die Ausbildungsbeihilfen",
-    "lv": "Undervisningsgodtgørelse",
+    "lv": "Uddannelsesstøtte",
     "level": "C2"
   },
   {
@@ -675,14 +800,14 @@ const C2_WORDS = [
     "de": "Sittlichkeitsdelikt",
     "de_article": "das",
     "de_plural": "die Sittlichkeitsdelikte",
-    "lv": "Overtrædelse af moralske standarder",
+    "lv": "Sædelighedsforbrydelse",
     "level": "C2"
   },
   {
     "de": "Rauschgiftdezernat",
     "de_article": "das",
     "de_plural": "die Rauschgiftdezernate",
-    "lv": "Narkotikaafdelingen",
+    "lv": "Narkotikaafdeling",
     "level": "C2"
   },
   {
@@ -696,7 +821,7 @@ const C2_WORDS = [
     "de": "Bereitschaftsdienst",
     "de_article": "der",
     "de_plural": "die Bereitschaftsdienste",
-    "lv": "Operationel service",
+    "lv": "Vagttjeneste • Beredskabstjeneste",
     "level": "C2"
   },
   {
@@ -708,7 +833,7 @@ const C2_WORDS = [
   },
   {
     "de": "durchkreuzen",
-    "lv": "Forpurre • Krydse",
+    "lv": "At forpurre • At overstrege",
     "level": "C2"
   },
   {
@@ -729,21 +854,21 @@ const C2_WORDS = [
     "de": "Durchschnittsleistung",
     "de_article": "die",
     "de_plural": "die Durchschnittsleistungen",
-    "lv": "Gennemsnitlig præstation • Gennemsnitlig præstation",
+    "lv": "Gennemsnitlig præstation",
     "level": "C2"
   },
   {
     "de": "Durchschnittsmensch",
     "de_article": "der",
     "de_plural": "die Durchschnittsmenschen",
-    "lv": "En gennemsnitlig person",
+    "lv": "Gennemsnitsmenneske",
     "level": "C2"
   },
   {
     "de": "Einfuhrbeschränkung",
     "de_article": "die",
     "de_plural": "die Einfuhrbeschränkungen",
-    "lv": "Importrestriktioner",
+    "lv": "Importrestriktion",
     "level": "C2"
   },
   {
@@ -757,19 +882,19 @@ const C2_WORDS = [
     "de": "Empfehlungsschreiben",
     "de_article": "das",
     "de_plural": "die Empfehlungsschreiben",
-    "lv": "Skriftlig anbefaling",
+    "lv": "Anbefalingsbrev",
     "level": "C2"
   },
   {
     "de": "Entbindungsanstalt",
     "de_article": "die",
     "de_plural": "die Entbindungsanstalten",
-    "lv": "Fødselshospital",
+    "lv": "Fødeklinik",
     "level": "C2"
   },
   {
     "de": "entgegengesetzt",
-    "lv": "Det modsatte",
+    "lv": "Modsat • Modsatrettet",
     "level": "C2"
   },
   {
@@ -783,7 +908,7 @@ const C2_WORDS = [
     "de": "Entwicklungsland",
     "de_article": "das",
     "de_plural": "die Entwicklungsländer",
-    "lv": "Udviklingens land",
+    "lv": "Udviklingsland",
     "level": "C2"
   },
   {
@@ -797,7 +922,7 @@ const C2_WORDS = [
     "de": "Regierungserklärung",
     "de_article": "die",
     "de_plural": "die Regierungserklärungen",
-    "lv": "Regeringens meddelelse",
+    "lv": "Regeringserklæring",
     "level": "C2"
   },
   {
@@ -824,14 +949,14 @@ const C2_WORDS = [
     "de": "Friedensbedingungen",
     "de_article": "die",
     "de_plural": "die Friedensbedingungen",
-    "lv": "Fredsforhold",
+    "lv": "Fredsbetingelser",
     "level": "C2"
   },
   {
     "de": "Friedensverhandlungen",
     "de_article": "die",
     "de_plural": "die Friedensverhandlungen",
-    "lv": "Fredssamtaler",
+    "lv": "Fredsforhandlinger",
     "level": "C2"
   },
   {
@@ -845,7 +970,7 @@ const C2_WORDS = [
     "de": "Führerpersönlichkeit",
     "de_article": "die",
     "de_plural": "die Führerpersönlichkeiten",
-    "lv": "Leder personlighed",
+    "lv": "Lederpersonlighed",
     "level": "C2"
   },
   {
@@ -859,7 +984,7 @@ const C2_WORDS = [
     "de": "Geburtenkontrolle",
     "de_article": "die",
     "de_plural": "die Geburtenkontrollen",
-    "lv": "Prævention",
+    "lv": "Fødselskontrol • Prævention",
     "level": "C2"
   },
   {
@@ -887,20 +1012,20 @@ const C2_WORDS = [
     "de": "Gefängnisinsasse",
     "de_article": "der",
     "de_plural": "die Gefängnisinsassen",
-    "lv": "En fange",
+    "lv": "Fange • Indsat",
     "level": "C2"
   },
   {
     "de": "Gefäßerweiterung",
     "de_article": "die",
     "de_plural": "die Gefäßerweiterungen",
-    "lv": "Udvidelse af blodkar",
+    "lv": "Karudvidelse",
     "level": "C2"
   },
   {
     "de": "Geistesgegenwart",
     "de_article": "die",
-    "lv": "Opfindsomhed",
+    "lv": "Åndsnærværelse",
     "level": "C2"
   },
   {
@@ -912,14 +1037,14 @@ const C2_WORDS = [
     "de": "Gelegenheitsarbeiter",
     "de_article": "der",
     "de_plural": "die Gelegenheitsarbeiter",
-    "lv": "Tilfældig arbejder",
+    "lv": "Løsarbejder",
     "level": "C2"
   },
   {
     "de": "Gemäldeausstellung",
     "de_article": "die",
     "de_plural": "die Gemäldeausstellungen",
-    "lv": "Udstilling af malerier",
+    "lv": "Maleriudstilling",
     "level": "C2"
   },
   {
@@ -933,7 +1058,7 @@ const C2_WORDS = [
     "de": "Dorfgemeinschaft",
     "de_article": "die",
     "de_plural": "die Dorfgemeinschaften",
-    "lv": "Landsbyboerne",
+    "lv": "Landsbysamfund • Landsbyboere",
     "level": "C2"
   },
   {
@@ -961,35 +1086,35 @@ const C2_WORDS = [
     "de": "Genossenschaft",
     "de_article": "die",
     "de_plural": "die Genossenschaften",
-    "lv": "Andelsforening • Artel",
+    "lv": "Andelsselskab • Kooperativ",
     "level": "C2"
   },
   {
     "de": "Gerechtigkeitsgefühl",
     "de_article": "das",
     "de_plural": "die Gerechtigkeitsgefühle",
-    "lv": "Retfærdighed • Retfærdighedssans",
+    "lv": "Retfærdighedssans",
     "level": "C2"
   },
   {
     "de": "Schiedsgericht",
     "de_article": "das",
     "de_plural": "die Schiedsgerichte",
-    "lv": "Voldgift",
+    "lv": "Voldgiftsret",
     "level": "C2"
   },
   {
     "de": "Gerichtsverfahren",
     "de_article": "das",
     "de_plural": "die Gerichtsverfahren",
-    "lv": "Retssager",
+    "lv": "Retssag",
     "level": "C2"
   },
   {
     "de": "Geschäftsordnung",
     "de_article": "die",
     "de_plural": "die Geschäftsordnungen",
-    "lv": "Forordning • Forordninger",
+    "lv": "Forretningsorden • Reglement",
     "level": "C2"
   },
   {
@@ -1023,26 +1148,26 @@ const C2_WORDS = [
     "de": "Geschwindigkeitsüberschreitung",
     "de_article": "die",
     "de_plural": "die Geschwindigkeitsüberschreitungen",
-    "lv": "Manglende overholdelse af den foreskrevne hastighed • Overtrædelse",
+    "lv": "Hastighedsoverskridelse",
     "level": "C2"
   },
   {
     "de": "gesellschaftlich",
-    "lv": "Offentlige • Selskaber",
+    "lv": "Samfundsmæssig • Social",
     "level": "C2"
   },
   {
     "de": "Gesellschaftsordnung",
     "de_article": "die",
     "de_plural": "die Gesellschaftsordnungen",
-    "lv": "Offentligt anlæg",
+    "lv": "Samfundsorden",
     "level": "C2"
   },
   {
     "de": "Gesetzesvorlage",
     "de_article": "die",
     "de_plural": "die Gesetzesvorlagen",
-    "lv": "Regning",
+    "lv": "Lovforslag",
     "level": "C2"
   },
   {
@@ -1056,7 +1181,7 @@ const C2_WORDS = [
     "de": "Gewerkschaftsbeitrag",
     "de_article": "der",
     "de_plural": "die Gewerkschaftsbeiträge",
-    "lv": "Fagforenings kontingent",
+    "lv": "Fagforeningskontingent",
     "level": "C2"
   },
   {
@@ -1070,28 +1195,28 @@ const C2_WORDS = [
     "de": "Gewinnauszahlung",
     "de_article": "die",
     "de_plural": "die Gewinnauszahlungen",
-    "lv": "Udbetaling af lotterigevinster",
+    "lv": "Gevinstudbetaling",
     "level": "C2"
   },
   {
     "de": "Gipfelkonferenz",
     "de_article": "die",
     "de_plural": "die Gipfelkonferenzen",
-    "lv": "Konference på højeste niveau",
+    "lv": "Topmøde",
     "level": "C2"
   },
   {
     "de": "Gleichberechtigung",
     "de_article": "die",
     "de_plural": "die Gleichberechtigungen",
-    "lv": "Lighed",
+    "lv": "Ligeberettigelse • Ligestilling",
     "level": "C2"
   },
   {
     "de": "Grundnahrungsmittel",
     "de_article": "das",
     "de_plural": "die Grundnahrungsmittel",
-    "lv": "Basisfødevarer",
+    "lv": "Basisfødevare",
     "level": "C2"
   },
   {
@@ -1105,14 +1230,14 @@ const C2_WORDS = [
     "de": "Hausgemeinschaft",
     "de_article": "die",
     "de_plural": "die Hausgemeinschaften",
-    "lv": "Familiemedlemmer • Beboere i huset",
+    "lv": "Husstand • Beboerfællesskab",
     "level": "C2"
   },
   {
     "de": "Haushaltsausschuss",
     "de_article": "der",
     "de_plural": "die Haushaltsausschüsse",
-    "lv": "Budgetkommission",
+    "lv": "Budgetudvalg • Finansudvalg",
     "level": "C2"
   },
   {
@@ -1133,7 +1258,7 @@ const C2_WORDS = [
     "de": "Kabinettsbeschluss",
     "de_article": "der",
     "de_plural": "die Kabinettsbeschlüsse",
-    "lv": "Kabinets beslutning",
+    "lv": "Regeringsbeslutning • Kabinetsbeslutning",
     "level": "C2"
   },
   {
@@ -1161,21 +1286,21 @@ const C2_WORDS = [
     "de": "Kriegsentschädigung",
     "de_article": "die",
     "de_plural": "die Kriegsentschädigungen",
-    "lv": "Erstatning for krigstab • Erstatning",
+    "lv": "Krigsskadeerstatning • Krigserstatning",
     "level": "C2"
   },
   {
     "de": "Lebenserhaltungstrieb",
     "de_article": "der",
     "de_plural": "die Lebenserhaltungstriebe",
-    "lv": "Livets drivkraft",
+    "lv": "Livsdrift • Overlevelsesinstinkt",
     "level": "C2"
   },
   {
     "de": "Lebenshaltungskosten",
     "de_article": "die",
     "de_plural": "die Lebenshaltungskosten",
-    "lv": "Forsørgelsesmidler • Omkostninger",
+    "lv": "Leveomkostninger",
     "level": "C2"
   },
   {
@@ -1217,12 +1342,12 @@ const C2_WORDS = [
     "de": "Meisterschaftsspiel",
     "de_article": "das",
     "de_plural": "die Meisterschaftsspiele",
-    "lv": "Mesterløb",
+    "lv": "Mesterskabskamp",
     "level": "C2"
   },
   {
     "de": "menschenfreundlich",
-    "lv": "Humane • Humane",
+    "lv": "Menneskevenlig • Human",
     "level": "C2"
   },
   {
@@ -1257,7 +1382,7 @@ const C2_WORDS = [
     "de": "Parlamentarier",
     "de_article": "der",
     "de_plural": "die Parlamentarier",
-    "lv": "Folketingsmedlem • Folketingsmedlem",
+    "lv": "Parlamentariker • Parlamentsmedlem",
     "level": "C2"
   },
   {
@@ -1275,7 +1400,7 @@ const C2_WORDS = [
   },
   {
     "de": "populärwissenschaftlich",
-    "lv": "Populær videnskab",
+    "lv": "Populærvidenskabelig",
     "level": "C2"
   },
   {
@@ -1287,14 +1412,14 @@ const C2_WORDS = [
   },
   {
     "de": "rechtsextremistisch",
-    "lv": "Højreekstremist",
+    "lv": "Højreekstremistisk",
     "level": "C2"
   },
   {
     "de": "Satellitenübertragung",
     "de_article": "die",
     "de_plural": "die Satellitenübertragungen",
-    "lv": "Satellit-tv transmission",
+    "lv": "Satellittransmission",
     "level": "C2"
   },
   {
@@ -1315,49 +1440,49 @@ const C2_WORDS = [
     "de": "Schwangerschaftsabbruch",
     "de_article": "der",
     "de_plural": "die Schwangerschaftsabbrüche",
-    "lv": "Afbrydelse af graviditet",
+    "lv": "Abort • Svangerskabsafbrydelse",
     "level": "C2"
   },
   {
     "de": "Selbstbestimmungsrecht",
     "de_article": "das",
     "de_plural": "die Selbstbestimmungsrechte",
-    "lv": "Selvbestemmelsesretten",
+    "lv": "Selvbestemmelsesret",
     "level": "C2"
   },
   {
     "de": "Selbsterhaltungstrieb",
     "de_article": "der",
     "de_plural": "die Selbsterhaltungstriebe",
-    "lv": "Selvopholdelsesinstinktet",
+    "lv": "Selvopholdelsesdrift • Selvopholdelsesinstinkt",
     "level": "C2"
   },
   {
     "de": "Selbstverteidigung",
     "de_article": "die",
     "de_plural": "die Selbstverteidigungen",
-    "lv": "Et sæt selvforsvarsteknikker",
+    "lv": "Selvforsvar",
     "level": "C2"
   },
   {
     "de": "Staatsangehörigkeit",
     "de_article": "die",
     "de_plural": "die Staatsangehörigkeiten",
-    "lv": "Statsskab",
+    "lv": "Statsborgerskab",
     "level": "C2"
   },
   {
     "de": "Steuererleichterung",
     "de_article": "die",
     "de_plural": "die Steuererleichterungen",
-    "lv": "Skattefordele",
+    "lv": "Skattelettelse",
     "level": "C2"
   },
   {
     "de": "Strafgesetzbuch",
     "de_article": "das",
     "de_plural": "die Strafgesetzbücher",
-    "lv": "Jur straffelov",
+    "lv": "Straffelov",
     "level": "C2"
   },
   {
@@ -1371,7 +1496,7 @@ const C2_WORDS = [
     "de": "Vaterschaftsklage",
     "de_article": "die",
     "de_plural": "die Vaterschaftsklagen",
-    "lv": "En retssag for at fastslå faderskab",
+    "lv": "Faderskabssag",
     "level": "C2"
   },
   {
@@ -1404,37 +1529,37 @@ const C2_WORDS = [
     "de": "Widerstandskämpfer",
     "de_article": "der",
     "de_plural": "die Widerstandskämpfer",
-    "lv": "Medlem af modstandsbevægelsen",
+    "lv": "Modstandsmand • Modstandskæmper",
     "level": "C2"
   },
   {
     "de": "zugrunde, zu Grunde",
-    "lv": "Dybest set",
+    "lv": "Til grund",
     "level": "C2"
   },
   {
     "de": "zugunsten, zu Gunsten",
-    "lv": "For the good • For the good",
+    "lv": "Til fordel for • Til gunst for",
     "level": "C2"
   },
   {
     "de": "imstande",
-    "lv": "I stand",
+    "lv": "I stand til",
     "level": "C2"
   },
   {
     "de": "im Stande",
-    "lv": "I stand",
+    "lv": "I stand til",
     "level": "C2"
   },
   {
     "de": "instand",
-    "lv": "I rækkefølge",
+    "lv": "I stand • I orden",
     "level": "C2"
   },
   {
     "de": "in Stand",
-    "lv": "I rækkefølge",
+    "lv": "I stand • I orden",
     "level": "C2"
   },
   {
@@ -1451,35 +1576,35 @@ const C2_WORDS = [
     "de": "Karre",
     "de_article": "die",
     "de_plural": "die Karren",
-    "lv": "Trillebør",
+    "lv": "Kærre • Trækvogn",
     "level": "C2"
   },
   {
     "de": "Karren",
     "de_article": "der",
     "de_plural": "die Karren",
-    "lv": "Trillebør",
+    "lv": "Kærre • Trækvogn",
     "level": "C2"
   },
   {
     "de": "Kriegsbeschädigte",
     "de_article": "der",
     "de_plural": "die Kriegsbeschädigten",
-    "lv": "En krigsinvalid",
+    "lv": "Krigsinvalid",
     "level": "C2"
   },
   {
     "de": "Kriegsgefangene",
     "de_article": "der",
     "de_plural": "die Kriegsgefangenen",
-    "lv": "En krigsfange",
+    "lv": "Krigsfange",
     "level": "C2"
   },
   {
     "de": "Sachverständige",
     "de_article": "der",
     "de_plural": "die Sachverständigen",
-    "lv": "Dygtig • Ekspert",
+    "lv": "Sagkyndig • Ekspert",
     "level": "C2"
   }
 ];

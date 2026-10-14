@@ -8,19 +8,19 @@ const C1_WORDS = [
   },
   {
     "de": "gewährleisten",
-    "lv": "At yde",
+    "lv": "At sikre • At garantere",
     "level": "C1"
   },
   {
     "de": "Auswirkung",
     "de_article": "die",
     "de_plural": "die Auswirkungen",
-    "lv": "Indflydelse",
+    "lv": "Virkning • Indvirkning",
     "level": "C1"
   },
   {
     "de": "umstritten",
-    "lv": "Modsigende",
+    "lv": "Omstridt • Kontroversiel",
     "level": "C1"
   },
   {
@@ -32,7 +32,7 @@ const C1_WORDS = [
   },
   {
     "de": "nachvollziehen",
-    "lv": "Forstå • Følg logikken",
+    "lv": "At forstå • At sætte sig ind i",
     "level": "C1"
   },
   {
@@ -44,7 +44,7 @@ const C1_WORDS = [
     "de": "Belastbarkeit",
     "de_article": "die",
     "de_plural": "die Belastbarkeiten",
-    "lv": "Stressmodstand • Modstand mod belastning",
+    "lv": "Belastningsevne • Modstandskraft",
     "level": "C1"
   },
   {
@@ -63,7 +63,7 @@ const C1_WORDS = [
     "de": "Aktionsprogramm",
     "de_article": "das",
     "de_plural": "die Aktionsprogramme",
-    "lv": "Program for arrangementer",
+    "lv": "Handlingsprogram",
     "level": "C1"
   },
   {
@@ -77,12 +77,12 @@ const C1_WORDS = [
     "de": "Altweibersommer",
     "de_article": "der",
     "de_plural": "die Altweibersommer",
-    "lv": "Forår",
+    "lv": "Eftersommer • Indiansk sommer",
     "level": "C1"
   },
   {
     "de": "anfechten",
-    "lv": "Tvist • Spørgsmål",
+    "lv": "At anfægte • At bestride",
     "level": "C1"
   },
   {
@@ -120,7 +120,7 @@ const C1_WORDS = [
     "de": "Abart",
     "de_article": "die",
     "de_plural": "die Abarten",
-    "lv": "Afvigelse • Afvigelse",
+    "lv": "Afart • Variant",
     "level": "C1"
   },
   {
@@ -139,12 +139,12 @@ const C1_WORDS = [
     "de": "Affekt",
     "de_article": "der",
     "de_plural": "die Affekte",
-    "lv": "Et følelsesudbrud",
+    "lv": "Affekt • Følelsesudbrud",
     "level": "C1"
   },
   {
     "de": "ächten",
-    "lv": "Udstødelse • Social udstødelse",
+    "lv": "At udstøde • At bandlyse",
     "level": "C1"
   },
   {
@@ -157,7 +157,7 @@ const C1_WORDS = [
   {
     "de": "Flugwetter",
     "de_article": "das",
-    "lv": "Vejrforhold til flyvning",
+    "lv": "Flyvevejr",
     "level": "C1"
   },
   {
@@ -178,7 +178,7 @@ const C1_WORDS = [
     "de": "Frauenrechtlerin",
     "de_article": "die",
     "de_plural": "die Frauenrechtlerinnen",
-    "lv": "En kæmper for kvinders ligestilling",
+    "lv": "Kvindesagsforkæmper",
     "level": "C1"
   },
   {
@@ -206,28 +206,28 @@ const C1_WORDS = [
     "de": "Zivilgesetzbuch",
     "de_article": "das",
     "de_plural": "die Zivilgesetzbücher",
-    "lv": "Civilret",
+    "lv": "Borgerlig lovbog",
     "level": "C1"
   },
   {
     "de": "Aktie",
     "de_article": "die",
     "de_plural": "die Aktien",
-    "lv": "Handling",
+    "lv": "Aktie",
     "level": "C1"
   },
   {
     "de": "Abenddämmerung",
     "de_article": "die",
     "de_plural": "die Abenddämmerungen",
-    "lv": "Aftentusmørke",
+    "lv": "Aftenskumring • Tusmørke",
     "level": "C1"
   },
   {
     "de": "Anwalt",
     "de_article": "der",
     "de_plural": "die Anwälte",
-    "lv": "En advokat",
+    "lv": "Advokat",
     "level": "C1"
   },
   {
@@ -244,14 +244,14 @@ const C1_WORDS = [
     "de": "Autokennzeichen",
     "de_article": "das",
     "de_plural": "die Autokennzeichen",
-    "lv": "Bogstaver og tal på bilens nummerplade",
+    "lv": "Nummerplade • Registreringsnummer",
     "level": "C1"
   },
   {
     "de": "Bäckerhandwerk",
     "de_article": "das",
     "de_plural": "die Bäckerhandwerke",
-    "lv": "Bagerens job",
+    "lv": "Bagerhåndværk • Bagerfag",
     "level": "C1"
   },
   {
@@ -263,36 +263,36 @@ const C1_WORDS = [
     "de": "Bergwanderung",
     "de_article": "die",
     "de_plural": "die Bergwanderungen",
-    "lv": "Bjerg turisme",
+    "lv": "Bjergvandring",
     "level": "C1"
   },
   {
     "de": "beschäftigen",
-    "lv": "Beskæftige",
+    "lv": "At beskæftige",
     "level": "C1"
   },
   {
     "de": "sich beschäftigen",
-    "lv": "At besætte",
+    "lv": "At beskæftige sig",
     "level": "C1"
   },
   {
     "de": "Beschäftigung",
     "de_article": "die",
     "de_plural": "die Beschäftigungen",
-    "lv": "Besættelse",
+    "lv": "Beskæftigelse",
     "level": "C1"
   },
   {
     "de": "beschleunigen",
-    "lv": "Sæt farten op",
+    "lv": "At accelerere • At fremskynde",
     "level": "C1"
   },
   {
     "de": "Besichtigung",
     "de_article": "die",
     "de_plural": "die Besichtigungen",
-    "lv": "Inspektion",
+    "lv": "Besigtigelse • Rundvisning",
     "level": "C1"
   },
   {
@@ -304,7 +304,7 @@ const C1_WORDS = [
     "de": "Autobahnbrücke",
     "de_article": "die",
     "de_plural": "die Autobahnbrücken",
-    "lv": "Vejoverkørsel",
+    "lv": "Motorvejsbro",
     "level": "C1"
   },
   {
@@ -336,7 +336,7 @@ const C1_WORDS = [
     "de": "Diplomat",
     "de_article": "der",
     "de_plural": "die Diplomaten",
-    "lv": "En diplomat",
+    "lv": "Diplomat",
     "level": "C1"
   },
   {
@@ -353,34 +353,172 @@ const C1_WORDS = [
   },
   {
     "de": "durchstreichen",
-    "lv": "At slå ud",
+    "lv": "At overstrege • At strege ud",
     "level": "C1"
   },
   {
     "de": "Einfamilienhaus",
     "de_article": "das",
     "de_plural": "die Einfamilienhäuser",
-    "lv": "Enkeltfamiliehus",
+    "lv": "Enfamiliehus • Parcelhus",
     "level": "C1",
     "study": {
       "id": "c1-einfamilienhaus",
       "layout": "standardStudy",
-      "translation": "Enkeltfamiliehus",
-      "explanation": "Hovedidé: das Einfamilienhaus er et hus til én familie. Det betyder normalt et parcelhus, ikke en lejlighedsbygning.",
+      "translation": "Enfamiliehus • Parcelhus",
+      "explanation": [
+        "Hovedidé: das Einfamilienhaus er et hus beregnet til én familie – fritliggende eller sammenbygget med naboens, men med én bolig og som regel egen have. På dansk svarer det oftest til et parcelhus.",
+        "Navneord i intetkøn: das Einfamilienhaus, flertal die Einfamilienhäuser. Det består af Ein- + Familie + Haus – præcis som dansk enfamiliehus.",
+        "Modsætningen er das Mehrfamilienhaus (etageejendom, flerfamiliehus)."
+      ],
       "examples": [
         {
-          "de": "Sie wohnen in einem Einfamilienhaus.",
-          "lv": "De bor i et enfamiliehus."
+          "de": "Sie wohnen in einem Einfamilienhaus am Stadtrand.",
+          "lv": "De bor i et parcelhus i udkanten af byen."
         },
         {
-          "de": "Das Einfamilienhaus hat einen Garten.",
-          "lv": "Enfamiliehuset har have."
+          "de": "Das Einfamilienhaus hat einen kleinen Garten.",
+          "lv": "Enfamiliehuset har en lille have."
         },
         {
-          "de": "Nebenan steht ein Mehrfamilienhaus.",
-          "lv": "Der er en lejlighedsbygning ved siden af."
+          "de": "Sie träumen von einem eigenen Einfamilienhaus.",
+          "lv": "De drømmer om deres eget parcelhus."
+        },
+        {
+          "de": "In dieser Siedlung stehen nur Einfamilienhäuser.",
+          "lv": "I dette kvarter er der kun parcelhuse."
         }
-      ]
+      ],
+      "comparison": [
+        {
+          "word": "das Mehrfamilienhaus",
+          "meaning": "etageejendom",
+          "example": "Im Mehrfamilienhaus wohnen zehn Familien. – I etageejendommen bor ti familier."
+        },
+        {
+          "word": "das Reihenhaus",
+          "meaning": "rækkehus",
+          "example": "Das Reihenhaus steht zwischen zwei anderen. – Rækkehuset står mellem to andre."
+        },
+        {
+          "word": "das Hochhaus",
+          "meaning": "højhus",
+          "example": "Im Hochhaus gibt es einen Aufzug. – I højhuset er der en elevator."
+        }
+      ],
+      "tip": [
+        "Sammensatte ord kan forstås del for del: ein + Familie + Haus.",
+        "Hyppig forbindelse: ein Einfamilienhaus bauen / kaufen / mieten."
+      ],
+      "important": [
+        "Einfamilienhaus er ikke det samme som Villa: det kan også være et helt enkelt hus. Tysk Villa er et stort, fornemt hus – ikke et almindeligt dansk villahus."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Einfamilienhaus"
+          ],
+          "purple": [
+            "hus beregnet til én familie",
+            "parcelhus"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Einfamilienhaus"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "parcelhus"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Einfamilienhaus"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Enfamiliehuset"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Einfamilienhaus"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "parcelhus"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Einfamilienhäuser"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "parcelhuse"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "das Mehrfamilienhaus"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "etageejendom"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "das Reihenhaus"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "rækkehus"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "das Hochhaus"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "højhus"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {}
+        ]
+      }
     }
   },
   {
@@ -413,7 +551,7 @@ const C1_WORDS = [
     "de": "Gartenerdbeere",
     "de_article": "die",
     "de_plural": "die Gartenerdbeeren",
-    "lv": "Have jordbær",
+    "lv": "Havejordbær",
     "level": "C1"
   },
   {
@@ -428,7 +566,7 @@ const C1_WORDS = [
   },
   {
     "de": "fehlerhaft",
-    "lv": "Forkert",
+    "lv": "Fejlagtig • Mangelfuld",
     "level": "C1"
   },
   {
@@ -459,19 +597,19 @@ const C1_WORDS = [
     "de": "Gepäckträger",
     "de_article": "der",
     "de_plural": "die Gepäckträger",
-    "lv": "Bagagerum",
+    "lv": "Bagagebærer • Drager",
     "level": "C1"
   },
   {
     "de": "geschäftlich",
-    "lv": "Transaktion",
+    "lv": "Forretningsmæssig",
     "level": "C1"
   },
   {
     "de": "Geschäftsmann",
     "de_article": "der",
     "de_plural": "die Geschäftsleute",
-    "lv": "Entreprenør",
+    "lv": "Forretningsmand",
     "level": "C1"
   },
   {
@@ -491,14 +629,14 @@ const C1_WORDS = [
   },
   {
     "de": "gesetzlich",
-    "lv": "Legal",
+    "lv": "Lovbestemt • Lovmæssig",
     "level": "C1"
   },
   {
     "de": "Gesichtspunkt",
     "de_article": "der",
     "de_plural": "die Gesichtspunkte",
-    "lv": "Udtalelse",
+    "lv": "Synspunkt",
     "level": "C1"
   },
   {
@@ -516,13 +654,13 @@ const C1_WORDS = [
     "de": "Gipfel",
     "de_article": "der",
     "de_plural": "die Gipfel",
-    "lv": "Spids",
+    "lv": "Top • Tinde • Topmøde",
     "level": "C1"
   },
   {
     "de": "Hausangestellte",
     "de_article": "die",
-    "lv": "En husholderske",
+    "lv": "Husholderske • Hushjælp",
     "level": "C1"
   },
   {
@@ -572,28 +710,28 @@ const C1_WORDS = [
     "de": "Schlaginstrument",
     "de_article": "das",
     "de_plural": "die Schlaginstrumente",
-    "lv": "Percussion instrument",
+    "lv": "Slaginstrument",
     "level": "C1"
   },
   {
     "de": "Tasteninstrument",
     "de_article": "das",
     "de_plural": "die Tasteninstrumente",
-    "lv": "Tastatur",
+    "lv": "Tangentinstrument",
     "level": "C1"
   },
   {
     "de": "Jahreseinkommen",
     "de_article": "das",
     "de_plural": "die Jahreseinkommen",
-    "lv": "Årlig indkomst",
+    "lv": "Årsindkomst",
     "level": "C1"
   },
   {
     "de": "Kabelanschluss",
     "de_article": "der",
     "de_plural": "die Kabelanschlüsse",
-    "lv": "Kabel-tv tilslutning",
+    "lv": "Kabel-tv-tilslutning",
     "level": "C1"
   },
   {
@@ -620,7 +758,7 @@ const C1_WORDS = [
     "de": "Kandidatenliste",
     "de_article": "die",
     "de_plural": "die Kandidatenlisten",
-    "lv": "Liste over kandidater",
+    "lv": "Kandidatliste",
     "level": "C1"
   },
   {
@@ -644,21 +782,21 @@ const C1_WORDS = [
   },
   {
     "de": "krampfhaft",
-    "lv": "Kramper",
+    "lv": "Krampagtig",
     "level": "C1"
   },
   {
     "de": "Krankheitsbild",
     "de_article": "das",
     "de_plural": "die Krankheitsbilder",
-    "lv": "Sygdomsscene",
+    "lv": "Sygdomsbillede",
     "level": "C1"
   },
   {
     "de": "Lastkraftwagen",
     "de_article": "der",
     "de_plural": "die Lastkraftwagen",
-    "lv": "Tung bil",
+    "lv": "Lastbil",
     "level": "C1"
   },
   {
@@ -725,7 +863,7 @@ const C1_WORDS = [
     "de": "Morgengymnastik",
     "de_article": "die",
     "de_plural": "die Morgengymnastiken",
-    "lv": "Daggry",
+    "lv": "Morgengymnastik",
     "level": "C1"
   },
   {
@@ -751,34 +889,177 @@ const C1_WORDS = [
     "de": "Notarzt",
     "de_article": "der",
     "de_plural": "die Notärzte",
-    "lv": "Akut læge",
+    "lv": "Akutlæge",
     "level": "C1"
   },
   {
     "de": "Öffentlichkeit",
     "de_article": "die",
     "de_plural": "die Öffentlichkeiten",
-    "lv": "Samfund • Åbenhed",
+    "lv": "Offentlighed",
     "level": "C1",
     "study": {
       "id": "c1-offentlichkeit",
       "layout": "standardStudy",
-      "translation": "Samfund • Åbenhed",
-      "explanation": "Hovedidé: die Öffentlichkeit betyder samfundet som det offentlige rum eller mennesker som helhed. I sætningen an die Öffentlichkeit kommen betyder det at komme i det fri.",
+      "translation": "Offentlighed",
+      "explanation": [
+        "Hovedidé: die Öffentlichkeit er offentligheden – alle de mennesker, som noget er tilgængeligt eller kendt for – og samtidig åbenhed, altså det, at noget ikke er hemmeligt.",
+        "Navneord i hunkøn: die Öffentlichkeit, flertal findes praktisk talt ikke. Hyppige udtryk: in der Öffentlichkeit (offentligt), an die Öffentlichkeit gehen (gå ud til offentligheden), unter Ausschluss der Öffentlichkeit (for lukkede døre), die Öffentlichkeit informieren.",
+        "Det danske ord samfund svarer derimod til die Gesellschaft – det er en anden betydning."
+      ],
       "examples": [
         {
-          "de": "Die Öffentlichkeit reagierte kritisch.",
-          "lv": "Offentligheden reagerede kritisk."
+          "de": "Der Politiker trat vor die Öffentlichkeit.",
+          "lv": "Politikeren trådte frem for offentligheden."
         },
         {
-          "de": "Der Fall kam an die Öffentlichkeit.",
-          "lv": "Sagen kom frem."
+          "de": "In der Öffentlichkeit darf man hier nicht rauchen.",
+          "lv": "Her må man ikke ryge på offentlige steder."
         },
         {
-          "de": "Die Öffentlichkeit hat ein Recht auf Information.",
-          "lv": "Offentligheden har ret til information."
+          "de": "Die Verhandlung fand unter Ausschluss der Öffentlichkeit statt.",
+          "lv": "Retsmødet fandt sted for lukkede døre."
+        },
+        {
+          "de": "Die Firma will den Skandal nicht an die Öffentlichkeit bringen.",
+          "lv": "Firmaet vil ikke gøre skandalen offentlig."
         }
-      ]
+      ],
+      "comparison": [
+        {
+          "word": "die Gesellschaft",
+          "meaning": "samfund (som system)",
+          "example": "Die Gesellschaft verändert sich. – Samfundet forandrer sig."
+        },
+        {
+          "word": "das Publikum",
+          "meaning": "publikum",
+          "example": "Das Publikum klatscht. – Publikum klapper."
+        },
+        {
+          "word": "die Bevölkerung",
+          "meaning": "befolkning",
+          "example": "Die Bevölkerung wächst. – Befolkningen vokser."
+        }
+      ],
+      "tip": [
+        "Bruges med forholdsord: in der Öffentlichkeit (hvor?), an die Öffentlichkeit (hvorhen?).",
+        "En lignende betydning har die Allgemeinheit (almenheden, alle mennesker samlet)."
+      ],
+      "important": [
+        "Flertal bruges normalt ikke: man siger ikke die Öffentlichkeiten."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "die Öffentlichkeit",
+            "in der Öffentlichkeit",
+            "an die Öffentlichkeit gehen",
+            "unter Ausschluss der Öffentlichkeit",
+            "Gesellschaft"
+          ],
+          "purple": [
+            "offentligheden",
+            "åbenhed",
+            "offentligt"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Öffentlichkeit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "offentligheden"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Öffentlichkeit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "offentlige steder"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Öffentlichkeit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "for lukkede døre"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Öffentlichkeit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "offentlig"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "die Gesellschaft"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "samfund"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "das Publikum"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "publikum"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Bevölkerung"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "befolkning"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {}
+        ]
+      }
     }
   },
   {
@@ -792,27 +1073,167 @@ const C1_WORDS = [
     "de": "Partei",
     "de_article": "die",
     "de_plural": "die Parteien",
-    "lv": "Fest • Fest",
+    "lv": "Parti • Part",
     "level": "C1",
     "study": {
       "id": "c1-partei",
       "layout": "standardStudy",
-      "translation": "Fest • Fest",
-      "explanation": "Hovedidé: die Partei er normalt et politisk parti. I juridisk eller konfliktmæssigt sprogbrug kan det også betyde en part.",
+      "translation": "Parti • Part",
+      "explanation": [
+        "Hovedidé: die Partei er et politisk parti (die CDU ist eine Partei), men også en part i en strid, en retssag eller en kontrakt: die Streitparteien, die Vertragsparteien.",
+        "Navneord i hunkøn: die Partei, flertal die Parteien. Udtrykket Partei ergreifen für jemanden betyder at tage parti for nogen.",
+        "I politisk sammenhæng bruges ofte: eine Partei gründen (stifte et parti), in eine Partei eintreten (melde sig ind i et parti), die Regierungspartei (regeringspartiet)."
+      ],
       "examples": [
         {
-          "de": "Diese Partei gewann die Wahl.",
-          "lv": "Dette parti vandt valget."
+          "de": "Sie ist Mitglied einer Partei.",
+          "lv": "Hun er medlem af et parti."
         },
         {
-          "de": "Er ist seit Jahren Mitglied einer Partei.",
-          "lv": "Han har været partimedlem i årevis."
+          "de": "Die Parteien verhandeln über eine Koalition.",
+          "lv": "Partierne forhandler om en koalition."
         },
         {
-          "de": "Beide Parteien müssen den Vertrag unterschreiben.",
-          "lv": "Begge parter skal underskrive kontrakten."
+          "de": "Im Streit ergriff er Partei für seinen Bruder.",
+          "lv": "I striden tog han parti for sin bror."
+        },
+        {
+          "de": "Beide Parteien haben den Vertrag unterschrieben.",
+          "lv": "Begge parter har underskrevet kontrakten."
         }
-      ]
+      ],
+      "comparison": [
+        {
+          "word": "die Seite",
+          "meaning": "side",
+          "example": "Auf welcher Seite stehst du? – Hvilken side står du på?"
+        },
+        {
+          "word": "der Verein",
+          "meaning": "forening",
+          "example": "Er ist im Sportverein. – Han er med i en sportsforening."
+        },
+        {
+          "word": "die Gruppe",
+          "meaning": "gruppe",
+          "example": "Die Gruppe trifft sich heute. – Gruppen mødes i dag."
+        }
+      ],
+      "tip": [
+        "Partei ergreifen (tage parti) er et nyttigt udtryk, når man beskriver konflikter.",
+        "I politik siger man eine Partei wählen eller für eine Partei stimmen."
+      ],
+      "important": [
+        "Die Partei og die Party (fest) ligner hinanden, men har intet med hinanden at gøre."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Partei",
+            "Parteien"
+          ],
+          "purple": [
+            "politisk parti",
+            "part",
+            "tage parti"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Partei"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "parti"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Parteien"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Partierne"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Partei"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tog han parti"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Parteien"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "parter"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "die Seite"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "side"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Verein"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "forening"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Gruppe"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "gruppe"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {}
+        ]
+      }
     }
   },
   {
@@ -867,21 +1288,160 @@ const C1_WORDS = [
       "id": "c1-prozess",
       "layout": "standardStudy",
       "translation": "Proces • Retssag",
-      "explanation": "Hovedidé: der Prozess er en proces eller et forløb. I retten betyder der Prozess retssag.",
+      "explanation": [
+        "Hovedidé: der Prozess er et ord med to hovedbetydninger: proces, forløb (ein langsamer Prozess) og retssag (ein Prozess gegen jemanden).",
+        "Navneord i hankøn: der Prozess, flertal die Prozesse. En retssag kan man føre, vinde eller tabe: einen Prozess führen, gewinnen, verlieren.",
+        "Udtrykket kurzen Prozess machen betyder at handle uden lang tøven, hårdhændet – ligesom dansk gøre kort proces."
+      ],
       "examples": [
         {
-          "de": "Der Prozess dauert mehrere Monate.",
-          "lv": "Processen tager flere måneder."
+          "de": "Der Prozess gegen den Angeklagten dauert Monate.",
+          "lv": "Retssagen mod den tiltalte varer i månedsvis."
         },
         {
-          "de": "Der Prozess vor Gericht beginnt morgen.",
-          "lv": "Retssagen starter i morgen."
+          "de": "Die Heilung ist ein langsamer Prozess.",
+          "lv": "Helingen er en langsom proces."
         },
         {
-          "de": "Wir verbessern den ganzen Prozess.",
-          "lv": "Vi forbedrer hele processen."
+          "de": "Sie haben den Prozess gewonnen.",
+          "lv": "De vandt retssagen."
+        },
+        {
+          "de": "Die Firma machte kurzen Prozess und kündigte ihm.",
+          "lv": "Firmaet gjorde kort proces og fyrede ham."
         }
-      ]
+      ],
+      "comparison": [
+        {
+          "word": "der Vorgang",
+          "meaning": "forløb",
+          "example": "Der Vorgang dauert eine Stunde. – Forløbet varer en time."
+        },
+        {
+          "word": "die Verhandlung",
+          "meaning": "retsmøde",
+          "example": "Die Verhandlung beginnt um neun. – Retsmødet begynder klokken ni."
+        },
+        {
+          "word": "die Klage",
+          "meaning": "søgsmål",
+          "example": "Er reichte eine Klage ein. – Han anlagde et søgsmål."
+        }
+      ],
+      "tip": [
+        "Når det handler om retten, møder man ofte udsagnsordene: einen Prozess führen / gewinnen / verlieren.",
+        "Prozess i betydningen forløb er også et teknisk og videnskabeligt fagudtryk: der Prozess der Herstellung (produktionsprocessen)."
+      ],
+      "important": [
+        "Ordet er hankøn: der Prozess (ikke das Prozess)."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Prozess",
+            "Prozesse"
+          ],
+          "purple": [
+            "proces",
+            "retssag"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Prozess"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Retssagen"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Prozess"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "proces"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Prozess"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "retssagen"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Prozess"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "gjorde kort proces"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "Vorgang"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "forløb"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "Verhandlung"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "retsmøde"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "Klage"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "søgsmål"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {}
+        ]
+      }
     }
   },
   {
@@ -902,7 +1462,7 @@ const C1_WORDS = [
     "de": "Rechtsanwalt",
     "de_article": "der",
     "de_plural": "die Rechtsanwälte",
-    "lv": "En advokat",
+    "lv": "Advokat",
     "level": "C1"
   },
   {
@@ -916,7 +1476,7 @@ const C1_WORDS = [
     "de": "Rennen mit Hindernissen",
     "de_article": "das",
     "de_plural": "die Rennen mit Hindernissen",
-    "lv": "Forhindringsbane",
+    "lv": "Forhindringsløb",
     "level": "C1"
   },
   {
@@ -929,12 +1489,12 @@ const C1_WORDS = [
     "de": "Rettungsstelle",
     "de_article": "die",
     "de_plural": "die Rettungsstellen",
-    "lv": "Førstehjælpssted",
+    "lv": "Skadestue • Akutmodtagelse",
     "level": "C1"
   },
   {
     "de": "rezeptpflichtig",
-    "lv": "Efter recept",
+    "lv": "Receptpligtig",
     "level": "C1"
   },
   {
@@ -948,21 +1508,21 @@ const C1_WORDS = [
     "de": "Scheibenwischer",
     "de_article": "der",
     "de_plural": "die Scheibenwischer",
-    "lv": "Bilrudespudser",
+    "lv": "Vinduesvisker",
     "level": "C1"
   },
   {
     "de": "Schiedsrichter",
     "de_article": "der",
     "de_plural": "die Schiedsrichter",
-    "lv": "Dommeren",
+    "lv": "Dommer",
     "level": "C1"
   },
   {
     "de": "Schlussverkauf",
     "de_article": "der",
     "de_plural": "die Schlussverkäufe",
-    "lv": "Salg af varer sidst på sæsonen til nedsatte priser",
+    "lv": "Udsalg • Sæsonudsalg",
     "level": "C1"
   },
   {
@@ -974,7 +1534,7 @@ const C1_WORDS = [
     "de": "Schneewittchen",
     "de_article": "das",
     "de_plural": "die Schneewittchen",
-    "lv": "Eventyrfigur Snehvide",
+    "lv": "Snehvide",
     "level": "C1"
   },
   {
@@ -988,13 +1548,13 @@ const C1_WORDS = [
     "de": "Schutzumschlag",
     "de_article": "der",
     "de_plural": "die Schutzumschläge",
-    "lv": "Dække",
+    "lv": "Smudsomslag",
     "level": "C1"
   },
   {
     "de": "Schwiegereltern",
     "de_article": "die",
-    "lv": "Mandens forældre",
+    "lv": "Svigerforældre",
     "level": "C1"
   },
   {
@@ -1035,19 +1595,19 @@ const C1_WORDS = [
     "de": "Stadtrundfahrt",
     "de_article": "die",
     "de_plural": "die Stadtrundfahrten",
-    "lv": "Bytur",
+    "lv": "Byrundtur • Sightseeingtur",
     "level": "C1"
   },
   {
     "de": "stecken bleiben",
-    "lv": "Sæt dig fast",
+    "lv": "At sidde fast • At gå i stå",
     "level": "C1"
   },
   {
     "de": "Stellvertreter",
     "de_article": "der",
     "de_plural": "die Stellvertreter",
-    "lv": "Erstatte",
+    "lv": "Stedfortræder",
     "level": "C1"
   },
   {
@@ -1061,14 +1621,14 @@ const C1_WORDS = [
     "de": "Strampelhöschen",
     "de_article": "das",
     "de_plural": "die Strampelhöschen",
-    "lv": "Baby crawler",
+    "lv": "Sparkedragt",
     "level": "C1"
   },
   {
     "de": "Stromverbrauch",
     "de_article": "der",
     "de_plural": "die Stromverbräuche",
-    "lv": "Nuværende forbrug",
+    "lv": "Strømforbrug",
     "level": "C1"
   },
   {
@@ -1088,7 +1648,7 @@ const C1_WORDS = [
     "de": "Terminkalender",
     "de_article": "der",
     "de_plural": "die Terminkalender",
-    "lv": "Bemærk kalender",
+    "lv": "Kalender • Aftalekalender",
     "level": "C1"
   },
   {
@@ -1121,7 +1681,7 @@ const C1_WORDS = [
     "de": "Unternehmen",
     "de_article": "das",
     "de_plural": "die Unternehmen",
-    "lv": "Firma • Event",
+    "lv": "Virksomhed • Foretagende",
     "level": "C1"
   },
   {
@@ -1150,12 +1710,12 @@ const C1_WORDS = [
   },
   {
     "de": "veranstalten",
-    "lv": "Organisere",
+    "lv": "At arrangere • At organisere",
     "level": "C1"
   },
   {
     "de": "verantworten",
-    "lv": "Tag ansvar for",
+    "lv": "At stå til ansvar for • At påtage sig ansvaret for",
     "level": "C1"
   },
   {
@@ -1176,7 +1736,7 @@ const C1_WORDS = [
     "de": "Vergangenheit",
     "de_article": "die",
     "de_plural": "die Vergangenheiten",
-    "lv": "Fortiden",
+    "lv": "Fortid",
     "level": "C1"
   },
   {
@@ -1190,7 +1750,7 @@ const C1_WORDS = [
     "de": "Verlegenheit",
     "de_article": "die",
     "de_plural": "die Verlegenheiten",
-    "lv": "Forvirring",
+    "lv": "Forlegenhed",
     "level": "C1"
   },
   {
@@ -1217,7 +1777,7 @@ const C1_WORDS = [
   },
   {
     "de": "sich verständigen",
-    "lv": "Tag dig sammen",
+    "lv": "At forstå hinanden • At blive enige",
     "level": "C1"
   },
   {
@@ -1241,7 +1801,7 @@ const C1_WORDS = [
     "de": "Vorgesetzte",
     "de_article": "der",
     "de_plural": "die Vorgesetzten",
-    "lv": "Chefen",
+    "lv": "Chef • Overordnet",
     "level": "C1"
   },
   {
@@ -1258,94 +1818,107 @@ const C1_WORDS = [
   },
   {
     "de": "sich zufrieden geben",
-    "lv": "At tilfredsstille",
+    "lv": "At nøjes • At slå sig til tåls",
     "level": "C1"
   },
   {
     "de": "zusammenbringen",
-    "lv": "Tag sammen",
+    "lv": "At bringe sammen • At samle",
     "level": "C1"
   },
   {
     "de": "zusammenfassen",
-    "lv": "Opsummere • Opsummer",
+    "lv": "At sammenfatte • At opsummere",
     "level": "C1",
     "study": {
       "id": "c1-zusammenfassen",
       "layout": "standardStudy",
-      "translation": "Opsummere • Opsummer",
+      "translation": "At sammenfatte • At opsummere",
       "explanation": [
-        "Hovedidé: zusammenfassen er et verbum - at samle eller organisere information i en kortfattet erklæring.",
-        "Zusammenfassen bruges, når flere fakta, tekster eller tanker laves til en kort oversigt.",
-        "Ikke at forveksle med die Zusammenfassung - den med stort bogstav og artiklen die er et navneord, der betegner selve resuméet (resultat, færdig tekst).",
-        "Zusammenfassen = proces/handling (resumé, opsummering) • Die Zusammenfassung = resultat (resumé som substantiv).",
-        "Som mange tyske verber kan zusammenfassen blive et navneord med stort bogstav og en artikel: zusammenfassen → die Zusammenfassen (substantivisering)."
+        "Hovedidé: zusammenfassen betyder kort at sammenfatte det vigtigste fra en tekst, en tale eller nogle resultater; det kan også betyde at samle flere ting til én helhed.",
+        "Adskilleligt udsagnsord: er fasst zusammen, fasste zusammen, hat zusammengefasst. Det, man sammenfatter, står i akkusativ: einen Text zusammenfassen. Ofte følger in + dativ eller zu + dativ: in einem Satz zusammenfassen. Navneordet er die Zusammenfassung.",
+        "I begyndelsen af en sætning bruges ofte zusammenfassend (sammenfattende): Zusammenfassend lässt sich sagen …"
       ],
       "examples": [
         {
-          "de": "Können Sie den Text zusammenfassen?",
-          "lv": "Kan du opsummere denne tekst?"
+          "de": "Fasst bitte den Text in drei Sätzen zusammen.",
+          "lv": "Sammenfat venligst teksten i tre sætninger."
         },
         {
-          "de": "Ich fasse die wichtigsten Punkte zusammen.",
-          "lv": "Jeg opsummerer de vigtigste punkter."
+          "de": "Der Redner fasste die Ergebnisse kurz zusammen.",
+          "lv": "Taleren opsummerede kort resultaterne."
         },
         {
-          "de": "Er hat den Bericht kurz zusammengefasst.",
-          "lv": "Han opsummerede kort anmeldelsen."
+          "de": "Wir haben die Vorschläge in einer Liste zusammengefasst.",
+          "lv": "Vi har samlet forslagene i en liste."
         },
         {
-          "de": "Zusammenfassend kann man sagen, dass...",
-          "lv": "Sammenfattende kan man sige, at..."
+          "de": "Kannst du den Film kurz zusammenfassen?",
+          "lv": "Kan du kort fortælle, hvad filmen handler om?"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "zusammenstellen",
+          "meaning": "at sammensætte",
+          "example": "Ich stelle eine Liste zusammen. – Jeg sammensætter en liste."
         },
         {
-          "de": "Ich schreibe eine Zusammenfassung des Buches.",
-          "lv": "Jeg skriver et bogresumé."
+          "word": "kürzen",
+          "meaning": "at forkorte",
+          "example": "Wir kürzen den Text. – Vi forkorter teksten."
         },
         {
-          "de": "Die Zusammenfassung ist zu lang.",
-          "lv": "Resuméet er for langt."
+          "word": "wiederholen",
+          "meaning": "at gentage",
+          "example": "Wiederhole den Satz. – Gentag sætningen."
         }
       ],
       "tip": [
-        "zusammenfassen (verbum) = bearbejde - at opsummere/opsummere.",
-        "die Zusammenfassung (navneord, med stort og artikel die) = resultat - selve resuméet."
+        "Husk adskillelsen: Ich fasse den Text zusammen, men i en ledsætning …, weil ich den Text zusammenfasse.",
+        "Efter zusammenfassen følger ofte in einem Satz / in drei Punkten."
       ],
       "important": [
-        "zusammenfassen = at sammenfatte/sammenfatte (udsagnsord).",
-        "die Zusammenfassung = resumé (substantiv, substantiviseret fra zusammenfassen).",
-        "Forkert: die zusammenfassen → Korrekt: die Zusammenfassen (navneord altid med stort)."
+        "Kort tillægsform er zusammengefasst (med -ge- mellem zusammen og fasst).",
+        "Forveksl det ikke med zusammenstellen: det betyder at sammensætte, ikke at genfortælle kort."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "zusammenfassen",
+            "zusammenfassend",
+            "fasst zusammen",
+            "fasste zusammen",
+            "zusammengefasst",
+            "Zusammenfassung"
+          ],
           "purple": [
-            "Hovedidé",
-            "Hovedidé"
+            "sammenfatte",
+            "samle"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "zusammenfassen"
+                "Fasst"
               ]
             },
             "lv": {
               "purple": [
-                "Kan"
+                "Sammenfat"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "fasse",
-                "zusammen"
+                "fasste"
               ]
             },
             "lv": {
               "purple": [
-                "Jeg"
+                "opsummerede"
               ]
             }
           },
@@ -1357,78 +1930,68 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Han"
+                "samlet"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "Zusammenfassend"
+                "zusammenfassen"
               ]
             },
             "lv": {
               "purple": [
-                "Sammenfattende"
+                "fortælle, hvad filmen handler om"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "zusammenstellen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "at sammensætte"
               ]
             }
           },
           {
-            "de": {
+            "word": {
               "green": [
-                "Zusammenfassung"
+                "kürzen"
               ]
             },
-            "lv": {
+            "meaning": {
               "purple": [
-                "Jeg"
+                "at forkorte"
               ]
             }
           },
           {
-            "de": {
+            "word": {
               "green": [
-                "Zusammenfassung"
+                "wiederholen"
               ]
             },
-            "lv": {
+            "meaning": {
               "purple": [
-                "Resuméet"
+                "at gentage"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "blue": [
-              "zusammenfassen"
-            ]
-          },
-          {
-            "green": [
-              "die Zusammenfassung"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "blue": [
-              "zusammenfassen"
-            ]
-          },
-          {
-            "green": [
-              "die Zusammenfassung"
-            ]
-          },
-          {
-            "green": [
-              "die zusammenfassen"
-            ],
-            "red": [
-              "die zusammenfassen"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -1449,7 +2012,7 @@ const C1_WORDS = [
     "de": "Fernsehsendung",
     "de_article": "die",
     "de_plural": "die Fernsehsendungen",
-    "lv": "Tv-show",
+    "lv": "Tv-udsendelse",
     "level": "C1"
   },
   {
@@ -1477,46 +2040,177 @@ const C1_WORDS = [
     "de": "Wahl",
     "de_article": "die",
     "de_plural": "die Wahlen",
-    "lv": "Valg • Valg",
+    "lv": "Valg",
     "level": "C1",
     "study": {
       "id": "c1-wahl",
       "layout": "standardStudy",
-      "translation": "Valg • Valg",
-      "explanation": "Die Wahl kan betyde et valg mellem muligheder. I politisk sammenhæng betyder Wahl valg. Det kan også betyde, at man stemmer selv. Udtrykket eine Wahl treffen betyder at træffe et valg. zur Wahl gehen betyder at gå til valg. Konteksten af en politik eller personlig beslutning viser den korrekte betydning.",
+      "translation": "Valg",
+      "explanation": [
+        "Hovedidé: die Wahl betyder både valg som det, man vælger blandt flere muligheder, og valg som afstemning, hvor nogen vælges til et embede. Dansk valg dækker heldigvis begge betydninger.",
+        "Navneord i hunkøn: die Wahl, flertal die Wahlen. Om politiske valg bruges meget ofte flertal: die Wahlen finden statt. Valg som mulighed står som regel i ental: die Wahl haben, keine andere Wahl haben.",
+        "Forbindelser: die Wahl treffen (træffe et valg), zur Wahl gehen (gå til valg, stemme), die Wahl gewinnen (vinde valget)."
+      ],
       "examples": [
         {
-          "de": "Du hast die Wahl.",
-          "lv": "Du har et valg."
+          "de": "Du hast die Wahl zwischen Tee und Kaffee.",
+          "lv": "Du har valget mellem te og kaffe."
         },
         {
-          "de": "Ich treffe meine Wahl morgen.",
-          "lv": "Jeg træffer mit valg i morgen."
+          "de": "Die Wahlen finden im Herbst statt.",
+          "lv": "Valget finder sted til efteråret."
         },
         {
-          "de": "Die Wahl findet am Sonntag statt.",
-          "lv": "Der afholdes valg på søndag."
+          "de": "Er hatte keine andere Wahl.",
+          "lv": "Han havde ikke noget andet valg."
         },
         {
-          "de": "Viele Menschen gehen zur Wahl.",
-          "lv": "Mange mennesker går til stemmeurnerne."
-        },
-        {
-          "de": "Die freie Wahl ist wichtig.",
-          "lv": "Frit valg er vigtigt."
-        },
-        {
-          "de": "Bei der Wahl stimmen wir ab.",
-          "lv": "Vi stemmer ved valg."
+          "de": "Die Wahl des Bürgermeisters ist am Sonntag.",
+          "lv": "Borgmestervalget er på søndag."
         }
-      ]
+      ],
+      "comparison": [
+        {
+          "word": "die Auswahl",
+          "meaning": "udvalg",
+          "example": "Im Laden gibt es eine große Auswahl. – I butikken er der et stort udvalg."
+        },
+        {
+          "word": "die Entscheidung",
+          "meaning": "beslutning",
+          "example": "Das ist meine Entscheidung. – Det er min beslutning."
+        },
+        {
+          "word": "die Abstimmung",
+          "meaning": "afstemning",
+          "example": "Die Abstimmung ist morgen. – Afstemningen er i morgen."
+        }
+      ],
+      "tip": [
+        "Tænk på sammenhængen: Wahl i ental er ofte et valg mellem muligheder, die Wahlen er politiske valg.",
+        "Udsagnsordet er wählen (at vælge, at stemme)."
+      ],
+      "important": [
+        "Forveksl ikke die Wahl med die Auswahl: Auswahl er det udvalg, man vælger fra."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "die Wahl",
+            "die Wahlen",
+            "Wahlen",
+            "Wahl",
+            "zur Wahl gehen",
+            "die Wahl treffen"
+          ],
+          "purple": [
+            "valg",
+            "afstemning"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Wahl"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "valget"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Wahlen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Valget"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Wahl"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "valg"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Wahl"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Borgmestervalget"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "die Auswahl"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "udvalg"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Entscheidung"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "beslutning"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Abstimmung"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "afstemning"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {}
+        ]
+      }
     }
   },
   {
     "de": "Herausforderung",
     "de_article": "die",
     "de_plural": "die Herausforderungen",
-    "lv": "En udfordring",
+    "lv": "Udfordring",
     "level": "C1"
   },
   {
@@ -1537,14 +2231,14 @@ const C1_WORDS = [
     "de": "Abkommen",
     "de_article": "das",
     "de_plural": "die Abkommen",
-    "lv": "Aftale • Aftale",
+    "lv": "Aftale • Overenskomst",
     "level": "C1"
   },
   {
     "de": "Abschleppdienst",
     "de_article": "der",
     "de_plural": "die Abschleppdienste",
-    "lv": "Evakueringsservice • Flytteservice",
+    "lv": "Vejhjælp • Bugseringstjeneste",
     "level": "C1"
   },
   {
@@ -1556,14 +2250,14 @@ const C1_WORDS = [
   },
   {
     "de": "antifaschistisch",
-    "lv": "Antifascist",
+    "lv": "Antifascistisk",
     "level": "C1"
   },
   {
     "de": "Aufenthaltsdauer",
     "de_article": "die",
     "de_plural": "die Aufenthaltsdauern",
-    "lv": "Opholdets længde",
+    "lv": "Opholdsperiode • Opholdets varighed",
     "level": "C1"
   },
   {
@@ -1575,7 +2269,7 @@ const C1_WORDS = [
     "de": "Güteraustausch",
     "de_article": "der",
     "de_plural": "die Güteraustausche",
-    "lv": "Udveksling af varer",
+    "lv": "Vareudveksling",
     "level": "C1"
   },
   {
@@ -1599,14 +2293,14 @@ const C1_WORDS = [
   },
   {
     "de": "beanspruchen",
-    "lv": "Kræve • Gøre krav på",
+    "lv": "At kræve • At gøre krav på",
     "level": "C1"
   },
   {
     "de": "Bedarfsartikel",
     "de_article": "der",
     "de_plural": "die Bedarfsartikel",
-    "lv": "Forbrugsvarer",
+    "lv": "Forbrugsvare • Fornødenhed",
     "level": "C1"
   },
   {
@@ -1618,12 +2312,173 @@ const C1_WORDS = [
     "de": "Befangenheit",
     "de_article": "die",
     "de_plural": "die Befangenheiten",
-    "lv": "Forlegenhed • Forlegenhed",
-    "level": "C1"
+    "lv": "Forlegenhed • Partiskhed",
+    "level": "C1",
+    "study": {
+      "id": "c1-befangenheit",
+      "layout": "standardStudy",
+      "translation": "Forlegenhed • Partiskhed",
+      "explanation": [
+        "Hovedidé: die Befangenheit er forlegenhed eller genert kejtethed, som opstår i en fremmed situation eller foran andre mennesker. Juridisk betyder det også partiskhed (inhabilitet), fx at en dommer eller en ekspert ikke er upartisk.",
+        "Navneord i hunkøn: die Befangenheit, normalt uden flertal. Tillægsordet er befangen (forlegen, partisk).",
+        "I retten betegner udtrykket Besorgnis der Befangenheit tvivl om dommerens upartiskhed; deraf kommer Befangenheitsantrag (begæring om, at en dommer erklæres inhabil)."
+      ],
+      "examples": [
+        {
+          "de": "Seine Befangenheit war deutlich zu spüren.",
+          "lv": "Hans forlegenhed var tydelig at mærke."
+        },
+        {
+          "de": "Sie sprach ohne jede Befangenheit vor der Gruppe.",
+          "lv": "Hun talte foran gruppen uden den mindste forlegenhed."
+        },
+        {
+          "de": "Vor Fremden hatte das Kind eine gewisse Befangenheit.",
+          "lv": "Over for fremmede viste barnet en vis forlegenhed."
+        },
+        {
+          "de": "Der Anwalt stellte einen Antrag wegen Befangenheit des Richters.",
+          "lv": "Advokaten indgav en begæring på grund af dommerens inhabilitet."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "die Verlegenheit",
+          "meaning": "forlegenhed, pinlighed",
+          "example": "Er lachte aus Verlegenheit. – Han lo af forlegenhed."
+        },
+        {
+          "word": "die Voreingenommenheit",
+          "meaning": "fordomsfuldhed",
+          "example": "Ihre Voreingenommenheit stört mich. – Hendes fordomsfuldhed generer mig."
+        },
+        {
+          "word": "die Schüchternheit",
+          "meaning": "generthed",
+          "example": "Seine Schüchternheit verschwand. – Hans generthed forsvandt."
+        }
+      ],
+      "tip": [
+        "Når man i retten taler om Befangenheit, er betydningen partiskhed eller inhabilitet, ikke forlegenhed.",
+        "I betydningen forlegenhed er ordet skriftsprogligt; i hverdagen siger man oftere verlegen sein."
+      ],
+      "important": [
+        "Modsætningen er Unbefangenheit (ugenerthed, utvungenhed) eller Objektivität (objektivitet)."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "die Befangenheit",
+            "Befangenheit",
+            "befangen",
+            "Befangenheitsantrag"
+          ],
+          "purple": [
+            "forlegenhed",
+            "partiskhed"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Befangenheit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "forlegenhed"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Befangenheit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "forlegenhed"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Befangenheit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "forlegenhed"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Befangenheit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "inhabilitet"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "die Verlegenheit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "forlegenhed"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Voreingenommenheit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "fordomsfuldhed"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Schüchternheit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "generthed"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "beglaubigen",
-    "lv": "Officielt certifikat • Notarius",
+    "lv": "At attestere • At bekræfte",
     "level": "C1"
   },
   {
@@ -1633,7 +2488,7 @@ const C1_WORDS = [
   },
   {
     "de": "beiderseitig",
-    "lv": "Tosidet • Tosidet",
+    "lv": "Gensidig • Tosidet",
     "level": "C1"
   },
   {
@@ -1645,12 +2500,12 @@ const C1_WORDS = [
   },
   {
     "de": "beispielhaft",
-    "lv": "Eksemplarisk • Eksemplarisk",
+    "lv": "Eksemplarisk • Forbilledlig",
     "level": "C1"
   },
   {
     "de": "beklagen",
-    "lv": "Beklage • Klage over",
+    "lv": "At beklage • At begræde",
     "level": "C1"
   },
   {
@@ -1664,24 +2519,24 @@ const C1_WORDS = [
     "de": "Belegschaft",
     "de_article": "die",
     "de_plural": "die Belegschaften",
-    "lv": "Kollektiv • Personale",
+    "lv": "Personale • Medarbejderstab",
     "level": "C1"
   },
   {
     "de": "benachteiligen",
-    "lv": "Stille ringere • Forfordele",
+    "lv": "At forfordele • At stille ringere",
     "level": "C1"
   },
   {
     "de": "Berufsberater",
     "de_article": "der",
     "de_plural": "die Berufsberater",
-    "lv": "Beskæftigelseskonsulent",
+    "lv": "Erhvervsvejleder",
     "level": "C1"
   },
   {
     "de": "beratschlagen",
-    "lv": "Drøfte",
+    "lv": "At rådslå • At drøfte",
     "level": "C1"
   },
   {
@@ -1693,21 +2548,21 @@ const C1_WORDS = [
   },
   {
     "de": "bereitwillig",
-    "lv": "Klar til servering • Forpligtende",
+    "lv": "Villig • Tjenstvillig",
     "level": "C1"
   },
   {
     "de": "Berufsberatung",
     "de_article": "die",
     "de_plural": "die Berufsberatungen",
-    "lv": "Faglig orienteringskonsultation",
+    "lv": "Erhvervsvejledning",
     "level": "C1"
   },
   {
     "de": "Berufsgeheimnis",
     "de_article": "das",
     "de_plural": "die Berufsgeheimnisse",
-    "lv": "Embedets hemmelighed",
+    "lv": "Tavshedspligt • Erhvervshemmelighed",
     "level": "C1"
   },
   {
@@ -1715,25 +2570,185 @@ const C1_WORDS = [
     "de_article": "die",
     "de_plural": "die Berufungen",
     "lv": "Appel • Kald",
-    "level": "C1"
+    "level": "C1",
+    "study": {
+      "id": "c1-berufung",
+      "layout": "standardStudy",
+      "translation": "Appel • Kald",
+      "explanation": [
+        "Hovedidé: die Berufung er et ord med flere betydninger: kald (et indre kald til et erhverv), udnævnelse til en stilling (især ved et universitet), henvisning til noget (unter Berufung auf) og i jura appel (Berufung einlegen).",
+        "Navneord i hunkøn: die Berufung, flertal die Berufungen. Det tilsvarende udsagnsord er berufen, mens det at henvise til noget udtrykkes med sich berufen auf + akkusativ.",
+        "Betydningen afgøres som regel af forbindelsen: Berufung einlegen – anke, indgive appel; unter Berufung auf – med henvisning til."
+      ],
+      "examples": [
+        {
+          "de": "Sie spürt die Berufung zur Ärztin.",
+          "lv": "Hun føler et kald til at blive læge."
+        },
+        {
+          "de": "Die Anwältin legte gegen das Urteil Berufung ein.",
+          "lv": "Advokaten ankede dommen."
+        },
+        {
+          "de": "Er lehnte die Fragen unter Berufung auf das Datenschutzgesetz ab.",
+          "lv": "Han afviste spørgsmålene med henvisning til databeskyttelsesloven."
+        },
+        {
+          "de": "Seine Berufung an die Universität kam überraschend.",
+          "lv": "Hans udnævnelse ved universitetet kom overraskende."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "der Beruf",
+          "meaning": "erhverv",
+          "example": "Mein Beruf ist Lehrer. – Mit erhverv er lærer."
+        },
+        {
+          "word": "der Einspruch",
+          "meaning": "indsigelse",
+          "example": "Er legte Einspruch ein. – Han gjorde indsigelse."
+        },
+        {
+          "word": "die Revision",
+          "meaning": "revisionsanke",
+          "example": "Die Revision wurde abgelehnt. – Revisionsanken blev afvist."
+        }
+      ],
+      "tip": [
+        "Lær to faste forbindelser: Berufung einlegen (anke) og unter Berufung auf (med henvisning til).",
+        "Der Beruf (erhverv) og die Berufung (kald) er beslægtede, men betyder forskellige ting."
+      ],
+      "important": [
+        "Appel i det tyske retssystem (Berufung) er ikke det samme som Revision, der kun prøver retsanvendelsen."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Berufung",
+            "Berufungen"
+          ],
+          "purple": [
+            "kald",
+            "udnævnelse",
+            "appel"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Berufung"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kald"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Berufung"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ankede"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Berufung"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "med henvisning til"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Berufung"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "udnævnelse"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "der Beruf"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "erhverv"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Einspruch"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "indsigelse"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Revision"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "revisionsanke"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "Besatzungsmacht",
     "de_article": "die",
     "de_plural": "die Besatzungsmächte",
-    "lv": "Besættende magt",
+    "lv": "Besættelsesmagt",
     "level": "C1"
   },
   {
     "de": "Beschaffenheit",
     "de_article": "die",
     "de_plural": "die Beschaffenheiten",
-    "lv": "Beskaffenhed • Egenskaber",
+    "lv": "Beskaffenhed • Egenskab",
     "level": "C1"
   },
   {
     "de": "bescheinigen",
-    "lv": "Certificere • Udsted et certifikat",
+    "lv": "At attestere • At bekræfte",
     "level": "C1"
   },
   {
@@ -1745,19 +2760,19 @@ const C1_WORDS = [
   },
   {
     "de": "beschlagnahmen",
-    "lv": "Beslaglægge • Konfiskere",
+    "lv": "At beslaglægge • At konfiskere",
     "level": "C1"
   },
   {
     "de": "beschuldigen",
-    "lv": "Anklage • Fornærmelse",
+    "lv": "At anklage • At beskylde",
     "level": "C1"
   },
   {
     "de": "Besonderheit",
     "de_article": "die",
     "de_plural": "die Besonderheiten",
-    "lv": "Ejendommelighed • Mærkelighed",
+    "lv": "Særegenhed • Ejendommelighed",
     "level": "C1"
   },
   {
@@ -1768,48 +2783,48 @@ const C1_WORDS = [
   {
     "de": "Betriebskosten",
     "de_article": "die",
-    "lv": "Virksomhedens driftsudgifter • Produktionsomkostninger",
+    "lv": "Driftsomkostninger • Driftsudgifter",
     "level": "C1"
   },
   {
     "de": "Betriebssystem",
     "de_article": "das",
     "de_plural": "die Betriebssysteme",
-    "lv": "Computer installationssystem",
+    "lv": "Styresystem",
     "level": "C1"
   },
   {
     "de": "bevollmächtigen",
-    "lv": "Godkend • Give bemyndigelse",
+    "lv": "At befuldmægtige • At bemyndige",
     "level": "C1"
   },
   {
     "de": "bevorstehend",
-    "lv": "Kommende • Næste",
+    "lv": "Forestående • Kommende",
     "level": "C1"
   },
   {
     "de": "bewähren, sich",
-    "lv": "Vis sig at være sandt • Retfærdiggør",
+    "lv": "At vise sig egnet • At holde stik",
     "level": "C1"
   },
   {
     "de": "Beweismaterial",
     "de_article": "das",
     "de_plural": "die Beweismaterialien",
-    "lv": "Fysiske beviser",
+    "lv": "Bevismateriale",
     "level": "C1"
   },
   {
     "de": "bewerben, sich",
-    "lv": "Ansøge • Søge",
+    "lv": "At søge • At ansøge",
     "level": "C1"
   },
   {
     "de": "Bezugsperson",
     "de_article": "die",
     "de_plural": "die Bezugspersonen",
-    "lv": "Kontakt • Nærmeste person",
+    "lv": "Kontaktperson • Omsorgsperson",
     "level": "C1"
   },
   {
@@ -1857,7 +2872,7 @@ const C1_WORDS = [
     "de": "Bundesdeutsche",
     "de_article": "der",
     "de_plural": "die Bundesdeutschen",
-    "lv": "FFR borger",
+    "lv": "Vesttysker",
     "level": "C1"
   },
   {
@@ -1871,7 +2886,7 @@ const C1_WORDS = [
     "de": "Dachgepäckträger",
     "de_article": "der",
     "de_plural": "die Dachgepäckträger",
-    "lv": "Bil tagbøjler",
+    "lv": "Tagbagagebærer • Tagbøjler",
     "level": "C1"
   },
   {
@@ -1895,7 +2910,7 @@ const C1_WORDS = [
   },
   {
     "de": "dazwischenkommen",
-    "lv": "Komme i vejen • Komme imellem",
+    "lv": "At komme i vejen • At komme imellem",
     "level": "C1"
   },
   {
@@ -1935,19 +2950,19 @@ const C1_WORDS = [
   },
   {
     "de": "dementsprechend",
-    "lv": "Derfor",
+    "lv": "Tilsvarende • I overensstemmelse hermed",
     "level": "C1"
   },
   {
     "de": "dessen ungeachtet",
-    "lv": "På trods af det • På trods af det",
+    "lv": "Ikke desto mindre • Trods dette",
     "level": "C1"
   },
   {
     "de": "Nachrichtendienst",
     "de_article": "der",
     "de_plural": "die Nachrichtendienste",
-    "lv": "Statens efterretningstjeneste",
+    "lv": "Efterretningstjeneste",
     "level": "C1"
   },
   {
@@ -1961,12 +2976,12 @@ const C1_WORDS = [
     "de": "Dienstleistung",
     "de_article": "die",
     "de_plural": "die Dienstleistungen",
-    "lv": "Indenrigstjeneste",
+    "lv": "Tjenesteydelse",
     "level": "C1"
   },
   {
     "de": "dienstpflichtig",
-    "lv": "Afgivet til militærtjeneste",
+    "lv": "Værnepligtig",
     "level": "C1"
   },
   {
@@ -1996,7 +3011,7 @@ const C1_WORDS = [
     "de": "Dirigentenstab",
     "de_article": "der",
     "de_plural": "die Dirigentenstäbe",
-    "lv": "Dirigentstafetten",
+    "lv": "Taktstok",
     "level": "C1"
   },
   {
@@ -2008,14 +3023,14 @@ const C1_WORDS = [
   },
   {
     "de": "disqualifizieren",
-    "lv": "Diskvalificere",
+    "lv": "At diskvalificere",
     "level": "C1"
   },
   {
     "de": "Durchfuhrverbot",
     "de_article": "das",
     "de_plural": "die Durchfuhrverbote",
-    "lv": "Passageforbud",
+    "lv": "Transitforbud",
     "level": "C1"
   },
   {
@@ -2038,14 +3053,14 @@ const C1_WORDS = [
   },
   {
     "de": "eingeschrieben",
-    "lv": "Optaget • Registreret",
+    "lv": "Indskrevet • Anbefalet",
     "level": "C1"
   },
   {
     "de": "Währungseinheit",
     "de_article": "die",
     "de_plural": "die Währungseinheiten",
-    "lv": "Enhed af penge",
+    "lv": "Valutaenhed • Møntenhed",
     "level": "C1"
   },
   {
@@ -2064,12 +3079,12 @@ const C1_WORDS = [
   },
   {
     "de": "einreden",
-    "lv": "Bilde ind • Tale ind på",
+    "lv": "At bilde ind • At tale ind på",
     "level": "C1"
   },
   {
     "de": "sich einschmeicheln",
-    "lv": "At smigre • At smigre",
+    "lv": "At indsmigre sig • At indynde sig",
     "level": "C1"
   },
   {
@@ -2090,7 +3105,7 @@ const C1_WORDS = [
     "de": "Einstandsgebühr",
     "de_article": "die",
     "de_plural": "die Einstandsgebühren",
-    "lv": "Indgangsgebyr",
+    "lv": "Indmeldelsesgebyr",
     "level": "C1"
   },
   {
@@ -2125,14 +3140,14 @@ const C1_WORDS = [
     "de": "Elementarbegriff",
     "de_article": "der",
     "de_plural": "die Elementarbegriffe",
-    "lv": "Grundlæggende koncept",
+    "lv": "Grundbegreb",
     "level": "C1"
   },
   {
     "de": "Elementarregel",
     "de_article": "die",
     "de_plural": "die Elementarregeln",
-    "lv": "Grundlov",
+    "lv": "Grundregel",
     "level": "C1"
   },
   {
@@ -2151,22 +3166,22 @@ const C1_WORDS = [
   },
   {
     "de": "entgegensetzen",
-    "lv": "Set against • Set against",
+    "lv": "At sætte op imod • At stille over for",
     "level": "C1"
   },
   {
     "de": "sich entgegensetzen",
-    "lv": "Modstå",
+    "lv": "At modsætte sig",
     "level": "C1"
   },
   {
     "de": "entschädigen",
-    "lv": "Kompenser • Kompenser",
+    "lv": "At erstatte • At kompensere",
     "level": "C1"
   },
   {
     "de": "sich entschließen",
-    "lv": "At beslutte • At bestemme",
+    "lv": "At beslutte sig • At bestemme sig",
     "level": "C1"
   },
   {
@@ -2176,28 +3191,28 @@ const C1_WORDS = [
   },
   {
     "de": "entschlüsseln",
-    "lv": "Dechifrere",
+    "lv": "At dechifrere • At afkode",
     "level": "C1"
   },
   {
     "de": "Gesetzentwurf",
     "de_article": "der",
     "de_plural": "die Gesetzentwürfe",
-    "lv": "Regning",
+    "lv": "Lovforslag",
     "level": "C1"
   },
   {
     "de": "Entziehungskur",
     "de_article": "die",
     "de_plural": "die Entziehungskuren",
-    "lv": "Behandlingskursus for alkoholikere eller stofmisbrugere",
+    "lv": "Afvænningskur",
     "level": "C1"
   },
   {
     "de": "Erbkrankheit",
     "de_article": "die",
     "de_plural": "die Erbkrankheiten",
-    "lv": "Medfødt sygdom",
+    "lv": "Arvelig sygdom",
     "level": "C1"
   },
   {
@@ -2210,31 +3225,195 @@ const C1_WORDS = [
   {
     "de": "Erntearbeiten",
     "de_article": "die",
-    "lv": "Høstoperationer",
+    "lv": "Høstarbejde",
     "level": "C1"
   },
   {
     "de": "Ersatzspieler",
     "de_article": "der",
     "de_plural": "die Ersatzspieler",
-    "lv": "Reservespiller • Reservespiller",
+    "lv": "Reservespiller • Udskifter",
     "level": "C1"
   },
   {
     "de": "Erstaufführung",
     "de_article": "die",
     "de_plural": "die Erstaufführungen",
-    "lv": "Premiere • Premiere",
+    "lv": "Premiere • Uropførelse",
     "level": "C1"
   },
   {
     "de": "festgesetzt",
     "lv": "Fastlagt • Fastsat",
-    "level": "C1"
+    "level": "C1",
+    "study": {
+      "id": "c1-festgesetzt",
+      "layout": "standardStudy",
+      "translation": "Fastlagt • Fastsat",
+      "explanation": [
+        "Hovedidé: festgesetzt er kort tillægsform af festsetzen og betyder officielt fastsat eller fastlagt (en frist, en pris, en straf). Det beskriver noget, der er bestemt som bindende.",
+        "Adskilleligt udsagnsord: er setzt fest, setzte fest, hat festgesetzt. Som tillægsord bøjes det: der festgesetzte Termin, die festgesetzte Frist. I passiv: wurde festgesetzt.",
+        "I juridisk sprog kan festsetzen også betyde at tilbageholde eller anholde en person: Die Täter wurden festgesetzt."
+      ],
+      "examples": [
+        {
+          "de": "Der Termin ist auf den 5. Mai festgesetzt.",
+          "lv": "Datoen er fastsat til den 5. maj."
+        },
+        {
+          "de": "Die Preise wurden vom Staat festgesetzt.",
+          "lv": "Priserne blev fastsat af staten."
+        },
+        {
+          "de": "Die Strafe wurde auf zwei Jahre festgesetzt.",
+          "lv": "Straffen blev fastsat til to år."
+        },
+        {
+          "de": "Die festgesetzte Frist läuft morgen ab.",
+          "lv": "Den fastsatte frist udløber i morgen."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "festgelegt",
+          "meaning": "fastlagt (ved aftale)",
+          "example": "Der Plan ist festgelegt. – Planen er fastlagt."
+        },
+        {
+          "word": "beschlossen",
+          "meaning": "besluttet",
+          "example": "Das wurde beschlossen. – Det blev besluttet."
+        },
+        {
+          "word": "bestimmt",
+          "meaning": "bestemt, fastsat",
+          "example": "Der Ort ist bestimmt. – Stedet er bestemt."
+        }
+      ],
+      "tip": [
+        "Bruges ofte med Frist, Termin, Preis, Strafe, Höhe: auf einen Betrag festgesetzt.",
+        "I talesprog siger man oftere festgelegt; festgesetzt lyder mere officielt."
+      ],
+      "important": [
+        "Læg mærke til betydningen: festgesetzt betyder kun anholdt eller tilbageholdt i en politi- eller retssammenhæng."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "festgesetzt",
+            "festsetzen",
+            "setzt fest",
+            "setzte fest",
+            "festgesetzte",
+            "hat festgesetzt"
+          ],
+          "purple": [
+            "fastsat",
+            "fastlagt",
+            "tilbageholde"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "festgesetzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "fastsat"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "festgesetzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "fastsat"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "festgesetzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "fastsat"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "festgesetzte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "fastsatte"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "festgelegt"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "fastlagt"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "beschlossen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "besluttet"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "bestimmt"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "bestemt"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "feuergefährlich",
-    "lv": "Brandsikker",
+    "lv": "Brandfarlig • Letantændelig",
     "level": "C1"
   },
   {
@@ -2248,7 +3427,7 @@ const C1_WORDS = [
     "de": "Feuerwerkskörper",
     "de_article": "der",
     "de_plural": "die Feuerwerkskörper",
-    "lv": "Raket til fyrværkeri",
+    "lv": "Fyrværkeri • Fyrværkeriraket",
     "level": "C1"
   },
   {
@@ -2268,12 +3447,12 @@ const C1_WORDS = [
   {
     "de": "Fortbildungskurse",
     "de_article": "die",
-    "lv": "Faglige udviklingskurser",
+    "lv": "Efteruddannelseskurser",
     "level": "C1"
   },
   {
     "de": "fortgeschritten",
-    "lv": "Relativt sent i udviklingen",
+    "lv": "Fremskreden • Viderekommen",
     "level": "C1"
   },
   {
@@ -2292,7 +3471,7 @@ const C1_WORDS = [
     "de": "Friedensangebot",
     "de_article": "das",
     "de_plural": "die Friedensangebote",
-    "lv": "Et fredsoffer",
+    "lv": "Fredstilbud",
     "level": "C1"
   },
   {
@@ -2319,14 +3498,14 @@ const C1_WORDS = [
   {
     "de": "soziale Fürsorge",
     "de_article": "die",
-    "lv": "Social sikring",
+    "lv": "Socialforsorg",
     "level": "C1"
   },
   {
     "de": "Auffassungsgabe",
     "de_article": "die",
     "de_plural": "die Auffassungsgaben",
-    "lv": "Perceptiv evne",
+    "lv": "Opfattelsesevne",
     "level": "C1"
   },
   {
@@ -2381,14 +3560,14 @@ const C1_WORDS = [
     "de": "Beichtgeheimnis",
     "de_article": "das",
     "de_plural": "die Beichtgeheimnisse",
-    "lv": "En tilstået hemmelighed",
+    "lv": "Skriftehemmelighed",
     "level": "C1"
   },
   {
     "de": "Gehirnschlag",
     "de_article": "der",
     "de_plural": "die Gehirnschläge",
-    "lv": "Et slagtilfælde",
+    "lv": "Slagtilfælde • Hjerneblødning",
     "level": "C1"
   },
   {
@@ -2400,7 +3579,7 @@ const C1_WORDS = [
   },
   {
     "de": "geistesabwesend",
-    "lv": "Distraheret",
+    "lv": "Åndsfraværende • Fraværende",
     "level": "C1"
   },
   {
@@ -2410,14 +3589,14 @@ const C1_WORDS = [
   },
   {
     "de": "geistesschwach",
-    "lv": "Svag i ånden • Bevidst",
+    "lv": "Åndssvag • Tåbelig",
     "level": "C1"
   },
   {
     "de": "Geländefahrt",
     "de_article": "die",
     "de_plural": "die Geländefahrten",
-    "lv": "Langrendstur",
+    "lv": "Terrænkørsel",
     "level": "C1"
   },
   {
@@ -2434,60 +3613,66 @@ const C1_WORDS = [
     "study": {
       "id": "c1-gelegentlich",
       "layout": "standardStudy",
-      "translation": "Nogle gange • Anledning • Pga",
-      "explanation": "Hovedidé: gelegentlich er et ord med tre funktioner. Adjektiv: afslappet (ein gelegentlicher Besuch). Adverbium: nogle gange, fra tid til anden (Er kommt gelegentlich). Præposition + dativ: på grund af (gelegentlich des Festes).",
+      "translation": "Lejlighedsvis • Af og til",
+      "explanation": [
+        "Hovedidé: gelegentlich er oftest et biord og betyder af og til, lejlighedsvis: noget sker ikke regelmæssigt, men nu og da. Som tillægsord betyder det lejlighedsvis eller enkelt: gelegentliche Schauer – spredte byger.",
+        "Sjældnere og mere formelt er gelegentlich et forholdsord med genitiv, der betyder i anledning af: gelegentlich seines Geburtstags – i anledning af hans fødselsdag. Denne brug lyder i dag meget officiel eller gammeldags.",
+        "Som biord bøjes gelegentlich ikke; som tillægsord får det endelser."
+      ],
       "examples": [
         {
-          "de": "Er kommt gelegentlich vorbei.",
-          "lv": "Han kigger forbi nogle gange."
+          "de": "Wir treffen uns gelegentlich auf einen Kaffee.",
+          "lv": "Vi mødes af og til over en kop kaffe."
         },
         {
-          "de": "Ein gelegentlicher Besuch reicht.",
-          "lv": "Et lejlighedsvis besøg er nok."
+          "de": "Er raucht nur gelegentlich.",
+          "lv": "Han ryger kun lejlighedsvis."
         },
         {
-          "de": "Gelegentlich des Festes gab es eine Rede.",
-          "lv": "Der blev holdt tale i anledning af højtiden."
+          "de": "Gelegentliche Schauer sind möglich.",
+          "lv": "Der kan forekomme spredte byger."
+        },
+        {
+          "de": "Gelegentlich seines Geburtstags hielt er eine Rede.",
+          "lv": "I anledning af sin fødselsdag holdt han en tale."
         }
       ],
       "comparison": [
         {
-          "word": "gelegentlich (Adv.)",
-          "meaning": "Nogle gange • Nu og da",
-          "example": "Er kommt gelegentlich. = Han kommer af og til."
-        },
-        {
-          "word": "gelegentlich (Adj.)",
-          "meaning": "Casual • Tilfældig",
-          "example": "ein gelegentlicher Besuch = et lejlighedsvist besøg"
-        },
-        {
-          "word": "gelegentlich (+ Gen.)",
-          "meaning": "Pga",
-          "example": "gelegentlich des Festes = i anledning af festen"
-        },
-        {
           "word": "manchmal",
-          "meaning": "Undertiden",
-          "example": "Manchmal regnet es. = Nogle gange regner det."
+          "meaning": "nogle gange",
+          "example": "Manchmal gehe ich laufen. – Nogle gange løber jeg en tur."
+        },
+        {
+          "word": "ab und zu",
+          "meaning": "en gang imellem",
+          "example": "Ab und zu rufe ich ihn an. – En gang imellem ringer jeg til ham."
+        },
+        {
+          "word": "selten",
+          "meaning": "sjældent",
+          "example": "Er kommt selten. – Han kommer sjældent."
         }
       ],
-      "tip": {
-        "leftBlocks": [
-          {
-            "text": "Position i en sætning hjælper: før substantiv = adjektiv • Efter verbum = adverbium • + genitiv = præposition."
-          }
-        ]
-      },
-      "important": {
-        "text": "Adj.: afslappet. Adv.: nogle gange. Prep. + Gen.: pga. Kontekst bestemmer betydningen."
-      },
+      "tip": [
+        "Vil du sige af og til, men ikke regelmæssigt, så brug gelegentlich eller ab und zu.",
+        "I hverdagen hører du oftere manchmal; gelegentlich er mere korrekt og skriftsprogligt."
+      ],
+      "important": [
+        "Gelegentlich betyder ikke lejlighed eller mulighed: det hedder die Gelegenheit (lejlighed)."
+      ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "gelegentlich",
+            "gelegentliche",
+            "gelegentlich seines Geburtstags"
+          ],
           "purple": [
-            "Hovedidé",
-            "Hovedidé",
-            "Hovedidé"
+            "af og til",
+            "lejlighedsvis",
+            "i anledning af",
+            "spredte"
           ]
         },
         "examples": [
@@ -2499,7 +3684,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Han"
+                "af og til"
               ]
             }
           },
@@ -2518,15 +3703,72 @@ const C1_WORDS = [
           {
             "de": {
               "blue": [
+                "Gelegentliche"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "spredte"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
                 "Gelegentlich"
               ]
             },
             "lv": {
               "purple": [
-                "Der"
+                "I anledning af"
               ]
             }
           }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "manchmal"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "nogle gange"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "ab und zu"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "en gang imellem"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "selten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "sjældent"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {}
         ]
       }
     }
@@ -2535,14 +3777,14 @@ const C1_WORDS = [
     "de": "Gemäldegalerie",
     "de_article": "die",
     "de_plural": "die Gemäldegalerien",
-    "lv": "Maleri galleri",
+    "lv": "Malerigalleri",
     "level": "C1"
   },
   {
     "de": "Gemäldesammlung",
     "de_article": "die",
     "de_plural": "die Gemäldesammlungen",
-    "lv": "En samling af malerier",
+    "lv": "Malerisamling",
     "level": "C1"
   },
   {
@@ -2555,7 +3797,7 @@ const C1_WORDS = [
     "de": "Gemütsmensch",
     "de_article": "der",
     "de_plural": "die Gemütsmenschen",
-    "lv": "Venlig og venlig person",
+    "lv": "Godmodigt menneske",
     "level": "C1"
   },
   {
@@ -2581,45 +3823,45 @@ const C1_WORDS = [
   },
   {
     "de": "genmanipuliert",
-    "lv": "Med modificerede gener",
+    "lv": "Genmodificeret",
     "level": "C1"
   },
   {
     "de": "Gepäckschein",
     "de_article": "der",
     "de_plural": "die Gepäckscheine",
-    "lv": "Bagage kvittering",
+    "lv": "Bagagekvittering",
     "level": "C1"
   },
   {
     "de": "Gepflogenheit",
     "de_article": "die",
     "de_plural": "die Gepflogenheiten",
-    "lv": "Brugerdefineret • Brugerdefineret",
+    "lv": "Skik • Sædvane",
     "level": "C1"
   },
   {
     "de": "geradebiegen",
-    "lv": "Ret ud • Korrekt",
+    "lv": "At rette ud • At bringe i orden",
     "level": "C1"
   },
   {
     "de": "Schwurgericht",
     "de_article": "das",
     "de_plural": "die Schwurgerichte",
-    "lv": "Jury-retssag",
+    "lv": "Nævningeret",
     "level": "C1"
   },
   {
     "de": "Gerichtshof",
     "de_article": "der",
     "de_plural": "die Gerichtshöfe",
-    "lv": "Retssal • Tribunal",
+    "lv": "Domstol • Tribunal",
     "level": "C1"
   },
   {
     "de": "geringschätzig",
-    "lv": "Nedsættende • Foragtelig",
+    "lv": "Nedsættende • Foragtende",
     "level": "C1"
   },
   {
@@ -2633,14 +3875,14 @@ const C1_WORDS = [
     "de": "Gesamtergebnis",
     "de_article": "das",
     "de_plural": "die Gesamtergebnisse",
-    "lv": "Slutresultat • Slutresultat",
+    "lv": "Samlet resultat • Slutresultat",
     "level": "C1"
   },
   {
     "de": "Gesandtschaft",
     "de_article": "die",
     "de_plural": "die Gesandtschaften",
-    "lv": "Ambassade",
+    "lv": "Gesandtskab",
     "level": "C1"
   },
   {
@@ -2654,46 +3896,46 @@ const C1_WORDS = [
     "de": "Geschäftsjahr",
     "de_article": "das",
     "de_plural": "die Geschäftsjahre",
-    "lv": "Gårdår",
+    "lv": "Regnskabsår",
     "level": "C1"
   },
   {
     "de": "geschlechtsreif",
-    "lv": "Har nået seksuel modenhed",
+    "lv": "Kønsmoden",
     "level": "C1"
   },
   {
     "de": "Gesetzbuch",
     "de_article": "das",
     "de_plural": "die Gesetzbücher",
-    "lv": "Codex • Samling af love",
+    "lv": "Lovbog • Lovsamling",
     "level": "C1"
   },
   {
     "de": "gesetzgebend",
-    "lv": "Lovgiver",
+    "lv": "Lovgivende",
     "level": "C1"
   },
   {
     "de": "gesetzlos",
-    "lv": "Ulovlig",
+    "lv": "Lovløs",
     "level": "C1"
   },
   {
     "de": "gesetzmäßig",
-    "lv": "Lovlig • Lovlig",
+    "lv": "Lovmæssig • Lovlig",
     "level": "C1"
   },
   {
     "de": "gesetzwidrig",
-    "lv": "Mod loven",
+    "lv": "Lovstridig • Ulovlig",
     "level": "C1"
   },
   {
     "de": "Gesichtskreis",
     "de_article": "der",
     "de_plural": "die Gesichtskreise",
-    "lv": "Horisont • Horisont",
+    "lv": "Synsfelt • Horisont",
     "level": "C1"
   },
   {
@@ -2721,7 +3963,7 @@ const C1_WORDS = [
   },
   {
     "de": "gleichberechtigt",
-    "lv": "Lige • Med lige rettigheder",
+    "lv": "Ligeberettiget • Med lige rettigheder",
     "level": "C1"
   },
   {
@@ -2742,20 +3984,20 @@ const C1_WORDS = [
     "de": "Grundgesetz",
     "de_article": "das",
     "de_plural": "die Grundgesetze",
-    "lv": "Grundlov • Grundlov",
+    "lv": "Grundlov • Forfatning",
     "level": "C1"
   },
   {
     "de": "Gütertransport",
     "de_article": "der",
     "de_plural": "die Gütertransporte",
-    "lv": "Transport af varer",
+    "lv": "Godstransport • Varetransport",
     "level": "C1"
   },
   {
     "de": "Haft",
     "de_article": "die",
-    "lv": "Frihedsberøvelse • Anholdelse",
+    "lv": "Fængsling • Frihedsberøvelse",
     "level": "C1"
   },
   {
@@ -2767,7 +4009,7 @@ const C1_WORDS = [
   },
   {
     "de": "haften",
-    "lv": "Stick • At sidde fast",
+    "lv": "At klæbe • At sidde fast",
     "level": "C1"
   },
   {
@@ -2781,7 +4023,7 @@ const C1_WORDS = [
     "de": "Haltbarkeitsdauer",
     "de_article": "die",
     "de_plural": "die Haltbarkeitsdauern",
-    "lv": "Opbevaringstid",
+    "lv": "Holdbarhedstid • Holdbarhed",
     "level": "C1"
   },
   {
@@ -2809,21 +4051,21 @@ const C1_WORDS = [
     "de": "Hausdurchsuchung",
     "de_article": "die",
     "de_plural": "die Hausdurchsuchungen",
-    "lv": "Politiets eftersøgning",
+    "lv": "Ransagning • Husundersøgelse",
     "level": "C1"
   },
   {
     "de": "Haushaltsartikel",
     "de_article": "der",
     "de_plural": "die Haushaltsartikel",
-    "lv": "Husholdningsgenstande",
+    "lv": "Husholdningsartikel",
     "level": "C1"
   },
   {
     "de": "Haushaltshilfe",
     "de_article": "die",
     "de_plural": "die Haushaltshilfen",
-    "lv": "Betalt hjælp i husholdningen",
+    "lv": "Hushjælp",
     "level": "C1"
   },
   {
@@ -2847,17 +4089,17 @@ const C1_WORDS = [
   },
   {
     "de": "herunterkommen",
-    "lv": "Komme ned • Forfalde",
+    "lv": "At komme ned • At forfalde",
     "level": "C1"
   },
   {
     "de": "herunterstürzen",
-    "lv": "Fald til jorden • Fald til jorden",
+    "lv": "At styrte ned • At falde ned",
     "level": "C1"
   },
   {
     "de": "sich hinreißen lassen",
-    "lv": "Bliv spændt",
+    "lv": "At lade sig rive med",
     "level": "C1"
   },
   {
@@ -2876,7 +4118,7 @@ const C1_WORDS = [
     "de": "Industrieanlage",
     "de_article": "die",
     "de_plural": "die Industrieanlagen",
-    "lv": "Industrielt kompleks",
+    "lv": "Industrianlæg",
     "level": "C1"
   },
   {
@@ -2895,25 +4137,25 @@ const C1_WORDS = [
     "de": "Innenminister",
     "de_article": "der",
     "de_plural": "die Innenminister",
-    "lv": "Indenrigsministeren",
+    "lv": "Indenrigsminister",
     "level": "C1"
   },
   {
     "de": "Intensivstation",
     "de_article": "die",
     "de_plural": "die Intensivstationen",
-    "lv": "Intensiv afdeling på hospitalet",
+    "lv": "Intensivafdeling",
     "level": "C1"
   },
   {
     "de": "interpretieren",
-    "lv": "Fortolke • Forklar",
+    "lv": "At fortolke • At tolke",
     "level": "C1"
   },
   {
     "de": "Justiz",
     "de_article": "die",
-    "lv": "Retfærdighed • Retssager",
+    "lv": "Retsvæsen • Justits",
     "level": "C1"
   },
   {
@@ -2927,7 +4169,7 @@ const C1_WORDS = [
     "de": "Kapitalverbrechen",
     "de_article": "das",
     "de_plural": "die Kapitalverbrechen",
-    "lv": "En særlig alvorlig forbrydelse",
+    "lv": "Grov forbrydelse • Alvorlig forbrydelse",
     "level": "C1"
   },
   {
@@ -2953,21 +4195,21 @@ const C1_WORDS = [
     "de": "Krankheitserreger",
     "de_article": "der",
     "de_plural": "die Krankheitserreger",
-    "lv": "Sygdomsmiddel",
+    "lv": "Sygdomsfremkalder • Patogen",
     "level": "C1"
   },
   {
     "de": "Kriegsbeschädigte",
     "de_article": "der",
     "de_plural": "die Kriegsbeschädigten",
-    "lv": "En krigsinvalid",
+    "lv": "Krigsinvalid",
     "level": "C1"
   },
   {
     "de": "Kriegsgefangene",
     "de_article": "der",
     "de_plural": "die Kriegsgefangenen",
-    "lv": "En krigsfange",
+    "lv": "Krigsfange",
     "level": "C1"
   },
   {
@@ -2981,14 +4223,14 @@ const C1_WORDS = [
     "de": "Lawinenwarnung",
     "de_article": "die",
     "de_plural": "die Lawinenwarnungen",
-    "lv": "Advarsel om lavine",
+    "lv": "Lavinevarsel",
     "level": "C1"
   },
   {
     "de": "Lebenserwartung",
     "de_article": "die",
     "de_plural": "die Lebenserwartungen",
-    "lv": "Gennemsnitlig forventet levetid",
+    "lv": "Forventet levetid • Middellevetid",
     "level": "C1"
   },
   {
@@ -3000,7 +4242,7 @@ const C1_WORDS = [
     "de": "Lebensgefährte",
     "de_article": "der",
     "de_plural": "die Lebensgefährten",
-    "lv": "Ægtefælle i et uregistreret ægteskab",
+    "lv": "Samlever • Livsledsager",
     "level": "C1"
   },
   {
@@ -3013,7 +4255,7 @@ const C1_WORDS = [
   {
     "de": "Leistungssport",
     "de_article": "der",
-    "lv": "Professionel sport",
+    "lv": "Eliteidræt • Konkurrenceidræt",
     "level": "C1"
   },
   {
@@ -3025,7 +4267,7 @@ const C1_WORDS = [
     "de": "Liebesbeziehung",
     "de_article": "die",
     "de_plural": "die Liebesbeziehungen",
-    "lv": "Intime forhold",
+    "lv": "Kærlighedsforhold",
     "level": "C1"
   },
   {
@@ -3038,21 +4280,21 @@ const C1_WORDS = [
   {
     "de": "Linksextremismus",
     "de_article": "der",
-    "lv": "Venstre-ekstremisme",
+    "lv": "Venstreekstremisme",
     "level": "C1"
   },
   {
     "de": "Machtergreifung",
     "de_article": "die",
     "de_plural": "die Machtergreifungen",
-    "lv": "Overtagelse af magt",
+    "lv": "Magtovertagelse",
     "level": "C1"
   },
   {
     "de": "Machtübernahme",
     "de_article": "die",
     "de_plural": "die Machtübernahmen",
-    "lv": "Overtagelse af magt",
+    "lv": "Magtovertagelse",
     "level": "C1"
   },
   {
@@ -3066,7 +4308,7 @@ const C1_WORDS = [
     "de": "Marschflugkörper",
     "de_article": "der",
     "de_plural": "die Marschflugkörper",
-    "lv": "Krydsermissil • Krydsermissil",
+    "lv": "Krydsermissil",
     "level": "C1"
   },
   {
@@ -3085,17 +4327,17 @@ const C1_WORDS = [
     "de": "Meineid",
     "de_article": "der",
     "de_plural": "die Meineide",
-    "lv": "Bevidst mened i retten",
+    "lv": "Mened",
     "level": "C1"
   },
   {
     "de": "menschenfeindlich",
-    "lv": "Fjendtlig over for mennesker",
+    "lv": "Menneskefjendsk",
     "level": "C1"
   },
   {
     "de": "militärpflichtig",
-    "lv": "Med forbehold for militærtjeneste",
+    "lv": "Værnepligtig",
     "level": "C1"
   },
   {
@@ -3119,7 +4361,7 @@ const C1_WORDS = [
   },
   {
     "de": "niedergeschlagen",
-    "lv": "Deprimeret • Deprimeret",
+    "lv": "Nedslået • Deprimeret",
     "level": "C1"
   },
   {
@@ -3147,28 +4389,28 @@ const C1_WORDS = [
     "de": "Originalausgabe",
     "de_article": "die",
     "de_plural": "die Originalausgaben",
-    "lv": "Original udgave",
+    "lv": "Originaludgave",
     "level": "C1"
   },
   {
     "de": "Originalfassung",
     "de_article": "die",
     "de_plural": "die Originalfassungen",
-    "lv": "Original variant",
+    "lv": "Originalversion",
     "level": "C1"
   },
   {
     "de": "Originalgemälde",
     "de_article": "das",
     "de_plural": "die Originalgemälde",
-    "lv": "Originalt maleri",
+    "lv": "Originalmaleri",
     "level": "C1"
   },
   {
     "de": "Parteifunktionär",
     "de_article": "der",
     "de_plural": "die Parteifunktionäre",
-    "lv": "Partiarbejder",
+    "lv": "Partifunktionær",
     "level": "C1"
   },
   {
@@ -3182,7 +4424,7 @@ const C1_WORDS = [
     "de": "Preisfrage",
     "de_article": "die",
     "de_plural": "die Preisfragen",
-    "lv": "Konkurrence spørgsmål",
+    "lv": "Konkurrencespørgsmål • Prisspørgsmål",
     "level": "C1"
   },
   {
@@ -3216,32 +4458,32 @@ const C1_WORDS = [
     "de": "Produktionsweise",
     "de_article": "die",
     "de_plural": "die Produktionsweisen",
-    "lv": "Produktionstype",
+    "lv": "Produktionsmåde",
     "level": "C1"
   },
   {
     "de": "Rangierbahnhof",
     "de_article": "der",
     "de_plural": "die Rangierbahnhöfe",
-    "lv": "Jernbanegård",
+    "lv": "Rangerbanegård",
     "level": "C1"
   },
   {
     "de": "rätselhaft",
-    "lv": "Gådefuld • Uforståeligt",
+    "lv": "Gådefuld • Uforståelig",
     "level": "C1"
   },
   {
     "de": "Raumausstatter",
     "de_article": "der",
     "de_plural": "die Raumausstatter",
-    "lv": "En indretningsarkitekt",
+    "lv": "Boligindretter • Indretningsarkitekt",
     "level": "C1"
   },
   {
     "de": "Rechenschaft",
     "de_article": "die",
-    "lv": "Ansvarlighed (for ens handlinger) • Ansvar",
+    "lv": "Regnskab • Ansvar",
     "level": "C1"
   },
   {
@@ -3253,7 +4495,7 @@ const C1_WORDS = [
     "de": "Regenbogenpresse",
     "de_article": "die",
     "de_plural": "die Regenbogenpressen",
-    "lv": "Tabloidpresse",
+    "lv": "Sladderpresse",
     "level": "C1"
   },
   {
@@ -3281,7 +4523,7 @@ const C1_WORDS = [
     "de": "Rentenanspruch",
     "de_article": "der",
     "de_plural": "die Rentenansprüche",
-    "lv": "Ret til pension",
+    "lv": "Pensionsret",
     "level": "C1"
   },
   {
@@ -3293,7 +4535,7 @@ const C1_WORDS = [
   },
   {
     "de": "republikanisch",
-    "lv": "Republikanske • Republikker",
+    "lv": "Republikansk",
     "level": "C1"
   },
   {
@@ -3305,7 +4547,7 @@ const C1_WORDS = [
   },
   {
     "de": "sanktionieren",
-    "lv": "Support • Sanktion",
+    "lv": "At sanktionere • At godkende",
     "level": "C1"
   },
   {
@@ -3319,14 +4561,14 @@ const C1_WORDS = [
     "de": "Scheidungsgrund",
     "de_article": "der",
     "de_plural": "die Scheidungsgründe",
-    "lv": "Årsag til skilsmisse",
+    "lv": "Skilsmissegrund",
     "level": "C1"
   },
   {
     "de": "Schicksalsschlag",
     "de_article": "der",
     "de_plural": "die Schicksalsschläge",
-    "lv": "Et skæbneslag",
+    "lv": "Skæbneslag",
     "level": "C1"
   },
   {
@@ -3338,14 +4580,14 @@ const C1_WORDS = [
     "de": "Anklageschrift",
     "de_article": "die",
     "de_plural": "die Anklageschriften",
-    "lv": "Anklage",
+    "lv": "Anklageskrift",
     "level": "C1"
   },
   {
     "de": "Schwerindustrie",
     "de_article": "die",
     "de_plural": "die Schwerindustrien",
-    "lv": "Tung industri",
+    "lv": "Sværindustri",
     "level": "C1"
   },
   {
@@ -3358,7 +4600,7 @@ const C1_WORDS = [
     "de": "Selbstverwaltung",
     "de_article": "die",
     "de_plural": "die Selbstverwaltungen",
-    "lv": "Kommune",
+    "lv": "Selvstyre • Selvforvaltning",
     "level": "C1"
   },
   {
@@ -3370,12 +4612,12 @@ const C1_WORDS = [
     "de": "Sensationsmeldung",
     "de_article": "die",
     "de_plural": "die Sensationsmeldungen",
-    "lv": "Sensationel udtalelse",
+    "lv": "Sensationsnyhed",
     "level": "C1"
   },
   {
     "de": "sesshaft",
-    "lv": "Bor ét sted • Camper",
+    "lv": "Bofast • Fastboende",
     "level": "C1"
   },
   {
@@ -3396,7 +4638,7 @@ const C1_WORDS = [
     "de": "Konfliktsituation",
     "de_article": "die",
     "de_plural": "die Konfliktsituationen",
-    "lv": "Konflikt situation",
+    "lv": "Konfliktsituation",
     "level": "C1"
   },
   {
@@ -3456,7 +4698,7 @@ const C1_WORDS = [
   },
   {
     "de": "stimmberechtigt",
-    "lv": "Stemmeret",
+    "lv": "Stemmeberettiget",
     "level": "C1"
   },
   {
@@ -3468,7 +4710,7 @@ const C1_WORDS = [
   },
   {
     "de": "synchronisieren",
-    "lv": "Dub filmen",
+    "lv": "At synkronisere • At eftersynkronisere",
     "level": "C1"
   },
   {
@@ -3481,12 +4723,12 @@ const C1_WORDS = [
     "de": "Transfusion",
     "de_article": "die",
     "de_plural": "die Transfusionen",
-    "lv": "Direkte blodtransfusion fra én person til en anden",
+    "lv": "Blodtransfusion • Transfusion",
     "level": "C1"
   },
   {
     "de": "überanstrengen",
-    "lv": "At overarbejde • Sich ü. ved overarbejde",
+    "lv": "At overanstrenge • At overanstrenge sig",
     "level": "C1"
   },
   {
@@ -3500,12 +4742,12 @@ const C1_WORDS = [
     "de": "Überbleibsel",
     "de_article": "das",
     "de_plural": "die Überbleibsel",
-    "lv": "Overskud • Rester",
+    "lv": "Rest • Levn",
     "level": "C1"
   },
   {
     "de": "übereinstimmen",
-    "lv": "Enig • Enig med nogen",
+    "lv": "At stemme overens • At være enig",
     "level": "C1"
   },
   {
@@ -3519,14 +4761,14 @@ const C1_WORDS = [
     "de": "Umgangssprache",
     "de_article": "die",
     "de_plural": "die Umgangssprachen",
-    "lv": "Samtalesprog",
+    "lv": "Talesprog • Dagligsprog",
     "level": "C1"
   },
   {
     "de": "Unannehmlichkeit",
     "de_article": "die",
     "de_plural": "die Unannehmlichkeiten",
-    "lv": "Problemer • En ubehagelig lejlighed",
+    "lv": "Ubehagelighed • Gene",
     "level": "C1"
   },
   {
@@ -3536,14 +4778,14 @@ const C1_WORDS = [
   },
   {
     "de": "unerschütterlich",
-    "lv": "Urokkeligt",
+    "lv": "Urokkelig",
     "level": "C1"
   },
   {
     "de": "Unterschätzung",
     "de_article": "die",
     "de_plural": "die Unterschätzungen",
-    "lv": "Undervurdering • Undervurdering",
+    "lv": "Undervurdering",
     "level": "C1"
   },
   {
@@ -3553,17 +4795,181 @@ const C1_WORDS = [
   },
   {
     "de": "verabschieden",
-    "lv": "Frigivelse fra arbejde • Gå på pension",
-    "level": "C1"
+    "lv": "At tage afsked med • At vedtage",
+    "level": "C1",
+    "study": {
+      "id": "c1-verabschieden",
+      "layout": "standardStudy",
+      "translation": "At tage afsked med • At vedtage",
+      "explanation": [
+        "Hovedidé: sich verabschieden betyder at tage afsked med nogen, at sige farvel: Ich verabschiede mich von dir. Den person, man tager afsked med, står med von + dativ.",
+        "Tilbagevisende udsagnsord: ich verabschiede mich, er verabschiedet sich, verabschiedete sich, hat sich verabschiedet. Uden sich kan verabschieden betyde at tage højtidelig afsked med nogen (der Direktor wurde in den Ruhestand verabschiedet) eller at vedtage en lov (ein Gesetz verabschieden).",
+        "Navneordet er die Verabschiedung (afsked, vedtagelse af en lov)."
+      ],
+      "examples": [
+        {
+          "de": "Ich verabschiede mich von meinen Kollegen.",
+          "lv": "Jeg siger farvel til mine kolleger."
+        },
+        {
+          "de": "Sie verabschiedete sich und ging nach Hause.",
+          "lv": "Hun sagde farvel og gik hjem."
+        },
+        {
+          "de": "Das Parlament hat das Gesetz verabschiedet.",
+          "lv": "Parlamentet har vedtaget loven."
+        },
+        {
+          "de": "Der Direktor wurde nach dreißig Jahren in den Ruhestand verabschiedet.",
+          "lv": "Direktøren blev efter tredive år højtideligt sendt på pension."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Abschied nehmen",
+          "meaning": "at tage afsked",
+          "example": "Er nahm Abschied von seiner Heimat. – Han tog afsked med sit hjemland."
+        },
+        {
+          "word": "beschließen",
+          "meaning": "at beslutte, at vedtage",
+          "example": "Der Rat beschließt das Budget. – Rådet vedtager budgettet."
+        },
+        {
+          "word": "winken",
+          "meaning": "at vinke",
+          "example": "Sie winkt zum Abschied. – Hun vinker farvel."
+        }
+      ],
+      "tip": [
+        "I hverdagen siger man ved afsked: Ich verabschiede mich, tschüss! eller Auf Wiedersehen!",
+        "For at sige, hvem man tager afsked med, bruger man altid von + dativ."
+      ],
+      "important": [
+        "Love bliver verabschiedet i parlamentet; det er ikke hverdagsbetydningen at sige farvel."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "sich verabschieden",
+            "verabschiede",
+            "verabschiedete",
+            "verabschiedet",
+            "von",
+            "Verabschiedung"
+          ],
+          "purple": [
+            "tage afsked med",
+            "sige farvel",
+            "vedtage en lov"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "verabschiede"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "siger farvel"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verabschiedete"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "sagde farvel"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verabschiedet"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vedtaget"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verabschiedet"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "højtideligt sendt på pension"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "Abschied nehmen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "at tage afsked"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "beschließen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "at beslutte"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "winken"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "at vinke"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "veränderlich",
-    "lv": "Udskiftelig • Udskiftelig",
+    "lv": "Foranderlig • Skiftende",
     "level": "C1"
   },
   {
     "de": "veranschlagen",
-    "lv": "Anslå • Beregne",
+    "lv": "At anslå • At beregne",
     "level": "C1"
   },
   {
@@ -3582,17 +4988,17 @@ const C1_WORDS = [
     "de": "Verfassung",
     "de_article": "die",
     "de_plural": "die Verfassungen",
-    "lv": "Grundlov • Grundlov",
+    "lv": "Forfatning • Grundlov",
     "level": "C1"
   },
   {
     "de": "vergewaltigen",
-    "lv": "Voldtægt",
+    "lv": "At voldtage",
     "level": "C1"
   },
   {
     "de": "sich vergewissern",
-    "lv": "Sørg for",
+    "lv": "At forvisse sig • At sikre sig",
     "level": "C1"
   },
   {
@@ -3616,12 +5022,12 @@ const C1_WORDS = [
     "de": "Verhandlungen",
     "de_article": "die",
     "de_plural": "die Verhandlungen",
-    "lv": "Samtaler",
+    "lv": "Forhandlinger",
     "level": "C1"
   },
   {
     "de": "verheimlichen",
-    "lv": "Skjul • Hold hemmelig",
+    "lv": "At skjule • At hemmeligholde",
     "level": "C1"
   },
   {
@@ -3634,7 +5040,7 @@ const C1_WORDS = [
   {
     "de": "Verkehrswesen",
     "de_article": "das",
-    "lv": "Transportere",
+    "lv": "Transportvæsen • Trafikvæsen",
     "level": "C1"
   },
   {
@@ -3658,7 +5064,7 @@ const C1_WORDS = [
   },
   {
     "de": "vernachlässigen",
-    "lv": "At negligere • At være skødesløs",
+    "lv": "At forsømme • At negligere",
     "level": "C1"
   },
   {
@@ -3668,12 +5074,12 @@ const C1_WORDS = [
   },
   {
     "de": "sich verpflichten",
-    "lv": "Foretage",
+    "lv": "At forpligte sig • At påtage sig",
     "level": "C1"
   },
   {
     "de": "sich verschließen",
-    "lv": "For at lukke ned • For at slukke",
+    "lv": "At lukke sig inde • At isolere sig",
     "level": "C1"
   },
   {
@@ -3683,29 +5089,29 @@ const C1_WORDS = [
   },
   {
     "de": "verschlüsseln",
-    "lv": "For at kryptere • For at kode",
+    "lv": "At kryptere • At kode",
     "level": "C1"
   },
   {
     "de": "verschreiben",
-    "lv": "Med. at underskrive",
+    "lv": "At ordinere • At udskrive",
     "level": "C1"
   },
   {
     "de": "verschweigen",
-    "lv": "Tilbagehold • Ikke oplyse",
+    "lv": "At fortie • At tie med",
     "level": "C1"
   },
   {
     "de": "verständigen",
-    "lv": "Informer • Giv besked",
+    "lv": "At underrette • At give besked",
     "level": "C1"
   },
   {
     "de": "Versuchsanlage",
     "de_article": "die",
     "de_plural": "die Versuchsanlagen",
-    "lv": "Test facilitet",
+    "lv": "Forsøgsanlæg • Testanlæg",
     "level": "C1"
   },
   {
@@ -3719,12 +5125,12 @@ const C1_WORDS = [
     "de": "Versuchsreihe",
     "de_article": "die",
     "de_plural": "die Versuchsreihen",
-    "lv": "Serie af tests",
+    "lv": "Forsøgsrække • Testserie",
     "level": "C1"
   },
   {
     "de": "verunglücken",
-    "lv": "Lider i en ulykke • Lider i en ulykke",
+    "lv": "At forulykke • At komme ud for en ulykke",
     "level": "C1"
   },
   {
@@ -3734,36 +5140,36 @@ const C1_WORDS = [
   },
   {
     "de": "vervielfältigen",
-    "lv": "Gange",
+    "lv": "At mangfoldiggøre • At kopiere",
     "level": "C1"
   },
   {
     "de": "vervollkommnen",
-    "lv": "Suppler • Forbedre",
+    "lv": "At perfektionere • At forbedre",
     "level": "C1"
   },
   {
     "de": "sich vervollkommnen",
-    "lv": "Suppler din viden",
+    "lv": "At perfektionere sig • At dygtiggøre sig",
     "level": "C1"
   },
   {
     "de": "verwirklichen",
-    "lv": "Realisere • Implementere",
+    "lv": "At virkeliggøre • At realisere",
     "level": "C1"
   },
   {
     "de": "Volksabstimmung",
     "de_article": "die",
     "de_plural": "die Volksabstimmungen",
-    "lv": "Folkeafstemning • Folkeafstemning",
+    "lv": "Folkeafstemning",
     "level": "C1"
   },
   {
     "de": "Volksbefragung",
     "de_article": "die",
     "de_plural": "die Volksbefragungen",
-    "lv": "Afstemning af alle mennesker • Folkeafstemning",
+    "lv": "Folkeafstemning • Folkehøring",
     "level": "C1"
   },
   {
@@ -3775,19 +5181,19 @@ const C1_WORDS = [
   },
   {
     "de": "voreingenommen",
-    "lv": "Biased • Biased",
+    "lv": "Forudindtaget • Partisk",
     "level": "C1"
   },
   {
     "de": "waag[e]recht",
-    "lv": "Niveau • Vandret",
+    "lv": "Vandret",
     "level": "C1"
   },
   {
     "de": "Waffenruhe",
     "de_article": "die",
     "de_plural": "die Waffenruhen",
-    "lv": "En pause i kampene",
+    "lv": "Våbenhvile",
     "level": "C1"
   },
   {
@@ -3799,72 +5205,93 @@ const C1_WORDS = [
   },
   {
     "de": "wahlberechtigt",
-    "lv": "En der har stemmeret",
+    "lv": "Stemmeberettiget",
     "level": "C1",
     "study": {
       "id": "c1-wahlberechtigt",
       "layout": "standardStudy",
-      "translation": "En der har stemmeret",
-      "explanation": "Hovedidé: wahlberechtig er et adjektiv, der betyder, at en person har ret til at deltage i et valg - at stemme eller stille op til valg. Sammensætning: Wahl (valg) + behrechtig (berettiget).",
+      "translation": "Stemmeberettiget",
+      "explanation": [
+        "Hovedidé: wahlberechtigt er et tillægsord, der betegner en person med stemmeret – en, der må deltage i valg og stemme.",
+        "Som andre tillægsord bøjes det: wahlberechtigte Bürger. Af tillægsordet kan man danne et navneord: der/die Wahlberechtigte, die Wahlberechtigten (den stemmeberettigede, de stemmeberettigede).",
+        "Ordet består af die Wahl (valg) og berechtigt (berettiget) – ligesom dansk valgberettiget."
+      ],
       "examples": [
         {
-          "de": "Alle wahlberechtigten Bürger können wählen.",
-          "lv": "Alle stemmeberettigede kan stemme."
+          "de": "Alle Bürger ab 18 Jahren sind wahlberechtigt.",
+          "lv": "Alle borgere over 18 år er stemmeberettigede."
         },
         {
-          "de": "Ab 18 Jahren ist man wahlberechtigt.",
-          "lv": "Fra det fyldte 18. år har stemmeret."
+          "de": "Nur wahlberechtigte Personen dürfen abstimmen.",
+          "lv": "Kun stemmeberettigede personer må stemme."
         },
         {
-          "de": "Nicht alle Einwohner sind wahlberechtigt.",
-          "lv": "Ikke alle borgere har stemmeret."
+          "de": "Wer ist in dieser Stadt wahlberechtigt?",
+          "lv": "Hvem har stemmeret i denne by?"
+        },
+        {
+          "de": "Die Zahl der Wahlberechtigten ist gestiegen.",
+          "lv": "Antallet af stemmeberettigede er steget."
         }
       ],
       "comparison": [
         {
-          "word": "wahlberechtigt",
-          "meaning": "Med stemmeret",
-          "example": "Er ist wahlberechtigt. = Han har stemmeret."
+          "word": "das Wahlrecht",
+          "meaning": "stemmeret, valgret",
+          "example": "Das Wahlrecht ist ein Grundrecht. – Valgretten er en grundlæggende rettighed."
         },
         {
-          "word": "wählen",
-          "meaning": "At ønske • At stemme",
-          "example": "Ich wähle heute. = Jeg stemmer i dag."
+          "word": "wählbar",
+          "meaning": "valgbar",
+          "example": "Er ist wählbar. – Han er valgbar."
         },
         {
-          "word": "der Wähler",
-          "meaning": "Vælger",
-          "example": "Der Wähler geht zur Wahl. = Vælgeren går til valg."
+          "word": "stimmberechtigt",
+          "meaning": "stemmeberettiget (i en afstemning)",
+          "example": "Alle Mitglieder sind stimmberechtigt. – Alle medlemmer er stemmeberettigede."
         }
       ],
-      "tip": {
-        "leftBlocks": [
-          {
-            "text": "Wahl = valg, behrechtig = valgbar. Almindelig i presse og lovtekster."
-          }
-        ]
-      },
-      "important": {
-        "text": "Wahlberechtig = med stemmeret. Modsat: nicht wahlberechtigkeit."
-      },
+      "tip": [
+        "Skeln mellem wahlberechtigt (må stemme) og wählbar (kan blive valgt).",
+        "I statistik bruges: die Zahl der Wahlberechtigten – antallet af stemmeberettigede."
+      ],
+      "important": [
+        "Wahlberechtigt betyder ikke, at personen faktisk stemmer: det er kun en ret, ikke en handling."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "wahlberechtig",
-            "Wahl",
-            "behrechtig"
+            "wahlberechtigt",
+            "wahlberechtigte",
+            "Wahlberechtigten"
+          ],
+          "purple": [
+            "stemmeret",
+            "stemmeberettigede"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "wahlberechtigten"
+                "wahlberechtigt"
               ]
             },
             "lv": {
               "purple": [
-                "All"
+                "stemmeberettigede"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "wahlberechtigte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "stemmeberettigede"
               ]
             }
           },
@@ -3876,42 +5303,87 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Fra"
+                "har stemmeret"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "wahlberechtigt"
+                "Wahlberechtigten"
               ]
             },
             "lv": {
               "purple": [
-                "Ikke"
+                "stemmeberettigede"
               ]
             }
           }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "das Wahlrecht"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "stemmeret"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "wählbar"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "valgbar"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "stimmberechtigt"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "stemmeberettiget"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {}
         ]
       }
     }
   },
   {
     "de": "wahrhaft",
-    "lv": "Virkelig • Virkelig",
+    "lv": "Virkelig • Sand",
     "level": "C1"
   },
   {
     "de": "Wäscheschleuder",
     "de_article": "die",
     "de_plural": "die Wäscheschleudern",
-    "lv": "Spinner til vasketøj",
+    "lv": "Centrifuge • Tøjcentrifuge",
     "level": "C1"
   },
   {
     "de": "Wasserheilanstalt",
     "de_article": "die",
-    "lv": "Vandbehandlingsanlæg",
+    "lv": "Kuranstalt • Vandkuranstalt",
     "level": "C1"
   },
   {
@@ -3932,20 +5404,20 @@ const C1_WORDS = [
     "de": "Wechselbeziehung",
     "de_article": "die",
     "de_plural": "die Wechselbeziehungen",
-    "lv": "Gensidig kommunikation",
+    "lv": "Vekselvirkning • Gensidig sammenhæng",
     "level": "C1"
   },
   {
     "de": "Wehrersatzdienst",
     "de_article": "der",
-    "lv": "Civiltjeneste i stedet for værnepligt",
+    "lv": "Civiltjeneste",
     "level": "C1"
   },
   {
     "de": "Weidenkätzchen",
     "de_article": "das",
     "de_plural": "die Weidenkätzchen",
-    "lv": "Valmue",
+    "lv": "Pilerakle • Gæsling",
     "level": "C1"
   },
   {
@@ -3958,7 +5430,7 @@ const C1_WORDS = [
   {
     "de": "Wetterleuchten",
     "de_article": "das",
-    "lv": "Rust",
+    "lv": "Kornmod",
     "level": "C1"
   },
   {
@@ -3968,70 +5440,86 @@ const C1_WORDS = [
   },
   {
     "de": "wiederherstellen",
-    "lv": "Gendan • Gendan",
+    "lv": "At genoprette • At restaurere",
     "level": "C1"
   },
   {
     "de": "zusammenfallen",
-    "lv": "Kollaps • Sker",
+    "lv": "At falde sammen • At styrte sammen • At sammenfalde",
     "level": "C1"
   },
   {
     "de": "zusammenstellen",
-    "lv": "At komponere",
+    "lv": "At sammensætte • At sammenstille",
     "level": "C1"
   },
   {
     "de": "Zuschlag",
     "de_article": "der",
     "de_plural": "die Zuschläge",
-    "lv": "Premium • Markup",
+    "lv": "Tillæg • Pristillæg",
     "level": "C1",
     "study": {
       "id": "c1-zuschlag",
       "layout": "standardStudy",
-      "translation": "Premium • Markup",
+      "translation": "Tillæg • Pristillæg",
       "explanation": [
-        "Hovedidé: der Zuschlag betyder en præmie eller et tillæg - et ekstra beløb tilføjet til basisprisen.",
-        "I forbindelse med rejser/transport er der Zuschlag en ekstra afgift for et hurtigere tog, bedre sæde osv.",
-        "Ikke at forveksle med der Anhang/die Beilage (bilaget til dokumentet) - det er et andet ord.",
-        "I auktioner betyder den Zuschlag erhalten at vinde auktionen/modtage ordren."
+        "Hovedidé: der Zuschlag er et tillæg, der lægges oven i grundbeløbet: et pristillæg, et tillæg for natarbejde, for et hurtigtog eller for en ekstra ydelse.",
+        "Navneord i hankøn: der Zuschlag, flertal die Zuschläge (med omlyd). En anden vigtig betydning ved auktion eller udbud: den Zuschlag erhalten – få tilslaget, blive valgt.",
+        "Danner ofte sammensatte ord: Nachtzuschlag, Zugzuschlag, Gefahrenzuschlag."
       ],
       "examples": [
         {
-          "de": "Für den ICE muss man einen Zuschlag zahlen.",
-          "lv": "Der er et tillæg for ICE-toget."
+          "de": "Für Nachtarbeit gibt es einen Zuschlag.",
+          "lv": "For natarbejde får man et tillæg."
         },
         {
-          "de": "Der Zuschlag für die Nachtschicht beträgt 20%.",
-          "lv": "Natholdstillæg er 20%."
+          "de": "Im Zug musste ich einen Zuschlag bezahlen.",
+          "lv": "I toget måtte jeg betale et tillæg."
         },
         {
-          "de": "Sie erhielt den Zuschlag für den Auftrag.",
-          "lv": "Hun modtog ordren (på auktionen)."
+          "de": "Die Firma erhielt den Zuschlag für den Bau.",
+          "lv": "Firmaet fik tildelt byggeopgaven."
         },
         {
-          "de": "Es gibt einen Zuschlag für Übergepäck.",
-          "lv": "Der er et tillæg for overskydende bagage."
+          "de": "Das Hotel verlangt einen Zuschlag für Haustiere.",
+          "lv": "Hotellet tager et tillæg for husdyr."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "der Aufpreis",
+          "meaning": "merpris",
+          "example": "Für Leder zahlt man einen Aufpreis. – For læder betaler man en merpris."
         },
         {
-          "de": "Der Preis versteht sich ohne Zuschläge.",
-          "lv": "Prisen er uden tillæg."
+          "word": "die Gebühr",
+          "meaning": "gebyr, afgift",
+          "example": "Die Gebühr beträgt zehn Euro. – Gebyret er på ti euro."
+        },
+        {
+          "word": "der Rabatt",
+          "meaning": "rabat",
+          "example": "Sie bekommen einen Rabatt. – De får rabat."
         }
       ],
       "tip": [
-        "der Zuschlag = piemaksa/uzcenojums (papildu maksa), ne dokumenta pielikums.",
-        "den Zuschlag erhalten (i auktionerne) = vind auktionen/modtag ordren."
+        "Husk to anvendelser: einen Zuschlag bezahlen (betale et tillæg) og den Zuschlag erhalten (blive valgt ved en auktion eller et udbud).",
+        "Modsætning: Zuschlag (lagt til) og Abschlag (trukket fra)."
       ],
       "important": [
-        "der Zuschlag = piemaksa/uzcenojums, ne 'pielikums' dokumentam.",
-        "Bilaget til dokumentet på tysk er die Anlage/der Anhang."
+        "I nominativ flertal hedder det die Zuschläge, ikke die Zuschlägen (den form bruges kun i dativ)."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "Zuschlag",
+            "Zuschläge"
+          ],
           "purple": [
-            "Hovedidé",
-            "Hovedidé"
+            "tillæg",
+            "pristillæg",
+            "tilslaget"
           ]
         },
         "examples": [
@@ -4043,7 +5531,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Der"
+                "tillæg"
               ]
             }
           },
@@ -4055,130 +5543,249 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Natholdstillæg"
+                "tillæg"
               ]
             }
           },
           {
             "de": {
+              "blue": [
+                "Zuschlag"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "fik tildelt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Zuschlag"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tillæg"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
               "green": [
-                "Zuschlag"
+                "der Aufpreis"
               ]
             },
-            "lv": {
+            "meaning": {
               "purple": [
-                "ordren"
+                "merpris"
               ]
             }
           },
           {
-            "de": {
-              "blue": [
-                "Zuschlag"
+            "word": {
+              "green": [
+                "die Gebühr"
               ]
             },
-            "lv": {
+            "meaning": {
               "purple": [
-                "Der"
+                "gebyr"
               ]
             }
           },
           {
-            "de": {
-              "blue": [
-                "Zuschläge"
+            "word": {
+              "green": [
+                "der Rabatt"
               ]
             },
-            "lv": {
+            "meaning": {
               "purple": [
-                "Prisen"
+                "rabat"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "blue": [
-              "piemaksa",
-              "uzcenojums"
-            ]
-          },
-          {
-            "green": [
-              "den Zuschlag erhalten"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "purple": [
-              "piemaksa",
-              "uzcenojums"
-            ]
-          }
+          {}
         ]
       }
     }
   },
   {
     "de": "beziehen / sich beziehen auf",
-    "lv": "Ansøg • Ansøg til",
+    "lv": "At henføre • At henvise til",
     "level": "C1",
     "study": {
       "id": "c1-beziehen-sich-beziehen-auf",
       "layout": "standardStudy",
-      "translation": "Ansøg • Ansøg til",
+      "translation": "At henføre • At henvise til",
       "explanation": [
-        "Hovedidé: Formelt register: tilskrivelse til kilde, almindelig pension/lønmodtagelse eller indflytning i lejlighed.",
-        "Eksempler ser efter typisk daglig brug.",
-        "Når du er i tvivl, så tjek om det er en tilstand eller en handling.",
-        "Kontekst og handlingsforløb bestemmer det rigtige valg."
+        "Hovedidé: etwas auf etwas beziehen betyder at henføre noget til noget eller nogen; sich auf etwas beziehen betyder at angå noget eller at henvise til det.",
+        "Former: bezieht, bezog, hat bezogen. I begge konstruktioner følger auf + akkusativ: etwas auf sich beziehen (tage noget personligt), sich auf einen Text beziehen (henvise til en tekst).",
+        "Ud over denne betydning kan beziehen også betyde at rede seng (das Bett beziehen), at flytte ind (eine Wohnung beziehen) og at modtage regelmæssigt (ein Gehalt beziehen)."
       ],
       "examples": [
         {
-          "de": "beziehen / sich beziehen auf.",
-          "lv": "Ansøg • Ansøg til"
+          "de": "Du darfst das nicht auf dich beziehen.",
+          "lv": "Det må du ikke tage personligt."
+        },
+        {
+          "de": "Meine Frage bezieht sich auf den letzten Absatz.",
+          "lv": "Mit spørgsmål drejer sig om det sidste afsnit."
+        },
+        {
+          "de": "Er bezieht sich in seinem Brief auf unser Gespräch.",
+          "lv": "I sit brev henviser han til vores samtale."
+        },
+        {
+          "de": "Sie bezog die Aussage auf ihren Bruder.",
+          "lv": "Hun henførte udtalelsen til sin bror."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "betreffen",
+          "meaning": "at angå, at vedrøre",
+          "example": "Das betrifft uns alle. – Det angår os alle."
+        },
+        {
+          "word": "verweisen auf",
+          "meaning": "at henvise til",
+          "example": "Er verweist auf das Gesetz. – Han henviser til loven."
+        },
+        {
+          "word": "sich handeln um",
+          "meaning": "at dreje sig om",
+          "example": "Es handelt sich um einen Fehler. – Det drejer sig om en fejl."
         }
       ],
       "tip": [
-        "Formelt register: tilskrivelse til kilde, almindelig pension/lønmodtagelse eller indflytning i lejlighed.",
-        "Brug beziehen / sich beziehen auf når konteksten passer til denne betydning."
+        "Husk forbindelsen: sich beziehen auf + akkusativ. Forholdsordet er altid auf.",
+        "Vil du sige tage noget personligt: etwas auf sich beziehen."
       ],
       "important": [
-        "Formelt register: tilskrivelse til kilde, almindelig pension/lønmodtagelse eller indflytning i lejlighed.",
-        "beziehen / sich beziehen auf: før brug, tjek konteksten og sammenlign med andre ord på kortet."
+        "Beziehen er et ord med mange betydninger: sammenhængen afgør, om det handler om henvisning, sengetøj eller løn.",
+        "Betreffen er selv transitivt og bruges uden forholdsord: Das betrifft mich."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "beziehen",
+            "sich beziehen",
+            "bezieht",
+            "bezog",
+            "bezogen",
+            "auf"
+          ],
           "purple": [
-            "Hovedidé"
+            "henføre",
+            "angå",
+            "henvise til"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "beziehen / sich beziehen auf",
-                "beziehen / sich beziehen auf"
+                "beziehen"
               ]
             },
             "lv": {
               "purple": [
-                "Ansøg",
-                "Ansøg"
+                "tage personligt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bezieht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "drejer sig om"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bezieht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "henviser"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bezog"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "henførte"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "betreffen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "at angå"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "verweisen auf"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "at henvise til"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich handeln um"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "at dreje sig om"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "Formelt"
-            ]
-          },
+          {},
           {}
         ],
         "important": [
+          {},
           {}
         ]
       }
@@ -4193,178 +5800,232 @@ const C1_WORDS = [
       "layout": "standardStudy",
       "translation": "At have til hensigt • At planlægge",
       "explanation": [
-        "Hovedidé: En bevidst intention om at udføre en handling i fremtiden. Ikke om forholdet, men om planen.",
-        "Beabsichtigen betyder primært: bevidst hensigt.",
-        "Ofte præget af: plan / hensigt.",
-        "Beabsichtigen betyder grundlæggende: at planlægge en handling.",
-        "Ofte karakteriseret ved: officielt register.",
-        "Beabsichtigen betyder bevidst at have til hensigt eller planlægge en handling - ikke en relation, men en intention."
+        "Hovedidé: beabsichtigen betyder at have til hensigt, at planlægge at gøre noget; det er en bevidst hensigt. Det lyder mere formelt end vorhaben.",
+        "Regelmæssigt udsagnsord: er beabsichtigt, beabsichtigte, hat beabsichtigt. Efter det følger enten akkusativ (etwas beabsichtigen) eller navnemåde med zu: Ich beabsichtige, im Herbst umzuziehen. Navneordet er die Absicht (hensigt).",
+        "Den korte tillægsform beabsichtigt bruges som tillægsord: eine beabsichtigte Wirkung (en tilsigtet virkning)."
       ],
       "examples": [
         {
-          "de": "Er beabsichtigt, das Projekt zu beenden.",
-          "lv": "Han havde til hensigt at afslutte projektet."
+          "de": "Ich beabsichtige, im Herbst umzuziehen.",
+          "lv": "Jeg har til hensigt at flytte til efteråret."
         },
         {
-          "de": "Was beabsichtigen Sie mit dieser Maßnahme?",
-          "lv": "Hvad mener du med denne begivenhed?"
+          "de": "Die Firma beabsichtigt, ein neues Werk zu bauen.",
+          "lv": "Firmaet planlægger at bygge en ny fabrik."
         },
         {
-          "de": "Wir beabsichtigen keine Änderung.",
-          "lv": "Vi planlægger ikke en ændring."
+          "de": "Das war nicht beabsichtigt.",
+          "lv": "Det var ikke meningen."
         },
         {
-          "de": "Er beabsichtigt, das Projekt zu beenden.",
-          "lv": "Han havde til hensigt at afslutte projektet."
+          "de": "Was beabsichtigst du damit?",
+          "lv": "Hvad vil du opnå med det?"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "vorhaben",
+          "meaning": "at have planer om",
+          "example": "Ich habe vor, morgen zu kommen. – Jeg har planer om at komme i morgen."
         },
         {
-          "de": "beabsichtigen + zu + nenoteiksme",
-          "lv": "Har til hensigt at gøre noget."
+          "word": "planen",
+          "meaning": "at planlægge",
+          "example": "Wir planen eine Reise. – Vi planlægger en rejse."
+        },
+        {
+          "word": "wollen",
+          "meaning": "at ville",
+          "example": "Ich will schlafen. – Jeg vil sove."
         }
       ],
       "tip": [
-        "Når det kommer til relationer, kilder eller regelmæssig modtagelse - beziehen. Hvis om en bevidst plan — beabsichtigen.",
-        "beabsichtigen = at tænke"
+        "Efter beabsichtigen følger oftest zu + navnemåde med komma: …, zu bauen.",
+        "I hverdagen kan du også sige vorhaben eller planen; beabsichtigen er mere officielt."
       ],
       "important": [
-        "beabsichtigen + zu + nenoteiksme: Er beabsichtigt zu gehen.",
-        "beabsichtigen kan ikke erstattes af beziehen - det er en hensigt, ikke en relation.",
-        "beabsichtigen → nodoms, planer.",
-        "En bevidst intention om at udføre en handling i fremtiden. Ikke om forholdet, men om planen."
+        "Kort tillægsform er beabsichtigt (uden ge-), fordi forstavelsen be- er uadskillelig."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "beabsichtigen",
+            "beabsichtigt",
+            "beabsichtigte",
+            "vorhaben",
+            "Absicht"
+          ],
           "purple": [
-            "Hovedidé"
+            "have til hensigt",
+            "planlægge",
+            "hensigt"
           ]
         },
         "examples": [
           {
             "de": {
-              "green": [
+              "blue": [
+                "beabsichtige"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "har til hensigt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
                 "beabsichtigt"
               ]
             },
             "lv": {
               "purple": [
-                "Han"
+                "planlægger"
               ]
             }
           },
           {
             "de": {
-              "green": [
-                "beabsichtigen",
-                "beabsichtigen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Hvad"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "beabsichtigen",
-                "beabsichtigen"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "green": [
+              "blue": [
                 "beabsichtigt"
               ]
             },
             "lv": {
               "purple": [
-                "Han"
+                "meningen"
               ]
             }
           },
           {
             "de": {
-              "green": [
-                "beabsichtigen",
-                "beabsichtigen"
+              "blue": [
+                "beabsichtigst"
               ]
             },
             "lv": {
               "purple": [
-                "Har"
+                "vil du opnå"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "vorhaben"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "at have planer om"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "planen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "at planlægge"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "wollen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "at ville"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "Når"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "green": [
-              "beabsichtigen"
-            ]
-          }
+          {}
         ]
       }
     }
   },
   {
     "de": "unterstellen",
-    "lv": "Skyld • Tilskriv uden grundlag",
+    "lv": "At insinuere • At tillægge uden grundlag",
     "level": "C1",
     "study": {
       "id": "c1-unterstellen",
       "layout": "standardStudy",
-      "translation": "Skyld • Tilskriv uden grundlag",
+      "translation": "At insinuere • At tillægge uden grundlag",
       "explanation": [
-        "Hovedidé: Urimeligt tildele skyld, motiv eller hensigt til en anden.",
-        "Unterstellen betyder hovedsagelig: at tilskrive uden grundlag.",
-        "Ofte præget af: anklage/tiltrækning.",
-        "Jemandem etwas unterstellen betyder at tilskrive eller bebrejde uretfærdigt."
+        "Hovedidé: jemandem etwas unterstellen betyder at tillægge nogen noget (en hensigt, ord, en ond handling), ofte uden beviser – altså at insinuere. En anden betydning er at underlægge: Die Abteilung ist dem Direktor unterstellt.",
+        "Uadskilleligt udsagnsord med tryk på -stell-: er unterstellt, unterstellte, hat unterstellt. Konstruktion: jemandem etwas unterstellen (hvem? hvad?). Ligger trykket på unter-, er det et andet, adskilleligt udsagnsord: Ich stelle das Auto unter – stille bilen i læ; sich unterstellen – søge ly.",
+        "I denne betydning udtrykker ordet mistanke eller en ubegrundet bebrejdelse, og derfor lyder det skarpt."
       ],
       "examples": [
         {
-          "de": "Man unterstellt mir schlechte Absichten.",
-          "lv": "Jeg er anklaget for dårlige intentioner."
+          "de": "Er unterstellt mir böse Absichten.",
+          "lv": "Han tillægger mig onde hensigter."
         },
         {
-          "de": "Unterstellen Sie mir nichts!",
-          "lv": "Giv mig ikke skylden for noget!"
+          "de": "Das unterstelle ich dir nicht.",
+          "lv": "Det beskylder jeg dig ikke for."
         },
         {
-          "de": "Man darf niemandem Verrat unterstellen.",
-          "lv": "Ingen bør uretmæssigt anklages for forræderi."
+          "de": "Man unterstellte ihr, dass sie gelogen habe.",
+          "lv": "Man insinuerede, at hun havde løjet."
         },
         {
-          "de": "Ihm wird Untreue unterstellt.",
-          "lv": "Han er anklaget for mistillid."
+          "de": "Die Abteilung ist direkt dem Direktor unterstellt.",
+          "lv": "Afdelingen er direkte underlagt direktøren."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "vorwerfen",
+          "meaning": "at bebrejde",
+          "example": "Er wirft mir Faulheit vor. – Han bebrejder mig, at jeg er doven."
         },
         {
-          "de": "unterstellen",
-          "lv": "Ubegrundet skyld • Forecast"
+          "word": "beschuldigen",
+          "meaning": "at beskylde, at anklage",
+          "example": "Sie beschuldigt ihn des Diebstahls. – Hun beskylder ham for tyveri."
+        },
+        {
+          "word": "behaupten",
+          "meaning": "at påstå",
+          "example": "Er behauptet, krank zu sein. – Han påstår, at han er syg."
         }
       ],
       "tip": [
-        "unterstellen = bebrejde",
-        "Brug unterstellen, når sammenhængen passer til denne betydning."
+        "Husk: unterstellen = at tillægge nogen noget negativt, ofte uden grund.",
+        "Efter unterstellen står personen i dativ: Er unterstellt mir …"
       ],
       "important": [
-        "unterstellen er følelsesmæssigt negativ - en uberettiget anklage.",
-        "Forkert: Wir unterstellen Grundkenntnisse. → Korrekt: Wir setzen Grundkenntnisse voraus.",
-        "unterstellen → skyld, attribut."
+        "Det uadskillelige unterstellen (tillægge, underlægge) er ikke det samme som det adskillelige unterstellen (stille i læ, søge ly)."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "unterstellen",
+            "unterstellt",
+            "unterstellte"
+          ],
           "purple": [
-            "Hovedidé"
+            "tillægge",
+            "insinuere",
+            "underlægge",
+            "ubegrundet bebrejdelse"
           ]
         },
         "examples": [
@@ -4376,29 +6037,26 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Jeg"
+                "tillægger"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "unterstellen",
-                "unterstellen"
+                "unterstelle"
               ]
-            },
-            "lv": {}
+            }
           },
           {
             "de": {
               "blue": [
-                "unterstellen",
-                "unterstellen"
+                "unterstellte"
               ]
             },
             "lv": {
               "purple": [
-                "Ingen"
+                "insinuerede"
               ]
             }
           },
@@ -4410,296 +6068,559 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Han"
+                "underlagt"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "vorwerfen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "at bebrejde"
               ]
             }
           },
           {
-            "de": {
-              "blue": [
-                "unterstellen",
-                "unterstellen"
+            "word": {
+              "green": [
+                "beschuldigen"
               ]
             },
-            "lv": {}
+            "meaning": {
+              "purple": [
+                "at beskylde"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "behaupten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "at påstå"
+              ]
+            }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "unterstellen"
-            ]
-          },
+          {},
           {}
         ],
         "important": [
-          {
-            "blue": [
-              "unterstellen"
-            ]
-          }
+          {}
         ]
       }
     }
   },
   {
     "de": "voraussetzen",
-    "lv": "Tag som en forudsætning",
+    "lv": "At forudsætte",
     "level": "C1",
     "study": {
       "id": "c1-voraussetzen",
       "layout": "standardStudy",
-      "translation": "Tag som en forudsætning",
+      "translation": "At forudsætte",
       "explanation": [
-        "Hovedidé: At antage, at noget allerede er kendt eller eksisterer som grundlag.",
-        "Voraussetzen betyder hovedsageligt: at betragte som grundlag.",
-        "Ofte karakteriseret ved: en logisk præmis.",
-        "Etwas voraussetzen betyder at tage en forudsætning, der allerede eksisterer, for givet."
+        "Hovedidé: voraussetzen betyder at forudsætte – at regne noget for kendt eller selvfølgeligt, eller at kræve noget som forudsætning: Der Kurs setzt gute Kenntnisse voraus. Dansk forudsætte er bygget op på samme måde.",
+        "Adskilleligt udsagnsord: er setzt voraus, setzte voraus, hat vorausgesetzt. Det, man forudsætter, står i akkusativ. Navneordet er die Voraussetzung (forudsætning).",
+        "Den korte tillægsform vorausgesetzt med komma betyder forudsat at: Vorausgesetzt, es regnet nicht, grillen wir."
       ],
       "examples": [
         {
-          "de": "Wir setzen Grundkenntnisse voraus.",
-          "lv": "Vi accepterer grundlæggende viden som en forudsætning."
+          "de": "Der Kurs setzt gute Deutschkenntnisse voraus.",
+          "lv": "Kurset forudsætter gode tyskkundskaber."
         },
         {
-          "de": "Wir setzen Grundkenntnisse voraus.",
-          "lv": "Vi accepterer grundlæggende viden som en forudsætning."
+          "de": "Ich habe vorausgesetzt, dass du Bescheid weißt.",
+          "lv": "Jeg gik ud fra, at du vidste besked."
+        },
+        {
+          "de": "Diese Stelle setzt ein Studium voraus.",
+          "lv": "Denne stilling kræver en uddannelse som forudsætning."
+        },
+        {
+          "de": "Vorausgesetzt, es regnet nicht, grillen wir.",
+          "lv": "Forudsat at det ikke regner, griller vi."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "erfordern",
+          "meaning": "at kræve",
+          "example": "Die Aufgabe erfordert Geduld. – Opgaven kræver tålmodighed."
+        },
+        {
+          "word": "annehmen",
+          "meaning": "at antage, at gå ud fra",
+          "example": "Ich nehme an, dass er kommt. – Jeg antager, at han kommer."
+        },
+        {
+          "word": "die Voraussetzung",
+          "meaning": "forudsætning",
+          "example": "Das ist keine Voraussetzung. – Det er ingen forudsætning."
         }
       ],
       "tip": [
-        "voraussetzen = at antage en forudsætning",
-        "Brug voraussetzen, når konteksten passer til denne betydning."
+        "Husk adskillelsen: Das setzt Mühe voraus, men …, weil das Mühe voraussetzt.",
+        "Hyppig forbindelse: etwas als bekannt voraussetzen."
       ],
       "important": [
-        "voraussetzen er intetkøn — en præposition.",
-        "voraussetzen → tage som grundlag.",
-        "At betragte noget allerede kendt eller eksisterende som grundlag."
+        "Kort tillægsform er vorausgesetzt – ge- sættes ind mellem voraus og setzt."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "voraussetzen",
+            "setzt voraus",
+            "setzte voraus",
+            "vorausgesetzt",
+            "Voraussetzung"
+          ],
           "purple": [
-            "Hovedidé"
+            "forudsætte",
+            "forudsætning",
+            "forudsat at"
           ]
         },
         "examples": [
           {
-            "de": {},
-            "lv": {}
+            "de": {
+              "blue": [
+                "setzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "forudsætter"
+              ]
+            }
           },
           {
-            "de": {},
-            "lv": {}
+            "de": {
+              "blue": [
+                "vorausgesetzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "gik ud fra"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "setzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "forudsætning"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Vorausgesetzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Forudsat at"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "erfordern"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "at kræve"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "annehmen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "at antage"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Voraussetzung"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "forudsætning"
+              ]
+            }
           }
         ],
         "tip": [
+          {},
           {}
         ],
         "important": [
-          {
-            "green": [
-              "voraussetzen"
-            ]
-          }
+          {}
         ]
       }
     }
   },
   {
     "de": "bewahren",
-    "lv": "Beskyt • Bevar",
+    "lv": "At bevare • At beskytte",
     "level": "C1",
     "study": {
       "id": "c1-bewahren",
       "layout": "standardStudy",
-      "translation": "Beskyt • Bevar",
+      "translation": "At bevare • At beskytte",
       "explanation": [
-        "Hovedidé: At beskytte mod tab, skade eller ødelæggelse - værdi, tradition, fred.",
-        "Bewahren betyder primært: at beskytte mod tab.",
-        "Ofte præget af: bevarelse af værdier.",
-        "Bewahren betyder at beskytte mod beskadigelse, tab eller ændring."
+        "Hovedidé: bewahren betyder at beskytte mod noget slemt (jemanden vor etwas bewahren) og at bevare noget værdifuldt eller uforandret (Ruhe, Traditionen, Erinnerungen). Sammenlign dansk bevare – også i udtrykket Gud bevare os.",
+        "Regelmæssigt udsagnsord: er bewahrt, bewahrte, hat bewahrt. Beskyttelse: bewahren vor + dativ (hvem? mod hvad?). Bevarelse: akkusativ – die Ruhe bewahren. At bevare en hemmelighed: ein Geheimnis bewahren.",
+        "Ordet hører til en højere stil end behalten (beholde) eller aufheben (gemme)."
       ],
       "examples": [
         {
-          "de": "Wir bewahren die Traditionen.",
-          "lv": "Vi holder traditioner."
+          "de": "Bitte bewahren Sie Ruhe!",
+          "lv": "Bevar venligst roen!"
         },
         {
-          "de": "Sie bewahren die Ruhe in der Krise.",
-          "lv": "De holder sig rolige i en krise."
+          "de": "Der Helm hat ihn vor Schlimmerem bewahrt.",
+          "lv": "Hjelmen beskyttede ham mod noget værre."
         },
         {
-          "de": "Wir bewahren die Traditionen.",
-          "lv": "Vi holder traditioner."
+          "de": "Er bewahrte das Geheimnis jahrelang.",
+          "lv": "Han bevarede hemmeligheden i årevis."
         },
         {
-          "de": "bewahren",
-          "lv": "Beskyt/bevar • Aufrechterhalten"
+          "de": "Wir wollen diese Tradition bewahren.",
+          "lv": "Vi vil bevare denne tradition."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "aufbewahren",
+          "meaning": "at opbevare",
+          "example": "Bewahre die Quittung auf! – Opbevar kvitteringen!"
+        },
+        {
+          "word": "schützen",
+          "meaning": "at beskytte",
+          "example": "Der Zaun schützt vor dem Wind. – Hegnet beskytter mod vinden."
+        },
+        {
+          "word": "behalten",
+          "meaning": "at beholde",
+          "example": "Du kannst das Buch behalten. – Du må gerne beholde bogen."
         }
       ],
       "tip": [
-        "bewahren = at beskytte",
-        "Brug bewahren, når konteksten passer til denne betydning."
+        "Lær den faste vending: Ruhe bewahren – at bevare roen.",
+        "Beskytte mod noget: bewahren vor + dativ (vor Schaden, vor Gefahr)."
       ],
       "important": [
-        "bewahren: Wertvolles bewahren - beskyt det værdifulde.",
-        "Forkert: Wir bewahren den Frieden auf. → Korrekt: Wir erhalten den Frieden auf.",
-        "bewahren → beskytte, bevare."
+        "Bewahren er ikke det samme som aufbewahren: aufbewahren er fysisk opbevaring, bewahren er at bevare eller beskytte.",
+        "Kort tillægsform er bewahrt (uden ge-)."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "bewahren",
+            "bewahrt",
+            "bewahrte",
+            "behalten",
+            "vor",
+            "Ruhe bewahren"
+          ],
           "purple": [
-            "Hovedidé"
+            "beskytte",
+            "bevare"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "bewahren",
                 "bewahren"
               ]
             },
             "lv": {
               "purple": [
-                "holder"
+                "Bevar"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "bewahren",
-                "bewahren"
+                "bewahrt"
               ]
             },
             "lv": {
               "purple": [
-                "holder"
+                "beskyttede"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "bewahren",
-                "bewahren"
+                "bewahrte"
               ]
             },
             "lv": {
               "purple": [
-                "holder"
+                "bevarede"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "bewahren",
                 "bewahren"
               ]
             },
             "lv": {
               "purple": [
-                "Beskyt/bevar"
+                "bevare"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "aufbewahren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "at opbevare"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "schützen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "at beskytte"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "behalten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "at beholde"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "bewahren"
-            ]
-          },
+          {},
           {}
         ],
         "important": [
-          {
-            "blue": [
-              "bewahren"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
   },
   {
     "de": "aufrechterhalten",
-    "lv": "Oprethold i kraft",
+    "lv": "At opretholde",
     "level": "C1",
     "study": {
       "id": "c1-aufrechterhalten",
       "layout": "standardStudy",
-      "translation": "Oprethold i kraft",
+      "translation": "At opretholde",
       "explanation": [
-        "Hovedidé: At sikre, at en stat, orden eller relation vil fortsætte med at eksistere.",
-        "Aufrechterhalten betyder primært: at sikre fortsættelse.",
-        "Ofte karakteriseret ved: vedligeholdelse af tilstand.",
-        "Aufrechterhalten betyder at opretholde en stat, et system eller et forhold i kraft - for at sikre kontinuitet."
+        "Hovedidé: aufrechterhalten betyder at opretholde, ikke at miste: at holde noget i kraft eller i gang (orden, kontakt, en påstand, et tilbud). Dansk opretholde er en nær parallel.",
+        "Adskilleligt udsagnsord: er hält aufrecht, hielt aufrecht, hat aufrechterhalten. Det, man opretholder, står i akkusativ. Med zu + navnemåde: aufrechtzuerhalten.",
+        "Bruges meget ofte sammen med Ordnung, Kontakt, Verbindung, Behauptung, Forderung."
       ],
       "examples": [
         {
-          "de": "Der Staat erhält die Ordnung auf.",
-          "lv": "Staten holder orden i kraft."
+          "de": "Der Staat hält die Ordnung aufrecht.",
+          "lv": "Staten opretholder ordenen."
         },
         {
-          "de": "Man muss den Betrieb aufrechterhalten.",
-          "lv": "Skal holde handlingen i kraft."
+          "de": "Sie haben den Kontakt über Jahre aufrechterhalten.",
+          "lv": "De har holdt kontakten ved lige i årevis."
         },
         {
-          "de": "Der Staat erhält die Ordnung auf.",
-          "lv": "Staten holder orden i kraft."
+          "de": "Wir können dieses Angebot nicht länger aufrechterhalten.",
+          "lv": "Vi kan ikke længere opretholde dette tilbud."
+        },
+        {
+          "de": "Er hielt seine Behauptung aufrecht.",
+          "lv": "Han fastholdt sin påstand."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "erhalten",
+          "meaning": "at bevare",
+          "example": "Wir erhalten das Gebäude. – Vi bevarer bygningen."
+        },
+        {
+          "word": "beibehalten",
+          "meaning": "at bibeholde (uændret)",
+          "example": "Wir behalten den Plan bei. – Vi bibeholder planen."
+        },
+        {
+          "word": "pflegen",
+          "meaning": "at pleje, at holde ved lige",
+          "example": "Sie pflegt Kontakte. – Hun plejer sine kontakter."
         }
       ],
       "tip": [
-        "aufrechterhalten = holde i kraft",
-        "Brug aufrechterhalten, når konteksten passer til denne betydning."
+        "Husk adskillelsen: Er hält die Ordnung aufrecht, men …, dass er die Ordnung aufrechterhält.",
+        "Om kontakt siger man: den Kontakt aufrechterhalten (eller pflegen)."
       ],
       "important": [
-        "aufrechterhalten: Ordnung/Frieden/Stabilität aufrechterhalten.",
-        "aufrechterhalten → holde i kraft.",
-        "For at sikre, at en stat, orden eller relation vil fortsætte med at eksistere."
+        "I førnutid er aufrechterhalten ét ord uden ekstra ge-: hat aufrechterhalten."
       ],
       "sectionAccents": {
         "explanation": {
-          "green": [
+          "blue": [
             "aufrechterhalten",
-            "erhält",
-            "auf"
+            "hält aufrecht",
+            "hielt aufrecht",
+            "aufrechtzuerhalten"
+          ],
+          "purple": [
+            "opretholde",
+            "holde noget i kraft"
           ]
         },
         "examples": [
           {
-            "de": {},
-            "lv": {}
+            "de": {
+              "blue": [
+                "hält"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "opretholder"
+              ]
+            }
           },
           {
             "de": {
-              "green": [
-                "aufrechterhalten",
+              "blue": [
                 "aufrechterhalten"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "holdt kontakten ved lige"
+              ]
+            }
           },
           {
-            "de": {},
-            "lv": {}
+            "de": {
+              "blue": [
+                "aufrechterhalten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "opretholde"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hielt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "fastholdt"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "erhalten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "at bevare"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "beibehalten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "bibeholde"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "pflegen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "at pleje"
+              ]
+            }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "aufrechterhalten"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "green": [
-              "aufrechterhalten"
-            ]
-          }
+          {}
         ]
       }
     }
@@ -4715,21 +6636,21 @@ const C1_WORDS = [
     "de": "Karre",
     "de_article": "die",
     "de_plural": "die Karren",
-    "lv": "Trillebør",
+    "lv": "Kærre • Trækvogn",
     "level": "C1"
   },
   {
     "de": "Karren",
     "de_article": "der",
     "de_plural": "die Karren",
-    "lv": "Trillebør",
+    "lv": "Kærre • Trækvogn",
     "level": "C1"
   },
   {
     "de": "Krüppel",
     "de_article": "der",
     "de_plural": "die Krüppel",
-    "lv": "En krøbling",
+    "lv": "Krøbling",
     "level": "C1"
   },
   {
