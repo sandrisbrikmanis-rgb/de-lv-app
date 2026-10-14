@@ -23382,7 +23382,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "od",
       "explanation": [
-        "Glavna ideja: vom je stopljeni oblik od von + dem, dakle von s dativom u muškom ili srednjem rodu. Znači od, iz (porijeklo, polazna tačka, autor): vom Arzt, vom Bahnhof, vom Montag bis Freitag.",
+        "Glavna ideja: vom je stopljeni oblik od von + dem, dakle von s dativom u muškom ili srednjem rodu. Znači od, iz (porijeklo, polazna tačka, autor): vom Arzt, vom Bahnhof, vom ersten Tag an.",
         "U ženskom rodu i množini tog stapanja nema: von der Frau, von den Kindern. Vom je samo von dem.",
         "Kad treba naglasiti član, piše se von dem; u svakodnevnom govoru i pisanju obično se koristi vom."
       ],
@@ -23400,8 +23400,8 @@ const A1_WORDS = [
           "lv": "Voz sa trećeg kolosijeka uskoro polazi."
         },
         {
-          "de": "Vom Montag bis Freitag arbeite ich.",
-          "lv": "Od ponedjeljka do petka radim."
+          "de": "Vom ersten Tag an arbeite ich hier.",
+          "lv": "Od prvog dana radim ovdje."
         }
       ],
       "comparison": [

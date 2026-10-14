@@ -7290,7 +7290,7 @@ const A2_WORDS = [
           "example": "Der Geldautomat ist außer Betrieb. – Pengeautomaten er ude af drift."
         },
         {
-          "word": "die Sitzbank",
+          "word": "die Bank (bænk)",
           "meaning": "bænk",
           "example": "Wir sitzen auf der Bank. – Vi sidder på bænken."
         }
@@ -7393,7 +7393,7 @@ const A2_WORDS = [
           {
             "word": {
               "green": [
-                "die Sitzbank"
+                "die Bank (bænk)"
               ]
             },
             "meaning": {

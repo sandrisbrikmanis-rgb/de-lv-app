@@ -23386,7 +23386,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "no",
       "explanation": [
-        "Galvenā doma: vom ir saīsinājums no von + dem, tātad von ar datīvu vīriešu vai nekatrā dzimtē. Tas nozīmē no (izcelsme, sākumpunkts, autors): vom Arzt, vom Bahnhof, vom Montag bis Freitag.",
+        "Galvenā doma: vom ir saīsinājums no von + dem, tātad von ar datīvu vīriešu vai nekatrā dzimtē. Tas nozīmē no (izcelsme, sākumpunkts, autors): vom Arzt, vom Bahnhof, vom ersten Tag an.",
         "Sieviešu dzimtē un daudzskaitlī šī saīsinājuma nav: von der Frau, von den Kindern. Vom ir tikai von dem.",
         "Kad vajag uzsvērt artikulu, raksta von dem; ikdienā un rakstos parasti lieto vom."
       ],
@@ -23404,8 +23404,8 @@ const A1_WORDS = [
           "lv": "Vilciens no trešā perona drīz atiet."
         },
         {
-          "de": "Vom Montag bis Freitag arbeite ich.",
-          "lv": "No pirmdienas līdz piektdienai es strādāju."
+          "de": "Vom ersten Tag an arbeite ich hier.",
+          "lv": "No pirmās dienas es šeit strādāju."
         }
       ],
       "comparison": [
