@@ -58,7 +58,7 @@ const B2_WORDS = [
     "de": "Akt",
     "de_article": "der",
     "de_plural": "die Akte",
-    "lv": "\\",
+    "lv": "akt • vaatus • toiming",
     "level": "B2"
   },
   {
@@ -94,7 +94,7 @@ const B2_WORDS = [
   {
     "de": "Anbau",
     "de_article": "der",
-    "lv": "\\",
+    "lv": "juurdeehitus • kasvatamine",
     "level": "B2"
   },
   {
@@ -104,22 +104,201 @@ const B2_WORDS = [
   },
   {
     "de": "anführen",
-    "lv": "\\",
+    "lv": "juhtima • mainima • tsiteerima",
     "level": "B2"
   },
   {
     "de": "angebracht",
-    "lv": "\\",
-    "level": "B2"
+    "lv": "sobiv • kohane",
+    "level": "B2",
+    "study": {
+      "id": "b2-angebracht",
+      "layout": "standardStudy",
+      "translation": "sobiv • kohane",
+      "explanation": [
+        "Põhimõte: angebracht on omadussõna (tegusõnast anbringen), mis tähendab sobiv, kohane, konkreetses olukorras asjakohane. Tavaliselt kasutatakse seda öeldistäitena koos sõnaga sein: Vorsicht ist angebracht.",
+        "Sellega hinnatakse käitumist, märkust või tegu: see on sobiv või sobimatu (nicht angebracht, unangebracht). Ühendid: ein angebrachter Ton, eine angebrachte Bemerkung.",
+        "Otseses tähenduses on angebracht ka kinnitatud: Das Schild ist an der Tür angebracht (silt on ukse külge kinnitatud). See on sama kesksõnavorm tegusõnast anbringen (bringt an, brachte an, hat angebracht)."
+      ],
+      "examples": [
+        {
+          "de": "Hier ist Vorsicht angebracht.",
+          "lv": "Siin on ettevaatus kohane."
+        },
+        {
+          "de": "Seine Bemerkung war nicht angebracht.",
+          "lv": "Tema märkus ei olnud kohane."
+        },
+        {
+          "de": "Ein freundlicher Ton ist hier angebracht.",
+          "lv": "Sõbralik toon on siin sobiv."
+        },
+        {
+          "de": "Ich halte das für angebracht.",
+          "lv": "Ma pean seda sobivaks."
+        },
+        {
+          "de": "Das Schild ist an der Tür angebracht.",
+          "lv": "Silt on ukse külge kinnitatud."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "passend",
+          "meaning": "sobiv",
+          "example": "Das ist ein passendes Geschenk. – See on sobiv kingitus."
+        },
+        {
+          "word": "angemessen",
+          "meaning": "asjakohane, mõõdukas",
+          "example": "Der Preis ist angemessen. – Hind on mõõdukas."
+        },
+        {
+          "word": "unangebracht",
+          "meaning": "sobimatu",
+          "example": "Das war ein unangebrachter Witz. – See oli sobimatu nali."
+        }
+      ],
+      "tip": [
+        "Väljendit Das ist angebracht kasutatakse olukorra hindamiseks; vastupidisel juhul sobib unangebracht.",
+        "Sagedased kollokatsioonid: Vorsicht ist angebracht, Zurückhaltung ist angebracht."
+      ],
+      "important": [
+        "Angebracht kasutatakse tavaliselt koos sõnaga sein; nimisõna ees saab see lõpu: eine angebrachte Bemerkung.",
+        "Ära aja segi sõnaga angemessen: angebracht käib koha ja hetke kohta, angemessen — mõõdu ja vastavuse kohta."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "angebracht",
+            "anbringen",
+            "unangebracht"
+          ],
+          "purple": [
+            "sobiv",
+            "kohane",
+            "kinnitatud"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "angebracht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kohane"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "angebracht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kohane"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "angebracht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "sobiv"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "angebracht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "sobivaks"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "angebracht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kinnitatud"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "passend"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "sobiv"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "angemessen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "asjakohane, mõõdukas"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "unangebracht"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "sobimatu"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "angehen",
-    "lv": "\\",
+    "lv": "puudutama • ette võtma",
     "level": "B2"
   },
   {
     "de": "angehören",
-    "lv": "kuuluma millegi juurde",
+    "lv": "kuuluma",
     "level": "B2"
   },
   {
@@ -131,7 +310,7 @@ const B2_WORDS = [
   },
   {
     "de": "allerhand",
-    "lv": "\\",
+    "lv": "igasugune • mitmesugune",
     "level": "B2"
   },
   {
@@ -146,12 +325,12 @@ const B2_WORDS = [
   },
   {
     "de": "anbrechen",
-    "lv": "\\",
+    "lv": "algama • avama",
     "level": "B2"
   },
   {
     "de": "anbremsen",
-    "lv": "hakkama pidurdama",
+    "lv": "pidurdama",
     "level": "B2"
   },
   {
@@ -161,7 +340,7 @@ const B2_WORDS = [
   },
   {
     "de": "angeblich",
-    "lv": "\\",
+    "lv": "väidetav • väidetavalt",
     "level": "B2"
   },
   {
@@ -171,12 +350,12 @@ const B2_WORDS = [
   },
   {
     "de": "angelegt",
-    "lv": "\\",
+    "lv": "rajatud • investeeritud",
     "level": "B2"
   },
   {
     "de": "angeordnet",
-    "lv": "\\",
+    "lv": "korraldatud • määratud",
     "level": "B2"
   },
   {
@@ -186,22 +365,22 @@ const B2_WORDS = [
   },
   {
     "de": "angegriffen",
-    "lv": "\\",
+    "lv": "kurnatud • rünnatud",
     "level": "B2"
   },
   {
     "de": "abberufen",
-    "lv": "\\",
+    "lv": "tagasi kutsuma • ametist vabastama",
     "level": "B2"
   },
   {
     "de": "abblitzen",
-    "lv": "tagasi lükkama",
+    "lv": "korvi saama • tagasi lükatud saama",
     "level": "B2"
   },
   {
     "de": "abbringen",
-    "lv": "\\",
+    "lv": "ära rääkima • kõrvale juhtima",
     "level": "B2"
   },
   {
@@ -233,12 +412,12 @@ const B2_WORDS = [
   },
   {
     "de": "abfällig",
-    "lv": "negatiivne",
+    "lv": "halvustav • taunav",
     "level": "B2"
   },
   {
     "de": "abfertigen",
-    "lv": "\\",
+    "lv": "teenindama • vormistama • ära saatma",
     "level": "B2"
   },
   {
@@ -247,45 +426,346 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-abfinden",
-      "layout": "minimalStudy",
+      "layout": "standardStudy",
       "translation": "leppima millegagi",
-      "rektion": "mit + kellele?",
-      "explanation": "sich abfinden nõuab kindlat eessõna mit + kellele?.",
-      "forms": "mit + kellele?",
-      "formsLabel": "Rektsioon:",
+      "explanation": [
+        "Põhimõte: sich abfinden mit on enesekohane tegusõna, mis tähendab leppima millegi ebameeldivaga, mida ei saa muuta. Mit järel tuleb datiiv: sich mit etwas abfinden.",
+        "Vormid: er findet sich ab, fand sich ab, hat sich abgefunden. Eesliide ab- on eraldatav: Ich finde mich damit ab. Täisminevikus on abitegusõna haben ning ge pannakse ab- ja tüve vahele.",
+        "Ilma enesekohase asesõnata tähendab abfinden hüvitama: jemanden mit Geld abfinden (kellelegi rahalist hüvitist maksma)."
+      ],
+      "examples": [
+        {
+          "de": "Er kann sich nicht mit der Niederlage abfinden.",
+          "lv": "Ta ei suuda kaotusega leppida."
+        },
+        {
+          "de": "Sie hat sich mit ihrem Schicksal abgefunden.",
+          "lv": "Ta on oma saatusega leppinud."
+        },
+        {
+          "de": "Wir müssen uns damit abfinden.",
+          "lv": "Me peame sellega leppima."
+        },
+        {
+          "de": "Mit dem neuen Chef finde ich mich langsam ab.",
+          "lv": "Uue ülemusega lepin ma vähehaaval."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich gewöhnen an",
+          "meaning": "harjuma (millegagi)",
+          "example": "Ich gewöhne mich an die Kälte. – Ma harjun külmaga."
+        },
+        {
+          "word": "akzeptieren",
+          "meaning": "aktsepteerima, vastu võtma",
+          "example": "Wir akzeptieren die Entscheidung. – Me aktsepteerime otsust."
+        },
+        {
+          "word": "sich fügen",
+          "meaning": "alluma",
+          "example": "Er fügt sich dem Beschluss. – Ta allub otsusele."
+        }
+      ],
+      "tip": [
+        "Mit järel kasuta datiivi: mit dem Verlust, mit der Situation. Asesõnaga öeldakse damit (eesti keeles „sellega“).",
+        "Kui tahad öelda, et sa ei lepi, ütle Ich finde mich nicht damit ab."
+      ],
+      "important": [
+        "Ära aja segi abfinden-iga ilma sich-ita: see tähendab hüvitama või rahaga rahuldama.",
+        "Täisminevikuvorm on sich abgefunden (-ge- keskel), mitte gabgefunden."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich abfinden"
-          ],
-          "red": [
-            "mit + kellele?"
+            "abfinden",
+            "abgefunden",
+            "findet",
+            "finde",
+            "fand"
           ],
           "purple": [
-            "sich"
+            "leppima"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "abfinden"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "leppida"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "abgefunden"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "leppinud"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "abfinden"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "leppima"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "finde"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "lepin"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich gewöhnen an"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "harjuma"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "akzeptieren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "aktsepteerima, vastu võtma"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich fügen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "alluma"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
   {
     "de": "abgesehen",
-    "lv": "\\",
-    "level": "B2"
+    "lv": "välja arvatud • arvestamata",
+    "level": "B2",
+    "study": {
+      "id": "b2-abgesehen",
+      "layout": "standardStudy",
+      "translation": "välja arvatud • arvestamata",
+      "explanation": [
+        "Põhimõte: abgesehen on kesksõnavorm, mis toimib koos von-iga eessõnana ja tähendab välja arvatud või arvestamata: Abgesehen vom Wetter war alles gut.",
+        "Abgesehen von järel tuleb datiiv: abgesehen von einem Fehler. Kui järgneb terve lause, kasutatakse abgesehen davon, dass …, ja tegusõna on kõrvallause lõpus."
+      ],
+      "examples": [
+        {
+          "de": "Abgesehen vom Wetter war der Urlaub schön.",
+          "lv": "Kui ilm välja arvata, oli puhkus ilus."
+        },
+        {
+          "de": "Abgesehen davon, dass es teuer ist, gefällt es mir.",
+          "lv": "Arvestamata seda, et see on kallis, meeldib see mulle."
+        },
+        {
+          "de": "Abgesehen von einem Kratzer ist das Auto in Ordnung.",
+          "lv": "Kui kriimustus välja arvata, on auto korras."
+        },
+        {
+          "de": "Abgesehen von ihr waren alle da.",
+          "lv": "Kõik peale tema olid kohal."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "außer",
+          "meaning": "peale, välja arvatud",
+          "example": "Alle außer mir waren da. – Kõik peale minu olid kohal."
+        },
+        {
+          "word": "bis auf",
+          "meaning": "välja arvatud",
+          "example": "Bis auf einen Fehler war alles richtig. – Ühe vea välja arvatud oli kõik õige."
+        },
+        {
+          "word": "einschließlich",
+          "meaning": "kaasa arvatud",
+          "example": "Der Preis gilt einschließlich Frühstück. – Hinnas on hommikusöök kaasa arvatud."
+        }
+      ],
+      "tip": [
+        "Abgesehen järel pane alati von (või davon, dass): abgesehen von dir.",
+        "Sage märkuse algus: Abgesehen davon … (Peale selle …)."
+      ],
+      "important": [
+        "Abgesehen kasutatakse tavaliselt koos von-i või davon, dass-iga, et oleks selge, mida välja arvatakse.",
+        "Abgesehen von järel on nimisõna datiivis: abgesehen vom Preis (= von dem Preis)."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Abgesehen",
+            "abgesehen"
+          ],
+          "purple": [
+            "välja arvatud",
+            "arvestamata"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Abgesehen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "välja arvata"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Abgesehen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Arvestamata"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Abgesehen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "välja arvata"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Abgesehen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "peale"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "außer"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "peale, välja arvatud"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "bis auf"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "välja arvatud"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "einschließlich"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "kaasa arvatud"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "abgespannt",
-    "lv": "\\",
+    "lv": "väsinud • kurnatud",
     "level": "B2"
   },
   {
     "de": "abgetan",
-    "lv": "\\",
+    "lv": "lõpetatud • lahendatud",
     "level": "B2"
   },
   {
     "de": "abgrenzen",
-    "lv": "\\",
+    "lv": "piiritlema • eraldama",
     "level": "B2"
   },
   {
@@ -297,26 +777,26 @@ const B2_WORDS = [
   },
   {
     "de": "abhören",
-    "lv": "\\",
+    "lv": "pealt kuulama",
     "level": "B2"
   },
   {
     "de": "ableiten",
-    "lv": "\\",
+    "lv": "ära juhtima • tuletama",
     "level": "B2"
   },
   {
     "de": "Abneigung",
     "de_article": "die",
     "de_plural": "die Abneigungen",
-    "lv": "\\",
+    "lv": "vastumeelsus • antipaatia",
     "level": "B2"
   },
   {
     "de": "Abnutzung",
     "de_article": "die",
     "de_plural": "die Abnutzungen",
-    "lv": "\\",
+    "lv": "kulumine",
     "level": "B2"
   },
   {
@@ -328,14 +808,14 @@ const B2_WORDS = [
   },
   {
     "de": "abrichten",
-    "lv": "looma dresseerima",
+    "lv": "dresseerima",
     "level": "B2"
   },
   {
     "de": "Abrüstung",
     "de_article": "die",
     "de_plural": "die Abrüstungen",
-    "lv": "desarmeerumine",
+    "lv": "desarmeerimine • relvastuse vähendamine",
     "level": "B2"
   },
   {
@@ -347,39 +827,39 @@ const B2_WORDS = [
   },
   {
     "de": "abscheulich",
-    "lv": "\\",
+    "lv": "jälk • vastik",
     "level": "B2"
   },
   {
     "de": "abschieben",
-    "lv": "\\",
+    "lv": "välja saatma • eemale lükkama",
     "level": "B2"
   },
   {
     "de": "abschlagen",
-    "lv": "\\",
+    "lv": "maha lööma • tagasi lükkama • tõrjuma",
     "level": "B2"
   },
   {
     "de": "abschleppen",
-    "lv": "autot teisaldama",
+    "lv": "pukseerima",
     "level": "B2"
   },
   {
     "de": "abschrecken",
-    "lv": "\\",
+    "lv": "heidutama • järsult jahutama",
     "level": "B2"
   },
   {
     "de": "Abschrift",
     "de_article": "die",
     "de_plural": "die Abschriften",
-    "lv": "\\",
+    "lv": "ärakiri • koopia",
     "level": "B2"
   },
   {
     "de": "absondern",
-    "lv": "\\",
+    "lv": "eritama • eraldama • isoleerima",
     "level": "B2"
   },
   {
@@ -393,12 +873,12 @@ const B2_WORDS = [
     "de": "Abstecher",
     "de_article": "der",
     "de_plural": "die Abstecher",
-    "lv": "\\",
+    "lv": "põige • kõrvalreis",
     "level": "B2"
   },
   {
     "de": "abstimmen",
-    "lv": "\\",
+    "lv": "hääletama • kooskõlastama",
     "level": "B2"
   },
   {
@@ -410,39 +890,211 @@ const B2_WORDS = [
   },
   {
     "de": "abstoßend",
-    "lv": "\\",
+    "lv": "eemaletõukav • vastik",
     "level": "B2"
   },
   {
     "de": "Absturz",
     "de_article": "der",
     "de_plural": "die Abstürze",
-    "lv": "\\",
+    "lv": "allakukkumine • kukkumine",
     "level": "B2"
   },
   {
     "de": "absurd",
-    "lv": "\\",
+    "lv": "absurdne • mõttetu",
     "level": "B2"
   },
   {
     "de": "abtragen",
-    "lv": "\\",
-    "level": "B2"
+    "lv": "ära viima • ära kandma • lammutama",
+    "level": "B2",
+    "study": {
+      "id": "b2-abtragen",
+      "layout": "standardStudy",
+      "translation": "ära viima • ära kandma • lammutama",
+      "explanation": [
+        "Põhiidee: abtragen on eraldatava eesliitega tegusõna, millel on mitu tähendust: riideid ära kandma, (hoonet, küngast) lammutama või maha kaevama ning midagi ära viima (näiteks nõusid laualt). Põhivormid: trägt ab, trug ab, hat abgetragen.",
+        "Sageli kirjeldab kesksõna abgetragen ärakantud riideid: abgetragene Schuhe. Ehituses tähendab abtragen järk-järgult lammutama või eemaldama: eine Mauer abtragen.",
+        "Lisaks tähendab abtragen võlgu järk-järgult tasa maksma: Schulden abtragen. Kõigis tähendustes eesliide ab- eraldub: Er trägt die Teller ab."
+      ],
+      "examples": [
+        {
+          "de": "Die Schuhe sind schon stark abgetragen.",
+          "lv": "Kingad on juba tugevasti ära kantud."
+        },
+        {
+          "de": "Man trägt die alte Mauer Stein für Stein ab.",
+          "lv": "Vana müür lammutatakse kivi kivi haaval."
+        },
+        {
+          "de": "Die Kellnerin trägt die Teller ab.",
+          "lv": "Ettekandja viib taldrikud ära."
+        },
+        {
+          "de": "Er trägt seine Schulden in Raten ab.",
+          "lv": "Ta maksab oma võlad osamaksetena tasa."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "abreißen",
+          "meaning": "lammutama",
+          "example": "Man hat das alte Haus abgerissen. – Vana maja lammutati."
+        },
+        {
+          "word": "abräumen",
+          "meaning": "(lauda) koristama",
+          "example": "Sie räumt den Tisch ab. – Ta koristab laua."
+        },
+        {
+          "word": "verschleißen",
+          "meaning": "kuluma",
+          "example": "Die Reifen verschleißen schnell. – Rehvid kuluvad kiiresti."
+        }
+      ],
+      "tip": [
+        "Kontekst määrab tähenduse: riiete puhul on abtragen ära kandma, müüri puhul lammutama, toidu puhul ära viima.",
+        "Restoranis kuuleb abtragen sageli siis, kui lauda koristatakse."
+      ],
+      "important": [
+        "Ära aja abtragen segi sõnaga abreißen: abreißen tähendab hoonet kiiresti ja täielikult maha lõhkuma, abtragen aga järk-järgult eemaldama.",
+        "Täisminevik: hat abgetragen (ge- on ab- ja tragen vahel)."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "abtragen",
+            "trägt ab",
+            "trug ab",
+            "abgetragen",
+            "abtragen"
+          ],
+          "purple": [
+            "ära kandma",
+            "lammutama",
+            "ära viima",
+            "ärakantud",
+            "tasa maksma"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "abgetragen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ära kantud"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "trägt",
+                "ab"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "lammutatakse"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "trägt",
+                "ab"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "viib",
+                "ära"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "trägt",
+                "ab"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "maksab",
+                "tasa"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "abreißen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "lammutama"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "abräumen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "koristama"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "verschleißen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "kuluma"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "abtreten",
-    "lv": "\\",
+    "lv": "tagasi astuma • loovutama • lahkuma",
     "level": "B2"
   },
   {
     "de": "abweichen",
-    "lv": "\\",
+    "lv": "erinema • kõrvale kalduma",
     "level": "B2"
   },
   {
     "de": "abweisen",
-    "lv": "\\",
+    "lv": "tagasi lükkama • ära saatma",
     "level": "B2"
   },
   {
@@ -454,50 +1106,193 @@ const B2_WORDS = [
     "de": "Affäre",
     "de_article": "die",
     "de_plural": "die Affären",
-    "lv": "\\",
+    "lv": "afäär • armulugu",
     "level": "B2"
   },
   {
     "de": "sich abwenden",
-    "lv": "pöörduma millestki ära",
+    "lv": "ära pöörduma",
     "level": "B2",
     "study": {
       "id": "b2-sich-abwenden",
-      "layout": "minimalStudy",
-      "translation": "millestki ära pöörduma",
-      "rektion": "von + kellele?",
-      "explanation": "sich abwenden nõuab kindlat eessõna von + kellele?.",
-      "forms": "von + kellele?",
-      "formsLabel": "Rektsioon:",
+      "layout": "standardStudy",
+      "translation": "ära pöörduma",
+      "explanation": [
+        "Põhiidee: sich abwenden on eraldatava eesliitega enesekohane tegusõna, mis tähendab ära pöörduma – pilku või keha füüsiliselt kõrvale pöörama või ülekantud tähenduses kellestki või millestki eemalduma. Eessõna von järel on datiiv: sich von jemandem abwenden.",
+        "Põhivormid: wendet sich ab, wandte (harvem wendete) sich ab, hat sich abgewandt (harvem abgewendet). Eesliide ab- eraldub: Sie wendet sich ab.",
+        "Kui sich puudub, tähendab abwenden + akusatiiv ära hoidma: eine Gefahr abwenden (ohtu ära hoidma), ja sel juhul kasutatakse tavaliselt nõrku vorme: wendete ab, hat abgewendet."
+      ],
+      "examples": [
+        {
+          "de": "Sie wandte sich vom Fenster ab.",
+          "lv": "Ta pöördus aknast ära."
+        },
+        {
+          "de": "Viele Wähler haben sich von der Partei abgewandt.",
+          "lv": "Paljud valijad on erakonnast ära pöördunud."
+        },
+        {
+          "de": "Er wendet sich von seinen Freunden ab.",
+          "lv": "Ta pöördub oma sõpradest ära."
+        },
+        {
+          "de": "Die Mutter wandte sich enttäuscht ab.",
+          "lv": "Ema pöördus pettunult ära."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "abwenden",
+          "meaning": "ära hoidma",
+          "example": "Wir konnten die Katastrophe abwenden. – Me suutsime katastroofi ära hoida."
+        },
+        {
+          "word": "sich zuwenden",
+          "meaning": "pöörduma (kellegi poole)",
+          "example": "Sie wendet sich dem Kind zu. – Ta pöördub lapse poole."
+        },
+        {
+          "word": "sich umdrehen",
+          "meaning": "ümber pöörduma",
+          "example": "Er dreht sich um. – Ta pöördub ümber."
+        }
+      ],
+      "tip": [
+        "Eessõna von järel on datiiv: von der Politik, von den Freunden.",
+        "Jäta meelde vastand: sich abwenden (ära pöörduma) ja sich zuwenden (kellegi poole pöörduma)."
+      ],
+      "important": [
+        "Sich abwenden ja abwenden tähendavad eri asju: enesekohane vorm väljendab ärapöördumist, abwenden + akusatiiv aga ohu ärahoidmist.",
+        "Täisminevikus kasutatakse sich abwenden puhul sagedamini vormi abgewandt kui abgewendet."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich abwenden"
-          ],
-          "red": [
-            "von + kellele?"
+            "abwenden"
           ],
           "purple": [
-            "sich"
+            "ära pöörduma"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "wandte",
+                "ab"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pöördus",
+                "ära"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "abgewandt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ära pöördunud"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "wendet",
+                "ab"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pöördub",
+                "ära"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "wandte",
+                "ab"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pöördus",
+                "ära"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "abwenden"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ära hoidma"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "zuwenden"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "pöörduma"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "umdrehen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ümber pöörduma"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
   {
     "de": "Abzweigung",
     "de_article": "die",
-    "lv": "\\",
+    "lv": "hargnemiskoht • teeharu",
     "level": "B2"
   },
   {
     "de": "ächzen",
-    "lv": "\\",
+    "lv": "ägama • oigama",
     "level": "B2"
   },
   {
     "de": "affig",
-    "lv": "\\",
+    "lv": "edev • upsakas",
     "level": "B2"
   },
   {
@@ -514,23 +1309,23 @@ const B2_WORDS = [
     "de": "Andeutung",
     "de_article": "die",
     "de_plural": "die Andeutungen",
-    "lv": "\\",
+    "lv": "vihje",
     "level": "B2"
   },
   {
     "de": "andeuten",
-    "lv": "\\",
+    "lv": "vihjama • osutama",
     "level": "B2"
   },
   {
     "de": "Anmut",
     "de_article": "die",
-    "lv": "\\",
+    "lv": "graatsia • võlu",
     "level": "B2"
   },
   {
     "de": "annähernd",
-    "lv": "\\",
+    "lv": "ligikaudne • ligikaudu",
     "level": "B2"
   },
   {
@@ -609,7 +1404,7 @@ const B2_WORDS = [
   },
   {
     "de": "sich aufdrängen",
-    "lv": "pealetükkivalt käituma",
+    "lv": "peale tükkima",
     "level": "B2"
   },
   {
@@ -623,7 +1418,7 @@ const B2_WORDS = [
     "de": "Aufschluss",
     "de_article": "der",
     "de_plural": "die Aufschlüsse",
-    "lv": "\\",
+    "lv": "selgitus • teave",
     "level": "B2"
   },
   {
@@ -644,34 +1439,379 @@ const B2_WORDS = [
     "de": "Äußerlichkeit",
     "de_article": "die",
     "de_plural": "die Äußerlichkeiten",
-    "lv": "\\",
-    "level": "B2"
+    "lv": "välispidisus • formaalsus",
+    "level": "B2",
+    "study": {
+      "id": "b2--u-erlichkeit",
+      "layout": "standardStudy",
+      "translation": "välispidisus • formaalsus",
+      "explanation": [
+        "Põhiidee: die Äußerlichkeit on naissoost nimisõna, mis tähendab välispidisust – välist, pinnapealset asja, mis pole oluline. Kuna eesti keeles artikleid pole, jäta artikkel die koos sõnaga meelde. Sõna kasutatakse sageli mitmuses.",
+        "Mitmus on die Äußerlichkeiten. Tavaliselt kasutatakse sõna kriitilises tähenduses: Er achtet nur auf Äußerlichkeiten (ta pöörab tähelepanu ainult välispidisustele).",
+        "Sõna on tuletatud omadussõnast äußerlich (väline); nimisõna die Äußerlichkeit iseloomustab seda, mis on ainult väline, ilma sügavuseta."
+      ],
+      "examples": [
+        {
+          "de": "Ihm sind Äußerlichkeiten nicht wichtig.",
+          "lv": "Talle ei ole välispidisused olulised."
+        },
+        {
+          "de": "Das ist nur eine Äußerlichkeit.",
+          "lv": "See on ainult formaalsus."
+        },
+        {
+          "de": "Sie achtet zu sehr auf Äußerlichkeiten.",
+          "lv": "Ta pöörab liiga palju tähelepanu välispidisustele."
+        },
+        {
+          "de": "Man sollte sich nicht von Äußerlichkeiten täuschen lassen.",
+          "lv": "Ei tohiks lasta end välispidisustest petta."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "das Äußere",
+          "meaning": "välisilme",
+          "example": "Sein Äußeres täuscht. – Tema välisilme on petlik."
+        },
+        {
+          "word": "die Oberflächlichkeit",
+          "meaning": "pinnapealsus",
+          "example": "Ich mag keine Oberflächlichkeit. – Mulle ei meeldi pinnapealsus."
+        },
+        {
+          "word": "das Aussehen",
+          "meaning": "välimus",
+          "example": "Sein Aussehen hat sich verändert. – Tema välimus on muutunud."
+        }
+      ],
+      "tip": [
+        "Tavaliselt kasutatakse koos eessõnaga auf (auf Äußerlichkeiten achten) või sõnaga nur: nur eine Äußerlichkeit.",
+        "Sõna kõlab sageli kriitiliselt: see näitab, et miski on ainult pinnapealne."
+      ],
+      "important": [
+        "Mitmus Äußerlichkeiten on palju sagedasem kui ainsus.",
+        "Äußerlichkeit ei tähenda neutraalset välimust: välimust nimetatakse das Äußere."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Äußerlichkeit",
+            "Äußerlichkeiten"
+          ],
+          "purple": [
+            "välispidisust",
+            "välispidisustele"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Äußerlichkeiten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "välispidisused"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Äußerlichkeit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "formaalsus"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Äußerlichkeiten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "välispidisustele"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Äußerlichkeiten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "välispidisustest"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "das Äußere"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "välisilme"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Oberflächlichkeit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "pinnapealsus"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "das Aussehen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "välimus"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "Äußerung",
     "de_article": "die",
     "de_plural": "die Äußerungen",
-    "lv": "\\",
+    "lv": "ütlus • avaldus • väljendus",
     "level": "B2"
   },
   {
     "de": "aussetzen",
-    "lv": "\\",
-    "level": "B2"
+    "lv": "välja panema • hülgama • katkema",
+    "level": "B2",
+    "study": {
+      "id": "b2-aussetzen",
+      "layout": "standardStudy",
+      "translation": "välja panema • hülgama • katkema",
+      "explanation": [
+        "Põhiidee: aussetzen on eraldatava eesliitega tegusõna, millel on mitu tähendust: (koera, last) välja panema ehk hülgama, millegi (külma, ohu) mõjule jätma, (mootori, töö puhul) katkema või seiskuma ning väljendis an + datiiv – midagi ette heitma.",
+        "Põhivormid: setzt aus, setzte aus, hat ausgesetzt. Mõjule jätmise tähenduses kasutatakse datiivi: jemanden/etwas einer Gefahr aussetzen; sich der Sonne aussetzen. Kesksõnaline väljend ausgesetzt sein tähendab millegi mõjule allutatud olema.",
+        "Etteheitmise tähenduses kasutatakse väljendit etwas an jemandem/etwas auszusetzen haben: Ich habe nichts daran auszusetzen. Siin paigutub zu eesliite ja tüve vahele: auszusetzen."
+      ],
+      "examples": [
+        {
+          "de": "Sie setzten den Hund im Wald aus.",
+          "lv": "Nad hülgasid koera metsas."
+        },
+        {
+          "de": "Die Kinder sind der Kälte ausgesetzt.",
+          "lv": "Lapsed on külma meelevallas."
+        },
+        {
+          "de": "Der Motor setzte plötzlich aus.",
+          "lv": "Mootor jäi äkki seisma."
+        },
+        {
+          "de": "Ich habe nichts an deinem Plan auszusetzen.",
+          "lv": "Mul pole sinu plaanile midagi ette heita."
+        },
+        {
+          "de": "Du solltest dich nicht zu lange der Sonne aussetzen.",
+          "lv": "Sa ei peaks end liiga kauaks päikese kätte jätma."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "unterbrechen",
+          "meaning": "katkestama",
+          "example": "Das Spiel wurde unterbrochen. – Mäng katkestati."
+        },
+        {
+          "word": "kritisieren",
+          "meaning": "kritiseerima",
+          "example": "Er kritisiert den Plan. – Ta kritiseerib plaani."
+        },
+        {
+          "word": "verlassen",
+          "meaning": "maha jätma",
+          "example": "Er hat seine Familie verlassen. – Ta jättis oma pere maha."
+        }
+      ],
+      "tip": [
+        "Kontekst määrab tähenduse: looma või lapse puhul – hülgama, päikese või ohu puhul – millegi mõjule jätma, mootori puhul – seiskuma.",
+        "Etteheitmise tähenduses kasutatakse tavaliselt eitavat vormi: nichts auszusetzen haben."
+      ],
+      "important": [
+        "Mõjule jätmise tähenduses järgneb sõnale aussetzen datiiv (der Gefahr, dem Risiko), mitte akusatiiv.",
+        "Ära aja segi ausgesetzt sein (millegi mõjule allutatud olema) ja ausgestellt (välja pandud või välja antud)."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "aussetzen",
+            "setzt",
+            "setzte",
+            "ausgesetzt",
+            "auszusetzen"
+          ],
+          "purple": [
+            "välja panema",
+            "hülgama",
+            "mõjule jätma",
+            "katkema",
+            "ette heitma"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "setzten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "hülgasid"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ausgesetzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "meelevallas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "setzte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "jäi",
+                "seisma"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "auszusetzen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ette heita"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "aussetzen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kätte jätma"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "unterbrechen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "katkestama"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "kritisieren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "kritiseerima"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "verlassen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "maha jätma"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "aussichtslos",
-    "lv": "\\",
+    "lv": "lootusetu",
     "level": "B2"
   },
   {
     "de": "ausspannen",
-    "lv": "\\",
+    "lv": "puhkama • lahti rakendama • üle lööma",
     "level": "B2"
   },
   {
     "de": "ausstatten",
-    "lv": "\\",
+    "lv": "varustama • sisustama",
     "level": "B2"
   },
   {
@@ -681,42 +1821,379 @@ const B2_WORDS = [
   },
   {
     "de": "ausstopfen",
-    "lv": "\\",
+    "lv": "täis toppima • topiseks tegema",
     "level": "B2"
   },
   {
     "de": "ausströmen",
-    "lv": "\\",
-    "level": "B2"
+    "lv": "välja voolama • õhkuma",
+    "level": "B2",
+    "study": {
+      "id": "b2-ausstr-men",
+      "layout": "standardStudy",
+      "translation": "välja voolama • õhkuma",
+      "explanation": [
+        "Põhiidee: ausströmen tähendab välja voolama või lekkima (gaasi, õhu, vedeliku puhul) või ülekantud tähenduses õhkuma, levitama (rahu, soojust). Eesliide aus- eraldub.",
+        "Põhivormid: strömt aus, strömte aus. Kui miski voolab välja ehk tegemist on liikumisega, on täisminevikus abitegusõnaks sein: Das Gas ist ausgeströmt. Akusatiivse sihitisega (Ruhe ausströmen) kasutatakse haben: Sie hat Ruhe ausgeströmt.",
+        "Sõna on lähedane tegusõnale strömen (voolama). Kõige sagedamini kasutatakse seda tehnilises tähenduses gaasilekke kohta ja ülekantud tähenduses inimese jäetud mulje kohta."
+      ],
+      "examples": [
+        {
+          "de": "Aus dem Rohr strömt Gas aus.",
+          "lv": "Torust lekib gaasi."
+        },
+        {
+          "de": "Das Wasser ist aus dem Tank ausgeströmt.",
+          "lv": "Vesi on paagist välja voolanud."
+        },
+        {
+          "de": "Sie strömt Ruhe aus.",
+          "lv": "Temast õhkub rahu."
+        },
+        {
+          "de": "Aus der Küche strömte ein feiner Duft aus.",
+          "lv": "Köögist levis peen lõhn."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "ausfließen",
+          "meaning": "välja voolama",
+          "example": "Das Öl fließt aus dem Tank aus. – Õli voolab paagist välja."
+        },
+        {
+          "word": "austreten",
+          "meaning": "lekkima, välja tungima",
+          "example": "Aus dem Rohr tritt Gas aus. – Torust lekib gaasi."
+        },
+        {
+          "word": "ausstrahlen",
+          "meaning": "kiirgama, õhkuma",
+          "example": "Er strahlt Freude aus. – Temast kiirgab rõõmu."
+        }
+      ],
+      "tip": [
+        "Gaasilekke kohta öeldakse Gas strömt aus; see viitab tavaliselt ohtlikule olukorrale.",
+        "Abitegusõnaga sein moodustatakse täisminevik siis, kui sihitist pole: ist ausgeströmt."
+      ],
+      "important": [
+        "Täisminevikus on abitegusõnaks sein, kui miski voolab välja (ist ausgeströmt), ja haben, kui on sihitis (hat Ruhe ausgeströmt).",
+        "Ausströmen ei ole sama mis ausschütten (välja valama): seda teeb inimene."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "ausströmen",
+            "strömt aus",
+            "strömte aus",
+            "ausgeströmt",
+            "strömen"
+          ],
+          "purple": [
+            "välja voolama",
+            "lekkima",
+            "õhkuma"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "strömt",
+                "aus"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "lekib"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ausgeströmt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "välja voolanud"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "strömt",
+                "aus"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "õhkub"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "strömte",
+                "aus"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "levis"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "ausfließen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "välja voolama"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "austreten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "lekkima"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "ausstrahlen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "kiirgama"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "austragen",
-    "lv": "\\",
+    "lv": "laiali kandma • läbi viima",
     "level": "B2"
   },
   {
     "de": "austreiben",
-    "lv": "\\",
+    "lv": "välja ajama • võõrutama",
     "level": "B2"
   },
   {
     "de": "austreten",
-    "lv": "\\",
-    "level": "B2"
+    "lv": "välja astuma • sisse tallama",
+    "level": "B2",
+    "study": {
+      "id": "b2-austreten",
+      "layout": "standardStudy",
+      "translation": "välja astuma • sisse tallama",
+      "explanation": [
+        "Põhiidee: austreten on eraldatava eesliitega tegusõna, millel on kaks peamist tähendusrühma: ilma sihitiseta (abitegusõnaga sein) – organisatsioonist välja astuma või välja lekkima; akusatiiviga (abitegusõnaga haben) – sisse tallama või jalaga ära kustutama.",
+        "Põhivormid: tritt aus, trat aus. Väljaastumine: Er ist aus dem Verein ausgetreten (aus + datiiv). Lekkimine: Gas ist ausgetreten. Jalaga kustutamine: Er hat die Zigarette ausgetreten (kustutas sigareti jalaga).",
+        "Kesksõna ausgetreten kirjeldab omadussõnana kulunud, sissetallatud kohta: ausgetretene Stufen (sissetallatud trepiastmed)."
+      ],
+      "examples": [
+        {
+          "de": "Er ist aus dem Verein ausgetreten.",
+          "lv": "Ta astus seltsist välja."
+        },
+        {
+          "de": "Aus dem Tank ist Öl ausgetreten.",
+          "lv": "Paagist lekkis õli."
+        },
+        {
+          "de": "Er hat die Zigarette auf dem Boden ausgetreten.",
+          "lv": "Ta kustutas sigareti põrandal jalaga."
+        },
+        {
+          "de": "Die alten Stufen sind schon ausgetreten.",
+          "lv": "Vanad trepiastmed on juba sisse tallatud."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "eintreten",
+          "meaning": "sisse astuma, liikmeks astuma",
+          "example": "Er tritt in den Verein ein. – Ta astub seltsi."
+        },
+        {
+          "word": "kündigen",
+          "meaning": "üles ütlema",
+          "example": "Sie hat den Vertrag gekündigt. – Ta ütles lepingu üles."
+        },
+        {
+          "word": "ausscheiden",
+          "meaning": "lahkuma (ametist)",
+          "example": "Er scheidet aus dem Vorstand aus. – Ta lahkub juhatusest."
+        }
+      ],
+      "tip": [
+        "Abitegusõna eristab tähendust: ist ausgetreten (välja astuma, lekkima), hat ausgetreten (jalaga sisse tallama või kustutama).",
+        "Organisatsioonist väljaastumist väljendatakse kujul aus + datiiv: aus der Kirche austreten."
+      ],
+      "important": [
+        "Austreten ei ole sama mis eintreten: sisse astuma või liikmeks astuma.",
+        "Igapäevakeeles on ich muss mal austreten viisakas viis öelda, et on vaja tualetti minna."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "austreten",
+            "ausgetreten",
+            "ausgetretene",
+            "tritt",
+            "trat"
+          ],
+          "purple": [
+            "välja astuma",
+            "Väljaastumine",
+            "lekkima",
+            "sisse tallama",
+            "sissetallatud"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "ausgetreten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "astus",
+                "välja"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ausgetreten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "lekkis"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ausgetreten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kustutas",
+                "jalaga"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ausgetreten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "sisse tallatud"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "eintreten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "sisse astuma"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "kündigen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "üles ütlema"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "ausscheiden"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "lahkuma"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "auswärtig",
-    "lv": "\\",
+    "lv": "väljaspool asuv • välismaine",
     "level": "B2"
   },
   {
     "de": "ausweichend",
-    "lv": "\\",
+    "lv": "põiklev • ebamäärane",
     "level": "B2"
   },
   {
     "de": "ausweisen",
-    "lv": "\\",
+    "lv": "välja saatma • tõendama",
     "level": "B2"
   },
   {
@@ -726,19 +2203,19 @@ const B2_WORDS = [
   },
   {
     "de": "auswerten",
-    "lv": "\\",
+    "lv": "hindama • analüüsima",
     "level": "B2"
   },
   {
     "de": "auszeichnen",
-    "lv": "\\",
+    "lv": "autasustama • esile tõstma • silma paistma",
     "level": "B2"
   },
   {
     "de": "Auszeichnung",
     "de_article": "die",
     "de_plural": "die Auszeichnungen",
-    "lv": "\\",
+    "lv": "autasu • autasustamine • tunnustus",
     "level": "B2"
   },
   {
@@ -755,7 +2232,7 @@ const B2_WORDS = [
   },
   {
     "de": "bändigen",
-    "lv": "\\",
+    "lv": "taltsutama • ohjeldama",
     "level": "B2"
   },
   {
@@ -783,7 +2260,7 @@ const B2_WORDS = [
     "de": "Bankleitzahl",
     "de_article": "die",
     "de_plural": "die Bankleitzahlen",
-    "lv": "pangaindeks",
+    "lv": "pangakood",
     "level": "B2"
   },
   {
@@ -828,7 +2305,7 @@ const B2_WORDS = [
   },
   {
     "de": "barmherzig",
-    "lv": "\\",
+    "lv": "halastav • kaastundlik",
     "level": "B2"
   },
   {
@@ -855,7 +2332,7 @@ const B2_WORDS = [
     "de": "Baukredit",
     "de_article": "der",
     "de_plural": "die Baukredite",
-    "lv": "ehituse alustamise laen",
+    "lv": "ehituslaen",
     "level": "B2"
   },
   {
@@ -876,7 +2353,7 @@ const B2_WORDS = [
     "de": "Baugrube",
     "de_article": "die",
     "de_plural": "die Baugruben",
-    "lv": "ehituskaevik",
+    "lv": "ehitussüvend",
     "level": "B2"
   },
   {
@@ -896,48 +2373,352 @@ const B2_WORDS = [
   {
     "de": "Bauwesen",
     "de_article": "das",
-    "lv": "\\",
+    "lv": "ehitus • ehitusala",
     "level": "B2"
   },
   {
     "de": "bebauen",
-    "lv": "\\",
-    "level": "B2"
+    "lv": "hoonestama • harima",
+    "level": "B2",
+    "study": {
+      "id": "b2-bebauen",
+      "layout": "standardStudy",
+      "translation": "hoonestama • harima",
+      "explanation": [
+        "Põhiidee: bebauen on kahe tähendusega tegusõna: maatükki hoonetega hoonestama ning maad või põldu põllumajanduslikult harima. Eesliide be- on lahutamatu ja tegusõna nõuab akusatiivi.",
+        "Põhivormid: bebaut, bebaute, hat bebaut. Sagedane kesksõna bebaut toimib omadussõnana: dicht bebaut (tihedalt hoonestatud), unbebaut (hoonestamata). Hoonete kohta öeldakse mit Häusern bebauen.",
+        "Põldude puhul kasutatakse ka sõna anbauen (kultuuri kasvatama): Weizen anbauen; bebauen on laiem ja tähendab maa harimist üldiselt."
+      ],
+      "examples": [
+        {
+          "de": "Das Grundstück wird mit Wohnhäusern bebaut.",
+          "lv": "Maatükk hoonestatakse elamutega."
+        },
+        {
+          "de": "Die Bauern bebauen das Feld mit Weizen.",
+          "lv": "Talupojad harivad põldu ja kasvatavad seal nisu."
+        },
+        {
+          "de": "Das Gelände darf nicht bebaut werden.",
+          "lv": "Seda ala ei tohi hoonestada."
+        },
+        {
+          "de": "Der Hang ist dicht bebaut.",
+          "lv": "Nõlv on tihedalt hoonestatud."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "bauen",
+          "meaning": "ehitama",
+          "example": "Sie bauen ein Haus. – Nad ehitavad maja."
+        },
+        {
+          "word": "anbauen",
+          "meaning": "kasvatama, juurde ehitama",
+          "example": "Hier baut man Wein an. – Siin kasvatatakse viinamarju."
+        },
+        {
+          "word": "bearbeiten",
+          "meaning": "töötlema, harima",
+          "example": "Er bearbeitet den Boden. – Ta harib mulda."
+        }
+      ],
+      "tip": [
+        "Hoonete tähenduses kasutatakse eessõna mit: mit Häusern bebauen; sageli näeb sõna ka umbisikulises tegumoodis: bebaut werden.",
+        "Vastand on unbebaut – hoonestamata."
+      ],
+      "important": [
+        "Bebauen ei ole sama mis bauen: bauen tähendab midagi ehitama, bebauen – maad ehitistega katma.",
+        "Põllumajanduses kasutatakse taimede kasvatamise kohta sagedamini sõna anbauen."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "bebauen",
+            "bebaut",
+            "bebaute",
+            "unbebaut",
+            "anbauen"
+          ],
+          "purple": [
+            "hoonestama",
+            "harima",
+            "hoonestatud"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "bebaut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "hoonestatakse"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bebauen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "harivad"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bebaut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "hoonestada"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bebaut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "hoonestatud"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "bauen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ehitama"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "anbauen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "kasvatama"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "bearbeiten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "töötlema"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "bedürfen",
-    "lv": "\\",
+    "lv": "vajama",
     "level": "B2"
   },
   {
     "de": "befallen",
-    "lv": "\\",
+    "lv": "tabama • ründama",
     "level": "B2"
   },
   {
     "de": "sich befassen",
-    "lv": "tegelema millegaga",
+    "lv": "tegelema",
     "level": "B2",
     "study": {
       "id": "b2-sich-befassen",
-      "layout": "minimalStudy",
-      "translation": "tegelema millegaga",
-      "rektion": "mit + kellele?",
-      "explanation": "sich befassen nõuab kindlat eessõna mit + kellele?.",
-      "forms": "mit + kellele?",
-      "formsLabel": "Rektsioon:",
+      "layout": "standardStudy",
+      "translation": "tegelema",
+      "explanation": [
+        "Põhiidee: sich befassen on enesekohane tegusõna, mis tähendab mingi küsimuse või teemaga tegelema, seda käsitlema, sageli kirjalikult või professionaalselt. Eessõna mit järel on datiiv: sich mit etwas befassen (võrdle eesti kaasaütlevaga: millegagi tegelema).",
+        "Põhivormid: befasst sich, befasste sich, hat sich befasst. Eesliide be- on lahutamatu, seepärast ge- puudub.",
+        "Sõna kõlab ametlikumalt kui sich beschäftigen; seda kasutatakse komisjonide, uuringute, kohtute ja küsimust uurivate inimeste kohta."
+      ],
+      "examples": [
+        {
+          "de": "Ich befasse mich mit der Geschichte der Stadt.",
+          "lv": "Ma tegelen linna ajalooga."
+        },
+        {
+          "de": "Der Ausschuss befasst sich mit dem Problem.",
+          "lv": "Komisjon tegeleb selle probleemiga."
+        },
+        {
+          "de": "Damit habe ich mich noch nie befasst.",
+          "lv": "Sellega pole ma kunagi tegelnud."
+        },
+        {
+          "de": "Die Studie befasst sich mit den Folgen des Klimawandels.",
+          "lv": "Uuring käsitleb kliimamuutuse tagajärgi."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich beschäftigen mit",
+          "meaning": "tegelema millegagi",
+          "example": "Er beschäftigt sich mit Musik. – Ta tegeleb muusikaga."
+        },
+        {
+          "word": "sich auseinandersetzen mit",
+          "meaning": "süvenema, põhjalikult käsitlema",
+          "example": "Wir setzen uns mit dem Thema auseinander. – Me süveneme teemasse."
+        },
+        {
+          "word": "behandeln",
+          "meaning": "käsitlema, kohtlema",
+          "example": "Das Buch behandelt dieses Thema. – Raamat käsitleb seda teemat."
+        }
+      ],
+      "tip": [
+        "Eessõna mit järel on datiiv: mit dem Thema, mit der Frage.",
+        "Lihtsamalt võid öelda sich beschäftigen mit, mis tähendab sama."
+      ],
+      "important": [
+        "Täisminevikus on hat sich befasst, mitte hat sich gebefasst: be- on lahutamatu eesliide.",
+        "Sich befassen puudutab rohkem mõtlemist ja käsitlemist, mitte füüsilist tegevust."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich befassen"
-          ],
-          "red": [
-            "mit + kellele?"
+            "sich befassen",
+            "befasst sich"
           ],
           "purple": [
-            "sich"
+            "tegelema",
+            "käsitlema"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "befasse"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tegelen"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "befasst"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tegeleb"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "befasst"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tegelnud"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "befasst"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "käsitleb"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich beschäftigen mit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "tegelema"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich auseinandersetzen mit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "süvenema"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "behandeln"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "käsitlema"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -945,19 +2726,19 @@ const B2_WORDS = [
     "de": "Beförderung",
     "de_article": "die",
     "de_plural": "die Beförderungen",
-    "lv": "\\",
+    "lv": "vedu • edutamine",
     "level": "B2"
   },
   {
     "de": "Befugnis",
     "de_article": "die",
     "de_plural": "die Befugnisse",
-    "lv": "\\",
+    "lv": "volitus • õigus",
     "level": "B2"
   },
   {
     "de": "begehren",
-    "lv": "\\",
+    "lv": "ihaldama • nõudma",
     "level": "B2"
   },
   {
@@ -972,61 +2753,199 @@ const B2_WORDS = [
   },
   {
     "de": "sich begnügen",
-    "lv": "rahulduma millegaga",
+    "lv": "rahulduma",
     "level": "B2",
     "study": {
       "id": "b2-sich-begnuegen",
-      "layout": "minimalStudy",
-      "translation": "rahulduma millegaga",
-      "rektion": "mit + kellele?",
-      "explanation": "sich begnügen nõuab kindlat eessõna mit + kellele?.",
-      "forms": "mit + kellele?",
-      "formsLabel": "Rektsioon:",
+      "layout": "standardStudy",
+      "translation": "rahulduma",
+      "explanation": [
+        "Põhiidee: sich begnügen on enesekohane tegusõna, mis tähendab rahulduma vähemaga, kui võiks soovida. Eessõna mit järel on datiiv: sich mit etwas begnügen (eesti keeles: millegagi rahulduma).",
+        "Põhivormid: begnügt sich, begnügte sich, hat sich begnügt. Eesliide be- on lahutamatu, seepärast ge- puudub.",
+        "Eessõna mit järel tuleb nimisõna, asesõna (damit) või infinitiivirühm: sich damit begnügen, etwas zu tun (rahulduma sellega, et teed midagi)."
+      ],
+      "examples": [
+        {
+          "de": "Er begnügt sich mit einem kleinen Gehalt.",
+          "lv": "Ta rahuldub väikese palgaga."
+        },
+        {
+          "de": "Wir mussten uns mit Brot und Wasser begnügen.",
+          "lv": "Pidime rahulduma leiva ja veega."
+        },
+        {
+          "de": "Sie begnügt sich nicht mit dem zweiten Platz.",
+          "lv": "Ta ei rahuldu teise kohaga."
+        },
+        {
+          "de": "Ich begnüge mich damit, zuzuschauen.",
+          "lv": "Ma rahuldun sellega, et lihtsalt vaatan pealt."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "zufrieden sein mit",
+          "meaning": "rahul olema millegagi",
+          "example": "Ich bin mit dem Ergebnis zufrieden. – Ma olen tulemusega rahul."
+        },
+        {
+          "word": "sich zufriedengeben",
+          "meaning": "leppima",
+          "example": "Er gibt sich nicht zufrieden. – Ta ei lepi sellega."
+        },
+        {
+          "word": "sich beschränken auf",
+          "meaning": "piirduma millegagi",
+          "example": "Ich beschränke mich auf das Wichtigste. – Ma piirdun kõige olulisemaga."
+        }
+      ],
+      "tip": [
+        "Eessõna mit järel on datiiv: mit wenig, mit dem Ergebnis.",
+        "Sage vastand: sich nicht begnügen, kui keegi tahab rohkem."
+      ],
+      "important": [
+        "Sich begnügen ei ole sama mis zufrieden sein: see näitab, et inimene vähendab oma nõudmisi.",
+        "Täisminevik on hat sich begnügt (ilma ge-ta)."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich begnügen"
-          ],
-          "red": [
-            "mit + kellele?"
+            "begnügen",
+            "begnügt"
           ],
           "purple": [
-            "sich"
+            "rahulduma"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "begnügt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "rahuldub"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "begnügen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "rahulduma"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "begnügt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "rahuldu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "begnüge"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "rahuldun"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "zufrieden sein mit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "rahul olema"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich zufriedengeben"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "leppima"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich beschränken auf"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "piirduma"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
   {
     "de": "begünstigen",
-    "lv": "\\",
+    "lv": "soodustama • eelistama",
     "level": "B2"
   },
   {
     "de": "begutachten",
-    "lv": "\\",
+    "lv": "hindama • eksperthinnangut andma",
     "level": "B2"
   },
   {
     "de": "beharren",
-    "lv": "\\",
+    "lv": "kindlaks jääma • püsima",
     "level": "B2"
   },
   {
     "de": "beharrlich",
-    "lv": "\\",
+    "lv": "visa • järjekindel",
     "level": "B2"
   },
   {
     "de": "behüten",
-    "lv": "\\",
+    "lv": "kaitsma • hoidma",
     "level": "B2"
   },
   {
     "de": "Beihilfe",
     "de_article": "die",
     "de_plural": "die Beihilfen",
-    "lv": "\\",
+    "lv": "toetus • abiraha • kaasaaitamine",
     "level": "B2"
   },
   {
@@ -1036,7 +2955,7 @@ const B2_WORDS = [
   },
   {
     "de": "beispiellos",
-    "lv": "\\",
+    "lv": "enneolematu • võrratu",
     "level": "B2"
   },
   {
@@ -1053,12 +2972,12 @@ const B2_WORDS = [
   },
   {
     "de": "beistimmen",
-    "lv": "\\",
+    "lv": "nõustuma • toetama",
     "level": "B2"
   },
   {
     "de": "beiwohnen",
-    "lv": "\\",
+    "lv": "juures viibima • osalema",
     "level": "B2"
   },
   {
@@ -1068,12 +2987,12 @@ const B2_WORDS = [
   },
   {
     "de": "bejahen",
-    "lv": "\\",
+    "lv": "jaatama • heaks kiitma",
     "level": "B2"
   },
   {
     "de": "bejahrt",
-    "lv": "üsna eakas",
+    "lv": "eakas • elatanud",
     "level": "B2"
   },
   {
@@ -1083,7 +3002,7 @@ const B2_WORDS = [
   },
   {
     "de": "bekräftigen",
-    "lv": "\\",
+    "lv": "kinnitama • tõendama",
     "level": "B2"
   },
   {
@@ -1102,17 +3021,17 @@ const B2_WORDS = [
   },
   {
     "de": "belagern",
-    "lv": "\\",
+    "lv": "piirama",
     "level": "B2"
   },
   {
     "de": "belanglos",
-    "lv": "\\",
+    "lv": "tähtsusetu • ebaoluline",
     "level": "B2"
   },
   {
     "de": "belästigen",
-    "lv": "\\",
+    "lv": "tüütama • ahistama",
     "level": "B2"
   },
   {
@@ -1132,12 +3051,12 @@ const B2_WORDS = [
   },
   {
     "de": "beleibt",
-    "lv": "\\",
+    "lv": "tüse • priske",
     "level": "B2"
   },
   {
     "de": "belichten",
-    "lv": "\\",
+    "lv": "valgustama • säritama",
     "level": "B2"
   },
   {
@@ -1157,25 +3076,169 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-bemaechtigen",
-      "layout": "minimalStudy",
-      "translation": "\\",
-      "rektion": "+ omastavas käändes",
-      "explanation": "sich bemächtigen nõuab kindlat eessõna + omastavas käändes.",
-      "forms": "+ omastavas käändes",
-      "formsLabel": "Rektsioon:",
+      "layout": "standardStudy",
+      "translation": "haarama • enda valdusesse võtma",
+      "explanation": [
+        "Põhiidee: sich bemächtigen on ametlik enesekohane tegusõna, mis tähendab midagi enda valdusesse võtma – asja, kohta või võimu, sageli jõuga – ning ülekantud tähenduses tunnete kohta, mis inimest haaravad.",
+        "Sõnale sich bemächtigen järgneb genitiiv: sich einer Sache bemächtigen. Põhivormid: bemächtigt sich, bemächtigte sich, hat sich bemächtigt. Eesliide be- on lahutamatu.",
+        "Sõna kuulub kirja- ja kirjanduskeelde; igapäevakeeles öeldakse selle asemel etwas nehmen või ergreifen."
+      ],
+      "examples": [
+        {
+          "de": "Die Rebellen bemächtigten sich der Stadt.",
+          "lv": "Mässulised võtsid linna oma valdusesse."
+        },
+        {
+          "de": "Er bemächtigte sich des Autoschlüssels.",
+          "lv": "Ta haaras auto võtme endale."
+        },
+        {
+          "de": "Große Angst bemächtigte sich seiner.",
+          "lv": "Teda haaras suur hirm."
+        },
+        {
+          "de": "Die Armee hat sich der Macht bemächtigt.",
+          "lv": "Armee on võimu haaranud."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "ergreifen",
+          "meaning": "haarama",
+          "example": "Er ergreift die Macht. – Ta haarab võimu."
+        },
+        {
+          "word": "sich aneignen",
+          "meaning": "omastama",
+          "example": "Er hat sich das Geld angeeignet. – Ta omastas raha."
+        },
+        {
+          "word": "besetzen",
+          "meaning": "okupeerima",
+          "example": "Die Soldaten besetzen die Stadt. – Sõdurid okupeerivad linna."
+        }
+      ],
+      "tip": [
+        "Jäta meelde genitiiv: sich des Hauses bemächtigen, sich der Macht bemächtigen.",
+        "Seda sõna võid kohata ajaloolistes tekstides, uudistes ja kirjanduses."
+      ],
+      "important": [
+        "Sich bemächtigen nõuab genitiivi, mitte akusatiivi.",
+        "Ära aja seda segi sõnaga ermächtigen (volitama): see on teine sõna."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich bemächtigen"
-          ],
-          "red": [
-            "+ omastavas käändes"
+            "sich bemächtigen",
+            "bemächtigt sich",
+            "bemächtigte sich",
+            "bemächtigt"
           ],
           "purple": [
-            "sich",
-            "sich"
+            "enda valdusesse võtma",
+            "haaravad"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "bemächtigten",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "võtsid",
+                "oma valdusesse"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bemächtigte",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "haaras"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bemächtigte",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "haaras"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bemächtigt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "haaranud"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "ergreifen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "haarama"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich aneignen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "omastama"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "besetzen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "okupeerima"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -1183,7 +3246,7 @@ const B2_WORDS = [
     "de": "Benennung",
     "de_article": "die",
     "de_plural": "die Benennungen",
-    "lv": "\\",
+    "lv": "nimetus • nimetamine",
     "level": "B2"
   },
   {
@@ -1216,31 +3279,31 @@ const B2_WORDS = [
   },
   {
     "de": "bergen",
-    "lv": "\\",
+    "lv": "päästma • varjama",
     "level": "B2"
   },
   {
     "de": "Bergmann",
     "de_article": "der",
     "de_plural": "die Bergmänner",
-    "lv": "\\",
+    "lv": "kaevur",
     "level": "B2"
   },
   {
     "de": "Bergwerk",
     "de_article": "das",
     "de_plural": "die Bergwerke",
-    "lv": "\\",
+    "lv": "kaevandus",
     "level": "B2"
   },
   {
     "de": "bersten",
-    "lv": "\\",
+    "lv": "lõhkema • pragunema",
     "level": "B2"
   },
   {
     "de": "berufen",
-    "lv": "\\",
+    "lv": "ametisse nimetama • kutsuma",
     "level": "B2"
   },
   {
@@ -1249,24 +3312,169 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-berufen",
-      "layout": "minimalStudy",
+      "layout": "standardStudy",
       "translation": "viitama millelegi",
-      "rektion": "auf + mida?",
-      "explanation": "sich berufen nõuab kindlat eessõna auf + mida?.",
-      "forms": "auf + mida?",
-      "formsLabel": "Rektsioon:",
+      "explanation": [
+        "Põhiidee: sich berufen auf on enesekohane tegusõna, mis tähendab viitama millelegi kui argumendi alusele: seadusele, lepingule, allikale või isikule. Eessõna auf järel on akusatiiv: sich auf etwas berufen.",
+        "Põhivormid: beruft sich, berief sich, hat sich berufen. Eesliide be- on lahutamatu.",
+        "Ilma asesõnata sich tähendab berufen ametisse nimetama: Er wurde zum Professor berufen. See tähendus erineb viitamisest."
+      ],
+      "examples": [
+        {
+          "de": "Er beruft sich auf sein Recht.",
+          "lv": "Ta viitab oma õigusele."
+        },
+        {
+          "de": "Der Politiker beruft sich auf eine Studie.",
+          "lv": "Poliitik viitab ühele uuringule."
+        },
+        {
+          "de": "Sie berief sich auf den Vertrag.",
+          "lv": "Ta viitas lepingule."
+        },
+        {
+          "de": "Dabei kann ich mich auf niemanden berufen.",
+          "lv": "Selles küsimuses ei saa ma kellelegi viidata."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "verweisen auf",
+          "meaning": "osutama millelegi",
+          "example": "Er verweist auf den Artikel. – Ta osutab artiklile."
+        },
+        {
+          "word": "sich stützen auf",
+          "meaning": "tuginema millelegi",
+          "example": "Das Urteil stützt sich auf Beweise. – Otsus tugineb tõenditele."
+        },
+        {
+          "word": "zitieren",
+          "meaning": "tsiteerima",
+          "example": "Sie zitiert den Autor. – Ta tsiteerib autorit."
+        }
+      ],
+      "tip": [
+        "Kasutatakse kujul auf + akusatiiv: auf das Gesetz, auf einen Zeugen.",
+        "Kohtu- ja õiguskeeles on sich berufen auf põhiväljend."
+      ],
+      "important": [
+        "Sich berufen auf ei ole sama mis berufen: ilma asesõnata sich tähendab see (ametisse) nimetama.",
+        "Täisminevik on hat sich berufen (ilma ge-ta)."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich berufen"
-          ],
-          "red": [
-            "auf + mida?"
+            "sich berufen",
+            "beruft sich",
+            "berief sich",
+            "berufen",
+            "berufen auf"
           ],
           "purple": [
-            "sich"
+            "viitama",
+            "ametisse nimetama"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "beruft",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "viitab"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "beruft",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "viitab"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "berief",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "viitas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "berufen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "viidata"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "verweisen auf"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "osutama"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich stützen auf"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "tuginema"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "zitieren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "tsiteerima"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -1277,15 +3485,176 @@ const B2_WORDS = [
   },
   {
     "de": "besänftigen",
-    "lv": "\\",
+    "lv": "rahustama • leevendama",
     "level": "B2"
   },
   {
     "de": "Besatzung",
     "de_article": "die",
     "de_plural": "die Besatzungen",
-    "lv": "\\",
-    "level": "B2"
+    "lv": "meeskond • okupatsioonivägi",
+    "level": "B2",
+    "study": {
+      "id": "b2-besatzung",
+      "layout": "standardStudy",
+      "translation": "meeskond • okupatsioonivägi",
+      "explanation": [
+        "Põhiidee: die Besatzung on naissoost nimisõna, millel on kaks peamist tähendust: laeva või lennuki meeskond (inimesed, kes laeval või lennukil töötavad) ning okupatsioonivägi või okupatsioon ise pärast sõda.",
+        "Mitmus on die Besatzungen. Ühendid: die Besatzung eines Schiffes (laeva meeskond), die Besatzungsmacht (okupatsioonivõim), die Besatzungszone (okupatsioonitsoon). Lähedane sõna on die Mannschaft (meeskond, võistkond).",
+        "Tähenduse määrab kontekst: Flugzeug, Schiff – meeskond; Krieg, Stadt, Land – okupatsioon."
+      ],
+      "examples": [
+        {
+          "de": "Die Besatzung des Schiffes besteht aus zwanzig Mann.",
+          "lv": "Laeva meeskonda kuulub kakskümmend inimest."
+        },
+        {
+          "de": "Die Besatzung des Flugzeugs begrüßt die Passagiere.",
+          "lv": "Lennuki meeskond tervitab reisijaid."
+        },
+        {
+          "de": "Nach dem Krieg stand die Stadt unter Besatzung.",
+          "lv": "Pärast sõda oli linn okupatsiooni all."
+        },
+        {
+          "de": "Die Besatzung zog nach zwei Jahren ab.",
+          "lv": "Okupatsioonivägi lahkus kahe aasta pärast."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "die Mannschaft",
+          "meaning": "võistkond, meeskond",
+          "example": "Die Mannschaft gewinnt das Spiel. – Võistkond võidab mängu."
+        },
+        {
+          "word": "die Crew",
+          "meaning": "meeskond, ekipaaž",
+          "example": "Die Crew bereitet den Start vor. – Meeskond valmistub stardiks."
+        },
+        {
+          "word": "die Besetzung",
+          "meaning": "koosseis, hõivamine",
+          "example": "Die Besetzung des Films ist hervorragend. – Filmi näitlejaskond on suurepärane."
+        }
+      ],
+      "tip": [
+        "Lennu puhul hõlmab sõna Besatzung piloote ja stjuuardeid koos; reisijad on Fluggäste.",
+        "Ajaloolises tähenduses kasutatakse sageli ühendeid, mis algavad osaga Besatzungs-."
+      ],
+      "important": [
+        "Ära aja segi die Besatzung ja die Besetzung: Besetzung on näitlejate koosseis või hõivamise protsess.",
+        "Mitmus die Besatzungen tähendab mitut meeskonda või okupatsiooniväge."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Besatzung",
+            "Besatzungen"
+          ],
+          "purple": [
+            "meeskond",
+            "okupatsioonivägi"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Besatzung"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "meeskonda"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Besatzung"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "meeskond"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Besatzung"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "okupatsiooni"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Besatzung"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Okupatsioonivägi"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "die Mannschaft"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "võistkond"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Crew"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "meeskond"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Besetzung"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "koosseis"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "beschämen",
@@ -1294,38 +3663,183 @@ const B2_WORDS = [
   },
   {
     "de": "beschatten",
-    "lv": "\\",
+    "lv": "varjutama • jälitama",
     "level": "B2"
   },
   {
     "de": "beschimpfen",
-    "lv": "\\",
+    "lv": "sõimama",
     "level": "B2"
   },
   {
     "de": "sich beschränken",
-    "lv": "piirduma millegaga",
+    "lv": "piirduma",
     "level": "B2",
     "study": {
       "id": "b2-sich-beschraenken",
-      "layout": "minimalStudy",
-      "translation": "piirduma millegaga",
-      "rektion": "auf + mida?",
-      "explanation": "sich beschränken nõuab kindlat eessõna auf + mida?.",
-      "forms": "auf + mida?",
-      "formsLabel": "Rektsioon:",
+      "layout": "standardStudy",
+      "translation": "piirduma",
+      "explanation": [
+        "Põhiidee: sich beschränken auf on enesekohane tegusõna, mis tähendab millegagi piirduma – tegema ainult teatud osa ja seda mitte ületama. Eessõna auf järel on akusatiiv: sich auf etwas beschränken.",
+        "Põhivormid: beschränkt sich, beschränkte sich, hat sich beschränkt. Eesliide be- on lahutamatu, seepärast ge- puudub.",
+        "Ilma asesõnata sich tähendab beschränken kedagi või midagi piirama: die Zahl beschränken. Asjade kohta, mis piirduvad millegagi, kasutatakse sich beschränken auf: Das Problem beschränkt sich auf …"
+      ],
+      "examples": [
+        {
+          "de": "Ich beschränke mich auf das Wichtigste.",
+          "lv": "Ma piirdun kõige olulisemaga."
+        },
+        {
+          "de": "Der Redner beschränkte sich auf drei Punkte.",
+          "lv": "Kõneleja piirdus kolme punktiga."
+        },
+        {
+          "de": "Wir müssen uns auf das Nötigste beschränken.",
+          "lv": "Me peame piirduma kõige vajalikumaga."
+        },
+        {
+          "de": "Das Problem beschränkt sich nicht auf Deutschland.",
+          "lv": "Probleem ei piirdu ainult Saksamaaga."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "begrenzen",
+          "meaning": "piirama",
+          "example": "Wir begrenzen die Zahl der Gäste. – Me piirame külaliste arvu."
+        },
+        {
+          "word": "sich begnügen mit",
+          "meaning": "rahulduma millegagi",
+          "example": "Er begnügt sich mit wenig. – Ta rahuldub vähesega."
+        },
+        {
+          "word": "einschränken",
+          "meaning": "kitsendama, piirama",
+          "example": "Ich muss meinen Verbrauch einschränken. – Ma pean oma tarbimist piirama."
+        }
+      ],
+      "tip": [
+        "Eessõna auf järel on akusatiiv: auf das Wesentliche, auf drei Punkte.",
+        "Lauses järgneb sageli nur (ainult): Ich beschränke mich nur auf …"
+      ],
+      "important": [
+        "Eesti keeles kasutatakse kaasaütlevat (millegagi piirduma), saksa keeles aga eessõna auf – mitte mit.",
+        "Sich beschränken ei ole sama mis sich begnügen: esimene väljendab enese piiramist, teine – rahuldumist."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich beschränken"
-          ],
-          "red": [
-            "auf + mida?"
+            "sich beschränken",
+            "beschränkt sich",
+            "beschränkte sich",
+            "beschränkt"
           ],
           "purple": [
-            "sich"
+            "piirduma",
+            "piirduvad",
+            "piirama"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "beschränke",
+                "mich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "piirdun"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "beschränkte",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "piirdus"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "beschränken"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "piirduma"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "beschränkt",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "piirdu"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "begrenzen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "piirama"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich begnügen mit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "rahulduma"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "einschränken"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "kitsendama"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -1333,18 +3847,179 @@ const B2_WORDS = [
     "de": "Beschützer",
     "de_article": "der",
     "de_plural": "die Beschützer",
-    "lv": "\\",
+    "lv": "kaitsja",
     "level": "B2"
   },
   {
     "de": "beschwören",
-    "lv": "\\",
+    "lv": "vandega kinnitama • anuma • manama",
     "level": "B2"
   },
   {
     "de": "besessen",
-    "lv": "\\",
-    "level": "B2"
+    "lv": "seestunud • kinnisideeline",
+    "level": "B2",
+    "study": {
+      "id": "b2-besessen",
+      "layout": "standardStudy",
+      "translation": "seestunud • kinnisideeline",
+      "explanation": [
+        "Põhiidee: besessen on omadussõna (tegusõnast besitzen), mis tähendab seestunud või kinnisideeline: ideest või tundest nii haaratud, et see valitseb mõtteid. Eessõna von järel on datiiv: besessen von etwas.",
+        "Kasutatakse ka fanaatilise vaimustuse kohta: von der Arbeit besessen sein, wie besessen arbeiten (töötama nagu seestunud).",
+        "Tähelepanu: besessen on ka tegusõna besitzen (omama) kesksõna: Er hat ein Haus besessen. See on teine kasutus; see kaart käsitleb omadussõna tähenduses seestunud."
+      ],
+      "examples": [
+        {
+          "de": "Er ist besessen von seiner Arbeit.",
+          "lv": "Ta on oma tööst lausa haaratud."
+        },
+        {
+          "de": "Sie ist von der Idee besessen, berühmt zu werden.",
+          "lv": "Teda valdab kinnisidee saada kuulsaks."
+        },
+        {
+          "de": "Der Mann wirkte wie vom Teufel besessen.",
+          "lv": "Mees näis olevat nagu kuradist seestunud."
+        },
+        {
+          "de": "Er arbeitet wie besessen.",
+          "lv": "Ta töötab nagu seestunud."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "besitzen",
+          "meaning": "omama",
+          "example": "Er besitzt ein Haus. – Tal on maja."
+        },
+        {
+          "word": "fanatisch",
+          "meaning": "fanaatiline",
+          "example": "Er ist ein fanatischer Fan. – Ta on fanaatiline fänn."
+        },
+        {
+          "word": "besetzt",
+          "meaning": "hõivatud, kinni",
+          "example": "Der Platz ist besetzt. – Koht on kinni."
+        }
+      ],
+      "tip": [
+        "Iseloomulikud ühendid: besessen von einer Idee, besessen von Macht, wie besessen.",
+        "Positiivses tähenduses võib sõna väljendada ka kirglikkust: ein besessener Sammler (kirglik koguja)."
+      ],
+      "important": [
+        "Sõnale besessen järgneb von + datiiv: besessen von der Arbeit.",
+        "Ära aja segi besessen ja besetzt: besetzt tähendab hõivatud (Der Platz ist besetzt)."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "besessen"
+          ],
+          "purple": [
+            "seestunud",
+            "kinnisideeline",
+            "haaratud"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "besessen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "haaratud"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "besessen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kinnisidee"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "besessen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "seestunud"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "besessen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "seestunud"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "besitzen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "omama"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "fanatisch"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "fanaatiline"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "besetzt"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "hõivatud"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "besiedeln",
@@ -1360,19 +4035,19 @@ const B2_WORDS = [
   },
   {
     "de": "bespielen",
-    "lv": "muusikat kassetile või disketile salvestama",
+    "lv": "salvestama • lindistama",
     "level": "B2"
   },
   {
     "de": "Bestand",
     "de_article": "der",
     "de_plural": "die Bestände",
-    "lv": "\\",
+    "lv": "varu • koosseis • inventar",
     "level": "B2"
   },
   {
     "de": "beständig",
-    "lv": "\\",
+    "lv": "püsiv • muutumatu",
     "level": "B2"
   },
   {
@@ -1387,22 +4062,22 @@ const B2_WORDS = [
   },
   {
     "de": "bestechlich",
-    "lv": "\\",
+    "lv": "äraostetav",
     "level": "B2"
   },
   {
     "de": "bestrahlen",
-    "lv": "\\",
+    "lv": "kiiritama • valgustama",
     "level": "B2"
   },
   {
     "de": "bestreiten",
-    "lv": "\\",
+    "lv": "vaidlustama • eitama • kinni maksma",
     "level": "B2"
   },
   {
     "de": "bestürzt",
-    "lv": "\\",
+    "lv": "jahmunud • rabatud",
     "level": "B2"
   },
   {
@@ -1411,25 +4086,169 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-betaetigen",
-      "layout": "minimalStudy",
-      "translation": "\\",
-      "rektion": "in + kus?",
-      "explanation": "sich betätigen nõuab kindlat eessõna in + kus?.",
-      "forms": "in + kus?",
-      "formsLabel": "Rektsioon:",
+      "layout": "standardStudy",
+      "translation": "tegutsema • osalema",
+      "explanation": [
+        "Põhiidee: sich betätigen on enesekohane tegusõna, mis tähendab tegutsema, mingis valdkonnas aktiivne olema või mingis tegevuses osalema. Sageli kasutatakse seda koos sõnaga als või määrsõnaga: sich sportlich betätigen, sich politisch betätigen.",
+        "Põhivormid: betätigt sich, betätigte sich, hat sich betätigt. Eesliide be- on lahutamatu, seepärast ge- puudub.",
+        "Ilma asesõnata sich tähendab betätigen käivitama, vajutama: einen Schalter betätigen (lülitit vajutama), die Bremse betätigen."
+      ],
+      "examples": [
+        {
+          "de": "Er betätigt sich als Helfer im Verein.",
+          "lv": "Ta tegutseb seltsis abilisena."
+        },
+        {
+          "de": "Sie betätigt sich gern sportlich.",
+          "lv": "Ta tegeleb meelsasti spordiga."
+        },
+        {
+          "de": "Rentner können sich ehrenamtlich betätigen.",
+          "lv": "Pensionärid saavad tegutseda vabatahtlikena."
+        },
+        {
+          "de": "Wer hat den Notschalter betätigt?",
+          "lv": "Kes vajutas hädalülitit?"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich beschäftigen",
+          "meaning": "tegelema",
+          "example": "Er beschäftigt sich mit Musik. – Ta tegeleb muusikaga."
+        },
+        {
+          "word": "teilnehmen",
+          "meaning": "osa võtma",
+          "example": "Sie nimmt am Kurs teil. – Ta võtab kursusest osa."
+        },
+        {
+          "word": "mitmachen",
+          "meaning": "kaasa tegema (kõnekeeles)",
+          "example": "Machst du mit? – Kas teed kaasa?"
+        }
+      ],
+      "tip": [
+        "Valdkonna näitamiseks lisa määrsõna: politisch, kreativ, ehrenamtlich, sportlich.",
+        "Kellenagi tegutsemise tähenduses kasutatakse als: sich als Künstler betätigen."
+      ],
+      "important": [
+        "Ära unusta sõna sich: ilma selleta tähendab betätigen käivitama, mitte tegutsema.",
+        "Sich betätigen ei ole sama mis arbeiten: see väljendab aktiivset osalemist, mitte ainult palgatööd."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich betätigen"
-          ],
-          "red": [
-            "in + kus?"
+            "sich betätigen",
+            "betätigt sich",
+            "betätigte sich",
+            "betätigt",
+            "betätigen"
           ],
           "purple": [
-            "sich",
-            "sich"
+            "tegutsema",
+            "osalema",
+            "käivitama"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "betätigt",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tegutseb"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "betätigt",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tegeleb"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "betätigen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tegutseda"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "betätigt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vajutas"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich beschäftigen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "tegelema"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "teilnehmen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "osa võtma"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "mitmachen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "kaasa tegema"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -1437,7 +4256,7 @@ const B2_WORDS = [
     "de": "Betäubung",
     "de_article": "die",
     "de_plural": "die Betäubungen",
-    "lv": "\\",
+    "lv": "tuimestus • narkoos • uimastamine",
     "level": "B2"
   },
   {
@@ -1448,7 +4267,7 @@ const B2_WORDS = [
   {
     "de": "Betracht",
     "de_article": "der",
-    "lv": "\\",
+    "lv": "arvessevõtmine • kaalumine",
     "level": "B2"
   },
   {
@@ -1467,18 +4286,18 @@ const B2_WORDS = [
     "de": "Betrug",
     "de_article": "der",
     "de_plural": "die Betrüge",
-    "lv": "\\",
+    "lv": "pettus • kelmus",
     "level": "B2"
   },
   {
     "de": "beurlauben",
-    "lv": "\\",
+    "lv": "puhkust andma • töölt vabastama",
     "level": "B2"
   },
   {
     "de": "Beute",
     "de_article": "die",
-    "lv": "\\",
+    "lv": "saak • röövsaak",
     "level": "B2"
   },
   {
@@ -1490,41 +4309,41 @@ const B2_WORDS = [
   },
   {
     "de": "bewähren",
-    "lv": "\\",
+    "lv": "end tõestama • end õigustama",
     "level": "B2"
   },
   {
     "de": "bewährt",
-    "lv": "\\",
+    "lv": "järeleproovitud • usaldusväärne",
     "level": "B2"
   },
   {
     "de": "bewältigen",
-    "lv": "\\",
+    "lv": "toime tulema • ületama",
     "level": "B2"
   },
   {
     "de": "bewandert",
-    "lv": "\\",
+    "lv": "asjatundlik • kogenud",
     "level": "B2"
   },
   {
     "de": "Bewässerung",
     "de_article": "die",
     "de_plural": "die Bewässerungen",
-    "lv": "\\",
+    "lv": "niisutamine • kastmine",
     "level": "B2"
   },
   {
     "de": "Bewerbung",
     "de_article": "die",
     "de_plural": "die Bewerbungen",
-    "lv": "\\",
+    "lv": "kandideerimine • taotlus • avaldus",
     "level": "B2"
   },
   {
     "de": "bewilligen",
-    "lv": "\\",
+    "lv": "heaks kiitma • eraldama • lubama",
     "level": "B2"
   },
   {
@@ -1536,7 +4355,7 @@ const B2_WORDS = [
   },
   {
     "de": "bezähmen",
-    "lv": "\\",
+    "lv": "taltsutama • ohjeldama",
     "level": "B2"
   },
   {
@@ -1548,7 +4367,7 @@ const B2_WORDS = [
     "de": "Bezug",
     "de_article": "der",
     "de_plural": "die Bezüge",
-    "lv": "\\",
+    "lv": "seos • ümbris",
     "level": "B2"
   },
   {
@@ -1558,7 +4377,7 @@ const B2_WORDS = [
   },
   {
     "de": "bezwingen",
-    "lv": "\\",
+    "lv": "alistama • võitma • ületama",
     "level": "B2"
   },
   {
@@ -1570,12 +4389,12 @@ const B2_WORDS = [
     "de": "Biegung",
     "de_article": "die",
     "de_plural": "die Biegungen",
-    "lv": "\\",
+    "lv": "käänak • kõverus",
     "level": "B2"
   },
   {
     "de": "bisweilen",
-    "lv": "\\",
+    "lv": "vahel • mõnikord",
     "level": "B2"
   },
   {
@@ -1594,24 +4413,24 @@ const B2_WORDS = [
     "de": "Bildnis",
     "de_article": "das",
     "de_plural": "die Bildnisse",
-    "lv": "\\",
+    "lv": "portree • kujutis",
     "level": "B2"
   },
   {
     "de": "billigen",
-    "lv": "\\",
+    "lv": "heaks kiitma",
     "level": "B2"
   },
   {
     "de": "Bindung",
     "de_article": "die",
     "de_plural": "die Bindungen",
-    "lv": "\\",
+    "lv": "side • seotus • ühend",
     "level": "B2"
   },
   {
     "de": "binnen",
-    "lv": "\\",
+    "lv": "jooksul • sees",
     "level": "B2"
   },
   {
@@ -1623,7 +4442,7 @@ const B2_WORDS = [
   {
     "de": "Bienenwachs",
     "de_article": "das",
-    "lv": "meevaha",
+    "lv": "mesilasvaha",
     "level": "B2"
   },
   {
@@ -1644,7 +4463,7 @@ const B2_WORDS = [
     "de": "Prüfer",
     "de_article": "der",
     "de_plural": "die Prüfer",
-    "lv": "audiitor",
+    "lv": "kontrollija • eksamineerija • audiitor",
     "level": "B2"
   },
   {
@@ -1656,17 +4475,17 @@ const B2_WORDS = [
   },
   {
     "de": "bildend",
-    "lv": "\\",
+    "lv": "kujutav • hariv",
     "level": "B2"
   },
   {
     "de": "blähen",
-    "lv": "\\",
+    "lv": "paisutama • täis puhuma • puhitama",
     "level": "B2"
   },
   {
     "de": "sich blähen",
-    "lv": "\\",
+    "lv": "paisuma • uhkeldama",
     "level": "B2"
   },
   {
@@ -1680,7 +4499,7 @@ const B2_WORDS = [
     "de": "Bleigehalt",
     "de_article": "der",
     "de_plural": "die Bleigehalte",
-    "lv": "plii sisaldus",
+    "lv": "pliisisaldus",
     "level": "B2"
   },
   {
@@ -1690,19 +4509,19 @@ const B2_WORDS = [
   },
   {
     "de": "bleichen",
-    "lv": "\\",
+    "lv": "pleegitama • pleekima",
     "level": "B2"
   },
   {
     "de": "blenden",
-    "lv": "\\",
+    "lv": "pimestama • petma",
     "level": "B2"
   },
   {
     "de": "Blindgänger",
     "de_article": "der",
     "de_plural": "die Blindgänger",
-    "lv": "\\",
+    "lv": "lõhkemata mürsk",
     "level": "B2"
   },
   {
@@ -1742,7 +4561,7 @@ const B2_WORDS = [
   },
   {
     "de": "blödsinnig",
-    "lv": "\\",
+    "lv": "rumal • mõttetu • nõdrameelne",
     "level": "B2"
   },
   {
@@ -1786,7 +4605,7 @@ const B2_WORDS = [
     "de": "Blutspender",
     "de_article": "der",
     "de_plural": "die Blutspender",
-    "lv": "doonor",
+    "lv": "veredoonor",
     "level": "B2"
   },
   {
@@ -1800,7 +4619,7 @@ const B2_WORDS = [
     "de": "Bodensatz",
     "de_article": "der",
     "de_plural": "die Bodensätze",
-    "lv": "\\",
+    "lv": "sete • põhjasete",
     "level": "B2"
   },
   {
@@ -1860,19 +4679,19 @@ const B2_WORDS = [
     "de": "Böschung",
     "de_article": "die",
     "de_plural": "die Böschungen",
-    "lv": "\\",
+    "lv": "nõlv • kallak",
     "level": "B2"
   },
   {
     "de": "Bote",
     "de_article": "der",
     "de_plural": "die Boten",
-    "lv": "\\",
+    "lv": "käskjalg • sõnumitooja",
     "level": "B2"
   },
   {
     "de": "brach",
-    "lv": "\\",
+    "lv": "söötis • harimata",
     "level": "B2"
   },
   {
@@ -1900,7 +4719,7 @@ const B2_WORDS = [
     "de": "Brandmal",
     "de_article": "das",
     "de_plural": "die Brandmale",
-    "lv": "\\",
+    "lv": "põletusarm • häbimärk",
     "level": "B2"
   },
   {
@@ -1919,7 +4738,7 @@ const B2_WORDS = [
   },
   {
     "de": "brauen",
-    "lv": "\\",
+    "lv": "pruulima • keetma",
     "level": "B2"
   },
   {
@@ -1951,12 +4770,12 @@ const B2_WORDS = [
   },
   {
     "de": "brillant",
-    "lv": "\\",
+    "lv": "suurepärane • hiilgav",
     "level": "B2"
   },
   {
     "de": "brüten",
-    "lv": "\\",
+    "lv": "hauduma • juurdlema",
     "level": "B2"
   },
   {
@@ -1996,14 +4815,14 @@ const B2_WORDS = [
     "de": "Buckel",
     "de_article": "der",
     "de_plural": "die Buckel",
-    "lv": "\\",
+    "lv": "küür • selg",
     "level": "B2"
   },
   {
     "de": "Bügel",
     "de_article": "der",
     "de_plural": "die Bügel",
-    "lv": "\\",
+    "lv": "riidepuu • sang • jalus",
     "level": "B2"
   },
   {
@@ -2017,7 +4836,7 @@ const B2_WORDS = [
     "de": "Bühnenbildner",
     "de_article": "der",
     "de_plural": "die Bühnenbildner",
-    "lv": "dekoraator",
+    "lv": "lavakujundaja",
     "level": "B2"
   },
   {
@@ -2031,7 +4850,7 @@ const B2_WORDS = [
     "de": "Bundesstaat",
     "de_article": "der",
     "de_plural": "die Bundesstaaten",
-    "lv": "\\",
+    "lv": "liitriik • föderatsioon",
     "level": "B2"
   },
   {
@@ -2051,7 +4870,7 @@ const B2_WORDS = [
     "de": "Bürde",
     "de_article": "die",
     "de_plural": "die Bürden",
-    "lv": "\\",
+    "lv": "koorem",
     "level": "B2"
   },
   {
@@ -2068,19 +4887,19 @@ const B2_WORDS = [
   },
   {
     "de": "bürgerlich",
-    "lv": "\\",
+    "lv": "kodanlik • tsiviilne",
     "level": "B2"
   },
   {
     "de": "Chaot",
     "de_article": "der",
     "de_plural": "die Chaoten",
-    "lv": "segane inimene",
+    "lv": "korratu inimene • segaduse tekitaja",
     "level": "B2"
   },
   {
     "de": "chartern",
-    "lv": "lennukit või laeva konkreetseks reisiks tellima",
+    "lv": "prahtima • rentima",
     "level": "B2"
   },
   {
@@ -2101,7 +4920,7 @@ const B2_WORDS = [
     "de": "Chefredakteur",
     "de_article": "der",
     "de_plural": "die Chefredakteure",
-    "lv": "vastutav toimetaja",
+    "lv": "peatoimetaja",
     "level": "B2"
   },
   {
@@ -2194,29 +5013,29 @@ const B2_WORDS = [
     "de": "Damm",
     "de_article": "der",
     "de_plural": "die Dämme",
-    "lv": "\\",
+    "lv": "tamm • pais • raudteetamm",
     "level": "B2"
   },
   {
     "de": "dämmern",
-    "lv": "\\",
+    "lv": "hämarduma • koitma",
     "level": "B2"
   },
   {
     "de": "Dämmerung",
     "de_article": "die",
     "de_plural": "die Dämmerungen",
-    "lv": "\\",
+    "lv": "hämarus • videvik • koidik",
     "level": "B2"
   },
   {
     "de": "dampfen",
-    "lv": "\\",
+    "lv": "aurama • suitsema",
     "level": "B2"
   },
   {
     "de": "dämpfen",
-    "lv": "\\",
+    "lv": "summutama • leevendama • aurutama",
     "level": "B2"
   },
   {
@@ -2235,19 +5054,19 @@ const B2_WORDS = [
   },
   {
     "de": "darbieten",
-    "lv": "\\",
+    "lv": "pakkuma • esitama",
     "level": "B2"
   },
   {
     "de": "Darbietung",
     "de_article": "die",
     "de_plural": "die Darbietungen",
-    "lv": "\\",
+    "lv": "esitus • etteaste",
     "level": "B2"
   },
   {
     "de": "darlegen",
-    "lv": "\\",
+    "lv": "selgitama • esitama",
     "level": "B2"
   },
   {
@@ -2275,19 +5094,349 @@ const B2_WORDS = [
     "de": "Darstellung",
     "de_article": "die",
     "de_plural": "die Darstellungen",
-    "lv": "\\",
-    "level": "B2"
+    "lv": "kujutamine • kujutus • esitus",
+    "level": "B2",
+    "study": {
+      "id": "b2-darstellung",
+      "layout": "standardStudy",
+      "translation": "kujutamine • kujutus • esitus",
+      "explanation": [
+        "Põhiidee: die Darstellung on naissoost nimisõna, mis on tuletatud tegusõnast darstellen. See tähendab millegi kujutust või esitust: seda, mida inimene ütleb, kirjutab, joonistab või mängib.",
+        "Mitmus on die Darstellungen. Tähendused: esitus (sündmuste kirjeldus sõnades), kujutus (joonisel, skeemil: grafische Darstellung), kujutamine (näitleja rollilahendus).",
+        "Sagedased ühendid: eine Darstellung geben (ülevaadet andma), die Darstellung der Ereignisse, die grafische Darstellung (graafiline kujutus)."
+      ],
+      "examples": [
+        {
+          "de": "Die Darstellung des Unfalls war sehr genau.",
+          "lv": "Õnnetuse kirjeldus oli väga täpne."
+        },
+        {
+          "de": "Die Zeitung gibt eine einseitige Darstellung der Ereignisse.",
+          "lv": "Ajaleht annab sündmustest ühekülgse käsitluse."
+        },
+        {
+          "de": "Die Darstellung des Hamlet durch den jungen Schauspieler war beeindruckend.",
+          "lv": "Noore näitleja Hamleti kehastus oli muljetavaldav."
+        },
+        {
+          "de": "Die grafische Darstellung zeigt die Entwicklung der Preise.",
+          "lv": "Graafiline kujutus näitab hindade muutumist."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "die Beschreibung",
+          "meaning": "kirjeldus",
+          "example": "Die Beschreibung ist genau. – Kirjeldus on täpne."
+        },
+        {
+          "word": "der Bericht",
+          "meaning": "aruanne, ettekanne",
+          "example": "Der Bericht ist kurz. – Aruanne on lühike."
+        },
+        {
+          "word": "die Schilderung",
+          "meaning": "kujukas jutustus",
+          "example": "Seine Schilderung war lebendig. – Tema jutustus oli elav."
+        }
+      ],
+      "tip": [
+        "Sõnale Darstellung järgneb sageli von või genitiiv: die Darstellung des Problems, die Darstellung von Daten.",
+        "Diagrammi või skeemi kohta öeldakse grafische Darstellung."
+      ],
+      "important": [
+        "Darstellung ei ole sama mis Beschreibung: Beschreibung on kirjeldus sõnades, Darstellung võib olla ka joonis, skeem või rolli kehastus.",
+        "Die Darstellung on naissoost, mitmuses – die Darstellungen."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "die Darstellung",
+            "Darstellung",
+            "Darstellungen",
+            "darstellen"
+          ],
+          "purple": [
+            "kujutust",
+            "esitust",
+            "esitus",
+            "kujutus",
+            "kujutamine"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Darstellung"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kirjeldus"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Darstellung"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "käsitluse"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Darstellung"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kehastus"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Darstellung"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kujutus"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "die Beschreibung"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "kirjeldus"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Bericht"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "aruanne"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Schilderung"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "kujukas jutustus"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "Dasein",
     "de_article": "das",
-    "lv": "\\",
+    "lv": "olemasolu • eksistents",
     "level": "B2"
   },
   {
     "de": "dasjenige",
     "lv": "see",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-dasjenige",
+      "layout": "standardStudy",
+      "translation": "see",
+      "explanation": [
+        "Põhiidee: dasjenige on kesksoost näitav asesõna, mis tähendab see (see, mis). Tavaliselt viitab see millelegi, mida täpsustatakse järgneva siduva kõrvallausega: dasjenige, was/das …",
+        "Sõna käändub: dasjenige (nominatiiv, akusatiiv), desjenigen (genitiiv), demjenigen (datiiv). Meessoos on derjenige, naissoos diejenige, mitmuses diejenigen. Käänduvad mõlemad osad (das + jenige).",
+        "Sõna on ametlik ja kirjakeeles sagedasem; kõnes öeldakse selle asemel tavaliselt das või das, was."
+      ],
+      "examples": [
+        {
+          "de": "Dasjenige, was er sagte, war richtig.",
+          "lv": "See, mida ta ütles, oli õige."
+        },
+        {
+          "de": "Ich nehme dasjenige Buch, das auf dem Tisch liegt.",
+          "lv": "Ma võtan selle raamatu, mis on laual."
+        },
+        {
+          "de": "Dasjenige Kind, das zuerst fertig ist, bekommt einen Preis.",
+          "lv": "See laps, kes esimesena valmis saab, saab auhinna."
+        },
+        {
+          "de": "Mit demjenigen Auto, das du gekauft hast, bin ich zufrieden.",
+          "lv": "Ma olen rahul selle autoga, mille sa ostsid."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "derjenige / diejenige",
+          "meaning": "see (meessoost / naissoost)",
+          "example": "Derjenige, der kommt, bekommt Kuchen. – See, kes tuleb, saab kooki."
+        },
+        {
+          "word": "das, was",
+          "meaning": "see, mis",
+          "example": "Ich verstehe das, was du sagst. – Ma mõistan seda, mida sa ütled."
+        },
+        {
+          "word": "dieses",
+          "meaning": "see (siin)",
+          "example": "Dieses Buch gefällt mir. – See raamat meeldib mulle."
+        }
+      ],
+      "tip": [
+        "Pärast dasjenige oota siduvat kõrvallauset das või was; tavalauses võib selle asendada lihtsa sõnaga das.",
+        "Käänduvad mõlemad osad: mit demjenigen Auto, mitte mit dasjenigen."
+      ],
+      "important": [
+        "Dasjenige ilma kõrvallauseta tavaliselt ei kasutata.",
+        "Ära aja seda segi sõnaga dieses (see siin): dasjenige osutab millelegi, mida kohe täpsustatakse."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "dasjenige",
+            "demjenigen",
+            "desjenigen",
+            "derjenige",
+            "diejenige",
+            "diejenigen"
+          ],
+          "purple": [
+            "see"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Dasjenige"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "See"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "dasjenige"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "selle"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Dasjenige"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "See"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "demjenigen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "selle"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "derjenige / diejenige"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "see"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "das, was"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "see, mis"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "dieses"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "see"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "Datei",
@@ -2300,7 +5449,7 @@ const B2_WORDS = [
     "de": "Datenspeicher",
     "de_article": "der",
     "de_plural": "die Datenspeicher",
-    "lv": "arvutimälu",
+    "lv": "andmesalvesti • andmemälu",
     "level": "B2"
   },
   {
@@ -2349,24 +5498,24 @@ const B2_WORDS = [
     "de": "Defekt",
     "de_article": "der",
     "de_plural": "die Defekte",
-    "lv": "\\",
+    "lv": "defekt • rike",
     "level": "B2"
   },
   {
     "de": "Defizit",
     "de_article": "das",
     "de_plural": "die Defizite",
-    "lv": "\\",
+    "lv": "puudujääk • defitsiit",
     "level": "B2"
   },
   {
     "de": "dehnbar",
-    "lv": "\\",
+    "lv": "venitatav • veniv • elastne",
     "level": "B2"
   },
   {
     "de": "dehnen",
-    "lv": "\\",
+    "lv": "venitama • venima",
     "level": "B2"
   },
   {
@@ -2395,26 +5544,26 @@ const B2_WORDS = [
   },
   {
     "de": "delikat",
-    "lv": "\\",
+    "lv": "delikaatne • maitsev",
     "level": "B2"
   },
   {
     "de": "Delikt",
     "de_article": "das",
     "de_plural": "die Delikte",
-    "lv": "\\",
+    "lv": "õigusrikkumine • kuritegu",
     "level": "B2"
   },
   {
     "de": "dementieren",
-    "lv": "\\",
+    "lv": "ümber lükkama • eitama",
     "level": "B2"
   },
   {
     "de": "Demission",
     "de_article": "die",
     "de_plural": "die Demissionen",
-    "lv": "\\",
+    "lv": "tagasiastumine • ametist lahkumine",
     "level": "B2"
   },
   {
@@ -2424,22 +5573,22 @@ const B2_WORDS = [
   },
   {
     "de": "denkbar",
-    "lv": "\\",
+    "lv": "mõeldav • võimalik",
     "level": "B2"
   },
   {
     "de": "deplaziert",
-    "lv": "\\",
+    "lv": "kohatu • sobimatu",
     "level": "B2"
   },
   {
     "de": "deponieren",
-    "lv": "\\",
+    "lv": "deponeerima • hoiule andma",
     "level": "B2"
   },
   {
     "de": "derartig",
-    "lv": "\\",
+    "lv": "selline • niisugune",
     "level": "B2"
   },
   {
@@ -2449,14 +5598,14 @@ const B2_WORDS = [
   },
   {
     "de": "deuten",
-    "lv": "\\",
+    "lv": "tõlgendama • seletama • osutama",
     "level": "B2"
   },
   {
     "de": "Deutung",
     "de_article": "die",
     "de_plural": "die Deutungen",
-    "lv": "\\",
+    "lv": "tõlgendus • seletus • tõlgendamine",
     "level": "B2"
   },
   {
@@ -2490,7 +5639,7 @@ const B2_WORDS = [
     "de": "Morddezernat",
     "de_article": "das",
     "de_plural": "die Morddezernate",
-    "lv": "kriminaalosakond",
+    "lv": "mõrvaosakond",
     "level": "B2"
   },
   {
@@ -2553,7 +5702,7 @@ const B2_WORDS = [
     "de": "Diele",
     "de_article": "die",
     "de_plural": "die Dielen",
-    "lv": "\\",
+    "lv": "esik • põrandalaud",
     "level": "B2"
   },
   {
@@ -2563,7 +5712,7 @@ const B2_WORDS = [
   },
   {
     "de": "dienstlich",
-    "lv": "\\",
+    "lv": "ametialane • teenistuslik",
     "level": "B2"
   },
   {
@@ -2573,8 +5722,156 @@ const B2_WORDS = [
   },
   {
     "de": "dingen",
-    "lv": "\\",
-    "level": "B2"
+    "lv": "palkama",
+    "level": "B2",
+    "study": {
+      "id": "b2-dingen",
+      "layout": "standardStudy",
+      "translation": "palkama",
+      "explanation": [
+        "Põhiidee: dingen on haruldane, vananenud tegusõna, mis tähendab (inimest tasu eest mingiks tööks) palkama. Tänapäeval kuuleb seda peamiselt väljendis ein gedungener Mörder (palgamõrvar) ja ajaloolistes tekstides.",
+        "Põhivormid: dingt, dang, hat gedungen (esineb ka nõrk vorm dingte, gedingt). Tavaliselt palgatakse Söldner, Mörder, Führer. Igapäevakeeles öeldakse anheuern või engagieren.",
+        "Sõnale dingen järgneb akusatiiv: jemanden dingen."
+      ],
+      "examples": [
+        {
+          "de": "Der Graf dingte Söldner für den Krieg.",
+          "lv": "Krahv palkas sõjaks palgasõdureid."
+        },
+        {
+          "de": "Sie dangen einen Führer für die Reise.",
+          "lv": "Nad palkasid reisiks teejuhi."
+        },
+        {
+          "de": "Die Polizei sucht einen gedungenen Mörder.",
+          "lv": "Politsei otsib palgamõrvarit."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "anheuern",
+          "meaning": "palkama (kõnekeeles)",
+          "example": "Sie heuern einen Fahrer an. – Nad palkavad autojuhi."
+        },
+        {
+          "word": "engagieren",
+          "meaning": "palkama, esinema kutsuma",
+          "example": "Wir engagieren einen Musiker. – Me kutsume muusiku esinema."
+        },
+        {
+          "word": "mieten",
+          "meaning": "üürima",
+          "example": "Er mietet ein Auto. – Ta üürib auto."
+        }
+      ],
+      "tip": [
+        "Kõige sagedamini kohtad fraasi ein gedungener Mörder; muus keelekasutuses on sõna haruldane.",
+        "Elavas keeles eelista sõnu anheuern (palkama) või engagieren."
+      ],
+      "important": [
+        "Dingen on kirjanduslik või ajalooline sõna; igapäevakõnes kõlaks see veidralt.",
+        "Vormid kõiguvad (dang/gedungen ja dingte/gedingt); peamiselt kasutatakse tugevaid vorme."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "dingen",
+            "dingte",
+            "dang",
+            "gedungen",
+            "gedungener"
+          ],
+          "purple": [
+            "palkama",
+            "palgamõrvar"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "dingte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "palkas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "dangen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "palkasid"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "gedungenen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "palgamõrvarit"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "anheuern"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "palkama"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "engagieren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "esinema kutsuma"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "mieten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "üürima"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "Direktion",
@@ -2640,13 +5937,178 @@ const B2_WORDS = [
     "de": "Dom",
     "de_article": "der",
     "de_plural": "die Dome",
-    "lv": "\\",
+    "lv": "toomkirik • katedraal",
     "level": "B2"
   },
   {
     "de": "donnern",
-    "lv": "\\",
-    "level": "B2"
+    "lv": "müristama • mürisema • kõmisema",
+    "level": "B2",
+    "study": {
+      "id": "b2-donnern",
+      "layout": "standardStudy",
+      "translation": "müristama • mürisema • kõmisema",
+      "explanation": [
+        "Põhiidee: donnern tähendab müristama, mürisema, kõmisema: äikese kohta (es donnert – müristab), raske müra kohta (rong, veoauto, suurtükivägi) või valju hääle kohta.",
+        "Põhivormid: donnert, donnerte, hat gedonnert. Äikese kohta kasutatakse umbisikulist es: Es donnert (eesti keeles lihtsalt: müristab). Kui tegusõna kirjeldab mürarikast liikumist, kasutatakse täisminevikus sein: Der Zug ist über die Brücke gedonnert.",
+        "Ülekantud tähenduses tähendab donnern valjult käratama: Der Chef donnerte los."
+      ],
+      "examples": [
+        {
+          "de": "Es blitzt und donnert.",
+          "lv": "Välgub ja müristab."
+        },
+        {
+          "de": "Der Zug donnert über die Brücke.",
+          "lv": "Rong müriseb üle silla."
+        },
+        {
+          "de": "Die Lastwagen donnerten über die Straße.",
+          "lv": "Veoautod mürisesid mööda tänavat."
+        },
+        {
+          "de": "Der Chef donnerte: „Raus hier!“",
+          "lv": "Ülemus käratas: „Välja siit!“"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "grollen",
+          "meaning": "(kaugelt) kõmisema",
+          "example": "In der Ferne grollt es. – Kaugel kõmiseb."
+        },
+        {
+          "word": "krachen",
+          "meaning": "ragisema, paukuma",
+          "example": "Das Eis kracht unter den Füßen. – Jää ragiseb jalgade all."
+        },
+        {
+          "word": "rumpeln",
+          "meaning": "kolisema, logisema",
+          "example": "Der Wagen rumpelt über die Steine. – Vanker koliseb mööda kive."
+        }
+      ],
+      "tip": [
+        "Äikese kohta öeldakse Es donnert; välgu kohta – Es blitzt.",
+        "Kui on juttu mürast ja liikumisest, võib donnern olla abitegusõnaga sein: ist gedonnert."
+      ],
+      "important": [
+        "Äike: es donnert, täisminevikus hat gedonnert, mitte ist.",
+        "Donnern ei käi ainult äikese kohta: see võib kirjeldada ka raskeid sõidukeid või vihast häält."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "donnern",
+            "donnert",
+            "donnerte",
+            "gedonnert",
+            "Es donnert"
+          ],
+          "purple": [
+            "müristama",
+            "mürisema",
+            "müristab"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "donnert"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "müristab"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "donnert"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "müriseb"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "donnerten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "mürisesid"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "donnerte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "käratas"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "grollen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "kõmisema"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "krachen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ragisema"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "rumpeln"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "kolisema"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "dopen",
@@ -2676,12 +6138,12 @@ const B2_WORDS = [
     "de": "Dorn",
     "de_article": "der",
     "de_plural": "die Dornen",
-    "lv": "\\",
+    "lv": "oga • okas",
     "level": "B2"
   },
   {
     "de": "dornig",
-    "lv": "\\",
+    "lv": "okkaline • ogaline",
     "level": "B2"
   },
   {
@@ -2720,7 +6182,7 @@ const B2_WORDS = [
     "de": "Dosenmilch",
     "de_article": "die",
     "de_plural": "die Dosenmilche",
-    "lv": "kondenspiim purkides",
+    "lv": "kondenspiim",
     "level": "B2"
   },
   {
@@ -2734,14 +6196,14 @@ const B2_WORDS = [
     "de": "Dosis",
     "de_article": "die",
     "de_plural": "die Dosen",
-    "lv": "\\",
+    "lv": "doos • annus",
     "level": "B2"
   },
   {
     "de": "Dotterblume",
     "de_article": "die",
     "de_plural": "die Dotterblumen",
-    "lv": "kullerkupp",
+    "lv": "varsakabi",
     "level": "B2"
   },
   {
@@ -2767,26 +6229,26 @@ const B2_WORDS = [
     "de": "Dramatiker",
     "de_article": "der",
     "de_plural": "die Dramatiker",
-    "lv": "\\",
+    "lv": "näitekirjanik • dramaturg",
     "level": "B2"
   },
   {
     "de": "Drang",
     "de_article": "der",
     "de_plural": "die Dränge",
-    "lv": "\\",
+    "lv": "tung • kihk",
     "level": "B2"
   },
   {
     "de": "drängen",
-    "lv": "\\",
+    "lv": "tõukama • trügima • peale käima",
     "level": "B2"
   },
   {
     "de": "Dreck",
     "de_article": "der",
     "de_plural": "die Drecke",
-    "lv": "\\",
+    "lv": "mustus • pori • sopp",
     "level": "B2"
   },
   {
@@ -2813,7 +6275,7 @@ const B2_WORDS = [
     "de": "Drehung",
     "de_article": "die",
     "de_plural": "die Drehungen",
-    "lv": "\\",
+    "lv": "pööre • pöörlemine",
     "level": "B2"
   },
   {
@@ -2825,19 +6287,19 @@ const B2_WORDS = [
   },
   {
     "de": "dreschen",
-    "lv": "\\",
+    "lv": "vilja peksma • peksma",
     "level": "B2"
   },
   {
     "de": "Dressman",
     "de_article": "der",
     "de_plural": "die Dressmen",
-    "lv": "moedemonstraator",
+    "lv": "meesmodell",
     "level": "B2"
   },
   {
     "de": "dringen",
-    "lv": "\\",
+    "lv": "tungima • nõudma",
     "level": "B2"
   },
   {
@@ -2858,7 +6320,7 @@ const B2_WORDS = [
     "de": "Drops",
     "de_article": "der",
     "de_plural": "die Drops",
-    "lv": "\\",
+    "lv": "puuviljakomm",
     "level": "B2"
   },
   {
@@ -2870,7 +6332,7 @@ const B2_WORDS = [
   },
   {
     "de": "drosseln",
-    "lv": "\\",
+    "lv": "piirama • vähendama • drosseldama",
     "level": "B2"
   },
   {
@@ -2912,7 +6374,7 @@ const B2_WORDS = [
     "de": "Drucksache",
     "de_article": "die",
     "de_plural": "die Drucksachen",
-    "lv": "\\",
+    "lv": "trükis • banderoll",
     "level": "B2"
   },
   {
@@ -2924,12 +6386,12 @@ const B2_WORDS = [
   },
   {
     "de": "dulden",
-    "lv": "\\",
+    "lv": "sallima • taluma",
     "level": "B2"
   },
   {
     "de": "dumpf",
-    "lv": "\\",
+    "lv": "tuhm • umbne • rõhuv",
     "level": "B2"
   },
   {
@@ -2957,7 +6419,7 @@ const B2_WORDS = [
     "de": "Düngemittel",
     "de_article": "das",
     "de_plural": "die Düngemittel",
-    "lv": "\\",
+    "lv": "väetis",
     "level": "B2"
   },
   {
@@ -2968,7 +6430,7 @@ const B2_WORDS = [
   {
     "de": "Dünkel",
     "de_article": "der",
-    "lv": "\\",
+    "lv": "ülbus • upsakus • kõrkus",
     "level": "B2"
   },
   {
@@ -2978,71 +6440,237 @@ const B2_WORDS = [
   },
   {
     "de": "dünken",
-    "lv": "\\",
+    "lv": "näima • tunduma",
     "level": "B2"
   },
   {
     "de": "Dunst",
     "de_article": "der",
     "de_plural": "die Dünste",
-    "lv": "\\",
-    "level": "B2"
+    "lv": "aur • udu • vine",
+    "level": "B2",
+    "study": {
+      "id": "b2-dunst",
+      "layout": "standardStudy",
+      "translation": "aur • udu • vine",
+      "explanation": [
+        "Põhiidee: der Dunst on meessoost nimisõna, mis tähendab auru, udust õhku või aurusid: kerget vinet, mis muudab õhu häguseks, või lõhnu ja aurusid.",
+        "Mitmus on die Dünste (täishäälikumuutusega) ja seda kasutatakse harva – peamiselt aurude kohta: giftige Dünste. Ainsuses viitab der Dunst sageli vinele linna, järve või oru kohal.",
+        "Väljend keinen blassen Dunst von etwas haben tähendab, et inimesel pole aimugi."
+      ],
+      "examples": [
+        {
+          "de": "Über dem See lag ein feiner Dunst.",
+          "lv": "Järve kohal oli kerge vine."
+        },
+        {
+          "de": "In der Küche hing der Dunst von gebratenem Fleisch.",
+          "lv": "Köögis hõljus praetud liha aur."
+        },
+        {
+          "de": "Giftige Dünste stiegen aus dem Fass auf.",
+          "lv": "Vaadist tõusid mürgised aurud."
+        },
+        {
+          "de": "Ich habe keinen blassen Dunst davon.",
+          "lv": "Mul pole sellest õrna aimugi."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "der Nebel",
+          "meaning": "udu",
+          "example": "Im Herbst gibt es oft Nebel. – Sügisel on sageli udu."
+        },
+        {
+          "word": "der Dampf",
+          "meaning": "(kuum) aur",
+          "example": "Dampf steigt aus dem Topf auf. – Potist tõuseb auru."
+        },
+        {
+          "word": "der Rauch",
+          "meaning": "suits",
+          "example": "Rauch steigt aus dem Schornstein auf. – Korstnast tõuseb suitsu."
+        }
+      ],
+      "tip": [
+        "Sõna Dunst kasutatakse siis, kui õhk on hägune või täis lõhnaaure; paksu udu kohta öeldakse Nebel.",
+        "Väljend keinen blassen Dunst haben on kõnekeelne; kasuta seda mitteametlikus jutus."
+      ],
+      "important": [
+        "Der Dunst ei ole sama mis Dampf: Dampf on kuum aur, Dunst on kerge vine või aurud.",
+        "Mitmus die Dünste on täishäälikumuutusega (Umlaut) ja harva kasutatav."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "der Dunst",
+            "die Dünste",
+            "Dunst",
+            "Dünste",
+            "keinen blassen Dunst"
+          ],
+          "purple": [
+            "udust õhku",
+            "aurusid",
+            "vinet",
+            "aimugi"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Dunst"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vine"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Dunst"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "aur"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Dünste"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "aurud"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Dunst"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "õrna aimugi"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "der Nebel"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "udu"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Dampf"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "aur"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Rauch"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "suits"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "durcharbeiten",
-    "lv": "\\",
+    "lv": "läbi töötama",
     "level": "B2"
   },
   {
     "de": "durchaus",
-    "lv": "\\",
+    "lv": "täiesti • igati • kindlasti",
     "level": "B2"
   },
   {
     "de": "durchbrechen",
-    "lv": "\\",
+    "lv": "läbi murdma • katki murdma",
     "level": "B2"
   },
   {
     "de": "durchbrennen",
-    "lv": "\\",
+    "lv": "läbi põlema • jalga laskma",
     "level": "B2"
   },
   {
     "de": "durchbringen",
-    "lv": "\\",
+    "lv": "läbi suruma • ära toitma • raiskama",
     "level": "B2"
   },
   {
     "de": "Durchbruch",
     "de_article": "der",
     "de_plural": "die Durchbrüche",
-    "lv": "\\",
+    "lv": "läbimurre",
     "level": "B2"
   },
   {
     "de": "durchdringen",
-    "lv": "\\",
+    "lv": "läbi tungima • läbistama",
     "level": "B2"
   },
   {
     "de": "Durchfahrt",
     "de_article": "die",
     "de_plural": "die Durchfahrten",
-    "lv": "\\",
+    "lv": "läbisõit • läbisõidutee",
     "level": "B2"
   },
   {
     "de": "Durchfuhr",
     "de_article": "die",
-    "lv": "\\",
+    "lv": "transiit • läbivedu",
     "level": "B2"
   },
   {
     "de": "Durchführung",
     "de_article": "die",
     "de_plural": "die Durchführungen",
-    "lv": "\\",
+    "lv": "läbiviimine • teostamine • korraldamine",
     "level": "B2"
   },
   {
@@ -3052,19 +6680,19 @@ const B2_WORDS = [
   },
   {
     "de": "durchlaufen",
-    "lv": "\\",
+    "lv": "läbi jooksma • läbima • läbi voolama",
     "level": "B2"
   },
   {
     "de": "durchmachen",
-    "lv": "\\",
+    "lv": "läbi elama • läbi tegema",
     "level": "B2"
   },
   {
     "de": "Durchmesser",
     "de_article": "der",
     "de_plural": "die Durchmesser",
-    "lv": "\\",
+    "lv": "läbimõõt • diameeter",
     "level": "B2"
   },
   {
@@ -3081,22 +6709,22 @@ const B2_WORDS = [
   },
   {
     "de": "durchschauen",
-    "lv": "\\",
+    "lv": "läbi nägema",
     "level": "B2"
   },
   {
     "de": "durchschlagen",
-    "lv": "\\",
+    "lv": "läbi lööma • läbi kurnama",
     "level": "B2"
   },
   {
     "de": "durchsehen",
-    "lv": "\\",
+    "lv": "läbi vaatama • üle vaatama",
     "level": "B2"
   },
   {
     "de": "durchsetzen",
-    "lv": "\\",
+    "lv": "läbi suruma • kehtestama",
     "level": "B2"
   },
   {
@@ -3106,7 +6734,7 @@ const B2_WORDS = [
   },
   {
     "de": "dürr",
-    "lv": "\\",
+    "lv": "kuiv • kuivanud • kõhn",
     "level": "B2"
   },
   {
@@ -3118,7 +6746,7 @@ const B2_WORDS = [
   },
   {
     "de": "dürsten",
-    "lv": "\\",
+    "lv": "janunema",
     "level": "B2"
   },
   {
@@ -3149,7 +6777,7 @@ const B2_WORDS = [
   },
   {
     "de": "ebnen",
-    "lv": "\\",
+    "lv": "tasandama • siluma",
     "level": "B2"
   },
   {
@@ -3161,7 +6789,7 @@ const B2_WORDS = [
   },
   {
     "de": "edel",
-    "lv": "\\",
+    "lv": "üllas • väärikas • suursugune",
     "level": "B2"
   },
   {
@@ -3206,12 +6834,12 @@ const B2_WORDS = [
     "de": "Eheschließung",
     "de_article": "die",
     "de_plural": "die Eheschließungen",
-    "lv": "\\",
+    "lv": "abiellumine • laulatus",
     "level": "B2"
   },
   {
     "de": "ehren",
-    "lv": "\\",
+    "lv": "austama • au andma",
     "level": "B2"
   },
   {
@@ -3223,7 +6851,7 @@ const B2_WORDS = [
   },
   {
     "de": "ehrenamtlich",
-    "lv": "\\",
+    "lv": "vabatahtlik • tasustamata",
     "level": "B2"
   },
   {
@@ -3281,7 +6909,7 @@ const B2_WORDS = [
     "de": "Ehrung",
     "de_article": "die",
     "de_plural": "die Ehrungen",
-    "lv": "\\",
+    "lv": "austamine • autasustamine",
     "level": "B2"
   },
   {
@@ -3316,52 +6944,216 @@ const B2_WORDS = [
     "de": "Eifer",
     "de_article": "der",
     "de_plural": "die Eifer",
-    "lv": "\\",
+    "lv": "innukus • agarus • õhin",
     "level": "B2"
   },
   {
     "de": "eifrig",
-    "lv": "\\",
+    "lv": "innukas • agar • usin",
     "level": "B2"
   },
   {
     "de": "Eigenart",
     "de_article": "die",
     "de_plural": "die Eigenarten",
-    "lv": "\\",
+    "lv": "omapära • eripära",
     "level": "B2"
   },
   {
     "de": "eigenhändig",
-    "lv": "oma käega tehtud",
+    "lv": "omakäeline",
     "level": "B2"
   },
   {
     "de": "Eigenliebe",
     "de_article": "die",
-    "lv": "\\",
+    "lv": "enesearmastus • egoism",
     "level": "B2"
   },
   {
     "de": "eigensinnig",
-    "lv": "\\",
+    "lv": "kangekaelne • isepäine",
     "level": "B2"
   },
   {
     "de": "eigentümlich",
-    "lv": "\\",
+    "lv": "omapärane • iseloomulik • kummaline",
     "level": "B2"
   },
   {
     "de": "eigenwillig",
-    "lv": "\\",
-    "level": "B2"
+    "lv": "isepäine • omapärane • kangekaelne",
+    "level": "B2",
+    "study": {
+      "id": "b2-eigenwillig",
+      "layout": "standardStudy",
+      "translation": "isepäine • omapärane • kangekaelne",
+      "explanation": [
+        "Põhiidee: eigenwillig on omadussõna, mis kirjeldab oma tahte ja stiiliga inimest või asja: isepäist, kangekaelset, kuid sageli ka omapärast, originaalset, mis ei järgi teisi.",
+        "Inimese kohta tähendab see tavaliselt isepäist, oma tahtega: ein eigenwilliges Kind. Stiili, tõlgenduse või maitse kohta – omapärast: ein eigenwilliger Stil, eine eigenwillige Interpretation.",
+        "Sõna koosneb osadest eigen (oma) ja Wille (tahe), seega võib seda mõista kui oma tahtega."
+      ],
+      "examples": [
+        {
+          "de": "Sie ist ein eigenwilliges Kind.",
+          "lv": "Ta on isepäine laps."
+        },
+        {
+          "de": "Er hat eine eigenwillige Art, Probleme zu lösen.",
+          "lv": "Tal on omapärane viis probleeme lahendada."
+        },
+        {
+          "de": "Der Künstler ist für seinen eigenwilligen Stil bekannt.",
+          "lv": "Kunstnik on tuntud oma omapärase stiili poolest."
+        },
+        {
+          "de": "Der alte Mann bleibt eigenwillig und lässt sich nichts sagen.",
+          "lv": "Vana mees jääb kangekaelseks ega lase endale midagi öelda."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "eigensinnig",
+          "meaning": "jonnakas",
+          "example": "Das Kind ist eigensinnig. – Laps on jonnakas."
+        },
+        {
+          "word": "stur",
+          "meaning": "kangekaelne",
+          "example": "Er bleibt stur bei seiner Meinung. – Ta jääb kangekaelselt oma arvamuse juurde."
+        },
+        {
+          "word": "originell",
+          "meaning": "originaalne",
+          "example": "Das ist eine originelle Idee. – See on originaalne idee."
+        }
+      ],
+      "tip": [
+        "Tähenduse määrab kontekst: laps, vana inimene – pigem isepäine; stiil, idee – omapärane.",
+        "Sõnal on samad lõpud nagu kõigil omadussõnadel: ein eigenwilliger Mensch."
+      ],
+      "important": [
+        "Ära aja eigenwillig segi sõnaga willkürlich (meelevaldne, reegliteta): eigenwillig räägib inimese enda tahtest ja stiilist.",
+        "Sõna võib olla nii kriitiline kui ka tunnustav; see sõltub lausest."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "eigenwillig",
+            "eigenwilliges",
+            "eigenwilliger",
+            "eigenwillige"
+          ],
+          "purple": [
+            "isepäist",
+            "kangekaelset",
+            "omapärast"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "eigenwilliges"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "isepäine"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "eigenwillige"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "omapärane"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "eigenwilligen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "omapärase"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "eigenwillig"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kangekaelseks"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "eigensinnig"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "jonnakas"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "stur"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "kangekaelne"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "originell"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "originaalne"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "Eilbote",
     "de_article": "der",
     "de_plural": "die Eilboten",
-    "lv": "\\",
+    "lv": "kiirkuller • käskjalg",
     "level": "B2"
   },
   {
@@ -3373,7 +7165,7 @@ const B2_WORDS = [
   },
   {
     "de": "einäschern",
-    "lv": "\\",
+    "lv": "tuhastama • maha põletama",
     "level": "B2"
   },
   {
@@ -3385,44 +7177,44 @@ const B2_WORDS = [
   },
   {
     "de": "einberufen",
-    "lv": "\\",
+    "lv": "kokku kutsuma • ajateenistusse kutsuma",
     "level": "B2"
   },
   {
     "de": "Einbildung",
     "de_article": "die",
     "de_plural": "die Einbildungen",
-    "lv": "\\",
+    "lv": "kujutlus • kujutlusvõime • upsakus",
     "level": "B2"
   },
   {
     "de": "einbürgern",
-    "lv": "\\",
+    "lv": "naturaliseerima • kodakondsust andma • juurduma",
     "level": "B2"
   },
   {
     "de": "einbüßen",
-    "lv": "kandma materiaalset kahju",
+    "lv": "kaotama • ilma jääma",
     "level": "B2"
   },
   {
     "de": "eindringen",
-    "lv": "\\",
+    "lv": "sisse tungima • imbuma • süvenema",
     "level": "B2"
   },
   {
     "de": "eindringlich",
-    "lv": "\\",
+    "lv": "tungiv • veenev • mõjuv",
     "level": "B2"
   },
   {
     "de": "einfältig",
-    "lv": "\\",
+    "lv": "lihtsameelne • naiivne",
     "level": "B2"
   },
   {
     "de": "einfassen",
-    "lv": "\\",
+    "lv": "ääristama • raamima",
     "level": "B2"
   },
   {
@@ -3432,67 +7224,67 @@ const B2_WORDS = [
   },
   {
     "de": "einförmig",
-    "lv": "\\",
+    "lv": "ühetaoline • üksluine",
     "level": "B2"
   },
   {
     "de": "einfrieren",
-    "lv": "\\",
+    "lv": "külmutama • kinni külmuma",
     "level": "B2"
   },
   {
     "de": "Einfuhr",
     "de_article": "die",
     "de_plural": "die Einfuhren",
-    "lv": "\\",
+    "lv": "sissevedu • import",
     "level": "B2"
   },
   {
     "de": "Einfuhrsperre",
     "de_article": "die",
     "de_plural": "die Einfuhrsperren",
-    "lv": "impordiblokaad",
+    "lv": "impordikeeld",
     "level": "B2"
   },
   {
     "de": "Eingabe",
     "de_article": "die",
     "de_plural": "die Eingaben",
-    "lv": "\\",
+    "lv": "avaldus • sisestus",
     "level": "B2"
   },
   {
     "de": "eingebildet",
-    "lv": "\\",
+    "lv": "upsakas • kõrk • kujuteldav",
     "level": "B2"
   },
   {
     "de": "Eingebung",
     "de_article": "die",
     "de_plural": "die Eingebungen",
-    "lv": "\\",
+    "lv": "inspiratsioon • äkiline mõte",
     "level": "B2"
   },
   {
     "de": "eingehen",
-    "lv": "\\",
+    "lv": "saabuma • nõustuma • kokku tõmbuma",
     "level": "B2"
   },
   {
     "de": "eingehend",
-    "lv": "\\",
+    "lv": "põhjalik • üksikasjalik",
     "level": "B2"
   },
   {
     "de": "Eingemachte",
     "de_article": "das",
     "de_plural": "die Eingemachte",
-    "lv": "\\",
+    "lv": "hoidis • moos",
     "level": "B2"
   },
   {
     "de": "eingerechnet",
-    "lv": "\\",
+    "lv": "kaasa arvatud • arvestatud",
     "level": "B2"
   },
   {
@@ -3510,7 +7302,7 @@ const B2_WORDS = [
   {
     "de": "Eingeweide",
     "de_article": "die",
-    "lv": "\\",
+    "lv": "sisikond • siseelundid",
     "level": "B2"
   },
   {
@@ -3525,26 +7317,26 @@ const B2_WORDS = [
   },
   {
     "de": "eingrenzen",
-    "lv": "\\",
+    "lv": "piiritlema • piirama",
     "level": "B2"
   },
   {
     "de": "Eingriff",
     "de_article": "der",
     "de_plural": "die Eingriffe",
-    "lv": "\\",
+    "lv": "sekkumine • operatsioon",
     "level": "B2"
   },
   {
     "de": "einhüllen",
-    "lv": "\\",
+    "lv": "mähkima • sisse mässima",
     "level": "B2"
   },
   {
     "de": "Einigkeit",
     "de_article": "die",
     "de_plural": "die Einigkeiten",
-    "lv": "\\",
+    "lv": "ühtsus • üksmeel",
     "level": "B2"
   },
   {
@@ -3570,45 +7362,182 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-einlassen",
-      "layout": "minimalStudy",
+      "layout": "standardStudy",
       "translation": "laskuma millessegi",
-      "rektion": "auf + mida?",
-      "explanation": "sich einlassen nõuab kindlat eessõna auf + mida?.",
-      "forms": "auf + mida?",
-      "formsLabel": "Rektsioon:",
+      "explanation": [
+        "Põhiidee: sich einlassen on eraldatava eesliitega enesekohane tegusõna, mis tähendab millessegi laskuma, tehingusse või suhtesse astuma, sageli riskantsesse. Kasutatakse kujul auf + akusatiiv (sich auf etwas einlassen) või mit + datiiv (sich mit jemandem einlassen).",
+        "Põhivormid: lässt sich ein, ließ sich ein, hat sich eingelassen. Eesliide ein- eraldub: Ich lasse mich darauf nicht ein.",
+        "Ilma asesõnata sich tähendab einlassen sisse laskma: jemanden einlassen (kedagi ruumi sisse laskma)."
+      ],
+      "examples": [
+        {
+          "de": "Ich lasse mich auf das Risiko nicht ein.",
+          "lv": "Ma ei võta seda riski."
+        },
+        {
+          "de": "Auf solche Geschäfte sollte man sich nicht einlassen.",
+          "lv": "Sellistesse tehingutesse ei tasuks laskuda."
+        },
+        {
+          "de": "Sie hat sich mit dem Falschen eingelassen.",
+          "lv": "Ta on hakanud läbi käima vale inimesega."
+        },
+        {
+          "de": "Er ließ sich auf eine Diskussion ein.",
+          "lv": "Ta laskus arutellu."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich beteiligen an",
+          "meaning": "osalema",
+          "example": "Er beteiligt sich an der Diskussion. – Ta osaleb arutelus."
+        },
+        {
+          "word": "sich engagieren",
+          "meaning": "kaasa lööma, end pühendama",
+          "example": "Sie engagiert sich für den Umweltschutz. – Ta lööb kaasa keskkonnakaitses."
+        },
+        {
+          "word": "eingehen auf",
+          "meaning": "nõustuma, vastu võtma",
+          "example": "Er geht auf den Vorschlag ein. – Ta nõustub ettepanekuga."
+        }
+      ],
+      "tip": [
+        "Eessõna auf järel on akusatiiv: auf ein Abenteuer, auf einen Kompromiss. Eessõna mit järel – datiiv: mit jemandem.",
+        "Sageli eitusega: Darauf lasse ich mich nicht ein (Sellesse ma ei lasku)."
+      ],
+      "important": [
+        "Sich einlassen mit jemandem kõlab sageli kriitiliselt, justkui oleks suhe soovimatu.",
+        "Ära aja seda segi sõnaga einlassen ilma asesõnata sich: see tähendab sisse laskma."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich einlassen"
-          ],
-          "red": [
-            "auf + mida?"
+            "einlassen",
+            "lässt",
+            "ließ",
+            "eingelassen",
+            "lasse"
           ],
           "purple": [
-            "sich"
+            "laskuma",
+            "sisse laskma"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "lasse"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "einlassen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "laskuda"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "eingelassen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "hakanud läbi käima"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ließ"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "laskus"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich beteiligen an"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "osalema"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich engagieren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "kaasa lööma"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "eingehen auf"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "nõustuma"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
   {
     "de": "einleiten",
-    "lv": "\\",
+    "lv": "sisse juhatama • algatama",
     "level": "B2"
   },
   {
     "de": "einleuchten",
-    "lv": "\\",
+    "lv": "selge olema • arusaadav olema",
     "level": "B2"
   },
   {
     "de": "einliefern",
-    "lv": "\\",
+    "lv": "toimetama • kohale toimetama",
     "level": "B2"
   },
   {
     "de": "einmachen",
-    "lv": "\\",
+    "lv": "hoidistama • konserveerima • sisse tegema",
     "level": "B2"
   },
   {
@@ -3622,30 +7551,176 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-einpraegen",
-      "layout": "minimalStudy",
-      "translation": "meelde jääma",
-      "rektion": "in + mida?",
-      "explanation": "sich einprägen nõuab kindlat eessõna in + mida?.",
-      "forms": "in + mida?",
-      "formsLabel": "Rektsioon:",
+      "layout": "standardStudy",
+      "translation": "meelde jätma",
+      "explanation": [
+        "Põhiidee: sich einprägen tähendab meelde jätma, mällu kindlalt sööbima. Tavaliselt kasutatakse seda datiivse asesõna ja akusatiivse sihitisega: Ich präge mir die Nummer ein.",
+        "Põhivormid: prägt sich ein, prägte sich ein, hat sich eingeprägt. Eesliide ein- eraldub: Ich präge mir das ein. Täisminevikus paigutub ge- eesliite ein- ja tegusõna tüve vahele.",
+        "Kui miski ise mällu sööbib, on sich akusatiivis: Das Bild hat sich mir eingeprägt (pilt on mulle mällu sööbinud)."
+      ],
+      "examples": [
+        {
+          "de": "Ich präge mir die Telefonnummer ein.",
+          "lv": "Ma jätan telefoninumbri meelde."
+        },
+        {
+          "de": "Prägt euch diese Regel gut ein!",
+          "lv": "Jätke see reegel hästi meelde!"
+        },
+        {
+          "de": "Das Bild hat sich mir tief eingeprägt.",
+          "lv": "See pilt on mulle sügavalt mällu sööbinud."
+        },
+        {
+          "de": "Diesen Namen sollte man sich einprägen.",
+          "lv": "Seda nime tasub meelde jätta."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "auswendig lernen",
+          "meaning": "pähe õppima",
+          "example": "Wir lernen das Gedicht auswendig. – Me õpime luuletuse pähe."
+        },
+        {
+          "word": "sich merken",
+          "meaning": "meeles pidama, meelde jätma",
+          "example": "Merk dir das! – Pea see meeles!"
+        },
+        {
+          "word": "behalten",
+          "meaning": "meeles hoidma",
+          "example": "Ich habe den Namen behalten. – Mul jäi nimi meelde."
+        }
+      ],
+      "tip": [
+        "Kui pead sõnu õppima, kasuta väljendit sich etwas einprägen või tuttavat sich merken.",
+        "Datiivne asesõna järgneb tegusõnale: mir, dir, sich, uns, euch."
+      ],
+      "important": [
+        "Kui inimene ise midagi meelde jätab, on asesõna datiivis (mir, dir); kui miski mällu sööbib, on sich akusatiivis ja isik datiivis (mir).",
+        "Täisminevik on hat sich eingeprägt (abitegusõnaga haben)."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich einprägen"
-          ],
-          "red": [
-            "in + mida?"
+            "einprägen",
+            "präge",
+            "prägt",
+            "prägte",
+            "eingeprägt"
           ],
           "purple": [
-            "sich"
+            "meelde jätma",
+            "sööbima",
+            "sööbib",
+            "sööbinud"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "präge"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "jätan",
+                "meelde"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Prägt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Jätke",
+                "meelde"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "eingeprägt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "sööbinud"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "einprägen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "meelde jätta"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "auswendig lernen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "pähe õppima"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich merken"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "meeles pidama"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "behalten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "meeles hoidma"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
   {
     "de": "einrechnen",
-    "lv": "\\",
+    "lv": "arvestama • kaasa arvama",
     "level": "B2"
   },
   {
@@ -3659,25 +7734,145 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-einschleichen",
-      "layout": "minimalStudy",
-      "translation": "\\",
-      "rektion": "in + mida?",
-      "explanation": "sich einschleichen nõuab kindlat eessõna in + mida?.",
-      "forms": "in + mida?",
-      "formsLabel": "Rektsioon:",
+      "layout": "standardStudy",
+      "translation": "sisse hiilima • sisse imbuma",
+      "explanation": [
+        "Põhiidee: sich einschleichen tähendab märkamatult, salaja kuhugi sisse pääsema (sisse hiilima) või vea, kahtluse vms kohta – märkamatult tekkima (sisse imbuma).",
+        "Eraldatav eesliide: ich schleiche mich ein, schlich mich ein, habe mich eingeschlichen. Koht, kuhu keegi hiilib, väljendatakse kujul in + akusatiiv (in das Haus, ins Haus). Täisminevikus kasutatakse haben, sest tegusõna on enesekohane."
+      ],
+      "examples": [
+        {
+          "de": "Der Dieb schleicht sich nachts ins Haus ein.",
+          "lv": "Varas hiilib öösel majja."
+        },
+        {
+          "de": "Ein Fehler hat sich in den Text eingeschlichen.",
+          "lv": "Teksti on sisse lipsanud viga."
+        },
+        {
+          "de": "Er hat sich unbemerkt in den Saal eingeschlichen.",
+          "lv": "Ta hiilis märkamatult saali."
+        },
+        {
+          "de": "Mit der Zeit schlichen sich Zweifel ein.",
+          "lv": "Aja jooksul imbusid sisse kahtlused."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "schleichen",
+          "meaning": "hiilima",
+          "example": "Die Katze schleicht durch den Garten. – Kass hiilib läbi aia."
+        },
+        {
+          "word": "eindringen",
+          "meaning": "sisse tungima",
+          "example": "Der Täter ist in die Wohnung eingedrungen. – Kurjategija tungis korterisse."
+        }
+      ],
+      "tip": [
+        "Vigade ja kahtluste kohta öeldakse sageli: Ein Fehler hat sich eingeschlichen – viga on sisse lipsanud.",
+        "Jäta meelde eraldumine: Er schleicht sich ein, kuid Er hat sich eingeschlichen."
+      ],
+      "important": [
+        "Ära aja seda segi sõnaga schleichen (hiilima, vaikselt liikuma): sich einschleichen viitab alati kuhugi sisse pääsemisele.",
+        "Eessõna in järel on koht akusatiivis, kui näidatakse suunda: sich in den Raum einschleichen."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich einschleichen"
-          ],
-          "red": [
-            "in + mida?"
+            "sich einschleichen",
+            "schleiche mich ein"
           ],
           "purple": [
-            "sich",
-            "sich"
+            "sisse hiilima",
+            "sisse imbuma"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "schleicht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "hiilib"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "eingeschlichen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "sisse lipsanud"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "eingeschlichen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "hiilis"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "schlichen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "imbusid sisse"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "schleichen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "hiilima"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "eindringen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "sisse tungima"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -3685,7 +7880,7 @@ const B2_WORDS = [
     "de": "Einschnitt",
     "de_article": "der",
     "de_plural": "die Einschnitte",
-    "lv": "\\",
+    "lv": "sisselõige • lõige • pööre",
     "level": "B2"
   },
   {
@@ -3694,24 +7889,168 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-einschraenken",
-      "layout": "minimalStudy",
+      "layout": "standardStudy",
       "translation": "piirduma",
-      "rektion": "auf + mida?",
-      "explanation": "sich einschränken nõuab kindlat eessõna auf + mida?.",
-      "forms": "auf + mida?",
-      "formsLabel": "Rektsioon:",
+      "explanation": [
+        "Põhiidee: sich einschränken tähendab piirduma – kulutama, sööma või elama tagasihoidlikumalt kui tavaliselt või piirduma millegi konkreetsega.",
+        "Põhivormid: ich schränke mich ein, schränkte mich ein, habe mich eingeschränkt. Kujul auf + akusatiiv näidatakse, millega keegi piirdub: sich auf das Nötigste einschränken. Ilma täiendita tähendab see sageli kulutuste kokkuhoidmist.",
+        "Ilma asesõnata sich on einschränken sihiline: etwas einschränken – midagi piirama (liiklust, õigusi)."
+      ],
+      "examples": [
+        {
+          "de": "Wir müssen uns finanziell einschränken.",
+          "lv": "Me peame rahaliselt kokku hoidma."
+        },
+        {
+          "de": "Er schränkt sich auf das Nötigste ein.",
+          "lv": "Ta piirdub kõige vajalikumaga."
+        },
+        {
+          "de": "Nach der Entlassung musste sich die Familie stark einschränken.",
+          "lv": "Pärast koondamist pidi pere tugevasti kokku tõmbama."
+        },
+        {
+          "de": "Sie schränkt sich beim Essen ein, um abzunehmen.",
+          "lv": "Ta piirab söömist, et kaalust alla võtta."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "einschränken",
+          "meaning": "piirama",
+          "example": "Die Stadt schränkt den Verkehr ein. – Linn piirab liiklust."
+        },
+        {
+          "word": "verzichten",
+          "meaning": "loobuma",
+          "example": "Er verzichtet auf Zucker. – Ta loobub suhkrust."
+        },
+        {
+          "word": "sparen",
+          "meaning": "säästma, kokku hoidma",
+          "example": "Wir sparen Strom. – Me säästame elektrit."
+        }
+      ],
+      "tip": [
+        "Kui tahad öelda, et hakkad kokku hoidma, kasuta sich einschränken ilma täiendita.",
+        "Kujuga auf + akusatiiv nimetad selle, millega piirdud."
+      ],
+      "important": [
+        "Eraldatav eesliide ein-: Ich schränke mich ein, mitte Ich einschränke mich.",
+        "Ära aja segi enesekohast sich einschränken ja sihilist einschränken (midagi piirama)."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich einschränken"
-          ],
-          "red": [
-            "auf + mida?"
+            "einschränken",
+            "schränke",
+            "eingeschränkt",
+            "ein"
           ],
           "purple": [
-            "sich"
+            "piirduma",
+            "piirdub",
+            "piirama"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "einschränken"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kokku hoidma"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "schränkt",
+                "ein"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "piirdub"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "einschränken"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kokku tõmbama"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "schränkt",
+                "ein"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "piirab"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "einschränken"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "piirama"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "verzichten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "loobuma"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sparen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "säästma"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -3719,7 +8058,7 @@ const B2_WORDS = [
     "de": "Einschreiben",
     "de_article": "das",
     "de_plural": "die Einschreiben",
-    "lv": "tähitud kiri või saadetis",
+    "lv": "tähtkiri • tähitud saadetis",
     "level": "B2"
   },
   {
@@ -3729,19 +8068,19 @@ const B2_WORDS = [
   },
   {
     "de": "einsichtig",
-    "lv": "\\",
+    "lv": "mõistlik • arukas",
     "level": "B2"
   },
   {
     "de": "einspeichern",
-    "lv": "\\",
+    "lv": "salvestama • sisestama",
     "level": "B2"
   },
   {
     "de": "Einspruch",
     "de_article": "der",
     "de_plural": "die Einsprüche",
-    "lv": "\\",
+    "lv": "vastuväide • protest",
     "level": "B2"
   },
   {
@@ -3753,7 +8092,7 @@ const B2_WORDS = [
   },
   {
     "de": "einstimmig",
-    "lv": "\\",
+    "lv": "ühehäälne • üksmeelne",
     "level": "B2"
   },
   {
@@ -3763,28 +8102,28 @@ const B2_WORDS = [
   },
   {
     "de": "eintauchen",
-    "lv": "\\",
+    "lv": "kastma • sukelduma",
     "level": "B2"
   },
   {
     "de": "eintönig",
-    "lv": "\\",
+    "lv": "üksluine • monotoonne",
     "level": "B2"
   },
   {
     "de": "Eintracht",
     "de_article": "die",
-    "lv": "\\",
+    "lv": "üksmeel • kooskõla",
     "level": "B2"
   },
   {
     "de": "einträglich",
-    "lv": "\\",
+    "lv": "tulus • kasumlik",
     "level": "B2"
   },
   {
     "de": "einüben",
-    "lv": "\\",
+    "lv": "harjutama • selgeks õppima",
     "level": "B2"
   },
   {
@@ -3801,22 +8140,22 @@ const B2_WORDS = [
   },
   {
     "de": "einweichen",
-    "lv": "kastma",
+    "lv": "leotama",
     "level": "B2"
   },
   {
     "de": "einweihen",
-    "lv": "\\",
+    "lv": "pidulikult avama • pühitsema • saladusse pühendama",
     "level": "B2"
   },
   {
     "de": "einwenden",
-    "lv": "\\",
+    "lv": "vastu väitma • vastuväiteid esitama",
     "level": "B2"
   },
   {
     "de": "einwilligen",
-    "lv": "\\",
+    "lv": "nõustuma • nõus olema",
     "level": "B2"
   },
   {
@@ -3880,13 +8219,13 @@ const B2_WORDS = [
   },
   {
     "de": "eitel",
-    "lv": "\\",
+    "lv": "edev • upsakas • tühine",
     "level": "B2"
   },
   {
     "de": "Ekel",
     "de_article": "der",
-    "lv": "\\",
+    "lv": "vastikus • jälkus",
     "level": "B2"
   },
   {
@@ -3916,30 +8255,175 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-empfehlen",
-      "layout": "minimalStudy",
+      "layout": "standardStudy",
       "translation": "olema soovitatav",
-      "rektion": "zu + kellele?",
-      "explanation": "sich empfehlen nõuab kindlat eessõna zu + kellele?.",
-      "forms": "zu + kellele?",
-      "formsLabel": "Rektsioon:",
+      "explanation": [
+        "Põhiidee: väljendit sich empfehlen kasutatakse selles tähenduses peaaegu ainult 3. isikus koos es-iga või nimisõnaga: es empfiehlt sich, … – on soovitatav midagi teha.",
+        "Põhivormid: empfiehlt sich, empfahl sich, hat sich empfohlen (e muutub ie-ks). Sageli järgneb zu + infinitiiv või dass-kõrvallause: Es empfiehlt sich, früh zu buchen.",
+        "Teises, ametlikus tähenduses tähendab sich empfehlen ka hüvasti jätma: Er empfahl sich früh."
+      ],
+      "examples": [
+        {
+          "de": "Es empfiehlt sich, früh zu buchen.",
+          "lv": "On soovitatav aegsasti broneerida."
+        },
+        {
+          "de": "Bei Regen empfiehlt sich eine Jacke.",
+          "lv": "Vihmaga on soovitatav võtta jope."
+        },
+        {
+          "de": "Es empfiehlt sich, die Datei vorher zu speichern.",
+          "lv": "Fail on soovitatav enne salvestada."
+        },
+        {
+          "de": "Vor der Reise empfiehlt sich eine Impfung.",
+          "lv": "Enne reisi on soovitatav vaktsineerida."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "empfehlen",
+          "meaning": "soovitama",
+          "example": "Ich empfehle dir dieses Restaurant. – Ma soovitan sulle seda restorani."
+        },
+        {
+          "word": "ratsam",
+          "meaning": "soovitatav, mõistlik",
+          "example": "Es ist ratsam, einen Schirm mitzunehmen. – Vihmavari on mõistlik kaasa võtta."
+        },
+        {
+          "word": "sich verabschieden",
+          "meaning": "hüvasti jätma",
+          "example": "Wir verabschieden uns jetzt. – Me jätame nüüd hüvasti."
+        }
+      ],
+      "tip": [
+        "Lauseskeem: Es empfiehlt sich + zu + infinitiiv – mugav, kui ei taha nimetada, kes soovitab.",
+        "Lihtsama ehitusega sünonüüm: Es ist ratsam."
+      ],
+      "important": [
+        "See tähendus on peaaegu alati 3. isikus (empfiehlt sich); vormid ich või du siin ei sobi.",
+        "Ära aja seda segi sõnaga empfehlen (kellelegi midagi soovitama): Ich empfehle dir das Buch."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich empfehlen"
-          ],
-          "red": [
-            "zu + kellele?"
+            "sich empfehlen",
+            "empfiehlt sich",
+            "empfahl",
+            "empfohlen",
+            "zu"
           ],
           "purple": [
-            "sich"
+            "on soovitatav"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "empfiehlt",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "soovitatav"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "empfiehlt",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "soovitatav"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "empfiehlt",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "soovitatav"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "empfiehlt",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "soovitatav"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "empfehlen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "soovitama"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "ratsam"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "soovitatav"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich verabschieden"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "hüvasti jätma"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
   {
     "de": "empor",
-    "lv": "\\",
+    "lv": "üles • ülespoole",
     "level": "B2"
   },
   {
@@ -3953,25 +8437,160 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-empoeren",
-      "layout": "minimalStudy",
-      "translation": "\\",
-      "rektion": "über + mida?",
-      "explanation": "sich empören nõuab kindlat eessõna über + mida?.",
-      "forms": "über + mida?",
-      "formsLabel": "Rektsioon:",
+      "layout": "standardStudy",
+      "translation": "nördima • mässama",
+      "explanation": [
+        "Põhiidee: sich empören tähendab tugevalt nördima, ülekohtule või rikkumisele vihaselt reageerima. Harvem ja raamatulikumalt – võimu vastu mässama (sich gegen jemanden empören).",
+        "Põhivormid: empört sich, empörte sich, hat sich empört. Seda, mille üle ollakse nördinud, näidatakse kujul über + akusatiiv: sich über die Lüge empören. Vastupanu kellelegi väljendatakse kujul gegen + akusatiiv.",
+        "Tuletis empört tähendab nördinud: Sie war empört."
+      ],
+      "examples": [
+        {
+          "de": "Alle empörten sich über die Entscheidung.",
+          "lv": "Kõik olid otsusest nördinud."
+        },
+        {
+          "de": "Sie hat sich über seine Lüge empört.",
+          "lv": "Ta oli tema valest nördinud."
+        },
+        {
+          "de": "Das Volk empörte sich gegen den Herrscher.",
+          "lv": "Rahvas mässas valitseja vastu."
+        },
+        {
+          "de": "Ich empöre mich über so viel Ungerechtigkeit.",
+          "lv": "Ma olen nii suurest ülekohtust nördinud."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich aufregen",
+          "meaning": "ärrituma, erutuma",
+          "example": "Er regt sich über den Lärm auf. – Ta ärritub müra pärast."
+        },
+        {
+          "word": "sich ärgern",
+          "meaning": "pahandama, vihastama",
+          "example": "Ich ärgere mich über den Stau. – Ma vihastan ummiku pärast."
+        },
+        {
+          "word": "empört",
+          "meaning": "nördinud",
+          "example": "Sie war empört. – Ta oli nördinud."
+        }
+      ],
+      "tip": [
+        "Jäta meelde ühend sich über etwas empören (+ akusatiiv).",
+        "Sich empören on tugevam kui sich ärgern: see väljendab moraalset nördimust."
+      ],
+      "important": [
+        "Eessõna über järel on akusatiiv: über die Lüge, mitte über der Lüge.",
+        "Mässamise tähenduses kasutatakse eessõna gegen: sich gegen die Regierung empören."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich empören"
-          ],
-          "red": [
-            "über + mida?"
+            "empören",
+            "empört",
+            "empörte"
           ],
           "purple": [
-            "sich",
-            "sich"
+            "nördima",
+            "mässama",
+            "nördinud"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "empörten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nördinud"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "empört"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nördinud"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "empörte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "mässas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "empöre"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich aufregen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ärrituma"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich ärgern"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "vihastama"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "empört"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "nördinud"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -3979,39 +8598,39 @@ const B2_WORDS = [
     "de": "Empörung",
     "de_article": "die",
     "de_plural": "die Empörungen",
-    "lv": "\\",
+    "lv": "nördimus • pahameel • mäss",
     "level": "B2"
   },
   {
     "de": "emsig",
-    "lv": "\\",
+    "lv": "usin • agar • tegus",
     "level": "B2"
   },
   {
     "de": "entbehren",
-    "lv": "\\",
+    "lv": "ilma läbi saama • puudust tundma",
     "level": "B2"
   },
   {
     "de": "entbinden",
-    "lv": "\\",
+    "lv": "vabastama • sünnitama",
     "level": "B2"
   },
   {
     "de": "Entbindung",
     "de_article": "die",
     "de_plural": "die Entbindungen",
-    "lv": "\\",
+    "lv": "sünnitus • vabastamine",
     "level": "B2"
   },
   {
     "de": "entehren",
-    "lv": "\\",
+    "lv": "häbistama • au teotama",
     "level": "B2"
   },
   {
     "de": "enteignen",
-    "lv": "\\",
+    "lv": "võõrandama",
     "level": "B2"
   },
   {
@@ -4021,27 +8640,27 @@ const B2_WORDS = [
   },
   {
     "de": "entfallen",
-    "lv": "\\",
+    "lv": "meelest minema • ära jääma • välja kukkuma",
     "level": "B2"
   },
   {
     "de": "entfalten",
-    "lv": "\\",
+    "lv": "lahti voltima • arendama • rakendama",
     "level": "B2"
   },
   {
     "de": "sich entfalten",
-    "lv": "\\",
+    "lv": "avanema • arenema • puhkema",
     "level": "B2"
   },
   {
     "de": "entflammen",
-    "lv": "\\",
+    "lv": "süütama • vaimustama • süttima",
     "level": "B2"
   },
   {
     "de": "entführen",
-    "lv": "\\",
+    "lv": "röövima • ära viima",
     "level": "B2"
   },
   {
@@ -4060,45 +8679,191 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-enthalten",
-      "layout": "minimalStudy",
+      "layout": "standardStudy",
       "translation": "hoiduma millestki",
-      "rektion": "von + kellele?",
-      "explanation": "sich enthalten nõuab kindlat eessõna von + kellele?.",
-      "forms": "von + kellele?",
-      "formsLabel": "Rektsioon:",
+      "explanation": [
+        "Põhiidee: sich enthalten tähendab teadlikult millestki hoiduma – mitte tegema, mitte tarvitama, mitte hääletama. Keel on ametlik ja raamatulik.",
+        "Sellele järgneb genitiiv: sich der Stimme enthalten (hääletamisest hoiduma, erapooletuks jääma), sich jeden Kommentars enthalten. Põhivormid: enthält sich, enthielt sich, hat sich enthalten.",
+        "Ilma asesõnata sich tähendab enthalten sisaldama: Das Getränk enthält Zucker."
+      ],
+      "examples": [
+        {
+          "de": "Bei der Abstimmung enthielten sich zwei Abgeordnete der Stimme.",
+          "lv": "Hääletusel jäi kaks saadikut erapooletuks."
+        },
+        {
+          "de": "Ich enthalte mich jedes Kommentars.",
+          "lv": "Ma hoidun igasugusest kommentaarist."
+        },
+        {
+          "de": "Sie hat sich des Alkohols enthalten.",
+          "lv": "Ta hoidus alkoholist."
+        },
+        {
+          "de": "Er konnte sich kaum des Lachens enthalten.",
+          "lv": "Ta suutis vaevu naeru tagasi hoida."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "enthalten",
+          "meaning": "sisaldama",
+          "example": "Das Getränk enthält Zucker. – Jook sisaldab suhkrut."
+        },
+        {
+          "word": "verzichten",
+          "meaning": "loobuma",
+          "example": "Er verzichtet auf Fleisch. – Ta loobub lihast."
+        },
+        {
+          "word": "sich zurückhalten",
+          "meaning": "end tagasi hoidma",
+          "example": "Er hält sich bei Diskussionen zurück. – Ta hoiab end aruteludes tagasi."
+        }
+      ],
+      "tip": [
+        "Tea fraasi sich der Stimme enthalten – see on tüüpiline hääletamisväljend.",
+        "Igapäevaselt öeldakse sageli lihtsamalt: Ich verzichte auf …"
+      ],
+      "important": [
+        "Sõnale sich enthalten järgneb genitiiv, mitte eessõna: sich des Alkohols enthalten.",
+        "Ära aja seda segi sõnaga enthalten ilma asesõnata sich – see tähendab sisaldama."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich enthalten"
-          ],
-          "red": [
-            "von + kellele?"
+            "sich enthalten",
+            "enthalten",
+            "enthält"
           ],
           "purple": [
-            "sich"
+            "hoiduma",
+            "sisaldama"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "enthielten",
+                "sich",
+                "Stimme"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "jäi",
+                "erapooletuks"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "enthalte",
+                "mich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "hoidun"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sich",
+                "enthalten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "hoidus"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sich",
+                "enthalten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tagasi hoida"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "enthalten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "sisaldama"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "verzichten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "loobuma"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich zurückhalten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "tagasi hoidma"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
   {
     "de": "enthüllen",
-    "lv": "\\",
+    "lv": "paljastama • avalikustama • avama",
     "level": "B2"
   },
   {
     "de": "entkorken",
-    "lv": "korki lahti tegema",
+    "lv": "lahti korkima",
     "level": "B2"
   },
   {
     "de": "entkräften",
-    "lv": "\\",
+    "lv": "kurnama • nõrgestama • ümber lükkama",
     "level": "B2"
   },
   {
     "de": "entladen",
-    "lv": "\\",
+    "lv": "maha laadima • tühjaks laadima",
     "level": "B2"
   },
   {
@@ -4112,41 +8877,186 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-entledigen",
-      "layout": "minimalStudy",
-      "translation": "\\",
-      "rektion": "+ omastavas käändes",
-      "explanation": "sich entledigen nõuab kindlat eessõna + omastavas käändes.",
-      "forms": "+ omastavas käändes",
-      "formsLabel": "Rektsioon:",
+      "layout": "standardStudy",
+      "translation": "vabanema • lahti saama",
+      "explanation": [
+        "Põhiidee: sich entledigen tähendab millestki soovimatust vabanema – riietest, võlgadest, kohustusest, relvast. Sõna on ametlik ja raamatulik.",
+        "Sellele järgneb genitiiv: sich seines Mantels entledigen. Põhivormid: entledigt sich, entledigte sich, hat sich entledigt. Igapäevakeeles kasutatakse sagedamini etwas loswerden.",
+        "Eesti keeles: vabanema, lahti saama; riiete puhul – seljast võtma."
+      ],
+      "examples": [
+        {
+          "de": "Er entledigte sich seines nassen Mantels.",
+          "lv": "Ta võttis märja mantli seljast."
+        },
+        {
+          "de": "Die Firma hat sich ihrer Schulden entledigt.",
+          "lv": "Ettevõte vabanes oma võlgadest."
+        },
+        {
+          "de": "Sie wollte sich der lästigen Pflicht entledigen.",
+          "lv": "Ta tahtis tüütust kohustusest lahti saada."
+        },
+        {
+          "de": "Die Täter entledigten sich der Waffe.",
+          "lv": "Kurjategijad vabanesid relvast."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "loswerden",
+          "meaning": "lahti saama",
+          "example": "Ich werde die Erkältung nicht los. – Ma ei saa külmetusest lahti."
+        },
+        {
+          "word": "sich befreien",
+          "meaning": "vabanema",
+          "example": "Er befreit sich von den Fesseln. – Ta vabaneb köidikutest."
+        },
+        {
+          "word": "wegwerfen",
+          "meaning": "ära viskama",
+          "example": "Ich werfe alte Zeitungen weg. – Ma viskan vanad ajalehed ära."
+        }
+      ],
+      "tip": [
+        "Igapäevaselt ütle etwas loswerden; sich entledigen jääb ametlikku või kirjanduslikku stiili.",
+        "Jäta meelde genitiiv: sich der Sorgen entledigen."
+      ],
+      "important": [
+        "Sõnale sich entledigen ei järgne eessõna – ainult genitiiv.",
+        "Sõna on ametlik; kõnekeeles kõlab see liiga pidulikult."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich entledigen"
-          ],
-          "red": [
-            "+ omastavas käändes"
+            "sich entledigen",
+            "entledigte",
+            "entledigt",
+            "entledigen"
           ],
           "purple": [
-            "sich",
-            "sich"
+            "vabanema",
+            "lahti saama"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "entledigte",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "võttis",
+                "seljast"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sich",
+                "entledigt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vabanes"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sich",
+                "entledigen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "lahti saada"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "entledigten",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vabanesid"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "loswerden"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "lahti saama"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich befreien"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "vabanema"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "wegwerfen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ära viskama"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
   {
     "de": "entlegen",
-    "lv": "\\",
+    "lv": "kauge • kõrvaline • eraldatud",
     "level": "B2"
   },
   {
     "de": "entmutigen",
-    "lv": "\\",
+    "lv": "heidutama • julgust võtma",
     "level": "B2"
   },
   {
     "de": "entnehmen",
-    "lv": "\\",
+    "lv": "võtma • välja võtma • järeldama",
     "level": "B2"
   },
   {
@@ -4155,31 +9065,169 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-entruesten",
-      "layout": "minimalStudy",
-      "translation": "\\",
-      "rektion": "über + mida?",
-      "explanation": "sich entrüsten nõuab kindlat eessõna über + mida?.",
-      "forms": "über + mida?",
-      "formsLabel": "Rektsioon:",
+      "layout": "standardStudy",
+      "translation": "nördima • tuliseks minema",
+      "explanation": [
+        "Põhiidee: sich entrüsten tähendab nördima, väljendama tugevat nördimust kellegi teo või sõnade üle. See on moraalne, emotsionaalne nördimus.",
+        "Põhjust, mille üle inimene nördib, näidatakse kujul über + akusatiiv: sich über die Frechheit entrüsten. Põhivormid: entrüstet sich, entrüstete sich, hat sich entrüstet. Omadussõna entrüstet tähendab nördinud.",
+        "Sõna on lähedane väljendile sich empören, kuid igapäevakeeles harvem ja kirjanduslikum."
+      ],
+      "examples": [
+        {
+          "de": "Die Zuschauer entrüsteten sich über den Schiedsrichter.",
+          "lv": "Pealtvaatajad olid kohtuniku peale nördinud."
+        },
+        {
+          "de": "Sie entrüstete sich über die Frechheit.",
+          "lv": "Ta oli jultumusest nördinud."
+        },
+        {
+          "de": "Warum entrüstest du dich so?",
+          "lv": "Miks sa nii tuliseks lähed?"
+        },
+        {
+          "de": "Viele haben sich über den Bericht entrüstet.",
+          "lv": "Paljud olid aruandest nördinud."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich empören",
+          "meaning": "nördima",
+          "example": "Wir empören uns über die Ungerechtigkeit. – Me oleme ülekohtust nördinud."
+        },
+        {
+          "word": "sich aufregen",
+          "meaning": "ärrituma, erutuma",
+          "example": "Reg dich nicht auf! – Ära erutu!"
+        },
+        {
+          "word": "entrüstet",
+          "meaning": "nördinud",
+          "example": "Er sah mich entrüstet an. – Ta vaatas mind nördinult."
+        }
+      ],
+      "tip": [
+        "Jäta meelde kogu fraas: sich über etwas entrüsten (+ akusatiiv).",
+        "Omadussõna entrüstet kasutatakse sageli koos sein'iga või tegusõnadega: entrüstet reagieren."
+      ],
+      "important": [
+        "Eessõna über järel on akusatiiv.",
+        "Igapäevakeeles kuuled sagedamini sich aufregen või sich ärgern."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich entrüsten"
-          ],
-          "red": [
-            "über + mida?"
+            "sich entrüsten",
+            "entrüstete sich"
           ],
           "purple": [
-            "sich",
-            "sich"
+            "nördima",
+            "nördimust"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "entrüsteten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nördinud"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "entrüstete"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nördinud"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "entrüstest"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tuliseks lähed"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "entrüstet"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nördinud"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich empören"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "nördima"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich aufregen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ärrituma"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "entrüstet"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "nördinud"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
   {
     "de": "entsagen",
-    "lv": "\\",
+    "lv": "loobuma • lahti ütlema",
     "level": "B2"
   },
   {
@@ -4189,29 +9237,169 @@ const B2_WORDS = [
   },
   {
     "de": "sich entsinnen",
-    "lv": "meenutama • meeles pidama",
+    "lv": "mäletama • meenutama",
     "level": "B2",
     "study": {
       "id": "b2-sich-entsinnen",
-      "layout": "minimalStudy",
-      "translation": "\\",
-      "rektion": "+ omastavas käändes",
-      "explanation": "sich entsinnen nõuab kindlat eessõna + omastavas käändes.",
-      "forms": "+ omastavas käändes",
-      "formsLabel": "Rektsioon:",
+      "layout": "standardStudy",
+      "translation": "mäletama • meenutama",
+      "explanation": [
+        "Põhiidee: sich entsinnen tähendab mäletama, meenutama midagi minevikust. Sõna on raamatulik ja veidi vanamoodne.",
+        "Sellele järgneb tavaliselt genitiiv (sich seiner entsinnen, sich der Worte entsinnen), tänapäeval ka an + akusatiiv. Sage fraas: Soviel ich mich entsinne, … – niipalju kui ma mäletan. Põhivormid: entsinnt sich, entsann sich, hat sich entsonnen."
+      ],
+      "examples": [
+        {
+          "de": "Ich entsinne mich seiner gut.",
+          "lv": "Ma mäletan teda hästi."
+        },
+        {
+          "de": "Kannst du dich an den Namen entsinnen?",
+          "lv": "Kas sa suudad nime meenutada?"
+        },
+        {
+          "de": "Sie entsann sich der Worte ihrer Mutter.",
+          "lv": "Talle meenusid ema sõnad."
+        },
+        {
+          "de": "Soviel ich mich entsinne, war es ein Montag.",
+          "lv": "Niipalju kui ma mäletan, oli see esmaspäev."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich erinnern",
+          "meaning": "mäletama, meenutama",
+          "example": "Ich erinnere mich an den Urlaub. – Ma mäletan puhkust."
+        },
+        {
+          "word": "gedenken",
+          "meaning": "mälestama",
+          "example": "Wir gedenken der Opfer. – Me mälestame ohvreid."
+        },
+        {
+          "word": "vergessen",
+          "meaning": "unustama",
+          "example": "Ich habe seinen Namen vergessen. – Ma unustasin tema nime."
+        }
+      ],
+      "tip": [
+        "Igapäevakeeles kasutatakse sich erinnern an + akusatiiv; sich entsinnen jääb kirjakeelde ja kõrgemasse stiili.",
+        "Valmis fraas: Soviel ich mich entsinne."
+      ],
+      "important": [
+        "Vormid on ebatavalised: entsann, hat sich entsonnen.",
+        "Ära aja segi sich entsinnen (mäletama) ja gedenken (mälestama)."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich entsinnen"
-          ],
-          "red": [
-            "+ omastavas käändes"
+            "entsinnen",
+            "entsinne",
+            "entsann",
+            "entsonnen"
           ],
           "purple": [
-            "sich",
-            "sich"
+            "mäletama",
+            "meenutama",
+            "mäletan"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "entsinne"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "mäletan"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "entsinnen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "meenutada"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "entsann"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "meenusid"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "entsinne"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "mäletan"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich erinnern"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "mäletama"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "gedenken"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "mälestama"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "vergessen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "unustama"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -4219,17 +9407,17 @@ const B2_WORDS = [
     "de": "Entspannung",
     "de_article": "die",
     "de_plural": "die Entspannungen",
-    "lv": "\\",
+    "lv": "lõõgastus • pingelangus",
     "level": "B2"
   },
   {
     "de": "entstellen",
-    "lv": "\\",
+    "lv": "moonutama • inetuks tegema",
     "level": "B2"
   },
   {
     "de": "entweichen",
-    "lv": "\\",
+    "lv": "põgenema • välja pääsema • lekkima",
     "level": "B2"
   },
   {
@@ -4248,24 +9436,24 @@ const B2_WORDS = [
     "de": "Entwertung",
     "de_article": "die",
     "de_plural": "die Entwertungen",
-    "lv": "\\",
+    "lv": "väärtuse langus • devalveerimine",
     "level": "B2"
   },
   {
     "de": "Entwurf",
     "de_article": "der",
     "de_plural": "die Entwürfe",
-    "lv": "\\",
+    "lv": "kavand • visand • eelnõu",
     "level": "B2"
   },
   {
     "de": "entwurzeln",
-    "lv": "\\",
+    "lv": "juurtega välja kiskuma • välja juurima",
     "level": "B2"
   },
   {
     "de": "entziehen",
-    "lv": "\\",
+    "lv": "ära võtma • ilma jätma • kõrvale hoiduma",
     "level": "B2"
   },
   {
@@ -4275,7 +9463,7 @@ const B2_WORDS = [
   },
   {
     "de": "entzückend",
-    "lv": "\\",
+    "lv": "võluv • imeline",
     "level": "B2"
   },
   {
@@ -4290,14 +9478,14 @@ const B2_WORDS = [
   },
   {
     "de": "sich entzünden",
-    "lv": "\\",
+    "lv": "süttima • põletikku minema",
     "level": "B2"
   },
   {
     "de": "Entzündung",
     "de_article": "die",
     "de_plural": "die Entzündungen",
-    "lv": "\\",
+    "lv": "põletik • süütamine",
     "level": "B2"
   },
   {
@@ -4317,7 +9505,7 @@ const B2_WORDS = [
   {
     "de": "Erachten",
     "de_article": "das",
-    "lv": "\\",
+    "lv": "arvamus • seisukoht",
     "level": "B2"
   },
   {
@@ -4326,25 +9514,163 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-erbarmen",
-      "layout": "minimalStudy",
-      "translation": "\\",
-      "rektion": "über + mida?",
-      "explanation": "sich erbarmen nõuab kindlat eessõna über + mida?.",
-      "forms": "über + mida?",
-      "formsLabel": "Rektsioon:",
+      "layout": "standardStudy",
+      "translation": "halastama • kaasa tundma",
+      "explanation": [
+        "Põhiidee: sich erbarmen tähendab kannatajale kaasa tundma ja teda aitama või tema peale halastama. Keel on kõrgstiilis, sageli religioosne või irooniline.",
+        "Sellele järgneb tavaliselt genitiiv: sich des Hundes erbarmen. Harvem kasutatakse über + akusatiiv. Põhivormid: erbarmt sich, erbarmte sich, hat sich erbarmt.",
+        "Kõnekeeles naljatledes: Wer erbarmt sich und …? – Kes halastab ja …?"
+      ],
+      "examples": [
+        {
+          "de": "Der Richter erbarmte sich des Angeklagten.",
+          "lv": "Kohtunik halastas süüdistatavale."
+        },
+        {
+          "de": "Erbarme dich meiner!",
+          "lv": "Halasta minu peale!"
+        },
+        {
+          "de": "Endlich erbarmte sich jemand des hungrigen Hundes.",
+          "lv": "Lõpuks halastas keegi näljase koera peale."
+        },
+        {
+          "de": "Wer erbarmt sich und holt mir einen Kaffee?",
+          "lv": "Kes halastab ja toob mulle kohvi?"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "begnadigen",
+          "meaning": "armu andma",
+          "example": "Der Präsident begnadigt den Häftling. – President annab vangile armu."
+        },
+        {
+          "word": "Mitleid haben",
+          "meaning": "kaasa tundma",
+          "example": "Ich habe Mitleid mit ihr. – Mul on temast kahju."
+        },
+        {
+          "word": "helfen",
+          "meaning": "aitama",
+          "example": "Er hilft dem Nachbarn. – Ta aitab naabrit."
+        }
+      ],
+      "tip": [
+        "Pärast sich erbarmen pane genitiiv: sich der Kinder erbarmen.",
+        "Tüüpiline palve: Herr, erbarme dich!"
+      ],
+      "important": [
+        "Sõna on stilistiliselt kõrge; igapäevaselt öeldakse Mitleid haben või helfen.",
+        "Ära aja seda segi sõnaga begnadigen (juriidiliselt armu andma, näiteks süüdimõistetule)."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich erbarmen"
-          ],
-          "red": [
-            "über + mida?"
+            "sich erbarmen",
+            "erbarmt"
           ],
           "purple": [
-            "sich",
-            "sich"
+            "halastama",
+            "kaasa tundma"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "erbarmte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "halastas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Erbarme"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Halasta"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "erbarmte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "halastas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "erbarmt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "halastab"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "begnadigen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "armu andma"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "Mitleid haben"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "kaasa tundma"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "helfen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "aitama"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -4352,7 +9678,7 @@ const B2_WORDS = [
     "de": "Erbauer",
     "de_article": "der",
     "de_plural": "die Erbauer",
-    "lv": "\\",
+    "lv": "ehitaja • rajaja",
     "level": "B2"
   },
   {
@@ -4376,7 +9702,7 @@ const B2_WORDS = [
   },
   {
     "de": "erdrücken",
-    "lv": "\\",
+    "lv": "lömastama • rõhuma",
     "level": "B2"
   },
   {
@@ -4397,17 +9723,17 @@ const B2_WORDS = [
     "de": "Erdtrabant",
     "de_article": "der",
     "de_plural": "die Erdtrabanten",
-    "lv": "Kuu (kaaslane)",
+    "lv": "Kuu • Maa kaaslane",
     "level": "B2"
   },
   {
     "de": "erfassen",
-    "lv": "\\",
+    "lv": "haarama • mõistma • hõlmama",
     "level": "B2"
   },
   {
     "de": "erforschen",
-    "lv": "\\",
+    "lv": "uurima • välja uurima",
     "level": "B2"
   },
   {
@@ -4423,31 +9749,187 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-ergeben",
-      "layout": "minimalStudy",
-      "translation": "\\",
-      "rektion": "aus + kellele?",
-      "explanation": "sich ergeben nõuab kindlat eessõna aus + kellele?.",
-      "forms": "aus + kellele?",
-      "formsLabel": "Rektsioon:",
+      "layout": "standardStudy",
+      "translation": "tulenema • alistuma",
+      "explanation": [
+        "Põhiidee: sich ergeben on kahe tähendusega sõna. Kujul aus + datiiv tähendab see tulenema, tagajärjena tekkima: Aus dem Test ergibt sich ein Problem. Datiiviga ilma eessõnata tähendab see alistuma, alluma: sich dem Feind ergeben.",
+        "Põhivormid: ergibt sich, ergab sich, hat sich ergeben. Tulenemise tähenduses on alus tavaliselt asi (es, ein Problem, eine Chance), seega on tegusõna 3. isikus.",
+        "Alistumise tähenduses on aluseks inimene: sich ergeben, sich in sein Schicksal ergeben (oma saatusega leppima)."
+      ],
+      "examples": [
+        {
+          "de": "Aus dem Gespräch ergab sich ein neues Projekt.",
+          "lv": "Vestlusest sündis uus projekt."
+        },
+        {
+          "de": "Daraus ergibt sich ein Problem.",
+          "lv": "Sellest tuleneb probleem."
+        },
+        {
+          "de": "Die Soldaten ergaben sich dem Feind.",
+          "lv": "Sõdurid alistusid vaenlasele."
+        },
+        {
+          "de": "Er hat sich in sein Schicksal ergeben.",
+          "lv": "Ta on oma saatusega leppinud."
+        },
+        {
+          "de": "Ergib dich!",
+          "lv": "Alistu!"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "ergeben",
+          "meaning": "andma (tulemuseks)",
+          "example": "Die Rechnung ergibt 50 Euro. – Arve teeb kokku 50 eurot."
+        },
+        {
+          "word": "folgen",
+          "meaning": "järgnema, järelduma",
+          "example": "Daraus folgt nichts. – Sellest ei järeldu midagi."
+        },
+        {
+          "word": "aufgeben",
+          "meaning": "alla andma",
+          "example": "Er gibt nicht auf. – Ta ei anna alla."
+        }
+      ],
+      "tip": [
+        "Tulenemise tähenduses jäta meelde Daraus ergibt sich, dass … – sellest tuleneb, et …",
+        "Kui jutt on alistumisest, järgneb sageli datiiv: sich dem Willen ergeben."
+      ],
+      "important": [
+        "Ära aja seda segi sõnaga ergeben ilma asesõnata sich: see tähendab tulemuseks andma (Das ergibt Sinn).",
+        "Tähenduse määrab tavaliselt alus: asi – tuleneb, inimene – alistub."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich ergeben"
-          ],
-          "red": [
-            "aus + kellele?"
+            "ergeben",
+            "ergibt",
+            "ergab"
           ],
           "purple": [
-            "sich",
-            "sich"
+            "tulenema",
+            "alistuma",
+            "leppima"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "ergab"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "sündis"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ergibt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tuleneb"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ergaben"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "alistusid"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ergeben"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "leppinud"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Ergib"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Alistu"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "ergeben"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "andma"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "folgen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "järgnema"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "aufgeben"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "alla andma"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
   {
     "de": "ergiebig",
-    "lv": "\\",
+    "lv": "tulus • viljakas • rikkalik",
     "level": "B2"
   },
   {
@@ -4457,22 +9939,22 @@ const B2_WORDS = [
   },
   {
     "de": "erhaben",
-    "lv": "\\",
+    "lv": "ülev • suursugune • kumer",
     "level": "B2"
   },
   {
     "de": "erheben",
-    "lv": "\\",
+    "lv": "tõstma • esitama • sisse nõudma",
     "level": "B2"
   },
   {
     "de": "sich erheben",
-    "lv": "\\",
+    "lv": "tõusma • mässu tõstma",
     "level": "B2"
   },
   {
     "de": "erheblich",
-    "lv": "\\",
+    "lv": "märkimisväärne • oluline",
     "level": "B2"
   },
   {
@@ -4484,29 +9966,29 @@ const B2_WORDS = [
     "de": "Erkenntnis",
     "de_article": "die",
     "de_plural": "die Erkenntnisse",
-    "lv": "\\",
+    "lv": "arusaam • teadmine • tunnetus",
     "level": "B2"
   },
   {
     "de": "erlangen",
-    "lv": "\\",
+    "lv": "saavutama • saama",
     "level": "B2"
   },
   {
     "de": "Erlass",
     "de_article": "der",
     "de_plural": "die Erlasse",
-    "lv": "\\",
+    "lv": "määrus • korraldus • vabastamine",
     "level": "B2"
   },
   {
     "de": "erlassen",
-    "lv": "\\",
+    "lv": "välja andma • vabastama • andeks andma",
     "level": "B2"
   },
   {
     "de": "erläutern",
-    "lv": "\\",
+    "lv": "selgitama • seletama",
     "level": "B2"
   },
   {
@@ -4518,12 +10000,12 @@ const B2_WORDS = [
   },
   {
     "de": "erleiden",
-    "lv": "\\",
+    "lv": "kannatama • läbi elama",
     "level": "B2"
   },
   {
     "de": "erlöschen",
-    "lv": "\\",
+    "lv": "kustuma • aeguma • lõppema",
     "level": "B2"
   },
   {
@@ -4538,7 +10020,7 @@ const B2_WORDS = [
   },
   {
     "de": "ermitteln",
-    "lv": "\\",
+    "lv": "välja selgitama • uurima",
     "level": "B2"
   },
   {
@@ -4552,24 +10034,164 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-erniedrigen",
-      "layout": "minimalStudy",
+      "layout": "standardStudy",
       "translation": "end alandama",
-      "rektion": "vor + kellele?",
-      "explanation": "sich erniedrigen nõuab kindlat eessõna vor + kellele?.",
-      "forms": "vor + kellele?",
-      "formsLabel": "Rektsioon:",
+      "explanation": [
+        "Põhiidee: sich erniedrigen tähendab iseennast alandama, käituma nii, et kaotad oma väärikuse – näiteks kerjama või kellegi ees lömitama.",
+        "Seda, kelle ees end alandatakse, näidatakse kujul vor + datiiv: sich vor dem Chef erniedrigen. Põhivormid: erniedrigt sich, erniedrigte sich, hat sich erniedrigt.",
+        "Ilma asesõnata sich tähendab erniedrigen kedagi teist alandama: Er erniedrigt seine Kollegen."
+      ],
+      "examples": [
+        {
+          "de": "Ich erniedrige mich nicht vor dem Chef.",
+          "lv": "Ma ei alanda end ülemuse ees."
+        },
+        {
+          "de": "Er hat sich erniedrigt, um Geld zu bitten.",
+          "lv": "Ta alandas end, et raha paluda."
+        },
+        {
+          "de": "Sie erniedrigte sich nie vor anderen.",
+          "lv": "Ta ei alandanud end kunagi teiste ees."
+        },
+        {
+          "de": "So tief würde ich mich nicht erniedrigen.",
+          "lv": "Nii madalale ma end ei alandaks."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "demütigen",
+          "meaning": "alandama",
+          "example": "Er demütigt seinen Gegner vor allen. – Ta alandab oma vastast kõigi ees."
+        },
+        {
+          "word": "sich unterwerfen",
+          "meaning": "alistuma, alluma",
+          "example": "Er unterwirft sich dem Willen des Königs. – Ta allub kuninga tahtele."
+        },
+        {
+          "word": "sich blamieren",
+          "meaning": "end häbistama",
+          "example": "Er hat sich vor allen blamiert. – Ta häbistas end kõigi ees."
+        }
+      ],
+      "tip": [
+        "Kujuga vor + datiiv nimetad selle, kelle ees keegi end alandab.",
+        "Erista: sich erniedrigen – alandab iseennast; jemanden erniedrigen – alandab teist."
+      ],
+      "important": [
+        "Eessõna vor järel on datiiv: vor dem Chef, vor anderen.",
+        "Umbisikuline tegumood erniedrigt werden tähendab alandatud saama."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich erniedrigen"
-          ],
-          "red": [
-            "vor + kellele?"
+            "erniedrigen",
+            "erniedrigt",
+            "erniedrigte"
           ],
           "purple": [
-            "sich"
+            "alandama",
+            "alandatakse"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "erniedrige"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "alanda"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "erniedrigt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "alandas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "erniedrigte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "alandanud"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "erniedrigen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "alandaks"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "demütigen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "alandama"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich unterwerfen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "alistuma"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich blamieren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "häbistama"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -4584,12 +10206,12 @@ const B2_WORDS = [
     "de": "Eröffnung",
     "de_article": "die",
     "de_plural": "die Eröffnungen",
-    "lv": "\\",
+    "lv": "avamine • avalikustamine",
     "level": "B2"
   },
   {
     "de": "erörtern",
-    "lv": "\\",
+    "lv": "arutama • käsitlema",
     "level": "B2"
   },
   {
@@ -4599,7 +10221,7 @@ const B2_WORDS = [
   },
   {
     "de": "erregen",
-    "lv": "\\",
+    "lv": "erutama • ärritama • tekitama",
     "level": "B2"
   },
   {
@@ -4608,24 +10230,165 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-erregen",
-      "layout": "minimalStudy",
+      "layout": "standardStudy",
       "translation": "erutuma millegi pärast",
-      "rektion": "über + mida?",
-      "explanation": "sich erregen nõuab kindlat eessõna über + mida?.",
-      "forms": "über + mida?",
-      "formsLabel": "Rektsioon:",
+      "explanation": [
+        "Põhiidee: sich erregen tähendab millegi pärast erutuma, ärrituma – emotsionaalselt reageerima, sageli vihaselt. Seda, mille pärast ärritutakse, näidatakse kujul über + akusatiiv: sich über die Kosten erregen.",
+        "Põhivormid: erregt sich, erregte sich, hat sich erregt. Igapäevakeeles öeldakse selles tähenduses sagedamini sich aufregen; sich erregen on raamatulikum.",
+        "Ilma asesõnata sich tähendab erregen tekitama, äratama: Aufmerksamkeit erregen – tähelepanu äratama."
+      ],
+      "examples": [
+        {
+          "de": "Er erregt sich über jede Kleinigkeit.",
+          "lv": "Ta erutub iga pisiasja pärast."
+        },
+        {
+          "de": "Warum erregst du dich so über die Nachricht?",
+          "lv": "Miks sa selle uudise pärast nii erutud?"
+        },
+        {
+          "de": "Sie erregte sich über die ungerechte Note.",
+          "lv": "Ta ärritus ebaõiglase hinde pärast."
+        },
+        {
+          "de": "Das Publikum hat sich über den Skandal erregt.",
+          "lv": "Publik oli skandaalist nördinud."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich aufregen",
+          "meaning": "ärrituma, närveerima",
+          "example": "Er regt sich über den Lärm auf. – Ta ärritub müra pärast."
+        },
+        {
+          "word": "erregen",
+          "meaning": "tekitama, äratama",
+          "example": "Das Bild erregt Aufsehen. – Pilt tekitab elevust."
+        },
+        {
+          "word": "sich beruhigen",
+          "meaning": "rahunema",
+          "example": "Beruhige dich! – Rahune maha!"
+        }
+      ],
+      "tip": [
+        "Igapäevaselt ütle Reg dich nicht auf!, kirjas võid aga valida sich erregen.",
+        "Põhjust näidatakse tavaliselt kujul über + akusatiiv."
+      ],
+      "important": [
+        "Ära aja seda segi sõnaga erregen (tekitama, erutama) ilma asesõnata sich.",
+        "Eessõna über järel on akusatiiv: über die Nachricht."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich erregen"
-          ],
-          "red": [
-            "über + mida?"
+            "erregen",
+            "erregt",
+            "erregte"
           ],
           "purple": [
-            "sich"
+            "erutuma",
+            "ärrituma",
+            "ärritutakse"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "erregt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "erutub"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "erregst"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "erutud"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "erregte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ärritus"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "erregt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nördinud"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich aufregen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ärrituma"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "erregen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "tekitama"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich beruhigen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "rahunema"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -4650,7 +10413,7 @@ const B2_WORDS = [
     "de": "Erscheinung",
     "de_article": "die",
     "de_plural": "die Erscheinungen",
-    "lv": "\\",
+    "lv": "nähtus • ilmumine • välimus",
     "level": "B2"
   },
   {
@@ -4665,12 +10428,12 @@ const B2_WORDS = [
   },
   {
     "de": "erschöpfen",
-    "lv": "\\",
+    "lv": "ammendama • kurnama",
     "level": "B2"
   },
   {
     "de": "erschüttern",
-    "lv": "\\",
+    "lv": "raputama • vapustama • kõigutama",
     "level": "B2"
   },
   {
@@ -4680,19 +10443,19 @@ const B2_WORDS = [
   },
   {
     "de": "ersehen",
-    "lv": "\\",
+    "lv": "nägema • järeldama",
     "level": "B2"
   },
   {
     "de": "ersparen",
-    "lv": "\\",
+    "lv": "säästma • kokku hoidma",
     "level": "B2"
   },
   {
     "de": "Ersparnis",
     "de_article": "die",
     "de_plural": "die Ersparnisse",
-    "lv": "\\",
+    "lv": "sääst • kokkuhoid",
     "level": "B2"
   },
   {
@@ -4702,12 +10465,12 @@ const B2_WORDS = [
   },
   {
     "de": "ersticken",
-    "lv": "\\",
+    "lv": "lämmatama • lämbuma • summutama",
     "level": "B2"
   },
   {
     "de": "sich erstrecken",
-    "lv": "\\",
+    "lv": "ulatuma • laiuma",
     "level": "B2"
   },
   {
@@ -4717,12 +10480,12 @@ const B2_WORDS = [
   },
   {
     "de": "ertönen",
-    "lv": "\\",
+    "lv": "kõlama • kostma",
     "level": "B2"
   },
   {
     "de": "ertragen",
-    "lv": "\\",
+    "lv": "taluma • välja kannatama",
     "level": "B2"
   },
   {
@@ -4739,12 +10502,12 @@ const B2_WORDS = [
     "de": "Erwägung",
     "de_article": "die",
     "de_plural": "die Erwägungen",
-    "lv": "\\",
+    "lv": "kaalumine • kaalutlus",
     "level": "B2"
   },
   {
     "de": "erweisen",
-    "lv": "\\",
+    "lv": "osutama • tõendama",
     "level": "B2"
   },
   {
@@ -4753,24 +10516,169 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-erweisen",
-      "layout": "minimalStudy",
-      "translation": "osutuma millekski",
-      "rektion": "als + mis?",
-      "explanation": "sich erweisen nõuab kindlat eessõna als + mis?.",
-      "forms": "als + mis?",
-      "formsLabel": "Rektsioon:",
+      "layout": "standardStudy",
+      "translation": "osutuma milleks",
+      "explanation": [
+        "Põhiidee: sich erweisen als tähendab milleks osutuma – aja jooksul selgub, milline keegi või miski tegelikult on. Sõna als järel on sõna samas käändes kui alus, tavaliselt nominatiivis: Das erwies sich als Fehler. Eesti keeles vastab sellele saav kääne: osutus veaks.",
+        "Põhivormid: erweist sich, erwies sich, hat sich erwiesen. Sageli kasutatakse seda 3. isikus asja kohta, kuid ka inimese kohta: Er erwies sich als zuverlässig.",
+        "Konstruktsioon on lähedane väljendile sich herausstellen als; sich erweisen on veidi ametlikum."
+      ],
+      "examples": [
+        {
+          "de": "Das Medikament erwies sich als sehr wirksam.",
+          "lv": "Ravim osutus väga tõhusaks."
+        },
+        {
+          "de": "Er hat sich als zuverlässiger Partner erwiesen.",
+          "lv": "Ta on osutunud usaldusväärseks partneriks."
+        },
+        {
+          "de": "Die Information erwies sich als falsch.",
+          "lv": "Teave osutus valeks."
+        },
+        {
+          "de": "Der Plan wird sich als Erfolg erweisen.",
+          "lv": "Plaan osutub edukaks."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich herausstellen",
+          "meaning": "selguma, osutuma",
+          "example": "Es stellte sich heraus, dass er recht hatte. – Selgus, et tal oli õigus."
+        },
+        {
+          "word": "scheinen",
+          "meaning": "näima, tunduma",
+          "example": "Das scheint richtig zu sein. – See näib olevat õige."
+        },
+        {
+          "word": "beweisen",
+          "meaning": "tõestama",
+          "example": "Er beweist seinen Mut. – Ta tõestab oma julgust."
+        }
+      ],
+      "tip": [
+        "Kasuta skeemi sich als + omadussõna / nimisõna erweisen.",
+        "Sõna als järel pole artiklit, kui järgneb ainult omadussõna: als wirksam."
+      ],
+      "important": [
+        "Sõna als järel on nimisõna tavaliselt samas käändes kui alus: Er erwies sich als guter Freund.",
+        "Ära aja seda segi sõnaga erweisen ilma asesõnata sich (osutama, üles näitama): einen Dienst erweisen (teenet osutama)."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich erweisen"
-          ],
-          "red": [
-            "als + mis?"
+            "sich erweisen",
+            "erwies",
+            "erweist",
+            "erwiesen",
+            "erweisen"
           ],
           "purple": [
-            "sich"
+            "osutuma"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "erwies",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "osutus"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sich",
+                "erwiesen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "osutunud"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "erwies",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "osutus"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sich",
+                "erweisen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "osutub"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich herausstellen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "selguma"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "scheinen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "näima"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "beweisen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "tõestama"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -4778,12 +10686,12 @@ const B2_WORDS = [
     "de": "Erwerb",
     "de_article": "der",
     "de_plural": "die Erwerbe",
-    "lv": "\\",
+    "lv": "omandamine • teenistus • sissetulek",
     "level": "B2"
   },
   {
     "de": "erwerben",
-    "lv": "\\",
+    "lv": "omandama • teenima • soetama",
     "level": "B2"
   },
   {
@@ -4795,7 +10703,7 @@ const B2_WORDS = [
   },
   {
     "de": "erzielen",
-    "lv": "\\",
+    "lv": "saavutama • saama",
     "level": "B2"
   },
   {
@@ -4838,21 +10746,21 @@ const B2_WORDS = [
   },
   {
     "de": "exekutieren",
-    "lv": "surmanuhtlust täide viima",
+    "lv": "hukkama",
     "level": "B2"
   },
   {
     "de": "Exekutive",
     "de_article": "die",
     "de_plural": "die Exekutiven",
-    "lv": "täitevorgan",
+    "lv": "täidesaatev võim",
     "level": "B2"
   },
   {
     "de": "Exil",
     "de_article": "das",
     "de_plural": "die Exile",
-    "lv": "\\",
+    "lv": "pagulus • eksiil",
     "level": "B2"
   },
   {
@@ -4864,19 +10772,19 @@ const B2_WORDS = [
   },
   {
     "de": "exklusiv",
-    "lv": "\\",
+    "lv": "eksklusiivne • valitud • peen",
     "level": "B2"
   },
   {
     "de": "Exot",
     "de_article": "der",
     "de_plural": "die Exoten",
-    "lv": "\\",
+    "lv": "eksoot",
     "level": "B2"
   },
   {
     "de": "expandieren",
-    "lv": "\\",
+    "lv": "laienema • paisuma",
     "level": "B2"
   },
   {
@@ -4913,7 +10821,7 @@ const B2_WORDS = [
     "de": "Fabrikat",
     "de_article": "das",
     "de_plural": "die Fabrikate",
-    "lv": "\\",
+    "lv": "toode • valmistis",
     "level": "B2"
   },
   {
@@ -4937,12 +10845,12 @@ const B2_WORDS = [
   },
   {
     "de": "fahl",
-    "lv": "\\",
+    "lv": "kahvatu • tuhm",
     "level": "B2"
   },
   {
     "de": "fahnden",
-    "lv": "intensiivselt otsima",
+    "lv": "taga otsima",
     "level": "B2"
   },
   {
@@ -4988,7 +10896,7 @@ const B2_WORDS = [
     "de": "Falltür",
     "de_article": "die",
     "de_plural": "die Falltüren",
-    "lv": "\\",
+    "lv": "luuk • põrandaluuk",
     "level": "B2"
   },
   {
@@ -4998,7 +10906,7 @@ const B2_WORDS = [
   },
   {
     "de": "fälschlich",
-    "lv": "\\",
+    "lv": "ekslikult • valesti",
     "level": "B2"
   },
   {
@@ -5019,7 +10927,7 @@ const B2_WORDS = [
     "de": "Färbung",
     "de_article": "die",
     "de_plural": "die Färbungen",
-    "lv": "\\",
+    "lv": "värvus • varjund",
     "level": "B2"
   },
   {
@@ -5058,30 +10966,168 @@ const B2_WORDS = [
   },
   {
     "de": "sich fassen",
-    "lv": "haarama • end koguma • end valitsema",
+    "lv": "end koguma • end valitsema",
     "level": "B2",
     "study": {
       "id": "b2-sich-fassen",
-      "layout": "minimalStudy",
-      "translation": "\\",
-      "rektion": "an + kellele?",
-      "explanation": "sich fassen nõuab kindlat eessõna an + kellele?.",
-      "forms": "an + kellele?",
-      "formsLabel": "Rektsioon:",
+      "layout": "standardStudy",
+      "translation": "end koguma • end valitsema",
+      "explanation": [
+        "Põhiidee: sich fassen tähendab end koguma, pärast šokki või ärevust rahu tagasi saama – end valitsema. Põhivormid: fasst sich, fasste sich, hat sich gefasst. Eessõna sellega ei kasutata.",
+        "Püsiväljend sich kurz fassen tähendab lühidalt väljenduma: Fassen Sie sich bitte kurz! Ilma asesõnata sich tähendab tegusõna fassen haarama, kinni võtma (jemanden am Arm fassen) ja ka otsust tegema (einen Entschluss fassen)."
+      ],
+      "examples": [
+        {
+          "de": "Nach dem Schock fasste sie sich schnell.",
+          "lv": "Pärast šokki kogus ta end kiiresti."
+        },
+        {
+          "de": "Fass dich kurz, ich habe wenig Zeit.",
+          "lv": "Räägi lühidalt, mul on vähe aega."
+        },
+        {
+          "de": "Er konnte sich vor Wut kaum fassen.",
+          "lv": "Ta suutis vihast vaevu end valitseda."
+        },
+        {
+          "de": "Ich muss mich erst einmal fassen.",
+          "lv": "Ma pean end kõigepealt koguma."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "fassen",
+          "meaning": "haarama",
+          "example": "Das Kind fasst die Hand der Mutter. – Laps haarab ema käest."
+        },
+        {
+          "word": "sich beherrschen",
+          "meaning": "end valitsema",
+          "example": "Sie beherrscht sich trotz der Kritik. – Ta valitseb end kriitikast hoolimata."
+        },
+        {
+          "word": "sich beruhigen",
+          "meaning": "rahunema",
+          "example": "Nach dem Streit beruhigt er sich langsam. – Pärast tüli rahuneb ta aeglaselt."
+        }
+      ],
+      "tip": [
+        "Pärast suurt uudist võid öelda Ich muss mich erst fassen – pean end kõigepealt koguma.",
+        "Lühiduse palumiseks kasutatakse Fassen Sie sich kurz!"
+      ],
+      "important": [
+        "Ära aja segi sich fassen (end koguma) ja fassen ilma asesõnata sich (haarama, mõistma).",
+        "Fraasis sich kurz fassen jääb sõna kurz muutumatuks."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich fassen"
-          ],
-          "red": [
-            "an + kellele?"
+            "sich fassen",
+            "fasst sich"
           ],
           "purple": [
-            "sich",
-            "sich",
-            "sich"
+            "end koguma",
+            "end valitsema",
+            "haarama"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "fasste"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kogus",
+                "end"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Fass"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Räägi lühidalt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fassen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "end valitseda"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fassen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "koguma"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "fassen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "haarama"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich beherrschen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "end valitsema"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich beruhigen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "rahunema"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -5089,12 +11135,12 @@ const B2_WORDS = [
     "de": "Fassung",
     "de_article": "die",
     "de_plural": "die Fassungen",
-    "lv": "\\",
+    "lv": "versioon • sõnastus • raam",
     "level": "B2"
   },
   {
     "de": "fassungslos",
-    "lv": "\\",
+    "lv": "jahmunud • vapustatud",
     "level": "B2"
   },
   {
@@ -5129,7 +11175,7 @@ const B2_WORDS = [
   {
     "de": "Feingefühl",
     "de_article": "das",
-    "lv": "\\",
+    "lv": "taktitunne • peenetundelisus",
     "level": "B2"
   },
   {
@@ -5162,19 +11208,19 @@ const B2_WORDS = [
     "de": "Fessel",
     "de_article": "die",
     "de_plural": "die Fesseln",
-    "lv": "\\",
+    "lv": "köidik • ahel",
     "level": "B2"
   },
   {
     "de": "festigen",
-    "lv": "\\",
+    "lv": "kindlustama • tugevdama",
     "level": "B2"
   },
   {
     "de": "Festigkeit",
     "de_article": "die",
     "de_plural": "die Festigkeiten",
-    "lv": "kõvadus",
+    "lv": "tugevus • kindlus",
     "level": "B2"
   },
   {
@@ -5194,7 +11240,7 @@ const B2_WORDS = [
     "de": "Fetzen",
     "de_article": "der",
     "de_plural": "die Fetzen",
-    "lv": "\\",
+    "lv": "räbal • narts",
     "level": "B2"
   },
   {
@@ -5212,14 +11258,14 @@ const B2_WORDS = [
     "de": "Fink",
     "de_article": "der",
     "de_plural": "die Finken",
-    "lv": "metsvint",
+    "lv": "vint",
     "level": "B2"
   },
   {
     "de": "Finsternis",
     "de_article": "die",
     "de_plural": "die Finsternisse",
-    "lv": "\\",
+    "lv": "pimedus • varjutus",
     "level": "B2"
   },
   {
@@ -5232,7 +11278,7 @@ const B2_WORDS = [
   {
     "de": "Firmenkapital",
     "de_article": "das",
-    "lv": "firma kapital",
+    "lv": "ettevõtte kapital",
     "level": "B2"
   },
   {
@@ -5260,12 +11306,12 @@ const B2_WORDS = [
     "de": "Flaum",
     "de_article": "der",
     "de_plural": null,
-    "lv": "\\",
+    "lv": "udusulg • ebe",
     "level": "B2"
   },
   {
     "de": "flauschig",
-    "lv": "\\",
+    "lv": "kohev",
     "level": "B2"
   },
   {
@@ -5275,8 +11321,189 @@ const B2_WORDS = [
   },
   {
     "de": "fleckig",
-    "lv": "\\",
-    "level": "B2"
+    "lv": "plekiline • täpiline",
+    "level": "B2",
+    "study": {
+      "id": "b2-fleckig",
+      "layout": "standardStudy",
+      "translation": "plekiline • täpiline",
+      "explanation": [
+        "Põhiidee: fleckig on omadussõna, mis kirjeldab plekkide või laikudega pinda – plekilist riiet, laigulist nahka, looma täpilist karva.",
+        "Võrdlusastmed: fleckig, fleckiger, am fleckigsten. Kasutatakse nii nimisõna ees (ein fleckiges Hemd) kui ka sein'i järel (Das Hemd ist fleckig). Tüvisõna on der Fleck (plekk, laik), mitmus die Flecken."
+      ],
+      "examples": [
+        {
+          "de": "Die Tischdecke ist fleckig.",
+          "lv": "Laudlina on plekiline."
+        },
+        {
+          "de": "Das Hemd ist nach dem Essen fleckig.",
+          "lv": "Särk on pärast sööki plekke täis."
+        },
+        {
+          "de": "Seine Haut war rot und fleckig.",
+          "lv": "Tema nahk oli punane ja laiguline."
+        },
+        {
+          "de": "Die Kuh hat ein fleckiges Fell.",
+          "lv": "Lehmal on täpiline karv."
+        },
+        {
+          "de": "Das Pferd hat ein braun-weißes, fleckiges Fell.",
+          "lv": "Hobusel on pruuni-valgekirju karv."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "gefleckt",
+          "meaning": "täpiline, kirju",
+          "example": "Der Hund ist schwarz-weiß gefleckt. – Koer on must-valge täpiline."
+        },
+        {
+          "word": "schmutzig",
+          "meaning": "must, mustunud",
+          "example": "Die Hose ist schmutzig. – Püksid on mustad."
+        },
+        {
+          "word": "gestreift",
+          "meaning": "triibuline",
+          "example": "Er trägt ein gestreiftes Hemd. – Tal on seljas triibuline särk."
+        }
+      ],
+      "tip": [
+        "Mõtle sõnale der Fleck: fleckig on see, millel on Flecken.",
+        "Looma loomuliku kirjususe kirjeldamiseks kasutatakse sageli sõna gefleckt."
+      ],
+      "important": [
+        "Fleckig väljendab sageli soovimatut või ebaühtlast välimust (määrdunud riie, punased laigud nahal).",
+        "Lõpu lisamisel pea meeles e-d: ein fleckiges Fell, eine fleckige Haut."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "fleckig",
+            "Fleck",
+            "Flecken",
+            "fleckiges",
+            "fleckiger",
+            "fleckigsten"
+          ],
+          "purple": [
+            "plekilist",
+            "laigulist",
+            "täpilist"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "fleckig"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "plekiline"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fleckig"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "plekke täis"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fleckig"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "laiguline"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fleckiges"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "täpiline"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fleckiges"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kirju"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "gefleckt"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "täpiline"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "schmutzig"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "must"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "gestreift"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "triibuline"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "fliederfarben",
@@ -5285,7 +11512,7 @@ const B2_WORDS = [
   },
   {
     "de": "flimmern",
-    "lv": "\\",
+    "lv": "virvendama • värelema",
     "level": "B2"
   },
   {
@@ -5311,7 +11538,7 @@ const B2_WORDS = [
   },
   {
     "de": "flüchtig",
-    "lv": "\\",
+    "lv": "põgus • pealiskaudne • lenduv",
     "level": "B2"
   },
   {
@@ -5344,7 +11571,7 @@ const B2_WORDS = [
     "de": "Flur",
     "de_article": "die",
     "de_plural": "die Fluren",
-    "lv": "\\",
+    "lv": "põld • väli",
     "level": "B2"
   },
   {
@@ -5389,7 +11616,7 @@ const B2_WORDS = [
   },
   {
     "de": "formell",
-    "lv": "\\",
+    "lv": "formaalne • ametlik",
     "level": "B2"
   },
   {
@@ -5403,17 +11630,17 @@ const B2_WORDS = [
     "de": "Förster",
     "de_article": "der",
     "de_plural": "die Förster",
-    "lv": "metsaülem",
+    "lv": "metsnik",
     "level": "B2"
   },
   {
     "de": "sich fortpflanzen",
-    "lv": "\\",
+    "lv": "paljunema • levima",
     "level": "B2"
   },
   {
     "de": "fortschaffen",
-    "lv": "\\",
+    "lv": "ära viima • minema toimetama",
     "level": "B2"
   },
   {
@@ -5423,24 +11650,24 @@ const B2_WORDS = [
   },
   {
     "de": "fortwährend",
-    "lv": "\\",
+    "lv": "pidev • lakkamatu",
     "level": "B2"
   },
   {
     "de": "Fracht",
     "de_article": "die",
     "de_plural": "die Frachten",
-    "lv": "\\",
+    "lv": "veos • last",
     "level": "B2"
   },
   {
     "de": "fraglich",
-    "lv": "\\",
+    "lv": "küsitav • kahtlane",
     "level": "B2"
   },
   {
     "de": "fraglos",
-    "lv": "\\",
+    "lv": "kahtlemata • vaieldamatu",
     "level": "B2"
   },
   {
@@ -5459,7 +11686,7 @@ const B2_WORDS = [
     "de": "Fräser",
     "de_article": "der",
     "de_plural": "die Fräser",
-    "lv": "\\",
+    "lv": "freesija • frees",
     "level": "B2"
   },
   {
@@ -5471,7 +11698,7 @@ const B2_WORDS = [
   },
   {
     "de": "freilich",
-    "lv": "\\",
+    "lv": "muidugi • küll",
     "level": "B2"
   },
   {
@@ -5483,7 +11710,7 @@ const B2_WORDS = [
   },
   {
     "de": "freimütig",
-    "lv": "\\",
+    "lv": "avameelne • otsekohene",
     "level": "B2"
   },
   {
@@ -5494,7 +11721,7 @@ const B2_WORDS = [
   {
     "de": "Fremde",
     "de_article": "die",
-    "lv": "võõrsil olek",
+    "lv": "võõras maa • välismaa",
     "level": "B2"
   },
   {
@@ -5504,13 +11731,176 @@ const B2_WORDS = [
   },
   {
     "de": "friedfertig",
-    "lv": "\\",
+    "lv": "rahumeelne • leplik",
     "level": "B2"
   },
   {
     "de": "fristlos",
-    "lv": "etteteatamistähtajata",
-    "level": "B2"
+    "lv": "etteteatamiseta • viivitamatu",
+    "level": "B2",
+    "study": {
+      "id": "b2-fristlos",
+      "layout": "standardStudy",
+      "translation": "etteteatamiseta • viivitamatu",
+      "explanation": [
+        "Põhiidee: fristlos tähendab tähtajata, kohese jõuga. Kõige sagedamini räägitakse töö- või üürilepingu lõpetamisest: eine fristlose Kündigung, jemandem fristlos kündigen. Eesti õiguskeeles vastab sellele etteteatamiseta ülesütlemine.",
+        "Sõna koosneb osadest Frist (tähtaeg) + -los (ilma). See on omadussõna ja määrsõna: eine fristlose Kündigung, fristlos entlassen. Tavaliselt saab viivitamatut ülesütlemist teha ainult mõjuval põhjusel (wichtiger Grund)."
+      ],
+      "examples": [
+        {
+          "de": "Der Arbeitgeber kündigte ihm fristlos.",
+          "lv": "Tööandja ütles tema töölepingu etteteatamiseta üles."
+        },
+        {
+          "de": "Die Firma hat den Mitarbeiter fristlos entlassen.",
+          "lv": "Ettevõte vallandas töötaja viivitamatult."
+        },
+        {
+          "de": "Eine fristlose Kündigung ist nur aus wichtigem Grund möglich.",
+          "lv": "Etteteatamiseta ülesütlemine on võimalik ainult mõjuval põhjusel."
+        },
+        {
+          "de": "Sie kündigte den Mietvertrag fristlos.",
+          "lv": "Ta ütles üürilepingu etteteatamiseta üles."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sofort",
+          "meaning": "kohe, viivitamatult",
+          "example": "Komm bitte sofort! – Palun tule kohe!"
+        },
+        {
+          "word": "fristgerecht",
+          "meaning": "tähtaegselt",
+          "example": "Er kündigte fristgerecht. – Ta ütles lepingu tähtaegselt üles."
+        },
+        {
+          "word": "kündigen",
+          "meaning": "üles ütlema",
+          "example": "Sie kündigt ihre Wohnung. – Ta ütleb oma korteri üürilepingu üles."
+        }
+      ],
+      "tip": [
+        "Jäta meelde vastand: fristlose Kündigung (etteteatamiseta ülesütlemine) ja fristgerechte Kündigung (etteteatamisega ülesütlemine).",
+        "Järelliide -los mudeli järgi: arbeitslos, sorglos, fristlos."
+      ],
+      "important": [
+        "Fristlos käib ülesütlemise või vallandamise kohta, mitte iga kiireloomulise tegevuse kohta; üldist kiirust väljendab sofort.",
+        "Tööõiguses nõuab etteteatamiseta ülesütlemine tavaliselt mõjuvat põhjust."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "fristlos",
+            "fristlose",
+            "Frist",
+            "Kündigung"
+          ],
+          "purple": [
+            "tähtajata",
+            "etteteatamiseta",
+            "viivitamatut"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "fristlos"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "etteteatamiseta"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fristlos"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "viivitamatult"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fristlose"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Etteteatamiseta"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fristlos"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "etteteatamiseta"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sofort"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "kohe"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "fristgerecht"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "tähtaegselt"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "kündigen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "üles ütlema"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "fromm",
@@ -5548,25 +11938,174 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-fuegen",
-      "layout": "minimalStudy",
-      "translation": "\\",
-      "rektion": "in + mida?",
-      "explanation": "sich fügen nõuab kindlat eessõna in + mida?.",
-      "forms": "in + mida?",
-      "formsLabel": "Rektsioon:",
+      "layout": "standardStudy",
+      "translation": "kohanema • alluma",
+      "explanation": [
+        "Põhiidee: sich fügen tähendab reeglile, otsusele või olukorrale alluma (sich dem Beschluss fügen) või tervikusse sulanduma, kohanema (sich in die Gruppe fügen).",
+        "Põhivormid: fügt sich, fügte sich, hat sich gefügt. Allumise tähenduses järgneb sageli datiiv (sich dem Willen fügen), kohanemise või leppimise tähenduses – in + akusatiiv (sich in sein Schicksal fügen).",
+        "Fraas Alles fügt sich tähendab: kõik loksub tasapisi paika, kõik laabub. Ilma asesõnata sich on fügen sihiline: Teile zusammenfügen – osi ühendama."
+      ],
+      "examples": [
+        {
+          "de": "Er fügte sich dem Beschluss des Vorstands.",
+          "lv": "Ta allus juhatuse otsusele."
+        },
+        {
+          "de": "Sie musste sich in ihr Schicksal fügen.",
+          "lv": "Ta pidi oma saatusega leppima."
+        },
+        {
+          "de": "Das Kind fügt sich den Regeln.",
+          "lv": "Laps allub reeglitele."
+        },
+        {
+          "de": "Neue Kollegen müssen sich in das Team fügen.",
+          "lv": "Uued kolleegid peavad meeskonnaga kohanema."
+        },
+        {
+          "de": "Alles fügte sich zum Guten.",
+          "lv": "Kõik laabus lõpuks hästi."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich anpassen",
+          "meaning": "kohanema",
+          "example": "Er passt sich dem Klima an. – Ta kohaneb kliimaga."
+        },
+        {
+          "word": "gehorchen",
+          "meaning": "kuuletuma",
+          "example": "Der Hund gehorcht seinem Herrn. – Koer kuuletub oma peremehele."
+        },
+        {
+          "word": "fügen",
+          "meaning": "ühendama, liitma",
+          "example": "Er fügt zwei Teile zusammen. – Ta liidab kaks osa kokku."
+        }
+      ],
+      "tip": [
+        "Kui tahad öelda, et keegi allub otsusele, vali sich dem Beschluss fügen.",
+        "Tea ka ütlust: sich in sein Schicksal fügen."
+      ],
+      "important": [
+        "Ära aja seda segi sõnaga fügen ilma asesõnata sich (lisama, ühendama).",
+        "Otsest kuuletumist käsule või vanematele väljendatakse tavaliselt sõnaga gehorchen, mitte sich fügen."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich fügen"
-          ],
-          "red": [
-            "in + mida?"
+            "fügen",
+            "fügt",
+            "fügte",
+            "gefügt"
           ],
           "purple": [
-            "sich",
-            "sich"
+            "alluma",
+            "kohanema",
+            "Allumise",
+            "kohanemise",
+            "leppimise"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "fügte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "allus"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fügen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "leppima"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fügt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "allub"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fügen"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fügte"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich anpassen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "kohanema"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "gehorchen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "kuuletuma"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "fügen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ühendama"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -5574,7 +12113,7 @@ const B2_WORDS = [
     "de": "Fuhre",
     "de_article": "die",
     "de_plural": "die Fuhren",
-    "lv": "\\",
+    "lv": "koorem • veos",
     "level": "B2"
   },
   {
@@ -5587,7 +12126,7 @@ const B2_WORDS = [
   {
     "de": "Führernatur",
     "de_article": "die",
-    "lv": "\\",
+    "lv": "sünnipärane juht • liidritüüp",
     "level": "B2"
   },
   {
@@ -5599,7 +12138,7 @@ const B2_WORDS = [
     "de": "Funker",
     "de_article": "der",
     "de_plural": "die Funker",
-    "lv": "\\",
+    "lv": "radist • raadiotelegrafist",
     "level": "B2"
   },
   {
@@ -5641,21 +12180,21 @@ const B2_WORDS = [
     "de": "Furche",
     "de_article": "die",
     "de_plural": "die Furchen",
-    "lv": "\\",
+    "lv": "vagu • korts",
     "level": "B2"
   },
   {
     "de": "Fürsorge",
     "de_article": "die",
     "de_plural": "die Fürsorgen",
-    "lv": "\\",
+    "lv": "hoolitsus • hoolekanne",
     "level": "B2"
   },
   {
     "de": "Fürsprache",
     "de_article": "die",
     "de_plural": "die Fürsprachen",
-    "lv": "\\",
+    "lv": "eestkõnelemine • soovitus",
     "level": "B2"
   },
   {
@@ -5693,7 +12232,7 @@ const B2_WORDS = [
   },
   {
     "de": "gängig",
-    "lv": "\\",
+    "lv": "levinud • tavaline • hästi müüdav",
     "level": "B2"
   },
   {
@@ -5707,7 +12246,7 @@ const B2_WORDS = [
     "de": "Garbe",
     "de_article": "die",
     "de_plural": "die Garben",
-    "lv": "\\",
+    "lv": "vihk",
     "level": "B2"
   },
   {
@@ -5726,14 +12265,14 @@ const B2_WORDS = [
     "de": "Garnknäuel",
     "de_article": "das",
     "de_plural": "die Garnknäuel",
-    "lv": "kera",
+    "lv": "lõngakera",
     "level": "B2"
   },
   {
     "de": "Garnspule",
     "de_article": "die",
     "de_plural": "die Garnspulen",
-    "lv": "\\",
+    "lv": "lõngapool • niidirull",
     "level": "B2"
   },
   {
@@ -5768,48 +12307,48 @@ const B2_WORDS = [
     "de": "Gattung",
     "de_article": "die",
     "de_plural": "die Gattungen",
-    "lv": "\\",
+    "lv": "liik • perekond • žanr",
     "level": "B2"
   },
   {
     "de": "Gebärde",
     "de_article": "die",
     "de_plural": "die Gebärden",
-    "lv": "\\",
+    "lv": "žest • liigutus",
     "level": "B2"
   },
   {
     "de": "Gebot",
     "de_article": "das",
     "de_plural": "die Gebote",
-    "lv": "\\",
+    "lv": "käsk • nõue • pakkumine",
     "level": "B2"
   },
   {
     "de": "gebrechlich",
-    "lv": "\\",
+    "lv": "põdur • nõrk • kõdur",
     "level": "B2"
   },
   {
     "de": "gedämpft",
-    "lv": "\\",
+    "lv": "summutatud • vaigistatud • aurutatud",
     "level": "B2"
   },
   {
     "de": "Gedeck",
     "de_article": "das",
     "de_plural": "die Gedecke",
-    "lv": "kohaseade",
+    "lv": "kuvert • söögiriistakomplekt",
     "level": "B2"
   },
   {
     "de": "gedeihen",
-    "lv": "\\",
+    "lv": "õitsema • edenema • kasvama",
     "level": "B2"
   },
   {
     "de": "gedenken",
-    "lv": "\\",
+    "lv": "mälestama • meenutama • kavatsema",
     "level": "B2"
   },
   {
@@ -5830,32 +12369,32 @@ const B2_WORDS = [
     "de": "Gefährte",
     "de_article": "der",
     "de_plural": "die Gefährten",
-    "lv": "\\",
+    "lv": "kaaslane • seltsiline",
     "level": "B2"
   },
   {
     "de": "Gefallen",
     "de_article": "das",
-    "lv": "\\",
+    "lv": "meeldimine • rõõm",
     "level": "B2"
   },
   {
     "de": "gefällig",
-    "lv": "\\",
+    "lv": "meeldiv • abivalmis • lahke",
     "level": "B2"
   },
   {
     "de": "Gefäß",
     "de_article": "das",
     "de_plural": "die Gefäße",
-    "lv": "\\",
+    "lv": "anum • veresoon",
     "level": "B2"
   },
   {
     "de": "Gefecht",
     "de_article": "das",
     "de_plural": "die Gefechte",
-    "lv": "\\",
+    "lv": "lahing • võitlus",
     "level": "B2"
   },
   {
@@ -5869,7 +12408,7 @@ const B2_WORDS = [
     "de": "Gefüge",
     "de_article": "das",
     "de_plural": "die Gefüge",
-    "lv": "\\",
+    "lv": "struktuur • ülesehitus",
     "level": "B2"
   },
   {
@@ -5897,7 +12436,7 @@ const B2_WORDS = [
     "de": "Gegensatz",
     "de_article": "der",
     "de_plural": "die Gegensätze",
-    "lv": "\\",
+    "lv": "vastand • vastandus • vastuolu",
     "level": "B2"
   },
   {
@@ -5909,7 +12448,7 @@ const B2_WORDS = [
   },
   {
     "de": "gehörig",
-    "lv": "\\",
+    "lv": "kuuluv • kohane • korralik",
     "level": "B2"
   },
   {
@@ -5928,30 +12467,197 @@ const B2_WORDS = [
   },
   {
     "de": "gekünstelt",
-    "lv": "\\",
+    "lv": "kunstlik • ebaloomulik",
     "level": "B2"
   },
   {
     "de": "Geländelauf",
     "de_article": "der",
     "de_plural": "die Geländeläufe",
-    "lv": "kross",
+    "lv": "maastikujooks • murdmaajooks",
     "level": "B2"
   },
   {
     "de": "gelassen",
-    "lv": "\\",
+    "lv": "rahulik • enesevalitsev",
     "level": "B2"
   },
   {
     "de": "geläufig",
-    "lv": "\\",
+    "lv": "tuttav • tavaline • ladus",
     "level": "B2"
   },
   {
     "de": "gelaunt",
-    "lv": "tujus",
-    "level": "B2"
+    "lv": "tujus • meeleolus",
+    "level": "B2",
+    "study": {
+      "id": "b2-gelaunt",
+      "layout": "standardStudy",
+      "translation": "tujus • meeleolus",
+      "explanation": [
+        "Põhiidee: gelaunt on omadussõna, mida kasutatakse ainult koos määrsõnaga: gut gelaunt (heas tujus), schlecht gelaunt (halvas tujus). See kirjeldab inimese meeleolu.",
+        "Eraldi, ilma määrsõnata, seda peaaegu ei kasutata. Võrdlusastmed moodustab määrsõna: besser gelaunt, am besten gelaunt. Tüvisõna on die Laune (tuju), mitmus die Launen."
+      ],
+      "examples": [
+        {
+          "de": "Er ist heute gut gelaunt.",
+          "lv": "Ta on täna heas tujus."
+        },
+        {
+          "de": "Sie kam schlecht gelaunt ins Büro.",
+          "lv": "Ta tuli kontorisse halvas tujus."
+        },
+        {
+          "de": "Der Chef ist heute nicht besonders gut gelaunt.",
+          "lv": "Ülemus pole täna eriti heas tujus."
+        },
+        {
+          "de": "Wie ist er heute gelaunt?",
+          "lv": "Mis tujus ta täna on?"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "die Laune",
+          "meaning": "tuju",
+          "example": "Er hat gute Laune. – Tal on hea tuju."
+        },
+        {
+          "word": "gut drauf",
+          "meaning": "heas tujus",
+          "example": "Er ist heute gut drauf. – Ta on täna heas tujus."
+        },
+        {
+          "word": "gestimmt",
+          "meaning": "meelestatud",
+          "example": "Sie ist heiter gestimmt. – Ta on rõõmsalt meelestatud."
+        }
+      ],
+      "tip": [
+        "Jäta meelde valmisühendid: gut gelaunt, schlecht gelaunt, bestens gelaunt.",
+        "Sõnaga Laune saab öelda gute Laune haben."
+      ],
+      "important": [
+        "Gelaunt seisab peaaegu alati koos sõnadega gut, schlecht, besser või muu määrsõnaga.",
+        "Sõna ei ole sama mis gestimmt (meelestatud), kuigi tähendus on lähedane."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "gelaunt",
+            "gut gelaunt",
+            "schlecht gelaunt",
+            "Laune",
+            "Launen"
+          ],
+          "purple": [
+            "tujus",
+            "meeleolu",
+            "tuju"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "gut",
+                "gelaunt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "heas tujus"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "schlecht",
+                "gelaunt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "halvas tujus"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "gut",
+                "gelaunt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "heas tujus"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "gelaunt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tujus"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "die Laune"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "tuju"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "gut drauf"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "heas tujus"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "gestimmt"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "meelestatud"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "Geldbuße",
@@ -5971,7 +12677,7 @@ const B2_WORDS = [
     "de": "Geldeinlage",
     "de_article": "die",
     "de_plural": "die Geldeinlagen",
-    "lv": "\\",
+    "lv": "hoius • sissemakse",
     "level": "B2"
   },
   {
@@ -5983,7 +12689,7 @@ const B2_WORDS = [
   },
   {
     "de": "gelegen",
-    "lv": "\\",
+    "lv": "sobiv • soodne • asuv",
     "level": "B2"
   },
   {
@@ -5997,7 +12703,7 @@ const B2_WORDS = [
     "de": "Geliebte",
     "de_article": "der",
     "de_plural": "die Geliebten",
-    "lv": "\\",
+    "lv": "armastatu • armuke",
     "level": "B2"
   },
   {
@@ -6011,63 +12717,63 @@ const B2_WORDS = [
     "de": "Geltung",
     "de_article": "die",
     "de_plural": "die Geltungen",
-    "lv": "\\",
+    "lv": "kehtivus • tähtsus • mõju",
     "level": "B2"
   },
   {
     "de": "Gemahl",
     "de_article": "der",
     "de_plural": "die Gemahle",
-    "lv": "\\",
+    "lv": "abikaasa (mees)",
     "level": "B2"
   },
   {
     "de": "Gemahlin",
     "de_article": "die",
     "de_plural": "die Gemahlinnen",
-    "lv": "\\",
+    "lv": "abikaasa • kaasa",
     "level": "B2"
   },
   {
     "de": "gemäß",
-    "lv": "\\",
+    "lv": "kohaselt • vastavalt",
     "level": "B2"
   },
   {
     "de": "gemessen",
-    "lv": "\\",
+    "lv": "kaalutletud • mõõdukas • väärikas",
     "level": "B2"
   },
   {
     "de": "Gemetzel",
     "de_article": "das",
     "de_plural": "die Gemetzel",
-    "lv": "\\",
+    "lv": "veresaun • tapatalgud",
     "level": "B2"
   },
   {
     "de": "Gemisch",
     "de_article": "das",
     "de_plural": "die Gemische",
-    "lv": "\\",
+    "lv": "segu",
     "level": "B2"
   },
   {
     "de": "Gemüsebau",
     "de_article": "der",
-    "lv": "\\",
+    "lv": "köögiviljakasvatus",
     "level": "B2"
   },
   {
     "de": "Gemüt",
     "de_article": "das",
     "de_plural": "die Gemüter",
-    "lv": "\\",
+    "lv": "meel • hing • loomus",
     "level": "B2"
   },
   {
     "de": "gemütvoll",
-    "lv": "\\",
+    "lv": "südamlik • tundeline",
     "level": "B2"
   },
   {
@@ -6092,14 +12798,14 @@ const B2_WORDS = [
   },
   {
     "de": "genesen",
-    "lv": "\\",
+    "lv": "paranema • tervenema",
     "level": "B2"
   },
   {
     "de": "Genesung",
     "de_article": "die",
     "de_plural": "die Genesungen",
-    "lv": "\\",
+    "lv": "paranemine • tervenemine",
     "level": "B2"
   },
   {
@@ -6115,24 +12821,163 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-genieren",
-      "layout": "minimalStudy",
+      "layout": "standardStudy",
       "translation": "häbenema",
-      "rektion": "vor + kellele?",
-      "explanation": "sich genieren nõuab kindlat eessõna vor + kellele?.",
-      "forms": "vor + kellele?",
-      "formsLabel": "Rektsioon:",
+      "explanation": [
+        "Põhimõte: sich genieren tähendab „häbenema“ ehk tundma end teiste juuresolekul kohmetult ja ebamugavalt. Hääldus: g kõlab nagu ž: [ʒeˈniːrən].",
+        "Inimesed, kelle ees häbenetakse, märgitakse vor + datiiviga: sich vor den Gästen genieren. Vormid: geniert sich, genierte sich, hat sich geniert. Sageli kasutatakse eitavas vormis: Genieren Sie sich nicht! — Ärge häbenege!"
+      ],
+      "examples": [
+        {
+          "de": "Er geniert sich vor fremden Leuten.",
+          "lv": "Ta häbeneb võõraid inimesi."
+        },
+        {
+          "de": "Du brauchst dich nicht zu genieren.",
+          "lv": "Sul pole vaja häbeneda."
+        },
+        {
+          "de": "Sie genierte sich, nach dem Weg zu fragen.",
+          "lv": "Ta häbenes teed küsida."
+        },
+        {
+          "de": "Bitte genieren Sie sich nicht, greifen Sie zu!",
+          "lv": "Palun ärge häbenege, võtke!"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich schämen",
+          "meaning": "häbi tundma",
+          "example": "Ich schäme mich für meinen Fehler. – Mul on oma vea pärast häbi."
+        },
+        {
+          "word": "schüchtern",
+          "meaning": "häbelik",
+          "example": "Er ist sehr schüchtern. – Ta on väga häbelik."
+        },
+        {
+          "word": "peinlich",
+          "meaning": "piinlik",
+          "example": "Das ist mir peinlich. – See on mulle piinlik."
+        }
+      ],
+      "tip": [
+        "Külalislahke kutse: Genieren Sie sich nicht!",
+        "Ebamugavas olukorras ütle ka Das ist mir unangenehm."
+      ],
+      "important": [
+        "sich genieren väljendab sotsiaalset kohmetust, sich schämen aga häbi oma tegude pärast.",
+        "Sõna on laenatud prantsuse keelest, seepärast on ž-ga hääldus oluline."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich genieren"
-          ],
-          "red": [
-            "vor + kellele?"
+            "genieren",
+            "geniert",
+            "genierte",
+            "Genieren"
           ],
           "purple": [
-            "sich"
+            "häbenema"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "geniert"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "häbeneb"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "genieren"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "häbeneda"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "genierte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "häbenes"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "genieren"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ärge häbenege"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "schämen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "häbi tundma"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "schüchtern"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "häbelik"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "peinlich"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "piinlik"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -6140,14 +12985,14 @@ const B2_WORDS = [
     "de": "Genosse",
     "de_article": "der",
     "de_plural": "die Genossen",
-    "lv": "liige",
+    "lv": "seltsimees • kaaslane",
     "level": "B2"
   },
   {
     "de": "Genossin",
     "de_article": "die",
     "de_plural": "die Genossinnen",
-    "lv": "liige (naine)",
+    "lv": "seltsimees • kaaslane",
     "level": "B2"
   },
   {
@@ -6178,37 +13023,37 @@ const B2_WORDS = [
   },
   {
     "de": "geraten",
-    "lv": "\\",
+    "lv": "sattuma • õnnestuma",
     "level": "B2"
   },
   {
     "de": "Geratewohl",
     "de_article": "das",
-    "lv": "\\",
+    "lv": "huupi • õnne peale",
     "level": "B2"
   },
   {
     "de": "geräuschlos",
-    "lv": "\\",
+    "lv": "hääletu • müratu",
     "level": "B2"
   },
   {
     "de": "Gerede",
     "de_article": "das",
     "de_plural": "die Gerede",
-    "lv": "\\",
+    "lv": "jutt • kuulujutud • lobisemine",
     "level": "B2"
   },
   {
     "de": "gerinnen",
-    "lv": "\\",
+    "lv": "hüübima • kalgenduma",
     "level": "B2"
   },
   {
     "de": "Gerippe",
     "de_article": "das",
     "de_plural": "die Gerippe",
-    "lv": "\\",
+    "lv": "luukere • luustik • karkass",
     "level": "B2"
   },
   {
@@ -6234,14 +13079,14 @@ const B2_WORDS = [
   },
   {
     "de": "geschäftig",
-    "lv": "\\",
+    "lv": "toimekas • tegus",
     "level": "B2"
   },
   {
     "de": "Geschehnis",
     "de_article": "das",
     "de_plural": "die Geschehnisse",
-    "lv": "\\",
+    "lv": "sündmus • juhtum",
     "level": "B2"
   },
   {
@@ -6255,7 +13100,7 @@ const B2_WORDS = [
     "de": "Geschöpf",
     "de_article": "das",
     "de_plural": "die Geschöpfe",
-    "lv": "\\",
+    "lv": "olend • loodu",
     "level": "B2"
   },
   {
@@ -6276,7 +13121,7 @@ const B2_WORDS = [
     "de": "Geschwätz",
     "de_article": "das",
     "de_plural": "die Geschwätze",
-    "lv": "\\",
+    "lv": "lobisemine • tühi jutt",
     "level": "B2"
   },
   {
@@ -6286,7 +13131,7 @@ const B2_WORDS = [
   },
   {
     "de": "geschwind",
-    "lv": "\\",
+    "lv": "kiire • väle",
     "level": "B2"
   },
   {
@@ -6300,14 +13145,14 @@ const B2_WORDS = [
     "de": "Geschwür",
     "de_article": "das",
     "de_plural": "die Geschwüre",
-    "lv": "\\",
+    "lv": "haavand • paise",
     "level": "B2"
   },
   {
     "de": "Geselle",
     "de_article": "der",
     "de_plural": "die Gesellen",
-    "lv": "\\",
+    "lv": "sell • kaaslane",
     "level": "B2"
   },
   {
@@ -6316,24 +13161,163 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-gesellen",
-      "layout": "minimalStudy",
+      "layout": "standardStudy",
       "translation": "ühinema",
-      "rektion": "zu + kellele?",
-      "explanation": "sich gesellen nõuab kindlat eessõna zu + kellele?.",
-      "forms": "zu + kellele?",
-      "formsLabel": "Rektsioon:",
+      "explanation": [
+        "Põhimõte: sich gesellen tähendab ühinema inimese või seltskonnaga, istuma või asetuma kellegi juurde. Sellega saab väljendada ka seda, et millelegi lisandub veel midagi (Zu der Kälte gesellte sich Regen).",
+        "zu + datiiviga nimetatakse see, kellega ühinetakse: sich zu jemandem gesellen. Vormid: gesellt sich, gesellte sich, hat sich gesellt. Sõna on veidi kirjakeelne.",
+        "Tuntud ütlus: Gleich und gleich gesellt sich gern. — umbes: omasugused hoiavad kokku."
+      ],
+      "examples": [
+        {
+          "de": "Er gesellte sich zu uns an den Tisch.",
+          "lv": "Ta ühines meiega laua taga."
+        },
+        {
+          "de": "Zu der Kälte gesellte sich noch Regen.",
+          "lv": "Külmale lisandus veel vihm."
+        },
+        {
+          "de": "Darf ich mich zu Ihnen gesellen?",
+          "lv": "Kas tohin teiega ühineda?"
+        },
+        {
+          "de": "Sie gesellte sich zu den anderen Gästen.",
+          "lv": "Ta ühines teiste külalistega."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich anschließen",
+          "meaning": "liituma",
+          "example": "Ich schließe mich der Gruppe an. – Ma liitun grupiga."
+        },
+        {
+          "word": "dazukommen",
+          "meaning": "juurde tulema",
+          "example": "Er kommt später dazu. – Ta tuleb hiljem juurde."
+        },
+        {
+          "word": "begleiten",
+          "meaning": "saatma",
+          "example": "Ich begleite dich nach Hause. – Ma saadan su koju."
+        }
+      ],
+      "tip": [
+        "Sõna sich gesellen järel tuleb zu + datiiv: zu uns, zu ihm, zu den Gästen.",
+        "Sõna sobib hästi siis, kui keegi ühineb vabalt ja sundimatult, näiteks laua taga."
+      ],
+      "important": [
+        "Ametliku organisatsiooniga liitumise kohta öeldakse tavaliselt sich anschließen või beitreten, mitte sich gesellen.",
+        "Sõnaga sich gesellen on seotud der Geselle (sell, käsitööline või kaaslane) — sellest on pärit ka eesti sõna „sell“."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich gesellen"
-          ],
-          "red": [
-            "zu + kellele?"
+            "gesellen",
+            "gesellte",
+            "gesellt"
           ],
           "purple": [
-            "sich"
+            "ühinema"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "gesellte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ühines"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "gesellte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "lisandus"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "gesellen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ühineda"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "gesellte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ühines"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich anschließen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "liituma"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "dazukommen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "juurde tulema"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "begleiten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "saatma"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -6348,7 +13332,7 @@ const B2_WORDS = [
     "de": "Gesinnung",
     "de_article": "die",
     "de_plural": "die Gesinnungen",
-    "lv": "\\",
+    "lv": "meelsus • hoiak • veendumused",
     "level": "B2"
   },
   {
@@ -6369,24 +13353,168 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-gestalten",
-      "layout": "minimalStudy",
-      "translation": "kujunema",
-      "rektion": "zu + kellele?",
-      "explanation": "sich gestalten nõuab kindlat eessõna zu + kellele?.",
-      "forms": "zu + kellele?",
-      "formsLabel": "Rektsioon:",
+      "layout": "standardStudy",
+      "translation": "kujunema milleks",
+      "explanation": [
+        "Põhimõte: sich gestalten tähendab kujunema, kulgema — sündmuse, läbirääkimiste või tuleviku kohta: milliseks see osutub. Tavaliselt järgneb omadussõna (schwierig, positiv) või zu + datiiv (zu einem Erfolg); eesti keeles vastab sellele saav kääne (kujunes edukaks).",
+        "Vormid: gestaltet sich, gestaltete sich, hat sich gestaltet. Alus on tavaliselt abstraktne nimisõna: Verhandlungen, Zukunft, Abend, Zusammenarbeit.",
+        "Ilma sich-ita tähendab gestalten kujundama, vormistama (den Garten gestalten)."
+      ],
+      "examples": [
+        {
+          "de": "Die Verhandlungen gestalten sich schwierig.",
+          "lv": "Läbirääkimised kujunevad keeruliseks."
+        },
+        {
+          "de": "Der Abend gestaltete sich zu einem Erfolg.",
+          "lv": "Õhtu kujunes edukaks."
+        },
+        {
+          "de": "Wie wird sich die Zukunft gestalten?",
+          "lv": "Milliseks kujuneb tulevik?"
+        },
+        {
+          "de": "Das Treffen gestaltete sich anders als geplant.",
+          "lv": "Kohtumine kujunes teistsuguseks, kui plaanitud."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "gestalten",
+          "meaning": "kujundama",
+          "example": "Wir gestalten den Garten neu. – Me kujundame aia ümber."
+        },
+        {
+          "word": "werden",
+          "meaning": "saama (milleks)",
+          "example": "Er wird Lehrer. – Temast saab õpetaja."
+        },
+        {
+          "word": "sich entwickeln",
+          "meaning": "arenema",
+          "example": "Das Kind entwickelt sich gut. – Laps areneb hästi."
+        }
+      ],
+      "tip": [
+        "Sage ühend: sich schwierig gestalten — kujunema keeruliseks.",
+        "Äri- ja ametlikus stiilis: Die Zusammenarbeit gestaltet sich erfolgreich."
+      ],
+      "important": [
+        "sich gestalten kasutatakse tavaliselt ametlikus keeles; igapäevaselt ütled lihtsamalt werden või verlaufen.",
+        "Alus ei ole tavaliselt inimene, vaid sündmus või protsess."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich gestalten"
-          ],
-          "red": [
-            "zu + kellele?"
+            "sich gestalten",
+            "gestalten",
+            "gestaltet",
+            "gestaltete"
           ],
           "purple": [
-            "sich"
+            "kujunema"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "gestalten",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kujunevad"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "gestaltete",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kujunes"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sich",
+                "gestalten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kujuneb"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "gestaltete",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kujunes"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "gestalten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "kujundama"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "werden"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "saama"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich entwickeln"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "arenema"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -6413,7 +13541,7 @@ const B2_WORDS = [
     "de": "Gestell",
     "de_article": "das",
     "de_plural": "die Gestelle",
-    "lv": "\\",
+    "lv": "raam • alus • statiiv",
     "level": "B2"
   },
   {
@@ -6427,7 +13555,7 @@ const B2_WORDS = [
     "de": "Gesuch",
     "de_article": "das",
     "de_plural": "die Gesuche",
-    "lv": "\\",
+    "lv": "taotlus • avaldus • palve",
     "level": "B2"
   },
   {
@@ -6445,29 +13573,29 @@ const B2_WORDS = [
   {
     "de": "Gewähr",
     "de_article": "die",
-    "lv": "\\",
+    "lv": "garantii • tagatis",
     "level": "B2"
   },
   {
     "de": "gewähren",
-    "lv": "\\",
+    "lv": "andma • võimaldama • lubama",
     "level": "B2"
   },
   {
     "de": "gewaltsam",
-    "lv": "\\",
+    "lv": "vägivaldne • sunniviisiline",
     "level": "B2"
   },
   {
     "de": "Gewalttat",
     "de_article": "die",
     "de_plural": "die Gewalttaten",
-    "lv": "\\",
+    "lv": "vägivallategu",
     "level": "B2"
   },
   {
     "de": "gewandt",
-    "lv": "\\",
+    "lv": "osav • vilunud",
     "level": "B2"
   },
   {
@@ -6481,31 +13609,31 @@ const B2_WORDS = [
     "de": "Gewebe",
     "de_article": "das",
     "de_plural": "die Gewebe",
-    "lv": "\\",
+    "lv": "kude • kangas",
     "level": "B2"
   },
   {
     "de": "Gewerbe",
     "de_article": "das",
     "de_plural": "die Gewerbe",
-    "lv": "\\",
+    "lv": "amet • elatusala • ettevõtlus",
     "level": "B2"
   },
   {
     "de": "gewieft",
-    "lv": "\\",
+    "lv": "kaval • vilunud",
     "level": "B2"
   },
   {
     "de": "gewissenlos",
-    "lv": "\\",
+    "lv": "südametunnistuseta • ebaaus",
     "level": "B2"
   },
   {
     "de": "Gewissheit",
     "de_article": "die",
     "de_plural": "die Gewissheiten",
-    "lv": "\\",
+    "lv": "kindlus • veendumus",
     "level": "B2"
   },
   {
@@ -6516,7 +13644,7 @@ const B2_WORDS = [
   },
   {
     "de": "gierig",
-    "lv": "\\",
+    "lv": "ahne • himukas",
     "level": "B2"
   },
   {
@@ -6568,7 +13696,7 @@ const B2_WORDS = [
   },
   {
     "de": "gläsern",
-    "lv": "\\",
+    "lv": "klaasist • klaasjas",
     "level": "B2"
   },
   {
@@ -6595,48 +13723,48 @@ const B2_WORDS = [
     "de": "Glatze",
     "de_article": "die",
     "de_plural": "die Glatzen",
-    "lv": "\\",
+    "lv": "kiilaspea • kiilakus",
     "level": "B2"
   },
   {
     "de": "Stirnglatze",
     "de_article": "die",
     "de_plural": "die Stirnglatzen",
-    "lv": "otsmiku kiilaspäisus",
+    "lv": "taganenud juuksepiir",
     "level": "B2"
   },
   {
     "de": "gleichmütig",
-    "lv": "\\",
+    "lv": "rahulik • ükskõikne • külmavereline",
     "level": "B2"
   },
   {
     "de": "Gleichnis",
     "de_article": "das",
     "de_plural": "die Gleichnisse",
-    "lv": "\\",
+    "lv": "tähendamissõna • võrdpilt",
     "level": "B2"
   },
   {
     "de": "gleiten",
-    "lv": "\\",
+    "lv": "libisema • liuglema",
     "level": "B2"
   },
   {
     "de": "Glied",
     "de_article": "das",
     "de_plural": "die Glieder",
-    "lv": "\\",
+    "lv": "jäse • lüli • liige",
     "level": "B2"
   },
   {
     "de": "gliedern",
-    "lv": "\\",
+    "lv": "liigendama • jaotama",
     "level": "B2"
   },
   {
     "de": "glimmen",
-    "lv": "\\",
+    "lv": "hõõguma",
     "level": "B2"
   },
   {
@@ -6646,22 +13774,340 @@ const B2_WORDS = [
   },
   {
     "de": "glühen",
-    "lv": "\\",
+    "lv": "hõõguma • lõõmama • õhetama",
     "level": "B2"
   },
   {
     "de": "Glut",
     "de_article": "die",
     "de_plural": "die Gluten",
-    "lv": "\\",
-    "level": "B2"
+    "lv": "hõõgsüsi • kuumus • kirg",
+    "level": "B2",
+    "study": {
+      "id": "b2-glut",
+      "layout": "standardStudy",
+      "translation": "hõõgsüsi • kuumus • kirg",
+      "explanation": [
+        "Põhimõte: die Glut on naissoost nimisõna (artikkel die). See tähendab hõõguvaid süsi ehk kustuva tule kuuma hõõgumist, samuti väga suurt kuumust, leitsakut (die Glut der Sonne). Ülekantud tähenduses on Glut ka kirg, õhin.",
+        "Mitmus on haruldane (die Gluten), tavaliselt kasutatakse ainsust: die Glut. Sagedased väljendid: die Glut anfachen (hõõguvaid süsi lõkkele puhuma), unter der Asche glimmt noch Glut (tuha all hõõguvad veel söed)."
+      ],
+      "examples": [
+        {
+          "de": "Die Glut des Lagerfeuers wärmte uns noch.",
+          "lv": "Lõkke hõõgsöed soojendasid meid veel."
+        },
+        {
+          "de": "In der Glut der Mittagssonne ruhte das ganze Dorf.",
+          "lv": "Keskpäevapäikese lõõsas puhkas kogu küla."
+        },
+        {
+          "de": "Er blies in die Glut, bis wieder Flammen aufstiegen.",
+          "lv": "Ta puhus hõõguvatele sütele, kuni leegid jälle üles lõid."
+        },
+        {
+          "de": "Mit großer Glut sprach sie über ihr Projekt.",
+          "lv": "Suure kirega rääkis ta oma projektist."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "die Hitze",
+          "meaning": "kuumus",
+          "example": "Im Sommer ist die Hitze groß. – Suvel on kuumus suur."
+        },
+        {
+          "word": "die Asche",
+          "meaning": "tuhk",
+          "example": "Unter der Asche liegt noch Glut. – Tuha all on veel hõõgsüsi."
+        },
+        {
+          "word": "die Flamme",
+          "meaning": "leek",
+          "example": "Die Flamme wird kleiner. – Leek muutub väiksemaks."
+        }
+      ],
+      "tip": [
+        "Glut kujutab tule järelejäänud punast hõõgumist, Flamme aga nähtavat leeki.",
+        "Lõkke kontekstis jäta meelde: Feuer — tuli, Flamme — leek, Glut — hõõguvad söed."
+      ],
+      "important": [
+        "Glut kasutatakse tavaliselt ainsuses; mitmus die Gluten on väga haruldane.",
+        "Igapäevase kuumuse kirjeldamiseks piisab tavaliselt sõnast die Hitze; Glut kõlab tugevamalt, poeetilisemalt."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "die Glut",
+            "Glut",
+            "Gluten"
+          ],
+          "purple": [
+            "hõõguvaid süsi",
+            "kuumust",
+            "kirg"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Glut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "hõõgsöed"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Glut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "lõõsas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Glut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "hõõguvatele sütele"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Glut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kirega"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "die Hitze"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "kuumus"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Asche"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "tuhk"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Flamme"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "leek"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "Gnade",
     "de_article": "die",
     "de_plural": "die Gnaden",
-    "lv": "\\",
-    "level": "B2"
+    "lv": "arm • halastus • armuandmine",
+    "level": "B2",
+    "study": {
+      "id": "b2-gnade",
+      "layout": "standardStudy",
+      "translation": "arm • halastus • armuandmine",
+      "explanation": [
+        "Põhimõte: die Gnade on naissoost nimisõna. See tähendab armu, halastust — võimul oleva isiku heatahtlikku suhtumist — ning armuandmist ehk karistusest vabastamist.",
+        "Mitmust kasutatakse harva (die Gnaden). Sagedased ühendid: um Gnade bitten (armu paluma), Gnade walten lassen (armu andma, halastama), auf Gnade und Ungnade (täielikult kellegi meelevallas), die Gnade Gottes (Jumala arm)."
+      ],
+      "examples": [
+        {
+          "de": "Der Verurteilte bat um Gnade.",
+          "lv": "Süüdimõistetu palus armu."
+        },
+        {
+          "de": "Der Präsident ließ Gnade walten.",
+          "lv": "President andis armu."
+        },
+        {
+          "de": "Wir sind ihm auf Gnade und Ungnade ausgeliefert.",
+          "lv": "Oleme täielikult tema meelevallas."
+        },
+        {
+          "de": "Er verdankt sein Leben der Gnade des Königs.",
+          "lv": "Ta võlgneb oma elu kuninga armule."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "das Mitleid",
+          "meaning": "kaastunne",
+          "example": "Ich habe Mitleid mit ihm. – Mul on temast kahju."
+        },
+        {
+          "word": "die Begnadigung",
+          "meaning": "armuandmine",
+          "example": "Die Begnadigung wurde abgelehnt. – Armuandmine lükati tagasi."
+        },
+        {
+          "word": "die Gunst",
+          "meaning": "soosing",
+          "example": "Er genießt die Gunst des Chefs. – Ta naudib ülemuse soosingut."
+        }
+      ],
+      "tip": [
+        "Jäta meelde ühend um Gnade bitten (armu paluma); eessõna um nõuab akusatiivi.",
+        "Koos väljendiga walten lassen öeldakse Gnade walten lassen — armu andma."
+      ],
+      "important": [
+        "Gnade puudutab kõrgemal seisva inimese või Jumala heatahtlikkust; tavalist kaastunnet teise vastu nimetatakse Mitleid.",
+        "Ära aja segi sõnaga Gunst (soosing, heatahtlik suhtumine)."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Gnade",
+            "Gnaden"
+          ],
+          "purple": [
+            "armu",
+            "halastust",
+            "armuandmist"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Gnade"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "armu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Gnade"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "andis armu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Gnade"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Gnade"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "armule"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "das Mitleid"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "kaastunne"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Begnadigung"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "armuandmine"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Gunst"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "soosing"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "Gnadenbrot",
@@ -6671,7 +14117,7 @@ const B2_WORDS = [
   },
   {
     "de": "gnädig",
-    "lv": "\\",
+    "lv": "armuline • halastav",
     "level": "B2"
   },
   {
@@ -6720,14 +14166,14 @@ const B2_WORDS = [
     "de": "Gondel",
     "de_article": "die",
     "de_plural": "die Gondeln",
-    "lv": "\\",
+    "lv": "gondel • kabiin",
     "level": "B2"
   },
   {
     "de": "Gönner",
     "de_article": "der",
     "de_plural": "die Gönner",
-    "lv": "\\",
+    "lv": "soosija • metseen",
     "level": "B2"
   },
   {
@@ -6759,7 +14205,7 @@ const B2_WORDS = [
   },
   {
     "de": "grässlich",
-    "lv": "\\",
+    "lv": "kohutav • jube • vastik",
     "level": "B2"
   },
   {
@@ -6769,51 +14215,191 @@ const B2_WORDS = [
   },
   {
     "de": "sich grauen",
-    "lv": "kartma midagi",
+    "lv": "õudust tundma • kartma",
     "level": "B2",
     "study": {
       "id": "b2-sich-grauen",
-      "layout": "minimalStudy",
-      "translation": "kartma midagi",
-      "rektion": "vor + kellele?",
-      "explanation": "sich grauen nõuab kindlat eessõna vor + kellele?.",
-      "forms": "vor + kellele?",
-      "formsLabel": "Rektsioon:",
+      "layout": "standardStudy",
+      "translation": "õudust tundma • kartma",
+      "explanation": [
+        "Põhimõte: sich grauen tähendab tundma ette hirmu, õudust, vastikust või vastumeelsust — kartma midagi ebameeldivat, mis on ees ootamas. Normkeeles kasutatakse peaaegu alati umbisikulist vormi: Mir graut vor …, Es graut mir vor … (datiiv).",
+        "vor + datiiviga nimetatakse see, mida kardetakse: Mir graut vor der Prüfung. Enesekohase asesõnaga vormi (ich graue mich) kuuleb samuti, kuid harvem. Täisminevik: hat gegraut. Võrdle eesti keelega: Mir graut … ≈ „mul on õudne“ — kogeja ei ole nominatiivis.",
+        "Sõna on seotud sõnaga das Grauen (õudus) ja väljendiga der Tag graut (päev koidab)."
+      ],
+      "examples": [
+        {
+          "de": "Mir graut vor der Prüfung.",
+          "lv": "Mul on eksami ees hirm."
+        },
+        {
+          "de": "Es graut ihm vor dem Winter.",
+          "lv": "Ta kardab talve."
+        },
+        {
+          "de": "Mir graut davor, allein zu wohnen.",
+          "lv": "Mul on hirm üksi elada."
+        },
+        {
+          "de": "Vor dem Montagmorgen graut es mir schon jetzt.",
+          "lv": "Mul on juba praegu esmaspäeva hommiku ees õudne."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich fürchten",
+          "meaning": "kartma",
+          "example": "Ich fürchte mich vor Spinnen. – Ma kardan ämblikke."
+        },
+        {
+          "word": "Angst haben",
+          "meaning": "hirmu tundma",
+          "example": "Er hat Angst vor Hunden. – Tal on koerte ees hirm."
+        },
+        {
+          "word": "das Grauen",
+          "meaning": "õudus",
+          "example": "Das Grauen packte ihn. – Õudus haaras ta endasse."
+        }
+      ],
+      "tip": [
+        "Seda sõna kasutatakse umbisikulise konstruktsioonina: Mir graut vor …",
+        "Igapäevaselt on kindlam valida Angst haben vor + datiiv või sich fürchten vor + datiiv."
+      ],
+      "important": [
+        "Kartja on sageli datiivis (mir, ihm), mitte nominatiivis.",
+        "Kui ütled Mir graut, ei ole vaja lisada enesekohast asesõna."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich grauen"
-          ],
-          "red": [
-            "vor + kellele?"
+            "grauen",
+            "graut"
           ],
           "purple": [
-            "sich"
+            "hirmu",
+            "õudust",
+            "kartma"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "graut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "hirm"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "graut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kardab"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "graut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "hirm"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "graut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "õudne"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich fürchten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "kartma"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "Angst haben"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "hirmu tundma"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "das Grauen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "õudus"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
   {
     "de": "grausam",
-    "lv": "\\",
+    "lv": "julm • halastamatu",
     "level": "B2"
   },
   {
     "de": "gravierend",
-    "lv": "tähtis",
+    "lv": "tõsine • kaalukas",
     "level": "B2"
   },
   {
     "de": "Greis",
     "de_article": "der",
     "de_plural": "die Greise",
-    "lv": "kõrges eas mees",
+    "lv": "sirmik • vanamees",
     "level": "B2"
   },
   {
     "de": "grell",
-    "lv": "\\",
+    "lv": "ere • kriiskav • pimestav",
     "level": "B2"
   },
   {
@@ -6847,13 +14433,13 @@ const B2_WORDS = [
     "de": "Grenzbereich",
     "de_article": "der",
     "de_plural": "die Grenzbereiche",
-    "lv": "\\",
+    "lv": "piiriala • piirivöönd",
     "level": "B2"
   },
   {
     "de": "Grimm",
     "de_article": "der",
-    "lv": "\\",
+    "lv": "viha • raev",
     "level": "B2"
   },
   {
@@ -6883,7 +14469,7 @@ const B2_WORDS = [
     "de": "Gründonnerstag",
     "de_article": "der",
     "de_plural": "die Gründonnerstage",
-    "lv": "suur neljapäev enne lihavõtteid",
+    "lv": "suur neljapäev",
     "level": "B2"
   },
   {
@@ -6904,7 +14490,7 @@ const B2_WORDS = [
     "de": "Grußwort",
     "de_article": "das",
     "de_plural": "die Grußworte",
-    "lv": "\\",
+    "lv": "tervituskõne • tervitussõna",
     "level": "B2"
   },
   {
@@ -6924,19 +14510,19 @@ const B2_WORDS = [
     "de": "Günstling",
     "de_article": "der",
     "de_plural": "die Günstlinge",
-    "lv": "\\",
+    "lv": "soosik • lemmik",
     "level": "B2"
   },
   {
     "de": "gurgeln",
-    "lv": "\\",
+    "lv": "kuristama",
     "level": "B2"
   },
   {
     "de": "Guss",
     "de_article": "der",
     "de_plural": "die Güsse",
-    "lv": "\\",
+    "lv": "valamine • valand • paduvihm",
     "level": "B2"
   },
   {
@@ -6949,7 +14535,7 @@ const B2_WORDS = [
   {
     "de": "Güte",
     "de_article": "die",
-    "lv": "\\",
+    "lv": "headus • lahkus • kvaliteet",
     "level": "B2"
   },
   {
@@ -6978,7 +14564,7 @@ const B2_WORDS = [
   },
   {
     "de": "haaren",
-    "lv": "\\",
+    "lv": "karvu ajama",
     "level": "B2"
   },
   {
@@ -7011,14 +14597,14 @@ const B2_WORDS = [
     "de": "Hahnenkamm",
     "de_article": "der",
     "de_plural": "die Hahnenkämme",
-    "lv": "kukelaul",
+    "lv": "kukehari",
     "level": "B2"
   },
   {
     "de": "Haltung",
     "de_article": "die",
     "de_plural": "die Haltungen",
-    "lv": "\\",
+    "lv": "hoiak • rüht • suhtumine",
     "level": "B2"
   },
   {
@@ -7032,7 +14618,7 @@ const B2_WORDS = [
     "de": "Handelsklasse",
     "de_article": "die",
     "de_plural": "die Handelsklassen",
-    "lv": "kaubaklass",
+    "lv": "kvaliteediklass • sort",
     "level": "B2"
   },
   {
@@ -7051,12 +14637,12 @@ const B2_WORDS = [
   },
   {
     "de": "hänseln",
-    "lv": "\\",
+    "lv": "narrima • kiusama",
     "level": "B2"
   },
   {
     "de": "hantieren",
-    "lv": "\\",
+    "lv": "askeldama • toimetama • käsitsema",
     "level": "B2"
   },
   {
@@ -7080,7 +14666,7 @@ const B2_WORDS = [
   },
   {
     "de": "hartnäckig",
-    "lv": "\\",
+    "lv": "visa • kangekaelne • järjekindel",
     "level": "B2"
   },
   {
@@ -7092,62 +14678,67 @@ const B2_WORDS = [
     "study": {
       "id": "b2-haube",
       "layout": "standardStudy",
-      "translation": "\\",
+      "translation": "müts • kapott",
       "explanation": [
-        "Peamine mõte: die Haube võib tähendada peakatet/kapuutsi või katet/kaant — kontekst määrab tähenduse.",
-        "Peas: die Haube = müts, kapuuts või konkreetne peakate (nt Nonne mit Haube).",
-        "Auto juures: die Motorhaube või lihtsalt die Haube = mootorikapott.",
-        "Köögis: die Dunsthaube = pliidi kubu. Tehnikas: kate või kaas seadme kohal."
+        "Põhimõte: die Haube on naissoost nimisõna, mitmus die Hauben. Esimene tähendus — tanu ehk müts, mis katab pead (vanaaegne naistetanu, nunna peakate). Teine — kate, kapott, mis katab seadet: Motorhaube (auto mootorikapott), Dunsthaube (pliidi kohal olev õhupuhasti).",
+        "Idioom unter die Haube kommen tähendab kõnekeeles abielluma (vrd eesti: tanu alla saama)."
       ],
       "examples": [
         {
-          "de": "Sie trägt eine warme Haube.",
-          "lv": "ta kannab sooja mütsi."
-        },
-        {
-          "de": "Die Nonne trägt eine schwarze Haube.",
-          "lv": "nunn kannab musta kapuutsi."
+          "de": "Die Großmutter trug eine weiße Haube.",
+          "lv": "Vanaema kandis valget tanu."
         },
         {
           "de": "Er öffnet die Haube des Autos.",
           "lv": "Ta avab auto kapoti."
         },
         {
-          "de": "Die Motorhaube ist kaputt.",
-          "lv": "Auto kapott on katki."
-        },
-        {
           "de": "Über dem Herd hängt eine Dunsthaube.",
-          "lv": "pliidi kohal ripub kubu."
+          "lv": "Pliidi kohal ripub õhupuhasti."
         },
         {
-          "de": "Setz den Deckel als Haube auf den Topf.",
-          "lv": "Pane pajale kaas."
+          "de": "Meine Tante ist endlich unter die Haube gekommen.",
+          "lv": "Mu tädi on lõpuks tanu alla saanud."
+        },
+        {
+          "de": "Beim Friseur saß sie unter der Haube.",
+          "lv": "Juuksuris istus ta kuivatuskupli all."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "die Mütze",
+          "meaning": "müts",
+          "example": "Im Winter trage ich eine Mütze. – Talvel kannan ma mütsi."
+        },
+        {
+          "word": "der Deckel",
+          "meaning": "kaas",
+          "example": "Der Deckel passt nicht auf den Topf. – Kaas ei sobi potile."
+        },
+        {
+          "word": "die Abdeckung",
+          "meaning": "kate",
+          "example": "Die Abdeckung schützt das Gerät. – Kate kaitseb seadet."
         }
       ],
       "tip": [
-        "Jutt on peast, nunnast, mütsist → müts / kapuuts.",
-        "Jutt on autost, mootorist → mootorikapott.",
-        "Jutt on pliidist, seadmest → kubu või kate."
+        "Auto kontekstis on Haube tavaliselt eesmine mootorikapott: die Motorhaube.",
+        "Liitsõnades annab nimisõna Haube katte tähenduse: Dunsthaube, Motorhaube."
       ],
       "important": [
-        "die Haube = müts/kapuuts VÕI mootorikapott VÕI kubu/kate — sõltuvalt kontekstist.",
-        "Liitsõnad aitavad: Motorhaube (auto), Dunsthaube (köök)."
+        "Haube ei ole igapäevane müts; talvel kantavat mütsi nimetatakse Mütze.",
+        "Väljend unter die Haube kommen on kõnekeelne ja veidi naljatlev."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "die Haube"
+            "Haube",
+            "Hauben"
           ],
           "purple": [
             "müts",
-            "kate",
-            "kapuuts",
-            "mootorikapott"
-          ],
-          "green": [
-            "Motorhaube",
-            "Dunsthaube"
+            "kapott"
           ]
         },
         "examples": [
@@ -7159,7 +14750,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "mütsi"
+                "tanu"
               ]
             }
           },
@@ -7171,43 +14762,19 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "kapuutsi"
+                "kapoti"
               ]
             }
           },
           {
             "de": {
-              "green": [
-                "Haube"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "avab"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "Motorhaube"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "auto"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
+              "blue": [
                 "Dunsthaube"
               ]
             },
             "lv": {
               "purple": [
-                "kubu"
+                "õhupuhasti"
               ]
             }
           },
@@ -7219,10 +14786,68 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "pane"
+                "tanu alla saanud"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Haube"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kuivatuskupli"
               ]
             }
           }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "Mütze"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "müts"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "Deckel"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "kaas"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "Abdeckung"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "kate"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
         ]
       }
     }
@@ -7244,7 +14869,7 @@ const B2_WORDS = [
   {
     "de": "Hausrat",
     "de_article": "der",
-    "lv": "kodune vara",
+    "lv": "kodukraam • majapidamistarbed",
     "level": "B2"
   },
   {
@@ -7262,7 +14887,7 @@ const B2_WORDS = [
   },
   {
     "de": "hauteng",
-    "lv": "liibuv riietus",
+    "lv": "liibuv • ihuliibuv",
     "level": "B2"
   },
   {
@@ -7290,13 +14915,13 @@ const B2_WORDS = [
     "de": "Heiligtum",
     "de_article": "das",
     "de_plural": "die Heiligtümer",
-    "lv": "\\",
+    "lv": "pühamu • pühapaik • pühadus",
     "level": "B2"
   },
   {
     "de": "Heilkunde",
     "de_article": "die",
-    "lv": "\\",
+    "lv": "arstiteadus • ravikunst",
     "level": "B2"
   },
   {
@@ -7328,7 +14953,7 @@ const B2_WORDS = [
   {
     "de": "Heimkehr",
     "de_article": "die",
-    "lv": "\\",
+    "lv": "kojutulek • kodumaale naasmine",
     "level": "B2"
   },
   {
@@ -7349,7 +14974,7 @@ const B2_WORDS = [
     "de": "Heizöl",
     "de_article": "das",
     "de_plural": "die Heizöle",
-    "lv": "\\",
+    "lv": "kütteõli • masuut",
     "level": "B2"
   },
   {
@@ -7361,29 +14986,29 @@ const B2_WORDS = [
   },
   {
     "de": "hemmen",
-    "lv": "\\",
+    "lv": "pidurdama • takistama • pärssima",
     "level": "B2"
   },
   {
     "de": "Hemmung",
     "de_article": "die",
     "de_plural": "die Hemmungen",
-    "lv": "\\",
+    "lv": "pärssimine • takistus • kõhklus",
     "level": "B2"
   },
   {
     "de": "henken",
-    "lv": "\\",
+    "lv": "üles pooma",
     "level": "B2"
   },
   {
     "de": "herabsetzen",
-    "lv": "\\",
+    "lv": "alandama • vähendama • halvustama",
     "level": "B2"
   },
   {
     "de": "herangehen",
-    "lv": "tööle asuma",
+    "lv": "lähenema • kallale asuma",
     "level": "B2"
   },
   {
@@ -7393,7 +15018,7 @@ const B2_WORDS = [
   },
   {
     "de": "heraufkommen",
-    "lv": "\\",
+    "lv": "üles tulema",
     "level": "B2"
   },
   {
@@ -7402,24 +15027,166 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-herausbilden",
-      "layout": "minimalStudy",
-      "translation": "välja kujunema",
-      "rektion": "zu + kellele?",
-      "explanation": "sich herausbilden nõuab kindlat eessõna zu + kellele?.",
-      "forms": "zu + kellele?",
-      "formsLabel": "Rektsioon:",
+      "layout": "standardStudy",
+      "translation": "välja kujunema milleks",
+      "explanation": [
+        "Põhimõte: sich herausbilden tähendab järk-järgult välja kujunema, millestki varasemast selginema — stiili, harjumuse, rollide, linna kohta. zu + datiiviga märgitakse, milleks keegi või miski kujuneb (eesti keeles saav kääne).",
+        "Eraldatav eesliide heraus-: bildet sich heraus, bildete sich heraus, hat sich herausgebildet. Protsess on järkjärguline, seepärast on alus sageli abstraktne nimisõna."
+      ],
+      "examples": [
+        {
+          "de": "Aus dem kleinen Dorf bildete sich eine große Stadt heraus.",
+          "lv": "Väikesest külast kujunes välja suur linn."
+        },
+        {
+          "de": "Mit der Zeit hat sich ein neuer Stil herausgebildet.",
+          "lv": "Aja jooksul on välja kujunenud uus stiil."
+        },
+        {
+          "de": "Der Junge hat sich zu einem guten Musiker herausgebildet.",
+          "lv": "Poisist on kujunenud hea muusik."
+        },
+        {
+          "de": "In der Gruppe bildeten sich schnell feste Rollen heraus.",
+          "lv": "Rühmas kujunesid kiiresti välja kindlad rollid."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich entwickeln",
+          "meaning": "arenema",
+          "example": "Das Kind entwickelt sich gut. – Laps areneb hästi."
+        },
+        {
+          "word": "entstehen",
+          "meaning": "tekkima",
+          "example": "Hier entstand eine neue Siedlung. – Siia tekkis uus asula."
+        },
+        {
+          "word": "bilden",
+          "meaning": "moodustama",
+          "example": "Wir bilden eine Gruppe. – Me moodustame rühma."
+        }
+      ],
+      "tip": [
+        "Pea meeles eesliite eraldumist: Es bildet sich heraus, aga Es hat sich herausgebildet.",
+        "Sage paar: sich zu etwas herausbilden."
+      ],
+      "important": [
+        "sich herausbilden väljendab järkjärgulist protsessi, mitte ühekordset sündmust.",
+        "Ära aja segi tegusõnaga bilden (moodustama, kujundama): see on sihiline tegusõna."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich herausbilden"
-          ],
-          "red": [
-            "zu + kellele?"
+            "herausbilden",
+            "bildet sich heraus",
+            "bildete sich heraus",
+            "hat sich herausgebildet",
+            "heraus-"
           ],
           "purple": [
-            "sich"
+            "välja kujunema"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "bildete",
+                "heraus"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kujunes välja"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "herausgebildet"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "välja kujunenud"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "herausgebildet"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kujunenud"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bildeten",
+                "heraus"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kujunesid"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich entwickeln"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "arenema"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "entstehen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "tekkima"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "bilden"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "moodustama"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -7430,28 +15197,168 @@ const B2_WORDS = [
   },
   {
     "de": "sich heraushalten",
-    "lv": "eemale hoidma millestki",
+    "lv": "end eemal hoidma",
     "level": "B2",
     "study": {
       "id": "b2-sich-heraushalten",
-      "layout": "minimalStudy",
-      "translation": "eemale hoidma millestki",
-      "rektion": "aus + kellele?",
-      "explanation": "sich heraushalten nõuab kindlat eessõna aus + kellele?.",
-      "forms": "aus + kellele?",
-      "formsLabel": "Rektsioon:",
+      "layout": "standardStudy",
+      "translation": "end eemal hoidma",
+      "explanation": [
+        "Põhimõte: sich heraushalten tähendab mitte sekkuma, mitte osalema konfliktis või asjas — end eemal hoidma. aus + datiiviga nimetatakse see, millest eemale hoitakse: sich aus dem Streit heraushalten.",
+        "Eraldatav eesliide heraus-: hält sich heraus, hielt sich heraus, hat sich herausgehalten. Käskiv kõneviis: Halt dich da heraus! Ilma sich-ita on heraushalten sihiline: jemanden aus etwas heraushalten — kedagi millessegi mitte kaasama."
+      ],
+      "examples": [
+        {
+          "de": "Halt dich aus dem Streit heraus!",
+          "lv": "Hoia end tülist eemale!"
+        },
+        {
+          "de": "Ich halte mich aus der Politik heraus.",
+          "lv": "Ma hoian end poliitikast eemal."
+        },
+        {
+          "de": "Er hat sich aus allem herausgehalten.",
+          "lv": "Ta hoidis end kõigest eemal."
+        },
+        {
+          "de": "Die Eltern wollten sich aus der Entscheidung heraushalten.",
+          "lv": "Vanemad tahtsid end otsusest eemal hoida."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich einmischen",
+          "meaning": "sekkuma",
+          "example": "Misch dich nicht ein! – Ära sekku!"
+        },
+        {
+          "word": "sich zurückhalten",
+          "meaning": "end tagasi hoidma",
+          "example": "Bei Diskussionen halte ich mich zurück. – Aruteludel hoian end tagasi."
+        },
+        {
+          "word": "heraushalten",
+          "meaning": "mitte kaasama, eemal hoidma",
+          "example": "Halt die Kinder aus dem Streit heraus. – Hoia lapsed tülist eemale."
+        }
+      ],
+      "tip": [
+        "Käsuna kasutatakse: Halt dich da heraus! — ära sekku!",
+        "Tavaliselt järgneb aus + datiiv: aus dem Konflikt, aus meinen Angelegenheiten."
+      ],
+      "important": [
+        "Pärast eessõna aus on nimisõna datiivis: aus dem Streit.",
+        "Vastand on sich einmischen (sekkuma)."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich heraushalten"
-          ],
-          "red": [
-            "aus + kellele?"
+            "heraushalten",
+            "hält",
+            "hielt",
+            "herausgehalten",
+            "Halt"
           ],
           "purple": [
-            "sich"
+            "end eemal hoidma"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Halt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Hoia end tülist eemale"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "halte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "hoian end poliitikast eemal"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "herausgehalten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "hoidis end kõigest eemal"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "heraushalten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "end otsusest eemal hoida"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich einmischen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "sekkuma"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich zurückhalten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "end tagasi hoidma"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "heraushalten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "mitte kaasama"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -7462,34 +15369,173 @@ const B2_WORDS = [
   },
   {
     "de": "sich herausstellen",
-    "lv": "selguma milleks",
+    "lv": "selguma • osutuma",
     "level": "B2",
     "study": {
       "id": "b2-sich-herausstellen",
-      "layout": "minimalStudy",
-      "translation": "\\",
-      "rektion": "als + mis?",
-      "explanation": "sich herausstellen nõuab kindlat eessõna als + mis?.",
-      "forms": "als + mis?",
-      "formsLabel": "Rektsioon:",
+      "layout": "standardStudy",
+      "translation": "selguma • osutuma",
+      "explanation": [
+        "Põhimõte: sich herausstellen tähendab selguma, osutuma — saama selgeks, milline keegi või miski tegelikult on. als + nominatiiviga: Er stellte sich als Betrüger heraus (eesti keeles saav kääne: osutus petiseks). Tüüpiline fraas on Es stellte sich heraus, dass …",
+        "Eraldatav eesliide heraus-: stellt sich heraus, stellte sich heraus, hat sich herausgestellt. Alus on tavaliselt asi või teave, kuid võib olla ka inimene."
+      ],
+      "examples": [
+        {
+          "de": "Es stellte sich heraus, dass er recht hatte.",
+          "lv": "Selgus, et tal oli õigus."
+        },
+        {
+          "de": "Der Verdacht stellte sich als falsch heraus.",
+          "lv": "Kahtlus osutus valeks."
+        },
+        {
+          "de": "Das Projekt hat sich als großer Erfolg herausgestellt.",
+          "lv": "Projekt osutus suureks eduks."
+        },
+        {
+          "de": "Wer der Täter ist, wird sich bald herausstellen.",
+          "lv": "Varsti selgub, kes on süüdlane."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich erweisen",
+          "meaning": "osutuma",
+          "example": "Die Methode erwies sich als nützlich. – Meetod osutus kasulikuks."
+        },
+        {
+          "word": "sich zeigen",
+          "meaning": "ilmnema",
+          "example": "Es zeigte sich, dass er müde war. – Ilmnes, et ta oli väsinud."
+        },
+        {
+          "word": "herausfinden",
+          "meaning": "välja selgitama",
+          "example": "Ich finde das heraus. – Ma selgitan selle välja."
+        }
+      ],
+      "tip": [
+        "Lause alguses on mugav kasutada Es stellte sich heraus, dass … — selgus, et …",
+        "als-iga nimetatakse tulemus: sich als falsch herausstellen."
+      ],
+      "important": [
+        "Eesliide heraus- eraldub: Es stellt sich heraus, mitte es herausstellt sich.",
+        "Ära aja segi tegusõnaga herausstellen ilma sich-ita (esile tõstma, välja panema): etwas herausstellen."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich herausstellen"
-          ],
-          "red": [
-            "als + mis?"
+            "herausstellen"
           ],
           "purple": [
-            "sich"
+            "selguma",
+            "osutuma"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "stellte",
+                "heraus"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Selgus"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "stellte",
+                "heraus"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "osutus"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "herausgestellt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "osutus"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "herausstellen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "selgub"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "erweisen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "osutuma"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "zeigen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ilmnema"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "herausfinden"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "välja selgitama"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
   {
     "de": "herb",
-    "lv": "\\",
+    "lv": "mõrkjas • kibe • karm",
     "level": "B2"
   },
   {
@@ -7499,12 +15545,12 @@ const B2_WORDS = [
   },
   {
     "de": "hervorheben",
-    "lv": "\\",
+    "lv": "esile tõstma • rõhutama",
     "level": "B2"
   },
   {
     "de": "hervorrufen",
-    "lv": "\\",
+    "lv": "esile kutsuma • põhjustama • tekitama",
     "level": "B2"
   },
   {
@@ -7513,24 +15559,165 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-hervortun",
-      "layout": "minimalStudy",
+      "layout": "standardStudy",
       "translation": "silma paistma",
-      "rektion": "in + kus?",
-      "explanation": "sich hervortun nõuab kindlat eessõna in + kus?.",
-      "forms": "in + kus?",
-      "formsLabel": "Rektsioon:",
+      "explanation": [
+        "Põhimõte: sich hervortun tähendab teiste seast silma paistma võimete, saavutuste või mõne omaduse poolest. Saavutuste valdkonda märgitakse in + datiiviga, omadust durch + akusatiiviga, rolli als-iga.",
+        "Eraldatav eesliide hervor-: tut sich hervor, tat sich hervor, hat sich hervorgetan. Sõna on veidi ametlik, seda kasutatakse sageli edu kirjeldamisel.",
+        "Mõnikord võib see tähendada ka püüdu end silmatorkavalt esile tõsta, et tähelepanu saada."
+      ],
+      "examples": [
+        {
+          "de": "Sie hat sich im Sport besonders hervorgetan.",
+          "lv": "Ta paistis spordis eriti silma."
+        },
+        {
+          "de": "Er tut sich durch Fleiß hervor.",
+          "lv": "Ta paistab silma töökusega."
+        },
+        {
+          "de": "Im Krieg tat sich der General als mutiger Anführer hervor.",
+          "lv": "Sõjas paistis kindral silma vapra juhina."
+        },
+        {
+          "de": "Wer sich hervortut, bekommt oft viel Aufmerksamkeit.",
+          "lv": "Kes silma paistab, saab sageli palju tähelepanu."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich auszeichnen",
+          "meaning": "esile tõusma",
+          "example": "Er zeichnet sich durch Ehrlichkeit aus. – Ta paistab silma oma aususega."
+        },
+        {
+          "word": "hervorheben",
+          "meaning": "rõhutama",
+          "example": "Der Lehrer hebt die Fehler hervor. – Õpetaja rõhutab vigu."
+        },
+        {
+          "word": "auffallen",
+          "meaning": "silma torkama",
+          "example": "Sie fällt in der Menge auf. – Ta torkab rahvamassis silma."
+        }
+      ],
+      "tip": [
+        "Saavutuste valdkonda märgi in + datiiviga: sich in Mathe hervortun.",
+        "Kui tahad nimetada omadust, mis teeb silmapaistvaks, kasuta durch: sich durch Mut hervortun."
+      ],
+      "important": [
+        "sich hervortun on eraldatava eesliitega: Er tut sich hervor, aga Er hat sich hervorgetan.",
+        "Ära aja segi tegusõnaga hervorheben (rõhutama, esile tõstma): see on sihiline ega ole enesekohane."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich hervortun"
-          ],
-          "red": [
-            "in + kus?"
+            "hervortun",
+            "tut sich hervor",
+            "hervorgetan"
           ],
           "purple": [
-            "sich"
+            "silma paistma"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "hervorgetan"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "paistis",
+                "silma"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hervor"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "paistab silma"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hervor"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "paistis",
+                "silma"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hervortut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "silma paistab"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich auszeichnen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "esile tõusma"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "hervorheben"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "rõhutama"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "auffallen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "silma torkama"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -7550,24 +15737,203 @@ const B2_WORDS = [
   {
     "de": "Herzversagen",
     "de_article": "das",
-    "lv": "\\",
+    "lv": "südamepuudulikkus • südameseiskus",
     "level": "B2"
   },
   {
     "de": "Hetze",
     "de_article": "die",
     "de_plural": "die Hetzen",
-    "lv": "\\",
+    "lv": "ässitamine • kihutustöö • kiirustamine",
     "level": "B2"
   },
   {
     "de": "hetzen",
-    "lv": "\\",
-    "level": "B2"
+    "lv": "ässitama • taga ajama • kiirustama",
+    "level": "B2",
+    "study": {
+      "id": "b2-hetzen",
+      "layout": "standardStudy",
+      "translation": "ässitama • taga ajama • kiirustama",
+      "explanation": [
+        "Põhimõte: hetzen on mitme tähendusega tegusõna. See tähendab koeri kellegi kallale ässitama, ulukit taga ajama ja jälitama; ülekantud tähenduses — vihale õhutama (gegen jemanden hetzen). Ilma sihitiseta ja sein-abitegusõnaga võib see tähendada ka kiirustama, tormama: durch die Stadt hetzen.",
+        "Vormid: hetzt, hetzte, hat gehetzt (sihiline) või ist gehetzt (liikumise tähenduses). Sagedased tuletised: aufhetzen (üles kihutama), die Hetze (õhutamine; kiirustamine, tormamine).",
+        "Kõnekeeles tähendab Hetz mich nicht! — ära kiirusta mind tagant!"
+      ],
+      "examples": [
+        {
+          "de": "Der Jäger hetzt die Hunde auf den Hirsch.",
+          "lv": "Jahimees ässitab koerad hirve kallale."
+        },
+        {
+          "de": "Er hetzt gegen Ausländer.",
+          "lv": "Ta õhutab viha välismaalaste vastu."
+        },
+        {
+          "de": "Die Hunde hetzten den Hasen über das Feld.",
+          "lv": "Koerad ajasid jänest üle põllu taga."
+        },
+        {
+          "de": "Ich bin den ganzen Tag durch die Stadt gehetzt.",
+          "lv": "Ma tormasin terve päeva mööda linna ringi."
+        },
+        {
+          "de": "Hetz mich nicht!",
+          "lv": "Ära kiirusta mind tagant!"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "jagen",
+          "meaning": "jahtima",
+          "example": "Der Jäger jagt Rehe. – Jahimees jahib kitsi."
+        },
+        {
+          "word": "aufhetzen",
+          "meaning": "üles kihutama",
+          "example": "Er hetzt die Menge auf. – Ta kihutab rahvahulga üles."
+        },
+        {
+          "word": "eilen",
+          "meaning": "ruttama",
+          "example": "Ich eile zum Bahnhof. – Ma ruttan jaama."
+        }
+      ],
+      "tip": [
+        "Poliitilises kontekstis tähendab hetzen gegen + akusatiiv kellegi vastu vihkamist õhutama.",
+        "Jahikontekstis sageli: Hunde hetzen den Hasen."
+      ],
+      "important": [
+        "Sõna hetzen on sageli negatiivne: õhutamine või ebameeldiv kiirustamine.",
+        "Liikumise tähenduses moodustatakse täisminevik sein-iga (ist gehetzt), muudel juhtudel haben-iga."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "hetzen",
+            "hetzt"
+          ],
+          "purple": [
+            "ässitama",
+            "taga ajama",
+            "kiirustama"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "hetzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ässitab"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hetzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "õhutab viha"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hetzten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ajasid",
+                "taga"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "gehetzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tormasin"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Hetz"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kiirusta mind tagant"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "jagen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "jahtima"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "aufhetzen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "üles kihutama"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "eilen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ruttama"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "heucheln",
-    "lv": "\\",
+    "lv": "teesklema • silmakirjatsema",
     "level": "B2"
   },
   {
@@ -7578,7 +15944,7 @@ const B2_WORDS = [
   },
   {
     "de": "hierdurch",
-    "lv": "\\",
+    "lv": "selle kaudu • sellega",
     "level": "B2"
   },
   {
@@ -7597,57 +15963,361 @@ const B2_WORDS = [
   },
   {
     "de": "hingeben",
-    "lv": "\\",
+    "lv": "ära andma • loovutama",
     "level": "B2"
   },
   {
     "de": "sich hingeben",
-    "lv": "end pühendama • end andma",
+    "lv": "pühenduma • alistuma",
     "level": "B2",
     "study": {
       "id": "b2-sich-hingeben",
-      "layout": "minimalStudy",
-      "translation": "\\",
-      "rektion": "+ kellele?",
-      "explanation": "sich hingeben nõuab kindlat eessõna + kellele?.",
-      "forms": "+ kellele?",
-      "formsLabel": "Rektsioon:",
+      "layout": "standardStudy",
+      "translation": "pühenduma • alistuma",
+      "explanation": [
+        "Põhimõte: sich hingeben tähendab täielikult millelegi pühenduma või alistuma — muusikale, unistustele, naudingule, kurbusele või tunnetele. Sellele järgneb datiiv (eesti keeles alaleütlev kääne): sich der Musik hingeben, sich seinen Träumen hingeben.",
+        "Eraldatav eesliide hin-: gibt sich hin, gab sich hin, hat sich hingegeben. Ilma sich-ita tähendab etwas hingeben midagi ohverdama, ära andma: sein Leben hingeben."
+      ],
+      "examples": [
+        {
+          "de": "Sie gab sich ganz der Musik hin.",
+          "lv": "Ta pühendus täielikult muusikale."
+        },
+        {
+          "de": "Er gibt sich seinen Träumen hin.",
+          "lv": "Ta andub oma unistustele."
+        },
+        {
+          "de": "Wir haben uns dem Genuss hingegeben.",
+          "lv": "Me andusime naudingule."
+        },
+        {
+          "de": "Gib dich keinen falschen Hoffnungen hin!",
+          "lv": "Ära andu valelootustele!"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich widmen",
+          "meaning": "pühenduma",
+          "example": "Er widmet sich der Forschung. – Ta pühendub teadustööle."
+        },
+        {
+          "word": "sich überlassen",
+          "meaning": "end millegi meelevalda andma",
+          "example": "Er überlässt sich seinen Gedanken. – Ta annab end oma mõtete meelevalda."
+        },
+        {
+          "word": "sich ergeben",
+          "meaning": "alla andma",
+          "example": "Der Soldat ergibt sich. – Sõdur annab alla."
+        }
+      ],
+      "tip": [
+        "Pärast sich hingeben pane datiiv: der Arbeit, dem Schmerz, den Erinnerungen.",
+        "Pea meeles eesliite eraldumist: Sie gibt sich hin, aga Sie hat sich hingegeben."
+      ],
+      "important": [
+        "sich hingeben väljendab sageli täielikku süvenemist ja kõlab ülevalt.",
+        "Ära aja segi tegusõnaga sich ergeben (alla andma, tulenema): see on teine tegusõna."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich hingeben"
-          ],
-          "red": [
-            "+ kellele?"
+            "hingeben",
+            "hingegeben",
+            "gab",
+            "gibt",
+            "hin"
           ],
           "purple": [
-            "sich",
-            "sich"
+            "pühenduma",
+            "alistuma"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "gab",
+                "hin"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pühendus"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "gibt",
+                "hin"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "andub"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hingegeben"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "andusime"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Gib",
+                "hin"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "andu"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich widmen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "pühenduma"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich überlassen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "meelevalda andma"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich ergeben"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "alla andma"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
   {
     "de": "hinreißen",
-    "lv": "\\",
+    "lv": "vaimustama • kaasa kiskuma",
     "level": "B2"
   },
   {
     "de": "Hinsicht",
     "de_article": "die",
     "de_plural": "die Hinsichten",
-    "lv": "\\",
-    "level": "B2"
+    "lv": "suhe • aspekt",
+    "level": "B2",
+    "study": {
+      "id": "b2-hinsicht",
+      "layout": "standardStudy",
+      "translation": "suhe • aspekt",
+      "explanation": [
+        "Põhimõte: die Hinsicht on naissoost nimisõna, mis tähendab aspekti, vaatenurka — mis suhtes miski kehtib. Eesti keeles vastab see sõnale „suhe“ ühendites nagu selles suhtes, igas suhtes — mitte suhtele kui inimestevahelisele läbikäimisele.",
+        "Tavaliselt kasutatakse eessõnaühendites: in dieser Hinsicht (selles suhtes), in gewisser Hinsicht (teatud mõttes), in jeder Hinsicht (igas suhtes). Mitmus die Hinsichten on haruldane. Ametlikus keeles öeldakse ka in Hinsicht auf + akusatiiv (mis puutub millessegi) või hinsichtlich + genitiiv."
+      ],
+      "examples": [
+        {
+          "de": "In dieser Hinsicht hast du recht.",
+          "lv": "Selles suhtes on sul õigus."
+        },
+        {
+          "de": "In gewisser Hinsicht ist das ein Vorteil.",
+          "lv": "Teatud mõttes on see eelis."
+        },
+        {
+          "de": "Das Hotel war in jeder Hinsicht perfekt.",
+          "lv": "Hotell oli igas suhtes täiuslik."
+        },
+        {
+          "de": "In Hinsicht auf die Kosten gibt es noch Fragen.",
+          "lv": "Kulude osas on veel küsimusi."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "die Nachricht",
+          "meaning": "sõnum, uudis",
+          "example": "Ich habe eine Nachricht bekommen. – Ma sain sõnumi."
+        },
+        {
+          "word": "der Bezug",
+          "meaning": "seos",
+          "example": "In Bezug auf den Termin gibt es Fragen. – Tähtaja osas on küsimusi."
+        },
+        {
+          "word": "die Rücksicht",
+          "meaning": "arvestamine",
+          "example": "Er nimmt Rücksicht auf andere. – Ta arvestab teistega."
+        }
+      ],
+      "tip": [
+        "Jäta meelde valmisfraasina: in dieser Hinsicht, in jeder Hinsicht.",
+        "Nendes ühendites järgneb eessõnale in datiiv: in dieser Hinsicht, in jeder Hinsicht."
+      ],
+      "important": [
+        "Hinsicht ei tähenda inimsuhet ega sõnumit — inimestevaheline suhe on Beziehung, sõnum on Nachricht.",
+        "Sõna hinsichtlich (mis puutub, osas) järel tuleb genitiiv: hinsichtlich der Kosten."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Hinsicht",
+            "Hinsichten",
+            "hinsichtlich"
+          ],
+          "purple": [
+            "aspekti",
+            "suhe"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Hinsicht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "suhtes"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Hinsicht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "mõttes"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Hinsicht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "suhtes"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Hinsicht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "osas"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "Nachricht"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "sõnum"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "Bezug"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "seos"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "Rücksicht"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "arvestamine"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "hinsichtlich",
-    "lv": "seoses millegaga",
+    "lv": "seoses • mis puutub",
     "level": "B2"
   },
   {
     "de": "hintergehen",
-    "lv": "\\",
+    "lv": "petma • alt vedama",
     "level": "B2"
   },
   {
@@ -7659,12 +16329,12 @@ const B2_WORDS = [
   },
   {
     "de": "hinterziehen",
-    "lv": "\\",
+    "lv": "maksudest kõrvale hoidma • omastama",
     "level": "B2"
   },
   {
     "de": "hinüberfahren",
-    "lv": "\\",
+    "lv": "üle sõitma • üle viima",
     "level": "B2"
   },
   {
@@ -7692,12 +16362,12 @@ const B2_WORDS = [
     "de": "Hirschkuh",
     "de_article": "die",
     "de_plural": "die Hirschkühe",
-    "lv": "hirvelehm",
+    "lv": "emahirv",
     "level": "B2"
   },
   {
     "de": "hitzig",
-    "lv": "\\",
+    "lv": "äge • tuline • kiivas",
     "level": "B2"
   },
   {
@@ -7742,49 +16412,62 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "toost „elagu!“",
       "explanation": [
-        "Peamine mõte: das Hoch suure algustähega ja artikliga das on nimisõna — pidulik hüüd/toost (Ein Hoch auf...! = Elagu...!) või ilmateates — kõrgrõhuala.",
-        "hoch väikese algustähega on omadussõna — kõrge (der Berg ist hoch).",
-        "Väljendis ein Hoch ausbringen tähendab toosti ütlemist.",
-        "Ilmateates das Hoch tähendab antitsüklonit — kõrgrõhuala (vastand: das Tief)."
+        "Põhimõte: das Hoch tähendab selles tähenduses kellegi auks öeldud toosti, hüüet „elagu!“: ein Hoch auf das Brautpaar ausbringen. See on kesksoost nimisõna (artikkel das), mitmus die Hochs.",
+        "Sama sõna tähendab meteoroloogias antitsüklonit ehk kõrgrõhkkonda, mis toob tavaliselt selge ilma: ein Hoch über Skandinavien. Ülekantud tähenduses on ein Hoch ka hea, edukas periood, tõusuaeg.",
+        "Omadussõna hoch (kõrge) on teine sõna ja see kirjutatakse väikese tähega."
       ],
       "examples": [
         {
           "de": "Wir bringen ein Hoch auf das Brautpaar aus.",
-          "lv": "me ütleme toosti pruutpaarile."
+          "lv": "Tõstame toosti noorpaari auks."
         },
         {
-          "de": "Ein Hoch auf dich!",
-          "lv": "elagu sina!"
+          "de": "Ein dreifaches Hoch auf den Jubilar!",
+          "lv": "Kolmekordne elagu juubilarile!"
         },
         {
-          "de": "Morgen kommt ein Hoch.",
-          "lv": "homme tuleb antitsüklon (kõrgrõhk)."
+          "de": "Morgen bringt ein Hoch sonniges Wetter.",
+          "lv": "Homme toob kõrgrõhkkond päikeselise ilma."
         },
         {
-          "de": "Der Berg ist sehr hoch.",
-          "lv": "mägi on väga kõrge."
+          "de": "Nach dem Tief folgt ein Hoch.",
+          "lv": "Madalrõhkkonnale järgneb kõrgrõhkkond."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "der Toast",
+          "meaning": "toost",
+          "example": "Er hält einen Toast. – Ta ütleb toosti."
+        },
+        {
+          "word": "das Tief",
+          "meaning": "madalrõhkkond",
+          "example": "Das Tief bringt Regen. – Madalrõhkkond toob vihma."
+        },
+        {
+          "word": "hoch",
+          "meaning": "kõrge",
+          "example": "Der Berg ist hoch. – Mägi on kõrge."
         }
       ],
       "tip": [
-        "das Hoch suure algustähega — pidulik hüüd või antitsüklon ilmateates.",
-        "hoch väikese algustähega — kõrge (omadussõna)."
+        "Toosti öeldes kasutatakse ühendit ein Hoch auf + akusatiiv: auf den Gastgeber.",
+        "Ilmateates on Hoch sõna Tief vastand."
       ],
       "important": [
-        "das Hoch = toost (\"elagu!\") VÕI antitsüklon (ilmateade) — nimisõna.",
-        "hoch = kõrge — omadussõna, ilma artiklita.",
-        "Vastand ilmateates: das Hoch ↔ das Tief."
+        "Nimisõna das Hoch kirjutatakse suure tähega, omadussõna hoch väikesega.",
+        "Mitmus on die Hochs, mitte die Höchen."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "das Hoch"
+            "Hoch",
+            "hoch"
           ],
           "purple": [
-            "toost",
-            "elagu"
-          ],
-          "green": [
-            "hoch"
+            "toosti",
+            "elagu!"
           ]
         },
         "examples": [
@@ -7820,17 +16503,55 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "antitsüklon"
+                "kõrgrõhkkond"
               ]
             }
           },
           {
             "de": {
+              "blue": [
+                "Hoch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kõrgrõhkkond"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "der Toast"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "toost"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "das Tief"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "madalrõhkkond"
+              ]
+            }
+          },
+          {
+            "word": {
               "green": [
                 "hoch"
               ]
             },
-            "lv": {
+            "meaning": {
               "purple": [
                 "kõrge"
               ]
@@ -7838,33 +16559,12 @@ const B2_WORDS = [
           }
         ],
         "tip": [
-          {
-            "blue": [
-              "das Hoch"
-            ]
-          },
-          {
-            "green": [
-              "hoch"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "blue": [
-              "das Hoch"
-            ]
-          },
-          {
-            "green": [
-              "hoch"
-            ]
-          },
-          {
-            "blue": [
-              "das Tief"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -7879,12 +16579,12 @@ const B2_WORDS = [
   {
     "de": "Hochmut",
     "de_article": "der",
-    "lv": "\\",
+    "lv": "kõrkus • ülbus",
     "level": "B2"
   },
   {
     "de": "hochmütig",
-    "lv": "\\",
+    "lv": "kõrk • ülbe",
     "level": "B2"
   },
   {
@@ -7905,7 +16605,7 @@ const B2_WORDS = [
     "de": "Höchstleistung",
     "de_article": "die",
     "de_plural": "die Höchstleistungen",
-    "lv": "\\",
+    "lv": "tippsaavutus • rekord • maksimaalne võimsus",
     "level": "B2"
   },
   {
@@ -7924,57 +16624,62 @@ const B2_WORDS = [
     "study": {
       "id": "b2-hochwasser",
       "layout": "standardStudy",
-      "translation": "\\",
-      "explanation": "Peamine mõte: das Hochwasser tähendab üleujutust või väga kõrget veetaset jões, järves või meres. Mitmus: die Hochwasser. Sageli kasutatakse ajakirjanduses ja hoiatustes.",
+      "translation": "üleujutus • kõrge veetase",
+      "explanation": [
+        "Põhimõte: das Hochwasser on kesksoost nimisõna. See tähendab väga kõrget veetaset jões, meres või järves ning sellest tingitud üleujutust. Mitmus on die Hochwasser (ka Hochwässer).",
+        "Sagedased väljendid: Hochwasser führen (jões on kõrge vesi), vor Hochwasser warnen (üleujutuse eest hoiatama), vom Hochwasser betroffen sein (olema üleujutuse all kannatanud). Vastand on das Niedrigwasser."
+      ],
       "examples": [
         {
           "de": "Nach dem Regen gibt es Hochwasser.",
-          "lv": "pärast vihma on üleujutus."
+          "lv": "Pärast vihma on üleujutus."
         },
         {
-          "de": "Das Hochwasser bedroht die Stadt.",
-          "lv": "kõrge veetase ohustab linna."
+          "de": "Der Fluss führt Hochwasser.",
+          "lv": "Jões on kõrge veetase."
         },
         {
           "de": "Die Behörden warnen vor Hochwasser.",
-          "lv": "ametid hoiatavad üleujutuse eest."
+          "lv": "Ametiasutused hoiatavad üleujutuse eest."
+        },
+        {
+          "de": "Das Hochwasser hat mehrere Dörfer erreicht.",
+          "lv": "Üleujutus on jõudnud mitmesse külla."
         }
       ],
       "comparison": [
         {
-          "word": "das Hochwasser",
-          "meaning": "üleujutus • kõrge veetase",
-          "example": "Es gibt Hochwasser. = On üleujutus."
-        },
-        {
           "word": "die Überschwemmung",
-          "meaning": "üleujutus (konkreetne)",
-          "example": "Die Überschwemmung zerstörte Häuser. = Üleujutus hävitas maju."
+          "meaning": "uputus, üleujutus",
+          "example": "Die Überschwemmung zerstörte die Ernte. – Uputus hävitas saagi."
         },
         {
-          "word": "der Pegel",
-          "meaning": "veetase",
-          "example": "Der Pegel steigt. = Veetase tõuseb."
+          "word": "die Flut",
+          "meaning": "tõus (merevee tõus)",
+          "example": "Die Flut kommt am Abend. – Tõus saabub õhtul."
+        },
+        {
+          "word": "das Niedrigwasser",
+          "meaning": "madal veetase",
+          "example": "Bei Niedrigwasser fahren weniger Schiffe. – Madala veega sõidab vähem laevu."
         }
       ],
-      "tip": {
-        "leftBlocks": [
-          {
-            "text": "Hoch = kõrge, Wasser = vesi. Hochwasser = kõrge veetase, mis tähendab sageli üleujutust."
-          }
-        ]
-      },
-      "important": {
-        "text": "das Hochwasser = üleujutus või kõrge veetase. Mitmus: die Hochwasser."
-      },
+      "tip": [
+        "Pea meeles vastandit: Hochwasser — Niedrigwasser.",
+        "Uudistes kuuled sageli sõnu Hochwasserwarnung, Hochwasserschutz."
+      ],
+      "important": [
+        "Hochwasser ei ole sama mis Flut (merevee tõus).",
+        "Mitmuses on artikkel die, kuid sõna ise jääb muutumatuks: die Hochwasser."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "das Hochwasser"
+            "Hochwasser"
           ],
           "purple": [
-            "üleujutust",
-            "kõrget veetaset"
+            "kõrget veetaset",
+            "üleujutust"
           ]
         },
         "examples": [
@@ -8013,14 +16718,72 @@ const B2_WORDS = [
                 "üleujutuse"
               ]
             }
+          },
+          {
+            "de": {
+              "blue": [
+                "Hochwasser"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Üleujutus"
+              ]
+            }
           }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "die Überschwemmung"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "uputus"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Flut"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "tõus"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "das Niedrigwasser"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "madal veetase"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
         ]
       }
     }
   },
   {
     "de": "hochwertig",
-    "lv": "\\",
+    "lv": "kvaliteetne • väärtuslik",
     "level": "B2"
   },
   {
@@ -8033,7 +16796,7 @@ const B2_WORDS = [
   {
     "de": "Hohn",
     "de_article": "der",
-    "lv": "\\",
+    "lv": "pilge • mõnitus",
     "level": "B2"
   },
   {
@@ -8045,7 +16808,7 @@ const B2_WORDS = [
   },
   {
     "de": "holpern",
-    "lv": "\\",
+    "lv": "rappuma • komberdama",
     "level": "B2"
   },
   {
@@ -8094,7 +16857,7 @@ const B2_WORDS = [
   },
   {
     "de": "in flagranti",
-    "lv": "teolt tabama",
+    "lv": "teolt",
     "level": "B2"
   },
   {
@@ -8130,12 +16893,12 @@ const B2_WORDS = [
     "de": "Investition",
     "de_article": "die",
     "de_plural": "die Investitionen",
-    "lv": "\\",
+    "lv": "investeering • kapitalimahutus",
     "level": "B2"
   },
   {
     "de": "irrsinnig",
-    "lv": "\\",
+    "lv": "hullumeelne • meeletu",
     "level": "B2"
   },
   {
@@ -8156,7 +16919,7 @@ const B2_WORDS = [
     "de": "Kapazität",
     "de_article": "die",
     "de_plural": "die Kapazitäten",
-    "lv": "\\",
+    "lv": "võimsus • mahutavus • asjatundja",
     "level": "B2"
   },
   {
@@ -8212,7 +16975,7 @@ const B2_WORDS = [
   },
   {
     "de": "kidnappen",
-    "lv": "\\",
+    "lv": "röövima • pantvangi võtma",
     "level": "B2"
   },
   {
@@ -8224,14 +16987,14 @@ const B2_WORDS = [
     "de": "Klappe",
     "de_article": "die",
     "de_plural": "die Klappen",
-    "lv": "\\",
+    "lv": "klapp • luuk",
     "level": "B2"
   },
   {
     "de": "Klasse",
     "de_article": "die",
     "de_plural": "die Klassen",
-    "lv": "\\",
+    "lv": "klass • kategooria",
     "level": "B2"
   },
   {
@@ -8274,7 +17037,7 @@ const B2_WORDS = [
     "de": "Kolben",
     "de_article": "der",
     "de_plural": "die Kolben",
-    "lv": "\\",
+    "lv": "kolb • püssipära",
     "level": "B2"
   },
   {
@@ -8290,7 +17053,7 @@ const B2_WORDS = [
   },
   {
     "de": "kompetent",
-    "lv": "\\",
+    "lv": "pädev • asjatundlik",
     "level": "B2"
   },
   {
@@ -8304,7 +17067,7 @@ const B2_WORDS = [
     "de": "Konsequenz",
     "de_article": "die",
     "de_plural": "die Konsequenzen",
-    "lv": "\\",
+    "lv": "tagajärg • järjekindlus • järeldus",
     "level": "B2"
   },
   {
@@ -8336,7 +17099,7 @@ const B2_WORDS = [
     "de": "Konzept",
     "de_article": "das",
     "de_plural": "die Konzepte",
-    "lv": "\\",
+    "lv": "kontseptsioon • kavand • plaan",
     "level": "B2"
   },
   {
@@ -8348,12 +17111,12 @@ const B2_WORDS = [
   },
   {
     "de": "korrumpieren",
-    "lv": "\\",
+    "lv": "korrumpeerima • ära ostma",
     "level": "B2"
   },
   {
     "de": "korrupt",
-    "lv": "\\",
+    "lv": "korrumpeerunud • äraostetav",
     "level": "B2"
   },
   {
@@ -8388,7 +17151,7 @@ const B2_WORDS = [
     "de": "Laie",
     "de_article": "der",
     "de_plural": "die Laien",
-    "lv": "\\",
+    "lv": "võhik • asjaarmastaja",
     "level": "B2"
   },
   {
@@ -8435,14 +17198,14 @@ const B2_WORDS = [
     "de": "Landung",
     "de_article": "die",
     "de_plural": "die Landungen",
-    "lv": "\\",
+    "lv": "maandumine • dessant • randumine",
     "level": "B2"
   },
   {
     "de": "Landzunge",
     "de_article": "die",
     "de_plural": "die Landzungen",
-    "lv": "maakeel (poolsaar)",
+    "lv": "maasäär",
     "level": "B2"
   },
   {
@@ -8457,12 +17220,12 @@ const B2_WORDS = [
   },
   {
     "de": "lästig",
-    "lv": "koormav",
+    "lv": "tüütu • tülikas",
     "level": "B2"
   },
   {
     "de": "latent",
-    "lv": "\\",
+    "lv": "varjatud • latentne",
     "level": "B2"
   },
   {
@@ -8481,26 +17244,26 @@ const B2_WORDS = [
     "de": "Laufmasche",
     "de_article": "die",
     "de_plural": "die Laufmaschen",
-    "lv": "sukasilm on jooksnud",
+    "lv": "silmajooks",
     "level": "B2"
   },
   {
     "de": "Laufsteg",
     "de_article": "der",
     "de_plural": "die Laufstege",
-    "lv": "podium (moeetendus)",
+    "lv": "poodium • moelava",
     "level": "B2"
   },
   {
     "de": "Laufwerk",
     "de_article": "das",
     "de_plural": "die Laufwerke",
-    "lv": "\\",
+    "lv": "kettaseade • ajam",
     "level": "B2"
   },
   {
     "de": "lauschen",
-    "lv": "\\",
+    "lv": "kuulatama • pealt kuulama",
     "level": "B2"
   },
   {
@@ -8576,56 +17339,68 @@ const B2_WORDS = [
     "de": "Leiden",
     "de_article": "das",
     "de_plural": "die Leiden",
-    "lv": "pikaajaline ja raske haigus",
+    "lv": "kannatus • haigus",
     "level": "B2",
     "study": {
       "id": "b2-leiden-study",
       "layout": "standardStudy",
-      "translation": "\\",
+      "translation": "kannatus • haigus",
       "explanation": [
-        "Peamine mõte: das Leiden suure algustähega ja artikliga das on nimisõna — kannatused, pikaajaline/raske haigus.",
-        "leiden väikese algustähega on tegusõna — kannatama.",
-        "das Leiden'it kasutatakse sageli meditsiinilises või kirjanduslikus kontekstis (ein schweres Leiden = raske haigus).",
-        "Mitmuses: die Leiden."
+        "Põhimõte: das Leiden on kesksoost nimisõna, mida kasutatakse kahel moel: kannatusena (das Leiden der Menschen) ja pikaajalise, sageli kroonilise haigusena (ein schweres Leiden). Mitmus on die Leiden.",
+        "Sõna on tegusõnast leiden (kannatama) moodustatud nimisõna. Tüüpilised ühendid: ein chronisches Leiden, ein altes Leiden, nach langem, schwerem Leiden (surmakuulutustes).",
+        "Võrreldes tavalise sõnaga Krankheit rõhutab Leiden haiguse kestust ja raskust."
       ],
       "examples": [
         {
           "de": "Er hat ein schweres Leiden.",
-          "lv": "tal on raske haigus."
+          "lv": "Tal on raske haigus."
         },
         {
           "de": "Das Leiden der Patienten war groß.",
-          "lv": "patsientide kannatused olid suured."
+          "lv": "Patsientide kannatused olid suured."
         },
         {
-          "de": "Er leidet an einer seltenen Krankheit.",
-          "lv": "ta põeb haruldast haigust."
+          "de": "Nach langem Leiden ist er gestorben.",
+          "lv": "Ta suri pärast pikki kannatusi."
         },
         {
-          "de": "Ihr Leiden dauerte Jahre.",
-          "lv": "tema haigus kestis aastaid."
+          "de": "Ein chronisches Leiden begleitet ihn seit Jahren.",
+          "lv": "Krooniline haigus on teda saatnud juba aastaid."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "die Krankheit",
+          "meaning": "haigus",
+          "example": "Eine Krankheit kann ansteckend sein. – Haigus võib olla nakkav."
+        },
+        {
+          "word": "der Schmerz",
+          "meaning": "valu",
+          "example": "Der Schmerz ist stark. – Valu on tugev."
+        },
+        {
+          "word": "leiden",
+          "meaning": "kannatama, põdema",
+          "example": "Er leidet an Asthma. – Ta põeb astmat."
         }
       ],
       "tip": [
-        "das Leiden suure algustähega — nimisõna (kannatused, raske haigus).",
-        "leiden väikese algustähega — tegusõna (kannatama)."
+        "Tegusõnaga leiden ütled: an einer Krankheit leiden (mingit haigust põdema).",
+        "Surmakuulutustes loed sageli: nach schwerem Leiden."
       ],
       "important": [
-        "das Leiden = kannatused/raske haigus (nimisõna).",
-        "leiden = kannatama (tegusõna).",
-        "Mitmuses: die Leiden."
+        "Leiden on nimisõna ja kirjutatakse suure tähega, leiden aga tegusõna väikese tähega.",
+        "Igapäevaselt nimetatakse lühiajalist haigust Krankheit, mitte Leiden."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "das Leiden"
+            "Leiden"
           ],
           "purple": [
-            "kannatused",
-            "raske haigus"
-          ],
-          "green": [
-            "leiden"
+            "kannatusena",
+            "haigusena"
           ]
         },
         "examples": [
@@ -8655,13 +17430,13 @@ const B2_WORDS = [
           },
           {
             "de": {
-              "green": [
-                "leidet"
+              "blue": [
+                "Leiden"
               ]
             },
             "lv": {
               "purple": [
-                "põeb"
+                "kannatusi"
               ]
             }
           },
@@ -8678,41 +17453,58 @@ const B2_WORDS = [
             }
           }
         ],
-        "tip": [
+        "comparison": [
           {
-            "blue": [
-              "das Leiden"
-            ]
+            "word": {
+              "green": [
+                "die Krankheit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "haigus"
+              ]
+            }
           },
           {
-            "green": [
-              "leiden"
-            ]
+            "word": {
+              "green": [
+                "der Schmerz"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "valu"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "leiden"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "kannatama, põdema"
+              ]
+            }
           }
         ],
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "blue": [
-              "das Leiden"
-            ]
-          },
-          {
-            "green": [
-              "leiden"
-            ]
-          },
-          {
-            "blue": [
-              "die Leiden"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
   },
   {
     "de": "leidlich",
-    "lv": "\\",
+    "lv": "talutav • rahuldav • enam-vähem",
     "level": "B2"
   },
   {
@@ -8747,12 +17539,12 @@ const B2_WORDS = [
     "de": "Lesbe",
     "de_article": "die",
     "de_plural": "die Lesben",
-    "lv": "lesbi",
+    "lv": "lesbilane",
     "level": "B2"
   },
   {
     "de": "lesegeschützt",
-    "lv": "\\",
+    "lv": "lugemiskaitsega",
     "level": "B2"
   },
   {
@@ -8776,27 +17568,27 @@ const B2_WORDS = [
     "de": "Liebesaffäre",
     "de_article": "die",
     "de_plural": "die Liebesaffären",
-    "lv": "intiimsuhe",
+    "lv": "armulugu • armuafäär",
     "level": "B2"
   },
   {
     "de": "liebkosten",
-    "lv": "\\",
+    "lv": "hellitama • paitama",
     "level": "B2"
   },
   {
     "de": "liederlich",
-    "lv": "\\",
+    "lv": "lohakas • kõlvatu",
     "level": "B2"
   },
   {
     "de": "lindern",
-    "lv": "leevendama valu",
+    "lv": "leevendama",
     "level": "B2"
   },
   {
     "de": "lispeln",
-    "lv": "\\",
+    "lv": "pudistama • sosistama",
     "level": "B2"
   },
   {
@@ -8849,14 +17641,14 @@ const B2_WORDS = [
     "de": "Lösegeld",
     "de_article": "das",
     "de_plural": "die Lösegelder",
-    "lv": "lunastustasu",
+    "lv": "lunaraha",
     "level": "B2"
   },
   {
     "de": "Losung",
     "de_article": "die",
     "de_plural": "die Losungen",
-    "lv": "\\",
+    "lv": "loosung • parool",
     "level": "B2"
   },
   {
@@ -8895,7 +17687,7 @@ const B2_WORDS = [
   },
   {
     "de": "luftdicht",
-    "lv": "\\",
+    "lv": "õhukindel • hermeetiline",
     "level": "B2"
   },
   {
@@ -8921,7 +17713,7 @@ const B2_WORDS = [
     "de": "Luftgewehr",
     "de_article": "das",
     "de_plural": "die Luftgewehre",
-    "lv": "pneumaatiline relv",
+    "lv": "õhupüss",
     "level": "B2"
   },
   {
@@ -8935,7 +17727,7 @@ const B2_WORDS = [
     "de": "Lustspiel",
     "de_article": "das",
     "de_plural": "die Lustspiele",
-    "lv": "\\",
+    "lv": "komöödia • lustmäng",
     "level": "B2"
   },
   {
@@ -8953,7 +17745,7 @@ const B2_WORDS = [
   },
   {
     "de": "mächtig",
-    "lv": "\\",
+    "lv": "võimas • vägev • tohutu",
     "level": "B2"
   },
   {
@@ -8988,7 +17780,7 @@ const B2_WORDS = [
     "de": "Mahl",
     "de_article": "das",
     "de_plural": "die Mähler",
-    "lv": "\\",
+    "lv": "eine • pidusöök",
     "level": "B2"
   },
   {
@@ -9025,7 +17817,7 @@ const B2_WORDS = [
     "de": "Marine",
     "de_article": "die",
     "de_plural": "die Marinen",
-    "lv": "\\",
+    "lv": "merevägi • laevastik",
     "level": "B2"
   },
   {
@@ -9079,7 +17871,7 @@ const B2_WORDS = [
     "de": "Maskenbildner",
     "de_article": "der",
     "de_plural": "die Maskenbildner",
-    "lv": "professionaalne näitlejate grimeerija ja juuksur",
+    "lv": "grimeerija",
     "level": "B2"
   },
   {
@@ -9097,7 +17889,7 @@ const B2_WORDS = [
   },
   {
     "de": "maßlos",
-    "lv": "\\",
+    "lv": "mõõdutu • piiritu",
     "level": "B2"
   },
   {
@@ -9165,7 +17957,7 @@ const B2_WORDS = [
   },
   {
     "de": "menschenscheu",
-    "lv": "\\",
+    "lv": "inimpelglik • arg",
     "level": "B2"
   },
   {
@@ -9182,13 +17974,13 @@ const B2_WORDS = [
     "de": "Mieder",
     "de_article": "das",
     "de_plural": "die Mieder",
-    "lv": "\\",
+    "lv": "pihik • korsett",
     "level": "B2"
   },
   {
     "de": "Miederwaren",
     "de_article": "die",
-    "lv": "\\",
+    "lv": "korsetitooted",
     "level": "B2"
   },
   {
@@ -9214,7 +18006,7 @@ const B2_WORDS = [
   },
   {
     "de": "mildern",
-    "lv": "\\",
+    "lv": "leevendama • pehmendama",
     "level": "B2"
   },
   {
@@ -9225,7 +18017,7 @@ const B2_WORDS = [
   {
     "de": "Militär",
     "de_article": "das",
-    "lv": "\\",
+    "lv": "sõjavägi • armee",
     "level": "B2"
   },
   {
@@ -9259,12 +18051,12 @@ const B2_WORDS = [
   },
   {
     "de": "missachten",
-    "lv": "mitte arvestama",
+    "lv": "eirama • halvustama",
     "level": "B2"
   },
   {
     "de": "missbilligen",
-    "lv": "\\",
+    "lv": "taunima • hukka mõistma",
     "level": "B2"
   },
   {
@@ -9289,12 +18081,12 @@ const B2_WORDS = [
   },
   {
     "de": "misstrauen",
-    "lv": "mitte usaldama",
+    "lv": "umbusaldama",
     "level": "B2"
   },
   {
     "de": "mitschuldig",
-    "lv": "kaassüüdlane",
+    "lv": "kaassüüdne",
     "level": "B2"
   },
   {
@@ -9306,12 +18098,12 @@ const B2_WORDS = [
     "de": "Mittelsmann",
     "de_article": "der",
     "de_plural": "die Mittelsmänner",
-    "lv": "vahendaja vastaste või partnerite vahel",
+    "lv": "vahendaja",
     "level": "B2"
   },
   {
     "de": "mitwirken",
-    "lv": "\\",
+    "lv": "osalema • kaasa lööma",
     "level": "B2"
   },
   {
@@ -9335,13 +18127,13 @@ const B2_WORDS = [
     "de": "Moment",
     "de_article": "das",
     "de_plural": "die Momente",
-    "lv": "\\",
+    "lv": "tegur • asjaolu",
     "level": "B2"
   },
   {
     "de": "Monatsschrift",
     "de_article": "die",
-    "lv": "ajakiri (kuukiri)",
+    "lv": "kuukiri",
     "level": "B2",
     "de_plural": "die Monatsschriften"
   },
@@ -9360,23 +18152,23 @@ const B2_WORDS = [
   },
   {
     "de": "mulmig",
-    "lv": "\\",
+    "lv": "kõhe • ebamugav",
     "level": "B2"
   },
   {
     "de": "münden",
-    "lv": "\\",
+    "lv": "suubuma • välja viima",
     "level": "B2"
   },
   {
     "de": "Muße",
     "de_article": "die",
-    "lv": "\\",
+    "lv": "vaba aeg • jõudeaeg",
     "level": "B2"
   },
   {
     "de": "müßig",
-    "lv": "\\",
+    "lv": "tegevusetu • asjatu",
     "level": "B2"
   },
   {
@@ -9402,79 +18194,75 @@ const B2_WORDS = [
     "de": "Nachbildung",
     "de_article": "die",
     "de_plural": "die Nachbildungen",
-    "lv": "\\",
+    "lv": "jäljendus • koopia",
     "level": "B2"
   },
   {
     "de": "Nachdruck",
     "de_article": "der",
     "de_plural": "die Nachdrucke",
-    "lv": "rõhutus • kordustrükk",
+    "lv": "rõhk • kordustrükk",
     "level": "B2",
     "study": {
       "id": "b2-nachdruck",
       "layout": "standardStudy",
-      "translation": "\\",
+      "translation": "rõhk • kordustrükk",
       "explanation": [
-        "Peamine mõte: der Nachdruck võib tähendada rõhutust või raamatu kordustrükki.",
-        "Nachdruck auf etwas legen = panema rõhku millelegi, nõudma midagi.",
-        "Der Nachdruck eines Buches = raamatu kordustrükk (reprint).",
-        "Kontekst (läbirääkimised või kirjastus) määrab õige tähenduse."
+        "Põhimõte: der Nachdruck on meessoost nimisõna. Selle põhitähendus on rõhk, kindlus, pealekäimine, millega midagi öeldakse või tehakse: mit Nachdruck (rõhutatult, nõudlikult), Nachdruck auf etwas legen (midagi rõhutama).",
+        "Selles tähenduses kasutatakse ainsust: der Nachdruck, des Nachdrucks. Teine tähendus on trükinduses kordustrükk või taasavaldamine; siis on mitmus die Nachdrucke. Väljaannetel näeb sageli: Nachdruck verboten!"
       ],
       "examples": [
         {
-          "de": "Er legt Nachdruck auf die Frist.",
-          "lv": "ta rõhutab tähtaega."
+          "de": "Mit Nachdruck forderte sie eine Antwort.",
+          "lv": "Ta nõudis rõhutatult vastust."
         },
         {
-          "de": "Mit Nachdruck forderte sie eine Antwort.",
-          "lv": "ta nõudis tungivalt vastust."
+          "de": "Er legt besonderen Nachdruck auf die Qualität.",
+          "lv": "Ta paneb erilist rõhku kvaliteedile."
         },
         {
           "de": "Der Nachdruck des Romans erschien im Frühjahr.",
-          "lv": "romaani kordustrükk ilmus kevadel."
+          "lv": "Romaani kordustrükk ilmus kevadel."
         },
         {
-          "de": "Dieses Buch ist bereits im Nachdruck.",
-          "lv": "see raamat on juba kordustrükis."
-        },
-        {
-          "de": "Der Verlag plant einen Nachdruck.",
-          "lv": "kirjastus plaanib kordustrükki."
+          "de": "Nachdruck verboten!",
+          "lv": "Kordustrükk keelatud!"
         }
       ],
       "comparison": [
         {
-          "word": "Nachdruck legen auf",
-          "meaning": "rõhutama, nõudma",
-          "example": "Er legt Nachdruck auf die Frist. = Ta rõhutab tähtaega."
+          "word": "die Betonung",
+          "meaning": "rõhuasetus, rõhk",
+          "example": "Die Betonung liegt auf der ersten Silbe. – Rõhk on esimesel silbil."
         },
         {
-          "word": "der Nachdruck (Buch)",
-          "meaning": "kordustrükk",
-          "example": "Der Nachdruck erschien im Frühjahr. = Kordustrükk ilmus kevadel."
+          "word": "die Auflage",
+          "meaning": "trükk, tiraaž",
+          "example": "Das Buch erscheint in zweiter Auflage. – Raamat ilmub teises trükis."
         },
         {
-          "word": "der Druck",
-          "meaning": "surve / trükk",
-          "example": "Unter Druck stehen = olema surve all."
+          "word": "nachdrücklich",
+          "meaning": "nõudlik, rõhutatud",
+          "example": "Er bat nachdrücklich um Hilfe. – Ta palus tungivalt abi."
         }
       ],
       "tip": [
-        "Läbirääkimistes ja nõudmistes: Nachdruck = rõhutus.",
-        "Kirjastuses ja raamatutes: Nachdruck = kordustrükk."
+        "Jäta meelde kaks püsiühendit: mit Nachdruck ja Nachdruck verleihen (rõhku lisama).",
+        "Sugulassõna, omadussõna nachdrücklich tähendab „nõudlik, rõhutatud“."
       ],
       "important": [
-        "Nachdruck auf etwas legen = rõhku panema.",
-        "der Nachdruck eines Buches = kordustrükk."
+        "Nachdruck on selles tähenduses ainsuses; mitmus die Nachdrucke käib väljaannete kohta.",
+        "Ära aja segi sõnaga Druck (surve, trükk): see on teine tähendus."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "der Nachdruck"
+            "der Nachdruck",
+            "Nachdruck",
+            "Nachdrucke"
           ],
           "purple": [
-            "rõhutust",
+            "rõhk",
             "kordustrükk"
           ]
         },
@@ -9487,7 +18275,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "rõhutab"
+                "rõhutatult"
               ]
             }
           },
@@ -9499,13 +18287,13 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "tungivalt"
+                "rõhku"
               ]
             }
           },
           {
             "de": {
-              "green": [
+              "blue": [
                 "Nachdruck"
               ]
             },
@@ -9517,40 +18305,74 @@ const B2_WORDS = [
           },
           {
             "de": {
-              "green": [
+              "blue": [
                 "Nachdruck"
               ]
             },
             "lv": {
               "purple": [
-                "kordustrükis"
+                "Kordustrükk"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "die Betonung"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "rõhuasetus, rõhk"
               ]
             }
           },
           {
-            "de": {
+            "word": {
               "green": [
-                "Nachdruck"
+                "die Auflage"
               ]
             },
-            "lv": {
+            "meaning": {
               "purple": [
-                "kordustrükki"
+                "trükk"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "nachdrücklich"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "nõudlik, rõhutatud"
               ]
             }
           }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
         ]
       }
     }
   },
   {
     "de": "nachdrücklich",
-    "lv": "\\",
+    "lv": "rõhutatud • veenev • tungiv",
     "level": "B2"
   },
   {
     "de": "nachgehen",
-    "lv": "\\",
+    "lv": "järgnema • uurima • tegelema",
     "level": "B2"
   },
   {
@@ -9575,18 +18397,178 @@ const B2_WORDS = [
   {
     "de": "Nachsicht",
     "de_article": "die",
-    "lv": "\\",
+    "lv": "leebus • sallivus",
     "level": "B2"
   },
   {
     "de": "nachsitzen",
-    "lv": "koolis pärast tunde karistuseks jääma",
+    "lv": "järele jääma",
     "level": "B2"
   },
   {
     "de": "nachträglich",
-    "lv": "\\",
-    "level": "B2"
+    "lv": "hilisem • tagantjärele",
+    "level": "B2",
+    "study": {
+      "id": "b2-nachtr-glich",
+      "layout": "standardStudy",
+      "translation": "hilisem • tagantjärele",
+      "explanation": [
+        "Põhimõte: nachträglich tähendab hiljem, juba pärast põhitegevust või tähtaega — tagantjärele lisatud või tehtud. See on nii omadussõna (eine nachträgliche Änderung — hilisem muudatus) kui ka määrsõna (nachträglich ändern — tagantjärele muutma).",
+        "Sage tähendus on hilinemine: nachträglich gratulieren — pärast sündmust õnnitlema. Omadussõnana väljendab see ka lisandust: eine nachträgliche Zahlung (tagantjärele tehtud makse)."
+      ],
+      "examples": [
+        {
+          "de": "Eine nachträgliche Änderung ist nicht mehr möglich.",
+          "lv": "Hilisem muudatus ei ole enam võimalik."
+        },
+        {
+          "de": "Ich habe den Text nachträglich geändert.",
+          "lv": "Muutsin teksti tagantjärele."
+        },
+        {
+          "de": "Es gibt eine nachträgliche Zahlung.",
+          "lv": "Makse tuleb teha tagantjärele."
+        },
+        {
+          "de": "Herzlichen Glückwunsch nachträglich!",
+          "lv": "Palju õnne tagantjärele!"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "später",
+          "meaning": "hiljem",
+          "example": "Wir sprechen später. – Räägime hiljem."
+        },
+        {
+          "word": "zusätzlich",
+          "meaning": "täiendav, lisa-",
+          "example": "Es gibt zusätzliche Kosten. – On lisakulusid."
+        },
+        {
+          "word": "nachher",
+          "meaning": "pärast, hiljem",
+          "example": "Ich rufe dich nachher an. – Helistan sulle pärast."
+        }
+      ],
+      "tip": [
+        "Hilinenud õnnitluse puhul ütle nachträglich: Alles Gute nachträglich!",
+        "Erinevalt sõnast später näitab nachträglich, et midagi oleks pidanud tegema varem."
+      ],
+      "important": [
+        "nachträglich käib selle kohta, mis toimub pärast juba toimunut, mitte suvalise hilisema aja kohta tulevikus.",
+        "Omadussõna käändub: nachträglicher, nachträgliche, nachträgliches."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "nachträglich",
+            "nachträgliche"
+          ],
+          "purple": [
+            "tagantjärele",
+            "hilisem"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "nachträgliche"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Hilisem"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "nachträglich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tagantjärele"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "nachträgliche"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tagantjärele"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "nachträglich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tagantjärele"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "später"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "hiljem"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "zusätzlich"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "täiendav"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "nachher"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "pärast, hiljem"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "Nachweis",
@@ -9599,7 +18581,7 @@ const B2_WORDS = [
     "de": "Nachwort",
     "de_article": "das",
     "de_plural": "die Nachworte",
-    "lv": "\\",
+    "lv": "järelsõna • epiloog",
     "level": "B2"
   },
   {
@@ -9611,7 +18593,7 @@ const B2_WORDS = [
   },
   {
     "de": "namens",
-    "lv": "\\",
+    "lv": "nimega • nimel",
     "level": "B2"
   },
   {
@@ -9632,14 +18614,14 @@ const B2_WORDS = [
     "de": "Teilnarkose",
     "de_article": "die",
     "de_plural": "die Teilnarkosen",
-    "lv": "osaline narkoos",
+    "lv": "kohalik tuimestus",
     "level": "B2"
   },
   {
     "de": "Vollnarkose",
     "de_article": "die",
     "de_plural": "die Vollnarkosen",
-    "lv": "täisnarkoos",
+    "lv": "üldnarkoos",
     "level": "B2"
   },
   {
@@ -9693,12 +18675,12 @@ const B2_WORDS = [
     "de": "Neuauflage",
     "de_article": "die",
     "de_plural": "die Neuauflagen",
-    "lv": "\\",
+    "lv": "kordustrükk • uus väljaanne",
     "level": "B2"
   },
   {
     "de": "neuerdings",
-    "lv": "\\",
+    "lv": "viimasel ajal • hiljuti",
     "level": "B2"
   },
   {
@@ -9712,7 +18694,7 @@ const B2_WORDS = [
     "de": "Neuerscheinung",
     "de_article": "die",
     "de_plural": "die Neuerscheinungen",
-    "lv": "\\",
+    "lv": "uudisteos • uus väljaanne",
     "level": "B2"
   },
   {
@@ -9738,26 +18720,26 @@ const B2_WORDS = [
   },
   {
     "de": "nichtig",
-    "lv": "\\",
+    "lv": "kehtetu • tühine",
     "level": "B2"
   },
   {
     "de": "Niedergang",
     "de_article": "der",
     "de_plural": "die Niedergänge",
-    "lv": "\\",
+    "lv": "allakäik • langus",
     "level": "B2"
   },
   {
     "de": "niederlegen",
-    "lv": "\\",
+    "lv": "maha panema • loobuma",
     "level": "B2"
   },
   {
     "de": "Niederschlag",
     "de_article": "der",
     "de_plural": "die Niederschläge",
-    "lv": "\\",
+    "lv": "sademed • sete",
     "level": "B2"
   },
   {
@@ -9790,7 +18772,7 @@ const B2_WORDS = [
     "de": "Notstand",
     "de_article": "der",
     "de_plural": "die Notstände",
-    "lv": "\\",
+    "lv": "hädaolukord • erakorraline seisukord",
     "level": "B2"
   },
   {
@@ -9847,7 +18829,7 @@ const B2_WORDS = [
   },
   {
     "de": "observieren",
-    "lv": "\\",
+    "lv": "jälgima • jälitama",
     "level": "B2"
   },
   {
@@ -9906,7 +18888,7 @@ const B2_WORDS = [
   {
     "de": "Ölpest",
     "de_article": "die",
-    "lv": "naftareostus vees ja rannikul",
+    "lv": "naftareostus",
     "level": "B2"
   },
   {
@@ -9941,14 +18923,14 @@ const B2_WORDS = [
     "de": "Order",
     "de_article": "die",
     "de_plural": "die Orders",
-    "lv": "\\",
+    "lv": "korraldus • käsk • tellimus",
     "level": "B2"
   },
   {
     "de": "Organempfänger",
     "de_article": "der",
     "de_plural": "die Organempfänger",
-    "lv": "elundisiirdamise saaja",
+    "lv": "elundi saaja",
     "level": "B2"
   },
   {
@@ -9962,7 +18944,7 @@ const B2_WORDS = [
     "de": "Organspende",
     "de_article": "die",
     "de_plural": "die Organspenden",
-    "lv": "elundi loovutamine siirdamiseks",
+    "lv": "elundidoonorlus",
     "level": "B2"
   },
   {
@@ -9981,12 +18963,12 @@ const B2_WORDS = [
   },
   {
     "de": "orientalisch",
-    "lv": "\\",
+    "lv": "idamaine • orientaalne",
     "level": "B2"
   },
   {
     "de": "orten",
-    "lv": "instrumentide abil lokaliseerima",
+    "lv": "asukohta määrama • lokaliseerima",
     "level": "B2"
   },
   {
@@ -9997,28 +18979,167 @@ const B2_WORDS = [
   },
   {
     "de": "sich paaren",
-    "lv": "paarduma millegaga",
+    "lv": "paarituma",
     "level": "B2",
     "study": {
       "id": "b2-sich-paaren",
-      "layout": "minimalStudy",
+      "layout": "standardStudy",
       "translation": "paarituma",
-      "rektion": "mit + kellele?",
-      "explanation": "sich paaren nõuab kindlat eessõna mit + kellele?.",
-      "forms": "mit + kellele?",
-      "formsLabel": "Rektsioon:",
+      "explanation": [
+        "Põhimõte: sich paaren tähendab paarituma — loomade kohta, kui nad sigivad. mit + datiiviga nimetatakse partner: Der Löwe paart sich mit der Löwin. Ülekantud tähenduses ühinevad kaks omadust või asja: Mut paart sich mit Klugheit.",
+        "Vormid: paart sich, paarte sich, hat sich gepaart. Ilma sich-ita on paaren sihiline: Züchter paaren zwei Tiere — kasvatajad paaritavad kahte looma."
+      ],
+      "examples": [
+        {
+          "de": "Die Vögel paaren sich im Frühjahr.",
+          "lv": "Linnud paarituvad kevadel."
+        },
+        {
+          "de": "Der Löwe paart sich mit der Löwin.",
+          "lv": "Lõvi paaritub emalõviga."
+        },
+        {
+          "de": "Bei ihm paart sich Mut mit Klugheit.",
+          "lv": "Temas ühineb julgus tarkusega."
+        },
+        {
+          "de": "Hier paart sich Tradition mit Moderne.",
+          "lv": "Siin ühineb traditsioon modernsusega."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "paaren",
+          "meaning": "paaritama",
+          "example": "Der Züchter paart zwei Hunde. – Kasvataja paaritab kahte koera."
+        },
+        {
+          "word": "verbinden",
+          "meaning": "ühendama",
+          "example": "Das Hotel verbindet Komfort mit Natur. – Hotell ühendab mugavuse loodusega."
+        },
+        {
+          "word": "sich vereinigen",
+          "meaning": "ühinema",
+          "example": "Die Gruppen vereinigen sich. – Rühmad ühinevad."
+        }
+      ],
+      "tip": [
+        "Ülekantud tähenduse jaoks jäta meelde valmis paar: Mut paart sich mit Klugheit.",
+        "Partnerit märgi mit + datiiviga: mit dem Männchen, mit der Tradition."
+      ],
+      "important": [
+        "Inimeste kohta kasutatakse seda sõna harva, sest see kõlab bioloogiliselt või jämedalt.",
+        "Pärast eessõna mit järgneb datiiv."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich paaren"
-          ],
-          "red": [
-            "mit + kellele?"
+            "paaren",
+            "paart",
+            "paarte",
+            "gepaart"
           ],
           "purple": [
-            "sich"
+            "paarituma"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "paaren"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "paarituvad"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "paart"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "paaritub"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "paart"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ühineb"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "paart"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ühineb"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "paaren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "paaritama"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "verbinden"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ühendama"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich vereinigen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ühinema"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -10059,14 +19180,14 @@ const B2_WORDS = [
     "de": "Panzerschrank",
     "de_article": "der",
     "de_plural": "die Panzerschränke",
-    "lv": "\\",
+    "lv": "seif",
     "level": "B2"
   },
   {
     "de": "Parole",
     "de_article": "die",
     "de_plural": "die Parolen",
-    "lv": "\\",
+    "lv": "loosung • parool",
     "level": "B2"
   },
   {
@@ -10083,7 +19204,7 @@ const B2_WORDS = [
   },
   {
     "de": "parteilich",
-    "lv": "\\",
+    "lv": "erapoolik • parteiline",
     "level": "B2"
   },
   {
@@ -10109,21 +19230,21 @@ const B2_WORDS = [
     "de": "Partikel",
     "de_article": "das",
     "de_plural": "die Partikel",
-    "lv": "\\",
+    "lv": "osake • kübe",
     "level": "B2"
   },
   {
     "de": "Pater",
     "de_article": "der",
     "de_plural": "die Patres",
-    "lv": "\\",
+    "lv": "paater • katoliku vaimulik",
     "level": "B2"
   },
   {
     "de": "Peepshow",
     "de_article": "die",
     "de_plural": "die Peepshows",
-    "lv": "\\",
+    "lv": "erootiline piiluetendus",
     "level": "B2"
   },
   {
@@ -10187,7 +19308,7 @@ const B2_WORDS = [
   },
   {
     "de": "pfuschen",
-    "lv": "\\",
+    "lv": "soperdama • lohakalt tegema",
     "level": "B2"
   },
   {
@@ -10208,12 +19329,12 @@ const B2_WORDS = [
     "de": "Pieper",
     "de_article": "der",
     "de_plural": "die Pieper",
-    "lv": "peiler",
+    "lv": "piipar",
     "level": "B2"
   },
   {
     "de": "pikiert",
-    "lv": "\\",
+    "lv": "solvunud • pahane",
     "level": "B2"
   },
   {
@@ -10248,7 +19369,7 @@ const B2_WORDS = [
     "de": "Plädoyer",
     "de_article": "das",
     "de_plural": "die Plädoyers",
-    "lv": "prokuröri või advokaadi kõne kohtus",
+    "lv": "lõppkõne • kaitsekõne",
     "level": "B2"
   },
   {
@@ -10268,7 +19389,7 @@ const B2_WORDS = [
   {
     "de": "Porno",
     "de_article": "der",
-    "lv": "pornograafiat sisaldav teos",
+    "lv": "porno",
     "level": "B2"
   },
   {
@@ -10280,29 +19401,29 @@ const B2_WORDS = [
     "de": "Posse",
     "de_article": "die",
     "de_plural": "die Possen",
-    "lv": "\\",
+    "lv": "farss • naljamäng",
     "level": "B2"
   },
   {
     "de": "Possen",
     "de_article": "der",
     "de_plural": "die Possen",
-    "lv": "\\",
+    "lv": "vemp • koerustükk",
     "level": "B2"
   },
   {
     "de": "postlagernd",
-    "lv": "nõudmisel",
+    "lv": "nõudmiseni",
     "level": "B2"
   },
   {
     "de": "prägen",
-    "lv": "\\",
+    "lv": "vermima • kujundama",
     "level": "B2"
   },
   {
     "de": "prägnant",
-    "lv": "\\",
+    "lv": "tabav • ilmekas",
     "level": "B2"
   },
   {
@@ -10312,7 +19433,7 @@ const B2_WORDS = [
   },
   {
     "de": "prämieren",
-    "lv": "preemiaga tunnustama",
+    "lv": "premeerima • auhindama",
     "level": "B2"
   },
   {
@@ -10331,7 +19452,7 @@ const B2_WORDS = [
     "de": "Preisträger",
     "de_article": "der",
     "de_plural": "die Preisträger",
-    "lv": "\\",
+    "lv": "laureaat • auhinnasaaja",
     "level": "B2"
   },
   {
@@ -10369,7 +19490,7 @@ const B2_WORDS = [
   },
   {
     "de": "provisorisch",
-    "lv": "\\",
+    "lv": "ajutine • esialgne",
     "level": "B2"
   },
   {
@@ -10382,7 +19503,7 @@ const B2_WORDS = [
   {
     "de": "Psychoterror",
     "de_article": "der",
-    "lv": "psühhoteror",
+    "lv": "psühhoterror",
     "level": "B2"
   },
   {
@@ -10401,12 +19522,12 @@ const B2_WORDS = [
     "de": "Quantität",
     "de_article": "die",
     "de_plural": "die Quantitäten",
-    "lv": "\\",
+    "lv": "kvantiteet • hulk",
     "level": "B2"
   },
   {
     "de": "quellen",
-    "lv": "\\",
+    "lv": "välja voolama • paisuma",
     "level": "B2"
   },
   {
@@ -10437,7 +19558,7 @@ const B2_WORDS = [
     "de": "Radierung",
     "de_article": "die",
     "de_plural": "die Radierungen",
-    "lv": "\\",
+    "lv": "ofort",
     "level": "B2"
   },
   {
@@ -10455,7 +19576,7 @@ const B2_WORDS = [
   },
   {
     "de": "raffiniert",
-    "lv": "\\",
+    "lv": "rafineeritud • kaval",
     "level": "B2"
   },
   {
@@ -10467,25 +19588,25 @@ const B2_WORDS = [
   },
   {
     "de": "ranzig",
-    "lv": "\\",
+    "lv": "rääsunud",
     "level": "B2"
   },
   {
     "de": "rau",
-    "lv": "\\",
+    "lv": "kare • kähe • karm",
     "level": "B2"
   },
   {
     "de": "Rauchwaren",
     "de_article": "die",
-    "lv": "\\",
+    "lv": "karusnahad • karusnahatooted",
     "level": "B2"
   },
   {
     "de": "Raumflug",
     "de_article": "der",
     "de_plural": "die Raumflüge",
-    "lv": "\\",
+    "lv": "kosmoselend",
     "level": "B2"
   },
   {
@@ -10532,7 +19653,7 @@ const B2_WORDS = [
   },
   {
     "de": "recken",
-    "lv": "\\",
+    "lv": "sirutama • venitama",
     "level": "B2"
   },
   {
@@ -10549,19 +19670,19 @@ const B2_WORDS = [
   },
   {
     "de": "redselig",
-    "lv": "\\",
+    "lv": "jutukas • lobisev",
     "level": "B2"
   },
   {
     "de": "Referenz",
     "de_article": "die",
     "de_plural": "die Referenzen",
-    "lv": "soovitused",
+    "lv": "soovitus • viide",
     "level": "B2"
   },
   {
     "de": "rege",
-    "lv": "\\",
+    "lv": "elav • virk • tegus",
     "level": "B2"
   },
   {
@@ -10594,7 +19715,7 @@ const B2_WORDS = [
     "de": "Regung",
     "de_article": "die",
     "de_plural": "die Regungen",
-    "lv": "\\",
+    "lv": "liigutus • tundepuhang • ajend",
     "level": "B2"
   },
   {
@@ -10606,14 +19727,14 @@ const B2_WORDS = [
     "de": "Reich",
     "de_article": "das",
     "de_plural": "die Reiche",
-    "lv": "\\",
+    "lv": "riik • impeerium • valdkond",
     "level": "B2"
   },
   {
     "de": "Reifeprüfung",
     "de_article": "die",
     "de_plural": "die Reifeprüfungen",
-    "lv": "valmiduseksam",
+    "lv": "küpsuseksam",
     "level": "B2"
   },
   {
@@ -10630,7 +19751,7 @@ const B2_WORDS = [
   },
   {
     "de": "relevant",
-    "lv": "\\",
+    "lv": "asjakohane • oluline",
     "level": "B2"
   },
   {
@@ -10658,25 +19779,164 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-revanchieren",
-      "layout": "minimalStudy",
-      "translation": "\\",
-      "rektion": "bei + kellele?",
-      "explanation": "sich revanchieren nõuab kindlat eessõna bei + kellele?.",
-      "forms": "bei + kellele?",
-      "formsLabel": "Rektsioon:",
+      "layout": "standardStudy",
+      "translation": "tasuma • kätte maksma",
+      "explanation": [
+        "Põhimõte: sich revanchieren tähendab vastama kellegi teole sarnase teoga (vrd eesti „revanš“). Kõige sagedamini on see positiivne — tasuma lahkuse eest (kutse, kingituse eest), kuid võib tähendada ka kätte maksma halva eest. Hääldus: [revɑ̃ˈʃiːrən], ch nagu š.",
+        "Kellele tasutakse, märgitakse bei + datiiviga, mille eest — für + akusatiiviga, millega — mit + datiiviga: sich bei jemandem für etwas mit etwas revanchieren. Vormid: revanchiert sich, revanchierte sich, hat sich revanchiert."
+      ],
+      "examples": [
+        {
+          "de": "Ich möchte mich bei dir für die Einladung revanchieren.",
+          "lv": "Tahaksin sulle kutse eest tasuda."
+        },
+        {
+          "de": "Er revanchierte sich mit einem Geschenk.",
+          "lv": "Ta tasus kingitusega."
+        },
+        {
+          "de": "Die Mannschaft revanchierte sich für die Niederlage.",
+          "lv": "Meeskond maksis kaotuse eest kätte."
+        },
+        {
+          "de": "Dafür werde ich mich noch revanchieren!",
+          "lv": "Selle eest ma veel tasun!"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich bedanken",
+          "meaning": "tänama",
+          "example": "Ich bedanke mich bei dir. – Ma tänan sind."
+        },
+        {
+          "word": "sich rächen",
+          "meaning": "kätte maksma",
+          "example": "Er rächt sich an seinem Feind. – Ta maksab oma vaenlasele kätte."
+        },
+        {
+          "word": "vergelten",
+          "meaning": "tasuma",
+          "example": "Man soll Gutes mit Gutem vergelten. – Head tuleb tasuda heaga."
+        }
+      ],
+      "tip": [
+        "Pärast lahket kutset võid öelda: Beim nächsten Mal revanchiere ich mich!",
+        "Tähenduse määrab kontekst: tänu puhul on sõna positiivne, spordis ja tülides tähendab see kättemaksu."
+      ],
+      "important": [
+        "revanchieren ei tähenda alati kurja kättemaksu; igapäevaselt vastatakse sageli heateoga.",
+        "Pärast bei järgneb datiiv: bei dir, bei den Gästen; pärast für — akusatiiv."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich revanchieren"
-          ],
-          "red": [
-            "bei + kellele?"
+            "revanchieren",
+            "revanchiert",
+            "revanchierte"
           ],
           "purple": [
-            "sich",
-            "sich"
+            "tasuma",
+            "kätte maksma"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "revanchieren"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tasuda"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "revanchierte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tasus"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "revanchierte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "maksis",
+                "kätte"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "revanchieren"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tasun"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "bedanken"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "tänama"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "rächen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "kätte maksma"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "vergelten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "tasuma"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -10705,7 +19965,7 @@ const B2_WORDS = [
     "de": "Rivale",
     "de_article": "der",
     "de_plural": "die Rivalen",
-    "lv": "\\",
+    "lv": "rivaal • konkurent",
     "level": "B2"
   },
   {
@@ -10724,24 +19984,24 @@ const B2_WORDS = [
     "de": "Rückgang",
     "de_article": "der",
     "de_plural": "die Rückgänge",
-    "lv": "\\",
+    "lv": "langus • vähenemine",
     "level": "B2"
   },
   {
     "de": "Rückhalt",
     "de_article": "der",
     "de_plural": "die Rückhalte",
-    "lv": "\\",
+    "lv": "tugi • toetus",
     "level": "B2"
   },
   {
     "de": "rücksichtslos",
-    "lv": "\\",
+    "lv": "hoolimatu • halastamatu",
     "level": "B2"
   },
   {
     "de": "rückständig",
-    "lv": "\\",
+    "lv": "mahajäänud • tasumata",
     "level": "B2"
   },
   {
@@ -10760,7 +20020,7 @@ const B2_WORDS = [
   },
   {
     "de": "rühmen",
-    "lv": "\\",
+    "lv": "kiitma • ülistama",
     "level": "B2"
   },
   {
@@ -10770,14 +20030,14 @@ const B2_WORDS = [
   },
   {
     "de": "runzeln",
-    "lv": "\\",
+    "lv": "kortsutama",
     "level": "B2"
   },
   {
     "de": "Rüstung",
     "de_article": "die",
     "de_plural": "die Rüstungen",
-    "lv": "\\",
+    "lv": "relvastus • relvastumine • rüü",
     "level": "B2"
   },
   {
@@ -10791,24 +20051,24 @@ const B2_WORDS = [
     "de": "Sachkenntnis",
     "de_article": "die",
     "de_plural": "die Sachkenntnisse",
-    "lv": "\\",
+    "lv": "asjatundlikkus • pädevus",
     "level": "B2"
   },
   {
     "de": "sachkundig",
-    "lv": "\\",
+    "lv": "asjatundlik • pädev",
     "level": "B2"
   },
   {
     "de": "Sachlage",
     "de_article": "die",
     "de_plural": "die Sachlagen",
-    "lv": "\\",
+    "lv": "olukord • asjaolud",
     "level": "B2"
   },
   {
     "de": "sächlich",
-    "lv": "gram. kesksugu",
+    "lv": "kesksooline",
     "level": "B2"
   },
   {
@@ -10827,7 +20087,7 @@ const B2_WORDS = [
   },
   {
     "de": "sämtlich",
-    "lv": "\\",
+    "lv": "kõik • kogu",
     "level": "B2"
   },
   {
@@ -10839,7 +20099,7 @@ const B2_WORDS = [
   },
   {
     "de": "sanieren",
-    "lv": "\\",
+    "lv": "renoveerima • tervendama",
     "level": "B2"
   },
   {
@@ -10853,12 +20113,12 @@ const B2_WORDS = [
     "de": "Satellit",
     "de_article": "der",
     "de_plural": "die Satelliten",
-    "lv": "\\",
+    "lv": "satelliit • kaaslane",
     "level": "B2"
   },
   {
     "de": "sättigen",
-    "lv": "\\",
+    "lv": "küllastama • toitma",
     "level": "B2"
   },
   {
@@ -10870,7 +20130,7 @@ const B2_WORDS = [
   },
   {
     "de": "sausen",
-    "lv": "\\",
+    "lv": "vihisema • tuhisema • kihutama",
     "level": "B2"
   },
   {
@@ -10895,14 +20155,14 @@ const B2_WORDS = [
   {
     "de": "Schaffen",
     "de_article": "das",
-    "lv": "\\",
+    "lv": "looming • loometegevus",
     "level": "B2"
   },
   {
     "de": "Schalldämmung",
     "de_article": "die",
     "de_plural": "die Schalldämmungen",
-    "lv": "müra summutamine",
+    "lv": "heliisolatsioon",
     "level": "B2"
   },
   {
@@ -10926,31 +20186,31 @@ const B2_WORDS = [
   },
   {
     "de": "schärfsichtig",
-    "lv": "\\",
+    "lv": "teravsilmne • tähelepanelik",
     "level": "B2"
   },
   {
     "de": "schärfsinnig",
-    "lv": "\\",
+    "lv": "teravmeelne • taiplik",
     "level": "B2"
   },
   {
     "de": "Schattierung",
     "de_article": "die",
     "de_plural": "die Schattierungen",
-    "lv": "\\",
+    "lv": "varjund • nüanss",
     "level": "B2"
   },
   {
     "de": "schaudern",
-    "lv": "\\",
+    "lv": "võdisema • õudust tundma",
     "level": "B2"
   },
   {
     "de": "Schauplatz",
     "de_article": "der",
     "de_plural": "die Schauplätze",
-    "lv": "areen",
+    "lv": "toimumispaik • areen",
     "level": "B2"
   },
   {
@@ -10962,7 +20222,7 @@ const B2_WORDS = [
   },
   {
     "de": "scheiden",
-    "lv": "\\",
+    "lv": "lahutama • eraldama • lahku minema",
     "level": "B2"
   },
   {
@@ -10976,12 +20236,12 @@ const B2_WORDS = [
     "de": "Scheitel",
     "de_article": "der",
     "de_plural": "die Scheitel",
-    "lv": "\\",
+    "lv": "pealagi • lahk • tipp",
     "level": "B2"
   },
   {
     "de": "scheitern",
-    "lv": "\\",
+    "lv": "ebaõnnestuma • läbi kukkuma",
     "level": "B2"
   },
   {
@@ -10991,7 +20251,7 @@ const B2_WORDS = [
   },
   {
     "de": "schelten",
-    "lv": "\\",
+    "lv": "sõimama • riidlema",
     "level": "B2"
   },
   {
@@ -11000,24 +20260,166 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-scheren",
-      "layout": "minimalStudy",
+      "layout": "standardStudy",
       "translation": "hoolima millestki",
-      "rektion": "um + mida?",
-      "explanation": "sich scheren nõuab kindlat eessõna um + mida?.",
-      "forms": "um + mida?",
-      "formsLabel": "Rektsioon:",
+      "explanation": [
+        "Põhimõte: sich scheren um on selles tähenduses kõnekeelne väljend tähendusega hoolima millestki, kuid peaaegu ainult eituses või küsimuses: Er schert sich nicht um die Regeln — ta ei hooli reeglitest.",
+        "Vormid: schert sich, scherte sich, hat sich geschert. um + akusatiiviga nimetatakse see, millest hoolitakse (eesti keeles seestütlev kääne: reeglitest). Retooriline küsimus: Was schert mich das? — mis mul sellest?",
+        "Jäme käskiv vorm Scher dich weg! tähendab „kao minema!“. Ilma enesekohase asesõnata sich tähendab tegusõna scheren pügama, lõikama (Schafe scheren)."
+      ],
+      "examples": [
+        {
+          "de": "Er schert sich nicht um die Regeln.",
+          "lv": "Ta ei hooli reeglitest."
+        },
+        {
+          "de": "Was schert mich das Gerede der anderen?",
+          "lv": "Mis mul on asja teiste lobaga?"
+        },
+        {
+          "de": "Sie schert sich wenig um ihre Gesundheit.",
+          "lv": "Ta hoolib oma tervisest vähe."
+        },
+        {
+          "de": "Scher dich weg!",
+          "lv": "Kao minema!"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich kümmern",
+          "meaning": "hoolitsema",
+          "example": "Ich kümmere mich um die Kinder. – Ma hoolitsen laste eest."
+        },
+        {
+          "word": "interessieren",
+          "meaning": "huvitama",
+          "example": "Das interessiert mich nicht. – See ei huvita mind."
+        },
+        {
+          "word": "scheren",
+          "meaning": "pügama",
+          "example": "Der Bauer schert die Schafe. – Talunik pügab lambaid."
+        }
+      ],
+      "tip": [
+        "Igapäevakeeles kuuleb sich scheren um tavaliselt koos sõnaga nicht: Er schert sich nicht darum.",
+        "Kui tahad neutraalselt öelda „hoolitsema“, vali sich kümmern um + akusatiiv."
+      ],
+      "important": [
+        "sich scheren um kasutatakse tavaliselt eituses; jaatuses kõlab see ebatavaliselt.",
+        "Scher dich weg! on jäme — viisakas vestluses ära seda kasuta."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich scheren"
-          ],
-          "red": [
-            "um + mida?"
+            "scheren",
+            "schert",
+            "scherte",
+            "geschert",
+            "Scher"
           ],
           "purple": [
-            "sich"
+            "hoolima millestki",
+            "hooli"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "schert"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "hooli"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "schert"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Mis mul on asja"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "schert"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "hoolib"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Scher"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Kao minema"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich kümmern"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "hoolitsema"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "interessieren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "huvitama"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "scheren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "pügama"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -11032,7 +20434,7 @@ const B2_WORDS = [
     "de": "Schieber",
     "de_article": "der",
     "de_plural": "die Schieber",
-    "lv": "\\",
+    "lv": "riiv • siiber • spekulant",
     "level": "B2"
   },
   {
@@ -11057,7 +20459,7 @@ const B2_WORDS = [
   },
   {
     "de": "schillern",
-    "lv": "\\",
+    "lv": "sillerdama • helkima",
     "level": "B2"
   },
   {
@@ -11081,14 +20483,14 @@ const B2_WORDS = [
   },
   {
     "de": "schlagfertig",
-    "lv": "\\",
+    "lv": "teravmeelne • kiire vastusega",
     "level": "B2"
   },
   {
     "de": "Schlagwort",
     "de_article": "das",
     "de_plural": "die Schlagwörter",
-    "lv": "\\",
+    "lv": "loosung • märksõna",
     "level": "B2"
   },
   {
@@ -11100,7 +20502,7 @@ const B2_WORDS = [
   },
   {
     "de": "schleunigst",
-    "lv": "\\",
+    "lv": "viivitamatult • võimalikult kiiresti",
     "level": "B2"
   },
   {
@@ -11114,7 +20516,7 @@ const B2_WORDS = [
     "de": "Schmach",
     "de_article": "die",
     "de_plural": null,
-    "lv": "\\",
+    "lv": "häbi • alandus",
     "level": "B2"
   },
   {
@@ -11138,7 +20540,7 @@ const B2_WORDS = [
   },
   {
     "de": "schmerzlich",
-    "lv": "\\",
+    "lv": "valus • kurb",
     "level": "B2"
   },
   {
@@ -11156,7 +20558,7 @@ const B2_WORDS = [
     "de": "Schnappschuss",
     "de_article": "der",
     "de_plural": "die Schnappschüsse",
-    "lv": "hetktõmmis",
+    "lv": "hetkvõte",
     "level": "B2"
   },
   {
@@ -11173,12 +20575,12 @@ const B2_WORDS = [
     "de": "Schöpfung",
     "de_article": "die",
     "de_plural": "die Schöpfungen",
-    "lv": "\\",
+    "lv": "loomine • looming • teos",
     "level": "B2"
   },
   {
     "de": "schreiten",
-    "lv": "\\",
+    "lv": "astuma • sammuma",
     "level": "B2"
   },
   {
@@ -11190,12 +20592,12 @@ const B2_WORDS = [
   },
   {
     "de": "schrill",
-    "lv": "\\",
+    "lv": "kriiskav • läbilõikav",
     "level": "B2"
   },
   {
     "de": "schroff",
-    "lv": "\\",
+    "lv": "järsk • karm • tõre",
     "level": "B2"
   },
   {
@@ -11249,12 +20651,12 @@ const B2_WORDS = [
     "de": "Schwarm",
     "de_article": "der",
     "de_plural": "die Schwärme",
-    "lv": "\\",
+    "lv": "parv • sülem",
     "level": "B2"
   },
   {
     "de": "schwärmen",
-    "lv": "\\",
+    "lv": "vaimustuma • unistama",
     "level": "B2"
   },
   {
@@ -11268,7 +20670,7 @@ const B2_WORDS = [
     "de": "Schwarze",
     "de_article": "der",
     "de_plural": "die Schwarze",
-    "lv": "mustanahaline inimene",
+    "lv": "mustanahaline",
     "level": "B2"
   },
   {
@@ -11306,7 +20708,7 @@ const B2_WORDS = [
   },
   {
     "de": "schwerfällig",
-    "lv": "\\",
+    "lv": "kohmakas • aeglane",
     "level": "B2"
   },
   {
@@ -11318,7 +20720,7 @@ const B2_WORDS = [
   },
   {
     "de": "schwinden",
-    "lv": "\\",
+    "lv": "kahanema • kaduma • hääbuma",
     "level": "B2"
   },
   {
@@ -11331,7 +20733,7 @@ const B2_WORDS = [
     "de": "Seemacht",
     "de_article": "die",
     "de_plural": "die Seemächte",
-    "lv": "mereriik",
+    "lv": "merevõim • mereriik",
     "level": "B2"
   },
   {
@@ -11351,7 +20753,7 @@ const B2_WORDS = [
   {
     "de": "Sehkraft",
     "de_article": "die",
-    "lv": "\\",
+    "lv": "nägemine • nägemisvõime",
     "level": "B2"
   },
   {
@@ -11370,49 +20772,59 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "olemine",
       "explanation": [
-        "Peamine mõte: das Sein suure algustähega ja artikliga das on nimisõna — olemine, eksistents (filosoofiline mõiste).",
-        "sein väikese algustähega on tegusõna — olema.",
-        "das Sein't kasutatakse sageli filosoofilises või abstraktses kontekstis (das menschliche Sein).",
-        "Substantiveerimine: sein → das Sein, samamoodi nagu können → das Können."
+        "Põhimõte: das Sein on kesksoost nimisõna, mis on moodustatud tegusõnast sein (olema). Filosoofias tähendab see olemist, olemasolu — seda, et miski üldse on. Vastand on das Nichts või das Nichtsein (mitteolemine).",
+        "Sõnal on ainult ainsus (das Sein, des Seins), mitmust ei ole. Tuntud fraas: Sein oder Nichtsein (Hamleti „Olla või mitte olla“). Nimisõna Sein kirjutatakse suure tähega."
       ],
       "examples": [
         {
           "de": "Das menschliche Sein ist komplex.",
-          "lv": "inimese olemine on keeruline."
+          "lv": "Inimese olemine on keeruline."
         },
         {
           "de": "Sein oder Nichtsein, das ist die Frage.",
-          "lv": "olla või mitte olla, selles on küsimus."
-        },
-        {
-          "de": "Ich bin müde.",
-          "lv": "ma olen väsinud."
+          "lv": "Olla või mitte olla, selles on küsimus."
         },
         {
           "de": "Das Sein bestimmt das Bewusstsein.",
-          "lv": "olemine määrab teadvuse."
+          "lv": "Olemine määrab teadvuse."
+        },
+        {
+          "de": "Der Philosoph denkt über das Sein nach.",
+          "lv": "Filosoof mõtiskleb olemise üle."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "das Dasein",
+          "meaning": "eksistents, elu",
+          "example": "Sein Dasein war schwer. – Tema elu oli raske."
+        },
+        {
+          "word": "das Wesen",
+          "meaning": "olemus",
+          "example": "Das Wesen der Sache ist einfach. – Asja olemus on lihtne."
+        },
+        {
+          "word": "die Existenz",
+          "meaning": "olemasolu, eksistents",
+          "example": "Er bezweifelt ihre Existenz. – Ta kahtleb nende olemasolus."
         }
       ],
       "tip": [
-        "das Sein suure algustähega — nimisõna (olemine, filosoofilises tähenduses).",
-        "sein väikese algustähega — tegusõna (olema)."
+        "Nimisõna Sein esineb sageli filosoofias: das Sein und das Bewusstsein.",
+        "Teine asi on omastav asesõna sein (tema), mis kirjutatakse väikese tähega."
       ],
       "important": [
-        "das Sein = olemine (nimisõna, abstraktne/filosoofiline).",
-        "sein = olema (tegusõna, igapäevane).",
-        "See sõna on substantiveeritud tegusõna, nagu das Können."
+        "Das Sein ei ole igapäevane sõna; igapäevaselt öeldakse das Leben või die Existenz.",
+        "Ära aja segi nimisõna das Sein tegusõnaga sein (olema) ega asesõnaga sein (tema)."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "das Sein"
+            "Sein"
           ],
           "purple": [
-            "olemine",
-            "eksistents"
-          ],
-          "green": [
-            "sein"
+            "olemist"
           ]
         },
         "examples": [
@@ -11430,25 +20842,13 @@ const B2_WORDS = [
           },
           {
             "de": {
-              "green": [
+              "blue": [
                 "Sein"
               ]
             },
             "lv": {
               "purple": [
-                "olla"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "bin"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "olen"
+                "Olla"
               ]
             }
           },
@@ -11460,39 +20860,68 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "olemine"
+                "Olemine"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Sein"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "olemise"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "das Dasein"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "eksistents"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "das Wesen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "olemus"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Existenz"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "olemasolu"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "blue": [
-              "das Sein"
-            ]
-          },
-          {
-            "green": [
-              "sein"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "blue": [
-              "das Sein"
-            ]
-          },
-          {
-            "green": [
-              "sein"
-            ]
-          },
-          {
-            "blue": [
-              "das Können"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -11519,7 +20948,7 @@ const B2_WORDS = [
   },
   {
     "de": "selbstlos",
-    "lv": "\\",
+    "lv": "omakasupüüdmatu • ennastsalgav",
     "level": "B2"
   },
   {
@@ -11538,7 +20967,7 @@ const B2_WORDS = [
     "de": "Senat",
     "de_article": "der",
     "de_plural": "die Senate",
-    "lv": "\\",
+    "lv": "senat",
     "level": "B2"
   },
   {
@@ -11550,7 +20979,7 @@ const B2_WORDS = [
   },
   {
     "de": "sensibel",
-    "lv": "\\",
+    "lv": "tundlik • peenetundeline",
     "level": "B2"
   },
   {
@@ -11563,24 +20992,24 @@ const B2_WORDS = [
     "de": "Seuche",
     "de_article": "die",
     "de_plural": "die Seuchen",
-    "lv": "\\",
+    "lv": "taud • epideemia",
     "level": "B2"
   },
   {
     "de": "Seuchenherd",
     "de_article": "der",
     "de_plural": "die Seuchenherde",
-    "lv": "epideemia allikas",
+    "lv": "taudikolle • epideemiakolle",
     "level": "B2"
   },
   {
     "de": "sickern",
-    "lv": "\\",
+    "lv": "imbuma • nõrguma",
     "level": "B2"
   },
   {
     "de": "siegreich",
-    "lv": "võiduga kroonitud",
+    "lv": "võidukas",
     "level": "B2"
   },
   {
@@ -11599,7 +21028,7 @@ const B2_WORDS = [
   },
   {
     "de": "simulieren",
-    "lv": "\\",
+    "lv": "simuleerima • jäljendama",
     "level": "B2"
   },
   {
@@ -11623,7 +21052,7 @@ const B2_WORDS = [
   },
   {
     "de": "smart",
-    "lv": "\\",
+    "lv": "nutikas • kaval",
     "level": "B2"
   },
   {
@@ -11633,46 +21062,58 @@ const B2_WORDS = [
     "study": {
       "id": "b2-sofern",
       "layout": "standardStudy",
-      "translation": "\\",
+      "translation": "kui • tingimusel, et",
       "explanation": [
-        "Peamine mõte: sofern on tingimuse sidesõna — tähendab kui/tingimusel, et.",
-        "sofern sissejuhatab tingimuslause, sarnaselt wenn, kuid on formaalsem ja tüüpilisem kirjakeelele.",
-        "sofern EI tähenda 'kuna' (põhjuse sidesõna) — see on saksa keeles da või weil.",
-        "Sageli kasutatakse juriidilistes/formaalsetes tekstides (sofern nicht anders vereinbart = kui ei ole kokku lepitud teisiti)."
+        "Põhimõte: sofern on alistav sidesõna, mis toob sisse tingimuse: kui, tingimusel, et. See väljendab, et miski kehtib või toimub ainult siis, kui tingimus on täidetud.",
+        "Pärast sofern algab kõrvallause, milles tegusõna on lause lõpus: Ich komme, sofern ich Zeit habe. Kõrvallause eraldatakse komaga. Sidesõna on stiililt pisut ametlikum kui wenn ja esineb sageli lepingutes ja eeskirjades.",
+        "Võib kasutada ka lühendatult: sofern möglich — kui võimalik."
       ],
       "examples": [
         {
           "de": "Ich komme, sofern ich Zeit habe.",
-          "lv": "ma tulen, kui mul on aega."
+          "lv": "Ma tulen, kui mul on aega."
         },
         {
           "de": "Sofern nichts anderes vereinbart ist, gilt der Standardpreis.",
-          "lv": "kui ei ole kokku lepitud teisiti, kehtib standardhind."
+          "lv": "Kui ei ole kokku lepitud teisiti, kehtib standardhind."
         },
         {
-          "de": "Sofern das Wetter gut ist, machen wir einen Ausflug.",
-          "lv": "tingimusel, et ilm on hea, teeme väljasõidu."
-        },
-        {
-          "de": "Sofern möglich, bitte pünktlich sein.",
-          "lv": "kui võimalik, palun olge täpsed."
+          "de": "Wir fahren morgen, sofern das Wetter gut ist.",
+          "lv": "Sõidame homme, kui ilm on ilus."
         },
         {
           "de": "Er hilft, sofern er kann.",
-          "lv": "ta aitab, kui saab."
+          "lv": "Ta aitab, kui vähegi saab."
         },
         {
-          "de": "Da es regnet, bleiben wir zu Hause.",
-          "lv": "kuna sajab, jääme koju."
+          "de": "Sofern es möglich ist, rufe ich dich an.",
+          "lv": "Kui see on võimalik, helistan sulle."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "wenn",
+          "meaning": "kui",
+          "example": "Wenn es regnet, bleibe ich zu Hause. – Kui sajab, jään koju."
+        },
+        {
+          "word": "falls",
+          "meaning": "juhul kui",
+          "example": "Falls du kommst, ruf an. – Kui sa tuled, helista."
+        },
+        {
+          "word": "soweit",
+          "meaning": "niipalju kui",
+          "example": "Soweit ich weiß, ist er krank. – Niipalju kui ma tean, on ta haige."
         }
       ],
       "tip": [
-        "sofern = kui/tingimusel, et (tingimus) — ära aja segi põhjusega.",
-        "'kuna' (põhjus) on saksa keeles da/weil, mitte sofern."
+        "sofern kasutatakse siis, kui tahad tingimust rõhutada: Sofern keine Einwände bestehen, …",
+        "Pea meeles sõnajärge: sofern + alus + … + tegusõna lõpus."
       ],
       "important": [
-        "sofern on tingimuse, mitte põhjuse sidesõna.",
-        "Vale: sofern = kuna → Õige: da/weil = kuna."
+        "Pärast sofern on tegusõna kõrvallause lõpus, mitte teisel kohal.",
+        "sofern ei ole sama mis soweit (niipalju kui): soweit näitab määra, sofern — tingimust."
       ],
       "sectionAccents": {
         "explanation": {
@@ -11680,12 +21121,7 @@ const B2_WORDS = [
             "sofern"
           ],
           "purple": [
-            "kui",
-            "tingimusel, et"
-          ],
-          "red": [
-            "da",
-            "weil"
+            "kui, tingimusel, et"
           ]
         },
         "examples": [
@@ -11709,31 +21145,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "kui"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "Sofern"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "tingimusel, et"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "Sofern"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "kui"
+                "Kui"
               ]
             }
           },
@@ -11751,46 +21163,74 @@ const B2_WORDS = [
           },
           {
             "de": {
-              "red": [
-                "Da"
+              "blue": [
+                "sofern"
               ]
             },
             "lv": {
-              "red": [
-                "kuna"
+              "purple": [
+                "kui vähegi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Sofern"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Kui"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "wenn"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "kui"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "falls"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "juhul kui"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "soweit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "niipalju kui"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "blue": [
-              "kui",
-              "tingimusel, et"
-            ]
-          },
-          {
-            "red": [
-              "da",
-              "weil"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "blue": [
-              "sofern"
-            ]
-          },
-          {
-            "red": [
-              "da",
-              "weil"
-            ],
-            "purple": [
-              "kuna"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -11818,7 +21258,7 @@ const B2_WORDS = [
     "de": "Sonderausgabe",
     "de_article": "die",
     "de_plural": "die Sonderausgaben",
-    "lv": "\\",
+    "lv": "eriväljaanne • erinumber",
     "level": "B2"
   },
   {
@@ -11877,12 +21317,12 @@ const B2_WORDS = [
     "de": "Spaltung",
     "de_article": "die",
     "de_plural": "die Spaltungen",
-    "lv": "\\",
+    "lv": "lõhenemine • lõhestamine • lõhustumine",
     "level": "B2"
   },
   {
     "de": "spärlich",
-    "lv": "\\",
+    "lv": "napp • kasin • hõre",
     "level": "B2"
   },
   {
@@ -11901,7 +21341,7 @@ const B2_WORDS = [
     "de": "Sphäre",
     "de_article": "die",
     "de_plural": "die Sphären",
-    "lv": "\\",
+    "lv": "sfäär • valdkond",
     "level": "B2"
   },
   {
@@ -11926,35 +21366,198 @@ const B2_WORDS = [
   {
     "de": "Spott",
     "de_article": "der",
-    "lv": "\\",
+    "lv": "pilge • mõnitus",
     "level": "B2"
   },
   {
     "de": "spötteln",
-    "lv": "irooniliselt sõna võtma",
+    "lv": "irvitama • pilkama",
     "level": "B2"
   },
   {
     "de": "spotten",
-    "lv": "\\",
+    "lv": "pilkama • mõnitama",
     "level": "B2"
   },
   {
     "de": "spöttisch",
-    "lv": "\\",
+    "lv": "pilkav • irooniline",
     "level": "B2"
   },
   {
     "de": "Sprechanlage",
     "de_article": "die",
     "de_plural": "die Sprechanlagen",
-    "lv": "kodune uksetelefon",
+    "lv": "uksetelefon • sisetelefon",
     "level": "B2"
   },
   {
     "de": "sprengen",
-    "lv": "\\",
-    "level": "B2"
+    "lv": "õhkima • kastma • pritsima",
+    "level": "B2",
+    "study": {
+      "id": "b2-sprengen",
+      "layout": "standardStudy",
+      "translation": "õhkima • kastma • pritsima",
+      "explanation": [
+        "Põhimõte: sprengen on mitme tähendusega sihiline tegusõna. Esimene — õhkima, õhku laskma (eine Brücke sprengen), jõuga lõhkuma või lõhestama (der Frost sprengt Felsen). Teine — veega piserdama, pritsima (Wäsche sprengen) ja kastma (den Rasen sprengen).",
+        "Vormid: sprengt, sprengte, hat gesprengt. Tüvi on sama, kuid tähendused erinevad; kontekst näitab, millest jutt käib. Ülekantud tähenduses die Grenzen sprengen — piire ületama."
+      ],
+      "examples": [
+        {
+          "de": "Die Armee sprengte die Brücke.",
+          "lv": "Armee õhkis silla."
+        },
+        {
+          "de": "Er sprengt jeden Abend den Rasen.",
+          "lv": "Ta kastab igal õhtul muru."
+        },
+        {
+          "de": "Vor dem Bügeln sprengt sie die Wäsche mit Wasser.",
+          "lv": "Enne triikimist piserdab ta pesu veega."
+        },
+        {
+          "de": "Der Frost sprengt die Felsen.",
+          "lv": "Külm lõhub kaljusid."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "gießen",
+          "meaning": "kastma",
+          "example": "Ich gieße die Blumen. – Ma kastan lilli."
+        },
+        {
+          "word": "explodieren",
+          "meaning": "plahvatama",
+          "example": "Die Bombe explodiert. – Pomm plahvatab."
+        },
+        {
+          "word": "sprühen",
+          "meaning": "pihustama",
+          "example": "Er sprüht Wasser auf die Pflanzen. – Ta pihustab taimedele vett."
+        }
+      ],
+      "tip": [
+        "Aiakontekstis tähendab den Rasen sprengen muru voolikuga või vihmutiga kastma.",
+        "Sõnadega Bombe, Brücke, Tür sprengen mõistetakse õhkimist või sissemurdmist."
+      ],
+      "important": [
+        "Sage ühend: etwas in die Luft sprengen — midagi õhku laskma.",
+        "Tähenduse määrab sihitis: Brücke — õhitakse, Rasen — kastetakse, Wäsche — piserdatakse."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "sprengen",
+            "sprengt",
+            "sprengte",
+            "gesprengt"
+          ],
+          "purple": [
+            "õhkima",
+            "pritsima",
+            "kastma"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "sprengte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "õhkis"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sprengt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kastab"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sprengt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "piserdab"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sprengt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "lõhub"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "gießen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "kastma"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "explodieren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "plahvatama"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sprühen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "pihustama"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "Sprengstoff",
@@ -11967,33 +21570,33 @@ const B2_WORDS = [
     "de": "Spross",
     "de_article": "der",
     "de_plural": "die Sprosse",
-    "lv": "\\",
+    "lv": "võrse • järeltulija",
     "level": "B2"
   },
   {
     "de": "Spruch",
     "de_article": "der",
     "de_plural": "die Sprüche",
-    "lv": "\\",
+    "lv": "ütlus • aforism • kohtuotsus",
     "level": "B2"
   },
   {
     "de": "Spruchband",
     "de_article": "das",
     "de_plural": "die Spruchbande",
-    "lv": "\\",
+    "lv": "loosung • transparent",
     "level": "B2"
   },
   {
     "de": "Spuk",
     "de_article": "der",
     "de_plural": "die Spuke",
-    "lv": "\\",
+    "lv": "kummitus • tont",
     "level": "B2"
   },
   {
     "de": "spurlos",
-    "lv": "\\",
+    "lv": "jäljetult",
     "level": "B2"
   },
   {
@@ -12052,22 +21655,22 @@ const B2_WORDS = [
   },
   {
     "de": "starr",
-    "lv": "\\",
+    "lv": "jäik • liikumatu • kange",
     "level": "B2"
   },
   {
     "de": "starren",
-    "lv": "\\",
+    "lv": "jõllitama • põrnitsema",
     "level": "B2"
   },
   {
     "de": "starrköpfig",
-    "lv": "\\",
+    "lv": "kangekaelne • jonnakas",
     "level": "B2"
   },
   {
     "de": "starrsinnig",
-    "lv": "\\",
+    "lv": "kangekaelne • jonnakas",
     "level": "B2"
   },
   {
@@ -12088,7 +21691,7 @@ const B2_WORDS = [
     "de": "Steckbrief",
     "de_article": "der",
     "de_plural": "die Steckbriefe",
-    "lv": "tagaotsitava kirjeldus politseis",
+    "lv": "tagaotsimiskuulutus",
     "level": "B2"
   },
   {
@@ -12099,7 +21702,7 @@ const B2_WORDS = [
   {
     "de": "Steuergelder",
     "de_article": "die",
-    "lv": "kogu riigi maksutulu",
+    "lv": "maksuraha • maksutulud",
     "level": "B2"
   },
   {
@@ -12119,19 +21722,19 @@ const B2_WORDS = [
   {
     "de": "Stoßverkehr",
     "de_article": "der",
-    "lv": "\\",
+    "lv": "tipptunni liiklus • tipptund",
     "level": "B2"
   },
   {
     "de": "Strafanzeige",
     "de_article": "die",
     "de_plural": "die Strafanzeigen",
-    "lv": "\\",
+    "lv": "kuriteoteade",
     "level": "B2"
   },
   {
     "de": "stranden",
-    "lv": "\\",
+    "lv": "madalikule jooksma • karile jooksma",
     "level": "B2"
   },
   {
@@ -12141,7 +21744,7 @@ const B2_WORDS = [
   },
   {
     "de": "streitbar",
-    "lv": "\\",
+    "lv": "sõjakas • riiakas • võitlusvalmis",
     "level": "B2"
   },
   {
@@ -12198,7 +21801,7 @@ const B2_WORDS = [
   },
   {
     "de": "stur",
-    "lv": "\\",
+    "lv": "kangekaelne • jonnakas",
     "level": "B2"
   },
   {
@@ -12212,14 +21815,14 @@ const B2_WORDS = [
     "de": "Suchaktion",
     "de_article": "die",
     "de_plural": "die Suchaktionen",
-    "lv": "politsei korraldatud otsing",
+    "lv": "otsinguoperatsioon • otsing",
     "level": "B2"
   },
   {
     "de": "Täfelung",
     "de_article": "die",
     "de_plural": "die Täfelungen",
-    "lv": "\\",
+    "lv": "puitvooder • seinapaneel",
     "level": "B2"
   },
   {
@@ -12259,13 +21862,13 @@ const B2_WORDS = [
     "de": "Tapferkeit",
     "de_article": "die",
     "de_plural": "die Tapferkeiten",
-    "lv": "\\",
+    "lv": "vaprus • julgus",
     "level": "B2"
   },
   {
     "de": "Tatkraft",
     "de_article": "die",
-    "lv": "\\",
+    "lv": "tarmukus • energia",
     "level": "B2"
   },
   {
@@ -12312,28 +21915,28 @@ const B2_WORDS = [
   },
   {
     "de": "tönen",
-    "lv": "\\",
+    "lv": "kõlama • toonima",
     "level": "B2"
   },
   {
     "de": "Töpferscheibe",
     "de_article": "die",
     "de_plural": "die Töpferscheiben",
-    "lv": "potikeder",
+    "lv": "pottsepaketas",
     "level": "B2"
   },
   {
     "de": "Tor",
     "de_article": "der",
     "de_plural": "die Toren",
-    "lv": "\\",
+    "lv": "narr • rumal",
     "level": "B2"
   },
   {
     "de": "Totalschaden",
     "de_article": "der",
     "de_plural": "die Totalschäden",
-    "lv": "\\",
+    "lv": "totaalkahju",
     "level": "B2"
   },
   {
@@ -12397,7 +22000,7 @@ const B2_WORDS = [
   },
   {
     "de": "treffend",
-    "lv": "\\",
+    "lv": "tabav • täpne",
     "level": "B2"
   },
   {
@@ -12409,12 +22012,12 @@ const B2_WORDS = [
   },
   {
     "de": "treuherzig",
-    "lv": "siiras ja lihtsameelne",
+    "lv": "truusüdamlik • lihtsameelne",
     "level": "B2"
   },
   {
     "de": "treulos",
-    "lv": "\\",
+    "lv": "truudusetu • ebausaldusväärne",
     "level": "B2"
   },
   {
@@ -12477,8 +22080,168 @@ const B2_WORDS = [
   },
   {
     "de": "überbringen",
-    "lv": "\\",
-    "level": "B2"
+    "lv": "üle andma • edastama",
+    "level": "B2",
+    "study": {
+      "id": "b2--berbringen",
+      "layout": "standardStudy",
+      "translation": "üle andma • edastama",
+      "explanation": [
+        "Põhimõte: überbringen tähendab usaldatud sõnumit, õnnitlust, kirja või kingitust adressaadini viima — tooma ja isiklikult üle andma, edastama. See, kellele üle antakse, on datiivis: jemandem etwas überbringen.",
+        "Lahutamatu eesliide über-: überbringt, überbrachte, hat überbracht. Tegevusnime puhul on zu tegusõna ees: um die Nachricht zu überbringen. Sõna on veidi ametlik."
+      ],
+      "examples": [
+        {
+          "de": "Er überbrachte uns die traurige Nachricht.",
+          "lv": "Ta edastas meile kurva sõnumi."
+        },
+        {
+          "de": "Der Botschafter überbringt die Glückwünsche des Präsidenten.",
+          "lv": "Suursaadik edastab presidendi õnnitlused."
+        },
+        {
+          "de": "Der Bote hat den Brief persönlich überbracht.",
+          "lv": "Kuller on kirja isiklikult üle andnud."
+        },
+        {
+          "de": "Sie überbrachte dem Jubilar ein Geschenk.",
+          "lv": "Ta andis juubilarile üle kingituse."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "bringen",
+          "meaning": "tooma",
+          "example": "Bring mir bitte ein Glas Wasser. – Too mulle palun klaas vett."
+        },
+        {
+          "word": "übermitteln",
+          "meaning": "edastama",
+          "example": "Ich übermittle Ihnen die Daten. – Ma edastan teile andmed."
+        },
+        {
+          "word": "ausrichten",
+          "meaning": "edasi andma (tervitusi)",
+          "example": "Richte ihm Grüße aus. – Anna talle minu tervitused edasi."
+        }
+      ],
+      "tip": [
+        "Tüüpilised sihitised: eine Nachricht, Grüße, Glückwünsche, ein Geschenk überbringen.",
+        "Vestluses öeldakse lihtsamalt ausrichten (tervituste kohta) või bringen."
+      ],
+      "important": [
+        "Eesliide über- ei ole siin eraldatav: Er überbringt die Nachricht, mitte er bringt die Nachricht über.",
+        "See, kellele üle antakse, on datiivis: dem Chef, den Eltern."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "überbringen",
+            "überbringt"
+          ],
+          "purple": [
+            "üle andma",
+            "edastama"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "überbrachte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "edastas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "überbringt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "edastab"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "überbracht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "üle andnud"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "überbrachte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "andis juubilarile üle"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "bringen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "tooma"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "übermitteln"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "edastama"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "ausrichten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "edasi andma"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "Übereinkommen",
@@ -12488,7 +22251,7 @@ const B2_WORDS = [
   },
   {
     "de": "überfahren",
-    "lv": "\\",
+    "lv": "alla ajama • üle sõitma",
     "level": "B2"
   },
   {
@@ -12510,22 +22273,22 @@ const B2_WORDS = [
   },
   {
     "de": "überführen",
-    "lv": "\\",
+    "lv": "üle viima • süüd tõendama",
     "level": "B2"
   },
   {
     "de": "übergehen",
-    "lv": "\\",
+    "lv": "tähelepanuta jätma • ignoreerima • vahele jätma",
     "level": "B2"
   },
   {
     "de": "überhören",
-    "lv": "\\",
+    "lv": "kuulmata jätma • mitte kuulda võtma",
     "level": "B2"
   },
   {
     "de": "überlassen",
-    "lv": "\\",
+    "lv": "hooleks jätma • loovutama • üle andma",
     "level": "B2"
   },
   {
@@ -12539,12 +22302,12 @@ const B2_WORDS = [
     "de": "Überlegung",
     "de_article": "die",
     "de_plural": "die Überlegungen",
-    "lv": "\\",
+    "lv": "kaalutlus • järelemõtlemine",
     "level": "B2"
   },
   {
     "de": "übermitteln",
-    "lv": "\\",
+    "lv": "edastama • üle andma",
     "level": "B2"
   },
   {
@@ -12561,7 +22324,7 @@ const B2_WORDS = [
   },
   {
     "de": "überschreiten",
-    "lv": "\\",
+    "lv": "ületama • rikkuma",
     "level": "B2"
   },
   {
@@ -12571,27 +22334,27 @@ const B2_WORDS = [
   },
   {
     "de": "übersiedeln",
-    "lv": "\\",
+    "lv": "ümber asuma • kolima",
     "level": "B2"
   },
   {
     "de": "überstehen",
-    "lv": "\\",
+    "lv": "üle elama • vastu pidama",
     "level": "B2"
   },
   {
     "de": "übertragen",
-    "lv": "\\",
+    "lv": "üle kandma • edastama • tõlkima",
     "level": "B2"
   },
   {
     "de": "übertreten",
-    "lv": "\\",
+    "lv": "rikkuma • üle astuma",
     "level": "B2"
   },
   {
     "de": "überwältigen",
-    "lv": "\\",
+    "lv": "alistama • võitu saama • vapustama",
     "level": "B2"
   },
   {
@@ -12607,14 +22370,14 @@ const B2_WORDS = [
   },
   {
     "de": "umarbeiten",
-    "lv": "\\",
+    "lv": "ümber töötama • ümber tegema",
     "level": "B2"
   },
   {
     "de": "Umbruch",
     "de_article": "der",
     "de_plural": "die Umbrüche",
-    "lv": "suured muutused poliitikas",
+    "lv": "murrang • pööre",
     "level": "B2"
   },
   {
@@ -12624,14 +22387,14 @@ const B2_WORDS = [
   },
   {
     "de": "umfassen",
-    "lv": "\\",
+    "lv": "ümbritsema • hõlmama • embama",
     "level": "B2"
   },
   {
     "de": "Umfeld",
     "de_article": "das",
     "de_plural": "die Umfelder",
-    "lv": "\\",
+    "lv": "keskkond • ümbrus",
     "level": "B2"
   },
   {
@@ -12641,7 +22404,7 @@ const B2_WORDS = [
   },
   {
     "de": "umhören, sich",
-    "lv": "\\",
+    "lv": "ringi küsima • järele pärima",
     "level": "B2"
   },
   {
@@ -12653,14 +22416,14 @@ const B2_WORDS = [
   },
   {
     "de": "umkreisen",
-    "lv": "\\",
+    "lv": "ümber tiirlema • ümbritsema",
     "level": "B2"
   },
   {
     "de": "Umlauf",
     "de_article": "der",
     "de_plural": "die Umläufe",
-    "lv": "\\",
+    "lv": "ringlus • tiirlemine",
     "level": "B2"
   },
   {
@@ -12679,12 +22442,12 @@ const B2_WORDS = [
   },
   {
     "de": "umschließen",
-    "lv": "\\",
+    "lv": "ümbritsema • hõlmama",
     "level": "B2"
   },
   {
     "de": "umschreiben",
-    "lv": "\\",
+    "lv": "ümber sõnastama • kirjeldama • ümber kirjutama",
     "level": "B2"
   },
   {
@@ -12696,13 +22459,13 @@ const B2_WORDS = [
     "de": "Umschwung",
     "de_article": "der",
     "de_plural": "die Umschwünge",
-    "lv": "\\",
+    "lv": "pööre • murrang • järsk muutus",
     "level": "B2"
   },
   {
     "de": "Umsicht",
     "de_article": "die",
-    "lv": "\\",
+    "lv": "ettenägelikkus • ettevaatlikkus",
     "level": "B2"
   },
   {
@@ -12712,7 +22475,7 @@ const B2_WORDS = [
   },
   {
     "de": "umständlich",
-    "lv": "\\",
+    "lv": "tülikas • keerukas • laialivalguv",
     "level": "B2"
   },
   {
@@ -12724,7 +22487,7 @@ const B2_WORDS = [
   },
   {
     "de": "umwandeln",
-    "lv": "\\",
+    "lv": "muutma • muundama • ümber kujundama",
     "level": "B2"
   },
   {
@@ -12734,42 +22497,42 @@ const B2_WORDS = [
   },
   {
     "de": "unangebracht",
-    "lv": "valel kohal",
+    "lv": "kohatu • sobimatu",
     "level": "B2"
   },
   {
     "de": "unanständig",
-    "lv": "\\",
+    "lv": "sündsusetu • ebaviisakas",
     "level": "B2"
   },
   {
     "de": "unaufhörlich",
-    "lv": "\\",
+    "lv": "lakkamatu • pidev",
     "level": "B2"
   },
   {
     "de": "unbarmherzig",
-    "lv": "\\",
+    "lv": "halastamatu • südametu",
     "level": "B2"
   },
   {
     "de": "unbebaut",
-    "lv": "\\",
+    "lv": "hoonestamata • harimata",
     "level": "B2"
   },
   {
     "de": "unbedacht",
-    "lv": "\\",
+    "lv": "läbimõtlematu • ennatlik",
     "level": "B2"
   },
   {
     "de": "unbegreiflich",
-    "lv": "\\",
+    "lv": "arusaamatu • mõistetamatu",
     "level": "B2"
   },
   {
     "de": "unbegründet",
-    "lv": "\\",
+    "lv": "põhjendamatu • alusetu",
     "level": "B2"
   },
   {
@@ -12799,12 +22562,12 @@ const B2_WORDS = [
   },
   {
     "de": "unbestechlich",
-    "lv": "altkäemaksuga mittemõjutatav",
+    "lv": "äraostmatu",
     "level": "B2"
   },
   {
     "de": "unbewusst",
-    "lv": "\\",
+    "lv": "alateadlik • teadvustamata • tahtmatu",
     "level": "B2"
   },
   {
@@ -12814,7 +22577,7 @@ const B2_WORDS = [
   },
   {
     "de": "unentbehrlich",
-    "lv": "vajalik",
+    "lv": "asendamatu • hädavajalik",
     "level": "B2"
   },
   {
@@ -12824,7 +22587,7 @@ const B2_WORDS = [
   },
   {
     "de": "unerhört",
-    "lv": "kuulmatu",
+    "lv": "ennekuulmatu",
     "level": "B2"
   },
   {
@@ -12836,24 +22599,24 @@ const B2_WORDS = [
     "de": "Unfug",
     "de_article": "der",
     "de_plural": "die Unfuge",
-    "lv": "\\",
+    "lv": "pahandus • lollus • jama",
     "level": "B2"
   },
   {
     "de": "ungeachtet",
-    "lv": "\\",
+    "lv": "hoolimata • vaatamata",
     "level": "B2"
   },
   {
     "de": "ungerade",
-    "lv": "\\",
+    "lv": "paaritu • kõver",
     "level": "B2"
   },
   {
     "de": "Union",
     "de_article": "die",
     "de_plural": "die Unionen",
-    "lv": "\\",
+    "lv": "liit • unioon",
     "level": "B2"
   },
   {
@@ -12869,49 +22632,49 @@ const B2_WORDS = [
   },
   {
     "de": "unnütz",
-    "lv": "\\",
+    "lv": "kasutu • tarbetu • asjatu",
     "level": "B2"
   },
   {
     "de": "Unstimmigkeit",
     "de_article": "die",
     "de_plural": "die Unstimmigkeiten",
-    "lv": "erimeelsused",
+    "lv": "erimeelsus • lahknevus • vastuolu",
     "level": "B2"
   },
   {
     "de": "unterbreiten",
-    "lv": "\\",
+    "lv": "esitama • ette panema",
     "level": "B2"
   },
   {
     "de": "unterdrücken",
-    "lv": "\\",
+    "lv": "alla suruma • rõhuma",
     "level": "B2"
   },
   {
     "de": "untereinander",
-    "lv": "\\",
+    "lv": "omavahel • vastastikku",
     "level": "B2"
   },
   {
     "de": "Untergang",
     "de_article": "der",
     "de_plural": "die Untergänge",
-    "lv": "\\",
+    "lv": "hukk • loojang • allakäik",
     "level": "B2"
   },
   {
     "de": "Untergrund",
     "de_article": "der",
     "de_plural": "die Untergründe",
-    "lv": "põrandaalune",
+    "lv": "põrandaalusus • aluspinnas",
     "level": "B2"
   },
   {
     "de": "Unterhalt",
     "de_article": "der",
-    "lv": "\\",
+    "lv": "elatis • ülalpidamine",
     "level": "B2"
   },
   {
@@ -12921,19 +22684,197 @@ const B2_WORDS = [
   },
   {
     "de": "unterjochen",
-    "lv": "ikke alla panema",
+    "lv": "ikestama • orjastama",
     "level": "B2"
   },
   {
     "de": "Unterlage",
     "de_article": "die",
     "de_plural": "die Unterlagen",
-    "lv": "\\",
-    "level": "B2"
+    "lv": "alus • aluspind • dokumendid",
+    "level": "B2",
+    "study": {
+      "id": "b2-unterlage",
+      "layout": "standardStudy",
+      "translation": "alus • aluspind • dokumendid",
+      "explanation": [
+        "Põhimõte: die Unterlage on naissoost nimisõna. Ainsuses on see miski, mis asub millegi all — alus, aluspind, alusmatt, tugi (eine Unterlage zum Schreiben). Mitmuses tähendab die Unterlagen dokumente, materjale, dokumentatsiooni.",
+        "Mitmus on die Unterlagen ja just seda kasutatakse väga sageli: die Unterlagen einreichen (dokumente esitama), Unterlagen anfordern (dokumente nõudma). Ainsuse ja mitmuse tähendus on üsna erinev, seepärast jälgi konteksti."
+      ],
+      "examples": [
+        {
+          "de": "Als Unterlage verwenden wir ein Brett.",
+          "lv": "Alusena kasutame lauajuppi."
+        },
+        {
+          "de": "Die Matte dient als Unterlage für die Übungen.",
+          "lv": "Matt on harjutuste tegemisel aluseks."
+        },
+        {
+          "de": "Bitte reichen Sie die Unterlagen bis Freitag ein.",
+          "lv": "Palun esitage dokumendid reedeks."
+        },
+        {
+          "de": "Er hat alle Unterlagen für den Antrag gesammelt.",
+          "lv": "Ta kogus taotluse jaoks kõik dokumendid kokku."
+        },
+        {
+          "de": "Eine feste Unterlage stützt das Werkstück.",
+          "lv": "Kindel alus toetab toorikut."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "das Dokument",
+          "meaning": "dokument",
+          "example": "Das Dokument ist wichtig. – Dokument on tähtis."
+        },
+        {
+          "word": "die Grundlage",
+          "meaning": "alus, põhi",
+          "example": "Das ist die Grundlage des Vertrags. – See on lepingu alus."
+        },
+        {
+          "word": "der Untersetzer",
+          "meaning": "klaasialus",
+          "example": "Stell das Glas auf den Untersetzer. – Pane klaas klaasialusele."
+        }
+      ],
+      "tip": [
+        "Paberite ja kontori kontekstis kasutatakse peaaegu alati mitmust: Unterlagen.",
+        "Eseme alla pandavat nimetatakse Unterlage; klaasi alla pandavat — Untersetzer."
+      ],
+      "important": [
+        "Unterlagen ei ole üks dokument, vaid dokumentide kogum; ühte dokumenti nimetatakse das Dokument.",
+        "Ära aja segi sõnaga Grundlage (alus, baas): see on laiem, abstraktsem sõna."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "die Unterlage",
+            "Unterlage",
+            "Unterlagen"
+          ],
+          "purple": [
+            "alus",
+            "aluspind",
+            "dokumente"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Unterlage"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Alusena"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Unterlage"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "aluseks"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Unterlagen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "dokumendid"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Unterlagen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "dokumendid"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Unterlage"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "alus"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "das Dokument"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "dokument"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Grundlage"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "alus, põhi"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Untersetzer"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "klaasialus"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "unterlassen",
-    "lv": "millegi tegemata jätma",
+    "lv": "midagi tegemata jätma",
     "level": "B2"
   },
   {
@@ -12962,12 +22903,12 @@ const B2_WORDS = [
   },
   {
     "de": "untertauchen",
-    "lv": "\\",
+    "lv": "sukelduma • kastma • peitu minema",
     "level": "B2"
   },
   {
     "de": "unterweisen",
-    "lv": "\\",
+    "lv": "juhendama • õpetama",
     "level": "B2"
   },
   {
@@ -12982,12 +22923,12 @@ const B2_WORDS = [
   },
   {
     "de": "untragbar",
-    "lv": "\\",
+    "lv": "vastuvõetamatu • talumatu",
     "level": "B2"
   },
   {
     "de": "unüberlegt",
-    "lv": "\\",
+    "lv": "läbimõtlematu • kergemeelne",
     "level": "B2"
   },
   {
@@ -13002,12 +22943,12 @@ const B2_WORDS = [
   },
   {
     "de": "unwiderlegbar",
-    "lv": "\\",
+    "lv": "ümberlükkamatu • vaieldamatu",
     "level": "B2"
   },
   {
     "de": "unwillkürlich",
-    "lv": "\\",
+    "lv": "tahtmatu • teadvustamata",
     "level": "B2"
   },
   {
@@ -13022,14 +22963,14 @@ const B2_WORDS = [
   },
   {
     "de": "üppig",
-    "lv": "\\",
+    "lv": "lopsakas • rikkalik • priske",
     "level": "B2"
   },
   {
     "de": "Urheber",
     "de_article": "der",
     "de_plural": "die Urheber",
-    "lv": "\\",
+    "lv": "autor • algataja • looja",
     "level": "B2"
   },
   {
@@ -13043,14 +22984,14 @@ const B2_WORDS = [
     "de": "Urkunde",
     "de_article": "die",
     "de_plural": "die Urkunden",
-    "lv": "\\",
+    "lv": "dokument • ürik • tunnistus",
     "level": "B2"
   },
   {
     "de": "Ursprung",
     "de_article": "der",
     "de_plural": "die Ursprünge",
-    "lv": "\\",
+    "lv": "päritolu • algus • lähe",
     "level": "B2"
   },
   {
@@ -13060,7 +23001,7 @@ const B2_WORDS = [
   },
   {
     "de": "vage",
-    "lv": "\\",
+    "lv": "ebamäärane • ähmane",
     "level": "B2"
   },
   {
@@ -13070,7 +23011,7 @@ const B2_WORDS = [
   },
   {
     "de": "verachten",
-    "lv": "\\",
+    "lv": "põlgama • halvustama",
     "level": "B2"
   },
   {
@@ -13082,12 +23023,12 @@ const B2_WORDS = [
     "de": "Veranlagung",
     "de_article": "die",
     "de_plural": "die Veranlagungen",
-    "lv": "\\",
+    "lv": "anne • eeldus • kalduvus",
     "level": "B2"
   },
   {
     "de": "veranlassen",
-    "lv": "\\",
+    "lv": "põhjustama • ajendama • korraldama",
     "level": "B2"
   },
   {
@@ -13097,7 +23038,7 @@ const B2_WORDS = [
   },
   {
     "de": "verborgen",
-    "lv": "\\",
+    "lv": "varjatud • salajane",
     "level": "B2"
   },
   {
@@ -13116,17 +23057,17 @@ const B2_WORDS = [
     "de": "Verdruss",
     "de_article": "der",
     "de_plural": "die Verdrusse",
-    "lv": "\\",
+    "lv": "meelehärm • pahameel",
     "level": "B2"
   },
   {
     "de": "verdünnen",
-    "lv": "\\",
+    "lv": "lahjendama • peenendama",
     "level": "B2"
   },
   {
     "de": "verehren",
-    "lv": "\\",
+    "lv": "austama • jumaldama • kinkima",
     "level": "B2"
   },
   {
@@ -13136,28 +23077,167 @@ const B2_WORDS = [
   },
   {
     "de": "sich vereinigen",
-    "lv": "ühinema millegaga",
+    "lv": "ühinema",
     "level": "B2",
     "study": {
       "id": "b2-sich-vereinigen",
-      "layout": "minimalStudy",
-      "translation": "ühinema millegagi",
-      "rektion": "mit + kellele?",
-      "explanation": "sich vereinigen nõuab kindlat eessõna mit + kellele?.",
-      "forms": "mit + kellele?",
-      "formsLabel": "Rektsioon:",
+      "layout": "standardStudy",
+      "translation": "ühinema",
+      "explanation": [
+        "Põhimõte: sich vereinigen tähendab ühinema, kokku liituma — riikide, parteide, ettevõtete, jõudude kohta. mit + datiiviga nimetatakse partner: sich mit einer Gruppe vereinigen. Tulemust märgitakse zu + datiiviga: sich zu einer Union vereinigen (eesti keeles saav kääne: liiduks ühinema).",
+        "Vormid: vereinigt sich, vereinigte sich, hat sich vereinigt. Ilma sich-ita on vereinigen sihiline: Länder vereinigen — riike ühendama. Näide nimes: die Vereinigten Staaten (Ameerika Ühendriigid)."
+      ],
+      "examples": [
+        {
+          "de": "Die beiden Firmen vereinigten sich zu einem Konzern.",
+          "lv": "Mõlemad ettevõtted ühinesid üheks kontserniks."
+        },
+        {
+          "de": "Die Partei vereinigte sich mit einer kleineren Gruppe.",
+          "lv": "Partei ühines väiksema rühmaga."
+        },
+        {
+          "de": "Die Länder haben sich zu einer Union vereinigt.",
+          "lv": "Riigid on ühinenud liiduks."
+        },
+        {
+          "de": "Alle Kräfte vereinigten sich gegen den Gegner.",
+          "lv": "Kõik jõud ühinesid vastase vastu."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "vereinen",
+          "meaning": "ühendama",
+          "example": "Das Fest vereint alle Generationen. – Pidu ühendab kõiki põlvkondi."
+        },
+        {
+          "word": "sich zusammenschließen",
+          "meaning": "kokku liituma",
+          "example": "Die Firmen schließen sich zusammen. – Ettevõtted liituvad omavahel."
+        },
+        {
+          "word": "fusionieren",
+          "meaning": "fusioneeruma, ühinema",
+          "example": "Zwei Banken fusionieren. – Kaks panka ühinevad."
+        }
+      ],
+      "tip": [
+        "Sage ühend: sich zu etwas vereinigen (milleks ühinema).",
+        "Igapäevaselt sageli lihtsamalt: sich zusammenschließen."
+      ],
+      "important": [
+        "Lähedane sõna vereinen (ühendama) käib tavaliselt inimeste ja tunnete kohta, vereinigen aga sagedamini organisatsioonide ja riikide kohta.",
+        "Pärast mit järgneb datiiv: mit der Partei, mit dem Nachbarn."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich vereinigen"
-          ],
-          "red": [
-            "mit + kellele?"
+            "vereinigen",
+            "vereinigt",
+            "vereinigte",
+            "Vereinigten"
           ],
           "purple": [
-            "sich"
+            "ühinema"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "vereinigten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ühinesid"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "vereinigte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ühines"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "vereinigt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ühinenud"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "vereinigten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ühinesid"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "vereinen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ühendama"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich zusammenschließen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "kokku liituma"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "fusionieren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "fusioneeruma"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -13165,44 +23245,207 @@ const B2_WORDS = [
     "de": "Vereinigung",
     "de_article": "die",
     "de_plural": "die Vereinigungen",
-    "lv": "\\",
+    "lv": "ühendus • liit • ühendamine",
     "level": "B2"
   },
   {
     "de": "vererben",
-    "lv": "\\",
+    "lv": "pärandama",
     "level": "B2"
   },
   {
     "de": "Verfahren",
     "de_article": "das",
     "de_plural": "die Verfahren",
-    "lv": "\\",
+    "lv": "menetlus • meetod • protsess",
     "level": "B2"
   },
   {
     "de": "Verfall",
     "de_article": "der",
     "de_plural": "die Verfälle",
-    "lv": "\\",
+    "lv": "lagunemine • allakäik • hääbumine",
     "level": "B2"
   },
   {
     "de": "verfallen",
-    "lv": "\\",
+    "lv": "lagunema • alla käima • aeguma",
     "level": "B2"
   },
   {
     "de": "Verfasser",
     "de_article": "der",
     "de_plural": "die Verfasser",
-    "lv": "\\",
+    "lv": "autor • koostaja",
     "level": "B2"
   },
   {
     "de": "verfügen",
-    "lv": "\\",
-    "level": "B2"
+    "lv": "käsutama • määrama • korraldama",
+    "level": "B2",
+    "study": {
+      "id": "b2-verf-gen",
+      "layout": "standardStudy",
+      "translation": "käsutama • määrama • korraldama",
+      "explanation": [
+        "Põhimõte: verfügen on selles tähenduses ametlik tegusõna: võimu või asutuse otsusega määrama, käskima või korraldama (eine Maßnahme verfügen). Alus on tavaliselt asutus, direktor, kohus või valitseja.",
+        "Lahutamatu eesliide ver-: verfügt, verfügte, hat verfügt. Sellele võib järgneda akusatiiv (eine Ausgangssperre verfügen) või dass-lause.",
+        "Eraldi konstruktsioon verfügen über + akusatiiv tähendab, et midagi on kellegi käsutuses: über Erfahrung verfügen — tal on kogemusi (vrd eesti: millegi üle käsutama, midagi oma käsutuses omama)."
+      ],
+      "examples": [
+        {
+          "de": "Die Behörde verfügt eine Ausgangssperre.",
+          "lv": "Asutus kehtestab liikumiskeelu."
+        },
+        {
+          "de": "Der König verfügte, dass das Tor geschlossen wird.",
+          "lv": "Kuningas käskis värava sulgeda."
+        },
+        {
+          "de": "Der Direktor verfügte die sofortige Schließung des Werks.",
+          "lv": "Direktor määras tehase viivitamatu sulgemise."
+        },
+        {
+          "de": "Er verfügt über große Erfahrung.",
+          "lv": "Tal on suured kogemused."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "anordnen",
+          "meaning": "korraldust andma, määrama",
+          "example": "Der Arzt ordnet Ruhe an. – Arst määrab puhkuse."
+        },
+        {
+          "word": "bestimmen",
+          "meaning": "kindlaks määrama",
+          "example": "Das Gesetz bestimmt die Frist. – Seadus määrab tähtaja."
+        },
+        {
+          "word": "besitzen",
+          "meaning": "omama",
+          "example": "Er besitzt ein Haus. – Tal on maja."
+        }
+      ],
+      "tip": [
+        "Ametlikus stiilis tähistab verfügen haldusotsust, igapäevaselt öeldakse selle asemel anordnen või bestimmen.",
+        "Fraas Er verfügt über … tähendab „tal on …“ ja seda kasutatakse sagedamini kui esimest tähendust."
+      ],
+      "important": [
+        "Ära aja segi verfügen (määrama) ja verfügen über (käsutama, omama): eessõna muudab tähendust.",
+        "Kui verfügen tähendab määramist, ei ole eessõna über vaja."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "verfügen",
+            "verfügt",
+            "verfügte"
+          ],
+          "purple": [
+            "määrama",
+            "korraldama",
+            "käsutuses"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "verfügt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kehtestab"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verfügte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "käskis"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verfügte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "määras"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verfügt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Tal on"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "anordnen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "määrama"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "bestimmen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "kindlaks määrama"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "besitzen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "omama"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "Verfügung",
@@ -13213,7 +23456,7 @@ const B2_WORDS = [
   },
   {
     "de": "verführen",
-    "lv": "\\",
+    "lv": "võrgutama • ahvatlema",
     "level": "B2"
   },
   {
@@ -13240,7 +23483,7 @@ const B2_WORDS = [
   },
   {
     "de": "verhandeln",
-    "lv": "\\",
+    "lv": "läbi rääkima • arutama",
     "level": "B2"
   },
   {
@@ -13277,14 +23520,14 @@ const B2_WORDS = [
   },
   {
     "de": "verhüten",
-    "lv": "\\",
+    "lv": "ära hoidma • vältima",
     "level": "B2"
   },
   {
     "de": "Verlauf",
     "de_article": "der",
     "de_plural": "die Verläufe",
-    "lv": "\\",
+    "lv": "käik • kulg",
     "level": "B2"
   },
   {
@@ -13298,35 +23541,35 @@ const B2_WORDS = [
     "de": "Verleih",
     "de_article": "der",
     "de_plural": "die Verleihe",
-    "lv": "\\",
+    "lv": "laenutus • rent",
     "level": "B2"
   },
   {
     "de": "Vermächtnis",
     "de_article": "das",
     "de_plural": "die Vermächtnisse",
-    "lv": "\\",
+    "lv": "pärand • testament",
     "level": "B2"
   },
   {
     "de": "Vermerk",
     "de_article": "der",
     "de_plural": "die Vermerke",
-    "lv": "\\",
+    "lv": "märge • märkus",
     "level": "B2"
   },
   {
     "de": "Vermögen",
     "de_article": "das",
     "de_plural": "die Vermögen",
-    "lv": "\\",
+    "lv": "vara • varandus • võime",
     "level": "B2"
   },
   {
     "de": "Vermutung",
     "de_article": "die",
     "de_plural": "die Vermutungen",
-    "lv": "\\",
+    "lv": "oletus • hüpotees",
     "level": "B2"
   },
   {
@@ -13353,26 +23596,26 @@ const B2_WORDS = [
     "de": "Versager",
     "de_article": "der",
     "de_plural": "die Versager",
-    "lv": "kaotaja",
+    "lv": "äpardaja • luuser",
     "level": "B2"
   },
   {
     "de": "Verschluss",
     "de_article": "der",
     "de_plural": "die Verschlüsse",
-    "lv": "\\",
+    "lv": "sulgur • lukk • kork",
     "level": "B2"
   },
   {
     "de": "Versehen",
     "de_article": "das",
     "de_plural": "die Versehen",
-    "lv": "\\",
+    "lv": "eksitus • apsakas • möödalaskmine",
     "level": "B2"
   },
   {
     "de": "verkommen",
-    "lv": "\\",
+    "lv": "alla käima • laostuma • riknema",
     "level": "B2"
   },
   {
@@ -13382,7 +23625,7 @@ const B2_WORDS = [
   },
   {
     "de": "verkraften",
-    "lv": "\\",
+    "lv": "toime tulema • üle elama • taluma",
     "level": "B2"
   },
   {
@@ -13392,7 +23635,7 @@ const B2_WORDS = [
   },
   {
     "de": "verkünden",
-    "lv": "\\",
+    "lv": "teatama • välja kuulutama",
     "level": "B2"
   },
   {
@@ -13412,7 +23655,7 @@ const B2_WORDS = [
   },
   {
     "de": "vermessen",
-    "lv": "üles mõõtma",
+    "lv": "mõõdistama",
     "level": "B2"
   },
   {
@@ -13422,7 +23665,7 @@ const B2_WORDS = [
   },
   {
     "de": "vermitteln",
-    "lv": "\\",
+    "lv": "vahendama • korraldama • edendama",
     "level": "B2"
   },
   {
@@ -13442,7 +23685,7 @@ const B2_WORDS = [
   },
   {
     "de": "verordnen",
-    "lv": "\\",
+    "lv": "välja kirjutama • määrama • ette kirjutama",
     "level": "B2"
   },
   {
@@ -13452,7 +23695,7 @@ const B2_WORDS = [
   },
   {
     "de": "verrechnen",
-    "lv": "arvutama",
+    "lv": "arvutama • tasaarveldama",
     "level": "B2"
   },
   {
@@ -13462,40 +23705,184 @@ const B2_WORDS = [
   },
   {
     "de": "versagen",
-    "lv": "\\",
+    "lv": "üles ütlema • läbi kukkuma • keelama",
     "level": "B2"
   },
   {
     "de": "sich versehen",
-    "lv": "eksima • varustama millegaga",
+    "lv": "eksima • end varustama",
     "level": "B2",
     "study": {
       "id": "b2-sich-versehen",
-      "layout": "minimalStudy",
-      "translation": "\\",
-      "rektion": "mit + kellele?",
-      "explanation": "sich versehen nõuab kindlat eessõna mit + kellele?.",
-      "forms": "mit + kellele?",
-      "formsLabel": "Rektsioon:",
+      "layout": "standardStudy",
+      "translation": "eksima • end varustama",
+      "explanation": [
+        "Põhimõte: sich versehen tähendab eksima, valesti nägema — midagi mitte õigesti tähele panema või hooletusest viga tegema (näiteks kuupäeva või arvu puhul). Vormid: versieht sich, versah sich, hat sich versehen.",
+        "Levinud väljendid: Wenn ich mich nicht versehe, … (kui ma ei eksi, …) ja ehe man sich versieht (enne kui arugi saad). Ilma sich-ita tähendab versehen varustama, tagama (mit etwas versehen); sich mit etwas versehen tähendab aga end millegagi varustama."
+      ],
+      "examples": [
+        {
+          "de": "Ich habe mich beim Datum versehen.",
+          "lv": "Ma eksisin kuupäevaga."
+        },
+        {
+          "de": "Wenn ich mich nicht versehe, kommt dort Anna.",
+          "lv": "Kui ma ei eksi, tuleb seal Anna."
+        },
+        {
+          "de": "Ehe man sich versieht, ist der Sommer vorbei.",
+          "lv": "Enne kui arugi saad, on suvi läbi."
+        },
+        {
+          "de": "Da hast du dich wohl versehen.",
+          "lv": "Seal sa vist eksisid."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich irren",
+          "meaning": "eksima",
+          "example": "Ich habe mich geirrt. – Ma eksisin."
+        },
+        {
+          "word": "sich verlesen",
+          "meaning": "valesti lugema",
+          "example": "Ich habe mich verlesen. – Ma lugesin valesti."
+        },
+        {
+          "word": "versehen",
+          "meaning": "varustama",
+          "example": "Er versieht den Brief mit einer Marke. – Ta varustab kirja postmargiga."
+        }
+      ],
+      "tip": [
+        "Enesekohane sich versehen väljendab juhuslikku viga: Ich habe mich versehen.",
+        "Väljendiga Wenn ich mich nicht versehe, … väljendad ettevaatlikult oletust."
+      ],
+      "important": [
+        "sich versehen ei tähenda nägemisviga, vaid tähelepanematusest tulenevat eksimust.",
+        "Ära aja segi sich versehen (eksima) ja versehen mit (millegagi varustama): seal tähendab sõna varustamist, mitte eksimist."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich versehen"
-          ],
-          "red": [
-            "mit + kellele?"
+            "sich versehen",
+            "versehen",
+            "versieht",
+            "versehe",
+            "versah"
           ],
           "purple": [
-            "sich",
-            "sich"
+            "eksima",
+            "end millegagi varustama"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "mich",
+                "versehen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "eksisin"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "mich",
+                "versehe"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ei eksi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sich",
+                "versieht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Enne kui arugi saad"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "dich",
+                "versehen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "eksisid"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich irren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "eksima"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich verlesen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "valesti lugema"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "versehen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "varustama"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
   {
     "de": "versetzen",
-    "lv": "\\",
+    "lv": "ümber paigutama • üle viima",
     "level": "B2"
   },
   {
@@ -13520,39 +23907,163 @@ const B2_WORDS = [
   },
   {
     "de": "sich versöhnen",
-    "lv": "leppima millegaga",
+    "lv": "ära leppima",
     "level": "B2",
     "study": {
       "id": "b2-sich-versoehnen",
-      "layout": "minimalStudy",
-      "translation": "ära leppima kellegagi",
-      "rektion": "mit + kellele?",
-      "explanation": "sich versöhnen nõuab kindlat eessõna mit + kellele?.",
-      "forms": "mit + kellele?",
-      "formsLabel": "Rektsioon:",
+      "layout": "standardStudy",
+      "translation": "ära leppima",
+      "explanation": [
+        "Põhimõte: sich versöhnen tähendab pärast tüli või konflikti ära leppima — taastama kellegagi head suhted.",
+        "Tegusõna on enesekohane: ich versöhne mich, er versöhnt sich; lihtminevikus er versöhnte sich, täisminevikus er hat sich versöhnt. Kellega lepitakse, märgitakse mit + datiiviga: sich mit jemandem versöhnen (eesti keeles kaasaütlev kääne: kellegagi ära leppima).",
+        "Tegusõna võib olla ka sihiline: jemanden versöhnen — kedagi (kellegagi) lepitama."
+      ],
+      "examples": [
+        {
+          "de": "Die Geschwister haben sich nach dem Streit versöhnt.",
+          "lv": "Õed-vennad leppisid pärast tüli ära."
+        },
+        {
+          "de": "Ich möchte mich mit dir versöhnen.",
+          "lv": "Tahan sinuga ära leppida."
+        },
+        {
+          "de": "Er versöhnte sich mit seinem Vater.",
+          "lv": "Ta leppis oma isaga ära."
+        },
+        {
+          "de": "Wann versöhnt ihr euch endlich?",
+          "lv": "Millal te lõpuks ära lepite?"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "verzeihen",
+          "meaning": "andestama",
+          "example": "Ich verzeihe dir. – Ma andestan sulle."
+        },
+        {
+          "word": "sich vertragen",
+          "meaning": "läbi saama",
+          "example": "Die Kinder vertragen sich gut. – Lapsed saavad hästi läbi."
+        }
+      ],
+      "tip": [
+        "Pea meeles paari: sich versöhnen mit + datiiv. Isik, kellega lepitakse, tuleb alati pärast mit-i.",
+        "Leppimisele eelneb tavaliselt tüli: sich streiten → sich versöhnen."
+      ],
+      "important": [
+        "Selles tähenduses on enesekohane sich kohustuslik: ich versöhne mich, mitte ich versöhne.",
+        "Täisminevikus kasutatakse abitegusõna haben: er hat sich versöhnt."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich versöhnen"
-          ],
-          "red": [
-            "mit + kellele?"
+            "versöhnen",
+            "versöhne",
+            "versöhnt"
           ],
           "purple": [
-            "sich"
+            "ära leppima"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "versöhnt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "leppisid",
+                "ära"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "versöhnen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ära leppida"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "versöhnte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "leppis",
+                "ära"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "versöhnt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ära lepite"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "verzeihen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "andestama"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich vertragen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "läbi saama"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
   {
     "de": "verspielen",
-    "lv": "\\",
+    "lv": "maha mängima • kaotama",
     "level": "B2"
   },
   {
     "de": "verspotten",
-    "lv": "\\",
+    "lv": "pilkama • naeruvääristama",
     "level": "B2"
   },
   {
@@ -13572,28 +24083,149 @@ const B2_WORDS = [
   },
   {
     "de": "sich verstellen",
-    "lv": "teesklema keda",
+    "lv": "teesklema",
     "level": "B2",
     "study": {
       "id": "b2-sich-verstellen",
-      "layout": "minimalStudy",
+      "layout": "standardStudy",
       "translation": "teesklema",
-      "rektion": "als + mida?",
-      "explanation": "sich verstellen nõuab kindlat eessõna als + mida?.",
-      "forms": "als + mida?",
-      "formsLabel": "Rektsioon:",
+      "explanation": [
+        "Põhimõte: sich verstellen tähendab teesklema — muutma oma käitumist või olekut, et teised ei näeks tegelikku iseloomu või tundeid. Inimene ei ole siis loomulik.",
+        "Tegusõna on enesekohane: ich verstelle mich, er verstellt sich; lihtminevikus verstellte sich, täisminevikus hat sich verstellt. Ilma sich-ita tähendab verstellen ka ümber paigutama või ette panema (den Weg verstellen — teed tõkestama; den Sitz verstellen — istet reguleerima), samuti häält moonutama (die Stimme verstellen).",
+        "Kellenagi esinemise kohta (end arstiks välja andma) öeldakse täpsemalt sich ausgeben als; sich verstellen ise tähendab lihtsalt teesklemist."
+      ],
+      "examples": [
+        {
+          "de": "Er verstellt sich vor den Gästen und tut freundlich.",
+          "lv": "Ta teeskleb külaliste ees ja käitub sõbralikult."
+        },
+        {
+          "de": "Du musst dich nicht verstellen.",
+          "lv": "Sul pole vaja teeselda."
+        },
+        {
+          "de": "Sie verstellte ihre Stimme am Telefon.",
+          "lv": "Ta moonutas telefonis häält."
+        },
+        {
+          "de": "Bei ihm weiß man nie, ob er sich verstellt.",
+          "lv": "Temast ei tea kunagi, kas ta teeskleb."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich ausgeben als",
+          "meaning": "end kellekski välja andma",
+          "example": "Er gibt sich als Arzt aus. – Ta annab end arstiks välja."
+        },
+        {
+          "word": "so tun, als ob",
+          "meaning": "teesklema, nägu tegema",
+          "example": "Sie tut so, als ob sie schliefe. – Ta teeb nägu, nagu magaks."
+        }
+      ],
+      "tip": [
+        "Kui tahad öelda „end kellekski välja andma“, kasuta sich ausgeben als; sich verstellen on üldisem: mitte olla sina ise.",
+        "Kasulik ütlus: Du brauchst dich nicht zu verstellen — sul pole vaja teeselda."
+      ],
+      "important": [
+        "Ära aja segi sõnaga verstellen ilma sich-ita: Er verstellt den Weg tähendab, et ta tõkestab tee."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
+            "verstellen",
+            "verstellt sich",
+            "verstelle mich",
             "sich verstellen"
           ],
-          "red": [
-            "als + mida?"
-          ],
           "purple": [
-            "sich"
+            "teesklema"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "verstellt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "teeskleb"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verstellen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "teeselda"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verstellte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "moonutas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verstellt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "teeskleb"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich ausgeben als"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "end kellekski välja andma"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "so tun, als ob"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "nägu tegema"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {}
+        ]
       }
     }
   },
@@ -13601,7 +24233,7 @@ const B2_WORDS = [
     "de": "Verstorbene",
     "de_article": "der",
     "de_plural": "die Verstorbenen",
-    "lv": "\\",
+    "lv": "lahkunu • surnu",
     "level": "B2"
   },
   {
@@ -13613,7 +24245,7 @@ const B2_WORDS = [
   },
   {
     "de": "vertagen",
-    "lv": "\\",
+    "lv": "edasi lükkama",
     "level": "B2"
   },
   {
@@ -13625,17 +24257,17 @@ const B2_WORDS = [
     "de": "Vertretung",
     "de_article": "die",
     "de_plural": "die Vertretungen",
-    "lv": "\\",
+    "lv": "asendamine • esindus • esindamine",
     "level": "B2"
   },
   {
     "de": "verwalten",
-    "lv": "\\",
+    "lv": "haldama • valitsema",
     "level": "B2"
   },
   {
     "de": "verwandeln",
-    "lv": "ümber kujundama",
+    "lv": "muutma • moondama",
     "level": "B2"
   },
   {
@@ -13645,14 +24277,14 @@ const B2_WORDS = [
   },
   {
     "de": "verweilen",
-    "lv": "\\",
+    "lv": "viibima • peatuma",
     "level": "B2"
   },
   {
     "de": "Verweis",
     "de_article": "der",
     "de_plural": "die Verweise",
-    "lv": "\\",
+    "lv": "noomitus • viide",
     "level": "B2"
   },
   {
@@ -13664,29 +24296,29 @@ const B2_WORDS = [
   },
   {
     "de": "verwickeln",
-    "lv": "\\",
+    "lv": "sassi ajama • sisse mässima",
     "level": "B2"
   },
   {
     "de": "verwirren",
-    "lv": "\\",
+    "lv": "segadusse ajama • sassi ajama",
     "level": "B2"
   },
   {
     "de": "Verwirrung",
     "de_article": "die",
     "de_plural": "die Verwirrungen",
-    "lv": "\\",
+    "lv": "segadus • hämming",
     "level": "B2"
   },
   {
     "de": "verwöhnen",
-    "lv": "\\",
+    "lv": "hellitama • ära hellitama",
     "level": "B2"
   },
   {
     "de": "verwundern",
-    "lv": "hämmastust tekitama",
+    "lv": "hämmastama • imestama panema",
     "level": "B2"
   },
   {
@@ -13695,24 +24327,164 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-verwundern",
-      "layout": "minimalStudy",
+      "layout": "standardStudy",
       "translation": "imestama millegi üle",
-      "rektion": "über + mida?",
-      "explanation": "sich verwundern nõuab kindlat eessõna über + mida?.",
-      "forms": "über + mida?",
-      "formsLabel": "Rektsioon:",
+      "explanation": [
+        "Põhimõte: sich verwundern tähendab imestama — tundma üllatust millegi ootamatu või arusaamatu üle.",
+        "Tegusõna on enesekohane ja seotud eessõnaga über + akusatiiv: sich über etwas verwundern (ka eesti keeles: millegi üle imestama). Vormid: ich verwundere mich, er verwundert sich, verwunderte sich, hat sich verwundert. Sageli järgneb ka dass-kõrvallause: sich darüber verwundern, dass …",
+        "Kõnekeeles kasutatakse sagedamini lihtsamat sich wundern; sich verwundern kõlab ametlikumalt ja kirjakeelsemalt."
+      ],
+      "examples": [
+        {
+          "de": "Ich verwundere mich über seine Antwort.",
+          "lv": "Ma imestan tema vastuse üle."
+        },
+        {
+          "de": "Sie verwunderte sich darüber, dass niemand kam.",
+          "lv": "Ta imestas, et keegi ei tulnud."
+        },
+        {
+          "de": "Wir verwundern uns über das schlechte Wetter im Mai.",
+          "lv": "Me imestame halva ilma üle mais."
+        },
+        {
+          "de": "Er hat sich sehr über den Preis verwundert.",
+          "lv": "Ta imestas väga hinna üle."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich wundern",
+          "meaning": "imestama",
+          "example": "Ich wundere mich über ihn. – Ma imestan tema üle."
+        },
+        {
+          "word": "staunen",
+          "meaning": "imestama, imetlema",
+          "example": "Die Kinder staunen über den Zauberer. – Lapsed imestavad võluri üle."
+        },
+        {
+          "word": "überrascht sein",
+          "meaning": "üllatunud olema",
+          "example": "Ich bin überrascht. – Ma olen üllatunud."
+        }
+      ],
+      "tip": [
+        "Õpi koos: sich verwundern über + akusatiiv (mitte datiiviga).",
+        "Igapäevaselt ütle lihtsamalt sich wundern; sich verwundern on selle ametlikum variant."
+      ],
+      "important": [
+        "Ära aja segi sõnaga verwunden (haavama) — see on teine sõna teise tähendusega."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich verwundern"
-          ],
-          "red": [
-            "über + mida?"
+            "sich verwundern",
+            "über",
+            "verwundert",
+            "verwunderte",
+            "sich wundern",
+            "verwundere"
           ],
           "purple": [
-            "sich"
+            "imestama"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "verwundere"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "imestan"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verwunderte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "imestas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verwundern"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "imestame"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verwundert"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "imestas"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich wundern"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "imestama"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "staunen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "imestama, imetlema"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "überrascht sein"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "üllatunud olema"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {}
+        ]
       }
     }
   },
@@ -13737,7 +24509,7 @@ const B2_WORDS = [
   },
   {
     "de": "sich verzögern",
-    "lv": "\\",
+    "lv": "hilinema • viibima",
     "level": "B2"
   },
   {
@@ -13752,14 +24524,14 @@ const B2_WORDS = [
   },
   {
     "de": "verzweifelt",
-    "lv": "\\",
+    "lv": "meeleheitel • meeleheitlik",
     "level": "B2"
   },
   {
     "de": "Viehbestand",
     "de_article": "der",
     "de_plural": "die Viehbestände",
-    "lv": "loomade koguarv",
+    "lv": "kariloomade arv • karjakoosseis",
     "level": "B2"
   },
   {
@@ -13794,7 +24566,7 @@ const B2_WORDS = [
   },
   {
     "de": "vollbringen",
-    "lv": "\\",
+    "lv": "korda saatma • sooritama",
     "level": "B2"
   },
   {
@@ -13804,7 +24576,7 @@ const B2_WORDS = [
   },
   {
     "de": "vollkommen",
-    "lv": "\\",
+    "lv": "täiuslik • täielik • täiesti",
     "level": "B2"
   },
   {
@@ -13840,7 +24612,7 @@ const B2_WORDS = [
   },
   {
     "de": "voran",
-    "lv": "\\",
+    "lv": "ees • eespool • edasi",
     "level": "B2"
   },
   {
@@ -13850,7 +24622,7 @@ const B2_WORDS = [
   },
   {
     "de": "voraussetzen",
-    "lv": "\\",
+    "lv": "eeldama",
     "level": "B2"
   },
   {
@@ -13862,7 +24634,7 @@ const B2_WORDS = [
   },
   {
     "de": "vorbestraft",
-    "lv": "varasema karistatusega",
+    "lv": "varem karistatud",
     "level": "B2"
   },
   {
@@ -13874,7 +24646,7 @@ const B2_WORDS = [
     "de": "Vorbildung",
     "de_article": "die",
     "de_plural": "die Vorbildungen",
-    "lv": "\\",
+    "lv": "eelharidus • ettevalmistus",
     "level": "B2"
   },
   {
@@ -13891,26 +24663,26 @@ const B2_WORDS = [
   },
   {
     "de": "vordringen",
-    "lv": "läbi murdma",
+    "lv": "edasi tungima • läbi murdma",
     "level": "B2"
   },
   {
     "de": "Vorfall",
     "de_article": "der",
     "de_plural": "die Vorfälle",
-    "lv": "\\",
+    "lv": "juhtum • vahejuhtum • sündmus",
     "level": "B2"
   },
   {
     "de": "vorfristig",
-    "lv": "\\",
+    "lv": "ennetähtaegne",
     "level": "B2"
   },
   {
     "de": "Vorkehrung",
     "de_article": "die",
     "de_plural": "die Vorkehrungen",
-    "lv": "kaitsemeetmed",
+    "lv": "ettevaatusabinõu • meede",
     "level": "B2"
   },
   {
@@ -13922,7 +24694,7 @@ const B2_WORDS = [
   },
   {
     "de": "vornehmen",
-    "lv": "\\",
+    "lv": "ette võtma • teostama • kavatsema",
     "level": "B2"
   },
   {
@@ -13934,7 +24706,7 @@ const B2_WORDS = [
     "de": "Vorrecht",
     "de_article": "das",
     "de_plural": "die Vorrechte",
-    "lv": "\\",
+    "lv": "eesõigus • privileeg",
     "level": "B2"
   },
   {
@@ -13946,21 +24718,21 @@ const B2_WORDS = [
     "de": "Vorspiel",
     "de_article": "das",
     "de_plural": "die Vorspiele",
-    "lv": "\\",
+    "lv": "eelmäng • proloog • avamäng",
     "level": "B2"
   },
   {
     "de": "Vorsprung",
     "de_article": "der",
     "de_plural": "die Vorsprünge",
-    "lv": "\\",
+    "lv": "edumaa • eend • ülekaal",
     "level": "B2"
   },
   {
     "de": "Vorstand",
     "de_article": "der",
     "de_plural": "die Vorstände",
-    "lv": "\\",
+    "lv": "juhatus • juhtkond • juhataja",
     "level": "B2"
   },
   {
@@ -13972,7 +24744,7 @@ const B2_WORDS = [
   },
   {
     "de": "vortragen",
-    "lv": "\\",
+    "lv": "ette kandma • esitama • loengut pidama",
     "level": "B2"
   },
   {
@@ -13991,14 +24763,14 @@ const B2_WORDS = [
     "de": "Vorwahl",
     "de_article": "die",
     "de_plural": "die Vorwahlen",
-    "lv": "linna- või riigikood",
+    "lv": "suunakood • eelvalimised",
     "level": "B2"
   },
   {
     "de": "Vorwand",
     "de_article": "der",
     "de_plural": "die Vorwände",
-    "lv": "\\",
+    "lv": "ettekääne • vabandus",
     "level": "B2"
   },
   {
@@ -14036,14 +24808,14 @@ const B2_WORDS = [
     "de": "Wachsamkeit",
     "de_article": "die",
     "de_plural": "die Wachsamkeiten",
-    "lv": "\\",
+    "lv": "valvsus • tähelepanelikkus",
     "level": "B2"
   },
   {
     "de": "Wade",
     "de_article": "die",
     "de_plural": "die Waden",
-    "lv": "säär",
+    "lv": "sääremari",
     "level": "B2"
   },
   {
@@ -14112,7 +24884,7 @@ const B2_WORDS = [
   },
   {
     "de": "wanken",
-    "lv": "\\",
+    "lv": "vaaruma • kõikuma",
     "level": "B2"
   },
   {
@@ -14140,7 +24912,7 @@ const B2_WORDS = [
     "de": "Wasserspiegel",
     "de_article": "der",
     "de_plural": "die Wasserspiegel",
-    "lv": "\\",
+    "lv": "veetase • veepind",
     "level": "B2"
   },
   {
@@ -14187,7 +24959,7 @@ const B2_WORDS = [
     "de": "Wehe",
     "de_article": "die",
     "de_plural": "die Wehen",
-    "lv": "\\",
+    "lv": "tuisuhang • luide • tuhud",
     "level": "B2"
   },
   {
@@ -14213,7 +24985,7 @@ const B2_WORDS = [
   {
     "de": "Weinbau",
     "de_article": "der",
-    "lv": "veinikasvatus",
+    "lv": "viinamarjakasvatus • veinindus",
     "level": "B2"
   },
   {
@@ -14273,7 +25045,7 @@ const B2_WORDS = [
     "de": "Werkbank",
     "de_article": "die",
     "de_plural": "die Werkbänke",
-    "lv": "tööpink",
+    "lv": "töölaud • tööpink",
     "level": "B2"
   },
   {
@@ -14315,27 +25087,191 @@ const B2_WORDS = [
     "de": "Wesen",
     "de_article": "das",
     "de_plural": "die Wesen",
-    "lv": "\\",
-    "level": "B2"
+    "lv": "olend • olemus • iseloom",
+    "level": "B2",
+    "study": {
+      "id": "b2-wesen",
+      "layout": "standardStudy",
+      "translation": "olend • olemus • iseloom",
+      "explanation": [
+        "Põhimõte: das Wesen on mitme tähendusega sõna. Esiteks elusolend, olend (ein fremdes Wesen), teiseks millegi olemus (das Wesen der Sache), kolmandaks inimese iseloom või loomus (ein freundliches Wesen).",
+        "See on kesksoost nimisõna: das Wesen. Mitmus on die Wesen (ilma täppideta täishäälikuta). Tähenduses „olemus“ sõnal tavaliselt mitmust ei ole.",
+        "Sageli kasutatav väljend: im Wesentlichen — põhiliselt, peamiselt."
+      ],
+      "examples": [
+        {
+          "de": "Im Märchen kommt ein fremdes Wesen vor.",
+          "lv": "Muinasjutus esineb võõras olend."
+        },
+        {
+          "de": "Der Mensch ist ein soziales Wesen.",
+          "lv": "Inimene on sotsiaalne olend."
+        },
+        {
+          "de": "Das Wesen der Demokratie ist die Teilnahme aller.",
+          "lv": "Demokraatia olemus on kõigi osalemine."
+        },
+        {
+          "de": "Sie hat ein freundliches Wesen.",
+          "lv": "Tal on sõbralik iseloom."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "der Charakter",
+          "meaning": "iseloom",
+          "example": "Er hat einen starken Charakter. – Tal on tugev iseloom."
+        },
+        {
+          "word": "das Lebewesen",
+          "meaning": "elusolend",
+          "example": "Pflanzen sind Lebewesen. – Taimed on elusolendid."
+        },
+        {
+          "word": "der Kern",
+          "meaning": "tuum, olemus",
+          "example": "Das ist der Kern des Problems. – See on probleemi tuum."
+        }
+      ],
+      "tip": [
+        "Pea meeles kolme tähendust: olend (kes elab), olemus (mis on millegi aluseks), iseloom (milline inimene on).",
+        "Sõna tähenduse määrab kontekst: omadussõnaga freundlich või ruhig on tavaliselt tegu iseloomuga."
+      ],
+      "important": [
+        "Ära aja segi sõnaga das Wesentliche (peamine, oluline) — see on teine nimisõna."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "das Wesen",
+            "die Wesen",
+            "Wesen",
+            "im Wesentlichen",
+            "das Wesen der Sache",
+            "ein fremdes Wesen"
+          ],
+          "purple": [
+            "olend",
+            "olemus",
+            "iseloom"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Wesen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "olend"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Wesen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "olend"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Wesen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "olemus"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Wesen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "iseloom"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "der Charakter"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "iseloom"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "das Lebewesen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "elusolend"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Kern"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "tuum, olemus"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "Wettlauf",
     "de_article": "der",
     "de_plural": "die Wettläufe",
-    "lv": "\\",
+    "lv": "võidujooks",
     "level": "B2"
   },
   {
     "de": "Wettrennen",
     "de_article": "das",
     "de_plural": "die Wettrennen",
-    "lv": "\\",
+    "lv": "võidujooks • võidusõit",
     "level": "B2"
   },
   {
     "de": "Wettrudern",
     "de_article": "das",
-    "lv": "aerutamisvõistlus",
+    "lv": "sõudevõistlus",
     "level": "B2"
   },
   {
@@ -14361,7 +25297,7 @@ const B2_WORDS = [
   },
   {
     "de": "widerlich",
-    "lv": "\\",
+    "lv": "vastik • jälk",
     "level": "B2"
   },
   {
@@ -14377,25 +25313,165 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-widersetzen",
-      "layout": "minimalStudy",
-      "translation": "\\",
-      "rektion": "+ kellele?",
-      "explanation": "sich widersetzen nõuab kindlat eessõna + kellele?.",
-      "forms": "+ kellele?",
-      "formsLabel": "Rektsioon:",
+      "layout": "standardStudy",
+      "translation": "vastu panema • vastu seisma",
+      "explanation": [
+        "Põhimõte: sich widersetzen tähendab kellelegi või millelegi vastu panema, vastu seisma — mitte alluma käsule, survele, otsusele või isikule.",
+        "Tegusõna on enesekohane ja nõuab datiivi: sich jemandem/etwas widersetzen (ka eesti keeles alaleütlev kääne: käsule vastu panema). Vormid: widersetzt sich, widersetzte sich, hat sich widersetzt. Eesliide wider- ei ole eraldatav."
+      ],
+      "examples": [
+        {
+          "de": "Er widersetzte sich dem Befehl.",
+          "lv": "Ta pani käsule vastu."
+        },
+        {
+          "de": "Die Bürger widersetzen sich der Entscheidung der Regierung.",
+          "lv": "Kodanikud seisavad valitsuse otsusele vastu."
+        },
+        {
+          "de": "Sie hat sich dem Druck nicht widersetzt.",
+          "lv": "Ta ei pannud survele vastu."
+        },
+        {
+          "de": "Niemand wagte es, sich dem Chef zu widersetzen.",
+          "lv": "Keegi ei julgenud ülemusele vastu hakata."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Widerstand leisten",
+          "meaning": "vastupanu osutama",
+          "example": "Das Volk leistete Widerstand. – Rahvas osutas vastupanu."
+        },
+        {
+          "word": "sich wehren gegen",
+          "meaning": "end kaitsma millegi vastu",
+          "example": "Er wehrt sich gegen die Vorwürfe. – Ta kaitseb end etteheidete vastu."
+        },
+        {
+          "word": "ablehnen",
+          "meaning": "tagasi lükkama",
+          "example": "Sie lehnt das Angebot ab. – Ta lükkab pakkumise tagasi."
+        }
+      ],
+      "tip": [
+        "Sõnaga sich widersetzen seostub alati datiiv: dem Befehl, dem Druck, dem Chef.",
+        "Sobib ametlikku või kirjalikku stiili; kõnekeeles öeldakse sagedamini sich wehren."
+      ],
+      "important": [
+        "Ära kasuta eessõna: mitte sich gegen etwas widersetzen, vaid sich etwas widersetzen (datiiv)."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich widersetzen"
-          ],
-          "red": [
-            "+ kellele?"
+            "sich widersetzen",
+            "widersetzt",
+            "widersetzte",
+            "datiivi"
           ],
           "purple": [
-            "sich",
-            "sich"
+            "vastu panema",
+            "vastu seisma"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "widersetzte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pani",
+                "vastu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "widersetzen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "seisavad",
+                "vastu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "widersetzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ei pannud",
+                "vastu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "widersetzen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vastu hakata"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "Widerstand leisten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "vastupanu osutama"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich wehren gegen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "end kaitsma"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "ablehnen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "tagasi lükkama"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {}
+        ]
       }
     }
   },
@@ -14409,12 +25485,12 @@ const B2_WORDS = [
   {
     "de": "Wiederaufbau",
     "de_article": "der",
-    "lv": "\\",
+    "lv": "taastamine • ülesehitus",
     "level": "B2"
   },
   {
     "de": "wiedergeben",
-    "lv": "\\",
+    "lv": "tagasi andma • edasi andma • taasesitama",
     "level": "B2"
   },
   {
@@ -14437,12 +25513,12 @@ const B2_WORDS = [
   },
   {
     "de": "winden",
-    "lv": "\\",
+    "lv": "punuma • kerima • keerama",
     "level": "B2"
   },
   {
     "de": "zielbewusst",
-    "lv": "sihipärane",
+    "lv": "sihikindel",
     "level": "B2"
   },
   {
@@ -14459,7 +25535,7 @@ const B2_WORDS = [
   },
   {
     "de": "zollpflichtig",
-    "lv": "tollile alluv",
+    "lv": "tollimaksuga maksustatav",
     "level": "B2"
   },
   {
@@ -14478,7 +25554,7 @@ const B2_WORDS = [
   },
   {
     "de": "zuerkennen",
-    "lv": "\\",
+    "lv": "omistama • välja mõistma",
     "level": "B2"
   },
   {
@@ -14501,7 +25577,7 @@ const B2_WORDS = [
   },
   {
     "de": "zürnen",
-    "lv": "vihastuma",
+    "lv": "vihane olema",
     "level": "B2"
   },
   {
@@ -14528,12 +25604,12 @@ const B2_WORDS = [
   },
   {
     "de": "zusammenlegen",
-    "lv": "\\",
+    "lv": "kokku panema • kokku voltima • ühendama",
     "level": "B2"
   },
   {
     "de": "zuschneiden",
-    "lv": "sobivasse mõõtu lõikama",
+    "lv": "juurde lõikama",
     "level": "B2"
   },
   {
@@ -14543,7 +25619,7 @@ const B2_WORDS = [
   },
   {
     "de": "zuteilen",
-    "lv": "\\",
+    "lv": "jaotama • eraldama • määrama",
     "level": "B2"
   },
   {
@@ -14572,72 +25648,87 @@ const B2_WORDS = [
     "study": {
       "id": "b2-zuweisen",
       "layout": "standardStudy",
-      "translation": "\\",
-      "explanation": "Peamine mõte: zuweisen tähendab ametlikult määramist või eraldamist — ülesande, rolli, ressursi või raha konkreetsele isikule või osakonnale. Lahutatav: weise ... zu.",
+      "translation": "määrama • eraldama",
+      "explanation": [
+        "Põhimõte: zuweisen tähendab kellelegi ametlikult midagi määrama või eraldama (kohta, ülesannet, korterit, vahendeid) või inimest kuhugi suunama.",
+        "Eraldatava eesliitega tegusõna: er weist zu, wies zu, hat zugewiesen. Tavaliselt datiivi (kellele?) ja akusatiiviga (mida?): jemandem etwas zuweisen. Sageli kasutatakse ka passiivi: Mir wurde ein Platz zugewiesen.",
+        "Sõna on ametlik ja seda kasutatakse asutuste, koolide ja ettevõtete keeles."
+      ],
       "examples": [
         {
-          "de": "Der Chef weist ihm eine neue Aufgabe zu.",
-          "lv": "ülemus määrab talle uue ülesande."
+          "de": "Die Schule weist den Kindern Klassenräume zu.",
+          "lv": "Kool eraldab lastele klassiruumid."
         },
         {
-          "de": "Die Mittel wurden dem Projekt zugewiesen.",
-          "lv": "vahendid eraldati projektile."
+          "de": "Der Chef wies mir eine neue Aufgabe zu.",
+          "lv": "Ülemus määras mulle uue ülesande."
         },
         {
-          "de": "Sie wurde einer anderen Abteilung zugewiesen.",
-          "lv": "ta suunati teise osakonda."
+          "de": "Dem Studenten wurde ein Platz im Wohnheim zugewiesen.",
+          "lv": "Üliõpilasele eraldati koht ühiselamus."
+        },
+        {
+          "de": "Die Stadt hat der Familie eine Wohnung zugewiesen.",
+          "lv": "Linn eraldas perele korteri."
         }
       ],
       "comparison": [
         {
-          "word": "zuweisen",
-          "meaning": "määrama • eraldama",
-          "example": "Er weist die Aufgabe zu. = Ta määrab ülesande."
+          "word": "zuteilen",
+          "meaning": "välja jagama",
+          "example": "Man teilt uns die Arbeit zu. – Meile jagatakse töö välja."
+        },
+        {
+          "word": "zuordnen",
+          "meaning": "vastavusse seadma",
+          "example": "Ordne die Wörter den Bildern zu. – Seo sõnad piltidega."
         },
         {
           "word": "geben",
           "meaning": "andma",
-          "example": "Er gibt mir die Arbeit. = Ta annab mulle töö."
-        },
-        {
-          "word": "verteilen",
-          "meaning": "jaotama",
-          "example": "Er verteilt die Aufgaben. = Ta jagab ülesanded."
+          "example": "Ich gebe dir das Buch. – Ma annan sulle raamatu."
         }
       ],
-      "tip": {
-        "leftBlocks": [
-          {
-            "text": "zuweisen rõhutab ametlikku määramist — töös, haldusalas, projektides."
-          }
-        ]
-      },
-      "important": {
-        "text": "zuweisen = ametlikult määrama või eraldama. Perfekt: zugewiesen. Lahutatav: weise ... zu."
-      },
+      "tip": [
+        "Pea meeles eraldumist: Er weist mir etwas zu, aga kõrvallauses …, weil er mir etwas zuweist.",
+        "Datiiv on saaja: wem? — dem Studenten, der Familie."
+      ],
+      "important": [
+        "Kesksõna on zugewiesen — ge- pannakse zu ja weisen vahele."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "zuweisen",
-            "weise",
-            "zu"
+            "weist zu"
           ],
           "purple": [
-            "Peamine",
-            "eraldamist"
+            "määrama",
+            "eraldama"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "weist",
-                "zu"
+                "weist"
               ]
             },
             "lv": {
               "purple": [
-                "määrab"
+                "eraldab"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "wies"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "määras"
               ]
             }
           },
@@ -14661,10 +25752,55 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "suunati"
+                "eraldas"
               ]
             }
           }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "zuteilen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "välja jagama"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "zuordnen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "vastavusse seadma"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "geben"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "andma"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {}
         ]
       }
     }
@@ -14678,70 +25814,74 @@ const B2_WORDS = [
   },
   {
     "de": "zuwider",
-    "lv": "vastu • vastupidi • mitte meeldima",
+    "lv": "vastu • vastumeelne",
     "level": "B2",
     "study": {
       "id": "b2-zuwider",
       "layout": "standardStudy",
-      "translation": "\\",
-      "explanation": "Peamine mõte: zuwider on mitme funktsiooniga sõna. Kaassõnana + daativ tähendab see „vastu, vastupidi”: mir zuwider. Väljendi jemandem zuwider sein/laufen osana tähendab see „kellelegi mitte meeldida, muutuda ebameeldivaks”. Ei tohi segi ajada sõnaga wider (vastu).",
+      "translation": "vastu • vastumeelne",
+      "explanation": [
+        "Põhimõte: zuwider on sõna, mida kasutatakse datiiviga kahel viisil. Koos sõnaga sein — etwas ist mir zuwider — tähendab see, et miski on mulle vastumeelne, vastik või ei meeldi üldse. Nimisõna järel — dem Gesetz zuwider — tähendab see millegi vastu, millegagi vastuolus.",
+        "Esimeses tähenduses on zuwider omadussõna ja see ei käändu: Das ist mir zuwider. Teises tähenduses järgneb see tavaliselt datiivis nimisõnale: dem Gesetz zuwider handeln. Seal kasutatakse sageli eraldatava eesliitega tegusõnu zuwiderhandeln (millegi vastu toimima) ja zuwiderlaufen (millegagi vastuolus olema): Das läuft dem Plan zuwider.",
+        "See on ametlik, veidi kirjakeelne sõna."
+      ],
       "examples": [
         {
-          "de": "Er handelte mir zuwider.",
-          "lv": "ta tegutses minu tahte vastu."
+          "de": "Dieser Geruch ist mir zuwider.",
+          "lv": "See lõhn on mulle vastik."
         },
         {
-          "de": "Sein Benehmen ist mir zuwider.",
-          "lv": "tema käitumine ei meeldi mulle."
+          "de": "Lügen ist ihm zuwider.",
+          "lv": "Valetamine on talle vastumeelne."
         },
         {
-          "de": "Das läuft mir zuwider.",
-          "lv": "See ei meeldi mulle."
+          "de": "Das läuft dem Gesetz zuwider.",
+          "lv": "See on seadusega vastuolus."
+        },
+        {
+          "de": "Er handelte den Regeln zuwider.",
+          "lv": "Ta tegutses reeglite vastaselt."
         }
       ],
       "comparison": [
         {
-          "word": "zuwider (+ Dat.)",
-          "meaning": "vastu • vastupidi",
-          "example": "mir zuwider = pret manu gribu"
+          "word": "entgegen",
+          "meaning": "vastupidiselt",
+          "example": "Entgegen der Vorhersage regnete es nicht. – Vastupidiselt ennustusele ei sadanud vihma."
         },
         {
-          "word": "jemandem zuwider sein",
-          "meaning": "kellelegi mitte meeldima",
-          "example": "Es ist mir zuwider. = See ei meeldi mulle."
+          "word": "widerlich",
+          "meaning": "vastik, jälk",
+          "example": "Der Geruch ist widerlich. – Lõhn on vastik."
         },
         {
-          "word": "wider",
-          "meaning": "vastu (kaassõna)",
-          "example": "wider den Willen = pret gribu"
-        },
-        {
-          "word": "widersprechen",
-          "meaning": "vastu vaidlema • mitte nõustuma",
-          "example": "Ich widerspreche. = Es iebilstu."
+          "word": "gegen",
+          "meaning": "vastu",
+          "example": "Das ist gegen die Regeln. – See on reeglite vastu."
         }
       ],
-      "tip": {
-        "leftBlocks": [
-          {
-            "text": "Põhitähendus: vastu / vastupidi (mir zuwider). Idiomaatiliselt: jemandem zuwider sein/laufen = kellelegi mitte meeldida."
-          }
-        ]
-      },
-      "important": {
-        "text": "zuwider + daativ = vastu, vastupidi. zuwider sein = mitte meeldida. See ei ole sama, mis wider."
-      },
+      "tip": [
+        "Jäta meelde üks fraas: Das ist mir zuwider. — See on mulle vastik / see ei meeldi mulle üldse.",
+        "zuwider nõuab alati datiivi: mir, ihm, dem Gesetz."
+      ],
+      "important": [
+        "zuwider ei seostu akusatiiviga: mitte mich zuwider, vaid mir zuwider.",
+        "Tähenduses „millegi vastu“ seisab zuwider tavaliselt nimisõna järel: dem Gesetz zuwider; entgegen seisab tavaliselt ees: entgegen dem Gesetz."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "zuwider"
+            "zuwider",
+            "zuwiderhandeln",
+            "zuwiderlaufen",
+            "läuft",
+            "mir zuwider",
+            "dem Gesetz zuwider",
+            "Das ist mir zuwider"
           ],
           "purple": [
-            "vastu",
-            "mitte meeldida"
-          ],
-          "green": [
-            "wider"
+            "vastumeelne",
+            "millegi vastu"
           ]
         },
         "examples": [
@@ -14753,7 +25893,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "vastu"
+                "vastik"
               ]
             }
           },
@@ -14765,7 +25905,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "ei meeldi"
+                "vastumeelne"
               ]
             }
           },
@@ -14777,17 +25917,75 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "ei meeldi"
+                "vastuolus"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "zuwider"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vastaselt"
               ]
             }
           }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "entgegen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "vastupidiselt"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "widerlich"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "vastik, jälk"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "gegen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "vastu"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
         ]
       }
     }
   },
   {
     "de": "zwanglos",
-    "lv": "\\",
+    "lv": "sundimatu • pingevaba • vaba",
     "level": "B2"
   },
   {
@@ -14824,7 +26022,7 @@ const B2_WORDS = [
     "de": "Zwischenraum",
     "de_article": "der",
     "de_plural": "die Zwischenräume",
-    "lv": "\\",
+    "lv": "vahe • vaheruum",
     "level": "B2"
   },
   {
@@ -14836,122 +26034,160 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "vahetama",
       "explanation": [
-        "Peamine mõte: Vahetada midagi millegi teise vastu — raha, riideid, tööd, kooli, teemat.",
-        "wechseln tähendab peamiselt: vahetama millegi teise vastu.",
-        "Sageli iseloomustab: vahetust.",
-        "wechseln't kasutatakse, kui midagi vahetatakse millegi teise vastu — raha, riided, töö, kool või teema."
+        "Põhimõte: wechseln tähendab üht asja teise vastu vahetama või raha vahetama: Geld wechseln, die Schule wechseln, den Reifen wechseln. Sihitiseta võib see tähendada ka muutuma, vahelduma (Das Wetter wechselt).",
+        "Vormid: wechselt, wechselte, hat gewechselt. Sihiline tegusõna nõuab akusatiivi: etwas wechseln. Suunamuutuse puhul kasutatakse eessõnu in/auf/zu: Er wechselt zu einem anderen Verein.",
+        "Nimisõna on der Wechsel (vahetus, vaheldus). Kui midagi muudetakse teistsuguseks (mitte ei asendata), kasutatakse sagedamini ändern või sich verändern."
       ],
       "examples": [
         {
-          "de": "Ich wechsle die Schule.",
-          "lv": "Ma vahetan kooli."
+          "de": "Ich muss noch Geld wechseln.",
+          "lv": "Ma pean veel raha vahetama."
         },
         {
-          "de": "Ich muss Geld wechseln.",
-          "lv": "ma pean raha vahetama."
+          "de": "Sie wechselt die Schule im Sommer.",
+          "lv": "Ta vahetab suvel kooli."
         },
         {
-          "de": "Wir wechseln das Thema.",
-          "lv": "me vahetame teemat."
+          "de": "Können Sie mir zwanzig Euro wechseln?",
+          "lv": "Kas saate mulle kakskümmend eurot peenemaks vahetada?"
         },
         {
-          "de": "Ich wechsle die Schule.",
-          "lv": "ma vahetan kooli."
+          "de": "Das Wetter wechselt oft.",
+          "lv": "Ilm muutub sageli."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "ändern",
+          "meaning": "muutma (teistsuguseks)",
+          "example": "Ich ändere meinen Plan. – Ma muudan oma plaani."
+        },
+        {
+          "word": "tauschen",
+          "meaning": "vahetama (omavahel)",
+          "example": "Wir tauschen die Plätze. – Me vahetame kohad."
+        },
+        {
+          "word": "sich verändern",
+          "meaning": "muutuma",
+          "example": "Die Stadt hat sich verändert. – Linn on muutunud."
         }
       ],
       "tip": [
-        "Vahetada midagi millegi teise vastu — raha, riideid, tööd, kooli, teemat.",
-        "Kasuta wechseln, kui kontekst vastab sellele tähendusele."
+        "Raha vahetamiseks kasutatakse Geld wechseln; peenraha palud lausega Können Sie mir das wechseln?",
+        "Kui asendad midagi uuega, on see wechseln: den Reifen, die Wohnung, den Beruf."
       ],
       "important": [
-        "wechseln = vahetada millegi teise vastu (Geld, Schule, Thema).",
-        "Raha, kool, töö, teema: wechseln.",
-        "Vahetada midagi millegi teise vastu — raha, riideid, tööd, kooli, teemat."
+        "Ära aja segi sõnaga ändern: wechseln tähendab teisega asendama, ändern — teistsuguseks muutma."
       ],
       "sectionAccents": {
         "explanation": {
-          "green": [
-            "wechseln"
+          "blue": [
+            "wechseln",
+            "wechselt",
+            "wechselte",
+            "gewechselt",
+            "der Wechsel",
+            "Geld wechseln"
           ],
           "purple": [
-            "vahetama",
-            "Peamine"
+            "vahetama"
           ]
         },
         "examples": [
           {
             "de": {
-              "green": [
-                "wechsle"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "vahetan",
-                "vahetan"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "wechseln",
+              "blue": [
                 "wechseln"
               ]
             },
             "lv": {
               "purple": [
-                "vahetama",
-                "pean"
+                "vahetama"
               ]
             }
           },
           {
             "de": {
-              "green": [
-                "wechseln",
+              "blue": [
+                "wechselt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vahetab"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
                 "wechseln"
               ]
             },
             "lv": {
               "purple": [
-                "vahetame",
-                "vahetame"
+                "vahetada"
               ]
             }
           },
           {
             "de": {
-              "green": [
-                "wechsle"
+              "blue": [
+                "wechselt"
               ]
             },
             "lv": {
               "purple": [
-                "vahetan",
-                "vahetan"
+                "muutub"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "ändern"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "muutma"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "tauschen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "vahetama (omavahel)"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich verändern"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "muutuma"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "Vahetada"
-            ]
-          },
-          {
-            "purple": [
-              "Vahetada"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "green": [
-              "wechseln"
-            ]
-          }
+          {}
         ]
       }
     }
@@ -14965,112 +26201,107 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "pakkuma",
       "explanation": [
-        "Peamine mõte: Pakkuda võimalusi, kursusi, teenuseid või kasu — mida koht või programm annab.",
-        "bieten tähendab peamiselt: võimalust/kasu andma.",
-        "Sageli iseloomustab: mida koht/programm annab.",
-        "bieten tähendab peamiselt: võimalust tagama.",
-        "Sageli iseloomustab: formaalsemalt.",
-        "bieten kirjeldab sageli, mida koht, programm või teenus pakub (Die Schule bietet viele Kurse)."
+        "Põhimõte: bieten tähendab pakkuma (hinda, võimalust, abi) või võimaldama, andma (vaadet, turvalisust, meelelahutust). Alus võib olla nii inimene kui ka koht või asutus.",
+        "Tugev tegusõna: er bietet, bot, hat geboten. Tavaliselt akusatiiviga, isik on datiivis: jemandem etwas bieten. Oksjonil või ostes hinda pakkudes: Wie viel bietest du?",
+        "Eraldatava eesliitega anbieten tähendab konkreetset pakkumist kellelegi; lihtne bieten kirjeldab sageli, mida koht või asi võimaldab."
       ],
       "examples": [
         {
-          "de": "Die Schule bietet viele Kurse.",
-          "lv": "Kool pakub palju kursusi."
+          "de": "Das Hotel bietet einen schönen Blick auf das Meer.",
+          "lv": "Hotell pakub kaunist vaadet merele."
         },
         {
-          "de": "Darf ich Ihnen etwas anbieten?",
-          "lv": "kas tohin teile midagi pakkuda?"
+          "de": "Wie viel bietest du für das Auto?",
+          "lv": "Kui palju sa auto eest pakud?"
         },
         {
-          "de": "Die Schule bietet viele Kurse.",
-          "lv": "kool pakub palju kursusi."
+          "de": "Die Stadt bietet jungen Leuten viele Möglichkeiten.",
+          "lv": "Linn pakub noortele palju võimalusi."
         },
         {
-          "de": "Die App bietet Sicherheit.",
-          "lv": "rakendus tagab turvalisuse."
+          "de": "Das Museum bietet jeden Sonntag eine Führung.",
+          "lv": "Muuseum pakub igal pühapäeval ekskursiooni."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "anbieten",
+          "meaning": "kellelegi pakkuma",
+          "example": "Darf ich Ihnen Tee anbieten? – Kas tohin teile teed pakkuda?"
         },
         {
-          "de": "bieten",
-          "lv": "hotell pakub ilusat vaadet merele."
+          "word": "gewähren",
+          "meaning": "võimaldama, andma",
+          "example": "Die Bank gewährt einen Kredit. – Pank annab laenu."
+        },
+        {
+          "word": "geben",
+          "meaning": "andma",
+          "example": "Ich gebe dir mein Wort. – Ma annan sulle oma sõna."
         }
       ],
       "tip": [
-        "Pakkuda võimalusi, kursusi, teenuseid või kasu — mida koht või programm annab.",
-        "Kasuta bieten, kui kontekst vastab sellele tähendusele."
+        "Kui kirjeldad, mida koht või teenus pakub, kasuta bieten: Das Hotel bietet WLAN.",
+        "Kui pakud konkreetset asja kindlale inimesele, kasutatakse sagedamini anbieten."
       ],
       "important": [
-        "bieten: Die Schule bietet Kurse. (lahutamatu)",
-        "Mida koht/programm pakub: bieten."
+        "Lihtminevik on bot (mitte bietete): er bot, hat geboten."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "bieten"
+            "bieten",
+            "bietet",
+            "bietest",
+            "bot",
+            "geboten",
+            "anbieten"
           ],
           "purple": [
-            "Pakkuda",
-            "andma"
+            "pakkuma"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "biete"
+                "bietet"
               ]
             },
             "lv": {
               "purple": [
-                "Kool",
-                "Kool"
+                "pakub"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "bieten",
-                "bieten"
+                "bietest"
               ]
             },
             "lv": {
               "purple": [
-                "pakkuda",
-                "kas"
+                "pakud"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "biete"
+                "bietet"
               ]
             },
             "lv": {
               "purple": [
-                "kool",
-                "kool"
+                "pakub"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "biete"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "rakendus",
-                "rakendus"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "bieten",
-                "bieten"
+                "bietet"
               ]
             },
             "lv": {
@@ -15080,24 +26311,50 @@ const B2_WORDS = [
             }
           }
         ],
-        "tip": [
+        "comparison": [
           {
-            "purple": [
-              "Pakkuda"
-            ]
+            "word": {
+              "green": [
+                "anbieten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "kellelegi pakkuma"
+              ]
+            }
           },
           {
-            "purple": [
-              "Pakkuda"
-            ]
+            "word": {
+              "green": [
+                "gewähren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "võimaldama, andma"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "geben"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "andma"
+              ]
+            }
           }
         ],
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "blue": [
-              "bieten"
-            ]
-          }
+          {}
         ]
       }
     }
@@ -15110,76 +26367,72 @@ const B2_WORDS = [
       "id": "b2-anbieten",
       "layout": "standardStudy",
       "translation": "pakkuma",
-      "explanation": "Peamine mõte: anbieten tähendab aktiivselt kellelegi pakkumist — abi, jooki, tööd või teenust. Lahutatav tegusõna: ich biete an, er bietet an. Rõhutab pakkuja initsiatiivi.",
+      "explanation": [
+        "Põhimõte: anbieten tähendab kellelegi midagi pakkuma: jooki, abi, tööd, kaupa või teenust. Inimene ise otsustab, kas pakkumise vastu võtta.",
+        "Eraldatava eesliitega tegusõna: er bietet an, bot an, hat angeboten. Konstruktsioon: jemandem etwas anbieten. Tegevusnimega: Er bot an, mich zu fahren. Enesekohane sich anbieten tähendab end pakkuma, sobivaks osutuma: Das bietet sich an.",
+        "Nimisõna on das Angebot (pakkumine)."
+      ],
       "examples": [
         {
-          "de": "Ich biete dir meine Hilfe an.",
-          "lv": "ma pakun sulle oma abi."
+          "de": "Darf ich Ihnen einen Kaffee anbieten?",
+          "lv": "Kas tohin teile kohvi pakkuda?"
         },
         {
-          "de": "Darf ich Ihnen etwas anbieten?",
-          "lv": "kas tohin teile midagi pakkuda?"
+          "de": "Die Firma bietet neue Produkte an.",
+          "lv": "Firma pakub uusi tooteid."
         },
         {
-          "de": "Das Unternehmen bietet neue Stellen an.",
-          "lv": "ettevõte pakub uusi töökohti."
+          "de": "Er bot mir an, mich nach Hause zu fahren.",
+          "lv": "Ta pakkus, et viib mind koju."
+        },
+        {
+          "de": "Sie hat uns ihre Hilfe angeboten.",
+          "lv": "Ta pakkus meile oma abi."
         }
       ],
       "comparison": [
         {
-          "word": "anbieten",
-          "meaning": "pakkuma (aktiivselt)",
-          "example": "Ich biete Hilfe an. = Ma pakun abi."
-        },
-        {
           "word": "bieten",
-          "meaning": "pakkuma • andma",
-          "example": "Er bietet viel Geld. = Ta pakub palju raha."
+          "meaning": "pakkuma, võimaldama",
+          "example": "Das Hotel bietet viel. – Hotell pakub palju."
         },
         {
           "word": "vorschlagen",
-          "meaning": "ette panema",
-          "example": "Ich schlage vor. = Es ierosinu."
+          "meaning": "ettepanekut tegema",
+          "example": "Ich schlage vor, dass wir gehen. – Teen ettepaneku, et läheme."
+        },
+        {
+          "word": "empfehlen",
+          "meaning": "soovitama",
+          "example": "Ich empfehle dir das Buch. – Soovitan sulle seda raamatut."
         }
       ],
-      "tip": {
-        "leftBlocks": [
-          {
-            "text": "anbieten rõhutab, et keegi aktiivselt pakub midagi konkreetsele inimesele: Ich biete dir ... an."
-          }
-        ]
-      },
-      "important": {
-        "text": "anbieten = aktiivselt pakkuma. Lahutatav: biete ... an. Perfekt: angeboten."
-      },
+      "tip": [
+        "Pea meeles eraldumist: Er bietet mir Hilfe an, aga kõrvallauses …, weil er mir Hilfe anbietet.",
+        "Pakkumisele vastates võid öelda: Danke, gern. või Nein, danke."
+      ],
+      "important": [
+        "anbieten on pakkumine kindlale inimesele; Angebot võib olla ka poes saadaolev kaup (sooduspakkumine)."
+      ],
       "sectionAccents": {
         "explanation": {
-          "green": [
+          "blue": [
             "anbieten",
-            "biete",
-            "an"
+            "bietet an",
+            "bot an",
+            "angeboten",
+            "bietet",
+            "bot",
+            "Angebot"
           ],
           "purple": [
-            "pakkuja"
+            "pakkuma"
           ]
         },
         "examples": [
           {
             "de": {
-              "green": [
-                "biete",
-                "an"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "pakun"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
+              "blue": [
                 "anbieten"
               ]
             },
@@ -15191,9 +26444,8 @@ const B2_WORDS = [
           },
           {
             "de": {
-              "green": [
-                "bietet",
-                "an"
+              "blue": [
+                "bietet"
               ]
             },
             "lv": {
@@ -15201,7 +26453,76 @@ const B2_WORDS = [
                 "pakub"
               ]
             }
+          },
+          {
+            "de": {
+              "blue": [
+                "bot"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pakkus"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "angeboten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pakkus"
+              ]
+            }
           }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "bieten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "pakkuma, võimaldama"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "vorschlagen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ettepanekut tegema"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "empfehlen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "soovitama"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {}
         ]
       }
     }
@@ -15215,64 +26536,87 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "nõudma",
       "explanation": [
-        "Peamine mõte: Nõuda raha, õigusi, muutusi või kohustust — aktiivne nõudmine.",
-        "fordern tähendab peamiselt: nõudma.",
-        "Sageli iseloomustab: aktiivne nõudmine.",
-        "fordern tähendab peamiselt: standardit nõudma.",
-        "Sageli iseloomustab: formaalselt.",
-        "fordern't kasutatakse, kui keegi nõuab raha, õigusi, muutusi või kohustust (Sie fordert mehr Geld)."
+        "Põhimõte: fordern tähendab kindlalt nõudma midagi, millele inimesel on õigus või mida ta peab kohaseks. Tavaliselt on see tugevam kui bitten (paluma).",
+        "Nõrk tegusõna: er fordert, forderte, hat gefordert. Mida nõutakse — akusatiiv, kellelt — von + datiiv: etwas von jemandem fordern. Järgneda võib ka dass-lause. Ülekantud tähenduses võib fordern tähendada ohvreid nõudma: Der Unfall forderte zwei Todesopfer.",
+        "Ole ettevaatlik sarnase sõnaga: fordern (nõudma) ja fördern (edendama) erinevad täppide poolest."
       ],
       "examples": [
         {
-          "de": "Sie fordert mehr Geld.",
-          "lv": "Ta nõuab rohkem raha."
+          "de": "Die Arbeiter fordern höhere Löhne.",
+          "lv": "Töölised nõuavad kõrgemat palka."
         },
         {
-          "de": "Wir fordern mehr Transparenz.",
-          "lv": "me nõuame suuremat läbipaistvust."
+          "de": "Der Lehrer fordert von uns mehr Disziplin.",
+          "lv": "Õpetaja nõuab meilt rohkem distsipliini."
         },
         {
-          "de": "Sie fordert mehr Geld.",
-          "lv": "ta nõuab rohkem raha."
+          "de": "Der Unfall forderte zwei Todesopfer.",
+          "lv": "Õnnetus nõudis kaks inimelu."
         },
         {
-          "de": "Wir fordern mehr Sicherheit.",
-          "lv": "me nõuame suuremat turvalisust."
+          "de": "Sie forderte, dass er sich entschuldigt.",
+          "lv": "Ta nõudis, et mees vabandaks."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "fördern",
+          "meaning": "edendama",
+          "example": "Sport fördert die Gesundheit. – Sport edendab tervist."
         },
         {
-          "de": "fordern",
-          "lv": "ametiühing nõuab kõrgemat palka, aga riik toetab ainult väikeettevõtteid."
+          "word": "verlangen",
+          "meaning": "nõudma, paluma",
+          "example": "Er verlangt die Rechnung. – Ta palub arve."
+        },
+        {
+          "word": "bitten",
+          "meaning": "paluma",
+          "example": "Ich bitte dich um Hilfe. – Ma palun sinult abi."
         }
       ],
       "tip": [
-        "Nõuda raha, õigusi, muutusi vai kohustust — aktiivne nõudmine.",
-        "Kasuta fordern, kui kontekst vastab sellele tähendusele."
+        "Kui nõuad kelleltki: etwas von jemandem fordern (von + datiiv).",
+        "Erista paari fordern — fördern: o ilma täppideta on nõudma, ö on edendama."
       ],
       "important": [
-        "fordern = nõudma (ilma ö-ta).",
-        "Nõudmine: fordern (ilma ö-ta).",
-        "Nõuda raha, õigusi, muutusi või kohustust — aktiivne nõudmine."
+        "Isik, kellelt nõutakse, märgitakse tavaliselt von-iga: etwas von jemandem fordern."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "fordern"
+            "fordern",
+            "fordert",
+            "forderte",
+            "gefordert",
+            "fördern",
+            "von"
           ],
           "purple": [
-            "nõudma",
-            "Peamine"
+            "nõudma"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "forde"
+                "fordern"
               ]
             },
             "lv": {
               "purple": [
-                "nõuab",
+                "nõuavad"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fordert"
+              ]
+            },
+            "lv": {
+              "purple": [
                 "nõuab"
               ]
             }
@@ -15280,79 +26624,72 @@ const B2_WORDS = [
           {
             "de": {
               "blue": [
-                "fordern",
-                "fordern"
+                "forderte"
               ]
             },
             "lv": {
               "purple": [
-                "nõuame",
-                "nõuame"
+                "nõudis"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "forde"
+                "forderte"
               ]
             },
             "lv": {
               "purple": [
-                "nõuab",
-                "nõuab"
+                "nõudis"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "fördern"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "edendama"
               ]
             }
           },
           {
-            "de": {
-              "blue": [
-                "fordern",
-                "fordern"
+            "word": {
+              "green": [
+                "verlangen"
               ]
             },
-            "lv": {
+            "meaning": {
               "purple": [
-                "nõuame",
-                "nõuame"
+                "nõudma"
               ]
             }
           },
           {
-            "de": {
-              "blue": [
-                "fordern",
-                "fordern"
+            "word": {
+              "green": [
+                "bitten"
               ]
             },
-            "lv": {
+            "meaning": {
               "purple": [
-                "nõuab"
-              ],
-              "yellow": [
-                "toetab"
+                "paluma"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "Nõuda"
-            ]
-          },
-          {
-            "purple": [
-              "Nõuda"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "blue": [
-              "fordern"
-            ]
-          }
+          {}
         ]
       }
     }
@@ -15364,126 +26701,164 @@ const B2_WORDS = [
     "study": {
       "id": "b2-foerdern",
       "layout": "standardStudy",
-      "translation": "\\",
+      "translation": "soodustama • toetama",
       "explanation": [
-        "Peamine mõte: Soodustada arengut, toetada inimest, projekti või protsessi.",
-        "fördern tähendab peamiselt: arengut soodustama.",
-        "Sageli iseloomustab: tuge / edu.",
-        "fördern tähendab peamiselt: maavarasid kaevandama.",
-        "Sageli iseloomustab: tööstuses.",
-        "fördern tähendab peamiselt: annet arendama.",
-        "Sageli iseloomustab: hariduses.",
-        "fördern tähendab arengu soodustamist, inimese või projekti toetamist (Sport fördert die Gesundheit)."
+        "Põhimõte: fördern tähendab soodustama, toetama, aitama millelgi areneda — andel, tervisel, majandusel, projektil. Sageli on see ka rahaline toetus.",
+        "Nõrk (reeglipärane) tegusõna: er fördert, förderte, hat gefördert. Alati akusatiiviga: etwas/jemanden fördern. Nimisõna on die Förderung (edendamine, toetus).",
+        "Ettevaatust: fördern (ö-ga) on teine sõna kui fordern (nõudma)."
       ],
       "examples": [
         {
-          "de": "Sport fördert die Gesundheit.",
-          "lv": "Sport soodustab tervist."
+          "de": "Der Staat fördert erneuerbare Energien.",
+          "lv": "Riik toetab taastuvenergiat."
         },
         {
           "de": "Sport fördert die Gesundheit.",
-          "lv": "sport soodustab tervist."
+          "lv": "Sport edendab tervist."
         },
         {
-          "de": "In der Region wird Öl gefördert.",
-          "lv": "piirkonnas kaevandatakse naftat."
+          "de": "Die Stiftung fördert junge Künstler.",
+          "lv": "Sihtasutus toetab noori kunstnikke."
         },
         {
-          "de": "Die Schule fördert begabte Kinder.",
-          "lv": "kool toetab andekaid lapsi."
+          "de": "Gute Lehrer fördern die Talente der Kinder.",
+          "lv": "Head õpetajad arendavad laste andeid."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "fordern",
+          "meaning": "nõudma",
+          "example": "Die Arbeiter fordern mehr Geld. – Töölised nõuavad rohkem raha."
+        },
+        {
+          "word": "unterstützen",
+          "meaning": "toetama",
+          "example": "Ich unterstütze dich. – Ma toetan sind."
+        },
+        {
+          "word": "helfen",
+          "meaning": "aitama",
+          "example": "Er hilft mir. – Ta aitab mind."
         }
       ],
       "tip": [
-        "Soodustada arengut, toetada inimest, projekti või protsessi.",
-        "Kasuta fördern, kui kontekst vastab sellele tähendusele."
+        "Kui miski aitab areneda, kasuta fördern: das Wachstum, die Gesundheit, die Kinder.",
+        "Nimisõna die Förderung: staatliche Förderung — riiklik toetus."
       ],
       "important": [
-        "fördern = soodustama / toetama (ö-ga).",
-        "Soodustamine, toetus: fördern (ö-ga).",
-        "Soodustada arengut, toetada inimest, projekti või protsessi."
+        "Fördern nõuab akusatiivi, mitte datiivi (erinevalt sõnast helfen): Er fördert mich."
       ],
       "sectionAccents": {
         "explanation": {
-          "green": [
-            "fördern"
+          "blue": [
+            "fördern",
+            "fördert",
+            "förderte",
+            "gefördert",
+            "Förderung",
+            "fordern"
           ],
           "purple": [
             "soodustama",
-            "toetada"
+            "toetama",
+            "toetus"
           ]
         },
         "examples": [
           {
             "de": {
-              "green": [
-                "förde"
+              "blue": [
+                "fördert"
               ]
             },
             "lv": {
               "purple": [
-                "soodustab",
-                "Sport"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "förde"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "soodustab",
-                "sport"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "gefördert"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "piirkonnas",
-                "piirkonnas"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "förde"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "kool",
                 "toetab"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fördert"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "edendab"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fördert"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "toetab"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fördern"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "arendavad"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "fordern"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "nõudma"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "unterstützen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "toetama"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "helfen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "aitama"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "Soodustada"
-            ]
-          },
-          {
-            "purple": [
-              "toetada"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "green": [
-              "fördern"
-            ]
-          }
+          {}
         ]
       }
     }
@@ -15494,46 +26869,332 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-verlaufen",
-      "layout": "minimalStudy",
+      "layout": "standardStudy",
       "translation": "ära eksima",
-      "explanation": "sich verlaufen tähendab ära eksimist. Sellel puudub kindel eessõna. Ei tohi segamini ajada verlaufen'iga (kulgema).",
+      "explanation": [
+        "Põhimõte: sich verlaufen tähendab jalgsi ära eksima — õigelt teelt kõrvale kalduma ja mitte teadma, kus sa oled.",
+        "Enesekohane tegusõna: ich verlaufe mich, er verläuft sich, verlief sich, hat sich verlaufen. Täisminevikus kasutatakse abitegusõna haben. Tavaliselt koos kohaga: im Wald, in der Stadt, in den Bergen.",
+        "Kui eksitakse sõidukiga, öeldakse sich verfahren; sich verirren on üldisem ja võib tähendada ka ekslema, eksiteele sattuma."
+      ],
+      "examples": [
+        {
+          "de": "Wir haben uns im Wald verlaufen.",
+          "lv": "Me eksisime metsas ära."
+        },
+        {
+          "de": "Ich verlaufe mich in dieser Stadt ständig.",
+          "lv": "Ma eksin selles linnas pidevalt ära."
+        },
+        {
+          "de": "Der Tourist hat sich in der Altstadt verlaufen.",
+          "lv": "Turist eksis vanalinnas ära."
+        },
+        {
+          "de": "Pass auf, dass du dich nicht verläufst!",
+          "lv": "Vaata, et sa ära ei eksi!"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich verfahren",
+          "meaning": "sõiduga ära eksima",
+          "example": "Wir haben uns verfahren. – Me eksisime autoga sõites ära."
+        },
+        {
+          "word": "sich verirren",
+          "meaning": "ära eksima, ekslema",
+          "example": "Das Kind hat sich verirrt. – Laps on ära eksinud."
+        },
+        {
+          "word": "verlaufen",
+          "meaning": "kulgema",
+          "example": "Die Prüfung verlief gut. – Eksam kulges hästi."
+        }
+      ],
+      "tip": [
+        "Jalgsi ära eksinud — sich verlaufen; autoga — sich verfahren.",
+        "Kui oled ära eksinud, võid öelda: Ich habe mich verlaufen. Können Sie mir helfen?"
+      ],
+      "important": [
+        "Ära aja segi sõnaga verlaufen ilma sich'ita: Die Grenze verläuft entlang des Flusses on hoopis teise tähendusega."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich verlaufen"
+            "sich verlaufen",
+            "verlaufe",
+            "verläuft",
+            "verlief",
+            "verlaufen",
+            "verfahren"
           ],
           "purple": [
-            "ära eksimist"
-          ],
-          "red": [
-            "verlaufen"
+            "ära eksima"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "verlaufen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "eksisime"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verlaufe"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "eksin"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verlaufen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "eksis"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verläufst"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ei eksi"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich verfahren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "sõiduga"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich verirren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ekslema"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "verlaufen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "kulgema"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {}
+        ]
       }
     }
   },
   {
     "de": "verlaufen",
-    "lv": "\\",
+    "lv": "kulgema • toimuma",
     "level": "B2",
     "study": {
       "id": "b2-verlaufen",
-      "layout": "minimalStudy",
+      "layout": "standardStudy",
       "translation": "kulgema • toimuma",
-      "explanation": "verlaufen (ilma sich'ita) tähendab kulgemist või toimumist. Ei ole sünonüüm sõnaga sich verlaufen (ära eksima).",
+      "explanation": [
+        "Põhimõte: verlaufen (ilma sich'ita) tähendab kulgema, toimuma mingil viisil: Die Prüfung ist gut verlaufen. See kirjeldab, kuidas miski ajas arenes või lõppes.",
+        "Vormid: es verläuft, es verlief, es ist verlaufen — täisminevikus kasutatakse abitegusõna sein. Ruumiliselt võib verlaufen tähendada ulatuma, kulgema (tee, piiri, joone kohta): Die Grenze verläuft entlang des Flusses.",
+        "Koos sich'iga on see teine sõna: sich verlaufen — ära eksima."
+      ],
+      "examples": [
+        {
+          "de": "Die Prüfung ist gut verlaufen.",
+          "lv": "Eksam kulges hästi."
+        },
+        {
+          "de": "Die Operation verlief ohne Probleme.",
+          "lv": "Operatsioon möödus probleemideta."
+        },
+        {
+          "de": "Die Grenze verläuft entlang des Flusses.",
+          "lv": "Piir kulgeb mööda jõge."
+        },
+        {
+          "de": "Wie ist die Besprechung verlaufen?",
+          "lv": "Kuidas nõupidamine kulges?"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich verlaufen",
+          "meaning": "ära eksima",
+          "example": "Ich habe mich verlaufen. – Ma eksisin ära."
+        },
+        {
+          "word": "stattfinden",
+          "meaning": "toimuma, aset leidma",
+          "example": "Die Feier findet morgen statt. – Pidu toimub homme."
+        },
+        {
+          "word": "ablaufen",
+          "meaning": "kulgema, lõppema",
+          "example": "Der Tag ist ruhig abgelaufen. – Päev möödus rahulikult."
+        }
+      ],
+      "tip": [
+        "Tavaliselt lisatakse viis: gut, schlecht, ruhig, ohne Probleme verlaufen.",
+        "Meditsiinis kirjeldab see sageli haiguse kulgu: Die Krankheit verläuft leicht."
+      ],
+      "important": [
+        "Täisminevikus kasutatakse sein'i: ist verlaufen (mitte hat verlaufen)."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "verlaufen"
+            "verlaufen",
+            "verläuft",
+            "verlief",
+            "ist verlaufen",
+            "sich verlaufen"
           ],
           "purple": [
-            "kulgemist",
-            "toimumist"
-          ],
-          "red": [
-            "sich verlaufen"
+            "kulgema",
+            "toimuma",
+            "ulatuma"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "verlaufen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kulges"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verlief"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "möödus"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verläuft"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kulgeb"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verlaufen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kulges"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich verlaufen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ära eksima"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "stattfinden"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "aset leidma"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "ablaufen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "kulgema"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {}
+        ]
       }
     }
   }

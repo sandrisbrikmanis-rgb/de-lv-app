@@ -59,7 +59,7 @@ const C2_WORDS = [
     "de": "Anführungszeichen",
     "de_article": "das",
     "de_plural": "die Anführungszeichen",
-    "lv": "jutumärgid",
+    "lv": "jutumärk",
     "level": "C2"
   },
   {
@@ -181,31 +181,61 @@ const C2_WORDS = [
       "id": "c2-gewichtseinheit",
       "layout": "standardStudy",
       "translation": "kaaluühik",
-      "explanation": "Põhiidee: die Gewichtseinheit tähendab kaaluühikut. Seda kasutatakse, kui räägitakse kilogrammidest, grammidest, tonnidest ja teistest kaalu/massi ühikutest.",
+      "explanation": [
+        "Põhimõte: die Gewichtseinheit on kaaluühik, mida kasutatakse kaalu mõõtmiseks: gramm, kilogramm, tonn, nael.",
+        "Naissoost liitsõna: die Gewichtseinheit, mitmus die Gewichtseinheiten. See koosneb sõnadest das Gewicht (kaal) ja die Einheit (ühik).",
+        "Liitsõna on tehniline ja neutraalne; igapäevaselt kasutatakse konkreetseid ühikuid (Kilogramm, Gramm, Pfund)."
+      ],
       "examples": [
         {
-          "de": "Kilogramm ist eine Gewichtseinheit.",
-          "lv": "kilogramm on kaaluühik."
+          "de": "Das Kilogramm ist eine Gewichtseinheit.",
+          "lv": "Kilogramm on kaaluühik."
         },
         {
-          "de": "Welche Gewichtseinheit soll ich benutzen?",
-          "lv": "millist kaaluühikut ma peaksin kasutama?"
+          "de": "Das Pfund ist eine alte Gewichtseinheit.",
+          "lv": "Nael on vana kaaluühik."
         },
         {
-          "de": "Gramm und Tonne sind Gewichtseinheiten.",
-          "lv": "gramm ja tonn on kaaluühikud."
+          "de": "Welche Gewichtseinheit wird in Deutschland verwendet?",
+          "lv": "Millist kaaluühikut kasutatakse Saksamaal?"
         }
       ],
-      "comparison": [],
-      "tip": "Liitsõna koosneb osadest das Gewicht (kaal) + die Einheit (ühik) — kaaluühik.",
-      "important": "Ära aja segi die Gewichtseinheit (mõõtühik, nt kilogramm) ja das Gewicht (kaal ise, konkreetne väärtus).",
+      "comparison": [
+        {
+          "word": "die Maßeinheit",
+          "meaning": "mõõtühik",
+          "example": "Der Meter ist eine Maßeinheit. – Meeter on mõõtühik."
+        },
+        {
+          "word": "die Längeneinheit",
+          "meaning": "pikkusühik",
+          "example": "Der Kilometer ist eine Längeneinheit. – Kilomeeter on pikkusühik."
+        },
+        {
+          "word": "das Gewicht",
+          "meaning": "kaal",
+          "example": "Das Gewicht beträgt zwei Kilo. – Kaal on kaks kilogrammi."
+        }
+      ],
+      "tip": [
+        "Liitsõna artikkel on viimase osa artikkel: die Einheit, seega die Gewichtseinheit.",
+        "Samamoodi moodustatakse: Längeneinheit, Zeiteinheit, Volumeneinheit."
+      ],
+      "important": [
+        "Igapäevaselt tähistab sõna Gewicht sageli massi, kuid füüsikas on kaal ja mass erinevad mõisted."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "Gewichtseinheit"
+            "die Gewichtseinheit",
+            "die Gewichtseinheiten",
+            "Gewichtseinheit",
+            "das Gewicht",
+            "die Einheit"
           ],
           "purple": [
-            "kaaluühikut"
+            "kaaluühik",
+            "ühik"
           ]
         },
         "examples": [
@@ -229,19 +259,19 @@ const C2_WORDS = [
             },
             "lv": {
               "purple": [
-                "kaaluühikut"
+                "kaaluühik"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "Gewichtseinheiten"
+                "Gewichtseinheit"
               ]
             },
             "lv": {
               "purple": [
-                "kaaluühikud"
+                "kaaluühikut"
               ]
             }
           }
@@ -249,13 +279,25 @@ const C2_WORDS = [
         "comparison": [
           {
             "word": {
-              "blue": [
-                "die Gewichtseinheit"
+              "green": [
+                "die Maßeinheit"
               ]
             },
             "meaning": {
               "purple": [
-                "kaaluühik"
+                "mõõtühik"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Längeneinheit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "pikkusühik"
               ]
             }
           },
@@ -266,37 +308,19 @@ const C2_WORDS = [
               ]
             },
             "meaning": {
-              "yellow": [
-                "kaal"
-              ]
-            }
-          },
-          {
-            "word": {
-              "red": [
-                "die Masse"
-              ]
-            },
-            "meaning": {
               "purple": [
-                "mass"
+                "kaal"
               ]
             }
           }
         ],
-        "tip": {
-          "blue": [
-            "Liitsõna"
-          ]
-        },
-        "important": {
-          "blue": [
-            "Gewichtseinheit"
-          ],
-          "green": [
-            "Gewicht"
-          ]
-        }
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {}
+        ]
       }
     }
   },
@@ -399,7 +423,7 @@ const C2_WORDS = [
     "de": "Streichinstrument",
     "de_article": "das",
     "de_plural": "die Streichinstrumente",
-    "lv": "keelpill",
+    "lv": "poogenpill",
     "level": "C2"
   },
   {
@@ -517,7 +541,7 @@ const C2_WORDS = [
     "de": "Schlittschuhkufe",
     "de_article": "die",
     "de_plural": "die Schlittschuhkufen",
-    "lv": "uisu tera",
+    "lv": "uisutera",
     "level": "C2"
   },
   {
@@ -534,7 +558,7 @@ const C2_WORDS = [
   },
   {
     "de": "sicherheitshalber",
-    "lv": "ohutuse mõttes",
+    "lv": "igaks juhuks • kindluse mõttes",
     "level": "C2"
   },
   {
@@ -694,7 +718,7 @@ const C2_WORDS = [
     "de": "Berichterstatter",
     "de_article": "der",
     "de_plural": "die Berichterstatter",
-    "lv": "referent",
+    "lv": "korrespondent • reporter • ettekandja",
     "level": "C2"
   },
   {
@@ -805,7 +829,7 @@ const C2_WORDS = [
     "de": "Durchfuhrerlaubnis",
     "de_article": "die",
     "de_plural": "die Durchfuhrerlaubnisse",
-    "lv": "läbisõiduluba",
+    "lv": "transiidiluba",
     "level": "C2"
   },
   {
@@ -919,7 +943,7 @@ const C2_WORDS = [
   {
     "de": "Fallschirmspringen",
     "de_article": "das",
-    "lv": "langevarjuhüpe",
+    "lv": "langevarjuhüppamine",
     "level": "C2"
   },
   {
@@ -947,7 +971,7 @@ const C2_WORDS = [
     "de": "Führerpersönlichkeit",
     "de_article": "die",
     "de_plural": "die Führerpersönlichkeiten",
-    "lv": "juhi isiksus",
+    "lv": "juhiisiksus",
     "level": "C2"
   },
   {
@@ -1172,7 +1196,7 @@ const C2_WORDS = [
     "de": "Gewinnauszahlung",
     "de_article": "die",
     "de_plural": "die Gewinnauszahlungen",
-    "lv": "kasumi või võidu väljamaksmine",
+    "lv": "võidu väljamakse",
     "level": "C2"
   },
   {
@@ -1263,7 +1287,7 @@ const C2_WORDS = [
     "de": "Kriegsentschädigung",
     "de_article": "die",
     "de_plural": "die Kriegsentschädigungen",
-    "lv": "reparatsioonid",
+    "lv": "sõjakahjude hüvitis • reparatsioonid",
     "level": "C2"
   },
   {
@@ -1459,7 +1483,7 @@ const C2_WORDS = [
     "de": "Strafgesetzbuch",
     "de_article": "das",
     "de_plural": "die Strafgesetzbücher",
-    "lv": "jur. kriminaalkoodeks",
+    "lv": "karistusseadustik",
     "level": "C2"
   },
   {
@@ -1553,14 +1577,14 @@ const C2_WORDS = [
     "de": "Karre",
     "de_article": "die",
     "de_plural": "die Karren",
-    "lv": "kärutis",
+    "lv": "käru",
     "level": "C2"
   },
   {
     "de": "Karren",
     "de_article": "der",
     "de_plural": "die Karren",
-    "lv": "kärutis",
+    "lv": "käru",
     "level": "C2"
   },
   {

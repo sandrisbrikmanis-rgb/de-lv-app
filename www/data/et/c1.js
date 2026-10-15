@@ -27,12 +27,12 @@ const C1_WORDS = [
     "de": "Stellungnahme",
     "de_article": "die",
     "de_plural": "die Stellungnahmen",
-    "lv": "ametlik avaldus",
+    "lv": "seisukoht • seisukohavõtt",
     "level": "C1"
   },
   {
     "de": "nachvollziehen",
-    "lv": "mõista",
+    "lv": "mõistma",
     "level": "C1"
   },
   {
@@ -120,7 +120,7 @@ const C1_WORDS = [
     "de": "Abart",
     "de_article": "die",
     "de_plural": "die Abarten",
-    "lv": "kõrvalekalle",
+    "lv": "teisend • erim",
     "level": "C1"
   },
   {
@@ -139,12 +139,12 @@ const C1_WORDS = [
     "de": "Affekt",
     "de_article": "der",
     "de_plural": "die Affekte",
-    "lv": "afektipurse",
+    "lv": "afekt • tundepuhang",
     "level": "C1"
   },
   {
     "de": "ächten",
-    "lv": "tõrjuma",
+    "lv": "välja tõrjuma • hukka mõistma",
     "level": "C1"
   },
   {
@@ -237,14 +237,14 @@ const C1_WORDS = [
   },
   {
     "de": "außerordentlich",
-    "lv": "erakorraline",
+    "lv": "erakordne • erakorraline",
     "level": "C1"
   },
   {
     "de": "Autokennzeichen",
     "de_article": "das",
     "de_plural": "die Autokennzeichen",
-    "lv": "auto numbrimärgi tähed ja numbrid",
+    "lv": "numbrimärk • registreerimisnumber",
     "level": "C1"
   },
   {
@@ -268,7 +268,7 @@ const C1_WORDS = [
   },
   {
     "de": "beschäftigen",
-    "lv": "tööle võtma",
+    "lv": "tööd andma • hõivama",
     "level": "C1"
   },
   {
@@ -292,7 +292,7 @@ const C1_WORDS = [
     "de": "Besichtigung",
     "de_article": "die",
     "de_plural": "die Besichtigungen",
-    "lv": "vaatamine",
+    "lv": "ülevaatus • külastus",
     "level": "C1"
   },
   {
@@ -304,7 +304,7 @@ const C1_WORDS = [
     "de": "Autobahnbrücke",
     "de_article": "die",
     "de_plural": "die Autobahnbrücken",
-    "lv": "teeviadukt",
+    "lv": "kiirteesild",
     "level": "C1"
   },
   {
@@ -318,7 +318,7 @@ const C1_WORDS = [
     "de": "Dampfbügeleisen",
     "de_article": "das",
     "de_plural": "die Dampfbügeleisen",
-    "lv": "auruga triikraud",
+    "lv": "aurutriikraud",
     "level": "C1"
   },
   {
@@ -366,28 +366,61 @@ const C1_WORDS = [
       "id": "c1-einfamilienhaus",
       "layout": "standardStudy",
       "translation": "üksikelamu",
-      "explanation": "Põhiidee: das Einfamilienhaus on maja ühele perele. See tähendab tavaliselt eraldiseisvat eramaja, mitte kortermaja.",
+      "explanation": [
+        "Põhimõte: das Einfamilienhaus on üksikelamu — ühele perele mõeldud maja, kas eraldiseisev või naabritega kokku ehitatud, kuid ühe korteriga ja tavaliselt oma aiaga. Eesti keeles öeldakse ka eramu.",
+        "Kesksoost nimisõna: das Einfamilienhaus, mitmus die Einfamilienhäuser. Koosneb osadest Ein- + Familie + Haus; liitsõna soo määrab viimane osa (das Haus).",
+        "Vastand on das Mehrfamilienhaus (kortermaja)."
+      ],
       "examples": [
         {
-          "de": "Sie wohnen in einem Einfamilienhaus.",
-          "lv": "nad elavad üksikelamus."
+          "de": "Sie wohnen in einem Einfamilienhaus am Stadtrand.",
+          "lv": "Nad elavad linnaserval üksikelamus."
         },
         {
-          "de": "Das Einfamilienhaus hat einen Garten.",
-          "lv": "üksikelamul on aed."
+          "de": "Das Einfamilienhaus hat einen kleinen Garten.",
+          "lv": "Üksikelamul on väike aed."
         },
         {
-          "de": "Nebenan steht ein Mehrfamilienhaus.",
-          "lv": "kõrval asub kortermaja."
+          "de": "Sie träumen von einem eigenen Einfamilienhaus.",
+          "lv": "Nad unistavad oma üksikelamust."
+        },
+        {
+          "de": "In dieser Siedlung stehen nur Einfamilienhäuser.",
+          "lv": "Selles elamurajoonis on ainult üksikelamud."
         }
       ],
-      "comparison": [],
-      "tip": "Liitsõna koosneb osadest eine Familie (üks pere) + Haus (maja) — see aitab meelde jätta, et tegu on ühe pere majaga.",
-      "important": "Ära aja segi das Einfamilienhaus (üksikelamu) ja das Mehrfamilienhaus (kortermaja) — vahe on majas elavate perede arvus.",
+      "comparison": [
+        {
+          "word": "das Mehrfamilienhaus",
+          "meaning": "kortermaja",
+          "example": "Im Mehrfamilienhaus wohnen zehn Familien. – Kortermajas elab kümme perekonda."
+        },
+        {
+          "word": "das Reihenhaus",
+          "meaning": "ridaelamu",
+          "example": "Das Reihenhaus steht zwischen zwei anderen. – Ridaelamu asub kahe teise vahel."
+        },
+        {
+          "word": "das Hochhaus",
+          "meaning": "kõrghoone",
+          "example": "Im Hochhaus gibt es einen Aufzug. – Kõrghoones on lift."
+        }
+      ],
+      "tip": [
+        "Liitsõna saab mõista osade kaupa: ein + Familie + Haus.",
+        "Sage ühend: ein Einfamilienhaus bauen / kaufen / mieten."
+      ],
+      "important": [
+        "Einfamilienhaus ei ole sama mis Villa: see võib olla ka täiesti lihtne maja."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "Einfamilienhaus"
+          ],
+          "purple": [
+            "üksikelamu",
+            "eramu"
           ]
         },
         "examples": [
@@ -411,19 +444,31 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "üksikelamul"
+                "Üksikelamul"
               ]
             }
           },
           {
             "de": {
-              "green": [
-                "Mehrfamilienhaus"
+              "blue": [
+                "Einfamilienhaus"
               ]
             },
             "lv": {
-              "yellow": [
-                "kortermaja"
+              "purple": [
+                "üksikelamust"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Einfamilienhäuser"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "üksikelamud"
               ]
             }
           }
@@ -431,31 +476,19 @@ const C1_WORDS = [
         "comparison": [
           {
             "word": {
-              "blue": [
-                "das Einfamilienhaus"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "üksikelamu"
-              ]
-            }
-          },
-          {
-            "word": {
               "green": [
                 "das Mehrfamilienhaus"
               ]
             },
             "meaning": {
-              "yellow": [
+              "purple": [
                 "kortermaja"
               ]
             }
           },
           {
             "word": {
-              "red": [
+              "green": [
                 "das Reihenhaus"
               ]
             },
@@ -464,21 +497,27 @@ const C1_WORDS = [
                 "ridaelamu"
               ]
             }
+          },
+          {
+            "word": {
+              "green": [
+                "das Hochhaus"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "kõrghoone"
+              ]
+            }
           }
         ],
-        "tip": {
-          "blue": [
-            "Liitsõna"
-          ]
-        },
-        "important": {
-          "blue": [
-            "Einfamilienhaus"
-          ],
-          "green": [
-            "Mehrfamilienhaus"
-          ]
-        }
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {}
+        ]
       }
     }
   },
@@ -603,7 +642,7 @@ const C1_WORDS = [
   {
     "de": "Gewichtheben",
     "de_article": "das",
-    "lv": "tõstmine",
+    "lv": "tõstesport",
     "level": "C1"
   },
   {
@@ -862,32 +901,67 @@ const C1_WORDS = [
     "study": {
       "id": "c1-offentlichkeit",
       "layout": "standardStudy",
-      "translation": "avalikkus",
-      "explanation": "Põhiidee: die Öffentlichkeit tähendab avalikkust kui avalikku ruumi või inimesi tervikuna. Väljendis an die Öffentlichkeit kommen tähendab see avalikuks saamist.",
+      "translation": "avalikkus • avalik ruum",
+      "explanation": [
+        "Põhimõte: die Öffentlichkeit on avalikkus — kõik inimesed, kellele miski on kättesaadav või teada —, aga ka avalik ruum ja olukord, kus miski ei ole salajane.",
+        "Naissoost nimisõna: die Öffentlichkeit, mitmust praktiliselt ei kasutata. Sagedased väljendid: in der Öffentlichkeit (avalikult, avalikus kohas), an die Öffentlichkeit gehen (avalikkuse ette tulema, avalikustama), unter Ausschluss der Öffentlichkeit (avalikkuse juuresolekuta), die Öffentlichkeit informieren.",
+        "Eesti sõnale ühiskond vastab saksa keeles die Gesellschaft — see on teine tähendus. Öffentlichkeit ei ole ühiskond kui süsteem, vaid avalikkus."
+      ],
       "examples": [
         {
-          "de": "Die Öffentlichkeit reagierte kritisch.",
-          "lv": "avalikkus reageeris kriitiliselt."
+          "de": "Der Politiker trat vor die Öffentlichkeit.",
+          "lv": "Poliitik astus avalikkuse ette."
         },
         {
-          "de": "Der Fall kam an die Öffentlichkeit.",
-          "lv": "juhtum sai avalikuks."
+          "de": "In der Öffentlichkeit darf man hier nicht rauchen.",
+          "lv": "Avalikes kohtades on siin suitsetamine keelatud."
         },
         {
-          "de": "Die Öffentlichkeit hat ein Recht auf Information.",
-          "lv": "avalikkusel on õigus infole."
+          "de": "Die Verhandlung fand unter Ausschluss der Öffentlichkeit statt.",
+          "lv": "Kohtuistung toimus avalikkuse juuresolekuta."
+        },
+        {
+          "de": "Die Firma will den Skandal nicht an die Öffentlichkeit bringen.",
+          "lv": "Firma ei taha skandaali avalikuks teha."
         }
       ],
-      "comparison": [],
-      "tip": "Väljend an die Öffentlichkeit kommen/gehen tähendab avalikuks saamist või minemist.",
-      "important": "Ära aja segi die Öffentlichkeit (avalikkus, nimisõna) ja öffentlich (avalik, omadussõna).",
+      "comparison": [
+        {
+          "word": "die Gesellschaft",
+          "meaning": "ühiskond (kui süsteem)",
+          "example": "Die Gesellschaft verändert sich. – Ühiskond muutub."
+        },
+        {
+          "word": "das Publikum",
+          "meaning": "publik",
+          "example": "Das Publikum klatscht. – Publik plaksutab."
+        },
+        {
+          "word": "die Bevölkerung",
+          "meaning": "elanikkond, rahvastik",
+          "example": "Die Bevölkerung wächst. – Rahvastik kasvab."
+        }
+      ],
+      "tip": [
+        "Kasutatakse koos eessõnadega: in der Öffentlichkeit (kus?), an die Öffentlichkeit (kuhu?).",
+        "Sarnase tähendusega on sõna die Allgemeinheit (kõik inimesed üldiselt)."
+      ],
+      "important": [
+        "Mitmust tavaliselt ei kasutata: vormi die Öffentlichkeiten praktiliselt ei esine."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "Öffentlichkeit"
+            "die Öffentlichkeit",
+            "in der Öffentlichkeit",
+            "an die Öffentlichkeit gehen",
+            "unter Ausschluss der Öffentlichkeit",
+            "Gesellschaft"
           ],
           "purple": [
-            "avalikkust"
+            "avalikkus",
+            "avalik ruum",
+            "avalikult"
           ]
         },
         "examples": [
@@ -899,7 +973,31 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "avalikkus"
+                "avalikkuse"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Öffentlichkeit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Avalikes kohtades"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Öffentlichkeit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "avalikkuse"
               ]
             }
           },
@@ -914,71 +1012,53 @@ const C1_WORDS = [
                 "avalikuks"
               ]
             }
-          },
-          {
-            "de": {
-              "blue": [
-                "Öffentlichkeit"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "avalikkusel"
-              ]
-            }
           }
         ],
         "comparison": [
           {
             "word": {
-              "blue": [
-                "die Öffentlichkeit"
+              "green": [
+                "die Gesellschaft"
               ]
             },
             "meaning": {
               "purple": [
-                "avalikkus"
+                "ühiskond"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "öffentlich"
+                "das Publikum"
               ]
             },
             "meaning": {
-              "yellow": [
-                "avalik"
+              "purple": [
+                "publik"
               ]
             }
           },
           {
             "word": {
-              "red": [
-                "die Privatsphäre"
+              "green": [
+                "die Bevölkerung"
               ]
             },
             "meaning": {
               "purple": [
-                "privaatsfäär"
+                "elanikkond"
               ]
             }
           }
         ],
-        "tip": {
-          "blue": [
-            "Öffentlichkeit"
-          ]
-        },
-        "important": {
-          "blue": [
-            "Öffentlichkeit"
-          ],
-          "green": [
-            "öffentlich"
-          ]
-        }
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {}
+        ]
       }
     }
   },
@@ -998,33 +1078,66 @@ const C1_WORDS = [
     "study": {
       "id": "c1-partei",
       "layout": "standardStudy",
-      "translation": "partei",
-      "explanation": "Põhiidee: die Partei on tavaliselt poliitiline partei. Juriidilises või konfliktikeeles võib see tähendada ka poolt.",
+      "translation": "partei • pool",
+      "explanation": [
+        "Põhimõte: die Partei on poliitiline partei (die CDU ist eine Partei), aga ka pool vaidluses, kohtus või lepingus: die Streitparteien, die Vertragsparteien.",
+        "Naissoost nimisõna: die Partei, mitmus die Parteien. Väljend Partei ergreifen für jemanden — kellegi poolele asuma.",
+        "Poliitikas kasutatakse sageli: eine Partei gründen (parteid asutama), in eine Partei eintreten (parteisse astuma), die Regierungspartei (valitsuspartei)."
+      ],
       "examples": [
         {
-          "de": "Diese Partei gewann die Wahl.",
-          "lv": "see partei võitis valimised."
+          "de": "Sie ist Mitglied einer Partei.",
+          "lv": "Ta on ühe partei liige."
         },
         {
-          "de": "Er ist seit Jahren Mitglied einer Partei.",
-          "lv": "ta on juba aastaid partei liige."
+          "de": "Die Parteien verhandeln über eine Koalition.",
+          "lv": "Parteid peavad koalitsiooniläbirääkimisi."
         },
         {
-          "de": "Beide Parteien müssen den Vertrag unterschreiben.",
-          "lv": "mõlemad pooled peavad lepingu allkirjastama."
+          "de": "Im Streit ergriff er Partei für seinen Bruder.",
+          "lv": "Tülis asus ta oma venna poolele."
+        },
+        {
+          "de": "Beide Parteien haben den Vertrag unterschrieben.",
+          "lv": "Mõlemad pooled on lepingule alla kirjutanud."
         }
       ],
-      "comparison": [],
-      "tip": "Kontekst näitab, kas Partei on poliitiline organisatsioon või juriidiline pool.",
-      "important": "Ära aja segi die Partei (pool, osaline vaidluses või lepingus) ja der Teil (osa millestki) — need on erineva tähendusega.",
+      "comparison": [
+        {
+          "word": "die Seite",
+          "meaning": "pool, külg",
+          "example": "Auf welcher Seite stehst du? – Kelle poolel sa oled?"
+        },
+        {
+          "word": "der Verein",
+          "meaning": "selts, ühing",
+          "example": "Er ist im Sportverein. – Ta on spordiseltsis."
+        },
+        {
+          "word": "die Gruppe",
+          "meaning": "rühm, grupp",
+          "example": "Die Gruppe trifft sich heute. – Rühm kohtub täna."
+        }
+      ],
+      "tip": [
+        "Partei ergreifen (kellegi poolele asuma) on kasulik väljend vaidluste kirjeldamisel.",
+        "Poliitikas öeldakse eine Partei wählen või für eine Partei stimmen."
+      ],
+      "important": [
+        "Die Partei ja die Party (pidu) kõlavad sarnaselt, kuid ei ole omavahel seotud."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "Partei"
+            "Partei",
+            "Parteien"
           ],
           "purple": [
             "partei",
-            "poolt"
+            "pool",
+            "poolele",
+            "parteid",
+            "parteisse"
           ]
         },
         "examples": [
@@ -1043,23 +1156,35 @@ const C1_WORDS = [
           {
             "de": {
               "blue": [
-                "Partei"
+                "Parteien"
               ]
             },
             "lv": {
               "purple": [
-                "partei"
+                "Parteid"
               ]
             }
           },
           {
             "de": {
-              "green": [
+              "blue": [
+                "Partei"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "poolele"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
                 "Parteien"
               ]
             },
             "lv": {
-              "yellow": [
+              "purple": [
                 "pooled"
               ]
             }
@@ -1068,54 +1193,48 @@ const C1_WORDS = [
         "comparison": [
           {
             "word": {
-              "blue": [
-                "die Partei (politisch)"
+              "green": [
+                "die Seite"
               ]
             },
             "meaning": {
               "purple": [
-                "poliitiline partei"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "die Partei (juristisch)"
-              ]
-            },
-            "meaning": {
-              "yellow": [
                 "pool"
               ]
             }
           },
           {
             "word": {
-              "red": [
-                "der Teil"
+              "green": [
+                "der Verein"
               ]
             },
             "meaning": {
               "purple": [
-                "osa"
+                "selts"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Gruppe"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "rühm"
               ]
             }
           }
         ],
-        "tip": {
-          "blue": [
-            "Partei"
-          ]
-        },
-        "important": {
-          "blue": [
-            "Partei"
-          ],
-          "red": [
-            "Teil"
-          ]
-        }
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {}
+        ]
       }
     }
   },
@@ -1170,33 +1289,64 @@ const C1_WORDS = [
     "study": {
       "id": "c1-prozess",
       "layout": "standardStudy",
-      "translation": "protsess",
-      "explanation": "Põhiidee: der Prozess on protsess või kulg. Kohtus tähendab der Prozess kohtuprotsessi.",
+      "translation": "protsess • kohtuprotsess",
+      "explanation": [
+        "Põhimõte: der Prozess on kahe peamise tähendusega sõna: protsess, kulg (ein langsamer Prozess) ja kohtuprotsess (ein Prozess gegen jemanden).",
+        "Meessoost nimisõna: der Prozess, mitmus die Prozesse. Kohtuprotsessi saab pidada, alustada, võita või kaotada: einen Prozess führen, gewinnen, verlieren.",
+        "Väljend kurzen Prozess machen tähendab pikalt kõhklemata, halastamatult tegutsema — asjaga lühidalt ühele poole saama."
+      ],
       "examples": [
         {
-          "de": "Der Prozess dauert mehrere Monate.",
-          "lv": "protsess kestab mitu kuud."
+          "de": "Der Prozess gegen den Angeklagten dauert Monate.",
+          "lv": "Kohtuprotsess süüdistatava üle kestab kuid."
         },
         {
-          "de": "Der Prozess vor Gericht beginnt morgen.",
-          "lv": "kohtuprotsess algab homme."
+          "de": "Die Heilung ist ein langsamer Prozess.",
+          "lv": "Paranemine on aeglane protsess."
         },
         {
-          "de": "Wir verbessern den ganzen Prozess.",
-          "lv": "me täiustame kogu protsessi."
+          "de": "Sie haben den Prozess gewonnen.",
+          "lv": "Nad võitsid kohtuprotsessi."
+        },
+        {
+          "de": "Die Firma machte kurzen Prozess und kündigte ihm.",
+          "lv": "Firma ei kõhelnud kaua ja vallandas ta."
         }
       ],
-      "comparison": [],
-      "tip": "Kontekst (kohus, äri, tehnika) näitab, kas Prozess tähendab üldist protsessi või kohtuprotsessi.",
-      "important": "Ära aja segi der Prozess (protsess, kohtuprotsess) ja das Verfahren (ametlik menetlus) — Verfahren on formaalsem sõna.",
+      "comparison": [
+        {
+          "word": "der Vorgang",
+          "meaning": "toiming, käik",
+          "example": "Der Vorgang dauert eine Stunde. – Toiming kestab tund aega."
+        },
+        {
+          "word": "die Verhandlung",
+          "meaning": "kohtuistung",
+          "example": "Die Verhandlung beginnt um neun. – Kohtuistung algab kell üheksa."
+        },
+        {
+          "word": "die Klage",
+          "meaning": "hagi",
+          "example": "Er reichte eine Klage ein. – Ta esitas hagi."
+        }
+      ],
+      "tip": [
+        "Kui jutt on kohtust, esinevad sageli tegusõnad: einen Prozess führen / gewinnen / verlieren.",
+        "Prozess kui kulg on ka tehniline ja teaduslik termin: der Prozess der Herstellung (tootmisprotsess)."
+      ],
+      "important": [
+        "Selles tähenduses ei ole sõna kesksoost: der Prozess (mitte das Prozess)."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "Prozess"
+            "Prozess",
+            "Prozesse"
           ],
           "purple": [
             "protsess",
-            "kohtuprotsessi"
+            "kohtuprotsess",
+            "Kohtuprotsessi"
           ]
         },
         "examples": [
@@ -1208,19 +1358,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "protsess"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "Prozess"
-              ]
-            },
-            "lv": {
-              "yellow": [
-                "kohtuprotsess"
+                "Kohtuprotsess"
               ]
             }
           },
@@ -1232,7 +1370,31 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "protsessi"
+                "protsess"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Prozess"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kohtuprotsessi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Prozess"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ei kõhelnud kaua"
               ]
             }
           }
@@ -1240,54 +1402,48 @@ const C1_WORDS = [
         "comparison": [
           {
             "word": {
-              "blue": [
-                "der Prozess (allgemein)"
+              "green": [
+                "Vorgang"
               ]
             },
             "meaning": {
               "purple": [
-                "protsess"
+                "toiming"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "der Prozess (juristisch)"
+                "Verhandlung"
               ]
             },
             "meaning": {
-              "yellow": [
-                "kohtuprotsess"
+              "purple": [
+                "kohtuistung"
               ]
             }
           },
           {
             "word": {
-              "red": [
-                "das Verfahren"
+              "green": [
+                "Klage"
               ]
             },
             "meaning": {
               "purple": [
-                "menetlus"
+                "hagi"
               ]
             }
           }
         ],
-        "tip": {
-          "blue": [
-            "Prozess"
-          ]
-        },
-        "important": {
-          "blue": [
-            "Prozess"
-          ],
-          "red": [
-            "Verfahren"
-          ]
-        }
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {}
+        ]
       }
     }
   },
@@ -1341,7 +1497,7 @@ const C1_WORDS = [
   },
   {
     "de": "rezeptpflichtig",
-    "lv": "retsepti alusel",
+    "lv": "retseptikohustuslik",
     "level": "C1"
   },
   {
@@ -1381,7 +1537,7 @@ const C1_WORDS = [
     "de": "Schneewittchen",
     "de_article": "das",
     "de_plural": "die Schneewittchen",
-    "lv": "muinasjututegelane Lumivalgeke",
+    "lv": "Lumivalgeke",
     "level": "C1"
   },
   {
@@ -1395,7 +1551,7 @@ const C1_WORDS = [
     "de": "Schutzumschlag",
     "de_article": "der",
     "de_plural": "die Schutzumschläge",
-    "lv": "ümbrispaber",
+    "lv": "kaitseümbris • raamatuümbris",
     "level": "C1"
   },
   {
@@ -1488,14 +1644,14 @@ const C1_WORDS = [
     "de": "Teilzeitarbeit",
     "de_article": "die",
     "de_plural": "die Teilzeitarbeiten",
-    "lv": "osaajaga töö",
+    "lv": "osalise tööajaga töö",
     "level": "C1"
   },
   {
     "de": "Terminkalender",
     "de_article": "der",
     "de_plural": "die Terminkalender",
-    "lv": "kohtumiste kalender",
+    "lv": "kalendermärkmik",
     "level": "C1"
   },
   {
@@ -1660,7 +1816,7 @@ const C1_WORDS = [
     "de": "Wettbewerb",
     "de_article": "der",
     "de_plural": "die Wettbewerbe",
-    "lv": "konkurss",
+    "lv": "võistlus • konkurents • konkurss",
     "level": "C1"
   },
   {
@@ -1680,85 +1836,94 @@ const C1_WORDS = [
     "study": {
       "id": "c1-zusammenfassen",
       "layout": "standardStudy",
-      "translation": "kokku võtma",
+      "translation": "kokku võtma • resümeerima",
       "explanation": [
-        "Põhiidee: zusammenfassen on tegusõna — koguda või koondada teave üheks lühikeseks ülevaateks.",
-        "Sõna zusammenfassen kasutatakse, kui mitmest faktist, tekstist või mõttest luuakse lühike ülevaade.",
-        "Ära aja segi sõnaga die Zusammenfassung — see on suure algustähe ja artikliga die nimisõna, mis tähistab kokkuvõtet ennast (tulemust, valmis teksti).",
-        "zusammenfassen = protsess/tegevus (kokku võtma, resümeerima); die Zusammenfassung = tulemus (kokkuvõte nimisõnana).",
-        "Nagu paljud saksa tegusõnad, võib zusammenfassen muutuda nimisõnaks suure algustähe ja artikliga: zusammenfassen → die Zusammenfassung (substantiveerumine)."
+        "Põhimõte: zusammenfassen tähendab teksti, kõne või tulemuste olulisimat lühidalt kokku võtma; samuti mitut asja üheks tervikuks ühendama.",
+        "Eraldatava eesliitega tegusõna: er fasst zusammen, fasste zusammen, hat zusammengefasst. Seda, mida kokku võetakse, väljendab akusatiiv: einen Text zusammenfassen. Sageli järgneb in + datiiv või zu + datiiv: in einem Satz zusammenfassen. Nimisõna on die Zusammenfassung (kokkuvõte).",
+        "Lause alguses kasutatakse sageli sõna zusammenfassend (kokkuvõtteks): Zusammenfassend lässt sich sagen …"
       ],
       "examples": [
         {
-          "de": "Können Sie den Text zusammenfassen?",
-          "lv": "kas te saate selle teksti kokku võtta?"
+          "de": "Fasst bitte den Text in drei Sätzen zusammen.",
+          "lv": "Võtke palun tekst kolme lausega kokku."
         },
         {
-          "de": "Ich fasse die wichtigsten Punkte zusammen.",
-          "lv": "ma võtan kokku kõige tähtsamad punktid."
+          "de": "Der Redner fasste die Ergebnisse kurz zusammen.",
+          "lv": "Kõneleja võttis tulemused lühidalt kokku."
         },
         {
-          "de": "Er hat den Bericht kurz zusammengefasst.",
-          "lv": "ta resümeeris lühidalt ülevaate."
+          "de": "Wir haben die Vorschläge in einer Liste zusammengefasst.",
+          "lv": "Me koondasime ettepanekud ühte nimekirja."
         },
         {
-          "de": "Zusammenfassend kann man sagen, dass...",
-          "lv": "kokkuvõttes võib öelda, et..."
+          "de": "Kannst du den Film kurz zusammenfassen?",
+          "lv": "Kas sa saad filmi sisu lühidalt kokku võtta?"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "zusammenstellen",
+          "meaning": "koostama",
+          "example": "Ich stelle eine Liste zusammen. – Ma koostan nimekirja."
         },
         {
-          "de": "Ich schreibe eine Zusammenfassung des Buches.",
-          "lv": "ma kirjutan raamatu kokkuvõtet."
+          "word": "kürzen",
+          "meaning": "lühendama",
+          "example": "Wir kürzen den Text. – Me lühendame teksti."
         },
         {
-          "de": "Die Zusammenfassung ist zu lang.",
-          "lv": "kokkuvõte on liiga pikk."
+          "word": "wiederholen",
+          "meaning": "kordama",
+          "example": "Wiederhole den Satz. – Korda lauset."
         }
       ],
       "tip": [
-        "zusammenfassen (tegusõna) = protsess — kokku võtma/resümeerima.",
-        "die Zusammenfassung (nimisõna, suure algustähe ja artikliga die) = tulemus — kokkuvõte ise."
+        "Pea meeles eesliite eraldumist: Ich fasse den Text zusammen, kuid kõrvallauses …, weil ich den Text zusammenfasse.",
+        "Pärast zusammenfassen järgneb sageli in einem Satz / in drei Punkten."
       ],
       "important": [
-        "zusammenfassen = kokku võtma/resümeerima (tegusõna).",
-        "die Zusammenfassung = kokkuvõte (nimisõna, substantiveeritud sõnast zusammenfassen).",
-        "Valesti: die zusammenfassen → Õigesti: die Zusammenfassung (nimisõna alati suure algustähega)."
+        "Mineviku kesksõna on zusammengefasst (-ge- osade zusammen ja fasst vahel).",
+        "Ära aja segi sõnaga zusammenstellen: see tähendab koostama, mitte lühidalt kokku võtma."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "zusammenfassen"
+            "zusammenfassen",
+            "zusammenfassend",
+            "fasst zusammen",
+            "fasste zusammen",
+            "zusammengefasst",
+            "Zusammenfassung"
           ],
           "purple": [
             "kokku võtma",
-            "resümeerima"
-          ],
-          "green": [
-            "die Zusammenfassung"
+            "ühendama"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "zusammenfassen"
+                "Fasst"
               ]
             },
             "lv": {
               "purple": [
-                "kokku võtta"
+                "Võtke",
+                "kokku"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "fasse",
-                "zusammen"
+                "fasste"
               ]
             },
             "lv": {
               "purple": [
-                "võtan kokku"
+                "võttis",
+                "kokku"
               ]
             }
           },
@@ -1770,78 +1935,68 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "resümeeris"
+                "koondasime"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "Zusammenfassend"
+                "zusammenfassen"
               ]
             },
             "lv": {
               "purple": [
-                "kokkuvõttes"
+                "kokku võtta"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "zusammenstellen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "koostama"
               ]
             }
           },
           {
-            "de": {
+            "word": {
               "green": [
-                "Zusammenfassung"
+                "kürzen"
               ]
             },
-            "lv": {
+            "meaning": {
               "purple": [
-                "kokkuvõtet"
+                "lühendama"
               ]
             }
           },
           {
-            "de": {
+            "word": {
               "green": [
-                "Zusammenfassung"
+                "wiederholen"
               ]
             },
-            "lv": {
+            "meaning": {
               "purple": [
-                "kokkuvõte"
+                "kordama"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "blue": [
-              "zusammenfassen"
-            ]
-          },
-          {
-            "green": [
-              "die Zusammenfassung"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "blue": [
-              "zusammenfassen"
-            ]
-          },
-          {
-            "green": [
-              "die Zusammenfassung"
-            ]
-          },
-          {
-            "green": [
-              "die Zusammenfassung"
-            ],
-            "red": [
-              "die zusammenfassen"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -1895,49 +2050,66 @@ const C1_WORDS = [
     "study": {
       "id": "c1-wahl",
       "layout": "standardStudy",
-      "translation": "valik",
+      "translation": "valik • valimised",
       "explanation": [
-        "Põhiidee: die Wahl tähendab valikut kahe või enama võimaluse vahel.",
-        "Poliitika kontekstis tähendab die Wahl valimisi või hääletamist ennast.",
-        "Väljend eine Wahl treffen tähendab valiku tegemist; zur Wahl gehen tähendab valimistele minemist.",
-        "Kontekst — isiklik otsus või poliitika — näitab, kumb tähendus on õige."
+        "Põhimõte: die Wahl tähendab valikut (seda, mida mitme võimaluse seast valitakse) ja valimisi (inimeste ametisse valimist).",
+        "Naissoost nimisõna: die Wahl, mitmus die Wahlen. Valimiste tähenduses kasutatakse väga sageli mitmust: die Wahlen finden statt. Valik on tavaliselt ainsuses: die Wahl haben, keine andere Wahl haben.",
+        "Ühendid: die Wahl treffen (valikut tegema), zur Wahl gehen (valima minema), die Wahl gewinnen (valimisi võitma)."
       ],
       "examples": [
         {
-          "de": "Du hast die Wahl.",
-          "lv": "sul on valik."
+          "de": "Du hast die Wahl zwischen Tee und Kaffee.",
+          "lv": "Sul on valik tee ja kohvi vahel."
         },
         {
-          "de": "Ich treffe meine Wahl morgen.",
-          "lv": "ma teen oma valiku homme."
+          "de": "Die Wahlen finden im Herbst statt.",
+          "lv": "Valimised toimuvad sügisel."
         },
         {
-          "de": "Die Wahl findet am Sonntag statt.",
-          "lv": "valimised toimuvad pühapäeval."
+          "de": "Er hatte keine andere Wahl.",
+          "lv": "Tal ei olnud muud valikut."
         },
         {
-          "de": "Viele Menschen gehen zur Wahl.",
-          "lv": "paljud inimesed lähevad valimistele."
-        },
-        {
-          "de": "Die freie Wahl ist wichtig.",
-          "lv": "vaba valik on tähtis."
-        },
-        {
-          "de": "Bei der Wahl stimmen wir ab.",
-          "lv": "valimistel me hääletame."
+          "de": "Die Wahl des Bürgermeisters ist am Sonntag.",
+          "lv": "Linnapea valimised on pühapäeval."
         }
       ],
-      "comparison": [],
-      "tip": "eine Wahl treffen = valikut teha; zur Wahl gehen = valimistele minna.",
-      "important": "Ära aja segi die Wahl (valik / valimised) ja die Auswahl (valikuvõimalus, nt poes olev sortiment).",
+      "comparison": [
+        {
+          "word": "die Auswahl",
+          "meaning": "valik (sortiment)",
+          "example": "Im Laden gibt es eine große Auswahl. – Poes on suur valik."
+        },
+        {
+          "word": "die Entscheidung",
+          "meaning": "otsus",
+          "example": "Das ist meine Entscheidung. – See on minu otsus."
+        },
+        {
+          "word": "die Abstimmung",
+          "meaning": "hääletus",
+          "example": "Die Abstimmung ist morgen. – Hääletus on homme."
+        }
+      ],
+      "tip": [
+        "Mõtle kontekstile: Wahl ainsuses on sageli valik, die Wahlen — valimised.",
+        "Valimise tegusõna on wählen (valima, hääletama)."
+      ],
+      "important": [
+        "Ära aja segi sõnu die Wahl ja die Auswahl: Auswahl on pakkumine, mille seast valitakse."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "Wahl"
+            "die Wahl",
+            "die Wahlen",
+            "Wahlen",
+            "Wahl",
+            "zur Wahl gehen",
+            "die Wahl treffen"
           ],
           "purple": [
-            "valiku",
+            "valikut",
             "valimisi"
           ]
         },
@@ -1957,36 +2129,12 @@ const C1_WORDS = [
           {
             "de": {
               "blue": [
-                "Wahl"
+                "Wahlen"
               ]
             },
             "lv": {
               "purple": [
-                "valiku"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "Wahl"
-              ]
-            },
-            "lv": {
-              "yellow": [
-                "valimised"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "Wahl"
-              ]
-            },
-            "lv": {
-              "yellow": [
-                "valimistele"
+                "Valimised"
               ]
             }
           },
@@ -1998,19 +2146,19 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "valik"
+                "valikut"
               ]
             }
           },
           {
             "de": {
-              "green": [
+              "blue": [
                 "Wahl"
               ]
             },
             "lv": {
-              "yellow": [
-                "valimistel"
+              "purple": [
+                "valimised"
               ]
             }
           }
@@ -2018,54 +2166,48 @@ const C1_WORDS = [
         "comparison": [
           {
             "word": {
-              "blue": [
-                "die Wahl (Möglichkeit)"
+              "green": [
+                "die Auswahl"
               ]
             },
             "meaning": {
               "purple": [
-                "valik"
+                "sortiment"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "die Wahl (Politik)"
+                "die Entscheidung"
               ]
             },
             "meaning": {
-              "yellow": [
-                "valimised"
+              "purple": [
+                "otsus"
               ]
             }
           },
           {
             "word": {
-              "red": [
-                "die Auswahl"
+              "green": [
+                "die Abstimmung"
               ]
             },
             "meaning": {
               "purple": [
-                "valikuvõimalus"
+                "hääletus"
               ]
             }
           }
         ],
-        "tip": {
-          "blue": [
-            "Wahl"
-          ]
-        },
-        "important": {
-          "blue": [
-            "Wahl"
-          ],
-          "red": [
-            "Auswahl"
-          ]
-        }
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {}
+        ]
       }
     }
   },
@@ -2087,7 +2229,7 @@ const C1_WORDS = [
     "de": "Abgeordnete",
     "de_article": "der",
     "de_plural": "die Abgeordneten",
-    "lv": "saadik",
+    "lv": "rahvasaadik • parlamendiliige",
     "level": "C1"
   },
   {
@@ -2175,8 +2317,169 @@ const C1_WORDS = [
     "de": "Befangenheit",
     "de_article": "die",
     "de_plural": "die Befangenheiten",
-    "lv": "erapoolikus",
-    "level": "C1"
+    "lv": "kohmetus • erapoolikus",
+    "level": "C1",
+    "study": {
+      "id": "c1-befangenheit",
+      "layout": "standardStudy",
+      "translation": "kohmetus • erapoolikus",
+      "explanation": [
+        "Põhimõte: die Befangenheit on kohmetus või häbelik kohmakus, mis tekib võõras olukorras või inimeste ees. Juriidiliselt tähendab see ka erapoolikust, näiteks kohtuniku või eksperdi eelarvamuslikkust.",
+        "Naissoost nimisõna: die Befangenheit, mitmust tavaliselt ei kasutata. Omadussõna on befangen (kohmetu, erapoolik).",
+        "Kohtus tähistab väljend Besorgnis der Befangenheit kahtlust kohtuniku erapooletuses; sellest tuleneb Befangenheitsantrag (kohtuniku taandamise taotlus)."
+      ],
+      "examples": [
+        {
+          "de": "Seine Befangenheit war deutlich zu spüren.",
+          "lv": "Tema kohmetus oli selgelt tunda."
+        },
+        {
+          "de": "Sie sprach ohne jede Befangenheit vor der Gruppe.",
+          "lv": "Ta rääkis grupi ees ilma vähimagi kohmetuseta."
+        },
+        {
+          "de": "Vor Fremden hatte das Kind eine gewisse Befangenheit.",
+          "lv": "Võõraste ees tundis laps teatavat kohmetust."
+        },
+        {
+          "de": "Der Anwalt stellte einen Antrag wegen Befangenheit des Richters.",
+          "lv": "Advokaat esitas taotluse kohtuniku erapoolikuse tõttu."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "die Verlegenheit",
+          "meaning": "piinlikkus, kohmetus",
+          "example": "Er lachte aus Verlegenheit. – Ta naeris piinlikkusest."
+        },
+        {
+          "word": "die Voreingenommenheit",
+          "meaning": "eelarvamuslikkus",
+          "example": "Ihre Voreingenommenheit stört mich. – Tema eelarvamuslikkus häirib mind."
+        },
+        {
+          "word": "die Schüchternheit",
+          "meaning": "häbelikkus",
+          "example": "Seine Schüchternheit verschwand. – Tema häbelikkus kadus."
+        }
+      ],
+      "tip": [
+        "Kui kohtus räägitakse Befangenheit'ist, on tähendus erapoolikus, mitte kohmetus.",
+        "Kohmetuse tähenduses on sõna raamatulik; igapäevaselt öeldakse sagedamini verlegen sein."
+      ],
+      "important": [
+        "Vastand on Unbefangenheit (vabadus, pingevabadus) või Objektivität (objektiivsus)."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "die Befangenheit",
+            "Befangenheit",
+            "befangen",
+            "Befangenheitsantrag"
+          ],
+          "purple": [
+            "kohmetus",
+            "erapoolikust"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Befangenheit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kohmetus"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Befangenheit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kohmetuseta"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Befangenheit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kohmetust"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Befangenheit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "erapoolikuse"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "die Verlegenheit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "piinlikkus"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Voreingenommenheit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "eelarvamuslikkus"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Schüchternheit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "häbelikkus"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "beglaubigen",
@@ -2233,7 +2536,7 @@ const C1_WORDS = [
     "de": "Berufsberater",
     "de_article": "der",
     "de_plural": "die Berufsberater",
-    "lv": "tööalane nõustaja",
+    "lv": "karjäärinõustaja • kutsenõustaja",
     "level": "C1"
   },
   {
@@ -2272,7 +2575,168 @@ const C1_WORDS = [
     "de_article": "die",
     "de_plural": "die Berufungen",
     "lv": "kutsumus",
-    "level": "C1"
+    "level": "C1",
+    "study": {
+      "id": "c1-berufung",
+      "layout": "standardStudy",
+      "translation": "kutsumus",
+      "explanation": [
+        "Põhimõte: die Berufung on mitme tähendusega sõna: kutsumus (sisemine tõmme mingi elukutse poole), ametisse kutsumine (eriti ülikoolis), viitamine millelegi (unter Berufung auf) ning õiguses apellatsioon (Berufung einlegen).",
+        "Naissoost nimisõna: die Berufung, mitmus die Berufungen. Vastav tegusõna on berufen, viitamist väljendab aga sich berufen auf + akusatiiv.",
+        "Tähenduse määrab tavaliselt ühend: Berufung einlegen — apellatsiooni esitama; unter Berufung auf — viidates millelegi."
+      ],
+      "examples": [
+        {
+          "de": "Sie spürt die Berufung zur Ärztin.",
+          "lv": "Ta tunneb kutsumust saada arstiks."
+        },
+        {
+          "de": "Die Anwältin legte gegen das Urteil Berufung ein.",
+          "lv": "Advokaat esitas otsuse peale apellatsiooni."
+        },
+        {
+          "de": "Er lehnte die Fragen unter Berufung auf das Datenschutzgesetz ab.",
+          "lv": "Ta keeldus küsimustele vastamast, viidates andmekaitseseadusele."
+        },
+        {
+          "de": "Seine Berufung an die Universität kam überraschend.",
+          "lv": "Tema ametisse kutsumine ülikooli tuli ootamatult."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "der Beruf",
+          "meaning": "elukutse, amet",
+          "example": "Mein Beruf ist Lehrer. – Minu elukutse on õpetaja."
+        },
+        {
+          "word": "der Einspruch",
+          "meaning": "vastuväide, protest",
+          "example": "Er legte Einspruch ein. – Ta esitas vastuväite."
+        },
+        {
+          "word": "die Revision",
+          "meaning": "kassatsioon",
+          "example": "Die Revision wurde abgelehnt. – Kassatsioonkaebus lükati tagasi."
+        }
+      ],
+      "tip": [
+        "Jäta meelde kaks püsiühendit: Berufung einlegen (apellatsiooni esitama) ja unter Berufung auf (viidates millelegi).",
+        "Der Beruf (elukutse) ja die Berufung (kutsumus) on sugulassõnad, kuid tähendavad eri asju."
+      ],
+      "important": [
+        "Apellatsioon Saksa õigussüsteemis (Berufung) ei ole sama mis Revision, mis kontrollib ainult õiguse kohaldamist."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Berufung",
+            "Berufungen"
+          ],
+          "purple": [
+            "kutsumus",
+            "ametisse kutsumine",
+            "apellatsioon",
+            "apellatsiooni"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Berufung"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kutsumust"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Berufung"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apellatsiooni"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Berufung"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "viidates"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Berufung"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ametisse kutsumine"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "der Beruf"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "elukutse"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Einspruch"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "vastuväide"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Revision"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "kassatsioon"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "Besatzungsmacht",
@@ -2372,7 +2836,7 @@ const C1_WORDS = [
   {
     "de": "Bildhauerkunst",
     "de_article": "die",
-    "lv": "skulptuur",
+    "lv": "kujurikunst • skulptuur",
     "level": "C1"
   },
   {
@@ -2407,7 +2871,7 @@ const C1_WORDS = [
     "de": "Botschafter",
     "de_article": "der",
     "de_plural": "die Botschafter",
-    "lv": "saadik",
+    "lv": "suursaadik",
     "level": "C1"
   },
   {
@@ -2523,12 +2987,12 @@ const C1_WORDS = [
   },
   {
     "de": "dienstpflichtig",
-    "lv": "sõjaväeteenistuskohustuslik",
+    "lv": "ajateenistuskohustuslik",
     "level": "C1"
   },
   {
     "de": "diensttauglich",
-    "lv": "sõjaväeteenistuskõlblik",
+    "lv": "teenistuskõlblik",
     "level": "C1"
   },
   {
@@ -2572,7 +3036,7 @@ const C1_WORDS = [
     "de": "Durchfuhrverbot",
     "de_article": "das",
     "de_plural": "die Durchfuhrverbote",
-    "lv": "läbisõidukeeld",
+    "lv": "transiidikeeld",
     "level": "C1"
   },
   {
@@ -2626,7 +3090,7 @@ const C1_WORDS = [
   },
   {
     "de": "sich einschmeicheln",
-    "lv": "end sisse pugema",
+    "lv": "lipitsema • sisse pugema",
     "level": "C1"
   },
   {
@@ -2654,7 +3118,7 @@ const C1_WORDS = [
     "de": "Einverständnis",
     "de_article": "das",
     "de_plural": "die Einverständnisse",
-    "lv": "üksmeel",
+    "lv": "nõusolek • üksmeel",
     "level": "C1"
   },
   {
@@ -2728,7 +3192,7 @@ const C1_WORDS = [
   },
   {
     "de": "entschlossen",
-    "lv": "otsustav",
+    "lv": "otsusekindel • kindlameelne",
     "level": "C1"
   },
   {
@@ -2774,7 +3238,7 @@ const C1_WORDS = [
     "de": "Ersatzspieler",
     "de_article": "der",
     "de_plural": "die Ersatzspieler",
-    "lv": "reservväelane",
+    "lv": "varumängija",
     "level": "C1"
   },
   {
@@ -2787,7 +3251,170 @@ const C1_WORDS = [
   {
     "de": "festgesetzt",
     "lv": "kindlaks määratud",
-    "level": "C1"
+    "level": "C1",
+    "study": {
+      "id": "c1-festgesetzt",
+      "layout": "standardStudy",
+      "translation": "kindlaks määratud",
+      "explanation": [
+        "Põhimõte: festgesetzt on tegusõna festsetzen kesksõna ja tähendab ametlikult kindlaks määratud, paika pandud (tähtaeg, hind, karistus). See kirjeldab midagi, mis on määratud siduvana.",
+        "Eraldatava eesliitega tegusõna: er setzt fest, setzte fest, hat festgesetzt. Omadussõnana saab see lõpud: der festgesetzte Termin, die festgesetzte Frist. Passiivis: wurde festgesetzt.",
+        "Õiguskeeles võib festsetzen tähendada ka inimest kinni pidama: Die Täter wurden festgesetzt."
+      ],
+      "examples": [
+        {
+          "de": "Der Termin ist auf den 5. Mai festgesetzt.",
+          "lv": "Tähtaeg on määratud 5. maiks."
+        },
+        {
+          "de": "Die Preise wurden vom Staat festgesetzt.",
+          "lv": "Hinnad määras kindlaks riik."
+        },
+        {
+          "de": "Die Strafe wurde auf zwei Jahre festgesetzt.",
+          "lv": "Karistuseks määrati kaks aastat."
+        },
+        {
+          "de": "Die festgesetzte Frist läuft morgen ab.",
+          "lv": "Kindlaks määratud tähtaeg lõpeb homme."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "festgelegt",
+          "meaning": "kindlaks määratud (kokkuleppel)",
+          "example": "Der Plan ist festgelegt. – Plaan on paika pandud."
+        },
+        {
+          "word": "beschlossen",
+          "meaning": "otsustatud",
+          "example": "Das wurde beschlossen. – See otsustati."
+        },
+        {
+          "word": "bestimmt",
+          "meaning": "määratud, ette nähtud",
+          "example": "Der Ort ist bestimmt. – Koht on määratud."
+        }
+      ],
+      "tip": [
+        "Kasutatakse sageli sõnadega Frist, Termin, Preis, Strafe, Höhe: auf einen Betrag festgesetzt.",
+        "Kõnekeeles öeldakse sagedamini festgelegt; festgesetzt kõlab ametlikumalt."
+      ],
+      "important": [
+        "Pööra tähelepanu tähendusele: festgesetzt tähendab kinni peetud ainult politsei või kohtu kontekstis."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "festgesetzt",
+            "festsetzen",
+            "setzt fest",
+            "setzte fest",
+            "festgesetzte",
+            "hat festgesetzt"
+          ],
+          "purple": [
+            "kindlaks määratud",
+            "kinni pidama"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "festgesetzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "määratud"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "festgesetzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "määras kindlaks"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "festgesetzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "määrati"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "festgesetzte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Kindlaks määratud"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "festgelegt"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "kokkuleppel"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "beschlossen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "otsustatud"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "bestimmt"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ette nähtud"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "feuergefährlich",
@@ -2957,7 +3584,7 @@ const C1_WORDS = [
   },
   {
     "de": "geistesabwesend",
-    "lv": "hajevil",
+    "lv": "hajameelne • hajevil",
     "level": "C1"
   },
   {
@@ -2991,55 +3618,66 @@ const C1_WORDS = [
     "study": {
       "id": "c1-gelegentlich",
       "layout": "standardStudy",
-      "translation": "aeg-ajalt",
-      "explanation": "Põhiidee: gelegentlich on kolme funktsiooniga sõna. Omadussõna: juhuslik (ein gelegentlicher Besuch). Määrsõna: aeg-ajalt (Er kommt gelegentlich). Eessõna + genitiiv: seoses (gelegentlich des Festes).",
+      "translation": "aeg-ajalt • juhuslik • seoses",
+      "explanation": [
+        "Põhimõte: gelegentlich on kõige sagedamini määrsõna aeg-ajalt, vahel: miski ei toimu regulaarselt, vaid aeg-ajalt. Omadussõnana tähendab see juhuslik või üksik: gelegentliche Schauer — üksikud vihmahood.",
+        "Harvem ja ametlikumalt on gelegentlich genitiiviga eessõna, mis tähendab seoses millegagi: gelegentlich seines Geburtstags — seoses tema sünnipäevaga. See kasutus kõlab tänapäeval väga ametlikult või vananenult.",
+        "Määrsõnana gelegentlich ei muutu; omadussõnana saab see lõpud."
+      ],
       "examples": [
         {
-          "de": "Er kommt gelegentlich vorbei.",
-          "lv": "ta astub aeg-ajalt läbi."
+          "de": "Wir treffen uns gelegentlich auf einen Kaffee.",
+          "lv": "Me saame aeg-ajalt kohvi joomas kokku."
         },
         {
-          "de": "Ein gelegentlicher Besuch reicht.",
-          "lv": "juhuslikust külastusest piisab."
+          "de": "Er raucht nur gelegentlich.",
+          "lv": "Ta suitsetab ainult aeg-ajalt."
         },
         {
-          "de": "Gelegentlich des Festes gab es eine Rede.",
-          "lv": "peo puhul peeti kõne."
+          "de": "Gelegentliche Schauer sind möglich.",
+          "lv": "Võimalikud on üksikud vihmahood."
+        },
+        {
+          "de": "Gelegentlich seines Geburtstags hielt er eine Rede.",
+          "lv": "Seoses oma sünnipäevaga pidas ta kõne."
         }
       ],
       "comparison": [
         {
-          "word": "gelegentlich (Adv.)",
-          "meaning": "aeg-ajalt",
-          "example": "Er kommt gelegentlich. = Ta tuleb aeg-ajalt."
-        },
-        {
-          "word": "gelegentlich (Adj.)",
-          "meaning": "juhuslik",
-          "example": "ein gelegentlicher Besuch = juhuslik külastus"
-        },
-        {
-          "word": "gelegentlich (+ Gen.)",
-          "meaning": "aeg-ajalt",
-          "example": "gelegentlich des Festes = peo puhul"
-        },
-        {
           "word": "manchmal",
-          "meaning": "vahel",
-          "example": "Manchmal regnet es. = Mõnikord sajab vihma."
+          "meaning": "mõnikord",
+          "example": "Manchmal gehe ich laufen. – Mõnikord käin jooksmas."
+        },
+        {
+          "word": "ab und zu",
+          "meaning": "vahetevahel, aeg-ajalt",
+          "example": "Ab und zu rufe ich ihn an. – Vahetevahel helistan talle."
+        },
+        {
+          "word": "selten",
+          "meaning": "harva",
+          "example": "Er kommt selten. – Ta tuleb harva."
         }
       ],
-      "tip": "Positsioon lauses aitab: enne nimisõna = omadussõna; pärast tegusõna = määrsõna; + genitiiv = eessõna.",
-      "important": "Adj: juhuslik. Adv: aeg-ajalt. Prep. + Gen.: seoses. Kontekst määrab tähenduse.",
+      "tip": [
+        "Kui tahad öelda vahel, kuid mitte regulaarselt, kasuta gelegentlich või ab und zu.",
+        "Igapäevaselt kuuled sagedamini sõna manchmal; gelegentlich on hoolikam ja kirjakeelsem."
+      ],
+      "important": [
+        "Gelegentlich ei tähenda juhust ega võimalust: selle jaoks on die Gelegenheit (võimalus)."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "gelegentlich"
+            "gelegentlich",
+            "gelegentliche",
+            "gelegentlich seines Geburtstags"
           ],
           "purple": [
             "aeg-ajalt",
             "juhuslik",
-            "seoses"
+            "seoses",
+            "üksikud"
           ]
         },
         "examples": [
@@ -3063,7 +3701,19 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "juhuslikust"
+                "aeg-ajalt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Gelegentliche"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "üksikud"
               ]
             }
           },
@@ -3075,10 +3725,55 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "puhul"
+                "Seoses"
               ]
             }
           }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "manchmal"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "mõnikord"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "ab und zu"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "vahetevahel"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "selten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "harva"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {}
         ]
       }
     }
@@ -3211,7 +3906,7 @@ const C1_WORDS = [
   },
   {
     "de": "geschlechtsreif",
-    "lv": "suguküpseks saanud",
+    "lv": "suguküps",
     "level": "C1"
   },
   {
@@ -3319,7 +4014,7 @@ const C1_WORDS = [
   },
   {
     "de": "haften",
-    "lv": "kinni jääma",
+    "lv": "külge kleepuma • vastutama",
     "level": "C1"
   },
   {
@@ -3361,7 +4056,7 @@ const C1_WORDS = [
     "de": "Hausdurchsuchung",
     "de_article": "die",
     "de_plural": "die Hausdurchsuchungen",
-    "lv": "politsei läbiotsimine",
+    "lv": "kodu läbiotsimine",
     "level": "C1"
   },
   {
@@ -3399,7 +4094,7 @@ const C1_WORDS = [
   },
   {
     "de": "herunterkommen",
-    "lv": "alla käima",
+    "lv": "alla tulema • alla käima",
     "level": "C1"
   },
   {
@@ -3454,7 +4149,7 @@ const C1_WORDS = [
     "de": "Intensivstation",
     "de_article": "die",
     "de_plural": "die Intensivstationen",
-    "lv": "haigla intensiivravi osakond",
+    "lv": "intensiivraviosakond",
     "level": "C1"
   },
   {
@@ -3498,7 +4193,7 @@ const C1_WORDS = [
   },
   {
     "de": "körperbehindert",
-    "lv": "füüsilise puudega inimene",
+    "lv": "füüsilise puudega • liikumispuudega",
     "level": "C1"
   },
   {
@@ -3540,7 +4235,7 @@ const C1_WORDS = [
     "de": "Lebenserwartung",
     "de_article": "die",
     "de_plural": "die Lebenserwartungen",
-    "lv": "keskmine eluiga",
+    "lv": "oodatav eluiga",
     "level": "C1"
   },
   {
@@ -3565,7 +4260,7 @@ const C1_WORDS = [
   {
     "de": "Leistungssport",
     "de_article": "der",
-    "lv": "tippspord",
+    "lv": "tippsport • võistlussport",
     "level": "C1"
   },
   {
@@ -3637,12 +4332,12 @@ const C1_WORDS = [
     "de": "Meineid",
     "de_article": "der",
     "de_plural": "die Meineide",
-    "lv": "tahtlik valeütlus kohtus",
+    "lv": "valevanne",
     "level": "C1"
   },
   {
     "de": "menschenfeindlich",
-    "lv": "inimestevaenulik",
+    "lv": "inimvaenulik",
     "level": "C1"
   },
   {
@@ -3976,7 +4671,7 @@ const C1_WORDS = [
     "de": "Spitzenleistung",
     "de_article": "die",
     "de_plural": "die Spitzenleistungen",
-    "lv": "rekord",
+    "lv": "tippsaavutus • rekord",
     "level": "C1"
   },
   {
@@ -4020,7 +4715,7 @@ const C1_WORDS = [
   },
   {
     "de": "synchronisieren",
-    "lv": "filmi dubleerima",
+    "lv": "sünkroniseerima • dubleerima",
     "level": "C1"
   },
   {
@@ -4052,19 +4747,19 @@ const C1_WORDS = [
     "de": "Überbleibsel",
     "de_article": "das",
     "de_plural": "die Überbleibsel",
-    "lv": "jäänused",
+    "lv": "jäänus • ülejääk",
     "level": "C1"
   },
   {
     "de": "übereinstimmen",
-    "lv": "kokku sobima",
+    "lv": "ühtima • kokku langema • nõus olema",
     "level": "C1"
   },
   {
     "de": "Überschuss",
     "de_article": "der",
     "de_plural": "die Überschüsse",
-    "lv": "jääk",
+    "lv": "ülejääk",
     "level": "C1"
   },
   {
@@ -4078,12 +4773,12 @@ const C1_WORDS = [
     "de": "Unannehmlichkeit",
     "de_article": "die",
     "de_plural": "die Unannehmlichkeiten",
-    "lv": "ebameeldivused",
+    "lv": "ebameeldivus",
     "level": "C1"
   },
   {
     "de": "unausgeglichen",
-    "lv": "tasakaalustamata",
+    "lv": "tasakaalutu • tasakaalustamata",
     "level": "C1"
   },
   {
@@ -4105,8 +4800,174 @@ const C1_WORDS = [
   },
   {
     "de": "verabschieden",
-    "lv": "töölt vabastama",
-    "level": "C1"
+    "lv": "hüvasti jätma • ära saatma • vastu võtma (seadust)",
+    "level": "C1",
+    "study": {
+      "id": "c1-verabschieden",
+      "layout": "standardStudy",
+      "translation": "hüvasti jätma • ära saatma • vastu võtma (seadust)",
+      "explanation": [
+        "Põhimõte: sich verabschieden tähendab kellegagi hüvasti jätma: Ich verabschiede mich von dir. Isik, kellega hüvasti jäetakse, järgneb eessõnaga von + datiiv.",
+        "Enesekohane tegusõna: ich verabschiede mich, er verabschiedet sich, verabschiedete sich, hat sich verabschiedet. Ilma sich'ita võib verabschieden tähendada kedagi pidulikult ära saatma (der Direktor wurde in den Ruhestand verabschiedet) või seadust vastu võtma (ein Gesetz verabschieden).",
+        "Nimisõna on die Verabschiedung (hüvastijätt, seaduse vastuvõtmine)."
+      ],
+      "examples": [
+        {
+          "de": "Ich verabschiede mich von meinen Kollegen.",
+          "lv": "Ma jätan kolleegidega hüvasti."
+        },
+        {
+          "de": "Sie verabschiedete sich und ging nach Hause.",
+          "lv": "Ta jättis hüvasti ja läks koju."
+        },
+        {
+          "de": "Das Parlament hat das Gesetz verabschiedet.",
+          "lv": "Parlament võttis seaduse vastu."
+        },
+        {
+          "de": "Der Direktor wurde nach dreißig Jahren in den Ruhestand verabschiedet.",
+          "lv": "Direktor saadeti kolmekümne aasta järel pidulikult pensionile."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Abschied nehmen",
+          "meaning": "hüvasti jätma",
+          "example": "Er nahm Abschied von seiner Heimat. – Ta jättis kodumaaga hüvasti."
+        },
+        {
+          "word": "beschließen",
+          "meaning": "otsustama, otsust vastu võtma",
+          "example": "Der Rat beschließt das Budget. – Nõukogu võtab eelarve vastu."
+        },
+        {
+          "word": "winken",
+          "meaning": "lehvitama",
+          "example": "Sie winkt zum Abschied. – Ta lehvitab hüvastijätuks."
+        }
+      ],
+      "tip": [
+        "Igapäevaselt hüvasti jättes öeldakse: Ich verabschiede mich, tschüss! või Auf Wiedersehen!",
+        "Et öelda, kellega hüvasti jäetakse, kasuta alati von + datiiv."
+      ],
+      "important": [
+        "Seaduse puhul tähendab verabschieden vastuvõtmist parlamendis; see ei ole igapäevane hüvastijätu tähendus."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "sich verabschieden",
+            "verabschiede",
+            "verabschiedete",
+            "verabschiedet",
+            "von",
+            "Verabschiedung"
+          ],
+          "purple": [
+            "hüvasti jätma",
+            "ära saatma",
+            "seadust vastu võtma"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "verabschiede"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "jätan",
+                "hüvasti"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verabschiedete"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "jättis hüvasti"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verabschiedet"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "võttis",
+                "vastu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verabschiedet"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "saadeti"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "Abschied nehmen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "hüvasti jätma"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "beschließen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "otsustama"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "winken"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "lehvitama"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "veränderlich",
@@ -4115,12 +4976,12 @@ const C1_WORDS = [
   },
   {
     "de": "veranschlagen",
-    "lv": "arvestama",
+    "lv": "eelarvestama • hindama",
     "level": "C1"
   },
   {
     "de": "verdrießlich",
-    "lv": "ebameeldiv",
+    "lv": "tusane • ebameeldiv",
     "level": "C1"
   },
   {
@@ -4151,7 +5012,7 @@ const C1_WORDS = [
     "de": "Vergünstigung",
     "de_article": "die",
     "de_plural": "die Vergünstigungen",
-    "lv": "eelis",
+    "lv": "soodustus • eelis",
     "level": "C1"
   },
   {
@@ -4220,7 +5081,7 @@ const C1_WORDS = [
   },
   {
     "de": "sich verpflichten",
-    "lv": "endale võtma",
+    "lv": "kohustuma",
     "level": "C1"
   },
   {
@@ -4291,7 +5152,7 @@ const C1_WORDS = [
   },
   {
     "de": "vervollkommnen",
-    "lv": "täiendama",
+    "lv": "täiustama",
     "level": "C1"
   },
   {
@@ -4357,53 +5218,82 @@ const C1_WORDS = [
       "id": "c1-wahlberechtigt",
       "layout": "standardStudy",
       "translation": "valimisõiguslik",
-      "explanation": "Põhiidee: wahlberechtigt on omadussõna, mis tähendab, et isikul on õigus valimistel osaleda — hääletada või kandideerida. Liitsõna: Wahl (valimised) + berechtigt (õigustatud).",
+      "explanation": [
+        "Põhimõte: wahlberechtigt on omadussõna, mis tähistab inimest, kellel on valimisõigus — kes tohib valimistel osaleda ja hääletada; eesti keeles valimisõiguslik.",
+        "Nagu teisigi omadussõnu, käänatakse ka seda: wahlberechtigte Bürger. Omadussõnast saab moodustada nimisõna: der/die Wahlberechtigte, die Wahlberechtigten (valimisõiguslik isik).",
+        "Sõna koosneb osadest die Wahl (valimised) ja berechtigt (õigustatud)."
+      ],
       "examples": [
         {
-          "de": "Alle wahlberechtigten Bürger können wählen.",
-          "lv": "kõik valimisõiguslikud kodanikud võivad hääletada."
+          "de": "Alle Bürger ab 18 Jahren sind wahlberechtigt.",
+          "lv": "Kõik kodanikud alates 18. eluaastast on valimisõiguslikud."
         },
         {
-          "de": "Ab 18 Jahren ist man wahlberechtigt.",
-          "lv": "alates 18. eluaastast on valimisõigus."
+          "de": "Nur wahlberechtigte Personen dürfen abstimmen.",
+          "lv": "Hääletada tohivad ainult valimisõiguslikud isikud."
         },
         {
-          "de": "Nicht alle Einwohner sind wahlberechtigt.",
-          "lv": "mitte kõigil elanikel pole valimisõigust."
+          "de": "Wer ist in dieser Stadt wahlberechtigt?",
+          "lv": "Kellel on selles linnas valimisõigus?"
+        },
+        {
+          "de": "Die Zahl der Wahlberechtigten ist gestiegen.",
+          "lv": "Valimisõiguslike kodanike arv on kasvanud."
         }
       ],
       "comparison": [
         {
-          "word": "wahlberechtigt",
-          "meaning": "valimisõiguslik",
-          "example": "Er ist wahlberechtigt. = Tal on hääleõigus."
+          "word": "das Wahlrecht",
+          "meaning": "valimisõigus",
+          "example": "Das Wahlrecht ist ein Grundrecht. – Valimisõigus on põhiõigus."
         },
         {
-          "word": "wählen",
-          "meaning": "valima • hääletama",
-          "example": "Ich wähle heute. = Es šodien balsoju."
+          "word": "wählbar",
+          "meaning": "valitav",
+          "example": "Er ist wählbar. – Ta on valitav."
         },
         {
-          "word": "der Wähler",
-          "meaning": "valija",
-          "example": "Der Wähler geht zur Wahl. = Valija läheb valima."
+          "word": "stimmberechtigt",
+          "meaning": "hääleõiguslik",
+          "example": "Alle Mitglieder sind stimmberechtigt. – Kõik liikmed on hääleõiguslikud."
         }
       ],
-      "tip": "Wahl = valimised, berechtigt = õigustatud. Sageli ajakirjanduses ja õigustekstides.",
-      "important": "wahlberechtigt = valimisõiguslik. Vastand: nicht wahlberechtigt.",
+      "tip": [
+        "Erista: wahlberechtigt (tohib valida) ja wählbar (tohib olla valitud).",
+        "Arvudes kasutatakse: die Zahl der Wahlberechtigten — valimisõiguslike arv."
+      ],
+      "important": [
+        "Wahlberechtigt ei tähenda, et inimene hääletab: see on ainult õigus, mitte tegevus."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "wahlberechtigt",
-            "Wahl",
-            "berechtigt"
+            "wahlberechtigte",
+            "Wahlberechtigten"
+          ],
+          "purple": [
+            "valimisõigus",
+            "valimisõiguslik"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "wahlberechtigten"
+                "wahlberechtigt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "valimisõiguslikud"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "wahlberechtigte"
               ]
             },
             "lv": {
@@ -4427,15 +5317,60 @@ const C1_WORDS = [
           {
             "de": {
               "blue": [
-                "wahlberechtigt"
+                "Wahlberechtigten"
               ]
             },
             "lv": {
               "purple": [
-                "valimisõigust"
+                "Valimisõiguslike"
               ]
             }
           }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "das Wahlrecht"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "valimisõigus"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "wählbar"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "valitav"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "stimmberechtigt"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "hääleõiguslik"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {}
         ]
       }
     }
@@ -4502,7 +5437,7 @@ const C1_WORDS = [
   {
     "de": "Wetterleuchten",
     "de_article": "das",
-    "lv": "hõõguv välk",
+    "lv": "põuavälk",
     "level": "C1"
   },
   {
@@ -4534,55 +5469,63 @@ const C1_WORDS = [
     "study": {
       "id": "c1-zuschlag",
       "layout": "standardStudy",
-      "translation": "lisatasu",
+      "translation": "lisatasu • hinnalisa",
       "explanation": [
-        "Põhiidee: der Zuschlag tähendab lisatasu või hinnalisa — täiendavat summat, mis lisatakse põhihinnale.",
-        "Reisi/transpordi kontekstis on der Zuschlag lisatasu kiirema rongi, parema koha jms eest.",
-        "Ära aja segi sõnadega der Anhang/die Beilage (dokumendi lisa) — see on hoopis teine sõna.",
-        "Enampakkumisel tähendab den Zuschlag erhalten enampakkumise võitmist/tellimuse saamist."
+        "Põhimõte: der Zuschlag on lisatasu, mis arvatakse põhisummale juurde: hinnalisa, lisatasu öötöö, kiirrongi või lisateenuse eest.",
+        "Meessoost nimisõna: der Zuschlag, mitmus die Zuschläge (täishäälikumuutusega a → ä). Teine oluline tähendus oksjonil või hankel: den Zuschlag erhalten — võitma, valituks osutuma.",
+        "Moodustab sageli liitsõnu: Nachtzuschlag, Zugzuschlag, Gefahrenzuschlag."
       ],
       "examples": [
         {
-          "de": "Für den ICE muss man einen Zuschlag zahlen.",
-          "lv": "ICE rongi eest tuleb maksta lisatasu."
+          "de": "Für Nachtarbeit gibt es einen Zuschlag.",
+          "lv": "Öötöö eest makstakse lisatasu."
         },
         {
-          "de": "Der Zuschlag für die Nachtschicht beträgt 20%.",
-          "lv": "öövahetuse lisatasu on 20%."
+          "de": "Im Zug musste ich einen Zuschlag bezahlen.",
+          "lv": "Rongis pidin maksma lisatasu."
         },
         {
-          "de": "Sie erhielt den Zuschlag für den Auftrag.",
-          "lv": "ta sai tellimuse (enampakkumisel)."
+          "de": "Die Firma erhielt den Zuschlag für den Bau.",
+          "lv": "Firma võitis ehitustööde hanke."
         },
         {
-          "de": "Es gibt einen Zuschlag für Übergepäck.",
-          "lv": "liigpagasi eest on lisatasu."
+          "de": "Das Hotel verlangt einen Zuschlag für Haustiere.",
+          "lv": "Hotell küsib lemmikloomade eest lisatasu."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "der Aufpreis",
+          "meaning": "juurdehindlus, lisahind",
+          "example": "Für Leder zahlt man einen Aufpreis. – Naha eest tuleb maksta lisahinda."
         },
         {
-          "de": "Der Preis versteht sich ohne Zuschläge.",
-          "lv": "hind on ilma lisatasudeta."
+          "word": "die Gebühr",
+          "meaning": "tasu, lõiv",
+          "example": "Die Gebühr beträgt zehn Euro. – Lõiv on kümme eurot."
+        },
+        {
+          "word": "der Rabatt",
+          "meaning": "allahindlus",
+          "example": "Sie bekommen einen Rabatt. – Te saate allahindlust."
         }
       ],
       "tip": [
-        "der Zuschlag = lisatasu/hinnalisa (täiendav tasu), mitte dokumendi lisa.",
-        "den Zuschlag erhalten (enampakkumisel) = enampakkumist võitma/tellimust saama."
+        "Pea meeles kaht kasutust: einen Zuschlag bezahlen (lisatasu maksma) ja den Zuschlag erhalten (oksjonil või hankel valituks osutuma).",
+        "Vastand: Zuschlag (juurde arvatud) ja Abschlag (maha arvatud)."
       ],
       "important": [
-        "der Zuschlag = lisatasu/hinnalisa, mitte dokumendi 'lisa'.",
-        "Dokumendi lisa on saksa keeles die Anlage/der Anhang."
+        "Mitmuse põhivorm on die Zuschläge, mitte die Zuschlägen (-n lisandub ainult datiivis: den Zuschlägen)."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "der Zuschlag"
+            "Zuschlag",
+            "Zuschläge"
           ],
           "purple": [
             "lisatasu",
             "hinnalisa"
-          ],
-          "red": [
-            "der Anhang",
-            "die Beilage"
           ]
         },
         "examples": [
@@ -4612,13 +5555,13 @@ const C1_WORDS = [
           },
           {
             "de": {
-              "green": [
+              "blue": [
                 "Zuschlag"
               ]
             },
             "lv": {
               "purple": [
-                "tellimuse"
+                "võitis"
               ]
             }
           },
@@ -4633,49 +5576,52 @@ const C1_WORDS = [
                 "lisatasu"
               ]
             }
-          },
+          }
+        ],
+        "comparison": [
           {
-            "de": {
-              "blue": [
-                "Zuschläge"
+            "word": {
+              "green": [
+                "der Aufpreis"
               ]
             },
-            "lv": {
+            "meaning": {
               "purple": [
-                "lisatasudeta"
+                "lisahind"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Gebühr"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "lõiv"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Rabatt"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "allahindlus"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "blue": [
-              "der",
-              "der"
-            ]
-          },
-          {
-            "green": [
-              "den Zuschlag erhalten"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "purple": [
-              "lisatasu",
-              "hinnalisa"
-            ],
-            "red": [
-              "lisa"
-            ]
-          },
-          {
-            "red": [
-              "die Anlage",
-              "der Anhang"
-            ]
-          }
+          {}
         ]
       }
     }
@@ -4687,66 +5633,166 @@ const C1_WORDS = [
     "study": {
       "id": "c1-beziehen-sich-beziehen-auf",
       "layout": "standardStudy",
-      "translation": "saama (nt pensioni)",
+      "translation": "seostama • käima millegi kohta",
       "explanation": [
-        "Põhiidee: Formaalne register: seostada allikaga, regulaarse pensioni/palga saamisega või korterisse sisseelamisega.",
-        "Näidetes otsi tüüpilist igapäevast kasutust.",
-        "Kui kahtled, kontrolli, kas jutt käib seisundist või tegevusest.",
-        "Kontekst ja tegevuse suund määravad õige valiku."
+        "Põhimõte: etwas auf etwas beziehen tähendab midagi millegi või kellegagi seostama; sich auf etwas beziehen tähendab millegi kohta käima või millelegi viitama.",
+        "Vormid: bezieht, bezog, hat bezogen. Mõlemas konstruktsioonis järgneb auf + akusatiiv: etwas auf sich beziehen (enda kohta võtma), sich auf einen Text beziehen (tekstile viitama).",
+        "Peale selle võib beziehen tähendada ka voodipesu vahetama (das Bett beziehen), sisse kolima (eine Wohnung beziehen) ja regulaarselt saama (ein Gehalt beziehen)."
       ],
       "examples": [
         {
-          "de": "beziehen / sich beziehen auf.",
-          "lv": "ta saab juba aasta pensioni."
+          "de": "Du darfst das nicht auf dich beziehen.",
+          "lv": "Sa ei tohi seda enda kohta võtta."
+        },
+        {
+          "de": "Meine Frage bezieht sich auf den letzten Absatz.",
+          "lv": "Minu küsimus käib viimase lõigu kohta."
+        },
+        {
+          "de": "Er bezieht sich in seinem Brief auf unser Gespräch.",
+          "lv": "Kirjas viitab ta meie vestlusele."
+        },
+        {
+          "de": "Sie bezog die Aussage auf ihren Bruder.",
+          "lv": "Ta seostas väidet oma vennaga."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "betreffen",
+          "meaning": "puudutama, käima millegi kohta",
+          "example": "Das betrifft uns alle. – See puudutab meid kõiki."
+        },
+        {
+          "word": "verweisen auf",
+          "meaning": "viitama millelegi",
+          "example": "Er verweist auf das Gesetz. – Ta viitab seadusele."
+        },
+        {
+          "word": "sich handeln um",
+          "meaning": "olema tegemist millegagi",
+          "example": "Es handelt sich um einen Fehler. – Tegemist on veaga."
         }
       ],
       "tip": [
-        "Formaalne register: seostada allikaga, regulaarse pensioni/palga saamisega või korterisse sisseelamisega.",
-        "Kasuta väljendit beziehen / sich beziehen auf, kui kontekst vastab sellele tähendusele."
+        "Pea meeles paari: sich beziehen auf + akusatiiv. Eessõna on alati auf.",
+        "Kui on vaja öelda enda kohta võtma: etwas auf sich beziehen."
       ],
       "important": [
-        "Formaalne register: seostada allikaga, regulaarse pensioni/palga saamisega või korterisse sisseelamisega.",
-        "beziehen / sich beziehen auf: enne kasutamist kontrolli konteksti ja võrdle kaardil olevate teiste sõnadega."
+        "Beziehen on mitmetähenduslik sõna: kontekst määrab, kas jutt on seostamisest, voodist või palgast.",
+        "Betreffen on sihiline ja ilma eessõnata: Das betrifft mich."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "beziehen",
+            "sich beziehen",
+            "bezieht",
+            "bezog",
+            "bezogen",
+            "auf"
+          ],
           "purple": [
-            "Formaalne"
+            "seostama",
+            "käima",
+            "viitama"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "beziehen / sich beziehen auf",
-                "beziehen / sich beziehen auf"
+                "beziehen"
               ]
             },
             "lv": {
               "purple": [
-                "saab"
+                "enda kohta võtta"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bezieht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "käib"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bezieht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "viitab"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bezog"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "seostas"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "betreffen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "puudutama"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "verweisen auf"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "viitama"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich handeln um"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "tegemist"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "seostada"
-            ]
-          },
-          {
-            "purple": [
-              "Formaalne"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "blue": [
-              "Formaalne"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -4758,146 +5804,163 @@ const C1_WORDS = [
     "study": {
       "id": "c1-beabsichtigen",
       "layout": "standardStudy",
-      "translation": "kavatsema",
+      "translation": "kavatsema • plaanima",
       "explanation": [
-        "Põhiidee: Teadlik kavatsus teha tegevus tulevikus. Ei käi suhte, vaid plaani kohta.",
-        "beabsichtigen tähendab peamiselt: teadlik kavatsus.",
-        "Sageli iseloomustab: plaan / kavatsus.",
-        "beabsichtigen tähendab peamiselt: tegevust plaanima.",
-        "Sageli iseloomustab: ametlik register.",
-        "beabsichtigen tähendab teadlikult kavatseda või plaanida tegevust — mitte suhet, vaid kavatsust."
+        "Põhimõte: beabsichtigen tähendab kavatsema, plaanima, omama kavatsust midagi teha; see on teadlik kavatsus. Kõlab ametlikumalt kui vorhaben.",
+        "Nõrk (reeglipärane) tegusõna: er beabsichtigt, beabsichtigte, hat beabsichtigt. Järgneb kas akusatiiv (etwas beabsichtigen) või zu-ga infinitiiv: Ich beabsichtige, im Herbst umzuziehen. Nimisõna on die Absicht (kavatsus).",
+        "Kesksõna beabsichtigt kasutatakse omadussõnana: eine beabsichtigte Wirkung (taotluslik mõju)."
       ],
       "examples": [
         {
-          "de": "Er beabsichtigt, das Projekt zu beenden.",
-          "lv": "Ta kavatseb projekti lõpetada."
+          "de": "Ich beabsichtige, im Herbst umzuziehen.",
+          "lv": "Ma kavatsen sügisel kolida."
         },
         {
-          "de": "Was beabsichtigen Sie mit dieser Maßnahme?",
-          "lv": "mida te selle meetmega kavatsete?"
+          "de": "Die Firma beabsichtigt, ein neues Werk zu bauen.",
+          "lv": "Firma plaanib ehitada uue tehase."
         },
         {
-          "de": "Wir beabsichtigen keine Änderung.",
-          "lv": "me ei plaani muudatust."
+          "de": "Das war nicht beabsichtigt.",
+          "lv": "See ei olnud tahtlik."
         },
         {
-          "de": "Er beabsichtigt, das Projekt zu beenden.",
-          "lv": "ta kavatseb projekti lõpetada."
+          "de": "Was beabsichtigst du damit?",
+          "lv": "Mida sa sellega saavutada tahad?"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "vorhaben",
+          "meaning": "kavatsema, plaanis olema",
+          "example": "Ich habe vor, morgen zu kommen. – Mul on plaanis homme tulla."
         },
         {
-          "de": "beabsichtigen + zu + nenoteiksme",
-          "lv": "kavatseda midagi teha."
+          "word": "planen",
+          "meaning": "plaanima",
+          "example": "Wir planen eine Reise. – Me plaanime reisi."
+        },
+        {
+          "word": "wollen",
+          "meaning": "tahtma",
+          "example": "Ich will schlafen. – Ma tahan magada."
         }
       ],
       "tip": [
-        "Kui jutt käib suhtest, allikast või regulaarsest saamisest — beziehen. Kui teadlikust plaanist — beabsichtigen.",
-        "beabsichtigen = kavatsema"
+        "Pärast beabsichtigen järgneb kõige sagedamini zu + infinitiiv koos komaga: …, zu bauen.",
+        "Igapäevaselt võid öelda ka vorhaben või planen; beabsichtigen on ametlikum."
       ],
       "important": [
-        "beabsichtigen + zu + infinitiiv: Er beabsichtigt zu gehen.",
-        "beabsichtigen ei saa asendada sõnaga beziehen — see on kavatsus, mitte suhe.",
-        "beabsichtigen → kavatsus, plaan.",
-        "Teadlik kavatsus teha tegevus tulevikus. Ei käi suhte, vaid plaani kohta."
+        "Mineviku kesksõna on beabsichtigt (ilma ge-ta), sest eesliide be- on lahutamatu."
       ],
       "sectionAccents": {
         "explanation": {
-          "green": [
+          "blue": [
             "beabsichtigen",
-            "beabsichtigen"
+            "beabsichtigt",
+            "beabsichtigte",
+            "vorhaben",
+            "Absicht"
           ],
           "purple": [
-            "kavatsus",
-            "plaanima"
+            "kavatsema",
+            "plaanima",
+            "kavatsus"
           ]
         },
         "examples": [
           {
             "de": {
-              "green": [
+              "blue": [
+                "beabsichtige"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kavatsen"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
                 "beabsichtigt"
               ]
             },
             "lv": {
               "purple": [
-                "kavatseb",
-                "kavatseb"
+                "plaanib"
               ]
             }
           },
           {
             "de": {
-              "green": [
-                "beabsichtigen",
-                "beabsichtigen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "kavatsete",
-                "mida"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "beabsichtigen",
-                "beabsichtigen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "plaani",
-                "plaani"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
+              "blue": [
                 "beabsichtigt"
               ]
             },
             "lv": {
               "purple": [
-                "kavatseb",
-                "kavatseb"
+                "tahtlik"
               ]
             }
           },
           {
             "de": {
-              "green": [
-                "beabsichtigen",
-                "beabsichtigen"
+              "blue": [
+                "beabsichtigst"
               ]
             },
             "lv": {
               "purple": [
-                "kavatseda",
-                "kavatseda"
+                "saavutada tahad"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "vorhaben"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "plaanis olema"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "planen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "plaanima"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "wollen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "tahtma"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "kavatsema"
-            ]
-          },
-          {
-            "purple": [
-              "plaanist"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "green": [
-              "beabsichtigen"
-            ]
-          }
+          {}
         ]
       }
     }
@@ -4909,56 +5972,66 @@ const C1_WORDS = [
     "study": {
       "id": "c1-unterstellen",
       "layout": "standardStudy",
-      "translation": "alusetult omistama",
+      "translation": "ette heitma • alusetult omistama",
       "explanation": [
-        "Põhiidee: Alusetult omistada kellelegi süü, motiiv või kavatsus.",
-        "unterstellen tähendab peamiselt: alusetult omistama.",
-        "Sageli iseloomustab: süüdistus / kahtlustus.",
-        "jemandem etwas unterstellen tähendab alusetult ette heita või omistada."
+        "Põhimõte: jemandem etwas unterstellen tähendab kellelegi midagi (kavatsust, sõnu, halba tegu) alusetult omistama või ette heitma, sageli tõenditeta. Teine tähendus on allutama: Die Abteilung ist dem Direktor unterstellt.",
+        "Lahutamatu eesliitega tegusõna, rõhk on osal -stell-: er unterstellt, unterstellte, hat unterstellt. Konstruktsioon: jemandem etwas unterstellen (kellele? mida?). Kui rõhk on osal unter-, on see teine, eraldatava eesliitega tegusõna: Ich stelle das Auto unter — varju alla panema; sich unterstellen — varju otsima.",
+        "Selles tähenduses väljendab sõna kahtlustust või alusetut etteheidet, seepärast kõlab see karmilt."
       ],
       "examples": [
         {
-          "de": "Man unterstellt mir schlechte Absichten.",
-          "lv": "Mulle heidetakse ette halba kavatsust."
+          "de": "Er unterstellt mir böse Absichten.",
+          "lv": "Ta omistab mulle halbu kavatsusi."
         },
         {
-          "de": "Unterstellen Sie mir nichts!",
-          "lv": "ärge heitke mulle midagi ette!"
+          "de": "Das unterstelle ich dir nicht.",
+          "lv": "Seda ma sulle ei omista."
         },
         {
-          "de": "Man darf niemandem Verrat unterstellen.",
-          "lv": "kellelegi ei tohi alusetult ette heita reetmist."
+          "de": "Man unterstellte ihr, dass sie gelogen habe.",
+          "lv": "Talle heideti ette, et ta olevat valetanud."
         },
         {
-          "de": "Ihm wird Untreue unterstellt.",
-          "lv": "talle heidetakse ette truudusetust."
+          "de": "Die Abteilung ist direkt dem Direktor unterstellt.",
+          "lv": "Osakond allub otse direktorile."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "vorwerfen",
+          "meaning": "ette heitma",
+          "example": "Er wirft mir Faulheit vor. – Ta heidab mulle ette laiskust."
         },
         {
-          "de": "unterstellen",
-          "lv": "ta heidab oma kolleegile ette laiskust, ilma tõenditeta."
+          "word": "beschuldigen",
+          "meaning": "süüdistama",
+          "example": "Sie beschuldigt ihn des Diebstahls. – Ta süüdistab teda varguses."
+        },
+        {
+          "word": "behaupten",
+          "meaning": "väitma",
+          "example": "Er behauptet, krank zu sein. – Ta väidab, et on haige."
         }
       ],
       "tip": [
-        "unterstellen = ette heitma",
-        "Kasuta sõna unterstellen, kui kontekst vastab sellele tähendusele."
+        "Pea meeles: unterstellen = kellelegi midagi negatiivset omistama, sageli alusetult.",
+        "Isik on unterstellen'i puhul datiivis: Er unterstellt mir …"
       ],
       "important": [
-        "unterstellen on emotsionaalselt negatiivne — alusetu süüdistus.",
-        "Valesti: Wir unterstellen Grundkenntnisse. → Õigesti: Wir setzen Grundkenntnisse voraus.",
-        "unterstellen → ette heitma, omistama."
+        "Lahutamatu unterstellen (omistama, allutama) ei ole sama mis eraldatav unterstellen (varju alla panema, varju otsima)."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "unterstellen",
-            "unterstellen"
+            "unterstellt",
+            "unterstellte"
           ],
           "purple": [
-            "ette heita",
-            "alusetult omistama"
-          ],
-          "red": [
-            "ette heita"
+            "alusetult omistama",
+            "ette heitma",
+            "allutama",
+            "etteheidet"
           ]
         },
         "examples": [
@@ -4970,36 +6043,26 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Mulle",
-                "Mulle"
+                "omistab"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "unterstellen",
-                "unterstellen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "ärge",
-                "ärge"
+                "unterstelle"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "unterstellen",
-                "unterstellen"
+                "unterstellte"
               ]
             },
             "lv": {
               "purple": [
-                "ette heita",
-                "kellelegi"
+                "heideti ette"
               ]
             }
           },
@@ -5011,43 +6074,55 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "talle",
-                "talle"
+                "allub"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "vorwerfen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ette heitma"
               ]
             }
           },
           {
-            "de": {
-              "blue": [
-                "unterstellen",
-                "unterstellen"
+            "word": {
+              "green": [
+                "beschuldigen"
               ]
             },
-            "lv": {
+            "meaning": {
               "purple": [
-                "heidab"
+                "süüdistama"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "behaupten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "väitma"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "ette heitma"
-            ]
-          },
-          {
-            "purple": [
-              "unterstellen"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "blue": [
-              "unterstellen"
-            ]
-          }
+          {}
         ]
       }
     }
@@ -5061,71 +6136,160 @@ const C1_WORDS = [
       "layout": "standardStudy",
       "translation": "eeldama",
       "explanation": [
-        "Põhiidee: Pidada millegi juba teadaolevaks või aluseks olevaks.",
-        "voraussetzen tähendab peamiselt: pidada aluseks.",
-        "Sageli iseloomustab: loogiline eeldus.",
-        "etwas voraussetzen tähendab pidada iseenesestmõistetavaks eelduseks, mis juba eksisteerib."
+        "Põhimõte: voraussetzen tähendab eeldama — pidama midagi teadaolevaks või enesestmõistetavaks — või nõudma midagi eeltingimusena: Der Kurs setzt gute Kenntnisse voraus.",
+        "Eraldatava eesliitega tegusõna: er setzt voraus, setzte voraus, hat vorausgesetzt. Seda, mida eeldatakse, väljendab akusatiiv. Nimisõna on die Voraussetzung (eeldus, eeltingimus).",
+        "Kesksõna vorausgesetzt komaga tähendab tingimusel, et: Vorausgesetzt, es regnet nicht, grillen wir."
       ],
       "examples": [
         {
-          "de": "Wir setzen Grundkenntnisse voraus.",
-          "lv": "Me eeldame põhiteadmisi."
+          "de": "Der Kurs setzt gute Deutschkenntnisse voraus.",
+          "lv": "Kursus eeldab head saksa keele oskust."
         },
         {
-          "de": "Wir setzen Grundkenntnisse voraus.",
-          "lv": "Me eeldame põhiteadmisi."
+          "de": "Ich habe vorausgesetzt, dass du Bescheid weißt.",
+          "lv": "Ma eeldasin, et sa oled asjaga kursis."
+        },
+        {
+          "de": "Diese Stelle setzt ein Studium voraus.",
+          "lv": "See ametikoht eeldab kõrgharidust."
+        },
+        {
+          "de": "Vorausgesetzt, es regnet nicht, grillen wir.",
+          "lv": "Eeldusel, et vihma ei saja, grillime."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "erfordern",
+          "meaning": "nõudma, vajama",
+          "example": "Die Aufgabe erfordert Geduld. – Ülesanne nõuab kannatlikkust."
+        },
+        {
+          "word": "annehmen",
+          "meaning": "oletama, arvama",
+          "example": "Ich nehme an, dass er kommt. – Ma oletan, et ta tuleb."
+        },
+        {
+          "word": "die Voraussetzung",
+          "meaning": "eeldus, eeltingimus",
+          "example": "Das ist keine Voraussetzung. – See ei ole eeltingimus."
         }
       ],
       "tip": [
-        "voraussetzen = eeldama",
-        "Kasuta sõna voraussetzen, kui kontekst vastab sellele tähendusele."
+        "Pea meeles eesliite eraldumist: Das setzt Mühe voraus, kuid …, weil das Mühe voraussetzt.",
+        "Sage ühend: etwas als bekannt voraussetzen (midagi teadaolevaks pidama)."
       ],
       "important": [
-        "voraussetzen on neutraalne — eeldus.",
-        "voraussetzen → aluseks võtma.",
-        "Pidada millegi juba teadaolevaks või aluseks olevaks."
+        "Mineviku kesksõna on vorausgesetzt — ge- pannakse osade voraus ja setzt vahele."
       ],
       "sectionAccents": {
         "explanation": {
-          "green": [
+          "blue": [
             "voraussetzen",
-            "voraussetzen"
+            "setzt voraus",
+            "setzte voraus",
+            "vorausgesetzt",
+            "Voraussetzung"
           ],
           "purple": [
-            "eeldus"
+            "eeldama",
+            "eeltingimus"
           ]
         },
         "examples": [
           {
-            "de": {},
+            "de": {
+              "blue": [
+                "setzt"
+              ]
+            },
             "lv": {
               "purple": [
-                "eeldame"
+                "eeldab"
               ]
             }
           },
           {
-            "de": {},
+            "de": {
+              "blue": [
+                "vorausgesetzt"
+              ]
+            },
             "lv": {
               "purple": [
-                "eeldame"
+                "eeldasin"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "setzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "eeldab"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Vorausgesetzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Eeldusel"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "erfordern"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "nõudma"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "annehmen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "oletama"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Voraussetzung"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "eeltingimus"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "eeldama"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "green": [
-              "voraussetzen"
-            ]
-          }
+          {}
         ]
       }
     }
@@ -5137,47 +6301,68 @@ const C1_WORDS = [
     "study": {
       "id": "c1-bewahren",
       "layout": "standardStudy",
-      "translation": "hoidma",
+      "translation": "hoidma • säilitama",
       "explanation": [
-        "Põhiidee: Kaitsta kaotuse, kahjustuse või hävimise eest — väärtust, traditsiooni, rahu.",
-        "bewahren tähendab peamiselt: kaitsma kaotuse eest.",
-        "Sageli iseloomustab: väärtuste säilitamine.",
-        "bewahren tähendab kaitsta kahjustuse, kaotuse või muutuste eest."
+        "Põhimõte: bewahren tähendab millegi halva eest hoidma, kaitsma (jemanden vor etwas bewahren) ja säilitama midagi väärtuslikku või muutumatut (Ruhe, Traditionen, Erinnerungen).",
+        "Nõrk (reeglipärane) tegusõna: er bewahrt, bewahrte, hat bewahrt. Kaitsmine: bewahren vor + datiiv (keda? mille eest?). Säilitamine: akusatiiv — die Ruhe bewahren. Saladust hoidma: ein Geheimnis bewahren.",
+        "Sõna on kõrgema stiiliga kui behalten (endale jätma) või aufheben (alles hoidma)."
       ],
       "examples": [
         {
-          "de": "Wir bewahren die Traditionen.",
-          "lv": "Me säilitame traditsioone."
+          "de": "Bitte bewahren Sie Ruhe!",
+          "lv": "Palun säilitage rahu!"
         },
         {
-          "de": "Sie bewahren die Ruhe in der Krise.",
-          "lv": "nad säilitavad rahu kriisis."
+          "de": "Der Helm hat ihn vor Schlimmerem bewahrt.",
+          "lv": "Kiiver hoidis teda hullemast."
         },
         {
-          "de": "Wir bewahren die Traditionen.",
-          "lv": "Me säilitame traditsioone."
+          "de": "Er bewahrte das Geheimnis jahrelang.",
+          "lv": "Ta hoidis saladust aastaid."
         },
         {
-          "de": "bewahren",
-          "lv": "loodust tuleb säilitada järgmise põlvkonna jaoks."
+          "de": "Wir wollen diese Tradition bewahren.",
+          "lv": "Me tahame seda traditsiooni säilitada."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "aufbewahren",
+          "meaning": "alles hoidma, hoiule panema",
+          "example": "Bewahre die Quittung auf! – Hoia tšekk alles!"
+        },
+        {
+          "word": "schützen",
+          "meaning": "kaitsma",
+          "example": "Der Zaun schützt vor dem Wind. – Aed kaitseb tuule eest."
+        },
+        {
+          "word": "behalten",
+          "meaning": "endale jätma",
+          "example": "Du kannst das Buch behalten. – Võid raamatu endale jätta."
         }
       ],
       "tip": [
-        "bewahren = hoidma",
-        "Kasuta sõna bewahren, kui kontekst vastab sellele tähendusele."
+        "Jäta meelde püsiväljend: Ruhe bewahren — rahu säilitama.",
+        "Millegi eest kaitsma: bewahren vor + datiiv (vor Schaden, vor Gefahr)."
       ],
       "important": [
-        "bewahren: Wertvolles bewahren — hoida väärtuslikku.",
-        "den Frieden bewahren = rahu säilitama (üldiselt); den Frieden aufrechterhalten = rahu pidevalt ja pingutades hoidma.",
-        "bewahren → kaitsma, säilitama."
+        "Bewahren ei ole sama mis aufbewahren: viimane tähendab füüsilist hoiulepanekut, bewahren aga säilitamist või kaitsmist.",
+        "Mineviku kesksõna on bewahrt (ilma ge-ta)."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "bewahren",
-            "bewahren"
+            "bewahrt",
+            "bewahrte",
+            "behalten",
+            "vor",
+            "Ruhe bewahren"
           ],
           "purple": [
+            "hoidma",
+            "säilitama",
             "kaitsma"
           ]
         },
@@ -5185,49 +6370,42 @@ const C1_WORDS = [
           {
             "de": {
               "blue": [
-                "bewahren",
                 "bewahren"
               ]
             },
             "lv": {
               "purple": [
-                "säilitame",
-                "säilitame"
+                "säilitage"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "bewahren",
-                "bewahren"
+                "bewahrt"
               ]
             },
             "lv": {
               "purple": [
-                "nad",
-                "säilitavad"
+                "hoidis"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "bewahren",
-                "bewahren"
+                "bewahrte"
               ]
             },
             "lv": {
               "purple": [
-                "säilitame",
-                "säilitame"
+                "hoidis"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "bewahren",
                 "bewahren"
               ]
             },
@@ -5238,117 +6416,218 @@ const C1_WORDS = [
             }
           }
         ],
-        "tip": [
+        "comparison": [
           {
-            "purple": [
-              "hoidma"
-            ]
+            "word": {
+              "green": [
+                "aufbewahren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "alles hoidma"
+              ]
+            }
           },
           {
-            "purple": [
-              "bewahren"
-            ]
+            "word": {
+              "green": [
+                "schützen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "kaitsma"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "behalten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "endale jätma"
+              ]
+            }
           }
         ],
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "blue": [
-              "bewahren"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
   },
   {
     "de": "aufrechterhalten",
-    "lv": "kehtivana hoidma",
+    "lv": "säilitama • alal hoidma • jõus hoidma",
     "level": "C1",
     "study": {
       "id": "c1-aufrechterhalten",
       "layout": "standardStudy",
-      "translation": "kehtivana hoidma",
+      "translation": "säilitama • alal hoidma • jõus hoidma",
       "explanation": [
-        "Põhiidee: Tagada, et mingi seisund, kord või suhe jätkuvalt kestaks.",
-        "aufrechterhalten tähendab peamiselt: tagada jätkumine.",
-        "Sageli iseloomustab: seisundi säilitamine.",
-        "aufrechterhalten tähendab hoida mingit seisundit, süsteemi või suhet kehtivana — tagada jätkumine."
+        "Põhimõte: aufrechterhalten tähendab alal hoidma, mitte kaotama: midagi jõus või toimimas hoidma (korda, kontakti, väidet, pakkumist).",
+        "Eraldatava eesliitega tegusõna: er hält aufrecht, hielt aufrecht, hat aufrechterhalten. Seda, mida alal hoitakse, väljendab akusatiiv. zu-infinitiivis: aufrechtzuerhalten.",
+        "Väga sageli koos sõnadega Ordnung, Kontakt, Verbindung, Behauptung, Forderung."
       ],
       "examples": [
         {
-          "de": "Der Staat erhält die Ordnung auf.",
-          "lv": "Riik hoiab korda alal."
+          "de": "Der Staat hält die Ordnung aufrecht.",
+          "lv": "Riik hoiab korda."
         },
         {
-          "de": "Man muss den Betrieb aufrechterhalten.",
-          "lv": "Tegevust tuleb alal hoida."
+          "de": "Sie haben den Kontakt über Jahre aufrechterhalten.",
+          "lv": "Nad on aastaid kontakti hoidnud."
         },
         {
-          "de": "Der Staat erhält die Ordnung auf.",
-          "lv": "Riik hoiab korda alal."
+          "de": "Wir können dieses Angebot nicht länger aufrechterhalten.",
+          "lv": "Me ei saa seda pakkumist enam jõus hoida."
+        },
+        {
+          "de": "Er hielt seine Behauptung aufrecht.",
+          "lv": "Ta jäi oma väite juurde."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "erhalten",
+          "meaning": "säilitama",
+          "example": "Wir erhalten das Gebäude. – Me säilitame hoone."
+        },
+        {
+          "word": "beibehalten",
+          "meaning": "muutmata säilitama",
+          "example": "Wir behalten den Plan bei. – Me jääme plaani juurde."
+        },
+        {
+          "word": "pflegen",
+          "meaning": "hoidma, hooldama",
+          "example": "Sie pflegt Kontakte. – Ta hoiab sidemeid."
         }
       ],
       "tip": [
-        "aufrechterhalten = kehtivana hoidma",
-        "Kasuta sõna aufrechterhalten, kui kontekst vastab sellele tähendusele."
+        "Pea meeles eesliite eraldumist: Er hält die Ordnung aufrecht, kuid …, dass er die Ordnung aufrechterhält.",
+        "Kontakti kohta öeldakse: den Kontakt aufrechterhalten (või pflegen)."
       ],
       "important": [
-        "aufrechterhalten: Ordnung/Frieden/Stabilität aufrechterhalten.",
-        "aufrechterhalten → kehtivana hoidma.",
-        "Tagada, et mingi seisund, kord või suhe jätkuvalt kestaks."
+        "Täisminevikus on aufrechterhalten üks sõna, ilma ge-ta: hat aufrechterhalten."
       ],
       "sectionAccents": {
         "explanation": {
-          "green": [
+          "blue": [
             "aufrechterhalten",
-            "aufrechterhalten",
-            "aufrechterhalten"
+            "hält aufrecht",
+            "hielt aufrecht",
+            "aufrechtzuerhalten"
+          ],
+          "purple": [
+            "alal hoidma",
+            "jõus"
           ]
         },
         "examples": [
           {
-            "de": {},
+            "de": {
+              "blue": [
+                "hält"
+              ]
+            },
             "lv": {
               "purple": [
-                "Riik"
+                "hoiab"
               ]
             }
           },
           {
             "de": {
-              "green": [
-                "aufrechterhalten",
+              "blue": [
                 "aufrechterhalten"
               ]
             },
             "lv": {
               "purple": [
-                "Tegevust"
+                "hoidnud"
               ]
             }
           },
           {
-            "de": {},
+            "de": {
+              "blue": [
+                "aufrechterhalten"
+              ]
+            },
             "lv": {
               "purple": [
-                "Riik"
+                "jõus hoida"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hielt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "jäi",
+                "juurde"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "erhalten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "säilitama"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "beibehalten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "muutmata"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "pflegen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "hooldama"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "kehtivana hoidma"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "green": [
-              "aufrechterhalten"
-            ]
-          }
+          {}
         ]
       }
     }
@@ -5364,21 +6643,21 @@ const C1_WORDS = [
     "de": "Karre",
     "de_article": "die",
     "de_plural": "die Karren",
-    "lv": "kärutis",
+    "lv": "käru",
     "level": "C1"
   },
   {
     "de": "Karren",
     "de_article": "der",
     "de_plural": "die Karren",
-    "lv": "kärutis",
+    "lv": "käru",
     "level": "C1"
   },
   {
     "de": "Krüppel",
     "de_article": "der",
     "de_plural": "die Krüppel",
-    "lv": "sandistunu",
+    "lv": "sant • invaliid",
     "level": "C1"
   },
   {
