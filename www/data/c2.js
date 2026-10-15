@@ -534,7 +534,7 @@ const C2_WORDS = [
     "de": "Schlafwagenzimmer",
     "de_article": "das",
     "de_plural": "die Schlafwagenzimmer",
-    "lv": "guļamistaba",
+    "lv": "guļamvagona kupeja",
     "level": "C2"
   },
   {
