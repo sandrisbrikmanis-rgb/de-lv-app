@@ -5440,7 +5440,7 @@ const B2_WORDS = [
     "de": "Datei",
     "de_article": "die",
     "de_plural": "die Dateien",
-    "lv": "kartotēka",
+    "lv": "datne • fails",
     "level": "B2"
   },
   {
@@ -25047,7 +25047,7 @@ const B2_WORDS = [
     "de": "Werkbank",
     "de_article": "die",
     "de_plural": "die Werkbänke",
-    "lv": "darbgalda",
+    "lv": "darbgalds",
     "level": "B2"
   },
   {
