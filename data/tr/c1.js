@@ -2288,9 +2288,9 @@ const C1_WORDS = [
     "level": "C1"
   },
   {
-    "de": "Führunternehmen",
+    "de": "Fuhrunternehmen",
     "de_article": "das",
-    "de_plural": "die Führunternehmen",
+    "de_plural": "die Fuhrunternehmen",
     "lv": "Yük taşımacılığı yapan bir firma",
     "level": "C1"
   },

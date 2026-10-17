@@ -32197,7 +32197,7 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "sirena • truba",
       "explanation": [
-        "Glavna ideja: die Hupe je imenica ženskog roda koja znači sirenu, trubu – uređaj na automobilu, motociklu ili biciklu koji proizvodi glasan zvuk. Množina: die Hupen. Glagol: hupen (trubiti).",
+        "Glavna ideja: die Hupe je imenica ženskog roda koja znači sirenu, trubu – uređaj na automobilu ili motociklu koji proizvodi glasan zvuk. Množina: die Hupen. Glagol: hupen (trubiti).",
         "Koristi se s drücken auf + akuzativ ili betätigen: auf die Hupe drücken (pritisnuti sirenu). Njome se upozoravaju drugi učesnici u saobraćaju ili se daje znak."
       ],
       "examples": [
@@ -46768,7 +46768,7 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "pfingsten",
+    "de": "Pfingsten",
     "lv": "Duhovi",
     "level": "B1"
   },
@@ -47614,7 +47614,7 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "prächtvoll",
+    "de": "prachtvoll",
     "lv": "divan",
     "level": "B1"
   },

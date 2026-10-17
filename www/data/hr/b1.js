@@ -46751,7 +46751,7 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "pfingsten",
+    "de": "Pfingsten",
     "lv": "Duhovi",
     "level": "B1"
   },
@@ -47598,7 +47598,7 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "prächtvoll",
+    "de": "prachtvoll",
     "lv": "raskošan • veličanstven",
     "level": "B1"
   },
