@@ -69498,7 +69498,7 @@ const B1_WORDS = [
           "example": "Dreh das Foto um. – Snúðu myndinni við."
         },
         {
-          "word": "sich richten an",
+          "word": "etwas richten an",
           "meaning": "beina til",
           "example": "Richten Sie Ihre Frage an den Chef. – Beinið spurningu yðar til yfirmannsins."
         }
@@ -69618,7 +69618,7 @@ const B1_WORDS = [
           {
             "word": {
               "green": [
-                "sich richten an"
+                "etwas richten an"
               ]
             },
             "meaning": {
