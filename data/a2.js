@@ -46327,9 +46327,7 @@ const A2_WORDS = [
             "über",
             "über dem Tisch",
             "über die Brücke",
-            "sprechen über",
-            "Akuzatīv",
-            "Datīv"
+            "sprechen über"
           ],
           "purple": [
             "virs",
