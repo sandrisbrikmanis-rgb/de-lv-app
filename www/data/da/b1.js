@@ -69568,7 +69568,7 @@ const B1_WORDS = [
           "example": "Dreh das Foto um. – Vend fotoet om."
         },
         {
-          "word": "sich richten an",
+          "word": "etwas richten an",
           "meaning": "rette (henvendelse) til",
           "example": "Richten Sie Ihre Frage an den Chef. – Ret Deres spørgsmål til chefen."
         }
@@ -69687,7 +69687,7 @@ const B1_WORDS = [
           {
             "word": {
               "green": [
-                "sich richten an"
+                "etwas richten an"
               ]
             },
             "meaning": {

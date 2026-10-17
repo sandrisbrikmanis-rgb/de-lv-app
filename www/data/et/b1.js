@@ -69556,8 +69556,8 @@ const B1_WORDS = [
           "example": "Dreh das Foto um. – Pööra foto ümber."
         },
         {
-          "word": "sich richten an",
-          "meaning": "pöörduma (kellegi poole)",
+          "word": "etwas richten an",
+          "meaning": "suunama (kellelegi)",
           "example": "Richten Sie Ihre Frage an den Chef. – Esitage oma küsimus ülemusele."
         }
       ],
@@ -69678,12 +69678,12 @@ const B1_WORDS = [
           {
             "word": {
               "green": [
-                "sich richten an"
+                "etwas richten an"
               ]
             },
             "meaning": {
               "purple": [
-                "pöörduma"
+                "suunama"
               ]
             }
           }

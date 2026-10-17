@@ -69496,8 +69496,8 @@ const B1_WORDS = [
           "example": "Dreh das Foto um. – Dale la vuelta a la foto."
         },
         {
-          "word": "sich richten an",
-          "meaning": "dirigirse a",
+          "word": "etwas richten an",
+          "meaning": "dirigir a",
           "example": "Richten Sie Ihre Frage an den Chef. – Dirija su pregunta al jefe."
         }
       ],
@@ -69616,12 +69616,12 @@ const B1_WORDS = [
           {
             "word": {
               "green": [
-                "sich richten an"
+                "etwas richten an"
               ]
             },
             "meaning": {
               "purple": [
-                "dirigirse a"
+                "dirigir a"
               ]
             }
           }

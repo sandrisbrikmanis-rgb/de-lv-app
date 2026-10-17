@@ -69498,8 +69498,8 @@ const B1_WORDS = [
           "example": "Dreh das Foto um. – Apgriez fotogrāfiju."
         },
         {
-          "word": "sich richten an",
-          "meaning": "vērsties pie",
+          "word": "etwas richten an",
+          "meaning": "adresēt",
           "example": "Richten Sie Ihre Frage an den Chef. – Adresējiet savu jautājumu šefam."
         }
       ],
@@ -69618,12 +69618,12 @@ const B1_WORDS = [
           {
             "word": {
               "green": [
-                "sich richten an"
+                "etwas richten an"
               ]
             },
             "meaning": {
               "purple": [
-                "vērsties pie"
+                "adresēt"
               ]
             }
           }

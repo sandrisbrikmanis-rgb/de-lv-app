@@ -10096,7 +10096,7 @@ const B1_WORDS = [
   },
   {
     "de": "bewachen",
-    "lv": "Hlídат",
+    "lv": "Hlídat",
     "level": "B1"
   },
   {

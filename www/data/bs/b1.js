@@ -69520,8 +69520,8 @@ const B1_WORDS = [
           "example": "Dreh das Foto um. – Okreni fotografiju."
         },
         {
-          "word": "sich richten an",
-          "meaning": "obratiti se",
+          "word": "etwas richten an",
+          "meaning": "uputiti",
           "example": "Richten Sie Ihre Frage an den Chef. – Uputite svoje pitanje šefu."
         }
       ],
@@ -69640,12 +69640,12 @@ const B1_WORDS = [
           {
             "word": {
               "green": [
-                "sich richten an"
+                "etwas richten an"
               ]
             },
             "meaning": {
               "purple": [
-                "obratiti se"
+                "uputiti"
               ]
             }
           }

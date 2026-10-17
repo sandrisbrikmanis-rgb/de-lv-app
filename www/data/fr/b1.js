@@ -69498,8 +69498,8 @@ const B1_WORDS = [
           "example": "Dreh das Foto um. – Retourne la photo."
         },
         {
-          "word": "sich richten an",
-          "meaning": "s'adresser à",
+          "word": "etwas richten an",
+          "meaning": "adresser à",
           "example": "Richten Sie Ihre Frage an den Chef. – Adressez votre question au chef."
         }
       ],
@@ -69618,12 +69618,12 @@ const B1_WORDS = [
           {
             "word": {
               "green": [
-                "sich richten an"
+                "etwas richten an"
               ]
             },
             "meaning": {
               "purple": [
-                "s'adresser à"
+                "adresser à"
               ]
             }
           }
