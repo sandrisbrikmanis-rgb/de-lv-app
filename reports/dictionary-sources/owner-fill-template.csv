@@ -1,0 +1,42 @@
+lang,dictionary_title,publisher,year,format,location,pages,text_layer,license_ok_to_store_in_repo,has_pronunciation,notes
+bg,,,,,,,,,,"Tukšs DE↔X. Institūta reģistrs: Институт за български език, БАН — Официален правописен речник"
+bs,,,,,,,,,,Tukšs DE↔X. Institūta reģistrs: Institut za jezik Univerziteta u Sarajevu
+cs,,,,,,,,,,Tukšs DE↔X. Institūta reģistrs: Ústav pro jazyk český AV ČR — Internetová jazyková příručka
+da,,,,,,,,,,Tukšs DE↔X. Institūta reģistrs: Dansk Sprognævn — Retskrivningsordbogen
+en,,,,,,,,,,Tukšs DE↔X. Institūta reģistrs: Oxford English Dictionary / Oxford Learner's Dictionaries
+es,,,,,,,,,,Tukšs DE↔X. Institūta reģistrs: Real Academia Española — DLE / Ortografía
+et,,,,,,,,,,Tukšs DE↔X. Institūta reģistrs: Eesti Keele Instituut — ÕS / Sõnaveeb
+fi,,,,,,,,,,Tukšs DE↔X. Institūta reģistrs: Kotimaisten kielten keskus — Kielitoimiston sanakirja
+fr,,,,,,,,,,Tukšs DE↔X. Institūta reģistrs: Académie française — Dictionnaire de l’Académie française
+gr,,,,,,,,,,Tukšs DE↔X. Institūta reģistrs: Κέντρο Ελληνικής Γλώσσας
+hr,,,,,,,,,,Tukšs DE↔X. Institūta reģistrs: Institut za hrvatski jezik — Hrvatski pravopis
+hu,,,,,,,,,,Tukšs DE↔X. Institūta reģistrs: HUN-REN Nyelvtudományi Kutatóközpont
+is,,,,,,,,,,Tukšs DE↔X. Institūta reģistrs: Stofnun Árna Magnússonar — BÍN / Málið.is
+it,,,,,,,,,,Tukšs DE↔X. Institūta reģistrs: Accademia della Crusca
+lb,,,,,,,,,,Tukšs DE↔X. Institūta reģistrs: Zenter fir d'Lëtzebuerger Sprooch — LOD
+lt,,,,,,,,,,Tukšs DE↔X. Institūta reģistrs: Lietuvių kalbos institutas + VLKK
+mk,,,,,,,,,,Tukšs DE↔X. Institūta reģistrs: Институт за македонски јазик „Крсте Мисирков“
+nb,,,,,,,,,,Tukšs DE↔X. Institūta reģistrs: Språkrådet / Bokmålsordboka
+nl,,,,,,,,,,Tukšs DE↔X. Institūta reģistrs: Nederlandse Taalunie — Woordenlijst Nederlandse Taal
+nn,"Neues vollständiges Wörterbuch der dänisch-norwegischen und deutschen Sprache (Helms, BSB/IA 11752747)",Svenn Henrik Helms; BSB / MDZ + IA OCR,,Internet Archive OCR (MDZ IIIF viewer),https://www.digitale-sammlungen.de/de/view/bsb11752747?page=1,,,,,ia-bsb-helms-dano-nor-de-11752747; de↔no-historical; fails repozitorijā nav
+nn,SNORRE terminology wordlist (Språkbanken oai-nb-no-sbr-24 / Standard Norge),Standard Norge / Språkbanken (NB),2013,Tab-separated open wordlist (DE / NN / EN / FR parallel terms),https://www.nb.no/sbfil/leksikalske_databaser/snorre.tar.gz,,,,,snorre-sbr-24; de↔nn-terminology; fails repozitorijā nav
+nn,"Dänisch-norwegisch-deutsches Hand-Wörterbuch (Kaper, 1889, BSB 11642917)",,,,https://www.digitale-sammlungen.de/de/view/bsb11642917?page=1,,,,,mdz-kaper-dano-nor-de-1889; de↔no-historical; fails repozitorijā nav
+nn,"Tysk-Norsk haand-ordbog (Hanson, 1840, IA)",,,,https://archive.org/details/bub_gb_cl5HAAAAYAAJ,,,,,ia-hanson-tysk-norsk-1840; de→nn-historical; fails repozitorijā nav
+nn,DinOrdbok Tysk–Nynorsk (crowd-sourced web),,,,https://www.dinordbok.se/tysk-nynorsk/,,,,,dinordbok-tysk-nynorsk-web; de↔nn; fails repozitorijā nav
+pl,,,,,,,,,,Tukšs DE↔X. Institūta reģistrs: Rada Języka Polskiego + WSJP PAN
+pt,"Dicionário Alemão–Português (Leonardo Torchtrop, 1943 / Globo)",Leonardo Torchtrop / Editora Globo; IA mirror,1943,Internet Archive PDF + OCR,https://archive.org/download/DICIONARIOALEMAOPORTUGUESLEONARDOTORCHTROP/DICIONARIO%20ALEMAO-PORTUGUES%20LEONARDO%20TORCHTROP.pdf,,,,,ia-torchtrop-de-pt-1943; de→pt; fails repozitorijā nav
+pt,"Wagener — Deutsch–Portugiesisch (1812, IA ZfhD vol. 1)",,,,https://archive.org/details/bub_gb_ZfhDAAAAcAAJ,,,,,ia-wagener-de-pt-1812-v1; de→pt; fails repozitorijā nav
+pt,"Wagener — Deutsch–Portugiesisch (1812, IA SplL vol. 2)",,,,https://archive.org/details/bub_gb_SplLAAAAcAAJ,,,,,ia-wagener-de-pt-1812-v2; de→pt; fails repozitorijā nav
+pt,"Dicionário Alemão–Português / Português–Alemão (IA DicionrioAlemoPortugus, ~2018)",,,,https://archive.org/details/DicionrioAlemoPortugus,,,,,ia-dicionario-moderno-de-pt-pt-de; de↔pt; fails repozitorijā nav
+ro,"Dicționar român-germân și germân-român (Barcianu, 1886)",Sab. Pop. Barcianu / Sibiu; Google–IA,1886,Internet Archive PDF + OCR,https://archive.org/details/wrterbuchderrom00barcgoog,,,,,ia-barcianu-de-ro-bidir-1886; de↔ro; fails repozitorijā nav
+ro,"Tiktin TDRG³ — Dicționar român-german (Miron / Lüder, 2000–2005)",Academia Română / CLRE solirom,2000–2005,Open digital edition (TEI/HTML entries),https://tdrg.solirom.ro/,,,,,tdrg3-solirom-ro-de; ro→de; fails repozitorijā nav
+ro,Tiktin Rumänisch-deutsches Wörterbuch (IA bub_gb_mCoTAAAAYAAJ),,,,https://archive.org/details/bub_gb_mCoTAAAAYAAJ,,,,,ia-tiktin-ro-de-historical; ro→de; fails repozitorijā nav
+ro,"Alexi Rumänisch-deutsches Wörterbuch (1906, IA)",,,,https://archive.org/details/rumnischdeutsch00alexgoog,,,,,ia-alexi-ro-de-1906; ro→de; fails repozitorijā nav
+ru,,,,,,,,,,Tukšs DE↔X. Institūta reģistrs: Институт русского языка им. В. В. Виноградова РАН
+sk,,,,,,,,,,Tukšs DE↔X. Institūta reģistrs: Jazykovedný ústav Ľudovíta Štúra SAV
+sl,,,,,,,,,,Tukšs DE↔X. Institūta reģistrs: ZRC SAZU — FRAN
+sq,,,,,,,,,,Tukšs DE↔X. Institūta reģistrs: Akademia e Shkencave e Shqipërisë
+sr,,,,,,,,,,Tukšs DE↔X. Institūta reģistrs: Institut za srpski jezik SANU + Matica srpska
+sv,,,,,,,,,,Tukšs DE↔X. Institūta reģistrs: Svenska Akademien — SAOL / SO / SAOB
+tr,,,,,,,,,,Tukšs DE↔X. Institūta reģistrs: Türk Dil Kurumu — Güncel Türkçe Sözlük / Yazım Kılavuzu
+uk,,,,,,,,,,Tukšs DE↔X. Institūta reģistrs: Інститут української мови НАН України + Український правопис
