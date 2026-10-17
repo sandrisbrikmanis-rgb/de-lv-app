@@ -6473,12 +6473,12 @@ const C1_WORDS = [
       "translation": "Zachovat v platnosti",
       "explanation": [
         "Hlavní myšlenka: aufrechterhalten znamená udržet, neztratit: zachovat něco v platnosti nebo v chodu (pořádek, kontakt, tvrzení, nabídku).",
-        "Odlučitelné sloveso: er hält aufrecht, hielt aufrecht, hat aufrechterhalten. Co se udržuje – akuzativ. S infinitivem: aufrechtzuerhalten.",
+        "Odlučitelné sloveso: er erhält aufrecht, erhielt aufrecht, hat aufrechterhalten. Co se udržuje – akuzativ. S infinitivem: aufrechtzuerhalten.",
         "Velmi často se pojí s Ordnung, Kontakt, Verbindung, Behauptung, Forderung."
       ],
       "examples": [
         {
-          "de": "Der Staat hält die Ordnung aufrecht.",
+          "de": "Der Staat erhält die Ordnung aufrecht.",
           "lv": "Stát udržuje pořádek."
         },
         {
@@ -6490,7 +6490,7 @@ const C1_WORDS = [
           "lv": "Tuto nabídku už nemůžeme ponechat v platnosti."
         },
         {
-          "de": "Er hielt seine Behauptung aufrecht.",
+          "de": "Er erhielt seine Behauptung aufrecht.",
           "lv": "Trval na svém tvrzení."
         }
       ],
@@ -6512,7 +6512,7 @@ const C1_WORDS = [
         }
       ],
       "tip": [
-        "Pamatuj na odlučování: Er hält die Ordnung aufrecht, ale …, dass er die Ordnung aufrechterhält.",
+        "Pamatuj na odlučování: Er erhält die Ordnung aufrecht, ale …, dass er die Ordnung aufrechterhält.",
         "Pro kontakt se říká: den Kontakt aufrechterhalten (nebo pflegen)."
       ],
       "important": [
@@ -6522,8 +6522,8 @@ const C1_WORDS = [
         "explanation": {
           "blue": [
             "aufrechterhalten",
-            "hält aufrecht",
-            "hielt aufrecht",
+            "erhält aufrecht",
+            "erhielt aufrecht",
             "aufrechtzuerhalten"
           ],
           "purple": [
@@ -6535,7 +6535,7 @@ const C1_WORDS = [
           {
             "de": {
               "blue": [
-                "hält"
+                "erhält"
               ]
             },
             "lv": {
@@ -6571,7 +6571,7 @@ const C1_WORDS = [
           {
             "de": {
               "blue": [
-                "hielt"
+                "erhielt"
               ]
             },
             "lv": {

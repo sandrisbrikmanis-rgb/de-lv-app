@@ -6467,12 +6467,12 @@ const C1_WORDS = [
       "translation": "mantener en vigor",
       "explanation": [
         "Idea principal: aufrechterhalten significa mantener, no dejar que algo se pierda: conservar algo en vigor o en funcionamiento (el orden, el contacto, una afirmación, una oferta).",
-        "Verbo con prefijo separable: er hält aufrecht, hielt aufrecht, hat aufrechterhalten. Lo que se mantiene va en acusativo. Con infinitivo con zu: aufrechtzuerhalten.",
+        "Verbo con prefijo separable: er erhält aufrecht, erhielt aufrecht, hat aufrechterhalten. Lo que se mantiene va en acusativo. Con infinitivo con zu: aufrechtzuerhalten.",
         "Muy frecuente con Ordnung, Kontakt, Verbindung, Behauptung, Forderung."
       ],
       "examples": [
         {
-          "de": "Der Staat hält die Ordnung aufrecht.",
+          "de": "Der Staat erhält die Ordnung aufrecht.",
           "lv": "El Estado mantiene el orden."
         },
         {
@@ -6484,7 +6484,7 @@ const C1_WORDS = [
           "lv": "No podemos mantener esta oferta por más tiempo."
         },
         {
-          "de": "Er hielt seine Behauptung aufrecht.",
+          "de": "Er erhielt seine Behauptung aufrecht.",
           "lv": "Se mantuvo en su afirmación."
         }
       ],
@@ -6506,7 +6506,7 @@ const C1_WORDS = [
         }
       ],
       "tip": [
-        "Recuerda la separación: Er hält die Ordnung aufrecht, pero …, dass er die Ordnung aufrechterhält.",
+        "Recuerda la separación: Er erhält die Ordnung aufrecht, pero …, dass er die Ordnung aufrechterhält.",
         "Para el contacto se dice: den Kontakt aufrechterhalten (o pflegen)."
       ],
       "important": [
@@ -6516,8 +6516,8 @@ const C1_WORDS = [
         "explanation": {
           "blue": [
             "aufrechterhalten",
-            "hält aufrecht",
-            "hielt aufrecht",
+            "erhält aufrecht",
+            "erhielt aufrecht",
             "aufrechtzuerhalten"
           ],
           "purple": [
@@ -6529,7 +6529,7 @@ const C1_WORDS = [
           {
             "de": {
               "blue": [
-                "hält"
+                "erhält"
               ]
             },
             "lv": {
@@ -6565,7 +6565,7 @@ const C1_WORDS = [
           {
             "de": {
               "blue": [
-                "hielt"
+                "erhielt"
               ]
             },
             "lv": {
