@@ -45444,7 +45444,7 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "pfingsten",
+    "de": "Pfingsten",
     "lv": "Vasarsvētki",
     "level": "B1"
   },
@@ -46185,7 +46185,7 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "prächtvoll",
+    "de": "prachtvoll",
     "lv": "Krāšņs",
     "level": "B1"
   },

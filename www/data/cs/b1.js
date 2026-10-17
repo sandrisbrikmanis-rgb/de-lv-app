@@ -32207,7 +32207,7 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "Klakson",
       "explanation": [
-        "Hlavní myšlenka: die Hupe je podstatné jméno ženského rodu, které znamená klakson, houkačku — zařízení v autě, na motocyklu nebo na kole, které vydává hlasitý zvuk. Množné číslo: die Hupen. Sloveso: hupen (troubit).",
+        "Hlavní myšlenka: die Hupe je podstatné jméno ženského rodu, které znamená klakson, houkačku — zařízení v autě nebo na motocyklu, které vydává hlasitý zvuk. Množné číslo: die Hupen. Sloveso: hupen (troubit).",
         "Používá se s drücken auf + akuzativ nebo betätigen: auf die Hupe drücken (stisknout klakson). Tím se varují ostatní účastníci provozu nebo se dává signál."
       ],
       "examples": [
@@ -46773,7 +46773,7 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "pfingsten",
+    "de": "Pfingsten",
     "lv": "Letnice",
     "level": "B1"
   },
@@ -47621,7 +47621,7 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "prächtvoll",
+    "de": "prachtvoll",
     "lv": "Nádherný",
     "level": "B1"
   },

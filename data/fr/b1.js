@@ -32189,7 +32189,7 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "klaxon • avertisseur",
       "explanation": [
-        "Idée principale : die Hupe est un nom féminin qui désigne le klaxon — l'avertisseur d'une voiture, d'une moto ou d'un vélo, qui produit un son fort. Pluriel : die Hupen. Verbe : hupen (klaxonner).",
+        "Idée principale : die Hupe est un nom féminin qui désigne le klaxon — l'avertisseur d'une voiture ou d'une moto, qui produit un son fort. Pluriel : die Hupen. Verbe : hupen (klaxonner).",
         "S'emploie avec drücken auf + accusatif ou betätigen : auf die Hupe drücken (appuyer sur le klaxon). On l'utilise pour avertir les autres usagers de la route ou pour donner un signal."
       ],
       "examples": [
@@ -46751,7 +46751,7 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "pfingsten",
+    "de": "Pfingsten",
     "lv": "pentecôte",
     "level": "B1"
   },
@@ -47598,7 +47598,7 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "prächtvoll",
+    "de": "prachtvoll",
     "lv": "magnifique",
     "level": "B1"
   },

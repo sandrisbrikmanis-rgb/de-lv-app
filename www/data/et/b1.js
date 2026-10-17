@@ -32230,7 +32230,7 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "signaalpasun • pasun",
       "explanation": [
-        "Põhimõte: die Hupe on naissoost nimisõna, mis tähendab signaalpasunat — seadet autos, mootorrattas või jalgrattas, mis teeb valju heli. Mitmus: die Hupen. Tegusõna: hupen (signaali andma, tuututama).",
+        "Põhimõte: die Hupe on naissoost nimisõna, mis tähendab signaalpasunat — seadet autos või mootorrattas, mis teeb valju heli. Mitmus: die Hupen. Tegusõna: hupen (signaali andma, tuututama).",
         "Kasutatakse koos drücken auf + akusatiiv või betätigen: auf die Hupe drücken (signaalpasunale vajutama). Sellega hoiatatakse teisi liiklejaid või antakse märku."
       ],
       "examples": [
@@ -46812,7 +46812,7 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "pfingsten",
+    "de": "Pfingsten",
     "lv": "nelipühad",
     "level": "B1"
   },
@@ -47656,7 +47656,7 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "prächtvoll",
+    "de": "prachtvoll",
     "lv": "toretsev",
     "level": "B1"
   },

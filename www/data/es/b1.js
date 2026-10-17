@@ -32212,7 +32212,7 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "claxon • bocina",
       "explanation": [
-        "Idea principal: die Hupe es un sustantivo femenino que significa claxon, bocina: el dispositivo de un coche, una moto o una bicicleta que produce un sonido fuerte. Plural: die Hupen. Verbo: hupen (tocar el claxon).",
+        "Idea principal: die Hupe es un sustantivo femenino que significa claxon, bocina: el dispositivo de un coche o una moto que produce un sonido fuerte. Plural: die Hupen. Verbo: hupen (tocar el claxon).",
         "Se usa con drücken auf + acusativo o con betätigen: auf die Hupe drücken (tocar el claxon). Sirve para avisar a otros usuarios de la vía o para hacer una señal."
       ],
       "examples": [
@@ -46770,7 +46770,7 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "pfingsten",
+    "de": "Pfingsten",
     "lv": "Pentecostés",
     "level": "B1"
   },
@@ -47617,7 +47617,7 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "prächtvoll",
+    "de": "prachtvoll",
     "lv": "espléndido",
     "level": "B1"
   },

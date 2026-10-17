@@ -32189,7 +32189,7 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "signāltaure • taure",
       "explanation": [
-        "Galvenā doma: die Hupe ir sieviešu dzimtes lietvārds, kas nozīmē signāltauri — ierīci automašīnā, motociklā vai velosipēdā, kas rada skaļu skaņu. Daudzskaitlis: die Hupen. Darbības vārds: hupen (taurēt).",
+        "Galvenā doma: die Hupe ir sieviešu dzimtes lietvārds, kas nozīmē signāltauri — ierīci automašīnā vai motociklā, kas rada skaļu skaņu. Daudzskaitlis: die Hupen. Darbības vārds: hupen (taurēt).",
         "Lieto ar drücken auf + Akuzatīv vai betätigen: auf die Hupe drücken (nospiest signāltauri). Ar to brīdina citus satiksmes dalībniekus vai izsaka signālu."
       ],
       "examples": [
@@ -46751,7 +46751,7 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "pfingsten",
+    "de": "Pfingsten",
     "lv": "vasarsvētki",
     "level": "B1"
   },
@@ -47598,7 +47598,7 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "prächtvoll",
+    "de": "prachtvoll",
     "lv": "krāšņs",
     "level": "B1"
   },
