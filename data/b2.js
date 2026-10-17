@@ -25369,8 +25369,7 @@ const B2_WORDS = [
           "blue": [
             "sich widersetzen",
             "widersetzt",
-            "widersetzte",
-            "datīvu"
+            "widersetzte"
           ],
           "purple": [
             "pretoties"

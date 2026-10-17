@@ -23903,8 +23903,7 @@ const B1_WORDS = [
             "legt fest",
             "legte fest",
             "hat festgelegt",
-            "sich festlegen",
-            "Akuzatīv"
+            "sich festlegen"
           ],
           "purple": [
             "noteikt",
@@ -24653,8 +24652,7 @@ const B1_WORDS = [
             "fördern",
             "fördert",
             "förderte",
-            "hat gefördert",
-            "Akuzatīv"
+            "hat gefördert"
           ],
           "purple": [
             "veicināt",
@@ -26631,7 +26629,7 @@ const B1_WORDS = [
             "gilt",
             "galt",
             "hat gegolten",
-            "für + Akuzatīv",
+            "für",
             "gelten als"
           ],
           "purple": [
@@ -27924,8 +27922,7 @@ const B1_WORDS = [
           "blue": [
             "gewiss",
             "ein gewisser",
-            "gewiss sein",
-            "Ģenitīvu"
+            "gewiss sein"
           ],
           "purple": [
             "drošu",
@@ -29427,8 +29424,8 @@ const B1_WORDS = [
             "handelte",
             "hat gehandelt",
             "mit etwas handeln",
-            "es handelt sich um + Akuzatīv",
-            "handeln von + Datīv"
+            "es handelt sich um",
+            "handeln von"
           ],
           "purple": [
             "rīkoties",
@@ -29849,7 +29846,7 @@ const B1_WORDS = [
             "hieb",
             "hat gehauen",
             "sich hauen",
-            "auf + Akuzatīv"
+            "auf"
           ],
           "purple": [
             "sist",
@@ -31083,7 +31080,7 @@ const B1_WORDS = [
             "die Hinweise",
             "Hinweis",
             "Hinweise",
-            "auf + Akuzatīv"
+            "auf"
           ],
           "purple": [
             "norādi",
@@ -32417,7 +32414,7 @@ const B1_WORDS = [
             "hütet",
             "hütete",
             "hat gehütet",
-            "sich hüten vor + Datīv",
+            "sich hüten vor",
             "das Bett hüten"
           ],
           "purple": [
@@ -32812,8 +32809,7 @@ const B1_WORDS = [
         "explanation": {
           "blue": [
             "innerhalb",
-            "Ģenitīvs",
-            "innerhalb von + Datīv",
+            "innerhalb von",
             "außerhalb"
           ],
           "purple": [
@@ -33128,7 +33124,7 @@ const B1_WORDS = [
             "irrt sich",
             "irrte sich",
             "hat sich geirrt",
-            "in + Datīv",
+            "in",
             "irren"
           ],
           "purple": [
@@ -47487,14 +47483,12 @@ const B1_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "Posten",
-            "postenis"
+            "Posten"
           ],
           "purple": [
             "amatu",
             "amats",
             "Amatam",
-            "Posten",
             "postenis"
           ]
         },
