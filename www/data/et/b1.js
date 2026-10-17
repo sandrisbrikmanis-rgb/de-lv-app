@@ -72482,7 +72482,7 @@ const B1_WORDS = [
         {
           "word": "anstatt dass",
           "meaning": "selle asemel, et (teine tegija)",
-          "example": "Anstatt dass er hilft, schaut er zu. – Selle asemel, et ta aitaks, vaatab ta ainult pealt."
+          "example": "Anstatt dass er hilft, schaut sie zu. – Selle asemel, et ta aitaks, vaatab ta ainult pealt."
         },
         {
           "word": "ohne … zu",
@@ -72495,7 +72495,7 @@ const B1_WORDS = [
         "Statt … zu on sama ja kõlab veidi lihtsamalt; mõlemad vormid on õiged."
       ],
       "important": [
-        "Ettevaatust: kui tegija muutub, kasuta anstatt dass: Anstatt dass er hilft, schaut er zu.",
+        "Ettevaatust: kui tegija muutub, kasuta anstatt dass: Anstatt dass er hilft, schaut sie zu.",
         "Ära aja segi eessõnaga anstatt/statt + genitiiv (statt des Buches), mis tähendab asemel."
       ],
       "sectionAccents": {

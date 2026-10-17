@@ -14211,7 +14211,7 @@ const B2_WORDS = [
       "explanation": [
         "Idée principale : sich grauen signifie éprouver à l'avance de la peur, de l'appréhension, du dégoût ou de l'aversion — redouter quelque chose de désagréable qui nous attend. En langue standard, il s'emploie presque toujours à la forme impersonnelle : Mir graut vor …, Es graut mir vor … (datif).",
         "Avec vor + datif, on nomme ce que l'on redoute : Mir graut vor der Prüfung. La forme avec pronom réfléchi (ich graue mich) existe aussi, mais elle est plus rare. Parfait : hat gegraut.",
-        "Le mot est apparenté à das Grauen (l'horreur) et à l'expression der Tag graut (le jour se lève)."
+        "Le mot est apparenté à das Grauen (l'horreur)."
       ],
       "examples": [
         {

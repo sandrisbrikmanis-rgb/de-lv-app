@@ -14213,7 +14213,7 @@ const B2_WORDS = [
       "explanation": [
         "Glavna ideja: sich grauen znači plašiti se, osjećati strah, zebnju, gađenje ili nelagodu unaprijed, tj. strahovati od nečeg neugodnog što predstoji. U standardnom jeziku gotovo se uvijek koristi bezlično: Mir graut vor …, Es graut mir vor … (dativ).",
         "S vor + dativ navodi se ono čega se neko plaši: Mir graut vor der Prüfung. Oblik s povratnom zamjenicom (ich graue mich) također se čuje, ali rjeđe. Perfekt: hat gegraut.",
-        "Riječ je povezana s das Grauen (užas) i izrazom der Tag graut (sviće dan)."
+        "Riječ je povezana s das Grauen (užas)."
       ],
       "examples": [
         {

@@ -72420,7 +72420,7 @@ const B1_WORDS = [
         {
           "word": "anstatt dass",
           "meaning": "umjesto da (drugi subjekt)",
-          "example": "Anstatt dass er hilft, schaut er zu. – Umjesto da pomogne, on samo gleda."
+          "example": "Anstatt dass er hilft, schaut sie zu. – Umjesto da on pomogne, ona samo gleda."
         },
         {
           "word": "ohne … zu",

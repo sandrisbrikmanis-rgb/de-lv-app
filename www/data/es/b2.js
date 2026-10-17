@@ -14222,7 +14222,7 @@ const B2_WORDS = [
       "explanation": [
         "Idea principal: sich grauen significa sentir de antemano miedo, inquietud, repugnancia o rechazo: tener miedo de algo desagradable que se espera. En la lengua estándar se usa casi siempre en forma impersonal: Mir graut vor …, Es graut mir vor … (dativo).",
         "Con vor + dativo se nombra aquello que se teme: Mir graut vor der Prüfung. La forma con pronombre reflexivo (ich graue mich) también se oye, pero es menos frecuente. Perfecto: hat gegraut.",
-        "La palabra está relacionada con das Grauen (horror) y con la expresión der Tag graut (amanece)."
+        "La palabra está relacionada con das Grauen (horror)."
       ],
       "examples": [
         {
