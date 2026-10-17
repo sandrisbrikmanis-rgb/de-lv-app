@@ -6469,12 +6469,12 @@ const C1_WORDS = [
       "translation": "At opretholde",
       "explanation": [
         "Hovedidé: aufrechterhalten betyder at opretholde, ikke at miste: at holde noget i kraft eller i gang (orden, kontakt, en påstand, et tilbud). Dansk opretholde er en nær parallel.",
-        "Adskilleligt udsagnsord: er hält aufrecht, hielt aufrecht, hat aufrechterhalten. Det, man opretholder, står i akkusativ. Med zu + navnemåde: aufrechtzuerhalten.",
+        "Adskilleligt udsagnsord: er erhält aufrecht, erhielt aufrecht, hat aufrechterhalten. Det, man opretholder, står i akkusativ. Med zu + navnemåde: aufrechtzuerhalten.",
         "Bruges meget ofte sammen med Ordnung, Kontakt, Verbindung, Behauptung, Forderung."
       ],
       "examples": [
         {
-          "de": "Der Staat hält die Ordnung aufrecht.",
+          "de": "Der Staat erhält die Ordnung aufrecht.",
           "lv": "Staten opretholder ordenen."
         },
         {
@@ -6486,7 +6486,7 @@ const C1_WORDS = [
           "lv": "Vi kan ikke længere opretholde dette tilbud."
         },
         {
-          "de": "Er hielt seine Behauptung aufrecht.",
+          "de": "Er erhielt seine Behauptung aufrecht.",
           "lv": "Han fastholdt sin påstand."
         }
       ],
@@ -6508,7 +6508,7 @@ const C1_WORDS = [
         }
       ],
       "tip": [
-        "Husk adskillelsen: Er hält die Ordnung aufrecht, men …, dass er die Ordnung aufrechterhält.",
+        "Husk adskillelsen: Er erhält die Ordnung aufrecht, men …, dass er die Ordnung aufrechterhält.",
         "Om kontakt siger man: den Kontakt aufrechterhalten (eller pflegen)."
       ],
       "important": [
@@ -6518,8 +6518,8 @@ const C1_WORDS = [
         "explanation": {
           "blue": [
             "aufrechterhalten",
-            "hält aufrecht",
-            "hielt aufrecht",
+            "erhält aufrecht",
+            "erhielt aufrecht",
             "aufrechtzuerhalten"
           ],
           "purple": [
@@ -6531,7 +6531,7 @@ const C1_WORDS = [
           {
             "de": {
               "blue": [
-                "hält"
+                "erhält"
               ]
             },
             "lv": {
@@ -6567,7 +6567,7 @@ const C1_WORDS = [
           {
             "de": {
               "blue": [
-                "hielt"
+                "erhielt"
               ]
             },
             "lv": {

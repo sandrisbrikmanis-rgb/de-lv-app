@@ -6475,12 +6475,12 @@ const C1_WORDS = [
       "translation": "säilitama • alal hoidma • jõus hoidma",
       "explanation": [
         "Põhimõte: aufrechterhalten tähendab alal hoidma, mitte kaotama: midagi jõus või toimimas hoidma (korda, kontakti, väidet, pakkumist).",
-        "Eraldatava eesliitega tegusõna: er hält aufrecht, hielt aufrecht, hat aufrechterhalten. Seda, mida alal hoitakse, väljendab akusatiiv. zu-infinitiivis: aufrechtzuerhalten.",
+        "Eraldatava eesliitega tegusõna: er erhält aufrecht, erhielt aufrecht, hat aufrechterhalten. Seda, mida alal hoitakse, väljendab akusatiiv. zu-infinitiivis: aufrechtzuerhalten.",
         "Väga sageli koos sõnadega Ordnung, Kontakt, Verbindung, Behauptung, Forderung."
       ],
       "examples": [
         {
-          "de": "Der Staat hält die Ordnung aufrecht.",
+          "de": "Der Staat erhält die Ordnung aufrecht.",
           "lv": "Riik hoiab korda."
         },
         {
@@ -6492,7 +6492,7 @@ const C1_WORDS = [
           "lv": "Me ei saa seda pakkumist enam jõus hoida."
         },
         {
-          "de": "Er hielt seine Behauptung aufrecht.",
+          "de": "Er erhielt seine Behauptung aufrecht.",
           "lv": "Ta jäi oma väite juurde."
         }
       ],
@@ -6514,7 +6514,7 @@ const C1_WORDS = [
         }
       ],
       "tip": [
-        "Pea meeles eesliite eraldumist: Er hält die Ordnung aufrecht, kuid …, dass er die Ordnung aufrechterhält.",
+        "Pea meeles eesliite eraldumist: Er erhält die Ordnung aufrecht, kuid …, dass er die Ordnung aufrechterhält.",
         "Kontakti kohta öeldakse: den Kontakt aufrechterhalten (või pflegen)."
       ],
       "important": [
@@ -6524,8 +6524,8 @@ const C1_WORDS = [
         "explanation": {
           "blue": [
             "aufrechterhalten",
-            "hält aufrecht",
-            "hielt aufrecht",
+            "erhält aufrecht",
+            "erhielt aufrecht",
             "aufrechtzuerhalten"
           ],
           "purple": [
@@ -6537,7 +6537,7 @@ const C1_WORDS = [
           {
             "de": {
               "blue": [
-                "hält"
+                "erhält"
               ]
             },
             "lv": {
@@ -6573,7 +6573,7 @@ const C1_WORDS = [
           {
             "de": {
               "blue": [
-                "hielt"
+                "erhielt"
               ]
             },
             "lv": {

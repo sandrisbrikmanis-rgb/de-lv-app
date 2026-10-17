@@ -6466,12 +6466,12 @@ const C1_WORDS = [
       "translation": "To maintain",
       "explanation": [
         "Main idea: aufrechterhalten means to maintain, to keep up: to keep something in force or in operation (order, contact, a claim, an offer).",
-        "Separable verb: er hält aufrecht, hielt aufrecht, hat aufrechterhalten. What is maintained takes the accusative. With a zu-infinitive: aufrechtzuerhalten.",
+        "Separable verb: er erhält aufrecht, erhielt aufrecht, hat aufrechterhalten. What is maintained takes the accusative. With a zu-infinitive: aufrechtzuerhalten.",
         "Very often used together with Ordnung, Kontakt, Verbindung, Behauptung, Forderung."
       ],
       "examples": [
         {
-          "de": "Der Staat hält die Ordnung aufrecht.",
+          "de": "Der Staat erhält die Ordnung aufrecht.",
           "lv": "The state maintains order."
         },
         {
@@ -6483,7 +6483,7 @@ const C1_WORDS = [
           "lv": "We can no longer keep this offer open."
         },
         {
-          "de": "Er hielt seine Behauptung aufrecht.",
+          "de": "Er erhielt seine Behauptung aufrecht.",
           "lv": "He stuck to his claim."
         }
       ],
@@ -6505,7 +6505,7 @@ const C1_WORDS = [
         }
       ],
       "tip": [
-        "Remember the separation: Er hält die Ordnung aufrecht, but …, dass er die Ordnung aufrechterhält.",
+        "Remember the separation: Er erhält die Ordnung aufrecht, but …, dass er die Ordnung aufrechterhält.",
         "For contact you will say: den Kontakt aufrechterhalten (or pflegen)."
       ],
       "important": [
@@ -6515,8 +6515,8 @@ const C1_WORDS = [
         "explanation": {
           "blue": [
             "aufrechterhalten",
-            "hält aufrecht",
-            "hielt aufrecht",
+            "erhält aufrecht",
+            "erhielt aufrecht",
             "aufrechtzuerhalten"
           ],
           "purple": [
@@ -6528,7 +6528,7 @@ const C1_WORDS = [
           {
             "de": {
               "blue": [
-                "hält"
+                "erhält"
               ]
             },
             "lv": {
@@ -6564,7 +6564,7 @@ const C1_WORDS = [
           {
             "de": {
               "blue": [
-                "hielt"
+                "erhielt"
               ]
             },
             "lv": {

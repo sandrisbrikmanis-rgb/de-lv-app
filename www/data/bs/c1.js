@@ -6468,12 +6468,12 @@ const C1_WORDS = [
       "translation": "održavati na snazi",
       "explanation": [
         "Glavna ideja: aufrechterhalten znači održavati, ne izgubiti: održavati nešto na snazi ili u funkciji (red, kontakt, tvrdnju, ponudu).",
-        "Glagol s razdvojivim prefiksom: er hält aufrecht, hielt aufrecht, hat aufrechterhalten. Ono što se održava stoji u akuzativu. S infinitivom sa zu: aufrechtzuerhalten.",
+        "Glagol s razdvojivim prefiksom: er erhält aufrecht, erhielt aufrecht, hat aufrechterhalten. Ono što se održava stoji u akuzativu. S infinitivom sa zu: aufrechtzuerhalten.",
         "Vrlo često dolazi uz Ordnung, Kontakt, Verbindung, Behauptung, Forderung."
       ],
       "examples": [
         {
-          "de": "Der Staat hält die Ordnung aufrecht.",
+          "de": "Der Staat erhält die Ordnung aufrecht.",
           "lv": "Država održava red."
         },
         {
@@ -6485,7 +6485,7 @@ const C1_WORDS = [
           "lv": "Ovu ponudu ne možemo više održavati na snazi."
         },
         {
-          "de": "Er hielt seine Behauptung aufrecht.",
+          "de": "Er erhielt seine Behauptung aufrecht.",
           "lv": "Ostao je pri svojoj tvrdnji."
         }
       ],
@@ -6507,7 +6507,7 @@ const C1_WORDS = [
         }
       ],
       "tip": [
-        "Zapamti razdvajanje: Er hält die Ordnung aufrecht, ali …, dass er die Ordnung aufrechterhält.",
+        "Zapamti razdvajanje: Er erhält die Ordnung aufrecht, ali …, dass er die Ordnung aufrechterhält.",
         "Za kontakt se kaže: den Kontakt aufrechterhalten (ili pflegen)."
       ],
       "important": [
@@ -6517,8 +6517,8 @@ const C1_WORDS = [
         "explanation": {
           "blue": [
             "aufrechterhalten",
-            "hält aufrecht",
-            "hielt aufrecht",
+            "erhält aufrecht",
+            "erhielt aufrecht",
             "aufrechtzuerhalten"
           ],
           "purple": [
@@ -6530,7 +6530,7 @@ const C1_WORDS = [
           {
             "de": {
               "blue": [
-                "hält"
+                "erhält"
               ]
             },
             "lv": {
@@ -6566,7 +6566,7 @@ const C1_WORDS = [
           {
             "de": {
               "blue": [
-                "hielt"
+                "erhielt"
               ]
             },
             "lv": {
