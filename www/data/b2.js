@@ -14211,7 +14211,7 @@ const B2_WORDS = [
       "explanation": [
         "Galvenā doma: sich grauen nozīmē just bailes, bažas, riebumu vai nepatiku iepriekš — baidīties no kaut kā nepatīkama, kas gaidāms. Standarta valodā gandrīz vienmēr lieto bezpersonas formā: Mir graut vor …, Es graut mir vor … (datīvs).",
         "Ar vor + datīvs nosauc to, no kā baidās: Mir graut vor der Prüfung. Formu ar atgriezenisko vietniekvārdu (ich graue mich) dzird arī, bet retāk. Perfekts: hat gegraut.",
-        "Vārds ir saistīts ar das Grauen (šausmas) un teicienu der Tag graut (aust diena)."
+        "Vārds ir saistīts ar das Grauen (šausmas)."
       ],
       "examples": [
         {

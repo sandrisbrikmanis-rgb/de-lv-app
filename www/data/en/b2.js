@@ -13922,7 +13922,7 @@ const B2_WORDS = [
       "explanation": [
         "Main idea: sich grauen means to feel fear, apprehension, disgust or dislike in advance — to dread something unpleasant that lies ahead. In standard German it is used almost always impersonally: Mir graut vor …, Es graut mir vor … (dative).",
         "Vor + dative names what is dreaded: Mir graut vor der Prüfung. The form with a reflexive pronoun (ich graue mich) is also heard, but less often. Perfect: hat gegraut.",
-        "The word is related to das Grauen (horror) and the expression der Tag graut (day is dawning)."
+        "The word is related to das Grauen (horror)."
       ],
       "examples": [
         {

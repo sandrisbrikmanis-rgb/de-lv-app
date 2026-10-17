@@ -7286,7 +7286,7 @@ const A2_WORDS = [
           "example": "Der Geldautomat ist außer Betrieb. – Bankomāts nedarbojas."
         },
         {
-          "word": "die Bank (sols)",
+          "word": "die Bank",
           "meaning": "sols",
           "example": "Wir sitzen auf der Bank. – Mēs sēžam uz sola."
         }
@@ -7389,7 +7389,7 @@ const A2_WORDS = [
           {
             "word": {
               "green": [
-                "die Bank (sols)"
+                "die Bank"
               ]
             },
             "meaning": {

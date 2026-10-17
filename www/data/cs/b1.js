@@ -72457,7 +72457,7 @@ const B1_WORDS = [
         {
           "word": "anstatt dass",
           "meaning": "místo aby (jiný činitel)",
-          "example": "Anstatt dass er hilft, schaut er zu. – Místo aby on pomáhal, jen přihlíží."
+          "example": "Anstatt dass er hilft, schaut sie zu. – Místo aby on pomáhal, ona jen přihlíží."
         },
         {
           "word": "ohne … zu",
@@ -72470,7 +72470,7 @@ const B1_WORDS = [
         "Statt … zu je totéž a zní o něco jednodušeji; obě podoby jsou správné."
       ],
       "important": [
-        "Pozor: mění-li se podmět, použij anstatt dass: Anstatt dass er hilft, schaut er zu.",
+        "Pozor: mění-li se podmět, použij anstatt dass: Anstatt dass er hilft, schaut sie zu.",
         "Nepleť si to s předložkou anstatt/statt + genitiv (statt des Buches), která znamená místo."
       ],
       "sectionAccents": {

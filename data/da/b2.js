@@ -14219,7 +14219,7 @@ const B2_WORDS = [
       "explanation": [
         "Hovedbetydning: sich grauen betyder at grue for noget, at føle frygt, uro eller afsky på forhånd — at være bange for noget ubehageligt, der venter. Sammenlign dansk \"grue\". I standardsprog bruges det næsten altid upersonligt: Mir graut vor …, Es graut mir vor … (dativ).",
         "Med vor + dativ angiver man, hvad man gruer for: Mir graut vor der Prüfung. Formen med tilbagevisende stedord (ich graue mich) høres også, men sjældnere. Førnutid: hat gegraut.",
-        "Ordet er beslægtet med das Grauen (rædsel) og udtrykket der Tag graut (dagen gryr)."
+        "Ordet er beslægtet med das Grauen (rædsel)."
       ],
       "examples": [
         {

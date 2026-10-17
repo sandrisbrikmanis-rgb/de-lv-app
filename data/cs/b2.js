@@ -12472,7 +12472,7 @@ const B2_WORDS = [
   },
   {
     "de": "geläufig",
-    "lv": "Zināms • Pazīstams • Ierasts • Tekošs • Brīvs",
+    "lv": "Známý • Běžný • Plynulý",
     "level": "B2"
   },
   {
@@ -14213,7 +14213,7 @@ const B2_WORDS = [
       "explanation": [
         "Hlavní myšlenka: sich grauen znamená předem cítit strach, obavy, odpor nebo nechuť – bát se něčeho nepříjemného, co se blíží. Ve standardním jazyce se používá téměř vždy jako neosobní sloveso: Mir graut vor …, Es graut mir vor … (dativ).",
         "Předložkou vor + dativ se uvádí, čeho se někdo bojí: Mir graut vor der Prüfung. Tvar se zvratným zájmenem (ich graue mich) se také ozývá, ale řidčeji. Perfektum: hat gegraut.",
-        "Slovo souvisí s das Grauen (hrůza) a s rčením der Tag graut (svítá)."
+        "Slovo souvisí s das Grauen (hrůza)."
       ],
       "examples": [
         {

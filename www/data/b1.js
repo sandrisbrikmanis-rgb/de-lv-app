@@ -72420,7 +72420,7 @@ const B1_WORDS = [
         {
           "word": "anstatt dass",
           "meaning": "tā vietā lai (cits darītājs)",
-          "example": "Anstatt dass er hilft, schaut er zu. – Tā vietā lai viņš palīdzētu, viņš tikai skatās."
+          "example": "Anstatt dass er hilft, schaut sie zu. – Tā vietā lai viņš palīdzētu, viņa tikai skatās."
         },
         {
           "word": "ohne … zu",
@@ -72433,7 +72433,7 @@ const B1_WORDS = [
         "Statt … zu ir tas pats un skan nedaudz vienkāršāk; abas formas ir pareizas."
       ],
       "important": [
-        "Uzmanies: ja darītājs mainās, lieto anstatt dass: Anstatt dass er hilft, schaut er zu.",
+        "Uzmanies: ja darītājs mainās, lieto anstatt dass: Anstatt dass er hilft, schaut sie zu.",
         "Nejauc ar prievārdu anstatt/statt + ģenitīvs (statt des Buches), kas nozīmē tā vietā."
       ],
       "sectionAccents": {

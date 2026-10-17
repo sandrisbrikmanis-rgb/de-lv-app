@@ -14224,7 +14224,7 @@ const B2_WORDS = [
       "explanation": [
         "Põhimõte: sich grauen tähendab tundma ette hirmu, õudust, vastikust või vastumeelsust — kartma midagi ebameeldivat, mis on ees ootamas. Normkeeles kasutatakse peaaegu alati umbisikulist vormi: Mir graut vor …, Es graut mir vor … (datiiv).",
         "vor + datiiviga nimetatakse see, mida kardetakse: Mir graut vor der Prüfung. Enesekohase asesõnaga vormi (ich graue mich) kuuleb samuti, kuid harvem. Täisminevik: hat gegraut. Võrdle eesti keelega: Mir graut … ≈ „mul on õudne“ — kogeja ei ole nominatiivis.",
-        "Sõna on seotud sõnaga das Grauen (õudus) ja väljendiga der Tag graut (päev koidab)."
+        "Sõna on seotud sõnaga das Grauen (õudus)."
       ],
       "examples": [
         {
