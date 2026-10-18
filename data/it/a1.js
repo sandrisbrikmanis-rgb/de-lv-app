@@ -204,12 +204,29 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "spricht",
+              "spreche"
+            ]
+          },
+          {
+            "blue": [
+              "spreche"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "sprechen"
+            ]
+          },
+          {
+            "blue": [
+              "gesprochen"
+            ]
+          }
         ]
       }
     }
@@ -282,7 +299,8 @@ const A1_WORDS = [
             "am kleinsten",
             "kleines",
             "kleine",
-            "kleiner Tisch"
+            "kleiner Tisch",
+            "kleinsten"
           ],
           "purple": [
             "piccolo",
@@ -391,12 +409,32 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "green": [
+              "groß"
+            ]
+          },
+          {
+            "blue": [
+              "klein"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "klein"
+            ],
+            "green": [
+              "kurz"
+            ]
+          },
+          {
+            "blue": [
+              "klein",
+              "kleines"
+            ]
+          }
         ]
       }
     }
@@ -491,7 +529,8 @@ const A1_WORDS = [
         "explanation": {
           "blue": [
             "an",
-            "ans"
+            "ans",
+            "am"
           ],
           "purple": [
             "alla"
@@ -598,12 +637,31 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "an"
+            ]
+          },
+          {
+            "blue": [
+              "am"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "an"
+            ],
+            "green": [
+              "bei"
+            ]
+          },
+          {
+            "blue": [
+              "an"
+            ]
+          }
         ]
       }
     }
@@ -704,6 +762,9 @@ const A1_WORDS = [
           "purple": [
             "a partire da",
             "da"
+          ],
+          "green": [
+            "seit"
           ]
         },
         "examples": [
@@ -807,12 +868,37 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "ab"
+            ]
+          },
+          {
+            "blue": [
+              "ab",
+              "Ab"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "ab",
+              "Ab"
+            ],
+            "green": [
+              "von",
+              "aus"
+            ]
+          },
+          {
+            "blue": [
+              "ab"
+            ],
+            "green": [
+              "seit"
+            ]
+          }
         ]
       }
     }
@@ -1008,12 +1094,33 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "aber"
+            ]
+          },
+          {
+            "blue": [
+              "aber",
+              "Aber"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "aber"
+            ],
+            "green": [
+              "sondern"
+            ]
+          },
+          {
+            "blue": [
+              "aber",
+              "Aber"
+            ]
+          }
         ]
       }
     }
@@ -1114,6 +1221,9 @@ const A1_WORDS = [
             "quindi",
             "conclusione",
             "allora"
+          ],
+          "green": [
+            "auch"
           ]
         },
         "examples": [
@@ -1217,12 +1327,34 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "also",
+              "Also"
+            ]
+          },
+          {
+            "blue": [
+              "also",
+              "Also"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "also",
+              "Also"
+            ],
+            "green": [
+              "auch"
+            ]
+          },
+          {
+            "blue": [
+              "also"
+            ]
+          }
         ]
       }
     }
@@ -1528,12 +1660,34 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "auch"
+            ]
+          },
+          {
+            "blue": [
+              "auch"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "auch"
+            ],
+            "green": [
+              "noch"
+            ]
+          },
+          {
+            "blue": [
+              "auch"
+            ],
+            "green": [
+              "also"
+            ]
+          }
         ]
       }
     }
@@ -1710,12 +1864,28 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "auf"
+            ]
+          },
+          {
+            "blue": [
+              "auf"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "auf"
+            ]
+          },
+          {
+            "blue": [
+              "auf"
+            ]
+          }
         ]
       }
     }
@@ -1938,12 +2108,31 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "aus"
+            ]
+          },
+          {
+            "blue": [
+              "aus"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "aus"
+            ]
+          },
+          {
+            "blue": [
+              "aus"
+            ],
+            "green": [
+              "von"
+            ]
+          }
         ]
       }
     }
@@ -2133,12 +2322,34 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "aufs",
+              "aufs Bett"
+            ]
+          },
+          {
+            "blue": [
+              "auf das"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "aufs"
+            ],
+            "green": [
+              "auf den"
+            ]
+          },
+          {
+            "blue": [
+              "aufs",
+              "auf dem",
+              "aufs Bett"
+            ]
+          }
         ]
       }
     }
@@ -2267,6 +2478,9 @@ const A1_WORDS = [
             "nella vasca",
             "fare il bagno a qualcuno",
             "Nuotare"
+          ],
+          "green": [
+            "schwimmen"
           ]
         },
         "examples": [
@@ -2370,12 +2584,36 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "baden",
+              "baden gehen"
+            ]
+          },
+          {
+            "green": [
+              "schwimmen",
+              "duschen"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "baden"
+            ],
+            "green": [
+              "schwimmen"
+            ]
+          },
+          {
+            "blue": [
+              "baden"
+            ],
+            "green": [
+              "duschen"
+            ]
+          }
         ]
       }
     }
@@ -2510,6 +2748,9 @@ const A1_WORDS = [
             "da",
             "dal medico",
             "mangiando"
+          ],
+          "green": [
+            "zu"
           ]
         },
         "examples": [
@@ -2613,12 +2854,36 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "bei",
+              "beim"
+            ],
+            "green": [
+              "zu"
+            ]
+          },
+          {
+            "blue": [
+              "beim",
+              "Beim"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "bei"
+            ]
+          },
+          {
+            "blue": [
+              "bei"
+            ],
+            "green": [
+              "zu"
+            ]
+          }
         ]
       }
     }
@@ -2739,12 +3004,16 @@ const A1_WORDS = [
             "die Besuche",
             "Wir haben Besuch",
             "zu Besuch sein",
-            "der Gast"
+            "der Gast",
+            "Besuche"
           ],
           "purple": [
             "visita",
             "ospiti",
             "in visita"
+          ],
+          "green": [
+            "Gast"
           ]
         },
         "examples": [
@@ -2848,12 +3117,35 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "Besuch",
+              "Wir haben Besuch"
+            ]
+          },
+          {
+            "blue": [
+              "Besuch",
+              "zu Besuch sein"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "Besuche"
+            ]
+          },
+          {
+            "blue": [
+              "Besuch",
+              "der Besuch",
+              "der Gast"
+            ],
+            "green": [
+              "Gast"
+            ]
+          }
         ]
       }
     }
@@ -2933,12 +3225,16 @@ const A1_WORDS = [
             "besuchte",
             "hat besucht",
             "die Schule besuchen",
-            "Ich besuche meine Oma"
+            "Ich besuche meine Oma",
+            "besuche"
           ],
           "purple": [
             "visitare",
             "andare a trovare",
             "frequentare"
+          ],
+          "green": [
+            "zu jemandem gehen"
           ]
         },
         "examples": [
@@ -3042,12 +3338,29 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "besuchen"
+            ]
+          },
+          {
+            "blue": [
+              "besucht",
+              "hat besucht"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "besuchen"
+            ]
+          },
+          {
+            "blue": [
+              "besuchen"
+            ]
+          }
         ]
       }
     }
@@ -3127,6 +3440,9 @@ const A1_WORDS = [
           ],
           "purple": [
             "fino a"
+          ],
+          "green": [
+            "von"
           ]
         },
         "examples": [
@@ -3225,12 +3541,31 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "bis",
+              "Bis"
+            ]
+          },
+          {
+            "blue": [
+              "bis",
+              "Bis"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "bis"
+            ]
+          },
+          {
+            "blue": [
+              "bis",
+              "Bis"
+            ]
+          }
         ]
       }
     }
@@ -3308,6 +3643,10 @@ const A1_WORDS = [
           ],
           "purple": [
             "per favore"
+          ],
+          "green": [
+            "danke",
+            "die Bitte"
           ]
         },
         "examples": [
@@ -3411,12 +3750,37 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "bitte",
+              "Bitte"
+            ],
+            "green": [
+              "danke",
+              "gern geschehen"
+            ]
+          },
+          {
+            "blue": [
+              "bitte"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "bitte",
+              "Bitte"
+            ],
+            "green": [
+              "die Bitte"
+            ]
+          },
+          {
+            "blue": [
+              "bitte"
+            ]
+          }
         ]
       }
     }
@@ -3485,7 +3849,8 @@ const A1_WORDS = [
             "die Bitte",
             "die Bitten",
             "bitte",
-            "Bitte"
+            "Bitte",
+            "Bitten"
           ],
           "purple": [
             "richiesta",
@@ -3581,12 +3946,32 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "Bitte",
+              "bitte"
+            ]
+          },
+          {
+            "blue": [
+              "Bitte",
+              "bitte"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "Bitte",
+              "die Bitte",
+              "bitte"
+            ]
+          },
+          {
+            "blue": [
+              "bitte"
+            ]
+          }
         ]
       }
     }
@@ -3695,12 +4080,16 @@ const A1_WORDS = [
             "blieb",
             "ist geblieben",
             "stehen bleiben",
-            "bleibe"
+            "bleibe",
+            "geblieben"
           ],
           "purple": [
             "restare",
             "resto a casa",
             "resta bello"
+          ],
+          "green": [
+            "sein"
           ]
         },
         "examples": [
@@ -3804,12 +4193,35 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "ist geblieben",
+              "geblieben"
+            ]
+          },
+          {
+            "blue": [
+              "Bleib"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "bleiben",
+              "blieb",
+              "ist geblieben",
+              "geblieben"
+            ]
+          },
+          {
+            "blue": [
+              "bleiben"
+            ],
+            "green": [
+              "wohnen"
+            ]
+          }
         ]
       }
     }
@@ -3935,7 +4347,8 @@ const A1_WORDS = [
             "bringen",
             "bringt",
             "brachte",
-            "gebracht"
+            "gebracht",
+            "bringe"
           ],
           "purple": [
             "portare",
@@ -4044,12 +4457,31 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "bringen"
+            ]
+          },
+          {
+            "green": [
+              "holen"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "gebracht"
+            ]
+          },
+          {
+            "blue": [
+              "bringen"
+            ],
+            "green": [
+              "tragen"
+            ]
+          }
         ]
       }
     }
@@ -4327,12 +4759,37 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "da",
+              "Da",
+              "da sein"
+            ]
+          },
+          {
+            "blue": [
+              "da"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "da",
+              "Da"
+            ],
+            "green": [
+              "weil"
+            ]
+          },
+          {
+            "blue": [
+              "da"
+            ],
+            "green": [
+              "weil"
+            ]
+          }
         ]
       }
     }
@@ -4527,12 +4984,34 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "das",
+              "das Kind"
+            ]
+          },
+          {
+            "blue": [
+              "das",
+              "das Haus"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "das",
+              "Das",
+              "dass"
+            ]
+          },
+          {
+            "blue": [
+              "das",
+              "das Kind",
+              "dem"
+            ]
+          }
         ]
       }
     }
@@ -4709,12 +5188,29 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "dass"
+            ]
+          },
+          {
+            "blue": [
+              "dass"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "dass",
+              "das"
+            ]
+          },
+          {
+            "blue": [
+              "dass"
+            ]
+          }
         ]
       }
     }
@@ -4914,12 +5410,33 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "der",
+              "den"
+            ]
+          },
+          {
+            "blue": [
+              "der"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "der",
+              "Der",
+              "der Frau"
+            ]
+          },
+          {
+            "blue": [
+              "der",
+              "der Mann",
+              "den"
+            ]
+          }
         ]
       }
     }
@@ -4998,11 +5515,16 @@ const A1_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "die"
+            "die",
+            "Die"
           ],
           "purple": [
             "genere femminile",
             "determinativo"
+          ],
+          "green": [
+            "der",
+            "den"
           ]
         },
         "examples": [
@@ -5106,12 +5628,32 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "die"
+            ]
+          },
+          {
+            "blue": [
+              "die"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "die"
+            ],
+            "green": [
+              "der"
+            ]
+          },
+          {
+            "blue": [
+              "die",
+              "Die"
+            ]
+          }
         ]
       }
     }
@@ -5192,12 +5734,16 @@ const A1_WORDS = [
             "diesen",
             "diesem",
             "dieser Mann",
-            "dieses Jahr"
+            "dieses Jahr",
+            "Dieser"
           ],
           "purple": [
             "questo",
             "questa",
             "quest'anno"
+          ],
+          "green": [
+            "der"
           ]
         },
         "examples": [
@@ -5301,12 +5847,44 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "dieser",
+              "diesen",
+              "dieser Mann",
+              "Dieser"
+            ],
+            "green": [
+              "der"
+            ]
+          },
+          {
+            "blue": [
+              "diese",
+              "dieses",
+              "dieses Jahr",
+              "Dieses"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "dieser",
+              "diesen",
+              "diesem"
+            ]
+          },
+          {
+            "blue": [
+              "dieser",
+              "Dieser"
+            ],
+            "green": [
+              "jener",
+              "der"
+            ]
+          }
         ]
       }
     }
@@ -5459,7 +6037,8 @@ const A1_WORDS = [
             "einen",
             "einem",
             "einer",
-            "kein"
+            "kein",
+            "Ein"
           ],
           "purple": [
             "indeterminativo",
@@ -5569,11 +6148,25 @@ const A1_WORDS = [
         ],
         "tip": [
           {},
-          {}
+          {
+            "blue": [
+              "kein"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "ein",
+              "Ein"
+            ]
+          },
+          {
+            "blue": [
+              "ein",
+              "einen"
+            ]
+          }
         ]
       }
     }
@@ -5764,12 +6357,28 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "Eis"
+            ]
+          },
+          {
+            "blue": [
+              "Eis"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "Eis"
+            ]
+          },
+          {
+            "blue": [
+              "Eis"
+            ]
+          }
         ]
       }
     }
@@ -5891,6 +6500,9 @@ const A1_WORDS = [
             "solo",
             "prima",
             "primo"
+          ],
+          "green": [
+            "nur"
           ]
         },
         "examples": [
@@ -5994,12 +6606,38 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "erst",
+              "Erst"
+            ]
+          },
+          {
+            "blue": [
+              "erst",
+              "Erst"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "erst",
+              "Erst"
+            ],
+            "green": [
+              "nur"
+            ]
+          },
+          {
+            "blue": [
+              "erst",
+              "Erst"
+            ],
+            "green": [
+              "zuerst"
+            ]
+          }
         ]
       }
     }
@@ -6083,6 +6721,11 @@ const A1_WORDS = [
             "pronome personale",
             "piove",
             "neutri"
+          ],
+          "green": [
+            "das",
+            "er",
+            "sie"
           ]
         },
         "examples": [
@@ -6186,12 +6829,39 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "es",
+              "Es",
+              "Wie geht es dir",
+              "Es gibt"
+            ]
+          },
+          {
+            "blue": [
+              "es"
+            ],
+            "green": [
+              "das"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "es"
+            ]
+          },
+          {
+            "blue": [
+              "es"
+            ],
+            "green": [
+              "er",
+              "sie",
+              "das"
+            ]
+          }
         ]
       }
     }
@@ -6379,12 +7049,31 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "etwas"
+            ]
+          },
+          {
+            "blue": [
+              "etwas"
+            ],
+            "green": [
+              "nichts"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "etwas"
+            ]
+          },
+          {
+            "blue": [
+              "etwas"
+            ]
+          }
         ]
       }
     }
@@ -6565,12 +7254,31 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "euch",
+              "ihr"
+            ]
+          },
+          {
+            "blue": [
+              "euch"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "euch"
+            ]
+          },
+          {
+            "blue": [
+              "euch",
+              "Sie",
+              "Ihnen"
+            ]
+          }
         ]
       }
     }
@@ -6757,12 +7465,35 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "fährt",
+              "fährst"
+            ]
+          },
+          {
+            "blue": [
+              "gefahren"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "fahren"
+            ],
+            "green": [
+              "gehen"
+            ]
+          },
+          {
+            "blue": [
+              "fahren"
+            ],
+            "green": [
+              "fliegen"
+            ]
+          }
         ]
       }
     }
@@ -6924,13 +7655,17 @@ const A1_WORDS = [
             "fand",
             "gefunden",
             "Ich finde",
-            "den Film gut finden"
+            "den Film gut finden",
+            "finde"
           ],
           "purple": [
             "trovare",
             "ritenere",
             "pensare",
             "opinione"
+          ],
+          "green": [
+            "suchen"
           ]
         },
         "examples": [
@@ -7034,12 +7769,31 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "findest"
+            ]
+          },
+          {
+            "blue": [
+              "finden"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "gefunden"
+            ]
+          },
+          {
+            "blue": [
+              "finden"
+            ],
+            "green": [
+              "suchen"
+            ]
+          }
         ]
       }
     }
@@ -7287,12 +8041,30 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "Frau"
+            ]
+          },
+          {
+            "blue": [
+              "Frau",
+              "die Frau",
+              "Frauen"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "Frau"
+            ]
+          },
+          {
+            "blue": [
+              "Frau"
+            ]
+          }
         ]
       }
     }
@@ -7568,12 +8340,32 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "für"
+            ]
+          },
+          {
+            "blue": [
+              "für"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "für",
+              "für zwei Wochen"
+            ],
+            "green": [
+              "seit"
+            ]
+          },
+          {
+            "blue": [
+              "für"
+            ]
+          }
         ]
       }
     }
@@ -7763,11 +8555,25 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "Fußball"
+            ]
+          },
+          {
+            "blue": [
+              "Fußball",
+              "der Fußball"
+            ]
+          }
         ],
         "important": [
-          {},
+          {
+            "blue": [
+              "Fußball",
+              "Fußbälle"
+            ]
+          },
           {}
         ]
       }
@@ -7843,7 +8649,8 @@ const A1_WORDS = [
             "ganz neu",
             "ganz einfach",
             "ganz Europa",
-            "ganz Lettland"
+            "ganz Lettland",
+            "ganze"
           ],
           "purple": [
             "intero",
@@ -7952,12 +8759,35 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "der ganze Tag",
+              "ganze"
+            ]
+          },
+          {
+            "blue": [
+              "ganz",
+              "ganz neu"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "ganz",
+              "der ganze Tag",
+              "ganz neu",
+              "ganze"
+            ]
+          },
+          {
+            "blue": [
+              "ganz",
+              "ganz Europa",
+              "ganze"
+            ]
+          }
         ]
       }
     }
@@ -8052,7 +8882,8 @@ const A1_WORDS = [
             "gab",
             "gegeben",
             "Es gibt",
-            "die Hand geben"
+            "die Hand geben",
+            "gebe"
           ],
           "purple": [
             "dare",
@@ -8161,12 +8992,30 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "gebe"
+            ]
+          },
+          {
+            "blue": [
+              "gibt",
+              "Es gibt"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "gibt"
+            ]
+          },
+          {
+            "blue": [
+              "gibt",
+              "Es gibt"
+            ]
+          }
         ]
       }
     }
@@ -8247,6 +9096,9 @@ const A1_WORDS = [
           "purple": [
             "piace",
             "piacere"
+          ],
+          "green": [
+            "mögen"
           ]
         },
         "examples": [
@@ -8351,10 +9203,19 @@ const A1_WORDS = [
         ],
         "tip": [
           {},
-          {}
+          {
+            "blue": [
+              "gefällt"
+            ]
+          }
         ],
         "important": [
-          {},
+          {
+            "blue": [
+              "gefallen",
+              "Gefallen"
+            ]
+          },
           {}
         ]
       }
@@ -8573,12 +9434,34 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "Geschichte",
+              "eine Geschichte erzählen"
+            ]
+          },
+          {
+            "blue": [
+              "Geschichte"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "Geschichte",
+              "die Geschichte"
+            ],
+            "green": [
+              "das Märchen",
+              "Märchen"
+            ]
+          },
+          {
+            "blue": [
+              "Geschichten"
+            ]
+          }
         ]
       }
     }
@@ -8656,6 +9539,10 @@ const A1_WORDS = [
           "purple": [
             "fratelli e sorelle",
             "fratello o una sorella"
+          ],
+          "green": [
+            "Bruder",
+            "Schwester"
           ]
         },
         "examples": [
@@ -8759,12 +9646,31 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "Geschwister"
+            ]
+          },
+          {
+            "blue": [
+              "Geschwister",
+              "die Geschwister",
+              "Geschwistern"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "Geschwister"
+            ]
+          },
+          {
+            "blue": [
+              "Geschwister",
+              "die Geschwister"
+            ]
+          }
         ]
       }
     }
@@ -8994,12 +9900,32 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "gleich"
+            ],
+            "green": [
+              "sofort"
+            ]
+          },
+          {
+            "blue": [
+              "gleich",
+              "gleich nebenan"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "gleich"
+            ]
+          },
+          {
+            "blue": [
+              "gleich"
+            ]
+          }
         ]
       }
     }
@@ -9109,7 +10035,9 @@ const A1_WORDS = [
             "am größten",
             "großes Haus",
             "großer Mann",
-            "1,90 Meter groß"
+            "1,90 Meter groß",
+            "großer",
+            "großes"
           ],
           "purple": [
             "grande",
@@ -9218,12 +10146,32 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "groß"
+            ],
+            "green": [
+              "klein"
+            ]
+          },
+          {
+            "blue": [
+              "groß",
+              "größer"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "groß"
+            ]
+          },
+          {
+            "blue": [
+              "groß"
+            ]
+          }
         ]
       }
     }
@@ -9296,6 +10244,12 @@ const A1_WORDS = [
           ],
           "purple": [
             "nonni"
+          ],
+          "green": [
+            "der Opa",
+            "die Oma",
+            "Opa",
+            "Oma"
           ]
         },
         "examples": [
@@ -9399,12 +10353,32 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "green": [
+              "Opa",
+              "Oma"
+            ]
+          },
+          {
+            "blue": [
+              "Großeltern"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "Großeltern"
+            ],
+            "green": [
+              "Eltern"
+            ]
+          },
+          {
+            "blue": [
+              "Großeltern"
+            ]
+          }
         ]
       }
     }
@@ -9524,7 +10498,9 @@ const A1_WORDS = [
             "besser",
             "am besten",
             "Guten Tag",
-            "Gute Nacht"
+            "Gute Nacht",
+            "Gute",
+            "Guten"
           ],
           "purple": [
             "buono",
@@ -9632,12 +10608,32 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "gut"
+            ]
+          },
+          {
+            "blue": [
+              "besser",
+              "am besten"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "besser"
+            ]
+          },
+          {
+            "blue": [
+              "gut"
+            ],
+            "green": [
+              "schön"
+            ]
+          }
         ]
       }
     }
@@ -9824,12 +10820,34 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "haben",
+              "habe",
+              "Haben"
+            ]
+          },
+          {
+            "blue": [
+              "haben",
+              "habe"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "habe"
+            ],
+            "green": [
+              "sein"
+            ]
+          },
+          {
+            "blue": [
+              "habe"
+            ]
+          }
         ]
       }
     }
@@ -10026,12 +11044,31 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "halten",
+              "hält"
+            ]
+          },
+          {
+            "blue": [
+              "halten"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "halten",
+              "hielt",
+              "gehalten"
+            ]
+          },
+          {
+            "blue": [
+              "halten"
+            ]
+          }
         ]
       }
     }
@@ -10120,6 +11157,9 @@ const A1_WORDS = [
             "mano",
             "braccio",
             "stringere la mano"
+          ],
+          "green": [
+            "Arm"
           ]
         },
         "examples": [
@@ -10223,12 +11263,33 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "Hand",
+              "die Hand",
+              "Hände"
+            ]
+          },
+          {
+            "blue": [
+              "Hände"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "Hand"
+            ],
+            "green": [
+              "Arm"
+            ]
+          },
+          {
+            "blue": [
+              "Hände"
+            ]
+          }
         ]
       }
     }
@@ -10353,7 +11414,8 @@ const A1_WORDS = [
             "hieß",
             "geheißen",
             "Ich heiße",
-            "Wie heißt du"
+            "Wie heißt du",
+            "heiße"
           ],
           "purple": [
             "chiamarsi",
@@ -10462,12 +11524,35 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "heißt",
+              "Ich heiße",
+              "Wie heißt du",
+              "heiße"
+            ]
+          },
+          {
+            "blue": [
+              "heißt",
+              "Wie heißt du"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "heißen",
+              "Ich heiße",
+              "heiße"
+            ]
+          },
+          {
+            "blue": [
+              "heißen",
+              "hieß"
+            ]
+          }
         ]
       }
     }
@@ -10696,12 +11781,35 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "hoch",
+              "hoher",
+              "hohes"
+            ]
+          },
+          {
+            "blue": [
+              "hoch"
+            ],
+            "green": [
+              "niedrig",
+              "tief"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "hoher"
+            ]
+          },
+          {
+            "blue": [
+              "hoch",
+              "groß"
+            ]
+          }
         ]
       }
     }
@@ -10780,7 +11888,8 @@ const A1_WORDS = [
             "gehört",
             "etwas hören",
             "von jemandem hören",
-            "zuhören"
+            "zuhören",
+            "höre"
           ],
           "purple": [
             "sentire",
@@ -10890,12 +11999,33 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "hören",
+              "zuhören"
+            ]
+          },
+          {
+            "blue": [
+              "hören"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "zuhören",
+              "höre"
+            ]
+          },
+          {
+            "blue": [
+              "hören"
+            ],
+            "green": [
+              "aufhören"
+            ]
+          }
         ]
       }
     }
@@ -10964,6 +12094,9 @@ const A1_WORDS = [
           ],
           "purple": [
             "carino"
+          ],
+          "green": [
+            "schön"
           ]
         },
         "examples": [
@@ -11055,12 +12188,35 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "hübsch"
+            ],
+            "green": [
+              "schön"
+            ]
+          },
+          {
+            "blue": [
+              "hübsch",
+              "hübsches"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "hübsch"
+            ]
+          },
+          {
+            "blue": [
+              "hübsch"
+            ],
+            "green": [
+              "schön"
+            ]
+          }
         ]
       }
     }
@@ -11150,6 +12306,10 @@ const A1_WORDS = [
             "voi",
             "lei",
             "di lei"
+          ],
+          "green": [
+            "Sie",
+            "Ihnen"
           ]
         },
         "examples": [
@@ -11253,12 +12413,35 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "ihr"
+            ]
+          },
+          {
+            "blue": [
+              "ihr"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "ihr",
+              "Ihr"
+            ],
+            "green": [
+              "Ihnen"
+            ]
+          },
+          {
+            "blue": [
+              "ihr"
+            ],
+            "green": [
+              "du"
+            ]
+          }
         ]
       }
     }
@@ -11332,7 +12515,8 @@ const A1_WORDS = [
             "im Haus",
             "im Zimmer",
             "im Sommer",
-            "im Juli"
+            "im Juli",
+            "Im"
           ],
           "purple": [
             "nella stanza",
@@ -11442,12 +12626,39 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "im",
+              "Im"
+            ],
+            "green": [
+              "ins"
+            ]
+          },
+          {
+            "blue": [
+              "im"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "im",
+              "Im"
+            ],
+            "green": [
+              "ins"
+            ]
+          },
+          {
+            "blue": [
+              "im"
+            ],
+            "green": [
+              "am"
+            ]
+          }
         ]
       }
     }
@@ -11526,6 +12737,9 @@ const A1_WORDS = [
           "purple": [
             "dentro",
             "verso"
+          ],
+          "green": [
+            "nach"
           ]
         },
         "examples": [
@@ -11630,11 +12844,30 @@ const A1_WORDS = [
         ],
         "tip": [
           {},
-          {}
+          {
+            "blue": [
+              "in",
+              "ins"
+            ],
+            "green": [
+              "im"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "in"
+            ],
+            "green": [
+              "nach"
+            ]
+          },
+          {
+            "blue": [
+              "in"
+            ]
+          }
         ]
       }
     }
@@ -11707,6 +12940,10 @@ const A1_WORDS = [
           ],
           "purple": [
             "verso dove"
+          ],
+          "green": [
+            "in die",
+            "in den"
           ]
         },
         "examples": [
@@ -11810,12 +13047,38 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "ins"
+            ],
+            "green": [
+              "im"
+            ]
+          },
+          {
+            "blue": [
+              "ins"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "ins"
+            ],
+            "green": [
+              "in die",
+              "in den"
+            ]
+          },
+          {
+            "blue": [
+              "in das"
+            ],
+            "green": [
+              "in die"
+            ]
+          }
         ]
       }
     }
@@ -11925,10 +13188,14 @@ const A1_WORDS = [
             "junge",
             "jünger",
             "am jüngsten",
-            "alt"
+            "alt",
+            "jungen"
           ],
           "purple": [
             "giovane"
+          ],
+          "green": [
+            "neu"
           ]
         },
         "examples": [
@@ -12032,12 +13299,38 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "jung",
+              "junger"
+            ],
+            "green": [
+              "neu"
+            ]
+          },
+          {
+            "blue": [
+              "jung",
+              "jünger",
+              "am jüngsten"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "jung"
+            ],
+            "green": [
+              "neu"
+            ]
+          },
+          {
+            "blue": [
+              "junger",
+              "jünger"
+            ]
+          }
         ]
       }
     }
@@ -12130,6 +13423,9 @@ const A1_WORDS = [
           "purple": [
             "nessuno",
             "alcuno"
+          ],
+          "green": [
+            "nicht"
           ]
         },
         "examples": [
@@ -12233,12 +13529,31 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "kein"
+            ]
+          },
+          {
+            "green": [
+              "nicht"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "green": [
+              "nicht"
+            ]
+          },
+          {
+            "blue": [
+              "kein"
+            ],
+            "green": [
+              "nicht"
+            ]
+          }
         ]
       }
     }
@@ -12319,7 +13634,8 @@ const A1_WORDS = [
             "kannte",
             "gekannt",
             "wissen",
-            "Ich kenne ihn"
+            "Ich kenne ihn",
+            "kenne"
           ],
           "purple": [
             "conoscere",
@@ -12428,12 +13744,36 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "kennen",
+              "wissen"
+            ]
+          },
+          {
+            "blue": [
+              "kennen",
+              "kannte",
+              "gekannt"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "kennen",
+              "wissen",
+              "kenne"
+            ]
+          },
+          {
+            "blue": [
+              "kennen"
+            ],
+            "green": [
+              "können"
+            ]
+          }
         ]
       }
     }
@@ -12507,7 +13847,8 @@ const A1_WORDS = [
             "weißt",
             "wusste",
             "gewusst",
-            "kennen"
+            "kennen",
+            "Weißt"
           ],
           "purple": [
             "sapere",
@@ -12615,12 +13956,31 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "weiß"
+            ]
+          },
+          {
+            "blue": [
+              "wissen",
+              "weißt",
+              "kennen",
+              "Weißt"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "weiß"
+            ]
+          },
+          {
+            "blue": [
+              "wissen"
+            ]
+          }
         ]
       }
     }
@@ -12852,12 +14212,32 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "kann"
+            ]
+          },
+          {
+            "blue": [
+              "Kannst",
+              "kannst"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "können"
+            ],
+            "green": [
+              "kennen"
+            ]
+          },
+          {
+            "blue": [
+              "können"
+            ]
+          }
         ]
       }
     }
@@ -13038,12 +14418,34 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "kosten",
+              "kostet"
+            ],
+            "green": [
+              "bezahlen",
+              "zahlen",
+              "bezahle"
+            ]
+          },
+          {
+            "blue": [
+              "kostet"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "kosten"
+            ]
+          },
+          {
+            "blue": [
+              "kosten"
+            ]
+          }
         ]
       }
     }
@@ -13297,11 +14699,15 @@ const A1_WORDS = [
         "explanation": {
           "blue": [
             "Laden",
-            "Läden"
+            "Läden",
+            "Blumenladen"
           ],
           "purple": [
             "negozio",
             "al negozio"
+          ],
+          "green": [
+            "Supermarkt"
           ]
         },
         "examples": [
@@ -13393,12 +14799,34 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "Laden"
+            ],
+            "green": [
+              "das Geschäft",
+              "Geschäft"
+            ]
+          },
+          {
+            "blue": [
+              "Laden"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "Laden",
+              "Läden"
+            ]
+          },
+          {
+            "blue": [
+              "Laden",
+              "Läden"
+            ]
+          }
         ]
       }
     }
@@ -13480,12 +14908,17 @@ const A1_WORDS = [
             "die Länder",
             "auf dem Land",
             "aufs Land",
-            "Bundesland"
+            "Bundesland",
+            "Länder"
           ],
           "purple": [
             "paese",
             "in campagna",
             "terra"
+          ],
+          "green": [
+            "der Boden",
+            "Boden"
           ]
         },
         "examples": [
@@ -13589,12 +15022,43 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "Land",
+              "das Land",
+              "die Länder",
+              "auf dem Land",
+              "Länder"
+            ]
+          },
+          {
+            "blue": [
+              "Land",
+              "das Land"
+            ],
+            "green": [
+              "die Stadt",
+              "Stadt"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "Land",
+              "das Land"
+            ],
+            "green": [
+              "der Staat",
+              "Staat"
+            ]
+          },
+          {
+            "blue": [
+              "die Länder",
+              "Länder"
+            ]
+          }
         ]
       }
     }
@@ -13776,12 +15240,33 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "lang",
+              "lange"
+            ]
+          },
+          {
+            "blue": [
+              "lang"
+            ],
+            "green": [
+              "groß"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "lang",
+              "lange"
+            ]
+          },
+          {
+            "blue": [
+              "lang"
+            ]
+          }
         ]
       }
     }
@@ -13867,7 +15352,8 @@ const A1_WORDS = [
             "lassen",
             "lasse",
             "Lass",
-            "Lasst"
+            "Lasst",
+            "lässt"
           ],
           "purple": [
             "lasciare",
@@ -13975,12 +15461,33 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "lassen",
+              "lässt"
+            ]
+          },
+          {
+            "blue": [
+              "lassen",
+              "lasse"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "lassen"
+            ],
+            "green": [
+              "verlassen"
+            ]
+          },
+          {
+            "blue": [
+              "lassen"
+            ]
+          }
         ]
       }
     }
@@ -14057,6 +15564,9 @@ const A1_WORDS = [
             "correre",
             "andare a piedi",
             "funzionare"
+          ],
+          "green": [
+            "rennen"
           ]
         },
         "examples": [
@@ -14160,12 +15670,28 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "laufen"
+            ]
+          },
+          {
+            "blue": [
+              "läuft"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "gelaufen"
+            ]
+          },
+          {
+            "blue": [
+              "läuft"
+            ]
+          }
         ]
       }
     }
@@ -14237,7 +15763,8 @@ const A1_WORDS = [
             "lauter",
             "am lautesten",
             "leise",
-            "Laut"
+            "Laut",
+            "lautesten"
           ],
           "purple": [
             "rumoroso",
@@ -14346,12 +15873,33 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "laut",
+              "leise",
+              "Laut"
+            ]
+          },
+          {
+            "blue": [
+              "laut",
+              "Laut"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "laut",
+              "Laut"
+            ]
+          },
+          {
+            "blue": [
+              "laut",
+              "Laut"
+            ]
+          }
         ]
       }
     }
@@ -14422,7 +15970,8 @@ const A1_WORDS = [
             "die Laute",
             "laut",
             "Ton",
-            "Geräusch"
+            "Geräusch",
+            "Laute"
           ],
           "purple": [
             "suono",
@@ -14518,12 +16067,36 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "Laut",
+              "der Laut",
+              "die Laute",
+              "laut",
+              "Laute"
+            ]
+          },
+          {
+            "blue": [
+              "Laute"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "Laut",
+              "der Laut",
+              "laut"
+            ]
+          },
+          {
+            "blue": [
+              "Laut",
+              "laut",
+              "Ton"
+            ]
+          }
         ]
       }
     }
@@ -14616,6 +16189,10 @@ const A1_WORDS = [
             "mettere",
             "coricare",
             "sdraiarsi"
+          ],
+          "green": [
+            "liegen",
+            "liegt"
           ]
         },
         "examples": [
@@ -14719,12 +16296,40 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "legen",
+              "gelegt"
+            ],
+            "green": [
+              "liegen"
+            ]
+          },
+          {
+            "blue": [
+              "legen"
+            ],
+            "green": [
+              "stellen",
+              "setzen"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "legen",
+              "gelegt"
+            ],
+            "green": [
+              "liegen"
+            ]
+          },
+          {
+            "blue": [
+              "legen"
+            ]
+          }
         ]
       }
     }
@@ -14817,6 +16422,9 @@ const A1_WORDS = [
           "purple": [
             "silenzioso",
             "piano"
+          ],
+          "green": [
+            "laut"
           ]
         },
         "examples": [
@@ -14908,12 +16516,37 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "leise"
+            ],
+            "green": [
+              "still"
+            ]
+          },
+          {
+            "blue": [
+              "leise"
+            ],
+            "green": [
+              "laut"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "leise"
+            ]
+          },
+          {
+            "blue": [
+              "leise"
+            ],
+            "green": [
+              "still"
+            ]
+          }
         ]
       }
     }
@@ -15139,12 +16772,36 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "liegen",
+              "lag",
+              "gelegen",
+              "legen"
+            ]
+          },
+          {
+            "blue": [
+              "liegen"
+            ],
+            "green": [
+              "stehen",
+              "sitzen"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "gelegen"
+            ]
+          },
+          {
+            "blue": [
+              "liegen",
+              "liegt"
+            ]
+          }
         ]
       }
     }
@@ -15241,6 +16898,9 @@ const A1_WORDS = [
           "purple": [
             "litro",
             "litri"
+          ],
+          "green": [
+            "Milliliter"
           ]
         },
         "examples": [
@@ -15332,12 +16992,28 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "Liter"
+            ]
+          },
+          {
+            "blue": [
+              "Liter"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "Liter"
+            ]
+          },
+          {
+            "blue": [
+              "Liter"
+            ]
+          }
         ]
       }
     }
@@ -15426,7 +17102,8 @@ const A1_WORDS = [
           "blue": [
             "machen",
             "mache",
-            "macht"
+            "macht",
+            "machst"
           ],
           "purple": [
             "fare",
@@ -15534,12 +17211,27 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
+          {
+            "blue": [
+              "machen"
+            ]
+          },
           {}
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "machen"
+            ],
+            "green": [
+              "tun"
+            ]
+          },
+          {
+            "blue": [
+              "machen"
+            ]
+          }
         ]
       }
     }
@@ -15742,12 +17434,33 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "Mal",
+              "mal"
+            ]
+          },
+          {
+            "blue": [
+              "zweimal",
+              "dreimal",
+              "mal",
+              "einmal"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "Mal",
+              "mal"
+            ]
+          },
+          {
+            "blue": [
+              "zweimal"
+            ]
+          }
         ]
       }
     }
@@ -15838,12 +17551,17 @@ const A1_WORDS = [
             "der Mann",
             "die Männer",
             "man",
-            "Mensch"
+            "Mensch",
+            "Männer"
           ],
           "purple": [
             "uomo",
             "marito",
             "uomini"
+          ],
+          "green": [
+            "Ehemann",
+            "der Mensch"
           ]
         },
         "examples": [
@@ -15947,12 +17665,39 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "Mann",
+              "der Mann"
+            ]
+          },
+          {
+            "blue": [
+              "Mann",
+              "der Mann",
+              "die Männer",
+              "Männer"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "Mann",
+              "der Mann",
+              "man"
+            ]
+          },
+          {
+            "blue": [
+              "Mann",
+              "der Mann",
+              "Mensch"
+            ],
+            "green": [
+              "der Mensch"
+            ]
+          }
         ]
       }
     }
@@ -16218,12 +17963,31 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "mit",
+              "mit dir"
+            ]
+          },
+          {
+            "blue": [
+              "mit"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "mit",
+              "mit dem Bus"
+            ]
+          },
+          {
+            "blue": [
+              "mit",
+              "mitkommen"
+            ]
+          }
         ]
       }
     }
@@ -16432,12 +18196,34 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "mögen"
+            ],
+            "green": [
+              "gefallen"
+            ]
+          },
+          {
+            "blue": [
+              "mag",
+              "Ich mag"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "mag",
+              "Ich mag"
+            ]
+          },
+          {
+            "blue": [
+              "mag",
+              "möchte"
+            ]
+          }
         ]
       }
     }
@@ -16638,12 +18424,36 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "morgen",
+              "Morgen"
+            ]
+          },
+          {
+            "blue": [
+              "morgen",
+              "Morgen",
+              "bis morgen"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "morgen",
+              "Morgen",
+              "morgen früh"
+            ],
+            "green": [
+              "heute"
+            ]
+          },
+          {
+            "blue": [
+              "morgen"
+            ]
+          }
         ]
       }
     }
@@ -16827,12 +18637,38 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "Morgen",
+              "Guten Morgen",
+              "morgen"
+            ]
+          },
+          {
+            "blue": [
+              "Morgen",
+              "am Morgen",
+              "morgens",
+              "morgen"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "Morgen",
+              "der Morgen",
+              "am Morgen",
+              "morgen"
+            ]
+          },
+          {
+            "blue": [
+              "Morgen",
+              "heute Morgen",
+              "morgen"
+            ]
+          }
         ]
       }
     }
@@ -16934,6 +18770,9 @@ const A1_WORDS = [
             "devo",
             "non sei obbligato",
             "essere necessario"
+          ],
+          "green": [
+            "dürfen"
           ]
         },
         "examples": [
@@ -17037,12 +18876,39 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "muss"
+            ],
+            "green": [
+              "sollen"
+            ]
+          },
+          {
+            "blue": [
+              "müssen"
+            ],
+            "green": [
+              "brauchen"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "müssen",
+              "musst"
+            ],
+            "green": [
+              "dürfen"
+            ]
+          },
+          {
+            "blue": [
+              "müssen",
+              "muss"
+            ]
+          }
         ]
       }
     }
@@ -17129,6 +18995,9 @@ const A1_WORDS = [
           "purple": [
             "verso",
             "dopo"
+          ],
+          "green": [
+            "in"
           ]
         },
         "examples": [
@@ -17232,12 +19101,37 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "nach",
+              "Nach"
+            ],
+            "green": [
+              "zu"
+            ]
+          },
+          {
+            "blue": [
+              "nach"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "nach",
+              "Nach"
+            ]
+          },
+          {
+            "blue": [
+              "nach",
+              "Nach"
+            ],
+            "green": [
+              "in"
+            ]
+          }
         ]
       }
     }
@@ -17438,12 +19332,32 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "natürlich",
+              "Natürlich"
+            ]
+          },
+          {
+            "blue": [
+              "natürlich",
+              "Natürlich"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "natürlich",
+              "Natürlich",
+              "künstlich"
+            ]
+          },
+          {
+            "blue": [
+              "natürlich"
+            ]
+          }
         ]
       }
     }
@@ -17631,12 +19545,34 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "nehmen",
+              "nimmt",
+              "nahm",
+              "genommen"
+            ]
+          },
+          {
+            "blue": [
+              "nehmen"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "Nimm"
+            ]
+          },
+          {
+            "blue": [
+              "nehmen"
+            ],
+            "green": [
+              "bringen"
+            ]
+          }
         ]
       }
     }
@@ -17721,10 +19657,14 @@ const A1_WORDS = [
           "blue": [
             "neu",
             "neues",
-            "neuer"
+            "neuer",
+            "neue"
           ],
           "purple": [
             "nuovo"
+          ],
+          "green": [
+            "jung"
           ]
         },
         "examples": [
@@ -17828,12 +19768,35 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "neu"
+            ],
+            "green": [
+              "jung",
+              "alt"
+            ]
+          },
+          {
+            "blue": [
+              "neu"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "neu"
+            ],
+            "green": [
+              "jung"
+            ]
+          },
+          {
+            "blue": [
+              "neu"
+            ]
+          }
         ]
       }
     }
@@ -18071,12 +20034,33 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "noch",
+              "noch nicht",
+              "schon"
+            ]
+          },
+          {
+            "blue": [
+              "noch",
+              "noch ein"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "noch",
+              "noch nicht",
+              "nicht mehr"
+            ]
+          },
+          {
+            "blue": [
+              "noch"
+            ]
+          }
         ]
       }
     }
@@ -18170,7 +20154,8 @@ const A1_WORDS = [
         "explanation": {
           "blue": [
             "nur",
-            "nicht nur … sondern auch"
+            "nicht nur … sondern auch",
+            "Nur"
           ],
           "purple": [
             "solo",
@@ -18278,12 +20263,34 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "nur",
+              "Nur"
+            ],
+            "green": [
+              "erst"
+            ]
+          },
+          {
+            "blue": [
+              "nur"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "nur",
+              "Nur"
+            ]
+          },
+          {
+            "blue": [
+              "nur",
+              "nicht nur … sondern auch"
+            ]
+          }
         ]
       }
     }
@@ -18443,12 +20450,39 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "ob",
+              "Ob"
+            ],
+            "green": [
+              "wenn",
+              "dass"
+            ]
+          },
+          {
+            "blue": [
+              "ob"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "ob"
+            ],
+            "green": [
+              "oder"
+            ]
+          },
+          {
+            "blue": [
+              "ob"
+            ],
+            "green": [
+              "wenn"
+            ]
+          }
         ]
       }
     }
@@ -18522,7 +20556,6 @@ const A1_WORDS = [
         "explanation": {
           "blue": [
             "oder",
-            "Oder",
             "entweder … oder"
           ],
           "purple": [
@@ -18632,12 +20665,37 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "oder",
+              "Oder"
+            ],
+            "green": [
+              "und",
+              "aber"
+            ]
+          },
+          {
+            "blue": [
+              "oder"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "oder",
+              "Oder"
+            ],
+            "green": [
+              "ob"
+            ]
+          },
+          {
+            "blue": [
+              "oder"
+            ]
+          }
         ]
       }
     }
@@ -18887,12 +20945,32 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "passen",
+              "passt"
+            ]
+          },
+          {
+            "blue": [
+              "passt"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "passen"
+            ],
+            "green": [
+              "aufpassen"
+            ]
+          },
+          {
+            "blue": [
+              "passen"
+            ]
+          }
         ]
       }
     }
@@ -19027,7 +21105,8 @@ const A1_WORDS = [
             "probieren",
             "probiert",
             "probierte",
-            "anprobieren"
+            "anprobieren",
+            "Probier"
           ],
           "purple": [
             "provare",
@@ -19124,12 +21203,35 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "probieren"
+            ],
+            "green": [
+              "versuchen",
+              "versuche"
+            ]
+          },
+          {
+            "blue": [
+              "Probier"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "probieren"
+            ],
+            "green": [
+              "versuchen"
+            ]
+          },
+          {
+            "blue": [
+              "probiert"
+            ]
+          }
         ]
       }
     }
@@ -19371,12 +21473,31 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "Reis",
+              "der Reis"
+            ]
+          },
+          {
+            "blue": [
+              "Reis",
+              "Reise"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "Reis"
+            ]
+          },
+          {
+            "blue": [
+              "Reis",
+              "der Reis"
+            ]
+          }
         ]
       }
     }
@@ -19603,12 +21724,32 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "sagen"
+            ]
+          },
+          {
+            "blue": [
+              "sagen"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "sagen",
+              "sprechen",
+              "spreche"
+            ]
+          },
+          {
+            "blue": [
+              "sagen",
+              "sagte",
+              "gesagt"
+            ]
+          }
         ]
       }
     }
@@ -19707,12 +21848,17 @@ const A1_WORDS = [
             "schaute",
             "geschaut",
             "Schau mal",
-            "gucken"
+            "gucken",
+            "Schau",
+            "schaue"
           ],
           "purple": [
             "guardare",
             "dare un'occhiata",
             "bada"
+          ],
+          "green": [
+            "sehen"
           ]
         },
         "examples": [
@@ -19816,12 +21962,36 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "Schau mal",
+              "Schau"
+            ]
+          },
+          {
+            "blue": [
+              "schauen"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "schauen"
+            ],
+            "green": [
+              "sehen"
+            ]
+          },
+          {
+            "blue": [
+              "schauen",
+              "gucken"
+            ],
+            "green": [
+              "sehen"
+            ]
+          }
         ]
       }
     }
@@ -19951,6 +22121,9 @@ const A1_WORDS = [
             "già",
             "non ancora",
             "vedrai"
+          ],
+          "green": [
+            "noch"
           ]
         },
         "examples": [
@@ -20054,12 +22227,32 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "schon",
+              "noch nicht"
+            ],
+            "green": [
+              "noch"
+            ]
+          },
+          {
+            "blue": [
+              "schon"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "schon"
+            ]
+          },
+          {
+            "green": [
+              "erst"
+            ]
+          }
         ]
       }
     }
@@ -20189,7 +22382,8 @@ const A1_WORDS = [
             "schwamm",
             "geschwommen",
             "ist geschwommen",
-            "baden"
+            "baden",
+            "schwimme"
           ],
           "purple": [
             "nuotare",
@@ -20297,12 +22491,33 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "schwimmen",
+              "schwamm",
+              "geschwommen"
+            ]
+          },
+          {
+            "blue": [
+              "schwimmen",
+              "baden"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "schwimmen",
+              "geschwommen",
+              "ist geschwommen"
+            ]
+          },
+          {
+            "blue": [
+              "schwimmen"
+            ]
+          }
         ]
       }
     }
@@ -20414,6 +22629,10 @@ const A1_WORDS = [
           ],
           "purple": [
             "vedere"
+          ],
+          "green": [
+            "schauen",
+            "ansehen"
           ]
         },
         "examples": [
@@ -20517,12 +22736,34 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "siehst",
+              "sieht"
+            ]
+          },
+          {
+            "blue": [
+              "sehen",
+              "sehe"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "siehst",
+              "sieht"
+            ]
+          },
+          {
+            "blue": [
+              "sehen"
+            ],
+            "green": [
+              "ansehen"
+            ]
+          }
         ]
       }
     }
@@ -20717,12 +22958,33 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "bin",
+              "bist",
+              "ist",
+              "sind",
+              "seid"
+            ]
+          },
+          {
+            "blue": [
+              "bin"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "sein",
+              "bin"
+            ]
+          },
+          {
+            "green": [
+              "haben"
+            ]
+          }
         ]
       }
     }
@@ -20809,6 +23071,9 @@ const A1_WORDS = [
             "lato",
             "pagina web",
             "aspetto"
+          ],
+          "green": [
+            "Blatt"
           ]
         },
         "examples": [
@@ -20912,12 +23177,36 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "Seite",
+              "auf Seite",
+              "auf der Seite"
+            ]
+          },
+          {
+            "blue": [
+              "Seite",
+              "die Seite"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "Seite",
+              "die Seite",
+              "das Blatt"
+            ],
+            "green": [
+              "Blatt"
+            ]
+          },
+          {
+            "blue": [
+              "Seiten"
+            ]
+          }
         ]
       }
     }
@@ -21112,12 +23401,32 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "sich"
+            ]
+          },
+          {
+            "blue": [
+              "sich"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "sich",
+              "mich",
+              "dich",
+              "uns",
+              "euch"
+            ]
+          },
+          {
+            "blue": [
+              "sich"
+            ]
+          }
         ]
       }
     }
@@ -21188,7 +23497,8 @@ const A1_WORDS = [
             "sicher",
             "Ich bin mir sicher",
             "die Sicherheit",
-            "Sicher"
+            "Sicher",
+            "Sicherheit"
           ],
           "purple": [
             "sicuro",
@@ -21298,12 +23608,33 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "sicher",
+              "Ich bin mir sicher"
+            ]
+          },
+          {
+            "blue": [
+              "sicher"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "sicher",
+              "Sicher"
+            ]
+          },
+          {
+            "blue": [
+              "sicher"
+            ],
+            "green": [
+              "vielleicht"
+            ]
+          }
         ]
       }
     }
@@ -21487,12 +23818,32 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "sie"
+            ]
+          },
+          {
+            "blue": [
+              "ihr",
+              "ihnen"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "sie",
+              "Sie"
+            ]
+          },
+          {
+            "blue": [
+              "sie",
+              "sie kommen",
+              "Sie"
+            ]
+          }
         ]
       }
     }
@@ -21572,6 +23923,9 @@ const A1_WORDS = [
             "Lei",
             "cortesia",
             "del Lei"
+          ],
+          "green": [
+            "sie"
           ]
         },
         "examples": [
@@ -21677,11 +24031,35 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "Sie"
+            ],
+            "green": [
+              "sie"
+            ]
+          },
+          {
+            "blue": [
+              "Sie",
+              "Ihnen",
+              "Ihr",
+              "ihr"
+            ],
+            "green": [
+              "sie"
+            ]
+          }
         ],
         "important": [
-          {},
+          {
+            "blue": [
+              "Sie"
+            ],
+            "green": [
+              "sie"
+            ]
+          },
           {}
         ]
       }
@@ -21797,6 +24175,9 @@ const A1_WORDS = [
           "purple": [
             "seduto",
             "sedersi"
+          ],
+          "green": [
+            "liegen"
           ]
         },
         "examples": [
@@ -21900,12 +24281,37 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "sitzen",
+              "sich setzen",
+              "setzen",
+              "Wo?",
+              "Wohin?"
+            ]
+          },
+          {
+            "blue": [
+              "sitzen",
+              "saß"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "sitzen",
+              "sich setzen",
+              "setzen",
+              "sitze",
+              "setze"
+            ]
+          },
+          {
+            "blue": [
+              "sitzen"
+            ]
+          }
         ]
       }
     }
@@ -22006,7 +24412,8 @@ const A1_WORDS = [
             "sollte",
             "solltest",
             "hat gesollt",
-            "Soll ich"
+            "Soll ich",
+            "Soll"
           ],
           "purple": [
             "dovresti",
@@ -22102,12 +24509,33 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "sollen"
+            ]
+          },
+          {
+            "blue": [
+              "sollte",
+              "solltest"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "sollen",
+              "sollst"
+            ]
+          },
+          {
+            "blue": [
+              "sollen"
+            ],
+            "green": [
+              "müssen"
+            ]
+          }
         ]
       }
     }
@@ -22249,6 +24677,10 @@ const A1_WORDS = [
           "purple": [
             "stato",
             "in piedi"
+          ],
+          "green": [
+            "stellen",
+            "aufstehen"
           ]
         },
         "examples": [
@@ -22340,12 +24772,35 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "stehen"
+            ],
+            "green": [
+              "stellen"
+            ]
+          },
+          {
+            "blue": [
+              "stand",
+              "gestanden"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "gestanden"
+            ]
+          },
+          {
+            "blue": [
+              "stehen"
+            ],
+            "green": [
+              "aufstehen"
+            ]
+          }
         ]
       }
     }
@@ -22624,6 +25079,9 @@ const A1_WORDS = [
             "sopra",
             "attraverso",
             "su"
+          ],
+          "green": [
+            "von"
           ]
         },
         "examples": [
@@ -22727,12 +25185,34 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "über"
+            ]
+          },
+          {
+            "blue": [
+              "über"
+            ],
+            "green": [
+              "unter"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "über"
+            ],
+            "green": [
+              "auf"
+            ]
+          },
+          {
+            "blue": [
+              "über"
+            ]
+          }
         ]
       }
     }
@@ -22809,7 +25289,8 @@ const A1_WORDS = [
             "um",
             "um acht Uhr",
             "um den Tisch",
-            "um die Ecke"
+            "um die Ecke",
+            "Um"
           ],
           "purple": [
             "alle",
@@ -22906,12 +25387,33 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "um"
+            ]
+          },
+          {
+            "green": [
+              "gegen"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "um",
+              "um den Tisch",
+              "um die Ecke"
+            ]
+          },
+          {
+            "blue": [
+              "um"
+            ],
+            "green": [
+              "in"
+            ]
+          }
         ]
       }
     }
@@ -22999,6 +25501,9 @@ const A1_WORDS = [
             "sotto",
             "tra",
             "meno di"
+          ],
+          "green": [
+            "über"
           ]
         },
         "examples": [
@@ -23090,12 +25595,35 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "unter",
+              "unter dem Tisch"
+            ]
+          },
+          {
+            "blue": [
+              "unter"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "unter",
+              "Unter"
+            ],
+            "green": [
+              "zwischen"
+            ]
+          },
+          {
+            "blue": [
+              "unter",
+              "unter 18",
+              "Unter"
+            ]
+          }
         ]
       }
     }
@@ -23202,6 +25730,10 @@ const A1_WORDS = [
             "capire",
             "capirsi",
             "intendersene"
+          ],
+          "green": [
+            "begreifen",
+            "hören"
           ]
         },
         "examples": [
@@ -23305,12 +25837,32 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "verstanden"
+            ]
+          },
+          {
+            "blue": [
+              "verstanden",
+              "verstehe"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "verstehen"
+            ],
+            "green": [
+              "hören"
+            ]
+          },
+          {
+            "blue": [
+              "verstehen"
+            ]
+          }
         ]
       }
     }
@@ -23439,11 +25991,15 @@ const A1_WORDS = [
             "vom",
             "von dem",
             "von der",
-            "von den"
+            "von den",
+            "Vom"
           ],
           "purple": [
             "da",
             "dativo"
+          ],
+          "green": [
+            "von"
           ]
         },
         "examples": [
@@ -23535,12 +26091,39 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "vom",
+              "Vom"
+            ]
+          },
+          {
+            "blue": [
+              "von der"
+            ],
+            "green": [
+              "von"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "vom",
+              "Vom"
+            ],
+            "green": [
+              "von"
+            ]
+          },
+          {
+            "blue": [
+              "vom"
+            ],
+            "green": [
+              "aus"
+            ]
+          }
         ]
       }
     }
@@ -23613,11 +26196,16 @@ const A1_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "vor"
+            "vor",
+            "Angst"
           ],
           "purple": [
             "davanti a",
             "prima di"
+          ],
+          "green": [
+            "nach",
+            "hinter"
           ]
         },
         "examples": [
@@ -23721,12 +26309,32 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "vor"
+            ]
+          },
+          {
+            "blue": [
+              "vor",
+              "Angst"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "vor"
+            ],
+            "green": [
+              "seit"
+            ]
+          },
+          {
+            "blue": [
+              "vor"
+            ]
+          }
         ]
       }
     }
@@ -23838,7 +26446,8 @@ const A1_WORDS = [
             "was",
             "Was",
             "was für ein",
-            "wer"
+            "wer",
+            "Was für ein"
           ],
           "purple": [
             "che cosa",
@@ -23947,12 +26556,30 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "was",
+              "wer"
+            ]
+          },
+          {
+            "blue": [
+              "was"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "was",
+              "Was"
+            ]
+          },
+          {
+            "blue": [
+              "was"
+            ]
+          }
         ]
       }
     }
@@ -24171,12 +26798,34 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "wenn",
+              "Wenn"
+            ]
+          },
+          {
+            "blue": [
+              "wenn"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "wenn",
+              "als"
+            ]
+          },
+          {
+            "blue": [
+              "wenn",
+              "Wenn"
+            ],
+            "green": [
+              "wann"
+            ]
+          }
         ]
       }
     }
@@ -24358,12 +27007,35 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "wer",
+              "wen",
+              "wem",
+              "wessen"
+            ]
+          },
+          {
+            "blue": [
+              "wen",
+              "Wen",
+              "wem"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "wer",
+              "Wer",
+              "was"
+            ]
+          },
+          {
+            "blue": [
+              "wer"
+            ]
+          }
         ]
       }
     }
@@ -24443,6 +27115,9 @@ const A1_WORDS = [
             "diventare",
             "futuro",
             "passivo"
+          ],
+          "green": [
+            "bekommen"
           ]
         },
         "examples": [
@@ -24546,12 +27221,32 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "werden"
+            ]
+          },
+          {
+            "blue": [
+              "wird"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "werden",
+              "werde"
+            ],
+            "green": [
+              "bekommen"
+            ]
+          },
+          {
+            "blue": [
+              "worden"
+            ]
+          }
         ]
       }
     }
@@ -24618,11 +27313,16 @@ const A1_WORDS = [
           "blue": [
             "das Wetter",
             "Wetter",
-            "der Wetterbericht"
+            "der Wetterbericht",
+            "Wetterbericht"
           ],
           "purple": [
             "tempo atmosferico",
             "tempo"
+          ],
+          "green": [
+            "die Zeit",
+            "Zeit"
           ]
         },
         "examples": [
@@ -24714,12 +27414,38 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "Wetter",
+              "das Wetter"
+            ]
+          },
+          {
+            "blue": [
+              "Wetter",
+              "das Wetter",
+              "der Wetterbericht",
+              "Wetterbericht"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "Wetter",
+              "das Wetter"
+            ]
+          },
+          {
+            "blue": [
+              "Wetter",
+              "das Wetter"
+            ],
+            "green": [
+              "die Zeit",
+              "Zeit"
+            ]
+          }
         ]
       }
     }
@@ -24796,12 +27522,16 @@ const A1_WORDS = [
             "Wie",
             "so ... wie",
             "wie viel",
-            "wie lange"
+            "wie lange",
+            "Wie lange"
           ],
           "purple": [
             "come",
             "quanto",
             "tanto"
+          ],
+          "green": [
+            "als"
           ]
         },
         "examples": [
@@ -24905,12 +27635,42 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "wie",
+              "Wie",
+              "wie viel",
+              "wie lange"
+            ]
+          },
+          {
+            "blue": [
+              "wie",
+              "so ... wie"
+            ],
+            "green": [
+              "als"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "wie"
+            ],
+            "green": [
+              "als"
+            ]
+          },
+          {
+            "blue": [
+              "wie",
+              "Wie"
+            ],
+            "green": [
+              "wo"
+            ]
+          }
         ]
       }
     }
@@ -25033,6 +27793,9 @@ const A1_WORDS = [
             "a",
             "per",
             "troppo"
+          ],
+          "green": [
+            "nach"
           ]
         },
         "examples": [
@@ -25136,12 +27899,34 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "zu"
+            ],
+            "green": [
+              "bei"
+            ]
+          },
+          {
+            "blue": [
+              "zu"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "zu"
+            ]
+          },
+          {
+            "blue": [
+              "zu"
+            ],
+            "green": [
+              "nach"
+            ]
+          }
         ]
       }
     }
@@ -25231,6 +28016,10 @@ const A1_WORDS = [
           "purple": [
             "treno",
             "in treno"
+          ],
+          "green": [
+            "die Bahn",
+            "Bahn"
           ]
         },
         "examples": [
@@ -25334,12 +28123,33 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "Zug",
+              "der Zug",
+              "mit dem Zug"
+            ]
+          },
+          {
+            "blue": [
+              "Züge",
+              "die Züge"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "Zug",
+              "der Zug"
+            ]
+          },
+          {
+            "blue": [
+              "Zug",
+              "der Zug"
+            ]
+          }
         ]
       }
     }
@@ -25410,7 +28220,8 @@ const A1_WORDS = [
             "zum",
             "zur",
             "zu den",
-            "zum Bahnhof"
+            "zum Bahnhof",
+            "Zum"
           ],
           "purple": [
             "a",
@@ -25519,12 +28330,33 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "zum",
+              "zur",
+              "Zum"
+            ]
+          },
+          {
+            "blue": [
+              "zum"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "zum",
+              "zu den",
+              "Zum"
+            ]
+          },
+          {
+            "blue": [
+              "zum",
+              "zur"
+            ]
+          }
         ]
       }
     }
@@ -25661,10 +28493,17 @@ const A1_WORDS = [
         "explanation": {
           "blue": [
             "fernsehen",
-            "sehe fern"
+            "sehe fern",
+            "sehe",
+            "ferngesehen",
+            "fernzusehen",
+            "sehen"
           ],
           "purple": [
             "guardare la televisione"
+          ],
+          "green": [
+            "ansehen"
           ]
         },
         "examples": [
@@ -25756,12 +28595,33 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "sehe"
+            ]
+          },
+          {
+            "blue": [
+              "ferngesehen"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "sehe fern",
+              "sehe"
+            ]
+          },
+          {
+            "blue": [
+              "fernsehen"
+            ],
+            "green": [
+              "das Fernsehen",
+              "Fernsehen"
+            ]
+          }
         ]
       }
     }
@@ -25834,6 +28694,10 @@ const A1_WORDS = [
           "purple": [
             "televisione",
             "mezzo di comunicazione"
+          ],
+          "green": [
+            "fernsehen",
+            "Fernseher"
           ]
         },
         "examples": [
@@ -25925,12 +28789,48 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "Fernsehen",
+              "im Fernsehen"
+            ],
+            "green": [
+              "fernsehen"
+            ]
+          },
+          {
+            "blue": [
+              "Fernsehen",
+              "das Fernsehen",
+              "der Fernseher"
+            ],
+            "green": [
+              "fernsehen",
+              "Fernseher"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "Fernsehen",
+              "das Fernsehen"
+            ],
+            "green": [
+              "fernsehen"
+            ]
+          },
+          {
+            "blue": [
+              "Fernsehen",
+              "das Fernsehen",
+              "der Fernseher"
+            ],
+            "green": [
+              "fernsehen",
+              "Fernseher"
+            ]
+          }
         ]
       }
     }
@@ -26005,6 +28905,10 @@ const A1_WORDS = [
             "appetito",
             "avere appetito",
             "voglia di mangiare"
+          ],
+          "green": [
+            "der Hunger",
+            "Hunger"
           ]
         },
         "examples": [
@@ -26096,12 +29000,31 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "Appetit"
+            ]
+          },
+          {
+            "blue": [
+              "Appetit",
+              "Guten Appetit"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "Appetit",
+              "der Appetit"
+            ]
+          },
+          {
+            "blue": [
+              "Appetit",
+              "Appetit auf"
+            ]
+          }
         ]
       }
     }
@@ -26182,6 +29105,9 @@ const A1_WORDS = [
             "mangiare",
             "mangia",
             "cibo"
+          ],
+          "green": [
+            "Essen"
           ]
         },
         "examples": [
@@ -26285,12 +29211,33 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "isst"
+            ]
+          },
+          {
+            "blue": [
+              "essen"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "essen",
+              "fressen"
+            ]
+          },
+          {
+            "blue": [
+              "essen",
+              "das Essen"
+            ],
+            "green": [
+              "Essen"
+            ]
+          }
         ]
       }
     }
@@ -26363,6 +29310,9 @@ const A1_WORDS = [
           ],
           "purple": [
             "cibo"
+          ],
+          "green": [
+            "Mahlzeiten"
           ]
         },
         "examples": [
@@ -26454,12 +29404,35 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "green": [
+              "das Gericht",
+              "Gericht"
+            ]
+          },
+          {
+            "blue": [
+              "Essen",
+              "das Essen",
+              "essen"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "Essen",
+              "das Essen",
+              "essen"
+            ]
+          },
+          {
+            "blue": [
+              "Essen",
+              "das Essen",
+              "essen"
+            ]
+          }
         ]
       }
     }
@@ -26532,6 +29505,9 @@ const A1_WORDS = [
           "purple": [
             "verdura",
             "verdure"
+          ],
+          "green": [
+            "Obst"
           ]
         },
         "examples": [
@@ -26623,12 +29599,26 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
+          {
+            "blue": [
+              "Gemüse",
+              "das Gemüse"
+            ]
+          },
           {}
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "Gemüse",
+              "das Gemüse"
+            ]
+          },
+          {
+            "blue": [
+              "Gemüse"
+            ]
+          }
         ]
       }
     }
@@ -26700,6 +29690,10 @@ const A1_WORDS = [
           ],
           "purple": [
             "frutta"
+          ],
+          "green": [
+            "Frucht",
+            "Gemüse"
           ]
         },
         "examples": [
@@ -26791,12 +29785,38 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "Obst"
+            ],
+            "green": [
+              "Frucht"
+            ]
+          },
+          {
+            "blue": [
+              "Obst"
+            ],
+            "green": [
+              "Gemüse"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "Obst",
+              "das Obst"
+            ]
+          },
+          {
+            "blue": [
+              "Obst"
+            ],
+            "green": [
+              "Frucht"
+            ]
+          }
         ]
       }
     }
@@ -26862,7 +29882,11 @@ const A1_WORDS = [
         "explanation": {
           "blue": [
             "Ferien",
-            "Ferie"
+            "Ferie",
+            "Sommerferien"
+          ],
+          "green": [
+            "Urlaub"
           ]
         },
         "examples": [
@@ -26954,12 +29978,32 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "Ferien"
+            ],
+            "green": [
+              "Urlaub"
+            ]
+          },
+          {
+            "blue": [
+              "Ferien"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "Ferien",
+              "Ferie"
+            ]
+          },
+          {
+            "blue": [
+              "Ferien"
+            ]
+          }
         ]
       }
     }
@@ -27035,6 +30079,10 @@ const A1_WORDS = [
           "purple": [
             "ferie",
             "vacanza"
+          ],
+          "green": [
+            "die Ferien",
+            "Ferien"
           ]
         },
         "examples": [
@@ -27138,12 +30186,34 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "Urlaub"
+            ]
+          },
+          {
+            "blue": [
+              "Urlaub"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "Urlaub"
+            ],
+            "green": [
+              "Ferien"
+            ]
+          },
+          {
+            "blue": [
+              "Urlaub"
+            ],
+            "green": [
+              "Reise"
+            ]
+          }
         ]
       }
     }
@@ -27229,6 +30299,12 @@ const A1_WORDS = [
           "purple": [
             "orologio",
             "alle otto"
+          ],
+          "green": [
+            "Armbanduhr",
+            "die Stunde",
+            "Stunde",
+            "Stunden"
           ]
         },
         "examples": [
@@ -27320,12 +30396,38 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "Uhr"
+            ]
+          },
+          {
+            "blue": [
+              "Uhr"
+            ],
+            "green": [
+              "die Stunde",
+              "Stunde",
+              "Stunden"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "Uhr",
+              "Uhren"
+            ]
+          },
+          {
+            "blue": [
+              "Uhr"
+            ],
+            "green": [
+              "die Stunde",
+              "Stunde"
+            ]
+          }
         ]
       }
     }
@@ -27404,6 +30506,9 @@ const A1_WORDS = [
           "purple": [
             "tempo",
             "epoche"
+          ],
+          "green": [
+            "Wetter"
           ]
         },
         "examples": [
@@ -27507,12 +30612,36 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "Zeit"
+            ]
+          },
+          {
+            "blue": [
+              "zurzeit",
+              "Zurzeit"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "Zeit",
+              "das Wetter"
+            ],
+            "green": [
+              "Wetter"
+            ]
+          },
+          {
+            "blue": [
+              "Zeit"
+            ],
+            "green": [
+              "Mal"
+            ]
+          }
         ]
       }
     }
@@ -27583,6 +30712,10 @@ const A1_WORDS = [
             "una volta",
             "un tempo",
             "prima o poi"
+          ],
+          "green": [
+            "noch einmal",
+            "mal"
           ]
         },
         "examples": [
@@ -27674,12 +30807,35 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "einmal"
+            ],
+            "green": [
+              "zweimal",
+              "mal"
+            ]
+          },
+          {
+            "green": [
+              "mal"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "einmal"
+            ],
+            "green": [
+              "mal"
+            ]
+          },
+          {
+            "blue": [
+              "einmal"
+            ]
+          }
         ]
       }
     }
@@ -27842,12 +30998,33 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "noch mal",
+              "Noch mal"
+            ]
+          },
+          {
+            "blue": [
+              "noch einmal"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "noch mal",
+              "wieder",
+              "Noch mal"
+            ]
+          },
+          {
+            "blue": [
+              "noch mal",
+              "noch einmal",
+              "Noch mal"
+            ]
+          }
         ]
       }
     }

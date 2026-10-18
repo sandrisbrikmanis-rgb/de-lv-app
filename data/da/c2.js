@@ -231,10 +231,14 @@ const C2_WORDS = [
             "die Gewichtseinheiten",
             "Gewichtseinheit",
             "das Gewicht",
-            "die Einheit"
+            "die Einheit",
+            "Gewichtseinheiten"
           ],
           "purple": [
             "vægtenhed"
+          ],
+          "green": [
+            "Gewicht"
           ]
         },
         "examples": [
@@ -314,11 +318,25 @@ const C2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "Gewichtseinheit",
+              "die Gewichtseinheit",
+              "die Einheit"
+            ]
+          },
+          {
+            "green": [
+              "Längeneinheit"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "green": [
+              "Gewicht"
+            ]
+          }
         ]
       }
     }

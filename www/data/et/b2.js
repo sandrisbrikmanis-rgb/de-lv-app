@@ -281,12 +281,32 @@ const B2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "angebracht",
+              "unangebracht"
+            ]
+          },
+          {
+            "blue": [
+              "angebracht"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "angebracht"
+            ]
+          },
+          {
+            "blue": [
+              "angebracht"
+            ],
+            "green": [
+              "angemessen"
+            ]
+          }
         ]
       }
     }
@@ -483,7 +503,8 @@ const B2_WORDS = [
             "abgefunden",
             "findet",
             "finde",
-            "fand"
+            "fand",
+            "sich abfinden"
           ],
           "purple": [
             "leppima"
@@ -579,11 +600,23 @@ const B2_WORDS = [
         ],
         "tip": [
           {},
-          {}
+          {
+            "blue": [
+              "finde"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "abfinden"
+            ]
+          },
+          {
+            "blue": [
+              "abgefunden"
+            ]
+          }
         ]
       }
     }
@@ -743,12 +776,30 @@ const B2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "abgesehen"
+            ]
+          },
+          {
+            "blue": [
+              "abgesehen",
+              "Abgesehen"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "abgesehen",
+              "Abgesehen"
+            ]
+          },
+          {
+            "blue": [
+              "abgesehen"
+            ]
+          }
         ]
       }
     }
@@ -968,7 +1019,8 @@ const B2_WORDS = [
             "trägt ab",
             "trug ab",
             "abgetragen",
-            "abtragen"
+            "trägt",
+            "ab"
           ],
           "purple": [
             "ära kandma",
@@ -1072,12 +1124,32 @@ const B2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "abtragen"
+            ]
+          },
+          {
+            "blue": [
+              "abtragen"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "abtragen"
+            ],
+            "green": [
+              "abreißen"
+            ]
+          },
+          {
+            "blue": [
+              "abgetragen",
+              "ab"
+            ]
+          }
         ]
       }
     }
@@ -1168,7 +1240,12 @@ const B2_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "abwenden"
+            "abwenden",
+            "sich abwenden",
+            "wandte",
+            "ab",
+            "abgewandt",
+            "wendet"
           ],
           "purple": [
             "ära pöörduma"
@@ -1270,11 +1347,31 @@ const B2_WORDS = [
         ],
         "tip": [
           {},
-          {}
+          {
+            "blue": [
+              "sich abwenden",
+              "abwenden"
+            ],
+            "green": [
+              "zuwenden",
+              "sich zuwenden"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "sich abwenden",
+              "abwenden"
+            ]
+          },
+          {
+            "blue": [
+              "sich abwenden",
+              "abwenden",
+              "abgewandt"
+            ]
+          }
         ]
       }
     }
@@ -1593,12 +1690,29 @@ const B2_WORDS = [
           }
         ],
         "tip": [
-          {},
+          {
+            "blue": [
+              "Äußerlichkeit",
+              "Äußerlichkeiten"
+            ]
+          },
           {}
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "Äußerlichkeiten"
+            ]
+          },
+          {
+            "blue": [
+              "Äußerlichkeit"
+            ],
+            "green": [
+              "das Äußere",
+              "Äußere"
+            ]
+          }
         ]
       }
     }
@@ -1790,11 +1904,23 @@ const B2_WORDS = [
         ],
         "tip": [
           {},
-          {}
+          {
+            "blue": [
+              "auszusetzen"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "aussetzen"
+            ]
+          },
+          {
+            "blue": [
+              "ausgesetzt"
+            ]
+          }
         ]
       }
     }
@@ -1887,7 +2013,10 @@ const B2_WORDS = [
             "strömt aus",
             "strömte aus",
             "ausgeströmt",
-            "strömen"
+            "strömen",
+            "aus",
+            "strömt",
+            "strömte"
           ],
           "purple": [
             "välja voolama",
@@ -1987,12 +2116,30 @@ const B2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "strömt aus",
+              "strömt",
+              "aus"
+            ]
+          },
+          {
+            "blue": [
+              "ausgeströmt"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "ausgeströmt"
+            ]
+          },
+          {
+            "blue": [
+              "ausströmen"
+            ]
+          }
         ]
       }
     }
@@ -2171,12 +2318,31 @@ const B2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "ausgetreten"
+            ]
+          },
+          {
+            "blue": [
+              "austreten"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "austreten"
+            ],
+            "green": [
+              "eintreten"
+            ]
+          },
+          {
+            "blue": [
+              "austreten"
+            ]
+          }
         ]
       }
     }
@@ -2536,12 +2702,32 @@ const B2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "bebauen",
+              "bebaut"
+            ]
+          },
+          {
+            "blue": [
+              "unbebaut"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "bebauen"
+            ],
+            "green": [
+              "bauen"
+            ]
+          },
+          {
+            "blue": [
+              "anbauen"
+            ]
+          }
         ]
       }
     }
@@ -2616,7 +2802,9 @@ const B2_WORDS = [
         "explanation": {
           "blue": [
             "sich befassen",
-            "befasst sich"
+            "befasst sich",
+            "befassen",
+            "befasst"
           ],
           "purple": [
             "tegelema",
@@ -2713,11 +2901,24 @@ const B2_WORDS = [
         ],
         "tip": [
           {},
-          {}
+          {
+            "green": [
+              "sich beschäftigen mit"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "befasst"
+            ]
+          },
+          {
+            "blue": [
+              "sich befassen",
+              "befassen"
+            ]
+          }
         ]
       }
     }
@@ -2811,7 +3012,8 @@ const B2_WORDS = [
         "explanation": {
           "blue": [
             "begnügen",
-            "begnügt"
+            "begnügt",
+            "sich begnügen"
           ],
           "purple": [
             "rahulduma"
@@ -2907,11 +3109,24 @@ const B2_WORDS = [
         ],
         "tip": [
           {},
-          {}
+          {
+            "blue": [
+              "begnügen"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "sich begnügen",
+              "begnügen"
+            ]
+          },
+          {
+            "blue": [
+              "begnügt"
+            ]
+          }
         ]
       }
     }
@@ -3132,11 +3347,16 @@ const B2_WORDS = [
             "sich bemächtigen",
             "bemächtigt sich",
             "bemächtigte sich",
-            "bemächtigt"
+            "bemächtigt",
+            "sich",
+            "bemächtigte"
           ],
           "purple": [
             "enda valdusesse võtma",
             "haaravad"
+          ],
+          "green": [
+            "ergreifen"
           ]
         },
         "examples": [
@@ -3232,11 +3452,20 @@ const B2_WORDS = [
           }
         ],
         "tip": [
-          {},
+          {
+            "blue": [
+              "sich"
+            ]
+          },
           {}
         ],
         "important": [
-          {},
+          {
+            "blue": [
+              "sich bemächtigen",
+              "sich"
+            ]
+          },
           {}
         ]
       }
@@ -3369,7 +3598,10 @@ const B2_WORDS = [
             "beruft sich",
             "berief sich",
             "berufen",
-            "berufen auf"
+            "berufen auf",
+            "sich",
+            "beruft",
+            "berief"
           ],
           "purple": [
             "viitama",
@@ -3469,11 +3701,31 @@ const B2_WORDS = [
         ],
         "tip": [
           {},
-          {}
+          {
+            "blue": [
+              "sich berufen",
+              "berufen",
+              "berufen auf",
+              "sich"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "sich berufen",
+              "berufen",
+              "berufen auf",
+              "sich"
+            ]
+          },
+          {
+            "blue": [
+              "sich berufen",
+              "berufen",
+              "sich"
+            ]
+          }
         ]
       }
     }
@@ -3555,6 +3807,10 @@ const B2_WORDS = [
           "purple": [
             "meeskond",
             "okupatsioonivägi"
+          ],
+          "green": [
+            "die Mannschaft",
+            "Mannschaft"
           ]
         },
         "examples": [
@@ -3646,12 +3902,28 @@ const B2_WORDS = [
           }
         ],
         "tip": [
-          {},
+          {
+            "blue": [
+              "Besatzung"
+            ]
+          },
           {}
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "Besatzung"
+            ],
+            "green": [
+              "die Besetzung",
+              "Besetzung"
+            ]
+          },
+          {
+            "blue": [
+              "Besatzungen"
+            ]
+          }
         ]
       }
     }
@@ -3733,7 +4005,10 @@ const B2_WORDS = [
             "sich beschränken",
             "beschränkt sich",
             "beschränkte sich",
-            "beschränkt"
+            "beschränkt",
+            "sich",
+            "beschränken",
+            "beschränkte"
           ],
           "purple": [
             "piirduma",
@@ -3834,11 +4109,22 @@ const B2_WORDS = [
         ],
         "tip": [
           {},
-          {}
+          {
+            "blue": [
+              "beschränke",
+              "mich"
+            ]
+          }
         ],
         "important": [
           {},
-          {}
+          {
+            "blue": [
+              "sich beschränken",
+              "sich",
+              "beschränken"
+            ]
+          }
         ]
       }
     }
@@ -3920,6 +4206,9 @@ const B2_WORDS = [
             "seestunud",
             "kinnisideeline",
             "haaratud"
+          ],
+          "green": [
+            "besitzen"
           ]
         },
         "examples": [
@@ -4011,12 +4300,27 @@ const B2_WORDS = [
           }
         ],
         "tip": [
-          {},
+          {
+            "blue": [
+              "besessen"
+            ]
+          },
           {}
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "besessen"
+            ]
+          },
+          {
+            "blue": [
+              "besessen"
+            ],
+            "green": [
+              "besetzt"
+            ]
+          }
         ]
       }
     }
@@ -4143,7 +4447,9 @@ const B2_WORDS = [
             "betätigt sich",
             "betätigte sich",
             "betätigt",
-            "betätigen"
+            "betätigen",
+            "sich",
+            "betätigte"
           ],
           "purple": [
             "tegutsema",
@@ -4243,11 +4549,27 @@ const B2_WORDS = [
         ],
         "tip": [
           {},
-          {}
+          {
+            "blue": [
+              "betätigen",
+              "sich"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "betätigen",
+              "sich"
+            ]
+          },
+          {
+            "blue": [
+              "sich betätigen",
+              "betätigen",
+              "sich"
+            ]
+          }
         ]
       }
     }
@@ -5253,12 +5575,34 @@ const B2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "Darstellung",
+              "die Darstellung"
+            ]
+          },
+          {
+            "blue": [
+              "Darstellung"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "Darstellung"
+            ],
+            "green": [
+              "Beschreibung"
+            ]
+          },
+          {
+            "blue": [
+              "Darstellung",
+              "die Darstellung",
+              "Darstellungen"
+            ]
+          }
         ]
       }
     }
@@ -5337,6 +5681,9 @@ const B2_WORDS = [
           ],
           "purple": [
             "see"
+          ],
+          "green": [
+            "das, was"
           ]
         },
         "examples": [
@@ -5428,12 +5775,32 @@ const B2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "dasjenige"
+            ]
+          },
+          {
+            "blue": [
+              "demjenigen"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "dasjenige",
+              "Dasjenige"
+            ]
+          },
+          {
+            "blue": [
+              "dasjenige"
+            ],
+            "green": [
+              "dieses"
+            ]
+          }
         ]
       }
     }
@@ -5784,6 +6151,10 @@ const B2_WORDS = [
           "purple": [
             "palkama",
             "palgamõrvar"
+          ],
+          "green": [
+            "anheuern",
+            "engagieren"
           ]
         },
         "examples": [
@@ -5863,12 +6234,31 @@ const B2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "gedungener"
+            ]
+          },
+          {
+            "green": [
+              "anheuern",
+              "engagieren"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "dingen"
+            ]
+          },
+          {
+            "blue": [
+              "dingte",
+              "dang",
+              "gedungen"
+            ]
+          }
         ]
       }
     }
@@ -6100,12 +6490,31 @@ const B2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "donnert",
+              "Es donnert"
+            ]
+          },
+          {
+            "blue": [
+              "donnern",
+              "gedonnert"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "donnert",
+              "gedonnert"
+            ]
+          },
+          {
+            "blue": [
+              "donnern"
+            ]
+          }
         ]
       }
     }
@@ -6606,12 +7015,37 @@ const B2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "Dunst"
+            ],
+            "green": [
+              "Nebel"
+            ]
+          },
+          {
+            "blue": [
+              "Dunst",
+              "keinen blassen Dunst"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "Dunst",
+              "der Dunst"
+            ],
+            "green": [
+              "Dampf"
+            ]
+          },
+          {
+            "blue": [
+              "die Dünste",
+              "Dünste"
+            ]
+          }
         ]
       }
     }
@@ -7140,10 +7574,18 @@ const B2_WORDS = [
         ],
         "tip": [
           {},
-          {}
+          {
+            "blue": [
+              "eigenwilliger"
+            ]
+          }
         ],
         "important": [
-          {},
+          {
+            "blue": [
+              "eigenwillig"
+            ]
+          },
           {}
         ]
       }
@@ -7419,7 +7861,8 @@ const B2_WORDS = [
             "lässt",
             "ließ",
             "eingelassen",
-            "lasse"
+            "lasse",
+            "sich einlassen"
           ],
           "purple": [
             "laskuma",
@@ -7511,11 +7954,24 @@ const B2_WORDS = [
         ],
         "tip": [
           {},
-          {}
+          {
+            "blue": [
+              "lasse"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "sich einlassen",
+              "einlassen"
+            ]
+          },
+          {
+            "blue": [
+              "einlassen"
+            ]
+          }
         ]
       }
     }
@@ -7608,7 +8064,8 @@ const B2_WORDS = [
             "präge",
             "prägt",
             "prägte",
-            "eingeprägt"
+            "eingeprägt",
+            "sich einprägen"
           ],
           "purple": [
             "meelde jätma",
@@ -7708,12 +8165,23 @@ const B2_WORDS = [
           }
         ],
         "tip": [
-          {},
+          {
+            "blue": [
+              "einprägen"
+            ],
+            "green": [
+              "sich merken"
+            ]
+          },
           {}
         ],
         "important": [
           {},
-          {}
+          {
+            "blue": [
+              "eingeprägt"
+            ]
+          }
         ]
       }
     }
@@ -7782,11 +8250,15 @@ const B2_WORDS = [
         "explanation": {
           "blue": [
             "sich einschleichen",
-            "schleiche mich ein"
+            "schleiche mich ein",
+            "eingeschlichen"
           ],
           "purple": [
             "sisse hiilima",
             "sisse imbuma"
+          ],
+          "green": [
+            "schleiche"
           ]
         },
         "examples": [
@@ -7866,11 +8338,27 @@ const B2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "eingeschlichen"
+            ]
+          },
+          {
+            "blue": [
+              "schleicht",
+              "eingeschlichen"
+            ]
+          }
         ],
         "important": [
-          {},
+          {
+            "blue": [
+              "sich einschleichen"
+            ],
+            "green": [
+              "schleichen"
+            ]
+          },
           {}
         ]
       }
@@ -7945,7 +8433,8 @@ const B2_WORDS = [
             "einschränken",
             "schränke",
             "eingeschränkt",
-            "ein"
+            "ein",
+            "sich einschränken"
           ],
           "purple": [
             "piirduma",
@@ -8044,12 +8533,27 @@ const B2_WORDS = [
           }
         ],
         "tip": [
-          {},
+          {
+            "blue": [
+              "sich einschränken",
+              "einschränken"
+            ]
+          },
           {}
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "schränke",
+              "ein"
+            ]
+          },
+          {
+            "blue": [
+              "sich einschränken",
+              "einschränken"
+            ]
+          }
         ]
       }
     }
@@ -8312,10 +8816,15 @@ const B2_WORDS = [
             "empfiehlt sich",
             "empfahl",
             "empfohlen",
-            "zu"
+            "zu",
+            "empfiehlt",
+            "sich"
           ],
           "purple": [
             "on soovitatav"
+          ],
+          "green": [
+            "empfehlen"
           ]
         },
         "examples": [
@@ -8411,12 +8920,34 @@ const B2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "empfiehlt sich",
+              "zu",
+              "empfiehlt",
+              "sich"
+            ]
+          },
+          {
+            "green": [
+              "ratsam"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "empfiehlt sich",
+              "empfiehlt",
+              "sich"
+            ]
+          },
+          {
+            "green": [
+              "empfehlen",
+              "empfehle"
+            ]
+          }
         ]
       }
     }
@@ -8492,7 +9023,8 @@ const B2_WORDS = [
           "blue": [
             "empören",
             "empört",
-            "empörte"
+            "empörte",
+            "sich empören"
           ],
           "purple": [
             "nördima",
@@ -8584,12 +9116,28 @@ const B2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "empören"
+            ]
+          },
+          {
+            "blue": [
+              "sich empören",
+              "empören"
+            ],
+            "green": [
+              "sich ärgern"
+            ]
+          }
         ],
         "important": [
           {},
-          {}
+          {
+            "blue": [
+              "empören"
+            ]
+          }
         ]
       }
     }
@@ -8734,7 +9282,9 @@ const B2_WORDS = [
           "blue": [
             "sich enthalten",
             "enthalten",
-            "enthält"
+            "enthält",
+            "sich",
+            "Stimme"
           ],
           "purple": [
             "hoiduma",
@@ -8836,12 +9386,29 @@ const B2_WORDS = [
           }
         ],
         "tip": [
-          {},
+          {
+            "blue": [
+              "enthalten",
+              "sich",
+              "Stimme"
+            ]
+          },
           {}
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "sich enthalten",
+              "enthalten",
+              "sich"
+            ]
+          },
+          {
+            "blue": [
+              "enthalten",
+              "sich"
+            ]
+          }
         ]
       }
     }
@@ -8933,11 +9500,15 @@ const B2_WORDS = [
             "sich entledigen",
             "entledigte",
             "entledigt",
-            "entledigen"
+            "entledigen",
+            "sich"
           ],
           "purple": [
             "vabanema",
             "lahti saama"
+          ],
+          "green": [
+            "loswerden"
           ]
         },
         "examples": [
@@ -9034,11 +9605,31 @@ const B2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "sich entledigen",
+              "entledigen",
+              "sich"
+            ],
+            "green": [
+              "loswerden"
+            ]
+          },
+          {
+            "blue": [
+              "entledigen",
+              "sich"
+            ]
+          }
         ],
         "important": [
-          {},
+          {
+            "blue": [
+              "sich entledigen",
+              "entledigen",
+              "sich"
+            ]
+          },
           {}
         ]
       }
@@ -9119,11 +9710,16 @@ const B2_WORDS = [
         "explanation": {
           "blue": [
             "sich entrüsten",
-            "entrüstete sich"
+            "entrüstete sich",
+            "entrüstete",
+            "entrüstet"
           ],
           "purple": [
             "nördima",
             "nördimust"
+          ],
+          "green": [
+            "sich empören"
           ]
         },
         "examples": [
@@ -9216,11 +9812,19 @@ const B2_WORDS = [
         ],
         "tip": [
           {},
-          {}
+          {
+            "blue": [
+              "entrüstet"
+            ]
+          }
         ],
         "important": [
           {},
-          {}
+          {
+            "green": [
+              "sich aufregen"
+            ]
+          }
         ]
       }
     }
@@ -9296,7 +9900,8 @@ const B2_WORDS = [
             "entsinnen",
             "entsinne",
             "entsann",
-            "entsonnen"
+            "entsonnen",
+            "sich entsinnen"
           ],
           "purple": [
             "mäletama",
@@ -9393,12 +9998,37 @@ const B2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "sich entsinnen",
+              "entsinnen"
+            ],
+            "green": [
+              "sich erinnern"
+            ]
+          },
+          {
+            "blue": [
+              "entsinne"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "entsann",
+              "entsonnen"
+            ]
+          },
+          {
+            "blue": [
+              "sich entsinnen",
+              "entsinnen"
+            ],
+            "green": [
+              "gedenken"
+            ]
+          }
         ]
       }
     }
@@ -9568,7 +10198,8 @@ const B2_WORDS = [
         "explanation": {
           "blue": [
             "sich erbarmen",
-            "erbarmt"
+            "erbarmt",
+            "erbarmte"
           ],
           "purple": [
             "halastama",
@@ -9664,12 +10295,25 @@ const B2_WORDS = [
           }
         ],
         "tip": [
-          {},
+          {
+            "blue": [
+              "sich erbarmen"
+            ]
+          },
           {}
         ],
         "important": [
-          {},
-          {}
+          {
+            "green": [
+              "Mitleid haben",
+              "helfen"
+            ]
+          },
+          {
+            "green": [
+              "begnadigen"
+            ]
+          }
         ]
       }
     }
@@ -9808,7 +10452,8 @@ const B2_WORDS = [
           "blue": [
             "ergeben",
             "ergibt",
-            "ergab"
+            "ergab",
+            "sich ergeben"
           ],
           "purple": [
             "tulenema",
@@ -9917,11 +10562,24 @@ const B2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "ergibt"
+            ]
+          },
+          {
+            "blue": [
+              "ergeben"
+            ]
+          }
         ],
         "important": [
-          {},
+          {
+            "blue": [
+              "ergeben",
+              "ergibt"
+            ]
+          },
           {}
         ]
       }
@@ -10089,7 +10747,8 @@ const B2_WORDS = [
           "blue": [
             "erniedrigen",
             "erniedrigt",
-            "erniedrigte"
+            "erniedrigte",
+            "sich erniedrigen"
           ],
           "purple": [
             "alandama",
@@ -10186,11 +10845,20 @@ const B2_WORDS = [
         ],
         "tip": [
           {},
-          {}
+          {
+            "blue": [
+              "sich erniedrigen",
+              "erniedrigen"
+            ]
+          }
         ],
         "important": [
           {},
-          {}
+          {
+            "blue": [
+              "erniedrigt"
+            ]
+          }
         ]
       }
     }
@@ -10285,12 +10953,16 @@ const B2_WORDS = [
           "blue": [
             "erregen",
             "erregt",
-            "erregte"
+            "erregte",
+            "sich erregen"
           ],
           "purple": [
             "erutuma",
             "ärrituma",
             "ärritutakse"
+          ],
+          "green": [
+            "sich aufregen"
           ]
         },
         "examples": [
@@ -10382,11 +11054,20 @@ const B2_WORDS = [
           }
         ],
         "tip": [
-          {},
+          {
+            "blue": [
+              "sich erregen",
+              "erregen"
+            ]
+          },
           {}
         ],
         "important": [
-          {},
+          {
+            "blue": [
+              "erregen"
+            ]
+          },
           {}
         ]
       }
@@ -10573,10 +11254,14 @@ const B2_WORDS = [
             "erwies",
             "erweist",
             "erwiesen",
-            "erweisen"
+            "erweisen",
+            "sich"
           ],
           "purple": [
             "osutuma"
+          ],
+          "green": [
+            "sich herausstellen"
           ]
         },
         "examples": [
@@ -10672,12 +11357,27 @@ const B2_WORDS = [
           }
         ],
         "tip": [
-          {},
+          {
+            "blue": [
+              "erweisen",
+              "sich"
+            ]
+          },
           {}
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "erwies",
+              "sich"
+            ]
+          },
+          {
+            "blue": [
+              "erweisen",
+              "sich"
+            ]
+          }
         ]
       }
     }
@@ -11023,7 +11723,10 @@ const B2_WORDS = [
         "explanation": {
           "blue": [
             "sich fassen",
-            "fasst sich"
+            "fasst sich",
+            "fasste",
+            "fassen",
+            "fasst"
           ],
           "purple": [
             "end koguma",
@@ -11121,12 +11824,29 @@ const B2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "fassen"
+            ]
+          },
+          {
+            "blue": [
+              "fassen"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "sich fassen",
+              "fassen"
+            ]
+          },
+          {
+            "blue": [
+              "fassen"
+            ]
+          }
         ]
       }
     }
@@ -11495,12 +12215,30 @@ const B2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "fleckig",
+              "Fleck",
+              "Flecken"
+            ]
+          },
+          {
+            "green": [
+              "gefleckt"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "fleckig"
+            ]
+          },
+          {
+            "blue": [
+              "fleckiges"
+            ]
+          }
         ]
       }
     }
@@ -11801,6 +12539,9 @@ const B2_WORDS = [
             "tähtajata",
             "etteteatamiseta",
             "viivitamatut"
+          ],
+          "green": [
+            "kündigen"
           ]
         },
         "examples": [
@@ -11892,11 +12633,27 @@ const B2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "fristlose",
+              "Kündigung"
+            ]
+          },
+          {
+            "blue": [
+              "fristlos"
+            ]
+          }
         ],
         "important": [
-          {},
+          {
+            "blue": [
+              "fristlos"
+            ],
+            "green": [
+              "sofort"
+            ]
+          },
           {}
         ]
       }
@@ -11998,7 +12755,8 @@ const B2_WORDS = [
             "fügen",
             "fügt",
             "fügte",
-            "gefügt"
+            "gefügt",
+            "sich fügen"
           ],
           "purple": [
             "alluma",
@@ -12099,12 +12857,32 @@ const B2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "fügen"
+            ]
+          },
+          {
+            "blue": [
+              "fügen"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "fügen"
+            ]
+          },
+          {
+            "blue": [
+              "sich fügen",
+              "fügen"
+            ],
+            "green": [
+              "gehorchen"
+            ]
+          }
         ]
       }
     }
@@ -12549,12 +13327,17 @@ const B2_WORDS = [
             "gut gelaunt",
             "schlecht gelaunt",
             "Laune",
-            "Launen"
+            "Launen",
+            "gut",
+            "schlecht"
           ],
           "purple": [
             "tujus",
             "meeleolu",
             "tuju"
+          ],
+          "green": [
+            "die Laune"
           ]
         },
         "examples": [
@@ -12649,12 +13432,34 @@ const B2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "gelaunt",
+              "gut gelaunt",
+              "schlecht gelaunt",
+              "gut",
+              "schlecht"
+            ]
+          },
+          {
+            "blue": [
+              "Laune"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "gelaunt",
+              "gut",
+              "schlecht"
+            ]
+          },
+          {
+            "green": [
+              "gestimmt"
+            ]
+          }
         ]
       }
     }
@@ -12876,7 +13681,8 @@ const B2_WORDS = [
             "genieren",
             "geniert",
             "genierte",
-            "Genieren"
+            "Genieren",
+            "sich genieren"
           ],
           "purple": [
             "häbenema"
@@ -12971,11 +13777,25 @@ const B2_WORDS = [
           }
         ],
         "tip": [
-          {},
+          {
+            "blue": [
+              "genieren",
+              "Genieren"
+            ]
+          },
           {}
         ],
         "important": [
-          {},
+          {
+            "blue": [
+              "sich genieren",
+              "genieren"
+            ],
+            "green": [
+              "schämen",
+              "sich schämen"
+            ]
+          },
           {}
         ]
       }
@@ -13216,7 +14036,8 @@ const B2_WORDS = [
           "blue": [
             "gesellen",
             "gesellte",
-            "gesellt"
+            "gesellt",
+            "sich gesellen"
           ],
           "purple": [
             "ühinema"
@@ -13311,12 +14132,30 @@ const B2_WORDS = [
           }
         ],
         "tip": [
-          {},
+          {
+            "blue": [
+              "sich gesellen",
+              "gesellen"
+            ]
+          },
           {}
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "sich gesellen",
+              "gesellen"
+            ],
+            "green": [
+              "sich anschließen"
+            ]
+          },
+          {
+            "blue": [
+              "sich gesellen",
+              "gesellen"
+            ]
+          }
         ]
       }
     }
@@ -13409,7 +14248,8 @@ const B2_WORDS = [
             "sich gestalten",
             "gestalten",
             "gestaltet",
-            "gestaltete"
+            "gestaltete",
+            "sich"
           ],
           "purple": [
             "kujunema"
@@ -13508,11 +14348,30 @@ const B2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "gestalten",
+              "sich"
+            ]
+          },
+          {
+            "blue": [
+              "gestaltet",
+              "sich"
+            ]
+          }
         ],
         "important": [
-          {},
+          {
+            "blue": [
+              "sich gestalten",
+              "gestalten",
+              "sich"
+            ],
+            "green": [
+              "werden"
+            ]
+          },
           {}
         ]
       }
@@ -13845,6 +14704,9 @@ const B2_WORDS = [
             "hõõguvaid süsi",
             "kuumust",
             "kirg"
+          ],
+          "green": [
+            "Asche"
           ]
         },
         "examples": [
@@ -13936,12 +14798,39 @@ const B2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "Glut"
+            ],
+            "green": [
+              "Flamme"
+            ]
+          },
+          {
+            "blue": [
+              "Glut"
+            ],
+            "green": [
+              "Flamme"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "Glut",
+              "Gluten"
+            ]
+          },
+          {
+            "blue": [
+              "Glut"
+            ],
+            "green": [
+              "die Hitze",
+              "Hitze"
+            ]
+          }
         ]
       }
     }
@@ -14099,12 +14988,31 @@ const B2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "Gnade"
+            ]
+          },
+          {
+            "blue": [
+              "Gnade"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "Gnade"
+            ],
+            "green": [
+              "Mitleid"
+            ]
+          },
+          {
+            "green": [
+              "Gunst"
+            ]
+          }
         ]
       }
     }
@@ -14273,12 +15181,17 @@ const B2_WORDS = [
         "explanation": {
           "blue": [
             "grauen",
-            "graut"
+            "graut",
+            "sich grauen"
           ],
           "purple": [
             "hirmu",
             "õudust",
             "kartma"
+          ],
+          "green": [
+            "das Grauen",
+            "Grauen"
           ]
         },
         "examples": [
@@ -14370,12 +15283,25 @@ const B2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "graut"
+            ]
+          },
+          {
+            "green": [
+              "sich fürchten",
+              "Angst haben"
+            ]
+          }
         ],
         "important": [
           {},
-          {}
+          {
+            "blue": [
+              "graut"
+            ]
+          }
         ]
       }
     }
@@ -14734,7 +15660,8 @@ const B2_WORDS = [
         "explanation": {
           "blue": [
             "Haube",
-            "Hauben"
+            "Hauben",
+            "Dunsthaube"
           ],
           "purple": [
             "müts",
@@ -14842,12 +15769,32 @@ const B2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "Haube"
+            ]
+          },
+          {
+            "blue": [
+              "Haube",
+              "Dunsthaube"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "Haube"
+            ],
+            "green": [
+              "Mütze"
+            ]
+          },
+          {
+            "blue": [
+              "Haube"
+            ]
+          }
         ]
       }
     }
@@ -15083,7 +16030,12 @@ const B2_WORDS = [
             "bildet sich heraus",
             "bildete sich heraus",
             "hat sich herausgebildet",
-            "heraus-"
+            "heraus-",
+            "sich herausbilden",
+            "bildete",
+            "heraus",
+            "herausgebildet",
+            "bildet"
           ],
           "purple": [
             "välja kujunema"
@@ -15180,12 +16132,33 @@ const B2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "bildet sich heraus",
+              "hat sich herausgebildet",
+              "heraus",
+              "herausgebildet",
+              "bildet"
+            ]
+          },
+          {
+            "blue": [
+              "herausbilden"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "sich herausbilden",
+              "herausbilden"
+            ]
+          },
+          {
+            "green": [
+              "bilden"
+            ]
+          }
         ]
       }
     }
@@ -15257,7 +16230,8 @@ const B2_WORDS = [
             "hält",
             "hielt",
             "herausgehalten",
-            "Halt"
+            "Halt",
+            "sich heraushalten"
           ],
           "purple": [
             "end eemal hoidma"
@@ -15352,12 +16326,20 @@ const B2_WORDS = [
           }
         ],
         "tip": [
-          {},
+          {
+            "blue": [
+              "Halt"
+            ]
+          },
           {}
         ],
         "important": [
           {},
-          {}
+          {
+            "green": [
+              "sich einmischen"
+            ]
+          }
         ]
       }
     }
@@ -15425,7 +16407,11 @@ const B2_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "herausstellen"
+            "herausstellen",
+            "sich herausstellen",
+            "stellte",
+            "heraus",
+            "herausgestellt"
           ],
           "purple": [
             "selguma",
@@ -15523,12 +16509,29 @@ const B2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "stellte",
+              "heraus"
+            ]
+          },
+          {
+            "blue": [
+              "herausstellen"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "heraus"
+            ]
+          },
+          {
+            "blue": [
+              "herausstellen"
+            ]
+          }
         ]
       }
     }
@@ -15614,7 +16617,9 @@ const B2_WORDS = [
           "blue": [
             "hervortun",
             "tut sich hervor",
-            "hervorgetan"
+            "hervorgetan",
+            "sich hervortun",
+            "hervor"
           ],
           "purple": [
             "silma paistma"
@@ -15711,12 +16716,32 @@ const B2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "hervortun"
+            ]
+          },
+          {
+            "blue": [
+              "hervortun"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "sich hervortun",
+              "hervortun",
+              "tut sich hervor",
+              "hervorgetan",
+              "hervor"
+            ]
+          },
+          {
+            "green": [
+              "hervorheben"
+            ]
+          }
         ]
       }
     }
@@ -15811,12 +16836,17 @@ const B2_WORDS = [
         "explanation": {
           "blue": [
             "hetzen",
-            "hetzt"
+            "hetzt",
+            "gehetzt",
+            "Hetz"
           ],
           "purple": [
             "ässitama",
             "taga ajama",
             "kiirustama"
+          ],
+          "green": [
+            "aufhetzen"
           ]
         },
         "examples": [
@@ -15921,12 +16951,28 @@ const B2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "hetzen"
+            ]
+          },
+          {
+            "blue": [
+              "hetzen"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "hetzen"
+            ]
+          },
+          {
+            "blue": [
+              "gehetzt"
+            ]
+          }
         ]
       }
     }
@@ -16028,7 +17074,8 @@ const B2_WORDS = [
             "hingegeben",
             "gab",
             "gibt",
-            "hin"
+            "hin",
+            "sich hingeben"
           ],
           "purple": [
             "pühenduma",
@@ -16127,12 +17174,32 @@ const B2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "sich hingeben",
+              "hingeben"
+            ]
+          },
+          {
+            "blue": [
+              "hingegeben",
+              "gibt",
+              "hin"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "sich hingeben",
+              "hingeben"
+            ]
+          },
+          {
+            "green": [
+              "sich ergeben"
+            ]
+          }
         ]
       }
     }
@@ -16300,12 +17367,31 @@ const B2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "Hinsicht"
+            ]
+          },
+          {
+            "blue": [
+              "Hinsicht"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "Hinsicht"
+            ],
+            "green": [
+              "Nachricht"
+            ]
+          },
+          {
+            "blue": [
+              "hinsichtlich"
+            ]
+          }
         ]
       }
     }
@@ -16559,11 +17645,29 @@ const B2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "Hoch",
+              "hoch"
+            ]
+          },
+          {
+            "blue": [
+              "Hoch",
+              "hoch"
+            ],
+            "green": [
+              "Tief"
+            ]
+          }
         ],
         "important": [
-          {},
+          {
+            "blue": [
+              "Hoch",
+              "hoch"
+            ]
+          },
           {}
         ]
       }
@@ -16680,6 +17784,10 @@ const B2_WORDS = [
           "purple": [
             "kõrget veetaset",
             "üleujutust"
+          ],
+          "green": [
+            "das Niedrigwasser",
+            "Niedrigwasser"
           ]
         },
         "examples": [
@@ -16771,12 +17879,30 @@ const B2_WORDS = [
           }
         ],
         "tip": [
-          {},
+          {
+            "blue": [
+              "Hochwasser"
+            ],
+            "green": [
+              "Niedrigwasser"
+            ]
+          },
           {}
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "Hochwasser"
+            ],
+            "green": [
+              "Flut"
+            ]
+          },
+          {
+            "blue": [
+              "Hochwasser"
+            ]
+          }
         ]
       }
     }
@@ -17401,6 +18527,10 @@ const B2_WORDS = [
           "purple": [
             "kannatusena",
             "haigusena"
+          ],
+          "green": [
+            "leiden",
+            "Krankheit"
           ]
         },
         "examples": [
@@ -17492,12 +18622,39 @@ const B2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "green": [
+              "leiden",
+              "Krankheit"
+            ]
+          },
+          {
+            "blue": [
+              "Leiden"
+            ],
+            "green": [
+              "leiden"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "Leiden"
+            ],
+            "green": [
+              "leiden"
+            ]
+          },
+          {
+            "blue": [
+              "Leiden"
+            ],
+            "green": [
+              "leiden",
+              "Krankheit"
+            ]
+          }
         ]
       }
     }
@@ -18355,11 +19512,24 @@ const B2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "Nachdruck"
+            ]
+          },
+          {
+            "green": [
+              "nachdrücklich"
+            ]
+          }
         ],
         "important": [
-          {},
+          {
+            "blue": [
+              "Nachdruck",
+              "Nachdrucke"
+            ]
+          },
           {}
         ]
       }
@@ -18560,12 +19730,31 @@ const B2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "nachträglich"
+            ]
+          },
+          {
+            "blue": [
+              "nachträglich"
+            ],
+            "green": [
+              "später"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "nachträglich"
+            ]
+          },
+          {
+            "blue": [
+              "nachträgliche"
+            ]
+          }
         ]
       }
     }
@@ -19038,7 +20227,8 @@ const B2_WORDS = [
             "paaren",
             "paart",
             "paarte",
-            "gepaart"
+            "gepaart",
+            "sich paaren"
           ],
           "purple": [
             "paarituma"
@@ -19133,7 +20323,11 @@ const B2_WORDS = [
           }
         ],
         "tip": [
-          {},
+          {
+            "blue": [
+              "paart"
+            ]
+          },
           {}
         ],
         "important": [
@@ -19833,7 +21027,8 @@ const B2_WORDS = [
           "blue": [
             "revanchieren",
             "revanchiert",
-            "revanchierte"
+            "revanchierte",
+            "sich revanchieren"
           ],
           "purple": [
             "tasuma",
@@ -19934,7 +21129,11 @@ const B2_WORDS = [
           {}
         ],
         "important": [
-          {},
+          {
+            "blue": [
+              "revanchieren"
+            ]
+          },
           {}
         ]
       }
@@ -20317,7 +21516,8 @@ const B2_WORDS = [
             "schert",
             "scherte",
             "geschert",
-            "Scher"
+            "Scher",
+            "sich scheren"
           ],
           "purple": [
             "hoolima millestki",
@@ -20413,12 +21613,31 @@ const B2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "sich scheren",
+              "scheren",
+              "schert"
+            ]
+          },
+          {
+            "green": [
+              "sich kümmern"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "sich scheren",
+              "scheren"
+            ]
+          },
+          {
+            "blue": [
+              "Scher"
+            ]
+          }
         ]
       }
     }
@@ -20916,12 +22135,28 @@ const B2_WORDS = [
           }
         ],
         "tip": [
-          {},
+          {
+            "blue": [
+              "Sein"
+            ]
+          },
           {}
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "Sein"
+            ],
+            "green": [
+              "die Existenz",
+              "Existenz"
+            ]
+          },
+          {
+            "blue": [
+              "Sein"
+            ]
+          }
         ]
       }
     }
@@ -21122,6 +22357,9 @@ const B2_WORDS = [
           ],
           "purple": [
             "kui, tingimusel, et"
+          ],
+          "green": [
+            "wenn"
           ]
         },
         "examples": [
@@ -21225,12 +22463,32 @@ const B2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "sofern",
+              "Sofern"
+            ]
+          },
+          {
+            "blue": [
+              "sofern"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "sofern"
+            ]
+          },
+          {
+            "blue": [
+              "sofern"
+            ],
+            "green": [
+              "soweit"
+            ]
+          }
         ]
       }
     }
@@ -21549,11 +22807,23 @@ const B2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "sprengen"
+            ]
+          },
+          {
+            "blue": [
+              "sprengen"
+            ]
+          }
         ],
         "important": [
-          {},
+          {
+            "blue": [
+              "sprengen"
+            ]
+          },
           {}
         ]
       }
@@ -22137,7 +23407,9 @@ const B2_WORDS = [
         "explanation": {
           "blue": [
             "überbringen",
-            "überbringt"
+            "überbringt",
+            "überbrachte",
+            "überbracht"
           ],
           "purple": [
             "üle andma",
@@ -22233,11 +23505,24 @@ const B2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "überbringen"
+            ]
+          },
+          {
+            "green": [
+              "bringen",
+              "ausrichten"
+            ]
+          }
         ],
         "important": [
-          {},
+          {
+            "blue": [
+              "überbringt"
+            ]
+          },
           {}
         ]
       }
@@ -22862,12 +24147,35 @@ const B2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "Unterlagen"
+            ]
+          },
+          {
+            "blue": [
+              "Unterlage"
+            ],
+            "green": [
+              "Untersetzer"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "Unterlagen"
+            ],
+            "green": [
+              "das Dokument",
+              "Dokument"
+            ]
+          },
+          {
+            "green": [
+              "Grundlage"
+            ]
+          }
         ]
       }
     }
@@ -23136,7 +24444,9 @@ const B2_WORDS = [
             "vereinigen",
             "vereinigt",
             "vereinigte",
-            "Vereinigten"
+            "Vereinigten",
+            "sich vereinigen",
+            "vereinigten"
           ],
           "purple": [
             "ühinema"
@@ -23231,11 +24541,26 @@ const B2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "vereinigen"
+            ]
+          },
+          {
+            "green": [
+              "sich zusammenschließen"
+            ]
+          }
         ],
         "important": [
-          {},
+          {
+            "blue": [
+              "vereinigen"
+            ],
+            "green": [
+              "vereinen"
+            ]
+          },
           {}
         ]
       }
@@ -23437,12 +24762,32 @@ const B2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "verfügen"
+            ],
+            "green": [
+              "anordnen",
+              "bestimmen"
+            ]
+          },
+          {
+            "blue": [
+              "verfügt"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "verfügen"
+            ]
+          },
+          {
+            "blue": [
+              "verfügen"
+            ]
+          }
         ]
       }
     }
@@ -23770,7 +25115,9 @@ const B2_WORDS = [
             "versehen",
             "versieht",
             "versehe",
-            "versah"
+            "versah",
+            "sich",
+            "mich"
           ],
           "purple": [
             "eksima",
@@ -23870,12 +25217,36 @@ const B2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "sich versehen",
+              "versehen",
+              "mich",
+              "sich"
+            ]
+          },
+          {
+            "blue": [
+              "versehe",
+              "mich"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "sich versehen",
+              "versehen",
+              "sich"
+            ]
+          },
+          {
+            "blue": [
+              "sich versehen",
+              "versehen",
+              "sich"
+            ]
+          }
         ]
       }
     }
@@ -23961,7 +25332,9 @@ const B2_WORDS = [
           "blue": [
             "versöhnen",
             "versöhne",
-            "versöhnt"
+            "versöhnt",
+            "sich versöhnen",
+            "versöhnte"
           ],
           "purple": [
             "ära leppima"
@@ -24046,12 +25419,30 @@ const B2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "sich versöhnen",
+              "versöhnen"
+            ]
+          },
+          {
+            "blue": [
+              "sich versöhnen",
+              "versöhnen"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "versöhne"
+            ]
+          },
+          {
+            "blue": [
+              "versöhnt"
+            ]
+          }
         ]
       }
     }
@@ -24137,10 +25528,16 @@ const B2_WORDS = [
             "verstellen",
             "verstellt sich",
             "verstelle mich",
-            "sich verstellen"
+            "sich verstellen",
+            "verstellt",
+            "verstellte",
+            "verstelle"
           ],
           "purple": [
             "teesklema"
+          ],
+          "green": [
+            "sich ausgeben als"
           ]
         },
         "examples": [
@@ -24220,11 +25617,28 @@ const B2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "sich verstellen",
+              "verstellen"
+            ],
+            "green": [
+              "sich ausgeben als"
+            ]
+          },
+          {
+            "blue": [
+              "verstellen"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "verstellen",
+              "verstellt"
+            ]
+          }
         ]
       }
     }
@@ -24384,7 +25798,8 @@ const B2_WORDS = [
             "verwundert",
             "verwunderte",
             "sich wundern",
-            "verwundere"
+            "verwundere",
+            "verwundern"
           ],
           "purple": [
             "imestama"
@@ -24479,8 +25894,20 @@ const B2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "sich verwundern",
+              "über",
+              "verwundern"
+            ]
+          },
+          {
+            "blue": [
+              "sich verwundern",
+              "sich wundern",
+              "verwundern"
+            ]
+          }
         ],
         "important": [
           {}
@@ -25148,7 +26575,8 @@ const B2_WORDS = [
             "Wesen",
             "im Wesentlichen",
             "das Wesen der Sache",
-            "ein fremdes Wesen"
+            "ein fremdes Wesen",
+            "Wesentlichen"
           ],
           "purple": [
             "olend",
@@ -25367,7 +26795,7 @@ const B2_WORDS = [
             "sich widersetzen",
             "widersetzt",
             "widersetzte",
-            "datiivi"
+            "widersetzen"
           ],
           "purple": [
             "vastu panema",
@@ -25466,11 +26894,20 @@ const B2_WORDS = [
           }
         ],
         "tip": [
-          {},
+          {
+            "blue": [
+              "sich widersetzen",
+              "widersetzen"
+            ]
+          },
           {}
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "widersetzen"
+            ]
+          }
         ]
       }
     }
@@ -25700,7 +27137,10 @@ const B2_WORDS = [
         "explanation": {
           "blue": [
             "zuweisen",
-            "weist zu"
+            "weist zu",
+            "weist",
+            "wies",
+            "zugewiesen"
           ],
           "purple": [
             "määrama",
@@ -25796,11 +27236,19 @@ const B2_WORDS = [
           }
         ],
         "tip": [
-          {},
+          {
+            "blue": [
+              "weist"
+            ]
+          },
           {}
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "zugewiesen"
+            ]
+          }
         ]
       }
     }
@@ -25973,12 +27421,35 @@ const B2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "zuwider",
+              "mir zuwider",
+              "Das ist mir zuwider"
+            ]
+          },
+          {
+            "blue": [
+              "zuwider"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "zuwider",
+              "mir zuwider"
+            ]
+          },
+          {
+            "blue": [
+              "zuwider",
+              "dem Gesetz zuwider"
+            ],
+            "green": [
+              "entgegen"
+            ]
+          }
         ]
       }
     }
@@ -26092,6 +27563,10 @@ const B2_WORDS = [
           ],
           "purple": [
             "vahetama"
+          ],
+          "green": [
+            "ändern",
+            "sich verändern"
           ]
         },
         "examples": [
@@ -26183,11 +27658,27 @@ const B2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "wechseln",
+              "Geld wechseln"
+            ]
+          },
+          {
+            "blue": [
+              "wechseln"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "wechseln"
+            ],
+            "green": [
+              "ändern"
+            ]
+          }
         ]
       }
     }
@@ -26350,11 +27841,25 @@ const B2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "bieten",
+              "bietet"
+            ]
+          },
+          {
+            "blue": [
+              "anbieten"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "bot",
+              "geboten"
+            ]
+          }
         ]
       }
     }
@@ -26518,11 +28023,20 @@ const B2_WORDS = [
           }
         ],
         "tip": [
-          {},
+          {
+            "blue": [
+              "bietet"
+            ]
+          },
           {}
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "anbieten",
+              "Angebot"
+            ]
+          }
         ]
       }
     }
@@ -26594,6 +28108,9 @@ const B2_WORDS = [
           ],
           "purple": [
             "nõudma"
+          ],
+          "green": [
+            "bitten"
           ]
         },
         "examples": [
@@ -26685,11 +28202,26 @@ const B2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "fordern",
+              "von"
+            ]
+          },
+          {
+            "blue": [
+              "fordern",
+              "fördern"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "fordern",
+              "von"
+            ]
+          }
         ]
       }
     }
@@ -26854,11 +28386,27 @@ const B2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "fördern"
+            ]
+          },
+          {
+            "blue": [
+              "Förderung"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "fördern",
+              "fördert"
+            ],
+            "green": [
+              "helfen"
+            ]
+          }
         ]
       }
     }
@@ -26930,6 +28478,10 @@ const B2_WORDS = [
           ],
           "purple": [
             "ära eksima"
+          ],
+          "green": [
+            "sich verfahren",
+            "sich verirren"
           ]
         },
         "examples": [
@@ -27021,11 +28573,29 @@ const B2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "sich verlaufen",
+              "verlaufen",
+              "verfahren"
+            ],
+            "green": [
+              "sich verfahren"
+            ]
+          },
+          {
+            "blue": [
+              "verlaufen"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "verläuft",
+              "verlaufen"
+            ]
+          }
         ]
       }
     }
@@ -27189,11 +28759,24 @@ const B2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "verlaufen"
+            ]
+          },
+          {
+            "blue": [
+              "verläuft"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "verlaufen",
+              "ist verlaufen"
+            ]
+          }
         ]
       }
     }
