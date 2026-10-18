@@ -1,0 +1,3535 @@
+id,verdikts,kategorija,piezime
+G26248,BAD,VALODAS FAKTS,„souwuel“ → „esouwuel“
+G17782,BAD,VALODAS FAKTS,„verduerwen“ → „verdierwen“
+G49683,OK,,
+G89418,OK,,
+G96805,BAD,TULKOJUMS,„Beliichtung“ ir Belichtung → „bedroen“
+G32649,OK,,
+G77537,OK,,
+G11906,OK,,
+G90292,OK,,
+G19296,OK,,
+G17095,OK,,
+G37847,OK,,
+G31406,BAD,TULKOJUMS,„Fräi“ ir brīvs → „am Fräien“
+G14040,OK,,
+G72798,OK,,
+G31978,OK,,
+G12614,BAD,VALODAS FAKTS,„exzellent“ → „excellent“
+G78278,BAD,VALODAS FAKTS,„bang“ → „baang“
+G27583,OK,,
+G95243,OK,,
+G53275,BAD,VALODAS FAKTS,„overturn“ EN → „kippen“
+G94776,OK,,
+G72511,OK,,
+G35260,OK,,
+G54645,BAD,VALODAS FAKTS,„Route“ FR → „Streck“
+G90025,OK,,
+G92103,BAD,VALODAS FAKTS,„Kalkunsmamm“ → „Schnuddelhong“
+G69873,OK,,
+G59935,BAD,VALODAS FAKTS,„Schlofwon“ → „Wagon-lit“
+G43411,OK,,
+G79450,OK,,
+G73775,OK,,
+G51532,OK,,
+G78488,OK,,
+G47581,OK,,
+G53028,OK,,
+G89432,OK,,
+G13773,OK,,
+G87521,BAD,VALODAS FAKTS,„Talongsschong“ → „Tallekeschong“
+G17088,OK,,
+G35997,OK,,
+G59674,BAD,VALODAS FAKTS,„Telefonscabine“ → „Telefonskabinn“
+G26235,OK,,
+G42284,BAD,VALODAS FAKTS,„nüchter“ → „eniichter“
+G93458,BAD,VALODAS FAKTS,"„verwelken“ → svītrot, atstāt „verwielegen“"
+G36436,OK,,
+G82367,OK,,
+G97730,OK,,
+G82016,OK,,
+G11846,BAD,VALODAS FAKTS,"„auszuelen“ → svītrot, atstāt „ausbezuelen“"
+G29090,OK,,
+G88119,OK,,
+G62594,OK,,
+G66325,OK,,
+G59998,OK,,
+G98234,BAD,VALODAS FAKTS,„Gehir“ → „Gehier“
+G39904,OK,,
+G71682,OK,,
+G50370,OK,,
+G98321,OK,,
+G47397,OK,,
+G26659,OK,,
+G85708,OK,,
+G90480,OK,,
+G57911,OK,,
+G25029,OK,,
+G22661,OK,,
+G87264,OK,,
+G24070,OK,,
+G31987,OK,,
+G26841,OK,,
+G40402,OK,,
+G61393,OK,,
+G97123,OK,,
+G52558,OK,,
+G93471,BAD,VALODAS FAKTS,"„Usinn“ → svītrot, atstāt „Renommée“"
+G36577,OK,,
+G93258,OK,,
+G39922,OK,,
+G17232,OK,,
+G56974,OK,,
+G80228,OK,,
+G73483,OK,,
+G98093,BAD,VALODAS FAKTS,„Kiersäit“ → „Kéiersäit“
+G36796,OK,,
+G70921,BAD,VALODAS FAKTS,„ausziibar“ → „auszéibar“
+G58793,OK,,
+G70131,BAD,VALODAS FAKTS,„Gewierznelk“ → „Neelcheskapp“
+G24545,BAD,VALODAS FAKTS,„Gefliesters“ → „Gepëspers“
+G63855,OK,,
+G97461,BAD,VALODAS FAKTS,„ulehnen“ → „bäimaachen“
+G37041,OK,,
+G86267,OK,,
+G52860,BAD,TULKOJUMS,„Dialog“ ir dialogs → „all Stonn“
+G87834,OK,,
+G68946,OK,,
+G62968,OK,,
+G10353,OK,,
+G11555,OK,,
+G64861,OK,,
+G94629,OK,,
+G74649,BAD,VALODAS FAKTS,„banknote“ EN → „Geldschäin“
+G98774,OK,,
+G16985,OK,,
+G12411,BAD,TULKOJUMS,„vertraut • bekannt“ ir pazīstams → „Motorsport“
+G19787,OK,,
+G47650,BAD,VALODAS FAKTS,„Deelnam“ → „Mataarbecht“
+G23744,OK,,
+G63705,OK,,
+G39959,OK,,
+G73789,OK,,
+G63708,BAD,VALODAS FAKTS,„Treibhaus • Serre“ → „Zär“
+G53555,OK,,
+G46547,OK,,
+G91802,OK,,
+G21732,OK,,
+G59089,OK,,
+G54079,OK,,
+G56436,OK,,
+G61354,OK,,
+G94467,OK,,
+G12213,OK,,
+G89733,BAD,TULKOJUMS,„Tadel • Reprimande“ ir rājiens → „Klang“
+G37410,OK,,
+G79328,OK,,
+G99931,OK,,
+G38197,OK,,
+G48895,OK,,
+G19032,BAD,TULKOJUMS,„ongenügend“ ir nepietiekams → „Karies“
+G80260,OK,,
+G24051,OK,,
+G38221,OK,,
+G13538,OK,,
+G69079,OK,,
+G43218,OK,,
+G66354,BAD,TULKOJUMS,„hidden • oppassen op“ ir sargāt → „Stral“
+G78902,OK,,
+G34761,OK,,
+G79493,OK,,
+G70062,OK,,
+G17861,OK,,
+G74129,BAD,VALODAS FAKTS,„Ensemble“ → „Ensembel“
+G44678,OK,,
+G36354,BAD,VALODAS FAKTS,„beliebeg“ → „x-belibeg“
+G40580,OK,,
+G14745,BAD,VALODAS FAKTS,„Schenkel“ → „Cuisse“
+G15771,OK,,
+G86282,OK,,
+G15095,OK,,
+G42422,BAD,VALODAS FAKTS,"„Pantoffel“ → svītrot, atstāt „Schlapp“"
+G47315,OK,,
+G28774,OK,,
+G17790,OK,,
+G21552,OK,,
+G42543,OK,,
+G22859,OK,,
+G79823,BAD,VALODAS FAKTS,„mëllechen“ → „sträichen“
+G88372,OK,,
+G88088,OK,,
+G37668,OK,,
+G81748,OK,,
+G72240,OK,,
+G88765,OK,,
+G87746,OK,,
+G28455,OK,,
+G10004,OK,,
+G56624,OK,,
+G54740,OK,,
+G20125,OK,,
+G81369,OK,,
+G77971,BAD,TULKOJUMS,„Parasol“ ir saulessargs → „Drogerie“
+G23095,OK,,
+G47271,BAD,TULKOJUMS,"„ofkucken“ ir nošpikot → svītrot, atstāt „musteren“"
+G18200,BAD,VALODAS FAKTS,„Abiturient“ → „Premièresschüler“
+G25622,OK,,
+G64314,OK,,
+G89764,BAD,VALODAS FAKTS,„Rënn“ → „Schuel“
+G43499,OK,,
+G13519,OK,,
+G62548,OK,,
+G42427,BAD,TULKOJUMS,„Käscht • Käschtebam“ ir kastanis → „Kontinent“
+G83223,OK,,
+G66075,OK,,
+G17667,OK,,
+G94895,BAD,TULKOJUMS,„Grof“ ir grāfs → „Gruef“
+G12093,OK,,
+G43930,OK,,
+G77586,OK,,
+G86981,OK,,
+G90686,BAD,VALODAS FAKTS,„Gedrängels“ → „Gedrécks“
+G87638,OK,,
+G39538,BAD,VALODAS FAKTS,"„Haufen“ → svītrot, atstāt „Koup“"
+G75843,OK,,
+G95248,OK,,
+G17398,OK,,
+G92388,BAD,TULKOJUMS,"„Bësch“ ir mežs → svītrot, atstāt „Strauch“"
+G82061,OK,,
+G42749,OK,,
+G56552,OK,,
+G84516,OK,,
+G28233,OK,,
+G53094,OK,,
+G61516,OK,,
+G57878,OK,,
+G73738,BAD,VALODAS FAKTS,„Sait“ → „Säit“
+G33109,OK,,
+G70257,OK,,
+G60312,OK,,
+G61923,OK,,
+G27162,OK,,
+G73530,BAD,VALODAS FAKTS,„Porzeläin“ → „Parzeläin“
+G96144,OK,,
+G69793,OK,,
+G15333,OK,,
+G92203,OK,,
+G31432,BAD,VALODAS FAKTS,„rechtzäiteg“ → „matzäit“
+G51009,OK,,
+G89017,OK,,
+G42408,BAD,VALODAS FAKTS,„Schubkar“ → „Schubbkar“
+G84691,OK,,
+G43788,OK,,
+G20540,OK,,
+G80024,BAD,VALODAS FAKTS,„kuppelen“ → „koppelen“; „savienot“ LV → svītrot
+G50140,OK,,
+G41726,OK,,
+G30812,OK,,
+G36194,OK,,
+G74160,OK,,
+G58817,OK,,
+G74761,BAD,TULKOJUMS,„Wendung • Tour“ ir pagrieziens → „klappen“
+G82471,BAD,VALODAS FAKTS,„Radiator“ → „Küler“
+G21840,OK,,
+G17174,OK,,
+G81571,OK,,
+G64380,OK,,
+G67380,OK,,
+G41575,OK,,
+G10324,OK,,
+G97856,OK,,
+G81863,OK,,
+G25214,OK,,
+G85890,OK,,
+G47888,BAD,VALODAS FAKTS,„Opschwonk“ → „Opschwong“
+G24782,OK,,
+G95793,OK,,
+G36026,BAD,VALODAS FAKTS,„Moudeschau“ → svītrot; „Défilé“ → „Defilé“
+G56947,OK,,
+G28531,OK,,
+G25858,OK,,
+G83065,BAD,VALODAS FAKTS,„schwül“ → „schmeier“
+G84761,OK,,
+G58701,OK,,
+G53857,OK,,
+G59487,OK,,
+G48705,BAD,VALODAS FAKTS,„schaumen“ → „schaimen“
+G71639,OK,,
+G61477,OK,,
+G41155,OK,,
+G81265,OK,,
+G27713,OK,,
+G42012,OK,,
+G92704,BAD,VALODAS FAKTS,„Kerf“ → „Krack“
+G44765,OK,,
+G66898,BAD,VALODAS FAKTS,„Textilwueren“ → „Textilien“
+G72230,BAD,VALODAS FAKTS,„leenen • ulleenen“ → „leeën“
+G51719,OK,,
+G42340,OK,,
+G97213,OK,,
+G14978,OK,,
+G77985,OK,,
+G64226,OK,,
+G63100,BAD,TULKOJUMS,„Passagéier“ ir pasažieris → „Maskebal“
+G54983,OK,,
+G13261,OK,,
+G81697,BAD,VALODAS FAKTS,„spalen“ → „splécken“
+G48022,OK,,
+G64711,OK,,
+G37514,OK,,
+G16251,OK,,
+G70560,BAD,VALODAS FAKTS,„stillen“ → „nieren“
+G67537,OK,,
+G59392,OK,,
+G11757,OK,,
+G98936,BAD,TULKOJUMS,„tadelen • kritiséieren“ ir kritizēt → „beschafen“
+G85107,BAD,TULKOJUMS,„Kamell“ ir konfekte → „Kamill“
+G70641,OK,,
+G25836,OK,,
+G48590,OK,,
+G68705,BAD,TULKOJUMS,"„Knäppchen“ ir poga, „Kascht“ ir uzturs → „Knaus“"
+G58367,OK,,
+G57997,BAD,VALODAS FAKTS,„Puls“ → „Bols“
+G71648,OK,,
+G43088,OK,,
+G90408,OK,,
+G69242,OK,,
+G48631,OK,,
+G66403,BAD,VALODAS FAKTS,„betroen“ → „ausmaachen“
+G16357,OK,,
+G68864,OK,,
+G18445,BAD,VALODAS FAKTS,„Hup • Klaxon“ → „Tut“
+G70315,BAD,VALODAS FAKTS,„Vergläich“ → „Verglach“
+G98195,OK,,
+G41805,BAD,VALODAS FAKTS,„Gemol“ → „Tablo“
+G19084,BAD,VALODAS FAKTS,"„Ënnerkonft“ → svītrot, atstāt „Ënnerdaach“"
+G36063,BAD,VALODAS FAKTS,„dauchen“ → „tauchen“
+G47430,OK,,
+G63194,OK,,
+G38027,OK,,
+G84858,OK,,
+G74419,OK,,
+G80689,OK,,
+G77248,BAD,VALODAS FAKTS,„Krück“ → „Krätsch“
+G47017,OK,,
+G98482,OK,,
+G62721,BAD,VALODAS FAKTS,"„ugemooss“ → svītrot, atstāt „passend“"
+G69107,BAD,VALODAS FAKTS,„Schidderen • Fréischtfréisen“ → „Schüttelfrost“
+G51191,OK,,
+G54155,OK,,
+G81809,OK,,
+G58695,OK,,
+G68194,BAD,VALODAS FAKTS,"„ceļojuma izdevumi“ LV → svītrot, atstāt „Reeskäschten“"
+G53914,OK,,
+G77706,OK,,
+G12656,OK,,
+G68070,OK,,
+G90908,OK,,
+G94453,OK,,
+G39594,BAD,VALODAS FAKTS,„Kraen“ → „Col“
+G74733,BAD,VALODAS FAKTS,„Knuewelekschnëtz“ → „Zéif“
+G75211,OK,,
+G38800,OK,,
+G49970,OK,,
+G40055,OK,,
+G71748,OK,,
+G61424,OK,,
+G32505,OK,,
+G49479,BAD,TULKOJUMS,„Rouer“ ir caurule → „Lëtsch“
+G99196,BAD,VALODAS FAKTS,„onglaublech“ → „surrealistesch“
+G92393,OK,,
+G36174,OK,,
+G84319,OK,,
+G77099,BAD,TULKOJUMS,„schellen“ ir zvanīt; „schimpen“ nav vārds → „maulen“
+G10254,BAD,VALODAS FAKTS,„Klausur • schrëftlech Préifung“ → „schrëftlech Epreuve“
+G81994,OK,,
+G28657,BAD,VALODAS FAKTS,„erkënnegen“ → „renseignéieren“
+G15759,OK,,
+G40219,OK,,
+G19147,BAD,TULKOJUMS,„Schléif“ ir ērkšķu plūme → „Schlof“
+G94842,OK,,
+G97944,OK,,
+G90894,OK,,
+G55868,BAD,VALODAS FAKTS,„Treffer“ → „Touche“
+G88760,BAD,VALODAS FAKTS,„Pottebäcker“ → „Aulebäcker“
+G15875,OK,,
+G14783,OK,,
+G19937,OK,,
+G86040,OK,,
+G90884,BAD,VALODAS FAKTS,„Strich“ → „Stréch“
+G92872,OK,,
+G25635,BAD,VALODAS FAKTS,„Gedächtnis“ → „Gediechtnes“
+G18023,BAD,VALODAS FAKTS,„Gilette“ → „Gillette“
+G77001,OK,,
+G42854,OK,,
+G60231,OK,,
+G94379,OK,,
+G64788,OK,,
+G44854,OK,,
+G14433,BAD,VALODAS FAKTS,„biancheria da letto“ IT → „Bettgezei“
+G96828,BAD,VALODAS FAKTS,„Strahl“ → „Stral“
+G70419,BAD,VALODAS FAKTS,„Kornblumm“ → „Karblumm“
+G73179,OK,,
+G81717,OK,,
+G35185,OK,,
+G66359,OK,,
+G38343,OK,,
+G24032,OK,,
+G23170,OK,,
+G82033,OK,,
+G24013,OK,,
+G90248,OK,,
+G13314,OK,,
+G66514,OK,,
+G58384,BAD,VALODAS FAKTS,„Geländer“ → „Gelänner“
+G42207,OK,,
+G91974,OK,,
+G34282,OK,,
+G17932,OK,,
+G33473,OK,,
+G84097,OK,,
+G25724,OK,,
+G75865,BAD,TULKOJUMS,„Kréi“ ir žagata → „Kueb“
+G46341,BAD,VALODAS FAKTS,„Kräisch“ → „Kreesch“
+G57599,OK,,
+G61815,OK,,
+G29676,OK,,
+G39196,OK,,
+G43743,OK,,
+G52596,OK,,
+G51157,OK,,
+G68605,BAD,VALODAS FAKTS,„Tatuert“ → „Tatort“
+G23824,OK,,
+G12631,OK,,
+G97437,BAD,VALODAS FAKTS,„Bakeschmier“ → „erofmoossen“
+G62125,OK,,
+G97311,BAD,VALODAS FAKTS,„Acompte“ → „Akkont“; „Unzuelung“ → svītrot
+G71600,BAD,VALODAS FAKTS,"„erbäi“ → svītrot, atstāt „heihin“"
+G98081,OK,,
+G69163,OK,,
+G20055,OK,,
+G74353,BAD,VALODAS FAKTS,„Hack“ → „Heel“
+G33928,OK,,
+G65374,OK,,
+G66836,OK,,
+G95390,OK,,
+G56586,OK,,
+G98267,OK,,
+G79304,OK,,
+G11725,OK,,
+G51375,OK,,
+G56647,OK,,
+G73125,OK,,
+G95979,OK,,
+G24489,OK,,
+G31298,BAD,VALODAS FAKTS,„inbegraff“ → „inclus“
+G72208,OK,,
+G59767,OK,,
+G95592,OK,,
+G23453,OK,,
+G78554,OK,,
+G73148,OK,,
+G49398,OK,,
+G38766,OK,,
+G89647,OK,,
+G91562,OK,,
+G18242,OK,,
+G17473,BAD,VALODAS FAKTS,„Nofolger“ → „Nofollger“
+G88412,OK,,
+G98913,OK,,
+G44794,BAD,VALODAS FAKTS,„Balk“ → „Dunn“
+G72746,OK,,
+G91081,OK,,
+G43210,OK,,
+G50563,OK,,
+G87135,OK,,
+G66895,OK,,
+G73440,OK,,
+G12081,OK,,
+G27818,OK,,
+G22574,OK,,
+G30986,OK,,
+G90561,OK,,
+G82572,OK,,
+G11098,BAD,VALODAS FAKTS,„Spréckel“ → „Speechel“
+G79606,OK,,
+G49416,OK,,
+G26773,BAD,VALODAS FAKTS,„valanga“ IT → „Lawin“
+G61527,OK,,
+G37822,BAD,VALODAS FAKTS,„parte“ IT → „Undeel“
+G31804,OK,,
+G58981,OK,,
+G19541,OK,,
+G44667,OK,,
+G62662,OK,,
+G40291,BAD,TULKOJUMS,„iwwerginn“ ir nodot → „Plooschter“
+G35300,OK,,
+G93971,OK,,
+G26279,OK,,
+G64943,OK,,
+G60012,OK,,
+G85823,OK,,
+G40639,OK,,
+G48739,OK,,
+G58924,BAD,VALODAS FAKTS,„Casting“ EN → „Auditioun“
+G65104,OK,,
+G56494,BAD,VALODAS FAKTS,"„Pleite“ → svītrot, atstāt „Faillite“"
+G34145,OK,,
+G90916,OK,,
+G70432,OK,,
+G68332,OK,,
+G81260,BAD,VALODAS FAKTS,„sech erwiermen“ → „sech ophëtzen“
+G81683,BAD,VALODAS FAKTS,„erblécken“ → „erblécksen“
+G43624,OK,,
+G75065,OK,,
+G53109,BAD,TULKOJUMS,„inhaltsräich“ ir saturīgs → „Pak“
+G13028,BAD,TULKOJUMS,„duerchliesen“ ir izlasīt → „Mee“
+G59801,OK,,
+G81808,OK,,
+G47509,BAD,VALODAS FAKTS,„Polyklinik“ → „Poliklinick“
+G98173,OK,,
+G55105,OK,,
+G22395,BAD,VALODAS FAKTS,„Mönch“ → „Mënch“
+G40167,OK,,
+G86658,OK,,
+G10116,OK,,
+G85922,OK,,
+G26697,OK,,
+G17382,BAD,TULKOJUMS,„beluecht • besat“ ir aizņemts → „fuerderen“
+G75238,OK,,
+G66250,OK,,
+G45769,OK,,
+G93133,OK,,
+G28715,OK,,
+G18723,OK,,
+G68591,OK,,
+G64693,OK,,
+G45722,OK,,
+G38629,OK,,
+G46015,BAD,VALODAS FAKTS,„sech bedéngen • sech servéieren“ → „sech zerwéieren“
+G21847,OK,,
+G72246,OK,,
+G26263,OK,,
+G47902,OK,,
+G74458,BAD,VALODAS FAKTS,„Kelch“ → „Kellech“
+G27761,OK,,
+G57943,BAD,VALODAS FAKTS,"„Bëschlicht“ → svītrot, atstāt „Lichtung“"
+G95656,OK,,
+G67327,OK,,
+G17357,OK,,
+G92389,OK,,
+G25670,OK,,
+G86330,OK,,
+G93939,OK,,
+G91905,OK,,
+G92427,OK,,
+G66566,OK,,
+G24488,OK,,
+G55285,OK,,
+G65182,OK,,
+G83714,OK,,
+G67062,OK,,
+G51485,OK,,
+G76673,OK,,
+G13085,OK,,
+G30789,OK,,
+G38269,OK,,
+G30408,OK,,
+G53546,OK,,
+G40986,OK,,
+G17279,OK,,
+G24212,OK,,
+G39376,BAD,TULKOJUMS,„Muttermal • Gebuertsflecken“ ir dzimumzīme → „entre-temps“
+G85931,BAD,VALODAS FAKTS,„Arithmetik“ → „Arithmeetik“
+G87190,OK,,
+G60450,OK,,
+G26117,OK,,
+G18117,OK,,
+G69746,OK,,
+G13608,OK,,
+G68573,OK,,
+G21305,OK,,
+G25453,OK,,
+G78991,OK,,
+G33556,OK,,
+G47055,OK,,
+G30913,OK,,
+G43684,OK,,
+G31194,BAD,VALODAS FAKTS,„locale“ FR → „einheimesch“
+G89128,OK,,
+G53869,BAD,VALODAS FAKTS,„Schaacht“ → „Schacht“
+G86406,OK,,
+G74454,OK,,
+G62926,OK,,
+G75847,OK,,
+G52617,BAD,TULKOJUMS,„Patient vun der Krankekeess“ ir pacients → „Ierwen“
+G60428,BAD,VALODAS FAKTS,„Péngschten“ → „Päischten“
+G57125,OK,,
+G85181,OK,,
+G94246,OK,,
+G20733,OK,,
+G91468,OK,,
+G48238,BAD,VALODAS FAKTS,„Kegel“ → „Keel“
+G23478,OK,,
+G77187,OK,,
+G23104,OK,,
+G97029,OK,,
+G22919,OK,,
+G25160,BAD,VALODAS FAKTS,„Musekstéck“ → „Museksstéck“
+G12936,BAD,VALODAS FAKTS,„schéngbar“ → „scheinbar“
+G99320,OK,,
+G93759,OK,,
+G18820,OK,,
+G62972,OK,,
+G26348,OK,,
+G13129,OK,,
+G88130,OK,,
+G39951,OK,,
+G45964,BAD,VALODAS FAKTS,„Fräikaart“ → „Fräibilljee“
+G97541,OK,,
+G15985,OK,,
+G82147,OK,,
+G16731,OK,,
+G96472,OK,,
+G26640,OK,,
+G22307,BAD,VALODAS FAKTS,«ofschécken» → «fortschécken»
+G39544,OK,,
+G78614,OK,,
+G81595,BAD,TULKOJUMS,«alkoholesch» ir alkoholisks → «Léierjong»
+G38641,BAD,VALODAS FAKTS,«Schwalef» → «Schmuebel»
+G46674,BAD,VALODAS FAKTS,«Netzel» → «Brennnessel»
+G52128,OK,,
+G56548,OK,,
+G78214,BAD,TULKOJUMS,"«kräischen» ir raudāt, «krächzen» nav LB → «schakeren»"
+G72095,OK,,
+G25220,BAD,VALODAS FAKTS,«befrënnen» nav LB → «sech Frënn maachen»
+G62402,OK,,
+G15137,OK,,
+G78010,BAD,TULKOJUMS,«Fond» ir fonds/fons → «Decouverte»
+G11879,OK,,
+G72362,OK,,
+G15084,BAD,VALODAS FAKTS,«erbäi» nav LB (paliek «heihin»)
+G49839,OK,,
+G41234,OK,,
+G66577,OK,,
+G39281,OK,,
+G73879,OK,,
+G63049,OK,,
+G87507,OK,,
+G42070,OK,,
+G65385,OK,,
+G81999,OK,,
+G27572,OK,,
+G84445,BAD,VALODAS FAKTS,«Splitter» → «Spläiter»
+G67760,BAD,VALODAS FAKTS,«regelen» → «reegelen»
+G77137,OK,,
+G21924,OK,,
+G13943,BAD,VALODAS FAKTS,"«Schnëttmuster» → «Patron»; «piegrieztne» ir LV, svītrot"
+G90783,OK,,
+G44049,BAD,VALODAS FAKTS,«griffbereet» nav LB (paliek «parat»)
+G14515,OK,,
+G69205,OK,,
+G23137,BAD,VALODAS FAKTS,«Billet» nav LB (paliek «Geldschäin»)
+G89939,OK,,
+G17788,OK,,
+G11270,OK,,
+G80117,OK,,
+G58766,OK,,
+G95270,BAD,VALODAS FAKTS,«schnarchen» → «schnaarchen»
+G26106,OK,,
+G61837,BAD,VALODAS FAKTS,«onmëttelbar» nav LB (paliek «direkt»)
+G28425,OK,,
+G68222,OK,,
+G65940,BAD,VALODAS FAKTS,«epitome / embodiment» ir EN → «Prototyp»
+G53658,OK,,
+G77123,OK,,
+G37170,BAD,VALODAS FAKTS,«genügen» nav LB (paliek «duergoen»)
+G55184,BAD,VALODAS FAKTS,«Keil» → «Käil»
+G68849,OK,,
+G27779,OK,,
+G20824,OK,,
+G50224,OK,,
+G78478,OK,,
+G12832,OK,,
+G63614,OK,,
+G42528,OK,,
+G79734,OK,,
+G35711,OK,,
+G14733,OK,,
+G20324,OK,,
+G75914,OK,,
+G19210,OK,,
+G11603,BAD,TULKOJUMS,«Besëtzer» ir valdītājs → svītrot (paliek «Proprietär»)
+G50853,OK,,
+G51564,OK,,
+G93318,OK,,
+G75235,OK,,
+G43712,OK,,
+G17186,OK,,
+G71117,OK,,
+G26072,OK,,
+G17646,OK,,
+G15911,OK,,
+G52018,BAD,VALODAS FAKTS,«Nuerf» → «Narb»
+G17930,OK,,
+G91749,OK,,
+G59952,OK,,
+G77115,OK,,
+G97439,OK,,
+G18158,OK,,
+G69010,OK,,
+G26309,BAD,VALODAS FAKTS,«Verwandten» nav LB (paliek «Famill»)
+G58072,OK,,
+G75192,OK,,
+G64539,BAD,VALODAS FAKTS,«sech hiknéien» → «nidderknéien»
+G25517,OK,,
+G41801,OK,,
+G66236,OK,,
+G72433,OK,,
+G12349,OK,,
+G38517,OK,,
+G29049,OK,,
+G96674,OK,,
+G73272,OK,,
+G47164,BAD,VALODAS FAKTS,«Dutzend» → «Dosen»
+G52897,BAD,VALODAS FAKTS,«schlénken» nav LB (paliek «wéckelen»)
+G74553,OK,,
+G60661,OK,,
+G27856,OK,,
+G90927,OK,,
+G98946,OK,,
+G51646,OK,,
+G99963,OK,,
+G86725,BAD,TULKOJUMS,"«Stuf» nav LB, «Trap» ir kāpnes → «Trëtt»"
+G70013,OK,,
+G19114,BAD,VALODAS FAKTS,«Trumpf» → «Tromp»
+G15307,OK,,
+G30717,OK,,
+G75817,OK,,
+G70217,OK,,
+G54863,OK,,
+G62239,BAD,TULKOJUMS,«Méiw» ir kaija → «Mënch»
+G64978,OK,,
+G73403,OK,,
+G79455,OK,,
+G41238,OK,,
+G57484,OK,,
+G67223,BAD,VALODAS FAKTS,«klaafen» nav LB (paliek «quatschen»)
+G87478,BAD,VALODAS FAKTS,«ugrenzen» nav LB → «ugrenzend»
+G73656,BAD,TULKOJUMS,«erhéijen» ir paaugstināt → «Projekter»
+G98064,OK,,
+G70308,BAD,VALODAS FAKTS,«Mohn» un «Coquelicot» nav LB → «Feierblumm»
+G90519,BAD,VALODAS FAKTS,«Zirkel» → «Zierkel»
+G64377,OK,,
+G16777,OK,,
+G46608,OK,,
+G57505,BAD,VALODAS FAKTS,«Pansement» nav LB (paliek «Plooschter»)
+G87016,BAD,VALODAS FAKTS,«Stëtz» nav LB (paliek «Stäip»)
+G43247,OK,,
+G18033,OK,,
+G54801,OK,,
+G84317,OK,,
+G66462,OK,,
+G16541,OK,,
+G36554,OK,,
+G52247,BAD,TULKOJUMS,«Sitten» ir tīmekļa vietne → «Brauch»
+G47482,OK,,
+G18256,OK,,
+G62401,BAD,VALODAS FAKTS,«bereeden» nav LB (paliek «preparéieren»)
+G57040,OK,,
+G83761,OK,,
+G57585,OK,,
+G45569,OK,,
+G41644,OK,,
+G80493,OK,,
+G42991,OK,,
+G88750,OK,,
+G94567,OK,,
+G40344,OK,,
+G23278,BAD,VALODAS FAKTS,«gehorsam» nav LB (paliek «brav»)
+G78755,BAD,TULKOJUMS,«Quai» ir perons → svītrot (paliek «Gleis»)
+G83901,OK,,
+G87120,BAD,VALODAS FAKTS,«bloss» → «blouss»
+G43419,OK,,
+G46397,BAD,VALODAS FAKTS,«Agrafe» → «Agraff»; «Heftklammer» nav LB
+G54851,BAD,TULKOJUMS,«Léiermëttel» ir mācību līdzeklis → «Instinkt»
+G11956,OK,,
+G45432,OK,,
+G68460,BAD,VALODAS FAKTS,«legale» → «legal»
+G44469,BAD,VALODAS FAKTS,«schëddelen» nav LB (paliek «rëselen»)
+G15393,BAD,VALODAS FAKTS,«Axt» → «Aaxt»
+G54422,OK,,
+G13936,OK,,
+G41563,OK,,
+G17571,OK,,
+G89027,OK,,
+G30571,OK,,
+G79902,OK,,
+G72900,BAD,VALODAS FAKTS,«Holzschäit» → «Scheet»
+G31404,OK,,
+G36221,BAD,TULKOJUMS,«Kraider» ir garšaugi → «Riederbunn»
+G94104,OK,,
+G65334,OK,,
+G68472,OK,,
+G32997,OK,,
+G36963,OK,,
+G77212,OK,,
+G42069,OK,,
+G26527,OK,,
+G50502,OK,,
+G95633,BAD,VALODAS FAKTS,«Ähnlechkeet» → «Änlechkeet»
+G70275,OK,,
+G80622,OK,,
+G51441,BAD,VALODAS FAKTS,«Opschnëtt» nav LB (paliek «Charcuterie»)
+G79212,OK,,
+G94371,OK,,
+G49698,OK,,
+G65135,OK,,
+G26174,OK,,
+G11885,OK,,
+G49571,OK,,
+G75870,BAD,VALODAS FAKTS,«Bréil» un «Poireau» nav LB → «Porrett»
+G58329,OK,,
+G38948,BAD,VALODAS FAKTS,"«atteikties» ir LV, svītrot"
+G43550,OK,,
+G79927,OK,,
+G41732,OK,,
+G63867,OK,,
+G67065,OK,,
+G68329,BAD,VALODAS FAKTS,«Noot» → «Nout»
+G45363,BAD,VALODAS FAKTS,«onverschumt» → «onverschimmt»
+G31486,OK,,
+G68827,OK,,
+G82667,OK,,
+G49396,BAD,TULKOJUMS,«Kënn» ir zods → «Flüchtling»
+G66002,OK,,
+G42335,BAD,VALODAS FAKTS,«Projecteur» → «Projekter»
+G68375,OK,,
+G18688,OK,,
+G24237,OK,,
+G65219,OK,,
+G29327,BAD,VALODAS FAKTS,«Knaller» nav LB (paliek «Hit»)
+G82116,BAD,VALODAS FAKTS,«Destinataire» nav LB (paliek «Empfänger»)
+G86184,OK,,
+G13730,OK,,
+G75256,OK,,
+G19622,BAD,VALODAS FAKTS,«Rëssel» → «Rüssel»
+G50766,OK,,
+G58544,OK,,
+G49626,OK,,
+G11246,BAD,VALODAS FAKTS,«Leckerbëssen» → «Schlabäizchen»
+G24487,OK,,
+G63399,OK,,
+G42806,BAD,VALODAS FAKTS,«aussprechen» nav LB (paliek «ausschwätzen»)
+G82664,BAD,TULKOJUMS,«hiwwelen» ir pakalns → «huwwelen»
+G88827,BAD,VALODAS FAKTS,«oflehnen» → «ofleenen»
+G27533,BAD,TULKOJUMS,«Pol» ir pols → «Poul»
+G99047,OK,,
+G21351,OK,,
+G68348,OK,,
+G11697,OK,,
+G34019,OK,,
+G72067,OK,,
+G54445,BAD,VALODAS FAKTS,«to stab» ir EN → «stiechen»
+G87201,OK,,
+G14073,BAD,VALODAS FAKTS,«Mietvertrag» nav LB (paliek «Locatiounskontrakt»)
+G19576,OK,,
+G63023,OK,,
+G36162,BAD,VALODAS FAKTS,«sinken» → «ënnergoen»
+G55115,OK,,
+G21386,OK,,
+G49551,BAD,VALODAS FAKTS,«vagone» → «Waggon»
+G92194,OK,,
+G27152,BAD,VALODAS FAKTS,«Beréimtheet» nav LB (paliek «Ruff»)
+G98062,OK,,
+G24974,OK,,
+G86775,BAD,TULKOJUMS,«Afaart» ir iebrauktuve → «lues»
+G36868,OK,,
+G56753,BAD,VALODAS FAKTS,«Getreed» nav LB (paliek «Fruucht»)
+G33169,OK,,
+G38540,OK,,
+G14132,OK,,
+G86605,BAD,TULKOJUMS,«schécken» ir sūtīt → «selbstbewosst»
+G57821,OK,,
+G31825,BAD,VALODAS FAKTS,«ervirstoen» → «erausstoen»
+G93067,BAD,VALODAS FAKTS,«elaborare» nav LB → «beaarbechten»
+G65619,BAD,VALODAS FAKTS,«Eifersucht» nav LB (paliek «Jalousie»)
+G47181,OK,,
+G23647,OK,,
+G54567,OK,,
+G66524,OK,,
+G53285,BAD,VALODAS FAKTS,«kraddelen» → «krauchen»
+G35927,BAD,VALODAS FAKTS,«Liegestull» → «Ligestull»; «Transat» nav LB
+G61726,OK,,
+G93534,OK,,
+G53788,OK,,
+G65589,OK,,
+G35525,BAD,VALODAS FAKTS,«Ugab» → «Angab»
+G82054,OK,,
+G70654,OK,,
+G46823,OK,,
+G93415,OK,,
+G54905,BAD,VALODAS FAKTS,«rauschen» → «dauschen»
+G16597,OK,,
+G59067,OK,,
+G46205,OK,,
+G98348,OK,,
+G92112,BAD,VALODAS FAKTS,«lam» → «schlamm»
+G21570,OK,,
+G94122,OK,,
+G40236,OK,,
+G60687,BAD,TULKOJUMS,«heel» ir kaplis → svītrot (paliek «ganz»)
+G89384,OK,,
+G80639,OK,,
+G78089,OK,,
+G64269,BAD,VALODAS FAKTS,«Schiedling» → «Schädling»
+G44702,BAD,VALODAS FAKTS,«Lackentferner» nav LB (paliek «Dissolvant»)
+G16684,BAD,VALODAS FAKTS,«Prime» → «Primm»
+G15766,BAD,VALODAS FAKTS,«Kalkunn» → «Dinde»
+G67518,BAD,VALODAS FAKTS,"«jauneklīgs» ir LV, svītrot"
+G45279,OK,,
+G27406,OK,,
+G12193,OK,,
+G78498,BAD,VALODAS FAKTS,«sticken» → «stécken»
+G34468,BAD,VALODAS FAKTS,«Ofsender» nav LB; «Expéditeur» → «Expediteur»
+G16881,OK,,
+G34383,OK,,
+G50442,OK,,
+G92709,BAD,VALODAS FAKTS,«Feilchen» → «Veilchen»
+G13883,OK,,
+G21542,BAD,VALODAS FAKTS,«mühsam» nav LB (paliek «schwéier»)
+G78884,BAD,VALODAS FAKTS,«verroscht» → «raschteg»
+G86427,BAD,VALODAS FAKTS,«Ierw» → «Ierwen»
+G74969,OK,,
+G67860,OK,,
+G22707,OK,,
+G39698,OK,,
+G50081,OK,,
+G75535,BAD,TULKOJUMS,«Kiefer» LB ir priede → «Gebéck»
+G77734,OK,,
+G72136,OK,,
+G44737,OK,,
+G12342,OK,,
+G68390,BAD,TULKOJUMS,«Ee» ir ola → svītrot (paliek «Bestietnes»)
+G86528,BAD,VALODAS FAKTS,"«ķepa» ir LV, svītrot"
+G59288,OK,,
+G37463,OK,,
+G19758,OK,,
+G36932,OK,,
+G59450,OK,,
+G39603,BAD,VALODAS FAKTS,«Violon» nav LB (paliek «Gei»)
+G69844,BAD,VALODAS FAKTS,«entlaang» nav LB (paliek «laanscht»)
+G96687,OK,,
+G96720,OK,,
+G17189,OK,,
+G47226,OK,,
+G10292,OK,,
+G22580,OK,,
+G19998,OK,,
+G64616,OK,,
+G14678,OK,,
+G55505,BAD,VALODAS FAKTS,«ausweichen» → «auswäichen»
+G67605,OK,,
+G96089,OK,,
+G13042,OK,,
+G99797,OK,,
+G33617,OK,,
+G39422,OK,,
+G88207,OK,,
+G47750,OK,,
+G29463,OK,,
+G69754,OK,,
+G13766,OK,,
+G58565,OK,,
+G24795,BAD,VALODAS FAKTS,«Pannekuch» → «Paangech»
+G70188,OK,,
+G24253,OK,,
+G44699,OK,,
+G24061,OK,,
+G90652,BAD,TULKOJUMS,«Schlëff» ir šķērsgate/slīpējums → «Schléng»
+G51817,BAD,VALODAS FAKTS,«dutzen» → «duzen»
+G74304,BAD,VALODAS FAKTS,"«auszuelen» → «ausbezuelen»; «izmaksāt» ir LV, svītrot"
+G86332,BAD,TULKOJUMS,«Buerg» ir pils → «Nerv»
+G70534,OK,,
+G67913,OK,,
+G91363,BAD,VALODAS FAKTS,«Narr» nav LB (paliek «Geck»)
+G10214,OK,,
+G34702,BAD,VALODAS FAKTS,«trüb» → «dréif»
+G73289,OK,,
+G52706,BAD,VALODAS FAKTS,«Recorder» ir EN; LOD «Rekorder» ir rekords
+G37159,OK,,
+G63707,BAD,VALODAS FAKTS,«Rigel» → «Reedel»
+G29334,OK,,
+G93352,OK,,
+G23111,OK,,
+G26966,OK,,
+G23935,OK,,
+G29661,BAD,VALODAS FAKTS,«Inbegrëff» nav LB → «Prototyp»
+G73269,OK,,
+G16111,OK,,
+G23110,BAD,TULKOJUMS,«kuppelen» ir kupols → «koppelen»
+G68012,OK,,
+G34168,BAD,VALODAS FAKTS,«Daucher» → «Taucher»
+G41348,OK,,
+G86481,OK,,
+G39390,BAD,VALODAS FAKTS,«Mieredech» → «Mierréidech»
+G78925,OK,,
+G21406,BAD,VALODAS FAKTS,«Kroom» → «Krom»
+G12926,OK,,
+G59533,BAD,VALODAS FAKTS,«aordnen» → «aklasséieren»
+G99223,OK,,
+G74810,OK,,
+G62695,BAD,VALODAS FAKTS,«Quergaass» → «Queeschgaass»
+G22932,BAD,VALODAS FAKTS,"«Soap» ir EN, «Feuilleton» ir feljetons → «Serie»"
+G95371,OK,,
+G10231,OK,,
+G61167,OK,,
+G53384,BAD,VALODAS FAKTS,«schallen» → «schalen»
+G14557,BAD,VALODAS FAKTS,«Aelidd» → «Aendeckel»
+G37651,OK,,
+G27040,BAD,TULKOJUMS,"«Sekt» ir sekta, «Schaumwäin» nav LB → «Schampes»"
+G49466,OK,,
+G78168,OK,,
+G37982,BAD,VALODAS FAKTS,«Faulheet» → «Lidderegkeet»
+G71793,OK,,
+G60448,BAD,VALODAS FAKTS,«onregelméisseg» → «onreegelméisseg»
+G17052,OK,,
+G60194,OK,,
+G28753,BAD,TULKOJUMS,«wéien» ir šūpulis/svērt → svītrot (paliek «blosen»)
+G43813,OK,,
+G36205,OK,,
+G93822,OK,,
+G64559,OK,,
+G86195,BAD,VALODAS FAKTS,«Diätkascht» nav LB (paliek «Regime»)
+G30315,OK,,
+G81172,OK,,
+G75006,OK,,
+G11299,OK,,
+G15815,OK,,
+G17701,OK,,
+G98517,BAD,VALODAS FAKTS,«Pendelbus» nav LB (paliek «Navette»)
+G58209,OK,,
+G47193,OK,,
+G17519,OK,,
+G20632,OK,,
+G28196,BAD,VALODAS FAKTS,«schilderen» nav LB (paliek «beschreiwen»)
+G72894,OK,,
+G79544,BAD,TULKOJUMS,"«raiben» nav LB, «klauen» ir zagt → «ausraiberen»"
+G73678,OK,,
+G88218,OK,,
+G50918,OK,,
+G42767,OK,,
+G24676,OK,,
+G72461,OK,,
+G72341,BAD,VALODAS FAKTS,«Ackerbau» → «Akerbau»
+G58708,OK,,
+G31897,BAD,VALODAS FAKTS,«héchst» → «am héchsten»
+G78121,OK,,
+G16016,OK,,
+G77852,OK,,
+G76848,BAD,VALODAS FAKTS,«Andenken» → «Undenken»
+G22167,OK,,
+G42421,OK,,
+G75635,BAD,TULKOJUMS,"«Lack» ir laka, «Kroll» nav LB → «Krausel»"
+G17867,BAD,VALODAS FAKTS,«Geschir» nav LB (paliek «Apparat»)
+G87042,OK,,
+G50719,OK,,
+G40044,OK,,
+G51840,BAD,VALODAS FAKTS,«Merkmol» → «Eegenaart»
+G94173,OK,,
+G11655,OK,,
+G51320,BAD,VALODAS FAKTS,«onentschidden» → «Gläichspill»
+G97474,OK,,
+G73310,OK,,
+G27021,BAD,VALODAS FAKTS,«Juegdbeut» nav LB → «Wëld»
+G49851,OK,,
+G91660,OK,,
+G72708,OK,,
+G52989,OK,,
+G18319,OK,,
+G69217,BAD,VALODAS FAKTS,«Gab» nav LB → «Don»
+G36625,BAD,VALODAS FAKTS,«ëmmerzou» nav LB (paliek «stänneg»)
+G27746,OK,,
+G49904,OK,,
+G45638,OK,,
+G25030,OK,,
+G52035,OK,,
+G93839,OK,,
+G94282,OK,,
+G92502,OK,,
+G46062,OK,,
+G82676,BAD,TULKOJUMS,"«keechen» nav LB, «päifen» ir svilpt → «käichen»"
+G17850,OK,,
+G51357,BAD,VALODAS FAKTS,«bordo» → «Kant»
+G55216,BAD,VALODAS FAKTS,«Last» → «Laascht»
+G91391,OK,,
+G10779,OK,,
+G16789,OK,,
+G56681,OK,,
+G86735,OK,,
+G47327,BAD,VALODAS FAKTS,«Bichs» → «Béchs»
+G83545,BAD,VALODAS FAKTS,«Bulett» → «Boulette»
+G96337,OK,,
+G85517,OK,,
+G27195,OK,,
+G82610,OK,,
+G77805,BAD,VALODAS FAKTS,«Kanzlei» nav LB → «Cabinet»
+G71505,OK,,
+G44360,BAD,TULKOJUMS,«plënneren» ir pārvākties → «plëmmen»
+G44672,BAD,VALODAS FAKTS,«bewiirten» nav LB → «empfänken»
+G80004,OK,,
+G52520,OK,,
+G75496,OK,,
+G36514,OK,,
+G52498,OK,,
+G49275,OK,,
+G84942,OK,,
+G24422,OK,,
+G55182,OK,,
+G14351,OK,,
+G10791,OK,,
+G68244,OK,,
+G95218,BAD,VALODAS FAKTS,«mutlos» nav LB (paliek «decouragéiert»)
+G18711,OK,,
+G93091,BAD,VALODAS FAKTS,«sech agewinnen» → «sech gewinnen»
+G98910,BAD,VALODAS FAKTS,«Bierschel» → «Piisch»
+G73486,OK,,
+G92737,OK,,
+G88327,OK,,
+G84149,BAD,VALODAS FAKTS,«Auelidd» → «Aendeckel»
+G24292,OK,,
+G11917,OK,,
+G73281,OK,,
+G60841,OK,,
+G29114,OK,,
+G82342,OK,,
+G95874,OK,,
+G21457,OK,,
+G36347,OK,,
+G43169,OK,,
+G50143,OK,,
+G11612,OK,,
+G25019,BAD,VALODAS FAKTS,«Pau» → «Pohunn»
+G18217,OK,,
+G64287,OK,,
+G57416,OK,,
+G43229,OK,,
+G60003,OK,,
+G73964,BAD,VALODAS FAKTS,«Léiblingsplat» → «Liblingsplat»
+G44555,OK,,
+G62343,OK,,
+G62940,OK,,
+G88998,BAD,VALODAS FAKTS,«Unnam» nav LB → «Suppositioun»
+G79501,OK,,
+G55471,OK,,
+G72076,OK,,
+G14327,OK,,
+G44207,BAD,VALODAS FAKTS,«Coffre» → «Coffre-fort»
+G94704,OK,,
+G19561,OK,,
+G14115,OK,,
+G23477,OK,,
+G73732,BAD,VALODAS FAKTS,«entfernen» nav LB (paliek «ewechhuelen»)
+G16294,OK,,
+G95182,BAD,VALODAS FAKTS,«Bouchon» nav LB (paliek «Stopp»)
+G44132,OK,,
+G69899,OK,,
+G85648,OK,,
+G73371,BAD,VALODAS FAKTS,«Blummezwiebel» → «Blummenzwibbel»
+G20642,OK,,
+G95557,OK,,
+G24789,OK,,
+G35769,OK,,
+G19556,BAD,VALODAS FAKTS,«nächstens» nav LB (paliek «geschwënn»)
+G65533,OK,,
+G83364,OK,,
+G94175,OK,,
+G23406,OK,,
+G32830,BAD,VALODAS FAKTS,«goodbye (on the phone)» ir EN → «Äddi»
+G19559,OK,,
+G21339,OK,,
+G60225,BAD,TULKOJUMS,«tasten» ir poga (Taste) → «taaschten»
+G84605,OK,,
+G69818,OK,,
+G35285,OK,,
+G76517,OK,,
+G49450,OK,,
+G40147,BAD,TULKOJUMS,«Regie» ir režija → «Foussbrems»
+G73420,OK,,
+G87598,OK,,
+G32455,OK,,
+G35929,OK,,
+G73274,BAD,VALODAS FAKTS,«Vernonft» → «Verstand»
+G13061,OK,,
+G61040,OK,,
+G42105,OK,,
+G11763,OK,,
+G92110,OK,,
+G40117,BAD,VALODAS FAKTS,«nagen» nav LB (paliek «knabberen»)
+G30765,OK,,
+G42123,OK,,
+G64901,BAD,VALODAS FAKTS,«aarg» → «uerg»
+G45996,OK,,
+G54225,OK,,
+G43067,BAD,VALODAS FAKTS,«tauglech» nav LB (paliek «gëeegent»)
+G16729,OK,,
+G26177,BAD,VALODAS FAKTS,«quer» → «queesch»
+G72410,OK,,
+G14149,BAD,VALODAS FAKTS,«Gänsehaut» → «Héngerhaut»
+G96445,OK,,
+G23624,BAD,VALODAS FAKTS,«vermuden» → «vermuten»
+G63060,OK,,
+G18747,OK,,
+G99580,BAD,VALODAS FAKTS,«insistent» ir EN; svītrot
+G37053,BAD,VALODAS FAKTS,«narkotika» ir LV; svītrot
+G48367,OK,,
+G75405,OK,,
+G46695,BAD,VALODAS FAKTS,«Schimpwuert» nav LB vārds
+G35725,OK,,
+G23954,OK,,
+G12401,OK,,
+G91608,OK,,
+G33149,OK,,
+G43960,OK,,
+G32575,BAD,VALODAS FAKTS,«Miene» → «Minn»
+G45529,BAD,VALODAS FAKTS,«smaržot» ir LV; svītrot
+G84949,BAD,VALODAS FAKTS,«ahuelen» nav LB; svītrot
+G51757,OK,,
+G89721,OK,,
+G49350,OK,,
+G68254,OK,,
+G43454,OK,,
+G39331,OK,,
+G27710,OK,,
+G12848,BAD,VALODAS FAKTS,«asinn» → «agesinn»
+G85166,OK,,
+G77334,BAD,VALODAS FAKTS,«Klecks» nav LB; svītrot
+G33940,OK,,
+G59769,OK,,
+G78613,OK,,
+G54423,OK,,
+G76584,OK,,
+G18124,OK,,
+G59357,OK,,
+G84303,OK,,
+G69534,OK,,
+G48589,OK,,
+G12392,OK,,
+G73615,OK,,
+G14730,OK,,
+G87621,OK,,
+G70392,OK,,
+G61340,OK,,
+G25586,OK,,
+G43583,OK,,
+G85372,OK,,
+G78735,OK,,
+G69472,OK,,
+G74196,BAD,VALODAS FAKTS,«Spalt» → «Spléck»
+G88622,OK,,
+G20779,OK,,
+G58659,BAD,VALODAS FAKTS,«Fullen» → «Fillen»
+G68915,OK,,
+G51184,OK,,
+G66515,OK,,
+G35126,OK,,
+G59248,OK,,
+G73283,OK,,
+G85443,OK,,
+G55325,OK,,
+G57168,OK,,
+G14771,OK,,
+G59964,OK,,
+G94180,OK,,
+G11764,OK,,
+G70570,OK,,
+G87849,OK,,
+G93802,OK,,
+G31812,OK,,
+G46012,OK,,
+G41435,BAD,TULKOJUMS,«erschrecken» → «rudderen»
+G34382,OK,,
+G63468,OK,,
+G22788,OK,,
+G72220,OK,,
+G10434,OK,,
+G15734,OK,,
+G62657,OK,,
+G44231,OK,,
+G67534,BAD,VALODAS FAKTS,«knitterfräi» nav LB vārds
+G12018,OK,,
+G85275,OK,,
+G58706,OK,,
+G37168,OK,,
+G60521,OK,,
+G60164,BAD,VALODAS FAKTS,«Querstrooss» → «queesch Strooss»
+G36779,OK,,
+G49989,OK,,
+G45779,OK,,
+G55655,OK,,
+G79855,OK,,
+G43524,OK,,
+G90388,OK,,
+G68019,OK,,
+G13521,OK,,
+G20813,BAD,VALODAS FAKTS,«Saill» → «Sail»
+G51640,OK,,
+G87952,BAD,VALODAS FAKTS,«have fun» ir EN; «sech ameséieren»
+G14333,OK,,
+G17066,OK,,
+G12658,BAD,VALODAS FAKTS,«Rache» → «Revanche»
+G88557,OK,,
+G30902,OK,,
+G40048,OK,,
+G12524,BAD,VALODAS FAKTS,«mäischteren» nav LB; svītrot
+G15105,OK,,
+G17036,OK,,
+G30167,OK,,
+G27383,OK,,
+G16879,OK,,
+G96941,BAD,TULKOJUMS,«Hauch • Otem» → «schmëlzen»
+G70945,OK,,
+G44609,BAD,VALODAS FAKTS,«ofstatten» nav LB; «besichen»
+G25567,OK,,
+G13588,OK,,
+G22079,OK,,
+G53661,OK,,
+G40223,BAD,VALODAS FAKTS,«Zouhéierer» → «Nolauschterer»
+G38349,OK,,
+G68188,BAD,VALODAS FAKTS,«Währung» → «Wärung»
+G80402,OK,,
+G17456,OK,,
+G21380,BAD,VALODAS FAKTS,«Kratzer» → «Krazert»
+G13124,OK,,
+G32227,OK,,
+G22138,OK,,
+G28991,OK,,
+G42692,BAD,VALODAS FAKTS,«verwandt» nav LB; «Famill»
+G42084,OK,,
+G51241,OK,,
+G54369,OK,,
+G95324,OK,,
+G32305,OK,,
+G12885,OK,,
+G45238,OK,,
+G25785,OK,,
+G84532,BAD,TULKOJUMS,«Baufirma» ir būvfirma
+G17180,BAD,TULKOJUMS,«Kalkunn» → «lassloossen»
+G95136,OK,,
+G38527,BAD,TULKOJUMS,«gläichzäiteg» → «Demokratie»
+G31265,OK,,
+G45602,OK,,
+G18725,OK,,
+G31229,OK,,
+G93672,OK,,
+G67581,BAD,VALODAS FAKTS,«piepildīties» ir LV; svītrot
+G44523,BAD,VALODAS FAKTS,«Sprudel» → «Spruddel»
+G83085,OK,,
+G94653,OK,,
+G29656,OK,,
+G99013,OK,,
+G31620,OK,,
+G48127,BAD,VALODAS FAKTS,«ereegnen» nav LB; svītrot
+G41571,OK,,
+G66296,OK,,
+G58600,OK,,
+G90001,OK,,
+G47565,OK,,
+G17313,OK,,
+G45267,OK,,
+G39071,OK,,
+G70708,OK,,
+G79506,OK,,
+G12756,OK,,
+G72080,OK,,
+G47217,OK,,
+G94026,OK,,
+G37505,OK,,
+G21335,OK,,
+G73219,OK,,
+G35981,OK,,
+G84678,OK,,
+G16104,OK,,
+G13171,OK,,
+G94044,BAD,VALODAS FAKTS,«sound; tone» ir EN; «Toun»
+G82745,BAD,VALODAS FAKTS,«Ernt» → «Recolte»
+G55743,OK,,
+G53043,OK,,
+G10938,OK,,
+G29363,OK,,
+G53967,OK,,
+G80432,BAD,VALODAS FAKTS,«Gebühr» nav LB; svītrot
+G31581,OK,,
+G94980,OK,,
+G21145,OK,,
+G78627,OK,,
+G89618,OK,,
+G83527,BAD,VALODAS FAKTS,«Wuerebunnhaff» nav LB vārds
+G28762,OK,,
+G13407,OK,,
+G93031,OK,,
+G28438,OK,,
+G99732,BAD,VALODAS FAKTS,«während» → «wärend»
+G50864,OK,,
+G14058,OK,,
+G93747,OK,,
+G83432,OK,,
+G19637,OK,,
+G84543,BAD,VALODAS FAKTS,«schmücken» nav LB; svītrot
+G60380,OK,,
+G62873,BAD,VALODAS FAKTS,«gliemežvāks» ir LV; svītrot
+G95708,BAD,TULKOJUMS,«transportéieren • befërderen» → «genial»
+G37395,OK,,
+G22486,OK,,
+G81573,BAD,VALODAS FAKTS,«pamāte» ir LV; svītrot
+G32185,OK,,
+G92679,BAD,VALODAS FAKTS,«Mueselen» → «Riedelen»
+G10194,OK,,
+G12363,OK,,
+G92898,BAD,VALODAS FAKTS,«Schläif» nav LB; svītrot
+G93615,OK,,
+G53960,BAD,TULKOJUMS,«mëllechen» nav lodžija
+G46750,OK,,
+G99614,OK,,
+G51210,OK,,
+G65272,OK,,
+G66983,BAD,VALODAS FAKTS,«Gänseféiss» nav LB; svītrot
+G22678,OK,,
+G81955,BAD,VALODAS FAKTS,«schwellen» → «schwëllen»
+G33436,OK,,
+G95303,OK,,
+G21173,OK,,
+G45034,OK,,
+G26270,OK,,
+G44069,BAD,VALODAS FAKTS,«Reprimande» nav LB; svītrot
+G35495,OK,,
+G91662,OK,,
+G77731,OK,,
+G54311,OK,,
+G10820,OK,,
+G26831,BAD,VALODAS FAKTS,«fondare» ir IT; «grënnen»
+G46735,BAD,VALODAS FAKTS,«scheede» → «scheeden»
+G93608,OK,,
+G21733,OK,,
+G68917,OK,,
+G86971,BAD,VALODAS FAKTS,«Wierkdag» → «Wierteg»
+G82530,BAD,VALODAS FAKTS,«stinnen» nav LB; svītrot
+G87497,OK,,
+G10146,BAD,VALODAS FAKTS,«infolge» nav LB; svītrot
+G10205,OK,,
+G38583,OK,,
+G75464,OK,,
+G42183,OK,,
+G23641,OK,,
+G57459,OK,,
+G38952,OK,,
+G58269,OK,,
+G41774,BAD,VALODAS FAKTS,«iren» → «ieren»
+G56587,OK,,
+G58811,OK,,
+G69616,BAD,VALODAS FAKTS,«Aktentasch» un «Serviette» nav LB
+G81701,OK,,
+G25169,OK,,
+G55498,OK,,
+G96364,OK,,
+G33847,BAD,TULKOJUMS,«Nordliicht» → «Tropen»
+G97690,OK,,
+G76553,OK,,
+G61699,OK,,
+G85397,OK,,
+G21796,OK,,
+G55492,OK,,
+G48337,OK,,
+G15057,OK,,
+G11899,OK,,
+G20401,OK,,
+G26154,BAD,VALODAS FAKTS,«Piischenhaut» nav LB vārds
+G66694,OK,,
+G74060,BAD,TULKOJUMS,«individuell» → «Duercherneen»
+G61417,BAD,VALODAS FAKTS,«Pelleteuse» ir FR; svītrot
+G40692,BAD,VALODAS FAKTS,«Stipendium» nav LB; svītrot
+G32902,OK,,
+G51654,OK,,
+G21146,OK,,
+G18985,OK,,
+G20806,OK,,
+G30471,OK,,
+G91975,OK,,
+G23317,BAD,VALODAS FAKTS,«Moder» nav LB; svītrot
+G10039,OK,,
+G25420,OK,,
+G67150,OK,,
+G33950,OK,,
+G78726,OK,,
+G81072,OK,,
+G27209,BAD,VALODAS FAKTS,«saachlech» → «sachlech»
+G44252,OK,,
+G95700,OK,,
+G80961,OK,,
+G36802,OK,,
+G97041,OK,,
+G65874,OK,,
+G56842,OK,,
+G84159,BAD,VALODAS FAKTS,«fuppen» → «hänselen»
+G26027,OK,,
+G88439,OK,,
+G85523,BAD,TULKOJUMS,«Tadel • Reprimande» → «Spang»
+G92984,BAD,VALODAS FAKTS,«Dommkapp» → «Hallwerweis»
+G14082,OK,,
+G32112,BAD,VALODAS FAKTS,«svinīgs» ir LV; svītrot
+G41517,BAD,VALODAS FAKTS,«Maiblimmchen» → «Meeréischen»
+G76614,OK,,
+G90356,OK,,
+G30576,OK,,
+G33799,OK,,
+G52080,OK,,
+G87504,OK,,
+G95626,OK,,
+G21472,OK,,
+G44752,OK,,
+G51290,OK,,
+G91577,OK,,
+G14437,OK,,
+G43769,OK,,
+G85596,OK,,
+G34406,BAD,VALODAS FAKTS,«Lilas • Flidder» → «Neelchesbam»
+G38493,OK,,
+G26368,OK,,
+G10031,OK,,
+G56203,OK,,
+G84120,OK,,
+G57652,BAD,VALODAS FAKTS,«Hénkestall» → «Héngerstall»
+G39581,OK,,
+G89092,OK,,
+G78128,OK,,
+G81884,OK,,
+G56695,OK,,
+G79389,OK,,
+G10726,OK,,
+G62950,OK,,
+G23961,OK,,
+G99668,BAD,VALODAS FAKTS,«nieftbäi» → «niewebäi»
+G60185,OK,,
+G90426,OK,,
+G67918,BAD,VALODAS FAKTS,«Buttekdéif» → «Butteksdéif»
+G54161,OK,,
+G53451,BAD,TULKOJUMS,«dorënner» → «Niewesaach»
+G75497,BAD,VALODAS FAKTS,«késchtlech» nav LB; svītrot
+G10288,BAD,TULKOJUMS,«Fig» → «befollegen»
+G30505,OK,,
+G31016,OK,,
+G51743,OK,,
+G72056,OK,,
+G31448,OK,,
+G73559,OK,,
+G16796,OK,,
+G76602,OK,,
+G69513,OK,,
+G89713,OK,,
+G54415,BAD,VALODAS FAKTS,«Pulver» → «Polver»
+G62630,OK,,
+G88092,OK,,
+G71710,OK,,
+G65483,BAD,TULKOJUMS,«eriwwer» ir šurp; svītrot
+G77312,OK,,
+G70968,OK,,
+G25461,BAD,VALODAS FAKTS,«Méintspai» → «Mountspai»; «Monatsgehalt» → «Mountsgehalt»
+G73691,OK,,
+G90372,BAD,VALODAS FAKTS,«disabile» ir IT; «handicapéiert»
+G46017,OK,,
+G56360,OK,,
+G21790,OK,,
+G76068,OK,,
+G11303,OK,,
+G60580,OK,,
+G27012,BAD,VALODAS FAKTS,«Cheminée» ir FR; svītrot
+G63774,OK,,
+G26435,OK,,
+G18528,OK,,
+G76608,OK,,
+G79137,BAD,VALODAS FAKTS,«Kondolenzen» nav LB; svītrot
+G80088,OK,,
+G28022,OK,,
+G26048,OK,,
+G76886,OK,,
+G39634,OK,,
+G49290,OK,,
+G28842,BAD,VALODAS FAKTS,«Matros» → «Matrous»
+G10197,OK,,
+G11628,OK,,
+G44321,OK,,
+G64606,OK,,
+G36263,BAD,VALODAS FAKTS,«medio» ir IT; «mëttel»
+G94161,OK,,
+G62249,BAD,VALODAS FAKTS,«Dau» → «Da»
+G60758,OK,,
+G82925,BAD,TULKOJUMS,«Casting» → «Tatsaach»
+G13073,OK,,
+G39300,OK,,
+G34722,OK,,
+G13439,OK,,
+G80653,OK,,
+G75093,BAD,VALODAS FAKTS,«Maiskolben» → «Maiskinnek»
+G32057,BAD,VALODAS FAKTS,«Äerduelleg» nav LB; svītrot
+G96062,OK,,
+G92875,OK,,
+G46311,OK,,
+G19907,OK,,
+G87785,OK,,
+G16178,OK,,
+G99929,OK,,
+G33971,OK,,
+G58747,OK,,
+G33392,OK,,
+G11401,OK,,
+G83134,BAD,VALODAS FAKTS,«Saum» → «Sam»
+G21392,OK,,
+G63531,OK,,
+G54227,OK,,
+G90941,OK,,
+G47313,OK,,
+G84749,OK,,
+G10873,BAD,VALODAS FAKTS,«Parasol» → «Sonneprabbeli»
+G91939,OK,,
+G93656,OK,,
+G12884,OK,,
+G89411,OK,,
+G28205,OK,,
+G19456,OK,,
+G25673,OK,,
+G97674,OK,,
+G71171,BAD,VALODAS FAKTS,«Verwandten» nav LB; svītrot
+G16699,OK,,
+G68383,OK,,
+G42219,OK,,
+G43911,BAD,VALODAS FAKTS,«Radiosendung» → «Radiosemissioun»
+G74938,BAD,VALODAS FAKTS,«Préifzäit» → «Proufzäit»
+G41558,OK,,
+G76868,OK,,
+G96655,OK,,
+G75214,BAD,VALODAS FAKTS,«Zuchfahrplang» → «Fahrplang»; «Kursbuch» svītrot
+G52088,OK,,
+G15987,OK,,
+G53854,BAD,VALODAS FAKTS,«klarstellen» → «kloerstellen»
+G56267,OK,,
+G90251,OK,,
+G18163,OK,,
+G74560,OK,,
+G89761,OK,,
+G23591,BAD,VALODAS FAKTS,«Stierkampf» → «Stéierkampf»
+G56674,BAD,VALODAS FAKTS,«Kolleg» → «Kolleeg»
+G10934,OK,,
+G69659,BAD,VALODAS FAKTS,«saumen» → «seemen»
+G51887,OK,,
+G31789,OK,,
+G30541,OK,,
+G50493,OK,,
+G63665,OK,,
+G97134,OK,,
+G80892,BAD,TULKOJUMS,«Laub» ir lapas; svītrot
+G78570,OK,,
+G54864,BAD,VALODAS FAKTS,«Ronzel» nav LB; svītrot
+G86723,OK,,
+G76942,OK,,
+G94818,OK,,
+G25599,OK,,
+G42974,OK,,
+G62063,OK,,
+G31729,OK,,
+G79828,OK,,
+G81543,OK,,
+G15819,OK,,
+G47879,OK,,
+G16670,OK,,
+G18491,OK,,
+G65156,OK,,
+G75131,OK,,
+G99367,OK,,
+G33937,OK,,
+G43767,OK,,
+G71546,BAD,VALODAS FAKTS,«iwwerqueren» → «iwwerschreiden»
+G52850,OK,,
+G88472,OK,,
+G37730,OK,,
+G76283,OK,,
+G83460,OK,,
+G56935,OK,,
+G74153,BAD,VALODAS FAKTS,«Gynäkolog» → «Gynekolog»
+G45160,BAD,VALODAS FAKTS,«salīdzinājums» ir LV; svītrot
+G65862,BAD,VALODAS FAKTS,«Liddebuch» → «Lidderbuch»
+G92651,OK,,
+G92579,OK,,
+G16108,OK,,
+G20974,OK,,
+G32433,OK,,
+G66619,OK,,
+G84054,OK,,
+G83780,OK,,
+G29041,BAD,VALODAS FAKTS,«Gehir» → «Gehier»
+G47416,OK,,
+G96562,OK,,
+G27056,OK,,
+G40361,OK,,
+G77733,BAD,VALODAS FAKTS,«bemillen» → «beméien»
+G39226,OK,,
+G71277,BAD,TULKOJUMS,«Virus» ir vīruss
+G25962,OK,,
+G21478,BAD,VALODAS FAKTS,«erofstierzen» nav LB; svītrot
+G34484,OK,,
+G21561,OK,,
+G63921,OK,,
+G20839,OK,,
+G46649,BAD,VALODAS FAKTS,«Rachen» nav LB; svītrot
+G20793,BAD,VALODAS FAKTS,«plakstiņu ēnas» ir LV; «Lidschatten» nav LB
+G96366,BAD,VALODAS FAKTS,«suergelos» nav LB vārds
+G27616,OK,,
+G56880,BAD,VALODAS FAKTS,«mierkrank» → «séikrank»
+G91261,OK,,
+G68069,OK,,
+G70997,BAD,VALODAS FAKTS,«strappare» ir IT; «rappen»
+G12123,BAD,VALODAS FAKTS,«zréckkéieren» nav LB; svītrot
+G56876,OK,,
+G62906,OK,,
+G59265,OK,,
+G82396,BAD,VALODAS FAKTS,«Heer» nav LB; svītrot
+G51672,OK,,
+G12569,BAD,VALODAS FAKTS,«mistake / error» ir EN; «Iertum»
+G79224,BAD,VALODAS FAKTS,«to regret» ir EN; «bereien»
+G97135,OK,,
+G36923,OK,,
+G40769,OK,,
+G61814,OK,,
+G49066,OK,,
+G32907,OK,,
+G44849,OK,,
+G47792,BAD,VALODAS FAKTS,«potēt» ir LV; svītrot
+G58990,OK,,
+G59554,OK,,
+G97017,BAD,VALODAS FAKTS,«Sens unique» ir FR
+G46405,OK,,
+G45762,OK,,
+G27318,OK,,
+G10025,OK,,
+G28906,OK,,
+G22789,OK,,
+G12613,BAD,VALODAS FAKTS,«Crépi» ir FR; «Bewurf» nav LB; «Botz»
+G75460,OK,,
+G48809,OK,,
+G22887,OK,,
+G45870,OK,,
+G46069,OK,,
+G68650,BAD,VALODAS FAKTS,«heefteg» → «hefteg»
+G95194,OK,,
+G43323,OK,,
+G59249,BAD,TULKOJUMS,«Besëtzer • Proprietär» → «encouragéieren»
+G27371,BAD,VALODAS FAKTS,«Sprénger» nav LB; svītrot
+G77325,OK,,
+G76012,OK,,
+G53662,OK,,
+G23867,OK,,
+G40045,OK,,
+G51943,OK,,
+G58862,OK,,
+G73240,OK,,
+G58552,BAD,VALODAS FAKTS,«Elend» nav LB; svītrot
+G72928,OK,,
+G26502,OK,,
+G11272,OK,,
+G21166,OK,,
+G23615,OK,,
+G49173,OK,,
+G82611,OK,,
+G24180,OK,,
+G53239,OK,,
+G39299,OK,,
+G38175,BAD,TULKOJUMS,«eens ginn» ir vienoties; svītrot
+G53356,BAD,VALODAS FAKTS,«juegen» → «joen»
+G77982,BAD,VALODAS FAKTS,«Retourbillet» → «Aller-retour»
+G65591,OK,,
+G39978,OK,,
+G13662,BAD,TULKOJUMS,«eriwwergoen» ir šurp
+G54252,BAD,VALODAS FAKTS,«kaarg» nav LB; svītrot
+G33996,BAD,VALODAS FAKTS,«Kroust» → «Kuuscht»
+G43701,OK,,
+G46027,OK,,
+G16338,OK,,
+G57448,BAD,VALODAS FAKTS,«Reesroute» nav LB vārds
+G92432,BAD,TULKOJUMS,«Patt» ir glāze vai ķepa; svītrot
+G83861,OK,,
+G14097,OK,,
+G12944,OK,,
+G32390,BAD,VALODAS FAKTS,„īpašums” (LV) svītrot.
+G35402,OK,,
+G66849,BAD,VALODAS FAKTS,«tirmelen» un «daumelen» nav LB
+G15149,BAD,TULKOJUMS,«sech verbreeden» → «Strécknol»
+G13831,OK,,
+G31286,BAD,VALODAS FAKTS,«Rasiersaachen» nav LB vārds
+G96752,OK,,
+G56286,OK,,
+G89685,OK,,
+G13256,BAD,VALODAS FAKTS,„Standliicht” → „Standluucht”
+G71584,OK,,
+G56757,BAD,TULKOJUMS,„Fliedermaus” ir sikspārnis; → „Beweis”
+G45586,OK,,
+G26053,OK,,
+G84704,BAD,TULKOJUMS,„Kiermëscht” ir gadatirgus; svītrot
+G80187,BAD,VALODAS FAKTS,„Decompte” → „Dekont”
+G81655,OK,,
+G14171,BAD,VALODAS FAKTS,„Gries” → „Schmull”
+G40468,BAD,VALODAS FAKTS,„an der Unlag” → „an der Annex”
+G49042,OK,,
+G19934,OK,,
+G95716,BAD,VALODAS FAKTS,„verdeedegen” → „verteidegen”
+G82888,BAD,VALODAS FAKTS,„aknas” ir LV; svītrot
+G46613,OK,,
+G55551,BAD,VALODAS FAKTS,„Dauwieder” jauc ar rasu (Dau)
+G60782,OK,,
+G56306,OK,,
+G81051,OK,,
+G74090,OK,,
+G93545,OK,,
+G68876,OK,,
+G43519,BAD,VALODAS FAKTS,„deeselwechten” → „datselwecht”
+G78886,BAD,VALODAS FAKTS,„steeneg” → „stengeg”
+G67512,OK,,
+G30019,OK,,
+G28748,BAD,TULKOJUMS,„Reck” nav šķērsot; → „iwwerfueren”
+G12197,OK,,
+G24938,BAD,VALODAS FAKTS,„Gesamtsumm” → „Gesamtzomm”
+G44762,OK,,
+G41675,OK,,
+G31050,OK,,
+G44034,OK,,
+G66337,OK,,
+G60418,OK,,
+G70022,OK,,
+G71854,OK,,
+G79529,OK,,
+G87637,OK,,
+G34701,OK,,
+G62566,OK,,
+G80150,BAD,VALODAS FAKTS,„Rouedag” → „Roudag”
+G59131,OK,,
+G99255,OK,,
+G25929,BAD,VALODAS FAKTS,„Sanitéiter” → „Sanitäter”
+G64012,OK,,
+G46985,OK,,
+G56082,BAD,VALODAS FAKTS,„pūķis” ir LV; svītrot
+G58779,OK,,
+G41970,BAD,VALODAS FAKTS,„Réckkéier” → „Réckzéier”
+G68996,OK,,
+G93757,BAD,VALODAS FAKTS,„schéieren” → „schieren”
+G44428,OK,,
+G30646,BAD,VALODAS FAKTS,„Sitt” nav LB; svītrot
+G48985,OK,,
+G85261,BAD,VALODAS FAKTS,„Rohstoff” → „Rostoff”
+G60444,OK,,
+G31253,OK,,
+G73197,OK,,
+G72212,OK,,
+G82979,OK,,
+G64491,OK,,
+G52678,BAD,VALODAS FAKTS,„Seess” → „Séissel”
+G54726,OK,,
+G97747,OK,,
+G11691,BAD,VALODAS FAKTS,„Tau” nav tauva (rasa); svītrot
+G51494,BAD,VALODAS FAKTS,„Makler” ir vācu forma; svītrot
+G59829,OK,,
+G87990,OK,,
+G76525,BAD,TULKOJUMS,„Floss” ir upe; → „Flooss”
+G55570,BAD,TULKOJUMS,„Tirang” ir atvilktne; → „dorobber”
+G53665,OK,,
+G66347,OK,,
+G73913,BAD,TULKOJUMS,„Autorisatioun • Genehmegung” ir atļauja; → „Schlucht”
+G97229,OK,,
+G23101,OK,,
+G31172,BAD,VALODAS FAKTS,„bieben” → „biewen”
+G35051,OK,,
+G17685,OK,,
+G91027,OK,,
+G24182,OK,,
+G38950,BAD,VALODAS FAKTS,„Biskuit” → „Biscuit”
+G91500,OK,,
+G80293,OK,,
+G68406,OK,,
+G72750,OK,,
+G19982,OK,,
+G43253,OK,,
+G42298,OK,,
+G23415,OK,,
+G36689,OK,,
+G16811,OK,,
+G58638,BAD,VALODAS FAKTS,„Radiator” nav LB; svītrot
+G61788,BAD,VALODAS FAKTS,„Katzenaen” → „Kazenaen”; „Reflektor” → „Reflekter”
+G72242,OK,,
+G84586,OK,,
+G47602,BAD,VALODAS FAKTS,„Baskemutz” → „Berri”; „Béret” → „Beret”
+G14906,OK,,
+G31927,BAD,TULKOJUMS,„Zort • Sort” ir veids; → „sech behuelen”
+G89629,OK,,
+G95695,BAD,VALODAS FAKTS,„Zëpfel” nav LB; svītrot
+G85786,OK,,
+G56903,OK,,
+G24710,BAD,VALODAS FAKTS,„šķēpa mešana” ir LV; svītrot
+G37311,BAD,VALODAS FAKTS,„Autosrennen” nav LB; svītrot
+G84783,OK,,
+G27593,OK,,
+G51592,OK,,
+G78993,OK,,
+G43654,BAD,VALODAS FAKTS,„mat Absicht” → „mat Ofsicht”
+G72471,OK,,
+G48478,OK,,
+G25652,OK,,
+G64683,OK,,
+G38466,BAD,VALODAS FAKTS,„Buchhandlung” ir vācu forma; svītrot
+G56183,OK,,
+G49270,OK,,
+G94990,BAD,TULKOJUMS,„sech bécken” ir noliekties; svītrot
+G29253,OK,,
+G33927,OK,,
+G30627,BAD,VALODAS FAKTS,„houken” → „hucken”
+G45901,OK,,
+G64610,OK,,
+G63779,BAD,VALODAS FAKTS,„Barrière” → „Barriär”
+G47668,OK,,
+G56257,OK,,
+G74805,BAD,VALODAS FAKTS,„Rech” → „Reech”
+G59527,BAD,VALODAS FAKTS,„schweigsam” ir vācu forma; svītrot
+G13484,BAD,VALODAS FAKTS,„duerno” → „dono”
+G84906,BAD,TULKOJUMS,„Laserdrécker” ir lāzerprinteris; → „Kosmeetik”
+G21754,BAD,VALODAS FAKTS,„klaafen” nav LB; svītrot
+G40994,OK,,
+G29377,OK,,
+G29004,OK,,
+G26592,OK,,
+G11207,OK,,
+G52305,OK,,
+G21588,OK,,
+G10150,OK,,
+G57668,OK,,
+G82526,OK,,
+G40024,OK,,
+G19155,BAD,VALODAS FAKTS,„palo” nav LB (ES/IT); → „Poul”
+G62307,OK,,
+G12799,OK,,
+G43261,OK,,
+G41567,BAD,VALODAS FAKTS,„Conférence” ir FR; → „Konferenz”
+G84175,OK,,
+G66640,OK,,
+G65965,OK,,
+G84778,OK,,
+G48689,OK,,
+G45917,OK,,
+G65284,OK,,
+G56070,OK,,
+G68313,OK,,
+G80412,OK,,
+G71603,OK,,
+G42303,OK,,
+G33369,OK,,
+G59955,OK,,
+G88156,OK,,
+G47824,OK,,
+G16842,OK,,
+G25800,OK,,
+G43162,OK,,
+G36059,OK,,
+G94825,BAD,VALODAS FAKTS,„dinéieren” → „dînéieren”
+G63141,BAD,VALODAS FAKTS,„Beschwerden” nav LB forma; svītrot
+G65889,OK,,
+G49929,BAD,VALODAS FAKTS,„Kond” nav LB; svītrot
+G59473,OK,,
+G36980,OK,,
+G24345,OK,,
+G90563,OK,,
+G67455,OK,,
+G81634,BAD,VALODAS FAKTS,„Laissez-passer” ir FR frāze; → „Pass”
+G97791,BAD,VALODAS FAKTS,„extrem” → „extreem”
+G44895,BAD,VALODAS FAKTS,„Couchette” nav LB; svītrot
+G86460,BAD,VALODAS FAKTS,„aheemesch” → „heemesch”
+G67022,OK,,
+G67610,BAD,TULKOJUMS,„schielen” ir mizot; → „balucken”
+G24254,BAD,VALODAS FAKTS,„Hamel” → „Hammel”
+G56641,BAD,VALODAS FAKTS,„Hopfen” → „Happ”
+G92618,BAD,TULKOJUMS,„Viruert • Virstad” ir priekšpilsēta; → „iwwerfëllt”
+G24317,OK,,
+G20641,OK,,
+G92619,OK,,
+G17713,OK,,
+G28815,OK,,
+G95767,BAD,VALODAS FAKTS,„Houschtenattack” → „Houschtattack”
+G38230,BAD,VALODAS FAKTS,„Brennessel” → „Brennnessel”
+G30881,OK,,
+G86598,OK,,
+G29320,BAD,VALODAS FAKTS,„Schraf” → „Schrauf”
+G21567,OK,,
+G15810,OK,,
+G82208,BAD,VALODAS FAKTS,„schnieren” → „schnueren”
+G62521,OK,,
+G81522,BAD,TULKOJUMS,„gestalten” ir veidot; → „bestueden”
+G26973,OK,,
+G37202,OK,,
+G79428,BAD,VALODAS FAKTS,„spasseg” → „spaasseg”
+G35255,BAD,VALODAS FAKTS,„preču vilciens” ir LV; svītrot
+G93410,OK,,
+G17554,BAD,VALODAS FAKTS,„klénken” nav LB; svītrot
+G99750,OK,,
+G25268,BAD,VALODAS FAKTS,„iwwerschwätzen” → „iwwerrieden”
+G59555,BAD,VALODAS FAKTS,„Stäreschnuppe” → „Stäreschnäiz”
+G88781,OK,,
+G10320,OK,,
+G52372,OK,,
+G30309,OK,,
+G20975,BAD,VALODAS FAKTS,„Rump” → „Coque”
+G50058,OK,,
+G36180,BAD,TULKOJUMS,„Bamstamm” ir koka stumbrs; → „lauschteren”
+G87583,OK,,
+G44701,OK,,
+G92712,OK,,
+G59942,OK,,
+G65810,OK,,
+G96546,OK,,
+G44696,OK,,
+G88757,OK,,
+G69466,OK,,
+G93730,OK,,
+G60564,OK,,
+G18475,BAD,VALODAS FAKTS,„Bund” ir vācu forma; svītrot
+G10147,OK,,
+G16623,OK,,
+G18301,OK,,
+G55433,OK,,
+G18879,OK,,
+G48948,BAD,TULKOJUMS,„Iwwerfaart” ir pārceltuve; → „krauseleg”
+G36478,OK,,
+G85514,BAD,TULKOJUMS,„molen” ir zīmēt; → „muelen”
+G94988,OK,,
+G57238,OK,,
+G35251,OK,,
+G82138,OK,,
+G62859,OK,,
+G25106,OK,,
+G61823,OK,,
+G96359,OK,,
+G53590,BAD,TULKOJUMS,„Kiemen” ir vietvārds; → „Kim”
+G86798,OK,,
+G63191,OK,,
+G37947,OK,,
+G96165,BAD,VALODAS FAKTS,„bréllen” → „brëllen”
+G52947,OK,,
+G12703,OK,,
+G58085,BAD,VALODAS FAKTS,„bearbechten” → „beaarbechten”
+G77677,OK,,
+G49828,BAD,VALODAS FAKTS,„kneipen” → „pëtzen”
+G80467,OK,,
+G27300,OK,,
+G41933,OK,,
+G93197,OK,,
+G74722,OK,,
+G34941,BAD,VALODAS FAKTS,„Juwel” → „Bijou”; „Edelsteen” → „Eedelsteen”
+G52103,OK,,
+G70737,BAD,VALODAS FAKTS,„to be located” ir EN; → „sech befannen”
+G45353,BAD,VALODAS FAKTS,„Ree” → „Réi”
+G17848,BAD,VALODAS FAKTS,„daafstomm” → „dafstomm”
+G58425,OK,,
+G94638,BAD,VALODAS FAKTS,„Remarque” → „Remark”
+G58904,OK,,
+G78838,OK,,
+G35903,BAD,VALODAS FAKTS,„ofseits” → „ofsäits”
+G69173,OK,,
+G56617,BAD,TULKOJUMS,„Kafhaus” ir kafejnīca; „Grand Magasin” ir FR frāze
+G15692,OK,,
+G51161,OK,,
+G77170,OK,,
+G21257,BAD,VALODAS FAKTS,„Hackbroden” nav LB; svītrot
+G80330,OK,,
+G37788,OK,,
+G98661,BAD,VALODAS FAKTS,„Tracht” → „Truecht”
+G29039,BAD,VALODAS FAKTS,„montaggio” ir IT; → „Montage”
+G99094,OK,,
+G14518,OK,,
+G75854,BAD,VALODAS FAKTS,„Bamrënn” ir izdomāts; → „Bamschuel”
+G89956,BAD,TULKOJUMS,„Islam” ir islams; → „Produkt”
+G43245,OK,,
+G45571,OK,,
+G33667,OK,,
+G49598,OK,,
+G71590,BAD,VALODAS FAKTS,„virhanen” nav LB; svītrot
+G28317,OK,,
+G81098,OK,,
+G62525,OK,,
+G24063,BAD,TULKOJUMS,„Fëschplat” ir zivju plate; → „Cours”
+G59796,BAD,VALODAS FAKTS,„Opsinn” nav LB; svītrot
+G18516,OK,,
+G96458,OK,,
+G65003,OK,,
+G16745,OK,,
+G17834,OK,,
+G69904,OK,,
+G91026,OK,,
+G14401,OK,,
+G61900,OK,,
+G66583,OK,,
+G47182,OK,,
+G82771,OK,,
+G23197,OK,,
+G99470,OK,,
+G32437,OK,,
+G72349,OK,,
+G84645,OK,,
+G31367,OK,,
+G16024,OK,,
+G17641,OK,,
+G69324,OK,,
+G90671,OK,,
+G11898,BAD,VALODAS FAKTS,„Maison d'édition” ir FR frāze; svītrot
+G77399,OK,,
+G49167,OK,,
+G29345,OK,,
+G67357,OK,,
+G64189,BAD,VALODAS FAKTS,„Bäil” → „Beilen”
+G72251,OK,,
+G87470,BAD,VALODAS FAKTS,„rifen” nav berzēt; svītrot
+G49485,BAD,VALODAS FAKTS,„Sichel” → „Séchel”
+G24551,BAD,VALODAS FAKTS,„Happen” → „Maufel”
+G64849,OK,,
+G92268,OK,,
+G41371,OK,,
+G53039,BAD,VALODAS FAKTS,„Kabarett” → „Cabaret”
+G26619,BAD,VALODAS FAKTS,„ahalen” → „anhalen”
+G36041,OK,,
+G83815,OK,,
+G24814,OK,,
+G14178,OK,,
+G77460,OK,,
+G47176,OK,,
+G42657,OK,,
+G95341,BAD,VALODAS FAKTS,„klingen” → „kléngen”
+G91752,OK,,
+G59582,BAD,TULKOJUMS,„zouloossen” ir atstāt ciet; svītrot
+G18630,BAD,VALODAS FAKTS,„inbegraff” → „abegraff”
+G58822,OK,,
+G17120,OK,,
+G74772,OK,,
+G87612,OK,,
+G61636,OK,,
+G44858,BAD,VALODAS FAKTS,„kegelen” → „dillen”
+G26212,BAD,VALODAS FAKTS,„Flouhmaart” → „Floumaart”
+G21723,BAD,VALODAS FAKTS,„konschtfäerdeg” nav LB; svītrot
+G60156,OK,,
+G94362,OK,,
+G97567,BAD,VALODAS FAKTS,„Kur” → „Kuer”
+G81903,OK,,
+G53611,OK,,
+G29306,OK,,
+G33016,BAD,VALODAS FAKTS,„Photocopieuse” ir FR; svītrot
+G69991,OK,,
+G95460,OK,,
+G16559,OK,,
+G91485,OK,,
+G17670,OK,,
+G80381,OK,,
+G44540,OK,,
+G74759,OK,,
+G52516,OK,,
+G97981,BAD,TULKOJUMS,"„Akommes” ir ienākumi, ne ieņēmumi; svītrot"
+G22937,OK,,
+G45948,OK,,
+G97488,OK,,
+G43969,OK,,
+G30682,OK,,
+G86038,OK,,
+G36817,OK,,
+G14228,OK,,
+G30266,OK,,
+G53942,OK,,
+G10261,OK,,
+G52908,OK,,
+G16697,OK,,
+G39928,OK,,
+G95300,OK,,
+G70353,OK,,
+G68072,OK,,
+G52414,OK,,
+G30195,OK,,
+G31836,OK,,
+G95394,BAD,VALODAS FAKTS,„Pamper” → „Pampers”
+G57940,BAD,VALODAS FAKTS,„Gierscht” → „Geescht”
+G48772,OK,,
+G36449,BAD,VALODAS FAKTS,„Begriefnis” → „Begriefnes”; „Beierdegung” nav LB
+G84911,OK,,
+G17724,OK,,
+G67397,BAD,VALODAS FAKTS,„schéissen” → „schässen”
+G25537,OK,,
+G77297,OK,,
+G11804,BAD,VALODAS FAKTS,„jäten” → „krauden”
+G54231,OK,,
+G17852,OK,,
+G77425,OK,,
+G13244,OK,,
+G38611,OK,,
+G64079,OK,,
+G23965,OK,,
+G98058,OK,,
+G64376,BAD,TULKOJUMS,„Gäiz” ir skopums; → „Maulkuerf”
+G73684,OK,,
+G20232,BAD,TULKOJUMS,„Kabarett” ir kabarē; → „Nordpol”
+G86326,OK,,
+G57002,OK,,
+G77393,OK,,
+G38266,OK,,
+G32881,OK,,
+G82709,OK,,
+G21396,OK,,
+G51807,OK,,
+G15559,OK,,
+G17261,OK,,
+G26424,OK,,
+G50788,OK,,
+G53296,BAD,VALODAS FAKTS,„Kartong” → „Kartrong”
+G83929,BAD,VALODAS FAKTS,„ambra” nav LB (IT); → „Bernstein”
+G78720,OK,,
+G69942,OK,,
+G72620,BAD,TULKOJUMS,„Portmonni” ir naudas maks; → „Portefeuille”
+G70487,OK,,
+G23162,OK,,
+G82352,OK,,
+G72588,OK,,
+G17770,OK,,
+G42102,OK,,
+G24880,OK,,
+G88831,OK,,
+G38592,BAD,TULKOJUMS,„invalid” ir invalīds; → „ongülteg”
+G42450,OK,,
+G36254,OK,,
+G91864,OK,,
+G67216,BAD,TULKOJUMS,„beieneen” ir vienlaikus; svītrot
+G84060,BAD,VALODAS FAKTS,„Zillstee” nav LB; svītrot
+G28884,OK,,
+G83117,BAD,VALODAS FAKTS,„Vaterland” ir vācu forma; svītrot
+G84189,OK,,
+G93409,OK,,
+G77835,OK,,
+G41123,BAD,TULKOJUMS,„Rief” ir vīnogulājs; nav rīve
+G43554,OK,,
+G84756,OK,,
+G92313,OK,,
+G76566,OK,,
+G10810,OK,,
+G20895,BAD,VALODAS FAKTS,„Schëffaart” → „Schëfffaart”
+G58688,OK,,
+G33591,OK,,
+G29476,BAD,TULKOJUMS,„Stuerz” ir cepures nags; → „Chute”
+G59838,OK,,
+G94482,OK,,
+G12833,OK,,
+G39454,OK,,
+G30043,OK,,
+G78274,OK,,
+G66085,OK,,
+G74949,OK,,
+G13958,OK,,
+G11284,BAD,VALODAS FAKTS,„Konsultant” nav LB; svītrot
+G18160,OK,,
+G98078,OK,,
+G48546,OK,,
+G67177,OK,,
+G80568,OK,,
+G62194,OK,,
+G78980,OK,,
+G72781,OK,,
+G88449,OK,,
+G60719,BAD,VALODAS FAKTS,„chemesch” → „cheemesch”
+G11369,OK,,
+G70219,OK,,
+G77778,OK,,
+G63950,OK,,
+G63217,OK,,
+G20567,OK,,
+G77424,OK,,
+G85011,BAD,VALODAS FAKTS,„Limit” → „Limitt”
+G35027,OK,,
+G98434,OK,,
+G14248,BAD,VALODAS FAKTS,„mangelen” → „maangelen”
+G59092,OK,,
+G52874,OK,,
+G58960,OK,,
+G19302,OK,,
+G26011,OK,,
+G24998,OK,,
+G58430,OK,,
+G62072,OK,,
+G80781,OK,,
+G11448,OK,,
+G41364,OK,,
+G15442,OK,,
+G58890,OK,,
+G51265,OK,,
+G58906,BAD,VALODAS FAKTS,„besinn” nav LB; svītrot
+G85339,OK,,
+G51385,OK,,
+G84126,OK,,
+G15430,OK,,
+G85848,OK,,
+G36439,OK,,
+G52315,BAD,TULKOJUMS,„sech beginn” nav doties; → „goen”
+G86753,OK,,
+G94389,OK,,
+G80774,OK,,
+G67762,BAD,VALODAS FAKTS,„Ringen” → „réngen”
+G50124,BAD,VALODAS FAKTS,„Symphonie” → „Sinfonie”
+G16280,BAD,TULKOJUMS,„uknäppen” ir aizpogāt; → „uknëppen”
+G57298,OK,,
+G67873,OK,,
+G97882,OK,,
+G50968,OK,,
+G39939,OK,,
+G56365,BAD,TULKOJUMS,„Virbereedung” ir sagatavošana; → „iwwerginn”
+G51015,OK,,
+G69686,OK,,
+G69521,BAD,VALODAS FAKTS,„Péngschtrous” → „Päischtrous”
+G33645,BAD,VALODAS FAKTS,„Patinoire” ir FR; „Äisbunn” nav LB; → „Pist”
+G51602,OK,,
+G86358,OK,,
+G58323,OK,,
+G49249,BAD,VALODAS FAKTS,„merkwierdeg” nav LB; svītrot
+G76064,OK,,
+G12863,OK,,
+G99129,OK,,
+G28527,OK,,
+G23511,OK,,
+G16284,OK,,
+G62651,OK,,
+G49961,OK,,
+G90794,OK,,
+G63029,OK,,
+G53229,BAD,TULKOJUMS,„aginn” ir iedot zāles; svītrot
+G15174,OK,,
+G74640,OK,,
+G46306,OK,,
+G57619,OK,,
+G29035,OK,,
+G85258,OK,,
+G11302,OK,,
+G13627,BAD,VALODAS FAKTS,„uschaulech” → „anschaulech”; „konkret” → „konkreet”
+G92200,OK,,
+G30302,OK,,
+G73601,OK,,
+G27211,BAD,VALODAS FAKTS,„kosmetesch” → „kosmeetesch”
+G40007,BAD,VALODAS FAKTS,„noutwenneg” → „noutwendeg”
+G46615,OK,,
+G78863,OK,,
+G66346,OK,,
+G19333,OK,,
+G73672,OK,,
+G54251,BAD,VALODAS FAKTS,„verroschten” → „raschten”
+G36838,OK,,
+G78622,OK,,
+G95924,OK,,
+G69048,OK,,
+G73549,OK,,
+G42977,OK,,
+G60755,OK,,
+G21399,OK,,
+G40936,OK,,
+G53130,OK,,
+G57971,BAD,VALODAS FAKTS,„Ënnerkonft” → „Ënnerdaach”
+G11790,OK,,
+G63718,OK,,
+G61660,OK,,
+G99435,BAD,VALODAS FAKTS,„Mauwelf” → „Maulef”
+G49737,OK,,
+G75733,OK,,
+G57373,BAD,VALODAS FAKTS,„Krampf” → „Kramp”
+G65952,OK,,
+G50956,BAD,VALODAS FAKTS,„Buchmass” → „Bicherfoire”
+G64687,OK,,
+G37555,OK,,
+G52803,BAD,VALODAS FAKTS,„Theek” → „Théik”
+G59575,OK,,
+G65460,OK,,
+G73078,OK,,
+G29424,OK,,
+G83516,OK,,
+G53663,OK,,
+G99401,OK,,
+G53787,OK,,
+G90940,OK,,
+G30843,OK,,
+G97995,BAD,VALODAS FAKTS,«Sehnsucht» nav LB (paliek «verlaangeren»)
+G57133,OK,,
+G37268,BAD,VALODAS FAKTS,«klatschen» → «klaatschen»
+G44130,OK,,
+G96054,OK,,
+G72354,OK,,
+G69305,OK,,
+G48319,OK,,
+G72444,OK,,
+G22168,OK,,
+G62209,OK,,
+G39607,BAD,VALODAS FAKTS,«Kannerhort» nav LB
+G58174,OK,,
+G51621,OK,,
+G16084,OK,,
+G46241,BAD,VALODAS FAKTS,«Kaafmann» nav LB
+G85225,BAD,VALODAS FAKTS,«Virstad» nav LB
+G71531,OK,,
+G24142,OK,,
+G47517,BAD,VALODAS FAKTS,«Muskelkrampf» → «Muskelkramp»
+G94933,BAD,VALODAS FAKTS,«Kluft» → «Ecart»
+G99252,OK,,
+G62709,OK,,
+G51793,BAD,VALODAS FAKTS,«seefzen» → «keimen»
+G63681,OK,,
+G10023,OK,,
+G52217,BAD,VALODAS FAKTS,«Ruinen • Trëmmer» → «Ruin»
+G70186,BAD,VALODAS FAKTS,«ongenau» → «ongenee»
+G40875,OK,,
+G27964,OK,,
+G42097,OK,,
+G13650,BAD,VALODAS FAKTS,«Geste» → «Gest»
+G70276,OK,,
+G29718,BAD,VALODAS FAKTS,«räicheren» → «reecheren»
+G63556,OK,,
+G15556,OK,,
+G33195,OK,,
+G13923,BAD,VALODAS FAKTS,«Néierlag» → «Nidderlag»
+G94431,BAD,VALODAS FAKTS,«kaschtbar» nav LB
+G44892,OK,,
+G97287,OK,,
+G59704,OK,,
+G62824,BAD,TULKOJUMS,"«Present» ir Präsens, nevis tagadne"
+G94146,OK,,
+G31807,OK,,
+G12983,OK,,
+G56207,OK,,
+G54844,OK,,
+G74297,OK,,
+G82956,OK,,
+G13299,OK,,
+G40800,BAD,VALODAS FAKTS,«Kameradschaft» → «Komerodschaft»
+G73567,OK,,
+G66911,OK,,
+G40581,OK,,
+G76959,OK,,
+G61806,OK,,
+G75745,BAD,VALODAS FAKTS,«op en neit Héieren» nav frāze; «op en Neits» ir atkal
+G86014,BAD,TULKOJUMS,«Behuelen» ir uzvedība; mājas arests ir «Hausarrest»
+G43998,BAD,VALODAS FAKTS,«Projecteur» — FR; «Projekter»
+G23838,OK,,
+G24463,BAD,VALODAS FAKTS,«besiegen» nav LB
+G97413,OK,,
+G59351,BAD,TULKOJUMS,«domat» ir dumjš; pārguris ir «erschëpft»
+G21869,BAD,VALODAS FAKTS,«strahlen» → «stralen»
+G86197,OK,,
+G70832,OK,,
+G55678,BAD,VALODAS FAKTS,«Sort» nav LB
+G32697,OK,,
+G55503,OK,,
+G13048,OK,,
+G75203,OK,,
+G26725,OK,,
+G82512,OK,,
+G83820,OK,,
+G39854,OK,,
+G84085,OK,,
+G60588,OK,,
+G21918,OK,,
+G82355,OK,,
+G23833,OK,,
+G96602,OK,,
+G19510,OK,,
+G94734,BAD,VALODAS FAKTS,«Dosinn» nav LB
+G31981,OK,,
+G52833,BAD,VALODAS FAKTS,«guardia» — IT; «Wuecht»
+G26563,OK,,
+G36293,BAD,TULKOJUMS,«Bou» ir loks; tīšām ir «absichtlech»
+G14069,OK,,
+G64365,OK,,
+G14464,OK,,
+G29669,OK,,
+G95103,OK,,
+G69588,OK,,
+G26405,OK,,
+G25681,BAD,VALODAS FAKTS,«Lappen» nav LB (paliek «Fatz»)
+G61614,BAD,VALODAS FAKTS,«Heiroutsantrag» nav LB (Heirout nav vārds)
+G96119,OK,,
+G11072,OK,,
+G56083,OK,,
+G83452,OK,,
+G17702,OK,,
+G46946,OK,,
+G78453,OK,,
+G10212,BAD,VALODAS FAKTS,«Lengen» nav LB (paliek «Léngent»)
+G42436,BAD,VALODAS FAKTS,«Bündel» → «Bëndel»
+G27280,OK,,
+G11009,OK,,
+G61711,OK,,
+G91623,OK,,
+G27128,OK,,
+G51144,BAD,VALODAS FAKTS,«Angel» → «Aangel»
+G45419,OK,,
+G58142,BAD,TULKOJUMS,«erfannen» ir izgudrot; bezrūpīgs ir «ouni Suergen»
+G74296,OK,,
+G20233,OK,,
+G74219,BAD,VALODAS FAKTS,«Grëll» → «Grill»
+G38243,BAD,VALODAS FAKTS,«Bedingung» → «Bedéngung»
+G68330,OK,,
+G11873,OK,,
+G54853,BAD,TULKOJUMS,«versuergen» ir aprūpēt; čība ir «Schlapp»
+G74420,OK,,
+G48497,OK,,
+G29492,OK,,
+G47424,OK,,
+G54593,OK,,
+G71915,OK,,
+G90942,OK,,
+G40483,OK,,
+G49121,OK,,
+G10869,BAD,VALODAS FAKTS,«Ziviltstand • Standesamt» → «État civil»
+G91712,OK,,
+G54881,OK,,
+G13436,OK,,
+G49286,OK,,
+G60064,OK,,
+G87916,BAD,VALODAS FAKTS,«hénken» → «humpelen»
+G91573,BAD,VALODAS FAKTS,«Ugehéiregen» nav LB
+G11280,OK,,
+G33751,OK,,
+G16344,OK,,
+G55497,OK,,
+G85329,OK,,
+G39345,OK,,
+G10405,OK,,
+G37602,BAD,VALODAS FAKTS,«Cartoon» — EN; svītrot
+G92996,OK,,
+G83676,BAD,VALODAS FAKTS,«Gefréierfach • Congélateur» → «Tifküler»; «Congélateur» — FR
+G84286,OK,,
+G58874,OK,,
+G99689,OK,,
+G37605,BAD,VALODAS FAKTS,«onvernënfteg» → «onverstänneg»
+G98620,OK,,
+G86728,BAD,VALODAS FAKTS,«segelen» → «seegelen»
+G62582,BAD,VALODAS FAKTS,«Nacken» → «Nuque»
+G17927,OK,,
+G92340,BAD,VALODAS FAKTS,«Mëndung» → «Mündung»
+G26645,OK,,
+G88293,OK,,
+G82220,BAD,VALODAS FAKTS,«sech senken» nav LB
+G94314,OK,,
+G28668,OK,,
+G18582,OK,,
+G35554,BAD,VALODAS FAKTS,«zréckbleiwen» → «zeréckbleiwen»
+G87687,OK,,
+G62760,BAD,VALODAS FAKTS,"«mëndeg» → «mündeg»; «majeur» ir Dur, svītrot"
+G49088,BAD,TULKOJUMS,«Asyl» ir patvērums; nomākt ir «bedrécken»
+G10549,OK,,
+G53792,BAD,VALODAS FAKTS,«kitzelen» → «këddelen»
+G80275,BAD,VALODAS FAKTS,«ringen» → «réngen»
+G79988,BAD,VALODAS FAKTS,«Fiers» → «Feescht»
+G60901,OK,,
+G41203,BAD,VALODAS FAKTS,«Sief» → «Sift»
+G94975,BAD,VALODAS FAKTS,«Schwur» → «Eed»
+G80999,OK,,
+G25154,OK,,
+G65657,BAD,VALODAS FAKTS,«Hoerbëschel» → «Buuscht»
+G51173,OK,,
+G80247,BAD,VALODAS FAKTS,«indiskret» → «indiskreet»
+G44181,OK,,
+G13698,BAD,VALODAS FAKTS,«Zorn» nav LB
+G46771,OK,,
+G72759,OK,,
+G54713,OK,,
+G55033,BAD,VALODAS FAKTS,«gefillos» nav LB; «ouni Gefill»
+G57741,BAD,VALODAS FAKTS,«Entfernung» nav LB
+G80291,BAD,VALODAS FAKTS,«Buchhalter» nav LB
+G29516,OK,,
+G53151,OK,,
+G89731,BAD,VALODAS FAKTS,«erëffnen» nav LB
+G64114,BAD,VALODAS FAKTS,«Hiwwel» → «Huwwel»
+G87433,BAD,VALODAS FAKTS,«Brack» nav LB
+G37438,OK,,
+G58387,BAD,VALODAS FAKTS,«Réierei» → «Eeërtriwwel»
+G29026,OK,,
+G59222,BAD,VALODAS FAKTS,«Käschte» ir kastanis; izmaksas ir «Käschten»
+G41352,BAD,VALODAS FAKTS,«Muttermal • Gebuertsflecken» nav LOD
+G72143,OK,,
+G54257,OK,,
+G72068,OK,,
+G49799,BAD,VALODAS FAKTS,«bread crust» — EN; «Kuuscht»
+G72544,OK,,
+G91569,BAD,VALODAS FAKTS,«Virsëtzenden» nav LB
+G68002,OK,,
+G69959,OK,,
+G92292,OK,,
+G16551,BAD,VALODAS FAKTS,«cognato» — IT; «Schwoer»
+G73220,OK,,
+G26926,BAD,VALODAS FAKTS,«Gehorsam» nav LB
+G38019,BAD,VALODAS FAKTS,«selbststänneg» → «selbstänneg»
+G54112,OK,,
+G66819,OK,,
+G96704,OK,,
+G71674,BAD,VALODAS FAKTS,«Säier» → «Saier»
+G59512,BAD,VALODAS FAKTS,«Fachdokter» nav LB
+G58791,BAD,VALODAS FAKTS,«Schmatt» → «Schmadd»
+G33299,OK,,
+G94899,BAD,VALODAS FAKTS,«semestris» — LV; svītrot
+G83950,BAD,VALODAS FAKTS,«Feralles» nav LB
+G11795,OK,,
+G38421,OK,,
+G80690,OK,,
+G35836,BAD,TULKOJUMS,«gedréchent Uebst» ir žāvēti augļi; sludinājums ir «Annonce»
+G99831,BAD,VALODAS FAKTS,«schéipen» nav LB
+G60520,BAD,VALODAS FAKTS,«Rennauto» nav LB
+G27422,OK,,
+G96989,OK,,
+G99053,OK,,
+G11551,BAD,VALODAS FAKTS,«Alufolie» → «Sëlwerpabeier»
+G93411,OK,,
+G71821,BAD,TULKOJUMS,«Gehalt» ir alga; saturs ir «Inhalt»
+G58147,OK,,
+G39461,BAD,VALODAS FAKTS,«Rech» → «Reech»
+G14379,BAD,VALODAS FAKTS,«jubelen» → «jubiléieren»
+G37543,OK,,
+G50622,OK,,
+G67825,OK,,
+G59307,BAD,VALODAS FAKTS,«Ofluch» nav LB
+G64359,OK,,
+G28941,OK,,
+G95046,OK,,
+G51522,BAD,VALODAS FAKTS,«Courant d'air» — FR; svītrot
+G37051,BAD,VALODAS FAKTS,«rumpelen» → «ramoueren»
+G27270,BAD,VALODAS FAKTS,«Kurbel • Manivelle» → «Kierb»
+G52507,BAD,VALODAS FAKTS,«Pappel» → «Pëppel»
+G81399,OK,,
+G90150,BAD,VALODAS FAKTS,«Holzfäller» nav LB
+G54617,OK,,
+G26538,OK,,
+G62495,BAD,VALODAS FAKTS,«gering» → «geréng»
+G52321,OK,,
+G63275,OK,,
+G56830,BAD,VALODAS FAKTS,«profitto» — IT; «Ertrag»
+G76883,OK,,
+G85264,OK,,
+G84922,BAD,VALODAS FAKTS,«sech entfernen» nav LB; «ewegmaachen»
+G10252,OK,,
+G49756,OK,,
+G95408,BAD,TULKOJUMS,«gefëmmten» ir fëmmen; kūpināt ir «reecheren»
+G85606,BAD,VALODAS FAKTS,«konkret» → «konkreet»
+G38644,OK,,
+G13989,OK,,
+G63292,OK,,
+G37659,OK,,
+G20144,OK,,
+G36087,OK,,
+G50355,BAD,TULKOJUMS,"«awer» ir aber, nevis dagegen"
+G56311,OK,,
+G36143,OK,,
+G37987,OK,,
+G21764,OK,,
+G20455,BAD,VALODAS FAKTS,«schlummeren» → «tompen»
+G85402,BAD,VALODAS FAKTS,«Kuckuck» → «Guckuck»
+G27164,OK,,
+G45339,BAD,TULKOJUMS,«vis-à-vis vun» ir gegenüber
+G18787,BAD,VALODAS FAKTS,«kloppen» → «tuppen»
+G74117,OK,,
+G30130,OK,,
+G63767,OK,,
+G36893,BAD,VALODAS FAKTS,«Seefebubbel» → «Seefeblos»
+G67831,OK,,
+G57300,OK,,
+G95491,OK,,
+G50781,OK,,
+G27541,OK,,
+G90155,BAD,VALODAS FAKTS,«Personalabteilung» nav LB
+G88198,BAD,VALODAS FAKTS,«Moor • Sumpf» → «Mouer»
+G71508,BAD,VALODAS FAKTS,«schlicht» nav LB
+G79082,OK,,
+G43160,BAD,TULKOJUMS,«Schëld» ir zīme; turpināt ir «weiderféieren»
+G62872,OK,,
+G38194,BAD,VALODAS FAKTS,«Rutschbunn» → «Rutschban»
+G93375,OK,,
+G90040,BAD,VALODAS FAKTS,«Kondgebung» nav LB
+G46855,OK,,
+G51008,BAD,VALODAS FAKTS,«präzis» → «prezis»
+G18228,OK,,
+G78930,OK,,
+G55998,BAD,VALODAS FAKTS,«posare» — IT; «ofsetzen»
+G70874,BAD,TULKOJUMS,«rappen» ir plēst; plūkt ir «plëmmen»
+G94875,OK,,
+G66421,OK,,
+G90106,BAD,VALODAS FAKTS,«notikt» — LV; svītrot
+G71839,BAD,VALODAS FAKTS,«Brathong» nav LB
+G63935,BAD,TULKOJUMS,«erleedegen» ir nokārtot; nepateicīgs ir «ondankbar»
+G61721,OK,,
+G63437,OK,,
+G82477,OK,,
+G82256,BAD,VALODAS FAKTS,«Apprenti» — FR; svītrot
+G77717,OK,,
+G27047,OK,,
+G18866,BAD,VALODAS FAKTS,«Rib» → «Rëpp»
+G11254,BAD,VALODAS FAKTS,«zousinn» nav LB
+G14920,BAD,VALODAS FAKTS,«knallen» nav LB
+G88635,BAD,VALODAS FAKTS,«lediglech» nav LB
+G17984,OK,,
+G73377,BAD,VALODAS FAKTS,«Pastéit • Paté» → «Pâté»
+G33258,OK,,
+G71240,OK,,
+G13861,OK,,
+G96182,OK,,
+G44464,OK,,
+G87944,OK,,
+G12803,OK,,
+G83162,BAD,VALODAS FAKTS,«gebären» nav LB
+G42720,OK,,
+G88985,BAD,VALODAS FAKTS,«Zoubehéier» nav LB
+G13080,BAD,TULKOJUMS,«benotzen • gebrauchen» ir lietot; austrumu ir «ëstlech»
+G22535,OK,,
+G24354,OK,,
+G46420,BAD,VALODAS FAKTS,«amuséieren» → «ameséieren»
+G83414,OK,,
+G35161,OK,,
+G18944,OK,,
+G23782,BAD,VALODAS FAKTS,«Fonk» → «Fonken»
+G97050,OK,,
+G35137,OK,,
+G58673,OK,,
+G19073,OK,,
+G86532,OK,,
+G32177,OK,,
+G51216,BAD,VALODAS FAKTS,«erigere» — IT; «opriichten»
+G42503,OK,,
+G52977,OK,,
+G96354,BAD,VALODAS FAKTS,«Réckwäertsgank» → «Réckgang»
+G30892,OK,,
+G40594,BAD,VALODAS FAKTS,«Proteïn» → «Protein»
+G94289,BAD,VALODAS FAKTS,«Autosgasen» nav LB
+G94998,BAD,VALODAS FAKTS,«Komfort» → «Confort»
+G89520,BAD,VALODAS FAKTS,«passare» — IT; «laanschtgoen»
+G69750,OK,,
+G79283,BAD,VALODAS FAKTS,«Konsultatioun» → «Consultatioun»
+G80063,BAD,VALODAS FAKTS,«ganzdeegeg» → «ganzdaags»
+G10115,OK,,
+G42193,OK,,
+G92609,BAD,TULKOJUMS,«Hee» ir siens; kalnup ir «biergop»
+G54232,OK,,
+G70606,BAD,TULKOJUMS,"«virdrun» ir zuvor, nevis iepriekšējais"
+G63980,BAD,VALODAS FAKTS,«gehorchen» nav LB
+G50806,OK,,
+G63233,BAD,VALODAS FAKTS,«Rëss» → «Rass»
+G18452,OK,,
+G75055,BAD,VALODAS FAKTS,«Wahlziedel» → «Stëmmziedel»
+G36088,OK,,
+G90271,OK,,
+G29322,OK,,
+G38218,BAD,VALODAS FAKTS,«verabreden» nav LB
+G68914,OK,,
+G79260,OK,,
+G72886,BAD,TULKOJUMS,«mooss» ir mērs; mērens ir «sober»; «moderéiert» nav LB
+G50354,OK,,
+G82304,OK,,
+G41276,OK,,
+G87487,OK,,
+G53019,BAD,VALODAS FAKTS,«petty» — EN; «klenglech»
+G14926,OK,,
+G26820,BAD,VALODAS FAKTS,«Douanesbüro» → «Douane»
+G79539,OK,,
+G29211,OK,,
+G89276,OK,,
+G84802,BAD,VALODAS FAKTS,«iwwerqueren» nav LB
+G92994,OK,,
+G67009,OK,,
+G19360,BAD,VALODAS FAKTS,«Diät» nav LB; «Regime» → «Regimm»
+G60545,OK,,
+G14857,OK,,
+G82130,OK,,
+G98258,OK,,
+G51707,OK,,
+G57920,OK,,
+G67601,OK,,
+G29936,OK,,
+G24243,OK,,
+G17504,OK,,
+G52980,OK,,
+G14352,OK,,
+G39898,OK,,
+G54499,OK,,
+G83224,BAD,VALODAS FAKTS,«grouf» → «graff»
+G57479,OK,,
+G13960,BAD,VALODAS FAKTS,«Lierch» → «Léierchen»
+G90179,OK,,
+G96658,OK,,
+G78428,BAD,VALODAS FAKTS,«Wiesselcours» → «Change»
+G58825,BAD,TULKOJUMS,«Enveloppe» ir aploksne; zvērēt ir «schwieren»
+G32096,OK,,
+G54778,BAD,VALODAS FAKTS,«ongeschéckt» → «ongeschécklech»
+G59430,OK,,
+G88499,OK,,
+G97655,OK,,
+G91930,OK,,
+G29389,OK,,
+G23018,BAD,VALODAS FAKTS,«entsetzlech» nav LB
+G37305,OK,,
+G71970,OK,,
+G20385,BAD,VALODAS FAKTS,«Schutzhülle» → «Housse»
+G46236,OK,,
+G58038,BAD,VALODAS FAKTS,«verschieben» → «verschiben»
+G13478,BAD,VALODAS FAKTS,«indicare» — IT; «uginn»
+G14113,BAD,VALODAS FAKTS,«Gromperenerntmaschinn» (Ernt nav LB)
+G14128,OK,,
+G45678,BAD,VALODAS FAKTS,«klaafen» nav LB
+G48307,BAD,TULKOJUMS,«Bistro • Bierstuff» ir krogs; amats ir «Posten»
+G24714,OK,,
+G21283,BAD,VALODAS FAKTS,«Slipper» nav LB; «Mokassin» → «Mocassin»
+G43715,BAD,VALODAS FAKTS,«Stéch» → «Stach»
+G98573,OK,,
+G92264,OK,,
+G83721,OK,,
+G98406,OK,,
+G52556,BAD,TULKOJUMS,"«verhënneren» ir novērst, nevis kavēt"
+G81216,BAD,VALODAS FAKTS,«Kamerod» → «Komerod»
+G74585,OK,,
+G20168,OK,,
+G59491,BAD,VALODAS FAKTS,«Harz» → «Haarz»
+G22879,OK,,
+G39690,OK,,
+G99955,BAD,TULKOJUMS,«trennen» ir šķirt; pēc tam kad ir «nodeem»
+G44245,OK,,
+G39427,OK,,
+G47022,OK,,
+G39288,BAD,VALODAS FAKTS,«Kabinett» nav LB
+G66561,BAD,VALODAS FAKTS,«ëmkleeden» nav LB
+G91335,OK,,
+G25175,BAD,VALODAS FAKTS,«Patisserie» → «Pâtisserie»; «Konditorei» nav LB
+G25721,OK,,
+G23086,OK,,
+G96830,OK,,
+G73839,OK,,
+G42934,BAD,VALODAS FAKTS,«Schneiderin» → «Schneidesch»
+G78933,OK,,
+G63966,OK,,
+G73701,OK,,
+G13227,BAD,VALODAS FAKTS,«raccogliere» — IT; «eranhuelen»
+G40590,OK,,
+G88346,OK,,
+G45144,BAD,TULKOJUMS,«Waardesall» ir uzgaidāmā zāle; uzteikums ir «Kënnegung»
+G42709,OK,,
+G63695,OK,,
+G39822,OK,,
+G53588,OK,,
+G23350,OK,,
+G23376,OK,,
+G14553,OK,,
+G80796,OK,,
+G82357,BAD,VALODAS FAKTS,«Plakett» → «Vignette»
+G22759,OK,,
+G44485,OK,,
+G37064,OK,,
+G70041,BAD,VALODAS FAKTS,«Kröt» → «Mouk»
+G41034,OK,,
+G44243,BAD,VALODAS FAKTS,«tüchteg» → «dichteg»
+G40583,OK,,
+G59777,BAD,VALODAS FAKTS,«Luedung» nav LB
+G92962,OK,,
+G16844,OK,,
+G17765,OK,,
+G62540,OK,,
+G29733,BAD,VALODAS FAKTS,«Klee» → «Kléi»
+G28939,OK,,
+G70486,OK,,
+G91003,OK,,
+G41107,OK,,
+G30485,OK,,
+G24650,OK,,
+G21185,OK,,
+G32425,OK,,
+G70094,OK,,
+G74512,OK,,
+G62522,OK,,
+G37182,OK,,
+G50080,OK,,
+G55750,OK,,
+G19916,OK,,
+G78996,OK,,
+G47555,OK,,
+G14773,BAD,VALODAS FAKTS,«gëeegent» → «giedlech»
+G48899,OK,,
+G71615,OK,,
+G39982,OK,,
+G58036,BAD,VALODAS FAKTS,«Fuussbau» → «Fuusselach»
+G64605,OK,,
+G37533,OK,,
+G42993,OK,,
+G25944,OK,,
+G28435,OK,,
+G66416,BAD,VALODAS FAKTS,«onbequem» → «onbequeem»
+G60961,OK,,
+G61031,OK,,
+G39731,OK,,
+G18627,OK,,
+G64507,OK,,
+G99043,OK,,
+G83995,BAD,VALODAS FAKTS,«ratlos» → «perplex»
+G79015,BAD,TULKOJUMS,«Leeder» ir kāpnes; vadītājs ir «Guide»
+G64339,OK,,
+G64850,OK,,
+G16987,OK,,
+G21141,OK,,
+G29659,OK,,
+G30872,OK,,
+G71613,BAD,VALODAS FAKTS,«Fraemannschaft» → «Dammenekipp»
+G25206,BAD,VALODAS FAKTS,«fegen» nav LB
+G48725,OK,,
+G76222,BAD,TULKOJUMS,«Plastik» ir plastmasa; iekšpusē ir «bannenzeg»
+G62418,BAD,VALODAS FAKTS,«ëmdréinen» → «ëmdréien»
+G51308,OK,,
+G14054,BAD,VALODAS FAKTS,«mager» → «moer»
+G43156,OK,,
+G49493,OK,,
+G29923,BAD,VALODAS FAKTS,«schief» → «schif»
+G58564,BAD,VALODAS FAKTS,«Leertast» (Leer nav LB)
+G40524,OK,,
+G36302,OK,,
+G84164,BAD,VALODAS FAKTS,«Holzklotz» nav LB; «Block»
+G91156,OK,,
+G86246,BAD,VALODAS FAKTS,«Neiheet» → «Neiegkeet»
+G55819,OK,,
+G46453,OK,,
+G66800,OK,,
+G80940,OK,,
+G83886,OK,,
+G92343,OK,,
+G48858,BAD,VALODAS FAKTS,«Deelnehmer» → «Participant»
+G82203,BAD,VALODAS FAKTS,«sech ëmzéien» nav LB
+G80329,OK,,
+G26438,OK,,
+G13882,OK,,
+G92733,OK,,
+G45317,OK,,
+G70995,OK,,
+G97460,OK,,
+G85994,BAD,VALODAS FAKTS,«laben» nav LB
+G15894,OK,,
+G78655,OK,,
+G72718,OK,,
+G30617,OK,,
+G58547,OK,,
+G18405,OK,,
+G34103,BAD,VALODAS FAKTS,«mëssléngen» nav LB
+G27207,OK,,
+G46529,BAD,VALODAS FAKTS,«Kette» → «Ketten»
+G75548,OK,,
+G39882,BAD,VALODAS FAKTS,«Schischanz» nav LOD
+G60956,OK,,
+G50038,OK,,
+G22505,OK,,
+G49327,OK,,
+G59241,OK,,
+G90947,BAD,VALODAS FAKTS,«spatzen» → «spëtzen»
+G14792,OK,,
+G47216,BAD,VALODAS FAKTS,«ernten» → «eranhuelen»
+G89475,OK,,
+G19767,OK,,
+G10968,OK,,
+G17548,BAD,VALODAS FAKTS,«Rausch» → «Dronk»
+G91114,OK,,
+G77142,OK,,
+G16872,OK,,
+G65559,OK,,
+G59526,OK,,
+G65841,OK,,
+G58378,OK,,
+G51841,OK,,
+G96214,OK,,
+G11501,OK,,
+G48640,OK,,
+G64286,OK,,
+G98586,OK,,
+G64875,BAD,VALODAS FAKTS,„Beton” → „Bëton”.
+G20390,OK,,
+G73871,OK,,
+G87372,OK,,
+G11197,OK,,
+G38268,BAD,VALODAS FAKTS,„kränklech” → „daierlech”.
+G42654,OK,,
+G31388,OK,,
+G46944,OK,,
+G91097,OK,,
+G77499,BAD,VALODAS FAKTS,„solid” → „zolidd”.
+G78050,OK,,
+G62585,BAD,VALODAS FAKTS,„Some” un „Saat” nav LB → „Sot”.
+G75985,OK,,
+G40523,BAD,TULKOJUMS,"„Fläch” ir virsma, „Ebeen” nav vārds → „Plang”."
+G47519,OK,,
+G43001,OK,,
+G82100,OK,,
+G51888,OK,,
+G53816,OK,,
+G81945,OK,,
+G85657,OK,,
+G45530,OK,,
+G16599,OK,,
+G19025,OK,,
+G95562,OK,,
+G37219,OK,,
+G51288,OK,,
+G31970,OK,,
+G42023,OK,,
+G69112,OK,,
+G14507,OK,,
+G54016,BAD,TULKOJUMS,"„Kummer” ir guļamistaba, svītrot."
+G49651,OK,,
+G81959,BAD,VALODAS FAKTS,„irféieren” → „ierféieren”.
+G94732,OK,,
+G36025,OK,,
+G67058,OK,,
+G31582,OK,,
+G86139,OK,,
+G30745,OK,,
+G60443,OK,,
+G17414,BAD,VALODAS FAKTS,"„verärgeren” nav LB, svītrot."
+G32210,OK,,
+G50302,OK,,
+G24137,OK,,
+G24765,OK,,
+G48118,OK,,
+G72925,BAD,VALODAS FAKTS,"„Preservatif” ir FR, svītrot."
+G10317,BAD,VALODAS FAKTS,„zerknëttelen” → „zerkniwwelen”.
+G93912,BAD,VALODAS FAKTS,"„Kiel” nav LB, svītrot."
+G73382,BAD,VALODAS FAKTS,„aspretzen” → „asprëtzen”; „injizéieren” svītrot.
+G94871,BAD,VALODAS FAKTS,„Ongewidder” nav vārds → „Donnerwieder”.
+G96095,BAD,VALODAS FAKTS,„Ofsaz” nav vārds → „Alinea”.
+G21906,OK,,
+G33520,OK,,
+G18951,OK,,
+G56948,OK,,
+G80784,BAD,TULKOJUMS,„Maische” ir misa → „Masch”.
+G45705,BAD,VALODAS FAKTS,„Bierguide” nav vārds.
+G52456,OK,,
+G56281,OK,,
+G34671,BAD,TULKOJUMS,"„Kummer” ir guļamistaba, „Chamber” ir parlaments → „Zëmmer”."
+G28065,OK,,
+G18661,BAD,VALODAS FAKTS,„Inschrëft” → „Inschrift”.
+G52781,OK,,
+G99501,BAD,VALODAS FAKTS,„Opstig” nav vārds → „Montée”.
+G25457,OK,,
+G36662,OK,,
+G37075,OK,,
+G26953,OK,,
+G49688,OK,,
+G12190,OK,,
+G99285,OK,,
+G13234,OK,,
+G61566,OK,,
+G57717,BAD,VALODAS FAKTS,„Ofscheed” → „Abschid”.
+G62993,OK,,
+G53300,OK,,
+G89632,OK,,
+G27181,OK,,
+G93440,BAD,VALODAS FAKTS,„groussarteg” → „groussaarteg”.
+G67106,BAD,VALODAS FAKTS,„rapporto” ir IT → „Relatioun”.
+G79687,OK,,
+G60745,OK,,
+G88684,BAD,VALODAS FAKTS,„Branntwäin” → „Branntewäin”.
+G99849,OK,,
+G32761,BAD,TULKOJUMS,„enttäuschen” ir vilt → „Gäiz”.
+G76048,BAD,TULKOJUMS,"„Mull” ir gliemene, „Gaze” nav LB → „Kompress”."
+G52825,OK,,
+G85799,OK,,
+G38317,BAD,VALODAS FAKTS,„Miller” → „Mëller”.
+G42607,OK,,
+G90339,OK,,
+G48757,OK,,
+G40503,OK,,
+G25979,OK,,
+G38340,BAD,TULKOJUMS,„Beliichtung” ir ekspozīcija → „Beleuchtung”.
+G80239,BAD,TULKOJUMS,"„déiden” ir apdullināt, svītrot."
+G69406,OK,,
+G34394,OK,,
+G80846,OK,,
+G50595,OK,,
+G72089,OK,,
+G54918,OK,,
+G17250,BAD,TULKOJUMS,„beschwätzen” ir apspriest → „Brauch”.
+G50278,OK,,
+G55460,OK,,
+G49808,OK,,
+G65328,OK,,
+G90382,BAD,VALODAS FAKTS,"„Diarrhée” ir FR, svītrot."
+G87390,OK,,
+G87032,OK,,
+G93913,OK,,
+G44644,OK,,
+G76981,OK,,
+G32043,OK,,
+G31937,BAD,VALODAS FAKTS,„häuslech” → „haislech”.
+G69689,OK,,
+G33897,OK,,
+G67190,OK,,
+G21263,BAD,TULKOJUMS,„kriminell” ir noziedzīgs → „Scheedung”.
+G82491,BAD,VALODAS FAKTS,"„Virrot” nav vārds, svītrot."
+G88286,OK,,
+G78596,OK,,
+G18324,OK,,
+G59489,OK,,
+G68305,OK,,
+G84999,BAD,VALODAS FAKTS,"„apdraudēt” ir LV, svītrot."
+G63404,OK,,
+G99134,OK,,
+G46939,OK,,
+G73585,OK,,
+G66072,OK,,
+G77535,OK,,
+G80046,OK,,
+G46569,OK,,
+G44788,OK,,
+G75095,OK,,
+G67983,OK,,
+G90462,OK,,
+G32840,OK,,
+G43780,BAD,VALODAS FAKTS,„the waves of the sea” ir EN.
+G26471,OK,,
+G39154,BAD,TULKOJUMS,"„Lappen” ir atslābt, „lupata” ir LV → „Lomp”."
+G15045,OK,,
+G73842,OK,,
+G98077,OK,,
+G68578,OK,,
+G42387,OK,,
+G51539,BAD,VALODAS FAKTS,„Bliech” → „Blech”.
+G73587,BAD,TULKOJUMS,"„stoppen” ir apturēt, svītrot."
+G33749,BAD,VALODAS FAKTS,„distance” ir EN → „Distanz”.
+G99033,OK,,
+G45891,OK,,
+G92183,OK,,
+G23023,OK,,
+G28116,BAD,TULKOJUMS,„Seel” ir virve → „Promenad”.
+G70970,OK,,
+G30638,OK,,
+G43180,BAD,VALODAS FAKTS,„eliminare” ir IT → „eliminéieren”.
+G64855,OK,,
+G22024,OK,,
+G31569,OK,,
+G67970,BAD,TULKOJUMS,„Schlucken” ir rīšana → „Hick”.
+G50111,OK,,
+G88895,OK,,
+G10290,OK,,
+G71188,OK,,
+G64807,OK,,
+G21238,OK,,
+G91803,OK,,
+G84348,OK,,
+G45612,OK,,
+G70178,OK,,
+G99551,OK,,
+G69759,OK,,
+G76266,OK,,
+G62479,OK,,
+G27585,BAD,TULKOJUMS,„stoussen” ir grūst → „Matdeelung”.
+G95603,BAD,VALODAS FAKTS,„paramedic” ir EN → „Sanitäter”.
+G77915,BAD,VALODAS FAKTS,„bierschten” → „biischten”.
+G41060,OK,,
+G83830,OK,,
+G65739,OK,,
+G81966,OK,,
+G57630,OK,,
+G33422,OK,,
+G10745,OK,,
+G54019,OK,,
+G36364,OK,,
+G41625,OK,,
+G18677,OK,,
+G47690,OK,,
+G30115,BAD,VALODAS FAKTS,„siewen” → „siften”.
+G95533,OK,,
+G97607,OK,,
+G17092,OK,,
+G55698,OK,,
+G49538,OK,,
+G69054,OK,,
+G99330,OK,,
+G54335,OK,,
+G64824,OK,,
+G36770,OK,,
+G14444,OK,,
+G74356,BAD,TULKOJUMS,"„Wiesselen” ir darbības vārds, svītrot."
+G12251,OK,,
+G63105,OK,,
+G35578,OK,,
+G28148,OK,,
+G88539,OK,,
+G62267,OK,,
+G40077,OK,,
+G99200,BAD,VALODAS FAKTS,„Puder” → „Pudder”.
+G67663,OK,,
+G61119,OK,,
+G34777,OK,,
+G28897,BAD,VALODAS FAKTS,„Nuechtegall” → „Nuechtegailchen”.
+G69300,OK,,
+G38792,OK,,
+G81805,BAD,VALODAS FAKTS,"„Carburant” ir FR, svītrot."
+G78572,OK,,
+G92271,BAD,VALODAS FAKTS,"„Laiterie” ir FR, svītrot."
+G33915,BAD,VALODAS FAKTS,„Hafer” → „Huewer”.
+G88841,BAD,TULKOJUMS,"„Ram” ir saldo krējums, nav kvēpi."
+G77513,OK,,
+G61810,BAD,TULKOJUMS,„Pilier” ir balsts → „Equatioun”.
+G49412,OK,,
+G84587,OK,,
+G52981,OK,,
+G83797,OK,,
+G95632,BAD,VALODAS FAKTS,„Spretz” → „Sprëtz”.
+G17388,OK,,
+G11006,OK,,
+G86016,OK,,
+G55947,OK,,
+G38502,OK,,
+G40905,OK,,
+G26262,OK,,
+G67527,OK,,
+G70843,OK,,
+G40689,BAD,VALODAS FAKTS,„hurry up” ir EN → „presséieren”.
+G27748,OK,,
+G84991,OK,,
+G67629,OK,,
+G22644,OK,,
+G20885,OK,,
+G66424,BAD,TULKOJUMS,„séier” ir ātrs → „firwat”.
+G56873,OK,,
+G85722,OK,,
+G52659,OK,,
+G87873,OK,,
+G35933,OK,,
+G49754,OK,,
+G79324,OK,,
+G13141,OK,,
+G62471,OK,,
+G89206,OK,,
+G92519,OK,,
+G23613,OK,,
+G54091,OK,,
+G50464,OK,,
+G83621,BAD,VALODAS FAKTS,„Strähn” → „Fliicht”.
+G15092,OK,,
+G62161,OK,,
+G15043,OK,,
+G72176,OK,,
+G99757,OK,,
+G23990,BAD,TULKOJUMS,„Bull” ir lode → „Bëlz”.
+G88911,OK,,
+G32082,BAD,TULKOJUMS,„sech ëmzéien” nav vārds; umziehen ir „plënneren”.
+G94709,BAD,VALODAS FAKTS,„Genehmegung” → „Geneemegung”.
+G54120,OK,,
+G10118,OK,,
+G86724,OK,,
+G28721,OK,,
+G21422,OK,,
+G72191,OK,,
+G83826,BAD,TULKOJUMS,„blosen” ir pūst → „enthalen”.
+G22098,OK,,
+G50874,OK,,
+G94416,OK,,
+G40131,OK,,
+G39211,OK,,
+G22967,OK,,
+G62674,OK,,
+G86202,OK,,
+G70336,OK,,
+G23602,OK,,
+G75351,OK,,
+G65799,BAD,VALODAS FAKTS,„kaltbluddeg” → „kalbliddeg”.
+G28760,OK,,
+G16828,OK,,
+G38539,OK,,
+G99783,OK,,
+G62634,OK,,
+G40920,OK,,
+G97484,OK,,
+G50365,OK,,
+G35270,OK,,
+G60670,OK,,
+G45957,OK,,
+G22111,OK,,
+G81214,OK,,
+G60907,OK,,
+G41279,OK,,
+G77279,OK,,
+G45111,OK,,
+G84520,OK,,
+G77263,OK,,
+G16536,OK,,
+G62467,OK,,
+G40870,OK,,
+G52712,OK,,
+G28387,OK,,
+G60182,OK,,
+G34235,OK,,
+G62628,OK,,
+G92108,OK,,
+G64008,OK,,
+G26613,OK,,
+G57293,OK,,
+G48958,OK,,
+G41181,OK,,
+G41505,OK,,
+G38007,BAD,VALODAS FAKTS,„Bëschierdbier” → „Bëschäerdbier”.
+G54575,BAD,TULKOJUMS,„sech versuergen” ir uzglabāt → „ravitailléieren”.
+G77838,OK,,
+G70627,OK,,
+G57848,OK,,
+G91944,OK,,
+G56955,OK,,
+G61275,OK,,
+G52290,BAD,VALODAS FAKTS,„Gebësch” → „Gestraich”.
+G44272,OK,,
+G90096,BAD,TULKOJUMS,„eisen” ir dzelzs → „erféieren”.
+G19812,OK,,
+G59321,OK,,
+G48751,OK,,
+G52951,OK,,
+G88205,OK,,
+G93862,OK,,
+G37540,OK,,
+G30730,OK,,
+G54416,OK,,
+G39571,OK,,
+G54877,OK,,
+G25092,OK,,
+G68828,OK,,
+G48804,OK,,
+G53450,OK,,
+G34964,OK,,
+G87377,OK,,
+G85474,OK,,
+G64159,OK,,
+G76637,OK,,
+G57306,OK,,
+G16000,OK,,
+G59759,OK,,
+G94139,OK,,
+G65823,OK,,
+G24301,OK,,
+G57714,BAD,TULKOJUMS,„zéckeren” ir cukurot → „zécken”.
+G66956,OK,,
+G36597,OK,,
+G35369,OK,,
+G51192,OK,,
+G79410,OK,,
+G29033,OK,,
+G51479,OK,,
+G70974,OK,,
+G20151,OK,,
+G10995,OK,,
+G35526,OK,,
+G48170,OK,,
+G34303,OK,,
+G63536,OK,,
+G65692,OK,,
+G52945,OK,,
+G98401,OK,,
+G20248,OK,,
+G84252,OK,,
+G22148,BAD,TULKOJUMS,„Benotzer” ir lietotājs → „kalbliddeg”.
+G52365,OK,,
+G21086,BAD,VALODAS FAKTS,„Nautbrems” → „Noutbrems”.
+G91648,OK,,
+G87975,OK,,
+G76834,OK,,
+G83334,BAD,VALODAS FAKTS,„Lehm” svītrot; LB ir „Leem”.
+G94956,OK,,
+G94460,BAD,VALODAS FAKTS,„Karneval” svītrot; LB ir „Fuesent”.
+G88336,BAD,VALODAS FAKTS,„fortsetzen” svītrot; LB ir „weiderféieren”.
+G82719,OK,,
+G33723,OK,,
+G23777,OK,,
+G90580,BAD,TULKOJUMS,"„Ticket” ir biļete, svītrot."
+G22223,BAD,TULKOJUMS,„faszinéieren” ir aizraut → „ramoueren”.
+G98786,BAD,VALODAS FAKTS,"„iemaksa” ir LV, svītrot."
+G78005,OK,,
+G95943,BAD,VALODAS FAKTS,„kratzen” → „krazen”.
+G69221,OK,,
+G45488,BAD,VALODAS FAKTS,„bara” nav LB → „Sarg”.
+G88185,OK,,
+G28406,OK,,
+G38607,OK,,
+G29074,OK,,
+G88579,BAD,VALODAS FAKTS,„erschöpft” → „erschëpft”.
+G91341,OK,,
+G48067,OK,,
+G19402,OK,,
+G55266,OK,,
+G19196,OK,,
+G30755,OK,,
+G96259,BAD,VALODAS FAKTS,"„veikls” ir LV, svītrot."
+G76052,BAD,VALODAS FAKTS,„Segelboot” → „Seegelboot”.
+G42524,BAD,TULKOJUMS,"„Rief” ir vīnogulājs, „metāla vai plastmasas rīve” ir LV → „Rapp”."
+G87858,OK,,
+G41160,OK,,
+G61156,OK,,
+G83871,BAD,VALODAS FAKTS,"„darbs” ir LV, svītrot."
+G42315,BAD,VALODAS FAKTS,„schräg” → „schréi”.
+G86100,BAD,TULKOJUMS,„dréngend” ir steidzams → „Depannage”.
+G28863,OK,,
+G99264,OK,,
+G27479,OK,,
+G36166,OK,,
+G48888,OK,,
+G94153,OK,,
+G46864,OK,,
+G20155,OK,,
+G58538,OK,,
+G21165,OK,,
+G48285,BAD,VALODAS FAKTS,„Skript” svītrot; LB ir „Dréibuch”.
+G83726,OK,,
+G32553,BAD,VALODAS FAKTS,"„klaafen” nav vārds, svītrot."
+G49852,OK,,
+G46419,BAD,TULKOJUMS,„Streech” ir sitiens → „Spiicht”.
+G64589,BAD,VALODAS FAKTS,"„Kondendéngscht” ir kļūdaina forma, svītrot."
+G53685,BAD,VALODAS FAKTS,"„Carwash” ir EN, svītrot."
+G27915,OK,,
+G36021,OK,,
+G61597,OK,,
+G93745,BAD,VALODAS FAKTS,„Siegel” → „Sigel”.
+G94014,OK,,
+G33046,OK,,
+G83730,OK,,
+G22001,OK,,
+G89791,BAD,TULKOJUMS,„Routine” ir rutīna → „Stëmmziedel”.
+G91338,OK,,
+G77593,OK,,
+G76923,BAD,VALODAS FAKTS,„Szen” → „Zeen”.
+G64280,OK,,
+G29574,BAD,TULKOJUMS,„domat” ir damit → „doduerch”.
+G72564,OK,,
+G87375,OK,,
+G32644,OK,,
+G88305,OK,,
+G97619,OK,,
+G51765,OK,,
+G99353,BAD,VALODAS FAKTS,"„omulīgs” ir LV, svītrot."
+G45307,OK,,
+G45215,OK,,
+G60936,BAD,TULKOJUMS,„Rouer” ir caurule → „Prospekt”.
+G87435,BAD,VALODAS FAKTS,"„sech noen” nav vārds, svītrot."
+G10200,BAD,VALODAS FAKTS,„krolleg” → „krauseleg”.
+G87696,OK,,
+G34819,OK,,
+G62584,OK,,
+G87924,BAD,VALODAS FAKTS,„brummen” → „summen”.
+G94730,OK,,
+G79947,OK,,
+G59063,OK,,
+G83948,OK,,
+G94787,OK,,
+G48854,OK,,
+G46856,OK,,
+G11498,OK,,
+G40254,OK,,
+G59420,OK,,
+G17884,OK,,
+G51827,OK,,
+G44683,OK,,
+G87860,OK,,
+G52348,OK,,
+G86858,BAD,TULKOJUMS,„Seefebubbel” ir ziepju burbulis → „Bëschäerdbier”.
+G35472,OK,,
+G44484,OK,,
+G22142,OK,,
+G36745,OK,,
+G16928,OK,,
+G94759,BAD,VALODAS FAKTS,„opportunity” ir EN → „Méiglechkeet”.
+G45142,OK,,
+G48191,BAD,VALODAS FAKTS,„Lachs” svītrot; LB ir „Saumon”.
+G78490,OK,,
+G82704,BAD,VALODAS FAKTS,„kuschelech” → „kuscheleg”.
+G28380,BAD,VALODAS FAKTS,„Gelänn” svītrot; LB ir „Terrain”.
+G29293,OK,,
+G76845,OK,,
+G26065,OK,,
+G97723,OK,,
+G74164,BAD,VALODAS FAKTS,„raspelen” → „raaspelen”.
+G36389,BAD,VALODAS FAKTS,„Hüll” → „Poschett”.
+G92842,BAD,VALODAS FAKTS,"„Zeegnes” nav vārds, svītrot."
+G46014,OK,,
+G19917,OK,,
+G66699,OK,,
+G38407,OK,,
+G82457,BAD,TULKOJUMS,„Front” ir fronte → „Flütt”.
+G94769,OK,,
+G97961,OK,,
+G12645,OK,,
+G23311,OK,,
+G70877,OK,,
+G31305,BAD,VALODAS FAKTS,„spréissen” → „schéissen”.
+G73806,OK,,
+G36524,OK,,
+G66650,OK,,
+G78511,OK,,
+G48328,OK,,
+G94274,OK,,
+G78843,BAD,VALODAS FAKTS,„Zouhéierer” → „Nolauschterer”.
+G32155,OK,,
+G36901,OK,,
+G36933,OK,,
+G64190,OK,,
+G18144,OK,,
+G14231,OK,,
+G33273,OK,,
+G63145,OK,,
+G91076,OK,,
+G23153,BAD,VALODAS FAKTS,„Hebamm” svītrot; LB ir „Hiewan”.
+G64775,BAD,VALODAS FAKTS,„brave” ir EN → „kéng”.
+G14134,OK,,
+G51046,BAD,TULKOJUMS,„erop” ir augšup → „Rekter”.
+G23507,OK,,
+G48049,OK,,
+G23885,OK,,
+G58328,OK,,
+G91066,OK,,
+G70104,OK,,
+G58754,OK,,
+G21590,OK,,
+G56324,BAD,VALODAS FAKTS,„Inserat” svītrot; LB ir „Annonce”.
+G85461,OK,,
+G24754,OK,,
+G78117,OK,,
+G80441,BAD,VALODAS FAKTS,„Waardesall” → „Wartesall”.
+G96874,BAD,VALODAS FAKTS,"„olbaltums” ir LV, svītrot."
+G49145,OK,,
+G31788,OK,,
+G60355,BAD,VALODAS FAKTS,„Ascht” → „Aascht”; „Zweig” nav zars.
+G48902,OK,,
+G25053,OK,,
+G22723,OK,,
+G22074,OK,,
+G47986,OK,,
+G98706,BAD,VALODAS FAKTS,„hénken” → „hippen”.
+G52567,OK,,
+G25438,BAD,VALODAS FAKTS,"„décontractéiert” ir FR, svītrot."
+G18122,OK,,
+G33920,OK,,
+G10063,OK,,
+G25855,OK,,
+G95189,OK,,
+G92037,OK,,
+G16348,BAD,VALODAS FAKTS,"„angelen” nav vārds, svītrot."
+G83105,OK,,
+G34526,OK,,
+G33980,OK,,
+G45717,OK,,
+G21863,OK,,
+G18903,OK,,
+G12529,BAD,VALODAS FAKTS,„ermutegen” svītrot; LB ir „encouragéieren”.
+G57767,BAD,VALODAS FAKTS,"„Kleegeld” nav vārds, svītrot."
+G23520,OK,,
+G91576,BAD,VALODAS FAKTS,"„blécken” nav vārds, svītrot."
+G14319,BAD,VALODAS FAKTS,„zëschen” → „zischen”.
+G22426,OK,,
+G36828,OK,,
+G31727,BAD,VALODAS FAKTS,„Bibbel” → „Eess”.
+G33366,OK,,
+G20698,OK,,
+G42245,BAD,VALODAS FAKTS,„Gaaschthaus” svītrot; LB ir „Wiertshaus”.
+G19306,OK,,
+G56818,OK,,
+G88999,OK,,
+G26059,OK,,
