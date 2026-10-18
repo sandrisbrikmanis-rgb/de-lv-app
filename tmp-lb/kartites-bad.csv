@@ -1,0 +1,392 @@
+id,verdikts,kategorija,piezime
+K15467,BAD,VALODAS FAKTS,explanation «Haaptidee» → «Haaptiddi»
+K56691,BAD,VALODAS FAKTS,comparison[1] «uhuelen» → «unhuelen» (n paliek pirms h).
+K74334,BAD,VALODAS FAKTS,glosa «Nummerschëld» → «Nummereschëld»; examples[2] «schéif» → «schif»; comparison[0] «Zulassungsnummer» → «Erkennungsnummer».
+K84849,BAD,VALODAS FAKTS,comparison[1] «un schaffen» → «u schaffen»; explanation «ähnlech» → «änlech».
+K20484,BAD,VALODAS FAKTS,examples[2] «eeneiegen» → «eeneeëgen»; examples[1] «ähnlech» → «änlech»; important «Stärenzeechen Zwillingen» → «Zwilling».
+K42243,BAD,VALODAS FAKTS,explanation «Haaptidee» → «Haaptiddi».
+K55921,BAD,VALODAS FAKTS,important «seet een mat Mal» → «seet ee mat Mal».
+K90071,BAD,VALODAS FAKTS,glosa «schmücken» nav LB vārds (paliek «dekoréieren»); comparison[1] «Schlagsahn» → «Schlagsan».
+K70647,BAD,VALODAS FAKTS,important «kënnt vum selwechte Wuert wéi … Vakanz» — bleiwen un Vakanz nav viena sakne.
+K91916,BAD,TULKOJUMS,"examples[0] «Mir sichen eng Léisung fir de Problem» → «Et reent, mir gi trotzdeem spazéieren»; examples[1] «Dës Léisung spuert Zäit» → «Hie war krank, ass awer trotzdeem op d'Aarbecht gaangen»; glosa «trotzdem» → «trotzdeem»; examples[2] «en bestanen» → «e bestanen»."
+K88103,BAD,VALODAS FAKTS,explanation «Haaptidee» → «Haaptiddi».
+K97473,BAD,VALODAS FAKTS,examples[1] «Steen fir» → «Stee fir»; comparison[2] «D'Pneue notze» → «D'Pneuen notze»; «verschleissen» → «verschläissen».
+K47880,BAD,VALODAS FAKTS,explanation «nennt een Gerichte» → «nennt ee Gerichte».
+K86198,BAD,VALODAS FAKTS,explanation «regelméisseg» → «reegelméisseg».
+K97392,BAD,VALODAS FAKTS,"examples[1] «Ech kann leider» → «Ech ka leider»; important «früher heescht fréier, deemools» — früher nozīmē arī «méi fréi»."
+K83281,BAD,VALODAS FAKTS,"tip «Viruerteeler» → «Virurteeler»; explanation «D'Géigedeel» → «D'Géigendeel»; examples[1] «streicht» nav LB (sträichen = slaukt), «baut … of»."
+K61309,BAD,VALODAS FAKTS,examples[2] «Mir fueren muer de Moien fort» → «Mir fuere muer de Moie fort».
+K39033,BAD,VALODAS FAKTS,important «ähnlech» → «änlech».
+K24425,BAD,VALODAS FAKTS,examples[2] «bis e Freideg» → «bis Freideg»; examples[3] «Undrag» → «Antrag»; comparison[2] «Ënnersetzer» nav LB vārds.
+K81363,BAD,VALODAS FAKTS,comparison[2] «D'Wiesen vun» → «D'Wiese vun»; comparison[0] «erofgeschléckt» → «geschléckt»; comparison[1] «D'Some si kleng» → «De Som ass kleng».
+K90964,BAD,VALODAS FAKTS,comparison[1] «Hiren Ehemann» → «Hire Mann» (Ehemann nav LB vārds).
+K47019,BAD,VALODAS FAKTS,explanation «Haaptidee» → «Haaptiddi».
+K72015,BAD,VĀCU FAKTS,examples[2] «Die Temperaturen sind sehr tief» → «Die Temperaturen sind sehr niedrig»; examples[3] «Ootem» → «Otem».
+K75937,BAD,VALODAS FAKTS,explanation «dekliéiert» → «deklinéiert».
+K13497,BAD,VALODAS FAKTS,examples[2] «De Léierer» → «Den Enseignant».
+K23015,BAD,TULKOJUMS,glosa «Agang» ir Eingang; Eintritt ir «Entrée». comparison[1] «Entréeskaart» → «Billjee»; examples[1] «bezuelen keng» → «bezuele keng».
+K61346,BAD,VALODAS FAKTS,examples[3] «d'Vertrauen vun» → «d'Vertraue vun»; «Kollegen» → «Kolleegen».
+K37932,BAD,VALODAS FAKTS,examples[1] «ofgewandt» → «ofgedréint»; comparison[1] «wendt» → «went»; comparison[0] «ofwenden» nav LB vārds («verhënneren»).
+K96968,BAD,TULKOJUMS,"comparison[2] «verlounen» ir vermieten, «verleien» nav vārds; verleihen ir «verléinen». examples[3] «Velo» → «Vëlo»; examples[2] «Suen vu» → «Sue vu»."
+K44781,BAD,VALODAS FAKTS,important «ähnlech» → «änlech».
+K57907,BAD,VALODAS FAKTS,comparison[0] «Den Entrée» → «D'Entrée»; explanation «kann béides» → «ka béides».
+K49373,BAD,VALODAS FAKTS,glosa «Usinn» → «Ruff»; comparison[1] «Beriimtheet» → «Berüümt-heet»; «beriimt» → «berüümt».
+K28919,BAD,VALODAS FAKTS,"comparison[1] «dréckelen, schieben» nav LB vārdi, «schubsen»; «Velo» → «Vëlo»."
+K74406,BAD,VALODAS FAKTS,comparison[1] «dann ginn ech» → «da ginn ech».
+K66815,BAD,VALODAS FAKTS,examples[3] «grousse Notzen» → «groussen Notzen».
+K50659,BAD,VALODAS FAKTS,explanation «Haaptidee» → «Haaptiddi».
+K62080,BAD,VALODAS FAKTS,comparison[1] «Ech ginn vill» → «Ech gi vill»; examples[1] «Wiesselgeld» nav LB vārds; tip «Erausginner» nav LB vārds («Editeur»).
+K48618,BAD,VALODAS FAKTS,glosa «juegen» → «joen»; examples[0] «Réie juegen» → «Réie joen»; «Förster» nav LB vārds.
+K46053,BAD,VALODAS FAKTS,important «Kennenléieren» → «kenneléieren»; explanation «Onregelméissegt» → «Onreegelméissegt».
+K32600,BAD,VALODAS FAKTS,glosa «nüchter» → «niichter» (arī piemēros un skaidrojumā).
+K27301,BAD,VALODAS FAKTS,"explanation: „(dzirdēt)“ — latviešu vārds, dzēst; examples[0]: „lauschteren Musek“ → „lauschtere Musek“; comparison[1]: „lauschteren mer“ → „lauschtere mer“ (n-likums)"
+K25858,BAD,TULKOJUMS,"comparison[1]: „erëm zesummen“ — vācu teikumā nav „wieder“, labojums „Hie pecht de Stull zesummen“"
+K99557,BAD,VALODAS FAKTS,examples[2]: „D'Hotel“ → „Den Hotel“ (LB Hotel ir vīriešu dzimte)
+K83450,BAD,TULKOJUMS,"comparison[2]: „iwwerpréift d'Maschinn“ → „ënnerhält d'Maschinn“ (warten ir apkope, nevis pārbaude)"
+K39188,BAD,VALODAS FAKTS,comparison[0]: „Mir verschiebe de Match“ → „Mir verschiben de Match“ (LB verschiben; n paliek pirms d); explanation: „Haaptidee“ → „Haaptiddi“
+K27711,BAD,VALODAS FAKTS,examples[4]: „De Vugel“ → „De Vull“
+K22490,BAD,VALODAS FAKTS,explanation: „gemäss“ → „geméiss“
+K49897,BAD,VĀCU FAKTS,"explanation: „ins Kino“ → „in den Kino“ (der Kino, akuzatīvs)"
+K61163,BAD,TULKOJUMS,"explanation: „läit d'Kraaft“ → „läit d'Gewierz“ (Würze ir garšviela, nevis spēks)"
+K30103,BAD,VĀCU FAKTS,examples[3]: „ins Kino“ → „in den Kino“ (der Kino)
+K18062,BAD,VALODAS FAKTS,explanation un comparison[0]: „d'Subjet“ → „de Sujet“
+K59049,BAD,VALODAS FAKTS,comparison[1]: „D'Hotel“ → „Den Hotel“ (vīriešu dzimte)
+K10347,BAD,VALODAS FAKTS,examples[3]: „Jack“ → „Jackett“
+K16253,BAD,TULKOJUMS,examples[2]: „Si wäscht de Bëbee an der Bidden“ → „Si buet de Bëbee“. examples[1] n-likums: „buede ech“ → „bueden ech“.
+K29816,BAD,VALODAS FAKTS,examples[1]: „ginn et“ → „gëtt et“.
+K49047,BAD,VALODAS FAKTS,"examples[3]: „erfannerësch“ nav īsts vārds (LOD: erfannen, Erfindung)."
+K87336,BAD,VALODAS FAKTS,comparison[1]: „Bäierin“ nav vārds → „Bauerefra“; „mellekt“ nav LOD forma.
+K56057,BAD,VALODAS FAKTS,examples[3]: „Schokola“ → „Schockela“.
+K13009,UNSURE,VALODAS FAKTS,skaidrojums/glosa: „opwenden“ nav LOD (ir tikai „Opwand“); piemēri lieto „investéieren“/„ausginn“.
+K21255,BAD,VALODAS FAKTS,glosa „aklammen“ → „eraklammen“; examples[2] „ageklommen“ → „erageklommen“; examples[3] „Klamm an“ → „Klamm eran“. comparison „ausklammen“ nav vārds.
+K45385,BAD,VALODAS FAKTS,examples[1]: „Hiwäiser“ → „Hiweiser“.
+K94824,BAD,VALODAS FAKTS,examples[1]: „ofgefonnt“ → „offonnt“.
+K45916,BAD,VALODAS FAKTS,examples[0]: „raascht“ → „rascht“. comparison[0]: „sech ausraschten“ / „raschte mech … aus“ → „sech ausrouen“ / „roue mech aus“.
+K99983,BAD,VALODAS FAKTS,glosa „Hup • Klaxon“ → „Tut“; „d'Hup“ → „d'Tut“.
+K53579,BAD,VALODAS FAKTS,examples[2]: „D'Schokela“ → „De Schockela“.
+K50297,BAD,VALODAS FAKTS,"examples[2]: „D'Bedéngung“ ir Bedingung, nevis ierīces vadība → „ass einfach ze handhaben“. „Bedéngungsuleedung“ → „Gebrauchsanweisung“. comparison[1]: „Menükaart“ → „Menüskaart“."
+K78721,BAD,VALODAS FAKTS,examples[3]: „ofwiesselnd“ nav vārds → „deenen een nom aneren“.
+K28435,BAD,VALODAS FAKTS,examples[0]: „fuerderen méi“ → „fuerdere méi“ (n-likums); „Léin“ → „Loun“. examples[2]: „Doudeger“ → „Doudesaffer“. comparison[0]: „fördert“ → „fërdert“.
+K55162,BAD,TULKOJUMS,"examples[0] un [1] samainīti: pirmajam „Si zünt eng Käerz un“, otrajam „Um Dësch brennt eng Käerz“. „zënt“ → „zünt“."
+K69937,BAD,VALODAS FAKTS,important: „Gebuertsflecken“ nav LOD vārds.
+K60398,BAD,VALODAS FAKTS,skaidrojums: „Muerg“ → „Mueren“.
+K45672,BAD,VALODAS FAKTS,glosa „aheemesch“ → „heemesch“. examples[4]: „wuessen vill“ → „wuesse vill“ (n-likums).
+K74560,BAD,VALODAS FAKTS,"examples[1]: „e fiesen Trick“ → „e gemengen Trick“ („fies“ ir cīpsla, nevis „gemein“)."
+K38793,BAD,VALODAS FAKTS,comparison[0]: „bezillt“ → „bezilt“.
+K37110,BAD,VALODAS FAKTS,examples[0]: „verabschiede mech“ ir vācu verbs → „soen äddi“. examples[3]: „verabschiedt“ tāpat. comparison[0]: „Ofschied“ → „Äddi“.
+K70169,BAD,VALODAS FAKTS,examples[0] un [2]: „landt“ → „lant“.
+K60966,BAD,VALODAS FAKTS,comparison[0]: „eng Jack“ → „eng Jackett“.
+K12759,BAD,VALODAS FAKTS,examples: „fail“ → „faul“ (LOD: „eng faul Ausried“); skaidrojums „Failheet“ arī aplami.
+K19003,BAD,VALODAS FAKTS,"examples[1]: „de Stoppschëld“ → „d'Stoppschëld“. examples[2]: „Dat Detail“ → „Den Detail“. examples[4]: „Inbox“ ir angļu vārds, nav LOD."
+K77781,BAD,VALODAS FAKTS,examples[1] «däerfen … bestueden» → «sech bestueden»
+K95365,BAD,TULKOJUMS,examples[2] «Ech kommen direkt» → «Ech kommen gläich»; «ähnlech» → «änlech»
+K39261,BAD,VALODAS FAKTS,examples[0] «den Ugeklote dauert» → «den Ugekloten dauert» (n paliek pirms d)
+K94204,BAD,TULKOJUMS,examples[0] un [1] apmainīti: «Bruder» = «Ech hunn e Brudder»; «gute Idee» = «Dat ass eng gutt Iddi»
+K45156,BAD,VALODAS FAKTS,examples[4] «d'Wange» → «d'Bake»
+K24355,BAD,TULKOJUMS,comparison[2] «zu Lëtzebuerg» → «zu Riga»; glosa «Verwandten» → «Familljemember»; «Haaptidee» → «Haaptiddi»
+K10010,BAD,VALODAS FAKTS,important «ähnlech» → «änlech»
+K43622,BAD,VALODAS FAKTS,examples[3] «De Léierer» → «Den Enseignant»
+K18413,BAD,TULKOJUMS,"important «folgen (verfollegen, nokommen)» → «nogoen»"
+K10295,BAD,VALODAS FAKTS,glosa «Rausch» → «Dronk»; «néchter» → «säin Dronk ausschlofen»; «gedronk» → «voll»; «De Sieg» → «D'Victoire»
+K32580,BAD,VALODAS FAKTS,explanation «Këssenziech» → «Zich»
+K18939,BAD,VALODAS FAKTS,examples[1] «d'Billetter besuergt» → «d'Billjeeë besuergt»
+K36858,BAD,VALODAS FAKTS,examples «Velo» → «Vëlo»
+K52132,BAD,VALODAS FAKTS,examples «ausgetrëppelt» nav LOD; Trape → «ausgetrueden»
+K61910,BAD,VALODAS FAKTS,examples «D'Equipage» → «Den Equipage»
+K49709,BAD,TULKOJUMS,examples[4] «an alle Gréissten» → «a ville Gréissten»
+K29079,BAD,VALODAS FAKTS,examples[2] «Eessig» → «Esseg»; comparison «ufachen» nav vārds
+K90097,BAD,VALODAS FAKTS,examples[4] «den Zettel» → «den Ziedel»; comparison «eng Lamp» → «eng Luucht»
+K82624,BAD,TULKOJUMS,glosa «ahuelen» → «erëmkréien»; examples[2] «hëlt … an» → «kritt … erëm»; «opgeholl» → «erëmkritt»
+K32840,BAD,VALODAS FAKTS,glosa «sech empéieren» nav LB; «empéiere mech» → «et skandaliséiert mech»
+K49300,BAD,VALODAS FAKTS,glosa «versöhnen» → «versönen»; «versöhnt» → «versöönt»; «Versöhnung» → «Versönung»
+K31692,BAD,VALODAS FAKTS,examples[3] «Op der Versteegerung» → «Op der Stee»
+K89683,BAD,VALODAS FAKTS,comparison «uzünden» nav vārds; pietiek «ufänken»
+K39239,BAD,VALODAS FAKTS,examples[2] «limitéierter Haftung» → «SARL»
+K88372,BAD,VALODAS FAKTS,«Haaptidee» → «Haaptiddi»; «Kannerwon» → «Kannerkutsch»; «Compartiment» → «Kompartiment»
+K14525,BAD,TULKOJUMS,glosa «Bitt» → «Begier»; «eng Bitt» → «e Begier»
+K11586,BAD,VALODAS FAKTS,explanation „Haaptidee“ → „Haaptiddi“.
+K82733,BAD,TULKOJUMS,examples[0] „Den Déif schläicht sech nuets an d'Haus an.“ neatbilst „Ich komme morgen“ → „Ech kommen muer.“; examples[1] „An den Text huet sech e Feeler ageschlach.“ neatbilst „Bis morgen!“ → „Bis muer!“; skaidrojums „Muerg“ → „Mueren“.
+K66460,BAD,VALODAS FAKTS,examples[3] „ginn et“ → „gëtt et“.
+K21178,BAD,VALODAS FAKTS,glosa „resuméieren“ → „resüméieren“.
+K69490,BAD,TULKOJUMS,"glosa „Taass“ ir die Tasse, nevis Becher → tikai „Becher“."
+K86382,BAD,VALODAS FAKTS,explanation „Haaptidee“ → „Haaptiddi“.
+K45689,BAD,VALODAS FAKTS,examples[2] „biegt“ → „béit“.
+K81444,BAD,VALODAS FAKTS,important „Géigedeel“ → „Géigendeel“.
+K12585,BAD,VALODAS FAKTS,explanation „Haaptidee“ → „Haaptiddi“.
+K26409,BAD,TULKOJUMS,"examples[0] „Mir ass schwindeleg, wann ech no ënne kucken.“ neatbilst „Er ist zu faul zum Lernen“ → „Hien ass ze liddereg, fir ze léieren.“; examples[1] „Beim Opstoen ass him schwindeleg ginn.“ neatbilst kaķa teikumam → „D'liddereg Kaz läit de ganzen Dag an der Sonn.“; examples[3] „eng fail Ausried“ → „eng faul Ausried“; examples[4] „fail“ → „faul“ vai „liddereg“."
+K18089,BAD,TULKOJUMS,examples[0] „Wat méchs du domat?“ neatbilst „Das Auto rast durch die Stadt“ → „Den Auto rast duerch d'Stad.“; examples[1] „Ech hu kee Problem domat.“ neatbilst „Der Zug ist an uns vorbeigerast“ → „Den Zuch ass laanscht eis gerast.“
+K92763,BAD,VALODAS FAKTS,important „wéi deet“ → „verbrennt“; explanation „Haaptidee“ → „Haaptiddi“.
+K85660,BAD,VALODAS FAKTS,comparison[1] „Den Ugeklote ass“ → „Den Ugekloten ass“ (n pirms patskaņa paliek).
+K89930,BAD,TULKOJUMS,comparison[1] „Den Haag“ (žogs Zaun) → „Den Zonk“; examples[2] „joerelaang“ → „jorelaang“.
+K67654,BAD,VALODAS FAKTS,explanation „Haaptidee“ → „Haaptiddi“.
+K15386,BAD,VALODAS FAKTS,important „dorun“ — pechen/kleben nav radniecīgs ar „dorun“; svītrot šo teikumu.
+K73688,BAD,VALODAS FAKTS,explanation „eng Aussoe“ → „eng Ausso“.
+K93512,BAD,VALODAS FAKTS,explanation un examples[3] „e bësse Zäit“ → „e bëssen Zäit“ (n pirms z paliek).
+K50441,BAD,VALODAS FAKTS,explanation „Haaptidee“ → „Haaptiddi“.
+K69207,BAD,VALODAS FAKTS,glosa „Muerg“ → „Mueren“.
+K70309,BAD,VALODAS FAKTS,explanation „Haaptidee“ → „Haaptiddi“.
+K38567,BAD,VALODAS FAKTS,comparison[0] „d'Ernt“ → „d'Recolte“.
+K36988,BAD,VALODAS FAKTS,examples[1] „D'Keyboard“ → „De Keyboard“ (vīriešu dzimte); explanation „englesche Afloss“ → „engleschen Afloss“
+K43835,BAD,VALODAS FAKTS,explanation „d'Bewahren“ → svītrot (nav luksemburgiešu vārds)
+K55487,BAD,VALODAS FAKTS,explanation „eng Aussoe“ → „eng Ausso“
+K59305,BAD,VALODAS FAKTS,tip „Mach et gutt“ → „Maach et gutt“
+K34522,BAD,VALODAS FAKTS,glosa „Union“ → „Unioun“
+K92489,BAD,VALODAS FAKTS,comparison[0] „follegsam“ → nav īsts vārds; „brav“
+K45869,BAD,VALODAS FAKTS,explanation „vun der Nerv“ → „vum Nerv“; comparison[1] „ägert“ → „iergert“
+K75136,BAD,TULKOJUMS,examples[0] un examples[1] tulkojumi apmainīti vietām
+K54461,BAD,VALODAS FAKTS,glosa „Glut“ → „Glous“
+K62971,BAD,VALODAS FAKTS,explanation „eng Domän“ → „en Domän“
+K66095,BAD,VALODAS FAKTS,"glosa „schmaachen“ → svītrot (LOD: tikai garša, nevis smarža)"
+K60205,BAD,VALODAS FAKTS,comparison[0] „zerecht“ → „erëm“ (erëmfannen)
+K57067,BAD,VALODAS FAKTS,examples[3] „Balkon“ → „Balcon“
+K77632,BAD,VALODAS FAKTS,explanation „(joma)“ svītrot (latviešu); „ee awer“ → „een awer“
+K30339,BAD,VALODAS FAKTS,comparison[0] „bevirzugen“ → svītrot (nav vārds; ir „virzéien“)
+K37382,BAD,VALODAS FAKTS,explanation „datt ee eppes“ → „datt een eppes“
+K56556,BAD,VALODAS FAKTS,examples[2] „D'Schréiegt“ → „D'Schréi“
+K36719,BAD,VALODAS FAKTS,examples[3] „un schaffen“ → „u schaffen“
+K67737,BAD,VALODAS FAKTS,glosa „kloppen“ → „klappen“
+K11581,BAD,VALODAS FAKTS,"examples[0] „Beruffung“ → „Vocatioun“; examples[1] „Appel“ → „Appell“, „Uerteel“ → „Urteel“"
+K60372,BAD,VALODAS FAKTS,comparison[0] „agehol“ → „erëmhat“ (erëmhunn)
+K90098,BAD,VALODAS FAKTS,comparison[0] „D'Hotel“ → „Den Hotel“; important „u eng“ → „un eng“
+K23705,BAD,TULKOJUMS,examples[4] „Du solls“ → „Een soll“ (Man)
+K61542,BAD,TULKOJUMS,examples[1] „sichen Waasser“ → „huelen Waasser“
+K20961,BAD,VALODAS FAKTS,glosa „bemillen“ → „beméien“
+K53883,BAD,VALODAS FAKTS,comparison[0] „wéideen“ → „wéidoen“
+K68201,BAD,VALODAS FAKTS,explanation: „knaschpereg” → „knuspreg”; examples[2]: „am Schäffchen geréischtert” → „am Schäffche geréischtert”; comparison[0]: „braden”/„brét” → „broden”/„bréit”; important: „rouschten” → „raschten”
+K29323,BAD,VALODAS FAKTS,explanation: „sofortegem” → „direktem”; examples[0]: „Aarbechtsgeber” → „Employeur”; examples[3]: „Mietvertrag” → „Bail”
+K98796,BAD,VALODAS FAKTS,glosa: „rasen” → „rennen”; examples[0]: „rast” → „rennt”; examples[1]: „gerast” → „gerannt”; examples[2]: „vir Angscht” → „virun Angscht”; examples[3]: „gerast” → „gerannt”
+K79082,BAD,VALODAS FAKTS,comparison[0].glosa: „aménagéieren” → „amenagéieren”
+K24460,BAD,VALODAS FAKTS,examples[2]: „Elteren bleift” → „Eltere bleift”
+K78503,BAD,VALODAS FAKTS,explanation: „Haaptidee” → „Haaptiddi”
+K45518,BAD,VALODAS FAKTS,tip: „hëll zurzeit” → „huel zurzeit”
+K19678,BAD,VALODAS FAKTS,"explanation: „(kamēr)” → svītrot (latviešu vārds); explanation: „ähnlech” → „änlech”; examples[0]: „kachen, lauschtert” → „kache, lauschtert”; examples[2]: „fauleg” → „faul”; comparison[0]: „hunn, liesen” → „hu, liesen”"
+K81980,BAD,VALODAS FAKTS,examples[0]: „Reen gi” → „Ree gi”; comparison[2]: „Reen bleiwe” → „Ree bleiwe”; important: „datselwecht” → „dat selwecht”
+K56105,BAD,VALODAS FAKTS,examples[3]: „Velo” → „Vëlo”; important: „Wahrscheinlechkeet” → „Warscheinlechkeet”
+K68631,BAD,VALODAS FAKTS,explanation: „beruflech” → „berufflech”; tip: „datselwecht” → „dat selwecht”
+K49686,BAD,VALODAS FAKTS,"glosa: „juegen” → „joen”; examples[0]: „De Förster” → „De Fierschter”, „Réie juegen” → „Réi joen”; important: „raschten” nozīmē rosten, nevis jagen cilmi — svītrot"
+K87483,BAD,VALODAS FAKTS,examples[4]: „sechshonnert Sëtz” → „sechshonnert Sëtzer”; explanation: „d'Sëtz am Parlament” → „d'Sëtzer”
+K98691,BAD,VALODAS FAKTS,"explanation: „d'Stäip”/„Holzstäip” ir Stütze, nevis reste; atstāt „Gitter”"
+K98048,BAD,TULKOJUMS,examples[2]: „Unhänger” (rotaslieta) → „Medaillon”; important: „Familljen” nav Anhang nozīme; important: „datselwecht” → „dat selwecht”
+K57203,BAD,VALODAS FAKTS,examples[3]: „oppen mateneen” → „oppe mateneen”; important: „datselwecht” → „dat selwecht”
+K29366,BAD,VALODAS FAKTS,explanation: „schreiws” → „schreifs”; comparison[1]: „schécken meng” → „schécke meng”; important: „datselwecht” → „dat selwecht”
+K96373,BAD,TULKOJUMS,comparison[0]: „schuppen”/„schuppt” nozīmē zagt → „drécken”/„Hie dréckt de Won”; tip: „onregelméisseg” → „onreegelméisseg”
+K59673,BAD,VALODAS FAKTS,comparison[2]: „bilds” → „bilts”
+K96716,BAD,VALODAS FAKTS,glosa: „Kond” → svītrot; explanation: „Formulen vir” → „Formele vir”; examples[0]: „Sieg” → „Victoire”; examples[2]: „Bouf” → „Kuréier”; tip: „Naturkunn” → svītrot; important: „Ufänker” → „Ufänger”
+K43181,BAD,VALODAS FAKTS,"glosa: „Szen” → „Zeen”; explanation: „Haaptidee” → „Haaptiddi”, „d'Musekszen” → „d'Musekszeen”; examples[4]: „D'Szene vum” → „D'Zeene vum”; pārējie „Szen” → „Zeen”"
+K69354,BAD,TULKOJUMS,examples[3]: „Kachplack” → „Kachmaschinn”
+K59792,BAD,VALODAS FAKTS,"explanation: „usschwätzt” → „uschwätzt”, „friemme” → „frieme”; tip: „en friemen” → „e friemen”, „usschwätze” → „uschwätze”"
+K90165,BAD,VALODAS FAKTS,"explanation: „réicht” → „réischt”, „datselwecht” → „dat selwecht”"
+K37042,BAD,TULKOJUMS,comparison[0].glosa: „stoussen” nav schieben; comparison[0]: „Kannerwon” → „Buggy”; important: „onregelméisseg” → „onreegelméisseg”
+K23495,BAD,VALODAS FAKTS,examples[1]: „d'Cream” → „d'Crème”; explanation/tip: „Cream” → „Crème”; important: „datselwecht” → „dat selwecht”
+K11723,BAD,VALODAS FAKTS,explanation: „Spullbecken” → „Spullsteen”; examples[3]: „de Becken wéigedoen” → „de Becke wéigedoen”
+K61281,BAD,TULKOJUMS,explanation/examples[2]: „versicht” → „versitt”; explanation: „sech iren” → „sech ieren”; comparison[2]: „enger Timberen” → „engem Timber”
+K33532,BAD,VALODAS FAKTS,"examples[0]: „Märchen kënnt” → „Märche kënnt”, „Wiesen vir” → „Wiese vir”; comparison[1]: „sinn Liewewiesen” → „si Liewewiesen”"
+K83428,BAD,VALODAS FAKTS,explanation: „D'Géigedeel” → „D'Géigendeel”
+K36431,BAD,VALODAS FAKTS,explanation: „Biergkamp” nav Kamp nozīme; examples[4]: „Kämp” → „Kämm”; comparison[1]: „Recher” → „Reech”
+K71340,BAD,VALODAS FAKTS,comparison[1].glosa: „Hib” → svītrot (paliek „Schlag”)
+K66417,BAD,VALODAS FAKTS,explanation: „rueden“ nav īsts LB vārds; abas nozīmes ir „roden“.
+K56090,BAD,VALODAS FAKTS,examples[0]: „Ausgangssperr“ → „Ausgangsspär“; examples[1]: „ugeuerdent“ → „ageuerdent“.
+K20799,BAD,VALODAS FAKTS,explanation: „(labums)“ ir latviešu vārds; svītrot.
+K47579,BAD,VALODAS FAKTS,explanation: „jauns (par cilvēkiem)“ ir latviešu palieka; svītrot.
+K56286,BAD,VALODAS FAKTS,important: „Et kënnt vum selwechte Wuert wéi … nëmmen“ ir nepatiess; sowie un nëmmen nav viens cilmes vārds.
+K40614,BAD,VALODAS FAKTS,glosa: „Këssenziech“ → „Kappzich“.
+K22651,BAD,VALODAS FAKTS,examples[3]: „Den Auszuch aus der aler Wunneng“ → „D'Erausplënneren“; Auszuch ir tikai teksta izvilkums.
+K14670,BAD,VALODAS FAKTS,glosa: „bloss“ → „blouss“.
+K89069,BAD,VALODAS FAKTS,explanation: „anere Quelle“ → „anere Quellen“.
+K83230,BAD,VALODAS FAKTS,examples[2]: „D'Toilette befanne“ → „D'Toilettë befanne“.
+K80371,BAD,VALODAS FAKTS,examples[1]: „Huelt Iech“ → „Huelt iech“.
+K41266,BAD,VALODAS FAKTS,explanation: „(atvērt)“ ir latviešu vārds; svītrot.
+K63226,BAD,TULKOJUMS,examples[2]: „Wat fält dir an?“ → „Wat ass dann mat dir lass?“.
+K71624,BAD,VALODAS FAKTS,examples[2]: „beim Kaartespillen“ → „beim Kaartespill“.
+K31773,BAD,TULKOJUMS,"glosa: „ufeieren“ → „ufänken ze hëtzen“; examples[0]: „feieren … un“ nozīmē svinēt, nevis kurt."
+K49233,BAD,VALODAS FAKTS,examples[3]: „Biesemer“ → „Bieseme“.
+K99888,BAD,VĀCU FAKTS,important: „net das Kommando“ ir aplami; datora komandu sauc arī „das Kommando“.
+K13648,BAD,TULKOJUMS,examples[3]: „hu sech Zweiwelen ageschlach“ → „schläiche sech Zweiwelen an“.
+K91525,BAD,VALODAS FAKTS,comparison[1]: „Rauräif“ → „Räif“.
+K28649,BAD,VALODAS FAKTS,"explanation/examples „Plafong“ → „Plaffong“; tip „schrauft, pecht oder hänkt“ (tu) → „schraufs, pechs oder hänks“."
+K59814,BAD,VALODAS FAKTS,examples[2] „verabschieden“ → „verabschiden“.
+K61099,BAD,VALODAS FAKTS,explanation „Pompjeeën beschreift“ → „Pompjeeë beschreift“; comparison „de Flecken“ → „de Fleck“; tip „mat Durst stillen läschen“ ir sajaukts — „Den Duuscht kann een och stillen“.
+K25151,BAD,TULKOJUMS,"examples[1] „d'Gerüchter“ (baumas) → „d'Geschwätz“ (Gerede); darbība „geet“, nevis „gi“."
+K39201,BAD,VALODAS FAKTS,comparison „vergelen“ → „vergëlten“; important „bei den Gästen“ → „bei de Gäscht“.
+K26591,BAD,VALODAS FAKTS,tip „allen zwee si Laute“ → „si Lauter“.
+K80050,BAD,VALODAS FAKTS,comparison „Kafhaus“ → „Verkafshaus“.
+K44330,BAD,VALODAS FAKTS,examples[4] „dervugefuer“ nav vārds → „huet déi aner ofgehaangen“.
+K78610,BAD,VALODAS FAKTS,explanation „strachen“ nav vārds; „sträichen“ LOD = slaukt (melken). examples[0] sarakstam „sträichen … duerch“; examples[2] „mole“ (zīmēt) → „usträichen“; examples[4] „streechelt“ → „stréchelt“.
+K71016,BAD,VALODAS FAKTS,glosa/examples „ugewandt“ → „ugewant“.
+K86614,BAD,VALODAS FAKTS,explanation „eriwwer (Beweegung)“ — eriwwer nozīmē „virbei“ (vorbei); kustība ir „iwwer“.
+K59634,BAD,VALODAS FAKTS,"glosa „ausstréimen“ → „erastréimen“; examples[3] „Gerroch“ → „Geroch“, „erausgestréimt“ → „erastréimt“."
+K61129,BAD,VALODAS FAKTS,important „Plafong“ → „Plaffong“.
+K46607,BAD,VALODAS FAKTS,glosa „rüsten“ nav derīgs LB vārds; „rëschten“ LOD nozīmē rotāt (schmücken). Glosā atstāt „sech prett maachen“.
+K93836,BAD,VALODAS FAKTS,examples[1] „Dokteresch“ → „Doktesch“.
+K57644,BAD,VALODAS FAKTS,important „handelen“ → „wëssen“ (gewiss saistīts ar wëssen).
+K99749,BAD,VALODAS FAKTS,tip „nach bei der Richtung = op“ → „no“ (no lénks).
+K63524,BAD,TULKOJUMS,examples[0] „solls“ (darfst) → „däerfs“; examples[3] „d'Aussoen“ → „d'Ausso“.
+K51642,BAD,VALODAS FAKTS,examples[1] „fördert“ → „fërdert“; examples[3] „Enseignanten förderen“ → „Enseignante fërderen“.
+K79032,BAD,TULKOJUMS,examples[0] „ze bestueden“ → „eis ze bestueden“.
+K24094,BAD,VALODAS FAKTS,glosa „trotzdem“ → „trotzdeem“; examples[2] „en bestanen“ → „e bestanen“.
+K20544,BAD,TULKOJUMS,comparison[1] „Hie gëtt sech an“ → „Hie gesteet sech an“.
+K58887,BAD,VALODAS FAKTS,examples[0] „léiwt“ → „léift“.
+K31774,BAD,VALODAS FAKTS,examples[2] „Ouere net“ → „Oueren net“; comparison[2] „trauen mech“ → „traue mech“.
+K22163,BAD,VALODAS FAKTS,"explanation/examples „Talong“ → „Tallek“, „Talongen“ → „Talleken“ (Talon ir pēdas papēdis)."
+K22821,BAD,VALODAS FAKTS,glosa „Ohnmuecht“ nav vārds; ģībonis „ohnmächteg“ vai „Bewosstlosegkeet“; „Muechtlosegkeet“ → „Uechtlosegkeet“; „Bewosstsinsverloscht“ ir kļūdaina rakstība.
+K18590,BAD,VALODAS FAKTS,"explanation „Schachtel“ LOD ir penālis (Federmäppchen), nevis mazāka kaste; examples[3] „stinn vill“ → „sti vill“."
+K93490,BAD,VALODAS FAKTS,examples[2] „Schwëmm“ → „Schwämm“; explanation „baden“ → „bueden“.
+K10744,BAD,VALODAS FAKTS,examples[2] „beléeft“ → „beleeft“.
+K65880,BAD,VALODAS FAKTS,examples[2] „Strecken befiicht“ → „Bigelen netzt“ (strecken = stiept; befiicht nav vārds); important „befiichten“ → „netzen“.
+K88801,BAD,VALODAS FAKTS,"important „Et kënnt vum selwechte Wuert wéi … Plooschter“ → svītrot; Plooschter ir Pflaster, nav Donner."
+K60597,BAD,VALODAS FAKTS,explanation un comparison[0] „uschalten“ → „aschalten“ (einschalten).
+K78219,BAD,TULKOJUMS,examples[3] „souwäit hie kann“ → „wann hie kann“; glosa „souwäit“ nav sofern (souwäit = soweit).
+K36009,BAD,TULKOJUMS,examples[0] un examples[1] apmainīti: „Bitte treten Sie ein!“ = „Kommt w.e.g. eran!“; otrs = „Hien ass an de Sportsveräin agetrueden.“
+K62186,BAD,TULKOJUMS,examples[0] un examples[1] apmainīti; „Beréimtheet/beréimt“ → „Berühmtheet/berühmt“.
+K12557,BAD,VALODAS FAKTS,examples[3] „De Zonk“ → „Den Zonk“ (n paliek pirms z).
+K25339,BAD,VALODAS FAKTS,glosa „Unlag“ → „Anlag“; comparison[0] „Unhang“ → „Annexe“.
+K57133,BAD,TULKOJUMS,"explanation „striewen“ → „sträichen“ (striewen = streben, nav schmieren)."
+K91763,BAD,VALODAS FAKTS,examples[1] „um Zéiw“ → „op der Zéif“.
+K19164,BAD,TULKOJUMS,"comparison[1] „bewonneren“ → svītrot (bewonneren = bewundern, nav staunen)."
+K68523,BAD,TULKOJUMS,glosa „sëtzen“ → „setzen“ vai „hisetzen“ (sëtzen = sitzen).
+K10014,BAD,TULKOJUMS,examples[0] „D'Verbindung ass leider ganz schlecht.“ un examples[1] „Et gëtt eng direkt Verbindung op München.“ nav par Einfamilienhaus.
+K32653,BAD,VALODAS FAKTS,glosa „Kiefer“ un examples „Kinnbak“ → „Kifer“; comparison „D'Kiefer“ → „D'Kifer“.
+K31055,BAD,VALODAS FAKTS,tip „Affreen“ → „Afferen“.
+K69858,BAD,TULKOJUMS,glosa „doriwwer“ → tikai „dovun“ (doriwwer = darüber).
+K82559,BAD,VALODAS FAKTS,explanation „kenneléieren“ → „kenne léieren“.
+K83906,BAD,VALODAS FAKTS,explanation „Zesummekonft“ → „Reunioun“; examples[0] „Den Treffen“ → „D'Treffen“ (neitrums); comparison „Verabriedung“ nav vārds.
+K65997,BAD,TULKOJUMS,"explanation „heescht doduerch, sou“ → „heescht doduerch“."
+K68122,BAD,TULKOJUMS,examples[1] „De Fudder ass alleguer“ → „D'Fudder ass all“.
+K58170,BAD,VALODAS FAKTS,examples[4] „d'Midheet“ → „d'Middegkeet“; examples[0] „dës Foto“ → „d'Foto“.
+K27780,BAD,VALODAS FAKTS,glosa „kuppelen“ → „koppelen“; examples[3] „Hie kuppelt“ → „Hie koppelt“.
+K85367,BAD,VALODAS FAKTS,examples[3] „d'Hotel“ → „den Hotel“.
+K71293,BAD,TULKOJUMS,"examples[0] „Wat mengs du?“ → „D'Schoul weist de Kanner Säll zou.“; examples[1] „Ech mengen, dat ass richteg.“ → „De Chef huet mir eng Aufgab zougewisen.“"
+K48102,BAD,VALODAS FAKTS,glosa „Usinn“ → „Ruff“; svarīgi „Ëffentlechkeet“ ir nepatiess (Ansehen ir no sehen).
+K30269,BAD,VALODAS FAKTS,examples[2] „gebrauchte“ → „secondhand“.
+K88026,BAD,VALODAS FAKTS,glosa „Ofschnëtt“ nav oficiālā forma; LOD ir „Abschnitt“. tip „e puer Ofsäz“ arī nav (rindkopa: „Abschnitt“ vai „Alinea“).
+K13659,BAD,VALODAS FAKTS,"glosa „Tirage“ ir franču vārds, nav LB; atstāt „Oplag“."
+K41756,BAD,VALODAS FAKTS,explanation „Mieretich“ → „Mierréidech“.
+K51466,BAD,TULKOJUMS,"glosa „Fernseh“ ir aparāts (der Fernseher), nevis das Fernsehen; svītrot."
+K24377,BAD,TULKOJUMS,examples[0] „Hie gëtt dem Chef de Bréif iwwer“ neatbilst; „D'Opnam an de Veräin ass gratis“. examples[1] „De Buergermeeschter huet dem Gewënner de Präis iwwerginn“ neatbilst; „De Studio mécht eng nei Opnam vum Lidd“.
+K45576,BAD,VALODAS FAKTS,glosa „Beschwerden“ ir vācu vārds; sūdzībai „Doleance“. examples[3] „Beschwerden am Mo“ → „Problemer am Mo“.
+K57037,BAD,TULKOJUMS,"examples[0] un examples[1] LB puses samainītas: pirmajam „De Verkeefer beréit eis beim Kaf“, otrajam „D'Bank beréit hir Cliente gratis“."
+K16855,BAD,VALODAS FAKTS,explanation „(nodot ziņu)“ ir latviešu; svītrot.
+K67760,BAD,TULKOJUMS,"explanation „doriwwer“ ir darüber, nevis dazu; svītrot „doriwwer“."
+K61802,BAD,TULKOJUMS,comparison[2] „De Weier“ ir dīķis (Weiher); „De Séi ass déif“.
+K81893,BAD,TULKOJUMS,"examples[1] „säin Ass“ ir dūzis, nevis bļoda; „seng Schossel“."
+K75480,BAD,TULKOJUMS,"examples[1] „Si hunn … engagéiert“ ir perfekts, vācu „dangen“ ir tagadne; „Si engagéieren e Guide…“. examples[0] „Zaldote“ ir kareivji, nevis algotņi; „bezuelt Zaldote“."
+K26891,BAD,VALODAS FAKTS,"important „Seet“ → „Säit“. tip „ernten“ ir vācu infinitīvs, nav LB."
+K38128,BAD,VALODAS FAKTS,examples[4] „si haut“ → „sinn haut“
+K65572,BAD,VALODAS FAKTS,explanation „Haaptidee“ → „Haaptiddi“
+K35513,BAD,VALODAS FAKTS,comparison[0] „a nolauschteren“ → „an nolauschteren“
+K91611,BAD,VALODAS FAKTS,explanation „ee dacks“ → „een dacks“
+K18912,BAD,VALODAS FAKTS,tip „een Bitte“ → „ee Bitte“
+K97648,BAD,TULKOJUMS,examples[2] „e Bett ugeluecht“ → „e Beet ugeluecht“
+K99464,BAD,VALODAS FAKTS,explanation „(atminēties)“ → svītrot latviešu vārdu
+K78340,BAD,VALODAS FAKTS,examples[0] „zënt“ → „zünt“
+K34887,BAD,VALODAS FAKTS,tip „een bestehen“ → „ee bestehen“
+K79336,BAD,VALODAS FAKTS,comparison[1] „ernte“ nav LB vārds → „Recolte maachen“
+K70195,BAD,VALODAS FAKTS,explanation „Schréiegt“ → „Schréi“
+K79084,BAD,VALODAS FAKTS,examples[0] „fasst“ → „faasst“
+K67824,BAD,VALODAS FAKTS,examples[2] „Fréistéck“ → „Früstück“
+K27567,BAD,VALODAS FAKTS,explanation „(laistīt)“ → svītrot latviešu vārdu
+K97682,BAD,VALODAS FAKTS,comparison[2] „Uloss“ → „Ulass“
+K12974,BAD,VALODAS FAKTS,explanation „ee héiert“ → „een héiert“
+K48358,BAD,VALODAS FAKTS,comparison[2] „erfuer“ → „gewuer ginn“
+K21564,BAD,TULKOJUMS,examples[3] „Si hält hiert Verspriechen“ → „Si hält hiert Verspriechen an“
+K59093,BAD,VALODAS FAKTS,important „een fir“ → „ee fir“
+K95077,BAD,VALODAS FAKTS,tip „ee och“ → „een och“
+K51093,BAD,VALODAS FAKTS,examples[2] „Dëst Gelänn“ → „Dësen Terrain“
+K47546,BAD,VALODAS FAKTS,examples[0] „pinnt“ nav LB vārds → „deet … un“
+K62583,BAD,VALODAS FAKTS,comparison[2] „gönne“ → „gënne“
+K88777,BAD,VALODAS FAKTS,examples[3] „Konsultatioun“ → „Consultatioun“
+K77744,BAD,VALODAS FAKTS,important „sinn Géigendeeler“ → „si Géigendeeler“
+K18544,BAD,VALODAS FAKTS,explanation „vu zusammenhängen“ → „vun zusammenhängen“
+K78924,BAD,VALODAS FAKTS,glosa „ganzdeegeg“ → „ganzdaags“
+K60031,BAD,VALODAS FAKTS,comparison[0] „widmt“ → „widmet“
+K69726,BAD,VALODAS FAKTS,comparison[1] „ginn bei“ → „gi bei“
+K48568,BAD,VALODAS FAKTS,glosa „Rais” → „Räis”; skaidrojums „Getreed” → „Kär”
+K98025,BAD,VALODAS FAKTS,"important „Reklamm maachen” nav saistīts ar tauchen; „erdrénken” ir ertrinken, ertränken ir „erdränken”; comparison „sinken” nav LB"
+K70158,BAD,VALODAS FAKTS,examples[2] „rueg” → „roueg”
+K43747,BAD,VALODAS FAKTS,comparison „siegen” nav LB vārds; paliek „gewannen”
+K38873,BAD,VALODAS FAKTS,comparison[1] „stellt Miwwele hir” → „stellt Miwwele hier”
+K17967,BAD,VALODAS FAKTS,examples[3] „empéiert” → „opgereegt”
+K47153,BAD,VALODAS FAKTS,examples[2] „Schwéngung” → „Vibratioun”
+K44932,BAD,VALODAS FAKTS,skaidrojums „ausplënneren” → „erausplënneren”
+K72744,BAD,VALODAS FAKTS,glosa „ugebruecht” → „ubruecht”; comparison „ugemooss” ir umoossen (pielaikot) → „räsonabel”
+K78577,BAD,VALODAS FAKTS,skaidrojums: LB „Gehalt” ir alga; saturam „Inhalt”
+K64520,BAD,VALODAS FAKTS,examples[2] „Fernsiechen” → „Fernsee”
+K16138,BAD,VALODAS FAKTS,examples[3] „op d'Lengen” → „op d'Wäschléngt”
+K25970,BAD,VALODAS FAKTS,"„beréimt” → „berüümt”; „Beréimtheet” nav vārds (slava „Bekanntheet”, persona „Prominenz”); „Premiere” → „Première”; comparison „Ruhm”/„Gloire” nav LB"
+K98672,BAD,VALODAS FAKTS,examples[4] „ginn et” → „gëtt et”; skaidrojums „Pädiater” → „Pediater”
+K32792,BAD,VALODAS FAKTS,skaidrojums „azéien” → „anzéien”; „aséieren” nav vārds; comparison „ausplënneren” → „erausplënneren”
+K82024,BAD,VALODAS FAKTS,glosa „ausplënneren” → „erausplënneren”; examples[2] „ausgeplënnert” → „erausgeplënnert”
+K62789,BAD,TULKOJUMS,glosa „breet” ir breit; kleitām weit ir „fëlleg” („e fëllege Rack”)
+K94995,BAD,VALODAS FAKTS,tip „däi Meenung” → „deng Meenung”
+K45042,BAD,TULKOJUMS,glosa „areechen” ir einreichen; abgeben ir „ofginn”
+K20565,BAD,VALODAS FAKTS,comparison „gläichgülteg” → „desinteresséiert”
+K76191,BAD,TULKOJUMS,glosa „austrieden” ir austreten; examples[2] „ausstoen” ir ausstehen → „erausklammen”
+K82045,BAD,VALODAS FAKTS,glosa „erëffnen” nav darbības vārds; „erëffnet” → „opgemaach”
+K45914,BAD,VALODAS FAKTS,glosa „Zouhéierer” → „Nolauschterer”; klausītājam „Hörer/Hörerin” → „Nolauschterer/Nolauschterin”
+K57143,BAD,VALODAS FAKTS,skaidrojums „Deelhueler” → „Participant”; „Deelnam” → „Participatioun”
+K87748,BAD,VALODAS FAKTS,important: „d'Lëtzebuerger Wuert „och““ — Gewënn nav radniecīgs ar „och“; → „wéi gewannen“.
+K47461,BAD,VALODAS FAKTS,explanation: „verséchéieren“ → „versécheren“.
+K54806,BAD,TULKOJUMS,glosa: „Famill“ nav die Verwandte (sieviete radiniece); → „eng Verwandt“. examples[1]: „E Familljemember“ → „Eng Verwandt“.
+K85666,BAD,VALODAS FAKTS,"explanation: „(noteikt)“ ir latviešu vārds, dzēst. examples[0]: „D'Autoritéite verfügen“ → „D'Autoritéit verfügt“."
+K43445,BAD,VALODAS FAKTS,examples[3]: „huet endlech bestuet“ → „huet sech endlech bestuet“.
+K73651,BAD,VALODAS FAKTS,"examples[0]: „geniert“ → „genéiert“, „friemme“ → „frieme“. comparison[2]: „onaangenehm“ → „onangeneem“."
+K99282,BAD,TULKOJUMS,"examples[1]: „Gnod viru Recht goe gelooss“ ir idioms Gnade vor Recht, nevis Gnade walten lassen; → „huet Gnod walte gelooss“."
+K95397,BAD,VALODAS FAKTS,explanation: „(pazīstams)“ ir latviešu vārds; → „(onbekannt)“.
+K56665,BAD,VALODAS FAKTS,explanation: „d'Trotzphas an“ → „d'Trotzphasen an“ (n-likums pirms patskaņa). „vu wéinst egal“ → „trotz“.
+K87937,BAD,TULKOJUMS,comparison[1]: „bezils du“ neatbilst personai „man“; → „bezilt een“.
+K37173,BAD,VALODAS FAKTS,comparison[1]: „sech operegen“ → „sech opreegen“.
+K42905,BAD,VALODAS FAKTS,examples[2] „Krebsert“ → „Krazert“; examples[3] „Ausser hatt“ → „Ausser hir“ (ausser prasa datīvu).
+K37428,BAD,VALODAS FAKTS,glosa un examples[1] „Stell“ → „Aarbechtsplaz“ (Stell nav LB vārds).
+K92832,BAD,VALODAS FAKTS,comparison[0] „Réier“ → „Réi“; important „onaangenehmt“ → „onangeneemt“.
+K20829,BAD,VALODAS FAKTS,comparison[1] „léiwen“ → „liben“.
+K17223,BAD,TULKOJUMS,"comparison[1] „zielen“ svītrot (zielen = skaitīt/stāstīt, nevis umfassen)."
+K62938,BAD,VALODAS FAKTS,explanation „Haaptidee“ → „Haaptiddi“.
+K32384,BAD,VALODAS FAKTS,"examples[2] „Fernsiechen“ → „Fernsee“; important „Nofro“ — aschlofen nav no Nofro, apgalvojumu svītrot."
+K69247,BAD,TULKOJUMS,examples[0] „Hal dech gutt um Geländer fest!“ → „Du muss d'Hausaufgab muer ofginn.“; examples[1] „Si hält d'Kand fest un der Hand.“ → „Ech ginn de Schlëssel op der Receptioun of.“
+K56613,BAD,VALODAS FAKTS,examples[3] „eng ganz bestëmmten Iddi“ → „eng bestëmmt Iddi“.
+K95294,BAD,VALODAS FAKTS,explanation „Haaptidee“ → „Haaptiddi“.
+K97414,BAD,VALODAS FAKTS,"comparison[2] „Gebühr, Taxe“ un „D'Gebühr“ → „Tax“ un „D'Tax“."
+K79453,BAD,VALODAS FAKTS,comparison[1] „Hülle“ → „Poschett“; explanation „Haaptidee“ → „Haaptiddi“.
+K81061,BAD,VALODAS FAKTS,comparison[0] „blossstellen“ → „bloussstellen“.
+K65529,BAD,VALODAS FAKTS,glosa „Deck“ → „Decken“; explanation/examples[2] „Plafong“ → „Plaffong“; explanation „de Plaid“ svītrot (nav LB).
+K64296,BAD,TULKOJUMS,examples[0] „Dat war wierklech gemeng vun dir.“ → „Déi éischt Kéier war schwéier.“; examples[1] „Hien huet e fisen Trick benotzt.“ → „Ech war scho zweemol zu Berlin.“; explanation „déi éischte Kéier“ → „déi éischt Kéier“.
+K69792,BAD,TULKOJUMS,examples[1] „Dokter“ → „Doktesch“ (Ärztin).
+K18119,BAD,VALODAS FAKTS,explanation „Haaptidee“ → „Haaptiddi“.
+K44737,BAD,TULKOJUMS,"examples[0] „Dëppen“ → „Poubellen“ (Dëpp = katls, nevis tvertne); explanation „Haaptidee“ → „Haaptiddi“."
+K52384,BAD,TULKOJUMS,examples[0] „Dat war wierklech gemeng vun dir.“ → „Ech wielen de Menü mat Fësch.“; examples[1] „Hien huet e fisen Trick benotzt.“ → „E Sonndeg gi mir wielen.“
+K84801,BAD,TULKOJUMS,examples[0] „D'Firma huet eng grouss Bestellung kritt.“ → „De Rais ass fäerdeg.“; examples[1] „Ech ruffen am Optrag vu mengem Chef un.“ → „Ech iesse gär Rais mat Geméis.“
+K68992,BAD,VALODAS FAKTS,examples[2] „ech mag hien net“ → „ech hunn hien net gär“.
+K98800,BAD,TULKOJUMS,examples[0] un examples[1] apmainīti: „Sëtz w.e.g. riicht!“ ↔ „D'Strooss ass laang a riicht.“
+K48721,BAD,VALODAS FAKTS,examples[1] „Wonen“ → „Ween“.
+K14669,BAD,VALODAS FAKTS,"examples[2]: „Toilettepabeier” → „Toilettëpabeier”; important: „Papier, Draht”, „opgerollte” → „Pabeier, Drot”, „opgerullt”."
+K63090,BAD,VALODAS FAKTS,explanation: „Pfund” → „Pond”; comparison[1]: „Längteneenheet” → „Längteenheet”.
+K89833,BAD,VALODAS FAKTS,"glosa: „Dunst” → „Donst”; examples[1]: „stoung” → „houng”, „gebrodem” → „gebrodenem”; comparison[1]: „steet … op” → „klëmmt … op”; comparison[2]: „Schief” → „Schaarschtech”."
+K38719,BAD,VALODAS FAKTS,tip: „gleichfalls” → „gläichfalls”.
+K25758,BAD,VALODAS FAKTS,comparison[1]: „Zeegnes” → „Zensur”; examples[2]: „vum Studium” nav vācu teikumā.
+K47522,BAD,VALODAS FAKTS,glosa: „Kond” nav LB vārds → „Client”.
+K76009,BAD,VALODAS FAKTS,examples[2]: „übt … aus” → „praktizéiert”; explanation: „ausüben” nav LB darbības vārds.
+K67434,BAD,TULKOJUMS,examples[2]: „einen Bogen Papier” = „e Blat Pabeier” → „e grousst Blat Pabeier”.
+K53490,BAD,VALODAS FAKTS,examples[2]: „ginn et” → „gëtt et”.
+K59089,BAD,VALODAS FAKTS,comparison[0]: „Befehl” → „Befeel”.
+K86906,BAD,VALODAS FAKTS,examples[0]: „Ech si nach” → „Ech sinn nach” (n paliek pirms n).
+K42557,BAD,VALODAS FAKTS,tip: „Géigedeel” → „Géigendeel”; „mat abschließen” → „mat ofschléissen”.
+K36293,BAD,VALODAS FAKTS,comparison[2]: „Bensin” → „Bensinn”; important: „Gaspedal” → „Gaspedall”.
+K44520,BAD,VALODAS FAKTS,explanation: „a Klengs” → „a Mënz” (Mënz = Kleingeld).
+K42471,BAD,VALODAS FAKTS,examples[4]: „gewannt” → „gewonnen”.
+K28137,BAD,VALODAS FAKTS,explanation: „Haaptidee” → „Haaptiddi”.
+K33831,BAD,VALODAS FAKTS,comparison[2]: „Geschir” → „Geschier”.
+K86004,BAD,VALODAS FAKTS,examples[3]: „Fuerplang” → „Horaire”.
+K39952,BAD,VALODAS FAKTS,explanation: „eraschéissen” → „erastierzen”; „Haaptidee” → „Haaptiddi”.
+K82449,BAD,VALODAS FAKTS,examples[2]: „Büro” → „Bureau”.
+K66229,BAD,VALODAS FAKTS,glosa: „ausüben” nav LB vārds → „praktizéieren”.
+K71347,BAD,VALODAS FAKTS,explanation: „Géigedeel” → „Géigendeel”.
+K46938,BAD,VALODAS FAKTS,explanation: „Mäerchen” → „Mäertchen”.
+K69875,BAD,VALODAS FAKTS,comparison[1]: „Büro” → „Bureau”.
+K18850,BAD,VALODAS FAKTS,examples[2]: „säin Dank” → „säi Merci”.
+K64030,BAD,VALODAS FAKTS,glosa: „toll” nav LB vārds → „flott”; examples[2]: „Velo” → „Vëlo”.
+K79320,BAD,VALODAS FAKTS,comparison[2]: „D'Prüfung” → „D'Examen”.
+K97336,BAD,TULKOJUMS,"glosa/examples[0]: „Toast” LOD ir grauzdēta maize, „Vivat” nav vārdnīcā."
+K15775,BAD,VALODAS FAKTS,examples[3]: „hält Kurs” → „hält Cours”; examples[4]: „hire Kurs” → „hire Cours”.
+K75280,BAD,VALODAS FAKTS,important: „déngen” ir nepareiza cilme; Betrib saistīts ar bedreiwen.
+K49302,BAD,VALODAS FAKTS,glosa: „iwwerqueren” nav LB vārds → „iwwergoen”.
+K88211,BAD,VALODAS FAKTS,examples[2]: „Pensionéierter” → „Rentner”; „fräiwëlleg” → „benevole”.
