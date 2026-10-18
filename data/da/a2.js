@@ -157,12 +157,33 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "ab und zu"
+            ]
+          },
+          {
+            "blue": [
+              "ab und zu"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "ab und zu",
+              "Ab und zu"
+            ]
+          },
+          {
+            "blue": [
+              "ab und zu",
+              "Ab und zu"
+            ],
+            "green": [
+              "oft"
+            ]
+          }
         ]
       }
     }
@@ -242,7 +263,11 @@ const A2_WORDS = [
             "fuhr ab",
             "ist abgefahren",
             "abzufahren",
-            "die Abfahrt"
+            "die Abfahrt",
+            "fährt",
+            "ab",
+            "abgefahren",
+            "fahren"
           ],
           "purple": [
             "køre af sted",
@@ -354,12 +379,36 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "abfahren"
+            ],
+            "green": [
+              "ankommen"
+            ]
+          },
+          {
+            "blue": [
+              "ist abgefahren",
+              "abgefahren"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "abfahren",
+              "ist abgefahren",
+              "abgefahren"
+            ]
+          },
+          {
+            "blue": [
+              "fährt ab",
+              "fährt",
+              "ab"
+            ]
+          }
         ]
       }
     }
@@ -448,7 +497,9 @@ const A2_WORDS = [
             "abgegeben",
             "gebe",
             "zurückgeben",
-            "einreichen"
+            "einreichen",
+            "ab",
+            "gibt"
           ],
           "purple": [
             "aflevere"
@@ -557,12 +608,30 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "gebe",
+              "ab"
+            ]
+          },
+          {
+            "blue": [
+              "hat abgegeben",
+              "abgegeben"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "abgeben"
+            ]
+          },
+          {
+            "blue": [
+              "abgeben"
+            ]
+          }
         ]
       }
     }
@@ -635,11 +704,16 @@ const A2_WORDS = [
             "holt ab",
             "hole",
             "hat abgeholt",
-            "abgeholt"
+            "abgeholt",
+            "ab",
+            "holt"
           ],
           "purple": [
             "at hente",
             "afhentes"
+          ],
+          "green": [
+            "bringen"
           ]
         },
         "examples": [
@@ -733,12 +807,34 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "abholen",
+              "hole",
+              "ab"
+            ]
+          },
+          {
+            "blue": [
+              "abholen"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "abholen"
+            ],
+            "green": [
+              "holen"
+            ]
+          },
+          {
+            "blue": [
+              "hat abgeholt",
+              "abgeholt"
+            ]
+          }
         ]
       }
     }
@@ -811,6 +907,10 @@ const A2_WORDS = [
           "purple": [
             "at hente",
             "tilkalde"
+          ],
+          "green": [
+            "bringen",
+            "abholen"
           ]
         },
         "examples": [
@@ -902,12 +1002,35 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "holen",
+              "Hol"
+            ]
+          },
+          {
+            "blue": [
+              "holen"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "holen"
+            ],
+            "green": [
+              "kaufen"
+            ]
+          },
+          {
+            "blue": [
+              "holen",
+              "holt",
+              "holte",
+              "hat geholt"
+            ]
+          }
         ]
       }
     }
@@ -977,7 +1100,6 @@ const A2_WORDS = [
           "blue": [
             "bringen",
             "bringt",
-            "bringe",
             "brachte",
             "hat gebracht",
             "holen"
@@ -1088,12 +1210,25 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "bringen",
+              "brachte"
+            ]
+          },
+          {
+            "blue": [
+              "bringen"
+            ]
+          }
         ],
         "important": [
           {},
-          {}
+          {
+            "blue": [
+              "bringen"
+            ]
+          }
         ]
       }
     }
@@ -1166,7 +1301,9 @@ const A2_WORDS = [
             "sagt ab",
             "hat abgesagt",
             "abgesagt",
-            "zusagen"
+            "zusagen",
+            "sagt",
+            "ab"
           ],
           "purple": [
             "at aflyse",
@@ -1263,12 +1400,32 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "absagen"
+            ]
+          },
+          {
+            "blue": [
+              "zusagen"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "absagen"
+            ],
+            "green": [
+              "verschieben"
+            ]
+          },
+          {
+            "blue": [
+              "hat abgesagt",
+              "abgesagt"
+            ]
+          }
         ]
       }
     }
@@ -1346,7 +1503,10 @@ const A2_WORDS = [
             "schloss ab",
             "hat abgeschlossen",
             "abgeschlossen",
-            "schließen"
+            "schließen",
+            "ab",
+            "schließt",
+            "schließe"
           ],
           "purple": [
             "at låse",
@@ -1458,12 +1618,33 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "abschließen"
+            ],
+            "green": [
+              "aufschließen"
+            ]
+          },
+          {
+            "blue": [
+              "abschließen"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "abschließen"
+            ]
+          },
+          {
+            "blue": [
+              "hat abgeschlossen",
+              "abgeschlossen",
+              "ab"
+            ]
+          }
         ]
       }
     }
@@ -1554,6 +1735,9 @@ const A2_WORDS = [
             "stille fra sig",
             "lukke for",
             "slukke"
+          ],
+          "green": [
+            "ausschalten"
           ]
         },
         "examples": [
@@ -1661,12 +1845,31 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "abstellen"
+            ]
+          },
+          {
+            "blue": [
+              "abstellen"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "abstellen"
+            ]
+          },
+          {
+            "blue": [
+              "abstellen"
+            ],
+            "green": [
+              "ausschalten"
+            ]
+          }
         ]
       }
     }
@@ -1847,7 +2050,8 @@ const A2_WORDS = [
             "hat geändert",
             "geändert",
             "sich ändern",
-            "wechseln"
+            "wechseln",
+            "sich"
           ],
           "purple": [
             "at ændre",
@@ -1957,12 +2161,33 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "ändern",
+              "ändert",
+              "sich ändern",
+              "sich"
+            ]
+          },
+          {
+            "blue": [
+              "ändern"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "ändern",
+              "wechseln"
+            ]
+          },
+          {
+            "blue": [
+              "hat geändert",
+              "geändert"
+            ]
+          }
         ]
       }
     }
@@ -2140,11 +2365,27 @@ const A2_WORDS = [
         ],
         "tip": [
           {},
-          {}
+          {
+            "blue": [
+              "angewandt",
+              "angewandte"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "angewandt"
+            ],
+            "green": [
+              "praktisch"
+            ]
+          },
+          {
+            "blue": [
+              "angewandte"
+            ]
+          }
         ]
       }
     }
@@ -2294,12 +2535,30 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "angreifen"
+            ]
+          },
+          {
+            "blue": [
+              "angegriffen",
+              "an"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "angreifen",
+              "greift"
+            ]
+          },
+          {
+            "blue": [
+              "angegriffen"
+            ]
+          }
         ]
       }
     }
@@ -2469,12 +2728,28 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "green": [
+              "Kette"
+            ]
+          },
+          {
+            "blue": [
+              "Anhänger"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "Anhänger"
+            ]
+          },
+          {
+            "blue": [
+              "Anhänger"
+            ]
+          }
         ]
       }
     }
@@ -2536,7 +2811,8 @@ const A2_WORDS = [
             "anheizen",
             "heizt",
             "angeheizt",
-            "heize"
+            "heize",
+            "an"
           ],
           "purple": [
             "tænde op",
@@ -2624,12 +2900,32 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "anheizen",
+              "heizen"
+            ]
+          },
+          {
+            "blue": [
+              "angeheizt"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "anheizen"
+            ],
+            "green": [
+              "anzünden"
+            ]
+          },
+          {
+            "blue": [
+              "anheizen"
+            ]
+          }
         ]
       }
     }
@@ -2843,11 +3139,23 @@ const A2_WORDS = [
         ],
         "tip": [
           {},
-          {}
+          {
+            "blue": [
+              "anlegen"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "anlegen"
+            ]
+          },
+          {
+            "blue": [
+              "anlegen"
+            ]
+          }
         ]
       }
     }
@@ -2921,6 +3229,9 @@ const A2_WORDS = [
           "purple": [
             "tilmelde",
             "tilmelde sig"
+          ],
+          "green": [
+            "abmelden"
           ]
         },
         "examples": [
@@ -2995,12 +3306,31 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "anmelden"
+            ]
+          },
+          {
+            "blue": [
+              "anmelden"
+            ],
+            "green": [
+              "abmelden"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "anmelden"
+            ]
+          },
+          {
+            "blue": [
+              "anmelden"
+            ]
+          }
         ]
       }
     }
@@ -3179,11 +3509,26 @@ const A2_WORDS = [
         ],
         "tip": [
           {},
-          {}
+          {
+            "blue": [
+              "angesteckt"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "anstecken"
+            ],
+            "green": [
+              "anziehen"
+            ]
+          },
+          {
+            "blue": [
+              "angesteckt"
+            ]
+          }
         ]
       }
     }
@@ -3353,12 +3698,38 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "anstellen"
+            ],
+            "green": [
+              "einschalten"
+            ]
+          },
+          {
+            "blue": [
+              "anstellen",
+              "sich anstellen"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "anstellen"
+            ],
+            "green": [
+              "einstellen"
+            ]
+          },
+          {
+            "blue": [
+              "anstellen"
+            ],
+            "green": [
+              "einschalten"
+            ]
+          }
         ]
       }
     }
@@ -3435,6 +3806,9 @@ const A2_WORDS = [
             "anstrengende",
             "udmattende",
             "anstrengelse"
+          ],
+          "green": [
+            "müde"
           ]
         },
         "examples": [
@@ -3526,12 +3900,30 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
+          {
+            "blue": [
+              "anstrengend"
+            ],
+            "green": [
+              "müde"
+            ]
+          },
           {}
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "anstrengend"
+            ]
+          },
+          {
+            "blue": [
+              "anstrengend"
+            ],
+            "green": [
+              "angestrengt"
+            ]
+          }
         ]
       }
     }
@@ -3736,6 +4128,9 @@ const A2_WORDS = [
             "måde",
             "art",
             "slags"
+          ],
+          "green": [
+            "Weise"
           ]
         },
         "examples": [
@@ -3839,12 +4234,29 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "Art",
+              "Arten"
+            ]
+          },
+          {
+            "blue": [
+              "Art"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "Arten"
+            ]
+          },
+          {
+            "blue": [
+              "Art"
+            ]
+          }
         ]
       }
     }
@@ -3915,7 +4327,6 @@ const A2_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "Artikel",
             "Artikel"
           ],
           "purple": [
@@ -4013,12 +4424,31 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "Artikel"
+            ]
+          },
+          {
+            "blue": [
+              "Artikel"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "Artikel"
+            ]
+          },
+          {
+            "blue": [
+              "Artikel"
+            ],
+            "green": [
+              "Bericht"
+            ]
+          }
         ]
       }
     }
@@ -4193,12 +4623,29 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "Aschenputtel"
+            ]
+          },
+          {
+            "green": [
+              "Märchen",
+              "Stiefmutter"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "Aschenputtel"
+            ]
+          },
+          {
+            "blue": [
+              "Aschenbrödel"
+            ]
+          }
         ]
       }
     }
@@ -4397,7 +4844,9 @@ const A2_WORDS = [
             "aufheben",
             "hebt auf",
             "hob auf",
-            "aufgehoben"
+            "aufgehoben",
+            "hebt",
+            "auf"
           ],
           "purple": [
             "samle noget op",
@@ -4497,12 +4946,33 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "aufheben"
+            ]
+          },
+          {
+            "blue": [
+              "hob auf",
+              "aufgehoben",
+              "auf"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "aufheben"
+            ],
+            "green": [
+              "heben"
+            ]
+          },
+          {
+            "green": [
+              "heben"
+            ]
+          }
         ]
       }
     }
@@ -4706,12 +5176,31 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "Auflage"
+            ]
+          },
+          {
+            "blue": [
+              "Auflage"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "Auflage"
+            ],
+            "green": [
+              "Ausgabe"
+            ]
+          },
+          {
+            "blue": [
+              "Auflagen"
+            ]
+          }
         ]
       }
     }
@@ -4898,11 +5387,28 @@ const A2_WORDS = [
         ],
         "tip": [
           {},
-          {}
+          {
+            "blue": [
+              "Aufnahme"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "Aufnahme",
+              "Aufnahmen"
+            ]
+          },
+          {
+            "blue": [
+              "Aufnahme"
+            ],
+            "green": [
+              "das Foto",
+              "Foto"
+            ]
+          }
         ]
       }
     }
@@ -5084,11 +5590,26 @@ const A2_WORDS = [
         ],
         "tip": [
           {},
-          {}
+          {
+            "blue": [
+              "aufgenommen"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "aufnehmen"
+            ],
+            "green": [
+              "annehmen"
+            ]
+          },
+          {
+            "blue": [
+              "aufnehmen"
+            ]
+          }
         ]
       }
     }
@@ -5276,11 +5797,26 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "aufrichtig"
+            ]
+          },
+          {
+            "blue": [
+              "aufrichtig"
+            ],
+            "green": [
+              "ehrlich"
+            ]
+          }
         ],
         "important": [
-          {},
+          {
+            "blue": [
+              "aufrichtig"
+            ]
+          },
           {}
         ]
       }
@@ -5448,12 +5984,34 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "aufrufen"
+            ]
+          },
+          {
+            "blue": [
+              "aufrufen"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "aufrufen"
+            ],
+            "green": [
+              "anrufen"
+            ]
+          },
+          {
+            "blue": [
+              "aufrufen"
+            ],
+            "green": [
+              "einladen"
+            ]
+          }
         ]
       }
     }
@@ -5546,7 +6104,10 @@ const A2_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "auftragen"
+            "auftragen",
+            "trägt",
+            "auf",
+            "aufgetragen"
           ],
           "purple": [
             "pålægge",
@@ -5633,11 +6194,26 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "auftragen"
+            ]
+          },
+          {
+            "blue": [
+              "auftragen"
+            ]
+          }
         ],
         "important": [
-          {},
+          {
+            "blue": [
+              "auftragen"
+            ],
+            "green": [
+              "beauftragen"
+            ]
+          },
           {}
         ]
       }
@@ -5807,11 +6383,26 @@ const A2_WORDS = [
         ],
         "tip": [
           {},
-          {}
+          {
+            "blue": [
+              "aufgetreten"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "auftreten"
+            ],
+            "green": [
+              "erscheinen"
+            ]
+          },
+          {
+            "blue": [
+              "auftreten"
+            ]
+          }
         ]
       }
     }
@@ -5984,12 +6575,33 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "aufwenden"
+            ]
+          },
+          {
+            "green": [
+              "ausgeben",
+              "investieren"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "aufwenden"
+            ],
+            "green": [
+              "ausgeben",
+              "verwenden"
+            ]
+          },
+          {
+            "blue": [
+              "aufgewendet"
+            ]
+          }
         ]
       }
     }
@@ -6159,12 +6771,32 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "zeichnet",
+              "auf"
+            ]
+          },
+          {
+            "blue": [
+              "Aufzeichnung"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "aufzeichnen"
+            ],
+            "green": [
+              "zeichnen"
+            ]
+          },
+          {
+            "green": [
+              "aufnehmen"
+            ]
+          }
         ]
       }
     }
@@ -6275,6 +6907,10 @@ const A2_WORDS = [
           "purple": [
             "stå af",
             "træde ud"
+          ],
+          "green": [
+            "einsteigen",
+            "umsteigen"
           ]
         },
         "examples": [
@@ -6355,12 +6991,28 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "aus"
+            ]
+          },
+          {
+            "blue": [
+              "aus"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "aussteigen"
+            ]
+          },
+          {
+            "blue": [
+              "ausgestiegen"
+            ]
+          }
         ]
       }
     }
@@ -6454,7 +7106,10 @@ const A2_WORDS = [
         "explanation": {
           "blue": [
             "auswählen",
-            "Auswählen"
+            "Auswählen",
+            "aus",
+            "ausgewählt",
+            "wählt"
           ],
           "purple": [
             "vælge",
@@ -6552,12 +7207,32 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "auswählen",
+              "wählen"
+            ]
+          },
+          {
+            "blue": [
+              "auswählen",
+              "aus"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "auswählen",
+              "wählen"
+            ]
+          },
+          {
+            "blue": [
+              "ausgewählt",
+              "aus"
+            ]
+          }
         ]
       }
     }
@@ -6642,12 +7317,17 @@ const A2_WORDS = [
             "zieht",
             "zog",
             "ausgezogen",
-            "aus"
+            "aus",
+            "ziehen"
           ],
           "purple": [
             "tage tøj eller sko af",
             "flytte ud",
             "klæde sig af"
+          ],
+          "green": [
+            "anziehen",
+            "einziehen"
           ]
         },
         "examples": [
@@ -6744,12 +7424,32 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "ausgezogen"
+            ]
+          },
+          {
+            "blue": [
+              "aus"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "ausgezogen",
+              "aus"
+            ]
+          },
+          {
+            "blue": [
+              "ausziehen"
+            ],
+            "green": [
+              "umziehen"
+            ]
+          }
         ]
       }
     }
@@ -6938,6 +7638,10 @@ const A2_WORDS = [
             "jernbane",
             "jernbanetransport",
             "toget"
+          ],
+          "green": [
+            "die Eisenbahn",
+            "die Straßenbahn"
           ]
         },
         "examples": [
@@ -7029,12 +7733,33 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "Bahn"
+            ]
+          },
+          {
+            "blue": [
+              "Bahn",
+              "Straßenbahn"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "Bahn"
+            ]
+          },
+          {
+            "blue": [
+              "Bahn"
+            ],
+            "green": [
+              "der Zug",
+              "Zug"
+            ]
+          }
         ]
       }
     }
@@ -7144,6 +7869,10 @@ const A2_WORDS = [
             "bånd",
             "snor",
             "ledbånd"
+          ],
+          "green": [
+            "die Band",
+            "der Band"
           ]
         },
         "examples": [
@@ -7235,12 +7964,32 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
+          {
+            "blue": [
+              "Band"
+            ],
+            "green": [
+              "die Band",
+              "der Band"
+            ]
+          },
           {}
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "Band"
+            ],
+            "green": [
+              "die Band",
+              "der Band"
+            ]
+          },
+          {
+            "blue": [
+              "Bänder"
+            ]
+          }
         ]
       }
     }
@@ -7313,6 +8062,9 @@ const A2_WORDS = [
           "purple": [
             "bank",
             "bænk"
+          ],
+          "green": [
+            "die Bank"
           ]
         },
         "examples": [
@@ -7404,12 +8156,32 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "Banken",
+              "Bänke"
+            ]
+          },
+          {
+            "blue": [
+              "Bank"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "Bank"
+            ],
+            "green": [
+              "die Bank"
+            ]
+          },
+          {
+            "blue": [
+              "Bank"
+            ]
+          }
         ]
       }
     }
@@ -7662,11 +8434,29 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "gebaut"
+            ],
+            "green": [
+              "aufbauen"
+            ]
+          },
+          {
+            "blue": [
+              "bauen"
+            ],
+            "green": [
+              "herstellen"
+            ]
+          }
         ],
         "important": [
-          {},
+          {
+            "blue": [
+              "bauen"
+            ]
+          },
           {}
         ]
       }
@@ -7735,6 +8525,9 @@ const A2_WORDS = [
           "purple": [
             "landmand",
             "bonde"
+          ],
+          "green": [
+            "die Bäuerin"
           ]
         },
         "examples": [
@@ -7814,12 +8607,32 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "Bauern"
+            ]
+          },
+          {
+            "blue": [
+              "Bäuerin"
+            ],
+            "green": [
+              "die Bäuerin"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "Bauer",
+              "Bauern"
+            ]
+          },
+          {
+            "blue": [
+              "Bauer"
+            ]
+          }
         ]
       }
     }
@@ -7905,6 +8718,12 @@ const A2_WORDS = [
             "krus",
             "glas",
             "bæger"
+          ],
+          "green": [
+            "die Tasse",
+            "das Glas",
+            "Tasse",
+            "Glas"
           ]
         },
         "examples": [
@@ -7984,12 +8803,36 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "Becher"
+            ],
+            "green": [
+              "die Tasse",
+              "Tasse"
+            ]
+          },
+          {
+            "blue": [
+              "Becher"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "Becher"
+            ],
+            "green": [
+              "das Glas",
+              "Glas"
+            ]
+          },
+          {
+            "blue": [
+              "Becher"
+            ]
+          }
         ]
       }
     }
@@ -8144,12 +8987,30 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "bedienen"
+            ]
+          },
+          {
+            "blue": [
+              "bedienen",
+              "sich"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "bedienen",
+              "bedient"
+            ]
+          },
+          {
+            "blue": [
+              "bedient"
+            ]
+          }
         ]
       }
     }
@@ -8295,11 +9156,24 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "Bedienung"
+            ]
+          },
+          {
+            "blue": [
+              "Bedienung"
+            ]
+          }
         ],
         "important": [
-          {},
+          {
+            "blue": [
+              "Bedienung",
+              "Bedienungsanleitung"
+            ]
+          },
           {}
         ]
       }
@@ -8500,12 +9374,32 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "behalten"
+            ]
+          },
+          {
+            "blue": [
+              "behalten"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "behalten"
+            ],
+            "green": [
+              "bleiben"
+            ]
+          },
+          {
+            "blue": [
+              "behalten",
+              "behielt"
+            ]
+          }
         ]
       }
     }
@@ -8573,6 +9467,9 @@ const A2_WORDS = [
           ],
           "purple": [
             "næsten"
+          ],
+          "green": [
+            "fast"
           ]
         },
         "examples": [
@@ -8664,12 +9561,31 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "beinahe"
+            ],
+            "green": [
+              "fast"
+            ]
+          },
+          {
+            "blue": [
+              "beinahe"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "beinahe"
+            ]
+          },
+          {
+            "blue": [
+              "beinahe"
+            ]
+          }
         ]
       }
     }
@@ -8747,6 +9663,9 @@ const A2_WORDS = [
           "purple": [
             "kendt",
             "velkendt"
+          ],
+          "green": [
+            "unbekannt"
           ]
         },
         "examples": [
@@ -8850,12 +9769,32 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "bekannt"
+            ]
+          },
+          {
+            "blue": [
+              "bekannt"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "bekannt"
+            ],
+            "green": [
+              "berühmt"
+            ]
+          },
+          {
+            "blue": [
+              "bekannt",
+              "bekannter"
+            ]
+          }
         ]
       }
     }
@@ -9017,7 +9956,9 @@ const A2_WORDS = [
             "bestellen",
             "bestellt",
             "bestellte",
-            "Bestellung"
+            "Bestellung",
+            "Bestell",
+            "Grüße"
           ],
           "purple": [
             "bestille",
@@ -9114,12 +10055,32 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "bestellen"
+            ]
+          },
+          {
+            "blue": [
+              "bestellen",
+              "Grüße"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "bestellt"
+            ]
+          },
+          {
+            "blue": [
+              "bestellen"
+            ],
+            "green": [
+              "buchen"
+            ]
+          }
         ]
       }
     }
@@ -9305,12 +10266,32 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "bestimmt"
+            ]
+          },
+          {
+            "blue": [
+              "bestimmt"
+            ],
+            "green": [
+              "sicher"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "bestimmt",
+              "bestimmen"
+            ]
+          },
+          {
+            "blue": [
+              "bestimmt"
+            ]
+          }
         ]
       }
     }
@@ -9442,6 +10423,9 @@ const A2_WORDS = [
           "purple": [
             "pære",
             "elpære"
+          ],
+          "green": [
+            "Glühbirne"
           ]
         },
         "examples": [
@@ -9534,11 +10518,19 @@ const A2_WORDS = [
         ],
         "tip": [
           {},
-          {}
+          {
+            "blue": [
+              "Birne"
+            ]
+          }
         ],
         "important": [
           {},
-          {}
+          {
+            "blue": [
+              "Birne"
+            ]
+          }
         ]
       }
     }
@@ -9707,12 +10699,30 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "bitte"
+            ]
+          },
+          {
+            "blue": [
+              "Bitte",
+              "bitte"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "Bitte",
+              "bitte"
+            ]
+          },
+          {
+            "blue": [
+              "Bitten"
+            ]
+          }
         ]
       }
     }
@@ -9875,12 +10885,36 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "bitter"
+            ],
+            "green": [
+              "sauer",
+              "süß"
+            ]
+          },
+          {
+            "blue": [
+              "bitter",
+              "bitterer"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "bitter"
+            ],
+            "green": [
+              "sauer"
+            ]
+          },
+          {
+            "blue": [
+              "bitter"
+            ]
+          }
         ]
       }
     }
@@ -10036,6 +11070,10 @@ const A2_WORDS = [
             "gulv",
             "jord",
             "jordbund"
+          ],
+          "green": [
+            "Fußboden",
+            "Dachboden"
           ]
         },
         "examples": [
@@ -10139,12 +11177,31 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "Boden"
+            ],
+            "green": [
+              "Fußboden"
+            ]
+          },
+          {
+            "blue": [
+              "Boden"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "Boden"
+            ]
+          },
+          {
+            "blue": [
+              "Boden"
+            ]
+          }
         ]
       }
     }
@@ -10231,11 +11288,16 @@ const A2_WORDS = [
             "borgen",
             "borgt",
             "borgte",
-            "borge"
+            "borge",
+            "geborgt"
           ],
           "purple": [
             "låne",
             "låne ud"
+          ],
+          "green": [
+            "leihen",
+            "ausleihen"
           ]
         },
         "examples": [
@@ -10328,12 +11390,32 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "borgen"
+            ]
+          },
+          {
+            "green": [
+              "leihen",
+              "ausleihen"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "borgen"
+            ],
+            "green": [
+              "leihen"
+            ]
+          },
+          {
+            "blue": [
+              "borgen"
+            ]
+          }
         ]
       }
     }
@@ -10493,12 +11575,28 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "böse"
+            ]
+          },
+          {
+            "blue": [
+              "böse"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "böse"
+            ]
+          },
+          {
+            "blue": [
+              "böse"
+            ]
+          }
         ]
       }
     }
@@ -10707,12 +11805,28 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "brav"
+            ]
+          },
+          {
+            "blue": [
+              "brav"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "brav"
+            ]
+          },
+          {
+            "blue": [
+              "brav"
+            ]
+          }
         ]
       }
     }
@@ -10909,11 +12023,31 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "brennen",
+              "brennt"
+            ],
+            "green": [
+              "verbrennen",
+              "anzünden"
+            ]
+          },
+          {
+            "blue": [
+              "brennt"
+            ]
+          }
         ],
         "important": [
-          {},
+          {
+            "blue": [
+              "brennen"
+            ],
+            "green": [
+              "verbrennen"
+            ]
+          },
           {}
         ]
       }
@@ -11243,12 +12377,31 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "dabei"
+            ]
+          },
+          {
+            "blue": [
+              "dabei"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "dabei"
+            ]
+          },
+          {
+            "blue": [
+              "dabei"
+            ],
+            "green": [
+              "damit"
+            ]
+          }
         ]
       }
     }
@@ -11421,12 +12574,31 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "dafür"
+            ],
+            "green": [
+              "dagegen"
+            ]
+          },
+          {
+            "blue": [
+              "dafür"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "dafür"
+            ]
+          },
+          {
+            "blue": [
+              "dafür"
+            ]
+          }
         ]
       }
     }
@@ -11501,6 +12673,9 @@ const A2_WORDS = [
             "med det",
             "for at",
             "så (at)"
+          ],
+          "green": [
+            "um ... zu"
           ]
         },
         "examples": [
@@ -11580,11 +12755,26 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {
+            "blue": [
+              "damit"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "damit"
+            ]
+          },
+          {
+            "blue": [
+              "damit"
+            ],
+            "green": [
+              "deshalb"
+            ]
+          }
         ]
       }
     }
@@ -11732,11 +12922,30 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {
+            "blue": [
+              "Dank",
+              "Danke"
+            ],
+            "green": [
+              "danke"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "Dank"
+            ],
+            "green": [
+              "danke"
+            ]
+          },
+          {
+            "blue": [
+              "Dank"
+            ]
+          }
         ]
       }
     }
@@ -11878,11 +13087,26 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {
+            "blue": [
+              "darauf"
+            ],
+            "green": [
+              "worauf"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "darauf"
+            ]
+          },
+          {
+            "blue": [
+              "darauf"
+            ]
+          }
         ]
       }
     }
@@ -12025,11 +13249,25 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {
+            "blue": [
+              "darüber",
+              "über"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "darüber",
+              "über"
+            ]
+          },
+          {
+            "green": [
+              "worüber"
+            ]
+          }
         ]
       }
     }
@@ -12090,6 +13328,9 @@ const A2_WORDS = [
           "purple": [
             "derfor",
             "om det"
+          ],
+          "green": [
+            "deshalb"
           ]
         },
         "examples": [
@@ -12169,10 +13410,24 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {
+            "blue": [
+              "darum"
+            ],
+            "green": [
+              "deshalb"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "darum"
+            ],
+            "green": [
+              "weil"
+            ]
+          }
         ]
       }
     }
@@ -12318,11 +13573,22 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {
+            "blue": [
+              "davon"
+            ],
+            "green": [
+              "wovon"
+            ]
+          }
         ],
         "important": [
           {},
-          {}
+          {
+            "blue": [
+              "davon"
+            ]
+          }
         ]
       }
     }
@@ -12465,11 +13731,28 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {
+            "blue": [
+              "davor"
+            ],
+            "green": [
+              "danach",
+              "dahinter"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "davor",
+              "vor"
+            ]
+          },
+          {
+            "blue": [
+              "vor"
+            ]
+          }
         ]
       }
     }
@@ -12526,7 +13809,8 @@ const A2_WORDS = [
         "explanation": {
           "blue": [
             "dazu",
-            "zu"
+            "zu",
+            "Dazu"
           ],
           "purple": [
             "til det",
@@ -12611,10 +13895,18 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {
+            "green": [
+              "wozu"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "dazu"
+            ]
+          }
         ]
       }
     }
@@ -12681,11 +13973,15 @@ const A2_WORDS = [
             "Decken",
             "Bettdecke",
             "Tischdecke",
-            "Zimmerdecke"
+            "Zimmerdecke",
+            "Decke"
           ],
           "purple": [
             "tæppe",
             "loftet"
+          ],
+          "green": [
+            "die Tischdecke"
           ]
         },
         "examples": [
@@ -12777,10 +14073,24 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {
+            "blue": [
+              "Bettdecke",
+              "Zimmerdecke"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "Decke",
+              "die Decke"
+            ],
+            "green": [
+              "der Deckel",
+              "Deckel"
+            ]
+          }
         ]
       }
     }
@@ -12927,11 +14237,29 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {
+            "blue": [
+              "denn"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "denn"
+            ],
+            "green": [
+              "weil"
+            ]
+          },
+          {
+            "blue": [
+              "denn"
+            ],
+            "green": [
+              "dann"
+            ]
+          }
         ]
       }
     }
@@ -13110,11 +14438,24 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {
+            "blue": [
+              "dick",
+              "dünn"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "dick"
+            ]
+          },
+          {
+            "blue": [
+              "dick"
+            ]
+          }
         ]
       }
     }
@@ -13206,6 +14547,9 @@ const A2_WORDS = [
             "dog",
             "alligevel",
             "jo"
+          ],
+          "green": [
+            "aber"
           ]
         },
         "examples": [
@@ -13297,10 +14641,24 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {
+            "blue": [
+              "doch"
+            ],
+            "green": [
+              "ja"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "doch"
+            ],
+            "green": [
+              "ja"
+            ]
+          }
         ]
       }
     }
@@ -13360,11 +14718,15 @@ const A2_WORDS = [
           "blue": [
             "der Doktor",
             "Doktoren",
-            "Arzt"
+            "Arzt",
+            "Doktor"
           ],
           "purple": [
             "læge",
             "doktorgrad"
+          ],
+          "green": [
+            "der Arzt"
           ]
         },
         "examples": [
@@ -13444,10 +14806,22 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {
+            "blue": [
+              "Doktor",
+              "Arzt"
+            ],
+            "green": [
+              "der Arzt"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "Doktor"
+            ]
+          }
         ]
       }
     }
@@ -13619,10 +14993,22 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {
+            "blue": [
+              "drehen",
+              "sich drehen"
+            ],
+            "green": [
+              "sich umdrehen"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "green": [
+              "wenden"
+            ]
+          }
         ]
       }
     }
@@ -13796,10 +15182,22 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {
+            "blue": [
+              "drücken"
+            ],
+            "green": [
+              "ziehen"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "green": [
+              "ziehen",
+              "schieben"
+            ]
+          }
         ]
       }
     }
@@ -13959,10 +15357,20 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {
+            "blue": [
+              "dünn",
+              "dick",
+              "schlank"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "dünn"
+            ]
+          }
         ]
       }
     }
@@ -14103,11 +15511,23 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {
+            "blue": [
+              "durch"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "durch"
+            ]
+          },
+          {
+            "blue": [
+              "durch"
+            ]
+          }
         ]
       }
     }
@@ -14281,10 +15701,19 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {
+            "green": [
+              "gerade",
+              "soeben"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "eben"
+            ]
+          }
         ]
       }
     }
@@ -14380,7 +15809,9 @@ const A2_WORDS = [
         "explanation": {
           "blue": [
             "ehrlich",
-            "Ehrlich gesagt"
+            "Ehrlich gesagt",
+            "ehrlicher",
+            "Ehrlich"
           ],
           "purple": [
             "ærlig",
@@ -14464,10 +15895,19 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {
+            "green": [
+              "aufrichtig"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "ehrlich",
+              "Ehrlich"
+            ]
+          }
         ]
       }
     }
@@ -14523,7 +15963,9 @@ const A2_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "eigentlich"
+            "eigentlich",
+            "Eigentlich",
+            "eigentliche"
           ],
           "purple": [
             "egentlig",
@@ -14607,10 +16049,19 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {
+            "blue": [
+              "eigentlich",
+              "Eigentlich"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "eigentlich"
+            ]
+          }
         ]
       }
     }
@@ -14716,7 +16167,10 @@ const A2_WORDS = [
         "explanation": {
           "blue": [
             "einladen",
-            "lädt ein"
+            "lädt ein",
+            "eingeladen",
+            "lädt",
+            "lade"
           ],
           "purple": [
             "invitere"
@@ -14799,10 +16253,18 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {
+            "blue": [
+              "lade"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "eingeladen"
+            ]
+          }
         ]
       }
     }
@@ -14876,10 +16338,17 @@ const A2_WORDS = [
         "explanation": {
           "blue": [
             "einschalten",
-            "schaltet ein"
+            "schaltet ein",
+            "eingeschaltet",
+            "schaltet",
+            "schalte"
           ],
           "purple": [
             "tænde"
+          ],
+          "green": [
+            "ausschalten",
+            "anmachen"
           ]
         },
         "examples": [
@@ -14959,10 +16428,21 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {
+            "blue": [
+              "einschalten"
+            ],
+            "green": [
+              "ausschalten"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "schalte"
+            ]
+          }
         ]
       }
     }
@@ -15127,10 +16607,21 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {
+            "blue": [
+              "einschlafen"
+            ],
+            "green": [
+              "schlafen"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "eingeschlafen"
+            ]
+          }
         ]
       }
     }
@@ -15272,10 +16763,19 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {
+            "green": [
+              "aussteigen",
+              "umsteigen"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "einsteigen"
+            ]
+          }
         ]
       }
     }
@@ -15341,6 +16841,10 @@ const A2_WORDS = [
           "purple": [
             "adgang",
             "entré"
+          ],
+          "green": [
+            "der Eingang",
+            "die Eintrittskarte"
           ]
         },
         "examples": [
@@ -15420,10 +16924,23 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {
+            "blue": [
+              "Eintritt"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "Eintritt",
+              "der Eintritt",
+              "Eingang"
+            ],
+            "green": [
+              "der Eingang"
+            ]
+          }
         ]
       }
     }
@@ -15651,10 +17168,21 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {
+            "green": [
+              "weit"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "eng"
+            ],
+            "green": [
+              "schmal"
+            ]
+          }
         ]
       }
     }
@@ -15834,10 +17362,18 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {
+            "blue": [
+              "erfahren"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "erfahren"
+            ]
+          }
         ]
       }
     }
@@ -15988,10 +17524,18 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {
+            "blue": [
+              "erinnern"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "erinnern"
+            ]
+          }
         ]
       }
     }
@@ -16237,10 +17781,18 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {
+            "green": [
+              "ungefähr"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "etwa"
+            ]
+          }
         ]
       }
     }
@@ -16326,7 +17878,9 @@ const A2_WORDS = [
           "blue": [
             "Fach",
             "Fachmann",
-            "Fachbuch"
+            "Fachbuch",
+            "Lieblingsfach",
+            "Fächer"
           ],
           "purple": [
             "rum",
@@ -16410,10 +17964,18 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {
+            "blue": [
+              "Fach"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "Fächer"
+            ]
+          }
         ]
       }
     }
@@ -16543,7 +18105,8 @@ const A2_WORDS = [
           "blue": [
             "der Fall",
             "Fälle",
-            "auf jeden Fall"
+            "auf jeden Fall",
+            "Fall"
           ],
           "purple": [
             "tilfælde",
@@ -16628,10 +18191,26 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {
+            "blue": [
+              "Fall",
+              "auf jeden Fall"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "Fall",
+              "der Fall"
+            ],
+            "green": [
+              "der Unfall",
+              "der Zufall",
+              "Unfall",
+              "Zufall"
+            ]
+          }
         ]
       }
     }
@@ -16836,10 +18415,18 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {
+            "blue": [
+              "fehlen"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "fehlt"
+            ]
+          }
         ]
       }
     }
@@ -17081,10 +18668,25 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {
+            "blue": [
+              "fest"
+            ],
+            "green": [
+              "hart",
+              "flüssig"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "fest"
+            ],
+            "green": [
+              "hart"
+            ]
+          }
         ]
       }
     }
@@ -17169,6 +18771,9 @@ const A2_WORDS = [
             "bål",
             "brand",
             "Brandvæsenet"
+          ],
+          "green": [
+            "die Feuerwehr"
           ]
         },
         "examples": [
@@ -17260,10 +18865,26 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {
+            "blue": [
+              "Feuer"
+            ],
+            "green": [
+              "der Brand",
+              "Brand"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "Feuer",
+              "Feuerwehr"
+            ],
+            "green": [
+              "die Feuerwehr"
+            ]
+          }
         ]
       }
     }
@@ -17554,11 +19175,24 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {
+            "blue": [
+              "folgen",
+              "Folgen"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "gefolgt"
+            ]
+          },
+          {
+            "blue": [
+              "folgen"
+            ]
+          }
         ]
       }
     }
@@ -17886,10 +19520,21 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {
+            "blue": [
+              "führen"
+            ],
+            "green": [
+              "leiten"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "führen"
+            ]
+          }
         ]
       }
     }
@@ -18018,7 +19663,8 @@ const A2_WORDS = [
           "blue": [
             "der Gang",
             "Gänge",
-            "Gang"
+            "Gang",
+            "Ganges"
           ],
           "purple": [
             "gang",
@@ -18103,10 +19749,20 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {
+            "blue": [
+              "Gang",
+              "der Gang"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "Gang",
+              "der Gang"
+            ]
+          }
         ]
       }
     }
@@ -18254,10 +19910,19 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {
+            "blue": [
+              "gar"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "gar",
+              "gar nicht"
+            ]
+          }
         ]
       }
     }
@@ -18346,6 +20011,10 @@ const A2_WORDS = [
           ],
           "purple": [
             "gas"
+          ],
+          "green": [
+            "das Erdgas",
+            "Erdgas"
           ]
         },
         "examples": [
@@ -18437,10 +20106,18 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {
+            "blue": [
+              "Gas"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "Gas"
+            ]
+          }
         ]
       }
     }
@@ -18663,10 +20340,21 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {
+            "blue": [
+              "gegenüber"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "gegenüber"
+            ],
+            "green": [
+              "gegen"
+            ]
+          }
         ]
       }
     }
@@ -18810,10 +20498,21 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {
+            "blue": [
+              "gehört"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "gehören"
+            ],
+            "green": [
+              "hören"
+            ]
+          }
         ]
       }
     }
@@ -18972,10 +20671,19 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {
+            "blue": [
+              "genau",
+              "Genau"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "genau"
+            ]
+          }
         ]
       }
     }
@@ -19135,10 +20843,21 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {
+            "blue": [
+              "gerade"
+            ],
+            "green": [
+              "ungerade"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "gerade"
+            ]
+          }
         ]
       }
     }
@@ -19218,6 +20937,10 @@ const A2_WORDS = [
             "forretning",
             "handel",
             "i forretningsøjemed"
+          ],
+          "green": [
+            "der Laden",
+            "Laden"
           ]
         },
         "examples": [
@@ -19309,10 +21032,21 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {
+            "green": [
+              "der Supermarkt",
+              "das Kaufhaus",
+              "Supermarkt",
+              "Kaufhaus"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "Geschäft"
+            ]
+          }
         ]
       }
     }
@@ -19433,6 +21167,9 @@ const A2_WORDS = [
           "purple": [
             "vinde",
             "opnå"
+          ],
+          "green": [
+            "verlieren"
           ]
         },
         "examples": [
@@ -19512,10 +21249,22 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {
+            "blue": [
+              "gewinnen",
+              "gewonnen"
+            ],
+            "green": [
+              "verlieren"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "gewinnen"
+            ]
+          }
         ]
       }
     }
@@ -19592,6 +21341,10 @@ const A2_WORDS = [
             "vande",
             "hælde",
             "skænker"
+          ],
+          "green": [
+            "schütten",
+            "einschenken"
           ]
         },
         "examples": [
@@ -19671,10 +21424,19 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {
+            "blue": [
+              "gießen"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "goss",
+              "gegossen"
+            ]
+          }
         ]
       }
     }
@@ -19765,6 +21527,9 @@ const A2_WORDS = [
           "purple": [
             "Gud",
             "gud"
+          ],
+          "green": [
+            "die Göttin"
           ]
         },
         "examples": [
@@ -19844,10 +21609,19 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {
+            "blue": [
+              "Gott",
+              "der Gott"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "Gott"
+            ]
+          }
         ]
       }
     }
@@ -19947,12 +21721,17 @@ const A2_WORDS = [
         "explanation": {
           "blue": [
             "der Grund",
-            "Gründe"
+            "Gründe",
+            "Grund",
+            "Grunde"
           ],
           "purple": [
             "grund",
             "årsag",
             "jord"
+          ],
+          "green": [
+            "Boden"
           ]
         },
         "examples": [
@@ -20044,10 +21823,24 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {
+            "blue": [
+              "Grund",
+              "der Grund"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "Grund",
+              "der Grund"
+            ],
+            "green": [
+              "die Ursache",
+              "Ursache"
+            ]
+          }
         ]
       }
     }
@@ -20277,11 +22070,15 @@ const A2_WORDS = [
             "hing",
             "hängte",
             "gehängt",
-            "gehangen"
+            "gehangen",
+            "hänge"
           ],
           "purple": [
             "hænge",
             "hænge op"
+          ],
+          "green": [
+            "liegen"
           ]
         },
         "examples": [
@@ -20373,11 +22170,27 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "hängen"
+            ]
+          },
+          {
+            "blue": [
+              "hing",
+              "hängte",
+              "gehängt",
+              "gehangen"
+            ]
+          }
         ],
         "important": [
-          {},
+          {
+            "blue": [
+              "hing",
+              "hängte"
+            ]
+          },
           {}
         ]
       }
@@ -20456,7 +22269,8 @@ const A2_WORDS = [
             "hart",
             "härter",
             "härtesten",
-            "weich"
+            "weich",
+            "harte"
           ],
           "purple": [
             "hård",
@@ -20566,11 +22380,24 @@ const A2_WORDS = [
         ],
         "tip": [
           {},
-          {}
+          {
+            "blue": [
+              "hart",
+              "härter"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "green": [
+              "schwer"
+            ]
+          },
+          {
+            "blue": [
+              "hart"
+            ]
+          }
         ]
       }
     }
@@ -20918,6 +22745,9 @@ const A2_WORDS = [
           "purple": [
             "træ som materiale",
             "brænde"
+          ],
+          "green": [
+            "der Baum"
           ]
         },
         "examples": [
@@ -21009,12 +22839,37 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "Holz"
+            ]
+          },
+          {
+            "blue": [
+              "Brennholz"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "Holz",
+              "das Holz",
+              "Hölzer"
+            ]
+          },
+          {
+            "blue": [
+              "Holz",
+              "das Holz",
+              "Baum"
+            ],
+            "green": [
+              "der Baum",
+              "der Wald",
+              "Wald"
+            ]
+          }
         ]
       }
     }
@@ -21211,6 +23066,9 @@ const A2_WORDS = [
             "ved at",
             "middel",
             "måde"
+          ],
+          "green": [
+            "weil"
           ]
         },
         "examples": [
@@ -21302,12 +23160,31 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "indem"
+            ]
+          },
+          {
+            "blue": [
+              "indem"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "indem"
+            ]
+          },
+          {
+            "blue": [
+              "indem"
+            ],
+            "green": [
+              "weil"
+            ]
+          }
         ]
       }
     }
@@ -21595,12 +23472,28 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "je"
+            ]
+          },
+          {
+            "blue": [
+              "je"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "je"
+            ]
+          },
+          {
+            "blue": [
+              "je"
+            ]
+          }
         ]
       }
     }
@@ -21779,6 +23672,9 @@ const A2_WORDS = [
           "purple": [
             "café",
             "kaffehus"
+          ],
+          "green": [
+            "Café"
           ]
         },
         "examples": [
@@ -21858,12 +23754,38 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "Kaffeehaus",
+              "das Café"
+            ],
+            "green": [
+              "Café"
+            ]
+          },
+          {
+            "blue": [
+              "Kaffee",
+              "Haus"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "Kaffeehaus",
+              "das Kaffeehaus",
+              "Kaffeehäuser"
+            ]
+          },
+          {
+            "blue": [
+              "Kaffeehaus"
+            ],
+            "green": [
+              "Café"
+            ]
+          }
         ]
       }
     }
@@ -22089,12 +24011,35 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "Kamm",
+              "der Kamm",
+              "Kämme",
+              "kämmen",
+              "kämme"
+            ]
+          },
+          {
+            "green": [
+              "die Bürste",
+              "Bürste"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "Kamm",
+              "der Kamm"
+            ]
+          },
+          {
+            "blue": [
+              "Kämme",
+              "kämme"
+            ]
+          }
         ]
       }
     }
@@ -22450,11 +24395,29 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "kaum",
+              "Kaum"
+            ]
+          },
+          {
+            "blue": [
+              "kaum",
+              "Kaum"
+            ],
+            "green": [
+              "wenig"
+            ]
+          }
         ],
         "important": [
-          {},
+          {
+            "blue": [
+              "kaum",
+              "Kaum"
+            ]
+          },
           {}
         ]
       }
@@ -22628,12 +24591,33 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "Keller"
+            ]
+          },
+          {
+            "blue": [
+              "Keller"
+            ],
+            "green": [
+              "das Erdgeschoss",
+              "Erdgeschoss"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "Keller"
+            ]
+          },
+          {
+            "green": [
+              "der Dachboden",
+              "Dachboden"
+            ]
+          }
         ]
       }
     }
@@ -22796,12 +24780,28 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
+          {
+            "blue": [
+              "Kellner",
+              "der Kellner",
+              "Kellnerin"
+            ]
+          },
           {}
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "Kellner",
+              "der Kellner"
+            ]
+          },
+          {
+            "blue": [
+              "Kellner",
+              "Kellnerin"
+            ]
+          }
         ]
       }
     }
@@ -22874,6 +24874,9 @@ const A2_WORDS = [
             "at kende",
             "bekendt",
             "bekendtskab"
+          ],
+          "green": [
+            "wissen"
           ]
         },
         "examples": [
@@ -22955,12 +24958,33 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "kennen"
+            ],
+            "green": [
+              "wissen"
+            ]
+          },
+          {
+            "blue": [
+              "kennen"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "kennen",
+              "kenne",
+              "Kennen"
+            ]
+          },
+          {
+            "blue": [
+              "kennen"
+            ]
+          }
         ]
       }
     }
@@ -23123,12 +25147,35 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "weiß"
+            ]
+          },
+          {
+            "blue": [
+              "wissen"
+            ],
+            "green": [
+              "kennen"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "wissen",
+              "weiß"
+            ]
+          },
+          {
+            "blue": [
+              "weiß"
+            ],
+            "green": [
+              "können"
+            ]
+          }
         ]
       }
     }
@@ -23206,12 +25253,17 @@ const A2_WORDS = [
             "der Kerl",
             "Kerl",
             "Kerle",
-            "nett"
+            "nett",
+            "netter"
           ],
           "purple": [
             "fyr",
             "mand",
             "type"
+          ],
+          "green": [
+            "der Mann",
+            "Mann"
           ]
         },
         "examples": [
@@ -23315,12 +25367,29 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
+          {
+            "blue": [
+              "nett"
+            ]
+          },
           {}
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "Kerl",
+              "der Kerl"
+            ],
+            "green": [
+              "der Mann",
+              "Mann"
+            ]
+          },
+          {
+            "blue": [
+              "Kerle"
+            ]
+          }
         ]
       }
     }
@@ -23485,12 +25554,30 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "anzünden"
+            ]
+          },
+          {
+            "blue": [
+              "Kerzen"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "Kerze",
+              "die Kerze"
+            ]
+          },
+          {
+            "blue": [
+              "Kerze",
+              "die Kerze"
+            ]
+          }
         ]
       }
     }
@@ -23645,12 +25732,33 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "Keyboard"
+            ]
+          },
+          {
+            "blue": [
+              "die Tastatur",
+              "Tastatur"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "Keyboard",
+              "das Keyboard",
+              "die Tastatur",
+              "Tastatur"
+            ]
+          },
+          {
+            "blue": [
+              "Keyboard",
+              "das Keyboard"
+            ]
+          }
         ]
       }
     }
@@ -23722,6 +25830,10 @@ const A2_WORDS = [
           ],
           "purple": [
             "børnelæge"
+          ],
+          "green": [
+            "der Arzt",
+            "Arzt"
           ]
         },
         "examples": [
@@ -23813,12 +25925,31 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "Kinderarzt"
+            ]
+          },
+          {
+            "blue": [
+              "Kinderärztin"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "Kinderarzt"
+            ],
+            "green": [
+              "Arzt"
+            ]
+          },
+          {
+            "blue": [
+              "Kinderärzte"
+            ]
+          }
         ]
       }
     }
@@ -23884,6 +26015,9 @@ const A2_WORDS = [
             "børneradio",
             "radioprogrammer",
             "radio"
+          ],
+          "green": [
+            "Kindersendung"
           ]
         },
         "examples": [
@@ -23963,12 +26097,29 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "green": [
+              "die Kindersendung",
+              "Kindersendung"
+            ]
+          },
+          {
+            "blue": [
+              "Kinderfunk"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "Kinderfunk"
+            ]
+          },
+          {
+            "green": [
+              "Kindersendung"
+            ]
+          }
         ]
       }
     }
@@ -24044,6 +26195,10 @@ const A2_WORDS = [
           ],
           "purple": [
             "barnevogn"
+          ],
+          "green": [
+            "der Wagen",
+            "der Buggy"
           ]
         },
         "examples": [
@@ -24124,11 +26279,24 @@ const A2_WORDS = [
         ],
         "tip": [
           {},
-          {}
+          {
+            "blue": [
+              "schieben"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "Kinderwagen",
+              "der Kinderwagen"
+            ]
+          },
+          {
+            "blue": [
+              "Wagen"
+            ]
+          }
         ]
       }
     }
@@ -24199,6 +26367,10 @@ const A2_WORDS = [
           "purple": [
             "barndom",
             "fra barnsben"
+          ],
+          "green": [
+            "das Kind",
+            "Kind"
           ]
         },
         "examples": [
@@ -24290,12 +26462,28 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "Kindheit"
+            ]
+          },
+          {
+            "blue": [
+              "Kindheit"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "Kindheit"
+            ]
+          },
+          {
+            "blue": [
+              "Kindheit"
+            ]
+          }
         ]
       }
     }
@@ -24369,6 +26557,10 @@ const A2_WORDS = [
           "purple": [
             "biograf",
             "biografen"
+          ],
+          "green": [
+            "der Film",
+            "Film"
           ]
         },
         "examples": [
@@ -24460,12 +26652,32 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "Kino",
+              "ins Kino",
+              "im Kino"
+            ]
+          },
+          {
+            "blue": [
+              "Kino"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "Kino",
+              "das Kino",
+              "Kinos"
+            ]
+          },
+          {
+            "blue": [
+              "Kino"
+            ]
+          }
         ]
       }
     }
@@ -24630,12 +26842,28 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
+          {
+            "blue": [
+              "Kiosk",
+              "am Kiosk"
+            ]
+          },
           {}
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "Kiosk",
+              "der Kiosk",
+              "Kioske"
+            ]
+          },
+          {
+            "green": [
+              "der Laden",
+              "Laden"
+            ]
+          }
         ]
       }
     }
@@ -24704,10 +26932,14 @@ const A2_WORDS = [
             "Kirsche",
             "Kirschen",
             "der Kirschbaum",
-            "Sauerkirsche"
+            "Sauerkirsche",
+            "Kirschkuchen"
           ],
           "purple": [
             "kirsebær"
+          ],
+          "green": [
+            "Kirschbaum"
           ]
         },
         "examples": [
@@ -24799,12 +27031,37 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "der Kirschbaum",
+              "Kirschkuchen"
+            ],
+            "green": [
+              "Kirschbaum"
+            ]
+          },
+          {
+            "blue": [
+              "Kirschen"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "Kirsche",
+              "die Kirsche",
+              "Kirschen"
+            ]
+          },
+          {
+            "blue": [
+              "der Kirschbaum"
+            ],
+            "green": [
+              "Kirschbaum"
+            ]
+          }
         ]
       }
     }
@@ -24965,12 +27222,28 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
+          {
+            "blue": [
+              "Kissen"
+            ],
+            "green": [
+              "die Decke",
+              "Decke"
+            ]
+          },
           {}
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "Kissen"
+            ]
+          },
+          {
+            "blue": [
+              "Kissen"
+            ]
+          }
         ]
       }
     }
@@ -25031,10 +27304,15 @@ const A2_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "Kissenbezug"
+            "Kissenbezug",
+            "Kissenbezüge"
           ],
           "purple": [
             "pudebetræk"
+          ],
+          "green": [
+            "Kissen",
+            "Bettwäsche"
           ]
         },
         "examples": [
@@ -25114,11 +27392,24 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "green": [
+              "Kissen"
+            ]
+          },
+          {
+            "green": [
+              "Bettwäsche"
+            ]
+          }
         ],
         "important": [
-          {},
+          {
+            "blue": [
+              "Kissenbezug",
+              "Kissenbezüge"
+            ]
+          },
           {}
         ]
       }
@@ -25192,6 +27483,9 @@ const A2_WORDS = [
           "purple": [
             "boks",
             "kasse"
+          ],
+          "green": [
+            "die Schachtel"
           ]
         },
         "examples": [
@@ -25283,12 +27577,31 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "Kiste",
+              "Schachtel"
+            ]
+          },
+          {
+            "blue": [
+              "Kiste"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "Kiste",
+              "die Kiste",
+              "Kisten"
+            ]
+          },
+          {
+            "blue": [
+              "Kiste"
+            ]
+          }
         ]
       }
     }
@@ -25470,11 +27783,30 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "klar",
+              "Klar",
+              "Alles klar"
+            ]
+          },
+          {
+            "blue": [
+              "klar",
+              "Klar"
+            ]
+          }
         ],
         "important": [
-          {},
+          {
+            "blue": [
+              "klar",
+              "Klar"
+            ],
+            "green": [
+              "natürlich"
+            ]
+          },
           {}
         ]
       }
@@ -25667,8 +27999,18 @@ const A2_WORDS = [
           {}
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "kleben",
+              "klebte",
+              "geklebt"
+            ]
+          },
+          {
+            "blue": [
+              "kleben"
+            ]
+          }
         ]
       }
     }
@@ -25856,12 +28198,36 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "kleiden",
+              "anziehen"
+            ]
+          },
+          {
+            "green": [
+              "das Kleid",
+              "Kleid"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "kleiden",
+              "sich kleiden"
+            ]
+          },
+          {
+            "blue": [
+              "kleiden"
+            ],
+            "green": [
+              "sich umziehen",
+              "das Kleid",
+              "Kleid"
+            ]
+          }
         ]
       }
     }
@@ -26100,6 +28466,11 @@ const A2_WORDS = [
             "krop",
             "Kroppens",
             "legeme"
+          ],
+          "green": [
+            "der Kopf",
+            "Kopf",
+            "der Leib"
           ]
         },
         "examples": [
@@ -26203,12 +28574,27 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
+          {
+            "blue": [
+              "Körper",
+              "der Körper"
+            ]
+          },
           {}
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "Körper",
+              "der Körper"
+            ]
+          },
+          {
+            "blue": [
+              "Körper",
+              "der Körper"
+            ]
+          }
         ]
       }
     }
@@ -26410,12 +28796,36 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "Kraft"
+            ],
+            "green": [
+              "Macht",
+              "Energie"
+            ]
+          },
+          {
+            "blue": [
+              "Kraft",
+              "in Kraft treten"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "Kraft",
+              "die Kraft",
+              "Kräfte"
+            ]
+          },
+          {
+            "blue": [
+              "Kraft",
+              "in Kraft treten"
+            ]
+          }
         ]
       }
     }
@@ -26576,10 +28986,14 @@ const A2_WORDS = [
           "blue": [
             "kurz",
             "kürzer",
-            "kürzesten"
+            "kürzesten",
+            "kurze"
           ],
           "purple": [
             "kort"
+          ],
+          "green": [
+            "lang"
           ]
         },
         "examples": [
@@ -26683,12 +29097,31 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "kurz",
+              "kürzer",
+              "kürzesten"
+            ]
+          },
+          {
+            "blue": [
+              "kurz"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "kurz",
+              "kurze"
+            ]
+          },
+          {
+            "blue": [
+              "kurz"
+            ]
+          }
         ]
       }
     }
@@ -26773,6 +29206,10 @@ const A2_WORDS = [
           "purple": [
             "situation",
             "beliggenhed"
+          ],
+          "green": [
+            "die Situation",
+            "Situation"
           ]
         },
         "examples": [
@@ -26876,12 +29313,32 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "Lage",
+              "in der Lage"
+            ]
+          },
+          {
+            "blue": [
+              "Lage"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "Lage",
+              "die Lage",
+              "Lagen"
+            ]
+          },
+          {
+            "blue": [
+              "Lage",
+              "in der Lage"
+            ]
+          }
         ]
       }
     }
@@ -27176,11 +29633,27 @@ const A2_WORDS = [
         ],
         "tip": [
           {},
-          {}
+          {
+            "blue": [
+              "leiden",
+              "litt",
+              "gelitten"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "leiden",
+              "litt",
+              "gelitten"
+            ]
+          },
+          {
+            "blue": [
+              "leiden"
+            ]
+          }
         ]
       }
     }
@@ -27252,7 +29725,8 @@ const A2_WORDS = [
             "leiht",
             "lieh",
             "geliehen",
-            "borgen"
+            "borgen",
+            "leihe"
           ],
           "purple": [
             "at låne noget ud",
@@ -27360,11 +29834,24 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "leihen"
+            ]
+          },
+          {
+            "blue": [
+              "leihen"
+            ]
+          }
         ],
         "important": [
-          {},
+          {
+            "blue": [
+              "leihen",
+              "leihe"
+            ]
+          },
           {}
         ]
       }
@@ -27445,7 +29932,8 @@ const A2_WORDS = [
             "die Leiterin",
             "Leiterinnen",
             "Abteilungsleiter",
-            "die Leiter"
+            "die Leiter",
+            "Leiterin"
           ],
           "purple": [
             "leder"
@@ -27552,12 +30040,38 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "Leiter",
+              "der Leiter",
+              "die Leiterin",
+              "Leiterin"
+            ]
+          },
+          {
+            "blue": [
+              "Leiter",
+              "der Leiter",
+              "die Leiter"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "Leiter",
+              "der Leiter",
+              "die Leiter"
+            ]
+          },
+          {
+            "blue": [
+              "Leiter",
+              "der Leiter",
+              "die Leiterin",
+              "Leiterin"
+            ]
+          }
         ]
       }
     }
@@ -27739,12 +30253,35 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "Leitung"
+            ]
+          },
+          {
+            "blue": [
+              "leiten"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "Leitung",
+              "die Leitung",
+              "Leitungen"
+            ]
+          },
+          {
+            "blue": [
+              "Leitung",
+              "die Leitung"
+            ],
+            "green": [
+              "der Leiter",
+              "Leiter"
+            ]
+          }
         ]
       }
     }
@@ -27865,6 +30402,9 @@ const A2_WORDS = [
             "at ligge",
             "at befinde sig",
             "liggende"
+          ],
+          "green": [
+            "stehen"
           ]
         },
         "examples": [
@@ -27968,12 +30508,34 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "liegen"
+            ]
+          },
+          {
+            "blue": [
+              "liegen",
+              "lag",
+              "gelegen",
+              "legen"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "liegen",
+              "lag",
+              "gelegen",
+              "legen"
+            ]
+          },
+          {
+            "blue": [
+              "liegen"
+            ]
+          }
         ]
       }
     }
@@ -28041,11 +30603,18 @@ const A2_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "legen"
+            "legen",
+            "lege",
+            "legt",
+            "gelegt"
           ],
           "purple": [
             "at lægge",
             "akkusativ"
+          ],
+          "green": [
+            "liegen",
+            "stellen"
           ]
         },
         "examples": [
@@ -28149,12 +30718,33 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "legen"
+            ],
+            "green": [
+              "liegen"
+            ]
+          },
+          {
+            "blue": [
+              "legen"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "legen",
+              "gelegt"
+            ]
+          },
+          {
+            "blue": [
+              "legen",
+              "lege"
+            ]
+          }
         ]
       }
     }
@@ -28387,12 +30977,33 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "los"
+            ]
+          },
+          {
+            "blue": [
+              "los"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "los",
+              "Los"
+            ]
+          },
+          {
+            "blue": [
+              "los",
+              "Los"
+            ],
+            "green": [
+              "locker"
+            ]
+          }
         ]
       }
     }
@@ -28645,7 +31256,9 @@ const A2_WORDS = [
             "meinte",
             "gemeint",
             "denken",
-            "glauben"
+            "glauben",
+            "meinst",
+            "meine"
           ],
           "purple": [
             "at mene",
@@ -28754,12 +31367,26 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
+          {
+            "blue": [
+              "meine"
+            ]
+          },
           {}
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "meinen",
+              "denken"
+            ]
+          },
+          {
+            "blue": [
+              "meinen",
+              "meine"
+            ]
+          }
         ]
       }
     }
@@ -28984,12 +31611,25 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
+          {
+            "blue": [
+              "merken",
+              "etwas merken"
+            ]
+          },
           {}
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "merke"
+            ]
+          },
+          {
+            "blue": [
+              "merken"
+            ]
+          }
         ]
       }
     }
@@ -29254,12 +31894,32 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "Mittel",
+              "Lebensmittel",
+              "Waschmittel",
+              "Verkehrsmittel"
+            ]
+          },
+          {
+            "blue": [
+              "Mittel"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "Mittel",
+              "das Mittel"
+            ]
+          },
+          {
+            "blue": [
+              "Mittel"
+            ]
+          }
         ]
       }
     }
@@ -29589,12 +32249,34 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
+          {
+            "blue": [
+              "na gut",
+              "Na gut",
+              "Na"
+            ]
+          },
           {}
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "na gut",
+              "Na gut",
+              "Na"
+            ],
+            "green": [
+              "einverstanden"
+            ]
+          },
+          {
+            "blue": [
+              "Na"
+            ],
+            "green": [
+              "na ja"
+            ]
+          }
         ]
       }
     }
@@ -29847,12 +32529,30 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "Nagel",
+              "Nägel"
+            ]
+          },
+          {
+            "blue": [
+              "Zehennagel"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "Nagel",
+              "Nägel"
+            ]
+          },
+          {
+            "blue": [
+              "Nagel"
+            ]
+          }
         ]
       }
     }
@@ -30204,8 +32904,17 @@ const A2_WORDS = [
           {}
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "Note",
+              "Noten"
+            ]
+          },
+          {
+            "blue": [
+              "Note"
+            ]
+          }
         ]
       }
     }
@@ -30313,6 +33022,10 @@ const A2_WORDS = [
           ],
           "purple": [
             "nummerplade"
+          ],
+          "green": [
+            "das Schild",
+            "Schild"
           ]
         },
         "examples": [
@@ -30404,12 +33117,28 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
+          {
+            "blue": [
+              "das Kennzeichen",
+              "Kennzeichen"
+            ]
+          },
           {}
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "Nummernschild",
+              "das Nummernschild",
+              "Nummernschilder"
+            ]
+          },
+          {
+            "green": [
+              "das Schild",
+              "Schild"
+            ]
+          }
         ]
       }
     }
@@ -30495,7 +33224,8 @@ const A2_WORDS = [
             "nutzte",
             "genutzt",
             "nützen",
-            "benutzen"
+            "benutzen",
+            "nützt"
           ],
           "purple": [
             "at bruge",
@@ -30603,12 +33333,32 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "nutzen"
+            ]
+          },
+          {
+            "blue": [
+              "nutzen",
+              "benutzen"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "nutzen",
+              "nützen"
+            ]
+          },
+          {
+            "blue": [
+              "nutzen",
+              "nutzte",
+              "genutzt"
+            ]
+          }
         ]
       }
     }
@@ -30729,6 +33479,10 @@ const A2_WORDS = [
           "purple": [
             "åben",
             "ærlig"
+          ],
+          "green": [
+            "geöffnet",
+            "auf"
           ]
         },
         "examples": [
@@ -30832,12 +33586,31 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "green": [
+              "geöffnet"
+            ]
+          },
+          {
+            "blue": [
+              "offen"
+            ],
+            "green": [
+              "auf"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "offen"
+            ]
+          },
+          {
+            "blue": [
+              "offen"
+            ]
+          }
         ]
       }
     }
@@ -31140,12 +33913,31 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "passiert"
+            ]
+          },
+          {
+            "blue": [
+              "passiert"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "passieren"
+            ],
+            "green": [
+              "stattfinden"
+            ]
+          },
+          {
+            "blue": [
+              "passiert"
+            ]
+          }
         ]
       }
     }
@@ -31297,11 +34089,26 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "Patient",
+              "der Patient",
+              "Patienten"
+            ]
+          },
+          {
+            "blue": [
+              "Patientin"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "Patient",
+              "Patienten"
+            ]
+          }
         ]
       }
     }
@@ -31382,6 +34189,9 @@ const A2_WORDS = [
           "purple": [
             "personale",
             "ansatte"
+          ],
+          "green": [
+            "Mitarbeiter"
           ]
         },
         "examples": [
@@ -31461,10 +34271,25 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {
+            "blue": [
+              "Personal"
+            ],
+            "green": [
+              "Person"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "Personal"
+            ],
+            "green": [
+              "Person",
+              "Personen"
+            ]
+          }
         ]
       }
     }
@@ -31586,6 +34411,9 @@ const A2_WORDS = [
           "purple": [
             "plaster",
             "brolægning"
+          ],
+          "green": [
+            "Straße"
           ]
         },
         "examples": [
@@ -31665,10 +34493,18 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {
+            "blue": [
+              "Pflaster"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "Pflaster"
+            ]
+          }
         ]
       }
     }
@@ -31986,10 +34822,14 @@ const A2_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "Rad"
+            "Rad",
+            "Räder"
           ],
           "purple": [
             "hjul"
+          ],
+          "green": [
+            "Fahrrad"
           ]
         },
         "examples": [
@@ -32069,10 +34909,18 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {
+            "blue": [
+              "Rad"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "Räder"
+            ]
+          }
         ]
       }
     }
@@ -32240,10 +35088,23 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {
+            "blue": [
+              "Rasen",
+              "der Rasen"
+            ],
+            "green": [
+              "Wiese"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "Rasen",
+              "der Rasen"
+            ]
+          }
         ]
       }
     }
@@ -32309,7 +35170,8 @@ const A2_WORDS = [
             "raten",
             "rät",
             "geraten",
-            "Rate"
+            "Rate",
+            "rate"
           ],
           "purple": [
             "råde",
@@ -32393,11 +35255,26 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {
+            "blue": [
+              "raten",
+              "Rate",
+              "rate"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "rate"
+            ]
+          },
+          {
+            "green": [
+              "empfehlen",
+              "empfehle"
+            ]
+          }
         ]
       }
     }
@@ -32574,10 +35451,18 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {
+            "blue": [
+              "rechnen"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "rechnen"
+            ]
+          }
         ]
       }
     }
@@ -32792,11 +35677,23 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "reicht"
+            ]
+          },
+          {
+            "blue": [
+              "reichen"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "reichen"
+            ]
+          }
         ]
       }
     }
@@ -33067,10 +35964,22 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {
+            "blue": [
+              "riecht"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "riechen"
+            ],
+            "green": [
+              "duften",
+              "stinken"
+            ]
+          }
         ]
       }
     }
@@ -33253,7 +36162,11 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {
+            "blue": [
+              "Rolle"
+            ]
+          }
         ],
         "important": [
           {}
@@ -33505,10 +36418,18 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {
+            "blue": [
+              "sammeln"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "sammeln"
+            ]
+          }
         ]
       }
     }
@@ -33670,10 +36591,20 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {
+            "blue": [
+              "Satz",
+              "der Satz",
+              "Sätze"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "Sätze"
+            ]
+          }
         ]
       }
     }
@@ -33789,7 +36720,9 @@ const A2_WORDS = [
           "blue": [
             "schalten",
             "einschalten",
-            "ausschalten"
+            "ausschalten",
+            "schaltet",
+            "schalte"
           ],
           "purple": [
             "skifte",
@@ -33875,10 +36808,20 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {
+            "blue": [
+              "einschalten",
+              "ausschalten"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "schalten",
+              "einschalten"
+            ]
+          }
         ]
       }
     }
@@ -33944,7 +36887,8 @@ const A2_WORDS = [
           "blue": [
             "scharf",
             "schärfer",
-            "scharfes"
+            "scharfes",
+            "scharfe"
           ],
           "purple": [
             "skarp",
@@ -34028,10 +36972,18 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {
+            "blue": [
+              "scharf"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "schärfer"
+            ]
+          }
         ]
       }
     }
@@ -34154,6 +37106,9 @@ const A2_WORDS = [
           "purple": [
             "skinne",
             "synes"
+          ],
+          "green": [
+            "glänzen"
           ]
         },
         "examples": [
@@ -34233,10 +37188,18 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {
+            "blue": [
+              "scheint"
+            ]
+          }
         ],
         "important": [
-          {},
+          {
+            "blue": [
+              "scheinen"
+            ]
+          },
           {}
         ]
       }
@@ -34447,10 +37410,21 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {
+            "blue": [
+              "Schlange"
+            ],
+            "green": [
+              "Reihe"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "Schlange"
+            ]
+          }
         ]
       }
     }
@@ -34514,6 +37488,10 @@ const A2_WORDS = [
           ],
           "purple": [
             "lukke"
+          ],
+          "green": [
+            "zumachen",
+            "abschließen"
           ]
         },
         "examples": [
@@ -34593,10 +37571,21 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {
+            "blue": [
+              "geschlossen"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "schließen"
+            ],
+            "green": [
+              "abschließen"
+            ]
+          }
         ]
       }
     }
@@ -34692,6 +37681,9 @@ const A2_WORDS = [
           "purple": [
             "slot",
             "lås"
+          ],
+          "green": [
+            "Schlüssel"
           ]
         },
         "examples": [
@@ -34771,10 +37763,21 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {
+            "blue": [
+              "Schloss"
+            ],
+            "green": [
+              "Burg"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "Schlösser"
+            ]
+          }
         ]
       }
     }
@@ -35039,10 +38042,18 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {
+            "blue": [
+              "Schulden"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "Schulden"
+            ]
+          }
         ]
       }
     }
@@ -35161,6 +38172,9 @@ const A2_WORDS = [
             "tung",
             "svær",
             "alvorlig"
+          ],
+          "green": [
+            "leicht"
           ]
         },
         "examples": [
@@ -35240,10 +38254,24 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {
+            "blue": [
+              "schwer"
+            ],
+            "green": [
+              "schwierig"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "schwer"
+            ],
+            "green": [
+              "schwierig"
+            ]
+          }
         ]
       }
     }
@@ -35445,10 +38473,15 @@ const A2_WORDS = [
           "blue": [
             "sich befinden",
             "befindet sich",
-            "befinden"
+            "befinden",
+            "befindet"
           ],
           "purple": [
             "befinde sig"
+          ],
+          "green": [
+            "liegen",
+            "sein"
           ]
         },
         "examples": [
@@ -35528,10 +38561,24 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {
+            "blue": [
+              "sich befinden",
+              "befinden"
+            ],
+            "green": [
+              "liegen",
+              "sein"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "befindet sich",
+              "befindet"
+            ]
+          }
         ]
       }
     }
@@ -35655,7 +38702,8 @@ const A2_WORDS = [
           "blue": [
             "sich unterhalten",
             "unterhält sich",
-            "unterhalten"
+            "unterhalten",
+            "unterhält"
           ],
           "purple": [
             "tale sammen",
@@ -35739,10 +38787,18 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {
+            "blue": [
+              "unterhalten"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "unterhalten"
+            ]
+          }
         ]
       }
     }
@@ -35885,10 +38941,15 @@ const A2_WORDS = [
           "blue": [
             "sitzen",
             "sitzt",
-            "saß"
+            "saß",
+            "gesessen"
           ],
           "purple": [
             "sidde"
+          ],
+          "green": [
+            "setzen",
+            "sich setzen"
           ]
         },
         "examples": [
@@ -35968,10 +39029,25 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {
+            "blue": [
+              "sitzen"
+            ],
+            "green": [
+              "setzen"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "sitzen"
+            ],
+            "green": [
+              "setzen",
+              "sich setzen"
+            ]
+          }
         ]
       }
     }
@@ -36028,12 +39104,16 @@ const A2_WORDS = [
         "explanation": {
           "blue": [
             "setzen",
-            "sich setzen"
+            "sich setzen",
+            "setzt"
           ],
           "purple": [
             "sætte",
             "anbringe",
             "sætte sig"
+          ],
+          "green": [
+            "sitzen"
           ]
         },
         "examples": [
@@ -36113,10 +39193,25 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {
+            "blue": [
+              "setzen",
+              "sich setzen"
+            ],
+            "green": [
+              "sitzen"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "setzen"
+            ],
+            "green": [
+              "sitzen"
+            ]
+          }
         ]
       }
     }
@@ -36276,11 +39371,24 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "sobald",
+              "Sobald"
+            ]
+          },
+          {
+            "blue": [
+              "sobald"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "sobald"
+            ]
+          }
         ]
       }
     }
@@ -36396,7 +39504,8 @@ const A2_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sonst"
+            "sonst",
+            "Sonst"
           ],
           "purple": [
             "ellers",
@@ -36480,10 +39589,20 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {
+            "blue": [
+              "sonst",
+              "Sonst"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "sonst",
+              "Sonst"
+            ]
+          }
         ]
       }
     }
@@ -36852,10 +39971,26 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {
+            "blue": [
+              "stehen"
+            ],
+            "green": [
+              "stellen"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "stehen",
+              "steht"
+            ],
+            "green": [
+              "stellen",
+              "stelle"
+            ]
+          }
         ]
       }
     }
@@ -36917,6 +40052,9 @@ const A2_WORDS = [
           "purple": [
             "stille",
             "oprejst"
+          ],
+          "green": [
+            "stehen"
           ]
         },
         "examples": [
@@ -36996,10 +40134,21 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {
+            "blue": [
+              "stellen"
+            ],
+            "green": [
+              "legen"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "stellen"
+            ]
+          }
         ]
       }
     }
@@ -37080,6 +40229,9 @@ const A2_WORDS = [
           "purple": [
             "stige",
             "klatre"
+          ],
+          "green": [
+            "einsteigen"
           ]
         },
         "examples": [
@@ -37234,6 +40386,9 @@ const A2_WORDS = [
           "purple": [
             "sted",
             "stilling"
+          ],
+          "green": [
+            "Platz"
           ]
         },
         "examples": [
@@ -37313,10 +40468,21 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {
+            "blue": [
+              "Stelle"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "Stelle"
+            ],
+            "green": [
+              "Platz"
+            ]
+          }
         ]
       }
     }
@@ -37502,10 +40668,21 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {
+            "blue": [
+              "stimmt"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "stimmen"
+            ],
+            "green": [
+              "wählen"
+            ]
+          }
         ]
       }
     }
@@ -37672,7 +40849,11 @@ const A2_WORDS = [
           {}
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "Stoffe"
+            ]
+          }
         ]
       }
     }
@@ -37961,10 +41142,18 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {
+            "blue": [
+              "Tafel"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "Tafeln"
+            ]
+          }
         ]
       }
     }
@@ -38202,10 +41391,20 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {
+            "blue": [
+              "Teil",
+              "das Teil"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "Teil",
+              "das Teil"
+            ]
+          }
         ]
       }
     }
@@ -38389,10 +41588,18 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {
+            "blue": [
+              "Termin"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "Termin"
+            ]
+          }
         ]
       }
     }
@@ -38485,6 +41692,10 @@ const A2_WORDS = [
             "dyb",
             "lav",
             "dybt"
+          ],
+          "green": [
+            "flach",
+            "niedrig"
           ]
         },
         "examples": [
@@ -38564,10 +41775,21 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {
+            "blue": [
+              "tief"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "tief"
+            ],
+            "green": [
+              "niedrig"
+            ]
+          }
         ]
       }
     }
@@ -38657,7 +41879,8 @@ const A2_WORDS = [
         "explanation": {
           "blue": [
             "toll",
-            "tolle"
+            "tolle",
+            "Toll"
           ],
           "purple": [
             "fantastisk",
@@ -38742,10 +41965,20 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {
+            "blue": [
+              "toll",
+              "Toll"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "toll",
+              "Toll"
+            ]
+          }
         ]
       }
     }
@@ -38862,6 +42095,9 @@ const A2_WORDS = [
             "bære",
             "have på",
             "gå med"
+          ],
+          "green": [
+            "bringen"
           ]
         },
         "examples": [
@@ -38941,10 +42177,19 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {
+            "blue": [
+              "tragen"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "trägt",
+              "trage"
+            ]
+          }
         ]
       }
     }
@@ -39151,10 +42396,21 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {
+            "blue": [
+              "treffen"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "treffen"
+            ],
+            "green": [
+              "begegnen"
+            ]
+          }
         ]
       }
     }
@@ -39408,10 +42664,21 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {
+            "blue": [
+              "übrig"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "übrig"
+            ],
+            "green": [
+              "überflüssig"
+            ]
+          }
         ]
       }
     }
@@ -39555,10 +42822,20 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {
+            "blue": [
+              "Übung"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "Übung",
+              "die Übung",
+              "Übungen"
+            ]
+          }
         ]
       }
     }
@@ -39632,6 +42909,10 @@ const A2_WORDS = [
             "gratis",
             "forgæves",
             "uden betaling"
+          ],
+          "green": [
+            "kostenlos",
+            "vergeblich"
           ]
         },
         "examples": [
@@ -39714,7 +42995,14 @@ const A2_WORDS = [
           {}
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "umsonst"
+            ],
+            "green": [
+              "kostenlos"
+            ]
+          }
         ]
       }
     }
@@ -39868,6 +43156,9 @@ const A2_WORDS = [
           ],
           "purple": [
             "ferie"
+          ],
+          "green": [
+            "Ferien"
           ]
         },
         "examples": [
@@ -39947,10 +43238,22 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {
+            "blue": [
+              "Urlaub"
+            ],
+            "green": [
+              "Ferien"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "Urlaub",
+              "der Urlaub"
+            ]
+          }
         ]
       }
     }
@@ -40013,7 +43316,8 @@ const A2_WORDS = [
           "blue": [
             "verbinden",
             "verbindet",
-            "verbunden"
+            "verbunden",
+            "verbinde"
           ],
           "purple": [
             "forbinde",
@@ -40097,10 +43401,18 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {
+            "blue": [
+              "verbinden"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "verbunden"
+            ]
+          }
         ]
       }
     }
@@ -40269,10 +43581,19 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {
+            "blue": [
+              "Verkehr"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "Verkehr",
+              "der Verkehr"
+            ]
+          }
         ]
       }
     }
@@ -40348,6 +43669,9 @@ const A2_WORDS = [
           "purple": [
             "kræve",
             "forlange"
+          ],
+          "green": [
+            "bitten"
           ]
         },
         "examples": [
@@ -40427,10 +43751,24 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {
+            "blue": [
+              "verlangen"
+            ],
+            "green": [
+              "bitten"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "verlangen"
+            ],
+            "green": [
+              "bitten"
+            ]
+          }
         ]
       }
     }
@@ -40617,10 +43955,19 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {
+            "blue": [
+              "Viertel"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "Viertel",
+              "das Viertel"
+            ]
+          }
         ]
       }
     }
@@ -40763,6 +44110,10 @@ const A2_WORDS = [
           "purple": [
             "foran",
             "forreste"
+          ],
+          "green": [
+            "hinten",
+            "vor"
           ]
         },
         "examples": [
@@ -40866,12 +44217,35 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "vorn"
+            ],
+            "green": [
+              "hinten"
+            ]
+          },
+          {
+            "blue": [
+              "vorn"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "vorn"
+            ],
+            "green": [
+              "vor"
+            ]
+          },
+          {
+            "blue": [
+              "vorn",
+              "vorne"
+            ]
+          }
         ]
       }
     }
@@ -41067,12 +44441,31 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "vorstellen"
+            ]
+          },
+          {
+            "blue": [
+              "vorstellen",
+              "vor",
+              "Stell"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "vor",
+              "stelle"
+            ]
+          },
+          {
+            "blue": [
+              "vorgestellt"
+            ]
+          }
         ]
       }
     }
@@ -41177,13 +44570,18 @@ const A2_WORDS = [
             "Wagen",
             "des Wagens",
             "Kinderwagen",
-            "wagen"
+            "wagen",
+            "Wagens"
           ],
           "purple": [
             "bil",
             "jernbanevogn",
             "barnevogne",
             "at vove"
+          ],
+          "green": [
+            "das Auto",
+            "Auto"
           ]
         },
         "examples": [
@@ -41288,12 +44686,36 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "Wagen",
+              "wagen"
+            ],
+            "green": [
+              "Auto"
+            ]
+          },
+          {
+            "blue": [
+              "Kinderwagen"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "Wagen",
+              "der Wagen",
+              "wagen"
+            ]
+          },
+          {
+            "blue": [
+              "Wagen",
+              "die Wagen",
+              "wagen"
+            ]
+          }
         ]
       }
     }
@@ -41366,7 +44788,8 @@ const A2_WORDS = [
             "wählte",
             "hat gewählt",
             "die Wahl",
-            "Wahl"
+            "Wahl",
+            "gewählt"
           ],
           "purple": [
             "vælge",
@@ -41475,12 +44898,30 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "wählen"
+            ]
+          },
+          {
+            "blue": [
+              "die Wahl",
+              "Wahl"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "wählen",
+              "wähle"
+            ]
+          },
+          {
+            "blue": [
+              "wählen"
+            ]
+          }
         ]
       }
     }
@@ -41664,12 +45105,32 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "während"
+            ]
+          },
+          {
+            "green": [
+              "bis"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "während"
+            ]
+          },
+          {
+            "blue": [
+              "während"
+            ],
+            "green": [
+              "wenn",
+              "als"
+            ]
+          }
         ]
       }
     }
@@ -41748,7 +45209,9 @@ const A2_WORDS = [
             "wahrscheinlichste",
             "wahrscheinlicher",
             "am wahrscheinlichsten",
-            "die Wahrscheinlichkeit"
+            "die Wahrscheinlichkeit",
+            "wahrscheinlichsten",
+            "Wahrscheinlichkeit"
           ],
           "purple": [
             "sandsynligvis",
@@ -41857,11 +45320,26 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
+          {
+            "blue": [
+              "wahrscheinlich"
+            ],
+            "green": [
+              "vielleicht",
+              "sicher"
+            ]
+          },
           {}
         ],
         "important": [
-          {},
+          {
+            "blue": [
+              "wahrscheinlich"
+            ],
+            "green": [
+              "vielleicht"
+            ]
+          },
           {}
         ]
       }
@@ -42095,12 +45573,37 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "wechseln"
+            ],
+            "green": [
+              "ändern"
+            ]
+          },
+          {
+            "blue": [
+              "wechseln"
+            ],
+            "green": [
+              "umsteigen"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "wechseln"
+            ]
+          },
+          {
+            "blue": [
+              "wechseln"
+            ],
+            "green": [
+              "ändern"
+            ]
+          }
         ]
       }
     }
@@ -42346,12 +45849,32 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "weit"
+            ],
+            "green": [
+              "breit"
+            ]
+          },
+          {
+            "blue": [
+              "weit"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "weit",
+              "weiter"
+            ]
+          },
+          {
+            "blue": [
+              "weit"
+            ]
+          }
         ]
       }
     }
@@ -42457,12 +45980,16 @@ const A2_WORDS = [
             "Werte",
             "die Werte",
             "des Wertes",
-            "wert"
+            "wert",
+            "Wertes"
           ],
           "purple": [
             "værdi",
             "værdier",
             "værd"
+          ],
+          "green": [
+            "Preis"
           ]
         },
         "examples": [
@@ -42566,12 +46093,35 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "Wert",
+              "wert"
+            ]
+          },
+          {
+            "blue": [
+              "Werte"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "Wert",
+              "der Wert",
+              "wert"
+            ],
+            "green": [
+              "der Preis",
+              "Preis"
+            ]
+          },
+          {
+            "blue": [
+              "wert"
+            ]
+          }
         ]
       }
     }
@@ -42785,12 +46335,34 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "wiegst"
+            ]
+          },
+          {
+            "blue": [
+              "wiegen",
+              "wog",
+              "gewogen"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "wog",
+              "wiegte"
+            ]
+          },
+          {
+            "blue": [
+              "wiegen"
+            ],
+            "green": [
+              "wagen"
+            ]
+          }
         ]
       }
     }
@@ -42913,12 +46485,17 @@ const A2_WORDS = [
             "zieht",
             "zog",
             "hat gezogen",
-            "es zieht"
+            "es zieht",
+            "gezogen"
           ],
           "purple": [
             "trække",
             "flytte",
             "det trækker"
+          ],
+          "green": [
+            "umziehen",
+            "anziehen"
           ]
         },
         "examples": [
@@ -43022,12 +46599,33 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "ziehen"
+            ],
+            "green": [
+              "umziehen"
+            ]
+          },
+          {
+            "blue": [
+              "ziehen"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "hat gezogen",
+              "gezogen"
+            ]
+          },
+          {
+            "blue": [
+              "zog",
+              "gezogen"
+            ]
+          }
         ]
       }
     }
@@ -43182,7 +46780,9 @@ const A2_WORDS = [
             "nahm zu",
             "hat zugenommen",
             "abnehmen",
-            "zu"
+            "zu",
+            "zugenommen",
+            "nimmt"
           ],
           "purple": [
             "tage på",
@@ -43295,11 +46895,25 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "zunehmen",
+              "abnehmen"
+            ]
+          },
+          {
+            "blue": [
+              "zu",
+              "zugenommen"
+            ]
+          }
         ],
         "important": [
-          {},
+          {
+            "blue": [
+              "zu"
+            ]
+          },
           {}
         ]
       }
@@ -43496,12 +47110,29 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "zurzeit"
+            ]
+          },
+          {
+            "blue": [
+              "derzeit"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "zurzeit",
+              "zur Zeit"
+            ]
+          },
+          {
+            "blue": [
+              "zurzeit"
+            ]
+          }
         ]
       }
     }
@@ -43663,12 +47294,32 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "Zwilling",
+              "der Zwilling",
+              "Zwillinge"
+            ]
+          },
+          {
+            "blue": [
+              "Zwillingsbruder",
+              "Zwillingsschwester"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "Zwillinge",
+              "die Zwillinge"
+            ]
+          },
+          {
+            "blue": [
+              "Zwillinge"
+            ]
+          }
         ]
       }
     }
@@ -43744,7 +47395,9 @@ const A2_WORDS = [
             "siehst",
             "Sieh",
             "Ich sehe dich",
-            "sich sehen"
+            "sich sehen",
+            "sehe",
+            "gesehen"
           ],
           "purple": [
             "opfatte med øjnene",
@@ -43852,12 +47505,36 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "sehen"
+            ],
+            "green": [
+              "schauen",
+              "ansehen"
+            ]
+          },
+          {
+            "blue": [
+              "sehen",
+              "sah",
+              "siehst",
+              "gesehen"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "Sieh"
+            ]
+          },
+          {
+            "blue": [
+              "sehen",
+              "sich sehen"
+            ]
+          }
         ]
       }
     }
@@ -43930,7 +47607,8 @@ const A2_WORDS = [
             "schaute",
             "hat geschaut",
             "Schau mal",
-            "gucken"
+            "gucken",
+            "Schau"
           ],
           "purple": [
             "kigge",
@@ -44038,12 +47716,33 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "schauen"
+            ],
+            "green": [
+              "sehen"
+            ]
+          },
+          {
+            "blue": [
+              "schauen",
+              "schaue"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "schauen",
+              "schaue"
+            ]
+          },
+          {
+            "blue": [
+              "hat geschaut"
+            ]
+          }
         ]
       }
     }
@@ -44114,7 +47813,9 @@ const A2_WORDS = [
             "ansehen",
             "sieht an",
             "sah an",
-            "hat angesehen"
+            "hat angesehen",
+            "an",
+            "sieht"
           ],
           "purple": [
             "se på",
@@ -44226,12 +47927,32 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "ansehen",
+              "an"
+            ]
+          },
+          {
+            "blue": [
+              "ansehen"
+            ],
+            "green": [
+              "anschauen"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "an"
+            ]
+          },
+          {
+            "green": [
+              "aussehen"
+            ]
+          }
         ]
       }
     }
@@ -44304,7 +48025,8 @@ const A2_WORDS = [
             "hörte",
             "hat gehört",
             "gehört",
-            "zuhören"
+            "zuhören",
+            "höre"
           ],
           "purple": [
             "høre",
@@ -44413,12 +48135,24 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
+          {
+            "blue": [
+              "hören"
+            ]
+          },
           {}
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "zuhören"
+            ]
+          },
+          {
+            "blue": [
+              "hören"
+            ]
+          }
         ]
       }
     }
@@ -44487,7 +48221,8 @@ const A2_WORDS = [
         "explanation": {
           "blue": [
             "sagen",
-            "sagt"
+            "sagt",
+            "gesagt"
           ],
           "purple": [
             "sige"
@@ -44594,12 +48329,27 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "sagen"
+            ]
+          },
+          {
+            "blue": [
+              "sagen"
+            ]
+          }
         ],
         "important": [
           {},
-          {}
+          {
+            "blue": [
+              "sagen"
+            ],
+            "green": [
+              "sprechen"
+            ]
+          }
         ]
       }
     }
@@ -44780,12 +48530,32 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "sprechen"
+            ]
+          },
+          {
+            "blue": [
+              "sprechen"
+            ],
+            "green": [
+              "reden"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "sprechen"
+            ]
+          },
+          {
+            "blue": [
+              "spricht",
+              "sprichst"
+            ]
+          }
         ]
       }
     }
@@ -44863,6 +48633,9 @@ const A2_WORDS = [
           "purple": [
             "stor",
             "høj"
+          ],
+          "green": [
+            "klein"
           ]
         },
         "examples": [
@@ -44966,12 +48739,35 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "groß"
+            ],
+            "green": [
+              "lang"
+            ]
+          },
+          {
+            "blue": [
+              "groß",
+              "größer",
+              "am größten"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "groß"
+            ]
+          },
+          {
+            "blue": [
+              "groß",
+              "großes",
+              "große"
+            ]
+          }
         ]
       }
     }
@@ -45153,12 +48949,36 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "hoch",
+              "hoher",
+              "hohe",
+              "hohes"
+            ]
+          },
+          {
+            "blue": [
+              "hoch",
+              "höher",
+              "am höchsten"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "hoher"
+            ]
+          },
+          {
+            "blue": [
+              "hoch"
+            ],
+            "green": [
+              "groß"
+            ]
+          }
         ]
       }
     }
@@ -45231,7 +49051,8 @@ const A2_WORDS = [
             "am kleinsten",
             "kleines",
             "kleine",
-            "groß"
+            "groß",
+            "kleinsten"
           ],
           "purple": [
             "lille"
@@ -45338,12 +49159,42 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "klein",
+              "kleiner",
+              "kleines",
+              "kleine"
+            ]
+          },
+          {
+            "blue": [
+              "klein",
+              "kleines"
+            ],
+            "green": [
+              "wenig"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "klein",
+              "kleine"
+            ],
+            "green": [
+              "wenig"
+            ]
+          },
+          {
+            "blue": [
+              "klein"
+            ],
+            "green": [
+              "jung"
+            ]
+          }
         ]
       }
     }
@@ -45415,7 +49266,8 @@ const A2_WORDS = [
             "leiser",
             "am leisesten",
             "still",
-            "Sei leise"
+            "Sei leise",
+            "leisesten"
           ],
           "purple": [
             "stille",
@@ -45524,12 +49376,34 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "leise"
+            ],
+            "green": [
+              "laut"
+            ]
+          },
+          {
+            "blue": [
+              "leiser"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "leise",
+              "still"
+            ]
+          },
+          {
+            "blue": [
+              "leise",
+              "still",
+              "Sei leise"
+            ]
+          }
         ]
       }
     }
@@ -45602,6 +49476,9 @@ const A2_WORDS = [
           "purple": [
             "allerede",
             "skal nok"
+          ],
+          "green": [
+            "schön"
           ]
         },
         "examples": [
@@ -45695,12 +49572,40 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "schon"
+            ],
+            "green": [
+              "noch nicht"
+            ]
+          },
+          {
+            "blue": [
+              "schon"
+            ],
+            "green": [
+              "bereits"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "schon"
+            ],
+            "green": [
+              "noch nicht"
+            ]
+          },
+          {
+            "blue": [
+              "schon"
+            ],
+            "green": [
+              "schön"
+            ]
+          }
         ]
       }
     }
@@ -45881,12 +49786,30 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "noch",
+              "noch nicht"
+            ]
+          },
+          {
+            "blue": [
+              "noch"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "noch",
+              "noch nicht"
+            ]
+          },
+          {
+            "blue": [
+              "noch"
+            ]
+          }
         ]
       }
     }
@@ -46066,12 +49989,33 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "erst"
+            ]
+          },
+          {
+            "blue": [
+              "erst",
+              "Erst"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "erst"
+            ],
+            "green": [
+              "erste"
+            ]
+          },
+          {
+            "blue": [
+              "erst",
+              "nur"
+            ]
+          }
         ]
       }
     }
@@ -46250,12 +50194,29 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "nur",
+              "Nur"
+            ]
+          },
+          {
+            "green": [
+              "bloß"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "nur"
+            ]
+          },
+          {
+            "blue": [
+              "nur"
+            ]
+          }
         ]
       }
     }
@@ -46326,9 +50287,7 @@ const A2_WORDS = [
             "über",
             "über dem Tisch",
             "über die Brücke",
-            "sprechen über",
-            "akkusativ",
-            "dativ"
+            "sprechen über"
           ],
           "purple": [
             "over",
@@ -46438,12 +50397,24 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
+          {
+            "blue": [
+              "über"
+            ]
+          },
           {}
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "über"
+            ]
+          },
+          {
+            "blue": [
+              "über"
+            ]
+          }
         ]
       }
     }
@@ -46625,12 +50596,31 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "drinnen",
+              "draußen"
+            ]
+          },
+          {
+            "blue": [
+              "drin"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "drinnen",
+              "herein"
+            ]
+          },
+          {
+            "blue": [
+              "drin",
+              "drinnen"
+            ]
+          }
         ]
       }
     }
@@ -46809,12 +50799,34 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "gleich"
+            ],
+            "green": [
+              "sofort"
+            ]
+          },
+          {
+            "blue": [
+              "gleiche"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "gleich"
+            ],
+            "green": [
+              "ähnlich"
+            ]
+          },
+          {
+            "blue": [
+              "gleich"
+            ]
+          }
         ]
       }
     }
@@ -46888,6 +50900,9 @@ const A2_WORDS = [
           "purple": [
             "også",
             "heller ikke"
+          ],
+          "green": [
+            "auch nicht"
           ]
         },
         "examples": [
@@ -46991,12 +51006,35 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "auch",
+              "Auch"
+            ]
+          },
+          {
+            "blue": [
+              "auch"
+            ],
+            "green": [
+              "ebenfalls"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "auch"
+            ]
+          },
+          {
+            "blue": [
+              "auch"
+            ],
+            "green": [
+              "auch nicht"
+            ]
+          }
         ]
       }
     }

@@ -8152,7 +8152,14 @@ function renderStudyCard(card, autoplayToken = cardAutoplayToken) {
     let coveredUntil = -1;
     for (const { accent, term } of rules) {
       const candidates = [];
-      const boundaryRegex = new RegExp(accentBoundaryPattern(term), "giu");
+      // Vācu krāsas (zila/zaļa) — reģistrjutīgi (pieļaujot lielo sākumburtu), lai neiekrāsotu tāda paša izskata dzimtās valodas vārdus (Hand/hand, Gas/gas).
+      const germanAccent = accent === "blue" || accent === "green";
+      const capitalized = term.charAt(0).toUpperCase() + term.slice(1);
+      const termPattern = (value) => germanAccent && capitalized !== term
+        ? "(?:" + accentBoundaryPattern(value) + "|" + accentBoundaryPattern(value.charAt(0).toUpperCase() + value.slice(1)) + ")"
+        : accentBoundaryPattern(value);
+      const accentFlags = germanAccent ? "gu" : "giu";
+      const boundaryRegex = new RegExp(termPattern(term), accentFlags);
       for (const match of raw.matchAll(boundaryRegex)) {
         candidates.push({
           accent,
@@ -8165,7 +8172,7 @@ function renderStudyCard(card, autoplayToken = cardAutoplayToken) {
       if (!candidates.length && term.length >= 4) {
         const stem = term.replace(/(?:en|ern|eln)$/i, "");
         if (stem.length >= 3) {
-          const stemRegex = new RegExp(accentBoundaryPattern(stem) + "[\\p{L}\\p{N}_]*", "giu");
+          const stemRegex = new RegExp(termPattern(stem) + "[\\p{L}\\p{N}_]*", accentFlags);
           for (const match of raw.matchAll(stemRegex)) {
             candidates.push({
               accent,
@@ -8177,16 +8184,17 @@ function renderStudyCard(card, autoplayToken = cardAutoplayToken) {
           }
         }
       }
-      candidates.sort((a, b) => a.start - b.start || b.length - a.length);
-      for (const match of candidates) {
-        if (match.start >= coveredUntil) {
-          selected.push(match);
-          coveredUntil = match.end;
-          break;
-        }
+      selected.push(...candidates);
+    }
+    selected.sort((a, b) => a.start - b.start || b.length - a.length);
+    const chosen = [];
+    for (const match of selected) {
+      if (match.start >= coveredUntil) {
+        chosen.push(match);
+        coveredUntil = match.end;
       }
     }
-    return selected.sort((a, b) => a.start - b.start);
+    return chosen;
   };
   const formatStudyText = (value, accentRules = study.accents) => {
     const raw = String(value || "");

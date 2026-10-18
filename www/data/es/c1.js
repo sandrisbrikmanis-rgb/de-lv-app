@@ -416,10 +416,15 @@ const C1_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "Einfamilienhaus"
+            "Einfamilienhaus",
+            "Einfamilienhäuser"
           ],
           "purple": [
             "casa"
+          ],
+          "green": [
+            "das Mehrfamilienhaus",
+            "Mehrfamilienhaus"
           ]
         },
         "examples": [
@@ -512,10 +517,18 @@ const C1_WORDS = [
         ],
         "tip": [
           {},
-          {}
+          {
+            "blue": [
+              "Einfamilienhaus"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "Einfamilienhaus"
+            ]
+          }
         ]
       }
     }
@@ -955,12 +968,16 @@ const C1_WORDS = [
             "in der Öffentlichkeit",
             "an die Öffentlichkeit gehen",
             "unter Ausschluss der Öffentlichkeit",
-            "Gesellschaft"
+            "Gesellschaft",
+            "Öffentlichkeit"
           ],
           "purple": [
             "público",
             "opinión pública",
             "en público"
+          ],
+          "green": [
+            "die Gesellschaft"
           ]
         },
         "examples": [
@@ -1052,7 +1069,13 @@ const C1_WORDS = [
           }
         ],
         "tip": [
-          {},
+          {
+            "blue": [
+              "Öffentlichkeit",
+              "die Öffentlichkeit",
+              "in der Öffentlichkeit"
+            ]
+          },
           {}
         ],
         "important": [
@@ -1226,11 +1249,23 @@ const C1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "Partei"
+            ]
+          },
+          {
+            "blue": [
+              "Partei"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "Partei"
+            ]
+          }
         ]
       }
     }
@@ -1435,11 +1470,23 @@ const C1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "Prozess"
+            ]
+          },
+          {
+            "blue": [
+              "Prozess"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "Prozess"
+            ]
+          }
         ]
       }
     }
@@ -1890,7 +1937,9 @@ const C1_WORDS = [
             "fasst zusammen",
             "fasste zusammen",
             "zusammengefasst",
-            "Zusammenfassung"
+            "Zusammenfassung",
+            "fasste",
+            "fasst"
           ],
           "purple": [
             "resumir",
@@ -1987,11 +2036,24 @@ const C1_WORDS = [
         ],
         "tip": [
           {},
-          {}
+          {
+            "blue": [
+              "zusammenfassen"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "zusammengefasst",
+              "fasst"
+            ]
+          },
+          {
+            "green": [
+              "zusammenstellen"
+            ]
+          }
         ]
       }
     }
@@ -2197,11 +2259,26 @@ const C1_WORDS = [
           }
         ],
         "tip": [
-          {},
+          {
+            "blue": [
+              "Wahl",
+              "die Wahlen",
+              "Wahlen"
+            ]
+          },
           {}
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "Wahl",
+              "die Wahl"
+            ],
+            "green": [
+              "die Auswahl",
+              "Auswahl"
+            ]
+          }
         ]
       }
     }
@@ -2467,7 +2544,11 @@ const C1_WORDS = [
           }
         ],
         "tip": [
-          {},
+          {
+            "blue": [
+              "Befangenheit"
+            ]
+          },
           {}
         ],
         "important": [
@@ -2723,11 +2804,30 @@ const C1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "Berufung"
+            ]
+          },
+          {
+            "blue": [
+              "Berufung"
+            ],
+            "green": [
+              "der Beruf",
+              "Beruf"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "Berufung"
+            ],
+            "green": [
+              "Revision"
+            ]
+          }
         ]
       }
     }
@@ -3401,11 +3501,26 @@ const C1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "festgesetzt"
+            ]
+          },
+          {
+            "blue": [
+              "festgesetzt"
+            ],
+            "green": [
+              "festgelegt"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "festgesetzt"
+            ]
+          }
         ]
       }
     }
@@ -3763,11 +3878,30 @@ const C1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "gelegentlich"
+            ],
+            "green": [
+              "ab und zu"
+            ]
+          },
+          {
+            "blue": [
+              "gelegentlich"
+            ],
+            "green": [
+              "manchmal"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "gelegentlich",
+              "Gelegentlich"
+            ]
+          }
         ]
       }
     }
@@ -4855,7 +4989,8 @@ const C1_WORDS = [
             "verabschiedete",
             "verabschiedet",
             "von",
-            "Verabschiedung"
+            "Verabschiedung",
+            "verabschieden"
           ],
           "purple": [
             "despedirse",
@@ -4951,11 +5086,23 @@ const C1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "verabschiede"
+            ]
+          },
+          {
+            "blue": [
+              "von"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "verabschieden"
+            ]
+          }
         ]
       }
     }
@@ -5357,11 +5504,26 @@ const C1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "wahlberechtigt"
+            ],
+            "green": [
+              "wählbar"
+            ]
+          },
+          {
+            "blue": [
+              "Wahlberechtigten"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "wahlberechtigt"
+            ]
+          }
         ]
       }
     }
@@ -5608,11 +5770,23 @@ const C1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "Zuschlag"
+            ]
+          },
+          {
+            "blue": [
+              "Zuschlag"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "Zuschläge"
+            ]
+          }
         ]
       }
     }
@@ -5778,12 +5952,32 @@ const C1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "beziehen",
+              "sich beziehen",
+              "auf"
+            ]
+          },
+          {
+            "blue": [
+              "beziehen",
+              "sich beziehen",
+              "auf"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "beziehen"
+            ]
+          },
+          {
+            "green": [
+              "betreffen"
+            ]
+          }
         ]
       }
     }
@@ -5850,7 +6044,8 @@ const C1_WORDS = [
             "beabsichtigt",
             "beabsichtigte",
             "vorhaben",
-            "Absicht"
+            "Absicht",
+            "beabsichtige"
           ],
           "purple": [
             "tener la intención",
@@ -5947,11 +6142,27 @@ const C1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "beabsichtigen"
+            ]
+          },
+          {
+            "blue": [
+              "beabsichtigen",
+              "vorhaben"
+            ],
+            "green": [
+              "planen"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "beabsichtigt"
+            ]
+          }
         ]
       }
     }
@@ -6109,11 +6320,24 @@ const C1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "unterstellen"
+            ]
+          },
+          {
+            "blue": [
+              "unterstellen",
+              "unterstellt"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "unterstellen"
+            ]
+          }
         ]
       }
     }
@@ -6180,12 +6404,18 @@ const C1_WORDS = [
             "setzt voraus",
             "setzte voraus",
             "vorausgesetzt",
-            "Voraussetzung"
+            "Voraussetzung",
+            "setzt",
+            "setzte",
+            "Vorausgesetzt"
           ],
           "purple": [
             "presuponer",
             "dar por sentado",
             "requisito"
+          ],
+          "green": [
+            "die Voraussetzung"
           ]
         },
         "examples": [
@@ -6277,11 +6507,24 @@ const C1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "setzt"
+            ]
+          },
+          {
+            "blue": [
+              "voraussetzen"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "vorausgesetzt",
+              "setzt"
+            ]
+          }
         ]
       }
     }
@@ -6447,12 +6690,33 @@ const C1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "bewahren",
+              "Ruhe bewahren"
+            ]
+          },
+          {
+            "blue": [
+              "bewahren",
+              "vor"
+            ]
+          }
         ],
         "important": [
-          {},
-          {}
+          {
+            "blue": [
+              "bewahren"
+            ],
+            "green": [
+              "aufbewahren"
+            ]
+          },
+          {
+            "blue": [
+              "bewahrt"
+            ]
+          }
         ]
       }
     }
@@ -6518,7 +6782,9 @@ const C1_WORDS = [
             "aufrechterhalten",
             "erhält aufrecht",
             "erhielt aufrecht",
-            "aufrechtzuerhalten"
+            "aufrechtzuerhalten",
+            "erhält",
+            "erhielt"
           ],
           "purple": [
             "mantener",
@@ -6614,11 +6880,26 @@ const C1_WORDS = [
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "erhält"
+            ]
+          },
+          {
+            "blue": [
+              "aufrechterhalten"
+            ],
+            "green": [
+              "pflegen"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "aufrechterhalten"
+            ]
+          }
         ]
       }
     }
