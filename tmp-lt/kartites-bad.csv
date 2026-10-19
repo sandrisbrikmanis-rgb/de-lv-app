@@ -1,0 +1,75 @@
+id,verdikts,kategorija,piezime
+K14473,BAD,TULKOJUMS,gloss: „praktiškas“ → „praktinis“
+K21845,BAD,TULKOJUMS,examples[0]: „Jis nuo vakar viduriuoja“ → „nuoširdus žmogus“; examples[1]: „Viduriuojant reikėtų daug gerti“ → „nuoširdžiai dėkoju“
+K24844,BAD,TULKOJUMS,examples[0]: „Miške pamatėme gyvatę“ → „pilis ant kalvos“; examples[1]: „Gyvatė nenuodinga“ → „ryt apžiūrėsime pilį“
+K97491,BAD,VALODAS FAKTS,"explanation: „Kilmė ta pati kaip lietuvių žodžio „dar““ — nav radniecīgi, svītrot"
+K19915,BAD,VALODAS FAKTS,"explanation: „(loze)“ — latviešu vārds, svītrot"
+K30531,BAD,VALODAS FAKTS,examples[1]: „to gabalėlį“ → „gabalėlio“
+K33900,BAD,VALODAS FAKTS,examples[4]: „nuoširdžių linkėjimų“ → „nuoširdžius linkėjimus“ (perduoti + galininkas)
+K84658,BAD,TULKOJUMS,examples[0]: „Šiuo metu jis yra apsistojęs Berlyne“ → „Ką tu pasakei?“; examples[1]: „Turistai ilgai užtruko muziejuje“ → „Pasakyk man tiesą.“
+K29306,BAD,VALODAS FAKTS,explanation: „reiškiantis prašymas“ → „reiškiantis prašymą“
+K56189,BAD,VALODAS FAKTS,"explanation: „(prasīt)“ — latviešu vārds, dzēst"
+K95686,BAD,TULKOJUMS,examples[0]: „Kiekvieną rytą laistau gėles“ neatbilst „Die Firma besteht seit dreißig Jahren“; examples[1]: „Ji įpila vandens į stiklinę“ neatbilst „Es besteht keine Gefahr“.
+K93376,BAD,TULKOJUMS,examples[0]: „Federalinė valdžia ir žemės ginčijasi dėl pinigų“ neatbilst „Wir laden die Kisten ins Auto“; examples[1]: „Abi valstybės sudarė sąjungą“ neatbilst „Der Fahrer lädt die Paletten auf den Lkw“.
+K65881,BAD,VALODAS FAKTS,explanation „Kilmė ta pati kaip lietuvių žodžio „tarp jų“.“ ir nepatiess apgalvojums; Bauer nav radniecīgs „tarp jų“.
+K27079,BAD,VALODAS FAKTS,explanation «saprast» → «suprasti»
+K11696,BAD,VALODAS FAKTS,explanation «Kilmė ta pati kaip lietuvių žodžio „iš tikrųjų“» → svītrot (nav kopīgas cilmes)
+K40768,BAD,VĀCU FAKTS,explanation «hat gerast» → «ist gerast» (sirdij sein)
+K43271,BAD,VALODAS FAKTS,explanation «Kilmė ta pati kaip lietuvių žodžio „smaigalys“» → svītrot (nav kopīgas cilmes)
+K49852,BAD,TULKOJUMS,gloss «išleidimo metai» → «laida; derlius»
+K40251,BAD,TULKOJUMS,examples[3] „Šiuo numeriu abonentas nepasiekiamas“ → „Šiuo numeriu nėra ryšio“ (numurs nav pieslēgts).
+K17728,BAD,TULKOJUMS,gloss „neatidėliotinas“ → „nedelsiant“ (neatidėliotinas ir steidzams).
+K13153,BAD,TULKOJUMS,examples[3] „Jai prasidėjo menstruacijos“ → „Jai menstruacijos“ (hat ir tagadne).
+K86619,BAD,TULKOJUMS,comparison[0] „Sportas stiprina sveikatą“ → „Sportas skatina sveikatą“ (fördert nav stärkt).
+K38051,BAD,VALODAS FAKTS,comparison[3] „Pakviečiame draugų“ → „pakviečiame draugus“
+K52442,BAD,TULKOJUMS,"examples[1] „Žiemą ežerą dengia ledas“ → „Lyja, taigi liekame namie“; examples[2] „Aš mėgstu valgyti ledus“ → „Esi pavargęs, taigi eik miegoti“"
+K79139,BAD,VALODAS FAKTS,explanation „aizmigt“ ir latviešu vārds; jābūt „užmigti“
+K52717,BAD,VALODAS FAKTS,"examples[3] ""leistis apgaunamam išorės"" → ""apsigauti dėl išorės""."
+K30719,BAD,TULKOJUMS,"explanation ""patiekalą, eilę"" → ""patiekalą"" (eilė nav patiekalas)."
+K28720,BAD,VĀCU FAKTS,"explanation ""fauler, faulst"" → ""fauler, am faulsten""."
+K67105,BAD,TULKOJUMS,explanation „beim Fernsehen (dirbant televizijoje)“ — nav „dirbant“; labojums: žiūrint televizorių.
+K90972,BAD,TULKOJUMS,examples[0] „Mes važiuojame autobusu“ → Mūsų vaikui reikia pas vaikų gydytoją; examples[1] „Jis važiuoja į Berlyną“ → Vaikų gydytoja apžiūri berniuką.
+K48266,BAD,TULKOJUMS,examples[3] „Laiptinėje stovi du vaikiški vežimėliai“ — Hausflur ir priekšnams; labojums: Koridoriuje.
+K66709,BAD,TULKOJUMS,"examples[0] „be to, geriu vandenį“ — dazu pie ēdiena ir pavadinājums; labojums: prie to geriu vandenį."
+K59262,BAD,VĀCU FAKTS,explanation: „Retai reiškia ir išvažiuoti“ — izbraukšana nav reta nozīme; svītrot Retai.
+K65834,BAD,VALODAS FAKTS,explanation: „apkalpot“ nav lietuviešu vārds (latviešu apkalpot); rakstīt valdyti.
+K32373,BAD,TULKOJUMS,examples[1]: „antrame aukšte“ neatbilst im zweiten Stock; rakstīt trečiame aukšte.
+K88386,BAD,VALODAS FAKTS,explanation: „izrietēt“ ir latviešu vārds; svītrot (šeit nozīme ir pasiduoti).
+K58857,BAD,TULKOJUMS,examples[0] „Perku du litrus pieno.“ neatbilst teikumam Opa erzählt eine Geschichte; jābūt: Senelis pasakoja istoriją. examples[1] „Kiek litrų vandens išgeri per dieną?“ neatbilst teikumam Das ist eine lange Geschichte; jābūt: Tai ilga istorija.
+K41644,BAD,VALODAS FAKTS,explanation „ugunsgrēks“ ir latviešu vārds; jābūt: gaisrai.
+K41949,BAD,TULKOJUMS,comparison[0] „sodo planą“ neatbilst den Garten; jābūt: sodą.
+K81489,BAD,TULKOJUMS,"examples[0] „Gydytojas man pataria daugiau judėti.“ neatbilst Ich rate dir, früher ins Bett zu gehen; jābūt: Patariu tau anksčiau eiti miegoti. examples[1] „Patariu tau anksčiau eiti miegoti.“ neatbilst Der Arzt rät mir zu mehr Bewegung; jābūt: Gydytojas man pataria daugiau judėti."
+K72253,BAD,TULKOJUMS,note „zunehmender Mond reiškia priešpilnį“ — jālabo uz pilnėjantį mėnulį.
+K11219,BAD,VALODAS FAKTS,explanation „Beasmene forma“ — jābūt Beasmenė (ar ė).
+K90093,BAD,TULKOJUMS,examples[3] „Pacientei skiriami nauji vaistai“ — vienskaitlis: gauna naują vaistą.
+K50428,BAD,VALODAS FAKTS,comparison[2] „Perduok jam linkėjimų“ — akuzatīvs linkėjimus.
+K54059,BAD,VALODAS FAKTS,examples[2] „įlūžo ledu“ — lokatīvs įlūžo lede.
+K64501,BAD,TULKOJUMS,examples[0] „Bilietas galioja dvi valandas“ neatbilst (sklypas užstatomas namais); examples[1] „Ši taisyklė taikoma visiems“ neatbilst (ūkininkai sēj kviečius).
+K26173,BAD,TULKOJUMS,examples[0] „Įstatymas reglamentuoja darbo laiką“ neatbilst „Wir regeln das morgen“; jābūt „Sutvarkysime tai rytoj“. examples[1] „Sutvarkysime tai rytoj“ neatbilst „Das Gesetz regelt die Arbeitszeit“; jābūt „Įstatymas reglamentuoja darbo laiką“.
+K52705,BAD,VĀCU FAKTS,explanation „sich jeden Kommentars enthalten“ — ģenitīvs ir „jedes Kommentars“. examples[3] „nesijuokęs“ neatbilst „des Lachens“; labojums: nuo juoko.
+K16416,BAD,TULKOJUMS,examples[0] „Seną kompiuterį pakeičiame nauju“ neatbilst „Ich höre dich nicht gut“; labojums: Negirdžiu tavęs gerai. examples[1] „Niekas negali jos pakeisti“ neatbilst „Er hört gern Jazz“; labojums: Jis mielai klauso džiazo.
+K56955,BAD,TULKOJUMS,examples[0] „Kasdien seku naujienas“ neatbilst „Die Polizei verfolgt den Dieb“; jābūt „Policija vejasi vagį“. examples[1] „Policija vejasi vagį“ neatbilst „Ich verfolge jeden Tag die Nachrichten“; jābūt „Kasdien seku naujienas“.
+K69869,BAD,VALODAS FAKTS,explanation „aizslēgt“ ir latviešu vārds; „užrakinti“.
+K48083,BAD,TULKOJUMS,examples[0]: „auga kaštonas“ neatbilst „steht“; jābūt „stovi“.
+K16938,BAD,VALODAS FAKTS,explanation „rasties“ — latviešu forma; jābūt „rastis“.
+K49545,BAD,TULKOJUMS,examples[3] „Kursai vyksta“ → „Kursas vyksta“.
+K63513,BAD,VALODAS FAKTS,"explanation „(ass)“ — svešvārds, svītrot; jābūt „staigiai stabdyti“."
+K81483,BAD,VĀCU FAKTS,explanation „tik nuvežimą ar nunešimą“ — bringen nozīmē arī atnešti.
+K22361,BAD,TULKOJUMS,examples[0] „Jo polinkis rizikuoti yra žinomas“ → „Ji turi polinkį į muziką“; examples[1] „Ji turi polinkį į muziką“ → „Jo polinkis rizikuoti yra žinomas“.
+K55390,BAD,VALODAS FAKTS,"explanation „Kilmė ta pati kaip lietuvių žodžio „priešais““ — nav radniecīgi, svītrot."
+K89188,BAD,TULKOJUMS,comparison[0] „Medis auga sode“ → „Medis stovi sode“.
+K13966,BAD,TULKOJUMS,"examples[0] „Kambarys mažas, bet jaukus“ → „Abi rankinės vienodos“; examples[1] „Kai buvau mažas, gyvenau kaime“ → „Man tas pats“."
+K19194,BAD,TULKOJUMS,gloss „skurdus“ → „nepakankamas; vos; ankštas“.
+K25032,BAD,VALODAS FAKTS,examples[3] „jaučia skrandžio negalavimų“ → „negalavimus“ (akuzatīvs).
+K76418,BAD,TULKOJUMS,examples[0] „Siuntinys sveria du kilogramus“ → „Jis išėjo nepasakęs nė žodžio“; examples[1] „Kiek tu sveri?“ → „Negali išeiti nesumokėjęs“.
+K27141,BAD,TULKOJUMS,examples[0] „Jis atsigavo po sąmonės netekimo“ → „Ji staiga nualpo“; examples[1] „Ji staiga nualpo“ → „Jis atsigavo po sąmonės netekimo“.
+K63340,BAD,TULKOJUMS,examples[0] „Meras įteikė nugalėtojui prizą“ → „Jis perduoda viršininkui laišką“; examples[1] „Jis perduoda viršininkui laišką“ → „Meras įteikė nugalėtojui prizą“.
+K11785,BAD,TULKOJUMS,examples[0] „Mano telefonas naujas“ neatbilst; jābūt „Prašom nusivilkti paltą“. examples[1] „Mes turime naują automobilį“ neatbilst; jābūt „Ji padeda krepšį ant kėdės“.
+K73700,BAD,VALODAS FAKTS,tip „rösten siek su“ — „siek“ nav lietuviešu forma; jābūt „sieja“.
+K87615,BAD,TULKOJUMS,examples[0] „Knyga yra krepšyje“ un examples[1] „Aš gyvenu Rygoje“ ir samainīti; pirmajam jābūt „Aš gyvenu Rygoje“.
+K12916,BAD,TULKOJUMS,examples[0] „Nuteistasis prašė pasigailėjimo“ neatbilst; jābūt „Akmuo labai kietas“. examples[1] „Prezidentas parodė malonę“ neatbilst; jābūt „Tai buvo sunkus laikas“.
+K91175,BAD,VALODAS FAKTS,explanation: „Kilmė ta pati kaip lietuvių žodžio“ — nepatiess: Urlaub nav radniecīgs vārdam vienetas (saistīts ar erlauben).
+K79734,BAD,TULKOJUMS,examples[0]: „Vyras sėdi ant kėdės“ — jābūt: Ryžiai išvirę; examples[1]: „Sėdime traukinyje į Berlyną“ — jābūt: Mėgstu ryžius su daržovėmis.
+K62051,BAD,VALODAS FAKTS,"explanation: „(caur)“ — latviešu vārds; svītrot (jau ir „per, pro“)."
+K80293,BAD,VALODAS FAKTS,examples[2]: „tepalioja“ → teplioja; explanation: „tepalioti“ → teplioti.
+K27468,BAD,VALODAS FAKTS,explanation: „kenkti“ → nav radniecīgs (hoch un kenkti nav vienas cilmes).
