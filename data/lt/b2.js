@@ -81,7 +81,7 @@ const B2_WORDS = [
   },
   {
     "de": "anbelangen",
-    "lv": "taikytis kam",
+    "lv": "liesti",
     "level": "B2"
   },
   {
@@ -110,7 +110,206 @@ const B2_WORDS = [
   {
     "de": "angebracht",
     "lv": "tinkamas • derantis",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-angebracht",
+      "layout": "standardStudy",
+      "translation": "tinkamas • derantis",
+      "explanation": [
+        "Pagrindinė mintis: angebracht – būdvardis (iš anbringen), reiškiantis tinkamas, derantis, vietoje esantis konkrečioje situacijoje. Paprastai vartojamas tarinyje su sein: Vorsicht ist angebracht.",
+        "Juo vertinamas elgesys, pastaba ar veiksmas: ar jis tinkamas, ar netinkamas (nicht angebracht, unangebracht). Junginiai: ein angebrachter Ton, eine angebrachte Bemerkung.",
+        "Tiesiogine prasme angebracht reiškia ir pritvirtintas: Das Schild ist an der Tür angebracht (lentelė pritvirtinta prie durų). Tai ta pati dalyvio forma iš anbringen (bringt an, brachte an, hat angebracht)."
+      ],
+      "examples": [
+        {
+          "de": "Hier ist Vorsicht angebracht.",
+          "lv": "Čia derėtų būti atsargiems."
+        },
+        {
+          "de": "Seine Bemerkung war nicht angebracht.",
+          "lv": "Jo pastaba buvo netinkama."
+        },
+        {
+          "de": "Ein freundlicher Ton ist hier angebracht.",
+          "lv": "Čia tinka draugiškas tonas."
+        },
+        {
+          "de": "Ich halte das für angebracht.",
+          "lv": "Manau, kad tai tinkama."
+        },
+        {
+          "de": "Das Schild ist an der Tür angebracht.",
+          "lv": "Lentelė pritvirtinta prie durų."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "passend",
+          "meaning": "tinkamas",
+          "example": "Das ist ein passendes Geschenk. – Tai tinkama dovana."
+        },
+        {
+          "word": "angemessen",
+          "meaning": "deramas, adekvatus",
+          "example": "Der Preis ist angemessen. – Kaina adekvati."
+        },
+        {
+          "word": "unangebracht",
+          "meaning": "netinkamas",
+          "example": "Das war ein unangebrachter Witz. – Tai buvo netinkamas pokštas."
+        }
+      ],
+      "tip": [
+        "Posakis Das ist angebracht vartojamas situacijai įvertinti; priešingu atveju tinka unangebracht.",
+        "Dažnos kolokacijos: Vorsicht ist angebracht, Zurückhaltung ist angebracht."
+      ],
+      "important": [
+        "Angebracht paprastai vartojamas su sein; prieš daiktavardį jis gauna galūnę: eine angebrachte Bemerkung.",
+        "Nepainiok su angemessen: angebracht – tinkama vieta ir momentas, angemessen – atitikimas saikui."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "angebracht",
+            "anbringen",
+            "unangebracht"
+          ],
+          "purple": [
+            "tinkamas",
+            "derantis",
+            "pritvirtinta"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "angebracht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "derėtų"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "angebracht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "netinkama"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "angebracht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tinka"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "angebracht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tinkama"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "angebracht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pritvirtinta"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "passend"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "tinkamas"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "angemessen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "deramas"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "unangebracht"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "netinkamas"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "angebracht",
+              "unangebracht"
+            ]
+          },
+          {
+            "blue": [
+              "angebracht"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "angebracht"
+            ]
+          },
+          {
+            "blue": [
+              "angebracht"
+            ],
+            "green": [
+              "angemessen"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "angehen",
@@ -119,7 +318,7 @@ const B2_WORDS = [
   },
   {
     "de": "angehören",
-    "lv": "priklausyti kam",
+    "lv": "priklausyti",
     "level": "B2"
   },
   {
@@ -131,7 +330,7 @@ const B2_WORDS = [
   },
   {
     "de": "allerhand",
-    "lv": "visaip • įvairiai",
+    "lv": "visoks • įvairus",
     "level": "B2"
   },
   {
@@ -233,12 +432,12 @@ const B2_WORDS = [
   },
   {
     "de": "abfällig",
-    "lv": "nepalankus • negatyvus • blogas • atmetantis",
+    "lv": "nepalankus • neigiamas • niekinantis",
     "level": "B2"
   },
   {
     "de": "abfertigen",
-    "lv": "išsiųsti • nusiųsti • aptarnauti • elgtis nemandagiai",
+    "lv": "išsiųsti • aptarnauti • nemandagiai atsikratyti",
     "level": "B2"
   },
   {
@@ -247,32 +446,371 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-abfinden",
-      "layout": "minimalStudy",
+      "layout": "standardStudy",
       "translation": "susitaikyti su",
-      "rektion": "mit + kam?",
-      "explanation": "sich abfinden reikalauja nustatyto prielinksnio mit + kam?.",
-      "forms": "mit + kam?",
-      "formsLabel": "Valdymas:",
+      "explanation": [
+        "Pagrindinė mintis: sich abfinden mit – sangrąžinis veiksmažodis, reiškiantis susitaikyti su kuo nors nemaloniu, ko negalima pakeisti. Po mit eina Dativ: sich mit etwas abfinden.",
+        "Formos: er findet sich ab, fand sich ab, hat sich abgefunden. Priešdėlis ab- skiriamasis: Ich finde mich damit ab. Perfekte pagalbinis veiksmažodis yra haben, o ge įsiterpia tarp ab- ir veiksmažodžio.",
+        "Be sangrąžinio įvardžio abfinden reiškia kompensuoti: jemanden mit Geld abfinden (atlyginti kam nors pinigais)."
+      ],
+      "examples": [
+        {
+          "de": "Er kann sich nicht mit der Niederlage abfinden.",
+          "lv": "Jis negali susitaikyti su pralaimėjimu."
+        },
+        {
+          "de": "Sie hat sich mit ihrem Schicksal abgefunden.",
+          "lv": "Ji susitaikė su savo likimu."
+        },
+        {
+          "de": "Wir müssen uns damit abfinden.",
+          "lv": "Turime su tuo susitaikyti."
+        },
+        {
+          "de": "Mit dem neuen Chef finde ich mich langsam ab.",
+          "lv": "Su naujuoju viršininku pamažu susitaikau."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich gewöhnen an",
+          "meaning": "priprasti prie",
+          "example": "Ich gewöhne mich an die Kälte. – Pratinuosi prie šalčio."
+        },
+        {
+          "word": "akzeptieren",
+          "meaning": "priimti, pripažinti",
+          "example": "Wir akzeptieren die Entscheidung. – Priimame sprendimą."
+        },
+        {
+          "word": "sich fügen",
+          "meaning": "paklusti",
+          "example": "Er fügt sich dem Beschluss. – Jis paklūsta nutarimui."
+        }
+      ],
+      "tip": [
+        "Po mit vartojamas Dativ: mit dem Verlust, mit der Situation. Su įvardžiu sakoma damit.",
+        "Jei nori pasakyti, kad nenusileisi, sakyk Ich finde mich nicht damit ab."
+      ],
+      "important": [
+        "Nepainiok su abfinden be sich: jis reiškia kompensuoti arba atsiskaityti pinigais.",
+        "Perfekto forma yra sich abgefunden (su -ge- viduryje), o ne gabgefunden."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
+            "abfinden",
+            "abgefunden",
+            "findet",
+            "finde",
+            "fand",
             "sich abfinden"
           ],
-          "red": [
-            "mit + kam?"
+          "purple": [
+            "susitaikyti",
+            "susitaik"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "abfinden"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "susitaikyti",
+                "susitaik"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "abgefunden"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "susitaikė",
+                "susitaik"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "abfinden"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "susitaik"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "finde"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "susitaikau",
+                "susitaik"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich gewöhnen an"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "priprasti prie"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "akzeptieren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "priimti"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich fügen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "paklusti"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {
+            "blue": [
+              "finde"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "abfinden"
+            ]
+          },
+          {
+            "blue": [
+              "abgefunden"
+            ]
+          }
+        ]
       }
     }
   },
   {
     "de": "abgesehen",
-    "lv": "nors • be to",
-    "level": "B2"
+    "lv": "išskyrus • neskaitant",
+    "level": "B2",
+    "study": {
+      "id": "b2-abgesehen",
+      "layout": "standardStudy",
+      "translation": "išskyrus • neskaitant",
+      "explanation": [
+        "Pagrindinė mintis: abgesehen – dalyvio forma, kuri su von veikia kaip prielinksnis ir reiškia išskyrus arba neskaitant: Abgesehen vom Wetter war alles gut.",
+        "Po abgesehen von eina Dativ: abgesehen von einem Fehler. Jei eina visas sakinys, vartojama abgesehen davon, dass …, o veiksmažodis eina šalutinio sakinio gale."
+      ],
+      "examples": [
+        {
+          "de": "Abgesehen vom Wetter war der Urlaub schön.",
+          "lv": "Išskyrus orą, atostogos buvo puikios."
+        },
+        {
+          "de": "Abgesehen davon, dass es teuer ist, gefällt es mir.",
+          "lv": "Neskaitant to, kad tai brangu, man patinka."
+        },
+        {
+          "de": "Abgesehen von einem Kratzer ist das Auto in Ordnung.",
+          "lv": "Išskyrus įbrėžimą, automobilis tvarkingas."
+        },
+        {
+          "de": "Abgesehen von ihr waren alle da.",
+          "lv": "Išskyrus ją, visi buvo."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "außer",
+          "meaning": "išskyrus",
+          "example": "Alle außer mir waren da. – Visi, išskyrus mane, buvo."
+        },
+        {
+          "word": "bis auf",
+          "meaning": "išskyrus",
+          "example": "Bis auf einen Fehler war alles richtig. – Išskyrus vieną klaidą, viskas buvo teisinga."
+        },
+        {
+          "word": "einschließlich",
+          "meaning": "įskaitant",
+          "example": "Der Preis gilt einschließlich Frühstück. – Kaina galioja įskaitant pusryčius."
+        }
+      ],
+      "tip": [
+        "Po abgesehen visada dedamas von (arba davon, dass): abgesehen von dir.",
+        "Dažna pastabos pradžia: Abgesehen davon … (Neskaitant to …)."
+      ],
+      "important": [
+        "Abgesehen paprastai vartojamas su von arba davon, dass, kad būtų aišku, kas išskiriama.",
+        "Po abgesehen von daiktavardis yra Dativ: abgesehen vom Preis (= von dem Preis)."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Abgesehen",
+            "abgesehen"
+          ],
+          "purple": [
+            "išskyrus",
+            "neskaitant"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Abgesehen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Išskyrus"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Abgesehen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Neskaitant"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Abgesehen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Išskyrus"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Abgesehen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Išskyrus"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "außer"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "išskyrus"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "bis auf"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "išskyrus"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "einschließlich"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "įskaitant"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "abgesehen"
+            ]
+          },
+          {
+            "blue": [
+              "abgesehen",
+              "Abgesehen"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "abgesehen",
+              "Abgesehen"
+            ]
+          },
+          {
+            "blue": [
+              "abgesehen"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "abgespannt",
-    "lv": "pavargęs • persivargęs",
+    "lv": "pavargęs • pervargęs",
     "level": "B2"
   },
   {
@@ -294,7 +832,7 @@ const B2_WORDS = [
   },
   {
     "de": "abhören",
-    "lv": "išklausyti • slapta klausytis",
+    "lv": "pasiklausyti • slapta klausytis",
     "level": "B2"
   },
   {
@@ -354,7 +892,7 @@ const B2_WORDS = [
   },
   {
     "de": "abschlagen",
-    "lv": "nukirsti • atmušti • atremti • atmesti",
+    "lv": "nukirsti • atremti • atmesti",
     "level": "B2"
   },
   {
@@ -424,8 +962,199 @@ const B2_WORDS = [
   },
   {
     "de": "abtragen",
-    "lv": "nunešti • sunešioti (nudėvėti) • nugriauti",
-    "level": "B2"
+    "lv": "nunešti • sunešioti • nugriauti",
+    "level": "B2",
+    "study": {
+      "id": "b2-abtragen",
+      "layout": "standardStudy",
+      "translation": "nunešti • sunešioti • nugriauti",
+      "explanation": [
+        "Pagrindinė mintis: abtragen – skiriamasis veiksmažodis, turintis kelias reikšmes: nunešioti drabužį, nugriauti ar nukasti (pastatą, kalvą), nunešti (pvz., lėkštes nuo stalo). Formos: trägt ab, trug ab, hat abgetragen.",
+        "Dalyvis abgetragen dažnai apibūdina nunešiotus drabužius: abgetragene Schuhe. Statybose abtragen reiškia palaipsniui nugriauti ar nuimti: eine Mauer abtragen.",
+        "Be to, abtragen reiškia palaipsniui išmokėti skolas: Schulden abtragen. Visomis reikšmėmis priešdėlis ab- atskiriamas: Er trägt die Teller ab."
+      ],
+      "examples": [
+        {
+          "de": "Die Schuhe sind schon stark abgetragen.",
+          "lv": "Batai jau labai nunešioti."
+        },
+        {
+          "de": "Man trägt die alte Mauer Stein für Stein ab.",
+          "lv": "Senoji siena ardoma akmuo po akmens."
+        },
+        {
+          "de": "Die Kellnerin trägt die Teller ab.",
+          "lv": "Padavėja nuneša lėkštes."
+        },
+        {
+          "de": "Er trägt seine Schulden in Raten ab.",
+          "lv": "Jis skolas grąžina dalimis."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "abreißen",
+          "meaning": "nugriauti",
+          "example": "Man hat das alte Haus abgerissen. – Senąjį namą nugriovė."
+        },
+        {
+          "word": "abräumen",
+          "meaning": "nukraustyti (stalą)",
+          "example": "Sie räumt den Tisch ab. – Ji nukrausto stalą."
+        },
+        {
+          "word": "verschleißen",
+          "meaning": "nusidėvėti",
+          "example": "Die Reifen verschleißen schnell. – Padangos greitai nusidėvi."
+        }
+      ],
+      "tip": [
+        "Reikšmę lemia kontekstas: kalbant apie drabužius abtragen – nunešioti, apie sieną – nugriauti, apie maistą – nunešti.",
+        "Restorane valgio metu dažnai išgirsi abtragen, kai nukraustomas stalas."
+      ],
+      "important": [
+        "Nepainiok abtragen su abreißen: abreißen – greitai ir visiškai nugriauti pastatą, abtragen – palaipsniui nuimti.",
+        "Perfektas: hat abgetragen (su ge- tarp ab- ir tragen)."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "abtragen",
+            "trägt ab",
+            "trug ab",
+            "abgetragen",
+            "trägt",
+            "ab"
+          ],
+          "purple": [
+            "nunešioti",
+            "nugriauti",
+            "nunešti",
+            "nunešiotus",
+            "išmokėti"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "abgetragen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nunešioti"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "trägt",
+                "ab"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ardoma"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "trägt",
+                "ab"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nuneša"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "trägt",
+                "ab"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "grąžina"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "abreißen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "nugriauti"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "abräumen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "nukraustyti"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "verschleißen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "nusidėvėti"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "abtragen"
+            ]
+          },
+          {
+            "blue": [
+              "abtragen"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "abtragen"
+            ],
+            "green": [
+              "abreißen"
+            ]
+          },
+          {
+            "blue": [
+              "abgetragen",
+              "ab"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "abtreten",
@@ -444,7 +1173,7 @@ const B2_WORDS = [
   },
   {
     "de": "abwenden",
-    "lv": "pašalinti",
+    "lv": "užkirsti kelią • išvengti",
     "level": "B2"
   },
   {
@@ -460,24 +1189,189 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-abwenden",
-      "layout": "minimalStudy",
+      "layout": "standardStudy",
       "translation": "nusigręžti nuo",
-      "rektion": "von + kam?",
-      "explanation": "sich abwenden reikalauja nustatyto prielinksnio von + kam?.",
-      "forms": "von + kam?",
-      "formsLabel": "Valdymas:",
+      "explanation": [
+        "Pagrindinė mintis: sich abwenden – skiriamasis sangrąžinis veiksmažodis, reiškiantis nusigręžti – fiziškai nusukti žvilgsnį ar kūną arba perkeltine prasme palikti ką nors. Po von eina Dativ: sich von jemandem abwenden.",
+        "Formos: wendet sich ab, wandte (rečiau wendete) sich ab, hat sich abgewandt (rečiau abgewendet). Priešdėlis ab- atskiriamas: Sie wendet sich ab.",
+        "Be sangrąžinio įvardžio abwenden + Akkusativ reiškia išvengti, atremti: eine Gefahr abwenden (išvengti pavojaus), ir tada paprastai vartojamos taisyklingosios formos: wendete ab, hat abgewendet."
+      ],
+      "examples": [
+        {
+          "de": "Sie wandte sich vom Fenster ab.",
+          "lv": "Ji nusigręžė nuo lango."
+        },
+        {
+          "de": "Viele Wähler haben sich von der Partei abgewandt.",
+          "lv": "Daug rinkėjų nusigręžė nuo partijos."
+        },
+        {
+          "de": "Er wendet sich von seinen Freunden ab.",
+          "lv": "Jis nusigręžia nuo savo draugų."
+        },
+        {
+          "de": "Die Mutter wandte sich enttäuscht ab.",
+          "lv": "Motina nusivylusi nusigręžė."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "abwenden",
+          "meaning": "išvengti, atremti",
+          "example": "Wir konnten die Katastrophe abwenden. – Pavyko išvengti katastrofos."
+        },
+        {
+          "word": "sich zuwenden",
+          "meaning": "atsigręžti į",
+          "example": "Sie wendet sich dem Kind zu. – Ji atsigręžia į vaiką."
+        },
+        {
+          "word": "sich umdrehen",
+          "meaning": "apsisukti",
+          "example": "Er dreht sich um. – Jis apsisuka."
+        }
+      ],
+      "tip": [
+        "Po von vartojamas Dativ: von der Politik, von den Freunden.",
+        "Įsidėmėk priešpriešą: sich abwenden (nusigręžti) ir sich zuwenden (atsigręžti į)."
+      ],
+      "important": [
+        "Sich abwenden ir abwenden turi skirtingas reikšmes: sangrąžinis reiškia nusigręžimą, o abwenden + Akkusativ – pavojaus išvengimą.",
+        "Perfekte sich abwenden dažniau vartojama abgewandt nei abgewendet."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich abwenden"
-          ],
-          "red": [
-            "von + kam?"
+            "abwenden",
+            "sich abwenden",
+            "wandte",
+            "ab",
+            "abgewandt",
+            "wendet"
           ],
           "purple": [
-            "nustatyto"
+            "nusigręžti"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "wandte",
+                "ab"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nusigręžė"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "abgewandt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nusigręžė"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "wendet",
+                "ab"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nusigręžia"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "wandte",
+                "ab"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nusigręžė"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "abwenden"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "išvengti"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "zuwenden"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "atsigręžti"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "umdrehen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apsisukti"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {
+            "blue": [
+              "sich abwenden",
+              "abwenden"
+            ],
+            "green": [
+              "zuwenden",
+              "sich zuwenden"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "sich abwenden",
+              "abwenden"
+            ]
+          },
+          {
+            "blue": [
+              "sich abwenden",
+              "abwenden",
+              "abgewandt"
+            ]
+          }
+        ]
       }
     }
   },
@@ -494,7 +1388,7 @@ const B2_WORDS = [
   },
   {
     "de": "affig",
-    "lv": "ryškus (krintantis į akis) • pasipūtęs",
+    "lv": "manieringas • pasipūtęs",
     "level": "B2"
   },
   {
@@ -569,7 +1463,7 @@ const B2_WORDS = [
     "de": "Aster",
     "de_article": "die",
     "de_plural": "die Astern",
-    "lv": "astras",
+    "lv": "astra",
     "level": "B2"
   },
   {
@@ -587,14 +1481,14 @@ const B2_WORDS = [
   },
   {
     "de": "ausbeuten",
-    "lv": "eksploatuoti",
+    "lv": "išnaudoti • eksploatuoti",
     "level": "B2"
   },
   {
     "de": "Ausbeutung",
     "de_article": "die",
     "de_plural": "die Ausbeutungen",
-    "lv": "eksploatacija",
+    "lv": "išnaudojimas • eksploatacija",
     "level": "B2"
   },
   {
@@ -613,7 +1507,7 @@ const B2_WORDS = [
     "de": "Aufruf",
     "de_article": "der",
     "de_plural": "die Aufrufe",
-    "lv": "šaukimas • kvietimas",
+    "lv": "atsišaukimas • kvietimas",
     "level": "B2"
   },
   {
@@ -641,8 +1535,185 @@ const B2_WORDS = [
     "de": "Äußerlichkeit",
     "de_article": "die",
     "de_plural": "die Äußerlichkeiten",
-    "lv": "demonstratyvumas",
-    "level": "B2"
+    "lv": "išorinis dalykas • paviršutiniškumas",
+    "level": "B2",
+    "study": {
+      "id": "b2--u-erlichkeit",
+      "layout": "standardStudy",
+      "translation": "išorinis dalykas • paviršutiniškumas",
+      "explanation": [
+        "Pagrindinė mintis: die Äußerlichkeit – moteriškosios giminės daiktavardis, reiškiantis išorinį dalyką – išorišką, paviršutinišką, neesminį dalyką. Dažnai vartojamas daugiskaita.",
+        "Daugiskaita – die Äußerlichkeiten. Paprastai žodis vartojamas kritiškai: Er achtet nur auf Äußerlichkeiten (jis kreipia dėmesį tik į išorinius dalykus).",
+        "Žodis sudarytas iš äußerlich (išorinis); daiktavardis die Äußerlichkeit apibūdina tai, kas tik išoriška, be gilumo."
+      ],
+      "examples": [
+        {
+          "de": "Ihm sind Äußerlichkeiten nicht wichtig.",
+          "lv": "Jam išoriniai dalykai nesvarbūs."
+        },
+        {
+          "de": "Das ist nur eine Äußerlichkeit.",
+          "lv": "Tai tik išorinis dalykas."
+        },
+        {
+          "de": "Sie achtet zu sehr auf Äußerlichkeiten.",
+          "lv": "Ji per daug dėmesio skiria išoriniams dalykams."
+        },
+        {
+          "de": "Man sollte sich nicht von Äußerlichkeiten täuschen lassen.",
+          "lv": "Nereikėtų leisti išorei savęs apgauti."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "das Äußere",
+          "meaning": "išorė, išvaizda",
+          "example": "Sein Äußeres täuscht. – Jo išorė apgaulinga."
+        },
+        {
+          "word": "die Oberflächlichkeit",
+          "meaning": "paviršutiniškumas",
+          "example": "Ich mag keine Oberflächlichkeit. – Nemėgstu paviršutiniškumo."
+        },
+        {
+          "word": "das Aussehen",
+          "meaning": "išvaizda",
+          "example": "Sein Aussehen hat sich verändert. – Jo išvaizda pasikeitė."
+        }
+      ],
+      "tip": [
+        "Paprastai vartojamas su auf (auf Äußerlichkeiten achten) arba su nur: nur eine Äußerlichkeit.",
+        "Žodis dažnai skamba kritiškai: jis rodo, kad kas nors yra tik paviršutiniška."
+      ],
+      "important": [
+        "Daugiskaita Äußerlichkeiten vartojama daug dažniau nei vienaskaita.",
+        "Äußerlichkeit nėra neutrali išvaizda: išvaizda, išorė vadinama das Äußere."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Äußerlichkeit",
+            "Äußerlichkeiten"
+          ],
+          "purple": [
+            "išorinį dalyką"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Äußerlichkeiten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "išoriniai dalykai"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Äußerlichkeit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "išorinis dalykas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Äußerlichkeiten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "išoriniams dalykams"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Äußerlichkeiten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "išorei"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "das Äußere"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "išorė"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Oberflächlichkeit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "paviršutiniškumas"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "das Aussehen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "išvaizda"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "Äußerlichkeit",
+              "Äußerlichkeiten"
+            ]
+          },
+          {}
+        ],
+        "important": [
+          {
+            "blue": [
+              "Äußerlichkeiten"
+            ]
+          },
+          {
+            "blue": [
+              "Äußerlichkeit"
+            ],
+            "green": [
+              "das Äußere",
+              "Äußere"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Äußerung",
@@ -653,8 +1724,205 @@ const B2_WORDS = [
   },
   {
     "de": "aussetzen",
-    "lv": "išstatyti • pajungti • prieštarauti • stoti",
-    "level": "B2"
+    "lv": "išstatyti • prieštarauti • sustoti",
+    "level": "B2",
+    "study": {
+      "id": "b2-aussetzen",
+      "layout": "standardStudy",
+      "translation": "išstatyti • prieštarauti • sustoti",
+      "explanation": [
+        "Pagrindinė mintis: aussetzen – skiriamasis veiksmažodis, turintis kelias reikšmes: išmesti ar palikti likimo valiai (šunį, vaiką), palikti veikiamą (šalčio, pavojaus), sustoti ar nutrūkti (apie variklį, darbą), o su an + Dativ – turėti priekaištų.",
+        "Formos: setzt aus, setzte aus, hat ausgesetzt. Kai reiškiama, kad kas nors paliekama veikimui, vartojamas Dativ: jemanden/etwas einer Gefahr aussetzen; sich der Sonne aussetzen. Dalyvis ausgesetzt sein reiškia būti veikiamam.",
+        "Priekaištų reikšme vartojamas posakis etwas an jemandem/etwas auszusetzen haben: Ich habe nichts daran auszusetzen. Čia zu įsiterpia tarp priešdėlio ir šaknies: auszusetzen."
+      ],
+      "examples": [
+        {
+          "de": "Sie setzten den Hund im Wald aus.",
+          "lv": "Jie išmetė šunį miške."
+        },
+        {
+          "de": "Die Kinder sind der Kälte ausgesetzt.",
+          "lv": "Vaikai yra veikiami šalčio."
+        },
+        {
+          "de": "Der Motor setzte plötzlich aus.",
+          "lv": "Variklis staiga sustojo."
+        },
+        {
+          "de": "Ich habe nichts an deinem Plan auszusetzen.",
+          "lv": "Neturiu jokių priekaištų tavo planui."
+        },
+        {
+          "de": "Du solltest dich nicht zu lange der Sonne aussetzen.",
+          "lv": "Neturėtum per ilgai likti saulės atokaitoje."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "unterbrechen",
+          "meaning": "nutraukti, pertraukti",
+          "example": "Das Spiel wurde unterbrochen. – Rungtynės buvo nutrauktos."
+        },
+        {
+          "word": "kritisieren",
+          "meaning": "kritikuoti",
+          "example": "Er kritisiert den Plan. – Jis kritikuoja planą."
+        },
+        {
+          "word": "verlassen",
+          "meaning": "palikti",
+          "example": "Er hat seine Familie verlassen. – Jis paliko savo šeimą."
+        }
+      ],
+      "tip": [
+        "Reikšmę lemia kontekstas: gyvūnas ar vaikas – palikti, saulė ar pavojus – būti veikiamam, variklis – sustoti.",
+        "Priekaištų reikšme paprastai vartojama neigiama forma: nichts auszusetzen haben."
+      ],
+      "important": [
+        "Reiškiant buvimą veikiamam, po aussetzen eina Dativ (der Gefahr, dem Risiko), o ne Akkusativ.",
+        "Nepainiok ausgesetzt sein (būti veikiamam) su ausgestellt (išstatytas arba išduotas)."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "aussetzen",
+            "setzt",
+            "setzte",
+            "ausgesetzt",
+            "auszusetzen"
+          ],
+          "purple": [
+            "išmesti",
+            "palikti",
+            "veikiamą",
+            "sustoti",
+            "priekaištų",
+            "veikimui",
+            "veikiamam"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "setzten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "išmetė"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ausgesetzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "veikiami"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "setzte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "sustojo"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "auszusetzen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "priekaištų"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "aussetzen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "likti"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "unterbrechen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "nutraukti"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "kritisieren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "kritikuoti"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "verlassen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "palikti"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {
+            "blue": [
+              "auszusetzen"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "aussetzen"
+            ]
+          },
+          {
+            "blue": [
+              "ausgesetzt"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "aussichtslos",
@@ -678,17 +1946,206 @@ const B2_WORDS = [
   },
   {
     "de": "ausstopfen",
-    "lv": "užpildyti • išpildyti • prikimšti",
+    "lv": "užpildyti • prikimšti • iškimšti",
     "level": "B2"
   },
   {
     "de": "ausströmen",
-    "lv": "nutekėti • išsilieti • skleisti (spinduliuoti)",
-    "level": "B2"
+    "lv": "nutekėti • išsilieti • skleisti",
+    "level": "B2",
+    "study": {
+      "id": "b2-ausstr-men",
+      "layout": "standardStudy",
+      "translation": "nutekėti • išsilieti • skleisti",
+      "explanation": [
+        "Pagrindinė mintis: ausströmen reiškia ištekėti, sklisti (apie dujas, orą, skystį) arba perkeltine prasme skleisti, spinduliuoti (ramybę, šilumą). Priešdėlis aus- atskiriamas.",
+        "Formos: strömt aus, strömte aus. Kai kas nors išteka ir vyksta judėjimas, perfekte pagalbinis veiksmažodis yra sein: Das Gas ist ausgeströmt. Su Akkusativ objektu (Ruhe ausströmen) vartojamas haben: Sie hat Ruhe ausgeströmt.",
+        "Žodis artimas strömen (tekėti, plūsti). Dažniausiai vartojamas techniškai, apie dujų nuotėkį, ir perkeltine prasme, apie žmogaus daromą įspūdį."
+      ],
+      "examples": [
+        {
+          "de": "Aus dem Rohr strömt Gas aus.",
+          "lv": "Iš vamzdžio veržiasi dujos."
+        },
+        {
+          "de": "Das Wasser ist aus dem Tank ausgeströmt.",
+          "lv": "Vanduo ištekėjo iš bako."
+        },
+        {
+          "de": "Sie strömt Ruhe aus.",
+          "lv": "Ji skleidžia ramybę."
+        },
+        {
+          "de": "Aus der Küche strömte ein feiner Duft aus.",
+          "lv": "Iš virtuvės sklido švelnus kvapas."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "ausfließen",
+          "meaning": "ištekėti",
+          "example": "Das Öl fließt aus dem Tank aus. – Alyva išteka iš bako."
+        },
+        {
+          "word": "austreten",
+          "meaning": "veržtis, ištekėti",
+          "example": "Aus dem Rohr tritt Gas aus. – Iš vamzdžio veržiasi dujos."
+        },
+        {
+          "word": "ausstrahlen",
+          "meaning": "spinduliuoti",
+          "example": "Er strahlt Freude aus. – Jis spinduliuoja džiaugsmą."
+        }
+      ],
+      "tip": [
+        "Dujų nuotėkiui nusakyti vartojama Gas strömt aus; tai paprastai rodo pavojingą situaciją.",
+        "Su sein perfektas sudaromas tada, kai objektas nepaminėtas: ist ausgeströmt."
+      ],
+      "important": [
+        "Perfekte pagalbinis veiksmažodis yra sein, jei kas nors išteka (ist ausgeströmt), ir haben, jei yra objektas (hat Ruhe ausgeströmt).",
+        "Ausströmen nėra tas pats, kas ausschütten (išpilti): tai daro žmogus."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "ausströmen",
+            "strömt aus",
+            "strömte aus",
+            "ausgeströmt",
+            "strömen",
+            "aus",
+            "strömt",
+            "strömte"
+          ],
+          "purple": [
+            "ištekėti",
+            "sklisti",
+            "skleisti"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "strömt",
+                "aus"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "veržiasi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ausgeströmt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ištekėjo"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "strömt",
+                "aus"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "skleidžia"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "strömte",
+                "aus"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "sklido"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "ausfließen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ištekėti"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "austreten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "veržtis"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "ausstrahlen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "spinduliuoti"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "strömt aus",
+              "strömt",
+              "aus"
+            ]
+          },
+          {
+            "blue": [
+              "ausgeströmt"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "ausgeströmt"
+            ]
+          },
+          {
+            "blue": [
+              "ausströmen"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "austragen",
-    "lv": "sunešioti (išnešioti) • pristatyti • iškovoti",
+    "lv": "išnešioti • pristatyti • iškovoti",
     "level": "B2"
   },
   {
@@ -698,22 +2155,208 @@ const B2_WORDS = [
   },
   {
     "de": "austreten",
-    "lv": "numindžioti • pramindyti • išstoti",
-    "level": "B2"
+    "lv": "išminti • numinti • išstoti",
+    "level": "B2",
+    "study": {
+      "id": "b2-austreten",
+      "layout": "standardStudy",
+      "translation": "išminti • numinti • išstoti",
+      "explanation": [
+        "Pagrindinė mintis: austreten – skiriamasis veiksmažodis, turintis dvi pagrindines reikšmių grupes: be objekto (su sein) – išstoti iš organizacijos arba ištekėti; su Akkusativ (su haben) – išminti arba numinti.",
+        "Formos: tritt aus, trat aus. Išstojimas: Er ist aus dem Verein ausgetreten (aus + Dativ). Ištekėjimas: Gas ist ausgetreten. Numynimas: Er hat die Zigarette ausgetreten (užgesino, sumindamas koja).",
+        "Dalyvis ausgetreten kaip būdvardis apibūdina nudėvėtą, išmintą vietą: ausgetretene Stufen (numinti laiptai)."
+      ],
+      "examples": [
+        {
+          "de": "Er ist aus dem Verein ausgetreten.",
+          "lv": "Jis išstojo iš draugijos."
+        },
+        {
+          "de": "Aus dem Tank ist Öl ausgetreten.",
+          "lv": "Iš bako ištekėjo alyva."
+        },
+        {
+          "de": "Er hat die Zigarette auf dem Boden ausgetreten.",
+          "lv": "Jis sumynė cigaretę ant grindų."
+        },
+        {
+          "de": "Die alten Stufen sind schon ausgetreten.",
+          "lv": "Senieji laiptai jau numinti."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "eintreten",
+          "meaning": "įeiti, įstoti",
+          "example": "Er tritt in den Verein ein. – Jis įstoja į draugiją."
+        },
+        {
+          "word": "kündigen",
+          "meaning": "nutraukti (sutartį)",
+          "example": "Sie hat den Vertrag gekündigt. – Ji nutraukė sutartį."
+        },
+        {
+          "word": "ausscheiden",
+          "meaning": "pasitraukti (iš pareigų)",
+          "example": "Er scheidet aus dem Vorstand aus. – Jis pasitraukia iš valdybos."
+        }
+      ],
+      "tip": [
+        "Reikšmę lemia pagalbinis veiksmažodis: ist ausgetreten (išstoti, ištekėti), hat ausgetreten (numinti koja).",
+        "Išstojimas iš organizacijos reiškiamas aus + Dativ: aus der Kirche austreten."
+      ],
+      "important": [
+        "Austreten nėra tas pats, kas eintreten: įeiti arba įstoti.",
+        "Kasdienėje kalboje ich muss mal austreten – mandagus būdas pasakyti, kad reikia į tualetą."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "austreten",
+            "ausgetreten",
+            "ausgetretene",
+            "tritt",
+            "trat"
+          ],
+          "purple": [
+            "Išstojimas",
+            "išstoti",
+            "ištekėti",
+            "išminti",
+            "išmintą"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "ausgetreten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "išstojo"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ausgetreten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ištekėjo"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ausgetreten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "sumynė"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ausgetreten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "numinti"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "eintreten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "įeiti"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "kündigen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "nutraukti"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "ausscheiden"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "pasitraukti"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "ausgetreten"
+            ]
+          },
+          {
+            "blue": [
+              "austreten"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "austreten"
+            ],
+            "green": [
+              "eintreten"
+            ]
+          },
+          {
+            "blue": [
+              "austreten"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "auswärtig",
-    "lv": "užsienio • užsienio (reikalų)",
+    "lv": "užsienio • užsienio reikalų",
     "level": "B2"
   },
   {
     "de": "ausweichend",
-    "lv": "vengiantis (išsisukantis) • neapibrėžtas",
+    "lv": "išsisukinėjantis • neapibrėžtas",
     "level": "B2"
   },
   {
     "de": "ausweisen",
-    "lv": "išsiųsti (išvaryti) • deportuoti • patvirtinti • įrodyti",
+    "lv": "išvaryti • deportuoti • įrodyti",
     "level": "B2"
   },
   {
@@ -735,7 +2378,7 @@ const B2_WORDS = [
     "de": "Auszeichnung",
     "de_article": "die",
     "de_plural": "die Auszeichnungen",
-    "lv": "apdovanojimas • apdovanojimas • garbės ženklas",
+    "lv": "apdovanojimas • garbės ženklas",
     "level": "B2"
   },
   {
@@ -752,7 +2395,7 @@ const B2_WORDS = [
   },
   {
     "de": "bändigen",
-    "lv": "susivaldyti • suvaldyti",
+    "lv": "sutramdyti • suvaldyti",
     "level": "B2"
   },
   {
@@ -780,7 +2423,7 @@ const B2_WORDS = [
     "de": "Bankleitzahl",
     "de_article": "die",
     "de_plural": "die Bankleitzahlen",
-    "lv": "banko indeksas",
+    "lv": "banko kodas",
     "level": "B2"
   },
   {
@@ -815,12 +2458,12 @@ const B2_WORDS = [
     "de": "Barbarei",
     "de_article": "die",
     "de_plural": "die Barbareien",
-    "lv": "barbarizmas",
+    "lv": "barbariškumas • žiaurumas",
     "level": "B2"
   },
   {
     "de": "barhäuptig",
-    "lv": "su plika galva",
+    "lv": "vienplaukis • be kepurės",
     "level": "B2"
   },
   {
@@ -838,7 +2481,7 @@ const B2_WORDS = [
   {
     "de": "Barrenturnen",
     "de_article": "das",
-    "lv": "mankšta ant lygiagrečių",
+    "lv": "gimnastika ant lygiagrečių",
     "level": "B2"
   },
   {
@@ -898,8 +2541,193 @@ const B2_WORDS = [
   },
   {
     "de": "bebauen",
-    "lv": "dirbti (apdirbti) • užstatyti",
-    "level": "B2"
+    "lv": "įdirbti • užstatyti",
+    "level": "B2",
+    "study": {
+      "id": "b2-bebauen",
+      "layout": "standardStudy",
+      "translation": "įdirbti • užstatyti",
+      "explanation": [
+        "Pagrindinė mintis: bebauen – veiksmažodis, turintis dvi reikšmes: užstatyti sklypą pastatais ir įdirbti žemę, lauką žemės ūkio reikmėms. Jis neskiriamasis, vartojamas su Akkusativ.",
+        "Formos: bebaut, bebaute, hat bebaut. Dažnas dalyvis bebaut vartojamas kaip būdvardis: dicht bebaut (tankiai užstatytas), unbebaut (neužstatytas). Kalbant apie pastatus sakoma mit Häusern bebauen.",
+        "Laukams vartojamas ir anbauen (auginti kultūrą): Weizen anbauen; bebauen platesnis, reiškia žemės įdirbimą apskritai."
+      ],
+      "examples": [
+        {
+          "de": "Das Grundstück wird mit Wohnhäusern bebaut.",
+          "lv": "Sklypas užstatomas gyvenamaisiais namais."
+        },
+        {
+          "de": "Die Bauern bebauen das Feld mit Weizen.",
+          "lv": "Ūkininkai įdirba lauką ir sėja jame kviečius."
+        },
+        {
+          "de": "Das Gelände darf nicht bebaut werden.",
+          "lv": "Šios teritorijos negalima užstatyti."
+        },
+        {
+          "de": "Der Hang ist dicht bebaut.",
+          "lv": "Šlaitas tankiai užstatytas."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "bauen",
+          "meaning": "statyti",
+          "example": "Sie bauen ein Haus. – Jie stato namą."
+        },
+        {
+          "word": "anbauen",
+          "meaning": "auginti, pristatyti",
+          "example": "Hier baut man Wein an. – Čia auginamos vynuogės."
+        },
+        {
+          "word": "bearbeiten",
+          "meaning": "apdirbti, įdirbti",
+          "example": "Er bearbeitet den Boden. – Jis dirba žemę."
+        }
+      ],
+      "tip": [
+        "Kalbant apie pastatus vartojama mit: mit Häusern bebauen; dažnai pasitaiko ir neveikiamoji rūšis: bebaut werden.",
+        "Priešingybė – unbebaut, neužstatytas."
+      ],
+      "important": [
+        "Bebauen nėra tas pats, kas bauen: bauen – ką nors statyti, bebauen – užpildyti žemę statiniais.",
+        "Žemės ūkyje augalų auginimui dažniau vartojamas anbauen."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "bebauen",
+            "bebaut",
+            "bebaute",
+            "unbebaut",
+            "anbauen"
+          ],
+          "purple": [
+            "užstatyti",
+            "įdirbti",
+            "užstatytas"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "bebaut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "užstatomas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bebauen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "įdirba"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bebaut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "užstatyti"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bebaut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "užstatytas"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "bauen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "statyti"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "anbauen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "auginti"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "bearbeiten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apdirbti"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "bebauen",
+              "bebaut"
+            ]
+          },
+          {
+            "blue": [
+              "unbebaut"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "bebauen"
+            ],
+            "green": [
+              "bauen"
+            ]
+          },
+          {
+            "blue": [
+              "anbauen"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "bedürfen",
@@ -908,7 +2736,7 @@ const B2_WORDS = [
   },
   {
     "de": "befallen",
-    "lv": "užeiti (ištikti) • užpulti",
+    "lv": "ištikti • užpulti",
     "level": "B2"
   },
   {
@@ -917,21 +2745,178 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-befassen",
-      "layout": "minimalStudy",
+      "layout": "standardStudy",
       "translation": "užsiimti",
-      "rektion": "mit + kam?",
-      "explanation": "sich befassen reikalauja nustatyto prielinksnio mit + kam?.",
-      "forms": "mit + kam?",
-      "formsLabel": "Valdymas:",
+      "explanation": [
+        "Pagrindinė mintis: sich befassen – sangrąžinis veiksmažodis, reiškiantis užsiimti, nagrinėti kokį nors klausimą ar temą, dažnai raštu ar profesionaliai. Po mit eina Dativ: sich mit etwas befassen.",
+        "Formos: befasst sich, befasste sich, hat sich befasst. Priešdėlis be- neskiriamas, todėl nėra ge-.",
+        "Žodis skamba oficialiau nei sich beschäftigen; vartojamas kalbant apie komisijas, tyrimus, teismus ir žmones, kurie nagrinėja klausimą."
+      ],
+      "examples": [
+        {
+          "de": "Ich befasse mich mit der Geschichte der Stadt.",
+          "lv": "Nagrinėju miesto istoriją."
+        },
+        {
+          "de": "Der Ausschuss befasst sich mit dem Problem.",
+          "lv": "Komitetas nagrinėja šią problemą."
+        },
+        {
+          "de": "Damit habe ich mich noch nie befasst.",
+          "lv": "Tuo dar niekada nesu užsiėmęs."
+        },
+        {
+          "de": "Die Studie befasst sich mit den Folgen des Klimawandels.",
+          "lv": "Tyrime nagrinėjami klimato kaitos padariniai."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich beschäftigen mit",
+          "meaning": "užsiimti kuo nors",
+          "example": "Er beschäftigt sich mit Musik. – Jis užsiima muzika."
+        },
+        {
+          "word": "sich auseinandersetzen mit",
+          "meaning": "gilintis, aiškintis",
+          "example": "Wir setzen uns mit dem Thema auseinander. – Gilinamės į šią temą."
+        },
+        {
+          "word": "behandeln",
+          "meaning": "nagrinėti, aptarti",
+          "example": "Das Buch behandelt dieses Thema. – Knygoje nagrinėjama ši tema."
+        }
+      ],
+      "tip": [
+        "Po mit vartojamas Dativ: mit dem Thema, mit der Frage.",
+        "Jei kalbi paprasčiau, gali sakyti sich beschäftigen mit – tai reiškia tą patį."
+      ],
+      "important": [
+        "Perfekte yra hat sich befasst, o ne hat sich gebefasst: be- – neskiriamasis priešdėlis.",
+        "Sich befassen labiau susijęs su mąstymu ir nagrinėjimu, o ne su fizine veikla."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich befassen"
+            "sich befassen",
+            "befasst sich",
+            "befassen",
+            "befasst"
           ],
-          "red": [
-            "mit + kam?"
+          "purple": [
+            "užsiimti",
+            "nagrinėti"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "befasse"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Nagrinėju"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "befasst"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nagrinėja"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "befasst"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "užsiėmęs"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "befasst"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nagrinėjami"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich beschäftigen mit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "užsiimti"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich auseinandersetzen mit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "gilintis"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "behandeln"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "nagrinėti"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {
+            "green": [
+              "sich beschäftigen mit"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "befasst"
+            ]
+          },
+          {
+            "blue": [
+              "sich befassen",
+              "befassen"
+            ]
+          }
+        ]
       }
     }
   },
@@ -939,7 +2924,7 @@ const B2_WORDS = [
     "de": "Beförderung",
     "de_article": "die",
     "de_plural": "die Beförderungen",
-    "lv": "pristatymas • pervežimas • paaukštinimas • paaukštinimas (pareigose)",
+    "lv": "pervežimas • pristatymas • paaukštinimas",
     "level": "B2"
   },
   {
@@ -951,12 +2936,12 @@ const B2_WORDS = [
   },
   {
     "de": "begehren",
-    "lv": "reikalauti • pareikalauti • trokšti • geisti • norėti",
+    "lv": "reikalauti • trokšti • geisti",
     "level": "B2"
   },
   {
     "de": "begierig",
-    "lv": "gašus",
+    "lv": "trokštantis • godus",
     "level": "B2"
   },
   {
@@ -970,27 +2955,182 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-begnuegen",
-      "layout": "minimalStudy",
+      "layout": "standardStudy",
       "translation": "tenkintis",
-      "rektion": "mit + kam?",
-      "explanation": "sich begnügen reikalauja nustatyto prielinksnio mit + kam?.",
-      "forms": "mit + kam?",
-      "formsLabel": "Valdymas:",
+      "explanation": [
+        "Pagrindinė mintis: sich begnügen – sangrąžinis veiksmažodis, reiškiantis tenkintis mažesniu, nei būtų galima norėti. Po mit eina Dativ: sich mit etwas begnügen.",
+        "Formos: begnügt sich, begnügte sich, hat sich begnügt. Priešdėlis be- neskiriamas, todėl nėra ge-.",
+        "Po mit eina daiktavardis ar įvardis (damit) arba bendraties grupė: sich damit begnügen, etwas zu tun (tenkintis tuo, kad ką nors darai)."
+      ],
+      "examples": [
+        {
+          "de": "Er begnügt sich mit einem kleinen Gehalt.",
+          "lv": "Jis tenkinasi nedideliu atlyginimu."
+        },
+        {
+          "de": "Wir mussten uns mit Brot und Wasser begnügen.",
+          "lv": "Turėjome tenkintis duona ir vandeniu."
+        },
+        {
+          "de": "Sie begnügt sich nicht mit dem zweiten Platz.",
+          "lv": "Ji nesitenkina antrąja vieta."
+        },
+        {
+          "de": "Ich begnüge mich damit, zuzuschauen.",
+          "lv": "Tenkinuosi tuo, kad tiesiog žiūriu."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "zufrieden sein mit",
+          "meaning": "būti patenkintam kuo nors",
+          "example": "Ich bin mit dem Ergebnis zufrieden. – Esu patenkintas rezultatu."
+        },
+        {
+          "word": "sich zufriedengeben",
+          "meaning": "pasitenkinti, susitaikyti",
+          "example": "Er gibt sich nicht zufrieden. – Jis nepasitenkina."
+        },
+        {
+          "word": "sich beschränken auf",
+          "meaning": "apsiriboti kuo nors",
+          "example": "Ich beschränke mich auf das Wichtigste. – Apsiriboju svarbiausiais dalykais."
+        }
+      ],
+      "tip": [
+        "Po mit vartojamas Dativ: mit wenig, mit dem Ergebnis.",
+        "Dažna priešingybė: sich nicht begnügen, kai kas nors nori daugiau."
+      ],
+      "important": [
+        "Sich begnügen nėra tas pats, kas zufrieden sein: jis reiškia, kad žmogus sumažina savo reikalavimus.",
+        "Perfektas yra hat sich begnügt (be ge-)."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
+            "begnügen",
+            "begnügt",
             "sich begnügen"
           ],
-          "red": [
-            "mit + kam?"
+          "purple": [
+            "tenkintis"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "begnügt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tenkinasi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "begnügen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tenkintis"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "begnügt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nesitenkina"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "begnüge"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Tenkinuosi"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "zufrieden sein mit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "būti"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich zufriedengeben"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "susitaikyti"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich beschränken auf"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apsiriboti"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {
+            "blue": [
+              "begnügen"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "sich begnügen",
+              "begnügen"
+            ]
+          },
+          {
+            "blue": [
+              "begnügt"
+            ]
+          }
+        ]
       }
     }
   },
   {
     "de": "begünstigen",
-    "lv": "skatinti • padėti • globoti (remti) • palaikyti",
+    "lv": "skatinti • protežuoti • remti",
     "level": "B2"
   },
   {
@@ -1000,7 +3140,7 @@ const B2_WORDS = [
   },
   {
     "de": "beharren",
-    "lv": "egzistuoti (išlikti) • pasilikti",
+    "lv": "primygtinai reikalauti • atkakliai laikytis",
     "level": "B2"
   },
   {
@@ -1022,12 +3162,12 @@ const B2_WORDS = [
   },
   {
     "de": "beiläufig",
-    "lv": "atsitiktinis • atsitiktinis • tarp kitko • praeinant pro šalį",
+    "lv": "atsitiktinis • tarp kitko • prabėgomis",
     "level": "B2"
   },
   {
     "de": "beispiellos",
-    "lv": "negirdėtas • neregėtas • toks, kuris nepalyginamas su niekuo",
+    "lv": "negirdėtas • neregėtas • nepalyginamas",
     "level": "B2"
   },
   {
@@ -1044,17 +3184,17 @@ const B2_WORDS = [
   },
   {
     "de": "beistimmen",
-    "lv": "prisidėti balsuojant • palaikyti",
+    "lv": "pritarti • palaikyti",
     "level": "B2"
   },
   {
     "de": "beiwohnen",
-    "lv": "būti kartu • dalyvauti",
+    "lv": "dalyvauti",
     "level": "B2"
   },
   {
     "de": "beizen",
-    "lv": "ėsdinti (kodinti) • beicuoti",
+    "lv": "ėsdinti • beicuoti",
     "level": "B2"
   },
   {
@@ -1074,7 +3214,7 @@ const B2_WORDS = [
   },
   {
     "de": "bekräftigen",
-    "lv": "patvirtinti • pažymėti (liudyti)",
+    "lv": "patvirtinti • paliudyti",
     "level": "B2"
   },
   {
@@ -1093,7 +3233,7 @@ const B2_WORDS = [
   },
   {
     "de": "belagern",
-    "lv": "apvažiuoti (aplenkti) • apsupti",
+    "lv": "apgulti • apsupti",
     "level": "B2"
   },
   {
@@ -1103,7 +3243,7 @@ const B2_WORDS = [
   },
   {
     "de": "belästigen",
-    "lv": "sunkinti (apsunkinti) • priekabiauti • įsibrauti (kibti)",
+    "lv": "varginti • priekabiauti • įkyrėti",
     "level": "B2"
   },
   {
@@ -1123,18 +3263,18 @@ const B2_WORDS = [
   },
   {
     "de": "beleibt",
-    "lv": "putlus • brangus • visiškas",
+    "lv": "storas • apkūnus • putlus",
     "level": "B2"
   },
   {
     "de": "belichten",
-    "lv": "nušviesti (apšviesti) • eksponuoti",
+    "lv": "apšviesti • eksponuoti",
     "level": "B2"
   },
   {
     "de": "Belieben",
     "de_article": "das",
-    "lv": "mėgimas • mėgimas • noras",
+    "lv": "nuožiūra • noras",
     "level": "B2"
   },
   {
@@ -1148,18 +3288,182 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-bemaechtigen",
-      "layout": "minimalStudy",
+      "layout": "standardStudy",
       "translation": "sugriebti • paimti į savo valdžią",
-      "rektion": "+ priklausomybės forma",
-      "explanation": "sich bemächtigen šiuolaikinėje vokiečių kalboje vartojamas su kilmininko forma be prielinksnio.",
-      "forms": "+ priklausomybės forma",
-      "formsLabel": "Valdymas:",
+      "explanation": [
+        "Pagrindinė mintis: sich bemächtigen – oficialus sangrąžinis veiksmažodis, reiškiantis sugriebti, paimti į savo valdžią – daiktą, vietą ar valdžią, dažnai jėga, o perkeltine prasme vartojamas apie jausmus, kurie apima žmogų.",
+        "Po sich bemächtigen eina Genitiv: sich einer Sache bemächtigen. Formos: bemächtigt sich, bemächtigte sich, hat sich bemächtigt. Priešdėlis be- neskiriamas.",
+        "Žodis vartojamas rašytinėje ir literatūrinėje kalboje; kasdien vietoj jo sakoma etwas nehmen arba ergreifen."
+      ],
+      "examples": [
+        {
+          "de": "Die Rebellen bemächtigten sich der Stadt.",
+          "lv": "Sukilėliai užėmė miestą."
+        },
+        {
+          "de": "Er bemächtigte sich des Autoschlüssels.",
+          "lv": "Jis pasigrobė automobilio raktelį."
+        },
+        {
+          "de": "Große Angst bemächtigte sich seiner.",
+          "lv": "Jį apėmė didelė baimė."
+        },
+        {
+          "de": "Die Armee hat sich der Macht bemächtigt.",
+          "lv": "Kariuomenė užgrobė valdžią."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "ergreifen",
+          "meaning": "griebti, užgrobti",
+          "example": "Er ergreift die Macht. – Jis užgrobia valdžią."
+        },
+        {
+          "word": "sich aneignen",
+          "meaning": "pasisavinti",
+          "example": "Er hat sich das Geld angeeignet. – Jis pasisavino pinigus."
+        },
+        {
+          "word": "besetzen",
+          "meaning": "užimti, okupuoti",
+          "example": "Die Soldaten besetzen die Stadt. – Kariai užima miestą."
+        }
+      ],
+      "tip": [
+        "Įsidėmėk Genitiv: sich des Hauses bemächtigen, sich der Macht bemächtigen.",
+        "Šį žodį gali atpažinti istoriniuose tekstuose, naujienose ir literatūroje."
+      ],
+      "important": [
+        "Sich bemächtigen reikalauja Genitiv, o ne Akkusativ.",
+        "Nepainiok su ermächtigen (įgalioti): tai kitas žodis."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich bemächtigen"
+            "sich bemächtigen",
+            "bemächtigt sich",
+            "bemächtigte sich",
+            "bemächtigt",
+            "sich",
+            "bemächtigte"
+          ],
+          "purple": [
+            "sugriebti",
+            "savo valdžią"
+          ],
+          "green": [
+            "ergreifen"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "bemächtigten",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "užėmė"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bemächtigte",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pasigrobė"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bemächtigte",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apėmė"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bemächtigt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "užgrobė"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "ergreifen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "užgrobti"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich aneignen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "pasisavinti"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "besetzen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "okupuoti"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "sich"
+            ]
+          },
+          {}
+        ],
+        "important": [
+          {
+            "blue": [
+              "sich bemächtigen",
+              "sich"
+            ]
+          },
+          {}
+        ]
       }
     }
   },
@@ -1167,7 +3471,7 @@ const B2_WORDS = [
     "de": "Benennung",
     "de_article": "die",
     "de_plural": "die Benennungen",
-    "lv": "pavadinimas (vardo davimas) • vadinimas • pavadinimas",
+    "lv": "pavadinimas • įvardijimas • vadinimas",
     "level": "B2"
   },
   {
@@ -1184,7 +3488,7 @@ const B2_WORDS = [
   },
   {
     "de": "beredt",
-    "lv": "kalbus",
+    "lv": "iškalbingas • kalbus",
     "level": "B2"
   },
   {
@@ -1219,7 +3523,7 @@ const B2_WORDS = [
   },
   {
     "de": "bersten",
-    "lv": "skilti • suskilti • sprogti • plyšti",
+    "lv": "skilti • sprogti • plyšti",
     "level": "B2"
   },
   {
@@ -1233,40 +3537,393 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-berufen",
-      "layout": "minimalStudy",
+      "layout": "standardStudy",
       "translation": "remtis",
-      "rektion": "auf + ką?",
-      "explanation": "sich berufen reikalauja nustatyto prielinksnio auf + ką?.",
-      "forms": "auf + ką?",
-      "formsLabel": "Valdymas:",
+      "explanation": [
+        "Pagrindinė mintis: sich berufen auf – sangrąžinis veiksmažodis, reiškiantis remtis kuo nors kaip argumento pagrindu: įstatymu, sutartimi, šaltiniu ar asmeniu. Po auf eina Akkusativ: sich auf etwas berufen.",
+        "Formos: beruft sich, berief sich, hat sich berufen. Priešdėlis be- neskiriamas.",
+        "Atskirai berufen (be sich) reiškia paskirti į pareigas: Er wurde zum Professor berufen. Ši reikšmė kita nei rėmimasis."
+      ],
+      "examples": [
+        {
+          "de": "Er beruft sich auf sein Recht.",
+          "lv": "Jis remiasi savo teise."
+        },
+        {
+          "de": "Der Politiker beruft sich auf eine Studie.",
+          "lv": "Politikas remiasi tyrimu."
+        },
+        {
+          "de": "Sie berief sich auf den Vertrag.",
+          "lv": "Ji rėmėsi sutartimi."
+        },
+        {
+          "de": "Dabei kann ich mich auf niemanden berufen.",
+          "lv": "Šiuo atveju negaliu niekuo remtis."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "verweisen auf",
+          "meaning": "nukreipti į, nurodyti",
+          "example": "Er verweist auf den Artikel. – Jis nukreipia į straipsnį."
+        },
+        {
+          "word": "sich stützen auf",
+          "meaning": "remtis, būti grindžiamam",
+          "example": "Das Urteil stützt sich auf Beweise. – Nuosprendis grindžiamas įrodymais."
+        },
+        {
+          "word": "zitieren",
+          "meaning": "cituoti",
+          "example": "Sie zitiert den Autor. – Ji cituoja autorių."
+        }
+      ],
+      "tip": [
+        "Vartojama auf + Akkusativ: auf das Gesetz, auf einen Zeugen. Lietuviškai sakome remtis kuo (įnagininkas), be prielinksnio.",
+        "Teismų ir teisinėje kalboje sich berufen auf – pagrindinė formulė."
+      ],
+      "important": [
+        "Sich berufen auf nėra tas pats, kas berufen: be sich tai reiškia paskirti (į pareigas).",
+        "Perfektas yra hat sich berufen (be ge-)."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich berufen"
+            "sich berufen",
+            "beruft sich",
+            "berief sich",
+            "berufen",
+            "berufen auf",
+            "sich",
+            "beruft",
+            "berief"
           ],
-          "red": [
-            "auf"
+          "purple": [
+            "remtis",
+            "paskirti"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "beruft",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "remiasi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "beruft",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "remiasi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "berief",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "rėmėsi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "berufen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "remtis"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "verweisen auf"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "nukreipti"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich stützen auf"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "remtis"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "zitieren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "cituoti"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {
+            "blue": [
+              "sich berufen",
+              "berufen",
+              "berufen auf",
+              "sich"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "sich berufen",
+              "berufen",
+              "berufen auf",
+              "sich"
+            ]
+          },
+          {
+            "blue": [
+              "sich berufen",
+              "berufen",
+              "sich"
+            ]
+          }
+        ]
       }
     }
   },
   {
     "de": "beruhen",
-    "lv": "įsikurti (būti įkurtam) • grįstis",
+    "lv": "remtis • būti pagrįstam",
     "level": "B2"
   },
   {
     "de": "besänftigen",
-    "lv": "nuraminti • malšinti • malšinti • nutildyti",
+    "lv": "nuraminti • malšinti • nutildyti",
     "level": "B2"
   },
   {
     "de": "Besatzung",
     "de_article": "die",
     "de_plural": "die Besatzungen",
-    "lv": "komanda • ekipažas • įgula • okupacinės kariuomenės daliniai",
-    "level": "B2"
+    "lv": "įgula • ekipažas • okupacinė kariuomenė",
+    "level": "B2",
+    "study": {
+      "id": "b2-besatzung",
+      "layout": "standardStudy",
+      "translation": "įgula • ekipažas • okupacinė kariuomenė",
+      "explanation": [
+        "Pagrindinė mintis: die Besatzung – moteriškosios giminės daiktavardis, turintis dvi pagrindines reikšmes: laivo ar lėktuvo įgula, ekipažas (žmonės, dirbantys laive), ir okupacinė kariuomenė arba pati okupacija po karo.",
+        "Daugiskaita – die Besatzungen. Junginiai: die Besatzung eines Schiffes (laivo įgula), die Besatzungsmacht (okupacinė valdžia), die Besatzungszone (okupacinė zona). Artimas žodis – die Mannschaft (komanda).",
+        "Reikšmę lemia kontekstas: Flugzeug, Schiff – įgula; Krieg, Stadt, Land – okupacija."
+      ],
+      "examples": [
+        {
+          "de": "Die Besatzung des Schiffes besteht aus zwanzig Mann.",
+          "lv": "Laivo įgulą sudaro dvidešimt žmonių."
+        },
+        {
+          "de": "Die Besatzung des Flugzeugs begrüßt die Passagiere.",
+          "lv": "Lėktuvo ekipažas sveikina keleivius."
+        },
+        {
+          "de": "Nach dem Krieg stand die Stadt unter Besatzung.",
+          "lv": "Po karo miestas buvo okupuotas."
+        },
+        {
+          "de": "Die Besatzung zog nach zwei Jahren ab.",
+          "lv": "Okupacinė kariuomenė pasitraukė po dvejų metų."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "die Mannschaft",
+          "meaning": "komanda",
+          "example": "Die Mannschaft gewinnt das Spiel. – Komanda laimi rungtynes."
+        },
+        {
+          "word": "die Crew",
+          "meaning": "ekipažas, įgula",
+          "example": "Die Crew bereitet den Start vor. – Ekipažas ruošiasi pakilimui."
+        },
+        {
+          "word": "die Besetzung",
+          "meaning": "sudėtis, užėmimas",
+          "example": "Die Besetzung des Films ist hervorragend. – Filmo aktorių sudėtis puiki."
+        }
+      ],
+      "tip": [
+        "Kalbant apie skrydį, žodis Besatzung reiškia pilotus ir skrydžio palydovus kartu; keleiviai – Fluggäste.",
+        "Istorine prasme dažnai vartojami sudurtiniai žodžiai su Besatzungs-."
+      ],
+      "important": [
+        "Nepainiok die Besatzung su die Besetzung: Besetzung – aktorių sudėtis arba užėmimo procesas.",
+        "Daugiskaita die Besatzungen reiškia kelias įgulas arba kelias okupacines kariuomenes."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Besatzung",
+            "Besatzungen"
+          ],
+          "purple": [
+            "įgula",
+            "ekipažas",
+            "okupacinė kariuomenė"
+          ],
+          "green": [
+            "die Mannschaft",
+            "Mannschaft"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Besatzung"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "įgulą"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Besatzung"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ekipažas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Besatzung"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "okupuotas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Besatzung"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kariuomenė"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "die Mannschaft"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "komanda"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Crew"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ekipažas"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Besetzung"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "sudėtis"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "Besatzung"
+            ]
+          },
+          {}
+        ],
+        "important": [
+          {
+            "blue": [
+              "Besatzung"
+            ],
+            "green": [
+              "die Besetzung",
+              "Besetzung"
+            ]
+          },
+          {
+            "blue": [
+              "Besatzungen"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "beschämen",
@@ -1275,12 +3932,12 @@ const B2_WORDS = [
   },
   {
     "de": "beschatten",
-    "lv": "sekti paslapčia • susekti",
+    "lv": "pavėsinti • sekti paslapčia",
     "level": "B2"
   },
   {
     "de": "beschimpfen",
-    "lv": "nukeikti (aprūkti) • nužeminti • apjuodinti",
+    "lv": "išplūsti • iškolioti • iškoneveikti",
     "level": "B2"
   },
   {
@@ -1289,21 +3946,183 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-beschraenken",
-      "layout": "minimalStudy",
+      "layout": "standardStudy",
       "translation": "apsiriboti",
-      "rektion": "auf + ką?",
-      "explanation": "sich beschränken reikalauja nustatyto prielinksnio auf + ką?.",
-      "forms": "auf + ką?",
-      "formsLabel": "Valdymas:",
+      "explanation": [
+        "Pagrindinė mintis: sich beschränken auf – sangrąžinis veiksmažodis, reiškiantis apsiriboti kuo nors, daryti tik tam tikrą dalį ir jos neviršyti. Po auf eina Akkusativ: sich auf etwas beschränken.",
+        "Formos: beschränkt sich, beschränkte sich, hat sich beschränkt. Priešdėlis be- neskiriamas, todėl nėra ge-.",
+        "Be sich beschränken reiškia apriboti ką nors kita: die Zahl beschränken. Apie dalykus, kurie apsiriboja kuo nors, sakoma sich beschränken auf: Das Problem beschränkt sich auf …"
+      ],
+      "examples": [
+        {
+          "de": "Ich beschränke mich auf das Wichtigste.",
+          "lv": "Apsiriboju svarbiausiais dalykais."
+        },
+        {
+          "de": "Der Redner beschränkte sich auf drei Punkte.",
+          "lv": "Pranešėjas apsiribojo trimis punktais."
+        },
+        {
+          "de": "Wir müssen uns auf das Nötigste beschränken.",
+          "lv": "Turime apsiriboti tuo, kas būtiniausia."
+        },
+        {
+          "de": "Das Problem beschränkt sich nicht auf Deutschland.",
+          "lv": "Problema neapsiriboja vien Vokietija."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "begrenzen",
+          "meaning": "apriboti",
+          "example": "Wir begrenzen die Zahl der Gäste. – Ribojame svečių skaičių."
+        },
+        {
+          "word": "sich begnügen mit",
+          "meaning": "tenkintis kuo nors",
+          "example": "Er begnügt sich mit wenig. – Jis tenkinasi mažu."
+        },
+        {
+          "word": "einschränken",
+          "meaning": "sumažinti, apriboti",
+          "example": "Ich muss meinen Verbrauch einschränken. – Turiu sumažinti savo suvartojimą."
+        }
+      ],
+      "tip": [
+        "Po auf vartojamas Akkusativ: auf das Wesentliche, auf drei Punkte.",
+        "Sakinyje dažnai dar pridedama nur (tik): Ich beschränke mich nur auf …"
+      ],
+      "important": [
+        "Lietuviškai sakome apsiriboti kuo (įnagininkas, be prielinksnio), o vokiškai vartojamas auf, ne mit.",
+        "Sich beschränken nėra tas pats, kas sich begnügen: pirmasis reiškia savęs apribojimą, antrasis – pasitenkinimą."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich beschränken"
+            "sich beschränken",
+            "beschränkt sich",
+            "beschränkte sich",
+            "beschränkt",
+            "sich",
+            "beschränken",
+            "beschränkte"
           ],
-          "red": [
-            "auf"
+          "purple": [
+            "apsiriboti",
+            "apsiriboja",
+            "apriboti"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "beschränke",
+                "mich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Apsiriboju"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "beschränkte",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apsiribojo"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "beschränken"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apsiriboti"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "beschränkt",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "neapsiriboja"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "begrenzen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apriboti"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich begnügen mit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "tenkintis"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "einschränken"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "sumažinti"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {
+            "blue": [
+              "beschränke",
+              "mich"
+            ]
+          }
+        ],
+        "important": [
+          {},
+          {
+            "blue": [
+              "sich beschränken",
+              "sich",
+              "beschränken"
+            ]
+          }
+        ]
       }
     }
   },
@@ -1322,11 +4141,190 @@ const B2_WORDS = [
   {
     "de": "besessen",
     "lv": "apsėstas • apkerėtas • apimtas",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-besessen",
+      "layout": "standardStudy",
+      "translation": "apsėstas • apkerėtas • apimtas",
+      "explanation": [
+        "Pagrindinė mintis: besessen – būdvardis (iš besitzen), reiškiantis apsėstas ar apkerėtas: apimtas idėjos ar jausmų tiek, kad jie užvaldo mintis. Po von eina Dativ: besessen von etwas.",
+        "Vartojamas ir kalbant apie fanatišką aistrą: von der Arbeit besessen sein, wie besessen arbeiten (dirbti kaip apsėstam).",
+        "Atsargiai: besessen yra ir besitzen (turėti, valdyti) dalyvis: Er hat ein Haus besessen. Tai kitas vartojimas; ši kortelė – apie būdvardį apsėstas."
+      ],
+      "examples": [
+        {
+          "de": "Er ist besessen von seiner Arbeit.",
+          "lv": "Jis apsėstas savo darbo."
+        },
+        {
+          "de": "Sie ist von der Idee besessen, berühmt zu werden.",
+          "lv": "Ji apsėsta idėjos tapti garsia."
+        },
+        {
+          "de": "Der Mann wirkte wie vom Teufel besessen.",
+          "lv": "Vyras atrodė lyg velnio apsėstas."
+        },
+        {
+          "de": "Er arbeitet wie besessen.",
+          "lv": "Jis dirba kaip apsėstas."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "besitzen",
+          "meaning": "turėti, valdyti",
+          "example": "Er besitzt ein Haus. – Jis turi namą."
+        },
+        {
+          "word": "fanatisch",
+          "meaning": "fanatiškas",
+          "example": "Er ist ein fanatischer Fan. – Jis fanatiškas sirgalius."
+        },
+        {
+          "word": "besetzt",
+          "meaning": "užimtas",
+          "example": "Der Platz ist besetzt. – Vieta užimta."
+        }
+      ],
+      "tip": [
+        "Būdingi junginiai: besessen von einer Idee, besessen von Macht, wie besessen.",
+        "Teigiama prasme tai gali reikšti ir aistrą: ein besessener Sammler (aistringas kolekcininkas)."
+      ],
+      "important": [
+        "Po besessen eina von + Dativ: besessen von der Arbeit.",
+        "Nepainiok besessen su besetzt: besetzt – užimtas (Der Platz ist besetzt)."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "besessen"
+          ],
+          "purple": [
+            "apsėstas",
+            "apkerėtas",
+            "apimtas"
+          ],
+          "green": [
+            "besitzen"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "besessen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apsėstas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "besessen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apsėsta"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "besessen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apsėstas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "besessen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apsėstas"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "besitzen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "turėti"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "fanatisch"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "fanatiškas"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "besetzt"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "užimtas"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "besessen"
+            ]
+          },
+          {}
+        ],
+        "important": [
+          {
+            "blue": [
+              "besessen"
+            ]
+          },
+          {
+            "blue": [
+              "besessen"
+            ],
+            "green": [
+              "besetzt"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "besiedeln",
-    "lv": "apgyvendinti gyventojus",
+    "lv": "apgyvendinti",
     "level": "B2"
   },
   {
@@ -1355,7 +4353,7 @@ const B2_WORDS = [
   },
   {
     "de": "bestärken",
-    "lv": "stiprinti • sustiprinti • paskatinti (pagyvinti)",
+    "lv": "stiprinti • sustiprinti • paskatinti",
     "level": "B2"
   },
   {
@@ -1365,7 +4363,7 @@ const B2_WORDS = [
   },
   {
     "de": "bestechlich",
-    "lv": "korumpuotas (nupirktinas) • papirktinas",
+    "lv": "korumpuotas • paperkamas",
     "level": "B2"
   },
   {
@@ -1375,12 +4373,12 @@ const B2_WORDS = [
   },
   {
     "de": "bestreiten",
-    "lv": "ginčyti (nesutikti) • sumokėti • padengti",
+    "lv": "ginčyti • sumokėti • padengti",
     "level": "B2"
   },
   {
     "de": "bestürzt",
-    "lv": "nustebęs • susigėdęs (sumišęs) • apstulbęs • susipainiojęs",
+    "lv": "sukrėstas • sumišęs • apstulbęs",
     "level": "B2"
   },
   {
@@ -1389,21 +4387,187 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-betaetigen",
-      "layout": "minimalStudy",
+      "layout": "standardStudy",
       "translation": "veikti • dalyvauti",
-      "rektion": "in + kur?",
-      "explanation": "sich betätigen reikalauja nustatyto prielinksnio in + kur?.",
-      "forms": "in + kur?",
-      "formsLabel": "Valdymas:",
+      "explanation": [
+        "Pagrindinė mintis: sich betätigen – sangrąžinis veiksmažodis, reiškiantis veikti, būti aktyviam kurioje nors srityje arba dalyvauti kokioje nors veikloje. Dažnai vartojamas su als arba su prieveiksmiu: sich sportlich betätigen, sich politisch betätigen.",
+        "Formos: betätigt sich, betätigte sich, hat sich betätigt. Priešdėlis be- neskiriamas, todėl nėra ge-.",
+        "Be sangrąžinio įvardžio betätigen reiškia įjungti, paleisti: einen Schalter betätigen (paspausti jungiklį), die Bremse betätigen."
+      ],
+      "examples": [
+        {
+          "de": "Er betätigt sich als Helfer im Verein.",
+          "lv": "Draugijoje jis dirba pagalbininku."
+        },
+        {
+          "de": "Sie betätigt sich gern sportlich.",
+          "lv": "Ji mėgsta sportuoti."
+        },
+        {
+          "de": "Rentner können sich ehrenamtlich betätigen.",
+          "lv": "Pensininkai gali dalyvauti savanoriškoje veikloje."
+        },
+        {
+          "de": "Wer hat den Notschalter betätigt?",
+          "lv": "Kas paspaudė avarinį jungiklį?"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich beschäftigen",
+          "meaning": "užsiimti",
+          "example": "Er beschäftigt sich mit Musik. – Jis užsiima muzika."
+        },
+        {
+          "word": "teilnehmen",
+          "meaning": "dalyvauti",
+          "example": "Sie nimmt am Kurs teil. – Ji dalyvauja kursuose."
+        },
+        {
+          "word": "mitmachen",
+          "meaning": "dalyvauti, prisidėti (šnekamojoje kalboje)",
+          "example": "Machst du mit? – Ar prisidedi?"
+        }
+      ],
+      "tip": [
+        "Pridėk prieveiksmį, kad nurodytum sritį: politisch, kreativ, ehrenamtlich, sportlich.",
+        "Reikšme veikti kaip kas nors vartojama als: sich als Künstler betätigen."
+      ],
+      "important": [
+        "Nepamiršk sich: be jo betätigen reiškia įjungti, o ne veikti.",
+        "Sich betätigen nėra tas pats, kas arbeiten: jis reiškia aktyvų įsitraukimą, ne tik apmokamą darbą."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich betätigen"
+            "sich betätigen",
+            "betätigt sich",
+            "betätigte sich",
+            "betätigt",
+            "betätigen",
+            "sich",
+            "betätigte"
           ],
-          "red": [
-            "in + kur?"
+          "purple": [
+            "veikti",
+            "dalyvauti",
+            "įjungti"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "betätigt",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "dirba"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "betätigt",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "sportuoti"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "betätigen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "dalyvauti"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "betätigt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "paspaudė"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich beschäftigen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "užsiimti"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "teilnehmen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "dalyvauti"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "mitmachen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "dalyvauti"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {
+            "blue": [
+              "betätigen",
+              "sich"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "betätigen",
+              "sich"
+            ]
+          },
+          {
+            "blue": [
+              "sich betätigen",
+              "betätigen",
+              "sich"
+            ]
+          }
+        ]
       }
     }
   },
@@ -1411,12 +4575,12 @@ const B2_WORDS = [
     "de": "Betäubung",
     "de_article": "die",
     "de_plural": "die Betäubungen",
-    "lv": "apsvaiginimas • apsvaigimas • narkozė • anestezija",
+    "lv": "apsvaiginimas • narkozė • anestezija",
     "level": "B2"
   },
   {
     "de": "beteuern",
-    "lv": "patvirtinti",
+    "lv": "užtikrinti • tvirtinti",
     "level": "B2"
   },
   {
@@ -1441,12 +4605,12 @@ const B2_WORDS = [
     "de": "Betrug",
     "de_article": "der",
     "de_plural": "die Betrüge",
-    "lv": "sukčiavimas • apgaudinėjimas • apgaulė • klasta",
+    "lv": "sukčiavimas • apgaulė • apgavystė",
     "level": "B2"
   },
   {
     "de": "beurlauben",
-    "lv": "suteikti atostogas • atleisti iš darbo",
+    "lv": "suteikti atostogas • laikinai nušalinti nuo darbo",
     "level": "B2"
   },
   {
@@ -1459,12 +4623,12 @@ const B2_WORDS = [
     "de": "Bewaffnung",
     "de_article": "die",
     "de_plural": "die Bewaffnungen",
-    "lv": "apsiginklavimas • ginkluotė",
+    "lv": "ginklavimas • ginkluotė",
     "level": "B2"
   },
   {
     "de": "bewähren",
-    "lv": "sergėti • išsaugoti • apsaugoti • gelbėti",
+    "lv": "pasiteisinti • įrodyti savo vertę",
     "level": "B2"
   },
   {
@@ -1510,12 +4674,12 @@ const B2_WORDS = [
   },
   {
     "de": "bezähmen",
-    "lv": "užburti • žavėti",
+    "lv": "sutramdyti • suvaldyti",
     "level": "B2"
   },
   {
     "de": "bezeugen",
-    "lv": "patvirtinti",
+    "lv": "paliudyti • patvirtinti",
     "level": "B2"
   },
   {
@@ -1527,7 +4691,7 @@ const B2_WORDS = [
   },
   {
     "de": "bezüglich",
-    "lv": "atsižvelgiant į",
+    "lv": "dėl • kalbant apie",
     "level": "B2"
   },
   {
@@ -1544,7 +4708,7 @@ const B2_WORDS = [
     "de": "Biegung",
     "de_article": "die",
     "de_plural": "die Biegungen",
-    "lv": "vingis (linkis) • išlinkis",
+    "lv": "vingis • išlinkis",
     "level": "B2"
   },
   {
@@ -1556,31 +4720,31 @@ const B2_WORDS = [
     "de": "Bildhauer",
     "de_article": "der",
     "de_plural": "die Bildhauer",
-    "lv": "skulptorius • skulptorius",
+    "lv": "skulptorius",
     "level": "B2"
   },
   {
     "de": "bildlich",
-    "lv": "vaizdingas • perkeltinis (vaizdingas) • figūrinis",
+    "lv": "vaizdingas • perkeltinis • figūrinis",
     "level": "B2"
   },
   {
     "de": "Bildnis",
     "de_article": "das",
     "de_plural": "die Bildnisse",
-    "lv": "portretas • portretas • atvaizdas (paveikslas)",
+    "lv": "portretas • atvaizdas",
     "level": "B2"
   },
   {
     "de": "billigen",
-    "lv": "pripažinti geru • sutikti",
+    "lv": "pritarti • sutikti",
     "level": "B2"
   },
   {
     "de": "Bindung",
     "de_article": "die",
     "de_plural": "die Bindungen",
-    "lv": "ryšys (susiejimas) • junginys • chemine jungtis • jungtis • dirželiai • emocinis ryšys",
+    "lv": "ryšys • jungtis • slidžių apkaustai",
     "level": "B2"
   },
   {
@@ -1630,12 +4794,12 @@ const B2_WORDS = [
   },
   {
     "de": "bildend",
-    "lv": "vaizduojantis • šviečiamasis (mokomasis)",
+    "lv": "vaizduojamasis • šviečiamasis • lavinamasis",
     "level": "B2"
   },
   {
     "de": "blähen",
-    "lv": "pūsti • papūsti (išpūsti) • išpūsti",
+    "lv": "pūsti • papūsti • išpūsti",
     "level": "B2"
   },
   {
@@ -1664,12 +4828,12 @@ const B2_WORDS = [
   },
   {
     "de": "bleichen",
-    "lv": "balti (blukti) • balinti • balinti",
+    "lv": "balti • blukti • balinti",
     "level": "B2"
   },
   {
     "de": "blenden",
-    "lv": "akinti • apakinti • sutrikdyti • klaidinti",
+    "lv": "akinti • apakinti • klaidinti",
     "level": "B2"
   },
   {
@@ -1716,7 +4880,7 @@ const B2_WORDS = [
   },
   {
     "de": "blödsinnig",
-    "lv": "silpnaprotis • silpnaprotis • kvailas • bukas",
+    "lv": "silpnaprotiškas • kvailas • durnas",
     "level": "B2"
   },
   {
@@ -1774,7 +4938,7 @@ const B2_WORDS = [
     "de": "Bodensatz",
     "de_article": "der",
     "de_plural": "die Bodensätze",
-    "lv": "nuosėdos • nuosėdos (padugnės) • mielės",
+    "lv": "nuosėdos • padugnės",
     "level": "B2"
   },
   {
@@ -1841,7 +5005,7 @@ const B2_WORDS = [
     "de": "Bote",
     "de_article": "der",
     "de_plural": "die Boten",
-    "lv": "šauklys • pasiuntinys • pasiuntinys (diplomatinis)",
+    "lv": "pasiuntinys • šauklys",
     "level": "B2"
   },
   {
@@ -1937,7 +5101,7 @@ const B2_WORDS = [
     "de": "Buche",
     "de_article": "die",
     "de_plural": "die Buchen",
-    "lv": "bukas • skroblas",
+    "lv": "bukas",
     "level": "B2"
   },
   {
@@ -1951,14 +5115,14 @@ const B2_WORDS = [
     "de": "Buchführung",
     "de_article": "die",
     "de_plural": "die Buchführungen",
-    "lv": "buhalterija (apskaita)",
+    "lv": "buhalterija • apskaita",
     "level": "B2"
   },
   {
     "de": "Buchhaltung",
     "de_article": "die",
     "de_plural": "die Buchhaltungen",
-    "lv": "buhalterija (apskaita)",
+    "lv": "buhalterija • apskaita",
     "level": "B2"
   },
   {
@@ -1970,14 +5134,14 @@ const B2_WORDS = [
     "de": "Buckel",
     "de_article": "der",
     "de_plural": "die Buckel",
-    "lv": "kupra • kupra (kūprys) • nugara",
+    "lv": "kupra • nugara",
     "level": "B2"
   },
   {
     "de": "Bügel",
     "de_article": "der",
     "de_plural": "die Bügel",
-    "lv": "rankena • lankas (apskritimas) • pakaba drabužiams • kilpa (pakoja)",
+    "lv": "rankena • drabužių pakaba • balnakilpė",
     "level": "B2"
   },
   {
@@ -2025,7 +5189,7 @@ const B2_WORDS = [
     "de": "Bürde",
     "de_article": "die",
     "de_plural": "die Bürden",
-    "lv": "našta • slogutis",
+    "lv": "našta • sunkenybė",
     "level": "B2"
   },
   {
@@ -2037,12 +5201,12 @@ const B2_WORDS = [
   },
   {
     "de": "bürgen",
-    "lv": "laiduoti (garantuoti)",
+    "lv": "laiduoti • garantuoti",
     "level": "B2"
   },
   {
     "de": "bürgerlich",
-    "lv": "pilietinis • piliečių • buržuazinis • buržuazijos",
+    "lv": "pilietinis • civilinis • buržuazinis",
     "level": "B2"
   },
   {
@@ -2054,7 +5218,7 @@ const B2_WORDS = [
   },
   {
     "de": "chartern",
-    "lv": "čarteriuoti lėktuvą ar laivą konkrečiai kelionei",
+    "lv": "išsinuomoti lėktuvą ar laivą konkrečiai kelionei",
     "level": "B2"
   },
   {
@@ -2109,7 +5273,7 @@ const B2_WORDS = [
     "de": "Chorleiter",
     "de_article": "der",
     "de_plural": "die Chorleiter",
-    "lv": "choro vadovas (chormeisteris)",
+    "lv": "choro vadovas • chormeisteris",
     "level": "B2"
   },
   {
@@ -2128,7 +5292,7 @@ const B2_WORDS = [
   },
   {
     "de": "chronisch",
-    "lv": "lėtinis (chroniškas)",
+    "lv": "lėtinis • chroniškas",
     "level": "B2"
   },
   {
@@ -2168,19 +5332,19 @@ const B2_WORDS = [
     "de": "Damm",
     "de_article": "der",
     "de_plural": "die Dämme",
-    "lv": "pylimas (užtvanka) • užtvanka • geležinkelio pylimas",
+    "lv": "pylimas • užtvanka • geležinkelio pylimas",
     "level": "B2"
   },
   {
     "de": "dämmern",
-    "lv": "temti (brėkšti) • tamsėti • aušti • švisti",
+    "lv": "temti • aušti • švisti",
     "level": "B2"
   },
   {
     "de": "Dämmerung",
     "de_article": "die",
     "de_plural": "die Dämmerungen",
-    "lv": "sutema • prieblanda • aušra • rytmečio aušra",
+    "lv": "sutema • prieblanda • aušra",
     "level": "B2"
   },
   {
@@ -2190,7 +5354,7 @@ const B2_WORDS = [
   },
   {
     "de": "dämpfen",
-    "lv": "tildyti (slopinti) • slopinti • troškinti garuose • troškinti • troškinti",
+    "lv": "slopinti • tildyti • troškinti",
     "level": "B2"
   },
   {
@@ -2209,14 +5373,14 @@ const B2_WORDS = [
   },
   {
     "de": "darbieten",
-    "lv": "teikti • paduoti (pateikti)",
+    "lv": "teikti • pateikti",
     "level": "B2"
   },
   {
     "de": "Darbietung",
     "de_article": "die",
     "de_plural": "die Darbietungen",
-    "lv": "pasiekimas (atlikimas) • pasirodymas",
+    "lv": "atlikimas • pasirodymas",
     "level": "B2"
   },
   {
@@ -2228,7 +5392,7 @@ const B2_WORDS = [
     "de": "Darlehen",
     "de_article": "das",
     "de_plural": "die Darlehen",
-    "lv": "paskola • skolinimasis",
+    "lv": "paskola",
     "level": "B2"
   },
   {
@@ -2250,7 +5414,195 @@ const B2_WORDS = [
     "de_article": "die",
     "de_plural": "die Darstellungen",
     "lv": "vaizdavimas • atvaizdavimas • išdėstymas",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-darstellung",
+      "layout": "standardStudy",
+      "translation": "vaizdavimas • atvaizdavimas • išdėstymas",
+      "explanation": [
+        "Pagrindinė mintis: die Darstellung – moteriškosios giminės daiktavardis iš veiksmažodžio darstellen. Jis reiškia ko nors vaizdavimą ar išdėstymą: tai, ką žmogus pasako, parašo, nupiešia ar suvaidina.",
+        "Daugiskaita – die Darstellungen. Reikšmės: išdėstymas (įvykių aprašymas žodžiais), vaizdavimas (piešinyje, schemoje: grafische Darstellung), vaidmens atlikimas (aktoriaus vaidmens kūrimas).",
+        "Dažni junginiai: eine Darstellung geben (pateikti išdėstymą), die Darstellung der Ereignisse, die grafische Darstellung (grafinis vaizdavimas)."
+      ],
+      "examples": [
+        {
+          "de": "Die Darstellung des Unfalls war sehr genau.",
+          "lv": "Nelaimingo atsitikimo aprašymas buvo labai tikslus."
+        },
+        {
+          "de": "Die Zeitung gibt eine einseitige Darstellung der Ereignisse.",
+          "lv": "Laikraštis pateikia vienpusišką įvykių vaizdavimą."
+        },
+        {
+          "de": "Die Darstellung des Hamlet durch den jungen Schauspieler war beeindruckend.",
+          "lv": "Jaunojo aktoriaus Hamleto vaidmens atlikimas buvo įspūdingas."
+        },
+        {
+          "de": "Die grafische Darstellung zeigt die Entwicklung der Preise.",
+          "lv": "Grafinis vaizdas rodo kainų raidą."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "die Beschreibung",
+          "meaning": "aprašymas",
+          "example": "Die Beschreibung ist genau. – Aprašymas tikslus."
+        },
+        {
+          "word": "der Bericht",
+          "meaning": "pranešimas, ataskaita",
+          "example": "Der Bericht ist kurz. – Pranešimas trumpas."
+        },
+        {
+          "word": "die Schilderung",
+          "meaning": "vaizdingas pasakojimas",
+          "example": "Seine Schilderung war lebendig. – Jo pasakojimas buvo gyvas."
+        }
+      ],
+      "tip": [
+        "Po Darstellung dažnai eina von arba Genitiv: die Darstellung des Problems, die Darstellung von Daten.",
+        "Apie diagramą ar schemą sakoma grafische Darstellung."
+      ],
+      "important": [
+        "Darstellung nėra tas pats, kas Beschreibung: Beschreibung – aprašymas žodžiais, o Darstellung gali būti ir piešinys, schema ar vaidmens atlikimas.",
+        "Die Darstellung yra moteriškosios giminės, daugiskaita – die Darstellungen."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "die Darstellung",
+            "Darstellung",
+            "Darstellungen",
+            "darstellen"
+          ],
+          "purple": [
+            "vaizdavimas",
+            "vaidmens atlikimas",
+            "išdėstymas",
+            "išdėstymas",
+            "vaizdavimą"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Darstellung"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "aprašymas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Darstellung"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vaizdavimą"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Darstellung"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "atlikimas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Darstellung"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vaizdas"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "die Beschreibung"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "aprašymas"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Bericht"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "pranešimas"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Schilderung"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "vaizdingas"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "Darstellung",
+              "die Darstellung"
+            ]
+          },
+          {
+            "blue": [
+              "Darstellung"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "Darstellung"
+            ],
+            "green": [
+              "Beschreibung"
+            ]
+          },
+          {
+            "blue": [
+              "Darstellung",
+              "die Darstellung",
+              "Darstellungen"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Dasein",
@@ -2261,13 +5613,201 @@ const B2_WORDS = [
   {
     "de": "dasjenige",
     "lv": "tas",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-dasjenige",
+      "layout": "standardStudy",
+      "translation": "tas",
+      "explanation": [
+        "Pagrindinė mintis: dasjenige – niekatrosios giminės parodomasis įvardis, reiškiantis tas (tai, kas). Jis paprastai nurodo į tai, kas toliau patikslinama santykiniu šalutiniu sakiniu: dasjenige, was/das …",
+        "Žodis linksniuojamas: dasjenige (Nominativ, Akkusativ), desjenigen (Genitiv), demjenigen (Dativ). Vyriškoji giminė – derjenige, moteriškoji – diejenige, daugiskaita – diejenigen. Linksniuojamos abi dalys (das + jenige).",
+        "Žodis oficialus ir dažnesnis raštu; šnekamojoje kalboje vietoj jo paprastai sakoma das arba das, was."
+      ],
+      "examples": [
+        {
+          "de": "Dasjenige, was er sagte, war richtig.",
+          "lv": "Tai, ką jis pasakė, buvo teisinga."
+        },
+        {
+          "de": "Ich nehme dasjenige Buch, das auf dem Tisch liegt.",
+          "lv": "Imu tą knygą, kuri guli ant stalo."
+        },
+        {
+          "de": "Dasjenige Kind, das zuerst fertig ist, bekommt einen Preis.",
+          "lv": "Tas vaikas, kuris baigia pirmas, gauna prizą."
+        },
+        {
+          "de": "Mit demjenigen Auto, das du gekauft hast, bin ich zufrieden.",
+          "lv": "Esu patenkintas tuo automobiliu, kurį nupirkai."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "derjenige / diejenige",
+          "meaning": "tas, kuris / ta, kuri",
+          "example": "Derjenige, der kommt, bekommt Kuchen. – Tas, kuris ateina, gauna pyrago."
+        },
+        {
+          "word": "das, was",
+          "meaning": "tai, kas",
+          "example": "Ich verstehe das, was du sagst. – Suprantu tai, ką sakai."
+        },
+        {
+          "word": "dieses",
+          "meaning": "šis",
+          "example": "Dieses Buch gefällt mir. – Ši knyga man patinka."
+        }
+      ],
+      "tip": [
+        "Po dasjenige paprastai lauk santykinio šalutinio sakinio su das arba was; sakinyje jį galima pakeisti paprastu das.",
+        "Linksniuojamos abi dalys: mit demjenigen Auto, o ne mit dasjenigen."
+      ],
+      "important": [
+        "Dasjenige be šalutinio sakinio paprastai nevartojamas.",
+        "Nepainiok su dieses (šis): dasjenige nurodo į tai, kas tuoj pat patikslinama."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "dasjenige",
+            "demjenigen",
+            "desjenigen",
+            "derjenige",
+            "diejenige",
+            "diejenigen"
+          ],
+          "purple": [
+            "tas",
+            "tai"
+          ],
+          "green": [
+            "das, was"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Dasjenige"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Tai"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "dasjenige"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tą"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Dasjenige"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Tas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "demjenigen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tuo"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "derjenige / diejenige"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "tas"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "das, was"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "tai"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "dieses"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "šis"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "dasjenige"
+            ]
+          },
+          {
+            "blue": [
+              "demjenigen"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "dasjenige",
+              "Dasjenige"
+            ]
+          },
+          {
+            "blue": [
+              "dasjenige"
+            ],
+            "green": [
+              "dieses"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Datei",
     "de_article": "die",
     "de_plural": "die Dateien",
-    "lv": "kartoteka",
+    "lv": "failas • rinkmena",
     "level": "B2"
   },
   {
@@ -2281,7 +5821,7 @@ const B2_WORDS = [
     "de": "Datenträger",
     "de_article": "der",
     "de_plural": "die Datenträger",
-    "lv": "diskelis",
+    "lv": "duomenų laikmena • diskelis",
     "level": "B2"
   },
   {
@@ -2330,17 +5870,17 @@ const B2_WORDS = [
     "de": "Defizit",
     "de_article": "das",
     "de_plural": "die Defizite",
-    "lv": "trūkumas • trūkumas (deficitas) • deficitas",
+    "lv": "trūkumas • deficitas",
     "level": "B2"
   },
   {
     "de": "dehnbar",
-    "lv": "tįstantis (tįsus) • tampomas • tįsus",
+    "lv": "tąsus • tampus • elastingas",
     "level": "B2"
   },
   {
     "de": "dehnen",
-    "lv": "tiesti • tampyti • tįstis • styrotis (tįsotis) • vilktis",
+    "lv": "tempti • tįsti • užsitęsti",
     "level": "B2"
   },
   {
@@ -2381,14 +5921,14 @@ const B2_WORDS = [
   },
   {
     "de": "dementieren",
-    "lv": "atšaukti informaciją",
+    "lv": "paneigti • dementuoti",
     "level": "B2"
   },
   {
     "de": "Demission",
     "de_article": "die",
     "de_plural": "die Demissionen",
-    "lv": "atsistatydinimas iš pareigų • atsistatydinimas",
+    "lv": "atsistatydinimas • demisija",
     "level": "B2"
   },
   {
@@ -2398,7 +5938,7 @@ const B2_WORDS = [
   },
   {
     "de": "denkbar",
-    "lv": "tikėtinas • įsivaizduojamas • galimas",
+    "lv": "įsivaizduojamas • galimas",
     "level": "B2"
   },
   {
@@ -2408,7 +5948,7 @@ const B2_WORDS = [
   },
   {
     "de": "deponieren",
-    "lv": "deponuoti • dėti į saugojimą (indėlį)",
+    "lv": "deponuoti • padėti saugoti",
     "level": "B2"
   },
   {
@@ -2423,14 +5963,14 @@ const B2_WORDS = [
   },
   {
     "de": "deuten",
-    "lv": "paaiškinti • išversti (interpretuoti) • nurodyti",
+    "lv": "aiškinti • interpretuoti • nurodyti",
     "level": "B2"
   },
   {
     "de": "Deutung",
     "de_article": "die",
     "de_plural": "die Deutungen",
-    "lv": "aiškinimas • interpretavimas • paaiškinimas • interpretacija",
+    "lv": "aiškinimas • interpretavimas • interpretacija",
     "level": "B2"
   },
   {
@@ -2464,7 +6004,7 @@ const B2_WORDS = [
     "de": "Morddezernat",
     "de_article": "das",
     "de_plural": "die Morddezernate",
-    "lv": "kriminalinis skyrius",
+    "lv": "žmogžudysčių skyrius",
     "level": "B2"
   },
   {
@@ -2510,7 +6050,7 @@ const B2_WORDS = [
     "de": "Dickicht",
     "de_article": "das",
     "de_plural": "die Dickichte",
-    "lv": "tankmė (brūzgynas)",
+    "lv": "tankmė • brūzgynas",
     "level": "B2"
   },
   {
@@ -2520,7 +6060,7 @@ const B2_WORDS = [
   },
   {
     "de": "diejenige",
-    "lv": "taip",
+    "lv": "ta",
     "level": "B2"
   },
   {
@@ -2547,14 +6087,185 @@ const B2_WORDS = [
   },
   {
     "de": "dingen",
-    "lv": "derėtis (sutarti) • susitarti",
-    "level": "B2"
+    "lv": "samdyti • pasamdyti",
+    "level": "B2",
+    "study": {
+      "id": "b2-dingen",
+      "layout": "standardStudy",
+      "translation": "samdyti • pasamdyti",
+      "explanation": [
+        "Pagrindinė mintis: dingen – retas, senamadiškas veiksmažodis, reiškiantis pasamdyti (žmogų už užmokestį kokiam nors darbui). Šiandien jis dažniausiai girdimas posakyje ein gedungener Mörder (pasamdytas žudikas) ir istoriniuose tekstuose.",
+        "Formos: dingt, dang, hat gedungen (pasitaiko ir taisyklingosios formos dingte, gedingt). Paprastai samdomi Söldner, Mörder, Führer. Kasdienėje kalboje sakoma anheuern arba engagieren.",
+        "Po dingen eina galininkas (Akkusativ): jemanden dingen."
+      ],
+      "examples": [
+        {
+          "de": "Der Graf dingte Söldner für den Krieg.",
+          "lv": "Grafas pasamdė samdinių karui."
+        },
+        {
+          "de": "Sie dangen einen Führer für die Reise.",
+          "lv": "Jie pasamdė vedlį kelionei."
+        },
+        {
+          "de": "Die Polizei sucht einen gedungenen Mörder.",
+          "lv": "Policija ieško pasamdyto žudiko."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "anheuern",
+          "meaning": "pasamdyti (šnekamojoje kalboje)",
+          "example": "Sie heuern einen Fahrer an. – Jie pasamdo vairuotoją."
+        },
+        {
+          "word": "engagieren",
+          "meaning": "pasamdyti, pakviesti",
+          "example": "Wir engagieren einen Musiker. – Mes pakviečiame muzikantą."
+        },
+        {
+          "word": "mieten",
+          "meaning": "nuomotis",
+          "example": "Er mietet ein Auto. – Jis nuomojasi automobilį."
+        }
+      ],
+      "tip": [
+        "Dažniausiai matysi frazę ein gedungener Mörder; kitur šis žodis retas.",
+        "Gyvojoje kalboje rinkis anheuern (pasamdyti) arba engagieren."
+      ],
+      "important": [
+        "Dingen – literatūrinis arba istorinis žodis; kasdienėje kalboje jis skambėtų keistai.",
+        "Formos svyruoja (dang/gedungen ir dingte/gedingt); daugiausia vartojama stiprioji forma."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "dingen",
+            "dingte",
+            "dang",
+            "gedungen",
+            "gedungener"
+          ],
+          "purple": [
+            "pasamdyti",
+            "pasamdytas"
+          ],
+          "green": [
+            "anheuern",
+            "engagieren"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "dingte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pasamdė"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "dangen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pasamdė"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "gedungenen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pasamdyto"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "anheuern"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "pasamdyti"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "engagieren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "pasamdyti"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "mieten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "nuomotis"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "gedungener"
+            ]
+          },
+          {
+            "green": [
+              "anheuern",
+              "engagieren"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "dingen"
+            ]
+          },
+          {
+            "blue": [
+              "dingte",
+              "dang",
+              "gedungen"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Direktion",
     "de_article": "die",
     "de_plural": "die Direktionen",
-    "lv": "dvejopo (dviejų linksnių) prielinksnių valdymas",
+    "lv": "direkcija • vadovybė",
     "level": "B2"
   },
   {
@@ -2607,20 +6318,204 @@ const B2_WORDS = [
     "de": "Dohle",
     "de_article": "die",
     "de_plural": "die Dohlen",
-    "lv": "kovas",
+    "lv": "kuosa",
     "level": "B2"
   },
   {
     "de": "Dom",
     "de_article": "der",
     "de_plural": "die Dome",
-    "lv": "katedra • katedra",
+    "lv": "katedra",
     "level": "B2"
   },
   {
     "de": "donnern",
     "lv": "griaudėja perkūnas • dundėti • griaudėti",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-donnern",
+      "layout": "standardStudy",
+      "translation": "griaudėja perkūnas • dundėti • griaudėti",
+      "explanation": [
+        "Pagrindinė mintis: donnern reiškia griaudėti, dundėti: apie perkūniją (es donnert – griaudžia perkūnas), apie sunkų triukšmą (traukinys, sunkvežimis, artilerija) arba apie garsų balsą.",
+        "Formos: donnert, donnerte, hat gedonnert. Kalbant apie perkūniją vartojamas beasmenis es: Es donnert. Jei veiksmažodis nusako judėjimą su triukšmu, perfekte vartojamas sein: Der Zug ist über die Brücke gedonnert.",
+        "Perkeltine reikšme donnern – garsiai užrikti: Der Chef donnerte los."
+      ],
+      "examples": [
+        {
+          "de": "Es blitzt und donnert.",
+          "lv": "Žaibuoja ir griaudžia."
+        },
+        {
+          "de": "Der Zug donnert über die Brücke.",
+          "lv": "Traukinys dunda per tiltą."
+        },
+        {
+          "de": "Die Lastwagen donnerten über die Straße.",
+          "lv": "Sunkvežimiai dundėjo gatve."
+        },
+        {
+          "de": "Der Chef donnerte: „Raus hier!“",
+          "lv": "Viršininkas užriko: „Lauk iš čia!“"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "grollen",
+          "meaning": "dundėti (tolumoje)",
+          "example": "In der Ferne grollt es. – Tolumoje dunda."
+        },
+        {
+          "word": "krachen",
+          "meaning": "traškėti, trenkti",
+          "example": "Das Eis kracht unter den Füßen. – Ledas traška po kojomis."
+        },
+        {
+          "word": "rumpeln",
+          "meaning": "barškėti, dundėti",
+          "example": "Der Wagen rumpelt über die Steine. – Vežimas barškėdamas važiuoja per akmenis."
+        }
+      ],
+      "tip": [
+        "Apie perkūniją sakoma Es donnert; apie žaibą – Es blitzt.",
+        "Jei kalbama apie triukšmą ir judėjimą, donnern gali būti su sein: ist gedonnert."
+      ],
+      "important": [
+        "Perkūnija: es donnert su hat gedonnert, o ne ist.",
+        "Donnern – ne vien apie perkūniją: jis gali būti ir apie sunkias transporto priemones ar piktą balsą."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "donnern",
+            "donnert",
+            "donnerte",
+            "gedonnert",
+            "Es donnert"
+          ],
+          "purple": [
+            "griaudėti",
+            "dundėti",
+            "griaudžia"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "donnert"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "griaudžia"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "donnert"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "dunda"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "donnerten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "dundėjo"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "donnerte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "užriko"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "grollen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "dundėti"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "krachen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "traškėti"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "rumpeln"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "barškėti"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "donnert",
+              "Es donnert"
+            ]
+          },
+          {
+            "blue": [
+              "donnern",
+              "gedonnert"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "donnert",
+              "gedonnert"
+            ]
+          },
+          {
+            "blue": [
+              "donnern"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "dopen",
@@ -2655,12 +6550,12 @@ const B2_WORDS = [
   },
   {
     "de": "dornig",
-    "lv": "erškėtuotas (dygliuotas) • dygliuotas",
+    "lv": "erškėtuotas • dygliuotas",
     "level": "B2"
   },
   {
     "de": "dörren",
-    "lv": "džiovinti • džiovinti (rūkyti)",
+    "lv": "džiovinti",
     "level": "B2"
   },
   {
@@ -2708,7 +6603,7 @@ const B2_WORDS = [
     "de": "Dosis",
     "de_article": "die",
     "de_plural": "die Dosen",
-    "lv": "dozė • dozė (davinys)",
+    "lv": "dozė",
     "level": "B2"
   },
   {
@@ -2741,7 +6636,7 @@ const B2_WORDS = [
     "de": "Dramatiker",
     "de_article": "der",
     "de_plural": "die Dramatiker",
-    "lv": "dramaturgas • dramaturgas (pjesių rašytojas)",
+    "lv": "dramaturgas • pjesių rašytojas",
     "level": "B2"
   },
   {
@@ -2753,14 +6648,14 @@ const B2_WORDS = [
   },
   {
     "de": "drängen",
-    "lv": "stumti • spausti • paskubinti • paskubinti • skatinti",
+    "lv": "stumti • spausti • raginti",
     "level": "B2"
   },
   {
     "de": "Dreck",
     "de_article": "der",
     "de_plural": "die Drecke",
-    "lv": "mėšlas • purvas (nešvarumai) • dumblas (purvas) • šlamštas",
+    "lv": "mėšlas • purvas • šlamštas",
     "level": "B2"
   },
   {
@@ -2811,7 +6706,7 @@ const B2_WORDS = [
   },
   {
     "de": "dringen",
-    "lv": "spraustis • lauzties • įsispausti • įsilaužti • prašyti • reikalauti",
+    "lv": "skverbtis • veržtis • reikalauti",
     "level": "B2"
   },
   {
@@ -2825,7 +6720,7 @@ const B2_WORDS = [
     "de": "Drohung",
     "de_article": "die",
     "de_plural": "die Drohungen",
-    "lv": "grasinimai",
+    "lv": "grasinimas",
     "level": "B2"
   },
   {
@@ -2844,7 +6739,7 @@ const B2_WORDS = [
   },
   {
     "de": "drosseln",
-    "lv": "smaugti • slopinti (dusinti)",
+    "lv": "smaugti • slopinti",
     "level": "B2"
   },
   {
@@ -2858,7 +6753,7 @@ const B2_WORDS = [
     "de": "Druckerei",
     "de_article": "die",
     "de_plural": "die Druckereien",
-    "lv": "tipografija",
+    "lv": "spaustuvė",
     "level": "B2"
   },
   {
@@ -2886,7 +6781,7 @@ const B2_WORDS = [
     "de": "Drucksache",
     "de_article": "die",
     "de_plural": "die Drucksachen",
-    "lv": "bandrolė • spaudinys pašto siuntose",
+    "lv": "banderolė • spaudinys",
     "level": "B2"
   },
   {
@@ -2903,7 +6798,7 @@ const B2_WORDS = [
   },
   {
     "de": "dumpf",
-    "lv": "duslus • prislopintas • sutvankėjęs • tvankus • sunkus • prislėgtas • slogus",
+    "lv": "duslus • tvankus • slogus",
     "level": "B2"
   },
   {
@@ -2952,39 +6847,230 @@ const B2_WORDS = [
   },
   {
     "de": "dünken",
-    "lv": "rodytis • pasirodyti",
+    "lv": "atrodyti • rodytis",
     "level": "B2"
   },
   {
     "de": "Dunst",
     "de_article": "der",
     "de_plural": "die Dünste",
-    "lv": "garas • garai • išgaravimai • tvanka • rūkas • tirštas rūkas",
-    "level": "B2"
+    "lv": "garai • migla • ūkana",
+    "level": "B2",
+    "study": {
+      "id": "b2-dunst",
+      "layout": "standardStudy",
+      "translation": "garai • migla • ūkana",
+      "explanation": [
+        "Pagrindinė mintis: der Dunst – vyriškosios giminės daiktavardis, reiškiantis garus, miglotą orą ar išgaravimus: lengvą ūkaną, dėl kurios oras tampa drumstas, arba kvapą ir garus.",
+        "Daugiskaita – die Dünste (su umliautu); ji vartojama retai, daugiausia kalbant apie išgaravimus: giftige Dünste. Vienaskaitoje der Dunst dažnai reiškia ūkaną virš miesto, ežero ar slėnio.",
+        "Posakis keinen blassen Dunst von etwas haben reiškia, kad žmogus neturi nė menkiausio supratimo."
+      ],
+      "examples": [
+        {
+          "de": "Über dem See lag ein feiner Dunst.",
+          "lv": "Virš ežero tvyrojo lengva ūkana."
+        },
+        {
+          "de": "In der Küche hing der Dunst von gebratenem Fleisch.",
+          "lv": "Virtuvėje tvyrojo keptos mėsos garai."
+        },
+        {
+          "de": "Giftige Dünste stiegen aus dem Fass auf.",
+          "lv": "Iš statinės kilo nuodingi garai."
+        },
+        {
+          "de": "Ich habe keinen blassen Dunst davon.",
+          "lv": "Neturiu apie tai nė menkiausio supratimo."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "der Nebel",
+          "meaning": "rūkas",
+          "example": "Im Herbst gibt es oft Nebel. – Rudenį dažnai būna rūko."
+        },
+        {
+          "word": "der Dampf",
+          "meaning": "garai (karšti)",
+          "example": "Dampf steigt aus dem Topf auf. – Iš puodo kyla garai."
+        },
+        {
+          "word": "der Rauch",
+          "meaning": "dūmai",
+          "example": "Rauch steigt aus dem Schornstein auf. – Iš kamino kyla dūmai."
+        }
+      ],
+      "tip": [
+        "Dunst vartojamas, kai oras aprūkęs arba sklinda kvapų garai; tirštam rūkui sakoma Nebel.",
+        "Posakis keinen blassen Dunst haben – šnekamosios kalbos; vartok jį neformaliai kalbėdamas."
+      ],
+      "important": [
+        "Der Dunst – ne tas pats, kas Dampf: Dampf – karšti garai, Dunst – lengva ūkana arba išgaravimai.",
+        "Daugiskaita die Dünste – su umliautu ir vartojama retai."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "der Dunst",
+            "die Dünste",
+            "Dunst",
+            "Dünste",
+            "keinen blassen Dunst"
+          ],
+          "purple": [
+            "garus",
+            "ūkaną",
+            "išgaravimus",
+            "nė menkiausio supratimo"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Dunst"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ūkana"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Dunst"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "garai"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Dünste"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "garai"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Dunst"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nė menkiausio supratimo"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "der Nebel"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "rūkas"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Dampf"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "garai"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Rauch"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "dūmai"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "Dunst"
+            ],
+            "green": [
+              "Nebel"
+            ]
+          },
+          {
+            "blue": [
+              "Dunst",
+              "keinen blassen Dunst"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "Dunst",
+              "der Dunst"
+            ],
+            "green": [
+              "Dampf"
+            ]
+          },
+          {
+            "blue": [
+              "die Dünste",
+              "Dünste"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "durcharbeiten",
-    "lv": "apdirbti • kruopščiai perskaityti • kruopščiai išminkyti",
+    "lv": "išnagrinėti • kruopščiai perskaityti • kruopščiai išminkyti",
     "level": "B2"
   },
   {
     "de": "durchaus",
-    "lv": "visiškai • visai • pilnai",
+    "lv": "visiškai • visai",
     "level": "B2"
   },
   {
     "de": "durchbrechen",
-    "lv": "perlaužti • prasiveržti • pasirodyti • perplėšti",
+    "lv": "perlaužti • prasiveržti • pasirodyti",
     "level": "B2"
   },
   {
     "de": "durchbrennen",
-    "lv": "išdegti kiaurai • perdegti • išdegti • perdegti",
+    "lv": "išdegti kiaurai • perdegti • išdegti",
     "level": "B2"
   },
   {
     "de": "durchbringen",
-    "lv": "protempti • pernešti • pasiekti • išgydyti • išeikvoti",
+    "lv": "prakišti • išgydyti • iššvaistyti",
     "level": "B2"
   },
   {
@@ -3003,20 +7089,20 @@ const B2_WORDS = [
     "de": "Durchfahrt",
     "de_article": "die",
     "de_plural": "die Durchfahrten",
-    "lv": "pervažiavimas • pervaža",
+    "lv": "pravažiavimas • pravaža",
     "level": "B2"
   },
   {
     "de": "Durchfuhr",
     "de_article": "die",
-    "lv": "pervažiavimas • tranzitas",
+    "lv": "tranzitas • pervežimas",
     "level": "B2"
   },
   {
     "de": "Durchführung",
     "de_article": "die",
     "de_plural": "die Durchführungen",
-    "lv": "pravedimas • įvykdymas • padarymas • atlikimas • realizavimas",
+    "lv": "įvykdymas • atlikimas • realizavimas",
     "level": "B2"
   },
   {
@@ -3026,12 +7112,12 @@ const B2_WORDS = [
   },
   {
     "de": "durchlaufen",
-    "lv": "pralėkti kiaurai • pratekėti kiaurai",
+    "lv": "perbėgti • pratekėti",
     "level": "B2"
   },
   {
     "de": "durchmachen",
-    "lv": "pergyventi • išimti • baigti",
+    "lv": "pergyventi • praeiti • baigti",
     "level": "B2"
   },
   {
@@ -3050,17 +7136,17 @@ const B2_WORDS = [
     "de": "Durchreise",
     "de_article": "die",
     "de_plural": "die Durchreisen",
-    "lv": "pervažiavimas",
+    "lv": "pravažiavimas",
     "level": "B2"
   },
   {
     "de": "durchschauen",
-    "lv": "permatyti kiaurai • atskleisti",
+    "lv": "permatyti • perprasti",
     "level": "B2"
   },
   {
     "de": "durchschlagen",
-    "lv": "iškošti • perleisti per sietą • prasimušti • išmušti skylę",
+    "lv": "perkošti • prasimušti • pramušti skylę",
     "level": "B2"
   },
   {
@@ -3070,7 +7156,7 @@ const B2_WORDS = [
   },
   {
     "de": "durchsetzen",
-    "lv": "protempti • pasiekti",
+    "lv": "prakišti • pasiekti",
     "level": "B2"
   },
   {
@@ -3080,7 +7166,7 @@ const B2_WORDS = [
   },
   {
     "de": "dürr",
-    "lv": "sausas • išdžiūvęs • nudžiūvęs • liesas",
+    "lv": "sausas • išdžiūvęs • liesas",
     "level": "B2"
   },
   {
@@ -3118,7 +7204,7 @@ const B2_WORDS = [
     "de": "Eberesche",
     "de_article": "die",
     "de_plural": "die Ebereschen",
-    "lv": "šermukšnis • šermukšnis",
+    "lv": "šermukšnis",
     "level": "B2"
   },
   {
@@ -3166,7 +7252,7 @@ const B2_WORDS = [
   },
   {
     "de": "ehelich",
-    "lv": "santuokos-",
+    "lv": "santuokinis • vedybinis",
     "level": "B2"
   },
   {
@@ -3185,7 +7271,7 @@ const B2_WORDS = [
   },
   {
     "de": "ehren",
-    "lv": "garbinti • gerbti • pagerbti",
+    "lv": "gerbti • pagerbti",
     "level": "B2"
   },
   {
@@ -3248,7 +7334,7 @@ const B2_WORDS = [
   },
   {
     "de": "ehrgeizig",
-    "lv": "garbėtroška",
+    "lv": "garbėtroškiškas • ambicingas",
     "level": "B2"
   },
   {
@@ -3290,12 +7376,12 @@ const B2_WORDS = [
     "de": "Eifer",
     "de_article": "der",
     "de_plural": "die Eifer",
-    "lv": "darbštumas • stropumas • įkarštis • degimas • uolumas",
+    "lv": "uolumas • stropumas • įkarštis",
     "level": "B2"
   },
   {
     "de": "eifrig",
-    "lv": "darbštus • stropus • uolus • degantis",
+    "lv": "uolus • stropus • darbštus",
     "level": "B2"
   },
   {
@@ -3313,7 +7399,7 @@ const B2_WORDS = [
   {
     "de": "Eigenliebe",
     "de_article": "die",
-    "lv": "savimyla • egoizmas",
+    "lv": "savimeilė • egoizmas",
     "level": "B2"
   },
   {
@@ -3328,8 +7414,180 @@ const B2_WORDS = [
   },
   {
     "de": "eigenwillig",
-    "lv": "savavalingas • užsispyręs • atkaklus • valingas",
-    "level": "B2"
+    "lv": "savavališkas • užsispyręs • atkaklus",
+    "level": "B2",
+    "study": {
+      "id": "b2-eigenwillig",
+      "layout": "standardStudy",
+      "translation": "savavališkas • užsispyręs • atkaklus",
+      "explanation": [
+        "Pagrindinė mintis: eigenwillig – būdvardis, apibūdinantis žmogų ar daiktą, turintį savo valią ir stilių: užsispyrusį, kietasprandį, bet dažnai ir savitą, originalų, nesekantį kitais.",
+        "Apie žmogų jis paprastai reiškia užsispyrusį, besivadovaujantį savo valia: ein eigenwilliges Kind. Apie stilių, interpretaciją ar skonį – savitą: ein eigenwilliger Stil, eine eigenwillige Interpretation.",
+        "Žodis sudarytas iš eigen (savas) ir Wille (valia), todėl jį galima suprasti kaip „su savo valia“."
+      ],
+      "examples": [
+        {
+          "de": "Sie ist ein eigenwilliges Kind.",
+          "lv": "Ji – užsispyręs vaikas."
+        },
+        {
+          "de": "Er hat eine eigenwillige Art, Probleme zu lösen.",
+          "lv": "Jis turi savitą būdą spręsti problemas."
+        },
+        {
+          "de": "Der Künstler ist für seinen eigenwilligen Stil bekannt.",
+          "lv": "Menininkas žinomas dėl savo savito stiliaus."
+        },
+        {
+          "de": "Der alte Mann bleibt eigenwillig und lässt sich nichts sagen.",
+          "lv": "Senasis vyras lieka kietasprandis ir nieko nenori klausyti."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "eigensinnig",
+          "meaning": "užsispyręs",
+          "example": "Das Kind ist eigensinnig. – Vaikas užsispyręs."
+        },
+        {
+          "word": "stur",
+          "meaning": "kietasprandis",
+          "example": "Er bleibt stur bei seiner Meinung. – Jis atkakliai laikosi savo nuomonės."
+        },
+        {
+          "word": "originell",
+          "meaning": "originalus",
+          "example": "Das ist eine originelle Idee. – Tai originali idėja."
+        }
+      ],
+      "tip": [
+        "Reikšmę lemia kontekstas: vaikas, senas žmogus – greičiau užsispyręs; stilius, idėja – savitas.",
+        "Žodis kaitomas kaip visi būdvardžiai: ein eigenwilliger Mensch."
+      ],
+      "important": [
+        "Vertimas savavališkas čia reiškia „besivadovaujantis savo valia“; eigenwillig nėra willkürlich (atsitiktinis, be taisyklių): jis kalba apie paties žmogaus valią ir stilių.",
+        "Žodis gali būti ir kritiškas, ir palankus; tai priklauso nuo sakinio."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "eigenwillig",
+            "eigenwilliges",
+            "eigenwilliger",
+            "eigenwillige"
+          ],
+          "purple": [
+            "užsispyrusį",
+            "kietasprandį",
+            "savitą"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "eigenwilliges"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "užsispyręs"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "eigenwillige"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "savitą"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "eigenwilligen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "savito"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "eigenwillig"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kietasprandis"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "eigensinnig"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "užsispyręs"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "stur"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "kietasprandis"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "originell"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "originalus"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {
+            "blue": [
+              "eigenwilliger"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "eigenwillig"
+            ]
+          },
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "Eilbote",
@@ -3347,7 +7605,7 @@ const B2_WORDS = [
   },
   {
     "de": "einäschern",
-    "lv": "kremuoti • sudeginti ant laužo",
+    "lv": "kremuoti • sudeginti",
     "level": "B2"
   },
   {
@@ -3366,12 +7624,12 @@ const B2_WORDS = [
     "de": "Einbildung",
     "de_article": "die",
     "de_plural": "die Einbildungen",
-    "lv": "įsivaizdavimas • vaizduotė • fantazija • tuštybė • pasipūtimas",
+    "lv": "vaizduotė • fantazija • pasipūtimas",
     "level": "B2"
   },
   {
     "de": "einbürgern",
-    "lv": "suteikti pilietines teises • prigyti • įsišaknyti",
+    "lv": "suteikti pilietybę • prigyti • įsišaknyti",
     "level": "B2"
   },
   {
@@ -3381,7 +7639,7 @@ const B2_WORDS = [
   },
   {
     "de": "eindringen",
-    "lv": "įsispausti • įsilaužti • įsisiurbti • įsigilinti",
+    "lv": "įsiskverbti • įsilaužti • įsigilinti",
     "level": "B2"
   },
   {
@@ -3401,7 +7659,7 @@ const B2_WORDS = [
   },
   {
     "de": "einflussreich",
-    "lv": "įtakingas • įspūdingas",
+    "lv": "įtakingas",
     "level": "B2"
   },
   {
@@ -3418,7 +7676,7 @@ const B2_WORDS = [
     "de": "Einfuhr",
     "de_article": "die",
     "de_plural": "die Einfuhren",
-    "lv": "importas • importas • įvežimas • importavimas",
+    "lv": "įvežimas • importas",
     "level": "B2"
   },
   {
@@ -3449,7 +7707,7 @@ const B2_WORDS = [
   },
   {
     "de": "eingehen",
-    "lv": "įeiti • ateiti • atvykti • susitraukti • sumažėti • sutikti • derėti",
+    "lv": "įeiti • susitraukti • sutikti",
     "level": "B2"
   },
   {
@@ -3494,7 +7752,7 @@ const B2_WORDS = [
   },
   {
     "de": "eingleisig",
-    "lv": "vienbėgio-",
+    "lv": "vienkelis",
     "level": "B2"
   },
   {
@@ -3540,31 +7798,185 @@ const B2_WORDS = [
   },
   {
     "de": "sich einlassen",
-    "lv": "įsileisti",
+    "lv": "įsivelti • leistis",
     "level": "B2",
     "study": {
       "id": "b2-sich-einlassen",
-      "layout": "minimalStudy",
-      "translation": "įsileisti",
-      "rektion": "auf + ką?",
-      "explanation": "sich einlassen reikalauja nustatyto prielinksnio auf + ką?.",
-      "forms": "auf + ką?",
-      "formsLabel": "Valdymas:",
+      "layout": "standardStudy",
+      "translation": "įsivelti • leistis",
+      "explanation": [
+        "Pagrindinė mintis: sich einlassen – skiriamasis sangrąžinis veiksmažodis, reiškiantis įsivelti į ką nors, leistis į sandorį ar santykius, dažnai rizikingus. Vartojamas su auf + galininkas (sich auf etwas einlassen) arba mit + naudininkas (sich mit jemandem einlassen).",
+        "Formos: lässt sich ein, ließ sich ein, hat sich eingelassen. Priešdėlis ein- atsiskiria: Ich lasse mich darauf nicht ein.",
+        "Be sangrąžinio įvardžio einlassen reiškia įleisti: jemanden einlassen (įleisti ką nors į patalpą)."
+      ],
+      "examples": [
+        {
+          "de": "Ich lasse mich auf das Risiko nicht ein.",
+          "lv": "Aš nesileidžiu į šią riziką."
+        },
+        {
+          "de": "Auf solche Geschäfte sollte man sich nicht einlassen.",
+          "lv": "Į tokius sandorius nereikėtų veltis."
+        },
+        {
+          "de": "Sie hat sich mit dem Falschen eingelassen.",
+          "lv": "Ji susidėjo su netinkamu žmogumi."
+        },
+        {
+          "de": "Er ließ sich auf eine Diskussion ein.",
+          "lv": "Jis leidosi į diskusiją."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich beteiligen an",
+          "meaning": "dalyvauti",
+          "example": "Er beteiligt sich an der Diskussion. – Jis dalyvauja diskusijoje."
+        },
+        {
+          "word": "sich engagieren",
+          "meaning": "įsitraukti, aktyviai veikti",
+          "example": "Sie engagiert sich für den Umweltschutz. – Ji aktyviai įsitraukia į aplinkos apsaugą."
+        },
+        {
+          "word": "eingehen auf",
+          "meaning": "atsižvelgti, sutikti",
+          "example": "Er geht auf den Vorschlag ein. – Jis sutinka su pasiūlymu."
+        }
+      ],
+      "tip": [
+        "Po auf vartojamas galininkas: auf ein Abenteuer, auf einen Kompromiss. Po mit – naudininkas: mit jemandem.",
+        "Dažnai su neiginiu: Darauf lasse ich mich nicht ein (Aš į tai nesileidžiu)."
+      ],
+      "important": [
+        "Sich einlassen mit jemandem dažnai skamba kritiškai, tarsi santykiai būtų nepageidaujami.",
+        "Nepainiok su einlassen be sich: jis reiškia įleisti."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
+            "einlassen",
+            "lässt",
+            "ließ",
+            "eingelassen",
+            "lasse",
             "sich einlassen"
           ],
-          "red": [
-            "auf"
+          "purple": [
+            "įsivelti",
+            "įleisti"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "lasse"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "einlassen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "veltis"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "eingelassen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "susidėjo"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ließ"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "leidosi"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich beteiligen an"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "dalyvauti"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich engagieren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "įsitraukti"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "eingehen auf"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "sutikti"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {
+            "blue": [
+              "lasse"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "sich einlassen",
+              "einlassen"
+            ]
+          },
+          {
+            "blue": [
+              "einlassen"
+            ]
+          }
+        ]
       }
     }
   },
   {
     "de": "einleiten",
-    "lv": "įvesti",
+    "lv": "pradėti • įvesti",
     "level": "B2"
   },
   {
@@ -3593,18 +8005,180 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-einpraegen",
-      "layout": "minimalStudy",
+      "layout": "standardStudy",
       "translation": "įsiminti",
-      "rektion": "in + ką?",
-      "explanation": "sich einprägen reikalauja nustatyto prielinksnio in + ką?.",
-      "forms": "in + ką?",
-      "formsLabel": "Valdymas:",
+      "explanation": [
+        "Pagrindinė mintis: sich einprägen reiškia įsiminti, gerai įspausti į atmintį. Paprastai vartojamas su naudininko įvardžiu ir galininko papildiniu: Ich präge mir die Nummer ein.",
+        "Formos: prägt sich ein, prägte sich ein, hat sich eingeprägt. Priešdėlis ein- atsiskiria: Ich präge mir das ein. Perfekte ge- įsiterpia tarp ein- ir veiksmažodžio.",
+        "Kai kas nors pats įsirėžia į atmintį, sich yra galininke: Das Bild hat sich mir eingeprägt (vaizdas man įsirėžė į atmintį)."
+      ],
+      "examples": [
+        {
+          "de": "Ich präge mir die Telefonnummer ein.",
+          "lv": "Aš įsimenu telefono numerį."
+        },
+        {
+          "de": "Prägt euch diese Regel gut ein!",
+          "lv": "Gerai įsiminkite šią taisyklę!"
+        },
+        {
+          "de": "Das Bild hat sich mir tief eingeprägt.",
+          "lv": "Šis vaizdas man giliai įsirėžė į atmintį."
+        },
+        {
+          "de": "Diesen Namen sollte man sich einprägen.",
+          "lv": "Šį vardą vertėtų įsiminti."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "auswendig lernen",
+          "meaning": "išmokti atmintinai",
+          "example": "Wir lernen das Gedicht auswendig. – Mes išmokstame eilėraštį atmintinai."
+        },
+        {
+          "word": "sich merken",
+          "meaning": "įsidėmėti, atsiminti",
+          "example": "Merk dir das! – Įsidėmėk tai!"
+        },
+        {
+          "word": "behalten",
+          "meaning": "išlaikyti atmintyje",
+          "example": "Ich habe den Namen behalten. – Aš įsiminiau tą vardą."
+        }
+      ],
+      "tip": [
+        "Jei reikia išmokti žodžių, vartok sich etwas einprägen arba gerai žinomą sich merken.",
+        "Naudininko įvardis eina po veiksmažodžio: mir, dir, sich, uns, euch."
+      ],
+      "important": [
+        "Jei žmogus pats įsimena, įvardis yra naudininke (mir, dir); jei kas nors įsirėžia į atmintį, sich yra galininke, o asmuo – naudininke (mir).",
+        "Perfektas – hat sich eingeprägt (su haben)."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
+            "einprägen",
+            "präge",
+            "prägt",
+            "prägte",
+            "eingeprägt",
             "sich einprägen"
+          ],
+          "purple": [
+            "įsiminti",
+            "įspausti",
+            "įsirėžia",
+            "įsirėžė"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "präge"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "įsimenu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Prägt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "įsiminkite"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "eingeprägt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "įsirėžė"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "einprägen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "įsiminti"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "auswendig lernen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "išmokti"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich merken"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "įsidėmėti"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "behalten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "išlaikyti"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "einprägen"
+            ],
+            "green": [
+              "sich merken"
+            ]
+          },
+          {}
+        ],
+        "important": [
+          {},
+          {
+            "blue": [
+              "eingeprägt"
+            ]
+          }
+        ]
       }
     }
   },
@@ -3624,18 +8198,165 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-einschleichen",
-      "layout": "minimalStudy",
+      "layout": "standardStudy",
       "translation": "įslinkti • įsėlinti",
-      "rektion": "in + ką?",
-      "explanation": "sich einschleichen reikalauja nustatyto prielinksnio in + ką?.",
-      "forms": "in + ką?",
-      "formsLabel": "Valdymas:",
+      "explanation": [
+        "Pagrindinė mintis: sich einschleichen reiškia nepastebimai, slapta patekti į kokią nors vietą (įsėlinti) arba – apie klaidą, abejones ir pan. – nepastebimai atsirasti (įslinkti).",
+        "Skiriamasis priešdėlis: ich schleiche mich ein, schlich mich ein, habe mich eingeschlichen. Vieta, į kurią kas nors įsėlina, nurodoma su in + galininkas (in das Haus, ins Haus). Perfekte vartojamas hat, nes veiksmažodis sangrąžinis."
+      ],
+      "examples": [
+        {
+          "de": "Der Dieb schleicht sich nachts ins Haus ein.",
+          "lv": "Vagis naktį įsėlina į namą."
+        },
+        {
+          "de": "Ein Fehler hat sich in den Text eingeschlichen.",
+          "lv": "Į tekstą įsivėlė klaida."
+        },
+        {
+          "de": "Er hat sich unbemerkt in den Saal eingeschlichen.",
+          "lv": "Jis nepastebimai įsėlino į salę."
+        },
+        {
+          "de": "Mit der Zeit schlichen sich Zweifel ein.",
+          "lv": "Ilgainiui įslinko abejonių."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "schleichen",
+          "meaning": "sėlinti",
+          "example": "Die Katze schleicht durch den Garten. – Katė sėlina per sodą."
+        },
+        {
+          "word": "eindringen",
+          "meaning": "įsiveržti, prasiskverbti",
+          "example": "Der Täter ist in die Wohnung eingedrungen. – Nusikaltėlis įsiveržė į butą."
+        }
+      ],
+      "tip": [
+        "Apie klaidas ir abejones dažnai sakoma: Ein Fehler hat sich eingeschlichen – įsivėlė klaida.",
+        "Įsidėmėk atskyrimą: Er schleicht sich ein, o Er hat sich eingeschlichen."
+      ],
+      "important": [
+        "Nepainiok su schleichen (sėlinti, eiti tyliai): sich einschleichen visada reiškia patekimą kur nors.",
+        "Po in vieta yra galininke, kai nurodoma kryptis: sich in den Raum einschleichen."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich einschleichen"
+            "sich einschleichen",
+            "schleiche mich ein",
+            "eingeschlichen"
+          ],
+          "purple": [
+            "įsėlinti",
+            "įslinkti"
+          ],
+          "green": [
+            "schleiche"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "schleicht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "įsėlina"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "eingeschlichen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "įsivėlė"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "eingeschlichen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "įsėlino"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "schlichen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "įslinko"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "schleichen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "sėlinti"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "eindringen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "įsiveržti"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "eingeschlichen"
+            ]
+          },
+          {
+            "blue": [
+              "schleicht",
+              "eingeschlichen"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "sich einschleichen"
+            ],
+            "green": [
+              "schleichen"
+            ]
+          },
+          {}
+        ]
       }
     }
   },
@@ -3643,7 +8364,7 @@ const B2_WORDS = [
     "de": "Einschnitt",
     "de_article": "der",
     "de_plural": "die Einschnitte",
-    "lv": "įpjova • pjūvis • griežimas • įranta",
+    "lv": "įpjova • pjūvis • įranta",
     "level": "B2"
   },
   {
@@ -3652,21 +8373,184 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-einschraenken",
-      "layout": "minimalStudy",
+      "layout": "standardStudy",
       "translation": "apsiriboti",
-      "rektion": "auf + ką?",
-      "explanation": "sich einschränken reikalauja nustatyto prielinksnio auf + ką?.",
-      "forms": "auf + ką?",
-      "formsLabel": "Valdymas:",
+      "explanation": [
+        "Pagrindinė mintis: sich einschränken reiškia apsiriboti – leisti pinigus, valgyti ar gyventi kukliau nei įprasta arba apsiriboti kuo nors konkrečiu.",
+        "Formos: ich schränke mich ein, schränkte mich ein, habe mich eingeschränkt. Su auf + galininkas nurodoma, kuo apsiribojama: sich auf das Nötigste einschränken. Be papildinio dažnai reiškia taupyti išlaidas.",
+        "Be sich žodis einschränken yra galininkinis: etwas einschränken – ką nors apriboti (eismą, teises)."
+      ],
+      "examples": [
+        {
+          "de": "Wir müssen uns finanziell einschränken.",
+          "lv": "Finansiškai turime apsiriboti."
+        },
+        {
+          "de": "Er schränkt sich auf das Nötigste ein.",
+          "lv": "Jis apsiriboja tuo, kas būtiniausia."
+        },
+        {
+          "de": "Nach der Entlassung musste sich die Familie stark einschränken.",
+          "lv": "Po atleidimo iš darbo šeimai teko smarkiai apsiriboti."
+        },
+        {
+          "de": "Sie schränkt sich beim Essen ein, um abzunehmen.",
+          "lv": "Ji riboja maistą, kad sulieknėtų."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "einschränken",
+          "meaning": "apriboti",
+          "example": "Die Stadt schränkt den Verkehr ein. – Miestas apriboja eismą."
+        },
+        {
+          "word": "verzichten",
+          "meaning": "atsisakyti",
+          "example": "Er verzichtet auf Zucker. – Jis atsisako cukraus."
+        },
+        {
+          "word": "sparen",
+          "meaning": "taupyti",
+          "example": "Wir sparen Strom. – Mes taupome elektrą."
+        }
+      ],
+      "tip": [
+        "Jei nori pasakyti, kad pradedi taupyti, vartok sich einschränken be papildinio.",
+        "Su auf + galininkas įvardijama tai, kuo apsiribojama."
+      ],
+      "important": [
+        "Skiriamasis priešdėlis ein-: Ich schränke mich ein, o ne Ich einschränke mich.",
+        "Nepainiok sangrąžinio sich einschränken su galininkiniu einschränken (ką nors apriboti)."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
+            "einschränken",
+            "schränke",
+            "eingeschränkt",
+            "ein",
             "sich einschränken"
           ],
-          "red": [
-            "auf"
+          "purple": [
+            "apsiriboti",
+            "apsiribojama",
+            "apriboti"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "einschränken"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apsiriboti"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "schränkt",
+                "ein"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apsiriboja"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "einschränken"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apsiriboti"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "schränkt",
+                "ein"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "riboja"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "einschränken"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apriboti"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "verzichten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "atsisakyti"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sparen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "taupyti"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "sich einschränken",
+              "einschränken"
+            ]
+          },
+          {}
+        ],
+        "important": [
+          {
+            "blue": [
+              "schränke",
+              "ein"
+            ]
+          },
+          {
+            "blue": [
+              "sich einschränken",
+              "einschränken"
+            ]
+          }
+        ]
       }
     }
   },
@@ -3674,7 +8558,7 @@ const B2_WORDS = [
     "de": "Einschreiben",
     "de_article": "das",
     "de_plural": "die Einschreiben",
-    "lv": "registruotas laiškas ar siunta",
+    "lv": "registruotas laiškas • registruota siunta",
     "level": "B2"
   },
   {
@@ -3718,7 +8602,7 @@ const B2_WORDS = [
   },
   {
     "de": "eintauchen",
-    "lv": "pamerkti • pamirkyti • panardinti • pasinerti",
+    "lv": "pamerkti • panardinti • pasinerti",
     "level": "B2"
   },
   {
@@ -3729,7 +8613,7 @@ const B2_WORDS = [
   {
     "de": "Eintracht",
     "de_article": "die",
-    "lv": "vieningumas • santarvė • sutarimas • suderinamumas",
+    "lv": "vieningumas • santarvė • sutarimas",
     "level": "B2"
   },
   {
@@ -3739,7 +8623,7 @@ const B2_WORDS = [
   },
   {
     "de": "einüben",
-    "lv": "išmokti • parengti (spektaklį)",
+    "lv": "išmokti • repetuoti",
     "level": "B2"
   },
   {
@@ -3761,7 +8645,7 @@ const B2_WORDS = [
   },
   {
     "de": "einweihen",
-    "lv": "iškilmingai atidengti • patikėti paslaptį",
+    "lv": "iškilmingai atidaryti • patikėti paslaptį",
     "level": "B2"
   },
   {
@@ -3835,7 +8719,7 @@ const B2_WORDS = [
   },
   {
     "de": "eitel",
-    "lv": "garbėtroška • pasipūtęs • įsivaizdavęs • paviršutiniškas • tuščias • pretenzingas",
+    "lv": "tuščiagarbis • pasipūtęs • tuščias",
     "level": "B2"
   },
   {
@@ -3871,21 +8755,196 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-empfehlen",
-      "layout": "minimalStudy",
+      "layout": "standardStudy",
       "translation": "būti rekomenduojamam",
-      "rektion": "zu + kam?",
-      "explanation": "sich empfehlen reikalauja nustatyto prielinksnio zu + kam?.",
-      "forms": "zu + kam?",
-      "formsLabel": "Valdymas:",
+      "explanation": [
+        "Pagrindinė mintis: sich empfehlen šia reikšme vartojamas beveik tik 3 asmeniu su es arba su daiktavardžiu: es empfiehlt sich, … – patartina, pageidautina ką nors daryti.",
+        "Formos: empfiehlt sich, empfahl sich, hat sich empfohlen (e virsta ie). Po jo dažnai eina zu + Infinitiv arba dass sakinys: Es empfiehlt sich, früh zu buchen.",
+        "Kita, formalia reikšme sich empfehlen reiškia ir atsisveikinti: Er empfahl sich früh."
+      ],
+      "examples": [
+        {
+          "de": "Es empfiehlt sich, früh zu buchen.",
+          "lv": "Patartina užsisakyti iš anksto."
+        },
+        {
+          "de": "Bei Regen empfiehlt sich eine Jacke.",
+          "lv": "Lyjant patartina pasiimti striukę."
+        },
+        {
+          "de": "Es empfiehlt sich, die Datei vorher zu speichern.",
+          "lv": "Patartina failą iš anksto išsaugoti."
+        },
+        {
+          "de": "Vor der Reise empfiehlt sich eine Impfung.",
+          "lv": "Prieš kelionę patartina pasiskiepyti."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "empfehlen",
+          "meaning": "rekomenduoti, patarti",
+          "example": "Ich empfehle dir dieses Restaurant. – Rekomenduoju tau šį restoraną."
+        },
+        {
+          "word": "ratsam",
+          "meaning": "patartinas",
+          "example": "Es ist ratsam, einen Schirm mitzunehmen. – Patartina pasiimti skėtį."
+        },
+        {
+          "word": "sich verabschieden",
+          "meaning": "atsisveikinti",
+          "example": "Wir verabschieden uns jetzt. – Dabar mes atsisveikiname."
+        }
+      ],
+      "tip": [
+        "Sakinio schema: Es empfiehlt sich + zu + Infinitiv – patogu, kai nenori minėti, kas pataria.",
+        "Paprastesnės sandaros sinonimas: Es ist ratsam."
+      ],
+      "important": [
+        "Ši reikšmė beveik visada 3 asmens (empfiehlt sich); formos su ich ar du šia reikšme netinka.",
+        "Nepainiok su empfehlen (kam nors ką nors rekomenduoti): Ich empfehle dir das Buch."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich empfehlen"
+            "sich empfehlen",
+            "empfiehlt sich",
+            "empfahl",
+            "empfohlen",
+            "zu",
+            "empfiehlt",
+            "sich"
           ],
-          "red": [
-            "zu + kam?"
+          "purple": [
+            "patartina"
+          ],
+          "green": [
+            "empfehlen"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "empfiehlt",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Patartina"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "empfiehlt",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "patartina"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "empfiehlt",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Patartina"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "empfiehlt",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "patartina"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "empfehlen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "rekomenduoti"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "ratsam"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "patartinas"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich verabschieden"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "atsisveikinti"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "empfiehlt sich",
+              "zu",
+              "empfiehlt",
+              "sich"
+            ]
+          },
+          {
+            "green": [
+              "ratsam"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "empfiehlt sich",
+              "empfiehlt",
+              "sich"
+            ]
+          },
+          {
+            "green": [
+              "empfehlen",
+              "empfehle"
+            ]
+          }
+        ]
       }
     }
   },
@@ -3905,21 +8964,175 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-empoeren",
-      "layout": "minimalStudy",
+      "layout": "standardStudy",
       "translation": "pasipiktinti • sukilti",
-      "rektion": "über + ką?",
-      "explanation": "sich empören reikalauja nustatyto prielinksnio über + ką?.",
-      "forms": "über + ką?",
-      "formsLabel": "Valdymas:",
+      "explanation": [
+        "Pagrindinė mintis: sich empören reiškia smarkiai pasipiktinti, piktai reaguoti į neteisybę ar pažeidimą. Rečiau ir knygiškiau – sukilti prieš valdžią (sich gegen jemanden empören).",
+        "Formos: empört sich, empörte sich, hat sich empört. Tai, kuo piktinamasi, nurodoma su über + galininkas: sich über die Lüge empören. Pasipriešinimas kam nors reiškiamas su gegen + galininkas.",
+        "Vedinys empört reiškia pasipiktinęs: Sie war empört."
+      ],
+      "examples": [
+        {
+          "de": "Alle empörten sich über die Entscheidung.",
+          "lv": "Visi pasipiktino sprendimu."
+        },
+        {
+          "de": "Sie hat sich über seine Lüge empört.",
+          "lv": "Ji pasipiktino jo melu."
+        },
+        {
+          "de": "Das Volk empörte sich gegen den Herrscher.",
+          "lv": "Tauta sukilo prieš valdovą."
+        },
+        {
+          "de": "Ich empöre mich über so viel Ungerechtigkeit.",
+          "lv": "Aš piktinuosi tokia didele neteisybe."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich aufregen",
+          "meaning": "jaudintis, nervintis",
+          "example": "Er regt sich über den Lärm auf. – Jis nervinasi dėl triukšmo."
+        },
+        {
+          "word": "sich ärgern",
+          "meaning": "pykti",
+          "example": "Ich ärgere mich über den Stau. – Aš pykstu dėl spūsties."
+        },
+        {
+          "word": "empört",
+          "meaning": "pasipiktinęs",
+          "example": "Sie war empört. – Ji buvo pasipiktinusi."
+        }
+      ],
+      "tip": [
+        "Įsidėmėk junginį sich über etwas empören (+ galininkas).",
+        "sich empören stipresnis už sich ärgern: jis reiškia moralinį pasipiktinimą."
+      ],
+      "important": [
+        "Po über eina galininkas: über die Lüge, o ne über der Lüge.",
+        "Sukilimo reikšme vartojamas gegen: sich gegen die Regierung empören."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
+            "empören",
+            "empört",
+            "empörte",
             "sich empören"
           ],
-          "red": [
-            "über"
+          "purple": [
+            "pasipiktinęs"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "empörten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pasipiktino"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "empört"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pasipiktino"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "empörte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "sukilo"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "empöre"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich aufregen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "jaudintis"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich ärgern"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "pykti"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "empört"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "pasipiktinęs"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "empören"
+            ]
+          },
+          {
+            "blue": [
+              "sich empören",
+              "empören"
+            ],
+            "green": [
+              "sich ärgern"
+            ]
+          }
+        ],
+        "important": [
+          {},
+          {
+            "blue": [
+              "empören"
+            ]
+          }
+        ]
       }
     }
   },
@@ -3974,17 +9187,17 @@ const B2_WORDS = [
   },
   {
     "de": "entfalten",
-    "lv": "išvynioti • išskleisti • išvystyti • išplėtoti",
+    "lv": "išskleisti • išvystyti • išplėtoti",
     "level": "B2"
   },
   {
     "de": "sich entfalten",
-    "lv": "atsiverti • atsipalaiduoti • vystytis • plėtotis",
+    "lv": "atsiskleisti • vystytis • plėtotis",
     "level": "B2"
   },
   {
     "de": "entflammen",
-    "lv": "uždegti • įdegti • sužavėti • užsidegti",
+    "lv": "uždegti • sužavėti • užsidegti",
     "level": "B2"
   },
   {
@@ -4008,21 +9221,188 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-enthalten",
-      "layout": "minimalStudy",
+      "layout": "standardStudy",
       "translation": "susilaikyti nuo",
-      "rektion": "von + kam?",
-      "explanation": "sich enthalten reikalauja nustatyto prielinksnio von + kam?.",
-      "forms": "von + kam?",
-      "formsLabel": "Valdymas:",
+      "explanation": [
+        "Pagrindinė mintis: sich enthalten reiškia sąmoningai susilaikyti nuo ko nors – nedaryti, nevartoti, nebalsuoti. Kalba formali, knyginė.",
+        "Po jo eina Genitiv (kilmininkas): sich der Stimme enthalten (susilaikyti balsuojant), sich jeden Kommentars enthalten. Formos: enthält sich, enthielt sich, hat sich enthalten.",
+        "Be sich žodis enthalten reiškia turėti savyje, būti sudėtyje: Das Getränk enthält Zucker."
+      ],
+      "examples": [
+        {
+          "de": "Bei der Abstimmung enthielten sich zwei Abgeordnete der Stimme.",
+          "lv": "Balsuojant du parlamentarai susilaikė."
+        },
+        {
+          "de": "Ich enthalte mich jedes Kommentars.",
+          "lv": "Aš susilaikau nuo bet kokių komentarų."
+        },
+        {
+          "de": "Sie hat sich des Alkohols enthalten.",
+          "lv": "Ji susilaikė nuo alkoholio."
+        },
+        {
+          "de": "Er konnte sich kaum des Lachens enthalten.",
+          "lv": "Jis vos galėjo susilaikyti nesijuokus."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "enthalten",
+          "meaning": "turėti savyje",
+          "example": "Das Getränk enthält Zucker. – Gėrimo sudėtyje yra cukraus."
+        },
+        {
+          "word": "verzichten",
+          "meaning": "atsisakyti",
+          "example": "Er verzichtet auf Fleisch. – Jis atsisako mėsos."
+        },
+        {
+          "word": "sich zurückhalten",
+          "meaning": "susivaldyti, laikytis santūriai",
+          "example": "Er hält sich bei Diskussionen zurück. – Per diskusijas jis laikosi santūriai."
+        }
+      ],
+      "tip": [
+        "Įsidėmėk frazę sich der Stimme enthalten – tai tipiška balsavimo frazė.",
+        "Kasdien dažnai sakoma paprasčiau: Ich verzichte auf …"
+      ],
+      "important": [
+        "Po sich enthalten eina Genitiv, o ne prielinksnis: sich des Alkohols enthalten.",
+        "Nepainiok su enthalten be sich – jis reiškia turėti savyje."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich enthalten"
+            "sich enthalten",
+            "enthalten",
+            "enthält",
+            "sich",
+            "Stimme"
           ],
-          "red": [
-            "von + kam?"
+          "purple": [
+            "susilaikyti",
+            "turėti savyje"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "enthielten",
+                "sich",
+                "Stimme"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "susilaikė"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "enthalte",
+                "mich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "susilaikau"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sich",
+                "enthalten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "susilaikė"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sich",
+                "enthalten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "susilaikyti"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "enthalten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "turėti savyje"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "verzichten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "atsisakyti"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich zurückhalten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "susivaldyti"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "enthalten",
+              "sich",
+              "Stimme"
+            ]
+          },
+          {}
+        ],
+        "important": [
+          {
+            "blue": [
+              "sich enthalten",
+              "enthalten",
+              "sich"
+            ]
+          },
+          {
+            "blue": [
+              "enthalten",
+              "sich"
+            ]
+          }
+        ]
       }
     }
   },
@@ -4038,12 +9418,12 @@ const B2_WORDS = [
   },
   {
     "de": "entkräften",
-    "lv": "atimti jėgas • nusilpninti • paneigti • nuversti",
+    "lv": "atimti jėgas • nusilpninti • paneigti",
     "level": "B2"
   },
   {
     "de": "entladen",
-    "lv": "iškrauti • išsikrauti",
+    "lv": "iškrauti",
     "level": "B2"
   },
   {
@@ -4057,18 +9437,193 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-entledigen",
-      "layout": "minimalStudy",
+      "layout": "standardStudy",
       "translation": "atsikratyti • išsivaduoti",
-      "rektion": "+ priklausomybės forma",
-      "explanation": "sich entledigen šiuolaikinėje vokiečių kalboje vartojamas su kilmininko forma be prielinksnio.",
-      "forms": "+ priklausomybės forma",
-      "formsLabel": "Valdymas:",
+      "explanation": [
+        "Pagrindinė mintis: sich entledigen reiškia atsikratyti ko nors nepageidaujamo – drabužio, skolų, pareigos, ginklo. Žodis formalus ir knyginis.",
+        "Po jo eina Genitiv: sich seines Mantels entledigen. Formos: entledigt sich, entledigte sich, hat sich entledigt. Kasdienėje kalboje dažniau vartojama etwas loswerden.",
+        "Lietuviškai: atsikratyti, išsivaduoti; apie drabužius – nusivilkti."
+      ],
+      "examples": [
+        {
+          "de": "Er entledigte sich seines nassen Mantels.",
+          "lv": "Jis nusivilko savo šlapią paltą."
+        },
+        {
+          "de": "Die Firma hat sich ihrer Schulden entledigt.",
+          "lv": "Įmonė atsikratė savo skolų."
+        },
+        {
+          "de": "Sie wollte sich der lästigen Pflicht entledigen.",
+          "lv": "Ji norėjo atsikratyti įkyrios pareigos."
+        },
+        {
+          "de": "Die Täter entledigten sich der Waffe.",
+          "lv": "Nusikaltėliai atsikratė ginklo."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "loswerden",
+          "meaning": "atsikratyti",
+          "example": "Ich werde die Erkältung nicht los. – Niekaip neatsikratau peršalimo."
+        },
+        {
+          "word": "sich befreien",
+          "meaning": "išsilaisvinti",
+          "example": "Er befreit sich von den Fesseln. – Jis išsilaisvina iš pančių."
+        },
+        {
+          "word": "wegwerfen",
+          "meaning": "išmesti",
+          "example": "Ich werfe alte Zeitungen weg. – Aš išmetu senus laikraščius."
+        }
+      ],
+      "tip": [
+        "Kasdien sakyk etwas loswerden; sich entledigen palik oficialiam ar literatūriniam stiliui.",
+        "Įsidėmėk Genitiv: sich der Sorgen entledigen."
+      ],
+      "important": [
+        "Po sich entledigen nėra prielinksnio – tik Genitiv.",
+        "Žodis formalus; šnekamojoje kalboje jis skamba per daug pakiliai."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich entledigen"
+            "sich entledigen",
+            "entledigte",
+            "entledigt",
+            "entledigen",
+            "sich"
+          ],
+          "purple": [
+            "atsikratyti",
+            "išsivaduoti"
+          ],
+          "green": [
+            "loswerden"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "entledigte",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nusivilko"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sich",
+                "entledigt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "atsikratė"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sich",
+                "entledigen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "atsikratyti"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "entledigten",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "atsikratė"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "loswerden"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "atsikratyti"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich befreien"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "išsilaisvinti"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "wegwerfen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "išmesti"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "sich entledigen",
+              "entledigen",
+              "sich"
+            ],
+            "green": [
+              "loswerden"
+            ]
+          },
+          {
+            "blue": [
+              "entledigen",
+              "sich"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "sich entledigen",
+              "entledigen",
+              "sich"
+            ]
+          },
+          {}
+        ]
       }
     }
   },
@@ -4084,36 +9639,191 @@ const B2_WORDS = [
   },
   {
     "de": "entnehmen",
-    "lv": "imti • paimti • išimti • daryti išvadą",
+    "lv": "paimti • išimti • daryti išvadą",
     "level": "B2"
   },
   {
     "de": "sich entrüsten",
-    "lv": "pasipiktinti • sukilti",
+    "lv": "pasipiktinti",
     "level": "B2",
     "study": {
       "id": "b2-sich-entruesten",
-      "layout": "minimalStudy",
-      "translation": "pasipiktinti • sukilti",
-      "rektion": "über + ką?",
-      "explanation": "sich entrüsten reikalauja nustatyto prielinksnio über + ką?.",
-      "forms": "über + ką?",
-      "formsLabel": "Valdymas:",
+      "layout": "standardStudy",
+      "translation": "pasipiktinti",
+      "explanation": [
+        "Pagrindinė mintis: sich entrüsten reiškia pasipiktinti, reikšti stiprų pasipiktinimą kieno nors poelgiu ar žodžiais. Tai moralinis, emocinis pasipiktinimas.",
+        "Tai, kuo žmogus piktinasi, nurodoma su über + galininkas: sich über die Frechheit entrüsten. Formos: entrüstet sich, entrüstete sich, hat sich entrüstet. Būdvardis entrüstet reiškia pasipiktinęs.",
+        "Žodis artimas žodžiui sich empören, bet kasdienėje kalboje jis retesnis ir literatūriškesnis."
+      ],
+      "examples": [
+        {
+          "de": "Die Zuschauer entrüsteten sich über den Schiedsrichter.",
+          "lv": "Žiūrovai pasipiktino teisėju."
+        },
+        {
+          "de": "Sie entrüstete sich über die Frechheit.",
+          "lv": "Ji pasipiktino įžūlumu."
+        },
+        {
+          "de": "Warum entrüstest du dich so?",
+          "lv": "Kodėl tu taip piktiniesi?"
+        },
+        {
+          "de": "Viele haben sich über den Bericht entrüstet.",
+          "lv": "Daugelis pasipiktino pranešimu."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich empören",
+          "meaning": "pasipiktinti",
+          "example": "Wir empören uns über die Ungerechtigkeit. – Mes piktinamės neteisybe."
+        },
+        {
+          "word": "sich aufregen",
+          "meaning": "jaudintis, nervintis",
+          "example": "Reg dich nicht auf! – Nesinervink!"
+        },
+        {
+          "word": "entrüstet",
+          "meaning": "pasipiktinęs",
+          "example": "Er sah mich entrüstet an. – Jis pasipiktinęs pažvelgė į mane."
+        }
+      ],
+      "tip": [
+        "Įsidėmėk visą frazę: sich über etwas entrüsten (+ galininkas).",
+        "Būdvardis entrüstet dažnai vartojamas su sein arba su veiksmažodžiais: entrüstet reagieren."
+      ],
+      "important": [
+        "Po über eina galininkas.",
+        "Kasdienėje kalboje dažniau išgirsi sich aufregen arba sich ärgern."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich entrüsten"
+            "sich entrüsten",
+            "entrüstete sich",
+            "entrüstete",
+            "entrüstet"
           ],
-          "red": [
-            "über"
+          "purple": [
+            "pasipiktinti",
+            "pasipiktinimą"
+          ],
+          "green": [
+            "sich empören"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "entrüsteten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pasipiktino"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "entrüstete"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pasipiktino"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "entrüstest"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "piktiniesi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "entrüstet"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pasipiktino"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich empören"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "pasipiktinti"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich aufregen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "jaudintis"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "entrüstet"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "pasipiktinęs"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {
+            "blue": [
+              "entrüstet"
+            ]
+          }
+        ],
+        "important": [
+          {},
+          {
+            "green": [
+              "sich aufregen"
+            ]
+          }
+        ]
       }
     }
   },
   {
     "de": "entsagen",
-    "lv": "atsisakyti • išsigynti",
+    "lv": "atsisakyti • išsižadėti",
     "level": "B2"
   },
   {
@@ -4127,21 +9837,191 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-entsinnen",
-      "layout": "minimalStudy",
+      "layout": "standardStudy",
       "translation": "atsiminti • prisiminti",
-      "rektion": "+ priklausomybės forma",
-      "explanation": "sich entsinnen šiuolaikinėje vokiečių kalboje vartojamas su kilmininko forma be prielinksnio, pavyzdžiui: Ich entsinne mich eines Fehlers.",
-      "forms": "+ priklausomybės forma",
-      "formsLabel": "Valdymas:",
+      "explanation": [
+        "Pagrindinė mintis: sich entsinnen reiškia atsiminti, prisiminti ką nors iš praeities. Žodis knyginis ir kiek senamadiškas.",
+        "Po jo paprastai eina kilmininkas (sich seiner entsinnen, sich der Worte entsinnen), šiandien ir an + galininkas. Dažna frazė: Soviel ich mich entsinne, … – kiek atsimenu. Formos: entsinnt sich, entsann sich, hat sich entsonnen."
+      ],
+      "examples": [
+        {
+          "de": "Ich entsinne mich seiner gut.",
+          "lv": "Aš jį gerai atsimenu."
+        },
+        {
+          "de": "Kannst du dich an den Namen entsinnen?",
+          "lv": "Ar gali prisiminti vardą?"
+        },
+        {
+          "de": "Sie entsann sich der Worte ihrer Mutter.",
+          "lv": "Ji prisiminė motinos žodžius."
+        },
+        {
+          "de": "Soviel ich mich entsinne, war es ein Montag.",
+          "lv": "Kiek atsimenu, tai buvo pirmadienis."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich erinnern",
+          "meaning": "prisiminti",
+          "example": "Ich erinnere mich an den Urlaub. – Prisimenu atostogas."
+        },
+        {
+          "word": "gedenken",
+          "meaning": "pagerbti, minėti",
+          "example": "Wir gedenken der Opfer. – Mes pagerbiame aukų atminimą."
+        },
+        {
+          "word": "vergessen",
+          "meaning": "pamiršti",
+          "example": "Ich habe seinen Namen vergessen. – Pamiršau jo vardą."
+        }
+      ],
+      "tip": [
+        "Kasdienėje kalboje vartok sich erinnern an + galininkas; sich entsinnen palik raštui ir aukštesniam stiliui.",
+        "Paruošta frazė: Soviel ich mich entsinne."
+      ],
+      "important": [
+        "Formos neįprastos: entsann, hat sich entsonnen.",
+        "Nepainiok sich entsinnen (atsiminti) su gedenken (pagerbti, minėti)."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
+            "entsinnen",
+            "entsinne",
+            "entsann",
+            "entsonnen",
             "sich entsinnen"
           ],
           "purple": [
-            "prielinksnio"
+            "atsiminti",
+            "prisiminti",
+            "atsimenu"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "entsinne"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "atsimenu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "entsinnen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "prisiminti"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "entsann"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "prisiminė"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "entsinne"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "atsimenu"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich erinnern"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "prisiminti"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "gedenken"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "pagerbti"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "vergessen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "pamiršti"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "sich entsinnen",
+              "entsinnen"
+            ],
+            "green": [
+              "sich erinnern"
+            ]
+          },
+          {
+            "blue": [
+              "entsinne"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "entsann",
+              "entsonnen"
+            ]
+          },
+          {
+            "blue": [
+              "sich entsinnen",
+              "entsinnen"
+            ],
+            "green": [
+              "gedenken"
+            ]
+          }
+        ]
       }
     }
   },
@@ -4149,17 +10029,17 @@ const B2_WORDS = [
     "de": "Entspannung",
     "de_article": "die",
     "de_plural": "die Entspannungen",
-    "lv": "atsipalaidavimas • atsileidimas • įtampos mažėjimas",
+    "lv": "atsipalaidavimas • įtampos mažėjimas",
     "level": "B2"
   },
   {
     "de": "entstellen",
-    "lv": "iškreipti • subjauroti • sufalsifikuoti",
+    "lv": "iškreipti • subjauroti • iškraipyti",
     "level": "B2"
   },
   {
     "de": "entweichen",
-    "lv": "nutolti • pabėgti • atsitraukti • išsilieti",
+    "lv": "nutolti • pabėgti • ištekėti",
     "level": "B2"
   },
   {
@@ -4171,7 +10051,7 @@ const B2_WORDS = [
     "de": "Entwerter",
     "de_article": "der",
     "de_plural": "die Entwerter",
-    "lv": "bilietų spaustukas",
+    "lv": "komposteris",
     "level": "B2"
   },
   {
@@ -4195,7 +10075,7 @@ const B2_WORDS = [
   },
   {
     "de": "entziehen",
-    "lv": "atimti • atplėšti • išvengti • atitrūkti • pabėgti",
+    "lv": "atimti • atitraukti • išvengti",
     "level": "B2"
   },
   {
@@ -4215,19 +10095,19 @@ const B2_WORDS = [
   },
   {
     "de": "entzünden",
-    "lv": "uždegti • įdegti • įžiebti",
+    "lv": "uždegti • įžiebti",
     "level": "B2"
   },
   {
     "de": "sich entzünden",
-    "lv": "užsidegti • įsidegti • įkaisti",
+    "lv": "užsidegti • įsiliepsnoti",
     "level": "B2"
   },
   {
     "de": "Entzündung",
     "de_article": "die",
     "de_plural": "die Entzündungen",
-    "lv": "uždegimo sukėlimas • užsidegimas • uždegimas",
+    "lv": "uždegimas • užsidegimas",
     "level": "B2"
   },
   {
@@ -4247,30 +10127,185 @@ const B2_WORDS = [
   {
     "de": "Erachten",
     "de_article": "das",
-    "lv": "mintys • įžvalga",
+    "lv": "nuomonė • požiūris",
     "level": "B2"
   },
   {
     "de": "sich erbarmen",
-    "lv": "pasigailėti • susigraudinti",
+    "lv": "pasigailėti • susimylėti",
     "level": "B2",
     "study": {
       "id": "b2-sich-erbarmen",
-      "layout": "minimalStudy",
-      "translation": "pasigailėti • susigraudinti",
-      "rektion": "über + ką?",
-      "explanation": "sich erbarmen reikalauja nustatyto prielinksnio über + ką?.",
-      "forms": "über + ką?",
-      "formsLabel": "Valdymas:",
+      "layout": "standardStudy",
+      "translation": "pasigailėti • susimylėti",
+      "explanation": [
+        "Pagrindinė mintis: sich erbarmen reiškia užjausti kenčiantįjį ir jam padėti arba jo pasigailėti. Kalba aukšta, dažnai religinė ar ironiška.",
+        "Po jo paprastai eina kilmininkas: sich des Hundes erbarmen. Rečiau vartojama über + Akkusativ. Formos: erbarmt sich, erbarmte sich, hat sich erbarmt.",
+        "Šnekamojoje kalboje juokaujant: Wer erbarmt sich und …? – Kas susimylės ir …?"
+      ],
+      "examples": [
+        {
+          "de": "Der Richter erbarmte sich des Angeklagten.",
+          "lv": "Teisėjas pasigailėjo kaltinamojo."
+        },
+        {
+          "de": "Erbarme dich meiner!",
+          "lv": "Pasigailėk manęs!"
+        },
+        {
+          "de": "Endlich erbarmte sich jemand des hungrigen Hundes.",
+          "lv": "Pagaliau kažkas pasigailėjo alkano šuns."
+        },
+        {
+          "de": "Wer erbarmt sich und holt mir einen Kaffee?",
+          "lv": "Kas susimylės ir atneš man kavos?"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "begnadigen",
+          "meaning": "suteikti malonę",
+          "example": "Der Präsident begnadigt den Häftling. – Prezidentas suteikia kaliniui malonę."
+        },
+        {
+          "word": "Mitleid haben",
+          "meaning": "užjausti",
+          "example": "Ich habe Mitleid mit ihr. – Man jos gaila."
+        },
+        {
+          "word": "helfen",
+          "meaning": "padėti",
+          "example": "Er hilft dem Nachbarn. – Jis padeda kaimynui."
+        }
+      ],
+      "tip": [
+        "Po sich erbarmen dėk kilmininką: sich der Kinder erbarmen.",
+        "Tipiškas prašymas: Herr, erbarme dich!"
+      ],
+      "important": [
+        "Žodis stilistiškai aukštas; kasdien sakoma Mitleid haben arba helfen.",
+        "Nepainiok su begnadigen (teisiškai suteikti malonę, pvz., nuteistajam)."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich erbarmen"
+            "sich erbarmen",
+            "erbarmt",
+            "erbarmte"
           ],
-          "red": [
-            "über"
+          "purple": [
+            "pasigailėti"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "erbarmte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pasigailėjo"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Erbarme"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Pasigailėk"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "erbarmte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pasigailėjo"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "erbarmt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "susimylės"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "begnadigen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "malonę"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "Mitleid haben"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "užjausti"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "helfen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "padėti"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "sich erbarmen"
+            ]
+          },
+          {}
+        ],
+        "important": [
+          {
+            "green": [
+              "Mitleid haben",
+              "helfen"
+            ]
+          },
+          {
+            "green": [
+              "begnadigen"
+            ]
+          }
+        ]
       }
     }
   },
@@ -4278,7 +10313,7 @@ const B2_WORDS = [
     "de": "Erbauer",
     "de_article": "der",
     "de_plural": "die Erbauer",
-    "lv": "kėliklis",
+    "lv": "statytojas",
     "level": "B2"
   },
   {
@@ -4290,7 +10325,7 @@ const B2_WORDS = [
   },
   {
     "de": "erbrechen",
-    "lv": "atlaužti • išlaužti",
+    "lv": "vemti",
     "level": "B2"
   },
   {
@@ -4323,12 +10358,12 @@ const B2_WORDS = [
     "de": "Erdtrabant",
     "de_article": "der",
     "de_plural": "die Erdtrabanten",
-    "lv": "žemės palydovas",
+    "lv": "Žemės palydovas",
     "level": "B2"
   },
   {
     "de": "erfassen",
-    "lv": "apimti (suvokimu) • suprasti",
+    "lv": "aprėpti • suprasti",
     "level": "B2"
   },
   {
@@ -4345,31 +10380,205 @@ const B2_WORDS = [
   },
   {
     "de": "sich ergeben",
-    "lv": "išplaukti (iš to) • pasiduoti",
+    "lv": "išplaukti • pasiduoti",
     "level": "B2",
     "study": {
       "id": "b2-sich-ergeben",
-      "layout": "minimalStudy",
-      "translation": "išplaukti (iš to) • pasiduoti",
-      "rektion": "aus + kam?",
-      "explanation": "sich ergeben reikalauja nustatyto prielinksnio aus + kam?.",
-      "forms": "aus + kam?",
-      "formsLabel": "Valdymas:",
+      "layout": "standardStudy",
+      "translation": "išplaukti • pasiduoti",
+      "explanation": [
+        "Pagrindinė mintis: sich ergeben – dviejų reikšmių žodis. Su aus + naudininkas jis reiškia išplaukti, atsirasti kaip pasekmei: Aus dem Test ergibt sich ein Problem. Su naudininku be prielinksnio jis reiškia pasiduoti, paklusti: sich dem Feind ergeben.",
+        "Formos: ergibt sich, ergab sich, hat sich ergeben. Reikšme „išplaukti“ veiksnys paprastai yra daiktas (es, ein Problem, eine Chance), todėl veiksmažodis vartojamas 3 asmeniu.",
+        "Reikšme „pasiduoti“ veiksnys yra žmogus: sich ergeben, sich in sein Schicksal ergeben (susitaikyti su likimu)."
+      ],
+      "examples": [
+        {
+          "de": "Aus dem Gespräch ergab sich ein neues Projekt.",
+          "lv": "Iš pokalbio atsirado naujas projektas."
+        },
+        {
+          "de": "Daraus ergibt sich ein Problem.",
+          "lv": "Iš to kyla problema."
+        },
+        {
+          "de": "Die Soldaten ergaben sich dem Feind.",
+          "lv": "Kareiviai pasidavė priešui."
+        },
+        {
+          "de": "Er hat sich in sein Schicksal ergeben.",
+          "lv": "Jis susitaikė su savo likimu."
+        },
+        {
+          "de": "Ergib dich!",
+          "lv": "Pasiduok!"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "ergeben",
+          "meaning": "duoti rezultatą, sudaryti",
+          "example": "Die Rechnung ergibt 50 Euro. – Sąskaita sudaro 50 eurų."
+        },
+        {
+          "word": "folgen",
+          "meaning": "sekti, išplaukti",
+          "example": "Daraus folgt nichts. – Iš to nieko neišplaukia."
+        },
+        {
+          "word": "aufgeben",
+          "meaning": "atsisakyti, pasiduoti",
+          "example": "Er gibt nicht auf. – Jis nepasiduoda."
+        }
+      ],
+      "tip": [
+        "Reikšmei „išplaukti“ įsidėmėk Daraus ergibt sich, dass … – iš to išplaukia, kad …",
+        "Jei kalbama apie paklusimą, dažnai eina naudininkas: sich dem Willen ergeben."
+      ],
+      "important": [
+        "Nepainiok su ergeben be sich: jis reiškia duoti rezultatą (Das ergibt Sinn).",
+        "Reikšmę paprastai lemia veiksnys: daiktas – išplaukia, žmogus – pasiduoda."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
+            "ergeben",
+            "ergibt",
+            "ergab",
             "sich ergeben"
           ],
-          "red": [
-            "aus + kam?"
+          "purple": [
+            "išplaukti",
+            "pasiduoti",
+            "susitaikyti"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "ergab"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "atsirado"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ergibt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kyla"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ergaben"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pasidavė"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ergeben"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "susitaikė"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Ergib"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Pasiduok"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "ergeben"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "duoti"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "folgen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "sekti"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "aufgeben"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "atsisakyti"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "ergibt"
+            ]
+          },
+          {
+            "blue": [
+              "ergeben"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "ergeben",
+              "ergibt"
+            ]
+          },
+          {}
+        ]
       }
     }
   },
   {
     "de": "ergiebig",
-    "lv": "derlingas • pelningas • turtingas • gausus • našus",
+    "lv": "derlingas • pelningas • gausus",
     "level": "B2"
   },
   {
@@ -4379,12 +10588,12 @@ const B2_WORDS = [
   },
   {
     "de": "erhaben",
-    "lv": "reljefinis • išgaubtas • didingas • dižus • kilnus • taurus • išskirtinis",
+    "lv": "iškilęs • didingas • kilnus",
     "level": "B2"
   },
   {
     "de": "erheben",
-    "lv": "pakelti • kelti • sukelti • protestuoti",
+    "lv": "pakelti • kelti • protestuoti",
     "level": "B2"
   },
   {
@@ -4411,14 +10620,14 @@ const B2_WORDS = [
   },
   {
     "de": "erlangen",
-    "lv": "pasiekti • sulaukti • gauti • įgauti",
+    "lv": "pasiekti • gauti • įgyti",
     "level": "B2"
   },
   {
     "de": "Erlass",
     "de_article": "der",
     "de_plural": "die Erlasse",
-    "lv": "nurodymas • įsakymas • dekretas • atleidimas",
+    "lv": "įsakymas • dekretas • atleidimas",
     "level": "B2"
   },
   {
@@ -4440,12 +10649,12 @@ const B2_WORDS = [
   },
   {
     "de": "erleiden",
-    "lv": "kentėti • ištverti • atlaikyti • būti nugalėtam",
+    "lv": "kentėti • ištverti • patirti",
     "level": "B2"
   },
   {
     "de": "erlöschen",
-    "lv": "užgesti • išblėsti • nebegalioti • baigtis",
+    "lv": "užgesti • nebegalioti • baigtis",
     "level": "B2"
   },
   {
@@ -4474,24 +10683,174 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-erniedrigen",
-      "layout": "minimalStudy",
+      "layout": "standardStudy",
       "translation": "nusižeminti",
-      "rektion": "vor + kam?",
-      "explanation": "sich erniedrigen reikalauja nustatyto prielinksnio vor + kam?.",
-      "forms": "vor + kam?",
-      "formsLabel": "Valdymas:",
+      "explanation": [
+        "Pagrindinė mintis: sich erniedrigen reiškia pačiam save pažeminti, elgtis taip, kad prarandi orumą – pavyzdžiui, maldauti ar žemintis prieš ką nors.",
+        "Asmuo, prieš kurį žmogus žeminasi, nurodomas su vor + naudininkas: sich vor dem Chef erniedrigen. Formos: erniedrigt sich, erniedrigte sich, hat sich erniedrigt.",
+        "Be sich žodis erniedrigen reiškia pažeminti ką nors kitą: Er erniedrigt seine Kollegen."
+      ],
+      "examples": [
+        {
+          "de": "Ich erniedrige mich nicht vor dem Chef.",
+          "lv": "Aš nesižeminu prieš viršininką."
+        },
+        {
+          "de": "Er hat sich erniedrigt, um Geld zu bitten.",
+          "lv": "Jis nusižemino prašydamas pinigų."
+        },
+        {
+          "de": "Sie erniedrigte sich nie vor anderen.",
+          "lv": "Ji niekada nesižemino prieš kitus."
+        },
+        {
+          "de": "So tief würde ich mich nicht erniedrigen.",
+          "lv": "Taip žemai aš nenusižeminčiau."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "demütigen",
+          "meaning": "pažeminti",
+          "example": "Er demütigt seinen Gegner vor allen. – Jis pažemina savo priešininką visų akivaizdoje."
+        },
+        {
+          "word": "sich unterwerfen",
+          "meaning": "paklusti, pasiduoti",
+          "example": "Er unterwirft sich dem Willen des Königs. – Jis paklūsta karaliaus valiai."
+        },
+        {
+          "word": "sich blamieren",
+          "meaning": "apsijuokti, susigėdinti",
+          "example": "Er hat sich vor allen blamiert. – Jis apsijuokė visų akivaizdoje."
+        }
+      ],
+      "tip": [
+        "Su vor + naudininkas įvardijamas tas, prieš kurį kas nors žeminasi.",
+        "Skirk: sich erniedrigen – pats žeminasi; jemanden erniedrigen – žemina kitą."
+      ],
+      "important": [
+        "Po vor eina naudininkas: vor dem Chef, vor anderen.",
+        "Neveikiamoji forma erniedrigt werden reiškia būti pažemintam."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
+            "erniedrigen",
+            "erniedrigt",
+            "erniedrigte",
             "sich erniedrigen"
           ],
-          "red": [
-            "vor + kam?"
-          ],
           "purple": [
-            "nustatyto"
+            "pažeminti",
+            "žeminasi"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "erniedrige"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nesižeminu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "erniedrigt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nusižemino"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "erniedrigte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nesižemino"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "erniedrigen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nenusižeminčiau"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "demütigen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "pažeminti"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich unterwerfen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "paklusti"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich blamieren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apsijuokti"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {
+            "blue": [
+              "sich erniedrigen",
+              "erniedrigen"
+            ]
+          }
+        ],
+        "important": [
+          {},
+          {
+            "blue": [
+              "erniedrigt"
+            ]
+          }
+        ]
       }
     }
   },
@@ -4506,7 +10865,7 @@ const B2_WORDS = [
     "de": "Eröffnung",
     "de_article": "die",
     "de_plural": "die Eröffnungen",
-    "lv": "atidarymas • atskleidimas • atvirukas • pranešimas • atradimas",
+    "lv": "atidarymas • atskleidimas • pranešimas",
     "level": "B2"
   },
   {
@@ -4521,30 +10880,186 @@ const B2_WORDS = [
   },
   {
     "de": "erregen",
-    "lv": "jaudinti • sujaudinti • sukurti • sukelti • pažadinti",
+    "lv": "jaudinti • sukelti • žadinti",
     "level": "B2"
   },
   {
     "de": "sich erregen",
-    "lv": "nerimauti dėl",
+    "lv": "jaudintis dėl • susijaudinti",
     "level": "B2",
     "study": {
       "id": "b2-sich-erregen",
-      "layout": "minimalStudy",
-      "translation": "nerimauti dėl",
-      "rektion": "über + ką?",
-      "explanation": "sich erregen reikalauja nustatyto prielinksnio über + ką?.",
-      "forms": "über + ką?",
-      "formsLabel": "Valdymas:",
+      "layout": "standardStudy",
+      "translation": "jaudintis dėl • susijaudinti",
+      "explanation": [
+        "Pagrindinė mintis: sich erregen reiškia jaudintis, erzintis dėl ko nors – reaguoti emociškai, dažnai piktai. Tai, dėl ko jaudinamasi, nurodoma su über + galininkas: sich über die Kosten erregen.",
+        "Formos: erregt sich, erregte sich, hat sich erregt. Kasdien šia reikšme dažniau sakoma sich aufregen; sich erregen – knyginis.",
+        "Be sich žodis erregen reiškia sukelti: Aufmerksamkeit erregen – sukelti dėmesį."
+      ],
+      "examples": [
+        {
+          "de": "Er erregt sich über jede Kleinigkeit.",
+          "lv": "Jis jaudinasi dėl kiekvieno menkniekio."
+        },
+        {
+          "de": "Warum erregst du dich so über die Nachricht?",
+          "lv": "Kodėl tu taip jaudiniesi dėl šios žinios?"
+        },
+        {
+          "de": "Sie erregte sich über die ungerechte Note.",
+          "lv": "Ji jaudinosi dėl neteisingo pažymio."
+        },
+        {
+          "de": "Das Publikum hat sich über den Skandal erregt.",
+          "lv": "Publika pasipiktino skandalu."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich aufregen",
+          "meaning": "jaudintis, nervintis",
+          "example": "Er regt sich über den Lärm auf. – Jis nervinasi dėl triukšmo."
+        },
+        {
+          "word": "erregen",
+          "meaning": "sukelti",
+          "example": "Das Bild erregt Aufsehen. – Paveikslas sukelia sensaciją."
+        },
+        {
+          "word": "sich beruhigen",
+          "meaning": "nusiraminti",
+          "example": "Beruhige dich! – Nusiramink!"
+        }
+      ],
+      "tip": [
+        "Kasdien sakyk Reg dich nicht auf!, o rašte gali rinktis sich erregen.",
+        "Priežastis paprastai nurodoma su über + galininkas."
+      ],
+      "important": [
+        "Nepainiok su erregen (sukelti, sujaudinti) be sich.",
+        "Po über eina galininkas: über die Nachricht."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
+            "erregen",
+            "erregt",
+            "erregte",
             "sich erregen"
           ],
-          "red": [
-            "über"
+          "purple": [
+            "jaudintis",
+            "jaudinamasi"
+          ],
+          "green": [
+            "sich aufregen"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "erregt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "jaudinasi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "erregst"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "jaudiniesi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "erregte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "jaudinosi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "erregt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pasipiktino"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich aufregen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "jaudintis"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "erregen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "sukelti"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich beruhigen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "nusiraminti"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "sich erregen",
+              "erregen"
+            ]
+          },
+          {}
+        ],
+        "important": [
+          {
+            "blue": [
+              "erregen"
+            ]
+          },
+          {}
+        ]
       }
     }
   },
@@ -4569,7 +11084,7 @@ const B2_WORDS = [
     "de": "Erscheinung",
     "de_article": "die",
     "de_plural": "die Erscheinungen",
-    "lv": "reiškinys • pasirodymas • išorė • išvaizda",
+    "lv": "reiškinys • pasirodymas • išvaizda",
     "level": "B2"
   },
   {
@@ -4604,7 +11119,7 @@ const B2_WORDS = [
   },
   {
     "de": "ersparen",
-    "lv": "sutaupyti • sukaupti • atidėti • palikti sau",
+    "lv": "sutaupyti • sukaupti • atidėti",
     "level": "B2"
   },
   {
@@ -4621,7 +11136,7 @@ const B2_WORDS = [
   },
   {
     "de": "ersticken",
-    "lv": "nuslopinti • uždusinti • prislopinti • slopinti • prislėgti • nuslopti • uždusti",
+    "lv": "uždusinti • nuslopinti • uždusti",
     "level": "B2"
   },
   {
@@ -4672,21 +11187,188 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-erweisen",
-      "layout": "minimalStudy",
+      "layout": "standardStudy",
       "translation": "pasirodyti esant",
-      "rektion": "als + kas?",
-      "explanation": "sich erweisen reikalauja nustatyto prielinksnio als + kas?.",
-      "forms": "als + kas?",
-      "formsLabel": "Valdymas:",
+      "explanation": [
+        "Pagrindinė mintis: sich erweisen als reiškia pasirodyti esant kuo nors – ilgainiui paaiškėja, koks kas nors ar kas nors iš tikrųjų yra. Po als žodis eina tuo pačiu linksniu kaip veiksnys, paprastai Nominativ: Das erwies sich als Fehler.",
+        "Formos: erweist sich, erwies sich, hat sich erwiesen. Dažnai vartojamas 3 asmeniu su daiktu, bet galima ir su žmogumi: Er erwies sich als zuverlässig.",
+        "Konstrukcija artima sich herausstellen als; sich erweisen – kiek formalesnis."
+      ],
+      "examples": [
+        {
+          "de": "Das Medikament erwies sich als sehr wirksam.",
+          "lv": "Vaistai pasirodė esą labai veiksmingi."
+        },
+        {
+          "de": "Er hat sich als zuverlässiger Partner erwiesen.",
+          "lv": "Jis pasirodė esąs patikimas partneris."
+        },
+        {
+          "de": "Die Information erwies sich als falsch.",
+          "lv": "Informacija pasirodė esanti klaidinga."
+        },
+        {
+          "de": "Der Plan wird sich als Erfolg erweisen.",
+          "lv": "Planas pasirodys sėkmingas."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich herausstellen",
+          "meaning": "paaiškėti, pasirodyti",
+          "example": "Es stellte sich heraus, dass er recht hatte. – Paaiškėjo, kad jis buvo teisus."
+        },
+        {
+          "word": "scheinen",
+          "meaning": "atrodyti",
+          "example": "Das scheint richtig zu sein. – Atrodo, kad tai teisinga."
+        },
+        {
+          "word": "beweisen",
+          "meaning": "įrodyti",
+          "example": "Er beweist seinen Mut. – Jis įrodo savo drąsą."
+        }
+      ],
+      "tip": [
+        "Naudok schemą sich als + būdvardis / daiktavardis erweisen.",
+        "Po als nėra artikelio, jei yra tik būdvardis: als wirksam."
+      ],
+      "important": [
+        "Po als daiktavardis paprastai eina tuo pačiu linksniu kaip veiksnys: Er erwies sich als guter Freund.",
+        "Nepainiok su erweisen be sich (parodyti, suteikti): einen Dienst erweisen."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich erweisen"
+            "sich erweisen",
+            "erwies",
+            "erweist",
+            "erwiesen",
+            "erweisen",
+            "sich"
           ],
-          "red": [
-            "als + kas?"
+          "purple": [
+            "pasirodyti"
+          ],
+          "green": [
+            "sich herausstellen"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "erwies",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pasirodė"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sich",
+                "erwiesen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pasirodė"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "erwies",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pasirodė"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sich",
+                "erweisen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pasirodys"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich herausstellen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "paaiškėti"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "scheinen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "atrodyti"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "beweisen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "įrodyti"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "erweisen",
+              "sich"
+            ]
+          },
+          {}
+        ],
+        "important": [
+          {
+            "blue": [
+              "erwies",
+              "sich"
+            ]
+          },
+          {
+            "blue": [
+              "erweisen",
+              "sich"
+            ]
+          }
+        ]
       }
     }
   },
@@ -4694,7 +11376,7 @@ const B2_WORDS = [
     "de": "Erwerb",
     "de_article": "der",
     "de_plural": "die Erwerbe",
-    "lv": "uždarbis • pelnas • nauda",
+    "lv": "uždarbis • pelnas • įsigijimas",
     "level": "B2"
   },
   {
@@ -4890,7 +11572,7 @@ const B2_WORDS = [
     "de": "Falke",
     "de_article": "der",
     "de_plural": "die Falken",
-    "lv": "vanagas",
+    "lv": "sakalas",
     "level": "B2"
   },
   {
@@ -4914,7 +11596,7 @@ const B2_WORDS = [
   },
   {
     "de": "fälschlich",
-    "lv": "apgaulingai • klaidingai",
+    "lv": "klaidingai • per klaidą",
     "level": "B2"
   },
   {
@@ -4978,21 +11660,182 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-fassen",
-      "layout": "minimalStudy",
+      "layout": "standardStudy",
       "translation": "susigriebti • susikaupti • susivaldyti",
-      "rektion": "an + kam?",
-      "explanation": "sich fassen reikalauja nustatyto prielinksnio an + kam?.",
-      "forms": "an + kam?",
-      "formsLabel": "Valdymas:",
+      "explanation": [
+        "Pagrindinė mintis: sich fassen reiškia susiimti, atgauti ramybę po šoko ar susijaudinimo – susivaldyti. Formos: fasst sich, fasste sich, hat sich gefasst. Prielinksnio jis neturi.",
+        "Pastovi frazė sich kurz fassen reiškia kalbėti trumpai: Fassen Sie sich bitte kurz! Be sich veiksmažodis fassen reiškia sugriebti, sučiupti (jemanden am Arm fassen) ir priimti sprendimą (einen Entschluss fassen)."
+      ],
+      "examples": [
+        {
+          "de": "Nach dem Schock fasste sie sich schnell.",
+          "lv": "Po šoko ji greitai susiėmė."
+        },
+        {
+          "de": "Fass dich kurz, ich habe wenig Zeit.",
+          "lv": "Kalbėk trumpai, turiu mažai laiko."
+        },
+        {
+          "de": "Er konnte sich vor Wut kaum fassen.",
+          "lv": "Jis iš pykčio vos galėjo susivaldyti."
+        },
+        {
+          "de": "Ich muss mich erst einmal fassen.",
+          "lv": "Pirmiausia turiu susiimti."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "fassen",
+          "meaning": "sugriebti",
+          "example": "Das Kind fasst die Hand der Mutter. – Vaikas sugriebia mamos ranką."
+        },
+        {
+          "word": "sich beherrschen",
+          "meaning": "susivaldyti",
+          "example": "Sie beherrscht sich trotz der Kritik. – Ji susivaldo, nepaisydama kritikos."
+        },
+        {
+          "word": "sich beruhigen",
+          "meaning": "nusiraminti",
+          "example": "Nach dem Streit beruhigt er sich langsam. – Po ginčo jis pamažu nusiramina."
+        }
+      ],
+      "tip": [
+        "Išgirdęs didelę naujieną, gali sakyti Ich muss mich erst fassen – turiu susiimti.",
+        "Prašydamas kalbėti trumpai, vartok Fassen Sie sich kurz!"
+      ],
+      "important": [
+        "Nepainiok sich fassen (susiimti) su fassen be sich (sugriebti, suvokti).",
+        "Frazėje sich kurz fassen žodis kurz lieka nekaitomas."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich fassen"
+            "sich fassen",
+            "fasst sich",
+            "fasste",
+            "fassen",
+            "fasst"
           ],
-          "red": [
-            "an + kam?"
+          "purple": [
+            "susiimti",
+            "susivaldyti"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "fasste"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "susiėmė"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Fass"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Kalbėk"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fassen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "susivaldyti"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fassen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "susiimti"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "fassen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "sugriebti"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich beherrschen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "susivaldyti"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich beruhigen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "nusiraminti"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "fassen"
+            ]
+          },
+          {
+            "blue": [
+              "fassen"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "sich fassen",
+              "fassen"
+            ]
+          },
+          {
+            "blue": [
+              "fassen"
+            ]
+          }
+        ]
       }
     }
   },
@@ -5012,7 +11855,7 @@ const B2_WORDS = [
     "de": "Faulbaum",
     "de_article": "der",
     "de_plural": "die Faulbäume",
-    "lv": "ieva",
+    "lv": "paprastasis šaltekšnis",
     "level": "B2"
   },
   {
@@ -5040,7 +11883,7 @@ const B2_WORDS = [
   {
     "de": "Feingefühl",
     "de_article": "das",
-    "lv": "subtilumas • taktas",
+    "lv": "delikatumas • taktas",
     "level": "B2"
   },
   {
@@ -5105,7 +11948,7 @@ const B2_WORDS = [
     "de": "Fetzen",
     "de_article": "der",
     "de_plural": "die Fetzen",
-    "lv": "skarmalai • skudurai",
+    "lv": "skuduras • skiautė",
     "level": "B2"
   },
   {
@@ -5130,7 +11973,7 @@ const B2_WORDS = [
     "de": "Finsternis",
     "de_article": "die",
     "de_plural": "die Finsternisse",
-    "lv": "tamsa • tamsybė • aptemimas",
+    "lv": "tamsa • tamsybė • užtemimas",
     "level": "B2"
   },
   {
@@ -5186,8 +12029,205 @@ const B2_WORDS = [
   },
   {
     "de": "fleckig",
-    "lv": "aptaškytas • suteptas • dėmėtas • lašuotas • margas",
-    "level": "B2"
+    "lv": "dėmėtas • suteptas • margas",
+    "level": "B2",
+    "study": {
+      "id": "b2-fleckig",
+      "layout": "standardStudy",
+      "translation": "dėmėtas • suteptas • margas",
+      "explanation": [
+        "Pagrindinė mintis: fleckig – būdvardis, apibūdinantis paviršių su dėmėmis: nešvarų drabužį, dėmėtą odą, margą gyvūno kailį.",
+        "Laipsniai: fleckig, fleckiger, am fleckigsten. Vartojamas ir prie daiktavardžio (ein fleckiges Hemd), ir po sein (Das Hemd ist fleckig). Šaknis – der Fleck (dėmė), daugiskaita die Flecken."
+      ],
+      "examples": [
+        {
+          "de": "Die Tischdecke ist fleckig.",
+          "lv": "Staltiesė dėmėta."
+        },
+        {
+          "de": "Das Hemd ist nach dem Essen fleckig.",
+          "lv": "Po valgio marškiniai sutepti."
+        },
+        {
+          "de": "Seine Haut war rot und fleckig.",
+          "lv": "Jo oda buvo raudona ir dėmėta."
+        },
+        {
+          "de": "Die Kuh hat ein fleckiges Fell.",
+          "lv": "Karvės kailis dėmėtas."
+        },
+        {
+          "de": "Das Pferd hat ein braun-weißes, fleckiges Fell.",
+          "lv": "Arklio kailis rudai baltas, margas."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "gefleckt",
+          "meaning": "taškuotas, margas",
+          "example": "Der Hund ist schwarz-weiß gefleckt. – Šuo juodai baltai taškuotas."
+        },
+        {
+          "word": "schmutzig",
+          "meaning": "nešvarus",
+          "example": "Die Hose ist schmutzig. – Kelnės nešvarios."
+        },
+        {
+          "word": "gestreift",
+          "meaning": "dryžuotas",
+          "example": "Er trägt ein gestreiftes Hemd. – Jis vilki dryžuotus marškinius."
+        }
+      ],
+      "tip": [
+        "Galvok apie der Fleck: fleckig yra tai, kas turi Flecken.",
+        "Natūraliam gyvūno margumui apibūdinti dažnai vartojamas gefleckt."
+      ],
+      "important": [
+        "fleckig dažnai reiškia nepageidaujamą ar netolygią išvaizdą (nešvarus drabužis, raudonos dėmės ant odos).",
+        "Pridėdamas galūnę, nepamiršk e: ein fleckiges Fell, eine fleckige Haut."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "fleckig",
+            "Fleck",
+            "Flecken",
+            "fleckiges",
+            "fleckiger",
+            "fleckigsten"
+          ],
+          "purple": [
+            "margą"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "fleckig"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "dėmėta"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fleckig"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "sutepti"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fleckig"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "dėmėta"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fleckiges"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "dėmėtas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fleckiges"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "margas"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "gefleckt"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "margas"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "schmutzig"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "nešvarus"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "gestreift"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "dryžuotas"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "fleckig",
+              "Fleck",
+              "Flecken"
+            ]
+          },
+          {
+            "green": [
+              "gefleckt"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "fleckig"
+            ]
+          },
+          {
+            "blue": [
+              "fleckiges"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "fliederfarben",
@@ -5196,14 +12236,14 @@ const B2_WORDS = [
   },
   {
     "de": "flimmern",
-    "lv": "mirgėti • žibėti • blizgėti • švytėti • tviskėti",
+    "lv": "mirgėti • žibėti • blizgėti",
     "level": "B2"
   },
   {
     "de": "Flinte",
     "de_article": "die",
     "de_plural": "die Flinten",
-    "lv": "[medžioklinis] šautuvas",
+    "lv": "medžioklinis šautuvas • šautuvas",
     "level": "B2"
   },
   {
@@ -5222,7 +12262,7 @@ const B2_WORDS = [
   },
   {
     "de": "flüchtig",
-    "lv": "lakus • paviršutiniškas • momentinis • greitai praeinantis • trumpalaikis",
+    "lv": "lakus • paviršutiniškas • trumpalaikis",
     "level": "B2"
   },
   {
@@ -5300,7 +12340,7 @@ const B2_WORDS = [
   },
   {
     "de": "formell",
-    "lv": "korektiškas • mandagus • formalus • nelankstus",
+    "lv": "korektiškas • mandagus • formalus",
     "level": "B2"
   },
   {
@@ -5382,7 +12422,7 @@ const B2_WORDS = [
   },
   {
     "de": "freilich",
-    "lv": "žinoma • be abejo • bet • tik",
+    "lv": "žinoma • be abejo • tačiau",
     "level": "B2"
   },
   {
@@ -5399,7 +12439,7 @@ const B2_WORDS = [
   },
   {
     "de": "freisprechen",
-    "lv": "pateisinti",
+    "lv": "išteisinti",
     "level": "B2"
   },
   {
@@ -5420,8 +12460,189 @@ const B2_WORDS = [
   },
   {
     "de": "fristlos",
-    "lv": "neterminuotas",
-    "level": "B2"
+    "lv": "neatidėliotinas • be įspėjimo termino",
+    "level": "B2",
+    "study": {
+      "id": "b2-fristlos",
+      "layout": "standardStudy",
+      "translation": "neatidėliotinas • be įspėjimo termino",
+      "explanation": [
+        "Pagrindinė mintis: fristlos reiškia be termino, įsigaliojantis nedelsiant. Dažniausiai taip sakoma apie darbo ar nuomos sutarties nutraukimą: eine fristlose Kündigung, jemandem fristlos kündigen.",
+        "Žodis sudarytas iš Frist (terminas) + -los (be). Tai būdvardis ir prieveiksmis: eine fristlose Kündigung, fristlos entlassen. Paprastai nutraukti sutartį nedelsiant galima tik dėl svarbios priežasties (wichtiger Grund)."
+      ],
+      "examples": [
+        {
+          "de": "Der Arbeitgeber kündigte ihm fristlos.",
+          "lv": "Darbdavys jį atleido be įspėjimo termino."
+        },
+        {
+          "de": "Die Firma hat den Mitarbeiter fristlos entlassen.",
+          "lv": "Įmonė darbuotoją atleido nedelsiant."
+        },
+        {
+          "de": "Eine fristlose Kündigung ist nur aus wichtigem Grund möglich.",
+          "lv": "Nedelsiant nutraukti sutartį galima tik dėl svarbios priežasties."
+        },
+        {
+          "de": "Sie kündigte den Mietvertrag fristlos.",
+          "lv": "Ji nutraukė nuomos sutartį be įspėjimo termino."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sofort",
+          "meaning": "nedelsiant, tuoj pat",
+          "example": "Komm bitte sofort! – Prašau, ateik tuoj pat!"
+        },
+        {
+          "word": "fristgerecht",
+          "meaning": "laikantis termino",
+          "example": "Er kündigte fristgerecht. – Jis nutraukė sutartį laikydamasis termino."
+        },
+        {
+          "word": "kündigen",
+          "meaning": "nutraukti sutartį, atleisti",
+          "example": "Sie kündigt ihre Wohnung. – Ji nutraukia savo buto nuomos sutartį."
+        }
+      ],
+      "tip": [
+        "Įsidėmėk priešpriešą: fristlose Kündigung (sutarties nutraukimas nedelsiant) ir fristgerechte Kündigung (nutraukimas laikantis termino).",
+        "Žodžiai su -los pagal modelį: arbeitslos, sorglos, fristlos."
+      ],
+      "important": [
+        "fristlos taikomas sutarties nutraukimui ar atleidimui, o ne bet kokiam skubiam veiksmui; skubumą apskritai reiškia sofort.",
+        "Darbo teisėje sutarties nutraukimui nedelsiant paprastai reikia svarbios priežasties."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "fristlos",
+            "fristlose",
+            "Frist",
+            "Kündigung"
+          ],
+          "purple": [
+            "be termino",
+            "nedelsiant"
+          ],
+          "green": [
+            "kündigen"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "fristlos"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "be įspėjimo termino"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fristlos"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nedelsiant"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fristlose"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Nedelsiant"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fristlos"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "be įspėjimo termino"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sofort"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "nedelsiant"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "fristgerecht"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "laikantis termino"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "kündigen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "nutraukti"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "fristlose",
+              "Kündigung"
+            ]
+          },
+          {
+            "blue": [
+              "fristlos"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "fristlos"
+            ],
+            "green": [
+              "sofort"
+            ]
+          },
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "fromm",
@@ -5459,21 +12680,195 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-fuegen",
-      "layout": "minimalStudy",
+      "layout": "standardStudy",
       "translation": "prisitaikyti • paklusti",
-      "rektion": "in + ką?",
-      "explanation": "sich fügen reikalauja nustatyto prielinksnio in + ką?.",
-      "forms": "in + ką?",
-      "formsLabel": "Valdymas:",
+      "explanation": [
+        "Pagrindinė mintis: sich fügen reiškia paklusti taisyklei, sprendimui ar aplinkybėms (sich dem Beschluss fügen) arba įsilieti į visumą, prisitaikyti (sich in die Gruppe fügen).",
+        "Formos: fügt sich, fügte sich, hat sich gefügt. Paklusimo reikšme dažnai eina naudininkas (sich dem Willen fügen), prisitaikymo ar susitaikymo reikšme – in + galininkas (sich in sein Schicksal fügen).",
+        "Frazė Alles fügt sich reiškia: viskas pamažu stoja į savo vietas, viskas susitvarko. Be sich fügen yra galininkinis: Teile zusammenfügen – sujungti dalis."
+      ],
+      "examples": [
+        {
+          "de": "Er fügte sich dem Beschluss des Vorstands.",
+          "lv": "Jis paklusė valdybos sprendimui."
+        },
+        {
+          "de": "Sie musste sich in ihr Schicksal fügen.",
+          "lv": "Jai teko susitaikyti su savo likimu."
+        },
+        {
+          "de": "Das Kind fügt sich den Regeln.",
+          "lv": "Vaikas paklūsta taisyklėms."
+        },
+        {
+          "de": "Neue Kollegen müssen sich in das Team fügen.",
+          "lv": "Naujiems kolegoms reikia įsilieti į komandą."
+        },
+        {
+          "de": "Alles fügte sich zum Guten.",
+          "lv": "Viskas susiklostė į gera."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich anpassen",
+          "meaning": "prisitaikyti",
+          "example": "Er passt sich dem Klima an. – Jis prisitaiko prie klimato."
+        },
+        {
+          "word": "gehorchen",
+          "meaning": "klausyti, paklusti",
+          "example": "Der Hund gehorcht seinem Herrn. – Šuo klauso savo šeimininko."
+        },
+        {
+          "word": "fügen",
+          "meaning": "sujungti",
+          "example": "Er fügt zwei Teile zusammen. – Jis sujungia dvi dalis."
+        }
+      ],
+      "tip": [
+        "Norėdamas pasakyti „paklūsta sprendimui“, rinkis sich dem Beschluss fügen.",
+        "Įsidėmėk ir posakį: sich in sein Schicksal fügen."
+      ],
+      "important": [
+        "Nepainiok su fügen be sich (pridėti, sujungti).",
+        "Tiesioginį paklusimą įsakymui ar tėvams paprastai reiškia gehorchen, o ne sich fügen."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
+            "fügen",
+            "fügt",
+            "fügte",
+            "gefügt",
             "sich fügen"
           ],
           "purple": [
-            "prielinksnio"
+            "paklusti",
+            "prisitaikyti",
+            "Paklusimo",
+            "prisitaikymo",
+            "susitaikymo"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "fügte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "paklusė"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fügen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "susitaikyti"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fügt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "paklūsta"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fügen"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fügte"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich anpassen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "prisitaikyti"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "gehorchen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "klausyti"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "fügen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "sujungti"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "fügen"
+            ]
+          },
+          {
+            "blue": [
+              "fügen"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "fügen"
+            ]
+          },
+          {
+            "blue": [
+              "sich fügen",
+              "fügen"
+            ],
+            "green": [
+              "gehorchen"
+            ]
+          }
+        ]
       }
     }
   },
@@ -5569,7 +12964,7 @@ const B2_WORDS = [
     "de": "Futtertrog",
     "de_article": "der",
     "de_plural": "die Futtertröge",
-    "lv": "lesalo lovys",
+    "lv": "pašaro lovys",
     "level": "B2"
   },
   {
@@ -5595,12 +12990,12 @@ const B2_WORDS = [
   },
   {
     "de": "gangbar",
-    "lv": "pravažiuojamas",
+    "lv": "praeinamas",
     "level": "B2"
   },
   {
     "de": "gängig",
-    "lv": "einantis",
+    "lv": "įprastas • paplitęs • paklausus",
     "level": "B2"
   },
   {
@@ -5614,7 +13009,7 @@ const B2_WORDS = [
     "de": "Garbe",
     "de_article": "die",
     "de_plural": "die Garben",
-    "lv": "ryšulys • ryšulėlis",
+    "lv": "pėdas • pėdelis",
     "level": "B2"
   },
   {
@@ -5647,14 +13042,14 @@ const B2_WORDS = [
     "de": "Gasableser",
     "de_article": "der",
     "de_plural": "die Gasableser",
-    "lv": "dujų skaitiklis",
+    "lv": "dujų skaitiklio rodmenų nurašinėtojas",
     "level": "B2"
   },
   {
     "de": "Gastarbeiter",
     "de_article": "der",
     "de_plural": "die Gastarbeiter",
-    "lv": "svečias darbuotojas",
+    "lv": "užsienio darbininkas",
     "level": "B2"
   },
   {
@@ -5694,7 +13089,7 @@ const B2_WORDS = [
   },
   {
     "de": "gebrechlich",
-    "lv": "silpnas • sunykęs • verksnus • sukriošęs • pilnas trūkumų",
+    "lv": "silpnas • sunykęs • sukriošęs",
     "level": "B2"
   },
   {
@@ -5711,12 +13106,12 @@ const B2_WORDS = [
   },
   {
     "de": "gedeihen",
-    "lv": "gerai sektis • pavykti • klestėti • žydėti",
+    "lv": "gerai sektis • pavykti • klestėti",
     "level": "B2"
   },
   {
     "de": "gedenken",
-    "lv": "ketinti • atsiminti • prisiminti • paminėti",
+    "lv": "ketinti • prisiminti • paminėti",
     "level": "B2"
   },
   {
@@ -5748,7 +13143,7 @@ const B2_WORDS = [
   },
   {
     "de": "gefällig",
-    "lv": "malonus • paslaugus • pataikaujantis • švelnus",
+    "lv": "malonus • paslaugus • pataikaujantis",
     "level": "B2"
   },
   {
@@ -5776,7 +13171,7 @@ const B2_WORDS = [
     "de": "Gefüge",
     "de_article": "das",
     "de_plural": "die Gefüge",
-    "lv": "struktūra • sandara • jungtis • sujungimas",
+    "lv": "struktūra • sandara • jungtis",
     "level": "B2"
   },
   {
@@ -5790,14 +13185,14 @@ const B2_WORDS = [
     "de": "Gegenmittel",
     "de_article": "das",
     "de_plural": "die Gegenmittel",
-    "lv": "priemonė prieš (vaistas)",
+    "lv": "priešnuodis • atsakomoji priemonė",
     "level": "B2"
   },
   {
     "de": "Gegenrede",
     "de_article": "die",
     "de_plural": "die Gegenreden",
-    "lv": "pastaba • prieštaravimas",
+    "lv": "prieštaravimas • atsikirtimas",
     "level": "B2"
   },
   {
@@ -5811,12 +13206,12 @@ const B2_WORDS = [
     "de": "Amtsgeheimnis",
     "de_article": "das",
     "de_plural": "die Amtsgeheimnisse",
-    "lv": "profesinė paslaptis",
+    "lv": "tarnybinė paslaptis",
     "level": "B2"
   },
   {
     "de": "gehörig",
-    "lv": "priklausantis • susijęs • tinkamas • dera",
+    "lv": "priklausantis • tinkamas • deramas",
     "level": "B2"
   },
   {
@@ -5852,13 +13247,206 @@ const B2_WORDS = [
   },
   {
     "de": "geläufig",
-    "lv": "žinomas • pažįstamas • įprastas • sklandus • laisvas",
+    "lv": "žinomas • įprastas • sklandus",
     "level": "B2"
   },
   {
     "de": "gelaunt",
-    "lv": "geros nuotaikos",
-    "level": "B2"
+    "lv": "nusiteikęs",
+    "level": "B2",
+    "study": {
+      "id": "b2-gelaunt",
+      "layout": "standardStudy",
+      "translation": "nusiteikęs",
+      "explanation": [
+        "Pagrindinė mintis: gelaunt – būdvardis, vartojamas tik kartu su prieveiksmiu: gut gelaunt (geros nuotaikos), schlecht gelaunt (blogos nuotaikos). Jis apibūdina žmogaus nuotaiką.",
+        "Atskirai be prieveiksmio jis beveik nevartojamas. Laipsnius sudaro prieveiksmis: besser gelaunt, am besten gelaunt. Šaknies žodis – die Laune (nuotaika), daugiskaita die Launen."
+      ],
+      "examples": [
+        {
+          "de": "Er ist heute gut gelaunt.",
+          "lv": "Jis šiandien geros nuotaikos."
+        },
+        {
+          "de": "Sie kam schlecht gelaunt ins Büro.",
+          "lv": "Ji atėjo į biurą blogos nuotaikos."
+        },
+        {
+          "de": "Der Chef ist heute nicht besonders gut gelaunt.",
+          "lv": "Viršininkas šiandien nėra ypač geros nuotaikos."
+        },
+        {
+          "de": "Wie ist er heute gelaunt?",
+          "lv": "Kokios jis šiandien nuotaikos?"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "die Laune",
+          "meaning": "nuotaika",
+          "example": "Er hat gute Laune. – Jo nuotaika gera."
+        },
+        {
+          "word": "gut drauf",
+          "meaning": "geros nuotaikos",
+          "example": "Er ist heute gut drauf. – Jis šiandien geros nuotaikos."
+        },
+        {
+          "word": "gestimmt",
+          "meaning": "nusiteikęs",
+          "example": "Sie ist heiter gestimmt. – Ji linksmai nusiteikusi."
+        }
+      ],
+      "tip": [
+        "Įsidėmėk paruoštus junginius: gut gelaunt, schlecht gelaunt, bestens gelaunt.",
+        "Su Laune galima sakyti gute Laune haben."
+      ],
+      "important": [
+        "gelaunt beveik visada eina kartu su gut, schlecht, besser ar kitu prieveiksmiu.",
+        "Žodis nėra tas pats, kas gestimmt (nusiteikęs), nors reikšmė artima."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "gelaunt",
+            "gut gelaunt",
+            "schlecht gelaunt",
+            "Laune",
+            "Launen",
+            "gut",
+            "schlecht"
+          ],
+          "purple": [
+            "nuotaikos",
+            "nuotaika"
+          ],
+          "green": [
+            "die Laune"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "gut",
+                "gelaunt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "geros nuotaikos"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "schlecht",
+                "gelaunt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "blogos nuotaikos"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "gut",
+                "gelaunt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "geros nuotaikos"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "gelaunt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nuotaikos"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "die Laune"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "nuotaika"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "gut drauf"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "geros"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "gestimmt"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "nusiteikęs"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "gelaunt",
+              "gut gelaunt",
+              "schlecht gelaunt",
+              "gut",
+              "schlecht"
+            ]
+          },
+          {
+            "blue": [
+              "Laune"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "gelaunt",
+              "gut",
+              "schlecht"
+            ]
+          },
+          {
+            "green": [
+              "gestimmt"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Geldbuße",
@@ -5890,7 +13478,7 @@ const B2_WORDS = [
   },
   {
     "de": "gelegen",
-    "lv": "patogus • naudingas • parankus • nuošalus",
+    "lv": "patogus • parankus • nuošalus",
     "level": "B2"
   },
   {
@@ -5904,7 +13492,7 @@ const B2_WORDS = [
     "de": "Geliebte",
     "de_article": "der",
     "de_plural": "die Geliebten",
-    "lv": "mielasis • mylimasis • mylimiausias",
+    "lv": "mylimasis • meilužis",
     "level": "B2"
   },
   {
@@ -5937,7 +13525,7 @@ const B2_WORDS = [
   },
   {
     "de": "gemäß",
-    "lv": "pagal • sutinkamai su • atitinkamai",
+    "lv": "pagal • atitinkamai",
     "level": "B2"
   },
   {
@@ -5956,20 +13544,20 @@ const B2_WORDS = [
     "de": "Gemisch",
     "de_article": "das",
     "de_plural": "die Gemische",
-    "lv": "mišinys • sąmaišymas • kratinys",
+    "lv": "mišinys • kratinys",
     "level": "B2"
   },
   {
     "de": "Gemüsebau",
     "de_article": "der",
-    "lv": "šakniavaisių auginimas • daržininkystė",
+    "lv": "daržovių auginimas • daržininkystė",
     "level": "B2"
   },
   {
     "de": "Gemüt",
     "de_article": "das",
     "de_plural": "die Gemüter",
-    "lv": "charakteris • prigimtis • mintys • protas",
+    "lv": "charakteris • prigimtis • protas",
     "level": "B2"
   },
   {
@@ -5981,7 +13569,7 @@ const B2_WORDS = [
     "de": "Genforscher",
     "de_article": "der",
     "de_plural": "die Genforscher",
-    "lv": "genetikas mokslininkas",
+    "lv": "genų tyrėjas • genetikas",
     "level": "B2"
   },
   {
@@ -6013,7 +13601,7 @@ const B2_WORDS = [
     "de": "Genick",
     "de_article": "das",
     "de_plural": "die Genicke",
-    "lv": "pakaušis",
+    "lv": "sprandas",
     "level": "B2"
   },
   {
@@ -6022,21 +13610,178 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-genieren",
-      "layout": "minimalStudy",
+      "layout": "standardStudy",
       "translation": "gėdytis",
-      "rektion": "vor + kam?",
-      "explanation": "sich genieren reikalauja nustatyto prielinksnio vor + kam?.",
-      "forms": "vor + kam?",
-      "formsLabel": "Valdymas:",
+      "explanation": [
+        "Pagrindinė mintis: sich genieren reiškia gėdytis, drovėtis, jaustis nepatogiai ką nors darant kitų akivaizdoje. Tariant g skamba kaip ž: [ʒeˈniːrən].",
+        "Žmonės, kurių akivaizdoje kas nors gėdijasi, nurodomi su vor + naudininkas: sich vor den Gästen genieren. Formos: geniert sich, genierte sich, hat sich geniert. Dažnai vartojamas su neiginiu: Genieren Sie sich nicht! – Nesidrovėkite!"
+      ],
+      "examples": [
+        {
+          "de": "Er geniert sich vor fremden Leuten.",
+          "lv": "Jis drovisi svetimų žmonių."
+        },
+        {
+          "de": "Du brauchst dich nicht zu genieren.",
+          "lv": "Tau nėra ko gėdytis."
+        },
+        {
+          "de": "Sie genierte sich, nach dem Weg zu fragen.",
+          "lv": "Ji drovėjosi paklausti kelio."
+        },
+        {
+          "de": "Bitte genieren Sie sich nicht, greifen Sie zu!",
+          "lv": "Prašom, nesidrovėkite, vaišinkitės!"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich schämen",
+          "meaning": "gėdytis",
+          "example": "Ich schäme mich für meinen Fehler. – Gėdijuosi savo klaidos."
+        },
+        {
+          "word": "schüchtern",
+          "meaning": "drovus",
+          "example": "Er ist sehr schüchtern. – Jis labai drovus."
+        },
+        {
+          "word": "peinlich",
+          "meaning": "nepatogus, keblus",
+          "example": "Das ist mir peinlich. – Man tai nepatogu."
+        }
+      ],
+      "tip": [
+        "Svetingas kvietimas: Genieren Sie sich nicht!",
+        "Kalbėdamas apie nepatogią situaciją, gali sakyti ir Das ist mir unangenehm."
+      ],
+      "important": [
+        "sich genieren reiškia socialinį drovumą, o sich schämen – gėdą dėl savo poelgio.",
+        "Žodis kilęs iš prancūzų kalbos, todėl svarbu tarti su ž."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
+            "genieren",
+            "geniert",
+            "genierte",
+            "Genieren",
             "sich genieren"
           ],
-          "red": [
-            "vor + kam?"
+          "purple": [
+            "gėdytis"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "geniert"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "drovisi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "genieren"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "gėdytis"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "genierte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "drovėjosi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "genieren"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nesidrovėkite"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "schämen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "gėdytis"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "schüchtern"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "drovus"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "peinlich"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "nepatogus"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "genieren",
+              "Genieren"
+            ]
+          },
+          {}
+        ],
+        "important": [
+          {
+            "blue": [
+              "sich genieren",
+              "genieren"
+            ],
+            "green": [
+              "schämen",
+              "sich schämen"
+            ]
+          },
+          {}
+        ]
       }
     }
   },
@@ -6044,14 +13789,14 @@ const B2_WORDS = [
     "de": "Genosse",
     "de_article": "der",
     "de_plural": "die Genossen",
-    "lv": "bičiulis",
+    "lv": "draugas • bendražygis",
     "level": "B2"
   },
   {
     "de": "Genossin",
     "de_article": "die",
     "de_plural": "die Genossinnen",
-    "lv": "bendrijos narė • draugė",
+    "lv": "draugė • bendražygė",
     "level": "B2"
   },
   {
@@ -6082,13 +13827,13 @@ const B2_WORDS = [
   },
   {
     "de": "geraten",
-    "lv": "patekti • atsidurti • pasiduoti • pavykti • atsiremti",
+    "lv": "patekti • atsidurti • pavykti",
     "level": "B2"
   },
   {
     "de": "Geratewohl",
     "de_article": "das",
-    "lv": "gera sėkmė",
+    "lv": "atsitiktinai • kaip pakliūva",
     "level": "B2"
   },
   {
@@ -6100,12 +13845,12 @@ const B2_WORDS = [
     "de": "Gerede",
     "de_article": "das",
     "de_plural": "die Gerede",
-    "lv": "kalbėjimas • kalbos • žmonių paskalos • paskalos",
+    "lv": "kalbos • paskalos • plepalai",
     "level": "B2"
   },
   {
     "de": "gerinnen",
-    "lv": "sukrešėti • sutraukti • susikaupti gumuliukais • sustingti • sušalti",
+    "lv": "sukrešėti • sustingti • surūgti",
     "level": "B2"
   },
   {
@@ -6152,7 +13897,7 @@ const B2_WORDS = [
     "de": "Geschiedene",
     "de_article": "der",
     "de_plural": "die Geschiedenen",
-    "lv": "pertvara",
+    "lv": "išsiskyręs vyras • išsiskyrėlis",
     "level": "B2"
   },
   {
@@ -6180,7 +13925,7 @@ const B2_WORDS = [
     "de": "Geschwätz",
     "de_article": "das",
     "de_plural": "die Geschwätze",
-    "lv": "plepėjimas • melavimas • paplepėjimai",
+    "lv": "plepėjimas • tuščios kalbos • plepalai",
     "level": "B2"
   },
   {
@@ -6211,7 +13956,7 @@ const B2_WORDS = [
     "de": "Geselle",
     "de_article": "der",
     "de_plural": "die Gesellen",
-    "lv": "pameistrys • pagalbininkas • vaikinas • amatininkas, kuris po mokymosi laiko išlaikė egzaminą",
+    "lv": "pameistrys • pagalbininkas • vaikinas",
     "level": "B2"
   },
   {
@@ -6220,24 +13965,183 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-gesellen",
-      "layout": "minimalStudy",
+      "layout": "standardStudy",
       "translation": "prisijungti",
-      "rektion": "zu + kam?",
-      "explanation": "sich gesellen reikalauja nustatyto prielinksnio zu + kam?.",
-      "forms": "zu + kam?",
-      "formsLabel": "Valdymas:",
+      "explanation": [
+        "Pagrindinė mintis: sich gesellen reiškia prisijungti prie žmogaus ar grupės, atsisėsti ar atsistoti kartu su jais. Gali reikšti ir tai, kad prie ko nors prisideda dar kas nors (Zu der Kälte gesellte sich Regen).",
+        "Su zu + naudininkas įvardijama tai, prie ko prisijungiama: sich zu jemandem gesellen. Formos: gesellt sich, gesellte sich, hat sich gesellt. Kalba kiek knyginė.",
+        "Žinomas posakis: Gleich und gleich gesellt sich gern. – panašus prie panašaus traukia."
+      ],
+      "examples": [
+        {
+          "de": "Er gesellte sich zu uns an den Tisch.",
+          "lv": "Jis prisijungė prie mūsų prie stalo."
+        },
+        {
+          "de": "Zu der Kälte gesellte sich noch Regen.",
+          "lv": "Prie šalčio prisidėjo dar ir lietus."
+        },
+        {
+          "de": "Darf ich mich zu Ihnen gesellen?",
+          "lv": "Ar galiu prie jūsų prisijungti?"
+        },
+        {
+          "de": "Sie gesellte sich zu den anderen Gästen.",
+          "lv": "Ji prisijungė prie kitų svečių."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich anschließen",
+          "meaning": "prisijungti",
+          "example": "Ich schließe mich der Gruppe an. – Aš prisijungiu prie grupės."
+        },
+        {
+          "word": "dazukommen",
+          "meaning": "prisijungti (vėliau ateiti)",
+          "example": "Er kommt später dazu. – Jis prisijungs vėliau."
+        },
+        {
+          "word": "begleiten",
+          "meaning": "palydėti",
+          "example": "Ich begleite dich nach Hause. – Aš palydėsiu tave namo."
+        }
+      ],
+      "tip": [
+        "Po sich gesellen eina zu + naudininkas: zu uns, zu ihm, zu den Gästen.",
+        "Žodis tinka, kai kas nors prisijungia laisvai, pavyzdžiui, prie stalo."
+      ],
+      "important": [
+        "Oficialiam įstojimui į organizaciją paprastai vartojama sich anschließen arba beitreten, o ne sich gesellen.",
+        "Su sich gesellen susijęs žodis der Geselle (amatininko pameistrys arba bendras)."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
+            "gesellen",
+            "gesellte",
+            "gesellt",
             "sich gesellen"
           ],
-          "red": [
-            "zu + kam?"
-          ],
           "purple": [
-            "prielinksnio"
+            "prisijungti",
+            "prisijungiama"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "gesellte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "prisijungė"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "gesellte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "prisidėjo"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "gesellen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "prisijungti"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "gesellte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "prisijungė"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich anschließen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "prisijungti"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "dazukommen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "prisijungti"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "begleiten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "palydėti"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "sich gesellen",
+              "gesellen"
+            ]
+          },
+          {}
+        ],
+        "important": [
+          {
+            "blue": [
+              "sich gesellen",
+              "gesellen"
+            ],
+            "green": [
+              "sich anschließen"
+            ]
+          },
+          {
+            "blue": [
+              "sich gesellen",
+              "gesellen"
+            ]
+          }
+        ]
       }
     }
   },
@@ -6269,25 +14173,194 @@ const B2_WORDS = [
   },
   {
     "de": "sich gestalten",
-    "lv": "formuotis į",
+    "lv": "susiklostyti • formuotis",
     "level": "B2",
     "study": {
       "id": "b2-sich-gestalten",
-      "layout": "minimalStudy",
-      "translation": "formuotis į",
-      "rektion": "zu + kam?",
-      "explanation": "sich gestalten reikalauja nustatyto prielinksnio zu + kam?.",
-      "forms": "zu + kam?",
-      "formsLabel": "Valdymas:",
+      "layout": "standardStudy",
+      "translation": "susiklostyti • formuotis",
+      "explanation": [
+        "Pagrindinė mintis: sich gestalten reiškia formuotis, susiklostyti – apie įvykį, derybas ar ateitį: kaip jie pasirodys esą. Paprastai po jo eina būdvardis (schwierig, positiv) arba zu + Dativ (zu einem Erfolg).",
+        "Formos: gestaltet sich, gestaltete sich, hat sich gestaltet. Veiksnys paprastai yra abstraktus žodis: Verhandlungen, Zukunft, Abend, Zusammenarbeit.",
+        "Be sich gestalten reiškia kurti, apipavidalinti (den Garten gestalten)."
+      ],
+      "examples": [
+        {
+          "de": "Die Verhandlungen gestalten sich schwierig.",
+          "lv": "Derybos klostosi sunkiai."
+        },
+        {
+          "de": "Der Abend gestaltete sich zu einem Erfolg.",
+          "lv": "Vakaras virto sėkme."
+        },
+        {
+          "de": "Wie wird sich die Zukunft gestalten?",
+          "lv": "Kaip susiklostys ateitis?"
+        },
+        {
+          "de": "Das Treffen gestaltete sich anders als geplant.",
+          "lv": "Susitikimas susiklostė kitaip, nei planuota."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "gestalten",
+          "meaning": "kurti, apipavidalinti",
+          "example": "Wir gestalten den Garten neu. – Mes iš naujo sutvarkome sodą."
+        },
+        {
+          "word": "werden",
+          "meaning": "tapti",
+          "example": "Er wird Lehrer. – Jis tampa mokytoju."
+        },
+        {
+          "word": "sich entwickeln",
+          "meaning": "vystytis",
+          "example": "Das Kind entwickelt sich gut. – Vaikas gerai vystosi."
+        }
+      ],
+      "tip": [
+        "Dažnas junginys: sich schwierig gestalten – klostytis sunkiai.",
+        "Verslo ir oficialiuoju stiliumi: Die Zusammenarbeit gestaltet sich erfolgreich."
+      ],
+      "important": [
+        "sich gestalten paprastai vartojamas formalioje kalboje; kasdien paprasčiau sakysi werden arba verlaufen.",
+        "Veiksnys paprastai yra ne žmogus, o įvykis ar procesas."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich gestalten"
+            "sich gestalten",
+            "gestalten",
+            "gestaltet",
+            "gestaltete",
+            "sich"
           ],
-          "red": [
-            "zu + kam?"
+          "purple": [
+            "formuotis",
+            "susiklostyti",
+            "kurti"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "gestalten",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "klostosi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "gestaltete",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "virto"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sich",
+                "gestalten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "susiklostys"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "gestaltete",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "susiklostė"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "gestalten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "kurti"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "werden"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "tapti"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich entwickeln"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "vystytis"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "gestalten",
+              "sich"
+            ]
+          },
+          {
+            "blue": [
+              "gestaltet",
+              "sich"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "sich gestalten",
+              "gestalten",
+              "sich"
+            ],
+            "green": [
+              "werden"
+            ]
+          },
+          {}
+        ]
       }
     }
   },
@@ -6335,7 +14408,7 @@ const B2_WORDS = [
     "de": "Getriebe",
     "de_article": "das",
     "de_plural": "die Getriebe",
-    "lv": "variklis",
+    "lv": "pavarų dėžė",
     "level": "B2"
   },
   {
@@ -6382,7 +14455,7 @@ const B2_WORDS = [
     "de": "Gewebe",
     "de_article": "das",
     "de_plural": "die Gewebe",
-    "lv": "audinys • ataudai",
+    "lv": "audinys",
     "level": "B2"
   },
   {
@@ -6394,7 +14467,7 @@ const B2_WORDS = [
   },
   {
     "de": "gewieft",
-    "lv": "užsigrūdinęs • gudrus",
+    "lv": "prityręs • gudrus",
     "level": "B2"
   },
   {
@@ -6406,7 +14479,7 @@ const B2_WORDS = [
     "de": "Gewissheit",
     "de_article": "die",
     "de_plural": "die Gewissheiten",
-    "lv": "aiškumas • saugumas • tikrumas",
+    "lv": "aiškumas • užtikrintumas • tikrumas",
     "level": "B2"
   },
   {
@@ -6417,12 +14490,12 @@ const B2_WORDS = [
   },
   {
     "de": "gierig",
-    "lv": "geidžiantis • geidulingas • gobšus",
+    "lv": "godus • trokštantis • gobšus",
     "level": "B2"
   },
   {
     "de": "geldgierig",
-    "lv": "pinigams gobus",
+    "lv": "godus pinigams",
     "level": "B2"
   },
   {
@@ -6496,14 +14569,14 @@ const B2_WORDS = [
     "de": "Glatze",
     "de_article": "die",
     "de_plural": "die Glatzen",
-    "lv": "plikas viršugalvis",
+    "lv": "plikė",
     "level": "B2"
   },
   {
     "de": "Stirnglatze",
     "de_article": "die",
     "de_plural": "die Stirnglatzen",
-    "lv": "atvira kakta",
+    "lv": "plinkanti kakta",
     "level": "B2"
   },
   {
@@ -6515,7 +14588,7 @@ const B2_WORDS = [
     "de": "Gleichnis",
     "de_article": "das",
     "de_plural": "die Gleichnisse",
-    "lv": "panašumas",
+    "lv": "palyginimas",
     "level": "B2"
   },
   {
@@ -6527,7 +14600,7 @@ const B2_WORDS = [
     "de": "Glied",
     "de_article": "das",
     "de_plural": "die Glieder",
-    "lv": "narys • galūnė • grandinės grandis • dalis",
+    "lv": "narys • galūnė • grandis",
     "level": "B2"
   },
   {
@@ -6547,7 +14620,7 @@ const B2_WORDS = [
   },
   {
     "de": "glühen",
-    "lv": "švytėti • kaisti • žėruoti • degti",
+    "lv": "švytėti • kaisti • degti",
     "level": "B2"
   },
   {
@@ -6555,14 +14628,381 @@ const B2_WORDS = [
     "de_article": "die",
     "de_plural": "die Gluten",
     "lv": "kaitra • žara • didelis karštis",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-glut",
+      "layout": "standardStudy",
+      "translation": "kaitra • žara • didelis karštis",
+      "explanation": [
+        "Pagrindinė mintis: die Glut – moteriškosios giminės daiktavardis. Jis reiškia žėrinčias anglis, rusenančios ugnies karštį, taip pat labai didelį karštį, kaitrą (die Glut der Sonne). Perkeltine reikšme Glut – ir aistra, užsidegimas.",
+        "Daugiskaita reta (die Gluten), paprastai vartojama vienaskaita: die Glut. Dažnos frazės: die Glut anfachen (įpūsti žarijas), unter der Asche glimmt noch Glut (po pelenais dar rusena žarijos)."
+      ],
+      "examples": [
+        {
+          "de": "Die Glut des Lagerfeuers wärmte uns noch.",
+          "lv": "Laužo žarijos mus dar šildė."
+        },
+        {
+          "de": "In der Glut der Mittagssonne ruhte das ganze Dorf.",
+          "lv": "Vidurdienio saulės kaitroje visas kaimas ilsėjosi."
+        },
+        {
+          "de": "Er blies in die Glut, bis wieder Flammen aufstiegen.",
+          "lv": "Jis pūtė į žarijas, kol vėl šoktelėjo liepsnos."
+        },
+        {
+          "de": "Mit großer Glut sprach sie über ihr Projekt.",
+          "lv": "Ji su didele aistra kalbėjo apie savo projektą."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "die Hitze",
+          "meaning": "karštis",
+          "example": "Im Sommer ist die Hitze groß. – Vasarą karštis didelis."
+        },
+        {
+          "word": "die Asche",
+          "meaning": "pelenai",
+          "example": "Unter der Asche liegt noch Glut. – Po pelenais dar yra žarijų."
+        },
+        {
+          "word": "die Flamme",
+          "meaning": "liepsna",
+          "example": "Die Flamme wird kleiner. – Liepsna mažėja."
+        }
+      ],
+      "tip": [
+        "Glut – tai likęs raudonas ugnies žėrėjimas, o Flamme – matoma liepsna.",
+        "Kalbėdamas apie laužą, įsidėmėk: Feuer – ugnis, Flamme – liepsna, Glut – žėrinčios anglys, žarijos."
+      ],
+      "important": [
+        "Glut paprastai vartojamas vienaskaita; daugiskaita die Gluten labai reta.",
+        "Kasdieniam karščiui apibūdinti paprastai pakanka die Hitze; Glut skamba stipriau, poetiškiau."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "die Glut",
+            "Glut",
+            "Gluten"
+          ],
+          "purple": [
+            "kaitrą",
+            "karštį",
+            "žėrinčias anglis"
+          ],
+          "green": [
+            "Asche"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Glut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "žarijos"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Glut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kaitroje"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Glut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "žarijas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Glut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "aistra"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "die Hitze"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "karštis"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Asche"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "pelenai"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Flamme"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "liepsna"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "Glut"
+            ],
+            "green": [
+              "Flamme"
+            ]
+          },
+          {
+            "blue": [
+              "Glut"
+            ],
+            "green": [
+              "Flamme"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "Glut",
+              "Gluten"
+            ]
+          },
+          {
+            "blue": [
+              "Glut"
+            ],
+            "green": [
+              "die Hitze",
+              "Hitze"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Gnade",
     "de_article": "die",
     "de_plural": "die Gnaden",
     "lv": "malonė • pasigailėjimas",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-gnade",
+      "layout": "standardStudy",
+      "translation": "malonė • pasigailėjimas",
+      "explanation": [
+        "Pagrindinė mintis: die Gnade – moteriškosios giminės daiktavardis. Jis reiškia malonę, gailestingumą – palankų turinčiojo valią elgesį ir pasigailėjimą, bausmės dovanojimą.",
+        "Daugiskaita vartojama retai (die Gnaden). Dažni junginiai: um Gnade bitten (prašyti pasigailėjimo), Gnade walten lassen (parodyti malonę), auf Gnade und Ungnade (visiškai kieno nors valioje), die Gnade Gottes (Dievo malonė)."
+      ],
+      "examples": [
+        {
+          "de": "Der Verurteilte bat um Gnade.",
+          "lv": "Nuteistasis prašė pasigailėjimo."
+        },
+        {
+          "de": "Der Präsident ließ Gnade walten.",
+          "lv": "Prezidentas parodė malonę."
+        },
+        {
+          "de": "Wir sind ihm auf Gnade und Ungnade ausgeliefert.",
+          "lv": "Esame visiškai jo valioje."
+        },
+        {
+          "de": "Er verdankt sein Leben der Gnade des Königs.",
+          "lv": "Savo gyvybę jis skolingas karaliaus malonei."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "das Mitleid",
+          "meaning": "užuojauta",
+          "example": "Ich habe Mitleid mit ihm. – Man jo gaila."
+        },
+        {
+          "word": "die Begnadigung",
+          "meaning": "malonės suteikimas",
+          "example": "Die Begnadigung wurde abgelehnt. – Prašymas suteikti malonę buvo atmestas."
+        },
+        {
+          "word": "die Gunst",
+          "meaning": "palankumas",
+          "example": "Er genießt die Gunst des Chefs. – Jis naudojasi viršininko palankumu."
+        }
+      ],
+      "tip": [
+        "Įsidėmėk junginį um Gnade bitten (prašyti pasigailėjimo); prielinksnis um reikalauja galininko.",
+        "Su walten lassen sakoma Gnade walten lassen – parodyti malonę."
+      ],
+      "important": [
+        "Gnade – tai aukštesnio žmogaus ar Dievo palankumas; paprastą užuojautą kitam vadiname Mitleid.",
+        "Nepainiok su Gunst (palankumas, palanki laikysena)."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Gnade",
+            "Gnaden"
+          ],
+          "purple": [
+            "malonę",
+            "pasigailėjimą",
+            "malonė"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Gnade"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pasigailėjimo"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Gnade"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "malonę"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Gnade"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Gnade"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "malonei"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "das Mitleid"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "užuojauta"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Begnadigung"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "malonės suteikimas"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Gunst"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "palankumas"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "Gnade"
+            ]
+          },
+          {
+            "blue": [
+              "Gnade"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "Gnade"
+            ],
+            "green": [
+              "Mitleid"
+            ]
+          },
+          {
+            "green": [
+              "Gunst"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Gnadenbrot",
@@ -6648,7 +15088,7 @@ const B2_WORDS = [
   {
     "de": "Götzendienst",
     "de_article": "der",
-    "lv": "tarnavimas stabui",
+    "lv": "stabmeldystė",
     "level": "B2"
   },
   {
@@ -6660,35 +15100,195 @@ const B2_WORDS = [
   },
   {
     "de": "grässlich",
-    "lv": "baisus • šiurpus • bjaurus • nemalonus",
+    "lv": "baisus • šiurpus • bjaurus",
     "level": "B2"
   },
   {
     "de": "grauen",
-    "lv": "austi",
+    "lv": "aušti",
     "level": "B2"
   },
   {
     "de": "sich grauen",
-    "lv": "bijotis",
+    "lv": "baisėtis • bijoti",
     "level": "B2",
     "study": {
       "id": "b2-sich-grauen",
-      "layout": "minimalStudy",
-      "translation": "bijotis",
-      "rektion": "vor + kam?",
-      "explanation": "sich grauen reikalauja nustatyto prielinksnio vor + kam?.",
-      "forms": "vor + kam?",
-      "formsLabel": "Valdymas:",
+      "layout": "standardStudy",
+      "translation": "baisėtis • bijoti",
+      "explanation": [
+        "Pagrindinė mintis: sich grauen reiškia jausti baimę, nerimą, šlykštėjimąsi ar nemalonumą iš anksto – baisėtis kuo nors nemaloniu, kas laukia. Bendrinėje kalboje beveik visada vartojama beasmenė forma: Mir graut vor …, Es graut mir vor … (naudininkas).",
+        "Su vor + naudininkas įvardijama tai, ko bijoma: Mir graut vor der Prüfung. Formą su sangrąžiniu įvardžiu (ich graue mich) irgi galima išgirsti, bet rečiau. Perfektas: hat gegraut.",
+        "Žodis susijęs su das Grauen (siaubas)."
+      ],
+      "examples": [
+        {
+          "de": "Mir graut vor der Prüfung.",
+          "lv": "Man baisu egzamino."
+        },
+        {
+          "de": "Es graut ihm vor dem Winter.",
+          "lv": "Jis baiminasi žiemos."
+        },
+        {
+          "de": "Mir graut davor, allein zu wohnen.",
+          "lv": "Man baisu gyventi vienam."
+        },
+        {
+          "de": "Vor dem Montagmorgen graut es mir schon jetzt.",
+          "lv": "Man jau dabar baisu pirmadienio ryto."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich fürchten",
+          "meaning": "bijoti",
+          "example": "Ich fürchte mich vor Spinnen. – Aš bijau vorų."
+        },
+        {
+          "word": "Angst haben",
+          "meaning": "jausti baimę, bijoti",
+          "example": "Er hat Angst vor Hunden. – Jis bijo šunų."
+        },
+        {
+          "word": "das Grauen",
+          "meaning": "siaubas",
+          "example": "Das Grauen packte ihn. – Jį apėmė siaubas."
+        }
+      ],
+      "tip": [
+        "Šis žodis vartojamas kaip beasmenė konstrukcija: Mir graut vor …",
+        "Kasdien saugiau rinktis Angst haben vor + naudininkas arba sich fürchten vor + naudininkas."
+      ],
+      "important": [
+        "Asmuo, kuriam baisu, dažnai būna naudininke (mir, ihm), o ne vardininke.",
+        "Sakydamas Mir graut, sangrąžinio įvardžio pridėti nereikia."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
+            "grauen",
+            "graut",
             "sich grauen"
           ],
-          "red": [
-            "vor + kam?"
+          "purple": [
+            "baisėtis",
+            "baimę"
+          ],
+          "green": [
+            "das Grauen",
+            "Grauen"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "graut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "baisu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "graut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "baiminasi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "graut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "baisu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "graut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "baisu"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich fürchten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "bijoti"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "Angst haben"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "jausti"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "das Grauen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "siaubas"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "graut"
+            ]
+          },
+          {
+            "green": [
+              "sich fürchten",
+              "Angst haben"
+            ]
+          }
+        ],
+        "important": [
+          {},
+          {
+            "blue": [
+              "graut"
+            ]
+          }
+        ]
       }
     }
   },
@@ -6781,14 +15381,14 @@ const B2_WORDS = [
     "de": "Gründonnerstag",
     "de_article": "der",
     "de_plural": "die Gründonnerstage",
-    "lv": "Žaliasis ketvirtadienis prieš Velykas",
+    "lv": "Didysis ketvirtadienis",
     "level": "B2"
   },
   {
     "de": "Grundrecht",
     "de_article": "das",
     "de_plural": "die Grundrechte",
-    "lv": "pagrindinės teisės",
+    "lv": "pagrindinė teisė",
     "level": "B2"
   },
   {
@@ -6827,7 +15427,7 @@ const B2_WORDS = [
   },
   {
     "de": "gurgeln",
-    "lv": "skalauti gerklę • burną",
+    "lv": "skalauti gerklę",
     "level": "B2"
   },
   {
@@ -6876,7 +15476,7 @@ const B2_WORDS = [
   },
   {
     "de": "haaren",
-    "lv": "numesti plunksnas",
+    "lv": "šertis",
     "level": "B2"
   },
   {
@@ -6937,19 +15537,19 @@ const B2_WORDS = [
     "de": "Hängebrücke",
     "de_article": "die",
     "de_plural": "die Hängebrücken",
-    "lv": "vantinis tiltas",
+    "lv": "kabamasis tiltas",
     "level": "B2"
   },
   {
     "de": "Hängsel",
     "de_article": "das",
     "de_plural": "die Hängsel",
-    "lv": "prisiūta drabužių kabykla (kilpa)",
+    "lv": "pakabinimo kilpa",
     "level": "B2"
   },
   {
     "de": "hänseln",
-    "lv": "juokauti/dūkti • erzinti",
+    "lv": "erzinti • pašiepti",
     "level": "B2"
   },
   {
@@ -6992,59 +15592,66 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "kepurėlė • gaubtas",
       "explanation": [
-        "Pagrindinė mintis: die Haube gali reikšti galvos kepurėlę/gobtuvą arba gaubtą/dangtį — reikšmę nusako kontekstas.",
-        "Ant galvos: die Haube = kepurėlė, gobtuvas arba galvos apdangalas konkrečiame kontekste (z. B. Nonne mit Haube).",
-        "Prie automobilio: die Motorhaube arba einfach die Haube = variklio gaubtas.",
-        "Virtuvėje: die Dunsthaube = gartraukis virš viryklės. Technikoje: gaubtas arba dangtis virš įrenginio."
+        "Pagrindinė mintis: die Haube – moteriškosios giminės daiktavardis, daugiskaita die Hauben. Pirmoji reikšmė – kepurėlė, dengianti galvą (sena moteriška kepurėlė, vienuolės galvos apdangalas). Antroji – gaubtas, dengiantis prietaisą: Motorhaube (automobilio variklio dangtis), Dunsthaube (garų gaubtas virš viryklės).",
+        "Idioma unter die Haube kommen šnekamojoje kalboje reiškia ištekėti, susituokti."
       ],
       "examples": [
         {
-          "de": "Sie trägt eine warme Haube.",
-          "lv": "ji nešioja šiltą kepurėlę."
-        },
-        {
-          "de": "Die Nonne trägt eine schwarze Haube.",
-          "lv": "vienuolė nešioja juodą gobtuvą."
+          "de": "Die Großmutter trug eine weiße Haube.",
+          "lv": "Močiutė dėvėjo baltą kepurėlę."
         },
         {
           "de": "Er öffnet die Haube des Autos.",
-          "lv": "jis atidaro automobilio variklio gaubtą."
-        },
-        {
-          "de": "Die Motorhaube ist kaputt.",
-          "lv": "variklio gaubtas sulaužytas."
+          "lv": "Jis atidaro automobilio variklio dangtį."
         },
         {
           "de": "Über dem Herd hängt eine Dunsthaube.",
-          "lv": "virš viryklės pritvirtintas gartraukis."
+          "lv": "Virš viryklės kabo garų gaubtas."
         },
         {
-          "de": "Setz den Deckel als Haube auf den Topf.",
-          "lv": "uždėk dangtį kaip gaubtą ant puodo."
+          "de": "Meine Tante ist endlich unter die Haube gekommen.",
+          "lv": "Mano teta pagaliau ištekėjo."
+        },
+        {
+          "de": "Beim Friseur saß sie unter der Haube.",
+          "lv": "Kirpykloje ji sėdėjo po plaukų džiovinimo gaubtu."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "die Mütze",
+          "meaning": "kepurė",
+          "example": "Im Winter trage ich eine Mütze. – Žiemą dėviu kepurę."
+        },
+        {
+          "word": "der Deckel",
+          "meaning": "dangtis",
+          "example": "Der Deckel passt nicht auf den Topf. – Dangtis netinka puodui."
+        },
+        {
+          "word": "die Abdeckung",
+          "meaning": "uždangalas, gaubtas",
+          "example": "Die Abdeckung schützt das Gerät. – Uždangalas saugo prietaisą."
         }
       ],
       "tip": [
-        "Kalbama apie galvą, vienuolę, kepurę → kepurėlė / gobtuvas.",
-        "Kalbama apie automobilį, variklį → variklio gaubtas.",
-        "Kalbama apie viryklę, įrenginį → gartraukis arba gaubtas."
+        "Kalbant apie automobilį, Haube paprastai yra priekinis variklio dangtis: die Motorhaube.",
+        "Sudurtiniuose žodžiuose daiktavardis Haube suteikia gaubto reikšmę: Dunsthaube, Motorhaube."
       ],
       "important": [
-        "die Haube = kepurėlė/gobtuvas ARBA variklio gaubtas ARBA gartraukis/gaubtas — atsižvelgiant į kontekstą.",
-        "Sudurtiniai žodžiai padeda: Motorhaube (automobilis), Dunsthaube (virtuvė)."
+        "Haube nėra kasdienė kepurė; žieminei kepurei sakoma Mütze.",
+        "Posakis unter die Haube kommen – šnekamosios kalbos ir kiek juokingas."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "die Haube"
+            "Haube",
+            "Hauben",
+            "Dunsthaube"
           ],
           "purple": [
-            "Kepurėlė",
-            "gaubtas",
-            "variklio"
-          ],
-          "green": [
-            "Motorhaube",
-            "Dunsthaube"
+            "kepurėlė",
+            "gaubtas"
           ]
         },
         "examples": [
@@ -7056,7 +15663,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Kepurėlę"
+                "kepurėlę"
               ]
             }
           },
@@ -7068,26 +15675,14 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "gobtuvą"
+                "dangtį"
               ]
             }
           },
           {
             "de": {
-              "green": [
-                "Haube"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "gaubtą"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "Motorhaube"
+              "blue": [
+                "Dunsthaube"
               ]
             },
             "lv": {
@@ -7098,13 +15693,13 @@ const B2_WORDS = [
           },
           {
             "de": {
-              "green": [
-                "Dunsthaube"
+              "blue": [
+                "Haube"
               ]
             },
             "lv": {
               "purple": [
-                "gartraukis"
+                "ištekėjo"
               ]
             }
           },
@@ -7116,9 +15711,75 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "gaubtą"
+                "gaubtu"
               ]
             }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "Mütze"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "kepurė"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "Deckel"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "dangtis"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "Abdeckung"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "uždangalas"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "Haube"
+            ]
+          },
+          {
+            "blue": [
+              "Haube",
+              "Dunsthaube"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "Haube"
+            ],
+            "green": [
+              "Mütze"
+            ]
+          },
+          {
+            "blue": [
+              "Haube"
+            ]
           }
         ]
       }
@@ -7135,13 +15796,13 @@ const B2_WORDS = [
     "de": "Hausherr",
     "de_article": "der",
     "de_plural": "die Hausherren",
-    "lv": "šeimos galva • namų tėvas",
+    "lv": "šeimininkas • šeimos galva",
     "level": "B2"
   },
   {
     "de": "Hausrat",
     "de_article": "der",
-    "lv": "susikaupęs turtas",
+    "lv": "namų apyvokos daiktai",
     "level": "B2"
   },
   {
@@ -7159,21 +15820,21 @@ const B2_WORDS = [
   },
   {
     "de": "hauteng",
-    "lv": "prigludę drabužiai",
+    "lv": "prigludęs • aptemptas",
     "level": "B2"
   },
   {
     "de": "Heck",
     "de_article": "das",
     "de_plural": "die Hecke",
-    "lv": "laivo laivagalys",
+    "lv": "laivagalis",
     "level": "B2"
   },
   {
     "de": "Heckklappe",
     "de_article": "die",
     "de_plural": "die Heckklappen",
-    "lv": "automobilio bagažinės dangtis (galinės durys)",
+    "lv": "automobilio bagažinės dangtis",
     "level": "B2"
   },
   {
@@ -7214,7 +15875,7 @@ const B2_WORDS = [
     "de": "Heilpraktiker",
     "de_article": "der",
     "de_plural": "die Heilpraktiker",
-    "lv": "gydytojas",
+    "lv": "gydūnas • liaudies gydytojas",
     "level": "B2"
   },
   {
@@ -7225,7 +15886,7 @@ const B2_WORDS = [
   {
     "de": "Heimkehr",
     "de_article": "die",
-    "lv": "sugrįžimas namo • į tėvynę",
+    "lv": "sugrįžimas namo • sugrįžimas į tėvynę",
     "level": "B2"
   },
   {
@@ -7270,7 +15931,7 @@ const B2_WORDS = [
   },
   {
     "de": "henken",
-    "lv": "kabinti (daiktą) • pakarti žmogų",
+    "lv": "karti • pakarti",
     "level": "B2"
   },
   {
@@ -7295,25 +15956,197 @@ const B2_WORDS = [
   },
   {
     "de": "sich herausbilden",
-    "lv": "išsivystyti į / tapti",
+    "lv": "susiformuoti • išsivystyti",
     "level": "B2",
     "study": {
       "id": "b2-sich-herausbilden",
-      "layout": "minimalStudy",
-      "translation": "išsivystyti į / tapti",
-      "rektion": "zu + kam?",
-      "explanation": "sich herausbilden reikalauja nustatyto prielinksnio zu + kam?.",
-      "forms": "zu + kam?",
-      "formsLabel": "Valdymas:",
+      "layout": "standardStudy",
+      "translation": "susiformuoti • išsivystyti",
+      "explanation": [
+        "Pagrindinė mintis: sich herausbilden reiškia pamažu susiformuoti, išsikristalizuoti iš kažko ankstesnio – apie stilių, įprotį, vaidmenis, miestą. Su zu + naudininkas nurodoma, kuo kas nors susiformuoja.",
+        "Skiriamasis priešdėlis heraus-: bildet sich heraus, bildete sich heraus, hat sich herausgebildet. Procesas laipsniškas, todėl veiksnys dažnai yra abstraktus žodis."
+      ],
+      "examples": [
+        {
+          "de": "Aus dem kleinen Dorf bildete sich eine große Stadt heraus.",
+          "lv": "Iš mažo kaimo išaugo didelis miestas."
+        },
+        {
+          "de": "Mit der Zeit hat sich ein neuer Stil herausgebildet.",
+          "lv": "Ilgainiui susiformavo naujas stilius."
+        },
+        {
+          "de": "Der Junge hat sich zu einem guten Musiker herausgebildet.",
+          "lv": "Berniukas išaugo į gerą muzikantą."
+        },
+        {
+          "de": "In der Gruppe bildeten sich schnell feste Rollen heraus.",
+          "lv": "Grupėje greitai susiformavo aiškūs vaidmenys."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich entwickeln",
+          "meaning": "vystytis",
+          "example": "Das Kind entwickelt sich gut. – Vaikas gerai vystosi."
+        },
+        {
+          "word": "entstehen",
+          "meaning": "atsirasti, kilti",
+          "example": "Hier entstand eine neue Siedlung. – Čia atsirado nauja gyvenvietė."
+        },
+        {
+          "word": "bilden",
+          "meaning": "sudaryti, formuoti",
+          "example": "Wir bilden eine Gruppe. – Mes sudarome grupę."
+        }
+      ],
+      "tip": [
+        "Įsidėmėk atskyrimą: Es bildet sich heraus, o Es hat sich herausgebildet.",
+        "Dažna pora: sich zu etwas herausbilden."
+      ],
+      "important": [
+        "sich herausbilden reiškia laipsnišką procesą, o ne vienkartinį įvykį.",
+        "Nepainiok su bilden (sudaryti, formuoti): tai galininkinis veiksmažodis."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich herausbilden"
+            "herausbilden",
+            "bildet sich heraus",
+            "bildete sich heraus",
+            "hat sich herausgebildet",
+            "heraus-",
+            "sich herausbilden",
+            "bildete",
+            "heraus",
+            "herausgebildet",
+            "bildet"
           ],
-          "red": [
-            "zu + kam?"
+          "purple": [
+            "susiformuoti",
+            "išsikristalizuoti"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "bildete",
+                "heraus"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "išaugo"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "herausgebildet"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "susiformavo"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "herausgebildet"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "išaugo"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bildeten",
+                "heraus"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "susiformavo"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich entwickeln"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "vystytis"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "entstehen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "atsirasti"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "bilden"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "sudaryti"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "bildet sich heraus",
+              "hat sich herausgebildet",
+              "heraus",
+              "herausgebildet",
+              "bildet"
+            ]
+          },
+          {
+            "blue": [
+              "herausbilden"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "sich herausbilden",
+              "herausbilden"
+            ]
+          },
+          {
+            "green": [
+              "bilden"
+            ]
+          }
+        ]
       }
     }
   },
@@ -7328,21 +16161,175 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-heraushalten",
-      "layout": "minimalStudy",
+      "layout": "standardStudy",
       "translation": "laikytis atokiau nuo",
-      "rektion": "aus + kam?",
-      "explanation": "sich heraushalten reikalauja nustatyto prielinksnio aus + kam?.",
-      "forms": "aus + kam?",
-      "formsLabel": "Valdymas:",
+      "explanation": [
+        "Pagrindinė mintis: sich heraushalten reiškia nesikišti, nedalyvauti konflikte ar reikale, laikytis atokiau. Su aus + naudininkas įvardijama tai, nuo ko laikomasi atokiau: sich aus dem Streit heraushalten.",
+        "Skiriamasis priešdėlis heraus-: hält sich heraus, hielt sich heraus, hat sich herausgehalten. Liepiamoji nuosaka: Halt dich da heraus! Be sich heraushalten yra galininkinis: jemanden aus etwas heraushalten – neįtraukti ko nors į ką nors."
+      ],
+      "examples": [
+        {
+          "de": "Halt dich aus dem Streit heraus!",
+          "lv": "Nesikišk į ginčą!"
+        },
+        {
+          "de": "Ich halte mich aus der Politik heraus.",
+          "lv": "Aš laikausi atokiau nuo politikos."
+        },
+        {
+          "de": "Er hat sich aus allem herausgehalten.",
+          "lv": "Jis laikėsi atokiau nuo visko."
+        },
+        {
+          "de": "Die Eltern wollten sich aus der Entscheidung heraushalten.",
+          "lv": "Tėvai norėjo nesikišti į sprendimą."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich einmischen",
+          "meaning": "kištis",
+          "example": "Misch dich nicht ein! – Nesikišk!"
+        },
+        {
+          "word": "sich zurückhalten",
+          "meaning": "susilaikyti, laikytis santūriai",
+          "example": "Bei Diskussionen halte ich mich zurück. – Diskusijose aš laikausi santūriai."
+        },
+        {
+          "word": "heraushalten",
+          "meaning": "neįtraukti",
+          "example": "Halt die Kinder aus dem Streit heraus. – Neįtrauk vaikų į ginčą."
+        }
+      ],
+      "tip": [
+        "Liepiant vartojama: Halt dich da heraus! – nesikišk!",
+        "Paprastai eina aus + naudininkas: aus dem Konflikt, aus meinen Angelegenheiten."
+      ],
+      "important": [
+        "Po aus daiktavardis yra naudininke: aus dem Streit.",
+        "Priešingos reikšmės žodis – sich einmischen (kištis)."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
+            "heraushalten",
+            "hält",
+            "hielt",
+            "herausgehalten",
+            "Halt",
             "sich heraushalten"
           ],
-          "red": [
-            "aus + kam?"
+          "purple": [
+            "nesikišti",
+            "laikytis",
+            "neįtraukti"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Halt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Nesikišk"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "halte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "laikausi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "herausgehalten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "laikėsi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "heraushalten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nesikišti"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich einmischen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "kištis"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich zurückhalten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "susilaikyti"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "heraushalten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "neįtraukti"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "Halt"
+            ]
+          },
+          {}
+        ],
+        "important": [
+          {},
+          {
+            "green": [
+              "sich einmischen"
+            ]
+          }
+        ]
       }
     }
   },
@@ -7357,27 +16344,189 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-herausstellen",
-      "layout": "minimalStudy",
+      "layout": "standardStudy",
       "translation": "pasirodyti esant",
-      "rektion": "als + kas?",
-      "explanation": "sich herausstellen reikalauja nustatyto prielinksnio als + kas?.",
-      "forms": "als + kas?",
-      "formsLabel": "Valdymas:",
+      "explanation": [
+        "Pagrindinė mintis: sich herausstellen reiškia pasirodyti, paaiškėti – tapti aišku, koks žmogus ar kas iš tikrųjų yra. Su als + vardininkas: Er stellte sich als Betrüger heraus. Tipiška frazė – Es stellte sich heraus, dass …",
+        "Skiriamasis priešdėlis heraus-: stellt sich heraus, stellte sich heraus, hat sich herausgestellt. Veiksnys paprastai yra daiktas ar informacija, bet gali būti ir žmogus."
+      ],
+      "examples": [
+        {
+          "de": "Es stellte sich heraus, dass er recht hatte.",
+          "lv": "Paaiškėjo, kad jis buvo teisus."
+        },
+        {
+          "de": "Der Verdacht stellte sich als falsch heraus.",
+          "lv": "Įtarimas pasirodė esąs nepagrįstas."
+        },
+        {
+          "de": "Das Projekt hat sich als großer Erfolg herausgestellt.",
+          "lv": "Projektas pasirodė esąs didelė sėkmė."
+        },
+        {
+          "de": "Wer der Täter ist, wird sich bald herausstellen.",
+          "lv": "Netrukus paaiškės, kas yra kaltininkas."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich erweisen",
+          "meaning": "pasirodyti esant",
+          "example": "Die Methode erwies sich als nützlich. – Metodas pasirodė esąs naudingas."
+        },
+        {
+          "word": "sich zeigen",
+          "meaning": "paaiškėti, pasirodyti",
+          "example": "Es zeigte sich, dass er müde war. – Paaiškėjo, kad jis buvo pavargęs."
+        },
+        {
+          "word": "herausfinden",
+          "meaning": "išsiaiškinti",
+          "example": "Ich finde das heraus. – Aš tai išsiaiškinsiu."
+        }
+      ],
+      "tip": [
+        "Sakinio pradžioje patogu vartoti Es stellte sich heraus, dass … – paaiškėjo, kad …",
+        "Su als įvardijamas rezultatas: sich als falsch herausstellen."
+      ],
+      "important": [
+        "Priešdėlis heraus- atsiskiria: Es stellt sich heraus, o ne es herausstellt sich.",
+        "Nepainiok su herausstellen be sich (išryškinti, išstatyti): etwas herausstellen."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich herausstellen"
+            "herausstellen",
+            "sich herausstellen",
+            "stellte",
+            "heraus",
+            "herausgestellt"
           ],
-          "red": [
-            "als + kas?"
+          "purple": [
+            "pasirodyti"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "stellte",
+                "heraus"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Paaiškėjo"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "stellte",
+                "heraus"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pasirodė"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "herausgestellt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pasirodė"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "herausstellen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "paaiškės"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "erweisen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "pasirodyti"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "zeigen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "paaiškėti"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "herausfinden"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "išsiaiškinti"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "stellte",
+              "heraus"
+            ]
+          },
+          {
+            "blue": [
+              "herausstellen"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "heraus"
+            ]
+          },
+          {
+            "blue": [
+              "herausstellen"
+            ]
+          }
+        ]
       }
     }
   },
   {
     "de": "herb",
-    "lv": "kartokas • sūrus • rūgštus",
+    "lv": "kartokas • aitrus • rūgštus",
     "level": "B2"
   },
   {
@@ -7392,7 +16541,7 @@ const B2_WORDS = [
   },
   {
     "de": "hervorrufen",
-    "lv": "iššaukti • sukelti • sukurti • žadinti",
+    "lv": "sukelti • sukurti • žadinti",
     "level": "B2"
   },
   {
@@ -7401,21 +16550,185 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-hervortun",
-      "layout": "minimalStudy",
+      "layout": "standardStudy",
       "translation": "išsiskirti",
-      "rektion": "in + kur?",
-      "explanation": "sich hervortun reikalauja nustatyto prielinksnio in + kur?.",
-      "forms": "in + kur?",
-      "formsLabel": "Valdymas:",
+      "explanation": [
+        "Pagrindinė mintis: sich hervortun reiškia išsiskirti iš kitų gebėjimais, pasiekimais ar savybe. Pasiekimų sritis nurodoma su in + naudininkas, savybė – su durch + galininkas, vaidmuo – su als.",
+        "Skiriamasis priešdėlis hervor-: tut sich hervor, tat sich hervor, hat sich hervorgetan. Kalba kiek formali, dažnai vartojama aprašant laimėjimus.",
+        "Kartais gali reikšti ir pastangas išsiskirti ir kristi į akis, kad sulauktum dėmesio."
+      ],
+      "examples": [
+        {
+          "de": "Sie hat sich im Sport besonders hervorgetan.",
+          "lv": "Ji ypač išsiskyrė sporte."
+        },
+        {
+          "de": "Er tut sich durch Fleiß hervor.",
+          "lv": "Jis išsiskiria darbštumu."
+        },
+        {
+          "de": "Im Krieg tat sich der General als mutiger Anführer hervor.",
+          "lv": "Kare generolas pasižymėjo kaip drąsus vadas."
+        },
+        {
+          "de": "Wer sich hervortut, bekommt oft viel Aufmerksamkeit.",
+          "lv": "Kas išsiskiria, dažnai sulaukia daug dėmesio."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich auszeichnen",
+          "meaning": "pasižymėti, išsiskirti",
+          "example": "Er zeichnet sich durch Ehrlichkeit aus. – Jis pasižymi sąžiningumu."
+        },
+        {
+          "word": "hervorheben",
+          "meaning": "pabrėžti",
+          "example": "Der Lehrer hebt die Fehler hervor. – Mokytojas pabrėžia klaidas."
+        },
+        {
+          "word": "auffallen",
+          "meaning": "kristi į akis",
+          "example": "Sie fällt in der Menge auf. – Ji minioje krinta į akis."
+        }
+      ],
+      "tip": [
+        "Pasiekimų sritį nurodyk su in + naudininkas: sich in Mathe hervortun.",
+        "Jei nori įvardyti savybę, dėl kurios kas nors išsiskiria, vartok durch: sich durch Mut hervortun."
+      ],
+      "important": [
+        "sich hervortun – skiriamasis: Er tut sich hervor, o Er hat sich hervorgetan.",
+        "Nepainiok su hervorheben (pabrėžti, išryškinti ką nors): tai galininkinis ir nesangrąžinis veiksmažodis."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich hervortun"
+            "hervortun",
+            "tut sich hervor",
+            "hervorgetan",
+            "sich hervortun",
+            "hervor"
           ],
-          "red": [
-            "in + kur?"
+          "purple": [
+            "išsiskirti"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "hervorgetan"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "išsiskyrė"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hervor"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "išsiskiria"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hervor"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pasižymėjo"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hervortut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "išsiskiria"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich auszeichnen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "pasižymėti"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "hervorheben"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "pabrėžti"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "auffallen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "kristi"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "hervortun"
+            ]
+          },
+          {
+            "blue": [
+              "hervortun"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "sich hervortun",
+              "hervortun",
+              "tut sich hervor",
+              "hervorgetan",
+              "hervor"
+            ]
+          },
+          {
+            "green": [
+              "hervorheben"
+            ]
+          }
+        ]
       }
     }
   },
@@ -7435,7 +16748,7 @@ const B2_WORDS = [
   {
     "de": "Herzversagen",
     "de_article": "das",
-    "lv": "širdies sustojimas • nepakankamumas",
+    "lv": "širdies sustojimas • širdies nepakankamumas",
     "level": "B2"
   },
   {
@@ -7447,8 +16760,208 @@ const B2_WORDS = [
   },
   {
     "de": "hetzen",
-    "lv": "pjudyti • kurstyti • persekioti • varyti",
-    "level": "B2"
+    "lv": "pjudyti • kurstyti • persekioti",
+    "level": "B2",
+    "study": {
+      "id": "b2-hetzen",
+      "layout": "standardStudy",
+      "translation": "pjudyti • kurstyti • persekioti",
+      "explanation": [
+        "Pagrindinė mintis: hetzen – kelių reikšmių veiksmažodis. Jis reiškia pjudyti šunimis ką nors, persekioti ir vaikyti žvėrį; perkeltine reikšme – kurstyti neapykantą (gegen jemanden hetzen). Be papildinio su sein jis gali reikšti ir skubėti, lėkti: durch die Stadt hetzen.",
+        "Formos: hetzt, hetzte, hat gehetzt (galininkinis) arba ist gehetzt (judėjimo reikšme). Dažni vediniai: aufhetzen (sukurstyti), die Hetze (kurstymas; skuba).",
+        "Šnekamojoje kalboje Hetz mich nicht! reiškia neskubink manęs!"
+      ],
+      "examples": [
+        {
+          "de": "Der Jäger hetzt die Hunde auf den Hirsch.",
+          "lv": "Medžiotojas pjudo šunis ant elnio."
+        },
+        {
+          "de": "Er hetzt gegen Ausländer.",
+          "lv": "Jis kursto neapykantą užsieniečiams."
+        },
+        {
+          "de": "Die Hunde hetzten den Hasen über das Feld.",
+          "lv": "Šunys persekiojo ir vaikė kiškį per lauką."
+        },
+        {
+          "de": "Ich bin den ganzen Tag durch die Stadt gehetzt.",
+          "lv": "Visą dieną lakstiau po miestą."
+        },
+        {
+          "de": "Hetz mich nicht!",
+          "lv": "Neskubink manęs!"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "jagen",
+          "meaning": "medžioti",
+          "example": "Der Jäger jagt Rehe. – Medžiotojas medžioja stirnas."
+        },
+        {
+          "word": "aufhetzen",
+          "meaning": "sukurstyti",
+          "example": "Er hetzt die Menge auf. – Jis sukursto minią."
+        },
+        {
+          "word": "eilen",
+          "meaning": "skubėti",
+          "example": "Ich eile zum Bahnhof. – Skubu į stotį."
+        }
+      ],
+      "tip": [
+        "Politiniame kontekste hetzen gegen + galininkas reiškia kurstyti neapykantą kam nors.",
+        "Medžioklės kontekste dažnai: Hunde hetzen den Hasen."
+      ],
+      "important": [
+        "Žodis hetzen dažnai neigiamas: kurstymas arba nemalonus skubėjimas.",
+        "Judėjimo reikšme perfektas sudaromas su sein (ist gehetzt), kitais atvejais – su haben."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "hetzen",
+            "hetzt",
+            "gehetzt",
+            "Hetz"
+          ],
+          "purple": [
+            "pjudyti",
+            "kurstyti",
+            "persekioti",
+            "vaikyti"
+          ],
+          "green": [
+            "aufhetzen"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "hetzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pjudo"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hetzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kursto"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hetzten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "persekiojo"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "gehetzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "lakstiau"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Hetz"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Neskubink"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "jagen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "medžioti"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "aufhetzen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "sukurstyti"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "eilen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "skubėti"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "hetzen"
+            ]
+          },
+          {
+            "blue": [
+              "hetzen"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "hetzen"
+            ]
+          },
+          {
+            "blue": [
+              "gehetzt"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "heucheln",
@@ -7463,7 +16976,7 @@ const B2_WORDS = [
   },
   {
     "de": "hierdurch",
-    "lv": "su tuo • su šiuo",
+    "lv": "tuo • šiuo būdu",
     "level": "B2"
   },
   {
@@ -7482,7 +16995,7 @@ const B2_WORDS = [
   },
   {
     "de": "hingeben",
-    "lv": "atiduoti • paskolinti",
+    "lv": "atiduoti • paaukoti",
     "level": "B2"
   },
   {
@@ -7491,21 +17004,188 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-hingeben",
-      "layout": "minimalStudy",
+      "layout": "standardStudy",
       "translation": "atsiduoti • pasišvęsti",
-      "rektion": "+ kam?",
-      "explanation": "sich hingeben reikalauja + kam?.",
-      "forms": "+ kam?",
-      "formsLabel": "Valdymas:",
+      "explanation": [
+        "Pagrindinė mintis: sich hingeben reiškia visiškai atsiduoti kam nors – muzikai, svajonėms, malonumui, sielvartui ar jausmams. Po jo eina naudininkas: sich der Musik hingeben, sich seinen Träumen hingeben.",
+        "Skiriamasis priešdėlis hin-: gibt sich hin, gab sich hin, hat sich hingegeben. Be sich etwas hingeben reiškia ką nors paaukoti, atiduoti: sein Leben hingeben."
+      ],
+      "examples": [
+        {
+          "de": "Sie gab sich ganz der Musik hin.",
+          "lv": "Ji visiškai atsidavė muzikai."
+        },
+        {
+          "de": "Er gibt sich seinen Träumen hin.",
+          "lv": "Jis pasineria į savo svajones."
+        },
+        {
+          "de": "Wir haben uns dem Genuss hingegeben.",
+          "lv": "Mes atsidavėme malonumui."
+        },
+        {
+          "de": "Gib dich keinen falschen Hoffnungen hin!",
+          "lv": "Nepasiduok tuščioms viltims!"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich widmen",
+          "meaning": "pasišvęsti, skirti save",
+          "example": "Er widmet sich der Forschung. – Jis pasišvenčia moksliniams tyrimams."
+        },
+        {
+          "word": "sich überlassen",
+          "meaning": "atsiduoti, pasiduoti",
+          "example": "Er überlässt sich seinen Gedanken. – Jis pasiduoda savo mintims."
+        },
+        {
+          "word": "sich ergeben",
+          "meaning": "pasiduoti",
+          "example": "Der Soldat ergibt sich. – Kareivis pasiduoda."
+        }
+      ],
+      "tip": [
+        "Po sich hingeben dėk naudininką: der Arbeit, dem Schmerz, den Erinnerungen.",
+        "Įsidėmėk atskyrimą: Sie gibt sich hin, o Sie hat sich hingegeben."
+      ],
+      "important": [
+        "sich hingeben dažnai reiškia visišką pasinėrimą ir skamba pakiliai.",
+        "Nepainiok su sich ergeben (pasiduoti, išplaukti): tai kitas veiksmažodis."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
+            "hingeben",
+            "hingegeben",
+            "gab",
+            "gibt",
+            "hin",
             "sich hingeben"
           ],
-          "red": [
-            "+ kam?"
+          "purple": [
+            "atsiduoti"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "gab",
+                "hin"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "atsidavė"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "gibt",
+                "hin"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pasineria"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hingegeben"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "atsidavėme"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Gib",
+                "hin"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Nepasiduok"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich widmen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "pasišvęsti"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich überlassen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "atsiduoti"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich ergeben"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "pasiduoti"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "sich hingeben",
+              "hingeben"
+            ]
+          },
+          {
+            "blue": [
+              "hingegeben",
+              "gibt",
+              "hin"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "sich hingeben",
+              "hingeben"
+            ]
+          },
+          {
+            "green": [
+              "sich ergeben"
+            ]
+          }
+        ]
       }
     }
   },
@@ -7518,8 +17198,187 @@ const B2_WORDS = [
     "de": "Hinsicht",
     "de_article": "die",
     "de_plural": "die Hinsichten",
-    "lv": "žinia",
-    "level": "B2"
+    "lv": "atžvilgis • požiūris",
+    "level": "B2",
+    "study": {
+      "id": "b2-hinsicht",
+      "layout": "standardStudy",
+      "translation": "atžvilgis • požiūris",
+      "explanation": [
+        "Pagrindinė mintis: die Hinsicht – moteriškosios giminės daiktavardis, reiškiantis aspektą, požiūrį, kuriuo atžvilgiu kas nors galioja. Lietuviškai jį dažniausiai atitinka „atžvilgiu“ arba „požiūriu“ tokiuose junginiuose kaip šiuo atžvilgiu, tam tikru požiūriu.",
+        "Paprastai vartojamas prielinksniniuose junginiuose: in dieser Hinsicht (šiuo atžvilgiu), in gewisser Hinsicht (tam tikru požiūriu), in jeder Hinsicht (visais atžvilgiais). Daugiskaita die Hinsichten reta. Formaliai sakoma ir in Hinsicht auf + galininkas (dėl, kalbant apie) arba hinsichtlich + kilmininkas."
+      ],
+      "examples": [
+        {
+          "de": "In dieser Hinsicht hast du recht.",
+          "lv": "Šiuo atžvilgiu tu teisus."
+        },
+        {
+          "de": "In gewisser Hinsicht ist das ein Vorteil.",
+          "lv": "Tam tikru požiūriu tai privalumas."
+        },
+        {
+          "de": "Das Hotel war in jeder Hinsicht perfekt.",
+          "lv": "Viešbutis buvo puikus visais atžvilgiais."
+        },
+        {
+          "de": "In Hinsicht auf die Kosten gibt es noch Fragen.",
+          "lv": "Dėl išlaidų dar yra klausimų."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "die Nachricht",
+          "meaning": "žinia (naujiena)",
+          "example": "Ich habe eine Nachricht bekommen. – Gavau žinią."
+        },
+        {
+          "word": "der Bezug",
+          "meaning": "sąsaja, ryšys",
+          "example": "In Bezug auf den Termin gibt es Fragen. – Dėl termino yra klausimų."
+        },
+        {
+          "word": "die Rücksicht",
+          "meaning": "atsižvelgimas",
+          "example": "Er nimmt Rücksicht auf andere. – Jis atsižvelgia į kitus."
+        }
+      ],
+      "tip": [
+        "Įsidėmėk kaip paruoštą frazę: in dieser Hinsicht, in jeder Hinsicht.",
+        "Po in šiuose junginiuose eina naudininkas: in dieser Hinsicht, in jeder Hinsicht."
+      ],
+      "important": [
+        "Hinsicht nereiškia žinios ar informacijos – tai Nachricht arba Information.",
+        "Po hinsichtlich (dėl, kalbant apie) eina kilmininkas: hinsichtlich der Kosten."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Hinsicht",
+            "Hinsichten",
+            "hinsichtlich"
+          ],
+          "purple": [
+            "atžvilgiu"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Hinsicht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "atžvilgiu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Hinsicht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "požiūriu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Hinsicht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "atžvilgiais"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Hinsicht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Dėl"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "Nachricht"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "žinia"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "Bezug"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "sąsaja"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "Rücksicht"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "atsižvelgimas"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "Hinsicht"
+            ]
+          },
+          {
+            "blue": [
+              "Hinsicht"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "Hinsicht"
+            ],
+            "green": [
+              "Nachricht"
+            ]
+          },
+          {
+            "blue": [
+              "hinsichtlich"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "hinsichtlich",
@@ -7535,7 +17394,7 @@ const B2_WORDS = [
     "de": "Hinterhalt",
     "de_article": "der",
     "de_plural": "die Hinterhalte",
-    "lv": "slaptavietė",
+    "lv": "pasala",
     "level": "B2"
   },
   {
@@ -7578,7 +17437,7 @@ const B2_WORDS = [
   },
   {
     "de": "hitzig",
-    "lv": "karštas • degantis • staigus • greitai užsidegantis piktumu",
+    "lv": "karštas • aistringas • ūmus",
     "level": "B2"
   },
   {
@@ -7592,80 +17451,94 @@ const B2_WORDS = [
     "de": "HIV",
     "de_article": "das",
     "de_plural": "die HIV",
-    "lv": "HIV (žmogaus imunodeficito virusas)",
+    "lv": "ŽIV • žmogaus imunodeficito virusas",
     "level": "B2"
   },
   {
     "de": "HIV-negativ",
-    "lv": "HIV neigiamas",
+    "lv": "ŽIV neigiamas",
     "level": "B2"
   },
   {
     "de": "HIV-positiv",
-    "lv": "HIV teigiamas",
+    "lv": "ŽIV teigiamas",
     "level": "B2"
   },
   {
     "de": "Hobelbank",
     "de_article": "die",
     "de_plural": "die Hobelbänke",
-    "lv": "obliaus padas",
+    "lv": "darbastalis • staliaus darbastalis",
     "level": "B2"
   },
   {
     "de": "Hoch",
     "de_article": "das",
     "de_plural": "die Hochs",
-    "lv": "tostas “tegyvuoja!”",
+    "lv": "tostas • sveikinimas",
     "level": "B2",
     "study": {
       "id": "b2-hoch-study",
       "layout": "standardStudy",
-      "translation": "tostas “tegyvuoja!”",
+      "translation": "tostas • sveikinimas",
       "explanation": [
-        "Pagrindinė mintis: das Hoch didžiąja raide su artikeliu das yra daiktavardis — šventinis šūksnis / tostas (Ein Hoch auf...! = Tegyvuoja...!) arba orų pranešime — aukšto slėgio sritis.",
-        "hoch mažąja raide yra būdvardis — aukštas (der Berg ist hoch).",
-        "Frazė ein Hoch ausbringen reiškia pasakyti tostą.",
-        "Orų pranešime das Hoch reiškia anticikloną — aukšto atmosferos slėgio sritį (priešingybė: das Tief)."
+        "Pagrindinė mintis: das Hoch šia reikšme – pakeltas tostas, šūksnis „valio!“, sušunkamas kieno nors garbei: ein Hoch auf das Brautpaar ausbringen. Tai niekatrosios giminės daiktavardis, daugiskaita die Hochs.",
+        "Tas pats žodis meteorologijoje reiškia anticikloną, aukšto slėgio sritį, paprastai atnešančią giedrą orą: ein Hoch über Skandinavien. Perkeltine reikšme ein Hoch – ir geras, sėkmingas laikotarpis.",
+        "Būdvardis hoch (aukštas) – kitas žodis ir rašomas mažąja raide."
       ],
       "examples": [
         {
           "de": "Wir bringen ein Hoch auf das Brautpaar aus.",
-          "lv": "mes keliame tostą jaunavedžiams."
+          "lv": "Mes pakeliame tostą už jaunavedžius."
         },
         {
-          "de": "Ein Hoch auf dich!",
-          "lv": "tegyvuoji tu!"
+          "de": "Ein dreifaches Hoch auf den Jubilar!",
+          "lv": "Trigubas valio jubiliatui!"
         },
         {
-          "de": "Morgen kommt ein Hoch.",
-          "lv": "rytoj tikimasis anticiklono (aukšto slėgio)."
+          "de": "Morgen bringt ein Hoch sonniges Wetter.",
+          "lv": "Rytoj anticiklonas atneš saulėtus orus."
         },
         {
-          "de": "Der Berg ist sehr hoch.",
-          "lv": "kalnas yra labai aukštas."
+          "de": "Nach dem Tief folgt ein Hoch.",
+          "lv": "Po ciklono ateina anticiklonas."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "der Toast",
+          "meaning": "tostas",
+          "example": "Er hält einen Toast. – Jis sako tostą."
+        },
+        {
+          "word": "das Tief",
+          "meaning": "ciklonas",
+          "example": "Das Tief bringt Regen. – Ciklonas atneša lietų."
+        },
+        {
+          "word": "hoch",
+          "meaning": "aukštas",
+          "example": "Der Berg ist hoch. – Kalnas aukštas."
         }
       ],
       "tip": [
-        "das Hoch didžiąja raide — šventinis šūksnis arba anticiklonas orų pranešime.",
-        "hoch mažąja raide — aukštas (būdvardis)."
+        "Keldamas tostą, vartok junginį ein Hoch auf + galininkas: auf den Gastgeber.",
+        "Orų pranešimuose Hoch yra priešingybė Tief."
       ],
       "important": [
-        "das Hoch = tostas (\"tegyvuoja!\") ARBA anticiklonas (orų pranešimas) — daiktavardis.",
-        "hoch = aukštas — būdvardis, be artikelio.",
-        "Priešingybė orų pranešime: das Hoch ↔ das Tief."
+        "Daiktavardis das Hoch rašomas didžiąja raide, būdvardis hoch – mažąja.",
+        "Daugiskaita – die Hochs, o ne die Höchen."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "das Hoch"
+            "Hoch",
+            "hoch"
           ],
           "purple": [
             "tostas",
-            "tegyvuoja"
-          ],
-          "green": [
-            "hoch"
+            "anticikloną",
+            "valio"
           ]
         },
         "examples": [
@@ -7689,7 +17562,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "tegyvuoji"
+                "valio"
               ]
             }
           },
@@ -7701,17 +17574,55 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "anticiklono"
+                "anticiklonas"
               ]
             }
           },
           {
             "de": {
+              "blue": [
+                "Hoch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "anticiklonas"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "der Toast"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "tostas"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "das Tief"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ciklonas"
+              ]
+            }
+          },
+          {
+            "word": {
               "green": [
                 "hoch"
               ]
             },
-            "lv": {
+            "meaning": {
               "purple": [
                 "aukštas"
               ]
@@ -7721,31 +17632,28 @@ const B2_WORDS = [
         "tip": [
           {
             "blue": [
-              "das Hoch"
+              "Hoch",
+              "hoch"
             ]
           },
           {
-            "green": [
+            "blue": [
+              "Hoch",
               "hoch"
+            ],
+            "green": [
+              "Tief"
             ]
           }
         ],
         "important": [
           {
             "blue": [
-              "das Hoch"
-            ]
-          },
-          {
-            "green": [
+              "Hoch",
               "hoch"
             ]
           },
-          {
-            "blue": [
-              "das Tief"
-            ]
-          }
+          {}
         ]
       }
     }
@@ -7806,55 +17714,67 @@ const B2_WORDS = [
       "id": "b2-hochwasser",
       "layout": "standardStudy",
       "translation": "potvynis • aukštas vandens lygis",
-      "explanation": "Pagrindinė mintis: das Hochwasser reiškia potvynį arba labai didelį vandens lygį upėje, ežere ar jūroje. Daugiskaita: die Hochwasser. Dažnai vartojamas žiniasklaidoje ir įspėjimuose.",
+      "explanation": [
+        "Pagrindinė mintis: das Hochwasser – niekatrosios giminės daiktavardis. Jis reiškia labai aukštą vandens lygį upėje, jūroje ar ežere ir jo sukeliamą potvynį. Daugiskaita – die Hochwasser (taip pat Hochwässer).",
+        "Dažni posakiai: Hochwasser führen (upėje aukštas vandens lygis), vor Hochwasser warnen (įspėti apie potvynį), vom Hochwasser betroffen sein (nukentėti nuo potvynio). Priešingybė – das Niedrigwasser."
+      ],
       "examples": [
         {
           "de": "Nach dem Regen gibt es Hochwasser.",
-          "lv": "po lietaus kyla potvynis."
+          "lv": "Po lietaus prasideda potvynis."
         },
         {
-          "de": "Das Hochwasser bedroht die Stadt.",
-          "lv": "aukštas vandens lygis kelia grėsmę miestui."
+          "de": "Der Fluss führt Hochwasser.",
+          "lv": "Upėje aukštas vandens lygis."
         },
         {
           "de": "Die Behörden warnen vor Hochwasser.",
-          "lv": "įstaigos įspėja apie potvynį."
+          "lv": "Institucijos įspėja apie potvynį."
+        },
+        {
+          "de": "Das Hochwasser hat mehrere Dörfer erreicht.",
+          "lv": "Potvynis pasiekė kelis kaimus."
         }
       ],
       "comparison": [
         {
-          "word": "das Hochwasser",
-          "meaning": "potvynis • aukštas vandens lygis",
-          "example": "Es gibt Hochwasser. = Ir plūdi."
-        },
-        {
           "word": "die Überschwemmung",
-          "meaning": "potvynis (konkrečiai)",
-          "example": "Die Überschwemmung zerstörte Häuser. = Plūdi izpostīja mājas."
+          "meaning": "užtvindymas, potvynis",
+          "example": "Die Überschwemmung zerstörte die Ernte. – Užtvindymas sunaikino derlių."
         },
         {
-          "word": "der Pegel",
-          "meaning": "vandens lygis",
-          "example": "Der Pegel steigt. = Ūdens līmenis ceļas."
+          "word": "die Flut",
+          "meaning": "potvynis (jūroje)",
+          "example": "Die Flut kommt am Abend. – Potvynis ateina vakare."
+        },
+        {
+          "word": "das Niedrigwasser",
+          "meaning": "žemas vandens lygis",
+          "example": "Bei Niedrigwasser fahren weniger Schiffe. – Esant žemam vandens lygiui, plaukioja mažiau laivų."
         }
       ],
-      "tip": {
-        "leftBlocks": [
-          {
-            "text": "Hoch = aukštas, Wasser = vanduo. Hochwasser = aukštas vandens lygis, kuris dažnai reiškia potvynį."
-          }
-        ]
-      },
-      "important": {
-        "text": "das Hochwasser = potvynis arba aukštas vandens lygis. Daugiskaita: die Hochwasser."
-      },
+      "tip": [
+        "Įsidėmėk priešpriešą: Hochwasser – Niedrigwasser.",
+        "Žiniose dažnai išgirsi Hochwasserwarnung, Hochwasserschutz."
+      ],
+      "important": [
+        "Hochwasser – ne tas pats, kas Flut (jūros potvynis, priešingas atoslūgiui).",
+        "Daugiskaitoje artikelis yra die, bet žodis lieka nepakitęs: die Hochwasser."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "das Hochwasser"
+            "Hochwasser"
           ],
           "purple": [
-            "potvynį"
+            "potvynį",
+            "potvynio",
+            "aukštas vandens lygis",
+            "aukštą vandens lygį"
+          ],
+          "green": [
+            "das Niedrigwasser",
+            "Niedrigwasser"
           ]
         },
         "examples": [
@@ -7878,7 +17798,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Aukštas vandens lygis"
+                "aukštas vandens lygis"
               ]
             }
           },
@@ -7893,6 +17813,82 @@ const B2_WORDS = [
                 "potvynį"
               ]
             }
+          },
+          {
+            "de": {
+              "blue": [
+                "Hochwasser"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Potvynis"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "die Überschwemmung"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "užtvindymas"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Flut"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "potvynis"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "das Niedrigwasser"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "žemas"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "Hochwasser"
+            ],
+            "green": [
+              "Niedrigwasser"
+            ]
+          },
+          {}
+        ],
+        "important": [
+          {
+            "blue": [
+              "Hochwasser"
+            ],
+            "green": [
+              "Flut"
+            ]
+          },
+          {
+            "blue": [
+              "Hochwasser"
+            ]
           }
         ]
       }
@@ -7974,7 +17970,7 @@ const B2_WORDS = [
   },
   {
     "de": "in flagranti",
-    "lv": "pagauti • darant ką nors uždrausto",
+    "lv": "nusikaltimo vietoje",
     "level": "B2"
   },
   {
@@ -7991,7 +17987,7 @@ const B2_WORDS = [
   },
   {
     "de": "innewohnen",
-    "lv": "pasižymėti (turėti savybę)",
+    "lv": "būti būdingam",
     "level": "B2"
   },
   {
@@ -8010,12 +18006,12 @@ const B2_WORDS = [
     "de": "Investition",
     "de_article": "die",
     "de_plural": "die Investitionen",
-    "lv": "investicija • investavimas • kapitalo įdėjimas • investavimas",
+    "lv": "investicija • investavimas • kapitalo įdėjimas",
     "level": "B2"
   },
   {
     "de": "irrsinnig",
-    "lv": "beprotis • silpnaprotis",
+    "lv": "beprotiškas • pamišęs",
     "level": "B2"
   },
   {
@@ -8036,7 +18032,7 @@ const B2_WORDS = [
     "de": "Kapazität",
     "de_article": "die",
     "de_plural": "die Kapazitäten",
-    "lv": "gamybos galia • galia • tūris • talpa",
+    "lv": "gamybos pajėgumas • galia • talpa",
     "level": "B2"
   },
   {
@@ -8081,7 +18077,7 @@ const B2_WORDS = [
   {
     "de": "Kaufkraft",
     "de_article": "die",
-    "lv": "pinigų • taip pat asmens pirkimo galia",
+    "lv": "perkamoji galia",
     "level": "B2"
   },
   {
@@ -8184,7 +18180,7 @@ const B2_WORDS = [
     "de": "Konsequenz",
     "de_article": "die",
     "de_plural": "die Konsequenzen",
-    "lv": "nuoseklumas • seka • išvada • pasekmė",
+    "lv": "nuoseklumas • išvada • pasekmė",
     "level": "B2"
   },
   {
@@ -8233,7 +18229,7 @@ const B2_WORDS = [
   },
   {
     "de": "korrupt",
-    "lv": "korumpuotas (nupirktinas) • papirktinas",
+    "lv": "korumpuotas • paperkamas",
     "level": "B2"
   },
   {
@@ -8261,7 +18257,7 @@ const B2_WORDS = [
     "de": "Lähmung",
     "de_article": "die",
     "de_plural": "die Lähmungen",
-    "lv": "paralyžė",
+    "lv": "paralyžius",
     "level": "B2"
   },
   {
@@ -8322,7 +18318,7 @@ const B2_WORDS = [
     "de": "Landzunge",
     "de_article": "die",
     "de_plural": "die Landzungen",
-    "lv": "žemės ragas",
+    "lv": "kyšulys • nerija",
     "level": "B2"
   },
   {
@@ -8361,7 +18357,7 @@ const B2_WORDS = [
     "de": "Laufmasche",
     "de_article": "die",
     "de_plural": "die Laufmaschen",
-    "lv": "kojinei nuėjo akis",
+    "lv": "nubėgusi akis",
     "level": "B2"
   },
   {
@@ -8375,7 +18371,7 @@ const B2_WORDS = [
     "de": "Laufwerk",
     "de_article": "das",
     "de_plural": "die Laufwerke",
-    "lv": "variklis • motoras",
+    "lv": "diskasukis • mechanizmas",
     "level": "B2"
   },
   {
@@ -8439,7 +18435,7 @@ const B2_WORDS = [
     "de": "Leichtgewicht",
     "de_article": "das",
     "de_plural": "die Leichtgewichte",
-    "lv": "lengvas svoris",
+    "lv": "lengvasis svoris",
     "level": "B2"
   },
   {
@@ -8463,49 +18459,66 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "ilga ir sunki liga",
       "explanation": [
-        "Pagrindinė mintis: das Leiden didžiąja raide su artikeliu das yra daiktavardis — kančia, ilga/sunki liga.",
-        "leiden mažąja raide yra veiksmažodis — kentėti.",
-        "das Leiden dažnai vartojamas medicininiame arba literatūriniame kontekste (ein schweres Leiden = sunki liga).",
-        "Daugiskaita: die Leiden."
+        "Pagrindinė mintis: das Leiden – niekatrosios giminės daiktavardis, vartojamas dvejopai: kaip kančia (das Leiden der Menschen) ir kaip ilga, dažnai lėtinė liga (ein schweres Leiden). Daugiskaita – die Leiden.",
+        "Žodis yra veiksmažodžio leiden (kentėti) sudaiktavardėjimas. Tipiški junginiai: ein chronisches Leiden, ein altes Leiden, nach langem, schwerem Leiden (nekrologuose).",
+        "Palyginti su įprastu Krankheit, žodis Leiden pabrėžia ligos trukmę ir sunkumą."
       ],
       "examples": [
         {
           "de": "Er hat ein schweres Leiden.",
-          "lv": "jis turi sunkią ligą."
+          "lv": "Jis serga sunkia liga."
         },
         {
           "de": "Das Leiden der Patienten war groß.",
-          "lv": "paciento kančios buvo didelės."
+          "lv": "Pacientų kančios buvo didelės."
         },
         {
-          "de": "Er leidet an einer seltenen Krankheit.",
-          "lv": "jis kenčia nuo retos ligos."
+          "de": "Nach langem Leiden ist er gestorben.",
+          "lv": "Po ilgų kančių jis mirė."
         },
         {
-          "de": "Ihr Leiden dauerte Jahre.",
-          "lv": "jos liga tęsėsi metų metus."
+          "de": "Ein chronisches Leiden begleitet ihn seit Jahren.",
+          "lv": "Lėtinė liga jį lydi jau daugelį metų."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "die Krankheit",
+          "meaning": "liga",
+          "example": "Eine Krankheit kann ansteckend sein. – Liga gali būti užkrečiama."
+        },
+        {
+          "word": "der Schmerz",
+          "meaning": "skausmas",
+          "example": "Der Schmerz ist stark. – Skausmas stiprus."
+        },
+        {
+          "word": "leiden",
+          "meaning": "kentėti",
+          "example": "Er leidet an Asthma. – Jis serga astma."
         }
       ],
       "tip": [
-        "das Leiden didžiąja raide — daiktavardis (kančia, sunki liga).",
-        "leiden mažąja raide — veiksmažodis (kentėti)."
+        "Su veiksmažodžiu leiden sakyk: an einer Krankheit leiden (sirgti kokia nors liga).",
+        "Nekrologuose dažnai skaitysi: nach schwerem Leiden."
       ],
       "important": [
-        "das Leiden = kančia/sunki liga (daiktavardis).",
-        "leiden = kentėti (veiksmažodis).",
-        "Daugiskaita: die Leiden."
+        "Leiden – daiktavardis, rašomas didžiąja raide, o leiden – veiksmažodis, rašomas mažąja.",
+        "Kasdien apie trumpalaikę ligą sakoma Krankheit, o ne Leiden."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "das Leiden"
+            "Leiden"
           ],
           "purple": [
             "kančia",
-            "sunki liga"
+            "liga",
+            "ligos"
           ],
           "green": [
-            "leiden"
+            "leiden",
+            "Krankheit"
           ]
         },
         "examples": [
@@ -8517,7 +18530,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "ligą"
+                "liga"
               ]
             }
           },
@@ -8535,13 +18548,13 @@ const B2_WORDS = [
           },
           {
             "de": {
-              "green": [
-                "leidet"
+              "blue": [
+                "Leiden"
               ]
             },
             "lv": {
               "purple": [
-                "Kenčia"
+                "kančių"
               ]
             }
           },
@@ -8558,13 +18571,55 @@ const B2_WORDS = [
             }
           }
         ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "die Krankheit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "liga"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Schmerz"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "skausmas"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "leiden"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "kentėti"
+              ]
+            }
+          }
+        ],
         "tip": [
           {
-            "blue": [
-              "das Leiden"
+            "green": [
+              "leiden",
+              "Krankheit"
             ]
           },
           {
+            "blue": [
+              "Leiden"
+            ],
             "green": [
               "leiden"
             ]
@@ -8573,17 +18628,19 @@ const B2_WORDS = [
         "important": [
           {
             "blue": [
-              "das Leiden"
-            ]
-          },
-          {
+              "Leiden"
+            ],
             "green": [
               "leiden"
             ]
           },
           {
             "blue": [
-              "die Leiden"
+              "Leiden"
+            ],
+            "green": [
+              "leiden",
+              "Krankheit"
             ]
           }
         ]
@@ -8656,12 +18713,12 @@ const B2_WORDS = [
     "de": "Liebesaffäre",
     "de_article": "die",
     "de_plural": "die Liebesaffären",
-    "lv": "intymus santykis",
+    "lv": "meilės romanas • intymūs santykiai",
     "level": "B2"
   },
   {
     "de": "liebkosten",
-    "lv": "glostyti • meilinti",
+    "lv": "glostyti • glamonėti",
     "level": "B2"
   },
   {
@@ -8676,7 +18733,7 @@ const B2_WORDS = [
   },
   {
     "de": "lispeln",
-    "lv": "šveplinti",
+    "lv": "švepluoti",
     "level": "B2"
   },
   {
@@ -8966,7 +19023,7 @@ const B2_WORDS = [
     "de": "Massaker",
     "de_article": "das",
     "de_plural": "die Massaker",
-    "lv": "kraujo skerdynės",
+    "lv": "skerdynės • žudynės",
     "level": "B2"
   },
   {
@@ -9062,7 +19119,7 @@ const B2_WORDS = [
     "de": "Mieder",
     "de_article": "das",
     "de_plural": "die Mieder",
-    "lv": "standus juosmens raištis • korsetas",
+    "lv": "korsetas • liemenė",
     "level": "B2"
   },
   {
@@ -9144,7 +19201,7 @@ const B2_WORDS = [
   },
   {
     "de": "missbilligen",
-    "lv": "nepripažinti tinkamu • menkinti",
+    "lv": "nepritarti • peikti",
     "level": "B2"
   },
   {
@@ -9179,7 +19236,7 @@ const B2_WORDS = [
   },
   {
     "de": "mittels",
-    "lv": "su kažko pagalba",
+    "lv": "padedant • naudojant",
     "level": "B2"
   },
   {
@@ -9198,7 +19255,7 @@ const B2_WORDS = [
     "de": "Mitwisser",
     "de_article": "der",
     "de_plural": "die Mitwisser",
-    "lv": "bendrininkas (žinantis)",
+    "lv": "bendrininkas • žinantysis",
     "level": "B2"
   },
   {
@@ -9245,7 +19302,7 @@ const B2_WORDS = [
   },
   {
     "de": "münden",
-    "lv": "įtekėti • įsilieti • baigtis • pasibaigti",
+    "lv": "įtekėti • įsilieti • baigtis",
     "level": "B2"
   },
   {
@@ -9294,71 +19351,79 @@ const B2_WORDS = [
     "study": {
       "id": "b2-nachdruck",
       "layout": "standardStudy",
-      "translation": "pabrėžimas • pakartotinis leidimas",
+      "translation": "pabrėžimas",
       "explanation": [
-        "Pagrindinė mintis: der Nachdruck gali reikšti pabrėžimą arba knygos pakartotinį leidimą.",
-        "Nachdruck auf etwas legen = pabrėžti ką nors, reikalauti kažko.",
-        "Der Nachdruck eines Buches = knygos pakartotinis leidimas (reprint).",
-        "Kontekstas (verslo derybos ar leidyba) nusako teisingą reikšmę."
+        "Pagrindinė mintis: der Nachdruck – vyriškosios giminės daiktavardis. Jo pagrindinė reikšmė – pabrėžimas, ryžtingumas, primygtinumas, su kuriuo kas nors sakoma ar daroma: mit Nachdruck (primygtinai, pabrėžtinai), Nachdruck auf etwas legen (ką nors pabrėžti).",
+        "Šia reikšme vartojama vienaskaita: der Nachdruck, des Nachdrucks. Antroji reikšmė – poligrafijoje pakartotinis leidimas ar perspausdinimas; tada daugiskaita yra die Nachdrucke. Ant leidinių dažnai matyti: Nachdruck verboten!"
       ],
       "examples": [
         {
-          "de": "Er legt Nachdruck auf die Frist.",
-          "lv": "jis pabrėžia terminą."
+          "de": "Mit Nachdruck forderte sie eine Antwort.",
+          "lv": "Ji primygtinai reikalavo atsakymo."
         },
         {
-          "de": "Mit Nachdruck forderte sie eine Antwort.",
-          "lv": "ji atkakliai reikalavo atsakymo."
+          "de": "Er legt besonderen Nachdruck auf die Qualität.",
+          "lv": "Jis ypač pabrėžia kokybę."
         },
         {
           "de": "Der Nachdruck des Romans erschien im Frühjahr.",
-          "lv": "romano pakartotinis leidimas išėjo pavasarį."
+          "lv": "Pakartotinis romano leidimas pasirodė pavasarį."
         },
         {
-          "de": "Dieses Buch ist bereits im Nachdruck.",
-          "lv": "šita knyga jau yra pakartotiniame leidime."
-        },
-        {
-          "de": "Der Verlag plant einen Nachdruck.",
-          "lv": "leidėjas planuoja pakartotinį leidimą."
+          "de": "Nachdruck verboten!",
+          "lv": "Perspausdinti draudžiama!"
         }
       ],
       "comparison": [
         {
-          "word": "Nachdruck legen auf",
-          "meaning": "pabrėžti, reikalauti",
-          "example": "Er legt Nachdruck auf die Frist. = Viņš uzsver termiņu."
+          "word": "die Betonung",
+          "meaning": "kirtis, pabrėžimas",
+          "example": "Die Betonung liegt auf der ersten Silbe. – Kirtis tenka pirmajam skiemeniui."
         },
         {
-          "word": "der Nachdruck (Buch)",
-          "meaning": "pakartotinis leidimas",
-          "example": "Der Nachdruck erschien im Frühjahr. = Atkārtotais izdevums iznāca pavasarī."
+          "word": "die Auflage",
+          "meaning": "tiražas, leidimas",
+          "example": "Das Buch erscheint in zweiter Auflage. – Knyga išeina antruoju leidimu."
         },
         {
-          "word": "der Druck",
-          "meaning": "spaudimas / spauda",
-          "example": "Unter Druck stehen = būt spiedienā."
+          "word": "nachdrücklich",
+          "meaning": "primygtinis",
+          "example": "Er bat nachdrücklich um Hilfe. – Jis primygtinai prašė pagalbos."
         }
       ],
       "tip": [
-        "Derybose ir reikalavimuose: Nachdruck = pabrėžimas.",
-        "Leidyboje ir knygose: Nachdruck = pakartotinis leidimas."
+        "Įsidėmėk du pastovius junginius: mit Nachdruck ir Nachdruck verleihen.",
+        "Giminingas būdvardis nachdrücklich reiškia primygtinis, pabrėžtinis."
       ],
       "important": [
-        "Nachdruck auf etwas legen = pabrėžti.",
-        "der Nachdruck eines Buches = pakartotinis leidimas."
+        "Nachdruck šia reikšme vartojamas vienaskaita; daugiskaita die Nachdrucke taikoma leidimams.",
+        "Nepainiok su Druck (spaudimas, spauda): tai kita reikšmė."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "der Nachdruck"
+            "der Nachdruck",
+            "Nachdruck",
+            "Nachdrucke"
           ],
           "purple": [
-            "pabrėžimą",
-            "pakartotinis leidimas"
+            "pabrėžimas",
+            "primygtinumas"
           ]
         },
         "examples": [
+          {
+            "de": {
+              "blue": [
+                "Nachdruck"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "primygtinai"
+              ]
+            }
+          },
           {
             "de": {
               "blue": [
@@ -9379,53 +19444,88 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "atkakliai"
+                "leidimas"
               ]
             }
           },
           {
             "de": {
-              "green": [
+              "blue": [
                 "Nachdruck"
               ]
             },
             "lv": {
               "purple": [
-                "Pakartotinis leidimas"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "Nachdruck"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Pakartotiniame leidime"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "Nachdruck"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Pakartotinį leidimą"
+                "Perspausdinti"
               ]
             }
           }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "die Betonung"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "pabrėžimas"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Auflage"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "tiražas"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "nachdrücklich"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "primygtinis"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "Nachdruck"
+            ]
+          },
+          {
+            "green": [
+              "nachdrücklich"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "Nachdruck",
+              "Nachdrucke"
+            ]
+          },
+          {}
         ]
       }
     }
   },
   {
     "de": "nachdrücklich",
-    "lv": "pabrėžtas • energingas • įtikinamas • energingai • įtikinamai",
+    "lv": "pabrėžtas • energingas • įtikinamas",
     "level": "B2"
   },
   {
@@ -9465,8 +19565,187 @@ const B2_WORDS = [
   },
   {
     "de": "nachträglich",
-    "lv": "vėlesnis • papildomas • vėliau • be to",
-    "level": "B2"
+    "lv": "vėlesnis • papildomas • vėliau",
+    "level": "B2",
+    "study": {
+      "id": "b2-nachtr-glich",
+      "layout": "standardStudy",
+      "translation": "vėlesnis • papildomas • vėliau",
+      "explanation": [
+        "Pagrindinė mintis: nachträglich reiškia „po to“, jau po pagrindinio veiksmo ar termino — vėliau papildomai pridėtas ar padarytas. Tai ir būdvardis (eine nachträgliche Änderung), ir prieveiksmis (nachträglich ändern).",
+        "Dažna reikšmė — pavėluotai: nachträglich gratulieren — pasveikinti po įvykio. Būdvardis taip pat nusako papildomą pobūdį: eine nachträgliche Zahlung (papildomas mokėjimas)."
+      ],
+      "examples": [
+        {
+          "de": "Eine nachträgliche Änderung ist nicht mehr möglich.",
+          "lv": "Vėlesnis pakeitimas nebegalimas."
+        },
+        {
+          "de": "Ich habe den Text nachträglich geändert.",
+          "lv": "Tekstą pakeičiau vėliau."
+        },
+        {
+          "de": "Es gibt eine nachträgliche Zahlung.",
+          "lv": "Yra papildomas mokėjimas."
+        },
+        {
+          "de": "Herzlichen Glückwunsch nachträglich!",
+          "lv": "Nuoširdžiai sveikinu, nors ir pavėluotai!"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "später",
+          "meaning": "vėliau",
+          "example": "Wir sprechen später. – Pasikalbėsime vėliau."
+        },
+        {
+          "word": "zusätzlich",
+          "meaning": "papildomas",
+          "example": "Es gibt zusätzliche Kosten. – Yra papildomų išlaidų."
+        },
+        {
+          "word": "nachher",
+          "meaning": "po to",
+          "example": "Ich rufe dich nachher an. – Paskambinsiu tau po to."
+        }
+      ],
+      "tip": [
+        "Sveikindamas pavėluotai, sakyk nachträglich: Alles Gute nachträglich!",
+        "Kitaip nei später, nachträglich rodo, kad kažką reikėjo padaryti anksčiau."
+      ],
+      "important": [
+        "nachträglich nusako tai, kas vyksta po jau įvykusio dalyko, o ne bet kokį vėlesnį laiką ateityje.",
+        "Būdvardis kaitomas: nachträglicher, nachträgliche, nachträgliches."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "nachträglich",
+            "nachträgliche"
+          ],
+          "purple": [
+            "vėliau",
+            "papildomas"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "nachträgliche"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Vėlesnis"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "nachträglich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vėliau"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "nachträgliche"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "papildomas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "nachträglich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pavėluotai"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "später"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "vėliau"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "zusätzlich"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "papildomas"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "nachher"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "po to"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "nachträglich"
+            ]
+          },
+          {
+            "blue": [
+              "nachträglich"
+            ],
+            "green": [
+              "später"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "nachträglich"
+            ]
+          },
+          {
+            "blue": [
+              "nachträgliche"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Nachweis",
@@ -9553,7 +19832,7 @@ const B2_WORDS = [
     "de": "Nenner",
     "de_article": "der",
     "de_plural": "die Nenner",
-    "lv": "šauklys",
+    "lv": "vardiklis",
     "level": "B2"
   },
   {
@@ -9573,12 +19852,12 @@ const B2_WORDS = [
     "de": "Neuauflage",
     "de_article": "die",
     "de_plural": "die Neuauflagen",
-    "lv": "pakartotinis • pataisytas leidimas",
+    "lv": "pakartotinis leidimas • pataisytas leidimas",
     "level": "B2"
   },
   {
     "de": "neuerdings",
-    "lv": "neseniai • šiomis dienomis • iš naujo • vėl",
+    "lv": "neseniai • šiomis dienomis • iš naujo",
     "level": "B2"
   },
   {
@@ -9618,7 +19897,7 @@ const B2_WORDS = [
   },
   {
     "de": "nichtig",
-    "lv": "negaliojantis • anuliuotas • menkas • nereikšmingas",
+    "lv": "negaliojantis • menkas • nereikšmingas",
     "level": "B2"
   },
   {
@@ -9630,7 +19909,7 @@ const B2_WORDS = [
   },
   {
     "de": "niederlegen",
-    "lv": "padėti (nutraukti) • nutraukti darbą • pradėti streikuoti",
+    "lv": "padėti • nutraukti darbą • pradėti streikuoti",
     "level": "B2"
   },
   {
@@ -9690,7 +19969,7 @@ const B2_WORDS = [
     "de": "Nutzholz",
     "de_article": "das",
     "de_plural": "die Nutzhölzer",
-    "lv": "naudingi medžiai",
+    "lv": "pramoninė mediena",
     "level": "B2"
   },
   {
@@ -9709,7 +19988,7 @@ const B2_WORDS = [
   },
   {
     "de": "obgleich",
-    "lv": "nors, kad ir",
+    "lv": "nors • kad ir",
     "level": "B2"
   },
   {
@@ -9740,7 +20019,7 @@ const B2_WORDS = [
     "de": "Offenbarung",
     "de_article": "die",
     "de_plural": "die Offenbarungen",
-    "lv": "atskleidimas",
+    "lv": "apreiškimas • atskleidimas",
     "level": "B2"
   },
   {
@@ -9842,7 +20121,7 @@ const B2_WORDS = [
     "de": "Organspende",
     "de_article": "die",
     "de_plural": "die Organspenden",
-    "lv": "organo davimas transplantacijai",
+    "lv": "organų donorystė",
     "level": "B2"
   },
   {
@@ -9881,21 +20160,170 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-paaren",
-      "layout": "minimalStudy",
+      "layout": "standardStudy",
       "translation": "poruotis su",
-      "rektion": "mit + kam?",
-      "explanation": "sich paaren reikalauja nustatyto prielinksnio mit + kam?.",
-      "forms": "mit + kam?",
-      "formsLabel": "Valdymas:",
+      "explanation": [
+        "Pagrindinė mintis: sich paaren reiškia poruotis — apie gyvūnus, kai jie dauginasi. Partneris nurodomas su mit + Dativ: Der Löwe paart sich mit der Löwin. Perkeltine prasme jungiasi dvi savybės ar dalykai: Mut paart sich mit Klugheit.",
+        "Formos: paart sich, paarte sich, hat sich gepaart. Be sich veiksmažodis paaren yra galininkinis: Züchter paaren zwei Tiere — augintojai suporuoja du gyvūnus."
+      ],
+      "examples": [
+        {
+          "de": "Die Vögel paaren sich im Frühjahr.",
+          "lv": "Paukščiai poruojasi pavasarį."
+        },
+        {
+          "de": "Der Löwe paart sich mit der Löwin.",
+          "lv": "Liūtas poruojasi su liūte."
+        },
+        {
+          "de": "Bei ihm paart sich Mut mit Klugheit.",
+          "lv": "Jame drąsa jungiasi su išmintimi."
+        },
+        {
+          "de": "Hier paart sich Tradition mit Moderne.",
+          "lv": "Čia tradicija jungiasi su modernumu."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "paaren",
+          "meaning": "suporuoti",
+          "example": "Der Züchter paart zwei Hunde. – Augintojas suporuoja du šunis."
+        },
+        {
+          "word": "verbinden",
+          "meaning": "sujungti",
+          "example": "Das Hotel verbindet Komfort mit Natur. – Viešbutis sujungia komfortą su gamta."
+        },
+        {
+          "word": "sich vereinigen",
+          "meaning": "susivienyti",
+          "example": "Die Gruppen vereinigen sich. – Grupės susivienija."
+        }
+      ],
+      "tip": [
+        "Perkeltinei reikšmei įsimink paruoštą porą: Mut paart sich mit Klugheit.",
+        "Partnerį nurodyk su mit + Dativ: mit dem Männchen, mit der Tradition."
+      ],
+      "important": [
+        "Apie žmones šis žodis vartojamas retai, nes skamba biologiškai arba šiurkščiai.",
+        "Po mit eina Dativ."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
+            "paaren",
+            "paart",
+            "paarte",
+            "gepaart",
             "sich paaren"
           ],
-          "red": [
-            "mit + kam?"
+          "purple": [
+            "poruotis",
+            "jungiasi",
+            "suporuoja"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "paaren"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "poruojasi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "paart"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "poruojasi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "paart"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "jungiasi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "paart"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "jungiasi"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "paaren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "suporuoti"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "verbinden"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "sujungti"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich vereinigen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "susivienyti"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "paart"
+            ]
+          },
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -9915,7 +20343,7 @@ const B2_WORDS = [
   },
   {
     "de": "pachten",
-    "lv": "nuomoti",
+    "lv": "nuomotis",
     "level": "B2"
   },
   {
@@ -10052,7 +20480,7 @@ const B2_WORDS = [
     "de": "Pfandschein",
     "de_article": "der",
     "de_plural": "die Pfandscheine",
-    "lv": "arešto ženklas",
+    "lv": "lombardo kvitas",
     "level": "B2"
   },
   {
@@ -10064,7 +20492,7 @@ const B2_WORDS = [
   },
   {
     "de": "pfuschen",
-    "lv": "dirbti blogai • nemokšiškai • paviršutiniškai",
+    "lv": "dirbti atmestinai • dirbti nemokšiškai",
     "level": "B2"
   },
   {
@@ -10104,7 +20532,7 @@ const B2_WORDS = [
     "de": "Pilotprojekt",
     "de_article": "das",
     "de_plural": "die Pilotprojekte",
-    "lv": "bandomasis (pilotinis) projektas",
+    "lv": "bandomasis projektas • pilotinis projektas",
     "level": "B2"
   },
   {
@@ -10157,14 +20585,14 @@ const B2_WORDS = [
     "de": "Posse",
     "de_article": "die",
     "de_plural": "die Possen",
-    "lv": "farsas • pokštų pjesė • grubus juokas",
+    "lv": "farsas • pokštų pjesė • grubus pokštas",
     "level": "B2"
   },
   {
     "de": "Possen",
     "de_article": "der",
     "de_plural": "die Possen",
-    "lv": "farsas • pokštų pjesė • grubus juokas",
+    "lv": "farsas • pokštų pjesė • grubus pokštas",
     "level": "B2"
   },
   {
@@ -10174,7 +20602,7 @@ const B2_WORDS = [
   },
   {
     "de": "prägen",
-    "lv": "kalti pinigus • įspausti • atspausti • formuoti • kurti",
+    "lv": "kalti pinigus • įspausti • formuoti",
     "level": "B2"
   },
   {
@@ -10283,7 +20711,7 @@ const B2_WORDS = [
   },
   {
     "de": "quellen",
-    "lv": "išsilieti • nutekėti • permirkti • pamirkti • prisipūsti",
+    "lv": "ištekėti • permirkti • brinkti",
     "level": "B2"
   },
   {
@@ -10314,7 +20742,7 @@ const B2_WORDS = [
     "de": "Radierung",
     "de_article": "die",
     "de_plural": "die Radierungen",
-    "lv": "ėsdinimas (raižymas rūgštimi) • ofortas",
+    "lv": "ėsdinimas • ofortas",
     "level": "B2"
   },
   {
@@ -10339,23 +20767,23 @@ const B2_WORDS = [
     "de": "Rain",
     "de_article": "der",
     "de_plural": "die Raine",
-    "lv": "gyvatvorė",
+    "lv": "ežia",
     "level": "B2"
   },
   {
     "de": "ranzig",
-    "lv": "pridvisęs • rūgštokas (apie grietinę, taukus, sviestą)",
+    "lv": "apkartęs • pridvisęs",
     "level": "B2"
   },
   {
     "de": "rau",
-    "lv": "nelygus • šiurkštus • grubus • kimus • rūstus • nemalonus • neapdirbtas",
+    "lv": "nelygus • šiurkštus • kimus",
     "level": "B2"
   },
   {
     "de": "Rauchwaren",
     "de_article": "die",
-    "lv": "kailiai • kailio gaminiai",
+    "lv": "kailiai • kailių gaminiai",
     "level": "B2"
   },
   {
@@ -10409,7 +20837,7 @@ const B2_WORDS = [
   },
   {
     "de": "recken",
-    "lv": "tiesti • tampyti • tiestis • raivytis",
+    "lv": "tiesti • tiestis • raivytis",
     "level": "B2"
   },
   {
@@ -10438,7 +20866,7 @@ const B2_WORDS = [
   },
   {
     "de": "rege",
-    "lv": "gyvas • judrus • paslankus • veiklus",
+    "lv": "gyvas • judrus • veiklus",
     "level": "B2"
   },
   {
@@ -10519,7 +20947,7 @@ const B2_WORDS = [
   },
   {
     "de": "rentabel",
-    "lv": "rentabilus (pelningas)",
+    "lv": "rentabilus • pelningas",
     "level": "B2"
   },
   {
@@ -10535,21 +20963,169 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-revanchieren",
-      "layout": "minimalStudy",
+      "layout": "standardStudy",
       "translation": "atsimokėti • atsikeršyti",
-      "rektion": "bei + kam?",
-      "explanation": "sich revanchieren reikalauja nustatyto prielinksnio bei + kam?.",
-      "forms": "bei + kam?",
-      "formsLabel": "Valdymas:",
+      "explanation": [
+        "Pagrindinė mintis: sich revanchieren reiškia atsakyti į kieno nors veiksmą panašiu veiksmu. Dažniausiai tai teigiama — atsimokėti, atsilyginti už gerumą (už kvietimą, dovaną), bet gali reikšti ir atsikeršyti už blogį. Tarimas: [revɑ̃ˈʃiːrən], ch tariama kaip š.",
+        "Kam atsimokama, nurodoma su bei + Dativ, už ką — su für + Akkusativ, kuo — su mit + Dativ: sich bei jemandem für etwas mit etwas revanchieren. Formos: revanchiert sich, revanchierte sich, hat sich revanchiert."
+      ],
+      "examples": [
+        {
+          "de": "Ich möchte mich bei dir für die Einladung revanchieren.",
+          "lv": "Norėčiau tau atsimokėti už kvietimą."
+        },
+        {
+          "de": "Er revanchierte sich mit einem Geschenk.",
+          "lv": "Jis atsimokėjo dovana."
+        },
+        {
+          "de": "Die Mannschaft revanchierte sich für die Niederlage.",
+          "lv": "Komanda atsikeršijo už pralaimėjimą."
+        },
+        {
+          "de": "Dafür werde ich mich noch revanchieren!",
+          "lv": "Už tai aš dar atsimokėsiu!"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich bedanken",
+          "meaning": "padėkoti",
+          "example": "Ich bedanke mich bei dir. – Dėkoju tau."
+        },
+        {
+          "word": "sich rächen",
+          "meaning": "atkeršyti",
+          "example": "Er rächt sich an seinem Feind. – Jis keršija savo priešui."
+        },
+        {
+          "word": "vergelten",
+          "meaning": "atlyginti",
+          "example": "Man soll Gutes mit Gutem vergelten. – Už gera reikia atlyginti geru."
+        }
+      ],
+      "tip": [
+        "Po malonaus kvietimo galima pasakyti: Beim nächsten Mal revanchiere ich mich!",
+        "Lemia kontekstas: padėkos situacijoje žodis teigiamas, sporte ir ginčuose jis reiškia kerštą."
+      ],
+      "important": [
+        "revanchieren ne visada reiškia piktą kerštą; kasdien dažnai juo nusakomas atsakymas geru darbu.",
+        "Po bei eina Dativ: bei dir, bei den Gästen; po für — Akkusativ."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
+            "revanchieren",
+            "revanchiert",
+            "revanchierte",
             "sich revanchieren"
           ],
-          "red": [
-            "bei + kam?"
+          "purple": [
+            "atsimokėti",
+            "atsikeršyti",
+            "atsilyginti"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "revanchieren"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "atsimokėti"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "revanchierte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "atsimokėjo"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "revanchierte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "atsikeršijo"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "revanchieren"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "atsimokėsiu"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "bedanken"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "padėkoti"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "rächen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "atkeršyti"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "vergelten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "atlyginti"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {
+            "blue": [
+              "revanchieren"
+            ]
+          },
+          {}
+        ]
       }
     }
   },
@@ -10614,7 +21190,7 @@ const B2_WORDS = [
   },
   {
     "de": "rückständig",
-    "lv": "atsilikęs • pradelsęs mokėjimą",
+    "lv": "atsilikęs • pradelstas",
     "level": "B2"
   },
   {
@@ -10633,7 +21209,7 @@ const B2_WORDS = [
   },
   {
     "de": "rühmen",
-    "lv": "girti • šlovinti • girtis • didžiuotis kuo nors",
+    "lv": "girti • šlovinti • girtis",
     "level": "B2"
   },
   {
@@ -10643,7 +21219,7 @@ const B2_WORDS = [
   },
   {
     "de": "runzeln",
-    "lv": "suraukti (veidą) į raukšles • suraukti kaktą",
+    "lv": "raukšlėti • suraukti kaktą",
     "level": "B2"
   },
   {
@@ -10681,7 +21257,7 @@ const B2_WORDS = [
   },
   {
     "de": "sächlich",
-    "lv": "~es Geschlecht gram. • niekatroji giminė",
+    "lv": "bevardis • bevardės giminės",
     "level": "B2"
   },
   {
@@ -10695,12 +21271,12 @@ const B2_WORDS = [
     "de": "Sämaschine",
     "de_article": "die",
     "de_plural": "die Sämaschinen",
-    "lv": "sėjamoji (mašina)",
+    "lv": "sėjamoji",
     "level": "B2"
   },
   {
     "de": "sämtlich",
-    "lv": "visi [be išimties] • pilnos sudėties",
+    "lv": "visi be išimties • visas",
     "level": "B2"
   },
   {
@@ -10712,7 +21288,7 @@ const B2_WORDS = [
   },
   {
     "de": "sanieren",
-    "lv": "kapitaliai išremontuoti • ek. padaryti pelningą",
+    "lv": "kapitaliai išremontuoti • padaryti pelningą",
     "level": "B2"
   },
   {
@@ -10726,12 +21302,12 @@ const B2_WORDS = [
     "de": "Satellit",
     "de_article": "der",
     "de_plural": "die Satelliten",
-    "lv": "polit. satelitas • astr. palydovas",
+    "lv": "satelitas • palydovas",
     "level": "B2"
   },
   {
     "de": "sättigen",
-    "lv": "[gerai] pavalgydinti • pavaišinti • chem. prisotinti",
+    "lv": "pasotinti • pavaišinti • prisotinti",
     "level": "B2"
   },
   {
@@ -10743,7 +21319,7 @@ const B2_WORDS = [
   },
   {
     "de": "sausen",
-    "lv": "ošti • švilpti • lėkti • veržtis",
+    "lv": "ošti • švilpti • lėkti",
     "level": "B2"
   },
   {
@@ -10762,13 +21338,13 @@ const B2_WORDS = [
   },
   {
     "de": "schädigen",
-    "lv": "kenkti • padaryti nuostolių (žalos)",
+    "lv": "kenkti • padaryti nuostolių • padaryti žalos",
     "level": "B2"
   },
   {
     "de": "Schaffen",
     "de_article": "das",
-    "lv": "kūryba • grožinė kūryba • darbas • veikla • kūrimas",
+    "lv": "kūryba • darbas • kūrimas",
     "level": "B2"
   },
   {
@@ -10782,7 +21358,7 @@ const B2_WORDS = [
     "de": "Schalldämpfer",
     "de_article": "der",
     "de_plural": "die Schalldämpfer",
-    "lv": "duslintuvas (garso slopintuvas)",
+    "lv": "duslintuvas • garso slopintuvas",
     "level": "B2"
   },
   {
@@ -10794,7 +21370,7 @@ const B2_WORDS = [
   },
   {
     "de": "schalldicht",
-    "lv": "garsui nelaidus (garsoizoliacinis)",
+    "lv": "garsui nelaidus • garsoizoliacinis",
     "level": "B2"
   },
   {
@@ -10816,7 +21392,7 @@ const B2_WORDS = [
   },
   {
     "de": "schaudern",
-    "lv": "siaubtis (jausti siaubą) • [su]drebėti",
+    "lv": "šiurpti • drebėti",
     "level": "B2"
   },
   {
@@ -10835,26 +21411,26 @@ const B2_WORDS = [
   },
   {
     "de": "scheiden",
-    "lv": "[at]skirti • atskirti • skirti • sich sch. lassen • skirtis • apsisprėsti",
+    "lv": "atskirti • skirtis • išsiskirti",
     "level": "B2"
   },
   {
     "de": "Scheidewand",
     "de_article": "die",
     "de_plural": "die Scheidewände",
-    "lv": "tarpinė sienelė (pertvara)",
+    "lv": "pertvara • tarpinė sienelė",
     "level": "B2"
   },
   {
     "de": "Scheitel",
     "de_article": "der",
     "de_plural": "die Scheitel",
-    "lv": "viršugalvis • pakaušis • plaukų skyrimo linija",
+    "lv": "viršugalvis • plaukų skyrimo linija",
     "level": "B2"
   },
   {
     "de": "scheitern",
-    "lv": "patirti nesėkmę • sužlugti (iširti)",
+    "lv": "patirti nesėkmę • žlugti • iširti",
     "level": "B2"
   },
   {
@@ -10873,18 +21449,189 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-scheren",
-      "layout": "minimalStudy",
+      "layout": "standardStudy",
       "translation": "rūpintis",
-      "rektion": "um + ką?",
-      "explanation": "sich scheren reikalauja nustatyto prielinksnio um + ką?.",
-      "forms": "um + ką?",
-      "formsLabel": "Valdymas:",
+      "explanation": [
+        "Pagrindinė mintis: sich scheren um šia reikšme yra šnekamosios kalbos posakis, reiškiantis rūpintis, kreipti dėmesį, bet beveik tik neiginyje arba klausime: Er schert sich nicht um die Regeln — jam nerūpi taisyklės.",
+        "Formos: schert sich, scherte sich, hat sich geschert. Su um + Akkusativ nurodoma tai, kuo rūpinamasi. Retorinis klausimas: Was schert mich das? — kas man darbo?",
+        "Šiurkšti liepiamoji forma Scher dich weg! reiškia „nešdinkis!“. Be sangrąžinio įvardžio sich veiksmažodis scheren reiškia kirpti, apkirpti (Schafe scheren)."
+      ],
+      "examples": [
+        {
+          "de": "Er schert sich nicht um die Regeln.",
+          "lv": "Jam nerūpi taisyklės."
+        },
+        {
+          "de": "Was schert mich das Gerede der anderen?",
+          "lv": "Kas man darbo dėl kitų plepalų?"
+        },
+        {
+          "de": "Sie schert sich wenig um ihre Gesundheit.",
+          "lv": "Ji mažai rūpinasi savo sveikata."
+        },
+        {
+          "de": "Scher dich weg!",
+          "lv": "Nešdinkis!"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich kümmern",
+          "meaning": "rūpintis",
+          "example": "Ich kümmere mich um die Kinder. – Aš rūpinuosi vaikais."
+        },
+        {
+          "word": "interessieren",
+          "meaning": "dominti",
+          "example": "Das interessiert mich nicht. – Tai manęs nedomina."
+        },
+        {
+          "word": "scheren",
+          "meaning": "kirpti",
+          "example": "Der Bauer schert die Schafe. – Ūkininkas kerpa avis."
+        }
+      ],
+      "tip": [
+        "Kasdienėje kalboje sich scheren um paprastai girdimas su nicht: Er schert sich nicht darum.",
+        "Jei nori neutraliai pasakyti „rūpintis“, rinkis sich kümmern um + Akkusativ."
+      ],
+      "important": [
+        "sich scheren um paprastai vartojamas neiginyje; teiginyje jis skamba neįprastai.",
+        "Scher dich weg! yra šiurkštu — nevartok mandagiame pokalbyje."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
+            "scheren",
+            "schert",
+            "scherte",
+            "geschert",
+            "Scher",
             "sich scheren"
+          ],
+          "purple": [
+            "rūpintis",
+            "nerūpi",
+            "rūpinamasi",
+            "darbo",
+            "nešdinkis"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "schert"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nerūpi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "schert"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "darbo"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "schert"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "rūpinasi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Scher"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Nešdinkis"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich kümmern"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "rūpintis"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "interessieren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "dominti"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "scheren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "kirpti"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "sich scheren",
+              "scheren",
+              "schert"
+            ]
+          },
+          {
+            "green": [
+              "sich kümmern"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "sich scheren",
+              "scheren"
+            ]
+          },
+          {
+            "blue": [
+              "Scher"
+            ]
+          }
+        ]
       }
     }
   },
@@ -10892,7 +21639,7 @@ const B2_WORDS = [
     "de": "Schiebedach",
     "de_article": "das",
     "de_plural": "die Schiebedächer",
-    "lv": "automobilio atidaromas (nuslenkantis) stogas",
+    "lv": "atidaromas automobilio stogas",
     "level": "B2"
   },
   {
@@ -10912,7 +21659,7 @@ const B2_WORDS = [
     "de": "Schiffbruch",
     "de_article": "der",
     "de_plural": "die Schiffbrüche",
-    "lv": "laivo žūties katastrofa",
+    "lv": "laivo sudužimas • laivo katastrofa",
     "level": "B2"
   },
   {
@@ -10924,7 +21671,7 @@ const B2_WORDS = [
   },
   {
     "de": "schillern",
-    "lv": "žėrėti • švytėti (spindėti) įvairiomis spalvomis",
+    "lv": "žėrėti • švytėti įvairiomis spalvomis",
     "level": "B2"
   },
   {
@@ -10936,7 +21683,7 @@ const B2_WORDS = [
   },
   {
     "de": "schlafwandeln",
-    "lv": "vaikščioti mėnesasarge (miegant)",
+    "lv": "vaikščioti per miegus • būti lunatiku",
     "level": "B2"
   },
   {
@@ -10974,7 +21721,7 @@ const B2_WORDS = [
     "de": "Schlusswort",
     "de_article": "das",
     "de_plural": "die Schlussworte",
-    "lv": "pabaigos (baigiamasis) žodis",
+    "lv": "baigiamasis žodis",
     "level": "B2"
   },
   {
@@ -11005,12 +21752,12 @@ const B2_WORDS = [
   },
   {
     "de": "schmerzlich",
-    "lv": "skausmingas • liūdnas (gailus)",
+    "lv": "skausmingas • liūdnas",
     "level": "B2"
   },
   {
     "de": "schmollen",
-    "lv": "siautėti (pykti)",
+    "lv": "pūstis • pykti",
     "level": "B2"
   },
   {
@@ -11028,7 +21775,7 @@ const B2_WORDS = [
   },
   {
     "de": "schonungslos",
-    "lv": "negailestingas (nesigailintis)",
+    "lv": "negailestingas",
     "level": "B2"
   },
   {
@@ -11057,12 +21804,12 @@ const B2_WORDS = [
   },
   {
     "de": "schrill",
-    "lv": "skvarbus • aštrus (rėžiantis)",
+    "lv": "skvarbus • rėžiantis",
     "level": "B2"
   },
   {
     "de": "schroff",
-    "lv": "status • stačias (skardingas) • rūstus • aštrus • nedraugiškas",
+    "lv": "status • rūstus • aštrus",
     "level": "B2"
   },
   {
@@ -11076,7 +21823,7 @@ const B2_WORDS = [
     "de": "Schuldschein",
     "de_article": "der",
     "de_plural": "die Schuldscheine",
-    "lv": "skolos raštas (vekselis)",
+    "lv": "skolos raštas • vekselis",
     "level": "B2"
   },
   {
@@ -11097,7 +21844,7 @@ const B2_WORDS = [
     "de": "Schutzimpfung",
     "de_article": "die",
     "de_plural": "die Schutzimpfungen",
-    "lv": "apsauginis skiepas (skiepijimas)",
+    "lv": "apsauginis skiepijimas • skiepas",
     "level": "B2"
   },
   {
@@ -11116,12 +21863,12 @@ const B2_WORDS = [
     "de": "Schwarm",
     "de_article": "der",
     "de_plural": "die Schwärme",
-    "lv": "susižavėjimas (įsitraukimas) • entuziazmas",
+    "lv": "būrys • spiečius • pulkas",
     "level": "B2"
   },
   {
     "de": "schwärmen",
-    "lv": "užsidegti (įsitraukti) • entuziastingai žavėtis • svajoti",
+    "lv": "susižavėti • žavėtis • svajoti",
     "level": "B2"
   },
   {
@@ -11149,7 +21896,7 @@ const B2_WORDS = [
     "de": "Schwebebahn",
     "de_article": "die",
     "de_plural": "die Schwebebahnen",
-    "lv": "pakabinamasis [gelež]inkelis",
+    "lv": "pakabinamasis geležinkelis • pakabinamasis kelias",
     "level": "B2"
   },
   {
@@ -11161,31 +21908,31 @@ const B2_WORDS = [
   },
   {
     "de": "schwelen",
-    "lv": "kaisti (žėrėti)",
+    "lv": "rusenti • smilkti",
     "level": "B2"
   },
   {
     "de": "Schwerathletik",
     "de_article": "die",
     "de_plural": "die Schwerathletiken",
-    "lv": "sport. sunkioji atletika",
+    "lv": "sunkioji atletika",
     "level": "B2"
   },
   {
     "de": "schwerfällig",
-    "lv": "nerangus • lėtas (tūlus)",
+    "lv": "nerangus • lėtas",
     "level": "B2"
   },
   {
     "de": "Schwerpunkt",
     "de_article": "der",
     "de_plural": "die Schwerpunkte",
-    "lv": "sunkio centras (punktas)",
+    "lv": "sunkio centras",
     "level": "B2"
   },
   {
     "de": "schwinden",
-    "lv": "[su]mažėti • [pra]dingti • išnykti",
+    "lv": "mažėti • dingti • išnykti",
     "level": "B2"
   },
   {
@@ -11198,7 +21945,7 @@ const B2_WORDS = [
     "de": "Seemacht",
     "de_article": "die",
     "de_plural": "die Seemächte",
-    "lv": "jūrų [did]valstybė",
+    "lv": "jūrų valstybė • jūrų didvalstybė",
     "level": "B2"
   },
   {
@@ -11218,7 +21965,7 @@ const B2_WORDS = [
   {
     "de": "Sehkraft",
     "de_article": "die",
-    "lv": "regėjimas • rega (regėjimo gebėjimas)",
+    "lv": "regėjimas • rega",
     "level": "B2"
   },
   {
@@ -11237,49 +21984,60 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "būtis",
       "explanation": [
-        "Pagrindinė mintis: das Sein su didžiąja raide ir artikeliu das yra daiktavardis — būtis, egzistencija (filosofinė sąvoka).",
-        "sein su mažąja raide yra veiksmažodis — būti.",
-        "das Sein dažnai vartojamas filosofiniame ar abstrakčiame kontekste (das menschliche Sein).",
-        "Substantyvacija: sein → das Sein, taip pat kaip können → das Können."
+        "Pagrindinė mintis: das Sein yra niekatrosios giminės daiktavardis, padarytas iš veiksmažodžio sein. Filosofijoje jis reiškia būtį, egzistavimą — tai, kad kažkas apskritai yra. Priešingybė yra das Nichts arba das Nichtsein (nebūtis).",
+        "Šis daiktavardis vartojamas tik vienaskaita (das Sein, des Seins), daugiskaitos neturi. Žinoma frazė: Sein oder Nichtsein (Hamleto „Būti ar nebūti“). Daiktavardis Sein rašomas didžiąja raide."
       ],
       "examples": [
         {
           "de": "Das menschliche Sein ist komplex.",
-          "lv": "žmogaus būtis yra sudėtinga."
+          "lv": "Žmogaus būtis yra sudėtinga."
         },
         {
           "de": "Sein oder Nichtsein, das ist die Frage.",
-          "lv": "būti ar nebūti, toks yra klausimas."
-        },
-        {
-          "de": "Ich bin müde.",
-          "lv": "aš esu pavargęs."
+          "lv": "Būti ar nebūti — štai klausimas."
         },
         {
           "de": "Das Sein bestimmt das Bewusstsein.",
-          "lv": "būtis lemia sąmonę."
+          "lv": "Būtis lemia sąmonę."
+        },
+        {
+          "de": "Der Philosoph denkt über das Sein nach.",
+          "lv": "Filosofas apmąsto būtį."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "das Dasein",
+          "meaning": "egzistencija",
+          "example": "Sein Dasein war schwer. – Jo egzistencija buvo sunki."
+        },
+        {
+          "word": "das Wesen",
+          "meaning": "esmė",
+          "example": "Das Wesen der Sache ist einfach. – Dalyko esmė paprasta."
+        },
+        {
+          "word": "die Existenz",
+          "meaning": "egzistencija",
+          "example": "Er bezweifelt ihre Existenz. – Jis abejoja jų egzistavimu."
         }
       ],
       "tip": [
-        "das Sein su didžiąja raide — daiktavardis (būtis, filosofine reikšme).",
-        "sein su mažąja raide — veiksmažodis (būti)."
+        "Daiktavardis Sein dažnai pasitaiko filosofijoje: das Sein und das Bewusstsein.",
+        "Kitas žodis yra savybinis įvardis sein (jo), kuris rašomas mažąja raide."
       ],
       "important": [
-        "das Sein = būtis (daiktavardis, abstraktus/filosofinis).",
-        "sein = būti (veiksmažodis, kasdienėje kalboje).",
-        "Šis žodis yra substantyvuotas veiksmažodis, taip pat kaip das Können."
+        "Das Sein nėra kasdienis žodis; kasdien sakoma das Leben arba die Existenz.",
+        "Nepainiok daiktavardžio das Sein su veiksmažodžiu sein (būti) ir su įvardžiu sein (jo)."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "das Sein"
+            "Sein"
           ],
           "purple": [
-            "būtis",
-            "egzistencija"
-          ],
-          "green": [
-            "sein"
+            "būtį",
+            "egzistavimą"
           ]
         },
         "examples": [
@@ -11297,25 +22055,13 @@ const B2_WORDS = [
           },
           {
             "de": {
-              "green": [
+              "blue": [
                 "Sein"
               ]
             },
             "lv": {
               "purple": [
-                "būti"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "bin"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "esu"
+                "Būti"
               ]
             }
           },
@@ -11327,7 +22073,57 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "būtis"
+                "Būtis"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Sein"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "būtį"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "das Dasein"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "egzistencija"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "das Wesen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "esmė"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Existenz"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "egzistencija"
               ]
             }
           }
@@ -11335,29 +22131,24 @@ const B2_WORDS = [
         "tip": [
           {
             "blue": [
-              "das Sein"
+              "Sein"
             ]
           },
-          {
-            "green": [
-              "sein"
-            ]
-          }
+          {}
         ],
         "important": [
           {
             "blue": [
-              "das Sein"
-            ]
-          },
-          {
+              "Sein"
+            ],
             "green": [
-              "sein"
+              "die Existenz",
+              "Existenz"
             ]
           },
           {
             "blue": [
-              "das Können"
+              "Sein"
             ]
           }
         ]
@@ -11412,12 +22203,12 @@ const B2_WORDS = [
     "de": "Sensenblatt",
     "de_article": "das",
     "de_plural": "die Sensenblätter",
-    "lv": "dalgio ašmenys (geležtė)",
+    "lv": "dalgio geležtė • dalgio ašmenys",
     "level": "B2"
   },
   {
     "de": "sensibel",
-    "lv": "jautrus • itin jautrus (subtilus)",
+    "lv": "jautrus • subtilus",
     "level": "B2"
   },
   {
@@ -11430,7 +22221,7 @@ const B2_WORDS = [
     "de": "Seuche",
     "de_article": "die",
     "de_plural": "die Seuchen",
-    "lv": "užkrečiamoji liga (maras) • epidemija",
+    "lv": "užkrečiamoji liga • maras • epidemija",
     "level": "B2"
   },
   {
@@ -11502,44 +22293,56 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "jei • su sąlyga, kad",
       "explanation": [
-        "Pagrindinė mintis: sofern yra sąlygos jungtukas — reiškia jei/su sąlyga, kad.",
-        "sofern įveda sąlygos šalutinį sakinį, panašiai kaip wenn, tačiau yra formalesnis ir labiau būdingas rašytiniam stiliui.",
-        "sofern NEreiškia 'kadangi' (priežasties jungtukas) — vokiškai tai yra da arba weil.",
-        "Dažnai vartojamas teisiniuose/formaliuose tekstuose (sofern nicht anders vereinbart = jei nesusitarta kitaip)."
+        "Pagrindinė mintis: sofern yra prijungiamasis jungtukas, įvedantis sąlygą: jei, su sąlyga, kad. Jis rodo, kad kažkas galioja ar vyksta tik tada, kai sąlyga įvykdyta.",
+        "Po sofern prasideda šalutinis sakinys, kuriame veiksmažodis stovi sakinio gale: Ich komme, sofern ich Zeit habe. Šalutinis sakinys atskiriamas kableliu. Šis jungtukas stilistiškai kiek oficialesnis už wenn ir dažnai pasitaiko sutartyse bei taisyklėse.",
+        "Galima vartoti ir sutrumpintai: sofern möglich — jei įmanoma."
       ],
       "examples": [
         {
           "de": "Ich komme, sofern ich Zeit habe.",
-          "lv": "aš ateinu, jei turiu laiko."
+          "lv": "Ateisiu, jei turėsiu laiko."
         },
         {
           "de": "Sofern nichts anderes vereinbart ist, gilt der Standardpreis.",
-          "lv": "jei nesusitarta kitaip, taikoma standartinė kaina."
+          "lv": "Jei nesutarta kitaip, galioja standartinė kaina."
         },
         {
-          "de": "Sofern das Wetter gut ist, machen wir einen Ausflug.",
-          "lv": "su sąlyga, kad oras bus geras, vyksime į ekskursiją."
-        },
-        {
-          "de": "Sofern möglich, bitte pünktlich sein.",
-          "lv": "jei įmanoma, būkite tikslūs, prašau."
+          "de": "Wir fahren morgen, sofern das Wetter gut ist.",
+          "lv": "Rytoj važiuosime, jei bus geras oras."
         },
         {
           "de": "Er hilft, sofern er kann.",
-          "lv": "jis padeda, jei gali."
+          "lv": "Jis padeda, jei tik gali."
         },
         {
-          "de": "Da es regnet, bleiben wir zu Hause.",
-          "lv": "kadangi lyja, mes pasiliekame namuose."
+          "de": "Sofern es möglich ist, rufe ich dich an.",
+          "lv": "Jei bus įmanoma, tau paskambinsiu."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "wenn",
+          "meaning": "jei",
+          "example": "Wenn es regnet, bleibe ich zu Hause. – Jei lis, liksiu namie."
+        },
+        {
+          "word": "falls",
+          "meaning": "tuo atveju, jei",
+          "example": "Falls du kommst, ruf an. – Jei ateisi, paskambink."
+        },
+        {
+          "word": "soweit",
+          "meaning": "kiek",
+          "example": "Soweit ich weiß, ist er krank. – Kiek žinau, jis serga."
         }
       ],
       "tip": [
-        "sofern = jei/su sąlyga, kad (sąlyga) — nepainioti su priežastimi.",
-        "'kadangi' (priežastis) vokiškai yra da/weil, o ne sofern."
+        "sofern vartok, kai nori pabrėžti sąlygą: Sofern keine Einwände bestehen, …",
+        "Įsimink žodžių tvarką: sofern + veiksnys + … + veiksmažodis gale."
       ],
       "important": [
-        "sofern yra sąlygos, o ne priežasties jungtukas.",
-        "Neteisingai: sofern = kadangi → Teisingai: da/weil = kadangi."
+        "Po sofern veiksmažodis yra šalutinio sakinio gale, o ne antroje vietoje.",
+        "sofern nėra tas pats, kas soweit (kiek, kiek tik): soweit nurodo mastą, sofern — sąlygą."
       ],
       "sectionAccents": {
         "explanation": {
@@ -11547,11 +22350,11 @@ const B2_WORDS = [
             "sofern"
           ],
           "purple": [
-            "jei"
+            "jei",
+            "sąlyga"
           ],
-          "red": [
-            "da",
-            "weil"
+          "green": [
+            "wenn"
           ]
         },
         "examples": [
@@ -11575,31 +22378,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "jei"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "Sofern"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "su sąlyga"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "Sofern"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "jei"
+                "Jei"
               ]
             }
           },
@@ -11617,13 +22396,63 @@ const B2_WORDS = [
           },
           {
             "de": {
-              "red": [
-                "Da"
+              "blue": [
+                "sofern"
               ]
             },
             "lv": {
-              "red": [
-                "kadangi"
+              "purple": [
+                "jei tik"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Sofern"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Jei"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "wenn"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "jei"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "falls"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "atveju"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "soweit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "kiek"
               ]
             }
           }
@@ -11631,13 +22460,13 @@ const B2_WORDS = [
         "tip": [
           {
             "blue": [
-              "jei"
+              "sofern",
+              "Sofern"
             ]
           },
           {
-            "red": [
-              "da",
-              "weil"
+            "blue": [
+              "sofern"
             ]
           }
         ],
@@ -11648,12 +22477,11 @@ const B2_WORDS = [
             ]
           },
           {
-            "red": [
-              "da",
-              "weil"
+            "blue": [
+              "sofern"
             ],
-            "purple": [
-              "kadangi"
+            "green": [
+              "soweit"
             ]
           }
         ]
@@ -11742,7 +22570,7 @@ const B2_WORDS = [
     "de": "Spaltung",
     "de_article": "die",
     "de_plural": "die Spaltungen",
-    "lv": "skaldymas • [su]skaldymas • [su]skilimas",
+    "lv": "skaldymas • suskaldymas • skilimas",
     "level": "B2"
   },
   {
@@ -11806,20 +22634,196 @@ const B2_WORDS = [
   },
   {
     "de": "spöttisch",
-    "lv": "pašaipus • šaipomasis",
+    "lv": "pašaipus • išjuokiantis",
     "level": "B2"
   },
   {
     "de": "Sprechanlage",
     "de_article": "die",
     "de_plural": "die Sprechanlagen",
-    "lv": "namų vidinio ryšio (interkomo) įranga",
+    "lv": "domofonas • telefonspynė",
     "level": "B2"
   },
   {
     "de": "sprengen",
-    "lv": "[su]sprogdinti • apipurkšti • laistyti",
-    "level": "B2"
+    "lv": "susprogdinti • apipurkšti • laistyti",
+    "level": "B2",
+    "study": {
+      "id": "b2-sprengen",
+      "layout": "standardStudy",
+      "translation": "susprogdinti • apipurkšti • laistyti",
+      "explanation": [
+        "Pagrindinė mintis: sprengen yra galininkinis veiksmažodis su keliomis reikšmėmis. Pirmoji — sprogdinti, susprogdinti (eine Brücke sprengen), jėga skaldyti ar perskelti (der Frost sprengt Felsen). Antroji — apšlakstyti, apipurkšti vandeniu (Wäsche sprengen) ir laistyti (den Rasen sprengen).",
+        "Formos: sprengt, sprengte, hat gesprengt. Šaknis ta pati, bet reikšmės skiriasi; kontekstas parodo, apie ką kalbama. Perkeltine prasme die Grenzen sprengen — peržengti ribas."
+      ],
+      "examples": [
+        {
+          "de": "Die Armee sprengte die Brücke.",
+          "lv": "Kariuomenė susprogdino tiltą."
+        },
+        {
+          "de": "Er sprengt jeden Abend den Rasen.",
+          "lv": "Jis kiekvieną vakarą laisto veją."
+        },
+        {
+          "de": "Vor dem Bügeln sprengt sie die Wäsche mit Wasser.",
+          "lv": "Prieš lygindama ji apšlaksto skalbinius vandeniu."
+        },
+        {
+          "de": "Der Frost sprengt die Felsen.",
+          "lv": "Šaltis skaldo uolas."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "gießen",
+          "meaning": "laistyti",
+          "example": "Ich gieße die Blumen. – Laistau gėles."
+        },
+        {
+          "word": "explodieren",
+          "meaning": "sprogti",
+          "example": "Die Bombe explodiert. – Bomba sprogsta."
+        },
+        {
+          "word": "sprühen",
+          "meaning": "purkšti",
+          "example": "Er sprüht Wasser auf die Pflanzen. – Jis purškia vandenį ant augalų."
+        }
+      ],
+      "tip": [
+        "Sodo kontekste den Rasen sprengen reiškia laistyti veją žarna arba laistytuvu.",
+        "Su Bombe, Brücke, Tür sprengen suprantamas sprogdinimas arba išlaužimas."
+      ],
+      "important": [
+        "Dažnas junginys: etwas in die Luft sprengen — susprogdinti ką nors (išsprogdinti į orą).",
+        "Reikšmę lemia objektas: Brücke — sprogdina, Rasen — laisto, Wäsche — apšlaksto."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "sprengen",
+            "sprengt",
+            "sprengte",
+            "gesprengt"
+          ],
+          "purple": [
+            "sprogdinti",
+            "susprogdinti",
+            "apipurkšti",
+            "laistyti"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "sprengte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "susprogdino"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sprengt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "laisto"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sprengt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apšlaksto"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sprengt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "skaldo"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "gießen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "laistyti"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "explodieren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "sprogti"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sprühen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "purkšti"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "sprengen"
+            ]
+          },
+          {
+            "blue": [
+              "sprengen"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "sprengen"
+            ]
+          },
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "Sprengstoff",
@@ -11832,14 +22836,14 @@ const B2_WORDS = [
     "de": "Spross",
     "de_article": "der",
     "de_plural": "die Sprosse",
-    "lv": "bot. atžala • ūglis • perk. įpėdinis (palikuonis) • atžala",
+    "lv": "atžala • ūglis • palikuonis",
     "level": "B2"
   },
   {
     "de": "Spruch",
     "de_article": "der",
     "de_plural": "die Sprüche",
-    "lv": "posakis • aforizmas • jur. sprendimas (nuosprendis)",
+    "lv": "posakis • aforizmas • nuosprendis",
     "level": "B2"
   },
   {
@@ -11853,7 +22857,7 @@ const B2_WORDS = [
     "de": "Spuk",
     "de_article": "der",
     "de_plural": "die Spuke",
-    "lv": "šmėkla • vaiduoklis • apsireiškimas (fenomenas)",
+    "lv": "šmėkla • vaiduoklis • apsireiškimas",
     "level": "B2"
   },
   {
@@ -11912,17 +22916,17 @@ const B2_WORDS = [
     "de": "Stahlwerk",
     "de_article": "das",
     "de_plural": "die Stahlwerke",
-    "lv": "plieno lietuvė (liejykla)",
+    "lv": "plieno liejykla • plieno gamykla",
     "level": "B2"
   },
   {
     "de": "starr",
-    "lv": "nejudrus • sustingęs • sustyręs (kietas)",
+    "lv": "nejudrus • sustingęs • sustiręs",
     "level": "B2"
   },
   {
     "de": "starren",
-    "lv": "žiūrėti nenuleidžiant akių • spoksoti (žioplinėti)",
+    "lv": "žiūrėti nenuleidžiant akių • spoksoti",
     "level": "B2"
   },
   {
@@ -11991,12 +22995,12 @@ const B2_WORDS = [
     "de": "Strafanzeige",
     "de_article": "die",
     "de_plural": "die Strafanzeigen",
-    "lv": "baudžiamosios bylos pradėjimas kam nors",
+    "lv": "baudžiamosios bylos iškėlimas • pareiškimas apie nusikaltimą",
     "level": "B2"
   },
   {
     "de": "stranden",
-    "lv": "užplaukti (užsėsti) ant seklumos • patirti avariją",
+    "lv": "užplaukti ant seklumos • užsėsti ant seklumos • patirti avariją",
     "level": "B2"
   },
   {
@@ -12006,7 +23010,7 @@ const B2_WORDS = [
   },
   {
     "de": "streitbar",
-    "lv": "vaidingas (kivirčingas)",
+    "lv": "vaidingas • kivirčingas",
     "level": "B2"
   },
   {
@@ -12044,7 +23048,7 @@ const B2_WORDS = [
     "de": "Strolch",
     "de_article": "der",
     "de_plural": "die Strolche",
-    "lv": "valkata (klajoklis)",
+    "lv": "valkata • klajoklis",
     "level": "B2"
   },
   {
@@ -12084,28 +23088,28 @@ const B2_WORDS = [
     "de": "Täfelung",
     "de_article": "die",
     "de_plural": "die Täfelungen",
-    "lv": "sienos plokštė (panelis) • apmušimas (apkala)",
+    "lv": "sienų apkala • panelis • apmušimas",
     "level": "B2"
   },
   {
     "de": "Tagebau",
     "de_article": "der",
     "de_plural": "die Tagebaue",
-    "lv": "naudingųjų iškasenų atviras kasimas (karjere)",
+    "lv": "atviras naudingųjų iškasenų kasimas • karjeras",
     "level": "B2"
   },
   {
     "de": "Tagegeld",
     "de_article": "das",
     "de_plural": "die Tagegelder",
-    "lv": "komandiruotės dieninė pašalpa (dienpinigiai)",
+    "lv": "dienpinigiai",
     "level": "B2"
   },
   {
     "de": "Tagelohn",
     "de_article": "der",
     "de_plural": "die Tagelöhne",
-    "lv": "dienos alga (uždarbis)",
+    "lv": "dienos alga • dienos uždarbis",
     "level": "B2"
   },
   {
@@ -12117,7 +23121,7 @@ const B2_WORDS = [
   },
   {
     "de": "tagen",
-    "lv": "surengti posėdį • sesiją",
+    "lv": "posėdžiauti • rengti posėdį",
     "level": "B2"
   },
   {
@@ -12148,7 +23152,7 @@ const B2_WORDS = [
     "de": "Testperson",
     "de_article": "die",
     "de_plural": "die Testpersonen",
-    "lv": "tiriamasis asmuo (bandymo dalyvis)",
+    "lv": "tiriamasis asmuo • bandymo dalyvis",
     "level": "B2"
   },
   {
@@ -12166,25 +23170,25 @@ const B2_WORDS = [
   {
     "de": "Tiefsinn",
     "de_article": "der",
-    "lv": "gilaprotiškumas",
+    "lv": "giliamintiškumas • mąslumas",
     "level": "B2"
   },
   {
     "de": "Tollwut",
     "de_article": "die",
-    "lv": "pasiutimas (liga)",
+    "lv": "pasiutligė",
     "level": "B2"
   },
   {
     "de": "tönen",
-    "lv": "skambėti • suteikti tonalumo • suteikti atspalvį",
+    "lv": "skambėti • tonuoti • suteikti atspalvį",
     "level": "B2"
   },
   {
     "de": "Töpferscheibe",
     "de_article": "die",
     "de_plural": "die Töpferscheiben",
-    "lv": "puodžiaus žiestuvas (ratas)",
+    "lv": "puodžiaus ratas • žiedžiamasis ratas",
     "level": "B2"
   },
   {
@@ -12222,7 +23226,7 @@ const B2_WORDS = [
     "de": "Trabant",
     "de_article": "der",
     "de_plural": "die Trabanten",
-    "lv": "astr. palydovas",
+    "lv": "palydovas",
     "level": "B2"
   },
   {
@@ -12262,7 +23266,7 @@ const B2_WORDS = [
   },
   {
     "de": "treffend",
-    "lv": "taiklus • reikšmingas (charakteringas)",
+    "lv": "taiklus • reikšmingas",
     "level": "B2"
   },
   {
@@ -12279,7 +23283,7 @@ const B2_WORDS = [
   },
   {
     "de": "treulos",
-    "lv": "nepatiklus • nepatikimas",
+    "lv": "neištikimas • nepatikimas",
     "level": "B2"
   },
   {
@@ -12323,7 +23327,7 @@ const B2_WORDS = [
   },
   {
     "de": "trügerisch",
-    "lv": "apgaulingas • apgaulės (klaidinantis)",
+    "lv": "apgaulingas • klaidinantis",
     "level": "B2"
   },
   {
@@ -12337,28 +23341,206 @@ const B2_WORDS = [
     "de": "Tusch",
     "de_article": "der",
     "de_plural": "die Tusche",
-    "lv": "fanfaras",
+    "lv": "fanfara",
     "level": "B2"
   },
   {
     "de": "überbringen",
-    "lv": "perduoti žinią • sveikinimą • laišką • dovaną",
-    "level": "B2"
+    "lv": "perduoti • įteikti",
+    "level": "B2",
+    "study": {
+      "id": "b2--berbringen",
+      "layout": "standardStudy",
+      "translation": "perduoti • įteikti",
+      "explanation": [
+        "Pagrindinė mintis: überbringen reiškia nugabenti adresatui patikėtą žinią, sveikinimą, laišką ar dovaną — atnešti ir perduoti asmeniškai. Tas, kam perduodama, yra Dativ: jemandem etwas überbringen.",
+        "Neskiriamas priešdėlis über-: überbringt, überbrachte, hat überbracht. Bendratyje zu stovi prieš veiksmažodį: um die Nachricht zu überbringen. Žodis kiek oficialus."
+      ],
+      "examples": [
+        {
+          "de": "Er überbrachte uns die traurige Nachricht.",
+          "lv": "Jis mums perdavė liūdną žinią."
+        },
+        {
+          "de": "Der Botschafter überbringt die Glückwünsche des Präsidenten.",
+          "lv": "Ambasadorius perduoda prezidento sveikinimus."
+        },
+        {
+          "de": "Der Bote hat den Brief persönlich überbracht.",
+          "lv": "Pasiuntinys laišką įteikė asmeniškai."
+        },
+        {
+          "de": "Sie überbrachte dem Jubilar ein Geschenk.",
+          "lv": "Ji įteikė jubiliatui dovaną."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "bringen",
+          "meaning": "atnešti",
+          "example": "Bring mir bitte ein Glas Wasser. – Atnešk man, prašau, stiklinę vandens."
+        },
+        {
+          "word": "übermitteln",
+          "meaning": "perduoti",
+          "example": "Ich übermittle Ihnen die Daten. – Perduosiu jums duomenis."
+        },
+        {
+          "word": "ausrichten",
+          "meaning": "perduoti",
+          "example": "Richte ihm Grüße aus. – Perduok jam linkėjimų."
+        }
+      ],
+      "tip": [
+        "Tipiški objektai: eine Nachricht, Grüße, Glückwünsche, ein Geschenk überbringen.",
+        "Pokalbyje paprasčiau sakoma ausrichten (apie linkėjimus) arba bringen."
+      ],
+      "important": [
+        "Priešdėlis über- čia neskiriamas: Er überbringt die Nachricht, o ne er bringt die Nachricht über.",
+        "Tas, kam perduodama, yra Dativ: dem Chef, den Eltern."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "überbringen",
+            "überbringt",
+            "überbrachte",
+            "überbracht"
+          ],
+          "purple": [
+            "sveikinimą",
+            "laišką",
+            "dovaną",
+            "perduoti"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "überbrachte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "perdavė"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "überbringt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "perduoda",
+                "sveikinimus"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "überbracht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "įteikė"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "überbrachte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "įteikė"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "bringen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "atnešti"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "übermitteln"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "perduoti"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "ausrichten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "perduoti"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "überbringen"
+            ]
+          },
+          {
+            "green": [
+              "bringen",
+              "ausrichten"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "überbringt"
+            ]
+          },
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "Übereinkommen",
     "de_article": "das",
-    "lv": "susitarimas • sutartis (sutarimas)",
+    "lv": "susitarimas • sutartis",
     "level": "B2"
   },
   {
     "de": "überfahren",
-    "lv": "švelniai perbraukti • lengvai brūkštelėti teptuku",
+    "lv": "suvažinėti • perbraukti teptuku",
     "level": "B2"
   },
   {
     "de": "überfallen",
-    "lv": "netikėtai užpulti (staiga užpulti)",
+    "lv": "netikėtai užpulti • užklupti",
     "level": "B2"
   },
   {
@@ -12375,7 +23557,7 @@ const B2_WORDS = [
   },
   {
     "de": "überführen",
-    "lv": "pervežti per (upę) • perkelti per upę",
+    "lv": "pervežti • perkelti per upę",
     "level": "B2"
   },
   {
@@ -12385,12 +23567,12 @@ const B2_WORDS = [
   },
   {
     "de": "überhören",
-    "lv": "ne[iš]girsti dėl neatsargumo (neapdairumo) • apsimesti negirdint",
+    "lv": "neišgirsti • apsimesti negirdinčiu",
     "level": "B2"
   },
   {
     "de": "überlassen",
-    "lv": "palikti kieno nuožiūrai • žinioje • leisti pasirinkti",
+    "lv": "palikti kieno nuožiūrai • perleisti • leisti pasirinkti",
     "level": "B2"
   },
   {
@@ -12416,7 +23598,7 @@ const B2_WORDS = [
     "de": "Übermüdung",
     "de_article": "die",
     "de_plural": "die Übermüdungen",
-    "lv": "per didelis nuovargis (persidirbimas)",
+    "lv": "pervargimas • persidirbimas",
     "level": "B2"
   },
   {
@@ -12426,12 +23608,12 @@ const B2_WORDS = [
   },
   {
     "de": "überschreiten",
-    "lv": "pereiti • pažeisti (peržengti)",
+    "lv": "peržengti • pažeisti",
     "level": "B2"
   },
   {
     "de": "übersichtlich",
-    "lv": "apžvelgiamas (peržiūrimas)",
+    "lv": "apžvelgiamas • aiškus",
     "level": "B2"
   },
   {
@@ -12441,22 +23623,22 @@ const B2_WORDS = [
   },
   {
     "de": "überstehen",
-    "lv": "pakęsti (ištverti) • ištverti nemalonumus",
+    "lv": "ištverti • pakelti • atlaikyti",
     "level": "B2"
   },
   {
     "de": "übertragen",
-    "lv": "perduoti • pernešti (platinti) užkrečiamas ligas • transliuoti per radiją • [iš]versti",
+    "lv": "perduoti • transliuoti • išversti",
     "level": "B2"
   },
   {
     "de": "übertreten",
-    "lv": "pažeisti įstatymą • peržengti (persikelti per) ką nors",
+    "lv": "pažeisti įstatymą • peržengti",
     "level": "B2"
   },
   {
     "de": "überwältigen",
-    "lv": "įveikti • pranokti (nugalėti)",
+    "lv": "įveikti • nugalėti • pranokti",
     "level": "B2"
   },
   {
@@ -12479,34 +23661,34 @@ const B2_WORDS = [
     "de": "Umbruch",
     "de_article": "der",
     "de_plural": "die Umbrüche",
-    "lv": "didelės permainos politikoje (posūkis politikoje)",
+    "lv": "didelės permainos politikoje • lūžis",
     "level": "B2"
   },
   {
     "de": "umdenken",
-    "lv": "keisti nuomonę atsižvelgiant į situaciją (pagal aplinkybes)",
+    "lv": "keisti požiūrį • permąstyti",
     "level": "B2"
   },
   {
     "de": "umfassen",
-    "lv": "apimti • apglėbti (aprėpti) • apkabinti",
+    "lv": "apimti • aprėpti • apkabinti",
     "level": "B2"
   },
   {
     "de": "Umfeld",
     "de_article": "das",
     "de_plural": "die Umfelder",
-    "lv": "aplinka socialinė • politinė",
+    "lv": "aplinka • socialinė aplinka • politinė aplinka",
     "level": "B2"
   },
   {
     "de": "umgestalten",
-    "lv": "pertvarkyti (performuoti)",
+    "lv": "pertvarkyti • performuoti",
     "level": "B2"
   },
   {
     "de": "umhören, sich",
-    "lv": "pasiklausyti",
+    "lv": "pasiklausinėti • pasiteirauti",
     "level": "B2"
   },
   {
@@ -12518,14 +23700,14 @@ const B2_WORDS = [
   },
   {
     "de": "umkreisen",
-    "lv": "apsupti • aplenkti • sklandyti (skraidyti) • leistis • suktis",
+    "lv": "skrieti aplink • suktis aplink • apsupti",
     "level": "B2"
   },
   {
     "de": "Umlauf",
     "de_article": "der",
     "de_plural": "die Umläufe",
-    "lv": "ratas (sukimasis) • cirkuliacija",
+    "lv": "sukimasis • apyvarta • cirkuliacija",
     "level": "B2"
   },
   {
@@ -12554,14 +23736,14 @@ const B2_WORDS = [
   },
   {
     "de": "umschulen",
-    "lv": "žmones, turinčius vieną profesiją, permokyti kitos profesijos • perkvalifikuoti",
+    "lv": "perkvalifikuoti • permokyti",
     "level": "B2"
   },
   {
     "de": "Umschwung",
     "de_article": "der",
     "de_plural": "die Umschwünge",
-    "lv": "apsisukimas • lūžis • staigus pokytis • apvartas • posūkis",
+    "lv": "apsisukimas • lūžis • staigus pokytis",
     "level": "B2"
   },
   {
@@ -12572,12 +23754,12 @@ const B2_WORDS = [
   },
   {
     "de": "umsiedeln",
-    "lv": "priverstinai perkelti į kitą gyvenamąją vietą (perkeldinti)",
+    "lv": "perkelti • priverstinai perkelti į kitą gyvenamąją vietą",
     "level": "B2"
   },
   {
     "de": "umständlich",
-    "lv": "labai detalus • pernelyg platus • varginantis • sudėtingas",
+    "lv": "labai detalus • varginantis • sudėtingas",
     "level": "B2"
   },
   {
@@ -12589,7 +23771,7 @@ const B2_WORDS = [
   },
   {
     "de": "umwandeln",
-    "lv": "pakeisti (transformuoti) • perdaryti",
+    "lv": "paversti • pakeisti • transformuoti",
     "level": "B2"
   },
   {
@@ -12599,12 +23781,12 @@ const B2_WORDS = [
   },
   {
     "de": "unangebracht",
-    "lv": "netinkamoje vietoje (ne vietoje)",
+    "lv": "ne vietoje • netinkamas",
     "level": "B2"
   },
   {
     "de": "unanständig",
-    "lv": "nemandagus • netinkamai besielgiantis (netvarkingas)",
+    "lv": "nemandagus • nepadorus • netinkamai besielgiantis",
     "level": "B2"
   },
   {
@@ -12619,7 +23801,7 @@ const B2_WORDS = [
   },
   {
     "de": "unbebaut",
-    "lv": "nedirbamas (apie žemę) • neužstatytas",
+    "lv": "nedirbamas • neužstatytas",
     "level": "B2"
   },
   {
@@ -12664,12 +23846,12 @@ const B2_WORDS = [
   },
   {
     "de": "unbestechlich",
-    "lv": "neperkamas (kyšiais)",
+    "lv": "nepaperkamas",
     "level": "B2"
   },
   {
     "de": "unbewusst",
-    "lv": "nesąmoningas • instinktyvus • nevalingas • netyčinis",
+    "lv": "nesąmoningas • instinktyvus • nevalingas",
     "level": "B2"
   },
   {
@@ -12701,7 +23883,7 @@ const B2_WORDS = [
     "de": "Unfug",
     "de_article": "der",
     "de_plural": "die Unfuge",
-    "lv": "nedarbas • netvarka • nešvankus poelgis",
+    "lv": "išdaiga • netvarka • nešvankus poelgis",
     "level": "B2"
   },
   {
@@ -12711,7 +23893,7 @@ const B2_WORDS = [
   },
   {
     "de": "ungerade",
-    "lv": "ne visai tiesus • kreivas • nelyginis skaičius",
+    "lv": "ne visai tiesus • kreivas • nelyginis",
     "level": "B2"
   },
   {
@@ -12734,7 +23916,7 @@ const B2_WORDS = [
   },
   {
     "de": "unnütz",
-    "lv": "netinkamas • nereikalingas • bevaisis (tuščias)",
+    "lv": "netinkamas • nereikalingas • bergždžias",
     "level": "B2"
   },
   {
@@ -12746,7 +23928,7 @@ const B2_WORDS = [
   },
   {
     "de": "unterbreiten",
-    "lv": "paaiškinti • pateikti (įteikti)",
+    "lv": "pateikti • įteikti",
     "level": "B2"
   },
   {
@@ -12756,14 +23938,14 @@ const B2_WORDS = [
   },
   {
     "de": "untereinander",
-    "lv": "savo tarpe • tarpusavyje",
+    "lv": "tarpusavyje • tarp savęs",
     "level": "B2"
   },
   {
     "de": "Untergang",
     "de_article": "der",
     "de_plural": "die Untergänge",
-    "lv": "saulėlydis (leidimasis) • nusileidimas • žūtis • žlugimas",
+    "lv": "saulėlydis • žūtis • žlugimas",
     "level": "B2"
   },
   {
@@ -12776,25 +23958,228 @@ const B2_WORDS = [
   {
     "de": "Unterhalt",
     "de_article": "der",
-    "lv": "aprūpinimas • tiekimas • aprūpa",
+    "lv": "pragyvenimo lėšos • išlaikymas • alimentai",
     "level": "B2"
   },
   {
     "de": "unterirdisch",
-    "lv": "požemin(is)-",
+    "lv": "požeminis",
     "level": "B2"
   },
   {
     "de": "unterjochen",
-    "lv": "pajungti (į jungą)",
+    "lv": "pavergti • pajungti",
     "level": "B2"
   },
   {
     "de": "Unterlage",
     "de_article": "die",
     "de_plural": "die Unterlagen",
-    "lv": "pagrindas • kilimelis • stovas • atrama • duomenys • dokumentacija",
-    "level": "B2"
+    "lv": "pagrindas • padėklas • dokumentacija",
+    "level": "B2",
+    "study": {
+      "id": "b2-unterlage",
+      "layout": "standardStudy",
+      "translation": "pagrindas • padėklas • dokumentacija",
+      "explanation": [
+        "Pagrindinė mintis: die Unterlage yra moteriškosios giminės daiktavardis. Vienaskaita tai kažkas, kas yra po kuo nors — paklotas, padėklas, pagrindas, atrama (eine Unterlage zum Schreiben). Daugiskaita die Unterlagen reiškia dokumentus, medžiagą, dokumentaciją.",
+        "Daugiskaita yra die Unterlagen, ir labai dažnai vartojama būtent ji: die Unterlagen einreichen (pateikti dokumentus), Unterlagen anfordern (paprašyti dokumentų). Pagal reikšmę vienaskaita ir daugiskaita gana skiriasi, todėl žiūrėk konteksto."
+      ],
+      "examples": [
+        {
+          "de": "Als Unterlage verwenden wir ein Brett.",
+          "lv": "Kaip padėklą naudojame lentą."
+        },
+        {
+          "de": "Die Matte dient als Unterlage für die Übungen.",
+          "lv": "Kilimėlis naudojamas kaip paklotas pratimams."
+        },
+        {
+          "de": "Bitte reichen Sie die Unterlagen bis Freitag ein.",
+          "lv": "Prašome pateikti dokumentaciją iki penktadienio."
+        },
+        {
+          "de": "Er hat alle Unterlagen für den Antrag gesammelt.",
+          "lv": "Jis surinko visus dokumentus prašymui."
+        },
+        {
+          "de": "Eine feste Unterlage stützt das Werkstück.",
+          "lv": "Tvirta atrama prilaiko ruošinį."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "das Dokument",
+          "meaning": "dokumentas",
+          "example": "Das Dokument ist wichtig. – Dokumentas yra svarbus."
+        },
+        {
+          "word": "die Grundlage",
+          "meaning": "pagrindas",
+          "example": "Das ist die Grundlage des Vertrags. – Tai sutarties pagrindas."
+        },
+        {
+          "word": "der Untersetzer",
+          "meaning": "padėkliukas",
+          "example": "Stell das Glas auf den Untersetzer. – Padėk stiklinę ant padėkliuko."
+        }
+      ],
+      "tip": [
+        "Kalbant apie popierius ir biuro kontekste beveik visada vartojama daugiskaita: Unterlagen.",
+        "Tai, kas dedama po daiktu, vadinama Unterlage; tai, kas dedama po stikline, — Untersetzer."
+      ],
+      "important": [
+        "Unterlagen nėra vienas dokumentas, o dokumentų rinkinys; vienas dokumentas vadinamas das Dokument.",
+        "Nepainiok su Grundlage (pagrindas, bazė): tai platesnis, abstraktesnis žodis."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "die Unterlage",
+            "Unterlage",
+            "Unterlagen"
+          ],
+          "purple": [
+            "paklotas",
+            "padėklas",
+            "dokumentus",
+            "dokumentaciją",
+            "atrama"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Unterlage"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "padėklą"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Unterlage"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "paklotas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Unterlagen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "dokumentaciją"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Unterlagen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "dokumentus"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Unterlage"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "atrama"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "das Dokument"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "dokumentas"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Grundlage"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "pagrindas"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Untersetzer"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "padėkliukas"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "Unterlagen"
+            ]
+          },
+          {
+            "blue": [
+              "Unterlage"
+            ],
+            "green": [
+              "Untersetzer"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "Unterlagen"
+            ],
+            "green": [
+              "das Dokument",
+              "Dokument"
+            ]
+          },
+          {
+            "green": [
+              "Grundlage"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "unterlassen",
@@ -12803,7 +24188,7 @@ const B2_WORDS = [
   },
   {
     "de": "unterordnen",
-    "lv": "subordinuoti (pavaldyti) • pajungti",
+    "lv": "subordinuoti • pajungti",
     "level": "B2"
   },
   {
@@ -12822,27 +24207,27 @@ const B2_WORDS = [
     "de": "Untertan",
     "de_article": "der",
     "de_plural": "die Untertanen",
-    "lv": "pilietis (pavaldinis)",
+    "lv": "pavaldinys",
     "level": "B2"
   },
   {
     "de": "untertauchen",
-    "lv": "panirti • palįsti po vandeniu • pamerkti • panardinti",
+    "lv": "panirti • palįsti po vandeniu • panardinti",
     "level": "B2"
   },
   {
     "de": "unterweisen",
-    "lv": "parodyti (nurodyti) • pamokyti",
+    "lv": "apmokyti • pamokyti • instruktuoti",
     "level": "B2"
   },
   {
     "de": "unterwerfen",
-    "lv": "pajungti (paklusdinti)",
+    "lv": "pajungti • paklusdinti",
     "level": "B2"
   },
   {
     "de": "sich unterwerfen",
-    "lv": "paklusti (pasiduoti)",
+    "lv": "paklusti • pasiduoti",
     "level": "B2"
   },
   {
@@ -12857,7 +24242,7 @@ const B2_WORDS = [
   },
   {
     "de": "unvermeidlich",
-    "lv": "nepašalinamas • neišvengiamas",
+    "lv": "neišvengiamas",
     "level": "B2"
   },
   {
@@ -12887,7 +24272,7 @@ const B2_WORDS = [
   },
   {
     "de": "üppig",
-    "lv": "gausus • tankus (vešlus)",
+    "lv": "gausus • vešlus",
     "level": "B2"
   },
   {
@@ -12915,7 +24300,7 @@ const B2_WORDS = [
     "de": "Ursprung",
     "de_article": "der",
     "de_plural": "die Ursprünge",
-    "lv": "atsiradimas • kilmė • [pra]džia",
+    "lv": "kilmė • atsiradimas • pradžia",
     "level": "B2"
   },
   {
@@ -12930,7 +24315,7 @@ const B2_WORDS = [
   },
   {
     "de": "väterlich",
-    "lv": "tėvo- • tėviškas",
+    "lv": "tėvo • tėviškas",
     "level": "B2"
   },
   {
@@ -12952,12 +24337,12 @@ const B2_WORDS = [
   },
   {
     "de": "veranlassen",
-    "lv": "sukelti • paskatinti • skatinti (paakinti)",
+    "lv": "sukelti • inicijuoti • paskatinti",
     "level": "B2"
   },
   {
     "de": "verbittert",
-    "lv": "nuliūdintas (nusiminęs)",
+    "lv": "apkartęs • nusivylęs",
     "level": "B2"
   },
   {
@@ -12981,17 +24366,17 @@ const B2_WORDS = [
     "de": "Verdruss",
     "de_article": "der",
     "de_plural": "die Verdrusse",
-    "lv": "nepatika • nusivylimas (apkartimas) • paniurimas",
+    "lv": "nepatika • apmaudas • irzulys",
     "level": "B2"
   },
   {
     "de": "verdünnen",
-    "lv": "padaryti plonesnį (liesesnį) • chem. skiesti • silpninti",
+    "lv": "skiesti • praskiesti • silpninti",
     "level": "B2"
   },
   {
     "de": "verehren",
-    "lv": "pagerbti • gerbti • šnek. [pa]dovanoti",
+    "lv": "garbinti • gerbti • dovanoti",
     "level": "B2"
   },
   {
@@ -13005,21 +24390,181 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-vereinigen",
-      "layout": "minimalStudy",
+      "layout": "standardStudy",
       "translation": "susivienyti su",
-      "rektion": "mit + kam?",
-      "explanation": "sich vereinigen reikalauja nustatyto prielinksnio mit + kam?.",
-      "forms": "mit + kam?",
-      "formsLabel": "Valdymas:",
+      "explanation": [
+        "Pagrindinė mintis: sich vereinigen reiškia susivienyti, susijungti — apie valstybes, partijas, įmones, jėgas. Su mit + Dativ nurodomas partneris: sich mit einer Gruppe vereinigen. Rezultatas nurodomas su zu + Dativ: sich zu einer Union vereinigen.",
+        "Formos: vereinigt sich, vereinigte sich, hat sich vereinigt. Be sich veiksmažodis vereinigen yra galininkinis: Länder vereinigen — suvienyti valstybes. Pavyzdys pavadinime: die Vereinigten Staaten."
+      ],
+      "examples": [
+        {
+          "de": "Die beiden Firmen vereinigten sich zu einem Konzern.",
+          "lv": "Abi įmonės susijungė į vieną koncerną."
+        },
+        {
+          "de": "Die Partei vereinigte sich mit einer kleineren Gruppe.",
+          "lv": "Partija susijungė su mažesne grupe."
+        },
+        {
+          "de": "Die Länder haben sich zu einer Union vereinigt.",
+          "lv": "Valstybės susivienijo į sąjungą."
+        },
+        {
+          "de": "Alle Kräfte vereinigten sich gegen den Gegner.",
+          "lv": "Visos jėgos susivienijo prieš priešininką."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "vereinen",
+          "meaning": "suvienyti",
+          "example": "Das Fest vereint alle Generationen. – Šventė suvienija visas kartas."
+        },
+        {
+          "word": "sich zusammenschließen",
+          "meaning": "susijungti",
+          "example": "Die Firmen schließen sich zusammen. – Įmonės susijungia."
+        },
+        {
+          "word": "fusionieren",
+          "meaning": "susilieti",
+          "example": "Zwei Banken fusionieren. – Du bankai susilieja."
+        }
+      ],
+      "tip": [
+        "Dažnas junginys: sich zu etwas vereinigen (susivienyti į ką nors).",
+        "Kasdien dažnai paprasčiau: sich zusammenschließen."
+      ],
+      "important": [
+        "Artimas žodis vereinen (suvienyti) paprastai siejamas su žmonėmis ir jausmais, o vereinigen — dažniau su organizacijomis ir valstybėmis.",
+        "Po mit eina Dativ: mit der Partei, mit dem Nachbarn."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich vereinigen"
+            "vereinigen",
+            "vereinigt",
+            "vereinigte",
+            "Vereinigten",
+            "sich vereinigen",
+            "vereinigten"
           ],
-          "red": [
-            "mit + kam?"
+          "purple": [
+            "susivienyti",
+            "suvienyti"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "vereinigten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "susijungė"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "vereinigte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "susijungė"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "vereinigt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "susivienijo"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "vereinigten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "susivienijo"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "vereinen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "suvienyti"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich zusammenschließen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "susijungti"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "fusionieren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "susilieti"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "vereinigen"
+            ]
+          },
+          {
+            "green": [
+              "sich zusammenschließen"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "vereinigen"
+            ],
+            "green": [
+              "vereinen"
+            ]
+          },
+          {}
+        ]
       }
     }
   },
@@ -13027,7 +24572,7 @@ const B2_WORDS = [
     "de": "Vereinigung",
     "de_article": "die",
     "de_plural": "die Vereinigungen",
-    "lv": "sąjunga • bendrija (draugija) • sujungimas",
+    "lv": "sąjunga • draugija • sujungimas",
     "level": "B2"
   },
   {
@@ -13039,7 +24584,7 @@ const B2_WORDS = [
     "de": "Verfahren",
     "de_article": "das",
     "de_plural": "die Verfahren",
-    "lv": "poelgis • elgesys • būdas • metodas • jur. procesas • byla",
+    "lv": "procedūra • metodas • procesas",
     "level": "B2"
   },
   {
@@ -13051,26 +24596,209 @@ const B2_WORDS = [
   },
   {
     "de": "verfallen",
-    "lv": "žlugti • sugriūti • merdėti (nykti) • nupulti (nusigyventi)",
+    "lv": "žlugti • sugriūti • nykti",
     "level": "B2"
   },
   {
     "de": "Verfasser",
     "de_article": "der",
     "de_plural": "die Verfasser",
-    "lv": "kūrėjas (sudarytojas) • autorius",
+    "lv": "autorius • sudarytojas",
     "level": "B2"
   },
   {
     "de": "verfügen",
-    "lv": "nustatyti • įsakyti (paskirti) • paskirti",
-    "level": "B2"
+    "lv": "nustatyti • įsakyti • paskirti",
+    "level": "B2",
+    "study": {
+      "id": "b2-verf-gen",
+      "layout": "standardStudy",
+      "translation": "nustatyti • įsakyti • paskirti",
+      "explanation": [
+        "Pagrindinė mintis: verfügen šia reikšme yra oficialus veiksmažodis: valdžios ar įstaigos sprendimu nustatyti, įsakyti arba paskirti (eine Maßnahme verfügen). Veiksnys paprastai yra įstaiga, direktorius, teismas ar valdovas.",
+        "Neskiriamas priešdėlis ver-: verfügt, verfügte, hat verfügt. Po jo gali eiti Akkusativ (eine Ausgangssperre verfügen) arba šalutinis sakinys su dass.",
+        "Atskira konstrukcija verfügen über + Akkusativ reiškia, kad kas nors yra kieno žinioje: über Erfahrung verfügen — turėti patirties."
+      ],
+      "examples": [
+        {
+          "de": "Die Behörde verfügt eine Ausgangssperre.",
+          "lv": "Įstaiga nustato komendanto valandą."
+        },
+        {
+          "de": "Der König verfügte, dass das Tor geschlossen wird.",
+          "lv": "Karalius įsakė uždaryti vartus."
+        },
+        {
+          "de": "Der Direktor verfügte die sofortige Schließung des Werks.",
+          "lv": "Direktorius įsakė nedelsiant uždaryti gamyklą."
+        },
+        {
+          "de": "Er verfügt über große Erfahrung.",
+          "lv": "Jis turi didelę patirtį."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "anordnen",
+          "meaning": "įsakyti, paskirti",
+          "example": "Der Arzt ordnet Ruhe an. – Gydytojas paskiria poilsį."
+        },
+        {
+          "word": "bestimmen",
+          "meaning": "nustatyti",
+          "example": "Das Gesetz bestimmt die Frist. – Įstatymas nustato terminą."
+        },
+        {
+          "word": "besitzen",
+          "meaning": "turėti, būti savininku",
+          "example": "Er besitzt ein Haus. – Jam priklauso namas."
+        }
+      ],
+      "tip": [
+        "Oficialiame stiliuje verfügen žymi administracinį sprendimą, o kasdien vietoj jo sakoma anordnen arba bestimmen.",
+        "Frazė Er verfügt über … reiškia „jis turi …“, ir ji vartojama dažniau nei pirmoji reikšmė."
+      ],
+      "important": [
+        "Nepainiok verfügen (nustatyti) su verfügen über (disponuoti, turėti): prielinksnis keičia reikšmę.",
+        "Kai verfügen reiškia „nustatyti“, prielinksnio über nereikia."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "verfügen",
+            "verfügt",
+            "verfügte"
+          ],
+          "purple": [
+            "nustatyti",
+            "įsakyti",
+            "paskirti"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "verfügt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nustato"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verfügte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "įsakė"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verfügte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "įsakė"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verfügt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "didelę patirtį"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "anordnen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "įsakyti"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "bestimmen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "nustatyti"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "besitzen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "savininku"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "verfügen"
+            ],
+            "green": [
+              "anordnen",
+              "bestimmen"
+            ]
+          },
+          {
+            "blue": [
+              "verfügt"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "verfügen"
+            ]
+          },
+          {
+            "blue": [
+              "verfügen"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Verfügung",
     "de_article": "die",
     "de_plural": "die Verfügungen",
-    "lv": "nurodymas (potvarkis)",
+    "lv": "potvarkis • nurodymas",
     "level": "B2"
   },
   {
@@ -13080,7 +24808,7 @@ const B2_WORDS = [
   },
   {
     "de": "vergeblich",
-    "lv": "bergždis • bevaisis",
+    "lv": "bergždžias • bevaisis",
     "level": "B2"
   },
   {
@@ -13092,7 +24820,7 @@ const B2_WORDS = [
   },
   {
     "de": "vergeuden",
-    "lv": "išbarstyti (išpaišioti) • išeikvoti",
+    "lv": "iššvaistyti • išeikvoti",
     "level": "B2"
   },
   {
@@ -13102,7 +24830,7 @@ const B2_WORDS = [
   },
   {
     "de": "verhandeln",
-    "lv": "tartis (pasitarti) • derėtis (vesti derybas)",
+    "lv": "tartis • derėtis • vesti derybas",
     "level": "B2"
   },
   {
@@ -13112,34 +24840,34 @@ const B2_WORDS = [
   },
   {
     "de": "verheeren",
-    "lv": "nuniokoti (sugriauti)",
+    "lv": "nuniokoti • nusiaubti",
     "level": "B2"
   },
   {
     "de": "verhöhnen",
-    "lv": "pašiepti (pasityčioti) • pajuokti (išjuokti)",
+    "lv": "pašiepti • išjuokti • pasityčioti",
     "level": "B2"
   },
   {
     "de": "Verhör",
     "de_article": "das",
     "de_plural": "die Verhöre",
-    "lv": "[ap]klausa (tardymas)",
+    "lv": "apklausa • tardymas",
     "level": "B2"
   },
   {
     "de": "verhören",
-    "lv": "[ap]klausti (tardyti)",
+    "lv": "apklausti • tardyti",
     "level": "B2"
   },
   {
     "de": "sich verhören",
-    "lv": "persigirdėti",
+    "lv": "ne taip išgirsti",
     "level": "B2"
   },
   {
     "de": "verhüten",
-    "lv": "užkirsti kelią (išvengti) • apsisaugoti",
+    "lv": "užkirsti kelią • išvengti • apsisaugoti",
     "level": "B2"
   },
   {
@@ -13174,21 +24902,21 @@ const B2_WORDS = [
     "de": "Vermerk",
     "de_article": "der",
     "de_plural": "die Vermerke",
-    "lv": "pastaba • pažyma (žymė)",
+    "lv": "pastaba • žymė • įrašas",
     "level": "B2"
   },
   {
     "de": "Vermögen",
     "de_article": "das",
     "de_plural": "die Vermögen",
-    "lv": "nuosavybė",
+    "lv": "turtas • nuosavybė",
     "level": "B2"
   },
   {
     "de": "Vermutung",
     "de_article": "die",
     "de_plural": "die Vermutungen",
-    "lv": "spėjimas (prielaida) • hipotezė",
+    "lv": "spėjimas • prielaida • hipotezė",
     "level": "B2"
   },
   {
@@ -13208,21 +24936,21 @@ const B2_WORDS = [
     "de": "Vers",
     "de_article": "der",
     "de_plural": "die Verse",
-    "lv": "straipsnis",
+    "lv": "eilutė • posmas",
     "level": "B2"
   },
   {
     "de": "Versager",
     "de_article": "der",
     "de_plural": "die Versager",
-    "lv": "pralaimėjęs (praradęs) • nevykėlis",
+    "lv": "nevykėlis • pralaimėtojas",
     "level": "B2"
   },
   {
     "de": "Verschluss",
     "de_article": "der",
     "de_plural": "die Verschlüsse",
-    "lv": "uždaromasis (dangtis) • užraktas (sklendė)",
+    "lv": "užraktas • užsegimas • dangtelis",
     "level": "B2"
   },
   {
@@ -13234,7 +24962,7 @@ const B2_WORDS = [
   },
   {
     "de": "verkommen",
-    "lv": "nykti (merdėti) • nupulti • paklysti",
+    "lv": "nykti • nusmukti • paklysti",
     "level": "B2"
   },
   {
@@ -13249,7 +24977,7 @@ const B2_WORDS = [
   },
   {
     "de": "verkümmern",
-    "lv": "nykti (merdėti)",
+    "lv": "nykti • merdėti • skursti",
     "level": "B2"
   },
   {
@@ -13269,7 +24997,7 @@ const B2_WORDS = [
   },
   {
     "de": "sich vermehren",
-    "lv": "daugintis (gausėti)",
+    "lv": "daugintis • gausėti",
     "level": "B2"
   },
   {
@@ -13279,12 +25007,12 @@ const B2_WORDS = [
   },
   {
     "de": "vermindern",
-    "lv": "[su]mažinti",
+    "lv": "sumažinti • mažinti",
     "level": "B2"
   },
   {
     "de": "vermitteln",
-    "lv": "būti tarpininku • suteikti (parūpinti) • skatinti (padėti)",
+    "lv": "tarpininkauti • parūpinti • perteikti",
     "level": "B2"
   },
   {
@@ -13304,7 +25032,7 @@ const B2_WORDS = [
   },
   {
     "de": "verordnen",
-    "lv": "nustatyti • duoti nurodymą • med. skirti (paskirti)",
+    "lv": "nustatyti • nurodyti • paskirti",
     "level": "B2"
   },
   {
@@ -13324,30 +25052,204 @@ const B2_WORDS = [
   },
   {
     "de": "versagen",
-    "lv": "atsakyti • atsisakyti • atmesti • neklausyti • atsisakyti tarnauti • pasirodyti bailiu ir bejėgiu",
+    "lv": "atsakyti • atsisakyti • neklausyti",
     "level": "B2"
   },
   {
     "de": "sich versehen",
-    "lv": "pamiršti • aprūpinti (kuo)",
+    "lv": "apsirikti • suklysti",
     "level": "B2",
     "study": {
       "id": "b2-sich-versehen",
-      "layout": "minimalStudy",
-      "translation": "pamiršti • aprūpinti (kuo)",
-      "rektion": "mit + kam?",
-      "explanation": "sich versehen reikalauja nustatyto prielinksnio mit + kam?.",
-      "forms": "mit + kam?",
-      "formsLabel": "Valdymas:",
+      "layout": "standardStudy",
+      "translation": "apsirikti • suklysti",
+      "explanation": [
+        "Pagrindinė mintis: sich versehen reiškia apsirikti, suklysti — ką nors neteisingai pamatyti ar padaryti klaidą iš neatidumo (pavyzdžiui, dėl datos ar skaičiaus). Formos: versieht sich, versah sich, hat sich versehen.",
+        "Paplitę posakiai: Wenn ich mich nicht versehe, … (jei neklystu, …) ir ehe man sich versieht (nė nespėjus apsidairyti). Be sich žodis versehen reiškia aprūpinti, parūpinti (mit etwas versehen)."
+      ],
+      "examples": [
+        {
+          "de": "Ich habe mich beim Datum versehen.",
+          "lv": "Apsirikau dėl datos."
+        },
+        {
+          "de": "Wenn ich mich nicht versehe, kommt dort Anna.",
+          "lv": "Jei neklystu, ten ateina Anna."
+        },
+        {
+          "de": "Ehe man sich versieht, ist der Sommer vorbei.",
+          "lv": "Nė nespėsi apsidairyti, o vasara jau baigėsi."
+        },
+        {
+          "de": "Da hast du dich wohl versehen.",
+          "lv": "Čia tu turbūt apsirikai."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich irren",
+          "meaning": "klysti",
+          "example": "Ich habe mich geirrt. – Aš suklydau."
+        },
+        {
+          "word": "sich verlesen",
+          "meaning": "neteisingai perskaityti",
+          "example": "Ich habe mich verlesen. – Neteisingai perskaičiau."
+        },
+        {
+          "word": "versehen",
+          "meaning": "aprūpinti",
+          "example": "Er versieht den Brief mit einer Marke. – Jis užklijuoja ant laiško pašto ženklą."
+        }
+      ],
+      "tip": [
+        "Sangrąžinis sich versehen reiškia atsitiktinę klaidą: Ich habe mich versehen.",
+        "Su Wenn ich mich nicht versehe, … atsargiai išreiški prielaidą."
+      ],
+      "important": [
+        "sich versehen nereiškia regėjimo sutrikimo — jis reiškia apsirikimą ar klaidą.",
+        "Nepainiok sich versehen (apsirikti) su versehen mit (aprūpinti kuo): ten nėra sich."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich versehen"
+            "sich versehen",
+            "versehen",
+            "versieht",
+            "versehe",
+            "versah",
+            "sich",
+            "mich"
           ],
-          "red": [
-            "mit + kam?"
+          "purple": [
+            "apsirikti",
+            "suklysti"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "mich",
+                "versehen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Apsirikau"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "mich",
+                "versehe"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "neklystu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sich",
+                "versieht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apsidairyti"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "dich",
+                "versehen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apsirikai"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich irren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "klysti"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich verlesen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "perskaityti"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "versehen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "aprūpinti"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "sich versehen",
+              "versehen",
+              "mich",
+              "sich"
+            ]
+          },
+          {
+            "blue": [
+              "versehe",
+              "mich"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "sich versehen",
+              "versehen",
+              "sich"
+            ]
+          },
+          {
+            "blue": [
+              "sich versehen",
+              "versehen",
+              "sich"
+            ]
+          }
+        ]
       }
     }
   },
@@ -13363,7 +25265,7 @@ const B2_WORDS = [
   },
   {
     "de": "versiegeln",
-    "lv": "užplombuoti (užantspauduoti)",
+    "lv": "užantspauduoti • užplombuoti",
     "level": "B2"
   },
   {
@@ -13382,21 +25284,166 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-versoehnen",
-      "layout": "minimalStudy",
+      "layout": "standardStudy",
       "translation": "susitaikyti su",
-      "rektion": "mit + kam?",
-      "explanation": "sich versöhnen reikalauja nustatyto prielinksnio mit + kam?.",
-      "forms": "mit + kam?",
-      "formsLabel": "Valdymas:",
+      "explanation": [
+        "Pagrindinė mintis: sich versöhnen reiškia susitaikyti po ginčo ar konflikto — atkurti gerus santykius su kuo nors.",
+        "Veiksmažodis yra sangrąžinis: ich versöhne mich, er versöhnt sich; būtajame laike er versöhnte sich, Perfekt — er hat sich versöhnt. Su kuo susitaikoma, nurodoma su mit + Dativ: sich mit jemandem versöhnen.",
+        "Žodis gali būti ir galininkinis: jemanden versöhnen — sutaikyti ką nors (su kitu)."
+      ],
+      "examples": [
+        {
+          "de": "Die Geschwister haben sich nach dem Streit versöhnt.",
+          "lv": "Broliai ir seserys po ginčo susitaikė."
+        },
+        {
+          "de": "Ich möchte mich mit dir versöhnen.",
+          "lv": "Noriu su tavimi susitaikyti."
+        },
+        {
+          "de": "Er versöhnte sich mit seinem Vater.",
+          "lv": "Jis susitaikė su savo tėvu."
+        },
+        {
+          "de": "Wann versöhnt ihr euch endlich?",
+          "lv": "Kada jūs pagaliau susitaikysite?"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "verzeihen",
+          "meaning": "atleisti",
+          "example": "Ich verzeihe dir. – Aš tau atleidžiu."
+        },
+        {
+          "word": "sich vertragen",
+          "meaning": "sutarti",
+          "example": "Die Kinder vertragen sich gut. – Vaikai gerai sutaria."
+        }
+      ],
+      "tip": [
+        "Įsimink porą: sich versöhnen mit + Dativ. Asmuo, su kuriuo susitaikoma, visada eina po mit.",
+        "Prieš susitaikymą paprastai būna ginčas: sich streiten → sich versöhnen."
+      ],
+      "important": [
+        "Šia reikšme sangrąžinis sich būtinas: ich versöhne mich, o ne ich versöhne.",
+        "Perfekt sudaromas su haben: er hat sich versöhnt."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich versöhnen"
+            "versöhnen",
+            "versöhne",
+            "versöhnt",
+            "sich versöhnen",
+            "versöhnte"
           ],
-          "red": [
-            "mit + kam?"
+          "purple": [
+            "susitaikyti"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "versöhnt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "susitaikė"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "versöhnen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "susitaikyti"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "versöhnte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "susitaikė"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "versöhnt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "susitaikysite"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "verzeihen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "atleisti"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich vertragen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "sutarti"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "sich versöhnen",
+              "versöhnen"
+            ]
+          },
+          {
+            "blue": [
+              "sich versöhnen",
+              "versöhnen"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "versöhne"
+            ]
+          },
+          {
+            "blue": [
+              "versöhnt"
+            ]
+          }
+        ]
       }
     }
   },
@@ -13417,7 +25464,7 @@ const B2_WORDS = [
   },
   {
     "de": "verstauchen",
-    "lv": "išsinarinti",
+    "lv": "patempti",
     "level": "B2"
   },
   {
@@ -13431,21 +25478,169 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-verstellen",
-      "layout": "minimalStudy",
+      "layout": "standardStudy",
       "translation": "apsimesti kuo",
-      "rektion": "als + ką?",
-      "explanation": "sich verstellen reikalauja nustatyto prielinksnio als + ką?.",
-      "forms": "als + ką?",
-      "formsLabel": "Valdymas:",
+      "explanation": [
+        "Pagrindinė mintis: sich verstellen reiškia apsimesti — keisti savo elgesį ar laikyseną, kad kiti nematytų tikrojo būdo ar jausmų. Žmogus tada nėra natūralus.",
+        "Veiksmažodis yra sangrąžinis: ich verstelle mich, er verstellt sich; būtajame laike verstellte sich, Perfekt — hat sich verstellt. Be sich žodis verstellen dar reiškia perstatyti arba užstatyti (den Weg verstellen — užtverti kelią; den Sitz verstellen — sureguliuoti sėdynę), taip pat pakeisti balsą (die Stimme verstellen).",
+        "Vertimas „apsimesti kuo“ (dėtis kuo nors) tiksliau atitinka junginį sich ausgeben als (apsimesti gydytoju); pats sich verstellen paprastai reiškia tiesiog apsimesti, vaidinti."
+      ],
+      "examples": [
+        {
+          "de": "Er verstellt sich vor den Gästen und tut freundlich.",
+          "lv": "Prie svečių jis apsimeta ir elgiasi draugiškai."
+        },
+        {
+          "de": "Du musst dich nicht verstellen.",
+          "lv": "Tau nereikia apsimetinėti."
+        },
+        {
+          "de": "Sie verstellte ihre Stimme am Telefon.",
+          "lv": "Telefonu ji pakeitė balsą."
+        },
+        {
+          "de": "Bei ihm weiß man nie, ob er sich verstellt.",
+          "lv": "Su juo niekada nežinai, ar jis apsimetinėja."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich ausgeben als",
+          "meaning": "dėtis kuo",
+          "example": "Er gibt sich als Arzt aus. – Jis dedasi gydytoju."
+        },
+        {
+          "word": "so tun, als ob",
+          "meaning": "apsimesti",
+          "example": "Sie tut so, als ob sie schliefe. – Ji apsimeta, kad miega."
+        }
+      ],
+      "tip": [
+        "Jei nori pasakyti „dėtis kuo nors“, vartok sich ausgeben als; sich verstellen yra bendresnis: nebūti savimi.",
+        "Naudingas posakis: Du brauchst dich nicht zu verstellen — tau nereikia apsimetinėti."
+      ],
+      "important": [
+        "Nepainiok su verstellen be sich: Er verstellt den Weg reiškia, kad jis užtveria kelią."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich verstellen"
+            "verstellen",
+            "verstellt sich",
+            "verstelle mich",
+            "sich verstellen",
+            "verstellt",
+            "verstellte",
+            "verstelle"
           ],
-          "red": [
-            "als"
+          "purple": [
+            "apsimesti",
+            "dėtis kuo"
+          ],
+          "green": [
+            "sich ausgeben als"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "verstellt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apsimeta"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verstellen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apsimetinėti"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verstellte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pakeitė"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verstellt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apsimetinėja"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich ausgeben als"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "dėtis kuo"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "so tun, als ob"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apsimesti"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "sich verstellen",
+              "verstellen"
+            ],
+            "green": [
+              "sich ausgeben als"
+            ]
+          },
+          {
+            "blue": [
+              "verstellen"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "verstellen",
+              "verstellt"
+            ]
+          }
+        ]
       }
     }
   },
@@ -13453,19 +25648,19 @@ const B2_WORDS = [
     "de": "Verstorbene",
     "de_article": "der",
     "de_plural": "die Verstorbenen",
-    "lv": "išėjusysis • mirusysis",
+    "lv": "velionis • mirusysis",
     "level": "B2"
   },
   {
     "de": "Versuchung",
     "de_article": "die",
     "de_plural": "die Versuchungen",
-    "lv": "gundymas",
+    "lv": "pagunda • gundymas",
     "level": "B2"
   },
   {
     "de": "vertagen",
-    "lv": "atidėti • padėti",
+    "lv": "atidėti",
     "level": "B2"
   },
   {
@@ -13477,7 +25672,7 @@ const B2_WORDS = [
     "de": "Vertretung",
     "de_article": "die",
     "de_plural": "die Vertretungen",
-    "lv": "pakeitimas • pavadavimas • atstovybė • atstovavimas",
+    "lv": "pavadavimas • atstovybė • atstovavimas",
     "level": "B2"
   },
   {
@@ -13487,12 +25682,12 @@ const B2_WORDS = [
   },
   {
     "de": "verwandeln",
-    "lv": "pertvarkyti (performuoti)",
+    "lv": "paversti • pertvarkyti",
     "level": "B2"
   },
   {
     "de": "verweigern",
-    "lv": "neigti • atsisakyti",
+    "lv": "atsisakyti • atsakyti",
     "level": "B2"
   },
   {
@@ -13516,7 +25711,7 @@ const B2_WORDS = [
   },
   {
     "de": "verwickeln",
-    "lv": "susipinti • perk. įpainioti • įtraukti",
+    "lv": "supainioti • įpainioti • įtraukti",
     "level": "B2"
   },
   {
@@ -13543,25 +25738,182 @@ const B2_WORDS = [
   },
   {
     "de": "sich verwundern",
-    "lv": "stebėtis (kuo)",
+    "lv": "stebėtis",
     "level": "B2",
     "study": {
       "id": "b2-sich-verwundern",
-      "layout": "minimalStudy",
-      "translation": "stebėtis (kuo)",
-      "rektion": "über + ką?",
-      "explanation": "sich verwundern reikalauja nustatyto prielinksnio über + ką?.",
-      "forms": "über + ką?",
-      "formsLabel": "Valdymas:",
+      "layout": "standardStudy",
+      "translation": "stebėtis",
+      "explanation": [
+        "Pagrindinė mintis: sich verwundern reiškia stebėtis — jausti nuostabą dėl ko nors netikėto ar nesuprantamo.",
+        "Veiksmažodis yra sangrąžinis, vartojamas su prielinksniu über + Akkusativ: sich über etwas verwundern. Formos: ich verwundere mich, er verwundert sich, verwunderte sich, hat sich verwundert. Dažnai eina ir šalutinis sakinys su dass: sich darüber verwundern, dass …",
+        "Šnekamojoje kalboje dažniau vartojamas paprastesnis sich wundern; sich verwundern skamba oficialiau ir knygiškiau."
+      ],
+      "examples": [
+        {
+          "de": "Ich verwundere mich über seine Antwort.",
+          "lv": "Stebiuosi jo atsakymu."
+        },
+        {
+          "de": "Sie verwunderte sich darüber, dass niemand kam.",
+          "lv": "Ji stebėjosi, kad niekas neatėjo."
+        },
+        {
+          "de": "Wir verwundern uns über das schlechte Wetter im Mai.",
+          "lv": "Stebimės blogu oru gegužę."
+        },
+        {
+          "de": "Er hat sich sehr über den Preis verwundert.",
+          "lv": "Jis labai stebėjosi kaina."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich wundern",
+          "meaning": "stebėtis",
+          "example": "Ich wundere mich über ihn. – Aš juo stebiuosi."
+        },
+        {
+          "word": "staunen",
+          "meaning": "stebėtis, žavėtis",
+          "example": "Die Kinder staunen über den Zauberer. – Vaikai stebisi burtininku."
+        },
+        {
+          "word": "überrascht sein",
+          "meaning": "būti nustebusiam",
+          "example": "Ich bin überrascht. – Esu nustebęs."
+        }
+      ],
+      "tip": [
+        "Išmok kartu: sich verwundern über + Akkusativ (o ne su Dativ).",
+        "Kasdien paprasčiau sakyk sich wundern; sich verwundern yra oficialesnis jo variantas."
+      ],
+      "important": [
+        "Nepainiok su verwunden (sužeisti) — tai kitas žodis su kita reikšme."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich verwundern"
+            "sich verwundern",
+            "über",
+            "verwundert",
+            "verwunderte",
+            "sich wundern",
+            "verwundere",
+            "verwundern"
           ],
-          "red": [
-            "über"
+          "purple": [
+            "stebėtis",
+            "nuostabą"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "verwundere"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Stebiuosi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verwunderte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "stebėjosi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verwundern"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Stebimės"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verwundert"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "stebėjosi"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich wundern"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "stebėtis"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "staunen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "žavėtis"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "überrascht sein"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "nustebusiam"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "sich verwundern",
+              "über",
+              "verwundern"
+            ]
+          },
+          {
+            "blue": [
+              "sich verwundern",
+              "sich wundern",
+              "verwundern"
+            ]
+          }
+        ],
+        "important": [
+          {}
+        ]
       }
     }
   },
@@ -13608,7 +25960,7 @@ const B2_WORDS = [
     "de": "Viehbestand",
     "de_article": "der",
     "de_plural": "die Viehbestände",
-    "lv": "gyvulių [bendras] skaičius",
+    "lv": "gyvulių skaičius",
     "level": "B2"
   },
   {
@@ -13665,7 +26017,7 @@ const B2_WORDS = [
   },
   {
     "de": "vollzählig",
-    "lv": "esantis pilname sąstate",
+    "lv": "visas • pilnos sudėties",
     "level": "B2"
   },
   {
@@ -13689,7 +26041,7 @@ const B2_WORDS = [
   },
   {
     "de": "voran",
-    "lv": "priekyje • priešakyje • priešaky",
+    "lv": "priekyje • priešakyje • pirma",
     "level": "B2"
   },
   {
@@ -13716,7 +26068,7 @@ const B2_WORDS = [
   },
   {
     "de": "vorbeugen",
-    "lv": "pašalinti",
+    "lv": "užkirsti kelią • apsaugoti",
     "level": "B2"
   },
   {
@@ -13766,12 +26118,12 @@ const B2_WORDS = [
     "de": "Vorliebe",
     "de_article": "die",
     "de_plural": "die Vorlieben",
-    "lv": "ypatingas palankumas",
+    "lv": "pomėgis • ypatingas mėgimas",
     "level": "B2"
   },
   {
     "de": "vornehmen",
-    "lv": "padaryti • atlikti • imtis • ko nors užsiimti",
+    "lv": "atlikti • imtis • užsibrėžti",
     "level": "B2"
   },
   {
@@ -13788,7 +26140,7 @@ const B2_WORDS = [
   },
   {
     "de": "vorsätzlich",
-    "lv": "sąmoningas • tyčia",
+    "lv": "tyčinis • sąmoningas • tyčia",
     "level": "B2"
   },
   {
@@ -13809,7 +26161,7 @@ const B2_WORDS = [
     "de": "Vorstand",
     "de_article": "der",
     "de_plural": "die Vorstände",
-    "lv": "valdyba • vadovybė • vadovavimas • viršininkas",
+    "lv": "valdyba • vadovybė • vadovas",
     "level": "B2"
   },
   {
@@ -13821,7 +26173,7 @@ const B2_WORDS = [
   },
   {
     "de": "vortragen",
-    "lv": "skaityti paskaitą • atlikti • deklamuoti • groti",
+    "lv": "skaityti paskaitą • atlikti • deklamuoti",
     "level": "B2"
   },
   {
@@ -13833,7 +26185,7 @@ const B2_WORDS = [
     "de": "Vorverkauf",
     "de_article": "der",
     "de_plural": "die Vorverkäufe",
-    "lv": "priešpardavimas",
+    "lv": "išankstinis pardavimas",
     "level": "B2"
   },
   {
@@ -13878,7 +26230,7 @@ const B2_WORDS = [
     "de": "Wacholder",
     "de_article": "der",
     "de_plural": "die Wacholder",
-    "lv": "kadagys • kadagys",
+    "lv": "kadagys",
     "level": "B2"
   },
   {
@@ -13892,7 +26244,7 @@ const B2_WORDS = [
     "de": "Wade",
     "de_article": "die",
     "de_plural": "die Waden",
-    "lv": "ikrai",
+    "lv": "blauzda",
     "level": "B2"
   },
   {
@@ -13927,7 +26279,7 @@ const B2_WORDS = [
     "de": "Wählscheibe",
     "de_article": "die",
     "de_plural": "die Wählscheiben",
-    "lv": "telefono ciferblatas",
+    "lv": "telefono numerių rinkiklis",
     "level": "B2"
   },
   {
@@ -13937,7 +26289,7 @@ const B2_WORDS = [
   },
   {
     "de": "wahrnehmen",
-    "lv": "suvokti • priimti",
+    "lv": "suvokti • pastebėti",
     "level": "B2"
   },
   {
@@ -13961,7 +26313,7 @@ const B2_WORDS = [
   },
   {
     "de": "wanken",
-    "lv": "svirduliuoti • perk. svyruoti",
+    "lv": "svyruoti • svirduliuoti",
     "level": "B2"
   },
   {
@@ -14049,14 +26401,14 @@ const B2_WORDS = [
   {
     "de": "Wehrpflicht",
     "de_article": "die",
-    "lv": "karo tarnyba",
+    "lv": "karo prievolė",
     "level": "B2"
   },
   {
     "de": "Weib",
     "de_article": "das",
     "de_plural": "die Weiber",
-    "lv": "šnek. menk. moteris",
+    "lv": "boba • moteriškė",
     "level": "B2"
   },
   {
@@ -14122,7 +26474,7 @@ const B2_WORDS = [
     "de": "Werkbank",
     "de_article": "die",
     "de_plural": "die Werkbänke",
-    "lv": "staklės",
+    "lv": "darbastalis • varstotas",
     "level": "B2"
   },
   {
@@ -14164,14 +26516,180 @@ const B2_WORDS = [
     "de": "Wesen",
     "de_article": "das",
     "de_plural": "die Wesen",
-    "lv": "būtybė • padaras • esmė • charakteris",
-    "level": "B2"
+    "lv": "būtybė • esmė • charakteris",
+    "level": "B2",
+    "study": {
+      "id": "b2-wesen",
+      "layout": "standardStudy",
+      "translation": "būtybė • esmė • charakteris",
+      "explanation": [
+        "Pagrindinė mintis: das Wesen yra žodis su keliomis reikšmėmis. Pirma, gyva būtybė ar padaras (ein fremdes Wesen), antra, ko nors esmė (das Wesen der Sache), trečia, žmogaus charakteris ar būdas (ein freundliches Wesen).",
+        "Tai niekatrosios giminės daiktavardis: das Wesen. Daugiskaita yra die Wesen (be umliauto). Reikšme „esmė“ žodis paprastai neturi daugiskaitos.",
+        "Dažnas posakis: im Wesentlichen — iš esmės, daugiausia."
+      ],
+      "examples": [
+        {
+          "de": "Im Märchen kommt ein fremdes Wesen vor.",
+          "lv": "Pasakoje pasirodo keista būtybė."
+        },
+        {
+          "de": "Der Mensch ist ein soziales Wesen.",
+          "lv": "Žmogus yra socialinė būtybė."
+        },
+        {
+          "de": "Das Wesen der Demokratie ist die Teilnahme aller.",
+          "lv": "Demokratijos esmė — visų dalyvavimas."
+        },
+        {
+          "de": "Sie hat ein freundliches Wesen.",
+          "lv": "Ji draugiško būdo."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "der Charakter",
+          "meaning": "charakteris",
+          "example": "Er hat einen starken Charakter. – Jis turi tvirtą charakterį."
+        },
+        {
+          "word": "das Lebewesen",
+          "meaning": "gyva būtybė",
+          "example": "Pflanzen sind Lebewesen. – Augalai yra gyvos būtybės."
+        },
+        {
+          "word": "der Kern",
+          "meaning": "branduolys, esmė",
+          "example": "Das ist der Kern des Problems. – Tai problemos esmė."
+        }
+      ],
+      "tip": [
+        "Įsimink tris reikšmes: būtybė (kas gyvena), esmė (kas glūdi ko nors pagrinde), charakteris (koks yra žmogus).",
+        "Žodžio reikšmę lemia kontekstas: su būdvardžiu freundlich ar ruhig paprastai tai charakteris."
+      ],
+      "important": [
+        "Nepainiok su das Wesentliche (svarbiausia, esminis dalykas) — tai kitas daiktavardis."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "das Wesen",
+            "die Wesen",
+            "Wesen",
+            "im Wesentlichen",
+            "das Wesen der Sache",
+            "ein fremdes Wesen",
+            "Wesentlichen"
+          ],
+          "purple": [
+            "būtybė",
+            "padaras",
+            "esmė",
+            "charakteris"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Wesen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "būtybė"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Wesen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "būtybė"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Wesen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "esmė"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Wesen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "būdo"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "der Charakter"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "charakteris"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "das Lebewesen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "būtybė"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Kern"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "branduolys"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "Wettlauf",
     "de_article": "der",
     "de_plural": "die Wettläufe",
-    "lv": "sport. bėgimo lenktynės • bėgimas",
+    "lv": "bėgimo lenktynės • lenktynės",
     "level": "B2"
   },
   {
@@ -14226,21 +26744,170 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-widersetzen",
-      "layout": "minimalStudy",
+      "layout": "standardStudy",
       "translation": "priešintis • stoti prieš",
-      "rektion": "+ kam?",
-      "explanation": "sich widersetzen reikalauja + kam?.",
-      "forms": "+ kam?",
-      "formsLabel": "Valdymas:",
+      "explanation": [
+        "Pagrindinė mintis: sich widersetzen reiškia priešintis kam nors — nepaklusti įsakymui, spaudimui, sprendimui ar asmeniui.",
+        "Veiksmažodis yra sangrąžinis ir reikalauja Dativ: sich jemandem/etwas widersetzen. Formos: widersetzt sich, widersetzte sich, hat sich widersetzt. Priešdėlis wider- neskiriamas."
+      ],
+      "examples": [
+        {
+          "de": "Er widersetzte sich dem Befehl.",
+          "lv": "Jis pasipriešino įsakymui."
+        },
+        {
+          "de": "Die Bürger widersetzen sich der Entscheidung der Regierung.",
+          "lv": "Piliečiai priešinasi vyriausybės sprendimui."
+        },
+        {
+          "de": "Sie hat sich dem Druck nicht widersetzt.",
+          "lv": "Ji nesipriešino spaudimui."
+        },
+        {
+          "de": "Niemand wagte es, sich dem Chef zu widersetzen.",
+          "lv": "Niekas nedrįso stoti prieš viršininką."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Widerstand leisten",
+          "meaning": "rodyti pasipriešinimą",
+          "example": "Das Volk leistete Widerstand. – Tauta pasipriešino."
+        },
+        {
+          "word": "sich wehren gegen",
+          "meaning": "gintis nuo",
+          "example": "Er wehrt sich gegen die Vorwürfe. – Jis ginasi nuo kaltinimų."
+        },
+        {
+          "word": "ablehnen",
+          "meaning": "atmesti",
+          "example": "Sie lehnt das Angebot ab. – Ji atmeta pasiūlymą."
+        }
+      ],
+      "tip": [
+        "Po sich widersetzen visada eina Dativ: dem Befehl, dem Druck, dem Chef.",
+        "Tinka oficialiam ar rašytiniam stiliui; šnekamojoje kalboje dažniau sakoma sich wehren."
+      ],
+      "important": [
+        "Nevartok prielinksnio: ne sich gegen etwas widersetzen, o sich etwas widersetzen (Dativ)."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich widersetzen"
+            "sich widersetzen",
+            "widersetzt",
+            "widersetzte",
+            "widersetzen"
           ],
-          "red": [
-            "+ kam?"
+          "purple": [
+            "priešintis"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "widersetzte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pasipriešino"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "widersetzen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "priešinasi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "widersetzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nesipriešino"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "widersetzen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "stoti prieš"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "Widerstand leisten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "pasipriešinimą"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich wehren gegen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "gintis"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "ablehnen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "atmesti"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "sich widersetzen",
+              "widersetzen"
+            ]
+          },
+          {}
+        ],
+        "important": [
+          {
+            "blue": [
+              "widersetzen"
+            ]
+          }
+        ]
       }
     }
   },
@@ -14277,7 +26944,7 @@ const B2_WORDS = [
     "de": "Windbeutel",
     "de_article": "der",
     "de_plural": "die Windbeutel",
-    "lv": "vėjo pyragaitis",
+    "lv": "plikytas pyragaitis",
     "level": "B2"
   },
   {
@@ -14363,7 +27030,7 @@ const B2_WORDS = [
     "de": "Zusage",
     "de_article": "die",
     "de_plural": "die Zusagen",
-    "lv": "pritariamas atsakymas",
+    "lv": "teigiamas atsakymas • pažadas",
     "level": "B2"
   },
   {
@@ -14373,12 +27040,12 @@ const B2_WORDS = [
   },
   {
     "de": "zusammenlegen",
-    "lv": "dėti • sudėti [kartu]",
+    "lv": "sudėti • sujungti",
     "level": "B2"
   },
   {
     "de": "zuschneiden",
-    "lv": "kirpti (medžiagą)",
+    "lv": "sukirpti • iškirpti",
     "level": "B2"
   },
   {
@@ -14393,7 +27060,7 @@ const B2_WORDS = [
   },
   {
     "de": "zutrauen",
-    "lv": "tikėtis • manyti gabiu",
+    "lv": "laikyti pajėgiu • tikėtis",
     "level": "B2"
   },
   {
@@ -14418,57 +27085,64 @@ const B2_WORDS = [
       "id": "b2-zuweisen",
       "layout": "standardStudy",
       "translation": "suteikti • paskirti",
-      "explanation": "Pagrindinė mintis: zuweisen reiškia oficialiai suteikti arba paskirti — užduotį, vaidmenį, resursą ar pinigus konkrečiam asmeniui ar padaliniui. Atskiriamas veiksmažodis: weise ... zu.",
+      "explanation": [
+        "Pagrindinė mintis: zuweisen reiškia oficialiai suteikti ar skirti kam nors ką nors (vietą, užduotį, butą, lėšas) arba paskirti žmogų į kokią nors vietą.",
+        "Skiriamasis veiksmažodis: er weist zu, wies zu, hat zugewiesen. Paprastai vartojamas su Dativ (kam?) ir Akkusativ (ką?): jemandem etwas zuweisen. Dažnai vartojamas ir pasyvas: Mir wurde ein Platz zugewiesen.",
+        "Žodis oficialus, vartojamas įstaigų, mokyklų, įmonių kalboje."
+      ],
       "examples": [
         {
-          "de": "Der Chef weist ihm eine neue Aufgabe zu.",
-          "lv": "Viršininkas jam paskiria naują užduotį."
+          "de": "Die Schule weist den Kindern Klassenräume zu.",
+          "lv": "Mokykla skiria vaikams klases."
         },
         {
-          "de": "Die Mittel wurden dem Projekt zugewiesen.",
-          "lv": "Lėšos buvo skirtos projektui."
+          "de": "Der Chef wies mir eine neue Aufgabe zu.",
+          "lv": "Viršininkas paskyrė man naują užduotį."
         },
         {
-          "de": "Sie wurde einer anderen Abteilung zugewiesen.",
-          "lv": "Jį paskyrė į kitą skyrių."
+          "de": "Dem Studenten wurde ein Platz im Wohnheim zugewiesen.",
+          "lv": "Studentui buvo skirta vieta bendrabutyje."
+        },
+        {
+          "de": "Die Stadt hat der Familie eine Wohnung zugewiesen.",
+          "lv": "Miestas suteikė šeimai butą."
         }
       ],
       "comparison": [
         {
-          "word": "zuweisen",
-          "meaning": "suteikti • paskirti",
-          "example": "Er weist die Aufgabe zu. = Viņš piešķir uzdevumu."
+          "word": "zuteilen",
+          "meaning": "skirstyti, skirti",
+          "example": "Man teilt uns die Arbeit zu. – Mums paskiriamas darbas."
+        },
+        {
+          "word": "zuordnen",
+          "meaning": "priskirti",
+          "example": "Ordne die Wörter den Bildern zu. – Priskirk žodžius paveikslėliams."
         },
         {
           "word": "geben",
           "meaning": "duoti",
-          "example": "Er gibt mir die Arbeit. = Viņš man dod darbu."
-        },
-        {
-          "word": "verteilen",
-          "meaning": "padalinti",
-          "example": "Er verteilt die Aufgaben. = Viņš sadala uzdevumus."
+          "example": "Ich gebe dir das Buch. – Duodu tau knygą."
         }
       ],
-      "tip": {
-        "leftBlocks": [
-          {
-            "text": "zuweisen pabrėžia formalų suteikimą — darbe, administracijoje, projektuose."
-          }
-        ]
-      },
-      "important": {
-        "text": "zuweisen = oficialiai suteikti arba paskirti. Perfektas: zugewiesen. Atskiriamas veiksmažodis: weise ... zu."
-      },
+      "tip": [
+        "Įsimink atskyrimą: Er weist mir etwas zu, bet šalutiniame sakinyje …, weil er mir etwas zuweist.",
+        "Dativ yra gavėjas: wem? — dem Studenten, der Familie."
+      ],
+      "important": [
+        "Partizip II yra zugewiesen — ge- įterpiama tarp zu ir weisen."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "zuweisen",
-            "weise",
-            "zu"
+            "weist zu",
+            "weist",
+            "wies",
+            "zugewiesen"
           ],
           "purple": [
-            "skirti",
+            "suteikti",
             "paskirti"
           ]
         },
@@ -14476,8 +27150,7 @@ const B2_WORDS = [
           {
             "de": {
               "blue": [
-                "weist",
-                "zu"
+                "weist"
               ]
             },
             "lv": {
@@ -14489,12 +27162,12 @@ const B2_WORDS = [
           {
             "de": {
               "blue": [
-                "zugewiesen"
+                "wies"
               ]
             },
             "lv": {
               "purple": [
-                "skirtos"
+                "paskyrė"
               ]
             }
           },
@@ -14506,9 +27179,74 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "paskyrė"
+                "skirta"
               ]
             }
+          },
+          {
+            "de": {
+              "blue": [
+                "zugewiesen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "suteikė"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "zuteilen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "skirstyti"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "zuordnen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "priskirti"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "geben"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "duoti"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "weist"
+            ]
+          },
+          {}
+        ],
+        "important": [
+          {
+            "blue": [
+              "zugewiesen"
+            ]
           }
         ]
       }
@@ -14529,64 +27267,70 @@ const B2_WORDS = [
       "id": "b2-zuwider",
       "layout": "standardStudy",
       "translation": "prieš • priešingai • nepatikti",
-      "explanation": "Pagrindinė mintis: zuwider yra žodis su keliomis funkcijomis. Kaip prielinksnis + datyvas jis reiškia „prieš, priešingai“: mir zuwider. Kaip dalis posakio jemandem zuwider sein/laufen reiškia „kam nors nepatikti, tapti nepatinkamu“. Nesupainioti su wider (prieš).",
+      "explanation": [
+        "Pagrindinė mintis: zuwider yra žodis, vartojamas su Dativ dviem būdais. Su sein — etwas ist mir zuwider — jis reiškia, kad kažkas man šlykštu, bjauru ar nepatinka. Po daiktavardžio — dem Gesetz zuwider — jis reiškia priešingai kam nors.",
+        "Pirmąja reikšme zuwider yra būdvardis ir nekaitomas: Das ist mir zuwider. Antrąja reikšme jis paprastai eina po daiktavardžio, pavartoto Dativ: dem Gesetz zuwider handeln. Čia dažnai vartojami skiriamieji veiksmažodžiai zuwiderhandeln (elgtis priešingai) ir zuwiderlaufen (prieštarauti): Das läuft dem Plan zuwider.",
+        "Tai oficialus, kiek knyginis žodis."
+      ],
       "examples": [
         {
-          "de": "Er handelte mir zuwider.",
-          "lv": "Jis veikė prieš mano valią."
+          "de": "Dieser Geruch ist mir zuwider.",
+          "lv": "Šis kvapas man bjaurus."
         },
         {
-          "de": "Sein Benehmen ist mir zuwider.",
-          "lv": "Man nepatinka jo elgesys."
+          "de": "Lügen ist ihm zuwider.",
+          "lv": "Melavimas jam šlykštus."
         },
         {
-          "de": "Das läuft mir zuwider.",
-          "lv": "Man tai nepatinka / tai mane nuliūdina."
+          "de": "Das läuft dem Gesetz zuwider.",
+          "lv": "Tai prieštarauja įstatymui."
+        },
+        {
+          "de": "Er handelte den Regeln zuwider.",
+          "lv": "Jis elgėsi priešingai taisyklėms."
         }
       ],
       "comparison": [
         {
-          "word": "zuwider (+ Dat.)",
-          "meaning": "prieš • priešingai",
-          "example": "mir zuwider = pret manu gribu"
+          "word": "entgegen",
+          "meaning": "priešingai",
+          "example": "Entgegen der Vorhersage regnete es nicht. – Priešingai prognozei, nelijo."
         },
         {
-          "word": "jemandem zuwider sein",
-          "meaning": "kam nors nepatikti",
-          "example": "Es ist mir zuwider. = Man tas nepatīk."
+          "word": "widerlich",
+          "meaning": "šlykštus",
+          "example": "Der Geruch ist widerlich. – Kvapas šlykštus."
         },
         {
-          "word": "wider",
-          "meaning": "prieš (prielinksnis)",
-          "example": "wider den Willen = pret gribu"
-        },
-        {
-          "word": "widersprechen",
-          "meaning": "prieštarauti • nesutikti",
-          "example": "Ich widerspreche. = Es iebilstu."
+          "word": "gegen",
+          "meaning": "prieš",
+          "example": "Das ist gegen die Regeln. – Tai prieš taisykles."
         }
       ],
-      "tip": {
-        "leftBlocks": [
-          {
-            "text": "Pagrindinė reikšmė: prieš / priešingai (mir zuwider). Idiomiškai: jemandem zuwider sein/laufen = kam nors nepatikti."
-          }
-        ]
-      },
-      "important": {
-        "text": "zuwider + datyvas = prieš, priešingai. zuwider sein = nepatikti. Tai nėra tas pats, kas wider."
-      },
+      "tip": [
+        "Įsimink vieną frazę: Das ist mir zuwider. — Tai man šlykštu / man tai bjauru.",
+        "Su zuwider visada vartojamas Dativ: mir, ihm, dem Gesetz."
+      ],
+      "important": [
+        "Su zuwider nevartojamas Akkusativ: ne mich zuwider, o mir zuwider.",
+        "Reikšme „priešingai“ zuwider paprastai stovi po daiktavardžio: dem Gesetz zuwider; entgegen paprastai stovi prieš jį: entgegen dem Gesetz."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "zuwider"
+            "zuwider",
+            "zuwiderhandeln",
+            "zuwiderlaufen",
+            "läuft",
+            "mir zuwider",
+            "dem Gesetz zuwider",
+            "Das ist mir zuwider"
           ],
           "purple": [
-            "prieš",
-            "nepatikti"
-          ],
-          "green": [
-            "wider"
+            "šlykštu",
+            "bjauru",
+            "nepatinka",
+            "priešingai"
           ]
         },
         "examples": [
@@ -14598,33 +27342,114 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
+                "bjaurus"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "zuwider"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "šlykštus"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "zuwider"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "prieštarauja"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "zuwider"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "priešingai"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "entgegen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "priešingai"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "widerlich"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "šlykštus"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "gegen"
+              ]
+            },
+            "meaning": {
+              "purple": [
                 "prieš"
               ]
             }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "zuwider",
+              "mir zuwider",
+              "Das ist mir zuwider"
+            ]
           },
           {
-            "de": {
-              "blue": [
-                "zuwider"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "nepatinka"
-              ]
-            }
+            "blue": [
+              "zuwider"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "zuwider",
+              "mir zuwider"
+            ]
           },
           {
-            "de": {
-              "blue": [
-                "zuwider"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "nepatinka"
-              ]
-            }
+            "blue": [
+              "zuwider",
+              "dem Gesetz zuwider"
+            ],
+            "green": [
+              "entgegen"
+            ]
           }
         ]
       }
@@ -14681,116 +27506,180 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "sukeisti • pakeisti",
       "explanation": [
-        "Pagrindinė mintis: Sukeisti arba pakeisti ką nors į kitą — pinigus, drabužius, darbą, mokyklą, temą.",
-        "wechseln pirmiausia reiškia: pakeisti į kitą.",
-        "Dažnai nusako: mainą / keitimą.",
-        "wechseln vartojamas, kai kas nors sukeičiama arba pakeičiama į kitą — pinigai, drabužiai, darbas, mokykla ar tema."
+        "Pagrindinė mintis: wechseln reiškia pakeisti vieną daiktą kitu arba iškeisti pinigus: Geld wechseln, die Schule wechseln, den Reifen wechseln. Be papildinio jis gali reikšti ir keistis (Das Wetter wechselt).",
+        "Formos: wechselt, wechselte, hat gewechselt. Kaip galininkinis veiksmažodis jis reikalauja Akkusativ: etwas wechseln. Perėjimui kitur vartojami prielinksniai in/auf/zu: Er wechselt zu einem anderen Verein.",
+        "Daiktavardis yra der Wechsel (pakeitimas, kaita). Jei kas nors padaroma kitoks (o ne pakeičiamas kitu), dažniau vartojama ändern arba sich verändern."
       ],
       "examples": [
         {
-          "de": "Ich wechsle die Schule.",
-          "lv": "Aš keičiu mokyklą."
+          "de": "Ich muss noch Geld wechseln.",
+          "lv": "Man dar reikia išsikeisti pinigų."
         },
         {
-          "de": "Ich muss Geld wechseln.",
-          "lv": "man reikia pasikeisti pinigus."
+          "de": "Sie wechselt die Schule im Sommer.",
+          "lv": "Vasarą ji keičia mokyklą."
         },
         {
-          "de": "Wir wechseln das Thema.",
-          "lv": "mes keičiame temą."
+          "de": "Können Sie mir zwanzig Euro wechseln?",
+          "lv": "Ar galite man iškeisti dvidešimt eurų?"
         },
         {
-          "de": "Ich wechsle die Schule.",
-          "lv": "aš keičiu mokyklą."
+          "de": "Das Wetter wechselt oft.",
+          "lv": "Oras dažnai keičiasi."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "ändern",
+          "meaning": "keisti (padaryti kitokį)",
+          "example": "Ich ändere meinen Plan. – Keičiu savo planą."
+        },
+        {
+          "word": "tauschen",
+          "meaning": "mainytis",
+          "example": "Wir tauschen die Plätze. – Mes apsikeičiame vietomis."
+        },
+        {
+          "word": "sich verändern",
+          "meaning": "pasikeisti",
+          "example": "Die Stadt hat sich verändert. – Miestas pasikeitė."
         }
       ],
       "tip": [
-        "Sukeisti arba pakeisti ką nors į kitą — pinigus, drabužius, darbą, mokyklą, temą.",
-        "Vartok wechseln, kai kontekstas atitinka šią reikšmę."
+        "Pinigams keisti vartojama Geld wechseln; smulkių paprašoma fraze Können Sie mir das wechseln?",
+        "Kai ką nors pakeiti nauju, tai wechseln: den Reifen, die Wohnung, den Beruf."
       ],
       "important": [
-        "wechseln = sukeisti arba pakeisti į kitą (Geld, Schule, Thema).",
-        "Pinigai, mokykla, darbas, tema: wechseln.",
-        "Sukeisti arba pakeisti ką nors į kitą — pinigus, drabužius, darbą, mokyklą, temą."
+        "Nepainiok su ändern: wechseln reiškia pakeisti kitu, ändern — padaryti kitokį."
       ],
       "sectionAccents": {
         "explanation": {
-          "green": [
-            "wechseln"
+          "blue": [
+            "wechseln",
+            "wechselt",
+            "wechselte",
+            "gewechselt",
+            "der Wechsel",
+            "Geld wechseln"
           ],
           "purple": [
-            "sukeisti",
-            "pakeisti"
+            "pakeisti",
+            "iškeisti pinigus",
+            "keistis"
+          ],
+          "green": [
+            "ändern",
+            "sich verändern"
           ]
         },
         "examples": [
           {
             "de": {
-              "green": [
-                "wechsle"
+              "blue": [
+                "wechseln"
               ]
             },
             "lv": {
               "purple": [
-                "keičiu"
+                "išsikeisti"
               ]
             }
           },
           {
             "de": {
-              "green": [
-                "wechseln",
+              "blue": [
+                "wechselt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "keičia"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
                 "wechseln"
               ]
             },
             "lv": {
+              "purple": [
+                "iškeisti"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "wechselt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "keičiasi"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "ändern"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "keisti"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "tauschen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "mainytis"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich verändern"
+              ]
+            },
+            "meaning": {
               "purple": [
                 "pasikeisti"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "wechseln",
-                "wechseln"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "keičiame"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "wechsle"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "keičiu"
               ]
             }
           }
         ],
         "tip": [
           {
-            "purple": [
-              "sukeisti"
+            "blue": [
+              "wechseln",
+              "Geld wechseln"
             ]
           },
           {
-            "purple": [
-              "pakeisti"
+            "blue": [
+              "wechseln"
             ]
           }
         ],
         "important": [
           {
-            "green": [
+            "blue": [
               "wechseln"
+            ],
+            "green": [
+              "ändern"
             ]
           }
         ]
@@ -14806,58 +27695,73 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "pasiūlyti • suteikti",
       "explanation": [
-        "Pagrindinė mintis: Pasiūlyti galimybes, kursus, paslaugas ar naudą — tai, ką teikia vieta ar programa.",
-        "bieten pirmiausia reiškia: suteikti galimybę / naudą.",
-        "Dažnai nusako: ką duoda vieta/programa.",
-        "bieten pirmiausia reiškia: užtikrinti galimybę.",
-        "Dažnai nusako: formaliau.",
-        "bieten dažnai apibūdina, ką teikia vieta, programa ar paslauga (Die Schule bietet viele Kurse)."
+        "Pagrindinė mintis: bieten reiškia siūlyti (kainą, galimybę, pagalbą) arba teikti, užtikrinti (vaizdą, saugumą, pramogas). Veiksnys gali būti ir žmogus, ir vieta ar įstaiga.",
+        "Stiprusis veiksmažodis: er bietet, bot, hat geboten. Paprastai vartojamas su Akkusativ, o asmuo nurodomas Dativ: jemandem etwas bieten. Siūlant kainą aukcione ar perkant: Wie viel bietest du?",
+        "Su skiriamuoju priešdėliu anbieten reiškia konkretų pasiūlymą kam nors; paprastas bieten dažnai nusako, ką vieta ar daiktas gali duoti."
       ],
       "examples": [
         {
-          "de": "Die Schule bietet viele Kurse.",
-          "lv": "Mokykla siūlo daug kursų."
+          "de": "Das Hotel bietet einen schönen Blick auf das Meer.",
+          "lv": "Viešbutis siūlo gražų vaizdą į jūrą."
         },
         {
-          "de": "Darf ich Ihnen etwas anbieten?",
-          "lv": "ar galiu jums kai ką pasiūlyti?"
+          "de": "Wie viel bietest du für das Auto?",
+          "lv": "Kiek siūlai už automobilį?"
         },
         {
-          "de": "Die Schule bietet viele Kurse.",
-          "lv": "Mokykla siūlo daug kursų."
+          "de": "Die Stadt bietet jungen Leuten viele Möglichkeiten.",
+          "lv": "Miestas jaunimui suteikia daug galimybių."
         },
         {
-          "de": "Die App bietet Sicherheit.",
-          "lv": "programėlė užtikrina saugumą."
+          "de": "Das Museum bietet jeden Sonntag eine Führung.",
+          "lv": "Muziejus kiekvieną sekmadienį siūlo ekskursiją."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "anbieten",
+          "meaning": "pasiūlyti kam nors",
+          "example": "Darf ich Ihnen Tee anbieten? – Ar galiu jums pasiūlyti arbatos?"
         },
         {
-          "de": "bieten",
-          "lv": "ką kas nors suteikia; anbieten"
+          "word": "gewähren",
+          "meaning": "suteikti, užtikrinti",
+          "example": "Die Bank gewährt einen Kredit. – Bankas suteikia kreditą."
+        },
+        {
+          "word": "geben",
+          "meaning": "duoti",
+          "example": "Ich gebe dir mein Wort. – Duodu tau žodį."
         }
       ],
       "tip": [
-        "Pasiūlyti galimybes, kursus, paslaugas ar naudą — tai, ką teikia vieta ar programa.",
-        "Vartok bieten, kai kontekstas atitinka šią reikšmę."
+        "Jei aprašai, ką suteikia vieta ar paslauga, vartok bieten: Das Hotel bietet WLAN.",
+        "Jei konkretų daiktą siūlai kokiam nors žmogui, dažniau vartojama anbieten."
       ],
       "important": [
-        "bieten: Die Schule bietet Kurse. (neatskiriamas)",
-        "Ką teikia vieta/programa: bieten."
+        "Būtasis laikas yra bot (ne bietete): er bot, hat geboten."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "bieten"
+            "bieten",
+            "bietet",
+            "bietest",
+            "bot",
+            "geboten",
+            "anbieten"
           ],
           "purple": [
-            "pasiūlyti",
-            "teikti"
+            "siūlyti",
+            "teikti",
+            "užtikrinti"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "biete"
+                "bietet"
               ]
             },
             "lv": {
@@ -14869,70 +27773,96 @@ const B2_WORDS = [
           {
             "de": {
               "blue": [
-                "bieten",
-                "bieten"
+                "bietest"
               ]
             },
             "lv": {
+              "purple": [
+                "siūlai"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bietet"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "suteikia"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bietet"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "siūlo"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "anbieten"
+              ]
+            },
+            "meaning": {
               "purple": [
                 "pasiūlyti"
               ]
             }
           },
           {
-            "de": {
-              "blue": [
-                "biete"
+            "word": {
+              "green": [
+                "gewähren"
               ]
             },
-            "lv": {
+            "meaning": {
               "purple": [
-                "siūlo"
+                "suteikti"
               ]
             }
           },
           {
-            "de": {
-              "blue": [
-                "biete"
+            "word": {
+              "green": [
+                "geben"
               ]
             },
-            "lv": {
+            "meaning": {
               "purple": [
-                "užtikrina"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "bieten",
-                "bieten"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "teikia"
+                "duoti"
               ]
             }
           }
         ],
         "tip": [
           {
-            "purple": [
-              "pasiūlyti"
+            "blue": [
+              "bieten",
+              "bietet"
             ]
           },
           {
-            "purple": [
-              "teikia"
+            "blue": [
+              "anbieten"
             ]
           }
         ],
         "important": [
           {
             "blue": [
-              "bieten"
+              "bot",
+              "geboten"
             ]
           }
         ]
@@ -14947,76 +27877,74 @@ const B2_WORDS = [
       "id": "b2-anbieten",
       "layout": "standardStudy",
       "translation": "pasiūlyti",
-      "explanation": "Pagrindinė mintis: anbieten reiškia aktyviai pasiūlyti kam nors — pagalbą, gėrimą, darbą ar paslaugą. Atskiriamas veiksmažodis: ich biete an, er bietet an. Pabrėžia iniciatyvą iš siūlančiojo pusės.",
+      "explanation": [
+        "Pagrindinė mintis: anbieten reiškia pasiūlyti kam nors ką nors: gėrimą, pagalbą, darbą, prekę ar paslaugą. Žmogus pats nusprendžia, ar pasiūlymą priimti.",
+        "Skiriamasis veiksmažodis: er bietet an, bot an, hat angeboten. Konstrukcija: jemandem etwas anbieten. Su bendratimi: Er bot an, mich zu fahren. Sangrąžinis sich anbieten reiškia pasisiūlyti, būti tinkamam: Das bietet sich an.",
+        "Daiktavardis yra das Angebot (pasiūlymas)."
+      ],
       "examples": [
         {
-          "de": "Ich biete dir meine Hilfe an.",
-          "lv": "aš tau pasiūlau savo pagalbą."
+          "de": "Darf ich Ihnen einen Kaffee anbieten?",
+          "lv": "Ar galiu jums pasiūlyti kavos?"
         },
         {
-          "de": "Darf ich Ihnen etwas anbieten?",
-          "lv": "ar galiu jums kai ką pasiūlyti?"
+          "de": "Die Firma bietet neue Produkte an.",
+          "lv": "Įmonė siūlo naujus produktus."
         },
         {
-          "de": "Das Unternehmen bietet neue Stellen an.",
-          "lv": "įmonė siūlo naujas darbo vietas."
+          "de": "Er bot mir an, mich nach Hause zu fahren.",
+          "lv": "Jis pasiūlė mane parvežti namo."
+        },
+        {
+          "de": "Sie hat uns ihre Hilfe angeboten.",
+          "lv": "Ji pasiūlė mums savo pagalbą."
         }
       ],
       "comparison": [
         {
-          "word": "anbieten",
-          "meaning": "pasiūlyti (aktyviai)",
-          "example": "Ich biete Hilfe an. = Es piedāvāju palīdzību."
-        },
-        {
           "word": "bieten",
-          "meaning": "pasiūlyti • duoti",
-          "example": "Er bietet viel Geld. = Viņš piedāvā daudz naudas."
+          "meaning": "siūlyti, teikti",
+          "example": "Das Hotel bietet viel. – Viešbutis daug ką siūlo."
         },
         {
           "word": "vorschlagen",
-          "meaning": "paskatinti",
-          "example": "Ich schlage vor. = Es ierosinu."
+          "meaning": "pasiūlyti (idėją)",
+          "example": "Ich schlage vor, dass wir gehen. – Siūlau eiti."
+        },
+        {
+          "word": "empfehlen",
+          "meaning": "rekomenduoti",
+          "example": "Ich empfehle dir das Buch. – Rekomenduoju tau šią knygą."
         }
       ],
-      "tip": {
-        "leftBlocks": [
-          {
-            "text": "anbieten pabrėžia, kad kažkas aktyviai pasiūlo kažką konkrečiam asmeniui: Ich biete dir ... an."
-          }
-        ]
-      },
-      "important": {
-        "text": "anbieten = aktyviai pasiūlyti. Atskiriamas: biete ... an. Perfektas: angeboten."
-      },
+      "tip": [
+        "Įsimink atskyrimą: Er bietet mir Hilfe an, bet šalutiniame sakinyje …, weil er mir Hilfe anbietet.",
+        "Atsakant į pasiūlymą galima pasakyti: Danke, gern. arba Nein, danke."
+      ],
+      "important": [
+        "Anbieten — tai pasiūlymas konkrečiam asmeniui; Angebot gali būti ir parduotuvėje siūloma prekė."
+      ],
       "sectionAccents": {
         "explanation": {
-          "green": [
+          "blue": [
             "anbieten",
-            "biete",
-            "an"
+            "bietet an",
+            "bot an",
+            "angeboten",
+            "bietet",
+            "bot",
+            "Angebot"
           ],
           "purple": [
-            "pasiūlyti"
+            "pasiūlyti",
+            "pasiūlymas",
+            "pasiūlymą"
           ]
         },
         "examples": [
           {
             "de": {
-              "green": [
-                "biete",
-                "an"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "siūlau"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
+              "blue": [
                 "anbieten"
               ]
             },
@@ -15028,9 +27956,8 @@ const B2_WORDS = [
           },
           {
             "de": {
-              "green": [
-                "bietet",
-                "an"
+              "blue": [
+                "bietet"
               ]
             },
             "lv": {
@@ -15038,6 +27965,84 @@ const B2_WORDS = [
                 "siūlo"
               ]
             }
+          },
+          {
+            "de": {
+              "blue": [
+                "bot"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pasiūlė"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "angeboten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pasiūlė"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "bieten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "teikti"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "vorschlagen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "pasiūlyti"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "empfehlen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "rekomenduoti"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "bietet"
+            ]
+          },
+          {}
+        ],
+        "important": [
+          {
+            "blue": [
+              "anbieten",
+              "Angebot"
+            ]
           }
         ]
       }
@@ -15052,58 +28057,76 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "reikalauti • prašyti",
       "explanation": [
-        "Pagrindinė mintis: Reikalauti pinigų, teisių, pakeitimų ar pareigos — aktyvus reikalavimas.",
-        "fordern pirmiausia reiškia: reikalauti / prašyti.",
-        "Dažnai nusako: aktyvus reikalavimas.",
-        "fordern pirmiausia reiškia: reikalauti standarto.",
-        "Dažnai nusako: formaliai.",
-        "fordern vartojamas, kai kas nors reikalauja pinigų, teisių, pakeitimų ar pareigos (Sie fordert mehr Geld)."
+        "Pagrindinė mintis: fordern reiškia griežtai reikalauti ko nors, į ką žmogus turi teisę arba ką laiko deramu. Paprastai tai stipriau nei bitten (prašyti).",
+        "Taisyklingasis veiksmažodis: er fordert, forderte, hat gefordert. Ko reikalaujama — Akkusativ, iš ko — von + Dativ: etwas von jemandem fordern. Gali eiti ir šalutinis sakinys su dass. Perkeltine prasme fordern gali reikšti „pareikalauti aukų“: Der Unfall forderte zwei Todesopfer.",
+        "Saugokis artimo žodžio: fordern (reikalauti) ir fördern (skatinti) skiriasi umliautu."
       ],
       "examples": [
         {
-          "de": "Sie fordert mehr Geld.",
-          "lv": "Ji reikalauja daugiau pinigų."
+          "de": "Die Arbeiter fordern höhere Löhne.",
+          "lv": "Darbininkai reikalauja didesnių atlyginimų."
         },
         {
-          "de": "Wir fordern mehr Transparenz.",
-          "lv": "mes reikalaujame didesnio skaidrumo."
+          "de": "Der Lehrer fordert von uns mehr Disziplin.",
+          "lv": "Mokytojas reikalauja iš mūsų daugiau drausmės."
         },
         {
-          "de": "Sie fordert mehr Geld.",
-          "lv": "ji reikalauja daugiau pinigų."
+          "de": "Der Unfall forderte zwei Todesopfer.",
+          "lv": "Nelaimingas atsitikimas pareikalavo dviejų gyvybių."
         },
         {
-          "de": "Wir fordern mehr Sicherheit.",
-          "lv": "mes reikalaujame didesnio saugumo."
+          "de": "Sie forderte, dass er sich entschuldigt.",
+          "lv": "Ji pareikalavo, kad jis atsiprašytų."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "fördern",
+          "meaning": "skatinti",
+          "example": "Sport fördert die Gesundheit. – Sportas stiprina sveikatą."
         },
         {
-          "de": "fordern",
-          "lv": "reikalauti; fördern"
+          "word": "verlangen",
+          "meaning": "reikalauti, prašyti",
+          "example": "Er verlangt die Rechnung. – Jis prašo sąskaitos."
+        },
+        {
+          "word": "bitten",
+          "meaning": "prašyti",
+          "example": "Ich bitte dich um Hilfe. – Prašau tavęs pagalbos."
         }
       ],
       "tip": [
-        "Reikalauti pinigų, teisių, pakeitimų ar pareigos — aktyvus reikalavimas.",
-        "Vartok fordern, kai kontekstas atitinka šią reikšmę."
+        "Jei reikalauji ko nors iš kito: etwas von jemandem fordern (von + Dativ).",
+        "Skirk porą fordern — fördern: o be umliauto yra „reikalauti“, ö — „skatinti“."
       ],
       "important": [
-        "fordern = reikalauti / prašyti (be ö).",
-        "Reikalavimas, prašymas: fordern (be ö).",
-        "Reikalauti pinigų, teisių, pakeitimų ar pareigos — aktyvus reikalavimas."
+        "Asmuo, iš kurio reikalaujama, paprastai nurodomas su von: etwas von jemandem fordern."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "fordern"
+            "fordern",
+            "fordert",
+            "forderte",
+            "gefordert",
+            "fördern",
+            "von"
           ],
           "purple": [
-            "reikalauti"
+            "reikalauti",
+            "pareikalauti",
+            "reikalaujama"
+          ],
+          "green": [
+            "bitten"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "forde"
+                "fordern"
               ]
             },
             "lv": {
@@ -15115,20 +28138,7 @@ const B2_WORDS = [
           {
             "de": {
               "blue": [
-                "fordern",
-                "fordern"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "reikalaujame"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "forde"
+                "fordert"
               ]
             },
             "lv": {
@@ -15140,46 +28150,85 @@ const B2_WORDS = [
           {
             "de": {
               "blue": [
-                "fordern",
-                "fordern"
+                "forderte"
               ]
             },
             "lv": {
               "purple": [
-                "reikalaujame"
+                "pareikalavo"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "fordern",
-                "fordern"
+                "forderte"
               ]
             },
             "lv": {
+              "purple": [
+                "pareikalavo"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "fördern"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "skatinti"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "verlangen"
+              ]
+            },
+            "meaning": {
               "purple": [
                 "reikalauti"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "bitten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "prašyti"
               ]
             }
           }
         ],
         "tip": [
           {
-            "purple": [
-              "reikalauti"
+            "blue": [
+              "fordern",
+              "von"
             ]
           },
           {
-            "purple": [
-              "reikalauti"
+            "blue": [
+              "fordern",
+              "fördern"
             ]
           }
         ],
         "important": [
           {
             "blue": [
-              "fordern"
+              "fordern",
+              "von"
             ]
           }
         ]
@@ -15195,68 +28244,85 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "skatinti • palaikyti",
       "explanation": [
-        "Pagrindinė mintis: Skatinti plėtrą, palaikyti žmogų, projektą ar procesą.",
-        "fördern pirmiausia reiškia: skatinti plėtrą.",
-        "Dažnai nusako: palaikymą / pažangą.",
-        "fördern pirmiausia reiškia: išgauti naudingąsias iškasenas.",
-        "Dažnai nusako: pramonėje.",
-        "fördern pirmiausia reiškia: lavinti talentą.",
-        "Dažnai nusako: švietime.",
-        "fördern reiškia skatinti plėtrą, palaikyti žmogų ar projektą (Sport fördert die Gesundheit)."
+        "Pagrindinė mintis: fördern reiškia skatinti, remti, padėti kam nors vystytis — talentui, sveikatai, ekonomikai, projektui. Dažnai tai ir finansinė parama.",
+        "Taisyklingasis veiksmažodis: er fördert, förderte, hat gefördert. Visada su Akkusativ: etwas/jemanden fördern. Daiktavardis yra die Förderung (skatinimas, parama).",
+        "Atsargiai: fördern (su ö) yra kitas žodis nei fordern (reikalauti)."
       ],
       "examples": [
         {
-          "de": "Sport fördert die Gesundheit.",
-          "lv": "Sportas skatina sveikatą."
+          "de": "Der Staat fördert erneuerbare Energien.",
+          "lv": "Valstybė remia atsinaujinančiąją energetiką."
         },
         {
           "de": "Sport fördert die Gesundheit.",
-          "lv": "sportas stiprina sveikatą."
+          "lv": "Sportas stiprina sveikatą."
         },
         {
-          "de": "In der Region wird Öl gefördert.",
-          "lv": "regione išgaunama nafta."
+          "de": "Die Stiftung fördert junge Künstler.",
+          "lv": "Fondas remia jaunus menininkus."
         },
         {
-          "de": "Die Schule fördert begabte Kinder.",
-          "lv": "mokykla remia gabius vaikus."
+          "de": "Gute Lehrer fördern die Talente der Kinder.",
+          "lv": "Geri mokytojai skatina vaikų talentus."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "fordern",
+          "meaning": "reikalauti",
+          "example": "Die Arbeiter fordern mehr Geld. – Darbininkai reikalauja daugiau pinigų."
+        },
+        {
+          "word": "unterstützen",
+          "meaning": "remti, palaikyti",
+          "example": "Ich unterstütze dich. – Aš tave palaikau."
+        },
+        {
+          "word": "helfen",
+          "meaning": "padėti",
+          "example": "Er hilft mir. – Jis man padeda."
         }
       ],
       "tip": [
-        "Skatinti plėtrą, palaikyti žmogų, projektą ar procesą.",
-        "Vartok fördern, kai kontekstas atitinka šią reikšmę."
+        "Jei kas nors padeda vystytis, vartok fördern: das Wachstum, die Gesundheit, die Kinder.",
+        "Daiktavardis die Förderung: staatliche Förderung — valstybės parama."
       ],
       "important": [
-        "fördern = skatinti / palaikyti (su ö).",
-        "Skatinimas, palaikymas: fördern (su ö).",
-        "Skatinti plėtrą, palaikyti žmogų, projektą ar procesą."
+        "Fördern reikalauja Akkusativ, o ne Dativ (kitaip nei helfen): Er fördert mich."
       ],
       "sectionAccents": {
         "explanation": {
-          "green": [
-            "fördern"
+          "blue": [
+            "fördern",
+            "fördert",
+            "förderte",
+            "gefördert",
+            "Förderung",
+            "fordern"
           ],
           "purple": [
-            "skatinti"
+            "skatinti",
+            "remti",
+            "parama"
           ]
         },
         "examples": [
           {
             "de": {
-              "green": [
-                "förde"
+              "blue": [
+                "fördert"
               ]
             },
             "lv": {
               "purple": [
-                "skatina"
+                "remia"
               ]
             }
           },
           {
             "de": {
-              "green": [
-                "förde"
+              "blue": [
+                "fördert"
               ]
             },
             "lv": {
@@ -15267,20 +28333,8 @@ const B2_WORDS = [
           },
           {
             "de": {
-              "green": [
-                "gefördert"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "išgaunama"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "förde"
+              "blue": [
+                "fördert"
               ]
             },
             "lv": {
@@ -15288,20 +28342,78 @@ const B2_WORDS = [
                 "remia"
               ]
             }
+          },
+          {
+            "de": {
+              "blue": [
+                "fördern"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "skatina"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "fordern"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "reikalauti"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "unterstützen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "remti"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "helfen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "padėti"
+              ]
+            }
           }
         ],
         "tip": [
           {
-            "purple": [
-              "skatinti"
+            "blue": [
+              "fördern"
             ]
           },
-          {}
+          {
+            "blue": [
+              "Förderung"
+            ]
+          }
         ],
         "important": [
           {
+            "blue": [
+              "fördern",
+              "fördert"
+            ],
             "green": [
-              "fördern"
+              "helfen"
             ]
           }
         ]
@@ -15314,45 +28426,367 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-verlaufen",
-      "layout": "minimalStudy",
+      "layout": "standardStudy",
       "translation": "paklysti",
-      "explanation": "sich verlaufen reiškia paklysti. Šis veiksmažodis neturi fiksuoto prielinksnio. Nesupainioti su verlaufen (vykti/rutuliotis).",
+      "explanation": [
+        "Pagrindinė mintis: sich verlaufen reiškia paklysti einant pėsčiomis — nuklysti nuo teisingo kelio ir nežinoti, kur esi.",
+        "Sangrąžinis veiksmažodis: ich verlaufe mich, er verläuft sich, verlief sich, hat sich verlaufen. Perfekt sudaromas su haben. Paprastai vartojamas su vieta: im Wald, in der Stadt, in den Bergen.",
+        "Jei paklystama važiuojant, sakoma sich verfahren; sich verirren yra bendresnis ir gali reikšti „nuklysti“."
+      ],
+      "examples": [
+        {
+          "de": "Wir haben uns im Wald verlaufen.",
+          "lv": "Mes paklydome miške."
+        },
+        {
+          "de": "Ich verlaufe mich in dieser Stadt ständig.",
+          "lv": "Šiame mieste nuolat paklystu."
+        },
+        {
+          "de": "Der Tourist hat sich in der Altstadt verlaufen.",
+          "lv": "Turistas paklydo senamiestyje."
+        },
+        {
+          "de": "Pass auf, dass du dich nicht verläufst!",
+          "lv": "Žiūrėk, kad nepaklystum!"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich verfahren",
+          "meaning": "paklysti važiuojant",
+          "example": "Wir haben uns verfahren. – Paklydome važiuodami."
+        },
+        {
+          "word": "sich verirren",
+          "meaning": "nuklysti",
+          "example": "Das Kind hat sich verirrt. – Vaikas nuklydo."
+        },
+        {
+          "word": "verlaufen",
+          "meaning": "vykti, klostytis",
+          "example": "Die Prüfung verlief gut. – Egzaminas praėjo gerai."
+        }
+      ],
+      "tip": [
+        "Jei paklydai pėsčiomis — sich verlaufen; jei automobiliu — sich verfahren.",
+        "Paklydęs gali pasakyti: Ich habe mich verlaufen. Können Sie mir helfen?"
+      ],
+      "important": [
+        "Nepainiok su verlaufen be sich: Die Grenze verläuft entlang des Flusses turi visai kitą reikšmę."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich verlaufen"
+            "sich verlaufen",
+            "verlaufe",
+            "verläuft",
+            "verlief",
+            "verlaufen",
+            "verfahren"
           ],
           "purple": [
             "paklysti"
           ],
-          "red": [
-            "verlaufen"
+          "green": [
+            "sich verfahren",
+            "sich verirren"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "verlaufen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "paklydome"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verlaufe"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "paklystu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verlaufen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "paklydo"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verläufst"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nepaklystum"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich verfahren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "važiuojant"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich verirren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "nuklysti"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "verlaufen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "klostytis"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "sich verlaufen",
+              "verlaufen",
+              "verfahren"
+            ],
+            "green": [
+              "sich verfahren"
+            ]
+          },
+          {
+            "blue": [
+              "verlaufen"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "verläuft",
+              "verlaufen"
+            ]
+          }
+        ]
       }
     }
   },
   {
     "de": "verlaufen",
-    "lv": "vykti • ritėti",
+    "lv": "vykti • klostytis",
     "level": "B2",
     "study": {
       "id": "b2-verlaufen",
-      "layout": "minimalStudy",
-      "translation": "vykti • ritėti",
-      "explanation": "verlaufen (be sich) reiškia vykti arba rutuliotis. Nėra sinonimas su sich verlaufen (paklysti).",
+      "layout": "standardStudy",
+      "translation": "vykti • klostytis",
+      "explanation": [
+        "Pagrindinė mintis: verlaufen (be sich) reiškia vykti, klostytis tam tikru būdu: Die Prüfung ist gut verlaufen. Jis nusako, kaip kas nors laikui bėgant vystėsi ar baigėsi.",
+        "Formos: es verläuft, es verlief, es ist verlaufen — Perfekt sudaromas su sein. Erdvės prasme verlaufen gali reikšti driektis, eiti (apie kelią, sieną, liniją): Die Grenze verläuft entlang des Flusses.",
+        "Su sich tai kitas žodis: sich verlaufen — paklysti."
+      ],
+      "examples": [
+        {
+          "de": "Die Prüfung ist gut verlaufen.",
+          "lv": "Egzaminas praėjo gerai."
+        },
+        {
+          "de": "Die Operation verlief ohne Probleme.",
+          "lv": "Operacija vyko be problemų."
+        },
+        {
+          "de": "Die Grenze verläuft entlang des Flusses.",
+          "lv": "Siena driekiasi palei upę."
+        },
+        {
+          "de": "Wie ist die Besprechung verlaufen?",
+          "lv": "Kaip klostėsi pasitarimas?"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich verlaufen",
+          "meaning": "paklysti",
+          "example": "Ich habe mich verlaufen. – Aš paklydau."
+        },
+        {
+          "word": "stattfinden",
+          "meaning": "vykti, įvykti",
+          "example": "Die Feier findet morgen statt. – Šventė vyks rytoj."
+        },
+        {
+          "word": "ablaufen",
+          "meaning": "vykti, pasibaigti",
+          "example": "Der Tag ist ruhig abgelaufen. – Diena praėjo ramiai."
+        }
+      ],
+      "tip": [
+        "Paprastai pridedamas būdas: gut, schlecht, ruhig, ohne Probleme verlaufen.",
+        "Medicinoje juo dažnai nusakoma ligos eiga: Die Krankheit verläuft leicht."
+      ],
+      "important": [
+        "Perfekt sudaromas su sein: ist verlaufen (ne hat verlaufen)."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "verlaufen"
+            "verlaufen",
+            "verläuft",
+            "verlief",
+            "ist verlaufen",
+            "sich verlaufen"
           ],
           "purple": [
-            "vykti"
-          ],
-          "red": [
-            "sich verlaufen"
+            "vykti",
+            "klostytis",
+            "driektis"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "verlaufen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "praėjo"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verlief"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vyko"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verläuft"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "driekiasi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verlaufen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "klostėsi"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich verlaufen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "paklysti"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "stattfinden"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "įvykti"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "ablaufen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "vykti"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "verlaufen"
+            ]
+          },
+          {
+            "blue": [
+              "verläuft"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "verlaufen",
+              "ist verlaufen"
+            ]
+          }
+        ]
       }
     }
   }
