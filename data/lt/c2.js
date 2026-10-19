@@ -8,7 +8,7 @@ const C2_WORDS = [
   },
   {
     "de": "konterkarieren",
-    "lv": "išardyti",
+    "lv": "sužlugdyti • sutrukdyti",
     "level": "C2"
   },
   {
@@ -121,7 +121,7 @@ const C2_WORDS = [
   },
   {
     "de": "benachrichtigen",
-    "lv": "paskelbti",
+    "lv": "pranešti • informuoti",
     "level": "C2"
   },
   {
@@ -181,21 +181,165 @@ const C2_WORDS = [
       "id": "c2-gewichtseinheit",
       "layout": "standardStudy",
       "translation": "svorio matavimo vienetas",
-      "explanation": "Pagrindinė mintis: die Gewichtseinheit reiškia svorio matavimo vienetą. Tai vartojama kalbant apie kilogramus, gramus, tonas ir kitus svorio/masės vienetus.",
+      "explanation": [
+        "Pagrindinė mintis: die Gewichtseinheit yra svorio matavimo vienetas, kuriuo matuojamas svoris: gramas, kilogramas, tona, svaras.",
+        "Moteriškosios giminės sudurtinis žodis: die Gewichtseinheit, daugiskaita die Gewichtseinheiten. Jis sudarytas iš das Gewicht (svoris) ir die Einheit (vienetas).",
+        "Sudurtinis žodis techninis ir neutralus; kasdien vartojami konkretūs vienetai (Kilogramm, Gramm, Pfund)."
+      ],
       "examples": [
         {
-          "de": "Kilogramm ist eine Gewichtseinheit.",
+          "de": "Das Kilogramm ist eine Gewichtseinheit.",
           "lv": "Kilogramas yra svorio matavimo vienetas."
         },
         {
-          "de": "Welche Gewichtseinheit soll ich benutzen?",
-          "lv": "Kurį svorio matavimo vienetą man naudoti?"
+          "de": "Das Pfund ist eine alte Gewichtseinheit.",
+          "lv": "Svaras yra senas svorio matavimo vienetas."
         },
         {
-          "de": "Gramm und Tonne sind Gewichtseinheiten.",
-          "lv": "Gramas ir tona yra svorio matavimo vienetai."
+          "de": "Welche Gewichtseinheit wird in Deutschland verwendet?",
+          "lv": "Koks svorio matavimo vienetas vartojamas Vokietijoje?"
         }
-      ]
+      ],
+      "comparison": [
+        {
+          "word": "die Maßeinheit",
+          "meaning": "matavimo vienetas",
+          "example": "Der Meter ist eine Maßeinheit. – Metras yra matavimo vienetas."
+        },
+        {
+          "word": "die Längeneinheit",
+          "meaning": "ilgio matavimo vienetas",
+          "example": "Der Kilometer ist eine Längeneinheit. – Kilometras yra ilgio matavimo vienetas."
+        },
+        {
+          "word": "das Gewicht",
+          "meaning": "svoris",
+          "example": "Das Gewicht beträgt zwei Kilo. – Svoris — du kilogramai."
+        }
+      ],
+      "tip": [
+        "Sudurtinio žodžio artikelis yra paskutiniojo dėmens artikelis: die Einheit, taigi die Gewichtseinheit.",
+        "Panašiai sudaromi: Längeneinheit, Zeiteinheit, Volumeneinheit."
+      ],
+      "important": [
+        "Kasdien žodis Gewicht dažnai reiškia masę, tačiau fizikoje svoris ir masė yra skirtingos sąvokos."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "die Gewichtseinheit",
+            "die Gewichtseinheiten",
+            "Gewichtseinheit",
+            "das Gewicht",
+            "die Einheit",
+            "Gewichtseinheiten"
+          ],
+          "purple": [
+            "svorio matavimo vienetas",
+            "vienetas"
+          ],
+          "green": [
+            "Gewicht"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Gewichtseinheit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "svorio matavimo vienetas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Gewichtseinheit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "svorio matavimo vienetas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Gewichtseinheit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "svorio matavimo vienetas"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "die Maßeinheit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "matavimo vienetas"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Längeneinheit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ilgio"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "das Gewicht"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "svoris"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "Gewichtseinheit",
+              "die Gewichtseinheit",
+              "die Einheit"
+            ]
+          },
+          {
+            "green": [
+              "Längeneinheit"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "green": [
+              "Gewicht"
+            ]
+          }
+        ]
+      }
     }
   },
   {
@@ -206,7 +350,7 @@ const C2_WORDS = [
   },
   {
     "de": "entgegenkommen",
-    "lv": "eiti į susitikimą",
+    "lv": "eiti priešais • nusileisti • padaryti nuolaidų",
     "level": "C2"
   },
   {
@@ -290,7 +434,7 @@ const C2_WORDS = [
     "de": "Inhaltsverzeichnis",
     "de_article": "das",
     "de_plural": "die Inhaltsverzeichnisse",
-    "lv": "turinio rodyklė",
+    "lv": "turinys",
     "level": "C2"
   },
   {
@@ -394,7 +538,7 @@ const C2_WORDS = [
     "de": "Reparaturwerkstatt",
     "de_article": "die",
     "de_plural": "die Reparaturwerkstätten",
-    "lv": "remonto dirbtuvė",
+    "lv": "remonto dirbtuvės",
     "level": "C2"
   },
   {
@@ -408,14 +552,14 @@ const C2_WORDS = [
     "de": "Schlafwagenzimmer",
     "de_article": "das",
     "de_plural": "die Schlafwagenzimmer",
-    "lv": "miegamasis",
+    "lv": "miegamojo vagono kupė",
     "level": "C2"
   },
   {
     "de": "Schlittschuhkufe",
     "de_article": "die",
     "de_plural": "die Schlittschuhkufen",
-    "lv": "rogių pavaža",
+    "lv": "pačiūžos ašmenys",
     "level": "C2"
   },
   {
@@ -592,7 +736,7 @@ const C2_WORDS = [
     "de": "Berichterstatter",
     "de_article": "der",
     "de_plural": "die Berichterstatter",
-    "lv": "referentas • pranešėjas • korespondentas • reporteris",
+    "lv": "referentas • pranešėjas • korespondentas",
     "level": "C2"
   },
   {
@@ -696,7 +840,7 @@ const C2_WORDS = [
     "de": "Bereitschaftsdienst",
     "de_article": "der",
     "de_plural": "die Bereitschaftsdienste",
-    "lv": "operatyvinė tarnyba",
+    "lv": "budėjimo tarnyba • operatyvinė tarnyba",
     "level": "C2"
   },
   {
@@ -708,7 +852,7 @@ const C2_WORDS = [
   },
   {
     "de": "durchkreuzen",
-    "lv": "perbraukti • užbraukti kryžiuku • kirsti • išardyti",
+    "lv": "perbraukti • kirsti • sužlugdyti",
     "level": "C2"
   },
   {
@@ -776,7 +920,7 @@ const C2_WORDS = [
     "de": "Entschlossenheit",
     "de_article": "die",
     "de_plural": "die Entschlossenheiten",
-    "lv": "tikrumas • ryžtingumas • nedvejojimas",
+    "lv": "ryžtingumas • ryžtas • tvirtumas",
     "level": "C2"
   },
   {
@@ -852,7 +996,7 @@ const C2_WORDS = [
     "de": "Fußballweltmeisterschaft",
     "de_article": "die",
     "de_plural": "die Fußballweltmeisterschaften",
-    "lv": "pasaulio čempionatas futbole",
+    "lv": "pasaulio futbolo čempionatas",
     "level": "C2"
   },
   {
@@ -1023,7 +1167,7 @@ const C2_WORDS = [
     "de": "Geschwindigkeitsüberschreitung",
     "de_article": "die",
     "de_plural": "die Geschwindigkeitsüberschreitungen",
-    "lv": "nustatyto greičio nesilaikymas • pažeidimas",
+    "lv": "greičio viršijimas • nustatyto greičio nesilaikymas",
     "level": "C2"
   },
   {
@@ -1175,7 +1319,7 @@ const C2_WORDS = [
     "de": "Lebenshaltungskosten",
     "de_article": "die",
     "de_plural": "die Lebenshaltungskosten",
-    "lv": "pragyvenimui reikalingos priemonės • išlaidos",
+    "lv": "pragyvenimo išlaidos • pragyvenimo kaina",
     "level": "C2"
   },
   {
@@ -1217,7 +1361,7 @@ const C2_WORDS = [
     "de": "Meisterschaftsspiel",
     "de_article": "das",
     "de_plural": "die Meisterschaftsspiele",
-    "lv": "čempionatas",
+    "lv": "čempionato rungtynės",
     "level": "C2"
   },
   {
@@ -1250,7 +1394,7 @@ const C2_WORDS = [
     "de": "Nervenzusammenbruch",
     "de_article": "der",
     "de_plural": "die Nervenzusammenbrüche",
-    "lv": "nervų priepuolis",
+    "lv": "nervų suirimas • nervinis išsekimas",
     "level": "C2"
   },
   {
@@ -1275,7 +1419,7 @@ const C2_WORDS = [
   },
   {
     "de": "populärwissenschaftlich",
-    "lv": "populiarusmokslinis",
+    "lv": "mokslo populiarinamasis",
     "level": "C2"
   },
   {
@@ -1287,7 +1431,7 @@ const C2_WORDS = [
   },
   {
     "de": "rechtsextremistisch",
-    "lv": "dešinysis ekstremistinis",
+    "lv": "kraštutinių dešiniųjų",
     "level": "C2"
   },
   {
@@ -1336,7 +1480,7 @@ const C2_WORDS = [
     "de": "Selbstverteidigung",
     "de_article": "die",
     "de_plural": "die Selbstverteidigungen",
-    "lv": "savigynos metodų rinkinys",
+    "lv": "savigyna",
     "level": "C2"
   },
   {
@@ -1357,7 +1501,7 @@ const C2_WORDS = [
     "de": "Strafgesetzbuch",
     "de_article": "das",
     "de_plural": "die Strafgesetzbücher",
-    "lv": "teis. baudžiamasis kodeksas",
+    "lv": "baudžiamasis kodeksas",
     "level": "C2"
   },
   {
@@ -1409,7 +1553,7 @@ const C2_WORDS = [
   },
   {
     "de": "zugrunde, zu Grunde",
-    "lv": "iš esmės",
+    "lv": "pagrinde • pamate",
     "level": "C2"
   },
   {
@@ -1419,12 +1563,12 @@ const C2_WORDS = [
   },
   {
     "de": "imstande",
-    "lv": "gabus",
+    "lv": "pajėgus • galintis",
     "level": "C2"
   },
   {
     "de": "im Stande",
-    "lv": "gabus",
+    "lv": "pajėgus • galintis",
     "level": "C2"
   },
   {
@@ -1439,12 +1583,12 @@ const C2_WORDS = [
   },
   {
     "de": "inwiefern",
-    "lv": "kiek dideliu mastu",
+    "lv": "kokiu mastu • kiek",
     "level": "C2"
   },
   {
     "de": "inwieweit",
-    "lv": "kiek dideliu mastu",
+    "lv": "kokiu mastu • kiek",
     "level": "C2"
   },
   {
