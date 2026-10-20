@@ -1,0 +1,52 @@
+id,verdikts,kategorija,piezime
+K88785,BAD,TULKOJUMS,skaidrojums „levetkőzik egy szokást” — pareizi „felhagy egy szokással”.
+K72019,BAD,VALODAS FAKTS,skaidrojums „összetekér” — pareizi „összeteker”.
+K37967,BAD,VALODAS FAKTS,skaidrojums „lielisks” — latviešu vārds; svītrot.
+K24446,BAD,VALODAS FAKTS,svarīgi „mint a magyar «megállapít» szó” — nav kopīgas saknes; svītrot.
+K22485,BAD,VALODAS FAKTS,"skaidrojums: „(kustināt)” — latviešu vārds, dzēst"
+K61896,BAD,VĀCU FAKTS,"skaidrojums: „(mit?)” — senken neņem mit, dzēst"
+K61377,BAD,TULKOJUMS,examples[0]: „Milyen jegyed van matekból?” → „Jó jegyet kaptam.”; examples[1]: „Jó jegyet kaptam.” → „Milyen jegyed van matekból?”
+K56846,BAD,VALODAS FAKTS,"skaidrojums: „(ierakstīt)” — latviešu vārds, dzēst."
+K46268,BAD,VALODAS FAKTS,"skaidrojums: „(peldēt)” — latviešu vārds, dzēst."
+K41286,BAD,VALODAS FAKTS,"skaidrojums: „(sašust)” — latviešu vārds, dzēst."
+K62333,BAD,TULKOJUMS,examples[3]: „A lépcsőházban” — Hausflur ir priekšnams; labojums: a folyosón.
+K52982,BAD,TULKOJUMS,examples[0] „A csapatunk megnyerte a meccset” — jābūt „Nem hallak jól”; examples[1] „Nyert a lottón” — jābūt „Szívesen dzsesszt hallgat”.
+K61359,BAD,TULKOJUMS,examples[0] „Új órát hordok” — jābūt „A falon lévő óra rosszul jár”; examples[1] „A falon lévő óra rosszul jár” — jābūt „Új órát hordok”.
+K24330,BAD,VĀCU FAKTS,"skaidrojums „fauler, faulst” — felsőfok nav faulst; jābūt am faulsten."
+K75557,BAD,TULKOJUMS,examples[0] „Tegnap felmondtam a munkahelyemen” — jābūt: sokan megsérültek a merényletben; examples[1] „A főnök azonnali hatállyal felmondott a munkatársnak” — jābūt: a rendőrség vizsgálja a merényletet.
+K10120,BAD,TULKOJUMS,examples[0] „A fizetésemet a hónap végén utalják át” → „első filmjével hírnevet szerzett”; examples[1] „Magasabb fizetést követel” → „a hídja miatt híressé vált”
+K55606,BAD,TULKOJUMS,examples[0] „Télen vastag pulóvert hordok” és examples[1] „A könyv nagyon vastag” felcserélve
+K48056,BAD,TULKOJUMS,examples[0] „Mennyit kínálsz az autóért” és examples[1] „A szálloda gyönyörű kilátást nyújt a tengerre” felcserélve
+K36421,BAD,TULKOJUMS,examples[0]: „Ebben a városban állandóan eltévedek” — tulkojumi samainīti; jābūt „Eltévedtünk az erdőben”. examples[1]: „Eltévedtünk az erdőben” — jābūt „Ebben a városban állandóan eltévedek”.
+K66371,BAD,TULKOJUMS,examples[0]: „Minden vasárnap meglátogatom a nagymamámat” — neatbilst; jābūt „Elfogódottsága jól érezhető volt”. examples[1]: „Holnap ellátogatunk a múzeumba” — neatbilst; jābūt „Minden elfogódottság nélkül beszélt”.
+K25828,BAD,VALODAS FAKTS,"svarīgi: „Ugyanabból a tőből származik, mint a magyar «átad» szó” — nepatiesa etimoloģija; svītrot."
+K79693,BAD,TULKOJUMS,"examples[0]: „A lakás a második emeleten van, az alatta lévő szinten bolt található” — samainīts ar examples[1]; jābūt „Sok vendég jött, köztük a tanárnőm is”. examples[1]: „Sok vendég jött, köztük a tanárnőm is” — jābūt „A lakás a második emeleten van, az alatta lévő szinten bolt található”."
+K56965,BAD,TULKOJUMS,svarīgi „valószínűleg otthon van” — jābūt „biztosan otthon van”
+K77658,BAD,VĀCU FAKTS,skaidrojums „valami jellemző valakire” — jābūt „birtokol”; raksturīgi: jemandem eigen sein
+K99505,BAD,TULKOJUMS,skaidrojums „a televíziónál dolgozva” — jābūt „tévézés közben”
+K57628,BAD,TULKOJUMS,examples[0] „Ich kann Deutsch sprechen. = Tudsz segíteni nekem?” un examples[1] „Kannst du mir helfen? = Tudok németül beszélni.” samainīti — jābūt „Tudok németül beszélni.” / „Tudsz segíteni nekem?”
+K68111,BAD,TULKOJUMS,examples[0] „Er wendet viel Zeit für das Studium auf. = A város sok pénzt fordított az utakra.” un examples[1] „Die Stadt hat viel Geld für die Straßen aufgewendet. = Sok időt fordít a tanulmányaira.” samainīti.
+K49171,BAD,TULKOJUMS,examples[0] „A tanár felír egy szót a táblára.” — jābūt „A szoba a folyosó végén van.”; examples[1] „Egy tábla csokoládét kérek.” — jābūt „Gyors a járása.”
+K97677,BAD,VALODAS FAKTS,skaidrojums „(uzdot)” — latviešu vārds iekavās; jāsvītro.
+K31912,BAD,TULKOJUMS,examples[0] „A cég új robotokat alkalmaz” — jābūt „A hadsereg felrobbantotta a hidat”; examples[1] „A főnök kinevezi őt vezetőnek” — jābūt „Minden este meglocsolja a gyepet”
+K31837,BAD,VALODAS FAKTS,svarīgi „mint a magyar «beszerez» szó” — nepatiess: übersehen un beszerez nav viena celma; svītrot
+K70428,BAD,VĀCU FAKTS,skaidrojums „sich jeden Kommentars enthalten” — jābūt „jedes Kommentars”
+K39118,BAD,VALODAS FAKTS,"svarīgi: „Ugyanabból a tőből származik, mint a magyar «megbízás» szó” — nav kopīga celma; svītrot."
+K84462,BAD,VALODAS FAKTS,skaidrojums: „éllessé” — pareizi élessé.
+K40302,BAD,VALODAS FAKTS,svarīgi „mint a magyar «leszáll» szó” — nepatiess: Gatter nav leszáll cilmes.
+K55164,BAD,VALODAS FAKTS,skaidrojums „(kaitēt)” — svītrot latviešu vārdu.
+K82081,BAD,TULKOJUMS,examples[0] „Ez az időszak három évig tartott” — jābūt: A város történetével foglalkozom; examples[1] „Ebben az időszakban sok változás történt” — jābūt: A bizottság a problémával foglalkozik.
+K86124,BAD,TULKOJUMS,"examples[0] „Esik az eső, mégis elmegyünk sétálni” — jābūt: Begyújtom a kályhát; examples[1] „Beteg volt, de ennek ellenére bement dolgozni” — jābūt: Ősszel korán kezdünk fűteni."
+K42712,BAD,VALODAS FAKTS,svarīgi „mint a magyar «rátesz» szó” — nepatiess: Frau nav rátesz cilmes.
+K70256,BAD,TULKOJUMS,"examples[0] „Be tudnád kapcsolni, kérlek, a rádiót?” — jābūt: A ház nagyon nagy; examples[1] „A cég tíz új munkatársat vett fel” — jābūt: A fivérem 1,90 méter magas."
+K83404,BAD,VALODAS FAKTS,skaidrojums „(pazīt)” — svītrot latviešu vārdu.
+K63285,BAD,TULKOJUMS,examples[0] „Ő egy távoli rokonom.” — jābūt: Még csak nyolc óra van; examples[1] „Egy hamburgi rokon jön látogatóba.” — jābūt: A fiam még csak hároméves.
+K65957,BAD,VALODAS FAKTS,"svarīgi: „Ugyanabból a tőből származik, mint a magyar «kormány» szó” — nepatiesa etimoloģija; svītrot."
+K49856,BAD,TULKOJUMS,examples[0]: „A ház még épül” — neatbilst; jābūt „Annának hívnak”. examples[1]: „A nagybátyám építkezésen dolgozik” — jābūt „Hogy hívnak?”.
+K49851,BAD,TULKOJUMS,"examples[0]: „Ha lesz időm, felhívlak” — samainīts; jābūt „Ha esik az eső, otthon maradok”. examples[1]: „Ha esik az eső, otthon maradok” — jābūt „Ha lesz időm, felhívlak”."
+K98780,BAD,VALODAS FAKTS,"svarīgi: „Ugyanabból a tőből származik, mint a magyar «színlel» szó” — nepatiesa etimoloģija; svītrot."
+K97929,BAD,TULKOJUMS,salīdzinājums: „szociológiai fogalom” — sozial nav szociológiai; jābūt: társadalmi fogalom.
+K46649,BAD,VALODAS FAKTS,"svarīgi „Ugyanabból a tőből származik, mint a magyar «keresztez» szó.” — nepatiess: brennen nav radniecīgs ar keresztez; apgalvojumu svītrot."
+K34917,BAD,VALODAS FAKTS,skaidrojums „kuģa tauva” — latviešu vārds iekavās; svītrot.
+K78478,BAD,TULKOJUMS,examples[0] „Minden évben adót kell fizetnünk” — jābūt: Érzi az orvosi hivatást. examples[1] „A cigarettára kivetett adót megemelték” — jābūt: Az ügyvédnő fellebbezett.
+K36819,BAD,TULKOJUMS,examples[0] „Az erdész ősszel őzekre vadászik” — medību teikums; labojums: Világos?. examples[1] „A macska az egérre vadászik” — labojums: A víz teljesen tiszta.
