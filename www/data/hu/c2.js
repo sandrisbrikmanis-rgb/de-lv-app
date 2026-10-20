@@ -3,1483 +3,1627 @@ const C2_WORDS = [
     "de": "Unvoreingenommenheit",
     "de_article": "die",
     "de_plural": "die Unvoreingenommenheiten",
-    "lv": "Objektivitás • Semlegesség",
+    "lv": "elfogulatlanság • tárgyilagosság",
     "level": "C2"
   },
   {
     "de": "konterkarieren",
-    "lv": "Megzavarni",
+    "lv": "meghiúsít • keresztülhúz",
     "level": "C2"
   },
   {
     "de": "Stichhaltigkeit",
     "de_article": "die",
     "de_plural": "die Stichhaltigkeiten",
-    "lv": "Ésszerűség",
+    "lv": "megalapozottság",
     "level": "C2"
   },
   {
     "de": "unmissverständlich",
-    "lv": "Félreérthetetlen",
+    "lv": "félreérthetetlen • egyértelmű",
     "level": "C2"
   },
   {
     "de": "Wechselwirkung",
     "de_article": "die",
     "de_plural": "die Wechselwirkungen",
-    "lv": "Kölcsönhatás",
+    "lv": "kölcsönhatás",
     "level": "C2"
   },
   {
     "de": "veranschaulichen",
-    "lv": "Kimutathatóan megmutatni",
+    "lv": "szemléltet",
     "level": "C2"
   },
   {
     "de": "Schlussfolgerung",
     "de_article": "die",
     "de_plural": "die Schlussfolgerungen",
-    "lv": "Következtetés",
+    "lv": "következtetés",
     "level": "C2"
   },
   {
     "de": "Sorgfaltspflicht",
     "de_article": "die",
-    "lv": "Gondoskodási kötelezettség",
+    "lv": "gondossági kötelezettség",
     "level": "C2"
   },
   {
     "de": "Anfangsbuchstabe",
     "de_article": "der",
     "de_plural": "die Anfangsbuchstaben",
-    "lv": "Kezdőbetű",
+    "lv": "kezdőbetű",
     "level": "C2"
   },
   {
     "de": "Anführungszeichen",
     "de_article": "das",
     "de_plural": "die Anführungszeichen",
-    "lv": "Idézőjel",
+    "lv": "idézőjel",
     "level": "C2"
   },
   {
     "de": "Abschlussprüfung",
     "de_article": "die",
     "de_plural": "die Abschlussprüfungen",
-    "lv": "Záróvizsga",
+    "lv": "záróvizsga",
     "level": "C2"
   },
   {
     "de": "Arbeitserlaubnis",
     "de_article": "die",
     "de_plural": "die Arbeitserlaubnisse",
-    "lv": "Munkavállalási engedély",
+    "lv": "munkavállalási engedély",
     "level": "C2"
   },
   {
     "de": "Teilnehmerausweis",
     "de_article": "der",
     "de_plural": "die Teilnehmerausweise",
-    "lv": "Tagsági kártya",
+    "lv": "résztvevői igazolvány",
     "level": "C2"
   },
   {
     "de": "batteriebetrieben",
-    "lv": "Akkumulátorral működik",
+    "lv": "elemmel működő",
     "level": "C2"
   },
   {
     "de": "beaufsichtigen",
-    "lv": "Monitor",
+    "lv": "felügyel",
     "level": "C2"
   },
   {
     "de": "Lebensbedingungen",
     "de_article": "die",
     "de_plural": "die Lebensbedingungen",
-    "lv": "Életkörülmények",
+    "lv": "életkörülmények",
     "level": "C2"
   },
   {
     "de": "Behandlungsraum",
     "de_article": "der",
     "de_plural": "die Behandlungsräume",
-    "lv": "Orvosi rendelő",
+    "lv": "kezelőhelyiség • rendelő",
     "level": "C2"
   },
   {
     "de": "beispielsweise",
-    "lv": "Például",
+    "lv": "például",
     "level": "C2"
   },
   {
     "de": "Mitgliedsbeitrag",
     "de_article": "der",
     "de_plural": "die Mitgliedsbeiträge",
-    "lv": "Tagsági díj",
+    "lv": "tagdíj",
     "level": "C2"
   },
   {
     "de": "benachrichtigen",
-    "lv": "Bejelenteni",
+    "lv": "értesít",
     "level": "C2"
   },
   {
     "de": "Benzingutschein",
     "de_article": "der",
     "de_plural": "die Benzingutscheine",
-    "lv": "Benzines kupon",
+    "lv": "benzinutalvány",
     "level": "C2"
   },
   {
     "de": "Benzinkanister",
     "de_article": "der",
     "de_plural": "die Benzinkanister",
-    "lv": "Benzinkanna",
+    "lv": "benzineskanna",
     "level": "C2"
   },
   {
     "de": "Benzinverbrauch",
     "de_article": "der",
     "de_plural": "die Benzinverbräuche",
-    "lv": "Benzin fogyasztás",
+    "lv": "benzinfogyasztás",
     "level": "C2"
   },
   {
     "de": "Bequemlichkeit",
     "de_article": "die",
     "de_plural": "die Bequemlichkeiten",
-    "lv": "Kényelem",
+    "lv": "kényelem",
     "level": "C2"
   },
   {
     "de": "berücksichtigen",
-    "lv": "Figyelembe venni",
+    "lv": "figyelembe vesz",
     "level": "C2"
   },
   {
     "de": "Berufsausbildung",
     "de_article": "die",
     "de_plural": "die Berufsausbildungen",
-    "lv": "Szakmai oktatás",
+    "lv": "szakképzés",
     "level": "C2"
   },
   {
     "de": "Tintenstrahldrucker",
     "de_article": "der",
     "de_plural": "die Tintenstrahldrucker",
-    "lv": "Tintasugaras nyomtató",
+    "lv": "tintasugaras nyomtató",
     "level": "C2"
   },
   {
     "de": "Gewichtseinheit",
     "de_article": "die",
     "de_plural": "die Gewichtseinheiten",
-    "lv": "Súlyegység",
+    "lv": "súlyegység",
     "level": "C2",
     "study": {
       "id": "c2-gewichtseinheit",
       "layout": "standardStudy",
-      "translation": "Súlyegység",
-      "explanation": "A fő gondolat: a die Gewichtseinheit súlyegységet jelent. Akkor használatos, ha kilogrammokról, grammokról, tonnákról és egyéb súly/tömeg mértékegységekről beszélünk.",
+      "translation": "súlyegység",
+      "explanation": [
+        "A lényeg: a die Gewichtseinheit súlyegység, vagyis a súly mérésére használt mértékegység: gramm, kilogramm, tonna, font.",
+        "Nőnemű összetett szó: die Gewichtseinheit, többes száma die Gewichtseinheiten. Részei: das Gewicht (súly) és die Einheit (egység).",
+        "Az összetett szó szakszerű és semleges; a hétköznapokban a konkrét mértékegységeket használják (Kilogramm, Gramm, Pfund)."
+      ],
       "examples": [
         {
-          "de": "Kilogramm ist eine Gewichtseinheit.",
-          "lv": "A kilogramm egy súlyegység."
+          "de": "Das Kilogramm ist eine Gewichtseinheit.",
+          "lv": "A kilogramm súlyegység."
         },
         {
-          "de": "Welche Gewichtseinheit soll ich benutzen?",
-          "lv": "Melyik súlyegységet használjam?"
+          "de": "Das Pfund ist eine alte Gewichtseinheit.",
+          "lv": "A font régi súlyegység."
         },
         {
-          "de": "Gramm und Tonne sind Gewichtseinheiten.",
-          "lv": "A gramm és a tonna súlyegység."
+          "de": "Welche Gewichtseinheit wird in Deutschland verwendet?",
+          "lv": "Milyen súlyegységet használnak Németországban?"
         }
-      ]
+      ],
+      "comparison": [
+        {
+          "word": "die Maßeinheit",
+          "meaning": "mértékegység",
+          "example": "Der Meter ist eine Maßeinheit. – A méter mértékegység."
+        },
+        {
+          "word": "die Längeneinheit",
+          "meaning": "hosszúságegység",
+          "example": "Der Kilometer ist eine Längeneinheit. – A kilométer hosszúságegység."
+        },
+        {
+          "word": "das Gewicht",
+          "meaning": "súly",
+          "example": "Das Gewicht beträgt zwei Kilo. – A súlya két kiló."
+        }
+      ],
+      "tip": [
+        "Az összetett szó névelőjét az utolsó tag határozza meg: die Einheit, tehát die Gewichtseinheit. Mivel a magyarban nincs nyelvtani nem, a névelőt mindig a szóval együtt tanuld meg.",
+        "Hasonlóan képezzük: Längeneinheit, Zeiteinheit, Volumeneinheit."
+      ],
+      "important": [
+        "A hétköznapokban a Gewicht szó gyakran tömeget jelent, a fizikában azonban a súly és a tömeg különböző fogalmak."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "die Gewichtseinheit",
+            "die Gewichtseinheiten",
+            "Gewichtseinheit",
+            "das Gewicht",
+            "die Einheit",
+            "Gewichtseinheiten"
+          ],
+          "purple": [
+            "súlyegység",
+            "mértékegység"
+          ],
+          "green": [
+            "Gewicht"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Gewichtseinheit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "súlyegység"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Gewichtseinheit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "súlyegység"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Gewichtseinheit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "súlyegységet"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "die Maßeinheit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "mértékegység"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Längeneinheit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "hosszúság"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "das Gewicht"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "súly"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "Gewichtseinheit",
+              "die Gewichtseinheit",
+              "die Einheit"
+            ]
+          },
+          {
+            "green": [
+              "Längeneinheit"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "green": [
+              "Gewicht"
+            ]
+          }
+        ]
+      }
     }
   },
   {
     "de": "Elementarkenntnisse",
     "de_article": "die",
-    "lv": "Alapismeretek",
+    "lv": "alapismeretek",
     "level": "C2"
   },
   {
     "de": "entgegenkommen",
-    "lv": "Találkozni",
+    "lv": "elébe megy • engedményt tesz",
     "level": "C2"
   },
   {
     "de": "Gebrauchtwagen",
     "de_article": "der",
     "de_plural": "die Gebrauchtwagen",
-    "lv": "Használt autó",
+    "lv": "használt autó",
     "level": "C2"
   },
   {
     "de": "Geburtsurkunde",
     "de_article": "die",
     "de_plural": "die Geburtsurkunden",
-    "lv": "Születési anyakönyvi kivonat",
+    "lv": "születési anyakönyvi kivonat",
     "level": "C2"
   },
   {
     "de": "Gehaltsabrechnung",
     "de_article": "die",
     "de_plural": "die Gehaltsabrechnungen",
-    "lv": "Bérszámítás",
+    "lv": "bérszámfejtés • bérjegyzék",
     "level": "C2"
   },
   {
     "de": "Gehaltserhöhung",
     "de_article": "die",
     "de_plural": "die Gehaltserhöhungen",
-    "lv": "Fizetésemelés",
+    "lv": "fizetésemelés",
     "level": "C2"
   },
   {
     "de": "Gehirnerschütterung",
     "de_article": "die",
     "de_plural": "die Gehirnerschütterungen",
-    "lv": "Agyrázkódás",
+    "lv": "agyrázkódás",
     "level": "C2"
   },
   {
     "de": "Gepäckaufbewahrung",
     "de_article": "die",
     "de_plural": "die Gepäckaufbewahrungen",
-    "lv": "Csomagmegőrző",
+    "lv": "csomagmegőrző",
     "level": "C2"
   },
   {
     "de": "Geschäftsführer",
     "de_article": "der",
     "de_plural": "die Geschäftsführer",
-    "lv": "Cégvezető",
+    "lv": "ügyvezető igazgató • ügyvezető",
     "level": "C2"
   },
   {
     "de": "Geschäftspartner",
     "de_article": "der",
     "de_plural": "die Geschäftspartner",
-    "lv": "Üzleti partner",
+    "lv": "üzleti partner",
     "level": "C2"
   },
   {
     "de": "Geschenkgutschein",
     "de_article": "der",
     "de_plural": "die Geschenkgutscheine",
-    "lv": "Ajándék kártya",
+    "lv": "ajándékutalvány",
     "level": "C2"
   },
   {
     "de": "Geschenkpackung",
     "de_article": "die",
     "de_plural": "die Geschenkpackungen",
-    "lv": "Ajándékcsomagolás",
+    "lv": "ajándékcsomagolás",
     "level": "C2"
   },
   {
     "de": "Gleichheitszeichen",
     "de_article": "das",
     "de_plural": "die Gleichheitszeichen",
-    "lv": "Egyenlőségjel",
+    "lv": "egyenlőségjel",
     "level": "C2"
   },
   {
     "de": "Inhaltsverzeichnis",
     "de_article": "das",
     "de_plural": "die Inhaltsverzeichnisse",
-    "lv": "Tartalomjegyzék",
+    "lv": "tartalomjegyzék",
     "level": "C2"
   },
   {
     "de": "Streichinstrument",
     "de_article": "das",
     "de_plural": "die Streichinstrumente",
-    "lv": "Vonós hangszer",
+    "lv": "vonós hangszer",
     "level": "C2"
   },
   {
     "de": "Kassettenrecorder",
     "de_article": "der",
     "de_plural": "die Kassettenrecorder",
-    "lv": "Kazettás magnó",
+    "lv": "kazettás magnó",
     "level": "C2"
   },
   {
     "de": "Katastrophendienst",
     "de_article": "der",
-    "lv": "Katasztrófa szolgálat",
+    "lv": "katasztrófavédelem",
     "level": "C2"
   },
   {
     "de": "Kostenerstattung",
     "de_article": "die",
     "de_plural": "die Kostenerstattungen",
-    "lv": "Költségtérítés",
+    "lv": "költségtérítés",
     "level": "C2"
   },
   {
     "de": "Kostensteigerung",
     "de_article": "die",
     "de_plural": "die Kostensteigerungen",
-    "lv": "Növekvő költségek",
+    "lv": "költségnövekedés",
     "level": "C2"
   },
   {
     "de": "Krankenversicherung",
     "de_article": "die",
     "de_plural": "die Krankenversicherungen",
-    "lv": "Biztosítás betegség esetére",
+    "lv": "egészségbiztosítás • betegbiztosítás",
     "level": "C2"
   },
   {
     "de": "Krankheitssymptom",
     "de_article": "das",
     "de_plural": "die Krankheitssymptome",
-    "lv": "Betegség tünete",
+    "lv": "betegségtünet",
     "level": "C2"
   },
   {
     "de": "Krankheitsüberträger",
     "de_article": "der",
     "de_plural": "die Krankheitsüberträger",
-    "lv": "Betegség hordozója",
+    "lv": "betegségterjesztő",
     "level": "C2"
   },
   {
     "de": "Liebenswürdigkeit",
     "de_article": "die",
     "de_plural": "die Liebenswürdigkeiten",
-    "lv": "Kedvesség",
+    "lv": "kedvesség • szeretetreméltóság",
     "level": "C2"
   },
   {
     "de": "Luftverschmutzung",
     "de_article": "die",
     "de_plural": "die Luftverschmutzungen",
-    "lv": "Légszennyezés",
+    "lv": "légszennyezés",
     "level": "C2"
   },
   {
     "de": "Lungenentzündung",
     "de_article": "die",
     "de_plural": "die Lungenentzündungen",
-    "lv": "Tüdőrák",
+    "lv": "tüdőgyulladás",
     "level": "C2"
   },
   {
     "de": "Nebelscheinwerfer",
     "de_article": "der",
     "de_plural": "die Nebelscheinwerfer",
-    "lv": "Ködlámpa autókhoz",
+    "lv": "ködlámpa",
     "level": "C2"
   },
   {
     "de": "Personenkraftwagen",
     "de_article": "der",
     "de_plural": "die Personenkraftwagen",
-    "lv": "Személygépkocsi",
+    "lv": "személygépkocsi",
     "level": "C2"
   },
   {
     "de": "Reisebeschreibung",
     "de_article": "die",
     "de_plural": "die Reisebeschreibungen",
-    "lv": "Utazási leírás",
+    "lv": "útleírás",
     "level": "C2"
   },
   {
     "de": "Reparaturwerkstatt",
     "de_article": "die",
     "de_plural": "die Reparaturwerkstätten",
-    "lv": "Javítóműhely",
+    "lv": "javítóműhely",
     "level": "C2"
   },
   {
     "de": "Rundfunkempfänger",
     "de_article": "der",
     "de_plural": "die Rundfunkempfänger",
-    "lv": "Rádióvevő",
+    "lv": "rádióvevő",
     "level": "C2"
   },
   {
     "de": "Schlafwagenzimmer",
     "de_article": "das",
     "de_plural": "die Schlafwagenzimmer",
-    "lv": "Hálószoba",
+    "lv": "hálókocsifülke",
     "level": "C2"
   },
   {
     "de": "Schlittschuhkufe",
     "de_article": "die",
     "de_plural": "die Schlittschuhkufen",
-    "lv": "Szán lejtő",
+    "lv": "korcsolyaél",
     "level": "C2"
   },
   {
     "de": "Schornsteinfeger",
     "de_article": "der",
     "de_plural": "die Schornsteinfeger",
-    "lv": "Kéményseprő",
+    "lv": "kéményseprő",
     "level": "C2"
   },
   {
     "de": "selbstverständlich",
-    "lv": "Magától értetődő",
+    "lv": "magától értetődő • természetesen",
     "level": "C2"
   },
   {
     "de": "sicherheitshalber",
-    "lv": "A biztonság kedvéért",
+    "lv": "a biztonság kedvéért",
     "level": "C2"
   },
   {
     "de": "Sozialversicherung",
     "de_article": "die",
     "de_plural": "die Sozialversicherungen",
-    "lv": "Társadalombiztosítás",
+    "lv": "társadalombiztosítás",
     "level": "C2"
   },
   {
     "de": "Straßenbahnführer",
     "de_article": "der",
     "de_plural": "die Straßenbahnführer",
-    "lv": "Villamosvezető",
+    "lv": "villamosvezető",
     "level": "C2"
   },
   {
     "de": "Straßenbahnstrecke",
     "de_article": "die",
     "de_plural": "die Straßenbahnstrecken",
-    "lv": "Villamosvonal",
+    "lv": "villamosvonal",
     "level": "C2"
   },
   {
     "de": "Straßenüberführung",
     "de_article": "die",
     "de_plural": "die Straßenüberführungen",
-    "lv": "Közúti felüljáró",
+    "lv": "közúti felüljáró",
     "level": "C2"
   },
   {
     "de": "Straßenunterführung",
     "de_article": "die",
     "de_plural": "die Straßenunterführungen",
-    "lv": "Gyalogos alagút",
+    "lv": "aluljáró",
     "level": "C2"
   },
   {
     "de": "verantwortlich",
-    "lv": "Felelős",
+    "lv": "felelős",
     "level": "C2"
   },
   {
     "de": "Verkehrsunfall",
     "de_article": "der",
     "de_plural": "die Verkehrsunfälle",
-    "lv": "Közlekedési baleset",
+    "lv": "közlekedési baleset",
     "level": "C2"
   },
   {
     "de": "veröffentlichen",
-    "lv": "Közzétenni",
+    "lv": "közzétesz • kiad",
     "level": "C2"
   },
   {
     "de": "verschlechtern",
-    "lv": "Rontani",
+    "lv": "ront • rosszabbít",
     "level": "C2"
   },
   {
     "de": "sich verschlechtern",
-    "lv": "Rosszabbodni",
+    "lv": "romlik • rosszabbodik",
     "level": "C2"
   },
   {
     "de": "Vorstellungsgespräch",
     "de_article": "das",
     "de_plural": "die Vorstellungsgespräche",
-    "lv": "Állásinterjún",
+    "lv": "állásinterjú",
     "level": "C2"
   },
   {
     "de": "Wettervorhersage",
     "de_article": "die",
     "de_plural": "die Wettervorhersagen",
-    "lv": "Időjárás-jelentés",
+    "lv": "időjárás-előrejelzés",
     "level": "C2"
   },
   {
     "de": "Windschutzscheibe",
     "de_article": "die",
     "de_plural": "die Windschutzscheiben",
-    "lv": "Autó szélvédője",
+    "lv": "szélvédő",
     "level": "C2"
   },
   {
     "de": "Sehenswürdigkeit",
     "de_article": "die",
     "de_plural": "die Sehenswürdigkeiten",
-    "lv": "Kiemelkedő hely",
+    "lv": "látványosság • nevezetesség",
     "level": "C2"
   },
   {
     "de": "Abenteuergeschichte",
     "de_article": "die",
     "de_plural": "die Abenteuergeschichten",
-    "lv": "Egy viszony története",
+    "lv": "kalandtörténet",
     "level": "C2"
   },
   {
     "de": "Abgeordnetenhaus",
     "de_article": "das",
     "de_plural": "die Abgeordnetenhäuser",
-    "lv": "Parlament",
+    "lv": "képviselőház",
     "level": "C2"
   },
   {
     "de": "Aufenthaltsgenehmigung",
     "de_article": "die",
     "de_plural": "die Aufenthaltsgenehmigungen",
-    "lv": "Tartózkodási engedély",
+    "lv": "tartózkodási engedély",
     "level": "C2"
   },
   {
     "de": "Gedankenaustausch",
     "de_article": "der",
     "de_plural": "die Gedankenaustausche",
-    "lv": "Eszmecsere",
+    "lv": "eszmecsere • véleménycsere",
     "level": "C2"
   },
   {
     "de": "Behindertenausweis",
     "de_article": "der",
     "de_plural": "die Behindertenausweise",
-    "lv": "Rokkantsági bizonyítvány",
+    "lv": "rokkantigazolvány",
     "level": "C2"
   },
   {
     "de": "Baugenossenschaft",
     "de_article": "die",
     "de_plural": "die Baugenossenschaften",
-    "lv": "Bérház szövetkezet",
+    "lv": "lakásépítő szövetkezet",
     "level": "C2"
   },
   {
     "de": "Arbeitslosenbeihilfe",
     "de_article": "die",
     "de_plural": "die Arbeitslosenbeihilfen",
-    "lv": "Munkanélküli segély",
+    "lv": "munkanélküli-segély",
     "level": "C2"
   },
   {
     "de": "Ausbildungsbeihilfe",
     "de_article": "die",
     "de_plural": "die Ausbildungsbeihilfen",
-    "lv": "Tandíjkedvezmény",
+    "lv": "tanulmányi támogatás • képzési támogatás",
     "level": "C2"
   },
   {
     "de": "Unternehmensberater",
     "de_article": "der",
     "de_plural": "die Unternehmensberater",
-    "lv": "Céges tanácsadó",
+    "lv": "vállalati tanácsadó",
     "level": "C2"
   },
   {
     "de": "Berichterstatter",
     "de_article": "der",
     "de_plural": "die Berichterstatter",
-    "lv": "Riporter • Riporter • Tudósító • Riporter",
+    "lv": "tudósító • riporter • előadó",
     "level": "C2"
   },
   {
     "de": "Berufsbezeichnung",
     "de_article": "die",
     "de_plural": "die Berufsbezeichnungen",
-    "lv": "Munkaköri cím",
+    "lv": "foglalkozás megnevezése",
     "level": "C2"
   },
   {
     "de": "Besatzungsregime",
     "de_article": "das",
     "de_plural": "die Besatzungsregime",
-    "lv": "Megszállási rezsim",
+    "lv": "megszállási rendszer",
     "level": "C2"
   },
   {
     "de": "Besatzungstruppen",
     "de_article": "die",
     "de_plural": "die Besatzungstruppen",
-    "lv": "Megszálló csapatok",
+    "lv": "megszálló csapatok",
     "level": "C2"
   },
   {
     "de": "Bevölkerungsdichte",
     "de_article": "die",
     "de_plural": "die Bevölkerungsdichten",
-    "lv": "Népsűrűség",
+    "lv": "népsűrűség",
     "level": "C2"
   },
   {
     "de": "Bildberichterstatter",
     "de_article": "der",
     "de_plural": "die Bildberichterstatter",
-    "lv": "Fényképes tudósítója",
+    "lv": "fotoriporter",
     "level": "C2"
   },
   {
     "de": "Wirtschaftsblock",
     "de_article": "der",
     "de_plural": "die Wirtschaftsblöcke",
-    "lv": "Gazdasági blokk",
+    "lv": "gazdasági tömb",
     "level": "C2"
   },
   {
     "de": "Wirtschaftsblockade",
     "de_article": "die",
     "de_plural": "die Wirtschaftsblockaden",
-    "lv": "Gazdasági blokád",
+    "lv": "gazdasági blokád",
     "level": "C2"
   },
   {
     "de": "Bluttransfusion",
     "de_article": "die",
     "de_plural": "die Bluttransfusionen",
-    "lv": "Vérátömlesztés",
+    "lv": "vérátömlesztés",
     "level": "C2"
   },
   {
     "de": "Computersimulation",
     "de_article": "die",
     "de_plural": "die Computersimulationen",
-    "lv": "Számítógépes szimuláció",
+    "lv": "számítógépes szimuláció",
     "level": "C2"
   },
   {
     "de": "Computerwissenschaft",
     "de_article": "die",
     "de_plural": "die Computerwissenschaften",
-    "lv": "Számítástechnika • Informatika",
+    "lv": "számítástechnika • informatika",
     "level": "C2"
   },
   {
     "de": "Informationsdefizit",
     "de_article": "das",
-    "lv": "Információhiány",
+    "lv": "információhiány",
     "level": "C2"
   },
   {
     "de": "Sittlichkeitsdelikt",
     "de_article": "das",
     "de_plural": "die Sittlichkeitsdelikte",
-    "lv": "Erkölcsi normák megsértése",
+    "lv": "nemi erkölcs elleni bűncselekmény",
     "level": "C2"
   },
   {
     "de": "Rauschgiftdezernat",
     "de_article": "das",
     "de_plural": "die Rauschgiftdezernate",
-    "lv": "Kábítószer-osztály",
+    "lv": "kábítószer-ellenes osztály",
     "level": "C2"
   },
   {
     "de": "Dialektik",
     "de_article": "die",
     "de_plural": "die Dialektiken",
-    "lv": "Dialektikus",
+    "lv": "dialektika",
     "level": "C2"
   },
   {
     "de": "Bereitschaftsdienst",
     "de_article": "der",
     "de_plural": "die Bereitschaftsdienste",
-    "lv": "Operatív szolgáltatás",
+    "lv": "ügyelet • készenléti szolgálat",
     "level": "C2"
   },
   {
     "de": "Durchfuhrerlaubnis",
     "de_article": "die",
     "de_plural": "die Durchfuhrerlaubnisse",
-    "lv": "Tranzitengedély",
+    "lv": "tranzitengedély",
     "level": "C2"
   },
   {
     "de": "durchkreuzen",
-    "lv": "Kihúz • Kereszt • Kereszt • Megzavar",
+    "lv": "áthúz • keresztez • meghiúsít",
     "level": "C2"
   },
   {
     "de": "Durchschnittsalter",
     "de_article": "das",
     "de_plural": "die Durchschnittsalter",
-    "lv": "Átlagéletkor",
+    "lv": "átlagéletkor",
     "level": "C2"
   },
   {
     "de": "Durchschnittsverdienst",
     "de_article": "der",
     "de_plural": "die Durchschnittsverdienste",
-    "lv": "Átlagkereset",
+    "lv": "átlagkereset",
     "level": "C2"
   },
   {
     "de": "Durchschnittsleistung",
     "de_article": "die",
     "de_plural": "die Durchschnittsleistungen",
-    "lv": "Átlagos teljesítmény • Átlagos teljesítmény",
+    "lv": "átlagos teljesítmény",
     "level": "C2"
   },
   {
     "de": "Durchschnittsmensch",
     "de_article": "der",
     "de_plural": "die Durchschnittsmenschen",
-    "lv": "Egy átlagos ember",
+    "lv": "átlagember",
     "level": "C2"
   },
   {
     "de": "Einfuhrbeschränkung",
     "de_article": "die",
     "de_plural": "die Einfuhrbeschränkungen",
-    "lv": "Behozatali korlátozás",
+    "lv": "behozatali korlátozás • importkorlátozás",
     "level": "C2"
   },
   {
     "de": "Einstellungsgespräch",
     "de_article": "das",
     "de_plural": "die Einstellungsgespräche",
-    "lv": "Állásinterjún",
+    "lv": "állásinterjú • felvételi beszélgetés",
     "level": "C2"
   },
   {
     "de": "Empfehlungsschreiben",
     "de_article": "das",
     "de_plural": "die Empfehlungsschreiben",
-    "lv": "Írásbeli ajánlás",
+    "lv": "ajánlólevél",
     "level": "C2"
   },
   {
     "de": "Entbindungsanstalt",
     "de_article": "die",
     "de_plural": "die Entbindungsanstalten",
-    "lv": "Szülészet",
+    "lv": "szülészet • szülőotthon",
     "level": "C2"
   },
   {
     "de": "entgegengesetzt",
-    "lv": "Az ellenkezője",
+    "lv": "ellentétes • ellenkező",
     "level": "C2"
   },
   {
     "de": "Entschlossenheit",
     "de_article": "die",
     "de_plural": "die Entschlossenheiten",
-    "lv": "Bizonyosság • Határozottság • Megkérdőjelezhetetlenség",
+    "lv": "határozottság • eltökéltség",
     "level": "C2"
   },
   {
     "de": "Entwicklungsland",
     "de_article": "das",
     "de_plural": "die Entwicklungsländer",
-    "lv": "A fejlődés földje",
+    "lv": "fejlődő ország",
     "level": "C2"
   },
   {
     "de": "Erfrischungsraum",
     "de_article": "der",
     "de_plural": "die Erfrischungsräume",
-    "lv": "Büfé",
+    "lv": "büfé",
     "level": "C2"
   },
   {
     "de": "Regierungserklärung",
     "de_article": "die",
     "de_plural": "die Regierungserklärungen",
-    "lv": "Kormány közleménye",
+    "lv": "kormánynyilatkozat",
     "level": "C2"
   },
   {
     "de": "Errungenschaft",
     "de_article": "die",
     "de_plural": "die Errungenschaften",
-    "lv": "Teljesítmény • Haszon • Haszon",
+    "lv": "vívmány • eredmény",
     "level": "C2"
   },
   {
     "de": "Erwachsenenbildung",
     "de_article": "die",
     "de_plural": "die Erwachsenenbildungen",
-    "lv": "Felnőttképzés",
+    "lv": "felnőttképzés",
     "level": "C2"
   },
   {
     "de": "Fallschirmspringen",
     "de_article": "das",
-    "lv": "Ejtőernyőzés",
+    "lv": "ejtőernyőzés",
     "level": "C2"
   },
   {
     "de": "Friedensbedingungen",
     "de_article": "die",
     "de_plural": "die Friedensbedingungen",
-    "lv": "Békefeltételek",
+    "lv": "békefeltételek",
     "level": "C2"
   },
   {
     "de": "Friedensverhandlungen",
     "de_article": "die",
     "de_plural": "die Friedensverhandlungen",
-    "lv": "Béketárgyalások",
+    "lv": "béketárgyalások",
     "level": "C2"
   },
   {
     "de": "Führereigenschaften",
     "de_article": "die",
     "de_plural": "die Führereigenschaften",
-    "lv": "Vezetői tulajdonságok",
+    "lv": "vezetői tulajdonságok",
     "level": "C2"
   },
   {
     "de": "Führerpersönlichkeit",
     "de_article": "die",
     "de_plural": "die Führerpersönlichkeiten",
-    "lv": "Vezető személyiség",
+    "lv": "vezéregyéniség",
     "level": "C2"
   },
   {
     "de": "Fußballweltmeisterschaft",
     "de_article": "die",
     "de_plural": "die Fußballweltmeisterschaften",
-    "lv": "Labdarúgó világbajnokság",
+    "lv": "labdarúgó-világbajnokság",
     "level": "C2"
   },
   {
     "de": "Geburtenkontrolle",
     "de_article": "die",
     "de_plural": "die Geburtenkontrollen",
-    "lv": "Születésszabályozás",
+    "lv": "születésszabályozás",
     "level": "C2"
   },
   {
     "de": "Gedächtnisschwäche",
     "de_article": "die",
     "de_plural": "die Gedächtnisschwächen",
-    "lv": "Rossz memória",
+    "lv": "feledékenység • gyenge emlékezet",
     "level": "C2"
   },
   {
     "de": "Gedächtnisstörung",
     "de_article": "die",
     "de_plural": "die Gedächtnisstörungen",
-    "lv": "Memóriazavar",
+    "lv": "emlékezetzavar",
     "level": "C2"
   },
   {
     "de": "Gefängnisaufseher",
     "de_article": "der",
     "de_plural": "die Gefängnisaufseher",
-    "lv": "Börtönőr",
+    "lv": "börtönőr",
     "level": "C2"
   },
   {
     "de": "Gefängnisinsasse",
     "de_article": "der",
     "de_plural": "die Gefängnisinsassen",
-    "lv": "Egy fogoly",
+    "lv": "rab • fogoly",
     "level": "C2"
   },
   {
     "de": "Gefäßerweiterung",
     "de_article": "die",
     "de_plural": "die Gefäßerweiterungen",
-    "lv": "Az erek kitágulása",
+    "lv": "értágulat",
     "level": "C2"
   },
   {
     "de": "Geistesgegenwart",
     "de_article": "die",
-    "lv": "Találékonyság",
+    "lv": "lélekjelenlét",
     "level": "C2"
   },
   {
     "de": "geistige Getränke",
-    "lv": "Alkoholos italok",
+    "lv": "szeszes italok",
     "level": "C2"
   },
   {
     "de": "Gelegenheitsarbeiter",
     "de_article": "der",
     "de_plural": "die Gelegenheitsarbeiter",
-    "lv": "Alkalmi munkás",
+    "lv": "alkalmi munkás",
     "level": "C2"
   },
   {
     "de": "Gemäldeausstellung",
     "de_article": "die",
     "de_plural": "die Gemäldeausstellungen",
-    "lv": "Festmények kiállítása",
+    "lv": "festménykiállítás",
     "level": "C2"
   },
   {
     "de": "Arbeitsgemeinschaft",
     "de_article": "die",
     "de_plural": "die Arbeitsgemeinschaften",
-    "lv": "Munkacsoport",
+    "lv": "munkaközösség • munkacsoport",
     "level": "C2"
   },
   {
     "de": "Dorfgemeinschaft",
     "de_article": "die",
     "de_plural": "die Dorfgemeinschaften",
-    "lv": "A falusiak",
+    "lv": "faluközösség",
     "level": "C2"
   },
   {
     "de": "Forschungsgemeinschaft",
     "de_article": "die",
     "de_plural": "die Forschungsgemeinschaften",
-    "lv": "Kutatócsoport",
+    "lv": "kutatócsoport • kutatóközösség",
     "level": "C2"
   },
   {
     "de": "Generalreparatur",
     "de_article": "die",
     "de_plural": "die Generalreparaturen",
-    "lv": "Nagyjavítás",
+    "lv": "nagyjavítás • generáljavítás",
     "level": "C2"
   },
   {
     "de": "Generalversammlung",
     "de_article": "die",
     "de_plural": "die Generalversammlungen",
-    "lv": "Közgyűlés",
+    "lv": "közgyűlés",
     "level": "C2"
   },
   {
     "de": "Genossenschaft",
     "de_article": "die",
     "de_plural": "die Genossenschaften",
-    "lv": "Szövetkezet • Artel",
+    "lv": "szövetkezet",
     "level": "C2"
   },
   {
     "de": "Gerechtigkeitsgefühl",
     "de_article": "das",
     "de_plural": "die Gerechtigkeitsgefühle",
-    "lv": "Igazságosság • Igazságérzet",
+    "lv": "igazságérzet",
     "level": "C2"
   },
   {
     "de": "Schiedsgericht",
     "de_article": "das",
     "de_plural": "die Schiedsgerichte",
-    "lv": "Választottbíróság",
+    "lv": "választottbíróság",
     "level": "C2"
   },
   {
     "de": "Gerichtsverfahren",
     "de_article": "das",
     "de_plural": "die Gerichtsverfahren",
-    "lv": "Bírósági eljárás",
+    "lv": "bírósági eljárás",
     "level": "C2"
   },
   {
     "de": "Geschäftsordnung",
     "de_article": "die",
     "de_plural": "die Geschäftsordnungen",
-    "lv": "Szabályozás • Előírások",
+    "lv": "ügyrend • szabályzat",
     "level": "C2"
   },
   {
     "de": "Geschlechtsverkehr",
     "de_article": "der",
-    "lv": "Közösülés",
+    "lv": "nemi érintkezés • közösülés",
     "level": "C2"
   },
   {
     "de": "Geschwindigkeitsbegrenzung",
     "de_article": "die",
     "de_plural": "die Geschwindigkeitsbegrenzungen",
-    "lv": "Sebességhatár",
+    "lv": "sebességkorlátozás",
     "level": "C2"
   },
   {
     "de": "Geschwindigkeitskontrolle",
     "de_article": "die",
     "de_plural": "die Geschwindigkeitskontrollen",
-    "lv": "Sebességszabályozás",
+    "lv": "sebességellenőrzés",
     "level": "C2"
   },
   {
     "de": "Geschwindigkeitsmessung",
     "de_article": "die",
     "de_plural": "die Geschwindigkeitsmessungen",
-    "lv": "Sebességmérés",
+    "lv": "sebességmérés",
     "level": "C2"
   },
   {
     "de": "Geschwindigkeitsüberschreitung",
     "de_article": "die",
     "de_plural": "die Geschwindigkeitsüberschreitungen",
-    "lv": "Az előírt sebesség be nem tartása • Megsértése",
+    "lv": "gyorshajtás • sebességtúllépés",
     "level": "C2"
   },
   {
     "de": "gesellschaftlich",
-    "lv": "Köztársadalmak",
+    "lv": "társadalmi",
     "level": "C2"
   },
   {
     "de": "Gesellschaftsordnung",
     "de_article": "die",
     "de_plural": "die Gesellschaftsordnungen",
-    "lv": "Nyilvános létesítmény",
+    "lv": "társadalmi rend",
     "level": "C2"
   },
   {
     "de": "Gesetzesvorlage",
     "de_article": "die",
     "de_plural": "die Gesetzesvorlagen",
-    "lv": "Számla",
+    "lv": "törvényjavaslat",
     "level": "C2"
   },
   {
     "de": "gesetzgebende Gewalt",
     "de_article": "die",
     "de_plural": "die gesetzgebenden Gewalten",
-    "lv": "Törvényhozó hatalom",
+    "lv": "törvényhozó hatalom",
     "level": "C2"
   },
   {
     "de": "Gewerkschaftsbeitrag",
     "de_article": "der",
     "de_plural": "die Gewerkschaftsbeiträge",
-    "lv": "Szakszervezeti tagdíjak",
+    "lv": "szakszervezeti tagdíj",
     "level": "C2"
   },
   {
     "de": "Gewerkschaftsmitglied",
     "de_article": "das",
     "de_plural": "die Gewerkschaftsmitglieder",
-    "lv": "Szakszervezeti tag",
+    "lv": "szakszervezeti tag",
     "level": "C2"
   },
   {
     "de": "Gewinnauszahlung",
     "de_article": "die",
     "de_plural": "die Gewinnauszahlungen",
-    "lv": "Lottónyeremények kifizetése",
+    "lv": "nyereménykifizetés",
     "level": "C2"
   },
   {
     "de": "Gipfelkonferenz",
     "de_article": "die",
     "de_plural": "die Gipfelkonferenzen",
-    "lv": "Konferencia a legmagasabb szinten",
+    "lv": "csúcstalálkozó • csúcskonferencia",
     "level": "C2"
   },
   {
     "de": "Gleichberechtigung",
     "de_article": "die",
     "de_plural": "die Gleichberechtigungen",
-    "lv": "Egyenlőség",
+    "lv": "egyenjogúság",
     "level": "C2"
   },
   {
     "de": "Grundnahrungsmittel",
     "de_article": "das",
     "de_plural": "die Grundnahrungsmittel",
-    "lv": "Alapélelmiszer",
+    "lv": "alapélelmiszer",
     "level": "C2"
   },
   {
     "de": "Handelsabkommen",
     "de_article": "das",
     "de_plural": "die Handelsabkommen",
-    "lv": "Kereskedelmi megállapodás",
+    "lv": "kereskedelmi egyezmény • kereskedelmi megállapodás",
     "level": "C2"
   },
   {
     "de": "Hausgemeinschaft",
     "de_article": "die",
     "de_plural": "die Hausgemeinschaften",
-    "lv": "Családtagok • A ház lakói",
+    "lv": "házközösség • lakóközösség",
     "level": "C2"
   },
   {
     "de": "Haushaltsausschuss",
     "de_article": "der",
     "de_plural": "die Haushaltsausschüsse",
-    "lv": "Költségvetési bizottság",
+    "lv": "költségvetési bizottság",
     "level": "C2"
   },
   {
     "de": "Herztransplantation",
     "de_article": "die",
     "de_plural": "die Herztransplantationen",
-    "lv": "Szívátültetés",
+    "lv": "szívátültetés",
     "level": "C2"
   },
   {
     "de": "Hinterlassenschaft",
     "de_article": "die",
     "de_plural": "die Hinterlassenschaften",
-    "lv": "Öröklés",
+    "lv": "hagyaték",
     "level": "C2"
   },
   {
     "de": "Kabinettsbeschluss",
     "de_article": "der",
     "de_plural": "die Kabinettsbeschlüsse",
-    "lv": "Kabinet határozata",
+    "lv": "kormányhatározat",
     "level": "C2"
   },
   {
     "de": "Kabinettsmitglied",
     "de_article": "das",
     "de_plural": "die Kabinettsmitglieder",
-    "lv": "Kabinettag • Miniszter",
+    "lv": "kormánytag • miniszter",
     "level": "C2"
   },
   {
     "de": "Koalitionspartner",
     "de_article": "der",
     "de_plural": "die Koalitionspartner",
-    "lv": "Koalíciós partner",
+    "lv": "koalíciós partner",
     "level": "C2"
   },
   {
     "de": "Koalitionsregierung",
     "de_article": "die",
     "de_plural": "die Koalitionsregierungen",
-    "lv": "Koalíciós kormány",
+    "lv": "koalíciós kormány",
     "level": "C2"
   },
   {
     "de": "Kriegsentschädigung",
     "de_article": "die",
     "de_plural": "die Kriegsentschädigungen",
-    "lv": "Háborús veszteségek kompenzációja • Jóvátétel",
+    "lv": "háborús jóvátétel",
     "level": "C2"
   },
   {
     "de": "Lebenserhaltungstrieb",
     "de_article": "der",
     "de_plural": "die Lebenserhaltungstriebe",
-    "lv": "Az élet hajtóereje",
+    "lv": "életösztön • önfenntartási ösztön",
     "level": "C2"
   },
   {
     "de": "Lebenshaltungskosten",
     "de_article": "die",
     "de_plural": "die Lebenshaltungskosten",
-    "lv": "Megélhetési eszközök • Költségek",
+    "lv": "megélhetési költségek",
     "level": "C2"
   },
   {
     "de": "Lebensversicherung",
     "de_article": "die",
     "de_plural": "die Lebensversicherungen",
-    "lv": "Életbiztosítás",
+    "lv": "életbiztosítás",
     "level": "C2"
   },
   {
     "de": "Leistungsfähigkeit",
     "de_article": "die",
     "de_plural": "die Leistungsfähigkeiten",
-    "lv": "Munkaképesség • Termelékenység • Kapacitás",
+    "lv": "teljesítőképesség • munkaképesség • termelékenység",
     "level": "C2"
   },
   {
     "de": "Mannschaftskampf",
     "de_article": "der",
     "de_plural": "die Mannschaftskämpfe",
-    "lv": "Csapatverseny",
+    "lv": "csapatverseny",
     "level": "C2"
   },
   {
     "de": "Marktwirtschaft",
     "de_article": "die",
     "de_plural": "die Marktwirtschaften",
-    "lv": "Piacgazdaság",
+    "lv": "piacgazdaság",
     "level": "C2"
   },
   {
     "de": "Meinungsverschiedenheiten",
     "de_article": "die",
     "de_plural": "die Meinungsverschiedenheiten",
-    "lv": "Nézeteltérések",
+    "lv": "nézeteltérések",
     "level": "C2"
   },
   {
     "de": "Meisterschaftsspiel",
     "de_article": "das",
     "de_plural": "die Meisterschaftsspiele",
-    "lv": "Mesterverseny",
+    "lv": "bajnoki mérkőzés",
     "level": "C2"
   },
   {
     "de": "menschenfreundlich",
-    "lv": "Humánus • Humánus",
+    "lv": "emberbarát • humánus",
     "level": "C2"
   },
   {
     "de": "Minderheitsregierung",
     "de_article": "die",
     "de_plural": "die Minderheitsregierungen",
-    "lv": "Kisebbségi kormány",
+    "lv": "kisebbségi kormány",
     "level": "C2"
   },
   {
     "de": "Mutterschaftsurlaub",
     "de_article": "der",
     "de_plural": "die Mutterschaftsurlaube",
-    "lv": "Szülési szabadság",
+    "lv": "szülési szabadság",
     "level": "C2"
   },
   {
     "de": "Nebenbeschäftigung",
     "de_article": "die",
     "de_plural": "die Nebenbeschäftigungen",
-    "lv": "Mellékes munka",
+    "lv": "mellékállás • mellékfoglalkozás",
     "level": "C2"
   },
   {
     "de": "Nervenzusammenbruch",
     "de_article": "der",
     "de_plural": "die Nervenzusammenbrüche",
-    "lv": "Idegösszeomlás",
+    "lv": "idegösszeomlás",
     "level": "C2"
   },
   {
     "de": "Parlamentarier",
     "de_article": "der",
     "de_plural": "die Parlamentarier",
-    "lv": "Országgyűlési képviselő • Országgyűlési képviselő",
+    "lv": "országgyűlési képviselő • parlamenti képviselő",
     "level": "C2"
   },
   {
     "de": "Pflichtversicherung",
     "de_article": "die",
     "de_plural": "die Pflichtversicherungen",
-    "lv": "Kötelező biztosítás",
+    "lv": "kötelező biztosítás",
     "level": "C2"
   },
   {
     "de": "politische Ökonomie",
     "de_article": "die",
-    "lv": "Politikai gazdaságtan",
+    "lv": "politikai gazdaságtan",
     "level": "C2"
   },
   {
     "de": "populärwissenschaftlich",
-    "lv": "Populáris tudomány",
+    "lv": "ismeretterjesztő • népszerű tudományos",
     "level": "C2"
   },
   {
     "de": "Preisausschreiben",
     "de_article": "das",
     "de_plural": "die Preisausschreiben",
-    "lv": "Verseny",
+    "lv": "nyereményjáték • pályázat",
     "level": "C2"
   },
   {
     "de": "rechtsextremistisch",
-    "lv": "Jobboldali szélsőséges",
+    "lv": "szélsőjobboldali",
     "level": "C2"
   },
   {
     "de": "Satellitenübertragung",
     "de_article": "die",
     "de_plural": "die Satellitenübertragungen",
-    "lv": "Műholdas televízió adás",
+    "lv": "műholdas közvetítés",
     "level": "C2"
   },
   {
     "de": "Scheidungsprozess",
     "de_article": "der",
     "de_plural": "die Scheidungsprozesse",
-    "lv": "Válási eljárás",
+    "lv": "válóper",
     "level": "C2"
   },
   {
     "de": "Beschwerdeschrift",
     "de_article": "die",
     "de_plural": "die Beschwerdeschriften",
-    "lv": "Panasz",
+    "lv": "panaszirat • panasz",
     "level": "C2"
   },
   {
     "de": "Schwangerschaftsabbruch",
     "de_article": "der",
     "de_plural": "die Schwangerschaftsabbrüche",
-    "lv": "Terhesség megszakítása",
+    "lv": "terhességmegszakítás • abortusz",
     "level": "C2"
   },
   {
     "de": "Selbstbestimmungsrecht",
     "de_article": "das",
     "de_plural": "die Selbstbestimmungsrechte",
-    "lv": "Az önrendelkezési jog",
+    "lv": "önrendelkezési jog",
     "level": "C2"
   },
   {
     "de": "Selbsterhaltungstrieb",
     "de_article": "der",
     "de_plural": "die Selbsterhaltungstriebe",
-    "lv": "Az önfenntartás ösztöne",
+    "lv": "önfenntartási ösztön",
     "level": "C2"
   },
   {
     "de": "Selbstverteidigung",
     "de_article": "die",
     "de_plural": "die Selbstverteidigungen",
-    "lv": "Önvédelmi technikák összessége",
+    "lv": "önvédelem",
     "level": "C2"
   },
   {
     "de": "Staatsangehörigkeit",
     "de_article": "die",
     "de_plural": "die Staatsangehörigkeiten",
-    "lv": "Államiság",
+    "lv": "állampolgárság",
     "level": "C2"
   },
   {
     "de": "Steuererleichterung",
     "de_article": "die",
     "de_plural": "die Steuererleichterungen",
-    "lv": "Adókedvezmények",
+    "lv": "adókedvezmény",
     "level": "C2"
   },
   {
     "de": "Strafgesetzbuch",
     "de_article": "das",
     "de_plural": "die Strafgesetzbücher",
-    "lv": "Jur büntető törvénykönyv",
+    "lv": "büntető törvénykönyv",
     "level": "C2"
   },
   {
     "de": "Tochtergesellschaft",
     "de_article": "die",
     "de_plural": "die Tochtergesellschaften",
-    "lv": "Leányvállalata",
+    "lv": "leányvállalat",
     "level": "C2"
   },
   {
     "de": "Vaterschaftsklage",
     "de_article": "die",
     "de_plural": "die Vaterschaftsklagen",
-    "lv": "Az apaság megállapítására irányuló per",
+    "lv": "apasági per",
     "level": "C2"
   },
   {
     "de": "verallgemeinern",
-    "lv": "Általánosítani",
+    "lv": "általánosít",
     "level": "C2"
   },
   {
     "de": "Verhütungsmittel",
     "de_article": "das",
     "de_plural": "die Verhütungsmittel",
-    "lv": "Fogamzásgátló",
+    "lv": "fogamzásgátló",
     "level": "C2"
   },
   {
     "de": "Waffenstillstand",
     "de_article": "der",
     "de_plural": "die Waffenstillstände",
-    "lv": "Fegyverszünet",
+    "lv": "fegyverszünet",
     "level": "C2"
   },
   {
     "de": "Widerstandsbewegung",
     "de_article": "die",
     "de_plural": "die Widerstandsbewegungen",
-    "lv": "Ellenállási mozgalom",
+    "lv": "ellenállási mozgalom",
     "level": "C2"
   },
   {
     "de": "Widerstandskämpfer",
     "de_article": "der",
     "de_plural": "die Widerstandskämpfer",
-    "lv": "Az ellenállási mozgalom tagja",
+    "lv": "ellenálló",
     "level": "C2"
   },
   {
     "de": "zugrunde, zu Grunde",
-    "lv": "Alapvetően",
+    "lv": "alapul • alapjául",
     "level": "C2"
   },
   {
     "de": "zugunsten, zu Gunsten",
-    "lv": "A jóért • A jóért",
+    "lv": "javára • érdekében",
     "level": "C2"
   },
   {
     "de": "imstande",
-    "lv": "Képes",
+    "lv": "képes",
     "level": "C2"
   },
   {
     "de": "im Stande",
-    "lv": "Képes",
+    "lv": "képes",
     "level": "C2"
   },
   {
     "de": "instand",
-    "lv": "Sorrendben",
+    "lv": "rendben • jó állapotban",
     "level": "C2"
   },
   {
     "de": "in Stand",
-    "lv": "Sorrendben",
+    "lv": "rendben • jó állapotban",
     "level": "C2"
   },
   {
     "de": "inwiefern",
-    "lv": "Milyen mértékben",
+    "lv": "mennyiben • milyen mértékben",
     "level": "C2"
   },
   {
     "de": "inwieweit",
-    "lv": "Milyen mértékben",
+    "lv": "mennyiben • milyen mértékben",
     "level": "C2"
   },
   {
     "de": "Karre",
     "de_article": "die",
     "de_plural": "die Karren",
-    "lv": "Talicska",
+    "lv": "talicska • kordé",
     "level": "C2"
   },
   {
     "de": "Karren",
     "de_article": "der",
     "de_plural": "die Karren",
-    "lv": "Talicska",
+    "lv": "kordé • talicska",
     "level": "C2"
   },
   {
     "de": "Kriegsbeschädigte",
     "de_article": "der",
     "de_plural": "die Kriegsbeschädigten",
-    "lv": "Háborús érvénytelen",
+    "lv": "hadirokkant",
     "level": "C2"
   },
   {
     "de": "Kriegsgefangene",
     "de_article": "der",
     "de_plural": "die Kriegsgefangenen",
-    "lv": "Hadifogoly",
+    "lv": "hadifogoly",
     "level": "C2"
   },
   {
     "de": "Sachverständige",
     "de_article": "der",
     "de_plural": "die Sachverständigen",
-    "lv": "Jártas • Szakértő",
+    "lv": "szakértő",
     "level": "C2"
   }
 ];
