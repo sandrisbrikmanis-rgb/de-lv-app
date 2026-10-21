@@ -1779,7 +1779,7 @@ const B2_WORDS = [
         "Ar iebilšanu parasti lieto negatīvu formu: nichts auszusetzen haben."
       ],
       "important": [
-        "Pakļaušanai pēc aussetzen seko datīvs (der Gefahr, dem Risiko), nevis akuzatīvs.",
+        "Pakļaušanai pēc aussetzen seko datīvs (der Gefahr, dem Risiko), bet pakļautais ir akuzatīvā (jemanden).",
         "Nejauc ausgesetzt sein (būt pakļautam) ar ausgestellt (izstādīts vai izdots)."
       ],
       "sectionAccents": {
@@ -6095,7 +6095,7 @@ const B2_WORDS = [
       "translation": "līgt • salīgt",
       "explanation": [
         "Galvenā doma: dingen ir rets, vecmodīgs darbības vārds, kas nozīmē nolīgt (cilvēku par samaksu kādam darbam). Mūsdienās dzirdams galvenokārt izteicienā ein gedungener Mörder (nolīgts slepkava) un vēsturiskos tekstos.",
-        "Formas: dingt, dang, hat gedungen (sastopama arī regulārā forma dingte, gedingt). Tipiski tiek nolīgti Söldner, Mörder, Führer. Ikdienā saka anheuern vai engagieren.",
+        "Formas: dingt, dingte (retāk dang), hat gedungen (retāk gedingt). Tipiski tiek nolīgti Söldner, Mörder, Führer. Ikdienā saka anheuern vai engagieren.",
         "Pēc dingen seko akuzatīvs: jemanden dingen."
       ],
       "examples": [
@@ -6135,7 +6135,7 @@ const B2_WORDS = [
       ],
       "important": [
         "Dingen ir literārs vai vēsturisks vārds; ikdienas runā tas izklausītos dīvaini.",
-        "Formām ir svārstības (dang/gedungen un dingte/gedingt); pamatā tiek lietota stiprā forma."
+        "Formām ir svārstības (dang/gedungen un dingte/gedingt); pagātnē parasti dingte, divdabī — gedungen."
       ],
       "sectionAccents": {
         "explanation": {

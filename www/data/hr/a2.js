@@ -2768,7 +2768,7 @@ const A2_WORDS = [
       "translation": "naložiti • potpaliti",
       "explanation": [
         "Glavna ideja: anheizen znači naložiti ili početi grijati (peć, kamin, kotao). To je glagol s odvojivim prefiksom: ich heize den Ofen an.",
-        "Oblici: heizt an, heizte an, hat angeheizt. U perfektu se koristi haben, a prefiks an- se u rečenici odvaja.",
+        "Oblici: heizt an, heizte an, hat angeheizt. U perfektu se koristi haben; u prezentu i preteritu prefiks an- se u rečenici odvaja.",
         "U prenesenom značenju anheizen znači raspiriti, pojačati: die Stimmung anheizen (podići atmosferu), die Diskussion anheizen (raspiriti raspravu)."
       ],
       "examples": [
@@ -5281,7 +5281,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Ako je riječ o školi, udruzi ili bolnici, misli na prijam; ako je riječ o glazbi ili videu, na snimku; ako je riječ o fotoaparatu, na fotografiju.",
-        "S machen i in izražava se snimanje ili prijam: eine Aufnahme machen."
+        "S machen izražava se snimka ili snimanje, s in – prijam: eine Aufnahme machen."
       ],
       "important": [
         "Aufnahme je ženskog roda: die Aufnahme, u množini die Aufnahmen.",
@@ -6424,7 +6424,7 @@ const A2_WORDS = [
       "translation": "uložiti • utrošiti",
       "explanation": [
         "Glavna misao: aufwenden je glagol s odvojivim prefiksom koji znači uložiti ili utrošiti (vrijeme, novac, trud, energiju) za neki cilj. Pripada višem stilu.",
-        "Oblici: wendet auf, wendete auf (i wandte auf), hat aufgewendet (i aufgewandt). Obično se koristi sa zu ili für: Zeit für etwas aufwenden.",
+        "Oblici: wendet auf, wendete auf (i wandte auf), hat aufgewendet (i aufgewandt). Obično se koristi s für: Zeit für etwas aufwenden.",
         "Srodna imenica je der Aufwand (trud, troškovi, izdaci): mit großem Aufwand (uz velik trud)."
       ],
       "examples": [
@@ -23027,7 +23027,7 @@ const A2_WORDS = [
         {
           "word": "dadurch, dass",
           "meaning": "time što, zahvaljujući tome što",
-          "example": "Er gewinnt, dadurch dass er übt. – Pobjeđuje zahvaljujući tome što vježba."
+          "example": "Er gewinnt dadurch, dass er übt. – Pobjeđuje zahvaljujući tome što vježba."
         }
       ],
       "tip": [
@@ -25017,7 +25017,7 @@ const A2_WORDS = [
         "Osobu ili mjesto poznaješ: kennen; činjenicu znaš: wissen."
       ],
       "important": [
-        "S akuzativom se wissen rijetko koristi, i to uglavnom sa zamjenicama: Ich weiß das, Ich weiß es; osobu ne možeš „znati” glagolom wissen.",
+        "S akuzativom se wissen koristi sa zamjenicama ili s imenicama koje označavaju informaciju (die Antwort, den Weg): Ich weiß das, Ich weiß es; osobu ne možeš „znati” glagolom wissen.",
         "Za vještinu se koristi können: Ich kann schwimmen, a ne Ich weiß schwimmen."
       ],
       "sectionAccents": {
@@ -30851,7 +30851,7 @@ const A2_WORDS = [
         "Hier ist viel los znači Ovdje je jako živo."
       ],
       "important": [
-        "Los se upotrebljava uglavnom uz sein; ispred imenice upotrebljava se oblik lose: ein loser Knopf.",
+        "Los se upotrebljava uglavnom uz sein; ispred imenice upotrebljava se srodna riječ lose: ein loser Knopf.",
         "Ne miješaj s das Los (srećka, sudbina) ni s locker (labav, olabavljen)."
       ],
       "sectionAccents": {
@@ -49468,7 +49468,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Suprotnost od schon je noch (još): Bist du schon da? – Nein, noch nicht.",
+        "Suprotnost od schon je noch nicht (još ne): Bist du schon da? – Nein, noch nicht.",
         "bereits je službeniji od schon, ali ima isto značenje."
       ],
       "important": [

@@ -5026,7 +5026,7 @@ const A1_WORDS = [
       "translation": "che",
       "explanation": [
         "Idea principale: dass è la congiunzione subordinante «che», che introduce una frase oggettiva dopo verbi come sagen, wissen, denken, hoffen e dopo espressioni come Es ist schön …: Ich weiß, dass du müde bist.",
-        "Prima di dass c'è sempre la virgola. Nella frase secondaria il verbo (quello principale, coniugato) va in fondo alla frase: …, dass er keine Zeit hat.",
+        "Prima di dass a metà frase c'è sempre la virgola. Nella frase secondaria il verbo (quello principale, coniugato) va in fondo alla frase: …, dass er keine Zeit hat.",
         "Dass si scrive con due s. L'articolo neutro e pronome dimostrativo das è un'altra parola."
       ],
       "examples": [
@@ -5069,7 +5069,7 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Dopo dass metti la virgola e sposta il verbo in fondo.",
+        "Prima di dass metti la virgola e sposta il verbo in fondo.",
         "Se la frase inizia con dass, la secondaria può stare al primo posto: Dass du kommst, freut mich."
       ],
       "important": [
@@ -6883,7 +6883,7 @@ const A1_WORDS = [
       "translation": "qualcosa • un po'",
       "explanation": [
         "Idea principale: etwas è il pronome indefinito «qualcosa»: Ich möchte etwas trinken, Hast du etwas Neues? Non cambia forma e si comporta come un neutro singolare.",
-        "Dopo etwas l'aggettivo si scrive come un sostantivo, con la maiuscola e la desinenza -es: etwas Neues (qualcosa di nuovo), etwas Gutes, etwas anderes.",
+        "Dopo etwas l'aggettivo si scrive come un sostantivo, con la maiuscola e la desinenza -es: etwas Neues (qualcosa di nuovo), etwas Gutes (ma di solito etwas anderes con la minuscola).",
         "Etwas può significare anche «un po'»: etwas Zeit (un po' di tempo), etwas müde (un po' stanco)."
       ],
       "examples": [
@@ -16844,7 +16844,7 @@ const A1_WORDS = [
       "translation": "litro",
       "explanation": [
         "Idea principale: der Liter è un'unità di volume: il litro. Si usa per i liquidi: Milch, Wasser, Benzin.",
-        "Plurale: die Liter (senza desinenza). Dopo un numero l'unità non cambia e il sostantivo che segue viene senza preposizione: zwei Liter Milch (due litri di latte), drei Liter Wasser. Der Liter è maschile; nella lingua parlata a volte si usa anche das Liter.",
+        "Plurale: die Liter (senza desinenza). Dopo un numero l'unità non cambia e il sostantivo che segue viene senza preposizione: zwei Liter Milch (due litri di latte), drei Liter Wasser. Der Liter è maschile; a volte si usa anche das Liter.",
         "Abbreviazione l: 1 l = 1000 Milliliter (ml, millilitri)."
       ],
       "examples": [
@@ -18735,7 +18735,7 @@ const A1_WORDS = [
         {
           "word": "sollen",
           "meaning": "dovere (indicazione di altri)",
-          "example": "Du sollst mehr schlafen. – Dovresti dormire di più."
+          "example": "Du sollst mehr schlafen. – Devi dormire di più."
         },
         {
           "word": "dürfen",
@@ -22791,7 +22791,7 @@ const A1_WORDS = [
       "explanation": [
         "Idea principale: sein è il verbo fondamentale del tedesco: “essere”. È irregolare: ich bin, du bist, er/sie/es ist, wir sind, ihr seid, sie/Sie sind; passato war, Perfekt ist gewesen.",
         "Si usa per dire chi è qualcuno (Er ist Arzt), com'è (Das Haus ist groß), dove si trova (Wir sind hier) e quanti anni ha (Ich bin 20 Jahre alt). In tedesco sein non si omette mai: non si può dire “Ich Lehrer”.",
-        "Sein è anche ausiliare del Perfekt con i verbi di movimento e di cambiamento di stato (ich bin gefahren, ich bin gewesen)."
+        "Sein è anche ausiliare del Perfekt con i verbi di movimento e di cambiamento di stato (ich bin gefahren), oltre che con sein e bleiben (ich bin gewesen)."
       ],
       "examples": [
         {
@@ -25952,7 +25952,7 @@ const A1_WORDS = [
           "lv": "Torniamo proprio adesso dal medico."
         },
         {
-          "de": "Der Zug vom Gleis drei fährt gleich ab.",
+          "de": "Der Zug vom dritten Gleis fährt gleich ab.",
           "lv": "Il treno dal binario tre parte subito."
         },
         {
@@ -30444,7 +30444,7 @@ const A1_WORDS = [
       "translation": "tempo",
       "explanation": [
         "Idea chiave: die Zeit è un sostantivo femminile, plurale die Zeiten. Indica il tempo come momento, periodo o disponibilità: Ich habe keine Zeit. Zeit haben significa essere liberi, Zeit brauchen aver bisogno di tempo.",
-        "Frasi frequenti: zur Zeit / zurzeit (attualmente), die Zeit vergeht (il tempo passa), Es ist Zeit (è ora). Al plurale die Zeiten indica epoche o periodi: in schweren Zeiten.",
+        "Frasi frequenti: zurzeit (attualmente), die Zeit vergeht (il tempo passa), Es ist Zeit (è ora). Al plurale die Zeiten indica epoche o periodi: in schweren Zeiten.",
         "In italiano «tempo» indica anche le condizioni atmosferiche, ma in tedesco il tempo atmosferico si dice das Wetter, non die Zeit."
       ],
       "examples": [

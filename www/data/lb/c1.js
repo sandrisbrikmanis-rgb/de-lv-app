@@ -959,7 +959,7 @@ const C1_WORDS = [
         "Eng ähnlech Bedeitung huet die Allgemeinheit (all d'Leit zesummen)."
       ],
       "important": [
-        "D'Pluralform gëtt normalerweis net benotzt: et gëtt keng die Öffentlichkeiten."
+        "D'Pluralform gëtt normalerweis net benotzt: die Öffentlichkeiten ass seelen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -3380,7 +3380,7 @@ const C1_WORDS = [
       "comparison": [
         {
           "word": "festgelegt",
-          "meaning": "festgeluecht (no enger Ofsprooch)",
+          "meaning": "festgeluecht",
           "example": "Der Plan ist festgelegt. – De Plang ass festgeluecht."
         },
         {

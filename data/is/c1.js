@@ -959,7 +959,7 @@ const C1_WORDS = [
         "Svipaða merkingu hefur orðið die Allgemeinheit (allur almenningur)."
       ],
       "important": [
-        "Fleirtala er venjulega ekki notuð: die Öffentlichkeiten er ekki sagt."
+        "Fleirtala er venjulega ekki notuð: die Öffentlichkeiten er sjaldgæft."
       ],
       "sectionAccents": {
         "explanation": {
@@ -3380,7 +3380,7 @@ const C1_WORDS = [
       "comparison": [
         {
           "word": "festgelegt",
-          "meaning": "ákveðinn (með samkomulagi)",
+          "meaning": "ákveðinn",
           "example": "Der Plan ist festgelegt. – Áætlunin er ákveðin."
         },
         {

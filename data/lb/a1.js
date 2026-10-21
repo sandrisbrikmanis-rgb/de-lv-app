@@ -5023,7 +5023,7 @@ const A1_WORDS = [
       "translation": "datt",
       "explanation": [
         "Haaptiddi: dass ass d'Konjunktioun 'datt', déi en Niewesaz no Verben wéi sagen, wissen, denken, hoffen an no Ausdréck wéi Es ist schön … aféiert: Ich weiß, dass du müde bist.",
-        "Virun dass steet ëmmer e Komma. Am Niewesaz steet dat konjugéiert Verb um Enn: …, dass er keine Zeit hat.",
+        "Virun dass an der Mëtt vum Saz steet ëmmer e Komma. Am Niewesaz steet dat konjugéiert Verb um Enn: …, dass er keine Zeit hat.",
         "Dass schreift een mat zwee s. Den Artikel an d'Demonstrativpronomen das ass en anert Wuert."
       ],
       "examples": [
@@ -5066,7 +5066,7 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Bei dass setz e Komma a stell d'Verb un d'Enn.",
+        "Virun dass setz e Komma a stell d'Verb un d'Enn.",
         "Den Niewesaz mat dass kann och virdru stoen: Dass du kommst, freut mich."
       ],
       "important": [
@@ -5282,7 +5282,7 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Beim Maskulinum ass den Nominativ der, den Akkusativ den: der Hund, aber Ich sehe den Hund.",
+        "Beim Maskulinum ass den Nominativ der, den Akkusativ den: der Hund, mee Ich sehe den Hund.",
         "Léier der zesumme mam Substantiv: der Tisch."
       ],
       "important": [
@@ -6878,7 +6878,7 @@ const A1_WORDS = [
       "translation": "eppes • e bëssen",
       "explanation": [
         "Haaptiddi: etwas ass en onbestëmmte Pronomen 'eppes': Ich möchte etwas trinken, Hast du etwas Neues? Et ännert sech net a steet am Singular Neutrum.",
-        "Nom etwas gëtt en Adjektiv wéi e Substantiv grouss geschriwwen a kritt d'Endung -es: etwas Neues (eppes Neies), etwas Gutes, etwas anderes.",
+        "Nom etwas gëtt en Adjektiv wéi e Substantiv grouss geschriwwen a kritt d'Endung -es: etwas Neues (eppes Neies), etwas Gutes (mee etwas anderes gëtt normalerweis kleng geschriwwen).",
         "Etwas kann och 'e bëssen' heeschen: etwas Zeit (e bëssen Zäit), etwas müde (e bësse midd)."
       ],
       "examples": [
@@ -16835,7 +16835,7 @@ const A1_WORDS = [
       "translation": "Liter",
       "explanation": [
         "Haaptiddi: der Liter ass eng Moosseenheet fir de Volumen — e Liter. Et gëtt fir Flëssegkeeten ugewannt: Milch, Wasser, Benzin.",
-        "Plural: die Liter (ouni Endung). No enger Zuel ännert d'Eenheet sech net, an dat nächst Substantiv kënnt direkt ouni Präpositioun: zwei Liter Milch (zwee Liter Mëllech), drei Liter Wasser. Der Liter ass männlech; an der Ëmgangssprooch héiert ee Leit heiansdo och das Liter soen.",
+        "Plural: die Liter (ouni Endung). No enger Zuel ännert d'Eenheet sech net, an dat nächst Substantiv kënnt direkt ouni Präpositioun: zwei Liter Milch (zwee Liter Mëllech), drei Liter Wasser. Der Liter ass männlech; heiansdo seet een och das Liter.",
         "Ofkierzung l: 1 l = 1000 Milliliter (ml)."
       ],
       "examples": [
@@ -22780,7 +22780,7 @@ const A1_WORDS = [
       "explanation": [
         "Haaptiddi: sein ass dat däitscht Basisverb „sinn“. Et ass onregelméisseg: ich bin, du bist, er/sie/es ist, wir sind, ihr seid, sie/Sie sind; Präteritum war, Perfekt ist gewesen.",
         "Et gëtt benotzt fir ze soen, wat een ass (Er ist Arzt), wéi een ass (Das Haus ist groß), wou ee sech befënnt (Wir sind hier) a wéi al een ass (Ich bin 20 Jahre alt). Op Däitsch gëtt sein ni ewechgelooss: \"Ich Lehrer\" geet net.",
-        "Sein ass och Hëllefsverb am Perfekt bei Verben vun der Beweegung an der Zoustandsännerung (ich bin gefahren, ich bin gewesen). Opgepasst: Op Lëtzebuergesch seet een „ech war“ (Präteritum) grad esou wéi „ech si gewiescht“."
+        "Sein ass och Hëllefsverb am Perfekt bei Verben vun der Beweegung an der Zoustandsännerung (ich bin gefahren), a mat sein a bleiben (ich bin gewesen). Opgepasst: Op Lëtzebuergesch seet een „ech war“ (Präteritum) grad esou wéi „ech si gewiescht“."
       ],
       "examples": [
         {
@@ -25943,7 +25943,7 @@ const A1_WORDS = [
           "lv": "Mir komme grad vum Dokter."
         },
         {
-          "de": "Der Zug vom Gleis drei fährt gleich ab.",
+          "de": "Der Zug vom dritten Gleis fährt gleich ab.",
           "lv": "Den Zuch vum Quai dräi fiert gläich fort."
         },
         {
@@ -30429,7 +30429,7 @@ const A1_WORDS = [
       "translation": "Zäit",
       "explanation": [
         "Haaptiddi: die Zeit ass e weiblecht Substantiv, Plural die Zeiten. Et bedeit d'Zäit als Moment, Period oder Méiglechkeet: Ich habe keine Zeit. Zeit haben heescht fräi sinn, Zeit brauchen — Zäit brauchen.",
-        "Heefeg Ausdréck: zur Zeit / zurzeit (momentan), die Zeit vergeht (d'Zäit vergeet), Es ist Zeit (et ass Zäit). Am Plural bedeit die Zeiten Epochen oder Perioden: in schweren Zeiten.",
+        "Heefeg Ausdréck: zurzeit (momentan), die Zeit vergeht (d'Zäit vergeet), Es ist Zeit (et ass Zäit). Am Plural bedeit die Zeiten Epochen oder Perioden: in schweren Zeiten.",
         "D'Wieder heescht das Wetter, net die Zeit."
       ],
       "examples": [

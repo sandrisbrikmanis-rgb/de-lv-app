@@ -1779,7 +1779,7 @@ const B2_WORDS = [
         "U značenju prigovarati obično se upotrebljava niječni oblik: nichts auszusetzen haben."
       ],
       "important": [
-        "U značenju izložiti iza aussetzen dolazi dativ (der Gefahr, dem Risiko), a ne akuzativ.",
+        "U značenju izložiti iza aussetzen dolazi dativ (der Gefahr, dem Risiko), a ono što se izlaže stoji u akuzativu (jemanden).",
         "Ne miješaj ausgesetzt sein (biti izložen opasnosti, suncu) s ausgestellt (izložen na izložbi ili izdan, o dokumentu)."
       ],
       "sectionAccents": {

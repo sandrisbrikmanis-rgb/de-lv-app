@@ -5027,7 +5027,7 @@ const A1_WORDS = [
       "translation": "Že",
       "explanation": [
         "Hlavní myšlenka: dass je podřadicí spojka „že“, která uvozuje obsahovou vedlejší větu po slovesech sagen, wissen, denken, hoffen a po výrazech Es ist schön …: Ich weiß, dass du müde bist.",
-        "Před dass je vždy čárka. Ve vedlejší větě stojí časované sloveso na konci: …, dass er keine Zeit hat.",
+        "Před dass uprostřed věty je vždy čárka. Ve vedlejší větě stojí časované sloveso na konci: …, dass er keine Zeit hat.",
         "Dass se píše se dvěma s. Člen středního rodu a ukazovací zájmeno das je jiné slovo."
       ],
       "examples": [
@@ -6885,7 +6885,7 @@ const A1_WORDS = [
       "translation": "Něco • Trochu",
       "explanation": [
         "Hlavní myšlenka: etwas je neurčité zájmeno „něco“: Ich möchte etwas trinken, Hast du etwas Neues? Nemění se a odpovídá jednotnému číslu středního rodu.",
-        "Přídavné jméno po etwas se píše jako podstatné jméno s velkým písmenem a koncovkou -es: etwas Neues (něco nového), etwas Gutes, etwas anderes.",
+        "Přídavné jméno po etwas se píše jako podstatné jméno s velkým písmenem a koncovkou -es: etwas Neues (něco nového), etwas Gutes (ale etwas anderes se obvykle píše s malým písmenem).",
         "Etwas může znamenat i „trochu, málo“: etwas Zeit (trochu času), etwas müde (trochu unavený)."
       ],
       "examples": [
@@ -16842,7 +16842,7 @@ const A1_WORDS = [
       "translation": "Litr",
       "explanation": [
         "Hlavní myšlenka: der Liter je jednotka objemu – litr. Používá se u tekutin: Milch, Wasser, Benzin.",
-        "Plurál: die Liter (bez koncovky). Po číslovce se jednotka nemění a následující podstatné jméno stojí bez předložky: zwei Liter Milch (dva litry mléka), drei Liter Wasser. Der Liter je mužského rodu; v hovorové řeči se někdy používá i das Liter.",
+        "Plurál: die Liter (bez koncovky). Po číslovce se jednotka nemění a následující podstatné jméno stojí bez předložky: zwei Liter Milch (dva litry mléka), drei Liter Wasser. Der Liter je mužského rodu; někdy se používá i das Liter.",
         "Zkratka l: 1 l = 1000 Milliliter (ml, mililitrů)."
       ],
       "examples": [
@@ -18729,7 +18729,7 @@ const A1_WORDS = [
         {
           "word": "sollen",
           "meaning": "měl by (doporučení)",
-          "example": "Du sollst mehr schlafen. – Měl bys víc spát."
+          "example": "Du sollst mehr schlafen. – Máš víc spát."
         },
         {
           "word": "dürfen",
@@ -22780,7 +22780,7 @@ const A1_WORDS = [
       "explanation": [
         "Hlavní myšlenka: sein je základní německé sloveso „být“. Je nepravidelné: ich bin, du bist, er/sie/es ist, wir sind, ihr seid, sie/Sie sind; préteritum war, perfektum ist gewesen.",
         "Používá se k vyjádření, kým kdo je (Er ist Arzt), jaký je (Das Haus ist groß), kde se nachází (Wir sind hier) a kolik je mu let (Ich bin 20 Jahre alt). V němčině se sein nikdy nevynechává: nelze říct „Ich Lehrer“.",
-        "Sein je také pomocné sloveso perfekta u sloves pohybu a změny stavu (ich bin gefahren, ich bin gewesen)."
+        "Sein je také pomocné sloveso perfekta u sloves pohybu a změny stavu (ich bin gefahren), a také u sein a bleiben (ich bin gewesen)."
       ],
       "examples": [
         {
@@ -25943,7 +25943,7 @@ const A1_WORDS = [
           "lv": "Právě se vracíme od lékaře."
         },
         {
-          "de": "Der Zug vom Gleis drei fährt gleich ab.",
+          "de": "Der Zug vom dritten Gleis fährt gleich ab.",
           "lv": "Vlak z nástupiště tři za chvíli odjíždí."
         },
         {

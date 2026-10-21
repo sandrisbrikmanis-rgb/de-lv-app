@@ -2275,7 +2275,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Předpona ab- se ve větě odlučuje: Ich nehme die Brille ab.",
-        "Význam určuje předmět: Brille – sundat, Telefon – zvednout, Gewicht – zhubnout."
+        "Význam určuje předmět: Brille – sundat, Telefon – zvednout, Kilo – zhubnout."
       ],
       "sectionAccents": {
         "explanation": {
@@ -14012,7 +14012,7 @@ const B1_WORDS = [
       "translation": "Proto",
       "explanation": [
         "Hlavní myšlenka: daher je příslovce vyjadřující důsledek: proto, a tudíž. Ukazuje, že se něco děje z nějakého důvodu. Ich war krank, daher bin ich nicht gekommen.",
-        "Slovosled: daher stojí na začátku nebo uprostřed věty a sloveso následuje hned po něm: Daher bleibe ich zu Hause. Slovo nezavádí vedlejší větu.",
+        "Slovosled: daher stojí na začátku věty (pak sloveso následuje hned po něm) nebo uprostřed: Daher bleibe ich zu Hause. Slovo nezavádí vedlejší větu.",
         "Daher může znamenat i odtud: Von daher kommt das Geräusch. V tomto významu se ptáme woher? (odkud?)."
       ],
       "examples": [
@@ -18753,7 +18753,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Chceš-li říct prostě „jednobarevný“, použij einfarbig; chceš-li pojmenovat barvu, řekni uni nebo jen název barvy.",
+        "Chceš-li říct prostě „jednobarevný“, použij einfarbig; chceš-li pojmenovat barvu, řekni jen název barvy; synonymem je uni.",
         "Porovnej se zweifarbig (dvoubarevný) a dreifarbig."
       ],
       "important": [
@@ -25474,7 +25474,7 @@ const B1_WORDS = [
       "translation": "Líný",
       "explanation": [
         "Hlavní myšlenka: faul je přídavné jméno se dvěma významy: líný (člověk, který nemá chuť pracovat) a zkažený, shnilý (jídlo, vejce, dřevo). Přeneseně faule Ausrede – nevěrohodná výmluva.",
-        "Slovo se skloňuje: ein fauler Schüler, ein fauler Apfel. Druhý stupeň: fauler, nejvyšší stupeň: faulst. Podstatné jméno: die Faulheit (lenost); sloveso: faulenzen – lenošit, zahálet."
+        "Slovo se skloňuje: ein fauler Schüler, ein fauler Apfel. Druhý stupeň: fauler, nejvyšší stupeň: am faulsten. Podstatné jméno: die Faulheit (lenost); sloveso: faulenzen – lenošit, zahálet."
       ],
       "examples": [
         {
@@ -26979,7 +26979,7 @@ const B1_WORDS = [
       "translation": "Pokračovat",
       "explanation": [
         "Hlavní myšlenka: fortfahren je odlučitelné sloveso, které znamená pokračovat v již zahájené práci nebo rozhovoru. Tvary: fährt fort, fuhr fort, hat fortgefahren.",
-        "Konstrukce: mit etwas fortfahren (pokračovat v něčem), fortfahren, etwas zu tun (pokračovat v dělání něčeho). Je knižnější než weitermachen, často se slyší v projevech a v úředním jazyce. Zřídka znamená také odjet, a pak se používá pomocné sloveso sein."
+        "Konstrukce: mit etwas fortfahren (pokračovat v něčem), fortfahren, etwas zu tun (pokračovat v dělání něčeho). Je knižnější než weitermachen, často se slyší v projevech a v úředním jazyce. Znamená také odjet, a pak se používá pomocné sloveso sein."
       ],
       "examples": [
         {
@@ -40817,7 +40817,7 @@ const B1_WORDS = [
       "explanation": [
         "Hlavní myšlenka: kündigen znamená vypovědět práci, smlouvu nebo nájem, tedy úředně oznámit, že vztah skončí. Tvary: kündigt, kündigte, hat gekündigt (pomocné sloveso haben). Ukončit práci tedy často znamená dát výpověď.",
         "S akuzativem se užívá věc: den Vertrag kündigen, die Wohnung kündigen, den Job kündigen. S dativem osoba, které se vypovídá: Der Chef kündigt dem Mitarbeiter (šéf dává zaměstnanci výpověď). Bez předmětu ich habe gekündigt znamená, že jsem dal výpověď sám.",
-        "Kündigen je v podstatě úřední krok s lhůtou (Kündigungsfrist); propuštění jménem podniku se označuje entlassen."
+        "Kündigen je v podstatě úřední krok s lhůtou (Kündigungsfrist); propuštění jménem podniku se označuje také entlassen."
       ],
       "examples": [
         {
@@ -41078,7 +41078,7 @@ const B1_WORDS = [
       "translation": "Spojit",
       "explanation": [
         "Hlavní myšlenka: kuppeln znamená technicky spojit, připojit, například vagony nebo přívěs. Při řízení auta znamená sešlápnout spojku (die Kupplung) při řazení. Tvary: kuppelt, kuppelte, hat gekuppelt.",
-        "V technickém významu se často používá s předponou: ankuppeln (připojit), abkuppeln (odpojit), zusammenkuppeln (spojit dohromady). Slovo je odvozeno od die Kupplung (spojka, spojení).",
+        "V technickém významu se často používá s předponou: ankuppeln (připojit), abkuppeln (odpojit), zusammenkuppeln (spojit dohromady). Od něj je odvozeno podstatné jméno die Kupplung (spojka, spojení).",
         "V přeneseném významu je verkuppeln dávat dohromady dva lidi (popostrčit je do vztahu) a často má výčitkový nádech."
       ],
       "examples": [
@@ -56584,7 +56584,7 @@ const B1_WORDS = [
       "explanation": [
         "Hlavní myšlenka: der Schimmel je podstatné jméno mužského rodu a označuje plíseň na jídle, na zdech nebo jiných vlhkých površích. Druhý význam téhož slova je bělouš, bílý kůň.",
         "Množné číslo je die Schimmel (v obou významech). U plísně se množné číslo používá zřídka, protože jde obvykle o látku: Schimmel an der Wand.",
-        "Je od něj odvozeno sloveso schimmeln – plesnivět: Das Brot schimmelt. A příčestí: Das Brot ist verschimmelt (chléb je zplesnivělý)."
+        "Je od něj odvozeno sloveso schimmeln – plesnivět: Das Brot schimmelt. Od slovesa verschimmeln (zplesnivět) také: Das Brot ist verschimmelt (chléb je zplesnivělý)."
       ],
       "examples": [
         {
@@ -57808,7 +57808,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Der Schmuck není der Schmutz (špína): Schmuck – ozdoba, Schmutz – nečistota.",
-        "Sich schmücken může v přeneseném smyslu znamenat i chlubit se cizími zásluhami."
+        "Ustálené spojení sich mit fremden Federn schmücken znamená chlubit se cizími zásluhami."
       ],
       "sectionAccents": {
         "explanation": {
@@ -57922,8 +57922,7 @@ const B1_WORDS = [
           },
           {
             "blue": [
-              "schmücken",
-              "sich schmücken"
+              "schmücken"
             ]
           }
         ]
@@ -64053,7 +64052,7 @@ const B1_WORDS = [
       ],
       "tip": [
         "V běžné řeči Němci říkají jednoduše Strom, ne Elektrizität: Hast du Strom? – Funguje ti elektřina?",
-        "Když jde o velkou řeku, je der Strom básnivější slovo než der Fluss."
+        "Když jde o velkou řeku, označuje der Strom větší řeku než der Fluss."
       ],
       "important": [
         "Der Strom (elektrický proud, velká řeka) není totéž co die Strömung (proud vody nebo vzduchu).",
@@ -64305,7 +64304,7 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "Spadnout",
       "explanation": [
-        "Hlavní myšlenka: stürzen označuje rychlý, prudký pohyb: spadnout z výšky, rychle vběhnout nebo se vrhnout, případně (o cenách, vládě) prudce klesat či padat. Tvary: stürzt, stürzte, ist gestürzt.",
+        "Hlavní myšlenka: stürzen označuje rychlý, prudký pohyb: spadnout z výšky, rychle vběhnout nebo se vrhnout, případně (o cenách) prudce klesat, (o vládě) padnout. Tvary: stürzt, stürzte, ist gestürzt.",
         "Když někdo sám padá nebo spěchá, používá se pomocné sloveso sein: Er ist gestürzt. Když někdo někoho svrhává (vládu, vedoucího), je sloveso přechodné a používá se haben: Das Volk hat den König gestürzt. Zvratné sich stürzen auf/in znamená vrhnout se na něco nebo se do něčeho ponořit: Er stürzt sich in die Arbeit. Předložka in + akuzativ udává směr (kam?), von + dativ místo, odkud."
       ],
       "examples": [

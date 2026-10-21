@@ -2765,7 +2765,7 @@ const A2_WORDS = [
       "translation": "begyújt",
       "explanation": [
         "Fő gondolat: az anheizen jelentése begyújt, illetve fűteni kezd (kályhát, kandallót, kazánt). Elváló igekötős ige: ich heize den Ofen an.",
-        "Alakjai: heizt an, heizte an, hat angeheizt. A Perfekt segédigéje a haben, és az an- igekötő a főmondatban leválik.",
+        "Alakjai: heizt an, heizte an, hat angeheizt. A Perfekt segédigéje a haben; jelen időben és Präteritumban az an- igekötő a főmondatban leválik.",
         "Átvitt értelemben az anheizen jelentése felszít, fokoz: die Stimmung anheizen (felszítja a hangulatot), die Diskussion anheizen (felszítja a vitát)."
       ],
       "examples": [
@@ -6421,7 +6421,7 @@ const A2_WORDS = [
       "translation": "ráfordít",
       "explanation": [
         "Fő gondolat: az aufwenden elváló igekötős ige, jelentése ráfordít, szán valamire (időt, pénzt, fáradságot, energiát) egy cél érdekében. Inkább a hivatalosabb nyelvhez tartozik.",
-        "Alakjai: wendet auf, wendete auf (vagy wandte auf), hat aufgewendet (vagy aufgewandt). Általában zu vagy für elöljárószóval használjuk: Zeit für etwas aufwenden.",
+        "Alakjai: wendet auf, wendete auf (vagy wandte auf), hat aufgewendet (vagy aufgewandt). Általában für elöljárószóval használjuk: Zeit für etwas aufwenden.",
         "A rokon főnév der Aufwand (ráfordítás, fáradság, költség): mit großem Aufwand (nagy ráfordítással)."
       ],
       "examples": [
@@ -21996,7 +21996,7 @@ const A2_WORDS = [
       "explanation": [
         "Lényeg: a hängen valójában két különböző ige. A tárgyatlan hängen jelentése lóg (valami fel van akasztva, például egy kép a falon), a tárgyas hängen jelentése felakaszt (valaki felakaszt valamit).",
         "A tárgyatlan ige: hängen, hing, hat gehangen (délen gyakran ist gehangen). Kérdése Wo?, és Dativval (részes esettel) áll: Das Bild hängt an der Wand. A tárgyas ige szabályos: hängen, hängte, hat gehängt. Kérdése Wohin?, és Akkusativval (tárgyesettel) áll: Ich hänge das Bild an die Wand.",
-        "Ahogy a liegen / legen párnál, itt sem a főnévi igenév, hanem az alakok és az eset különbözteti meg az állapotot és a cselekvést."
+        "A liegen / legen párral ellentétben itt nem a főnévi igenév, hanem az alakok és az eset különbözteti meg az állapotot és a cselekvést."
       ],
       "examples": [
         {
@@ -23025,7 +23025,7 @@ const A2_WORDS = [
         {
           "word": "dadurch, dass",
           "meaning": "azáltal, hogy; annak révén, hogy",
-          "example": "Er gewinnt, dadurch dass er übt. – Azáltal nyer, hogy gyakorol."
+          "example": "Er gewinnt dadurch, dass er übt. – Azáltal nyer, hogy gyakorol."
         }
       ],
       "tip": [
@@ -23348,7 +23348,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Ne keverd össze a je szót a jede (minden, mindegyik) és a ja (igen) szóval.",
-        "Számmal álló je után a főnév gyakran egyes számban marad: je Stück, je Person."
+        "Számnév nélküli je után a főnév egyes számban áll: je Stück, je Person."
       ],
       "sectionAccents": {
         "explanation": {
@@ -25016,7 +25016,7 @@ const A2_WORDS = [
         "Személyt vagy helyet ismerünk – ezt a kennen fejezi ki; tényt tudunk – ezt a wissen."
       ],
       "important": [
-        "Akkusativval a wissen ritkán áll, főleg névmással: Ich weiß das, Ich weiß es; személyre a wissen nem használható.",
+        "Akkusativval a wissen névmással vagy információt jelentő főnévvel (die Antwort, den Weg) áll: Ich weiß das, Ich weiß es; személyre a wissen nem használható.",
         "Képességre a können használatos: Ich kann schwimmen, nem Ich weiß schwimmen. Vigyázz: a magyar tud ige képességet is jelent (tudok úszni), ezt azonban a németben a können fejezi ki."
       ],
       "sectionAccents": {
@@ -30849,7 +30849,7 @@ const A2_WORDS = [
         "A Hier ist viel los jelentése: Itt nagy a nyüzsgés."
       ],
       "important": [
-        "A los szót főleg a sein igével használjuk; főnév előtt a lose alak áll: ein loser Knopf.",
+        "A los szót főleg a sein igével használjuk; főnév előtt a rokon lose melléknevet használjuk: ein loser Knopf.",
         "Ne keverd össze a das Los (sorsjegy, sors) főnévvel és a locker (laza) melléknévvel."
       ],
       "sectionAccents": {
@@ -37940,7 +37940,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Az adósságot mindig többes számmal fejezzük ki: Schulden haben, Schulden machen."
+        "Az adósságot általában többes számmal fejezzük ki: Schulden haben, Schulden machen."
       ],
       "important": [
         "Ha valakinek tartozunk, azt mondjuk: bei jemandem Schulden haben (valakinek adósa)."
@@ -45400,7 +45400,7 @@ const A2_WORDS = [
       "translation": "cserél • vált",
       "explanation": [
         "Lényeg: a wechseln ige: wechselt, wechselte, hat gewechselt. Jelentése: valamit egy másikra cserélni, váltani, például pénzt, iskolát, munkahelyet, ruhát.",
-        "Általában Akkusativval (tárgyeset) és a haben segédigével áll: Er hat den Job gewechselt. Ha egy másik helyre vagy állapotba való átmenet áll előtérben, a sein is használható: Die Ampel ist auf Grün gewechselt.",
+        "Általában Akkusativval (tárgyeset) és a haben segédigével áll: Er hat den Job gewechselt. Ha egy másik helyre való átmenet áll előtérben, a sein is használható: Er ist zu einem anderen Verein gewechselt.",
         "A bankban a Geld wechseln azt jelenti: pénzt más valutára vagy aprópénzre váltani. A főnév der Wechsel (csere, váltás)."
       ],
       "examples": [
@@ -46941,7 +46941,7 @@ const A2_WORDS = [
       "translation": "jelenleg",
       "explanation": [
         "Lényeg: a zurzeit határozószó, jelentése: jelenleg, pillanatnyilag. Olyan állapotot ír le a jelenlegi időszakban, amely később megváltozhat.",
-        "Írásban a rövidítése z. Z. A szó nem ragozódik. Szinonimái: derzeit és im Moment.",
+        "Írásban a rövidítése zz. vagy zzt. A szó nem ragozódik. Szinonimái: derzeit és im Moment.",
         "Helyesírás: egybeírva a zurzeit jelentése jelenleg. Két szóban a zur Zeit + Genitiv jelentése: valaminek az idejében: zur Zeit Goethes (Goethe idejében)."
       ],
       "examples": [

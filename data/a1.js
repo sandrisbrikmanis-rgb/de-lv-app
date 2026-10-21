@@ -5027,7 +5027,7 @@ const A1_WORDS = [
       "translation": "ka",
       "explanation": [
         "Galvenā doma: dass ir pakārtots saiklis 'ka', kas ievada papildinātājteikumu pēc vārdiem sagen, wissen, denken, hoffen un izteicieniem Es ist schön …: Ich weiß, dass du müde bist.",
-        "Pirms dass vienmēr ir komats. Pakārtotajā teikumā darbības vārds (galvenais, ar mainīto formu) stāv teikuma beigās: …, dass er keine Zeit hat.",
+        "Pirms dass teikuma vidū vienmēr ir komats. Pakārtotajā teikumā darbības vārds (galvenais, ar mainīto formu) stāv teikuma beigās: …, dass er keine Zeit hat.",
         "Dass raksta ar diviem s. Neitrālais artikuls un norādāmais vietniekvārds das ir cits vārds."
       ],
       "examples": [
@@ -5070,7 +5070,7 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Pēc dass ielieto komatu un pārliec darbības vārdu uz beigām.",
+        "Pirms dass liec komatu un pārliec darbības vārdu uz beigām.",
         "Ja dass sākas teikums, pakārtotā daļa var stāvēt pirmā: Dass du kommst, freut mich."
       ],
       "important": [
@@ -5286,7 +5286,7 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Vīriešu dzimtes Nominatīv ir der, Akuzatīv — den: der Hund, aber Ich sehe den Hund.",
+        "Vīriešu dzimtes Nominatīv ir der, Akuzatīv — den: der Hund, bet Ich sehe den Hund.",
         "Mācies der kopā ar lietvārdu: der Tisch."
       ],
       "important": [
@@ -6885,7 +6885,7 @@ const A1_WORDS = [
       "translation": "kaut kas",
       "explanation": [
         "Galvenā doma: etwas ir nenoteikts vietniekvārds 'kaut kas': Ich möchte etwas trinken, Hast du etwas Neues? Tas nemainās un stāv vienskaitļa vidus dzimtē.",
-        "Pēc etwas īpašības vārds raksta kā lietvārds ar lielo burtu un galotni -es: etwas Neues (kaut kas jauns), etwas Gutes, etwas anderes.",
+        "Pēc etwas īpašības vārds raksta kā lietvārds ar lielo burtu un galotni -es: etwas Neues (kaut kas jauns), etwas Gutes (bet parasti etwas anderes ar mazo burtu).",
         "Etwas var nozīmēt arī 'nedaudz, mazliet': etwas Zeit (nedaudz laika), etwas müde (mazliet noguris)."
       ],
       "examples": [
@@ -16846,7 +16846,7 @@ const A1_WORDS = [
       "translation": "litrs",
       "explanation": [
         "Galvenā doma: der Liter ir tilpuma mērvienība — litrs. Lieto, runājot par šķidrumiem: Milch, Wasser, Benzin.",
-        "Daudzskaitlis: die Liter (bez galotnes). Pēc skaitļa mērvienība nemainās, un nākamais lietvārds seko bez prievārda: zwei Liter Milch (divi litri piena), drei Liter Wasser. Der Liter ir vīriešu dzimtes; sarunvalodā dažreiz lieto arī das Liter.",
+        "Daudzskaitlis: die Liter (bez galotnes). Pēc skaitļa mērvienība nemainās, un nākamais lietvārds seko bez prievārda: zwei Liter Milch (divi litri piena), drei Liter Wasser. Der Liter ir vīriešu dzimtes; dažreiz lieto arī das Liter.",
         "Saīsinājums l: 1 l = 1000 Milliliter (ml, mililitri)."
       ],
       "examples": [
@@ -18737,7 +18737,7 @@ const A1_WORDS = [
         {
           "word": "sollen",
           "meaning": "vajadzēt (norādījums)",
-          "example": "Du sollst mehr schlafen. – Tev vajadzētu vairāk gulēt."
+          "example": "Du sollst mehr schlafen. – Tev jāguļ vairāk."
         },
         {
           "word": "dürfen",
@@ -22796,7 +22796,7 @@ const A1_WORDS = [
       "explanation": [
         "Galvenā doma: sein ir vācu valodas pamata darbības vārds \"būt\". Tas ir neregulārs: ich bin, du bist, er/sie/es ist, wir sind, ihr seid, sie/Sie sind; pagātne war, perfekts ist gewesen.",
         "Lieto, lai pateiktu, kas kāds ir (Er ist Arzt), kāds ir (Das Haus ist groß), kur kāds atrodas (Wir sind hier) un cik kādam gadu (Ich bin 20 Jahre alt). Vācu valodā sein nekad netiek izlaists: nevar teikt \"Ich Lehrer\".",
-        "Sein ir arī palīgdarbības vārds perfektā ar kustības un stāvokļa maiņas verbiem (ich bin gefahren, ich bin gewesen)."
+        "Sein ir arī palīgdarbības vārds perfektā ar kustības un stāvokļa maiņas verbiem (ich bin gefahren), kā arī ar sein un bleiben (ich bin gewesen)."
       ],
       "examples": [
         {
@@ -25960,7 +25960,7 @@ const A1_WORDS = [
           "lv": "Mēs tikko nākam no ārsta."
         },
         {
-          "de": "Der Zug vom Gleis drei fährt gleich ab.",
+          "de": "Der Zug vom dritten Gleis fährt gleich ab.",
           "lv": "Vilciens no trešā perona drīz atiet."
         },
         {
@@ -27963,7 +27963,7 @@ const A1_WORDS = [
       "translation": "vilciens",
       "explanation": [
         "Galvenā doma: der Zug ir vīriešu dzimtes lietvārds ar nozīmi vilciens. Daudzskaitlis ir die Züge (ar umlautu). Pēc prievārdiem lieto: mit dem Zug (ar vilcienu), im Zug (vilcienā), in den Zug einsteigen (iekāpt vilcienā).",
-        "Vārds Zug ir arī citās nozīmēs: gājiens (spēlē), caurvējš (der Zug), vilciens uz pilsētu. Šajā kartē aplūkots vilciens.",
+        "Vārds Zug ir arī citās nozīmēs: gājiens (spēlē), caurvējš (der Zug), rakstura vilciens (Charakterzug). Šajā kartē aplūkots vilciens.",
         "Tuvu stāv die Bahn, kas nozīmē dzelzceļu vai vilcienu kopumā."
       ],
       "examples": [
@@ -30454,7 +30454,7 @@ const A1_WORDS = [
       "translation": "laiks (brīdis / laika posms)",
       "explanation": [
         "Galvenā doma: die Zeit ir sieviešu dzimtes lietvārds, daudzskaitlis die Zeiten. Tas nozīmē laiku kā brīdi, posmu vai iespēju: Ich habe keine Zeit. Zeit haben ir būt brīvam, Zeit brauchen — vajadzēt laiku.",
-        "Biežas frāzes: zur Zeit / zurzeit (pašlaik), die Zeit vergeht (laiks iet), Es ist Zeit (ir laiks). Daudzskaitlī die Zeiten nozīmē laikmetus vai periodus: in schweren Zeiten.",
+        "Biežas frāzes: zurzeit (pašlaik), die Zeit vergeht (laiks iet), Es ist Zeit (ir laiks). Daudzskaitlī die Zeiten nozīmē laikmetus vai periodus: in schweren Zeiten.",
         "Laikapstākļus sauc das Wetter, nevis die Zeit."
       ],
       "examples": [

@@ -2768,7 +2768,7 @@ const A2_WORDS = [
       "translation": "accendere",
       "explanation": [
         "Idea chiave: anheizen significa accendere o iniziare a riscaldare (una stufa, un camino, una caldaia). È un verbo separabile: ich heize den Ofen an.",
-        "Forme: heizt an, heizte an, hat angeheizt. Al perfetto si usa haben e il prefisso an- nella frase si separa.",
+        "Forme: heizt an, heizte an, hat angeheizt. Al perfetto si usa haben; al presente e al preterito il prefisso an- nella frase si separa.",
         "In senso figurato anheizen significa infiammare, alimentare: die Stimmung anheizen (scaldare l'atmosfera), die Diskussion anheizen (infiammare la discussione)."
       ],
       "examples": [
@@ -6424,7 +6424,7 @@ const A2_WORDS = [
       "translation": "impiegare • dedicare",
       "explanation": [
         "Idea chiave: aufwenden è un verbo separabile che significa impiegare o dedicare (tempo, denaro, fatica, energia) a uno scopo. Appartiene alla lingua più formale.",
-        "Forme: wendet auf, wendete auf (anche wandte auf), hat aufgewendet (anche aufgewandt). Di solito si usa con zu o für: Zeit für etwas aufwenden.",
+        "Forme: wendet auf, wendete auf (anche wandte auf), hat aufgewendet (anche aufgewandt). Di solito si usa con für: Zeit für etwas aufwenden.",
         "Il sostantivo affine è der Aufwand (sforzo, costi, dispendio): mit großem Aufwand (con grande sforzo)."
       ],
       "examples": [
@@ -11008,7 +11008,7 @@ const A2_WORDS = [
       "translation": "pavimento • suolo",
       "explanation": [
         "Idea principale: der Boden è un sostantivo maschile che significa pavimento (in una stanza) e suolo o terreno (dove cresce qualcosa). Il plurale è die Böden (con Umlaut).",
-        "Altri significati: fondo (der Boden der Flasche – il fondo della bottiglia) e soffitta (regionale, nel sud). L'espressione auf dem Boden può significare sul pavimento oppure per terra.",
+        "Altri significati: fondo (der Boden der Flasche – il fondo della bottiglia) e soffitta (regionale). L'espressione auf dem Boden può significare sul pavimento oppure per terra.",
         "Composti: der Fußboden (pavimento), der Dachboden (soffitta), der Waldboden (suolo del bosco), die Bodenheizung (riscaldamento a pavimento)."
       ],
       "examples": [
@@ -22002,7 +22002,7 @@ const A2_WORDS = [
       "explanation": [
         "Idea chiave: hängen sono due verbi diversi. Lo hängen intransitivo significa pendere, essere appeso (qualcosa si trova appeso, per esempio un quadro alla parete), mentre lo hängen transitivo significa appendere (qualcuno appende qualcosa).",
         "Intransitivo: hängen, hing, hat gehangen (al sud spesso ist gehangen). Domanda Wo? e dativo: Das Bild hängt an der Wand. Il transitivo è regolare: hängen, hängte, hat gehängt. Domanda Wohin? e accusativo: Ich hänge das Bild an die Wand.",
-        "Come nella coppia liegen / legen, anche qui lo stato e l'azione si distinguono non dall'infinito, ma dalle forme e dal caso."
+        "A differenza della coppia liegen / legen, qui lo stato e l'azione si distinguono non dall'infinito, ma dalle forme e dal caso."
       ],
       "examples": [
         {
@@ -23031,7 +23031,7 @@ const A2_WORDS = [
         {
           "word": "dadurch, dass",
           "meaning": "per il fatto che",
-          "example": "Er gewinnt, dadurch dass er übt. – Vince allenandosi."
+          "example": "Er gewinnt dadurch, dass er übt. – Vince allenandosi."
         }
       ],
       "tip": [
@@ -23354,7 +23354,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Non confondere je con jede (ogni) e con ja (sì).",
-        "Dopo je con un numero il sostantivo resta spesso al singolare: je Stück, je Person."
+        "Dopo je senza numerale il sostantivo è al singolare: je Stück, je Person."
       ],
       "sectionAccents": {
         "explanation": {
@@ -25025,7 +25025,7 @@ const A2_WORDS = [
         "Una persona o un luogo si conoscono: kennen; un fatto si sa: wissen."
       ],
       "important": [
-        "Con l'accusativo wissen si usa raramente e soprattutto con pronomi: Ich weiß das, Ich weiß es; una persona non si può «sapere» con wissen.",
+        "Con l'accusativo wissen si usa con pronomi o con sostantivi che indicano un'informazione (die Antwort, den Weg): Ich weiß das, Ich weiß es; una persona non si può «sapere» con wissen.",
         "Attenzione all'italiano «so nuotare»: per un'abilità si usa können: Ich kann schwimmen, non Ich weiß schwimmen."
       ],
       "sectionAccents": {
@@ -30859,7 +30859,7 @@ const A2_WORDS = [
         "Hier ist viel los significa Qui c'è molto movimento."
       ],
       "important": [
-        "Los si usa soprattutto con sein; davanti a un sostantivo si usa la forma lose: ein loser Knopf.",
+        "Los si usa soprattutto con sein; davanti a un sostantivo si usa l'aggettivo affine lose: ein loser Knopf.",
         "Non confonderlo con das Los (biglietto della lotteria, destino) e con locker (allentato, rilassato)."
       ],
       "sectionAccents": {
@@ -37953,7 +37953,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Debiti — sempre al plurale: Schulden haben, Schulden machen."
+        "Debiti — di solito al plurale: Schulden haben, Schulden machen."
       ],
       "important": [
         "Per un debito si dice bei jemandem Schulden haben (avere debiti con qualcuno)."
@@ -45417,7 +45417,7 @@ const A2_WORDS = [
       "translation": "cambiare",
       "explanation": [
         "Idea principale: wechseln è un verbo: wechselt, wechselte, hat gewechselt. Significa cambiare o scambiare una cosa con un'altra, per esempio soldi, scuola, lavoro, vestiti.",
-        "Di solito si usa con l'accusativo e con l'ausiliare haben: Er hat den Job gewechselt. Quando si sottolinea il passaggio a un altro luogo o stato, si può usare anche sein: Die Ampel ist auf Grün gewechselt.",
+        "Di solito si usa con l'accusativo e con l'ausiliare haben: Er hat den Job gewechselt. Quando si sottolinea il passaggio a un altro luogo, si può usare anche sein: Er ist zu einem anderen Verein gewechselt.",
         "In banca Geld wechseln significa cambiare soldi in un'altra valuta o in moneta spicciola. Il sostantivo è der Wechsel (cambio)."
       ],
       "examples": [
@@ -49476,7 +49476,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Il contrario di schon è noch (ancora): Bist du schon da? – Nein, noch nicht.",
+        "Il contrario di schon è noch nicht (non ancora): Bist du schon da? – Nein, noch nicht.",
         "bereits è più formale di schon, ma il significato è lo stesso."
       ],
       "important": [

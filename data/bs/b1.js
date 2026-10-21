@@ -2279,7 +2279,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Prefiks ab- se u rečenici odvaja: Ich nehme die Brille ab.",
-        "Značenje određuje objekat: Brille – skinuti, Telefon – podići slušalicu, Gewicht – smršati."
+        "Značenje određuje objekat: Brille – skinuti, Telefon – podići slušalicu, Kilo – smršati."
       ],
       "sectionAccents": {
         "explanation": {
@@ -15826,7 +15826,7 @@ const B1_WORDS = [
       "translation": "treći • utroje",
       "explanation": [
         "Glavna ideja: dritt je redni broj „treći”. Kao pridjev obično ima nastavak: der dritte Tag, die dritte Tür, das dritte Mal. Bez nastavka se javlja u izrazu zu dritt – utroje.",
-        "Kad se piše brojem: 3. = dritt-. U datumima: der dritte Mai, am dritten Mai. Za razliku od broja drei (tri), dritt uvijek označava redoslijed, a ne količinu."
+        "Kad se piše brojem: 3. = dritt-. U datumima: der dritte Mai, am dritten Mai. Za razliku od broja drei (tri), dritt (osim u izrazu zu dritt) označava redoslijed, a ne količinu."
       ],
       "examples": [
         {
@@ -18738,7 +18738,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Ako želiš samo reći „jednobojan”, koristi einfarbig; ako želiš navesti boju, reci uni ili samo naziv boje.",
+        "Ako želiš samo reći „jednobojan”, koristi einfarbig; ako želiš navesti boju, reci samo naziv boje; sinonim je uni.",
         "Uporedi sa zweifarbig (dvobojan) i dreifarbig (trobojan)."
       ],
       "important": [
@@ -18924,7 +18924,7 @@ const B1_WORDS = [
         "Vježbaj zajedno s glagolom: Einfluss nehmen, Einfluss ausüben."
       ],
       "important": [
-        "Einfluss traži prijedlog auf + akuzativ.",
+        "Einfluss na nešto traži prijedlog auf + akuzativ.",
         "Der Einfluss je muškog roda; u množini ima umlaut: Einflüsse."
       ],
       "sectionAccents": {
@@ -25311,7 +25311,7 @@ const B1_WORDS = [
         "Za kapacitet: Der Saal fasst … Personen."
       ],
       "important": [
-        "Značenje zavisi od objekta: Arm – uhvatiti, Gedanke – shvatiti, Saal – primiti (određen broj ljudi).",
+        "Značenje zavisi od objekta: Arm – uhvatiti, es (Ich kann es nicht fassen) – shvatiti, Saal – primiti (određen broj ljudi).",
         "Fassen u značenju „uhvatiti” traži akuzativ: den Ball fassen."
       ],
       "sectionAccents": {
@@ -25470,7 +25470,7 @@ const B1_WORDS = [
       "translation": "lijen",
       "explanation": [
         "Glavna ideja: faul je pridjev s dva značenja: lijen (osoba koja nema volje raditi) i truo, pokvaren (hrana, jaja, drvo). U prenesenom značenju faule Ausrede je providan, neuvjerljiv izgovor.",
-        "Riječ se mijenja: ein fauler Schüler, ein fauler Apfel. Komparativ i superlativ: fauler, faulst. Imenica: die Faulheit (lijenost); glagol: faulenzen – ljenčariti, besposličariti."
+        "Riječ se mijenja: ein fauler Schüler, ein fauler Apfel. Komparativ i superlativ: fauler, am faulsten. Imenica: die Faulheit (lijenost); glagol: faulenzen – ljenčariti, besposličariti."
       ],
       "examples": [
         {
@@ -26972,7 +26972,7 @@ const B1_WORDS = [
       "translation": "nastaviti",
       "explanation": [
         "Glavna ideja: fortfahren je glagol s razdvojivim prefiksom koji znači nastaviti već započeti posao ili razgovor. Oblici: fährt fort, fuhr fort, hat fortgefahren.",
-        "Konstrukcije: mit etwas fortfahren (nastaviti s nečim), fortfahren, etwas zu tun (nastaviti nešto raditi). Knjiškije je od weitermachen i često se čuje u govorima i službenom jeziku. Rijetko znači i otputovati, i tada se koristi pomoćni glagol sein."
+        "Konstrukcije: mit etwas fortfahren (nastaviti s nečim), fortfahren, etwas zu tun (nastaviti nešto raditi). Knjiškije je od weitermachen i često se čuje u govorima i službenom jeziku. Znači i otputovati, i tada se koristi pomoćni glagol sein."
       ],
       "examples": [
         {
@@ -40812,7 +40812,7 @@ const B1_WORDS = [
       "explanation": [
         "Glavna ideja: kündigen znači dati otkaz ili otkazati posao, ugovor ili zakup stana — službeno saopćiti da odnos prestaje. Oblici: kündigt, kündigte, hat gekündigt (pomoćni glagol haben).",
         "Stvar stoji u akuzativu: den Vertrag kündigen, die Wohnung kündigen, den Job kündigen. Osoba kojoj se daje otkaz stoji u dativu: Der Chef kündigt dem Mitarbeiter (šef daje otkaz zaposleniku). Bez objekta ich habe gekündigt znači da sam ja dao otkaz.",
-        "Kündigen je u suštini službeni korak s otkaznim rokom (Kündigungsfrist); otpuštanje radnika od strane firme zove se entlassen."
+        "Kündigen je u suštini službeni korak s otkaznim rokom (Kündigungsfrist); otpuštanje radnika od strane firme zove se i entlassen."
       ],
       "examples": [
         {
@@ -56578,7 +56578,7 @@ const B1_WORDS = [
       "explanation": [
         "Glavna ideja: der Schimmel je imenica muškog roda koja znači plijesan, buđ na hrani, zidovima ili drugim vlažnim površinama. Ista riječ ima i drugo značenje: bijeli konj.",
         "Množina je die Schimmel (za oba značenja). Za plijesan se množina rijetko koristi, jer je to obično naziv za tvar: Schimmel an der Wand.",
-        "Od nje je izveden glagol schimmeln – pljesniviti, buđati: Das Brot schimmelt. I particip: Das Brot ist verschimmelt (hljeb je pljesniv)."
+        "Od nje je izveden glagol schimmeln – pljesniviti, buđati: Das Brot schimmelt. Od glagola verschimmeln (ubuđati se): Das Brot ist verschimmelt (hljeb je pljesniv)."
       ],
       "examples": [
         {
@@ -56611,7 +56611,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "U značenju konja der Schimmel se obično kaže uz boju: ein weißer Schimmel.",
+        "U značenju konja der Schimmel već znači bijelog konja, pa je ein weißer Schimmel pleonazam.",
         "Za hljeb i sir reci: Das Brot schimmelt ili ist verschimmelt."
       ],
       "important": [
@@ -57801,7 +57801,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Der Schmuck nije isto što i der Schmutz: Schmuck – nakit, ukras, Schmutz – prljavština.",
-        "sich schmücken u prenesenom značenju može značiti i hvaliti se tuđim zaslugama (sich mit fremden Federn schmücken)."
+        "Izraz sich mit fremden Federn schmücken znači hvaliti se tuđim zaslugama."
       ],
       "sectionAccents": {
         "explanation": {
@@ -57914,8 +57914,7 @@ const B1_WORDS = [
           },
           {
             "blue": [
-              "schmücken",
-              "sich schmücken"
+              "schmücken"
             ]
           }
         ]
@@ -64042,7 +64041,7 @@ const B1_WORDS = [
       ],
       "tip": [
         "U svakodnevnom govoru Nijemci kažu jednostavno Strom, a ne Elektrizität: Hast du Strom? – Imaš li struje?",
-        "Kad se radi o velikoj rijeci, der Strom je poetičnija riječ od der Fluss."
+        "Kad se radi o velikoj rijeci, der Strom označava veću rijeku nego der Fluss."
       ],
       "important": [
         "Der Strom (električna struja, velika rijeka) nije isto što i die Strömung (struja, tok u vodi ili zraku).",
@@ -64293,7 +64292,7 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "pasti",
       "explanation": [
-        "Glavna ideja: stürzen znači naglo i snažno pasti ili se baciti: pasti s visine, brzo uletjeti negdje ili (o cijenama, vladi) naglo pasti. Oblici: stürzt, stürzte, ist gestürzt.",
+        "Glavna ideja: stürzen znači naglo i snažno pasti ili se baciti: pasti s visine, brzo uletjeti negdje ili (o cijenama) naglo pasti, (o vladi) pasti. Oblici: stürzt, stürzte, ist gestürzt.",
         "Kad neko sam pada ili juri, koristi se pomoćni glagol sein: Er ist gestürzt. Kad neko nekoga obara (vladu, vođu), glagol je prelazan i koristi se haben: Das Volk hat den König gestürzt. Povratno sich stürzen auf/in znači baciti se na nešto ili se zadubiti u nešto: Er stürzt sich in die Arbeit. Uz in + akuzativ označava se smjer (kamo?), a uz von + dativ – odakle."
       ],
       "examples": [

@@ -5027,7 +5027,7 @@ const A1_WORDS = [
       "translation": "At",
       "explanation": [
         "Grundbetydning: dass er det underordnende bindeord 'at', som indleder en ledsætning efter ord som sagen, wissen, denken, hoffen og udtryk som Es ist schön …: Ich weiß, dass du müde bist.",
-        "Før dass står der altid komma. I ledsætningen står det bøjede udsagnsord sidst: …, dass er keine Zeit hat. Det er en vigtig forskel fra dansk, hvor ordstillingen efter 'at' ikke ændres på den måde.",
+        "Før dass midt i sætningen står der altid komma. I ledsætningen står det bøjede udsagnsord sidst: …, dass er keine Zeit hat. Det er en vigtig forskel fra dansk, hvor ordstillingen efter 'at' ikke ændres på den måde.",
         "Dass skrives med to s. Intetkønsartiklen og det påpegende stedord das er et andet ord."
       ],
       "examples": [
@@ -5070,7 +5070,7 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Efter dass: sæt komma og flyt udsagnsordet til slutningen.",
+        "Sæt komma før dass, og flyt udsagnsordet til slutningen.",
         "Ledsætningen med dass kan også stå først: Dass du kommst, freut mich."
       ],
       "important": [
@@ -5286,7 +5286,7 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Hankøn hedder der i nominativ og den i akkusativ: der Hund, aber Ich sehe den Hund.",
+        "Hankøn hedder der i nominativ og den i akkusativ: der Hund, men Ich sehe den Hund.",
         "Lær der sammen med navneordet: der Tisch."
       ],
       "important": [
@@ -16839,7 +16839,7 @@ const A1_WORDS = [
       "translation": "Liter",
       "explanation": [
         "Hovedidé: der Liter er en rumfangsenhed – liter. Det bruges om væsker: Milch, Wasser, Benzin.",
-        "Flertal: die Liter (uden endelse). Efter et talord ændres måleenheden ikke, og navneordet følger uden forholdsord – ligesom på dansk: zwei Liter Milch (to liter mælk), drei Liter Wasser. Der Liter er hankøn; i talesprog bruges nogle gange også das Liter.",
+        "Flertal: die Liter (uden endelse). Efter et talord ændres måleenheden ikke, og navneordet følger uden forholdsord – ligesom på dansk: zwei Liter Milch (to liter mælk), drei Liter Wasser. Der Liter er hankøn; nogle gange bruges også das Liter.",
         "Forkortelse l: 1 l = 1000 Milliliter (ml, milliliter)."
       ],
       "examples": [
@@ -18726,7 +18726,7 @@ const A1_WORDS = [
         {
           "word": "sollen",
           "meaning": "skulle (efter anvisning), burde",
-          "example": "Du sollst mehr schlafen. – Du bør sove mere."
+          "example": "Du sollst mehr schlafen. – Du skal sove mere."
         },
         {
           "word": "dürfen",
@@ -22776,7 +22776,7 @@ const A1_WORDS = [
       "explanation": [
         "Hovedidé: sein er det grundlæggende tyske udsagnsord »være«. Det er uregelmæssigt: ich bin, du bist, er/sie/es ist, wir sind, ihr seid, sie/Sie sind; datid war, førnutid ist gewesen.",
         "Det bruges til at sige, hvem nogen er (Er ist Arzt), hvordan noget er (Das Haus ist groß), hvor nogen er (Wir sind hier), og hvor gammel man er (Ich bin 20 Jahre alt). På tysk udelades sein aldrig: man kan ikke sige »Ich Lehrer«.",
-        "Sein er også hjælpeudsagnsord i førnutid ved udsagnsord for bevægelse og tilstandsskifte (ich bin gefahren, ich bin gewesen) — ligesom dansk »jeg er kørt«."
+        "Sein er også hjælpeudsagnsord i førnutid ved udsagnsord for bevægelse og tilstandsskifte (ich bin gefahren) samt ved sein og bleiben (ich bin gewesen) — ligesom dansk »jeg er kørt«."
       ],
       "examples": [
         {
@@ -25939,7 +25939,7 @@ const A1_WORDS = [
           "lv": "Vi kommer lige fra lægen."
         },
         {
-          "de": "Der Zug vom Gleis drei fährt gleich ab.",
+          "de": "Der Zug vom dritten Gleis fährt gleich ab.",
           "lv": "Toget fra spor tre kører om lidt."
         },
         {
@@ -30432,7 +30432,7 @@ const A1_WORDS = [
       "translation": "Tid (øjeblik/periode)",
       "explanation": [
         "Hovedpointe: die Zeit er et hunkønsnavneord, flertal die Zeiten. Det betyder tid som øjeblik, periode eller mulighed: Ich habe keine Zeit. Zeit haben betyder at have tid (være ledig), Zeit brauchen at have brug for tid.",
-        "Hyppige udtryk: zur Zeit / zurzeit (for tiden), die Zeit vergeht (tiden går), Es ist Zeit (det er tid). I flertal betyder die Zeiten tidsaldre eller perioder: in schweren Zeiten.",
+        "Hyppige udtryk: zurzeit (for tiden), die Zeit vergeht (tiden går), Es ist Zeit (det er tid). I flertal betyder die Zeiten tidsaldre eller perioder: in schweren Zeiten.",
         "Vejret hedder das Wetter, ikke die Zeit."
       ],
       "examples": [

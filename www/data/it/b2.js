@@ -1779,7 +1779,7 @@ const B2_WORDS = [
         "Nel senso di trovare da ridire si usa di solito la forma negativa: nichts auszusetzen haben."
       ],
       "important": [
-        "Nel senso di esporre, dopo aussetzen segue il dativo (der Gefahr, dem Risiko), non l'accusativo.",
+        "Nel senso di esporre, dopo aussetzen segue il dativo (der Gefahr, dem Risiko), mentre chi viene esposto è all'accusativo (jemanden).",
         "Non confondere ausgesetzt sein (essere esposto) con ausgestellt (esposto in mostra oppure rilasciato, di un documento)."
       ],
       "sectionAccents": {
@@ -6095,7 +6095,7 @@ const B2_WORDS = [
       "translation": "ingaggiare • assoldare",
       "explanation": [
         "Idea principale: dingen è un verbo raro e antiquato che significa ingaggiare, assoldare (una persona dietro compenso per un incarico). Oggi lo si sente soprattutto nell'espressione ein gedungener Mörder (un sicario, un assassino prezzolato) e nei testi storici.",
-        "Forme: dingt, dang, hat gedungen (si trova anche la forma regolare dingte, gedingt). Tipicamente si assoldano Söldner, Mörder, Führer. Nella lingua di tutti i giorni si dice anheuern o engagieren.",
+        "Forme: dingt, dingte (più raramente dang), hat gedungen (più raramente gedingt). Tipicamente si assoldano Söldner, Mörder, Führer. Nella lingua di tutti i giorni si dice anheuern o engagieren.",
         "Dingen regge l'accusativo: jemanden dingen."
       ],
       "examples": [
@@ -6135,7 +6135,7 @@ const B2_WORDS = [
       ],
       "important": [
         "Dingen è una parola letteraria o storica; nella conversazione quotidiana suonerebbe strana.",
-        "Le forme oscillano (dang/gedungen e dingte/gedingt); si usa soprattutto la forma forte."
+        "Le forme oscillano (dang/gedungen e dingte/gedingt); al preterito si usa di solito dingte, al participio gedungen."
       ],
       "sectionAccents": {
         "explanation": {

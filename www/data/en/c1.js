@@ -960,7 +960,7 @@ const C1_WORDS = [
         "Die Allgemeinheit (people in general) has a similar meaning."
       ],
       "important": [
-        "The plural is not normally used: there is no die Öffentlichkeiten."
+        "The plural is not normally used: die Öffentlichkeiten is rare."
       ],
       "sectionAccents": {
         "explanation": {
@@ -3375,7 +3375,7 @@ const C1_WORDS = [
       "comparison": [
         {
           "word": "festgelegt",
-          "meaning": "fixed (by agreement)",
+          "meaning": "fixed",
           "example": "Der Plan ist festgelegt. – The plan is fixed."
         },
         {

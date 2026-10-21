@@ -2765,7 +2765,7 @@ const A2_WORDS = [
       "translation": "kynda",
       "explanation": [
         "Aðalatriðið: anheizen merkir að kynda upp eða byrja að hita (ofn, arin, ketil). Það er aðskiljanleg sögn: ich heize den Ofen an.",
-        "Myndir: heizt an, heizte an, hat angeheizt. Í núliðinni tíð er notað haben, og forskeytið an- skilst frá í setningu.",
+        "Myndir: heizt an, heizte an, hat angeheizt. Í núliðinni tíð er notað haben; í nútíð og þátíð skilst forskeytið an- frá í setningu.",
         "Í yfirfærðri merkingu merkir anheizen að kynda undir, magna: die Stimmung anheizen (kynda upp stemninguna), die Diskussion anheizen (kynda undir umræðunni)."
       ],
       "examples": [
@@ -11005,7 +11005,7 @@ const A2_WORDS = [
       "translation": "gólf",
       "explanation": [
         "Meginhugsun: der Boden er karlkynsnafnorð sem merkir gólf (inni) og jörð eða jarðvegur (þar sem eitthvað vex). Fleirtalan er die Böden (með hljóðvarpi).",
-        "Aðrar merkingar: botn (der Boden der Flasche – botn flöskunnar; íslenska orðið botn er skylt) og háaloft (staðbundið, í Suður-Þýskalandi). Sambandið auf dem Boden getur merkt á gólfinu eða á jörðinni.",
+        "Aðrar merkingar: botn (der Boden der Flasche – botn flöskunnar; íslenska orðið botn er skylt) og háaloft (staðbundið). Sambandið auf dem Boden getur merkt á gólfinu eða á jörðinni.",
         "Samsett orð: der Fußboden (gólf), der Dachboden (háaloft), der Waldboden (skógarbotn), die Bodenheizung (gólfhiti)."
       ],
       "examples": [
@@ -21990,7 +21990,7 @@ const A2_WORDS = [
       "explanation": [
         "Aðalatriðið: hängen er í raun tvær ólíkar sagnir, alveg eins og hanga og hengja á íslensku. Áhrifslausa hängen merkir að hanga (eitthvað er hengt upp, t.d. mynd á vegg), en áhrifssögnin hängen merkir að hengja (einhver hengir eitthvað upp).",
         "Áhrifslaus: hängen, hing, hat gehangen (í Suður-Þýskalandi oft ist gehangen). Spurningin Wo? og þágufall: Das Bild hängt an der Wand. Áhrifssögnin er veik: hängen, hängte, hat gehängt. Spurningin Wohin? og þolfall: Ich hänge das Bild an die Wand.",
-        "Eins og í parinu liegen / legen greina beygingarmyndirnar og fallið á milli ástands og verknaðar – en ólíkt íslensku er nafnhátturinn sá sami."
+        "Ólíkt parinu liegen / legen greina beygingarmyndirnar og fallið á milli ástands og verknaðar – en ólíkt íslensku er nafnhátturinn sá sami."
       ],
       "examples": [
         {
@@ -23019,7 +23019,7 @@ const A2_WORDS = [
         {
           "word": "dadurch, dass",
           "meaning": "með því að",
-          "example": "Er gewinnt, dadurch dass er übt. – Hann vinnur með því að æfa sig."
+          "example": "Er gewinnt dadurch, dass er übt. – Hann vinnur með því að æfa sig."
         }
       ],
       "tip": [
@@ -23342,7 +23342,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Ekki rugla saman je og jede (hver) eða ja (já).",
-        "Á eftir je með tölu stendur nafnorðið oft í eintölu: je Stück, je Person."
+        "Á eftir je án töluorðs stendur nafnorðið í eintölu: je Stück, je Person."
       ],
       "sectionAccents": {
         "explanation": {
@@ -25013,7 +25013,7 @@ const A2_WORDS = [
         "Manneskju eða stað þekkir maður – það er kennen; staðreynd veit maður – það er wissen."
       ],
       "important": [
-        "Með þolfalli er wissen sjaldan notað og þá helst með fornöfnum: Ich weiß das, Ich weiß es; manneskju er ekki hægt að „vita“ með wissen.",
+        "Með þolfalli er wissen notað með fornöfnum eða orðum um upplýsingar (die Antwort, den Weg): Ich weiß das, Ich weiß es; manneskju er ekki hægt að „vita“ með wissen.",
         "Um færni er notað können: Ich kann schwimmen, ekki Ich weiß schwimmen."
       ],
       "sectionAccents": {
@@ -30847,7 +30847,7 @@ const A2_WORDS = [
         "Hier ist viel los merkir Hér er mikið um að vera."
       ],
       "important": [
-        "Los er aðallega notað með sein; á undan nafnorði stendur myndin lose: ein loser Knopf.",
+        "Los er aðallega notað með sein; á undan nafnorði er notað skylda orðið lose: ein loser Knopf.",
         "Ekki rugla saman við das Los (happdrættismiði, örlög) og locker (laus, slakur)."
       ],
       "sectionAccents": {
@@ -37941,7 +37941,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Skuldir — alltaf í fleirtölu: Schulden haben, Schulden machen."
+        "Skuldir — oftast í fleirtölu: Schulden haben, Schulden machen."
       ],
       "important": [
         "Að skulda einhverjum er bei jemandem Schulden haben."
@@ -45405,7 +45405,7 @@ const A2_WORDS = [
       "translation": "skipta",
       "explanation": [
         "Aðalatriðið: wechseln er sögn: wechselt, wechselte, hat gewechselt. Hún merkir að skipta, skipta einum hlut út fyrir annan, t.d. peningum, skóla, vinnu, fötum.",
-        "Venjulega er hún notuð með þolfalli og hjálparsögninni haben: Er hat den Job gewechselt. Þegar áhersla er á breytingu yfir í annað ástand má líka nota sein: Die Ampel ist auf Grün gewechselt.",
+        "Venjulega er hún notuð með þolfalli og hjálparsögninni haben: Er hat den Job gewechselt. Þegar áhersla er á flutning á annan stað má líka nota sein: Er ist zu einem anderen Verein gewechselt.",
         "Í banka merkir Geld wechseln að skipta peningum í annan gjaldmiðil eða í smápeninga. Nafnorðið er der Wechsel (skipti)."
       ],
       "examples": [
@@ -46946,7 +46946,7 @@ const A2_WORDS = [
       "translation": "sem stendur • um þessar mundir",
       "explanation": [
         "Aðalatriðið: zurzeit er atviksorð sem merkir sem stendur, um þessar mundir. Það lýsir ástandi á núverandi tímabili sem getur breyst síðar.",
-        "Skammstöfunin er z. Z. Orðið beygist ekki. Samheiti eru derzeit og im Moment.",
+        "Skammstöfunin er zz. eða zzt. Orðið beygist ekki. Samheiti eru derzeit og im Moment.",
         "Ritháttur: zurzeit í einu orði merkir sem stendur. Í tveimur orðum merkir zur Zeit + eignarfall á tíma einhvers: zur Zeit Goethes (á tímum Goethes)."
       ],
       "examples": [
@@ -49464,7 +49464,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Andstæða schon er noch: Bist du schon da? – Nein, noch nicht. (Ertu kominn? – Nei, ekki enn.)",
+        "Andstæða schon er noch nicht: Bist du schon da? – Nein, noch nicht. (Ertu kominn? – Nei, ekki enn.)",
         "bereits er formlegra en schon, merkingin er sú sama."
       ],
       "important": [

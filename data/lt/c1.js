@@ -959,7 +959,7 @@ const C1_WORDS = [
         "Panašią reikšmę turi žodis die Allgemeinheit (visi žmonės apskritai)."
       ],
       "important": [
-        "Daugiskaita paprastai nevartojama: nesakoma die Öffentlichkeiten."
+        "Daugiskaita paprastai nevartojama: die Öffentlichkeiten pasitaiko retai."
       ],
       "sectionAccents": {
         "explanation": {
@@ -3380,7 +3380,7 @@ const C1_WORDS = [
       "comparison": [
         {
           "word": "festgelegt",
-          "meaning": "nustatytas (susitarus)",
+          "meaning": "nustatytas",
           "example": "Der Plan ist festgelegt. – Planas nustatytas."
         },
         {

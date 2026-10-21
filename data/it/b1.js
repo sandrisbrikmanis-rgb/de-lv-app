@@ -2278,7 +2278,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Il prefisso ab- si separa nella frase: Ich nehme die Brille ab.",
-        "È il complemento a determinare il significato: Brille – togliere, Telefon – sollevare, Gewicht – dimagrire."
+        "È il complemento a determinare il significato: Brille – togliere, Telefon – sollevare, Kilo – dimagrire."
       ],
       "sectionAccents": {
         "explanation": {
@@ -13990,7 +13990,7 @@ const B1_WORDS = [
       "translation": "perciò • quindi",
       "explanation": [
         "Idea principale: daher è un avverbio che esprime una conseguenza: perciò, quindi. Indica che qualcosa accade per un certo motivo. Ich war krank, daher bin ich nicht gekommen.",
-        "Ordine delle parole: daher sta all'inizio o a metà della frase e il verbo lo segue subito: Daher bleibe ich zu Hause. La parola non introduce una frase secondaria.",
+        "Ordine delle parole: daher sta all'inizio della frase (e allora il verbo lo segue subito) o a metà: Daher bleibe ich zu Hause. La parola non introduce una frase secondaria.",
         "Daher può significare anche «da lì»: Von daher kommt das Geräusch. In questo senso la domanda corrispondente è woher?"
       ],
       "examples": [
@@ -15819,7 +15819,7 @@ const B1_WORDS = [
       "translation": "terzo • in tre",
       "explanation": [
         "Idea principale: dritt è il numero ordinale «terzo». Come aggettivo ha di solito una desinenza: der dritte Tag, die dritte Tür, das dritte Mal. Senza desinenza compare nell'espressione zu dritt – in tre.",
-        "In cifre: 3. = dritt-. Nelle date: der dritte Mai, am dritten Mai (in italiano si usa invece il numero cardinale: il tre maggio). A differenza del numero drei (tre), dritt indica sempre un ordine, non una quantità."
+        "In cifre: 3. = dritt-. Nelle date: der dritte Mai, am dritten Mai (in italiano si usa invece il numero cardinale: il tre maggio). A differenza del numero drei (tre), dritt (tranne nell'espressione zu dritt) indica un ordine, non una quantità."
       ],
       "examples": [
         {
@@ -18730,7 +18730,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Per dire semplicemente «a tinta unita» usa einfarbig; se vuoi nominare il colore, di' uni o solo il nome del colore.",
+        "Per dire semplicemente «a tinta unita» usa einfarbig; se vuoi nominare il colore, di' solo il nome del colore; un sinonimo è uni.",
         "Confronta con zweifarbig (bicolore) e dreifarbig (tricolore)."
       ],
       "important": [
@@ -18916,7 +18916,7 @@ const B1_WORDS = [
         "Esercitati con un verbo: Einfluss nehmen, Einfluss ausüben."
       ],
       "important": [
-        "Einfluss richiede la preposizione auf + accusativo.",
+        "Einfluss su qualcosa richiede la preposizione auf + accusativo.",
         "Der Einfluss è maschile (in italiano «l'influenza» è femminile); al plurale prende l'Umlaut: Einflüsse."
       ],
       "sectionAccents": {
@@ -23720,7 +23720,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Se qualcosa nasce senza l'intervento umano, di' entstehen; se è una persona a crearla – herstellen o schaffen.",
+        "Se qualcosa nasce da sé (il soggetto non è chi agisce), di' entstehen; se è una persona a crearla – herstellen o schaffen.",
         "Perfetto: es ist entstanden."
       ],
       "important": [
@@ -25300,7 +25300,7 @@ const B1_WORDS = [
         "Per la capienza: Der Saal fasst … Personen."
       ],
       "important": [
-        "Il significato dipende dall'oggetto: Arm – afferrare, Gedanke – capire, Saal – contenere.",
+        "Il significato dipende dall'oggetto: Arm – afferrare, es (Ich kann es nicht fassen) – capire, Saal – contenere.",
         "Fassen nel senso di «afferrare» regge l'accusativo: den Ball fassen."
       ],
       "sectionAccents": {
@@ -25459,7 +25459,7 @@ const B1_WORDS = [
       "translation": "pigro",
       "explanation": [
         "Idea chiave: faul è un aggettivo con due significati: pigro (una persona che non ha voglia di lavorare) e marcio (cibo, uova, legno). In senso figurato, faule Ausrede – scusa poco credibile.",
-        "L'aggettivo si declina: ein fauler Schüler, ein fauler Apfel. Comparativo e superlativo: fauler, faulst. Sostantivo: die Faulheit (pigrizia); verbo: faulenzen – oziare, poltrire."
+        "L'aggettivo si declina: ein fauler Schüler, ein fauler Apfel. Comparativo e superlativo: fauler, am faulsten. Sostantivo: die Faulheit (pigrizia); verbo: faulenzen – oziare, poltrire."
       ],
       "examples": [
         {
@@ -26963,7 +26963,7 @@ const B1_WORDS = [
       "translation": "continuare • proseguire",
       "explanation": [
         "Idea chiave: fortfahren è un verbo separabile che significa continuare un lavoro o un discorso già iniziato. Forme: fährt fort, fuhr fort, hat fortgefahren.",
-        "Costruzioni: mit etwas fortfahren (continuare qualcosa), fortfahren, etwas zu tun (continuare a fare qualcosa). È più letterario di weitermachen e si sente spesso nei discorsi e nella lingua ufficiale. Raramente significa anche partire, andarsene, e in quel caso si usa l'ausiliare sein."
+        "Costruzioni: mit etwas fortfahren (continuare qualcosa), fortfahren, etwas zu tun (continuare a fare qualcosa). È più letterario di weitermachen e si sente spesso nei discorsi e nella lingua ufficiale. Significa anche partire, andarsene, e in quel caso si usa l'ausiliare sein."
       ],
       "examples": [
         {
@@ -40803,7 +40803,7 @@ const B1_WORDS = [
       "explanation": [
         "Idea principale: kündigen significa recedere da un lavoro, da un contratto o da un affitto — comunicare ufficialmente che il rapporto finirà. Forme: kündigt, kündigte, hat gekündigt (ausiliare haben).",
         "Con l'accusativo si indica la cosa: den Vertrag kündigen, die Wohnung kündigen, den Job kündigen. Con il dativo si indica la persona licenziata: Der Chef kündigt dem Mitarbeiter (il capo licenzia il dipendente). Senza complemento ich habe gekündigt significa che mi sono licenziato io.",
-        "In sostanza kündigen è un passo ufficiale con un termine di preavviso (Kündigungsfrist); il licenziamento da parte dell'azienda si chiama entlassen. Attenzione: lo stesso verbo copre sia «licenziarsi» sia «licenziare» qualcuno sia «disdire» un contratto."
+        "In sostanza kündigen è un passo ufficiale con un termine di preavviso (Kündigungsfrist); il licenziamento da parte dell'azienda si chiama anche entlassen. Attenzione: lo stesso verbo copre sia «licenziarsi» sia «licenziare» qualcuno sia «disdire» un contratto."
       ],
       "examples": [
         {
@@ -41064,7 +41064,7 @@ const B1_WORDS = [
       "translation": "accoppiare • agganciare • premere la frizione",
       "explanation": [
         "Idea principale: kuppeln significa collegare, agganciare in senso tecnico — per esempio vagoni o un rimorchio. Alla guida significa premere la frizione (die Kupplung) per cambiare marcia. Forme: kuppelt, kuppelte, hat gekuppelt.",
-        "Nel senso tecnico si usa spesso con un prefisso: ankuppeln (agganciare), abkuppeln (sganciare), zusammenkuppeln (agganciare insieme). La parola deriva da die Kupplung (frizione, giunto).",
+        "Nel senso tecnico si usa spesso con un prefisso: ankuppeln (agganciare), abkuppeln (sganciare), zusammenkuppeln (agganciare insieme). Da essa deriva il sostantivo die Kupplung (frizione, giunto).",
         "In senso figurato il verbo verkuppeln significa combinare una coppia (spingere due persone a mettersi insieme) e ha spesso una sfumatura di rimprovero."
       ],
       "examples": [
@@ -56557,7 +56557,7 @@ const B1_WORDS = [
       "explanation": [
         "Idea principale: der Schimmel è un sostantivo maschile che indica la muffa su cibi, pareti o altre superfici umide. La stessa parola ha un secondo significato: cavallo bianco (o grigio chiaro).",
         "Il plurale è die Schimmel (per entrambi i significati). Per la muffa il plurale si usa raramente, perché di solito è un nome di materia: Schimmel an der Wand.",
-        "Ne deriva il verbo schimmeln – ammuffire: Das Brot schimmelt. Anche il participio: Das Brot ist verschimmelt (il pane è ammuffito)."
+        "Ne deriva il verbo schimmeln – ammuffire: Das Brot schimmelt. Anche da verschimmeln (ammuffire): Das Brot ist verschimmelt (il pane è ammuffito)."
       ],
       "examples": [
         {
@@ -56590,7 +56590,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Nel senso di cavallo, der Schimmel si usa spesso con il colore: ein weißer Schimmel.",
+        "Nel senso di cavallo, der Schimmel indica già un cavallo bianco, quindi ein weißer Schimmel è un pleonasmo.",
         "Per il pane e il formaggio dì: Das Brot schimmelt oppure ist verschimmelt."
       ],
       "important": [
@@ -57782,7 +57782,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Der Schmuck non è der Schmutz (sporco): Schmuck – decorazione, Schmutz – sporcizia.",
-        "In senso figurato sich schmücken può significare anche vantarsi di meriti altrui (farsi bello con le penne del pavone)."
+        "L'espressione sich mit fremden Federn schmücken significa vantarsi di meriti altrui (farsi bello con le penne del pavone)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -57895,8 +57895,7 @@ const B1_WORDS = [
           },
           {
             "blue": [
-              "schmücken",
-              "sich schmücken"
+              "schmücken"
             ]
           }
         ]
@@ -64023,7 +64022,7 @@ const B1_WORDS = [
       ],
       "tip": [
         "Nel quotidiano i tedeschi dicono semplicemente Strom, non Elektrizität: Hast du Strom? – Hai la corrente?",
-        "Per un grande fiume der Strom è una parola più poetica di der Fluss."
+        "Per un grande fiume der Strom indica un fiume più grande di der Fluss."
       ],
       "important": [
         "Der Strom (corrente elettrica, grande fiume) non è la stessa cosa di die Strömung (corrente nell'acqua o nell'aria), anche se in italiano per entrambi si dice «corrente».",
@@ -64274,7 +64273,7 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "cadere • precipitare",
       "explanation": [
-        "Idea principale: stürzen significa cadere o lanciarsi con un movimento brusco: cadere dall'alto, precipitarsi da qualche parte o (per prezzi, governi) crollare. Forme: stürzt, stürzte, ist gestürzt.",
+        "Idea principale: stürzen significa cadere o lanciarsi con un movimento brusco: cadere dall'alto, precipitarsi da qualche parte o (per prezzi) crollare, (per governi) cadere. Forme: stürzt, stürzte, ist gestürzt.",
         "Quando qualcuno cade o si precipita da sé, si usa l'ausiliare sein: Er ist gestürzt. Quando qualcuno rovescia qualcun altro (un governo, un capo), il verbo è transitivo e si usa haben: Das Volk hat den König gestürzt. Al riflessivo sich stürzen auf/in significa gettarsi su o tuffarsi in: Er stürzt sich in die Arbeit. Con in + accusativo si indica la direzione (dove?), con von + dativo – la provenienza (da dove?)."
       ],
       "examples": [

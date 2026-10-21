@@ -959,7 +959,7 @@ const C1_WORDS = [
         "Hasonló jelentésű a die Allgemeinheit (az emberek összessége)."
       ],
       "important": [
-        "Többes számát általában nem használjuk: die Öffentlichkeiten alak nincs."
+        "Többes számát általában nem használjuk: a die Öffentlichkeiten alak ritka."
       ],
       "sectionAccents": {
         "explanation": {
@@ -3380,7 +3380,7 @@ const C1_WORDS = [
       "comparison": [
         {
           "word": "festgelegt",
-          "meaning": "rögzített (megállapodás alapján)",
+          "meaning": "rögzített",
           "example": "Der Plan ist festgelegt. – A terv már rögzített."
         },
         {

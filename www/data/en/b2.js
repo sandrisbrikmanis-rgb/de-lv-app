@@ -1717,7 +1717,7 @@ const B2_WORDS = [
         "For finding fault, a negative form is normally used: nichts auszusetzen haben."
       ],
       "important": [
-        "For exposure, aussetzen is followed by the dative (der Gefahr, dem Risiko), not the accusative.",
+        "For exposure, aussetzen is followed by the dative (der Gefahr, dem Risiko), while the person or thing exposed is in the accusative (jemanden).",
         "Do not confuse ausgesetzt sein (to be exposed) with ausgestellt (exhibited or issued)."
       ],
       "sectionAccents": {
@@ -5849,7 +5849,7 @@ const B2_WORDS = [
       "translation": "To hire • To engage",
       "explanation": [
         "Main idea: dingen is a rare, old-fashioned verb meaning to hire (to engage a person for payment to do a job). Today it is heard mainly in the expression ein gedungener Mörder (a hired killer) and in historical texts.",
-        "Forms: dingt, dang, hat gedungen (the regular forms dingte, gedingt also occur). Typically one hires Söldner, Mörder, Führer. In everyday speech people say anheuern or engagieren.",
+        "Forms: dingt, dingte (less often dang), hat gedungen (less often gedingt). Typically one hires Söldner, Mörder, Führer. In everyday speech people say anheuern or engagieren.",
         "Dingen takes the accusative: jemanden dingen."
       ],
       "examples": [
@@ -5889,7 +5889,7 @@ const B2_WORDS = [
       ],
       "important": [
         "Dingen is a literary or historical word; in everyday speech it would sound odd.",
-        "The forms vary (dang/gedungen and dingte/gedingt); the strong form is the main one used."
+        "The forms vary (dang/gedungen and dingte/gedingt); in the simple past dingte is usual, in the participle gedungen."
       ],
       "sectionAccents": {
         "explanation": {

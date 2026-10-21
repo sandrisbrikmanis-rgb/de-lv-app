@@ -5022,7 +5022,7 @@ const A1_WORDS = [
       "translation": "que",
       "explanation": [
         "Idée principale : dass est la conjonction de subordination « que », qui introduit une complétive après des verbes comme sagen, wissen, denken, hoffen et des expressions comme Es ist schön … : Ich weiß, dass du müde bist.",
-        "Il y a toujours une virgule avant dass. Dans la subordonnée, le verbe conjugué se place en fin de phrase : …, dass er keine Zeit hat.",
+        "Au milieu de la phrase, il y a toujours une virgule avant dass. Dans la subordonnée, le verbe conjugué se place en fin de phrase : …, dass er keine Zeit hat.",
         "Dass s'écrit avec deux s. Das, l'article neutre et pronom démonstratif, est un autre mot."
       ],
       "examples": [
@@ -6878,7 +6878,7 @@ const A1_WORDS = [
       "translation": "quelque chose • un peu",
       "explanation": [
         "Idée principale : etwas est un pronom indéfini, « quelque chose » : Ich möchte etwas trinken, Hast du etwas Neues? Il est invariable et se comporte comme un neutre singulier.",
-        "Après etwas, l'adjectif s'écrit comme un nom, avec une majuscule et la terminaison -es : etwas Neues (quelque chose de nouveau), etwas Gutes, etwas anderes.",
+        "Après etwas, l'adjectif s'écrit comme un nom, avec une majuscule et la terminaison -es : etwas Neues (quelque chose de nouveau), etwas Gutes (mais en général etwas anderes s'écrit avec une minuscule).",
         "Etwas peut aussi signifier « un peu » : etwas Zeit (un peu de temps), etwas müde (un peu fatigué)."
       ],
       "examples": [
@@ -16839,7 +16839,7 @@ const A1_WORDS = [
       "translation": "litre",
       "explanation": [
         "Idée principale : der Liter est une unité de volume — le litre. On l’emploie pour les liquides : Milch, Wasser, Benzin.",
-        "Pluriel : die Liter (sans terminaison). Après un nombre, l’unité ne change pas, et le nom qui suit vient sans préposition : zwei Liter Milch (deux litres de lait), drei Liter Wasser. Der Liter est masculin ; à l’oral, on entend parfois das Liter.",
+        "Pluriel : die Liter (sans terminaison). Après un nombre, l’unité ne change pas, et le nom qui suit vient sans préposition : zwei Liter Milch (deux litres de lait), drei Liter Wasser. Der Liter est masculin ; on emploie parfois aussi das Liter.",
         "Abréviation l : 1 l = 1000 Milliliter (ml, millilitres)."
       ],
       "examples": [
@@ -18730,7 +18730,7 @@ const A1_WORDS = [
         {
           "word": "sollen",
           "meaning": "devoir (consigne)",
-          "example": "Du sollst mehr schlafen. – Tu devrais dormir davantage."
+          "example": "Du sollst mehr schlafen. – Tu dois dormir davantage."
         },
         {
           "word": "dürfen",
@@ -22786,7 +22786,7 @@ const A1_WORDS = [
       "explanation": [
         "Idée principale : sein est le verbe de base « être » en allemand. Il est irrégulier : ich bin, du bist, er/sie/es ist, wir sind, ihr seid, sie/Sie sind ; prétérit war, parfait ist gewesen.",
         "On l’emploie pour dire ce qu’est quelqu’un (Er ist Arzt), comment il est (Das Haus ist groß), où il se trouve (Wir sind hier) et quel âge il a (Ich bin 20 Jahre alt). En allemand, sein n’est jamais omis : on ne peut pas dire « Ich Lehrer ».",
-        "Sein est aussi un auxiliaire du parfait avec les verbes de mouvement et de changement d’état (ich bin gefahren, ich bin gewesen)."
+        "Sein est aussi un auxiliaire du parfait avec les verbes de mouvement et de changement d’état (ich bin gefahren), ainsi qu'avec sein et bleiben (ich bin gewesen)."
       ],
       "examples": [
         {
@@ -25948,7 +25948,7 @@ const A1_WORDS = [
           "lv": "Nous revenons tout juste de chez le médecin."
         },
         {
-          "de": "Der Zug vom Gleis drei fährt gleich ab.",
+          "de": "Der Zug vom dritten Gleis fährt gleich ab.",
           "lv": "Le train du quai trois part tout de suite."
         },
         {

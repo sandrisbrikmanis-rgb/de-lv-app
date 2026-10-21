@@ -2777,7 +2777,7 @@ const A2_WORDS = [
       "translation": "üles kütma",
       "explanation": [
         "Põhimõte: anheizen tähendab (ahju, kaminat, katelt) küdema panema või kütma hakkama. See on eraldatava eesliitega tegusõna: ich heize den Ofen an.",
-        "Vormid: heizt an, heizte an, hat angeheizt. Täisminevikus kasutatakse abitegusõna haben ja eesliide an- eraldub lauses.",
+        "Vormid: heizt an, heizte an, hat angeheizt. Täisminevikus kasutatakse abitegusõna haben; olevikus ja lihtminevikus eraldub eesliide an- lauses.",
         "Ülekantud tähenduses tähendab anheizen üles kütma, võimendama: die Stimmung anheizen (meeleolu üles kütma), die Diskussion anheizen (arutelu õhutama)."
       ],
       "examples": [
@@ -5296,7 +5296,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Kui räägitakse koolist, klubist või haiglast, mõtle „vastuvõtt“; kui muusikast või videost, „salvestus“; kui kaamerast, „foto“.",
-        "Ühendid machen ja in abil väljendavad võtet või vastuvõttu: eine Aufnahme machen, die Aufnahme in den Verein."
+        "Koos machen'iga väljendab see võtet või salvestust, koos in'iga – vastuvõttu: eine Aufnahme machen, die Aufnahme in den Verein."
       ],
       "important": [
         "Aufnahme on naissoost: die Aufnahme, mitmuses die Aufnahmen.",
@@ -11041,7 +11041,7 @@ const A2_WORDS = [
       "translation": "põrand",
       "explanation": [
         "Põhimõte: der Boden on meessoost nimisõna, mis tähendab põrandat (ruumis) ja maad või mulda (kus midagi kasvab). Mitmus on die Böden (umlaudiga).",
-        "Muud tähendused: põhi (der Boden der Flasche – pudeli põhi) ja pööning (piirkonniti, Lõuna-Saksamaal). Ühend auf dem Boden võib tähendada põrandal või maas.",
+        "Muud tähendused: põhi (der Boden der Flasche – pudeli põhi) ja pööning (piirkonniti). Ühend auf dem Boden võib tähendada põrandal või maas.",
         "Liitsõnad: der Fußboden (põrand), der Dachboden (pööning), der Waldboden (metsapinnas), die Bodenheizung (põrandaküte)."
       ],
       "examples": [
@@ -22054,7 +22054,7 @@ const A2_WORDS = [
       "explanation": [
         "Põhimõte: hängen on tegelikult kaks erinevat tegusõna. Sihitu hängen tähendab rippuma (miski on üles riputatud, näiteks pilt seinal), sihiline hängen aga riputama (keegi riputab midagi üles).",
         "Sihitu: hängen, hing, hat gehangen (lõunas sageli ist gehangen). Küsimus Wo? ja datiiv: Das Bild hängt an der Wand. Sihiline on nõrk: hängen, hängte, hat gehängt. Küsimus Wohin? ja akusatiiv: Ich hänge das Bild an die Wand.",
-        "Nagu paari liegen / legen puhul, tuleb ka siin seisundit ja tegevust eristada vormide ja käände järgi. Eesti keeles aitab vahet teha paar rippuma / riputama."
+        "Erinevalt paarist liegen / legen tuleb siin seisundit ja tegevust eristada vormide ja käände järgi. Eesti keeles aitab vahet teha paar rippuma / riputama."
       ],
       "examples": [
         {
@@ -23084,7 +23084,7 @@ const A2_WORDS = [
         {
           "word": "dadurch, dass",
           "meaning": "tänu sellele, et; sellega, et",
-          "example": "Er gewinnt, dadurch dass er übt. – Ta võidab tänu sellele, et harjutab."
+          "example": "Er gewinnt dadurch, dass er übt. – Ta võidab tänu sellele, et harjutab."
         }
       ],
       "tip": [
@@ -23408,7 +23408,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Ära aja segi je ja jede (iga) ega ja (jah).",
-        "Pärast je koos arvuga jääb nimisõna sageli ainsusesse: je Stück, je Person."
+        "Pärast je ilma arvsõnata on nimisõna ainsuses: je Stück, je Person."
       ],
       "sectionAccents": {
         "explanation": {
@@ -25080,7 +25080,7 @@ const A2_WORDS = [
         "Inimest või kohta tuntakse – seda väljendab kennen; fakti teatakse – seda väljendab wissen. Eesti keeles on sama vahe: tundma ja teadma."
       ],
       "important": [
-        "Akusatiiviga kasutatakse wissen harva ja peamiselt asesõnadega: Ich weiß das, Ich weiß es; inimese kohta wissen ei sobi.",
+        "Akusatiiviga kasutatakse wissen asesõnade või teavet väljendavate nimisõnadega (die Antwort, den Weg): Ich weiß das, Ich weiß es; inimese kohta wissen ei sobi.",
         "Oskuse kohta kasutatakse können: Ich kann schwimmen, mitte Ich weiß schwimmen."
       ],
       "sectionAccents": {
@@ -30916,7 +30916,7 @@ const A2_WORDS = [
         "Hier ist viel los tähendab Siin on palju melu."
       ],
       "important": [
-        "Los kasutatakse peamiselt koos sõnaga sein; nimisõna ees on vorm lose: ein loser Knopf.",
+        "Los kasutatakse peamiselt koos sõnaga sein; nimisõna ees kasutatakse sugulassõna lose: ein loser Knopf.",
         "Ära aja segi sõnadega das Los (loos, saatus) ja locker (lõtv, logisev)."
       ],
       "sectionAccents": {
@@ -38011,7 +38011,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Võlad — alati mitmuses: Schulden haben, Schulden machen."
+        "Võlad — tavaliselt mitmuses: Schulden haben, Schulden machen."
       ],
       "important": [
         "Võla kohta öeldakse bei jemandem Schulden haben (kellelegi võlgu olema)."
@@ -45475,7 +45475,7 @@ const A2_WORDS = [
       "translation": "vahetama • muutma",
       "explanation": [
         "Põhimõte: wechseln on tegusõna: wechselt, wechselte, hat gewechselt. See tähendab üht asja teise vastu vahetama, näiteks raha, kooli, töökohta, riideid.",
-        "Tavaliselt kasutatakse seda akusatiiviga ja abitegusõnaga haben: Er hat den Job gewechselt. Kui rõhutatakse üleminekut teise kohta või olekusse (muutumist), võib kasutada ka sein: Die Ampel ist auf Grün gewechselt.",
+        "Tavaliselt kasutatakse seda akusatiiviga ja abitegusõnaga haben: Er hat den Job gewechselt. Kui rõhutatakse üleminekut teise kohta, võib kasutada ka sein: Er ist zu einem anderen Verein gewechselt.",
         "Pangas tähendab Geld wechseln raha vahetama teise valuuta või peenraha vastu. Nimisõna on der Wechsel (vahetus)."
       ],
       "examples": [
@@ -47016,7 +47016,7 @@ const A2_WORDS = [
       "translation": "praegu",
       "explanation": [
         "Põhimõte: zurzeit on määrsõna tähendusega praegu, hetkel. See kirjeldab olukorda praegusel ajajärgul, mis võib hiljem muutuda.",
-        "Kirjalik lühend on z. Z. Sõna ei muutu. Sünonüümid on derzeit ja im Moment.",
+        "Kirjalik lühend on zz. või zzt. Sõna ei muutu. Sünonüümid on derzeit ja im Moment.",
         "Õigekiri: kokku kirjutatud zurzeit tähendab praegu. Lahku kirjutatud zur Zeit + genitiiv tähendab kellegi ajal: zur Zeit Goethes (Goethe ajal)."
       ],
       "examples": [
@@ -49533,7 +49533,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "schon'i vastand on noch (veel): Bist du schon da? – Nein, noch nicht.",
+        "schon'i vastand on noch nicht (veel mitte): Bist du schon da? – Nein, noch nicht.",
         "bereits on ametlikum kui schon, tähendus on sama."
       ],
       "important": [

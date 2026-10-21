@@ -959,7 +959,7 @@ const C1_WORDS = [
         "Le mot die Allgemeinheit (tout le monde, la collectivité) a un sens proche."
       ],
       "important": [
-        "Le pluriel n'est généralement pas utilisé : on ne dit pas die Öffentlichkeiten."
+        "Le pluriel n'est généralement pas utilisé : die Öffentlichkeiten est rare."
       ],
       "sectionAccents": {
         "explanation": {
@@ -3380,7 +3380,7 @@ const C1_WORDS = [
       "comparison": [
         {
           "word": "festgelegt",
-          "meaning": "fixé (d'un commun accord)",
+          "meaning": "fixé",
           "example": "Der Plan ist festgelegt. – Le plan est fixé."
         },
         {

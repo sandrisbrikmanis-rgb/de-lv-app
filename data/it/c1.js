@@ -959,7 +959,7 @@ const C1_WORDS = [
         "Un significato simile ha la parola die Allgemeinheit (la collettività, tutti in generale)."
       ],
       "important": [
-        "Di solito il plurale non si usa: non die Öffentlichkeiten."
+        "Di solito il plurale non si usa: die Öffentlichkeiten è raro."
       ],
       "sectionAccents": {
         "explanation": {
@@ -3380,7 +3380,7 @@ const C1_WORDS = [
       "comparison": [
         {
           "word": "festgelegt",
-          "meaning": "stabilito (di comune accordo)",
+          "meaning": "stabilito",
           "example": "Der Plan ist festgelegt. – Il piano è stabilito."
         },
         {

@@ -959,7 +959,7 @@ const C1_WORDS = [
         "Een vergelijkbare betekenis heeft die Allgemeinheit (alle mensen samen)."
       ],
       "important": [
-        "Het meervoud wordt meestal niet gebruikt: die Öffentlichkeiten zeg je niet."
+        "Het meervoud wordt meestal niet gebruikt: die Öffentlichkeiten komt maar zelden voor."
       ],
       "sectionAccents": {
         "explanation": {
@@ -3380,7 +3380,7 @@ const C1_WORDS = [
       "comparison": [
         {
           "word": "festgelegt",
-          "meaning": "vastgelegd (in overleg)",
+          "meaning": "vastgelegd",
           "example": "Der Plan ist festgelegt. – Het plan ligt vast."
         },
         {

@@ -959,7 +959,7 @@ const C1_WORDS = [
         "Podobný význam má slovo die Allgemeinheit (všichni lidé jako celek)."
       ],
       "important": [
-        "Množné číslo se obvykle nepoužívá: neexistuje die Öffentlichkeiten."
+        "Množné číslo se obvykle nepoužívá: tvar die Öffentlichkeiten je vzácný."
       ],
       "sectionAccents": {
         "explanation": {
@@ -3378,7 +3378,7 @@ const C1_WORDS = [
       "comparison": [
         {
           "word": "festgelegt",
-          "meaning": "stanovený (dohodou)",
+          "meaning": "stanovený",
           "example": "Der Plan ist festgelegt. – Plán je stanovený."
         },
         {

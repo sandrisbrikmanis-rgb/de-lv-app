@@ -2769,7 +2769,7 @@ const A2_WORDS = [
       "translation": "naložiti",
       "explanation": [
         "Glavna ideja: anheizen znači naložiti ili početi grijati (peć, kamin, kotao). To je glagol s razdvojivim prefiksom: ich heize den Ofen an.",
-        "Oblici: heizt an, heizte an, hat angeheizt. U perfektu se koristi haben, a prefiks an- se u rečenici odvaja.",
+        "Oblici: heizt an, heizte an, hat angeheizt. U perfektu se koristi haben; u prezentu i preteritu prefiks an- se u rečenici odvaja.",
         "U prenesenom značenju anheizen znači podgrijati, pojačati: die Stimmung anheizen (podići atmosferu), die Diskussion anheizen (raspiriti diskusiju)."
       ],
       "examples": [
@@ -6435,7 +6435,7 @@ const A2_WORDS = [
       "translation": "utrošiti",
       "explanation": [
         "Glavna ideja: aufwenden je glagol s razdvojivim prefiksom sa značenjem utrošiti ili uložiti (vrijeme, novac, trud, energiju) za neki cilj. Pripada formalnijem jeziku.",
-        "Oblici: wendet auf, wendete auf (i wandte auf), hat aufgewendet (i aufgewandt). Obično se koristi uz zu ili für: Zeit für etwas aufwenden.",
+        "Oblici: wendet auf, wendete auf (i wandte auf), hat aufgewendet (i aufgewandt). Obično se koristi uz für: Zeit für etwas aufwenden.",
         "Srodna imenica je der Aufwand (trud, troškovi, utrošak): mit großem Aufwand (uz veliki trud)."
       ],
       "examples": [
@@ -22031,7 +22031,7 @@ const A2_WORDS = [
       "explanation": [
         "Glavna ideja: hängen su zapravo dva različita glagola. Neprelazni hängen znači visiti (nešto je okačeno, npr. slika na zidu), a prelazni hängen znači objesiti, okačiti (neko nešto vješa).",
         "Neprelazni: hängen, hing, hat gehangen (na jugu često ist gehangen). Pitanje Wo? i dativ: Das Bild hängt an der Wand. Prelazni je pravilan: hängen, hängte, hat gehängt. Pitanje Wohin? i akuzativ: Ich hänge das Bild an die Wand.",
-        "Kao kod para liegen / legen, i ovdje stanje i radnju ne razlikuje infinitiv, nego oblici glagola i padež."
+        "Za razliku od para liegen / legen, ovdje stanje i radnju ne razlikuje infinitiv, nego oblici glagola i padež."
       ],
       "examples": [
         {
@@ -23060,7 +23060,7 @@ const A2_WORDS = [
         {
           "word": "dadurch, dass",
           "meaning": "time što, tako što",
-          "example": "Er gewinnt, dadurch dass er übt. – Pobjeđuje tako što vježba."
+          "example": "Er gewinnt dadurch, dass er übt. – Pobjeđuje tako što vježba."
         }
       ],
       "tip": [
@@ -23383,7 +23383,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Ne miješaj je sa jede (svaka) ni sa ja (da).",
-        "Poslije je s brojem imenica često ostaje u jednini: je Stück, je Person."
+        "Poslije je bez broja imenica stoji u jednini: je Stück, je Person."
       ],
       "sectionAccents": {
         "explanation": {
@@ -25053,7 +25053,7 @@ const A2_WORDS = [
         "Osobu ili mjesto poznaješ, to izražava kennen; činjenicu znaš, to izražava wissen."
       ],
       "important": [
-        "S akuzativom se wissen koristi rijetko i uglavnom uz zamjenice: Ich weiß das, Ich weiß es; osobu ne možeš „znati“ sa wissen.",
+        "S akuzativom se wissen koristi uz zamjenice ili riječi koje označavaju informaciju (die Antwort, den Weg): Ich weiß das, Ich weiß es; osobu ne možeš „znati“ sa wissen.",
         "Za vještinu se koristi können: Ich kann schwimmen, a ne Ich weiß schwimmen."
       ],
       "sectionAccents": {
@@ -30886,7 +30886,7 @@ const A2_WORDS = [
         "Hier ist viel los znači Ovdje je velika gužva, ovdje se mnogo toga dešava."
       ],
       "important": [
-        "Los se koristi uglavnom sa sein; ispred imenice stoji oblik lose: ein loser Knopf.",
+        "Los se koristi uglavnom sa sein; ispred imenice se koristi srodna riječ lose: ein loser Knopf.",
         "Ne miješaj sa das Los (srećka, sudbina) ni sa locker (labav, opušten)."
       ],
       "sectionAccents": {
@@ -45444,7 +45444,7 @@ const A2_WORDS = [
       "translation": "mijenjati",
       "explanation": [
         "Glavna ideja: wechseln je glagol: wechselt, wechselte, hat gewechselt. Znači mijenjati, zamijeniti jednu stvar drugom, npr. novac, školu, posao, odjeću.",
-        "Obično se koristi s akuzativom i pomoćnim glagolom haben: Er hat den Job gewechselt. Kada se naglašava prelazak na drugo mjesto ili stanje, može se koristiti i sein: Die Ampel ist auf Grün gewechselt.",
+        "Obično se koristi s akuzativom i pomoćnim glagolom haben: Er hat den Job gewechselt. Kada se naglašava prelazak na drugo mjesto, može se koristiti i sein: Er ist zu einem anderen Verein gewechselt.",
         "U banci Geld wechseln znači promijeniti novac u drugu valutu ili ga usitniti. Imenica je der Wechsel (promjena, zamjena)."
       ],
       "examples": [
@@ -46985,7 +46985,7 @@ const A2_WORDS = [
       "translation": "trenutno",
       "explanation": [
         "Glavna ideja: zurzeit je prilog sa značenjem trenutno, sada. Opisuje stanje u sadašnjem periodu koje se kasnije može promijeniti.",
-        "Skraćenica je z. Z. Riječ se ne mijenja. Sinonimi su derzeit i im Moment.",
+        "Skraćenica je zz. ili zzt. Riječ se ne mijenja. Sinonimi su derzeit i im Moment.",
         "Pravopis: zurzeit kao jedna riječ znači trenutno. Odvojeno zur Zeit + genitiv znači u vrijeme nekoga ili nečega: zur Zeit Goethes (u Goetheovo vrijeme)."
       ],
       "examples": [
