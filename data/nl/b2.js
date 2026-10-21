@@ -1779,7 +1779,7 @@ const B2_WORDS = [
         "Bij aanmerken gebruikt men meestal een ontkenning: nichts auszusetzen haben."
       ],
       "important": [
-        "Bij blootstellen volgt na aussetzen de datief (der Gefahr, dem Risiko), niet de accusatief.",
+        "Bij blootstellen volgt na aussetzen de datief (der Gefahr, dem Risiko), maar wie blootgesteld wordt, staat in de accusatief (jemanden).",
         "Verwar ausgesetzt sein (blootgesteld zijn) niet met ausgestellt (tentoongesteld of uitgereikt)."
       ],
       "sectionAccents": {
@@ -6095,7 +6095,7 @@ const B2_WORDS = [
       "translation": "inhuren • in dienst nemen",
       "explanation": [
         "Kern: dingen is een zeldzaam, ouderwets werkwoord dat inhuren betekent (iemand tegen betaling voor een klus in dienst nemen). Tegenwoordig hoor je het vooral in de uitdrukking ein gedungener Mörder (een ingehuurde moordenaar, huurmoordenaar) en in historische teksten.",
-        "Vormen: dingt, dang, hat gedungen (ook de regelmatige vorm dingte, gedingt komt voor). Typisch worden Söldner, Mörder, Führer ingehuurd. In het dagelijks leven zegt men anheuern of engagieren.",
+        "Vormen: dingt, dingte (minder vaak dang), hat gedungen (minder vaak gedingt). Typisch worden Söldner, Mörder, Führer ingehuurd. In het dagelijks leven zegt men anheuern of engagieren.",
         "Na dingen volgt de accusatief: jemanden dingen."
       ],
       "examples": [
@@ -6135,7 +6135,7 @@ const B2_WORDS = [
       ],
       "important": [
         "Dingen is een literair of historisch woord; in de dagelijkse omgang zou het vreemd klinken. Let op: het Nederlandse dingen (naar iets dingen) betekent iets heel anders.",
-        "De vormen wisselen (dang/gedungen en dingte/gedingt); meestal gebruikt men de sterke vorm."
+        "De vormen wisselen (dang/gedungen en dingte/gedingt); in de verleden tijd meestal dingte, als deelwoord gedungen."
       ],
       "sectionAccents": {
         "explanation": {

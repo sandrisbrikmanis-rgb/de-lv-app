@@ -2278,7 +2278,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Priedēklis ab- teikumā atdalās: Ich nehme die Brille ab.",
-        "Nozīmi nosaka objekts: Brille – noņemt, Telefon – pacelt, Gewicht – notievēt."
+        "Nozīmi nosaka objekts: Brille – noņemt, Telefon – pacelt, Kilo – notievēt."
       ],
       "sectionAccents": {
         "explanation": {
@@ -13990,7 +13990,7 @@ const B1_WORDS = [
       "translation": "tāpēc",
       "explanation": [
         "Galvenā doma: daher ir apstākļa vārds, kas izsaka sekas: tāpēc, tādēļ. Tas norāda, ka kaut kas notiek kāda iemesla dēļ. Ich war krank, daher bin ich nicht gekommen.",
-        "Vārdu secība: daher stāv teikuma sākumā vai vidū, darbības vārds seko tūlīt: Daher bleibe ich zu Hause. Vārds neievada blakusteikumu.",
+        "Vārdu secība: daher stāv teikuma sākumā (tad darbības vārds seko tūlīt) vai vidū: Daher bleibe ich zu Hause. Vārds neievada blakusteikumu.",
         "Daher var nozīmēt arī no turienes: Von daher kommt das Geräusch. Šajā nozīmē jautājums ir woher?"
       ],
       "examples": [
@@ -15819,7 +15819,7 @@ const B1_WORDS = [
       "translation": "trešais • trijatā",
       "explanation": [
         "Galvenā doma: dritt ir kārtas skaitļa vārds “trešais”. Kā īpašības vārds tas parasti ir ar galotni: der dritte Tag, die dritte Tür, das dritte Mal. Bez galotnes tas parādās frāzē zu dritt – trijatā.",
-        "Rakstot ciparos: 3. = dritt-. Datumos der dritte Mai, am dritten Mai. Atšķirībā no skaitļa drei (trīs), dritt vienmēr apraksta secību, nevis daudzumu."
+        "Rakstot ciparos: 3. = dritt-. Datumos der dritte Mai, am dritten Mai. Atšķirībā no skaitļa drei (trīs), dritt (izņemot frāzi zu dritt) apraksta secību, nevis daudzumu."
       ],
       "examples": [
         {
@@ -16860,7 +16860,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Eher nav tas pats, kas früher: früher ir “kādreiz”, eher – “agrāk par kaut ko”.",
-        "Salīdzinājuma nozīmē nelieto als pēc eher bez izvēles: eher A als B."
+        "Salīdzinājuma nozīmē pēc eher lieto als (nevis wie): eher A als B."
       ],
       "sectionAccents": {
         "explanation": {
@@ -18730,7 +18730,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Ja gribi vienkārši teikt “vienkrāsains”, izmanto einfarbig; ja vēlies nosaukt krāsu, saki uni vai tikai krāsas nosaukumu.",
+        "Ja gribi vienkārši teikt “vienkrāsains”, izmanto einfarbig; ja vēlies nosaukt krāsu, saki tikai krāsas nosaukumu; sinonīms ir uni.",
         "Salīdzini ar zweifarbig (divkrāsains) un dreifarbig."
       ],
       "important": [
@@ -18916,7 +18916,7 @@ const B1_WORDS = [
         "Mēģini kopā ar darbības vārdu: Einfluss nehmen, Einfluss ausüben."
       ],
       "important": [
-        "Einfluss prasa prievārdu auf + akuzatīvs.",
+        "Einfluss uz kaut ko prasa prievārdu auf + akuzatīvs.",
         "Der Einfluss ir vīriešu dzimtē; daudzskaitlī ar umlautu: Einflüsse."
       ],
       "sectionAccents": {
@@ -23720,7 +23720,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Ja kaut kas rodas bez cilvēka darbības, saki entstehen; ja cilvēks to izveido – herstellen vai schaffen.",
+        "Ja kaut kas pats rodas (darītājs nav subjekts), saki entstehen; ja cilvēks to izveido – herstellen vai schaffen.",
         "Perfekts: es ist entstanden."
       ],
       "important": [
@@ -25300,7 +25300,7 @@ const B1_WORDS = [
         "Saturam: Der Saal fasst … Personen."
       ],
       "important": [
-        "Nozīme ir atkarīga no objekta: Arm – satvert, Gedanke – aptvert, Saal – ietilpt.",
+        "Nozīme ir atkarīga no objekta: Arm – satvert, es (Ich kann es nicht fassen) – aptvert, Saal – ietilpt.",
         "Fassen kā “satvert” prasa akuzatīvu: den Ball fassen."
       ],
       "sectionAccents": {
@@ -25459,7 +25459,7 @@ const B1_WORDS = [
       "translation": "slinks",
       "explanation": [
         "Galvenā doma: faul ir īpašības vārds ar divām nozīmēm: slinks (cilvēks, kuram nav vēlēšanās strādāt) un sapuvis (ēdiens, olas, koks). Pārnestā nozīmē faule Ausrede – neticams attaisnojums.",
-        "Vārds ir lokāms: ein fauler Schüler, ein fauler Apfel. Pārākā pakāpe: fauler, faulst. Lietvārds: die Faulheit (slinkums); darbības vārds: faulenzen – slinkot, nodoties dīkdienībai."
+        "Vārds ir lokāms: ein fauler Schüler, ein fauler Apfel. Pārākā pakāpe: fauler, am faulsten. Lietvārds: die Faulheit (slinkums); darbības vārds: faulenzen – slinkot, nodoties dīkdienībai."
       ],
       "examples": [
         {
@@ -26961,7 +26961,7 @@ const B1_WORDS = [
       "translation": "turpināt",
       "explanation": [
         "Galvenā doma: fortfahren ir atdalāms darbības vārds, kas nozīmē turpināt jau iesāktu darbu vai sarunu. Formas: fährt fort, fuhr fort, hat fortgefahren.",
-        "Konstrukcijas: mit etwas fortfahren (turpināt ko), fortfahren, etwas zu tun (turpināt ko darīt). Grāmatiskāks nekā weitermachen, bieži dzirdams runās un oficiālā valodā. Reti nozīmē arī aizbraukt, un tad lieto palīgdarbības vārdu sein."
+        "Konstrukcijas: mit etwas fortfahren (turpināt ko), fortfahren, etwas zu tun (turpināt ko darīt). Grāmatiskāks nekā weitermachen, bieži dzirdams runās un oficiālā valodā. Tas nozīmē arī aizbraukt, un tad lieto palīgdarbības vārdu sein."
       ],
       "examples": [
         {
@@ -40801,7 +40801,7 @@ const B1_WORDS = [
       "explanation": [
         "Galvenā doma: kündigen nozīmē uzteikt darbu, līgumu vai īri — oficiāli paziņot, ka attiecības beigsies. Formas: kündigt, kündigte, hat gekündigt (palīgdarbības vārds haben).",
         "Ar akuzatīvu lieto lietu: den Vertrag kündigen, die Wohnung kündigen, den Job kündigen. Ar datīvu lieto cilvēku, kam uzsaka: Der Chef kündigt dem Mitarbeiter (priekšnieks uzteic darbu darbiniekam). Bez papildinātāja ich habe gekündigt nozīmē, ka pats uzteicu darbu.",
-        "Pēc būtības kündigen ir oficiāls solis ar termiņu (Kündigungsfrist); atlaišanu uzņēmuma vārdā nosauc entlassen."
+        "Pēc būtības kündigen ir oficiāls solis ar termiņu (Kündigungsfrist); atlaišanu uzņēmuma vārdā sauc arī entlassen."
       ],
       "examples": [
         {
@@ -41062,7 +41062,7 @@ const B1_WORDS = [
       "translation": "savienot",
       "explanation": [
         "Galvenā doma: kuppeln nozīmē tehniski savienot, sakabināt — piemēram, vagonus vai piekabi. Autovadīšanā tas nozīmē nospiest sajūgu (die Kupplung) pārslēdzot ātrumus. Formas: kuppelt, kuppelte, hat gekuppelt.",
-        "Tehniskā nozīmē bieži lieto ar priedēkli: ankuppeln (piekabināt), abkuppeln (atkabināt), zusammenkuppeln (sakabināt kopā). Vārds ir atvasināts no die Kupplung (sajūgs, savienojums).",
+        "Tehniskā nozīmē bieži lieto ar priedēkli: ankuppeln (piekabināt), abkuppeln (atkabināt), zusammenkuppeln (sakabināt kopā). No tā atvasināts lietvārds die Kupplung (sajūgs, savienojums).",
         "Pārnestā nozīmē vārds verkuppeln ir savedināt pārī (mudināt divus cilvēkus uz attiecībām), un tam bieži ir pārmetoša pieskaņa."
       ],
       "examples": [
@@ -56563,7 +56563,7 @@ const B1_WORDS = [
       "explanation": [
         "Galvenā doma: der Schimmel ir vīriešu dzimtes lietvārds, kas nozīmē pelējumu uz ēdiena, sienām vai citām mitrām virsmām. Šī paša vārda otra nozīme ir balts (sirms) zirgs.",
         "Daudzskaitlis ir die Schimmel (abām nozīmēm). Pelējumam daudzskaitli lieto reti, jo tas parasti ir vielas nosaukums: Schimmel an der Wand.",
-        "No tā veidots darbības vārds schimmeln – pelēt: Das Brot schimmelt. Arī divdabis: Das Brot ist verschimmelt (maize ir sapelējusi)."
+        "No tā veidots darbības vārds schimmeln – pelēt: Das Brot schimmelt. Arī no verschimmeln (sapelēt): Das Brot ist verschimmelt (maize ir sapelējusi)."
       ],
       "examples": [
         {
@@ -56596,7 +56596,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Zirgu nozīmē der Schimmel parasti pasaka kopā ar krāsu: ein weißer Schimmel.",
+        "Zirgu nozīmē der Schimmel jau nozīmē baltu zirgu, tāpēc ein weißer Schimmel ir pleonasms.",
         "Maizei un sieram saki: Das Brot schimmelt vai ist verschimmelt."
       ],
       "important": [
@@ -57788,7 +57788,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Der Schmuck nav der Schmutz (netīrumi): Schmuck – rotājums, Schmutz – nešķīstība.",
-        "sich schmücken var pārnestā nozīmē nozīmēt arī lielīties ar svešu nopelnu."
+        "Izteiciens sich mit fremden Federn schmücken nozīmē lielīties ar svešu nopelnu."
       ],
       "sectionAccents": {
         "explanation": {
@@ -57901,8 +57901,7 @@ const B1_WORDS = [
           },
           {
             "blue": [
-              "schmücken",
-              "sich schmücken"
+              "schmücken"
             ]
           }
         ]
@@ -64029,7 +64028,7 @@ const B1_WORDS = [
       ],
       "tip": [
         "Ikdienā vācieši saka vienkārši Strom, nevis Elektrizität: Hast du Strom? – Vai ir strāva?",
-        "Ja runa ir par lielu upi, der Strom ir poētiskāks vārds nekā der Fluss."
+        "Ja runa ir par lielu upi, der Strom apzīmē lielāku upi nekā der Fluss."
       ],
       "important": [
         "Der Strom (strāva, lielā upe) nav tas pats, kas die Strömung (straume ūdenī vai gaisā).",
@@ -64280,7 +64279,7 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "gāzties",
       "explanation": [
-        "Galvenā doma: stürzen nozīmē straujā kustībā krist vai mesties: no augstuma nokrist, ātri iesteigties vai (par cenām, valdību) strauji kristies. Formas: stürzt, stürzte, ist gestürzt.",
+        "Galvenā doma: stürzen nozīmē straujā kustībā krist vai mesties: no augstuma nokrist, ātri iesteigties vai (par cenām) strauji kristies, (par valdību) krist. Formas: stürzt, stürzte, ist gestürzt.",
         "Kad kāds pats krīt vai steidzas, lieto palīgdarbības vārdu sein: Er ist gestürzt. Ja kāds kādu gāž (valdību, vadītāju), vārds ir pārejošs un lieto haben: Das Volk hat den König gestürzt. Atgriezeniski sich stürzen auf/in nozīmē mesties virsū vai ienirt: Er stürzt sich in die Arbeit. Ar in + akuzatīvs norāda virzienu (kurp?), ar von + datīvs – no kurienes."
       ],
       "examples": [
@@ -67249,7 +67248,7 @@ const B1_WORDS = [
         },
         {
           "word": "sich beschäftigen",
-          "meaning": "aizņemties, nodarboties",
+          "meaning": "nodarboties",
           "example": "Sie beschäftigt sich mit Musik. – Viņa nodarbojas ar mūziku."
         }
       ],
@@ -67367,7 +67366,7 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "aizņemties"
+                "nodarboties"
               ]
             }
           }

@@ -2768,7 +2768,7 @@ const A2_WORDS = [
       "translation": "užkurti",
       "explanation": [
         "Pagrindinė mintis: anheizen reiškia užkurti arba pradėti šildyti (krosnį, židinį, katilą). Tai skiriamasis veiksmažodis: ich heize den Ofen an.",
-        "Formos: heizt an, heizte an, hat angeheizt. Perfekt laike vartojamas haben, o priešdėlis an- sakinyje atskiriamas.",
+        "Formos: heizt an, heizte an, hat angeheizt. Perfekt laike vartojamas haben; esamajame ir būtajame kartiniame laike priešdėlis an- sakinyje atskiriamas.",
         "Perkeltine reikšme anheizen reiškia kurstyti, stiprinti: die Stimmung anheizen (įkaitinti nuotaiką), die Diskussion anheizen (kurstyti diskusiją)."
       ],
       "examples": [
@@ -5281,7 +5281,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Jei kalbama apie mokyklą, klubą ar ligoninę, galvok „priėmimas“; jei apie muziką ar vaizdo įrašą – „įrašas“; jei apie fotoaparatą – „nuotrauka“.",
-        "Junginiais su machen ir in išreiškiamas kadras arba priėmimas: eine Aufnahme machen."
+        "Su machen išreiškiamas kadras arba įrašas, su in – priėmimas: eine Aufnahme machen."
       ],
       "important": [
         "Aufnahme yra moteriškosios giminės: die Aufnahme, daugiskaita die Aufnahmen.",
@@ -6424,7 +6424,7 @@ const A2_WORDS = [
       "translation": "skirti",
       "explanation": [
         "Pagrindinė mintis: aufwenden yra skiriamasis veiksmažodis, reiškiantis skirti arba investuoti (laiką, pinigus, pastangas, energiją) kokiam nors tikslui. Jis priklauso oficialesnei kalbai.",
-        "Formos: wendet auf, wendete auf (taip pat wandte auf), hat aufgewendet (taip pat aufgewandt). Paprastai vartojamas su zu arba für: Zeit für etwas aufwenden.",
+        "Formos: wendet auf, wendete auf (taip pat wandte auf), hat aufgewendet (taip pat aufgewandt). Paprastai vartojamas su für: Zeit für etwas aufwenden.",
         "Giminingas daiktavardis yra der Aufwand (pastangos, sąnaudos, išlaidos): mit großem Aufwand (su didelėmis pastangomis)."
       ],
       "examples": [
@@ -11008,7 +11008,7 @@ const A2_WORDS = [
       "translation": "grindys",
       "explanation": [
         "Pagrindinė mintis: der Boden yra vyriškosios giminės daiktavardis, reiškiantis grindis (patalpoje) ir žemę arba dirvą (kur kas nors auga). Daugiskaita – die Böden (su umliautu).",
-        "Kitos reikšmės: dugnas (der Boden der Flasche – butelio dugnas) ir palėpė (regioniškai, pietuose). Junginys auf dem Boden gali reikšti ant grindų arba ant žemės.",
+        "Kitos reikšmės: dugnas (der Boden der Flasche – butelio dugnas) ir palėpė (regioniškai). Junginys auf dem Boden gali reikšti ant grindų arba ant žemės.",
         "Sudurtiniai žodžiai: der Fußboden (grindys), der Dachboden (palėpė), der Waldboden (miško dirvožemis), die Bodenheizung (grindų šildymas)."
       ],
       "examples": [
@@ -22005,7 +22005,7 @@ const A2_WORDS = [
       "explanation": [
         "Pagrindinė mintis: hängen yra du skirtingi veiksmažodžiai. Negalininkinis hängen reiškia kaboti (kas nors yra pakabinta, pavyzdžiui, paveikslas ant sienos), o galininkinis hängen reiškia kabinti, pakabinti (kas nors ką nors pakabina).",
         "Negalininkinis: hängen, hing, hat gehangen (pietuose dažnai ist gehangen). Klausimas Wo? ir naudininkas: Das Bild hängt an der Wand. Galininkinis yra taisyklingas: hängen, hängte, hat gehängt. Klausimas Wohin? ir galininkas: Ich hänge das Bild an die Wand.",
-        "Kaip ir poroje liegen / legen, būseną ir veiksmą čia skiria ne bendratis, o formos ir linksnis."
+        "Skirtingai nei poroje liegen / legen, čia būseną ir veiksmą skiria ne bendratis, o formos ir linksnis."
       ],
       "examples": [
         {
@@ -23034,7 +23034,7 @@ const A2_WORDS = [
         {
           "word": "dadurch, dass",
           "meaning": "tuo, kad",
-          "example": "Er gewinnt, dadurch dass er übt. – Jis laimi tuo, kad treniruojasi."
+          "example": "Er gewinnt dadurch, dass er übt. – Jis laimi tuo, kad treniruojasi."
         }
       ],
       "tip": [
@@ -23357,7 +23357,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Nepainiok je su jede (kiekviena) ir su ja (taip).",
-        "Po je su skaičiumi daiktavardis dažnai lieka vienaskaitos: je Stück, je Person."
+        "Po je be skaitvardžio daiktavardis būna vienaskaitos: je Stück, je Person."
       ],
       "sectionAccents": {
         "explanation": {
@@ -24472,7 +24472,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Posakiai in den Keller (kur link? kryptis) ir im Keller (kur? vieta) padeda įsiminti naudininko ir galininko skirtumą.",
+        "Posakiai in den Keller (kur link? kryptis) ir im Keller (kur? vieta) padeda įsiminti galininko ir naudininko skirtumą.",
         "Namo aukštų tvarka: der Keller, das Erdgeschoss, der erste Stock."
       ],
       "important": [
@@ -25028,7 +25028,7 @@ const A2_WORDS = [
         "Žmogų ar vietą pažįsti — tai reiškia kennen; faktą žinai — tai reiškia wissen."
       ],
       "important": [
-        "Su galininku wissen vartojamas retai, daugiausia su įvardžiais: Ich weiß das, Ich weiß es; apie žmogų wissen nevartojamas.",
+        "Su galininku wissen vartojamas su įvardžiais arba informaciją reiškiančiais žodžiais (die Antwort, den Weg): Ich weiß das, Ich weiß es; apie žmogų wissen nevartojamas.",
         "Gebėjimui reikšti vartojamas können: Ich kann schwimmen, o ne Ich weiß schwimmen."
       ],
       "sectionAccents": {
@@ -30862,7 +30862,7 @@ const A2_WORDS = [
         "Hier ist viel los reiškia „Čia daug kas vyksta, daug šurmulio“."
       ],
       "important": [
-        "Los dažniausiai vartojamas su sein; prieš daiktavardį vartojama forma lose: ein loser Knopf.",
+        "Los dažniausiai vartojamas su sein; prieš daiktavardį vartojamas giminiškas žodis lose: ein loser Knopf.",
         "Nepainiok su das Los (burtas, likimas) ir su locker (atsilaisvinęs, laisvas)."
       ],
       "sectionAccents": {
@@ -37956,7 +37956,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Skolos – visada daugiskaita: Schulden haben, Schulden machen."
+        "Skolos – paprastai daugiskaita: Schulden haben, Schulden machen."
       ],
       "important": [
         "Apie skolą sakoma bei jemandem Schulden haben (būti skolingam kam nors)."
@@ -45420,7 +45420,7 @@ const A2_WORDS = [
       "translation": "keisti • iškeisti",
       "explanation": [
         "Pagrindinė mintis: wechseln – veiksmažodis: wechselt, wechselte, hat gewechselt. Jis reiškia keisti arba iškeisti vieną dalyką į kitą, pavyzdžiui, pinigus, mokyklą, darbą, drabužius.",
-        "Paprastai vartojamas su galininku ir pagalbiniu veiksmažodžiu haben: Er hat den Job gewechselt. Jei pabrėžiamas perėjimas į kitą vietą ar būseną, galima vartoti ir sein: Die Ampel ist auf Grün gewechselt.",
+        "Paprastai vartojamas su galininku ir pagalbiniu veiksmažodžiu haben: Er hat den Job gewechselt. Jei pabrėžiamas perėjimas į kitą vietą, galima vartoti ir sein: Er ist zu einem anderen Verein gewechselt.",
         "Banke Geld wechseln reiškia iškeisti pinigus į kitą valiutą arba į smulkesnius. Daiktavardis – der Wechsel (keitimas, kaita)."
       ],
       "examples": [
@@ -46961,7 +46961,7 @@ const A2_WORDS = [
       "translation": "šiuo metu",
       "explanation": [
         "Pagrindinė mintis: zurzeit – prieveiksmis, reiškiantis šiuo metu, dabar. Jis apibūdina būseną dabartiniu laikotarpiu, kuri vėliau gali pasikeisti.",
-        "Rašytinis sutrumpinimas – z. Z. Žodis nekaitomas. Sinonimai – derzeit ir im Moment.",
+        "Rašytinis sutrumpinimas – zz. arba zzt. Žodis nekaitomas. Sinonimai – derzeit ir im Moment.",
         "Rašyba: zurzeit vienu žodžiu reiškia šiuo metu. Dviem žodžiais zur Zeit + kilmininkas reiškia kieno nors laikais: zur Zeit Goethes (Gėtės laikais)."
       ],
       "examples": [
@@ -47177,7 +47177,7 @@ const A2_WORDS = [
       "explanation": [
         "Pagrindinė mintis: der Zwilling – vyriškosios giminės daiktavardis, reiškiantis dvynį, vieną iš dviejų kartu gimusių vaikų. Daugiskaita: die Zwillinge.",
         "Zwillinge sakoma ir apie abu kartu: Sie hat Zwillinge bekommen. Norint pabrėžti lytį, sakoma der Zwillingsbruder (brolis dvynys) arba die Zwillingsschwester (sesuo dvynė).",
-        "Didžiąja raide die Zwillinge – taip pat zodiako ženklas Dvyniai."
+        "Die Zwillinge – taip pat zodiako ženklas Dvyniai."
       ],
       "examples": [
         {

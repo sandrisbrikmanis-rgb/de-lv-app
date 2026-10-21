@@ -2768,7 +2768,7 @@ const A2_WORDS = [
       "translation": "Zatopit",
       "explanation": [
         "Hlavní myšlenka: anheizen znamená zatopit nebo začít topit (v kamnech, v krbu, v kotli). Je to odlučitelné sloveso: ich heize den Ofen an.",
-        "Tvary: heizt an, heizte an, hat angeheizt. Perfektum se tvoří s haben a předpona an- se ve větě odděluje.",
+        "Tvary: heizt an, heizte an, hat angeheizt. Perfektum se tvoří s haben; v přítomném čase a v préteritu se předpona an- ve větě odděluje.",
         "V přeneseném významu anheizen znamená podnítit, rozdmýchat: die Stimmung anheizen (rozproudit náladu), die Diskussion anheizen (rozpoutat diskusi)."
       ],
       "examples": [
@@ -6427,7 +6427,7 @@ const A2_WORDS = [
       "translation": "Vynaložit",
       "explanation": [
         "Hlavní myšlenka: aufwenden je odlučitelné sloveso ve významu vynaložit nebo věnovat (čas, peníze, námahu, energii) na nějaký cíl. Patří do formálnější řeči.",
-        "Tvary: wendet auf, wendete auf (také wandte auf), hat aufgewendet (také aufgewandt). Obvykle se používá se zu nebo für: Zeit für etwas aufwenden.",
+        "Tvary: wendet auf, wendete auf (také wandte auf), hat aufgewendet (také aufgewandt). Obvykle se používá s für: Zeit für etwas aufwenden.",
         "Příbuzné podstatné jméno je der Aufwand (úsilí, náklady, výdaje): mit großem Aufwand (s velkým úsilím)."
       ],
       "examples": [
@@ -23069,7 +23069,7 @@ const A2_WORDS = [
         {
           "word": "dadurch, dass",
           "meaning": "tím, že",
-          "example": "Er gewinnt, dadurch dass er übt. – Vyhrává tím, že trénuje."
+          "example": "Er gewinnt dadurch, dass er übt. – Vyhrává tím, že trénuje."
         }
       ],
       "tip": [
@@ -23392,7 +23392,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Nezaměňuj je s jede (každý) a s ja (ano).",
-        "Po je s číslem zůstává podstatné jméno často v jednotném čísle: je Stück, je Person."
+        "Po je bez číslovky stojí podstatné jméno v jednotném čísle: je Stück, je Person."
       ],
       "sectionAccents": {
         "explanation": {
@@ -25058,7 +25058,7 @@ const A2_WORDS = [
         "Člověka nebo místo znáš (kennen); fakt víš (wissen)."
       ],
       "important": [
-        "S akuzativem se wissen používá zřídka a hlavně se zájmeny: Ich weiß das, Ich weiß es; člověka pomocí wissen znát nelze.",
+        "S akuzativem se wissen používá se zájmeny nebo se slovy označujícími informaci (die Antwort, den Weg): Ich weiß das, Ich weiß es; člověka pomocí wissen znát nelze.",
         "Pro schopnost se používá können: Ich kann schwimmen, ne Ich weiß schwimmen."
       ],
       "sectionAccents": {
@@ -30889,7 +30889,7 @@ const A2_WORDS = [
         "Hier ist viel los znamená Tady je velký ruch."
       ],
       "important": [
-        "Los se používá hlavně se sein; před podstatným jménem má tvar lose: ein loser Knopf.",
+        "Los se používá hlavně se sein; před podstatným jménem se používá příbuzné slovo lose: ein loser Knopf.",
         "Nezaměňuj s das Los (los, osud) ani s locker (uvolněný, volný)."
       ],
       "sectionAccents": {
@@ -45450,7 +45450,7 @@ const A2_WORDS = [
       "translation": "Změnit • Vyměnit",
       "explanation": [
         "Hlavní myšlenka: wechseln je sloveso: wechselt, wechselte, hat gewechselt. Znamená změnit nebo vyměnit jednu věc za jinou, například peníze, školu, práci, oblečení.",
-        "Obvykle se používá s akuzativem a pomocným slovesem haben: Er hat den Job gewechselt. Pokud se zdůrazňuje přechod na jiné místo nebo do jiného stavu, může se použít i sein: Die Ampel ist auf Grün gewechselt.",
+        "Obvykle se používá s akuzativem a pomocným slovesem haben: Er hat den Job gewechselt. Pokud se zdůrazňuje přechod na jiné místo, může se použít i sein: Er ist zu einem anderen Verein gewechselt.",
         "V bance Geld wechseln znamená vyměnit peníze za jinou měnu nebo na drobné. Podstatné jméno je der Wechsel (změna, výměna)."
       ],
       "examples": [
@@ -46990,7 +46990,7 @@ const A2_WORDS = [
       "translation": "V současné době",
       "explanation": [
         "Hlavní myšlenka: zurzeit je příslovce s významem v současné době, nyní. Popisuje stav v přítomném období, který se může později změnit.",
-        "Zkratka v písmu je z. Z. Slovo se nemění. Synonyma jsou derzeit a im Moment.",
+        "Zkratka v písmu je zz. nebo zzt. Slovo se nemění. Synonyma jsou derzeit a im Moment.",
         "Pravopis: zurzeit psané dohromady znamená v současné době. Psané zvlášť, zur Zeit + genitiv, znamená v době někoho: zur Zeit Goethes (v době Goethea)."
       ],
       "examples": [

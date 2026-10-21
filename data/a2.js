@@ -2768,7 +2768,7 @@ const A2_WORDS = [
       "translation": "iekurt",
       "explanation": [
         "Galvenā doma: anheizen nozīmē iekurt vai sākt apsildīt (krāsni, kamīnu, katlu). Tas ir atdalāms darbības vārds: ich heize den Ofen an.",
-        "Formas: heizt an, heizte an, hat angeheizt. Perfektā lieto haben, un priedēklis an- teikumā atdalās.",
+        "Formas: heizt an, heizte an, hat angeheizt. Perfektā lieto haben; tagadnē un vienkāršajā pagātnē priedēklis an- teikumā atdalās.",
         "Pārnestā nozīmē anheizen nozīmē uzkurināt, pastiprināt: die Stimmung anheizen (uzkurināt noskaņojumu), die Diskussion anheizen (uzkurināt diskusiju)."
       ],
       "examples": [
@@ -5281,7 +5281,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Ja runā par skolu, klubu vai slimnīcu, domā uzņemšana; ja par mūziku vai video, ieraksts; ja par kameru, attēls.",
-        "Savienojumā ar machen un in izsaka kadru vai uzņemšanu: eine Aufnahme machen."
+        "Ar machen izsaka kadru vai ierakstu, ar in – uzņemšanu: eine Aufnahme machen."
       ],
       "important": [
         "Aufnahme ir sieviešu dzimtē: die Aufnahme, daudzskaitlī die Aufnahmen.",
@@ -6424,7 +6424,7 @@ const A2_WORDS = [
       "translation": "veltīt",
       "explanation": [
         "Galvenā doma: aufwenden ir atdalāms darbības vārds ar nozīmi veltīt vai ieguldīt (laiku, naudu, piepūli, enerģiju) kādam mērķim. Tas pieder pie oficiālākas valodas.",
-        "Formas: wendet auf, wendete auf (arī wandte auf), hat aufgewendet (arī aufgewandt). Parasti lieto zu vai für: Zeit für etwas aufwenden.",
+        "Formas: wendet auf, wendete auf (arī wandte auf), hat aufgewendet (arī aufgewandt). Parasti lieto für: Zeit für etwas aufwenden.",
         "Radniecīgais lietvārds ir der Aufwand (piepūle, izmaksas, patēriņš): mit großem Aufwand (ar lielu piepūli)."
       ],
       "examples": [
@@ -11008,7 +11008,7 @@ const A2_WORDS = [
       "translation": "grīda",
       "explanation": [
         "Galvenā doma: der Boden ir vīriešu dzimtes lietvārds ar nozīmi grīda (telpā) un zeme vai augsne (kur kaut kas aug). Daudzskaitlis ir die Böden (ar umlautu).",
-        "Citas nozīmes: dibens (der Boden der Flasche – pudeles dibens) un bēniņi (reģionāli, dienvidos). Savienojums auf dem Boden var nozīmēt uz grīdas vai uz zemes.",
+        "Citas nozīmes: dibens (der Boden der Flasche – pudeles dibens) un bēniņi (reģionāli). Savienojums auf dem Boden var nozīmēt uz grīdas vai uz zemes.",
         "Salikteņi: der Fußboden (grīda), der Dachboden (bēniņi), der Waldboden (meža zeme), die Bodenheizung (grīdas apkure)."
       ],
       "examples": [
@@ -22005,7 +22005,7 @@ const A2_WORDS = [
       "explanation": [
         "Galvenā doma: hängen ir divi atšķirīgi darbības vārdi. Nepārejošais hängen nozīmē karāties (kaut kas atrodas piekārts, piemēram, attēls pie sienas), bet pārejošais hängen nozīmē kārt, piekārt (kāds kaut ko piekar).",
         "Nepārejošais: hängen, hing, hat gehangen (dienvidos bieži ist gehangen). Jautājums Wo? un datīvs: Das Bild hängt an der Wand. Pārejošais ir regulārs: hängen, hängte, hat gehängt. Jautājums Wohin? un akuzatīvs: Ich hänge das Bild an die Wand.",
-        "Līdzīgi kā pārim liegen / legen, arī šeit stāvokli un darbību izšķir nevis infinitīvs, bet formas un locījums."
+        "Atšķirībā no pāra liegen / legen, šeit stāvokli un darbību izšķir nevis infinitīvs, bet formas un locījums."
       ],
       "examples": [
         {
@@ -23034,7 +23034,7 @@ const A2_WORDS = [
         {
           "word": "dadurch, dass",
           "meaning": "tādējādi, ka",
-          "example": "Er gewinnt, dadurch dass er übt. – Viņš uzvar, trenējoties."
+          "example": "Er gewinnt dadurch, dass er übt. – Viņš uzvar, trenējoties."
         }
       ],
       "tip": [
@@ -23357,7 +23357,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Nejauc je ar jede (katrs) un ar ja (jā).",
-        "Pēc je ar skaitli lietvārds bieži paliek vienskaitlī: je Stück, je Person."
+        "Pēc je bez skaitļa vārda lietvārds ir vienskaitlī: je Stück, je Person."
       ],
       "sectionAccents": {
         "explanation": {
@@ -24472,7 +24472,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Vārds in den Keller (kurp?) un im Keller (kur?) palīdz atcerēties datīva un akuzatīva atšķirību.",
+        "Vārds in den Keller (kurp?) un im Keller (kur?) palīdz atcerēties akuzatīva un datīva atšķirību.",
         "Mājas stāvu secība: der Keller, das Erdgeschoss, der erste Stock."
       ],
       "important": [
@@ -25028,7 +25028,7 @@ const A2_WORDS = [
         "Cilvēku vai vietu pazīst, to izsaka kennen; faktu zina, to izsaka wissen."
       ],
       "important": [
-        "Ar akuzatīvu wissen lieto reti un galvenokārt ar vietniekvārdiem: Ich weiß das, Ich weiß es; cilvēku nevar zināt ar wissen.",
+        "Ar akuzatīvu wissen lieto ar vietniekvārdiem vai informācijas vārdiem (die Antwort, den Weg): Ich weiß das, Ich weiß es; cilvēku nevar zināt ar wissen.",
         "Prasmei lieto können: Ich kann schwimmen, nevis Ich weiß schwimmen."
       ],
       "sectionAccents": {
@@ -30862,7 +30862,7 @@ const A2_WORDS = [
         "Hier ist viel los nozīmē Šeit ir liela rosība."
       ],
       "important": [
-        "Los lieto galvenokārt ar sein; pirms lietvārda stāv forma lose: ein loser Knopf.",
+        "Los lieto galvenokārt ar sein; pirms lietvārda lieto radniecīgo vārdu lose: ein loser Knopf.",
         "Nejauc ar das Los (loze, liktenis) un ar locker (vaļīgs, brīvs)."
       ],
       "sectionAccents": {
@@ -37956,7 +37956,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Parādi — vienmēr daudzskaitlī: Schulden haben, Schulden machen."
+        "Parādi — parasti daudzskaitlī: Schulden haben, Schulden machen."
       ],
       "important": [
         "Parādam saka bei jemandem Schulden haben (būt parādā kādam)."
@@ -45420,7 +45420,7 @@ const A2_WORDS = [
       "translation": "mainīt • samainīt",
       "explanation": [
         "Galvenā doma: wechseln ir darbības vārds: wechselt, wechselte, hat gewechselt. Tas nozīmē mainīt vai samainīt vienu lietu pret citu, piemēram, naudu, skolu, darbu, drēbes.",
-        "Parasti lieto ar akuzatīvu un palīgdarbības vārdu haben: Er hat den Job gewechselt. Ja uzsver pāreju uz citu vietu vai stāvokli, var lietot arī sein: Die Ampel ist auf Grün gewechselt.",
+        "Parasti lieto ar akuzatīvu un palīgdarbības vārdu haben: Er hat den Job gewechselt. Ja uzsver pāreju uz citu vietu, var lietot arī sein: Er ist zu einem anderen Verein gewechselt.",
         "Bankā Geld wechseln nozīmē samainīt naudu citā valūtā vai sīknaudā. Lietvārds ir der Wechsel (maiņa)."
       ],
       "examples": [
@@ -46961,7 +46961,7 @@ const A2_WORDS = [
       "translation": "pašlaik",
       "explanation": [
         "Galvenā doma: zurzeit ir apstākļa vārds ar nozīmi pašlaik, šobrīd. Tas apraksta stāvokli tagadnes periodā, kas vēlāk var mainīties.",
-        "Raksta saīsinājums ir z. Z. Vārds nav lokāms. Sinonīmi ir derzeit un im Moment.",
+        "Raksta saīsinājums ir zz. vai zzt. Vārds nav lokāms. Sinonīmi ir derzeit un im Moment.",
         "Rakstība: zurzeit kā viens vārds nozīmē pašlaik. Divos vārdos zur Zeit + ģenitīvs nozīmē kāda laikā: zur Zeit Goethes (Gētes laikā)."
       ],
       "examples": [
@@ -47177,7 +47177,7 @@ const A2_WORDS = [
       "explanation": [
         "Galvenā doma: der Zwilling ir vīriešu dzimtes lietvārds, kas nozīmē dvīni, vienu no diviem vienlaikus dzimušiem bērniem. Daudzskaitlis: die Zwillinge.",
         "Tāpat saka Zwillinge arī par abiem kopā: Sie hat Zwillinge bekommen. Ja grib uzsvērt dzimumu, saka der Zwillingsbruder (dvīņubrālis) vai die Zwillingsschwester (dvīņumāsa).",
-        "Ar lielo burtu die Zwillinge ir arī zodiaka zīme Dvīņi."
+        "Die Zwillinge ir arī zodiaka zīme Dvīņi."
       ],
       "examples": [
         {
@@ -47215,7 +47215,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Daudzskaitlis ir die Zwillinge ar galotni -e.",
-        "Zwillinge (ar lielo burtu, par zodiaku) nozīmē zodiaka zīmi Dvīņi."
+        "Zwillinge (par zodiaku) nozīmē zodiaka zīmi Dvīņi."
       ],
       "sectionAccents": {
         "explanation": {
@@ -49479,7 +49479,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Pretstats schon ir noch (vēl): Bist du schon da? – Nein, noch nicht.",
+        "Pretstats schon ir noch nicht (vēl ne): Bist du schon da? – Nein, noch nicht.",
         "bereits ir formālāks par schon, nozīme ir tā pati."
       ],
       "important": [

@@ -2768,7 +2768,7 @@ const A2_WORDS = [
       "translation": "opstoken • aanwakkeren",
       "explanation": [
         "Kerngedachte: anheizen betekent opstoken of beginnen te stoken (een kachel, open haard, ketel). Het is een scheidbaar werkwoord: ich heize den Ofen an.",
-        "Vormen: heizt an, heizte an, hat angeheizt. In de voltooide tijd gebruik je haben, en het voorvoegsel an- wordt in de zin afgesplitst.",
+        "Vormen: heizt an, heizte an, hat angeheizt. In de voltooide tijd gebruik je haben; in de tegenwoordige tijd en de onvoltooid verleden tijd wordt het voorvoegsel an- in de zin afgesplitst.",
         "Figuurlijk betekent anheizen aanwakkeren of opzwepen: die Stimmung anheizen (de stemming opzwepen), die Diskussion anheizen (de discussie aanwakkeren)."
       ],
       "examples": [
@@ -5281,7 +5281,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Gaat het over een school, vereniging of ziekenhuis, dan bedoel je toelating of opname; bij muziek of video een opname; bij een camera een foto.",
-        "Met machen en in drukt het een foto of een toelating uit: eine Aufnahme machen."
+        "Met machen drukt het een foto of opname uit, met in een toelating: eine Aufnahme machen."
       ],
       "important": [
         "Aufnahme is vrouwelijk: die Aufnahme, meervoud die Aufnahmen.",
@@ -6424,7 +6424,7 @@ const A2_WORDS = [
       "translation": "besteden • aanwenden",
       "explanation": [
         "Kern: aufwenden is een scheidbaar werkwoord met de betekenis besteden of investeren (tijd, geld, moeite, energie) voor een doel. Het hoort bij formelere taal.",
-        "Vormen: wendet auf, wendete auf (ook wandte auf), hat aufgewendet (ook aufgewandt). Meestal gebruik je zu of für: Zeit für etwas aufwenden.",
+        "Vormen: wendet auf, wendete auf (ook wandte auf), hat aufgewendet (ook aufgewandt). Meestal gebruik je für: Zeit für etwas aufwenden.",
         "Het verwante zelfstandig naamwoord is der Aufwand (moeite, kosten, verbruik): mit großem Aufwand (met veel moeite)."
       ],
       "examples": [
@@ -11008,7 +11008,7 @@ const A2_WORDS = [
       "translation": "vloer • grond",
       "explanation": [
         "Kern: der Boden is een mannelijk zelfstandig naamwoord met de betekenissen vloer (in een ruimte) en grond of bodem (waar iets groeit). Het meervoud is die Böden (met umlaut).",
-        "Andere betekenissen: bodem (der Boden der Flasche – de bodem van de fles) en zolder (regionaal, in het zuiden). De combinatie auf dem Boden kan op de vloer of op de grond betekenen.",
+        "Andere betekenissen: bodem (der Boden der Flasche – de bodem van de fles) en zolder (regionaal). De combinatie auf dem Boden kan op de vloer of op de grond betekenen.",
         "Samenstellingen: der Fußboden (vloer), der Dachboden (zolder), der Waldboden (bosgrond), die Bodenheizung (vloerverwarming)."
       ],
       "examples": [
@@ -22002,7 +22002,7 @@ const A2_WORDS = [
       "explanation": [
         "Kernidee: hängen zijn eigenlijk twee verschillende werkwoorden. Het onovergankelijke hängen betekent hangen (iets bevindt zich ergens, bijvoorbeeld een schilderij aan de muur), het overgankelijke hängen betekent ophangen (iemand hangt iets op).",
         "Onovergankelijk: hängen, hing, hat gehangen (in het zuiden vaak ist gehangen). Vraag Wo? en datief: Das Bild hängt an der Wand. Het overgankelijke werkwoord is regelmatig: hängen, hängte, hat gehängt. Vraag Wohin? en accusatief: Ich hänge das Bild an die Wand.",
-        "Net als bij het paar liegen / legen onderscheid je toestand en handeling hier niet aan de infinitief, maar aan de vormen en de naamval."
+        "Anders dan bij het paar liegen / legen onderscheid je toestand en handeling hier niet aan de infinitief, maar aan de vormen en de naamval."
       ],
       "examples": [
         {
@@ -23031,7 +23031,7 @@ const A2_WORDS = [
         {
           "word": "dadurch, dass",
           "meaning": "doordat, door het feit dat",
-          "example": "Er gewinnt, dadurch dass er übt. – Hij wint doordat hij oefent."
+          "example": "Er gewinnt dadurch, dass er übt. – Hij wint doordat hij oefent."
         }
       ],
       "tip": [
@@ -23354,7 +23354,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Verwar je niet met jede (elke) of met ja (ja), en ook niet met het Nederlandse je (jij).",
-        "Na je met een getal blijft het zelfstandig naamwoord vaak in het enkelvoud: je Stück, je Person."
+        "Na je zonder telwoord staat het zelfstandig naamwoord in het enkelvoud: je Stück, je Person."
       ],
       "sectionAccents": {
         "explanation": {
@@ -24469,7 +24469,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "De woorden in den Keller (waarheen?) en im Keller (waar?) helpen je het verschil tussen datief en accusatief te onthouden.",
+        "De woorden in den Keller (waarheen?) en im Keller (waar?) helpen je het verschil tussen accusatief en datief te onthouden.",
         "De verdiepingen van een huis: der Keller, das Erdgeschoss, der erste Stock (kelder, begane grond, eerste verdieping)."
       ],
       "important": [
@@ -25025,7 +25025,7 @@ const A2_WORDS = [
         "Een persoon of plaats ken je, dat is kennen; een feit weet je, dat is wissen."
       ],
       "important": [
-        "Met een accusatief gebruik je wissen zelden en vooral met voornaamwoorden: Ich weiß das, Ich weiß es; een persoon kun je met wissen niet ‘weten’.",
+        "Met een accusatief gebruik je wissen met voornaamwoorden of woorden voor informatie (die Antwort, den Weg): Ich weiß das, Ich weiß es; een persoon kun je met wissen niet ‘weten’.",
         "Voor een vaardigheid gebruik je können: Ich kann schwimmen, niet Ich weiß schwimmen."
       ],
       "sectionAccents": {
@@ -30857,7 +30857,7 @@ const A2_WORDS = [
         "Hier ist viel los betekent Hier is veel te doen."
       ],
       "important": [
-        "Los wordt vooral met sein gebruikt; voor een zelfstandig naamwoord staat de vorm lose: ein loser Knopf.",
+        "Los wordt vooral met sein gebruikt; voor een zelfstandig naamwoord gebruik je het verwante woord lose: ein loser Knopf.",
         "Niet verwarren met das Los (lot, lotsbestemming) en met locker (los, slap)."
       ],
       "sectionAccents": {
@@ -37951,7 +37951,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Geldschulden — altijd in het meervoud: Schulden haben, Schulden machen."
+        "Geldschulden — meestal in het meervoud: Schulden haben, Schulden machen."
       ],
       "important": [
         "Voor een geldschuld zeg je bei jemandem Schulden haben (bij iemand schulden hebben)."
@@ -45415,7 +45415,7 @@ const A2_WORDS = [
       "translation": "wisselen • veranderen",
       "explanation": [
         "Kern: wechseln is een werkwoord: wechselt, wechselte, hat gewechselt. Het betekent wisselen of veranderen van: het ene door het andere vervangen, bijvoorbeeld geld, school, werk of kleren.",
-        "Meestal met de accusatief en het hulpwerkwoord haben: Er hat den Job gewechselt. Ligt de nadruk op de overgang naar een andere plaats of toestand, dan kan ook sein: Die Ampel ist auf Grün gewechselt.",
+        "Meestal met de accusatief en het hulpwerkwoord haben: Er hat den Job gewechselt. Ligt de nadruk op de overgang naar een andere plaats, dan kan ook sein: Er ist zu einem anderen Verein gewechselt.",
         "Bij de bank betekent Geld wechseln geld wisselen in een andere valuta of in kleingeld. Het zelfstandig naamwoord is der Wechsel (wisseling)."
       ],
       "examples": [
@@ -46956,7 +46956,7 @@ const A2_WORDS = [
       "translation": "momenteel • op dit moment",
       "explanation": [
         "Kern: zurzeit is een bijwoord met de betekenis momenteel, op dit moment. Het beschrijft een toestand in de huidige periode, die later kan veranderen.",
-        "De schriftelijke afkorting is z. Z. Het woord wordt niet verbogen. Synoniemen zijn derzeit en im Moment.",
+        "De schriftelijke afkorting is zz. of zzt. Het woord wordt niet verbogen. Synoniemen zijn derzeit en im Moment.",
         "Spelling: zurzeit als één woord betekent momenteel. In twee woorden betekent zur Zeit + genitief in de tijd van: zur Zeit Goethes (in de tijd van Goethe)."
       ],
       "examples": [

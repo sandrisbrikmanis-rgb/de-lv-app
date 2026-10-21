@@ -1779,7 +1779,7 @@ const B2_WORDS = [
         "Ved kritik bruges som regel nægtende form: nichts auszusetzen haben."
       ],
       "important": [
-        "I betydningen udsætte for følger dativ efter aussetzen (der Gefahr, dem Risiko), ikke akkusativ.",
+        "I betydningen udsætte for følger dativ efter aussetzen (der Gefahr, dem Risiko), mens den, der udsættes, står i akkusativ (jemanden).",
         "Forveksl ikke ausgesetzt sein (være udsat for) med ausgestellt (udstillet eller udstedt). Bemærk også, at dansk udsætte i betydningen udskyde som regel hedder verschieben på tysk."
       ],
       "sectionAccents": {
@@ -6091,7 +6091,7 @@ const B2_WORDS = [
       "translation": "At hyre • At fæste",
       "explanation": [
         "Hovedidé: dingen er et sjældent, gammeldags udsagnsord, der betyder at hyre eller fæste (et menneske mod betaling til et arbejde). I dag hører man det især i udtrykket ein gedungener Mörder (en lejet morder) og i historiske tekster.",
-        "Former: dingt, dang, hat gedungen (den regelmæssige bøjning dingte, gedingt forekommer også). Typisk hyrer man Söldner, Mörder, Führer. I hverdagen siger man anheuern eller engagieren.",
+        "Former: dingt, dingte (sjældnere dang), hat gedungen (sjældnere gedingt). Typisk hyrer man Söldner, Mörder, Führer. I hverdagen siger man anheuern eller engagieren.",
         "Efter dingen følger akkusativ: jemanden dingen."
       ],
       "examples": [
@@ -6131,7 +6131,7 @@ const B2_WORDS = [
       ],
       "important": [
         "Dingen er et litterært eller historisk ord; i hverdagstale ville det lyde mærkeligt.",
-        "Formerne svinger (dang/gedungen og dingte/gedingt); oftest bruges den stærke bøjning."
+        "Formerne svinger (dang/gedungen og dingte/gedingt); i datid bruges oftest dingte, i tillægsform gedungen."
       ],
       "sectionAccents": {
         "explanation": {

@@ -2276,7 +2276,7 @@ const B1_WORDS = [
       ],
       "important": [
         "The prefix ab- separates in a sentence: Ich nehme die Brille ab.",
-        "The object determines the meaning: Brille – take off, Telefon – pick up, Gewicht – lose."
+        "The object determines the meaning: Brille – take off, Telefon – pick up, Kilo – lose."
       ],
       "sectionAccents": {
         "explanation": {
@@ -13934,7 +13934,7 @@ const B1_WORDS = [
       "translation": "Therefore",
       "explanation": [
         "Main idea: daher is an adverb that expresses a consequence: therefore, for that reason. It shows that something happens for a certain reason. Ich war krank, daher bin ich nicht gekommen.",
-        "Word order: daher stands at the start or in the middle of the sentence, and the verb follows directly: Daher bleibe ich zu Hause. The word does not introduce a subordinate clause.",
+        "Word order: daher stands at the start of the sentence (then the verb follows directly) or in the middle: Daher bleibe ich zu Hause. The word does not introduce a subordinate clause.",
         "Daher can also mean from there: Von daher kommt das Geräusch. In this sense the question is woher? (where from?)."
       ],
       "examples": [
@@ -15746,7 +15746,7 @@ const B1_WORDS = [
       "translation": "Third",
       "explanation": [
         "Main idea: dritt is the ordinal number “third”. As an adjective it normally takes an ending: der dritte Tag, die dritte Tür, das dritte Mal. Without an ending it appears in the phrase zu dritt – the three of us/them together.",
-        "Written in figures: 3. = dritt-. In dates: der dritte Mai, am dritten Mai. Unlike the cardinal number drei (three), dritt always describes order, not quantity."
+        "Written in figures: 3. = dritt-. In dates: der dritte Mai, am dritten Mai. Unlike the cardinal number drei (three), dritt (except in the phrase zu dritt) describes order, not quantity."
       ],
       "examples": [
         {
@@ -18840,7 +18840,7 @@ const B1_WORDS = [
         "Learn it with verbs: Einfluss nehmen, Einfluss ausüben."
       ],
       "important": [
-        "Einfluss requires the preposition auf + accusative.",
+        "Einfluss on something requires the preposition auf + accusative.",
         "Der Einfluss is masculine; the plural takes an umlaut: Einflüsse."
       ],
       "sectionAccents": {
@@ -23640,7 +23640,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "If something comes about without human action, say entstehen; if a person makes it, use herstellen or schaffen.",
+        "If something comes about by itself (the doer is not the subject), say entstehen; if a person makes it, use herstellen or schaffen.",
         "Perfect: es ist entstanden."
       ],
       "important": [
@@ -25221,7 +25221,7 @@ const B1_WORDS = [
         "For capacity: Der Saal fasst … Personen."
       ],
       "important": [
-        "The meaning depends on the object: Arm – grasp, Gedanke – comprehend, Saal – hold.",
+        "The meaning depends on the object: Arm – grasp, es (Ich kann es nicht fassen) – comprehend, Saal – hold.",
         "Fassen in the sense of “to grasp” takes the accusative: den Ball fassen."
       ],
       "sectionAccents": {
@@ -26882,7 +26882,7 @@ const B1_WORDS = [
       "translation": "Continue",
       "explanation": [
         "Main idea: fortfahren is a separable verb meaning to continue work or a conversation that has already begun. Forms: fährt fort, fuhr fort, hat fortgefahren.",
-        "Constructions: mit etwas fortfahren (to continue with something), fortfahren, etwas zu tun (to go on doing something). More formal than weitermachen, often heard in speeches and official language. Rarely it also means to leave, and then it takes the auxiliary sein."
+        "Constructions: mit etwas fortfahren (to continue with something), fortfahren, etwas zu tun (to go on doing something). More formal than weitermachen, often heard in speeches and official language. It also means to leave, and then it takes the auxiliary sein."
       ],
       "examples": [
         {
@@ -40970,7 +40970,7 @@ const B1_WORDS = [
       "translation": "To connect",
       "explanation": [
         "Main idea: kuppeln means to connect or couple technically, for example railway carriages or a trailer. In driving it means to press the clutch (die Kupplung) when changing gear. Forms: kuppelt, kuppelte, hat gekuppelt.",
-        "In the technical sense it is often used with a prefix: ankuppeln (to hitch up), abkuppeln (to uncouple), zusammenkuppeln (to couple together). The verb is derived from die Kupplung (clutch, coupling).",
+        "In the technical sense it is often used with a prefix: ankuppeln (to hitch up), abkuppeln (to uncouple), zusammenkuppeln (to couple together). The noun die Kupplung is derived from it (clutch, coupling).",
         "In a figurative sense, verkuppeln means to matchmake (to push two people into a relationship), and it often carries a disapproving tone."
       ],
       "examples": [
@@ -56460,7 +56460,7 @@ const B1_WORDS = [
       "explanation": [
         "Main idea: der Schimmel is a masculine noun meaning mould on food, walls or other damp surfaces. The same word also means a white (grey) horse.",
         "The plural is die Schimmel (for both meanings). For mould the plural is rarely used, because it is usually a mass noun: Schimmel an der Wand.",
-        "The verb schimmeln, to go mouldy, is formed from it: Das Brot schimmelt. Also the participle: Das Brot ist verschimmelt (the bread has gone mouldy)."
+        "The verb schimmeln, to go mouldy, is formed from it: Das Brot schimmelt. Also from verschimmeln (to go mouldy): Das Brot ist verschimmelt (the bread has gone mouldy)."
       ],
       "examples": [
         {
@@ -56493,7 +56493,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "For the horse sense, der Schimmel is usually said with the colour: ein weißer Schimmel.",
+        "For the horse sense, der Schimmel already means a white horse, so ein weißer Schimmel is a pleonasm.",
         "For bread and cheese say: Das Brot schimmelt or ist verschimmelt."
       ],
       "important": [
@@ -57682,7 +57682,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Der Schmuck is not der Schmutz (dirt): Schmuck – decoration, Schmutz – dirt.",
-        "Figuratively, sich schmücken can also mean to take credit for someone else's achievement."
+        "The expression sich mit fremden Federn schmücken means to take credit for someone else's achievement."
       ],
       "sectionAccents": {
         "explanation": {
@@ -57795,8 +57795,7 @@ const B1_WORDS = [
           },
           {
             "blue": [
-              "schmücken",
-              "sich schmücken"
+              "schmücken"
             ]
           }
         ]
@@ -63923,7 +63922,7 @@ const B1_WORDS = [
       ],
       "tip": [
         "In everyday German people simply say Strom rather than Elektrizität: Hast du Strom? – Is there any power?",
-        "When you mean a great river, der Strom is a more poetic word than der Fluss."
+        "When you mean a great river, der Strom denotes a larger river than der Fluss."
       ],
       "important": [
         "Der Strom (electric current, great river) is not the same as die Strömung (a current in water or air).",
@@ -64175,7 +64174,7 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "Fall down",
       "explanation": [
-        "Main idea: stürzen means to fall or rush in a sudden, forceful movement: to fall from a height, to dash somewhere in a hurry, or (of prices or governments) to plunge or collapse. Forms: stürzt, stürzte, ist gestürzt.",
+        "Main idea: stürzen means to fall or rush in a sudden, forceful movement: to fall from a height, to dash somewhere in a hurry, or (of prices) to plunge, or (of governments) to fall. Forms: stürzt, stürzte, ist gestürzt.",
         "When someone falls or rushes of their own accord, the auxiliary verb is sein: Er ist gestürzt. When someone brings somebody down (a government, a leader), the verb is transitive and takes haben: Das Volk hat den König gestürzt. The reflexive sich stürzen auf/in means to throw oneself at something or into something: Er stürzt sich in die Arbeit. In + accusative shows direction (where to?), von + dative shows where from."
       ],
       "examples": [

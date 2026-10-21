@@ -5017,7 +5017,7 @@ const A1_WORDS = [
       "translation": "hogy",
       "explanation": [
         "Lényeg: a dass alárendelő kötőszó, jelentése 'hogy'. Mellékmondatot vezet be olyan igék után, mint a sagen, wissen, denken, hoffen, és olyan kifejezések után, mint az Es ist schön …: Ich weiß, dass du müde bist.",
-        "A dass előtt mindig vessző áll. A mellékmondatban a ragozott ige a mondat végére kerül: …, dass er keine Zeit hat.",
+        "A mondat közepén a dass előtt mindig vessző áll. A mellékmondatban a ragozott ige a mondat végére kerül: …, dass er keine Zeit hat.",
         "A dass két s-sel írandó. A semlegesnemű névelő és mutató névmás, a das, egy másik szó."
       ],
       "examples": [
@@ -6864,7 +6864,7 @@ const A1_WORDS = [
       "translation": "valami • egy kicsit",
       "explanation": [
         "Lényeg: az etwas határozatlan névmás, jelentése 'valami': Ich möchte etwas trinken, Hast du etwas Neues? Alakja nem változik, egyes számú semlegesneműként viselkedik.",
-        "Az etwas után álló melléknevet főnévként, nagy kezdőbetűvel és -es végződéssel írjuk: etwas Neues (valami új), etwas Gutes, etwas anderes.",
+        "Az etwas után álló melléknevet főnévként, nagy kezdőbetűvel és -es végződéssel írjuk: etwas Neues (valami új), etwas Gutes (de az etwas anderes általában kisbetűvel).",
         "Az etwas jelentése lehet 'egy kevés, egy kicsit' is: etwas Zeit (egy kevés idő), etwas müde (kicsit fáradt)."
       ],
       "examples": [
@@ -16818,7 +16818,7 @@ const A1_WORDS = [
       "translation": "liter",
       "explanation": [
         "Lényeg: a der Liter űrmértékegység — liter. Folyadékoknál használjuk: Milch, Wasser, Benzin (tej, víz, benzin).",
-        "Többes szám: die Liter (végződés nélkül). Szám után a mértékegység nem változik, és a következő főnév elöljárószó nélkül követi — ahogy a magyarban is: zwei Liter Milch (két liter tej), drei Liter Wasser. A der Liter hímnemű; a köznyelvben néha das Liter is előfordul.",
+        "Többes szám: die Liter (végződés nélkül). Szám után a mértékegység nem változik, és a következő főnév elöljárószó nélkül követi — ahogy a magyarban is: zwei Liter Milch (két liter tej), drei Liter Wasser. A der Liter hímnemű; néha das Liter is előfordul.",
         "Rövidítése l: 1 l = 1000 Milliliter (ml, milliliter)."
       ],
       "examples": [
@@ -18709,7 +18709,7 @@ const A1_WORDS = [
         {
           "word": "sollen",
           "meaning": "kellene (utasítás, elvárás)",
-          "example": "Du sollst mehr schlafen. – Többet kellene aludnod."
+          "example": "Du sollst mehr schlafen. – Többet kell aludnod."
         },
         {
           "word": "dürfen",
@@ -22760,7 +22760,7 @@ const A1_WORDS = [
       "explanation": [
         "Lényeg: a sein a német nyelv alapvető „lenni” igéje. Rendhagyó: ich bin, du bist, er/sie/es ist, wir sind, ihr seid, sie/Sie sind; Präteritum: war, Perfekt: ist gewesen.",
         "Arra használjuk, hogy megmondjuk, ki valaki (Er ist Arzt), milyen valaki vagy valami (Das Haus ist groß), hol van valaki (Wir sind hier), és hány éves (Ich bin 20 Jahre alt). A németben a sein soha nem maradhat el — a magyarral ellentétben, ahol harmadik személyben a van elmarad (Ő orvos. A ház nagy.). Nem mondhatjuk: „Ich Lehrer”.",
-        "A sein a Perfekt segédigéje is a helyváltoztatást és állapotváltozást kifejező igéknél (ich bin gefahren, ich bin gewesen)."
+        "A sein a Perfekt segédigéje is a helyváltoztatást és állapotváltozást kifejező igéknél (ich bin gefahren), valamint a sein és a bleiben igénél (ich bin gewesen)."
       ],
       "examples": [
         {
@@ -25922,7 +25922,7 @@ const A1_WORDS = [
           "lv": "Most jövünk az orvostól."
         },
         {
-          "de": "Der Zug vom Gleis drei fährt gleich ab.",
+          "de": "Der Zug vom dritten Gleis fährt gleich ab.",
           "lv": "A hármas vágányról mindjárt indul a vonat."
         },
         {
@@ -30407,7 +30407,7 @@ const A1_WORDS = [
       "translation": "idő",
       "explanation": [
         "A lényeg: die Zeit nőnemű főnév, többes száma die Zeiten. Az időt mint pillanatot, időszakot vagy lehetőséget jelenti: Ich habe keine Zeit. A Zeit haben jelentése: ráér, van ideje; a Zeit brauchen: időre van szüksége.",
-        "Gyakori kifejezések: zur Zeit / zurzeit (jelenleg), die Zeit vergeht (telik az idő), Es ist Zeit (itt az ideje). Többes számban a die Zeiten korszakokat vagy időszakokat jelent: in schweren Zeiten.",
+        "Gyakori kifejezések: zurzeit (jelenleg), die Zeit vergeht (telik az idő), Es ist Zeit (itt az ideje). Többes számban a die Zeiten korszakokat vagy időszakokat jelent: in schweren Zeiten.",
         "Az időjárás németül das Wetter, nem die Zeit – bár magyarul mindkettőre mondhatjuk, hogy „idő”."
       ],
       "examples": [

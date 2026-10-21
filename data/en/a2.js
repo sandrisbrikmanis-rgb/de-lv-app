@@ -2769,7 +2769,7 @@ const A2_WORDS = [
       "translation": "Kindle",
       "explanation": [
         "Main idea: anheizen means to light a fire or to start heating (a stove, a fireplace, a boiler). It is a separable verb: ich heize den Ofen an.",
-        "Forms: heizt an, heizte an, hat angeheizt. The perfect tense uses haben, and the prefix an- separates in a main clause.",
+        "Forms: heizt an, heizte an, hat angeheizt. The perfect tense uses haben; in the present and simple past the prefix an- separates in a main clause.",
         "Figuratively, anheizen means to stir up or intensify: die Stimmung anheizen (to heat up the atmosphere), die Diskussion anheizen (to fuel the discussion)."
       ],
       "examples": [
@@ -22025,7 +22025,7 @@ const A2_WORDS = [
       "explanation": [
         "Main idea: hängen is really two different verbs. The intransitive hängen means to hang (be suspended somewhere, for example a picture on a wall), while the transitive hängen means to hang something up (someone puts something in a hanging position).",
         "The intransitive verb is strong: hängen, hing, hat gehangen (in the south often ist gehangen). It answers Wo? and takes the dative: Das Bild hängt an der Wand. The transitive verb is weak: hängen, hängte, hat gehängt. It answers Wohin? and takes the accusative: Ich hänge das Bild an die Wand.",
-        "As with the pair liegen / legen, it is the forms and the case, not the infinitive, that tell you whether the verb describes a position or an action."
+        "Unlike the pair liegen / legen, here it is the forms and the case, not the infinitive, that tell you whether the verb describes a position or an action."
       ],
       "examples": [
         {
@@ -23054,7 +23054,7 @@ const A2_WORDS = [
         {
           "word": "dadurch, dass",
           "meaning": "by doing so, through the fact that",
-          "example": "Er gewinnt, dadurch dass er übt. – He wins by practising."
+          "example": "Er gewinnt dadurch, dass er übt. – He wins by practising."
         }
       ],
       "tip": [
@@ -23378,7 +23378,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Do not confuse je with jede (each, every) or with ja (yes).",
-        "After je with a number the noun often stays in the singular: je Stück, je Person."
+        "After je without a number the noun is in the singular: je Stück, je Person."
       ],
       "sectionAccents": {
         "explanation": {
@@ -30873,7 +30873,7 @@ const A2_WORDS = [
         "Hier ist viel los means there is a lot going on here."
       ],
       "important": [
-        "Los is used mainly with sein; before a noun the form is lose: ein loser Knopf.",
+        "Los is used mainly with sein; before a noun the related word lose is used: ein loser Knopf.",
         "Do not confuse it with das Los (lot, fate) or with locker (loose, slack)."
       ],
       "sectionAccents": {
@@ -45431,7 +45431,7 @@ const A2_WORDS = [
       "translation": "Change • Exchange",
       "explanation": [
         "Main idea: wechseln is a verb: wechselt, wechselte, hat gewechselt. It means to change or exchange one thing for another, for example money, school, job or clothes.",
-        "It is usually used with the accusative and the auxiliary haben: Er hat den Job gewechselt. If the emphasis is on a move to a different place or state, sein can also be used: Die Ampel ist auf Grün gewechselt.",
+        "It is usually used with the accusative and the auxiliary haben: Er hat den Job gewechselt. If the emphasis is on a move to a different place, sein can also be used: Er ist zu einem anderen Verein gewechselt.",
         "At a bank, Geld wechseln means to exchange money into another currency or into smaller denominations. The noun is der Wechsel (change)."
       ],
       "examples": [

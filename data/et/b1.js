@@ -2278,7 +2278,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Eesliide ab- eraldub lauses: Ich nehme die Brille ab.",
-        "Tähenduse määrab sihitis: Brille – eemaldama, Telefon – toru tõstma, Gewicht – kaalus alla võtma."
+        "Tähenduse määrab sihitis: Brille – eemaldama, Telefon – toru tõstma, Kilo – kaalus alla võtma."
       ],
       "sectionAccents": {
         "explanation": {
@@ -15828,7 +15828,7 @@ const B1_WORDS = [
       "translation": "kolmas • kolmekesi",
       "explanation": [
         "Põhimõte: dritt on järgarvsõna „kolmas“. Omadussõnana on sellel tavaliselt lõpp: der dritte Tag, die dritte Tür, das dritte Mal. Ilma lõputa esineb see väljendis zu dritt – kolmekesi.",
-        "Numbritega kirjutades: 3. = dritt-. Kuupäevades der dritte Mai, am dritten Mai. Erinevalt põhiarvsõnast drei (kolm) väljendab dritt alati järjekorda, mitte hulka."
+        "Numbritega kirjutades: 3. = dritt-. Kuupäevades der dritte Mai, am dritten Mai. Erinevalt põhiarvsõnast drei (kolm) väljendab dritt (välja arvatud väljendis zu dritt) järjekorda, mitte hulka."
       ],
       "examples": [
         {
@@ -18740,7 +18740,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Kui tahad lihtsalt öelda „ühevärviline“, kasuta einfarbig; rõivaste puhul öeldakse ka uni või nimetatakse lihtsalt värv.",
+        "Kui tahad lihtsalt öelda „ühevärviline“, kasuta einfarbig; rõivaste puhul nimetatakse lihtsalt värv; sünonüüm on uni.",
         "Võrdle sõnadega zweifarbig (kahevärviline) ja dreifarbig (kolmevärviline)."
       ],
       "important": [
@@ -18926,7 +18926,7 @@ const B1_WORDS = [
         "Harjuta koos tegusõnaga: Einfluss nehmen, Einfluss ausüben."
       ],
       "important": [
-        "Einfluss nõuab eessõna auf + akusatiiv.",
+        "Einfluss millelegi nõuab eessõna auf + akusatiiv.",
         "Der Einfluss on meessoost; mitmuses täishäälikumuutusega (umlaudiga): Einflüsse."
       ],
       "sectionAccents": {
@@ -23744,7 +23744,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Kui miski tekib ilma inimese tegevuseta, ütle entstehen; kui inimene selle loob – herstellen või schaffen.",
+        "Kui miski tekib ise (tegija ei ole alus), ütle entstehen; kui inimene selle loob – herstellen või schaffen.",
         "Täisminevik: es ist entstanden."
       ],
       "important": [
@@ -25326,7 +25326,7 @@ const B1_WORDS = [
         "Mahutavuse kohta: Der Saal fasst … Personen."
       ],
       "important": [
-        "Tähendus oleneb sihitisest: Arm – haarama, Gedanke – hoomama, Saal – mahutama.",
+        "Tähendus oleneb sihitisest: Arm – haarama, es (Ich kann es nicht fassen) – hoomama, Saal – mahutama.",
         "Fassen tähenduses „haarama“ nõuab akusatiivi: den Ball fassen."
       ],
       "sectionAccents": {
@@ -25486,7 +25486,7 @@ const B1_WORDS = [
       "translation": "laisk",
       "explanation": [
         "Põhimõte: faul on kahe tähendusega omadussõna: laisk (inimene, kel pole tahtmist töötada) ja mäda (toit, munad, puit). Ülekantud tähenduses faule Ausrede – kehv, usutamatu vabandus.",
-        "Sõna käändub: ein fauler Schüler, ein fauler Apfel. Võrdlusastmed: fauler, faulst. Nimisõna: die Faulheit (laiskus); tegusõna: faulenzen – laisklema, logelema."
+        "Sõna käändub: ein fauler Schüler, ein fauler Apfel. Võrdlusastmed: fauler, am faulsten. Nimisõna: die Faulheit (laiskus); tegusõna: faulenzen – laisklema, logelema."
       ],
       "examples": [
         {
@@ -26993,7 +26993,7 @@ const B1_WORDS = [
       "translation": "jätkama",
       "explanation": [
         "Põhimõte: fortfahren on eraldatava eesliitega tegusõna, mis tähendab juba alustatud tööd või vestlust jätkama. Vormid: fährt fort, fuhr fort, hat fortgefahren.",
-        "Konstruktsioonid: mit etwas fortfahren (millegagi jätkama), fortfahren, etwas zu tun (millegi tegemist jätkama). See on raamatulikum kui weitermachen ja seda kuuleb sageli kõnedes ning ametlikus keeles. Harva tähendab see ka ära sõitma ja siis kasutatakse abitegusõna sein."
+        "Konstruktsioonid: mit etwas fortfahren (millegagi jätkama), fortfahren, etwas zu tun (millegi tegemist jätkama). See on raamatulikum kui weitermachen ja seda kuuleb sageli kõnedes ning ametlikus keeles. See tähendab ka ära sõitma ja siis kasutatakse abitegusõna sein."
       ],
       "examples": [
         {
@@ -40852,7 +40852,7 @@ const B1_WORDS = [
       "explanation": [
         "Põhimõte: kündigen tähendab töölepingut, lepingut või üürilepingut üles ütlema — ametlikult teatama, et suhe lõpeb. Vormid: kündigt, kündigte, hat gekündigt (abitegusõna haben).",
         "Akusatiiviga märgitakse asja: den Vertrag kündigen, die Wohnung kündigen, den Job kündigen. Datiiviga märgitakse inimest, kellega leping üles öeldakse: Der Chef kündigt dem Mitarbeiter (ülemus ütleb töötajaga lepingu üles). Ilma sihitiseta tähendab ich habe gekündigt, et ütlesin ise töö üles.",
-        "Sisuliselt on kündigen ametlik samm, tavaliselt koos etteteatamisajaga (Kündigungsfrist), erandina ka etteteatamata (fristlos); töölt vabastamist tööandja poolt nimetatakse entlassen."
+        "Sisuliselt on kündigen ametlik samm, tavaliselt koos etteteatamisajaga (Kündigungsfrist), erandina ka etteteatamata (fristlos); töölt vabastamist tööandja poolt nimetatakse ka entlassen."
       ],
       "examples": [
         {
@@ -56613,7 +56613,7 @@ const B1_WORDS = [
       "explanation": [
         "Põhimõte: der Schimmel on meessoost nimisõna, mis tähendab hallitust toidul, seintel või muudel niisketel pindadel. Sama sõna teine tähendus on valge (kimmel) hobune.",
         "Mitmus on die Schimmel (mõlemas tähenduses). Hallituse kohta kasutatakse mitmust harva, sest see on tavaliselt ainenimetus: Schimmel an der Wand.",
-        "Sellest on moodustatud tegusõna schimmeln – hallitama: Das Brot schimmelt. Ka kesksõna: Das Brot ist verschimmelt (leib on hallitanud)."
+        "Sellest on moodustatud tegusõna schimmeln – hallitama: Das Brot schimmelt. Ka tegusõnast verschimmeln (hallitama minema): Das Brot ist verschimmelt (leib on hallitanud)."
       ],
       "examples": [
         {
@@ -56646,7 +56646,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Hobuse tähenduses kasutatakse der Schimmel sageli koos värviga: ein weißer Schimmel.",
+        "Hobuse tähenduses tähendab der Schimmel juba valget hobust, seega ein weißer Schimmel on pleonasm.",
         "Leiva ja juustu kohta ütle: Das Brot schimmelt või ist verschimmelt."
       ],
       "important": [
@@ -57830,7 +57830,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Der Schmuck ei ole der Schmutz (mustus): Schmuck – ehe, kaunistus, Schmutz – mustus.",
-        "sich schmücken võib ülekantud tähenduses tähendada ka võõraste teenetega uhkeldamist."
+        "Väljend sich mit fremden Federn schmücken tähendab võõraste teenetega uhkeldamist."
       ],
       "sectionAccents": {
         "explanation": {
@@ -57942,8 +57942,7 @@ const B1_WORDS = [
           },
           {
             "blue": [
-              "schmücken",
-              "sich schmücken"
+              "schmücken"
             ]
           }
         ]
@@ -64057,7 +64056,7 @@ const B1_WORDS = [
       ],
       "tip": [
         "Igapäevaselt ütlevad sakslased lihtsalt Strom, mitte Elektrizität: Hast du Strom? – Kas sul on elekter?",
-        "Kui jutt on suurest jõest, on der Strom poeetilisem sõna kui der Fluss."
+        "Kui jutt on suurest jõest, tähistab der Strom suuremat jõge kui der Fluss."
       ],
       "important": [
         "Der Strom (elektrivool, suur jõgi) ei ole sama mis die Strömung (hoovus vees või õhus).",
@@ -64309,7 +64308,7 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "kukkuma",
       "explanation": [
-        "Põhimõte: stürzen tähendab järsu liikumisega kukkuma või tormama: kõrgelt alla kukkuma, kiiresti sisse tormama või (hindade, valitsuse puhul) järsult langema. Vormid: stürzt, stürzte, ist gestürzt.",
+        "Põhimõte: stürzen tähendab järsu liikumisega kukkuma või tormama: kõrgelt alla kukkuma, kiiresti sisse tormama või (hindade puhul) järsult langema, (valitsuse puhul) kukkuma. Vormid: stürzt, stürzte, ist gestürzt.",
         "Kui keegi ise kukub või tormab, kasutatakse abitegusõna sein: Er ist gestürzt. Kui keegi kedagi kukutab (valitsust, juhti), on tegusõna sihiline ja kasutatakse haben: Das Volk hat den König gestürzt. Enesekohaselt tähendab sich stürzen auf/in millegi kallale tormama või millessegi sukelduma: Er stürzt sich in die Arbeit. In + akusatiiv näitab suunda (kuhu?), von + datiiv – kust."
       ],
       "examples": [

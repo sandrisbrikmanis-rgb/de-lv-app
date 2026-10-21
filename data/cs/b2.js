@@ -1778,7 +1778,7 @@ const B2_WORDS = [
         "Ve významu namítat se obvykle užívá záporný tvar: nichts auszusetzen haben."
       ],
       "important": [
-        "Ve významu vystavit následuje po aussetzen dativ (der Gefahr, dem Risiko), nikoli akuzativ.",
+        "Ve významu vystavit následuje po aussetzen dativ (der Gefahr, dem Risiko), kdežto vystavovaná osoba či věc je v akuzativu (jemanden).",
         "Nepleť si ausgesetzt sein (být vystaven) s ausgestellt (vystavený nebo vydaný)."
       ],
       "sectionAccents": {
@@ -6087,7 +6087,7 @@ const B2_WORDS = [
       "translation": "Najmout • Sjednat",
       "explanation": [
         "Hlavní myšlenka: dingen je řídké, zastaralé sloveso, které znamená najmout, sjednat si (člověka za odměnu k určité práci). Dnes je slyšet hlavně ve výrazu ein gedungener Mörder (najatý vrah) a v historických textech.",
-        "Tvary: dingt, dang, hat gedungen (existuje i pravidelný tvar dingte, gedingt). Typicky se najímají Söldner, Mörder, Führer. V běžné řeči se říká anheuern nebo engagieren.",
+        "Tvary: dingt, dingte (řidčeji dang), hat gedungen (řidčeji gedingt). Typicky se najímají Söldner, Mörder, Führer. V běžné řeči se říká anheuern nebo engagieren.",
         "Po dingen následuje akuzativ: jemanden dingen."
       ],
       "examples": [
@@ -6127,7 +6127,7 @@ const B2_WORDS = [
       ],
       "important": [
         "Dingen je literární nebo historické slovo; v běžné řeči by znělo zvláštně.",
-        "Tvary kolísají (dang/gedungen a dingte/gedingt); základní je silný tvar."
+        "Tvary kolísají (dang/gedungen a dingte/gedingt); v préteritu obvykle dingte, v příčestí gedungen."
       ],
       "sectionAccents": {
         "explanation": {

@@ -5024,7 +5024,7 @@ const A1_WORDS = [
       "translation": "da",
       "explanation": [
         "Glavna misao: dass je zavisni veznik „da”, koji uvodi izričnu rečenicu nakon glagola kao što su sagen, wissen, denken, hoffen i izraza kao Es ist schön …: Ich weiß, dass du müde bist.",
-        "Ispred dass uvijek stoji zarez. U zavisnoj rečenici promjenjivi glagolski oblik stoji na kraju rečenice: …, dass er keine Zeit hat.",
+        "Ispred dass u sredini rečenice uvijek stoji zarez. U zavisnoj rečenici promjenjivi glagolski oblik stoji na kraju rečenice: …, dass er keine Zeit hat.",
         "Dass se piše s dva s. Das, član srednjeg roda i pokazna zamjenica, druga je riječ."
       ],
       "examples": [
@@ -5067,7 +5067,7 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "S dass stavi zarez, a glagol stavi na kraj.",
+        "Ispred dass stavi zarez, a glagol stavi na kraj.",
         "Zavisna rečenica s dass može doći i na prvo mjesto: Dass du kommst, freut mich."
       ],
       "important": [
@@ -6881,7 +6881,7 @@ const A1_WORDS = [
       "translation": "nešto • malo",
       "explanation": [
         "Glavna ideja: etwas je neodređena zamjenica, „nešto”: Ich möchte etwas trinken, Hast du etwas Neues? Ne mijenja se i ponaša se kao srednji rod jednine.",
-        "Iza etwas pridjev se piše kao imenica, velikim početnim slovom i s nastavkom -es: etwas Neues (nešto novo), etwas Gutes, etwas anderes.",
+        "Iza etwas pridjev se piše kao imenica, velikim početnim slovom i s nastavkom -es: etwas Neues (nešto novo), etwas Gutes (ali etwas anderes obično malim slovom).",
         "Etwas može značiti i „malo”: etwas Zeit (malo vremena), etwas müde (malo umoran)."
       ],
       "examples": [
@@ -18733,7 +18733,7 @@ const A1_WORDS = [
         {
           "word": "sollen",
           "meaning": "trebati (uputa)",
-          "example": "Du sollst mehr schlafen. – Trebao bi više spavati."
+          "example": "Du sollst mehr schlafen. – Trebaš više spavati."
         },
         {
           "word": "dürfen",
@@ -22790,7 +22790,7 @@ const A1_WORDS = [
       "explanation": [
         "Glavna ideja: sein je osnovni njemački glagol \"biti\". Nepravilan je: ich bin, du bist, er/sie/es ist, wir sind, ihr seid, sie/Sie sind; preterit war, perfekt ist gewesen.",
         "Koristi se da se kaže tko je netko (Er ist Arzt), kakav je netko ili nešto (Das Haus ist groß), gdje se netko nalazi (Wir sind hier) i koliko netko ima godina (Ich bin 20 Jahre alt). U njemačkom se sein nikad ne izostavlja: ne može se reći \"Ich Lehrer\".",
-        "Sein je i pomoćni glagol u perfektu s glagolima kretanja i promjene stanja (ich bin gefahren, ich bin gewesen)."
+        "Sein je i pomoćni glagol u perfektu s glagolima kretanja i promjene stanja (ich bin gefahren), kao i sa sein i bleiben (ich bin gewesen)."
       ],
       "examples": [
         {
@@ -25954,7 +25954,7 @@ const A1_WORDS = [
           "lv": "Upravo dolazimo od liječnika."
         },
         {
-          "de": "Der Zug vom Gleis drei fährt gleich ab.",
+          "de": "Der Zug vom dritten Gleis fährt gleich ab.",
           "lv": "Vlak s trećeg perona odmah polazi."
         },
         {

@@ -5026,7 +5026,7 @@ const A1_WORDS = [
       "translation": "að",
       "explanation": [
         "Meginhugmynd: dass er aukatenging, „að“, sem leiðir inn skýringarsetningu á eftir sögnum eins og sagen, wissen, denken, hoffen og orðasamböndum eins og Es ist schön …: Ich weiß, dass du müde bist.",
-        "Á undan dass er alltaf komma. Í aukasetningunni stendur persónubeygða sögnin aftast: …, dass er keine Zeit hat. Þar er munur á íslensku, þar sem sögnin stendur framarlega (að hann hafi ekki tíma).",
+        "Á undan dass inni í setningu er alltaf komma. Í aukasetningunni stendur persónubeygða sögnin aftast: …, dass er keine Zeit hat. Þar er munur á íslensku, þar sem sögnin stendur framarlega (að hann hafi ekki tíma).",
         "Dass er skrifað með tveimur s. Hvorugkynsgreinirinn og ábendingarfornafnið das er annað orð."
       ],
       "examples": [
@@ -16842,7 +16842,7 @@ const A1_WORDS = [
       "translation": "lítri",
       "explanation": [
         "Meginhugmynd: der Liter er rúmmálseining — lítri. Notað um vökva: Milch, Wasser, Benzin.",
-        "Fleirtala: die Liter (án endingar). Á eftir töluorði breytist mælieiningin ekki og nafnorðið sem fylgir kemur beint á eftir, án forsetningar: zwei Liter Milch (tveir lítrar af mjólk), drei Liter Wasser. Der Liter er karlkyns; í talmáli heyrist líka das Liter.",
+        "Fleirtala: die Liter (án endingar). Á eftir töluorði breytist mælieiningin ekki og nafnorðið sem fylgir kemur beint á eftir, án forsetningar: zwei Liter Milch (tveir lítrar af mjólk), drei Liter Wasser. Der Liter er karlkyns; stundum heyrist líka das Liter.",
         "Skammstöfun l: 1 l = 1000 Milliliter (ml, millilítrar)."
       ],
       "examples": [
@@ -18733,7 +18733,7 @@ const A1_WORDS = [
         {
           "word": "sollen",
           "meaning": "eiga að (fyrirmæli)",
-          "example": "Du sollst mehr schlafen. – Þú ættir að sofa meira."
+          "example": "Du sollst mehr schlafen. – Þú átt að sofa meira."
         },
         {
           "word": "dürfen",
@@ -22789,7 +22789,7 @@ const A1_WORDS = [
       "explanation": [
         "Aðalatriði: sein er grunnsögnin „vera“ í þýsku. Hún er óregluleg: ich bin, du bist, er/sie/es ist, wir sind, ihr seid, sie/Sie sind; þátíð war, núliðin tíð ist gewesen.",
         "Hún er notuð til að segja hver einhver er (Er ist Arzt), hvernig eitthvað er (Das Haus ist groß), hvar einhver er (Wir sind hier) og hve gamall einhver er (Ich bin 20 Jahre alt). Í þýsku er sein aldrei sleppt: ekki er hægt að segja \"Ich Lehrer\".",
-        "Sein er líka hjálparsögn í núliðinni tíð með hreyfingarsögnum og sögnum um ástandsbreytingu (ich bin gefahren, ich bin gewesen) — líkt og íslenska „ég er farinn“."
+        "Sein er líka hjálparsögn í núliðinni tíð með hreyfingarsögnum og sögnum um ástandsbreytingu (ich bin gefahren), og einnig með sein og bleiben (ich bin gewesen) — líkt og íslenska „ég er farinn“."
       ],
       "examples": [
         {
@@ -25953,7 +25953,7 @@ const A1_WORDS = [
           "lv": "Við erum að koma frá lækninum."
         },
         {
-          "de": "Der Zug vom Gleis drei fährt gleich ab.",
+          "de": "Der Zug vom dritten Gleis fährt gleich ab.",
           "lv": "Lestin frá spori þrjú fer rétt bráðum."
         },
         {
@@ -30442,7 +30442,7 @@ const A1_WORDS = [
       "translation": "tími",
       "explanation": [
         "Aðalatriðið: die Zeit er kvenkynsnafnorð, fleirtala die Zeiten. Það merkir tíma sem augnablik, tímabil eða tækifæri: Ich habe keine Zeit. Zeit haben merkir að hafa tíma (vera laus), Zeit brauchen – að þurfa tíma.",
-        "Algeng orðasambönd: zur Zeit / zurzeit (sem stendur), die Zeit vergeht (tíminn líður), Es ist Zeit (það er kominn tími). Í fleirtölu merkir die Zeiten tímabil eða tíma í sögunni: in schweren Zeiten.",
+        "Algeng orðasambönd: zurzeit (sem stendur), die Zeit vergeht (tíminn líður), Es ist Zeit (það er kominn tími). Í fleirtölu merkir die Zeiten tímabil eða tíma í sögunni: in schweren Zeiten.",
         "Veðrið heitir das Wetter – eins og á íslensku eru „tími“ og „veður“ ólík orð."
       ],
       "examples": [

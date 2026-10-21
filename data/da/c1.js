@@ -960,7 +960,7 @@ const C1_WORDS = [
         "En lignende betydning har die Allgemeinheit (almenheden, alle mennesker samlet)."
       ],
       "important": [
-        "Flertal bruges normalt ikke: man siger ikke die Öffentlichkeiten."
+        "Flertal bruges normalt ikke: die Öffentlichkeiten forekommer sjældent."
       ],
       "sectionAccents": {
         "explanation": {
@@ -3376,7 +3376,7 @@ const C1_WORDS = [
       "comparison": [
         {
           "word": "festgelegt",
-          "meaning": "fastlagt (ved aftale)",
+          "meaning": "fastlagt",
           "example": "Der Plan ist festgelegt. – Planen er fastlagt."
         },
         {

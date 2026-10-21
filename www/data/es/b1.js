@@ -2277,7 +2277,7 @@ const B1_WORDS = [
       ],
       "important": [
         "El prefijo ab- se separa en la oración: Ich nehme die Brille ab.",
-        "El complemento determina el significado: Brille – quitarse, Telefon – descolgar, Gewicht – adelgazar."
+        "El complemento determina el significado: Brille – quitarse, Telefon – descolgar, Kilo – adelgazar."
       ],
       "sectionAccents": {
         "explanation": {
@@ -18729,7 +18729,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Si solo quieres decir «de un solo color», usa einfarbig; si quieres nombrar el color, di uni o simplemente el nombre del color.",
+        "Si solo quieres decir «de un solo color», usa einfarbig; si quieres nombrar el color, di simplemente el nombre del color; un sinónimo es uni.",
         "Compáralo con zweifarbig (bicolor) y dreifarbig (tricolor)."
       ],
       "important": [
@@ -18917,7 +18917,7 @@ const B1_WORDS = [
         "Practícalo con verbos: Einfluss nehmen, Einfluss ausüben."
       ],
       "important": [
-        "Einfluss va con la preposición auf + acusativo.",
+        "Einfluss sobre algo va con la preposición auf + acusativo.",
         "Der Einfluss es masculino (en español, influencia es femenino); el plural lleva Umlaut: Einflüsse."
       ],
       "sectionAccents": {
@@ -23726,7 +23726,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Si algo surge sin intervención humana, di entstehen; si lo crea una persona, herstellen o schaffen.",
+        "Si algo surge por sí mismo (el sujeto no es quien lo hace), di entstehen; si lo crea una persona, herstellen o schaffen.",
         "Perfekt: es ist entstanden."
       ],
       "important": [
@@ -25311,7 +25311,7 @@ const B1_WORDS = [
         "Para la capacidad: Der Saal fasst … Personen."
       ],
       "important": [
-        "El significado depende del complemento: Arm – agarrar, Gedanke – comprender, Saal – tener capacidad.",
+        "El significado depende del complemento: Arm – agarrar, es (Ich kann es nicht fassen) – comprender, Saal – tener capacidad.",
         "Fassen en el sentido de «agarrar» rige acusativo: den Ball fassen."
       ],
       "sectionAccents": {
@@ -26974,7 +26974,7 @@ const B1_WORDS = [
       "translation": "continuar",
       "explanation": [
         "Idea principal: fortfahren es un verbo con prefijo separable que significa continuar un trabajo o una conversación ya empezados. Formas: fährt fort, fuhr fort, hat fortgefahren.",
-        "Construcciones: mit etwas fortfahren (continuar con algo), fortfahren, etwas zu tun (seguir haciendo algo). Es más culto que weitermachen y se oye a menudo en discursos y en el lenguaje formal. Rara vez significa también marcharse (en un vehículo), y entonces el verbo auxiliar es sein."
+        "Construcciones: mit etwas fortfahren (continuar con algo), fortfahren, etwas zu tun (seguir haciendo algo). Es más culto que weitermachen y se oye a menudo en discursos y en el lenguaje formal. También significa marcharse (en un vehículo), y entonces el verbo auxiliar es sein."
       ],
       "examples": [
         {
@@ -56566,7 +56566,7 @@ const B1_WORDS = [
       "explanation": [
         "Idea principal: der Schimmel es un sustantivo masculino que significa el moho que aparece en los alimentos, en las paredes o en otras superficies húmedas. La misma palabra tiene un segundo significado: caballo blanco (tordo).",
         "El plural es die Schimmel (en ambos sentidos). Para el moho, el plural se usa poco, porque suele ser un nombre de sustancia: Schimmel an der Wand.",
-        "De ahí viene el verbo schimmeln – enmohecerse: Das Brot schimmelt. También el participio: Das Brot ist verschimmelt (el pan está mohoso)."
+        "De ahí viene el verbo schimmeln – enmohecerse: Das Brot schimmelt. También de verschimmeln (cubrirse de moho): Das Brot ist verschimmelt (el pan está mohoso)."
       ],
       "examples": [
         {
@@ -56599,7 +56599,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "En el sentido de caballo, der Schimmel suele ir acompañado del color: ein weißer Schimmel.",
+        "En el sentido de caballo, der Schimmel ya significa caballo blanco, por eso ein weißer Schimmel es un pleonasmo.",
         "Para el pan y el queso di: Das Brot schimmelt o ist verschimmelt."
       ],
       "important": [
@@ -57787,7 +57787,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Der Schmuck no es der Schmutz (suciedad): Schmuck – adorno, joyas; Schmutz – suciedad.",
-        "sich schmücken, en sentido figurado, puede significar también presumir de méritos ajenos (sich mit fremden Federn schmücken)."
+        "La expresión sich mit fremden Federn schmücken significa presumir de méritos ajenos."
       ],
       "sectionAccents": {
         "explanation": {
@@ -57900,8 +57900,7 @@ const B1_WORDS = [
           },
           {
             "blue": [
-              "schmücken",
-              "sich schmücken"
+              "schmücken"
             ]
           }
         ]
@@ -64017,7 +64016,7 @@ const B1_WORDS = [
       ],
       "tip": [
         "En el día a día los alemanes dicen simplemente Strom, no Elektrizität: Hast du Strom? – ¿Tienes luz?",
-        "Cuando se habla de un río grande, der Strom es una palabra más poética que der Fluss."
+        "Cuando se habla de un río grande, der Strom designa un río más grande que der Fluss."
       ],
       "important": [
         "En español «corriente» sirve para todo, pero en alemán der Strom (corriente eléctrica, río grande) no es lo mismo que die Strömung (corriente del agua o del aire).",
@@ -64268,7 +64267,7 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "caerse • derrocar",
       "explanation": [
-        "Idea principal: stürzen significa caer o lanzarse con un movimiento brusco: caerse desde cierta altura, entrar precipitadamente o (precios, gobiernos) caer en picado. Formas: stürzt, stürzte, ist gestürzt.",
+        "Idea principal: stürzen significa caer o lanzarse con un movimiento brusco: caerse desde cierta altura, entrar precipitadamente o (precios) caer en picado o (gobiernos) caer. Formas: stürzt, stürzte, ist gestürzt.",
         "Cuando alguien se cae o se precipita por sí mismo, se usa el auxiliar sein: Er ist gestürzt. Si alguien derriba a otro (derrocar a un gobierno, a un dirigente), el verbo es transitivo y lleva haben: Das Volk hat den König gestürzt. En forma reflexiva, sich stürzen auf/in significa abalanzarse sobre algo o volcarse en algo: Er stürzt sich in die Arbeit. Con in + acusativo se indica la dirección (¿adónde?); con von + dativo, el origen (¿de dónde?)."
       ],
       "examples": [

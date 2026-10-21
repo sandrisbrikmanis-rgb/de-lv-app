@@ -2764,7 +2764,7 @@ const A2_WORDS = [
       "translation": "At tænde op • At fyre op",
       "explanation": [
         "Hovedpointe: anheizen betyder at tænde op eller begynde at fyre (i en ovn, en pejs, et fyr). Det er et udsagnsord med adskilleligt forled: ich heize den Ofen an.",
-        "Former: heizt an, heizte an, hat angeheizt. I førnutid bruges haben, og forleddet an- skilles fra i sætningen.",
+        "Former: heizt an, heizte an, hat angeheizt. I førnutid bruges haben; i nutid og datid skilles forleddet an- fra i sætningen.",
         "I overført betydning betyder anheizen at piske op eller forstærke: die Stimmung anheizen (piske stemningen op), die Diskussion anheizen (puste til diskussionen)."
       ],
       "examples": [
@@ -22018,7 +22018,7 @@ const A2_WORDS = [
       "explanation": [
         "Hovedidé: hängen er to forskellige udsagnsord. Det intransitive hängen betyder at hænge (noget er hængt op, fx et billede på væggen), mens det transitive hängen betyder at hænge op (nogen hænger noget op).",
         "Intransitivt: hängen, hing, hat gehangen (i Sydtyskland ofte ist gehangen). Spørgsmålet Wo? og dativ: Das Bild hängt an der Wand. Transitivt er det regelmæssigt: hängen, hängte, hat gehängt. Spørgsmålet Wohin? og akkusativ: Ich hänge das Bild an die Wand.",
-        "Ligesom ved parret liegen / legen er det her ikke navnemåden, men bøjningsformerne og kasus, der skiller tilstand fra handling. Dansk kender det samme: billedet hang – jeg hængte det op."
+        "I modsætning til parret liegen / legen er det her ikke navnemåden, men bøjningsformerne og kasus, der skiller tilstand fra handling. Dansk kender det samme: billedet hang – jeg hængte det op."
       ],
       "examples": [
         {
@@ -23046,7 +23046,7 @@ const A2_WORDS = [
         {
           "word": "dadurch, dass",
           "meaning": "derved at, ved at",
-          "example": "Er gewinnt, dadurch dass er übt. – Han vinder ved at træne."
+          "example": "Er gewinnt dadurch, dass er übt. – Han vinder ved at træne."
         }
       ],
       "tip": [
@@ -23369,7 +23369,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Forveksl ikke je med jede (hver) og med ja (ja). Dansk jo som svar hedder på tysk doch.",
-        "Efter je med et tal står navneordet ofte i ental: je Stück, je Person."
+        "Efter je uden talord står navneordet i ental: je Stück, je Person."
       ],
       "sectionAccents": {
         "explanation": {
@@ -25041,7 +25041,7 @@ const A2_WORDS = [
         "En person eller et sted kender man – det udtrykkes med kennen; en kendsgerning ved man – det udtrykkes med wissen."
       ],
       "important": [
-        "Med akkusativ bruges wissen sjældent og mest med stedord: Ich weiß das, Ich weiß es; en person kan man ikke wissen.",
+        "Med akkusativ bruges wissen med stedord eller ord for information (die Antwort, den Weg): Ich weiß das, Ich weiß es; en person kan man ikke wissen.",
         "Om færdigheder bruges können: Ich kann schwimmen, ikke Ich weiß schwimmen."
       ],
       "sectionAccents": {
@@ -30860,7 +30860,7 @@ const A2_WORDS = [
         "Hier ist viel los betyder Her sker der en masse."
       ],
       "important": [
-        "Los bruges mest med sein; foran et navneord står formen lose: ein loser Knopf.",
+        "Los bruges mest med sein; foran et navneord bruges det beslægtede ord lose: ein loser Knopf.",
         "Forveksl det ikke med das Los (lod, skæbne) og med locker (løs, slap)."
       ],
       "sectionAccents": {
@@ -37948,7 +37948,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Gæld står altid i flertal: Schulden haben, Schulden machen (stifte gæld)."
+        "Gæld står normalt i flertal: Schulden haben, Schulden machen (stifte gæld)."
       ],
       "important": [
         "Om gæld siger man bei jemandem Schulden haben (skylde nogen penge)."
@@ -45406,7 +45406,7 @@ const A2_WORDS = [
       "translation": "At skifte • At veksle",
       "explanation": [
         "Hovedtanke: wechseln er et udsagnsord: wechselt, wechselte, hat gewechselt. Det betyder at skifte eller veksle én ting med en anden, fx penge, skole, job eller tøj.",
-        "Normalt bruges det med akkusativ og hjælpeudsagnsordet haben: Er hat den Job gewechselt. Når man fremhæver overgangen til et andet sted eller en anden tilstand, kan man også bruge sein: Die Ampel ist auf Grün gewechselt.",
+        "Normalt bruges det med akkusativ og hjælpeudsagnsordet haben: Er hat den Job gewechselt. Når man fremhæver overgangen til et andet sted, kan man også bruge sein: Er ist zu einem anderen Verein gewechselt.",
         "I banken betyder Geld wechseln at veksle penge til en anden valuta eller til småpenge – ligesom dansk „veksle“. Navneordet er der Wechsel (skift, veksling)."
       ],
       "examples": [
@@ -46946,7 +46946,7 @@ const A2_WORDS = [
       "translation": "For tiden",
       "explanation": [
         "Hovedtanke: zurzeit er et biord, der betyder for tiden, i øjeblikket. Det beskriver en tilstand i en nutidig periode, som senere kan ændre sig.",
-        "Forkortelsen på skrift er z. Z. Ordet bøjes ikke. Synonymer er derzeit og im Moment.",
+        "Forkortelsen på skrift er zz. eller zzt. Ordet bøjes ikke. Synonymer er derzeit og im Moment.",
         "Stavning: zurzeit i ét ord betyder for tiden. I to ord betyder zur Zeit + genitiv på en bestemt persons tid: zur Zeit Goethes (på Goethes tid)."
       ],
       "examples": [
@@ -49461,7 +49461,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Modsætningen til schon er noch (endnu): Bist du schon da? – Nein, noch nicht.",
+        "Modsætningen til schon er noch nicht (endnu ikke): Bist du schon da? – Nein, noch nicht.",
         "bereits er mere formelt end schon; betydningen er den samme."
       ],
       "important": [

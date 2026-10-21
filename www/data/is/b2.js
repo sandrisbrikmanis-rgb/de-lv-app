@@ -1779,7 +1779,7 @@ const B2_WORDS = [
         "Í merkingunni að setja út á er yfirleitt notuð neitun: nichts auszusetzen haben — alveg eins og íslenska „hafa ekkert út á að setja“."
       ],
       "important": [
-        "Í merkingunni að láta verða fyrir fylgir þágufall á eftir aussetzen (der Gefahr, dem Risiko), ekki þolfall — rétt eins og í íslensku: verða fyrir áfalli (þágufall).",
+        "Í merkingunni að láta verða fyrir fylgir þágufall á eftir aussetzen (der Gefahr, dem Risiko), en sá eða það sem verður fyrir því er í þolfalli (jemanden) — rétt eins og í íslensku: verða fyrir áfalli (þágufall).",
         "Ekki rugla saman ausgesetzt sein (að vera berskjaldaður fyrir) og ausgestellt (til sýnis eða gefinn út)."
       ],
       "sectionAccents": {
@@ -6095,7 +6095,7 @@ const B2_WORDS = [
       "translation": "ráða",
       "explanation": [
         "Meginhugmynd: dingen er sjaldgæf, gamaldags sögn sem merkir að ráða (mann gegn greiðslu til einhvers verks). Nú á dögum heyrist hún einkum í orðasambandinu ein gedungener Mörder (leigumorðingi) og í sögulegum textum.",
-        "Myndir: dingt, dang, hat gedungen (einnig kemur fyrir veika myndin dingte, gedingt). Dæmigert er að ráða Söldner, Mörder, Führer. Í daglegu máli er sagt anheuern eða engagieren.",
+        "Myndir: dingt, dingte (sjaldnar dang), hat gedungen (sjaldnar gedingt). Dæmigert er að ráða Söldner, Mörder, Führer. Í daglegu máli er sagt anheuern eða engagieren.",
         "Á eftir dingen kemur þolfall: jemanden dingen."
       ],
       "examples": [
@@ -6135,7 +6135,7 @@ const B2_WORDS = [
       ],
       "important": [
         "Dingen er bókmennta- eða sögulegt orð; í daglegu tali hljómaði það undarlega.",
-        "Myndirnar eru á reiki (dang/gedungen og dingte/gedingt); sterka beygingin er algengust."
+        "Myndirnar eru á reiki (dang/gedungen og dingte/gedingt); í þátíð er dingte algengast, í lýsingarhætti gedungen."
       ],
       "sectionAccents": {
         "explanation": {

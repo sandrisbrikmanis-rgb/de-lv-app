@@ -5028,7 +5028,7 @@ const A1_WORDS = [
       "translation": "That",
       "explanation": [
         "Main idea: dass is a subordinating conjunction meaning 'that'. It introduces a clause after verbs such as sagen, wissen, denken, hoffen and after expressions such as Es ist schön …: Ich weiß, dass du müde bist.",
-        "There is always a comma before dass. In the subordinate clause the conjugated verb goes to the end of the clause: …, dass er keine Zeit hat.",
+        "In the middle of a sentence there is always a comma before dass. In the subordinate clause the conjugated verb goes to the end of the clause: …, dass er keine Zeit hat.",
         "Dass is spelt with double s. The neuter article and demonstrative pronoun das is a different word."
       ],
       "examples": [
@@ -6883,7 +6883,7 @@ const A1_WORDS = [
       "translation": "something • a little",
       "explanation": [
         "Main idea: etwas is an indefinite pronoun meaning 'something': Ich möchte etwas trinken, Hast du etwas Neues? It does not change form and is treated as singular neuter.",
-        "An adjective after etwas is written as a noun with a capital letter and the ending -es: etwas Neues (something new), etwas Gutes, etwas anderes.",
+        "An adjective after etwas is written as a noun with a capital letter and the ending -es: etwas Neues (something new), etwas Gutes (but etwas anderes is usually written in lower case).",
         "Etwas can also mean 'a little, somewhat': etwas Zeit (a little time), etwas müde (a little tired)."
       ],
       "examples": [
@@ -16839,7 +16839,7 @@ const A1_WORDS = [
       "translation": "litre",
       "explanation": [
         "Main idea: der Liter is a unit of volume — the litre. It is used for liquids: Milch, Wasser, Benzin (petrol).",
-        "Plural: die Liter (no ending). After a number the unit does not change, and the next noun follows without a preposition: zwei Liter Milch (two litres of milk), drei Liter Wasser. Der Liter is masculine; in conversation das Liter is sometimes used too.",
+        "Plural: die Liter (no ending). After a number the unit does not change, and the next noun follows without a preposition: zwei Liter Milch (two litres of milk), drei Liter Wasser. Der Liter is masculine; das Liter is sometimes used too.",
         "Abbreviation l: 1 l = 1000 Milliliter (ml, millilitres)."
       ],
       "examples": [
@@ -18729,7 +18729,7 @@ const A1_WORDS = [
         {
           "word": "sollen",
           "meaning": "to be supposed to, should",
-          "example": "Du sollst mehr schlafen. – You should sleep more."
+          "example": "Du sollst mehr schlafen. – You are supposed to sleep more."
         },
         {
           "word": "dürfen",
@@ -22774,7 +22774,7 @@ const A1_WORDS = [
       "explanation": [
         "Main idea: sein is the basic German verb “to be”. It is irregular: ich bin, du bist, er/sie/es ist, wir sind, ihr seid, sie/Sie sind; past tense war, perfect ist gewesen.",
         "It is used to say who someone is (Er ist Arzt), what someone or something is like (Das Haus ist groß), where someone is (Wir sind hier) and how old someone is (Ich bin 20 Jahre alt). German never leaves sein out: you cannot say “Ich Lehrer”.",
-        "Sein is also the auxiliary in the perfect tense with verbs of movement and change of state (ich bin gefahren, ich bin gewesen)."
+        "Sein is also the auxiliary in the perfect tense with verbs of movement and change of state (ich bin gefahren), as well as with sein and bleiben (ich bin gewesen)."
       ],
       "examples": [
         {
@@ -25934,7 +25934,7 @@ const A1_WORDS = [
           "lv": "We have just come from the doctor's."
         },
         {
-          "de": "Der Zug vom Gleis drei fährt gleich ab.",
+          "de": "Der Zug vom dritten Gleis fährt gleich ab.",
           "lv": "The train from platform three is about to leave."
         },
         {

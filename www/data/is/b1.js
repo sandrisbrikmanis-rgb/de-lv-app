@@ -2274,7 +2274,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Forskeytið ab- skilst frá í setningu: Ich nehme die Brille ab.",
-        "Andlagið ræður merkingunni: Brille – taka af, Telefon – svara, Gewicht – léttast."
+        "Andlagið ræður merkingunni: Brille – taka af, Telefon – svara, Kilo – léttast."
       ],
       "sectionAccents": {
         "explanation": {
@@ -13986,7 +13986,7 @@ const B1_WORDS = [
       "translation": "þess vegna",
       "explanation": [
         "Aðalatriðið: daher er atviksorð sem lýsir afleiðingu: þess vegna, af þeim sökum. Það sýnir að eitthvað gerist af ákveðinni ástæðu. Ich war krank, daher bin ich nicht gekommen.",
-        "Orðaröð: daher stendur fremst eða inni í setningu og sagnorðið kemur strax á eftir: Daher bleibe ich zu Hause. Orðið leiðir ekki inn aukasetningu.",
+        "Orðaröð: daher stendur fremst (og þá kemur sagnorðið strax á eftir) eða inni í setningu: Daher bleibe ich zu Hause. Orðið leiðir ekki inn aukasetningu.",
         "Daher getur líka merkt þaðan: Von daher kommt das Geräusch. Í þessari merkingu er spurt woher?"
       ],
       "examples": [
@@ -15815,7 +15815,7 @@ const B1_WORDS = [
       "translation": "þriðji • þrír saman",
       "explanation": [
         "Aðalatriðið: dritt er raðtalan „þriðji“. Sem lýsingarorð fær hún yfirleitt endingu: der dritte Tag, die dritte Tür, das dritte Mal. Án endingar kemur hún fyrir í orðasambandinu zu dritt – þrjú saman, við þrjú.",
-        "Með tölustöfum: 3. = dritt-, með punkti eins og í íslensku. Í dagsetningum: der dritte Mai, am dritten Mai. Ólíkt frumtölunni drei (þrír) lýsir dritt alltaf röð, ekki fjölda."
+        "Með tölustöfum: 3. = dritt-, með punkti eins og í íslensku. Í dagsetningum: der dritte Mai, am dritten Mai. Ólíkt frumtölunni drei (þrír) lýsir dritt (nema í orðasambandinu zu dritt) röð, ekki fjölda."
       ],
       "examples": [
         {
@@ -18726,7 +18726,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Ef þú vilt einfaldlega segja „einlitur“ notarðu einfarbig; ef þú vilt nefna litinn geturðu sagt uni eða bara heiti litarins.",
+        "Ef þú vilt einfaldlega segja „einlitur“ notarðu einfarbig; ef þú vilt nefna litinn segirðu bara heiti litarins; samheiti er uni.",
         "Berðu saman við zweifarbig (tvílitur) og dreifarbig (þrílitur)."
       ],
       "important": [
@@ -18912,7 +18912,7 @@ const B1_WORDS = [
         "Æfðu orðið með sagnorði: Einfluss nehmen, Einfluss ausüben (beita áhrifum)."
       ],
       "important": [
-        "Einfluss tekur með sér forsetninguna auf + þolfall.",
+        "Einfluss á eitthvað tekur með sér forsetninguna auf + þolfall.",
         "Der Einfluss er karlkyns; í fleirtölu fær það hljóðvarp: Einflüsse."
       ],
       "sectionAccents": {
@@ -23716,7 +23716,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Ef eitthvað verður til án mannlegrar athafnar segirðu entstehen; ef manneskja býr það til – herstellen eða schaffen.",
+        "Ef eitthvað verður til af sjálfu sér (gerandinn er ekki frumlag) segirðu entstehen; ef manneskja býr það til – herstellen eða schaffen.",
         "Núliðin tíð: es ist entstanden."
       ],
       "important": [
@@ -25296,7 +25296,7 @@ const B1_WORDS = [
         "Um rými: Der Saal fasst … Personen."
       ],
       "important": [
-        "Merkingin fer eftir andlaginu: Arm – grípa, Gedanke – skilja, Saal – rúma.",
+        "Merkingin fer eftir andlaginu: Arm – grípa, es (Ich kann es nicht fassen) – skilja, Saal – rúma.",
         "Fassen í merkingunni „grípa“ tekur þolfall: den Ball fassen."
       ],
       "sectionAccents": {
@@ -25455,7 +25455,7 @@ const B1_WORDS = [
       "translation": "latur",
       "explanation": [
         "Meginhugmynd: faul er lýsingarorð með tvær merkingar: latur (sá sem nennir ekki að vinna) og rotinn, fúinn (matur, egg, viður). Í yfirfærðri merkingu er faule Ausrede – léleg afsökun.",
-        "Orðið beygist: ein fauler Schüler, ein fauler Apfel. Stigbreyting: fauler, faulst. Nafnorð: die Faulheit (leti); sagnorð: faulenzen – slæpast, liggja í leti."
+        "Orðið beygist: ein fauler Schüler, ein fauler Apfel. Stigbreyting: fauler, am faulsten. Nafnorð: die Faulheit (leti); sagnorð: faulenzen – slæpast, liggja í leti."
       ],
       "examples": [
         {
@@ -26957,7 +26957,7 @@ const B1_WORDS = [
       "translation": "halda áfram",
       "explanation": [
         "Meginhugmynd: fortfahren er aðskiljanlegt sagnorð sem merkir að halda áfram með verk eða samtal sem þegar er hafið. Myndir: fährt fort, fuhr fort, hat fortgefahren.",
-        "Smíðar: mit etwas fortfahren (halda áfram með eitthvað), fortfahren, etwas zu tun (halda áfram að gera eitthvað). Formlegra en weitermachen, oft heyrt í ræðum og formlegu máli. Sjaldan merkir það líka að aka burt, og þá er hjálparsögnin sein."
+        "Smíðar: mit etwas fortfahren (halda áfram með eitthvað), fortfahren, etwas zu tun (halda áfram að gera eitthvað). Formlegra en weitermachen, oft heyrt í ræðum og formlegu máli. Það merkir líka að aka burt, og þá er hjálparsögnin sein."
       ],
       "examples": [
         {
@@ -56555,7 +56555,7 @@ const B1_WORDS = [
       "explanation": [
         "Meginhugmynd: der Schimmel er karlkynsnafnorð sem merkir myglu á mat, veggjum eða öðrum rökum flötum. Sama orð hefur aðra merkingu: hvítur (gráhvítur) hestur.",
         "Fleirtalan er die Schimmel (í báðum merkingum). Um myglu er fleirtalan sjaldan notuð, því að yfirleitt er um efnisheiti að ræða: Schimmel an der Wand.",
-        "Af því er leidd sögnin schimmeln – að mygla: Das Brot schimmelt. Einnig lýsingarhátturinn: Das Brot ist verschimmelt (brauðið er myglað)."
+        "Af því er leidd sögnin schimmeln – að mygla: Das Brot schimmelt. Einnig af verschimmeln (að mygla): Das Brot ist verschimmelt (brauðið er myglað)."
       ],
       "examples": [
         {
@@ -56588,7 +56588,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Í merkingunni hestur er der Schimmel oft notaður með litnum: ein weißer Schimmel.",
+        "Í merkingunni hestur merkir der Schimmel þegar hvítan hest, svo ein weißer Schimmel er tvítekning.",
         "Um brauð og ost segirðu: Das Brot schimmelt eða ist verschimmelt – alveg eins og á íslensku: brauðið myglar, er myglað."
       ],
       "important": [
@@ -57780,7 +57780,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Der Schmuck er ekki der Schmutz: Schmuck – skraut, skartgripir; Schmutz – óhreinindi.",
-        "Í yfirfærðri merkingu getur sich schmücken líka þýtt að hreykja sér af verkum annarra – líkt og íslenska orðtakið að skreyta sig með lánsfjöðrum."
+        "Orðtakið sich mit fremden Federn schmücken þýðir að hreykja sér af verkum annarra – líkt og íslenska orðtakið að skreyta sig með lánsfjöðrum."
       ],
       "sectionAccents": {
         "explanation": {
@@ -57893,8 +57893,7 @@ const B1_WORDS = [
           },
           {
             "blue": [
-              "schmücken",
-              "sich schmücken"
+              "schmücken"
             ]
           }
         ]
@@ -64020,7 +64019,7 @@ const B1_WORDS = [
       ],
       "tip": [
         "Í daglegu tali segja Þjóðverjar einfaldlega Strom, ekki Elektrizität: Hast du Strom? – Er rafmagn hjá þér?",
-        "Um stórt fljót er der Strom skáldlegra orð en der Fluss."
+        "Um stórt fljót er notað der Strom, sem táknar stærra fljót en der Fluss."
       ],
       "important": [
         "Íslenska straumur nær bæði yfir rafstraum og vatnsstraum, en á þýsku er der Strom (rafmagn, stórfljót) ekki það sama og die Strömung (straumur í vatni eða lofti).",
@@ -64271,7 +64270,7 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "detta • hrapa",
       "explanation": [
-        "Aðalatriðið: stürzen merkir að detta eða þjóta með snöggri hreyfingu: falla úr hæð, ryðjast hratt inn eða (um verð, ríkisstjórn) hrapa skyndilega. Myndir: stürzt, stürzte, ist gestürzt.",
+        "Aðalatriðið: stürzen merkir að detta eða þjóta með snöggri hreyfingu: falla úr hæð, ryðjast hratt inn eða (um verð) hrapa skyndilega, (um ríkisstjórn) falla. Myndir: stürzt, stürzte, ist gestürzt.",
         "Þegar einhver dettur sjálfur eða þýtur er hjálparsögnin sein notuð: Er ist gestürzt. Ef einhver steypir öðrum (ríkisstjórn, leiðtoga) er sögnin áhrifssögn og tekur haben: Das Volk hat den König gestürzt. Afturbeygt sich stürzen auf/in merkir að kasta sér yfir eða sökkva sér niður í: Er stürzt sich in die Arbeit. In + þolfall táknar stefnu (hvert?), von + þágufall – hvaðan."
       ],
       "examples": [

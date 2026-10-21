@@ -2278,7 +2278,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Az ab- igekötő a mondatban leválik: Ich nehme die Brille ab.",
-        "A jelentést a tárgy határozza meg: Brille – levesz, Telefon – felvesz, Gewicht – fogy."
+        "A jelentést a tárgy határozza meg: Brille – levesz, Telefon – felvesz, Kilo – fogy."
       ],
       "sectionAccents": {
         "explanation": {
@@ -13987,7 +13987,7 @@ const B1_WORDS = [
       "translation": "ezért",
       "explanation": [
         "Fő gondolat: a daher határozószó, amely következményt fejez ki: ezért, emiatt. Azt jelzi, hogy valami egy bizonyos ok miatt történik. Ich war krank, daher bin ich nicht gekommen.",
-        "Szórend: a daher a mondat elején vagy közepén áll, és közvetlenül utána következik az ige: Daher bleibe ich zu Hause. A szó nem vezet be mellékmondatot.",
+        "Szórend: a daher a mondat elején (ekkor közvetlenül utána következik az ige) vagy közepén áll: Daher bleibe ich zu Hause. A szó nem vezet be mellékmondatot.",
         "A daher azt is jelentheti: onnan: Von daher kommt das Geräusch. Ebben a jelentésben a kérdőszó woher? (honnan?)."
       ],
       "examples": [
@@ -15814,7 +15814,7 @@ const B1_WORDS = [
       "translation": "harmadik • hármasban",
       "explanation": [
         "Fő gondolat: a dritt a „harmadik” sorszámnév. Melléknévként általában végződést kap: der dritte Tag, die dritte Tür, das dritte Mal. Végződés nélkül a zu dritt kifejezésben fordul elő – hárman, hármasban.",
-        "Számmal írva: 3. = dritt-. Dátumokban: der dritte Mai, am dritten Mai. A drei (három) tőszámnévvel ellentétben a dritt mindig sorrendet fejez ki, nem mennyiséget."
+        "Számmal írva: 3. = dritt-. Dátumokban: der dritte Mai, am dritten Mai. A drei (három) tőszámnévvel ellentétben a dritt (a zu dritt kifejezés kivételével) sorrendet fejez ki, nem mennyiséget."
       ],
       "examples": [
         {
@@ -18909,7 +18909,7 @@ const B1_WORDS = [
         "Igével együtt tanuld: Einfluss nehmen, Einfluss ausüben."
       ],
       "important": [
-        "Az Einfluss után az auf + Akkusativ szerkezet áll.",
+        "Arra vonatkozóan, amire hat, az Einfluss után az auf + Akkusativ szerkezet áll.",
         "A der Einfluss hímnemű; többes számban umlautot kap: Einflüsse."
       ],
       "sectionAccents": {
@@ -23713,7 +23713,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Ha valami emberi közreműködés nélkül jön létre, mondd azt: entstehen; ha valaki létrehozza – herstellen vagy schaffen.",
+        "Ha valami magától jön létre (a cselekvő nem az alany), mondd azt: entstehen; ha valaki létrehozza – herstellen vagy schaffen.",
         "Perfekt: es ist entstanden."
       ],
       "important": [
@@ -25293,7 +25293,7 @@ const B1_WORDS = [
         "Befogadóképességre: Der Saal fasst … Personen."
       ],
       "important": [
-        "A jelentés a tárgytól függ: Arm – megfog, Gedanke – felfog, Saal – befogad.",
+        "A jelentés a tárgytól függ: Arm – megfog, es (Ich kann es nicht fassen) – felfog, Saal – befogad.",
         "A fassen „megfog” értelemben Akkusativot vonz: den Ball fassen."
       ],
       "sectionAccents": {
@@ -25452,7 +25452,7 @@ const B1_WORDS = [
       "translation": "lusta",
       "explanation": [
         "Fő gondolat: a faul melléknév, két jelentéssel: lusta (olyan ember, akinek nincs kedve dolgozni) és rohadt, romlott (étel, tojás, fa). Átvitt értelemben az eine faule Ausrede átlátszó kifogás.",
-        "A szó ragozható: ein fauler Schüler, ein fauler Apfel. Középfok és felsőfok: fauler, faulst. Főnév: die Faulheit (lustaság); ige: faulenzen – lustálkodik, henyél."
+        "A szó ragozható: ein fauler Schüler, ein fauler Apfel. Középfok és felsőfok: fauler, am faulsten. Főnév: die Faulheit (lustaság); ige: faulenzen – lustálkodik, henyél."
       ],
       "examples": [
         {
@@ -26954,7 +26954,7 @@ const B1_WORDS = [
       "translation": "folytat",
       "explanation": [
         "Lényeg: a fortfahren elváló igekötős ige, jelentése folytat – egy már megkezdett munkát vagy beszélgetést. Alakjai: fährt fort, fuhr fort, hat fortgefahren.",
-        "Szerkezetek: mit etwas fortfahren (folytat valamit), fortfahren, etwas zu tun (tovább csinál valamit). Választékosabb, mint a weitermachen, gyakran hallani beszédekben és a hivatalos nyelvben. Ritkán azt is jelenti, hogy elutazik, elhajt – ilyenkor a sein segédigével áll."
+        "Szerkezetek: mit etwas fortfahren (folytat valamit), fortfahren, etwas zu tun (tovább csinál valamit). Választékosabb, mint a weitermachen, gyakran hallani beszédekben és a hivatalos nyelvben. Azt is jelenti, hogy elutazik, elhajt – ilyenkor a sein segédigével áll."
       ],
       "examples": [
         {
@@ -56552,7 +56552,7 @@ const B1_WORDS = [
       "explanation": [
         "A lényeg: a der Schimmel hímnemű főnév, jelentése penész ételen, falon vagy más nedves felületen. Ugyanennek a szónak a másik jelentése fehér (szürke) ló.",
         "Többes száma die Schimmel (mindkét jelentésben). A penészre ritkán használják a többes számot, mert általában anyagnév: Schimmel an der Wand.",
-        "Belőle képzett ige a schimmeln – penészedik: Das Brot schimmelt. A melléknévi igenév is használatos: Das Brot ist verschimmelt (a kenyér megpenészedett)."
+        "Belőle képzett ige a schimmeln – penészedik: Das Brot schimmelt. A verschimmeln (megpenészedik) ige melléknévi igeneve: Das Brot ist verschimmelt (a kenyér megpenészedett)."
       ],
       "examples": [
         {
@@ -56585,7 +56585,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Ló jelentésben a der Schimmel szót gyakran a színnel együtt mondják: ein weißer Schimmel.",
+        "Ló jelentésben a der Schimmel eleve fehér lovat jelent, ezért az ein weißer Schimmel pleonazmus.",
         "Kenyérre és sajtra mondd: Das Brot schimmelt vagy ist verschimmelt."
       ],
       "important": [
@@ -57777,7 +57777,7 @@ const B1_WORDS = [
       ],
       "important": [
         "A der Schmuck nem azonos a der Schmutz szóval: Schmuck – dísz, ékszer, Schmutz – piszok.",
-        "Átvitt értelemben a sich schmücken azt is jelentheti, hogy valaki más érdemeivel büszkélkedik (idegen tollakkal ékeskedik)."
+        "A sich mit fremden Federn schmücken kifejezés azt jelenti, hogy valaki más érdemeivel büszkélkedik (idegen tollakkal ékeskedik)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -57890,8 +57890,7 @@ const B1_WORDS = [
           },
           {
             "blue": [
-              "schmücken",
-              "sich schmücken"
+              "schmücken"
             ]
           }
         ]
@@ -64018,7 +64017,7 @@ const B1_WORDS = [
       ],
       "tip": [
         "A hétköznapokban a németek egyszerűen a Strom szót használják, nem az Elektrizität szót: Hast du Strom? – Van áramod?",
-        "Nagy folyóra a der Strom költőibb szó, mint a der Fluss."
+        "Nagy folyóra a der Strom nagyobb folyót jelöl, mint a der Fluss."
       ],
       "important": [
         "A der Strom (áram, folyam) nem azonos a die Strömung szóval (sodrás vízben, áramlás levegőben).",
@@ -64269,7 +64268,7 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "elesik • zuhan",
       "explanation": [
-        "Lényeg: a stürzen jelentése hirtelen, heves mozgással esik vagy veti magát valahová: magasból lezuhan, gyorsan berohan, vagy (árakról, kormányról) hirtelen zuhan, megbukik. Alakjai: stürzt, stürzte, ist gestürzt.",
+        "Lényeg: a stürzen jelentése hirtelen, heves mozgással esik vagy veti magát valahová: magasból lezuhan, gyorsan berohan, vagy (árakról) hirtelen zuhan, (kormányról) megbukik. Alakjai: stürzt, stürzte, ist gestürzt.",
         "Ha valaki maga esik el vagy rohan, sein a segédige: Er ist gestürzt. Ha valaki megbuktat valakit (kormányt, vezetőt), az ige tárgyas, és haben a segédige: Das Volk hat den König gestürzt. Visszaható alakban a sich stürzen auf/in jelentése rávetődik valamire, beleveti magát valamibe: Er stürzt sich in die Arbeit. Az in + Akkusativ (tárgyeset) az irányt jelöli (hová?), a von + Dativ (részes eset) azt, hogy honnan."
       ],
       "examples": [

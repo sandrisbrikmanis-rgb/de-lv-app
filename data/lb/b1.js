@@ -2275,7 +2275,7 @@ const B1_WORDS = [
       ],
       "important": [
         "De Präfix ab- gëtt am Saz ofgetrennt: Ich nehme die Brille ab.",
-        "Den Objet entscheet iwwer d'Bedeitung: Brille – ofhuelen, Telefon – ophiewen, Gewicht – ofhuelen, Gewiicht verléieren."
+        "Den Objet entscheet iwwer d'Bedeitung: Brille – ofhuelen, Telefon – ophiewen, Kilo – ofhuelen, Gewiicht verléieren."
       ],
       "sectionAccents": {
         "explanation": {
@@ -13981,7 +13981,7 @@ const B1_WORDS = [
       "translation": "dofir",
       "explanation": [
         "Haaptiddi: daher ass en Adverb, dat eng Konsequenz ausdréckt: dofir, also. Et weist, datt eppes aus engem bestëmmte Grond geschitt. Ich war krank, daher bin ich nicht gekommen.",
-        "Wuertuerdnung: daher steet am Ufank oder an der Mëtt vum Saz, an d'Verb kënnt direkt duerno: Daher bleibe ich zu Hause. D'Wuert leet keen Niewesaz an.",
+        "Wuertuerdnung: daher steet am Ufank vum Saz (da kënnt d'Verb direkt duerno) oder an der Mëtt: Daher bleibe ich zu Hause. D'Wuert leet keen Niewesaz an.",
         "Daher kann och „vun do“ heeschen: Von daher kommt das Geräusch. An där Bedeitung ass déi passend Fro woher?"
       ],
       "examples": [
@@ -15810,7 +15810,7 @@ const B1_WORDS = [
       "translation": "drëtt",
       "explanation": [
         "Haaptiddi: dritt ass d'Uerdnungszuel „drëtt“. Als Adjektiv kritt et normalerweis eng Endung: der dritte Tag, die dritte Tür, das dritte Mal. Ouni Endung steet et am Ausdrock zu dritt – zu dräi.",
-        "A Zifferen: 3. = dritt-. Bei Datumer: der dritte Mai, am dritten Mai. Am Géigesaz zu der Zuel drei (dräi) weist dritt ëmmer eng Plaz an enger Reiefolleg, keng Quantitéit."
+        "A Zifferen: 3. = dritt-. Bei Datumer: der dritte Mai, am dritten Mai. Am Géigesaz zu der Zuel drei (dräi) weist dritt (ausser am Ausdrock zu dritt) eng Plaz an enger Reiefolleg, keng Quantitéit."
       ],
       "examples": [
         {
@@ -18719,7 +18719,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Fir einfach „eefaarweg“ ze soen, benotz einfarbig; wann s du d'Faarf nenne wëlls, so uni oder nëmmen de Numm vun der Faarf.",
+        "Fir einfach „eefaarweg“ ze soen, benotz einfarbig; wann s du d'Faarf nenne wëlls, so nëmmen de Numm vun der Faarf; e Synonym ass uni.",
         "Vergläich mat zweifarbig (zweefaarweg) an dreifarbig."
       ],
       "important": [
@@ -18905,7 +18905,7 @@ const B1_WORDS = [
         "Üb mat engem Verb: Einfluss nehmen, Einfluss ausüben."
       ],
       "important": [
-        "Einfluss gëtt mat der Präpositioun auf + Akkusativ konstruéiert.",
+        "Einfluss op eppes gëtt mat der Präpositioun auf + Akkusativ konstruéiert.",
         "Der Einfluss ass männlech; an der Pluralform kritt et en Ëmlaut: Einflüsse."
       ],
       "sectionAccents": {
@@ -23709,7 +23709,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Wann eppes ouni mënschlecht Zoudoen entsteet, so entstehen; wann eng Persoun et mécht – herstellen oder schaffen.",
+        "Wann eppes vu sech selwer entsteet (keen Akteur ass Subjet), so entstehen; wann eng Persoun et mécht – herstellen oder schaffen.",
         "Perfekt: es ist entstanden."
       ],
       "important": [
@@ -25289,7 +25289,7 @@ const B1_WORDS = [
         "Fir d'Kapazitéit: Der Saal fasst … Personen."
       ],
       "important": [
-        "D'Bedeitung hänkt vum Objet of: Arm – gräifen, Gedanke – verstoen, Saal – Plaz bidden.",
+        "D'Bedeitung hänkt vum Objet of: Arm – gräifen, es (Ich kann es nicht fassen) – verstoen, Saal – Plaz bidden.",
         "An der Bedeitung „gräifen“ steet fassen mam Akkusativ: den Ball fassen."
       ],
       "sectionAccents": {
@@ -25448,7 +25448,7 @@ const B1_WORDS = [
       "translation": "faul",
       "explanation": [
         "Haaptiddi: faul ass en Adjektiv mat zwou Bedeitungen: fail (eng Persoun, déi keng Loscht huet ze schaffen) a verfault (Liewensmëttel, Eeër, Holz). Am iwwerdroene Sënn: faule Ausrede – eng schlecht Ausried.",
-        "D'Adjektiv gëtt deklinéiert: ein fauler Schüler, ein fauler Apfel. Komparativ a Superlativ: fauler, faulst. Substantiv: die Faulheit (d'Failheet); Verb: faulenzen – faulenzen, näischt maachen."
+        "D'Adjektiv gëtt deklinéiert: ein fauler Schüler, ein fauler Apfel. Komparativ a Superlativ: fauler, am faulsten. Substantiv: die Faulheit (d'Failheet); Verb: faulenzen – faulenzen, näischt maachen."
       ],
       "examples": [
         {
@@ -26950,7 +26950,7 @@ const B1_WORDS = [
       "translation": "weiderfueren • weidermaachen",
       "explanation": [
         "Haaptiddi: fortfahren ass en trennbaart Verb, dat heescht eng Aarbecht oder e Gespréich, dat schonn ugefaang ass, weiderféieren. Formen: fährt fort, fuhr fort, hat fortgefahren.",
-        "Konstruktiounen: mit etwas fortfahren (mat eppes weidermaachen), fortfahren, etwas zu tun (weidermaachen, eppes ze maachen). Méi gehuewe wéi weitermachen, et kënnt dacks a Rieden an an der Amtssprooch. Seelen heescht et och fortfueren (mat engem Gefier), an da gëtt sein als Hëllefsverb gebraucht."
+        "Konstruktiounen: mit etwas fortfahren (mat eppes weidermaachen), fortfahren, etwas zu tun (weidermaachen, eppes ze maachen). Méi gehuewe wéi weitermachen, et kënnt dacks a Rieden an an der Amtssprooch. Et heescht och fortfueren (mat engem Gefier), an da gëtt sein als Hëllefsverb gebraucht."
       ],
       "examples": [
         {
@@ -40789,7 +40789,7 @@ const B1_WORDS = [
       "explanation": [
         "Haaptiddi: kündigen heescht eng Aarbecht, e Kontrakt oder e Loyer kënnegen — offiziell matdeelen, datt eng Relatioun ophält. Formen: kündigt, kündigte, hat gekündigt (Hëllefsverb haben).",
         "Mam Akkusativ steet d'Saach: den Vertrag kündigen, die Wohnung kündigen, den Job kündigen. Mam Dativ steet d'Persoun, där gekënnegt gëtt: Der Chef kündigt dem Mitarbeiter (de Chef kënnegt dem Mataarbechter). Ouni Ergänzung heescht ich habe gekündigt, datt een selwer seng Aarbecht gekënnegt huet.",
-        "Am Fong ass kündigen en offizielle Schrëtt (die Kündigung) mat enger Frist (Kündigungsfrist); fir d'Entloossung vu Säite vun der Firma seet een entlassen."
+        "Am Fong ass kündigen en offizielle Schrëtt (die Kündigung) mat enger Frist (Kündigungsfrist); fir d'Entloossung vu Säite vun der Firma seet een och entlassen."
       ],
       "examples": [
         {
@@ -56548,7 +56548,7 @@ const B1_WORDS = [
       "explanation": [
         "Haaptiddi: der Schimmel ass e männlecht Substantiv, dat de Schimmel op Iessen, op Maueren oder op anere fiichte Flächen bezeechent. Dat selwecht Wuert huet nach eng zweet Bedeitung: e wäisst (gro-wäisst) Päerd.",
         "D'Pluralform ass die Schimmel (fir déi zwou Bedeitungen). Beim Schimmel op Iessen a Maueren gëtt de Plural seele benotzt, well et meeschtens en Numm fir eng Substanz ass: Schimmel an der Wand.",
-        "Dovun ofgeleet ass d'Verb schimmeln – schimmelen: Das Brot schimmelt. Och d'Partizip: Das Brot ist verschimmelt (d'Brout ass verschimmelt)."
+        "Dovun ofgeleet ass d'Verb schimmeln – schimmelen: Das Brot schimmelt. Och vu verschimmeln (verschimmelen): Das Brot ist verschimmelt (d'Brout ass verschimmelt)."
       ],
       "examples": [
         {
@@ -56581,7 +56581,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "An der Bedeitung Päerd seet ee meeschtens der Schimmel mat der Faarf: ein weißer Schimmel.",
+        "An der Bedeitung Päerd bedeit der Schimmel schonn e wäisst Päerd, dofir ass ein weißer Schimmel e Pleonasmus.",
         "Bei Brout a Kéis sees de: Das Brot schimmelt oder ist verschimmelt."
       ],
       "important": [
@@ -57773,7 +57773,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Der Schmuck ass net der Schmutz: Schmuck – Bijouen, Dekoratioun; Schmutz – Dreck.",
-        "sich schmücken kann am iwwerdroenen Sënn och heeschen, sech mat de Leeschtunge vun aneren ze bretzen."
+        "Den Ausdrock sich mit fremden Federn schmücken heescht, sech mat de Leeschtunge vun aneren ze bretzen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -57886,8 +57886,7 @@ const B1_WORDS = [
           },
           {
             "blue": [
-              "schmücken",
-              "sich schmücken"
+              "schmücken"
             ]
           }
         ]
@@ -64014,7 +64013,7 @@ const B1_WORDS = [
       ],
       "tip": [
         "Am Alldag soen d'Däitschen einfach Strom an net Elektrizität: Hast du Strom? – Hues du Stroum? Op Lëtzebuergesch seet ee ganz einfach Stroum.",
-        "Wann et ëm e grousse Floss geet, ass der Strom e méi poetescht Wuert wéi der Fluss."
+        "Wann et ëm e grousse Floss geet, bezeechent der Strom e méi grousse Floss wéi der Fluss."
       ],
       "important": [
         "Der Strom (Stroum, grousse Floss) ass net datselwecht wéi die Strömung (Stréimung am Waasser oder an der Loft).",
@@ -64265,7 +64264,7 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "stierzen • falen",
       "explanation": [
-        "Haaptiddi: stürzen heescht mat enger séierer, staarker Beweegung falen oder sech werfen: vun uewen erofstierzen, séier iergendwou eraschéissen oder (Präisser, eng Regierung) staark falen. Formen: stürzt, stürzte, ist gestürzt.",
+        "Haaptiddi: stürzen heescht mat enger séierer, staarker Beweegung falen oder sech werfen: vun uewen erofstierzen, séier iergendwou eraschéissen oder (Präisser) staark falen, (eng Regierung) falen. Formen: stürzt, stürzte, ist gestürzt.",
         "Wann ee selwer fält oder sech séier iergendwouhi beweegt, gëtt d'Hëllefsverb sein gebraucht: Er ist gestürzt. Wann eng Persoun eng aner ëmstierzt (eng Regierung, e Chef), ass d'Verb transitiv a gëtt mat haben gebraucht: Das Volk hat den König gestürzt. Reflexiv bedeit sich stürzen auf/in sech op eppes stierzen oder sech ganz an eppes erageheien: Er stürzt sich in die Arbeit. Mat in + Akkusativ weist et d'Richtung (wouhin?), mat von + Dativ – vu wou."
       ],
       "examples": [

@@ -5026,7 +5026,7 @@ const A1_WORDS = [
       "translation": "kad",
       "explanation": [
         "Pagrindinė mintis: dass yra prijungiamasis jungtukas „kad“, kuris įveda šalutinį sakinį po veiksmažodžių sagen, wissen, denken, hoffen ir po posakių Es ist schön …: Ich weiß, dass du müde bist.",
-        "Prieš dass visada rašomas kablelis. Šalutiniame sakinyje asmenuojamasis veiksmažodis stovi sakinio pabaigoje: …, dass er keine Zeit hat.",
+        "Prieš dass sakinio viduryje visada rašomas kablelis. Šalutiniame sakinyje asmenuojamasis veiksmažodis stovi sakinio pabaigoje: …, dass er keine Zeit hat.",
         "Dass rašomas su dviem s. Bevardės giminės artikelis ir parodomasis įvardis das — kitas žodis."
       ],
       "examples": [
@@ -6884,7 +6884,7 @@ const A1_WORDS = [
       "translation": "kažkas • truputį",
       "explanation": [
         "Pagrindinė mintis: etwas yra nežymimasis įvardis „kažkas, kas nors“: Ich möchte etwas trinken, Hast du etwas Neues? Jis nekaitomas ir laikomas vienaskaitos bevardės giminės žodžiu.",
-        "Po etwas būdvardis rašomas kaip daiktavardis — didžiąja raide ir su galūne -es: etwas Neues (kažkas naujo), etwas Gutes, etwas anderes.",
+        "Po etwas būdvardis rašomas kaip daiktavardis — didžiąja raide ir su galūne -es: etwas Neues (kažkas naujo), etwas Gutes (bet etwas anderes paprastai rašomas mažąja raide).",
         "Etwas gali reikšti ir „šiek tiek, truputį“: etwas Zeit (šiek tiek laiko), etwas müde (truputį pavargęs)."
       ],
       "examples": [
@@ -16845,7 +16845,7 @@ const A1_WORDS = [
       "translation": "litras",
       "explanation": [
         "Pagrindinė mintis: der Liter yra tūrio matavimo vienetas – litras. Vartojamas kalbant apie skysčius: Milch, Wasser, Benzin.",
-        "Daugiskaita: die Liter (be galūnės). Po skaitvardžio matavimo vienetas nekinta, o po jo einantis daiktavardis rašomas be prielinksnio: zwei Liter Milch (du litrai pieno), drei Liter Wasser. Der Liter yra vyriškosios giminės; šnekamojoje kalboje kartais sakoma ir das Liter.",
+        "Daugiskaita: die Liter (be galūnės). Po skaitvardžio matavimo vienetas nekinta, o po jo einantis daiktavardis rašomas be prielinksnio: zwei Liter Milch (du litrai pieno), drei Liter Wasser. Der Liter yra vyriškosios giminės; kartais sakoma ir das Liter.",
         "Santrumpa l: 1 l = 1000 Milliliter (ml, mililitrai)."
       ],
       "examples": [
@@ -18736,7 +18736,7 @@ const A1_WORDS = [
         {
           "word": "sollen",
           "meaning": "turėti, reikėti (nurodymas)",
-          "example": "Du sollst mehr schlafen. – Tau reikėtų daugiau miegoti."
+          "example": "Du sollst mehr schlafen. – Tu turi daugiau miegoti."
         },
         {
           "word": "dürfen",
@@ -22793,7 +22793,7 @@ const A1_WORDS = [
       "explanation": [
         "Pagrindinė mintis: sein – pagrindinis vokiečių kalbos veiksmažodis „būti“. Jis netaisyklingas: ich bin, du bist, er/sie/es ist, wir sind, ihr seid, sie/Sie sind; būtasis laikas war, perfektas ist gewesen.",
         "Vartojamas norint pasakyti, kas kas nors yra (Er ist Arzt), koks jis yra (Das Haus ist groß), kur kas nors yra (Wir sind hier) ir kiek kam metų (Ich bin 20 Jahre alt). Vokiečių kalboje sein niekada nepraleidžiamas, nors lietuviškai galima sakyti „Jis gydytojas“: negalima sakyti „Ich Lehrer“.",
-        "Sein taip pat yra pagalbinis veiksmažodis perfekte su judėjimo ir būsenos kitimo veiksmažodžiais (ich bin gefahren, ich bin gewesen)."
+        "Sein taip pat yra pagalbinis veiksmažodis perfekte su judėjimo ir būsenos kitimo veiksmažodžiais (ich bin gefahren), taip pat su sein ir bleiben (ich bin gewesen)."
       ],
       "examples": [
         {
@@ -25957,7 +25957,7 @@ const A1_WORDS = [
           "lv": "Ką tik grįžtame nuo gydytojo."
         },
         {
-          "de": "Der Zug vom Gleis drei fährt gleich ab.",
+          "de": "Der Zug vom dritten Gleis fährt gleich ab.",
           "lv": "Traukinys nuo trečio kelio tuoj išvyksta."
         },
         {
@@ -27960,7 +27960,7 @@ const A1_WORDS = [
       "translation": "traukinys",
       "explanation": [
         "Pagrindinė mintis: der Zug – vyriškosios giminės daiktavardis, reiškiantis traukinį. Daugiskaita – die Züge (su umliautu). Su prielinksniais: mit dem Zug (traukiniu), im Zug (traukinyje), in den Zug einsteigen (įlipti į traukinį).",
-        "Žodis Zug turi ir kitų reikšmių: ėjimas (žaidime), skersvėjis (der Zug), traukinys į miestą. Šioje kortelėje aptariamas traukinys.",
+        "Žodis Zug turi ir kitų reikšmių: ėjimas (žaidime), skersvėjis (der Zug), charakterio bruožas (Charakterzug). Šioje kortelėje aptariamas traukinys.",
         "Artima reikšmė yra die Bahn – geležinkelis arba traukinys apskritai."
       ],
       "examples": [
@@ -30451,7 +30451,7 @@ const A1_WORDS = [
       "translation": "laikas",
       "explanation": [
         "Pagrindinė mintis: die Zeit yra moteriškosios giminės daiktavardis, daugiskaita die Zeiten. Jis reiškia laiką kaip akimirką, laikotarpį ar galimybę: Ich habe keine Zeit. Zeit haben reiškia turėti laiko (būti laisvam), Zeit brauchen – reikėti laiko.",
-        "Dažnos frazės: zur Zeit / zurzeit (šiuo metu), die Zeit vergeht (laikas bėga), Es ist Zeit (jau laikas). Daugiskaita die Zeiten reiškia epochas ar laikotarpius: in schweren Zeiten.",
+        "Dažnos frazės: zurzeit (šiuo metu), die Zeit vergeht (laikas bėga), Es ist Zeit (jau laikas). Daugiskaita die Zeiten reiškia epochas ar laikotarpius: in schweren Zeiten.",
         "Orai vadinami das Wetter, o ne die Zeit."
       ],
       "examples": [

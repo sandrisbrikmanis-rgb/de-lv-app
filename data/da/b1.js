@@ -2274,7 +2274,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Forstavelsen ab- skilles fra i sætningen: Ich nehme die Brille ab.",
-        "Objektet afgør betydningen: Brille – tage af, Telefon – tage, Gewicht – tabe sig."
+        "Objektet afgør betydningen: Brille – tage af, Telefon – tage, Kilo – tabe sig."
       ],
       "sectionAccents": {
         "explanation": {
@@ -14009,7 +14009,7 @@ const B1_WORDS = [
       "translation": "Derfor",
       "explanation": [
         "Hovedidé: daher er et biord, der udtrykker følge: derfor, af den grund. Det viser, at noget sker af en bestemt grund. Ich war krank, daher bin ich nicht gekommen.",
-        "Ordstilling: daher står først eller midt i sætningen, og udsagnsordet følger lige efter: Daher bleibe ich zu Hause. Ordet indleder ikke en ledsætning.",
+        "Ordstilling: daher står først i sætningen (så følger udsagnsordet lige efter) eller midt i sætningen: Daher bleibe ich zu Hause. Ordet indleder ikke en ledsætning.",
         "Daher kan også betyde derfra: Von daher kommt das Geräusch. I denne betydning er spørgeordet woher?"
       ],
       "examples": [
@@ -15835,7 +15835,7 @@ const B1_WORDS = [
       "translation": "Tredje",
       "explanation": [
         "Hovedidé: dritt er ordenstallet \"tredje\". Som tillægsord har det normalt en endelse: der dritte Tag, die dritte Tür, das dritte Mal. Uden endelse optræder det i udtrykket zu dritt – tre sammen.",
-        "Med tal skriver man: 3. = dritt-. I datoer: der dritte Mai, am dritten Mai. I modsætning til mængdetallet drei (tre) beskriver dritt altid en rækkefølge, ikke en mængde."
+        "Med tal skriver man: 3. = dritt-. I datoer: der dritte Mai, am dritten Mai. I modsætning til mængdetallet drei (tre) beskriver dritt (bortset fra udtrykket zu dritt) en rækkefølge, ikke en mængde."
       ],
       "examples": [
         {
@@ -18933,7 +18933,7 @@ const B1_WORDS = [
         "Øv det sammen med et udsagnsord: Einfluss nehmen, Einfluss ausüben."
       ],
       "important": [
-        "Einfluss kræver forholdsordet auf + akkusativ.",
+        "Einfluss på noget kræver forholdsordet auf + akkusativ.",
         "Der Einfluss er hankøn; i flertal med omlyd: Einflüsse."
       ],
       "sectionAccents": {
@@ -23738,7 +23738,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Hvis noget opstår uden menneskelig handling, siger du entstehen; hvis et menneske skaber det – herstellen eller schaffen.",
+        "Hvis noget selv opstår (den handlende er ikke grundled), siger du entstehen; hvis et menneske skaber det – herstellen eller schaffen.",
         "Førnutid: es ist entstanden."
       ],
       "important": [
@@ -25318,7 +25318,7 @@ const B1_WORDS = [
         "Om kapacitet: Der Saal fasst … Personen."
       ],
       "important": [
-        "Betydningen afhænger af genstanden: Arm – gribe, Gedanke – fatte, Saal – rumme.",
+        "Betydningen afhænger af genstanden: Arm – gribe, es (Ich kann es nicht fassen) – fatte, Saal – rumme.",
         "Fassen i betydningen »gribe« styrer akkusativ: den Ball fassen."
       ],
       "sectionAccents": {
@@ -25478,7 +25478,7 @@ const B1_WORDS = [
       "translation": "Doven",
       "explanation": [
         "Kernen: faul er et tillægsord med to betydninger: doven (et menneske, der ikke har lyst til at arbejde) og rådden (mad, æg, træ). Pas på: det danske ord fæl betyder noget helt andet. I overført betydning er eine faule Ausrede – en dårlig undskyldning.",
-        "Ordet bøjes: ein fauler Schüler, ein fauler Apfel. Gradbøjning: fauler, faulst. Navneord: die Faulheit (dovenskab); udsagnsord: faulenzen – at dovne, at gå og dovne den."
+        "Ordet bøjes: ein fauler Schüler, ein fauler Apfel. Gradbøjning: fauler, am faulsten. Navneord: die Faulheit (dovenskab); udsagnsord: faulenzen – at dovne, at gå og dovne den."
       ],
       "examples": [
         {
@@ -26981,7 +26981,7 @@ const B1_WORDS = [
       "translation": "At fortsætte",
       "explanation": [
         "Kernen: fortfahren er et udsagnsord med adskillelig forstavelse, der betyder at fortsætte et arbejde eller en samtale, man allerede er i gang med. Former: fährt fort, fuhr fort, hat fortgefahren.",
-        "Konstruktioner: mit etwas fortfahren (fortsætte med noget), fortfahren, etwas zu tun (fortsætte med at gøre noget). Det er mere skriftsprogligt end weitermachen og høres ofte i taler og officielt sprog. Sjældent betyder det også at køre bort, og så bruges hjælpeudsagnsordet sein."
+        "Konstruktioner: mit etwas fortfahren (fortsætte med noget), fortfahren, etwas zu tun (fortsætte med at gøre noget). Det er mere skriftsprogligt end weitermachen og høres ofte i taler og officielt sprog. Det betyder også at køre bort, og så bruges hjælpeudsagnsordet sein."
       ],
       "examples": [
         {
@@ -56600,7 +56600,7 @@ const B1_WORDS = [
       "explanation": [
         "Grundbetydning: der Schimmel er et hankønsnavneord, der betyder skimmel eller skimmelsvamp på mad, vægge eller andre fugtige overflader. Samme ord har en anden betydning: en hvid hest – præcis som dansk skimmel.",
         "Flertal er die Schimmel (i begge betydninger). Om skimmelsvamp bruges flertal sjældent, fordi det normalt er et stofnavn: Schimmel an der Wand.",
-        "Heraf er udsagnsordet schimmeln dannet – at mugne: Das Brot schimmelt. Også tillægsformen: Das Brot ist verschimmelt (brødet er mugget)."
+        "Heraf er udsagnsordet schimmeln dannet – at mugne: Das Brot schimmelt. Også af verschimmeln (blive muggen): Das Brot ist verschimmelt (brødet er mugget)."
       ],
       "examples": [
         {
@@ -56633,7 +56633,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "I betydningen hest nævnes der Schimmel ofte sammen med farven: ein weißer Schimmel.",
+        "I betydningen hest betyder der Schimmel allerede en hvid hest, så ein weißer Schimmel er en pleonasme.",
         "Om brød og ost siger du: Das Brot schimmelt eller ist verschimmelt."
       ],
       "important": [
@@ -57822,7 +57822,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Der Schmuck er ikke der Schmutz: Schmuck er smykker, pynt, Schmutz er snavs.",
-        "sich schmücken kan i overført betydning også betyde at pynte sig med lånte fjer (sich mit fremden Federn schmücken)."
+        "Udtrykket sich mit fremden Federn schmücken betyder at pynte sig med lånte fjer."
       ],
       "sectionAccents": {
         "explanation": {
@@ -57935,8 +57935,7 @@ const B1_WORDS = [
           },
           {
             "blue": [
-              "schmücken",
-              "sich schmücken"
+              "schmücken"
             ]
           }
         ]
@@ -64056,7 +64055,7 @@ const B1_WORDS = [
       ],
       "tip": [
         "I hverdagen siger tyskerne bare Strom, ikke Elektrizität: Hast du Strom? – Har du strøm?",
-        "Om en stor flod er der Strom et mere poetisk ord end der Fluss."
+        "Om en stor flod bruger man der Strom; det betegner en større flod end der Fluss."
       ],
       "important": [
         "Der Strom (elektrisk strøm, stor flod) er ikke det samme som die Strömung (strømning i vand eller luft) – selvom begge hedder strøm på dansk.",
@@ -64307,7 +64306,7 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "At styrte",
       "explanation": [
-        "Hovedidé: stürzen betyder at falde eller kaste sig i en voldsom bevægelse: styrte ned fra en højde, styrte ind et sted i hast eller (om priser, en regering) falde brat. Former: stürzt, stürzte, ist gestürzt.",
+        "Hovedidé: stürzen betyder at falde eller kaste sig i en voldsom bevægelse: styrte ned fra en højde, styrte ind et sted i hast eller (om priser) falde brat, (om en regering) falde. Former: stürzt, stürzte, ist gestürzt.",
         "Når nogen selv falder eller skynder sig, bruges hjælpeudsagnsordet sein: Er ist gestürzt. Når nogen vælter nogen (en regering, en leder), er ordet transitivt og bruger haben: Das Volk hat den König gestürzt. Refleksivt betyder sich stürzen auf/in at kaste sig over eller ud i noget: Er stürzt sich in die Arbeit. Med in + akkusativ angives retningen (hvorhen?), med von + dativ hvorfra."
       ],
       "examples": [

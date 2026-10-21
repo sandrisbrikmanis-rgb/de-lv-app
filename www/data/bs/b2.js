@@ -1778,7 +1778,7 @@ const B2_WORDS = [
         "U značenju prigovaranja obično se koristi odrični oblik: nichts auszusetzen haben."
       ],
       "important": [
-        "Kod izlaganja iza aussetzen dolazi dativ (der Gefahr, dem Risiko), a ne akuzativ.",
+        "Kod izlaganja iza aussetzen dolazi dativ (der Gefahr, dem Risiko), a ono što se izlaže stoji u akuzativu (jemanden).",
         "Ne miješajte ausgesetzt sein (biti izložen) i ausgestellt (izložen na izložbi ili izdat)."
       ],
       "sectionAccents": {

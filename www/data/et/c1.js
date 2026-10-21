@@ -960,7 +960,7 @@ const C1_WORDS = [
         "Sarnase tähendusega on sõna die Allgemeinheit (kõik inimesed üldiselt)."
       ],
       "important": [
-        "Mitmust tavaliselt ei kasutata: vormi die Öffentlichkeiten praktiliselt ei esine."
+        "Mitmust tavaliselt ei kasutata: vorm die Öffentlichkeiten esineb harva."
       ],
       "sectionAccents": {
         "explanation": {
@@ -3382,7 +3382,7 @@ const C1_WORDS = [
       "comparison": [
         {
           "word": "festgelegt",
-          "meaning": "kindlaks määratud (kokkuleppel)",
+          "meaning": "kindlaks määratud",
           "example": "Der Plan ist festgelegt. – Plaan on paika pandud."
         },
         {
@@ -3477,7 +3477,7 @@ const C1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "kokkuleppel"
+                "kindlaks määratud"
               ]
             }
           },

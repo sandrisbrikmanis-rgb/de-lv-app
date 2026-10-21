@@ -2278,7 +2278,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Het voorvoegsel ab- wordt in de zin afgesplitst: Ich nehme die Brille ab.",
-        "Het lijdend voorwerp bepaalt de betekenis: Brille – afzetten, Telefon – opnemen, Gewicht – afvallen."
+        "Het lijdend voorwerp bepaalt de betekenis: Brille – afzetten, Telefon – opnemen, Kilo – afvallen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -13990,7 +13990,7 @@ const B1_WORDS = [
       "translation": "daarom",
       "explanation": [
         "Kern: daher is een bijwoord dat een gevolg uitdrukt: daarom, om die reden. Het geeft aan dat iets om een bepaalde reden gebeurt. Ich war krank, daher bin ich nicht gekommen.",
-        "Woordvolgorde: daher staat vooraan of midden in de zin, het werkwoord volgt direct: Daher bleibe ich zu Hause. Het woord leidt geen bijzin in.",
+        "Woordvolgorde: daher staat vooraan (dan volgt het werkwoord direct) of midden in de zin: Daher bleibe ich zu Hause. Het woord leidt geen bijzin in.",
         "Daher kan ook ‘daarvandaan’ betekenen: Von daher kommt das Geräusch. In deze betekenis is de vraag woher?"
       ],
       "examples": [
@@ -15818,7 +15818,7 @@ const B1_WORDS = [
       "translation": "derde • met zijn drieën",
       "explanation": [
         "Kern: dritt is het rangtelwoord ‘derde’. Als bijvoeglijk naamwoord heeft het meestal een uitgang: der dritte Tag, die dritte Tür, das dritte Mal. Zonder uitgang komt het voor in de uitdrukking zu dritt – met zijn drieën.",
-        "In cijfers: 3. = dritt-. Bij data: der dritte Mai, am dritten Mai. Anders dan het hoofdtelwoord drei (drie) geeft dritt altijd een volgorde aan, geen hoeveelheid."
+        "In cijfers: 3. = dritt-. Bij data: der dritte Mai, am dritten Mai. Anders dan het hoofdtelwoord drei (drie) geeft dritt (behalve in zu dritt) een volgorde aan, geen hoeveelheid."
       ],
       "examples": [
         {
@@ -18915,7 +18915,7 @@ const B1_WORDS = [
         "Leer het samen met een werkwoord: Einfluss nehmen, Einfluss ausüben."
       ],
       "important": [
-        "Einfluss vraagt het voorzetsel auf + accusatief.",
+        "Einfluss op iets vraagt het voorzetsel auf + accusatief.",
         "Der Einfluss is mannelijk; het meervoud krijgt een umlaut: Einflüsse."
       ],
       "sectionAccents": {
@@ -23719,7 +23719,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Ontstaat iets zonder menselijk handelen, zeg dan entstehen; maakt een mens het, dan herstellen of schaffen.",
+        "Ontstaat iets vanzelf (de maker is niet het onderwerp), zeg dan entstehen; maakt een mens het, dan herstellen of schaffen.",
         "Voltooide tijd: es ist entstanden."
       ],
       "important": [
@@ -25299,7 +25299,7 @@ const B1_WORDS = [
         "Voor capaciteit: Der Saal fasst … Personen."
       ],
       "important": [
-        "De betekenis hangt af van het object: Arm – grijpen, Gedanke – bevatten, Saal – plaats bieden aan.",
+        "De betekenis hangt af van het object: Arm – grijpen, es (Ich kann es nicht fassen) – bevatten, Saal – plaats bieden aan.",
         "Fassen in de betekenis “grijpen” vraagt de accusatief: den Ball fassen."
       ],
       "sectionAccents": {
@@ -25458,7 +25458,7 @@ const B1_WORDS = [
       "translation": "lui",
       "explanation": [
         "Kernidee: faul is een bijvoeglijk naamwoord met twee betekenissen: lui (iemand die geen zin heeft om te werken) en rot, bedorven (voedsel, eieren, hout). Figuurlijk: faule Ausrede – een slap excuus.",
-        "Het woord wordt verbogen: ein fauler Schüler, ein fauler Apfel. Trappen van vergelijking: fauler, faulst. Zelfstandig naamwoord: die Faulheit (luiheid); werkwoord: faulenzen – luieren, niksen."
+        "Het woord wordt verbogen: ein fauler Schüler, ein fauler Apfel. Trappen van vergelijking: fauler, am faulsten. Zelfstandig naamwoord: die Faulheit (luiheid); werkwoord: faulenzen – luieren, niksen."
       ],
       "examples": [
         {
@@ -26960,7 +26960,7 @@ const B1_WORDS = [
       "translation": "doorgaan • voortgaan",
       "explanation": [
         "Kernidee: fortfahren is een scheidbaar werkwoord dat betekent: doorgaan met werk of een gesprek dat al begonnen is. Vormen: fährt fort, fuhr fort, hat fortgefahren.",
-        "Constructies: mit etwas fortfahren (doorgaan met iets), fortfahren, etwas zu tun (doorgaan met iets te doen). Formeler dan weitermachen; je hoort het vaak in toespraken en officiële taal. Zelden betekent het ook wegrijden, en dan gebruik je het hulpwerkwoord sein."
+        "Constructies: mit etwas fortfahren (doorgaan met iets), fortfahren, etwas zu tun (doorgaan met iets te doen). Formeler dan weitermachen; je hoort het vaak in toespraken en officiële taal. Het betekent ook wegrijden, en dan gebruik je het hulpwerkwoord sein."
       ],
       "examples": [
         {
@@ -40799,7 +40799,7 @@ const B1_WORDS = [
       "explanation": [
         "Hoofdgedachte: kündigen betekent een baan, contract of huur opzeggen — officieel meedelen dat de verbintenis eindigt. Vormen: kündigt, kündigte, hat gekündigt (hulpwerkwoord haben).",
         "Met de accusatief gebruik je de zaak: den Vertrag kündigen, die Wohnung kündigen, den Job kündigen. Met de datief de persoon die ontslagen wordt: Der Chef kündigt dem Mitarbeiter (de baas ontslaat de medewerker). Zonder voorwerp betekent ich habe gekündigt dat je zelf ontslag hebt genomen.",
-        "In wezen is kündigen een officiële stap met een termijn (Kündigungsfrist, opzegtermijn); ontslag door het bedrijf heet entlassen."
+        "In wezen is kündigen een officiële stap met een termijn (Kündigungsfrist, opzegtermijn); ontslag door het bedrijf heet ook entlassen."
       ],
       "examples": [
         {
@@ -56560,7 +56560,7 @@ const B1_WORDS = [
       "explanation": [
         "Kern: der Schimmel is een mannelijk zelfstandig naamwoord voor schimmel op eten, muren of andere vochtige oppervlakken. Hetzelfde woord betekent ook een wit (grijs) paard – precies zoals het Nederlandse schimmel.",
         "Het meervoud is die Schimmel (voor beide betekenissen). Voor schimmel op oppervlakken gebruikt men het meervoud zelden, omdat het meestal een stofnaam is: Schimmel an der Wand.",
-        "Daarvan is het werkwoord schimmeln afgeleid – schimmelen: Das Brot schimmelt. Ook het deelwoord: Das Brot ist verschimmelt (het brood is beschimmeld)."
+        "Daarvan is het werkwoord schimmeln afgeleid – schimmelen: Das Brot schimmelt. Ook van verschimmeln (beschimmelen): Das Brot ist verschimmelt (het brood is beschimmeld)."
       ],
       "examples": [
         {
@@ -56593,7 +56593,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "In de betekenis paard wordt der Schimmel vaak samen met de kleur genoemd: ein weißer Schimmel.",
+        "In de betekenis paard betekent der Schimmel al een wit paard, dus ein weißer Schimmel is een pleonasme.",
         "Bij brood en kaas zeg je: Das Brot schimmelt of ist verschimmelt."
       ],
       "important": [
@@ -57785,7 +57785,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Der Schmuck is niet der Schmutz (vuil): Schmuck – versiering, Schmutz – vuil.",
-        "sich schmücken kan figuurlijk ook betekenen: met andermans verdiensten pronken."
+        "De uitdrukking sich mit fremden Federn schmücken betekent: met andermans verdiensten pronken."
       ],
       "sectionAccents": {
         "explanation": {
@@ -57898,8 +57898,7 @@ const B1_WORDS = [
           },
           {
             "blue": [
-              "schmücken",
-              "sich schmücken"
+              "schmücken"
             ]
           }
         ]
@@ -64022,7 +64021,7 @@ const B1_WORDS = [
       ],
       "tip": [
         "In het dagelijks leven zeggen Duitsers gewoon Strom, niet Elektrizität: Hast du Strom? – Heb je stroom?",
-        "Als het om een grote rivier gaat, is der Strom een poëtischer woord dan der Fluss."
+        "Als het om een grote rivier gaat, zeg je der Strom: dat is een grotere rivier dan der Fluss."
       ],
       "important": [
         "Der Strom (elektrische stroom, grote rivier) is niet hetzelfde als die Strömung (stroming in water of lucht).",
@@ -64273,7 +64272,7 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "vallen • storten",
       "explanation": [
-        "Kerngedachte: stürzen betekent met een snelle beweging vallen of zich storten: van een hoogte vallen, ergens naartoe snellen of (bij prijzen, een regering) sterk dalen. Vormen: stürzt, stürzte, ist gestürzt.",
+        "Kerngedachte: stürzen betekent met een snelle beweging vallen of zich storten: van een hoogte vallen, ergens naartoe snellen of (bij prijzen) sterk dalen, (bij een regering) vallen. Vormen: stürzt, stürzte, ist gestürzt.",
         "Als iemand zelf valt of snelt, gebruik je het hulpwerkwoord sein: Er ist gestürzt. Als iemand een ander ten val brengt (een regering, een leider), is het werkwoord overgankelijk en gebruik je haben: Das Volk hat den König gestürzt. Wederkerend betekent sich stürzen auf/in zich storten op/in: Er stürzt sich in die Arbeit. Met in + accusatief geef je een richting aan (waarheen?), met von + datief waarvandaan."
       ],
       "examples": [

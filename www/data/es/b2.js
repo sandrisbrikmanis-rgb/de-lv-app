@@ -1782,7 +1782,7 @@ const B2_WORDS = [
         "Con el sentido de poner reparos suele usarse en negativo: nichts auszusetzen haben."
       ],
       "important": [
-        "Con el sentido de exponer, aussetzen rige dativo (der Gefahr, dem Risiko), no acusativo.",
+        "Con el sentido de exponer, aussetzen rige dativo (der Gefahr, dem Risiko), y lo expuesto va en acusativo (jemanden).",
         "No confundas ausgesetzt sein (estar expuesto) con ausgestellt (exhibido o expedido)."
       ],
       "sectionAccents": {
@@ -6104,7 +6104,7 @@ const B2_WORDS = [
       "translation": "contratar",
       "explanation": [
         "Idea principal: dingen es un verbo poco frecuente y anticuado que significa contratar (a una persona a cambio de un pago para un trabajo). Hoy se oye sobre todo en la expresión ein gedungener Mörder (un asesino a sueldo) y en textos históricos.",
-        "Formas: dingt, dang, hat gedungen (también existe la forma regular dingte, gedingt). Típicamente se contratan Söldner, Mörder, Führer. En el día a día se dice anheuern o engagieren.",
+        "Formas: dingt, dingte (más raramente dang), hat gedungen (más raramente gedingt). Típicamente se contratan Söldner, Mörder, Führer. En el día a día se dice anheuern o engagieren.",
         "Dingen rige acusativo: jemanden dingen."
       ],
       "examples": [
@@ -6144,7 +6144,7 @@ const B2_WORDS = [
       ],
       "important": [
         "Dingen es una palabra literaria o histórica; en el habla cotidiana sonaría extraña.",
-        "Las formas varían (dang/gedungen y dingte/gedingt); se usa sobre todo la forma fuerte."
+        "Las formas varían (dang/gedungen y dingte/gedingt); en pasado suele usarse dingte, y en el participio, gedungen."
       ],
       "sectionAccents": {
         "explanation": {

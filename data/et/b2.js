@@ -1781,7 +1781,7 @@ const B2_WORDS = [
         "Etteheitmise tähenduses kasutatakse tavaliselt eitavat vormi: nichts auszusetzen haben."
       ],
       "important": [
-        "Mõjule jätmise tähenduses järgneb sõnale aussetzen datiiv (der Gefahr, dem Risiko), mitte akusatiiv.",
+        "Mõjule jätmise tähenduses järgneb sõnale aussetzen datiiv (der Gefahr, dem Risiko), kuid allutatav on akusatiivis (jemanden).",
         "Ära aja segi ausgesetzt sein (millegi mõjule allutatud olema) ja ausgestellt (välja pandud või välja antud)."
       ],
       "sectionAccents": {
@@ -6097,7 +6097,7 @@ const B2_WORDS = [
       "translation": "palkama",
       "explanation": [
         "Põhiidee: dingen on haruldane, vananenud tegusõna, mis tähendab (inimest tasu eest mingiks tööks) palkama. Tänapäeval kuuleb seda peamiselt väljendis ein gedungener Mörder (palgamõrvar) ja ajaloolistes tekstides.",
-        "Põhivormid: dingt, dang, hat gedungen (esineb ka nõrk vorm dingte, gedingt). Tavaliselt palgatakse Söldner, Mörder, Führer. Igapäevakeeles öeldakse anheuern või engagieren.",
+        "Põhivormid: dingt, dingte (harvemini dang), hat gedungen (harvemini gedingt). Tavaliselt palgatakse Söldner, Mörder, Führer. Igapäevakeeles öeldakse anheuern või engagieren.",
         "Sõnale dingen järgneb akusatiiv: jemanden dingen."
       ],
       "examples": [
@@ -6137,7 +6137,7 @@ const B2_WORDS = [
       ],
       "important": [
         "Dingen on kirjanduslik või ajalooline sõna; igapäevakõnes kõlaks see veidralt.",
-        "Vormid kõiguvad (dang/gedungen ja dingte/gedingt); peamiselt kasutatakse tugevaid vorme."
+        "Vormid kõiguvad (dang/gedungen ja dingte/gedingt); minevikus kasutatakse tavaliselt dingte, kesksõnana gedungen."
       ],
       "sectionAccents": {
         "explanation": {

@@ -2278,7 +2278,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Sakinyje priešdėlis ab- atskiriamas: Ich nehme die Brille ab.",
-        "Reikšmę lemia objektas: Brille – nuimti, Telefon – pakelti, Gewicht – numesti."
+        "Reikšmę lemia objektas: Brille – nuimti, Telefon – pakelti, Kilo – numesti."
       ],
       "sectionAccents": {
         "explanation": {
@@ -13990,7 +13990,7 @@ const B1_WORDS = [
       "translation": "todėl",
       "explanation": [
         "Pagrindinė mintis: daher yra prieveiksmis, išreiškiantis pasekmę: todėl, dėl to. Jis rodo, kad kažkas vyksta dėl tam tikros priežasties. Ich war krank, daher bin ich nicht gekommen.",
-        "Žodžių tvarka: daher būna sakinio pradžioje arba viduryje, veiksmažodis eina iškart po jo: Daher bleibe ich zu Hause. Šis žodis neįveda šalutinio sakinio.",
+        "Žodžių tvarka: daher būna sakinio pradžioje (tada veiksmažodis eina iškart po jo) arba viduryje: Daher bleibe ich zu Hause. Šis žodis neįveda šalutinio sakinio.",
         "Daher gali reikšti ir iš ten: Von daher kommt das Geräusch. Šia reikšme klausiama woher?"
       ],
       "examples": [
@@ -15819,7 +15819,7 @@ const B1_WORDS = [
       "translation": "trečias • trise",
       "explanation": [
         "Pagrindinė mintis: dritt yra kelintinis skaitvardis „trečias“. Kaip būdvardis jis paprastai turi galūnę: der dritte Tag, die dritte Tür, das dritte Mal. Be galūnės jis pasitaiko junginyje zu dritt – trise.",
-        "Rašant skaitmenimis: 3. = dritt-. Datose: der dritte Mai, am dritten Mai. Skirtingai nei skaitvardis drei (trys), dritt visada nusako eilę, o ne kiekį."
+        "Rašant skaitmenimis: 3. = dritt-. Datose: der dritte Mai, am dritten Mai. Skirtingai nei skaitvardis drei (trys), dritt (išskyrus frazę zu dritt) nusako eilę, o ne kiekį."
       ],
       "examples": [
         {
@@ -18730,7 +18730,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Jei nori tiesiog pasakyti „vienspalvis“, vartok einfarbig; jei nori įvardyti spalvą, sakyk uni arba tiesiog spalvos pavadinimą.",
+        "Jei nori tiesiog pasakyti „vienspalvis“, vartok einfarbig; jei nori įvardyti spalvą, sakyk tiesiog spalvos pavadinimą; sinonimas – uni.",
         "Palygink su zweifarbig (dvispalvis) ir dreifarbig."
       ],
       "important": [
@@ -18916,7 +18916,7 @@ const B1_WORDS = [
         "Išmok kartu su veiksmažodžiu: Einfluss nehmen, Einfluss ausüben."
       ],
       "important": [
-        "Einfluss reikalauja prielinksnio auf + Akkusativ.",
+        "Einfluss į ką nors reikalauja prielinksnio auf + Akkusativ.",
         "Der Einfluss yra vyriškosios giminės; daugiskaita su umliautu: Einflüsse."
       ],
       "sectionAccents": {
@@ -23720,7 +23720,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Jei kažkas atsiranda be žmogaus veiksmo, sakyk entstehen; jei žmogus tai sukuria – herstellen arba schaffen.",
+        "Jei kažkas pats atsiranda (veikėjas nėra veiksnys), sakyk entstehen; jei žmogus tai sukuria – herstellen arba schaffen.",
         "Perfektas: es ist entstanden."
       ],
       "important": [
@@ -25300,7 +25300,7 @@ const B1_WORDS = [
         "Talpai nusakyti: Der Saal fasst … Personen."
       ],
       "important": [
-        "Reikšmė priklauso nuo objekto: Arm – sugriebti, Gedanke – suvokti, Saal – talpinti.",
+        "Reikšmė priklauso nuo objekto: Arm – sugriebti, es (Ich kann es nicht fassen) – suvokti, Saal – talpinti.",
         "Fassen reikšme „sugriebti“ reikalauja galininko (Akkusativ): den Ball fassen."
       ],
       "sectionAccents": {
@@ -25459,7 +25459,7 @@ const B1_WORDS = [
       "translation": "tingus",
       "explanation": [
         "Pagrindinė mintis: faul yra būdvardis su dviem reikšmėmis: tingus (žmogus, kuris nenori dirbti) ir supuvęs (maistas, kiaušiniai, medis). Perkeltine reikšme faule Ausrede – neįtikinamas pasiteisinimas.",
-        "Žodis linksniuojamas: ein fauler Schüler, ein fauler Apfel. Laipsniavimas: fauler, faulst. Daiktavardis: die Faulheit (tingumas); veiksmažodis: faulenzen – tinginiauti, dykinėti."
+        "Žodis linksniuojamas: ein fauler Schüler, ein fauler Apfel. Laipsniavimas: fauler, am faulsten. Daiktavardis: die Faulheit (tingumas); veiksmažodis: faulenzen – tinginiauti, dykinėti."
       ],
       "examples": [
         {
@@ -26961,7 +26961,7 @@ const B1_WORDS = [
       "translation": "tęsti",
       "explanation": [
         "Pagrindinė mintis: fortfahren yra skiriamasis veiksmažodis, reiškiantis tęsti jau pradėtą darbą ar pokalbį. Formos: fährt fort, fuhr fort, hat fortgefahren.",
-        "Konstrukcijos: mit etwas fortfahren (tęsti ką), fortfahren, etwas zu tun (toliau ką daryti). Knyginis žodis nei weitermachen, dažnai girdimas kalbose ir oficialioje kalboje. Retai reiškia ir išvažiuoti, ir tada vartojamas pagalbinis veiksmažodis sein."
+        "Konstrukcijos: mit etwas fortfahren (tęsti ką), fortfahren, etwas zu tun (toliau ką daryti). Knyginis žodis nei weitermachen, dažnai girdimas kalbose ir oficialioje kalboje. Taip pat reiškia išvažiuoti, ir tada vartojamas pagalbinis veiksmažodis sein."
       ],
       "examples": [
         {
@@ -40801,7 +40801,7 @@ const B1_WORDS = [
       "explanation": [
         "Pagrindinė mintis: kündigen reiškia nutraukti darbo, kitą sutartį ar nuomą — oficialiai pranešti, kad santykiai baigsis. Formos: kündigt, kündigte, hat gekündigt (pagalbinis veiksmažodis haben).",
         "Su Akkusativ vartojamas daiktas: den Vertrag kündigen, die Wohnung kündigen, den Job kündigen. Su Dativ vartojamas asmuo, su kuriuo nutraukiama darbo sutartis: Der Chef kündigt dem Mitarbeiter (viršininkas atleidžia darbuotoją). Be papildinio ich habe gekündigt reiškia, kad pats išėjau iš darbo.",
-        "Iš esmės kündigen yra oficialus žingsnis su terminu (Kündigungsfrist); atleidimas įmonės vardu vadinamas entlassen."
+        "Iš esmės kündigen yra oficialus žingsnis su terminu (Kündigungsfrist); atleidimas įmonės vardu vadinamas ir entlassen."
       ],
       "examples": [
         {
@@ -41062,7 +41062,7 @@ const B1_WORDS = [
       "translation": "sujungti",
       "explanation": [
         "Pagrindinė mintis: kuppeln reiškia techniškai sujungti, sukabinti — pavyzdžiui, vagonus ar priekabą. Vairuojant tai reiškia nuspausti sankabą (die Kupplung) perjungiant pavaras. Formos: kuppelt, kuppelte, hat gekuppelt.",
-        "Technine reikšme dažnai vartojamas su priešdėliu: ankuppeln (prikabinti), abkuppeln (atkabinti), zusammenkuppeln (sukabinti kartu). Žodis kilęs iš die Kupplung (sankaba, jungtis).",
+        "Technine reikšme dažnai vartojamas su priešdėliu: ankuppeln (prikabinti), abkuppeln (atkabinti), zusammenkuppeln (sukabinti kartu). Iš jo padarytas daiktavardis die Kupplung (sankaba, jungtis).",
         "Perkeltine reikšme žodis verkuppeln reiškia piršti, suvesti porą (skatinti du žmones užmegzti santykius), ir dažnai turi priekaištingą atspalvį."
       ],
       "examples": [
@@ -56563,7 +56563,7 @@ const B1_WORDS = [
       "explanation": [
         "Pagrindinė mintis: der Schimmel yra vyriškosios giminės daiktavardis, reiškiantis pelėsį ant maisto, sienų ar kitų drėgnų paviršių. Kita to paties žodžio reikšmė – baltas (širmas) arklys.",
         "Daugiskaita – die Schimmel (abiem reikšmėmis). Pelėsiui daugiskaita vartojama retai, nes tai paprastai medžiagos pavadinimas: Schimmel an der Wand.",
-        "Iš jo padarytas veiksmažodis schimmeln – pelyti: Das Brot schimmelt. Taip pat dalyvis: Das Brot ist verschimmelt (duona supelijusi)."
+        "Iš jo padarytas veiksmažodis schimmeln – pelyti: Das Brot schimmelt. Taip pat iš verschimmeln (supelyti): Das Brot ist verschimmelt (duona supelijusi)."
       ],
       "examples": [
         {
@@ -56596,7 +56596,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Reikšme „arklys“ der Schimmel dažnai vartojamas su spalva: ein weißer Schimmel.",
+        "Reikšme „arklys“ der Schimmel jau reiškia baltą arklį, todėl ein weißer Schimmel yra pleonazmas.",
         "Apie duoną ir sūrį sakyk: Das Brot schimmelt arba ist verschimmelt."
       ],
       "important": [
@@ -57788,7 +57788,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Der Schmuck nėra der Schmutz (purvas): Schmuck – papuošalas, Schmutz – nešvarumai.",
-        "sich schmücken perkeltine reikšme gali reikšti ir girtis svetimais nuopelnais."
+        "Posakis sich mit fremden Federn schmücken reiškia girtis svetimais nuopelnais."
       ],
       "sectionAccents": {
         "explanation": {
@@ -57901,8 +57901,7 @@ const B1_WORDS = [
           },
           {
             "blue": [
-              "schmücken",
-              "sich schmücken"
+              "schmücken"
             ]
           }
         ]
@@ -64029,7 +64028,7 @@ const B1_WORDS = [
       ],
       "tip": [
         "Kasdien vokiečiai sako tiesiog Strom, o ne Elektrizität: Hast du Strom? – Ar turi elektros?",
-        "Kalbant apie didelę upę, der Strom yra poetiškesnis žodis nei der Fluss."
+        "Kalbant apie didelę upę, der Strom reiškia didesnę upę nei der Fluss."
       ],
       "important": [
         "Der Strom (elektros srovė, didelė upė) nėra tas pats, kas die Strömung (vandens ar oro tėkmė).",
@@ -64280,7 +64279,7 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "griūti",
       "explanation": [
-        "Pagrindinė mintis: stürzen reiškia staigiai kristi ar pulti: nukristi iš aukščio, greitai įpulti arba (apie kainas, vyriausybę) staigiai kristi. Formos: stürzt, stürzte, ist gestürzt.",
+        "Pagrindinė mintis: stürzen reiškia staigiai kristi ar pulti: nukristi iš aukščio, greitai įpulti arba (apie kainas) staigiai kristi, (apie vyriausybę) žlugti. Formos: stürzt, stürzte, ist gestürzt.",
         "Kai kas nors krinta ar skuba pats, vartojamas pagalbinis veiksmažodis sein: Er ist gestürzt. Jei kas nors ką nors nuverčia (vyriausybę, vadovą), veiksmažodis yra galininkinis ir vartojamas haben: Das Volk hat den König gestürzt. Sangrąžinis sich stürzen auf/in reiškia pulti ant ko nors arba pasinerti: Er stürzt sich in die Arbeit. Su in + Akkusativ nurodoma kryptis (kur?), su von + Dativ – iš kur."
       ],
       "examples": [

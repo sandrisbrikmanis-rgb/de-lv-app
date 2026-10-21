@@ -2768,7 +2768,7 @@ const A2_WORDS = [
       "translation": "ufeieren",
       "explanation": [
         "Haaptiddi: anheizen bedeit ufeieren oder ufänken ze hëtzen (en Uewen, e Cheminée, e Kessel). Et ass en trennbaart Verb: ich heize den Ofen an.",
-        "Formen: heizt an, heizte an, hat angeheizt. Am Perfekt benotzt een haben, an de Präfix an- gëtt am Saz ofgetrennt.",
+        "Formen: heizt an, heizte an, hat angeheizt. Am Perfekt benotzt een haben; am Presens an am Präteritum gëtt de Präfix an- am Saz ofgetrennt.",
         "Am iwwerdroene Sënn bedeit anheizen ophëtzen, méi staark maachen: die Stimmung anheizen (d'Stëmmung ophëtzen), die Diskussion anheizen (d'Diskussioun ufeieren)."
       ],
       "examples": [
@@ -5278,7 +5278,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Geet et ëm eng Schoul, e Veräin oder e Spidol, denk un Opnam; bei Musek oder Video un eng Toun- oder Videoopnam; bei engem Fotoapparat un eng Foto.",
-        "Mat machen an in drécks du eng Foto oder eng Opnam aus: eine Aufnahme machen."
+        "Mat machen drécks du eng Foto oder eng Opnam aus, mat in d'Opnam an eng Grupp oder Institutioun: eine Aufnahme machen."
       ],
       "important": [
         "Aufnahme ass weiblech: die Aufnahme, am Plural die Aufnahmen.",
@@ -6420,7 +6420,7 @@ const A2_WORDS = [
       "translation": "opwenden • ausginn",
       "explanation": [
         "Haaptiddi: aufwenden ass en trennbaart Verb, dat heescht fir en Zil opwenden oder investéieren (Zäit, Suen, Méi, Energie). Et gehéiert zu enger méi gehuewener Sprooch.",
-        "Formen: wendet auf, wendete auf (och wandte auf), hat aufgewendet (och aufgewandt). Et gëtt meeschtens mat zu oder für gebraucht: Zeit für etwas aufwenden.",
+        "Formen: wendet auf, wendete auf (och wandte auf), hat aufgewendet (och aufgewandt). Et gëtt meeschtens mat für gebraucht: Zeit für etwas aufwenden.",
         "Dat verwandt Substantiv ass der Aufwand (Opwand, Käschten, Ausgaben), z. B. mat vill Opwand."
       ],
       "examples": [
@@ -21993,7 +21993,7 @@ const A2_WORDS = [
       "explanation": [
         "Haaptiddi: hängen sinn zwee verschidde Verben. Dat intransitiivt hängen bedeit hänken (eppes ass opgehaangen, z. B. e Bild un der Mauer), dat transitiivt hängen bedeit ophänken (ech hänken eppes op).",
         "Intransitiv: hängen, hing, hat gehangen (am Süde vun Däitschland dacks ist gehangen). Fro Wo? an Dativ: Das Bild hängt an der Wand. Transitiv ass regelméisseg: hängen, hängte, hat gehängt. Fro Wohin? an Akkusativ: Ich hänge das Bild an die Wand.",
-        "Wéi beim Paar liegen / legen ënnerscheet ee Zoustand an Handlung net um Infinitiv, mee un de Formen an um Fall."
+        "Anescht wéi beim Paar liegen / legen ënnerscheet ee hei Zoustand an Handlung net um Infinitiv, mee un de Formen an um Fall."
       ],
       "examples": [
         {
@@ -23022,7 +23022,7 @@ const A2_WORDS = [
         {
           "word": "dadurch, dass",
           "meaning": "doduerch, datt",
-          "example": "Er gewinnt, dadurch dass er übt. – Hie gewënnt doduerch, datt hien übt."
+          "example": "Er gewinnt dadurch, dass er übt. – Hie gewënnt doduerch, datt hien übt."
         }
       ],
       "tip": [
@@ -23345,7 +23345,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Verwiessel je net mat jede (all, jiddereen) a mat ja (jo).",
-        "No je mat enger Zuel bleift d'Nomen dacks am Singular: je Stück, je Person."
+        "No je ouni Zuelwuert steet d'Nomen am Singular: je Stück, je Person."
       ],
       "sectionAccents": {
         "explanation": {
@@ -24460,7 +24460,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "D'Wierder in den Keller (wouhin?) an im Keller (wou?) hëllefen, den Ënnerscheed tëscht Dativ an Akkusativ ze behalen.",
+        "D'Wierder in den Keller (wouhin?) an im Keller (wou?) hëllefen, den Ënnerscheed tëscht Akkusativ an Dativ ze behalen.",
         "D'Stäck vun engem Haus: der Keller, das Erdgeschoss, der erste Stock."
       ],
       "important": [
@@ -25016,7 +25016,7 @@ const A2_WORDS = [
         "Eng Persoun oder eng Plaz kenns du — dat dréckt kennen aus; e Fakt weess du — dat dréckt wissen aus."
       ],
       "important": [
-        "Mam Akkusativ gëtt wissen seele gebraucht an haaptsächlech mat Pronomen: Ich weiß das, Ich weiß es; eng Persoun ka mat wissen net gemengt sinn.",
+        "Mam Akkusativ gëtt wissen mat Pronomen oder mat Wierder fir Informatioun (die Antwort, den Weg) gebraucht: Ich weiß das, Ich weiß es; eng Persoun ka mat wissen net gemengt sinn.",
         "Fir e Kënnen brauch ee können: Ich kann schwimmen, net Ich weiß schwimmen."
       ],
       "sectionAccents": {
@@ -30849,7 +30849,7 @@ const A2_WORDS = [
         "Hier ist viel los heescht Hei ass vill lass."
       ],
       "important": [
-        "Los gëtt haaptsächlech mat sein gebraucht; virun engem Substantiv steet d'Form lose: ein loser Knopf.",
+        "Los gëtt haaptsächlech mat sein gebraucht; virun engem Substantiv benotzt een dat verwandt Wuert lose: ein loser Knopf.",
         "Verwiessel et net mat das Los (Lotterieslos, Schicksal) a mat locker (wackeleg, net fest)."
       ],
       "sectionAccents": {
@@ -45407,7 +45407,7 @@ const A2_WORDS = [
       "translation": "wiesselen",
       "explanation": [
         "Haaptiddi: wechseln ass e Verb: wechselt, wechselte, hat gewechselt. Et heescht, eng Saach géint eng aner wiesselen oder tauschen, zum Beispill Suen, d'Schoul, d'Aarbecht, d'Kleeder.",
-        "Meeschtens mam Akkusativ an dem Hëllefsverb haben: Er hat den Job gewechselt. Wann den Iwwergank op eng aner Plaz oder an en aneren Zoustand betount gëtt, geet och sein: Die Ampel ist auf Grün gewechselt.",
+        "Meeschtens mam Akkusativ an dem Hëllefsverb haben: Er hat den Job gewechselt. Wann den Iwwergank op eng aner Plaz betount gëtt, geet och sein: Er ist zu einem anderen Verein gewechselt.",
         "An der Bank heescht Geld wechseln, Suen an eng aner Wärung oder a Klengs wiesselen. D'Nomen ass der Wechsel (de Wiessel)."
       ],
       "examples": [
@@ -46948,7 +46948,7 @@ const A2_WORDS = [
       "translation": "de Moment • zurzäit",
       "explanation": [
         "Haaptiddi: zurzeit ass en Adverb mat der Bedeitung de Moment, momentan. Et beschreift en Zoustand an enger Period an der Géigewaart, deen sech spéider ännere kann.",
-        "D'Ofkierzung ass z. Z. D'Wuert gëtt net flektéiert. Synonymer sinn derzeit an im Moment.",
+        "D'Ofkierzung ass zz. oder zzt. D'Wuert gëtt net flektéiert. Synonymer sinn derzeit an im Moment.",
         "Schreifweis: zurzeit an engem Wuert heescht de Moment. An zwee Wierder heescht zur Zeit + Genitiv „zu der Zäit vun“: zur Zeit Goethes (zu der Zäit vum Goethe)."
       ],
       "examples": [
@@ -49466,7 +49466,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "De Géigendeel vu schon ass noch (nach): Bist du schon da? – Nein, noch nicht.",
+        "De Géigendeel vu schon ass noch nicht (nach net): Bist du schon da? – Nein, noch nicht.",
         "bereits ass méi formell wéi schon, d'Bedeitung ass déiselwecht."
       ],
       "important": [

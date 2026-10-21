@@ -959,7 +959,7 @@ const C1_WORDS = [
         "Līdzīga nozīme ir vārdam die Allgemeinheit (visi cilvēki kopumā)."
       ],
       "important": [
-        "Daudzskaitli parasti nelieto: nav die Öffentlichkeiten."
+        "Daudzskaitli parasti nelieto: die Öffentlichkeiten ir reti sastopams."
       ],
       "sectionAccents": {
         "explanation": {
@@ -3380,7 +3380,7 @@ const C1_WORDS = [
       "comparison": [
         {
           "word": "festgelegt",
-          "meaning": "noteikts (vienojoties)",
+          "meaning": "noteikts",
           "example": "Der Plan ist festgelegt. – Plāns ir noteikts."
         },
         {

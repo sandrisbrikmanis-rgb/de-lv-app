@@ -5024,7 +5024,7 @@ const A1_WORDS = [
       "translation": "dat",
       "explanation": [
         "Kern: dass is het onderschikkende voegwoord 'dat', dat een bijzin inleidt na woorden als sagen, wissen, denken, hoffen en uitdrukkingen als Es ist schön …: Ich weiß, dass du müde bist.",
-        "Vóór dass staat altijd een komma (in het Nederlands meestal niet). In de bijzin staat de persoonsvorm aan het eind: …, dass er keine Zeit hat.",
+        "Vóór dass midden in de zin staat altijd een komma (in het Nederlands meestal niet). In de bijzin staat de persoonsvorm aan het eind: …, dass er keine Zeit hat.",
         "Dass schrijf je met dubbel s. Het onzijdige lidwoord en aanwijzend voornaamwoord das is een ander woord."
       ],
       "examples": [
@@ -6881,7 +6881,7 @@ const A1_WORDS = [
       "translation": "iets • een beetje",
       "explanation": [
         "Kern: etwas is een onbepaald voornaamwoord, 'iets': Ich möchte etwas trinken, Hast du etwas Neues? Het verandert niet van vorm en geldt als onzijdig enkelvoud.",
-        "Na etwas wordt een bijvoeglijk naamwoord als zelfstandig naamwoord geschreven, met hoofdletter en de uitgang -es: etwas Neues (iets nieuws), etwas Gutes, etwas anderes.",
+        "Na etwas wordt een bijvoeglijk naamwoord als zelfstandig naamwoord geschreven, met hoofdletter en de uitgang -es: etwas Neues (iets nieuws), etwas Gutes (maar etwas anderes meestal met een kleine letter).",
         "Etwas kan ook 'een beetje, wat' betekenen: etwas Zeit (wat tijd), etwas müde (een beetje moe)."
       ],
       "examples": [
@@ -16842,7 +16842,7 @@ const A1_WORDS = [
       "translation": "liter",
       "explanation": [
         "Kern: der Liter is een inhoudsmaat – liter. Je gebruikt het bij vloeistoffen: Milch, Wasser, Benzin.",
-        "Meervoud: die Liter (zonder uitgang). Na een getal verandert de maateenheid niet, en het volgende zelfstandig naamwoord volgt zonder voorzetsel: zwei Liter Milch (twee liter melk), drei Liter Wasser. Der Liter is mannelijk; in de spreektaal hoor je soms ook das Liter.",
+        "Meervoud: die Liter (zonder uitgang). Na een getal verandert de maateenheid niet, en het volgende zelfstandig naamwoord volgt zonder voorzetsel: zwei Liter Milch (twee liter melk), drei Liter Wasser. Der Liter is mannelijk; soms hoor je ook das Liter.",
         "Afkorting l: 1 l = 1000 Milliliter (ml, milliliter)."
       ],
       "examples": [
@@ -22788,7 +22788,7 @@ const A1_WORDS = [
       "explanation": [
         "Kern: sein is het Duitse basiswerkwoord ‘zijn’. Het is onregelmatig: ich bin, du bist, er/sie/es ist, wir sind, ihr seid, sie/Sie sind; verleden tijd war, voltooide tijd ist gewesen.",
         "Je gebruikt het om te zeggen wie iemand is (Er ist Arzt), hoe iets is (Das Haus ist groß), waar iemand is (Wir sind hier) en hoe oud iemand is (Ich bin 20 Jahre alt). In het Duits wordt sein nooit weggelaten: je kunt niet zeggen ‘Ich Lehrer’.",
-        "Sein is ook hulpwerkwoord in de voltooide tijd bij werkwoorden van beweging en verandering van toestand (ich bin gefahren, ich bin gewesen)."
+        "Sein is ook hulpwerkwoord in de voltooide tijd bij werkwoorden van beweging en verandering van toestand (ich bin gefahren), en ook bij sein en bleiben (ich bin gewesen)."
       ],
       "examples": [
         {
@@ -25950,7 +25950,7 @@ const A1_WORDS = [
           "lv": "We komen net van de dokter."
         },
         {
-          "de": "Der Zug vom Gleis drei fährt gleich ab.",
+          "de": "Der Zug vom dritten Gleis fährt gleich ab.",
           "lv": "De trein van spoor drie vertrekt zo."
         },
         {
@@ -30437,7 +30437,7 @@ const A1_WORDS = [
       "translation": "tijd",
       "explanation": [
         "Kerngedachte: die Zeit is een vrouwelijk zelfstandig naamwoord, meervoud die Zeiten. Het betekent tijd als moment, periode of gelegenheid: Ich habe keine Zeit. Zeit haben is vrij zijn, Zeit brauchen is tijd nodig hebben.",
-        "Veelgebruikte uitdrukkingen: zur Zeit / zurzeit (op dit moment), die Zeit vergeht (de tijd gaat voorbij), Es ist Zeit (het is tijd). In het meervoud betekent die Zeiten tijdperken of periodes: in schweren Zeiten.",
+        "Veelgebruikte uitdrukkingen: zurzeit (op dit moment), die Zeit vergeht (de tijd gaat voorbij), Es ist Zeit (het is tijd). In het meervoud betekent die Zeiten tijdperken of periodes: in schweren Zeiten.",
         "Het weer heet das Wetter, niet die Zeit."
       ],
       "examples": [

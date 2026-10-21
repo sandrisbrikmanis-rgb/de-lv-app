@@ -2768,7 +2768,7 @@ const A2_WORDS = [
       "translation": "allumer",
       "explanation": [
         "Idée principale : anheizen signifie allumer ou commencer à chauffer (un poêle, une cheminée, une chaudière). C'est un verbe séparable : ich heize den Ofen an.",
-        "Formes : heizt an, heizte an, hat angeheizt. Au parfait, on emploie haben, et la particule an- se détache dans la phrase.",
+        "Formes : heizt an, heizte an, hat angeheizt. Au parfait, on emploie haben ; au présent et au prétérit, la particule an- se détache dans la phrase.",
         "Au sens figuré, anheizen signifie attiser, intensifier : die Stimmung anheizen (chauffer l'ambiance), die Diskussion anheizen (attiser la discussion)."
       ],
       "examples": [
@@ -5281,7 +5281,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "S'il s'agit d'une école, d'un club ou d'un hôpital, pense à admission ; de musique ou de vidéo, à enregistrement ; d'appareil photo, à photo.",
-        "Avec machen et in, on exprime une prise de vue ou une admission : eine Aufnahme machen."
+        "Avec machen, on exprime une prise de vue ou un enregistrement, avec in – une admission : eine Aufnahme machen."
       ],
       "important": [
         "Aufnahme est féminin : die Aufnahme, au pluriel die Aufnahmen.",
@@ -6424,7 +6424,7 @@ const A2_WORDS = [
       "translation": "consacrer",
       "explanation": [
         "Idée principale : aufwenden est un verbe séparable qui signifie consacrer ou investir (du temps, de l'argent, des efforts, de l'énergie) dans un but. Il appartient à une langue plus soutenue.",
-        "Formes : wendet auf, wendete auf (aussi wandte auf), hat aufgewendet (aussi aufgewandt). On l'emploie généralement avec zu ou für : Zeit für etwas aufwenden.",
+        "Formes : wendet auf, wendete auf (aussi wandte auf), hat aufgewendet (aussi aufgewandt). On l'emploie généralement avec für : Zeit für etwas aufwenden.",
         "Le nom apparenté est der Aufwand (effort, coûts, dépense) : mit großem Aufwand (avec beaucoup d'efforts)."
       ],
       "examples": [
@@ -23027,7 +23027,7 @@ const A2_WORDS = [
         {
           "word": "dadurch, dass",
           "meaning": "du fait que, par le fait que",
-          "example": "Er gewinnt, dadurch dass er übt. – Il gagne en s'entraînant."
+          "example": "Er gewinnt dadurch, dass er übt. – Il gagne en s'entraînant."
         }
       ],
       "tip": [
@@ -23350,7 +23350,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Ne confonds pas je avec jede (chaque) ni avec ja (oui).",
-        "Après je suivi d'un nombre, le nom reste souvent au singulier : je Stück, je Person."
+        "Après je sans nombre, le nom est au singulier : je Stück, je Person."
       ],
       "sectionAccents": {
         "explanation": {
@@ -25021,7 +25021,7 @@ const A2_WORDS = [
         "Une personne ou un lieu, on les connaît : kennen ; un fait, on le sait : wissen."
       ],
       "important": [
-        "Avec un accusatif, wissen s'emploie rarement, et surtout avec des pronoms : Ich weiß das, Ich weiß es ; on ne peut pas « savoir » une personne avec wissen.",
+        "Avec un accusatif, wissen s'emploie avec des pronoms ou des noms d'information (die Antwort, den Weg) : Ich weiß das, Ich weiß es ; on ne peut pas « savoir » une personne avec wissen.",
         "Pour une compétence, on emploie können : Ich kann schwimmen, et non Ich weiß schwimmen."
       ],
       "sectionAccents": {
@@ -30855,7 +30855,7 @@ const A2_WORDS = [
         "Hier ist viel los signifie Il y a beaucoup d'animation ici."
       ],
       "important": [
-        "Los s'emploie surtout avec sein ; devant un nom, on utilise la forme lose : ein loser Knopf.",
+        "Los s'emploie surtout avec sein ; devant un nom, on utilise l'adjectif apparenté lose : ein loser Knopf.",
         "Ne confonds pas avec das Los (billet de loterie, destin) ni avec locker (desserré, lâche)."
       ],
       "sectionAccents": {
@@ -49472,7 +49472,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Le contraire de schon est noch (encore) : Bist du schon da? – Nein, noch nicht.",
+        "Le contraire de schon est noch nicht (pas encore) : Bist du schon da? – Nein, noch nicht.",
         "bereits est plus soutenu que schon, mais a le même sens."
       ],
       "important": [

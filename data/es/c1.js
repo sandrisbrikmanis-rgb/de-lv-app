@@ -3376,7 +3376,7 @@ const C1_WORDS = [
       "comparison": [
         {
           "word": "festgelegt",
-          "meaning": "fijado (de común acuerdo)",
+          "meaning": "fijado",
           "example": "Der Plan ist festgelegt. – El plan está fijado."
         },
         {

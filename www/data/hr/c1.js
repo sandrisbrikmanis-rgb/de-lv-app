@@ -959,7 +959,7 @@ const C1_WORDS = [
         "Riječ die Allgemeinheit (svi, zajednica) ima slično značenje."
       ],
       "important": [
-        "Množina se obično ne koristi: ne kaže se die Öffentlichkeiten."
+        "Množina se obično ne koristi: die Öffentlichkeiten rijetko se susreće."
       ],
       "sectionAccents": {
         "explanation": {
@@ -3380,7 +3380,7 @@ const C1_WORDS = [
       "comparison": [
         {
           "word": "festgelegt",
-          "meaning": "utvrđen (dogovorom)",
+          "meaning": "utvrđen",
           "example": "Der Plan ist festgelegt. – Plan je utvrđen."
         },
         {

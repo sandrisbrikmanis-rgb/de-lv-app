@@ -1778,7 +1778,7 @@ const B2_WORDS = [
         "A kifogásol jelentésben általában tagadó formát használunk: nichts auszusetzen haben."
       ],
       "important": [
-        "Ha valaminek kiteszünk valakit, az aussetzen után Dativ áll (der Gefahr, dem Risiko), nem Akkusativ.",
+        "Ha valaminek kiteszünk valakit, az aussetzen után Dativ áll (der Gefahr, dem Risiko), a kitett személy vagy dolog viszont Akkusativban áll (jemanden).",
         "Ne keverd az ausgesetzt sein (ki van téve valaminek) és az ausgestellt (kiállítva, illetve kiadva) alakot."
       ],
       "sectionAccents": {
@@ -6093,7 +6093,7 @@ const B2_WORDS = [
       "translation": "felfogad • szerződtet",
       "explanation": [
         "A lényeg: a dingen ritka, régies ige, jelentése: felfogad, megfogad (valakit fizetség ellenében valamilyen munkára). Ma főleg az ein gedungener Mörder (bérgyilkos, szó szerint: felfogadott gyilkos) kifejezésben és történelmi szövegekben hallható.",
-        "Alakok: dingt, dang, hat gedungen (előfordul a szabályos dingte, gedingt alak is). Jellemzően Söldner, Mörder, Führer az, akit felfogadnak. A hétköznapi nyelvben az anheuern vagy az engagieren igét használják.",
+        "Alakok: dingt, dingte (ritkábban dang), hat gedungen (ritkábban gedingt). Jellemzően Söldner, Mörder, Führer az, akit felfogadnak. A hétköznapi nyelvben az anheuern vagy az engagieren igét használják.",
         "A dingen után Akkusativ (tárgyeset) áll: jemanden dingen."
       ],
       "examples": [
@@ -6133,7 +6133,7 @@ const B2_WORDS = [
       ],
       "important": [
         "A dingen irodalmi vagy történelmi szó; a mindennapi beszédben furcsán hatna.",
-        "Az alakok ingadoznak (dang/gedungen és dingte/gedingt); főként az erős ragozású alakot használják."
+        "Az alakok ingadoznak (dang/gedungen és dingte/gedingt); múlt időben általában a dingte, a melléknévi igenévben a gedungen alakot használják."
       ],
       "sectionAccents": {
         "explanation": {

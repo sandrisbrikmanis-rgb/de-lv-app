@@ -1779,7 +1779,7 @@ const B2_WORDS = [
         "Am Sënn vu kritiséieren steet normalerweis eng negativ Form: nichts auszusetzen haben."
       ],
       "important": [
-        "Am Sënn vun ausliwweren steet no aussetzen den Dativ (der Gefahr, dem Risiko), net den Akkusativ.",
+        "Am Sënn vun ausliwweren steet no aussetzen den Dativ (der Gefahr, dem Risiko), mee dat, wat ausgeliwwert gëtt, steet am Akkusativ (jemanden).",
         "Net ausgesetzt sein (ausgeliwwert sinn) mat ausgestellt (ausgestallt, oder vun engem Dokument: ausgestallt ginn) verwiesselen."
       ],
       "sectionAccents": {
@@ -6095,7 +6095,7 @@ const B2_WORDS = [
       "translation": "astellen • engagéieren",
       "explanation": [
         "Haaptiddi: dingen ass e seelent, almoudescht Verb a bedeit engagéieren oder astellen (e Mënsch géint Bezuelung fir eng Aarbecht). Haut begéint et engem haaptsächlech am Ausdrock ein gedungener Mörder (e bezuelte Mäerder) an a geschichtlechen Texter.",
-        "Formen: dingt, dang, hat gedungen (et gëtt och déi regelméisseg Form dingte, gedingt). Typesch ginn Söldner, Mörder, Führer engagéiert. Am Alldag heescht et anheuern oder engagieren.",
+        "Formen: dingt, dingte (méi seelen dang), hat gedungen (méi seelen gedingt). Typesch ginn Söldner, Mörder, Führer engagéiert. Am Alldag heescht et anheuern oder engagieren.",
         "No dingen steet den Akkusativ: jemanden dingen."
       ],
       "examples": [
@@ -6135,7 +6135,7 @@ const B2_WORDS = [
       ],
       "important": [
         "Dingen ass e literarescht oder geschichtlecht Wuert; am Alldag géif et komesch klingen.",
-        "D'Forme schwanken (dang/gedungen an dingte/gedingt); meeschtens gëtt déi staark Form benotzt."
+        "D'Forme schwanken (dang/gedungen an dingte/gedingt); am Präteritum meeschtens dingte, am Partizip gedungen."
       ],
       "sectionAccents": {
         "explanation": {

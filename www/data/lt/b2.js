@@ -1779,7 +1779,7 @@ const B2_WORDS = [
         "Priekaištų reikšme paprastai vartojama neigiama forma: nichts auszusetzen haben."
       ],
       "important": [
-        "Reiškiant buvimą veikiamam, po aussetzen eina Dativ (der Gefahr, dem Risiko), o ne Akkusativ.",
+        "Reiškiant buvimą veikiamam, po aussetzen eina Dativ (der Gefahr, dem Risiko), o tai, kas paveikiama, – Akkusativ (jemanden).",
         "Nepainiok ausgesetzt sein (būti veikiamam) su ausgestellt (išstatytas arba išduotas)."
       ],
       "sectionAccents": {
@@ -6095,7 +6095,7 @@ const B2_WORDS = [
       "translation": "samdyti • pasamdyti",
       "explanation": [
         "Pagrindinė mintis: dingen – retas, senamadiškas veiksmažodis, reiškiantis pasamdyti (žmogų už užmokestį kokiam nors darbui). Šiandien jis dažniausiai girdimas posakyje ein gedungener Mörder (pasamdytas žudikas) ir istoriniuose tekstuose.",
-        "Formos: dingt, dang, hat gedungen (pasitaiko ir taisyklingosios formos dingte, gedingt). Paprastai samdomi Söldner, Mörder, Führer. Kasdienėje kalboje sakoma anheuern arba engagieren.",
+        "Formos: dingt, dingte (rečiau dang), hat gedungen (rečiau gedingt). Paprastai samdomi Söldner, Mörder, Führer. Kasdienėje kalboje sakoma anheuern arba engagieren.",
         "Po dingen eina galininkas (Akkusativ): jemanden dingen."
       ],
       "examples": [
@@ -6135,7 +6135,7 @@ const B2_WORDS = [
       ],
       "important": [
         "Dingen – literatūrinis arba istorinis žodis; kasdienėje kalboje jis skambėtų keistai.",
-        "Formos svyruoja (dang/gedungen ir dingte/gedingt); daugiausia vartojama stiprioji forma."
+        "Formos svyruoja (dang/gedungen ir dingte/gedingt); būtajame laike paprastai dingte, dalyvyje – gedungen."
       ],
       "sectionAccents": {
         "explanation": {

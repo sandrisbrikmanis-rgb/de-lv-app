@@ -2769,7 +2769,7 @@ const A2_WORDS = [
       "translation": "encender",
       "explanation": [
         "Idea principal: anheizen significa encender o empezar a calentar (una estufa, una chimenea, una caldera). Es un verbo con prefijo separable: ich heize den Ofen an.",
-        "Formas: heizt an, heizte an, hat angeheizt. En el perfecto se usa haben, y el prefijo an- se separa en la oración.",
+        "Formas: heizt an, heizte an, hat angeheizt. En el perfecto se usa haben, y en presente y en pretérito el prefijo an- se separa en la oración.",
         "En sentido figurado, anheizen significa avivar, caldear: die Stimmung anheizen (caldear el ambiente), die Diskussion anheizen (avivar la discusión)."
       ],
       "examples": [
@@ -22024,7 +22024,7 @@ const A2_WORDS = [
       "explanation": [
         "Idea principal: hängen son en realidad dos verbos distintos. El hängen intransitivo significa estar colgado (algo cuelga, por ejemplo un cuadro en la pared), y el hängen transitivo significa colgar algo (alguien cuelga algo en algún sitio). En español colgar sirve para los dos casos, pero en alemán las formas son distintas.",
         "Intransitivo: hängen, hing, hat gehangen (en el sur, a menudo ist gehangen). Pregunta Wo? y dativo: Das Bild hängt an der Wand. El transitivo es regular: hängen, hängte, hat gehängt. Pregunta Wohin? y acusativo: Ich hänge das Bild an die Wand.",
-        "Igual que en el par liegen / legen, aquí el estado y la acción no se distinguen por el infinitivo, sino por las formas y el caso."
+        "A diferencia del par liegen / legen, aquí el estado y la acción no se distinguen por el infinitivo, sino por las formas y el caso."
       ],
       "examples": [
         {
@@ -23052,7 +23052,7 @@ const A2_WORDS = [
         {
           "word": "dadurch, dass",
           "meaning": "por el hecho de que",
-          "example": "Er gewinnt, dadurch dass er übt. – Gana entrenando."
+          "example": "Er gewinnt dadurch, dass er übt. – Gana entrenando."
         }
       ],
       "tip": [
@@ -23375,7 +23375,7 @@ const A2_WORDS = [
       ],
       "important": [
         "No confundas je con jede (cada) ni con ja (sí).",
-        "Tras je con un número, el sustantivo suele quedar en singular: je Stück, je Person."
+        "Tras je sin numeral, el sustantivo va en singular: je Stück, je Person."
       ],
       "sectionAccents": {
         "explanation": {
@@ -25044,7 +25044,7 @@ const A2_WORDS = [
         "A una persona o un lugar se le conoce: eso es kennen; un dato se sabe: eso es wissen."
       ],
       "important": [
-        "Wissen con acusativo es poco frecuente y se usa sobre todo con pronombres: Ich weiß das, Ich weiß es; a una persona no se la puede «saber» con wissen.",
+        "Wissen con acusativo se usa con pronombres o con sustantivos de información (die Antwort, den Weg): Ich weiß das, Ich weiß es; a una persona no se la puede «saber» con wissen.",
         "Para una habilidad se usa können: aunque en español se dice «sé nadar», en alemán es Ich kann schwimmen, no Ich weiß schwimmen."
       ],
       "sectionAccents": {
@@ -30877,7 +30877,7 @@ const A2_WORDS = [
         "Hier ist viel los significa «aquí hay mucho ambiente»."
       ],
       "important": [
-        "Los se usa sobre todo con sein; delante de un sustantivo aparece la forma lose: ein loser Knopf.",
+        "Los se usa sobre todo con sein; delante de un sustantivo se usa el adjetivo emparentado lose: ein loser Knopf.",
         "No lo confundas con das Los (billete de lotería, destino) ni con locker (flojo, suelto)."
       ],
       "sectionAccents": {
@@ -45440,7 +45440,7 @@ const A2_WORDS = [
       "translation": "cambiar • intercambiar",
       "explanation": [
         "Idea principal: wechseln es un verbo: wechselt, wechselte, hat gewechselt. Significa cambiar o intercambiar una cosa por otra, por ejemplo, dinero, colegio, trabajo o ropa.",
-        "Normalmente se usa con acusativo y con el auxiliar haben: Er hat den Job gewechselt. Si se destaca el paso a otro lugar o estado, también puede usarse sein: Die Ampel ist auf Grün gewechselt.",
+        "Normalmente se usa con acusativo y con el auxiliar haben: Er hat den Job gewechselt. Si se destaca el paso a otro lugar, también puede usarse sein: Er ist zu einem anderen Verein gewechselt.",
         "En el banco, Geld wechseln significa cambiar dinero a otra moneda o en monedas sueltas. El sustantivo es der Wechsel (cambio)."
       ],
       "examples": [
@@ -47196,7 +47196,7 @@ const A2_WORDS = [
       "explanation": [
         "Idea principal: der Zwilling es un sustantivo masculino que significa gemelo: cada uno de los dos hijos nacidos en el mismo parto. Plural: die Zwillinge.",
         "Zwillinge se usa también para los dos juntos: Sie hat Zwillinge bekommen. Si se quiere precisar el sexo, se dice der Zwillingsbruder (hermano gemelo) o die Zwillingsschwester (hermana gemela). A diferencia del español gemelo / gemela, der Zwilling es siempre masculino, también cuando se refiere a una niña.",
-        "Con mayúscula, die Zwillinge es también el signo del zodiaco Géminis."
+        "Die Zwillinge es también el signo del zodiaco Géminis."
       ],
       "examples": [
         {

@@ -5022,7 +5022,7 @@ const A1_WORDS = [
       "translation": "et",
       "explanation": [
         "Põhiidee: dass on alistav sidesõna 'et', mis alustab sihitislauset tegusõnade sagen, wissen, denken, hoffen ja väljendite Es ist schön … järel: Ich weiß, dass du müde bist.",
-        "Enne dass on alati koma. Kõrvallauses seisab pöördeline tegusõna lause lõpus: …, dass er keine Zeit hat. Eesti keeles nii ranget reeglit ei ole, seega tasub sellele erilist tähelepanu pöörata.",
+        "Lause keskel on enne dass alati koma. Kõrvallauses seisab pöördeline tegusõna lause lõpus: …, dass er keine Zeit hat. Eesti keeles nii ranget reeglit ei ole, seega tasub sellele erilist tähelepanu pöörata.",
         "Dass kirjutatakse kahe s-iga. Kesksoo artikkel ja näitav asesõna das on teine sõna."
       ],
       "examples": [
@@ -5280,7 +5280,7 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Meessoo nominatiiv on der, akusatiiv den: der Hund, aber Ich sehe den Hund.",
+        "Meessoo nominatiiv on der, akusatiiv den: der Hund, kuid Ich sehe den Hund.",
         "Õpi der koos nimisõnaga: der Tisch."
       ],
       "important": [
@@ -6873,7 +6873,7 @@ const A1_WORDS = [
       "translation": "midagi • veidi",
       "explanation": [
         "Põhiidee: etwas on umbmäärane asesõna 'midagi': Ich möchte etwas trinken, Hast du etwas Neues? See ei muutu ja käitub nagu kesksoost ainsuse sõna.",
-        "Pärast etwas kirjutatakse omadussõna nimisõnana suure algustähega ja lõpuga -es: etwas Neues (midagi uut), etwas Gutes, etwas anderes.",
+        "Pärast etwas kirjutatakse omadussõna nimisõnana suure algustähega ja lõpuga -es: etwas Neues (midagi uut), etwas Gutes (kuid etwas anderes kirjutatakse tavaliselt väikese tähega).",
         "Etwas võib tähendada ka 'veidi, natuke': etwas Zeit (natuke aega), etwas müde (veidi väsinud)."
       ],
       "examples": [
@@ -16837,7 +16837,7 @@ const A1_WORDS = [
       "translation": "liiter",
       "explanation": [
         "Põhimõte: der Liter on mahuühik – liiter. Seda kasutatakse vedelike puhul: Milch, Wasser, Benzin.",
-        "Mitmus: die Liter (ilma lõputa). Arvsõna järel mõõtühik ei muutu ja järgmine nimisõna tuleb ilma eessõnata: zwei Liter Milch (kaks liitrit piima), drei Liter Wasser. Erinevalt eesti keelest ei ole siin osastavat käänet: piim ja vesi jäävad muutumata. Der Liter on meessoost; kõnekeeles kasutatakse mõnikord ka das Liter.",
+        "Mitmus: die Liter (ilma lõputa). Arvsõna järel mõõtühik ei muutu ja järgmine nimisõna tuleb ilma eessõnata: zwei Liter Milch (kaks liitrit piima), drei Liter Wasser. Erinevalt eesti keelest ei ole siin osastavat käänet: piim ja vesi jäävad muutumata. Der Liter on meessoost; mõnikord kasutatakse ka das Liter.",
         "Lühend l: 1 l = 1000 Milliliter (ml, milliliitrit)."
       ],
       "examples": [
@@ -18729,7 +18729,7 @@ const A1_WORDS = [
         {
           "word": "sollen",
           "meaning": "pidama (korraldus, soovitus)",
-          "example": "Du sollst mehr schlafen. – Sa peaksid rohkem magama."
+          "example": "Du sollst mehr schlafen. – Sa pead rohkem magama."
         },
         {
           "word": "dürfen",
@@ -22780,7 +22780,7 @@ const A1_WORDS = [
       "explanation": [
         "Põhimõte: sein on saksa keele põhitegusõna „olema“. See on ebareeglipärane: ich bin, du bist, er/sie/es ist, wir sind, ihr seid, sie/Sie sind; lihtminevik war, täisminevik ist gewesen.",
         "Seda kasutatakse, et öelda, kes keegi on (Er ist Arzt), milline keegi on (Das Haus ist groß), kus keegi asub (Wir sind hier) ja kui vana keegi on (Ich bin 20 Jahre alt). Saksa keeles ei jäeta sein kunagi ära: ei saa öelda „Ich Lehrer“.",
-        "Sein on ka abitegusõna täisminevikus liikumist ja olekumuutust väljendavate tegusõnadega (ich bin gefahren, ich bin gewesen)."
+        "Sein on ka abitegusõna täisminevikus liikumist ja olekumuutust väljendavate tegusõnadega (ich bin gefahren), samuti sein ja bleiben (ich bin gewesen)."
       ],
       "examples": [
         {
@@ -25947,7 +25947,7 @@ const A1_WORDS = [
           "lv": "Me tuleme just arsti juurest."
         },
         {
-          "de": "Der Zug vom Gleis drei fährt gleich ab.",
+          "de": "Der Zug vom dritten Gleis fährt gleich ab.",
           "lv": "Rong kolmandalt teelt väljub kohe."
         },
         {
@@ -30441,7 +30441,7 @@ const A1_WORDS = [
       "translation": "aeg (hetk / ajavahemik)",
       "explanation": [
         "Põhimõte: die Zeit on naissoost nimisõna, mitmus die Zeiten. See tähendab aega kui hetke, ajavahemikku või võimalust: Ich habe keine Zeit. Zeit haben tähendab vaba olema, Zeit brauchen – aega vajama.",
-        "Sagedased väljendid: zur Zeit / zurzeit (praegu), die Zeit vergeht (aeg läheb), Es ist Zeit (on aeg). Mitmuses tähendab die Zeiten ajastuid või perioode: in schweren Zeiten.",
+        "Sagedased väljendid: zurzeit (praegu), die Zeit vergeht (aeg läheb), Es ist Zeit (on aeg). Mitmuses tähendab die Zeiten ajastuid või perioode: in schweren Zeiten.",
         "Ilma nimetatakse das Wetter, mitte die Zeit."
       ],
       "examples": [
