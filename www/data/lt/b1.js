@@ -11510,7 +11510,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Tipiškas junginys: am Bildschirm arbeiten; vaizdas yra auf dem Bildschirm.",
+        "Tipiškas junginys: am Bildschirm arbeiten; auf dem Bildschirm erscheinen (pasirodyti ekrane).",
         "Apie telefoną paprastai sakoma das Display."
       ],
       "important": [
@@ -12482,7 +12482,7 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "lankas",
       "explanation": [
-        "Pagrindinė mintis: der Bogen reiškia lanką – išlenktą liniją ar daiktą, pvz., šaudymo lanką, arką, smuiko stryką ar vingį. Daugiskaita – die Bögen (su umliautu).",
+        "Pagrindinė mintis: der Bogen reiškia lanką – išlenktą liniją ar daiktą, pvz., šaudymo lanką, arką, smuiko stryką ar vingį. Daugiskaita – die Bogen; pietuose taip pat die Bögen.",
         "Įvairios reikšmės: tilto ar pastato arka (der Bogen einer Brücke), lankas sporte ir strykas muzikoje (Pfeil und Bogen, Geigenbogen), taip pat popieriaus lapas (ein Bogen Papier). Posakis einen Bogen um etwas machen – dideliu lanku ką nors aplenkti, vengti.",
         "Kontekstas padeda suprasti, kuri reikšmė turima omenyje: lankas, arka, strykas ar lapas."
       ],
@@ -12521,7 +12521,7 @@ const B1_WORDS = [
         "Žinomi junginiai: Pfeil und Bogen, Geigenbogen."
       ],
       "important": [
-        "Daugiskaita die Bögen – su ö.",
+        "Daugiskaita die Bogen; pietuose taip pat die Bögen (su ö).",
         "Ein Bogen Papier – didelis popieriaus lapas, pvz., piešimui ar pakavimui."
       ],
       "sectionAccents": {
@@ -12626,7 +12626,8 @@ const B1_WORDS = [
         "important": [
           {
             "blue": [
-              "Bögen"
+              "Bögen",
+              "Bogen"
             ]
           },
           {
@@ -12902,7 +12903,7 @@ const B1_WORDS = [
       "translation": "gaisras",
       "explanation": [
         "Pagrindinė mintis: der Brand yra gaisras – nekontroliuojamas degimas, kuris niokoja pastatą ar mišką. Daugiskaita – die Brände.",
-        "Tipiškai: ein Brand bricht aus (kyla gaisras), einen Brand löschen (gesinti gaisrą), in Brand geraten (užsidegti), in Brand setzen (padegti). Der Brand yra neutralesnis už das Feuer.",
+        "Tipiškai: ein Brand bricht aus (kyla gaisras), einen Brand löschen (gesinti gaisrą), in Brand geraten (užsidegti), in Brand setzen (padegti). Der Brand yra siauresnė sąvoka nei das Feuer.",
         "Das Feuer gali būti ir kontroliuojama ugnis (židinyje, lauže), o der Brand paprastai yra nelaimė ar žala."
       ],
       "examples": [
@@ -17353,7 +17354,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Pagalbinis veiksmažodis yra sein: ich bin eingebrochen.",
+        "Pagalbinis veiksmažodis paprastai yra sein (su bei + Dativ ir haben: man hat bei uns eingebrochen): ich bin eingebrochen.",
         "Neveikiamojoje rūšyje be veiksnio: Bei uns wurde eingebrochen."
       ],
       "important": [
@@ -19725,7 +19726,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Sich eingewöhnen paprastai nevartojamas su an + Akkusativ.",
-        "Priešdėlis ein atsiskiria tik esamajame ir būtajame laike, dalyvyje jis rašomas kartu: eingewöhnt."
+        "Priešdėlis ein atsiskiria tik esamajame bei būtajame laike ir liepiamojoje nuosakoje, dalyvyje jis rašomas kartu: eingewöhnt."
       ],
       "sectionAccents": {
         "explanation": {
@@ -20929,7 +20930,7 @@ const B1_WORDS = [
         "Žodis reiškia ir „pasivyti“; kontekstas padeda suprasti reikšmę."
       ],
       "important": [
-        "Einholen nėra tas pats, kas einkaufen (apsipirkti).",
+        "Einholen regioninėje šnekamojoje kalboje reiškia ir einkaufen (apsipirkti).",
         "Nepainiok su überholen (aplenkti): einholen – pasivyti, überholen – aplenkti."
       ],
       "sectionAccents": {
@@ -21469,7 +21470,7 @@ const B1_WORDS = [
         "Stoti už ką nors: sich für etwas einsetzen."
       ],
       "important": [
-        "Einsetzen be sich nereiškia „stoti už“: be sangrąžinio įvardžio jis reiškia įdėti, įstatyti.",
+        "Einsetzen be sich nereiškia „stoti už“: be sangrąžinio įvardžio jis reiškia panaudoti, įdėti, įstatyti arba paskirti.",
         "Nepainiokite su einstellen (sureguliuoti, priimti į darbą)."
       ],
       "sectionAccents": {
@@ -23678,7 +23679,7 @@ const B1_WORDS = [
       "translation": "atsirasti",
       "explanation": [
         "Pagrindinė mintis: entstehen reiškia atsirasti, susidaryti – kažkas nauja pradeda egzistuoti: idėja, problema, žala, miestas. Veiksnys pats nieko nesukuria, o atsiranda.",
-        "Formos: entsteht, entstand, ist entstanden (pagalbinis veiksmažodis sein); priešdėlis ent- neskiriamas. Šaltinis nurodomas su aus arba durch + Dativ/Akkusativ: Aus dem Streit entstand Hass. Daiktavardis: die Entstehung (atsiradimas)."
+        "Formos: entsteht, entstand, ist entstanden (pagalbinis veiksmažodis sein); priešdėlis ent- neskiriamas. Šaltinis nurodomas su aus + Dativ arba durch + Akkusativ: Aus dem Streit entstand Hass. Daiktavardis: die Entstehung (atsiradimas)."
       ],
       "examples": [
         {
@@ -25506,7 +25507,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Faul apie žmogų reiškia tingus, apie maistą – supuvęs; reikšmę lemia daiktavardis.",
-        "Faulenzen nėra blogas žodis – jis tiesiog reiškia ilsėtis, nieko neveikti."
+        "Faulenzen gali būti smerkiamas (dykinėjimas) arba neutralus – ilsėtis nieko neveikiant."
       ],
       "sectionAccents": {
         "explanation": {
@@ -32404,7 +32405,7 @@ const B1_WORDS = [
         "Frazės: auf den Tisch hauen, sich aufs Ohr hauen (šnekamojoje kalboje: eiti miegoti)."
       ],
       "important": [
-        "Būtojo laiko formos skiriasi pagal reikšmę: haute (mušti, šnekamojoje kalboje) ir hieb (kirsti, literatūrinėje kalboje).",
+        "Būtojo laiko formos skiriasi pagal reikšmę: haute (mušti, šnekamojoje kalboje) ir hieb (smogti ginklu, aukštesniuoju stiliumi).",
         "Perfektas: hat gehauen."
       ],
       "sectionAccents": {
@@ -35956,7 +35957,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Sich irren yra mandagesnis nei „falsch sein“: Da irrst du dich.",
+        "Sich irren yra mandagesnis nei „Unrecht haben“: Da irrst du dich.",
         "Perfektas: hat sich geirrt (haben)."
       ],
       "important": [
@@ -40801,7 +40802,7 @@ const B1_WORDS = [
       "explanation": [
         "Pagrindinė mintis: kündigen reiškia nutraukti darbo, kitą sutartį ar nuomą — oficialiai pranešti, kad santykiai baigsis. Formos: kündigt, kündigte, hat gekündigt (pagalbinis veiksmažodis haben).",
         "Su Akkusativ vartojamas daiktas: den Vertrag kündigen, die Wohnung kündigen, den Job kündigen. Su Dativ vartojamas asmuo, su kuriuo nutraukiama darbo sutartis: Der Chef kündigt dem Mitarbeiter (viršininkas atleidžia darbuotoją). Be papildinio ich habe gekündigt reiškia, kad pats išėjau iš darbo.",
-        "Iš esmės kündigen yra oficialus žingsnis su terminu (Kündigungsfrist); atleidimas įmonės vardu vadinamas ir entlassen."
+        "Iš esmės kündigen yra oficialus žingsnis su terminu (Kündigungsfrist); atleidimas įmonės vardu vadinamas ir die Entlassung (veiksmažodis: entlassen)."
       ],
       "examples": [
         {
@@ -43274,7 +43275,7 @@ const B1_WORDS = [
         "Perkeltine reikšme landen reiškia atsidurti: Wo bin ich nur gelandet? (Kur aš atsidūriau?)."
       ],
       "important": [
-        "Perfekte vartojama ist gelandet, o ne hat gelandet.",
+        "Nusileidimo reikšme perfekte vartojama ist gelandet, o ne hat gelandet.",
         "Į klausimą kur? atsakoma su auf/in + Dativ: auf dem Dach, im Spamordner."
       ],
       "sectionAccents": {
@@ -44951,7 +44952,7 @@ const B1_WORDS = [
       "translation": "gesinti • ištrinti",
       "explanation": [
         "Pagrindinė mintis: löschen reiškia gesinti arba trinti. Jis vartojamas trimis pagrindinėmis situacijomis: užgesinti ugnį ar šviesą (den Brand löschen, das Licht löschen), ištrinti duomenis (eine Datei löschen) ir numalšinti troškulį (den Durst löschen). Formos: löscht, löschte, hat gelöscht.",
-        "Veiksmažodis yra tranzityvus, todėl visada turi papildinį Akkusativ: Ich lösche die Datei. Ugniagesių darbas apibūdinamas veiksmažodžiu löschen.",
+        "Veiksmažodis yra tranzityvus, todėl paprastai turi papildinį Akkusativ: Ich lösche die Datei. Ugniagesių darbas apibūdinamas veiksmažodžiu löschen.",
         "Su sich nevartojamas; jei gaisras užgęsta pats, sakoma erlöschen."
       ],
       "examples": [
@@ -52443,7 +52444,7 @@ const B1_WORDS = [
         "Lėkti gali ir žmogus, ir transportas, o širdis, laikas ar mintys – tik perkeltine reikšme."
       ],
       "important": [
-        "rasen nėra rasieren (skusti): rasen – lėkti, rasieren – skustis.",
+        "rasen nėra rasieren (skusti): rasen – lėkti, rasieren – skusti.",
         "Greitas važiavimas pažeidžiant taisykles dažnai vadinamas rasen."
       ],
       "sectionAccents": {
@@ -57033,7 +57034,7 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "šlifuoti",
       "explanation": [
-        "Pagrindinė mintis: schleifen reiškia šlifuoti, galąsti arba poliruoti: padaryti paviršių lygų ar aštrų. Yra ir kitas, nesusijęs veiksmažodis schleifen – vilkti žeme.",
+        "Pagrindinė mintis: schleifen reiškia šlifuoti, galąsti arba poliruoti: padaryti paviršių lygų ar aštrų. Yra ir kitas, giminingas veiksmažodis schleifen – vilkti žeme.",
         "Šlifavimo reikšme žodis yra stiprusis: er schleift, schliff, hat geschliffen (Messer schleifen, Diamanten schleifen). Vilkimo reikšme jis taisyklingas: er schleift, schleifte, hat geschleift (etwas über den Boden schleifen).",
         "Dažnai su priešdėliu ab-: abschleifen (nušlifuoti) – Wir schleifen den Tisch ab. Dalyvis geschliffen kaip būdvardis reiškia ir „išdailintas, rafinuotas“."
       ],
@@ -64005,7 +64006,7 @@ const B1_WORDS = [
           "lv": "Reinas – didelė Europos upė."
         },
         {
-          "de": "Bei Regen fließen die Ströme über die Ufer.",
+          "de": "Bei Regen treten die Ströme über die Ufer.",
           "lv": "Lyjant didžiosios upės išsilieja iš krantų."
         }
       ],
@@ -68482,7 +68483,7 @@ const B1_WORDS = [
       "translation": "nepastebėti",
       "explanation": [
         "Pagrindinė mintis: übersehen reiškia nepastebėti, praleisti – netyčia neatkreipti dėmesio į tai, kas yra prieš akis. Formos: übersieht, übersah, hat übersehen. Priešdėlis über- neskiriamas. Po veiksmažodžio eina Akkusativ.",
-        "Antra reikšmė – aprėpti, numatyti visumą: Wir können die Folgen noch nicht übersehen. Kai ko nors nepastebima netyčia, sakoma übersehen; jei dėmesio sąmoningai nekreipiama, sakoma ignorieren arba wegsehen."
+        "Antra reikšmė – aprėpti, numatyti visumą: Wir können die Folgen noch nicht übersehen. Kai ko nors nepastebima netyčia, sakoma übersehen; jei dėmesio sąmoningai nekreipiama, paprastai sakoma ignorieren arba wegsehen."
       ],
       "examples": [
         {
@@ -68528,7 +68529,7 @@ const B1_WORDS = [
         "Priešingos reikšmės žodis – bemerken (pastebėti)."
       ],
       "important": [
-        "Übersehen – nesąmoningas veiksmas, ignorieren – sąmoningas.",
+        "Übersehen – paprastai nesąmoningas veiksmas, ignorieren – sąmoningas.",
         "Perfekte nėra ge-: hat übersehen."
       ],
       "sectionAccents": {
@@ -73121,7 +73122,7 @@ const B1_WORDS = [
           "lv": "Šis gyvūnas aptinkamas tik Afrikoje."
         },
         {
-          "de": "Es kommt mir vor, als ob ich ihn kenne.",
+          "de": "Es kommt mir vor, als ob ich ihn kennen würde.",
           "lv": "Man atrodo, kad aš jį pažįstu."
         }
       ],
@@ -74277,7 +74278,7 @@ const B1_WORDS = [
         },
         {
           "word": "der Waggon",
-          "meaning": "vagonas (krovininis)",
+          "meaning": "vagonas (geležinkelio)",
           "example": "Der Waggon steht am Bahnhof. – Vagonas stovi stotyje."
         },
         {
@@ -74395,7 +74396,7 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "vagonas (krovininis)"
+                "vagonas (geležinkelio)"
               ]
             }
           },

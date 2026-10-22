@@ -438,7 +438,7 @@ const A2_WORDS = [
       "translation": "consegnare • cedere",
       "explanation": [
         "Idea chiave: abgeben è un verbo separabile che significa consegnare (qualcuno riceve qualcosa): gibt ab, gab ab, hat abgegeben. Si usa quando si porta qualcosa e lo si lascia a un altro: compiti, chiave, cappotto, pacco. Ab va in fondo alla frase.",
-        "La persona a cui si consegna è spesso al dativo, oppure si usa bei/an: etwas an der Rezeption abgeben, jemandem etwas abgeben. Un lavoro o un documento si consegna all'insegnante o a un ufficio: die Arbeit abgeben.",
+        "Il luogo o la persona presso cui si consegna si indica spesso con an/bei: etwas an der Rezeption abgeben, etwas beim Nachbarn abgeben. Un lavoro o un documento si consegna all'insegnante o a un ufficio: die Arbeit abgeben.",
         "Se si restituisce qualcosa si usa zurückgeben; per presentare ufficialmente una domanda si usa spesso einreichen."
       ],
       "examples": [
@@ -1091,7 +1091,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Ricorda il passato irregolare: bringen – brachte – gebracht.",
-        "Per dare qualcosa a qualcuno usa bringen: Ich bringe dir ein Buch."
+        "Per portare qualcosa a qualcuno usa bringen: Ich bringe dir ein Buch."
       ],
       "important": [
         "Il participio è gebracht, non \"gebringt\".",
@@ -8665,7 +8665,7 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "bicchiere • tazza",
       "explanation": [
-        "Idea principale: der Becher è un sostantivo maschile. È un bicchiere o una tazza senza manico da cui si beve: Pappbecher (bicchiere di carta), Plastikbecher (bicchiere di plastica). Il plurale è die Becher.",
+        "Idea principale: der Becher è un sostantivo maschile. È un bicchiere o una tazza, di solito senza manico, da cui si beve: Pappbecher (bicchiere di carta), Plastikbecher (bicchiere di plastica). Il plurale è die Becher.",
         "La parola si usa anche per la confezione di alcuni prodotti, per esempio ein Becher Joghurt (un vasetto di yogurt) e ein Becher Eis (una vaschetta di gelato).",
         "A differenza di die Tasse (tazza con manico) e das Glas (bicchiere di vetro), der Becher di solito non ha manico ed è spesso di plastica, carta, metallo o ceramica."
       ],
@@ -8700,7 +8700,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Se il recipiente non ha manico e serve per bere o mangiare, usa Becher; se ha il manico, die Tasse.",
+        "Se il recipiente non ha manico e serve per bere o mangiare, usa Becher; se ha il manico, di solito die Tasse (ma anche Kaffeebecher).",
         "Il plurale è die Becher (la parola non cambia)."
       ],
       "important": [
@@ -10142,7 +10142,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Nella frase Er kommt bestimmt la parola bestimmt rafforza tutta l'affermazione.",
-        "Per esprimere una certezza ancora maggiore si usa ganz bestimmt o sicher."
+        "Per esprimere una certezza ancora maggiore si usa ganz bestimmt o ganz sicher."
       ],
       "important": [
         "Bestimmt non è la stessa cosa di bestimmen: bestimmen significa stabilire, decidere; bestimmt è avverbio o aggettivo.",
@@ -10364,7 +10364,7 @@ const A2_WORDS = [
       "translation": "pera • lampadina",
       "explanation": [
         "Idea principale: die Birne è un sostantivo femminile che significa pera (il frutto) e lampadina (abbreviazione di Glühbirne). Il plurale è die Birnen.",
-        "Il significato dipende dal contesto: con frutta e cibo è la pera, con lampade e luce è la lampadina. Composti frequenti: die Glühbirne (lampadina a incandescenza), die Energiesparlampe (lampadina a risparmio energetico).",
+        "Il significato dipende dal contesto: con frutta e cibo è la pera, con lampade e luce è la lampadina. Composti frequenti: die Glühbirne (lampadina a incandescenza), die LED-Birne (lampadina LED).",
         "Nella lingua parlata Birne a volte significa anche testa, ma è un uso informale (un po' come «zucca» in italiano)."
       ],
       "examples": [
@@ -12787,7 +12787,7 @@ const A2_WORDS = [
       "translation": "gratitudine • ringraziamento",
       "explanation": [
         "Idea principale: der Dank è un sostantivo maschile che significa gratitudine, ringraziamento: ciò che si esprime a una persona per un aiuto o una buona azione. Di solito si usa al singolare.",
-        "Espressioni frequenti: Vielen Dank (grazie mille), jemandem Dank sagen (ringraziare qualcuno), als Dank (come ringraziamento), zum Dank. Dank è anche una preposizione: Dank deiner Hilfe (grazie al tuo aiuto), seguita di solito dal genitivo o dal dativo."
+        "Espressioni frequenti: Vielen Dank (grazie mille), jemandem Dank sagen (ringraziare qualcuno), als Dank (come ringraziamento), zum Dank. Con la minuscola dank è anche una preposizione: Dank deiner Hilfe (grazie al tuo aiuto), seguita di solito dal genitivo o dal dativo."
       ],
       "examples": [
         {
@@ -12829,7 +12829,8 @@ const A2_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "Dank"
+            "Dank",
+            "dank"
           ],
           "purple": [
             "grazie",
@@ -33821,7 +33822,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Per eventi programmati (concerto, riunione) si usa stattfinden, non passieren.",
-        "Al Perfekt sempre ist passiert, non hat passiert."
+        "Nel significato di «succedere», al Perfekt sempre ist passiert, non hat passiert."
       ],
       "sectionAccents": {
         "explanation": {
@@ -37936,7 +37937,7 @@ const A2_WORDS = [
           "lv": "Ha molti debiti con la banca."
         },
         {
-          "de": "Sie gibt mir die Schuld für den Fehler.",
+          "de": "Sie gibt mir die Schuld an dem Fehler.",
           "lv": "Mi dà la colpa dell'errore."
         }
       ],
@@ -45747,7 +45748,7 @@ const A2_WORDS = [
       ],
       "important": [
         "weit (lontano) e weiter (più avanti, oltre, ancora) hanno usi diversi: Geh weiter! – Vai avanti!",
-        "Con la distanza di solito weit non si usa con un numero; con il numero si usa entfernt: drei Kilometer entfernt."
+        "Con la distanza il numero si usa sia con weit sia con entfernt: drei Kilometer weit, drei Kilometer entfernt."
       ],
       "sectionAccents": {
         "explanation": {

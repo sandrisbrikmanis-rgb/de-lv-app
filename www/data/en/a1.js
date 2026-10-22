@@ -2709,7 +2709,7 @@ const A1_WORDS = [
           "lv": "You don't talk while eating."
         },
         {
-          "de": "Das Hotel liegt bei dem Bahnhof.",
+          "de": "Das Hotel liegt beim Bahnhof.",
           "lv": "The hotel is near the station."
         }
       ],
@@ -2808,7 +2808,7 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "bei"
+                "beim"
               ]
             },
             "lv": {
@@ -3588,7 +3588,7 @@ const A1_WORDS = [
       "translation": "Please",
       "explanation": [
         "Main idea: bitte means 'please' and is a polite word used to ask for something (Kannst du mir bitte helfen?), to offer something (Bitte, nehmen Sie Platz) or to reply to thanks (Danke! – Bitte!).",
-        "It does not change. Bitte schön is a politer version when offering something ('here you are'), bitte sehr is more formal still. Wie bitte? means 'Pardon?' when you have not heard.",
+        "It does not change. Bitte schön is a politer version when offering something ('here you are'), bitte sehr is an equivalent alternative. Wie bitte? means 'Pardon?' when you have not heard.",
         "The noun die Bitte with a capital letter means 'request' — that is a different word."
       ],
       "examples": [
@@ -14297,7 +14297,7 @@ const A1_WORDS = [
         "Ask the price with Was kostet…? or Wie viel kostet…?"
       ],
       "important": [
-        "The noun Kosten (plural) means “costs”; the verb kosten means “to cost”.",
+        "The noun die Kosten (plural only) means “costs”; the verb kosten means “to cost”.",
         "Kosten can also mean “to taste” (Willst du die Suppe kosten?), but in everyday speech probieren is used."
       ],
       "sectionAccents": {
@@ -22598,7 +22598,7 @@ const A1_WORDS = [
       ],
       "important": [
         "There is no sehst or sehet: the correct forms are du siehst, er sieht.",
-        "To say that you are watching something (a film, a picture), you normally use sich (Dat) + ansehen, not just sehen."
+        "To say that you are watching something (a film, a picture), you can use either sehen or sich (Dat) + ansehen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -26415,7 +26415,7 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "In a question about a thing always start with was; in a question about a person, with wer, wen or wem.",
+        "In a question about a thing usually start with was; in a question about a person, with wer, wen or wem.",
         "After alles and nichts use was, not das; after etwas, was is preferred."
       ],
       "important": [

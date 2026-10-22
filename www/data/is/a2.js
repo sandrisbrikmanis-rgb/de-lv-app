@@ -435,7 +435,7 @@ const A2_WORDS = [
       "translation": "afhenda • skila",
       "explanation": [
         "Aðalatriðið: abgeben er aðskiljanleg sögn sem merkir að afhenda, skila (einhver tekur við): gibt ab, gab ab, hat abgegeben. Notað þegar maður fer með eitthvað og skilur það eftir hjá öðrum – heimaverkefni, lykil, kápu, sendingu. Ab stendur aftast í setningu.",
-        "Sá sem tekur við er oft í þágufalli eða með bei/an: etwas an der Rezeption abgeben, jemandem etwas abgeben. Verkefni eða skjali er skilað til kennara eða stofnunar: die Arbeit abgeben.",
+        "Staðurinn eða sá sem tekur við er oft tilgreindur með an/bei: etwas an der Rezeption abgeben, etwas beim Nachbarn abgeben. Verkefni eða skjali er skilað til kennara eða stofnunar: die Arbeit abgeben.",
         "Ef eitthvað er látið aftur til baka er notað zurückgeben; ef umsókn er lögð formlega inn er oft notað einreichen."
       ],
       "examples": [
@@ -8662,7 +8662,7 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "bolli • krús",
       "explanation": [
-        "Aðalatriðið: der Becher er karlkynsnafnorð. Það er krús, bolli eða glas án handfangs sem drukkið er úr: Pappbecher (pappamál), Plastikbecher (plastglas). Fleirtalan er die Becher.",
+        "Aðalatriðið: der Becher er karlkynsnafnorð. Það er krús, bolli eða glas, yfirleitt án handfangs, sem drukkið er úr: Pappbecher (pappamál), Plastikbecher (plastglas). Fleirtalan er die Becher.",
         "Orðið er líka notað um umbúðir, til dæmis ein Becher Joghurt (dós af jógúrt) og ein Becher Eis (ísbox).",
         "Ólíkt die Tasse (bolli með handfangi) og das Glas (glas úr gleri) er der Becher venjulega án handfangs og oft úr plasti, pappa, málmi eða leir."
       ],
@@ -8697,7 +8697,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Ef ílátið er án handfangs og ætlað til að drekka eða borða úr er notað Becher; ef það er með handfangi die Tasse.",
+        "Ef ílátið er án handfangs og ætlað til að drekka eða borða úr er notað Becher; ef það er með handfangi yfirleitt die Tasse (en einnig Kaffeebecher).",
         "Fleirtalan er die Becher (engin ending bætist við)."
       ],
       "important": [
@@ -10139,7 +10139,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Í setningunni Er kommt bestimmt styrkir bestimmt alla fullyrðinguna.",
-        "Til að lýsa enn meiri vissu er notað ganz bestimmt eða sicher."
+        "Til að lýsa enn meiri vissu er notað ganz bestimmt eða ganz sicher."
       ],
       "important": [
         "Bestimmt er ekki það sama og bestimmen: bestimmen merkir að ákveða, bestimmt er atviksorð eða lýsingarorð.",
@@ -10361,7 +10361,7 @@ const A2_WORDS = [
       "translation": "pera • ljósapera",
       "explanation": [
         "Meginhugsun: die Birne er kvenkynsnafnorð sem merkir pera (ávöxtur) og ljósapera (stytting á Glühbirne). Fleirtalan er die Birnen.",
-        "Samhengið ræður merkingunni: þegar talað er um ávexti og mat er það pera sem er borðuð, þegar talað er um lampa og ljós er það ljósapera. Algeng samsett orð eru die Glühbirne (glópera) og die Energiesparlampe (sparpera).",
+        "Samhengið ræður merkingunni: þegar talað er um ávexti og mat er það pera sem er borðuð, þegar talað er um lampa og ljós er það ljósapera. Algeng samsett orð eru die Glühbirne (glópera) og die LED-Birne (LED-pera).",
         "Í talmáli merkir Birne stundum líka höfuð, en sú merking er óformleg."
       ],
       "examples": [
@@ -12779,7 +12779,7 @@ const A2_WORDS = [
       "translation": "þakklæti • þökk",
       "explanation": [
         "Meginhugsun: der Dank er karlkynsnafnorð sem merkir þakklæti – það sem maður lætur í ljós við einhvern fyrir hjálp eða gott verk. Það er venjulega notað í eintölu.",
-        "Algeng sambönd: Vielen Dank (kærar þakkir), jemandem Dank sagen (þakka einhverjum), als Dank (í þakklætisskyni), zum Dank. Dank er líka forsetning: Dank deiner Hilfe (þökk sé hjálp þinni), og á eftir henni kemur venjulega eignarfall eða þágufall."
+        "Algeng sambönd: Vielen Dank (kærar þakkir), jemandem Dank sagen (þakka einhverjum), als Dank (í þakklætisskyni), zum Dank. Með litlum staf er dank líka forsetning: Dank deiner Hilfe (þökk sé hjálp þinni), og á eftir henni kemur venjulega eignarfall eða þágufall."
       ],
       "examples": [
         {
@@ -12821,7 +12821,8 @@ const A2_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "Dank"
+            "Dank",
+            "dank"
           ],
           "purple": [
             "þakkir",
@@ -33809,7 +33810,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Um skipulagða viðburði (tónleika, fund) er notað stattfinden, ekki passieren.",
-        "Í Perfekt alltaf ist passiert, ekki hat passiert."
+        "Í merkingunni „gerast“ er Perfekt alltaf ist passiert, ekki hat passiert."
       ],
       "sectionAccents": {
         "explanation": {
@@ -37924,7 +37925,7 @@ const A2_WORDS = [
           "lv": "Hann er með miklar skuldir hjá bankanum."
         },
         {
-          "de": "Sie gibt mir die Schuld für den Fehler.",
+          "de": "Sie gibt mir die Schuld an dem Fehler.",
           "lv": "Hún kennir mér um mistökin."
         }
       ],
@@ -45735,7 +45736,7 @@ const A2_WORDS = [
       ],
       "important": [
         "weit (langt) og weiter (lengra, áfram) eru ólík orð: Geh weiter! – Haltu áfram!",
-        "Með fjarlægð er weit yfirleitt ekki notað með tölu; með tölu er notað entfernt: drei Kilometer entfernt."
+        "Með fjarlægð er tala notuð bæði með weit og entfernt: drei Kilometer weit, drei Kilometer entfernt."
       ],
       "sectionAccents": {
         "explanation": {

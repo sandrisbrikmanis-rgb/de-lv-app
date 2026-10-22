@@ -7904,7 +7904,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Poznamenejte si: behandeln + akuzativ (koho/co?). Nemoc se léčí pomocí mit + dativ.",
+        "Poznamenejte si: behandeln + akuzativ (koho/co?). Prostředek léčby se uvádí pomocí mit + dativ.",
         "Podstatné jméno die Behandlung pochází od tohoto slovesa."
       ],
       "important": [
@@ -11521,7 +11521,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Typické spojení: am Bildschirm arbeiten; obraz je auf dem Bildschirm.",
+        "Typické spojení: am Bildschirm arbeiten; auf dem Bildschirm erscheinen (objevit se na obrazovce).",
         "U telefonu se obvykle říká das Display."
       ],
       "important": [
@@ -12496,7 +12496,7 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "Luk",
       "explanation": [
-        "Hlavní myšlenka: der Bogen znamená luk či oblouk, tedy zakřivenou čáru nebo předmět, například střelecký luk, klenbu, smyčec nebo zákrut. Množné číslo je die Bögen (s přehláskou).",
+        "Hlavní myšlenka: der Bogen znamená luk či oblouk, tedy zakřivenou čáru nebo předmět, například střelecký luk, klenbu, smyčec nebo zákrut. Množné číslo je die Bogen; na jihu také die Bögen.",
         "Různé významy: oblouk mostu nebo budovy (der Bogen einer Brücke), luk ve sportu a smyčec v hudbě (Pfeil und Bogen, Geigenbogen) a také list papíru (ein Bogen Papier). Obrat einen Bogen um etwas machen znamená obejít něco ve velkém oblouku.",
         "Z kontextu poznáte, který význam je myšlen: luk, oblouk, smyčec, nebo arch papíru."
       ],
@@ -12535,7 +12535,7 @@ const B1_WORDS = [
         "Známá spojení: Pfeil und Bogen, Geigenbogen."
       ],
       "important": [
-        "Množné číslo die Bögen má ö.",
+        "Množné číslo die Bogen; na jihu také die Bögen (s ö).",
         "Ein Bogen Papier je velký arch papíru, například na kreslení nebo balení."
       ],
       "sectionAccents": {
@@ -12641,7 +12641,8 @@ const B1_WORDS = [
         "important": [
           {
             "blue": [
-              "Bögen"
+              "Bögen",
+              "Bogen"
             ]
           },
           {
@@ -17374,7 +17375,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Pomocné sloveso je sein: ich bin eingebrochen.",
+        "Pomocné sloveso je obvykle sein (s bei + dativem také haben: man hat bei uns eingebrochen): ich bin eingebrochen.",
         "V bezpodmětném pasivu: Bei uns wurde eingebrochen."
       ],
       "important": [
@@ -19747,7 +19748,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Sich eingewöhnen se obvykle nepoužívá s an + akuzativ.",
-        "Předpona ein se odlučuje jen v přítomném a minulém čase, v příčestí zůstává pohromadě: eingewöhnt."
+        "Předpona ein se odlučuje jen v přítomném a minulém čase a v rozkazovacím způsobu, v příčestí zůstává pohromadě: eingewöhnt."
       ],
       "sectionAccents": {
         "explanation": {
@@ -20948,7 +20949,7 @@ const B1_WORDS = [
         "Slovo znamená také „dohnat“; význam pomůže určit kontext."
       ],
       "important": [
-        "Einholen není totéž co einkaufen (nakupovat).",
+        "Einholen regionálně v hovorové řeči znamená také einkaufen (nakupovat).",
         "Nezaměňuj s überholen (předjet): einholen – dohnat, überholen – předjet."
       ],
       "sectionAccents": {
@@ -25521,7 +25522,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Faul u člověka znamená líný, u jídla zkažený; význam určuje podstatné jméno.",
-        "Faulenzen není špatné slovo – znamená prostě odpočívat."
+        "Faulenzen může být odsuzující (zahálení) nebo neutrální – odpočívat a nic nedělat."
       ],
       "sectionAccents": {
         "explanation": {
@@ -32415,7 +32416,7 @@ const B1_WORDS = [
         "Fráze: auf den Tisch hauen, sich aufs Ohr hauen (hovorově: jít spát)."
       ],
       "important": [
-        "Minulé tvary se liší podle významu: haute (bít, hovorově) a hieb (sekat, literárně).",
+        "Minulé tvary se liší podle významu: haute (bít, hovorově) a hieb (bít zbraní, ve vyšším stylu).",
         "Perfektum: hat gehauen."
       ],
       "sectionAccents": {
@@ -35969,7 +35970,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Sich irren je zdvořilejší než „falsch sein“: Da irrst du dich.",
+        "Sich irren je zdvořilejší než „Unrecht haben“: Da irrst du dich.",
         "Perfektum: hat sich geirrt (haben)."
       ],
       "important": [
@@ -37686,7 +37687,7 @@ const B1_WORDS = [
       "translation": "Jádro",
       "explanation": [
         "Hlavní myšlenka: der Kern je podstatné jméno mužského rodu, které znamená jádro — nejdůležitější nebo vnitřní část něčeho. Množné číslo: die Kerne. Může to být pecka nebo semeno ovoce (Kirschkern, Apfelkern), atomové jádro nebo podstata myšlenky.",
-        "V přeneseném významu: der Kern der Sache — podstata věci. Ve fyzice: Atomkern, Zellkern (buněčné jádro); v politice: Kernenergie (jaderná energie)."
+        "V přeneseném významu: der Kern der Sache — podstata věci. Ve fyzice: Atomkern; v biologii: Zellkern (buněčné jádro); v politice: Kernenergie (jaderná energie)."
       ],
       "examples": [
         {
@@ -40817,7 +40818,7 @@ const B1_WORDS = [
       "explanation": [
         "Hlavní myšlenka: kündigen znamená vypovědět práci, smlouvu nebo nájem, tedy úředně oznámit, že vztah skončí. Tvary: kündigt, kündigte, hat gekündigt (pomocné sloveso haben). Ukončit práci tedy často znamená dát výpověď.",
         "S akuzativem se užívá věc: den Vertrag kündigen, die Wohnung kündigen, den Job kündigen. S dativem osoba, které se vypovídá: Der Chef kündigt dem Mitarbeiter (šéf dává zaměstnanci výpověď). Bez předmětu ich habe gekündigt znamená, že jsem dal výpověď sám.",
-        "Kündigen je v podstatě úřední krok s lhůtou (Kündigungsfrist); propuštění jménem podniku se označuje také entlassen."
+        "Kündigen je v podstatě úřední krok s lhůtou (Kündigungsfrist); propuštění jménem podniku se označuje také die Entlassung (sloveso: entlassen)."
       ],
       "examples": [
         {
@@ -43290,7 +43291,7 @@ const B1_WORDS = [
         "V přeneseném významu landen znamená skončit: Wo bin ich nur gelandet? (Kam jsem to dopadl?)."
       ],
       "important": [
-        "V perfektu se používá ist gelandet, ne hat gelandet.",
+        "Ve významu „přistát“ se v perfektu používá ist gelandet, ne hat gelandet.",
         "Na otázku kde? se odpovídá auf/in + dativ: auf dem Dach, im Spamordner."
       ],
       "sectionAccents": {
@@ -44968,7 +44969,7 @@ const B1_WORDS = [
       "translation": "Vymazat",
       "explanation": [
         "Hlavní myšlenka: löschen znamená hasit, mazat. Používá se ve třech hlavních situacích: uhasit oheň nebo světlo (den Brand löschen, das Licht löschen), smazat data (eine Datei löschen) a uhasit žízeň (den Durst löschen). Tvary: löscht, löschte, hat gelöscht.",
-        "Sloveso je přechodné, proto vždy následuje akuzativ: Ich lösche die Datei. Práce hasičů se popisuje slovesem löschen.",
+        "Sloveso je přechodné, proto obvykle následuje akuzativ: Ich lösche die Datei. Práce hasičů se popisuje slovesem löschen.",
         "Zvratně se neužívá; když oheň vyhasne sám, říká se erlöschen."
       ],
       "examples": [
@@ -52456,7 +52457,7 @@ const B1_WORDS = [
         "Uhánět může člověk i dopravní prostředek, ale srdce, čas nebo myšlenka jen v přeneseném smyslu."
       ],
       "important": [
-        "rasen není rasieren (holit): rasen – uhánět, rasieren – holit se.",
+        "rasen není rasieren (holit): rasen – uhánět, rasieren – holit.",
         "Rychlá jízda s porušením předpisů se často označuje jako rasen."
       ],
       "sectionAccents": {
@@ -57052,7 +57053,7 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "Brousit",
       "explanation": [
-        "Hlavní myšlenka: schleifen znamená brousit, obrušovat nebo leštit: udělat povrch hladký nebo ostrý. Existuje i druhé, nesouvisející sloveso schleifen – táhnout po zemi.",
+        "Hlavní myšlenka: schleifen znamená brousit, obrušovat nebo leštit: udělat povrch hladký nebo ostrý. Existuje i druhé, příbuzné sloveso schleifen – táhnout po zemi.",
         "Ve významu brousit je sloveso silné: er schleift, schliff, hat geschliffen (Messer schleifen, Diamanten schleifen). Ve významu táhnout je pravidelné: er schleift, schleifte, hat geschleift (etwas über den Boden schleifen).",
         "Často s předponou ab-: abschleifen (obrousit) – Wir schleifen den Tisch ab. Příčestí geschliffen jako přídavné jméno znamená také vybroušený, uhlazený."
       ],
@@ -64029,7 +64030,7 @@ const B1_WORDS = [
           "lv": "Rýn je velká řeka v Evropě."
         },
         {
-          "de": "Bei Regen fließen die Ströme über die Ufer.",
+          "de": "Bei Regen treten die Ströme über die Ufer.",
           "lv": "Za deště se velké řeky vylévají z břehů."
         }
       ],
@@ -68506,7 +68507,7 @@ const B1_WORDS = [
       "translation": "Přehlédnout",
       "explanation": [
         "Hlavní myšlenka: übersehen znamená přehlédnout, nevšimnout si – omylem nezaznamenat něco, co je přímo před očima. Tvary: übersieht, übersah, hat übersehen. Předpona über- je neodlučitelná. Po slovese následuje akuzativ.",
-        "Druhý význam je odhadnout, domyslet do důsledků: Wir können die Folgen noch nicht übersehen. Když si někdo něčeho nevšimne omylem, je to übersehen; když si něčeho nevšímá záměrně, říká se ignorieren nebo wegsehen."
+        "Druhý význam je odhadnout, domyslet do důsledků: Wir können die Folgen noch nicht übersehen. Když si někdo něčeho nevšimne omylem, je to übersehen; když si něčeho nevšímá záměrně, říká se obvykle ignorieren nebo wegsehen."
       ],
       "examples": [
         {
@@ -73145,7 +73146,7 @@ const B1_WORDS = [
           "lv": "Toto zvíře se vyskytuje jen v Africe."
         },
         {
-          "de": "Es kommt mir vor, als ob ich ihn kenne.",
+          "de": "Es kommt mir vor, als ob ich ihn kennen würde.",
           "lv": "Připadá mi, že ho znám."
         }
       ],
@@ -74302,7 +74303,7 @@ const B1_WORDS = [
         },
         {
           "word": "der Waggon",
-          "meaning": "vagon (nákladní)",
+          "meaning": "vagon (železniční)",
           "example": "Der Waggon steht am Bahnhof. – Vagon stojí na nádraží."
         },
         {

@@ -27309,7 +27309,7 @@ const B2_WORDS = [
       ],
       "tip": [
         "Retiens une seule phrase : Das ist mir zuwider. — Cela me répugne / j'ai horreur de ça.",
-        "Après zuwider vient toujours le datif : mir, ihm, dem Gesetz."
+        "Avec zuwider, on emploie toujours le datif, placé avant lui : mir, ihm, dem Gesetz."
       ],
       "important": [
         "Avec zuwider, on n'emploie pas l'accusatif : non pas mich zuwider, mais mir zuwider.",

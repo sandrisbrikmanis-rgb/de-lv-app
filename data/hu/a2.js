@@ -436,7 +436,7 @@ const A2_WORDS = [
       "translation": "átad • lead • benyújt",
       "explanation": [
         "A lényeg: az abgeben elváló igekötős ige, jelentése átad, lead (valaki átveszi): gibt ab, gab ab, hat abgegeben. Akkor használjuk, amikor valamit elviszünk és ott hagyunk valakinél – házi feladatot, kulcsot, kabátot, csomagot. Az ab a mondat végén áll.",
-        "Akinek átadjuk, gyakran Dativ (részes eset) alakban áll, vagy a bei/an elöljárószóval: etwas an der Rezeption abgeben, jemandem etwas abgeben. Dolgozatot vagy dokumentumot a tanárnál vagy egy hivatalban adunk le: die Arbeit abgeben.",
+        "Azt a helyet vagy személyt, ahol, illetve akinél átadjuk, gyakran az an/bei elöljárószó fejezi ki: etwas an der Rezeption abgeben, etwas beim Nachbarn abgeben. Dolgozatot vagy dokumentumot a tanárnál vagy egy hivatalban adunk le: die Arbeit abgeben.",
         "Ha valamit visszaadunk, a zurückgeben igét használjuk; kérelem hivatalos benyújtására gyakran az einreichen ige szolgál."
       ],
       "examples": [
@@ -10138,7 +10138,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Az Er kommt bestimmt mondatban a bestimmt az egész kijelentést nyomatékosítja.",
-        "Ha még nagyobb bizonyosságot akarsz kifejezni, mondd: ganz bestimmt vagy sicher."
+        "Ha még nagyobb bizonyosságot akarsz kifejezni, mondd: ganz bestimmt vagy ganz sicher."
       ],
       "important": [
         "A bestimmt nem ugyanaz, mint a bestimmen: a bestimmen jelentése meghatároz, dönt, a bestimmt pedig határozószó vagy melléknév.",
@@ -10360,7 +10360,7 @@ const A2_WORDS = [
       "translation": "körte • villanykörte",
       "explanation": [
         "Lényeg: a die Birne nőnemű főnév; jelentése körte (gyümölcs) és villanykörte (izzó, a Glühbirne rövidítése). Többes száma die Birnen.",
-        "A jelentést a szövegkörnyezet dönti el: gyümölccsel és étellel kapcsolatban körte, lámpával és fénnyel kapcsolatban villanykörte. Ez magyarul is ismerős, hiszen az izzót mi is körtének nevezzük. Gyakori összetételek: die Glühbirne (izzó, villanykörte), die Energiesparlampe (energiatakarékos izzó).",
+        "A jelentést a szövegkörnyezet dönti el: gyümölccsel és étellel kapcsolatban körte, lámpával és fénnyel kapcsolatban villanykörte. Ez magyarul is ismerős, hiszen az izzót mi is körtének nevezzük. Gyakori összetételek: die Glühbirne (izzó, villanykörte), die LED-Birne (LED-izzó).",
         "A köznyelvben a Birne néha fejet is jelent (bizalmas szó), de ez a jelentés informális."
       ],
       "examples": [
@@ -33808,7 +33808,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Tervezett eseményekre (koncert, értekezlet) a stattfinden igét használjuk, nem a passieren igét.",
-        "Perfektben mindig ist passiert, nem hat passiert."
+        "A „történik” jelentésben Perfektben mindig ist passiert, nem hat passiert."
       ],
       "sectionAccents": {
         "explanation": {
@@ -37923,7 +37923,7 @@ const A2_WORDS = [
           "lv": "Sok adóssága van a banknál."
         },
         {
-          "de": "Sie gibt mir die Schuld für den Fehler.",
+          "de": "Sie gibt mir die Schuld an dem Fehler.",
           "lv": "Engem hibáztat a tévedésért."
         }
       ],
@@ -45730,7 +45730,7 @@ const A2_WORDS = [
       ],
       "important": [
         "A weit (messze) és a weiter (tovább, továbbá) különböző szavak: Geh weiter! – Menj tovább!",
-        "Távolságnál a weit mellé általában nem teszünk számot; számmal az entfernt használatos: drei Kilometer entfernt."
+        "Távolságnál számot a weit és az entfernt mellé is tehetünk: drei Kilometer weit, drei Kilometer entfernt."
       ],
       "sectionAccents": {
         "explanation": {

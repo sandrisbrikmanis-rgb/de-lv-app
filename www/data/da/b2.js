@@ -27293,10 +27293,10 @@ const B2_WORDS = [
       ],
       "tip": [
         "Lær én vending: Das ist mir zuwider. — Det er mig imod / det kan jeg ikke fordrage.",
-        "Efter zuwider følger altid dativ: mir, ihm, dem Gesetz."
+        "Med zuwider bruges altid dativ, som står foran det: mir, ihm, dem Gesetz."
       ],
       "important": [
-        "Efter zuwider bruges ikke akkusativ: ikke mich zuwider, men mir zuwider.",
+        "Med zuwider bruges ikke akkusativ: ikke mich zuwider, men mir zuwider.",
         "I betydningen imod står zuwider normalt efter navneordet: dem Gesetz zuwider; entgegen står normalt foran: entgegen dem Gesetz."
       ],
       "sectionAccents": {

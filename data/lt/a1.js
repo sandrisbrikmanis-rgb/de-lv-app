@@ -2707,7 +2707,7 @@ const A1_WORDS = [
           "lv": "Valgant nekalbama."
         },
         {
-          "de": "Das Hotel liegt bei dem Bahnhof.",
+          "de": "Das Hotel liegt beim Bahnhof.",
           "lv": "Viešbutis yra prie stoties."
         }
       ],
@@ -2806,7 +2806,7 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "bei"
+                "beim"
               ]
             },
             "lv": {
@@ -3585,7 +3585,7 @@ const A1_WORDS = [
       "translation": "prašau",
       "explanation": [
         "Pagrindinė mintis: bitte (prašau) yra mandagumo žodis, vartojamas prašant (Kannst du mir bitte helfen?), siūlant (Bitte, nehmen Sie Platz) arba atsakant į padėką (Danke! – Bitte!).",
-        "Žodis nekaitomas. Bitte schön — mandagesnis variantas ką nors paduodant („prašom, štai jums“), bitte sehr — dar formalesnis. Wie bitte? reiškia „atsiprašau, ką sakėte?“, jei neišgirdai.",
+        "Žodis nekaitomas. Bitte schön — mandagesnis variantas ką nors paduodant („prašom, štai jums“), bitte sehr — lygiavertis variantas. Wie bitte? reiškia „atsiprašau, ką sakėte?“, jei neišgirdai.",
         "Daiktavardis die Bitte, rašomas didžiąja raide, reiškia „prašymas“ — tai kitas žodis."
       ],
       "examples": [
@@ -8634,7 +8634,7 @@ const A1_WORDS = [
       ],
       "tip": [
         "Linksnių galūnės tokios pat kaip kitų būdvardžių: der ganze Tag, ein ganzer Tag.",
-        "Ganz + būdvardis sustiprina: ganz gut, ganz neu."
+        "Ganz + būdvardis sustiprina (ganz neu) arba sušvelnina (ganz gut – gana gerai)."
       ],
       "important": [
         "Kaip būdvardis ganz linksniuojamas (der ganze Tag), kaip prieveiksmis nekinta (ganz neu).",
@@ -14300,7 +14300,7 @@ const A1_WORDS = [
         "Kainos klausiama: Was kostet…? arba Wie viel kostet…?"
       ],
       "important": [
-        "Daiktavardis Kosten (daugiskaita) reiškia „išlaidos“; kosten kaip veiksmažodis – „kainuoti“.",
+        "Daiktavardis die Kosten (tik daugiskaita) reiškia „išlaidos“; kosten kaip veiksmažodis – „kainuoti“.",
         "Kosten gali reikšti ir „paragauti“ (Willst du die Suppe kosten?), bet kasdienėje kalboje tam vartojamas probieren."
       ],
       "sectionAccents": {
@@ -22617,7 +22617,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Ne sehst ar sehet: taisyklingai du siehst, er sieht.",
-        "Norint pasakyti, kad ką nors žiūri (filmą, paveikslėlį), paprastai vartojama sich (Dat) + ansehen, o ne vien sehen."
+        "Norint pasakyti, kad ką nors žiūri (filmą, paveikslėlį), galima vartoti ir sehen, ir sich (Dat) + ansehen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -26438,7 +26438,7 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Klausdamas apie daiktą visada pradėk su was; apie žmogų – su wer, wen, wem.",
+        "Klausdamas apie daiktą paprastai pradėk su was; apie žmogų – su wer, wen, wem.",
         "Po alles, etwas, nichts vartojamas was, o ne das."
       ],
       "important": [

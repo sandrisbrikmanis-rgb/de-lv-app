@@ -2705,7 +2705,7 @@ const A1_WORDS = [
           "lv": "Za vrijeme jela se ne priča."
         },
         {
-          "de": "Das Hotel liegt bei dem Bahnhof.",
+          "de": "Das Hotel liegt beim Bahnhof.",
           "lv": "Hotel se nalazi kod stanice."
         }
       ],
@@ -2804,7 +2804,7 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "bei"
+                "beim"
               ]
             },
             "lv": {
@@ -3583,7 +3583,7 @@ const A1_WORDS = [
       "translation": "molim",
       "explanation": [
         "Glavna ideja: bitte je riječ učtivosti kojom se nešto moli (Kannst du mir bitte helfen?), nudi (Bitte, nehmen Sie Platz) ili odgovara na zahvalu (Danke! – Bitte!).",
-        "Riječ se ne mijenja. Bitte schön je učtivija verzija kad nešto nudiš ('izvolite, evo vam'), a bitte sehr je još formalnija. Wie bitte? znači 'molim? kako?' kad nešto nisi dobro čuo.",
+        "Riječ se ne mijenja. Bitte schön je učtivija verzija kad nešto nudiš ('izvolite, evo vam'), a bitte sehr je ravnopravna varijanta. Wie bitte? znači 'molim? kako?' kad nešto nisi dobro čuo.",
         "Imenica die Bitte, s velikim slovom, znači 'molba' – to je druga riječ."
       ],
       "examples": [
@@ -8632,7 +8632,7 @@ const A1_WORDS = [
       ],
       "tip": [
         "Padežni nastavci isti su kao kod drugih pridjeva: der ganze Tag, ein ganzer Tag.",
-        "Ganz + pridjev pojačava značenje: ganz gut, ganz neu."
+        "Ganz + pridjev pojačava značenje (ganz neu) ili ga ublažava (ganz gut – prilično dobro)."
       ],
       "important": [
         "Kao pridjev ganz se mijenja (der ganze Tag), kao prilog ostaje isti (ganz neu).",
@@ -22616,7 +22616,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Ne postoji sehst ni sehet: pravilno je du siehst, er sieht.",
-        "Kad se nešto gleda (film, slika), obično se koristi sich (Dat) + ansehen, a ne samo sehen."
+        "Kad se nešto gleda (film, slika), može se koristiti i sehen i sich (Dat) + ansehen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -26436,7 +26436,7 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "U pitanju o stvari uvijek počni sa was; u pitanju o osobi — sa wer, wen, wem.",
+        "U pitanju o stvari obično počni sa was; u pitanju o osobi — sa wer, wen, wem.",
         "Poslije alles i nichts koristi se was, a ne das; poslije etwas najčešće je was (moguće je i das)."
       ],
       "important": [

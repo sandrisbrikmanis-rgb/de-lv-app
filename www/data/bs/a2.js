@@ -439,7 +439,7 @@ const A2_WORDS = [
       "translation": "predati",
       "explanation": [
         "Glavna ideja: abgeben je glagol s razdvojivim prefiksom sa značenjem predati (nekome ili negdje): gibt ab, gab ab, hat abgegeben. Koristi se kad se nešto donese i ostavi drugome — zadaću, ključ, kaput, pošiljku. Ab stoji na kraju rečenice.",
-        "Osoba kojoj se nešto predaje često je u dativu, ili se koristi bei/an: etwas an der Rezeption abgeben, jemandem etwas abgeben. Rad ili dokument predaje se nastavniku ili u ustanovi: die Arbeit abgeben.",
+        "Mjesto ili osoba kod koje se nešto predaje često se izražava s an/bei: etwas an der Rezeption abgeben, etwas beim Nachbarn abgeben. Rad ili dokument predaje se nastavniku ili u ustanovi: die Arbeit abgeben.",
         "Kad se nešto vraća, koristi se zurückgeben; kad se zvanično podnosi zahtjev, često se koristi einreichen."
       ],
       "examples": [
@@ -8679,7 +8679,7 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "čaša",
       "explanation": [
-        "Glavna ideja: der Becher je imenica muškog roda. To je čaša ili šolja bez drške iz koje se pije: Pappbecher (papirna čaša), Plastikbecher (plastična čaša). Množina je die Becher.",
+        "Glavna ideja: der Becher je imenica muškog roda. To je čaša ili šolja, obično bez drške, iz koje se pije: Pappbecher (papirna čaša), Plastikbecher (plastična čaša). Množina je die Becher.",
         "Riječ se koristi i za pakovanje proizvoda, npr. ein Becher Joghurt (čašica jogurta) i ein Becher Eis (čašica sladoleda).",
         "Za razliku od die Tasse (šolja s drškom) i das Glas (staklena čaša), der Becher obično nema dršku i često je od plastike, papira, metala ili keramike."
       ],
@@ -8714,7 +8714,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Ako je posuda bez drške i služi za piće ili jelo, koristi Becher; ako ima dršku, die Tasse.",
+        "Ako je posuda bez drške i služi za piće ili jelo, koristi Becher; ako ima dršku, obično die Tasse (ali i Kaffeebecher).",
         "Množina je die Becher (bez promjene nastavka)."
       ],
       "important": [
@@ -10161,7 +10161,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "U rečenici Er kommt bestimmt riječ bestimmt pojačava cijelu izjavu.",
-        "Ako treba izraziti još veću uvjerenost, koristi ganz bestimmt ili sicher."
+        "Ako treba izraziti još veću uvjerenost, koristi ganz bestimmt ili ganz sicher."
       ],
       "important": [
         "Bestimmt nije isto što i bestimmen: bestimmen znači odrediti, odlučiti, a bestimmt je prilog ili pridjev.",
@@ -10383,7 +10383,7 @@ const A2_WORDS = [
       "translation": "kruška",
       "explanation": [
         "Glavna ideja: die Birne je imenica ženskog roda sa značenjem kruška (voće) i sijalica (električna, skraćeno od Glühbirne). Množina je die Birnen.",
-        "Značenje određuje kontekst: uz voće i hranu to je kruška, uz lampu i svjetlo sijalica. Česte su riječi die Glühbirne (sijalica sa žarnom niti) i die Energiesparlampe (štedna sijalica).",
+        "Značenje određuje kontekst: uz voće i hranu to je kruška, uz lampu i svjetlo sijalica. Česte su riječi die Glühbirne (sijalica sa žarnom niti) i die LED-Birne (LED sijalica).",
         "U razgovornom jeziku Birne ponekad znači i glavu, ali je to neformalno značenje."
       ],
       "examples": [
@@ -12806,7 +12806,7 @@ const A2_WORDS = [
       "translation": "zahvalnost",
       "explanation": [
         "Glavna ideja: der Dank je imenica muškog roda i znači zahvalnost – ono što izražavamo nekome za pomoć ili dobro djelo. Obično se koristi u jednini.",
-        "Česte veze: Vielen Dank (puno hvala), jemandem Dank sagen (zahvaliti se nekome), als Dank (u znak zahvalnosti), zum Dank. Dank je i prijedlog: Dank deiner Hilfe (zahvaljujući tvojoj pomoći), iza kojeg obično dolazi genitiv ili dativ."
+        "Česte veze: Vielen Dank (puno hvala), jemandem Dank sagen (zahvaliti se nekome), als Dank (u znak zahvalnosti), zum Dank. S malim slovom dank je i prijedlog: Dank deiner Hilfe (zahvaljujući tvojoj pomoći), iza kojeg obično dolazi genitiv ili dativ."
       ],
       "examples": [
         {
@@ -12848,7 +12848,8 @@ const A2_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "Dank"
+            "Dank",
+            "dank"
           ],
           "purple": [
             "hvala",
@@ -33848,7 +33849,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Za planirane događaje (koncert, sastanak) koristi se stattfinden, a ne passieren.",
-        "U perfektu uvijek ist passiert, a ne hat passiert."
+        "U značenju „desiti se“ u perfektu uvijek ist passiert, a ne hat passiert."
       ],
       "sectionAccents": {
         "explanation": {
@@ -37964,7 +37965,7 @@ const A2_WORDS = [
           "lv": "On ima mnogo dugova kod banke."
         },
         {
-          "de": "Sie gibt mir die Schuld für den Fehler.",
+          "de": "Sie gibt mir die Schuld an dem Fehler.",
           "lv": "Ona mene krivi za grešku."
         }
       ],
@@ -45774,7 +45775,7 @@ const A2_WORDS = [
       ],
       "important": [
         "weit (dalek) i weiter (dalje, nadalje) ne koriste se isto: Geh weiter! – Idi dalje!",
-        "Uz udaljenost weit se obično ne koristi s brojem; s brojem se koristi entfernt: drei Kilometer entfernt."
+        "Uz udaljenost broj se koristi i s weit i s entfernt: drei Kilometer weit, drei Kilometer entfernt."
       ],
       "sectionAccents": {
         "explanation": {

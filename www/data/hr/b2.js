@@ -27309,7 +27309,7 @@ const B2_WORDS = [
       ],
       "tip": [
         "Zapamti jednu rečenicu: Das ist mir zuwider. — To mi je mrsko / ne podnosim to.",
-        "Iza zuwider uvijek slijedi dativ: mir, ihm, dem Gesetz."
+        "Uz zuwider uvijek se rabi dativ, koji stoji ispred njega: mir, ihm, dem Gesetz."
       ],
       "important": [
         "Uz zuwider se ne rabi akuzativ: ne mich zuwider, nego mir zuwider.",

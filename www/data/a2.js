@@ -438,7 +438,7 @@ const A2_WORDS = [
       "translation": "nodot • atdot • iesniegt",
       "explanation": [
         "Galvenā doma: abgeben ir atdalāms darbības vārds ar nozīmi nodot (kāds ko saņem): gibt ab, gab ab, hat abgegeben. Lieto, kad ko aiznes un atstāj citam — mājasdarbu, atslēgu, mēteli, sūtījumu. Ab stāv teikuma beigās.",
-        "Cilvēks, kam nodod, bieži ir datīvā vai ar bei/an: etwas an der Rezeption abgeben, jemandem etwas abgeben. Darbu vai dokumentu iesniedz pie skolotāja vai iestādē: die Arbeit abgeben.",
+        "Vietu vai cilvēku, kur nodod, bieži izsaka ar an/bei: etwas an der Rezeption abgeben, etwas beim Nachbarn abgeben. Darbu vai dokumentu iesniedz pie skolotāja vai iestādē: die Arbeit abgeben.",
         "Ja kaut ko atdod atpakaļ, lieto zurückgeben; ja oficiāli iesniedz pieteikumu, bieži lieto einreichen."
       ],
       "examples": [
@@ -1091,7 +1091,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Atceries neregulāro pagātni: bringen – brachte – gebracht.",
-        "Dod kādam kaut ko ar bringen: Ich bringe dir ein Buch."
+        "Atnes kādam kaut ko ar bringen: Ich bringe dir ein Buch."
       ],
       "important": [
         "Perfekts ir gebracht, nevis \"gebringt\".",
@@ -8665,7 +8665,7 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "krūze • glāze",
       "explanation": [
-        "Galvenā doma: der Becher ir vīriešu dzimtes lietvārds. Tā ir krūze vai glāze bez osas, no kuras dzer: Pappbecher (papīra krūzīte), Plastikbecher (plastmasas glāze). Daudzskaitlis ir die Becher.",
+        "Galvenā doma: der Becher ir vīriešu dzimtes lietvārds. Tā ir krūze vai glāze, parasti bez osas, no kuras dzer: Pappbecher (papīra krūzīte), Plastikbecher (plastmasas glāze). Daudzskaitlis ir die Becher.",
         "Vārdu lieto arī produktu iepakojumam, piemēram, ein Becher Joghurt (kausiņš jogurta) un ein Becher Eis (kausiņš saldējuma).",
         "Atšķirībā no die Tasse (tase ar osu) un das Glas (stikla glāze), der Becher parasti ir bez osas un bieži izgatavots no plastmasas, papīra, metāla vai keramikas."
       ],
@@ -8700,7 +8700,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Ja trauks ir bez osas un paredzēts dzeršanai vai ēšanai, lieto Becher; ja ar osu, die Tasse.",
+        "Ja trauks ir bez osas un paredzēts dzeršanai vai ēšanai, lieto Becher; ja ar osu, parasti die Tasse (bet arī Kaffeebecher).",
         "Daudzskaitlis ir die Becher (nemaina galotni)."
       ],
       "important": [
@@ -10142,7 +10142,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Teikumā Er kommt bestimmt vārds bestimmt pastiprina visu izteikumu.",
-        "Ja nepieciešams izteikt lielāku pārliecību, lieto ganz bestimmt vai sicher."
+        "Ja nepieciešams izteikt lielāku pārliecību, lieto ganz bestimmt vai ganz sicher."
       ],
       "important": [
         "Bestimmt nav tas pats, kas bestimmen: bestimmen ir noteikt, lemt, bestimmt ir apstākļa vārds vai īpašības vārds.",
@@ -10364,7 +10364,7 @@ const A2_WORDS = [
       "translation": "bumbieris • spuldze",
       "explanation": [
         "Galvenā doma: die Birne ir sieviešu dzimtes lietvārds ar nozīmi bumbieris (auglis) un spuldze (elektriskā spuldze, saīsināti no Glühbirne). Daudzskaitlis ir die Birnen.",
-        "Nozīmi nosaka konteksts: ar augļiem un ēdienu tas ir bumbieris, ar lampu un gaismu spuldze. Biežs savienojums ir die Glühbirne (kvēlspuldze), die Energiesparlampe (enerģijas taupīšanas spuldze).",
+        "Nozīmi nosaka konteksts: ar augļiem un ēdienu tas ir bumbieris, ar lampu un gaismu spuldze. Biežs savienojums ir die Glühbirne (kvēlspuldze), die LED-Birne (LED spuldze).",
         "Ikdienas valodā Birne dažkārt nozīmē arī galvu (sarunvalodā), taču šī nozīme ir neformāla."
       ],
       "examples": [
@@ -10587,7 +10587,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Savienojumā ar haben un erfüllen bitte ir lietvārds, tāpēc raksta ar lielo burtu.",
+        "Savienojumā ar haben un erfüllen Bitte ir lietvārds, tāpēc raksta ar lielo burtu.",
         "Pieklājīgu lūgumu ievada ar Ich habe eine Bitte vai Darf ich Sie um etwas bitten?"
       ],
       "important": [
@@ -12787,7 +12787,7 @@ const A2_WORDS = [
       "translation": "pateicība",
       "explanation": [
         "Galvenā doma: der Dank ir vīriešu dzimtes lietvārds, kas nozīmē pateicību — to, ko izsaka cilvēkam par palīdzību vai labu darbu. Parasti lieto vienskaitlī.",
-        "Bieži savienojumi: Vielen Dank (liels paldies), jemandem Dank sagen (pateikties kādam), als Dank (pateicībā), zum Dank. Dank ir arī prievārds: Dank deiner Hilfe (pateicoties tavai palīdzībai), kam parasti seko ģenitīvs vai datīvs."
+        "Bieži savienojumi: Vielen Dank (liels paldies), jemandem Dank sagen (pateikties kādam), als Dank (pateicībā), zum Dank. Ar mazo burtu dank ir arī prievārds: Dank deiner Hilfe (pateicoties tavai palīdzībai), kam parasti seko ģenitīvs vai datīvs."
       ],
       "examples": [
         {
@@ -12829,7 +12829,8 @@ const A2_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "Dank"
+            "Dank",
+            "dank"
           ],
           "purple": [
             "paldies",
@@ -19072,7 +19073,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Perfektā lieto sein: ist gefolgt.",
-        "Folgen ir arī lietvārds die Folge (sekas, seka)."
+        "Folgen ir arī lietvārda die Folge daudzskaitlis (sekas)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -33824,7 +33825,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Plānotiem pasākumiem (koncerts, sapulce) lieto stattfinden, nevis passieren.",
-        "Perfektā vienmēr ist passiert, nevis hat passiert."
+        "Nozīmē „notikt” perfektā vienmēr ist passiert, nevis hat passiert."
       ],
       "sectionAccents": {
         "explanation": {
@@ -37939,7 +37940,7 @@ const A2_WORDS = [
           "lv": "Viņam bankā ir daudz parādu."
         },
         {
-          "de": "Sie gibt mir die Schuld für den Fehler.",
+          "de": "Sie gibt mir die Schuld an dem Fehler.",
           "lv": "Viņa par kļūdu vaino mani."
         }
       ],
@@ -45750,7 +45751,7 @@ const A2_WORDS = [
       ],
       "important": [
         "weit (tāls) un weiter (tālāk, turpmāk) ir dažādi vārdi: Geh weiter! – Ej tālāk!",
-        "Ar attālumu weit parasti nelieto skaitli; skaitli lieto ar entfernt: drei Kilometer entfernt."
+        "Ar attālumu skaitli lieto gan ar weit, gan ar entfernt: drei Kilometer weit, drei Kilometer entfernt."
       ],
       "sectionAccents": {
         "explanation": {

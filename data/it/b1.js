@@ -7905,7 +7905,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Annota: behandeln + accusativo (chi? che cosa?). Una malattia si cura mit + dativo.",
+        "Annota: behandeln + accusativo (chi? che cosa?). Il mezzo di cura si indica con mit + dativo.",
         "Il sostantivo die Behandlung deriva da questo verbo."
       ],
       "important": [
@@ -11510,7 +11510,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Combinazione tipica: am Bildschirm arbeiten; l'immagine è auf dem Bildschirm.",
+        "Combinazione tipica: am Bildschirm arbeiten; auf dem Bildschirm erscheinen (apparire sullo schermo).",
         "Per il telefono si dice di solito das Display."
       ],
       "important": [
@@ -12482,7 +12482,7 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "arco • curva",
       "explanation": [
-        "Idea principale: der Bogen indica un arco — una linea o un oggetto curvo, per esempio l'arco per tirare, un arco architettonico, l'archetto del violino o una curva. Il plurale è die Bögen (con Umlaut).",
+        "Idea principale: der Bogen indica un arco — una linea o un oggetto curvo, per esempio l'arco per tirare, un arco architettonico, l'archetto del violino o una curva. Il plurale è die Bogen; nelle regioni meridionali anche die Bögen.",
         "Significati diversi: l'arco di un ponte o di un edificio (der Bogen einer Brücke), l'arco nello sport e l'archetto nella musica (Pfeil und Bogen, Geigenbogen), e anche un foglio di carta (ein Bogen Papier). L'espressione einen Bogen um etwas machen significa girare alla larga da qualcosa.",
         "È il contesto a chiarire quale significato si intende: arco, archetto, curva o foglio."
       ],
@@ -12521,7 +12521,7 @@ const B1_WORDS = [
         "Combinazioni note: Pfeil und Bogen, Geigenbogen."
       ],
       "important": [
-        "Il plurale die Bögen si scrive con ö.",
+        "Il plurale è die Bogen; nelle regioni meridionali anche die Bögen (con ö).",
         "Ein Bogen Papier è un grande foglio di carta, per esempio per disegnare o per incartare."
       ],
       "sectionAccents": {
@@ -12626,7 +12626,8 @@ const B1_WORDS = [
         "important": [
           {
             "blue": [
-              "Bögen"
+              "Bögen",
+              "Bogen"
             ]
           },
           {
@@ -12902,7 +12903,7 @@ const B1_WORDS = [
       "translation": "incendio",
       "explanation": [
         "Idea principale: der Brand è un incendio, una disgrazia causata dal fuoco — una combustione incontrollata che danneggia un edificio o un bosco. Il plurale è die Brände.",
-        "Usi tipici: ein Brand bricht aus (scoppia un incendio), einen Brand löschen (spegnere un incendio), in Brand geraten (prendere fuoco), in Brand setzen (dare fuoco a). Der Brand è più neutro di das Feuer.",
+        "Usi tipici: ein Brand bricht aus (scoppia un incendio), einen Brand löschen (spegnere un incendio), in Brand geraten (prendere fuoco), in Brand setzen (dare fuoco a). Der Brand è un concetto più ristretto di das Feuer.",
         "Das Feuer può essere anche un fuoco controllato (nel camino, un falò), mentre der Brand è di solito una disgrazia o un danno."
       ],
       "examples": [
@@ -17353,7 +17354,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "L'ausiliare è sein: ich bin eingebrochen.",
+        "L'ausiliare è di solito sein (con bei + dativo anche haben: man hat bei uns eingebrochen): ich bin eingebrochen.",
         "Passivo senza soggetto: Bei uns wurde eingebrochen."
       ],
       "important": [
@@ -19725,7 +19726,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Sich eingewöhnen di solito non si usa con an + accusativo.",
-        "La particella ein si stacca solo al presente e al passato semplice; nel participio resta attaccata: eingewöhnt."
+        "La particella ein si stacca solo al presente, al passato semplice e all'imperativo; nel participio resta attaccata: eingewöhnt."
       ],
       "sectionAccents": {
         "explanation": {
@@ -20929,7 +20930,7 @@ const B1_WORDS = [
         "La parola significa anche «raggiungere»; il contesto aiuta a capire il senso."
       ],
       "important": [
-        "Einholen non è la stessa cosa di einkaufen (fare la spesa).",
+        "Einholen in alcune regioni e nel parlato significa anche einkaufen (fare la spesa).",
         "Non confondere con überholen (sorpassare): einholen – raggiungere, überholen – sorpassare."
       ],
       "sectionAccents": {
@@ -21469,7 +21470,7 @@ const B1_WORDS = [
         "Impegnarsi per qualcosa: sich für etwas einsetzen."
       ],
       "important": [
-        "Senza sich, einsetzen non significa «impegnarsi»: senza il pronome riflessivo significa inserire, impiegare.",
+        "Senza sich, einsetzen non significa «impegnarsi»: senza il pronome riflessivo significa inserire, impiegare o nominare.",
         "Non confonderlo con einstellen (regolare, assumere)."
       ],
       "sectionAccents": {
@@ -25506,7 +25507,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Faul riferito a una persona significa pigro, riferito al cibo marcio: il significato dipende dal sostantivo.",
-        "Faulenzen non è una parola negativa: significa semplicemente riposarsi senza fare nulla."
+        "Faulenzen può essere spregiativo (oziare) o neutro: riposarsi senza fare nulla."
       ],
       "sectionAccents": {
         "explanation": {
@@ -32407,7 +32408,7 @@ const B1_WORDS = [
         "Espressioni: auf den Tisch hauen, sich aufs Ohr hauen (colloquiale: andare a dormire)."
       ],
       "important": [
-        "Le forme del passato variano secondo il significato: haute (picchiare, colloquiale) e hieb (tagliare, letterario).",
+        "Le forme del passato variano secondo il significato: haute (picchiare, colloquiale) e hieb (colpire con un'arma, registro elevato).",
         "Al Perfekt: hat gehauen."
       ],
       "sectionAccents": {
@@ -35959,7 +35960,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Sich irren è più cortese di 'falsch sein': Da irrst du dich.",
+        "Sich irren è più cortese di 'Unrecht haben': Da irrst du dich.",
         "Al Perfekt: hat sich geirrt (haben)."
       ],
       "important": [
@@ -37676,7 +37677,7 @@ const B1_WORDS = [
       "translation": "nucleo • nocciolo",
       "explanation": [
         "Idea principale: der Kern è un sostantivo maschile che significa nucleo — la parte più importante o interna di qualcosa. Plurale: die Kerne. Può essere il nocciolo o il seme di un frutto (Kirschkern, Apfelkern), il nucleo di un atomo o il cuore di un'idea.",
-        "In senso figurato: der Kern der Sache — il nocciolo della questione. In fisica e biologia: Atomkern, Zellkern (nucleo della cellula); in politica: Kernenergie (energia nucleare)."
+        "In senso figurato: der Kern der Sache — il nocciolo della questione. In fisica: Atomkern; in biologia: Zellkern (nucleo della cellula); in politica: Kernenergie (energia nucleare)."
       ],
       "examples": [
         {
@@ -40803,7 +40804,7 @@ const B1_WORDS = [
       "explanation": [
         "Idea principale: kündigen significa recedere da un lavoro, da un contratto o da un affitto — comunicare ufficialmente che il rapporto finirà. Forme: kündigt, kündigte, hat gekündigt (ausiliare haben).",
         "Con l'accusativo si indica la cosa: den Vertrag kündigen, die Wohnung kündigen, den Job kündigen. Con il dativo si indica la persona licenziata: Der Chef kündigt dem Mitarbeiter (il capo licenzia il dipendente). Senza complemento ich habe gekündigt significa che mi sono licenziato io.",
-        "In sostanza kündigen è un passo ufficiale con un termine di preavviso (Kündigungsfrist); il licenziamento da parte dell'azienda si chiama anche entlassen. Attenzione: lo stesso verbo copre sia «licenziarsi» sia «licenziare» qualcuno sia «disdire» un contratto."
+        "In sostanza kündigen è un passo ufficiale con un termine di preavviso (Kündigungsfrist); il licenziamento da parte dell'azienda si chiama anche die Entlassung (verbo: entlassen). Attenzione: lo stesso verbo copre sia «licenziarsi» sia «licenziare» qualcuno sia «disdire» un contratto."
       ],
       "examples": [
         {
@@ -43276,7 +43277,7 @@ const B1_WORDS = [
         "In senso figurato landen significa finire, ritrovarsi: Wo bin ich nur gelandet? (Ma dove sono finito?)."
       ],
       "important": [
-        "Al Perfekt si usa ist gelandet, non hat gelandet — come in italiano, dove si dice «è atterrato».",
+        "Nel significato di «atterrare», al Perfekt si usa ist gelandet, non hat gelandet — come in italiano, dove si dice «è atterrato».",
         "Alla domanda wo? (dove?) si risponde con auf/in + dativo: auf dem Dach, im Spamordner."
       ],
       "sectionAccents": {
@@ -44953,7 +44954,7 @@ const B1_WORDS = [
       "translation": "spegnere • cancellare",
       "explanation": [
         "Idea principale: löschen è un solo verbo tedesco per cui l'italiano usa verbi diversi in tre situazioni principali: spegnere un fuoco o la luce (den Brand löschen, das Licht löschen; per un incendio anche estinguere), cancellare dei dati (eine Datei löschen) e placare la sete (den Durst löschen). Forme: löscht, löschte, hat gelöscht.",
-        "Il verbo è transitivo, quindi ha sempre un complemento all'accusativo: Ich lösche die Datei. Il lavoro dei vigili del fuoco si descrive con löschen.",
+        "Il verbo è transitivo, quindi di solito ha un complemento all'accusativo: Ich lösche die Datei. Il lavoro dei vigili del fuoco si descrive con löschen.",
         "Non si usa con sich; se un fuoco si spegne da solo, si dice erlöschen."
       ],
       "examples": [
@@ -52437,7 +52438,7 @@ const B1_WORDS = [
         "Possono sfrecciare sia le persone sia i veicoli; il cuore, il tempo o i pensieri solo in senso figurato."
       ],
       "important": [
-        "Rasen non è rasieren (radere): rasen – sfrecciare, rasieren – radersi.",
+        "Rasen non è rasieren (radere): rasen – sfrecciare, rasieren – radere.",
         "La guida veloce che viola le regole viene spesso chiamata rasen."
       ],
       "sectionAccents": {
@@ -57027,7 +57028,7 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "affilare • levigare",
       "explanation": [
-        "Idea principale: schleifen significa levigare, affilare o lucidare: rendere una superficie liscia o tagliente. Esiste anche un secondo verbo schleifen, senza relazione con il primo: trascinare per terra.",
+        "Idea principale: schleifen significa levigare, affilare o lucidare: rendere una superficie liscia o tagliente. Esiste anche un secondo verbo schleifen, imparentato con il primo: trascinare per terra.",
         "Nel senso di levigare il verbo è forte: er schleift, schliff, hat geschliffen (Messer schleifen, Diamanten schleifen). Nel senso di trascinare è regolare: er schleift, schleifte, hat geschleift (etwas über den Boden schleifen).",
         "Spesso con il prefisso ab-: abschleifen (levigare a fondo) – Wir schleifen den Tisch ab. Il participio geschliffen usato come aggettivo significa anche raffinato, forbito."
       ],
@@ -63999,7 +64000,7 @@ const B1_WORDS = [
           "lv": "Il Reno è un grande fiume d'Europa."
         },
         {
-          "de": "Bei Regen fließen die Ströme über die Ufer.",
+          "de": "Bei Regen treten die Ströme über die Ufer.",
           "lv": "Quando piove, i fiumi straripano."
         }
       ],
@@ -68468,7 +68469,7 @@ const B1_WORDS = [
       "translation": "non notare • trascurare",
       "explanation": [
         "Idea principale: übersehen significa non notare, lasciarsi sfuggire – non vedere per distrazione qualcosa che si ha davanti agli occhi. Forme: übersieht, übersah, hat übersehen. Il prefisso über- non è separabile. Il verbo è seguito dall'accusativo.",
-        "Un secondo significato è valutare nell'insieme, avere una visione d'insieme: Wir können die Folgen noch nicht übersehen. Non notare qualcosa per distrazione è übersehen; se lo si ignora di proposito si dice ignorieren o wegsehen."
+        "Un secondo significato è valutare nell'insieme, avere una visione d'insieme: Wir können die Folgen noch nicht übersehen. Non notare qualcosa per distrazione è übersehen; se lo si ignora di proposito di solito si dice ignorieren o wegsehen."
       ],
       "examples": [
         {
@@ -68514,7 +68515,7 @@ const B1_WORDS = [
         "Il contrario è bemerken (notare)."
       ],
       "important": [
-        "Übersehen è involontario, ignorieren è intenzionale.",
+        "Übersehen di solito è involontario, ignorieren è intenzionale.",
         "Al Perfekt non c'è ge-: hat übersehen."
       ],
       "sectionAccents": {
@@ -73107,7 +73108,7 @@ const B1_WORDS = [
           "lv": "Questo animale vive solo in Africa."
         },
         {
-          "de": "Es kommt mir vor, als ob ich ihn kenne.",
+          "de": "Es kommt mir vor, als ob ich ihn kennen würde.",
           "lv": "Mi sembra di conoscerlo."
         }
       ],
@@ -74263,7 +74264,7 @@ const B1_WORDS = [
         },
         {
           "word": "der Waggon",
-          "meaning": "vagone (merci)",
+          "meaning": "vagone (ferroviario)",
           "example": "Der Waggon steht am Bahnhof. – Il vagone è fermo in stazione."
         },
         {
@@ -74381,7 +74382,7 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "vagone (merci)"
+                "vagone (ferroviario)"
               ]
             }
           },

@@ -2706,7 +2706,7 @@ const A1_WORDS = [
           "lv": "Süües ei räägita."
         },
         {
-          "de": "Das Hotel liegt bei dem Bahnhof.",
+          "de": "Das Hotel liegt beim Bahnhof.",
           "lv": "Hotell asub jaama juures."
         }
       ],
@@ -2803,7 +2803,7 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "bei"
+                "beim"
               ]
             },
             "lv": {
@@ -3584,7 +3584,7 @@ const A1_WORDS = [
       "translation": "palun",
       "explanation": [
         "Põhiidee: bitte on viisakussõna, mida kasutatakse palumisel (Kannst du mir bitte helfen?), pakkumisel (Bitte, nehmen Sie Platz) või tänule vastamisel (Danke! – Bitte!). Eesti keeles vastab sellele enamasti palun.",
-        "Sõna ei muutu. Bitte schön on pakkumisel viisakam variant ('palun, olge lahke'), bitte sehr veelgi ametlikum. Wie bitte? tähendab 'kuidas palun?', kui sa ei kuulnud.",
+        "Sõna ei muutu. Bitte schön on pakkumisel viisakam variant ('palun, olge lahke'), bitte sehr samaväärne variant. Wie bitte? tähendab 'kuidas palun?', kui sa ei kuulnud.",
         "Suure algustähega nimisõna die Bitte tähendab 'palve' – see on teine sõna."
       ],
       "examples": [
@@ -8619,7 +8619,7 @@ const A1_WORDS = [
       ],
       "tip": [
         "Käändelõpud on samad mis teistel omadussõnadel: der ganze Tag, ein ganzer Tag.",
-        "Ganz + omadussõna võimendab: ganz gut, ganz neu."
+        "Ganz + omadussõna võimendab (ganz neu) või pehmendab (ganz gut – üsna hea)."
       ],
       "important": [
         "Omadussõnana ganz käändub (der ganze Tag), määrsõnana ei muutu (ganz neu).",
@@ -22604,7 +22604,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Vorme „du sehst“ ja „er seht“ pole olemas: õige on du siehst, er sieht.",
-        "Et öelda, et midagi vaadatakse (filmi, pilti), kasutatakse tavaliselt sich (datiiv) + ansehen, mitte ainult sehen."
+        "Et öelda, et midagi vaadatakse (filmi, pilti), võib kasutada nii sehen kui ka sich (datiiv) + ansehen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -26431,7 +26431,7 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Asja kohta küsides alusta alati was'iga; inimese kohta — wer, wen, wem.",
+        "Asja kohta küsides alusta tavaliselt was'iga; inimese kohta — wer, wen, wem.",
         "Pärast alles, etwas, nichts kasutatakse was, mitte das."
       ],
       "important": [

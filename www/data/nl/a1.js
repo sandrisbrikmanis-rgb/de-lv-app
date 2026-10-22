@@ -2706,7 +2706,7 @@ const A1_WORDS = [
           "lv": "Tijdens het eten praat je niet."
         },
         {
-          "de": "Das Hotel liegt bei dem Bahnhof.",
+          "de": "Das Hotel liegt beim Bahnhof.",
           "lv": "Het hotel ligt bij het station."
         }
       ],
@@ -2805,7 +2805,7 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "bei"
+                "beim"
               ]
             },
             "lv": {
@@ -3584,7 +3584,7 @@ const A1_WORDS = [
       "translation": "alstublieft • alsjeblieft",
       "explanation": [
         "Kern: bitte is een beleefdheidswoord waarmee je iets vraagt (Kannst du mir bitte helfen?), iets aanbiedt (Bitte, nehmen Sie Platz) of reageert op een bedankje (Danke! – Bitte!).",
-        "Het woord verandert niet. Bitte schön is beleefder bij het aanbieden ('alstublieft, hier is het'), bitte sehr is nog formeler. Wie bitte? betekent 'pardon?' als je iets niet goed verstaan hebt.",
+        "Het woord verandert niet. Bitte schön is beleefder bij het aanbieden ('alstublieft, hier is het'), bitte sehr is een gelijkwaardige variant. Wie bitte? betekent 'pardon?' als je iets niet goed verstaan hebt.",
         "Het zelfstandig naamwoord die Bitte met hoofdletter betekent 'verzoek' — dat is een ander woord."
       ],
       "examples": [
@@ -8631,7 +8631,7 @@ const A1_WORDS = [
       ],
       "tip": [
         "De uitgangen zijn dezelfde als bij andere bijvoeglijke naamwoorden: der ganze Tag, ein ganzer Tag.",
-        "Ganz + bijvoeglijk naamwoord versterkt: ganz gut, ganz neu."
+        "Ganz + bijvoeglijk naamwoord versterkt (ganz neu) of verzwakt (ganz gut – vrij goed)."
       ],
       "important": [
         "Als bijvoeglijk naamwoord wordt ganz verbogen (der ganze Tag), als bijwoord blijft het onveranderd (ganz neu).",
@@ -14297,7 +14297,7 @@ const A1_WORDS = [
         "Naar de prijs vraag je met: Was kostet…? of Wie viel kostet…?"
       ],
       "important": [
-        "Het zelfstandig naamwoord Kosten (meervoud) betekent “kosten, uitgaven”; kosten als werkwoord betekent “kosten” (een prijs hebben).",
+        "Het zelfstandig naamwoord die Kosten (alleen meervoud) betekent “kosten, uitgaven”; kosten als werkwoord betekent “kosten” (een prijs hebben).",
         "Kosten kan ook “proeven” betekenen (Willst du die Suppe kosten?), maar in het dagelijks leven gebruik je daarvoor probieren."
       ],
       "sectionAccents": {
@@ -22612,7 +22612,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Niet sehst of sehet: correct is du siehst, er sieht.",
-        "Om te zeggen dat je naar iets kijkt (een film, een foto), gebruik je meestal sich (datief) + ansehen, niet alleen sehen."
+        "Om te zeggen dat je naar iets kijkt (een film, een foto), kun je zowel sehen als sich (datief) + ansehen gebruiken."
       ],
       "sectionAccents": {
         "explanation": {
@@ -26431,7 +26431,7 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Bij een vraag naar een ding begin je altijd met was; bij een vraag naar een persoon met wer, wen, wem.",
+        "Bij een vraag naar een ding begin je meestal met was; bij een vraag naar een persoon met wer, wen, wem.",
         "Na alles, etwas, nichts gebruik je was, niet das."
       ],
       "important": [

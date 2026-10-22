@@ -1369,7 +1369,7 @@ const C1_WORDS = [
         "Process kā norise ir arī tehnisks un zinātnisks termins: der Prozess der Herstellung (ražošanas process)."
       ],
       "important": [
-        "Šajā nozīmē vārds nav vidējās dzimtes: der Prozess (nevis das Prozess)."
+        "Visās nozīmēs vārds nav vidējās dzimtes: der Prozess (nevis das Prozess)."
       ],
       "sectionAccents": {
         "explanation": {

@@ -2703,7 +2703,7 @@ const A1_WORDS = [
           "lv": "Evés közben nem beszélünk."
         },
         {
-          "de": "Das Hotel liegt bei dem Bahnhof.",
+          "de": "Das Hotel liegt beim Bahnhof.",
           "lv": "A szálloda a pályaudvar mellett van."
         }
       ],
@@ -2802,7 +2802,7 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "bei"
+                "beim"
               ]
             },
             "lv": {
@@ -3579,7 +3579,7 @@ const A1_WORDS = [
       "translation": "kérem • légy szíves",
       "explanation": [
         "A lényeg: a bitte udvariassági szó, amellyel kérünk (Kannst du mir bitte helfen?), kínálunk (Bitte, nehmen Sie Platz) vagy a köszönetre felelünk (Danke! – Bitte!); magyarul hol kérem, légy szíves, hol tessék, hol szívesen felel meg neki.",
-        "Alakja nem változik. A bitte schön kínáláskor udvariasabb változat ('tessék, parancsoljon'), a bitte sehr még hivatalosabb. A Wie bitte? jelentése 'Tessék?', ha nem hallottunk valamit.",
+        "Alakja nem változik. A bitte schön kínáláskor udvariasabb változat ('tessék, parancsoljon'), a bitte sehr vele egyenértékű változat. A Wie bitte? jelentése 'Tessék?', ha nem hallottunk valamit.",
         "A nagy kezdőbetűs die Bitte főnév jelentése 'kérés' — ez egy másik szó."
       ],
       "examples": [
@@ -8614,7 +8614,7 @@ const A1_WORDS = [
       ],
       "tip": [
         "A végződések ugyanazok, mint más mellékneveknél: der ganze Tag, ein ganzer Tag.",
-        "A ganz melléknév előtt erősít: ganz gut, ganz neu."
+        "A ganz melléknév előtt erősít (ganz neu) vagy tompít (ganz gut – egész jó)."
       ],
       "important": [
         "Melléknévként a ganz ragozódik (der ganze Tag), határozószóként nem változik (ganz neu).",
@@ -14276,7 +14276,7 @@ const A1_WORDS = [
         "Az árat így kérdezd: Was kostet…? vagy Wie viel kostet…?"
       ],
       "important": [
-        "A Kosten főnév (többes szám) jelentése 'költségek'; a kosten ige jelentése 'kerül valamibe'.",
+        "A die Kosten főnév (csak többes számban) jelentése 'költségek'; a kosten ige jelentése 'kerül valamibe'.",
         "A kosten jelentése 'megkóstol' is lehet (Willst du die Suppe kosten?), de a hétköznapokban erre a probieren használatos."
       ],
       "sectionAccents": {
@@ -22584,7 +22584,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Nincs sehst vagy sehet alak: helyesen du siehst, er sieht.",
-        "Ha azt akarod mondani, hogy nézel valamit (filmet, képet), általában a sich (Dat) + ansehen szerkezetet használjuk, nem csupán a sehen igét."
+        "Ha azt akarod mondani, hogy nézel valamit (filmet, képet), a sehen igét és a sich (Dat) + ansehen szerkezetet egyaránt használhatjuk."
       ],
       "sectionAccents": {
         "explanation": {
@@ -26401,7 +26401,7 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Ha dologra kérdezel, mindig was-szal kezdd; ha személyre, a wer, wen, wem kérdőszóval.",
+        "Ha dologra kérdezel, általában was-szal kezdd; ha személyre, a wer, wen, wem kérdőszóval.",
         "Az alles, etwas, nichts után was áll, nem das."
       ],
       "important": [

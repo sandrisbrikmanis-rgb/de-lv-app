@@ -2706,7 +2706,7 @@ const A1_WORDS = [
           "lv": "Við matarborðið talar maður ekki."
         },
         {
-          "de": "Das Hotel liegt bei dem Bahnhof.",
+          "de": "Das Hotel liegt beim Bahnhof.",
           "lv": "Hótelið er við lestarstöðina."
         }
       ],
@@ -2805,7 +2805,7 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "bei"
+                "beim"
               ]
             },
             "lv": {
@@ -3585,7 +3585,7 @@ const A1_WORDS = [
       "translation": "vinsamlegast • gjörðu svo vel",
       "explanation": [
         "Meginhugmynd: bitte er kurteisisorð sem er notað til að biðja um eitthvað (Kannst du mir bitte helfen?), bjóða eitthvað (Bitte, nehmen Sie Platz) eða svara þakklæti (Danke! – Bitte!). Á íslensku samsvarar það eftir aðstæðum „vinsamlegast“, „gjörðu svo vel“ eða „ekkert að þakka“.",
-        "Orðið beygist ekki. Bitte schön er kurteislegra þegar eitthvað er boðið („gjörðu svo vel“), bitte sehr enn formlegra. Wie bitte? merkir „afsakið, hvað sagðirðu?“ ef maður heyrði ekki.",
+        "Orðið beygist ekki. Bitte schön er kurteislegra þegar eitthvað er boðið („gjörðu svo vel“), bitte sehr jafngilt afbrigði. Wie bitte? merkir „afsakið, hvað sagðirðu?“ ef maður heyrði ekki.",
         "Nafnorðið die Bitte, með stórum staf, merkir „beiðni“ – það er annað orð."
       ],
       "examples": [
@@ -8631,7 +8631,7 @@ const A1_WORDS = [
       ],
       "tip": [
         "Beygingarendingarnar eru þær sömu og hjá öðrum lýsingarorðum: der ganze Tag, ein ganzer Tag.",
-        "Ganz + lýsingarorð styrkir: ganz gut, ganz neu."
+        "Ganz + lýsingarorð styrkir (ganz neu) eða mildar (ganz gut – nokkuð gott)."
       ],
       "important": [
         "Sem lýsingarorð beygist ganz (der ganze Tag), sem atviksorð breytist það ekki (ganz neu).",
@@ -22613,7 +22613,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Ekki sehst eða sehet: rétt er du siehst, er sieht.",
-        "Til að segja að maður horfi á eitthvað (kvikmynd, mynd) er yfirleitt notað sich (þgf.) + ansehen, ekki bara sehen."
+        "Til að segja að maður horfi á eitthvað (kvikmynd, mynd) má nota bæði sehen og sich (þgf.) + ansehen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -26434,7 +26434,7 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Í spurningu um hlut byrjarðu alltaf á was; í spurningu um manneskju — á wer, wen, wem.",
+        "Í spurningu um hlut byrjarðu yfirleitt á was; í spurningu um manneskju — á wer, wen, wem.",
         "Á eftir alles, etwas, nichts er notað was, ekki das."
       ],
       "important": [

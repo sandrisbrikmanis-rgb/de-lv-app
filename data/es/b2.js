@@ -27315,7 +27315,7 @@ const B2_WORDS = [
       ],
       "tip": [
         "Memoriza una frase: Das ist mir zuwider. Me repugna / no lo soporto.",
-        "Después de zuwider siempre va dativo: mir, ihm, dem Gesetz."
+        "Con zuwider siempre se usa dativo, que va delante: mir, ihm, dem Gesetz."
       ],
       "important": [
         "Con zuwider no se usa acusativo: no mich zuwider, sino mir zuwider.",

@@ -7911,7 +7911,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Skriv ned: behandeln + akk. (hvem/hvad?). En sygdom behandles mit + dativ.",
+        "Skriv ned: behandeln + akk. (hvem/hvad?). Behandlingsmidlet angives med mit + dativ.",
         "Navneordet die Behandlung kommer af dette udsagnsord."
       ],
       "important": [
@@ -11524,7 +11524,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Typisk forbindelse: am Bildschirm arbeiten; et billede er auf dem Bildschirm.",
+        "Typisk forbindelse: am Bildschirm arbeiten; auf dem Bildschirm erscheinen (vises på skærmen).",
         "Om telefonens skærm siger man som regel das Display."
       ],
       "important": [
@@ -17368,7 +17368,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Hjælpeudsagnsordet er sein: ich bin eingebrochen.",
+        "Hjælpeudsagnsordet er som regel sein (med bei + dativ også haben: man hat bei uns eingebrochen): ich bin eingebrochen.",
         "Passiv uden grundled: Bei uns wurde eingebrochen (der har været indbrud hos os)."
       ],
       "important": [
@@ -19742,7 +19742,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Sich eingewöhnen bruges normalt ikke med an + akkusativ.",
-        "Forstavelsen ein skilles kun fra i nutid og datid; i kort tillægsform (participium) skrives den sammen: eingewöhnt."
+        "Forstavelsen ein skilles kun fra i nutid, datid og bydeform; i kort tillægsform (participium) skrives den sammen: eingewöhnt."
       ],
       "sectionAccents": {
         "explanation": {
@@ -20949,7 +20949,7 @@ const B1_WORDS = [
         "Ordet betyder også »indhente nogen«; sammenhængen viser betydningen."
       ],
       "important": [
-        "Einholen er ikke det samme som einkaufen (købe ind, handle).",
+        "Einholen betyder regionalt i talesprog også einkaufen (købe ind, handle).",
         "Forveksl det ikke med überholen (overhale): einholen – indhente, überholen – overhale."
       ],
       "sectionAccents": {
@@ -21486,7 +21486,7 @@ const B1_WORDS = [
         "At gå ind for noget: sich für etwas einsetzen."
       ],
       "important": [
-        "Uden sich betyder einsetzen ikke »gå ind for«; uden det refleksive stedord betyder det at sætte ind.",
+        "Uden sich betyder einsetzen ikke »gå ind for«; uden det refleksive stedord betyder det at bruge, sætte ind eller udnævne.",
         "Forveksl det ikke med einstellen (indstille, ansætte)."
       ],
       "sectionAccents": {
@@ -25525,7 +25525,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Faul om et menneske betyder doven, om mad – rådden; navneordet afgør betydningen.",
-        "Faulenzen er ikke et negativt ord – det betyder bare at slappe af."
+        "Faulenzen kan være nedsættende (dovenskab) eller neutralt – at slappe af uden at lave noget."
       ],
       "sectionAccents": {
         "explanation": {
@@ -32422,7 +32422,7 @@ const B1_WORDS = [
         "Udtryk: auf den Tisch hauen (slå i bordet), sich aufs Ohr hauen (i talesprog: gå i seng)."
       ],
       "important": [
-        "Datidsformerne afhænger af betydningen: haute (slå, i talesprog) og hieb (hugge, litterært).",
+        "Datidsformerne afhænger af betydningen: haute (slå, i talesprog) og hieb (slå med et våben, i højere stil).",
         "Førnutid: hat gehauen."
       ],
       "sectionAccents": {
@@ -35981,7 +35981,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Sich irren er høfligere end 'falsch sein': Da irrst du dich.",
+        "Sich irren er høfligere end 'Unrecht haben': Da irrst du dich.",
         "Førnutid: hat sich geirrt (med haben)."
       ],
       "important": [
@@ -37701,7 +37701,7 @@ const B1_WORDS = [
       "translation": "Kerne",
       "explanation": [
         "Hovedbetydning: der Kern er et hankønsnavneord, der betyder kerne – den vigtigste eller inderste del af noget. Flertal: die Kerne. Det kan være en frugts sten eller kerne (Kirschkern, Apfelkern), en atomkerne eller sagens kerne.",
-        "I overført betydning: der Kern der Sache – sagens kerne. I fysik: Atomkern, Zellkern (cellekerne); i politik: Kernenergie (kerneenergi, atomkraft)."
+        "I overført betydning: der Kern der Sache – sagens kerne. I fysik: Atomkern; i biologi: Zellkern (cellekerne); i politik: Kernenergie (kerneenergi, atomkraft)."
       ],
       "examples": [
         {
@@ -40830,7 +40830,7 @@ const B1_WORDS = [
       "explanation": [
         "Hovedbetydning: kündigen betyder at opsige eller sige op – et job, en kontrakt eller et lejemål – altså officielt at meddele, at forholdet ophører. Former: kündigt, kündigte, hat gekündigt (hjælpeudsagnsordet haben).",
         "Med akkusativ angives det, der opsiges: den Vertrag kündigen, die Wohnung kündigen, den Job kündigen. Med dativ angives den person, der bliver opsagt: Der Chef kündigt dem Mitarbeiter (chefen opsiger medarbejderen). Uden genstandsled betyder ich habe gekündigt, at man selv har sagt op.",
-        "I sin kerne er kündigen et officielt skridt med et varsel (Kündigungsfrist); en afskedigelse fra virksomhedens side kaldes også entlassen."
+        "I sin kerne er kündigen et officielt skridt med et varsel (Kündigungsfrist); en afskedigelse fra virksomhedens side kaldes også die Entlassung (udsagnsord: entlassen)."
       ],
       "examples": [
         {
@@ -43303,7 +43303,7 @@ const B1_WORDS = [
         "I overført betydning betyder landen at havne: Wo bin ich nur gelandet? (Hvor er jeg dog havnet?)."
       ],
       "important": [
-        "I førnutid bruger man ist gelandet, ikke hat gelandet.",
+        "Om landing bruger man i førnutid ist gelandet, ikke hat gelandet.",
         "På spørgsmålet wo? svarer man med auf/in + dativ: auf dem Dach, im Spamordner."
       ],
       "sectionAccents": {
@@ -44986,7 +44986,7 @@ const B1_WORDS = [
       "translation": "At slette • At slukke",
       "explanation": [
         "Hovedbetydning: löschen betyder at slukke eller at slette. Det bruges i tre hovedsituationer: at slukke ild eller lys (den Brand löschen, das Licht löschen), at slette data (eine Datei löschen) og at slukke tørsten (den Durst löschen) – det sidste præcis som på dansk. Former: löscht, löschte, hat gelöscht.",
-        "Udsagnsordet er transitivt og har derfor altid et akkusativled: Ich lösche die Datei. Brandvæsenets arbejde beskrives med löschen.",
+        "Udsagnsordet er transitivt og har derfor som regel et akkusativled: Ich lösche die Datei. Brandvæsenets arbejde beskrives med löschen.",
         "Det bruges ikke med sich; hvis en ild går ud af sig selv, siger man erlöschen."
       ],
       "examples": [
@@ -52478,7 +52478,7 @@ const B1_WORDS = [
         "Både mennesker og køretøjer kan rasen; hjertet, tiden eller tankerne kun i overført betydning."
       ],
       "important": [
-        "rasen er ikke rasieren (barbere): rasen – ræse, rasieren – barbere sig.",
+        "rasen er ikke rasieren (barbere): rasen – ræse, rasieren – barbere.",
         "Hurtig kørsel, der bryder færdselsreglerne, kaldes ofte rasen (der Raser er en fartbølle)."
       ],
       "sectionAccents": {
@@ -57068,7 +57068,7 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "At slibe",
       "explanation": [
-        "Grundbetydning: schleifen betyder at slibe, hvæsse eller polere: gøre en overflade glat eller skarp. Der findes også et andet, uafhængigt udsagnsord schleifen – at slæbe hen ad jorden.",
+        "Grundbetydning: schleifen betyder at slibe, hvæsse eller polere: gøre en overflade glat eller skarp. Der findes også et andet, beslægtet udsagnsord schleifen – at slæbe hen ad jorden.",
         "I betydningen slibe er ordet stærkt: er schleift, schliff, hat geschliffen (Messer schleifen, Diamanten schleifen). I betydningen slæbe er det regelmæssigt: er schleift, schleifte, hat geschleift (etwas über den Boden schleifen).",
         "Ofte med forstavelsen ab-: abschleifen (slibe af) – Wir schleifen den Tisch ab. Den korte tillægsform geschliffen brugt som tillægsord betyder også elegant, velformuleret (slebet)."
       ],
@@ -64032,7 +64032,7 @@ const B1_WORDS = [
           "lv": "Rhinen er en stor flod i Europa."
         },
         {
-          "de": "Bei Regen fließen die Ströme über die Ufer.",
+          "de": "Bei Regen treten die Ströme über die Ufer.",
           "lv": "Når det regner, går de store floder over deres bredder."
         }
       ],
@@ -68523,7 +68523,7 @@ const B1_WORDS = [
       "translation": "At overse",
       "explanation": [
         "Hovedidé: übersehen betyder at overse, ikke lægge mærke til – ved et uheld ikke at se noget, der er lige for øjnene af en. Former: übersieht, übersah, hat übersehen. Forleddet über- er uadskilleligt. Efter udsagnsordet følger akkusativ.",
-        "Den anden betydning er at overskue: Wir können die Folgen noch nicht übersehen. Når man ved et uheld ikke ser noget, er det übersehen; når man bevidst lader være med at se noget, siger man ignorieren eller wegsehen."
+        "Den anden betydning er at overskue: Wir können die Folgen noch nicht übersehen. Når man ved et uheld ikke ser noget, er det übersehen; når man bevidst lader være med at se noget, siger man som regel ignorieren eller wegsehen."
       ],
       "examples": [
         {
@@ -68569,7 +68569,7 @@ const B1_WORDS = [
         "Det modsatte ord er bemerken (bemærke)."
       ],
       "important": [
-        "Übersehen er ubevidst, ignorieren er bevidst.",
+        "Übersehen er som regel ubevidst, ignorieren er bevidst.",
         "I førnutid er der intet ge-: hat übersehen."
       ],
       "sectionAccents": {
@@ -73175,7 +73175,7 @@ const B1_WORDS = [
           "lv": "Dette dyr findes kun i Afrika."
         },
         {
-          "de": "Es kommt mir vor, als ob ich ihn kenne.",
+          "de": "Es kommt mir vor, als ob ich ihn kennen würde.",
           "lv": "Det forekommer mig, at jeg kender ham."
         }
       ],
@@ -74335,7 +74335,7 @@ const B1_WORDS = [
         },
         {
           "word": "der Waggon",
-          "meaning": "jernbanevogn (gods)",
+          "meaning": "jernbanevogn",
           "example": "Der Waggon steht am Bahnhof. – Vognen står på stationen."
         },
         {

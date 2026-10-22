@@ -7912,7 +7912,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Jäta meelde: behandeln + akusatiiv (keda? mida?). Haigust ravitakse mit + datiiv.",
+        "Jäta meelde: behandeln + akusatiiv (keda? mida?). Ravivahendit väljendatakse mit + datiiv abil.",
         "Nimisõna die Behandlung tuleb sellest tegusõnast."
       ],
       "important": [
@@ -11521,7 +11521,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Tüüpiline ühend: am Bildschirm arbeiten; pilt on auf dem Bildschirm.",
+        "Tüüpiline ühend: am Bildschirm arbeiten; auf dem Bildschirm erscheinen (ekraanile ilmuma).",
         "Telefoni puhul öeldakse tavaliselt das Display."
       ],
       "important": [
@@ -12915,7 +12915,7 @@ const B1_WORDS = [
       "translation": "tulekahju",
       "explanation": [
         "Põhimõte: der Brand on tulekahju, põleng – kontrollimatu põlemine, mis kahjustab hoonet või metsa. Mitmus on die Brände.",
-        "Tüüpiliselt: ein Brand bricht aus (puhkeb tulekahju), einen Brand löschen (tulekahju kustutama), in Brand geraten (süttima), in Brand setzen (põlema panema). Der Brand on neutraalsem ja ametlikum kui das Feuer.",
+        "Tüüpiliselt: ein Brand bricht aus (puhkeb tulekahju), einen Brand löschen (tulekahju kustutama), in Brand geraten (süttima), in Brand setzen (põlema panema). Der Brand on kitsam mõiste kui das Feuer.",
         "Das Feuer võib olla ka kontrollitud tuli (kaminas, lõkkes), der Brand on aga tavaliselt õnnetus või kahju."
       ],
       "examples": [
@@ -17362,7 +17362,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Abitegusõna on sein: ich bin eingebrochen.",
+        "Abitegusõna on tavaliselt sein (bei + datiiviga ka haben: man hat bei uns eingebrochen): ich bin eingebrochen.",
         "Umbisikuliselt ilma alluseta: Bei uns wurde eingebrochen."
       ],
       "important": [
@@ -19735,7 +19735,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Sich eingewöhnen ei kasutata tavaliselt koos an + akusatiiviga.",
-        "Eesliide ein eraldub ainult lihtolevikus ja lihtminevikus, kesksõnas on see koos: eingewöhnt."
+        "Eesliide ein eraldub ainult lihtolevikus, lihtminevikus ja käskivas kõneviisis, kesksõnas on see koos: eingewöhnt."
       ],
       "sectionAccents": {
         "explanation": {
@@ -20942,7 +20942,7 @@ const B1_WORDS = [
         "Sõna tähendab ka „järele jõudma“; tähendust aitab mõista kontekst."
       ],
       "important": [
-        "Einholen ei ole sama mis einkaufen (sisseoste tegema).",
+        "Einholen tähendab piirkonniti kõnekeeles ka einkaufen (sisseoste tegema).",
         "Ära aja segi sõnaga überholen (mööda sõitma): einholen – järele jõudma, überholen – mööduma."
       ],
       "sectionAccents": {
@@ -21484,7 +21484,7 @@ const B1_WORDS = [
         "Millegi eest seisma: sich für etwas einsetzen."
       ],
       "important": [
-        "Ilma sõnata sich ei tähenda einsetzen „eest seisma“: ilma enesekohase asesõnata tähendab see sisse panema.",
+        "Ilma sõnata sich ei tähenda einsetzen „eest seisma“: ilma enesekohase asesõnata tähendab see kasutama, sisse panema või ametisse määrama.",
         "Ära aja segi sõnaga einstellen (reguleerima, tööle võtma)."
       ],
       "sectionAccents": {
@@ -25533,7 +25533,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Faul tähendab inimese puhul laiska, toidu puhul mäda; tähenduse määrab nimisõna.",
-        "Faulenzen pole halb sõna – see tähendab lihtsalt puhkamist, logelemist."
+        "Faulenzen võib olla hukkamõistev (laisklemine) või neutraalne – puhkamine, midagi tegemata."
       ],
       "sectionAccents": {
         "explanation": {
@@ -32440,7 +32440,7 @@ const B1_WORDS = [
         "Väljendid: auf den Tisch hauen, sich aufs Ohr hauen (kõnekeeles: magama minema)."
       ],
       "important": [
-        "Lihtmineviku vormid erinevad tähenduse järgi: haute (lööma, kõnekeeles) ja hieb (raiuma, kirjakeelne).",
+        "Lihtmineviku vormid erinevad tähenduse järgi: haute (lööma, kõnekeeles) ja hieb (relvaga lööma, kõrgstiilis).",
         "Täisminevik: hat gehauen."
       ],
       "sectionAccents": {
@@ -36002,7 +36002,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Sich irren on viisakam kui 'falsch sein': Da irrst du dich.",
+        "Sich irren on viisakam kui 'Unrecht haben': Da irrst du dich.",
         "Täisminevik: hat sich geirrt (haben)."
       ],
       "important": [
@@ -40852,7 +40852,7 @@ const B1_WORDS = [
       "explanation": [
         "Põhimõte: kündigen tähendab töölepingut, lepingut või üürilepingut üles ütlema — ametlikult teatama, et suhe lõpeb. Vormid: kündigt, kündigte, hat gekündigt (abitegusõna haben).",
         "Akusatiiviga märgitakse asja: den Vertrag kündigen, die Wohnung kündigen, den Job kündigen. Datiiviga märgitakse inimest, kellega leping üles öeldakse: Der Chef kündigt dem Mitarbeiter (ülemus ütleb töötajaga lepingu üles). Ilma sihitiseta tähendab ich habe gekündigt, et ütlesin ise töö üles.",
-        "Sisuliselt on kündigen ametlik samm, tavaliselt koos etteteatamisajaga (Kündigungsfrist), erandina ka etteteatamata (fristlos); töölt vabastamist tööandja poolt nimetatakse ka entlassen."
+        "Sisuliselt on kündigen ametlik samm, tavaliselt koos etteteatamisajaga (Kündigungsfrist), erandina ka etteteatamata (fristlos); töölt vabastamist tööandja poolt nimetatakse ka die Entlassung (tegusõna: entlassen)."
       ],
       "examples": [
         {
@@ -43333,7 +43333,7 @@ const B1_WORDS = [
         "Ülekantud tähenduses tähendab landen sattuma: Wo bin ich nur gelandet? (Kuhu ma küll sattunud olen?)."
       ],
       "important": [
-        "Täisminevikus kasutatakse ist gelandet, mitte hat gelandet.",
+        "Maandumise tähenduses kasutatakse täisminevikus ist gelandet, mitte hat gelandet.",
         "Küsimusele wo? vastatakse auf/in + datiiviga: auf dem Dach, im Spamordner."
       ],
       "sectionAccents": {
@@ -45012,7 +45012,7 @@ const B1_WORDS = [
       "translation": "kustutama",
       "explanation": [
         "Põhimõte: löschen tähendab kustutama. Seda kasutatakse kolmes peamises olukorras: tuld või valgust kustutama (den Brand löschen, das Licht löschen), andmeid kustutama (eine Datei löschen) ja janu kustutama (den Durst löschen) — täpselt nagu eesti keeles. Vormid: löscht, löschte, hat gelöscht.",
-        "Tegusõna on sihiline, seepärast on alati akusatiiv: Ich lösche die Datei. Tuletõrjujate tööd kirjeldatakse sõnaga löschen.",
+        "Tegusõna on sihiline, seepärast on tavaliselt akusatiiv: Ich lösche die Datei. Tuletõrjujate tööd kirjeldatakse sõnaga löschen.",
         "Sõnaga sich seda ei kasutata; kui tulekahju kustub ise, öeldakse erlöschen."
       ],
       "examples": [
@@ -52497,7 +52497,7 @@ const B1_WORDS = [
         "Kihutada saavad nii inimene kui ka sõiduk, süda, aeg või mõtted aga ainult ülekantud tähenduses."
       ],
       "important": [
-        "rasen ei ole rasieren (raseerima): rasen – kihutama, rasieren – habet ajama.",
+        "rasen ei ole rasieren (raseerima): rasen – kihutama, rasieren – raseerima.",
         "Kiiruseületamisega sõitmist nimetatakse sageli rasen."
       ],
       "sectionAccents": {
@@ -57077,7 +57077,7 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "lihvima",
       "explanation": [
-        "Põhimõte: schleifen tähendab lihvima, teritama või poleerima: pinda siledaks või teravaks tegema. On olemas ka teine, sellega mitteseotud tegusõna schleifen – mööda maad lohistama.",
+        "Põhimõte: schleifen tähendab lihvima, teritama või poleerima: pinda siledaks või teravaks tegema. On olemas ka teine, sellega suguluses olev tegusõna schleifen – mööda maad lohistama.",
         "Lihvimise tähenduses on sõna tugev: er schleift, schliff, hat geschliffen (Messer schleifen, Diamanten schleifen). Lohistamise tähenduses on sõna nõrk: er schleift, schleifte, hat geschleift (etwas über den Boden schleifen).",
         "Sageli eesliitega ab-: abschleifen (maha lihvima) – Wir schleifen den Tisch ab. Kesksõna geschliffen omadussõnana tähendab ka lihvitud, peen."
       ],
@@ -64033,7 +64033,7 @@ const B1_WORDS = [
           "lv": "Rein on Euroopa suur jõgi."
         },
         {
-          "de": "Bei Regen fließen die Ströme über die Ufer.",
+          "de": "Bei Regen treten die Ströme über die Ufer.",
           "lv": "Vihmaga tõusevad suured jõed üle kallaste."
         }
       ],
@@ -68528,7 +68528,7 @@ const B1_WORDS = [
       "translation": "märkamata jätma",
       "explanation": [
         "Põhimõte: übersehen tähendab märkamata jätma, kahe silma vahele jätma – tavaliselt kogemata mitte märkama midagi, mis on silme ees. Vormid: übersieht, übersah, hat übersehen. Eesliide über- ei ole eraldatav. Tegusõnale järgneb akusatiiv.",
-        "Teine tähendus on haarama, ette nägema, ülevaadet saama: Wir können die Folgen noch nicht übersehen. Kui keegi jätab midagi kogemata märkamata, on see übersehen; kui teadlikult, öeldakse ignorieren või wegsehen."
+        "Teine tähendus on haarama, ette nägema, ülevaadet saama: Wir können die Folgen noch nicht übersehen. Kui keegi jätab midagi kogemata märkamata, on see übersehen; kui teadlikult, öeldakse tavaliselt ignorieren või wegsehen."
       ],
       "examples": [
         {
@@ -73172,7 +73172,7 @@ const B1_WORDS = [
           "lv": "Seda looma leidub ainult Aafrikas."
         },
         {
-          "de": "Es kommt mir vor, als ob ich ihn kenne.",
+          "de": "Es kommt mir vor, als ob ich ihn kennen würde.",
           "lv": "Mulle tundub, et ma tunnen teda."
         }
       ],
@@ -74328,7 +74328,7 @@ const B1_WORDS = [
         },
         {
           "word": "der Waggon",
-          "meaning": "vagun (kaubavagun)",
+          "meaning": "vagun (raudteevagun)",
           "example": "Der Waggon steht am Bahnhof. – Vagun seisab jaamas."
         },
         {
@@ -74446,7 +74446,7 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "vagun (kaubavagun)"
+                "vagun (raudteevagun)"
               ]
             }
           },

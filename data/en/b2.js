@@ -27029,10 +27029,10 @@ const B2_WORDS = [
       ],
       "tip": [
         "Memorise one phrase: Das ist mir zuwider. – I find that repulsive / I can't stand it.",
-        "Zuwider is always followed by the dative: mir, ihm, dem Gesetz."
+        "Zuwider is always used with the dative, which comes before it: mir, ihm, dem Gesetz."
       ],
       "important": [
-        "Do not use the accusative after zuwider: not mich zuwider, but mir zuwider.",
+        "Do not use the accusative with zuwider: not mich zuwider, but mir zuwider.",
         "In the sense of contrary to, zuwider usually follows the noun: dem Gesetz zuwider; entgegen usually comes before it: entgegen dem Gesetz."
       ],
       "sectionAccents": {

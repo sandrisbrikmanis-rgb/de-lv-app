@@ -438,7 +438,7 @@ const A2_WORDS = [
       "translation": "Hand over • Give away • Submit",
       "explanation": [
         "Main idea: abgeben is a separable verb meaning to hand in or hand over (someone receives something): gibt ab, gab ab, hat abgegeben. It is used when you take something somewhere and leave it with someone else, such as homework, a key, a coat or a parcel. Ab stands at the end of the clause.",
-        "The person who receives it is often in the dative or given with bei/an: etwas an der Rezeption abgeben, jemandem etwas abgeben. Work or documents are handed in to a teacher or an office: die Arbeit abgeben.",
+        "The place or person where it is handed in is often given with an/bei: etwas an der Rezeption abgeben, etwas beim Nachbarn abgeben. Work or documents are handed in to a teacher or an office: die Arbeit abgeben.",
         "If you give something back, use zurückgeben; if you officially submit an application, einreichen is often used."
       ],
       "examples": [
@@ -1092,7 +1092,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Remember the irregular past: bringen – brachte – gebracht.",
-        "Give somebody something with bringen: Ich bringe dir ein Buch."
+        "Bring somebody something with bringen: Ich bringe dir ein Buch."
       ],
       "important": [
         "The perfect is gebracht, not “gebringt”.",
@@ -10156,7 +10156,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "In the sentence Er kommt bestimmt, the word bestimmt reinforces the whole statement.",
-        "If you need to express greater certainty, use ganz bestimmt or sicher."
+        "If you need to express greater certainty, use ganz bestimmt or ganz sicher."
       ],
       "important": [
         "Bestimmt is not the same as bestimmen: bestimmen is to determine or decide, whereas bestimmt is an adverb or adjective.",
@@ -10378,7 +10378,7 @@ const A2_WORDS = [
       "translation": "Pear • Bulb",
       "explanation": [
         "Main idea: die Birne is a feminine noun meaning pear (the fruit) and light bulb (an electric bulb, short for Glühbirne). The plural is die Birnen.",
-        "The context decides the meaning: with fruit and food it is a pear, with a lamp and light it is a bulb. Common compounds are die Glühbirne (incandescent bulb) and die Energiesparlampe (energy-saving bulb).",
+        "The context decides the meaning: with fruit and food it is a pear, with a lamp and light it is a bulb. Common compounds are die Glühbirne (incandescent bulb) and die LED-Birne (LED bulb).",
         "In everyday speech Birne can also mean head (colloquially), but this meaning is informal."
       ],
       "examples": [
@@ -33835,7 +33835,7 @@ const A2_WORDS = [
       ],
       "important": [
         "For planned events (concert, meeting) use stattfinden, not passieren.",
-        "In the perfect it is always ist passiert, never hat passiert."
+        "In the sense of “to happen”, the perfect is always ist passiert, never hat passiert."
       ],
       "sectionAccents": {
         "explanation": {
@@ -37946,7 +37946,7 @@ const A2_WORDS = [
           "lv": "He has large debts with the bank."
         },
         {
-          "de": "Sie gibt mir die Schuld für den Fehler.",
+          "de": "Sie gibt mir die Schuld an dem Fehler.",
           "lv": "She blames me for the mistake."
         }
       ],
@@ -45761,7 +45761,7 @@ const A2_WORDS = [
       ],
       "important": [
         "weit (far) and weiter (further, on) are different words: Geh weiter! – Keep going!",
-        "With weit for distance you do not normally give a number; use entfernt with numbers: drei Kilometer entfernt."
+        "For distance, numbers are used with both weit and entfernt: drei Kilometer weit, drei Kilometer entfernt."
       ],
       "sectionAccents": {
         "explanation": {

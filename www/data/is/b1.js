@@ -7901,7 +7901,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Mundu: behandeln + Akk (hvern/hvað?). Sjúkdómur er meðhöndlaður mit + þágufalli.",
+        "Mundu: behandeln + Akk (hvern/hvað?). Meðferðarúrræði er tilgreint með mit + þágufalli.",
         "Nafnorðið die Behandlung er leitt af þessari sögn."
       ],
       "important": [
@@ -11506,7 +11506,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Dæmigert orðasamband: am Bildschirm arbeiten; myndin er auf dem Bildschirm.",
+        "Dæmigert orðasamband: am Bildschirm arbeiten; auf dem Bildschirm erscheinen (birtast á skjánum).",
         "Um síma er yfirleitt sagt das Display."
       ],
       "important": [
@@ -12478,7 +12478,7 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "bogi",
       "explanation": [
-        "Aðalatriðið: der Bogen þýðir bogi – sveigð lína eða hlutur, t.d. bogi til að skjóta af, hvelfing, fiðlubogi eða sveigur. Fleirtalan er die Bögen (með hljóðvarpi).",
+        "Aðalatriðið: der Bogen þýðir bogi – sveigð lína eða hlutur, t.d. bogi til að skjóta af, hvelfing, fiðlubogi eða sveigur. Fleirtalan er die Bogen; sunnan til einnig die Bögen.",
         "Ýmsar merkingar: bogi á brú eða byggingu (der Bogen einer Brücke), bogi í íþróttum og tónlist (Pfeil und Bogen, Geigenbogen), og líka pappírsörk (ein Bogen Papier). Orðatiltækið einen Bogen um etwas machen – að sneiða hjá einhverju.",
         "Samhengið sýnir hvaða merking er átt við: bogi, hvelfing, fiðlubogi eða örk. Orðið er skylt íslenska orðinu bogi, en merkingin „pappírsörk“ er ekki til í íslensku."
       ],
@@ -12517,7 +12517,7 @@ const B1_WORDS = [
         "Þekkt sambönd: Pfeil und Bogen (bogi og örvar), Geigenbogen (fiðlubogi)."
       ],
       "important": [
-        "Fleirtalan die Bögen er með ö.",
+        "Fleirtalan er die Bogen; sunnan til einnig die Bögen (með ö).",
         "Ein Bogen Papier er stór pappírsörk, t.d. til að teikna á eða pakka inn."
       ],
       "sectionAccents": {
@@ -12622,7 +12622,8 @@ const B1_WORDS = [
         "important": [
           {
             "blue": [
-              "Bögen"
+              "Bögen",
+              "Bogen"
             ]
           },
           {
@@ -12898,7 +12899,7 @@ const B1_WORDS = [
       "translation": "eldsvoði • bruni",
       "explanation": [
         "Aðalatriðið: der Brand er eldsvoði eða bruni — stjórnlaus eldur sem skemmir hús eða skóg. Fleirtalan er die Brände.",
-        "Algengt: ein Brand bricht aus (eldsvoði brýst út), einen Brand löschen (slökkva eld), in Brand geraten (kvikna í), in Brand setzen (kveikja í). Der Brand er formlegra orð en das Feuer.",
+        "Algengt: ein Brand bricht aus (eldsvoði brýst út), einen Brand löschen (slökkva eld), in Brand geraten (kvikna í), in Brand setzen (kveikja í). Der Brand er þrengra hugtak en das Feuer.",
         "Das Feuer getur líka verið eldur undir stjórn (í arni, varðeldur), en der Brand er yfirleitt óhapp eða tjón. Orðið er skylt íslenska sagnorðinu brenna og nafnorðinu bruni."
       ],
       "examples": [
@@ -17349,7 +17350,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Hjálparsögnin er sein: ich bin eingebrochen.",
+        "Hjálparsögnin er yfirleitt sein (með bei + þágufalli einnig haben: man hat bei uns eingebrochen): ich bin eingebrochen.",
         "Þolmynd án frumlags: Bei uns wurde eingebrochen."
       ],
       "important": [
@@ -19721,7 +19722,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Sich eingewöhnen er yfirleitt ekki notað með an + þolfalli.",
-        "Forskeytið ein losnar aðeins frá í nútíð og þátíð; í lýsingarhætti þátíðar er það fast: eingewöhnt."
+        "Forskeytið ein losnar aðeins frá í nútíð, þátíð og boðhætti; í lýsingarhætti þátíðar er það fast: eingewöhnt."
       ],
       "sectionAccents": {
         "explanation": {
@@ -20925,7 +20926,7 @@ const B1_WORDS = [
         "Orðið merkir líka „ná“; samhengið hjálpar til að skilja merkinguna."
       ],
       "important": [
-        "Einholen er ekki það sama og einkaufen (versla).",
+        "Einholen merkir í talmáli á sumum svæðum líka einkaufen (versla).",
         "Ekki rugla saman við überholen (taka fram úr): einholen – ná, überholen – taka fram úr."
       ],
       "sectionAccents": {
@@ -21465,7 +21466,7 @@ const B1_WORDS = [
         "Beita sér fyrir einhverju: sich für etwas einsetzen."
       ],
       "important": [
-        "Án sich merkir einsetzen ekki „beita sér fyrir“: án afturbeygða fornafnsins merkir það að setja inn eða nota.",
+        "Án sich merkir einsetzen ekki „beita sér fyrir“: án afturbeygða fornafnsins merkir það að nota, setja inn eða skipa (í embætti).",
         "Ekki rugla saman við einstellen (stilla, ráða í vinnu)."
       ],
       "sectionAccents": {
@@ -25502,7 +25503,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Faul um fólk merkir latur, um mat – rotinn; nafnorðið ræður merkingunni.",
-        "Faulenzen er ekki ljótt orð – það merkir einfaldlega að slaka á."
+        "Faulenzen getur verið niðrandi (iðjuleysi) eða hlutlaust – að slaka á og gera ekkert."
       ],
       "sectionAccents": {
         "explanation": {
@@ -32399,7 +32400,7 @@ const B1_WORDS = [
         "Orðasambönd: auf den Tisch hauen, sich aufs Ohr hauen (talmál: fara að sofa, leggja sig)."
       ],
       "important": [
-        "Þátíðarmyndirnar fara eftir merkingu: haute (berja, talmál) og hieb (höggva, bókmál).",
+        "Þátíðarmyndirnar fara eftir merkingu: haute (berja, talmál) og hieb (slá með vopni, upphafið mál).",
         "Í núliðinni tíð: hat gehauen."
       ],
       "sectionAccents": {
@@ -35951,7 +35952,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Sich irren er kurteisara en 'falsch sein': Da irrst du dich.",
+        "Sich irren er kurteisara en 'Unrecht haben': Da irrst du dich.",
         "Í núliðinni tíð: hat sich geirrt (haben)."
       ],
       "important": [
@@ -40796,7 +40797,7 @@ const B1_WORDS = [
       "explanation": [
         "Aðalatriðið: kündigen merkir að segja upp starfi, samningi eða leigu — tilkynna formlega að sambandinu ljúki. Myndir: kündigt, kündigte, hat gekündigt (hjálparsögnin haben).",
         "Hluturinn stendur í þolfalli: den Vertrag kündigen, die Wohnung kündigen, den Job kündigen. Sá sem er sagt upp stendur í þágufalli, alveg eins og á íslensku: Der Chef kündigt dem Mitarbeiter (yfirmaðurinn segir starfsmanninum upp). Án andlags merkir ich habe gekündigt að maður hafi sjálfur sagt upp.",
-        "Í eðli sínu er kündigen formlegt skref með fresti (Kündigungsfrist — uppsagnarfrestur); þegar fyrirtækið segir fólki upp eða rekur það er líka notað entlassen."
+        "Í eðli sínu er kündigen formlegt skref með fresti (Kündigungsfrist — uppsagnarfrestur); þegar fyrirtækið segir fólki upp eða rekur það er líka notað die Entlassung (sögnin: entlassen)."
       ],
       "examples": [
         {
@@ -43269,7 +43270,7 @@ const B1_WORDS = [
         "Í yfirfærðri merkingu merkir landen að lenda einhvers staðar: Wo bin ich nur gelandet? (Hvar í ósköpunum er ég lentur?)."
       ],
       "important": [
-        "Í Perfekt er notað ist gelandet, ekki hat gelandet.",
+        "Í merkingunni „lenda“ er í Perfekt notað ist gelandet, ekki hat gelandet.",
         "Við spurningunni hvar? er svarað með auf/in + þágufalli: auf dem Dach, im Spamordner."
       ],
       "sectionAccents": {
@@ -44946,7 +44947,7 @@ const B1_WORDS = [
       "translation": "slökkva • eyða",
       "explanation": [
         "Meginhugmynd: löschen merkir að slökkva eða eyða. Það er notað í þremur meginaðstæðum: slökkva eld eða ljós (den Brand löschen, das Licht löschen), eyða gögnum (eine Datei löschen) og svala þorsta (den Durst löschen). Myndir: löscht, löschte, hat gelöscht.",
-        "Sögnin er áhrifssögn og tekur alltaf andlag í þolfalli: Ich lösche die Datei. Starfi slökkviliðsins er lýst með löschen.",
+        "Sögnin er áhrifssögn og tekur yfirleitt andlag í þolfalli: Ich lösche die Datei. Starfi slökkviliðsins er lýst með löschen.",
         "Hún er ekki notuð með sich; ef eldur slokknar af sjálfu sér segir maður erlöschen (sbr. íslensku slökkva / slokkna)."
       ],
       "examples": [
@@ -52435,7 +52436,7 @@ const B1_WORDS = [
         "Bæði fólk og farartæki geta brunað, en um hjarta, tíma eða hugsun er orðið aðeins notað í yfirfærðri merkingu."
       ],
       "important": [
-        "rasen er ekki rasieren: rasen – æða, rasieren – raka sig.",
+        "rasen er ekki rasieren: rasen – æða, rasieren – raka.",
         "Hraðakstur þar sem umferðarreglur eru brotnar er oft kallaður rasen."
       ],
       "sectionAccents": {
@@ -57025,7 +57026,7 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "slípa • brýna",
       "explanation": [
-        "Meginhugmynd: schleifen merkir að slípa, brýna eða fægja: gera yfirborð slétt eða beitt. Til er líka önnur, óskyld sögn schleifen – að draga eftir jörðinni.",
+        "Meginhugmynd: schleifen merkir að slípa, brýna eða fægja: gera yfirborð slétt eða beitt. Til er líka önnur, skyld sögn schleifen – að draga eftir jörðinni.",
         "Í merkingunni að slípa er sögnin sterk: er schleift, schliff, hat geschliffen (Messer schleifen, Diamanten schleifen). Í merkingunni að draga er hún veik: er schleift, schleifte, hat geschleift (etwas über den Boden schleifen).",
         "Oft með forskeytinu ab-: abschleifen (slípa niður, pússa) – Wir schleifen den Tisch ab. Lýsingarhátturinn geschliffen sem lýsingarorð merkir líka fágaður, slípaður (t.d. um stíl)."
       ],
@@ -63996,7 +63997,7 @@ const B1_WORDS = [
           "lv": "Rín er stórt fljót í Evrópu."
         },
         {
-          "de": "Bei Regen fließen die Ströme über die Ufer.",
+          "de": "Bei Regen treten die Ströme über die Ufer.",
           "lv": "Í rigningu flæða fljótin yfir bakka sína."
         }
       ],
@@ -68465,7 +68466,7 @@ const B1_WORDS = [
       "translation": "taka ekki eftir • líta fram hjá",
       "explanation": [
         "Aðalatriðið: übersehen merkir að taka ekki eftir, missa af – óvart veita því ekki athygli sem er beint fyrir augunum. Myndir: übersieht, übersah, hat übersehen. Forskeytið über- er óaðskiljanlegt. Á eftir sögninni kemur þolfall.",
-        "Önnur merking er að hafa yfirsýn yfir eitthvað, sjá það fyrir: Wir können die Folgen noch nicht übersehen. Þegar einhver tekur óvart ekki eftir einhverju er það übersehen (sbr. íslensku: mér yfirsást); ef það er viljandi er sagt ignorieren eða wegsehen."
+        "Önnur merking er að hafa yfirsýn yfir eitthvað, sjá það fyrir: Wir können die Folgen noch nicht übersehen. Þegar einhver tekur óvart ekki eftir einhverju er það übersehen (sbr. íslensku: mér yfirsást); ef það er viljandi er yfirleitt sagt ignorieren eða wegsehen."
       ],
       "examples": [
         {
@@ -73104,7 +73105,7 @@ const B1_WORDS = [
           "lv": "Þetta dýr finnst aðeins í Afríku."
         },
         {
-          "de": "Es kommt mir vor, als ob ich ihn kenne.",
+          "de": "Es kommt mir vor, als ob ich ihn kennen würde.",
           "lv": "Mér finnst eins og ég þekki hann."
         }
       ],
@@ -74260,7 +74261,7 @@ const B1_WORDS = [
         },
         {
           "word": "der Waggon",
-          "meaning": "vagn (vöruflutninga)",
+          "meaning": "vagn (járnbrautar)",
           "example": "Der Waggon steht am Bahnhof. – Vagninn stendur á lestarstöðinni."
         },
         {
@@ -74378,7 +74379,7 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "vagn (vöruflutninga)"
+                "vagn (járnbrautar)"
               ]
             }
           },

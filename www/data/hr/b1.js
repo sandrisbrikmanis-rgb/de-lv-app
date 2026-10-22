@@ -7901,7 +7901,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Zapamti: behandeln + akuzativ (koga? što?). Bolest se liječi nečim: mit + dativ.",
+        "Zapamti: behandeln + akuzativ (koga? što?). Sredstvo liječenja izražava se s mit + dativ.",
         "Imenica die Behandlung dolazi od ovoga glagola."
       ],
       "important": [
@@ -11506,7 +11506,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Tipičan izraz: am Bildschirm arbeiten; slika je auf dem Bildschirm.",
+        "Tipičan izraz: am Bildschirm arbeiten; auf dem Bildschirm erscheinen (pojaviti se na zaslonu).",
         "Za mobitel se obično kaže das Display."
       ],
       "important": [
@@ -12898,7 +12898,7 @@ const B1_WORDS = [
       "translation": "požar",
       "explanation": [
         "Glavna misao: der Brand je požar, nesreća s vatrom — nekontrolirano gorenje koje oštećuje zgradu ili šumu. Množina je die Brände.",
-        "Tipično: ein Brand bricht aus (izbija požar), einen Brand löschen (gasiti požar), in Brand geraten (zapaliti se), in Brand setzen (zapaliti nešto). Der Brand je neutralniji od das Feuer.",
+        "Tipično: ein Brand bricht aus (izbija požar), einen Brand löschen (gasiti požar), in Brand geraten (zapaliti se), in Brand setzen (zapaliti nešto). Der Brand je uži pojam od das Feuer.",
         "Das Feuer može biti i kontrolirana vatra (u kaminu, logorska vatra), a der Brand je obično nesreća ili šteta."
       ],
       "examples": [
@@ -17349,7 +17349,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Pomoćni glagol je sein: ich bin eingebrochen.",
+        "Pomoćni glagol obično je sein (s bei + dativ i haben: man hat bei uns eingebrochen): ich bin eingebrochen.",
         "Bezlični pasiv: Bei uns wurde eingebrochen."
       ],
       "important": [
@@ -20925,7 +20925,7 @@ const B1_WORDS = [
         "Riječ znači i „sustići”; kontekst pomaže razumjeti značenje."
       ],
       "important": [
-        "Einholen nije isto što i einkaufen (kupovati, ići u kupnju).",
+        "Einholen regionalno u razgovornom jeziku znači i einkaufen (kupovati, ići u kupnju).",
         "Ne miješaj s überholen (prestići): einholen – sustići, überholen – prestići."
       ],
       "sectionAccents": {
@@ -21465,7 +21465,7 @@ const B1_WORDS = [
         "Zalagati se za nešto: sich für etwas einsetzen."
       ],
       "important": [
-        "Bez sich, einsetzen ne znači „zalagati se”: bez povratne zamjenice znači staviti, umetnuti.",
+        "Bez sich, einsetzen ne znači „zalagati se”: bez povratne zamjenice znači upotrijebiti, staviti, umetnuti ili imenovati.",
         "Ne miješaj s einstellen (podesiti, zaposliti)."
       ],
       "sectionAccents": {
@@ -25502,7 +25502,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Faul uz osobu znači lijen, uz hranu – truo; značenje određuje imenica.",
-        "Faulenzen nije ružna riječ – znači jednostavno odmarati se."
+        "Faulenzen može biti pogrdno (ljenčarenje) ili neutralno – odmarati se ne radeći ništa."
       ],
       "sectionAccents": {
         "explanation": {
@@ -32400,7 +32400,7 @@ const B1_WORDS = [
         "Izrazi: auf den Tisch hauen, sich aufs Ohr hauen (razgovorno: ići spavati)."
       ],
       "important": [
-        "Oblici preterita razlikuju se po značenju: haute (udarati, razgovorno) i hieb (sjeći, književno).",
+        "Oblici preterita razlikuju se po značenju: haute (udarati, razgovorno) i hieb (udarati oružjem, u višem stilu).",
         "U perfektu: hat gehauen."
       ],
       "sectionAccents": {
@@ -35952,7 +35952,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Sich irren je pristojnije od 'falsch sein': Da irrst du dich.",
+        "Sich irren je pristojnije od 'Unrecht haben': Da irrst du dich.",
         "U perfektu: hat sich geirrt (haben)."
       ],
       "important": [
@@ -40797,7 +40797,7 @@ const B1_WORDS = [
       "explanation": [
         "Glavna ideja: kündigen znači dati otkaz, otkazati ugovor ili najam — službeno najaviti prestanak nekog odnosa. Oblici: kündigt, kündigte, hat gekündigt (pomoćni glagol haben).",
         "Stvar stoji u akuzativu: den Vertrag kündigen, die Wohnung kündigen, den Job kündigen. Osoba kojoj se daje otkaz stoji u dativu: Der Chef kündigt dem Mitarbeiter (šef daje otkaz zaposleniku). Bez objekta ich habe gekündigt znači da si sam dao otkaz.",
-        "U osnovi je kündigen službeni postupak s otkaznim rokom (Kündigungsfrist); otpuštanje koje provodi tvrtka kaže se i entlassen."
+        "U osnovi je kündigen službeni postupak s otkaznim rokom (Kündigungsfrist); otpuštanje koje provodi tvrtka kaže se i die Entlassung (glagol: entlassen)."
       ],
       "examples": [
         {
@@ -43270,7 +43270,7 @@ const B1_WORDS = [
         "U prenesenom značenju landen znači završiti negdje: Wo bin ich nur gelandet? (Gdje sam to završio?)."
       ],
       "important": [
-        "U perfektu se koristi ist gelandet, a ne hat gelandet.",
+        "U značenju „sletjeti” u perfektu se koristi ist gelandet, a ne hat gelandet.",
         "Na pitanje „gdje?” odgovara se s auf/in + dativ: auf dem Dach, im Spamordner."
       ],
       "sectionAccents": {
@@ -44947,7 +44947,7 @@ const B1_WORDS = [
       "translation": "ugasiti • izbrisati",
       "explanation": [
         "Glavna misao: löschen znači gasiti ili brisati. Upotrebljava se u tri glavne situacije: ugasiti vatru ili svjetlo (den Brand löschen, das Licht löschen), izbrisati podatke (eine Datei löschen) i utažiti žeđ (den Durst löschen). Oblici: löscht, löschte, hat gelöscht.",
-        "Glagol je prijelazan, pa uvijek ima objekt u akuzativu: Ich lösche die Datei. Posao vatrogasaca opisuje se glagolom löschen.",
+        "Glagol je prijelazan, pa obično ima objekt u akuzativu: Ich lösche die Datei. Posao vatrogasaca opisuje se glagolom löschen.",
         "Ne upotrebljava se sa sich; ako se požar ugasi sam od sebe, kaže se erlöschen."
       ],
       "examples": [
@@ -52435,7 +52435,7 @@ const B1_WORDS = [
         "Juriti mogu i čovjek i vozilo, a srce, vrijeme ili misli samo u prenesenom značenju."
       ],
       "important": [
-        "rasen nije rasieren (brijati): rasen – juriti, rasieren – brijati se.",
+        "rasen nije rasieren (brijati): rasen – juriti, rasieren – brijati.",
         "Za brzu vožnju uz kršenje prometnih propisa često se kaže rasen."
       ],
       "sectionAccents": {
@@ -57025,7 +57025,7 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "brusiti • oštriti",
       "explanation": [
-        "Glavna misao: schleifen znači brusiti, oštriti ili glačati: učiniti površinu glatkom ili oštrom. Postoji i drugi, nepovezani glagol schleifen: vući po tlu.",
+        "Glavna misao: schleifen znači brusiti, oštriti ili glačati: učiniti površinu glatkom ili oštrom. Postoji i drugi, srodni glagol schleifen: vući po tlu.",
         "U značenju brusiti glagol je jak: er schleift, schliff, hat geschliffen (Messer schleifen, Diamanten schleifen). U značenju vući pravilan je: er schleift, schleifte, hat geschleift (etwas über den Boden schleifen).",
         "Često s prefiksom ab-: abschleifen (izbrusiti, obrusiti) – Wir schleifen den Tisch ab. Particip geschliffen kao pridjev znači i profinjen, dotjeran."
       ],
@@ -63997,7 +63997,7 @@ const B1_WORDS = [
           "lv": "Rajna je velika rijeka u Europi."
         },
         {
-          "de": "Bei Regen fließen die Ströme über die Ufer.",
+          "de": "Bei Regen treten die Ströme über die Ufer.",
           "lv": "Za kiše se velike rijeke izlijevaju iz korita."
         }
       ],
@@ -68512,7 +68512,7 @@ const B1_WORDS = [
         "Suprotna riječ je bemerken (primijetiti)."
       ],
       "important": [
-        "Übersehen je nenamjerno, a ignorieren namjerno.",
+        "Übersehen je obično nenamjerno, a ignorieren namjerno.",
         "U perfektu nema ge-: hat übersehen."
       ],
       "sectionAccents": {
@@ -73105,7 +73105,7 @@ const B1_WORDS = [
           "lv": "Ta životinja živi samo u Africi."
         },
         {
-          "de": "Es kommt mir vor, als ob ich ihn kenne.",
+          "de": "Es kommt mir vor, als ob ich ihn kennen würde.",
           "lv": "Čini mi se kao da ga poznajem."
         }
       ],
@@ -74261,7 +74261,7 @@ const B1_WORDS = [
         },
         {
           "word": "der Waggon",
-          "meaning": "vagon (teretni)",
+          "meaning": "vagon (željeznički)",
           "example": "Der Waggon steht am Bahnhof. – Vagon stoji na kolodvoru."
         },
         {
