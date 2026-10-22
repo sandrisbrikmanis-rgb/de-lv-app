@@ -479,7 +479,7 @@ G32675,OK,,
 G33185,OK,,
 G65437,OK,,
 G38370,BAD,VALODAS FAKTS,"„garā vājš” ir LV, nevis bokmål; labojums: svītrot (paliek åndssvak)."
-G77713,OK,,
+G77713,BAD,TULKOJUMS,"„interiørarkitekt” ir interjera arhitekts, nevis telpu iekārtotājs; labojums: svītrot (paliek interiørdekoratør)."
 G73048,OK,,
 G39291,OK,,
 G59587,OK,,
