@@ -2704,7 +2704,7 @@ const A1_WORDS = [
           "lv": "Beim Iessen schwätzt een net."
         },
         {
-          "de": "Das Hotel liegt bei dem Bahnhof.",
+          "de": "Das Hotel liegt beim Bahnhof.",
           "lv": "Den Hotel läit bei der Gare."
         }
       ],
@@ -2802,7 +2802,7 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "bei"
+                "beim"
               ]
             },
             "lv": {
@@ -3582,7 +3582,7 @@ const A1_WORDS = [
       "translation": "wann ech gelift",
       "explanation": [
         "Haaptiddi: bitte ass e Wuert vun der Héiflechkeet, dat een benotzt, fir eppes ze froen (Kannst du mir bitte helfen?), eppes unzebidden (Bitte, nehmen Sie Platz) oder op e Merci z'äntweren (Danke! – Bitte!).",
-        "D'Wuert ännert sech net. Bitte schön ass méi héiflech, wann een eppes reecht ('wann ech gelift, hei'), bitte sehr — nach méi formell. Wie bitte? heescht 'wéi gelift?', wann een eppes net richteg héieren huet.",
+        "D'Wuert ännert sech net. Bitte schön ass méi héiflech, wann een eppes reecht ('wann ech gelift, hei'), bitte sehr — eng gläichwäerteg Variant. Wie bitte? heescht 'wéi gelift?', wann een eppes net richteg héieren huet.",
         "D'Substantiv die Bitte mat grousse Buschtaf heescht 'Bitt, Ufro' — dat ass en anert Wuert. Op Lëtzebuergesch seet een als Äntwert op Merci éischter 'Gär geschitt' oder 'Et war mer eng Freed', op Däitsch dacks einfach Bitte!"
       ],
       "examples": [
@@ -8628,7 +8628,7 @@ const A1_WORDS = [
       ],
       "tip": [
         "D'Endunge sinn déiselwecht wéi bei aneren Adjektiver: der ganze Tag, ein ganzer Tag.",
-        "Ganz + Adjektiv verstäerkt: ganz gut, ganz neu."
+        "Ganz + Adjektiv verstäerkt (ganz neu) oder schwächt of (ganz gut – zimlech gutt)."
       ],
       "important": [
         "Als Adjektiv gëtt ganz deklinéiert (der ganze Tag), als Adverb ännert et sech net (ganz neu).",
@@ -14291,7 +14291,7 @@ const A1_WORDS = [
         "De Präis frees de esou: Was kostet…? oder Wie viel kostet…?"
       ],
       "important": [
-        "D'Substantiv Kosten (Plural) heescht „Käschten“; kosten als Verb heescht „kaschten“.",
+        "D'Substantiv die Kosten (nëmmen am Plural) heescht „Käschten“; kosten als Verb heescht „kaschten“.",
         "Kosten kann och „probéieren“ (vun engem Iessen) heeschen (Willst du die Suppe kosten?), mee am Alldag heescht et dofir meeschtens probieren."
       ],
       "sectionAccents": {
@@ -22604,7 +22604,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Et gëtt kee sehst oder sehet: richteg ass du siehst, er sieht.",
-        "Fir ze soen, datt een eppes ukuckt (e Film, e Bild), benotzt een normalerweis sich (Dat) + ansehen, net nëmme sehen."
+        "Fir ze soen, datt een eppes ukuckt (e Film, e Bild), kann ee souwuel sehen wéi och sich (Dat) + ansehen benotzen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -26422,7 +26422,7 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Bei enger Fro no enger Saach fänks de ëmmer mat was un; bei enger Fro no enger Persoun — mat wer, wen, wem.",
+        "Bei enger Fro no enger Saach fänks de meeschtens mat was un; bei enger Fro no enger Persoun — mat wer, wen, wem.",
         "No alles, etwas, nichts kënnt was, net das."
       ],
       "important": [

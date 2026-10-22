@@ -7902,7 +7902,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Apunta: behandeln + acusativo (¿a quién?, ¿qué?). La enfermedad se trata mit + dativo.",
+        "Apunta: behandeln + acusativo (¿a quién?, ¿qué?). El medio de tratamiento se indica con mit + dativo.",
         "El sustantivo die Behandlung viene de este verbo."
       ],
       "important": [
@@ -11510,7 +11510,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Combinación típica: am Bildschirm arbeiten; la imagen está auf dem Bildschirm.",
+        "Combinación típica: am Bildschirm arbeiten; auf dem Bildschirm erscheinen (aparecer en la pantalla).",
         "Para el móvil se suele decir das Display."
       ],
       "important": [
@@ -12486,7 +12486,7 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "arco",
       "explanation": [
-        "Idea principal: der Bogen significa arco: una línea o un objeto curvado, como el arco de tiro, el arco de un edificio, el arco del violín o una curva. El plural es die Bögen (con diéresis).",
+        "Idea principal: der Bogen significa arco: una línea o un objeto curvado, como el arco de tiro, el arco de un edificio, el arco del violín o una curva. El plural es die Bogen; en el sur, también die Bögen.",
         "Distintos sentidos: el arco de un puente o un edificio (der Bogen einer Brücke), el arco en el deporte y en la música (Pfeil und Bogen, Geigenbogen), y también un pliego de papel (ein Bogen Papier). La expresión einen Bogen um etwas machen significa dar un rodeo para evitar algo.",
         "Como en español arco ya abarca el de tiro, el del violín y el de un edificio, solo hay que fijarse en el contexto para los sentidos de curva y de pliego."
       ],
@@ -12525,7 +12525,7 @@ const B1_WORDS = [
         "Combinaciones conocidas: Pfeil und Bogen (arco y flechas), Geigenbogen."
       ],
       "important": [
-        "El plural die Bögen lleva ö.",
+        "El plural es die Bogen; en el sur, también die Bögen (con ö).",
         "Ein Bogen Papier es una hoja grande de papel, por ejemplo para dibujar o envolver."
       ],
       "sectionAccents": {
@@ -12630,7 +12630,8 @@ const B1_WORDS = [
         "important": [
           {
             "blue": [
-              "Bögen"
+              "Bögen",
+              "Bogen"
             ]
           },
           {
@@ -12906,7 +12907,7 @@ const B1_WORDS = [
       "translation": "incendio",
       "explanation": [
         "Idea principal: der Brand es un incendio: un fuego descontrolado que daña un edificio o un bosque. El plural es die Brände.",
-        "Usos típicos: ein Brand bricht aus (se declara un incendio), einen Brand löschen (apagar un incendio), in Brand geraten (incendiarse), in Brand setzen (prender fuego). Der Brand es más neutro que das Feuer.",
+        "Usos típicos: ein Brand bricht aus (se declara un incendio), einen Brand löschen (apagar un incendio), in Brand geraten (incendiarse), in Brand setzen (prender fuego). Der Brand es un concepto más restringido que das Feuer.",
         "Das Feuer también puede ser un fuego controlado (en la chimenea o una hoguera), mientras que der Brand suele ser una desgracia o un daño."
       ],
       "examples": [
@@ -17342,7 +17343,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "El auxiliar es sein: ich bin eingebrochen.",
+        "El auxiliar suele ser sein (con bei + dativo también haben: man hat bei uns eingebrochen): ich bin eingebrochen.",
         "En la pasiva impersonal, sin sujeto: Bei uns wurde eingebrochen."
       ],
       "important": [
@@ -19726,7 +19727,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Sich eingewöhnen normalmente no se usa con an + acusativo.",
-        "El prefijo ein solo se separa en presente y en Präteritum; en el participio va unido: eingewöhnt."
+        "El prefijo ein solo se separa en presente, en Präteritum y en imperativo; en el participio va unido: eingewöhnt."
       ],
       "sectionAccents": {
         "explanation": {
@@ -20934,7 +20935,7 @@ const B1_WORDS = [
         "También significa «alcanzar»; el contexto ayuda a entender el significado."
       ],
       "important": [
-        "No lo confundas con einkaufen (hacer la compra).",
+        "En registro regional y coloquial, einholen también significa einkaufen (hacer la compra).",
         "No lo confundas con überholen: einholen – alcanzar, überholen – adelantar."
       ],
       "sectionAccents": {
@@ -21060,7 +21061,11 @@ const B1_WORDS = [
           {}
         ],
         "important": [
-          {},
+          {
+            "blue": [
+              "einholen"
+            ]
+          },
           {
             "blue": [
               "einholen"
@@ -21469,7 +21474,7 @@ const B1_WORDS = [
         "Comprometerse con algo: sich für etwas einsetzen."
       ],
       "important": [
-        "Sin sich, einsetzen no significa «comprometerse»: sin el pronombre reflexivo significa meter, colocar o emplear.",
+        "Sin sich, einsetzen no significa «comprometerse»: sin el pronombre reflexivo significa meter, colocar, emplear o designar.",
         "No lo confundas con einstellen (ajustar, contratar)."
       ],
       "sectionAccents": {
@@ -25518,7 +25523,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Faul referido a una persona significa perezoso; referido a la comida, podrido: el significado lo determina el sustantivo.",
-        "Faulenzen no es una palabra negativa: significa simplemente descansar sin hacer nada."
+        "Faulenzen puede ser despectivo (holgazanería) o neutro: descansar sin hacer nada."
       ],
       "sectionAccents": {
         "explanation": {
@@ -32418,7 +32423,7 @@ const B1_WORDS = [
         "Expresiones: auf den Tisch hauen, sich aufs Ohr hauen (coloquial: irse a dormir)."
       ],
       "important": [
-        "Las formas de pasado varían según el significado: haute (golpear, coloquial) y hieb (cortar, literario).",
+        "Las formas de pasado varían según el significado: haute (golpear, coloquial) y hieb (golpear con un arma, estilo elevado).",
         "En el Perfekt: hat gehauen."
       ],
       "sectionAccents": {
@@ -35973,7 +35978,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Sich irren es más cortés que falsch sein: Da irrst du dich.",
+        "Sich irren es más cortés que Unrecht haben: Da irrst du dich.",
         "En el Perfekt: hat sich geirrt (con haben)."
       ],
       "important": [
@@ -40819,7 +40824,7 @@ const B1_WORDS = [
       "explanation": [
         "Idea principal: kündigen significa dejar el trabajo, rescindir un contrato o dar de baja un alquiler: comunicar oficialmente que una relación termina. Formas: kündigt, kündigte, hat gekündigt (verbo auxiliar haben).",
         "La cosa va en acusativo: den Vertrag kündigen, die Wohnung kündigen, den Job kündigen. La persona a la que se despide va en dativo: Der Chef kündigt dem Mitarbeiter (el jefe despide al empleado). Sin complemento, ich habe gekündigt significa que uno mismo ha dejado el trabajo.",
-        "En el fondo, kündigen es un paso formal con un plazo de preaviso (Kündigungsfrist); para el despido decidido por la empresa también se usa entlassen."
+        "En el fondo, kündigen es un paso formal con un plazo de preaviso (Kündigungsfrist); para el despido decidido por la empresa también se usa die Entlassung (verbo: entlassen)."
       ],
       "examples": [
         {
@@ -43291,7 +43296,7 @@ const B1_WORDS = [
         "En sentido figurado, landen significa ir a parar: Wo bin ich nur gelandet? (¿Dónde he ido a parar?)."
       ],
       "important": [
-        "En el Perfekt se usa ist gelandet, no hat gelandet.",
+        "Con el significado de «aterrizar», en el Perfekt se usa ist gelandet, no hat gelandet.",
         "A la pregunta ¿dónde? se responde con auf/in + dativo: auf dem Dach, im Spamordner."
       ],
       "sectionAccents": {
@@ -44969,7 +44974,7 @@ const B1_WORDS = [
       "translation": "apagar • borrar",
       "explanation": [
         "Idea principal: löschen se usa en tres situaciones principales: apagar el fuego o la luz (den Brand löschen, das Licht löschen), borrar datos (eine Datei löschen) y saciar la sed (den Durst löschen). Formas: löscht, löschte, hat gelöscht.",
-        "Es un verbo transitivo, así que siempre lleva acusativo: Ich lösche die Datei. El trabajo de los bomberos se describe con löschen.",
+        "Es un verbo transitivo, así que normalmente lleva acusativo: Ich lösche die Datei. El trabajo de los bomberos se describe con löschen.",
         "No se usa con sich; si un fuego se apaga solo, se dice erlöschen."
       ],
       "examples": [
@@ -57033,7 +57038,7 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "afilar • pulir • lijar",
       "explanation": [
-        "Idea principal: schleifen significa lijar, afilar o pulir: dejar una superficie lisa o un filo cortante. Existe además un segundo verbo schleifen, sin relación con el primero, que significa arrastrar por el suelo.",
+        "Idea principal: schleifen significa lijar, afilar o pulir: dejar una superficie lisa o un filo cortante. Existe además un segundo verbo schleifen, emparentado con el primero, que significa arrastrar por el suelo.",
         "En el sentido de lijar o afilar es un verbo fuerte: er schleift, schliff, hat geschliffen (Messer schleifen, Diamanten schleifen). En el sentido de arrastrar es regular: er schleift, schleifte, hat geschleift (etwas über den Boden schleifen).",
         "Es frecuente con el prefijo ab-: abschleifen (lijar del todo) – Wir schleifen den Tisch ab. El participio geschliffen, como adjetivo, significa también pulido, refinado."
       ],
@@ -63993,7 +63998,7 @@ const B1_WORDS = [
           "lv": "El Rin es un gran río de Europa."
         },
         {
-          "de": "Bei Regen fließen die Ströme über die Ufer.",
+          "de": "Bei Regen treten die Ströme über die Ufer.",
           "lv": "Cuando llueve, los ríos se desbordan."
         }
       ],
@@ -73105,7 +73110,7 @@ const B1_WORDS = [
           "lv": "Este animal solo se encuentra en África."
         },
         {
-          "de": "Es kommt mir vor, als ob ich ihn kenne.",
+          "de": "Es kommt mir vor, als ob ich ihn kennen würde.",
           "lv": "Me parece que lo conozco."
         }
       ],
@@ -74262,7 +74267,7 @@ const B1_WORDS = [
         },
         {
           "word": "der Waggon",
-          "meaning": "vagón (de mercancías)",
+          "meaning": "vagón (de tren)",
           "example": "Der Waggon steht am Bahnhof. – El vagón está en la estación."
         },
         {
@@ -74380,7 +74385,7 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "vagón (de mercancías)"
+                "vagón (de tren)"
               ]
             }
           },

@@ -7896,7 +7896,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Schreif dir op: behandeln + Akk (wat? wien?). Eng Krankheet gëtt mit + Dativ behandelt.",
+        "Schreif dir op: behandeln + Akk (wat? wien?). D'Behandlungsmëttel gëtt mat mit + Dativ uginn.",
         "D'Substantiv die Behandlung kënnt vun dësem Verb."
       ],
       "important": [
@@ -11501,7 +11501,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Typesch Ausdréck: am Bildschirm arbeiten; d'Bild ass auf dem Bildschirm.",
+        "Typesch Ausdréck: am Bildschirm arbeiten; auf dem Bildschirm erscheinen (um Bildschierm erschéngen).",
         "Bei engem Handy seet ee meeschtens das Display."
       ],
       "important": [
@@ -12893,7 +12893,7 @@ const B1_WORDS = [
       "translation": "Brand",
       "explanation": [
         "Haaptiddi: der Brand ass e Brand — e Feier, dat net ënner Kontroll ass an e Gebai oder e Bësch beschiedegt. D'Pluralform ass die Brände.",
-        "Typesche Gebrauch: ein Brand bricht aus (e Brand brécht aus), einen Brand löschen (e Brand läschen), in Brand geraten (Feier fänken), in Brand setzen (a Brand stiechen). Der Brand ass méi neutral wéi das Feuer.",
+        "Typesche Gebrauch: ein Brand bricht aus (e Brand brécht aus), einen Brand löschen (e Brand läschen), in Brand geraten (Feier fänken), in Brand setzen (a Brand stiechen). Der Brand ass e méi enke Begrëff wéi das Feuer.",
         "Das Feuer kann och e kontrolléiert Feier sinn (am Kamäin, e Lagerfeier), wougéint der Brand normalerweis e Schued ass."
       ],
       "examples": [
@@ -17344,7 +17344,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "D'Hëllefsverb ass sein: ich bin eingebrochen. Och op Lëtzebuergesch: ech sinn agebrach.",
+        "D'Hëllefsverb ass meeschtens sein (mat bei + Dativ och haben: man hat bei uns eingebrochen): ich bin eingebrochen. Och op Lëtzebuergesch: ech sinn agebrach.",
         "Passiv ouni Sujet: Bei uns wurde eingebrochen."
       ],
       "important": [
@@ -20918,7 +20918,7 @@ const B1_WORDS = [
         "D'Wuert heescht och „aholen“; de Kontext hëlleft d'Bedeitung ze verstoen."
       ],
       "important": [
-        "Einholen ass net datselwecht wéi einkaufen (akafen).",
+        "Einholen heescht regional an ëmgangssproochlech och einkaufen (akafen).",
         "Net verwiessele mat überholen (iwwerhuelen): einholen – aholen, überholen – iwwerhuelen."
       ],
       "sectionAccents": {
@@ -21458,7 +21458,7 @@ const B1_WORDS = [
         "Sech fir eppes asetzen: sich für etwas einsetzen."
       ],
       "important": [
-        "Ouni sich heescht einsetzen net „sech asetzen“: ouni Reflexivpronomen heescht et asetzen, benotzen.",
+        "Ouni sich heescht einsetzen net „sech asetzen“: ouni Reflexivpronomen heescht et benotzen, asetzen oder ernennen.",
         "Net verwiessele mat einstellen (astellen; engagéieren)."
       ],
       "sectionAccents": {
@@ -25495,7 +25495,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Bei enger Persoun heescht faul fail; bei Liewensmëttel verfault: d'Substantiv bestëmmt d'Bedeitung.",
-        "Faulenzen ass kee negativt Wuert – et heescht einfach raschten, näischt maachen."
+        "Faulenzen kann ofwäertend sinn (Lidderegkeet) oder neutral – raschten an näischt maachen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -32392,7 +32392,7 @@ const B1_WORDS = [
         "Ausdréck: auf den Tisch hauen, sich aufs Ohr hauen (familiär: schlofe goen)."
       ],
       "important": [
-        "D'Präteritumsformen hänken vun der Bedeitung of: haute (schloen, familiär) an hieb (hacken, spalen, literaresch).",
+        "D'Präteritumsformen hänken vun der Bedeitung of: haute (schloen, familiär) an hieb (mat enger Waff schloen, gehuewene Stil).",
         "Am Perfekt: hat gehauen."
       ],
       "sectionAccents": {
@@ -35944,7 +35944,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Sich irren ass méi héiflech wéi „falsch sein“: Da irrst du dich.",
+        "Sich irren ass méi héiflech wéi „Unrecht haben“: Da irrst du dich.",
         "Am Perfekt: hat sich geirrt (haben)."
       ],
       "important": [
@@ -37662,7 +37662,7 @@ const B1_WORDS = [
       "translation": "Kär",
       "explanation": [
         "Haaptiddi: der Kern ass e männlecht Substantiv a bedeit Kär — dat Wichtegst oder de banneschten Deel vun eppes. Pluralform: die Kerne. Et kann de Kär vun enger Fruucht sinn (Kirschkern, Apfelkern), den Atomkär oder de Kär vun enger Iddi.",
-        "Am iwwerdroene Sënn: der Kern der Sache — de Kär vun der Saach. An der Physik: Atomkern, Zellkern (Zellkär); an der Politik: Kernenergie (Atomenergie)."
+        "Am iwwerdroene Sënn: der Kern der Sache — de Kär vun der Saach. An der Physik: Atomkern; an der Biologie: Zellkern (Zellkär); an der Politik: Kernenergie (Atomenergie)."
       ],
       "examples": [
         {
@@ -40789,7 +40789,7 @@ const B1_WORDS = [
       "explanation": [
         "Haaptiddi: kündigen heescht eng Aarbecht, e Kontrakt oder e Loyer kënnegen — offiziell matdeelen, datt eng Relatioun ophält. Formen: kündigt, kündigte, hat gekündigt (Hëllefsverb haben).",
         "Mam Akkusativ steet d'Saach: den Vertrag kündigen, die Wohnung kündigen, den Job kündigen. Mam Dativ steet d'Persoun, där gekënnegt gëtt: Der Chef kündigt dem Mitarbeiter (de Chef kënnegt dem Mataarbechter). Ouni Ergänzung heescht ich habe gekündigt, datt een selwer seng Aarbecht gekënnegt huet.",
-        "Am Fong ass kündigen en offizielle Schrëtt (die Kündigung) mat enger Frist (Kündigungsfrist); fir d'Entloossung vu Säite vun der Firma seet een och entlassen."
+        "Am Fong ass kündigen en offizielle Schrëtt (die Kündigung) mat enger Frist (Kündigungsfrist); fir d'Entloossung vu Säite vun der Firma seet een och die Entlassung (Verb: entlassen)."
       ],
       "examples": [
         {
@@ -43262,7 +43262,7 @@ const B1_WORDS = [
         "Am iwwerdroene Sënn heescht landen iergendwou ukommen: Wo bin ich nur gelandet? (Wou sinn ech dann hei gelant?)."
       ],
       "important": [
-        "Am Perfekt heescht et ist gelandet, net hat gelandet.",
+        "An der Bedeitung „landen“ (vun engem Fliger) heescht et am Perfekt ist gelandet, net hat gelandet.",
         "Op d'Fro wou? äntwert een mat auf/in + Dativ: auf dem Dach, im Spamordner."
       ],
       "sectionAccents": {
@@ -43401,7 +43401,8 @@ const B1_WORDS = [
           {
             "blue": [
               "ist gelandet",
-              "gelandet"
+              "gelandet",
+              "landen"
             ]
           },
           {}
@@ -44939,7 +44940,7 @@ const B1_WORDS = [
       "translation": "läschen",
       "explanation": [
         "Haaptiddi: löschen heescht läschen. Et gëtt an dräi Haaptsituatioune gebraucht: e Feier oder d'Liicht läschen (den Brand löschen, das Licht löschen), Daten läschen (eine Datei löschen) an den Duuscht läschen (den Durst löschen). Formen: löscht, löschte, hat gelöscht.",
-        "D'Verb ass transitiv, dofir steet ëmmer en Akkusativ: Ich lösche die Datei. D'Aarbecht vun de Pompjeeë beschreift een mat löschen.",
+        "D'Verb ass transitiv, dofir steet meeschtens en Akkusativ: Ich lösche die Datei. D'Aarbecht vun de Pompjeeë beschreift een mat löschen.",
         "Et gëtt net mat sich gebraucht; wann e Feier vu sech selwer ausgeet, seet een erlöschen."
       ],
       "examples": [
@@ -57018,7 +57019,7 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "schläifen",
       "explanation": [
-        "Haaptiddi: schleifen heescht schläifen, schärfen oder poléieren: eng Fläch glat oder schaarf maachen. Et gëtt och en zweet, net verwandt Verb schleifen – iwwer de Buedem schleefen.",
+        "Haaptiddi: schleifen heescht schläifen, schärfen oder poléieren: eng Fläch glat oder schaarf maachen. Et gëtt och en zweet, verwandt Verb schleifen – iwwer de Buedem schleefen.",
         "An der Bedeitung schläifen ass d'Verb staark: er schleift, schliff, hat geschliffen (Messer schleifen, Diamanten schleifen). An der Bedeitung schleefen ass d'Verb regelméisseg: er schleift, schleifte, hat geschleift (etwas über den Boden schleifen).",
         "Dacks mam Präfix ab-: abschleifen (ofschläifen) – Wir schleifen den Tisch ab. D'Partizip geschliffen als Adjektiv heescht och raffinéiert, fein ausgeschafft."
       ],
@@ -63990,7 +63991,7 @@ const B1_WORDS = [
           "lv": "De Rhäin ass e grousse Floss an Europa."
         },
         {
-          "de": "Bei Regen fließen die Ströme über die Ufer.",
+          "de": "Bei Regen treten die Ströme über die Ufer.",
           "lv": "Bei Reen trieden d'Flëss iwwer d'Ufer."
         }
       ],
@@ -68467,7 +68468,7 @@ const B1_WORDS = [
       "translation": "iwwersinn",
       "explanation": [
         "Haaptiddi: übersehen heescht iwwersinn, net bemierken – ouni et ze wëllen eppes net gesinn, wat ee virun den Ae läit. Formen: übersieht, übersah, hat übersehen. De Präfix über- ass net trennbar. Nom Verb kënnt den Akkusativ.",
-        "Eng zweet Bedeitung ass iwwerblécken, ofschätzen: Wir können die Folgen noch nicht übersehen. Wann ee ouni Wëllen eppes net gesäit, ass dat übersehen; wann ee bewosst eppes net gesi wëll, heescht et ignorieren oder wegsehen."
+        "Eng zweet Bedeitung ass iwwerblécken, ofschätzen: Wir können die Folgen noch nicht übersehen. Wann ee ouni Wëllen eppes net gesäit, ass dat übersehen; wann ee bewosst eppes net gesi wëll, heescht et meeschtens ignorieren oder wegsehen."
       ],
       "examples": [
         {
@@ -68513,7 +68514,7 @@ const B1_WORDS = [
         "D'Géigedeel ass bemerken (bemierken)."
       ],
       "important": [
-        "Übersehen ass onbewosst, ignorieren ass bewosst.",
+        "Übersehen ass meeschtens onbewosst, ignorieren ass bewosst.",
         "Am Perfekt gëtt et kee ge-: hat übersehen."
       ],
       "sectionAccents": {
@@ -73106,7 +73107,7 @@ const B1_WORDS = [
           "lv": "Dëst Déier gëtt et nëmmen an Afrika."
         },
         {
-          "de": "Es kommt mir vor, als ob ich ihn kenne.",
+          "de": "Es kommt mir vor, als ob ich ihn kennen würde.",
           "lv": "Et kënnt mer vir, wéi wann ech hie kennen."
         }
       ],
@@ -74262,7 +74263,7 @@ const B1_WORDS = [
         },
         {
           "word": "der Waggon",
-          "meaning": "Waggon (Wueren)",
+          "meaning": "Waggon (Eisebunn)",
           "example": "Der Waggon steht am Bahnhof. – De Waggon steet op der Gare."
         },
         {

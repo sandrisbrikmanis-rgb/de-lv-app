@@ -438,7 +438,7 @@ const A2_WORDS = [
       "translation": "afgeven • inleveren • overhandigen",
       "explanation": [
         "Kerngedachte: abgeben is een scheidbaar werkwoord met de betekenis afgeven of inleveren (iemand anders ontvangt het): gibt ab, gab ab, hat abgegeben. Je gebruikt het als je iets wegbrengt en bij een ander achterlaat — huiswerk, een sleutel, een jas, een pakket. Ab staat aan het eind van de zin.",
-        "Degene aan wie je het geeft, staat vaak in de datief of komt na bei/an: etwas an der Rezeption abgeben, jemandem etwas abgeben. Werk of een document lever je in bij een docent of instantie: die Arbeit abgeben.",
+        "De plaats of persoon waar je iets afgeeft, geef je vaak aan met an/bei: etwas an der Rezeption abgeben, etwas beim Nachbarn abgeben. Werk of een document lever je in bij een docent of instantie: die Arbeit abgeben.",
         "Geef je iets terug, dan gebruik je zurückgeben; dien je officieel een aanvraag in, dan vaak einreichen."
       ],
       "examples": [
@@ -8665,7 +8665,7 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "beker",
       "explanation": [
-        "Kern: der Becher is een mannelijk zelfstandig naamwoord. Het is een beker of drinkglas zonder oor waaruit je drinkt: Pappbecher (kartonnen bekertje), Plastikbecher (plastic beker). Het meervoud is die Becher.",
+        "Kern: der Becher is een mannelijk zelfstandig naamwoord. Het is een beker of drinkglas, meestal zonder oor, waaruit je drinkt: Pappbecher (kartonnen bekertje), Plastikbecher (plastic beker). Het meervoud is die Becher.",
         "Het woord wordt ook gebruikt voor de verpakking van producten, bijvoorbeeld ein Becher Joghurt (een bakje yoghurt) en ein Becher Eis (een bakje ijs).",
         "Anders dan die Tasse (kopje met oor) en das Glas (glas) heeft der Becher meestal geen oor en is hij vaak van plastic, papier, metaal of keramiek."
       ],
@@ -8700,7 +8700,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Is het drink- of eetgerei zonder oor, dan gebruik je Becher; met oor die Tasse.",
+        "Is het drink- of eetgerei zonder oor, dan gebruik je Becher; met oor meestal die Tasse (maar ook Kaffeebecher).",
         "Het meervoud is die Becher (zonder extra uitgang)."
       ],
       "important": [
@@ -10142,7 +10142,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "In de zin Er kommt bestimmt versterkt bestimmt de hele uitspraak.",
-        "Wil je nog meer zekerheid uitdrukken, gebruik dan ganz bestimmt of sicher."
+        "Wil je nog meer zekerheid uitdrukken, gebruik dan ganz bestimmt of ganz sicher."
       ],
       "important": [
         "Bestimmt is niet hetzelfde als bestimmen: bestimmen betekent bepalen, beslissen; bestimmt is een bijwoord of bijvoeglijk naamwoord.",
@@ -10364,7 +10364,7 @@ const A2_WORDS = [
       "translation": "peer • gloeilamp",
       "explanation": [
         "Kern: die Birne is een vrouwelijk zelfstandig naamwoord met de betekenissen peer (de vrucht) en gloeilamp (elektrische lamp, kort voor Glühbirne). Het meervoud is die Birnen.",
-        "De context bepaalt de betekenis: bij fruit en eten is het een peer, bij een lamp en licht een gloeilamp. Veelgebruikte samenstellingen zijn die Glühbirne (gloeilamp) en die Energiesparlampe (spaarlamp).",
+        "De context bepaalt de betekenis: bij fruit en eten is het een peer, bij een lamp en licht een gloeilamp. Veelgebruikte samenstellingen zijn die Glühbirne (gloeilamp) en die LED-Birne (ledlamp).",
         "In de spreektaal betekent Birne soms ook hoofd, maar die betekenis is informeel."
       ],
       "examples": [
@@ -12787,7 +12787,7 @@ const A2_WORDS = [
       "translation": "dank • dankbaarheid",
       "explanation": [
         "Kern: der Dank is een mannelijk zelfstandig naamwoord dat dank of dankbaarheid betekent: wat je iemand betuigt voor hulp of een goede daad. Het wordt meestal in het enkelvoud gebruikt.",
-        "Veelgebruikte combinaties: Vielen Dank (hartelijk dank), jemandem Dank sagen (iemand bedanken), als Dank (als dank), zum Dank. Dank is ook een voorzetsel: Dank deiner Hilfe (dankzij jouw hulp), meestal gevolgd door de genitief of de datief."
+        "Veelgebruikte combinaties: Vielen Dank (hartelijk dank), jemandem Dank sagen (iemand bedanken), als Dank (als dank), zum Dank. Met een kleine letter is dank ook een voorzetsel: Dank deiner Hilfe (dankzij jouw hulp), meestal gevolgd door de genitief of de datief."
       ],
       "examples": [
         {
@@ -33819,7 +33819,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Voor geplande evenementen (concert, vergadering) gebruik je stattfinden, niet passieren.",
-        "In de voltooide tijd altijd ist passiert, niet hat passiert."
+        "In de betekenis “gebeuren” in de voltooide tijd altijd ist passiert, niet hat passiert."
       ],
       "sectionAccents": {
         "explanation": {
@@ -37934,7 +37934,7 @@ const A2_WORDS = [
           "lv": "Hij heeft veel schulden bij de bank."
         },
         {
-          "de": "Sie gibt mir die Schuld für den Fehler.",
+          "de": "Sie gibt mir die Schuld an dem Fehler.",
           "lv": "Zij geeft mij de schuld van de fout."
         }
       ],
@@ -45745,7 +45745,7 @@ const A2_WORDS = [
       ],
       "important": [
         "weit (ver) en weiter (verder, door) zijn verschillende woorden: Geh weiter! – Loop door!",
-        "Bij afstand gebruik je weit meestal niet met een getal; met een getal gebruik je entfernt: drei Kilometer entfernt."
+        "Bij afstand gebruik je een getal zowel met weit als met entfernt: drei Kilometer weit, drei Kilometer entfernt."
       ],
       "sectionAccents": {
         "explanation": {

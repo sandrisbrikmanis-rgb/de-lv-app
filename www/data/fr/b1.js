@@ -7901,7 +7901,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Note : behandeln + accusatif (qui ? quoi ?). On soigne une maladie avec mit + datif.",
+        "Note : behandeln + accusatif (qui ? quoi ?). Le moyen de traitement s'indique avec mit + datif.",
         "Le nom die Behandlung vient de ce verbe."
       ],
       "important": [
@@ -11506,7 +11506,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Tournure typique : am Bildschirm arbeiten ; l'image est auf dem Bildschirm.",
+        "Tournure typique : am Bildschirm arbeiten ; auf dem Bildschirm erscheinen (apparaître à l'écran).",
         "Pour un téléphone, on dit généralement das Display."
       ],
       "important": [
@@ -12898,7 +12898,7 @@ const B1_WORDS = [
       "translation": "incendie",
       "explanation": [
         "Idée principale : der Brand est un incendie, un sinistre — une combustion incontrôlée qui endommage un bâtiment ou une forêt. Le pluriel est die Brände.",
-        "Emplois typiques : ein Brand bricht aus (un incendie se déclare), einen Brand löschen (éteindre un incendie), in Brand geraten (prendre feu), in Brand setzen (mettre le feu à). Der Brand est plus neutre que das Feuer.",
+        "Emplois typiques : ein Brand bricht aus (un incendie se déclare), einen Brand löschen (éteindre un incendie), in Brand geraten (prendre feu), in Brand setzen (mettre le feu à). Der Brand est une notion plus étroite que das Feuer.",
         "Das Feuer peut aussi être un feu maîtrisé (dans une cheminée, un feu de camp), alors que der Brand est généralement un sinistre ou un dommage."
       ],
       "examples": [
@@ -17349,7 +17349,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "L'auxiliaire est sein : ich bin eingebrochen.",
+        "L'auxiliaire est généralement sein (avec bei + datif aussi haben : man hat bei uns eingebrochen) : ich bin eingebrochen.",
         "Passif sans sujet : Bei uns wurde eingebrochen."
       ],
       "important": [
@@ -20925,7 +20925,7 @@ const B1_WORDS = [
         "Le mot signifie aussi « rattraper » ; le contexte aide à comprendre le sens."
       ],
       "important": [
-        "Einholen n'est pas la même chose que einkaufen (faire les courses).",
+        "Einholen signifie aussi, régionalement et familièrement, einkaufen (faire les courses).",
         "Ne pas confondre avec überholen (dépasser) : einholen – rattraper, überholen – dépasser."
       ],
       "sectionAccents": {
@@ -21465,7 +21465,7 @@ const B1_WORDS = [
         "S'engager pour quelque chose : sich für etwas einsetzen."
       ],
       "important": [
-        "Sans sich, einsetzen ne signifie pas « s'engager » : sans pronom réfléchi, il signifie mettre, insérer.",
+        "Sans sich, einsetzen ne signifie pas « s'engager » : sans pronom réfléchi, il signifie employer, mettre, insérer ou nommer.",
         "Ne pas confondre avec einstellen (régler, embaucher)."
       ],
       "sectionAccents": {
@@ -25502,7 +25502,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Pour une personne, faul signifie paresseux ; pour un aliment, pourri : c'est le nom qui détermine le sens.",
-        "Faulenzen n'est pas un mot négatif – il signifie simplement se reposer, ne rien faire."
+        "Faulenzen peut être péjoratif (fainéantise) ou neutre – se reposer en ne faisant rien."
       ],
       "sectionAccents": {
         "explanation": {
@@ -32400,7 +32400,7 @@ const B1_WORDS = [
         "Expressions : auf den Tisch hauen, sich aufs Ohr hauen (familier : aller se coucher)."
       ],
       "important": [
-        "Les formes du prétérit varient selon le sens : haute (frapper, familier) et hieb (couper, fendre, littéraire).",
+        "Les formes du prétérit varient selon le sens : haute (frapper, familier) et hieb (frapper avec une arme, style soutenu).",
         "Au parfait : hat gehauen."
       ],
       "sectionAccents": {
@@ -35953,7 +35953,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Sich irren est plus poli que « falsch sein » : Da irrst du dich.",
+        "Sich irren est plus poli que « Unrecht haben » : Da irrst du dich.",
         "Au parfait : hat sich geirrt (haben)."
       ],
       "important": [
@@ -40798,7 +40798,7 @@ const B1_WORDS = [
       "explanation": [
         "Idée principale : kündigen signifie démissionner, résilier un contrat ou un bail — annoncer officiellement la fin d'une relation. Formes : kündigt, kündigte, hat gekündigt (auxiliaire haben).",
         "La chose se met à l'accusatif : den Vertrag kündigen, die Wohnung kündigen, den Job kündigen. La personne licenciée se met au datif : Der Chef kündigt dem Mitarbeiter (le chef licencie l'employé). Sans complément, ich habe gekündigt signifie qu'on a soi-même démissionné.",
-        "Fondamentalement, kündigen est une démarche officielle avec un préavis (Kündigungsfrist) ; le licenciement prononcé par l'entreprise se dit aussi entlassen."
+        "Fondamentalement, kündigen est une démarche officielle avec un préavis (Kündigungsfrist) ; le licenciement prononcé par l'entreprise se dit aussi die Entlassung (verbe : entlassen)."
       ],
       "examples": [
         {
@@ -43271,7 +43271,7 @@ const B1_WORDS = [
         "Au sens figuré, landen signifie se retrouver quelque part : Wo bin ich nur gelandet? (Mais où ai-je atterri ?)."
       ],
       "important": [
-        "Au parfait, on emploie ist gelandet, et non hat gelandet.",
+        "Au sens d'« atterrir », au parfait, on emploie ist gelandet, et non hat gelandet.",
         "À la question « où ? », on répond avec auf/in + datif : auf dem Dach, im Spamordner."
       ],
       "sectionAccents": {
@@ -44948,7 +44948,7 @@ const B1_WORDS = [
       "translation": "éteindre • effacer • supprimer",
       "explanation": [
         "Idée principale : löschen signifie éteindre ou effacer. On l'emploie dans trois situations principales : éteindre un feu ou une lumière (den Brand löschen, das Licht löschen), supprimer des données (eine Datei löschen) et étancher la soif (den Durst löschen). Formes : löscht, löschte, hat gelöscht.",
-        "Le verbe est transitif, il est donc toujours suivi d'un accusatif : Ich lösche die Datei. Le travail des pompiers se décrit avec löschen.",
+        "Le verbe est transitif, il est donc généralement suivi d'un accusatif : Ich lösche die Datei. Le travail des pompiers se décrit avec löschen.",
         "Il ne s'emploie pas avec sich ; si un incendie s'éteint tout seul, on dit erlöschen."
       ],
       "examples": [
@@ -52437,7 +52437,7 @@ const B1_WORDS = [
         "Une personne comme un véhicule peut foncer, mais le cœur, le temps ou une pensée seulement au sens figuré."
       ],
       "important": [
-        "rasen n'est pas rasieren (raser) : rasen – foncer, rasieren – se raser.",
+        "rasen n'est pas rasieren (raser) : rasen – foncer, rasieren – raser.",
         "Rouler vite en enfreignant le code de la route se dit souvent rasen."
       ],
       "sectionAccents": {
@@ -57027,7 +57027,7 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "aiguiser • poncer • polir",
       "explanation": [
-        "Idée principale : schleifen signifie poncer, aiguiser ou polir : rendre une surface lisse ou tranchante. Il existe aussi un second verbe schleifen, sans rapport : traîner par terre.",
+        "Idée principale : schleifen signifie poncer, aiguiser ou polir : rendre une surface lisse ou tranchante. Il existe aussi un second verbe schleifen, apparenté : traîner par terre.",
         "Au sens de poncer ou tailler, le verbe est fort : er schleift, schliff, hat geschliffen (Messer schleifen, Diamanten schleifen). Au sens de traîner, il est régulier : er schleift, schleifte, hat geschleift (etwas über den Boden schleifen).",
         "Souvent avec le préfixe ab- : abschleifen (poncer entièrement) – Wir schleifen den Tisch ab. Le participe geschliffen employé comme adjectif signifie aussi raffiné, ciselé."
       ],
@@ -63999,7 +63999,7 @@ const B1_WORDS = [
           "lv": "Le Rhin est un grand fleuve d'Europe."
         },
         {
-          "de": "Bei Regen fließen die Ströme über die Ufer.",
+          "de": "Bei Regen treten die Ströme über die Ufer.",
           "lv": "Quand il pleut, les fleuves débordent."
         }
       ],
@@ -73107,7 +73107,7 @@ const B1_WORDS = [
           "lv": "Cet animal ne se trouve qu'en Afrique."
         },
         {
-          "de": "Es kommt mir vor, als ob ich ihn kenne.",
+          "de": "Es kommt mir vor, als ob ich ihn kennen würde.",
           "lv": "Il me semble que je le connais."
         }
       ],
@@ -74263,7 +74263,7 @@ const B1_WORDS = [
         },
         {
           "word": "der Waggon",
-          "meaning": "wagon (de marchandises)",
+          "meaning": "wagon (de chemin de fer)",
           "example": "Der Waggon steht am Bahnhof. – Le wagon est en gare."
         },
         {
@@ -74381,7 +74381,7 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "wagon (de marchandises)"
+                "wagon (de chemin de fer)"
               ]
             }
           },

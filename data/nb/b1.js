@@ -7905,7 +7905,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Merk deg: behandeln + akkusativ (hvem/hva?). En sykdom behandles mit + dativ.",
+        "Merk deg: behandeln + akkusativ (hvem/hva?). Behandlingsmiddelet angis med mit + dativ.",
         "Substantivet die Behandlung kommer av dette verbet."
       ],
       "important": [
@@ -11509,7 +11509,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Typisk forbindelse: am Bildschirm arbeiten; bildet er auf dem Bildschirm.",
+        "Typisk forbindelse: am Bildschirm arbeiten; auf dem Bildschirm erscheinen (vises på skjermen).",
         "Om en telefon sier man vanligvis das Display."
       ],
       "important": [
@@ -12481,7 +12481,7 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "bue",
       "explanation": [
-        "Hovedtanken: der Bogen betyr bue – en krum linje eller gjenstand, for eksempel en bue til å skyte med, en hvelving, en fiolinbue eller en sving. Flertall er die Bögen (med omlyd).",
+        "Hovedtanken: der Bogen betyr bue – en krum linje eller gjenstand, for eksempel en bue til å skyte med, en hvelving, en fiolinbue eller en sving. Flertall er die Bogen; i sør også die Bögen.",
         "Ulike betydninger: en bue eller hvelving i en bro eller bygning (der Bogen einer Brücke), en bue i sport og musikk (Pfeil und Bogen, Geigenbogen), og dessuten et papirark (ein Bogen Papier). Uttrykket einen Bogen um etwas machen betyr å gå i en stor bue utenom noe.",
         "Sammenhengen viser hvilken betydning det er snakk om: bue, hvelving, fiolinbue eller ark."
       ],
@@ -12520,7 +12520,7 @@ const B1_WORDS = [
         "Kjente forbindelser: Pfeil und Bogen (pil og bue), Geigenbogen (fiolinbue)."
       ],
       "important": [
-        "Flertallsformen die Bögen har ö.",
+        "Flertall er die Bogen; i sør også die Bögen (med ö).",
         "Ein Bogen Papier er et stort papirark, for eksempel til tegning eller innpakning."
       ],
       "sectionAccents": {
@@ -12625,7 +12625,8 @@ const B1_WORDS = [
         "important": [
           {
             "blue": [
-              "Bögen"
+              "Bögen",
+              "Bogen"
             ]
           },
           {
@@ -12901,7 +12902,7 @@ const B1_WORDS = [
       "translation": "brann",
       "explanation": [
         "Hovedtanken: der Brand er en brann, en ildebrann – ukontrollert forbrenning som skader en bygning eller en skog. Flertall er die Brände. Ordet tilsvarer norsk «brann».",
-        "Typisk: ein Brand bricht aus (en brann bryter ut), einen Brand löschen (slokke en brann), in Brand geraten (ta fyr), in Brand setzen (sette fyr på). Der Brand er mer nøytralt enn das Feuer.",
+        "Typisk: ein Brand bricht aus (en brann bryter ut), einen Brand löschen (slokke en brann), in Brand geraten (ta fyr), in Brand setzen (sette fyr på). Der Brand er et snevrere begrep enn das Feuer.",
         "Das Feuer kan også være kontrollert ild (i peisen, på et bål), mens der Brand som regel er en ulykke eller skade."
       ],
       "examples": [
@@ -17352,7 +17353,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Hjelpeverbet er sein: ich bin eingebrochen.",
+        "Hjelpeverbet er vanligvis sein (med bei + dativ også haben: man hat bei uns eingebrochen): ich bin eingebrochen.",
         "I passiv uten subjekt: Bei uns wurde eingebrochen."
       ],
       "important": [
@@ -19724,7 +19725,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Sich eingewöhnen brukes vanligvis ikke med an + akkusativ.",
-        "Forstavelsen ein skilles bare fra i presens og preteritum; i partisippet skrives den sammen: eingewöhnt."
+        "Forstavelsen ein skilles bare fra i presens, preteritum og imperativ; i partisippet skrives den sammen: eingewöhnt."
       ],
       "sectionAccents": {
         "explanation": {
@@ -20928,7 +20929,7 @@ const B1_WORDS = [
         "Ordet betyr også «ta igjen»; sammenhengen hjelper deg å forstå betydningen."
       ],
       "important": [
-        "Einholen er ikke det samme som einkaufen (handle).",
+        "Einholen kan regionalt i dagligtale også bety einkaufen (handle).",
         "Ikke bland det sammen med überholen (kjøre forbi): einholen – ta igjen, überholen – kjøre forbi."
       ],
       "sectionAccents": {
@@ -21468,7 +21469,7 @@ const B1_WORDS = [
         "Gå inn for noe: sich für etwas einsetzen."
       ],
       "important": [
-        "Einsetzen betyr ikke «gå inn for» uten sich: uten det refleksive pronomenet betyr det å sette inn.",
+        "Einsetzen betyr ikke «gå inn for» uten sich: uten det refleksive pronomenet betyr det å bruke, sette inn eller utnevne.",
         "Ikke bland det sammen med einstellen (stille inn, ansette)."
       ],
       "sectionAccents": {
@@ -23677,7 +23678,7 @@ const B1_WORDS = [
       "translation": "oppstå",
       "explanation": [
         "Hovedtanken: entstehen betyr å oppstå, bli til – noe nytt begynner å eksistere: en idé, et problem, en skade, en by. Subjektet skaper ikke selv noe, men oppstår.",
-        "Former: entsteht, entstand, ist entstanden (hjelpeverbet sein); forstavelsen ent- er ikke delbar. Opphavet angis med aus eller durch + dativ/akkusativ: Aus dem Streit entstand Hass. Substantiv: die Entstehung (tilblivelse, opprinnelse)."
+        "Former: entsteht, entstand, ist entstanden (hjelpeverbet sein); forstavelsen ent- er ikke delbar. Opphavet angis med aus + dativ eller durch + akkusativ: Aus dem Streit entstand Hass. Substantiv: die Entstehung (tilblivelse, opprinnelse)."
       ],
       "examples": [
         {
@@ -25509,7 +25510,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Faul om en person betyr lat, om mat betyr det råtten; substantivet avgjør betydningen.",
-        "Faulenzen er ikke et negativt ord – det betyr rett og slett å slappe av."
+        "Faulenzen kan være nedsettende (dovenskap) eller nøytralt – å slappe av uten å gjøre noe."
       ],
       "sectionAccents": {
         "explanation": {
@@ -32407,7 +32408,7 @@ const B1_WORDS = [
         "Uttrykk: auf den Tisch hauen, sich aufs Ohr hauen (dagligtale: gå og legge seg)."
       ],
       "important": [
-        "Preteritumsformene skiller seg etter betydning: haute (slå, dagligtale) og hieb (hugge, litterært).",
+        "Preteritumsformene skiller seg etter betydning: haute (slå, dagligtale) og hieb (slå med våpen, høyere stil).",
         "I perfektum: hat gehauen."
       ],
       "sectionAccents": {
@@ -35959,7 +35960,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Sich irren er høfligere enn 'falsch sein': Da irrst du dich.",
+        "Sich irren er høfligere enn 'Unrecht haben': Da irrst du dich.",
         "Perfektum: hat sich geirrt (haben)."
       ],
       "important": [
@@ -37677,7 +37678,7 @@ const B1_WORDS = [
       "translation": "kjerne",
       "explanation": [
         "Hovedbetydning: der Kern er et hankjønnssubstantiv som betyr kjerne – den viktigste eller innerste delen av noe. Flertall: die Kerne. Det kan være en fruktstein eller et frø (Kirschkern, Apfelkern), en atomkjerne eller selve kjernen i en tanke.",
-        "I overført betydning: der Kern der Sache – sakens kjerne. I fysikk: Atomkern, Zellkern (cellekjerne); i politikken: Kernenergie (kjerneenergi)."
+        "I overført betydning: der Kern der Sache – sakens kjerne. I fysikk: Atomkern; i biologi: Zellkern (cellekjerne); i politikken: Kernenergie (kjerneenergi)."
       ],
       "examples": [
         {
@@ -40804,7 +40805,7 @@ const B1_WORDS = [
       "explanation": [
         "Hovedbetydning: kündigen betyr å si opp en jobb, en kontrakt eller en leieavtale – offisielt melde at et forhold skal opphøre. Former: kündigt, kündigte, hat gekündigt (hjelpeverb haben).",
         "Med akkusativ står saken: den Vertrag kündigen, die Wohnung kündigen, den Job kündigen. Med dativ står personen som blir sagt opp: Der Chef kündigt dem Mitarbeiter (sjefen sier opp den ansatte). Uten objekt betyr ich habe gekündigt at man selv har sagt opp.",
-        "I bunn og grunn er kündigen et formelt skritt med oppsigelsestid (Kündigungsfrist); selve oppsigelsen heter die Kündigung. Oppsigelse fra bedriftens side kalles også entlassen."
+        "I bunn og grunn er kündigen et formelt skritt med oppsigelsestid (Kündigungsfrist); selve oppsigelsen heter die Kündigung. Oppsigelse fra bedriftens side kalles også die Entlassung (verb: entlassen)."
       ],
       "examples": [
         {
@@ -43277,7 +43278,7 @@ const B1_WORDS = [
         "I overført betydning betyr landen å havne: Wo bin ich nur gelandet? (Hvor har jeg egentlig havnet?)."
       ],
       "important": [
-        "I perfektum bruker man ist gelandet, ikke hat gelandet.",
+        "I betydningen «lande» (gå ned) bruker man i perfektum ist gelandet, ikke hat gelandet.",
         "På spørsmålet hvor? svarer man med auf/in + dativ: auf dem Dach, im Spamordner."
       ],
       "sectionAccents": {
@@ -44954,7 +44955,7 @@ const B1_WORDS = [
       "translation": "slette • slokke",
       "explanation": [
         "Hovedbetydning: löschen betyr å slokke eller slette. Det brukes i tre hovedsituasjoner: slokke ild eller lys (den Brand löschen, das Licht löschen), slette data (eine Datei löschen) og slokke tørsten (den Durst löschen). Former: löscht, löschte, hat gelöscht.",
-        "Verbet er transitivt, og derfor har det alltid et akkusativobjekt: Ich lösche die Datei. Brannvesenets arbeid beskrives med löschen.",
+        "Verbet er transitivt, og derfor har det vanligvis et akkusativobjekt: Ich lösche die Datei. Brannvesenets arbeid beskrives med löschen.",
         "Det brukes ikke med sich; når en brann slokner av seg selv, sier man erlöschen."
       ],
       "examples": [
@@ -52446,7 +52447,7 @@ const B1_WORDS = [
         "Både mennesker og kjøretøy kan rase av sted, men hjerte, tid eller tanker bare i overført betydning."
       ],
       "important": [
-        "rasen er ikke rasieren (barbere): rasen – fare av sted, rasieren – barbere seg.",
+        "rasen er ikke rasieren (barbere): rasen – fare av sted, rasieren – barbere.",
         "Råkjøring der man bryter reglene, kalles ofte rasen."
       ],
       "sectionAccents": {
@@ -57036,7 +57037,7 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "slipe",
       "explanation": [
-        "Hovedbetydning: schleifen betyr å slipe, kvesse eller polere: gjøre en overflate glatt eller skarp. Det finnes også et annet, ubeslektet verb schleifen – å slepe langs bakken. Norsk har her to ulike ord: slipe og slepe.",
+        "Hovedbetydning: schleifen betyr å slipe, kvesse eller polere: gjøre en overflate glatt eller skarp. Det finnes også et annet, beslektet verb schleifen – å slepe langs bakken. Norsk har her to ulike ord: slipe og slepe.",
         "I betydningen slipe er verbet sterkt: er schleift, schliff, hat geschliffen (Messer schleifen, Diamanten schleifen). I betydningen slepe er det regelmessig: er schleift, schleifte, hat geschleift (etwas über den Boden schleifen).",
         "Ofte med prefikset ab-: abschleifen (slipe ned) – Wir schleifen den Tisch ab. Partisippet geschliffen som adjektiv betyr også elegant, finslipt."
       ],
@@ -64008,7 +64009,7 @@ const B1_WORDS = [
           "lv": "Rhinen er en stor elv i Europa."
         },
         {
-          "de": "Bei Regen fließen die Ströme über die Ufer.",
+          "de": "Bei Regen treten die Ströme über die Ufer.",
           "lv": "Når det regner, går de store elvene over sine bredder."
         }
       ],
@@ -68484,7 +68485,7 @@ const B1_WORDS = [
       "translation": "overse",
       "explanation": [
         "Hovedtanke: übersehen betyr å overse, ikke legge merke til – å ikke se noe som er rett foran øynene, uten at det er meningen. Former: übersieht, übersah, hat übersehen. Forstavelsen über- er ikke delbar. Etter verbet følger akkusativ.",
-        "Den andre betydningen er å overskue: Wir können die Folgen noch nicht übersehen. Når man ikke legger merke til noe ved et uhell, er det übersehen; overser man noe med vilje, sier man ignorieren eller wegsehen."
+        "Den andre betydningen er å overskue: Wir können die Folgen noch nicht übersehen. Når man ikke legger merke til noe ved et uhell, er det übersehen; overser man noe med vilje, sier man vanligvis ignorieren eller wegsehen."
       ],
       "examples": [
         {
@@ -68530,7 +68531,7 @@ const B1_WORDS = [
         "Det motsatte ordet er bemerken (legge merke til)."
       ],
       "important": [
-        "Übersehen er ubevisst, ignorieren er bevisst. Norsk overse kan også bety å ignorere med vilje – da passer ignorieren bedre på tysk.",
+        "Übersehen er vanligvis ubevisst, ignorieren er bevisst. Norsk overse kan også bety å ignorere med vilje – da passer ignorieren bedre på tysk.",
         "I perfektum er det ingen ge-: hat übersehen."
       ],
       "sectionAccents": {
@@ -73123,7 +73124,7 @@ const B1_WORDS = [
           "lv": "Dette dyret finnes bare i Afrika."
         },
         {
-          "de": "Es kommt mir vor, als ob ich ihn kenne.",
+          "de": "Es kommt mir vor, als ob ich ihn kennen würde.",
           "lv": "Det føles som om jeg kjenner ham."
         }
       ],
@@ -74279,7 +74280,7 @@ const B1_WORDS = [
         },
         {
           "word": "der Waggon",
-          "meaning": "jernbanevogn (gods)",
+          "meaning": "jernbanevogn",
           "example": "Der Waggon steht am Bahnhof. – Vognen står på stasjonen."
         },
         {

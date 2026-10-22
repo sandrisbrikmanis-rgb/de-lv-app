@@ -11509,7 +11509,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Jellemző kapcsolat: am Bildschirm arbeiten; a kép auf dem Bildschirm (a képernyőn) látható.",
+        "Jellemző kapcsolat: am Bildschirm arbeiten; auf dem Bildschirm erscheinen (megjelenik a képernyőn).",
         "Telefonnál általában das Display a szó."
       ],
       "important": [
@@ -12481,7 +12481,7 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "ív • íj",
       "explanation": [
-        "Fő gondolat: a der Bogen ívet jelent – hajlított vonalat vagy tárgyat, például íjat, boltívet, hegedűvonót vagy kanyart. Többes száma: die Bögen (umlauttal).",
+        "Fő gondolat: a der Bogen ívet jelent – hajlított vonalat vagy tárgyat, például íjat, boltívet, hegedűvonót vagy kanyart. Többes száma: die Bogen; délen die Bögen is.",
         "Különböző jelentések: híd vagy épület boltíve (der Bogen einer Brücke), íj a sportban és vonó a zenében (Pfeil und Bogen, Geigenbogen), valamint papírív (ein Bogen Papier). Az einen Bogen um etwas machen kifejezés jelentése: nagy ívben elkerül valamit.",
         "A szövegkörnyezetből derül ki, melyik jelentésről van szó: íj, boltív, vonó vagy papírív."
       ],
@@ -12520,7 +12520,7 @@ const B1_WORDS = [
         "Ismert szókapcsolatok: Pfeil und Bogen, Geigenbogen."
       ],
       "important": [
-        "A die Bögen többes szám ö-vel íródik.",
+        "Többes száma die Bogen; délen die Bögen is (ö-vel).",
         "Az ein Bogen Papier nagy papírlap, például rajzoláshoz vagy csomagoláshoz."
       ],
       "sectionAccents": {
@@ -12625,7 +12625,8 @@ const B1_WORDS = [
         "important": [
           {
             "blue": [
-              "Bögen"
+              "Bögen",
+              "Bogen"
             ]
           },
           {
@@ -12901,7 +12902,7 @@ const B1_WORDS = [
       "translation": "tűz • tűzvész",
       "explanation": [
         "Fő gondolat: a der Brand tűz, tűzvész – ellenőrizetlen égés, amely épületet vagy erdőt rongál. Többes száma: die Brände.",
-        "Tipikus használat: ein Brand bricht aus (tűz üt ki), einen Brand löschen (eloltja a tüzet), in Brand geraten (kigyullad), in Brand setzen (felgyújt). A der Brand semlegesebb, mint a das Feuer.",
+        "Tipikus használat: ein Brand bricht aus (tűz üt ki), einen Brand löschen (eloltja a tüzet), in Brand geraten (kigyullad), in Brand setzen (felgyújt). A der Brand szűkebb fogalom, mint a das Feuer.",
         "A das Feuer lehet ellenőrzött tűz is (kandallóban, tábortűzben), a der Brand viszont többnyire szerencsétlenség vagy kár."
       ],
       "examples": [
@@ -17348,7 +17349,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "A segédige a sein: ich bin eingebrochen.",
+        "A segédige általában a sein (bei + Dativval haben is: man hat bei uns eingebrochen): ich bin eingebrochen.",
         "Alany nélküli szenvedő szerkezet: Bei uns wurde eingebrochen."
       ],
       "important": [
@@ -19718,7 +19719,7 @@ const B1_WORDS = [
       ],
       "important": [
         "A sich eingewöhnen igét általában nem használjuk an + Akkusativval.",
-        "Az ein igekötő csak jelen és egyszerű múlt időben válik le, a Partizip II-ben egybeírjuk: eingewöhnt."
+        "Az ein igekötő csak jelen időben, egyszerű múlt időben és felszólító módban válik le, a Partizip II-ben egybeírjuk: eingewöhnt."
       ],
       "sectionAccents": {
         "explanation": {
@@ -20922,7 +20923,7 @@ const B1_WORDS = [
         "A szó jelentése „utolér” is lehet; a szövegkörnyezetből derül ki, melyik értelemben áll."
       ],
       "important": [
-        "Az einholen nem ugyanaz, mint az einkaufen (bevásárol).",
+        "Az einholen regionálisan, a beszélt nyelvben az einkaufen (bevásárol) jelentésben is használatos.",
         "Ne keverd össze az überholen (megelőz) igével: einholen – utolér, überholen – megelőz, előz."
       ],
       "sectionAccents": {
@@ -25499,7 +25500,7 @@ const B1_WORDS = [
       ],
       "important": [
         "A faul emberre mondva lustát, ételre mondva rohadtat jelent; a jelentést a főnév dönti el.",
-        "A faulenzen nem negatív szó – egyszerűen pihenést, lazítást jelent."
+        "A faulenzen lehet rosszalló (lustálkodás) vagy semleges – pihenés, semmittevés."
       ],
       "sectionAccents": {
         "explanation": {
@@ -32397,7 +32398,7 @@ const B1_WORDS = [
         "Kifejezések: auf den Tisch hauen, sich aufs Ohr hauen (beszélt nyelvben: lefekszik aludni)."
       ],
       "important": [
-        "A múlt idejű alakok jelentés szerint eltérnek: haute (üt, beszélt nyelv) és hieb (vág, irodalmi).",
+        "A múlt idejű alakok jelentés szerint eltérnek: haute (üt, beszélt nyelv) és hieb (fegyverrel üt, választékos).",
         "Perfekt: hat gehauen."
       ],
       "sectionAccents": {
@@ -35949,7 +35950,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "A sich irren udvariasabb, mint a 'falsch sein': Da irrst du dich.",
+        "A sich irren udvariasabb, mint a 'Unrecht haben': Da irrst du dich.",
         "Perfekt: hat sich geirrt (haben segédigével)."
       ],
       "important": [
@@ -37667,7 +37668,7 @@ const B1_WORDS = [
       "translation": "mag • lényeg",
       "explanation": [
         "Lényeg: a der Kern hímnemű főnév, jelentése mag – valaminek a legfontosabb vagy legbelső része. Többes szám: die Kerne. Lehet gyümölcs magja (Kirschkern, Apfelkern), az atom magja vagy egy gondolat lényege.",
-        "Átvitt értelemben: der Kern der Sache – a dolog lényege. A fizikában: Atomkern, Zellkern (sejtmag); a politikában: Kernenergie (atomenergia)."
+        "Átvitt értelemben: der Kern der Sache – a dolog lényege. A fizikában: Atomkern; a biológiában: Zellkern (sejtmag); a politikában: Kernenergie (atomenergia)."
       ],
       "examples": [
         {
@@ -40794,7 +40795,7 @@ const B1_WORDS = [
       "explanation": [
         "Lényeg: a kündigen jelentése felmond (munkahelyet, szerződést vagy bérleti szerződést) – hivatalosan bejelenti, hogy a jogviszony megszűnik. Alakjai: kündigt, kündigte, hat gekündigt (segédige: haben).",
         "Akkusativval (tárgyesettel) a dolgot fejezi ki: den Vertrag kündigen, die Wohnung kündigen, den Job kündigen. Dativval (részes esettel) azt a személyt, akinek felmondanak: Der Chef kündigt dem Mitarbeiter (a főnök felmond a munkatársnak). Tárgy nélkül az ich habe gekündigt azt jelenti, hogy én magam mondtam fel.",
-        "Lényegében a kündigen hivatalos lépés felmondási idővel (Kündigungsfrist); a cég általi elbocsátást az entlassen igével is kifejezik."
+        "Lényegében a kündigen hivatalos lépés felmondási idővel (Kündigungsfrist); a cég általi elbocsátást die Entlassung szóval is jelölik (ige: entlassen)."
       ],
       "examples": [
         {
@@ -43267,7 +43268,7 @@ const B1_WORDS = [
         "Átvitt értelemben a landen azt jelenti: valahová kerül, valahol kiköt: Wo bin ich nur gelandet? (Hová kerültem?)"
       ],
       "important": [
-        "Perfektben ist gelandet a helyes, nem hat gelandet.",
+        "A „leszáll” jelentésben Perfektben ist gelandet a helyes, nem hat gelandet.",
         "A hol? kérdésre auf/in + Dativ (részes eset) felel: auf dem Dach, im Spamordner."
       ],
       "sectionAccents": {
@@ -44944,7 +44945,7 @@ const B1_WORDS = [
       "translation": "elolt • töröl",
       "explanation": [
         "Lényeg: a löschen jelentése olt, töröl. Három fő helyzetben használjuk: tüzet vagy villanyt elolt (den Brand löschen, das Licht löschen), adatot töröl (eine Datei löschen), és szomjat olt (den Durst löschen). Alakjai: löscht, löschte, hat gelöscht.",
-        "Az ige tárgyas, ezért mindig Akkusativ (tárgyeset) áll mellette: Ich lösche die Datei. A tűzoltók munkáját is a löschen igével írják le.",
+        "Az ige tárgyas, ezért általában Akkusativ (tárgyeset) áll mellette: Ich lösche die Datei. A tűzoltók munkáját is a löschen igével írják le.",
         "Visszaható alakban (sich) nem használjuk; ha a tűz magától alszik ki, azt mondják: erlöschen."
       ],
       "examples": [
@@ -57022,7 +57023,7 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "csiszol • köszörül",
       "explanation": [
-        "A lényeg: a schleifen jelentése csiszol, élesít, köszörül vagy fényesít: simává vagy élessé tesz egy felületet. Van egy másik, független schleifen ige is – húz, vonszol a földön.",
+        "A lényeg: a schleifen jelentése csiszol, élesít, köszörül vagy fényesít: simává vagy élessé tesz egy felületet. Van egy másik, rokon schleifen ige is – húz, vonszol a földön.",
         "Csiszolás jelentésben erős ige: er schleift, schliff, hat geschliffen (Messer schleifen, Diamanten schleifen). Vonszolás jelentésben gyenge (szabályos) ige: er schleift, schleifte, hat geschleift (etwas über den Boden schleifen).",
         "Gyakran ab- igekötővel: abschleifen (lecsiszol) – Wir schleifen den Tisch ab. A geschliffen melléknévi igenév melléknévként csiszoltat, kifinomultat is jelent."
       ],
@@ -63994,7 +63995,7 @@ const B1_WORDS = [
           "lv": "A Rajna nagy folyam Európában."
         },
         {
-          "de": "Bei Regen fließen die Ströme über die Ufer.",
+          "de": "Bei Regen treten die Ströme über die Ufer.",
           "lv": "Esőben a folyamok kiöntenek."
         }
       ],
@@ -68471,7 +68472,7 @@ const B1_WORDS = [
       "translation": "elnéz • nem vesz észre",
       "explanation": [
         "A lényeg: az übersehen jelentése nem venni észre, átsiklani valami fölött – véletlenül nem észrevenni valamit, ami ott van a szemünk előtt. Alakjai: übersieht, übersah, hat übersehen. Az über- nem elváló igekötő. Az ige Akkusativ (tárgyeset) vonzatú.",
-        "Második jelentése: áttekinteni, felmérni: Wir können die Folgen noch nicht übersehen. Ha valaki véletlenül nem vesz észre valamit, az übersehen; ha szándékosan nem vesz róla tudomást, azt az ignorieren vagy a wegsehen fejezi ki."
+        "Második jelentése: áttekinteni, felmérni: Wir können die Folgen noch nicht übersehen. Ha valaki véletlenül nem vesz észre valamit, az übersehen; ha szándékosan nem vesz róla tudomást, azt általában az ignorieren vagy a wegsehen fejezi ki."
       ],
       "examples": [
         {
@@ -68517,7 +68518,7 @@ const B1_WORDS = [
         "Az ellentéte a bemerken (észrevesz)."
       ],
       "important": [
-        "Az übersehen nem szándékos, az ignorieren szándékos.",
+        "Az übersehen általában nem szándékos, az ignorieren szándékos.",
         "A Perfektben nincs ge-: hat übersehen."
       ],
       "sectionAccents": {
@@ -73110,7 +73111,7 @@ const B1_WORDS = [
           "lv": "Ez az állat csak Afrikában fordul elő."
         },
         {
-          "de": "Es kommt mir vor, als ob ich ihn kenne.",
+          "de": "Es kommt mir vor, als ob ich ihn kennen würde.",
           "lv": "Úgy tűnik nekem, mintha ismerném őt."
         }
       ],
@@ -74266,7 +74267,7 @@ const B1_WORDS = [
         },
         {
           "word": "der Waggon",
-          "meaning": "vagon (teher)",
+          "meaning": "vagon (vasúti)",
           "example": "Der Waggon steht am Bahnhof. – A vagon az állomáson áll."
         },
         {

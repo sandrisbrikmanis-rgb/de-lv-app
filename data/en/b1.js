@@ -7896,7 +7896,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Note: behandeln + accusative (what/whom?). An illness is treated mit + dative.",
+        "Note: behandeln + accusative (what/whom?). The means of treatment is given with mit + dative.",
         "The noun die Behandlung comes from this verb."
       ],
       "important": [
@@ -11466,7 +11466,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Typical combination: am Bildschirm arbeiten; the picture is auf dem Bildschirm.",
+        "Typical combination: am Bildschirm arbeiten; auf dem Bildschirm erscheinen (to appear on the screen).",
         "For a phone, people usually say das Display."
       ],
       "important": [
@@ -12434,7 +12434,7 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "Bow",
       "explanation": [
-        "Main idea: der Bogen means a curve or bow, a curved line or object such as a bow for shooting, an arch, a violin bow or a bend. The plural is die Bögen (with an umlaut).",
+        "Main idea: der Bogen means a curve or bow, a curved line or object such as a bow for shooting, an arch, a violin bow or a bend. The plural is die Bogen; in the south also die Bögen.",
         "Different meanings: the arch of a bridge or building (der Bogen einer Brücke), a bow in sport and music (Pfeil und Bogen, Geigenbogen), and also a sheet of paper (ein Bogen Papier). In the expression einen Bogen um etwas machen, it means to keep well away from something.",
         "The context shows which meaning is intended: bow, arch, violin bow or sheet."
       ],
@@ -12473,7 +12473,7 @@ const B1_WORDS = [
         "Familiar combinations: Pfeil und Bogen, Geigenbogen."
       ],
       "important": [
-        "The plural die Bögen is written with ö.",
+        "The plural is die Bogen; in the south also die Bögen (with ö).",
         "Ein Bogen Papier is a large sheet of paper, for example for drawing or wrapping."
       ],
       "sectionAccents": {
@@ -12578,7 +12578,8 @@ const B1_WORDS = [
         "important": [
           {
             "blue": [
-              "Bögen"
+              "Bögen",
+              "Bogen"
             ]
           },
           {
@@ -12854,7 +12855,7 @@ const B1_WORDS = [
       "translation": "Fire",
       "explanation": [
         "Main idea: der Brand is a fire, a blaze: uncontrolled burning that damages a building or a forest. The plural is die Brände.",
-        "Typical uses: ein Brand bricht aus (a fire breaks out), einen Brand löschen (to put out a fire), in Brand geraten (to catch fire), in Brand setzen (to set on fire). Der Brand is more neutral than das Feuer.",
+        "Typical uses: ein Brand bricht aus (a fire breaks out), einen Brand löschen (to put out a fire), in Brand geraten (to catch fire), in Brand setzen (to set on fire). Der Brand is a narrower term than das Feuer.",
         "Das Feuer can also be a controlled fire (in a fireplace or a campfire), but der Brand is usually a disaster or a source of damage."
       ],
       "examples": [
@@ -17279,7 +17280,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "The auxiliary is sein: ich bin eingebrochen.",
+        "The auxiliary is usually sein (with bei + dative also haben: man hat bei uns eingebrochen): ich bin eingebrochen.",
         "Impersonal passive: Bei uns wurde eingebrochen."
       ],
       "important": [
@@ -19644,7 +19645,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Sich eingewöhnen is not normally used with an + accusative.",
-        "The prefix ein separates only in the present and simple past; in the participle it stays attached: eingewöhnt."
+        "The prefix ein separates only in the present, simple past and imperative; in the participle it stays attached: eingewöhnt."
       ],
       "sectionAccents": {
         "explanation": {
@@ -20849,7 +20850,7 @@ const B1_WORDS = [
         "The word also means “to catch up”; the context shows which sense is meant."
       ],
       "important": [
-        "Einholen is not the same as einkaufen (to shop).",
+        "In regional colloquial use, einholen also means einkaufen (to shop).",
         "Do not confuse it with überholen (to overtake): einholen means to catch up with, überholen means to overtake."
       ],
       "sectionAccents": {
@@ -25427,7 +25428,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Faul describing a person means lazy, describing food it means rotten; the noun decides the meaning.",
-        "Faulenzen is not a negative word – it simply means to relax."
+        "Faulenzen can be disapproving (idleness) or neutral – to relax and do nothing."
       ],
       "sectionAccents": {
         "explanation": {
@@ -32320,7 +32321,7 @@ const B1_WORDS = [
         "Phrases: auf den Tisch hauen, sich aufs Ohr hauen (colloquial: to go to bed)."
       ],
       "important": [
-        "The past tense forms differ by meaning: haute (to hit, colloquial) and hieb (to chop, literary).",
+        "The past tense forms differ by meaning: haute (to hit, colloquial) and hieb (to strike with a weapon, elevated style).",
         "Perfect: hat gehauen."
       ],
       "sectionAccents": {
@@ -35864,7 +35865,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Sich irren is more polite than saying 'wrong': Da irrst du dich.",
+        "Sich irren is more polite than saying 'Unrecht haben': Da irrst du dich.",
         "Perfect: hat sich geirrt (with haben)."
       ],
       "important": [
@@ -37581,7 +37582,7 @@ const B1_WORDS = [
       "translation": "Core",
       "explanation": [
         "Main idea: der Kern is a masculine noun meaning core: the most important or innermost part of something. Plural: die Kerne. It can be the stone or seed of a fruit (Kirschkern, Apfelkern), the nucleus of an atom or the essence of an idea.",
-        "Figuratively: der Kern der Sache means the heart of the matter. In science: Atomkern, Zellkern (cell nucleus); in politics: Kernenergie (nuclear energy)."
+        "Figuratively: der Kern der Sache means the heart of the matter. In physics: Atomkern; in biology: Zellkern (cell nucleus); in politics: Kernenergie (nuclear energy)."
       ],
       "examples": [
         {
@@ -40709,7 +40710,7 @@ const B1_WORDS = [
       "explanation": [
         "Main idea: kündigen means to give notice on a job, contract or tenancy: to announce formally that a relationship will end. Forms: kündigt, kündigte, hat gekündigt (auxiliary verb haben).",
         "With the accusative it takes the thing: den Vertrag kündigen, die Wohnung kündigen, den Job kündigen. With the dative it takes the person who is given notice: Der Chef kündigt dem Mitarbeiter (the boss dismisses the employee). Without an object, ich habe gekündigt means that I myself have resigned (handed in my notice).",
-        "Essentially kündigen is a formal step with a notice period (Kündigungsfrist); dismissal by a company is also described with entlassen."
+        "Essentially kündigen is a formal step with a notice period (Kündigungsfrist); dismissal by a company is also called die Entlassung (verb: entlassen)."
       ],
       "examples": [
         {
@@ -43182,7 +43183,7 @@ const B1_WORDS = [
         "Figuratively, landen means to end up: Wo bin ich nur gelandet? (Where have I ended up?)"
       ],
       "important": [
-        "The perfect tense is ist gelandet, not hat gelandet.",
+        "In the sense of landing, the perfect tense is ist gelandet, not hat gelandet.",
         "The question where? is answered with auf/in + dative: auf dem Dach, im Spamordner."
       ],
       "sectionAccents": {
@@ -44860,7 +44861,7 @@ const B1_WORDS = [
       "translation": "Delete",
       "explanation": [
         "Main idea: löschen means to delete or to put out. It is used in three main situations: putting out a fire or light (den Brand löschen, das Licht löschen), deleting data (eine Datei löschen) and quenching thirst (den Durst löschen). Forms: löscht, löschte, hat gelöscht.",
-        "The verb is transitive, so it always takes the accusative: Ich lösche die Datei. The work of firefighters is described with löschen.",
+        "The verb is transitive, so it usually takes the accusative: Ich lösche die Datei. The work of firefighters is described with löschen.",
         "It is not used reflexively; if a fire goes out by itself, you say erlöschen."
       ],
       "examples": [
@@ -56927,7 +56928,7 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "To grind",
       "explanation": [
-        "Main idea: schleifen means to grind, sharpen or polish: to make a surface smooth or sharp. There is also a second, unrelated verb schleifen – to drag along the ground.",
+        "Main idea: schleifen means to grind, sharpen or polish: to make a surface smooth or sharp. There is also a second, related verb schleifen – to drag along the ground.",
         "In the grinding sense the verb is strong: er schleift, schliff, hat geschliffen (Messer schleifen, Diamanten schleifen). In the dragging sense it is regular: er schleift, schleifte, hat geschleift (etwas über den Boden schleifen).",
         "Often with the prefix ab-: abschleifen (to sand down) – Wir schleifen den Tisch ab. The participle geschliffen as an adjective also means polished, refined."
       ],
@@ -63899,7 +63900,7 @@ const B1_WORDS = [
           "lv": "The Rhine is a great river in Europe."
         },
         {
-          "de": "Bei Regen fließen die Ströme über die Ufer.",
+          "de": "Bei Regen treten die Ströme über die Ufer.",
           "lv": "When it rains, the great rivers burst their banks."
         }
       ],
@@ -73038,7 +73039,7 @@ const B1_WORDS = [
           "lv": "This animal is found only in Africa."
         },
         {
-          "de": "Es kommt mir vor, als ob ich ihn kenne.",
+          "de": "Es kommt mir vor, als ob ich ihn kennen würde.",
           "lv": "It seems to me that I know him."
         }
       ],
@@ -74195,7 +74196,7 @@ const B1_WORDS = [
         },
         {
           "word": "der Waggon",
-          "meaning": "goods wagon, railway wagon",
+          "meaning": "railway wagon",
           "example": "Der Waggon steht am Bahnhof. – The wagon is standing at the station."
         },
         {

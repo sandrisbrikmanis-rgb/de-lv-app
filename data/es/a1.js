@@ -2707,7 +2707,7 @@ const A1_WORDS = [
           "lv": "Mientras se come no se habla."
         },
         {
-          "de": "Das Hotel liegt bei dem Bahnhof.",
+          "de": "Das Hotel liegt beim Bahnhof.",
           "lv": "El hotel está junto a la estación."
         }
       ],
@@ -2806,7 +2806,7 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "bei"
+                "beim"
               ]
             },
             "lv": {
@@ -3586,7 +3586,7 @@ const A1_WORDS = [
       "translation": "por favor",
       "explanation": [
         "Idea principal: bitte ('por favor') es una palabra de cortesía que se usa para pedir algo (Kannst du mir bitte helfen?), para ofrecer (Bitte, nehmen Sie Platz) o para responder a un agradecimiento (Danke! – Bitte!).",
-        "La palabra es invariable. Bitte schön es una forma más cortés al ofrecer algo ('aquí tiene'), y bitte sehr, todavía más formal. Wie bitte? significa '¿cómo dice?' o '¿perdón?' cuando no has oído bien.",
+        "La palabra es invariable. Bitte schön es una forma más cortés al ofrecer algo ('aquí tiene'), y bitte sehr, una variante equivalente. Wie bitte? significa '¿cómo dice?' o '¿perdón?' cuando no has oído bien.",
         "El sustantivo die Bitte, con mayúscula, significa 'petición, ruego': es otra palabra. Como respuesta a Danke, bitte equivale a 'de nada'."
       ],
       "examples": [
@@ -8631,7 +8631,7 @@ const A1_WORDS = [
       ],
       "tip": [
         "Las terminaciones son las mismas que las de otros adjetivos: der ganze Tag, ein ganzer Tag.",
-        "Ganz + adjetivo intensifica: ganz gut, ganz neu."
+        "Ganz + adjetivo intensifica (ganz neu) o atenúa (ganz gut, «bastante bien»)."
       ],
       "important": [
         "Como adjetivo, ganz se declina (der ganze Tag); como adverbio, no cambia (ganz neu).",
@@ -14296,7 +14296,7 @@ const A1_WORDS = [
         "Para preguntar el precio: Was kostet…? o Wie viel kostet…?"
       ],
       "important": [
-        "El sustantivo die Kosten (plural) significa «gastos, costes»; el verbo kosten significa «costar».",
+        "El sustantivo die Kosten (solo en plural) significa «gastos, costes»; el verbo kosten significa «costar».",
         "Kosten también puede significar «probar» (Willst du die Suppe kosten?), pero en el día a día se usa probieren."
       ],
       "sectionAccents": {
@@ -22611,7 +22611,7 @@ const A1_WORDS = [
       ],
       "important": [
         "No se dice sehst ni sehet: lo correcto es du siehst, er sieht.",
-        "Para decir que se mira algo con atención (una película, una foto) se suele usar sich (Dat) + ansehen, no solo sehen."
+        "Para decir que se mira algo con atención (una película, una foto) se puede usar tanto sehen como sich (Dat) + ansehen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -26435,7 +26435,7 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Cuando preguntes por una cosa, empieza siempre con was; si preguntas por una persona, con wer, wen, wem.",
+        "Cuando preguntes por una cosa, empieza normalmente con was; si preguntas por una persona, con wer, wen, wem.",
         "Después de alles, etwas, nichts se usa was, no das."
       ],
       "important": [

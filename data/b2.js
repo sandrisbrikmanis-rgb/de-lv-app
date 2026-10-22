@@ -27309,10 +27309,10 @@ const B2_WORDS = [
       ],
       "tip": [
         "Iegaumē vienu frāzi: Das ist mir zuwider. — Tas man ir pretīgs / man tas riebjas.",
-        "Pēc zuwider vienmēr seko datīvs: mir, ihm, dem Gesetz."
+        "Ar zuwider vienmēr lieto datīvu, kas stāv pirms tā: mir, ihm, dem Gesetz."
       ],
       "important": [
-        "Pēc zuwider nelieto akuzatīvu: nevis mich zuwider, bet mir zuwider.",
+        "Ar zuwider nelieto akuzatīvu: nevis mich zuwider, bet mir zuwider.",
         "Nozīmē pretēji zuwider parasti stāv aiz lietvārda: dem Gesetz zuwider; entgegen parasti stāv pirms: entgegen dem Gesetz."
       ],
       "sectionAccents": {

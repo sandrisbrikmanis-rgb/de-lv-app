@@ -438,7 +438,7 @@ const A2_WORDS = [
       "translation": "ofginn • areechen",
       "explanation": [
         "Haaptiddi: abgeben ass en trennbaart Verb mat der Bedeitung ofginn (een anere kritt eppes): ich gebe ab, er gibt ab, gab ab, hat abgegeben. Et gëtt benotzt, wann ee eppes higeet an engem aneren iwwerléisst — Hausaufgaben, e Schlëssel, e Mantel, e Pak. Ab steet um Enn vum Saz.",
-        "D'Persoun, där ee eppes ofgëtt, steet dacks am Dativ oder mat bei/an: etwas an der Rezeption abgeben, jemandem etwas abgeben. Eng Aarbecht oder en Dokument gëtt beim Enseignant oder bei enger Administratioun ofginn: die Arbeit abgeben.",
+        "D'Plaz oder d'Persoun, wou een eppes ofgëtt, gëtt dacks mat an/bei ausgedréckt: etwas an der Rezeption abgeben, etwas beim Nachbarn abgeben. Eng Aarbecht oder en Dokument gëtt beim Enseignant oder bei enger Administratioun ofginn: die Arbeit abgeben.",
         "Wann ee eppes zréckgëtt, benotzt een zurückgeben; wann ee offiziell eng Demande areecht, benotzt een dacks einreichen."
       ],
       "examples": [
@@ -1091,7 +1091,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Mierk der déi onregelméisseg Vergaangenheet: bringen – brachte – gebracht.",
-        "Engem eppes ginn oder bréngen geet mat bringen: Ich bringe dir ein Buch."
+        "Engem eppes bréngen geet mat bringen: Ich bringe dir ein Buch."
       ],
       "important": [
         "De Partizip ass gebracht, net „gebringt“ — op Lëtzebuergesch heescht et bruecht.",
@@ -8655,7 +8655,7 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Becher",
       "explanation": [
-        "Haaptiddi: der Becher ass e männlecht Substantiv. Et ass e Becher ouni Grëff, aus deem ee drénkt: Pappbecher (Kartonsbecher), Plastikbecher (Plastiksbecher). D'Pluralform ass die Becher.",
+        "Haaptiddi: der Becher ass e männlecht Substantiv. Et ass e Becher, meeschtens ouni Grëff,, aus deem ee drénkt: Pappbecher (Kartonsbecher), Plastikbecher (Plastiksbecher). D'Pluralform ass die Becher.",
         "D'Wuert gëtt och fir d'Verpakung vu bestëmmte Produite gebraucht, zum Beispill ein Becher Joghurt (e Becher Yoghurt) an ein Becher Eis (e Becher Glace).",
         "Am Géigesaz zu die Tasse (Taass mat Grëff) an das Glas (Glas) huet der Becher normalerweis kee Grëff an ass dacks aus Plastik, Kartong, Metall oder Keramik."
       ],
@@ -8690,7 +8690,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Wann d'Gefäss kee Grëff huet an et ass fir ze drénken oder z'iessen, benotz Becher; mat Grëff ass et die Tasse.",
+        "Wann d'Gefäss kee Grëff huet an et ass fir ze drénken oder z'iessen, benotz Becher; mat Grëff ass et meeschtens die Tasse (awer och Kaffeebecher).",
         "D'Pluralform ass die Becher (keng nei Endung)."
       ],
       "important": [
@@ -10132,7 +10132,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "An Er kommt bestimmt verstäerkt d'Wuert bestimmt de ganze Saz.",
-        "Fir eng nach méi staark Iwwerzeegung auszedrécken, seet een ganz bestimmt oder sicher."
+        "Fir eng nach méi staark Iwwerzeegung auszedrécken, seet een ganz bestimmt oder ganz sicher."
       ],
       "important": [
         "Bestimmt ass net datselwecht wéi bestimmen: bestimmen heescht bestëmmen, decidéieren; bestimmt ass en Adverb oder en Adjektiv.",
@@ -10354,7 +10354,7 @@ const A2_WORDS = [
       "translation": "Bir",
       "explanation": [
         "Haaptiddi: die Birne ass e weiblecht Substantiv, dat Bir heescht (d'Uebst) an och Glühbir (d'elektresch Bir, Ofkierzung vu Glühbirne). D'Pluralform ass die Birnen.",
-        "De Kontext gëtt d'Bedeitung: bei Uebst an Iessen ass et eng Bir; bei enger Luucht a Liicht eng Glühbir. Heefeg Wierder: die Glühbirne (Glühbir), die Energiesparlampe (Spuerbir).",
+        "De Kontext gëtt d'Bedeitung: bei Uebst an Iessen ass et eng Bir; bei enger Luucht a Liicht eng Glühbir. Heefeg Wierder: die Glühbirne (Glühbir), die LED-Birne (LED-Bir).",
         "An der Ëmgangssprooch bezeechent Birne heiansdo och de Kapp, mee dës Bedeitung ass familiär."
       ],
       "examples": [
@@ -12777,7 +12777,7 @@ const A2_WORDS = [
       "translation": "Merci • Dank",
       "explanation": [
         "Haaptiddi: der Dank ass e männlecht Substantiv, dat Merci oder Dankbarkeet heescht: dat, wat een engem fir seng Hëllef oder en Déngscht ausdréckt. Et gëtt normalerweis am Singulier gebraucht.",
-        "Heefeg Ausdréck: Vielen Dank (villmools Merci), jemandem Dank sagen (engem Merci soen), als Dank (als Merci), zum Dank. Dank ass och eng Präpositioun: Dank deiner Hilfe (dank denger Hëllef), meeschtens mam Genitiv oder Dativ."
+        "Heefeg Ausdréck: Vielen Dank (villmools Merci), jemandem Dank sagen (engem Merci soen), als Dank (als Merci), zum Dank. Kleng geschriwwen ass dank och eng Präpositioun: Dank deiner Hilfe (dank denger Hëllef), meeschtens mam Genitiv oder Dativ."
       ],
       "examples": [
         {
@@ -33811,7 +33811,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Fir geplangt Evenementer (Concert, Versammlung) benotzt ee stattfinden, an net passieren.",
-        "Am Perfekt ëmmer ist passiert, an net hat passiert."
+        "An der Bedeitung „geschéien“ am Perfekt ëmmer ist passiert, an net hat passiert."
       ],
       "sectionAccents": {
         "explanation": {
@@ -37926,7 +37926,7 @@ const A2_WORDS = [
           "lv": "Hien huet vill Scholden op der Bank."
         },
         {
-          "de": "Sie gibt mir die Schuld für den Fehler.",
+          "de": "Sie gibt mir die Schuld an dem Fehler.",
           "lv": "Si gëtt mir d'Schold fir de Feeler."
         }
       ],
@@ -45737,7 +45737,7 @@ const A2_WORDS = [
       ],
       "important": [
         "weit (wäit) a weiter (weider, méi wäit) sinn ënnerschiddlech Wierder: Geh weiter! – Géi weider!",
-        "Bei enger Distanz gëtt weit normalerweis net mat enger Zuel benotzt; mat enger Zuel heescht et entfernt: drei Kilometer entfernt."
+        "Bei enger Distanz gëtt eng Zuel souwuel mat weit wéi och mat entfernt benotzt: drei Kilometer weit, drei Kilometer entfernt."
       ],
       "sectionAccents": {
         "explanation": {

@@ -27308,7 +27308,7 @@ const B2_WORDS = [
       ],
       "tip": [
         "Behal ee Saz: Das ist mir zuwider. — Dat ass mir zouwidder / dat kann ech net ausstoen.",
-        "No zuwider kënnt ëmmer den Dativ: mir, ihm, dem Gesetz."
+        "Mat zuwider benotzt een ëmmer den Dativ, deen dovirsteet: mir, ihm, dem Gesetz."
       ],
       "important": [
         "Mat zuwider benotzt een keen Akkusativ: net mich zuwider, mee mir zuwider.",

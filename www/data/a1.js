@@ -2707,7 +2707,7 @@ const A1_WORDS = [
           "lv": "Ēdot nerunā."
         },
         {
-          "de": "Das Hotel liegt bei dem Bahnhof.",
+          "de": "Das Hotel liegt beim Bahnhof.",
           "lv": "Viesnīca atrodas pie stacijas."
         }
       ],
@@ -2806,7 +2806,7 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "bei"
+                "beim"
               ]
             },
             "lv": {
@@ -3586,7 +3586,7 @@ const A1_WORDS = [
       "translation": "lūdzu",
       "explanation": [
         "Galvenā doma: bitte ir pieklājības vārds, ko lieto, lai lūgtu (Kannst du mir bitte helfen?), piedāvātu (Bitte, nehmen Sie Platz) vai atbildētu uz paldies (Danke! – Bitte!).",
-        "Vārds nemainās. Bitte schön ir pieklājīgāka versija piedāvājot ('lūdzu, te jums'), bitte sehr — vēl formālāka. Wie bitte? nozīmē 'ko, lūdzu?', ja neesi sadzirdējis.",
+        "Vārds nemainās. Bitte schön ir pieklājīgāka versija piedāvājot ('lūdzu, te jums'), bitte sehr — līdzvērtīgs variants. Wie bitte? nozīmē 'ko, lūdzu?', ja neesi sadzirdējis.",
         "Lietvārds die Bitte ar lielo burtu nozīmē 'lūgums' — tas ir cits vārds."
       ],
       "examples": [
@@ -8635,7 +8635,7 @@ const A1_WORDS = [
       ],
       "tip": [
         "Locījuma galotnes tādas pašas kā citiem īpašības vārdiem: der ganze Tag, ein ganzer Tag.",
-        "Ganz + īpašības vārds pastiprina: ganz gut, ganz neu."
+        "Ganz + īpašības vārds pastiprina (ganz neu) vai mīkstina (ganz gut – diezgan labi)."
       ],
       "important": [
         "Kā īpašības vārds ganz loka (der ganze Tag), kā apstākļa vārds nemainās (ganz neu).",
@@ -14301,7 +14301,7 @@ const A1_WORDS = [
         "Cenu jautā: Was kostet…? vai Wie viel kostet…?"
       ],
       "important": [
-        "Lietvārds kosten (Kosten, daudzsk.) ir “izmaksas”; kosten kā darbības vārds ir “maksāt”.",
+        "Lietvārds die Kosten (tikai daudzsk.) ir “izmaksas”; kosten kā darbības vārds ir “maksāt”.",
         "Kosten var būt arī “nogaršot” (Willst du die Suppe kosten?), bet ikdienā tam lieto probieren."
       ],
       "sectionAccents": {
@@ -22620,7 +22620,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Nav sehst vai sehet: pareizi ir du siehst, er sieht.",
-        "Lai pateiktu, ka kaut ko skatās (filmu, bildi), parasti lieto sich (Dat) + ansehen, nevis tikai sehen."
+        "Lai pateiktu, ka kaut ko skatās (filmu, bildi), var lietot gan sehen, gan sich (Dat) + ansehen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -26441,7 +26441,7 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Jautājumā par lietu vienmēr sāc ar was; jautājumā par cilvēku — ar wer, wen, wem.",
+        "Jautājumā par lietu parasti sāc ar was; jautājumā par cilvēku — ar wer, wen, wem.",
         "Pēc alles, etwas, nichts lieto was, nevis das."
       ],
       "important": [

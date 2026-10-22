@@ -437,7 +437,7 @@ const A2_WORDS = [
       "translation": "Odevzdat",
       "explanation": [
         "Hlavní myšlenka: abgeben je odlučitelné sloveso ve významu odevzdat (někdo to přebírá): gibt ab, gab ab, hat abgegeben. Používá se, když něco donesu a nechám to někomu – domácí úkol, klíč, kabát, zásilku. Ab stojí na konci věty.",
-        "Osoba, které se něco odevzdává, bývá v dativu nebo s předložkou bei/an: etwas an der Rezeption abgeben, jemandem etwas abgeben. Práce nebo dokument se odevzdává učiteli nebo na úřadě: die Arbeit abgeben.",
+        "Místo nebo osoba, kde se něco odevzdává, se často vyjadřuje předložkou an/bei: etwas an der Rezeption abgeben, etwas beim Nachbarn abgeben. Práce nebo dokument se odevzdává učiteli nebo na úřadě: die Arbeit abgeben.",
         "Když něco vracíme, používá se zurückgeben; když se úředně podává žádost, často einreichen."
       ],
       "examples": [
@@ -8668,7 +8668,7 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Kelímek",
       "explanation": [
-        "Hlavní myšlenka: der Becher je podstatné jméno rodu mužského. Je to kelímek nebo pohár bez ucha, z něhož se pije: Pappbecher (papírový kelímek), Plastikbecher (plastový kelímek). Množné číslo je die Becher.",
+        "Hlavní myšlenka: der Becher je podstatné jméno rodu mužského. Je to kelímek nebo pohár, obvykle bez ucha, z něhož se pije: Pappbecher (papírový kelímek), Plastikbecher (plastový kelímek). Množné číslo je die Becher.",
         "Slovo se používá i pro balení potravin, například ein Becher Joghurt (kelímek jogurtu) a ein Becher Eis (kelímek zmrzliny).",
         "Na rozdíl od die Tasse (šálek s uchem) a das Glas (sklenice) je der Becher obvykle bez ucha a často vyrobený z plastu, papíru, kovu nebo keramiky."
       ],
@@ -8703,7 +8703,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Je-li nádoba bez ucha a určená k pití nebo jídlu, používá se Becher; s uchem die Tasse.",
+        "Je-li nádoba bez ucha a určená k pití nebo jídlu, používá se Becher; s uchem obvykle die Tasse (ale také Kaffeebecher).",
         "Množné číslo je die Becher (beze změny koncovky)."
       ],
       "important": [
@@ -10147,7 +10147,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Ve větě Er kommt bestimmt zesiluje bestimmt celé tvrzení.",
-        "Chcete-li vyjádřit větší jistotu, použijte ganz bestimmt nebo sicher."
+        "Chcete-li vyjádřit větší jistotu, použijte ganz bestimmt nebo ganz sicher."
       ],
       "important": [
         "Bestimmt není totéž co bestimmen: bestimmen je určit, rozhodnout, bestimmt je příslovce nebo přídavné jméno.",
@@ -10369,7 +10369,7 @@ const A2_WORDS = [
       "translation": "Hruška",
       "explanation": [
         "Hlavní myšlenka: die Birne je podstatné jméno rodu ženského ve významu hruška (plod) a žárovka (elektrická, zkráceně od Glühbirne). Množné číslo je die Birnen.",
-        "Význam určuje kontext: u ovoce a jídla je to hruška, u lampy a světla žárovka. Častá jsou spojení die Glühbirne (klasická žárovka), die Energiesparlampe (úsporná žárovka).",
+        "Význam určuje kontext: u ovoce a jídla je to hruška, u lampy a světla žárovka. Častá jsou spojení die Glühbirne (klasická žárovka), die LED-Birne (LED žárovka).",
         "V běžné řeči Birne někdy znamená i hlavu (hovorově), ale tento význam je neformální."
       ],
       "examples": [
@@ -12795,7 +12795,7 @@ const A2_WORDS = [
       "translation": "Vděk",
       "explanation": [
         "Hlavní myšlenka: der Dank je podstatné jméno mužského rodu a znamená vděk, poděkování, tedy to, co člověku vyjadřujeme za pomoc nebo dobrý skutek. Obvykle se užívá v jednotném čísle.",
-        "Častá spojení: Vielen Dank (mnohokrát děkuji), jemandem Dank sagen (poděkovat někomu), als Dank (jako poděkování), zum Dank. Dank je také předložka: Dank deiner Hilfe (díky tvé pomoci), po které obvykle následuje genitiv nebo dativ."
+        "Častá spojení: Vielen Dank (mnohokrát děkuji), jemandem Dank sagen (poděkovat někomu), als Dank (jako poděkování), zum Dank. S malým písmenem je dank také předložka: Dank deiner Hilfe (díky tvé pomoci), po které obvykle následuje genitiv nebo dativ."
       ],
       "examples": [
         {
@@ -12837,7 +12837,8 @@ const A2_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "Dank"
+            "Dank",
+            "dank"
           ],
           "purple": [
             "vděk",
@@ -33850,7 +33851,7 @@ const A2_WORDS = [
       ],
       "important": [
         "U plánovaných akcí (koncert, schůze) se používá stattfinden, ne passieren.",
-        "V Perfektu vždy ist passiert, nikdy hat passiert."
+        "Ve významu „stát se“ v Perfektu vždy ist passiert, nikdy hat passiert."
       ],
       "sectionAccents": {
         "explanation": {
@@ -37963,7 +37964,7 @@ const A2_WORDS = [
           "lv": "Má u banky mnoho dluhů."
         },
         {
-          "de": "Sie gibt mir die Schuld für den Fehler.",
+          "de": "Sie gibt mir die Schuld an dem Fehler.",
           "lv": "Obviňuje mě z té chyby."
         }
       ],
@@ -45780,7 +45781,7 @@ const A2_WORDS = [
       ],
       "important": [
         "weiter je 2. stupeň od weit (dále, širší), ale často se používá i samostatně ve významu dál, dále: Geh weiter! – Jdi dál!",
-        "U vzdálenosti se weit obvykle nepoužívá s číslem; číslo se používá s entfernt: drei Kilometer entfernt."
+        "U vzdálenosti se číslo používá jak s weit, tak s entfernt: drei Kilometer weit, drei Kilometer entfernt."
       ],
       "sectionAccents": {
         "explanation": {

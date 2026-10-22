@@ -438,7 +438,7 @@ const A2_WORDS = [
       "translation": "remettre • donner • rendre",
       "explanation": [
         "Idée principale : abgeben est un verbe séparable qui signifie remettre (quelqu'un d'autre reçoit la chose) : gibt ab, gab ab, hat abgegeben. On l'emploie quand on apporte quelque chose et qu'on le laisse à quelqu'un — un devoir, une clé, un manteau, un colis. Ab se place à la fin de la phrase.",
-        "La personne à qui l'on remet la chose est souvent au datif ou introduite par bei/an : etwas an der Rezeption abgeben, jemandem etwas abgeben. Un travail ou un document se rend à l'enseignant ou à une administration : die Arbeit abgeben.",
+        "Le lieu ou la personne auprès de qui l'on remet la chose s'indique souvent avec an/bei : etwas an der Rezeption abgeben, etwas beim Nachbarn abgeben. Un travail ou un document se rend à l'enseignant ou à une administration : die Arbeit abgeben.",
         "Pour rendre quelque chose à son propriétaire, on emploie zurückgeben ; pour déposer officiellement une demande, on emploie souvent einreichen."
       ],
       "examples": [
@@ -8661,7 +8661,7 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "gobelet • tasse",
       "explanation": [
-        "Idée principale : der Becher est un nom masculin. C'est un gobelet ou une timbale sans anse, dans lequel on boit : Pappbecher (gobelet en carton), Plastikbecher (gobelet en plastique). Le pluriel est die Becher.",
+        "Idée principale : der Becher est un nom masculin. C'est un gobelet ou une timbale, généralement sans anse, dans lequel on boit : Pappbecher (gobelet en carton), Plastikbecher (gobelet en plastique). Le pluriel est die Becher.",
         "Le mot s'emploie aussi pour l'emballage de certains produits, par exemple ein Becher Joghurt (un pot de yaourt) et ein Becher Eis (un pot de glace).",
         "Contrairement à die Tasse (tasse avec anse) et das Glas (verre), der Becher n'a généralement pas d'anse et est souvent en plastique, en carton, en métal ou en céramique."
       ],
@@ -8696,7 +8696,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Si le récipient n'a pas d'anse et sert à boire ou à manger, utilise Becher ; s'il a une anse, die Tasse.",
+        "Si le récipient n'a pas d'anse et sert à boire ou à manger, utilise Becher ; s'il a une anse, généralement die Tasse (mais aussi Kaffeebecher).",
         "Le pluriel est die Becher (pas de changement de terminaison)."
       ],
       "important": [
@@ -10138,7 +10138,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Dans Er kommt bestimmt, le mot bestimmt renforce toute la phrase.",
-        "Pour exprimer une conviction encore plus forte, on dit ganz bestimmt ou sicher."
+        "Pour exprimer une conviction encore plus forte, on dit ganz bestimmt ou ganz sicher."
       ],
       "important": [
         "Bestimmt n'est pas la même chose que bestimmen : bestimmen signifie déterminer, décider ; bestimmt est un adverbe ou un adjectif.",
@@ -10360,7 +10360,7 @@ const A2_WORDS = [
       "translation": "poire • ampoule",
       "explanation": [
         "Idée principale : die Birne est un nom féminin qui signifie poire (le fruit) et ampoule (l'ampoule électrique, abréviation de Glühbirne). Le pluriel est die Birnen.",
-        "C'est le contexte qui donne le sens : avec les fruits et la nourriture, c'est une poire ; avec une lampe et la lumière, une ampoule. Mots fréquents : die Glühbirne (ampoule à incandescence), die Energiesparlampe (ampoule basse consommation).",
+        "C'est le contexte qui donne le sens : avec les fruits et la nourriture, c'est une poire ; avec une lampe et la lumière, une ampoule. Mots fréquents : die Glühbirne (ampoule à incandescence), die LED-Birne (ampoule LED).",
         "Dans la langue familière, Birne désigne parfois aussi la tête (comme « la poire » en français), mais ce sens est informel."
       ],
       "examples": [
@@ -12783,7 +12783,7 @@ const A2_WORDS = [
       "translation": "gratitude",
       "explanation": [
         "Idée principale : der Dank est un nom masculin qui signifie la gratitude, les remerciements : ce qu'on exprime à quelqu'un pour son aide ou un service rendu. Il s'emploie généralement au singulier.",
-        "Expressions fréquentes : Vielen Dank (merci beaucoup), jemandem Dank sagen (remercier quelqu'un), als Dank (en remerciement), zum Dank. Dank est aussi une préposition : Dank deiner Hilfe (grâce à ton aide), généralement suivie du génitif ou du datif."
+        "Expressions fréquentes : Vielen Dank (merci beaucoup), jemandem Dank sagen (remercier quelqu'un), als Dank (en remerciement), zum Dank. Écrit avec une minuscule, dank est aussi une préposition : Dank deiner Hilfe (grâce à ton aide), généralement suivie du génitif ou du datif."
       ],
       "examples": [
         {
@@ -12825,7 +12825,8 @@ const A2_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "Dank"
+            "Dank",
+            "dank"
           ],
           "purple": [
             "merci",
@@ -33817,7 +33818,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Pour les événements prévus (concert, réunion), on emploie stattfinden, et non passieren.",
-        "Au parfait, toujours ist passiert, et non hat passiert."
+        "Au sens de « se passer, arriver », au parfait, toujours ist passiert, et non hat passiert."
       ],
       "sectionAccents": {
         "explanation": {
@@ -37932,7 +37933,7 @@ const A2_WORDS = [
           "lv": "Il a beaucoup de dettes auprès de la banque."
         },
         {
-          "de": "Sie gibt mir die Schuld für den Fehler.",
+          "de": "Sie gibt mir die Schuld an dem Fehler.",
           "lv": "Elle me rend responsable de l'erreur."
         }
       ],

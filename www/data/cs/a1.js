@@ -2707,7 +2707,7 @@ const A1_WORDS = [
           "lv": "Při jídle se nemluví."
         },
         {
-          "de": "Das Hotel liegt bei dem Bahnhof.",
+          "de": "Das Hotel liegt beim Bahnhof.",
           "lv": "Hotel leží u nádraží."
         }
       ],
@@ -2806,7 +2806,7 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "bei"
+                "beim"
               ]
             },
             "lv": {
@@ -3585,7 +3585,7 @@ const A1_WORDS = [
       "translation": "Prosím",
       "explanation": [
         "Hlavní myšlenka: bitte je zdvořilostní slovo, kterým žádáme (Kannst du mir bitte helfen?), nabízíme (Bitte, nehmen Sie Platz) nebo odpovídáme na poděkování (Danke! – Bitte!).",
-        "Slovo se nemění. Bitte schön je zdvořilejší verze při podávání („tady, prosím“), bitte sehr je ještě formálnější. Wie bitte? znamená „prosím?“, když jsi něco neslyšel.",
+        "Slovo se nemění. Bitte schön je zdvořilejší verze při podávání („tady, prosím“), bitte sehr je rovnocenná varianta. Wie bitte? znamená „prosím?“, když jsi něco neslyšel.",
         "Podstatné jméno die Bitte s velkým písmenem znamená „žádost, prosba“ – je to jiné slovo."
       ],
       "examples": [
@@ -14297,7 +14297,7 @@ const A1_WORDS = [
         "Na cenu se ptáme: Was kostet…? nebo Wie viel kostet…?"
       ],
       "important": [
-        "Podstatné jméno Kosten (plurál) jsou „náklady“; kosten jako sloveso je „stát (o ceně)“.",
+        "Podstatné jméno die Kosten (pouze plurál) jsou „náklady“; kosten jako sloveso je „stát (o ceně)“.",
         "Kosten může znamenat také „ochutnat“ (Willst du die Suppe kosten?), ale v běžné řeči se pro to používá probieren."
       ],
       "sectionAccents": {
@@ -22604,7 +22604,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Tvar „du sehst“ neexistuje: správně je du siehst, er sieht.",
-        "Když chceme říct, že se na něco díváme (film, obraz), často se používá sich (Dat) + ansehen; sehen vyjadřuje spíš to, že jsme něco viděli (den Film gesehen)."
+        "Když chceme říct, že se na něco díváme (film, obraz), lze použít jak sehen, tak sich (Dat) + ansehen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -26423,7 +26423,7 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "V otázce na věc začínej vždy was; v otázce na osobu wer, wen, wem.",
+        "V otázce na věc začínej obvykle was; v otázce na osobu wer, wen, wem.",
         "Po alles a nichts se používá was, ne das; po etwas je obvyklejší was."
       ],
       "important": [

@@ -1370,7 +1370,7 @@ const C1_WORDS = [
         "Prozess kui kulg on ka tehniline ja teaduslik termin: der Prozess der Herstellung (tootmisprotsess)."
       ],
       "important": [
-        "Selles tähenduses ei ole sõna kesksoost: der Prozess (mitte das Prozess)."
+        "Üheski tähenduses ei ole sõna kesksoost: der Prozess (mitte das Prozess)."
       ],
       "sectionAccents": {
         "explanation": {

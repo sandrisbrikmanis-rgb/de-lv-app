@@ -2706,7 +2706,7 @@ const A1_WORDS = [
           "lv": "Når man spiser, snakker man ikke."
         },
         {
-          "de": "Das Hotel liegt bei dem Bahnhof.",
+          "de": "Das Hotel liegt beim Bahnhof.",
           "lv": "Hotellet ligger ved stasjonen."
         }
       ],
@@ -2805,7 +2805,7 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "bei"
+                "beim"
               ]
             },
             "lv": {
@@ -3585,7 +3585,7 @@ const A1_WORDS = [
       "translation": "vær så snill • vær så god",
       "explanation": [
         "Hovedtanke: bitte er et høflighetsord som brukes når man ber om noe (Kannst du mir bitte helfen?), tilbyr noe (Bitte, nehmen Sie Platz) eller svarer på takk (Danke! – Bitte!). På norsk blir det 'vær så snill', 'vær så god' eller 'bare hyggelig', alt etter situasjonen.",
-        "Ordet bøyes ikke. Bitte schön er en høfligere variant når man rekker noen noe ('vær så god'), bitte sehr er enda mer formelt. Wie bitte? betyr 'hva sa du?' når du ikke har hørt.",
+        "Ordet bøyes ikke. Bitte schön er en høfligere variant når man rekker noen noe ('vær så god'), bitte sehr er en likeverdig variant. Wie bitte? betyr 'hva sa du?' når du ikke har hørt.",
         "Substantivet die Bitte med stor forbokstav betyr 'bønn, anmodning' – det er et annet ord."
       ],
       "examples": [
@@ -8631,7 +8631,7 @@ const A1_WORDS = [
       ],
       "tip": [
         "Bøyningsendelsene er de samme som for andre adjektiv: der ganze Tag, ein ganzer Tag.",
-        "Ganz + adjektiv forsterker: ganz gut, ganz neu."
+        "Ganz + adjektiv forsterker (ganz neu) eller demper (ganz gut – ganske bra)."
       ],
       "important": [
         "Som adjektiv bøyes ganz (der ganze Tag), som adverb er det ubøyd (ganz neu).",
@@ -14295,7 +14295,7 @@ const A1_WORDS = [
         "Slik spør du om prisen: Was kostet…? eller Wie viel kostet…?"
       ],
       "important": [
-        "Substantivet Kosten (flertall) betyr «kostnader»; kosten som verb betyr «koste».",
+        "Substantivet die Kosten (bare flertall) betyr «kostnader»; kosten som verb betyr «koste».",
         "Kosten kan også bety «smake på» (Willst du die Suppe kosten?), men i hverdagen bruker man probieren."
       ],
       "sectionAccents": {
@@ -22612,7 +22612,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Det heter ikke sehst eller sehet: riktig er du siehst, er sieht.",
-        "For å si at man ser på noe (en film, et bilde), bruker man vanligvis sich (dativ) + ansehen, ikke bare sehen."
+        "For å si at man ser på noe (en film, et bilde), kan man bruke både sehen og sich (dativ) + ansehen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -26436,7 +26436,7 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "I spørsmål om ting begynner du alltid med was; i spørsmål om personer — med wer, wen, wem.",
+        "I spørsmål om ting begynner du vanligvis med was; i spørsmål om personer — med wer, wen, wem.",
         "Etter alles, etwas, nichts bruker man was, ikke das."
       ],
       "important": [

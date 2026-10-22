@@ -2706,7 +2706,7 @@ const A1_WORDS = [
           "lv": "Man taler ikke, mens man spiser."
         },
         {
-          "de": "Das Hotel liegt bei dem Bahnhof.",
+          "de": "Das Hotel liegt beim Bahnhof.",
           "lv": "Hotellet ligger ved banegården."
         }
       ],
@@ -2806,7 +2806,7 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "bei"
+                "beim"
               ]
             },
             "lv": {
@@ -3586,7 +3586,7 @@ const A1_WORDS = [
       "translation": "Venligst",
       "explanation": [
         "Grundbetydning: bitte er et høflighedsord, man bruger, når man beder om noget (Kannst du mir bitte helfen?), tilbyder noget (Bitte, nehmen Sie Platz) eller svarer på en tak (Danke! – Bitte!). Dansk har ikke ét ord til det hele: det svarer til 'venligst', 'vær så god' og 'selv tak'.",
-        "Ordet bøjes ikke. Bitte schön er en høfligere variant, når man rækker nogen noget ('vær så god'), bitte sehr er endnu mere formelt. Wie bitte? betyder 'Hvad siger du?', hvis man ikke har hørt, hvad der blev sagt.",
+        "Ordet bøjes ikke. Bitte schön er en høfligere variant, når man rækker nogen noget ('vær så god'), bitte sehr er en ligeværdig variant. Wie bitte? betyder 'Hvad siger du?', hvis man ikke har hørt, hvad der blev sagt.",
         "Navneordet die Bitte med stort begyndelsesbogstav betyder 'anmodning, bøn' – det er et andet ord."
       ],
       "examples": [
@@ -8633,7 +8633,7 @@ const A1_WORDS = [
       ],
       "tip": [
         "Endelserne er de samme som for andre tillægsord: der ganze Tag, ein ganzer Tag.",
-        "Ganz + tillægsord forstærker: ganz gut, ganz neu. Men pas på: ganz gut betyder ofte kun 'ganske godt', ikke 'helt fantastisk'."
+        "Ganz + tillægsord forstærker (ganz neu) eller mildner (ganz gut – 'ganske godt', ikke 'helt fantastisk')."
       ],
       "important": [
         "Som tillægsord bøjes ganz (der ganze Tag), som biord bøjes det ikke (ganz neu).",
@@ -14294,7 +14294,7 @@ const A1_WORDS = [
         "Man spørger om prisen: Was kostet…? eller Wie viel kostet…?"
       ],
       "important": [
-        "Navneordet die Kosten (flertal) betyder “omkostninger”; kosten som udsagnsord betyder “koste”.",
+        "Navneordet die Kosten (kun flertal) betyder “omkostninger”; kosten som udsagnsord betyder “koste”.",
         "Kosten kan også betyde “smage på” (Willst du die Suppe kosten?), men i hverdagen bruger man probieren."
       ],
       "sectionAccents": {
@@ -22600,7 +22600,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Man siger du siehst, er sieht, ikke du sehst, er seht.",
-        "Når man ser noget (en film, et billede), bruger man som regel sich (dativ) + ansehen, ikke kun sehen."
+        "Når man ser noget (en film, et billede), kan man bruge både sehen og sich (dativ) + ansehen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -26421,7 +26421,7 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Spørger du om en ting, så begynd med was; spørger du om en person — med wer, wen, wem.",
+        "Spørger du om en ting, så begynd som regel med was; spørger du om en person — med wer, wen, wem.",
         "Efter alles, etwas, nichts bruges was, ikke das."
       ],
       "important": [

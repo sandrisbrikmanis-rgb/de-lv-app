@@ -27309,7 +27309,7 @@ const B2_WORDS = [
       ],
       "tip": [
         "Lærðu eitt orðasamband: Das ist mir zuwider. — Mér er það ógeðfellt / mér býður við því.",
-        "Á eftir zuwider kemur alltaf þágufall: mir, ihm, dem Gesetz."
+        "Með zuwider er alltaf notað þágufall, sem stendur á undan því: mir, ihm, dem Gesetz."
       ],
       "important": [
         "Með zuwider er ekki notað þolfall: ekki mich zuwider, heldur mir zuwider.",

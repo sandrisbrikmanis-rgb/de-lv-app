@@ -438,7 +438,7 @@ const A2_WORDS = [
       "translation": "levere fra seg • gi bort • levere inn",
       "explanation": [
         "Hovedpoeng: abgeben er et delbart verb som betyr å levere fra seg (noen andre tar imot): gibt ab, gab ab, hat abgegeben. Det brukes når man bringer noe og overlater det til en annen – lekser, en nøkkel, en frakk, en pakke. Ab står til slutt i setningen: Ich gebe den Schlüssel ab.",
-        "Den som får noe, står ofte i dativ eller angis med bei/an: etwas an der Rezeption abgeben, jemandem etwas abgeben. Oppgaver og dokumenter leverer man inn til læreren eller et kontor: die Arbeit abgeben.",
+        "Stedet eller personen man leverer noe hos, angis ofte med an/bei: etwas an der Rezeption abgeben, etwas beim Nachbarn abgeben. Oppgaver og dokumenter leverer man inn til læreren eller et kontor: die Arbeit abgeben.",
         "Gir man noe tilbake, bruker man zurückgeben; leverer man en søknad offisielt, bruker man ofte einreichen."
       ],
       "examples": [
@@ -1091,7 +1091,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Husk den uregelmessige bøyningen: bringen – brachte – gebracht.",
-        "Å gi noen noe uttrykker du med bringen: Ich bringe dir ein Buch."
+        "Å ta med noe til noen uttrykker du med bringen: Ich bringe dir ein Buch."
       ],
       "important": [
         "Partisippet er gebracht, ikke «gebringt».",
@@ -8664,7 +8664,7 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "beger • krus",
       "explanation": [
-        "Hovedpoeng: der Becher er et hankjønnssubstantiv. Det er et beger eller krus uten hank som man drikker av: Pappbecher (pappkrus), Plastikbecher (plastbeger). Flertall er die Becher.",
+        "Hovedpoeng: der Becher er et hankjønnssubstantiv. Det er et beger eller krus, vanligvis uten hank, som man drikker av: Pappbecher (pappkrus), Plastikbecher (plastbeger). Flertall er die Becher.",
         "Ordet brukes også om emballasje, for eksempel ein Becher Joghurt (et beger yoghurt) og ein Becher Eis (et beger iskrem).",
         "I motsetning til die Tasse (kopp med hank) og das Glas (drikkeglass) er der Becher som regel uten hank og ofte laget av plast, papp, metall eller keramikk."
       ],
@@ -8699,7 +8699,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Er beholderen uten hank og beregnet på å drikke eller spise av, bruker du Becher; har den hank, die Tasse.",
+        "Er beholderen uten hank og beregnet på å drikke eller spise av, bruker du Becher; har den hank, vanligvis die Tasse (men også Kaffeebecher).",
         "Flertall er die Becher (uten endelse)."
       ],
       "important": [
@@ -10139,7 +10139,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "I setningen Er kommt bestimmt forsterker bestimmt hele utsagnet.",
-        "Vil du uttrykke enda sterkere sikkerhet, bruker du ganz bestimmt eller sicher."
+        "Vil du uttrykke enda sterkere sikkerhet, bruker du ganz bestimmt eller ganz sicher."
       ],
       "important": [
         "Bestimmt er ikke det samme som bestimmen: bestimmen betyr å bestemme eller avgjøre, mens bestimmt er adverb eller adjektiv.",
@@ -10361,7 +10361,7 @@ const A2_WORDS = [
       "translation": "pære • lyspære",
       "explanation": [
         "Hovedpoenget: die Birne er et hunkjønnssubstantiv som betyr pære (frukten) og lyspære (forkortet fra Glühbirne) – akkurat som norsk pære, som også dekker begge deler. Flertall er die Birnen.",
-        "Sammenhengen avgjør betydningen: handler det om frukt og mat, er det en pære å spise, handler det om lamper og lys, er det en lyspære. Vanlige ord er die Glühbirne (glødepære) og die Energiesparlampe (sparepære).",
+        "Sammenhengen avgjør betydningen: handler det om frukt og mat, er det en pære å spise, handler det om lamper og lys, er det en lyspære. Vanlige ord er die Glühbirne (glødepære) og die LED-Birne (LED-pære).",
         "I dagligtale kan Birne også bety hode (muntlig), men den betydningen er uformell."
       ],
       "examples": [
@@ -10584,7 +10584,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "I forbindelse med haben og erfüllen er bitte et substantiv og skrives derfor med stor forbokstav.",
+        "I forbindelse med haben og erfüllen er Bitte et substantiv og skrives derfor med stor forbokstav.",
         "En høflig anmodning innledes med Ich habe eine Bitte eller Darf ich Sie um etwas bitten?"
       ],
       "important": [
@@ -10695,7 +10695,7 @@ const A2_WORDS = [
         "tip": [
           {
             "blue": [
-              "bitte"
+              "Bitte"
             ]
           },
           {
@@ -12784,7 +12784,7 @@ const A2_WORDS = [
       "translation": "takk • takknemlighet",
       "explanation": [
         "Hovedpoenget: der Dank er et hankjønnssubstantiv som betyr takk eller takknemlighet – det man uttrykker overfor noen for hjelp eller en god gjerning. Det brukes vanligvis i entall.",
-        "Vanlige forbindelser: Vielen Dank (tusen takk), jemandem Dank sagen (takke noen), als Dank (som takk), zum Dank. Dank er også en preposisjon: Dank deiner Hilfe (takket være hjelpen din), og den følges vanligvis av genitiv eller dativ."
+        "Vanlige forbindelser: Vielen Dank (tusen takk), jemandem Dank sagen (takke noen), als Dank (som takk), zum Dank. Med liten forbokstav er dank også en preposisjon: Dank deiner Hilfe (takket være hjelpen din), og den følges vanligvis av genitiv eller dativ."
       ],
       "examples": [
         {
@@ -12826,7 +12826,8 @@ const A2_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "Dank"
+            "Dank",
+            "dank"
           ],
           "purple": [
             "tusen takk",
@@ -19068,7 +19069,7 @@ const A2_WORDS = [
       ],
       "important": [
         "I perfektum brukes sein: ist gefolgt.",
-        "Folgen finnes også som substantiv: die Folge (følge, konsekvens)."
+        "Folgen er også flertall av substantivet die Folge (følger, konsekvenser)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -33819,7 +33820,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Om planlagte arrangementer (konsert, møte) bruker man stattfinden, ikke passieren.",
-        "I perfektum alltid ist passiert, ikke hat passiert."
+        "I betydningen «skje» er perfektum alltid ist passiert, ikke hat passiert."
       ],
       "sectionAccents": {
         "explanation": {
@@ -37934,7 +37935,7 @@ const A2_WORDS = [
           "lv": "Han har mye gjeld i banken."
         },
         {
-          "de": "Sie gibt mir die Schuld für den Fehler.",
+          "de": "Sie gibt mir die Schuld an dem Fehler.",
           "lv": "Hun gir meg skylden for feilen."
         }
       ],
@@ -45745,7 +45746,7 @@ const A2_WORDS = [
       ],
       "important": [
         "weit (langt) og weiter (lenger, videre) er forskjellige ord: Geh weiter! – Gå videre!",
-        "Om avstand brukes weit vanligvis ikke med tall; tall brukes med entfernt: drei Kilometer entfernt."
+        "Om avstand brukes tall både med weit og med entfernt: drei Kilometer weit, drei Kilometer entfernt."
       ],
       "sectionAccents": {
         "explanation": {

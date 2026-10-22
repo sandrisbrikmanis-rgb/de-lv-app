@@ -2706,7 +2706,7 @@ const A1_WORDS = [
           "lv": "Za vrijeme jela ne govori se."
         },
         {
-          "de": "Das Hotel liegt bei dem Bahnhof.",
+          "de": "Das Hotel liegt beim Bahnhof.",
           "lv": "Hotel se nalazi blizu kolodvora."
         }
       ],
@@ -2805,7 +2805,7 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "bei"
+                "beim"
               ]
             },
             "lv": {
@@ -3584,7 +3584,7 @@ const A1_WORDS = [
       "translation": "molim",
       "explanation": [
         "Glavna misao: bitte je riječ uljudnosti (molim, molim te, izvolite, nema na čemu) koja se upotrebljava kad nešto tražimo (Kannst du mir bitte helfen?), kad nešto nudimo (Bitte, nehmen Sie Platz) ili kao odgovor na zahvalu (Danke! – Bitte!).",
-        "Riječ je nepromjenjiva. Bitte schön uljudnija je inačica kad nekome nešto pružamo („izvolite”), bitte sehr — još službenija. Wie bitte? znači „molim?” kad nešto nismo dobro čuli.",
+        "Riječ je nepromjenjiva. Bitte schön uljudnija je inačica kad nekome nešto pružamo („izvolite”), bitte sehr — istovrijedna inačica. Wie bitte? znači „molim?” kad nešto nismo dobro čuli.",
         "Imenica die Bitte, s velikim slovom, znači „molba” — to je druga riječ."
       ],
       "examples": [
@@ -8631,7 +8631,7 @@ const A1_WORDS = [
       ],
       "tip": [
         "Nastavci su isti kao kod drugih pridjeva: der ganze Tag, ein ganzer Tag.",
-        "Ganz + pridjev pojačava značenje: ganz gut, ganz neu."
+        "Ganz + pridjev pojačava značenje (ganz neu) ili ga ublažava (ganz gut – prilično dobro)."
       ],
       "important": [
         "Kao pridjev ganz se sklanja (der ganze Tag); kao prilog se ne mijenja (ganz neu).",
@@ -14297,7 +14297,7 @@ const A1_WORDS = [
         "Za cijenu pitaš: Was kostet…? ili Wie viel kostet…?"
       ],
       "important": [
-        "Imenica Kosten (množina) znači „troškovi”; kosten kao glagol znači „koštati”.",
+        "Imenica die Kosten (samo množina) znači „troškovi”; kosten kao glagol znači „koštati”.",
         "Kosten može značiti i „kušati” (Willst du die Suppe kosten?), ali u svakodnevnom govoru za to se koristi probieren."
       ],
       "sectionAccents": {
@@ -22614,7 +22614,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Ne postoji sehst ili sehet: točno je du siehst, er sieht.",
-        "Da kažeš da nešto gledaš (film, sliku), obično koristiš sich (Dat) + ansehen, a ne samo sehen."
+        "Da kažeš da nešto gledaš (film, sliku), možeš koristiti i sehen i sich (Dat) + ansehen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -26435,7 +26435,7 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Pitanje o stvari uvijek počni s was; pitanje o osobi — s wer, wen, wem.",
+        "Pitanje o stvari obično počni s was; pitanje o osobi — s wer, wen, wem.",
         "Nakon alles i nichts koristi se was, a ne das; nakon etwas najčešće je was (moguće je i das)."
       ],
       "important": [

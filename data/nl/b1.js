@@ -7905,7 +7905,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Onthoud: behandeln + accusatief (wie/wat?). Een ziekte behandel je mit + datief.",
+        "Onthoud: behandeln + accusatief (wie/wat?). Het middel waarmee je behandelt, geef je aan met mit + datief.",
         "Het zelfstandig naamwoord die Behandlung komt van dit werkwoord."
       ],
       "important": [
@@ -11510,7 +11510,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Typische combinatie: am Bildschirm arbeiten; een afbeelding staat auf dem Bildschirm.",
+        "Typische combinatie: am Bildschirm arbeiten; auf dem Bildschirm erscheinen (op het scherm verschijnen).",
         "Bij een telefoon zegt men meestal das Display."
       ],
       "important": [
@@ -12482,7 +12482,7 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "boog",
       "explanation": [
-        "Kern: der Bogen betekent boog – een gebogen lijn of voorwerp, zoals een handboog, een boog of gewelf in een bouwwerk, een strijkstok of een bocht. Het meervoud is die Bögen (met umlaut).",
+        "Kern: der Bogen betekent boog – een gebogen lijn of voorwerp, zoals een handboog, een boog of gewelf in een bouwwerk, een strijkstok of een bocht. Het meervoud is die Bogen; in het zuiden ook die Bögen.",
         "Verschillende betekenissen: de boog van een brug of gebouw (der Bogen einer Brücke), een boog in sport en muziek (Pfeil und Bogen, Geigenbogen), en ook een vel papier (ein Bogen Papier). De uitdrukking einen Bogen um etwas machen betekent: met een grote boog om iets heen lopen.",
         "Uit de context blijkt welke betekenis bedoeld is: boog, gewelf, strijkstok of vel."
       ],
@@ -12521,7 +12521,7 @@ const B1_WORDS = [
         "Bekende combinaties: Pfeil und Bogen, Geigenbogen."
       ],
       "important": [
-        "Het meervoud die Bögen schrijf je met ö.",
+        "Het meervoud is die Bogen; in het zuiden ook die Bögen (met ö).",
         "Ein Bogen Papier is een groot vel papier, bijvoorbeeld om te tekenen of in te pakken."
       ],
       "sectionAccents": {
@@ -12626,7 +12626,8 @@ const B1_WORDS = [
         "important": [
           {
             "blue": [
-              "Bögen"
+              "Bögen",
+              "Bogen"
             ]
           },
           {
@@ -12902,7 +12903,7 @@ const B1_WORDS = [
       "translation": "brand",
       "explanation": [
         "Kern: der Brand is een brand – ongecontroleerd vuur dat een gebouw of bos beschadigt. Het meervoud is die Brände.",
-        "Typisch: ein Brand bricht aus (er breekt brand uit), einen Brand löschen (een brand blussen), in Brand geraten (in brand vliegen), in Brand setzen (in brand steken). Der Brand is neutraler dan das Feuer.",
+        "Typisch: ein Brand bricht aus (er breekt brand uit), einen Brand löschen (een brand blussen), in Brand geraten (in brand vliegen), in Brand setzen (in brand steken). Der Brand is een engere term dan das Feuer.",
         "Das Feuer kan ook een gecontroleerd vuur zijn (in de open haard, een kampvuur), maar der Brand is meestal een ramp of schade."
       ],
       "examples": [
@@ -17352,7 +17353,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Het hulpwerkwoord is sein: ich bin eingebrochen.",
+        "Het hulpwerkwoord is meestal sein (met bei + datief ook haben: man hat bei uns eingebrochen): ich bin eingebrochen.",
         "In de lijdende vorm zonder onderwerp: Bei uns wurde eingebrochen."
       ],
       "important": [
@@ -19724,7 +19725,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Sich eingewöhnen gebruik je meestal niet met an + accusatief.",
-        "Het voorvoegsel ein wordt alleen in de tegenwoordige en de onvoltooid verleden tijd afgesplitst; in het voltooid deelwoord staat het eraan vast: eingewöhnt."
+        "Het voorvoegsel ein wordt alleen in de tegenwoordige tijd, de onvoltooid verleden tijd en de gebiedende wijs afgesplitst; in het voltooid deelwoord staat het eraan vast: eingewöhnt."
       ],
       "sectionAccents": {
         "explanation": {
@@ -20928,7 +20929,7 @@ const B1_WORDS = [
         "Het woord betekent ook “inhalen”; de context maakt de betekenis duidelijk."
       ],
       "important": [
-        "Einholen is niet hetzelfde als einkaufen (boodschappen doen).",
+        "Einholen betekent regionaal in de spreektaal ook einkaufen (boodschappen doen).",
         "Niet verwarren met überholen: einholen – iemand bijbenen, op gelijke hoogte komen; überholen – voorbijgaan (in het verkeer: inhalen)."
       ],
       "sectionAccents": {
@@ -21468,7 +21469,7 @@ const B1_WORDS = [
         "Je ergens voor inzetten: sich für etwas einsetzen."
       ],
       "important": [
-        "Zonder sich betekent einsetzen niet “zich inzetten voor”, maar inzetten, invullen of plaatsen.",
+        "Zonder sich betekent einsetzen niet “zich inzetten voor”, maar inzetten, invullen, plaatsen of aanstellen.",
         "Niet verwarren met einstellen (instellen, in dienst nemen)."
       ],
       "sectionAccents": {
@@ -23677,7 +23678,7 @@ const B1_WORDS = [
       "translation": "ontstaan",
       "explanation": [
         "Kernidee: entstehen betekent ontstaan, zich vormen – iets nieuws gaat bestaan: een idee, een probleem, schade, een stad. Het onderwerp maakt zelf niets, het ontstaat.",
-        "Vormen: entsteht, entstand, ist entstanden (hulpwerkwoord sein); het voorvoegsel ent- is onscheidbaar. De bron geef je aan met aus of durch + datief/accusatief: Aus dem Streit entstand Hass. Zelfstandig naamwoord: die Entstehung (het ontstaan)."
+        "Vormen: entsteht, entstand, ist entstanden (hulpwerkwoord sein); het voorvoegsel ent- is onscheidbaar. De bron geef je aan met aus + datief of durch + accusatief: Aus dem Streit entstand Hass. Zelfstandig naamwoord: die Entstehung (het ontstaan)."
       ],
       "examples": [
         {
@@ -25505,7 +25506,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Faul betekent bij een mens lui, bij voedsel rot; het zelfstandig naamwoord bepaalt de betekenis.",
-        "Faulenzen is geen negatief woord – het betekent gewoon lekker luieren."
+        "Faulenzen kan afkeurend zijn (lanterfanten) of neutraal – uitrusten door niets te doen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -32403,7 +32404,7 @@ const B1_WORDS = [
         "Uitdrukkingen: auf den Tisch hauen, sich aufs Ohr hauen (spreektaal: gaan slapen)."
       ],
       "important": [
-        "De verledentijdsvormen verschillen per betekenis: haute (slaan, spreektaal) en hieb (hakken, literair).",
+        "De verledentijdsvormen verschillen per betekenis: haute (slaan, spreektaal) en hieb (slaan met een wapen, verheven stijl).",
         "Voltooide tijd: hat gehauen."
       ],
       "sectionAccents": {
@@ -35955,7 +35956,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Sich irren is beleefder dan 'falsch sein': Da irrst du dich.",
+        "Sich irren is beleefder dan 'Unrecht haben': Da irrst du dich.",
         "Voltooide tijd: hat sich geirrt (met haben)."
       ],
       "important": [
@@ -37672,7 +37673,7 @@ const B1_WORDS = [
       "translation": "kern • pit",
       "explanation": [
         "Hoofdgedachte: der Kern is een mannelijk zelfstandig naamwoord dat kern betekent — het belangrijkste of binnenste deel van iets. Meervoud: die Kerne. Het kan een pit of zaadje van een vrucht zijn (Kirschkern, Apfelkern), een atoomkern of de essentie van een gedachte.",
-        "Figuurlijk: der Kern der Sache — de kern van de zaak. In de natuurkunde: Atomkern, Zellkern (celkern); in de politiek: Kernenergie (kernenergie)."
+        "Figuurlijk: der Kern der Sache — de kern van de zaak. In de natuurkunde: Atomkern; in de biologie: Zellkern (celkern); in de politiek: Kernenergie (kernenergie)."
       ],
       "examples": [
         {
@@ -40799,7 +40800,7 @@ const B1_WORDS = [
       "explanation": [
         "Hoofdgedachte: kündigen betekent een baan, contract of huur opzeggen — officieel meedelen dat de verbintenis eindigt. Vormen: kündigt, kündigte, hat gekündigt (hulpwerkwoord haben).",
         "Met de accusatief gebruik je de zaak: den Vertrag kündigen, die Wohnung kündigen, den Job kündigen. Met de datief de persoon die ontslagen wordt: Der Chef kündigt dem Mitarbeiter (de baas ontslaat de medewerker). Zonder voorwerp betekent ich habe gekündigt dat je zelf ontslag hebt genomen.",
-        "In wezen is kündigen een officiële stap met een termijn (Kündigungsfrist, opzegtermijn); ontslag door het bedrijf heet ook entlassen."
+        "In wezen is kündigen een officiële stap met een termijn (Kündigungsfrist, opzegtermijn); ontslag door het bedrijf heet ook die Entlassung (werkwoord: entlassen)."
       ],
       "examples": [
         {
@@ -43271,7 +43272,7 @@ const B1_WORDS = [
         "Figuurlijk betekent landen terechtkomen: Wo bin ich nur gelandet? (Waar ben ik in vredesnaam beland?)."
       ],
       "important": [
-        "In de voltooide tijd gebruik je ist gelandet, niet hat gelandet.",
+        "In de betekenis “aan de grond komen” gebruik je in de voltooide tijd ist gelandet, niet hat gelandet.",
         "Op de vraag waar? antwoord je met auf/in + datief: auf dem Dach, im Spamordner."
       ],
       "sectionAccents": {
@@ -44948,7 +44949,7 @@ const B1_WORDS = [
       "translation": "blussen • wissen",
       "explanation": [
         "Kernidee: löschen betekent blussen, doven of wissen. Je gebruikt het in drie hoofdsituaties: vuur of licht doven (den Brand löschen, das Licht löschen), gegevens wissen (eine Datei löschen) en de dorst lessen (den Durst löschen). Vormen: löscht, löschte, hat gelöscht.",
-        "Het werkwoord is overgankelijk en heeft dus altijd een accusatief bij zich: Ich lösche die Datei. Het werk van de brandweer beschrijf je met löschen.",
+        "Het werkwoord is overgankelijk en heeft dus meestal een accusatief bij zich: Ich lösche die Datei. Het werk van de brandweer beschrijf je met löschen.",
         "Het wordt niet met sich gebruikt; als een vuur vanzelf uitgaat, zeg je erlöschen."
       ],
       "examples": [
@@ -57030,7 +57031,7 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "slijpen • schuren",
       "explanation": [
-        "Kern: schleifen betekent slijpen, scherpen of polijsten: een oppervlak glad of scherp maken. Er bestaat ook een tweede, niet-verwant werkwoord schleifen – over de grond slepen.",
+        "Kern: schleifen betekent slijpen, scherpen of polijsten: een oppervlak glad of scherp maken. Er bestaat ook een tweede, verwant werkwoord schleifen – over de grond slepen.",
         "In de betekenis slijpen is het werkwoord sterk: er schleift, schliff, hat geschliffen (Messer schleifen, Diamanten schleifen). In de betekenis slepen is het regelmatig: er schleift, schleifte, hat geschleift (etwas über den Boden schleifen).",
         "Vaak met het voorvoegsel ab-: abschleifen (afschuren, afslijpen) – Wir schleifen den Tisch ab. Het deelwoord geschliffen betekent als bijvoeglijk naamwoord ook verfijnd, gepolijst."
       ],
@@ -63998,7 +63999,7 @@ const B1_WORDS = [
           "lv": "De Rijn is een grote rivier in Europa."
         },
         {
-          "de": "Bei Regen fließen die Ströme über die Ufer.",
+          "de": "Bei Regen treten die Ströme über die Ufer.",
           "lv": "Bij regen treden de rivieren buiten hun oevers."
         }
       ],
@@ -68475,7 +68476,7 @@ const B1_WORDS = [
       "translation": "over het hoofd zien",
       "explanation": [
         "Kernidee: übersehen betekent over het hoofd zien, missen – per ongeluk iets niet opmerken wat vlak voor je ogen is. Vormen: übersieht, übersah, hat übersehen. Het voorvoegsel über- is onscheidbaar. Na het werkwoord volgt de accusatief.",
-        "Een tweede betekenis is overzien, overschouwen: Wir können die Folgen noch nicht übersehen. Als iemand iets per ongeluk niet opmerkt, is dat übersehen; doet hij het bewust, dan zeg je ignorieren of wegsehen."
+        "Een tweede betekenis is overzien, overschouwen: Wir können die Folgen noch nicht übersehen. Als iemand iets per ongeluk niet opmerkt, is dat übersehen; doet hij het bewust, dan zeg je meestal ignorieren of wegsehen."
       ],
       "examples": [
         {
@@ -68521,7 +68522,7 @@ const B1_WORDS = [
         "Het tegenovergestelde is bemerken (opmerken)."
       ],
       "important": [
-        "Übersehen is onbewust, ignorieren is bewust.",
+        "Übersehen is meestal onbewust, ignorieren is bewust.",
         "Het Perfekt heeft geen ge-: hat übersehen."
       ],
       "sectionAccents": {
@@ -73114,7 +73115,7 @@ const B1_WORDS = [
           "lv": "Dit dier komt alleen in Afrika voor."
         },
         {
-          "de": "Es kommt mir vor, als ob ich ihn kenne.",
+          "de": "Es kommt mir vor, als ob ich ihn kennen würde.",
           "lv": "Het lijkt me alsof ik hem ken."
         }
       ],
@@ -74270,7 +74271,7 @@ const B1_WORDS = [
         },
         {
           "word": "der Waggon",
-          "meaning": "wagon (goederen)",
+          "meaning": "wagon (spoorweg)",
           "example": "Der Waggon steht am Bahnhof. – De wagon staat op het station."
         },
         {
@@ -74388,7 +74389,7 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "wagon (goederen)"
+                "wagon (spoorweg)"
               ]
             }
           },

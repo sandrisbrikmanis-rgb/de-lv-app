@@ -440,7 +440,7 @@ const A2_WORDS = [
       "translation": "ära andma • tagasi andma • esitama",
       "explanation": [
         "Põhimõte: abgeben on eraldatava eesliitega tegusõna tähendusega üle andma, ära andma (keegi saab selle kätte): gibt ab, gab ab, hat abgegeben. Seda kasutatakse, kui midagi viiakse kohale ja jäetakse teisele – kodutöö, võti, mantel, pakk. Ab seisab lause lõpus.",
-        "Inimene, kellele antakse, on sageli datiivis või väljendatakse bei/an abil: etwas an der Rezeption abgeben, jemandem etwas abgeben. Tööd või dokumenti esitatakse õpetajale või asutusele: die Arbeit abgeben.",
+        "Kohta või inimest, kuhu/kellele antakse, väljendatakse sageli an/bei abil: etwas an der Rezeption abgeben, etwas beim Nachbarn abgeben. Tööd või dokumenti esitatakse õpetajale või asutusele: die Arbeit abgeben.",
         "Kui midagi antakse tagasi, kasutatakse zurückgeben; kui ametlikult esitatakse avaldus, kasutatakse sageli einreichen."
       ],
       "examples": [
@@ -8692,7 +8692,7 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "kruus • klaas",
       "explanation": [
-        "Põhimõte: der Becher on meessoost nimisõna. See tähendab sangata kruusi või klaasi, millest juuakse: Pappbecher (papptops), Plastikbecher (plasttops). Mitmus on die Becher. Eesti sõna peeker pärineb samast saksa sõnast.",
+        "Põhimõte: der Becher on meessoost nimisõna. See tähendab tavaliselt sangata kruusi või klaasi, millest juuakse: Pappbecher (papptops), Plastikbecher (plasttops). Mitmus on die Becher. Eesti sõna peeker pärineb samast saksa sõnast.",
         "Sõna kasutatakse ka toodete pakendi kohta, näiteks ein Becher Joghurt (topsik jogurtit) ja ein Becher Eis (topsik jäätist).",
         "Erinevalt sõnadest die Tasse (sangaga tass) ja das Glas (klaasist joogianum) on der Becher tavaliselt sangata ning sageli valmistatud plastist, paberist, metallist või keraamikast."
       ],
@@ -8727,7 +8727,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Kui anum on sangata ning mõeldud joomiseks või söömiseks, kasuta sõna Becher; kui sangaga, siis die Tasse.",
+        "Kui anum on sangata ning mõeldud joomiseks või söömiseks, kasuta sõna Becher; kui sangaga, siis tavaliselt die Tasse (aga ka Kaffeebecher).",
         "Mitmus on die Becher (lõpp ei muutu)."
       ],
       "important": [
@@ -10176,7 +10176,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Lauses Er kommt bestimmt tugevdab sõna bestimmt kogu väidet.",
-        "Kui tahad väljendada veel suuremat kindlust, kasuta ganz bestimmt või sicher."
+        "Kui tahad väljendada veel suuremat kindlust, kasuta ganz bestimmt või ganz sicher."
       ],
       "important": [
         "Bestimmt ei ole sama mis bestimmen: bestimmen tähendab määrama, otsustama, bestimmt on aga määrsõna või omadussõna.",
@@ -10398,7 +10398,7 @@ const A2_WORDS = [
       "translation": "pirn • lambipirn",
       "explanation": [
         "Põhimõte: die Birne on naissoost nimisõna, mis tähendab pirni (puuvilja) ja lambipirni (elektripirni, lühend sõnast Glühbirne). Mitmus on die Birnen. Eesti sõna pirn on sama päritoluga ja tähendab samuti mõlemat.",
-        "Tähenduse määrab kontekst: puuviljade ja toidu juures on see pirn, lambi ja valguse juures lambipirn. Sagedased sõnad on die Glühbirne (hõõglamp), die Energiesparlampe (säästulamp).",
+        "Tähenduse määrab kontekst: puuviljade ja toidu juures on see pirn, lambi ja valguse juures lambipirn. Sagedased sõnad on die Glühbirne (hõõglamp), die LED-Birne (LED-pirn).",
         "Kõnekeeles tähendab Birne mõnikord ka pead, kuid see tähendus on mitteametlik."
       ],
       "examples": [
@@ -33881,7 +33881,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Planeeritud ürituste (kontsert, koosolek) puhul kasutatakse stattfinden, mitte passieren.",
-        "Täisminevikus alati ist passiert, mitte hat passiert."
+        "Tähenduses „juhtuma“ on täisminevikus alati ist passiert, mitte hat passiert."
       ],
       "sectionAccents": {
         "explanation": {
@@ -37994,7 +37994,7 @@ const A2_WORDS = [
           "lv": "Tal on pangale palju võlgu."
         },
         {
-          "de": "Sie gibt mir die Schuld für den Fehler.",
+          "de": "Sie gibt mir die Schuld an dem Fehler.",
           "lv": "Ta paneb vea minu süüks."
         }
       ],
@@ -45804,7 +45804,7 @@ const A2_WORDS = [
       ],
       "important": [
         "weit (kauge) ja weiter (edasi, edaspidi) on erinevad sõnad: Geh weiter! – Mine edasi!",
-        "Vahemaa puhul ei kasutata weit'iga tavaliselt arvu; arvuga kasutatakse sõna entfernt: drei Kilometer entfernt."
+        "Vahemaa puhul kasutatakse arvu nii weit'i kui ka entfernt'iga: drei Kilometer weit, drei Kilometer entfernt."
       ],
       "sectionAccents": {
         "explanation": {

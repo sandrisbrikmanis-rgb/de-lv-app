@@ -7905,7 +7905,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Pieraksti: behandeln + Akk (ko?). Slimību ārstē mit + datīvs.",
+        "Pieraksti: behandeln + Akk (ko?). Ārstēšanas līdzekli norāda ar mit + datīvs.",
         "Lietvārds die Behandlung nāk no šī darbības vārda."
       ],
       "important": [
@@ -11510,7 +11510,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Tipisks savienojums: am Bildschirm arbeiten; attēls ir auf dem Bildschirm.",
+        "Tipisks savienojums: am Bildschirm arbeiten; auf dem Bildschirm erscheinen (parādīties ekrānā).",
         "Telefonam parasti saka das Display."
       ],
       "important": [
@@ -12482,7 +12482,7 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "loks",
       "explanation": [
-        "Galvenā doma: der Bogen nozīmē loku — izliektu līniju vai priekšmetu, piemēram, šaujamloku, arku, vijoles loku vai līkumu. Daudzskaitlis ir die Bögen (ar umlautu).",
+        "Galvenā doma: der Bogen nozīmē loku — izliektu līniju vai priekšmetu, piemēram, šaujamloku, arku, vijoles loku vai līkumu. Daudzskaitlis ir die Bogen; dienvidos arī die Bögen.",
         "Dažādas nozīmes: tilta vai ēkas arka (der Bogen einer Brücke), loks sportā un mūzikā (Pfeil und Bogen, Geigenbogen), kā arī papīra lapa (ein Bogen Papier). Izteiksmē einen Bogen um etwas machen — apiet kaut ko tālu.",
         "Konteksts ļauj saprast, kura nozīme ir domāta: loks, arka, vijoles loks vai lapa."
       ],
@@ -12521,7 +12521,7 @@ const B1_WORDS = [
         "Zināmi savienojumi: Pfeil und Bogen, Geigenbogen."
       ],
       "important": [
-        "Daudzskaitlis die Bögen ir ar ö.",
+        "Daudzskaitlis die Bogen; dienvidos arī die Bögen (ar ö).",
         "Ein Bogen Papier ir liela papīra lapa, piemēram, zīmēšanai vai iesaiņošanai."
       ],
       "sectionAccents": {
@@ -12626,7 +12626,8 @@ const B1_WORDS = [
         "important": [
           {
             "blue": [
-              "Bögen"
+              "Bögen",
+              "Bogen"
             ]
           },
           {
@@ -12902,7 +12903,7 @@ const B1_WORDS = [
       "translation": "ugunsgrēks",
       "explanation": [
         "Galvenā doma: der Brand ir ugunsgrēks, ugunsnelaime — nekontrolēta degšana, kas bojā ēku vai mežu. Daudzskaitlis ir die Brände.",
-        "Tipiski: ein Brand bricht aus (izcelas ugunsgrēks), einen Brand löschen (dzēst ugunsgrēku), in Brand geraten (aizdegties), in Brand setzen (aizdedzināt). Der Brand ir neitrālāks par das Feuer.",
+        "Tipiski: ein Brand bricht aus (izcelas ugunsgrēks), einen Brand löschen (dzēst ugunsgrēku), in Brand geraten (aizdegties), in Brand setzen (aizdedzināt). Der Brand ir šaurāks jēdziens nekā das Feuer.",
         "Das Feuer var būt arī kontrolēta uguns (kamīnā, ugunskurā), bet der Brand parasti ir nelaime vai bojājums."
       ],
       "examples": [
@@ -17353,7 +17354,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Palīgdarbības vārds ir sein: ich bin eingebrochen.",
+        "Palīgdarbības vārds parasti ir sein (ar bei + datīvu arī haben: man hat bei uns eingebrochen): ich bin eingebrochen.",
         "Pasīvā bez subjekta: Bei uns wurde eingebrochen."
       ],
       "important": [
@@ -19725,7 +19726,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Sich eingewöhnen parasti nelieto ar an + akuzatīvs.",
-        "Priedēklis ein atdalās tikai vienkāršā tagadnē un pagātnē, partizīpā tas ir kopā: eingewöhnt."
+        "Priedēklis ein atdalās tikai vienkāršā tagadnē, pagātnē un pavēles izteiksmē, partizīpā tas ir kopā: eingewöhnt."
       ],
       "sectionAccents": {
         "explanation": {
@@ -20929,7 +20930,7 @@ const B1_WORDS = [
         "Vārds nozīmē arī “panākt”; kontekst palīdz saprast nozīmi."
       ],
       "important": [
-        "Einholen nav tas pats, kas einkaufen (iepirkties).",
+        "Einholen reģionāli sarunvalodā nozīmē arī einkaufen (iepirkties).",
         "Nejauc ar überholen (apdzīt): einholen – panākt, überholen – apdzīt."
       ],
       "sectionAccents": {
@@ -21469,7 +21470,7 @@ const B1_WORDS = [
         "Iestāties par kaut ko: sich für etwas einsetzen."
       ],
       "important": [
-        "Einsetzen nav “iestāties” bez sich: bez refleksīvā vietniekvārda tas nozīmē ielikt.",
+        "Einsetzen nav “iestāties” bez sich: bez refleksīvā vietniekvārda tas nozīmē izmantot, ielikt vai iecelt.",
         "Nejauc ar einstellen (noregulēt, pieņemt darbā)."
       ],
       "sectionAccents": {
@@ -23678,7 +23679,7 @@ const B1_WORDS = [
       "translation": "rasties",
       "explanation": [
         "Galvenā doma: entstehen nozīmē rasties, izveidoties – kaut kas jauns sāk pastāvēt: ideja, problēma, kaitējums, pilsēta. Subjekts pats nerada, bet rodas.",
-        "Formas: entsteht, entstand, ist entstanden (palīgdarbības vārds sein); priedēklis ent- nav atdalāms. Avotu norāda ar aus vai durch + datīvs/akuzatīvs: Aus dem Streit entstand Hass. Lietvārds: die Entstehung (rašanās)."
+        "Formas: entsteht, entstand, ist entstanden (palīgdarbības vārds sein); priedēklis ent- nav atdalāms. Avotu norāda ar aus + datīvs vai durch + akuzatīvs: Aus dem Streit entstand Hass. Lietvārds: die Entstehung (rašanās)."
       ],
       "examples": [
         {
@@ -25506,7 +25507,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Faul pie cilvēka nozīmē slinks, pie ēdiena – sapuvis; nozīmi nosaka lietvārds.",
-        "Faulenzen nav slikts vārds – tas nozīmē vienkārši atpūsties."
+        "Faulenzen var būt nosodošs (dīkdienība) vai neitrāls – atpūsties, neko nedarot."
       ],
       "sectionAccents": {
         "explanation": {
@@ -32404,7 +32405,7 @@ const B1_WORDS = [
         "Frāzes: auf den Tisch hauen, sich aufs Ohr hauen (sarunvalodā: iet gulēt)."
       ],
       "important": [
-        "Pagātnes formas atšķiras pēc nozīmes: haute (sist, sarunvalodā) un hieb (cirst, literāri).",
+        "Pagātnes formas atšķiras pēc nozīmes: haute (sist, sarunvalodā) un hieb (sist ar ieroci, augstākā stilā).",
         "Perfektā: hat gehauen."
       ],
       "sectionAccents": {
@@ -35956,7 +35957,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Sich irren ir pieklājīgāks nekā 'falsch sein': Da irrst du dich.",
+        "Sich irren ir pieklājīgāks nekā 'Unrecht haben': Da irrst du dich.",
         "Perfektā: hat sich geirrt (haben)."
       ],
       "important": [
@@ -37674,7 +37675,7 @@ const B1_WORDS = [
       "translation": "kodols",
       "explanation": [
         "Galvenā doma: der Kern ir vīriešu dzimtes lietvārds, kas nozīmē kodolu — kaut kā svarīgāko vai iekšējo daļu. Daudzskaitlis: die Kerne. Tas var būt augļa kauliņš vai sēkla (Kirschkern, Apfelkern), atoma kodols vai domas būtība.",
-        "Pārnestā nozīmē: der Kern der Sache — lietas būtība. Fizikā: Atomkern, Zellkern (šūnas kodols); politikā: Kernenergie (kodolenerģija)."
+        "Pārnestā nozīmē: der Kern der Sache — lietas būtība. Fizikā: Atomkern; bioloģijā: Zellkern (šūnas kodols); politikā: Kernenergie (kodolenerģija)."
       ],
       "examples": [
         {
@@ -40801,7 +40802,7 @@ const B1_WORDS = [
       "explanation": [
         "Galvenā doma: kündigen nozīmē uzteikt darbu, līgumu vai īri — oficiāli paziņot, ka attiecības beigsies. Formas: kündigt, kündigte, hat gekündigt (palīgdarbības vārds haben).",
         "Ar akuzatīvu lieto lietu: den Vertrag kündigen, die Wohnung kündigen, den Job kündigen. Ar datīvu lieto cilvēku, kam uzsaka: Der Chef kündigt dem Mitarbeiter (priekšnieks uzteic darbu darbiniekam). Bez papildinātāja ich habe gekündigt nozīmē, ka pats uzteicu darbu.",
-        "Pēc būtības kündigen ir oficiāls solis ar termiņu (Kündigungsfrist); atlaišanu uzņēmuma vārdā sauc arī entlassen."
+        "Pēc būtības kündigen ir oficiāls solis ar termiņu (Kündigungsfrist); atlaišanu uzņēmuma vārdā sauc arī die Entlassung (darbības vārds: entlassen)."
       ],
       "examples": [
         {
@@ -43274,7 +43275,7 @@ const B1_WORDS = [
         "Pārnestā nozīmē landen nozīmē nonākt: Wo bin ich nur gelandet? (Kur es esmu nonācis?)."
       ],
       "important": [
-        "Perfektā lieto ist gelandet, nevis hat gelandet.",
+        "Nosēšanās nozīmē perfektā lieto ist gelandet, nevis hat gelandet.",
         "Uz jautājumu kur? atbild ar auf/in + datīvu: auf dem Dach, im Spamordner."
       ],
       "sectionAccents": {
@@ -44951,7 +44952,7 @@ const B1_WORDS = [
       "translation": "dzēst",
       "explanation": [
         "Galvenā doma: löschen nozīmē dzēst. To lieto trīs galvenajās situācijās: nodzēst uguni vai gaismu (den Brand löschen, das Licht löschen), izdzēst datus (eine Datei löschen) un remdēt slāpes (den Durst löschen). Formas: löscht, löschte, hat gelöscht.",
-        "Darbības vārds ir pārejošs, tāpēc vienmēr ir akuzatīvs: Ich lösche die Datei. Ugunsdzēsēju darbu apraksta ar löschen.",
+        "Darbības vārds ir pārejošs, tāpēc parasti ir akuzatīvs: Ich lösche die Datei. Ugunsdzēsēju darbu apraksta ar löschen.",
         "Ar sich nelieto; ja ugunsgrēks izdziest pats, saka erlöschen."
       ],
       "examples": [
@@ -52443,7 +52444,7 @@ const B1_WORDS = [
         "Joņot var gan cilvēks, gan transports, bet sirds, laiks vai doma tikai pārnestā nozīmē."
       ],
       "important": [
-        "rasen nav rasieren (skūt): rasen – joņot, rasieren – skūties.",
+        "rasen nav rasieren (skūt): rasen – joņot, rasieren – skūt.",
         "Ātra braukšana pārkāpjot noteikumus bieži tiek saukta par rasen."
       ],
       "sectionAccents": {
@@ -57033,7 +57034,7 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "slīpēt",
       "explanation": [
-        "Galvenā doma: schleifen nozīmē slīpēt, asināt vai pulēt: padarīt virsmu gludu vai asu. Ir arī otrs, nesaistīts darbības vārds schleifen – vilkt pa zemi.",
+        "Galvenā doma: schleifen nozīmē slīpēt, asināt vai pulēt: padarīt virsmu gludu vai asu. Ir arī otrs, radniecīgs darbības vārds schleifen – vilkt pa zemi.",
         "Slīpēšanas nozīmē vārds ir stiprais: er schleift, schliff, hat geschliffen (Messer schleifen, Diamanten schleifen). Vilkšanas nozīmē vārds ir regulārs: er schleift, schleifte, hat geschleift (etwas über den Boden schleifen).",
         "Bieži ar priedēkli ab-: abschleifen (noslīpēt) – Wir schleifen den Tisch ab. Divdabis geschliffen kā īpašības vārds nozīmē arī izsmalcināts, izslīpēts."
       ],
@@ -64005,7 +64006,7 @@ const B1_WORDS = [
           "lv": "Reina ir liela upe Eiropā."
         },
         {
-          "de": "Bei Regen fließen die Ströme über die Ufer.",
+          "de": "Bei Regen treten die Ströme über die Ufer.",
           "lv": "Lietū lielās upes pārplūst pār krastiem."
         }
       ],
@@ -68482,7 +68483,7 @@ const B1_WORDS = [
       "translation": "nepamanīt",
       "explanation": [
         "Galvenā doma: übersehen nozīmē nepamanīt, palaist garām – nejauši neievērot ko, kas ir acu priekšā. Formas: übersieht, übersah, hat übersehen. Priedēklis über- nav atdalāms. Pēc darbības vārda seko Akuzatīvs.",
-        "Otra nozīme ir aptvert, pārredzēt: Wir können die Folgen noch nicht übersehen. Tas, ka kāds ko nepamana nejauši, ir übersehen; ja ko nepamana apzināti, saka ignorieren vai wegsehen."
+        "Otra nozīme ir aptvert, pārredzēt: Wir können die Folgen noch nicht übersehen. Tas, ka kāds ko nepamana nejauši, ir übersehen; ja ko nepamana apzināti, parasti saka ignorieren vai wegsehen."
       ],
       "examples": [
         {
@@ -68528,7 +68529,7 @@ const B1_WORDS = [
         "Pretējais vārds ir bemerken (pamanīt)."
       ],
       "important": [
-        "Übersehen ir neapzināts, ignorieren ir apzināts.",
+        "Übersehen parasti ir neapzināts, ignorieren ir apzināts.",
         "Perfektā nav ge-: hat übersehen."
       ],
       "sectionAccents": {
@@ -73121,7 +73122,7 @@ const B1_WORDS = [
           "lv": "Šis dzīvnieks sastopams tikai Āfrikā."
         },
         {
-          "de": "Es kommt mir vor, als ob ich ihn kenne.",
+          "de": "Es kommt mir vor, als ob ich ihn kennen würde.",
           "lv": "Man šķiet, ka es viņu pazīstu."
         }
       ],
@@ -74277,7 +74278,7 @@ const B1_WORDS = [
         },
         {
           "word": "der Waggon",
-          "meaning": "vagons (kravas)",
+          "meaning": "vagons (dzelzceļa)",
           "example": "Der Waggon steht am Bahnhof. – Vagons stāv stacijā."
         },
         {
@@ -74395,7 +74396,7 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "vagons (kravas)"
+                "vagons (dzelzceļa)"
               ]
             }
           },

@@ -438,7 +438,7 @@ const A2_WORDS = [
       "translation": "perduoti • atiduoti • pateikti",
       "explanation": [
         "Pagrindinė mintis: abgeben yra skiriamasis veiksmažodis, reiškiantis atiduoti, perduoti (kas nors tai gauna): gibt ab, gab ab, hat abgegeben. Vartojamas, kai ką nors nunešame ir paliekame kitam – namų darbą, raktą, paltą, siuntinį. Ab stovi sakinio gale.",
-        "Asmuo, kuriam atiduodama, dažnai būna naudininke arba nurodomas su bei/an: etwas an der Rezeption abgeben, jemandem etwas abgeben. Darbą ar dokumentą pateikiame mokytojui arba įstaigai: die Arbeit abgeben.",
+        "Vieta ar asmuo, kur atiduodama, dažnai nurodomi su an/bei: etwas an der Rezeption abgeben, etwas beim Nachbarn abgeben. Darbą ar dokumentą pateikiame mokytojui arba įstaigai: die Arbeit abgeben.",
         "Jei ką nors grąžiname, vartojama zurückgeben; jei oficialiai pateikiame prašymą, dažnai vartojama einreichen."
       ],
       "examples": [
@@ -8665,7 +8665,7 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "puodelis • stiklinė",
       "explanation": [
-        "Pagrindinė mintis: der Becher yra vyriškosios giminės daiktavardis. Tai puodelis arba stiklinė be ąselės, iš kurio geriama: Pappbecher (popierinis puodelis), Plastikbecher (plastikinė stiklinė). Daugiskaita – die Becher.",
+        "Pagrindinė mintis: der Becher yra vyriškosios giminės daiktavardis. Tai puodelis arba stiklinė dažniausiai be ąselės, iš kurio geriama: Pappbecher (popierinis puodelis), Plastikbecher (plastikinė stiklinė). Daugiskaita – die Becher.",
         "Žodis vartojamas ir produktų pakuotei, pavyzdžiui, ein Becher Joghurt (indelis jogurto) ir ein Becher Eis (indelis ledų).",
         "Kitaip nei die Tasse (puodelis su ąsele) ir das Glas (stiklinė iš stiklo), der Becher paprastai būna be ąselės ir dažnai pagamintas iš plastiko, popieriaus, metalo ar keramikos."
       ],
@@ -8700,7 +8700,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Jei indas be ąselės ir skirtas gerti ar valgyti, vartok Becher; jei su ąsele – die Tasse.",
+        "Jei indas be ąselės ir skirtas gerti ar valgyti, vartok Becher; jei su ąsele – paprastai die Tasse (bet ir Kaffeebecher).",
         "Daugiskaita – die Becher (galūnė nesikeičia)."
       ],
       "important": [
@@ -10142,7 +10142,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Sakinyje Er kommt bestimmt žodis bestimmt sustiprina visą teiginį.",
-        "Jei reikia išreikšti dar didesnį įsitikinimą, vartok ganz bestimmt arba sicher."
+        "Jei reikia išreikšti dar didesnį įsitikinimą, vartok ganz bestimmt arba ganz sicher."
       ],
       "important": [
         "Bestimmt nėra tas pats, kas bestimmen: bestimmen reiškia nustatyti, nuspręsti, o bestimmt yra prieveiksmis arba būdvardis.",
@@ -10364,7 +10364,7 @@ const A2_WORDS = [
       "translation": "kriaušė • lemputė",
       "explanation": [
         "Pagrindinė mintis: die Birne yra moteriškosios giminės daiktavardis, reiškiantis kriaušę (vaisius) ir lemputę (elektros lemputė, sutrumpinta iš Glühbirne). Daugiskaita – die Birnen.",
-        "Reikšmę lemia kontekstas: kalbant apie vaisius ir maistą tai kriaušė, apie lempą ir šviesą – lemputė. Dažni žodžiai: die Glühbirne (kaitinamoji lemputė), die Energiesparlampe (energiją taupanti lemputė).",
+        "Reikšmę lemia kontekstas: kalbant apie vaisius ir maistą tai kriaušė, apie lempą ir šviesą – lemputė. Dažni žodžiai: die Glühbirne (kaitinamoji lemputė), die LED-Birne (LED lemputė).",
         "Kasdienėje kalboje Birne kartais reiškia ir galvą (šnekamojoje kalboje), tačiau ši reikšmė neformali."
       ],
       "examples": [
@@ -12787,7 +12787,7 @@ const A2_WORDS = [
       "translation": "padėka",
       "explanation": [
         "Pagrindinė mintis: der Dank yra vyriškosios giminės daiktavardis, reiškiantis padėką – tai, ką išreiškiame žmogui už pagalbą ar gerą darbą. Paprastai vartojamas vienaskaita.",
-        "Dažni junginiai: Vielen Dank (labai ačiū), jemandem Dank sagen (padėkoti kam nors), als Dank (padėkos ženklan), zum Dank. Dank yra ir prielinksnis: Dank deiner Hilfe (tavo pagalbos dėka), po jo paprastai eina kilmininkas (Genitiv) arba naudininkas (Dativ)."
+        "Dažni junginiai: Vielen Dank (labai ačiū), jemandem Dank sagen (padėkoti kam nors), als Dank (padėkos ženklan), zum Dank. Mažąja raide rašomas dank yra ir prielinksnis: Dank deiner Hilfe (tavo pagalbos dėka), po jo paprastai eina kilmininkas (Genitiv) arba naudininkas (Dativ)."
       ],
       "examples": [
         {
@@ -12829,7 +12829,8 @@ const A2_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "Dank"
+            "Dank",
+            "dank"
           ],
           "purple": [
             "ačiū",
@@ -33824,7 +33825,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Planuotiems renginiams (koncertui, susirinkimui) vartojama stattfinden, ne passieren.",
-        "Perfekte visada ist passiert, ne hat passiert."
+        "Reikšme „įvykti“ perfekte visada ist passiert, ne hat passiert."
       ],
       "sectionAccents": {
         "explanation": {
@@ -37939,7 +37940,7 @@ const A2_WORDS = [
           "lv": "Jis turi daug skolų bankui."
         },
         {
-          "de": "Sie gibt mir die Schuld für den Fehler.",
+          "de": "Sie gibt mir die Schuld an dem Fehler.",
           "lv": "Ji kaltina mane dėl klaidos."
         }
       ],
@@ -45750,7 +45751,7 @@ const A2_WORDS = [
       ],
       "important": [
         "weit (toli) ir weiter (toliau) – skirtingi žodžiai: Geh weiter! – Eik toliau!",
-        "Su weit, kalbant apie atstumą, skaičius paprastai nevartojamas; su skaičiumi vartojamas entfernt: drei Kilometer entfernt."
+        "Kalbant apie atstumą, skaičius vartojamas ir su weit, ir su entfernt: drei Kilometer weit, drei Kilometer entfernt."
       ],
       "sectionAccents": {
         "explanation": {

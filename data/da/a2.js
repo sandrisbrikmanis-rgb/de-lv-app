@@ -437,7 +437,7 @@ const A2_WORDS = [
       "translation": "At aflevere • At overdrage",
       "explanation": [
         "Hovedpointe: abgeben er et udsagnsord med adskilleligt forled, der betyder at aflevere (så en anden modtager noget): gibt ab, gab ab, hat abgegeben. Det bruges, når man bringer noget hen og efterlader det hos en anden – en hjemmeopgave, en nøgle, en frakke, en pakke. Ab står til sidst i sætningen.",
-        "Den, man afleverer til, står ofte i dativ eller med bei/an: etwas an der Rezeption abgeben, jemandem etwas abgeben. En opgave eller et dokument afleveres hos læreren eller en myndighed: die Arbeit abgeben.",
+        "Stedet eller personen, hvor man afleverer noget, udtrykkes ofte med an/bei: etwas an der Rezeption abgeben, etwas beim Nachbarn abgeben. En opgave eller et dokument afleveres hos læreren eller en myndighed: die Arbeit abgeben.",
         "Giver man noget tilbage, bruger man zurückgeben; indgiver man officielt en ansøgning, bruger man ofte einreichen."
       ],
       "examples": [
@@ -1089,7 +1089,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Husk de uregelmæssige former: bringen – brachte – gebracht.",
-        "Med bringen giver du nogen noget ved at bringe det: Ich bringe dir ein Buch."
+        "Med bringen kommer du med noget til nogen: Ich bringe dir ein Buch."
       ],
       "important": [
         "Førnutid er gebracht, ikke \"gebringt\".",
@@ -8667,7 +8667,7 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Krus • Glas",
       "explanation": [
-        "Hovedtanken: der Becher er et navneord i hankøn og svarer til dansk bæger. Det er et krus eller et glas uden hank, som man drikker af: Pappbecher (papkrus), Plastikbecher (plastikkrus). Flertal er die Becher.",
+        "Hovedtanken: der Becher er et navneord i hankøn og svarer til dansk bæger. Det er et krus eller et glas, som regel uden hank, som man drikker af: Pappbecher (papkrus), Plastikbecher (plastikkrus). Flertal er die Becher.",
         "Ordet bruges også om emballage til fødevarer, fx ein Becher Joghurt (et bæger yoghurt) og ein Becher Eis (et bæger is).",
         "I modsætning til die Tasse (kop med hank) og das Glas (drikkeglas af glas) er der Becher normalt uden hank og ofte lavet af plastik, pap, metal eller keramik."
       ],
@@ -8702,7 +8702,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Er beholderen uden hank og beregnet til at drikke eller spise af, bruger man Becher; med hank hedder det die Tasse.",
+        "Er beholderen uden hank og beregnet til at drikke eller spise af, bruger man Becher; med hank hedder det som regel die Tasse (men også Kaffeebecher).",
         "Flertal er die Becher (endelsen ændres ikke)."
       ],
       "important": [
@@ -10146,7 +10146,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "I sætningen Er kommt bestimmt forstærker bestimmt hele udsagnet.",
-        "Vil man udtrykke endnu større sikkerhed, bruger man ganz bestimmt eller sicher."
+        "Vil man udtrykke endnu større sikkerhed, bruger man ganz bestimmt eller ganz sicher."
       ],
       "important": [
         "Bestimmt er ikke det samme som bestimmen: bestimmen betyder at bestemme eller beslutte, mens bestimmt er biord eller tillægsord.",
@@ -10368,7 +10368,7 @@ const A2_WORDS = [
       "translation": "Pære • Elpære",
       "explanation": [
         "Hovedtanken: die Birne er et navneord i hunkøn, der betyder pære (frugten) og elpære (forkortet af Glühbirne) – præcis som dansk pære, der også dækker begge dele. Flertal er die Birnen.",
-        "Sammenhængen afgør betydningen: om frugt og mad er det en pære, om lamper og lys en elpære. Hyppige ord er die Glühbirne (glødepære) og die Energiesparlampe (sparepære).",
+        "Sammenhængen afgør betydningen: om frugt og mad er det en pære, om lamper og lys en elpære. Hyppige ord er die Glühbirne (glødepære) og die LED-Birne (LED-pære).",
         "I hverdagssprog kan Birne også betyde hoved (talesprog) – ligesom dansk pæren – men den betydning er uformel."
       ],
       "examples": [
@@ -12795,7 +12795,7 @@ const A2_WORDS = [
       "translation": "Tak • Taknemmelighed",
       "explanation": [
         "Hovedtanken: der Dank er et navneord i hankøn, der betyder tak eller taknemmelighed – det, man udtrykker over for et menneske for hjælp eller en god gerning. Det bruges normalt i ental.",
-        "Hyppige forbindelser: Vielen Dank (mange tak), jemandem Dank sagen (takke nogen), als Dank (som tak), zum Dank (til tak). Dank er også et forholdsord: Dank deiner Hilfe (takket være din hjælp); det styrer normalt genitiv eller dativ."
+        "Hyppige forbindelser: Vielen Dank (mange tak), jemandem Dank sagen (takke nogen), als Dank (som tak), zum Dank (til tak). Med lille begyndelsesbogstav er dank også et forholdsord: Dank deiner Hilfe (takket være din hjælp); det styrer normalt genitiv eller dativ."
       ],
       "examples": [
         {
@@ -12837,7 +12837,8 @@ const A2_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "Dank"
+            "Dank",
+            "dank"
           ],
           "purple": [
             "tak",
@@ -33822,7 +33823,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Om planlagte begivenheder (koncert, møde) bruger man stattfinden, ikke passieren.",
-        "I førnutid hedder det altid ist passiert, ikke hat passiert."
+        "I betydningen 'ske' hedder det i førnutid altid ist passiert, ikke hat passiert."
       ],
       "sectionAccents": {
         "explanation": {
@@ -37931,7 +37932,7 @@ const A2_WORDS = [
           "lv": "Han har meget gæld i banken."
         },
         {
-          "de": "Sie gibt mir die Schuld für den Fehler.",
+          "de": "Sie gibt mir die Schuld an dem Fehler.",
           "lv": "Hun giver mig skylden for fejlen."
         }
       ],
@@ -45736,7 +45737,7 @@ const A2_WORDS = [
       ],
       "important": [
         "weit (langt) og weiter (videre, længere) er forskellige ord: Geh weiter! – Gå videre!",
-        "Om afstand bruges weit normalt ikke med et tal; med tal bruger man entfernt: drei Kilometer entfernt."
+        "Om afstand bruges tal både med weit og med entfernt: drei Kilometer weit, drei Kilometer entfernt."
       ],
       "sectionAccents": {
         "explanation": {
