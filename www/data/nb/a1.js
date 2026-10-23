@@ -1542,7 +1542,7 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Plasser auch rett foran ordet det gjelder.",
+        "Plasser ofte auch foran ordet det gjelder (Auch ich …), men det kan også stå etter det: Ich komme auch. Ich auch.",
         "'Heller ikke' heter auch nicht eller auch kein på tysk."
       ],
       "important": [

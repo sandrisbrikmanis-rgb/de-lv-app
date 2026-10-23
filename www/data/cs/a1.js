@@ -1543,7 +1543,7 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Auch obvykle stojí před slovem, k němuž se vztahuje.",
+        "Auch se často klade před slovo, k němuž se vztahuje (Auch ich …), ale může stát i za ním: Ich komme auch. Ich auch.",
         "„Také ne“ se německy řekne auch nicht nebo auch kein."
       ],
       "important": [

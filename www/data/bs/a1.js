@@ -1541,7 +1541,7 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Auch stavi neposredno ispred riječi na koju se odnosi.",
+        "Auch često stavi ispred riječi na koju se odnosi (Auch ich …), ali može stajati i iza nje: Ich komme auch. Ich auch.",
         "'Ni ja, također ne' na njemačkom je auch nicht ili auch kein."
       ],
       "important": [

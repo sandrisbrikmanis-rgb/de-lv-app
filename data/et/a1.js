@@ -1543,7 +1543,7 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Pane auch otse selle sõna ette, millele see viitab.",
+        "Pane auch sageli selle sõna ette, millele see viitab (Auch ich …), kuid see võib seista ka selle järel: Ich komme auch. Ich auch.",
         "'Ka mitte' on saksa keeles auch nicht või auch kein."
       ],
       "important": [

@@ -1542,7 +1542,7 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Zet auch direct vóór het woord waar het bij hoort.",
+        "Zet auch vaak vóór het woord waar het bij hoort (Auch ich …), maar het kan ook erna staan: Ich komme auch. Ich auch.",
         "'Ook niet' is in het Duits auch nicht of auch kein."
       ],
       "important": [

@@ -1542,7 +1542,7 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Auch dėk tiesiai prieš žodį, su kuriuo jis susijęs.",
+        "Auch dažnai dėk prieš žodį, su kuriuo jis susijęs (Auch ich …), bet jis gali stovėti ir po jo: Ich komme auch. Ich auch.",
         "„Irgi ne“ vokiškai yra auch nicht arba auch kein."
       ],
       "important": [
