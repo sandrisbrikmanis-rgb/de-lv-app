@@ -4021,7 +4021,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "bli • bli værende",
       "explanation": [
-        "Hovedtanke: bleiben betyr å bli (værende) på et sted eller i en tilstand: Ich bleibe zu Hause (jeg blir hjemme), Das Wetter bleibt schön (været holder seg fint). Merk: norsk 'bli' i betydningen 'bli til' (bli lærer, bli kald) heter werden, ikke bleiben.",
+        "Hovedtanke: bleiben betyr å bli (værende) på et sted eller i en tilstand: Ich bleibe zu Hause (jeg blir hjemme), Das Wetter bleibt schön (været holder seg fint).",
         "Former: er bleibt, blieb, ist geblieben. I perfektum er hjelpeverbet sein, ikke haben: Ich bin zu Hause geblieben.",
         "Etter bleiben kan det stå et sted eller et adjektiv; sammen med en infinitiv danner det uttrykk: stehen bleiben (stoppe, bli stående), sitzen bleiben (bli sittende)."
       ],
@@ -6436,7 +6436,7 @@ const A1_WORDS = [
       "translation": "først • bare",
       "explanation": [
         "Hovedtanke: erst er et adverb med to hovedbetydninger: 'bare, ikke før' om tid (ikke tidligere, ennå ikke mer enn): Es ist erst 8 Uhr (klokka er bare 8), og 'først': Erst essen wir, dann gehen wir.",
-        "Er kommt erst morgen betyr 'han kommer ikke før i morgen' – på norsk kan man også si 'han kommer først i morgen'. I motsetning til nur (bare, om mengde) understreker erst at noe ennå ikke har skjedd eller ikke har nådd et bestemt tidspunkt.",
+        "Er kommt erst morgen betyr 'han kommer ikke før i morgen' – på norsk kan man også si 'han kommer først i morgen'. I motsetning til nur (bare, en enkel begrensning) understreker erst at noe ennå ikke har skjedd eller ikke har nådd et bestemt tidspunkt.",
         "Ikke bland det med erste (første), som er et ordenstall."
       ],
       "examples": [
@@ -6483,7 +6483,7 @@ const A1_WORDS = [
         "Erst … dann = først … så."
       ],
       "important": [
-        "Erst og nur er ikke det samme: nur gjelder mengde, erst gjelder tid.",
+        "Erst og nur er ikke det samme: nur begrenser rett og slett (bare så mye), erst betyr 'ikke før / foreløpig bare' (erst morgen, erst drei Seiten).",
         "Erst er ikke det samme som zuerst: zuerst betyr vanligvis 'til å begynne med, først' når det er flere trinn."
       ],
       "sectionAccents": {
@@ -18071,7 +18071,7 @@ const A1_WORDS = [
         "I samtale brukes ofte gern: Ich trinke gern Tee = Ich mag Tee."
       ],
       "important": [
-        "Ich mag + akkusativ fungerer som norsk «jeg liker»: den som liker, er subjekt – Ich mag den Hund. Ved gefallen er det omvendt: Der Hund gefällt mir.",
+        "Ich mag + akkusativ fungerer som norsk «jeg liker»: den som liker, er subjekt – Ich mag den Hund.",
         "Möchte er et tydelig ønske eller en bestilling, mag uttrykker en holdning."
       ],
       "sectionAccents": {
@@ -21050,7 +21050,7 @@ const A1_WORDS = [
       "translation": "prøve • smake",
       "explanation": [
         "Hovedpoeng: probieren betyr «prøve» (noe nytt) og «smake på» (mat, drikke): Probier mal die Suppe! Ich möchte den Kuchen probieren.",
-        "Former: probiert, probierte, hat probiert (uten ge-, fordi verbet ender på -ieren). Alltid med akkusativ: etwas probieren. Avledning med delbart forledd: anprobieren (prøve klær).",
+        "Former: probiert, probierte, hat probiert (uten ge-, fordi verbet ender på -ieren). Vanligvis med akkusativ: etwas probieren. Avledning med delbart forledd: anprobieren (prøve klær).",
         "Vennlig sammen med mal: Probier mal! — Prøv da!"
       ],
       "examples": [
@@ -23281,7 +23281,7 @@ const A1_WORDS = [
         "Lær refleksive verb sammen med sich: sich freuen, sich setzen."
       ],
       "important": [
-        "Sich kan ikke brukes med ich, du, wir, ihr — der trengs mich, dich, uns, euch (akkurat som norsk «seg» bare brukes i 3. person).",
+        "Sich kan ikke brukes med ich, du, wir, ihr — der trengs mich/mir, dich/dir, uns, euch (akkurat som norsk «seg» bare brukes i 3. person).",
         "I flertall kan Sie sehen sich bety både «de ser seg selv» og «de ser hverandre»; sammenhengen avgjør."
       ],
       "sectionAccents": {

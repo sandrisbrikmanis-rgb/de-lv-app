@@ -437,7 +437,7 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "ofginn • areechen",
       "explanation": [
-        "Haaptiddi: abgeben ass en trennbaart Verb mat der Bedeitung ofginn (een anere kritt eppes): ich gebe ab, er gibt ab, gab ab, hat abgegeben. Et gëtt benotzt, wann ee eppes higeet an engem aneren iwwerléisst — Hausaufgaben, e Schlëssel, e Mantel, e Pak. Ab steet um Enn vum Saz.",
+        "Haaptiddi: abgeben ass en trennbaart Verb mat der Bedeitung ofginn (een anere kritt eppes): gibt ab, gab ab, hat abgegeben. Et gëtt benotzt, wann ee eppes higeet an engem aneren iwwerléisst — Hausaufgaben, e Schlëssel, e Mantel, e Pak. Ab steet um Enn vum Saz.",
         "D'Plaz oder d'Persoun, wou een eppes ofgëtt, gëtt dacks mat an/bei ausgedréckt: etwas an der Rezeption abgeben, etwas beim Nachbarn abgeben. Eng Aarbecht oder en Dokument gëtt beim Enseignant oder bei enger Administratioun ofginn: die Arbeit abgeben.",
         "Wann ee eppes zréckgëtt, benotzt een zurückgeben; wann ee offiziell eng Demande areecht, benotzt een dacks einreichen."
       ],
@@ -496,7 +496,6 @@ const A2_WORDS = [
             "gab ab",
             "hat abgegeben",
             "abgegeben",
-            "gebe",
             "zurückgeben",
             "einreichen",
             "ab",
@@ -1046,7 +1045,7 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "bréngen",
       "explanation": [
-        "Haaptiddi: bringen bedeit bréngen oder hibréngen — eppes oder een op eng bestëmmte Plaz bréngen. Onregelméisseg Formen: ich bringe, er bringt, brachte, hat gebracht. Dacks gëtt et zwee Objeten: jemandem (Dat) etwas (Akk) bringen.",
+        "Haaptiddi: bringen bedeit bréngen oder hibréngen — eppes oder een op eng bestëmmte Plaz bréngen. Onregelméisseg Formen: bringt, brachte, hat gebracht. Dacks gëtt et zwee Objeten: jemandem (Dat) etwas (Akk) bringen.",
         "Am iwwerdroene Sënn bréngt et e Resultat: Das bringt nichts (dat bréngt näischt), Das bringt mich auf eine Idee. Mat zu + Substantiv mécht et fix Ausdréck.",
         "Am Géigesaz zu holen, dat „eppes siche goen“ bedeit, dréckt bringen just d'Hibréngen aus."
       ],
@@ -1102,7 +1101,6 @@ const A2_WORDS = [
           "blue": [
             "bringen",
             "bringt",
-            "bringe",
             "brachte",
             "hat gebracht",
             "holen"
@@ -4280,7 +4278,7 @@ const A2_WORDS = [
       "explanation": [
         "Haaptiddi: der Artikel ass e männlecht Substantiv, dat meeschtens en Artikel an der Zeitung, an engem Magazin oder um Internet bedeit. De Plural ass die Artikel.",
         "D'Wuert huet nach zwou Bedeitungen: an der Grammatik den Artikel (der, die, das; ein, eine) an am Handel eng Wuer oder en Artikel (ein Artikel im Sonderangebot).",
-        "Lëtzebuergesch huet och Artikelen (den, d', dat; en, eng), mee d'Geschlecht ass net ëmmer datselwecht wéi op Däitsch (z. B. de Botter, mee die Butter). Dofir léiert een op Däitsch den Artikel mat all Substantiv: der Tisch, die Lampe, das Buch."
+        "Lëtzebuergesch huet och Artikelen (den, d', dat; en, eng), mee d'Geschlecht ass net ëmmer datselwecht wéi op Däitsch. Dofir léiert een op Däitsch den Artikel mat all Substantiv: der Tisch, die Lampe, das Buch."
       ],
       "examples": [
         {
@@ -6059,7 +6057,7 @@ const A2_WORDS = [
       "explanation": [
         "Haaptiddi: auftragen ass en trennbaart Verb, dat heescht: engem eppes opdroen (eng Aufgab, eng Missioun): jemandem etwas auftragen. Eng Persoun dréit enger anerer op, eppes ze maachen.",
         "Formen: trägt auf, trug auf, hat aufgetragen. Eng aner heefeg Bedeitung ass opsträichen (Crème, Faarf, Lack): Creme auftragen. D'Virsilb auf- gëtt am Saz ofgetrennt.",
-        "Am Zesummenhang mat Gréiss heescht auftragen: engem opdroen, Gréiss weiderzeginn (kuck dat véiert Beispill). Dat ass e bësse gehuewe Sprooch."
+        "Mat Grüße (Gréiss) heescht auftragen: engem opdroen, Gréiss weiderzeginn: Meine Mutter hat mir Grüße an dich aufgetragen. Dat ass e bësse gehuewe Sprooch."
       ],
       "examples": [
         {
@@ -6227,8 +6225,8 @@ const A2_WORDS = [
       "translation": "optrieden",
       "explanation": [
         "Haaptiddi: auftreten ass en trennbaart Verb, dat heescht optauchen oder virkommen (e Problem, eng Krankheet, e Symptom) an optrieden (e Kënschtler, e Politiker oder e Sportler).",
-        "Formen: tritt auf (Plural treten auf), trat auf, ist aufgetreten. Am Perfekt gëtt sein gebraucht, well et e Verb vu Beweegung oder Geschéien ouni Objet ass. D'Virsilb auf- gëtt am Saz ofgetrennt.",
-        "Auftreten heescht och sech behuelen: Er tritt sicher auf (hie trëtt sécher op). Wuertwiertlech heescht et och mam Fouss optrieden (mat engem kranke Fouss net kënnen optrieden)."
+        "Formen: tritt auf, trat auf, ist aufgetreten. Am Perfekt gëtt sein gebraucht, well et e Verb vu Beweegung oder Geschéien ouni Objet ass. D'Virsilb auf- gëtt am Saz ofgetrennt.",
+        "Auftreten heescht och sech behuelen: Er tritt sicher auf (hie trëtt sécher op). Wuertwiertlech heescht et och mam Fouss optrieden: Mit dem kranken Fuß kann ich nicht auftreten."
       ],
       "examples": [
         {
@@ -6278,7 +6276,6 @@ const A2_WORDS = [
           "blue": [
             "auftreten",
             "tritt",
-            "treten",
             "aufgetreten",
             "auf"
           ],
@@ -6421,7 +6418,7 @@ const A2_WORDS = [
       "explanation": [
         "Haaptiddi: aufwenden ass en trennbaart Verb, dat heescht fir en Zil opwenden oder investéieren (Zäit, Suen, Méi, Energie). Et gehéiert zu enger méi gehuewener Sprooch.",
         "Formen: wendet auf, wendete auf (och wandte auf), hat aufgewendet (och aufgewandt). Et gëtt meeschtens mat für gebraucht: Zeit für etwas aufwenden.",
-        "Dat verwandt Substantiv ass der Aufwand (Opwand, Käschten, Ausgaben), z. B. mat vill Opwand."
+        "Dat verwandt Substantiv ass der Aufwand (Opwand, Käschten, Ausgaben): mit großem Aufwand (mat vill Opwand)."
       ],
       "examples": [
         {
@@ -9213,7 +9210,7 @@ const A2_WORDS = [
       "explanation": [
         "Haaptiddi: behalten ass e staarkt Verb, dat behalen heescht (eppes fir sech halen, net zréckginn) an och am Kapp behalen oder sech mierken (Wierder, Nummeren, Informatiounen).",
         "Formen: behält, behielt, hat behalten. D'Virsilb be- ass net trennbar. Duerno kënnt den Akkusativ: das Buch behalten, die Namen behalten.",
-        "Am iwwerdroene Sënn heescht etwas für sich behalten eppes fir sech behalen, net weidersoen (e Geheimnis, e Gedanken): Behalte das für dich!"
+        "Am iwwerdroene Sënn heescht etwas für sich behalten eppes fir sech behalen, net weidersoen (e Geheimnis, e Gedanken)."
       ],
       "examples": [
         {
@@ -9263,8 +9260,7 @@ const A2_WORDS = [
           "blue": [
             "behalten",
             "behält",
-            "behielt",
-            "behalte"
+            "behielt"
           ],
           "purple": [
             "behalen",
@@ -10998,7 +10994,7 @@ const A2_WORDS = [
       "translation": "Buedem",
       "explanation": [
         "Haaptiddi: der Boden ass e männlecht Substantiv, dat Buedem heescht (an engem Zëmmer) an och Buedem oder Terrain (do, wou eppes wiisst). D'Pluralform ass die Böden (mat Umlaut).",
-        "Aner Bedeitungen: Buedem vun engem Gefäss (der Boden der Flasche – de Buedem vun der Fläsch) a Späicher (regional, virun allem am Norden an Osten, fir Dachboden). Den Ausdrock auf dem Boden kann um Buedem heeschen.",
+        "Aner Bedeitungen: Buedem vun engem Gefäss (der Boden der Flasche – de Buedem vun der Fläsch) a Späicher (regional). Den Ausdrock auf dem Boden kann um Buedem heeschen.",
         "Komposite: der Fußboden (de Buedem), der Dachboden (de Späicher), der Waldboden (de Bëschbuedem), die Bodenheizung (d'Buedemheizung)."
       ],
       "examples": [
@@ -11263,7 +11259,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Opgepasst op den Dativ: jemandem etwas borgen heescht engem eppes léinen; sich (Dat.) etwas von jemandem borgen heescht sech eppes vun engem léinen.",
-        "Wann et net kloer ass, ob et ëm Ginn oder Huele geet, gëtt leihen oder ausleihen gebraucht."
+        "Wann et net kloer ass, ob et ëm Ginn oder Huele geet, gëtt verleihen (ausléinen) oder sich ausleihen (sech léinen) gebraucht."
       ],
       "important": [
         "Borgen gehéiert zu der geschwater Sprooch; am Geschriwwenen an an engem offiziellen Text gëtt éischter leihen gebraucht.",
@@ -11384,8 +11380,8 @@ const A2_WORDS = [
           },
           {
             "green": [
-              "leihen",
-              "ausleihen"
+              "ausleihen",
+              "verleihen"
             ]
           }
         ],
@@ -13946,7 +13942,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Fir de Plafong so die Zimmerdecke; fir d'Decken um Bett die Bettdecke. Op Däitsch gëtt et kee «Plafond»: dat heescht die Decke."
+        "Fir de Plafong so die Zimmerdecke; fir d'Decken um Bett die Bettdecke."
       ],
       "important": [
         "Die Decke ass net datselwecht wéi der Deckel (den Deckel)."
@@ -19406,7 +19402,7 @@ const A2_WORDS = [
         "Eng Firma féieren: ein Geschäft führen; eng Equipe leeden: eine Gruppe leiten."
       ],
       "important": [
-        "Führen a fahren sinn net datselwecht: fahren ass fueren, führen ass féieren, leeden. Opgepasst: ‚ech féieren dech heem' (mam Auto) heescht op Däitsch ich fahre dich nach Hause oder ich bringe dich nach Hause, net führen."
+        "Führen a fahren sinn net datselwecht: fahren ass fueren, führen ass féieren, leeden."
       ],
       "sectionAccents": {
         "explanation": {
@@ -22706,7 +22702,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Das Holz ass sächlech: das Holz, die Hölzer.",
-        "E liewege Bam heescht der Baum, net das Holz; de Bësch ass der Wald. Opgepasst: Lëtzebuergesch ‚Bësch' ass net däitsch Busch (e Strauch)!"
+        "E liewege Bam heescht der Baum, net das Holz; de Bësch ass der Wald."
       ],
       "sectionAccents": {
         "explanation": {
@@ -26908,7 +26904,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Die Kirsche ass weiblech: die Kirsche, die Kirschen.",
-        "D'Fruucht an de Bam hunn net dee selwechten Numm: de Bam heescht der Kirschbaum."
+        "De Bam heescht normalerweis der Kirschbaum, mee die Kirsche ka och de Bam bedeiten (Die Kirschen blühen)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -33155,7 +33151,7 @@ const A2_WORDS = [
       "translation": "notzen",
       "explanation": [
         "Haaptiddi: nutzen heescht notzen, eppes zu sengem Virdeel benotzen: d'Zäit, eng Geleeënheet, en Apparat, e Service. No nutzen kënnt den Akkusativ: Wir nutzen diese Chance.",
-        "Formen: ich nutze, er nutzt, nutzte, hat genutzt. Regelméissegt Verb. Nutzen kann och nëtzen, nëtzlech sinn heeschen (Das nutzt mir nichts); d'Persoun steet dann am Dativ; an där Bedeitung gëtt dacks d'Form nützen gebraucht: Das nützt mir nichts.",
+        "Formen: nutzt, nutzte, hat genutzt. Regelméissegt Verb. Nutzen kann och nëtzen, nëtzlech sinn heeschen (Das nutzt mir nichts); d'Persoun steet dann am Dativ; an där Bedeitung gëtt dacks d'Form nützen gebraucht: Das nützt mir nichts.",
         "Benutzen heescht meeschtens eppes als Instrument benotzen (den Computer benutzen); nutzen ass méi breet a geet dacks ëm Zäit, Geleeënheeten a Servicer."
       ],
       "examples": [
@@ -33209,7 +33205,6 @@ const A2_WORDS = [
         "explanation": {
           "blue": [
             "nutzen",
-            "nutze",
             "nutzt",
             "nutzte",
             "genutzt",
@@ -35831,7 +35826,7 @@ const A2_WORDS = [
       "explanation": [
         "Haaptiddi: riechen heescht richen, souwuel am Sënn vun e Geroch ofginn wéi och vun e Geroch mat der Nues wouerhuelen. E Geroch ofginn: Es riecht gut / nach Kaffee. Wouerhuelen: Ich rieche Rauch.",
         "Formen: riecht, roch, hat gerochen (staarkt Verb). Mat nach + Dativ seet een, no wat et richt: Es riecht nach Rauch. Déi onperséinlech Konstruktioun Es riecht … ass ganz heefeg.",
-        "D'Wuert riechen ass u sech neutral: et ka fir en ugenehmen an och fir en onugenehme Geroch stoen. Opgepasst: op Lëtzebuergesch seet een och ‚et schmaacht gutt' fir e gudde Geroch, am Standarddäitsche bezitt sech schmecken awer op de Goût."
+        "D'Wuert riechen ass u sech neutral: et ka fir en ugenehmen an och fir en onugenehme Geroch stoen."
       ],
       "examples": [
         {
@@ -37313,7 +37308,7 @@ const A2_WORDS = [
         "D'Schlaang, wou d'Leit waarden, heescht Schlange; Reihe bezeechent éischter eng Rei oder eng Reiefolleg (Du bist an der Reihe)."
       ],
       "important": [
-        "Schlange stehen ass e feste Ausdrock (ouni Artikel); et ka een och in der Schlange stehen oder warten soen."
+        "Schlange stehen ass e feste Ausdrock: net in der Schlange sein, mee Schlange stehen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -37943,7 +37938,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Scholden — bal ëmmer am Plural: Schulden haben, Schulden machen (de Singular eine Schuld ass gehuewen)."
+        "Scholden — bal ëmmer am Plural: Schulden haben, Schulden machen."
       ],
       "important": [
         "Fir eng Geldschold seet een bei jemandem Schulden haben (bei engem Scholden hunn)."
@@ -44989,7 +44984,7 @@ const A2_WORDS = [
         "Wann et ëm d'Enn vun enger Zäit geet („bis“), gëtt am Däitschen bis benotzt, ni während."
       ],
       "important": [
-        "No der Konjunktioun während steet d'Verb ni op der zweeter Plaz: ..., während ich arbeite (net während ich arbeite ich).",
+        "No der Konjunktioun während steet d'Verb ni op der zweeter Plaz: ..., während ich arbeite (net während arbeite ich).",
         "während heescht net „wann/wéi“ bei engem eenzelen Evenement – do gëtt wenn oder als benotzt."
       ],
       "sectionAccents": {
@@ -45924,7 +45919,7 @@ const A2_WORDS = [
       "translation": "Wäert",
       "explanation": [
         "Haaptiddi: der Wert ass e männlecht Nomen mat der Bedeitung Wäert: de Präis, d'Bedeitung oder eng Zuel, déi eppes moosst.",
-        "Plural: die Werte. Genitiv: des Wertes. Am Plural heescht d'Wuert dacks och moralesch Wäerter (Familie, Éierlechkeet) oder Moossresultater (Blutwerte – Bluttwäerter).",
+        "Plural: die Werte. Genitiv: des Wertes. Am Plural heescht d'Wuert dacks och moralesch Wäerter (Familie, Ehrlichkeit) oder Moossresultater (Blutwerte – Bluttwäerter).",
         "D'Adjektiv wert (wäert) ass en anert Wuert mat engem klenge Buschtaf: Das Buch ist den Preis wert."
       ],
       "examples": [
@@ -49672,7 +49667,7 @@ const A2_WORDS = [
       ],
       "important": [
         "noch nicht an nicht mehr si Géigesätz: dat éischt – nach net, dat zweet – net méi.",
-        "Opgepasst: d'lëtzebuergescht „nach“ ass däitsch noch; dat däitscht nach heescht awer „no“ (nach dem Essen – nom Iessen)."
+        "Verwiessel noch net mat nach (no)."
       ],
       "sectionAccents": {
         "explanation": {

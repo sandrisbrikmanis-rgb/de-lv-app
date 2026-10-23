@@ -25481,7 +25481,7 @@ const B2_WORDS = [
       "explanation": [
         "Fő gondolat: a sich verstellen jelentése színlel, tetteti magát — megváltoztatja a viselkedését, hogy mások ne lássák valódi jellemét vagy érzéseit. Ilyenkor az ember nem természetes.",
         "Az ige visszaható: ich verstelle mich, er verstellt sich; Präteritumban verstellte sich, Perfektben hat sich verstellt. A sich nélkül a verstellen jelentése eltorlaszol, átállít is (den Weg verstellen — elállja az utat; den Sitz verstellen — beállítja az ülést), valamint elváltoztat (die Stimme verstellen — elváltoztatja a hangját).",
-        "Ha azt akarod mondani, hogy valaki kiadja magát valakinek (például orvosnak), arra a sich ausgeben als szolgál (sich als Arzt ausgeben); maga a sich verstellen általában csak színlelést, tettetést jelent."
+        "Ha azt akarod mondani, hogy valaki kiadja magát valakinek (például orvosnak), arra a sich ausgeben als szolgál; maga a sich verstellen általában csak színlelést, tettetést jelent."
       ],
       "examples": [
         {
@@ -27128,7 +27128,7 @@ const B2_WORDS = [
         "A Dativ a címzett: wem? — dem Studenten, der Familie."
       ],
       "important": [
-        "A Partizip II (befejezett melléknévi igenév) alakja zugewiesen — a ge- a zu és a weisen közé kerül."
+        "A Partizip II (befejezett melléknévi igenév) alakja zugewiesen — zu + gewiesen (weisen – wies – gewiesen)."
       ],
       "sectionAccents": {
         "explanation": {

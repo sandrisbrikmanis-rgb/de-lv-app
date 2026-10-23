@@ -1585,7 +1585,7 @@ const B2_WORDS = [
       ],
       "important": [
         "Množina Äußerlichkeiten mnogo je češća od jednine.",
-        "Äußerlichkeit nije neutralan izgled: sam izgled se kaže das Äußere ili das Aussehen."
+        "Äußerlichkeit nije neutralan izgled: sam izgled se kaže das Äußere."
       ],
       "sectionAccents": {
         "explanation": {
@@ -17254,7 +17254,7 @@ const B2_WORDS = [
         "Poslije in u ovim spojevima slijedi dativ: in dieser Hinsicht, in jeder Hinsicht."
       ],
       "important": [
-        "Hinsicht ne znači pogled u smislu gledanja očima — to je der Blick.",
+        "Hinsicht ne znači vijest kao informaciju — to je Nachricht ili Information.",
         "Uz hinsichtlich (u pogledu, što se tiče) dolazi genitiv: hinsichtlich der Kosten."
       ],
       "sectionAccents": {
@@ -27132,7 +27132,7 @@ const B2_WORDS = [
         "Dativ je primalac: wem? — dem Studenten, der Familie."
       ],
       "important": [
-        "Particip perfekta je zugewiesen — ge- se umeće između zu i weisen."
+        "Particip perfekta je zugewiesen — zu + gewiesen (weisen – wies – gewiesen)."
       ],
       "sectionAccents": {
         "explanation": {

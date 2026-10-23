@@ -2273,7 +2273,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Uz nazive nauka i studija (Mathematik, Informatik, Physik) angewandt označava vrstu oblasti; uz metodu ili propis kaže da se nešto zaista koristi.",
+        "Uz nazive nauka i studija angewandt označava vrstu oblasti; uz metodu ili propis kaže da se nešto zaista koristi.",
         "Iza angewandt često slijedi imenica s velikim početnim slovom: angewandte Physik, angewandte Kunst."
       ],
       "important": [
@@ -8523,7 +8523,7 @@ const A2_WORDS = [
         "Ženski oblik je die Bäuerin (s umlautom)."
       ],
       "important": [
-        "N-deklinacija: standardno je ich sehe den Bauern; oblik den Bauer postoji, ali je rjeđi.",
+        "N-deklinacija: ich sehe den Bauern, a ne den Bauer.",
         "Der Bauer u šahu nije seljak, nego pješak."
       ],
       "sectionAccents": {
@@ -11292,7 +11292,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Pazi na dativ: jemandem etwas borgen znači dati na posudbu, a sich (Dat.) etwas von jemandem borgen uzeti na posudbu.",
-        "Ako nije jasno radi li se o davanju ili uzimanju, koristi leihen ili ausleihen."
+        "Ako nije jasno radi li se o davanju ili uzimanju, koristi verleihen (posuditi nekome) ili sich ausleihen (posuditi od nekoga)."
       ],
       "important": [
         "Borgen je razgovorna riječ; u pisanom i službenom stilu češće se koristi leihen.",
@@ -11412,8 +11412,8 @@ const A2_WORDS = [
           },
           {
             "green": [
-              "leihen",
-              "ausleihen"
+              "ausleihen",
+              "verleihen"
             ]
           }
         ],
@@ -26945,7 +26945,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Die Kirsche je ženskog roda: die Kirsche, die Kirschen.",
-        "Naziv ploda nije naziv drveta: drvo je der Kirschbaum."
+        "Drvo se obično zove der Kirschbaum, ali die Kirsche može značiti i drvo (Die Kirschen blühen)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -38465,7 +38465,7 @@ const A2_WORDS = [
       "translation": "nalaziti se",
       "explanation": [
         "Glavna ideja: sich befinden je povratni glagol koji znači nalaziti se na nekom mjestu. Nešto je zvaničniji od sein ili liegen.",
-        "Oblici: befindet sich, befand sich, hat sich befunden. U svakodnevnom govoru: Das Hotel befindet sich in der Nähe. Obično ga prati oznaka mjesta (wo? — gdje?)."
+        "Oblici: befindet sich, befand sich, hat sich befunden. U svakodnevnom govoru: Das Hotel befindet sich in der Nähe. Obično ga prati oznaka mjesta (gdje?)."
       ],
       "examples": [
         {
@@ -43494,7 +43494,7 @@ const A2_WORDS = [
       "translation": "saobraćaj",
       "explanation": [
         "Glavna ideja: der Verkehr je saobraćaj — kretanje vozila i ljudi na putevima i u javnom prevozu. To je imenica muškog roda, obično samo u jednini.",
-        "Česti izrazi: viel Verkehr (gust saobraćaj), der Straßenverkehr (drumski saobraćaj), der öffentliche Verkehr (javni prevoz), den Verkehr regeln (regulisati saobraćaj)."
+        "Česti izrazi: viel Verkehr haben (gust saobraćaj), der Straßenverkehr (drumski saobraćaj), der öffentliche Verkehr (javni prevoz), den Verkehr regeln (regulisati saobraćaj)."
       ],
       "examples": [
         {
@@ -45024,7 +45024,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Veznik: während ... Verb am Ende. Ako iza während slijedi imenica, to je prijedlog i traži genitiv.",
-        "Bosansko dok može značiti i „dok ne“ (do nekog trenutka); tada se na njemačkom koristi bis: Warte, bis ich komme."
+        "Bosansko dok može značiti i „dok ne“ (do nekog trenutka); tada se na njemačkom koristi bis."
       ],
       "important": [
         "Iza veznika während glagol nikad ne stoji na drugom mjestu: ..., während ich arbeite (a ne während arbeite ich).",
@@ -50118,7 +50118,7 @@ const A2_WORDS = [
         "bloß je razgovorni sinonim."
       ],
       "important": [
-        "nur ograničava količinu, ali i vrijeme (nur heute); kad nešto znači tek (kasnije od očekivanog), koristi se erst: Es ist erst acht Uhr.",
+        "nur ograničava količinu; za oznaku vremena koristi se erst: Es ist erst acht Uhr.",
         "nur se ne mijenja."
       ],
       "sectionAccents": {

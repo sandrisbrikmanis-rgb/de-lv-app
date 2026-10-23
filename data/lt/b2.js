@@ -27130,7 +27130,7 @@ const B2_WORDS = [
         "Dativ yra gavėjas: wem? — dem Studenten, der Familie."
       ],
       "important": [
-        "Partizip II yra zugewiesen — ge- įterpiama tarp zu ir weisen."
+        "Partizip II yra zugewiesen — zu + gewiesen (weisen – wies – gewiesen)."
       ],
       "sectionAccents": {
         "explanation": {

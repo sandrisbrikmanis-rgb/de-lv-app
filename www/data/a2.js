@@ -11273,7 +11273,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Pievērs uzmanību datīvam: jemandem etwas borgen ir aizdot, sich (Dat.) etwas von jemandem borgen ir aizņemties.",
-        "Ja nav skaidrs, vai runa par dot vai ņemt, lieto leihen vai ausleihen."
+        "Ja nav skaidrs, vai runa par dot vai ņemt, lieto verleihen (aizdot) vai sich ausleihen (aizņemties)."
       ],
       "important": [
         "Borgen ir sarunvalodas vārds; rakstos un oficiālā stilā biežāk lieto leihen.",
@@ -11394,8 +11394,8 @@ const A2_WORDS = [
           },
           {
             "green": [
-              "leihen",
-              "ausleihen"
+              "ausleihen",
+              "verleihen"
             ]
           }
         ],
@@ -26922,7 +26922,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Die Kirsche ir sieviešu dzimtes: die Kirsche, die Kirschen.",
-        "Augļa nosaukums nav koka nosaukums: koks ir der Kirschbaum."
+        "Koku parasti sauc der Kirschbaum, bet die Kirsche var nozīmēt arī koku (Die Kirschen blühen)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -45003,7 +45003,7 @@ const A2_WORDS = [
         "Kamēr latviešu valodā var nozīmēt arī līdz; tad vācu valodā lieto bis."
       ],
       "important": [
-        "Pēc saikļa während nekad neliek darbības vārdu otrajā vietā: ..., während ich arbeite (nevis während ich arbeite ich).",
+        "Pēc saikļa während nekad neliek darbības vārdu otrajā vietā: ..., während ich arbeite (nevis während arbeite ich).",
         "während nenozīmē kad vienreizējā notikumā – tad lieto wenn vai als."
       ],
       "sectionAccents": {

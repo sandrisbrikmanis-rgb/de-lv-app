@@ -6432,7 +6432,7 @@ const A1_WORDS = [
       "translation": "seulement • d'abord",
       "explanation": [
         "Idée principale : erst est un adverbe qui a deux sens principaux : « seulement » au sens temporel (pas plus tôt, pas encore davantage) : Es ist erst 8 Uhr (il n'est que 8 heures), et « d'abord » : Erst essen wir, dann gehen wir.",
-        "Er kommt erst morgen signifie « il ne viendra que demain ». Contrairement à nur (seulement, pour une quantité), erst souligne que quelque chose ne s'est pas encore produit ou n'a pas encore atteint un certain moment.",
+        "Er kommt erst morgen signifie « il ne viendra que demain ». Contrairement à nur (seulement, simple restriction), erst souligne que quelque chose ne s'est pas encore produit ou n'a pas encore atteint un certain moment.",
         "Ne le confonds pas avec erste (premier), qui est un nombre ordinal."
       ],
       "examples": [
@@ -6479,7 +6479,7 @@ const A1_WORDS = [
         "Erst … dann = d'abord … ensuite."
       ],
       "important": [
-        "Erst et nur ne sont pas la même chose : nur limite simplement, erst signifie « pas avant » ou « pas encore plus » : erst morgen, erst drei Seiten.",
+        "Erst et nur ne sont pas la même chose : nur limite simplement, erst signifie « pas avant » ou « pour l'instant seulement » : erst morgen, erst drei Seiten.",
         "Erst ne se confond pas avec zuerst : zuerst signifie généralement « d'abord, en premier » parmi plusieurs étapes."
       ],
       "sectionAccents": {
@@ -16164,7 +16164,7 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Legen (wohin ? – accusatif) : hat gelegt ; liegen (wo ? – datif) : hat gelegen.",
+        "Legen (vers où ? – accusatif) : hat gelegt ; liegen (où ? – datif) : hat gelegen.",
         "Apprends le trio : legen (poser à plat), stellen (poser debout), setzen (asseoir)."
       ],
       "important": [
@@ -18070,7 +18070,7 @@ const A1_WORDS = [
         "À l’oral, on emploie souvent gern : Ich trinke gern Tee = Ich mag Tee."
       ],
       "important": [
-        "Attention au faux ami « plaire » : avec gefallen, la personne est au datif (Das gefällt mir), mais avec mögen, c’est Ich mag + accusatif : Ich mag den Hund.",
+        "En français, « ça me plaît » a un complément indirect, mais en allemand on dit Ich mag + accusatif : Ich mag den Hund.",
         "Möchte exprime clairement une demande, mag — une attitude, un goût."
       ],
       "sectionAccents": {
@@ -21048,7 +21048,7 @@ const A1_WORDS = [
       "translation": "essayer • goûter",
       "explanation": [
         "Idée principale : probieren signifie « essayer » (quelque chose de nouveau) et « goûter » (un plat, une boisson) : Probier mal die Suppe! Ich möchte den Kuchen probieren.",
-        "Formes : probiert, probierte, hat probiert (sans ge-, car le verbe se termine en -ieren). Toujours avec l’accusatif : etwas probieren. Dérivé séparable : anprobieren (essayer un vêtement).",
+        "Formes : probiert, probierte, hat probiert (sans ge-, car le verbe se termine en -ieren). Généralement avec l’accusatif : etwas probieren. Dérivé séparable : anprobieren (essayer un vêtement).",
         "Formule aimable avec mal : Probier mal! — Essaie donc !"
       ],
       "examples": [
@@ -23229,7 +23229,7 @@ const A1_WORDS = [
       "translation": "se • soi",
       "explanation": [
         "Idée principale : sich est le pronom réfléchi de la 3e personne et de la forme de politesse Sie : il montre que l’action porte sur celui qui la fait. À l’accusatif et au datif, la forme est la même : sich.",
-        "Pour les autres personnes, on emploie d’autres formes : ich – mich/mir, du – dich/dir, wir – uns, ihr – euch. Par exemple, er wäscht sich (il se lave), mais ich wasche mich.",
+        "Pour les autres personnes, on emploie d’autres formes : ich – mich, du – dich, wir – uns, ihr – euch. Par exemple, er wäscht sich (il se lave), mais ich wasche mich.",
         "Beaucoup de verbes allemands sont pronominaux (sich freuen, sich setzen, sich vorstellen), et en français ils correspondent souvent à un verbe pronominal : se réjouir, s’asseoir."
       ],
       "examples": [
@@ -25482,7 +25482,7 @@ const A1_WORDS = [
         "L’expression unter uns signifie « entre nous » et s’emploie quand on dit quelque chose en confidence."
       ],
       "important": [
-        "Unter n’est pas la même chose que zwischen : unter renvoie à un ensemble ou à un groupe (unter Freunden), zwischen — à des éléments distincts, souvent deux (zwischen Tisch und Tür).",
+        "Unter n’est pas la même chose que zwischen : unter renvoie à un ensemble ou à un groupe (unter Freunden), zwischen — à deux choses précises.",
         "Unter + nombre signifie « moins de » : unter 18, c’est moins de 18 ans."
       ],
       "sectionAccents": {

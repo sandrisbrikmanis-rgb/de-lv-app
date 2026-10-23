@@ -1996,7 +1996,7 @@ const B1_WORDS = [
       "translation": "legge fra seg • avlegge",
       "explanation": [
         "Hovedpoeng: ablegen er et delbart verb: legt ab, legte ab, hat abgelegt. Det betyr å legge fra seg noe man bærer, eller å ta av seg noe man har på seg: Mantel, Tasche ablegen.",
-        "Dokumente ablegen betyr å arkivere dem i en perm eller et arkiv. Eine Prüfung ablegen betyr å avlegge eksamen. Om skip betyr ablegen å legge fra kai.",
+        "Om dokumenter betyr ablegen å arkivere dem i en perm eller et arkiv. Om en eksamen betyr ablegen å avlegge eksamen. Om skip betyr ablegen å legge fra kai.",
         "I overført betydning kan ablegen bety å legge av seg: eine Gewohnheit ablegen (legge av seg en vane)."
       ],
       "examples": [
@@ -9003,7 +9003,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Vanlig mønster: im Bereich + genitiv eller med et etterstilt ord (im Bereich Marketing).",
+        "Vanlig mønster: im Bereich + genitiv eller med et etterstilt ord.",
         "Om bransjer sier man ofte die Branche."
       ],
       "important": [
@@ -24569,7 +24569,7 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "vise seg • komme ut",
       "explanation": [
-        "Hovedtanken: erscheinen betyr å vise seg, dukke opp (på scenen, på himmelen, på et møtested) og å komme ut (en bok, et blad). Med dativ betyr det også «virke, synes» (som scheinen): Das erscheint mir sinnvoll.",
+        "Hovedtanken: erscheinen betyr å vise seg, dukke opp (på scenen, på himmelen, på et møtested) og å komme ut (en bok, et blad). Med dativ betyr det også «virke, synes»: Das erscheint mir sinnvoll.",
         "Former: erscheint, erschien, ist erschienen (hjelpeverbet sein); forstavelsen er- er ikke delbar. I retten og hos myndigheter: zu + dativ: zum Termin erscheinen – møte opp til en avtale."
       ],
       "examples": [
@@ -24625,8 +24625,7 @@ const B1_WORDS = [
             "erscheinen",
             "erscheint",
             "erschien",
-            "erschienen",
-            "scheinen"
+            "erschienen"
           ],
           "purple": [
             "vise seg",
@@ -25800,7 +25799,7 @@ const B1_WORDS = [
         "Husk preposisjonen i den overførte betydningen: festhalten an etwas (holde fast ved noe)."
       ],
       "important": [
-        "Ikke bland festhalten (holde fast) med festnehmen (pågripe) – det første er bare å holde, det andre er noe politiet gjør.",
+        "Ikke bland festhalten (holde fast) med festnehmen (pågripe) – det første er å holde (også å hindre noen i å gå, holde tilbake), det andre er en offisiell pågripelse.",
         "I den overførte betydningen brukes an + dativ, ikke akkusativ: an dem Plan, ikke an den Plan."
       ],
       "sectionAccents": {
@@ -38375,7 +38374,7 @@ const B1_WORDS = [
         "Om teknikk bruker man heller funktionieren; klappen passer bedre om planer og avtaler."
       ],
       "important": [
-        "Klappen brukes vanligvis ikke med en person i dativ: man sier Es klappt, ikke Ich klappe.",
+        "Klappen brukes vanligvis ikke med en person som subjekt: man sier Es klappt, ikke Ich klappe.",
         "I perfektum bruker man hat geklappt, ikke ist geklappt."
       ],
       "sectionAccents": {
@@ -46038,7 +46037,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Ordet das Maß skrives med ß fordi vokalen er lang.",
-        "Flertall er die Maße (dimensjoner); formen Maßen finnes bare i uttrykket über alle Maßen."
+        "Flertall er die Maße (dimensjoner); i dativ — den Maßen (in Maßen, über alle Maßen)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -47368,7 +47367,7 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "gi etter",
       "explanation": [
-        "Hovedbetydning: nachgeben betyr å gi etter, gi seg for press eller en bønn – bygd akkurat som norsk gi etter (geben = gi, nach = etter). Det er et delbart verb med prefikset nach-: er gibt nach. Former: gibt nach, gab nach, hat nachgegeben.",
+        "Hovedbetydning: nachgeben betyr å gi etter, gi seg for press eller en bønn – bygd akkurat som norsk gi etter. Det er et delbart verb med prefikset nach-: er gibt nach. Former: gibt nach, gab nach, hat nachgegeben.",
         "Verbet styrer dativ: jemandem nachgeben (gi etter for noen), dem Druck nachgeben (gi etter for press), einem Wunsch nachgeben (gi etter for et ønske).",
         "Om gjenstander og materialer betyr nachgeben å gi etter eller synke sammen under belastning: Der Boden gibt unter dem Gewicht nach."
       ],
@@ -54243,7 +54242,7 @@ const B1_WORDS = [
       ],
       "tip": [
         "richten an + Akk brukes når man retter noe mot en person; sich richten nach + Dat – når man tilpasser seg.",
-        "Lær for eksempel Blick richten (rette blikket mot noe) som én frase."
+        "Lær for eksempel den Blick auf etwas richten (rette blikket mot noe) som én frase."
       ],
       "important": [
         "Ikke bland richten (rette, vende) med aufrichten (reise opp) eller ausrichten (overbringe, arrangere).",
@@ -62394,7 +62393,7 @@ const B1_WORDS = [
       "explanation": [
         "Hovedbetydning: der Stand er et substantiv i hankjønn som betyr nåværende status, nivå eller resultat (der aktuelle Stand, der Spielstand, der Wasserstand). Det kan også være en stand på et marked eller en messe, og en samfunnsklasse (stand).",
         "Flertall er die Stände. Ofte: auf dem neuesten Stand (helt oppdatert), der Stand der Dinge (situasjonen akkurat nå), ein Stand auf dem Markt (en bod på markedet), der Familienstand (sivilstand).",
-        "Det betyr tilstand som et øyeblikksbilde eller nivå, ikke en persons helse eller humør; det uttrykkes med Zustand. Merk: norsk «i god stand» heter på tysk in gutem Zustand, ikke Stand."
+        "Det betyr tilstand som et øyeblikksbilde eller nivå, ikke en persons helse eller humør; det uttrykkes med Zustand."
       ],
       "examples": [
         {
@@ -63208,7 +63207,7 @@ const B1_WORDS = [
       ],
       "tip": [
         "Å amme et barn er stillen, men å gi flaske er mit der Flasche füttern.",
-        "Med Durst og Hunger bruker man stillen eller löschen (Durst löschen)."
+        "Med Durst bruker man stillen eller löschen (Durst löschen), med Hunger bare stillen."
       ],
       "important": [
         "stillen er ikke still sein (være stille).",
@@ -64595,7 +64594,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Norsk scene betyr både et opptrinn og selve teaterscenen, men på tysk er det to ord: die Szene (opptrinn, hendelse) og die Bühne (scenen i teatret). Landskap heter die Landschaft.",
+        "Scene og landskap må ikke blandes sammen: på tysk er det to ord: die Szene (utsnitt, hendelse) og die Landschaft (natur).",
         "Husk uttrykket eine Szene machen – lage en scene."
       ],
       "important": [
@@ -79084,7 +79083,7 @@ const B1_WORDS = [
         "Ta alltid med refleksivpronomenet: er befindet sich, wir befinden uns."
       ],
       "important": [
-        "Sich befinden betyr ikke å finne (finden) eller å føle seg; det angir bare hvor eller i hvilken tilstand noe er.",
+        "Sich befinden betyr ikke å finne (finden); det angir hvor eller i hvilken tilstand noe er (formelt også hvordan man føler seg).",
         "I perfektum er hjelpeverbet haben (hat sich befunden), men i fortelling bruker man oftere preteritum: befand sich."
       ],
       "sectionAccents": {

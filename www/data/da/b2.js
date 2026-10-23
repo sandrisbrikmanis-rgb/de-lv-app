@@ -1780,7 +1780,7 @@ const B2_WORDS = [
       ],
       "important": [
         "I betydningen udsætte for følger dativ efter aussetzen (der Gefahr, dem Risiko), mens den, der udsættes, står i akkusativ (jemanden).",
-        "Forveksl ikke ausgesetzt sein (være udsat for) med ausgestellt (udstillet eller udstedt). Bemærk også, at dansk udsætte i betydningen udskyde som regel hedder verschieben på tysk."
+        "Forveksl ikke ausgesetzt sein (være udsat for) med ausgestellt (udstillet eller udstedt)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -3992,7 +3992,7 @@ const B2_WORDS = [
         "Ofte følger nur i sætningen: Ich beschränke mich nur auf …"
       ],
       "important": [
-        "På dansk siger man begrænse sig til, men på tysk bruges auf – ikke zu eller mit.",
+        "På dansk siger man begrænse sig til, men på tysk bruges auf – ikke mit.",
         "Sich beschränken er ikke det samme som sich begnügen: det første udtrykker, at man begrænser sig selv, det andet, at man nøjes."
       ],
       "sectionAccents": {
@@ -15971,7 +15971,7 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "At udvikle sig • At danne sig",
       "explanation": [
-        "Hovedbetydning: sich herausbilden betyder gradvist at udvikle sig, at danne sig ud fra noget tidligere — om en stil, en vane, roller, en by. Med aus + dativ angiver man, hvad noget udvikler sig ud af.",
+        "Hovedbetydning: sich herausbilden betyder gradvist at udvikle sig, at danne sig ud fra noget tidligere — om en stil, en vane, roller, en by. Med zu + dativ angiver man, hvad nogen eller noget udvikler sig til.",
         "Adskillelig forstavelse heraus-: bildet sich heraus, bildete sich heraus, hat sich herausgebildet. Processen er gradvis, så grundleddet er ofte et abstrakt navneord."
       ],
       "examples": [
@@ -16011,7 +16011,7 @@ const B2_WORDS = [
       ],
       "tip": [
         "Husk adskillelsen: Es bildet sich heraus, men Es hat sich herausgebildet.",
-        "Hyppig forbindelse: aus etwas bildet sich etwas heraus."
+        "Hyppig forbindelse: sich zu etwas herausbilden."
       ],
       "important": [
         "sich herausbilden udtrykker en gradvis proces, ikke en enkeltstående begivenhed.",
@@ -25470,7 +25470,7 @@ const B2_WORDS = [
       "explanation": [
         "Hovedbetydning: sich verstellen betyder at forstille sig, at ændre sin opførsel eller optræden, så andre ikke ser ens sande karakter eller følelser. Man er så ikke sig selv.",
         "Udsagnsordet er tilbagevisende: ich verstelle mich, er verstellt sich; i datid verstellte sich, i førnutid hat sich verstellt. Uden sich betyder verstellen også at flytte, spærre eller indstille (den Weg verstellen — spærre vejen; den Sitz verstellen — indstille sædet) samt at forstille stemmen (die Stimme verstellen).",
-        "Den danske glose at udgive sig for svarer mere præcist til sich ausgeben als (sich als Arzt ausgeben — udgive sig for at være læge); selve sich verstellen betyder normalt blot at forstille sig, at spille skuespil."
+        "Den danske glose at udgive sig for svarer mere præcist til sich ausgeben als (udgive sig for at være læge); selve sich verstellen betyder normalt blot at forstille sig, at spille skuespil."
       ],
       "examples": [
         {
@@ -27114,7 +27114,7 @@ const B2_WORDS = [
         "Dativ er modtageren: wem? — dem Studenten, der Familie."
       ],
       "important": [
-        "Førnutids tillægsform er zugewiesen — ge- indsættes mellem zu og weisen."
+        "Førnutids tillægsform er zugewiesen — zu + gewiesen (weisen – wies – gewiesen)."
       ],
       "sectionAccents": {
         "explanation": {

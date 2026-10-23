@@ -5668,7 +5668,7 @@ const C1_WORDS = [
         "Opposites: Zuschlag (added) and Abschlag (deducted)."
       ],
       "important": [
-        "The plural is die Zuschläge (with an umlaut), not die Zuschlage."
+        "The plural is die Zuschläge, not die Zuschlägen."
       ],
       "sectionAccents": {
         "explanation": {

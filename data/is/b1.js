@@ -3810,7 +3810,7 @@ const B1_WORDS = [
       ],
       "tip": [
         "Í daglegu tali er anmachen jafn algengt og einschalten, en í rituðu máli er einschalten algengara.",
-        "Mundu parið anmachen – ausmachen: kveikja á – slökkva á. Íslenska segir alltaf kveikja, en kerti er í þýsku yfirleitt anzünden."
+        "Mundu parið anmachen – ausmachen: kveikja á – slökkva á."
       ],
       "important": [
         "Forskeytið an- skilst frá í setningu: Ich mache das Licht an.",
@@ -4419,7 +4419,7 @@ const B1_WORDS = [
       "explanation": [
         "Aðalatriðið: das Ansehen er orðspor manneskju, fyrirtækis eða stofnunar — hversu mikils aðrir meta hana og virða. Orðið er hvorugkynsnafnorð, yfirleitt aðeins í eintölu (das Ansehen).",
         "Dæmigerð orðasambönd: großes Ansehen genießen (njóta mikillar virðingar), das Ansehen verlieren (glata orðspori sínu), jemandes Ansehen schaden (skaða orðspor einhvers), bei jemandem in hohem Ansehen stehen.",
-        "Af sömu rót er sögnin ansehen (horfa á, skoða), sem er aðskiljanleg: ich sehe mir das Bild an. Berðu saman við íslensku: álit kemur af líta á, alveg eins og Ansehen af an + sehen."
+        "Af sömu rót er sögnin ansehen (horfa á, skoða), sem er aðskiljanleg: ich sehe mir das Bild an."
       ],
       "examples": [
         {
@@ -5822,7 +5822,7 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "útsýni • horfur",
       "explanation": [
-        "Aðalatriðið: die Aussicht (oft í fleirtölu die Aussichten) merkir horfur eða möguleika — það sem búast má við í framtíðinni. Í eintölu merkir die Aussicht líka oft útsýni úr glugga eða af svölum: eine schöne Aussicht. Orðið er byggt eins og íslenska orðið útsýn: aus (út) + Sicht (sýn).",
+        "Aðalatriðið: die Aussicht (oft í fleirtölu die Aussichten) merkir horfur eða möguleika — það sem búast má við í framtíðinni. Í eintölu merkir die Aussicht líka oft útsýni úr glugga eða af svölum: eine schöne Aussicht.",
         "Í merkingunni horfur er notað auf + þolfall: die Aussicht auf Erfolg (von um árangur), die Aussicht auf einen Job. Orðasambönd: gute Aussichten haben, etwas in Aussicht stellen (lofa einhverju), in Aussicht haben (eiga von á einhverju).",
         "Orðið er kvenkyns: die Aussicht, fleirtala die Aussichten."
       ],
@@ -6570,7 +6570,7 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "útdráttur",
       "explanation": [
-        "Aðalatriðið: der Auszug merkir útdrátt eða afrit — hluta af skjali, bók eða reikningsyfirliti. Fleirtalan er die Auszüge. Algengast er der Kontoauszug (reikningsyfirlit). Orðið er myndað eins og íslenska orðið útdráttur: aus (út) + Zug (dráttur).",
+        "Aðalatriðið: der Auszug merkir útdrátt eða afrit — hluta af skjali, bók eða reikningsyfirliti. Fleirtalan er die Auszüge. Algengast er der Kontoauszug (reikningsyfirlit).",
         "Aðrar merkingar: brot úr texta (ein Auszug aus dem Roman) og það að flytja út úr íbúð (der Auszug aus der Wohnung). Samhengið sýnir hvaða merking er átt við.",
         "Komið af sögninni ausziehen (draga út; flytja út)."
       ],
@@ -10412,7 +10412,7 @@ const B1_WORDS = [
       ],
       "tip": [
         "Til að segja „samanstanda af“ er notað bestehen aus + þágufall.",
-        "Próf stenst maður með bestehen (líkt og íslenska standast), ekki með machen – eine Prüfung machen er að taka próf."
+        "Próf stenst maður með bestehen (líkt og íslenska standast), ekki með machen."
       ],
       "important": [
         "Bestehen aus + þágufall, bestehen auf + þágufall – ólíkar forsetningar, ólík merking.",
@@ -11917,7 +11917,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Die Blase getur líka verið þvagblaðra (í líffærafræði) – alveg eins og íslenska orðið blaðra.",
-        "Sápukúla er die Seifenblase; en leikfangablaðra heitir der Luftballon, ekki Blase."
+        "Sápukúla er die Seifenblase; blaðra á húðinni er líka die Blase."
       ],
       "sectionAccents": {
         "explanation": {
@@ -12694,7 +12694,7 @@ const B1_WORDS = [
       "translation": "sendiráð",
       "explanation": [
         "Aðalatriðið: die Botschaft þýðir sendiráð – opinber fulltrúi ríkis erlendis; líka boðskapur, skilaboð sem einhver vill koma á framfæri. Fleirtalan er die Botschaften.",
-        "Sendiráð: die deutsche Botschaft in Reykjavík (þýska sendiráðið í Reykjavík). Boðskapur: eine wichtige Botschaft (mikilvægur boðskapur), eine Botschaft hinterlassen (skilja eftir skilaboð).",
+        "Sendiráð: die deutsche Botschaft in Riga (þýska sendiráðið í Ríga). Boðskapur: eine wichtige Botschaft (mikilvægur boðskapur), eine Botschaft hinterlassen (skilja eftir skilaboð).",
         "Sendiherra er der Botschafter, en starfsmaður sendiráðs – der Botschaftsmitarbeiter. Orðið er skylt íslensku orðunum boð og boðskapur."
       ],
       "examples": [
@@ -16359,12 +16359,12 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Maður segir Durchfall haben eða Durchfall bekommen, án greinis – ekki „einen Durchfall“.",
+        "Maður segir Durchfall haben eða Durchfall bekommen, án greinis – ekki „eine Durchfall“.",
         "Í apótekinu: Haben Sie etwas gegen Durchfall? – Eruð þið með eitthvað við niðurgangi?"
       ],
       "important": [
         "Der Durchfall er karlkyns, alveg eins og niðurgangur á íslensku.",
-        "Að falla á prófi er ekki der Durchfall heldur sagnorðið durchfallen: Er ist durchgefallen."
+        "„Að fara í gegn“ er ekki der Durchfall; það er táknað með durchgehen eða durchkommen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -16857,7 +16857,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Eher er ekki það sama og früher: früher er „áður fyrr“, eher – „fyrr en eitthvað“.",
-        "Í samanburði fylgir als á eftir eher: eher A als B."
+        "Í samanburði fylgir als (ekki wie) á eftir eher: eher A als B."
       ],
       "sectionAccents": {
         "explanation": {
@@ -20091,7 +20091,7 @@ const B1_WORDS = [
       "translation": "innfæddur • innlendur",
       "explanation": [
         "Meginhugmynd: einheimisch er lýsingarorð sem merkir innlendur, staðbundinn eða innfæddur – sem tilheyrir ákveðnum stað eða vex þar og lifir. Dæmigert: einheimische Bevölkerung, einheimische Produkte, einheimische Pflanzen.",
-        "Orðið beygist (die einheimischen Gerichte). Af því er myndað nafnorðið der Einheimische / die Einheimische – heimamaður; það beygist eins og lýsingarorð (ein Einheimischer, eine Einheimische). Heim- í orðinu er skylt íslenska orðinu heima."
+        "Orðið beygist (die einheimischen Gerichte). Af því er myndað nafnorðið der Einheimische / die Einheimische – heimamaður; það beygist eins og lýsingarorð (ein Einheimischer, eine Einheimische)."
       ],
       "examples": [
         {
@@ -22148,7 +22148,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Í merkingunni að flytja inn er notað sein, í merkingunni að innheimta haben.",
-        "Einziehen er ekki það sama og umziehen (flytja búferlum) – það er aðeins að flytja inn á nýja staðinn. Að flytja inn vörur er hins vegar einführen."
+        "Einziehen er ekki það sama og umziehen (flytja búferlum) – það er aðeins að flytja inn á nýja staðinn."
       ],
       "sectionAccents": {
         "explanation": {
@@ -22659,7 +22659,7 @@ const B1_WORDS = [
       "translation": "fjarlægja",
       "explanation": [
         "Meginhugmynd: entfernen merkir að fjarlægja, taka burt – losa eitthvað af stað (blett, límmiða, tönn, skrá). Afturbeygða myndin sich entfernen merkir að fjarlægjast, fara burt.",
-        "Myndir: entfernt, entfernte, hat entfernt. Forskeytið ent- er óaðskiljanlegt. Andlagið er í þolfalli; upprunastaður er oft táknaður með von + þágufall eða aus + þágufall: etwas von der Wand entfernen. Lýsingarorðið entfernt merkir „fjarlægur“: weit entfernt. Taktu eftir samsvöruninni: fern – fjar-, entfernen – fjarlægja."
+        "Myndir: entfernt, entfernte, hat entfernt. Forskeytið ent- er óaðskiljanlegt. Andlagið er í þolfalli; upprunastaður er oft táknaður með von + þágufall eða aus + þágufall: etwas von der Wand entfernen. Lýsingarorðið entfernt merkir „fjarlægur“: weit entfernt."
       ],
       "examples": [
         {
@@ -25793,7 +25793,7 @@ const B1_WORDS = [
         "Fyrir yfirfærðu merkinguna skaltu muna forsetninguna: festhalten an etwas (við eitthvað)."
       ],
       "important": [
-        "Ekki rugla festhalten (halda fast) saman við festnehmen (handtaka) — hið fyrra er bara að halda, hið síðara er aðgerð lögreglu.",
+        "Ekki rugla festhalten (halda fast) saman við festnehmen (handtaka) — hið fyrra er að halda (líka að láta ekki fara, kyrrsetja), hið síðara er formleg handtaka.",
         "Í yfirfærðu merkingunni er notað an + þágufall, ekki þolfall: an dem Plan, ekki an den Plan."
       ],
       "sectionAccents": {
@@ -31596,7 +31596,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Fleirtalan er með hljóðvarpi: die Güter.",
-        "Íslenska orðið 'eign' getur líka svarað til das Eigentum eða der Besitz, svo samhengið skiptir máli."
+        "Íslenska orðið 'eign' getur líka svarað til das Eigentum, svo samhengið skiptir máli."
       ],
       "sectionAccents": {
         "explanation": {
@@ -32988,7 +32988,7 @@ const B1_WORDS = [
       "translation": "gefa út",
       "explanation": [
         "Aðalatriðið: herausgeben er aðskiljanleg sögn sem merkir að gefa út (bók, tímarit), en einnig að afhenda, láta af hendi. Myndir: gibt heraus, gab heraus, hat herausgegeben. Andlagið er í þolfalli.",
-        "Þrjár meginmerkingar: 1) gefa út rit (ein Buch herausgeben) — byggt eins og íslenska „gefa út“ (geben + heraus); 2) gefa til baka (Wechselgeld herausgeben); 3) afhenda, láta af hendi (etwas herausgeben sem haldið var eftir)."
+        "Þrjár meginmerkingar: 1) gefa út rit (ein Buch herausgeben); 2) gefa til baka (Wechselgeld herausgeben); 3) afhenda, láta af hendi (etwas herausgeben sem haldið var eftir)."
       ],
       "examples": [
         {
@@ -34992,7 +34992,7 @@ const B1_WORDS = [
         "Orðasambandið auf die Hupe drücken — ýta á flautuna, flauta."
       ],
       "important": [
-        "Die Hupe er kvenkyns; fleirtala: die Hupen. Athugaðu að flauta sem hljóðfæri heitir á þýsku die Flöte, ekki Hupe.",
+        "Die Hupe er kvenkyns; fleirtala: die Hupen.",
         "Á reiðhjóli er yfirleitt die Klingel, ekki die Hupe."
       ],
       "sectionAccents": {
@@ -36199,7 +36199,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Veiðimaður er der Jäger, veiðar die Jagd. Íslenska „veiða“ nær bæði yfir skotveiði og fiskveiði, en um að veiða fisk er á þýsku sagt angeln eða fischen, ekki jagen.",
+        "Veiðimaður er der Jäger, veiðar die Jagd.",
         "Jagen er notað bæði um veiðar og í yfirfærðri merkingu (Rekorde jagen — eltast við met)."
       ],
       "important": [
@@ -38367,7 +38367,7 @@ const B1_WORDS = [
         "Um tæki er betra að nota funktionieren; klappen hentar betur áætlunum og samkomulagi."
       ],
       "important": [
-        "Klappen tekur ekki persónu sem frumlag: sagt er Es klappt, ekki Ich klappe. Sé persónan nefnd er frekar notað gelingen með þágufalli — rétt eins og íslenska mér tókst: Es ist mir gelungen.",
+        "Klappen er yfirleitt ekki notað með persónu sem frumlag: sagt er Es klappt, ekki Ich klappe.",
         "Í Perfekt er notað hat geklappt, ekki ist geklappt."
       ],
       "sectionAccents": {
@@ -42439,7 +42439,7 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "innihald",
       "explanation": [
-        "Aðalatriðið: der Inhalt er innihald — það sem er inni í einhverju: bréfi, tösku, bók, kvikmynd eða samningi. Orðið er byggt eins og íslenska orðið (in- + Halt, sbr. halten — halda). Eignarfallið er des Inhalts, fleirtalan die Inhalte.",
+        "Aðalatriðið: der Inhalt er innihald — það sem er inni í einhverju: bréfi, tösku, bók, kvikmynd eða samningi. Eignarfallið er des Inhalts, fleirtalan die Inhalte.",
         "Önnur merking er rúmmál: ein Inhalt von einem Liter — eins lítra rúmmál. Sú merking er tæknileg.",
         "Skyld orð: das Inhaltsverzeichnis (efnisyfirlit), inhaltlich (efnislega), die Inhaltsangabe (efnisútdráttur)."
       ],
@@ -46030,7 +46030,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Orðið das Maß er skrifað með ß því sérhljóðið er langt.",
-        "Fleirtalan er die Maße (mál); myndin Maßen kemur aðeins fyrir í orðasambandinu über alle Maßen."
+        "Fleirtalan er die Maße (mál); í þágufalli — den Maßen (in Maßen, über alle Maßen)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -47360,7 +47360,7 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "gefa eftir • láta undan",
       "explanation": [
-        "Meginhugmynd: nachgeben merkir að gefa eftir, láta undan þrýstingi eða beiðni — íslenska sambandið er nákvæm samsvörun (nach = eftir, geben = gefa). Aðskiljanlegt forskeyti nach-: er gibt nach. Myndir: gibt nach, gab nach, hat nachgegeben.",
+        "Meginhugmynd: nachgeben merkir að gefa eftir, láta undan þrýstingi eða beiðni. Aðskiljanlegt forskeyti nach-: er gibt nach. Myndir: gibt nach, gab nach, hat nachgegeben.",
         "Sögnin tekur þágufall: jemandem nachgeben (láta undan einhverjum), dem Druck nachgeben (láta undan þrýstingi), einem Wunsch nachgeben (verða við ósk). Íslenska sambandið láta undan tekur líka þágufall.",
         "Um hluti og efni merkir nachgeben að gefa sig eða síga undan þunga: Der Boden gibt unter dem Gewicht nach."
       ],
@@ -49802,7 +49802,7 @@ const B1_WORDS = [
       "translation": "fórna",
       "explanation": [
         "Meginhugmynd: opfern merkir að fórna — gefa eitthvað verðmætt (tíma, peninga, lífið) í þágu annarra eða markmiðs. Myndir: opfert, opferte, hat geopfert.",
-        "Uppbygging: etwas (þolfall) für jemanden/etwas opfern — fórna einhverju fyrir einhvern. Athugið: á íslensku tekur fórna þágufall (fórna lífi sínu), en á þýsku er andlagið í þolfalli (sein Leben opfern). Afturbeygt sich opfern — fórna sér: Sie opfert sich für die Familie.",
+        "Uppbygging: etwas (þolfall) für jemanden/etwas opfern — fórna einhverju fyrir einhvern. Athugið: á íslensku tekur fórna þágufall (fórna lífi sínu), en á þýsku er andlagið í þolfalli. Afturbeygt sich opfern — fórna sér: Sie opfert sich für die Familie.",
         "Nafnorðið er das Opfer (fórn eða fórnarlamb). Í trúarlegu samhengi getur opfern líka merkt að færa guði fórn."
       ],
       "examples": [
@@ -60592,7 +60592,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Á eftir sich sorgen kemur um + þolfall, ekki für.",
-        "Varastu íslenska orðið sorg: die Sorge merkir áhyggjur, en sorg er á þýsku die Trauer. sich sorgen er líka aðeins bókmenntalegra en sich Sorgen machen."
+        "Sich sorgen er líka aðeins bókmenntalegra en sich Sorgen machen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -63196,7 +63196,7 @@ const B1_WORDS = [
       ],
       "tip": [
         "Að gefa barni brjóst er stillen, en að gefa pela er mit der Flasche füttern.",
-        "Með Durst og Hunger er notað stillen eða löschen (Durst löschen) – líkt og íslenska segir að slökkva þorsta."
+        "Með Durst er notað stillen eða löschen (Durst löschen), með Hunger aðeins stillen – líkt og íslenska segir að slökkva þorsta."
       ],
       "important": [
         "stillen er ekki still sein (þegja) – og það merkir ekki heldur það sama og íslenska sögnin stilla.",
@@ -64583,12 +64583,12 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Íslenska orðið atriði merkir líka efnisatriði eða lið (t.d. aðalatriði) – í þeirri merkingu er ekki notað die Szene heldur der Punkt.",
+        "Á þýsku eru atriði og landslag tvö ólík orð: die Szene (brot, atburður) og die Landschaft (náttúra).",
         "Mundu orðasambandið eine Szene machen – að vera með læti."
       ],
       "important": [
         "Orðið endar á -e og er kvenkyns: die Szene, ekki der Szene.",
-        "Leiksviðið sjálft er ekki die Szene – það heitir die Bühne."
+        "Die Szene á þýsku er ekki landslag (náttúra) – það er die Landschaft."
       ],
       "sectionAccents": {
         "explanation": {
@@ -65981,7 +65981,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Mundu: teilnehmen alltaf með an + þágufalli, ekki með in eða bei. Teil merkir hluti – líkt og þáttur í taka þátt.",
+        "Mundu: teilnehmen alltaf með an + þágufalli, ekki með in eða bei.",
         "Forskeytið teil fer aftast: Ich nehme teil, en Ich möchte teilnehmen."
       ],
       "important": [
@@ -70156,7 +70156,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Í fleirtölu kemur hljóðvarp: die Verbände.",
-        "Der Verband og die Verbindung eru ólík orð: umbúðir eða samtök annars vegar, tenging hins vegar. Athugaðu líka að umbúðir utan um vöru heita die Verpackung, ekki der Verband."
+        "Der Verband og die Verbindung eru ólík orð: umbúðir eða samtök annars vegar, tenging hins vegar."
       ],
       "sectionAccents": {
         "explanation": {
@@ -79058,7 +79058,7 @@ const B1_WORDS = [
         "Bættu alltaf við afturbeygða fornafninu: er befindet sich, wir befinden uns."
       ],
       "important": [
-        "Sich befinden merkir ekki að finna (finden) né að líða; það segir aðeins til um staðsetningu eða ástand.",
+        "Sich befinden merkir ekki að finna (finden); það segir til um staðsetningu eða ástand (í formlegu máli einnig líðan).",
         "Í núliðinni tíð er hjálparsögnin haben (hat sich befunden), en í frásögn er þátíðin befand sich algengari."
       ],
       "sectionAccents": {

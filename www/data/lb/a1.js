@@ -42,7 +42,7 @@ const A1_WORDS = [
       "explanation": [
         "Haaptiddi: sprechen heescht schwätzen, Wierder haart ausschwätzen, awer och eng Sprooch kënnen (Deutsch sprechen — Däitsch schwätzen) oder sech mat engem ënnerhalen.",
         "Formen: er spricht (Vokalwiessel e → i), sprach, hat gesprochen. Bei enger Sprooch steet sprechen ouni Präpositioun; d'Thema gëtt mat über + Akkusativ ugeschloss (iwwer eppes schwätzen), de Gespréichspartner mat mit + Dativ (mat engem schwätzen).",
-        "Um Telefon oder an engem offizielle Kontext heescht Kann ich Herrn Müller sprechen? 'Kann ech mam Här Müller schwätzen?'. Opgepasst: dat däitscht schwätzen heescht éischter 'quatschen, vill schwätzen' — dat normaalt Lëtzebuerger schwätzen ass op Däitsch sprechen."
+        "Um Telefon oder an engem offizielle Kontext heescht Kann ich Herrn Müller sprechen? 'Kann ech mam Här Müller schwätzen?'."
       ],
       "examples": [
         {
@@ -1937,7 +1937,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "aus • vun",
       "explanation": [
-        "Haaptiddi: aus heescht 'aus, eraus aus' (vu bannen) a weist Hierkonft, Material oder Grond: aus dem Haus (aus dem Haus eraus), aus Luxemburg (aus Lëtzebuerg), aus Holz (aus Holz, vun Holz).",
+        "Haaptiddi: aus heescht 'aus, eraus aus' (vu bannen) a weist Hierkonft, Material oder Grond: aus dem Haus (aus dem Haus eraus), aus Lettland (aus Lettland), aus Holz (aus Holz, vun Holz).",
         "D'Präpositioun verlaangt ëmmer den Dativ: aus dem Haus, aus der Stadt, aus einem Buch.",
         "Als Grond dréckt aus e Gefillsmotiv aus: aus Angst (aus Angscht), aus Liebe (aus Léift)."
       ],
@@ -1993,14 +1993,12 @@ const A1_WORDS = [
           "blue": [
             "aus",
             "aus dem Haus",
-            "aus Luxemburg",
             "aus Holz",
             "aus Angst",
             "aus Liebe"
           ],
           "purple": [
             "aus",
-            "aus Lëtzebuerg",
             "vun Holz",
             "aus Angscht"
           ]
@@ -6432,7 +6430,7 @@ const A1_WORDS = [
       "translation": "eréischt • fir d'éischt",
       "explanation": [
         "Haaptiddi: erst ass en Adverb mat zwou Haaptbedeitungen: 'eréischt' an der Zäit (net méi fréi, nach net méi wéi): Es ist erst 8 Uhr (et ass eréischt 8 Auer), an 'fir d'éischt': Erst essen wir, dann gehen wir.",
-        "Er kommt erst morgen heescht 'hie kënnt eréischt muer'. Am Géigesaz zu nur (nëmmen, bei enger Quantitéit) betount erst, datt eppes nach net geschitt ass oder eng bestëmmt Zäit nach net erreecht huet.",
+        "Er kommt erst morgen heescht 'hie kënnt eréischt muer'. Am Géigesaz zu nur (eng einfach Limitatioun) betount erst, datt eppes nach net geschitt ass oder eng bestëmmt Zäit nach net erreecht huet.",
         "Net mat erste (éischten) verwiesselen, dat ass eng Uerdnungszuel."
       ],
       "examples": [
@@ -6479,7 +6477,7 @@ const A1_WORDS = [
         "Erst … dann = fir d'éischt … dann."
       ],
       "important": [
-        "Erst an nur sinn net datselwecht: nur bezitt sech op eng Quantitéit, erst op d'Zäit.",
+        "Erst an nur sinn net datselwecht: nur limitéiert einfach (just sou vill), erst heescht 'net méi fréi / bis elo nëmmen' (erst morgen, erst drei Seiten).",
         "Erst ass net ganz datselwecht wéi zuerst: zuerst heescht normalerweis 'am Ufank, fir d'éischt' bei e puer Schrëtt."
       ],
       "sectionAccents": {
@@ -8585,7 +8583,7 @@ const A1_WORDS = [
       "explanation": [
         "Haaptiddi: ganz als Adjektiv heescht ganz, komplett, voll: der ganze Tag (de ganzen Dag), die ganze Familie (déi ganz Famill), das ganze Buch (dat ganzt Buch). Et gëtt wéi en normaalt Adjektiv deklinéiert.",
         "Als Adverb heescht ganz 'komplett, ganz, zimlech': ganz neu (ganz nei), ganz einfach (ganz einfach), ganz gut (ganz gutt).",
-        "Virun Nimm vu Plazen ouni Artikel ännert ganz sech net: ganz Europa (ganz Europa), ganz Luxemburg (ganz Lëtzebuerg)."
+        "Virun Nimm vu Plazen ouni Artikel ännert ganz sech net: ganz Europa (ganz Europa), ganz Lettland (ganz Lettland)."
       ],
       "examples": [
         {
@@ -8644,7 +8642,6 @@ const A1_WORDS = [
             "ganz neu",
             "ganz einfach",
             "ganz Europa",
-            "ganz Luxemburg",
             "ganze"
           ],
           "purple": [
@@ -11352,7 +11349,7 @@ const A1_WORDS = [
       "explanation": [
         "Haaptiddi: heißen heescht heeschen — et seet, wéi een oder eppes genannt gëtt. Ich heiße Anna heescht op Lëtzebuergesch genee d'selwecht: “ech heeschen Anna”.",
         "Formen: heißt, hieß, hat geheißen. Nom heißen steet den Numm am Nominativ: Er heißt Paul. Als Fro: Wie heißt du? (Wéi heeschs du?), Wie heißt das auf Deutsch? (Wéi heescht dat op Däitsch?).",
-        "Eng zweet Bedeitung ass “bedeiten”: Was heißt “Danke” auf Luxemburgisch? — Wat heescht “Danke” op Lëtzebuergesch?"
+        "Eng zweet Bedeitung ass “bedeiten”: Was heißt “Danke” auf Lettisch? — Wat heescht “Danke” op Lettesch?"
       ],
       "examples": [
         {
@@ -18970,7 +18967,7 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Nach + Stad/Land ouni Artikel: nach Berlin, nach Luxemburg; bei enger Persoun oder Institutioun — zu: zum Arzt.",
+        "Nach + Stad/Land ouni Artikel: nach Berlin, nach Lettland; bei enger Persoun oder Institutioun — zu: zum Arzt.",
         "Nach bei der Zäit = no: nach der Schule; nach bei der Richtung = op."
       ],
       "important": [
@@ -21042,7 +21039,7 @@ const A1_WORDS = [
       "translation": "probéieren",
       "explanation": [
         "Haaptiddi: probieren heescht „probéieren“ — eppes Neies ausprobéieren an Iessen oder Gedrénks schmaachen: Probier mal die Suppe! Ich möchte den Kuchen probieren.",
-        "Formen: probiert, probierte, hat probiert (ouni ge-, well et op -ieren ophält). Ëmmer mam Akkusativ: etwas probieren. Trennbar Ofleedung: anprobieren (Kleeder upaken, aprobéieren).",
+        "Formen: probiert, probierte, hat probiert (ouni ge-, well et op -ieren ophält). Meeschtens mam Akkusativ: etwas probieren. Trennbar Ofleedung: anprobieren (Kleeder upaken, aprobéieren).",
         "Fréndlech mat mal: Probier mal! — Probéier mol!"
       ],
       "examples": [
@@ -21357,7 +21354,7 @@ const A1_WORDS = [
         "Ënnerscheed Reis (Räis) a Reise (Rees): Reise hält op -e op."
       ],
       "important": [
-        "Opgepasst op d'Schreifweis: däitsch Reis mat ei, lëtzebuergesch Räis mat äi — d'Aussprooch ass bal d'selwecht.",
+        "Däitsch Reis steet am Singular.",
         "Der Reis, net „die Reis“."
       ],
       "sectionAccents": {
@@ -23270,7 +23267,7 @@ const A1_WORDS = [
         "Léier reflexiv Verben zesumme mat sich: sich freuen, sich setzen."
       ],
       "important": [
-        "Sich geet net mat ich, du, wir, ihr — do brauch een mich, dich, uns, euch.",
+        "Sich geet net mat ich, du, wir, ihr — do brauch een mich/mir, dich/dir, uns, euch.",
         "Am Plural kann Sie sehen sich souwuel „si gesi sech selwer“ wéi „si gesinn anenee“ heeschen; de Kontext entscheet."
       ],
       "sectionAccents": {
@@ -27039,7 +27036,7 @@ const A1_WORDS = [
       "explanation": [
         "Haaptiddi: werden ass en onregelméissegt Verb: ich werde, du wirst, er wird, wir werden; Präteritum wurde, Perfekt ist geworden. Et huet dräi Usätz: ginn (Es wird kalt), Futur (Ich werde kommen) a Passiv (Das Haus wird gebaut).",
         "Wann een e Beruff gëtt, steet de Beruff ouni Artikel: Sie wird Ärztin. Am Passiv-Perfekt benotzt een worden (ist gebaut worden), net geworden.",
-        "Op Lëtzebuergesch heescht werden „ginn“ — datselwecht Wuert wéi fir „geben“. Op Däitsch sinn dat awer verschidde Verben, an „kréien“ heescht op Däitsch bekommen."
+        "Ginn (sech veränneren) ass net datselwecht wéi kréien: ginn = werden, kréien = bekommen."
       ],
       "examples": [
         {
@@ -27251,7 +27248,7 @@ const A1_WORDS = [
       "explanation": [
         "Haaptiddi: das Wetter ass e sächlecht Substantiv a beschreift d'Wieder — Reen, Sonn, Wand, Temperatur. De Plural die Wetter gëtt praktesch net benotzt; et steet am Singular: das Wetter ist schön.",
         "D'Fro ass Wie ist das Wetter? Heefeg Verbindungen: gutes/schlechtes Wetter (gutt/schlecht Wieder), der Wetterbericht (de Wiederbericht).",
-        "Op Lëtzebuergesch sinn et zwee Wierder, d'Wieder an d'Zäit — genee wéi op Däitsch das Wetter an die Zeit. Opgepasst: däitsch wieder heescht „erëm“, d'Wieder heescht op Däitsch Wetter."
+        "Op Lëtzebuergesch sinn et zwee Wierder, d'Wieder an d'Zäit — genee wéi op Däitsch das Wetter an die Zeit."
       ],
       "examples": [
         {
@@ -27764,7 +27761,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Zu verlaangt nëmmen den Dativ: zu meinem Freund, zu der Schule.",
-        "Fir Stied a Länner benotzt een nach, net zu: nach Berlin. Opgepasst: d'lëtzebuergescht „zu Berlin“ (wou?) ass op Däitsch in Berlin."
+        "Fir Stied a Länner benotzt een nach, net zu: nach Berlin."
       ],
       "sectionAccents": {
         "explanation": {
@@ -27938,7 +27935,7 @@ const A1_WORDS = [
       "translation": "Zuch",
       "explanation": [
         "Haaptiddi: der Zug ass e männlecht Substantiv mat der Bedeitung Zuch. De Plural ass die Züge (mat Umlaut). No Präpositioune seet een: mit dem Zug (mam Zuch), im Zug (am Zuch), in den Zug einsteigen (an den Zuch klammen).",
-        "D'Wuert Zug huet och aner Bedeitungen: Zuch beim Spill (Schach), Loftzuch (der Zug) oder e Cortège. Op dëser Kaart geet et ëm den Zuch op der Schinn.",
+        "D'Wuert Zug huet och aner Bedeitungen: Zuch beim Spill (Schach), Loftzuch (der Zug) oder e Charakterzuch (Charakterzug). Op dëser Kaart geet et ëm den Zuch op der Schinn.",
         "No dobäi ass die Bahn, dat d'Eisebunn oder den Zuch allgemeng bedeit."
       ],
       "examples": [
@@ -29477,7 +29474,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Das Gemüse ass sächlech an normalerweis am Singular.",
-        "Opgepasst beim Vergläich: däitsch Kartoffel heescht op Lëtzebuergesch Gromper; Gemüse ass wéi d'Geméis e Kollektivwuert."
+        "Opgepasst beim Vergläich: Gemüse ass wéi d'Geméis e Kollektivwuert."
       ],
       "sectionAccents": {
         "explanation": {

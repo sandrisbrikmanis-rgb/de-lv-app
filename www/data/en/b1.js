@@ -1991,7 +1991,7 @@ const B1_WORDS = [
       "translation": "Put down",
       "explanation": [
         "Main idea: ablegen is a separable verb: legt ab, legte ab, hat abgelegt. It means to put down something you were carrying, or to take off something you were wearing: Mantel, Tasche ablegen.",
-        "Dokumente ablegen means to file documents in a folder or archive. Eine Prüfung ablegen means to take an exam. For a ship, ablegen means to cast off from the shore.",
+        "For documents, ablegen means to file them in a folder or archive. For an exam, ablegen means to take it. For a ship, ablegen means to cast off from the shore.",
         "Figuratively, ablegen can mean to give up: eine Gewohnheit ablegen (to give up a habit)."
       ],
       "examples": [
@@ -2053,7 +2053,6 @@ const B1_WORDS = [
             "put down",
             "take off",
             "file",
-            "take an exam",
             "cast off",
             "give up"
           ]
@@ -16787,7 +16786,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Eher is not the same as früher: früher means “in the past”, eher means “earlier than something”.",
-        "In the sense of comparison, als follows eher in the pattern eher A als B."
+        "In the sense of comparison, als (not wie) follows eher in the pattern eher A als B."
       ],
       "sectionAccents": {
         "explanation": {
@@ -18433,7 +18432,7 @@ const B1_WORDS = [
       "translation": "To come to mind",
       "explanation": [
         "Main idea: einfallen means to come to mind – of a thought, an idea or a word that suddenly appears. The person is expressed by the dative: Mir fällt der Name nicht ein. – The name does not come to me.",
-        "Forms: fällt ein, fiel ein, ist eingefallen (auxiliary sein). Common expressions: Was fällt dir ein? (What do you think you are doing?!), sich etwas einfallen lassen (to come up with something). Less often, einfallen also means “to invade”, “to cave in” (Das Dach fiel ein) or “to fall (of light)”."
+        "Forms: fällt ein, fiel ein, ist eingefallen (auxiliary sein). Common expressions: Was fällt dir ein? (What do you think you are doing?!), sich etwas einfallen lassen (to come up with something). Less often, einfallen also means “to invade”, “to cave in” or “to fall (of light)”."
       ],
       "examples": [
         {
@@ -21610,7 +21609,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Einstellen means to hire; the opposite is entlassen.",
-        "Work out the meaning from the object: a device – adjust, a person – hire, a business – close down."
+        "Work out the meaning from the object: Gerät – adjust, Person – hire, Betrieb – close down."
       ],
       "sectionAccents": {
         "explanation": {
@@ -25380,7 +25379,7 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "Lazy",
       "explanation": [
-        "Main idea: faul is an adjective with two meanings: lazy (a person with no desire to work) and rotten (food, eggs, wood). Figuratively, eine faule Ausrede is a lame excuse.",
+        "Main idea: faul is an adjective with two meanings: lazy (a person with no desire to work) and rotten (food, eggs, wood). Figuratively, faule Ausrede is a lame excuse.",
         "The word is inflected: ein fauler Schüler, ein fauler Apfel. Comparative and superlative: fauler, am faulsten. The noun is die Faulheit (laziness); the verb is faulenzen – to laze about, to idle."
       ],
       "examples": [
@@ -25718,7 +25717,7 @@ const B1_WORDS = [
         "For the figurative meaning, remember the preposition: festhalten an etwas (to stick to something)."
       ],
       "important": [
-        "Do not confuse festhalten (to hold tight) with festnehmen (to arrest): the first is simply holding, the second is a police action.",
+        "Do not confuse festhalten (to hold tight) with festnehmen (to arrest): the first is holding (also keeping someone from leaving, detaining), the second is a formal arrest.",
         "In the figurative meaning use an + dative, not accusative: an dem Plan, not an den Plan."
       ],
       "sectionAccents": {
@@ -35869,7 +35868,7 @@ const B1_WORDS = [
         "Perfect: hat sich geirrt (with haben)."
       ],
       "important": [
-        "The reflexive sich irren usually means being mistaken in one's judgement or about a fact; for an error in a piece of work, such as an exercise, einen Fehler machen is more usual.",
+        "The reflexive sich irren means being mistaken in one's judgement, not making a mistake in a piece of work (for that: Fehler machen).",
         "Do not confuse it with der Irrtum (mistake, error), which is a noun."
       ],
       "sectionAccents": {
@@ -38280,7 +38279,7 @@ const B1_WORDS = [
         "When talking about technology, funktionieren is better; klappen suits plans and arrangements."
       ],
       "important": [
-        "Klappen is normally used with no person in the dative: you say Es klappt, not Ich klappe.",
+        "Klappen is normally not used with a person as the subject: you say Es klappt, not Ich klappe.",
         "The perfect tense is hat geklappt, not ist geklappt."
       ],
       "sectionAccents": {
@@ -45942,7 +45941,7 @@ const B1_WORDS = [
       ],
       "important": [
         "The word das Maß is written with ß because the vowel is long.",
-        "The plural is die Maße (dimensions); the dative plural is den Maßen, a form also found in the fixed expression über alle Maßen."
+        "The plural is die Maße (dimensions); in the dative, den Maßen (in Maßen, über alle Maßen)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -49236,7 +49235,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Das Objekt is neuter.",
-        "In the grammatical sense, the object is a part of the sentence, not a physical thing; for a physical thing use der Gegenstand."
+        "In the grammatical sense, das Objekt means the grammatical object (a part of the sentence), not a physical object."
       ],
       "sectionAccents": {
         "explanation": {
@@ -54138,7 +54137,7 @@ const B1_WORDS = [
       ],
       "tip": [
         "Use richten an + Akk when you direct something at a person; sich richten nach + Dat when you adapt to something.",
-        "Learn Blick richten auf etwas as a set phrase."
+        "Learn den Blick auf etwas richten as a set phrase."
       ],
       "important": [
         "Do not confuse richten (to direct) with aufrichten (to raise, to set upright) or ausrichten (to pass on, to organise).",
@@ -63095,7 +63094,7 @@ const B1_WORDS = [
       ],
       "tip": [
         "To breastfeed a baby is stillen, but to bottle-feed is mit der Flasche füttern.",
-        "With Durst, both stillen and löschen can be used (Durst löschen)."
+        "With Durst, stillen or löschen can be used (Durst löschen); with Hunger, only stillen."
       ],
       "important": [
         "stillen is not still sein (to be quiet).",
@@ -65441,7 +65440,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Scuba diving is tauchen mit dem Gerät; the person who does it is der Taucher.",
+        "Scuba diving is mit dem Gerät tauchen; the person who does it is der Taucher.",
         "Tauchen and schwimmen are not synonyms: the first is under the water, the second on the surface."
       ],
       "important": [
@@ -78441,7 +78440,7 @@ const B1_WORDS = [
         "Statt … zu is the same and sounds slightly simpler; both forms are correct."
       ],
       "important": [
-        "Take care: if the subject changes, use anstatt dass: Anstatt dass er hilft, muss ich alles machen.",
+        "Take care: if the subject changes, use anstatt dass: Anstatt dass er hilft, schaut sie zu.",
         "Do not confuse it with the preposition anstatt/statt + genitive (statt des Buches), which also means instead of."
       ],
       "sectionAccents": {
@@ -78813,7 +78812,7 @@ const B1_WORDS = [
         "Always add the reflexive pronoun: er befindet sich, wir befinden uns."
       ],
       "important": [
-        "Sich befinden does not mean to find (finden); in the sense of 'to feel' it occurs only in formal or dated phrases such as sich wohl befinden.",
+        "Sich befinden does not mean to find (finden); it indicates location or state (formally also how someone feels).",
         "The auxiliary in the perfect is haben (hat sich befunden), but in narrative the Präteritum is more common: befand sich."
       ],
       "sectionAccents": {

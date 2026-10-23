@@ -522,7 +522,7 @@ const A1_WORDS = [
         "With days of the week and parts of the day use am: am Dienstag, am Morgen."
       ],
       "important": [
-        "English 'at' is not always an: being at someone's place is bei, as in bei meiner Oma.",
+        "English 'at' is not always an: being at someone's place is bei.",
         "With verbs, an + accusative often corresponds to 'of' or 'in' (denken an, glauben an), not 'at' or 'by'."
       ],
       "sectionAccents": {
@@ -1986,7 +1986,7 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Aus = 'out of an interior': car, house, bag. The opposite is in.",
+        "Aus = 'out of an interior': Auto, Haus, Tasche. The opposite is in.",
         "Use aus for the country or town of origin: Ich bin aus Riga."
       ],
       "important": [
@@ -6437,7 +6437,7 @@ const A1_WORDS = [
       "translation": "only • not until • first",
       "explanation": [
         "Main idea: erst is an adverb with two main meanings: 'only' or 'not until' in a time sense (no earlier than, not yet more than): Es ist erst 8 Uhr (it is only 8 o'clock), and 'first': Erst essen wir, dann gehen wir.",
-        "Er kommt erst morgen means 'he is not coming until tomorrow'. Unlike nur (only in terms of quantity), erst stresses that something has not happened yet or has not reached a certain time.",
+        "Er kommt erst morgen means 'he is not coming until tomorrow'. Unlike nur (a simple restriction), erst stresses that something has not happened yet or has not reached a certain time.",
         "Do not confuse it with erste (first), which is an ordinal number."
       ],
       "examples": [
@@ -6484,7 +6484,7 @@ const A1_WORDS = [
         "Erst … dann = first … then."
       ],
       "important": [
-        "Erst and nur are not the same: nur refers to quantity, erst to time.",
+        "Erst and nur are not the same: nur simply limits (only so much), erst means 'not before / only so far' (erst morgen, erst drei Seiten).",
         "Erst is not the same as zuerst: zuerst usually means 'at first' in a series of steps."
       ],
       "sectionAccents": {
@@ -6704,8 +6704,8 @@ const A1_WORDS = [
         "Refer to a neuter noun with es: das Auto → es."
       ],
       "important": [
-        "With weather verbs and es gibt, es cannot be left out: you cannot say 'Regnet heute' (correct: Heute regnet es).",
-        "For people es is used only with neuter words such as das Kind; otherwise it is er or sie."
+        "In impersonal sentences es cannot be left out: you cannot say 'Regnet heute'.",
+        "For people es is used only with neuter words such as das Kind, das Mädchen; otherwise it is er or sie."
       ],
       "sectionAccents": {
         "explanation": {
@@ -8175,7 +8175,7 @@ const A1_WORDS = [
       "explanation": [
         "Main idea: für is a preposition that expresses the recipient, purpose or a period of time: Das Geschenk ist für dich (the present is for you), für zwei Wochen (for two weeks), Danke für die Hilfe (thank you for the help).",
         "Für always takes the accusative: für mich, für den Plan, für die Kinder. In the expression ich bin für … it means 'I am in favour of'. In the question Was für ein …? it means 'what kind of'.",
-        "Be careful: English 'for' is not always für. For a duration that continues up to now, German uses seit: Ich lerne seit einem Jahr Deutsch (I have been learning German for a year)."
+        "Be careful: für does not always match one fixed word in your own language; it often corresponds to 'to', 'about' or 'for' (a period of time)."
       ],
       "examples": [
         {
@@ -10022,7 +10022,7 @@ const A1_WORDS = [
         "The comparative takes an umlaut: groß → größer."
       ],
       "important": [
-        "For the height of a building hoch is more usual: a tall building is ein hohes Haus, while ein großes Haus is a big house.",
+        "Groß does not mean 'tall' for a building: a tall building is ein hohes Haus.",
         "In Switzerland ß is not used and the word is written gross; elsewhere it is groß."
       ],
       "sectionAccents": {
@@ -12041,7 +12041,7 @@ const A1_WORDS = [
       "explanation": [
         "Main idea: hübsch is an adjective meaning “pretty” or “nice” — used for people's looks, clothes, houses and things that please the eye. It is milder than schön (beautiful).",
         "Before a noun hübsch takes the usual adjective endings: ein hübsches Kleid, eine hübsche Frau, hübsche Blumen. Comparative: hübscher, superlative: am hübschesten.",
-        "In conversation ganz hübsch can also mean “quite a lot” or “very”: Das war ganz hübsch teuer. Of rooms or small things it can also mean “neat” in the sense of tidy and attractive: eine hübsche kleine Wohnung."
+        "In conversation ganz hübsch can also mean “quite a lot” or “very”: Das war ganz hübsch teuer."
       ],
       "examples": [
         {
@@ -12094,8 +12094,7 @@ const A1_WORDS = [
           ],
           "purple": [
             "pretty",
-            "nice",
-            "neat"
+            "nice"
           ],
           "green": [
             "schön"
@@ -12296,7 +12295,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Ihr (you, nominative) is written with a small letter in the middle of a sentence; the formal Ihr/Ihnen is always capitalised.",
-        "Don't use ihr (you) to address one person — one person is du, several people are ihr. (The dative ihr = her and possessive ihr do refer to one woman.)"
+        "Don't use ihr (you) to address one person — one person is du, several people are ihr."
       ],
       "sectionAccents": {
         "explanation": {
@@ -13133,7 +13132,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Young (about people)",
       "explanation": [
-        "Main idea: jung means “young” for the age of a person, animal or plant — Mein Bruder ist jung. For objects (a book, a car) use neu.",
+        "Main idea: jung means “young” for the age of a person, animal or plant — My brother is young. For objects (a book, a car) use neu.",
         "Comparative: jünger (with an umlaut), superlative: am jüngsten: Er ist jünger als ich. Before a noun: ein junger Mann, eine junge Frau, junge Leute.",
         "Opposite: alt (old). The noun der Junge (plural die Jungen) means “boy”, not “young”."
       ],
@@ -18070,7 +18069,7 @@ const A1_WORDS = [
         "In conversation gern is often used: Ich trinke gern Tee = Ich mag Tee."
       ],
       "important": [
-        "With mögen the person who likes is the subject: Ich mag den Hund (I like the dog); with gefallen the thing becomes the subject: Der Hund gefällt mir.",
+        "Unlike constructions where the person who likes is in the dative, German uses Ich mag + accusative: Ich mag den Hund.",
         "Möchte is a clear request, mag expresses an attitude."
       ],
       "sectionAccents": {
@@ -19853,7 +19852,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Yet",
       "explanation": [
-        "Main idea: noch is an adverb meaning “still”, “yet” and “more”. It shows that something is continuing (Ich bin noch zu Hause — I am still at home) or that something more is being added (Möchtest du noch einen Kaffee? — would you like another coffee?). With nicht it means “not yet”: Er ist noch nicht da.",
+        "Main idea: noch is an adverb meaning “still”, “yet” and “more”. It shows that something is continuing (Ich bin noch zu Hause — I am still at home) or that something more is being added (Möchtest du noch einen Kaffee? — would you like another coffee?).",
         "Common combinations: noch nicht (not yet), noch einmal (once more), noch ein/eine (another), immer noch (still). The adverb does not change its form.",
         "Opposite: noch nicht ≠ schon (already); nicht mehr (no longer)."
       ],
@@ -21042,7 +21041,7 @@ const A1_WORDS = [
       "translation": "To try • To taste",
       "explanation": [
         "Main idea: probieren means “to try” (something new) and “to taste” (food, drink): Probier mal die Suppe! Ich möchte den Kuchen probieren.",
-        "Forms: probiert, probierte, hat probiert (without ge-, because it ends in -ieren). Always with the accusative: etwas probieren. Separable derivative: anprobieren (to try on clothes).",
+        "Forms: probiert, probierte, hat probiert (without ge-, because it ends in -ieren). Usually with the accusative: etwas probieren. Separable derivative: anprobieren (to try on clothes).",
         "Politely with mal: Probier mal! — Have a go!"
       ],
       "examples": [
@@ -23216,7 +23215,7 @@ const A1_WORDS = [
       "translation": "Oneself • For oneself",
       "explanation": [
         "Main idea: sich is the reflexive pronoun for the third person and for the polite form Sie: it shows that the action refers back to the person doing it (himself, herself, itself, themselves, yourself). The accusative and dative forms are the same: sich.",
-        "Other persons use other forms: ich – mich (dative mir), du – dich (dative dir), wir – uns, ihr – euch. For example, er wäscht sich (he washes himself), but ich wasche mich.",
+        "Other persons use other forms: ich – mich, du – dich, wir – uns, ihr – euch. For example, er wäscht sich (he washes himself), but ich wasche mich.",
         "Many German verbs are reflexive (sich freuen, sich setzen, sich vorstellen), while their English equivalents often have no reflexive pronoun: to be pleased, to sit down, to introduce oneself."
       ],
       "examples": [
@@ -30422,7 +30421,7 @@ const A1_WORDS = [
       "translation": "Time (moment / period of time)",
       "explanation": [
         "Main idea: die Zeit is a feminine noun; the plural is die Zeiten. It means time as a moment, a period or an opportunity: Ich habe keine Zeit. Zeit haben means to be free, Zeit brauchen to need time.",
-        "Common phrases: zurzeit (at the moment; zur Zeit as two words means “at the time of”: zur Zeit Goethes), die Zeit vergeht (time passes), Es ist Zeit (it is time). In the plural, die Zeiten means eras or periods: in schweren Zeiten.",
+        "Common phrases: zurzeit (at the moment), die Zeit vergeht (time passes), Es ist Zeit (it is time). In the plural, die Zeiten means eras or periods: in schweren Zeiten.",
         "The weather is called das Wetter, not die Zeit."
       ],
       "examples": [

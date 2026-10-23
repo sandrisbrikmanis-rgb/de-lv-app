@@ -17258,7 +17258,7 @@ const B2_WORDS = [
         "Después de in, en estas combinaciones va dativo: in dieser Hinsicht, in jeder Hinsicht."
       ],
       "important": [
-        "No confundas Hinsicht con Ansicht (opinión) ni con Absicht (intención).",
+        "Hinsicht no significa noticia ni información: eso es Nachricht o Information.",
         "Con hinsichtlich (con respecto a) va genitivo: hinsichtlich der Kosten."
       ],
       "sectionAccents": {
@@ -25487,7 +25487,7 @@ const B2_WORDS = [
       "explanation": [
         "Idea principal: sich verstellen significa fingir o disimular: cambiar el comportamiento o la actitud para que los demás no vean el verdadero carácter o los verdaderos sentimientos. La persona no se muestra natural.",
         "Es un verbo reflexivo: ich verstelle mich, er verstellt sich; en pretérito verstellte sich, en perfecto hat sich verstellt. Sin sich, verstellen significa también cambiar de sitio o tapar (den Weg verstellen, cerrar el paso; den Sitz verstellen, regular el asiento), así como cambiar la voz (die Stimme verstellen).",
-        "Si lo que quieres decir es hacerse pasar por alguien, el alemán usa sich ausgeben als (sich als Arzt ausgeben, hacerse pasar por médico); sich verstellen significa simplemente fingir o disimular."
+        "Si lo que quieres decir es hacerse pasar por alguien, el alemán usa sich ausgeben als (hacerse pasar por médico); sich verstellen significa simplemente fingir o disimular."
       ],
       "examples": [
         {
@@ -27136,7 +27136,7 @@ const B2_WORDS = [
         "El dativo es el destinatario: wem? → dem Studenten, der Familie."
       ],
       "important": [
-        "El participio es zugewiesen: el ge- se coloca entre zu y wiesen."
+        "El participio es zugewiesen: zu + gewiesen (weisen – wies – gewiesen)."
       ],
       "sectionAccents": {
         "explanation": {

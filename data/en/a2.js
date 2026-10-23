@@ -5844,7 +5844,7 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "To call out • To open • To call on",
       "explanation": [
-        "Main idea: aufrufen is a separable verb meaning to call out by name (a pupil, a passenger, a number), to open on a computer (a web page, a file) and to call on or appeal (for a strike, for calm).",
+        "Main idea: aufrufen is a separable verb meaning to call out by name (a pupil, a passenger, a number), to open on a computer (Webseite, Datei) and to call on or appeal (for a strike, for calm).",
         "Forms: ruft auf, rief auf, hat aufgerufen. When calling on someone to do something, use zu + dative: zum Streik aufrufen, zur Ruhe aufrufen. At school, aufrufen means that the teacher calls a pupil to answer.",
         "In computing, aufrufen means to call up or open a page: eine Seite aufrufen (to open a page), ein Programm aufrufen (to launch a program)."
       ],
@@ -8483,7 +8483,7 @@ const A2_WORDS = [
       "translation": "Farmer",
       "explanation": [
         "Main idea: der Bauer is a masculine noun meaning farmer, someone who works in the fields and in agriculture. A woman is die Bäuerin.",
-        "The word belongs to the weak (n-) declension: in the singular the nominative is der Bauer, but all other cases take Bauern (den Bauern, dem Bauern, des Bauern; the genitive des Bauers is rare). The plural is die Bauern.",
+        "The word belongs to the weak (n-) declension: in the singular the nominative is der Bauer, but all other cases take Bauern (den Bauern, dem Bauern, des Bauern). The plural is die Bauern.",
         "In chess, der Bauer is the pawn. Das Bauer (neuter) means a birdcage, but this is rarer."
       ],
       "examples": [
@@ -11285,7 +11285,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Watch the dative: jemandem etwas borgen is to lend, sich (dative) etwas von jemandem borgen is to borrow.",
-        "Leihen works the same way: jemandem etwas leihen (lend), sich etwas leihen (borrow)."
+        "If it is unclear whether you mean giving or taking, use verleihen (lend) or sich ausleihen (borrow)."
       ],
       "important": [
         "Borgen is colloquial; in writing and in formal style leihen is more common.",
@@ -11406,7 +11406,8 @@ const A2_WORDS = [
           },
           {
             "green": [
-              "leihen"
+              "verleihen",
+              "sich ausleihen"
             ]
           }
         ],
@@ -18517,7 +18518,7 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Solid • Firm",
       "explanation": [
-        "Main idea: fest is an adjective and adverb. It means solid (not liquid): feste Nahrung; steady, permanent: ein fester Job, ein fester Termin; and firmly, tightly: festhalten, fest schlafen (to sleep soundly).",
+        "Main idea: fest is an adjective and adverb. It means solid (not liquid): feste Nahrung; steady, permanent: ein fester Job, ein fester Termin; and firmly, tightly: fest halten, fest schlafen (to sleep soundly).",
         "Degrees of comparison: fest, fester, am festesten. Before a noun it takes an ending: ein festes Dach."
       ],
       "examples": [
@@ -25048,7 +25049,7 @@ const A2_WORDS = [
         "To be acquainted with a person or place use kennen; to know a fact use wissen."
       ],
       "important": [
-        "Wissen takes an accusative object for facts and information: Ich weiß das, Ich weiß die Antwort; you cannot know a person with wissen.",
+        "Wissen takes an accusative object with pronouns or information words (die Antwort, den Weg): Ich weiß das, Ich weiß es; you cannot know a person with wissen.",
         "For an ability use können: Ich kann schwimmen, not Ich weiß schwimmen."
       ],
       "sectionAccents": {
@@ -26934,7 +26935,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Die Kirsche is feminine: die Kirsche, die Kirschen.",
-        "The tree is usually called der Kirschbaum; die Kirsche normally means the fruit."
+        "The tree is usually called der Kirschbaum, but die Kirsche can also mean the tree (Die Kirschen blühen)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -37337,7 +37338,7 @@ const A2_WORDS = [
         "A line of people waiting is called a Schlange; Reihe is more a row or a sequence (Du bist an der Reihe)."
       ],
       "important": [
-        "To queue is normally the fixed phrase Schlange stehen (without an article); in der Schlange stehen means to be standing in the queue."
+        "Schlange stehen is a fixed phrase: not in der Schlange sein, but Schlange stehen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -37491,7 +37492,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Opposites: öffnen (to open); zu means closed, auf means open."
+        "Opposites: öffnen (to open); zu — geschlossen, auf — offen."
       ],
       "important": [
         "If a door has to be locked with a key, use abschließen, not just schließen."
@@ -45011,10 +45012,10 @@ const A2_WORDS = [
       ],
       "tip": [
         "Conjunction: während ... Verb am Ende. If a noun follows während, it is a preposition and needs the genitive.",
-        "German während never means until; for that, use bis: Warte, bis ich komme."
+        "When you mean 'until' rather than 'while', German uses bis."
       ],
       "important": [
-        "After the conjunction während the verb goes to the end of the clause, not into second position: ..., während ich arbeite.",
+        "After the conjunction während the verb goes to the end of the clause, not into second position: ..., während ich arbeite (not während arbeite ich).",
         "während does not mean when for a single event; use wenn or als for that."
       ],
       "sectionAccents": {
@@ -45222,7 +45223,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Scale: sicher (certainly) > wahrscheinlich (probably) > vielleicht (perhaps).",
-        "Word parts: wahr (true) + scheinlich (from scheinen, to seem): it seems true."
+        "Word parts: wahr (true) + scheinlich: it seems true."
       ],
       "important": [
         "wahrscheinlich is stronger than vielleicht: it means that something is more likely to happen than not.",
@@ -46969,7 +46970,7 @@ const A2_WORDS = [
       "translation": "Currently",
       "explanation": [
         "Main idea: zurzeit is an adverb meaning currently or at the moment. It describes a state in the present period that may change later.",
-        "The written abbreviation is zz. or zzt. (z. Z. stands for zur Zeit). The word does not change form. Synonyms are derzeit and im Moment.",
+        "The written abbreviation is zz. or zzt.. The word does not change form. Synonyms are derzeit and im Moment.",
         "Spelling: written as one word, zurzeit means currently. Written as two words, zur Zeit + genitive means at the time of something (zur Zeit Goethes – in Goethe's time)."
       ],
       "examples": [

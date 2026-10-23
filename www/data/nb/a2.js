@@ -437,7 +437,7 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "levere fra seg • gi bort • levere inn",
       "explanation": [
-        "Hovedpoeng: abgeben er et delbart verb som betyr å levere fra seg (noen andre tar imot): gibt ab, gab ab, hat abgegeben. Det brukes når man bringer noe og overlater det til en annen – lekser, en nøkkel, en frakk, en pakke. Ab står til slutt i setningen: Ich gebe den Schlüssel ab.",
+        "Hovedpoeng: abgeben er et delbart verb som betyr å levere fra seg (noen andre tar imot): gibt ab, gab ab, hat abgegeben. Det brukes når man bringer noe og overlater det til en annen – lekser, en nøkkel, en frakk, en pakke. Ab står til slutt i setningen.",
         "Stedet eller personen man leverer noe hos, angis ofte med an/bei: etwas an der Rezeption abgeben, etwas beim Nachbarn abgeben. Oppgaver og dokumenter leverer man inn til læreren eller et kontor: die Arbeit abgeben.",
         "Gir man noe tilbake, bruker man zurückgeben; leverer man en søknad offisielt, bruker man ofte einreichen."
       ],
@@ -496,7 +496,6 @@ const A2_WORDS = [
             "gab ab",
             "hat abgegeben",
             "abgegeben",
-            "gebe",
             "zurückgeben",
             "einreichen",
             "ab",
@@ -2438,7 +2437,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Angreifen krever akkusativ: Der Hund greift den Briefträger an. Norsk angripe er bygd på samme måte (an- + gripe), så ordet er lett å huske.",
+        "Angreifen krever akkusativ: den Briefträger. Norsk angripe er bygd på samme måte (an- + gripe), så ordet er lett å huske.",
         "Husk at forstavelsen skilles ut: ich greife an, men ich habe angegriffen."
       ],
       "important": [
@@ -6229,7 +6228,7 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "opptre • vise seg",
       "explanation": [
-        "Hovedpoeng: auftreten (av treten) er et delbart verb som betyr å vise seg eller oppstå (om et problem, en sykdom, et symptom) og å opptre (om en artist, en politiker eller en idrettsutøver).",
+        "Hovedpoeng: auftreten er et delbart verb som betyr å vise seg eller oppstå (om et problem, en sykdom, et symptom) og å opptre (om en artist, en politiker eller en idrettsutøver).",
         "Former: tritt auf, trat auf, ist aufgetreten. I perfektum brukes hjelpeverbet sein, fordi det er et verb for bevegelse eller hendelse uten objekt. Forstavelsen auf- skilles fra i setningen.",
         "I tillegg betyr auftreten å oppføre seg: Er tritt sicher auf (han opptrer selvsikkert). I bokstavelig betydning er det å trå på foten: Mit dem kranken Fuß kann ich nicht auftreten."
       ],
@@ -6281,7 +6280,6 @@ const A2_WORDS = [
           "blue": [
             "auftreten",
             "tritt",
-            "treten",
             "aufgetreten",
             "auf"
           ],
@@ -9221,7 +9219,7 @@ const A2_WORDS = [
       "translation": "beholde • huske",
       "explanation": [
         "Hovedpoeng: behalten er et sterkt verb som betyr å beholde (noe for seg selv, ikke gi det tilbake) og å huske eller ha i hodet (ord, numre, informasjon).",
-        "Former: behält, behielt, hat behalten (ich behalte). Forstavelsen be- er ikke delbar. Det følges av akkusativ: das Buch behalten, die Namen behalten.",
+        "Former: behält, behielt, hat behalten. Forstavelsen be- er ikke delbar. Det følges av akkusativ: das Buch behalten, die Namen behalten.",
         "I overført betydning betyr etwas für sich behalten å holde noe for seg selv og ikke fortelle det videre (en hemmelighet, en tanke)."
       ],
       "examples": [
@@ -9272,8 +9270,7 @@ const A2_WORDS = [
           "blue": [
             "behalten",
             "behält",
-            "behielt",
-            "behalte"
+            "behielt"
           ],
           "purple": [
             "beholde",
@@ -11270,7 +11267,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Legg merke til dativen: jemandem etwas borgen er å låne ut, sich (Dat.) etwas von jemandem borgen er å låne.",
-        "Er det uklart om det er snakk om å gi eller å ta, bruker du leihen eller ausleihen."
+        "Er det uklart om det er snakk om å gi eller å ta, bruker du verleihen (låne ut) eller sich ausleihen (låne)."
       ],
       "important": [
         "Borgen er et muntlig ord; i skrift og formell stil brukes oftere leihen.",
@@ -11391,8 +11388,8 @@ const A2_WORDS = [
           },
           {
             "green": [
-              "leihen",
-              "ausleihen"
+              "ausleihen",
+              "verleihen"
             ]
           }
         ],
@@ -18550,7 +18547,7 @@ const A2_WORDS = [
         "Fast som aggregattilstand: fest ↔ flüssig; hard å ta på eller vanskelig: hart."
       ],
       "important": [
-        "Ikke bland sammen fest (fast, stabil) og hart (hard å ta på, vanskelig). Og pass på: tysk fast betyr nesten, ikke norsk fast."
+        "Ikke bland sammen fest (fast, stabil) og hart (hard å ta på, vanskelig)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -23353,7 +23350,7 @@ const A2_WORDS = [
         "I konstruksjonen je … desto … står begge ledd i komparativ: je mehr, desto besser – akkurat som norsk jo mer, desto bedre."
       ],
       "important": [
-        "Ikke forveks je med jede (hver) og med ja (ja). Norsk «jo» som svar på et nektende spørsmål heter doch på tysk.",
+        "Ikke forveks je med jede (hver) og med ja (ja).",
         "Etter je uten tallord står substantivet i entall: je Stück, je Person."
       ],
       "sectionAccents": {
@@ -23884,7 +23881,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Lær paret der Kamm – die Kämme og verbet kämmen (ich kämme).",
+        "Lær paret der Kamm – die Kämme og verbet kämmen.",
         "Nært beslektet er die Bürste (børste), som også brukes til håret, men det er ikke en kam."
       ],
       "important": [
@@ -25391,7 +25388,7 @@ const A2_WORDS = [
       "explanation": [
         "Hovedpoeng: die Kerze er et hunkjønnssubstantiv som betyr stearinlys, et lys man tenner for å få lys, til fest eller for stemningens skyld.",
         "Flertall er die Kerzen. Vanlige forbindelser: eine Kerze anzünden (tenne et lys), eine Kerze ausblasen (blåse ut et lys), die Kerzen am Geburtstagskuchen (lysene på bursdagskaken).",
-        "Sammensetninger: die Geburtstagskerze, die Weihnachtskerze, der Kerzenständer (lysestake). Merk: norsk lys kan bety både Kerze og Licht."
+        "Sammensetninger: die Geburtstagskerze, die Weihnachtskerze, der Kerzenständer (lysestake)."
       ],
       "examples": [
         {
@@ -26918,7 +26915,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Die Kirsche er hunkjønn: die Kirsche, die Kirschen.",
-        "Navnet på frukten er ikke navnet på treet: treet heter der Kirschbaum."
+        "Treet heter vanligvis der Kirschbaum, men die Kirsche kan også bety treet (Die Kirschen blühen)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -27655,7 +27652,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Lær dem som faste uttrykk: Alles klar? og Klar! er svært vanlige i hverdagssamtaler.",
-        "Klar passer både for øyet og forstanden: klart vann og en klar tanke. Men norsk klar i betydningen «ferdig» heter fertig eller bereit på tysk."
+        "Klar passer både for øyet og forstanden: klart vann og en klar tanke."
       ],
       "important": [
         "Klar som svar er muntlig; i formell stil er natürlich eller selbstverständlich bedre.",
@@ -33164,7 +33161,7 @@ const A2_WORDS = [
       "translation": "bruke • utnytte",
       "explanation": [
         "Hovedtanken: nutzen betyr å bruke, utnytte noe til egen fordel: tid, en mulighet, et apparat, en tjeneste. Etter nutzen følger akkusativ: Wir nutzen diese Chance.",
-        "Former: (ich) nutze, nutzt, nutzte, hat genutzt. Et regelrett verb. Nutzen kan også bety å være til nytte (Das nutzt mir nichts); da står personen i dativ. I denne betydningen brukes ofte formen nützen: Das nützt mir nichts – jamfør norsk nytte.",
+        "Former: nutzt, nutzte, hat genutzt. Et regelrett verb. Nutzen kan også bety å være til nytte (Das nutzt mir nichts); da står personen i dativ. I denne betydningen brukes ofte formen nützen: Das nützt mir nichts – jamfør norsk nytte.",
         "Benutzen betyr vanligvis å bruke noe som redskap (den Computer benutzen); nutzen er videre og gjelder ofte tid, muligheter og tjenester."
       ],
       "examples": [
@@ -33218,7 +33215,6 @@ const A2_WORDS = [
         "explanation": {
           "blue": [
             "nutzen",
-            "nutze",
             "nutzt",
             "nutzte",
             "genutzt",
@@ -35324,7 +35320,7 @@ const A2_WORDS = [
       "explanation": [
         "Hovedtanken: rechnen betyr å utføre matematiske operasjoner, altså regne, regne ut. Uten objekt: Er kann gut rechnen. Med tall: Er rechnet im Kopf.",
         "Former: rechnet, rechnete, hat gerechnet. Med preposisjonen mit + dativ betyr det «regne med noe, vente noe»: Wir rechnen mit Regen.",
-        "Det delbare verbet ausrechnen betyr å regne ut; substantivet die Rechnung er en regning. Pass på: norsk regne om nedbør heter regnen på tysk."
+        "Det delbare verbet ausrechnen betyr å regne ut; substantivet die Rechnung er en regning."
       ],
       "examples": [
         {
@@ -38434,7 +38430,7 @@ const A2_WORDS = [
       "translation": "befinne seg • være",
       "explanation": [
         "Hovedbetydning: sich befinden er et refleksivt verb som betyr å befinne seg et sted – akkurat som norsk befinne seg. Det er litt mer formelt enn sein eller liegen.",
-        "Former: befindet sich, befand sich, hat sich befunden. I hverdagen: Das Hotel befindet sich in der Nähe. Vanligvis følger det en stedsangivelse (wo? – hvor?)."
+        "Former: befindet sich, befand sich, hat sich befunden. I hverdagen: Das Hotel befindet sich in der Nähe. Vanligvis følger det en stedsangivelse (hvor?)."
       ],
       "examples": [
         {
@@ -41878,7 +41874,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Toll! er et praktisk utrop for å vise begeistring i hverdagssamtaler. Merk: norsk toll (ved grensen) heter der Zoll på tysk."
+        "Toll! er et praktisk utrop for å vise begeistring i hverdagssamtaler."
       ],
       "important": [
         "Toll er et muntlig ord; i mer formelle tekster bruker man oftere hervorragend eller ausgezeichnet."
@@ -44995,10 +44991,10 @@ const A2_WORDS = [
       ],
       "tip": [
         "Konjunksjon: während ... Verb am Ende. Hvis det følger et substantiv etter während, er det en preposisjon og krever genitiv.",
-        "Norsk «mens» betyr aldri «til»; når noe varer fram til et bestemt tidspunkt, bruker tysk bis: Warte, bis ich komme."
+        "Norsk «mens» betyr aldri «til»; når noe varer fram til et bestemt tidspunkt, bruker tysk bis."
       ],
       "important": [
-        "Etter konjunksjonen während står verbet aldri på andreplass: ..., während ich arbeite (ikke während ich arbeite ich).",
+        "Etter konjunksjonen während står verbet aldri på andreplass: ..., während ich arbeite (ikke während arbeite ich).",
         "während betyr ikke når om en enkelt hendelse – da bruker man wenn eller als (omtrent som norsk når og da)."
       ],
       "sectionAccents": {
@@ -49681,7 +49677,7 @@ const A2_WORDS = [
       ],
       "important": [
         "noch nicht og nicht mehr er motsetninger: det første betyr ikke ennå, det andre ikke lenger.",
-        "Ikke bland noch sammen med nach (etter). Og pass på: norsk «nok» heter genug eller wohl på tysk, ikke noch."
+        "Ikke bland noch sammen med nach (etter)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -50899,7 +50895,7 @@ const A2_WORDS = [
         "Som svar på et ønske sier man Danke, gleichfalls! eller Danke, ebenfalls! (takk, i like måte); Ich auch! (jeg også) bruker man når man er enig i en påstand: Ich bin müde. – Ich auch!"
       ],
       "important": [
-        "auch er det vanligste ordet for også; ikke bland det sammen med noch (ennå). Pass også på: tysk also betyr altså eller derfor, ikke også.",
+        "auch er det vanligste ordet for også; ikke bland det sammen med noch (ennå).",
         "I nektende setninger sier man auch nicht eller auch kein (heller ikke): Ich habe auch kein Geld."
       ],
       "sectionAccents": {

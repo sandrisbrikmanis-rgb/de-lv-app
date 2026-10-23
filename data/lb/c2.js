@@ -184,7 +184,7 @@ const C2_WORDS = [
       "explanation": [
         "Haaptiddi: die Gewichtseinheit ass eng Gewiichtseenheet, mat där d'Gewiicht gemooss gëtt: Gramm, Kilo, Tonn, Pond.",
         "Feminint zesummegesat Substantiv: die Gewichtseinheit, Pluralform die Gewichtseinheiten. Et besteet aus das Gewicht (d'Gewiicht) an die Einheit (d'Eenheet).",
-        "D'Wuert ass technesch an neutral; am Alldag benotzt ee meeschtens déi konkreet Eenheeten (Kilogramm, Gramm, Pond)."
+        "D'Wuert ass technesch an neutral; am Alldag benotzt ee meeschtens déi konkreet Eenheeten (Kilogramm, Gramm, Pfund)."
       ],
       "examples": [
         {

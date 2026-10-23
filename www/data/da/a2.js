@@ -5279,7 +5279,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Taler man om skole, forening eller hospital, betyder det optagelse eller indlæggelse; om musik eller video en optagelse; om et kamera et billede.",
-        "Med machen udtrykker man et billede eller en optagelse: eine Aufnahme machen."
+        "Med machen udtrykker man et billede eller en optagelse, med in optagelse: eine Aufnahme machen."
       ],
       "important": [
         "Aufnahme er hunkøn: die Aufnahme, i flertal die Aufnahmen.",
@@ -8512,7 +8512,7 @@ const A2_WORDS = [
         "Hunkønsformen er die Bäuerin (med omlyd)."
       ],
       "important": [
-        "N-bøjning: ich sehe den Bauern (den Bauer er sjældent).",
+        "N-bøjning: ich sehe den Bauern, ikke den Bauer.",
         "Der Bauer i skak er ikke en landmand, men en bonde."
       ],
       "sectionAccents": {
@@ -11276,7 +11276,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Læg mærke til dativen: jemandem etwas borgen betyder at låne ud, sich (dativ) etwas von jemandem borgen betyder at låne.",
-        "Er det uklart, om man giver eller tager, så brug leihen eller ausleihen."
+        "Er det uklart, om man giver eller tager, så brug verleihen (låne ud) eller sich ausleihen (låne)."
       ],
       "important": [
         "Borgen hører til talesproget; i skrift og formel stil bruger man oftere leihen.",
@@ -11397,8 +11397,8 @@ const A2_WORDS = [
           },
           {
             "green": [
-              "leihen",
-              "ausleihen"
+              "ausleihen",
+              "verleihen"
             ]
           }
         ],
@@ -13924,7 +13924,7 @@ const A2_WORDS = [
       "translation": "Tæppe",
       "explanation": [
         "Hovedtanken: die Decke er et navneord i hunkøn, flertal die Decken. Det betyder tæppe (også plaid eller dyne), som man dækker sig med, men også loftet i et rum.",
-        "Hvilket tæppe der menes, viser sammensætningerne som regel: die Bettdecke (dyne), die Tischdecke (dug), die Wolldecke (uldtæppe). Loftet hedder die Zimmerdecke eller blot die Decke. Pas på: et tæppe på gulvet hedder der Teppich."
+        "Hvilket tæppe der menes, viser sammensætningerne som regel: die Bettdecke (dyne), die Tischdecke (dug), die Wolldecke (uldtæppe). Loftet hedder die Zimmerdecke eller blot die Decke."
       ],
       "examples": [
         {
@@ -18566,7 +18566,7 @@ const A2_WORDS = [
         "Fast som tilstandsform: fest ↔ flüssig; hård at røre ved eller svær: hart."
       ],
       "important": [
-        "Forveksl ikke fest (fast, stabil) med hart (hård, svær). Og husk: navneordet das Fest betyder en fest."
+        "Forveksl ikke fest (fast, stabil) med hart (hård, svær)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -19654,7 +19654,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Der Gang forbinder rum; på menukortet står Vorspeise, Hauptgang, Nachtisch. Bemærk: dansk en gang (om tid) hedder på tysk einmal."
+        "Der Gang forbinder rum; på menukortet står Vorspeise, Hauptgang, Nachtisch."
       ],
       "important": [
         "Forveksl ikke der Gang (gang; gangart) med die Gasse (smal gade)."
@@ -23369,7 +23369,7 @@ const A2_WORDS = [
         "I konstruktionen je … desto … står begge dele i komparativ: je mehr, desto besser – præcis som dansk jo mere, desto bedre."
       ],
       "important": [
-        "Forveksl ikke je med jede (hver) og med ja (ja). Dansk jo som svar hedder på tysk doch.",
+        "Forveksl ikke je med jede (hver) og med ja (ja).",
         "Efter je uden talord står navneordet i ental: je Stück, je Person."
       ],
       "sectionAccents": {
@@ -24634,7 +24634,7 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Tjener",
       "explanation": [
-        "Kort sagt: der Kellner er et navneord i hankøn og betyder en tjener, som bringer mad og drikke på en restaurant eller café. En kvindelig tjener hedder die Kellnerin. Pas på: ordet ligner Keller (kælder) og har samme oprindelse (en kældermester), men i dag betyder Kellner kun tjener.",
+        "Kort sagt: der Kellner er et navneord i hankøn og betyder en tjener, som bringer mad og drikke på en restaurant eller café. En kvindelig tjener hedder die Kellnerin.",
         "Flertal er die Kellner (mænd) og die Kellnerinnen (kvinder). Bøjning: der Kellner, den Kellner, dem Kellner, des Kellners.",
         "Vil man kalde på tjeneren, siger man bedst Entschuldigung!; tiltalen Herr Ober! anses i dag for gammeldags."
       ],
@@ -26924,7 +26924,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Die Kirsche er hunkøn: die Kirsche, die Kirschen.",
-        "Frugtens navn er ikke træets navn: træet hedder der Kirschbaum."
+        "Træet hedder normalt der Kirschbaum, men die Kirsche kan også betyde træet (Die Kirschen blühen)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -27616,7 +27616,7 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Klar",
       "explanation": [
-        "Kort sagt: klar er et tillægsord og en partikel. Det betyder klar: lys, gennemsigtig (klares Wasser), forståelig (eine klare Antwort) eller uomtvistelig. I daglig tale betyder Klar! selvfølgelig. Pas på: dansk klar i betydningen parat hedder på tysk fertig eller bereit.",
+        "Kort sagt: klar er et tillægsord og en partikel. Det betyder klar: lys, gennemsigtig (klares Wasser), forståelig (eine klare Antwort) eller uomtvistelig. I daglig tale betyder Klar! selvfølgelig.",
         "Gradbøjning: klar, klarer, am klarsten. Hyppige vendinger: Ist das klar? (er det klart?), Alles klar? (er alt i orden?), Das ist mir klar (det er klart for mig).",
         "Som tillægsord foran et navneord får det endelse: ein klarer Himmel (en klar himmel); som biord er det uændret: klar sprechen (tale tydeligt)."
       ],
@@ -29147,7 +29147,7 @@ const A2_WORDS = [
       "explanation": [
         "Kort sagt: die Lage er et navneord i hunkøn og betyder situation, tilstand (die wirtschaftliche Lage) samt beliggenhed, altså det sted, hvor noget ligger (die Lage der Stadt, byens beliggenhed).",
         "Flertal er die Lagen. Hyppige forbindelser: in einer schwierigen Lage sein (være i en svær situation), die Lage prüfen (vurdere situationen), in der Lage sein, etwas zu tun (være i stand til at gøre noget).",
-        "Lage ligger tæt på ordet die Situation, men kan også betyde beliggenhed. Pas på: dansk lag hedder på tysk die Schicht."
+        "Lage ligger tæt på ordet die Situation, men kan også betyde beliggenhed."
       ],
       "examples": [
         {
@@ -35324,7 +35324,7 @@ const A2_WORDS = [
       "translation": "At regne",
       "explanation": [
         "Grundbetydning: rechnen betyder at udføre matematiske operationer, altså at regne eller regne ud. Uden objekt: Er kann gut rechnen. Med tal: Er rechnet im Kopf.",
-        "Former: rechnet, rechnete, hat gerechnet. Med forholdsordet mit + dativ betyder det „regne med noget, forvente noget“: Wir rechnen mit Regen. Pas på: når det regner (nedbør), hedder det på tysk regnen, ikke rechnen.",
+        "Former: rechnet, rechnete, hat gerechnet. Med forholdsordet mit + dativ betyder det „regne med noget, forvente noget“: Wir rechnen mit Regen.",
         "Det adskillelige udsagnsord ausrechnen betyder at regne ud; navneordet die Rechnung er en regning."
       ],
       "examples": [
@@ -36845,7 +36845,7 @@ const A2_WORDS = [
       "explanation": [
         "Grundbetydning: scharf er et tillægsord med flere betydninger. Om en genstand betyder det skarp (scharfes Messer – skarp kniv), om mad betyder det stærk og krydret (scharfes Essen). I overført betydning kan det også være skarp eller kraftig: eine scharfe Kurve (et skarpt sving), scharf bremsen (bremse hårdt).",
         "Gradbøjning: højere grad schärfer (med omlyd), højeste grad am schärfsten. Foran et navneord: ein scharfes Messer, scharfe Soße.",
-        "For danskere er det nyttigt at huske: om mad svarer scharf til det danske stærk (chili, peberrod) – brug ikke stark, som betyder kraftig. Salt smag hedder salzig."
+        "For danskere er det nyttigt at huske: om mad svarer scharf til det danske stærk (chili, peberrod). Salt smag hedder salzig."
       ],
       "examples": [
         {
@@ -37284,7 +37284,7 @@ const A2_WORDS = [
       "translation": "Slange • Kø",
       "explanation": [
         "Grundbetydning: die Schlange er et ord med to betydninger: slange (dyret) og kø (mennesker, der venter ved en kasse eller en indgang). Flertal: die Schlangen.",
-        "At stå i kø hedder på tysk Schlange stehen. Typiske ord om slanger er giftig (giftig) og beißen (bide). Bemærk: en haveslange hedder der Schlauch."
+        "At stå i kø hedder på tysk Schlange stehen. Typiske ord om slanger er giftig (giftig) og beißen (bide)."
       ],
       "examples": [
         {
@@ -38431,7 +38431,7 @@ const A2_WORDS = [
       "translation": "At befinde sig",
       "explanation": [
         "Grundbetydning: sich befinden er et refleksivt udsagnsord, der betyder at befinde sig et sted – præcis som på dansk. Det er lidt mere formelt end sein eller liegen.",
-        "Former: befindet sich, befand sich, hat sich befunden. I hverdagen: Das Hotel befindet sich in der Nähe. Normalt følger der en stedsangivelse (wo? – hvor?)."
+        "Former: befindet sich, befand sich, hat sich befunden. I hverdagen: Das Hotel befindet sich in der Nähe. Normalt følger der en stedsangivelse (hvor?)."
       ],
       "examples": [
         {
@@ -43456,7 +43456,7 @@ const A2_WORDS = [
       "translation": "Trafik",
       "explanation": [
         "Hovedtanke: der Verkehr er trafik – bevægelsen af køretøjer og mennesker på vejene og i den offentlige transport. Det er et hankønsord, som normalt kun bruges i ental.",
-        "Almindelige udtryk: viel Verkehr (meget trafik), der Straßenverkehr (vejtrafik), der öffentliche Verkehr (den offentlige trafik), den Verkehr regeln (dirigere trafikken)."
+        "Almindelige udtryk: viel Verkehr haben (have meget trafik), der Straßenverkehr (vejtrafik), der öffentliche Verkehr (den offentlige trafik), den Verkehr regeln (dirigere trafikken)."
       ],
       "examples": [
         {
@@ -44985,7 +44985,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Bindeord: während ... udsagnsord til sidst. Hvis während efterfølges af et navneord, er det et forholdsord og kræver genitiv.",
+        "Bindeord: während ... Verb am Ende (udsagnsord til sidst). Hvis während efterfølges af et navneord, er det et forholdsord og kræver genitiv.",
         "Betyder dansk „til“ eller „indtil“ (vent, til jeg kommer), hedder det bis på tysk, ikke während."
       ],
       "important": [
@@ -49669,7 +49669,7 @@ const A2_WORDS = [
       ],
       "important": [
         "noch nicht og nicht mehr er modsætninger: det første betyder endnu ikke, det andet ikke længere.",
-        "Forveksl ikke noch med nach (efter) – og heller ikke med dansk „nok“, der på tysk hedder genug eller wohl."
+        "Forveksl ikke noch med nach (efter)."
       ],
       "sectionAccents": {
         "explanation": {

@@ -1996,7 +1996,7 @@ const B1_WORDS = [
       "translation": "letesz",
       "explanation": [
         "Fő gondolat: az ablegen elváló igekötős ige: legt ab, legte ab, hat abgelegt. Jelentése: letesz valamit, amit vittél, vagy levet valamit, amit viseltél: Mantel, Tasche ablegen.",
-        "A Dokumente ablegen jelentése: iratokat lefűz, mappába vagy irattárba tesz. Az eine Prüfung ablegen jelentése: vizsgát tesz. Hajóról az ablegen azt jelenti: kifut, elhagyja a partot.",
+        "Iratokról szólva az ablegen jelentése: lefűz, mappába vagy irattárba tesz. Vizsgáról szólva az ablegen jelentése: vizsgát tesz. Hajóról az ablegen azt jelenti: kifut, elhagyja a partot.",
         "Átvitt értelemben az ablegen jelentheti: levetkőz, felhagy valamivel: eine Gewohnheit ablegen (felhagy egy szokással)."
       ],
       "examples": [
@@ -5628,7 +5628,7 @@ const B1_WORDS = [
         "Hivatalos nyelvben: Ausländer halten sich in Deutschland auf (külföldiek tartózkodnak Németországban)."
       ],
       "important": [
-        "Ez az ige hivatalosabb, mint a bleiben; a mindennapokban gyakran egyszerűen sein vagy bleiben.",
+        "Ez az ige hivatalosabb, mint a bleiben; a mindennapokban gyakran egyszerűen „lenni” vagy bleiben.",
         "Nem azt jelenti, hogy lakik; a wohnen az állandó lakóhelyre vonatkozik."
       ],
       "sectionAccents": {
@@ -14158,7 +14158,7 @@ const B1_WORDS = [
       "explanation": [
         "Fő gondolat: a dahin jelentése oda, arra a helyre – egy korábban említett hely felé mutató irányt jelöl. A wohin? (hová?) kérdésre felel: Gehst du dahin? – Odamész?",
         "Időbeli jelentésben is használják: bis dahin (addig, akkorra): Bis dahin habe ich alles erledigt. Átvitt értelemben a dahin sein jelentése: odavan, elveszett: Das Geld ist dahin.",
-        "A dort (ott – a wo? kérdésre) szóval ellentétben a dahin mozgást jelöl."
+        "A dort (ott, hol?) szóval ellentétben a dahin mozgást jelöl."
       ],
       "examples": [
         {
@@ -16856,7 +16856,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Az eher nem ugyanaz, mint a früher: a früher jelentése „régen, egykor”, az eheré „korábban valaminél”.",
-        "Összehasonlító jelentésben az eher után als következik: eher A als B."
+        "Összehasonlító jelentésben az eher után als következik (nem wie): eher A als B."
       ],
       "sectionAccents": {
         "explanation": {
@@ -25452,7 +25452,7 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "lusta",
       "explanation": [
-        "Fő gondolat: a faul melléknév, két jelentéssel: lusta (olyan ember, akinek nincs kedve dolgozni) és rohadt, romlott (étel, tojás, fa). Átvitt értelemben az eine faule Ausrede átlátszó kifogás.",
+        "Fő gondolat: a faul melléknév, két jelentéssel: lusta (olyan ember, akinek nincs kedve dolgozni) és rohadt, romlott (étel, tojás, fa). Átvitt értelemben a faule Ausrede átlátszó kifogás.",
         "A szó ragozható: ein fauler Schüler, ein fauler Apfel. Középfok és felsőfok: fauler, am faulsten. Főnév: die Faulheit (lustaság); ige: faulenzen – lustálkodik, henyél."
       ],
       "examples": [
@@ -25790,7 +25790,7 @@ const B1_WORDS = [
         "Az átvitt jelentésnél jegyezd meg az elöljárószót: festhalten an etwas (kitart valami mellett)."
       ],
       "important": [
-        "Ne keverd össze a festhalten (erősen tart) és a festnehmen (őrizetbe vesz) igét: az első csak tartás, a második rendőri intézkedés.",
+        "Ne keverd össze a festhalten (erősen tart) és a festnehmen (őrizetbe vesz) igét: az első tartás (azt is jelenti: nem engedni elmenni, visszatartani), a második hivatalos letartóztatás.",
         "Átvitt értelemben an + Dativ áll, nem Akkusativ: an dem Plan, nem an den Plan."
       ],
       "sectionAccents": {
@@ -38365,7 +38365,7 @@ const B1_WORDS = [
         "Ha technikáról van szó, inkább a funktionieren illik; a klappen tervekhez és megállapodásokhoz illik jobban."
       ],
       "important": [
-        "A klappen igét általában Dativ (részes eset) személy nélkül használják: azt mondják Es klappt, nem pedig Ich klappe.",
+        "A klappen igét általában nem használják úgy, hogy egy személy az alany: azt mondják Es klappt, nem pedig Ich klappe.",
         "A Perfekt alakja hat geklappt, nem ist geklappt."
       ],
       "sectionAccents": {
@@ -46028,7 +46028,7 @@ const B1_WORDS = [
       ],
       "important": [
         "A das Maß szót ß-szel írjuk, mert a magánhangzó hosszú.",
-        "Többes száma die Maße (méretek); a Maßen alak csak az über alle Maßen kifejezésben fordul elő."
+        "Többes száma die Maße (méretek); részes esetben den Maßen (in Maßen, über alle Maßen)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -49320,7 +49320,7 @@ const B1_WORDS = [
       ],
       "important": [
         "A das Objekt semlegesnemű.",
-        "Nyelvtani értelemben a das Objekt mondatrész (magyarul tárgy vagy részes határozó), nem kézzelfogható dolog; kézzelfogható tárgyra a der Gegenstand szót használd."
+        "Nyelvtani értelemben a das Objekt mondatrész (magyarul tárgy vagy részes határozó), nem kézzelfogható dolog."
       ],
       "sectionAccents": {
         "explanation": {
@@ -54229,7 +54229,7 @@ const B1_WORDS = [
       ],
       "tip": [
         "A richten an + Akk szerkezetet akkor használd, ha valamit egy személy felé irányítasz; a sich richten nach + Dat szerkezetet, ha alkalmazkodsz.",
-        "A Blick richten auf etwas kifejezést egy egységként tanuld meg."
+        "Például a den Blick auf etwas richten kifejezést egy egységként tanuld meg."
       ],
       "important": [
         "Ne keverd össze a richten (irányít) igét az aufrichten (felállít, felegyenesít) vagy az ausrichten (átad, megszervez) igével.",
@@ -63194,7 +63194,7 @@ const B1_WORDS = [
       ],
       "tip": [
         "A szoptatás stillen, a cumisüvegből etetés pedig mit der Flasche füttern.",
-        "A Durst és a Hunger szóval a stillen vagy a löschen használatos (Durst löschen)."
+        "A Durst szóval a stillen vagy a löschen használatos (Durst löschen), a Hunger szóval csak a stillen."
       ],
       "important": [
         "A stillen nem azonos a still sein (csendben van) kifejezéssel.",
@@ -66318,7 +66318,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Többes számban az alak nem változik: die Titel.",
-        "A der Titel jelentheti egy könyv címét és egy személy rangját is; hogy melyikről van szó, a szövegkörnyezetből derül ki. Vigyázz: a magyar „cím” postai címet is jelent – az németül die Adresse, nem Titel."
+        "A der Titel jelentheti egy könyv címét és egy személy rangját is; hogy melyikről van szó, a szövegkörnyezetből derül ki."
       ],
       "sectionAccents": {
         "explanation": {
@@ -79068,7 +79068,7 @@ const B1_WORDS = [
         "Mindig tedd hozzá a visszaható névmást: er befindet sich, wir befinden uns."
       ],
       "important": [
-        "A sich befinden nem jelenti azt, hogy talál (finden) vagy hogy érzi magát; csak helyet vagy állapotot jelöl.",
+        "A sich befinden nem jelenti azt, hogy talál (finden); helyet vagy állapotot jelöl (választékos nyelvben a közérzetet is).",
         "Perfektben a segédige haben (hat sich befunden), de elbeszélésben gyakoribb a Präteritum: befand sich."
       ],
       "sectionAccents": {

@@ -9219,7 +9219,7 @@ const B2_WORDS = [
       "translation": "Zdržet se",
       "explanation": [
         "Hlavní myšlenka: sich enthalten znamená vědomě něčeho zdržet se – něco nedělat, nepožívat, nehlasovat. Jazyk je formální, knižní.",
-        "Následuje genitiv: sich der Stimme enthalten (zdržet se hlasování), sich jedes Kommentars enthalten. Tvary: enthält sich, enthielt sich, hat sich enthalten.",
+        "Následuje genitiv: sich der Stimme enthalten (zdržet se hlasování), sich jeden Kommentars enthalten. Tvary: enthält sich, enthielt sich, hat sich enthalten.",
         "Bez sich znamená sloveso enthalten obsahovat: Das Getränk enthält Zucker."
       ],
       "examples": [
@@ -25484,7 +25484,7 @@ const B2_WORDS = [
       "explanation": [
         "Hlavní myšlenka: sich verstellen znamená předstírat, měnit své chování, aby druzí neviděli skutečnou povahu nebo city. Člověk pak není přirozený.",
         "Sloveso je zvratné: ich verstelle mich, er verstellt sich; v préteritu verstellte sich, v perfektu hat sich verstellt. Bez sich znamená verstellen také přestavit nebo zatarasit (den Weg verstellen – zatarasit cestu; den Sitz verstellen – nastavit sedadlo) a také měnit hlas (die Stimme verstellen).",
-        "Význam „vydávat se za“ přesněji vystihuje spojení sich ausgeben als (sich als Arzt ausgeben – vydávat se za lékaře); samotné sich verstellen obvykle znamená jen předstírat, hrát divadlo."
+        "Význam „vydávat se za“ přesněji vystihuje spojení sich ausgeben als (vydávat se za lékaře); samotné sich verstellen obvykle znamená jen předstírat, hrát divadlo."
       ],
       "examples": [
         {
@@ -27132,7 +27132,7 @@ const B2_WORDS = [
         "Dativ označuje příjemce: wem? – dem Studenten, der Familie."
       ],
       "important": [
-        "Příčestí minulé je zugewiesen – ge- se vkládá mezi zu a weisen."
+        "Příčestí minulé je zugewiesen – zu + gewiesen (weisen – wies – gewiesen)."
       ],
       "sectionAccents": {
         "explanation": {

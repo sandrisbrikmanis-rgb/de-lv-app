@@ -3816,7 +3816,7 @@ const B2_WORDS = [
         "Often only (nur) is added: Ich beschränke mich nur auf …"
       ],
       "important": [
-        "Do not translate to literally: the German preposition is auf (sich beschränken auf), not zu.",
+        "Do not translate 'limit oneself with' literally: the German preposition is auf, not mit.",
         "Sich beschränken is not the same as sich begnügen: the first expresses limiting yourself, the second being content with less."
       ],
       "sectionAccents": {
@@ -25202,7 +25202,7 @@ const B2_WORDS = [
       "explanation": [
         "Main idea: sich verstellen means to pretend, or to change your behaviour so that others cannot see your real character or feelings. The person is then not being natural.",
         "The verb is reflexive: ich verstelle mich, er verstellt sich; simple past verstellte sich, perfect hat sich verstellt. Without sich, verstellen also means to move or block (den Weg verstellen – to block the way; den Sitz verstellen – to adjust the seat) and to disguise your voice (die Stimme verstellen).",
-        "To impersonate someone, in the sense of passing yourself off as a doctor, say, is closer to sich ausgeben als (sich als Arzt ausgeben); sich verstellen on its own usually just means to put on an act."
+        "To impersonate someone, in the sense of passing yourself off as a doctor, say, is closer to sich ausgeben als; sich verstellen on its own usually just means to put on an act."
       ],
       "examples": [
         {
@@ -26850,7 +26850,7 @@ const B2_WORDS = [
         "The dative is the recipient: wem? – dem Studenten, der Familie."
       ],
       "important": [
-        "The past participle is zugewiesen – the ge- goes between zu and weisen."
+        "The past participle is zugewiesen – zu + gewiesen (weisen – wies – gewiesen)."
       ],
       "sectionAccents": {
         "explanation": {

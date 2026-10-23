@@ -521,7 +521,7 @@ const A1_WORDS = [
         "Uz dane u sedmici i dijelove dana koristi se am: am Dienstag, am Morgen."
       ],
       "important": [
-        "Bosansko 'na' nije uvijek an: na stolu je auf dem Tisch, a boravak 'kod nekoga' (u posjeti, kod kuće) je bei.",
+        "Bosansko 'kod' nije uvijek an: boravak 'kod nekoga' (u posjeti, kod kuće) je bei.",
         "Uz glagole poput denken an i glauben an, an + akuzativ odgovara bosanskom 'na' ili 'u' (misliti na, vjerovati u), a ne prostornom 'kod'."
       ],
       "sectionAccents": {
@@ -1749,7 +1749,7 @@ const A1_WORDS = [
         "Naziv jezika iza auf piše se velikim slovom: auf Deutsch."
       ],
       "important": [
-        "Bosansko 'na' nije uvijek auf: slika visi an der Wand (na zidu), a za putovanje u grad kaže se nach Berlin, ne 'auf Berlin'.",
+        "Bosansko 'na' ili 'u' nije uvijek auf: putovati u Berlin je nach Berlin, ne 'auf Berlin'.",
         "Iza warten auf imenica je u akuzativu: auf den Bus."
       ],
       "sectionAccents": {
@@ -6436,7 +6436,7 @@ const A1_WORDS = [
       "translation": "tek • prvo",
       "explanation": [
         "Glavna ideja: erst je prilog s dva glavna značenja: 'tek' u vremenskom smislu (ne ranije, ne više od toga): Es ist erst 8 Uhr (tek je 8 sati), i 'prvo, najprije': Erst essen wir, dann gehen wir.",
-        "Er kommt erst morgen znači 'doći će tek sutra'. Za razliku od nur (samo, u smislu količine), erst naglašava da se nešto još nije dogodilo ili još nije dostiglo određeno vrijeme.",
+        "Er kommt erst morgen znači 'doći će tek sutra'. Za razliku od nur (jednostavno ograničenje), erst naglašava da se nešto još nije dogodilo ili još nije dostiglo određeno vrijeme.",
         "Ne miješaj ga s erste (prvi), koji je redni broj."
       ],
       "examples": [
@@ -6483,7 +6483,7 @@ const A1_WORDS = [
         "Erst … dann = prvo … onda."
       ],
       "important": [
-        "Erst i nur nisu isto: nur se odnosi na količinu, a erst na vrijeme.",
+        "Erst i nur nisu isto: nur jednostavno ograničava (samo toliko), a erst znači 'ne prije / zasad tek' (erst morgen, erst drei Seiten).",
         "Erst se ne poklapa sasvim sa zuerst: zuerst obično znači 'najprije, na početku', kao prvi od više koraka."
       ],
       "sectionAccents": {
@@ -8174,7 +8174,7 @@ const A1_WORDS = [
       "explanation": [
         "Glavna ideja: für je prijedlog koji označava primaoca, svrhu ili vremenski period: Das Geschenk ist für dich (poklon je za tebe), für zwei Wochen (na dvije sedmice), Danke für die Hilfe (hvala na pomoći).",
         "Für uvijek traži akuzativ: für mich, für den Plan, für die Kinder. U izrazu ich bin für … znači 'ja sam za'. U pitanju Was für ein …? znači 'kakav'.",
-        "Bosansko 'za' često odgovara riječi für, ali ne uvijek: zahvaljuje se 'na' nečemu (Danke für), a 'za dvije sedmice' u smislu 'nakon dvije sedmice' je in zwei Wochen, ne für."
+        "Bosansko 'za' ne odgovara uvijek riječi für: für se često prevodi i dativom ('tebi'), s 'na' (hvala na pomoći, na dvije sedmice)."
       ],
       "examples": [
         {
@@ -8388,7 +8388,7 @@ const A1_WORDS = [
       "translation": "fudbal",
       "explanation": [
         "Glavna ideja: der Fußball je imenica muškog roda sa značenjima fudbal (sport) i fudbalska lopta. Množina die Fußbälle odnosi se na lopte.",
-        "Uz spielen se sport navodi bez člana: Ich spiele Fußball (igram fudbal). Uz loptu je član potreban: der Fußball liegt im Garten. I za sport je član moguć: der deutsche Fußball.",
+        "Uz spielen se sport navodi bez člana: Ich spiele Fußball (igram fudbal). Uz loptu je član potreban: der Fußball liegt im Garten.",
         "U složenicama: das Fußballspiel (fudbalska utakmica), der Fußballplatz (fudbalski teren)."
       ],
       "examples": [
@@ -8432,7 +8432,7 @@ const A1_WORDS = [
       ],
       "tip": [
         "Naziv sporta iza spielen ide bez člana: Fußball spielen.",
-        "Fußball spielen – bez člana; der Fußball često znači loptu, ali i sport (der Fußball in Deutschland)."
+        "Der Fußball je lopta, Fußball bez člana – igra."
       ],
       "important": [
         "Fußball nema množinu kad se misli na sport; die Fußbälle su više lopti.",
@@ -13129,7 +13129,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "mlad",
       "explanation": [
-        "Glavna ideja: jung znači „mlad“ – za starost ljudi, životinja ili biljaka: Mein Bruder ist jung – moj brat je mlad. Za predmete (knjigu, auto) koristi se neu (nov); njemački, kao i bosanski, razlikuje „mlad“ i „nov“.",
+        "Glavna ideja: jung znači „mlad“ – za starost ljudi, životinja ili biljaka: moj brat je mlad. Za predmete (knjigu, auto) koristi se neu (nov); njemački, kao i bosanski, razlikuje „mlad“ i „nov“.",
         "Komparativ je jünger (s umlautom), superlativ am jüngsten: Er ist jünger als ich. Ispred imenice: ein junger Mann, eine junge Frau, junge Leute.",
         "Suprotnost: alt (star). Imenica der Junge (množina die Jungen) znači „dječak“, a ne „mlad“."
       ],
@@ -13177,7 +13177,7 @@ const A1_WORDS = [
         "Zapamti umlaut: jung → jünger → am jüngsten."
       ],
       "important": [
-        "Za predmete (auto, mobitel) obično se ne kaže jung, nego neu (izuzeci: junger Wein, eine junge Firma).",
+        "Ne koristi jung za predmete – kaže se neu.",
         "Komparativ je uvijek s umlautom: jünger, a ne „junger“."
       ],
       "sectionAccents": {
@@ -15916,7 +15916,7 @@ const A1_WORDS = [
       "explanation": [
         "Glavna ideja: der Laut je imenica muškog roda – glas, zvuk (zvuk koji proizvede čovjek ili životinja, ali i glas u jeziku: samoglasnik, suglasnik). Množina je die Laute.",
         "Izrazi: keinen Laut von sich geben (ne pustiti ni glasa), ein Laut der Überraschung (uzvik iznenađenja). U lingvistici: Vokale und Konsonanten sind Laute.",
-        "Razlika od laut: laut je pridjev „glasan“, a Laut imenica „glas, zvuk“ – slično kao bosanski glas i glasan. Pazi: ljudski glas kojim govorimo ili pjevamo je die Stimme. Muzički ton i šum zovu se Ton i Geräusch."
+        "Razlika od laut: laut je pridjev „glasan“, a Laut imenica „glas, zvuk“ – slično kao bosanski glas i glasan. Muzički ton i šum zovu se Ton i Geräusch."
       ],
       "examples": [
         {
@@ -17267,7 +17267,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "put",
       "explanation": [
-        "Glavna ideja: das Mal je imenica srednjeg roda – „put“ (prilika kad se nešto dešava): das erste Mal (prvi put), jedes Mal (svaki put), beim nächsten Mal (sljedeći put). Pazi: put u značenju „staza, cesta“ je der Weg.",
+        "Glavna ideja: das Mal je imenica srednjeg roda – „put“ (prilika kad se nešto dešava): das erste Mal (prvi put), jedes Mal (svaki put), beim nächsten Mal (sljedeći put).",
         "Poslije broja Mal obično ostaje u jednini i piše se odvojeno ili zajedno: zwei Mal / zweimal, drei Mal / dreimal. Množina die Male rijetko se koristi, npr. mehrere Male.",
         "Mal je i razgovorna čestica (malim slovom): Komm mal her! – Dođi ovamo! To je druga upotreba, koja ublažava zapovijed."
       ],
@@ -18071,7 +18071,7 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Mögen: šta voliš ili šta ti se općenito sviđa (Musik, Kaffee, Menschen); gefallen: šta ti se sviđa kad to vidiš, čuješ ili doživiš (Der Film gefällt mir, Die Idee gefällt mir).",
+        "Mögen: šta voliš ili šta ti se općenito sviđa (Musik, Kaffee, Menschen); gefallen: šta ti se sviđa na oko ili odmah.",
         "U razgovoru se često koristi gern: Ich trinke gern Tee = Ich mag Tee."
       ],
       "important": [
@@ -21054,7 +21054,7 @@ const A1_WORDS = [
       "translation": "probati",
       "explanation": [
         "Glavna ideja: probieren znači „probati“ – isprobati nešto novo i „kušati“ jelo ili piće: Probier mal die Suppe! Ich möchte den Kuchen probieren.",
-        "Oblici: probiert, probierte, hat probiert (bez ge-, jer završava na -ieren). Uvijek s akuzativom: etwas probieren. Izvedenica s razdvojivim prefiksom: anprobieren (probati odjeću).",
+        "Oblici: probiert, probierte, hat probiert (bez ge-, jer završava na -ieren). Obično s akuzativom: etwas probieren. Izvedenica s razdvojivim prefiksom: anprobieren (probati odjeću).",
         "Ljubaznije zvuči uz mal: Probier mal! – Probaj!"
       ],
       "examples": [
@@ -23234,7 +23234,7 @@ const A1_WORDS = [
       "translation": "se",
       "explanation": [
         "Glavna ideja: sich je povratna zamjenica za 3. lice i oblik iz poštovanja Sie: pokazuje da se radnja odnosi na samog vršioca. U akuzativu i dativu oblik je isti: sich.",
-        "Za ostala lica koriste se drugi oblici: ich – mich (dativ: mir), du – dich (dativ: dir), wir – uns, ihr – euch. Na primjer, er wäscht sich (on se pere), ali ich wasche mich (ja se perem).",
+        "Za ostala lica koriste se drugi oblici: ich – mich, du – dich, wir – uns, ihr – euch. Na primjer, er wäscht sich (on se pere), ali ich wasche mich (ja se perem).",
         "Mnogi njemački glagoli su povratni (sich freuen, sich setzen, sich vorstellen), a u bosanskom im često odgovara glagol sa se: radovati se, sjesti, predstaviti se. Sich u akuzativu odgovara oblicima se/sebe, a u dativu obliku sebi."
       ],
       "examples": [
@@ -30450,7 +30450,7 @@ const A1_WORDS = [
       "translation": "vrijeme",
       "explanation": [
         "Glavna ideja: die Zeit je imenica ženskog roda, množina die Zeiten. Znači vrijeme kao trenutak, period ili mogućnost: Ich habe keine Zeit. Zeit haben znači imati vremena, biti slobodan, a Zeit brauchen — trebati vremena.",
-        "Česte fraze: zurzeit (trenutno; piše se zajedno, a zur Zeit znači u doba: zur Zeit Goethes), die Zeit vergeht (vrijeme prolazi), Es ist Zeit (vrijeme je). U množini die Zeiten znači epohe ili periode: in schweren Zeiten.",
+        "Česte fraze: zurzeit (trenutno), die Zeit vergeht (vrijeme prolazi), Es ist Zeit (vrijeme je). U množini die Zeiten znači epohe ili periode: in schweren Zeiten.",
         "Vremenske prilike zovu se das Wetter, a ne die Zeit — iako se u bosanskom za oboje kaže vrijeme."
       ],
       "examples": [

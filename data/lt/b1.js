@@ -5628,7 +5628,7 @@ const B1_WORDS = [
         "Formaliai: Ausländer halten sich in Deutschland auf."
       ],
       "important": [
-        "Šis žodis oficialesnis nei bleiben; kasdien dažnai sakoma tiesiog sein arba bleiben.",
+        "Šis žodis oficialesnis nei bleiben; kasdien dažnai sakoma tiesiog „būti“ arba bleiben.",
         "Jis nereiškia „gyventi“; wohnen nurodo nuolatinę gyvenamąją vietą."
       ],
       "sectionAccents": {
@@ -7905,7 +7905,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Užsirašyk: behandeln + Akk (ką?). Kuo gydoma – mit + Dativ (mit Tabletten).",
+        "Užsirašyk: behandeln + Akk (ką?). Kuo gydoma – mit + Dativ.",
         "Daiktavardis die Behandlung kilęs iš šio veiksmažodžio."
       ],
       "important": [
@@ -16861,7 +16861,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Eher nėra tas pats, kas früher: früher – „kadaise, anksčiau“, eher – „anksčiau už ką nors“.",
-        "Lyginimo reikšme po eher eina als pagal schemą eher A als B."
+        "Lyginimo reikšme po eher eina als (o ne wie): eher A als B."
       ],
       "sectionAccents": {
         "explanation": {
@@ -25797,7 +25797,7 @@ const B1_WORDS = [
         "Perkeltinei reikšmei įsimink prielinksnį: festhalten an etwas (ko laikytis)."
       ],
       "important": [
-        "festhalten (tvirtai laikyti) nepainiokite su festnehmen (sulaikyti) — pirmasis yra tik laikymas, antrasis – policijos veiksmas.",
+        "festhalten (tvirtai laikyti) nepainiokite su festnehmen (sulaikyti) — pirmasis yra laikymas (taip pat neleisti išeiti, sulaikyti), antrasis – oficialus suėmimas.",
         "Perkeltine reikšme vartojama an + Dativ, o ne Akkusativ: an dem Plan, o ne an den Plan."
       ],
       "sectionAccents": {
@@ -46035,7 +46035,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Žodis das Maß rašomas su ß, nes balsis ilgas.",
-        "Daugiskaita – die Maße (išmatavimai); forma Maßen pasitaiko tik posakyje über alle Maßen."
+        "Daugiskaita – die Maße (išmatavimai); naudininke – den Maßen (in Maßen, über alle Maßen)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -54240,7 +54240,7 @@ const B1_WORDS = [
       ],
       "tip": [
         "richten an + Akk vartojama, kai kas nors nukreipiama į asmenį; sich richten nach + Dat – kai prisitaikoma.",
-        "Pavyzdžiui, Blick richten į ką nors išmokite kaip vieną frazę."
+        "Pavyzdžiui, den Blick auf etwas richten išmokite kaip vieną frazę."
       ],
       "important": [
         "Nepainiokite richten (nukreipti) su aufrichten (pakelti, atitiesti) ar ausrichten (perduoti, surengti).",
@@ -63205,7 +63205,7 @@ const B1_WORDS = [
       ],
       "tip": [
         "Žindyti kūdikį – stillen, o maitinti iš buteliuko – mit der Flasche füttern.",
-        "Su Durst ir Hunger vartojama stillen arba löschen (Durst löschen)."
+        "Su Durst vartojama stillen arba löschen (Durst löschen), su Hunger – tik stillen."
       ],
       "important": [
         "stillen nėra still sein (tylėti).",
@@ -64592,7 +64592,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Lietuviškas žodis „scena“ reiškia ir epizodą, ir teatro aikštelę, o vokiečių kalboje tai du žodžiai: die Szene (epizodas, įvykis) ir die Bühne (vieta, kur vaidinama). Kraštovaizdis – visai kitas žodis: die Landschaft.",
+        "Nepainiok „scenos“ su kraštovaizdžiu: vokiečių kalboje tai du žodžiai – die Szene (epizodas, įvykis) ir die Landschaft (gamta).",
         "Įsimink posakį eine Szene machen – sukelti sceną, skandalą."
       ],
       "important": [
@@ -79081,7 +79081,7 @@ const B1_WORDS = [
         "Visada pridėk sangrąžinį įvardį: er befindet sich, wir befinden uns."
       ],
       "important": [
-        "Sich befinden nevartojamas reikšme rasti (finden) ar jaustis; jis tik nurodo buvimo vietą ar būseną.",
+        "Sich befinden nevartojamas reikšme rasti (finden); jis nurodo buvimo vietą ar būseną (formaliai ir savijautą).",
         "Perfekte pagalbinis veiksmažodis yra haben (hat sich befunden), bet pasakojime dažniau vartojamas Präteritum: befand sich."
       ],
       "sectionAccents": {

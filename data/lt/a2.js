@@ -11273,7 +11273,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Atkreipk dėmesį į naudininką: jemandem etwas borgen – skolinti, sich (Dat.) etwas von jemandem borgen – skolintis.",
-        "Jei neaišku, ar kalbama apie davimą, ar ėmimą, vartok leihen arba ausleihen."
+        "Jei neaišku, ar kalbama apie davimą, ar ėmimą, vartok verleihen (paskolinti) arba sich ausleihen (pasiskolinti)."
       ],
       "important": [
         "Borgen – šnekamosios kalbos žodis; raštu ir oficialiame stiliuje dažniau vartojamas leihen.",
@@ -11394,8 +11394,8 @@ const A2_WORDS = [
           },
           {
             "green": [
-              "leihen",
-              "ausleihen"
+              "ausleihen",
+              "verleihen"
             ]
           }
         ],
@@ -26922,7 +26922,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Die Kirsche yra moteriškosios giminės: die Kirsche, die Kirschen.",
-        "Vokiškai vaisius ir medis vadinami skirtingai: medis – der Kirschbaum."
+        "Medis paprastai vadinamas der Kirschbaum, bet die Kirsche gali reikšti ir medį (Die Kirschen blühen)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -45003,7 +45003,7 @@ const A2_WORDS = [
         "Lietuvių kol gali reikšti ir iki (Palauk, kol ateisiu); tokiu atveju vokiškai vartojamas bis."
       ],
       "important": [
-        "Po jungtuko während veiksmažodis niekada nestatomas antroje vietoje: ..., während ich arbeite (ne während ich arbeite ich).",
+        "Po jungtuko während veiksmažodis niekada nestatomas antroje vietoje: ..., während ich arbeite (ne während arbeite ich).",
         "während nereiškia kai, kalbant apie vienkartinį įvykį – tada vartojama wenn arba als."
       ],
       "sectionAccents": {

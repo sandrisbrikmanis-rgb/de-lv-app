@@ -522,7 +522,7 @@ const A1_WORDS = [
         "Con i giorni della settimana e le parti del giorno si usa am: am Dienstag, am Morgen."
       ],
       "important": [
-        "L'italiano «da» nel senso di «essere da qualcuno» (a casa sua, in visita) non è an, ma bei: Ich bin bei meiner Oma.",
+        "L'italiano «da» nel senso di «essere da qualcuno» (a casa sua, in visita) non è an, ma bei.",
         "an + accusativo spesso corrisponde a «a» o «in» in senso astratto (denken an = pensare a, glauben an = credere in), non a un luogo."
       ],
       "sectionAccents": {
@@ -6437,7 +6437,7 @@ const A1_WORDS = [
       "translation": "solo • soltanto • prima",
       "explanation": [
         "Idea principale: erst è un avverbio con due significati principali: «solo, soltanto» in senso temporale (non prima, non oltre): Es ist erst 8 Uhr (sono solo le 8), e «prima, per prima cosa»: Erst essen wir, dann gehen wir.",
-        "Er kommt erst morgen significa «arriva solo domani» (non prima di domani). A differenza di nur (solo, per la quantità), erst sottolinea che qualcosa non è ancora successo o non ha ancora raggiunto un certo momento.",
+        "Er kommt erst morgen significa «arriva solo domani» (non prima di domani). A differenza di nur (semplice limitazione), erst sottolinea che qualcosa non è ancora successo o non ha ancora raggiunto un certo momento.",
         "Non confonderlo con erste (primo), che è un numerale ordinale."
       ],
       "examples": [
@@ -6484,7 +6484,7 @@ const A1_WORDS = [
         "Erst … dann = prima … poi."
       ],
       "important": [
-        "Erst e nur non sono la stessa cosa: nur si riferisce alla quantità, erst al tempo.",
+        "Erst e nur non sono la stessa cosa: nur limita semplicemente (solo così tanto), erst significa «non prima / per ora soltanto» (erst morgen, erst drei Seiten).",
         "Erst non coincide con zuerst: zuerst di solito significa «per primo, all'inizio» in una serie di passaggi."
       ],
       "sectionAccents": {
@@ -11355,7 +11355,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "chiamarsi • significare",
       "explanation": [
-        "Idea principale: heißen significa chiamarsi: dice come si chiama qualcuno o qualcosa. Ich heiße Anna corrisponde all'italiano «mi chiamo Anna», ma heißen non è riflessivo: non si dice «Ich heiße mich».",
+        "Idea principale: heißen significa chiamarsi: dice come si chiama qualcuno o qualcosa. Ich heiße Anna alla lettera significa «mi chiamo Anna»; in lettone si dice «mi chiamano Anna».",
         "Forme: heißt, hieß, hat geheißen. Dopo heißen il nome è al nominativo: Er heißt Paul. Nelle domande: Wie heißt du? (Come ti chiami?), Wie heißt das auf Deutsch? (Come si dice in tedesco?).",
         "Il secondo significato è «significare, voler dire»: Was heißt “Danke” auf Lettisch? (vedi l'ultimo esempio)."
       ],
@@ -13833,7 +13833,7 @@ const A1_WORDS = [
       ],
       "tip": [
         "Ich weiß: la 1ª e la 3ª persona singolare sono senza desinenza (non «ich wisse»); impara questa forma come particolare.",
-        "Weißt o kennst? Se segue una persona o un luogo → kennen; se segue un fatto → wissen. Attenzione: «saper fare» qualcosa (sa nuotare) in tedesco è können, non wissen."
+        "Weißt o kennst? Se segue una persona o un luogo → kennen; se segue un fatto → wissen."
       ],
       "important": [
         "Presente irregolare: weiß, non «wisse»/«wisst» (wisst è solo la forma di ihr).",
@@ -14253,7 +14253,7 @@ const A1_WORDS = [
       "explanation": [
         "Idea principale: kosten significa «costare», per il prezzo di una merce o di un servizio: Das kostet fünf Euro — costa cinque euro. Il soggetto è una cosa, non una persona.",
         "Forme: kostet, kostete, hat gekostet. Per chiedere il prezzo: Was kostet das? (Quanto costa?), Wie viel kostet der Pullover? Al plurale: Die Schuhe kosten 60 Euro.",
-        "La persona a cui costa qualcosa va all'accusativo: Das kostet mich zehn Euro (in italiano diciamo «mi costa», ma in tedesco è mich, non mir). In senso figurato kosten può significare anche «richiedere» tempo o fatica: Das kostet viel Zeit."
+        "La persona a cui costa qualcosa va all'accusativo: Das kostet mich zehn Euro. In senso figurato kosten può significare anche «richiedere» tempo o fatica: Das kostet viel Zeit."
       ],
       "examples": [
         {
@@ -17312,7 +17312,7 @@ const A1_WORDS = [
       ],
       "tip": [
         "Combinazioni utili: zum ersten Mal (per la prima volta), diesmal (questa volta), jedes Mal (ogni volta).",
-        "Il numero di volte si esprime con -mal: einmal, zweimal, dreimal. Attenzione: «volta» nel senso di numero di volte è Mal, non Zeit (il tempo)."
+        "Il numero di volte si esprime con -mal: einmal, zweimal, dreimal."
       ],
       "important": [
         "Das Mal significa anche «segno, macchia»: das Muttermal (neo), das Denkmal (monumento).",
@@ -18075,7 +18075,7 @@ const A1_WORDS = [
         "Nella conversazione si usa spesso gern: Ich trinke gern Tee = Ich mag Tee."
       ],
       "important": [
-        "In italiano «mi piace» ha la persona al dativo («a me»), proprio come gefallen (Das gefällt mir); con mögen invece si dice Ich mag + accusativo: Ich mag den Hund.",
+        "In italiano «mi piace» ha la persona al dativo («a me»); in tedesco invece si dice Ich mag + accusativo: Ich mag den Hund.",
         "Möchte esprime chiaramente una richiesta, mag un atteggiamento, un gusto."
       ],
       "sectionAccents": {
@@ -21053,7 +21053,7 @@ const A1_WORDS = [
       "translation": "provare • assaggiare",
       "explanation": [
         "Idea principale: probieren significa “provare” (qualcosa di nuovo) e “assaggiare” (cibi, bevande): Probier mal die Suppe! Ich möchte den Kuchen probieren.",
-        "Forme: probiert, probierte, hat probiert (senza ge-, perché finisce in -ieren). Sempre con l'accusativo: etwas probieren. Derivato separabile: anprobieren (provare un capo d'abbigliamento).",
+        "Forme: probiert, probierte, hat probiert (senza ge-, perché finisce in -ieren). Di solito con l'accusativo: etwas probieren. Derivato separabile: anprobieren (provare un capo d'abbigliamento).",
         "Con tono gentile si usa insieme a mal: Probier mal! — Prova!"
       ],
       "examples": [
@@ -21096,7 +21096,7 @@ const A1_WORDS = [
         "Mal rende la richiesta più gentile: Probier mal! (prova un po'!)."
       ],
       "important": [
-        "Attenzione: “provare a fare qualcosa” nel senso di “cercare di” in tedesco è versuchen, non probieren: Ich versuche zu schlafen.",
+        "Attenzione: “provare a fare qualcosa” nel senso di “cercare di” in tedesco è versuchen, non probieren.",
         "Il Perfekt non ha ge-: hat probiert, non “hat geprobiert”."
       ],
       "sectionAccents": {
@@ -23281,7 +23281,7 @@ const A1_WORDS = [
         "Impara i verbi riflessivi insieme a sich: sich freuen, sich setzen."
       ],
       "important": [
-        "Sich non si usa con ich, du, wir, ihr — lì servono mich, dich, uns, euch.",
+        "Sich non si usa con ich, du, wir, ihr — lì servono mich/mir, dich/dir, uns, euch.",
         "Al plurale Sie sehen sich può significare sia “vedono sé stessi” sia “si vedono l'un l'altro”, come l'italiano “si vedono”; lo distingue il contesto."
       ],
       "sectionAccents": {
@@ -26888,7 +26888,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Wer si riferisce alle persone; per le cose si chiede con was.",
-        "In italiano “chi” resta sempre uguale, mentre in tedesco cambia con il caso: Wer? (soggetto), Wen? (oggetto), Wem? (a chi), Wessen? (di chi)."
+        "Il lettone «kas» corrisponde sia a wer sia a was; per scegliere, chiediti se la domanda riguarda una persona."
       ],
       "sectionAccents": {
         "explanation": {

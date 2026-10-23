@@ -522,7 +522,7 @@ const A1_WORDS = [
         "Su savaitės diena ir paros dalimi vartojamas am: am Dienstag, am Morgen."
       ],
       "important": [
-        "Lietuviškas „prie“ ne visada yra an: būti pas ką nors (svečiuose, namuose) yra bei, pvz., bei meiner Oma.",
+        "Lietuviškas „prie“ ne visada yra an: būti pas ką nors (svečiuose, namuose) yra bei.",
         "Prie veiksmažodžių an + Akkusativ dažnai atitinka „apie“ ar kitą konstrukciją (denken an — galvoti apie, glauben an — tikėti kuo), o ne „prie“."
       ],
       "sectionAccents": {
@@ -6438,7 +6438,7 @@ const A1_WORDS = [
       "translation": "pirmiausia • tik",
       "explanation": [
         "Pagrindinė mintis: erst yra prieveiksmis su dviem pagrindinėmis reikšmėmis: „tik“ laiko prasme (ne anksčiau, dar ne daugiau kaip): Es ist erst 8 Uhr (dar tik 8 valanda), ir „pirmiausia“: Erst essen wir, dann gehen wir.",
-        "Er kommt erst morgen reiškia „jis atvyks tik rytoj“. Skirtingai nei nur (tik kiekio prasme), erst pabrėžia, kad kas nors dar neįvyko arba dar nepasiekė tam tikro laiko.",
+        "Er kommt erst morgen reiškia „jis atvyks tik rytoj“. Skirtingai nei nur (paprastas ribojimas), erst pabrėžia, kad kas nors dar neįvyko arba dar nepasiekė tam tikro laiko.",
         "Nesupainiok su erste (pirmas) — tai kelintinis skaitvardis."
       ],
       "examples": [
@@ -6485,7 +6485,7 @@ const A1_WORDS = [
         "Erst … dann = pirmiausia … tada."
       ],
       "important": [
-        "Erst ir nur — ne tas pats: nur susijęs su kiekiu, erst — su laiku.",
+        "Erst ir nur — ne tas pats: nur tiesiog riboja (tik tiek), erst reiškia „ne anksčiau / kol kas tik“ (erst morgen, erst drei Seiten).",
         "Erst nesutampa su zuerst: zuerst paprastai reiškia „iš pradžių, pirmiausia“ kelių žingsnių sekoje."
       ],
       "sectionAccents": {
@@ -21055,7 +21055,7 @@ const A1_WORDS = [
       "translation": "išbandyti • paragauti",
       "explanation": [
         "Pagrindinė mintis: probieren reiškia „išbandyti“ (ką nors nauja) ir „paragauti“ (valgio, gėrimo): Probier mal die Suppe! Ich möchte den Kuchen probieren.",
-        "Formos: probiert, probierte, hat probiert (be ge-, nes baigiasi -ieren). Visada su galininku (Akkusativ): etwas probieren. Skiriamasis vedinys: anprobieren (pasimatuoti drabužį).",
+        "Formos: probiert, probierte, hat probiert (be ge-, nes baigiasi -ieren). Paprastai su galininku (Akkusativ): etwas probieren. Skiriamasis vedinys: anprobieren (pasimatuoti drabužį).",
         "Mandagiau kartu su mal: Probier mal! – Pabandyk!"
       ],
       "examples": [
@@ -23283,7 +23283,7 @@ const A1_WORDS = [
         "Mokykis sangrąžinių veiksmažodžių kartu su sich: sich freuen, sich setzen."
       ],
       "important": [
-        "Sich negalima vartoti su ich, du, wir, ihr – ten reikia mich, dich, uns, euch.",
+        "Sich negalima vartoti su ich, du, wir, ihr – ten reikia mich/mir, dich/dir, uns, euch.",
         "Daugiskaitoje sakinys Sie sehen sich gali reikšti ir „jie mato save“, ir „jie mato vienas kitą“; tai lemia kontekstas."
       ],
       "sectionAccents": {

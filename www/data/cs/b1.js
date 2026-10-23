@@ -1992,7 +1992,7 @@ const B1_WORDS = [
       "translation": "Položit",
       "explanation": [
         "Hlavní myšlenka: ablegen je odlučitelné sloveso: legt ab, legte ab, hat abgelegt. Znamená odložit, položit něco, co jste nesli, nebo svléknout to, co jste měli na sobě: Mantel, Tasche ablegen.",
-        "Dokumente ablegen znamená založit do složky nebo archivu. Eine Prüfung ablegen znamená skládat zkoušku. U lodi ablegen znamená odrazit od břehu.",
+        "Dokumenty ablegen znamená založit do složky nebo archivu. Eine Prüfung ablegen znamená skládat zkoušku. U lodi ablegen znamená odrazit od břehu.",
         "V přeneseném významu může ablegen znamenat odložit, zbavit se: eine Gewohnheit ablegen (zbavit se zvyku)."
       ],
       "examples": [
@@ -10425,7 +10425,7 @@ const B1_WORDS = [
       ],
       "tip": [
         "Pro vyjádření skládá se z použijte bestehen aus + dativ.",
-        "Složit (úspěšně udělat) zkoušku je bestehen; eine Prüfung machen znamená jen zkoušku dělat, ne nutně ji složit."
+        "Zkoušku složíš s bestehen, ne s machen."
       ],
       "important": [
         "Bestehen aus + dativ a bestehen auf + dativ jsou různé předložky s různými významy.",
@@ -16883,7 +16883,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Eher není totéž co früher: früher je „kdysi“, eher – „dříve než něco“.",
-        "Ve významu srovnání nevynechávej als: eher A als B."
+        "Ve významu srovnání se po eher používá als (ne wie): eher A als B."
       ],
       "sectionAccents": {
         "explanation": {
@@ -17588,7 +17588,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Eindeutig není totéž co einfach (jednoduše): eine eindeutige Frage – otázka s jediným významem.",
-        "Eindeutig se obvykle nestupňuje (eindeutiger, am eindeutigsten jsou vzácné)."
+        "Eindeutig se obvykle nestupňuje."
       ],
       "sectionAccents": {
         "explanation": {
@@ -25316,7 +25316,7 @@ const B1_WORDS = [
         "Pro kapacitu: Der Saal fasst … Personen."
       ],
       "important": [
-        "Význam závisí na kontextu: am Arm fassen – uchopit, es nicht fassen können – pochopit, der Saal fasst – pojmout.",
+        "Význam závisí na předmětu: Arm – uchopit, es (Ich kann es nicht fassen) – pochopit, Saal – pojmout.",
         "Fassen ve významu „uchopit“ vyžaduje akuzativ: den Ball fassen."
       ],
       "sectionAccents": {
@@ -25813,7 +25813,7 @@ const B1_WORDS = [
         "Pro přenesený význam si pamatuj předložku: festhalten an etwas (trvat na něčem)."
       ],
       "important": [
-        "festhalten (pevně držet) nezaměňuj s festnehmen (zadržet): první znamená jen držení, druhé je policejní zásah.",
+        "festhalten (pevně držet) nezaměňuj s festnehmen (zadržet): první znamená držení (i nenechat odejít, zadržet), druhé je úřední zatčení.",
         "V přeneseném významu se používá an + dativ, ne akuzativ: an dem Plan, nikoli an den Plan."
       ],
       "sectionAccents": {
@@ -35974,7 +35974,7 @@ const B1_WORDS = [
         "Perfektum: hat sich geirrt (haben)."
       ],
       "important": [
-        "Zvratné sich irren znamená hlavně „mýlit se v úsudku, splést se“; pro „udělat chybu“ (např. v úkolu) se obvykle říká einen Fehler machen.",
+        "Zvratné sich irren znamená hlavně „mýlit se v úsudku, splést se“; pro „udělat chybu“ (např. v úkolu) se obvykle říká Fehler machen.",
         "Nezaměňuj s der Irrtum (omyl, mylná představa) — to je podstatné jméno."
       ],
       "sectionAccents": {
@@ -38384,7 +38384,7 @@ const B1_WORDS = [
         "Mluvíte-li o technice, je lepší funktionieren; klappen se hodí spíš k plánům a dohodám."
       ],
       "important": [
-        "Klappen se obvykle používá bez osoby v dativu: říká se Es klappt, ne Ich klappe.",
+        "Klappen se obvykle nepoužívá s osobou jako podmětem: říká se Es klappt, ne Ich klappe.",
         "V perfektu se používá hat geklappt, ne ist geklappt."
       ],
       "sectionAccents": {
@@ -46052,7 +46052,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Slovo das Maß se píše s ß, protože samohláska je dlouhá.",
-        "Množné číslo je die Maße (rozměry); Maßen je dativ množného čísla, známý z výrazu über alle Maßen."
+        "Množné číslo je die Maße (rozměry); v dativu den Maßen (in Maßen, über alle Maßen)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -54257,7 +54257,7 @@ const B1_WORDS = [
       ],
       "tip": [
         "Richten an + Akk se používá, když něco směřuješ na osobu; sich richten nach + Dat, když se přizpůsobuješ.",
-        "Spojení den Blick richten se nauč jako celek."
+        "Například spojení den Blick auf etwas richten se nauč jako celek."
       ],
       "important": [
         "Nezaměňuj richten (zaměřit) s aufrichten (vztyčit) a ausrichten (vyřídit, uspořádat).",
@@ -63229,7 +63229,7 @@ const B1_WORDS = [
       ],
       "tip": [
         "Dítě kojit je stillen, ale krmit lahví – mit der Flasche füttern.",
-        "U Durst a Hunger se používá stillen nebo löschen (Durst löschen)."
+        "U Durst se používá stillen nebo löschen (Durst löschen), u Hunger jen stillen."
       ],
       "important": [
         "stillen není still sein (být zticha).",
@@ -79104,7 +79104,7 @@ const B1_WORDS = [
         "Vždy přidej zvratné zájmeno: er befindet sich, wir befinden uns."
       ],
       "important": [
-        "Sich befinden nemá význam najít (finden); ve významu cítit se (Wie befinden Sie sich?) se používá jen zřídka a velmi formálně. Obvykle udává místo nebo stav.",
+        "Sich befinden nemá význam najít (finden); udává místo nebo stav (formálně i to, jak se kdo cítí).",
         "Pomocné sloveso v perfektu je haben (hat sich befunden), ve vyprávění se ale častěji používá préteritum: befand sich."
       ],
       "sectionAccents": {

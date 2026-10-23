@@ -25797,7 +25797,7 @@ const B1_WORDS = [
         "Pārnestajai nozīmei atceries prievārdu: festhalten an etwas (pie kā)."
       ],
       "important": [
-        "festhalten (turēt cieši) nejauc ar festnehmen (aizturēt) — pirmais ir tikai turēšana, otrais ir policijas darbība.",
+        "festhalten (turēt cieši) nejauc ar festnehmen (aizturēt) — pirmais ir turēšana (arī neļaut aiziet, aizturēt), otrais ir oficiāla apcietināšana.",
         "Pārnestajā nozīmē lieto an + datīvs, nevis akuzatīvs: an dem Plan, nevis an den Plan."
       ],
       "sectionAccents": {
@@ -38372,7 +38372,7 @@ const B1_WORDS = [
         "Kad runā par tehniku, labāk lieto funktionieren; klappen labāk piestāv plāniem un norunām."
       ],
       "important": [
-        "Klappen parasti lieto bez cilvēka datīvā: saka Es klappt, nevis Ich klappe.",
+        "Klappen parasti nelieto ar cilvēku kā teikuma priekšmetu: saka Es klappt, nevis Ich klappe.",
         "Perfektā lieto hat geklappt, nevis ist geklappt."
       ],
       "sectionAccents": {
@@ -46035,7 +46035,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Vārds das Maß raksta ar ß, jo patskanis ir garš.",
-        "Daudzskaitlis ir die Maße (izmēri); forma Maßen ir tikai izteicienā über alle Maßen."
+        "Daudzskaitlis ir die Maße (izmēri); datīvā — den Maßen (in Maßen, über alle Maßen)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -54240,7 +54240,7 @@ const B1_WORDS = [
       ],
       "tip": [
         "richten an + Akk lieto, kad kaut ko virza uz personu; sich richten nach + Dat – kad pielāgojas.",
-        "Piemēram, Blick richten uz kaut ko iemāci kā vienu frāzi."
+        "Piemēram, den Blick auf etwas richten iemāci kā vienu frāzi."
       ],
       "important": [
         "Neaizmaini richten (vērst) ar aufrichten (piecelt) vai ausrichten (nodot, noorganizēt).",
@@ -63205,7 +63205,7 @@ const B1_WORDS = [
       ],
       "tip": [
         "Bērnu zīdīt ir stillen, bet barot ar pudelīti – mit der Flasche füttern.",
-        "Ar Durst un Hunger lieto stillen vai löschen (Durst löschen)."
+        "Ar Durst lieto stillen vai löschen (Durst löschen), ar Hunger — tikai stillen."
       ],
       "important": [
         "stillen nav still sein (klusēt).",
@@ -79082,7 +79082,7 @@ const B1_WORDS = [
         "Vienmēr pievieno atgriezenisko vietniekvārdu: er befindet sich, wir befinden uns."
       ],
       "important": [
-        "Sich befinden nelieto ar nozīmi atrast (finden) vai justies; tas tikai norāda atrašanās vietu vai stāvokli.",
+        "Sich befinden nelieto ar nozīmi atrast (finden); tas norāda atrašanās vietu vai stāvokli (formāli arī pašsajūtu).",
         "Perfektā palīgdarbības vārds ir haben (hat sich befunden), bet stāstījumā biežāk lieto Präteritum: befand sich."
       ],
       "sectionAccents": {

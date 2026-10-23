@@ -5030,7 +5030,7 @@ const A1_WORDS = [
       "explanation": [
         "Idea principal: dass es la conjunción subordinante 'que', que introduce una oración completiva después de verbos como sagen, wissen, denken, hoffen y de expresiones como Es ist schön …: Ich weiß, dass du müde bist.",
         "En medio de la oración, delante de dass siempre va coma. En la oración subordinada, el verbo conjugado va al final: …, dass er keine Zeit hat.",
-        "Dass se escribe con dos s. El artículo neutro y pronombre demostrativo das es otra palabra. A diferencia del español, después de dass normalmente no se usa subjuntivo (el Konjunktiv aparece sobre todo en el estilo indirecto): Ich hoffe, dass es morgen nicht regnet (espero que mañana no llueva)."
+        "Dass se escribe con dos s. El artículo neutro y pronombre demostrativo das es otra palabra."
       ],
       "examples": [
         {
@@ -6440,7 +6440,7 @@ const A1_WORDS = [
       "translation": "primero • solo",
       "explanation": [
         "Idea principal: erst es un adverbio con dos significados principales: 'solo, no antes de', con valor temporal: Es ist erst 8 Uhr (solo son las 8), y 'primero': Erst essen wir, dann gehen wir.",
-        "Er kommt erst morgen significa 'no viene hasta mañana'. A diferencia de nur (solo, en cuanto a cantidad), erst subraya que algo todavía no ha ocurrido o no ha llegado a cierto momento; en español suele traducirse por 'no … hasta' o 'apenas'.",
+        "Er kommt erst morgen significa 'no viene hasta mañana'. A diferencia de nur (solo, una simple limitación), erst subraya que algo todavía no ha ocurrido o no ha llegado a cierto momento; en español suele traducirse por 'no … hasta' o 'apenas'.",
         "No lo confundas con erste (el primero, la primera), que es un numeral ordinal."
       ],
       "examples": [
@@ -6487,7 +6487,7 @@ const A1_WORDS = [
         "Erst … dann = primero … luego."
       ],
       "important": [
-        "Erst no es lo mismo que nur: nur se refiere a la cantidad; erst, al tiempo.",
+        "Erst no es lo mismo que nur: nur simplemente limita (solo tanto), erst significa 'no antes / por ahora solo' (erst morgen, erst drei Seiten).",
         "Erst no coincide del todo con zuerst: zuerst suele significar 'al principio, primero' dentro de una serie de pasos."
       ],
       "sectionAccents": {
@@ -6707,7 +6707,7 @@ const A1_WORDS = [
         "Para referirte a un sustantivo neutro usa es: das Auto → es."
       ],
       "important": [
-        "Con verbos de tiempo atmosférico como regnen, es no se puede omitir: no se puede decir 'Regnet heute', sino Es regnet heute o Heute regnet es.",
+        "En las oraciones impersonales no se puede omitir es: no se puede decir 'Regnet heute'.",
         "Para personas, es solo se usa con palabras neutras como das Kind, das Mädchen; en los demás casos, er o sie."
       ],
       "sectionAccents": {
@@ -7087,7 +7087,7 @@ const A1_WORDS = [
       "explanation": [
         "Idea principal: euch es la forma de acusativo y dativo del pronombre personal ihr (vosotros: a varios amigos, niños, familiares): Ich sehe euch (os veo), Ich gebe euch das Buch (os doy el libro).",
         "Euch también es el pronombre reflexivo de ihr: Setzt euch! (¡sentaos!), Freut ihr euch auf die Ferien? Para dirigirse a varias personas de usted se usan Sie, Ihnen, no euch.",
-        "El nominativo es ihr; el genitivo, poco frecuente, euer. Detrás de preposición, euch corresponde a 'vosotros': mit euch (con vosotros), für euch (para vosotros)."
+        "El nominativo es ihr; el genitivo, poco frecuente, euer."
       ],
       "examples": [
         {
@@ -7295,9 +7295,9 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "conducir • viajar • llevar",
       "explanation": [
-        "Idea principal: fahren significa ir o viajar en un medio de transporte: Wir fahren mit dem Bus, Er fährt nach Berlin. También puede significar 'conducir' un vehículo: Sie fährt einen Mercedes, y 'llevar' a alguien en coche: Ich fahre dich nach Hause.",
-        "Formas: du fährst, er fährt (a → ä), fuhr, ist gefahren. Si no hay complemento directo, el auxiliar es sein: Ich bin nach Wien gefahren. Si hay acusativo (se conduce un vehículo o se lleva a alguien), se usa haben: Ich habe das Auto gefahren.",
-        "Para el destino (¿adónde?) se usa nach (ciudad, país), zu (persona, lugar) o in + acusativo; para el medio de transporte, mit + dativo: mit dem Bus."
+        "Idea principal: fahren significa ir o viajar en un medio de transporte: Wir fahren mit dem Bus, Er fährt nach Berlin. También puede significar 'conducir' un vehículo: Sie fährt einen Mercedes.",
+        "Formas: du fährst, er fährt (a → ä), fuhr, ist gefahren. Si no hay complemento directo, el auxiliar es sein: Ich bin nach Wien gefahren. Si hay acusativo (se conduce un vehículo), se usa haben: Ich habe das Auto gefahren.",
+        "Para el destino (¿adónde?) se usa nach (ciudad, país), zu (persona, lugar) o in + acusativo; para el medio de transporte, mit + dativo."
       ],
       "examples": [
         {
@@ -7359,8 +7359,7 @@ const A1_WORDS = [
           ],
           "purple": [
             "ir o viajar",
-            "conducir",
-            "llevar"
+            "conducir"
           ]
         },
         "examples": [
@@ -8173,7 +8172,7 @@ const A1_WORDS = [
       "explanation": [
         "Idea principal: für es una preposición que indica el destinatario, la finalidad o un período de tiempo: Das Geschenk ist für dich (el regalo es para ti), für zwei Wochen (para dos semanas), Danke für die Hilfe (gracias por la ayuda).",
         "Für siempre rige acusativo: für mich, für den Plan, für die Kinder. En la expresión ich bin für … significa 'estoy a favor de…'. En la pregunta Was für ein …? significa '¿qué tipo de…?'.",
-        "Für corresponde casi siempre a 'para' o 'por', pero no es una equivalencia exacta: el 'por' de causa o de lugar se expresa con otras preposiciones (wegen, durch)."
+        "Für corresponde casi siempre a 'para' o 'por'."
       ],
       "examples": [
         {
@@ -9475,7 +9474,7 @@ const A1_WORDS = [
       "explanation": [
         "Idea principal: die Geschwister es un sustantivo plural que significa hermanos y hermanas, es decir, todos los hijos de una familia: Hast du Geschwister? Prácticamente no tiene singular.",
         "Un hermano o una hermana se dice der Bruder o die Schwester. El artículo es die Geschwister y el verbo va en plural: Meine Geschwister wohnen in Hamburg. En dativo: mit meinen Geschwistern.",
-        "La palabra no indica el sexo: Ich habe zwei Geschwister pueden ser hermanos, hermanas o uno de cada, igual que el plural español 'hermanos'. En cambio, Brüder son solo hermanos varones."
+        "La palabra no indica el sexo: Ich habe zwei Geschwister pueden ser hermanos, hermanas o uno de cada, igual que el plural español 'hermanos'."
       ],
       "examples": [
         {
@@ -11354,7 +11353,7 @@ const A1_WORDS = [
       "explanation": [
         "Idea principal: heißen significa «llamarse»: sirve para decir cómo se llama alguien o algo. Ich heiße Anna equivale literalmente a «me llamo Anna», igual que en español.",
         "Formas: heißt, hieß, hat geheißen. Tras heißen, el nombre va en nominativo: Er heißt Paul. En preguntas: Wie heißt du? (¿Cómo te llamas?), Wie heißt das auf Deutsch? (¿Cómo se dice eso en alemán?).",
-        "El segundo significado es «significar»: Was heißt “Danke” auf Spanisch? — ¿Qué significa «Danke» en español?"
+        "El segundo significado es «significar»: Was heißt “Danke” auf Lettisch? — ¿Qué significa «Danke» en letón?"
       ],
       "examples": [
         {
@@ -13176,7 +13175,7 @@ const A1_WORDS = [
         "Recuerda la diéresis: jung → jünger → am jüngsten."
       ],
       "important": [
-        "Para objetos normalmente no se usa jung, sino neu (hay excepciones fijas como junger Wein).",
+        "Para objetos no se usa jung, sino neu.",
         "El comparativo siempre lleva diéresis: jünger, no “junger”."
       ],
       "sectionAccents": {
@@ -18071,7 +18070,7 @@ const A1_WORDS = [
         "En la conversación se usa mucho gern: Ich trinke gern Tee = Ich mag Tee."
       ],
       "important": [
-        "El español «me gusta» se construye como gefallen, con la persona en dativo (Das gefällt mir); con mögen, en cambio, la persona es el sujeto y lo que gusta va en acusativo: Ich mag den Hund.",
+        "En español «me gusta» lleva la persona en dativo, pero en alemán es Ich mag + acusativo: Ich mag den Hund.",
         "Möchte es claramente una petición; mag expresa una actitud o preferencia."
       ],
       "sectionAccents": {
@@ -21051,7 +21050,7 @@ const A1_WORDS = [
       "translation": "probar • degustar",
       "explanation": [
         "Idea principal: probieren significa «probar» algo nuevo y también «probar, degustar» una comida o una bebida: Probier mal die Suppe! Ich möchte den Kuchen probieren.",
-        "Formas: probiert, probierte, hat probiert (sin ge-, porque termina en -ieren). Siempre con acusativo: etwas probieren. Derivado con prefijo separable: anprobieren (probarse ropa).",
+        "Formas: probiert, probierte, hat probiert (sin ge-, porque termina en -ieren). Normalmente con acusativo: etwas probieren. Derivado con prefijo separable: anprobieren (probarse ropa).",
         "Con mal suena más amable: Probier mal! — ¡Pruébalo!"
       ],
       "examples": [
@@ -21094,7 +21093,7 @@ const A1_WORDS = [
         "Añade mal para suavizar: Probier mal! (¡pruébalo!)."
       ],
       "important": [
-        "Para «intentar hacer algo» (con zu + infinitivo) se usa normalmente versuchen, no probieren.",
+        "Probieren no significa «intentar, esforzarse»; para eso está versuchen.",
         "El perfecto no lleva ge-: hat probiert, no “hat geprobiert”."
       ],
       "sectionAccents": {
@@ -23230,7 +23229,7 @@ const A1_WORDS = [
       "translation": "se • sí mismo",
       "explanation": [
         "Idea principal: sich es el pronombre reflexivo de la 3.ª persona y de la forma de cortesía Sie: indica que la acción recae sobre el propio sujeto. En acusativo y en dativo la forma es la misma: sich.",
-        "Las demás personas tienen otras formas: ich – mich/mir, du – dich/dir, wir – uns, ihr – euch. Por ejemplo, er wäscht sich (él se lava), pero ich wasche mich (yo me lavo).",
+        "Las demás personas tienen otras formas: ich – mich, du – dich, wir – uns, ihr – euch. Por ejemplo, er wäscht sich (él se lava), pero ich wasche mich (yo me lavo).",
         "Muchos verbos alemanes son reflexivos (sich freuen, sich setzen, sich vorstellen) y en español suelen corresponder a verbos pronominales: alegrarse, sentarse, presentarse."
       ],
       "examples": [
@@ -25486,7 +25485,7 @@ const A1_WORDS = [
         "La expresión unter uns significa \"entre nosotros\" y se usa cuando se dice algo en confianza."
       ],
       "important": [
-        "Unter no es lo mismo que zwischen: unter se refiere a un conjunto o grupo (unter Freunden); zwischen, a la posición entre cosas o personas concretas (zwischen Tisch und Tür).",
+        "Unter no es lo mismo que zwischen: unter se refiere a un conjunto o grupo (unter Freunden); zwischen, a dos cosas concretas.",
         "Unter + número significa \"menos de\": unter 18 quiere decir menor de 18 años."
       ],
       "sectionAccents": {
@@ -26889,7 +26888,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Wer se refiere a personas; por las cosas se pregunta con was.",
-        "En español \"a quién\" puede corresponder a wen o a wem: depende del caso que rija el verbo alemán (Wen rufst du an?, Wem hilfst du?)."
+        "Wer y was se distinguen según se pregunte o no por una persona."
       ],
       "sectionAccents": {
         "explanation": {
@@ -30439,7 +30438,7 @@ const A1_WORDS = [
       "translation": "tiempo (momento / período de tiempo)",
       "explanation": [
         "Idea principal: die Zeit es un sustantivo femenino; plural die Zeiten. Significa el tiempo como momento, período u oportunidad: Ich habe keine Zeit. Zeit haben es tener tiempo, estar libre; Zeit brauchen, necesitar tiempo.",
-        "Frases frecuentes: zurzeit (actualmente; separado, zur Zeit + genitivo significa «en la época de»: zur Zeit Goethes), die Zeit vergeht (el tiempo pasa), Es ist Zeit (es hora). En plural, die Zeiten significa épocas o períodos: in schweren Zeiten.",
+        "Frases frecuentes: zurzeit (actualmente), die Zeit vergeht (el tiempo pasa), Es ist Zeit (es hora). En plural, die Zeiten significa épocas o períodos: in schweren Zeiten.",
         "El tiempo atmosférico se dice das Wetter, no die Zeit, aunque en español ambos se llamen tiempo."
       ],
       "examples": [

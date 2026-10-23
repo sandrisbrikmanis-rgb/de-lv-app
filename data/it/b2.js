@@ -3993,7 +3993,7 @@ const B2_WORDS = [
         "Nella frase segue spesso nur: Ich beschränke mich nur auf …"
       ],
       "important": [
-        "In italiano si dice limitarsi a, e anche in tedesco si usa auf (non mit): sich auf das Wichtigste beschränken.",
+        "In italiano si dice limitarsi a, e anche in tedesco si usa auf (non mit).",
         "Sich beschränken non è la stessa cosa di sich begnügen: il primo esprime il limitare sé stessi, il secondo l'accontentarsi."
       ],
       "sectionAccents": {
@@ -17205,7 +17205,7 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "riguardo • aspetto",
       "explanation": [
-        "Idea principale: die Hinsicht è un sostantivo femminile che indica un aspetto, un punto di vista, il riguardo sotto cui qualcosa vale. In italiano corrisponde a «riguardo» o «aspetto» in espressioni come a questo riguardo, sotto certi aspetti — ma non a «riguardo» nel senso di attenzione verso gli altri (die Rücksicht).",
+        "Idea principale: die Hinsicht è un sostantivo femminile che indica un aspetto, un punto di vista, il riguardo sotto cui qualcosa vale. In italiano corrisponde a «riguardo» o «aspetto» in espressioni come a questo riguardo, sotto certi aspetti.",
         "Si usa soprattutto in gruppi preposizionali: in dieser Hinsicht (a questo riguardo), in gewisser Hinsicht (sotto certi aspetti), in jeder Hinsicht (sotto ogni aspetto). Il plurale die Hinsichten è raro. In stile elevato si dice anche in Hinsicht auf + accusativo (riguardo a) o hinsichtlich + genitivo."
       ],
       "examples": [
@@ -17248,7 +17248,7 @@ const B2_WORDS = [
         "Dopo in queste espressioni sono al dativo: in dieser Hinsicht, in jeder Hinsicht."
       ],
       "important": [
-        "Attenzione: l'italiano «riguardo» copre due parole tedesche — Hinsicht (aspetto, punto di vista) e Rücksicht (avere riguardo per qualcuno); Hinsicht non indica mai considerazione verso gli altri.",
+        "Hinsicht non indica una notizia, un'informazione: quella si chiama Nachricht o Information.",
         "Dopo hinsichtlich (riguardo a) si usa il genitivo: hinsichtlich der Kosten."
       ],
       "sectionAccents": {
@@ -27127,7 +27127,7 @@ const B2_WORDS = [
         "Il dativo è chi riceve: wem? — dem Studenten, der Familie."
       ],
       "important": [
-        "Il participio passato è zugewiesen — il ge- si inserisce tra zu e weisen."
+        "Il participio passato è zugewiesen — zu + gewiesen (weisen – wies – gewiesen)."
       ],
       "sectionAccents": {
         "explanation": {
