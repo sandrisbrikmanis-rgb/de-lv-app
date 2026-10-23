@@ -1,0 +1,41 @@
+{
+  "schemaVersion": "g2-a1-owner-review-needs-owner-plain-csv-split-v1",
+  "sourceFile": "g2-a1-owner-review-needs-owner-final.csv",
+  "sourceRows": 7737,
+  "sourceBytes": 10382949,
+  "sourceSha256": "750299e3602769e59a0951f7adbbecdbb4968c09638afbd91025385f4b533414",
+  "partCount": 3,
+  "maxPartBytes": 3799628,
+  "totalPartRows": 7737,
+  "uniqueStableIds": 7737,
+  "missingOrDuplicateStableIds": 0,
+  "repeatedHeader": true,
+  "reconstructionVerifiedByteForByte": true,
+  "reconstruction": "Keep the header from part 01, skip the header in parts 02-03, then concatenate all data records in part order.",
+  "parts": [
+    {
+      "file": "g2-a1-owner-review-needs-owner-part-01-of-03.csv",
+      "rows": 2564,
+      "bytes": 3799628,
+      "sha256": "6667e050af770caab0185534ae883d6c31a737f8588b5c3090a30823452bb557",
+      "firstStableId": "g2/a1/es|Appetit|idx:689|lv, study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna",
+      "lastStableId": "g2/a1/nn|Luft|idx:384|lv|WRONG_LANGUAGE|gpt-5.6-luna"
+    },
+    {
+      "file": "g2-a1-owner-review-needs-owner-part-02-of-03.csv",
+      "rows": 2190,
+      "bytes": 3799618,
+      "sha256": "7e4a359a5fbb824d7b93e6a5f51318b959260e5de52612c2d960d168ebd4a7cc",
+      "firstStableId": "g2/a1/nn|lustig|idx:385|lv|WRONG_LANGUAGE|gpt-5.6-luna",
+      "lastStableId": "g2/a1/lb|Haar|idx:260|lv|WRONG_TRANSLATION|gpt-5.6-luna"
+    },
+    {
+      "file": "g2-a1-owner-review-needs-owner-part-03-of-03.csv",
+      "rows": 2983,
+      "bytes": 2784549,
+      "sha256": "1bc8b1f69f25736368a8bdf7332b1c2f80ca59ae963a597fb8c505fa300ee74d",
+      "firstStableId": "g2/a1/lb|Hauptstadt|idx:272|lv|WRONG_TRANSLATION|gpt-5.6-luna",
+      "lastStableId": "g2/a1/sr|noch mal|idx:701|lv; study.examples; study.*|CONTENT_CONTAMINATION|gpt-5.6-luna"
+    }
+  ]
+}
