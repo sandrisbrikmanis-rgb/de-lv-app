@@ -8048,7 +8048,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Die Bank (iestāde) un die Bank (sols) rakstās vienādi, taču daudzskaitļi atšķiras.",
-        "Ar uzvārdu vai nosaukumu bankas parasti raksta bez artikula: Deutsche Bank."
+        "Bankas nosaukumu parasti lieto ar artikulu: die Deutsche Bank, bei der Deutschen Bank."
       ],
       "sectionAccents": {
         "explanation": {

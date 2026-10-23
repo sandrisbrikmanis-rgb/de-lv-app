@@ -8044,7 +8044,7 @@ const A2_WORDS = [
           "example": "Der Geldautomat ist außer Betrieb. – El cajero automático está fuera de servicio."
         },
         {
-          "word": "die Bank (Pl. Bänke)",
+          "word": "die Bank",
           "meaning": "banco (asiento)",
           "example": "Wir sitzen auf der Bank. – Estamos sentados en el banco."
         }
@@ -8055,7 +8055,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Die Bank (entidad) y die Bank (asiento) se escriben igual, pero sus plurales son distintos; en español pasa lo mismo con «banco», solo que el alemán lo marca en el plural.",
-        "Con un apellido o un nombre propio, los bancos suelen escribirse sin artículo: Deutsche Bank."
+        "Los nombres de bancos se usan normalmente con artículo: die Deutsche Bank, bei der Deutschen Bank."
       ],
       "sectionAccents": {
         "explanation": {
@@ -8149,7 +8149,7 @@ const A2_WORDS = [
           {
             "word": {
               "green": [
-                "die Bank (Pl. Bänke)"
+                "die Bank"
               ]
             },
             "meaning": {

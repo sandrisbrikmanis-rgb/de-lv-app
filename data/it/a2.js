@@ -8048,7 +8048,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Die Bank (istituto) e die Bank (panchina) si scrivono allo stesso modo, ma i plurali sono diversi.",
-        "Le banche con un nome proprio di solito si scrivono senza articolo: Deutsche Bank."
+        "I nomi delle banche si usano di solito con l'articolo: die Deutsche Bank, bei der Deutschen Bank."
       ],
       "sectionAccents": {
         "explanation": {

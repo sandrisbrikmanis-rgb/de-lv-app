@@ -8039,7 +8039,7 @@ const A2_WORDS = [
           "example": "Der Geldautomat ist außer Betrieb. – Pengeautomaten er ude af drift."
         },
         {
-          "word": "die Bank (bænk)",
+          "word": "die Bank",
           "meaning": "bænk",
           "example": "Wir sitzen auf der Bank. – Vi sidder på bænken."
         }
@@ -8050,7 +8050,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Die Bank (pengeinstitut) og die Bank (bænk) staves ens, men flertalsformerne er forskellige.",
-        "Banknavne skrives ofte uden kendeord: Deutsche Bank."
+        "Banknavne bruges normalt med kendeord: die Deutsche Bank, bei der Deutschen Bank."
       ],
       "sectionAccents": {
         "explanation": {
@@ -8145,7 +8145,7 @@ const A2_WORDS = [
           {
             "word": {
               "green": [
-                "die Bank (bænk)"
+                "die Bank"
               ]
             },
             "meaning": {

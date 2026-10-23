@@ -8044,7 +8044,7 @@ const A2_WORDS = [
       ],
       "important": [
         "A die Bank (intézmény) és a die Bank (pad) ugyanúgy íródik, de a többes számuk eltér.",
-        "A bankok nevét általában névelővel használják: bei der Deutschen Bank."
+        "A bankok nevét általában névelővel használják: die Deutsche Bank, bei der Deutschen Bank."
       ],
       "sectionAccents": {
         "explanation": {

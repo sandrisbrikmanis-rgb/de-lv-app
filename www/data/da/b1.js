@@ -78709,7 +78709,7 @@ const B1_WORDS = [
         {
           "word": "anstatt dass",
           "meaning": "i stedet for at (anden handlende)",
-          "example": "Anstatt dass sie hilft, schaut er zu. – I stedet for at hun hjælper, står han bare og ser på."
+          "example": "Anstatt dass er hilft, schaut sie zu. – I stedet for at han hjælper, står hun bare og ser på."
         },
         {
           "word": "ohne … zu",

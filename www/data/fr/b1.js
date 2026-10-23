@@ -78640,7 +78640,7 @@ const B1_WORDS = [
         {
           "word": "anstatt dass",
           "meaning": "au lieu que (autre sujet)",
-          "example": "Anstatt dass du mir hilfst, muss ich alles allein machen. – Au lieu que tu m'aides, je dois tout faire seul."
+          "example": "Anstatt dass er hilft, schaut sie zu. – Au lieu qu'il aide, elle se contente de regarder."
         },
         {
           "word": "ohne … zu",

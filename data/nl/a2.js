@@ -8048,7 +8048,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Die Bank (instelling) en die Bank (zitbank) worden hetzelfde geschreven, maar de meervouden verschillen.",
-        "Met een naam schrijf je banken meestal zonder lidwoord: Deutsche Bank."
+        "Banknamen gebruik je meestal met lidwoord: die Deutsche Bank, bei der Deutschen Bank."
       ],
       "sectionAccents": {
         "explanation": {

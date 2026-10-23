@@ -8063,7 +8063,7 @@ const A2_WORDS = [
           "example": "Der Geldautomat ist außer Betrieb. – Pangaautomaat ei tööta."
         },
         {
-          "word": "die Bank (pink)",
+          "word": "die Bank",
           "meaning": "pink",
           "example": "Wir sitzen auf der Bank. – Me istume pingil."
         }
@@ -8169,7 +8169,7 @@ const A2_WORDS = [
           {
             "word": {
               "green": [
-                "die Bank (pink)"
+                "die Bank"
               ]
             },
             "meaning": {

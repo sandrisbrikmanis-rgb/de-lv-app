@@ -8040,7 +8040,7 @@ const A2_WORDS = [
           "example": "Der Geldautomat ist außer Betrieb. – Bankomat je mimo provoz."
         },
         {
-          "word": "die Bank (Pl. Bänke)",
+          "word": "die Bank",
           "meaning": "lavička",
           "example": "Wir sitzen auf der Bank. – Sedíme na lavičce."
         }
@@ -8146,7 +8146,7 @@ const A2_WORDS = [
           {
             "word": {
               "green": [
-                "die Bank (Pl. Bänke)"
+                "die Bank"
               ]
             },
             "meaning": {

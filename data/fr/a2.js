@@ -8037,7 +8037,7 @@ const A2_WORDS = [
           "example": "Der Geldautomat ist außer Betrieb. – Le distributeur de billets est hors service."
         },
         {
-          "word": "die Sitzbank",
+          "word": "die Bank",
           "meaning": "banc",
           "example": "Wir sitzen auf der Bank. – Nous sommes assis sur le banc."
         }
@@ -8048,7 +8048,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Die Bank (établissement) et die Bank (banc) s'écrivent pareil, mais leurs pluriels diffèrent.",
-        "Pour le banc, on peut aussi dire die Sitzbank ou die Parkbank."
+        "Les noms de banques s'emploient normalement avec l'article : die Deutsche Bank, bei der Deutschen Bank."
       ],
       "sectionAccents": {
         "explanation": {
@@ -8143,7 +8143,7 @@ const A2_WORDS = [
           {
             "word": {
               "green": [
-                "die Sitzbank"
+                "die Bank"
               ]
             },
             "meaning": {
@@ -8175,7 +8175,11 @@ const A2_WORDS = [
               "die Bank"
             ]
           },
-          {}
+          {
+            "blue": [
+              "Bank"
+            ]
+          }
         ]
       }
     }
