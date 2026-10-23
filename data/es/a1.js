@@ -1543,7 +1543,7 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Coloca auch justo delante de la palabra a la que se refiere.",
+        "Coloca auch a menudo delante de la palabra a la que se refiere (Auch ich …), pero también puede ir detrás de ella: Ich komme auch. Ich auch.",
         "'Tampoco' en alemán es auch nicht o auch kein."
       ],
       "important": [

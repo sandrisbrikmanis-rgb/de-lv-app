@@ -1544,7 +1544,7 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Sæt auch lige foran det ord, det henviser til.",
+        "Sæt ofte auch foran det ord, det henviser til (Auch ich …), men det kan også stå efter det: Ich komme auch. Ich auch.",
         "'Heller ikke' hedder auch nicht eller auch kein på tysk."
       ],
       "important": [

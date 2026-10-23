@@ -1540,7 +1540,7 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Setz auch direkt virun d'Wuert, op dat et sech bezitt.",
+        "Setz auch dacks virun d'Wuert, op dat et sech bezitt (Auch ich …), mee et kann och dohannert stoen: Ich komme auch. Ich auch.",
         "'Och net' heescht op Däitsch auch nicht oder auch kein."
       ],
       "important": [

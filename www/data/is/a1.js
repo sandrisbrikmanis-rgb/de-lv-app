@@ -1542,7 +1542,7 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Settu auch beint á undan orðinu sem það á við.",
+        "Settu auch oft á undan orðinu sem það á við (Auch ich …), en það getur líka staðið á eftir því: Ich komme auch. Ich auch.",
         "„Ekki heldur“ er auch nicht eða auch kein á þýsku."
       ],
       "important": [

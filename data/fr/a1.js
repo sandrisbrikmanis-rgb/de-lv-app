@@ -1541,7 +1541,7 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Place auch juste avant le mot auquel il se rapporte.",
+        "Place souvent auch avant le mot auquel il se rapporte (Auch ich …), mais il peut aussi se placer après : Ich komme auch. Ich auch.",
         "« Non plus » se dit auch nicht ou auch kein en allemand."
       ],
       "important": [

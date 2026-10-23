@@ -1538,7 +1538,7 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Az auch közvetlenül az elé a szó elé kerül, amelyre vonatkozik — a magyar 'is' viszont utána áll: Auch ich – én is.",
+        "Az auch gyakran az elé a szó elé kerül, amelyre vonatkozik (Auch ich …), de állhat utána is: Ich komme auch. Ich auch.",
         "A 'sem' németül auch nicht vagy auch kein."
       ],
       "important": [

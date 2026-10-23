@@ -1542,7 +1542,7 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Put auch directly before the word it refers to.",
+        "Often put auch before the word it refers to (Auch ich …), but it can also stand after it: Ich komme auch. Ich auch.",
         "'Not … either' in German is auch nicht or auch kein."
       ],
       "important": [

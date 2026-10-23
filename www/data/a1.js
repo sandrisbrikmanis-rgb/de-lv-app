@@ -1542,7 +1542,7 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Auch liec tieši pirms vārda, uz kuru tas attiecas.",
+        "Auch bieži liec pirms vārda, uz kuru tas attiecas (Auch ich …), bet tas var stāvēt arī aiz tā: Ich komme auch. Ich auch.",
         "'Arī ne' vāciski ir auch nicht vai auch kein."
       ],
       "important": [

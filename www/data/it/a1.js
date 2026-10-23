@@ -1542,7 +1542,7 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Metti auch subito prima della parola a cui si riferisce.",
+        "Metti spesso auch prima della parola a cui si riferisce (Auch ich …), ma può stare anche dopo: Ich komme auch. Ich auch.",
         "«Neanche» in tedesco è auch nicht o auch kein."
       ],
       "important": [
