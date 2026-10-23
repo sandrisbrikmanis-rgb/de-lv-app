@@ -11269,7 +11269,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Figyelj a Dativra: a jemandem etwas borgen jelentése kölcsönad, a sich (Dativ) etwas von jemandem borgen jelentése kölcsönkér.",
-        "Ha nem egyértelmű, hogy adásról vagy kérésről van szó, használd a leihen vagy az ausleihen igét."
+        "Ha nem egyértelmű, hogy adásról vagy kérésről van szó, használd a verleihen (kölcsönad) vagy a sich ausleihen (kölcsönvesz) igét."
       ],
       "important": [
         "A borgen köznyelvi szó; írásban és hivatalos stílusban gyakoribb a leihen.",
@@ -11390,8 +11390,8 @@ const A2_WORDS = [
           },
           {
             "green": [
-              "leihen",
-              "ausleihen"
+              "ausleihen",
+              "verleihen"
             ]
           }
         ],
@@ -16485,7 +16485,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Jegyezd meg: einschlafen = elalszik (folyamat); schlafen = alszik (állapot). Vigyázz: a magyar „elaludtam” azt is jelentheti, hogy nem ébredtem fel időben — ez németül verschlafen."
+        "Jegyezd meg: einschlafen = elalszik (folyamat); schlafen = alszik (állapot)."
       ],
       "important": [
         "Perfektben sein segédigével áll: Ich bin eingeschlafen, nem habe."
@@ -19410,7 +19410,7 @@ const A2_WORDS = [
         "Üzletet vezetni: ein Geschäft führen; csoportot vezetni: eine Gruppe leiten."
       ],
       "important": [
-        "A führen és a fahren nem ugyanaz: a fahren jelentése utazik, járművel megy — az autót vezetni is fahren (Auto fahren), nem führen. A führen = vezet, kalauzol."
+        "A führen és a fahren nem ugyanaz: a fahren jelentése utazik, járművel megy, a führen pedig vezet, kalauzol."
       ],
       "sectionAccents": {
         "explanation": {
@@ -26909,7 +26909,7 @@ const A2_WORDS = [
       ],
       "important": [
         "A die Kirsche nőnemű: die Kirsche, die Kirschen.",
-        "A fa neve általában der Kirschbaum; a die Kirsche rendszerint a gyümölcsöt jelenti."
+        "A fa neve általában der Kirschbaum, de a die Kirsche a fát is jelentheti (Die Kirschen blühen)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -27646,7 +27646,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Tanuld kifejezésként: az Alles klar? és a Klar! nagyon gyakori a hétköznapi beszélgetésben.",
-        "A klar a szemre és az észre is vonatkozik: tiszta víz és világos gondolat. Vigyázz: ha a tiszta azt jelenti, hogy nem piszkos, németül a sauber a helyes szó, nem a klar."
+        "A klar a szemre és az észre is vonatkozik: tiszta víz és világos gondolat."
       ],
       "important": [
         "A Klar! mint válasz köznyelvi; választékos stílusban mondd így: natürlich vagy selbstverständlich.",
@@ -44982,7 +44982,7 @@ const A2_WORDS = [
         "A magyar amíg azt is jelentheti, hogy valameddig (Várj, amíg megjövök.); ezt a németben a bis fejezi ki, nem a während."
       ],
       "important": [
-        "A während kötőszó után az ige nem a második helyre, hanem a mondat végére kerül: ..., während ich arbeite (nem während ich arbeite ich).",
+        "A während kötőszó után az ige nem a második helyre, hanem a mondat végére kerül: ..., während ich arbeite (nem während arbeite ich).",
         "A während nem jelenti azt, hogy amikor, ha egyszeri eseményről van szó – ilyenkor wenn vagy als kell."
       ],
       "sectionAccents": {
@@ -45190,7 +45190,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Skála: sicher (biztosan) > wahrscheinlich (valószínűleg) > vielleicht (talán).",
-        "A szó részei: wahr (igaz) + scheinlich (a scheinen, látszik igéből): igaznak látszik. A magyar valószínű is így épül fel: való + színű."
+        "A szó részei: wahr (igaz) + scheinlich: igaznak látszik. A magyar valószínű is így épül fel: való + színű."
       ],
       "important": [
         "A wahrscheinlich erősebb, mint a vielleicht: azt jelzi, hogy valami inkább bekövetkezik, mint nem.",
@@ -48828,7 +48828,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Helytelen: ein hoche Berg. Helyes: ein hoher Berg.",
-        "Az ember testmagasságát általában a groß szóval fejezik ki, nem a hoch-chal: Er ist groß = Ő magas."
+        "Az ember testmagasságát általában a groß szóval fejezik ki, nem a hoch-chal."
       ],
       "sectionAccents": {
         "explanation": {

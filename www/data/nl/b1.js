@@ -11009,7 +11009,7 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "bewegen",
       "explanation": [
-        "Kern: bewegen betekent iets bewegen — iets van plaats of houding laten veranderen: den Arm bewegen, einen Stein bewegen. Zelf bewegen is in het Duits wederkerend: sich bewegen (ich bewege mich, waar het Nederlands gewoon 'ik beweeg' zegt). In deze betekenis is het werkwoord regelmatig: bewegt, bewegte, hat bewegt.",
+        "Kern: bewegen betekent iets bewegen — iets van plaats of houding laten veranderen: den Arm bewegen, einen Stein bewegen. Zelf bewegen is in het Duits wederkerend: sich bewegen. In deze betekenis is het werkwoord regelmatig: bewegt, bewegte, hat bewegt.",
         "Figuurlijk betekent bewegen ook ontroeren: Die Geschichte bewegt mich (het verhaal ontroert me). Het voltooid deelwoord bewegt betekent als bijvoeglijk naamwoord ontroerd, maar ook onrustig of veelbewogen (ein bewegtes Leben).",
         "Er bestaat ook een sterk werkwoord bewegen, bewog, hat bewogen = ertoe brengen: Was hat dich dazu bewogen? Dat wordt vooral in de schrijftaal gebruikt."
       ],
@@ -16860,7 +16860,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Eher is niet hetzelfde als früher: früher is ‘vroeger, ooit’, eher – ‘eerder dan iets’.",
-        "In een vergelijking gebruik je eher samen met als: eher A als B."
+        "In een vergelijking gebruik je eher samen met als (niet wie): eher A als B."
       ],
       "sectionAccents": {
         "explanation": {
@@ -25796,7 +25796,7 @@ const B1_WORDS = [
         "Onthoud voor de figuurlijke betekenis het voorzetsel: festhalten an etwas (vasthouden aan iets)."
       ],
       "important": [
-        "Verwar festhalten (stevig vasthouden) niet met festnehmen (arresteren): het eerste is gewoon vasthouden, het tweede is iets wat de politie doet.",
+        "Verwar festhalten (stevig vasthouden) niet met festnehmen (arresteren): het eerste is vasthouden (ook: iemand niet laten gaan, tegenhouden), het tweede is een officiële arrestatie.",
         "In de figuurlijke betekenis gebruik je an + datief, geen accusatief: an dem Plan, niet an den Plan."
       ],
       "sectionAccents": {
@@ -31599,7 +31599,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Het meervoud heeft een umlaut: die Güter.",
-        "Het Nederlandse 'bezit' of 'eigendom' kan in het Duits ook das Eigentum of der Besitz zijn, dus de context is belangrijk."
+        "Het Nederlandse 'bezit' of 'eigendom' kan in het Duits ook das Eigentum zijn, dus de context is belangrijk."
       ],
       "sectionAccents": {
         "explanation": {
@@ -38328,7 +38328,7 @@ const B1_WORDS = [
       "explanation": [
         "Hoofdgedachte: klappen betekent in de spreektaal lukken, goed gaan — over een plan, een afspraak of een handeling die verloopt zoals gewenst. Het onderwerp is meestal es, das of een concreet plan: Es klappt, Das klappt.",
         "Vormen: klappt, klappte, hat geklappt (hulpwerkwoord haben). Waarmee iets lukt, geef je aan met mit: Es klappt mit dem Termin.",
-        "Typische vraag en antwoord: Klappt das? — Ja, das klappt. Het woord is informeel en hoor je in het dagelijks leven heel vaak. Let op: in de handen klappen is in het Duits klatschen."
+        "Typische vraag en antwoord: Klappt das? — Ja, das klappt. Het woord is informeel en hoor je in het dagelijks leven heel vaak."
       ],
       "examples": [
         {
@@ -46032,7 +46032,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Das Maß schrijf je met ß, omdat de klinker lang is.",
-        "Het meervoud is die Maße (afmetingen); de vorm Maßen komt alleen voor in de uitdrukking über alle Maßen."
+        "Het meervoud is die Maße (afmetingen); in de datief — den Maßen (in Maßen, über alle Maßen)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -53883,7 +53883,7 @@ const B1_WORDS = [
         "Leer het verschil: gereizt is een stemming, reizen een handeling."
       ],
       "important": [
-        "reizen is niet reisen of reißen: elk heeft een eigen betekenis. Let op: het Nederlandse reizen is in het Duits reisen.",
+        "reizen is niet reisen of reißen: elk heeft een eigen betekenis.",
         "Na jemanden reizen volgt de accusatief: Das reizt mich, niet mir."
       ],
       "sectionAccents": {
@@ -54237,7 +54237,7 @@ const B1_WORDS = [
       ],
       "tip": [
         "richten an + Akk gebruik je als je iets op een persoon richt; sich richten nach + Dat als je je aanpast.",
-        "Leer bijvoorbeeld Blick richten (de blik op iets richten) als één uitdrukking."
+        "Leer bijvoorbeeld den Blick auf etwas richten als één uitdrukking."
       ],
       "important": [
         "Verwar richten (richten, wenden) niet met aufrichten (overeind zetten) of ausrichten (overbrengen, organiseren).",
@@ -63198,7 +63198,7 @@ const B1_WORDS = [
       ],
       "tip": [
         "Een kind de borst geven is stillen, maar met de fles voeden is mit der Flasche füttern.",
-        "Bij Durst en Hunger gebruik je stillen of löschen (Durst löschen)."
+        "Bij Durst gebruik je stillen of löschen (Durst löschen), bij Hunger alleen stillen."
       ],
       "important": [
         "stillen is niet still sein (stil zijn, zwijgen).",
@@ -66767,7 +66767,7 @@ const B1_WORDS = [
       "translation": "vertrouwen",
       "explanation": [
         "Kernidee: trauen betekent iemand vertrouwen – geloven dat iemand eerlijk en betrouwbaar is. Vormen: traut, traute, hat getraut. Na trauen staat de persoon in de datief: Ich traue ihm nicht.",
-        "Wederkerend betekent sich trauen durven: Er traut sich nicht, allein zu gehen. Minder vaak betekent trauen ook trouwen in de zin van in de echt verbinden (een dominee of ambtenaar trouwt een paar): Der Pfarrer traut das Paar. Ook uitdrukkingen als seinen Augen nicht trauen hebben de datief. Let op: het Nederlandse trouwen (met iemand) is in het Duits meestal heiraten."
+        "Wederkerend betekent sich trauen durven: Er traut sich nicht, allein zu gehen. Minder vaak betekent trauen ook trouwen in de zin van in de echt verbinden (een dominee of ambtenaar trouwt een paar): Der Pfarrer traut das Paar. Ook uitdrukkingen als seinen Augen nicht trauen hebben de datief."
       ],
       "examples": [
         {
@@ -70166,7 +70166,7 @@ const B1_WORDS = [
       ],
       "important": [
         "In het meervoud staat een umlaut: die Verbände.",
-        "Der Verband en die Verbindung zijn verschillende woorden: verband of organisatie tegenover verbinding. Let op: verband in de zin van samenhang is in het Duits der Zusammenhang."
+        "Der Verband en die Verbindung zijn verschillende woorden: verband of organisatie tegenover verbinding."
       ],
       "sectionAccents": {
         "explanation": {
@@ -74056,7 +74056,7 @@ const B1_WORDS = [
         "Na wachen volgt vaak über + accusatief."
       ],
       "important": [
-        "Wachen betekent niet wakker worden – dat is aufwachen – en ook niet wachten (dat is warten).",
+        "Wachen betekent niet wakker worden – dat is aufwachen.",
         "De voltooide tijd is hat gewacht."
       ],
       "sectionAccents": {
@@ -79074,7 +79074,7 @@ const B1_WORDS = [
         "Voeg altijd het wederkerend voornaamwoord toe: er befindet sich, wir befinden uns."
       ],
       "important": [
-        "Sich befinden betekent niet vinden (finden) of zich voelen; het geeft alleen een plaats of toestand aan.",
+        "Sich befinden betekent niet vinden (finden); het geeft een plaats of toestand aan (formeel ook hoe iemand zich voelt).",
         "In de voltooide tijd is het hulpwerkwoord haben (hat sich befunden), maar in een verhaal gebruikt men vaker het Präteritum: befand sich."
       ],
       "sectionAccents": {
@@ -79927,7 +79927,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Onthoud: schaden vraagt een datief (wem?), geen accusatief: Das schadet dir, niet Das schadet dich.",
+        "Onthoud: schaden vraagt een datief (aan wie?), geen accusatief: Das schadet dir, niet Das schadet dich.",
         "Met nicht betekent het dat iets onschadelijk is: Ein Versuch kann nicht schaden."
       ],
       "important": [
@@ -80509,7 +80509,7 @@ const B1_WORDS = [
         "Het woord wordt vaak gebruikt bij het beschrijven van het gedrag van kinderen: Trotzphase, Trotzkopf (dwarskop, koppig kind)."
       ],
       "important": [
-        "Der Trotz (zelfstandig naamwoord) en trotz (voorzetsel) klinken hetzelfde, maar zijn verschillende woorden; hier gaat het om koppigheid. Let op: het Nederlandse trots is in het Duits Stolz.",
+        "Der Trotz (zelfstandig naamwoord) en trotz (voorzetsel) klinken hetzelfde, maar zijn verschillende woorden; hier gaat het om koppigheid.",
         "Het zelfstandig naamwoord heeft meestal geen meervoud; gebruik niet die Trotze."
       ],
       "sectionAccents": {

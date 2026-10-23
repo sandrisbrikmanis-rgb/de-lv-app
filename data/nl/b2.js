@@ -3993,7 +3993,7 @@ const B2_WORDS = [
         "Vaak volgt in de zin ook nur: Ich beschränke mich nur auf …"
       ],
       "important": [
-        "In het Nederlands zeg je zich beperken tot, maar in het Duits gebruik je auf — niet zu.",
+        "In het Nederlands zeg je zich beperken tot, maar in het Duits gebruik je auf — niet mit.",
         "Sich beschränken is niet hetzelfde als sich begnügen: het eerste drukt uit dat je jezelf beperkt, het tweede dat je ergens genoegen mee neemt."
       ],
       "sectionAccents": {
@@ -27130,7 +27130,7 @@ const B2_WORDS = [
         "De datief is de ontvanger: wem? — dem Studenten, der Familie."
       ],
       "important": [
-        "Het voltooid deelwoord is zugewiesen — ge- komt tussen zu en de stam van het werkwoord."
+        "Het voltooid deelwoord is zugewiesen — zu + gewiesen (weisen – wies – gewiesen)."
       ],
       "sectionAccents": {
         "explanation": {

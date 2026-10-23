@@ -6437,7 +6437,7 @@ const A1_WORDS = [
       "translation": "fyrst • aðeins",
       "explanation": [
         "Aðalatriðið: erst er atviksorð með tvær meginmerkingar: 'aðeins, ekki nema' um tíma (ekki fyrr, ekki meira en): Es ist erst 8 Uhr (klukkan er bara 8), og 'fyrst': Erst essen wir, dann gehen wir.",
-        "Er kommt erst morgen merkir 'hann kemur ekki fyrr en á morgun'. Ólíkt nur (aðeins, um magn) leggur erst áherslu á að eitthvað hafi ekki enn gerst eða ekki náð tilteknum tíma. Íslenska orðasambandið „ekki fyrr en“ hentar oft vel.",
+        "Er kommt erst morgen merkir 'hann kemur ekki fyrr en á morgun'. Ólíkt nur (aðeins, einföld takmörkun) leggur erst áherslu á að eitthvað hafi ekki enn gerst eða ekki náð tilteknum tíma. Íslenska orðasambandið „ekki fyrr en“ hentar oft vel.",
         "Ekki rugla saman við erste (fyrsti), sem er raðtala."
       ],
       "examples": [
@@ -6484,7 +6484,7 @@ const A1_WORDS = [
         "Erst … dann = fyrst … svo."
       ],
       "important": [
-        "Erst og nur eru ekki það sama: nur á við magn, erst við tíma.",
+        "Erst og nur eru ekki það sama: nur takmarkar einfaldlega (aðeins svo mikið), erst merkir 'ekki fyrr en / enn sem komið er aðeins' (erst morgen, erst drei Seiten).",
         "Erst er ekki það sama og zuerst: zuerst merkir venjulega 'fyrst, í byrjun' þegar talin eru upp nokkur skref."
       ],
       "sectionAccents": {
@@ -6657,7 +6657,7 @@ const A1_WORDS = [
       "translation": "það",
       "explanation": [
         "Aðalatriðið: es er persónufornafn í þriðju persónu hvorugkyns: Das Kind weint. Es ist müde. Í þolfalli er það eins: Ich sehe es; í þágufalli — ihm.",
-        "Es er líka notað í ópersónulegum setningum án geranda: Es regnet (það rignir), Es ist kalt (það er kalt), Wie geht es dir? (hvernig hefurðu það?), Es gibt … (það er til, það eru). Ólíkt íslensku „það“ hverfur es ekki þegar annað orð fer fremst: Heute regnet es (í dag rignir).",
+        "Es er líka notað í ópersónulegum setningum án geranda: Es regnet (það rignir), Es ist kalt (það er kalt), Wie geht es dir? (hvernig hefurðu það?), Es gibt … (það er til, það eru).",
         "Es stendur fyrir hvorugkynsnafnorð (das Buch → es), en fyrir karlkyns- og kvenkynsnafnorð eru notuð er og sie. Kynið fer eftir þýska orðinu: das Buch → es, þótt „bók“ sé kvenkyns á íslensku."
       ],
       "examples": [
@@ -6704,7 +6704,7 @@ const A1_WORDS = [
         "Vísað er til hvorugkynsnafnorðs með es: das Auto → es (þótt „bíll“ sé karlkyns á íslensku)."
       ],
       "important": [
-        "Í ópersónulegri setningu má ekki sleppa es: ekki er hægt að segja 'Regnet heute' — rétt er Heute regnet es.",
+        "Í ópersónulegri setningu má ekki sleppa es: ekki er hægt að segja 'Regnet heute'",
         "Um fólk er es aðeins notað með hvorugkynsorðum eins og das Kind, das Mädchen; annars er eða sie."
       ],
       "sectionAccents": {
@@ -11355,7 +11355,7 @@ const A1_WORDS = [
       "explanation": [
         "Aðalatriðið: heißen merkir að heita — það segir hvað einhver eða eitthvað heitir. Ich heiße Anna er nákvæmlega eins og á íslensku: „ég heiti Anna“.",
         "Myndir: heißt, hieß, hat geheißen. Á eftir heißen er nafnið í nefnifalli: Er heißt Paul. Í spurningu: Wie heißt du? (Hvað heitirðu?), Wie heißt das auf Deutsch? (Hvað heitir þetta á þýsku?).",
-        "Önnur merking er „þýða“: Was heißt “Danke” auf Isländisch? — Hvað þýðir „Danke“ á íslensku?"
+        "Önnur merking er „þýða“: Was heißt “Danke” auf Lettisch? — Hvað þýðir „Danke“ á lettnesku?"
       ],
       "examples": [
         {
@@ -12924,7 +12924,7 @@ const A1_WORDS = [
       ],
       "tip": [
         "Hreyfing → ins (hvert?), kyrrstaða → im (hvar?): ins Kino gehen, im Kino sein.",
-        "Ins er aðeins notað með das-orðum — athugaðu kynið. Kyn þýska orðsins er ekki alltaf hið sama og í íslensku (t.d. das Mädchen en stúlkan, das Auto en bíllinn)."
+        "Ins er aðeins notað með das-orðum — athugaðu kynið."
       ],
       "important": [
         "Í karlkyni og kvenkyni er ekkert ins: segja verður in den Garten, in die Schule.",
@@ -18935,7 +18935,7 @@ const A1_WORDS = [
       "translation": "til • eftir",
       "explanation": [
         "Aðalatriði: nach er forsetning sem stýrir þágufalli. Hún merkir 1) „til“ um borgir, lönd og í nach Hause: Ich fahre nach Berlin; 2) „eftir“ um tíma: nach dem Essen (eftir matinn), zehn nach acht (tíu mínútur yfir átta); 3) „eftir, samkvæmt“: meiner Meinung nach (að mínu mati).",
-        "Á eftir nach kemur þágufall: nach dem Unterricht, nach der Arbeit. Borgir og lönd án greinis: nach Deutschland, nach Island. Með löndum sem hafa greini er notað in: in die Schweiz.",
+        "Á eftir nach kemur þágufall: nach dem Unterricht, nach der Arbeit. Borgir og lönd án greinis: nach Deutschland, nach Riga. Með löndum sem hafa greini er notað in: in die Schweiz.",
         "Algengt: nach Hause gehen (fara heim), nach links / nach rechts (til vinstri / til hægri)."
       ],
       "examples": [
@@ -18978,7 +18978,7 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Nach + borg/land án greinis: nach Berlin, nach Island; með manneskju eða stofnun — zu: zum Arzt.",
+        "Nach + borg/land án greinis: nach Berlin, nach Lettland; með manneskju eða stofnun — zu: zum Arzt.",
         "Nach um tíma = eftir: nach der Schule; nach um stað = til."
       ],
       "important": [
@@ -20824,7 +20824,7 @@ const A1_WORDS = [
         "Með Das passt! samþykkirðu tíma, lausn eða stærð."
       ],
       "important": [
-        "Passen (passa, henta) og aufpassen (passa sig) eru ólíkar sagnir og aufpassen er aðskiljanleg. Íslenska „passa“ getur líka merkt að gæta (passa barn) — það er á þýsku aufpassen auf.",
+        "Passen (passa, henta) og aufpassen (passa sig) eru ólíkar sagnir og aufpassen er aðskiljanleg.",
         "Á eftir passen er manneskjan alltaf í þágufalli: mir, dir, ihm, ihr."
       ],
       "sectionAccents": {
@@ -21052,7 +21052,7 @@ const A1_WORDS = [
       "translation": "prófa • smakka",
       "explanation": [
         "Aðalatriði: probieren merkir „prófa“ (eitthvað nýtt) og „smakka“ (mat, drykk): Probier mal die Suppe! Ich möchte den Kuchen probieren.",
-        "Myndir: probiert, probierte, hat probiert (án ge-, því sögnin endar á -ieren). Alltaf með þolfalli: etwas probieren. Aðskiljanleg afleidd sögn: anprobieren (máta föt).",
+        "Myndir: probiert, probierte, hat probiert (án ge-, því sögnin endar á -ieren). Venjulega með þolfalli: etwas probieren. Aðskiljanleg afleidd sögn: anprobieren (máta föt).",
         "Mýkra með mal: Probier mal! — Prófaðu!"
       ],
       "examples": [
@@ -22323,7 +22323,7 @@ const A1_WORDS = [
       "explanation": [
         "Aðalatriði: schwimmen merkir „synda“ — að hreyfa sig í vatni eða halda sér á floti: Ich schwimme gern. Wir schwimmen im Schwimmbad.",
         "Myndir: schwimmt, schwamm, ist geschwommen (sterk sögn). Þegar stefna er tjáð er hjálparsögnin ist í núliðinni tíð: Sie ist über den See geschwommen; einnig um athöfnina sjálfa er oft notað ist í staðalmáli (Ich bin gestern geschwommen), stundum hat.",
-        "Á íslensku segjum við oft „synda“ eða „fara í sjóinn“ óháð því hvort synt er; á þýsku er það að baða sig í sjó eða vatni sér til ánægju yfirleitt baden: Wir baden im Meer. „Fara í sund“ er schwimmen gehen."
+        "Á íslensku segjum við oft „synda“ eða „fara í sjóinn“ óháð því hvort synt er; á þýsku er það að baða sig í sjó eða vatni sér til ánægju yfirleitt baden: Wir baden im Meer."
       ],
       "examples": [
         {
@@ -23279,7 +23279,7 @@ const A1_WORDS = [
         "Lærðu afturbeygðar sagnir ásamt sich: sich freuen, sich setzen."
       ],
       "important": [
-        "Sich er ekki hægt að nota með ich, du, wir, ihr — þar þarf mich, dich, uns, euch.",
+        "Sich er ekki hægt að nota með ich, du, wir, ihr — þar þarf mich/mir, dich/dir, uns, euch.",
         "Í fleirtölu getur Sie sehen sich merkt bæði \"þau sjá sig\" og \"þau sjá hvert annað\"; samhengið sker úr."
       ],
       "sectionAccents": {
@@ -26889,7 +26889,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Wer á við fólk; um hluti er spurt með was.",
-        "Fallið fer eftir þýsku sögninni, ekki þeirri íslensku: Wen rufst du an? (þolfall) en Wem hilfst du? (þágufall) — eins og á íslensku Hverjum hjálpar þú?"
+        "Lettneska orðið kas samsvarar oft bæði wer og was; greint er á milli eftir því hvort spurt er um manneskju."
       ],
       "sectionAccents": {
         "explanation": {
@@ -27048,7 +27048,7 @@ const A1_WORDS = [
       "explanation": [
         "Aðalatriðið: werden er óregluleg sögn: ich werde, du wirst, er wird, wir werden; þátíð wurde, núliðin tíð ist geworden. Hún hefur þrenns konar notkun: verða (Es wird kalt), framtíð (Ich werde kommen) og þolmynd (Das Haus wird gebaut).",
         "Þegar einhver verður eitthvað stendur starfsheitið án greinis: Sie wird Ärztin. Í núliðinni tíð þolmyndar er notað worden (ist gebaut worden), ekki geworden.",
-        "Að verða er ekki það sama og að fá: verða = werden, fá = bekommen. Athugaðu líka að íslenska „ég verð að ...“ (nauðsyn) er á þýsku müssen, ekki werden."
+        "Að verða er ekki það sama og að fá: verða = werden, fá = bekommen."
       ],
       "examples": [
         {

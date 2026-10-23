@@ -13314,7 +13314,7 @@ const B1_WORDS = [
       "translation": "savez",
       "explanation": [
         "Glavna misao: der Bund je savez, udruženje ili državni savez — povezivanje više strana. Množina je die Bünde. Riječ je muškog roda.",
-        "U Njemačkoj der Bund često znači saveznu državu (federaciju) nasuprot saveznim zemljama: Bund und Länder. U složenicama: der Bundestag, die Bundesrepublik, der Bundeskanzler.",
+        "U Njemačkoj der Bund često znači saveznu državu (federaciju) nasuprot saveznim zemljama (Ländern): Bund und Länder. U složenicama: der Bundestag, die Bundesrepublik, der Bundeskanzler.",
         "Druga značenja: ein Bund fürs Leben (bračna veza) i das Bund (svežanj, vezica): ein Bund Radieschen. To je druga riječ s drugim članom."
       ],
       "examples": [
@@ -16856,7 +16856,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Eher nije isto što i früher: früher znači „nekad”, eher – „ranije od nečega”.",
-        "U značenju usporedbe uz eher se koristi als za uvođenje druge mogućnosti: eher A als B."
+        "U značenju usporedbe uz eher se koristi als (a ne wie): eher A als B."
       ],
       "sectionAccents": {
         "explanation": {
@@ -19721,7 +19721,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Sich eingewöhnen obično se ne upotrebljava s an + akuzativ.",
-        "Odvojivi prefiks ein odvaja se u prezentu, preteritu i imperativu; u participu perfekta i infinitivu ostaje spojen: eingewöhnt, einzugewöhnen."
+        "Odvojivi prefiks ein odvaja se samo u prezentu, preteritu i imperativu; u participu je spojen: eingewöhnt."
       ],
       "sectionAccents": {
         "explanation": {
@@ -25792,7 +25792,7 @@ const B1_WORDS = [
         "Za preneseno značenje zapamti prijedlog: festhalten an etwas (držati se nečega)."
       ],
       "important": [
-        "Ne miješaj festhalten (čvrsto držati) i festnehmen (uhititi) — prvo je samo držanje, drugo je radnja policije.",
+        "Ne miješaj festhalten (čvrsto držati) i festnehmen (uhititi) — prvo je držanje (i: ne pustiti nekoga da ode, zadržati), drugo je službeno uhićenje.",
         "U prenesenom značenju rabi se an + dativ, a ne akuzativ: an dem Plan, a ne an den Plan."
       ],
       "sectionAccents": {
@@ -46030,7 +46030,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Riječ das Maß piše se s ß jer je samoglasnik dug.",
-        "Množina je die Maße (dimenzije); oblik Maßen je dativ množine, npr. u izrazima über alle Maßen i in Maßen."
+        "Množina je die Maße (dimenzije); u dativu — den Maßen (in Maßen, über alle Maßen)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -54231,7 +54231,7 @@ const B1_WORDS = [
       ],
       "tip": [
         "richten an + akuzativ koristi se kad nešto usmjeravaš prema osobi; sich richten nach + dativ – kad se prilagođavaš.",
-        "Nauči npr. Blick richten (usmjeriti pogled prema nečemu) kao jedan izraz."
+        "Nauči npr. den Blick auf etwas richten (usmjeriti pogled prema nečemu) kao jedan izraz."
       ],
       "important": [
         "Ne miješaj richten (usmjeriti) s aufrichten (uspraviti) ili ausrichten (prenijeti, organizirati).",
@@ -63196,7 +63196,7 @@ const B1_WORDS = [
       ],
       "tip": [
         "Dojiti dijete je stillen, a hraniti na bočicu – mit der Flasche füttern.",
-        "S Durst i Hunger koristi se stillen ili löschen (Durst löschen)."
+        "S Durst koristi se stillen ili löschen (Durst löschen), a s Hunger samo stillen."
       ],
       "important": [
         "stillen nije still sein (šutjeti, biti tih).",
@@ -64583,12 +64583,12 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "U hrvatskom scena može značiti i dio predstave i pozornicu (izaći na scenu), ali u njemačkom su to dvije riječi: die Szene (prizor, događaj) i die Bühne (pozornica).",
+        "Prizor i krajolik lako se pomiješaju, ali u njemačkom su to dvije riječi: die Szene (prizor, događaj) i die Landschaft (priroda, krajolik).",
         "Zapamti izraz eine Szene machen – napraviti scenu."
       ],
       "important": [
         "Riječ završava na -e i ženskog je roda: die Szene, a ne der Szene.",
-        "Njemačko die Szene ne znači pozornicu – to je die Bühne."
+        "Njemačko die Szene ne znači krajolik (prirodu) – to je die Landschaft."
       ],
       "sectionAccents": {
         "explanation": {
@@ -76524,7 +76524,7 @@ const B1_WORDS = [
         "Iza zugeben često dolazi zavisna rečenica s dass, u kojoj je glagol na kraju."
       ],
       "important": [
-        "Zugeben znači priznati nešto što govorniku nije u prilog; u kuhanju zugeben može značiti i dodati (Salz zugeben), ali to je značenje rjeđe.",
+        "Zugeben znači priznati nešto što govorniku nije u prilog; ako samo želiš reći da nešto dodaješ jelu, koristi se hinzufügen.",
         "Iza zugeben u zavisnoj rečenici s dass glagol je na kraju: Er gibt zu, dass er lügt."
       ],
       "sectionAccents": {
@@ -78652,7 +78652,7 @@ const B1_WORDS = [
         "Statt … zu znači isto i zvuči malo jednostavnije; oba su oblika ispravna."
       ],
       "important": [
-        "Pozor: ako se subjekt mijenja, rabi se anstatt dass: Anstatt dass du mir hilfst, muss ich alles allein machen.",
+        "Pozor: ako se subjekt mijenja, rabi se anstatt dass: Anstatt dass er hilft, schaut sie zu.",
         "Ne miješaj s prijedlogom anstatt/statt + genitiv (statt des Buches), koji znači umjesto (nečega)."
       ],
       "sectionAccents": {
@@ -79060,7 +79060,7 @@ const B1_WORDS = [
         "Uvijek dodaj povratnu zamjenicu: er befindet sich, wir befinden uns."
       ],
       "important": [
-        "Sich befinden ne znači naći (finden); označava mjesto ili stanje (u značenju osjećati se vrlo je formalno: Wie befinden Sie sich?).",
+        "Sich befinden ne znači naći (finden); označava mjesto ili stanje (formalno i to kako se netko osjeća).",
         "U perfektu je pomoćni glagol haben (hat sich befunden), ali se u pripovijedanju češće rabi preterit: befand sich."
       ],
       "sectionAccents": {

@@ -11273,7 +11273,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Fais attention au datif : jemandem etwas borgen, c'est prêter ; sich (Dat.) etwas von jemandem borgen, c'est emprunter.",
-        "Si l'on ne sait pas bien s'il s'agit de donner ou de prendre, on emploie leihen ou ausleihen."
+        "Si l'on ne sait pas bien s'il s'agit de donner ou de prendre, on emploie verleihen (prêter) ou sich ausleihen (emprunter)."
       ],
       "important": [
         "Borgen appartient à la langue parlée ; à l'écrit et dans un style officiel, on emploie plutôt leihen.",
@@ -11394,8 +11394,8 @@ const A2_WORDS = [
           },
           {
             "green": [
-              "leihen",
-              "ausleihen"
+              "ausleihen",
+              "verleihen"
             ]
           }
         ],
@@ -24470,7 +24470,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Les expressions in den Keller (Wohin ?) et im Keller (Wo ?) aident à retenir la différence entre accusatif et datif.",
+        "Les expressions in den Keller (vers où ?) et im Keller (où ?) aident à retenir la différence entre accusatif et datif.",
         "Ordre des niveaux d'une maison : der Keller, das Erdgeschoss, der erste Stock."
       ],
       "important": [
@@ -26493,7 +26493,7 @@ const A2_WORDS = [
       "translation": "cinéma",
       "explanation": [
         "Idée principale : das Kino est un nom neutre qui désigne la salle de cinéma, le lieu où l'on regarde des films, mais aussi le cinéma comme loisir : ins Kino gehen (aller au cinéma).",
-        "Le pluriel est die Kinos. Le lieu (Wo ?) se dit im Kino (in + datif), la direction (Wohin ?) ins Kino (in + accusatif). Le film qu'on y projette, c'est der Film.",
+        "Le pluriel est die Kinos. Le lieu (où ?) se dit im Kino (in + datif), la direction (vers où ?) ins Kino (in + accusatif). Le film qu'on y projette, c'est der Film.",
         "Pour acheter un billet : eine Kinokarte kaufen ; la séance se dit die Vorstellung."
       ],
       "examples": [
@@ -26531,7 +26531,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Retiens la paire : ins Kino gehen (Wohin ?), im Kino sein (Wo ?).",
+        "Retiens la paire : ins Kino gehen (vers où ?), im Kino sein (où ?).",
         "Pour une invitation, une phrase courte suffit : Hast du Lust auf Kino? (Tu veux aller au cinéma ?)."
       ],
       "important": [
@@ -26919,7 +26919,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Die Kirsche est féminin : die Kirsche, die Kirschen.",
-        "Le nom du fruit n'est pas celui de l'arbre : l'arbre, c'est der Kirschbaum."
+        "L'arbre s'appelle généralement der Kirschbaum, mais die Kirsche peut aussi désigner l'arbre (Die Kirschen blühen)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -37324,7 +37324,7 @@ const A2_WORDS = [
         "La file où les gens attendent s'appelle Schlange ; Reihe désigne plutôt une rangée ou un ordre de passage (Du bist an der Reihe)."
       ],
       "important": [
-        "Schlange stehen est une expression figée (sans article) ; on peut aussi dire in der Schlange stehen ou warten."
+        "Schlange stehen est une expression figée : on ne dit pas in der Schlange sein, mais Schlange stehen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -37954,7 +37954,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Les dettes — presque toujours au pluriel : Schulden haben, Schulden machen (le singulier eine Schuld est soutenu)."
+        "Les dettes — généralement au pluriel : Schulden haben, Schulden machen."
       ],
       "important": [
         "Pour une dette, on dit bei jemandem Schulden haben (avoir des dettes envers quelqu'un)."
@@ -44996,11 +44996,11 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Conjonction : während ... verbe à la fin. Si während est suivi d'un nom, c'est une préposition et il faut le génitif.",
+        "Conjonction : während ... Verb am Ende. Si während est suivi d'un nom, c'est une préposition et il faut le génitif.",
         "Attention : « jusqu'à ce que » ne se dit pas während ; en allemand, on emploie alors bis."
       ],
       "important": [
-        "Après la conjonction während, le verbe n'est jamais en deuxième position : ..., während ich arbeite (et non während ich arbeite ich).",
+        "Après la conjonction während, le verbe n'est jamais en deuxième position : ..., während ich arbeite (et non während arbeite ich).",
         "während ne signifie pas quand pour un événement ponctuel – on emploie alors wenn ou als."
       ],
       "sectionAccents": {
@@ -45418,7 +45418,7 @@ const A2_WORDS = [
       "translation": "changer • échanger",
       "explanation": [
         "Idée principale : wechseln est un verbe : wechselt, wechselte, hat gewechselt. Il signifie changer ou échanger une chose contre une autre, par exemple de l'argent, d'école, de travail, de vêtements.",
-        "On l'emploie généralement avec l'accusatif et l'auxiliaire haben : Er hat den Job gewechselt. Pour le passage d'un lieu ou d'un groupe à un autre, on emploie sein : Er ist in eine andere Abteilung gewechselt.",
+        "On l'emploie généralement avec l'accusatif et l'auxiliaire haben : Er hat den Job gewechselt. Si l'on insiste sur le passage à un autre lieu, on peut aussi employer sein : Er ist zu einem anderen Verein gewechselt.",
         "À la banque, Geld wechseln signifie changer de l'argent dans une autre devise ou en petite monnaie. Le nom correspondant est der Wechsel (changement)."
       ],
       "examples": [
@@ -47175,7 +47175,7 @@ const A2_WORDS = [
       "explanation": [
         "Idée principale : der Zwilling est un nom masculin qui signifie jumeau, l'un de deux enfants nés en même temps. Pluriel : die Zwillinge.",
         "On dit aussi Zwillinge pour les deux ensemble : Sie hat Zwillinge bekommen. Pour préciser le sexe, on dit der Zwillingsbruder (frère jumeau) ou die Zwillingsschwester (sœur jumelle).",
-        "Die Zwillinge désigne aussi le signe du zodiaque des Gémeaux : Er ist Zwilling (il est Gémeaux)."
+        "Die Zwillinge désigne aussi le signe du zodiaque des Gémeaux."
       ],
       "examples": [
         {
@@ -50091,7 +50091,7 @@ const A2_WORDS = [
         "bloß est un synonyme familier."
       ],
       "important": [
-        "nur limite une quantité, y compris une durée (nur zehn Minuten) ; pour dire « pas plus tard que » ou « pas avant », on utilise erst : Es ist erst acht Uhr.",
+        "nur limite une quantité ; pour une indication de temps, on utilise erst : Es ist erst acht Uhr.",
         "nur est invariable."
       ],
       "sectionAccents": {

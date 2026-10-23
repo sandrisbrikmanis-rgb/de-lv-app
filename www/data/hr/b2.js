@@ -17205,7 +17205,7 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "pogled • smisao",
       "explanation": [
-        "Glavna ideja: die Hinsicht je imenica ženskog roda koja označava aspekt, gledište, pogled u kojem nešto vrijedi. U hrvatskom joj odgovaraju izrazi poput u tom pogledu, u izvjesnom smislu — dakle pogled kao gledište, a ne pogled očima (der Blick) ni obzir prema drugima (die Rücksicht).",
+        "Glavna ideja: die Hinsicht je imenica ženskog roda koja označava aspekt, gledište, pogled u kojem nešto vrijedi. U hrvatskom joj odgovaraju izrazi poput u tom pogledu, u izvjesnom smislu — dakle pogled kao gledište, a ne pogled očima.",
         "Najčešće se rabi u prijedložnim izrazima: in dieser Hinsicht (u tom pogledu), in gewisser Hinsicht (u izvjesnom smislu), in jeder Hinsicht (u svakom pogledu). Množina die Hinsichten rijetka je. U formalnom stilu kaže se i in Hinsicht auf + akuzativ (što se tiče, s obzirom na) ili hinsichtlich + genitiv."
       ],
       "examples": [
@@ -27130,7 +27130,7 @@ const B2_WORDS = [
         "Dativ označava primatelja: wem? — dem Studenten, der Familie."
       ],
       "important": [
-        "Particip perfekta je zugewiesen — ge- se umeće između zu i weisen."
+        "Particip perfekta je zugewiesen — zu + gewiesen (weisen – wies – gewiesen)."
       ],
       "sectionAccents": {
         "explanation": {

@@ -892,7 +892,7 @@ const A2_WORDS = [
         "Přinést si něco znamená sich etwas holen."
       ],
       "important": [
-        "Holen není totéž co kaufen: holen zdůrazňuje, že pro věc dojdeš; zda ji kupuješ, vyplývá z kontextu (Brot beim Bäcker holen).",
+        "Holen není totéž co kaufen: holen neoznačuje nákup.",
         "Holen je pravidelné sloveso: holt, holte, hat geholt."
       ],
       "sectionAccents": {
@@ -11279,7 +11279,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Dávejte pozor na dativ: jemandem etwas borgen je půjčit, sich (Dat.) etwas von jemandem borgen je půjčit si.",
-        "Není-li jasné, zda jde o dávání, nebo braní, použijte leihen nebo ausleihen."
+        "Není-li jasné, zda jde o dávání, nebo braní, použijte verleihen (půjčit) nebo sich ausleihen (vypůjčit si)."
       ],
       "important": [
         "Borgen je hovorové slovo; v psaném a formálním stylu se častěji používá leihen.",
@@ -11399,8 +11399,8 @@ const A2_WORDS = [
           },
           {
             "green": [
-              "leihen",
-              "ausleihen"
+              "ausleihen",
+              "verleihen"
             ]
           }
         ],
@@ -26904,7 +26904,7 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Třešeň",
       "explanation": [
-        "Hlavní myšlenka: die Kirsche je podstatné jméno ženského rodu, které znamená třešeň jako plod: malý červený plod s peckou. Strom se v němčině obvykle jmenuje der Kirschbaum (česky také třešeň).",
+        "Hlavní myšlenka: die Kirsche je podstatné jméno ženského rodu, které znamená třešeň jako plod: malý červený plod s peckou. Strom se v němčině jmenuje der Kirschbaum (česky také třešeň).",
         "Množné číslo je die Kirschen. Čerstvé třešně se kupují: ein Kilo Kirschen. Složeniny: der Kirschkuchen (třešňový koláč), die Kirschtomate (cherry rajče), die Kirschblüte (třešňový květ).",
         "Sladké třešně se nazývají také die Süßkirsche, kyselé višně die Sauerkirsche."
       ],
@@ -26948,7 +26948,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Die Kirsche je ženský rod: die Kirsche, die Kirschen.",
-        "Pro strom se obvykle říká der Kirschbaum, i když die Kirsche může označovat i strom."
+        "Pro strom se obvykle říká der Kirschbaum, i když die Kirsche může označovat i strom (Die Kirschen blühen)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -35028,7 +35028,7 @@ const A2_WORDS = [
         "Der Rasen je upravovaný trávník u domu nebo v parku, kdežto Wiese je přirozená louka."
       ],
       "important": [
-        "Slovo je mužského rodu: der Rasen, ne das ani die Rasen."
+        "Slovo je mužského rodu: der Rasen (ne die Rasen ve smyslu jednoho trávníku)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -37350,7 +37350,7 @@ const A2_WORDS = [
         "Řada lidí, kteří čekají, se nazývá Schlange; Reihe je spíš řada ve smyslu pořadí (Du bist an der Reihe)."
       ],
       "important": [
-        "Schlange stehen je ustálená fráze bez členu; říká se ale také in der Schlange stehen nebo sich in die Schlange stellen (zařadit se do fronty)."
+        "Schlange stehen je ustálená fráze: neříká se in der Schlange sein, ale Schlange stehen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -45030,7 +45030,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Spojka: während ... Verb am Ende. Pokud po während následuje podstatné jméno, je to předložka a vyžaduje genitiv.",
-        "České dokud ne (až) se v němčině nevyjadřuje slovem während, ale spojkou bis: Warte, bis ich komme. Dokud ve smyslu po celou dobu je solange."
+        "České dokud ne (až) se v němčině nevyjadřuje slovem während, ale spojkou bis."
       ],
       "important": [
         "Po spojce während nikdy nedávejte sloveso na druhé místo: ..., während ich arbeite (ne während arbeite ich).",
@@ -50124,7 +50124,7 @@ const A2_WORDS = [
         "bloß je hovorové synonymum."
       ],
       "important": [
-        "Nepleťte si nur a erst: Es ist erst acht Uhr (teprve osm), ale Ich habe nur acht Stunden geschlafen (jen osm hodin).",
+        "nur omezuje množství; pro časový údaj se používá erst: Es ist erst acht Uhr.",
         "nur se nemění."
       ],
       "sectionAccents": {

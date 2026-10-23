@@ -6435,7 +6435,7 @@ const A1_WORDS = [
       "translation": "tek • najprije",
       "explanation": [
         "Glavna ideja: erst je prilog s dva glavna značenja: „tek” u vremenskom smislu (ne ranije, još ne više): Es ist erst 8 Uhr (tek je 8 sati), i „najprije”: Erst essen wir, dann gehen wir.",
-        "Er kommt erst morgen znači „doći će tek sutra”. Za razliku od nur (samo, za količinu), erst naglašava da se nešto još nije dogodilo ili još nije dosegnulo određeni trenutak.",
+        "Er kommt erst morgen znači „doći će tek sutra”. Za razliku od nur (jednostavno ograničenje), erst naglašava da se nešto još nije dogodilo ili još nije dosegnulo određeni trenutak.",
         "Ne miješaj ga s erste (prvi), koji je redni broj."
       ],
       "examples": [
@@ -21052,7 +21052,7 @@ const A1_WORDS = [
       "translation": "probati • kušati",
       "explanation": [
         "Glavna ideja: probieren znači „isprobati” (nešto novo) i „kušati” (jelo, piće): Probier mal die Suppe! Ich möchte den Kuchen probieren.",
-        "Oblici: probiert, probierte, hat probiert (bez ge- jer završava na -ieren). Obično s akuzativom: etwas probieren; može i s infinitivom sa zu: probieren, etwas zu tun. Izvedenica s odvojivim prefiksom: anprobieren (probati odjeću).",
+        "Oblici: probiert, probierte, hat probiert (bez ge- jer završava na -ieren). Obično s akuzativom: etwas probieren. Izvedenica s odvojivim prefiksom: anprobieren (probati odjeću).",
         "Uljudno zajedno s mal: Probier mal! — Probaj!"
       ],
       "examples": [
@@ -23233,7 +23233,7 @@ const A1_WORDS = [
       "translation": "se • sebe • sebi",
       "explanation": [
         "Glavna ideja: sich je povratna zamjenica za 3. lice i za oblik iz poštovanja Sie: pokazuje da se radnja odnosi na samog vršitelja. U akuzativu i dativu oblik je isti: sich.",
-        "Za ostala lica koriste se drugi oblici: ich – mich (u dativu mir), du – dich (u dativu dir), wir – uns, ihr – euch. Na primjer, er wäscht sich (on se pere), ali ich wasche mich.",
+        "Za ostala lica koriste se drugi oblici: ich – mich, du – dich, wir – uns, ihr – euch. Na primjer, er wäscht sich (on se pere), ali ich wasche mich.",
         "Mnogi su njemački glagoli povratni (sich freuen, sich setzen, sich vorstellen), a u hrvatskom im često odgovara povratni glagol sa se: radovati se, predstaviti se (ali sich setzen — sjesti)."
       ],
       "examples": [
@@ -25488,7 +25488,7 @@ const A1_WORDS = [
         "Izraz unter uns znači „među nama” i koristi se kad nešto govorimo u povjerenju."
       ],
       "important": [
-        "Unter nije isto što i zwischen: unter se odnosi na skup ili skupinu (unter Freunden), zwischen — na zasebne elemente, često dva (zwischen Tisch und Tür).",
+        "Unter nije isto što i zwischen: unter se odnosi na skup ili skupinu (unter Freunden), zwischen — na dvije konkretne stvari.",
         "Unter + broj znači „manje od”: unter 18 znači mlađi od 18 godina."
       ],
       "sectionAccents": {

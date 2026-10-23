@@ -11273,7 +11273,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Let op de datief: jemandem etwas borgen is uitlenen, sich (dat.) etwas von jemandem borgen is lenen.",
-        "Is niet duidelijk of het om geven of nemen gaat, gebruik dan leihen of ausleihen."
+        "Is niet duidelijk of het om geven of nemen gaat, gebruik dan verleihen (uitlenen) of sich ausleihen (lenen)."
       ],
       "important": [
         "Borgen is spreektaal; in geschreven en formele taal gebruikt men vaker leihen.",
@@ -11394,8 +11394,8 @@ const A2_WORDS = [
           },
           {
             "green": [
-              "leihen",
-              "ausleihen"
+              "ausleihen",
+              "verleihen"
             ]
           }
         ],
@@ -22245,7 +22245,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Voor een moeilijke opdracht zeg je meestal schwer: eine schwere Aufgabe.",
-        "Het Duitse hart is verwant met het Nederlandse hard, maar betekent vooral hard of streng en niet altijd moeilijk. Let op: het Nederlandse hart is in het Duits das Herz."
+        "Het Duitse hart is verwant met het Nederlandse hard, maar betekent vooral hard of streng en niet altijd moeilijk."
       ],
       "sectionAccents": {
         "explanation": {
@@ -26918,7 +26918,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Die Kirsche is vrouwelijk: die Kirsche, die Kirschen.",
-        "De naam van de vrucht is niet die van de boom: de boom is der Kirschbaum."
+        "De boom heet meestal der Kirschbaum, maar die Kirsche kan ook de boom betekenen (Die Kirschen blühen)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -27113,7 +27113,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Onthoud het beddengoed: das Kissen, die Decke (deken), das Laken (laken).",
-        "Een kussen op de bank is das Sofakissen, voor je hoofd is het das Kopfkissen. Let op: kussen in de zin van zoenen is in het Duits küssen."
+        "Een kussen op de bank is das Sofakissen, voor je hoofd is het das Kopfkissen."
       ],
       "important": [
         "Das Kissen is onzijdig: das Kissen, die Kissen.",
@@ -27659,7 +27659,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Klar als antwoord is spreektaal; in formele stijl kun je beter natürlich of selbstverständlich gebruiken.",
-        "Verwar het niet met klären (ophelderen, uitzoeken), dat is een werkwoord. En let op: het Nederlandse klaar (gereed) is in het Duits fertig."
+        "Verwar het niet met klären (ophelderen, uitzoeken), dat is een werkwoord."
       ],
       "sectionAccents": {
         "explanation": {
@@ -29461,7 +29461,7 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "lijden",
       "explanation": [
-        "Kern: leiden betekent lijden, een lichamelijke of geestelijke last voelen. Bij een ziekte zeg je leiden an + datief (an einer Krankheit leiden, aan een ziekte lijden), bij een onaangename situatie leiden unter + datief (unter dem Lärm leiden, last hebben van het lawaai). Let op: het Nederlandse leiden is in het Duits leiten of führen.",
+        "Kern: leiden betekent lijden, een lichamelijke of geestelijke last voelen. Bij een ziekte zeg je leiden an + datief (an einer Krankheit leiden, aan een ziekte lijden), bij een onaangename situatie leiden unter + datief (unter dem Lärm leiden, last hebben van het lawaai).",
         "Vormen: leidet, litt, hat gelitten. Sterk werkwoord met wisseling van klinker en medeklinker (leiden – litt – gelitten). Een aparte betekenis is jemanden (nicht) leiden können: iemand (niet) kunnen uitstaan.",
         "Na leiden an en leiden unter volgt altijd de datief. Zonder voorzetsel staat het in de uitdrukking jemanden nicht leiden können (met de accusatief)."
       ],
@@ -41020,7 +41020,7 @@ const A2_WORDS = [
       "translation": "schoolbord • plaat",
       "explanation": [
         "Kern: die Tafel is een (school)bord waarop je schrijft (op school, aan de universiteit), maar ook een plaat of bordje (Tafel Schokolade – reep chocola; een informatiebord).",
-        "Meervoud: die Tafeln. Op school: an die Tafel schreiben (op het bord schrijven), die Tafel abwischen (het bord schoonvegen). Let op: een Nederlandse tafel is in het Duits der Tisch."
+        "Meervoud: die Tafeln. Op school: an die Tafel schreiben (op het bord schrijven), die Tafel abwischen (het bord schoonvegen)."
       ],
       "examples": [
         {
@@ -44994,7 +44994,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Voegwoord: während ... Verb am Ende. Volgt er na während een zelfstandig naamwoord, dan is het een voorzetsel en heb je de genitief nodig.",
-        "Bedoel je totdat, gebruik dan bis: Warte, bis ich komme."
+        "Bedoel je totdat, gebruik dan bis."
       ],
       "important": [
         "Na het voegwoord während staat het werkwoord nooit op de tweede plaats: ..., während ich arbeite (niet während arbeite ich).",
@@ -49477,7 +49477,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Het ontkennende antwoord op Bist du schon fertig? is Nein, noch nicht, niet schon nicht.",
-        "schon en schön klinken bijna hetzelfde, maar betekenen iets anders: al en mooi. Let op: schön betekent niet schoon (dat is sauber)."
+        "schon en schön klinken bijna hetzelfde, maar betekenen iets anders: al en mooi."
       ],
       "sectionAccents": {
         "explanation": {

@@ -6429,7 +6429,7 @@ const A1_WORDS = [
       "translation": "kõigepealt • alles",
       "explanation": [
         "Põhiidee: erst on määrsõna kahe peamise tähendusega: 'alles, alles nüüd' aja mõttes (mitte varem, veel mitte rohkem kui): Es ist erst 8 Uhr (kell on alles 8), ja 'kõigepealt': Erst essen wir, dann gehen wir.",
-        "Er kommt erst morgen tähendab 'ta tuleb alles homme'. Erinevalt sõnast nur (ainult, hulga mõttes) rõhutab erst, et midagi ei ole veel juhtunud või pole veel jõudnud teatud ajani.",
+        "Er kommt erst morgen tähendab 'ta tuleb alles homme'. Erinevalt sõnast nur (lihtne piiramine) rõhutab erst, et midagi ei ole veel juhtunud või pole veel jõudnud teatud ajani.",
         "Ära aja segi sõnaga erste (esimene), mis on järgarvsõna."
       ],
       "examples": [
@@ -6476,7 +6476,7 @@ const A1_WORDS = [
         "Erst … dann = kõigepealt … siis."
       ],
       "important": [
-        "Erst ja nur ei ole üks ja sama: nur käib hulga, erst enamasti aja kohta.",
+        "Erst ja nur ei ole üks ja sama: nur lihtsalt piirab (ainult nii palju), erst tähendab 'mitte varem / esialgu alles' (erst morgen, erst drei Seiten).",
         "Erst ei kattu täielikult sõnaga zuerst: zuerst tähendab tavaliselt 'alguses, esmalt' mitmest sammust."
       ],
       "sectionAccents": {
@@ -13118,7 +13118,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "noor",
       "explanation": [
-        "Põhimõte: jung tähendab „noor“ inimese, looma või taime vanuse kohta: Mein Bruder ist jung – mu vend on noor. Esemete (raamat, auto) kohta kasutatakse neu – täpselt nagu eesti keeles eristatakse „noor“ ja „uus“.",
+        "Põhimõte: jung tähendab „noor“ inimese, looma või taime vanuse kohta: mu vend on noor. Esemete (raamat, auto) kohta kasutatakse neu – täpselt nagu eesti keeles eristatakse „noor“ ja „uus“.",
         "Keskvõrre on jünger (umlaudiga), ülivõrre – am jüngsten: Er ist jünger als ich. Nimisõna ees: ein junger Mann, eine junge Frau, junge Leute.",
         "Vastand: alt (vana). Nimisõna der Junge (mitmus die Jungen) tähendab „poiss“, mitte „noor“."
       ],
@@ -21045,7 +21045,7 @@ const A1_WORDS = [
       "translation": "proovima • maitsma",
       "explanation": [
         "Põhimõte: probieren tähendab „proovima“ (midagi uut) ja „maitsma“ (toitu, jooki): Probier mal die Suppe! Ich möchte den Kuchen probieren. Ka eesti „proovima“ katab mõlemad tähendused.",
-        "Vormid: probiert, probierte, hat probiert (ilma ge-, sest tegusõna lõpeb -ieren-iga). Alati akusatiiviga: etwas probieren. Eraldatava eesliitega tuletis: anprobieren (selga proovima).",
+        "Vormid: probiert, probierte, hat probiert (ilma ge-, sest tegusõna lõpeb -ieren-iga). Tavaliselt akusatiiviga: etwas probieren. Eraldatava eesliitega tuletis: anprobieren (selga proovima).",
         "Viisakalt koos sõnaga mal: Probier mal! — Proovi!"
       ],
       "examples": [
@@ -23634,7 +23634,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "nemad / nad",
       "explanation": [
-        "Põhimõte: sie on 3. isiku asesõna. Ainsuses tähendab see naissoost „tema“ (sie ist), mitmuses „nemad“ ehk „nad“ (sie sind). Eesti „tema“ ei näita sugu, saksa keeles aga eristatakse er (mees) ja sie (naine). Tegusõna lõpp näitab, kumba mõeldakse: sie kommt (tema) ja sie kommen (nemad).",
+        "Põhimõte: sie on 3. isiku asesõna. Ainsuses tähendab see naissoost „tema“ (sie ist), mitmuses „nemad“ ehk „nad“ (sie sind). Tegusõna lõpp näitab, kumba mõeldakse: sie kommt (tema) ja sie kommen (nemad).",
         "Käänded: akusatiiv sie (ich sehe sie), datiiv ainsuses ihr, mitmuses ihnen. Kui räägitakse naissoost artikliga asjast, võib ka seda tähistada sõnaga sie: die Tasche – sie.",
         "Suure algustähega Sie on viisakas „teie“; lause alguses aitavad neid eristada sisu ja tegusõna vorm."
       ],
@@ -25224,7 +25224,7 @@ const A1_WORDS = [
       "translation": "umbes • kell",
       "explanation": [
         "Põhimõte: um on eessõna, mis nõuab alati akusatiivi. Aja tähenduses näitab um täpset kellaaega: um acht Uhr (kell kaheksa). Koha tähenduses näitab see paiknemist või liikumist millegi ümber: um den Tisch (laua ümber), um die Ecke (nurga taga).",
-        "Kellaaja küsimus on Um wie viel Uhr ...? (mis kell?). Kellaaja puhul artiklit ei kasutata: um 8 Uhr, mitte in 8 Uhr. Arvuga võib um väljendada ka ligikaudsust: um die zwanzig Leute (umbes kakskümmend inimest).",
+        "Kellaaja küsimus on Um wie viel Uhr ...? (mis kell?). Kellaaja puhul artiklit ei kasutata: um 8 Uhr, mitte in 8 Uhr.",
         "Koos zu + infinitiiviga väljendab um eesmärki: Er lernt, um zu verstehen (ta õpib, et aru saada)."
       ],
       "examples": [
@@ -25282,8 +25282,7 @@ const A1_WORDS = [
           "purple": [
             "kell",
             "ümber",
-            "nurga taga",
-            "umbes"
+            "nurga taga"
           ],
           "green": [
             "in"
@@ -26885,7 +26884,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Wer käib inimeste kohta; asjade kohta küsitakse was.",
-        "Eesti „kellele“ võib vastata nii wen (Wen rufst du an?) kui ka wem (Wem hilfst du?); vali vorm saksa tegusõna järgi."
+        "Eesti „kes“ vastab sõnale wer, „mis“ aga sõnale was; vali vorm selle järgi, kas küsid inimese kohta."
       ],
       "sectionAccents": {
         "explanation": {

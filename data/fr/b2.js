@@ -17205,7 +17205,7 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "égard • point de vue",
       "explanation": [
-        "Idée principale : die Hinsicht est un nom féminin qui désigne un aspect, un point de vue, l'égard sous lequel quelque chose est valable. En français, il correspond à « égard » dans des expressions comme à cet égard, à certains égards — et non aux « égards » au sens de considération (die Rücksicht).",
+        "Idée principale : die Hinsicht est un nom féminin qui désigne un aspect, un point de vue, l'égard sous lequel quelque chose est valable. En français, il correspond à « égard » dans des expressions comme à cet égard, à certains égards — et non aux « égards » au sens de considération.",
         "On l'emploie surtout dans des groupes prépositionnels : in dieser Hinsicht (à cet égard), in gewisser Hinsicht (à certains égards), in jeder Hinsicht (à tous égards). Le pluriel die Hinsichten est rare. Dans un style soutenu, on dit aussi in Hinsicht auf + accusatif (en ce qui concerne) ou hinsichtlich + génitif."
       ],
       "examples": [
@@ -27130,7 +27130,7 @@ const B2_WORDS = [
         "Le datif désigne le bénéficiaire : wem? — dem Studenten, der Familie."
       ],
       "important": [
-        "Le participe passé est zugewiesen — ge- s'insère entre zu et weisen."
+        "Le participe passé est zugewiesen — zu + gewiesen (weisen – wies – gewiesen)."
       ],
       "sectionAccents": {
         "explanation": {

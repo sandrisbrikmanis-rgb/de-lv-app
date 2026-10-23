@@ -6435,7 +6435,7 @@ const A1_WORDS = [
       "translation": "pas • eerst",
       "explanation": [
         "Kern: erst is een bijwoord met twee hoofdbetekenissen: 'pas' in de tijd (niet eerder, nog niet meer dan): Es ist erst 8 Uhr (het is pas 8 uur), en 'eerst': Erst essen wir, dann gehen wir.",
-        "Er kommt erst morgen betekent 'hij komt pas morgen' — hier is erst dus niet 'eerst' maar 'pas'. Anders dan nur (alleen, maar — in hoeveelheid) benadrukt erst dat iets nog niet gebeurd is of een bepaald tijdstip nog niet bereikt heeft.",
+        "Er kommt erst morgen betekent 'hij komt pas morgen' — hier is erst dus niet 'eerst' maar 'pas'. Anders dan nur (alleen, maar — een eenvoudige beperking) benadrukt erst dat iets nog niet gebeurd is of een bepaald tijdstip nog niet bereikt heeft.",
         "Verwar het niet met erste (eerste), een rangtelwoord."
       ],
       "examples": [
@@ -6482,7 +6482,7 @@ const A1_WORDS = [
         "Erst … dann = eerst … dan."
       ],
       "important": [
-        "Erst en nur zijn niet hetzelfde: nur gaat over hoeveelheid, erst over tijd.",
+        "Erst en nur zijn niet hetzelfde: nur beperkt gewoon (maar zoveel), erst betekent 'niet eerder / voorlopig pas' (erst morgen, erst drei Seiten).",
         "Erst valt niet samen met zuerst: zuerst betekent meestal 'eerst, als eerste stap' bij meerdere stappen."
       ],
       "sectionAccents": {
@@ -18073,7 +18073,7 @@ const A1_WORDS = [
         "In gesprekken gebruik je vaak gern: Ich trinke gern Tee = Ich mag Tee."
       ],
       "important": [
-        "Vergelijk het Nederlandse “ik mag hem wel”: ook bij Ich mag + accusatief is de persoon die iets leuk vindt het onderwerp: Ich mag den Hund. Toestemming (Nederlands “mogen”) is in het Duits dürfen.",
+        "Vergelijk het Nederlandse “ik mag hem wel”: ook bij Ich mag + accusatief is de persoon die iets leuk vindt het onderwerp: Ich mag den Hund.",
         "Möchte is een duidelijk verzoek, mag drukt een houding uit."
       ],
       "sectionAccents": {
@@ -21050,7 +21050,7 @@ const A1_WORDS = [
       "translation": "proberen • proeven",
       "explanation": [
         "Kern: probieren betekent ‘proberen’ (iets nieuws uitproberen) en ‘proeven’ (eten, drinken): Probier mal die Suppe! Ich möchte den Kuchen probieren.",
-        "Vormen: probiert, probierte, hat probiert (zonder ge-, omdat het op -ieren eindigt). Altijd met de accusatief: etwas probieren. Scheidbare afleiding: anprobieren (kleding passen).",
+        "Vormen: probiert, probierte, hat probiert (zonder ge-, omdat het op -ieren eindigt). Meestal met de accusatief: etwas probieren. Scheidbare afleiding: anprobieren (kleding passen).",
         "Vriendelijk samen met mal: Probier mal! — Probeer eens! / Proef eens!"
       ],
       "examples": [
@@ -23278,7 +23278,7 @@ const A1_WORDS = [
         "Leer wederkerende werkwoorden samen met sich: sich freuen, sich setzen."
       ],
       "important": [
-        "Sich kun je niet gebruiken bij ich, du, wir, ihr — daar heb je mich, dich, uns, euch nodig.",
+        "Sich kun je niet gebruiken bij ich, du, wir, ihr — daar heb je mich/mir, dich/dir, uns, euch nodig.",
         "In het meervoud kan Sie sehen sich zowel ‘ze zien zichzelf’ als ‘ze zien elkaar’ betekenen; de context maakt het duidelijk."
       ],
       "sectionAccents": {
@@ -26885,7 +26885,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Wer gaat over personen; naar dingen vraag je met was.",
-        "Let op: het Duitse wer is het Nederlandse ‘wie’ en was is ‘wat’, maar het Duitse wie betekent ‘hoe’. Het Nederlandse ‘wie’ is in het Duits dus altijd wer (of wen, wem, wessen)."
+        "Kies tussen wer en was op basis van de vraag of je naar een persoon vraagt."
       ],
       "sectionAccents": {
         "explanation": {
@@ -27509,7 +27509,7 @@ const A1_WORDS = [
         "Even ... als zeg je met so ... wie, maar ‘meer dan’ met de vergrotende trap + als (dan)."
       ],
       "important": [
-        "In een vergelijking gebruik je na de vergrotende trap geen wie: größer als, niet ‘größer wie’. Let op: Duits wie = ‘hoe’, Duits wer = ‘wie’.",
+        "In een vergelijking gebruik je na de vergrotende trap geen wie: größer als, niet ‘größer wie’.",
         "Wie vraagt naar manier en mate; naar een plaats vraag je met wo."
       ],
       "sectionAccents": {

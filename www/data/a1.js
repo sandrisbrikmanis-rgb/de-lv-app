@@ -6439,7 +6439,7 @@ const A1_WORDS = [
       "translation": "tikai • vispirms",
       "explanation": [
         "Galvenā doma: erst ir apstākļa vārds ar divām galvenajām nozīmēm: 'tikai' laika nozīmē (ne agrāk, vēl ne vairāk kā): Es ist erst 8 Uhr (ir tikai 8), un 'vispirms': Erst essen wir, dann gehen wir.",
-        "Er kommt erst morgen nozīmē 'viņš nāks tikai rīt'. Atšķirībā no nur (tikai daudzuma ziņā) erst uzsver, ka kaut kas vēl nav noticis vai nav sasniedzis noteiktu laiku.",
+        "Er kommt erst morgen nozīmē 'viņš nāks tikai rīt'. Atšķirībā no nur (vienkāršs ierobežojums) erst uzsver, ka kaut kas vēl nav noticis vai nav sasniedzis noteiktu laiku.",
         "Nejauc ar erste (pirmais), kas ir kārtas skaitļa vārds."
       ],
       "examples": [
@@ -6486,7 +6486,7 @@ const A1_WORDS = [
         "Erst … dann = vispirms … tad."
       ],
       "important": [
-        "Erst un nur nav viens un tas pats: nur attiecas uz daudzumu, erst — uz laiku.",
+        "Erst un nur nav viens un tas pats: nur vienkārši ierobežo (tikai tik daudz), erst nozīmē 'ne agrāk / pagaidām tikai' (erst morgen, erst drei Seiten).",
         "Erst nesakrīt ar zuerst: zuerst parasti nozīmē 'sākumā, vispirms' no vairākiem soļiem."
       ],
       "sectionAccents": {
@@ -21058,7 +21058,7 @@ const A1_WORDS = [
       "translation": "izmēģināt • nogaršot",
       "explanation": [
         "Galvenā doma: probieren nozīmē “izmēģināt” (kaut ko jaunu) un “nogaršot” (ēdienu, dzērienu): Probier mal die Suppe! Ich möchte den Kuchen probieren.",
-        "Formas: probiert, probierte, hat probiert (bez ge-, jo tas beidzas ar -ieren). Vienmēr ar akuzatīvu: etwas probieren. Atdalāms atvasinājums: anprobieren (pielaikot apģērbu).",
+        "Formas: probiert, probierte, hat probiert (bez ge-, jo tas beidzas ar -ieren). Parasti ar akuzatīvu: etwas probieren. Atdalāms atvasinājums: anprobieren (pielaikot apģērbu).",
         "Pieklājīgi kopā ar mal: Probier mal! — Pamēģini!"
       ],
       "examples": [
@@ -23286,7 +23286,7 @@ const A1_WORDS = [
         "Mācies atgriezeniskos verbus kopā ar sich: sich freuen, sich setzen."
       ],
       "important": [
-        "Sich nevar lietot ar ich, du, wir, ihr — tur vajag mich, dich, uns, euch.",
+        "Sich nevar lietot ar ich, du, wir, ihr — tur vajag mich/mir, dich/dir, uns, euch.",
         "Daudzskaitlī Sie sehen sich var nozīmēt gan \"viņi redz sevi\", gan \"viņi redz viens otru\"; to izšķir konteksts."
       ],
       "sectionAccents": {

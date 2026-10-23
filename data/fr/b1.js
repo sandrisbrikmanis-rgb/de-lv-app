@@ -5624,7 +5624,7 @@ const B1_WORDS = [
         "Registre officiel : Ausländer halten sich in Deutschland auf."
       ],
       "important": [
-        "Ce verbe est plus officiel que bleiben ; au quotidien, on dit souvent simplement sein ou bleiben.",
+        "Ce verbe est plus officiel que bleiben ; au quotidien, on dit souvent simplement être ou bleiben.",
         "Il ne signifie pas habiter ; wohnen désigne le domicile permanent."
       ],
       "sectionAccents": {
@@ -16856,7 +16856,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Eher n'est pas la même chose que früher : früher signifie « autrefois », eher « plus tôt que quelque chose ».",
-        "Au sens comparatif, eher s'emploie avec als pour introduire l'autre option : eher A als B."
+        "Au sens comparatif, eher s'emploie avec als (et non wie) : eher A als B."
       ],
       "sectionAccents": {
         "explanation": {
@@ -19721,7 +19721,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Sich eingewöhnen ne s'emploie généralement pas avec an + accusatif.",
-        "La particule ein se détache au présent, au prétérit et à l'impératif ; au participe passé et à l'infinitif, elle reste soudée : eingewöhnt, einzugewöhnen."
+        "La particule ein ne se détache qu'au présent, au prétérit et à l'impératif ; au participe, elle reste soudée : eingewöhnt."
       ],
       "sectionAccents": {
         "explanation": {
@@ -25792,7 +25792,7 @@ const B1_WORDS = [
         "Pour le sens figuré, retiens la préposition : festhalten an etwas (s'en tenir à quelque chose)."
       ],
       "important": [
-        "Ne confonds pas festhalten (tenir fermement) avec festnehmen (arrêter) : le premier signifie tenir ou retenir (aussi jemanden festhalten, retenir quelqu'un contre son gré), le second désigne une arrestation par la police.",
+        "Ne confonds pas festhalten (tenir fermement) avec festnehmen (arrêter) : le premier signifie tenir (aussi empêcher de partir, retenir), le second désigne une arrestation officielle.",
         "Au sens figuré, on emploie an + datif, et non l'accusatif : an dem Plan, et non an den Plan."
       ],
       "sectionAccents": {
@@ -46031,7 +46031,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Le mot das Maß s'écrit avec ß, car la voyelle est longue.",
-        "Le pluriel est die Maße (dimensions) ; Maßen est le datif pluriel (mit den Maßen) et se retrouve dans l'expression über alle Maßen."
+        "Le pluriel est die Maße (dimensions) ; au datif : den Maßen (in Maßen, über alle Maßen)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -54233,7 +54233,7 @@ const B1_WORDS = [
       ],
       "tip": [
         "On emploie richten an + accusatif quand on dirige quelque chose vers une personne ; sich richten nach + datif – quand on s'adapte.",
-        "Apprends par exemple Blick richten (diriger son regard vers quelque chose) comme une seule expression."
+        "Apprends par exemple den Blick auf etwas richten comme une seule expression."
       ],
       "important": [
         "Ne confonds pas richten (diriger) avec aufrichten (redresser) ou ausrichten (transmettre, organiser).",
@@ -63198,7 +63198,7 @@ const B1_WORDS = [
       ],
       "tip": [
         "Allaiter un bébé se dit stillen, mais le nourrir au biberon – mit der Flasche füttern.",
-        "Avec Durst et Hunger, on emploie stillen ou löschen (Durst löschen)."
+        "Avec Durst, on emploie stillen ou löschen (Durst löschen) ; avec Hunger, uniquement stillen."
       ],
       "important": [
         "stillen n'est pas still sein (se taire).",
@@ -64585,12 +64585,12 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "En français, scène désigne à la fois un passage et le plateau du théâtre, mais en allemand ce sont deux mots : die Szene (passage, événement) et die Bühne (plateau).",
+        "On pourrait associer scène et paysage, mais en allemand ce sont deux mots : die Szene (passage, événement) et die Landschaft (nature).",
         "Retiens l'expression eine Szene machen – faire une scène."
       ],
       "important": [
         "Le mot se termine par -e et est féminin : die Szene, et non der Szene.",
-        "L'allemand die Szene ne désigne pas le plateau du théâtre – c'est die Bühne."
+        "L'allemand die Szene ne désigne pas un paysage (la nature) – c'est die Landschaft."
       ],
       "sectionAccents": {
         "explanation": {
@@ -68514,7 +68514,7 @@ const B1_WORDS = [
         "Le contraire est bemerken (remarquer)."
       ],
       "important": [
-        "Übersehen est le plus souvent involontaire (mais jemanden geflissentlich übersehen : faire exprès de ne pas voir quelqu'un) ; ignorieren est volontaire.",
+        "Übersehen est le plus souvent involontaire ; ignorieren est volontaire.",
         "Pas de ge- au parfait : hat übersehen."
       ],
       "sectionAccents": {
@@ -76526,7 +76526,7 @@ const B1_WORDS = [
         "Zugeben est souvent suivi d'une subordonnée en dass, où le verbe est à la fin."
       ],
       "important": [
-        "Zugeben, c'est admettre quelque chose qui n'arrange pas celui qui parle ; en cuisine, zugeben peut aussi signifier ajouter (Salz zugeben), mais ce sens est plus rare.",
+        "Zugeben, c'est admettre quelque chose qui n'arrange pas celui qui parle ; si tu veux simplement dire que tu ajoutes quelque chose à un plat, emploie hinzufügen.",
         "Après zugeben, dans la subordonnée en dass, le verbe est à la fin : Er gibt zu, dass er lügt."
       ],
       "sectionAccents": {
@@ -78653,7 +78653,7 @@ const B1_WORDS = [
         "Statt … zu signifie la même chose et sonne un peu plus simple ; les deux formes sont correctes."
       ],
       "important": [
-        "Attention : si le sujet change, on emploie anstatt dass : Anstatt dass du mir hilfst, muss ich alles allein machen.",
+        "Attention : si le sujet change, on emploie anstatt dass : Anstatt dass er hilft, schaut sie zu.",
         "Ne confonds pas avec la préposition anstatt/statt + génitif (statt des Buches), qui signifie à la place de."
       ],
       "sectionAccents": {
@@ -79061,7 +79061,7 @@ const B1_WORDS = [
         "Ajoute toujours le pronom réfléchi : er befindet sich, wir befinden uns."
       ],
       "important": [
-        "Sich befinden ne signifie pas trouver (finden) ; il indique le lieu ou l'état (au sens de « se porter », il est très soutenu : Wie befinden Sie sich?).",
+        "Sich befinden ne signifie pas trouver (finden) ; il indique le lieu ou l'état (en registre soutenu, aussi la façon dont on se sent).",
         "Au parfait, l'auxiliaire est haben (hat sich befunden), mais dans un récit on emploie plus souvent le prétérit : befand sich."
       ],
       "sectionAccents": {

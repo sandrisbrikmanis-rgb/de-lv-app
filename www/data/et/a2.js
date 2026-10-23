@@ -5296,7 +5296,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Kui räägitakse koolist, klubist või haiglast, mõtle „vastuvõtt“; kui muusikast või videost, „salvestus“; kui kaamerast, „foto“.",
-        "Koos machen'iga väljendab see võtet või salvestust, koos in'iga – vastuvõttu: eine Aufnahme machen, die Aufnahme in den Verein."
+        "Koos machen'iga väljendab see võtet või salvestust, koos in'iga – vastuvõttu: eine Aufnahme machen."
       ],
       "important": [
         "Aufnahme on naissoost: die Aufnahme, mitmuses die Aufnahmen.",
@@ -11307,7 +11307,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Pane tähele datiivi: jemandem etwas borgen tähendab laenuks andma, sich (Dat.) etwas von jemandem borgen aga laenuks võtma.",
-        "Kui tahad suunda selgelt näidata, kasuta ausleihen (laenuks võtma) või verleihen (välja laenutama)."
+        "Kui tahad suunda selgelt näidata, kasuta verleihen (laenuks andma) või sich ausleihen (laenuks võtma)."
       ],
       "important": [
         "Borgen on kõnekeelne sõna; kirjalikus ja ametlikus stiilis kasutatakse sagedamini leihen.",
@@ -13023,7 +13023,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Kui tead auf-iga tegusõna (warten auf, sich freuen auf), siis asjade puhul ütled darauf, küsimuses aga worauf. Pane tähele: eesti keeles ootame lihtsalt midagi, saksa keeles aga warten auf etwas."
+        "Kui tead auf-iga tegusõna (warten auf, sich freuen auf), siis asjade puhul ütled darauf, küsimuses aga worauf."
       ],
       "important": [
         "Inimeste kohta darauf ei kasutata: Ich warte auf ihn, mitte Ich warte darauf.",
@@ -17470,7 +17470,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Ma mäletan = ich erinnere mich; ma tuletan meelde = ich erinnere (ilma sich-ita)."
+        "Ma mäletan = sich erinnern; ma tuletan meelde = erinnern (ilma sich-ita)."
       ],
       "important": [
         "Pärast erinnern / sich erinnern järgneb tavaliselt an + akusatiiv."
@@ -21190,7 +21190,7 @@ const A2_WORDS = [
         "Paari gewinnen ↔ verlieren juures pea meeles ka kesksõnu: gewonnen / verloren."
       ],
       "important": [
-        "Ära aja segi gewinnen ja sich gewöhnen (harjuma)."
+        "Ära aja segi gewinnen ja gewöhnen (harjuma)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -26971,7 +26971,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Die Kirsche on naissoost: die Kirsche, die Kirschen.",
-        "Vilja nimi ei ole puu nimi: puu on der Kirschbaum."
+        "Puud nimetatakse tavaliselt der Kirschbaum, kuid die Kirsche võib tähendada ka puud (Die Kirschen blühen)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -31255,7 +31255,7 @@ const A2_WORDS = [
       "explanation": [
         "Põhimõte: meinen tähendab mõtlema arvamise tähenduses ehk mingil arvamusel olema (Ich meine, das ist richtig), samuti millegagi midagi silmas pidama (Was meinst du damit?). See väljendab isiklikku arvamust.",
         "Vormid: meint, meinte, hat gemeint. Nõrk tegusõna. Selle järel võib tulla dass-lause või otsekõne: Er meint, dass es regnet. Was meinst du? tähendab Mis sa arvad? või Mida sa sellest arvad?",
-        "Meinen erineb sõnadest denken (mõtlema kui mõtlemisprotsess) ja glauben (uskuma, arvama); meinen rõhutab arvamuse avaldamist. Tähelepanu: eesti mõtlema ei ole alati meinen – Ich denke an dich on Ma mõtlen sinule."
+        "Meinen erineb sõnadest denken (mõtlema kui mõtlemisprotsess) ja glauben (uskuma, arvama); meinen rõhutab arvamuse avaldamist."
       ],
       "examples": [
         {
@@ -37381,7 +37381,7 @@ const A2_WORDS = [
         "Järjekorda, kus inimesed ootavad, nimetatakse Schlange; Reihe on pigem rida või järg (Du bist an der Reihe)."
       ],
       "important": [
-        "Schlange stehen on püsiväljend: öeldakse Schlange stehen või in der Schlange stehen."
+        "Schlange stehen on püsiväljend: mitte in der Schlange sein, vaid Schlange stehen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -45053,7 +45053,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Sidesõna: während ... tegusõna lõpus. Kui während'ile järgneb nimisõna, on see eessõna ja nõuab genitiivi.",
+        "Sidesõna: während ... Verb am Ende. Kui während'ile järgneb nimisõna, on see eessõna ja nõuab genitiivi.",
         "Eesti kuni võib tähendada nii „sel ajal kui” kui ka „seni kuni”; viimases tähenduses kasutatakse saksa keeles sõna bis."
       ],
       "important": [

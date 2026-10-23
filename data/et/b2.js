@@ -17263,7 +17263,7 @@ const B2_WORDS = [
         "Nendes ühendites järgneb eessõnale in datiiv: in dieser Hinsicht, in jeder Hinsicht."
       ],
       "important": [
-        "Hinsicht ei tähenda inimsuhet ega sõnumit — inimestevaheline suhe on Beziehung, sõnum on Nachricht.",
+        "Hinsicht ei tähenda teadet kui informatsiooni — seda nimetatakse Nachricht või Information.",
         "Sõna hinsichtlich (mis puutub, osas) järel tuleb genitiiv: hinsichtlich der Kosten."
       ],
       "sectionAccents": {
@@ -27131,7 +27131,7 @@ const B2_WORDS = [
         "Datiiv on saaja: wem? — dem Studenten, der Familie."
       ],
       "important": [
-        "Kesksõna on zugewiesen — ge- pannakse zu ja weisen vahele."
+        "Kesksõna on zugewiesen — zu + gewiesen (weisen – wies – gewiesen)."
       ],
       "sectionAccents": {
         "explanation": {

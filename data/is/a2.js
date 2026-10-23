@@ -6097,7 +6097,7 @@ const A2_WORDS = [
         "Þegar snyrtivörur eða málning er borin á er notað auftragen; andlagið er í þolfalli."
       ],
       "important": [
-        "Auftragen er ekki það sama og beauftragen: með beauftragen er manneskjan andlag í þolfalli (jemanden beauftragen), með auftragen er verkefnið andlagið.",
+        "Auftragen er ekki það sama og beauftragen: beauftragen merkir að fela manneskju verkefni, auftragen merkir að setja fyrir sjálft verkefnið.",
         "Nafnorðið er der Auftrag (verkefni, pöntun), í fleirtölu die Aufträge."
       ],
       "sectionAccents": {
@@ -11269,8 +11269,8 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Taktu eftir þágufallinu: jemandem etwas borgen er að lána, sich (Dat.) etwas von jemandem borgen er að fá lánað. Ef óljóst er hvort verið er að gefa eða taka er notað leihen eða ausleihen.",
-        "Ekki rugla borgen saman við íslensku sögnina borga: borgen merkir aldrei að greiða (það er bezahlen)."
+        "Taktu eftir þágufallinu: jemandem etwas borgen er að lána, sich (Dat.) etwas von jemandem borgen er að fá lánað.",
+        "Ef óljóst er hvort verið er að gefa eða taka er notað verleihen (lána) eða sich ausleihen (fá lánað)."
       ],
       "important": [
         "Borgen er talmálsorð; í rituðu og formlegu máli er frekar notað leihen.",
@@ -11389,7 +11389,12 @@ const A2_WORDS = [
               "borgen"
             ]
           },
-          {}
+          {
+            "green": [
+              "verleihen",
+              "ausleihen"
+            ]
+          }
         ],
         "important": [
           {
@@ -13951,7 +13956,7 @@ const A2_WORDS = [
         "Ef þú átt við loftið, segðu die Zimmerdecke; ef sængina — die Bettdecke."
       ],
       "important": [
-        "die Decke er ekki það sama og der Deckel (lok). Athugaðu líka að íslenska orðið teppi getur bæði merkt ábreiðu og gólfteppi, en á þýsku er gólfteppi der Teppich."
+        "die Decke er ekki það sama og der Deckel (lok)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -14887,7 +14892,7 @@ const A2_WORDS = [
         "Afturbeygt: sich drehen = snúast; sich umdrehen = snúa sér við."
       ],
       "important": [
-        "Ekki rugla saman við wenden (snúa við, á hina hliðina). Athugaðu líka: íslenska sögnin snúa tekur þágufall (snúa lyklinum), en drehen tekur þolfall (den Schlüssel)."
+        "Ekki rugla saman við wenden (snúa við, á hina hliðina)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -15784,7 +15789,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Andheiti: unehrlich (óheiðarlegur). Ögn hátíðlegra: aufrichtig. Til minnis: ehrlich er dregið af die Ehre (heiður), eins og heiðarlegur af heiður."
+        "Andheiti: unehrlich (óheiðarlegur). Ögn hátíðlegra: aufrichtig."
       ],
       "important": [
         "ehrlich getur líka verið upphrópun: Ehrlich? — Í alvöru?"
@@ -26116,7 +26121,7 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "barnavagn • kerra",
       "explanation": [
-        "Aðalatriðið: der Kinderwagen er karlkynsnafnorð sem merkir barnavagn, vagn til að flytja ungbarn. Orðið er myndað eins og á íslensku: Kinder + Wagen = barna + vagn.",
+        "Aðalatriðið: der Kinderwagen er karlkynsnafnorð sem merkir barnavagn, vagn til að flytja ungbarn.",
         "Fleirtalan er die Kinderwagen (án endingar). Samsett úr das Kind og der Wagen. Sagnorð: den Kinderwagen schieben (ýta barnavagninum), einen Kinderwagen kaufen.",
         "Léttar, samanbrjótanlegar kerrur kallast der Buggy eða der Sportwagen."
       ],
@@ -26151,7 +26156,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Fleirtalan er eins og eintalan: ein Kinderwagen, zwei Kinderwagen.",
+        "Mundu að á þýsku er notuð eintala um einn vagn (ein Kinderwagen).",
         "Bera eða ýta? Barnavagni er ýtt: schieben."
       ],
       "important": [
@@ -26907,7 +26912,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Die Kirsche er kvenkyns: die Kirsche, die Kirschen – þótt kirsuber sé hvorugkyns á íslensku.",
-        "Heiti ávaxtarins er ekki heiti trésins: tréð er der Kirschbaum."
+        "Tréð kallast venjulega der Kirschbaum, en die Kirsche getur líka merkt tréð (Die Kirschen blühen)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -36837,7 +36842,7 @@ const A2_WORDS = [
       "explanation": [
         "Meginhugmynd: scharf er lýsingarorð með nokkrar merkingar. Um hlut merkir það beittur (scharfes Messer – beittur hnífur), um mat sterkur, kryddaður (scharfes Essen). Í yfirfærðri merkingu getur það líka þýtt krappur eða snarpur: eine scharfe Kurve (kröpp beygja), scharf bremsen (hemla snögglega).",
         "Miðstig er schärfer (með hljóðvarpi), efsta stig am schärfsten. Á undan nafnorði: ein scharfes Messer, scharfe Soße.",
-        "Gott að muna: á íslensku er talað um „sterkan“ mat (chili, piparrót), en á þýsku er það scharf, ekki stark. Saltur matur er hins vegar salzig."
+        "Gott að muna: á íslensku er talað um „sterkan“ mat (chili, piparrót), en á þýsku er það scharf. Saltur matur er hins vegar salzig."
       ],
       "examples": [
         {
@@ -37431,7 +37436,7 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "loka",
       "explanation": [
-        "Meginhugmynd: schließen merkir að loka (dyrum, glugga, augunum), einnig að loka í merkingunni að hætta starfsemi (verslun, banki) og að gera samning (einen Vertrag schließen). Andheiti er öffnen.",
+        "Meginhugmynd: schließen merkir að loka (dyrum, glugga, augunum), einnig að loka í merkingunni að hætta starfsemi (verslun, banki) og að gera samning. Andheiti er öffnen.",
         "Myndir: schließt, schloss, hat geschlossen (sterk sögn). Hún er formlegri en talmálsorðið zumachen. Ástand er tjáð með geschlossen: Die Bank ist geschlossen (bankinn er lokaður).",
         "Með forskeytum myndast önnur orð: abschließen (læsa), anschließen (tengja), einschließen (loka inni)."
       ],
@@ -43453,7 +43458,7 @@ const A2_WORDS = [
       "translation": "umferð",
       "explanation": [
         "Aðalatriðið: der Verkehr er umferð — ferðir farartækja og fólks á vegum og í almenningssamgöngum. Það er karlkynsorð, yfirleitt aðeins í eintölu.",
-        "Algeng orðasambönd: viel Verkehr (mikil umferð), der Straßenverkehr (umferð á vegum), der öffentliche Verkehr (almenningssamgöngur), den Verkehr regeln (stjórna umferðinni)."
+        "Algeng orðasambönd: viel Verkehr haben (mikil umferð), der Straßenverkehr (umferð á vegum), der öffentliche Verkehr (almenningssamgöngur), den Verkehr regeln (stjórna umferðinni)."
       ],
       "examples": [
         {
@@ -48016,7 +48021,7 @@ const A2_WORDS = [
         "Í síma merkir Hörst du mich? Heyrirðu í mér?"
       ],
       "important": [
-        "Á íslensku er sagt „hlusta á tónlist“, en á þýsku Musik hören – ekki zuhören. zuhören er notað þegar hlustað er með athygli á einhvern: Hör mir zu!",
+        "Á íslensku er „hlusta“ notað bæði um tónlist og um að hlusta með athygli; á þýsku er það að hlusta með athygli á einhvern táknað með zuhören.",
         "hören og gehören eru ólík orð: gehören merkir að tilheyra."
       ],
       "sectionAccents": {

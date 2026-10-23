@@ -11273,7 +11273,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Fai attenzione al dativo: jemandem etwas borgen è prestare, sich (Dat.) etwas von jemandem borgen è prendere in prestito.",
-        "Se non è chiaro se si tratti di dare o prendere, usa leihen o ausleihen."
+        "Se non è chiaro se si tratti di dare o prendere, usa verleihen (prestare) o sich ausleihen (farsi prestare)."
       ],
       "important": [
         "Borgen è una parola colloquiale; nello scritto e nello stile formale si usa più spesso leihen.",
@@ -11394,8 +11394,8 @@ const A2_WORDS = [
           },
           {
             "green": [
-              "leihen",
-              "ausleihen"
+              "ausleihen",
+              "verleihen"
             ]
           }
         ],
@@ -11698,7 +11698,7 @@ const A2_WORDS = [
         "Frase di lode: Brav gemacht! – Bravo, ben fatto!"
       ],
       "important": [
-        "Attenzione, falso amico: brav non corrisponde all'italiano «bravo» nel senso di capace, abile (quello è gut o tüchtig); brav significa buono, ubbidiente. Coincide solo nell'uso con i bambini («fai il bravo»).",
+        "Attenzione, falso amico: brav non è la stessa cosa di gut: gut significa buono in generale, brav ben educato, ubbidiente (non «bravo» nel senso di capace). Coincide solo nell'uso con i bambini («fai il bravo»).",
         "Detto di un adulto, brav può suonare un po' sprezzante."
       ],
       "sectionAccents": {
@@ -17420,7 +17420,7 @@ const A2_WORDS = [
         "Mi ricordo = ich erinnere mich (con sich); ricordo qualcosa a qualcuno = erinnern (senza sich)."
       ],
       "important": [
-        "Dopo erinnern / sich erinnern segue di solito an + accusativo; attenzione: la persona va all'accusativo (mich), non al dativo."
+        "Dopo erinnern / sich erinnern segue di solito an + accusativo."
       ],
       "sectionAccents": {
         "explanation": {
@@ -18313,7 +18313,7 @@ const A2_WORDS = [
         "Con fehlen la persona a cui manca qualcosa va al dativo: mir, dir, ihm."
       ],
       "important": [
-        "Funziona come l'italiano «mancare»: ciò che manca è il soggetto (Mir fehlt der Schlüssel = mi manca la chiave), e il verbo si accorda con esso: Es fehlen zwei Stühle."
+        "Funziona come l'italiano «mancare»: ciò che manca è il soggetto (Mir fehlt der Schlüssel = mi manca la chiave)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -23041,7 +23041,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Dopo indem il verbo coniugato va alla fine.",
-        "Attenzione: indem non significa «mentre» in senso temporale (quello è während) e non è una congiunzione causale; la causa si esprime con weil (perché)."
+        "Attenzione: indem non è una congiunzione causale; la causa si esprime con weil (perché)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -23642,7 +23642,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Das Kaffeehaus è neutro: das Kaffeehaus, die Kaffeehäuser.",
-        "La parola Kaffeehaus suona tradizionale; per un locale moderno si dice spesso Café. Attenzione: der Kaffee è la bevanda, das Café il locale, mentre in italiano «caffè» indica entrambi."
+        "La parola Kaffeehaus suona tradizionale; per un locale moderno si dice spesso Café."
       ],
       "sectionAccents": {
         "explanation": {
@@ -26919,7 +26919,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Die Kirsche è femminile: die Kirsche, die Kirschen.",
-        "Il nome del frutto non è quello dell'albero, come in italiano (ciliegia/ciliegio): l'albero è der Kirschbaum."
+        "L'albero di solito si chiama der Kirschbaum, ma die Kirsche può indicare anche l'albero (Die Kirschen blühen)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -35362,7 +35362,7 @@ const A2_WORDS = [
         "Nell'espressione rechnen mit + dativo il significato è «contare su, mettere in conto», per esempio il maltempo."
       ],
       "important": [
-        "Rechnen mit di solito significa «aspettarsi, tenere conto di», non «fare calcoli con qualcosa». Attenzione: «contare» nel senso di 1, 2, 3 è zählen, non rechnen."
+        "Rechnen mit di solito significa «aspettarsi, tenere conto di», non «fare calcoli con qualcosa»."
       ],
       "sectionAccents": {
         "explanation": {
@@ -38436,7 +38436,7 @@ const A2_WORDS = [
       "translation": "trovarsi",
       "explanation": [
         "Idea principale: sich befinden è un verbo riflessivo che significa trovarsi in un luogo, proprio come l'italiano «trovarsi». È un po' più formale di sein o liegen.",
-        "Forme: befindet sich, befand sich, hat sich befunden. Nell'uso quotidiano: Das Hotel befindet sich in der Nähe. Di solito è seguito da un'indicazione di luogo (wo? — dove?)."
+        "Forme: befindet sich, befand sich, hat sich befunden. Nell'uso quotidiano: Das Hotel befindet sich in der Nähe. Di solito è seguito da un'indicazione di luogo (dove?)."
       ],
       "examples": [
         {
@@ -39885,7 +39885,7 @@ const A2_WORDS = [
         "Stehen — wo? (dativo), stellen — wohin? (accusativo)."
       ],
       "important": [
-        "Stehen è uno stato, stellen un'azione: non confondere Das Glas steht con Ich stelle das Glas. Dove l'italiano dice semplicemente «è sul tavolo», il tedesco precisa la posizione (steht, liegt)."
+        "Stehen è uno stato, stellen un'azione: non confondere Das Glas steht con Ich stelle das Glas."
       ],
       "sectionAccents": {
         "explanation": {
@@ -41056,7 +41056,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Per il cioccolato si dice eine Tafel Schokolade — «una tavoletta di cioccolato». Attenzione: il tavolo (da mangiare) si dice der Tisch, non Tafel."
+        "Per il cioccolato si dice eine Tafel Schokolade — «una tavoletta di cioccolato»."
       ],
       "important": [
         "Il plurale è die Tafeln."
@@ -44996,11 +44996,11 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Congiunzione: während ... verbo alla fine. Se dopo während segue un sostantivo, è una preposizione e serve il genitivo.",
+        "Congiunzione: während ... Verb am Ende. Se dopo während segue un sostantivo, è una preposizione e serve il genitivo.",
         "Attenzione: «finché, fino a quando» non si dice während; in tedesco si usa bis."
       ],
       "important": [
-        "Dopo la congiunzione während il verbo non va mai al secondo posto: ..., während ich arbeite (non während ich arbeite ich).",
+        "Dopo la congiunzione während il verbo non va mai al secondo posto: ..., während ich arbeite (non während arbeite ich).",
         "während non significa quando per un evento singolo: in quel caso si usa wenn o als."
       ],
       "sectionAccents": {
@@ -48632,7 +48632,7 @@ const A2_WORDS = [
         "Ricorda la ß: groß, größer, am größten."
       ],
       "important": [
-        "Riferito a una persona groß significa alto, riferito a un oggetto grande: è il sostantivo a determinare il significato. Per una montagna o un edificio, invece, «alto» si dice hoch.",
+        "Riferito a una persona groß significa alto, riferito a un oggetto grande: è il sostantivo a determinare il significato.",
         "Davanti a un sostantivo groß si declina: ein großer Mann, eine große Stadt, ein großes Haus."
       ],
       "sectionAccents": {

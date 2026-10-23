@@ -915,7 +915,7 @@ const C1_WORDS = [
       "layout": "standardStudy",
       "translation": "Veřejnost",
       "explanation": [
-        "Hlavní myšlenka: die Öffentlichkeit je veřejnost, tedy všichni lidé, kterým je něco přístupné nebo známé, a také veřejný charakter něčeho – stav, kdy něco není tajné (die Öffentlichkeit der Sitzung).",
+        "Hlavní myšlenka: die Öffentlichkeit je veřejnost, tedy všichni lidé, kterým je něco přístupné nebo známé, a také veřejný charakter něčeho – stav, kdy něco není tajné.",
         "Podstatné jméno ženského rodu: die Öffentlichkeit, množné číslo prakticky neexistuje. Časté výrazy: in der Öffentlichkeit (na veřejnosti), an die Öffentlichkeit gehen (zveřejnit), unter Ausschluss der Öffentlichkeit (bez účasti veřejnosti), die Öffentlichkeit informieren.",
         "České slovo společnost často odpovídá německému die Gesellschaft, ale to má jiný význam: die Gesellschaft je společnost jako uspořádání lidí nebo firma, zatímco die Öffentlichkeit je veřejnost."
       ],

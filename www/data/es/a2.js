@@ -2273,7 +2273,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Si se habla de una carrera o de una ciencia, piensa en «aplicado» como especialidad (angewandte Informatik); si se habla de un método o de una norma, piensa en «que se aplica».",
+        "Si se habla de una carrera o de una ciencia, piensa en «aplicado» como especialidad; si se habla de un método o de una norma, piensa en «que se aplica».",
         "Detrás de angewandt suele ir un sustantivo con mayúscula: angewandte Physik, angewandte Kunst."
       ],
       "important": [
@@ -6067,7 +6067,7 @@ const A2_WORDS = [
       "translation": "encargar • aplicar • servir",
       "explanation": [
         "Idea principal: auftragen es un verbo con prefijo separable que significa encargar (una tarea, una obligación): jemandem etwas auftragen. Quiere decir que alguien encarga a otra persona que haga algo.",
-        "Formas: trägt auf, trug auf, hat aufgetragen. Otro significado frecuente es aplicar o extender (crema, pintura, maquillaje): Creme auftragen. En registro algo más elevado, auftragen es también servir la comida (das Essen auftragen). El prefijo auf- se separa en la oración.",
+        "Formas: trägt auf, trug auf, hat aufgetragen. Otro significado frecuente es aplicar o extender (crema, pintura, maquillaje): Creme auftragen. El prefijo auf- se separa en la oración.",
         "Con Grüße (saludos), auftragen significa encargar que se transmitan saludos: Meine Mutter hat mir Grüße an dich aufgetragen. Es una construcción de estilo algo elevado."
       ],
       "examples": [
@@ -6105,7 +6105,7 @@ const A2_WORDS = [
         "Para aplicar cosméticos o pintura se usa auftragen; el objeto va en acusativo."
       ],
       "important": [
-        "Auftragen no es lo mismo que beauftragen: beauftragen es encomendar una tarea a una persona (la persona va en acusativo), auftragen es encargar la tarea misma.",
+        "Auftragen no es lo mismo que beauftragen: beauftragen es encomendar una tarea a una persona, auftragen es encargar la tarea misma.",
         "El sustantivo es der Auftrag (encargo, pedido), en plural die Aufträge."
       ],
       "sectionAccents": {
@@ -6118,8 +6118,7 @@ const A2_WORDS = [
           ],
           "purple": [
             "encargar",
-            "aplicar",
-            "servir"
+            "aplicar"
           ]
         },
         "examples": [
@@ -9610,7 +9609,7 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "familiar • conocido",
       "explanation": [
-        "Idea principal: bekannt es un adjetivo. Significa conocido (una persona, un lugar, una cara), sabido (un hecho, una información) y también familiar, cuando algo nos suena (Das kommt mir bekannt vor). Lo contrario es unbekannt.",
+        "Idea principal: bekannt es un adjetivo. Significa conocido (una persona, un lugar, una cara), sabido (un hecho, una información). Lo contrario es unbekannt.",
         "Combinaciones frecuentes: bekannt für etwas (conocido por algo), bekannt als + nominativo (conocido como), jemandem bekannt sein (ser conocido por alguien), jemanden mit jemandem bekannt machen (presentar a alguien).",
         "Sustantivos: der Bekannte (un conocido), die Bekannte (una conocida), die Bekanntschaft (el conocido, la relación; conocer a alguien)."
       ],
@@ -9667,8 +9666,7 @@ const A2_WORDS = [
             "bekannt"
           ],
           "purple": [
-            "conocido",
-            "familiar"
+            "conocido"
           ],
           "green": [
             "unbekannt"
@@ -11284,7 +11282,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Fíjate en el dativo: jemandem etwas borgen es prestar; sich (dativo) etwas von jemandem borgen es pedir prestado.",
-        "Si no está claro si se trata de dar o de tomar, usa leihen o ausleihen."
+        "Si no está claro si se trata de dar o de tomar, usa verleihen (prestar) o sich ausleihen (pedir prestado)."
       ],
       "important": [
         "Borgen es una palabra coloquial; en textos escritos y en estilo formal se usa más leihen.",
@@ -11404,8 +11402,8 @@ const A2_WORDS = [
           },
           {
             "green": [
-              "leihen",
-              "ausleihen"
+              "ausleihen",
+              "verleihen"
             ]
           }
         ],
@@ -17430,7 +17428,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Me acuerdo = ich erinnere mich (con sich); te lo recuerdo = ich erinnere dich daran (sin sich)."
+        "Me acuerdo = sich erinnern; recuerdo algo a alguien = erinnern (sin sich)."
       ],
       "important": [
         "Detrás de erinnern / sich erinnern suele ir an + acusativo."
@@ -18323,7 +18321,7 @@ const A2_WORDS = [
         "Con fehlen, la persona a quien le falta algo va en dativo: mir, dir, ihm."
       ],
       "important": [
-        "Funciona igual que faltar en español: lo que falta es el sujeto y concuerda con el verbo (Es fehlen zwei Stühle, faltan dos sillas): Mir fehlt der Schlüssel."
+        "En alemán, lo que falta va en nominativo: Mir fehlt der Schlüssel."
       ],
       "sectionAccents": {
         "explanation": {
@@ -19788,7 +19786,7 @@ const A2_WORDS = [
       "translation": "incluso • en absoluto (en oraciones negativas)",
       "explanation": [
         "Idea principal: gar suele ser una palabra que refuerza la negación: gar nicht (en absoluto, nada), gar kein (ningún... en absoluto), gar nichts (absolutamente nada). Hace la negación más fuerte: Ich habe gar keine Zeit.",
-        "Con menos frecuencia, gar significa hecho, cocinado (en su punto): Das Fleisch ist gar. Gar zu significa demasiado. En un registro más cuidado también puede significar incluso: oder gar (o incluso)."
+        "Con menos frecuencia, gar significa hecho, cocinado (en su punto): Das Fleisch ist gar. Gar zu significa demasiado."
       ],
       "examples": [
         {
@@ -19833,8 +19831,7 @@ const A2_WORDS = [
             "gar nicht"
           ],
           "purple": [
-            "en absoluto",
-            "incluso"
+            "en absoluto"
           ]
         },
         "examples": [
@@ -26180,7 +26177,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Fíjate en el compuesto Kinder + Wagen: el género lo marca la última parte, der Wagen, der Kinderwagen.",
+        "Recuerda que en alemán un cochecito es singular: ein Kinderwagen.",
         "¿Llevar o empujar? El cochecito se empuja: schieben."
       ],
       "important": [
@@ -26932,7 +26929,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Die Kirsche es femenino: die Kirsche, die Kirschen.",
-        "El árbol se llama normalmente der Kirschbaum, aunque die Kirsche puede designar también el árbol o su madera."
+        "El árbol se llama normalmente der Kirschbaum, aunque die Kirsche puede designar también el árbol (Die Kirschen blühen)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -37342,7 +37339,7 @@ const A2_WORDS = [
         "La cola en la que espera la gente se llama Schlange; Reihe es más bien una fila o un orden (Du bist an der Reihe)."
       ],
       "important": [
-        "Schlange stehen es una expresión fija sin artículo: Wir stehen Schlange. También es correcto in der Schlange stehen."
+        "Schlange stehen es una expresión fija: no se dice in der Schlange sein, sino Schlange stehen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -49079,7 +49076,7 @@ const A2_WORDS = [
         "klein describe sobre todo el tamaño; wenig, la cantidad de algo no contable: kleines Auto, pero wenig Geld."
       ],
       "important": [
-        "Con sustantivos no contables se usa wenig, no klein: poco tiempo es wenig Zeit, no kleine Zeit (pero sí eine kleine Menge).",
+        "klein no expresa cantidad: poco tiempo es wenig Zeit, no kleine Zeit.",
         "Cuando en español decimos pequeño de un niño, en alemán puede ser klein o jung, según el contexto."
       ],
       "sectionAccents": {
@@ -49864,7 +49861,7 @@ const A2_WORDS = [
       "explanation": [
         "Idea principal: erst es un adverbio. Indica que un momento, una cifra o una etapa es menor o más tardía de lo esperado: apenas, solo, no antes de, no hasta.",
         "Ejemplos: Es ist erst acht Uhr (son solo las ocho). Der Zug kommt erst um zehn (el tren no llega hasta las diez). Erst jetzt (solo ahora, hasta ahora no). Er kommt erst morgen significa que no llegará antes de mañana.",
-        "erst es invariable. También puede significar primero, en primer lugar: Erst essen wir, dann gehen wir spazieren. No es lo mismo que nur: nur limita una cantidad; erst se refiere al tiempo y al orden de los acontecimientos."
+        "erst es invariable. No es lo mismo que nur: nur limita una cantidad; erst se refiere al tiempo y al orden de los acontecimientos."
       ],
       "examples": [
         {
@@ -49910,7 +49907,7 @@ const A2_WORDS = [
         "erst mal (coloquial) significa primero: Erst mal essen wir."
       ],
       "important": [
-        "erst (apenas, solo, primero) y erste (el ordinal primero, que se declina) no son lo mismo.",
+        "erst (solo, apenas) y erste (primero) no son lo mismo.",
         "erst implica que es un momento temprano o que después habrá más; nur no incluye esa idea."
       ],
       "sectionAccents": {
@@ -49923,8 +49920,7 @@ const A2_WORDS = [
           "purple": [
             "apenas",
             "solo",
-            "no antes de",
-            "primero"
+            "no antes de"
           ]
         },
         "examples": [

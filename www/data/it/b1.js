@@ -5628,7 +5628,7 @@ const B1_WORDS = [
         "Registro ufficiale: Ausländer halten sich in Deutschland auf."
       ],
       "important": [
-        "Questo verbo è più ufficiale di bleiben; nella vita quotidiana si dice spesso semplicemente sein o bleiben.",
+        "Questo verbo è più ufficiale di bleiben; nella vita quotidiana si dice spesso semplicemente «essere» o bleiben.",
         "Non significa abitare; wohnen indica la residenza stabile."
       ],
       "sectionAccents": {
@@ -16861,7 +16861,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Eher non è la stessa cosa di früher: früher significa «una volta, in passato», eher «prima di qualcosa».",
-        "Nel senso comparativo eher si usa con als per introdurre l'altra opzione: eher A als B."
+        "Nel senso comparativo dopo eher si usa als (non wie): eher A als B."
       ],
       "sectionAccents": {
         "explanation": {
@@ -25797,7 +25797,7 @@ const B1_WORDS = [
         "Per il senso figurato ricorda la preposizione: festhalten an etwas (a che cosa)."
       ],
       "important": [
-        "Non confondere festhalten (tenere stretto) con festnehmen (arrestare): il primo è solo tenere, il secondo è un'azione della polizia.",
+        "Non confondere festhalten (tenere stretto) con festnehmen (arrestare): il primo è tenere (anche non lasciar andare, trattenere), il secondo è un arresto ufficiale.",
         "In senso figurato si usa an + dativo, non l'accusativo: an dem Plan, non an den Plan."
       ],
       "sectionAccents": {
@@ -28063,7 +28063,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "L'espressione auf dem Gebiet è al dativo perché risponde alla domanda «dove?» (wo?).",
+        "L'espressione auf dem Gebiet è al dativo perché risponde alla domanda «dove?».",
         "Sinonimo per «settore»: der Bereich – più frequente nella lingua di tutti i giorni."
       ],
       "important": [
@@ -43278,7 +43278,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Nel significato di «atterrare», al Perfekt si usa ist gelandet, non hat gelandet — come in italiano, dove si dice «è atterrato».",
-        "Alla domanda wo? (dove?) si risponde con auf/in + dativo: auf dem Dach, im Spamordner."
+        "Alla domanda «dove?» si risponde con auf/in + dativo: auf dem Dach, im Spamordner."
       ],
       "sectionAccents": {
         "explanation": {
@@ -46037,7 +46037,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Das Maß si scrive con ß perché la vocale è lunga.",
-        "Il plurale è die Maße (dimensioni); la forma Maßen compare solo nell'espressione über alle Maßen."
+        "Il plurale è die Maße (dimensioni); al dativo — den Maßen (in Maßen, über alle Maßen)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -52853,7 +52853,7 @@ const B1_WORDS = [
       "translation": "sgomberare • liberare",
       "explanation": [
         "Idea principale: räumen significa liberare uno spazio: togliere oggetti, sgomberare un locale o evacuare delle persone. Riferito a un locale (die Wohnung räumen) significa anche lasciarlo, traslocare.",
-        "Forme: er räumt, räumte, hat geräumt. Il verbo è di solito transitivo ed è seguito da un complemento oggetto all'accusativo (wen oder was?): die Straße, die Wohnung, den Tisch.",
+        "Forme: er räumt, räumte, hat geräumt. Il verbo è di solito transitivo ed è seguito da un complemento oggetto all'accusativo (che cosa?): die Straße, die Wohnung, den Tisch.",
         "Diversi: aufräumen (con il prefisso separabile auf-) significa mettere in ordine, mentre ausräumen significa svuotare."
       ],
       "examples": [
@@ -63199,7 +63199,7 @@ const B1_WORDS = [
       ],
       "tip": [
         "Allattare al seno si dice stillen, mentre dare il biberon – mit der Flasche füttern.",
-        "Con Durst e Hunger si usa stillen o löschen (Durst löschen)."
+        "Con Durst si usa stillen o löschen (Durst löschen), con Hunger solo stillen."
       ],
       "important": [
         "stillen non è still sein (stare zitto).",
@@ -64586,12 +64586,12 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "In italiano «scena» indica sia un passaggio di un film sia il palcoscenico (entrare in scena), ma in tedesco sono due parole: die Szene (passaggio, episodio) e die Bühne (palcoscenico).",
+        "Non confondere scena e paesaggio: in tedesco sono due parole diverse, die Szene (passaggio, episodio) e die Landschaft (natura).",
         "Ricorda l'espressione eine Szene machen – fare una scenata."
       ],
       "important": [
         "La parola finisce in -e ed è femminile: die Szene, non der Szene.",
-        "Il palcoscenico in tedesco non è die Szene, ma die Bühne: auf der Bühne stehen – essere in scena."
+        "In tedesco die Szene non è il paesaggio (la natura): quello è die Landschaft."
       ],
       "sectionAccents": {
         "explanation": {
@@ -65530,7 +65530,7 @@ const B1_WORDS = [
       ],
       "tip": [
         "Fare immersioni con le bombole = mit dem Gerät tauchen; chi lo fa è der Taucher.",
-        "Tauchen e schwimmen non sono sinonimi: il primo avviene sott'acqua, il secondo in superficie. Attenzione: il tuffo dal trampolino («tuffarsi») in tedesco è di solito springen (ins Wasser springen), non tauchen."
+        "Tauchen e schwimmen non sono sinonimi: il primo avviene sott'acqua, il secondo in superficie."
       ],
       "important": [
         "Al Perfekt si usa spesso hat getaucht; con una direzione di movimento (ins Wasser) è possibile anche ist getaucht.",
@@ -77258,7 +77258,7 @@ const B1_WORDS = [
         "Nella domanda sulla professione si usa spesso von Beruf: Was bist du von Beruf?"
       ],
       "important": [
-        "Ich bin Lehrer, senza articolo: i nomi di professione (Lehrer, Arzt) dopo sein si usano di solito senza articolo, come in italiano «sono insegnante».",
+        "Ich bin Lehrer, non Ich bin ein Beruf: i nomi di professione (Lehrer, Arzt) si usano di solito senza articolo, come in italiano «sono insegnante».",
         "Beruf non è la stessa cosa di Arbeit o Job: è la professione, non un lavoro concreto."
       ],
       "sectionAccents": {
@@ -79062,7 +79062,7 @@ const B1_WORDS = [
         "Aggiungi sempre il pronome riflessivo: er befindet sich, wir befinden uns."
       ],
       "important": [
-        "Sich befinden non significa trovare (finden) né sentirsi; indica solo il luogo o la condizione in cui ci si trova.",
+        "Sich befinden non significa trovare (finden); indica il luogo o la condizione in cui ci si trova (in registro formale anche come ci si sente).",
         "Al Perfekt l'ausiliare è haben (hat sich befunden), ma nel racconto si usa più spesso il Präteritum: befand sich."
       ],
       "sectionAccents": {

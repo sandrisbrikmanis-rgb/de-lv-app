@@ -1281,7 +1281,7 @@ const B1_WORDS = [
       "explanation": [
         "Hovedidé: abdecken er et adskilleligt udsagnsord: deckt ab, deckte ab, hat abgedeckt. Oftest betyder det at dække noget til for at beskytte det: einen Kuchen, Pflanzen, eine Grube abdecken.",
         "Betydningen afhænger af objektet. Den Tisch abdecken betyder at tage af bordet efter maden, das Dach abdecken – at fjerne tagbeklædningen; i en storm kan taget blive revet af. I overført betydning betyder abdecken at dække: Die Versicherung deckt den Schaden ab.",
-        "Forstavelsen ab- skilles fra i sætningen: Sie deckt den Kuchen ab. Bemærk: dansk afdække betyder oftest at afsløre – det svarer til tysk aufdecken."
+        "Forstavelsen ab- skilles fra i sætningen: Sie deckt den Kuchen ab."
       ],
       "examples": [
         {
@@ -1992,7 +1992,7 @@ const B1_WORDS = [
       "translation": "At lægge fra sig • At aflægge",
       "explanation": [
         "Hovedidé: ablegen er et adskilleligt udsagnsord: legt ab, legte ab, hat abgelegt. Det betyder at lægge noget fra sig, som man bærer, eller tage noget af, som man har på: Mantel, Tasche ablegen.",
-        "Dokumente ablegen betyder at arkivere dem i en mappe eller et arkiv. Eine Prüfung ablegen betyder at aflægge (gå op til) en eksamen. Om et skib betyder ablegen at lægge fra kaj.",
+        "At ablegen dokumenter betyder at arkivere dem i en mappe eller et arkiv. Eine Prüfung ablegen betyder at aflægge (gå op til) en eksamen. Om et skib betyder ablegen at lægge fra kaj.",
         "I overført betydning kan ablegen betyde at opgive noget: eine Gewohnheit ablegen (aflægge en vane)."
       ],
       "examples": [
@@ -5629,7 +5629,7 @@ const B1_WORDS = [
         "Formelt: Ausländer halten sich in Deutschland auf."
       ],
       "important": [
-        "Ordet er mere officielt end bleiben; i hverdagen siger man ofte bare sein eller bleiben.",
+        "Ordet er mere officielt end bleiben; i hverdagen siger man ofte bare at være eller bleiben.",
         "Det betyder ikke at bo; wohnen handler om fast bopæl."
       ],
       "sectionAccents": {
@@ -12714,7 +12714,7 @@ const B1_WORDS = [
       "translation": "Ambassade",
       "explanation": [
         "Hovedidé: die Botschaft betyder ambassade – et lands officielle repræsentation i udlandet; desuden budskab, en meddelelse, som nogen ønsker at bringe videre. Flertal er die Botschaften.",
-        "Ambassade: die deutsche Botschaft in Kopenhagen (den tyske ambassade i København). Budskab: eine wichtige Botschaft (et vigtigt budskab), eine Botschaft hinterlassen (efterlade en besked).",
+        "Ambassade: die deutsche Botschaft in Riga (den tyske ambassade i Riga). Budskab: eine wichtige Botschaft (et vigtigt budskab), eine Botschaft hinterlassen (efterlade en besked).",
         "En ambassadør hedder der Botschafter, og en ambassademedarbejder hedder der Botschaftsmitarbeiter."
       ],
       "examples": [
@@ -15229,7 +15229,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Med \"Tisch\" bruges decken, ligesom på dansk: den Tisch decken – dække bord.",
+        "Med \"Tisch\" bruges decken, ikke legen: den Tisch decken – dække bord.",
         "I forbindelse med penge betyder decken ofte \"række til\": Das Geld deckt die Miete."
       ],
       "important": [
@@ -17065,7 +17065,7 @@ const B1_WORDS = [
       "translation": "Egen",
       "explanation": [
         "Hovedidé: eigen er et tillægsord, der betyder \"egen, selv\". Det understreger ejerskab: mein eigenes Auto – min egen bil. Det står normalt foran navneordet og bøjes: ein eigenes Zimmer, eine eigene Meinung, mein eigener Weg.",
-        "I overført betydning kan eigen også betyde \"særegen, ejendommelig\": ein eigener Geruch – en særegen lugt. Udtrykket sich etwas zu eigen machen betyder at gøre noget til sit eget. På B1-niveau er hovedbetydningen \"egen\"."
+        "I overført betydning kan eigen også betyde \"særegen, ejendommelig\": ein eigener Geruch – en særegen lugt. Udtrykket etwas zu eigen haben betyder at besidde noget (som egenskab). På B1-niveau er hovedbetydningen \"egen\"."
       ],
       "examples": [
         {
@@ -22470,7 +22470,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Empfangen betyder ikke »vente« (warten).",
-        "Empfangen er mere formelt end bekommen. Pas på: bekommen betyder »få«, ikke »bekomme«!"
+        "Empfangen er mere formelt end bekommen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -25815,7 +25815,7 @@ const B1_WORDS = [
         "Husk forholdsordet i den overførte betydning: festhalten an etwas (ved noget)."
       ],
       "important": [
-        "Forveksl ikke festhalten (holde fast) med festnehmen (anholde) — det første er bare at holde, det andet er en politihandling.",
+        "Forveksl ikke festhalten (holde fast) med festnehmen (anholde) — det første er at holde (også at holde tilbage, tilbageholde), det andet er en officiel anholdelse.",
         "I den overførte betydning bruges an + dativ, ikke akkusativ: an dem Plan, ikke an den Plan."
       ],
       "sectionAccents": {
@@ -38356,7 +38356,7 @@ const B1_WORDS = [
       "explanation": [
         "Hovedbetydning: klappen betyder i talesprog at lykkes, at gå i orden – om en plan, en aftale eller en handling, der forløber som ønsket. Grundleddet er som regel es, das eller en konkret plan: Es klappt, Das klappt. Dansk har det samme i talesprog: det klapper.",
         "Bøjning: klappt, klappte, hat geklappt (hjælpeudsagnsord haben). Hvad der lykkes, angives med mit: Es klappt mit dem Termin.",
-        "Typisk spørgsmål og svar: Klappt das? – Ja, das klappt. Ordet er uformelt og meget hyppigt i hverdagen. Pas på: dansk klappe i hænderne hedder på tysk klatschen."
+        "Typisk spørgsmål og svar: Klappt das? – Ja, das klappt. Ordet er uformelt og meget hyppigt i hverdagen."
       ],
       "examples": [
         {
@@ -43304,7 +43304,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Om landing bruger man i førnutid ist gelandet, ikke hat gelandet.",
-        "På spørgsmålet wo? svarer man med auf/in + dativ: auf dem Dach, im Spamordner."
+        "På spørgsmålet hvor? svarer man med auf/in + dativ: auf dem Dach, im Spamordner."
       ],
       "sectionAccents": {
         "explanation": {
@@ -46024,7 +46024,7 @@ const B1_WORDS = [
       "translation": "Mål",
       "explanation": [
         "Hovedbetydning: das Maß er et mål – en størrelse, man måler noget med, eller en grænse for, hvad der er rimeligt. Flertal die Maße betyder mål i betydningen dimensioner (Länge, Breite, Höhe). Genitiv er des Maßes.",
-        "Hyppige udtryk: Maß nehmen (tage mål), nach Maß (efter mål), Maß halten (holde måde), über alle Maßen (over al måde), in hohem Maße (i høj grad). Pas på: dansk mål i betydningen formål eller scoring hedder på tysk das Ziel eller das Tor.",
+        "Hyppige udtryk: Maß nehmen (tage mål), nach Maß (efter mål), Maß halten (holde måde), über alle Maßen (over al måde), in hohem Maße (i høj grad).",
         "I Sydtyskland er die Maß (hunkøn) også et literkrus øl; det er et andet ord med samme stavemåde."
       ],
       "examples": [
@@ -46068,7 +46068,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Das Maß skrives med ß, fordi selvlyden er lang.",
-        "Flertal er die Maße (mål, dimensioner); formen Maßen er dativ flertal, fx i udtrykket über alle Maßen."
+        "Flertal er die Maße (mål, dimensioner); i dativ hedder det den Maßen (in Maßen, über alle Maßen)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -47202,7 +47202,7 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "Efterspørgsel • Forespørgsel",
       "explanation": [
-        "Hovedbetydning: die Nachfrage er først og fremmest efterspørgsel i økonomi – hvor mange der ønsker at købe en vare eller en tjenesteydelse (Angebot und Nachfrage – udbud og efterspørgsel). Flertal die Nachfragen er sjældnere. Bemærk, at ordet er bygget op ligesom dansk efterspørgsel: nach = efter, fragen = spørge.",
+        "Hovedbetydning: die Nachfrage er først og fremmest efterspørgsel i økonomi – hvor mange der ønsker at købe en vare eller en tjenesteydelse (Angebot und Nachfrage – udbud og efterspørgsel). Flertal die Nachfragen er sjældnere.",
         "En anden betydning er forespørgsel, det at spørge til noget: danke für Ihre Nachfrage; auf Nachfrage – på forespørgsel, når nogen spørger.",
         "Efterspørgslen beskrives ofte med udsagnsord: Die Nachfrage steigt/sinkt/ist hoch, og med forholdsordet nach: Nachfrage nach etwas."
       ],
@@ -47981,7 +47981,7 @@ const B1_WORDS = [
       ],
       "tip": [
         "En tilbøjelighed til noget udtrykkes med Neigung zu + dativ.",
-        "Ved valg af erhverv nævnes ofte Neigung und Begabung: interesser og evner."
+        "Ved valg af erhverv nævnes ofte Neigung og Begabung: interesser og evner."
       ],
       "important": [
         "Die Neigung betyder ikke kun tilbøjelighed: i teknisk betydning er det en hældning.",
@@ -54805,7 +54805,7 @@ const B1_WORDS = [
       ],
       "important": [
         "rösten er ikke braten: braten er at stege med olie eller fedt, rösten – at riste.",
-        "Forveksl ikke rösten med rosten (ruste)."
+        "Forveksl ikke rösten med rostet (ruster)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -55516,7 +55516,7 @@ const B1_WORDS = [
         "Gut gerüstet sein er et nyttigt udtryk."
       ],
       "important": [
-        "rüsten er ikke rüstig (rask, frisk – om ældre mennesker) og har intet med rust (der Rost) at gøre.",
+        "rüsten er ikke rüstig (rask, frisk – om ældre mennesker): det er forskellige ord.",
         "Om stater betyder aufrüsten at opruste, mens abrüsten betyder at nedruste."
       ],
       "sectionAccents": {
@@ -60593,7 +60593,7 @@ const B1_WORDS = [
       "explanation": [
         "Grundbetydning: sich sorgen betyder at bekymre sig, være urolig for nogen eller noget, man opfatter som truet eller problematisk. Det er et refleksivt udsagnsord – ligesom dansk bekymre sig.",
         "Bøjning: er sorgt sich, sorgte sich, hat sich gesorgt. Normalt med um + akkusativ: sich um jemanden/etwas sorgen. I hverdagen siger man ofte sich Sorgen machen – også at bekymre sig.",
-        "Forveksl det ikke med sorgen für (sørge for, tage sig af): Sie sorgt für ihre Eltern betyder, at hun tager sig af sine forældre. Bemærk også, at dansk sørge over et dødsfald på tysk hedder trauern."
+        "Forveksl det ikke med sorgen für (sørge for, tage sig af): Sie sorgt für ihre Eltern betyder, at hun tager sig af sine forældre."
       ],
       "examples": [
         {
@@ -61248,7 +61248,7 @@ const B1_WORDS = [
       "explanation": [
         "Grundbetydning: speichern betyder at gemme data på en computer, en telefon eller i skyen og også at lagre energi, vand eller andre stoffer.",
         "Bøjning: er speichert, speicherte, hat gespeichert. Udsagnsordet er transitivt og styrer akkusativ (hvad?): die Datei speichern, Energie speichern. Ofte også med forstavelse: abspeichern.",
-        "Navneordet der Speicher betyder lager eller pulterkammer; i computere betyder det hukommelse (Arbeitsspeicher). Bemærk: dansk gemme i betydningen skjule hedder verstecken."
+        "Navneordet der Speicher betyder lager eller pulterkammer; i computere betyder det hukommelse (Arbeitsspeicher)."
       ],
       "examples": [
         {
@@ -63232,7 +63232,7 @@ const B1_WORDS = [
       ],
       "tip": [
         "At amme et barn er stillen, men at give flaske hedder mit der Flasche füttern.",
-        "Med Durst og Hunger bruger man stillen eller löschen (Durst löschen)."
+        "Med Durst bruger man stillen eller löschen (Durst löschen), med Hunger kun stillen."
       ],
       "important": [
         "stillen er ikke still sein (at tie).",
@@ -64619,7 +64619,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Pas på: dansk scene dækker både afsnittet i et stykke og selve scenegulvet, men på tysk er det to ord: die Szene (afsnit, optrin) og die Bühne (scenegulvet). Naturen hedder die Landschaft.",
+        "Pas på: på tysk er det to forskellige ord: die Szene (afsnit, optrin) og die Landschaft (natur).",
         "Husk udtrykket eine Szene machen – at lave en scene."
       ],
       "important": [
@@ -79130,7 +79130,7 @@ const B1_WORDS = [
         "Husk altid det refleksive stedord: er befindet sich, wir befinden uns."
       ],
       "important": [
-        "Sich befinden betyder ikke at finde (finden); i moderne tysk angiver det kun et sted eller en tilstand – dansk befinde sig godt (have det godt) hedder normalt sich wohlfühlen.",
+        "Sich befinden bruges ikke i betydningen at finde (finden); det angiver et sted eller en tilstand (formelt også befindende).",
         "I førnutid er hjælpeudsagnsordet haben (hat sich befunden), men i fortællinger bruges oftere datid: befand sich."
       ],
       "sectionAccents": {

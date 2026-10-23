@@ -17205,7 +17205,7 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "tillit • leyti",
       "explanation": [
-        "Meginhugmynd: die Hinsicht er kvenkynsnafnorð sem merkir hlið eða sjónarmið, þ.e. að hvaða leyti eitthvað gildir. Á íslensku samsvarar það oftast orðinu „leyti“ í samböndum eins og að þessu leyti, að vissu leyti. Athugaðu að „taka tillit til“ (sýna tillitssemi) er hins vegar Rücksicht nehmen, ekki Hinsicht.",
+        "Meginhugmynd: die Hinsicht er kvenkynsnafnorð sem merkir hlið eða sjónarmið, þ.e. að hvaða leyti eitthvað gildir. Á íslensku samsvarar það oftast orðinu „leyti“ í samböndum eins og að þessu leyti, að vissu leyti.",
         "Orðið er einkum notað í forsetningarliðum: in dieser Hinsicht (að þessu leyti), in gewisser Hinsicht (að vissu leyti), in jeder Hinsicht (að öllu leyti). Fleirtalan die Hinsichten er sjaldgæf. Í formlegu máli segja menn líka in Hinsicht auf + þolfall (með tilliti til, hvað varðar) eða hinsichtlich + eignarfall."
       ],
       "examples": [
@@ -25483,7 +25483,7 @@ const B2_WORDS = [
       "explanation": [
         "Meginhugmynd: sich verstellen merkir að látast eða gera sér upp — breyta hegðun sinni svo aðrir sjái ekki raunverulegt eðli manns eða tilfinningar. Maður er þá ekki eðlilegur.",
         "Sögnin er afturbeygð: ich verstelle mich, er verstellt sich; í þátíð verstellte sich, í núliðinni tíð hat sich verstellt. Án sich merkir verstellen líka að færa til eða loka fyrir (den Weg verstellen — loka veginum; den Sitz verstellen — stilla sætið) og að breyta röddinni (die Stimme verstellen).",
-        "Íslensku sagnirnar látast og þykjast geta líka merkt „þykjast vera einhver“; það samsvarar frekar sambandinu sich ausgeben als (sich als Arzt ausgeben). Sjálft sich verstellen merkir yfirleitt einfaldlega að leyna sínu rétta eðli."
+        "Íslensku sagnirnar látast og þykjast geta líka merkt „þykjast vera einhver“; það samsvarar frekar sambandinu sich ausgeben als (þykjast vera læknir). Sjálft sich verstellen merkir yfirleitt einfaldlega að leyna sínu rétta eðli."
       ],
       "examples": [
         {
@@ -27130,7 +27130,7 @@ const B2_WORDS = [
         "Þágufallið er viðtakandinn: wem? — dem Studenten, der Familie."
       ],
       "important": [
-        "Lýsingarháttur þátíðar er zugewiesen — ge- er skotið inn á milli zu og weisen."
+        "Lýsingarháttur þátíðar er zugewiesen — zu + gewiesen (weisen – wies – gewiesen)."
       ],
       "sectionAccents": {
         "explanation": {

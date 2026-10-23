@@ -172,7 +172,7 @@ const B1_WORDS = [
         "Si el complemento es una planta, anbauen = cultivar; si es un edificio, construir un anexo."
       ],
       "important": [
-        "En español criar se dice de animales y de hijos; en alemán son verbos distintos: Tiere züchten, pero Kinder erziehen (o großziehen), nunca anbauen.",
+        "Criar a los hijos no es anbauen, sino erziehen (o großziehen).",
         "El prefijo an- se separa en la oración: Sie bauen Mais an."
       ],
       "sectionAccents": {
@@ -3115,7 +3115,7 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "dejar • quitarse • destituir",
       "explanation": [
-        "Idea principal: absetzen es un verbo con prefijo separable: setzt ab, setzte ab, hat abgesetzt. Significa dejar o poner en el suelo algo que se lleva (un bolso, una mochila) o dejar a un pasajero que baja de un vehículo. Con el sombrero o las gafas significa quitarse: den Hut absetzen.",
+        "Idea principal: absetzen es un verbo con prefijo separable: setzt ab, setzte ab, hat abgesetzt. Significa dejar o poner en el suelo algo que se lleva (un bolso, una mochila) o dejar a un pasajero que baja de un vehículo.",
         "En política y en el trabajo, absetzen significa destituir: einen Minister absetzen. En medicina significa dejar de tomar un medicamento: ein Medikament absetzen. En los impuestos, desgravar: von der Steuer absetzen.",
         "Como reflexivo, sich absetzen significa separarse o huir: Die Diebe haben sich abgesetzt."
       ],
@@ -3181,7 +3181,6 @@ const B1_WORDS = [
           ],
           "purple": [
             "dejar",
-            "quitarse",
             "destituir",
             "dejar de tomar",
             "desgravar"
@@ -5628,7 +5627,7 @@ const B1_WORDS = [
         "En lenguaje formal: Ausländer halten sich in Deutschland auf (los extranjeros residen en Alemania)."
       ],
       "important": [
-        "Es más formal que bleiben; en el día a día se dice simplemente sein o bleiben.",
+        "Es más formal que bleiben; en el día a día se dice simplemente «estar» o bleiben.",
         "No significa vivir: wohnen se refiere al domicilio permanente."
       ],
       "sectionAccents": {
@@ -16850,7 +16849,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Eher no es lo mismo que früher: früher es «antes, en otros tiempos»; eher, «antes de algo».",
-        "En la comparación, tras eher se usa als: eher A als B."
+        "En la comparación, tras eher se usa als (no wie): eher A als B."
       ],
       "sectionAccents": {
         "explanation": {
@@ -28080,7 +28079,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "La expresión auf dem Gebiet va en dativo porque responde a la pregunta wo? (¿dónde?).",
+        "La expresión auf dem Gebiet va en dativo porque responde a la pregunta ¿dónde?.",
         "Sinónimo en el sentido de ámbito: der Bereich, más frecuente en la lengua cotidiana."
       ],
       "important": [
@@ -46055,7 +46054,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Das Maß se escribe con ß porque la vocal es larga.",
-        "El plural es die Maße (medidas); Maßen es el dativo plural (mit den Maßen) y aparece en expresiones como über alle Maßen."
+        "El plural es die Maße (medidas); en dativo, den Maßen (in Maßen, über alle Maßen)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -63198,7 +63197,7 @@ const B1_WORDS = [
       ],
       "tip": [
         "Dar el pecho es stillen, pero dar el biberón es mit der Flasche füttern.",
-        "Con Durst y Hunger se usa stillen o löschen (Durst löschen)."
+        "Con Durst se usa stillen o löschen (Durst löschen); con Hunger, solo stillen."
       ],
       "important": [
         "stillen no es still sein (estar callado).",
@@ -64585,12 +64584,12 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "No confundas escena y escenario: el escenario físico del teatro es die Bühne; die Szene es el fragmento o el suceso, y el paisaje natural es die Landschaft.",
+        "No confundas escena y paisaje: en alemán son dos palabras, die Szene (fragmento, suceso) y die Landschaft (naturaleza).",
         "Recuerda la expresión eine Szene machen – montar una escena (un escándalo)."
       ],
       "important": [
         "La palabra termina en -e y es femenina, como en español: die Szene, no der Szene.",
-        "Die Szene no es el escenario (die Bühne): la escena es lo que ocurre; el escenario, el lugar donde se actúa."
+        "Die Szene no es el paisaje (la naturaleza): eso es die Landschaft."
       ],
       "sectionAccents": {
         "explanation": {
@@ -76528,7 +76527,7 @@ const B1_WORDS = [
         "Después de zugeben suele venir una oración con dass, con el verbo al final."
       ],
       "important": [
-        "Zugeben, en el sentido de esta tarjeta, es admitir algo que no le conviene al hablante. En las recetas, zugeben también puede significar añadir (Salz zugeben); para añadir en general es más habitual hinzufügen.",
+        "Zugeben es admitir algo que no le conviene al hablante; si solo quieres decir que añades algo a la comida, usa hinzufügen.",
         "En la oración con dass que sigue a zugeben, el verbo va al final: Er gibt zu, dass er lügt."
       ],
       "sectionAccents": {
@@ -78652,7 +78651,7 @@ const B1_WORDS = [
         "Statt … zu significa lo mismo y suena algo más sencillo; ambas formas son correctas."
       ],
       "important": [
-        "Cuidado: si cambia el sujeto, usa anstatt dass: Anstatt dass er hilft, mache ich alles allein.",
+        "Cuidado: si cambia el sujeto, usa anstatt dass: Anstatt dass er hilft, schaut sie zu.",
         "No lo confundas con la preposición anstatt/statt + genitivo (statt des Buches), que significa en lugar de algo."
       ],
       "sectionAccents": {
@@ -79061,7 +79060,7 @@ const B1_WORDS = [
         "Añade siempre el pronombre reflexivo: er befindet sich, wir befinden uns."
       ],
       "important": [
-        "Sich befinden no significa encontrar algo (eso es finden): indica dónde o en qué situación está algo o alguien.",
+        "Sich befinden no significa encontrar algo (eso es finden): indica dónde o en qué situación está algo o alguien (en registro formal, también cómo se siente alguien).",
         "En el perfecto el auxiliar es haben (hat sich befunden), pero en la narración es más frecuente el Präteritum: befand sich."
       ],
       "sectionAccents": {

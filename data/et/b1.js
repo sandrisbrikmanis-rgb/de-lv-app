@@ -5630,7 +5630,7 @@ const B1_WORDS = [
         "Ametlikult: Ausländer halten sich in Deutschland auf."
       ],
       "important": [
-        "See sõna on ametlikum kui bleiben; igapäevakõnes öeldakse sageli lihtsalt sein või bleiben.",
+        "See sõna on ametlikum kui bleiben; igapäevakõnes öeldakse sageli lihtsalt „olema“ või bleiben.",
         "See ei tähenda elama; wohnen käib alalise elukoha kohta."
       ],
       "sectionAccents": {
@@ -8810,7 +8810,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Sage ühend: jemanden bei etwas / zu etwas beraten (kedagi millegi osas nõustama).",
+        "Sage ühend: jemanden zu etwas beraten (kedagi millegi osas nõustama).",
         "Nimisõna die Beratung näed sageli asutuste ustel."
       ],
       "important": [
@@ -10428,7 +10428,7 @@ const B1_WORDS = [
       ],
       "tip": [
         "„Millestki koosnema“ on saksa keeles bestehen aus + datiiv.",
-        "Eksami sooritamise kohta öeldakse bestehen, mitte machen (eine Prüfung machen = eksamit tegema)."
+        "Eksami sooritamise kohta öeldakse bestehen, mitte machen."
       ],
       "important": [
         "Bestehen aus + datiiv, bestehen auf + datiiv – erinevad eessõnad, erinevad tähendused.",
@@ -12710,7 +12710,7 @@ const B1_WORDS = [
       "translation": "saatkond",
       "explanation": [
         "Põhimõte: die Botschaft tähendab saatkonda – riigi ametlikku esindust välismaal; samuti sõnumit, teadet, mida keegi soovib edasi anda. Mitmus on die Botschaften.",
-        "Saatkond: die deutsche Botschaft in Tallinn (Saksamaa saatkond Tallinnas). Sõnum: eine wichtige Botschaft (oluline sõnum), eine Botschaft hinterlassen (sõnumit jätma).",
+        "Saatkond: die deutsche Botschaft in Riga (Saksamaa saatkond Riias). Sõnum: eine wichtige Botschaft (oluline sõnum), eine Botschaft hinterlassen (sõnumit jätma).",
         "Suursaadik on der Botschafter, saatkonna töötaja aga der Botschaftsmitarbeiter."
       ],
       "examples": [
@@ -14176,7 +14176,7 @@ const B1_WORDS = [
       "explanation": [
         "Põhimõte: dahin tähendab sinna, sellesse kohta – suunda varem mainitud kohta. See vastab küsimusele wohin? (kuhu?): Gehst du dahin? – Kas sa lähed sinna?",
         "Seda kasutatakse ka ajatähenduses: bis dahin (selle ajani, seniks): Bis dahin habe ich alles erledigt. Ülekantud tähenduses tähendab dahin sein kadunud, läinud: Das Geld ist dahin.",
-        "Erinevalt sõnast dort (seal, küsimusele wo?) näitab dahin liikumist – täpselt nagu eesti seal ja sinna."
+        "Erinevalt sõnast dort (seal, küsimusele kus?) näitab dahin liikumist – täpselt nagu eesti seal ja sinna."
       ],
       "examples": [
         {
@@ -14546,7 +14546,7 @@ const B1_WORDS = [
       "translation": "selle peale • selle küljes",
       "explanation": [
         "Põhimõte: daran on liitsõna osadest da + an ja asendab ühendit „an + midagi juba mainitut“: selle peale, sellele, selle küljes, selle kallal. Täpse tähenduse määrab tegusõnaga seotud eessõna: denken an – millelegi mõtlema, sich erinnern an – midagi meenutama, arbeiten an – millegi kallal töötama.",
-        "Seda kasutatakse ainult asjade ja sündmuste, mitte inimeste kohta (inimese puhul öeldakse an ihn, an sie). Kui eessõna algab täishäälikuga, lisandub da- järele r: daran, darauf, darin. Daran võib osutada ka järgnevale kõrvallausele: Ich denke daran, dass … – Ma mõtlen sellele, et …"
+        "Seda kasutatakse ainult asjade ja sündmuste, mitte inimeste kohta (inimese puhul öeldakse an ihn, an sie). Kui eessõna algab täishäälikuga, muutub da- kujuks dar-: daran, darauf, darin. Daran võib osutada ka järgnevale kõrvallausele: Ich denke daran, dass … – Ma mõtlen sellele, et …"
       ],
       "examples": [
         {
@@ -17059,7 +17059,7 @@ const B1_WORDS = [
       "translation": "oma",
       "explanation": [
         "Põhimõte: eigen on omadussõna, mis tähendab „oma, enda“. See rõhutab kuuluvust: mein eigenes Auto – minu enda auto. Tavaliselt seisab see nimisõna ees ja käändub: ein eigenes Zimmer, eine eigene Meinung, mein eigener Weg.",
-        "Ülekantud tähenduses võib eigen tähendada ka „omapärane, eriline“: ein eigener Geruch – omapärane lõhn. B1-tasemel on põhitähendus „oma, enda“."
+        "Ülekantud tähenduses võib eigen tähendada ka „omapärane, eriline“: ein eigener Geruch – omapärane lõhn. Väljend etwas zu eigen haben – midagi (omadusena) omama. B1-tasemel on põhitähendus „oma, enda“."
       ],
       "examples": [
         {
@@ -25823,7 +25823,7 @@ const B1_WORDS = [
         "Ülekantud tähenduse puhul pea meeles eessõna: festhalten an etwas (millestki kinni hoidma, millegi juurde jääma)."
       ],
       "important": [
-        "festhalten (kõvasti kinni hoidma) ära aja segi sõnaga festnehmen (kinni pidama) — esimene on lihtsalt hoidmine, teine politsei tegevus.",
+        "festhalten (kõvasti kinni hoidma) ära aja segi sõnaga festnehmen (kinni pidama) — esimene on hoidmine (ka mitte lasta minna, kinni pidada), teine ametlik vahistamine.",
         "Ülekantud tähenduses kasutatakse an + datiivi, mitte akusatiivi: an dem Plan, mitte an den Plan."
       ],
       "sectionAccents": {
@@ -40852,7 +40852,7 @@ const B1_WORDS = [
       "explanation": [
         "Põhimõte: kündigen tähendab töölepingut, lepingut või üürilepingut üles ütlema — ametlikult teatama, et suhe lõpeb. Vormid: kündigt, kündigte, hat gekündigt (abitegusõna haben).",
         "Akusatiiviga märgitakse asja: den Vertrag kündigen, die Wohnung kündigen, den Job kündigen. Datiiviga märgitakse inimest, kellega leping üles öeldakse: Der Chef kündigt dem Mitarbeiter (ülemus ütleb töötajaga lepingu üles). Ilma sihitiseta tähendab ich habe gekündigt, et ütlesin ise töö üles.",
-        "Sisuliselt on kündigen ametlik samm, tavaliselt koos etteteatamisajaga (Kündigungsfrist), erandina ka etteteatamata (fristlos); töölt vabastamist tööandja poolt nimetatakse ka die Entlassung (tegusõna: entlassen)."
+        "Sisuliselt on kündigen ametlik samm, tavaliselt koos etteteatamisajaga (Kündigungsfrist); töölt vabastamist tööandja poolt nimetatakse ka die Entlassung (tegusõna: entlassen)."
       ],
       "examples": [
         {
@@ -43334,7 +43334,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Maandumise tähenduses kasutatakse täisminevikus ist gelandet, mitte hat gelandet.",
-        "Küsimusele wo? vastatakse auf/in + datiiviga: auf dem Dach, im Spamordner."
+        "Küsimusele kus? vastatakse auf/in + datiiviga: auf dem Dach, im Spamordner."
       ],
       "sectionAccents": {
         "explanation": {
@@ -46093,7 +46093,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Sõna das Maß kirjutatakse ß-iga, sest täishäälik on pikk.",
-        "Mitmus on die Maße (mõõtmed); vorm Maßen esineb väljendites über alle Maßen ja in Maßen (mõõdukalt)."
+        "Mitmus on die Maße (mõõtmed); daatiivis den Maßen (in Maßen, über alle Maßen)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -63233,7 +63233,7 @@ const B1_WORDS = [
       ],
       "tip": [
         "Last rinnaga toita on stillen, aga pudelist toita – mit der Flasche füttern.",
-        "Sõnaga Durst kasutatakse nii stillen kui ka löschen (Durst löschen), sõnaga Hunger aga stillen."
+        "Sõnaga Durst kasutatakse nii stillen kui ka löschen (Durst löschen), sõnaga Hunger aga ainult stillen."
       ],
       "important": [
         "stillen ei ole still sein (vaikne olema).",
@@ -79140,7 +79140,7 @@ const B1_WORDS = [
         "Lisa alati enesekohane asesõna: er befindet sich, wir befinden uns."
       ],
       "important": [
-        "Sich befinden ei tähenda leidma (finden); see näitab eelkõige asukohta või olekut.",
+        "Sich befinden ei tähenda leidma (finden); see näitab asukohta või olekut (ametlikus keeles ka enesetunnet).",
         "Täisminevikus on abitegusõna haben (hat sich befunden), jutustuses kasutatakse aga sagedamini lihtminevikku: befand sich."
       ],
       "sectionAccents": {

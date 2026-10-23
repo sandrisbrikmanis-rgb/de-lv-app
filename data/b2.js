@@ -27130,7 +27130,7 @@ const B2_WORDS = [
         "Datīvs ir saņēmējs: wem? — dem Studenten, der Familie."
       ],
       "important": [
-        "Perfekta divdabis ir zugewiesen — ge- ievieto starp zu un weisen."
+        "Perfekta divdabis ir zugewiesen — zu + gewiesen (weisen – wies – gewiesen)."
       ],
       "sectionAccents": {
         "explanation": {

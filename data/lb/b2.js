@@ -17205,7 +17205,7 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "Hisiicht",
       "explanation": [
-        "Haaptiddi: die Hinsicht ass e weiblecht Nomen, dat en Aspekt, e Standpunkt bezeechent — d'Hisiicht, an där eppes gëllt. Op Lëtzebuergesch entsprécht et Ausdréck wéi „an dëser Hisiicht“, „a gewësser Hisiicht“ — an net der Rücksicht (Récksiicht op aner Leit).",
+        "Haaptiddi: die Hinsicht ass e weiblecht Nomen, dat en Aspekt, e Standpunkt bezeechent — d'Hisiicht, an där eppes gëllt. Op Lëtzebuergesch entsprécht et Ausdréck wéi „an dëser Hisiicht“, „a gewësser Hisiicht“ — an net „Noriicht“ am Sënn vun enger Neiegkeet.",
         "Et gëtt virun allem a präpositionale Gruppe benotzt: in dieser Hinsicht (an dëser Hisiicht), in gewisser Hinsicht (a gewësser Hisiicht), in jeder Hinsicht (an all Hisiicht). De Plural die Hinsichten ass seelen. A gehuewenem Stil seet een och in Hinsicht auf + Akkusativ (wat … ugeet) oder hinsichtlich + Genitiv."
       ],
       "examples": [
@@ -27129,7 +27129,7 @@ const B2_WORDS = [
         "Den Dativ bezeechent deen, deen eppes kritt: wem? — dem Studenten, der Familie."
       ],
       "important": [
-        "D'Partizip Perfekt ass zugewiesen — ge- steet tëscht zu a weisen."
+        "D'Partizip Perfekt ass zugewiesen — zu + gewiesen (weisen – wies – gewiesen)."
       ],
       "sectionAccents": {
         "explanation": {

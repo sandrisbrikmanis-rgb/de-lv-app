@@ -11273,7 +11273,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Pazi na dativ: jemandem etwas borgen znači posuditi nekome; sich (Dat.) etwas von jemandem borgen znači posuditi od nekoga.",
-        "Ako nije jasno je li riječ o davanju ili uzimanju, koristi se leihen ili ausleihen."
+        "Ako nije jasno je li riječ o davanju ili uzimanju, koristi se verleihen (posuditi nekome) ili sich ausleihen (posuditi od nekoga)."
       ],
       "important": [
         "Borgen pripada razgovornom jeziku; u pisanom i službenom stilu češće se koristi leihen.",
@@ -11394,8 +11394,8 @@ const A2_WORDS = [
           },
           {
             "green": [
-              "leihen",
-              "ausleihen"
+              "ausleihen",
+              "verleihen"
             ]
           }
         ],
@@ -24466,7 +24466,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Izrazi in den Keller (Wohin?) i im Keller (Wo?) pomažu zapamtiti razliku između akuzativa i dativa.",
+        "Izrazi in den Keller (kamo?) i im Keller (gdje?) pomažu zapamtiti razliku između akuzativa i dativa.",
         "Redoslijed razina u kući: der Keller, das Erdgeschoss, der erste Stock."
       ],
       "important": [
@@ -26489,7 +26489,7 @@ const A2_WORDS = [
       "translation": "kino",
       "explanation": [
         "Glavna ideja: das Kino je imenica srednjeg roda koja označava kino dvoranu, mjesto gdje se gledaju filmovi, ali i kino kao razonodu: ins Kino gehen (ići u kino).",
-        "Množina je die Kinos. Mjesto (Wo?) izražava se s im Kino (in + dativ), smjer (Wohin?) s ins Kino (in + akuzativ). Film koji se ondje prikazuje je der Film.",
+        "Množina je die Kinos. Mjesto (gdje?) izražava se s im Kino (in + dativ), smjer (kamo?) s ins Kino (in + akuzativ). Film koji se ondje prikazuje je der Film.",
         "Za kupnju ulaznice: eine Kinokarte kaufen; projekcija se kaže die Vorstellung."
       ],
       "examples": [
@@ -26527,7 +26527,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Zapamti par: ins Kino gehen (Wohin?), im Kino sein (Wo?).",
+        "Zapamti par: ins Kino gehen (kamo?), im Kino sein (gdje?).",
         "Za poziv je dovoljna kratka rečenica: Hast du Lust auf Kino? (Ideš u kino?)."
       ],
       "important": [
@@ -26915,7 +26915,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Die Kirsche je ženskog roda: die Kirsche, die Kirschen.",
-        "Naziv ploda nije naziv stabla: stablo je der Kirschbaum."
+        "Stablo se obično zove der Kirschbaum, ali die Kirsche može značiti i stablo (Die Kirschen blühen)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -37320,7 +37320,7 @@ const A2_WORDS = [
         "Red u kojem ljudi čekaju zove se Schlange; Reihe prije označava niz ili redoslijed (Du bist an der Reihe)."
       ],
       "important": [
-        "Schlange stehen je ustaljeni izraz (bez člana); može se reći i in der Schlange stehen ili warten."
+        "Schlange stehen je ustaljeni izraz: ne in der Schlange sein, nego Schlange stehen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -37950,7 +37950,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Dugovi — gotovo uvijek u množini: Schulden haben, Schulden machen (jednina eine Schuld je formalna)."
+        "Dugovi — obično u množini: Schulden haben, Schulden machen."
       ],
       "important": [
         "Za dug se kaže bei jemandem Schulden haben (imati dugove prema nekome)."
@@ -44992,11 +44992,11 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Veznik: während ... glagol na kraju. Ako iza während dolazi imenica, to je prijedlog i treba genitiv.",
+        "Veznik: während ... Verb am Ende. Ako iza während dolazi imenica, to je prijedlog i treba genitiv.",
         "Pazi: „dok ne” (do trenutka kad) ne kaže se während; u njemačkom se tada upotrebljava bis."
       ],
       "important": [
-        "Iza veznika während glagol nikad ne stoji na drugom mjestu: ..., während ich arbeite (a ne während ich arbeite ich).",
+        "Iza veznika während glagol nikad ne stoji na drugom mjestu: ..., während ich arbeite (a ne während arbeite ich).",
         "während ne znači kad za jednokratan događaj – tada se upotrebljava wenn ili als."
       ],
       "sectionAccents": {
@@ -45414,7 +45414,7 @@ const A2_WORDS = [
       "translation": "mijenjati • zamijeniti",
       "explanation": [
         "Glavna misao: wechseln je glagol: wechselt, wechselte, hat gewechselt. Znači mijenjati ili zamijeniti jednu stvar drugom, npr. novac, školu, posao, odjeću.",
-        "Obično se upotrebljava s akuzativom i pomoćnim glagolom haben: Er hat den Job gewechselt. Za prelazak s jednog mjesta ili iz jedne skupine u drugu upotrebljava se sein: Er ist in eine andere Abteilung gewechselt.",
+        "Obično se upotrebljava s akuzativom i pomoćnim glagolom haben: Er hat den Job gewechselt. Ako se naglašava prelazak na drugo mjesto, može se upotrijebiti i sein: Er ist zu einem anderen Verein gewechselt.",
         "U banci Geld wechseln znači promijeniti novac u drugu valutu ili u sitniš. Odgovarajuća imenica je der Wechsel (promjena)."
       ],
       "examples": [
@@ -47171,7 +47171,7 @@ const A2_WORDS = [
       "explanation": [
         "Glavna misao: der Zwilling je imenica muškog roda koja znači blizanac, jedno od dvoje djece rođene u istom porodu. Množina: die Zwillinge.",
         "Zwillinge se kaže i za oboje zajedno: Sie hat Zwillinge bekommen. Kad se želi istaknuti spol, kaže se der Zwillingsbruder (brat blizanac) ili die Zwillingsschwester (sestra blizanka).",
-        "Die Zwillinge je i naziv horoskopskog znaka Blizanci: Er ist Zwilling (on je Blizanac)."
+        "Die Zwillinge je i naziv horoskopskog znaka Blizanci."
       ],
       "examples": [
         {
@@ -50087,7 +50087,7 @@ const A2_WORDS = [
         "bloß je razgovorni sinonim."
       ],
       "important": [
-        "nur ograničava količinu, uključujući trajanje (nur zehn Minuten); za vremensko „tek“ (ranije ili kasnije nego što se očekivalo) koristi se erst: Es ist erst acht Uhr.",
+        "nur ograničava količinu; za vremensku oznaku koristi se erst: Es ist erst acht Uhr.",
         "nur je nepromjenjiv."
       ],
       "sectionAccents": {

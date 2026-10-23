@@ -27130,7 +27130,7 @@ const B2_WORDS = [
         "Dativ er mottakeren: wem? — dem Studenten, der Familie."
       ],
       "important": [
-        "Perfektum partisipp er zugewiesen — ge- settes inn mellom zu og weisen."
+        "Perfektum partisipp er zugewiesen — zu + gewiesen (weisen – wies – gewiesen)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -27309,7 +27309,7 @@ const B2_WORDS = [
       ],
       "tip": [
         "Lær én frase: Das ist mir zuwider. — Det er motbydelig for meg / jeg avskyr det.",
-        "Med zuwider bruker du alltid dativ: mir, ihm, dem Gesetz."
+        "Med zuwider bruker du alltid dativ, som står foran det: mir, ihm, dem Gesetz."
       ],
       "important": [
         "Sammen med zuwider bruker du ikke akkusativ: ikke mich zuwider, men mir zuwider.",

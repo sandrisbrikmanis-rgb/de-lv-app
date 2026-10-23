@@ -6439,7 +6439,7 @@ const A1_WORDS = [
       "translation": "Teprve • Nejprve",
       "explanation": [
         "Hlavní myšlenka: erst je příslovce se dvěma hlavními významy: „teprve“ v časovém smyslu (ne dříve, zatím ne víc než): Es ist erst 8 Uhr (je teprve 8 hodin), a „nejprve“: Erst essen wir, dann gehen wir.",
-        "Er kommt erst morgen znamená „přijde teprve zítra“. Na rozdíl od nur („jen“ co do množství) erst zdůrazňuje, že se něco ještě nestalo nebo nedosáhlo určitého času.",
+        "Er kommt erst morgen znamená „přijde teprve zítra“. Na rozdíl od nur (prosté omezení) erst zdůrazňuje, že se něco ještě nestalo nebo nedosáhlo určitého času.",
         "Nezaměňuj s erste (první), což je řadová číslovka."
       ],
       "examples": [
@@ -6486,7 +6486,7 @@ const A1_WORDS = [
         "Erst … dann = nejprve … pak."
       ],
       "important": [
-        "Erst a nur není totéž: nur jen omezuje (jen tolik), erst zdůrazňuje, že je to zatím málo nebo brzy a že se čeká víc – obvykle u času (erst 8 Uhr), ale i u množství (erst drei Seiten – teprve tři strany).",
+        "Erst a nur není totéž: nur jen omezuje (jen tolik), erst znamená „ne dříve / zatím teprve“ (erst morgen, erst drei Seiten).",
         "Erst a zuerst se nepřekrývají úplně: erst obvykle znamená „teprve“, zuerst „nejdřív“ při výčtu několika kroků."
       ],
       "sectionAccents": {
@@ -7300,7 +7300,7 @@ const A1_WORDS = [
       "explanation": [
         "Hlavní myšlenka: fahren znamená jet, tedy pohybovat se dopravním prostředkem: Wir fahren mit dem Bus, Er fährt nach Berlin. Může znamenat také řídit dopravní prostředek: Sie fährt einen Mercedes.",
         "Tvary: du fährst, er fährt (a → ä), fuhr, ist gefahren. Bez přímého předmětu se používá sein: Ich bin nach Wien gefahren. S akuzativem (řízené auto) se používá haben: Ich habe das Auto gefahren.",
-        "Na otázku kam? se říká nach (město, země), zu (osoba, místo) nebo in + akuzativ; pro dopravní prostředky se používá mit + dativ. S akuzativem může fahren znamenat také vézt nebo odvézt někoho: Er fährt die Kinder zur Schule. Opakovaný pohyb („jezdit“) se vyjadřuje stejným slovesem: Ich fahre jeden Tag mit dem Bus."
+        "Na otázku kam? se říká nach (město, země), zu (osoba, místo) nebo in + akuzativ; pro dopravní prostředky se používá mit + dativ."
       ],
       "examples": [
         {
@@ -7362,9 +7362,7 @@ const A1_WORDS = [
           ],
           "purple": [
             "jet",
-            "řídit",
-            "vézt nebo odvézt",
-            "jezdit"
+            "řídit"
           ]
         },
         "examples": [
@@ -13130,7 +13128,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Mladý (o věku)",
       "explanation": [
-        "Hlavní myšlenka: jung znamená „mladý“ ve vztahu k věku člověka, zvířete nebo rostliny – Mein Bruder ist jung. U předmětů (kniha, auto) se používá neu.",
+        "Hlavní myšlenka: jung znamená „mladý“ ve vztahu k věku člověka, zvířete nebo rostliny – můj bratr je mladý. U předmětů (kniha, auto) se používá neu.",
         "Komparativ je jünger (s přehláskou), superlativ am jüngsten: Er ist jünger als ich. Před podstatným jménem: ein junger Mann, eine junge Frau, junge Leute.",
         "Protiklad: alt (starý). Podstatné jméno der Junge (plurál die Jungen) znamená „kluk“, ne „mladý“."
       ],
@@ -14849,7 +14847,7 @@ const A1_WORDS = [
       "explanation": [
         "Hlavní myšlenka: das Land je podstatné jméno středního rodu s několika významy: země, stát (Deutschland ist ein Land), venkov na rozdíl od města (auf dem Land – na venkově) a území.",
         "Plurál: die Länder (státy); historicky též die Lande, ale to se používá zřídka. Výrazy: aufs Land fahren (jet na venkov), auf dem Land leben (žít na venkově), im Ausland / im Inland.",
-        "Das Bundesland je spolková země. Podlahu nebo půdu (zeminu) označuje obvykle der Boden; das Land může znamenat i pozemek nebo pevninu (an Land gehen – vystoupit na břeh)."
+        "Das Bundesland je spolková země. Půdu nebo podlahu označuje der Boden, ne das Land."
       ],
       "examples": [
         {
@@ -14896,7 +14894,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Das Land (území, venkov) a der Staat (stát jako instituce) nejsou synonyma.",
-        "V běžném plurálu je přehláska: die Länder; tvar die Lande je zastaralý a knižní."
+        "V plurálu je přehláska: die Länder, ne „die Lande“."
       ],
       "sectionAccents": {
         "explanation": {
@@ -21043,7 +21041,7 @@ const A1_WORDS = [
       "translation": "Vyzkoušet • Ochutnat",
       "explanation": [
         "Hlavní myšlenka: probieren znamená „vyzkoušet“ (něco nového) a „ochutnat“ (jídlo, nápoj): Probier mal die Suppe! Ich möchte den Kuchen probieren.",
-        "Tvary: probiert, probierte, hat probiert (bez ge-, protože končí na -ieren). Vždy s akuzativem: etwas probieren. Odlučitelná odvozenina: anprobieren (zkoušet oblečení).",
+        "Tvary: probiert, probierte, hat probiert (bez ge-, protože končí na -ieren). Obvykle s akuzativem: etwas probieren. Odlučitelná odvozenina: anprobieren (zkoušet oblečení).",
         "S částicí mal zní výzva mírněji: Probier mal! – Zkus to!"
       ],
       "examples": [
@@ -21357,7 +21355,7 @@ const A1_WORDS = [
         "Rozlišuj Reis (rýže) a Reise (cesta): Reise končí na -e."
       ],
       "important": [
-        "Rýži počítáme na porce nebo v gramech: zwei Portionen Reis, 200 Gramm Reis.",
+        "Německé Reis je v jednotném čísle (stejně jako česká rýže).",
         "Der Reis, ne „die Reis“."
       ],
       "sectionAccents": {
@@ -23222,7 +23220,7 @@ const A1_WORDS = [
       "translation": "Se • Sebe",
       "explanation": [
         "Hlavní myšlenka: sich je zvratné zájmeno pro 3. osobu a pro zdvořilostní oslovení Sie: ukazuje, že se děj vztahuje na samotného konatele. V akuzativu i dativu má stejný tvar: sich.",
-        "Pro ostatní osoby se používají jiné tvary: ich – mich/mir, du – dich/dir, wir – uns, ihr – euch. Například er wäscht sich (myje se), ale ich wasche mich, ich kaufe mir.",
+        "Pro ostatní osoby se používají jiné tvary: ich – mich, du – dich, wir – uns, ihr – euch. Například er wäscht sich (myje se), ale ich wasche mich.",
         "Mnoho německých sloves je zvratných (sich freuen, sich setzen, sich vorstellen) a v češtině jim často odpovídá sloveso se zvratným se nebo si: radovat se, posadit se."
       ],
       "examples": [
@@ -30433,7 +30431,7 @@ const A1_WORDS = [
       "translation": "Čas (okamžik / časový úsek)",
       "explanation": [
         "Hlavní myšlenka: die Zeit je podstatné jméno ženského rodu, množné číslo die Zeiten. Znamená čas jako okamžik, úsek nebo možnost: Ich habe keine Zeit. Zeit haben je mít volno, Zeit brauchen – potřebovat čas.",
-        "Časté fráze: zurzeit (právě teď; odděleně zur Zeit = v době: zur Zeit der Römer), die Zeit vergeht (čas plyne), Es ist Zeit (je čas). V množném čísle die Zeiten znamená doby či období: in schweren Zeiten.",
+        "Časté fráze: zurzeit (právě teď), die Zeit vergeht (čas plyne), Es ist Zeit (je čas). V množném čísle die Zeiten znamená doby či období: in schweren Zeiten.",
         "Počasí se řekne das Wetter, ne die Zeit."
       ],
       "examples": [

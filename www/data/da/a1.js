@@ -1751,7 +1751,7 @@ const A1_WORDS = [
         "Sprogets navn efter auf skrives med stort: auf Deutsch."
       ],
       "important": [
-        "Ikke alle danske 'på' og 'til' bliver til auf: at rejse til Berlin hedder nach Berlin, ikke 'auf Berlin', og 'på mandag' hedder am Montag.",
+        "Ikke alle danske 'på' og 'til' bliver til auf: at rejse til Berlin hedder nach Berlin, ikke 'auf Berlin'.",
         "Efter warten auf står navneordet i akkusativ: auf den Bus."
       ],
       "sectionAccents": {
@@ -4026,7 +4026,7 @@ const A1_WORDS = [
       "explanation": [
         "Grundbetydning: bleiben betyder at blive (forblive) på et sted eller i en tilstand: Ich bleibe zu Hause (jeg bliver hjemme), Das Wetter bleibt schön (vejret bliver ved med at være godt).",
         "Former: er bleibt, blieb, ist geblieben. I førnutid bruger man sein, ikke haben: Ich bin zu Hause geblieben.",
-        "Efter bleiben kan der stå et sted eller et tillægsord; med en navnemåde danner det faste udtryk: stehen bleiben (at standse), sitzen bleiben (at blive siddende). Pas på: dansk 'blive' i betydningen 'blive til' hedder werden, ikke bleiben."
+        "Efter bleiben kan der stå et sted eller et tillægsord; med en navnemåde danner det faste udtryk: stehen bleiben (at standse), sitzen bleiben (at blive siddende)."
       ],
       "examples": [
         {
@@ -6439,7 +6439,7 @@ const A1_WORDS = [
       "translation": "Først • Kun",
       "explanation": [
         "Grundbetydning: erst er et biord med to hovedbetydninger: 'først, kun' om tid (ikke tidligere, endnu ikke mere end): Es ist erst 8 Uhr (klokken er kun 8), og 'først' (som det første): Erst essen wir, dann gehen wir.",
-        "Er kommt erst morgen betyder 'han kommer først i morgen'. I modsætning til nur (kun, om mængde) understreger erst, at noget endnu ikke er sket eller ikke har nået et bestemt tidspunkt – præcis som dansk 'først' i 'han kommer først i morgen'.",
+        "Er kommt erst morgen betyder 'han kommer først i morgen'. I modsætning til nur (kun – en simpel begrænsning) understreger erst, at noget endnu ikke er sket eller ikke har nået et bestemt tidspunkt – præcis som dansk 'først' i 'han kommer først i morgen'.",
         "Forveksl det ikke med erste (første), som er et ordenstal."
       ],
       "examples": [
@@ -6486,7 +6486,7 @@ const A1_WORDS = [
         "Erst … dann = først … så."
       ],
       "important": [
-        "Erst og nur er ikke det samme: nur handler om mængde, erst om tid.",
+        "Erst og nur er ikke det samme: nur begrænser blot (kun så meget), erst betyder 'ikke før / indtil videre kun' (erst morgen, erst drei Seiten).",
         "Erst er ikke helt det samme som zuerst: zuerst betyder normalt 'først, i begyndelsen' i en række af trin."
       ],
       "sectionAccents": {
@@ -7090,7 +7090,7 @@ const A1_WORDS = [
       "explanation": [
         "Grundbetydning: euch er akkusativ- og dativformen af det personlige stedord ihr (I – til flere venner, børn eller familiemedlemmer): Ich sehe euch (jeg ser jer), Ich gebe euch das Buch (jeg giver jer bogen).",
         "Euch er også det tilbagevisende stedord til ihr: Setzt euch! (sæt jer!), Freut ihr euch auf die Ferien? Når man taler høfligt til nogen, bruger man Sie, Ihnen, ikke euch.",
-        "Nominativ er ihr; det tilsvarende ejestedord er euer (jeres)."
+        "Nominativ er ihr; genitiv er sjælden – euer."
       ],
       "examples": [
         {
@@ -10485,7 +10485,7 @@ const A1_WORDS = [
         "Lær besser og am besten særskilt – det er ikke regelmæssige former."
       ],
       "important": [
-        "I sammenligninger siger man ikke 'guter als'; det rigtige er besser als.",
+        "I sammenligninger siger man ikke 'gutter'; det rigtige er besser.",
         "Gut betyder ikke 'smuk': smuk eller dejlig hedder schön."
       ],
       "sectionAccents": {
@@ -13128,7 +13128,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Ung (om mennesker)",
       "explanation": [
-        "Hovedidé: jung betyder “ung” om alderen på mennesker, dyr eller planter – Mein Bruder ist jung. Om ting (en bog, en bil) bruger man neu (ny).",
+        "Hovedidé: jung betyder “ung” om alderen på mennesker, dyr eller planter – Min bror er ung. Om ting (en bog, en bil) bruger man neu (ny).",
         "Komparativ er jünger (med omlyd), superlativ am jüngsten: Er ist jünger als ich. Foran et navneord: ein junger Mann, eine junge Frau, junge Leute.",
         "Modsætning: alt (gammel). Navneordet der Junge (flertal die Jungen) betyder “dreng”, ikke “ung”."
       ],
@@ -18066,7 +18066,7 @@ const A1_WORDS = [
         "I samtale bruger man ofte gern: Ich trinke gern Tee = Ich mag Tee."
       ],
       "important": [
-        "Med gefallen er det omvendt – Der Hund gefällt mir (dativ); med mögen siger man Ich mag + akkusativ: Ich mag den Hund.",
+        "På tysk siger man Ich mag + akkusativ: Ich mag den Hund.",
         "Möchte er en tydelig anmodning, mag udtrykker en holdning."
       ],
       "sectionAccents": {
@@ -21041,7 +21041,7 @@ const A1_WORDS = [
       "translation": "At prøve • At smage",
       "explanation": [
         "Hovedidé: probieren betyder »prøve« (noget nyt) og »smage« (mad, drikke): Probier mal die Suppe! Ich möchte den Kuchen probieren.",
-        "Former: probiert, probierte, hat probiert (uden ge-, fordi det ender på -ieren). Altid med akkusativ: etwas probieren. Afledning med adskilleligt forled: anprobieren (prøve tøj på).",
+        "Former: probiert, probierte, hat probiert (uden ge-, fordi det ender på -ieren). Normalt med akkusativ: etwas probieren. Afledning med adskilleligt forled: anprobieren (prøve tøj på).",
         "Venligt sammen med mal: Probier mal! — Prøv lige!"
       ],
       "examples": [
@@ -21355,7 +21355,7 @@ const A1_WORDS = [
         "Skeln mellem Reis (ris) og Reise (rejse): Reise ender på -e."
       ],
       "important": [
-        "Tysk Reis står i ental: der Reis ist fertig, ikke »die Reis sind«.",
+        "Tysk Reis står i ental.",
         "Der Reis, ikke »die Reis«."
       ],
       "sectionAccents": {
@@ -23264,7 +23264,7 @@ const A1_WORDS = [
         "Lær de refleksive udsagnsord sammen med sich: sich freuen, sich setzen."
       ],
       "important": [
-        "Sich kan ikke bruges med ich, du, wir, ihr — der skal det være mich, dich, uns, euch.",
+        "Sich kan ikke bruges med ich, du, wir, ihr — der skal det være mich/mir, dich/dir, uns, euch.",
         "I flertal kan Sie sehen sich betyde både »de ser sig selv« og »de ser hinanden«; det afgøres af sammenhængen."
       ],
       "sectionAccents": {
@@ -26875,7 +26875,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Wer bruges om personer; om ting spørger man med was.",
-        "Dansk skelner ligesom tysk: wer = hvem, was = hvad. Lad dig ikke forvirre af, at wer ligner dansk »hvor« — det hedder wo."
+        "Dansk skelner ligesom tysk: wer = hvem, was = hvad."
       ],
       "sectionAccents": {
         "explanation": {
@@ -27039,7 +27039,7 @@ const A1_WORDS = [
       "explanation": [
         "Hovedidé: werden er et uregelmæssigt udsagnsord: ich werde, du wirst, er wird, wir werden; datid wurde, førnutid ist geworden. Det har tre anvendelser: blive (Es wird kalt), fremtid (Ich werde kommen) og passiv (Das Haus wird gebaut).",
         "Når man bliver noget, står erhvervet uden kendeord: Sie wird Ärztin. I passiv førnutid bruger man worden (ist gebaut worden), ikke geworden.",
-        "At blive noget er ikke det samme som at få noget: blive = werden, få = bekommen. Og at blive på et sted hedder bleiben."
+        "At blive noget er ikke det samme som at få noget: blive = werden, få = bekommen."
       ],
       "examples": [
         {
@@ -27085,7 +27085,7 @@ const A1_WORDS = [
         "Erhverv nævnes uden kendeord: Er wird Lehrer."
       ],
       "important": [
-        "Werden er ikke bekommen: Ich werde ein Buch betyder »jeg bliver en bog«, ikke »jeg får en bog«. Og bekommen betyder ikke dansk »bekomme«, men »få«.",
+        "Werden er ikke bekommen: Ich werde ein Buch betyder »jeg bliver en bog«, ikke »jeg får en bog«.",
         "I passiv førnutid bruger man worden: Das Haus ist gebaut worden."
       ],
       "sectionAccents": {

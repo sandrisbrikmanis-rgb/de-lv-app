@@ -1996,7 +1996,7 @@ const B1_WORDS = [
       "translation": "odložiti • spustiti",
       "explanation": [
         "Glavna ideja: ablegen je glagol s razdvojivim prefiksom: legt ab, legte ab, hat abgelegt. Znači odložiti, spustiti nešto što nosiš ili skinuti ono što imaš na sebi: Mantel, Tasche ablegen.",
-        "Dokumente ablegen znači odložiti u fasciklu ili arhivu. Eine Prüfung ablegen znači polagati ispit. Za brod ablegen znači isploviti, odvojiti se od obale.",
+        "Za dokumente ablegen znači odložiti u fasciklu ili arhivu. Za ispit ablegen znači polagati ispit. Za brod ablegen znači isploviti, odvojiti se od obale.",
         "U prenesenom značenju ablegen može značiti ostaviti se nečega: eine Gewohnheit ablegen (ostaviti se navike)."
       ],
       "examples": [
@@ -5633,7 +5633,7 @@ const B1_WORDS = [
         "Službeno: Ausländer halten sich in Deutschland auf."
       ],
       "important": [
-        "Ovaj glagol je službeniji od bleiben; u svakodnevnom govoru često se kaže jednostavno sein ili bleiben.",
+        "Ovaj glagol je službeniji od bleiben; u svakodnevnom govoru često se kaže jednostavno biti ili bleiben.",
         "Ne znači stanovati; wohnen se odnosi na stalno mjesto stanovanja."
       ],
       "sectionAccents": {
@@ -9008,7 +9008,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Česta konstrukcija: im Bereich + genitiv ili s dodatkom (im Bereich Marketing).",
+        "Česta konstrukcija: im Bereich + genitiv ili s dodatkom.",
         "Za privrednu granu često se kaže i die Branche (branša)."
       ],
       "important": [
@@ -10421,7 +10421,7 @@ const B1_WORDS = [
       ],
       "tip": [
         "Za sastojati se od koristi se bestehen aus + dativ.",
-        "Položiti ispit kaže se bestehen; eine Prüfung machen znači samo polagati ga."
+        "Položiti ispit kaže se bestehen, a ne machen."
       ],
       "important": [
         "Bestehen aus + dativ, bestehen auf + dativ – različiti prijedlozi, različita značenja.",
@@ -14170,7 +14170,7 @@ const B1_WORDS = [
       "explanation": [
         "Glavna ideja: dahin znači tamo, na to mjesto – pravac prema ranije spomenutom mjestu. Odgovara na pitanje wohin? (kuda?): Gehst du dahin? – Ideš li tamo?",
         "Koristi se i u vremenskom značenju: bis dahin (do tada): Bis dahin habe ich alles erledigt. U prenesenom značenju dahin sein znači propao, nestao: Das Geld ist dahin.",
-        "Za razliku od dort (tamo – gdje?), dahin označava kretanje. U bosanskom je u oba slučaja tamo, pa pazi na pitanje: wo? ili wohin?"
+        "Za razliku od dort (tamo – gdje?), dahin označava kretanje."
       ],
       "examples": [
         {
@@ -16868,7 +16868,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Eher nije isto što i früher: früher znači „nekad”, a eher „prije nečega”.",
-        "U poređenju iza eher dolazi als: eher A als B."
+        "U poređenju iza eher dolazi als (a ne wie): eher A als B."
       ],
       "sectionAccents": {
         "explanation": {
@@ -25808,7 +25808,7 @@ const B1_WORDS = [
         "Za preneseno značenje zapamti prijedlog: festhalten an etwas (ostati pri čemu)."
       ],
       "important": [
-        "festhalten (čvrsto držati) ne miješaj s festnehmen (uhapsiti): prvo je samo držanje, a drugo je radnja policije.",
+        "festhalten (čvrsto držati) ne miješaj s festnehmen (uhapsiti): prvo je držanje (i ne pustiti da ode, zadržati), a drugo je službeno hapšenje.",
         "U prenesenom značenju koristi se an + dativ, a ne akuzativ: an dem Plan, a ne an den Plan."
       ],
       "sectionAccents": {
@@ -46049,7 +46049,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Riječ das Maß piše se sa ß jer je samoglasnik dug.",
-        "Množina je die Maße (dimenzije); dativ množine je Maßen: über alle Maßen, in Maßen (umjereno)."
+        "Množina je die Maße (dimenzije); u dativu — den Maßen (in Maßen, über alle Maßen)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -63218,7 +63218,7 @@ const B1_WORDS = [
       ],
       "tip": [
         "Dojiti dijete je stillen, a hraniti na flašicu – mit der Flasche füttern.",
-        "Uz Durst i Hunger koristi stillen ili löschen (Durst löschen)."
+        "Uz Durst koristi stillen ili löschen (Durst löschen), a uz Hunger samo stillen."
       ],
       "important": [
         "stillen nije isto što i still sein (šutjeti).",
@@ -78687,7 +78687,7 @@ const B1_WORDS = [
         "Statt … zu znači isto i zvuči malo jednostavnije; oba oblika su ispravna."
       ],
       "important": [
-        "Pazite: ako se vršilac radnje mijenja, koristite anstatt dass: Anstatt dass er hilft, schaut sie nur zu.",
+        "Pazite: ako se vršilac radnje mijenja, koristite anstatt dass: Anstatt dass er hilft, schaut sie zu.",
         "Ne miješajte s prijedlogom anstatt/statt + genitiv (statt des Buches), koji znači umjesto."
       ],
       "sectionAccents": {
@@ -79096,7 +79096,7 @@ const B1_WORDS = [
         "Uvijek dodajte povratnu zamjenicu: er befindet sich, wir befinden uns."
       ],
       "important": [
-        "Sich befinden ne znači pronaći (finden) niti osjećati se; samo označava mjesto ili stanje.",
+        "Sich befinden ne znači pronaći (finden); označava mjesto ili stanje (formalno i kako se neko osjeća).",
         "U perfektu je pomoćni glagol haben (hat sich befunden), ali se u pripovijedanju češće koristi Präteritum: befand sich."
       ],
       "sectionAccents": {

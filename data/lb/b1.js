@@ -12689,7 +12689,7 @@ const B1_WORDS = [
       "explanation": [
         "Haaptiddi: die Botschaft ass eng Ambassade — déi offiziell Vertriedung vun engem Staat am Ausland; et ass awer och e Message, eng Noriicht, déi ee weiderginn wëll. D'Pluralform ass die Botschaften.",
         "Ambassade: die deutsche Botschaft in Riga (déi däitsch Ambassade zu Riga). Message: eine wichtige Botschaft (e wichtege Message), eine Botschaft hinterlassen (e Message hannerloossen).",
-        "Den Ambassadeur heescht der Botschafter, an e Mataarbechter vun der Ambassade der Botschaftsmitarbeiter. Opgepasst: d'Wuert Ambassade, dat mir op Lëtzebuergesch benotzen, gëtt et op Däitsch net."
+        "Den Ambassadeur heescht der Botschafter, an e Mataarbechter vun der Ambassade der Botschaftsmitarbeiter."
       ],
       "examples": [
         {
@@ -13309,7 +13309,7 @@ const B1_WORDS = [
       "translation": "Bund • Unioun",
       "explanation": [
         "Haaptiddi: der Bund ass eng Unioun, eng Allianz oder eng Unioun op staatlechem Niveau — den Zesummeschloss vu méi Parteien. D'Pluralform ass die Bünde. D'Wuert ass männlech.",
-        "An Däitschland bezeechent der Bund dacks de Bundesstaat am Géigesaz zu de Länner: Bund und Länder. A Kompositen: der Bundestag, die Bundesrepublik, der Bundeskanzler.",
+        "An Däitschland bezeechent der Bund dacks d'federal Regierung am Géigesaz zu de Länner (Ländern): Bund und Länder. A Kompositen: der Bundestag, die Bundesrepublik, der Bundeskanzler.",
         "Aner Bedeitungen: ein Bund fürs Leben (d'Bestietnes) an das Bund (e Bëschel): ein Bund Radieschen. Dat ass en anert Wuert, mat engem aneren Artikel."
       ],
       "examples": [
@@ -16851,7 +16851,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Eher ass net datselwecht wéi früher: früher heescht „fréier, deemools“, eher „méi fréi wéi eppes“.",
-        "Am Verglach steet eher mat als, fir déi aner Optioun anzeféieren: eher A als B."
+        "Am Verglach steet eher mat als (net wie): eher A als B."
       ],
       "sectionAccents": {
         "explanation": {
@@ -19300,7 +19300,7 @@ const B1_WORDS = [
         "De Passiv Das wurde eingeführt ass ganz heefeg an den Noriichten."
       ],
       "important": [
-        "Fir een enger anerer Persoun virzestellen, brauch ee vorstellen; einführen heescht éischter een an e Milieu bréngen oder an eppes aféieren.",
+        "Einführen heescht net „eng Persoun virstellen“; dofir brauch ee vorstellen.",
         "D'Partikel ein trennt sech am Presens: Wir führen es ein."
       ],
       "sectionAccents": {
@@ -19714,7 +19714,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Sich eingewöhnen gëtt normalerweis net mat an + Akkusativ gebraucht.",
-        "D'Partikel ein trennt sech am Presens, am Präteritum an am Imperativ; am Partizip Perfekt an am Infinitiv bleift se drun: eingewöhnt, einzugewöhnen."
+        "D'Partikel ein trennt sech am Presens, am Präteritum an am Imperativ; am Partizip Perfekt bleift se drun: eingewöhnt."
       ],
       "sectionAccents": {
         "explanation": {
@@ -24332,7 +24332,7 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "opmaachen • erëffnen",
       "explanation": [
-        "Haaptiddi: eröffnen heescht opmaachen, erëffnen (eppes Neies starten): e Geschäft, e Kont, eng Ausstellung, e Restaurant, eng Versammlung. Et ass en offiziellen Ufank, net einfach eng Dier opmaachen (öffnen).",
+        "Haaptiddi: eröffnen heescht opmaachen, erëffnen (eppes Neies starten): e Geschäft, e Kont, eng Ausstellung, e Restaurant, eng Versammlung. Et ass en offiziellen Ufank, net einfach eng Dier opmaachen.",
         "Formen: eröffnet, eröffnete, hat eröffnet; d'Virsilb er- ass net trennbar. Den Objet steet am Akkusativ. Substantiv: die Eröffnung (d'Erëffnung, d'Aweiung). D'Géigendeel ass schließen (zoumaachen)."
       ],
       "examples": [
@@ -24388,8 +24388,7 @@ const B1_WORDS = [
             "eröffnen",
             "eröffnet",
             "eröffnete",
-            "Eröffnung",
-            "öffnen"
+            "Eröffnung"
           ],
           "purple": [
             "opmaachen"
@@ -24559,7 +24558,7 @@ const B1_WORDS = [
       "translation": "erschéngen",
       "explanation": [
         "Haaptiddi: erscheinen heescht erschéngen, optauchen (op der Bün, um Himmel, bei engem Rendez-vous) an erauskommen (e Buch, eng Zäitschrëft). Mam Dativ heescht et och „schéngen“: Das erscheint mir sinnvoll.",
-        "Formen: erscheint, erschien, ist erschienen (Hëllefsverb sein); d'Virsilb er- ass net trennbar, d'Wuert ass mat scheinen verwandt. Um Geriicht an an der Administratioun: zu + Dativ: zum Termin erscheinen – op den Termin kommen."
+        "Formen: erscheint, erschien, ist erschienen (Hëllefsverb sein); d'Virsilb er- ass net trennbar. Um Geriicht an an der Administratioun: zu + Dativ: zum Termin erscheinen – op den Termin kommen."
       ],
       "examples": [
         {
@@ -24614,8 +24613,7 @@ const B1_WORDS = [
             "erscheinen",
             "erscheint",
             "erschien",
-            "erschienen",
-            "scheinen"
+            "erschienen"
           ],
           "purple": [
             "erschéngen",
@@ -25785,7 +25783,7 @@ const B1_WORDS = [
         "Fir den iwwerdroene Sënn, mierk dir d'Präpositioun: festhalten an etwas (sech un eppes halen)."
       ],
       "important": [
-        "Verwiessel festhalten (fest halen) net mat festnehmen (festhuelen): dat éischt heescht halen oder zréckhalen (och jemanden festhalten, eng Persoun géint hire Wëllen zréckhalen), dat zweet ass eng Verhaftung duerch d'Police.",
+        "Verwiessel festhalten (fest halen) net mat festnehmen (festhuelen): dat éischt ass halen (och net goe loossen, zréckhalen), dat zweet ass eng offiziell Festnam.",
         "Am iwwerdroene Sënn gëtt an + Dativ gebraucht, net den Akkusativ: an dem Plan, net an den Plan."
       ],
       "sectionAccents": {
@@ -30537,7 +30535,7 @@ const B1_WORDS = [
         "Ënnerscheed: sich gewöhnen (de Prozess), gewohnt sein (d'Resultat)."
       ],
       "important": [
-        "Verwiessel sich gewöhnen net mat wohnen (wunnen), och wann d'Wierder sech gläichen. Opgepasst: Lëtzebuergesch „sech gewinnen“ huet näischt mat Däitsch gewinnen (gewannen) ze dinn.",
+        "Verwiessel sich gewöhnen net mat wohnen (wunnen), och wann d'Wierder sech gläichen.",
         "An dëser Bedeitung ass dat reflexivt Pronomen mich, dich, sich ëmmer derbäi: Ich gewöhne mich."
       ],
       "sectionAccents": {
@@ -34046,7 +34044,7 @@ const B1_WORDS = [
         "Heefeg Verbindungen: Hilfe holen, einen Arzt holen."
       ],
       "important": [
-        "Holen huet normalerweis en Objet: Ich hole das Buch. Opgepasst: Lëtzebuergesch „sichen“ deckt zwee däitsch Verben of – suchen an holen (z. B. „d'Kanner sichen“ = die Kinder holen).",
+        "Holen huet normalerweis en Objet: Ich hole das Buch.",
         "Am Perfekt: hat geholt."
       ],
       "sectionAccents": {
@@ -36716,8 +36714,8 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Der Jünger kënnt meeschtens a reliéisen oder historeschen Texter vir; jünger mat klenge Buschtaf ass eppes anescht.",
-        "Am iwwerdroene Sënn: Jünger der Kunst (en Unhänger vun der Konscht) — net ze verwiessele mat jünger (méi jonk)."
+        "Der Jünger kënnt meeschtens a reliéisen oder historeschen Texter vir.",
+        "Am iwwerdroene Sënn: Jünger der Kunst (en Unhänger vun der Konscht)."
       ],
       "important": [
         "Verwiesselt der Jünger (Jünger, Unhänger) net mat jünger (méi jonk): de groussen oder klenge Buschtaf an d'Bedeitung sinn anescht.",
@@ -37912,7 +37910,7 @@ const B1_WORDS = [
       ],
       "tip": [
         "D'Geschlecht mécht den Ënnerscheed: der Kiefer = Kinnbak, die Kiefer = Bam.",
-        "De Plural vun der Kiefer ass die Kiefer (onverännert); de Plural vun die Kiefer ass die Kiefern."
+        "De Plural vun der Kiefer ass die Kiefer (onverännert)."
       ],
       "important": [
         "Verwiesselt der Kiefer (Kinnbak) net mat die Kiefer (Bam) — dat richtegt Geschlecht ass wichteg.",
@@ -40789,7 +40787,7 @@ const B1_WORDS = [
       "explanation": [
         "Haaptiddi: kündigen heescht eng Aarbecht, e Kontrakt oder e Loyer kënnegen — offiziell matdeelen, datt eng Relatioun ophält. Formen: kündigt, kündigte, hat gekündigt (Hëllefsverb haben).",
         "Mam Akkusativ steet d'Saach: den Vertrag kündigen, die Wohnung kündigen, den Job kündigen. Mam Dativ steet d'Persoun, där gekënnegt gëtt: Der Chef kündigt dem Mitarbeiter (de Chef kënnegt dem Mataarbechter). Ouni Ergänzung heescht ich habe gekündigt, datt een selwer seng Aarbecht gekënnegt huet.",
-        "Am Fong ass kündigen en offizielle Schrëtt (die Kündigung) mat enger Frist (Kündigungsfrist); fir d'Entloossung vu Säite vun der Firma seet een och die Entlassung (Verb: entlassen)."
+        "Am Fong ass kündigen en offizielle Schrëtt mat enger Frist (Kündigungsfrist); fir d'Entloossung vu Säite vun der Firma seet een och die Entlassung (Verb: entlassen)."
       ],
       "examples": [
         {
@@ -40846,7 +40844,6 @@ const B1_WORDS = [
             "kündigte",
             "hat gekündigt",
             "Kündigungsfrist",
-            "Kündigung",
             "entlassen",
             "gekündigt"
           ],
@@ -43591,8 +43588,8 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Ënnerscheet Laut a Buschtaf: e Laut spréicht een aus, e Buchstabe schreift een; laut mat klenge Buschtaf ass eppes anescht.",
-        "Heefeg Ausdrock: keinen Laut von sich geben — keen Toun soen (Laut, laut net verwiesselen)."
+        "Ënnerscheet Laut a Buschtaf: e Laut spréicht een aus, e Buchstabe schreift een.",
+        "Heefeg Ausdrock: keinen Laut von sich geben — keen Toun soen."
       ],
       "important": [
         "Verwiesselt der Laut (Laut, Toun) net mat laut (haart): Die Musik ist laut.",
@@ -46023,7 +46020,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Das Maß schreift een mat ß, well de Vokal laang ass.",
-        "De Plural ass die Maße (Moossen); d'Form Maßen gëtt et nëmmen am Ausdrock über alle Maßen."
+        "De Plural ass die Maße (Moossen); am Dativ — den Maßen (in Maßen, über alle Maßen)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -54517,7 +54514,7 @@ const B1_WORDS = [
       "explanation": [
         "Haaptiddi: rollen heescht rullen: sech op Rieder oder wéi e Rad beweegen, e ronnen Objet rullt iwwer eng Fläch. Mat Objet heescht et och eppes rullen oder oprullen.",
         "Formen: rollt, rollte, ist gerollt (wann eppes rullt) an hat gerollt (wann eng Persoun eppes rullt). Zum Beispill: Der Ball ist gerollt; Sie hat den Teppich gerollt.",
-        "Heefeg Verbindungen: rollen über (iwwer eppes rullen), zusammenrollen (oprullen), losrollen (ufänken ze rullen), mit den Augen rollen – mat den Aen rullen (vun Ierger)."
+        "Heefeg Verbindungen: rollen über (iwwer eppes rullen), zusammenrollen (oprullen), losrollen (ufänken ze rullen), rollen mit den Augen – mat den Aen rullen (vun Ierger)."
       ],
       "examples": [
         {
@@ -54757,7 +54754,7 @@ const B1_WORDS = [
       ],
       "important": [
         "rösten ass net braten: braten ass mat Ueleg oder Fett broden, rösten – réischteren.",
-        "Verwiessel rösten net mat rosten (rouschten)."
+        "Verwiessel rösten net mat rostet (rouscht)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -61648,7 +61645,7 @@ const B1_WORDS = [
       "explanation": [
         "Haaptiddi: die Spitze ass e weiblecht Substantiv, dat e spatzen Enn oder den ieweschte Punkt bezeechent: Bleistiftspitze, Bergspitze. Am iwwerdroenen Sënn ass et d'Leedung oder déi éischt Plaz: an der Spitze stehen.",
         "D'Pluralform ass die Spitzen. Dacks: an der Spitze (un der Spëtzt), die Spitze des Berges (de Gipfel vum Bierg), die Spitze des Eisbergs (d'Spëtzt vum Äisbierg), die Tabellenspitze (d'Spëtzt vun der Tabell).",
-        "D'Wuert heescht och Spëtzen als Textil (ein Kleid aus Spitze), an an der Ëmgangssprooch heescht Das ist spitze! super. D'Adjektiv dozou ass spitz (spatz)."
+        "D'Wuert heescht och Spëtzen als Textil (ein Kleid aus Spitze), an an der Ëmgangssprooch heescht Das ist spitze! super."
       ],
       "examples": [
         {
@@ -61693,8 +61690,7 @@ const B1_WORDS = [
           "blue": [
             "die Spitze",
             "Spitze",
-            "Spitzen",
-            "spitz"
+            "Spitzen"
           ],
           "purple": [
             "spatzen",
@@ -63190,7 +63186,7 @@ const B1_WORDS = [
       ],
       "tip": [
         "E Kand stillen ass stillen, mee mat der Fläsch z'iesse ginn – mit der Flasche füttern.",
-        "Mat Durst an Hunger benotzt ee stillen oder löschen (Durst löschen)."
+        "Mat Durst benotzt ee stillen oder löschen (Durst löschen), mat Hunger — nëmme stillen."
       ],
       "important": [
         "stillen ass net still sein (roueg sinn).",
@@ -64577,7 +64573,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Op Lëtzebuergesch seet ee Zeen, op Däitsch schreift ee ëmmer die Szene mat -e um Enn. Verwiessel et net mat die Landschaft (d'Natur, déi ee ronderëm gesäit).",
+        "Op Lettesch deckt d'Wuert fir „Zeen“ sech mat deem fir „Landschaft“, mee op Däitsch sinn et zwee Wierder: die Szene (Ausschnitt, Evenement) an die Landschaft (Natur).",
         "Mierk der den Ausdrock eine Szene machen – eng Zeen maachen, e Skandal maachen."
       ],
       "important": [
@@ -66266,7 +66262,7 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "Titel",
       "explanation": [
-        "Haaptiddi: der Titel ass e männlecht Substantiv mat dëse Bedeitungen: 1) Numm vun engem Buch, engem Film oder engem Lidd, 2) Titel vun enger Persoun (Doktortitel, Professer), 3) Champiounstitel am Sport. Pluralform: die Titel.",
+        "Haaptiddi: der Titel ass e männlecht Substantiv mat dëse Bedeitungen: 1) Numm vun engem Buch, engem Film oder engem Lidd, 2) Titel vun enger Persoun (Doktortitel, Professor), 3) Champiounstitel am Sport. Pluralform: die Titel.",
         "Heefeg Verbindungen: der Titel eines Buches, den Titel tragen (en Titel droen), den Titel gewinnen/verteidigen (den Titel gewannen/verdeedegen). Fir e Buch seet ee der Titel, mee fir en Artikel an der Zeitung die Überschrift."
       ],
       "examples": [
@@ -67244,7 +67240,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Treiben ass net datselwecht wéi betreiben; betreiben heescht eng Firma féieren oder eng Maschinn bedreiwen.",
-        "Fir Sport allgemeng seet ee Sport treiben; fir eng konkreet Sportaart gëtt meeschtens spielen oder machen gebraucht (beim Fussball: spielen)."
+        "Fir Sport allgemeng seet ee Sport treiben; fir eng konkreet Sportaart gëtt meeschtens spielen oder machen gebraucht (Fußball spielen)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -69049,7 +69045,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Der Umschlag ass d'Enveloppe, an déi de Bréif gestach gëtt; de Bréif selwer ass der Brief. Opgepasst: d'Wuert „Enveloppe“, dat mir op Lëtzebuergesch aus dem Franséische benotzen, gëtt op Däitsch kaum gebraucht.",
+        "Der Umschlag ass d'Enveloppe, an déi de Bréif gestach gëtt; de Bréif selwer ass der Brief.",
         "Fir ganz kloer ze sinn, so der Briefumschlag."
       ],
       "important": [
@@ -69416,7 +69412,7 @@ const B1_WORDS = [
       "translation": "ënnerhalen",
       "explanation": [
         "Haaptiddi: unterhalten (net trennbar) heescht ee ënnerhalen – dofir suergen, datt et fir anerer interessant a lëschteg ass. Formen: unterhält, unterhielt, hat unterhalten. Duerno kënnt den Akkusativ: Der Clown unterhält die Kinder.",
-        "Reflexiv bedeit sich unterhalten sech ënnerhalen, mateneen schwätzen oder sech gutt amuséieren: Wir unterhalten uns über das Wetter (mit + Dativ, über + Akkusativ). An enger anerer Bedeitung heescht unterhalten och ënnerhalen am Sënn vu finanzéieren, fir eppes oder fir eng Persoun opkommen (eng Famill, en Auto, e Gebai): hien ënnerhält eng grouss Famill."
+        "Reflexiv bedeit sich unterhalten sech ënnerhalen, mateneen schwätzen oder sech gutt amuséieren: Wir unterhalten uns über das Wetter (mit + Dativ, über + Akkusativ). An enger anerer Bedeitung heescht unterhalten och ënnerhalen am Sënn vu finanzéieren, fir eppes oder fir eng Persoun opkommen (eng Famill, en Auto, e Gebai): Er unterhält eine große Familie."
       ],
       "examples": [
         {
@@ -69458,7 +69454,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Sich unterhalten gëtt dacks gebraucht, wa Leit iwwer liicht, alldeeglech Theme schwätzen. Opgepasst: fir einfach schwätzen seet ee op Däitsch sprechen oder reden, net schwätzen.",
+        "Sich unterhalten gëtt dacks gebraucht, wa Leit iwwer liicht, alldeeglech Theme schwätzen.",
         "Wat ënnerhält, ass unterhaltsam; d'Ënnerhalung ass die Unterhaltung."
       ],
       "important": [
@@ -70769,7 +70765,7 @@ const B1_WORDS = [
       "translation": "verdierwen",
       "explanation": [
         "Haaptiddi: verderben heescht verduerwen, futti maachen oder schlecht ginn. Formen: verdirbt, verdarb, hat verdorben / ist verdorben. Wann eng Persoun eppes verdirft, ass d'Verb transitiv a gëtt mat hat gebraucht: Der Regen hat uns den Urlaub verdorben. Wann eppes vu sech aus schlecht gëtt (zum Beispill Iessen), gëtt ist gebraucht: Die Milch ist verdorben.",
-        "Heefeg Verbindungen: jemandem die Laune verderben (engem d'Laun oder de Spaass verduerwen), sich den Magen verderben (sech de Mo verduerwen), verdorbenes Essen (verduerwent Iessen). De Kontext weist d'Bedeitung: verduerwe kann ee souwuel eng Saach, mee och d'Stëmmung."
+        "Heefeg Verbindungen: jemandem die Laune/den Spaß verderben (engem d'Laun oder de Spaass verduerwen), sich den Magen verderben (sech de Mo verduerwen), verdorbenes Essen (verduerwent Iessen). De Kontext weist d'Bedeitung: verduerwe kann ee souwuel eng Saach, mee och d'Stëmmung."
       ],
       "examples": [
         {
@@ -78813,7 +78809,7 @@ const B1_WORDS = [
       "translation": "ouni ze",
       "explanation": [
         "Haaptiddi: ohne … zu leet eng Infinitivgrupp an a weist, datt eng Handlung ouni eng aner Handlung geschitt: hien ass gaangen, ouni eppes ze soen. Op Lëtzebuergesch heescht et och ouni ze: ouni ze soen, ouni ze bezuelen.",
-        "Opbau: ohne + (Ergänzungen) + zu + Infinitiv: Du kannst nicht gehen, ohne zu bezahlen. Bei engem trennbare Verb kënnt zu an d'Verb eran: ohne aufzuschauen. D'Infinitivgrupp gëtt mat engem Komma ofgetrennt.",
+        "Opbau: ohne + (Ergänzungen) + zu + Infinitiv: Er ging, ohne zu grüßen. Bei engem trennbare Verb kënnt zu an d'Verb eran: ohne aufzuschauen. D'Infinitivgrupp gëtt mat engem Komma ofgetrennt.",
         "A béide Sätz muss et déiselwecht Persoun sinn. Wann et verschidde Persoune sinn, gëtt ohne dass + e ganze Saz benotzt."
       ],
       "examples": [
@@ -78856,7 +78852,7 @@ const B1_WORDS = [
         "Wann et kee Verb gëtt, kanns du déi einfach Präpositioun benotzen: ohne Mantel (ouni Mantel)."
       ],
       "important": [
-        "Ohne … zu huet schonn eng Negatioun an der Bedeitung; setz kee zousätzlecht nicht derbäi: Er ging, ohne zu fragen, an net ohne nicht zu fragen.",
+        "Ohne … zu huet schonn eng Negatioun an der Bedeitung; setz kee zousätzlecht nicht derbäi: Er ging, ohne zu grüßen, an net ohne nicht zu grüßen.",
         "D'Präpositioun ohne verlaangt den Akkusativ, mee ohne … zu steet mam Infinitiv an huet keen Afloss op de Fall."
       ],
       "sectionAccents": {
@@ -79067,7 +79063,7 @@ const B1_WORDS = [
         "Setz ëmmer d'Reflexivpronomen derbäi: er befindet sich, wir befinden uns."
       ],
       "important": [
-        "Sich befinden heescht net fannen (finden) a bedeit och net sech fillen; et gëtt just d'Plaz oder den Zoustand un.",
+        "Sich befinden heescht net fannen (finden); et gëtt d'Plaz oder den Zoustand un (formell och wéi ee sech fillt).",
         "Am Perfekt ass d'Hëllefsverb haben (hat sich befunden), mee beim Erzielen gëtt éischter de Präteritum benotzt: befand sich."
       ],
       "sectionAccents": {
@@ -80067,7 +80063,7 @@ const B1_WORDS = [
       "translation": "Vertrauen",
       "explanation": [
         "Haaptiddi: das Vertrauen ass e sächlecht Substantiv a bezeechent d'Vertrauen – d'Gewëssheet, datt ee sech op e Mënsch oder eng Saach verloosse kann.",
-        "Et gëtt praktesch keng Pluralform: das Vertrauen, des Vertrauens. Heefeg Ausdréck: Vertrauen zu jemandem haben, Vertrauen in etwas (Vertrauen an eppes), Vertrauen verlieren (d'Vertrauen verléieren).",
+        "Et gëtt praktesch keng Pluralform: das Vertrauen, des Vertrauens. Heefeg Ausdréck: Vertrauen zu jemandem haben, Vertrauen in etwas (Vertrauen an eppes), jemandes Vertrauen genießen (engem säi Vertrauen genéissen), Vertrauen verlieren (d'Vertrauen verléieren).",
         "Dat verwandt Verb ass vertrauen (vertrauen). D'Zesummesetzung Selbstvertrauen bedeit Selbstvertrauen."
       ],
       "examples": [

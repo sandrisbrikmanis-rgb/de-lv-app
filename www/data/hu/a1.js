@@ -522,7 +522,7 @@ const A1_WORDS = [
         "A hét napjaival és a napszakokkal am áll: am Dienstag, am Morgen."
       ],
       "important": [
-        "A magyar -nál/-nél nem mindig an: ha valakinél vagyunk (vendégségben, otthon), az bei, például bei meiner Oma.",
+        "A magyar -nál/-nél nem mindig an: ha valakinél vagyunk (vendégségben, otthon), az bei.",
         "Igék mellett az an + Akkusativ gyakran a magyar -ra/-re vagy -ban/-ben megfelelője (denken an – gondol valamire, glauben an – hisz valamiben), és nem 'mellett' jelentésű."
       ],
       "sectionAccents": {
@@ -6420,7 +6420,7 @@ const A1_WORDS = [
       "translation": "csak • először",
       "explanation": [
         "Lényeg: az erst határozószó, két fő jelentése van: időbeli 'csak' (nem korábban, még nem több, mint): Es ist erst 8 Uhr (még csak 8 óra van), valamint 'először': Erst essen wir, dann gehen wir.",
-        "Az Er kommt erst morgen jelentése: 'csak holnap jön'. A nur szótól eltérően (amely mennyiségre vonatkozik) az erst azt hangsúlyozza, hogy valami még nem történt meg, vagy még nem ért el egy bizonyos időpontot.",
+        "Az Er kommt erst morgen jelentése: 'csak holnap jön'. A nur szótól eltérően (amely egyszerű korlátozás) az erst azt hangsúlyozza, hogy valami még nem történt meg, vagy még nem ért el egy bizonyos időpontot.",
         "Ne keverd össze az erste szóval (első), amely sorszámnév."
       ],
       "examples": [
@@ -6467,7 +6467,7 @@ const A1_WORDS = [
         "Erst … dann = először … aztán."
       ],
       "important": [
-        "Az erst és a nur nem ugyanaz: a nur mennyiségre, az erst időre vonatkozik.",
+        "Az erst és a nur nem ugyanaz: a nur egyszerűen korlátoz (csak ennyi), az erst jelentése 'nem korábban / egyelőre csak' (erst morgen, erst drei Seiten).",
         "Az erst nem azonos a zuerst szóval: a zuerst általában 'először, eleinte' jelentésű, több lépés sorában."
       ],
       "sectionAccents": {
@@ -6685,7 +6685,7 @@ const A1_WORDS = [
         "Semlegesnemű főnévre az es névmással utalunk: das Auto → es."
       ],
       "important": [
-        "Személytelen mondatban az es nem hagyható el: nem mondhatod, hogy 'Regnet heute' (helyesen: Heute regnet es).",
+        "Személytelen mondatban az es nem hagyható el: nem mondhatod, hogy 'Regnet heute'.",
         "Emberekre az es csak semlegesnemű szavak esetén utal, mint a das Kind, das Mädchen; egyébként er vagy sie."
       ],
       "sectionAccents": {
@@ -8156,7 +8156,7 @@ const A1_WORDS = [
       "explanation": [
         "Lényeg: a für elöljárószó, amely címzettet, célt vagy időtartamot fejez ki: Das Geschenk ist für dich (az ajándék neked szól), für zwei Wochen (két hétre), Danke für die Hilfe (köszönöm a segítséget).",
         "A für mindig Akkusativot (tárgyeset) vonz: für mich, für den Plan, für die Kinder. Az ich bin für … kifejezés jelentése 'valami mellett vagyok, támogatom'. A Was für ein …? kérdésben jelentése 'milyen'.",
-        "Vigyázz: a für-nek nem egyetlen magyar rag felel meg. Lehet -nak/-nek (neked), -ért (érted), -ra/-re (két hétre), a köszönöm után pedig tárgyrag (köszönöm a segítséget). Ami most is tart (… óta), azt a németben seit fejezi ki: Ich lerne seit einem Jahr Deutsch."
+        "Vigyázz: a für-nek nem egyetlen magyar rag felel meg. Lehet -nak/-nek (neked), -ért (érted), -ra/-re (két hétre), a köszönöm után pedig tárgyrag (köszönöm a segítséget)."
       ],
       "examples": [
         {
@@ -11335,7 +11335,7 @@ const A1_WORDS = [
       "explanation": [
         "A lényeg: a heißen azt fejezi ki, hogyan hívják, mi a neve valakinek vagy valaminek. Az Ich heiße Anna szó szerint 'Anna nevű vagyok', magyarul így mondjuk: 'Annának hívnak'. A németben a megnevezett személy az alany (ich), a magyarban pedig általános alanyú szerkezet áll: hívnak, hívják.",
         "Alakjai: heißt, hieß, hat geheißen. A heißen után a név Nominativban (alanyeset) áll: Er heißt Paul. Kérdésben: Wie heißt du? (Hogy hívnak?), Wie heißt das auf Deutsch? (Hogy mondják ezt németül?).",
-        "A második jelentése: 'jelent': Was heißt “Danke” auf Ungarisch? — Mit jelent a „Danke” magyarul?"
+        "A második jelentése: 'jelent': Was heißt “Danke” auf Lettisch? — Mit jelent a „Danke” lettül?"
       ],
       "examples": [
         {
@@ -13106,7 +13106,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "fiatal",
       "explanation": [
-        "A lényeg: a jung jelentése 'fiatal' – emberek, állatok vagy növények koráról: Mein Bruder ist jung. Tárgyakra (könyv, autó) a neu (új) használatos – ugyanúgy, ahogy a magyar is megkülönbözteti a fiatal és az új szót.",
+        "A lényeg: a jung jelentése 'fiatal' – emberek, állatok vagy növények koráról: A bátyám fiatal. Tárgyakra (könyv, autó) a neu (új) használatos – ugyanúgy, ahogy a magyar is megkülönbözteti a fiatal és az új szót.",
         "Középfoka jünger (umlauttal), felsőfoka am jüngsten: Er ist jünger als ich. Főnév előtt: ein junger Mann, eine junge Frau, junge Leute.",
         "Ellentéte: alt (öreg). A der Junge főnév (többes szám die Jungen) jelentése 'fiú', nem 'fiatal'."
       ],
@@ -18049,7 +18049,7 @@ const A1_WORDS = [
         "Beszédben gyakran a gern szót használják: Ich trinke gern Tee = Ich mag Tee."
       ],
       "important": [
-        "A mögen mellett — mint a magyar szeret igénél — aki kedvel, az az alany, a kedvelt dolog a tárgy: Ich mag den Hund (szeretem a kutyát). A gefallen inkább a tetszik igéhez hasonló: a dolog az alany, a személy Dativban áll: Der Hund gefällt mir (tetszik nekem a kutya).",
+        "A mögen mellett — mint a magyar szeret igénél — aki kedvel, az az alany, a kedvelt dolog a tárgy: Ich mag den Hund (szeretem a kutyát).",
         "A möchte egyértelmű kérés, a mag viszonyulást fejez ki."
       ],
       "sectionAccents": {
@@ -21022,7 +21022,7 @@ const A1_WORDS = [
       "translation": "kipróbál • megkóstol",
       "explanation": [
         "Lényeg: a probieren jelentése „kipróbál” (valami újat) és „megkóstol” (ételt, italt): Probier mal die Suppe! Ich möchte den Kuchen probieren.",
-        "Alakok: probiert, probierte, hat probiert (ge- nélkül, mert -ieren végű). Mindig Akkusativval (tárgyesettel) áll: etwas probieren. Elváló igekötős származéka: anprobieren (ruhát felpróbál).",
+        "Alakok: probiert, probierte, hat probiert (ge- nélkül, mert -ieren végű). Általában Akkusativval (tárgyesettel) áll: etwas probieren. Elváló igekötős származéka: anprobieren (ruhát felpróbál).",
         "Barátságosan a mal szócskával: Probier mal! — Próbáld ki! / Kóstold meg!"
       ],
       "examples": [
@@ -23250,7 +23250,7 @@ const A1_WORDS = [
         "A visszaható igéket a sich névmással együtt tanuld: sich freuen, sich setzen."
       ],
       "important": [
-        "A sich nem használható az ich, du, wir, ihr mellett — ott mich, dich, uns, euch kell.",
+        "A sich nem használható az ich, du, wir, ihr mellett — ott mich/mir, dich/dir, uns, euch kell.",
         "Többes számban a Sie sehen sich jelentheti azt is, hogy „látják magukat”, és azt is, hogy „látják egymást”; ezt a szövegkörnyezet dönti el."
       ],
       "sectionAccents": {
@@ -23616,7 +23616,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "ő • ők",
       "explanation": [
-        "Lényeg: a sie harmadik személyű névmás. Egyes számban nőre vonatkozik: ő (sie ist), többes számban: ők (sie sind). Hogy melyikről van szó, azt az ige végződése mutatja: sie kommt (ő jön) és sie kommen (ők jönnek). A magyar ő nem jelöl nemet, a németben viszont férfira er, nőre sie utal.",
+        "Lényeg: a sie harmadik személyű névmás. Egyes számban nőre vonatkozik: ő (sie ist), többes számban: ők (sie sind). Hogy melyikről van szó, azt az ige végződése mutatja: sie kommt (ő jön) és sie kommen (ők jönnek).",
         "Esetek: Akkusativ sie (ich sehe sie), Dativ egyes számban ihr, többes számban ihnen. Nőnemű névelős tárgyra is a sie névmással utalunk, ahol a magyar „az”-t mondana: die Tasche – sie.",
         "A nagybetűs Sie az udvarias „Ön/Önök”; a mondat elején a szövegkörnyezet és az igealak segít megkülönböztetni őket."
       ],
@@ -27738,7 +27738,7 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Jegyezd meg: zu = wohin? (irány, hová?), bei = wo? (valakinél, hol?) — akárcsak a magyar -hoz és -nál.",
+        "Jegyezd meg: zu = hová? (irány), bei = hol? (valakinél) — akárcsak a magyar -hoz és -nál.",
         "Személyekkel a zu áll: zu mir, zu dir, zu uns (hozzám, hozzád, hozzánk)."
       ],
       "important": [
