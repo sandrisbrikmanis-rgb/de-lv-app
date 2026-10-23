@@ -8048,7 +8048,7 @@ const A2_WORDS = [
           "example": "Der Geldautomat ist außer Betrieb. – The cash machine is out of order."
         },
         {
-          "word": "die Bank (Pl. Bänke)",
+          "word": "die Bank",
           "meaning": "bench",
           "example": "Wir sitzen auf der Bank. – We are sitting on the bench."
         }
@@ -8059,7 +8059,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Die Bank (institution) and die Bank (bench) are spelt the same, but their plurals differ.",
-        "Bank names are normally used with the article: bei der Deutschen Bank."
+        "Bank names are normally used with the article: die Deutsche Bank, bei der Deutschen Bank."
       ],
       "sectionAccents": {
         "explanation": {
@@ -8154,7 +8154,7 @@ const A2_WORDS = [
           {
             "word": {
               "green": [
-                "die Bank (Pl. Bänke)"
+                "die Bank"
               ]
             },
             "meaning": {

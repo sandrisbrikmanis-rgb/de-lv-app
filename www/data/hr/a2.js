@@ -8048,7 +8048,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Die Bank (ustanova) i die Bank (klupa) pišu se jednako, ali im se množine razlikuju.",
-        "Za klupu se može reći i die Sitzbank ili die Parkbank."
+        "Nazivi banaka obično se koriste s članom: die Deutsche Bank, bei der Deutschen Bank."
       ],
       "sectionAccents": {
         "explanation": {
@@ -8175,7 +8175,11 @@ const A2_WORDS = [
               "die Bank"
             ]
           },
-          {}
+          {
+            "blue": [
+              "Bank"
+            ]
+          }
         ]
       }
     }

@@ -8048,7 +8048,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Die Bank (įstaiga) ir die Bank (suolas) rašomi vienodai, tačiau jų daugiskaitos skiriasi.",
-        "Su banko pavadinimu artikelis paprastai nerašomas: Deutsche Bank."
+        "Banko pavadinimas paprastai vartojamas su artikeliu: die Deutsche Bank, bei der Deutschen Bank."
       ],
       "sectionAccents": {
         "explanation": {

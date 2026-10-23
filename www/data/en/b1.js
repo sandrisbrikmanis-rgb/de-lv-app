@@ -78428,7 +78428,7 @@ const B1_WORDS = [
         {
           "word": "anstatt dass",
           "meaning": "instead of (different subject)",
-          "example": "Anstatt dass er hilft, muss ich alles machen. – Instead of him helping, I have to do everything."
+          "example": "Anstatt dass er hilft, schaut sie zu. – Instead of him helping, she just watches."
         },
         {
           "word": "ohne … zu",

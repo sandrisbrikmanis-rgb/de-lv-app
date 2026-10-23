@@ -8047,7 +8047,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Die Bank (institusjon) og die Bank (benk) skrives likt, men har forskjellige flertallsformer.",
-        "Med navn skrives banker vanligvis uten artikkel: Deutsche Bank."
+        "Banknavn brukes vanligvis med artikkel: die Deutsche Bank, bei der Deutschen Bank."
       ],
       "sectionAccents": {
         "explanation": {

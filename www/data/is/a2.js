@@ -8045,7 +8045,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Die Bank (stofnun) og die Bank (bekkur) eru skrifuð eins, en fleirtölurnar eru ólíkar.",
-        "Með heiti banka er oft sleppt greini: Deutsche Bank."
+        "Heiti banka eru venjulega notuð með greini: die Deutsche Bank, bei der Deutschen Bank."
       ],
       "sectionAccents": {
         "explanation": {

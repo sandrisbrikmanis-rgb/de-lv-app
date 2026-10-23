@@ -8038,7 +8038,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Die Bank (Institut) an die Bank (fir ze sëtzen) schreiwe sech d'selwecht, mee hir Pluralforme sinn ënnerschiddlech.",
-        "Fir eng Bank fir ze sëtzen, kann een och die Sitzbank oder die Parkbank soen."
+        "Den Numm vun enger Bank benotzt een normalerweis mam Artikel: die Deutsche Bank, bei der Deutschen Bank."
       ],
       "sectionAccents": {
         "explanation": {

@@ -15984,8 +15984,8 @@ const B2_WORDS = [
           "lv": "Med tiden har en ny stil udviklet sig."
         },
         {
-          "de": "Aus dem Jungen hat sich ein guter Musiker herausgebildet.",
-          "lv": "Af drengen har der udviklet sig en god musiker."
+          "de": "Der Junge hat sich zu einem guten Musiker herausgebildet.",
+          "lv": "Drengen har udviklet sig til en god musiker."
         },
         {
           "de": "In der Gruppe bildeten sich schnell feste Rollen heraus.",

@@ -8051,7 +8051,7 @@ const A2_WORDS = [
           "example": "Der Geldautomat ist außer Betrieb. – Bankomat ne radi."
         },
         {
-          "word": "die Bank (klupa)",
+          "word": "die Bank",
           "meaning": "klupa",
           "example": "Wir sitzen auf der Bank. – Sjedimo na klupi."
         }
@@ -8062,7 +8062,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Die Bank (ustanova) i die Bank (klupa) pišu se isto, ali im se množine razlikuju.",
-        "Uz naziv banke član se obično izostavlja: Deutsche Bank."
+        "Naziv banke obično se koristi s članom: die Deutsche Bank, bei der Deutschen Bank."
       ],
       "sectionAccents": {
         "explanation": {
@@ -8157,7 +8157,7 @@ const A2_WORDS = [
           {
             "word": {
               "green": [
-                "die Bank (klupa)"
+                "die Bank"
               ]
             },
             "meaning": {
