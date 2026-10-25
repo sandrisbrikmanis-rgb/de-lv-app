@@ -1,0 +1,82 @@
+{
+ "records": 8618,
+ "a": {
+  "MATCH": 4448,
+  "PARTIAL_MATCH": 607,
+  "NO_MATCH": 2687,
+  "NOT_IN_SOURCE": 752,
+  "AMBIGUOUS": 124
+ },
+ "final": {
+  "CONFIRMED_BILINGUAL": 4448,
+  "CONFIRMED_BILINGUAL_PARTIAL": 607,
+  "NEEDS_SOURCE_REVIEW": 3563
+ },
+ "by_level": {
+  "a1": {
+   "MATCH": 564,
+   "records": 702,
+   "PARTIAL_MATCH": 31,
+   "NO_MATCH": 71,
+   "NOT_IN_SOURCE": 26,
+   "AMBIGUOUS": 10
+  },
+  "a2": {
+   "NOT_IN_SOURCE": 64,
+   "records": 1640,
+   "MATCH": 1132,
+   "NO_MATCH": 394,
+   "AMBIGUOUS": 21,
+   "PARTIAL_MATCH": 29
+  },
+  "b1": {
+   "NOT_IN_SOURCE": 152,
+   "records": 3367,
+   "MATCH": 2022,
+   "NO_MATCH": 1142,
+   "AMBIGUOUS": 45,
+   "PARTIAL_MATCH": 6
+  },
+  "b2": {
+   "MATCH": 487,
+   "records": 2118,
+   "NO_MATCH": 839,
+   "PARTIAL_MATCH": 480,
+   "NOT_IN_SOURCE": 281,
+   "AMBIGUOUS": 31
+  },
+  "c1": {
+   "MATCH": 179,
+   "records": 572,
+   "NO_MATCH": 184,
+   "PARTIAL_MATCH": 52,
+   "NOT_IN_SOURCE": 144,
+   "AMBIGUOUS": 13
+  },
+  "c2": {
+   "NOT_IN_SOURCE": 85,
+   "records": 219,
+   "NO_MATCH": 57,
+   "MATCH": 64,
+   "AMBIGUOUS": 4,
+   "PARTIAL_MATCH": 9
+  }
+ },
+ "checked": 8618,
+ "found_entries": 7866,
+ "hit_rate": 0.912741,
+ "only_a": 4448,
+ "partial_a": 607,
+ "only_b": 0,
+ "both": 0,
+ "nowhere": 3563,
+ "not_checked": 0,
+ "sample_notes": [],
+ "sample_rows": 200,
+ "b": {
+  "id": "registry-3-cs",
+  "name": "Ústav pro jazyk český AV ČR — Internetová jazyková příručka",
+  "url": "https://prirucka.ujc.cas.cz/",
+  "verdict": "SOURCE_UNAVAILABLE"
+ }
+}
