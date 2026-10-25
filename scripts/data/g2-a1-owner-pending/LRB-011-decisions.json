@@ -1,0 +1,302 @@
+{
+  "g2/a1/fi|hören|idx:287|lv/study|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Kuulla • Kuunnella\",\"study.translation\":\"Kuulla • Kuunnella\",\"study.explanation[0]\":\"Pääajatus: kuulla ääntä tai kuunnella musiikkia.\",\"study.explanation[1]\":\"hören tarkoittaa pääasiassa äänen havaitsemista.\",\"study.explanation[2]\":\"Sitä käytetään usein äänistä, musiikista ja kuulemisesta.\",\"study.explanation[3]\":\"hören liittyy ääniin, musiikkiin ja siihen, mitä kuullaan.\",\"study.examples[0].lv\":\"Kuuntelen musiikkia.\",\"study.examples[1].lv\":\"Lapset kuuntelevat tarinaa.\",\"study.examples[2].lv\":\"Kuulen sinut.\",\"study.tip[0]\":\"Kuulla ääntä tai kuunnella musiikkia.\",\"study.tip[1]\":\"Käytä hören, kun konteksti vastaa tätä merkitystä.\",\"study.important[0]\":\"hören = kuulla/kuunnella ääntä.\",\"study.important[1]\":\"Kuulla ääntä tai kuunnella musiikkia.\"}",
+    "owner_note": "FI hören FULL repair: ET Kuulma/Kuulama + ET/LV study body → FI Kuulla/Kuunnella with DE-aligned examples. DE untouched."
+  },
+  "g2/a1/fi|hübsch|idx:288|lv/study|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"kaunis\",\"study.translation\":\"kaunis\",\"study.explanation[0]\":\"Pääajatus: hübsch tarkoittaa kaunista, houkuttelevaa tai sympatiaa herättävää ulkonäköä.\",\"study.explanation[1]\":\"hübsch usein kuvailee henkilön, vaatteen, huoneen tai esineen ulkonäköä.\",\"study.explanation[2]\":\"Sana mukava voi sopia joihinkin yhteyksiin, mutta se on liian laaja pääkäännökseksi.\",\"study.explanation[3]\":\"Persoonallisuutta tai ystävällistä käytöstä saksassa yleensä kuvataan sanalla nett.\",\"study.examples[0].lv\":\"Hänellä on kaunis puku.\",\"study.examples[1].lv\":\"Huone on kaunis.\",\"study.examples[2].lv\":\"Se on kaunis kuva.\",\"study.comparison[0].meaning\":\"kaunis • houkutteleva ulkonäöllään\",\"study.comparison[0].example\":\"Das ist ein hübsches Kleid. – Se on kaunis puku.\",\"study.comparison[1].meaning\":\"kaunis • miellyttävä\",\"study.comparison[1].example\":\"Der Garten ist schön. – Puutarha on kaunis.\",\"study.comparison[2].meaning\":\"mukava • ystävällinen\",\"study.comparison[2].example\":\"Sie ist sehr nett. – Hän on hyvin mukava.\",\"study.tip.text\":\"Muista: hübsch kuvaa ennen kauneutta ulkonäössä, nett ystävällistä käytöstä tai persoonallisuutta.\",\"study.important[0]\":\"hübsch ei ole yleinen käännös sanalle mukava.\",\"study.important[1]\":\"Persoonallisuudelle tai ystävälliselle käytökselle sopii yleensä paremmin nett.\"}",
+    "owner_note": "FI hübsch PDF reaudit: study.explanation[2] natural FI — Sana mukava voi sopia joihinkin yhteyksiin. DE untouched."
+  },
+  "g2/a1/fi|hundert|idx:289|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Sata",
+    "owner_note": "FI hundert lv: ET Sada → FI Sata for simts hundred. DE untouched."
+  },
+  "g2/a1/fi|hungrig|idx:290|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Nälkäinen",
+    "owner_note": "FI hungrig lv: ET Näljane → FI Nälkäinen for izsalcis hungry. DE untouched."
+  },
+  "g2/a1/fi|ich|idx:291|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Minä",
+    "owner_note": "FI ich lv: ET Mina → FI Minä for es I. DE untouched."
+  },
+  "g2/a1/fi|ihr|idx:292|lv/study|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Te • Hänelle\",\"study.translation\":\"Te • Hänelle\",\"study.explanation[0]\":\"Pääajatus: ihr on kaksi eri samaan kirjoitettua pronominia — puhuttelu usealle (te) ja sie-pronominin datiivi (hänelle/hänen).\",\"study.explanation[1]\":\"Pienellä ihr puhuttelussa usealle: te (Kommt ihr mit? = Tuletteko mukaan?).\",\"study.explanation[2]\":\"Ihr omistuspronominina tarkoittaa hänen (ihr Buch = hänen kirjansa).\",\"study.explanation[3]\":\"Ihr datiivina (sie) tarkoittaa hänelle (Ich gebe ihr das Buch. = Annan hänelle kirjan.).\",\"study.explanation[4]\":\"Verbin muoto (kommt, habt) osoittaa, että kyse on te-puhuttelusta.\",\"study.explanation[5]\":\"Kohtelias puhuttelu on aina Sie isolla alkukirjaimella, ei ihr.\",\"study.examples[0].lv\":\"Tuletteko tänä iltana?\",\"study.examples[1].lv\":\"Annan hänelle kirjan.\",\"study.examples[2].lv\":\"Missä te asutte?\",\"study.examples[3].lv\":\"Hän kirjoittaa hänelle kirjeen.\",\"study.examples[4].lv\":\"Onko teillä aikaa?\",\"study.examples[5].lv\":\"Se on hänen autonsa.\",\"study.tip[0]\":\"ihr verbin monikon muodolla (kommt, habt) = te; ihr datiivissa tai omistuksessa = hänelle/hänen.\",\"study.tip[1]\":\"Tarkista: Habt ihr...? / Kommt ihr...? = te; Ich gebe ihr... / ihr Buch = hänelle/hänen.\",\"study.important[0]\":\"ihr = te (puhuminen useille) TAI hänelle (datiivi) TAI hänen (omistus) — riippuen kontekstista.\",\"study.important[1]\":\"Kohtelias puhuminen on aina Sie isolla alkukirjaimella, ei ihr.\",\"study.important[2]\":\"Väärin: Ihr (kohtelias) → Oikein: Sie.\"}",
+    "owner_note": "FI ihr FULL repair: ET Teie/Temale + ET study body → FI Te/Hänelle with DE-aligned dual-pronoun examples. DE untouched."
+  },
+  "g2/a1/fi|im|idx:293|lv/study|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Sisällä (-ssa) • Missä?\",\"study.translation\":\"Sisällä (-ssa) • Missä?\",\"study.explanation[0]\":\"Im on prepositio in ja artikkelin dem lyhenne.\",\"study.explanation[1]\":\"Täysi muoto: in dem (datiivi).\",\"study.explanation[2]\":\"Käytetään maskuliini- ja neutrum-substantiivien kanssa, kun vastataan missä? — sijainti.\",\"study.explanation[3]\":\"Ajan ja vuodenaikojen kanssa: im Januar, im Sommer, im Winter.\",\"study.explanation[4]\":\"Käytännössä käytetään lähes aina im, ei täyttä muotoa in dem.\",\"study.examples[0].lv\":\"Olen puistossa.\",\"study.examples[1].lv\":\"Asumme keskustassa.\",\"study.examples[2].lv\":\"Kesällä on lämmintä.\",\"study.examples[3].lv\":\"Hän työskentelee toimistossa.\",\"study.examples[4].lv\":\"Lapsi leikkii puutarhassa.\",\"study.examples[5].lv\":\"Tammikuussa ajan Wieniin.\",\"study.examples[6].lv\":\"Hän on elokuvateatterissa.\",\"study.examples[7].lv\":\"Tapaamme ravintolassa.\",\"study.comparison[0].meaning\":\"Sisällä, missä? (datiivi)\",\"study.comparison[0].example\":\"im Park – puistossa\",\"study.comparison[1].meaning\":\"Sisään, minne? (akk.)\",\"study.comparison[1].example\":\"ins Kino – elokuvateatteriin\",\"study.comparison[2].meaning\":\"Sisällä / sisään (ilman artikkelia)\",\"study.comparison[2].example\":\"in Berlin – Berliinissä\",\"study.comparison[3].meaning\":\"Luona, missä? (datiivi)\",\"study.comparison[3].example\":\"am Fenster – ikkunan luona\",\"study.comparison[4].meaning\":\"Päällä\",\"study.comparison[4].example\":\"auf dem Tisch – pöydällä\",\"study.tip[0]\":\"Muista: in + dem → im (missä?).\",\"study.tip[1]\":\"Minne? → ins; missä? → im — älä sekoita näitä kahta!\",\"study.important[0]\":\"im = in dem, vain maskuliini- tai neutrum-substantiivilla missä? taivutuksessa.\",\"study.important[1]\":\"Vastaa kysymykseen missä?, ei minne? — sijainti, ei liike.\",\"study.important[2]\":\"Kuukausilla ja vuodenaikoilla: im März, im Herbst.\",\"study.important[3]\":\"Feminiineille: in der Schule, ei im Schule.\"}",
+    "owner_note": "FI im FULL repair: ET Sees/Kus + ET examples → FI Sisällä/Missä with DE-aligned location examples. DE untouched."
+  },
+  "g2/a1/fi|immer|idx:294|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Aina",
+    "owner_note": "FI immer lv: ET Alati → FI Aina for vienmēr always. DE untouched."
+  },
+  "g2/a1/fi|in|idx:295|lv/study|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Sisällä • Sisään\",\"study.translation\":\"Sisällä • Sisään\",\"study.explanation[0]\":\"Pääajatus: in tarkoittaa yleensä sisällä olemista tai johonkin paikkaan menemistä, kun puhutaan tilasta, maasta, kaupungista tai rakennuksesta.\",\"study.explanation[1]\":\"Sijainnista puhuttaessa in käännetään usein -ssa/-ssä: in Berlin = Berliinissä.\",\"study.explanation[2]\":\"Liikkeestä puhuttaessa in tarkoittaa sisäänpäin: ins Kino = elokuvateatteriin.\",\"study.explanation[3]\":\"Suomeksi käännös riippuu kontekstista.\",\"study.examples[0].lv\":\"Olen Berliinissä.\",\"study.examples[1].lv\":\"Menen kouluun.\",\"study.examples[2].lv\":\"Kirja on laukussa.\",\"study.examples[3].lv\":\"Menemme elokuvateatteriin.\",\"study.tip.text\":\"Muista: sisällä/tilassa → in.\",\"study.important[0]\":\"in ei tarkoita aina kirjaimellisesti \\\"sisään\\\"; suomeksi usein sanotaan Berliinissä, koulussa, elokuvateatterissa.\",\"study.important[1]\":\"Jos puhutaan pinnasta, tarvitaan usein auf, ei in.\"}",
+    "owner_note": "FI in FULL repair: ET Sees/Sisse + ET/LV study body → FI Sisällä/Sisään with DE-aligned examples. DE untouched."
+  },
+  "g2/a1/fi|ja|idx:297|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Kyllä",
+    "owner_note": "FI ja lv: ET Jah → FI Kyllä for jā yes. DE untouched."
+  },
+  "g2/a1/fi|Januar|idx:298|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Tammikuu",
+    "owner_note": "FI Januar lv: ET Jaanuar → FI Tammikuu for janvāris January. DE untouched."
+  },
+  "g2/a1/fi|jawohl|idx:299|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Aivan niin",
+    "owner_note": "FI jawohl lv: ET Täpselt nii → FI Aivan niin for tieši tā emphatic yes. DE untouched."
+  },
+  "g2/a1/fi|Jeans|idx:306|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Farkut",
+    "owner_note": "FI Jeans lv: ET Teksapüksid → FI Farkut for džinsi jeans. DE untouched."
+  },
+  "g2/a1/fi|jeder|idx:300|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Jokainen",
+    "owner_note": "FI jeder lv: ET Iga → FI Jokainen for katrs each/every. DE untouched."
+  },
+  "g2/a1/fi|jemand|idx:301|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Joku",
+    "owner_note": "FI jemand lv: ET Keegi → FI Joku for kāds someone. DE untouched."
+  },
+  "g2/a1/fi|jetzt|a1.card.jetzt.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Nyt",
+    "owner_note": "FI jetzt native: ET Nüüd/Praegu → FI Nyt for tagad/pašlaik now; scalar native field. DE untouched."
+  },
+  "g2/a1/fi|jetzt|idx:302|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Nyt",
+    "owner_note": "FI jetzt lv: ET Nüüd/Praegu → FI Nyt for tagad/pašlaik now on idx card. DE untouched."
+  },
+  "g2/a1/fi|Juli|idx:303|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Heinäkuu",
+    "owner_note": "FI Juli lv: ET Juuli → FI Heinäkuu for jūlijs July. DE untouched."
+  },
+  "g2/a1/fi|Juni|idx:305|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Kesäkuu",
+    "owner_note": "FI Juni lv: ET Juuni → FI Kesäkuu for jūnijs June. DE untouched."
+  },
+  "g2/a1/fi|Kleid|idx:337|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Mekko",
+    "owner_note": "FI Kleid lv: ET Kleit → FI Mekko for kleita dress. DE untouched."
+  },
+  "g2/a1/fi|Kleidung|idx:338|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Vaatteet",
+    "owner_note": "FI Kleidung lv: ET Riietus → FI Vaatteet for apģērbs clothing. DE untouched."
+  },
+  "g2/a1/fi|klein|idx:6|lv; study.translation; study.explanation; study.examples|MEANING_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Pieni\",\"study.translation\":\"Pieni\",\"study.explanation[0]\":\"Pääajatus: pieni koon tai tilavuuden puolesta.\",\"study.explanation[1]\":\"klein tarkoittaa pääasiassa pientä kokoa.\",\"study.explanation[2]\":\"Sitä käytetään usein asian tai henkilön koon kuvaamiseen.\",\"study.examples[0].lv\":\"Huone on pieni.\",\"study.examples[1].lv\":\"Lapsi on vielä pieni.\",\"study.examples[2].lv\":\"Minulla on pieni laukku.\",\"study.examples[3].lv\":\"Minulla on pieni laukku.\",\"study.examples[4].lv\":\"Lapsi on pieni.\"}",
+    "owner_note": "FI klein FULL repair: ET Väike headword + mismatched examples (Tuba/Tuba/Laps) → FI Pieni with DE-aligned example lines. DE untouched."
+  },
+  "g2/a1/fi|Knoblauch|idx:339|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Valkosipuli",
+    "owner_note": "FI Knoblauch lv: ET Küüslauk → FI Valkosipuli for ķiploks garlic. DE untouched."
+  },
+  "g2/a1/fi|Koch|idx:340|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Kokki",
+    "owner_note": "FI Koch lv: ET Kokk → FI Kokki for pavārs cook (male). DE untouched."
+  },
+  "g2/a1/fi|Köchin|idx:341|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Kokki",
+    "owner_note": "FI Köchin lv: ET Naiskokk → FI Kokki for pavāre cook (female; Finnish uses same word). DE untouched."
+  },
+  "g2/a1/fi|können|idx:319|lv, study|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Pystyä • Osata\",\"study.translation\":\"Pystyä • Osata\",\"study.explanation[0]\":\"Pääajatus: können tarkoittaa kykyä tehdä jotain tai osata jotain.\",\"study.explanation[1]\":\"Kun puhutaan kyvystä tai taidosta, suomeksi käytetään usein osata.\",\"study.explanation[2]\":\"Kun puhutaan mahdollisuudesta, suomeksi käytetään usein pystyä.\",\"study.explanation[3]\":\"Können on modaaliverbi, joten toinen verbi on yleensä lauseen lopussa.\",\"study.examples[0].lv\":\"Osaan puhua saksaa.\",\"study.examples[1].lv\":\"Voitko auttaa minua?\",\"study.examples[2].lv\":\"Voimme tulla tänään.\",\"study.examples[3].lv\":\"Hän osaa uida hyvin.\",\"study.comparison[0].meaning\":\"Pystyä / osata\",\"study.comparison[0].example\":\"Ich kann schwimmen. = Osaan uida.\",\"study.comparison[1].meaning\":\"Saada lupa\",\"study.comparison[1].example\":\"Darf ich gehen? = Voinko mennä?\",\"study.comparison[2].meaning\":\"Joutua / täytyä\",\"study.comparison[2].example\":\"Ich muss lernen. = Minun täytyy opiskella.\",\"study.comparison[3].meaning\":\"Tietää\",\"study.comparison[3].example\":\"Ich weiß das. = Tiedän sen.\",\"study.tip.text\":\"Muista: taito/mahdollisuus → können.\",\"study.important[0]\":\"können ei ole sama kuin dürfen. können = pystyä/osata, dürfen = saada lupa.\",\"study.important[1]\":\"Lauseessa können-verbin kanssa toinen verbi usein on lopussa: Ich kann schwimmen.\"}",
+    "owner_note": "FI können FULL repair: ET Saama/Oskama + ET study body → FI Pystyä/Osata with DE-aligned modal examples. DE untouched."
+  },
+  "g2/a1/fi|Kopf|idx:342|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Pää",
+    "owner_note": "FI Kopf lv: ET Pea → FI Pää for galva head. DE untouched."
+  },
+  "g2/a1/fi|kosten|idx:320|lv, study|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Maksaa\",\"study.translation\":\"Maksaa\",\"study.explanation[0]\":\"Pääajatus: kosten tarkoittaa maksaa tietyn hinnan — kyse on asian hinnasta.\",\"study.explanation[1]\":\"Sanaa käytetään, kun kysytään tai sanotaan, paljonko jokin maksaa, ei kun ihminen suorittaa maksua.\",\"study.explanation[2]\":\"Hintakysymys alkaa saksaksi usein Was kostet...?\",\"study.explanation[3]\":\"Suomeksi Das kostet 5 Euro. = Se maksaa 5 euroa.\",\"study.explanation[4]\":\"Kun ihminen antaa rahaa tavaran tai palvelun edestä, saksaksi käytetään bezahlen tai zahlen.\",\"study.examples[0].lv\":\"Se maksaa 5 euroa.\",\"study.examples[1].lv\":\"Kuinka paljon se maksaa?\",\"study.examples[2].lv\":\"Kuinka palko neule maksaa?\",\"study.examples[3].lv\":\"Ruoka ei maksa paljon.\",\"study.examples[4].lv\":\"Maksan laskun.\",\"study.examples[5].lv\":\"Voinko maksaa käteisellä?\",\"study.examples[6].lv\":\"Hän maksaa kortilla.\",\"study.examples[7].lv\":\"Maksan heti.\",\"study.comparison[0].meaning\":\"Maksaa (hinta) • Kuinka paljon maksaa\",\"study.comparison[0].example\":\"Das kostet 5 Euro. = Se maksaa 5 euroa.\",\"study.comparison[1].meaning\":\"Maksaa • Suorittaa maksu\",\"study.comparison[1].example\":\"Ich bezahle die Rechnung. = Maksan laskun.\",\"study.comparison[2].meaning\":\"Maksaa • Suorittaa maksu\",\"study.comparison[2].example\":\"Kann ich bar zahlen? = Voinko maksaa käteisellä?\",\"study.comparison[3].meaning\":\"Kuinka paljon maksaa...?\",\"study.comparison[3].example\":\"Was kostet das Buch? = Kuinka paljon kirja maksaa?\",\"study.tip[0]\":\"Muista: kysymys hinnasta → kosten (Was kostet das?).\",\"study.tip[1]\":\"Muista: maksun tekeminen → bezahlen / zahlen (Ich bezahle die Rechnung.).\",\"study.important[0]\":\"kosten ja bezahlen eivät ole synonyymejä: kosten = kuinka paljon maksaa; bezahlen = maksaa rahaa.\",\"study.important[1]\":\"Saksaksi kosten ja bezahlen pitää valita tilanteen mukaan — ne eivät ole synonyymejä.\"}",
+    "owner_note": "FI kosten FULL repair: ET Maksma headword + ET explanations → FI Maksaa with DE-aligned price vs payment distinction. DE untouched."
+  },
+  "g2/a1/fi|Kraftwagen|idx:343|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "FI Kraftwagen lv: Auto is genuine Finnish for car/automobile; discovery ET false positive. DE untouched."
+  },
+  "g2/a1/fi|Küche|idx:344|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Keittiö",
+    "owner_note": "FI Küche lv: ET Köök → FI Keittiö for virtuve kitchen. DE untouched."
+  },
+  "g2/a1/fi|Kuchen|idx:345|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Kakku",
+    "owner_note": "FI Kuchen lv: ET Kook → FI Kakku for kūka cake. DE untouched."
+  },
+  "g2/a1/fi|Kuh|idx:346|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Lehmä",
+    "owner_note": "FI Kuh lv: ET Lehm → FI Lehmä for govs cow. DE untouched."
+  },
+  "g2/a1/fi|Kühlschrank|idx:347|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Jääkaappi",
+    "owner_note": "FI Kühlschrank lv: ET Külmkapp → FI Jääkaappi for ledusskapis refrigerator. DE untouched."
+  },
+  "g2/a1/fi|Kuss|idx:348|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Suudelma",
+    "owner_note": "FI Kuss lv: ET Suudlus → FI Suudelma for skūpsts kiss. DE untouched."
+  },
+  "g2/a1/fi|Laden|idx:349|lv, study|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Kauppa\",\"study.translation\":\"Kauppa\",\"study.explanation[0]\":\"Pääajatus: der Laden isolla alkukirjaimella ja artikkelilla der on substantiivi — pieni kauppa.\",\"study.explanation[1]\":\"Laden pienellä alkukirjaimella on verbi — ladata tai lataa.\",\"study.explanation[2]\":\"Der Laden tarkoittaa arjessa usein pientä kauppaa (im Laden einkaufen = tehdä ostoksia kaupassa).\",\"study.explanation[3]\":\"Monikossa: die Läden.\",\"study.examples[0].lv\":\"Menen kauppaan.\",\"study.examples[1].lv\":\"Kauppa on kiinni.\",\"study.examples[2].lv\":\"Täällä on paljon kauppoja.\",\"study.examples[3].lv\":\"Minun täytyy ladata puhelin.\",\"study.tip[0]\":\"der Laden isolla alkukirjaimella — substantiivi (kauppa).\",\"study.tip[1]\":\"laden pienellä alkukirjaimella — verbi (ladata/lataa).\",\"study.important[0]\":\"der Laden = kauppa (substantiivi).\",\"study.important[1]\":\"laden = ladata/lataa (verbi).\",\"study.important[2]\":\"Monikossa: die Läden.\"}",
+    "owner_note": "FI Laden FULL repair: ET Pood + ET study body → FI Kauppa with DE-aligned shop vs charge verb distinction. DE untouched."
+  },
+  "g2/a1/fi|Lampe|idx:350|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Lamppu",
+    "owner_note": "FI Lampe lv: ET Lamp → FI Lamppu for lampa lamp. DE untouched."
+  },
+  "g2/a1/fi|Land|idx:351|lv, study|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Maa • Maaseutu\",\"study.translation\":\"Maa • Maaseutu\",\"study.explanation[0]\":\"Pääajatus: das Land tarkoittaa useimmiten maata valtiona tai maaseutua kaupungin vastakohtana.\",\"study.explanation[1]\":\"Kun puhutaan Saksasta, Suomesta tai muusta valtiosta, käännetään valtio/maa.\",\"study.explanation[2]\":\"Kun puhutaan maaseudusta tai maaseudun elämästä, käännetään maaseutu tai maalle.\",\"study.explanation[3]\":\"Konteksti ratkaisee, tarkoitetaanko valtiota vai maaseutua.\",\"study.examples[0].lv\":\"Saksa on kaunis maa.\",\"study.examples[1].lv\":\"Olen kotoisin pienestä maasta.\",\"study.examples[2].lv\":\"Ajelemme maaseudulle.\",\"study.examples[3].lv\":\"Maaseudulla on rauhallista.\",\"study.comparison[0].meaning\":\"Maa / valtio / maaseutu\",\"study.comparison[0].example\":\"Deutschland ist ein Land.\",\"study.comparison[1].meaning\":\"Kaupunki\",\"study.comparison[1].example\":\"Ich wohne in der Stadt.\",\"study.comparison[2].meaning\":\"Kylä\",\"study.comparison[2].example\":\"Er lebt in einem Dorf.\",\"study.comparison[3].meaning\":\"Maa / planeetta\",\"study.comparison[3].example\":\"Die Erde ist rund.\",\"study.tip.text\":\"Muista: valtio → das Land; kaupunki → die Stadt.\",\"study.important[0]\":\"aufs Land tarkoittaa \\\"maalle\\\", ei \\\"valtiolle\\\".\",\"study.important[1]\":\"das Land ei ole sama kuin die Stadt.\"}",
+    "owner_note": "FI Land FULL repair: ET Riik/Maa + ET study body → FI Maa/Maaseutu with DE-aligned country vs countryside examples. DE untouched."
+  },
+  "g2/a1/fi|lang|idx:352|lv, study|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Pitkä • Pitkään\",\"study.translation\":\"Pitkä • Pitkään\",\"study.explanation[0]\":\"Pääajatus: lang tarkoittaa tilassa pitkää tai ajassa pitkää tai kestävää.\",\"study.explanation[1]\":\"Kun puhutaan koosta tai etäisyydestä, lang = pitkä (ein langer Tisch = pitkä pöytä).\",\"study.explanation[2]\":\"Kun puhutaan kestosta, lang = pitkä (ein langer Tag = pitkä päivä).\",\"study.explanation[3]\":\"Lauseessa den ganzen Tag lang tarkoittaa koko päivän ajan.\",\"study.explanation[4]\":\"Suomeksi sekä pitkä pöytä että pitkä päivä — saksa lang kattaa molemmat.\",\"study.examples[0].lv\":\"Pöytä on hyvin pitkä.\",\"study.examples[1].lv\":\"Elokuva oli hyvin pitkä.\",\"study.examples[2].lv\":\"Kuinka kauan se kestää?\",\"study.examples[3].lv\":\"Hänellä on pitkät hiukset.\",\"study.examples[4].lv\":\"Olen jo odottanut kauan.\",\"study.examples[5].lv\":\"Koko päivän ajan.\",\"study.tip[0]\":\"Koolle tai etäisyydelle (hiukset, polku, pöytä) → pitkä.\",\"study.tip[1]\":\"Ajalle (päivä, odottaminen, elokuva) → pitkä.\",\"study.important[0]\":\"lang = pitkä (koko) TAI pitkä (aika) — riippuen kontekstista.\",\"study.important[1]\":\"wie lange = kuinka kauan (kysymys ajasta, ei koosta).\"}",
+    "owner_note": "FI lang FULL repair: ET Pikk/Kauakestev + ET study body → FI Pitkä/Pitkään with DE-aligned spatial vs temporal senses. DE untouched."
+  },
+  "g2/a1/fi|lange|idx:353|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Kauan",
+    "owner_note": "FI lange lv: ET Kaua → FI Kauan for ilgi long (adverb). DE untouched."
+  },
+  "g2/a1/fi|langsam|idx:354|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Hidas",
+    "owner_note": "FI langsam lv: ET Aeglane → FI Hidas for lēns slow. DE untouched."
+  },
+  "g2/a1/fi|langweilig|idx:355|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Tylsä",
+    "owner_note": "FI langweilig lv: ET Igav → FI Tylsä for garlaicīgs boring. DE untouched."
+  },
+  "g2/a1/fi|lassen|idx:356|study.translation; study.explanation; study.important|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"Jättää • Antaa tehdä\",\"study.explanation[0]\":\"Pääajatus: lassen tarkoittaa jättämistä tai antamista jonkun tapahtua.\",\"study.explanation[1]\":\"Kun jokin jää paikalleen, lassen käännetään jättää.\",\"study.explanation[2]\":\"Kun jollekin annetaan lupa, lassen käännetään antaa tehdä.\",\"study.explanation[3]\":\"Puhekielessä Lass mich! = Jätä minut rauhaan!\",\"study.important[0]\":\"lassen ei ole pelkästään \\\"jättää\\\". Se usein tarkoittaa myös \\\"antaa\\\".\",\"study.important[1]\":\"Lass mich in Ruhe! on hyvin yleinen ilmaus: \\\"Jätä minut rauhaan!\\\"\"}",
+    "owner_note": "FI lassen study repair: ET Jätma/Laskma + ET explanation lines → FI Jättää/Antaa tehdä; lv already Finnish elsewhere. DE untouched."
+  },
+  "g2/a1/fi|laufen|idx:357|study.translation; study.explanation; study.examples; study.comparison; study.important|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"Juosta • Käydä\",\"study.explanation[0]\":\"Pääajatus: laufen tarkoittaa juoksemista, mutta laitteista se voi tarkoittaa toimimista.\",\"study.explanation[1]\":\"Ihmisestä tai eläimestä laufen tarkoittaa usein juoksemista tai nopeaa kävelyä.\",\"study.explanation[2]\":\"Elokuvasta, koneesta tai ohjelmasta laufen tarkoittaa, että se pyörii tai toimii.\",\"study.explanation[3]\":\"Jalkaliikkeessä A1-tasolla verbejä gehen ja laufen verrataan usein toisiinsa.\",\"study.examples[0].lv\":\"Hän juoksee hyvin nopeasti.\",\"study.examples[1].lv\":\"Lapset juoksevat puistossa.\",\"study.examples[2].lv\":\"Elokuva pyörii jo.\",\"study.examples[3].lv\":\"Kone toimii hyvin.\",\"study.comparison[0].meaning\":\"Juosta / käydä (kone)\",\"study.comparison[0].example\":\"Er läuft schnell.\",\"study.comparison[1].meaning\":\"Kävellä\",\"study.comparison[1].example\":\"Ich gehe nach Hause.\",\"study.comparison[2].meaning\":\"Ajaa\",\"study.comparison[2].example\":\"Ich fahre mit dem Bus.\",\"study.comparison[3].meaning\":\"Toimia\",\"study.comparison[3].example\":\"Das funktioniert gut.\",\"study.important[0]\":\"laufen ei ole pelkästään \\\"juosta\\\". Elokuvalle tai laitteelle se voi tarkoittaa \\\"pyöriä\\\" tai \\\"toimia\\\".\",\"study.important[1]\":\"Ich laufe tarkoittaa liikettä jaloilla, ei ajamista.\"}",
+    "owner_note": "FI laufen study repair: ET Jooksma/Töötama + ET examples → FI Juosta/Käydä with DE-aligned run vs machine-run senses. DE untouched."
+  },
+  "g2/a1/fi|laut|idx:358|study.translation; study.explanation; study.tip; study.important|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"Kova\",\"study.explanation[0]\":\"Pääajatus: adjektiivi pienellä alkukirjaimella. Kuvaa voimakkuutta — kuinka kova ääni tai puhe on.\",\"study.explanation[1]\":\"laut tarkoittaa pääasiassa: kova ääni.\",\"study.explanation[2]\":\"Usein kuvaa adjektiivia.\",\"study.explanation[3]\":\"laut pienellä alkukirjaimella on adjektiivi — se kuvaa, kuinka kova ääni on (Die Musik ist laut = musiikki on kovaa).\",\"study.explanation[4]\":\"Der Laut isolla alkukirjaimella ja artikkelilla der on substantiivi — se tarkoittaa ääntä (Der Laut ist schön = ääni on kaunis).\",\"study.explanation[5]\":\"Monikossa: die Laute.\",\"study.tip[0]\":\"Pieni laut = kova (adjektiivi: ist laut). der Laut isolla alkukirjaimella = ääni (substantiivi: ein Laut, der Laut).\",\"study.tip[1]\":\"laut = kova (adjektiivi)\",\"study.important[0]\":\"laut on pienellä alkukirjaimella ja ilman artikkelia — se on adjektiivi.\",\"study.important[1]\":\"der Laut isolla alkukirjaimella ja artikkelilla der on substantiivi.\",\"study.important[2]\":\"Monikko: die Laute (kielen äänet, äänintuotteet).\",\"study.important[3]\":\"Väärin: Der Laut ist sehr. → Oikein: Das ist sehr laut.\"}",
+    "owner_note": "FI laut study repair: ET Vali headword + mixed ET explanation → FI Kova adjective sense; substantiivit erotettu. DE untouched."
+  },
+  "g2/a1/fi|Laut|idx:359|study.translation; study.explanation; study.tip; study.important|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"Ääni\",\"study.explanation[0]\":\"Pääajatus: substantiivi artikkelilla der ja isolla alkukirjaimella. Tarkoittaa ääntä esineenä, signaalina tai kielen äänne.\",\"study.explanation[1]\":\"Der Laut tarkoittaa pääasiassa ääntä tai äänne.\",\"study.explanation[2]\":\"laut pienellä alkukirjaimella on adjektiivi — kova (Die Musik ist laut = musiikki on kovaa).\",\"study.explanation[3]\":\"Der Laut isolla alkukirjaimella on substantiivi — ääni (Der Laut ist schön = ääni on kaunis).\",\"study.explanation[4]\":\"Monikossa: die Laute.\",\"study.tip[0]\":\"Pieni laut = kova (adjektiivi: ist laut). der Laut isolla alkukirjaimella = ääni (substantiivi: ein Laut, der Laut).\",\"study.tip[1]\":\"der Laut = ääni\",\"study.important[0]\":\"laut on pienellä alkukirjaimella ja ilman artikkelia — se on adjektiivi.\",\"study.important[1]\":\"der Laut isolla alkukirjaimella ja artikkelilla der on substantiivi.\",\"study.important[2]\":\"Monikko: die Laute (kielen äänet, äänintuotteet).\",\"study.important[3]\":\"Väärin: Der Laut ist sehr. → Oikein: Das ist sehr laut.\"}",
+    "owner_note": "FI Laut study repair: headword Heli ok Finnish but ET explanation residue → FI Ääni substantiivi card cleaned to natural Finnish. DE untouched."
+  },
+  "g2/a1/fi|leben|idx:360|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Elää",
+    "owner_note": "FI leben lv: ET Elama → FI Elää for dzīvot to live. DE untouched."
+  },
+  "g2/a1/fi|lecker|idx:361|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Herkullinen",
+    "owner_note": "FI lecker lv: ET Maitsev → FI Herkullinen for gards tasty/delicious. DE untouched."
+  },
+  "g2/a1/fi|leer|idx:362|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Tyhjä",
+    "owner_note": "FI leer lv: ET Tühi → FI Tyhjä for tukšs empty. DE untouched."
+  },
+  "g2/a1/fi|legen|idx:363|study.translation; study.explanation; study.examples; study.comparison; study.important|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"Panna\",\"study.explanation[0]\":\"Pääajatus: legen tarkoittaa asettaa jotain vaaka-asentoon tai pinnalle.\",\"study.explanation[1]\":\"Legen käytetään, kun itse siirrät esineen pöydälle, sängylle tai muulle pinnalle.\",\"study.explanation[2]\":\"Se eroaa liegen-verbi, joka tarkoittaa, että jokin jo on paikallaan tai makuuasennossa.\",\"study.explanation[3]\":\"A1-tasolla tärkein ero: legen = asettaa, liegen = olla/makailla.\",\"study.examples[0].lv\":\"Laitan kirjan pöydälle.\",\"study.examples[1].lv\":\"Laita avain tähän.\",\"study.examples[2].lv\":\"Hän panee lapsen nukkumaan.\",\"study.examples[3].lv\":\"Kirja on pöydällä.\",\"study.comparison[0].meaning\":\"Panna / asettaa\",\"study.comparison[0].example\":\"Ich lege das Buch auf den Tisch.\",\"study.comparison[1].meaning\":\"Olla / maata\",\"study.comparison[1].example\":\"Das Buch liegt auf dem Tisch.\",\"study.comparison[2].meaning\":\"Pystyyn panna\",\"study.comparison[2].example\":\"Ich stelle die Flasche auf den Tisch.\",\"study.comparison[3].meaning\":\"Istua / istuttaa\",\"study.comparison[3].example\":\"Ich setze mich.\",\"study.important[0]\":\"legen ja liegen eivät ole sama.\",\"study.important[1]\":\"Ich lege das Buch = laitan kirjan. Das Buch liegt = kirja on.\"}",
+    "owner_note": "FI legen study repair: ET Panema + ET examples → FI Panna with DE-aligned legen vs liegen contrast. DE untouched."
+  },
+  "g2/a1/fi|Lehrer|idx:364|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Opettaja",
+    "owner_note": "FI Lehrer lv: ET Õpetaja → FI Opettaja for skolotājs teacher. DE untouched."
+  }
+}
