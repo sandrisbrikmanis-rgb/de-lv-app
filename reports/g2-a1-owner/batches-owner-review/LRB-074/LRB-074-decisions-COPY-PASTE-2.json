@@ -1,0 +1,32 @@
+{
+  "batch_id": "LRB-074",
+  "apply_mode": "EXACT_COPY_PASTE_ONLY_NO_NEW_LINGUISTIC_ANALYSIS",
+  "correction": 2,
+  "changes": {
+    "einmal|idx:700.study.examples": [
+      { "de": "Ich war einmal in Berlin.", "lv": "Eg var ein gong i Berlin." },
+      { "de": "Ich möchte das einmal versuchen.", "lv": "Eg vil prøve dette éin gong." }
+    ],
+    "Fernsehen|idx:688.study.examples": [
+      { "de": "Was gibt es heute im Fernsehen?", "lv": "Kva går på fjernsynet i dag?" },
+      { "de": "Im Fernsehen läuft ein Film.", "lv": "Det går ein film på fjernsynet." },
+      { "de": "Das Fernsehen ist heute langweilig.", "lv": "Fjernsynet er kjedeleg i dag." },
+      { "de": "Ich sehe heute Abend fern.", "lv": "Eg ser på fjernsyn i kveld." }
+    ],
+    "Gemüse|idx:692.study.examples": [
+      { "de": "Ich esse gern Gemüse.", "lv": "Eg et gjerne grønsaker." },
+      { "de": "Das Gemüse ist frisch.", "lv": "Grønsakene er ferske." },
+      { "de": "Wir kaufen Gemüse auf dem Markt.", "lv": "Vi kjøper grønsaker på marknaden." },
+      { "de": "Ich mag Obst und Gemüse.", "lv": "Eg likar frukt og grønsaker." }
+    ]
+  },
+  "required_metadata": {
+    "rows": "50/50",
+    "labot": 50,
+    "nelabot": 0,
+    "pending": 0,
+    "unique_target_cards_metadata": 46,
+    "unique_target_cards_gate": 46,
+    "copy_paste_patches": 3
+  }
+}
