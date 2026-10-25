@@ -1,0 +1,203 @@
+{
+  "statement": "Šis audits pārbauda LV-DE pret norādīto avotu. Bez avotu faila DE pareizība NAV pierādīta.",
+  "baseline": {
+    "masterVersionOnAuditedTree": "1.18",
+    "standardConsulted": "1.19",
+    "standardConsultedBranch": "cursor/master-version-numbering-f86b",
+    "standardConsultedSha": "d1028d7276dd63f075c5b3411ec0e02c26296341",
+    "section7158B": "ABSENT",
+    "auditMode": "LV_DE_INTERNAL_VERIFY",
+    "originMainSha": "f00f6b72afd693a8f6f86b42cd1631a0be7d9a6d",
+    "branch": "cursor/lv-de-verify-f86b",
+    "date": "2026-10-03",
+    "datasetProductionSha": "508ee76ef05e1bfae1f658ce3c9deceba40f430917de670dc746320d71dc191c",
+    "datasetFiles": {
+      "data/a1.js": "6a230668a3573540ff8759773a1608cbe9d3bc9e121eec10ef3b4e477043dfcd",
+      "data/a2.js": "f26576ae35db28d0aac3d5968439453f0fe99046b01ec071775909774fe2d29e",
+      "data/b1.js": "fc1e6d82d7e690276438ee66edd6c5eb502ccb4db67d81a24fdb1ffad6327cd5",
+      "data/b2.js": "e4c8bc2d94c918ecd938831f6337bf13eed7a0a4947c3a2e9f07fa886287bd30",
+      "data/c1.js": "af0c3e09af852daf0897b97bc76671d068413f355371fe9e5304fb9f16526f7f",
+      "data/c2.js": "61a5ba20033ad47fa1b1ae5594429ef2fb9c6bfcb0360b0ae876d230214ec184"
+    },
+    "lastFinalClosure": "NOT_RECORDED_FOR_LV_DE_WORDLIST",
+    "lastFinalClosureMainSha": "",
+    "lastFinalClosureDatasetBlob": "",
+    "unmergedClosureOrRepairFound": "NOT_CHECKED",
+    "baselineStatus": "SOURCE_PASS_NOT_RUN",
+    "ownerHistoryAvailable": "NO",
+    "ownerHistoryFilesLoaded": 0,
+    "ownerApprovedFields": "0/0/0/0",
+    "ownerHistoryGate": "NOT_RUN",
+    "rawAuditHistoryGate": "NOT_APPLICABLE",
+    "discoveryChurnRate": 0,
+    "auditDiscoveryNonReproducibility": 0,
+    "deReadOnly": "YES",
+    "pass1": "CHECKED",
+    "pass2": "NOT_RUN",
+    "sourceFile": "",
+    "sourceSha256": "",
+    "recordCount": 8618,
+    "verdict": "PARTIAL"
+  },
+  "summary": {
+    "A1": {
+      "records": 702,
+      "ARTICLE_FORMAT": 0,
+      "PLURAL_FORMAT": 0,
+      "DUPLICATE_IN_LEVEL": 0,
+      "DUPLICATE_ACROSS_LEVELS": 37,
+      "SAME_DE_DIFFERENT_ARTICLE": 0,
+      "EMPTY_ARTICLE": 363,
+      "EMPTY_PLURAL": 413,
+      "PLURAL_STEM_CHECK": 0,
+      "CASE_AND_WHITESPACE": 0,
+      "FOREIGN_SCRIPT": 0,
+      "LV_DIACRITIC": 0,
+      "RECORD_SHAPE": 0,
+      "NEEDS_SOURCE_REVIEW": 726
+    },
+    "A2": {
+      "records": 1640,
+      "ARTICLE_FORMAT": 0,
+      "PLURAL_FORMAT": 0,
+      "DUPLICATE_IN_LEVEL": 0,
+      "DUPLICATE_ACROSS_LEVELS": 25,
+      "SAME_DE_DIFFERENT_ARTICLE": 7,
+      "EMPTY_ARTICLE": 687,
+      "EMPTY_PLURAL": 804,
+      "PLURAL_STEM_CHECK": 4,
+      "CASE_AND_WHITESPACE": 0,
+      "FOREIGN_SCRIPT": 0,
+      "LV_DIACRITIC": 0,
+      "RECORD_SHAPE": 0,
+      "NEEDS_SOURCE_REVIEW": 1374
+    },
+    "B1": {
+      "records": 3367,
+      "ARTICLE_FORMAT": 0,
+      "PLURAL_FORMAT": 0,
+      "DUPLICATE_IN_LEVEL": 0,
+      "DUPLICATE_ACROSS_LEVELS": 11,
+      "SAME_DE_DIFFERENT_ARTICLE": 18,
+      "EMPTY_ARTICLE": 1369,
+      "EMPTY_PLURAL": 1498,
+      "PLURAL_STEM_CHECK": 10,
+      "CASE_AND_WHITESPACE": 0,
+      "FOREIGN_SCRIPT": 0,
+      "LV_DIACRITIC": 0,
+      "RECORD_SHAPE": 0,
+      "NEEDS_SOURCE_REVIEW": 2738
+    },
+    "B2": {
+      "records": 2118,
+      "ARTICLE_FORMAT": 0,
+      "PLURAL_FORMAT": 0,
+      "DUPLICATE_IN_LEVEL": 0,
+      "DUPLICATE_ACROSS_LEVELS": 3,
+      "SAME_DE_DIFFERENT_ARTICLE": 6,
+      "EMPTY_ARTICLE": 948,
+      "EMPTY_PLURAL": 1109,
+      "PLURAL_STEM_CHECK": 4,
+      "CASE_AND_WHITESPACE": 0,
+      "FOREIGN_SCRIPT": 0,
+      "LV_DIACRITIC": 0,
+      "RECORD_SHAPE": 0,
+      "NEEDS_SOURCE_REVIEW": 1896
+    },
+    "C1": {
+      "records": 572,
+      "ARTICLE_FORMAT": 0,
+      "PLURAL_FORMAT": 0,
+      "DUPLICATE_IN_LEVEL": 0,
+      "DUPLICATE_ACROSS_LEVELS": 4,
+      "SAME_DE_DIFFERENT_ARTICLE": 0,
+      "EMPTY_ARTICLE": 184,
+      "EMPTY_PLURAL": 219,
+      "PLURAL_STEM_CHECK": 2,
+      "CASE_AND_WHITESPACE": 0,
+      "FOREIGN_SCRIPT": 0,
+      "LV_DIACRITIC": 0,
+      "RECORD_SHAPE": 0,
+      "NEEDS_SOURCE_REVIEW": 368
+    },
+    "C2": {
+      "records": 219,
+      "ARTICLE_FORMAT": 0,
+      "PLURAL_FORMAT": 0,
+      "DUPLICATE_IN_LEVEL": 0,
+      "DUPLICATE_ACROSS_LEVELS": 0,
+      "SAME_DE_DIFFERENT_ARTICLE": 0,
+      "EMPTY_ARTICLE": 31,
+      "EMPTY_PLURAL": 39,
+      "PLURAL_STEM_CHECK": 1,
+      "CASE_AND_WHITESPACE": 0,
+      "FOREIGN_SCRIPT": 0,
+      "LV_DIACRITIC": 0,
+      "RECORD_SHAPE": 0,
+      "NEEDS_SOURCE_REVIEW": 62
+    }
+  },
+  "emptyByPos": {
+    "EMPTY_ARTICLE": {
+      "lietvārds": 0,
+      "īpašības vārds": 0,
+      "vietniekvārds": 0,
+      "darbības vārda frāze": 0,
+      "singulare tantum": 0,
+      "plurale tantum": 0,
+      "nezināms": 3582
+    },
+    "EMPTY_PLURAL": {
+      "lietvārds": 500,
+      "īpašības vārds": 0,
+      "vietniekvārds": 0,
+      "darbības vārda frāze": 0,
+      "singulare tantum": 0,
+      "plurale tantum": 0,
+      "nezināms": 3582
+    }
+  },
+  "counts": {
+    "FINDING": 80,
+    "NEEDS_SOURCE_REVIEW": 7164,
+    "REVIEW": 52,
+    "OBSERVATION": 500,
+    "sourceVerdicts": {
+      "NOT_RUN": 8618
+    }
+  },
+  "sourceResults": [],
+  "posEstimate": {
+    "counts": {
+      "darbības vārds (estimate)": 1795,
+      "īpašības vārds (estimate)": 1218,
+      "nezināms": 5605
+    },
+    "via": {
+      "verbs.js": 185,
+      "lv_ending": 2828,
+      "has_article": 5036,
+      "none": 569
+    },
+    "infinitivesInVerbsJs": 189,
+    "note": "ESTIMATE nav verdikts un nepiešķir PASS."
+  },
+  "duplicateFlags": {
+    "SAME_LV": 53,
+    "DIFFERENT_LV": 27
+  },
+  "emptyPluralByArticle": {
+    "das": {
+      "count": 134,
+      "pluralFormIndication": 0
+    },
+    "der": {
+      "count": 172,
+      "pluralFormIndication": 0
+    },
+    "die": {
+      "count": 194,
+      "pluralFormIndication": 9
+    }
+  }
+}
