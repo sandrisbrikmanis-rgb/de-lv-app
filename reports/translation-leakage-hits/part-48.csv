@@ -1,0 +1,1234 @@
+tree,lang,level,index,de,lv,value,check,detail
+data,fi,C2,181,Nebenbeschäftigung,blakus darbs,Kõrvaltöö,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,is,C2,181,Nebenbeschäftigung,blakus darbs,Kõrvaltöö,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,nb,C2,181,Nebenbeschäftigung,blakus darbs,Kõrvaltöö,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,nn,C2,181,Nebenbeschäftigung,blakus darbs,Kõrvaltöö,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,sv,C2,181,Nebenbeschäftigung,blakus darbs,Kõrvaltöö,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,hr,C2,181,Nebenbeschäftigung,blakus darbs,Podrazvoj,FAMILY_COPY_STRICT,hr+sr
+data,sr,C2,181,Nebenbeschäftigung,blakus darbs,Podrazvoj,FAMILY_COPY_STRICT,hr+sr
+data,it,C2,181,Nebenbeschäftigung,blakus darbs,Blakus darbs,FAMILY_COPY_STRICT,it+lb+nl+pt
+data,lb,C2,181,Nebenbeschäftigung,blakus darbs,Blakus darbs,FAMILY_COPY_STRICT,it+lb+nl+pt
+data,nl,C2,181,Nebenbeschäftigung,blakus darbs,Blakus darbs,FAMILY_COPY_STRICT,it+lb+nl+pt
+data,pt,C2,181,Nebenbeschäftigung,blakus darbs,Blakus darbs,FAMILY_COPY_STRICT,it+lb+nl+pt
+data,pl,C2,181,Nebenbeschäftigung,blakus darbs,Praca poboczna,FAMILY_COPY_STRICT,pl+sk+sq+tr
+data,sk,C2,181,Nebenbeschäftigung,blakus darbs,Praca poboczna,FAMILY_COPY_STRICT,pl+sk+sq+tr
+data,sq,C2,181,Nebenbeschäftigung,blakus darbs,Praca poboczna,FAMILY_COPY_STRICT,pl+sk+sq+tr
+data,tr,C2,181,Nebenbeschäftigung,blakus darbs,Praca poboczna,FAMILY_COPY_STRICT,pl+sk+sq+tr
+data,hr,C2,182,Nervenzusammenbruch,nervu sabrukums,Нервный срыв,SCRIPT_MISMATCH,
+data,hr,C2,182,Nervenzusammenbruch,nervu sabrukums,Нервный срыв,MARKER_LEAK,foreign_script
+data,it,C2,182,Nervenzusammenbruch,nervu sabrukums,Nervu sabrukums,SAME_AS_LV_CASEFOLD,casefold_only
+data,lb,C2,182,Nervenzusammenbruch,nervu sabrukums,Nervu sabrukums,SAME_AS_LV_CASEFOLD,casefold_only
+data,nl,C2,182,Nervenzusammenbruch,nervu sabrukums,Nervu sabrukums,SAME_AS_LV_CASEFOLD,casefold_only
+data,pt,C2,182,Nervenzusammenbruch,nervu sabrukums,Nervu sabrukums,SAME_AS_LV_CASEFOLD,casefold_only
+data,sk,C2,182,Nervenzusammenbruch,nervu sabrukums,Załamanie nerwowe,MARKER_LEAK,pl_l_s_z
+data,sl,C2,182,Nervenzusammenbruch,nervu sabrukums,nervu sabrukums,SAME_AS_LV_CASEFOLD,exact
+data,sq,C2,182,Nervenzusammenbruch,nervu sabrukums,Załamanie nerwowe,MARKER_LEAK,pl_l_s_z
+data,tr,C2,182,Nervenzusammenbruch,nervu sabrukums,Załamanie nerwowe,MARKER_LEAK,pl_l_s_z
+data,bg,C2,182,Nervenzusammenbruch,nervu sabrukums,Нервный срыв,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,hr,C2,182,Nervenzusammenbruch,nervu sabrukums,Нервный срыв,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,mk,C2,182,Nervenzusammenbruch,nervu sabrukums,Нервный срыв,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,ru,C2,182,Nervenzusammenbruch,nervu sabrukums,Нервный срыв,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,sr,C2,182,Nervenzusammenbruch,nervu sabrukums,Нервный срыв,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,fi,C2,182,Nervenzusammenbruch,nervu sabrukums,Närvivapustus,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,is,C2,182,Nervenzusammenbruch,nervu sabrukums,Närvivapustus,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,nb,C2,182,Nervenzusammenbruch,nervu sabrukums,Närvivapustus,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,nn,C2,182,Nervenzusammenbruch,nervu sabrukums,Närvivapustus,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,sv,C2,182,Nervenzusammenbruch,nervu sabrukums,Närvivapustus,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,it,C2,182,Nervenzusammenbruch,nervu sabrukums,Nervu sabrukums,FAMILY_COPY_STRICT,it+lb+nl+pt
+data,lb,C2,182,Nervenzusammenbruch,nervu sabrukums,Nervu sabrukums,FAMILY_COPY_STRICT,it+lb+nl+pt
+data,nl,C2,182,Nervenzusammenbruch,nervu sabrukums,Nervu sabrukums,FAMILY_COPY_STRICT,it+lb+nl+pt
+data,pt,C2,182,Nervenzusammenbruch,nervu sabrukums,Nervu sabrukums,FAMILY_COPY_STRICT,it+lb+nl+pt
+data,pl,C2,182,Nervenzusammenbruch,nervu sabrukums,Załamanie nerwowe,FAMILY_COPY_STRICT,pl+sk+sq+tr
+data,sk,C2,182,Nervenzusammenbruch,nervu sabrukums,Załamanie nerwowe,FAMILY_COPY_STRICT,pl+sk+sq+tr
+data,sq,C2,182,Nervenzusammenbruch,nervu sabrukums,Załamanie nerwowe,FAMILY_COPY_STRICT,pl+sk+sq+tr
+data,tr,C2,182,Nervenzusammenbruch,nervu sabrukums,Załamanie nerwowe,FAMILY_COPY_STRICT,pl+sk+sq+tr
+data,hr,C2,183,Parlamentarier,parlamenta deputāts • parlamentārietis,Член парламента • Парламентарий,SCRIPT_MISMATCH,
+data,hr,C2,183,Parlamentarier,parlamenta deputāts • parlamentārietis,Член парламента • Парламентарий,MARKER_LEAK,foreign_script
+data,it,C2,183,Parlamentarier,parlamenta deputāts • parlamentārietis,Parlamenta deputāts • Parlamentārietis,SAME_AS_LV_CASEFOLD,casefold_only
+data,it,C2,183,Parlamentarier,parlamenta deputāts • parlamentārietis,Parlamenta deputāts • Parlamentārietis,LV_DIACRITIC,
+data,it,C2,183,Parlamentarier,parlamenta deputāts • parlamentārietis,Parlamenta deputāts • Parlamentārietis,MARKER_LEAK,lv_macron_consonant
+data,lb,C2,183,Parlamentarier,parlamenta deputāts • parlamentārietis,Parlamenta deputāts • Parlamentārietis,SAME_AS_LV_CASEFOLD,casefold_only
+data,lb,C2,183,Parlamentarier,parlamenta deputāts • parlamentārietis,Parlamenta deputāts • Parlamentārietis,LV_DIACRITIC,
+data,lb,C2,183,Parlamentarier,parlamenta deputāts • parlamentārietis,Parlamenta deputāts • Parlamentārietis,MARKER_LEAK,lv_macron_consonant
+data,nl,C2,183,Parlamentarier,parlamenta deputāts • parlamentārietis,Parlamenta deputāts • Parlamentārietis,SAME_AS_LV_CASEFOLD,casefold_only
+data,nl,C2,183,Parlamentarier,parlamenta deputāts • parlamentārietis,Parlamenta deputāts • Parlamentārietis,LV_DIACRITIC,
+data,nl,C2,183,Parlamentarier,parlamenta deputāts • parlamentārietis,Parlamenta deputāts • Parlamentārietis,MARKER_LEAK,lv_macron_consonant
+data,pt,C2,183,Parlamentarier,parlamenta deputāts • parlamentārietis,Parlamentares • Parlamentārietis,LV_DIACRITIC,
+data,pt,C2,183,Parlamentarier,parlamenta deputāts • parlamentārietis,Parlamentares • Parlamentārietis,MARKER_LEAK,lv_macron_consonant
+data,sk,C2,183,Parlamentarier,parlamenta deputāts • parlamentārietis,Członek parlamentu • Parlamentarzysta,MARKER_LEAK,pl_l_s_z
+data,sl,C2,183,Parlamentarier,parlamenta deputāts • parlamentārietis,parlamenta deputāts • parlamentārietis,SAME_AS_LV_CASEFOLD,exact
+data,sl,C2,183,Parlamentarier,parlamenta deputāts • parlamentārietis,parlamenta deputāts • parlamentārietis,LV_DIACRITIC,
+data,sl,C2,183,Parlamentarier,parlamenta deputāts • parlamentārietis,parlamenta deputāts • parlamentārietis,MARKER_LEAK,lv_macron_consonant
+data,bg,C2,183,Parlamentarier,parlamenta deputāts • parlamentārietis,Член парламента • Парламентарий,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,hr,C2,183,Parlamentarier,parlamenta deputāts • parlamentārietis,Член парламента • Парламентарий,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,mk,C2,183,Parlamentarier,parlamenta deputāts • parlamentārietis,Член парламента • Парламентарий,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,ru,C2,183,Parlamentarier,parlamenta deputāts • parlamentārietis,Член парламента • Парламентарий,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,sr,C2,183,Parlamentarier,parlamenta deputāts • parlamentārietis,Член парламента • Парламентарий,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,fi,C2,183,Parlamentarier,parlamenta deputāts • parlamentārietis,Parlamendisaadik • Parlamendiliige,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,is,C2,183,Parlamentarier,parlamenta deputāts • parlamentārietis,Parlamendisaadik • Parlamendiliige,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,nb,C2,183,Parlamentarier,parlamenta deputāts • parlamentārietis,Parlamendisaadik • Parlamendiliige,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,nn,C2,183,Parlamentarier,parlamenta deputāts • parlamentārietis,Parlamendisaadik • Parlamendiliige,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,sv,C2,183,Parlamentarier,parlamenta deputāts • parlamentārietis,Parlamendisaadik • Parlamendiliige,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,it,C2,183,Parlamentarier,parlamenta deputāts • parlamentārietis,Parlamenta deputāts • Parlamentārietis,FAMILY_COPY_STRICT,it+lb+nl
+data,lb,C2,183,Parlamentarier,parlamenta deputāts • parlamentārietis,Parlamenta deputāts • Parlamentārietis,FAMILY_COPY_STRICT,it+lb+nl
+data,nl,C2,183,Parlamentarier,parlamenta deputāts • parlamentārietis,Parlamenta deputāts • Parlamentārietis,FAMILY_COPY_STRICT,it+lb+nl
+data,pl,C2,183,Parlamentarier,parlamenta deputāts • parlamentārietis,Członek parlamentu • Parlamentarzysta,FAMILY_COPY_STRICT,pl+sk
+data,sk,C2,183,Parlamentarier,parlamenta deputāts • parlamentārietis,Członek parlamentu • Parlamentarzysta,FAMILY_COPY_STRICT,pl+sk
+data,sq,C2,183,Parlamentarier,parlamenta deputāts • parlamentārietis,Milletvekili • Milletvekili,FAMILY_COPY_STRICT,sq+tr
+data,tr,C2,183,Parlamentarier,parlamenta deputāts • parlamentārietis,Milletvekili • Milletvekili,FAMILY_COPY_STRICT,sq+tr
+data,hr,C2,184,Pflichtversicherung,obligātā apdrošināšana,Обязательное страхование,SCRIPT_MISMATCH,
+data,hr,C2,184,Pflichtversicherung,obligātā apdrošināšana,Обязательное страхование,MARKER_LEAK,foreign_script
+data,it,C2,184,Pflichtversicherung,obligātā apdrošināšana,Obligātā apdrošināšana,SAME_AS_LV_CASEFOLD,casefold_only
+data,it,C2,184,Pflichtversicherung,obligātā apdrošināšana,Obligātā apdrošināšana,LV_DIACRITIC,
+data,it,C2,184,Pflichtversicherung,obligātā apdrošināšana,Obligātā apdrošināšana,MARKER_LEAK,lv_macron_consonant
+data,lb,C2,184,Pflichtversicherung,obligātā apdrošināšana,Obligātā apdrošināšana,SAME_AS_LV_CASEFOLD,casefold_only
+data,lb,C2,184,Pflichtversicherung,obligātā apdrošināšana,Obligātā apdrošināšana,LV_DIACRITIC,
+data,lb,C2,184,Pflichtversicherung,obligātā apdrošināšana,Obligātā apdrošināšana,MARKER_LEAK,lv_macron_consonant
+data,nl,C2,184,Pflichtversicherung,obligātā apdrošināšana,Obligātā apdrošināšana,SAME_AS_LV_CASEFOLD,casefold_only
+data,nl,C2,184,Pflichtversicherung,obligātā apdrošināšana,Obligātā apdrošināšana,LV_DIACRITIC,
+data,nl,C2,184,Pflichtversicherung,obligātā apdrošināšana,Obligātā apdrošināšana,MARKER_LEAK,lv_macron_consonant
+data,pt,C2,184,Pflichtversicherung,obligātā apdrošināšana,Obligātā apdrošināšana,SAME_AS_LV_CASEFOLD,casefold_only
+data,pt,C2,184,Pflichtversicherung,obligātā apdrošināšana,Obligātā apdrošināšana,LV_DIACRITIC,
+data,pt,C2,184,Pflichtversicherung,obligātā apdrošināšana,Obligātā apdrošināšana,MARKER_LEAK,lv_macron_consonant
+data,sk,C2,184,Pflichtversicherung,obligātā apdrošināšana,Obowiązkowe ubezpieczenie,MARKER_LEAK,pl_lt_nasal
+data,sl,C2,184,Pflichtversicherung,obligātā apdrošināšana,obligātā apdrošināšana,SAME_AS_LV_CASEFOLD,exact
+data,sl,C2,184,Pflichtversicherung,obligātā apdrošināšana,obligātā apdrošināšana,LV_DIACRITIC,
+data,sl,C2,184,Pflichtversicherung,obligātā apdrošināšana,obligātā apdrošināšana,MARKER_LEAK,lv_macron_consonant
+data,bg,C2,184,Pflichtversicherung,obligātā apdrošināšana,Обязательное страхование,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,hr,C2,184,Pflichtversicherung,obligātā apdrošināšana,Обязательное страхование,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,mk,C2,184,Pflichtversicherung,obligātā apdrošināšana,Обязательное страхование,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,ru,C2,184,Pflichtversicherung,obligātā apdrošināšana,Обязательное страхование,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,sr,C2,184,Pflichtversicherung,obligātā apdrošināšana,Обязательное страхование,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,fi,C2,184,Pflichtversicherung,obligātā apdrošināšana,Kohustuslik kindlustus,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,is,C2,184,Pflichtversicherung,obligātā apdrošināšana,Kohustuslik kindlustus,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,nb,C2,184,Pflichtversicherung,obligātā apdrošināšana,Kohustuslik kindlustus,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,nn,C2,184,Pflichtversicherung,obligātā apdrošināšana,Kohustuslik kindlustus,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,sv,C2,184,Pflichtversicherung,obligātā apdrošināšana,Kohustuslik kindlustus,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,it,C2,184,Pflichtversicherung,obligātā apdrošināšana,Obligātā apdrošināšana,FAMILY_COPY_STRICT,it+lb+nl+pt
+data,lb,C2,184,Pflichtversicherung,obligātā apdrošināšana,Obligātā apdrošināšana,FAMILY_COPY_STRICT,it+lb+nl+pt
+data,nl,C2,184,Pflichtversicherung,obligātā apdrošināšana,Obligātā apdrošināšana,FAMILY_COPY_STRICT,it+lb+nl+pt
+data,pt,C2,184,Pflichtversicherung,obligātā apdrošināšana,Obligātā apdrošināšana,FAMILY_COPY_STRICT,it+lb+nl+pt
+data,pl,C2,184,Pflichtversicherung,obligātā apdrošināšana,Obowiązkowe ubezpieczenie,FAMILY_COPY_STRICT,pl+sk
+data,sk,C2,184,Pflichtversicherung,obligātā apdrošināšana,Obowiązkowe ubezpieczenie,FAMILY_COPY_STRICT,pl+sk
+data,sq,C2,184,Pflichtversicherung,obligātā apdrošināšana,Zorunlu sigorta,FAMILY_COPY_STRICT,sq+tr
+data,tr,C2,184,Pflichtversicherung,obligātā apdrošināšana,Zorunlu sigorta,FAMILY_COPY_STRICT,sq+tr
+data,hr,C2,185,politische Ökonomie,politiskā ekonomija,Политическая экономия,SCRIPT_MISMATCH,
+data,hr,C2,185,politische Ökonomie,politiskā ekonomija,Политическая экономия,MARKER_LEAK,foreign_script
+data,it,C2,185,politische Ökonomie,politiskā ekonomija,Politiskā ekonomija,SAME_AS_LV_CASEFOLD,casefold_only
+data,it,C2,185,politische Ökonomie,politiskā ekonomija,Politiskā ekonomija,LV_DIACRITIC,
+data,it,C2,185,politische Ökonomie,politiskā ekonomija,Politiskā ekonomija,MARKER_LEAK,lv_macron_consonant
+data,lb,C2,185,politische Ökonomie,politiskā ekonomija,Politiskā ekonomija,SAME_AS_LV_CASEFOLD,casefold_only
+data,lb,C2,185,politische Ökonomie,politiskā ekonomija,Politiskā ekonomija,LV_DIACRITIC,
+data,lb,C2,185,politische Ökonomie,politiskā ekonomija,Politiskā ekonomija,MARKER_LEAK,lv_macron_consonant
+data,nl,C2,185,politische Ökonomie,politiskā ekonomija,Politiskā ekonomija,SAME_AS_LV_CASEFOLD,casefold_only
+data,nl,C2,185,politische Ökonomie,politiskā ekonomija,Politiskā ekonomija,LV_DIACRITIC,
+data,nl,C2,185,politische Ökonomie,politiskā ekonomija,Politiskā ekonomija,MARKER_LEAK,lv_macron_consonant
+data,sl,C2,185,politische Ökonomie,politiskā ekonomija,politiskā ekonomija,SAME_AS_LV_CASEFOLD,exact
+data,sl,C2,185,politische Ökonomie,politiskā ekonomija,politiskā ekonomija,LV_DIACRITIC,
+data,sl,C2,185,politische Ökonomie,politiskā ekonomija,politiskā ekonomija,MARKER_LEAK,lv_macron_consonant
+data,bg,C2,185,politische Ökonomie,politiskā ekonomija,Политическая экономия,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,hr,C2,185,politische Ökonomie,politiskā ekonomija,Политическая экономия,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,mk,C2,185,politische Ökonomie,politiskā ekonomija,Политическая экономия,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,ru,C2,185,politische Ökonomie,politiskā ekonomija,Политическая экономия,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,sr,C2,185,politische Ökonomie,politiskā ekonomija,Политическая экономия,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,fi,C2,185,politische Ökonomie,politiskā ekonomija,Poliitiline ökonoomia,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,is,C2,185,politische Ökonomie,politiskā ekonomija,Poliitiline ökonoomia,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,nb,C2,185,politische Ökonomie,politiskā ekonomija,Poliitiline ökonoomia,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,nn,C2,185,politische Ökonomie,politiskā ekonomija,Poliitiline ökonoomia,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,sv,C2,185,politische Ökonomie,politiskā ekonomija,Poliitiline ökonoomia,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,it,C2,185,politische Ökonomie,politiskā ekonomija,Politiskā ekonomija,FAMILY_COPY_STRICT,it+lb+nl
+data,lb,C2,185,politische Ökonomie,politiskā ekonomija,Politiskā ekonomija,FAMILY_COPY_STRICT,it+lb+nl
+data,nl,C2,185,politische Ökonomie,politiskā ekonomija,Politiskā ekonomija,FAMILY_COPY_STRICT,it+lb+nl
+data,pl,C2,185,politische Ökonomie,politiskā ekonomija,Ekonomia polityczna,FAMILY_COPY_STRICT,pl+sk+sq+tr
+data,sk,C2,185,politische Ökonomie,politiskā ekonomija,Ekonomia polityczna,FAMILY_COPY_STRICT,pl+sk+sq+tr
+data,sq,C2,185,politische Ökonomie,politiskā ekonomija,Ekonomia polityczna,FAMILY_COPY_STRICT,pl+sk+sq+tr
+data,tr,C2,185,politische Ökonomie,politiskā ekonomija,Ekonomia polityczna,FAMILY_COPY_STRICT,pl+sk+sq+tr
+data,hr,C2,186,populärwissenschaftlich,populārzinātnisks,Научно-популярная,SCRIPT_MISMATCH,
+data,hr,C2,186,populärwissenschaftlich,populārzinātnisks,Научно-популярная,MARKER_LEAK,foreign_script
+data,it,C2,186,populärwissenschaftlich,populārzinātnisks,Populārzinātnisks,SAME_AS_LV_CASEFOLD,casefold_only
+data,it,C2,186,populärwissenschaftlich,populārzinātnisks,Populārzinātnisks,LV_DIACRITIC,
+data,it,C2,186,populärwissenschaftlich,populārzinātnisks,Populārzinātnisks,MARKER_LEAK,lv_macron_consonant
+data,lb,C2,186,populärwissenschaftlich,populārzinātnisks,Populārzinātnisks,SAME_AS_LV_CASEFOLD,casefold_only
+data,lb,C2,186,populärwissenschaftlich,populārzinātnisks,Populārzinātnisks,LV_DIACRITIC,
+data,lb,C2,186,populärwissenschaftlich,populārzinātnisks,Populārzinātnisks,MARKER_LEAK,lv_macron_consonant
+data,nl,C2,186,populärwissenschaftlich,populārzinātnisks,Populārzinātnisks,SAME_AS_LV_CASEFOLD,casefold_only
+data,nl,C2,186,populärwissenschaftlich,populārzinātnisks,Populārzinātnisks,LV_DIACRITIC,
+data,nl,C2,186,populärwissenschaftlich,populārzinātnisks,Populārzinātnisks,MARKER_LEAK,lv_macron_consonant
+data,sl,C2,186,populärwissenschaftlich,populārzinātnisks,populārzinātnisks,SAME_AS_LV_CASEFOLD,exact
+data,sl,C2,186,populärwissenschaftlich,populārzinātnisks,populārzinātnisks,LV_DIACRITIC,
+data,sl,C2,186,populärwissenschaftlich,populārzinātnisks,populārzinātnisks,MARKER_LEAK,lv_macron_consonant
+data,bg,C2,186,populärwissenschaftlich,populārzinātnisks,Научно-популярная,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,hr,C2,186,populärwissenschaftlich,populārzinātnisks,Научно-популярная,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,mk,C2,186,populärwissenschaftlich,populārzinātnisks,Научно-популярная,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,ru,C2,186,populärwissenschaftlich,populārzinātnisks,Научно-популярная,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,sr,C2,186,populärwissenschaftlich,populārzinātnisks,Научно-популярная,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,fi,C2,186,populärwissenschaftlich,populārzinātnisks,Populaarteaduslik,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,is,C2,186,populärwissenschaftlich,populārzinātnisks,Populaarteaduslik,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,nb,C2,186,populärwissenschaftlich,populārzinātnisks,Populaarteaduslik,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,nn,C2,186,populärwissenschaftlich,populārzinātnisks,Populaarteaduslik,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,sv,C2,186,populärwissenschaftlich,populārzinātnisks,Populaarteaduslik,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,it,C2,186,populärwissenschaftlich,populārzinātnisks,Populārzinātnisks,FAMILY_COPY_STRICT,it+lb+nl
+data,lb,C2,186,populärwissenschaftlich,populārzinātnisks,Populārzinātnisks,FAMILY_COPY_STRICT,it+lb+nl
+data,nl,C2,186,populärwissenschaftlich,populārzinātnisks,Populārzinātnisks,FAMILY_COPY_STRICT,it+lb+nl
+data,pl,C2,186,populärwissenschaftlich,populārzinātnisks,Popularno-naukowa,FAMILY_COPY_STRICT,pl+sk+sq+tr
+data,sk,C2,186,populärwissenschaftlich,populārzinātnisks,Popularno-naukowa,FAMILY_COPY_STRICT,pl+sk+sq+tr
+data,sq,C2,186,populärwissenschaftlich,populārzinātnisks,Popularno-naukowa,FAMILY_COPY_STRICT,pl+sk+sq+tr
+data,tr,C2,186,populärwissenschaftlich,populārzinātnisks,Popularno-naukowa,FAMILY_COPY_STRICT,pl+sk+sq+tr
+data,fi,C2,187,Preisausschreiben,konkurss,Võistlus,MARKER_LEAK,et_otilde
+data,hr,C2,187,Preisausschreiben,konkurss,Соревнование,SCRIPT_MISMATCH,
+data,hr,C2,187,Preisausschreiben,konkurss,Соревнование,MARKER_LEAK,foreign_script
+data,is,C2,187,Preisausschreiben,konkurss,Võistlus,MARKER_LEAK,et_otilde
+data,it,C2,187,Preisausschreiben,konkurss,Konkurss,SAME_AS_LV_CASEFOLD,casefold_only
+data,lb,C2,187,Preisausschreiben,konkurss,Konkurss,SAME_AS_LV_CASEFOLD,casefold_only
+data,nb,C2,187,Preisausschreiben,konkurss,Võistlus,MARKER_LEAK,et_otilde
+data,nl,C2,187,Preisausschreiben,konkurss,Konkurss,SAME_AS_LV_CASEFOLD,casefold_only
+data,nn,C2,187,Preisausschreiben,konkurss,Võistlus,MARKER_LEAK,et_otilde
+data,pt,C2,187,Preisausschreiben,konkurss,Konkurss,SAME_AS_LV_CASEFOLD,casefold_only
+data,sl,C2,187,Preisausschreiben,konkurss,konkurss,SAME_AS_LV_CASEFOLD,exact
+data,sv,C2,187,Preisausschreiben,konkurss,Võistlus,MARKER_LEAK,et_otilde
+data,bg,C2,187,Preisausschreiben,konkurss,Соревнование,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,hr,C2,187,Preisausschreiben,konkurss,Соревнование,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,mk,C2,187,Preisausschreiben,konkurss,Соревнование,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,ru,C2,187,Preisausschreiben,konkurss,Соревнование,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,sr,C2,187,Preisausschreiben,konkurss,Соревнование,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,fi,C2,187,Preisausschreiben,konkurss,Võistlus,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,is,C2,187,Preisausschreiben,konkurss,Võistlus,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,nb,C2,187,Preisausschreiben,konkurss,Võistlus,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,nn,C2,187,Preisausschreiben,konkurss,Võistlus,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,sv,C2,187,Preisausschreiben,konkurss,Võistlus,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,it,C2,187,Preisausschreiben,konkurss,Konkurss,FAMILY_COPY_STRICT,it+lb+nl+pt
+data,lb,C2,187,Preisausschreiben,konkurss,Konkurss,FAMILY_COPY_STRICT,it+lb+nl+pt
+data,nl,C2,187,Preisausschreiben,konkurss,Konkurss,FAMILY_COPY_STRICT,it+lb+nl+pt
+data,pt,C2,187,Preisausschreiben,konkurss,Konkurss,FAMILY_COPY_STRICT,it+lb+nl+pt
+data,pl,C2,187,Preisausschreiben,konkurss,Konkurs,FAMILY_COPY_STRICT,pl+sk+sq+tr
+data,sk,C2,187,Preisausschreiben,konkurss,Konkurs,FAMILY_COPY_STRICT,pl+sk+sq+tr
+data,sq,C2,187,Preisausschreiben,konkurss,Konkurs,FAMILY_COPY_STRICT,pl+sk+sq+tr
+data,tr,C2,187,Preisausschreiben,konkurss,Konkurs,FAMILY_COPY_STRICT,pl+sk+sq+tr
+data,hr,C2,188,rechtsextremistisch,labēji ekstrēmistisks,Правый экстремист,SCRIPT_MISMATCH,
+data,hr,C2,188,rechtsextremistisch,labēji ekstrēmistisks,Правый экстремист,MARKER_LEAK,foreign_script
+data,it,C2,188,rechtsextremistisch,labēji ekstrēmistisks,Labēji ekstrēmistisks,SAME_AS_LV_CASEFOLD,casefold_only
+data,it,C2,188,rechtsextremistisch,labēji ekstrēmistisks,Labēji ekstrēmistisks,LV_DIACRITIC,
+data,it,C2,188,rechtsextremistisch,labēji ekstrēmistisks,Labēji ekstrēmistisks,MARKER_LEAK,lv_macron_consonant
+data,lb,C2,188,rechtsextremistisch,labēji ekstrēmistisks,Labēji ekstrēmistisks,SAME_AS_LV_CASEFOLD,casefold_only
+data,lb,C2,188,rechtsextremistisch,labēji ekstrēmistisks,Labēji ekstrēmistisks,LV_DIACRITIC,
+data,lb,C2,188,rechtsextremistisch,labēji ekstrēmistisks,Labēji ekstrēmistisks,MARKER_LEAK,lv_macron_consonant
+data,nl,C2,188,rechtsextremistisch,labēji ekstrēmistisks,Labēji ekstrēmistisks,SAME_AS_LV_CASEFOLD,casefold_only
+data,nl,C2,188,rechtsextremistisch,labēji ekstrēmistisks,Labēji ekstrēmistisks,LV_DIACRITIC,
+data,nl,C2,188,rechtsextremistisch,labēji ekstrēmistisks,Labēji ekstrēmistisks,MARKER_LEAK,lv_macron_consonant
+data,pt,C2,188,rechtsextremistisch,labēji ekstrēmistisks,Labēji estremistista,LV_DIACRITIC,
+data,pt,C2,188,rechtsextremistisch,labēji ekstrēmistisks,Labēji estremistista,MARKER_LEAK,lv_macron_consonant
+data,sl,C2,188,rechtsextremistisch,labēji ekstrēmistisks,labēji ekstrēmistisks,SAME_AS_LV_CASEFOLD,exact
+data,sl,C2,188,rechtsextremistisch,labēji ekstrēmistisks,labēji ekstrēmistisks,LV_DIACRITIC,
+data,sl,C2,188,rechtsextremistisch,labēji ekstrēmistisks,labēji ekstrēmistisks,MARKER_LEAK,lv_macron_consonant
+data,bg,C2,188,rechtsextremistisch,labēji ekstrēmistisks,Правый экстремист,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,hr,C2,188,rechtsextremistisch,labēji ekstrēmistisks,Правый экстремист,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,mk,C2,188,rechtsextremistisch,labēji ekstrēmistisks,Правый экстремист,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,ru,C2,188,rechtsextremistisch,labēji ekstrēmistisks,Правый экстремист,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,sr,C2,188,rechtsextremistisch,labēji ekstrēmistisks,Правый экстремист,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,fi,C2,188,rechtsextremistisch,labēji ekstrēmistisks,Paremäärmuslik,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,is,C2,188,rechtsextremistisch,labēji ekstrēmistisks,Paremäärmuslik,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,nb,C2,188,rechtsextremistisch,labēji ekstrēmistisks,Paremäärmuslik,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,nn,C2,188,rechtsextremistisch,labēji ekstrēmistisks,Paremäärmuslik,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,sv,C2,188,rechtsextremistisch,labēji ekstrēmistisks,Paremäärmuslik,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,it,C2,188,rechtsextremistisch,labēji ekstrēmistisks,Labēji ekstrēmistisks,FAMILY_COPY_STRICT,it+lb+nl
+data,lb,C2,188,rechtsextremistisch,labēji ekstrēmistisks,Labēji ekstrēmistisks,FAMILY_COPY_STRICT,it+lb+nl
+data,nl,C2,188,rechtsextremistisch,labēji ekstrēmistisks,Labēji ekstrēmistisks,FAMILY_COPY_STRICT,it+lb+nl
+data,pl,C2,188,rechtsextremistisch,labēji ekstrēmistisks,Prawicowy ekstremista,FAMILY_COPY_STRICT,pl+sk+sq+tr
+data,sk,C2,188,rechtsextremistisch,labēji ekstrēmistisks,Prawicowy ekstremista,FAMILY_COPY_STRICT,pl+sk+sq+tr
+data,sq,C2,188,rechtsextremistisch,labēji ekstrēmistisks,Prawicowy ekstremista,FAMILY_COPY_STRICT,pl+sk+sq+tr
+data,tr,C2,188,rechtsextremistisch,labēji ekstrēmistisks,Prawicowy ekstremista,FAMILY_COPY_STRICT,pl+sk+sq+tr
+data,hr,C2,189,Satellitenübertragung,satelīttelevīzijas pārraide,Передача спутникового телевидения,SCRIPT_MISMATCH,
+data,hr,C2,189,Satellitenübertragung,satelīttelevīzijas pārraide,Передача спутникового телевидения,MARKER_LEAK,foreign_script
+data,it,C2,189,Satellitenübertragung,satelīttelevīzijas pārraide,Satelīttelevīzijas pārraide,SAME_AS_LV_CASEFOLD,casefold_only
+data,it,C2,189,Satellitenübertragung,satelīttelevīzijas pārraide,Satelīttelevīzijas pārraide,LV_DIACRITIC,
+data,it,C2,189,Satellitenübertragung,satelīttelevīzijas pārraide,Satelīttelevīzijas pārraide,MARKER_LEAK,lv_macron_consonant
+data,lb,C2,189,Satellitenübertragung,satelīttelevīzijas pārraide,Satelīttelevīzijas pārraide,SAME_AS_LV_CASEFOLD,casefold_only
+data,lb,C2,189,Satellitenübertragung,satelīttelevīzijas pārraide,Satelīttelevīzijas pārraide,LV_DIACRITIC,
+data,lb,C2,189,Satellitenübertragung,satelīttelevīzijas pārraide,Satelīttelevīzijas pārraide,MARKER_LEAK,lv_macron_consonant
+data,nl,C2,189,Satellitenübertragung,satelīttelevīzijas pārraide,Satelīttelevīzijas pārraide,SAME_AS_LV_CASEFOLD,casefold_only
+data,nl,C2,189,Satellitenübertragung,satelīttelevīzijas pārraide,Satelīttelevīzijas pārraide,LV_DIACRITIC,
+data,nl,C2,189,Satellitenübertragung,satelīttelevīzijas pārraide,Satelīttelevīzijas pārraide,MARKER_LEAK,lv_macron_consonant
+data,pt,C2,189,Satellitenübertragung,satelīttelevīzijas pārraide,Parraide Satelīttelevīzijas,LV_DIACRITIC,
+data,pt,C2,189,Satellitenübertragung,satelīttelevīzijas pārraide,Parraide Satelīttelevīzijas,MARKER_LEAK,lv_macron_consonant
+data,sl,C2,189,Satellitenübertragung,satelīttelevīzijas pārraide,satelīttelevīzijas pārraide,SAME_AS_LV_CASEFOLD,exact
+data,sl,C2,189,Satellitenübertragung,satelīttelevīzijas pārraide,satelīttelevīzijas pārraide,LV_DIACRITIC,
+data,sl,C2,189,Satellitenübertragung,satelīttelevīzijas pārraide,satelīttelevīzijas pārraide,MARKER_LEAK,lv_macron_consonant
+data,bg,C2,189,Satellitenübertragung,satelīttelevīzijas pārraide,Передача спутникового телевидения,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,hr,C2,189,Satellitenübertragung,satelīttelevīzijas pārraide,Передача спутникового телевидения,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,mk,C2,189,Satellitenübertragung,satelīttelevīzijas pārraide,Передача спутникового телевидения,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,ru,C2,189,Satellitenübertragung,satelīttelevīzijas pārraide,Передача спутникового телевидения,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,sr,C2,189,Satellitenübertragung,satelīttelevīzijas pārraide,Передача спутникового телевидения,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,fi,C2,189,Satellitenübertragung,satelīttelevīzijas pārraide,Satelliitülekanne,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,is,C2,189,Satellitenübertragung,satelīttelevīzijas pārraide,Satelliitülekanne,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,nb,C2,189,Satellitenübertragung,satelīttelevīzijas pārraide,Satelliitülekanne,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,nn,C2,189,Satellitenübertragung,satelīttelevīzijas pārraide,Satelliitülekanne,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,sv,C2,189,Satellitenübertragung,satelīttelevīzijas pārraide,Satelliitülekanne,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,it,C2,189,Satellitenübertragung,satelīttelevīzijas pārraide,Satelīttelevīzijas pārraide,FAMILY_COPY_STRICT,it+lb+nl
+data,lb,C2,189,Satellitenübertragung,satelīttelevīzijas pārraide,Satelīttelevīzijas pārraide,FAMILY_COPY_STRICT,it+lb+nl
+data,nl,C2,189,Satellitenübertragung,satelīttelevīzijas pārraide,Satelīttelevīzijas pārraide,FAMILY_COPY_STRICT,it+lb+nl
+data,pl,C2,189,Satellitenübertragung,satelīttelevīzijas pārraide,Transmisja telewizji satelitarnej,FAMILY_COPY_STRICT,pl+sk+sq+tr
+data,sk,C2,189,Satellitenübertragung,satelīttelevīzijas pārraide,Transmisja telewizji satelitarnej,FAMILY_COPY_STRICT,pl+sk+sq+tr
+data,sq,C2,189,Satellitenübertragung,satelīttelevīzijas pārraide,Transmisja telewizji satelitarnej,FAMILY_COPY_STRICT,pl+sk+sq+tr
+data,tr,C2,189,Satellitenübertragung,satelīttelevīzijas pārraide,Transmisja telewizji satelitarnej,FAMILY_COPY_STRICT,pl+sk+sq+tr
+data,hr,C2,190,Scheidungsprozess,šķiršanās prāva,Бракоразводный процесс,SCRIPT_MISMATCH,
+data,hr,C2,190,Scheidungsprozess,šķiršanās prāva,Бракоразводный процесс,MARKER_LEAK,foreign_script
+data,it,C2,190,Scheidungsprozess,šķiršanās prāva,Šķiršanās prāva,SAME_AS_LV_CASEFOLD,casefold_only
+data,it,C2,190,Scheidungsprozess,šķiršanās prāva,Šķiršanās prāva,LV_DIACRITIC,
+data,it,C2,190,Scheidungsprozess,šķiršanās prāva,Šķiršanās prāva,MARKER_LEAK,lv_macron_consonant
+data,lb,C2,190,Scheidungsprozess,šķiršanās prāva,Šķiršanās prāva,SAME_AS_LV_CASEFOLD,casefold_only
+data,lb,C2,190,Scheidungsprozess,šķiršanās prāva,Šķiršanās prāva,LV_DIACRITIC,
+data,lb,C2,190,Scheidungsprozess,šķiršanās prāva,Šķiršanās prāva,MARKER_LEAK,lv_macron_consonant
+data,nl,C2,190,Scheidungsprozess,šķiršanās prāva,Šķiršanās prāva,SAME_AS_LV_CASEFOLD,casefold_only
+data,nl,C2,190,Scheidungsprozess,šķiršanās prāva,Šķiršanās prāva,LV_DIACRITIC,
+data,nl,C2,190,Scheidungsprozess,šķiršanās prāva,Šķiršanās prāva,MARKER_LEAK,lv_macron_consonant
+data,pt,C2,190,Scheidungsprozess,šķiršanās prāva,Šķiršanās prāva,SAME_AS_LV_CASEFOLD,casefold_only
+data,pt,C2,190,Scheidungsprozess,šķiršanās prāva,Šķiršanās prāva,LV_DIACRITIC,
+data,pt,C2,190,Scheidungsprozess,šķiršanās prāva,Šķiršanās prāva,MARKER_LEAK,lv_macron_consonant
+data,sk,C2,190,Scheidungsprozess,šķiršanās prāva,Postępowanie rozwodowe,MARKER_LEAK,pl_lt_nasal
+data,sl,C2,190,Scheidungsprozess,šķiršanās prāva,šķiršanās prāva,SAME_AS_LV_CASEFOLD,exact
+data,sl,C2,190,Scheidungsprozess,šķiršanās prāva,šķiršanās prāva,LV_DIACRITIC,
+data,sl,C2,190,Scheidungsprozess,šķiršanās prāva,šķiršanās prāva,MARKER_LEAK,lv_macron_consonant
+data,sq,C2,190,Scheidungsprozess,šķiršanās prāva,Boşanma davası,MARKER_LEAK,tr_soft
+data,bg,C2,190,Scheidungsprozess,šķiršanās prāva,Бракоразводный процесс,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,hr,C2,190,Scheidungsprozess,šķiršanās prāva,Бракоразводный процесс,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,mk,C2,190,Scheidungsprozess,šķiršanās prāva,Бракоразводный процесс,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,ru,C2,190,Scheidungsprozess,šķiršanās prāva,Бракоразводный процесс,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,sr,C2,190,Scheidungsprozess,šķiršanās prāva,Бракоразводный процесс,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,fi,C2,190,Scheidungsprozess,šķiršanās prāva,Lahutusprotsess,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,is,C2,190,Scheidungsprozess,šķiršanās prāva,Lahutusprotsess,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,nb,C2,190,Scheidungsprozess,šķiršanās prāva,Lahutusprotsess,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,nn,C2,190,Scheidungsprozess,šķiršanās prāva,Lahutusprotsess,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,sv,C2,190,Scheidungsprozess,šķiršanās prāva,Lahutusprotsess,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,it,C2,190,Scheidungsprozess,šķiršanās prāva,Šķiršanās prāva,FAMILY_COPY_STRICT,it+lb+nl+pt
+data,lb,C2,190,Scheidungsprozess,šķiršanās prāva,Šķiršanās prāva,FAMILY_COPY_STRICT,it+lb+nl+pt
+data,nl,C2,190,Scheidungsprozess,šķiršanās prāva,Šķiršanās prāva,FAMILY_COPY_STRICT,it+lb+nl+pt
+data,pt,C2,190,Scheidungsprozess,šķiršanās prāva,Šķiršanās prāva,FAMILY_COPY_STRICT,it+lb+nl+pt
+data,pl,C2,190,Scheidungsprozess,šķiršanās prāva,Postępowanie rozwodowe,FAMILY_COPY_STRICT,pl+sk
+data,sk,C2,190,Scheidungsprozess,šķiršanās prāva,Postępowanie rozwodowe,FAMILY_COPY_STRICT,pl+sk
+data,sq,C2,190,Scheidungsprozess,šķiršanās prāva,Boşanma davası,FAMILY_COPY_STRICT,sq+tr
+data,tr,C2,190,Scheidungsprozess,šķiršanās prāva,Boşanma davası,FAMILY_COPY_STRICT,sq+tr
+data,hr,C2,191,Beschwerdeschrift,sūdzība,Жалба,SCRIPT_MISMATCH,
+data,hr,C2,191,Beschwerdeschrift,sūdzība,Жалба,MARKER_LEAK,foreign_script
+data,it,C2,191,Beschwerdeschrift,sūdzība,Sūdzība,SAME_AS_LV_CASEFOLD,casefold_only
+data,it,C2,191,Beschwerdeschrift,sūdzība,Sūdzība,LV_DIACRITIC,
+data,it,C2,191,Beschwerdeschrift,sūdzība,Sūdzība,MARKER_LEAK,lv_macron_consonant+lv_u_macron
+data,lb,C2,191,Beschwerdeschrift,sūdzība,Sūdzība,SAME_AS_LV_CASEFOLD,casefold_only
+data,lb,C2,191,Beschwerdeschrift,sūdzība,Sūdzība,LV_DIACRITIC,
+data,lb,C2,191,Beschwerdeschrift,sūdzība,Sūdzība,MARKER_LEAK,lv_macron_consonant+lv_u_macron
+data,nl,C2,191,Beschwerdeschrift,sūdzība,Sūdzība,SAME_AS_LV_CASEFOLD,casefold_only
+data,nl,C2,191,Beschwerdeschrift,sūdzība,Sūdzība,LV_DIACRITIC,
+data,nl,C2,191,Beschwerdeschrift,sūdzība,Sūdzība,MARKER_LEAK,lv_macron_consonant+lv_u_macron
+data,sl,C2,191,Beschwerdeschrift,sūdzība,sūdzība,SAME_AS_LV_CASEFOLD,exact
+data,sl,C2,191,Beschwerdeschrift,sūdzība,sūdzība,LV_DIACRITIC,
+data,sl,C2,191,Beschwerdeschrift,sūdzība,sūdzība,MARKER_LEAK,lv_macron_consonant+lv_u_macron
+data,sq,C2,191,Beschwerdeschrift,sūdzība,Yakınması,MARKER_LEAK,tr_soft
+data,bg,C2,191,Beschwerdeschrift,sūdzība,Жалба,FAMILY_COPY_STRICT,bg+hr+mk+sr
+data,hr,C2,191,Beschwerdeschrift,sūdzība,Жалба,FAMILY_COPY_STRICT,bg+hr+mk+sr
+data,mk,C2,191,Beschwerdeschrift,sūdzība,Жалба,FAMILY_COPY_STRICT,bg+hr+mk+sr
+data,sr,C2,191,Beschwerdeschrift,sūdzība,Жалба,FAMILY_COPY_STRICT,bg+hr+mk+sr
+data,fi,C2,191,Beschwerdeschrift,sūdzība,Kaebus,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,is,C2,191,Beschwerdeschrift,sūdzība,Kaebus,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,nb,C2,191,Beschwerdeschrift,sūdzība,Kaebus,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,nn,C2,191,Beschwerdeschrift,sūdzība,Kaebus,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,sv,C2,191,Beschwerdeschrift,sūdzība,Kaebus,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,it,C2,191,Beschwerdeschrift,sūdzība,Sūdzība,FAMILY_COPY_STRICT,it+lb+nl
+data,lb,C2,191,Beschwerdeschrift,sūdzība,Sūdzība,FAMILY_COPY_STRICT,it+lb+nl
+data,nl,C2,191,Beschwerdeschrift,sūdzība,Sūdzība,FAMILY_COPY_STRICT,it+lb+nl
+data,pl,C2,191,Beschwerdeschrift,sūdzība,Skarga,FAMILY_COPY_STRICT,pl+sk
+data,sk,C2,191,Beschwerdeschrift,sūdzība,Skarga,FAMILY_COPY_STRICT,pl+sk
+data,sq,C2,191,Beschwerdeschrift,sūdzība,Yakınması,FAMILY_COPY_STRICT,sq+tr
+data,tr,C2,191,Beschwerdeschrift,sūdzība,Yakınması,FAMILY_COPY_STRICT,sq+tr
+data,hr,C2,192,Schwangerschaftsabbruch,grūtniecības pārtraukšana,Прерывание беременности,SCRIPT_MISMATCH,
+data,hr,C2,192,Schwangerschaftsabbruch,grūtniecības pārtraukšana,Прерывание беременности,MARKER_LEAK,foreign_script
+data,it,C2,192,Schwangerschaftsabbruch,grūtniecības pārtraukšana,Grūtniecības pārtraukšana,SAME_AS_LV_CASEFOLD,casefold_only
+data,it,C2,192,Schwangerschaftsabbruch,grūtniecības pārtraukšana,Grūtniecības pārtraukšana,LV_DIACRITIC,
+data,it,C2,192,Schwangerschaftsabbruch,grūtniecības pārtraukšana,Grūtniecības pārtraukšana,MARKER_LEAK,lv_macron_consonant+lv_u_macron
+data,lb,C2,192,Schwangerschaftsabbruch,grūtniecības pārtraukšana,Grūtniecības pārtraukšana,SAME_AS_LV_CASEFOLD,casefold_only
+data,lb,C2,192,Schwangerschaftsabbruch,grūtniecības pārtraukšana,Grūtniecības pārtraukšana,LV_DIACRITIC,
+data,lb,C2,192,Schwangerschaftsabbruch,grūtniecības pārtraukšana,Grūtniecības pārtraukšana,MARKER_LEAK,lv_macron_consonant+lv_u_macron
+data,nl,C2,192,Schwangerschaftsabbruch,grūtniecības pārtraukšana,Grūtniecības pārtraukšana,SAME_AS_LV_CASEFOLD,casefold_only
+data,nl,C2,192,Schwangerschaftsabbruch,grūtniecības pārtraukšana,Grūtniecības pārtraukšana,LV_DIACRITIC,
+data,nl,C2,192,Schwangerschaftsabbruch,grūtniecības pārtraukšana,Grūtniecības pārtraukšana,MARKER_LEAK,lv_macron_consonant+lv_u_macron
+data,pt,C2,192,Schwangerschaftsabbruch,grūtniecības pārtraukšana,Grūtniecības pārtraukšana,SAME_AS_LV_CASEFOLD,casefold_only
+data,pt,C2,192,Schwangerschaftsabbruch,grūtniecības pārtraukšana,Grūtniecības pārtraukšana,LV_DIACRITIC,
+data,pt,C2,192,Schwangerschaftsabbruch,grūtniecības pārtraukšana,Grūtniecības pārtraukšana,MARKER_LEAK,lv_macron_consonant+lv_u_macron
+data,sk,C2,192,Schwangerschaftsabbruch,grūtniecības pārtraukšana,Zakończenie ciąży,MARKER_LEAK,pl_l_s_z+pl_lt_nasal
+data,sl,C2,192,Schwangerschaftsabbruch,grūtniecības pārtraukšana,grūtniecības pārtraukšana,SAME_AS_LV_CASEFOLD,exact
+data,sl,C2,192,Schwangerschaftsabbruch,grūtniecības pārtraukšana,grūtniecības pārtraukšana,LV_DIACRITIC,
+data,sl,C2,192,Schwangerschaftsabbruch,grūtniecības pārtraukšana,grūtniecības pārtraukšana,MARKER_LEAK,lv_macron_consonant+lv_u_macron
+data,sq,C2,192,Schwangerschaftsabbruch,grūtniecības pārtraukšana,Hamileliğin sonu,MARKER_LEAK,tr_soft
+data,bg,C2,192,Schwangerschaftsabbruch,grūtniecības pārtraukšana,Прерывание беременности,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,hr,C2,192,Schwangerschaftsabbruch,grūtniecības pārtraukšana,Прерывание беременности,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,mk,C2,192,Schwangerschaftsabbruch,grūtniecības pārtraukšana,Прерывание беременности,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,ru,C2,192,Schwangerschaftsabbruch,grūtniecības pārtraukšana,Прерывание беременности,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,sr,C2,192,Schwangerschaftsabbruch,grūtniecības pārtraukšana,Прерывание беременности,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,fi,C2,192,Schwangerschaftsabbruch,grūtniecības pārtraukšana,Raseduse katkestamine,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,is,C2,192,Schwangerschaftsabbruch,grūtniecības pārtraukšana,Raseduse katkestamine,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,nb,C2,192,Schwangerschaftsabbruch,grūtniecības pārtraukšana,Raseduse katkestamine,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,nn,C2,192,Schwangerschaftsabbruch,grūtniecības pārtraukšana,Raseduse katkestamine,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,sv,C2,192,Schwangerschaftsabbruch,grūtniecības pārtraukšana,Raseduse katkestamine,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,it,C2,192,Schwangerschaftsabbruch,grūtniecības pārtraukšana,Grūtniecības pārtraukšana,FAMILY_COPY_STRICT,it+lb+nl+pt
+data,lb,C2,192,Schwangerschaftsabbruch,grūtniecības pārtraukšana,Grūtniecības pārtraukšana,FAMILY_COPY_STRICT,it+lb+nl+pt
+data,nl,C2,192,Schwangerschaftsabbruch,grūtniecības pārtraukšana,Grūtniecības pārtraukšana,FAMILY_COPY_STRICT,it+lb+nl+pt
+data,pt,C2,192,Schwangerschaftsabbruch,grūtniecības pārtraukšana,Grūtniecības pārtraukšana,FAMILY_COPY_STRICT,it+lb+nl+pt
+data,pl,C2,192,Schwangerschaftsabbruch,grūtniecības pārtraukšana,Zakończenie ciąży,FAMILY_COPY_STRICT,pl+sk
+data,sk,C2,192,Schwangerschaftsabbruch,grūtniecības pārtraukšana,Zakończenie ciąży,FAMILY_COPY_STRICT,pl+sk
+data,sq,C2,192,Schwangerschaftsabbruch,grūtniecības pārtraukšana,Hamileliğin sonu,FAMILY_COPY_STRICT,sq+tr
+data,tr,C2,192,Schwangerschaftsabbruch,grūtniecības pārtraukšana,Hamileliğin sonu,FAMILY_COPY_STRICT,sq+tr
+data,fi,C2,193,Selbstbestimmungsrecht,pašnoteikšanās tiesības,Enesemääramisõigus,MARKER_LEAK,et_otilde
+data,hr,C2,193,Selbstbestimmungsrecht,pašnoteikšanās tiesības,Право на самоопределување,SCRIPT_MISMATCH,
+data,hr,C2,193,Selbstbestimmungsrecht,pašnoteikšanās tiesības,Право на самоопределување,MARKER_LEAK,foreign_script
+data,is,C2,193,Selbstbestimmungsrecht,pašnoteikšanās tiesības,Enesemääramisõigus,MARKER_LEAK,et_otilde
+data,it,C2,193,Selbstbestimmungsrecht,pašnoteikšanās tiesības,Pašnoteikšanās tiesības,SAME_AS_LV_CASEFOLD,casefold_only
+data,it,C2,193,Selbstbestimmungsrecht,pašnoteikšanās tiesības,Pašnoteikšanās tiesības,LV_DIACRITIC,
+data,it,C2,193,Selbstbestimmungsrecht,pašnoteikšanās tiesības,Pašnoteikšanās tiesības,MARKER_LEAK,lv_macron_consonant
+data,lb,C2,193,Selbstbestimmungsrecht,pašnoteikšanās tiesības,Pašnoteikšanās tiesības,SAME_AS_LV_CASEFOLD,casefold_only
+data,lb,C2,193,Selbstbestimmungsrecht,pašnoteikšanās tiesības,Pašnoteikšanās tiesības,LV_DIACRITIC,
+data,lb,C2,193,Selbstbestimmungsrecht,pašnoteikšanās tiesības,Pašnoteikšanās tiesības,MARKER_LEAK,lv_macron_consonant
+data,nb,C2,193,Selbstbestimmungsrecht,pašnoteikšanās tiesības,Enesemääramisõigus,MARKER_LEAK,et_otilde
+data,nl,C2,193,Selbstbestimmungsrecht,pašnoteikšanās tiesības,Pašnoteikšanās tiesības,SAME_AS_LV_CASEFOLD,casefold_only
+data,nl,C2,193,Selbstbestimmungsrecht,pašnoteikšanās tiesības,Pašnoteikšanās tiesības,LV_DIACRITIC,
+data,nl,C2,193,Selbstbestimmungsrecht,pašnoteikšanās tiesības,Pašnoteikšanās tiesības,MARKER_LEAK,lv_macron_consonant
+data,nn,C2,193,Selbstbestimmungsrecht,pašnoteikšanās tiesības,Enesemääramisõigus,MARKER_LEAK,et_otilde
+data,pt,C2,193,Selbstbestimmungsrecht,pašnoteikšanās tiesības,Pašnoteikšanās tieības,LV_DIACRITIC,
+data,pt,C2,193,Selbstbestimmungsrecht,pašnoteikšanās tiesības,Pašnoteikšanās tieības,MARKER_LEAK,lv_macron_consonant
+data,sl,C2,193,Selbstbestimmungsrecht,pašnoteikšanās tiesības,pašnoteikšanās tiesības,SAME_AS_LV_CASEFOLD,exact
+data,sl,C2,193,Selbstbestimmungsrecht,pašnoteikšanās tiesības,pašnoteikšanās tiesības,LV_DIACRITIC,
+data,sl,C2,193,Selbstbestimmungsrecht,pašnoteikšanās tiesības,pašnoteikšanās tiesības,MARKER_LEAK,lv_macron_consonant
+data,sv,C2,193,Selbstbestimmungsrecht,pašnoteikšanās tiesības,Enesemääramisõigus,MARKER_LEAK,et_otilde
+data,bg,C2,193,Selbstbestimmungsrecht,pašnoteikšanās tiesības,Право на самоопределение,FAMILY_COPY_STRICT,bg+ru
+data,ru,C2,193,Selbstbestimmungsrecht,pašnoteikšanās tiesības,Право на самоопределение,FAMILY_COPY_STRICT,bg+ru
+data,fi,C2,193,Selbstbestimmungsrecht,pašnoteikšanās tiesības,Enesemääramisõigus,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,is,C2,193,Selbstbestimmungsrecht,pašnoteikšanās tiesības,Enesemääramisõigus,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,nb,C2,193,Selbstbestimmungsrecht,pašnoteikšanās tiesības,Enesemääramisõigus,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,nn,C2,193,Selbstbestimmungsrecht,pašnoteikšanās tiesības,Enesemääramisõigus,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,sv,C2,193,Selbstbestimmungsrecht,pašnoteikšanās tiesības,Enesemääramisõigus,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,hr,C2,193,Selbstbestimmungsrecht,pašnoteikšanās tiesības,Право на самоопределување,FAMILY_COPY_STRICT,hr+mk+sr
+data,mk,C2,193,Selbstbestimmungsrecht,pašnoteikšanās tiesības,Право на самоопределување,FAMILY_COPY_STRICT,hr+mk+sr
+data,sr,C2,193,Selbstbestimmungsrecht,pašnoteikšanās tiesības,Право на самоопределување,FAMILY_COPY_STRICT,hr+mk+sr
+data,it,C2,193,Selbstbestimmungsrecht,pašnoteikšanās tiesības,Pašnoteikšanās tiesības,FAMILY_COPY_STRICT,it+lb+nl
+data,lb,C2,193,Selbstbestimmungsrecht,pašnoteikšanās tiesības,Pašnoteikšanās tiesības,FAMILY_COPY_STRICT,it+lb+nl
+data,nl,C2,193,Selbstbestimmungsrecht,pašnoteikšanās tiesības,Pašnoteikšanās tiesības,FAMILY_COPY_STRICT,it+lb+nl
+data,pl,C2,193,Selbstbestimmungsrecht,pašnoteikšanās tiesības,Prawo do samostanowienia,FAMILY_COPY_STRICT,pl+sk+sq+tr
+data,sk,C2,193,Selbstbestimmungsrecht,pašnoteikšanās tiesības,Prawo do samostanowienia,FAMILY_COPY_STRICT,pl+sk+sq+tr
+data,sq,C2,193,Selbstbestimmungsrecht,pašnoteikšanās tiesības,Prawo do samostanowienia,FAMILY_COPY_STRICT,pl+sk+sq+tr
+data,tr,C2,193,Selbstbestimmungsrecht,pašnoteikšanās tiesības,Prawo do samostanowienia,FAMILY_COPY_STRICT,pl+sk+sq+tr
+data,hr,C2,194,Selbsterhaltungstrieb,pašsaglabāšanās instinkts,Инстинкт самосохранения,SCRIPT_MISMATCH,
+data,hr,C2,194,Selbsterhaltungstrieb,pašsaglabāšanās instinkts,Инстинкт самосохранения,MARKER_LEAK,foreign_script
+data,it,C2,194,Selbsterhaltungstrieb,pašsaglabāšanās instinkts,Pašsaglabāšanās instinkts,SAME_AS_LV_CASEFOLD,casefold_only
+data,it,C2,194,Selbsterhaltungstrieb,pašsaglabāšanās instinkts,Pašsaglabāšanās instinkts,LV_DIACRITIC,
+data,it,C2,194,Selbsterhaltungstrieb,pašsaglabāšanās instinkts,Pašsaglabāšanās instinkts,MARKER_LEAK,lv_macron_consonant
+data,lb,C2,194,Selbsterhaltungstrieb,pašsaglabāšanās instinkts,Pašsaglabāšanās instinkts,SAME_AS_LV_CASEFOLD,casefold_only
+data,lb,C2,194,Selbsterhaltungstrieb,pašsaglabāšanās instinkts,Pašsaglabāšanās instinkts,LV_DIACRITIC,
+data,lb,C2,194,Selbsterhaltungstrieb,pašsaglabāšanās instinkts,Pašsaglabāšanās instinkts,MARKER_LEAK,lv_macron_consonant
+data,nl,C2,194,Selbsterhaltungstrieb,pašsaglabāšanās instinkts,Pašsaglabāšanās instinkts,SAME_AS_LV_CASEFOLD,casefold_only
+data,nl,C2,194,Selbsterhaltungstrieb,pašsaglabāšanās instinkts,Pašsaglabāšanās instinkts,LV_DIACRITIC,
+data,nl,C2,194,Selbsterhaltungstrieb,pašsaglabāšanās instinkts,Pašsaglabāšanās instinkts,MARKER_LEAK,lv_macron_consonant
+data,pt,C2,194,Selbsterhaltungstrieb,pašsaglabāšanās instinkts,Os instintos de Pašsaglabāšanās,LV_DIACRITIC,
+data,pt,C2,194,Selbsterhaltungstrieb,pašsaglabāšanās instinkts,Os instintos de Pašsaglabāšanās,MARKER_LEAK,lv_macron_consonant
+data,sl,C2,194,Selbsterhaltungstrieb,pašsaglabāšanās instinkts,pašsaglabāšanās instinkts,SAME_AS_LV_CASEFOLD,exact
+data,sl,C2,194,Selbsterhaltungstrieb,pašsaglabāšanās instinkts,pašsaglabāšanās instinkts,LV_DIACRITIC,
+data,sl,C2,194,Selbsterhaltungstrieb,pašsaglabāšanās instinkts,pašsaglabāšanās instinkts,MARKER_LEAK,lv_macron_consonant
+data,bg,C2,194,Selbsterhaltungstrieb,pašsaglabāšanās instinkts,Инстинкт самосохранения,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,hr,C2,194,Selbsterhaltungstrieb,pašsaglabāšanās instinkts,Инстинкт самосохранения,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,mk,C2,194,Selbsterhaltungstrieb,pašsaglabāšanās instinkts,Инстинкт самосохранения,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,ru,C2,194,Selbsterhaltungstrieb,pašsaglabāšanās instinkts,Инстинкт самосохранения,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,sr,C2,194,Selbsterhaltungstrieb,pašsaglabāšanās instinkts,Инстинкт самосохранения,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,fi,C2,194,Selbsterhaltungstrieb,pašsaglabāšanās instinkts,Enesesäilitamisinstinkt,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,is,C2,194,Selbsterhaltungstrieb,pašsaglabāšanās instinkts,Enesesäilitamisinstinkt,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,nb,C2,194,Selbsterhaltungstrieb,pašsaglabāšanās instinkts,Enesesäilitamisinstinkt,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,nn,C2,194,Selbsterhaltungstrieb,pašsaglabāšanās instinkts,Enesesäilitamisinstinkt,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,sv,C2,194,Selbsterhaltungstrieb,pašsaglabāšanās instinkts,Enesesäilitamisinstinkt,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,it,C2,194,Selbsterhaltungstrieb,pašsaglabāšanās instinkts,Pašsaglabāšanās instinkts,FAMILY_COPY_STRICT,it+lb+nl
+data,lb,C2,194,Selbsterhaltungstrieb,pašsaglabāšanās instinkts,Pašsaglabāšanās instinkts,FAMILY_COPY_STRICT,it+lb+nl
+data,nl,C2,194,Selbsterhaltungstrieb,pašsaglabāšanās instinkts,Pašsaglabāšanās instinkts,FAMILY_COPY_STRICT,it+lb+nl
+data,pl,C2,194,Selbsterhaltungstrieb,pašsaglabāšanās instinkts,Instynkt samozachowawczy,FAMILY_COPY_STRICT,pl+sk+sq+tr
+data,sk,C2,194,Selbsterhaltungstrieb,pašsaglabāšanās instinkts,Instynkt samozachowawczy,FAMILY_COPY_STRICT,pl+sk+sq+tr
+data,sq,C2,194,Selbsterhaltungstrieb,pašsaglabāšanās instinkts,Instynkt samozachowawczy,FAMILY_COPY_STRICT,pl+sk+sq+tr
+data,tr,C2,194,Selbsterhaltungstrieb,pašsaglabāšanās instinkts,Instynkt samozachowawczy,FAMILY_COPY_STRICT,pl+sk+sq+tr
+data,hr,C2,195,Selbstverteidigung,pašaizsardzības paņēmienu kopums,Комплекс приемов самообороны,SCRIPT_MISMATCH,
+data,hr,C2,195,Selbstverteidigung,pašaizsardzības paņēmienu kopums,Комплекс приемов самообороны,MARKER_LEAK,foreign_script
+data,it,C2,195,Selbstverteidigung,pašaizsardzības paņēmienu kopums,Pašaizsardzības paņēmienu kopums,SAME_AS_LV_CASEFOLD,casefold_only
+data,it,C2,195,Selbstverteidigung,pašaizsardzības paņēmienu kopums,Pašaizsardzības paņēmienu kopums,LV_DIACRITIC,
+data,it,C2,195,Selbstverteidigung,pašaizsardzības paņēmienu kopums,Pašaizsardzības paņēmienu kopums,MARKER_LEAK,lv_macron_consonant
+data,lb,C2,195,Selbstverteidigung,pašaizsardzības paņēmienu kopums,Pašaizsardzības paņēmienu kopums,SAME_AS_LV_CASEFOLD,casefold_only
+data,lb,C2,195,Selbstverteidigung,pašaizsardzības paņēmienu kopums,Pašaizsardzības paņēmienu kopums,LV_DIACRITIC,
+data,lb,C2,195,Selbstverteidigung,pašaizsardzības paņēmienu kopums,Pašaizsardzības paņēmienu kopums,MARKER_LEAK,lv_macron_consonant
+data,nl,C2,195,Selbstverteidigung,pašaizsardzības paņēmienu kopums,Pašaizsardzības paņēmienu kopums,SAME_AS_LV_CASEFOLD,casefold_only
+data,nl,C2,195,Selbstverteidigung,pašaizsardzības paņēmienu kopums,Pašaizsardzības paņēmienu kopums,LV_DIACRITIC,
+data,nl,C2,195,Selbstverteidigung,pašaizsardzības paņēmienu kopums,Pašaizsardzības paņēmienu kopums,MARKER_LEAK,lv_macron_consonant
+data,pt,C2,195,Selbstverteidigung,pašaizsardzības paņēmienu kopums,Pašaizsardzības paņēmienu kopums,SAME_AS_LV_CASEFOLD,casefold_only
+data,pt,C2,195,Selbstverteidigung,pašaizsardzības paņēmienu kopums,Pašaizsardzības paņēmienu kopums,LV_DIACRITIC,
+data,pt,C2,195,Selbstverteidigung,pašaizsardzības paņēmienu kopums,Pašaizsardzības paņēmienu kopums,MARKER_LEAK,lv_macron_consonant
+data,sl,C2,195,Selbstverteidigung,pašaizsardzības paņēmienu kopums,pašaizsardzības paņēmienu kopums,SAME_AS_LV_CASEFOLD,exact
+data,sl,C2,195,Selbstverteidigung,pašaizsardzības paņēmienu kopums,pašaizsardzības paņēmienu kopums,LV_DIACRITIC,
+data,sl,C2,195,Selbstverteidigung,pašaizsardzības paņēmienu kopums,pašaizsardzības paņēmienu kopums,MARKER_LEAK,lv_macron_consonant
+data,bg,C2,195,Selbstverteidigung,pašaizsardzības paņēmienu kopums,Комплекс приемов самообороны,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,hr,C2,195,Selbstverteidigung,pašaizsardzības paņēmienu kopums,Комплекс приемов самообороны,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,mk,C2,195,Selbstverteidigung,pašaizsardzības paņēmienu kopums,Комплекс приемов самообороны,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,ru,C2,195,Selbstverteidigung,pašaizsardzības paņēmienu kopums,Комплекс приемов самообороны,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,sr,C2,195,Selbstverteidigung,pašaizsardzības paņēmienu kopums,Комплекс приемов самообороны,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,fi,C2,195,Selbstverteidigung,pašaizsardzības paņēmienu kopums,Enesekaitse,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,is,C2,195,Selbstverteidigung,pašaizsardzības paņēmienu kopums,Enesekaitse,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,nb,C2,195,Selbstverteidigung,pašaizsardzības paņēmienu kopums,Enesekaitse,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,nn,C2,195,Selbstverteidigung,pašaizsardzības paņēmienu kopums,Enesekaitse,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,sv,C2,195,Selbstverteidigung,pašaizsardzības paņēmienu kopums,Enesekaitse,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,it,C2,195,Selbstverteidigung,pašaizsardzības paņēmienu kopums,Pašaizsardzības paņēmienu kopums,FAMILY_COPY_STRICT,it+lb+nl+pt
+data,lb,C2,195,Selbstverteidigung,pašaizsardzības paņēmienu kopums,Pašaizsardzības paņēmienu kopums,FAMILY_COPY_STRICT,it+lb+nl+pt
+data,nl,C2,195,Selbstverteidigung,pašaizsardzības paņēmienu kopums,Pašaizsardzības paņēmienu kopums,FAMILY_COPY_STRICT,it+lb+nl+pt
+data,pt,C2,195,Selbstverteidigung,pašaizsardzības paņēmienu kopums,Pašaizsardzības paņēmienu kopums,FAMILY_COPY_STRICT,it+lb+nl+pt
+data,pl,C2,195,Selbstverteidigung,pašaizsardzības paņēmienu kopums,Zestaw technik samoobrony,FAMILY_COPY_STRICT,pl+sk+sq+tr
+data,sk,C2,195,Selbstverteidigung,pašaizsardzības paņēmienu kopums,Zestaw technik samoobrony,FAMILY_COPY_STRICT,pl+sk+sq+tr
+data,sq,C2,195,Selbstverteidigung,pašaizsardzības paņēmienu kopums,Zestaw technik samoobrony,FAMILY_COPY_STRICT,pl+sk+sq+tr
+data,tr,C2,195,Selbstverteidigung,pašaizsardzības paņēmienu kopums,Zestaw technik samoobrony,FAMILY_COPY_STRICT,pl+sk+sq+tr
+data,hr,C2,196,Staatsangehörigkeit,pavalstniecība,Государственность,SCRIPT_MISMATCH,
+data,hr,C2,196,Staatsangehörigkeit,pavalstniecība,Государственность,MARKER_LEAK,foreign_script
+data,it,C2,196,Staatsangehörigkeit,pavalstniecība,Pavalstniecība,SAME_AS_LV_CASEFOLD,casefold_only
+data,it,C2,196,Staatsangehörigkeit,pavalstniecība,Pavalstniecība,LV_DIACRITIC,
+data,it,C2,196,Staatsangehörigkeit,pavalstniecība,Pavalstniecība,MARKER_LEAK,lv_macron_consonant
+data,nl,C2,196,Staatsangehörigkeit,pavalstniecība,Pavalstniecība,SAME_AS_LV_CASEFOLD,casefold_only
+data,nl,C2,196,Staatsangehörigkeit,pavalstniecība,Pavalstniecība,LV_DIACRITIC,
+data,nl,C2,196,Staatsangehörigkeit,pavalstniecība,Pavalstniecība,MARKER_LEAK,lv_macron_consonant
+data,sk,C2,196,Staatsangehörigkeit,pavalstniecība,Państwowość,MARKER_LEAK,pl_l_s_z
+data,sl,C2,196,Staatsangehörigkeit,pavalstniecība,pavalstniecība,SAME_AS_LV_CASEFOLD,exact
+data,sl,C2,196,Staatsangehörigkeit,pavalstniecība,pavalstniecība,LV_DIACRITIC,
+data,sl,C2,196,Staatsangehörigkeit,pavalstniecība,pavalstniecība,MARKER_LEAK,lv_macron_consonant
+data,bg,C2,196,Staatsangehörigkeit,pavalstniecība,Государственность,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,hr,C2,196,Staatsangehörigkeit,pavalstniecība,Государственность,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,mk,C2,196,Staatsangehörigkeit,pavalstniecība,Государственность,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,ru,C2,196,Staatsangehörigkeit,pavalstniecība,Государственность,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,sr,C2,196,Staatsangehörigkeit,pavalstniecība,Государственность,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,fi,C2,196,Staatsangehörigkeit,pavalstniecība,Kodakondsus,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,is,C2,196,Staatsangehörigkeit,pavalstniecība,Kodakondsus,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,nb,C2,196,Staatsangehörigkeit,pavalstniecība,Kodakondsus,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,nn,C2,196,Staatsangehörigkeit,pavalstniecība,Kodakondsus,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,sv,C2,196,Staatsangehörigkeit,pavalstniecība,Kodakondsus,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,it,C2,196,Staatsangehörigkeit,pavalstniecība,Pavalstniecība,FAMILY_COPY_STRICT,it+nl
+data,nl,C2,196,Staatsangehörigkeit,pavalstniecība,Pavalstniecība,FAMILY_COPY_STRICT,it+nl
+data,pl,C2,196,Staatsangehörigkeit,pavalstniecība,Państwowość,FAMILY_COPY_STRICT,pl+sk
+data,sk,C2,196,Staatsangehörigkeit,pavalstniecība,Państwowość,FAMILY_COPY_STRICT,pl+sk
+data,sq,C2,196,Staatsangehörigkeit,pavalstniecība,Devlet olma,FAMILY_COPY_STRICT,sq+tr
+data,tr,C2,196,Staatsangehörigkeit,pavalstniecība,Devlet olma,FAMILY_COPY_STRICT,sq+tr
+data,hr,C2,197,Steuererleichterung,nodokļu atvieglojumi,Налоговые льготы,SCRIPT_MISMATCH,
+data,hr,C2,197,Steuererleichterung,nodokļu atvieglojumi,Налоговые льготы,MARKER_LEAK,foreign_script
+data,it,C2,197,Steuererleichterung,nodokļu atvieglojumi,Nodokļu atvieglojumi,SAME_AS_LV_CASEFOLD,casefold_only
+data,it,C2,197,Steuererleichterung,nodokļu atvieglojumi,Nodokļu atvieglojumi,LV_DIACRITIC,
+data,it,C2,197,Steuererleichterung,nodokļu atvieglojumi,Nodokļu atvieglojumi,MARKER_LEAK,lv_macron_consonant
+data,lb,C2,197,Steuererleichterung,nodokļu atvieglojumi,Nodokļu atvieglojumi,SAME_AS_LV_CASEFOLD,casefold_only
+data,lb,C2,197,Steuererleichterung,nodokļu atvieglojumi,Nodokļu atvieglojumi,LV_DIACRITIC,
+data,lb,C2,197,Steuererleichterung,nodokļu atvieglojumi,Nodokļu atvieglojumi,MARKER_LEAK,lv_macron_consonant
+data,nl,C2,197,Steuererleichterung,nodokļu atvieglojumi,Nodokļu atvieglojumi,SAME_AS_LV_CASEFOLD,casefold_only
+data,nl,C2,197,Steuererleichterung,nodokļu atvieglojumi,Nodokļu atvieglojumi,LV_DIACRITIC,
+data,nl,C2,197,Steuererleichterung,nodokļu atvieglojumi,Nodokļu atvieglojumi,MARKER_LEAK,lv_macron_consonant
+data,pt,C2,197,Steuererleichterung,nodokļu atvieglojumi,Nodokļu atvieglojumi,SAME_AS_LV_CASEFOLD,casefold_only
+data,pt,C2,197,Steuererleichterung,nodokļu atvieglojumi,Nodokļu atvieglojumi,LV_DIACRITIC,
+data,pt,C2,197,Steuererleichterung,nodokļu atvieglojumi,Nodokļu atvieglojumi,MARKER_LEAK,lv_macron_consonant
+data,sk,C2,197,Steuererleichterung,nodokļu atvieglojumi,Korzyści podatkowe,MARKER_LEAK,pl_l_s_z
+data,sl,C2,197,Steuererleichterung,nodokļu atvieglojumi,nodokļu atvieglojumi,SAME_AS_LV_CASEFOLD,exact
+data,sl,C2,197,Steuererleichterung,nodokļu atvieglojumi,nodokļu atvieglojumi,LV_DIACRITIC,
+data,sl,C2,197,Steuererleichterung,nodokļu atvieglojumi,nodokļu atvieglojumi,MARKER_LEAK,lv_macron_consonant
+data,sq,C2,197,Steuererleichterung,nodokļu atvieglojumi,Vergi avantajları,MARKER_LEAK,tr_soft
+data,bg,C2,197,Steuererleichterung,nodokļu atvieglojumi,Налоговые льготы,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,hr,C2,197,Steuererleichterung,nodokļu atvieglojumi,Налоговые льготы,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,mk,C2,197,Steuererleichterung,nodokļu atvieglojumi,Налоговые льготы,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,ru,C2,197,Steuererleichterung,nodokļu atvieglojumi,Налоговые льготы,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,sr,C2,197,Steuererleichterung,nodokļu atvieglojumi,Налоговые льготы,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,fi,C2,197,Steuererleichterung,nodokļu atvieglojumi,Maksusoodustus,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,is,C2,197,Steuererleichterung,nodokļu atvieglojumi,Maksusoodustus,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,nb,C2,197,Steuererleichterung,nodokļu atvieglojumi,Maksusoodustus,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,nn,C2,197,Steuererleichterung,nodokļu atvieglojumi,Maksusoodustus,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,sv,C2,197,Steuererleichterung,nodokļu atvieglojumi,Maksusoodustus,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,it,C2,197,Steuererleichterung,nodokļu atvieglojumi,Nodokļu atvieglojumi,FAMILY_COPY_STRICT,it+lb+nl+pt
+data,lb,C2,197,Steuererleichterung,nodokļu atvieglojumi,Nodokļu atvieglojumi,FAMILY_COPY_STRICT,it+lb+nl+pt
+data,nl,C2,197,Steuererleichterung,nodokļu atvieglojumi,Nodokļu atvieglojumi,FAMILY_COPY_STRICT,it+lb+nl+pt
+data,pt,C2,197,Steuererleichterung,nodokļu atvieglojumi,Nodokļu atvieglojumi,FAMILY_COPY_STRICT,it+lb+nl+pt
+data,pl,C2,197,Steuererleichterung,nodokļu atvieglojumi,Korzyści podatkowe,FAMILY_COPY_STRICT,pl+sk
+data,sk,C2,197,Steuererleichterung,nodokļu atvieglojumi,Korzyści podatkowe,FAMILY_COPY_STRICT,pl+sk
+data,sq,C2,197,Steuererleichterung,nodokļu atvieglojumi,Vergi avantajları,FAMILY_COPY_STRICT,sq+tr
+data,tr,C2,197,Steuererleichterung,nodokļu atvieglojumi,Vergi avantajları,FAMILY_COPY_STRICT,sq+tr
+data,gr,C2,198,Strafgesetzbuch,jur. kriminālkodekss,Jur. ποινικός κώδικας,SCRIPT_MISMATCH,
+data,gr,C2,198,Strafgesetzbuch,jur. kriminālkodekss,Jur. ποινικός κώδικας,MARKER_LEAK,latin_in_greek
+data,hr,C2,198,Strafgesetzbuch,jur. kriminālkodekss,Кривичен законик jur.,SCRIPT_MISMATCH,
+data,hr,C2,198,Strafgesetzbuch,jur. kriminālkodekss,Кривичен законик jur.,MARKER_LEAK,foreign_script
+data,it,C2,198,Strafgesetzbuch,jur. kriminālkodekss,Jur. kriminālkodekss,SAME_AS_LV_CASEFOLD,casefold_only
+data,it,C2,198,Strafgesetzbuch,jur. kriminālkodekss,Jur. kriminālkodekss,LV_DIACRITIC,
+data,it,C2,198,Strafgesetzbuch,jur. kriminālkodekss,Jur. kriminālkodekss,MARKER_LEAK,lv_macron_consonant
+data,lb,C2,198,Strafgesetzbuch,jur. kriminālkodekss,Jur. kriminālkodekss,SAME_AS_LV_CASEFOLD,casefold_only
+data,lb,C2,198,Strafgesetzbuch,jur. kriminālkodekss,Jur. kriminālkodekss,LV_DIACRITIC,
+data,lb,C2,198,Strafgesetzbuch,jur. kriminālkodekss,Jur. kriminālkodekss,MARKER_LEAK,lv_macron_consonant
+data,mk,C2,198,Strafgesetzbuch,jur. kriminālkodekss,Кривичен законик jur.,SCRIPT_MISMATCH,
+data,mk,C2,198,Strafgesetzbuch,jur. kriminālkodekss,Кривичен законик jur.,MARKER_LEAK,latin_in_cyrillic
+data,nl,C2,198,Strafgesetzbuch,jur. kriminālkodekss,Jur. kriminālkodekss,SAME_AS_LV_CASEFOLD,casefold_only
+data,nl,C2,198,Strafgesetzbuch,jur. kriminālkodekss,Jur. kriminālkodekss,LV_DIACRITIC,
+data,nl,C2,198,Strafgesetzbuch,jur. kriminālkodekss,Jur. kriminālkodekss,MARKER_LEAK,lv_macron_consonant
+data,pt,C2,198,Strafgesetzbuch,jur. kriminālkodekss,Jur. criminālkodekss,LV_DIACRITIC,
+data,pt,C2,198,Strafgesetzbuch,jur. kriminālkodekss,Jur. criminālkodekss,MARKER_LEAK,lv_macron_consonant
+data,sl,C2,198,Strafgesetzbuch,jur. kriminālkodekss,jur. kriminālkodekss,SAME_AS_LV_CASEFOLD,exact
+data,sl,C2,198,Strafgesetzbuch,jur. kriminālkodekss,jur. kriminālkodekss,LV_DIACRITIC,
+data,sl,C2,198,Strafgesetzbuch,jur. kriminālkodekss,jur. kriminālkodekss,MARKER_LEAK,lv_macron_consonant
+data,sr,C2,198,Strafgesetzbuch,jur. kriminālkodekss,Кривичен законик jur.,SCRIPT_MISMATCH,sr_as_cyrillic
+data,sr,C2,198,Strafgesetzbuch,jur. kriminālkodekss,Кривичен законик jur.,MARKER_LEAK,latin_in_cyrillic
+data,bg,C2,198,Strafgesetzbuch,jur. kriminālkodekss,Уголовный кодекс юр.,FAMILY_COPY_STRICT,bg+ru
+data,ru,C2,198,Strafgesetzbuch,jur. kriminālkodekss,Уголовный кодекс юр.,FAMILY_COPY_STRICT,bg+ru
+data,fi,C2,198,Strafgesetzbuch,jur. kriminālkodekss,Jur. kriminaalkoodeks,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,is,C2,198,Strafgesetzbuch,jur. kriminālkodekss,Jur. kriminaalkoodeks,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,nb,C2,198,Strafgesetzbuch,jur. kriminālkodekss,Jur. kriminaalkoodeks,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,nn,C2,198,Strafgesetzbuch,jur. kriminālkodekss,Jur. kriminaalkoodeks,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,sv,C2,198,Strafgesetzbuch,jur. kriminālkodekss,Jur. kriminaalkoodeks,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,hr,C2,198,Strafgesetzbuch,jur. kriminālkodekss,Кривичен законик jur.,FAMILY_COPY_STRICT,hr+mk+sr
+data,mk,C2,198,Strafgesetzbuch,jur. kriminālkodekss,Кривичен законик jur.,FAMILY_COPY_STRICT,hr+mk+sr
+data,sr,C2,198,Strafgesetzbuch,jur. kriminālkodekss,Кривичен законик jur.,FAMILY_COPY_STRICT,hr+mk+sr
+data,it,C2,198,Strafgesetzbuch,jur. kriminālkodekss,Jur. kriminālkodekss,FAMILY_COPY_STRICT,it+lb+nl
+data,lb,C2,198,Strafgesetzbuch,jur. kriminālkodekss,Jur. kriminālkodekss,FAMILY_COPY_STRICT,it+lb+nl
+data,nl,C2,198,Strafgesetzbuch,jur. kriminālkodekss,Jur. kriminālkodekss,FAMILY_COPY_STRICT,it+lb+nl
+data,pl,C2,198,Strafgesetzbuch,jur. kriminālkodekss,Kodeks karny jur,FAMILY_COPY_STRICT,pl+sk+sq+tr
+data,sk,C2,198,Strafgesetzbuch,jur. kriminālkodekss,Kodeks karny jur,FAMILY_COPY_STRICT,pl+sk+sq+tr
+data,sq,C2,198,Strafgesetzbuch,jur. kriminālkodekss,Kodeks karny jur,FAMILY_COPY_STRICT,pl+sk+sq+tr
+data,tr,C2,198,Strafgesetzbuch,jur. kriminālkodekss,Kodeks karny jur,FAMILY_COPY_STRICT,pl+sk+sq+tr
+data,fi,C2,199,Tochtergesellschaft,meitasuzņēmums,Tütarettevõte,MARKER_LEAK,et_otilde
+data,hr,C2,199,Tochtergesellschaft,meitasuzņēmums,Дочерняя компания,SCRIPT_MISMATCH,
+data,hr,C2,199,Tochtergesellschaft,meitasuzņēmums,Дочерняя компания,MARKER_LEAK,foreign_script
+data,is,C2,199,Tochtergesellschaft,meitasuzņēmums,Tütarettevõte,MARKER_LEAK,et_otilde
+data,it,C2,199,Tochtergesellschaft,meitasuzņēmums,Meitasuzņēmums,SAME_AS_LV_CASEFOLD,casefold_only
+data,it,C2,199,Tochtergesellschaft,meitasuzņēmums,Meitasuzņēmums,LV_DIACRITIC,
+data,it,C2,199,Tochtergesellschaft,meitasuzņēmums,Meitasuzņēmums,MARKER_LEAK,lv_macron_consonant
+data,lb,C2,199,Tochtergesellschaft,meitasuzņēmums,Meitasuzņēmums,SAME_AS_LV_CASEFOLD,casefold_only
+data,lb,C2,199,Tochtergesellschaft,meitasuzņēmums,Meitasuzņēmums,LV_DIACRITIC,
+data,lb,C2,199,Tochtergesellschaft,meitasuzņēmums,Meitasuzņēmums,MARKER_LEAK,lv_macron_consonant
+data,nb,C2,199,Tochtergesellschaft,meitasuzņēmums,Tütarettevõte,MARKER_LEAK,et_otilde
+data,nl,C2,199,Tochtergesellschaft,meitasuzņēmums,Meitasuzņēmums,SAME_AS_LV_CASEFOLD,casefold_only
+data,nl,C2,199,Tochtergesellschaft,meitasuzņēmums,Meitasuzņēmums,LV_DIACRITIC,
+data,nl,C2,199,Tochtergesellschaft,meitasuzņēmums,Meitasuzņēmums,MARKER_LEAK,lv_macron_consonant
+data,nn,C2,199,Tochtergesellschaft,meitasuzņēmums,Tütarettevõte,MARKER_LEAK,et_otilde
+data,pt,C2,199,Tochtergesellschaft,meitasuzņēmums,Meitasuzņēmums,SAME_AS_LV_CASEFOLD,casefold_only
+data,pt,C2,199,Tochtergesellschaft,meitasuzņēmums,Meitasuzņēmums,LV_DIACRITIC,
+data,pt,C2,199,Tochtergesellschaft,meitasuzņēmums,Meitasuzņēmums,MARKER_LEAK,lv_macron_consonant
+data,sk,C2,199,Tochtergesellschaft,meitasuzņēmums,Spółka zależna,MARKER_LEAK,pl_l_s_z
+data,sl,C2,199,Tochtergesellschaft,meitasuzņēmums,meitasuzņēmums,SAME_AS_LV_CASEFOLD,exact
+data,sl,C2,199,Tochtergesellschaft,meitasuzņēmums,meitasuzņēmums,LV_DIACRITIC,
+data,sl,C2,199,Tochtergesellschaft,meitasuzņēmums,meitasuzņēmums,MARKER_LEAK,lv_macron_consonant
+data,sq,C2,199,Tochtergesellschaft,meitasuzņēmums,Bağlı şirket,MARKER_LEAK,tr_soft
+data,sv,C2,199,Tochtergesellschaft,meitasuzņēmums,Tütarettevõte,MARKER_LEAK,et_otilde
+data,bg,C2,199,Tochtergesellschaft,meitasuzņēmums,Дочерняя компания,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,hr,C2,199,Tochtergesellschaft,meitasuzņēmums,Дочерняя компания,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,mk,C2,199,Tochtergesellschaft,meitasuzņēmums,Дочерняя компания,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,ru,C2,199,Tochtergesellschaft,meitasuzņēmums,Дочерняя компания,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,sr,C2,199,Tochtergesellschaft,meitasuzņēmums,Дочерняя компания,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,fi,C2,199,Tochtergesellschaft,meitasuzņēmums,Tütarettevõte,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,is,C2,199,Tochtergesellschaft,meitasuzņēmums,Tütarettevõte,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,nb,C2,199,Tochtergesellschaft,meitasuzņēmums,Tütarettevõte,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,nn,C2,199,Tochtergesellschaft,meitasuzņēmums,Tütarettevõte,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,sv,C2,199,Tochtergesellschaft,meitasuzņēmums,Tütarettevõte,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,it,C2,199,Tochtergesellschaft,meitasuzņēmums,Meitasuzņēmums,FAMILY_COPY_STRICT,it+lb+nl+pt
+data,lb,C2,199,Tochtergesellschaft,meitasuzņēmums,Meitasuzņēmums,FAMILY_COPY_STRICT,it+lb+nl+pt
+data,nl,C2,199,Tochtergesellschaft,meitasuzņēmums,Meitasuzņēmums,FAMILY_COPY_STRICT,it+lb+nl+pt
+data,pt,C2,199,Tochtergesellschaft,meitasuzņēmums,Meitasuzņēmums,FAMILY_COPY_STRICT,it+lb+nl+pt
+data,pl,C2,199,Tochtergesellschaft,meitasuzņēmums,Spółka zależna,FAMILY_COPY_STRICT,pl+sk
+data,sk,C2,199,Tochtergesellschaft,meitasuzņēmums,Spółka zależna,FAMILY_COPY_STRICT,pl+sk
+data,sq,C2,199,Tochtergesellschaft,meitasuzņēmums,Bağlı şirket,FAMILY_COPY_STRICT,sq+tr
+data,tr,C2,199,Tochtergesellschaft,meitasuzņēmums,Bağlı şirket,FAMILY_COPY_STRICT,sq+tr
+data,hr,C2,200,Vaterschaftsklage,sūdzība tiesā paternitātes noteikšanai,Иск об установлении отцовства,SCRIPT_MISMATCH,
+data,hr,C2,200,Vaterschaftsklage,sūdzība tiesā paternitātes noteikšanai,Иск об установлении отцовства,MARKER_LEAK,foreign_script
+data,it,C2,200,Vaterschaftsklage,sūdzība tiesā paternitātes noteikšanai,Sūdzība tiesā paternitātes noteikšanai,SAME_AS_LV_CASEFOLD,casefold_only
+data,it,C2,200,Vaterschaftsklage,sūdzība tiesā paternitātes noteikšanai,Sūdzība tiesā paternitātes noteikšanai,LV_DIACRITIC,
+data,it,C2,200,Vaterschaftsklage,sūdzība tiesā paternitātes noteikšanai,Sūdzība tiesā paternitātes noteikšanai,MARKER_LEAK,lv_macron_consonant+lv_u_macron
+data,lb,C2,200,Vaterschaftsklage,sūdzība tiesā paternitātes noteikšanai,Sūdzība tiesā paternitātes noteikšanai,SAME_AS_LV_CASEFOLD,casefold_only
+data,lb,C2,200,Vaterschaftsklage,sūdzība tiesā paternitātes noteikšanai,Sūdzība tiesā paternitātes noteikšanai,LV_DIACRITIC,
+data,lb,C2,200,Vaterschaftsklage,sūdzība tiesā paternitātes noteikšanai,Sūdzība tiesā paternitātes noteikšanai,MARKER_LEAK,lv_macron_consonant+lv_u_macron
+data,nl,C2,200,Vaterschaftsklage,sūdzība tiesā paternitātes noteikšanai,Sūdzība tiesā paternitātes noteikšanai,SAME_AS_LV_CASEFOLD,casefold_only
+data,nl,C2,200,Vaterschaftsklage,sūdzība tiesā paternitātes noteikšanai,Sūdzība tiesā paternitātes noteikšanai,LV_DIACRITIC,
+data,nl,C2,200,Vaterschaftsklage,sūdzība tiesā paternitātes noteikšanai,Sūdzība tiesā paternitātes noteikšanai,MARKER_LEAK,lv_macron_consonant+lv_u_macron
+data,pt,C2,200,Vaterschaftsklage,sūdzība tiesā paternitātes noteikšanai,Sūdzība tiesā paternitātes noteikšanai,SAME_AS_LV_CASEFOLD,casefold_only
+data,pt,C2,200,Vaterschaftsklage,sūdzība tiesā paternitātes noteikšanai,Sūdzība tiesā paternitātes noteikšanai,LV_DIACRITIC,
+data,pt,C2,200,Vaterschaftsklage,sūdzība tiesā paternitātes noteikšanai,Sūdzība tiesā paternitātes noteikšanai,MARKER_LEAK,lv_macron_consonant+lv_u_macron
+data,sl,C2,200,Vaterschaftsklage,sūdzība tiesā paternitātes noteikšanai,sūdzība tiesā paternitātes noteikšanai,SAME_AS_LV_CASEFOLD,exact
+data,sl,C2,200,Vaterschaftsklage,sūdzība tiesā paternitātes noteikšanai,sūdzība tiesā paternitātes noteikšanai,LV_DIACRITIC,
+data,sl,C2,200,Vaterschaftsklage,sūdzība tiesā paternitātes noteikšanai,sūdzība tiesā paternitātes noteikšanai,MARKER_LEAK,lv_macron_consonant+lv_u_macron
+data,bg,C2,200,Vaterschaftsklage,sūdzība tiesā paternitātes noteikšanai,Иск об установлении отцовства,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,hr,C2,200,Vaterschaftsklage,sūdzība tiesā paternitātes noteikšanai,Иск об установлении отцовства,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,mk,C2,200,Vaterschaftsklage,sūdzība tiesā paternitātes noteikšanai,Иск об установлении отцовства,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,ru,C2,200,Vaterschaftsklage,sūdzība tiesā paternitātes noteikšanai,Иск об установлении отцовства,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,sr,C2,200,Vaterschaftsklage,sūdzība tiesā paternitātes noteikšanai,Иск об установлении отцовства,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,fi,C2,200,Vaterschaftsklage,sūdzība tiesā paternitātes noteikšanai,Isaduse tuvastamise hagi,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,is,C2,200,Vaterschaftsklage,sūdzība tiesā paternitātes noteikšanai,Isaduse tuvastamise hagi,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,nb,C2,200,Vaterschaftsklage,sūdzība tiesā paternitātes noteikšanai,Isaduse tuvastamise hagi,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,nn,C2,200,Vaterschaftsklage,sūdzība tiesā paternitātes noteikšanai,Isaduse tuvastamise hagi,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,sv,C2,200,Vaterschaftsklage,sūdzība tiesā paternitātes noteikšanai,Isaduse tuvastamise hagi,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,it,C2,200,Vaterschaftsklage,sūdzība tiesā paternitātes noteikšanai,Sūdzība tiesā paternitātes noteikšanai,FAMILY_COPY_STRICT,it+lb+nl+pt
+data,lb,C2,200,Vaterschaftsklage,sūdzība tiesā paternitātes noteikšanai,Sūdzība tiesā paternitātes noteikšanai,FAMILY_COPY_STRICT,it+lb+nl+pt
+data,nl,C2,200,Vaterschaftsklage,sūdzība tiesā paternitātes noteikšanai,Sūdzība tiesā paternitātes noteikšanai,FAMILY_COPY_STRICT,it+lb+nl+pt
+data,pt,C2,200,Vaterschaftsklage,sūdzība tiesā paternitātes noteikšanai,Sūdzība tiesā paternitātes noteikšanai,FAMILY_COPY_STRICT,it+lb+nl+pt
+data,pl,C2,200,Vaterschaftsklage,sūdzība tiesā paternitātes noteikšanai,Pozew o ustalenie ojcostwa,FAMILY_COPY_STRICT,pl+sk+sq+tr
+data,sk,C2,200,Vaterschaftsklage,sūdzība tiesā paternitātes noteikšanai,Pozew o ustalenie ojcostwa,FAMILY_COPY_STRICT,pl+sk+sq+tr
+data,sq,C2,200,Vaterschaftsklage,sūdzība tiesā paternitātes noteikšanai,Pozew o ustalenie ojcostwa,FAMILY_COPY_STRICT,pl+sk+sq+tr
+data,tr,C2,200,Vaterschaftsklage,sūdzība tiesā paternitātes noteikšanai,Pozew o ustalenie ojcostwa,FAMILY_COPY_STRICT,pl+sk+sq+tr
+data,hr,C2,201,verallgemeinern,vispārināt,Резимирајте,SCRIPT_MISMATCH,
+data,hr,C2,201,verallgemeinern,vispārināt,Резимирајте,MARKER_LEAK,foreign_script
+data,it,C2,201,verallgemeinern,vispārināt,Vispārināt,SAME_AS_LV_CASEFOLD,casefold_only
+data,it,C2,201,verallgemeinern,vispārināt,Vispārināt,LV_DIACRITIC,
+data,it,C2,201,verallgemeinern,vispārināt,Vispārināt,MARKER_LEAK,lv_macron_consonant
+data,lb,C2,201,verallgemeinern,vispārināt,Vispārināt,SAME_AS_LV_CASEFOLD,casefold_only
+data,lb,C2,201,verallgemeinern,vispārināt,Vispārināt,LV_DIACRITIC,
+data,lb,C2,201,verallgemeinern,vispārināt,Vispārināt,MARKER_LEAK,lv_macron_consonant
+data,nl,C2,201,verallgemeinern,vispārināt,Vispārināt,SAME_AS_LV_CASEFOLD,casefold_only
+data,nl,C2,201,verallgemeinern,vispārināt,Vispārināt,LV_DIACRITIC,
+data,nl,C2,201,verallgemeinern,vispārināt,Vispārināt,MARKER_LEAK,lv_macron_consonant
+data,sl,C2,201,verallgemeinern,vispārināt,vispārināt,SAME_AS_LV_CASEFOLD,exact
+data,sl,C2,201,verallgemeinern,vispārināt,vispārināt,LV_DIACRITIC,
+data,sl,C2,201,verallgemeinern,vispārināt,vispārināt,MARKER_LEAK,lv_macron_consonant
+data,bg,C2,201,verallgemeinern,vispārināt,Обобщать,FAMILY_COPY_STRICT,bg+ru
+data,ru,C2,201,verallgemeinern,vispārināt,Обобщать,FAMILY_COPY_STRICT,bg+ru
+data,fi,C2,201,verallgemeinern,vispārināt,Üldistama,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,is,C2,201,verallgemeinern,vispārināt,Üldistama,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,nb,C2,201,verallgemeinern,vispārināt,Üldistama,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,nn,C2,201,verallgemeinern,vispārināt,Üldistama,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,sv,C2,201,verallgemeinern,vispārināt,Üldistama,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,hr,C2,201,verallgemeinern,vispārināt,Резимирајте,FAMILY_COPY_STRICT,hr+mk+sr
+data,mk,C2,201,verallgemeinern,vispārināt,Резимирајте,FAMILY_COPY_STRICT,hr+mk+sr
+data,sr,C2,201,verallgemeinern,vispārināt,Резимирајте,FAMILY_COPY_STRICT,hr+mk+sr
+data,it,C2,201,verallgemeinern,vispārināt,Vispārināt,FAMILY_COPY_STRICT,it+lb+nl
+data,lb,C2,201,verallgemeinern,vispārināt,Vispārināt,FAMILY_COPY_STRICT,it+lb+nl
+data,nl,C2,201,verallgemeinern,vispārināt,Vispārināt,FAMILY_COPY_STRICT,it+lb+nl
+data,pl,C2,201,verallgemeinern,vispārināt,Generalizować,FAMILY_COPY_STRICT,pl+sk
+data,sk,C2,201,verallgemeinern,vispārināt,Generalizować,FAMILY_COPY_STRICT,pl+sk
+data,sq,C2,201,verallgemeinern,vispārināt,Genelleştir,FAMILY_COPY_STRICT,sq+tr
+data,tr,C2,201,verallgemeinern,vispārināt,Genelleştir,FAMILY_COPY_STRICT,sq+tr
+data,hr,C2,202,Verhütungsmittel,pretapaugļošanās līdzeklis,Контрацепција,SCRIPT_MISMATCH,
+data,hr,C2,202,Verhütungsmittel,pretapaugļošanās līdzeklis,Контрацепција,MARKER_LEAK,foreign_script
+data,it,C2,202,Verhütungsmittel,pretapaugļošanās līdzeklis,Pretapaugļošanās līdzeklis,SAME_AS_LV_CASEFOLD,casefold_only
+data,it,C2,202,Verhütungsmittel,pretapaugļošanās līdzeklis,Pretapaugļošanās līdzeklis,LV_DIACRITIC,
+data,it,C2,202,Verhütungsmittel,pretapaugļošanās līdzeklis,Pretapaugļošanās līdzeklis,MARKER_LEAK,lv_macron_consonant
+data,lb,C2,202,Verhütungsmittel,pretapaugļošanās līdzeklis,Pretapaugļošanās līdzeklis,SAME_AS_LV_CASEFOLD,casefold_only
+data,lb,C2,202,Verhütungsmittel,pretapaugļošanās līdzeklis,Pretapaugļošanās līdzeklis,LV_DIACRITIC,
+data,lb,C2,202,Verhütungsmittel,pretapaugļošanās līdzeklis,Pretapaugļošanās līdzeklis,MARKER_LEAK,lv_macron_consonant
+data,nl,C2,202,Verhütungsmittel,pretapaugļošanās līdzeklis,Pretapaugļošanās līdzeklis,SAME_AS_LV_CASEFOLD,casefold_only
+data,nl,C2,202,Verhütungsmittel,pretapaugļošanās līdzeklis,Pretapaugļošanās līdzeklis,LV_DIACRITIC,
+data,nl,C2,202,Verhütungsmittel,pretapaugļošanās līdzeklis,Pretapaugļošanās līdzeklis,MARKER_LEAK,lv_macron_consonant
+data,pt,C2,202,Verhütungsmittel,pretapaugļošanās līdzeklis,Pretapaugļošanās līdzeklis,SAME_AS_LV_CASEFOLD,casefold_only
+data,pt,C2,202,Verhütungsmittel,pretapaugļošanās līdzeklis,Pretapaugļošanās līdzeklis,LV_DIACRITIC,
+data,pt,C2,202,Verhütungsmittel,pretapaugļošanās līdzeklis,Pretapaugļošanās līdzeklis,MARKER_LEAK,lv_macron_consonant
+data,sl,C2,202,Verhütungsmittel,pretapaugļošanās līdzeklis,pretapaugļošanās līdzeklis,SAME_AS_LV_CASEFOLD,exact
+data,sl,C2,202,Verhütungsmittel,pretapaugļošanās līdzeklis,pretapaugļošanās līdzeklis,LV_DIACRITIC,
+data,sl,C2,202,Verhütungsmittel,pretapaugļošanās līdzeklis,pretapaugļošanās līdzeklis,MARKER_LEAK,lv_macron_consonant
+data,bg,C2,202,Verhütungsmittel,pretapaugļošanās līdzeklis,Противозачаточное средство,FAMILY_COPY_STRICT,bg+ru
+data,ru,C2,202,Verhütungsmittel,pretapaugļošanās līdzeklis,Противозачаточное средство,FAMILY_COPY_STRICT,bg+ru
+data,fi,C2,202,Verhütungsmittel,pretapaugļošanās līdzeklis,Rasestumisvastane vahend,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,is,C2,202,Verhütungsmittel,pretapaugļošanās līdzeklis,Rasestumisvastane vahend,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,nb,C2,202,Verhütungsmittel,pretapaugļošanās līdzeklis,Rasestumisvastane vahend,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,nn,C2,202,Verhütungsmittel,pretapaugļošanās līdzeklis,Rasestumisvastane vahend,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,sv,C2,202,Verhütungsmittel,pretapaugļošanās līdzeklis,Rasestumisvastane vahend,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,hr,C2,202,Verhütungsmittel,pretapaugļošanās līdzeklis,Контрацепција,FAMILY_COPY_STRICT,hr+mk+sr
+data,mk,C2,202,Verhütungsmittel,pretapaugļošanās līdzeklis,Контрацепција,FAMILY_COPY_STRICT,hr+mk+sr
+data,sr,C2,202,Verhütungsmittel,pretapaugļošanās līdzeklis,Контрацепција,FAMILY_COPY_STRICT,hr+mk+sr
+data,it,C2,202,Verhütungsmittel,pretapaugļošanās līdzeklis,Pretapaugļošanās līdzeklis,FAMILY_COPY_STRICT,it+lb+nl+pt
+data,lb,C2,202,Verhütungsmittel,pretapaugļošanās līdzeklis,Pretapaugļošanās līdzeklis,FAMILY_COPY_STRICT,it+lb+nl+pt
+data,nl,C2,202,Verhütungsmittel,pretapaugļošanās līdzeklis,Pretapaugļošanās līdzeklis,FAMILY_COPY_STRICT,it+lb+nl+pt
+data,pt,C2,202,Verhütungsmittel,pretapaugļošanās līdzeklis,Pretapaugļošanās līdzeklis,FAMILY_COPY_STRICT,it+lb+nl+pt
+data,pl,C2,202,Verhütungsmittel,pretapaugļošanās līdzeklis,Antykoncepcyjny,FAMILY_COPY_STRICT,pl+sk+sq+tr
+data,sk,C2,202,Verhütungsmittel,pretapaugļošanās līdzeklis,Antykoncepcyjny,FAMILY_COPY_STRICT,pl+sk+sq+tr
+data,sq,C2,202,Verhütungsmittel,pretapaugļošanās līdzeklis,Antykoncepcyjny,FAMILY_COPY_STRICT,pl+sk+sq+tr
+data,tr,C2,202,Verhütungsmittel,pretapaugļošanās līdzeklis,Antykoncepcyjny,FAMILY_COPY_STRICT,pl+sk+sq+tr
+data,hr,C2,203,Waffenstillstand,pamiers,Перемирие,SCRIPT_MISMATCH,
+data,hr,C2,203,Waffenstillstand,pamiers,Перемирие,MARKER_LEAK,foreign_script
+data,it,C2,203,Waffenstillstand,pamiers,Pamiers,SAME_AS_LV_CASEFOLD,casefold_only
+data,lb,C2,203,Waffenstillstand,pamiers,Pamiers,SAME_AS_LV_CASEFOLD,casefold_only
+data,nl,C2,203,Waffenstillstand,pamiers,Pamiers,SAME_AS_LV_CASEFOLD,casefold_only
+data,pt,C2,203,Waffenstillstand,pamiers,Pamiers,SAME_AS_LV_CASEFOLD,casefold_only
+data,sl,C2,203,Waffenstillstand,pamiers,pamiers,SAME_AS_LV_CASEFOLD,exact
+data,bg,C2,203,Waffenstillstand,pamiers,Перемирие,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,hr,C2,203,Waffenstillstand,pamiers,Перемирие,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,mk,C2,203,Waffenstillstand,pamiers,Перемирие,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,ru,C2,203,Waffenstillstand,pamiers,Перемирие,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,sr,C2,203,Waffenstillstand,pamiers,Перемирие,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,fi,C2,203,Waffenstillstand,pamiers,Vaherahu,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,is,C2,203,Waffenstillstand,pamiers,Vaherahu,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,nb,C2,203,Waffenstillstand,pamiers,Vaherahu,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,nn,C2,203,Waffenstillstand,pamiers,Vaherahu,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,sv,C2,203,Waffenstillstand,pamiers,Vaherahu,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,it,C2,203,Waffenstillstand,pamiers,Pamiers,FAMILY_COPY_STRICT,it+lb+nl+pt
+data,lb,C2,203,Waffenstillstand,pamiers,Pamiers,FAMILY_COPY_STRICT,it+lb+nl+pt
+data,nl,C2,203,Waffenstillstand,pamiers,Pamiers,FAMILY_COPY_STRICT,it+lb+nl+pt
+data,pt,C2,203,Waffenstillstand,pamiers,Pamiers,FAMILY_COPY_STRICT,it+lb+nl+pt
+data,pl,C2,203,Waffenstillstand,pamiers,Rozejm,FAMILY_COPY_STRICT,pl+sq+tr
+data,sq,C2,203,Waffenstillstand,pamiers,Rozejm,FAMILY_COPY_STRICT,pl+sq+tr
+data,tr,C2,203,Waffenstillstand,pamiers,Rozejm,FAMILY_COPY_STRICT,pl+sq+tr
+data,hr,C2,204,Widerstandsbewegung,pretošanās kustība,Движение сопротивления,SCRIPT_MISMATCH,
+data,hr,C2,204,Widerstandsbewegung,pretošanās kustība,Движение сопротивления,MARKER_LEAK,foreign_script
+data,it,C2,204,Widerstandsbewegung,pretošanās kustība,Pretošanās kustība,SAME_AS_LV_CASEFOLD,casefold_only
+data,it,C2,204,Widerstandsbewegung,pretošanās kustība,Pretošanās kustība,LV_DIACRITIC,
+data,it,C2,204,Widerstandsbewegung,pretošanās kustība,Pretošanās kustība,MARKER_LEAK,lv_macron_consonant
+data,lb,C2,204,Widerstandsbewegung,pretošanās kustība,Pretošanās kustība,SAME_AS_LV_CASEFOLD,casefold_only
+data,lb,C2,204,Widerstandsbewegung,pretošanās kustība,Pretošanās kustība,LV_DIACRITIC,
+data,lb,C2,204,Widerstandsbewegung,pretošanās kustība,Pretošanās kustība,MARKER_LEAK,lv_macron_consonant
+data,nl,C2,204,Widerstandsbewegung,pretošanās kustība,Pretošanās kustība,SAME_AS_LV_CASEFOLD,casefold_only
+data,nl,C2,204,Widerstandsbewegung,pretošanās kustība,Pretošanās kustība,LV_DIACRITIC,
+data,nl,C2,204,Widerstandsbewegung,pretošanās kustība,Pretošanās kustība,MARKER_LEAK,lv_macron_consonant
+data,pt,C2,204,Widerstandsbewegung,pretošanās kustība,Pretošanās kustība,SAME_AS_LV_CASEFOLD,casefold_only
+data,pt,C2,204,Widerstandsbewegung,pretošanās kustība,Pretošanās kustība,LV_DIACRITIC,
+data,pt,C2,204,Widerstandsbewegung,pretošanās kustība,Pretošanās kustība,MARKER_LEAK,lv_macron_consonant
+data,sl,C2,204,Widerstandsbewegung,pretošanās kustība,pretošanās kustība,SAME_AS_LV_CASEFOLD,exact
+data,sl,C2,204,Widerstandsbewegung,pretošanās kustība,pretošanās kustība,LV_DIACRITIC,
+data,sl,C2,204,Widerstandsbewegung,pretošanās kustība,pretošanās kustība,MARKER_LEAK,lv_macron_consonant
+data,bg,C2,204,Widerstandsbewegung,pretošanās kustība,Движение сопротивления,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,hr,C2,204,Widerstandsbewegung,pretošanās kustība,Движение сопротивления,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,mk,C2,204,Widerstandsbewegung,pretošanās kustība,Движение сопротивления,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,ru,C2,204,Widerstandsbewegung,pretošanās kustība,Движение сопротивления,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,sr,C2,204,Widerstandsbewegung,pretošanās kustība,Движение сопротивления,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,fi,C2,204,Widerstandsbewegung,pretošanās kustība,Vastupanuliikumine,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,is,C2,204,Widerstandsbewegung,pretošanās kustība,Vastupanuliikumine,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,nb,C2,204,Widerstandsbewegung,pretošanās kustība,Vastupanuliikumine,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,nn,C2,204,Widerstandsbewegung,pretošanās kustība,Vastupanuliikumine,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,sv,C2,204,Widerstandsbewegung,pretošanās kustība,Vastupanuliikumine,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,it,C2,204,Widerstandsbewegung,pretošanās kustība,Pretošanās kustība,FAMILY_COPY_STRICT,it+lb+nl+pt
+data,lb,C2,204,Widerstandsbewegung,pretošanās kustība,Pretošanās kustība,FAMILY_COPY_STRICT,it+lb+nl+pt
+data,nl,C2,204,Widerstandsbewegung,pretošanās kustība,Pretošanās kustība,FAMILY_COPY_STRICT,it+lb+nl+pt
+data,pt,C2,204,Widerstandsbewegung,pretošanās kustība,Pretošanās kustība,FAMILY_COPY_STRICT,it+lb+nl+pt
+data,pl,C2,204,Widerstandsbewegung,pretošanās kustība,Ruch oporu,FAMILY_COPY_STRICT,pl+sq+tr
+data,sq,C2,204,Widerstandsbewegung,pretošanās kustība,Ruch oporu,FAMILY_COPY_STRICT,pl+sq+tr
+data,tr,C2,204,Widerstandsbewegung,pretošanās kustība,Ruch oporu,FAMILY_COPY_STRICT,pl+sq+tr
+data,fi,C2,205,Widerstandskämpfer,pretošanās kustības dalībnieks,Vastupanuliikumise võitleja,MARKER_LEAK,et_otilde
+data,hr,C2,205,Widerstandskämpfer,pretošanās kustības dalībnieks,Участник движения сопротивления,SCRIPT_MISMATCH,
+data,hr,C2,205,Widerstandskämpfer,pretošanās kustības dalībnieks,Участник движения сопротивления,MARKER_LEAK,foreign_script
+data,is,C2,205,Widerstandskämpfer,pretošanās kustības dalībnieks,Vastupanuliikumise võitleja,MARKER_LEAK,et_otilde
+data,nb,C2,205,Widerstandskämpfer,pretošanās kustības dalībnieks,Vastupanuliikumise võitleja,MARKER_LEAK,et_otilde
+data,nn,C2,205,Widerstandskämpfer,pretošanās kustības dalībnieks,Vastupanuliikumise võitleja,MARKER_LEAK,et_otilde
+data,sk,C2,205,Widerstandskämpfer,pretošanās kustības dalībnieks,Członek ruchu oporu,MARKER_LEAK,pl_l_s_z
+data,sl,C2,205,Widerstandskämpfer,pretošanās kustības dalībnieks,pretošanās kustības dalībnieks,SAME_AS_LV_CASEFOLD,exact
+data,sl,C2,205,Widerstandskämpfer,pretošanās kustības dalībnieks,pretošanās kustības dalībnieks,LV_DIACRITIC,
+data,sl,C2,205,Widerstandskämpfer,pretošanās kustības dalībnieks,pretošanās kustības dalībnieks,MARKER_LEAK,lv_macron_consonant
+data,sv,C2,205,Widerstandskämpfer,pretošanās kustības dalībnieks,Vastupanuliikumise võitleja,MARKER_LEAK,et_otilde
+data,bg,C2,205,Widerstandskämpfer,pretošanās kustības dalībnieks,Участник движения сопротивления,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,hr,C2,205,Widerstandskämpfer,pretošanās kustības dalībnieks,Участник движения сопротивления,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,mk,C2,205,Widerstandskämpfer,pretošanās kustības dalībnieks,Участник движения сопротивления,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,ru,C2,205,Widerstandskämpfer,pretošanās kustības dalībnieks,Участник движения сопротивления,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,sr,C2,205,Widerstandskämpfer,pretošanās kustības dalībnieks,Участник движения сопротивления,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,fi,C2,205,Widerstandskämpfer,pretošanās kustības dalībnieks,Vastupanuliikumise võitleja,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,is,C2,205,Widerstandskämpfer,pretošanās kustības dalībnieks,Vastupanuliikumise võitleja,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,nb,C2,205,Widerstandskämpfer,pretošanās kustības dalībnieks,Vastupanuliikumise võitleja,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,nn,C2,205,Widerstandskämpfer,pretošanās kustības dalībnieks,Vastupanuliikumise võitleja,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,sv,C2,205,Widerstandskämpfer,pretošanās kustības dalībnieks,Vastupanuliikumise võitleja,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,it,C2,205,Widerstandskämpfer,pretošanās kustības dalībnieks,Lid van de verzetsbeweging,FAMILY_COPY_STRICT,it+lb+nl+pt
+data,lb,C2,205,Widerstandskämpfer,pretošanās kustības dalībnieks,Lid van de verzetsbeweging,FAMILY_COPY_STRICT,it+lb+nl+pt
+data,nl,C2,205,Widerstandskämpfer,pretošanās kustības dalībnieks,Lid van de verzetsbeweging,FAMILY_COPY_STRICT,it+lb+nl+pt
+data,pt,C2,205,Widerstandskämpfer,pretošanās kustības dalībnieks,Lid van de verzetsbeweging,FAMILY_COPY_STRICT,it+lb+nl+pt
+data,pl,C2,205,Widerstandskämpfer,pretošanās kustības dalībnieks,Członek ruchu oporu,FAMILY_COPY_STRICT,pl+sk
+data,sk,C2,205,Widerstandskämpfer,pretošanās kustības dalībnieks,Członek ruchu oporu,FAMILY_COPY_STRICT,pl+sk
+data,sq,C2,205,Widerstandskämpfer,pretošanās kustības dalībnieks,Direniş hareketinin üyesi,FAMILY_COPY_STRICT,sq+tr
+data,tr,C2,205,Widerstandskämpfer,pretošanās kustības dalībnieks,Direniş hareketinin üyesi,FAMILY_COPY_STRICT,sq+tr
+data,fi,C2,206,"zugrunde, zu Grunde",pamatā,Põhiliselt,MARKER_LEAK,et_otilde
+data,hr,C2,206,"zugrunde, zu Grunde",pamatā,По сути,SCRIPT_MISMATCH,
+data,hr,C2,206,"zugrunde, zu Grunde",pamatā,По сути,MARKER_LEAK,foreign_script
+data,is,C2,206,"zugrunde, zu Grunde",pamatā,Põhiliselt,MARKER_LEAK,et_otilde
+data,it,C2,206,"zugrunde, zu Grunde",pamatā,Pamatā,SAME_AS_LV_CASEFOLD,casefold_only
+data,it,C2,206,"zugrunde, zu Grunde",pamatā,Pamatā,LV_DIACRITIC,
+data,it,C2,206,"zugrunde, zu Grunde",pamatā,Pamatā,MARKER_LEAK,lv_macron_consonant
+data,lb,C2,206,"zugrunde, zu Grunde",pamatā,Pamatā,SAME_AS_LV_CASEFOLD,casefold_only
+data,lb,C2,206,"zugrunde, zu Grunde",pamatā,Pamatā,LV_DIACRITIC,
+data,lb,C2,206,"zugrunde, zu Grunde",pamatā,Pamatā,MARKER_LEAK,lv_macron_consonant
+data,nb,C2,206,"zugrunde, zu Grunde",pamatā,Põhiliselt,MARKER_LEAK,et_otilde
+data,nl,C2,206,"zugrunde, zu Grunde",pamatā,Pamatā,SAME_AS_LV_CASEFOLD,casefold_only
+data,nl,C2,206,"zugrunde, zu Grunde",pamatā,Pamatā,LV_DIACRITIC,
+data,nl,C2,206,"zugrunde, zu Grunde",pamatā,Pamatā,MARKER_LEAK,lv_macron_consonant
+data,nn,C2,206,"zugrunde, zu Grunde",pamatā,Põhiliselt,MARKER_LEAK,et_otilde
+data,sl,C2,206,"zugrunde, zu Grunde",pamatā,pamatā,SAME_AS_LV_CASEFOLD,exact
+data,sl,C2,206,"zugrunde, zu Grunde",pamatā,pamatā,LV_DIACRITIC,
+data,sl,C2,206,"zugrunde, zu Grunde",pamatā,pamatā,MARKER_LEAK,lv_macron_consonant
+data,sv,C2,206,"zugrunde, zu Grunde",pamatā,Põhiliselt,MARKER_LEAK,et_otilde
+data,bg,C2,206,"zugrunde, zu Grunde",pamatā,По сути,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,hr,C2,206,"zugrunde, zu Grunde",pamatā,По сути,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,mk,C2,206,"zugrunde, zu Grunde",pamatā,По сути,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,ru,C2,206,"zugrunde, zu Grunde",pamatā,По сути,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,sr,C2,206,"zugrunde, zu Grunde",pamatā,По сути,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,fi,C2,206,"zugrunde, zu Grunde",pamatā,Põhiliselt,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,is,C2,206,"zugrunde, zu Grunde",pamatā,Põhiliselt,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,nb,C2,206,"zugrunde, zu Grunde",pamatā,Põhiliselt,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,nn,C2,206,"zugrunde, zu Grunde",pamatā,Põhiliselt,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,sv,C2,206,"zugrunde, zu Grunde",pamatā,Põhiliselt,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,it,C2,206,"zugrunde, zu Grunde",pamatā,Pamatā,FAMILY_COPY_STRICT,it+lb+nl
+data,lb,C2,206,"zugrunde, zu Grunde",pamatā,Pamatā,FAMILY_COPY_STRICT,it+lb+nl
+data,nl,C2,206,"zugrunde, zu Grunde",pamatā,Pamatā,FAMILY_COPY_STRICT,it+lb+nl
+data,pl,C2,206,"zugrunde, zu Grunde",pamatā,Zasadniczo,FAMILY_COPY_STRICT,pl+sk+sq+tr
+data,sk,C2,206,"zugrunde, zu Grunde",pamatā,Zasadniczo,FAMILY_COPY_STRICT,pl+sk+sq+tr
+data,sq,C2,206,"zugrunde, zu Grunde",pamatā,Zasadniczo,FAMILY_COPY_STRICT,pl+sk+sq+tr
+data,tr,C2,206,"zugrunde, zu Grunde",pamatā,Zasadniczo,FAMILY_COPY_STRICT,pl+sk+sq+tr
+data,hr,C2,207,"zugunsten, zu Gunsten",labā • par labu,Во благо • Во благо,SCRIPT_MISMATCH,
+data,hr,C2,207,"zugunsten, zu Gunsten",labā • par labu,Во благо • Во благо,MARKER_LEAK,foreign_script
+data,it,C2,207,"zugunsten, zu Gunsten",labā • par labu,Labā • Par labu,SAME_AS_LV_CASEFOLD,casefold_only
+data,it,C2,207,"zugunsten, zu Gunsten",labā • par labu,Labā • Par labu,LV_DIACRITIC,
+data,it,C2,207,"zugunsten, zu Gunsten",labā • par labu,Labā • Par labu,MARKER_LEAK,lv_macron_consonant
+data,lb,C2,207,"zugunsten, zu Gunsten",labā • par labu,Labā • Par labu,SAME_AS_LV_CASEFOLD,casefold_only
+data,lb,C2,207,"zugunsten, zu Gunsten",labā • par labu,Labā • Par labu,LV_DIACRITIC,
+data,lb,C2,207,"zugunsten, zu Gunsten",labā • par labu,Labā • Par labu,MARKER_LEAK,lv_macron_consonant
+data,nl,C2,207,"zugunsten, zu Gunsten",labā • par labu,Labā • Par labu,SAME_AS_LV_CASEFOLD,casefold_only
+data,nl,C2,207,"zugunsten, zu Gunsten",labā • par labu,Labā • Par labu,LV_DIACRITIC,
+data,nl,C2,207,"zugunsten, zu Gunsten",labā • par labu,Labā • Par labu,MARKER_LEAK,lv_macron_consonant
+data,pt,C2,207,"zugunsten, zu Gunsten",labā • par labu,Labā • Par labu,SAME_AS_LV_CASEFOLD,casefold_only
+data,pt,C2,207,"zugunsten, zu Gunsten",labā • par labu,Labā • Par labu,LV_DIACRITIC,
+data,pt,C2,207,"zugunsten, zu Gunsten",labā • par labu,Labā • Par labu,MARKER_LEAK,lv_macron_consonant
+data,sl,C2,207,"zugunsten, zu Gunsten",labā • par labu,labā • par labu,SAME_AS_LV_CASEFOLD,exact
+data,sl,C2,207,"zugunsten, zu Gunsten",labā • par labu,labā • par labu,LV_DIACRITIC,
+data,sl,C2,207,"zugunsten, zu Gunsten",labā • par labu,labā • par labu,MARKER_LEAK,lv_macron_consonant
+data,bg,C2,207,"zugunsten, zu Gunsten",labā • par labu,Во благо • Во благо,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,hr,C2,207,"zugunsten, zu Gunsten",labā • par labu,Во благо • Во благо,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,mk,C2,207,"zugunsten, zu Gunsten",labā • par labu,Во благо • Во благо,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,ru,C2,207,"zugunsten, zu Gunsten",labā • par labu,Во благо • Во благо,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,sr,C2,207,"zugunsten, zu Gunsten",labā • par labu,Во благо • Во благо,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,fi,C2,207,"zugunsten, zu Gunsten",labā • par labu,Kasuks • Heaks,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,is,C2,207,"zugunsten, zu Gunsten",labā • par labu,Kasuks • Heaks,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,nb,C2,207,"zugunsten, zu Gunsten",labā • par labu,Kasuks • Heaks,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,nn,C2,207,"zugunsten, zu Gunsten",labā • par labu,Kasuks • Heaks,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,sv,C2,207,"zugunsten, zu Gunsten",labā • par labu,Kasuks • Heaks,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,it,C2,207,"zugunsten, zu Gunsten",labā • par labu,Labā • Par labu,FAMILY_COPY_STRICT,it+lb+nl+pt
+data,lb,C2,207,"zugunsten, zu Gunsten",labā • par labu,Labā • Par labu,FAMILY_COPY_STRICT,it+lb+nl+pt
+data,nl,C2,207,"zugunsten, zu Gunsten",labā • par labu,Labā • Par labu,FAMILY_COPY_STRICT,it+lb+nl+pt
+data,pt,C2,207,"zugunsten, zu Gunsten",labā • par labu,Labā • Par labu,FAMILY_COPY_STRICT,it+lb+nl+pt
+data,pl,C2,207,"zugunsten, zu Gunsten",labā • par labu,Dla dobra • Dla dobra,FAMILY_COPY_STRICT,pl+sk+sq+tr
+data,sk,C2,207,"zugunsten, zu Gunsten",labā • par labu,Dla dobra • Dla dobra,FAMILY_COPY_STRICT,pl+sk+sq+tr
+data,sq,C2,207,"zugunsten, zu Gunsten",labā • par labu,Dla dobra • Dla dobra,FAMILY_COPY_STRICT,pl+sk+sq+tr
+data,tr,C2,207,"zugunsten, zu Gunsten",labā • par labu,Dla dobra • Dla dobra,FAMILY_COPY_STRICT,pl+sk+sq+tr
+data,fi,C2,208,imstande,spējīgs,Võimeline,MARKER_LEAK,et_otilde
+data,hr,C2,208,imstande,spējīgs,Способен,SCRIPT_MISMATCH,
+data,hr,C2,208,imstande,spējīgs,Способен,MARKER_LEAK,foreign_script
+data,is,C2,208,imstande,spējīgs,Võimeline,MARKER_LEAK,et_otilde
+data,it,C2,208,imstande,spējīgs,Spējīgs,SAME_AS_LV_CASEFOLD,casefold_only
+data,it,C2,208,imstande,spējīgs,Spējīgs,LV_DIACRITIC,
+data,it,C2,208,imstande,spējīgs,Spējīgs,MARKER_LEAK,lv_macron_consonant
+data,lb,C2,208,imstande,spējīgs,Spējīgs,SAME_AS_LV_CASEFOLD,casefold_only
+data,lb,C2,208,imstande,spējīgs,Spējīgs,LV_DIACRITIC,
+data,lb,C2,208,imstande,spējīgs,Spējīgs,MARKER_LEAK,lv_macron_consonant
+data,nb,C2,208,imstande,spējīgs,Võimeline,MARKER_LEAK,et_otilde
+data,nl,C2,208,imstande,spējīgs,Spējīgs,SAME_AS_LV_CASEFOLD,casefold_only
+data,nl,C2,208,imstande,spējīgs,Spējīgs,LV_DIACRITIC,
+data,nl,C2,208,imstande,spējīgs,Spējīgs,MARKER_LEAK,lv_macron_consonant
+data,nn,C2,208,imstande,spējīgs,Võimeline,MARKER_LEAK,et_otilde
+data,sl,C2,208,imstande,spējīgs,spējīgs,SAME_AS_LV_CASEFOLD,exact
+data,sl,C2,208,imstande,spējīgs,spējīgs,LV_DIACRITIC,
+data,sl,C2,208,imstande,spējīgs,spējīgs,MARKER_LEAK,lv_macron_consonant
+data,sv,C2,208,imstande,spējīgs,Võimeline,MARKER_LEAK,et_otilde
+data,bg,C2,208,imstande,spējīgs,Способен,FAMILY_COPY_STRICT,bg+hr+mk+sr
+data,hr,C2,208,imstande,spējīgs,Способен,FAMILY_COPY_STRICT,bg+hr+mk+sr
+data,mk,C2,208,imstande,spējīgs,Способен,FAMILY_COPY_STRICT,bg+hr+mk+sr
+data,sr,C2,208,imstande,spējīgs,Способен,FAMILY_COPY_STRICT,bg+hr+mk+sr
+data,fi,C2,208,imstande,spējīgs,Võimeline,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,is,C2,208,imstande,spējīgs,Võimeline,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,nb,C2,208,imstande,spējīgs,Võimeline,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,nn,C2,208,imstande,spējīgs,Võimeline,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,sv,C2,208,imstande,spējīgs,Võimeline,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,it,C2,208,imstande,spējīgs,Spējīgs,FAMILY_COPY_STRICT,it+lb+nl
+data,lb,C2,208,imstande,spējīgs,Spējīgs,FAMILY_COPY_STRICT,it+lb+nl
+data,nl,C2,208,imstande,spējīgs,Spējīgs,FAMILY_COPY_STRICT,it+lb+nl
+data,pl,C2,208,imstande,spējīgs,Zdolny,FAMILY_COPY_STRICT,pl+sk+sq+tr
+data,sk,C2,208,imstande,spējīgs,Zdolny,FAMILY_COPY_STRICT,pl+sk+sq+tr
+data,sq,C2,208,imstande,spējīgs,Zdolny,FAMILY_COPY_STRICT,pl+sk+sq+tr
+data,tr,C2,208,imstande,spējīgs,Zdolny,FAMILY_COPY_STRICT,pl+sk+sq+tr
+data,fi,C2,209,im Stande,spējīgs,Võimeline,MARKER_LEAK,et_otilde
+data,hr,C2,209,im Stande,spējīgs,Способен,SCRIPT_MISMATCH,
+data,hr,C2,209,im Stande,spējīgs,Способен,MARKER_LEAK,foreign_script
+data,is,C2,209,im Stande,spējīgs,Võimeline,MARKER_LEAK,et_otilde
+data,it,C2,209,im Stande,spējīgs,Spējīgs,SAME_AS_LV_CASEFOLD,casefold_only
+data,it,C2,209,im Stande,spējīgs,Spējīgs,LV_DIACRITIC,
+data,it,C2,209,im Stande,spējīgs,Spējīgs,MARKER_LEAK,lv_macron_consonant
+data,lb,C2,209,im Stande,spējīgs,Spējīgs,SAME_AS_LV_CASEFOLD,casefold_only
+data,lb,C2,209,im Stande,spējīgs,Spējīgs,LV_DIACRITIC,
+data,lb,C2,209,im Stande,spējīgs,Spējīgs,MARKER_LEAK,lv_macron_consonant
+data,nb,C2,209,im Stande,spējīgs,Võimeline,MARKER_LEAK,et_otilde
+data,nl,C2,209,im Stande,spējīgs,Spējīgs,SAME_AS_LV_CASEFOLD,casefold_only
+data,nl,C2,209,im Stande,spējīgs,Spējīgs,LV_DIACRITIC,
+data,nl,C2,209,im Stande,spējīgs,Spējīgs,MARKER_LEAK,lv_macron_consonant
+data,nn,C2,209,im Stande,spējīgs,Võimeline,MARKER_LEAK,et_otilde
+data,sl,C2,209,im Stande,spējīgs,spējīgs,SAME_AS_LV_CASEFOLD,exact
+data,sl,C2,209,im Stande,spējīgs,spējīgs,LV_DIACRITIC,
+data,sl,C2,209,im Stande,spējīgs,spējīgs,MARKER_LEAK,lv_macron_consonant
+data,sv,C2,209,im Stande,spējīgs,Võimeline,MARKER_LEAK,et_otilde
+data,bg,C2,209,im Stande,spējīgs,Способен,FAMILY_COPY_STRICT,bg+hr+mk+sr
+data,hr,C2,209,im Stande,spējīgs,Способен,FAMILY_COPY_STRICT,bg+hr+mk+sr
+data,mk,C2,209,im Stande,spējīgs,Способен,FAMILY_COPY_STRICT,bg+hr+mk+sr
+data,sr,C2,209,im Stande,spējīgs,Способен,FAMILY_COPY_STRICT,bg+hr+mk+sr
+data,fi,C2,209,im Stande,spējīgs,Võimeline,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,is,C2,209,im Stande,spējīgs,Võimeline,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,nb,C2,209,im Stande,spējīgs,Võimeline,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,nn,C2,209,im Stande,spējīgs,Võimeline,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,sv,C2,209,im Stande,spējīgs,Võimeline,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,it,C2,209,im Stande,spējīgs,Spējīgs,FAMILY_COPY_STRICT,it+lb+nl
+data,lb,C2,209,im Stande,spējīgs,Spējīgs,FAMILY_COPY_STRICT,it+lb+nl
+data,nl,C2,209,im Stande,spējīgs,Spējīgs,FAMILY_COPY_STRICT,it+lb+nl
+data,pl,C2,209,im Stande,spējīgs,Zdolny,FAMILY_COPY_STRICT,pl+sk+sq+tr
+data,sk,C2,209,im Stande,spējīgs,Zdolny,FAMILY_COPY_STRICT,pl+sk+sq+tr
+data,sq,C2,209,im Stande,spējīgs,Zdolny,FAMILY_COPY_STRICT,pl+sk+sq+tr
+data,tr,C2,209,im Stande,spējīgs,Zdolny,FAMILY_COPY_STRICT,pl+sk+sq+tr
+data,hr,C2,210,instand,kārtībā,Чтобы,SCRIPT_MISMATCH,
+data,hr,C2,210,instand,kārtībā,Чтобы,MARKER_LEAK,foreign_script
+data,it,C2,210,instand,kārtībā,Kārtībā,SAME_AS_LV_CASEFOLD,casefold_only
+data,it,C2,210,instand,kārtībā,Kārtībā,LV_DIACRITIC,
+data,it,C2,210,instand,kārtībā,Kārtībā,MARKER_LEAK,lv_macron_consonant
+data,lb,C2,210,instand,kārtībā,Kārtībā,SAME_AS_LV_CASEFOLD,casefold_only
+data,lb,C2,210,instand,kārtībā,Kārtībā,LV_DIACRITIC,
+data,lb,C2,210,instand,kārtībā,Kārtībā,MARKER_LEAK,lv_macron_consonant
+data,nl,C2,210,instand,kārtībā,Kārtībā,SAME_AS_LV_CASEFOLD,casefold_only
+data,nl,C2,210,instand,kārtībā,Kārtībā,LV_DIACRITIC,
+data,nl,C2,210,instand,kārtībā,Kārtībā,MARKER_LEAK,lv_macron_consonant
+data,sk,C2,210,instand,kārtībā,W porządku,MARKER_LEAK,pl_lt_nasal
+data,sl,C2,210,instand,kārtībā,kārtībā,SAME_AS_LV_CASEFOLD,exact
+data,sl,C2,210,instand,kārtībā,kārtībā,LV_DIACRITIC,
+data,sl,C2,210,instand,kārtībā,kārtībā,MARKER_LEAK,lv_macron_consonant
+data,bg,C2,210,instand,kārtībā,Чтобы,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,hr,C2,210,instand,kārtībā,Чтобы,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,mk,C2,210,instand,kārtībā,Чтобы,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,ru,C2,210,instand,kārtībā,Чтобы,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,sr,C2,210,instand,kārtībā,Чтобы,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,fi,C2,210,instand,kārtībā,Korras,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,is,C2,210,instand,kārtībā,Korras,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,nb,C2,210,instand,kārtībā,Korras,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,nn,C2,210,instand,kārtībā,Korras,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,sv,C2,210,instand,kārtībā,Korras,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,it,C2,210,instand,kārtībā,Kārtībā,FAMILY_COPY_STRICT,it+lb+nl
+data,lb,C2,210,instand,kārtībā,Kārtībā,FAMILY_COPY_STRICT,it+lb+nl
+data,nl,C2,210,instand,kārtībā,Kārtībā,FAMILY_COPY_STRICT,it+lb+nl
+data,pl,C2,210,instand,kārtībā,W porządku,FAMILY_COPY_STRICT,pl+sk
+data,sk,C2,210,instand,kārtībā,W porządku,FAMILY_COPY_STRICT,pl+sk
+data,sq,C2,210,instand,kārtībā,Elbette,FAMILY_COPY_STRICT,sq+tr
+data,tr,C2,210,instand,kārtībā,Elbette,FAMILY_COPY_STRICT,sq+tr
+data,hr,C2,211,in Stand,kārtībā,Чтобы,SCRIPT_MISMATCH,
+data,hr,C2,211,in Stand,kārtībā,Чтобы,MARKER_LEAK,foreign_script
+data,it,C2,211,in Stand,kārtībā,Kārtībā,SAME_AS_LV_CASEFOLD,casefold_only
+data,it,C2,211,in Stand,kārtībā,Kārtībā,LV_DIACRITIC,
+data,it,C2,211,in Stand,kārtībā,Kārtībā,MARKER_LEAK,lv_macron_consonant
+data,lb,C2,211,in Stand,kārtībā,Kārtībā,SAME_AS_LV_CASEFOLD,casefold_only
+data,lb,C2,211,in Stand,kārtībā,Kārtībā,LV_DIACRITIC,
+data,lb,C2,211,in Stand,kārtībā,Kārtībā,MARKER_LEAK,lv_macron_consonant
+data,nl,C2,211,in Stand,kārtībā,Kārtībā,SAME_AS_LV_CASEFOLD,casefold_only
+data,nl,C2,211,in Stand,kārtībā,Kārtībā,LV_DIACRITIC,
+data,nl,C2,211,in Stand,kārtībā,Kārtībā,MARKER_LEAK,lv_macron_consonant
+data,sk,C2,211,in Stand,kārtībā,W porządku,MARKER_LEAK,pl_lt_nasal
+data,sl,C2,211,in Stand,kārtībā,kārtībā,SAME_AS_LV_CASEFOLD,exact
+data,sl,C2,211,in Stand,kārtībā,kārtībā,LV_DIACRITIC,
+data,sl,C2,211,in Stand,kārtībā,kārtībā,MARKER_LEAK,lv_macron_consonant
+data,bg,C2,211,in Stand,kārtībā,Чтобы,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,hr,C2,211,in Stand,kārtībā,Чтобы,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,mk,C2,211,in Stand,kārtībā,Чтобы,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,ru,C2,211,in Stand,kārtībā,Чтобы,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,sr,C2,211,in Stand,kārtībā,Чтобы,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,fi,C2,211,in Stand,kārtībā,Korras,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,is,C2,211,in Stand,kārtībā,Korras,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,nb,C2,211,in Stand,kārtībā,Korras,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,nn,C2,211,in Stand,kārtībā,Korras,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,sv,C2,211,in Stand,kārtībā,Korras,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,it,C2,211,in Stand,kārtībā,Kārtībā,FAMILY_COPY_STRICT,it+lb+nl
+data,lb,C2,211,in Stand,kārtībā,Kārtībā,FAMILY_COPY_STRICT,it+lb+nl
+data,nl,C2,211,in Stand,kārtībā,Kārtībā,FAMILY_COPY_STRICT,it+lb+nl
+data,pl,C2,211,in Stand,kārtībā,W porządku,FAMILY_COPY_STRICT,pl+sk
+data,sk,C2,211,in Stand,kārtībā,W porządku,FAMILY_COPY_STRICT,pl+sk
+data,sq,C2,211,in Stand,kārtībā,Elbette,FAMILY_COPY_STRICT,sq+tr
+data,tr,C2,211,in Stand,kārtībā,Elbette,FAMILY_COPY_STRICT,sq+tr
+data,hr,C2,212,inwiefern,cik lielā mērā,В какой степени,SCRIPT_MISMATCH,
+data,hr,C2,212,inwiefern,cik lielā mērā,В какой степени,MARKER_LEAK,foreign_script
+data,it,C2,212,inwiefern,cik lielā mērā,Cik lielā mērā,SAME_AS_LV_CASEFOLD,casefold_only
+data,it,C2,212,inwiefern,cik lielā mērā,Cik lielā mērā,LV_DIACRITIC,
+data,it,C2,212,inwiefern,cik lielā mērā,Cik lielā mērā,MARKER_LEAK,lv_macron_consonant
+data,lb,C2,212,inwiefern,cik lielā mērā,Cik lielā mērā,SAME_AS_LV_CASEFOLD,casefold_only
+data,lb,C2,212,inwiefern,cik lielā mērā,Cik lielā mērā,LV_DIACRITIC,
+data,lb,C2,212,inwiefern,cik lielā mērā,Cik lielā mērā,MARKER_LEAK,lv_macron_consonant
+data,nl,C2,212,inwiefern,cik lielā mērā,Cik lielā mērā,SAME_AS_LV_CASEFOLD,casefold_only
+data,nl,C2,212,inwiefern,cik lielā mērā,Cik lielā mērā,LV_DIACRITIC,
+data,nl,C2,212,inwiefern,cik lielā mērā,Cik lielā mērā,MARKER_LEAK,lv_macron_consonant
+data,pt,C2,212,inwiefern,cik lielā mērā,Cik lielā mērā,SAME_AS_LV_CASEFOLD,casefold_only
+data,pt,C2,212,inwiefern,cik lielā mērā,Cik lielā mērā,LV_DIACRITIC,
+data,pt,C2,212,inwiefern,cik lielā mērā,Cik lielā mērā,MARKER_LEAK,lv_macron_consonant
+data,sl,C2,212,inwiefern,cik lielā mērā,cik lielā mērā,SAME_AS_LV_CASEFOLD,exact
+data,sl,C2,212,inwiefern,cik lielā mērā,cik lielā mērā,LV_DIACRITIC,
+data,sl,C2,212,inwiefern,cik lielā mērā,cik lielā mērā,MARKER_LEAK,lv_macron_consonant
+data,bg,C2,212,inwiefern,cik lielā mērā,В какой степени,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,hr,C2,212,inwiefern,cik lielā mērā,В какой степени,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,mk,C2,212,inwiefern,cik lielā mērā,В какой степени,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,ru,C2,212,inwiefern,cik lielā mērā,В какой степени,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,sr,C2,212,inwiefern,cik lielā mērā,В какой степени,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,fi,C2,212,inwiefern,cik lielā mērā,Mil määral,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,is,C2,212,inwiefern,cik lielā mērā,Mil määral,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,nb,C2,212,inwiefern,cik lielā mērā,Mil määral,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,nn,C2,212,inwiefern,cik lielā mērā,Mil määral,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,sv,C2,212,inwiefern,cik lielā mērā,Mil määral,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,it,C2,212,inwiefern,cik lielā mērā,Cik lielā mērā,FAMILY_COPY_STRICT,it+lb+nl+pt
+data,lb,C2,212,inwiefern,cik lielā mērā,Cik lielā mērā,FAMILY_COPY_STRICT,it+lb+nl+pt
+data,nl,C2,212,inwiefern,cik lielā mērā,Cik lielā mērā,FAMILY_COPY_STRICT,it+lb+nl+pt
+data,pt,C2,212,inwiefern,cik lielā mērā,Cik lielā mērā,FAMILY_COPY_STRICT,it+lb+nl+pt
+data,pl,C2,212,inwiefern,cik lielā mērā,W jakim stopniu,FAMILY_COPY_STRICT,pl+sk+sq+tr
+data,sk,C2,212,inwiefern,cik lielā mērā,W jakim stopniu,FAMILY_COPY_STRICT,pl+sk+sq+tr
+data,sq,C2,212,inwiefern,cik lielā mērā,W jakim stopniu,FAMILY_COPY_STRICT,pl+sk+sq+tr
+data,tr,C2,212,inwiefern,cik lielā mērā,W jakim stopniu,FAMILY_COPY_STRICT,pl+sk+sq+tr
+data,hr,C2,213,inwieweit,cik lielā mērā,В какой степени,SCRIPT_MISMATCH,
+data,hr,C2,213,inwieweit,cik lielā mērā,В какой степени,MARKER_LEAK,foreign_script
+data,it,C2,213,inwieweit,cik lielā mērā,Cik lielā mērā,SAME_AS_LV_CASEFOLD,casefold_only
+data,it,C2,213,inwieweit,cik lielā mērā,Cik lielā mērā,LV_DIACRITIC,
+data,it,C2,213,inwieweit,cik lielā mērā,Cik lielā mērā,MARKER_LEAK,lv_macron_consonant
+data,lb,C2,213,inwieweit,cik lielā mērā,Cik lielā mērā,SAME_AS_LV_CASEFOLD,casefold_only
+data,lb,C2,213,inwieweit,cik lielā mērā,Cik lielā mērā,LV_DIACRITIC,
+data,lb,C2,213,inwieweit,cik lielā mērā,Cik lielā mērā,MARKER_LEAK,lv_macron_consonant
+data,nl,C2,213,inwieweit,cik lielā mērā,Cik lielā mērā,SAME_AS_LV_CASEFOLD,casefold_only
+data,nl,C2,213,inwieweit,cik lielā mērā,Cik lielā mērā,LV_DIACRITIC,
+data,nl,C2,213,inwieweit,cik lielā mērā,Cik lielā mērā,MARKER_LEAK,lv_macron_consonant
+data,pt,C2,213,inwieweit,cik lielā mērā,Cik lielā mērā,SAME_AS_LV_CASEFOLD,casefold_only
+data,pt,C2,213,inwieweit,cik lielā mērā,Cik lielā mērā,LV_DIACRITIC,
+data,pt,C2,213,inwieweit,cik lielā mērā,Cik lielā mērā,MARKER_LEAK,lv_macron_consonant
+data,sl,C2,213,inwieweit,cik lielā mērā,cik lielā mērā,SAME_AS_LV_CASEFOLD,exact
+data,sl,C2,213,inwieweit,cik lielā mērā,cik lielā mērā,LV_DIACRITIC,
+data,sl,C2,213,inwieweit,cik lielā mērā,cik lielā mērā,MARKER_LEAK,lv_macron_consonant
+data,bg,C2,213,inwieweit,cik lielā mērā,В какой степени,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,hr,C2,213,inwieweit,cik lielā mērā,В какой степени,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,mk,C2,213,inwieweit,cik lielā mērā,В какой степени,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,ru,C2,213,inwieweit,cik lielā mērā,В какой степени,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,sr,C2,213,inwieweit,cik lielā mērā,В какой степени,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,fi,C2,213,inwieweit,cik lielā mērā,Mil määral,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,is,C2,213,inwieweit,cik lielā mērā,Mil määral,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,nb,C2,213,inwieweit,cik lielā mērā,Mil määral,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,nn,C2,213,inwieweit,cik lielā mērā,Mil määral,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,sv,C2,213,inwieweit,cik lielā mērā,Mil määral,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,it,C2,213,inwieweit,cik lielā mērā,Cik lielā mērā,FAMILY_COPY_STRICT,it+lb+nl+pt
+data,lb,C2,213,inwieweit,cik lielā mērā,Cik lielā mērā,FAMILY_COPY_STRICT,it+lb+nl+pt
+data,nl,C2,213,inwieweit,cik lielā mērā,Cik lielā mērā,FAMILY_COPY_STRICT,it+lb+nl+pt
+data,pt,C2,213,inwieweit,cik lielā mērā,Cik lielā mērā,FAMILY_COPY_STRICT,it+lb+nl+pt
+data,pl,C2,213,inwieweit,cik lielā mērā,W jakim stopniu,FAMILY_COPY_STRICT,pl+sk+sq+tr
+data,sk,C2,213,inwieweit,cik lielā mērā,W jakim stopniu,FAMILY_COPY_STRICT,pl+sk+sq+tr
+data,sq,C2,213,inwieweit,cik lielā mērā,W jakim stopniu,FAMILY_COPY_STRICT,pl+sk+sq+tr
+data,tr,C2,213,inwieweit,cik lielā mērā,W jakim stopniu,FAMILY_COPY_STRICT,pl+sk+sq+tr
+data,hr,C2,214,Karre,ķerra,Ръчна количка,SCRIPT_MISMATCH,
+data,hr,C2,214,Karre,ķerra,Ръчна количка,MARKER_LEAK,foreign_script
+data,sl,C2,214,Karre,ķerra,ķerra,SAME_AS_LV_CASEFOLD,exact
+data,sl,C2,214,Karre,ķerra,ķerra,LV_DIACRITIC,
+data,sl,C2,214,Karre,ķerra,ķerra,MARKER_LEAK,lv_macron_consonant
+data,bg,C2,214,Karre,ķerra,Ръчна количка,FAMILY_COPY_STRICT,bg+hr+mk+sr
+data,hr,C2,214,Karre,ķerra,Ръчна количка,FAMILY_COPY_STRICT,bg+hr+mk+sr
+data,mk,C2,214,Karre,ķerra,Ръчна количка,FAMILY_COPY_STRICT,bg+hr+mk+sr
+data,sr,C2,214,Karre,ķerra,Ръчна количка,FAMILY_COPY_STRICT,bg+hr+mk+sr
+data,fi,C2,214,Karre,ķerra,Kärutis,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,is,C2,214,Karre,ķerra,Kärutis,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,nb,C2,214,Karre,ķerra,Kärutis,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,nn,C2,214,Karre,ķerra,Kärutis,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,sv,C2,214,Karre,ķerra,Kärutis,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,it,C2,214,Karre,ķerra,Kruiwagen,FAMILY_COPY_STRICT,it+lb+nl+pt
+data,lb,C2,214,Karre,ķerra,Kruiwagen,FAMILY_COPY_STRICT,it+lb+nl+pt
+data,nl,C2,214,Karre,ķerra,Kruiwagen,FAMILY_COPY_STRICT,it+lb+nl+pt
+data,pt,C2,214,Karre,ķerra,Kruiwagen,FAMILY_COPY_STRICT,it+lb+nl+pt
+data,pl,C2,214,Karre,ķerra,Taczki,FAMILY_COPY_STRICT,pl+sk+sq+tr
+data,sk,C2,214,Karre,ķerra,Taczki,FAMILY_COPY_STRICT,pl+sk+sq+tr
+data,sq,C2,214,Karre,ķerra,Taczki,FAMILY_COPY_STRICT,pl+sk+sq+tr
+data,tr,C2,214,Karre,ķerra,Taczki,FAMILY_COPY_STRICT,pl+sk+sq+tr
+data,hr,C2,215,Karren,ķerra,Ръчна количка,SCRIPT_MISMATCH,
+data,hr,C2,215,Karren,ķerra,Ръчна количка,MARKER_LEAK,foreign_script
+data,sl,C2,215,Karren,ķerra,ķerra,SAME_AS_LV_CASEFOLD,exact
+data,sl,C2,215,Karren,ķerra,ķerra,LV_DIACRITIC,
+data,sl,C2,215,Karren,ķerra,ķerra,MARKER_LEAK,lv_macron_consonant
+data,bg,C2,215,Karren,ķerra,Ръчна количка,FAMILY_COPY_STRICT,bg+hr+mk+sr
+data,hr,C2,215,Karren,ķerra,Ръчна количка,FAMILY_COPY_STRICT,bg+hr+mk+sr
+data,mk,C2,215,Karren,ķerra,Ръчна количка,FAMILY_COPY_STRICT,bg+hr+mk+sr
+data,sr,C2,215,Karren,ķerra,Ръчна количка,FAMILY_COPY_STRICT,bg+hr+mk+sr
+data,fi,C2,215,Karren,ķerra,Kärutis,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,is,C2,215,Karren,ķerra,Kärutis,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,nb,C2,215,Karren,ķerra,Kärutis,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,nn,C2,215,Karren,ķerra,Kärutis,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,sv,C2,215,Karren,ķerra,Kärutis,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,it,C2,215,Karren,ķerra,Kruiwagen,FAMILY_COPY_STRICT,it+lb+nl+pt
+data,lb,C2,215,Karren,ķerra,Kruiwagen,FAMILY_COPY_STRICT,it+lb+nl+pt
+data,nl,C2,215,Karren,ķerra,Kruiwagen,FAMILY_COPY_STRICT,it+lb+nl+pt
+data,pt,C2,215,Karren,ķerra,Kruiwagen,FAMILY_COPY_STRICT,it+lb+nl+pt
+data,pl,C2,215,Karren,ķerra,Taczki,FAMILY_COPY_STRICT,pl+sk+sq+tr
+data,sk,C2,215,Karren,ķerra,Taczki,FAMILY_COPY_STRICT,pl+sk+sq+tr
+data,sq,C2,215,Karren,ķerra,Taczki,FAMILY_COPY_STRICT,pl+sk+sq+tr
+data,tr,C2,215,Karren,ķerra,Taczki,FAMILY_COPY_STRICT,pl+sk+sq+tr
+data,fi,C2,216,Kriegsbeschädigte,kara invalīds,Sõjainvaliid,MARKER_LEAK,et_otilde
+data,hr,C2,216,Kriegsbeschädigte,kara invalīds,Инвалид войны,SCRIPT_MISMATCH,
+data,hr,C2,216,Kriegsbeschädigte,kara invalīds,Инвалид войны,MARKER_LEAK,foreign_script
+data,is,C2,216,Kriegsbeschädigte,kara invalīds,Sõjainvaliid,MARKER_LEAK,et_otilde
+data,nb,C2,216,Kriegsbeschädigte,kara invalīds,Sõjainvaliid,MARKER_LEAK,et_otilde
+data,nn,C2,216,Kriegsbeschädigte,kara invalīds,Sõjainvaliid,MARKER_LEAK,et_otilde
+data,sk,C2,216,Kriegsbeschädigte,kara invalīds,Wojna nieważna,MARKER_LEAK,pl_l_s_z
+data,sl,C2,216,Kriegsbeschädigte,kara invalīds,kara invalīds,SAME_AS_LV_CASEFOLD,exact
+data,sl,C2,216,Kriegsbeschädigte,kara invalīds,kara invalīds,LV_DIACRITIC,
+data,sl,C2,216,Kriegsbeschädigte,kara invalīds,kara invalīds,MARKER_LEAK,lv_macron_consonant
+data,sv,C2,216,Kriegsbeschädigte,kara invalīds,Sõjainvaliid,MARKER_LEAK,et_otilde
+data,bg,C2,216,Kriegsbeschädigte,kara invalīds,Инвалид войны,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,hr,C2,216,Kriegsbeschädigte,kara invalīds,Инвалид войны,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,mk,C2,216,Kriegsbeschädigte,kara invalīds,Инвалид войны,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,ru,C2,216,Kriegsbeschädigte,kara invalīds,Инвалид войны,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,sr,C2,216,Kriegsbeschädigte,kara invalīds,Инвалид войны,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,fi,C2,216,Kriegsbeschädigte,kara invalīds,Sõjainvaliid,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,is,C2,216,Kriegsbeschädigte,kara invalīds,Sõjainvaliid,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,nb,C2,216,Kriegsbeschädigte,kara invalīds,Sõjainvaliid,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,nn,C2,216,Kriegsbeschädigte,kara invalīds,Sõjainvaliid,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,sv,C2,216,Kriegsbeschädigte,kara invalīds,Sõjainvaliid,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,it,C2,216,Kriegsbeschädigte,kara invalīds,Een oorlog ongeldig,FAMILY_COPY_STRICT,it+lb+nl
+data,lb,C2,216,Kriegsbeschädigte,kara invalīds,Een oorlog ongeldig,FAMILY_COPY_STRICT,it+lb+nl
+data,nl,C2,216,Kriegsbeschädigte,kara invalīds,Een oorlog ongeldig,FAMILY_COPY_STRICT,it+lb+nl
+data,pl,C2,216,Kriegsbeschädigte,kara invalīds,Wojna nieważna,FAMILY_COPY_STRICT,pl+sk
+data,sk,C2,216,Kriegsbeschädigte,kara invalīds,Wojna nieważna,FAMILY_COPY_STRICT,pl+sk
+data,sq,C2,216,Kriegsbeschädigte,kara invalīds,Savaş önemsiz,FAMILY_COPY_STRICT,sq+tr
+data,tr,C2,216,Kriegsbeschädigte,kara invalīds,Savaş önemsiz,FAMILY_COPY_STRICT,sq+tr
+data,fi,C2,217,Kriegsgefangene,karagūsteknis,Sõjavang,MARKER_LEAK,et_otilde
+data,hr,C2,217,Kriegsgefangene,karagūsteknis,Военнопленный,SCRIPT_MISMATCH,
+data,hr,C2,217,Kriegsgefangene,karagūsteknis,Военнопленный,MARKER_LEAK,foreign_script
+data,is,C2,217,Kriegsgefangene,karagūsteknis,Sõjavang,MARKER_LEAK,et_otilde
+data,it,C2,217,Kriegsgefangene,karagūsteknis,Karagūsteknis,SAME_AS_LV_CASEFOLD,casefold_only
+data,it,C2,217,Kriegsgefangene,karagūsteknis,Karagūsteknis,LV_DIACRITIC,
+data,it,C2,217,Kriegsgefangene,karagūsteknis,Karagūsteknis,MARKER_LEAK,lv_u_macron
+data,lb,C2,217,Kriegsgefangene,karagūsteknis,Karagūsteknis,SAME_AS_LV_CASEFOLD,casefold_only
+data,lb,C2,217,Kriegsgefangene,karagūsteknis,Karagūsteknis,LV_DIACRITIC,
+data,lb,C2,217,Kriegsgefangene,karagūsteknis,Karagūsteknis,MARKER_LEAK,lv_u_macron
+data,nb,C2,217,Kriegsgefangene,karagūsteknis,Sõjavang,MARKER_LEAK,et_otilde
+data,nl,C2,217,Kriegsgefangene,karagūsteknis,Karagūsteknis,SAME_AS_LV_CASEFOLD,casefold_only
+data,nl,C2,217,Kriegsgefangene,karagūsteknis,Karagūsteknis,LV_DIACRITIC,
+data,nl,C2,217,Kriegsgefangene,karagūsteknis,Karagūsteknis,MARKER_LEAK,lv_u_macron
+data,nn,C2,217,Kriegsgefangene,karagūsteknis,Sõjavang,MARKER_LEAK,et_otilde
+data,sl,C2,217,Kriegsgefangene,karagūsteknis,karagūsteknis,SAME_AS_LV_CASEFOLD,exact
+data,sl,C2,217,Kriegsgefangene,karagūsteknis,karagūsteknis,LV_DIACRITIC,
+data,sl,C2,217,Kriegsgefangene,karagūsteknis,karagūsteknis,MARKER_LEAK,lv_u_macron
+data,sv,C2,217,Kriegsgefangene,karagūsteknis,Sõjavang,MARKER_LEAK,et_otilde
+data,bg,C2,217,Kriegsgefangene,karagūsteknis,Военнопленный,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,hr,C2,217,Kriegsgefangene,karagūsteknis,Военнопленный,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,mk,C2,217,Kriegsgefangene,karagūsteknis,Военнопленный,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,ru,C2,217,Kriegsgefangene,karagūsteknis,Военнопленный,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,sr,C2,217,Kriegsgefangene,karagūsteknis,Военнопленный,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,fi,C2,217,Kriegsgefangene,karagūsteknis,Sõjavang,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,is,C2,217,Kriegsgefangene,karagūsteknis,Sõjavang,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,nb,C2,217,Kriegsgefangene,karagūsteknis,Sõjavang,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,nn,C2,217,Kriegsgefangene,karagūsteknis,Sõjavang,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,sv,C2,217,Kriegsgefangene,karagūsteknis,Sõjavang,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,it,C2,217,Kriegsgefangene,karagūsteknis,Karagūsteknis,FAMILY_COPY_STRICT,it+lb+nl
+data,lb,C2,217,Kriegsgefangene,karagūsteknis,Karagūsteknis,FAMILY_COPY_STRICT,it+lb+nl
+data,nl,C2,217,Kriegsgefangene,karagūsteknis,Karagūsteknis,FAMILY_COPY_STRICT,it+lb+nl
+data,pl,C2,217,Kriegsgefangene,karagūsteknis,Jeniec wojenny,FAMILY_COPY_STRICT,pl+sk+sq+tr
+data,sk,C2,217,Kriegsgefangene,karagūsteknis,Jeniec wojenny,FAMILY_COPY_STRICT,pl+sk+sq+tr
+data,sq,C2,217,Kriegsgefangene,karagūsteknis,Jeniec wojenny,FAMILY_COPY_STRICT,pl+sk+sq+tr
+data,tr,C2,217,Kriegsgefangene,karagūsteknis,Jeniec wojenny,FAMILY_COPY_STRICT,pl+sk+sq+tr
+data,hr,C2,218,Sachverständige,lietpratējs • eksperts,Опытный • Эксперт,SCRIPT_MISMATCH,
+data,hr,C2,218,Sachverständige,lietpratējs • eksperts,Опытный • Эксперт,MARKER_LEAK,foreign_script
+data,it,C2,218,Sachverständige,lietpratējs • eksperts,Lietpratējs • Eksperts,SAME_AS_LV_CASEFOLD,casefold_only
+data,it,C2,218,Sachverständige,lietpratējs • eksperts,Lietpratējs • Eksperts,LV_DIACRITIC,
+data,it,C2,218,Sachverständige,lietpratējs • eksperts,Lietpratējs • Eksperts,MARKER_LEAK,lv_macron_consonant
+data,lb,C2,218,Sachverständige,lietpratējs • eksperts,Lietpratējs • Eksperts,SAME_AS_LV_CASEFOLD,casefold_only
+data,lb,C2,218,Sachverständige,lietpratējs • eksperts,Lietpratējs • Eksperts,LV_DIACRITIC,
+data,lb,C2,218,Sachverständige,lietpratējs • eksperts,Lietpratējs • Eksperts,MARKER_LEAK,lv_macron_consonant
+data,nl,C2,218,Sachverständige,lietpratējs • eksperts,Lietpratējs • Eksperts,SAME_AS_LV_CASEFOLD,casefold_only
+data,nl,C2,218,Sachverständige,lietpratējs • eksperts,Lietpratējs • Eksperts,LV_DIACRITIC,
+data,nl,C2,218,Sachverständige,lietpratējs • eksperts,Lietpratējs • Eksperts,MARKER_LEAK,lv_macron_consonant
+data,pt,C2,218,Sachverständige,lietpratējs • eksperts,Lietpratējs • Especialistas,LV_DIACRITIC,
+data,pt,C2,218,Sachverständige,lietpratējs • eksperts,Lietpratējs • Especialistas,MARKER_LEAK,lv_macron_consonant
+data,sk,C2,218,Sachverständige,lietpratējs • eksperts,Biegły • Ekspert,MARKER_LEAK,pl_l_s_z
+data,sl,C2,218,Sachverständige,lietpratējs • eksperts,lietpratējs • eksperts,SAME_AS_LV_CASEFOLD,exact
+data,sl,C2,218,Sachverständige,lietpratējs • eksperts,lietpratējs • eksperts,LV_DIACRITIC,
+data,sl,C2,218,Sachverständige,lietpratējs • eksperts,lietpratējs • eksperts,MARKER_LEAK,lv_macron_consonant
+data,bg,C2,218,Sachverständige,lietpratējs • eksperts,Опытный • Эксперт,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,hr,C2,218,Sachverständige,lietpratējs • eksperts,Опытный • Эксперт,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,mk,C2,218,Sachverständige,lietpratējs • eksperts,Опытный • Эксперт,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,ru,C2,218,Sachverständige,lietpratējs • eksperts,Опытный • Эксперт,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,sr,C2,218,Sachverständige,lietpratējs • eksperts,Опытный • Эксперт,FAMILY_COPY_STRICT,bg+hr+mk+ru+sr
+data,fi,C2,218,Sachverständige,lietpratējs • eksperts,Asjatundja • Ekspert,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,is,C2,218,Sachverständige,lietpratējs • eksperts,Asjatundja • Ekspert,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,nb,C2,218,Sachverständige,lietpratējs • eksperts,Asjatundja • Ekspert,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,nn,C2,218,Sachverständige,lietpratējs • eksperts,Asjatundja • Ekspert,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,sv,C2,218,Sachverständige,lietpratējs • eksperts,Asjatundja • Ekspert,FAMILY_COPY_STRICT,fi+is+nb+nn+sv
+data,it,C2,218,Sachverständige,lietpratējs • eksperts,Lietpratējs • Eksperts,FAMILY_COPY_STRICT,it+lb+nl
+data,lb,C2,218,Sachverständige,lietpratējs • eksperts,Lietpratējs • Eksperts,FAMILY_COPY_STRICT,it+lb+nl
+data,nl,C2,218,Sachverständige,lietpratējs • eksperts,Lietpratējs • Eksperts,FAMILY_COPY_STRICT,it+lb+nl
+data,pl,C2,218,Sachverständige,lietpratējs • eksperts,Biegły • Ekspert,FAMILY_COPY_STRICT,pl+sk
+data,sk,C2,218,Sachverständige,lietpratējs • eksperts,Biegły • Ekspert,FAMILY_COPY_STRICT,pl+sk
+data,sq,C2,218,Sachverständige,lietpratējs • eksperts,Uzman • Uzman,FAMILY_COPY_STRICT,sq+tr
+data,tr,C2,218,Sachverständige,lietpratējs • eksperts,Uzman • Uzman,FAMILY_COPY_STRICT,sq+tr
