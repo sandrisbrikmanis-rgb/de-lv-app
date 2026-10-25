@@ -1,0 +1,98 @@
+number,state,head,title,matched,commit
+123,CLOSED,cursor/audit-kurss-content-5a8d,"Audit Kurss section: orthography, LV style, and translation fixes",terminology,bac9ca1ae442de030c959d6c571eaee9ca6b0eee
+201,MERGED,cursor/create-uk-de-language-files-a59e,Add Ukrainian (UK-DE) language data files translated from LV-DE source,terminology,3bf37bc66a0745e02171ec7e717d013a5948842e
+257,MERGED,cursor/fix-cs-de-audit-findings-e7d4,Fix CS-DE audit findings: full Czech localization from LV etalon,terminology,e0467f571cad4e1138186aa286656987c6b21c33
+261,MERGED,cursor/fr-de-audit-fixes-2893,Fix FR-DE audit findings: full French localization,terminology,4b9c5f5cb7f2ef5ee53fd6606eb57fb207c9f566
+263,MERGED,cursor/en-de-structural-fixes-1b43,Fix EN-DE structural and technical data integrity issues,terminology,4ce72aa4c0982c5ced81ee6d624f6b21f5861c73
+264,MERGED,cursor/cs-de-structural-fixes-25dc,Fix CS-DE structural and deterministic language errors,terminology,1ea6f33b9223dd7093277ac2b06818998668d37c
+265,MERGED,cursor/da-structural-fixes-7dd3,fix(da): DA-DE structural and deterministic language fixes,terminology,a83a54d63841e1eb9e79119c7adbf048fb7ce84e
+266,MERGED,cursor/et-de-structural-fixes-b184,fix(et-de): structural deterministic ET language fixes,terminology,86553dd9be5ecab25d0cbde49bb20eec2d9cbb23
+267,MERGED,cursor/es-structural-fixes-2322,fix(es): ES-DE structural and deterministic corrections,terminology,a8b94b38bd6de18af4c1ea3f832465da638d8828
+294,MERGED,cursor/bs-c1-pilot-c1b5,feat(bs-c1): GPT-5.6 Luna batch translation pilot,pilot,73e47f4c679bd4c640059878e3a1f40ef6e164ae
+295,MERGED,cursor/bs-c1-quality-cycle-c1b5,fix(bs-c1): sectionAccents sync + full quality audit,pilot,67628741e959904df1ea73a3787f5d90a3d3053a
+296,OPEN,cursor/bs-b1-generation-c1b5,BS–DE B1 generation (GPT-5.6 Luna + batching),pilot,7845515768fc5032a25072f0828f3628d3cad7f4
+418,OPEN,cursor/cs-a1-batch13-fixes-6ea4,CS A1 batch 13: audit fixes index 600–649,terminology,96aa990d88cf6c9951a90c6e4ec4a5d4678913ab
+567,MERGED,cursor/da-kurss-owner-repair-fffe,DA–DE Kurss: apply 531 signed OWNER LABOT repairs (COPY-ONLY),terminology,5efdb5b25948a6fe3f25971e6f864d5d2b201ac1
+692,MERGED,cursor/master-binding-phase0-spec-ab00,docs: Master 1.12 binding agreement + Phase 0 Crowdin discovery spec,g2,
+693,MERGED,cursor/phase0-content-bridge-ab00,feat(phase0): G1/G2/G3 content Crowdin bridge + F0 exit matrix (TECHNICAL_PASS),g2,15a8c639122479cfe3c2e0d3045f993fbc73d688
+694,MERGED,cursor/phase0-complete-exit-ab00,"Phase 0 complete exit: F0-1…F0-8 PASS, discovery 320/320, baseline sync",g2,48bc6ccac670ad991d026918fd30aecf9f834a63
+702,MERGED,cursor/phase1-luna-checkpoint-resume,Phase 1: Luna checkpoint/resume infrastructure (fail-closed),g2,d31b62aeeb69468c7c4933b3c5fd827fbc2e2aa6
+703,MERGED,cursor/post-merge-luna-smoke-report-6338,docs: Phase 1 post-merge real-Luna smoke report (PR #702),g2,6eacce975e1203367da5c5e982229f770e7c67dd
+704,MERGED,cursor/phase1-full-discovery-readonly-6338,Phase 1 full READ-ONLY discovery audit (BLOCKED — Luna scope failures),g2,059b9566ed125e9bfee67ca1dbb6d359138bf921
+705,CLOSED,cursor/phase1-luna-infra-repair-6338,fix(phase1): Luna 98-failure infrastructure repair + same-run resume,g2,fe2eb5ffe082a0019b40250e1849f69bdde4bf75
+712,MERGED,cursor/phase2-g2-a1-crowdin-infra-6338,"Phase 2 G2/A1 Crowdin infrastructure — LV export, locale map, staging import",g2,bc27bb6547b11e9b762faa1e3f5384f79bbb8ced
+713,MERGED,cursor/phase2-g2-a1-audit-key-resolver-6338,Phase 2 G2/A1: fail-closed audit finding → Crowdin key resolver,g2,8efac16d0c3d311d2a854b1e66822afa128c7365
+714,MERGED,cursor/phase2-g2-a1-luna-proposal-infra-6338,"G2/A1 Luna proposal infrastructure (queue, schema, checkpoint, mock transport)",g2,bb374d3ce544f78275ff5d3a9bdebbf8afd881fc
+715,MERGED,cursor/phase2-g2-a1-luna-runtime-identity-gate-6338,G2/A1 Luna runtime auth: v2 contract + bypass repair + private receipt capability (PR #715),g2,60994864ce6d680a6f42c47203485c1a957e232e
+716,MERGED,cursor/phase2-g2-a1-luna-real-transport-6338,feat(g2-a1): integrate real Luna transport with fake-client adapter,g2,2b79ef542f544b5107b34a28cafa1afc4b8505cb
+717,MERGED,cursor/phase2-g2-a1-crowdin-ai-html-owner-6338,G2/A1 Crowdin AI HTML OWNER mapping + controlled apply PASS,g2,
+718,MERGED,cursor/phase3-g2-a1-full-discovery-6338,G2/A1 Phase 3 — FULL READ-ONLY discovery complete (31/31) + missing-ID repair v5,g2,06341c59ad88927fac04aaad8de02a235c0bdfcb
+719,MERGED,cursor/g2-a1-crowdin-staging-app-apply-6338,apply(g2-a1): copy Crowdin staging A1 translations to App baseline,g2,eff30425550ed60db30092e751b031946d809ec1
+720,OPEN,cursor/g2-a1-owner-review-batch-001,G2/A1 — OWNER review batch-001 + escalation repair (5241 automatic NELABOT restored),g2,db97b5178235f0be2bc46ebc6d815953a5114298
+721,OPEN,cursor/g2-a1-linguistic-quarantine-repair-6338,fix(g2-a1): linguistic quarantine repair for 21 erroneous OWNER decisions,g2,978e59d8473ebac54230275be7326e046261dd54
+722,OPEN,cursor/g2-a1-owner-review-repair-task-docs-bdda,docs(g2-a1): OWNER review repair task pack (anti-bulk + batched workflow),g2,9a2edce68b83d7c1dad0565701acef8aa2259b90
+723,OPEN,cursor/g2-a1-recheck-350-lrb001-bdda,LRB-041 FINAL SOURCE-SEMANTIC REPAIR — 50/50 PASS,g2,910526e10d3bdfd0e8c51165889fed154c0b777b
+728,OPEN,cursor/lrb-003-owner-authorization-bdda,LRB-003: FULL 50/50 gala repair + OWNER authorization APPROVED (gpt-5.6-luna),g2,638884dc70f0626ebcc409baa310ee1fd01eab1e
+730,OPEN,cursor/lrb-005-owner-authorization-bdda,LRB-005 PDF-STANDARD FULL REAUDIT REPAIR (FI 50/50),g2,bebfe2e8d3be82fe4737767001f133bc430e5365
+731,OPEN,cursor/lrb-006-owner-authorization-bdda,LRB-006 PDF-STANDARD REAUDIT REPAIR — passen/sich/wer/machen/nehmen,g2,9a1b441fea31b96293aefd1a7808acf800b8aadf
+732,OPEN,cursor/lrb-007-owner-authorization-bdda,LRB-007 PDF micro-repair — baden + aufs,g2,d36f28acd050726a57fda46cbec0924432ce3d1d
+733,OPEN,cursor/lrb-008-owner-authorization-bdda,LRB-008 PDF-standard reaudit repair (besuchen / bitte / Bitte),g2,f75bf90c5580980cd2c3f13302e211ba29c0aa77
+734,OPEN,cursor/lrb-009-owner-authorization-bdda,LRB-009 PDF-STANDARD REAUDIT REPAIR — erst + Geschichte,g2,7f99312a352e0b899b073d1c0401c160e7a52c2d
+735,OPEN,cursor/lrb-010-owner-authorization-bdda,LRB-010 PDF-STANDARD REAUDIT REPAIR — Gesundheit + composites,g2,341cd57e8d205031a4209d717e9cbc53424aab52
+736,OPEN,cursor/lrb-011-owner-authorization-bdda,LRB-011 PDF-STANDARD REAUDIT REPAIR — hübsch FI + fresh 50-row gates,g2,30b2976afa0d5f0bf31dd41528902bf57fe60ef2
+737,OPEN,cursor/lrb-012-owner-authorization-bdda,LRB-012 PDF-STANDARD REAUDIT REPAIR — lieb Rakas + fresh 50-row gates,g2,bba1be74ab918fdfb5cb56dae718a0c08fb2a9aa
+738,OPEN,cursor/lrb-013-owner-authorization-bdda,LRB-013: GPT-5.6 Luna owner authorization + PDF reaudit (Mittwoch..oder),g2,223c19602f0885ebb6ef21c3be76018c0e4a08a7
+740,OPEN,cursor/lrb-015-owner-authorization-bdda,LRB-015: sie/Sie explanation semantic dedupe + full 50/50 linguistic review,g2,4fff24109225ac4193c6b22f7f07cc0fe13b5c54
+742,OPEN,cursor/lrb-017-owner-authorization-bdda,LRB-017: OWNER authorization APPROVED — voll..zweimal (49 LABOT / 1 NELABOT),terminology,169845d42cda33ec1ae8cddd2a902e1fe735c512
+745,OPEN,cursor/lrb-020-owner-authorization-bdda,LRB-020: Luna copy/paste round 2 — 50 cards (15 FR + 35 GR),g2,b560d11fcda926a8af13566eb5874f5cfd0d1361
+750,OPEN,cursor/lrb-100-owner-review-pc2-3db2,LRB-100 PC2 — GALA PASS (LRB_100_FULL_50_50_LINGUISTIC_REVIEW_PASS),g2,915a967b70cc061aa05cc9248ea1a6b183b36921
+752,OPEN,cursor/lrb-099-owner-review-pc2-3db2,LRB-099 PC2 — GALA PASS (LRB_099_FULL_50_50_LINGUISTIC_REVIEW_PASS),g2,7560f13d4c8c45a9d3fa0372073e9e45da253f13
+753,OPEN,cursor/lrb-098-owner-review-pc2-3db2,LRB-098 PC2 — GALA PASS (LRB_098_FULL_50_50_LINGUISTIC_REVIEW_PASS),g2,9efd4bb955b3afeeb0c04602b48df54f2f52be25
+756,OPEN,cursor/lrb-097-owner-review-pc2-3db2,LRB-097 PC2 — GALA PASS (LRB_097_FULL_50_50_LINGUISTIC_REVIEW_PASS),g2,cf62f761a62b8994333ecd4092307a7b42cbb25d
+758,OPEN,cursor/lrb-096-owner-review-pc2-3db2,LRB-096: OWNER review prep — SQ 35 + SR 15 (gpt-5.6-luna),g2,fd2454f9e32ea33cb5dfccc295371613ec24bc78
+760,OPEN,cursor/lrb-027-owner-authorization-bdda,LRB-027: GPT-5.6 Luna paste applied — PENDING_LINGUISTIC_REVIEW,g2,ed09794bd8ae3274b2960d0a6cb2a30d8fb08516
+761,OPEN,cursor/lrb-095-owner-review-pc2-3db2,LRB-095: OWNER review prep — SQ 50 (gpt-5.6-luna),g2,f57cf33381996d8cd7952cdd267317cb4a44bdf6
+762,OPEN,cursor/lrb-028-owner-authorization-bdda,LRB-028: GPT-5.6 Luna paste applied — PENDING_LINGUISTIC_REVIEW,g2,b7cb41222eeb824fbcf71e89ee5ecb313f978ae4
+763,OPEN,cursor/lrb-094-owner-review-pc2-3db2,LRB-094: OWNER review prep — SL 50 (gpt-5.6-luna),g2,4d9f54ebaea6bbbdeab3144eea97d2cbfa0ff72b
+764,OPEN,cursor/lrb-029-owner-authorization-bdda,LRB-029: GPT-5.6 Luna paste applied — PENDING_LINGUISTIC_REVIEW,g2,dd25290d253cd2e8aeb07838b064294430968835
+765,OPEN,cursor/lrb-093-owner-review-pc2-3db2,LRB-093: OWNER review prep — SK 18 + SL 32 (gpt-5.6-luna),g2,8a21439962dd9c02a0992b49d508d619b24ae707
+766,OPEN,cursor/lrb-030-owner-authorization-bdda,LRB-030: GPT-5.6 Luna paste applied — PENDING_LINGUISTIC_REVIEW,g2,be03aadf8a364deffec3c20d786e2925247b9b01
+767,OPEN,cursor/lrb-031-owner-authorization-bdda,LRB-031: GPT-5.6 Luna paste applied — PENDING_LINGUISTIC_REVIEW,g2,51f227036ed005c877375226553f9742b482dda3
+768,OPEN,cursor/lrb-092-owner-authorization-ed35,feat(g2-a1): LRB-092 Slovak OWNER-approved overrides (copy/paste),g2,bd69303396f24af568c1c3d599f46e1280061ef3
+769,OPEN,cursor/lrb-032-owner-authorization-6530,G2/A1 LRB-032: Gala FULL_50_50 linguistic review PASS — LINGUISTICALLY_CLOSED,g2,ce559ac31478e7738a6c9a8b95a3c9c478575f0d
+773,OPEN,cursor/lrb-091-owner-authorization-ed35,feat(g2-a1): LRB-091 Slovak linguistic review (OWNER_AUTHORIZATION_STATUS=APPROVED),g2,18680e1089391ce2077745375b6c404824882fcd
+777,OPEN,cursor/lrb-090-owner-authorization-ed35,feat(g2-a1): LRB-090 Slovak linguistic review (OWNER_AUTHORIZATION_STATUS=APPROVED),g2,7d186f2235113f5b00bb63b2703691f3a9206180
+780,OPEN,cursor/lrb-089-owner-authorization-ed35,feat(g2-a1): LRB-089 OWNER full-card copy/paste remonts (50 LABOT / 27 cards),g2,0215c573d5e08d422a616f4d85ccfc535f1c2200
+787,OPEN,cursor/lrb-088-owner-authorization-ed35,LRB-088: GALA PASS — LRB_088_FULL_50_50_LINGUISTIC_REVIEW_PASS,g2,6193b38a73670f6159c02dd69966aa42719f62b4
+791,OPEN,cursor/lrb-087-owner-authorization-ed35,LRB-087: GALA PASS — full 50/50 linguistic review complete,g2,89d2514db2a7c7158e73dbdd7d1b4fe85e5d2c21
+795,OPEN,cursor/lrb-086-owner-authorization-ed35,LRB-086: GALA PASS — full 50/50 linguistic review complete,g2,df92e5fd71097c1210e7cc836af3334931cb18dd
+797,OPEN,cursor/lrb-085-owner-authorization-ed35,LRB-085: GALA PASS — full 50/50 linguistic review complete,g2,6431f351b2d2f6589c8b55678df4b0c0726fe246
+800,OPEN,cursor/lrb-084-owner-authorization-ed35,LRB-084: GALA PASS — full 50/50 linguistic review complete,g2,64781b9af9217407206981ea0d9572dbd9cb5f06
+802,OPEN,cursor/lrb-083-owner-authorization-ed35,LRB-083: RO+RU linguistic review — GALA PASS (LRB_083_FULL_50_50_OWNER_GALA_PASS),g2,bd0bb7839359f0e95cd7f55d45190fe19f2f7924
+806,OPEN,cursor/lrb-059-owner-authorization-aa66,LRB-059: LINGUISTICALLY_CLOSED — Gala PASS (50 LABOT / 0 NELABOT),g2,5946c1e7c41dfbaeb0a9cd0b4dc522c55cda4d95
+809,OPEN,cursor/lrb-080-owner-authorization-ed35,LRB-080: OWNER authorization APPROVED (PT 50) — pending Luna Phase 1,g2,aa1ceaa4cd2681215a5128f68b264a9ed6981e0d
+825,OPEN,cursor/lrb-070-owner-authorization-aa66,LRB-070: owner authorization APPROVED — LB mop-up a1-ab..a1-hoeren-study (50 rows),g2,cbd499e510c78d15ed1049971065bd4da3a2fc91
+827,OPEN,cursor/lrb-071-owner-authorization-aa66,LRB-071: owner authorization APPROVED (LB batch 14 mop-up),g2,34ba7bd82d0f6ae3c7326355faa6c0ca9a528001
+828,OPEN,cursor/lrb-072-owner-authorization-aa66,LRB-072: owner authorization APPROVED (LB batch 15 tail),g2,03937a5149ac020ed24968f2e5d5438c85112a4f
+831,MERGED,cursor/master-1-18-ling-audit-8f48,docs(master): v1.18 source-supported linguistic audit (1.12 amendments),g2|terminology,08080ca29db73dd1e8560c519304d2e3623d0c99
+834,MERGED,cursor/a1-lrb-001-103-production-closure-audit-8f48,A1 LRB 001–103: production closure audit (read-only),g2,57844047780545235e8d637dc84ded2f0afd2c6c
+836,MERGED,cursor/production-current-a1-orchestrator-verify-17f5,feat(g2-a1): minimal production-CURRENT A1 audit orchestrator,g2,46565c0e16423a4cacfd1767e8d88f8c375bcdd6
+837,MERGED,cursor/g2-a1-owner-auth-runtime-fix-17f5,fix(g2-a1): OWNER authorization template + gitignored runtime package,g2,b0b3170580c422ee06cc5ad8204000336df6582f
+838,MERGED,cursor/g2-a1-full-discovery-executor-17f5,feat(g2-a1): MASTER-compliant production-CURRENT full discovery executor,g2,5ffe5699a41edce5fb00c1a355dbd651fcf0a0d4
+839,MERGED,cursor/g2-a1-full-discovery-cli-eq-17f5,"fix(g2-a1): full discovery CLI SHA flags, Luna wall clock, lang checkpoints",g2,ddde576788556a4b6e847e7bb006551bfa5a08c1
+840,MERGED,cursor/g2-a1-field-level-mapping-salvage-17f5,G2/A1: field-level mapping salvage + targeted audit executor,g2,b72f35ff91ddcdc834853e9cf0c09a0f12e4b72b
+841,MERGED,cursor/g2-a1-targeted-luna-execute-17f5,G2/A1: targeted field-level Luna executor,g2,886b8240d1c775438e088b12ebc6ec4f25878190
+842,OPEN,cursor/g2-a1-official-target-adapters-17f5,G2/A1: 18-language official source resolution + MASTER OWNER scope,g2|pilot|pilots,6d757e258c7612a73a6849aa20292f34688b7558
+843,OPEN,cursor/g2-a1-card-translation-31lang-17f5,"G2/A1: card translation readiness 12/32 (catalog wiring, strict gates)",a1-card|bilingual-audit|g2|pilot|pilots,1db8ebdbb4cda3b391494c13a66a6d0e76f486a9
+844,OPEN,cursor/pdf-bilingual-bg-bs-fr-pilot-17f5,"docs(bg,bs,fr): PDF bilingual DE↔TARGET dictionary discovery",g2|pilot,28fbc9fa8175603867bf1b86f97cdb575c311d40
+845,OPEN,cursor/pdf-bilingual-hr-hu-is-discovery-17f5,"Discover digitized DE↔HR, HU, IS bilingual dictionary sources",a1-card|bilingual-audit|g2|pilot,a7f85f1b5d1139dd6be673fbbc05538a27b2a437
+846,OPEN,cursor/pdf-bilingual-it-mk-nl-discovery-17f5,G2 A1: DE↔it/mk/nl digitized dictionary discovery + pilot verify,a1-card|bilingual-audit|g2|pilot,da37a8c3c84900989ab2f947386463b2bca1f697
+847,OPEN,cursor/pdf-bilingual-it-mk-nl-audit-only-17f5,"G2/A1: it/mk/nl PDF bilingual dictionary discovery, pilot, audit source-chain (scope-clean)",g2|pilot,5a373c9a0472f107e4d27865f6ff319ebaafe6eb
+848,OPEN,cursor/pdf-bilingual-hr-hu-is-audit-only-17f5,"G2/A1: hr/hu/is PDF bilingual dictionary discovery, pilot, audit source-chain (scope-clean)",g2|pilot,606e56e13586910d2fe427226f8d664ec06ec835
+849,OPEN,cursor/pdf-bilingual-fr-bg-bs-audit-only-17f5,"G2/A1: fr/bg/bs PDF bilingual dictionary discovery, pilot, audit source-chain (scope-clean)",g2|pilot,30a69b797cdfc2a2691810085452284cc1562d4a
+850,OPEN,cursor/g2-a1-lt-pl-uk-audit-only-17f5,"G2/A1: lt/pl/uk bilingual dictionary discovery, pilot, audit source-chain (scope-clean)",g2|pilot,4b809f552aab077c2b820138a326518d196805fb
+851,MERGED,cursor/pdf-bilingual-nn-pt-ro-audit-only-17f5,G2/A1: register NN/PT/RO bilingual dictionary audit sources (pilot stack),a1-card|bilingual-audit|g2|pilot|pilots,47a87e4bc429e67c60efeb2dfc2ac2ee5d51cd8a
+852,OPEN,cursor/nn-pt-ro-readiness-md-url-fix-17f5,fix(g2-a1): nn-pt-ro readiness MD URL for modernInstitutional (SNORRE),a1-card|g2|pilot,a140771d6a91ae98c28c5e82f7d0536135239222
+853,OPEN,cursor/pdf-bilingual-sl-sq-sr-sv-discovery-17f5,G2/A1: SL/SQ/SR/SV digitized DE dictionary discovery + 6-lemma pilot,a1-card|bilingual-audit|g2|pilot,a5a289bedac21ece41fef7df9270e67d8215a714
+854,OPEN,cursor/g2-a1-card-translation-linguistic-audit-17f5,G2: unified A1–C2 card translation linguistic audit (phase 1 skeleton),a1-card|g2,b0c16e9c56f21383e96c0fb2505dddb3aad8f4a3
+864,OPEN,cursor/dictionary-sources-f86b,Inventory DE-target dictionary sources on origin/main,g2,03bbc8c92b1817be54f6347675d7852796542025
