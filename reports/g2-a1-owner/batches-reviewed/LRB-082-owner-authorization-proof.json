@@ -1,0 +1,25 @@
+{
+  "batch_id": "LRB-082",
+  "ownerAuthorizationStatus": "APPROVED",
+  "reviewer": "gpt-5.6-luna",
+  "authorizedAt": "2026-09-13T17:05:00.000Z",
+  "linguisticVerdict": "LRB_082_FULL_50_50_OWNER_GALA_PASS",
+  "row_count": 50,
+  "labot": 50,
+  "nelabot": 0,
+  "pending": 0,
+  "antiBulkPass": true,
+  "antiBulkClassification": "G2_A1_OWNER_ANTI_BULK_AUDIT_PASS",
+  "individual_linguistic": 50,
+  "provenance_individual_count": 50,
+  "languages": {
+    "ro": 50
+  },
+  "unique_cards": 50,
+  "scope": "Hand..Urlaub (50 RO) — wrong-language, semantic, grammar, composite-scope, translation fixes",
+  "productionSource": "data/ro/a1.js (read-only review)",
+  "lunaAuditScript": "scripts/temp-audit-lrb082-luna.js",
+  "lunaModel": "gpt-5.6-luna",
+  "lunaTokens": 47282,
+  "note": "GALA PASS. OWNER_AUTHORIZATION_STATUS=APPROVED. 50 LABOT / 0 NELABOT / 0 PENDING. DE/production/Crowdin/ingest/apply unchanged."
+}
