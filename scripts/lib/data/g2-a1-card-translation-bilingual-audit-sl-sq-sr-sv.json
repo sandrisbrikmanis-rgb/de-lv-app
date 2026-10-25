@@ -1,0 +1,280 @@
+{
+  "schemaVersion": "g2-a1-card-translation-bilingual-audit-sl-sq-sr-sv-v1",
+  "description": "Kartīšu tulkojuma audits — digitizēti DE↔TARGET avoti sl / sq / sr / sv (labākie atrastie avoti; pilot 2026-10-03).",
+  "auditSequence": [
+    {
+      "step": 1,
+      "rule": "Meklē tiešo pāri DE→TARGET primārajā digitizētajā vārdnīcā (IA OCR, MDZ hOCR/IIIF, dLib TEXT, institucionālais digitālais leksikons)."
+    },
+    {
+      "step": 2,
+      "rule": "Ja nepieciešams, izmanto TARGET→DE tajā pašā divvirzienu darbā vai otrā reģistrētajā virzienā."
+    },
+    {
+      "step": 3,
+      "rule": "Papildu/reserves avotus izmanto tikai ja primārais posms nedod derīgu pāri."
+    },
+    {
+      "step": 4,
+      "rule": "Pārbaudi vārdšķiru un konkrētās kartītes vācu nozīmi; citai nozīmei piederošu ekvivalentu nepieņem."
+    },
+    {
+      "step": 5,
+      "rule": "Lietotāju papildinātos tīmekļa vārdnīcus neizmanto kā galveno OWNER pierādījumu."
+    },
+    {
+      "step": 6,
+      "rule": "Saglabā avota nosaukumu, virzienu, atrasto pāri un precīzo viewer / OCR / TEXT / meklējuma URL."
+    }
+  ],
+  "regressionPilotDeLemmas": ["Haus", "arbeiten", "Kleingeld", "bewirten", "Grenzkonflikt", "Machtgier"],
+  "discoveryInputs": {
+    "discoveryReport": "reports/g2-a1-production-current/pdf-bilingual-dictionary-sl-sq-sr-sv-discovery/pdf-bilingual-dictionary-sl-sq-sr-sv-discovery.json",
+    "pilotVerifyReport": "reports/g2-a1-production-current/pdf-bilingual-dictionary-sl-sq-sr-sv-pilot-verify/pdf-bilingual-dictionary-sl-sq-sr-sv-pilot-verify.json",
+    "murkoDlibPilotReport": "reports/g2-a1-production-current/pdf-bilingual-dictionary-sl-murko-dlib-pilot/pdf-bilingual-dictionary-sl-murko-dlib-pilot.json"
+  },
+  "languages": {
+    "sl": {
+      "digitizedAuditStatus": "PARTIAL",
+      "primaryDigitized": [
+        {
+          "id": "ia-deutschslovenis00unkngoog",
+          "name": "Deutsch-slovenisches Wörterbuch (Cigale, 1860, IA)",
+          "year": 1860,
+          "authorPublisher": "Fran Miklošič / Cigale; Google–IA",
+          "direction": "de→sl",
+          "role": "primary",
+          "accessType": "Internet Archive PDF + OCR",
+          "viewerUrl": "https://archive.org/details/deutschslovenis00unkngoog",
+          "ocrUrl": "https://archive.org/download/deutschslovenis00unkngoog/deutschslovenis00unkngoog_djvu.txt"
+        }
+      ],
+      "reverseChainDigitized": [
+        {
+          "id": "dlib-urn-nbn-si-doc-t28eel0u-murko-txt-1833",
+          "name": "Deutsch-Slowenisches und Slowenisch-Deutsches Handwörterbuch (Murko, dLib TXT)",
+          "year": "1833 (URN); 1883 colophon in TXT",
+          "authorPublisher": "Anton Murko / Johann Lorenz Greiner; dLib.si",
+          "direction": "de↔sl",
+          "role": "supplement_bidirectional_txt",
+          "accessType": "dLib TEXT/plain (2 volumes; session cookie for stream)",
+          "detailsUrl": "https://www.dlib.si/details/URN:NBN:SI:DOC-T28EEL0U",
+          "txtStreamVol1": "https://www.dlib.si/stream/URN:NBN:SI:DOC-T28EEL0U/c6e13f7f-f297-4d2f-99f1-c05cfda85d29/TEXT",
+          "txtStreamVol2": "https://www.dlib.si/stream/URN:NBN:SI:DOC-T28EEL0U/5453dc73-29ff-4ad0-a156-8bf187c93dfe/TEXT",
+          "localEvidencePath": "reports/g2-a1-production-current/pdf-bilingual-dictionary-sl-murko-dlib-pilot/",
+          "reversePilotNote": "hiša → hifha/hirha → Haus (vol2); strict DE pilot 2/6"
+        }
+      ],
+      "supplementaryReserve": [
+        {
+          "id": "ia-deutschslowenis00murkgoog-1888",
+          "name": "Deutsch-slowenisches Handwörterbuch (Murko, 1888, IA OCR)",
+          "direction": "de→sl",
+          "role": "supplement_reserve",
+          "viewerUrl": "https://archive.org/details/deutschslowenis00murkgoog",
+          "ocrUrl": "https://archive.org/download/deutschslowenis00murkgoog/deutschslowenis00murkgoog_djvu.txt"
+        },
+        {
+          "id": "ia-bub-gb-geodkupucbsc-janezic-taschen-1866",
+          "name": "Taschenwörterbuch der deutschen und slovenischen Sprache (Janežič, 1866)",
+          "direction": "de↔sl",
+          "role": "supplement_reserve",
+          "viewerUrl": "https://archive.org/details/geodkupucbsc",
+          "ocrUrl": "https://archive.org/download/geodkupucbsc/geodkupucbsc_djvu.txt"
+        },
+        {
+          "id": "ia-bub-gb-nrataaaaiaaj-janezic-1905",
+          "name": "Deutsch-slovenisches Taschenwörterbuch (Janežič / Bartel, 1905)",
+          "direction": "de→sl",
+          "role": "supplement_reserve",
+          "viewerUrl": "https://archive.org/details/bub_gb_NRATAAAAIAAJ",
+          "ocrUrl": "https://archive.org/download/bub_gb_NRATAAAAIAAJ/bub_gb_NRATAAAAIAAJ_djvu.txt"
+        }
+      ],
+      "rejectedNotUsable": [],
+      "collectorOverrideId": "ia-deutschslovenis00unkngoog",
+      "sourceChainPriority": [
+        "DE→SL: primaryDigitized ia-deutschslovenis00unkngoog (Cigale 1860 IA OCR)",
+        "reverse / dialect: dlib-urn-nbn-si-doc-t28eel0u-murko-txt-1833 (papildu, ne primārais)",
+        "supplementaryReserve: Murko 1888 IA, Janežič 1866 / 1905"
+      ],
+      "pilotNotes": {
+        "deToTargetVerifiedLemmas": ["Haus", "arbeiten"],
+        "deToTargetHitCount": "2/6",
+        "murkoDlibDeToTargetHitCount": "2/6",
+        "murkoDlibReverseHisaFound": true,
+        "reverseHisaOrthographyNote": "TXT uses hifha/hirha, not modern hiša",
+        "auditReady": false,
+        "readinessClassification": "SL_DIGITIZED_SOURCES_REGISTERED_PARTIAL"
+      }
+    },
+    "sq": {
+      "digitizedAuditStatus": "PARTIAL",
+      "primaryDigitized": [
+        {
+          "id": "ia-hahn-albanesische-studien-martin-lexicon",
+          "name": "Albanesische Studien — albanesisch-deutsches Lexikon + DE→SQ Verzeichnis (Hahn/Martin, IA)",
+          "year": null,
+          "authorPublisher": "J. G. von Hahn / Martin; Michigan copy IA",
+          "direction": "de→sq",
+          "role": "primary",
+          "accessType": "Internet Archive PDF + OCR",
+          "viewerUrl": "https://archive.org/details/ahy9953.0001.001.umich.edu",
+          "ocrUrl": "https://archive.org/download/ahy9953.0001.001.umich.edu/ahy9953.0001.001.umich.edu_djvu.txt"
+        }
+      ],
+      "reverseChainDigitized": [],
+      "modernInstitutional": [],
+      "supplementaryReserve": [
+        {
+          "id": "ia-diesprachederal00xylagoog-1835",
+          "name": "Die Sprache der Albanesen (Xylokastro / early Albanian–German material, IA)",
+          "direction": "de→sq-historical",
+          "role": "supplement_reserve",
+          "viewerUrl": "https://archive.org/details/diesprachederal00xylagoog",
+          "ocrUrl": "https://archive.org/download/diesprachederal00xylagoog/diesprachederal00xylagoog_djvu.txt"
+        }
+      ],
+      "rejectedNotUsable": [
+        {
+          "id": "ia-wrterbuchdeutsch00simo",
+          "name": "Wörterbuch Deutsch–Albanisch (Zef Simoni, 1997, IA)",
+          "reason": "IA LCP/borrow — djvu.txt 401; nav atvērts OCR šajā vidē."
+        }
+      ],
+      "collectorOverrideId": "ia-hahn-albanesische-studien-martin-lexicon",
+      "sourceChainPriority": [
+        "DE→SQ: primaryDigitized ia-hahn-albanesische-studien-martin-lexicon",
+        "supplementaryReserve: ia-diesprachederal00xylagoog-1835"
+      ],
+      "pilotNotes": {
+        "deToTargetVerifiedLemmas": ["Haus", "arbeiten"],
+        "deToTargetHitCount": "2/6",
+        "auditReady": false,
+        "readinessClassification": "SQ_DIGITIZED_SOURCES_REGISTERED_PARTIAL"
+      }
+    },
+    "sr": {
+      "digitizedAuditStatus": "PARTIAL",
+      "primaryDigitized": [
+        {
+          "id": "mdz-bsb11358470-karadzic-de-sr-1872",
+          "name": "Deutsch-serbisches Wörterbuch (Karadžić, 1872, MDZ BSB 11358470)",
+          "year": 1872,
+          "authorPublisher": "Vuk Stefanović Karadžić; BSB / MDZ",
+          "direction": "de→sr",
+          "role": "primary",
+          "accessType": "MDZ viewer + per-page hOCR",
+          "viewerUrl": "https://www.digitale-sammlungen.de/de/view/bsb11358470?page=1",
+          "ocrApiPattern": "https://api.digitale-sammlungen.de/ocr/bsb11358470/{page}",
+          "iiifManifestUrl": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11358470/manifest"
+        }
+      ],
+      "reverseChainDigitized": [],
+      "modernInstitutional": [
+        {
+          "id": "mdz-bsb11646956-danicic-jovanovic-de-sr-1886",
+          "name": "Wörterbuch der serbischen und deutschen Sprache, I. Deutsch-serbischer Teil (Daničić/Jovanović, 1886)",
+          "year": 1886,
+          "authorPublisher": "Đura Daničić / Jovanović; BSB 11646956",
+          "direction": "de→sr",
+          "role": "modern_institutional_parallel",
+          "accessType": "MDZ viewer + per-page hOCR",
+          "viewerUrl": "https://www.digitale-sammlungen.de/de/view/bsb11646956?page=1",
+          "ocrApiPattern": "https://api.digitale-sammlungen.de/ocr/bsb11646956/{page}"
+        }
+      ],
+      "supplementaryReserve": [
+        {
+          "id": "ia-wrterbuchderse01popo-popovic-1879",
+          "name": "Wörterbuch der serbischen und deutschen Sprache (Popović, 1879, IA)",
+          "direction": "de→sr",
+          "role": "supplement_reserve",
+          "viewerUrl": "https://archive.org/details/wrterbuchderse01popo",
+          "ocrUrl": "https://archive.org/download/wrterbuchderse01popo/wrterbuchderse01popo_djvu.txt",
+          "pilotNote": "1/6 — uzticamība zemāka par MDZ hOCR"
+        },
+        {
+          "id": "ia-bub-gb-zevk-de-illyr-1818",
+          "name": "Kurzgefaßtes Wörterbuch der illyrischen und deutschen Sprache (1790/91, IA ZEVK)",
+          "direction": "de→sr-historical",
+          "role": "supplement_historical_illyrian",
+          "viewerUrl": "https://archive.org/details/bub_gb_ZEVKAAAAcAAJ",
+          "ocrUrl": "https://archive.org/download/bub_gb_ZEVKAAAAcAAJ/bub_gb_ZEVKAAAAcAAJ_djvu.txt",
+          "pilotNote": "2/6 vēsturisks Illyrisch — ne aizstāj mūsdienīgu sr"
+        }
+      ],
+      "rejectedNotUsable": [
+        {
+          "id": "ia-deutschserbische00kara",
+          "name": "Karadžić DE–SR (IA deutschserbische00kara djvu)",
+          "reason": "Tesseract OCR 0/6 pilot — neizmantot kā primārais."
+        }
+      ],
+      "collectorOverrideId": "mdz-bsb11358470-karadzic-de-sr-1872",
+      "sourceChainPriority": [
+        "DE→SR: primaryDigitized mdz-bsb11358470-karadzic-de-sr-1872 (MDZ hOCR)",
+        "modernInstitutional: mdz-bsb11646956-danicic-jovanovic-de-sr-1886",
+        "supplementaryReserve: Popović 1879, ZEVK 1818 (vēsturisks)"
+      ],
+      "pilotNotes": {
+        "deToTargetVerifiedLemmas": ["Haus", "arbeiten"],
+        "deToTargetHitCount": "2/6",
+        "modernDanicicDeToTargetHitCount": "2/6",
+        "auditReady": false,
+        "readinessClassification": "SR_DIGITIZED_SOURCES_REGISTERED_PARTIAL"
+      }
+    },
+    "sv": {
+      "digitizedAuditStatus": "PARTIAL",
+      "primaryDigitized": [
+        {
+          "id": "ia-tysksvenskordbok00hoppuoft",
+          "name": "Tysk-svensk ordbok (Otto Hoppe, 1904, IA)",
+          "year": 1904,
+          "authorPublisher": "Otto Hoppe; IA / Oslo copy",
+          "direction": "de→sv",
+          "role": "primary",
+          "accessType": "Internet Archive PDF + OCR",
+          "viewerUrl": "https://archive.org/details/tysksvenskordbok00hoppuoft",
+          "ocrUrl": "https://archive.org/download/tysksvenskordbok00hoppuoft/tysksvenskordbok00hoppuoft_djvu.txt"
+        }
+      ],
+      "reverseChainDigitized": [
+        {
+          "id": "ia-svensktyskordbo01hoppgoog-bidir",
+          "name": "Svensk-tysk ordbok (Hoppe bidirectional vol., IA)",
+          "direction": "sv→de",
+          "role": "reverse_in_same_family",
+          "viewerUrl": "https://archive.org/details/svensktyskordbo01hoppgoog",
+          "ocrUrl": "https://archive.org/download/svensktyskordbo01hoppgoog/svensktyskordbo01hoppgoog_djvu.txt",
+          "reversePilotNote": "hus ↔ Haus spot-check"
+        }
+      ],
+      "supplementaryReserve": [
+        {
+          "id": "ia-rosenbgr-tysk-svensk-1956",
+          "name": "Tysk-svensk ordbok (1956 edition, Runeberg / Projekt Runeberg mirror)",
+          "direction": "de→sv",
+          "role": "supplement_reserve",
+          "portalUrl": "https://runeberg.org/rosenbgr/",
+          "pilotNote": "2/6 temp OCR pilots; Runeberg digitization"
+        }
+      ],
+      "rejectedNotUsable": [],
+      "collectorOverrideId": "ia-tysksvenskordbok00hoppuoft",
+      "sourceChainPriority": [
+        "DE→SV: primaryDigitized ia-tysksvenskordbok00hoppuoft",
+        "reverse: ia-svensktyskordbo01hoppgoog-bidir",
+        "supplementaryReserve: ia-rosenbgr-tysk-svensk-1956"
+      ],
+      "pilotNotes": {
+        "deToTargetVerifiedLemmas": ["Haus", "arbeiten"],
+        "deToTargetHitCount": "2/6",
+        "reverseHusFound": true,
+        "auditReady": false,
+        "readinessClassification": "SV_DIGITIZED_SOURCES_REGISTERED_PARTIAL"
+      }
+    }
+  }
+}
