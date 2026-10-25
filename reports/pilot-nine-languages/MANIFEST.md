@@ -1,0 +1,14 @@
+fddee44f99349005516f90924a5baed005dc5cd0 2026-10-05
+
+# MANIFEST — reports/pilot-nine-languages
+
+| Fails | SHA-256 | Baiti |
+|---|---|---|
+| SUMMARY.md | `173e153da9fdf9f23deb6a452ab6b85e33f0368fa0e4319f98c3729f3ee4721d` | 7632 |
+| FINDINGS.csv | `f071e524f2c9a22fea08913c8a35bf6e85373c7fda069d15358d6e48ed15dc12` | 53774 |
+
+Ekstraktora divas palaišanas: `420b16066b36e648712e35d810f5346dc6f648bc2ec2a989c98d34d680d8d224`
+
+ORIGIN_MAIN: `9b44e89506a66a39e6ca375d6106566396ef8f10`
+
+STAGE RESULT: PASS
