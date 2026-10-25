@@ -1,0 +1,302 @@
+{
+  "g2/a1/gr|laut|idx:358|lv, study.translation, study.explanation, study.examples, study.tip|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Δυνατός\",\"study.translation\":\"Δυνατός\",\"study.explanation[1]\":\"Laut σημαίνει κυρίως: δυνατός ήχος.\",\"study.explanation[3]\":\"Laut σημαίνει κυρίως: ήχος ως σήμα.\",\"study.tip[0]\":\"Το laut με μικρό γράμμα = δυνατός (επίθετο: ist laut). Το der Laut με κεφαλαίο = ήχος (ουσιαστικό).\"}",
+    "owner_note": "GR laut: owner micro-repair Ηχηρός→Δυνατός; tip δυνατός gloss. DE untouched."
+  },
+  "g2/a1/gr|Laut|idx:359|lv, study.translation, study.explanation, study.examples, study.tip|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.explanation[1]\":\"Der Laut σημαίνει κυρίως: ήχος.\",\"study.tip[0]\":\"Μικρό laut = ηχηρός (επίθετο: ist laut). der Laut με κεφαλαίο = ήχος (ουσιαστικό: ein Laut, der Laut).\"}",
+    "owner_note": "GR Laut: fix explanation/tip choose-sound leak; Ήχος noun OK. DE untouched."
+  },
+  "g2/a1/gr|legen|idx:363|lv, study.translation, study.explanation, study.examples, study.comparison|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Βάζω • Τοποθετώ\",\"study.translation\":\"Βάζω • Τοποθετώ\",\"study.comparison[0].meaning\":\"Βάζω / τοποθετώ\",\"study.comparison[2].meaning\":\"Στέκω όρθιο\",\"study.comparison[3].meaning\":\"Κάθομαι\"}",
+    "owner_note": "GR legen: imperative→Βάζω•Τοποθετώ; fix stellen/setzen comparison glosses. DE untouched."
+  },
+  "g2/a1/gr|leise|idx:368|lv, study.translation, study.explanation, study.examples|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.explanation[3]\":\"Περιγράφει χαμηλή ένταση ή ήσυχη φωνή/ήχο.\"}",
+    "owner_note": "GR leise: replace English quiet leak in study.explanation. DE untouched."
+  },
+  "g2/a1/gr|liegen|idx:377|lv, study.translation, study.explanation, study.examples|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Ξαπλώνω • Βρίσκομαι\",\"study.translation\":\"Ξαπλώνω • Βρίσκομαι\"}",
+    "owner_note": "GR liegen: imperative→Ξαπλώνω•Βρίσκομαι dictionary form for gulēt/atrasties. DE untouched."
+  },
+  "g2/a1/gr|machen|idx:386|lv, study.translation, study.explanation, study.examples|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Κάνω • Φτιάχνω\",\"study.translation\":\"Κάνω • Φτιάχνω\",\"study.explanation[3]\":\"Σε πολλές φράσεις, το machen μεταφράζεται φυσικά σύμφωνα με το πλαίσιο, όχι κυριολεκτικά.\"}",
+    "owner_note": "GR machen: imperative→Κάνω•Φτιάχνω; remove Estonian leak in explanation. DE untouched."
+  },
+  "g2/a1/gr|Mal|idx:390|lv, study.translation, study.explanation, study.examples|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "GR Mal: Φορά time/occasion teaching aligns with reize. DE untouched."
+  },
+  "g2/a1/gr|noch|idx:451|study.sectionAccents|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"green\\\":[\\\"Ακόμα\\\"],\\\"purple\\\":[\\\"ακόμα\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"green\\\":[\\\"noch\\\",\\\"noch\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"ακόμα\\\"]}},{\\\"de\\\":{\\\"green\\\":[\\\"noch\\\",\\\"noch\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"ακόμα\\\"]}},{\\\"de\\\":{\\\"green\\\":[\\\"noch\\\",\\\"noch\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"ακόμα\\\"]}}],\\\"tip\\\":[{\\\"purple\\\":[\\\"ακόμα\\\"]}],\\\"important\\\":[{\\\"green\\\":[\\\"noch\\\"]}]}\"}",
+    "owner_note": "GR noch sectionAccents: rewrite Latvian vēl tokens to Greek ακόμα. DE untouched."
+  },
+  "g2/a1/gr|nur|idx:456|study.sectionAccents|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"orange\\\":[\\\"nur\\\",\\\"nur\\\"],\\\"green\\\":[\\\"μόνο\\\"],\\\"red\\\":[\\\"Μόνο\\\"],\\\"yellow\\\":[\\\"μόνο\\\",\\\"μόνο\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"orange\\\":[\\\"nur\\\",\\\"nur\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"μόνο\\\"]}},{\\\"de\\\":{\\\"orange\\\":[\\\"nur\\\",\\\"nur\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"μόνο\\\"]}},{\\\"de\\\":{\\\"orange\\\":[\\\"nur\\\",\\\"nur\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"μόνο\\\"]}},{\\\"de\\\":{\\\"orange\\\":[\\\"nur\\\",\\\"nur\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"μόνο\\\"]}},{\\\"de\\\":{\\\"orange\\\":[\\\"nur\\\",\\\"nur\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"μόνο\\\"]}}],\\\"tip\\\":[{},{}],\\\"important\\\":[{\\\"orange\\\":[\\\"nur\\\"]}]}\"}",
+    "owner_note": "GR nur sectionAccents: rewrite Latvian vienīgi/tikai tokens to Greek μόνο. DE untouched."
+  },
+  "g2/a1/gr|passen|idx:471|study.sectionAccents|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"passen\\\",\\\"Das passt\\\"],\\\"purple\\\":[\\\"ταιριάζω\\\",\\\"ταιριάζει\\\",\\\"κατάλληλο\\\"],\\\"yellow\\\":[\\\"ρούχα\\\",\\\"χρώματα\\\",\\\"στυλ\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"passt\\\"],\\\"yellow\\\":[\\\"Jacke\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"ταιριάζει\\\"],\\\"yellow\\\":[\\\"Σακάκι\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"passt\\\"],\\\"yellow\\\":[\\\"Kleid\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"ταιριάζει\\\"],\\\"yellow\\\":[\\\"Φόρεμα\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"passt\\\"],\\\"yellow\\\":[\\\"Farbe\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"ταιριάζει\\\"],\\\"yellow\\\":[\\\"χρώμα\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Das passt\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"ταιριάζει\\\"]}}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"passen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"ταιριάζω\\\",\\\"ταιριάζει\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"passt\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"stehen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"ταιριάζει\\\",\\\"στέκεται\\\"]},\\\"example\\\":{\\\"green\\\":[\\\"steht\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"geeignet sein\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"κατάλληλο\\\"]},\\\"example\\\":{\\\"yellow\\\":[\\\"geeignet\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"funktionieren\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"λειτουργεί\\\"]},\\\"example\\\":{\\\"red\\\":[\\\"funktioniert\\\"]}}],\\\"tip\\\":{\\\"left\\\":{\\\"blue\\\":[\\\"Das passt\\\"],\\\"purple\\\":[\\\"ταιριάζει\\\"]}},\\\"important\\\":[{\\\"blue\\\":[\\\"passen\\\"],\\\"yellow\\\":[\\\"ρούχα\\\"]},{\\\"purple\\\":[\\\"χρόνος\\\",\\\"σχέδιο\\\",\\\"λύση\\\",\\\"ταιριάζει\\\"]}]}\"}",
+    "owner_note": "GR passen sectionAccents: rewrite Latvian derēt/piestāvēt tokens to Greek. DE untouched."
+  },
+  "g2/a1/gr|sprechen|idx:5|lv, study.translation, study.explanation, study.examples, study.comparison, study.tip, study.important|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Μιλάω\",\"study.translation\":\"Μιλάω\",\"study.examples[2].lv\":\"Μιλάει με τη δασκάλα της.\"}",
+    "owner_note": "GR sprechen: imperative→Μιλάω; fix scrambled example[2]. DE untouched."
+  },
+  "g2/a1/gr|stehen|idx:576|lv,study|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Στέκομαι\",\"study.translation\":\"Στέκομαι\",\"study.comparison[1].meaning\":\"Κάθομαι\",\"study.comparison[2].meaning\":\"Ξαπλώνω\",\"study.comparison[3].meaning\":\"Τοποθετώ όρθιο\"}",
+    "owner_note": "GR stehen: imperative→Στέκομαι; fix sitzen/liegen/stellen comparison forms. DE untouched."
+  },
+  "g2/a1/gr|über|idx:608|lv,study|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Πάνω από • Για\",\"study.translation\":\"Πάνω από • Για\",\"study.examples[3].lv\":\"Είμαι ευχαριστημένος με το δώρο.\",\"study.comparison[0].meaning\":\"Πάνω από / για / πέρα\",\"study.comparison[2].meaning\":\"Κάτω από\"}",
+    "owner_note": "GR über: Παρόν•Περίπου→Πάνω από•Για; fix scrambled example; unter comparison. DE untouched."
+  },
+  "g2/a1/gr|um|idx:611|lv,study|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Γύρω στις • Γύρω από\",\"study.translation\":\"Γύρω στις • Γύρω από\",\"study.explanation[0]\":\"Κύρια ιδέα: το um σημαίνει συχνά ώρα (στις ...) ή γύρω από κάτι.\",\"study.explanation[1]\":\"Για την ακριβή ώρα, um σημαίνει στις.\",\"study.explanation[2]\":\"Για το μέρος, um σημαίνει γύρω από.\",\"study.explanation[3]\":\"Στη φράση um ... zu, βοηθά στην έκφραση του σκοπού.\"}",
+    "owner_note": "GR um: fix χμ typo and clock/around glosses for ap•pulksten. DE untouched."
+  },
+  "g2/a1/gr|unter|idx:615|lv,study|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Κάτω από • Μεταξύ\",\"study.translation\":\"Κάτω από • Μεταξύ\",\"study.comparison[1].meaning\":\"Πάνω από / για\"}",
+    "owner_note": "GR unter: Παρακάτω→Κάτω από•Μεταξύ for zem; fix über comparison cross-ref. DE untouched."
+  },
+  "g2/a1/gr|verstehen|idx:621|lv,study|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Καταλαβαίνω\",\"study.translation\":\"Καταλαβαίνω\",\"study.comparison[0].meaning\":\"Καταλαβαίνω\",\"study.comparison[1].meaning\":\"Μπορώ\",\"study.comparison[2].meaning\":\"Ξέρω (γεγονός)\",\"study.comparison[3].meaning\":\"Γνωρίζω\"}",
+    "owner_note": "GR verstehen: imperative→Καταλαβαίνω; fix können/wissen/kennen comparison glosses. DE untouched."
+  },
+  "g2/a1/gr|vom|idx:634|lv, study.translation, study.explanation, study.examples, study.comparison, study.tip, study.important|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Από\",\"study.translation\":\"Από\",\"study.explanation[3]\":\"Απαντά συχνά στις ερωτήσεις: από πού; από ποιον;\",\"study.comparison[0].meaning\":\"Από (συγκεκριμένη πηγή, δοτική)\"}",
+    "owner_note": "GR vom composite: owner micro-repair explanation[3] and comparison meaning. DE untouched."
+  },
+  "g2/a1/gr|vor|idx:636|lv, study.translation, study.explanation, study.examples, study.comparison, study.important|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.explanation[3]\":\"Στην ώρα, vor σημαίνει «πριν», π.χ. fünf vor acht.\",\"study.examples[2].lv\":\"Είναι πέντε λεπτά πριν τις οκτώ.\"}",
+    "owner_note": "GR vor: owner micro-repair clock-time explanation and example[2]. DE untouched."
+  },
+  "g2/a1/gr|was|idx:644|lv, study.translation, study.explanation, study.examples, study.tip, study.important|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Τι\",\"study.translation\":\"Τι\",\"study.explanation[0]\":\"Κύρια ιδέα: was είναι ερωτηματική λέξη για πράγματα και γεγονότα.\",\"study.important[3]\":\"Λάθος: Wer ist passiert; → Σωστό: Was ist passiert;\"}",
+    "owner_note": "GR was: dedupe Τι•Τι→Τι; fix Estonian leaks and wer/was important example. DE untouched."
+  },
+  "g2/a1/gr|wenn|idx:655|lv, study.translation, study.explanation, study.examples, study.comparison, study.important|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.explanation[0]\":\"Κύρια ιδέα: το wenn εκφράζει συνθήκη ή επαναλαμβανόμενο χρόνο.\",\"study.explanation[1]\":\"Αν είναι συνθήκη, μεταφράστε το ως αν.\",\"study.explanation[2]\":\"Αν πρόκειται για επαναλαμβανόμενο χρόνο, μεταφράζεται ως όταν.\",\"study.important[1]\":\"Πότε έρχεσαι; είναι ερώτηση. Το Wenn du kommst... είναι συνθήκη/χρόνος.\"}",
+    "owner_note": "GR wenn composite: remove Estonian leaks in explanation/important. DE untouched."
+  },
+  "g2/a1/gr|wer|idx:656|lv, study.translation, study.explanation, study.examples, study.tip, study.important|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Ποιος\",\"study.translation\":\"Ποιος\",\"study.examples[0].lv\":\"Ποιος είναι αυτός;\",\"study.important[3]\":\"Λάθος: Wer ist passiert; → Σωστό: Was ist passiert;\"}",
+    "owner_note": "GR wer: dedupe Ποιος•Ποιος→Ποιος; fix scrambled example[0]; fix important. DE untouched."
+  },
+  "g2/a1/gr|werden|idx:657|lv, study.translation, study.explanation|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Γίνομαι\",\"study.translation\":\"Γίνομαι\"}",
+    "owner_note": "GR werden: Να πάρει→Γίνομαι for kļūt become. DE untouched."
+  },
+  "g2/a1/gr|Wetter|idx:658|lv, study.explanation|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.explanation[1]\":\"Η λέξη καιρός σημαίνει μόνο καιρικές συνθήκες, όχι την ώρα της ημέρας.\"}",
+    "owner_note": "GR Wetter composite: replace Estonian ilm leak in study.explanation. DE untouched."
+  },
+  "g2/a1/gr|wie|idx:660|lv, study.translation, study.explanation, study.examples|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Πώς • Πόσο\",\"study.translation\":\"Πώς • Πόσο\"}",
+    "owner_note": "GR wie: Πώς•Αν→Πώς•Πόσο for kā•cik manner/quantity. DE untouched."
+  },
+  "g2/a1/gr|zu|idx:668|lv, study.translation, study.explanation, study.comparison|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Σε • Προς\",\"study.translation\":\"Σε • Προς\"}",
+    "owner_note": "GR zu: dedupe Να•Να→Σε•Προς per LRB-018 zu pattern for uz•pie. DE untouched."
+  },
+  "g2/a1/gr|Zug|idx:671|lv, study.explanation|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.explanation[0]\":\"Κύρια ιδέα: der Zug σημαίνει συνήθως τρένο σε επίπεδο Α1.\"}",
+    "owner_note": "GR Zug composite: προπόνηση→τρένο train sense for vilciens. DE untouched."
+  },
+  "g2/a1/hr|a1-uhr|a1.card.a1-uhr.study.examples[5].native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "HR a1-uhr examples[5].native: field absent; Uhr/pulkstenis escalation has no writable HR target."
+  },
+  "g2/a1/hr|ab|idx:17|lv and study.*|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Od\",\"study.translation\":\"Od\",\"study.explanation\":\"Koristi se kada nešto počinje u određeno vrijeme, mjesto ili točku. Često znači «od».\",\"study.examples[0].lv\":\"Od danas.\",\"study.examples[3].lv\":\"Od željezničke stanice\",\"study.comparison[1].meaning\":\"Od nekoga/nečega • Podrijetlo\",\"study.comparison[1].example\":\"von mir – Od mene\",\"study.comparison[2].meaning\":\"Izvan prema unutra\",\"study.comparison[2].example\":\"aus dem Haus – Iz kuće\",\"study.tip.text\":\"Zapamtite: početna točka u vremenu/mjestu → ab.\",\"study.important[0]\":\"Ab pokazuje početnu točku u vremenu ili na mjestu.\",\"study.important[1]\":\"Ako misao potječe iznutra prema van, češće se koristi von ili aus.\"}",
+    "owner_note": "HR ab composite: Macedonian/Bulgarian→Croatian Od; fix mixed-language study fields. DE untouched."
+  },
+  "g2/a1/hr|aber|idx:21|lv and study.*|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Ali\",\"study.translation\":\"Ali\",\"study.explanation\":\"Koristi se za uvođenje kontrasta ili izražavanje prigovora. Znači «ali» ili «međutim».\",\"study.comparison[0].meaning\":\"Suprotno • Prigovor • Međutim\",\"study.comparison[0].example\":\"Ich komme, aber später. – Dolazim, ali kasnije.\",\"study.comparison[1].example\":\"Ich wollte keinen Tee, sondern Kaffee. – Htio sam čaj, ne kavu.\",\"study.comparison[2].meaning\":\"Ipak\",\"study.comparison[2].example\":\"Es ist kalt, jedoch sonnig. – Hladno je, ali sunčano.\",\"study.tip.text\":\"Zapamtite: suprotno/prigovor → aber.\",\"study.important[0]\":\"Aber označava suprotnost ili prigovor.\",\"study.important[1]\":\"Kod «ne..., već...» u njemačkom se obično koristi sondern.\"}",
+    "owner_note": "HR aber: Ampak/Slovenian→Ali; Croatian study fields throughout. DE untouched."
+  },
+  "g2/a1/hr|also|idx:26|lv, study|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Dakle\",\"study.translation\":\"Dakle\",\"study.explanation\":\"Koristi se za izvođenje zaključaka ili prikazivanje rezultata. Znači «dakle» ili «zato».\",\"study.comparison[0].meaning\":\"Dakle • Zato\",\"study.comparison[1].meaning\":\"Također\",\"study.comparison[2].meaning\":\"Zato\",\"study.tip.text\":\"Zapamtite: zaključak → also = dakle / zato.\",\"study.important[0]\":\"Also pokazuje zaključak: sljedeća ideja proizlazi iz prethodne.\",\"study.important[1]\":\"Also se često može prevesti kao dakle, zato ili stoga.\"}",
+    "owner_note": "HR also: Bulgarian Ето защо→Dakle; fix mixed-language study fields. DE untouched."
+  },
+  "g2/a1/hr|an|idx:12|lv and study.*|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Na • Na površini • Na rubu\",\"study.translation\":\"Na • Na površini • Na rubu\",\"study.explanation\":\"Koristi se kada je nešto blizu zida, prozora, vrata, rijeke, obale ili drugog ruba/površine.\",\"study.examples[0].lv\":\"Na zidu\",\"study.examples[1].lv\":\"Kod prozora\",\"study.examples[2].lv\":\"Na moru\",\"study.comparison[0].meaning\":\"Na površini ili rubu\",\"study.comparison[0].example\":\"an der Wand – Na zidu\",\"study.comparison[1].meaning\":\"Na vodoravnoj površini\",\"study.comparison[1].example\":\"auf dem Tisch – Na stolu\",\"study.comparison[2].meaning\":\"Kod osobe ili mjesta\",\"study.comparison[2].example\":\"beim Arzt – Kod liječnika\",\"study.tip.text\":\"Zapamtite: blizu zida/prozora/ruba → an.\",\"study.important[0]\":\"An nije jednostavno «na». Često znači blizu površine, zida ili ruba.\",\"study.important[1]\":\"Auf se obično koristi na vodoravnoj površini.\"}",
+    "owner_note": "HR an: English On•On the Surface→Croatian Na; fix mixed-language examples. DE untouched."
+  },
+  "g2/a1/hr|auch|idx:48|lv, study|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Također\",\"study.translation\":\"Također\",\"study.explanation[0]\":\"Glavna ideja: najčešći i neutralni «također».\",\"study.explanation[1]\":\"Auch u osnovi znači: također.\",\"study.explanation[2]\":\"Često opisuje: dodavanje.\",\"study.examples[1].lv\":\"Ona također radi ovdje.\",\"study.examples[2].lv\":\"Želim vam i vama lijep dan.\",\"study.tip[0]\":\"Auch = također\",\"study.tip[1]\":\"Koristite auch kada kontekst odgovara ovom značenju.\",\"study.important[1]\":\"Auch = također.\"}",
+    "owner_note": "HR auch: Slovenian Tudi tebe→Također; unscramble examples. DE untouched."
+  },
+  "g2/a1/hr|auf|idx:49|lv, study|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Na\",\"study.translation\":\"Na\",\"study.explanation\":\"Koristi se za označavanje smjera prema lokaciji ili vrhu površine.\",\"study.examples[0].lv\":\"Stavljam knjigu na stol.\",\"study.examples[1].lv\":\"Idemo na planinu.\",\"study.examples[2].lv\":\"Mačka skače na kauč.\",\"study.comparison[0].meaning\":\"Na (površina ili prema gore)\",\"study.comparison[1].meaning\":\"Na (vertikalna površina)\",\"study.comparison[2].meaning\":\"Unutra\"}",
+    "owner_note": "HR auf: Cyrillic ДО→Na; Croatian examples and comparison fields. DE untouched."
+  },
+  "g2/a1/hr|aufs|idx:60|lv, study|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Na\",\"study.translation\":\"Na\",\"study.explanation[0]\":\"Aufs je skraćenica za prijedlog auf i član das.\",\"study.explanation[1]\":\"Puna oblika: auf das (kamo?).\",\"study.explanation[2]\":\"Koristi se kada radnja ukazuje smjer prema određenoj stvari ili površini.\",\"study.explanation[4]\":\"U razgovornom govoru se gotovo uvijek koristi aufs umjesto punog auf das.\",\"study.examples[0].lv\":\"Idem na krov.\",\"study.examples[1].lv\":\"Sjeda na kauč.\",\"study.examples[2].lv\":\"Idemo na selo.\",\"study.comparison[0].meaning\":\"Za određeni slučaj (kamo?)\",\"study.comparison[0].example\":\"aufs Dach – Na krov\",\"study.tip[0]\":\"Zapamtite: auf + das → aufs (kamo?).\",\"study.tip[1]\":\"Puni auf das se u govoru gotovo nikad ne izgovara — koristi se aufs.\"}",
+    "owner_note": "HR aufs: Cyrillic/mixed→Croatian Na; fix Slovenian/Macedonian leaks. DE untouched."
+  },
+  "g2/a1/hr|aus|idx:57|lv, study|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Iz • Od\",\"study.translation\":\"Iz • Od\",\"study.explanation\":\"Koristi se kada nešto dolazi iznutra, izlazi ili ukazuje na podrijetlo.\",\"study.examples[0].lv\":\"Ja sam iz Njemačke.\",\"study.examples[1].lv\":\"On izlazi iz kuće.\",\"study.examples[2].lv\":\"Vadim knjigu iz torbe.\",\"study.comparison[0].meaning\":\"Iznutra, iz\",\"study.comparison[1].meaning\":\"Od osobe, mjesta, površine\",\"study.comparison[2].meaning\":\"Počinjući od trenutka ili vremena\",\"study.tip.text\":\"Zapamtite: iznutra → aus.\",\"study.important[0]\":\"Aus obično označava kretanje iznutra prema van ili podrijetlo.\"}",
+    "owner_note": "HR aus: owner micro-repair important[0] movement/origin gloss. DE untouched."
+  },
+  "g2/a1/hr|bitte|idx:93|lv, study|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Molim\",\"study.translation\":\"Molim\",\"study.explanation[0]\":\"Glavna ideja: ljubazna riječ malim slovima.\",\"study.explanation[1]\":\"Bitte u osnovi znači: ljubaznost.\",\"study.examples[0].lv\":\"Šalicu kave, molim.\",\"study.examples[1].lv\":\"Molim, uđite.\",\"study.examples[2].lv\":\"Izvolite!\",\"study.examples[3].lv\":\"Mogu li pitati, molim?\",\"study.examples[4].lv\":\"Imam jedan zahtjev.\",\"study.examples[5].lv\":\"Zahtjev je važan.\",\"study.comparison[0].meaning\":\"Molim\",\"study.comparison[0].example\":\"Komm bitte herein. – Molim, uđi unutra.\",\"study.comparison[1].meaning\":\"Zahtjev\",\"study.comparison[1].example\":\"Ich habe eine Bitte. – Imam jedan zahtjev.\",\"study.tip[0]\":\"Malo bitte = molim (Bitte schön!, Kaffee, bitte). Die Bitte s velikim = zahtjev.\",\"study.important[0]\":\"Bitte s malim slovom je ljubazna riječ, ne ime.\",\"study.important[1]\":\"Die Bitte s velikim slovom i članom die je samostalnik.\",\"study.important[2]\":\"Množina: die Bitten = zahtjevi / molbe.\"}",
+    "owner_note": "HR bitte: owner micro-repair examples[2] Izvolite; important[2] plural. DE untouched."
+  },
+  "g2/a1/hr|Bitte|idx:94|lv, study|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Zahtjev\",\"study.translation\":\"Zahtjev\",\"study.explanation[0]\":\"Glavna ideja: samostalnik s članom die i velikim slovom. Konkretan zahtjev ili molba.\",\"study.explanation[3]\":\"Die Bitte u osnovi znači: zahtjev ili molba.\",\"study.examples[1].lv\":\"Ispunjava moj zahtjev.\",\"study.examples[2].lv\":\"Ima dva zahtjeva.\",\"study.examples[5].lv\":\"Zahtjev je važan.\",\"study.comparison[0].meaning\":\"Zahtjev\",\"study.comparison[1].meaning\":\"Molim\"}",
+    "owner_note": "HR Bitte: Cyrillic Барање kept as Zahtjev; unscramble examples per lūgums. DE untouched."
+  },
+  "g2/a1/hr|bleiben|idx:101|lv, study|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Ostati\",\"study.translation\":\"Ostati\",\"study.explanation[0]\":\"Ključna ideja: bleiben znači ostati.\",\"study.examples[0].lv\":\"Ostajem kod kuće.\",\"study.examples[2].lv\":\"Ostajemo još jedan sat.\",\"study.examples[3].lv\":\"Idem kući.\",\"study.comparison[0].meaning\":\"Ostati\",\"study.comparison[1].meaning\":\"Ići pješice\",\"study.comparison[2].meaning\":\"Voziti/putovati prijevozom\",\"study.comparison[3].meaning\":\"Čekati\",\"study.tip.text\":\"Zapamtite: ne odlazi → bleiben • Odlazi pješice → gehen.\"}",
+    "owner_note": "HR bleiben: imperative Остани→Ostati dictionary form; Croatian examples. DE untouched."
+  },
+  "g2/a1/hr|bringen|idx:111|lv, study|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Donijeti • Pronijeti\",\"study.translation\":\"Donijeti • Pronijeti\",\"study.examples[0].lv\":\"Donosim ti knjigu.\",\"study.examples[1].lv\":\"Donosim paket na poštu.\",\"study.examples[2].lv\":\"Vozim djecu u školu.\",\"study.examples[3].lv\":\"Uzimam knjigu.\",\"study.comparison[0].meaning\":\"Donijeti / dostaviti\",\"study.comparison[1].meaning\":\"Uzimam\",\"study.comparison[2].meaning\":\"Odem po / donijem\",\"study.comparison[3].meaning\":\"Preuzeti i donijeti\",\"study.comparison[4].meaning\":\"Uzeti\"}",
+    "owner_note": "HR bringen: Donesite•Uzmi→Donijeti•Pronijeti; unscramble examples per atnest. DE untouched."
+  },
+  "g2/a1/hr|da|idx:126|lv, study|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Tamo\",\"study.translation\":\"Tamo\",\"study.explanation[0]\":\"Glavna ideja: da na A1 razini obično znači tamo.\",\"study.explanation[3]\":\"Na A1 razini uglavnom učimo da kao zajedničku riječ za mjesto.\",\"study.examples[0].lv\":\"Tamo je moj auto.\",\"study.examples[1].lv\":\"Bio sam tamo.\",\"study.examples[2].lv\":\"Evo ga.\",\"study.examples[3].lv\":\"Dođi ovamo!\",\"study.comparison[0].meaning\":\"Tamo • Ovdje • Zajedno\",\"study.comparison[0].example\":\"Moj auto je tamo.\",\"study.comparison[1].meaning\":\"Ovdje (na određenom mjestu)\",\"study.comparison[2].meaning\":\"Tamo (dalje)\",\"study.comparison[3].meaning\":\"Zatim\",\"study.tip.text\":\"Zapamtite: općenito tamo → da.\",\"study.important[0]\":\"Da je općenito mjesto «tamo».\",\"study.important[1]\":\"Hier = «ovdje», dort = «tamo» dalje.\"}",
+    "owner_note": "HR da: Cyrillic Там→Tamo; Croatian study fields for tur there-adverb. DE untouched."
+  },
+  "g2/a1/hr|Essen|idx:691|lv; study.translation; study.explanation; study.examples; study.tip; study.important|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Hrana • Jelo\",\"study.translation\":\"Hrana • Jelo\",\"study.explanation[0]\":\"Glavna ideja: samostalnik – hrana ili obrok.\",\"study.explanation[1]\":\"Das Essen znači prvenstveno: hrana ili jelo.\",\"study.explanation[3]\":\"Das Essen može značiti hranu ili obrok kao cjelinu.\",\"study.explanation[5]\":\"Essen znači jesti (glagol).\",\"study.examples[1].lv\":\"Što želite jesti?\",\"study.examples[2].lv\":\"Jedemo u 12 sati.\",\"study.tip[0]\":\"Das Essen = hrana/jelo\",\"study.important[0]\":\"Essen je glagol bez člana.\",\"study.important[1]\":\"Das Essen nije isto što i essen.\",\"study.important[2]\":\"Radnja: jesti.\",\"study.important[3]\":\"Obrok/hrana: das Essen.\"}",
+    "owner_note": "HR Essen composite: Cyrillic/mixed→Hrana•Jelo Croatian; fix verb/noun teaching. DE untouched."
+  },
+  "g2/a1/hr|fahren|idx:172|study|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"Voziti • Vožnja\",\"study.explanation[0]\":\"Glavna ideja: fahren znači voziti vozilo, a u nekim rečenicama i odvesti nekoga.\",\"study.examples[0].lv\":\"Idem u Berlin.\",\"study.examples[1].lv\":\"Vozim autom.\",\"study.examples[2].lv\":\"Vozim kćer u školu.\",\"study.examples[3].lv\":\"Vozim te kući.\",\"study.examples[4].lv\":\"Sutra idemo u München.\",\"study.comparison[0].meaning\":\"Vožnja prijevozom\",\"study.comparison[1].meaning\":\"Ići pješice\",\"study.comparison[2].meaning\":\"Trčati/hodati\",\"study.comparison[3].meaning\":\"Donijeti / isporučiti\",\"study.comparison[4].meaning\":\"Povesti sa sobom\",\"study.tip.text\":\"Zapamtite: vozilo → fahren • Pješice → gehen.\"}",
+    "owner_note": "HR fahren: Vožnja→Voziti•Vožnja Croatian; fix mixed-language examples. DE untouched."
+  },
+  "g2/a1/hr|Ferien|idx:694|lv; study.translation; study.explanation; study.examples; study.comparison; study.important|MEANING_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Školski praznici\",\"study.translation\":\"Školski praznici\",\"study.explanation[0]\":\"Glavna ideja: samo množina. Školski praznici su uvijek u množini.\",\"study.examples[0].lv\":\"Tijekom praznika idemo na more.\",\"study.examples[2].lv\":\"Što radiš tijekom praznika?\",\"study.comparison[0].meaning\":\"Školski/obrazovni praznici (samo množina)\",\"study.comparison[0].example\":\"In den Ferien fahren wir weg. – Tijekom praznika odlazimo negdje.\",\"study.comparison[1].meaning\":\"Godišnji odmor (samo jednina)\",\"study.important[1]\":\"Netočno: in der Ferien → Ispravno: in den Ferien\"}",
+    "owner_note": "HR Ferien composite: weekend confusion→školski praznici; Croatian fields for brīvdienas. DE untouched."
+  },
+  "g2/a1/hr|finden|idx:187|study|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"Pronaći • Smatrati\",\"study.explanation[0]\":\"Glavna ideja: finden najčešće znači pronaći ili smatrati nešto.\",\"study.examples[0].lv\":\"Ne mogu pronaći svoj ključ.\",\"study.examples[1].lv\":\"Mislim da je to dobro.\",\"study.examples[2].lv\":\"Kako ti se čini film?\",\"study.examples[3].lv\":\"Kako ti se čini film?\",\"study.comparison[0].meaning\":\"Pronaći / smatrati\",\"study.comparison[0].example\":\"Ich finde das gut. = Mislim da je to dobro.\",\"study.comparison[1].meaning\":\"Tražiti\",\"study.comparison[2].meaning\":\"Misliti o\",\"study.comparison[3].meaning\":\"Vjerovati/misliti\"}",
+    "owner_note": "HR finden: Namjere•Razgledaj→Pronaći•Smatrati; unscramble examples per atrast. DE untouched."
+  },
+  "g2/a1/hr|Frau|idx:198|study|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"Žena • Supruga\",\"study.explanation[0]\":\"Ključna ideja: die Frau može značiti ženu (spol) ili suprugu.\",\"study.explanation[2]\":\"U slučaju supruge, die Frau = supruga (meine Frau = moja žena).\",\"study.examples[1].lv\":\"To je moja žena.\",\"study.examples[2].lv\":\"Koliko žena ima?\",\"study.examples[3].lv\":\"Moja žena radi u Berlinu.\",\"study.examples[4].lv\":\"Žena nosi haljinu.\",\"study.examples[5].lv\":\"Njegova žena je liječnica.\",\"study.tip[0]\":\"Posvojna zamjenica (meine/deine/seine Frau) gotovo uvijek znači suprugu.\",\"study.important[0]\":\"Die Frau = žena ILI supruga — ovisno o kontekstu.\",\"study.important[1]\":\"Meine Frau = moja supruga.\"}",
+    "owner_note": "HR Frau: Cyrillic/mixed→Žena•Supruga Croatian study fields. DE untouched."
+  },
+  "g2/a1/hr|für|idx:216|study|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"Za\",\"study.explanation[0]\":\"Glavna ideja: für je prijedlog koji uvijek upravlja akuzativom — na hrvatskom obično za.\",\"study.explanation[1]\":\"Kada govorimo o primatelju ili namjeri, für = za (für dich = za tebe).\",\"study.explanation[2]\":\"Kada govorimo o zamjeni, naknadi ili razlogu, für = za (danke für das Geschenk = hvala za dar).\",\"study.examples[0].lv\":\"To je za tebe.\",\"study.examples[1].lv\":\"Hvala za pomoć.\",\"study.examples[2].lv\":\"Kupujem poklon za majku.\",\"study.examples[3].lv\":\"Koliko plaćaš za auto?\",\"study.examples[4].lv\":\"Knjiga je za djecu.\",\"study.examples[5].lv\":\"Za danas je dosta.\",\"study.tip[0]\":\"Für + akuzativ — bez razlike u značenju.\",\"study.tip[1]\":\"Primatelj/namjera → za • Zamjena/razlog/plaćanje → za.\",\"study.important[0]\":\"Für + Akkusativ uvijek, npr. für mich, für dich, für das Kind.\",\"study.important[1]\":\"Danke für / bezahlen für = «za», ne «prije».\"}",
+    "owner_note": "HR für: O nas→Za Croatian; fix mixed-language study fields for priekš. DE untouched."
+  },
+  "g2/a1/hr|Gemüse|idx:692|lv; study.translation; study.explanation; study.examples; study.tip; study.important|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Povrće\",\"study.translation\":\"Povrće\",\"study.explanation[0]\":\"Glavna ideja: povrće općenito. Njemački nema množinsku formu *die Gemüse.\",\"study.explanation[1]\":\"Das Gemüse u osnovi znači: povrće općenito.\",\"study.tip[0]\":\"Das Gemüse = povrće\",\"study.important[0]\":\"Netočno: die Gemüse → Ispravno: das Gemüse.\",\"study.important[2]\":\"Das Gemüse = povrće (u cjelini).\"}",
+    "owner_note": "HR Gemüse composite: Zelenchuk/transliteration→Povrće Croatian for dārzeņi. DE untouched."
+  },
+  "g2/a1/hr|Geschwister|idx:234|lv, study|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Braća i sestre\",\"study.translation\":\"Braća i sestre\",\"study.explanation[0]\":\"Glavna ideja: Geschwister znači braću i sestre zajedno.\",\"study.examples[0].lv\":\"Imam dvoje braće ili sestara.\",\"study.examples[1].lv\":\"Moja braća i sestre žive u Berlinu.\",\"study.comparison[0].meaning\":\"Braća i sestre\",\"study.comparison[0].example\":\"Meine Geschwister – Moja braća i sestre\",\"study.comparison[1].meaning\":\"Brat\",\"study.comparison[2].meaning\":\"Sestra\"}",
+    "owner_note": "HR Geschwister: transliteration brat i sestri→Braća i sestre Croatian. DE untouched."
+  },
+  "g2/a1/hr|gleich|idx:243|lv, study|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Odmah • Jednako\",\"study.translation\":\"Odmah • Jednako\",\"study.explanation[0]\":\"Osnovna ideja: gleich najčešće znači odmah ili jednako.\",\"study.explanation[1]\":\"Što se tiče vremena, gleich = odmah/za tren (Ich komme gleich.).\",\"study.explanation[2]\":\"Kad je usporedba, gleich = jednako/isto (die gleiche Farbe = ista boja).\",\"study.examples[0].lv\":\"Odmah dolazim.\",\"study.tip[0]\":\"Za vrijeme (→odmah).\",\"study.tip[1]\":\"Za usporedbu (isto) → jednako.\",\"study.important[0]\":\"Gleich = odmah (vrijeme) ILI jednako (usporedba).\",\"study.important[1]\":\"Bis gleich! = do skoro! — uobičajene riječi za rastanak.\"}",
+    "owner_note": "HR gleich: Uvijek•Jednako→Odmah•Jednako for tūlīt soon vs equal. DE untouched."
+  },
+  "g2/a1/hr|groß|idx:250|lv, study|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Velik\",\"study.translation\":\"Velik\",\"study.explanation[0]\":\"Glavna ideja: velika veličina ili za visoku osobu.\",\"study.explanation[1]\":\"Groß prije svega znači: velika veličina.\",\"study.explanation[2]\":\"Često opisuje: opće dimenzije.\",\"study.examples[1].lv\":\"Berlin je veliki grad.\",\"study.examples[2].lv\":\"On je visok.\",\"study.examples[3].lv\":\"Soba je velika.\",\"study.tip[0]\":\"Groß = velik\",\"study.tip[1]\":\"Koristite groß kada kontekst odgovara ovom značenju.\",\"study.important[0]\":\"Za osobu, Er ist groß znači visok.\",\"study.important[1]\":\"Groß = velik.\"}",
+    "owner_note": "HR groß: Cyrillic/mixed→Velik Croatian; fix duplicate/wrong examples for liels. DE untouched."
+  }
+}
