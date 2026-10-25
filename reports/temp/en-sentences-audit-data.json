@@ -1,0 +1,49 @@
+{
+  "generatedAt": "2026-08-10T15:04:00.530Z",
+  "scope": "EN-DE Teikumi (Sätze)",
+  "totals": {
+    "sentences": 796,
+    "lvSentences": 796
+  },
+  "hashes": {
+    "lv": "95507e297b5ad9562f12ae5f620d9f66",
+    "en": "5a75b0e6e97071c4a50876f4a20a37df",
+    "www": "5a75b0e6e97071c4a50876f4a20a37df"
+  },
+  "deterministic": {
+    "countMatch": true,
+    "mirrorPass": true,
+    "syntaxPass": true,
+    "parity": {
+      "pass": true
+    },
+    "semicolonIssues": 0,
+    "lvRemnants": {
+      "count": 0,
+      "items": []
+    },
+    "mojibake": {
+      "count": 0,
+      "items": []
+    },
+    "placeholder": {
+      "count": 0,
+      "items": []
+    },
+    "deMismatch": {
+      "count": 0,
+      "items": []
+    },
+    "emptyEn": {
+      "count": 0
+    },
+    "emptyDe": {
+      "count": 0
+    }
+  },
+  "semicolonIssues": [],
+  "lvRemnants": [],
+  "mojibakeIssues": [],
+  "placeholderIssues": [],
+  "deMismatch": []
+}
