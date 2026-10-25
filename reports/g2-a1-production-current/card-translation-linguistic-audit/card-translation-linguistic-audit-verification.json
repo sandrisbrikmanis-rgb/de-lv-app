@@ -1,0 +1,13 @@
+{
+  "generatedAt": "2026-10-03T11:19:43.657Z",
+  "gate": {
+    "pass": true,
+    "failures": [],
+    "schemaVersion": "card-translation-linguistic-audit-v1",
+    "verifyOutDir": "reports/temp/card-translation-linguistic-audit-verify",
+    "canonicalReportsDir": "reports/g2-a1-production-current/card-translation-linguistic-audit",
+    "recordCount": 4,
+    "productionChanges": 0,
+    "ownerMasterUnexpected": 0
+  }
+}
