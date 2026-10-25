@@ -1,0 +1,430 @@
+{
+  "batch_id": "LRB-006",
+  "classification": "LRB_006_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+  "pdf_reaudit": true,
+  "recalculated_from_production": true,
+  "pass": true,
+  "row_count": 50,
+  "labot": 50,
+  "nelabot": 0,
+  "pending": 0,
+  "gates": {
+    "ROWS": "50/50",
+    "PENDING": 0,
+    "EXTRA_MEANING_NOT_IN_SOURCE": 0,
+    "SEMANTIC_NARROWING_FROM_SOURCE": 0,
+    "wrong_language_residue": 0,
+    "semantic_alignment_violations": 0,
+    "de_target_alignment_violations": 0,
+    "duplicate_meanings": 0,
+    "degenerate_example_pairs": 0,
+    "internal_card_contradictions": 0,
+    "full_composite_completeness": "PASS",
+    "target_language_grammar": "PASS"
+  },
+  "row_audit": [
+    {
+      "card": "a1-kosten",
+      "lv_source": "maksāt (cenu) • cik maksā",
+      "production_current": "Maksma (hinda) • Kui palju maksab",
+      "decision": "LABOT",
+      "effective": "Maksaa (hinta) • Paljonko maksaa",
+      "pass": true
+    },
+    {
+      "card": "a1-land",
+      "lv_source": "valsts • zeme",
+      "production_current": "Riik • Maa",
+      "decision": "LABOT",
+      "effective": "Valtio • Maa",
+      "pass": true
+    },
+    {
+      "card": "a1-land",
+      "lv_source": "valsts • zeme",
+      "production_current": "Riik • Maa",
+      "decision": "LABOT",
+      "effective": "Valtio • Maa",
+      "pass": true
+    },
+    {
+      "card": "a1-lang",
+      "lv_source": "garš • ilgs",
+      "production_current": "Pikk • Kauakestev",
+      "decision": "LABOT",
+      "effective": "Pitkä • Pitkäkestoinen",
+      "pass": true
+    },
+    {
+      "card": "a1-lang",
+      "lv_source": "garš • ilgs",
+      "production_current": "Pikk • Kauakestev",
+      "decision": "LABOT",
+      "effective": "Pitkä • Pitkäkestoinen",
+      "pass": true
+    },
+    {
+      "card": "a1-lassen",
+      "lv_source": "atstāt • ļaut",
+      "production_current": "Jätma • Laskma",
+      "decision": "LABOT",
+      "effective": "Jättää • Antaa",
+      "pass": true
+    },
+    {
+      "card": "a1-lassen",
+      "lv_source": "atstāt • ļaut",
+      "production_current": "Jätma • Laskma",
+      "decision": "LABOT",
+      "effective": "Jättää • Antaa",
+      "pass": true
+    },
+    {
+      "card": "a1-laufen",
+      "lv_source": "skriet • darboties",
+      "production_current": "Jooksma • Töötama",
+      "decision": "LABOT",
+      "effective": "Juosta • Toimia",
+      "pass": true
+    },
+    {
+      "card": "a1-laufen",
+      "lv_source": "skriet • darboties",
+      "production_current": "Jooksma • Töötama",
+      "decision": "LABOT",
+      "effective": "Juosta • Toimia",
+      "pass": true
+    },
+    {
+      "card": "a1-liegen",
+      "lv_source": "atrasties • gulēt",
+      "production_current": "Asuma • Lamama",
+      "decision": "LABOT",
+      "effective": "Sijaita • Maata",
+      "pass": true
+    },
+    {
+      "card": "a1-liegen",
+      "lv_source": "atrasties • gulēt",
+      "production_current": "Asuma • Lamama",
+      "decision": "LABOT",
+      "effective": "Sijaita • Maata",
+      "pass": true
+    },
+    {
+      "card": "a1-machen",
+      "lv_source": "darīt • taisīt",
+      "production_current": "Tegema • Valmistama",
+      "decision": "LABOT",
+      "effective": "Tehdä • Valmistaa",
+      "pass": true
+    },
+    {
+      "card": "a1-machen",
+      "lv_source": "darīt • taisīt",
+      "production_current": "Tegema • Valmistama",
+      "decision": "LABOT",
+      "effective": "Tehdä • Valmistaa",
+      "pass": true
+    },
+    {
+      "card": "a1-mann",
+      "lv_source": "vīrietis • vīrs",
+      "production_current": "Mees • Abikaasa",
+      "decision": "LABOT",
+      "effective": "Mies • Aviomies",
+      "pass": true
+    },
+    {
+      "card": "a1-mann",
+      "lv_source": "vīrietis • vīrs",
+      "production_current": "Mees • Abikaasa",
+      "decision": "LABOT",
+      "effective": "Mies • Aviomies",
+      "pass": true
+    },
+    {
+      "card": "a1-nach",
+      "lv_source": "uz • pēc",
+      "production_current": "-sse • Pärast",
+      "decision": "LABOT",
+      "effective": "-(i)in • Jälkeen",
+      "pass": true
+    },
+    {
+      "card": "a1-nach",
+      "lv_source": "uz • pēc",
+      "production_current": "-sse • Pärast",
+      "decision": "LABOT",
+      "effective": "-(i)in • Jälkeen",
+      "pass": true
+    },
+    {
+      "card": "a1-natuerlich",
+      "lv_source": "protams • dabisks",
+      "production_current": "Muidugi • Loomulik",
+      "decision": "LABOT",
+      "effective": "Tietysti • Luonnollinen",
+      "pass": true
+    },
+    {
+      "card": "a1-natuerlich",
+      "lv_source": "protams • dabisks",
+      "production_current": "Muidugi • Loomulik",
+      "decision": "LABOT",
+      "effective": "Tietysti • Luonnollinen",
+      "pass": true
+    },
+    {
+      "card": "a1-nehmen",
+      "lv_source": "ņemt • paņemt",
+      "production_current": "Võtma • Kätte võtma",
+      "decision": "LABOT",
+      "effective": "Ottaa",
+      "pass": true
+    },
+    {
+      "card": "a1-nehmen",
+      "lv_source": "ņemt • paņemt",
+      "production_current": "Võtma • Kätte võtma",
+      "decision": "LABOT",
+      "effective": "Ottaa",
+      "pass": true
+    },
+    {
+      "card": "a1-neu",
+      "lv_source": "Pretstats ir alt (vecs); lietvārds das Neue nozīmē jaunumu.",
+      "production_current": "Vastand on alt (vana) • Nimisõna das Neue tähendab midagi uut.",
+      "decision": "LABOT",
+      "effective": "Vastakohta on alt (vanha); Substantiivi das Neue tarkoittaa jotain uutta.",
+      "pass": true
+    },
+    {
+      "card": "a1-nur-study",
+      "lv_source": "tikai • vienīgi",
+      "production_current": "Ainult • Üksnes",
+      "decision": "LABOT",
+      "effective": "Vain • Ainoastaan",
+      "pass": true
+    },
+    {
+      "card": "a1-nur-study",
+      "lv_source": "tikai • vienīgi",
+      "production_current": "Ainult • Üksnes",
+      "decision": "LABOT",
+      "effective": "Vain • Ainoastaan",
+      "pass": true
+    },
+    {
+      "card": "a1-oder",
+      "lv_source": "vai • jeb",
+      "production_current": "Või • Ehk",
+      "decision": "LABOT",
+      "effective": "Vai • Tai",
+      "pass": true
+    },
+    {
+      "card": "a1-oder",
+      "lv_source": "vai • jeb",
+      "production_current": "Või • Ehk",
+      "decision": "LABOT",
+      "effective": "Vai • Tai",
+      "pass": true
+    },
+    {
+      "card": "a1-passen",
+      "lv_source": "derēt • piestāvēt",
+      "production_current": "Sobima • Hästi sobima",
+      "decision": "LABOT",
+      "effective": "Sopia • Soveltua",
+      "pass": true
+    },
+    {
+      "card": "a1-passen",
+      "lv_source": "derēt • piestāvēt",
+      "production_current": "Sobima • Hästi sobima",
+      "decision": "LABOT",
+      "effective": "Sopia • Soveltua",
+      "pass": true
+    },
+    {
+      "card": "a1-probieren",
+      "lv_source": "izmēģināt • nogaršot",
+      "production_current": "Proovima • Maitsma",
+      "decision": "LABOT",
+      "effective": "Kokeilla • Maistaa",
+      "pass": true
+    },
+    {
+      "card": "a1-probieren",
+      "lv_source": "izmēģināt • nogaršot",
+      "production_current": "Proovima • Maitsma",
+      "decision": "LABOT",
+      "effective": "Kokeilla • Maistaa",
+      "pass": true
+    },
+    {
+      "card": "a1-seite",
+      "lv_source": "lappuse • puse",
+      "production_current": "Lehekülg • Külg",
+      "decision": "LABOT",
+      "effective": "Sivu • Puoli",
+      "pass": true
+    },
+    {
+      "card": "a1-seite",
+      "lv_source": "lappuse • puse",
+      "production_current": "Lehekülg • Külg",
+      "decision": "LABOT",
+      "effective": "Sivu • Puoli",
+      "pass": true
+    },
+    {
+      "card": "a1-sich",
+      "lv_source": "sevi • sev",
+      "production_current": "End • Endale",
+      "decision": "LABOT",
+      "effective": "Itseään • Itselleen",
+      "pass": true
+    },
+    {
+      "card": "a1-sich",
+      "lv_source": "sevi • sev",
+      "production_current": "End • Endale",
+      "decision": "LABOT",
+      "effective": "Itseään • Itselleen",
+      "pass": true
+    },
+    {
+      "card": "a1-sicher",
+      "lv_source": "drošs • noteikti",
+      "production_current": "Kindel • Kindlasti",
+      "decision": "LABOT",
+      "effective": "Turvallinen • Varmasti",
+      "pass": true
+    },
+    {
+      "card": "a1-sicher",
+      "lv_source": "drošs • noteikti",
+      "production_current": "Kindel • Kindlasti",
+      "decision": "LABOT",
+      "effective": "Turvallinen • Varmasti",
+      "pass": true
+    },
+    {
+      "card": "a1-ueber",
+      "lv_source": "virs • par",
+      "production_current": "Kohal • Kohta",
+      "decision": "LABOT",
+      "effective": "Yllä • Aiheesta",
+      "pass": true
+    },
+    {
+      "card": "a1-ueber",
+      "lv_source": "virs • par",
+      "production_current": "Kohal • Kohta",
+      "decision": "LABOT",
+      "effective": "Yllä • Aiheesta",
+      "pass": true
+    },
+    {
+      "card": "a1-um",
+      "lv_source": "ap • pulksten",
+      "production_current": "Umbes • Kell",
+      "decision": "LABOT",
+      "effective": "Noin • Kello",
+      "pass": true
+    },
+    {
+      "card": "a1-um",
+      "lv_source": "ap • pulksten",
+      "production_current": "Umbes • Kell",
+      "decision": "LABOT",
+      "effective": "Noin • Kello",
+      "pass": true
+    },
+    {
+      "card": "a1-verstehen",
+      "lv_source": "Latviski šeit parasti nevajag “prast” vai “mācēt”; tie biežāk ir können.",
+      "production_current": "Eesti keeles ei ole siin tavaliselt vaja sõnu “oskama” või “suutma” • Need vastavad sagedamini sõnale können.",
+      "decision": "LABOT",
+      "effective": "Suomeksi ei täällä yleensä tarvita sanoja «osata» tai «voida»; Ne vastaavat useammin sanaa können.",
+      "pass": true
+    },
+    {
+      "card": "a1-vor",
+      "lv_source": "pirms • priekšā",
+      "production_current": "Enne • Ees",
+      "decision": "LABOT",
+      "effective": "Ennen • Edessä",
+      "pass": true
+    },
+    {
+      "card": "a1-vor",
+      "lv_source": "pirms • priekšā",
+      "production_current": "Enne • Ees",
+      "decision": "LABOT",
+      "effective": "Ennen • Edessä",
+      "pass": true
+    },
+    {
+      "card": "a1-was",
+      "lv_source": "kas • ko",
+      "production_current": "Mis • Mida",
+      "decision": "LABOT",
+      "effective": "Mikä • Mitä",
+      "pass": true
+    },
+    {
+      "card": "a1-was",
+      "lv_source": "kas • ko",
+      "production_current": "Mis • Mida",
+      "decision": "LABOT",
+      "effective": "Mikä • Mitä",
+      "pass": true
+    },
+    {
+      "card": "a1-wenn",
+      "lv_source": "ja • kad",
+      "production_current": "Kui (tingimus) • Kui (aeg)",
+      "decision": "LABOT",
+      "effective": "Jos (ehto) • Kun (aika)",
+      "pass": true
+    },
+    {
+      "card": "a1-wenn",
+      "lv_source": "ja • kad",
+      "production_current": "Kui (tingimus) • Kui (aeg)",
+      "decision": "LABOT",
+      "effective": "Jos (ehto) • Kun (aika)",
+      "pass": true
+    },
+    {
+      "card": "a1-wer",
+      "lv_source": "kas • kurš",
+      "production_current": "Kes • Kumb",
+      "decision": "LABOT",
+      "effective": "Kuka",
+      "pass": true
+    },
+    {
+      "card": "a1-wer",
+      "lv_source": "kas • kurš",
+      "production_current": "Kes • Kumb",
+      "decision": "LABOT",
+      "effective": "Kuka",
+      "pass": true
+    },
+    {
+      "card": "a1-wie",
+      "lv_source": "kā • cik",
+      "production_current": "Kuidas • Kui",
+      "decision": "LABOT",
+      "effective": "Miten • Kuinka",
+      "pass": true
+    }
+  ],
+  "failures": [],
+  "verdict": "LRB_006_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+  "updatedAt": "2026-09-12T09:18:55.457Z"
+}
