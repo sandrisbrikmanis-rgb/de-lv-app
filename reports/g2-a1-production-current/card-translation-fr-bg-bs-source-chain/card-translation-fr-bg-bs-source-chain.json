@@ -1,0 +1,438 @@
+{
+  "schemaVersion": "g2-a1-card-translation-fr-bg-bs-readiness-v1",
+  "generatedAt": "2026-10-01T17:08:57.912Z",
+  "auditSequence": [
+    {
+      "step": 1,
+      "rule": "Meklē tiešo pāri DE→TARGET primārajā digitizētajā vārdnīcā (OCR vai skenētas lapas)."
+    },
+    {
+      "step": 2,
+      "rule": "Ja nav, meklē TARGET→DE otrajā ķēdes posmā (atsevišķa vārdnīca vai pretējais virziens, ja abi ir dokumentēti)."
+    },
+    {
+      "step": 3,
+      "rule": "Rezerves / papildavotus izmanto tikai tad, ja primārais posms nedod derīgu pāri (fr: Mozin/Biber; bg: MultiSlavDict)."
+    },
+    {
+      "step": 4,
+      "rule": "Pārbaudi vārdšķiru un konkrētās kartītes vācu nozīmi; citai nozīmei piederošu ekvivalentu nepieņem."
+    },
+    {
+      "step": 5,
+      "rule": "Automātiskos tulkotājus, dict.cc, drukātu grāmatu veikalu lapas un hr/sr vārdnīcas neizmanto kā pierādījumu."
+    },
+    {
+      "step": 6,
+      "rule": "Saglabā avota nosaukumu, virzienu, atrasto pāri un precīzo viewer / OCR / lapas URL."
+    }
+  ],
+  "automaticTranslationEvidenceForbidden": true,
+  "productionOrOwnerDecisionsModified": false,
+  "masterModified": false,
+  "languages": [
+    {
+      "appLang": "fr",
+      "digitizedAuditStatus": null,
+      "primaryDigitized": [
+        {
+          "id": "sachs-villatte-1906",
+          "name": "Sachs–Villatte enzyklopädisches französisch-deutsches und deutsch-französisches Wörterbuch (1906)",
+          "direction": "de↔fr",
+          "role": "primary",
+          "accessType": "Internet Archive open PDF + OCR",
+          "approximatePages": 2140,
+          "pdfUrl": "https://archive.org/download/sachsvillatteenz00sachuoft/sachsvillatteenz00sachuoft.pdf",
+          "viewerUrl": "https://archive.org/details/sachsvillatteenz00sachuoft",
+          "ocrUrl": "https://archive.org/download/sachsvillatteenz00sachuoft/sachsvillatteenz00sachuoft_djvu.txt"
+        }
+      ],
+      "reverseChainDigitized": [],
+      "supplementaryReserve": [
+        {
+          "id": "mozin-biber-1823",
+          "name": "Neues vollständiges Wörterbuch (Mozin, Biber, Hölder) 1823–1828",
+          "direction": "de→fr + fr→de (atsevišķi IA sējumi)",
+          "role": "reserve_only",
+          "portalUrl": "https://archive.org/details/bub_gb_qCwCncvvUEYC",
+          "ocrUrlDeAk": "https://archive.org/download/bub_gb_qCwCncvvUEYC/bub_gb_qCwCncvvUEYC_djvu.txt",
+          "note": "Tikai ja Sachs–Villatte primārais posms nedod pāri."
+        }
+      ],
+      "rejectedNotUsable": [],
+      "sourceChainPriority": [
+        "primaryDigitized:de↔fr (sachs-villatte-1906 — IA PDF + _djvu.txt OCR)",
+        "supplementaryReserve:mozin-biber-1823 (only if primary fails)",
+        "targetOfficial:larousse-fr"
+      ],
+      "collectorOverrideId": "sachs-villatte-1906",
+      "targetOfficial": {
+        "id": "larousse-fr",
+        "name": "Larousse français",
+        "portalUrl": "https://www.larousse.fr/dictionnaires/francais",
+        "adapterId": "fr-larousse-browser-entry",
+        "role": "TARGET_LEMMA_VALIDATION"
+      },
+      "regressionPilotDe": [
+        {
+          "deLemma": "Haus",
+          "auditStepUsed": 1,
+          "primaryDirection": "de→fr",
+          "sourceName": "Sachs–Villatte 1906 (IA OCR)",
+          "pairFound": true,
+          "targetGloss": "FOUND_IN_OCR",
+          "entryUrl": "https://archive.org/download/sachsvillatteenz00sachuoft/sachsvillatteenz00sachuoft_djvu.txt",
+          "note": null,
+          "supplementUsed": false
+        },
+        {
+          "deLemma": "arbeiten",
+          "auditStepUsed": 1,
+          "primaryDirection": "de→fr",
+          "sourceName": "Sachs–Villatte 1906 (IA OCR)",
+          "pairFound": true,
+          "targetGloss": "FOUND_IN_OCR",
+          "entryUrl": "https://archive.org/download/sachsvillatteenz00sachuoft/sachsvillatteenz00sachuoft_djvu.txt",
+          "note": null,
+          "supplementUsed": false
+        },
+        {
+          "deLemma": "Kleingeld",
+          "auditStepUsed": 1,
+          "primaryDirection": "de→fr",
+          "sourceName": "Sachs–Villatte 1906 (IA OCR)",
+          "pairFound": false,
+          "targetGloss": null,
+          "entryUrl": "https://archive.org/download/sachsvillatteenz00sachuoft/sachsvillatteenz00sachuoft_djvu.txt",
+          "note": null,
+          "supplementUsed": false
+        },
+        {
+          "deLemma": "bewirten",
+          "auditStepUsed": 1,
+          "primaryDirection": "de→fr",
+          "sourceName": "Sachs–Villatte 1906 (IA OCR)",
+          "pairFound": true,
+          "targetGloss": "FOUND_IN_OCR",
+          "entryUrl": "https://archive.org/download/sachsvillatteenz00sachuoft/sachsvillatteenz00sachuoft_djvu.txt",
+          "note": null,
+          "supplementUsed": false
+        },
+        {
+          "deLemma": "Grenzkonflikt",
+          "auditStepUsed": 1,
+          "primaryDirection": "de→fr",
+          "sourceName": "Sachs–Villatte 1906 (IA OCR)",
+          "pairFound": false,
+          "targetGloss": null,
+          "entryUrl": "https://archive.org/download/sachsvillatteenz00sachuoft/sachsvillatteenz00sachuoft_djvu.txt",
+          "note": null,
+          "supplementUsed": false
+        },
+        {
+          "deLemma": "Machtgier",
+          "auditStepUsed": 1,
+          "primaryDirection": "de→fr",
+          "sourceName": "Sachs–Villatte 1906 (IA OCR)",
+          "pairFound": false,
+          "targetGloss": null,
+          "entryUrl": "https://archive.org/download/sachsvillatteenz00sachuoft/sachsvillatteenz00sachuoft_djvu.txt",
+          "note": null,
+          "supplementUsed": false
+        },
+        {
+          "deLemma": "(reverse) Maison",
+          "auditStepUsed": 1,
+          "primaryDirection": "fr→de",
+          "sourceName": "Sachs–Villatte 1906 (IA OCR)",
+          "pairFound": true,
+          "targetGloss": "Maison → DE attested",
+          "entryUrl": "https://archive.org/download/sachsvillatteenz00sachuoft/sachsvillatteenz00sachuoft_djvu.txt",
+          "note": "Production Haus target: Maison",
+          "supplementUsed": false
+        }
+      ],
+      "pilotSummary": {
+        "status": "PARTIAL",
+        "sourcePrimary": "sachs-villatte-1906 (IA _djvu.txt)",
+        "deToTargetHits": "3/6",
+        "targetToDeHausMaison": true,
+        "sourceBaseline": "mozin-1823-de-ak (IA _djvu.txt)",
+        "baselineDeToTargetHits": "3/6",
+        "baselineTargetToDeMaison": true
+      },
+      "readinessClassification": "FR_DIGITIZED_SOURCES_REGISTERED",
+      "usesNewAuditSources": true
+    },
+    {
+      "appLang": "bg",
+      "digitizedAuditStatus": null,
+      "primaryDigitized": [
+        {
+          "id": "mdz-bsb-miladinov-vol1-1897",
+          "name": "Miladinov vol. I — Deutsch-Bulgarisches Wörterbuch (1897), BSB/MDZ",
+          "direction": "de→bg",
+          "role": "primary",
+          "accessType": "Digitized page images (MDZ viewer + IIIF)",
+          "viewerUrl": "https://www.digitale-sammlungen.de/de/view/bsb11814571?page=1",
+          "resolveUrl": "http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb11814571-5",
+          "iiifSampleUrl": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb11814571_00017/full/full/0/default.jpg"
+        }
+      ],
+      "reverseChainDigitized": [
+        {
+          "id": "hathitrust-miladinov-vol2",
+          "name": "Miladinov vol. II — Bulgarisch-Deutsches (Pŭlen bŭlgarsko-němski)",
+          "direction": "bg→de",
+          "role": "primary_reverse",
+          "accessType": "HathiTrust page viewer (library session)",
+          "viewerUrl": "https://babel.hathitrust.org/cgi/pt?id=harvard.32044086444973",
+          "catalogUrl": "https://catalog.hathitrust.org/Record/102751195"
+        },
+        {
+          "id": "multislavdict-miladinov-1927",
+          "name": "MultiSlavDict — Miladinov BG→DE (1927)",
+          "direction": "bg→de",
+          "role": "supplement_reserve",
+          "accessType": "Searchable HTML by page",
+          "viewerUrl": "https://slavistik-portal.de/en/dicthub/dict-milad.html"
+        }
+      ],
+      "supplementaryReserve": [],
+      "rejectedNotUsable": [],
+      "sourceChainPriority": [
+        "primaryDigitized:de→bg (mdz-bsb-miladinov-vol1-1897)",
+        "reverseChainDigitized:bg→de (hathitrust-miladinov-vol2 — prioritāri)",
+        "reverseChainDigitized:bg→de (multislavdict-miladinov-1927 — papildinājums/rezerve)",
+        "targetOfficial:ibl-bg"
+      ],
+      "collectorOverrideId": "mdz-bsb-miladinov-vol1-1897",
+      "targetOfficial": {
+        "id": "ibl-bg",
+        "name": "Институт за български език, БАН — речници",
+        "portalUrl": "https://ibl.bas.bg/",
+        "adapterId": "bg-ibl-browser-entry",
+        "role": "TARGET_LEMMA_VALIDATION"
+      },
+      "regressionPilotDe": [
+        {
+          "deLemma": "Haus",
+          "auditStepUsed": 1,
+          "primaryDirection": "de→bg",
+          "sourceName": "Miladinov vol. I MDZ/BSB (IIIF OCR sample)",
+          "pairFound": true,
+          "targetGloss": "FOUND_IN_SCAN_SAMPLE",
+          "entryUrl": "https://www.digitale-sammlungen.de/de/view/bsb11814571?page=120",
+          "note": "IIIF OCR sample",
+          "supplementUsed": false
+        },
+        {
+          "deLemma": "arbeiten",
+          "auditStepUsed": 1,
+          "primaryDirection": "de→bg",
+          "sourceName": "Miladinov vol. I MDZ/BSB (IIIF OCR sample)",
+          "pairFound": true,
+          "targetGloss": "FOUND_IN_SCAN_SAMPLE",
+          "entryUrl": "https://www.digitale-sammlungen.de/de/view/bsb11814571?page=280",
+          "note": "possible substring match (e.g. losarbeiten)",
+          "supplementUsed": false
+        },
+        {
+          "deLemma": "Kleingeld",
+          "auditStepUsed": 1,
+          "primaryDirection": "de→bg",
+          "sourceName": "Miladinov vol. I MDZ/BSB (IIIF OCR sample)",
+          "pairFound": false,
+          "targetGloss": null,
+          "entryUrl": "https://www.digitale-sammlungen.de/de/view/bsb11814571?page=1",
+          "note": "IIIF OCR sample pages 80–636 step 8/16",
+          "supplementUsed": false
+        },
+        {
+          "deLemma": "bewirten",
+          "auditStepUsed": 1,
+          "primaryDirection": "de→bg",
+          "sourceName": "Miladinov vol. I MDZ/BSB (IIIF OCR sample)",
+          "pairFound": false,
+          "targetGloss": null,
+          "entryUrl": "https://www.digitale-sammlungen.de/de/view/bsb11814571?page=1",
+          "note": "IIIF OCR sample",
+          "supplementUsed": false
+        },
+        {
+          "deLemma": "Grenzkonflikt",
+          "auditStepUsed": 1,
+          "primaryDirection": "de→bg",
+          "sourceName": "Miladinov vol. I MDZ/BSB (IIIF OCR sample)",
+          "pairFound": false,
+          "targetGloss": null,
+          "entryUrl": "https://www.digitale-sammlungen.de/de/view/bsb11814571?page=1",
+          "note": "IIIF OCR sample",
+          "supplementUsed": false
+        },
+        {
+          "deLemma": "Machtgier",
+          "auditStepUsed": 1,
+          "primaryDirection": "de→bg",
+          "sourceName": "Miladinov vol. I MDZ/BSB (IIIF OCR sample)",
+          "pairFound": false,
+          "targetGloss": null,
+          "entryUrl": "https://www.digitale-sammlungen.de/de/view/bsb11814571?page=1",
+          "note": "IIIF OCR sample",
+          "supplementUsed": false
+        },
+        {
+          "deLemma": "(reverse) къща",
+          "auditStepUsed": 2,
+          "primaryDirection": "bg→de",
+          "sourceName": "Vol. II HathiTrust / MultiSlavDict (chain — not pilot-checked)",
+          "pairFound": false,
+          "targetGloss": null,
+          "entryUrl": "https://babel.hathitrust.org/cgi/pt?id=harvard.32044086444973",
+          "note": "Vol. I is DE→BG; BG→DE requires vol. II (HathiTrust) or MultiSlavDict — not pilot-checked this run",
+          "supplementUsed": false
+        }
+      ],
+      "pilotSummary": {
+        "status": "PARTIAL",
+        "sourcePrimary": "mdz-bsb-miladinov-vol1-1897 (IIIF + tesseract deu, sampled pages 80–520)",
+        "deToTargetHits": "2/6",
+        "targetToDeKyshta": null,
+        "note": "Kleingeld / Grenzkonflikt / Machtgier likely absent in 1897 lexicon or missed by coarse OCR; arbeiten hit may be compound substring — verify on MDZ p.280"
+      },
+      "readinessClassification": "BG_DIGITIZED_SOURCES_REGISTERED",
+      "usesNewAuditSources": true
+    },
+    {
+      "appLang": "bs",
+      "digitizedAuditStatus": "NOT_FOUND_DIGITIZED",
+      "primaryDigitized": [],
+      "reverseChainDigitized": [],
+      "supplementaryReserve": [],
+      "rejectedNotUsable": [
+        {
+          "id": "vukic-print-dictionaries",
+          "name": "Vukić drukātās vārdnīcas",
+          "reason": "Fiziski nopērkamas grāmatas — nav digitizēta audita avota."
+        },
+        {
+          "id": "marojevic-print",
+          "name": "Marojević",
+          "reason": "Drukāts avots / nav verificēta digitizācija."
+        },
+        {
+          "id": "bookstore-ba-listings",
+          "name": "bookstore.ba / knjiga.ba / Amazon fizisko grāmatu lapas",
+          "reason": "Veikalu katalogi nav vārdnīcas pierādījums."
+        },
+        {
+          "id": "hr-sr-dictionaries-as-bs",
+          "name": "Horvātu vai serbu vārdnīcas (DE↔HR/SR)",
+          "reason": "hr/sr ≠ bs — neaizstāj bosniešu valodas DE↔BS pāri."
+        },
+        {
+          "id": "dict-cc-de-bs",
+          "name": "dict.cc Deutsch–Bosnisch",
+          "reason": "Nav derīgs šī audita ķēdes avots (kā norādīts prasībās)."
+        }
+      ],
+      "sourceChainPriority": [
+        "digitizedAuditStatus:NOT_FOUND_DIGITIZED — nav reģistrēta derīga digitizēta DE↔BS vārdnīca"
+      ],
+      "collectorOverrideId": null,
+      "targetOfficial": null,
+      "regressionPilotDe": [
+        {
+          "deLemma": "Haus",
+          "auditStepUsed": 0,
+          "primaryDirection": "n/a",
+          "sourceName": "—",
+          "pairFound": false,
+          "targetGloss": null,
+          "entryUrl": null,
+          "note": "NOT_FOUND_DIGITIZED",
+          "supplementUsed": false
+        },
+        {
+          "deLemma": "arbeiten",
+          "auditStepUsed": 0,
+          "primaryDirection": "n/a",
+          "sourceName": "—",
+          "pairFound": false,
+          "targetGloss": null,
+          "entryUrl": null,
+          "note": "NOT_FOUND_DIGITIZED",
+          "supplementUsed": false
+        },
+        {
+          "deLemma": "Kleingeld",
+          "auditStepUsed": 0,
+          "primaryDirection": "n/a",
+          "sourceName": "—",
+          "pairFound": false,
+          "targetGloss": null,
+          "entryUrl": null,
+          "note": "NOT_FOUND_DIGITIZED",
+          "supplementUsed": false
+        },
+        {
+          "deLemma": "bewirten",
+          "auditStepUsed": 0,
+          "primaryDirection": "n/a",
+          "sourceName": "—",
+          "pairFound": false,
+          "targetGloss": null,
+          "entryUrl": null,
+          "note": "NOT_FOUND_DIGITIZED",
+          "supplementUsed": false
+        },
+        {
+          "deLemma": "Grenzkonflikt",
+          "auditStepUsed": 0,
+          "primaryDirection": "n/a",
+          "sourceName": "—",
+          "pairFound": false,
+          "targetGloss": null,
+          "entryUrl": null,
+          "note": "NOT_FOUND_DIGITIZED",
+          "supplementUsed": false
+        },
+        {
+          "deLemma": "Machtgier",
+          "auditStepUsed": 0,
+          "primaryDirection": "n/a",
+          "sourceName": "—",
+          "pairFound": false,
+          "targetGloss": null,
+          "entryUrl": null,
+          "note": "NOT_FOUND_DIGITIZED",
+          "supplementUsed": false
+        }
+      ],
+      "pilotSummary": {
+        "status": "NOT_FOUND",
+        "sourcePrimary": null,
+        "deToTargetHits": "0/6",
+        "targetToDeKuca": false,
+        "note": "No digitized DE↔BS dictionary — pilot not runnable"
+      },
+      "readinessClassification": "BS_NOT_FOUND_DIGITIZED",
+      "usesNewAuditSources": false
+    }
+  ],
+  "summary": {
+    "languageCount": 3,
+    "frPrimarySourceId": "sachs-villatte-1906",
+    "bgPrimarySourceId": "mdz-bsb-miladinov-vol1-1897",
+    "bgReverseChainIds": [
+      "hathitrust-miladinov-vol2",
+      "multislavdict-miladinov-1927"
+    ],
+    "bsStatus": "NOT_FOUND_DIGITIZED",
+    "note": "fr un bg izmanto jaunos digitizētos avotus no audita kataloga; bs paliek NOT_FOUND_DIGITIZED (nav derīga digitizēta DE↔BS ķēde)."
+  },
+  "inputs": {
+    "auditCatalog": "scripts/lib/data/g2-a1-card-translation-bilingual-audit-fr-bg-bs.json",
+    "pilotVerification": "reports/g2-a1-production-current/pdf-bilingual-dictionary-bg-bs-fr-pilot-verify/pdf-bilingual-dictionary-bg-bs-fr-pilot-verify.json"
+  }
+}
