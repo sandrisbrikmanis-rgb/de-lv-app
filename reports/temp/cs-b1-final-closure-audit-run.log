@@ -1,0 +1,36 @@
+◇ injected env (1) from .env // tip: ◈ encrypted .env [www.dotenvx.com]
+◇ injected env (0) from .env // tip: ⌘ override existing { override: true }
+
+=== Residual Apply Prerequisite ===
+PASS: 116/116 exact targetObject match
+
+=== Targeted scope: 41 actually changed residual cards ===
+
+=== Full B1 deterministic (3367/3367) ===
+{
+  "dataset": "b1",
+  "total": 3367,
+  "findings": 1027,
+  "severity": {
+    "CRITICAL": 403,
+    "HIGH": 369,
+    "MEDIUM": 255,
+    "LOW": 0
+  },
+  "structural": false,
+  "germanIntegrity": false,
+  "outFile": "/workspace/reports/temp/cs-b1-audit/deterministic-audit.json"
+}
+
+=== GPT-5.6 Luna final targeted audit (41 cards) ===
+  luna study-001-010: 10 cards, findings=5, pass=5, tokens=21440
+  luna study-011-020: 10 cards, findings=7, pass=3, tokens=19800
+  luna study-021-030: 10 cards, findings=8, pass=2, tokens=20869
+  luna study-031-040: 10 cards, findings=6, pass=4, tokens=16998
+  luna study-041-041: 1 cards, findings=5, pass=0, tokens=5548
+
+Wrote /workspace/reports/cs-b1-final-targeted-closure-audit.md
+VERDICT: RESIDUAL REPAIR REQUIRED
+VALIDATED REAL: 2
+OWNER_LOCK: confirmed=12 reopen=1
+b1-ton: confirmed=0 reopen=0
