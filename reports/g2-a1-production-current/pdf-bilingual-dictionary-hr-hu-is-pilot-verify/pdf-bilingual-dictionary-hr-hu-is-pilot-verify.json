@@ -1,0 +1,383 @@
+{
+  "schemaVersion": "g2-a1-pdf-bilingual-dictionary-hr-hu-is-pilot-verify-v2",
+  "generatedAt": "2026-10-02T14:59:41.278Z",
+  "pilotLemmasDe": [
+    "Haus",
+    "arbeiten",
+    "Kleingeld",
+    "bewirten",
+    "Grenzkonflikt",
+    "Machtgier"
+  ],
+  "productionHausTarget": {
+    "hr": {
+      "target": "Куќа",
+      "reverseLookup": "kuća"
+    },
+    "hu": {
+      "target": "Ház",
+      "reverseLookup": "Ház"
+    },
+    "is": {
+      "target": "Maya",
+      "reverseLookup": "hús",
+      "note": "Card CURRENT is Maya; pilot reverse uses hús (house)"
+    }
+  },
+  "pilotVerification": {
+    "hr": {
+      "deToTarget": [
+        {
+          "lemma": "Haus",
+          "found": true,
+          "snippet": "aditi, razvaliti gra- jevinu; ein Haus —, porusiti kudu; eine Mauer —, razoriti zidinu ; einem Meffer die Spige —, odkrhnuti rät (r"
+        },
+        {
+          "lemma": "arbeiten",
+          "found": true,
+          "snippet": "i, odradjivati du- gove; (ju Ende arbeiten), doraditi, svr- siti , dovraiti, doradjivati, svröivati; fi —, rr, izirgali se: kidati s"
+        },
+        {
+          "lemma": "Kleingeld",
+          "found": true,
+          "snippet": "dusje ; — zeigen, ma- | | Kleingeld, m. sitni noveci. | lodusan biti. Kleinmüthig, adj. malodusan; — werden, klonuti duh"
+        },
+        {
+          "lemma": "bewirten",
+          "found": false
+        },
+        {
+          "lemma": "Grenzkonflikt",
+          "found": false
+        },
+        {
+          "lemma": "Machtgier",
+          "found": false
+        }
+      ],
+      "targetToDe": {
+        "lemma": "kuća",
+        "found": true,
+        "snippet": "c n j cf) ; — gladnica -ce /. bie ^ungcvlo; figteit —glasan -sna -sno adj. flangtoa, ftimmfoč, tonloš. Bezglav -va -o, — an -a -o (—ni -a -o) fopfloS, gcpinitoš ; bezglavna kuća opne Dberpaupt ($. b. eine ^•amitie; — glavna žena gattem tofe-j 2Seib; — ac -vca m. ber Jtopfloje; ber ®epirntofe ci to. pl. fopftofe jBeidjtpiere, Acepbala ; Kopftojc, 5pieubocepl)ala ; — ost -sti /. bie tfopflofigteit. Bez;globan -bna -no geienfloč; — gran -na -o_ afttož ; — giesan -sna -no (grješan) jiinbioš, uh; jiinbig, funbenfrei: — gr",
+        "hausInWindow": false,
+        "productionTarget": "Куќа"
+      },
+      "hitCount": 3
+    },
+    "huHtml": {
+      "deToTarget": [
+        {
+          "lemma": "Haus",
+          "found": true,
+          "page": "h.htm",
+          "method": "MEK HTML letter page"
+        },
+        {
+          "lemma": "arbeiten",
+          "found": true,
+          "page": "a.htm",
+          "method": "MEK HTML letter page"
+        },
+        {
+          "lemma": "Kleingeld",
+          "found": true,
+          "page": "k.htm",
+          "method": "MEK HTML letter page"
+        },
+        {
+          "lemma": "bewirten",
+          "found": true,
+          "page": "b.htm",
+          "method": "MEK HTML letter page"
+        },
+        {
+          "lemma": "Grenzkonflikt",
+          "found": false,
+          "page": "g.htm",
+          "method": "MEK HTML letter page"
+        },
+        {
+          "lemma": "Machtgier",
+          "found": false,
+          "page": "m.htm",
+          "method": "MEK HTML letter page"
+        }
+      ],
+      "targetToDe": {
+        "lemma": "Ház",
+        "found": true,
+        "method": "MEK h.htm (legacy encoding)",
+        "productionTarget": "Ház"
+      },
+      "hitCount": 4
+    },
+    "huPdf": {
+      "deToTarget": [
+        {
+          "lemma": "Haus",
+          "found": true,
+          "method": "pdftotext both parts"
+        },
+        {
+          "lemma": "arbeiten",
+          "found": true,
+          "method": "pdftotext both parts"
+        },
+        {
+          "lemma": "Kleingeld",
+          "found": true,
+          "method": "pdftotext both parts"
+        },
+        {
+          "lemma": "bewirten",
+          "found": true,
+          "method": "pdftotext both parts"
+        },
+        {
+          "lemma": "Grenzkonflikt",
+          "found": false,
+          "method": "pdftotext both parts"
+        },
+        {
+          "lemma": "Machtgier",
+          "found": false,
+          "method": "pdftotext both parts"
+        }
+      ],
+      "targetToDe": {
+        "lemma": "Ház",
+        "found": false,
+        "method": "pdftotext grep Haus (s) … ház"
+      },
+      "hitCount": 4
+    },
+    "is": {
+      "status": "NOT_VERIFIED_AUTOMATION",
+      "reason": "No open OCR/PDF/ HTML dictionary text for IS↔DE in this run (LEXÍA requires browser session)",
+      "lexiaUrl": "https://lexia.arnastofnun.is/"
+    },
+    "round2": {
+      "hr": [
+        {
+          "id": "ia-zepni-de-hr-1887-filipovic",
+          "label": "Žepni 1887 DE→HR (IA OCR)",
+          "kind": "ocr",
+          "deToTarget": [
+            {
+              "lemma": "Haus",
+              "found": false
+            },
+            {
+              "lemma": "arbeiten",
+              "found": true,
+              "snippet": "unati beredjnen. Proraditi ju arbeiten anfangen. Prorajtati Berlumpen, Berpufjett. Prorasao adj. bUTbptoadjfen Prorkst"
+            },
+            {
+              "lemma": "Kleingeld",
+              "found": false
+            },
+            {
+              "lemma": "bewirten",
+              "found": false
+            },
+            {
+              "lemma": "Grenzkonflikt",
+              "found": false
+            },
+            {
+              "lemma": "Machtgier",
+              "found": false
+            }
+          ],
+          "hitCount": 1,
+          "status": "WEAK"
+        },
+        {
+          "id": "ia-filipovic-de-hr-1869",
+          "label": "Filipović 1869 DE→HR (IA OCR)",
+          "kind": "ocr",
+          "deToTarget": [
+            {
+              "lemma": "Haus",
+              "found": false
+            },
+            {
+              "lemma": "arbeiten",
+              "found": true,
+              "snippet": "na pr- 8ijuh; a. einer <Sa#e arbeiten ra¬ diti o čem; bie $Rei$e ift an bir tvoj je red ; bie <2a#e an unb fftr"
+            },
+            {
+              "lemma": "Kleingeld",
+              "found": false
+            },
+            {
+              "lemma": "bewirten",
+              "found": false
+            },
+            {
+              "lemma": "Grenzkonflikt",
+              "found": false
+            },
+            {
+              "lemma": "Machtgier",
+              "found": false
+            }
+          ],
+          "hitCount": 1,
+          "status": "WEAK"
+        },
+        {
+          "id": "ia-zepni-hr-de-1878-filipovic",
+          "label": "Žepni 1878 HR→DE pocket (reverse kuća)",
+          "kind": "reverse",
+          "targetToDe": {
+            "lemma": "kuća",
+            "found": true,
+            "snippet": "8arter, 6đju$enge{. Čuvaran adj. b<iu$l)(ilierif<$, jparjam, toa^jam. Čuvarica /. bie $iiterin, 2Ba<$s terin. Čuvarina /. $iitetfoi)n. Čuvarka f. ba§ ©id&erljettgoentit. Čuvarkuća / ba3 S>onnettraut. Čuvaruica /. baS 2Bfi<9tetfjatt8s $en. Čuvamo st /. bie ©patf amfett ; SBa<§famf",
+            "hausInWindow": false,
+            "productionTarget": "Куќа"
+          },
+          "status": "PARTIAL"
+        }
+      ],
+      "hu": [
+        {
+          "id": "ia-bsb-ungrische-deutsche-gesprache",
+          "label": "Ungrische und deutsche Gespräche (IA OCR)",
+          "kind": "ocr",
+          "deToTarget": [
+            {
+              "lemma": "Haus",
+              "found": true,
+              "snippet": "Spital, das Armenhaus, das Kauf⸗ haus ſehen: alles dieſes iſt auf unſerm Wege. Iſt etwas merkwürdiges im Beughanfe zu ſehen? Ma"
+            },
+            {
+              "lemma": "arbeiten",
+              "found": true,
+              "snippet": "Als wenn es nothwendig waͤre zu arbeiten, um zu leben. Tud az Ur' mödot, elelni a’ nelkül? Hät! — megällj, megmon- dom; .."
+            },
+            {
+              "lemma": "Kleingeld",
+              "found": false
+            },
+            {
+              "lemma": "bewirten",
+              "found": false
+            },
+            {
+              "lemma": "Grenzkonflikt",
+              "found": false
+            },
+            {
+              "lemma": "Machtgier",
+              "found": false
+            }
+          ],
+          "hitCount": 2,
+          "status": "PARTIAL"
+        },
+        {
+          "id": "real-eod-nemet-magyar-zsebszotar-vol13-1838",
+          "label": "REAL-EOD pocket vol. 13 (pdftotext)",
+          "kind": "pdf",
+          "deToTarget": [
+            {
+              "lemma": "Haus",
+              "found": false,
+              "method": "pdftotext"
+            },
+            {
+              "lemma": "arbeiten",
+              "found": true,
+              "method": "pdftotext"
+            },
+            {
+              "lemma": "Kleingeld",
+              "found": false,
+              "method": "pdftotext"
+            },
+            {
+              "lemma": "bewirten",
+              "found": false,
+              "method": "pdftotext"
+            },
+            {
+              "lemma": "Grenzkonflikt",
+              "found": false,
+              "method": "pdftotext"
+            },
+            {
+              "lemma": "Machtgier",
+              "found": false,
+              "method": "pdftotext"
+            }
+          ],
+          "targetToDe": {
+            "lemma": "Ház",
+            "found": false,
+            "method": "pdftotext grep Haus … ház"
+          },
+          "hitCount": 1,
+          "status": "WEAK"
+        }
+      ]
+    }
+  },
+  "summary": {
+    "hr": {
+      "status": "PARTIAL",
+      "deToTargetHits": "3/6",
+      "sourceDeToTarget": "mdz-bsb-sulek-de-hr-vol1-1860",
+      "sourceTargetToDe": "ia-filipovic-hr-de-vol-a-o-1875",
+      "targetToDeKuća": true,
+      "targetToDeHausNear": false
+    },
+    "hu": {
+      "status": "PARTIAL",
+      "mekHtmlDeToTargetHits": "4/6",
+      "mekPdfDeToTargetHits": "4/6",
+      "targetToDeHázHtml": true,
+      "targetToDeHázPdf": false
+    },
+    "is": {
+      "status": "NOT_VERIFIED_AUTOMATION",
+      "reason": "No open OCR/PDF/ HTML dictionary text for IS↔DE in this run (LEXÍA requires browser session)",
+      "lexiaUrl": "https://lexia.arnastofnun.is/"
+    },
+    "round2Hr": [
+      {
+        "id": "ia-zepni-de-hr-1887-filipovic",
+        "status": "WEAK",
+        "hits": "1/6",
+        "reverseKuća": null
+      },
+      {
+        "id": "ia-filipovic-de-hr-1869",
+        "status": "WEAK",
+        "hits": "1/6",
+        "reverseKuća": null
+      },
+      {
+        "id": "ia-zepni-hr-de-1878-filipovic",
+        "status": "PARTIAL",
+        "hits": null,
+        "reverseKuća": true
+      }
+    ],
+    "round2Hu": [
+      {
+        "id": "ia-bsb-ungrische-deutsche-gesprache",
+        "status": "PARTIAL",
+        "hits": "2/6",
+        "reverseHáz": null
+      },
+      {
+        "id": "real-eod-nemet-magyar-zsebszotar-vol13-1838",
+        "status": "WEAK",
+        "hits": "1/6",
+        "reverseHáz": false
+      }
+    ]
+  },
+  "methodology": "Same 6 DE lemmas as bg/bs/fr pilot. hr: IA OCR grep; hu: MEK HTML letter pages + optional MEK 24482 pdftotext; is: no automatable full lexicon text."
+}
