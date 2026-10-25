@@ -40,7 +40,8 @@ Actual article: die
 Actual plural: die Tagungen
 Current EN: Sitting
 OWNER FINAL EN: Conference / meeting
-Tageordnung production card exists: YES
+Tageordnung B1 production card exists: NO
+Tagesordnung B1 production card exists: YES (index 2835; separate card, EN Agenda)
 Matching Tagung production cards: 1
 TAGUNG IDENTITY GATE: PASS
 Production ID changed: NO
@@ -82,7 +83,9 @@ json.tagungMetadataAnomaly = {
   actualPlural: "die Tagungen",
   currentEn: "Sitting",
   ownerFinalEn: "Conference / meeting",
-  tageordnungProductionCardExists: true,
+  tageordnungProductionCardExists: false,
+  tagesordnungB1ProductionCardExists: true,
+  tagesordnungB1Note: "Production lemma is Tagesordnung (with s), not Tageordnung. Index 2835, EN Agenda.",
   matchingTagungProductionCards: 1,
   tagungIdentityGate: "PASS",
   productionIdChanged: false,
