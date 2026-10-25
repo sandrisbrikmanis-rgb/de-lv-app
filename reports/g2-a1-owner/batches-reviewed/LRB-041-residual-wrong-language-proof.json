@@ -1,0 +1,38 @@
+{
+  "batch_id": "LRB-041",
+  "classification": "LRB_041_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+  "repair_pass": true,
+  "source_semantic_repair": true,
+  "row_count": 50,
+  "is_cards": 11,
+  "it_cards": 39,
+  "individual_linguistic": 50,
+  "labot": 50,
+  "nelabot": 0,
+  "pending": 0,
+  "gates": {
+    "EXTRA_MEANING_NOT_IN_SOURCE": 0,
+    "duplicate_meanings": 0,
+    "wrong_language_residue": 0,
+    "is_cardinal_ordinal_issues": 0,
+    "it_scalar_source_fidelity_issues": 0
+  },
+  "source_repair_items": [
+    "IT an Presso",
+    "IT aufs Su",
+    "IT aus Da",
+    "IT bringen Portare",
+    "IT da cmp[0] Lì•Qui",
+    "IT ein Articolo indefinito",
+    "IT erst native/translation Solo; cmp[0] Prima•Solo",
+    "IT es native/translation Esso; cmp[0] esso•forma impersonale",
+    "IT etwas Qualcosa",
+    "IT finden Trovare",
+    "IT frau Donna",
+    "IT gleich native Subito",
+    "IT fahren Viaggiare in veicolo"
+  ],
+  "failures": [],
+  "verdict": "LRB_041_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+  "updatedAt": "2026-09-11T18:20:56.898Z"
+}
