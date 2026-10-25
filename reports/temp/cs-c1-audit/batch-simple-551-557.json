@@ -1,0 +1,110 @@
+{
+  "dataset": "c1",
+  "batch": "simple-551-557",
+  "auditType": "vocab_simple",
+  "cardCount": 7,
+  "cardIds": [
+    "c1-Hektar-565",
+    "c1-Karre-566",
+    "c1-Karren-567",
+    "c1-Krüppel-568",
+    "c1-Matsch-569",
+    "c1-Panter-570",
+    "c1-Panther-571"
+  ],
+  "findings": [
+    {
+      "cardId": "c1-Hektar-565",
+      "field": "csText",
+      "severity": "LOW",
+      "category": "ORTHOGRAPHY",
+      "de": "Hektar",
+      "lvSource": "hektārs",
+      "currentCs": "Hektar",
+      "proposedCs": "hektar",
+      "reason": "V češtině se obecné podstatné jméno píše s malým počátečním písmenem.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "c1-Karre-566",
+      "field": "csText",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "de": "Karre",
+      "lvSource": "ķerra",
+      "currentCs": "Kolečko",
+      "proposedCs": "kára",
+      "reason": "Kolečko znamená především wheelbarrow; německé Karre odpovídá spíše českému kára.",
+      "confidence": 0.95,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "c1-Karren-567",
+      "field": "csText",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "de": "Karren",
+      "lvSource": "ķerra",
+      "currentCs": "Kolečko",
+      "proposedCs": "kára",
+      "reason": "Kolečko je významově užší; německé Karren označuje káru nebo vozík.",
+      "confidence": 0.95,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "c1-Krüppel-568",
+      "field": "csText",
+      "severity": "LOW",
+      "category": "ORTHOGRAPHY",
+      "de": "Krüppel",
+      "lvSource": "kroplis",
+      "currentCs": "Mrzák",
+      "proposedCs": "mrzák",
+      "reason": "České obecné podstatné jméno se píše s malým počátečním písmenem; význam překladu je odpovídající.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "c1-Matsch-569",
+      "field": "csText",
+      "severity": "LOW",
+      "category": "ORTHOGRAPHY",
+      "de": "Matsch",
+      "lvSource": "dubļi • šļaka",
+      "currentCs": "Bláto • Břečka",
+      "proposedCs": "bláto • břečka",
+      "reason": "Obě česká obecná podstatná jména se píší s malým počátečním písmenem.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "c1-Panter-570",
+      "field": "csText",
+      "severity": "LOW",
+      "category": "ORTHOGRAPHY",
+      "de": "Panter",
+      "lvSource": "pantera",
+      "currentCs": "Panter",
+      "proposedCs": "panter",
+      "reason": "České obecné podstatné jméno se píše s malým počátečním písmenem.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "c1-Panther-571",
+      "field": "csText",
+      "severity": "LOW",
+      "category": "ORTHOGRAPHY",
+      "de": "Panther",
+      "lvSource": "pantera",
+      "currentCs": "Panter",
+      "proposedCs": "panter",
+      "reason": "České obecné podstatné jméno se píše s malým počátečním písmenem.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 0,
+  "completedAt": "2026-08-10T20:36:49.169Z"
+}
