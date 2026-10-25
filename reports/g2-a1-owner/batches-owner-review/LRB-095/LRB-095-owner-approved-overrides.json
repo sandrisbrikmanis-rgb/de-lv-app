@@ -1,0 +1,3556 @@
+{
+  "batchId": "LRB-095",
+  "sourceCommit": "3eb1c9de274cbe4dec5bc6b0f4335b6a24c8b2bd",
+  "reviewer": "GPT-5.6 Luna",
+  "reviewType": "FULL_50_50_INDIVIDUAL_LINGUISTIC_REVIEW",
+  "cards": [
+    {
+      "auditId": "LRB095-0001",
+      "cardId": "a1-uhr",
+      "status": "LABOT",
+      "reason": "Uhr: titulli kishte pikësim të panevojshëm dhe shembulli i fundit kërkonte një formë të vetme të qartë shqipe.",
+      "new": {
+        "lv": "orë",
+        "study": {
+          "id": "a1-uhr",
+          "layout": "standardStudy",
+          "translation": "orë",
+          "explanation": [
+            "Ideja kryesore: die Uhr do të thotë orë si pajisje dhe përdoret edhe për të treguar orën e saktë.",
+            "Në Es ist acht Uhr tregon kohën; në meine Uhr tregon pajisjen."
+          ],
+          "examples": [
+            {
+              "de": "Es ist acht Uhr.",
+              "lv": "Është ora tetë."
+            },
+            {
+              "de": "Es ist acht Uhr.",
+              "lv": "Është ora tetë."
+            },
+            {
+              "de": "Meine Uhr ist kaputt.",
+              "lv": "Ora ime është prishur."
+            },
+            {
+              "de": "Es ist acht Uhr.",
+              "lv": "Është ora tetë."
+            },
+            {
+              "de": "Es ist acht Uhr.",
+              "lv": "Është ora tetë."
+            },
+            {
+              "de": "die Uhr",
+              "lv": "ora"
+            }
+          ],
+          "tip": {
+            "text": "die Uhr = ora si pajisje ose koha e saktë."
+          },
+          "important": [
+            "Es ist acht Uhr = Është ora tetë."
+          ],
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {},
+              {},
+              {},
+              {}
+            ],
+            "comparison": []
+          },
+          "comparison": []
+        }
+      }
+    },
+    {
+      "auditId": "LRB095-0002",
+      "cardId": "ab|idx:17",
+      "status": "LABOT",
+      "reason": "ab: titulli “DHE” ishte kuptim tjetër dhe e gjithë karta përmbante përkthime të përziera.",
+      "new": {
+        "lv": "që nga • duke filluar nga",
+        "study": {
+          "id": "a1-ab",
+          "layout": "standardStudy",
+          "translation": "që nga • duke filluar nga",
+          "explanation": [
+            "Ideja kryesore: ab tregon pikën prej së cilës fillon diçka në kohë ose në hapësirë.",
+            "Shpesh përkthehet që nga ose duke filluar nga."
+          ],
+          "examples": [
+            {
+              "de": "ab heute",
+              "lv": "që nga sot",
+              "level": "A1"
+            },
+            {
+              "de": "ab Montag",
+              "lv": "që nga e hëna"
+            },
+            {
+              "de": "ab 8 Uhr",
+              "lv": "nga ora tetë"
+            },
+            {
+              "de": "ab Bahnhof",
+              "lv": "nga stacioni"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "ab",
+              "meaning": "që nga, duke filluar nga",
+              "example": "ab Montag — që nga e hëna"
+            },
+            {
+              "word": "von",
+              "meaning": "nga, prej",
+              "example": "von mir — nga unë"
+            },
+            {
+              "word": "aus",
+              "meaning": "nga brendësia",
+              "example": "aus dem Haus — nga shtëpia"
+            }
+          ],
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {},
+              {}
+            ],
+            "comparison": [
+              {},
+              {},
+              {}
+            ]
+          },
+          "tip": {
+            "text": "Pikë fillimi në kohë ose vend → ab."
+          },
+          "important": [
+            "ab tregon pikën e fillimit.",
+            "Për prejardhje ose dalje nga brenda përdoren shpesh von ose aus."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB095-0003",
+      "cardId": "aber|idx:21",
+      "status": "LABOT",
+      "reason": "aber: titulli kishte pikësim të tepërt, ndërsa shpjegimi dhe krahasimet përmbanin gjuhë të tjera.",
+      "new": {
+        "lv": "por • megjithatë",
+        "study": {
+          "id": "a1-aber",
+          "layout": "standardStudy",
+          "translation": "por • megjithatë",
+          "explanation": [
+            "Ideja kryesore: aber paraqet një kundërshtim ose rezervë dhe do të thotë por ose megjithatë."
+          ],
+          "examples": [
+            {
+              "de": "Ich möchte mitkommen, aber ich habe keine Zeit.",
+              "lv": "Dua të vij me ju, por nuk kam kohë."
+            },
+            {
+              "de": "Das Essen war lecker, aber zu teuer.",
+              "lv": "Ushqimi ishte i shijshëm, por tepër i shtrenjtë."
+            },
+            {
+              "de": "Er hat recht, aber ich sehe das anders.",
+              "lv": "Ai ka të drejtë, por unë e shoh ndryshe."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "aber",
+              "meaning": "por",
+              "example": "Ich komme, aber später. — Po vij, por më vonë."
+            },
+            {
+              "word": "sondern",
+              "meaning": "por përkundrazi",
+              "example": "Ich wollte keinen Tee, sondern Kaffee. — Nuk doja çaj, por kafe."
+            },
+            {
+              "word": "jedoch",
+              "meaning": "megjithatë",
+              "example": "Es ist kalt, jedoch sonnig. — Është ftohtë, megjithatë ka diell."
+            }
+          ],
+          "tip": {
+            "text": "Kundërshtim ose rezervë → aber."
+          },
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {}
+            ],
+            "comparison": [
+              {},
+              {},
+              {}
+            ]
+          },
+          "important": [
+            "Për ndërtimin “jo..., por...” përdoret zakonisht sondern."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB095-0004",
+      "cardId": "also|idx:26",
+      "status": "LABOT",
+      "reason": "also: titulli “Në lidhje me” ishte semantikisht i gabuar dhe krahasimet ngatërronin përfundimin me shtesën.",
+      "new": {
+        "lv": "pra • kështu që",
+        "study": {
+          "id": "a1-also",
+          "layout": "standardStudy",
+          "translation": "pra • kështu që",
+          "explanation": [
+            "Ideja kryesore: also paraqet një përfundim ose rezultat dhe do të thotë pra ose kështu që."
+          ],
+          "examples": [
+            {
+              "de": "Es regnet, also bleibe ich zu Hause.",
+              "lv": "Po bie shi, kështu që po qëndroj në shtëpi."
+            },
+            {
+              "de": "Du bist krank, also gehst du nicht zur Arbeit.",
+              "lv": "Je i sëmurë, prandaj nuk shkon në punë."
+            },
+            {
+              "de": "Ich habe viel gelernt, also verstehe ich es jetzt.",
+              "lv": "Kam mësuar shumë, prandaj tani e kuptoj."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "also",
+              "meaning": "pra, kështu që",
+              "example": "Es regnet, also bleibe ich zu Hause. — Po bie shi, kështu që po qëndroj në shtëpi."
+            },
+            {
+              "word": "auch",
+              "meaning": "gjithashtu",
+              "example": "Ich komme auch. — Edhe unë po vij."
+            },
+            {
+              "word": "deshalb",
+              "meaning": "prandaj",
+              "example": "Es regnet, deshalb bleibe ich zu Hause. — Po bie shi, prandaj po qëndroj në shtëpi."
+            }
+          ],
+          "tip": {
+            "text": "Përfundim nga fjalia e mëparshme → also."
+          },
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {}
+            ],
+            "comparison": [
+              {},
+              {},
+              {}
+            ]
+          },
+          "important": [
+            "also nuk do të thotë auch; also tregon përfundim."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB095-0005",
+      "cardId": "an|idx:12",
+      "status": "LABOT",
+      "reason": "an: titulli jepte tri kuptime të pasakta dhe karta ngatërronte an me ab, auf dhe bei.",
+      "new": {
+        "lv": "në • pranë",
+        "study": {
+          "id": "a1-an",
+          "layout": "standardStudy",
+          "translation": "në • pranë",
+          "explanation": [
+            "Ideja kryesore: an përdoret pranë një muri, dritareje, dere, bregu ose skaji.",
+            "Për një sipërfaqe horizontale përdoret zakonisht auf."
+          ],
+          "examples": [
+            {
+              "de": "an der Wand",
+              "lv": "në mur"
+            },
+            {
+              "de": "am Fenster",
+              "lv": "te dritarja"
+            },
+            {
+              "de": "am Meer",
+              "lv": "pranë detit"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "an",
+              "meaning": "në ose pranë",
+              "example": "an der Wand — në mur"
+            },
+            {
+              "word": "auf",
+              "meaning": "mbi një sipërfaqe",
+              "example": "auf dem Tisch — mbi tavolinë"
+            },
+            {
+              "word": "bei",
+              "meaning": "te një person ose institucion",
+              "example": "beim Arzt — te mjeku"
+            }
+          ],
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {}
+            ],
+            "comparison": [
+              {},
+              {},
+              {}
+            ]
+          },
+          "tip": {
+            "text": "Mur, dritare ose skaj → an."
+          },
+          "important": [
+            "an nuk është çdo përdorim i fjalës “pranë”; lidhet shpesh me një sipërfaqe ose skaj."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB095-0006",
+      "cardId": "auch|idx:48",
+      "status": "LABOT",
+      "reason": "auch: titulli “Por” e ngatërronte auch me aber dhe përmbajtja kishte gjuhë të përziera.",
+      "new": {
+        "lv": "gjithashtu • edhe",
+        "study": {
+          "id": "a1-auch-study",
+          "layout": "standardStudy",
+          "translation": "gjithashtu • edhe",
+          "explanation": [
+            "Ideja kryesore: auch është fjala më e zakonshme dhe neutrale për gjithashtu ose edhe.",
+            "Ajo shton një person, veprim ose cilësi në atë që është përmendur."
+          ],
+          "examples": [
+            {
+              "de": "Ich komme auch.",
+              "lv": "Edhe unë po vij."
+            },
+            {
+              "de": "Sie arbeitet auch hier.",
+              "lv": "Ajo gjithashtu punon këtu."
+            },
+            {
+              "de": "Ich wünsche Ihnen auch einen schönen Tag.",
+              "lv": "Edhe juve ju uroj një ditë të bukur."
+            }
+          ],
+          "tip": {
+            "text": "auch = gjithashtu ose edhe."
+          },
+          "important": [
+            "Rendi i saktë: Ich wünsche Ihnen auch einen schönen Tag."
+          ],
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {}
+            ],
+            "comparison": []
+          },
+          "comparison": []
+        }
+      }
+    },
+    {
+      "auditId": "LRB095-0007",
+      "cardId": "auf|idx:49",
+      "status": "LABOT",
+      "reason": "auf: titulli “Poshtë” ishte kuptimi i kundërt dhe karta nuk dallonte sipërfaqen nga an ose in.",
+      "new": {
+        "lv": "mbi • në",
+        "study": {
+          "id": "a1-auf",
+          "layout": "standardStudy",
+          "translation": "mbi • në",
+          "explanation": [
+            "Ideja kryesore: auf tregon lëvizje ose pozicion mbi një sipërfaqe ose në pjesën e sipërme të diçkaje."
+          ],
+          "examples": [
+            {
+              "de": "Ich stelle das Buch auf den Tisch.",
+              "lv": "E vendos librin mbi tavolinë."
+            },
+            {
+              "de": "Wir fahren auf den Berg.",
+              "lv": "Po ngjitemi në mal."
+            },
+            {
+              "de": "Die Katze springt auf das Sofa.",
+              "lv": "Macja kërcen mbi divan."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "auf",
+              "meaning": "mbi një sipërfaqe",
+              "example": "Ich stelle das Glas auf den Tisch. — E vendos gotën mbi tavolinë."
+            },
+            {
+              "word": "an",
+              "meaning": "në një sipërfaqe vertikale",
+              "example": "Ich hänge das Bild an die Wand. — E var fotografinë në mur."
+            },
+            {
+              "word": "in",
+              "meaning": "brenda",
+              "example": "Ich lege das Buch in die Tasche. — E vendos librin në çantë."
+            }
+          ],
+          "tip": {
+            "text": "Mbi një sipërfaqe ose lart → auf."
+          },
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {}
+            ],
+            "comparison": [
+              {},
+              {},
+              {}
+            ]
+          },
+          "important": [
+            "Për një sipërfaqe vertikale përdoret shpesh an; për brenda përdoret in."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB095-0008",
+      "cardId": "aufs|idx:60",
+      "status": "LABOT",
+      "reason": "aufs: titulli përsëriste pyetjen “ku” dhe karta nuk shpjegonte drejtimin ose tkurrjen auf das.",
+      "new": {
+        "lv": "mbi • në",
+        "study": {
+          "id": "a1-aufs",
+          "layout": "standardStudy",
+          "translation": "mbi • në",
+          "explanation": [
+            "Ideja kryesore: aufs është forma e shkurtuar e auf das dhe tregon lëvizje drejt një vendi ose sipërfaqeje.",
+            "Përdoret me një emër asnjanës në kallëzore dhe i përgjigjet pyetjes ku shkon?",
+            "Forma e plotë auf das është gjithashtu gramatikisht e saktë."
+          ],
+          "examples": [
+            {
+              "de": "Ich gehe aufs Dach.",
+              "lv": "Po shkoj në çati."
+            },
+            {
+              "de": "Sie setzt sich aufs Sofa.",
+              "lv": "Ajo ulet në divan."
+            },
+            {
+              "de": "Wir fahren aufs Land.",
+              "lv": "Po shkojmë në fshat."
+            },
+            {
+              "de": "Stell die Tasche aufs Bett.",
+              "lv": "Vendose çantën mbi shtrat."
+            },
+            {
+              "de": "Er springt aufs Pferd.",
+              "lv": "Ai kërcen mbi kalë."
+            },
+            {
+              "de": "Leg das Buch aufs Regal.",
+              "lv": "Vendose librin në raft."
+            },
+            {
+              "de": "Komm schnell aufs Boot!",
+              "lv": "Eja shpejt në varkë!"
+            },
+            {
+              "de": "Wir gehen aufs Fest.",
+              "lv": "Po shkojmë në festë."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "aufs",
+              "meaning": "mbi ose në (auf das)",
+              "example": "aufs Dach — në çati"
+            },
+            {
+              "word": "auf",
+              "meaning": "mbi ose në",
+              "example": "auf den Tisch — mbi tavolinë"
+            },
+            {
+              "word": "an",
+              "meaning": "në një sipërfaqe vertikale",
+              "example": "an die Wand — në mur"
+            },
+            {
+              "word": "ins",
+              "meaning": "brenda",
+              "example": "ins Zimmer — në dhomë"
+            },
+            {
+              "word": "zum",
+              "meaning": "te",
+              "example": "zum Arzt — te mjeku"
+            }
+          ],
+          "tip": {
+            "text": "auf + das → aufs; tregon drejtim."
+          },
+          "important": [
+            "aufs është shkurtimi i auf das.",
+            "Mos e ngatërro me an për sipërfaqe vertikale ose ins për brenda."
+          ],
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              {}
+            ],
+            "comparison": [
+              {},
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB095-0009",
+      "cardId": "aus|idx:57",
+      "status": "LABOT",
+      "reason": "aus: titulli përmbante një shkronjë të huaj dhe “jashtë” pa lidhjen e saktë me burimin nga brenda.",
+      "new": {
+        "lv": "nga • prej",
+        "study": {
+          "id": "a1-aus",
+          "layout": "standardStudy",
+          "translation": "nga • prej",
+          "explanation": [
+            "Ideja kryesore: aus tregon dalje nga brendësia ose prejardhje."
+          ],
+          "examples": [
+            {
+              "de": "Ich komme aus Deutschland.",
+              "lv": "Vij nga Gjermania."
+            },
+            {
+              "de": "Er geht aus dem Haus.",
+              "lv": "Ai del nga shtëpia."
+            },
+            {
+              "de": "Ich nehme das Buch aus der Tasche.",
+              "lv": "E nxjerr librin nga çanta."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "aus",
+              "meaning": "nga brendësia",
+              "example": "aus dem Haus — nga shtëpia"
+            },
+            {
+              "word": "von",
+              "meaning": "nga një person ose pikë",
+              "example": "von meinem Freund — nga miku im"
+            },
+            {
+              "word": "ab",
+              "meaning": "duke filluar nga",
+              "example": "ab Montag — nga e hëna"
+            }
+          ],
+          "tip": {
+            "text": "Nga brendësia jashtë → aus."
+          },
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {}
+            ],
+            "comparison": [
+              {},
+              {},
+              {}
+            ]
+          },
+          "important": [
+            "aus tregon zakonisht dalje nga brenda ose prejardhje.",
+            "Për një pikë fillimi në kohë përdoret shpesh ab."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB095-0010",
+      "cardId": "baden|idx:68",
+      "status": "LABOT",
+      "reason": "baden: titulli “Not” e ngatërronte veprimin e larjes me sportin schwimmen dhe karta e plotë ishte e kontaminuar.",
+      "new": {
+        "lv": "lahem • bëj banjë",
+        "study": {
+          "id": "a1-baden",
+          "layout": "standardStudy",
+          "translation": "lahem • bëj banjë",
+          "explanation": [
+            "Ideja kryesore: baden do të thotë të lahesh, të bësh banjë ose të qëndrosh në ujë për kënaqësi.",
+            "schwimmen thekson lëvizjen e notit ose sportin."
+          ],
+          "examples": [
+            {
+              "de": "Ich gehe baden.",
+              "lv": "Po shkoj të lahem."
+            },
+            {
+              "de": "Wir gehen im See baden.",
+              "lv": "Po shkojmë të lahemi në liqen."
+            },
+            {
+              "de": "Er schwimmt sehr gut.",
+              "lv": "Ai noton shumë mirë."
+            },
+            {
+              "de": "Ich schwimme jeden Montag.",
+              "lv": "Unë notoj çdo të hënë."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "baden",
+              "meaning": "lahem ose bëj banjë",
+              "example": "Ich gehe baden. — Po shkoj të lahem."
+            },
+            {
+              "word": "schwimmen",
+              "meaning": "notoj",
+              "example": "Er schwimmt sehr gut. — Ai noton shumë mirë."
+            },
+            {
+              "word": "duschen",
+              "meaning": "bëj dush",
+              "example": "Ich dusche am Morgen. — Bëj dush në mëngjes."
+            },
+            {
+              "word": "schwimmen gehen",
+              "meaning": "shkoj për të notuar",
+              "example": "Ich gehe heute schwimmen. — Sot po shkoj për të notuar."
+            }
+          ],
+          "tip": {
+            "text": "Qëndrim dhe pushim në ujë → baden; lëvizje noti → schwimmen."
+          },
+          "important": [
+            "baden dhe schwimmen nuk janë sinonime të plota."
+          ],
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {},
+              {}
+            ],
+            "comparison": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB095-0011",
+      "cardId": "bei|idx:78",
+      "status": "LABOT",
+      "reason": "bei: titulli “Hapur” ishte krejtësisht i palidhur dhe karta ngatërronte vendndodhjen me drejtimin.",
+      "new": {
+        "lv": "te • pranë",
+        "study": {
+          "id": "a1-bei",
+          "layout": "standardStudy",
+          "translation": "te • pranë",
+          "explanation": [
+            "Ideja kryesore: bei përdoret për të qenë te një person, në një organizatë ose në rrethana të caktuara."
+          ],
+          "examples": [
+            {
+              "de": "Ich bin bei meinem Freund.",
+              "lv": "Jam te miku im."
+            },
+            {
+              "de": "Sie arbeitet bei Siemens.",
+              "lv": "Ajo punon te Siemens."
+            },
+            {
+              "de": "Bei Regen bleiben wir zu Hause.",
+              "lv": "Kur bie shi, qëndrojmë në shtëpi."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "bei",
+              "meaning": "te ose pranë",
+              "example": "Ich bin bei meiner Schwester. — Jam te motra ime."
+            },
+            {
+              "word": "an",
+              "meaning": "në një sipërfaqe vertikale",
+              "example": "Das Bild hängt an der Wand. — Fotografia varet në mur."
+            },
+            {
+              "word": "zu",
+              "meaning": "drejt një personi",
+              "example": "Ich gehe zu meinem Freund. — Po shkoj te miku im."
+            }
+          ],
+          "tip": {
+            "text": "Te një person, vend ose kompani → bei."
+          },
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {}
+            ],
+            "comparison": [
+              {},
+              {},
+              {}
+            ]
+          },
+          "important": [
+            "bei tregon shpesh vendndodhje; zu tregon zakonisht lëvizje drejt personit."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB095-0012",
+      "cardId": "Besuch|idx:87",
+      "status": "LABOT",
+      "reason": "Besuch: titulli ishte i pranueshëm, por studimi kishte përkthime të përziera dhe ngatërronte vizitën me qëndrimin.",
+      "new": {
+        "lv": "vizitë",
+        "study": {
+          "id": "a1-besuch",
+          "layout": "standardStudy",
+          "translation": "vizitë",
+          "explanation": [
+            "Ideja kryesore: der Besuch do të thotë vizitë, ardhje si mysafir ose vizitë në një vend.",
+            "Shumësi është die Besuche; der Besucher është personi që viziton."
+          ],
+          "examples": [
+            {
+              "de": "Der Besuch im Museum war interessant.",
+              "lv": "Vizita në muze ishte interesante."
+            },
+            {
+              "de": "Danke für deinen Besuch.",
+              "lv": "Faleminderit për vizitën tënde."
+            },
+            {
+              "de": "Der Arzt macht einen Besuch.",
+              "lv": "Mjeku bën një vizitë."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "der Besuch",
+              "meaning": "vizitë",
+              "example": "Danke für deinen Besuch. — Faleminderit për vizitën tënde."
+            },
+            {
+              "word": "der Besucher",
+              "meaning": "vizitor",
+              "example": "Der Besucher wartet draußen. — Vizitori pret jashtë."
+            },
+            {
+              "word": "besuchen",
+              "meaning": "vizitoj",
+              "example": "Ich besuche meine Großeltern. — Po vizitoj gjyshërit e mi."
+            }
+          ],
+          "tip": {
+            "text": "Besuch është ngjarja; Besucher është personi."
+          },
+          "important": [
+            "Shumësi i der Besuch është die Besuche."
+          ],
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {}
+            ],
+            "comparison": [
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB095-0013",
+      "cardId": "besuchen|idx:89",
+      "status": "LABOT",
+      "reason": "besuchen: titulli ishte i saktë, por studimi kishte mbetje letoneze dhe përkthime të pasakta për personin.",
+      "new": {
+        "lv": "vizitoj",
+        "study": {
+          "id": "a1-besuchen",
+          "layout": "standardStudy",
+          "translation": "vizitoj",
+          "explanation": [
+            "Ideja kryesore: besuchen do të thotë të vizitosh një vend, ngjarje, kurs ose person.",
+            "Në gjermanisht përdoret pa parafjalë dhe me kallëzore."
+          ],
+          "examples": [
+            {
+              "de": "Ich besuche das Museum.",
+              "lv": "Po vizitoj muzeun."
+            },
+            {
+              "de": "Wir besuchen einen Deutschkurs.",
+              "lv": "Po ndjekim një kurs gjermanishteje."
+            },
+            {
+              "de": "Ich besuche meine Großeltern.",
+              "lv": "Po vizitoj gjyshërit e mi."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "besuchen",
+              "meaning": "vizitoj",
+              "example": "Ich besuche meine Großeltern. — Po vizitoj gjyshërit e mi."
+            },
+            {
+              "word": "treffen",
+              "meaning": "takoj",
+              "example": "Ich treffe meinen Freund. — Po takoj mikun tim."
+            },
+            {
+              "word": "zu jemandem gehen",
+              "meaning": "shkoj te dikush",
+              "example": "Ich gehe zu meinem Freund. — Po shkoj te miku im."
+            }
+          ],
+          "tip": {
+            "text": "besuchen përdoret drejtpërdrejt me vendin ose personin."
+          },
+          "important": [
+            "Shembull: Ich besuche meine Freundin, pa parafjalë."
+          ],
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {}
+            ],
+            "comparison": [
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB095-0014",
+      "cardId": "bis|idx:91",
+      "status": "LABOT",
+      "reason": "bis: titulli ishte turqisht dhe karta kishte një comparison të tepërt dhe përkthime shumëgjuhëshe.",
+      "new": {
+        "lv": "deri",
+        "study": {
+          "id": "a1-bis",
+          "layout": "standardStudy",
+          "translation": "deri",
+          "explanation": [
+            "Ideja kryesore: bis tregon një kufi, pikë kohe ose kusht."
+          ],
+          "examples": [
+            {
+              "de": "Ich warte bis zu deiner Ankunft.",
+              "lv": "Pres deri në mbërritjen tënde."
+            },
+            {
+              "de": "Bleib hier, bis ich zurückkomme.",
+              "lv": "Qëndro këtu derisa të kthehem."
+            },
+            {
+              "de": "Ich lerne Deutsch bis zum Abend.",
+              "lv": "Mësoj gjermanisht deri në mbrëmje."
+            },
+            {
+              "de": "Bis jetzt habe ich nichts verstanden.",
+              "lv": "Deri tani nuk kam kuptuar asgjë."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "bis",
+              "meaning": "deri në një kufi ose kohë",
+              "example": "Ich bleibe bis morgen. — Qëndroj deri nesër."
+            },
+            {
+              "word": "bis zu",
+              "meaning": "deri te një kufi konkret",
+              "example": "bis zum Bahnhof — deri te stacioni"
+            },
+            {
+              "word": "bis jetzt",
+              "meaning": "deri tani",
+              "example": "Bis jetzt habe ich nichts verstanden. — Deri tani nuk kam kuptuar asgjë."
+            }
+          ],
+          "tip": {
+            "text": "Kufi në kohë ose kusht → bis."
+          },
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {},
+              {}
+            ],
+            "comparison": [
+              {},
+              {},
+              {}
+            ]
+          },
+          "important": [
+            "bis zu përdoret para një kufiri konkret.",
+            "bis jetzt do të thotë deri tani."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB095-0015",
+      "cardId": "bitte|idx:93",
+      "status": "LABOT",
+      "reason": "bitte: titulli kishte shenja të panevojshme dhe shembujt nuk ishin të gjithë shqip.",
+      "new": {
+        "lv": "ju lutem",
+        "study": {
+          "id": "a1-bitte",
+          "layout": "standardStudy",
+          "translation": "ju lutem",
+          "explanation": [
+            "Ideja kryesore: bitte me shkronjë të vogël është fjalë mirësjelljeje dhe do të thotë ju lutem.",
+            "Përdoret në kërkesa, porosi dhe përgjigje të sjellshme; die Bitte me shkronjë të madhe do të thotë kërkesë."
+          ],
+          "examples": [
+            {
+              "de": "Eine Tasse Kaffee, bitte.",
+              "lv": "Një filxhan kafe, ju lutem."
+            },
+            {
+              "de": "Komm bitte herein.",
+              "lv": "Ju lutem, hyni."
+            },
+            {
+              "de": "Bitte schön!",
+              "lv": "Urdhëroni!"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "bitte",
+              "meaning": "ju lutem",
+              "example": "Komm bitte herein. — Ju lutem, hyni."
+            },
+            {
+              "word": "die Bitte",
+              "meaning": "kërkesa",
+              "example": "Ich habe eine Bitte. — Kam një kërkesë."
+            }
+          ],
+          "tip": {
+            "text": "bitte = ju lutem; die Bitte = kërkesë."
+          },
+          "important": [
+            "bitte është fjalë mirësjelljeje.",
+            "Gabim: Die Bitte schön! → Saktë: Bitte schön!"
+          ],
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {}
+            ],
+            "comparison": [
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB095-0016",
+      "cardId": "Bitte|idx:94",
+      "status": "LABOT",
+      "reason": "Bitte: titulli ishte i saktë, por shembujt e plotë nuk përputheshin dhe dallimi me bitte ishte i paplotë.",
+      "new": {
+        "lv": "kërkesë",
+        "study": {
+          "id": "a1-bitte-study",
+          "layout": "standardStudy",
+          "translation": "kërkesë",
+          "explanation": [
+            "Ideja kryesore: die Bitte është emër dhe do të thotë kërkesë.",
+            "Shkruhet me shkronjë të madhe, përdoret me nyjën die dhe ka shumësin die Bitten.",
+            "bitte me shkronjë të vogël do të thotë ju lutem."
+          ],
+          "examples": [
+            {
+              "de": "Ich habe eine Bitte.",
+              "lv": "Kam një kërkesë."
+            },
+            {
+              "de": "Er erfüllt meine Bitte.",
+              "lv": "Ai e plotëson kërkesën time."
+            },
+            {
+              "de": "Sie hat zwei Bitten.",
+              "lv": "Ajo ka dy kërkesa."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "die Bitte",
+              "meaning": "kërkesa",
+              "example": "Ich habe eine Bitte. — Kam një kërkesë."
+            },
+            {
+              "word": "bitte",
+              "meaning": "ju lutem",
+              "example": "Komm bitte herein. — Ju lutem, hyni."
+            }
+          ],
+          "tip": {
+            "text": "die Bitte është emër; bitte është fjalë mirësjelljeje."
+          },
+          "important": [
+            "Nyja: die Bitte.",
+            "Shumësi: die Bitten."
+          ],
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {}
+            ],
+            "comparison": [
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB095-0017",
+      "cardId": "bleiben|idx:101",
+      "status": "LABOT",
+      "reason": "bleiben: titulli ishte vetëm urdhëror dhe karta ngatërronte qëndrimin me pritjen e largimin.",
+      "new": {
+        "lv": "qëndroj • mbetem",
+        "study": {
+          "id": "a1-bleiben",
+          "layout": "standardStudy",
+          "translation": "qëndroj • mbetem",
+          "explanation": [
+            "Ideja kryesore: bleiben do të thotë të qëndrosh ose të mbetesh në të njëjtin vend apo gjendje.",
+            "Është e kundërta e gehen ose fahren kur dikush largohet."
+          ],
+          "examples": [
+            {
+              "de": "Ich bleibe zu Hause.",
+              "lv": "Qëndroj në shtëpi."
+            },
+            {
+              "de": "Bleib hier!",
+              "lv": "Qëndro këtu!"
+            },
+            {
+              "de": "Wir bleiben noch eine Stunde.",
+              "lv": "Do të qëndrojmë edhe një orë."
+            },
+            {
+              "de": "Ich gehe nach Hause.",
+              "lv": "Po shkoj në shtëpi."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "bleiben",
+              "meaning": "qëndroj ose mbetem",
+              "example": "Ich bleibe hier. — Qëndroj këtu."
+            },
+            {
+              "word": "gehen",
+              "meaning": "shkoj",
+              "example": "Ich gehe nach Hause. — Po shkoj në shtëpi."
+            },
+            {
+              "word": "fahren",
+              "meaning": "udhëtoj",
+              "example": "Ich fahre nach Hause. — Po udhëtoj për në shtëpi."
+            },
+            {
+              "word": "warten",
+              "meaning": "pres",
+              "example": "Ich warte hier. — Pres këtu."
+            }
+          ],
+          "tip": {
+            "text": "Nuk largohet → bleiben; largohet në këmbë → gehen."
+          },
+          "important": [
+            "bleiben do të thotë qëndroj, jo pres."
+          ],
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {},
+              {}
+            ],
+            "comparison": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB095-0018",
+      "cardId": "bringen|idx:111",
+      "status": "LABOT",
+      "reason": "bringen: titulli përfshinte gabimisht “marr” dhe shembujt nuk dallonin drejtimet sjell/çoj/nehmen.",
+      "new": {
+        "lv": "sjell • çoj",
+        "study": {
+          "id": "a1-bringen",
+          "layout": "standardStudy",
+          "translation": "sjell • çoj",
+          "explanation": [
+            "Ideja kryesore: bringen do të thotë të dërgosh ose çosh diçka te një person apo vend tjetër.",
+            "Sipas drejtimit përkthehet sjell, çoj ose dërgoj; nehmen do të thotë marr për vete."
+          ],
+          "examples": [
+            {
+              "de": "Ich bringe dir ein Buch.",
+              "lv": "Po të sjell një libër."
+            },
+            {
+              "de": "Ich bringe das Paket zur Post.",
+              "lv": "Po e çoj pakon në postë."
+            },
+            {
+              "de": "Ich bringe die Kinder zur Schule.",
+              "lv": "Po i çoj fëmijët në shkollë."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "bringen",
+              "meaning": "sjell",
+              "example": "Ich bringe dir ein Buch. — Po të sjell një libër."
+            },
+            {
+              "word": "bringen",
+              "meaning": "çoj",
+              "example": "Ich bringe das Paket zur Post. — Po e çoj pakon në postë."
+            },
+            {
+              "word": "bringen",
+              "meaning": "çoj një person",
+              "example": "Ich bringe die Kinder zur Schule. — Po i çoj fëmijët në shkollë."
+            },
+            {
+              "word": "bringen",
+              "meaning": "sjell",
+              "example": "Ich bringe dir ein Buch. — Po të sjell një libër."
+            },
+            {
+              "word": "nehmen",
+              "meaning": "marr",
+              "example": "Ich nehme das Buch. — Po marr librin."
+            }
+          ],
+          "tip": {
+            "text": "Kur sendi shkon te një person ose vend tjetër → bringen."
+          },
+          "important": [
+            "nehmen = marr; bringen = sjell ose çoj."
+          ],
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {}
+            ],
+            "comparison": [
+              {},
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB095-0019",
+      "cardId": "da|idx:126",
+      "status": "LABOT",
+      "reason": "da: titulli ishte një fragment i paplotë dhe shembujt nuk dallonin da, hier, dort dhe dann.",
+      "new": {
+        "lv": "atje",
+        "study": {
+          "id": "a1-da",
+          "layout": "standardStudy",
+          "translation": "atje",
+          "explanation": [
+            "Ideja kryesore: da në nivelin A1 është fjalë e përgjithshme vendi dhe zakonisht do të thotë atje.",
+            "Sipas kontekstit mund të përkthehet edhe këtu; hier është këtu konkretisht dhe dort është atje më larg."
+          ],
+          "examples": [
+            {
+              "de": "Da ist mein Auto.",
+              "lv": "Atje është makina ime."
+            },
+            {
+              "de": "Ich war da.",
+              "lv": "Isha atje."
+            },
+            {
+              "de": "Da kommt er.",
+              "lv": "Ja ku po vjen ai."
+            },
+            {
+              "de": "Komm mal da her!",
+              "lv": "Eja këtu!"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "da",
+              "meaning": "atje ose këtu",
+              "example": "Da ist mein Auto. — Atje është makina ime."
+            },
+            {
+              "word": "hier",
+              "meaning": "këtu",
+              "example": "Hier ist mein Auto. — Këtu është makina ime."
+            },
+            {
+              "word": "dort",
+              "meaning": "atje",
+              "example": "Dort ist mein Auto. — Atje është makina ime."
+            },
+            {
+              "word": "dann",
+              "meaning": "pastaj",
+              "example": "Dann gehen wir nach Hause. — Pastaj po shkojmë në shtëpi."
+            }
+          ],
+          "tip": {
+            "text": "Fjalë e përgjithshme vendi → da."
+          },
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {},
+              {}
+            ],
+            "comparison": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          "accents": {
+            "blue": [
+              "da",
+              "Da"
+            ],
+            "purple": [
+              "atje",
+              "Atje"
+            ],
+            "green": [
+              "këtu",
+              "Këtu"
+            ],
+            "yellow": [
+              "hier"
+            ],
+            "red": [
+              "dort",
+              "dann"
+            ]
+          },
+          "important": [
+            "hier është këtu; dort është atje; dann do të thotë pastaj."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB095-0020",
+      "cardId": "ein|idx:154",
+      "status": "LABOT",
+      "reason": "ein: titulli përdorte termin e gabuar “artikull i paqartë” dhe shtonte kuptimin e pabazuar “dikush”.",
+      "new": {
+        "lv": "nyjë e pashquar",
+        "study": {
+          "id": "a1-ein",
+          "layout": "standardStudy",
+          "translation": "nyjë e pashquar",
+          "explanation": [
+            "Ideja kryesore: ein është nyja e pashquar për emra mashkullorë dhe asnjanës në emërore.",
+            "Për gjininë femërore përdoret eine; në kallëzoren mashkullore përdoret einen.",
+            "ein shpesh është vetëm nyjë dhe nuk përkthehet domosdoshmërisht me numrin një."
+          ],
+          "examples": [
+            {
+              "de": "Ein Mann wartet draußen.",
+              "lv": "Një burrë po pret jashtë."
+            },
+            {
+              "de": "Ich habe ein Buch.",
+              "lv": "Kam një libër."
+            },
+            {
+              "de": "Er sucht einen Stift.",
+              "lv": "Ai po kërkon një stilolaps."
+            },
+            {
+              "de": "Ein Kind spielt.",
+              "lv": "Një fëmijë po luan."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "ein Mann",
+              "meaning": "një burrë",
+              "example": "Ein Mann wartet draußen. — Një burrë po pret jashtë."
+            },
+            {
+              "word": "eine Frau",
+              "meaning": "një grua",
+              "example": "eine Frau — një grua"
+            },
+            {
+              "word": "ein Buch",
+              "meaning": "një libër",
+              "example": "Ich habe ein Buch. — Kam një libër."
+            },
+            {
+              "word": "einen Mann",
+              "meaning": "një burrë në kallëzore",
+              "example": "einen Mann — një burrë"
+            }
+          ],
+          "tip": {
+            "text": "ein nuk është gjithmonë numri “një”; shpesh është vetëm nyjë e pashquar."
+          },
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {},
+              {}
+            ],
+            "comparison": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          "important": [
+            "ein përdoret për mashkulloren dhe asnjanësen; eine për femëroren; einen për kallëzoren mashkullore."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB095-0021",
+      "cardId": "einmal|idx:700",
+      "status": "LABOT",
+      "reason": "einmal: titulli përsëriste të njëjtën frazë dhe studimi kishte formulime mekanike e jo të plota.",
+      "new": {
+        "lv": "një herë • dikur",
+        "study": {
+          "id": "a1-einmal",
+          "layout": "standardStudy",
+          "translation": "një herë • dikur",
+          "explanation": [
+            "Ideja kryesore: einmal tregon një ngjarje të vetme ose një kohë të papërcaktuar në të kaluarën.",
+            "Konteksti tregon nëse kuptimi është një herë ose dikur."
+          ],
+          "examples": [
+            {
+              "de": "Ich war einmal in Berlin.",
+              "lv": "Kam qenë një herë në Berlin."
+            },
+            {
+              "de": "Ich war einmal in Berlin.",
+              "lv": "Dikur kam qenë në Berlin."
+            }
+          ],
+          "tip": {
+            "text": "einmal = një herë ose dikur."
+          },
+          "important": [
+            "Përdore për një rast të vetëm ose për një kohë të pacaktuar në të kaluarën."
+          ],
+          "sectionAccents": {
+            "examples": [
+              {},
+              {}
+            ],
+            "comparison": []
+          },
+          "comparison": []
+        }
+      }
+    },
+    {
+      "auditId": "LRB095-0022",
+      "cardId": "Eis|idx:157",
+      "status": "LABOT",
+      "reason": "Eis: titulli përsëriste vetëm “akullore” dhe humbte kuptimin themelor “akull”.",
+      "new": {
+        "lv": "akull • akullore",
+        "study": {
+          "id": "a1-eis",
+          "layout": "standardStudy",
+          "translation": "akull • akullore",
+          "explanation": [
+            "Ideja kryesore: das Eis mund të thotë si akull, ashtu edhe akullore.",
+            "Për ujë të ngrirë do të thotë akull; si ushqim ose ëmbëlsirë do të thotë akullore.",
+            "Konteksti përcakton kuptimin."
+          ],
+          "examples": [
+            {
+              "de": "Ich esse ein Eis.",
+              "lv": "Po ha një akullore."
+            },
+            {
+              "de": "Möchtest du ein Eis?",
+              "lv": "A dëshiron një akullore?"
+            },
+            {
+              "de": "Im Winter liegt Eis auf dem See.",
+              "lv": "Në dimër ka akull mbi liqen."
+            },
+            {
+              "de": "Das Eis ist kalt.",
+              "lv": "Akulli është i ftohtë."
+            },
+            {
+              "de": "Ich nehme ein Eis mit Schokolade.",
+              "lv": "Po marr një akullore me çokollatë."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "das Eis",
+              "meaning": "akull ose akullore",
+              "example": "Ich esse ein Eis. — Po ha një akullore."
+            },
+            {
+              "word": "der Schnee",
+              "meaning": "borë",
+              "example": "Der Schnee ist weiß. — Bora është e bardhë."
+            },
+            {
+              "word": "kalt",
+              "meaning": "i ftohtë",
+              "example": "Das Wasser ist kalt. — Uji është i ftohtë."
+            },
+            {
+              "word": "das Dessert",
+              "meaning": "ëmbëlsirë",
+              "example": "Eis ist ein Dessert. — Akullorja është një ëmbëlsirë."
+            }
+          ],
+          "tip": {
+            "text": "Ushqim → akullore; ujë i ngrirë → akull."
+          },
+          "important": [
+            "Në gjermanisht të dy kuptimet përdorin das Eis."
+          ],
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {},
+              {},
+              {}
+            ],
+            "comparison": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB095-0023",
+      "cardId": "erst|idx:165",
+      "status": "LABOT",
+      "reason": "erst: titulli ishte afër, por karta e plotë nuk dallonte përdorimin kohor nga zuerst dhe nur.",
+      "new": {
+        "lv": "vetëm • fillimisht",
+        "study": {
+          "id": "a1-erst",
+          "layout": "standardStudy",
+          "translation": "vetëm • fillimisht",
+          "explanation": [
+            "Ideja kryesore: erst shpesh do të thotë vetëm, sidomos për kohë ose moshë; në rend veprimesh do të thotë fillimisht.",
+            "erst mund të tregojë se diçka ndodh më vonë nga sa pritej."
+          ],
+          "examples": [
+            {
+              "de": "Erst lernen, dann spielen.",
+              "lv": "Fillimisht mëso, pastaj luaj."
+            },
+            {
+              "de": "Ich komme erst morgen.",
+              "lv": "Po vij vetëm nesër."
+            },
+            {
+              "de": "Er ist erst 18 Jahre alt.",
+              "lv": "Ai është vetëm 18 vjeç."
+            },
+            {
+              "de": "Wir essen erst um acht Uhr.",
+              "lv": "Do të hamë vetëm në orën tetë."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "erst",
+              "meaning": "vetëm ose fillimisht",
+              "example": "Erst lernen, dann spielen. — Fillimisht mëso, pastaj luaj."
+            },
+            {
+              "word": "zuerst",
+              "meaning": "së pari",
+              "example": "Zuerst frühstücken wir. — Së pari hamë mëngjes."
+            },
+            {
+              "word": "nur",
+              "meaning": "vetëm për sasi",
+              "example": "Ich habe nur 5 Euro. — Kam vetëm pesë euro."
+            },
+            {
+              "word": "dann",
+              "meaning": "pastaj",
+              "example": "Dann gehen wir nach Hause. — Pastaj po shkojmë në shtëpi."
+            }
+          ],
+          "tip": {
+            "text": "Kohë ose moshë → erst; sasi → nur."
+          },
+          "accents": {
+            "blue": [
+              "erst",
+              "Erst"
+            ],
+            "green": [
+              "zuerst",
+              "Zuerst"
+            ],
+            "yellow": [
+              "nur"
+            ],
+            "red": [
+              "dann",
+              "Dann"
+            ]
+          },
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {},
+              {}
+            ],
+            "comparison": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          "important": [
+            "erst dhe zuerst nuk janë sinonime të plota."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB095-0024",
+      "cardId": "es|idx:167",
+      "status": "LABOT",
+      "reason": "es: titulli ishte i pakuptimtë dhe studimi ngatërronte përemrin gjerman me forma të tjera personale.",
+      "new": {
+        "lv": "përemër asnjanës • formë jopersonale",
+        "study": {
+          "id": "a1-es",
+          "layout": "standardStudy",
+          "translation": "përemër asnjanës • formë jopersonale",
+          "explanation": [
+            "Ideja kryesore: es është përemër asnjanës dhe përdoret edhe në ndërtime jopersonale.",
+            "Në fjali si Es regnet shpesh nuk përkthehet veçmas; për një emër asnjanës mund të përkthehet sipas kontekstit.",
+            "Mos e ngatërro me shqipen “unë”, që në gjermanisht është ich."
+          ],
+          "examples": [
+            {
+              "de": "Es regnet.",
+              "lv": "Po bie shi."
+            },
+            {
+              "de": "Es ist kalt.",
+              "lv": "Është ftohtë."
+            },
+            {
+              "de": "Das Kind schläft.",
+              "lv": "Fëmija po fle."
+            },
+            {
+              "de": "Es ist müde.",
+              "lv": "Është i lodhur."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "es",
+              "meaning": "përemër asnjanës ose formë jopersonale",
+              "example": "Es regnet. — Po bie shi."
+            },
+            {
+              "word": "ich",
+              "meaning": "unë",
+              "example": "Ich lerne Deutsch. — Po mësoj gjermanisht."
+            }
+          ],
+          "info": [
+            "Shqipja “unë” = gjermanisht ich",
+            "Gjermanishtja es = përemër asnjanës ose formë jopersonale"
+          ],
+          "tip": {
+            "text": "Shqipja “unë” = ich, jo es."
+          },
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {},
+              {}
+            ],
+            "comparison": [
+              {},
+              {}
+            ]
+          },
+          "important": [
+            "es dhe ich nuk janë e njëjta gjë."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB095-0025",
+      "cardId": "Essen|idx:691",
+      "status": "LABOT",
+      "reason": "Essen: titulli ishte turqisht dhe studimi ngatërronte emrin das Essen me foljen essen.",
+      "new": {
+        "lv": "ushqim • vakt",
+        "study": {
+          "id": "a1-essen-study",
+          "layout": "standardStudy",
+          "translation": "ushqim • vakt",
+          "explanation": [
+            "Ideja kryesore: das Essen është emër dhe do të thotë ushqim ose vakt.",
+            "Folja essen me shkronjë të vogël do të thotë ha."
+          ],
+          "examples": [
+            {
+              "de": "Das Essen schmeckt gut.",
+              "lv": "Ushqimi ka shije të mirë."
+            },
+            {
+              "de": "Was wollt ihr essen?",
+              "lv": "Çfarë doni të hani?"
+            },
+            {
+              "de": "Wir essen um 12 Uhr.",
+              "lv": "Ne hamë në orën dymbëdhjetë."
+            },
+            {
+              "de": "Das Essen ist fertig.",
+              "lv": "Ushqimi është gati."
+            },
+            {
+              "de": "Das Essen schmeckt sehr gut.",
+              "lv": "Ushqimi është shumë i shijshëm."
+            },
+            {
+              "de": "Das Essen schmeckt gut.",
+              "lv": "Ushqimi është i shijshëm."
+            }
+          ],
+          "tip": {
+            "text": "das Essen = ushqim ose vakt; essen = ha."
+          },
+          "important": [
+            "essen është folje pa nyjë; das Essen është emër."
+          ],
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {},
+              {},
+              {},
+              {}
+            ],
+            "comparison": []
+          },
+          "comparison": []
+        }
+      }
+    },
+    {
+      "auditId": "LRB095-0026",
+      "cardId": "etwas|idx:169",
+      "status": "LABOT",
+      "reason": "etwas: karta përdorte përkthime të panatyrshme dhe nuk ndante qartë kuptimin “diçka” nga kuptimi “pak”.",
+      "new": {
+        "lv": "diçka • pak",
+        "study": {
+          "id": "a1-etwas",
+          "layout": "standardStudy",
+          "translation": "diçka • pak",
+          "explanation": [
+            "Ideja kryesore: etwas do të thotë diçka kur zëvendëson një send ose çështje të papërcaktuar.",
+            "Para një mbiemri ose për një shkallë të vogël shpesh do të thotë pak."
+          ],
+          "examples": [
+            {
+              "de": "Ich möchte etwas trinken.",
+              "lv": "Dua të pi diçka."
+            },
+            {
+              "de": "Hast du etwas Zeit?",
+              "lv": "A ke pak kohë?"
+            },
+            {
+              "de": "Ich bin etwas müde.",
+              "lv": "Jam pak i lodhur."
+            },
+            {
+              "de": "Ich habe etwas für dich.",
+              "lv": "Kam diçka për ty."
+            },
+            {
+              "de": "Das ist etwas teuer.",
+              "lv": "Kjo është pak e shtrenjtë."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "etwas",
+              "meaning": "diçka ose pak",
+              "example": "Ich brauche etwas. — Më duhet diçka."
+            },
+            {
+              "word": "was",
+              "meaning": "diçka në të folur",
+              "example": "Willst du was trinken? — A do të pish diçka?"
+            },
+            {
+              "word": "ein bisschen",
+              "meaning": "pak",
+              "example": "Ich bin ein bisschen müde. — Jam pak i lodhur."
+            },
+            {
+              "word": "nichts",
+              "meaning": "asgjë",
+              "example": "Ich brauche nichts. — Nuk më duhet asgjë."
+            }
+          ],
+          "tip": {
+            "text": "Send i papërcaktuar → diçka; shkallë e vogël → pak."
+          },
+          "important": [
+            "Kuptimin e saktë e tregon konteksti."
+          ],
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {},
+              {},
+              {}
+            ],
+            "comparison": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB095-0027",
+      "cardId": "euch|idx:170",
+      "status": "LABOT",
+      "reason": "euch: karta ngatërronte rolet gramatikore dhe përmbante formulime jo të sakta në shqip.",
+      "new": {
+        "lv": "ju • juve",
+        "study": {
+          "id": "a1-euch",
+          "layout": "standardStudy",
+          "translation": "ju • juve",
+          "explanation": [
+            "Ideja kryesore: euch është forma e përemrit ihr në kallëzore dhe dhanore.",
+            "Në shqip zakonisht jepet me ju ose juve, sipas ndërtimit të fjalisë."
+          ],
+          "examples": [
+            {
+              "de": "Ich sehe euch.",
+              "lv": "Ju shoh."
+            },
+            {
+              "de": "Ich helfe euch.",
+              "lv": "Ju ndihmoj."
+            },
+            {
+              "de": "Ich gebe euch das Buch.",
+              "lv": "Jua jap librin."
+            },
+            {
+              "de": "Ich danke euch.",
+              "lv": "Ju falënderoj."
+            },
+            {
+              "de": "Ihr erinnert euch.",
+              "lv": "Ju kujtoheni."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "ihr",
+              "meaning": "ju si kryefjalë",
+              "example": "Ihr seid freundlich. — Ju jeni miqësorë."
+            },
+            {
+              "word": "euch",
+              "meaning": "ju ose juve si kundrinor",
+              "example": "Ich helfe euch. — Ju ndihmoj."
+            },
+            {
+              "word": "euer",
+              "meaning": "juaji ose juaja",
+              "example": "Das ist euer Haus. — Kjo është shtëpia juaj."
+            }
+          ],
+          "info": [
+            "ihr = ju si kryefjalë",
+            "euch = ju ose juve si kundrinor",
+            "euer = juaji ose juaja"
+          ],
+          "tip": {
+            "text": "Kryefjalë → ihr; kundrinor → euch."
+          },
+          "accents": {
+            "blue": [
+              "ihr"
+            ],
+            "yellow": [
+              "euch"
+            ],
+            "green": [
+              "euer"
+            ]
+          },
+          "important": [
+            "euch përdoret si kallëzore ose dhanore."
+          ],
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {},
+              {},
+              {}
+            ],
+            "comparison": [
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB095-0028",
+      "cardId": "fahren|idx:172",
+      "status": "LABOT",
+      "reason": "fahren: titulli humbte kuptimin “çoj dikë”, ndërsa krahasimet nuk dallonin mënyrën e lëvizjes.",
+      "new": {
+        "lv": "udhëtoj • ngas • çoj",
+        "study": {
+          "id": "a1-fahren",
+          "layout": "standardStudy",
+          "translation": "udhëtoj • ngas • çoj",
+          "explanation": [
+            "Ideja kryesore: fahren do të thotë udhëtoj me mjet, ngas një mjet ose çoj dikë me mjet.",
+            "Kuptimi varet nga fakti nëse kryefjala udhëton, drejton apo transporton dikë."
+          ],
+          "examples": [
+            {
+              "de": "Ich fahre nach Berlin.",
+              "lv": "Po udhëtoj për në Berlin."
+            },
+            {
+              "de": "Ich fahre mit dem Auto.",
+              "lv": "Po udhëtoj me makinë."
+            },
+            {
+              "de": "Ich fahre meine Tochter zur Schule.",
+              "lv": "Po e çoj vajzën time në shkollë."
+            },
+            {
+              "de": "Ich fahre dich nach Hause.",
+              "lv": "Po të çoj në shtëpi."
+            },
+            {
+              "de": "Wir fahren morgen nach München.",
+              "lv": "Nesër udhëtojmë për në Mynih."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "fahren",
+              "meaning": "udhëtoj ose ngas",
+              "example": "Ich fahre mit dem Bus. — Po udhëtoj me autobus."
+            },
+            {
+              "word": "gehen",
+              "meaning": "shkoj në këmbë",
+              "example": "Ich gehe nach Hause. — Po shkoj në shtëpi."
+            },
+            {
+              "word": "laufen",
+              "meaning": "vrapoj ose eci",
+              "example": "Er läuft schnell. — Ai vrapon shpejt."
+            },
+            {
+              "word": "bringen",
+              "meaning": "sjell",
+              "example": "Ich bringe das Buch. — Po ta sjell librin."
+            },
+            {
+              "word": "mitnehmen",
+              "meaning": "marr me vete",
+              "example": "Ich nehme dich mit. — Po të marr me vete."
+            }
+          ],
+          "tip": {
+            "text": "Me mjet → fahren; në këmbë → gehen."
+          },
+          "important": [
+            "fahren mund të jetë jokalimtare ose kalimtare."
+          ],
+          "accents": {
+            "blue": [
+              "fahren",
+              "fahre"
+            ],
+            "purple": [
+              "udhëtoj",
+              "ngas",
+              "çoj"
+            ],
+            "green": [
+              "mjet",
+              "makinë",
+              "autobus",
+              "tren",
+              "biçikletë"
+            ],
+            "yellow": [
+              "gehen",
+              "laufen"
+            ],
+            "red": [
+              "bringen",
+              "mitnehmen"
+            ]
+          },
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {},
+              {},
+              {}
+            ],
+            "comparison": [
+              {},
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB095-0029",
+      "cardId": "Ferien|idx:694",
+      "status": "LABOT",
+      "reason": "Ferien: karta nuk dallonte pushimet shkollore nga Urlaub dhe kishte përsëritje të papërpunuara.",
+      "new": {
+        "lv": "pushime shkollore",
+        "study": {
+          "id": "a1-ferien",
+          "layout": "standardStudy",
+          "translation": "pushime shkollore",
+          "explanation": [
+            "Ideja kryesore: die Ferien janë pushimet kur shkolla është e mbyllur.",
+            "Për pushimin e një punonjësi përdoret zakonisht der Urlaub."
+          ],
+          "examples": [
+            {
+              "de": "In den Ferien fahren wir ans Meer.",
+              "lv": "Gjatë pushimeve shkojmë në det."
+            },
+            {
+              "de": "In den Ferien habe ich viel Zeit.",
+              "lv": "Gjatë pushimeve kam shumë kohë."
+            },
+            {
+              "de": "Was macht ihr in den Ferien?",
+              "lv": "Çfarë bëni gjatë pushimeve?"
+            },
+            {
+              "de": "Die Schule ist in den Ferien zu.",
+              "lv": "Shkolla është e mbyllur gjatë pushimeve."
+            },
+            {
+              "de": "In den Ferien fahren wir ans Meer.",
+              "lv": "Gjatë pushimeve shkojmë në det."
+            },
+            {
+              "de": "In den Ferien",
+              "lv": "gjatë pushimeve"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "die Ferien",
+              "meaning": "pushime shkollore",
+              "example": "In den Ferien fahren wir weg. — Gjatë pushimeve udhëtojmë diku."
+            },
+            {
+              "word": "der Urlaub",
+              "meaning": "pushime nga puna",
+              "example": "Ich habe zwei Wochen Urlaub. — Kam dy javë pushime nga puna."
+            }
+          ],
+          "tip": {
+            "text": "Shkollë → Ferien; punë → Urlaub."
+          },
+          "important": [
+            "Ferien përdoret zakonisht në shumës."
+          ],
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {},
+              {},
+              {},
+              {}
+            ],
+            "comparison": [
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB095-0030",
+      "cardId": "finden|idx:187",
+      "status": "LABOT",
+      "reason": "finden: karta kishte një shembull dhe tri krahasime që nuk ekzistojnë në DE etalon, si edhe kuptime të përziera.",
+      "new": {
+        "lv": "gjej • mendoj",
+        "study": {
+          "id": "a1-finden",
+          "layout": "standardStudy",
+          "translation": "gjej • mendoj",
+          "explanation": [
+            "Ideja kryesore: finden do të thotë gjej kur zbuloj diçka dhe mendoj kur jap një vlerësim.",
+            "Pyetja Wie findest du ...? kërkon mendimin e dikujt."
+          ],
+          "examples": [
+            {
+              "de": "Ich finde meinen Schlüssel.",
+              "lv": "E gjej çelësin tim."
+            },
+            {
+              "de": "Ich finde das gut.",
+              "lv": "Mendoj se kjo është mirë."
+            },
+            {
+              "de": "Wie findest du den Film?",
+              "lv": "Çfarë mendon për filmin?"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "finden",
+              "meaning": "gjej ose mendoj",
+              "example": "Ich finde das gut. — Mendoj se kjo është mirë."
+            }
+          ],
+          "tip": {
+            "text": "Send → gjej; vlerësim → mendoj."
+          },
+          "important": [
+            "Mos e ngatërro finden me suchen, që do të thotë kërkoj."
+          ],
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {}
+            ],
+            "comparison": [
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB095-0031",
+      "cardId": "Frau|idx:198",
+      "status": "LABOT",
+      "reason": "Frau: karta përdorte një titull të ngushtë dhe nuk shpjegonte rolin e përcaktorit pronor.",
+      "new": {
+        "lv": "grua • bashkëshorte",
+        "study": {
+          "id": "a1-frau",
+          "layout": "standardStudy",
+          "translation": "grua • bashkëshorte",
+          "explanation": [
+            "Ideja kryesore: die Frau do të thotë grua; me një përcaktor pronor mund të thotë bashkëshorte.",
+            "Si formë mirësjelljeje para mbiemrit përdoret edhe për zonjë."
+          ],
+          "examples": [
+            {
+              "de": "Sie ist eine nette Frau.",
+              "lv": "Ajo është një grua e sjellshme."
+            },
+            {
+              "de": "Das ist meine Frau.",
+              "lv": "Kjo është bashkëshortja ime."
+            },
+            {
+              "de": "Wie viele Frauen sind hier?",
+              "lv": "Sa gra janë këtu?"
+            },
+            {
+              "de": "Meine Frau arbeitet in Berlin.",
+              "lv": "Bashkëshortja ime punon në Berlin."
+            },
+            {
+              "de": "Die Frau trägt ein Kleid.",
+              "lv": "Gruaja ka veshur një fustan."
+            },
+            {
+              "de": "Seine Frau ist Ärztin.",
+              "lv": "Bashkëshortja e tij është mjeke."
+            }
+          ],
+          "tip": {
+            "text": "meine Frau = bashkëshortja ime."
+          },
+          "important": [
+            "Konteksti dallon gruan në përgjithësi nga bashkëshortja."
+          ],
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {},
+              {},
+              {},
+              {}
+            ],
+            "comparison": []
+          },
+          "comparison": []
+        }
+      }
+    },
+    {
+      "auditId": "LRB095-0032",
+      "cardId": "für|idx:216",
+      "status": "LABOT",
+      "reason": "für: karta kishte shpjegim të paqartë dhe shembuj me zgjedhje jo të njëtrajtshme në shqip.",
+      "new": {
+        "lv": "për",
+        "study": {
+          "id": "a1-fuer",
+          "layout": "standardStudy",
+          "translation": "për",
+          "explanation": [
+            "Ideja kryesore: für tregon përfituesin, qëllimin, shkëmbimin ose periudhën dhe kërkon kallëzoren.",
+            "Në shqip zakonisht përkthehet për."
+          ],
+          "examples": [
+            {
+              "de": "Das ist für dich.",
+              "lv": "Kjo është për ty."
+            },
+            {
+              "de": "Danke für die Hilfe.",
+              "lv": "Faleminderit për ndihmën."
+            },
+            {
+              "de": "Ich kaufe ein Geschenk für meine Mutter.",
+              "lv": "Po blej një dhuratë për nënën time."
+            },
+            {
+              "de": "Was bezahlst du für das Auto?",
+              "lv": "Sa paguan për makinën?"
+            },
+            {
+              "de": "Das Buch ist für Kinder.",
+              "lv": "Libri është për fëmijë."
+            },
+            {
+              "de": "Für heute ist das genug.",
+              "lv": "Për sot mjafton."
+            }
+          ],
+          "tip": {
+            "text": "für + kallëzore."
+          },
+          "important": [
+            "Përdore për përfitues, qëllim ose shkëmbim."
+          ],
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {},
+              {},
+              {},
+              {}
+            ],
+            "comparison": []
+          },
+          "comparison": []
+        }
+      }
+    },
+    {
+      "auditId": "LRB095-0033",
+      "cardId": "Fußball|idx:218",
+      "status": "LABOT",
+      "reason": "Fußball: karta nuk dallonte qartë sportin nga objekti dhe përdorte formulime të paplota.",
+      "new": {
+        "lv": "futboll • top futbolli",
+        "study": {
+          "id": "a1-fussball-study",
+          "layout": "standardStudy",
+          "translation": "futboll • top futbolli",
+          "explanation": [
+            "Ideja kryesore: Fußball pa nyjë mund të jetë sporti; der Fußball mund të jetë topi.",
+            "Konteksti dhe nyja tregojnë kuptimin."
+          ],
+          "examples": [
+            {
+              "de": "Ich spiele Fußball.",
+              "lv": "Luaj futboll."
+            },
+            {
+              "de": "Der Fußball liegt im Garten.",
+              "lv": "Topi i futbollit është në kopsht."
+            },
+            {
+              "de": "Wir kaufen zwei Fußbälle.",
+              "lv": "Po blejmë dy topa futbolli."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "Fußball",
+              "meaning": "sporti futboll",
+              "example": "Ich spiele Fußball. — Luaj futboll."
+            },
+            {
+              "word": "der Fußball",
+              "meaning": "top futbolli",
+              "example": "Der Fußball ist neu. — Topi i futbollit është i ri."
+            }
+          ],
+          "tip": {
+            "text": "Pa nyjë shpesh sport; me der shpesh top."
+          },
+          "important": [
+            "Shumësi Fußbälle u referohet topave."
+          ],
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {}
+            ],
+            "comparison": [
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB095-0034",
+      "cardId": "ganz|idx:219",
+      "status": "LABOT",
+      "reason": "ganz: karta barazonte përdorimin mbiemëror me alles dhe nuk shpjegonte nuancën ndajfoljore.",
+      "new": {
+        "lv": "i tërë • plotësisht",
+        "study": {
+          "id": "a1-ganz-study",
+          "layout": "standardStudy",
+          "translation": "i tërë • plotësisht",
+          "explanation": [
+            "Ideja kryesore: ganz do të thotë i tërë pranë një emri dhe plotësisht si ndajfolje.",
+            "Në disa shprehje mund të zbusë mbiemrin dhe të ketë kuptimin mjaft."
+          ],
+          "examples": [
+            {
+              "de": "Ich arbeite den ganzen Tag.",
+              "lv": "Punoj tërë ditën."
+            },
+            {
+              "de": "Das ganze Haus ist sauber.",
+              "lv": "E tërë shtëpia është e pastër."
+            },
+            {
+              "de": "Das ist ganz sicher.",
+              "lv": "Kjo është plotësisht e sigurt."
+            },
+            {
+              "de": "Das Essen ist ganz gut.",
+              "lv": "Ushqimi është mjaft i mirë."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "ganz",
+              "meaning": "i tërë ose plotësisht",
+              "example": "der ganze Tag — tërë dita"
+            },
+            {
+              "word": "alles",
+              "meaning": "gjithçka",
+              "example": "Alles ist gut. — Gjithçka është mirë."
+            }
+          ],
+          "tip": {
+            "text": "Me emër → i tërë; me mbiemër → plotësisht ose mjaft."
+          },
+          "important": [
+            "ganz nuk është e njëjta gjë me alles."
+          ],
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {},
+              {}
+            ],
+            "comparison": [
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB095-0035",
+      "cardId": "geben|idx:223",
+      "status": "LABOT",
+      "reason": "geben: karta kishte përkthime të përziera dhe nuk ruante dallimin mes jap, marr dhe marr si përfitues.",
+      "new": {
+        "lv": "jap",
+        "study": {
+          "id": "a1-geben",
+          "layout": "standardStudy",
+          "translation": "jap",
+          "explanation": [
+            "Ideja kryesore: geben do të thotë jap dhe zakonisht lidhet me marrësin në dhanore dhe sendin në kallëzore.",
+            "Mos e ngatërro me nehmen ose bekommen."
+          ],
+          "examples": [
+            {
+              "de": "Gib mir bitte das Buch.",
+              "lv": "Ma jep librin, të lutem."
+            },
+            {
+              "de": "Ich gebe dir meine Nummer.",
+              "lv": "Po ta jap numrin tim."
+            },
+            {
+              "de": "Ich nehme das Buch.",
+              "lv": "Po e marr librin."
+            },
+            {
+              "de": "Ich bekomme ein Geschenk.",
+              "lv": "Po marr një dhuratë."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "geben",
+              "meaning": "jap",
+              "example": "Gib mir das Buch. — Ma jep librin."
+            },
+            {
+              "word": "nehmen",
+              "meaning": "marr",
+              "example": "Ich nehme das Buch. — Po e marr librin."
+            },
+            {
+              "word": "bekommen",
+              "meaning": "marr ose më jepet",
+              "example": "Ich bekomme ein Geschenk. — Po marr një dhuratë."
+            },
+            {
+              "word": "bringen",
+              "meaning": "sjell",
+              "example": "Ich bringe dir das Buch. — Po ta sjell librin."
+            }
+          ],
+          "tip": {
+            "text": "Nga unë te ti → geben."
+          },
+          "important": [
+            "nehmen është marr; bekommen është marr ose më jepet."
+          ],
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {},
+              {}
+            ],
+            "comparison": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB095-0036",
+      "cardId": "gefallen|idx:225",
+      "status": "LABOT",
+      "reason": "gefallen: karta nuk shpjegonte ndërtimin e kundërt ndaj shqipes dhe përmbante formulime gramatikisht të pasakta.",
+      "new": {
+        "lv": "më pëlqen",
+        "study": {
+          "id": "a1-gefallen-study",
+          "layout": "standardStudy",
+          "translation": "më pëlqen",
+          "explanation": [
+            "Ideja kryesore: gefallen ndërtohet me sendin si kryefjalë dhe personin në dhanore.",
+            "Në shqip zakonisht përkthehet me më pëlqen, të pëlqen ose na pëlqen."
+          ],
+          "examples": [
+            {
+              "de": "Das gefällt mir.",
+              "lv": "Kjo më pëlqen."
+            },
+            {
+              "de": "Gefällt dir das Kleid?",
+              "lv": "A të pëlqen fustani?"
+            },
+            {
+              "de": "Der Film gefällt uns.",
+              "lv": "Filmi na pëlqen."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "gefallen",
+              "meaning": "më pëlqen",
+              "example": "Das gefällt mir. — Kjo më pëlqen."
+            },
+            {
+              "word": "mögen",
+              "meaning": "pëlqej",
+              "example": "Ich mag das. — Kjo më pëlqen."
+            }
+          ],
+          "tip": {
+            "text": "Sendi gefällt personit."
+          },
+          "important": [
+            "Personi shprehet me mir, dir, uns dhe forma të tjera dhanore."
+          ],
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {}
+            ],
+            "comparison": [
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB095-0037",
+      "cardId": "Gemüse|idx:692",
+      "status": "LABOT",
+      "reason": "Gemüse: karta kishte titull dhe shpjegime të përziera, pa sqaruar përdorimin kolektiv.",
+      "new": {
+        "lv": "perime",
+        "study": {
+          "id": "a1-gemuese",
+          "layout": "standardStudy",
+          "translation": "perime",
+          "explanation": [
+            "Ideja kryesore: das Gemüse është emër kolektiv për perimet dhe zakonisht përdoret pa shumës në gjermanisht."
+          ],
+          "examples": [
+            {
+              "de": "Ich esse gern Gemüse.",
+              "lv": "Më pëlqen të ha perime."
+            },
+            {
+              "de": "Ich esse gern Gemüse.",
+              "lv": "Më pëlqen të ha perime."
+            },
+            {
+              "de": "Das Gemüse ist frisch.",
+              "lv": "Perimet janë të freskëta."
+            },
+            {
+              "de": "Wir kaufen Gemüse auf dem Markt.",
+              "lv": "Blejmë perime në treg."
+            },
+            {
+              "de": "Ich mag Obst und Gemüse.",
+              "lv": "Më pëlqejnë frutat dhe perimet."
+            },
+            {
+              "de": "Ich esse Gemüse.",
+              "lv": "Ha perime."
+            }
+          ],
+          "tip": {
+            "text": "Gemüse është emër kolektiv."
+          },
+          "important": [
+            "Në shqip përkthehet natyrshëm me shumësin perime."
+          ],
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {},
+              {},
+              {},
+              {}
+            ],
+            "comparison": []
+          },
+          "comparison": []
+        }
+      }
+    },
+    {
+      "auditId": "LRB095-0038",
+      "cardId": "Geschichte|idx:233",
+      "status": "LABOT",
+      "reason": "Geschichte: karta nuk ndante dy kuptimet kryesore dhe përdorte terma jo të njëtrajtshëm.",
+      "new": {
+        "lv": "tregim • histori",
+        "study": {
+          "id": "a1-geschichte-study",
+          "layout": "standardStudy",
+          "translation": "tregim • histori",
+          "explanation": [
+            "Ideja kryesore: die Geschichte do të thotë tregim kur rrëfehet një ngjarje dhe histori kur flitet për të kaluarën.",
+            "Konteksti dallon rrëfimin nga lënda ose zhvillimi historik."
+          ],
+          "examples": [
+            {
+              "de": "Er erzählt eine Geschichte.",
+              "lv": "Ai tregon një tregim."
+            },
+            {
+              "de": "Ich lerne Geschichte.",
+              "lv": "Po mësoj histori."
+            },
+            {
+              "de": "Das ist die Geschichte Deutschlands.",
+              "lv": "Kjo është historia e Gjermanisë."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "eine Geschichte",
+              "meaning": "një tregim",
+              "example": "eine interessante Geschichte — një tregim interesant"
+            },
+            {
+              "word": "Geschichte",
+              "meaning": "histori",
+              "example": "Geschichte lernen — të mësosh histori"
+            }
+          ],
+          "tip": {
+            "text": "Rrëfim → tregim; e kaluara → histori."
+          },
+          "important": [
+            "Të dy kuptimet kanë të njëjtën formë gjermane."
+          ],
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {}
+            ],
+            "comparison": [
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB095-0039",
+      "cardId": "Geschwister|idx:234",
+      "status": "LABOT",
+      "reason": "Geschwister: karta përdorte një huazim të gabuar dhe nuk shpjegonte se termi gjerman është gjithëpërfshirës.",
+      "new": {
+        "lv": "vëllezër dhe motra",
+        "study": {
+          "id": "a1-geschwister-study",
+          "layout": "standardStudy",
+          "translation": "vëllezër dhe motra",
+          "explanation": [
+            "Ideja kryesore: Geschwister është termi i përbashkët për vëllezërit dhe motrat.",
+            "Në gjermanisht përdoret në shumës dhe nuk tregon gjininë e secilit person."
+          ],
+          "examples": [
+            {
+              "de": "Ich habe zwei Geschwister.",
+              "lv": "Kam dy vëllezër ose motra."
+            },
+            {
+              "de": "Meine Geschwister wohnen in Berlin.",
+              "lv": "Vëllezërit dhe motrat e mia banojnë në Berlin."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "Geschwister",
+              "meaning": "vëllezër dhe motra",
+              "example": "Meine Geschwister — vëllezërit dhe motrat e mia"
+            },
+            {
+              "word": "Bruder",
+              "meaning": "vëlla",
+              "example": "mein Bruder — vëllai im"
+            },
+            {
+              "word": "Schwester",
+              "meaning": "motër",
+              "example": "meine Schwester — motra ime"
+            }
+          ],
+          "tip": {
+            "text": "Geschwister përfshin vëllezër dhe motra."
+          },
+          "important": [
+            "Bruder është vëlla; Schwester është motër."
+          ],
+          "sectionAccents": {
+            "examples": [
+              {},
+              {}
+            ],
+            "comparison": [
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB095-0040",
+      "cardId": "gleich|idx:243",
+      "status": "LABOT",
+      "reason": "gleich: karta përziente kuptimin kohor me barazinë dhe kishte përkthime jo të natyrshme.",
+      "new": {
+        "lv": "menjëherë • i njëjtë",
+        "study": {
+          "id": "a1-gleich",
+          "layout": "standardStudy",
+          "translation": "menjëherë • i njëjtë",
+          "explanation": [
+            "Ideja kryesore: gleich do të thotë menjëherë kur lidhet me kohën dhe i njëjtë kur krahason sende ose masa.",
+            "Konteksti përcakton nëse fjala është ndajfolje kohe apo mbiemër."
+          ],
+          "examples": [
+            {
+              "de": "Ich komme gleich.",
+              "lv": "Po vij menjëherë."
+            },
+            {
+              "de": "Wir haben die gleiche Farbe.",
+              "lv": "Kemi të njëjtën ngjyrë."
+            },
+            {
+              "de": "Das Essen ist gleich fertig.",
+              "lv": "Ushqimi është gati së shpejti."
+            },
+            {
+              "de": "Beide Wege sind gleich lang.",
+              "lv": "Të dyja rrugët janë njësoj të gjata."
+            },
+            {
+              "de": "Bis gleich!",
+              "lv": "Shihemi së shpejti!"
+            },
+            {
+              "de": "Sie sind gleich groß.",
+              "lv": "Ata janë njësoj të gjatë."
+            }
+          ],
+          "tip": {
+            "text": "Kohë → menjëherë ose së shpejti; krahasim → i njëjtë ose njësoj."
+          },
+          "important": [
+            "Mos e përkthe automatikisht me vetëm një fjalë."
+          ],
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {},
+              {},
+              {},
+              {}
+            ],
+            "comparison": []
+          },
+          "comparison": []
+        }
+      }
+    },
+    {
+      "auditId": "LRB095-0041",
+      "cardId": "groß|idx:250",
+      "status": "LABOT",
+      "reason": "groß: karta përdorte një ekuivalent të vetëm dhe nuk dallonte madhësinë nga gjatësia e personit.",
+      "new": {
+        "lv": "i madh • i gjatë",
+        "study": {
+          "id": "a1-gross-study",
+          "layout": "standardStudy",
+          "translation": "i madh • i gjatë",
+          "explanation": [
+            "Ideja kryesore: groß do të thotë i madh për përmasa dhe i gjatë për gjatësinë e një personi.",
+            "Forma përshtatet me emrin në gjermanisht."
+          ],
+          "examples": [
+            {
+              "de": "Das Haus ist groß.",
+              "lv": "Shtëpia është e madhe."
+            },
+            {
+              "de": "Berlin ist eine große Stadt.",
+              "lv": "Berlini është një qytet i madh."
+            },
+            {
+              "de": "Er ist groß.",
+              "lv": "Ai është i gjatë."
+            },
+            {
+              "de": "Das Zimmer ist groß.",
+              "lv": "Dhoma është e madhe."
+            }
+          ],
+          "tip": {
+            "text": "Send ose vend → i madh; person → i gjatë."
+          },
+          "important": [
+            "Konteksti përcakton përkthimin shqip."
+          ],
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {},
+              {}
+            ],
+            "comparison": []
+          },
+          "comparison": []
+        }
+      }
+    },
+    {
+      "auditId": "LRB095-0042",
+      "cardId": "Großeltern|idx:251",
+      "status": "LABOT",
+      "reason": "Großeltern: karta kishte një titull të huaj dhe nuk ruante dallimin mes grupit dhe secilit gjysh veçmas.",
+      "new": {
+        "lv": "gjyshërit",
+        "study": {
+          "id": "a1-grosseltern-study",
+          "layout": "standardStudy",
+          "translation": "gjyshërit",
+          "explanation": [
+            "Ideja kryesore: die Großeltern do të thotë gjyshërit, pra gjyshja dhe gjyshi si grup.",
+            "Fjala përdoret në shumës."
+          ],
+          "examples": [
+            {
+              "de": "Meine Großeltern wohnen auf dem Land.",
+              "lv": "Gjyshërit e mi banojnë në fshat."
+            },
+            {
+              "de": "Ich besuche meine Großeltern.",
+              "lv": "Po vizitoj gjyshërit e mi."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "Großeltern",
+              "meaning": "gjyshërit",
+              "example": "meine Großeltern — gjyshërit e mi"
+            },
+            {
+              "word": "Großmutter",
+              "meaning": "gjyshe",
+              "example": "meine Großmutter — gjyshja ime"
+            },
+            {
+              "word": "Großvater",
+              "meaning": "gjysh",
+              "example": "mein Großvater — gjyshi im"
+            }
+          ],
+          "tip": {
+            "text": "Großeltern = gjyshërit."
+          },
+          "important": [
+            "Großmutter është gjyshe; Großvater është gjysh."
+          ],
+          "sectionAccents": {
+            "examples": [
+              {},
+              {}
+            ],
+            "comparison": [
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB095-0043",
+      "cardId": "gut|idx:259",
+      "status": "LABOT",
+      "reason": "gut: karta nuk dallonte mbiemrin nga ndajfolja dhe kishte mospërputhje në shembuj.",
+      "new": {
+        "lv": "i mirë • mirë",
+        "study": {
+          "id": "a1-gut-study",
+          "layout": "standardStudy",
+          "translation": "i mirë • mirë",
+          "explanation": [
+            "Ideja kryesore: gut është mbiemër me kuptimin i mirë dhe ndajfolje me kuptimin mirë.",
+            "Në përshëndetje si Guten Morgen forma ndryshon sipas rasës."
+          ],
+          "examples": [
+            {
+              "de": "Das Essen ist gut.",
+              "lv": "Ushqimi është i mirë."
+            },
+            {
+              "de": "Wie geht es dir? – Gut, danke!",
+              "lv": "Si je? – Mirë, faleminderit!"
+            },
+            {
+              "de": "Er spricht gut Deutsch.",
+              "lv": "Ai flet mirë gjermanisht."
+            },
+            {
+              "de": "Guten Morgen!",
+              "lv": "Mirëmëngjes!"
+            },
+            {
+              "de": "Das ist eine gute Idee.",
+              "lv": "Kjo është një ide e mirë."
+            },
+            {
+              "de": "Alles ist gut.",
+              "lv": "Gjithçka është mirë."
+            }
+          ],
+          "tip": {
+            "text": "Emër → i mirë; folje → mirë."
+          },
+          "important": [
+            "Forma gjermane mund të marrë mbaresë para emrit."
+          ],
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {},
+              {},
+              {},
+              {}
+            ],
+            "comparison": []
+          },
+          "comparison": []
+        }
+      }
+    },
+    {
+      "auditId": "LRB095-0044",
+      "cardId": "haben|idx:261",
+      "status": "LABOT",
+      "reason": "haben: karta përziente zotërimin me folje të tjera dhe nuk shpjegonte përdorimin ndihmës.",
+      "new": {
+        "lv": "kam",
+        "study": {
+          "id": "a1-haben",
+          "layout": "standardStudy",
+          "translation": "kam",
+          "explanation": [
+            "Ideja kryesore: haben shpreh zotërim, gjendje ose përvojë dhe do të thotë kam.",
+            "Përdoret edhe si folje ndihmëse për kohën e kryer."
+          ],
+          "examples": [
+            {
+              "de": "Ich habe ein Auto.",
+              "lv": "Kam një makinë."
+            },
+            {
+              "de": "Hast du Zeit?",
+              "lv": "A ke kohë?"
+            },
+            {
+              "de": "Wir haben Hunger.",
+              "lv": "Kemi uri."
+            },
+            {
+              "de": "Ich habe das gemacht.",
+              "lv": "E kam bërë këtë."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "haben",
+              "meaning": "kam",
+              "example": "Ich habe Zeit. — Kam kohë."
+            },
+            {
+              "word": "sein",
+              "meaning": "jam",
+              "example": "Ich bin hier. — Jam këtu."
+            },
+            {
+              "word": "bekommen",
+              "meaning": "marr",
+              "example": "Ich bekomme ein Geschenk. — Po marr një dhuratë."
+            },
+            {
+              "word": "machen",
+              "meaning": "bëj",
+              "example": "Ich mache das. — Po e bëj këtë."
+            }
+          ],
+          "tip": {
+            "text": "Zotërim ose folje ndihmëse → haben."
+          },
+          "important": [
+            "haben nuk është sein, bekommen ose machen."
+          ],
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {},
+              {}
+            ],
+            "comparison": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB095-0045",
+      "cardId": "halten|idx:265",
+      "status": "LABOT",
+      "reason": "halten: karta nuk dallonte tri ndërtimet kryesore dhe barazonte gabimisht halten me nehmen.",
+      "new": {
+        "lv": "mbaj • ndaloj",
+        "study": {
+          "id": "a1-halten",
+          "layout": "standardStudy",
+          "translation": "mbaj • ndaloj",
+          "explanation": [
+            "Ideja kryesore: halten do të thotë mbaj; për një mjet transporti do të thotë ndaloj.",
+            "Në shprehjen etwas für richtig halten do të thotë e konsideroj diçka të drejtë."
+          ],
+          "examples": [
+            {
+              "de": "Ich halte die Tasche.",
+              "lv": "Po mbaj çantën."
+            },
+            {
+              "de": "Der Bus hält hier.",
+              "lv": "Autobusi ndalon këtu."
+            },
+            {
+              "de": "Bitte halten Sie an.",
+              "lv": "Ju lutem, ndaloni."
+            },
+            {
+              "de": "Ich halte das für richtig.",
+              "lv": "E konsideroj këtë të drejtë."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "halten",
+              "meaning": "mbaj ose ndaloj",
+              "example": "Der Bus hält. — Autobusi ndalon."
+            },
+            {
+              "word": "nehmen",
+              "meaning": "marr",
+              "example": "Ich nehme die Tasche. — Po e marr çantën."
+            },
+            {
+              "word": "anhalten",
+              "meaning": "ndaloj",
+              "example": "Bitte halten Sie an. — Ju lutem, ndaloni."
+            },
+            {
+              "word": "denken",
+              "meaning": "mendoj",
+              "example": "Ich denke, das ist richtig. — Mendoj se kjo është e drejtë."
+            }
+          ],
+          "tip": {
+            "text": "Objekt → mbaj; mjet → ndaloj."
+          },
+          "important": [
+            "halten für shpreh një vlerësim."
+          ],
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {},
+              {}
+            ],
+            "comparison": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB095-0046",
+      "cardId": "Hand|idx:267",
+      "status": "LABOT",
+      "reason": "Hand: karta ngatërronte dorën me krahun dhe kishte terminologji jo të qëndrueshme.",
+      "new": {
+        "lv": "dorë",
+        "study": {
+          "id": "a1-hand-study",
+          "layout": "standardStudy",
+          "translation": "dorë",
+          "explanation": [
+            "Ideja kryesore: die Hand është dora nga kyçi deri te gishtat.",
+            "der Arm është krahu dhe nuk është sinonim i Hand."
+          ],
+          "examples": [
+            {
+              "de": "Ich wasche meine Hände.",
+              "lv": "Po laj duart."
+            },
+            {
+              "de": "Sie hält das Glas in der Hand.",
+              "lv": "Ajo e mban gotën në dorë."
+            },
+            {
+              "de": "Mein Arm tut weh.",
+              "lv": "Më dhemb krahu."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "die Hand",
+              "meaning": "dorë",
+              "example": "in der Hand — në dorë"
+            },
+            {
+              "word": "der Arm",
+              "meaning": "krah",
+              "example": "Mein Arm tut weh. — Më dhemb krahu."
+            }
+          ],
+          "tip": {
+            "text": "Hand = dorë; Arm = krah."
+          },
+          "important": [
+            "Shumësi i Hand është Hände."
+          ],
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {}
+            ],
+            "comparison": [
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB095-0047",
+      "cardId": "heißen|idx:276",
+      "status": "LABOT",
+      "reason": "heißen: karta përziente emërtimin, thirrjen dhe telefonimin pa dalluar ndërtimet.",
+      "new": {
+        "lv": "quhem • do të thotë",
+        "study": {
+          "id": "a1-heißen",
+          "layout": "standardStudy",
+          "translation": "quhem • do të thotë",
+          "explanation": [
+            "Ideja kryesore: heißen do të thotë quhem kur jepet emri dhe do të thotë kur pyetet për kuptimin.",
+            "Mos e ngatërro me rufen ose anrufen."
+          ],
+          "examples": [
+            {
+              "de": "Ich heiße Anna.",
+              "lv": "Quhem Ana."
+            },
+            {
+              "de": "Wie heißt du?",
+              "lv": "Si quhesh?"
+            },
+            {
+              "de": "Wie heißt das auf Deutsch?",
+              "lv": "Si thuhet kjo në gjermanisht?"
+            },
+            {
+              "de": "Was heißt das?",
+              "lv": "Çfarë do të thotë kjo?"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "heißen",
+              "meaning": "quhem ose do të thotë",
+              "example": "Ich heiße Anna. — Quhem Ana."
+            },
+            {
+              "word": "nennen",
+              "meaning": "emërtoj",
+              "example": "Er nennt mich Tom. — Ai më quan Tom."
+            },
+            {
+              "word": "bedeuten",
+              "meaning": "do të thotë",
+              "example": "Was bedeutet das? — Çfarë do të thotë kjo?"
+            },
+            {
+              "word": "rufen",
+              "meaning": "thërras",
+              "example": "Ich rufe dich. — Po të thërras."
+            },
+            {
+              "word": "anrufen",
+              "meaning": "telefonoj",
+              "example": "Ich rufe dich an. — Po të telefonoj."
+            }
+          ],
+          "tip": {
+            "text": "Emër → quhem; kuptim → do të thotë."
+          },
+          "important": [
+            "anrufen do të thotë telefonoj."
+          ],
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {},
+              {}
+            ],
+            "comparison": [
+              {},
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB095-0048",
+      "cardId": "hoch|idx:285",
+      "status": "LABOT",
+      "reason": "hoch: karta kufizonte kuptimin te lartësia fizike dhe nuk mbulonte çmimet ose nivelin.",
+      "new": {
+        "lv": "i lartë",
+        "study": {
+          "id": "a1-hoch-study",
+          "layout": "standardStudy",
+          "translation": "i lartë",
+          "explanation": [
+            "Ideja kryesore: hoch do të thotë i lartë për lartësi, nivel, çmim ose vlerë.",
+            "Për një person zakonisht përdoret groß, jo hoch."
+          ],
+          "examples": [
+            {
+              "de": "Der Berg ist hoch.",
+              "lv": "Mali është i lartë."
+            },
+            {
+              "de": "Das Regal ist zwei Meter hoch.",
+              "lv": "Rafti është dy metra i lartë."
+            },
+            {
+              "de": "Die Miete ist hoch.",
+              "lv": "Qiraja është e lartë."
+            },
+            {
+              "de": "Die Mauer ist hoch.",
+              "lv": "Muri është i lartë."
+            },
+            {
+              "de": "Die Preise sind hoch.",
+              "lv": "Çmimet janë të larta."
+            }
+          ],
+          "tip": {
+            "text": "Lartësi ose nivel → hoch."
+          },
+          "important": [
+            "hoch mund të përshkruajë edhe çmime dhe kosto."
+          ],
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {},
+              {},
+              {}
+            ],
+            "comparison": []
+          },
+          "comparison": []
+        }
+      }
+    },
+    {
+      "auditId": "LRB095-0049",
+      "cardId": "ins|idx:296",
+      "status": "LABOT",
+      "reason": "ins: karta nuk shpjegonte tkurrjen in das dhe përziente drejtimin me vendndodhjen.",
+      "new": {
+        "lv": "brenda • për në",
+        "study": {
+          "id": "a1-ins",
+          "layout": "standardStudy",
+          "translation": "brenda • për në",
+          "explanation": [
+            "Ideja kryesore: ins është tkurrja e in das dhe tregon lëvizje drejt brendësisë së një vendi asnjanës.",
+            "Kërkon kallëzoren dhe nuk përdoret për vendndodhje pa lëvizje."
+          ],
+          "examples": [
+            {
+              "de": "Ich gehe ins Kino.",
+              "lv": "Po shkoj në kinema."
+            },
+            {
+              "de": "Sie geht ins Bett.",
+              "lv": "Ajo po shkon në shtrat."
+            },
+            {
+              "de": "Wir fahren ins Ausland.",
+              "lv": "Po udhëtojmë jashtë vendit."
+            },
+            {
+              "de": "Komm ins Haus!",
+              "lv": "Eja brenda në shtëpi!"
+            },
+            {
+              "de": "Er steckt das Geld in den Geldbeutel.",
+              "lv": "Ai i fut paratë në portofol."
+            },
+            {
+              "de": "Wir gehen ins Museum.",
+              "lv": "Po shkojmë në muze."
+            },
+            {
+              "de": "Sie legt die Blumen ins Wasser.",
+              "lv": "Ajo i vendos lulet në ujë."
+            },
+            {
+              "de": "Fahr bitte ins Zentrum.",
+              "lv": "Shko, të lutem, në qendër."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "ins",
+              "meaning": "në brendësi me lëvizje",
+              "example": "ins Kino — në kinema"
+            },
+            {
+              "word": "im",
+              "meaning": "brenda pa lëvizje",
+              "example": "im Kino — në kinema"
+            },
+            {
+              "word": "in",
+              "meaning": "në ose brenda",
+              "example": "in die Stadt — në qytet"
+            },
+            {
+              "word": "aufs",
+              "meaning": "mbi me lëvizje",
+              "example": "aufs Dach — në çati"
+            },
+            {
+              "word": "zum",
+              "meaning": "te ose drejt",
+              "example": "zum Arzt — te mjeku"
+            }
+          ],
+          "tip": {
+            "text": "Lëvizje drejt brenda + das → ins."
+          },
+          "important": [
+            "Vendndodhje pa lëvizje zakonisht përdor im."
+          ],
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              {}
+            ],
+            "comparison": [
+              {},
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB095-0050",
+      "cardId": "jung|idx:304",
+      "status": "LABOT",
+      "reason": "jung: karta ngatërronte moshën me risinë dhe nuk shpjegonte krahasoren jünger.",
+      "new": {
+        "lv": "i ri në moshë",
+        "study": {
+          "id": "a1-jung",
+          "layout": "standardStudy",
+          "translation": "i ri në moshë",
+          "explanation": [
+            "Ideja kryesore: jung do të thotë i ri në moshë dhe përdoret kryesisht për njerëz ose kafshë.",
+            "Krahasorja është jünger."
+          ],
+          "examples": [
+            {
+              "de": "Sie ist noch jung.",
+              "lv": "Ajo është ende e re."
+            },
+            {
+              "de": "Der Hund ist jung.",
+              "lv": "Qeni është i ri."
+            },
+            {
+              "de": "Wir sind noch jung.",
+              "lv": "Ne jemi ende të rinj."
+            },
+            {
+              "de": "Er sieht sehr jung aus.",
+              "lv": "Ai duket shumë i ri."
+            },
+            {
+              "de": "Das ist ein junges Paar.",
+              "lv": "Ky është një çift i ri."
+            },
+            {
+              "de": "Die junge Frau lächelt.",
+              "lv": "Gruaja e re buzëqesh."
+            },
+            {
+              "de": "Mein Bruder ist jünger als ich.",
+              "lv": "Vëllai im është më i ri se unë."
+            }
+          ],
+          "tip": {
+            "text": "Moshë e vogël → jung."
+          },
+          "important": [
+            "Për diçka të re në kuptimin “jo e vjetër” përdoret shpesh neu."
+          ],
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              {}
+            ],
+            "comparison": []
+          },
+          "comparison": []
+        }
+      }
+    }
+  ]
+}
