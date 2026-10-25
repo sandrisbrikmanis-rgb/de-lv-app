@@ -1,0 +1,39 @@
+{
+  "batch_id": "LRB-016",
+  "ownerAuthorizationStatus": "APPROVED",
+  "reviewer": "gpt-5.6-luna",
+  "authorizedAt": "2026-09-12T13:45:00.000Z",
+  "linguisticVerdict": "LRB_016_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+  "row_count": 50,
+  "labot": 47,
+  "nelabot": 3,
+  "pending": 0,
+  "antiBulkPass": true,
+  "residualAuditPass": true,
+  "antiBulkClassification": "G2_A1_OWNER_ANTI_BULK_AUDIT_PASS",
+  "individual_linguistic": 50,
+  "provenance_individual_count": 50,
+  "languages": {
+    "fi": 50
+  },
+  "nelabot_cards": ["Tee", "teuer", "und"],
+  "composite_labot_cards": ["Uhr"],
+  "compositeMicroRepairs": ["Uhr", "verlieren"],
+  "scope": "Stadt..Vogel",
+  "productionSource": "data/fi/a1.js",
+  "pdfGates": {
+    "ROWS": "50/50",
+    "PENDING": 0,
+    "wrong_language_residue": 0,
+    "semantic_alignment_violations": 0,
+    "duplicate_meanings": 0,
+    "internal_card_contradictions": 0,
+    "stale_highlights": 0,
+    "target_language_quality_errors": 0,
+    "full_composite_completeness": "PASS",
+    "target_language_grammar": "PASS",
+    "anti_bulk": "PASS"
+  },
+  "pdfProofPath": "reports/g2-a1-owner/batches-reviewed/LRB-016-residual-wrong-language-proof.json",
+  "note": "OWNER authorization APPROVED. Uhr: Kell→Kello, examples[5]=Kello, sectionAccents.examples FI-aligned (a1.js merge audit). verlieren: Kadottaa→Menettää. 47 LABOT / 3 NELABOT. DE/production/Crowdin/ingest/apply unchanged."
+}
