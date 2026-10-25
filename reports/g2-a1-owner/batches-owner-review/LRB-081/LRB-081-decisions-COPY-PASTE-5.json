@@ -1,0 +1,115 @@
+{
+  "batch_id": "LRB-081",
+  "correction_round": 5,
+  "verified_commit": "912bd0b7acc7e4dd83bb4a497a37595434c8833e",
+  "source_spec": "reports/g2-a1-owner/batches-owner-review/LRB-081/LRB-081-decisions-COPY-PASTE-4.json",
+  "apply_mode": "EXACT_COPY_PASTE_ONLY_NO_NEW_LINGUISTIC_ANALYSIS",
+  "observed": {
+    "rows_checked": "50/50",
+    "full_cards_checked": "50/50",
+    "technical_copy_paste_4_alignment": "50/50",
+    "linguistic_gala_result": "FAIL",
+    "affected_rows": [10, 18, 27],
+    "content_replacements": 5,
+    "row_note_replacements": 3
+  },
+  "content_replacements": [
+    {
+      "row": 10,
+      "audit_id": "LRB081-0010",
+      "card_id": "Appetit|idx:689",
+      "path": "study.explanation[1]",
+      "old": "Der Appetit se folosește numai la singular.",
+      "new": "Der Appetit se folosește de obicei la singular; pluralul die Appetite există, dar este rar."
+    },
+    {
+      "row": 10,
+      "audit_id": "LRB081-0010",
+      "card_id": "Appetit|idx:689",
+      "path": "study.important[0]",
+      "old": "Der Appetit se folosește numai la singular.",
+      "new": "Der Appetit se folosește de obicei la singular; pluralul die Appetite există, dar este rar."
+    },
+    {
+      "row": 10,
+      "audit_id": "LRB081-0010",
+      "card_id": "Appetit|idx:689",
+      "path": "study.important[1]",
+      "old": "Corect: der Appetit; incorect: die Appetite.",
+      "new": "Pluralul die Appetite este corect, dar rar."
+    },
+    {
+      "row": 18,
+      "audit_id": "LRB081-0018",
+      "card_id": "besuchen|idx:89",
+      "path": "study.comparison[0].meaning",
+      "old": "a vizita un loc, un eveniment sau o persoană",
+      "new": "a vizita un loc sau o persoană • a frecventa un curs • a participa la un eveniment"
+    },
+    {
+      "row": 27,
+      "audit_id": "LRB081-0027",
+      "card_id": "erst|idx:165",
+      "path": "study.examples[3].lv",
+      "de": "Wir essen erst um acht Uhr.",
+      "old": "Mâncăm doar la opt.",
+      "new": "Mâncăm abia la ora opt."
+    }
+  ],
+  "row_note_replacements": [
+    {
+      "row": 10,
+      "audit_id": "LRB081-0010",
+      "old": "Pentru DE „Appetit”, am corectat ortografia românească și am folosit expresia firească „poftă de mâncare”.",
+      "new": "Pentru DE „Appetit”, am folosit expresia românească firească „poftă de mâncare” și am precizat corect că pluralul die Appetite există, dar este rar."
+    },
+    {
+      "row": 18,
+      "audit_id": "LRB081-0018",
+      "old": "Pentru DE „besuchen”, am înlocuit explicațiile și exemplele cu română naturală și am eliminat expresiile letone „apciemot”, „Es apciemoju” și „Es eju”.",
+      "new": "Pentru DE „besuchen”, am eliminat reziduurile letone și am aliniat toate sensurile: a vizita o persoană sau un loc, a frecventa un curs, a participa la un eveniment."
+    },
+    {
+      "row": 27,
+      "audit_id": "LRB081-0027",
+      "old": "Pentru DE „erst”, traducerea corectă a sensului indicat este „doar”, nu o valoare goală sau neinterpretabilă.",
+      "new": "Pentru DE „erst”, am păstrat sensurile „doar/abia/mai întâi” și am corectat exemplul temporal cu „abia la ora opt”."
+    }
+  ],
+  "exact_apply_instructions": [
+    "Nu veikt jaunu lingvistisko analīzi.",
+    "Izveidot LRB-081-decisions-COPY-PASTE-5.json no šīs specifikācijas.",
+    "Ievietot 5 content_replacements un 3 row_note_replacements precīzi pēc audit_id/path.",
+    "Atjaunot pilnos gala kompozītus visos LRB-081 OWNER artefaktos un abos decisions formātos.",
+    "Nemodificēt COPY-PASTE-2, COPY-PASTE-3 vai COPY-PASTE-4 vēsturiskās specifikācijas.",
+    "Ģenerēt fresh proof no correction #5 POST-REPAIR owner_new merge.",
+    "Nemainīt DE source, production, Crowdin, ingest/apply, skriptus vai citus batch."
+  ],
+  "required_fresh_gates": {
+    "ROWS": "50/50",
+    "PENDING": 0,
+    "CONTENT_REPLACEMENTS": "5/5",
+    "ROW_NOTE_REPLACEMENTS": "3/3",
+    "SOURCE_SPEC_EXACT_MATCH": "50/50",
+    "APPROVED_GALA_CARD_ALIGNMENT": "50/50",
+    "OWNER_NEW_FULL_COMPOSITE_ALIGNMENT": "50/50",
+    "DE_EXAMPLE_INDEX_ALIGNMENT": "206/206",
+    "COMPARISON_ALIGNMENT": "113/113",
+    "SEMANTIC_ALIGNMENT_VIOLATIONS": 0,
+    "EXTRA_MEANING_NOT_IN_SOURCE": 0,
+    "SEMANTIC_NARROWING_FROM_SOURCE": 0,
+    "DE_TARGET_ALIGNMENT_VIOLATIONS": 0,
+    "INTERNAL_CARD_CONTRADICTIONS": 0,
+    "GRAMMATICAL_FACT_VIOLATIONS": 0,
+    "FULL_COMPOSITE_COMPLETENESS": "PASS",
+    "ANTI_BULK": "PASS",
+    "PRODUCTION_CHANGES": 0,
+    "DE_CHANGES": 0,
+    "CROWDIN_CHANGES": 0,
+    "INGEST_APPLY": 0,
+    "SCRIPT_CHANGES": 0,
+    "pass": true
+  },
+  "final_status": "OWNER_CORRECTION_REQUIRED",
+  "gala_pass": false
+}

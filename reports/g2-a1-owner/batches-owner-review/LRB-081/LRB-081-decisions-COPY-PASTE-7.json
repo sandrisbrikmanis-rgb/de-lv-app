@@ -1,0 +1,149 @@
+{
+  "batchId": "LRB-081",
+  "correctionRound": 7,
+  "decisionType": "OWNER_EXACT_COPY_PASTE",
+  "sourceCommit": "0fe02305a21c67dd7e9eff23c4d5de84a3a8f5fb",
+  "ownerAuthorizationStatus": "APPROVED",
+  "linguisticVerdict": "FAIL_REQUIRES_COPY_PASTE_REPAIR",
+  "contentReplacementCount": 10,
+  "rowNoteReplacementCount": 9,
+  "content_replacements": [
+    {
+      "auditId": "LRB081-0001",
+      "cardId": "wissen|idx:311",
+      "path": "new.study.important",
+      "current": [
+        "wissen = saber um fato.",
+        "wissen = saber.",
+        "Significa saber um fato, uma resposta ou uma informação."
+      ],
+      "new": [
+        "wissen = saber.",
+        "Para pessoas, lugares e coisas familiares, usa-se kennen, não wissen.",
+        "Wissen é usado para fatos, respostas e informações."
+      ]
+    },
+    {
+      "auditId": "LRB081-0010",
+      "cardId": "Appetit|idx:689",
+      "path": "new.study.important",
+      "current": [
+        "Der Appetit se folosește de obicei la singular; pluralul die Appetite există, dar este rar.",
+        "Pluralul die Appetite este corect, dar rar.",
+        "Se spune Ich habe Appetit, nu *Ich bin Appetit."
+      ],
+      "new": [
+        "Der Appetit se folosește de obicei la singular; pluralul die Appetite există, dar este rar.",
+        "În urarea Guten Appetit!, substantivul apare fără articol.",
+        "Se spune Ich habe Appetit, nu *Ich bin Appetit."
+      ]
+    },
+    {
+      "auditId": "LRB081-0014",
+      "cardId": "aus|idx:57",
+      "path": "new.study.tip.text",
+      "current": "Amintiți-vă: afară din interior → aus.",
+      "new": "Reține: mișcare din interior spre exterior → aus."
+    },
+    {
+      "auditId": "LRB081-0019",
+      "cardId": "bis|idx:91",
+      "path": "new.study.tip.text",
+      "current": "Amintiți-vă: granița în timp/condiție → bis.",
+      "new": "Reține: limită în timp sau într-o condiție → bis."
+    },
+    {
+      "auditId": "LRB081-0024",
+      "cardId": "dieser|idx:139",
+      "path": "new.study.explanation",
+      "current": "Ideea principală: indică o persoană, un lucru sau un animal din apropiere. Folosit cu un substantiv masculin.",
+      "new": "Ideea principală: dieser indică o persoană, un lucru sau un animal concret ori evidențiat și se folosește aici cu un substantiv masculin."
+    },
+    {
+      "auditId": "LRB081-0025",
+      "cardId": "ein|idx:154",
+      "path": "new.study.examples[2].lv",
+      "deLock": "Er sucht einen Stift.",
+      "current": "El caută un stilou.",
+      "new": "El caută un pix."
+    },
+    {
+      "auditId": "LRB081-0036",
+      "cardId": "Frau|idx:198",
+      "path": "new.study.explanation[3]",
+      "current": "Pronumele posesive meine Frau, deine Frau și seine Frau înseamnă aproape întotdeauna «soția mea», «soția ta» și «soția lui».",
+      "new": "Formele posesive din sintagmele meine Frau, deine Frau și seine Frau arată aproape întotdeauna că Frau înseamnă «soție»."
+    },
+    {
+      "auditId": "LRB081-0036",
+      "cardId": "Frau|idx:198",
+      "path": "new.study.tip[0]",
+      "current": "Pronumele posesiv (meine/deine/seine Frau) înseamnă aproape întotdeauna soție.",
+      "new": "Cu o formă posesivă (meine/deine/seine Frau), Frau înseamnă aproape întotdeauna «soție»."
+    },
+    {
+      "auditId": "LRB081-0043",
+      "cardId": "Geschichte|idx:233",
+      "path": "new.study.examples[0].lv",
+      "deLock": "Er erzählt eine Geschichte.",
+      "current": "El povestește o poveste.",
+      "new": "El spune o poveste."
+    },
+    {
+      "auditId": "LRB081-0049",
+      "cardId": "haben|idx:261",
+      "path": "new.study.explanation[0]",
+      "current": "Ideea principală: haben înseamnă «a avea» și exprimă posesia sau deținerea.",
+      "new": "Ideea principală: haben înseamnă «a avea» și poate exprima posesia, disponibilitatea sau anumite stări, în funcție de construcție."
+    }
+  ],
+  "row_note_replacements": [
+    {
+      "auditId": "LRB081-0001",
+      "new": "O DE wissen significa «saber»; a versão final distingue wissen de kennen e elimina os três pontos semanticamente repetidos."
+    },
+    {
+      "auditId": "LRB081-0010",
+      "new": "Pentru DE „Appetit”, am păstrat sensul „poftă de mâncare”, am precizat utilizarea obișnuită la singular și am eliminat repetarea informației despre plural."
+    },
+    {
+      "auditId": "LRB081-0014",
+      "new": "Pentru DE „aus”, am eliminat fragmentele letone și am formulat natural ideea de mișcare din interior spre exterior și de origine."
+    },
+    {
+      "auditId": "LRB081-0019",
+      "new": "Pentru DE „bis”, am reparat exemplele și comparațiile și am formulat natural ideea de limită temporală sau condițională."
+    },
+    {
+      "auditId": "LRB081-0024",
+      "new": "Pentru DE „dieser”, am eliminat restrângerea incorectă la apropierea fizică și am păstrat utilizarea cu un substantiv masculin concret ori evidențiat."
+    },
+    {
+      "auditId": "LRB081-0025",
+      "new": "Pentru exemplul Er sucht einen Stift., am înlocuit termenul prea îngust „stilou” cu „pix”, conform sensului sursă."
+    },
+    {
+      "auditId": "LRB081-0036",
+      "new": "Pentru Frau, am păstrat sensurile «femeie» și «soție» și am înlocuit denumirea gramaticală incorectă «pronume posesiv» cu formularea neutră și corectă «formă posesivă»."
+    },
+    {
+      "auditId": "LRB081-0043",
+      "new": "Pentru Geschichte, am păstrat contrastul «poveste»/«istorie» și am înlocuit formularea tautologică cu propoziția românească naturală «El spune o poveste.»."
+    },
+    {
+      "auditId": "LRB081-0049",
+      "new": "Pentru DE „haben”, am completat ideea principală astfel încât să includă posesia, disponibilitatea și stările ilustrate de exemplele cu Zeit și Hunger."
+    }
+  ],
+  "constraints": {
+    "currentExactMatchRequired": true,
+    "mismatchAction": "SKIP_TARGET_ONLY_AND_REPORT",
+    "newLinguisticAnalysis": false,
+    "deChanges": 0,
+    "productionChanges": 0,
+    "crowdinChanges": 0,
+    "ingestApplyRuns": 0,
+    "scriptChanges": 0,
+    "galaPassAllowed": false
+  }
+}
