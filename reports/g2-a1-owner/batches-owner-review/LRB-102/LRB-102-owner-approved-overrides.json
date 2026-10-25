@@ -1,0 +1,5575 @@
+{
+  "batchId": "LRB-102",
+  "sourceCommit": "35af3560bac7132af7bb2bc16e80af1d51258023",
+  "branch": "cursor/lrb-102-owner-review-pc2-3db2",
+  "pullRequest": 747,
+  "reviewer": "OWNER/GPT full individual linguistic audit under attached FULL_50_50 PDF standard",
+  "reviewCoverage": {
+    "rows": "50/50",
+    "individual": true,
+    "fullComposite": true,
+    "tr": 20,
+    "uk": 30
+  },
+  "verdictBeforeApply": "FAIL_REPAIR_REQUIRED",
+  "rules": {
+    "cursorMayReanalyse": false,
+    "exactCopyPasteOnly": true,
+    "deChanges": 0,
+    "productionChanges": 0,
+    "crowdinChanges": 0,
+    "ingestApply": false
+  },
+  "cards": [
+    {
+      "auditId": "LRB102-0001",
+      "cardId": "noch mal|idx:701",
+      "status": "LABOT",
+      "reason": "Punctuation and duplicated guidance; incomplete “again/one more time” headword nuance.",
+      "new": {
+        "lv": "tekrar • bir kez daha",
+        "study.translation": "tekrar • bir kez daha",
+        "study.explanation": [
+          "Ana fikir: noch mal, bir eylemi tekrarlamak veya bir şeyin yeniden söylenmesini istemek için kullanılır.",
+          "Bu ifade günlük konuşmada “tekrar” ve “bir kez daha” anlamına gelir."
+        ],
+        "study.examples": [
+          {
+            "de": "Noch mal, bitte.",
+            "lv": "Bir kez daha, lütfen."
+          },
+          {
+            "de": "Noch mal, bitte.",
+            "lv": "Bir kez daha, lütfen."
+          },
+          {
+            "de": "Sag das noch mal.",
+            "lv": "Bunu tekrar söyle."
+          }
+        ],
+        "study.tip": [
+          "Bir şeyin yeniden yapılmasını isterken noch mal kullanılır."
+        ],
+        "study.important": [
+          "noch mal = tekrar / bir kez daha."
+        ],
+        "study.sectionAccents": {
+          "explanation": [
+            {},
+            {}
+          ],
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "tip": [
+            {}
+          ],
+          "important": [
+            {}
+          ]
+        }
+      },
+      "accentTerms": {
+        "explanation": [],
+        "examples": [
+          [],
+          [],
+          []
+        ],
+        "comparison": [],
+        "tipImportant": []
+      }
+    },
+    {
+      "auditId": "LRB102-0002",
+      "cardId": "Obst|idx:693",
+      "status": "LABOT",
+      "reason": "False plural/gender guidance and unnatural collective-fruit examples.",
+      "new": {
+        "lv": "meyve",
+        "study.translation": "meyve",
+        "study.explanation": [
+          "Ana fikir: das Obst, genel olarak meyveyi toplu bir kavram olarak belirtir.",
+          "Almancada Obst çoğunlukla sayılamayan tekil bir isim gibi kullanılır; olağan çoğulu *Obsts değildir."
+        ],
+        "study.examples": [
+          {
+            "de": "Wir essen viel Obst.",
+            "lv": "Çok meyve yiyoruz."
+          },
+          {
+            "de": "Wir essen viel Obst.",
+            "lv": "Çok meyve yiyoruz."
+          },
+          {
+            "de": "Obst ist gesund.",
+            "lv": "Meyve sağlıklıdır."
+          },
+          {
+            "de": "Ich mag Obst und Gemüse.",
+            "lv": "Meyve ve sebzeyi severim."
+          },
+          {
+            "de": "Wir essen Obst.",
+            "lv": "Meyve yiyoruz."
+          }
+        ],
+        "study.tip": [
+          "das Obst = genel anlamda meyve."
+        ],
+        "study.important": [
+          "Doğru kullanım: das Obst; genel anlamda çoğul yapılmaz."
+        ],
+        "study.sectionAccents": {
+          "explanation": [
+            {},
+            {}
+          ],
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "tip": [
+            {}
+          ],
+          "important": [
+            {}
+          ]
+        }
+      },
+      "accentTerms": {
+        "explanation": [],
+        "examples": [
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "comparison": [],
+        "tipImportant": []
+      }
+    },
+    {
+      "auditId": "LRB102-0003",
+      "cardId": "Seite|idx:544",
+      "status": "LABOT",
+      "reason": "Headword duplicated “page” and omitted “side”; example and summary mistranslated.",
+      "new": {
+        "lv": "sayfa • taraf",
+        "study.translation": "sayfa • taraf",
+        "study.explanation": [
+          "Ana fikir: die Seite bağlama göre “sayfa” veya “taraf” anlamına gelir.",
+          "Kitap ve web bağlamında sayfayı; konum, görüş veya destek bağlamında tarafı belirtir.",
+          "Her iki anlamda da çoğul biçim die Seiten olur."
+        ],
+        "study.examples": [
+          {
+            "de": "Schlagt die Seite zwanzig auf.",
+            "lv": "Yirminci sayfayı açın."
+          },
+          {
+            "de": "Auf der linken Seite ist ein Park.",
+            "lv": "Sol tarafta bir park var."
+          },
+          {
+            "de": "Die Webseite lädt langsam.",
+            "lv": "Web sayfası yavaş yükleniyor."
+          },
+          {
+            "de": "Er steht auf meiner Seite.",
+            "lv": "O benim tarafımda."
+          },
+          {
+            "de": "Das Buch hat 200 Seiten.",
+            "lv": "Kitabın 200 sayfası var."
+          },
+          {
+            "de": "Auf der anderen Seite der Straße.",
+            "lv": "Sokağın karşı tarafında."
+          }
+        ],
+        "study.tip": [
+          "Kitap veya web sitesi → sayfa; konum veya görüş → taraf."
+        ],
+        "study.important": [
+          "die Seite = sayfa veya taraf; anlamı bağlam belirler.",
+          "Çoğul: die Seiten."
+        ],
+        "study.sectionAccents": {
+          "explanation": [
+            {},
+            {},
+            {}
+          ],
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "tip": [
+            {}
+          ],
+          "important": [
+            {},
+            {}
+          ]
+        }
+      },
+      "accentTerms": {
+        "explanation": [],
+        "examples": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "comparison": [],
+        "tipImportant": []
+      }
+    },
+    {
+      "auditId": "LRB102-0004",
+      "cardId": "sich|idx:547",
+      "status": "LABOT",
+      "reason": "Reflexive pronoun person/case meanings and comparison were wrong.",
+      "new": {
+        "lv": "kendini • kendisine",
+        "study.translation": "kendini • kendisine",
+        "study.explanation": [
+          "Ana fikir: sich, üçüncü tekil veya çoğul kişiyle kullanılan dönüşlü zamirdir.",
+          "Eylem özneye dönüyorsa er/sie/es ve sie/Sie ile sich kullanılır; ich ile mich, du ile dich kullanılır.",
+          "Dönüşlü olmayan bir nesne için ihn gibi kişi zamirleri kullanılır."
+        ],
+        "study.examples": [
+          {
+            "de": "Er wäscht sich.",
+            "lv": "O kendini yıkıyor."
+          },
+          {
+            "de": "Ich setze mich.",
+            "lv": "Oturuyorum."
+          },
+          {
+            "de": "Sie freut sich.",
+            "lv": "O seviniyor."
+          },
+          {
+            "de": "Ich wasche das Auto.",
+            "lv": "Arabayı yıkıyorum."
+          }
+        ],
+        "study.comparison": [
+          {
+            "word": "sich",
+            "meaning": "kendini / kendisine",
+            "example": "Er wäscht sich. – O kendini yıkıyor."
+          },
+          {
+            "word": "mich",
+            "meaning": "kendimi",
+            "example": "Ich wasche mich. – Kendimi yıkıyorum."
+          },
+          {
+            "word": "dich",
+            "meaning": "kendini",
+            "example": "Du wäschst dich. – Kendini yıkıyorsun."
+          },
+          {
+            "word": "ihn",
+            "meaning": "onu",
+            "example": "Ich sehe ihn. – Onu görüyorum."
+          }
+        ],
+        "study.tip": {
+          "text": "Eylem özneye dönüyorsa uygun dönüşlü zamiri seç: mich, dich veya sich."
+        },
+        "study.important": [
+          "sich, er/sie/es ve sie/Sie ile kullanılır.",
+          "sich ile ihn aynı görevde değildir."
+        ],
+        "study.sectionAccents": {
+          "explanation": [
+            {},
+            {},
+            {}
+          ],
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "comparison": [
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            }
+          ],
+          "tip": {
+            "left": {}
+          },
+          "important": [
+            {},
+            {}
+          ]
+        }
+      },
+      "accentTerms": {
+        "explanation": [],
+        "examples": [
+          [],
+          [],
+          [],
+          []
+        ],
+        "comparison": [
+          [],
+          [],
+          [],
+          []
+        ],
+        "tipImportant": []
+      }
+    },
+    {
+      "auditId": "LRB102-0005",
+      "cardId": "sicher|idx:548",
+      "status": "LABOT",
+      "reason": "Adjective/adverb senses and sich sicher sein were conflated.",
+      "new": {
+        "lv": "güvenli • kesinlikle",
+        "study.translation": "güvenli • kesinlikle",
+        "study.explanation": [
+          "Ana fikir: sicher sıfat olarak “güvenli”, zarf olarak “kesinlikle” veya bağlama göre “muhtemelen” anlamına gelebilir.",
+          "sich sicher sein kalıbı “emin olmak” demektir."
+        ],
+        "study.examples": [
+          {
+            "de": "Ist das Wasser sicher?",
+            "lv": "Su güvenli mi?"
+          },
+          {
+            "de": "Kommst du morgen? – Sicher!",
+            "lv": "Yarın geliyor musun? – Elbette!"
+          },
+          {
+            "de": "Er ist sicher zu Hause.",
+            "lv": "O muhtemelen evdedir."
+          },
+          {
+            "de": "Das ist eine sichere Lösung.",
+            "lv": "Bu güvenli bir çözümdür."
+          },
+          {
+            "de": "Ich bin mir sicher.",
+            "lv": "Eminim."
+          },
+          {
+            "de": "Fahr sicher!",
+            "lv": "Güvenli sür!"
+          }
+        ],
+        "study.tip": [
+          "İsim niteleniyorsa “güvenli”; bir yargı güçlendiriliyorsa “kesinlikle / muhtemelen”."
+        ],
+        "study.important": [
+          "sicher = güvenli veya kesinlikle / muhtemelen.",
+          "sich sicher sein = emin olmak."
+        ],
+        "study.sectionAccents": {
+          "explanation": [
+            {},
+            {}
+          ],
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "tip": [
+            {}
+          ],
+          "important": [
+            {},
+            {}
+          ]
+        }
+      },
+      "accentTerms": {
+        "explanation": [],
+        "examples": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "comparison": [],
+        "tipImportant": []
+      }
+    },
+    {
+      "auditId": "LRB102-0006",
+      "cardId": "sie|idx:549",
+      "status": "LABOT",
+      "reason": "she/they/formal-you distinctions contained nonsense residue and wrong examples.",
+      "new": {
+        "lv": "onlar",
+        "study.translation": "onlar",
+        "study.explanation": [
+          "Ana fikir: küçük harfle sie, çoğul fiille “onlar” anlamına gelir.",
+          "Küçük harfle sie ve tekil fiil “o (kadın)” demektir.",
+          "Büyük harfle Sie, çoğul fiil çekimiyle kullanılan resmî “siz” hitabıdır."
+        ],
+        "study.examples": [
+          {
+            "de": "Sie kochen.",
+            "lv": "Onlar yemek pişiriyor."
+          },
+          {
+            "de": "Sie kocht.",
+            "lv": "O yemek pişiriyor."
+          },
+          {
+            "de": "Sie isst.",
+            "lv": "O yemek yiyor."
+          },
+          {
+            "de": "Sie kochen.",
+            "lv": "Onlar yemek pişiriyor."
+          },
+          {
+            "de": "Sie spielen Fußball.",
+            "lv": "Onlar futbol oynuyor."
+          },
+          {
+            "de": "Sie kochen, bitte.",
+            "lv": "Lütfen yemek pişirin."
+          }
+        ],
+        "study.tip": [
+          "Fiil tekilse sie = o; fiil çoğulsa sie = onlar; büyük Sie = resmî siz."
+        ],
+        "study.important": [
+          "sie ve Sie anlamını büyük harf ile fiil çekimi birlikte belirler.",
+          "sie kocht = o pişiriyor; sie kochen = onlar pişiriyor."
+        ],
+        "study.sectionAccents": {
+          "explanation": [
+            {},
+            {},
+            {}
+          ],
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "tip": [
+            {}
+          ],
+          "important": [
+            {},
+            {}
+          ]
+        }
+      },
+      "accentTerms": {
+        "explanation": [],
+        "examples": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "comparison": [],
+        "tipImportant": []
+      }
+    },
+    {
+      "auditId": "LRB102-0007",
+      "cardId": "Sie|idx:550",
+      "status": "LABOT",
+      "reason": "Formal Sie was mistranslated as informal singular and mixed with lowercase sie.",
+      "new": {
+        "lv": "siz",
+        "study.translation": "siz",
+        "study.explanation": [
+          "Ana fikir: büyük harfle Sie, resmî ve nazik “siz” hitabıdır.",
+          "Sie her zaman büyük yazılır ve çoğul fiil çekimi alır.",
+          "Küçük sie, tekil fiille “o (kadın)”, çoğul fiille “onlar” olabilir."
+        ],
+        "study.examples": [
+          {
+            "de": "Sie kochen, bitte.",
+            "lv": "Lütfen yemek pişirin."
+          },
+          {
+            "de": "Sie kocht.",
+            "lv": "O yemek pişiriyor."
+          },
+          {
+            "de": "Sie isst.",
+            "lv": "O yemek yiyor."
+          },
+          {
+            "de": "Sie kochen.",
+            "lv": "Onlar yemek pişiriyor."
+          },
+          {
+            "de": "Sie spielen Fußball.",
+            "lv": "Onlar futbol oynuyor."
+          },
+          {
+            "de": "Sie kochen, bitte.",
+            "lv": "Lütfen yemek pişirin."
+          }
+        ],
+        "study.tip": [
+          "Resmî hitapta Sie her zaman büyük harfle yazılır."
+        ],
+        "study.important": [
+          "Sie = resmî siz; sie = o (kadın) veya onlar.",
+          "Anlamı büyük harf ve fiil çekimi birlikte gösterir."
+        ],
+        "study.sectionAccents": {
+          "explanation": [
+            {},
+            {},
+            {}
+          ],
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "tip": [
+            {}
+          ],
+          "important": [
+            {},
+            {}
+          ]
+        }
+      },
+      "accentTerms": {
+        "explanation": [],
+        "examples": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "comparison": [],
+        "tipImportant": []
+      }
+    },
+    {
+      "auditId": "LRB102-0008",
+      "cardId": "sitzen|idx:558",
+      "status": "LABOT",
+      "reason": "sitzen/stehen/liegen/sich setzen contrast and example actions were wrong.",
+      "new": {
+        "lv": "oturmak",
+        "study.translation": "oturmak",
+        "study.explanation": [
+          "Ana fikir: sitzen, bir kişinin veya hayvanın oturur durumda bulunmasını anlatır.",
+          "sitzen durumdur; sich setzen ise oturma hareketini, yani “oturmak / oturur hâle gelmek” anlamını verir.",
+          "stehen ayakta durmayı, liegen yatay durumda bulunmayı anlatır."
+        ],
+        "study.examples": [
+          {
+            "de": "Ich sitze am Tisch.",
+            "lv": "Masada oturuyorum."
+          },
+          {
+            "de": "Die Kinder sitzen im Bus.",
+            "lv": "Çocuklar otobüste oturuyor."
+          },
+          {
+            "de": "Er steht an der Tür.",
+            "lv": "O kapının yanında ayakta duruyor."
+          },
+          {
+            "de": "Die Katze liegt auf dem Sofa.",
+            "lv": "Kedi kanepede uzanıyor."
+          }
+        ],
+        "study.comparison": [
+          {
+            "word": "sitzen",
+            "meaning": "oturmak",
+            "example": "Ich sitze am Tisch. – Masada oturuyorum."
+          },
+          {
+            "word": "stehen",
+            "meaning": "ayakta durmak",
+            "example": "Er steht an der Tür. – O kapının yanında ayakta duruyor."
+          },
+          {
+            "word": "liegen",
+            "meaning": "uzanmak / yatay durumda bulunmak",
+            "example": "Die Katze liegt dort. – Kedi orada uzanıyor."
+          },
+          {
+            "word": "setzen",
+            "meaning": "oturmak / oturur hâle gelmek",
+            "example": "Ich setze mich. – Oturuyorum."
+          }
+        ],
+        "study.tip": {
+          "text": "Durum → sitzen; oturma hareketi → sich setzen."
+        },
+        "study.important": [
+          "sitzen = oturur durumda olmak; sich setzen = oturmak."
+        ],
+        "study.sectionAccents": {
+          "explanation": [
+            {},
+            {},
+            {}
+          ],
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "comparison": [
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            }
+          ],
+          "tip": {
+            "left": {}
+          },
+          "important": [
+            {}
+          ]
+        }
+      },
+      "accentTerms": {
+        "explanation": [],
+        "examples": [
+          [],
+          [],
+          [],
+          []
+        ],
+        "comparison": [
+          [],
+          [],
+          [],
+          []
+        ],
+        "tipImportant": []
+      }
+    },
+    {
+      "auditId": "LRB102-0009",
+      "cardId": "sollen|idx:564",
+      "status": "LABOT",
+      "reason": "sollen/müssen strength, modal meanings, and Turkish wording were defective.",
+      "new": {
+        "lv": "-meli/-malı • gerek",
+        "study.translation": "-meli/-malı • gerek",
+        "study.explanation": [
+          "Ana fikir: sollen, çoğunlukla bir başkasının talimatını, beklentisini veya tavsiyesini aktarır.",
+          "müssen doğrudan ve daha güçlü bir zorunluluk belirtir.",
+          "Was soll ich machen? “Ne yapmalıyım?” anlamındaki yaygın bir sorudur."
+        ],
+        "study.examples": [
+          {
+            "de": "Was soll ich machen?",
+            "lv": "Ne yapmalıyım?"
+          },
+          {
+            "de": "Du sollst kommen.",
+            "lv": "Gelmelisin."
+          },
+          {
+            "de": "Ich soll zu Hause bleiben.",
+            "lv": "Evde kalmam gerekiyor."
+          },
+          {
+            "de": "Ich muss jetzt gehen.",
+            "lv": "Şimdi gitmek zorundayım."
+          }
+        ],
+        "study.comparison": [
+          {
+            "word": "sollen",
+            "meaning": "-meli/-malı; talimat veya tavsiye",
+            "example": "Was soll ich machen? – Ne yapmalıyım?"
+          },
+          {
+            "word": "müssen",
+            "meaning": "zorunda olmak",
+            "example": "Ich muss gehen. – Gitmek zorundayım."
+          },
+          {
+            "word": "können",
+            "meaning": "-ebilmek",
+            "example": "Ich kann kommen. – Gelebilirim."
+          },
+          {
+            "word": "wollen",
+            "meaning": "istemek",
+            "example": "Ich will bleiben. – Kalmak istiyorum."
+          }
+        ],
+        "study.tip": {
+          "text": "Başkasının söylediği görev için sollen; doğrudan zorunluluk için müssen kullanılır."
+        },
+        "study.important": [
+          "sollen ve müssen aynı değildir.",
+          "Was soll ich machen? = Ne yapmalıyım?"
+        ],
+        "study.sectionAccents": {
+          "explanation": [
+            {},
+            {},
+            {}
+          ],
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "comparison": [
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            }
+          ],
+          "tip": {
+            "left": {}
+          },
+          "important": [
+            {},
+            {}
+          ]
+        }
+      },
+      "accentTerms": {
+        "explanation": [],
+        "examples": [
+          [],
+          [],
+          [],
+          []
+        ],
+        "comparison": [
+          [],
+          [],
+          [],
+          []
+        ],
+        "tipImportant": []
+      }
+    },
+    {
+      "auditId": "LRB102-0010",
+      "cardId": "sprechen|idx:5",
+      "status": "LABOT",
+      "reason": "Headword form, subject alignment, contrast, and foreign-language residue were wrong.",
+      "new": {
+        "lv": "konuşmak",
+        "study.translation": "konuşmak",
+        "study.explanation": [
+          "Ana fikir: sprechen, konuşmayı veya bir dili kullanmayı anlatır.",
+          "sagen ise belirli bir sözü söylemeye odaklanır."
+        ],
+        "study.examples": [
+          {
+            "de": "Ich spreche Deutsch.",
+            "lv": "Almanca konuşuyorum."
+          },
+          {
+            "de": "Wir sprechen über die Arbeit.",
+            "lv": "İş hakkında konuşuyoruz."
+          },
+          {
+            "de": "Sie spricht mit ihrer Lehrerin.",
+            "lv": "O öğretmeniyle konuşuyor."
+          }
+        ],
+        "study.comparison": [
+          {
+            "word": "sprechen",
+            "meaning": "konuşmak; konuşma süreci veya dil kullanımı",
+            "example": "Wir sprechen über die Arbeit. – İş hakkında konuşuyoruz."
+          },
+          {
+            "word": "sagen",
+            "meaning": "söylemek; belirli bir sözü ifade etmek",
+            "example": "Sag mir die Wahrheit. – Bana gerçeği söyle."
+          }
+        ],
+        "study.tip": [
+          "sprechen = konuşmak; sagen = bir şeyi söylemek."
+        ],
+        "study.important": [
+          "sprechen bir konuşma sürecini veya dil kullanımını anlatır."
+        ],
+        "study.sectionAccents": {
+          "explanation": [
+            {},
+            {}
+          ],
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "comparison": [
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            }
+          ],
+          "tip": [
+            {}
+          ],
+          "important": [
+            {}
+          ]
+        }
+      },
+      "accentTerms": {
+        "explanation": [],
+        "examples": [
+          [],
+          [],
+          []
+        ],
+        "comparison": [
+          [],
+          []
+        ],
+        "tipImportant": []
+      }
+    },
+    {
+      "auditId": "LRB102-0011",
+      "cardId": "Uhr|idx:698",
+      "status": "LABOT",
+      "reason": "Clock/time distinction was repetitive and internally inconsistent.",
+      "new": {
+        "lv": "saat",
+        "study.translation": "saat",
+        "study.explanation": [
+          "Ana fikir: die Uhr, saat cihazını veya tam saat bildirimini ifade eder.",
+          "Es ist acht Uhr cümlesinde “saat sekiz”; meine Uhr ifadesinde saat cihazı anlamındadır.",
+          "die Zeit ise genel olarak “zaman” demektir."
+        ],
+        "study.examples": [
+          {
+            "de": "Es ist acht Uhr.",
+            "lv": "Saat sekiz."
+          },
+          {
+            "de": "Es ist acht Uhr.",
+            "lv": "Saat sekiz."
+          },
+          {
+            "de": "Meine Uhr ist kaputt.",
+            "lv": "Saatim bozuk."
+          },
+          {
+            "de": "Es ist acht Uhr.",
+            "lv": "Saat sekiz."
+          },
+          {
+            "de": "Es ist acht Uhr.",
+            "lv": "Saat sekiz."
+          },
+          {
+            "de": "die Uhr",
+            "lv": "saat (cihaz veya saat bildirimi) • die Zeit = zaman"
+          }
+        ],
+        "study.tip": [
+          "Saat cihazı veya tam saat bildirimi → die Uhr; genel zaman → die Zeit."
+        ],
+        "study.important": [
+          "die Uhr = saat cihazı veya saat bildirimi.",
+          "die Zeit = zaman."
+        ],
+        "study.sectionAccents": {
+          "explanation": [
+            {},
+            {},
+            {}
+          ],
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "tip": [
+            {}
+          ],
+          "important": [
+            {},
+            {}
+          ]
+        }
+      },
+      "accentTerms": {
+        "explanation": [],
+        "examples": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "comparison": [],
+        "tipImportant": []
+      }
+    },
+    {
+      "auditId": "LRB102-0012",
+      "cardId": "Urlaub|idx:695",
+      "status": "LABOT",
+      "reason": "Urlaub/Ferien contrast, number, examples, and Polish residue were wrong.",
+      "new": {
+        "lv": "tatil • izin",
+        "study.translation": "tatil • izin",
+        "study.explanation": [
+          "Ana fikir: der Urlaub, işten izinli olunan tatil dönemini anlatır.",
+          "Urlaub bu temel kullanımda tekildir; im Urlaub ve Urlaub machen yaygın kalıplardır.",
+          "die Ferien çoğul kullanılır ve özellikle okul tatilini belirtir."
+        ],
+        "study.examples": [
+          {
+            "de": "Mein Vater ist im Urlaub.",
+            "lv": "Babam tatilde."
+          },
+          {
+            "de": "Mein Vater ist im Urlaub.",
+            "lv": "Babam tatilde."
+          },
+          {
+            "de": "Nächste Woche habe ich Urlaub.",
+            "lv": "Gelecek hafta izinliyim."
+          },
+          {
+            "de": "Wir machen Urlaub in Spanien.",
+            "lv": "İspanya’da tatil yapıyoruz."
+          },
+          {
+            "de": "im Urlaub",
+            "lv": "tatilde / izinde"
+          }
+        ],
+        "study.comparison": [
+          {
+            "word": "der Urlaub",
+            "meaning": "işten izin veya tatil; tekil",
+            "example": "Mein Vater ist im Urlaub. – Babam tatilde."
+          },
+          {
+            "word": "die Ferien",
+            "meaning": "özellikle okul tatili; çoğul",
+            "example": "Die Kinder haben Ferien. – Çocuklar tatilde."
+          }
+        ],
+        "study.tip": [
+          "İşten izin / tatil → der Urlaub; okul tatili → die Ferien."
+        ],
+        "study.important": [
+          "der Urlaub tekil kullanılır.",
+          "Urlaub ve Ferien aynı kullanım değildir."
+        ],
+        "study.sectionAccents": {
+          "explanation": [
+            {},
+            {},
+            {}
+          ],
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "comparison": [
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            }
+          ],
+          "tip": [
+            {}
+          ],
+          "important": [
+            {},
+            {}
+          ]
+        }
+      },
+      "accentTerms": {
+        "explanation": [],
+        "examples": [
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "comparison": [
+          [],
+          []
+        ],
+        "tipImportant": []
+      }
+    },
+    {
+      "auditId": "LRB102-0013",
+      "cardId": "vom|idx:634",
+      "status": "LABOT",
+      "reason": "Source/direction examples and preposition contrasts needed exact Turkish alignment.",
+      "new": {
+        "lv": "-den/-dan",
+        "study.translation": "-den/-dan",
+        "study.explanation": [
+          "Ana fikir: vom, von + dem birleşimidir ve eril ya da nötr tekil isimlerle dativ kullanılır.",
+          "Bir yerden, kişiden veya kaynaktan geliş ve köken bildirir."
+        ],
+        "study.examples": [
+          {
+            "de": "Ich komme vom Bahnhof.",
+            "lv": "İstasyondan geliyorum."
+          },
+          {
+            "de": "Das Geschenk ist vom Vater.",
+            "lv": "Hediye babadan."
+          },
+          {
+            "de": "Er kommt vom Arzt.",
+            "lv": "O doktordan geliyor."
+          },
+          {
+            "de": "Sie fährt vom Flughafen.",
+            "lv": "O havaalanından geliyor."
+          },
+          {
+            "de": "Das ist vom Markt.",
+            "lv": "Bu pazardan."
+          },
+          {
+            "de": "Wir kommen vom Fest.",
+            "lv": "Şenlikten geliyoruz."
+          },
+          {
+            "de": "Er holt Milch vom Bauern.",
+            "lv": "O sütü çiftçiden alıyor."
+          },
+          {
+            "de": "Die Nachricht ist vom Chef.",
+            "lv": "Mesaj patrondan."
+          }
+        ],
+        "study.comparison": [
+          {
+            "word": "vom",
+            "meaning": "-den/-dan; von + dem",
+            "example": "vom Bahnhof – istasyondan"
+          },
+          {
+            "word": "von",
+            "meaning": "-den/-dan; genel kaynak veya kişi",
+            "example": "von mir – benden"
+          },
+          {
+            "word": "aus",
+            "meaning": "-den/-dan; içinden veya ülkeden",
+            "example": "aus Deutschland – Almanya’dan"
+          },
+          {
+            "word": "ab",
+            "meaning": "-den/-dan; başlangıç zamanı",
+            "example": "ab Montag – pazartesiden itibaren"
+          },
+          {
+            "word": "zu",
+            "meaning": "-e/-a; yönelme",
+            "example": "zum Arzt – doktora"
+          }
+        ],
+        "study.tip": [
+          "vom = von + dem; yalnızca dativ eril veya nötr tekille kullanılır."
+        ],
+        "study.important": [
+          "vom bir çıkış, kaynak veya köken bildirir.",
+          "Dişil isimde von der kullanılır."
+        ],
+        "study.sectionAccents": {
+          "explanation": [
+            {},
+            {}
+          ],
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "comparison": [
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            }
+          ],
+          "tip": [
+            {}
+          ],
+          "important": [
+            {},
+            {}
+          ]
+        }
+      },
+      "accentTerms": {
+        "explanation": [],
+        "examples": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "comparison": [
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "tipImportant": []
+      }
+    },
+    {
+      "auditId": "LRB102-0014",
+      "cardId": "vor|idx:636",
+      "status": "LABOT",
+      "reason": "Clock expression and German comparison examples were mistranslated.",
+      "new": {
+        "lv": "önce • önünde",
+        "study.translation": "önce • önünde",
+        "study.explanation": [
+          "Ana fikir: vor, zaman bağlamında “önce”, yer bağlamında “önünde” anlamına gelir.",
+          "Saat söylerken vor, sonraki saate kalan dakikayı belirtir.",
+          "nach “sonra”, hinter “arkasında”, neben “yanında” anlamındadır."
+        ],
+        "study.examples": [
+          {
+            "de": "Vor dem Essen wasche ich die Hände.",
+            "lv": "Yemekten önce ellerimi yıkarım."
+          },
+          {
+            "de": "Das Auto steht vor dem Haus.",
+            "lv": "Araba evin önünde duruyor."
+          },
+          {
+            "de": "Es ist fünf vor acht.",
+            "lv": "Saat sekize beş var."
+          },
+          {
+            "de": "Nach dem Essen gehen wir spazieren.",
+            "lv": "Yemekten sonra yürüyüşe çıkıyoruz."
+          }
+        ],
+        "study.comparison": [
+          {
+            "word": "vor",
+            "meaning": "önce / önünde",
+            "example": "Vor dem Essen... – Yemekten önce..."
+          },
+          {
+            "word": "nach",
+            "meaning": "sonra / -e doğru",
+            "example": "Nach dem Essen... – Yemekten sonra..."
+          },
+          {
+            "word": "neben",
+            "meaning": "yanında",
+            "example": "Neben dem Haus. – Evin yanında."
+          },
+          {
+            "word": "hinter",
+            "meaning": "arkasında",
+            "example": "Hinter dem Haus. – Evin arkasında."
+          }
+        ],
+        "study.tip": {
+          "text": "Zaman → önce; yer → önünde."
+        },
+        "study.important": [
+          "vor bağlama göre zaman veya yer ilişkisi kurar.",
+          "fünf vor acht = sekize beş var."
+        ],
+        "study.sectionAccents": {
+          "explanation": [
+            {},
+            {},
+            {}
+          ],
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "comparison": [
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            }
+          ],
+          "tip": {
+            "left": {}
+          },
+          "important": [
+            {},
+            {}
+          ]
+        }
+      },
+      "accentTerms": {
+        "explanation": [],
+        "examples": [
+          [],
+          [],
+          [],
+          []
+        ],
+        "comparison": [
+          [],
+          [],
+          [],
+          []
+        ],
+        "tipImportant": []
+      }
+    },
+    {
+      "auditId": "LRB102-0015",
+      "cardId": "was|idx:644",
+      "status": "LABOT",
+      "reason": "Question-word scope and guidance contained unnatural or false explanations.",
+      "new": {
+        "lv": "ne",
+        "study.translation": "ne",
+        "study.explanation": [
+          "Ana fikir: was, şeyler, olaylar veya içerik hakkında “ne?” sorusunu sorar.",
+          "Kişiler için wer kullanılır; was für... ise “nasıl bir / ne tür” anlamına gelir."
+        ],
+        "study.examples": [
+          {
+            "de": "Was ist das?",
+            "lv": "Bu ne?"
+          },
+          {
+            "de": "Was ist passiert?",
+            "lv": "Ne oldu?"
+          },
+          {
+            "de": "Was machst du gerade?",
+            "lv": "Şu anda ne yapıyorsun?"
+          },
+          {
+            "de": "Was möchtest du trinken?",
+            "lv": "Ne içmek istersin?"
+          },
+          {
+            "de": "Was bedeutet dieses Wort?",
+            "lv": "Bu sözcük ne anlama geliyor?"
+          },
+          {
+            "de": "Was ist dein Lieblingsessen?",
+            "lv": "En sevdiğin yemek nedir?"
+          },
+          {
+            "de": "Was hast du gesagt?",
+            "lv": "Ne dedin?"
+          }
+        ],
+        "study.tip": [
+          "Kişi → wer; şey, olay veya içerik → was."
+        ],
+        "study.important": [
+          "was = ne; kişiler için kullanılmaz.",
+          "was für... = ne tür / nasıl bir."
+        ],
+        "study.sectionAccents": {
+          "explanation": [
+            {},
+            {}
+          ],
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "tip": [
+            {}
+          ],
+          "important": [
+            {},
+            {}
+          ]
+        }
+      },
+      "accentTerms": {
+        "explanation": [],
+        "examples": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "comparison": [],
+        "tipImportant": []
+      }
+    },
+    {
+      "auditId": "LRB102-0016",
+      "cardId": "wenn|idx:655",
+      "status": "LABOT",
+      "reason": "Conditional/temporal wenn and wenn/wann/ob contrast required correction.",
+      "new": {
+        "lv": "eğer • -dığında/-diğinde",
+        "study.translation": "eğer • -dığında/-diğinde",
+        "study.explanation": [
+          "Ana fikir: wenn, koşul bildirirken “eğer”, tekrarlanan veya şimdiki/gelecekteki zaman ilişkilerinde “-dığında” anlamına gelir.",
+          "wenn ile başlayan yan cümlede çekimli fiil sona gider.",
+          "wann doğrudan veya dolaylı zaman sorularında, ob ise “olup olmadığını” anlamında kullanılır."
+        ],
+        "study.examples": [
+          {
+            "de": "Wenn du Zeit hast, komm vorbei.",
+            "lv": "Vaktin varsa uğra."
+          },
+          {
+            "de": "Wenn es regnet, bleibe ich zu Hause.",
+            "lv": "Yağmur yağdığında evde kalırım."
+          },
+          {
+            "de": "Wenn ich müde bin, trinke ich Kaffee.",
+            "lv": "Yorgun olduğumda kahve içerim."
+          },
+          {
+            "de": "Ich weiß nicht, ob er kommt.",
+            "lv": "Onun gelip gelmeyeceğini bilmiyorum."
+          }
+        ],
+        "study.comparison": [
+          {
+            "word": "wenn",
+            "meaning": "eğer / -dığında",
+            "example": "Wenn du Zeit hast... – Vaktin varsa..."
+          },
+          {
+            "word": "ob",
+            "meaning": "olup olmadığını",
+            "example": "Ich weiß nicht, ob... – ...olup olmadığını bilmiyorum."
+          },
+          {
+            "word": "wann",
+            "meaning": "ne zaman",
+            "example": "Wann kommst du? – Ne zaman geliyorsun?"
+          },
+          {
+            "word": "weil",
+            "meaning": "çünkü",
+            "example": "Ich bleibe, weil ich krank bin. – Hasta olduğum için kalıyorum."
+          }
+        ],
+        "study.tip": {
+          "text": "Koşul veya tekrarlanan zaman → wenn; zaman sorusu → wann."
+        },
+        "study.important": [
+          "wenn yan cümlesinde çekimli fiil sona gider.",
+          "wenn ve wann aynı görevde değildir."
+        ],
+        "study.sectionAccents": {
+          "explanation": [
+            {},
+            {},
+            {}
+          ],
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "comparison": [
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            }
+          ],
+          "tip": {
+            "left": {}
+          },
+          "important": [
+            {},
+            {}
+          ]
+        }
+      },
+      "accentTerms": {
+        "explanation": [],
+        "examples": [
+          [],
+          [],
+          [],
+          []
+        ],
+        "comparison": [
+          [],
+          [],
+          [],
+          []
+        ],
+        "tipImportant": []
+      }
+    },
+    {
+      "auditId": "LRB102-0017",
+      "cardId": "wer|idx:656",
+      "status": "LABOT",
+      "reason": "Person-question case paradigm and Turkish examples/guidance were incomplete.",
+      "new": {
+        "lv": "kim",
+        "study.translation": "kim",
+        "study.explanation": [
+          "Ana fikir: wer, kişiler hakkında “kim?” sorusunu sorar.",
+          "Hâle göre wer, wen, wem ve wessen biçimleri kullanılır."
+        ],
+        "study.examples": [
+          {
+            "de": "Wer ist das?",
+            "lv": "Bu kim?"
+          },
+          {
+            "de": "Wer bist du?",
+            "lv": "Sen kimsin?"
+          },
+          {
+            "de": "Wer kommt heute?",
+            "lv": "Bugün kim geliyor?"
+          },
+          {
+            "de": "Wer ist deine Lehrerin?",
+            "lv": "Öğretmenin kim?"
+          },
+          {
+            "de": "Wer von euch spricht Deutsch?",
+            "lv": "Aranızdan kim Almanca konuşuyor?"
+          },
+          {
+            "de": "Wer hat das gesagt?",
+            "lv": "Bunu kim söyledi?"
+          },
+          {
+            "de": "Wer möchte Kaffee?",
+            "lv": "Kim kahve ister?"
+          }
+        ],
+        "study.tip": [
+          "Kişi sorusu → wer; şey veya olay sorusu → was."
+        ],
+        "study.important": [
+          "wer yalnızca kişiler için kullanılır.",
+          "Nominativ wer; Akkusativ wen; Dativ wem; Genitiv wessen."
+        ],
+        "study.sectionAccents": {
+          "explanation": [
+            {},
+            {}
+          ],
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "tip": [
+            {}
+          ],
+          "important": [
+            {},
+            {}
+          ]
+        }
+      },
+      "accentTerms": {
+        "explanation": [],
+        "examples": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "comparison": [],
+        "tipImportant": []
+      }
+    },
+    {
+      "auditId": "LRB102-0018",
+      "cardId": "wissen|idx:311",
+      "status": "LABOT",
+      "reason": "wissen/kennen contrast, formal address, and examples were defective.",
+      "new": {
+        "lv": "bilmek",
+        "study.translation": "bilmek",
+        "study.explanation": [
+          "Ana fikir: wissen, bir bilgiyi veya gerçeği bilmek anlamına gelir.",
+          "Bir kişi, yer veya nesneyle tanışıklık için kennen kullanılır."
+        ],
+        "study.examples": [
+          {
+            "de": "Ich weiß, wo er wohnt.",
+            "lv": "Onun nerede oturduğunu biliyorum."
+          },
+          {
+            "de": "Woher wissen Sie das?",
+            "lv": "Bunu nereden biliyorsunuz?"
+          },
+          {
+            "de": "Ich weiß die Antwort.",
+            "lv": "Cevabı biliyorum."
+          }
+        ],
+        "study.comparison": [
+          {
+            "word": "wissen",
+            "meaning": "bir gerçeği veya bilgiyi bilmek",
+            "example": "Ich weiß, wo er wohnt. – Onun nerede oturduğunu biliyorum."
+          },
+          {
+            "word": "kennen",
+            "meaning": "bir kişiyi, yeri veya şeyi tanımak",
+            "example": "Ich kenne die Stadt. – Şehri tanıyorum."
+          }
+        ],
+        "study.tip": [
+          "Bilgi veya gerçek → wissen; tanışıklık → kennen."
+        ],
+        "study.important": [
+          "wissen ve kennen aynı değildir."
+        ],
+        "study.sectionAccents": {
+          "explanation": [
+            {},
+            {}
+          ],
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "comparison": [
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            }
+          ],
+          "tip": [
+            {}
+          ],
+          "important": [
+            {}
+          ]
+        }
+      },
+      "accentTerms": {
+        "explanation": [],
+        "examples": [
+          [],
+          [],
+          []
+        ],
+        "comparison": [
+          [],
+          []
+        ],
+        "tipImportant": []
+      }
+    },
+    {
+      "auditId": "LRB102-0019",
+      "cardId": "Zeit|idx:699",
+      "status": "LABOT",
+      "reason": "Zeit/Uhr distinction and duplicated guidance needed repair.",
+      "new": {
+        "lv": "zaman",
+        "study.translation": "zaman",
+        "study.explanation": [
+          "Ana fikir: die Zeit, genel olarak zamanı, süreyi veya bir işi yapma fırsatını belirtir.",
+          "Saat cihazı veya tam saat bildirimi için die Uhr kullanılır."
+        ],
+        "study.examples": [
+          {
+            "de": "Ich habe keine Zeit.",
+            "lv": "Zamanım yok."
+          },
+          {
+            "de": "Ich habe keine Zeit.",
+            "lv": "Zamanım yok."
+          },
+          {
+            "de": "Hast du Zeit?",
+            "lv": "Vaktin var mı?"
+          },
+          {
+            "de": "Die Zeit vergeht schnell.",
+            "lv": "Zaman çabuk geçiyor."
+          }
+        ],
+        "study.tip": [
+          "Genel zaman veya süre → die Zeit; saat cihazı / tam saat → die Uhr."
+        ],
+        "study.important": [
+          "die Zeit = zaman; die Uhr = saat."
+        ],
+        "study.sectionAccents": {
+          "explanation": [
+            {},
+            {}
+          ],
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "tip": [
+            {}
+          ],
+          "important": [
+            {}
+          ]
+        }
+      },
+      "accentTerms": {
+        "explanation": [],
+        "examples": [
+          [],
+          [],
+          [],
+          []
+        ],
+        "comparison": [],
+        "tipImportant": []
+      }
+    },
+    {
+      "auditId": "LRB102-0020",
+      "cardId": "zum|idx:672",
+      "status": "LABOT",
+      "reason": "zu + dem case/direction semantics and comparison values contained residue/errors.",
+      "new": {
+        "lv": "-e/-a • -ye/-ya",
+        "study.translation": "-e/-a • -ye/-ya",
+        "study.explanation": [
+          "Ana fikir: zum, zu + dem birleşimidir ve eril ya da nötr tekil isimlerle dativ kullanılır.",
+          "Bir kişiye, yere, etkinliğe veya amaca yönelmeyi belirtir.",
+          "Dişil isimlerde zur kullanılır."
+        ],
+        "study.examples": [
+          {
+            "de": "Ich gehe zum Arzt.",
+            "lv": "Doktora gidiyorum."
+          },
+          {
+            "de": "Wir fahren zum Bahnhof.",
+            "lv": "İstasyona gidiyoruz."
+          },
+          {
+            "de": "Sie geht zum Supermarkt.",
+            "lv": "O süpermarkete gidiyor."
+          },
+          {
+            "de": "Komm zum Essen!",
+            "lv": "Yemeğe gel!"
+          },
+          {
+            "de": "Er fährt zum Flughafen.",
+            "lv": "O havaalanına gidiyor."
+          },
+          {
+            "de": "Wir gehen zum Konzert.",
+            "lv": "Konsere gidiyoruz."
+          },
+          {
+            "de": "Das Geschenk ist zum Geburtstag.",
+            "lv": "Hediye doğum günü için."
+          },
+          {
+            "de": "Ich gehe zum Friseur.",
+            "lv": "Kuaföre gidiyorum."
+          }
+        ],
+        "study.comparison": [
+          {
+            "word": "zum",
+            "meaning": "-e/-a; zu + dem",
+            "example": "zum Arzt – doktora"
+          },
+          {
+            "word": "zur",
+            "meaning": "-e/-a; zu + der",
+            "example": "zur Schule – okula"
+          },
+          {
+            "word": "zu",
+            "meaning": "evde",
+            "example": "zu Hause – evde"
+          },
+          {
+            "word": "nach",
+            "meaning": "-e/-a; şehir veya ülke yönü",
+            "example": "nach Berlin – Berlin’e"
+          },
+          {
+            "word": "bei",
+            "meaning": "-de/-da; bir kişinin yanında",
+            "example": "beim Arzt – doktorda"
+          }
+        ],
+        "study.tip": [
+          "zum = zu + dem; dişil isimlerle zur kullanılır."
+        ],
+        "study.important": [
+          "zum yön veya amaç bildirir ve dativ gerektirir."
+        ],
+        "study.sectionAccents": {
+          "explanation": [
+            {},
+            {},
+            {}
+          ],
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "comparison": [
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            }
+          ],
+          "tip": [
+            {}
+          ],
+          "important": [
+            {}
+          ]
+        }
+      },
+      "accentTerms": {
+        "explanation": [],
+        "examples": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "comparison": [
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "tipImportant": []
+      }
+    },
+    {
+      "auditId": "LRB102-0021",
+      "cardId": "ab|idx:17",
+      "status": "LABOT",
+      "reason": "Starting-point senses and truncated time/station examples were defective.",
+      "new": {
+        "lv": "з • починаючи з",
+        "study.translation": "з • починаючи з",
+        "study.explanation": [
+          "Головна думка: ab позначає початкову точку в часі, місці або маршруті.",
+          "У часовому значенні часто перекладається як «з» або «починаючи з»."
+        ],
+        "study.examples": [
+          {
+            "de": "ab heute",
+            "level": "A1",
+            "lv": "від сьогодні"
+          },
+          {
+            "de": "ab Montag",
+            "lv": "з понеділка"
+          },
+          {
+            "de": "ab 8 Uhr",
+            "lv": "з восьмої години"
+          },
+          {
+            "de": "ab Bahnhof",
+            "lv": "від вокзалу"
+          }
+        ],
+        "study.comparison": [
+          {
+            "word": "ab",
+            "meaning": "починаючи з певної точки або часу",
+            "example": "ab Montag – з понеділка"
+          },
+          {
+            "word": "von",
+            "meaning": "від когось або чогось",
+            "example": "von mir – від мене"
+          },
+          {
+            "word": "aus",
+            "meaning": "зсередини / з",
+            "example": "aus dem Haus – з будинку"
+          }
+        ],
+        "study.tip": {
+          "text": "Запам’ятай: початкова точка в часі або місці → ab."
+        },
+        "study.important": [
+          "ab позначає початкову точку.",
+          "von указує на джерело, а aus — на рух ізсередини."
+        ],
+        "study.sectionAccents": {
+          "explanation": [
+            {},
+            {}
+          ],
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "comparison": [
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            }
+          ],
+          "tip": {
+            "left": {}
+          },
+          "important": [
+            {},
+            {}
+          ]
+        }
+      },
+      "accentTerms": {
+        "explanation": [],
+        "examples": [
+          [],
+          [],
+          [],
+          []
+        ],
+        "comparison": [
+          [],
+          [],
+          []
+        ],
+        "tipImportant": []
+      }
+    },
+    {
+      "auditId": "LRB102-0022",
+      "cardId": "aber|idx:21",
+      "status": "LABOT",
+      "reason": "aber/sondern contrast was reversed and target grammar/alignment was faulty.",
+      "new": {
+        "lv": "але • проте",
+        "study.translation": "але • проте",
+        "study.explanation": [
+          "Головна думка: aber поєднує дві думки й виражає протиставлення або заперечення.",
+          "sondern уживають після заперечення в конструкції «не..., а...», а jedoch є формальнішим відповідником «проте»."
+        ],
+        "study.examples": [
+          {
+            "de": "Ich möchte mitkommen, aber ich habe keine Zeit.",
+            "lv": "Я хочу піти разом, але не маю часу."
+          },
+          {
+            "de": "Das Essen war lecker, aber zu teuer.",
+            "lv": "Їжа була смачною, але надто дорогою."
+          },
+          {
+            "de": "Er hat recht, aber ich sehe das anders.",
+            "lv": "Він має рацію, але я дивлюся на це інакше."
+          }
+        ],
+        "study.comparison": [
+          {
+            "word": "aber",
+            "meaning": "але",
+            "example": "Ich komme, aber später. – Я прийду, але пізніше."
+          },
+          {
+            "word": "sondern",
+            "meaning": "не..., а...",
+            "example": "Ich wollte keinen Tee, sondern Kaffee. – Я хотів / хотіла не чаю, а кави."
+          },
+          {
+            "word": "jedoch",
+            "meaning": "проте; формальніше",
+            "example": "Es ist kalt, jedoch sonnig. – Холодно, проте сонячно."
+          }
+        ],
+        "study.tip": {
+          "text": "Після заперечення для виправлення вживай sondern; в інших протиставленнях — aber."
+        },
+        "study.important": [
+          "aber = але / проте.",
+          "aber і sondern не взаємозамінні в конструкції «не..., а...»."
+        ],
+        "study.sectionAccents": {
+          "explanation": [
+            {},
+            {}
+          ],
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "comparison": [
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            }
+          ],
+          "tip": {
+            "left": {}
+          },
+          "important": [
+            {},
+            {}
+          ]
+        }
+      },
+      "accentTerms": {
+        "explanation": [],
+        "examples": [
+          [],
+          [],
+          []
+        ],
+        "comparison": [
+          [],
+          [],
+          []
+        ],
+        "tipImportant": []
+      }
+    },
+    {
+      "auditId": "LRB102-0023",
+      "cardId": "also|idx:26",
+      "status": "LABOT",
+      "reason": "also was narrowed to “therefore”; result/addition contrast and examples were faulty.",
+      "new": {
+        "lv": "отже • тож",
+        "study.translation": "отже • тож",
+        "study.explanation": [
+          "Головна думка: also вводить висновок або наслідок: «отже», «тож».",
+          "auch означає «також», а deshalb — «тому» й так само виражає наслідок."
+        ],
+        "study.examples": [
+          {
+            "de": "Es regnet, also bleibe ich zu Hause.",
+            "lv": "Іде дощ, отже я залишаюся вдома."
+          },
+          {
+            "de": "Du bist krank, also gehst du nicht zur Arbeit.",
+            "lv": "Ти хворий / хвора, отже не йдеш на роботу."
+          },
+          {
+            "de": "Ich habe viel gelernt, also verstehe ich es jetzt.",
+            "lv": "Я багато вчився / вчилася, отже тепер це розумію."
+          }
+        ],
+        "study.comparison": [
+          {
+            "word": "also",
+            "meaning": "отже / тож",
+            "example": "Es regnet, also bleibe ich zu Hause. – Іде дощ, отже я залишаюся вдома."
+          },
+          {
+            "word": "auch",
+            "meaning": "також / теж",
+            "example": "Ich komme auch. – Я теж прийду."
+          },
+          {
+            "word": "deshalb",
+            "meaning": "тому",
+            "example": "Es regnet, deshalb bleibe ich zu Hause. – Іде дощ, тому я залишаюся вдома."
+          }
+        ],
+        "study.tip": {
+          "text": "Висновок або наслідок → also; додавання «також» → auch."
+        },
+        "study.important": [
+          "Німецьке also означає «отже / тож», а не «також»."
+        ],
+        "study.sectionAccents": {
+          "explanation": [
+            {},
+            {}
+          ],
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "comparison": [
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            }
+          ],
+          "tip": {
+            "left": {}
+          },
+          "important": [
+            {}
+          ]
+        }
+      },
+      "accentTerms": {
+        "explanation": [],
+        "examples": [
+          [],
+          [],
+          []
+        ],
+        "comparison": [
+          [],
+          [],
+          []
+        ],
+        "tipImportant": []
+      }
+    },
+    {
+      "auditId": "LRB102-0024",
+      "cardId": "an|idx:12",
+      "status": "LABOT",
+      "reason": "Vertical-contact/proximity meanings and an/auf/bei contrasts needed correction.",
+      "new": {
+        "lv": "біля • на",
+        "study.translation": "біля • на",
+        "study.explanation": [
+          "Головна думка: an указує на близькість або контакт із вертикальною поверхнею.",
+          "am — це скорочення an dem; конкретний переклад залежить від місця."
+        ],
+        "study.examples": [
+          {
+            "de": "an der Wand",
+            "lv": "на стіні / біля стіни"
+          },
+          {
+            "de": "am Fenster",
+            "lv": "біля вікна"
+          },
+          {
+            "de": "am Meer",
+            "lv": "біля моря"
+          }
+        ],
+        "study.comparison": [
+          {
+            "word": "an",
+            "meaning": "біля / на вертикальній поверхні",
+            "example": "an der Wand – на стіні / біля стіни"
+          },
+          {
+            "word": "auf",
+            "meaning": "на горизонтальній поверхні",
+            "example": "auf dem Tisch – на столі"
+          },
+          {
+            "word": "bei",
+            "meaning": "у когось / у певному місці",
+            "example": "beim Arzt – у лікаря"
+          }
+        ],
+        "study.tip": {
+          "text": "Вертикальна поверхня або край → an; горизонтальна поверхня → auf."
+        },
+        "study.important": [
+          "an керує давальним відмінком для місця й знахідним для напрямку."
+        ],
+        "study.sectionAccents": {
+          "explanation": [
+            {},
+            {}
+          ],
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "comparison": [
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            }
+          ],
+          "tip": {
+            "left": {}
+          },
+          "important": [
+            {}
+          ]
+        }
+      },
+      "accentTerms": {
+        "explanation": [],
+        "examples": [
+          [],
+          [],
+          []
+        ],
+        "comparison": [
+          [],
+          [],
+          []
+        ],
+        "tipImportant": []
+      }
+    },
+    {
+      "auditId": "LRB102-0025",
+      "cardId": "auch|idx:48",
+      "status": "LABOT",
+      "reason": "All examples were scrambled or unnatural and the full card needed rebuilding.",
+      "new": {
+        "lv": "також • теж",
+        "study.translation": "також • теж",
+        "study.explanation": [
+          "Головна думка: auch додає ще одну особу, дію або ознаку зі значенням «також / теж».",
+          "Місце auch у реченні залежить від того, який елемент потрібно підкреслити."
+        ],
+        "study.examples": [
+          {
+            "de": "Ich komme auch.",
+            "lv": "Я теж прийду."
+          },
+          {
+            "de": "Sie arbeitet auch hier.",
+            "lv": "Вона теж працює тут."
+          },
+          {
+            "de": "Ich wünsche Ihnen auch einen schönen Tag.",
+            "lv": "Я також бажаю Вам гарного дня."
+          }
+        ],
+        "study.tip": [
+          "Став auch ближче до того слова або частини речення, яку додаєш."
+        ],
+        "study.important": [
+          "auch = також / теж."
+        ],
+        "study.sectionAccents": {
+          "explanation": [
+            {},
+            {}
+          ],
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "tip": [
+            {}
+          ],
+          "important": [
+            {}
+          ]
+        }
+      },
+      "accentTerms": {
+        "explanation": [],
+        "examples": [
+          [],
+          [],
+          []
+        ],
+        "comparison": [],
+        "tipImportant": []
+      }
+    },
+    {
+      "auditId": "LRB102-0026",
+      "cardId": "auf|idx:49",
+      "status": "LABOT",
+      "reason": "Movement onto a surface, verbs, cases, and comparison alignment were wrong.",
+      "new": {
+        "lv": "на",
+        "study.translation": "на",
+        "study.explanation": [
+          "Головна думка: auf із знахідним відмінком указує напрямок на поверхню або до певних відкритих місць.",
+          "Для місця без руху auf уживається з давальним відмінком."
+        ],
+        "study.examples": [
+          {
+            "de": "Ich stelle das Buch auf den Tisch.",
+            "lv": "Я ставлю книжку на стіл."
+          },
+          {
+            "de": "Wir fahren auf den Berg.",
+            "lv": "Ми їдемо на гору."
+          },
+          {
+            "de": "Die Katze springt auf das Sofa.",
+            "lv": "Кіт стрибає на диван."
+          }
+        ],
+        "study.comparison": [
+          {
+            "word": "auf",
+            "meaning": "на поверхню",
+            "example": "Ich stelle das Glas auf den Tisch. – Я ставлю склянку на стіл."
+          },
+          {
+            "word": "an",
+            "meaning": "до вертикальної поверхні",
+            "example": "Ich hänge das Bild an die Wand. – Я вішаю картину на стіну."
+          },
+          {
+            "word": "in",
+            "meaning": "усередину",
+            "example": "Ich lege das Buch in die Tasche. – Я кладу книжку в сумку."
+          }
+        ],
+        "study.tip": {
+          "text": "Напрямок «куди?» → auf + Akkusativ; місце «де?» → auf + Dativ."
+        },
+        "study.important": [
+          "auf не завжди означає місце: з Akkusativ воно часто виражає напрямок."
+        ],
+        "study.sectionAccents": {
+          "explanation": [
+            {},
+            {}
+          ],
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "comparison": [
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            }
+          ],
+          "tip": {
+            "left": {}
+          },
+          "important": [
+            {}
+          ]
+        }
+      },
+      "accentTerms": {
+        "explanation": [],
+        "examples": [
+          [],
+          [],
+          []
+        ],
+        "comparison": [
+          [],
+          [],
+          []
+        ],
+        "tipImportant": []
+      }
+    },
+    {
+      "auditId": "LRB102-0027",
+      "cardId": "aufs|idx:60",
+      "status": "LABOT",
+      "reason": "aufs contraction, accusative direction, and multiple examples were mistranslated.",
+      "new": {
+        "lv": "на • куди?",
+        "study.translation": "на • куди?",
+        "study.explanation": [
+          "Головна думка: aufs — це скорочення auf das.",
+          "Уживається з іменником середнього роду в знахідному відмінку й зазвичай відповідає на питання «куди?»."
+        ],
+        "study.examples": [
+          {
+            "de": "Ich gehe aufs Dach.",
+            "lv": "Я йду на дах."
+          },
+          {
+            "de": "Sie setzt sich aufs Sofa.",
+            "lv": "Вона сідає на диван."
+          },
+          {
+            "de": "Wir fahren aufs Land.",
+            "lv": "Ми їдемо за місто."
+          },
+          {
+            "de": "Stell die Tasche aufs Bett.",
+            "lv": "Постав сумку на ліжко."
+          },
+          {
+            "de": "Er springt aufs Pferd.",
+            "lv": "Він застрибує на коня."
+          },
+          {
+            "de": "Leg das Buch aufs Regal.",
+            "lv": "Поклади книжку на полицю."
+          },
+          {
+            "de": "Komm schnell aufs Boot!",
+            "lv": "Швидше заходь на човен!"
+          },
+          {
+            "de": "Wir gehen aufs Fest.",
+            "lv": "Ми йдемо на свято."
+          }
+        ],
+        "study.comparison": [
+          {
+            "word": "aufs",
+            "meaning": "на; auf + das",
+            "example": "aufs Dach – на дах"
+          },
+          {
+            "word": "auf",
+            "meaning": "на; інший рід",
+            "example": "auf den Tisch – на стіл"
+          },
+          {
+            "word": "an",
+            "meaning": "до вертикальної поверхні",
+            "example": "an die Wand – на стіну"
+          },
+          {
+            "word": "ins",
+            "meaning": "усередину; in + das",
+            "example": "ins Zimmer – у кімнату"
+          },
+          {
+            "word": "zum",
+            "meaning": "до особи або місця",
+            "example": "zum Arzt – до лікаря"
+          }
+        ],
+        "study.tip": [
+          "aufs = auf + das і зазвичай позначає напрямок."
+        ],
+        "study.important": [
+          "aufs відповідає на «куди?», а auf dem — на «де?»."
+        ],
+        "study.sectionAccents": {
+          "explanation": [
+            {},
+            {}
+          ],
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "comparison": [
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            }
+          ],
+          "tip": [
+            {}
+          ],
+          "important": [
+            {}
+          ]
+        }
+      },
+      "accentTerms": {
+        "explanation": [],
+        "examples": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "comparison": [
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "tipImportant": []
+      }
+    },
+    {
+      "auditId": "LRB102-0028",
+      "cardId": "aus|idx:57",
+      "status": "LABOT",
+      "reason": "Inside-origin semantics and aus/von/ab contrast needed precise repair.",
+      "new": {
+        "lv": "з • із",
+        "study.translation": "з • із",
+        "study.explanation": [
+          "Головна думка: aus указує на походження або рух ізсередини назовні.",
+          "Його вживають із давальним відмінком."
+        ],
+        "study.examples": [
+          {
+            "de": "Ich komme aus Deutschland.",
+            "lv": "Я з Німеччини."
+          },
+          {
+            "de": "Er geht aus dem Haus.",
+            "lv": "Він виходить із будинку."
+          },
+          {
+            "de": "Ich nehme das Buch aus der Tasche.",
+            "lv": "Я дістаю книжку із сумки."
+          }
+        ],
+        "study.comparison": [
+          {
+            "word": "aus",
+            "meaning": "ізсередини / з країни",
+            "example": "aus dem Haus – із будинку"
+          },
+          {
+            "word": "von",
+            "meaning": "від особи або джерела",
+            "example": "von meinem Freund – від мого друга"
+          },
+          {
+            "word": "ab",
+            "meaning": "починаючи з часу",
+            "example": "ab Montag – з понеділка"
+          }
+        ],
+        "study.tip": {
+          "text": "Рух ізсередини або походження з країни → aus."
+        },
+        "study.important": [
+          "aus + Dativ позначає рух ізсередини або походження."
+        ],
+        "study.sectionAccents": {
+          "explanation": [
+            {},
+            {}
+          ],
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "comparison": [
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            }
+          ],
+          "tip": {
+            "left": {}
+          },
+          "important": [
+            {}
+          ]
+        }
+      },
+      "accentTerms": {
+        "explanation": [],
+        "examples": [
+          [],
+          [],
+          []
+        ],
+        "comparison": [
+          [],
+          [],
+          []
+        ],
+        "tipImportant": []
+      }
+    },
+    {
+      "auditId": "LRB102-0029",
+      "cardId": "das|idx:129",
+      "status": "LABOT",
+      "reason": "Article/pronoun roles, gender grammar, and das/dass contrast were wrong.",
+      "new": {
+        "lv": "означений артикль середнього роду",
+        "study.translation": "означений артикль середнього роду",
+        "study.explanation": [
+          "Головна думка: das — означений артикль середнього роду в називному та знахідному відмінках.",
+          "das також може бути вказівним займенником «це» або відносним займенником.",
+          "Сполучник «що» пишеться dass із двома s."
+        ],
+        "study.examples": [
+          {
+            "de": "Das ist mein Auto.",
+            "lv": "Це мій автомобіль."
+          },
+          {
+            "de": "Das ist gut.",
+            "lv": "Це добре."
+          },
+          {
+            "de": "Das Buch, das ich lese, ist interessant.",
+            "lv": "Книжка, яку я читаю, цікава."
+          }
+        ],
+        "study.comparison": [
+          {
+            "word": "das",
+            "meaning": "це / артикль / відносний займенник",
+            "example": "Das ist mein Auto. – Це мій автомобіль."
+          },
+          {
+            "word": "dies",
+            "meaning": "це; вказівне слово",
+            "example": "Dies ist mein Auto. – Це мій автомобіль."
+          },
+          {
+            "word": "welches",
+            "meaning": "який / яка / яке; відносний займенник",
+            "example": "Das ist das Buch, welches ich lese. – Це книжка, яку я читаю."
+          }
+        ],
+        "study.tip": {
+          "text": "Середній рід → das; сполучник «що» → dass."
+        },
+        "study.important": [
+          "das і dass — різні слова.",
+          "das може бути артиклем або займенником."
+        ],
+        "study.sectionAccents": {
+          "explanation": [
+            {},
+            {},
+            {}
+          ],
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "comparison": [
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            }
+          ],
+          "tip": {
+            "left": {}
+          },
+          "important": [
+            {},
+            {}
+          ]
+        }
+      },
+      "accentTerms": {
+        "explanation": [],
+        "examples": [
+          [],
+          [],
+          []
+        ],
+        "comparison": [
+          [],
+          [],
+          []
+        ],
+        "tipImportant": []
+      }
+    },
+    {
+      "auditId": "LRB102-0030",
+      "cardId": "dass|idx:130",
+      "status": "LABOT",
+      "reason": "Subordinate-clause grammar and dass/weil/damit/ob meanings were wrong.",
+      "new": {
+        "lv": "що",
+        "study.translation": "що",
+        "study.explanation": [
+          "Головна думка: dass — сполучник «що», який вводить підрядне речення.",
+          "У підрядному реченні з dass відмінюване дієслово зазвичай стоїть у кінці."
+        ],
+        "study.examples": [
+          {
+            "de": "Ich weiß, dass du müde bist.",
+            "lv": "Я знаю, що ти втомився / втомилася."
+          },
+          {
+            "de": "Er sagt, dass er kommt.",
+            "lv": "Він каже, що прийде."
+          },
+          {
+            "de": "Ich glaube, dass das stimmt.",
+            "lv": "Я думаю, що це правда."
+          }
+        ],
+        "study.comparison": [
+          {
+            "word": "dass",
+            "meaning": "що",
+            "example": "Ich weiß, dass er kommt. – Я знаю, що він прийде."
+          },
+          {
+            "word": "weil",
+            "meaning": "тому що",
+            "example": "Ich bleibe zu Hause, weil es regnet. – Я залишаюся вдома, тому що йде дощ."
+          },
+          {
+            "word": "damit",
+            "meaning": "щоб",
+            "example": "Ich lerne Deutsch, damit ich in Deutschland arbeiten kann. – Я вивчаю німецьку, щоб мати змогу працювати в Німеччині."
+          },
+          {
+            "word": "ob",
+            "meaning": "чи",
+            "example": "Ich weiß nicht, ob er kommt. – Я не знаю, чи він прийде."
+          }
+        ],
+        "study.tip": {
+          "text": "Після dass відмінюване дієслово став у кінець підрядного речення."
+        },
+        "study.important": [
+          "dass = сполучник «що»; das = артикль або займенник."
+        ],
+        "study.sectionAccents": {
+          "explanation": [
+            {},
+            {}
+          ],
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "comparison": [
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            }
+          ],
+          "tip": {
+            "left": {}
+          },
+          "important": [
+            {}
+          ]
+        }
+      },
+      "accentTerms": {
+        "explanation": [],
+        "examples": [
+          [],
+          [],
+          []
+        ],
+        "comparison": [
+          [],
+          [],
+          [],
+          []
+        ],
+        "tipImportant": []
+      }
+    },
+    {
+      "auditId": "LRB102-0031",
+      "cardId": "der|idx:134",
+      "status": "LABOT",
+      "reason": "Masculine nominative article explanation and examples needed grammatical repair.",
+      "new": {
+        "lv": "означений артикль чоловічого роду",
+        "study.translation": "означений артикль чоловічого роду",
+        "study.explanation": [
+          "Головна думка: der — означений артикль чоловічого роду в називному відмінку однини.",
+          "Форма артикля змінюється залежно від роду, числа й відмінка."
+        ],
+        "study.examples": [
+          {
+            "de": "Der Mann ist hier.",
+            "lv": "Чоловік тут."
+          },
+          {
+            "de": "Der Bus kommt.",
+            "lv": "Автобус прибуває."
+          },
+          {
+            "de": "Der Lehrer spricht.",
+            "lv": "Учитель говорить."
+          }
+        ],
+        "study.tip": {
+          "text": "Чоловічий рід, Nominativ, однина → der."
+        },
+        "study.important": [
+          "der уживається перед іменником чоловічого роду в називному відмінку."
+        ],
+        "study.sectionAccents": {
+          "explanation": [
+            {},
+            {}
+          ],
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "tip": {
+            "left": {}
+          },
+          "important": [
+            {}
+          ]
+        }
+      },
+      "accentTerms": {
+        "explanation": [],
+        "examples": [
+          [],
+          [],
+          []
+        ],
+        "comparison": [],
+        "tipImportant": []
+      }
+    },
+    {
+      "auditId": "LRB102-0032",
+      "cardId": "die|idx:137",
+      "status": "LABOT",
+      "reason": "Feminine/plural article explanation and noun translations were inaccurate.",
+      "new": {
+        "lv": "означений артикль жіночого роду",
+        "study.translation": "означений артикль жіночого роду",
+        "study.explanation": [
+          "Головна думка: die — означений артикль жіночого роду в називному та знахідному відмінках однини.",
+          "die також є формою означеного артикля для множини всіх родів."
+        ],
+        "study.examples": [
+          {
+            "de": "Die Frau ist hier.",
+            "lv": "Жінка тут."
+          },
+          {
+            "de": "Die Katze schläft.",
+            "lv": "Кішка спить."
+          },
+          {
+            "de": "Die Lehrerin erklärt.",
+            "lv": "Учителька пояснює."
+          }
+        ],
+        "study.tip": {
+          "text": "Жіночий рід в однині та всі роди в множині часто мають артикль die."
+        },
+        "study.important": [
+          "die може позначати жіночий рід в однині або множину."
+        ],
+        "study.sectionAccents": {
+          "explanation": [
+            {},
+            {}
+          ],
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "tip": {
+            "left": {}
+          },
+          "important": [
+            {}
+          ]
+        }
+      },
+      "accentTerms": {
+        "explanation": [],
+        "examples": [
+          [],
+          [],
+          []
+        ],
+        "comparison": [],
+        "tipImportant": []
+      }
+    },
+    {
+      "auditId": "LRB102-0033",
+      "cardId": "dieser|idx:139",
+      "status": "LABOT",
+      "reason": "Demonstrative declension, case, and target grammatical gender needed repair.",
+      "new": {
+        "lv": "цей",
+        "study.translation": "цей",
+        "study.explanation": [
+          "Головна думка: dieser указує на конкретну особу або річ: «цей».",
+          "Закінчення змінюється за родом, числом і відмінком: dieser, diese, dieses, diesen."
+        ],
+        "study.examples": [
+          {
+            "de": "Dieser Mann ist nett.",
+            "lv": "Цей чоловік привітний."
+          },
+          {
+            "de": "Ich sehe diesen Hund.",
+            "lv": "Я бачу цього собаку."
+          },
+          {
+            "de": "Dieser Stift ist neu.",
+            "lv": "Ця ручка нова."
+          }
+        ],
+        "study.tip": {
+          "text": "Узгоджуй dieser з граматичним родом і відмінком німецького іменника."
+        },
+        "study.important": [
+          "dieser відмінюється; форма залежить від іменника та його ролі в реченні."
+        ],
+        "study.sectionAccents": {
+          "explanation": [
+            {},
+            {}
+          ],
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "tip": {
+            "left": {}
+          },
+          "important": [
+            {}
+          ]
+        }
+      },
+      "accentTerms": {
+        "explanation": [],
+        "examples": [
+          [],
+          [],
+          []
+        ],
+        "comparison": [],
+        "tipImportant": []
+      }
+    },
+    {
+      "auditId": "LRB102-0034",
+      "cardId": "einmal|idx:700",
+      "status": "LABOT",
+      "reason": "One-time/former-time senses were repetitive and guidance was defective.",
+      "new": {
+        "lv": "один раз • колись",
+        "study.translation": "один раз • колись",
+        "study.explanation": [
+          "Головна думка: einmal означає «один раз» або, у розповіді про минуле, «колись».",
+          "Скорочена розмовна форма — mal."
+        ],
+        "study.examples": [
+          {
+            "de": "Ich war einmal in Berlin.",
+            "lv": "Я колись був / була в Берліні."
+          },
+          {
+            "de": "Ich war einmal in Berlin.",
+            "lv": "Я колись був / була в Берліні."
+          }
+        ],
+        "study.tip": [
+          "Кількість повторів → один раз; невизначений час у минулому → колись."
+        ],
+        "study.important": [
+          "einmal = один раз / колись."
+        ],
+        "study.sectionAccents": {
+          "explanation": [
+            {},
+            {}
+          ],
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "tip": [
+            {}
+          ],
+          "important": [
+            {}
+          ]
+        }
+      },
+      "accentTerms": {
+        "explanation": [],
+        "examples": [
+          [],
+          []
+        ],
+        "comparison": [],
+        "tipImportant": []
+      }
+    },
+    {
+      "auditId": "LRB102-0035",
+      "cardId": "es|idx:167",
+      "status": "LABOT",
+      "reason": "Two non-source examples, scrambled pairs, and Latvian-specific residue had to be removed.",
+      "new": {
+        "lv": "воно • це • безособовий займенник",
+        "study.translation": "воно • це • безособовий займенник",
+        "study.explanation": [
+          "Головна думка: es — займенник середнього роду або формальний підмет у безособових конструкціях.",
+          "У висловах про погоду чи стан es часто не перекладається окремим словом."
+        ],
+        "study.examples": [
+          {
+            "de": "Es regnet.",
+            "lv": "Іде дощ."
+          },
+          {
+            "de": "Es ist kalt.",
+            "lv": "Холодно."
+          },
+          {
+            "de": "Das Kind schläft.",
+            "lv": "Дитина спить."
+          },
+          {
+            "de": "Es ist müde.",
+            "lv": "Воно втомлене."
+          }
+        ],
+        "study.comparison": [
+          {
+            "word": "es",
+            "meaning": "воно / це; безособова форма",
+            "example": "Es regnet. – Іде дощ."
+          },
+          {
+            "word": "ich",
+            "meaning": "я; займенник першої особи",
+            "example": "Ich lerne Deutsch. – Я вивчаю німецьку."
+          }
+        ],
+        "study.info": [
+          "Українське «я» = німецьке ich",
+          "Німецьке es = «воно / це» або безособова форма"
+        ],
+        "study.tip": {
+          "text": "Запам’ятай: українське «я» → ich, а німецьке es → «воно / це» або безособова конструкція."
+        },
+        "study.important": [
+          "es може замінювати іменник середнього роду або бути формальним підметом."
+        ],
+        "study.sectionAccents": {
+          "explanation": [
+            {},
+            {}
+          ],
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "comparison": [
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            }
+          ],
+          "info": [
+            {},
+            {}
+          ],
+          "tip": {
+            "left": {}
+          },
+          "important": [
+            {}
+          ]
+        }
+      },
+      "accentTerms": {
+        "explanation": [],
+        "examples": [
+          [],
+          [],
+          [],
+          []
+        ],
+        "comparison": [
+          [],
+          []
+        ],
+        "tipImportant": []
+      }
+    },
+    {
+      "auditId": "LRB102-0036",
+      "cardId": "ihr|idx:292",
+      "status": "LABOT",
+      "reason": "Plural-you, dative-her, and possessive-her meanings were conflated.",
+      "new": {
+        "lv": "ви • їй • її",
+        "study.translation": "ви • їй • її",
+        "study.explanation": [
+          "Головна думка: ihr має кілька значень, які визначає граматична роль.",
+          "Як особовий займенник ihr = «ви» для кількох людей; у давальному відмінку ihr = «їй»; як присвійне слово ihr = «її»."
+        ],
+        "study.examples": [
+          {
+            "de": "Kommt ihr heute Abend?",
+            "lv": "Ви прийдете сьогодні ввечері?"
+          },
+          {
+            "de": "Ich gebe ihr das Buch.",
+            "lv": "Я даю їй книжку."
+          },
+          {
+            "de": "Wo wohnt ihr?",
+            "lv": "Де ви живете?"
+          },
+          {
+            "de": "Er schreibt ihr einen Brief.",
+            "lv": "Він пише їй листа."
+          },
+          {
+            "de": "Habt ihr Zeit?",
+            "lv": "У вас є час?"
+          },
+          {
+            "de": "Das ist ihr Auto.",
+            "lv": "Це її автомобіль."
+          }
+        ],
+        "study.tip": [
+          "ihr + дієслово у 2-й особі множини → «ви»; після дієслова як Dativ → «їй»; перед іменником → «її»."
+        ],
+        "study.important": [
+          "ihr може означати «ви», «їй» або «її»; значення визначає структура речення."
+        ],
+        "study.sectionAccents": {
+          "explanation": [
+            {},
+            {}
+          ],
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "tip": [
+            {}
+          ],
+          "important": [
+            {}
+          ]
+        }
+      },
+      "accentTerms": {
+        "explanation": [],
+        "examples": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "comparison": [],
+        "tipImportant": []
+      }
+    },
+    {
+      "auditId": "LRB102-0037",
+      "cardId": "ins|idx:296",
+      "status": "LABOT",
+      "reason": "in + das direction, location contrast, and several examples were mistranslated.",
+      "new": {
+        "lv": "у • всередину • куди?",
+        "study.translation": "у • всередину • куди?",
+        "study.explanation": [
+          "Головна думка: ins — це скорочення in das.",
+          "Уживається з іменником середнього роду в знахідному відмінку й позначає напрямок усередину.",
+          "Для місця «де?» вживають im = in dem."
+        ],
+        "study.examples": [
+          {
+            "de": "Ich gehe ins Kino.",
+            "lv": "Я йду в кіно."
+          },
+          {
+            "de": "Sie geht ins Bett.",
+            "lv": "Вона лягає спати."
+          },
+          {
+            "de": "Wir fahren ins Ausland.",
+            "lv": "Ми їдемо за кордон."
+          },
+          {
+            "de": "Komm ins Haus!",
+            "lv": "Заходь у будинок!"
+          },
+          {
+            "de": "Er steckt das Geld in den Geldbeutel.",
+            "lv": "Він кладе гроші в гаманець."
+          },
+          {
+            "de": "Wir gehen ins Museum.",
+            "lv": "Ми йдемо в музей."
+          },
+          {
+            "de": "Sie legt die Blumen ins Wasser.",
+            "lv": "Вона ставить квіти у воду."
+          },
+          {
+            "de": "Fahr bitte ins Zentrum.",
+            "lv": "Будь ласка, їдь у центр."
+          }
+        ],
+        "study.comparison": [
+          {
+            "word": "ins",
+            "meaning": "усередину; in + das",
+            "example": "ins Kino – у кіно"
+          },
+          {
+            "word": "im",
+            "meaning": "усередині; in + dem",
+            "example": "im Kino – у кінотеатрі"
+          },
+          {
+            "word": "in",
+            "meaning": "у; інший рід",
+            "example": "in die Stadt – у місто"
+          },
+          {
+            "word": "aufs",
+            "meaning": "на; auf + das",
+            "example": "aufs Dach – на дах"
+          },
+          {
+            "word": "zum",
+            "meaning": "до особи або місця",
+            "example": "zum Arzt – до лікаря"
+          }
+        ],
+        "study.tip": [
+          "Напрямок «куди?» → ins; місце «де?» → im."
+        ],
+        "study.important": [
+          "ins = in + das і зазвичай виражає напрямок."
+        ],
+        "study.sectionAccents": {
+          "explanation": [
+            {},
+            {},
+            {}
+          ],
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "comparison": [
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            }
+          ],
+          "tip": [
+            {}
+          ],
+          "important": [
+            {}
+          ]
+        }
+      },
+      "accentTerms": {
+        "explanation": [],
+        "examples": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "comparison": [
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "tipImportant": []
+      }
+    },
+    {
+      "auditId": "LRB102-0038",
+      "cardId": "jung|idx:304",
+      "status": "LABOT",
+      "reason": "Young/new contrast and multiple person/animal examples were inaccurate.",
+      "new": {
+        "lv": "молодий",
+        "study.translation": "молодий",
+        "study.explanation": [
+          "Головна думка: jung описує людину або тварину невеликого віку.",
+          "Для нової речі зазвичай уживають neu, а не jung.",
+          "Порівняльний ступінь: jünger."
+        ],
+        "study.examples": [
+          {
+            "de": "Sie ist noch jung.",
+            "lv": "Вона ще молода."
+          },
+          {
+            "de": "Der Hund ist jung.",
+            "lv": "Пес молодий."
+          },
+          {
+            "de": "Wir sind noch jung.",
+            "lv": "Ми ще молоді."
+          },
+          {
+            "de": "Er sieht sehr jung aus.",
+            "lv": "Він виглядає дуже молодо."
+          },
+          {
+            "de": "Das ist ein junges Paar.",
+            "lv": "Це молода пара."
+          },
+          {
+            "de": "Die junge Frau lächelt.",
+            "lv": "Молода жінка усміхається."
+          },
+          {
+            "de": "Mein Bruder ist jünger als ich.",
+            "lv": "Мій брат молодший за мене."
+          }
+        ],
+        "study.tip": [
+          "Вік людини або тварини → jung; нова річ → neu."
+        ],
+        "study.important": [
+          "jung = молодий; jünger = молодший.",
+          "jung і neu не є синонімами."
+        ],
+        "study.sectionAccents": {
+          "explanation": [
+            {},
+            {},
+            {}
+          ],
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "tip": [
+            {}
+          ],
+          "important": [
+            {},
+            {}
+          ]
+        }
+      },
+      "accentTerms": {
+        "explanation": [],
+        "examples": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "comparison": [],
+        "tipImportant": []
+      }
+    },
+    {
+      "auditId": "LRB102-0039",
+      "cardId": "kein|idx:308",
+      "status": "LABOT",
+      "reason": "kein was wrongly treated as nobody/nothing; declension and examples needed repair.",
+      "new": {
+        "lv": "жоден • ніякий",
+        "study.translation": "жоден • ніякий",
+        "study.explanation": [
+          "Головна думка: kein заперечує іменник і означає «жоден / ніякий» або передає відсутність.",
+          "kein відмінюється за зразком ein: kein, keine, keinen, keinem тощо.",
+          "nicht заперечує дію, ознаку або ціле висловлювання, а не неозначений іменник."
+        ],
+        "study.examples": [
+          {
+            "de": "Ich habe kein Geld.",
+            "lv": "У мене немає грошей."
+          },
+          {
+            "de": "Es gibt keine Milch mehr.",
+            "lv": "Молока більше немає."
+          },
+          {
+            "de": "Kein Mensch war da.",
+            "lv": "Там не було жодної людини."
+          },
+          {
+            "de": "Ich habe keine Zeit.",
+            "lv": "У мене немає часу."
+          },
+          {
+            "de": "Das ist kein Problem.",
+            "lv": "Це не проблема."
+          },
+          {
+            "de": "Wir haben keine Kinder.",
+            "lv": "У нас немає дітей."
+          }
+        ],
+        "study.tip": [
+          "Іменник із неозначеним артиклем або без артикля → kein; дію чи ознаку → nicht."
+        ],
+        "study.important": [
+          "kein + іменник виражає заперечення або відсутність.",
+          "Правильно: Ich habe kein Geld."
+        ],
+        "study.sectionAccents": {
+          "explanation": [
+            {},
+            {},
+            {}
+          ],
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "tip": [
+            {}
+          ],
+          "important": [
+            {},
+            {}
+          ]
+        }
+      },
+      "accentTerms": {
+        "explanation": [],
+        "examples": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "comparison": [],
+        "tipImportant": []
+      }
+    },
+    {
+      "auditId": "LRB102-0040",
+      "cardId": "kennen|idx:310",
+      "status": "LABOT",
+      "reason": "Formal address, kennenlernen example, and kennen/wissen contrast were defective.",
+      "new": {
+        "lv": "знати • бути знайомим",
+        "study.translation": "знати • бути знайомим",
+        "study.explanation": [
+          "Головна думка: kennen означає знати людину, місце або річ із досвіду чи бути з ними знайомим.",
+          "Для знання факту або інформації вживають wissen."
+        ],
+        "study.examples": [
+          {
+            "de": "Ich kenne ihn.",
+            "lv": "Я його знаю."
+          },
+          {
+            "de": "Kennen Sie diese Frau?",
+            "lv": "Чи знаєте Ви цю жінку?"
+          },
+          {
+            "de": "Wo habt ihr euch kennengelernt?",
+            "lv": "Де ви познайомилися?"
+          },
+          {
+            "de": "Ich kenne ihn.",
+            "lv": "Я його знаю."
+          },
+          {
+            "de": "kennen",
+            "lv": "знати / бути знайомим; wissen = знати факт"
+          }
+        ],
+        "study.comparison": [
+          {
+            "word": "kennen",
+            "meaning": "знати людину, місце або річ",
+            "example": "Ich kenne ihn. – Я його знаю."
+          },
+          {
+            "word": "wissen",
+            "meaning": "знати факт або інформацію",
+            "example": "Ich weiß seinen Namen. – Я знаю його ім’я."
+          }
+        ],
+        "study.tip": [
+          "Особисте знайомство → kennen; факт або інформація → wissen."
+        ],
+        "study.important": [
+          "kennen і wissen не є взаємозамінними."
+        ],
+        "study.sectionAccents": {
+          "explanation": [
+            {},
+            {}
+          ],
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "comparison": [
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            }
+          ],
+          "tip": [
+            {}
+          ],
+          "important": [
+            {}
+          ]
+        }
+      },
+      "accentTerms": {
+        "explanation": [],
+        "examples": [
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "comparison": [
+          [],
+          []
+        ],
+        "tipImportant": []
+      }
+    },
+    {
+      "auditId": "LRB102-0041",
+      "cardId": "klein|idx:6",
+      "status": "LABOT",
+      "reason": "Two extra source-inconsistent examples and scrambled pairs had to be removed.",
+      "new": {
+        "lv": "маленький",
+        "study.translation": "маленький",
+        "study.explanation": [
+          "Головна думка: klein описує малий розмір, кількість або невеликий вік.",
+          "Форма прикметника змінюється перед іменником: ein kleines Zimmer, eine kleine Tasche."
+        ],
+        "study.examples": [
+          {
+            "de": "Das Zimmer ist klein.",
+            "lv": "Кімната маленька."
+          },
+          {
+            "de": "Das Kind ist noch klein.",
+            "lv": "Дитина ще маленька."
+          },
+          {
+            "de": "Ich habe eine kleine Tasche.",
+            "lv": "У мене є маленька сумка."
+          }
+        ],
+        "study.tip": [
+          "Перед іменником узгоджуй закінчення klein з родом, відмінком і артиклем."
+        ],
+        "study.important": [
+          "klein = маленький / малий."
+        ],
+        "study.sectionAccents": {
+          "explanation": [
+            {},
+            {}
+          ],
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "tip": [
+            {}
+          ],
+          "important": [
+            {}
+          ]
+        }
+      },
+      "accentTerms": {
+        "explanation": [],
+        "examples": [
+          [],
+          [],
+          []
+        ],
+        "comparison": [],
+        "tipImportant": []
+      }
+    },
+    {
+      "auditId": "LRB102-0042",
+      "cardId": "können|idx:319",
+      "status": "LABOT",
+      "reason": "können was wrongly equated with factual knowledge; modality and address were faulty.",
+      "new": {
+        "lv": "могти • уміти",
+        "study.translation": "могти • уміти",
+        "study.explanation": [
+          "Головна думка: können виражає здатність, уміння або можливість.",
+          "Це модальне дієслово, тому друге дієслово в інфінітиві зазвичай стоїть у кінці.",
+          "dürfen виражає дозвіл, а wissen — знання факту."
+        ],
+        "study.examples": [
+          {
+            "de": "Ich kann Deutsch sprechen.",
+            "lv": "Я вмію говорити німецькою."
+          },
+          {
+            "de": "Kannst du mir helfen?",
+            "lv": "Ти можеш мені допомогти?"
+          },
+          {
+            "de": "Wir können heute kommen.",
+            "lv": "Ми можемо прийти сьогодні."
+          },
+          {
+            "de": "Er kann gut schwimmen.",
+            "lv": "Він уміє добре плавати."
+          }
+        ],
+        "study.comparison": [
+          {
+            "word": "können",
+            "meaning": "могти / уміти",
+            "example": "Ich kann schwimmen. = Я вмію плавати."
+          },
+          {
+            "word": "dürfen",
+            "meaning": "мати дозвіл",
+            "example": "Darf ich gehen? = Можна мені піти?"
+          },
+          {
+            "word": "müssen",
+            "meaning": "мусити / бути змушеним",
+            "example": "Ich muss lernen. = Я мушу вчитися."
+          },
+          {
+            "word": "wissen",
+            "meaning": "знати факт",
+            "example": "Ich weiß das. = Я це знаю."
+          }
+        ],
+        "study.tip": {
+          "text": "Здатність або можливість → können; дозвіл → dürfen."
+        },
+        "study.important": [
+          "können не означає «знати факт».",
+          "У реченні з können другий інфінітив стоїть у кінці."
+        ],
+        "study.sectionAccents": {
+          "explanation": [
+            {},
+            {},
+            {}
+          ],
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "comparison": [
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            }
+          ],
+          "tip": {
+            "left": {}
+          },
+          "important": [
+            {},
+            {}
+          ]
+        }
+      },
+      "accentTerms": {
+        "explanation": [],
+        "examples": [
+          [],
+          [],
+          [],
+          []
+        ],
+        "comparison": [
+          [],
+          [],
+          [],
+          []
+        ],
+        "tipImportant": []
+      }
+    },
+    {
+      "auditId": "LRB102-0043",
+      "cardId": "kosten|idx:320",
+      "status": "LABOT",
+      "reason": "kosten was mistranslated as pay; price/payer distinction and examples were wrong.",
+      "new": {
+        "lv": "коштувати",
+        "study.translation": "коштувати",
+        "study.explanation": [
+          "Головна думка: kosten називає ціну речі або послуги.",
+          "Коли людина здійснює оплату, вживають bezahlen або zahlen.",
+          "Питання про ціну часто починається з Was kostet...? або Wie viel kostet...?"
+        ],
+        "study.examples": [
+          {
+            "de": "Das kostet 5 Euro.",
+            "lv": "Це коштує 5 євро."
+          },
+          {
+            "de": "Was kostet das?",
+            "lv": "Скільки це коштує?"
+          },
+          {
+            "de": "Wie viel kostet der Pullover?",
+            "lv": "Скільки коштує светр?"
+          },
+          {
+            "de": "Das Essen kostet nicht viel.",
+            "lv": "Їжа коштує недорого."
+          },
+          {
+            "de": "Ich bezahle die Rechnung.",
+            "lv": "Я оплачую рахунок."
+          },
+          {
+            "de": "Kann ich bar bezahlen?",
+            "lv": "Чи можу я заплатити готівкою?"
+          },
+          {
+            "de": "Er zahlt mit Karte.",
+            "lv": "Він платить карткою."
+          },
+          {
+            "de": "Ich zahle gleich.",
+            "lv": "Я зараз заплачу."
+          }
+        ],
+        "study.comparison": [
+          {
+            "word": "kosten",
+            "meaning": "коштувати; мати ціну",
+            "example": "Das kostet 5 Euro. = Це коштує 5 євро."
+          },
+          {
+            "word": "bezahlen",
+            "meaning": "оплачувати щось",
+            "example": "Ich bezahle die Rechnung. = Я оплачую рахунок."
+          },
+          {
+            "word": "zahlen",
+            "meaning": "платити",
+            "example": "Kann ich bar zahlen? = Чи можу я заплатити готівкою?"
+          },
+          {
+            "word": "Was kostet...?",
+            "meaning": "скільки коштує...?",
+            "example": "Was kostet das Buch? = Скільки коштує книжка?"
+          }
+        ],
+        "study.tip": [
+          "Ціна речі → kosten.",
+          "Дія платника → bezahlen / zahlen."
+        ],
+        "study.important": [
+          "kosten і bezahlen не є синонімами: річ коштує, а людина платить."
+        ],
+        "study.sectionAccents": {
+          "explanation": [
+            {},
+            {},
+            {}
+          ],
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "comparison": [
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            }
+          ],
+          "tip": [
+            {},
+            {}
+          ],
+          "important": [
+            {}
+          ]
+        }
+      },
+      "accentTerms": {
+        "explanation": [],
+        "examples": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "comparison": [
+          [],
+          [],
+          [],
+          []
+        ],
+        "tipImportant": []
+      }
+    },
+    {
+      "auditId": "LRB102-0044",
+      "cardId": "Laden|idx:349",
+      "status": "LABOT",
+      "reason": "Noun/verb contrast contained false meanings and unnatural translations.",
+      "new": {
+        "lv": "магазин",
+        "study.translation": "магазин",
+        "study.explanation": [
+          "Головна думка: der Laden з великої літери — іменник «магазин».",
+          "laden з малої літери — дієслово «завантажувати» або «заряджати».",
+          "Множина іменника: die Läden."
+        ],
+        "study.examples": [
+          {
+            "de": "Ich gehe in den Laden.",
+            "lv": "Я йду в магазин."
+          },
+          {
+            "de": "Der Laden ist geschlossen.",
+            "lv": "Магазин зачинений."
+          },
+          {
+            "de": "Es gibt viele Läden hier.",
+            "lv": "Тут багато магазинів."
+          },
+          {
+            "de": "Ich muss mein Handy laden.",
+            "lv": "Мені потрібно зарядити телефон."
+          }
+        ],
+        "study.tip": [
+          "der Laden — іменник; laden — дієслово."
+        ],
+        "study.important": [
+          "der Laden = магазин.",
+          "laden = завантажувати / заряджати.",
+          "Множина: die Läden."
+        ],
+        "study.sectionAccents": {
+          "explanation": [
+            {},
+            {},
+            {}
+          ],
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "tip": [
+            {}
+          ],
+          "important": [
+            {},
+            {},
+            {}
+          ]
+        }
+      },
+      "accentTerms": {
+        "explanation": [],
+        "examples": [
+          [],
+          [],
+          [],
+          []
+        ],
+        "comparison": [],
+        "tipImportant": []
+      }
+    },
+    {
+      "auditId": "LRB102-0045",
+      "cardId": "Land|idx:351",
+      "status": "LABOT",
+      "reason": "Country/countryside/earth senses and aufs Land guidance were contradictory.",
+      "new": {
+        "lv": "країна • сільська місцевість • земля",
+        "study.translation": "країна • сільська місцевість • земля",
+        "study.explanation": [
+          "Головна думка: das Land залежно від контексту означає країну, сільську місцевість або землю.",
+          "Для території з кордонами це «країна»; у протиставленні місту — «сільська місцевість».",
+          "die Erde може означати землю як ґрунт або планету."
+        ],
+        "study.examples": [
+          {
+            "de": "Deutschland ist ein schönes Land.",
+            "lv": "Німеччина — прекрасна країна."
+          },
+          {
+            "de": "Ich komme aus einem kleinen Land.",
+            "lv": "Я з маленької країни."
+          },
+          {
+            "de": "Wir fahren aufs Land.",
+            "lv": "Ми їдемо за місто."
+          },
+          {
+            "de": "Auf dem Land ist es ruhig.",
+            "lv": "У сільській місцевості тихо."
+          }
+        ],
+        "study.comparison": [
+          {
+            "word": "das Land",
+            "meaning": "країна / сільська місцевість / земля",
+            "example": "Deutschland ist ein Land. – Німеччина — країна."
+          },
+          {
+            "word": "die Stadt",
+            "meaning": "місто",
+            "example": "Ich wohne in der Stadt. – Я живу в місті."
+          },
+          {
+            "word": "das Dorf",
+            "meaning": "село",
+            "example": "Er lebt in einem Dorf. – Він живе в селі."
+          },
+          {
+            "word": "die Erde",
+            "meaning": "земля / планета Земля",
+            "example": "Die Erde ist rund. – Земля кругла."
+          }
+        ],
+        "study.tip": {
+          "text": "Країна або місцевість поза містом → das Land; місто → die Stadt."
+        },
+        "study.important": [
+          "aufs Land = за місто / у сільську місцевість.",
+          "das Land і die Stadt — протилежні поняття в цьому контексті."
+        ],
+        "study.sectionAccents": {
+          "explanation": [
+            {},
+            {},
+            {}
+          ],
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "comparison": [
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            }
+          ],
+          "tip": {
+            "left": {}
+          },
+          "important": [
+            {},
+            {}
+          ]
+        }
+      },
+      "accentTerms": {
+        "explanation": [],
+        "examples": [
+          [],
+          [],
+          [],
+          []
+        ],
+        "comparison": [
+          [],
+          [],
+          [],
+          []
+        ],
+        "tipImportant": []
+      }
+    },
+    {
+      "auditId": "LRB102-0046",
+      "cardId": "lang|idx:352",
+      "status": "LABOT",
+      "reason": "Spatial length and temporal duration were duplicated and mistranslated.",
+      "new": {
+        "lv": "довгий • тривалий",
+        "study.translation": "довгий • тривалий",
+        "study.explanation": [
+          "Головна думка: lang описує велику довжину в просторі або тривалість у часі.",
+          "У просторовому значенні це «довгий», у часовому — «довгий / тривалий» або прислівник «довго».",
+          "wie lange питає про тривалість."
+        ],
+        "study.examples": [
+          {
+            "de": "Der Tisch ist sehr lang.",
+            "lv": "Стіл дуже довгий."
+          },
+          {
+            "de": "Der Film war sehr lang.",
+            "lv": "Фільм був дуже тривалим."
+          },
+          {
+            "de": "Wie lange dauert es?",
+            "lv": "Як довго це триває?"
+          },
+          {
+            "de": "Sie hat lange Haare.",
+            "lv": "У неї довге волосся."
+          },
+          {
+            "de": "Ich warte schon lange.",
+            "lv": "Я вже давно чекаю."
+          },
+          {
+            "de": "Den ganzen Tag lang.",
+            "lv": "Увесь день."
+          }
+        ],
+        "study.tip": [
+          "Розмір або відстань → довгий; час → тривалий / довго."
+        ],
+        "study.important": [
+          "lang може описувати і просторову довжину, і тривалість.",
+          "wie lange = як довго."
+        ],
+        "study.sectionAccents": {
+          "explanation": [
+            {},
+            {},
+            {}
+          ],
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "tip": [
+            {}
+          ],
+          "important": [
+            {},
+            {}
+          ]
+        }
+      },
+      "accentTerms": {
+        "explanation": [],
+        "examples": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "comparison": [],
+        "tipImportant": []
+      }
+    },
+    {
+      "auditId": "LRB102-0047",
+      "cardId": "lassen|idx:356",
+      "status": "LABOT",
+      "reason": "lassen was mistranslated as vacation and present-tense examples shifted tense.",
+      "new": {
+        "lv": "залишати • дозволяти",
+        "study.translation": "залишати • дозволяти",
+        "study.explanation": [
+          "Головна думка: lassen означає залишати щось на місці або дозволяти комусь щось зробити.",
+          "У конструкції lassen + Infinitiv воно часто передає дозвіл або спонукання.",
+          "Lass mich in Ruhe! — поширена фраза «Залиш мене в спокої!»."
+        ],
+        "study.examples": [
+          {
+            "de": "Ich lasse die Tasche hier.",
+            "lv": "Я залишаю сумку тут."
+          },
+          {
+            "de": "Lass das bitte auf dem Tisch.",
+            "lv": "Залиш це, будь ласка, на столі."
+          },
+          {
+            "de": "Meine Eltern lassen mich gehen.",
+            "lv": "Батьки дозволяють мені піти."
+          },
+          {
+            "de": "Lass mich in Ruhe!",
+            "lv": "Залиш мене в спокої!"
+          }
+        ],
+        "study.comparison": [
+          {
+            "word": "lassen",
+            "meaning": "залишати / дозволяти",
+            "example": "Ich lasse das hier. – Я залишаю це тут."
+          },
+          {
+            "word": "bleiben",
+            "meaning": "залишатися",
+            "example": "Ich bleibe hier. – Я залишаюся тут."
+          },
+          {
+            "word": "erlauben",
+            "meaning": "дозволяти",
+            "example": "Sie erlaubt mir das. – Вона дозволяє мені це."
+          },
+          {
+            "word": "geben",
+            "meaning": "давати",
+            "example": "Gib mir das Buch. – Дай мені книжку."
+          }
+        ],
+        "study.tip": {
+          "text": "Предмет залишається → lassen; хтось отримує дозвіл → lassen + Infinitiv."
+        },
+        "study.important": [
+          "lassen має значення «залишати» і «дозволяти»."
+        ],
+        "study.sectionAccents": {
+          "explanation": [
+            {},
+            {},
+            {}
+          ],
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "comparison": [
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            }
+          ],
+          "tip": {
+            "left": {}
+          },
+          "important": [
+            {}
+          ]
+        }
+      },
+      "accentTerms": {
+        "explanation": [],
+        "examples": [
+          [],
+          [],
+          [],
+          []
+        ],
+        "comparison": [
+          [],
+          [],
+          [],
+          []
+        ],
+        "tipImportant": []
+      }
+    },
+    {
+      "auditId": "LRB102-0048",
+      "cardId": "laufen|idx:357",
+      "status": "LABOT",
+      "reason": "Device sense was mistranslated as operate; run/work contrasts needed repair.",
+      "new": {
+        "lv": "бігти • працювати",
+        "study.translation": "бігти • працювати",
+        "study.explanation": [
+          "Головна думка: laufen означає бігти або швидко пересуватися пішки; про пристрій, фільм чи програму — працювати або йти.",
+          "gehen — іти пішки, fahren — їхати транспортом, funktionieren — функціонувати."
+        ],
+        "study.examples": [
+          {
+            "de": "Er läuft sehr schnell.",
+            "lv": "Він біжить дуже швидко."
+          },
+          {
+            "de": "Die Kinder laufen im Park.",
+            "lv": "Діти бігають у парку."
+          },
+          {
+            "de": "Der Film läuft schon.",
+            "lv": "Фільм уже йде."
+          },
+          {
+            "de": "Die Maschine läuft gut.",
+            "lv": "Машина добре працює."
+          }
+        ],
+        "study.comparison": [
+          {
+            "word": "laufen",
+            "meaning": "бігти / працювати",
+            "example": "Er läuft schnell. – Він біжить швидко."
+          },
+          {
+            "word": "gehen",
+            "meaning": "іти пішки",
+            "example": "Ich gehe nach Hause. – Я йду додому."
+          },
+          {
+            "word": "fahren",
+            "meaning": "їхати транспортом",
+            "example": "Ich fahre mit dem Bus. – Я їду автобусом."
+          },
+          {
+            "word": "funktionieren",
+            "meaning": "працювати / функціонувати",
+            "example": "Das funktioniert gut. – Це добре працює."
+          }
+        ],
+        "study.tip": {
+          "text": "Людина або тварина → бігти; пристрій, фільм чи програма → працювати / йти."
+        },
+        "study.important": [
+          "laufen має рухове й переносне значення; контекст їх розрізняє."
+        ],
+        "study.sectionAccents": {
+          "explanation": [
+            {},
+            {}
+          ],
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "comparison": [
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            }
+          ],
+          "tip": {
+            "left": {}
+          },
+          "important": [
+            {}
+          ]
+        }
+      },
+      "accentTerms": {
+        "explanation": [],
+        "examples": [
+          [],
+          [],
+          [],
+          []
+        ],
+        "comparison": [
+          [],
+          [],
+          [],
+          []
+        ],
+        "tipImportant": []
+      }
+    },
+    {
+      "auditId": "LRB102-0049",
+      "cardId": "laut|idx:358",
+      "status": "LABOT",
+      "reason": "Adjective/adverb laut was conflated with noun der Laut.",
+      "new": {
+        "lv": "гучний • голосно",
+        "study.translation": "гучний • голосно",
+        "study.explanation": [
+          "Головна думка: laut з малої літери — прикметник або прислівник, що описує велику гучність.",
+          "der Laut з великої літери — іменник «звук»; множина die Laute."
+        ],
+        "study.examples": [
+          {
+            "de": "Die Musik ist laut.",
+            "lv": "Музика гучна."
+          },
+          {
+            "de": "Die Musik ist laut.",
+            "lv": "Музика гучна."
+          },
+          {
+            "de": "Sprich nicht so laut!",
+            "lv": "Не говори так голосно!"
+          },
+          {
+            "de": "Das ist sehr laut.",
+            "lv": "Це дуже голосно."
+          },
+          {
+            "de": "Der Laut ist schön.",
+            "lv": "Звук гарний."
+          },
+          {
+            "de": "Ich höre einen Laut.",
+            "lv": "Я чую звук."
+          }
+        ],
+        "study.tip": [
+          "laut — гучний / голосно; der Laut — звук."
+        ],
+        "study.important": [
+          "laut і der Laut — різні частини мови.",
+          "Прикметник пишеться з малої літери, іменник — з великої."
+        ],
+        "study.sectionAccents": {
+          "explanation": [
+            {},
+            {}
+          ],
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "tip": [
+            {}
+          ],
+          "important": [
+            {},
+            {}
+          ]
+        }
+      },
+      "accentTerms": {
+        "explanation": [],
+        "examples": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "comparison": [],
+        "tipImportant": []
+      }
+    },
+    {
+      "auditId": "LRB102-0050",
+      "cardId": "Laut|idx:359",
+      "status": "LABOT",
+      "reason": "Noun der Laut contained adjective claims and inconsistent examples.",
+      "new": {
+        "lv": "звук",
+        "study.translation": "звук",
+        "study.explanation": [
+          "Головна думка: der Laut — іменник чоловічого роду зі значенням «звук», зокрема окремий мовний або чутний звук.",
+          "laut з малої літери — прикметник або прислівник «гучний / голосно».",
+          "Множина: die Laute."
+        ],
+        "study.examples": [
+          {
+            "de": "Der Laut ist schön.",
+            "lv": "Звук гарний."
+          },
+          {
+            "de": "Die Musik ist laut.",
+            "lv": "Музика гучна."
+          },
+          {
+            "de": "Sprich nicht so laut!",
+            "lv": "Не говори так голосно!"
+          },
+          {
+            "de": "Das ist sehr laut.",
+            "lv": "Це дуже голосно."
+          },
+          {
+            "de": "Der Laut ist schön.",
+            "lv": "Звук гарний."
+          },
+          {
+            "de": "Ich höre einen Laut.",
+            "lv": "Я чую звук."
+          }
+        ],
+        "study.tip": [
+          "Артикль der і велика літера → der Laut, «звук»; мала літера → laut, «гучний / голосно»."
+        ],
+        "study.important": [
+          "der Laut = звук; laut = гучний / голосно.",
+          "Множина: die Laute."
+        ],
+        "study.sectionAccents": {
+          "explanation": [
+            {},
+            {},
+            {}
+          ],
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "tip": [
+            {}
+          ],
+          "important": [
+            {},
+            {}
+          ]
+        }
+      },
+      "accentTerms": {
+        "explanation": [],
+        "examples": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "comparison": [],
+        "tipImportant": []
+      }
+    }
+  ]
+}
