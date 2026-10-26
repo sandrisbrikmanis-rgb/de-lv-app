@@ -12795,7 +12795,7 @@ const A2_WORDS = [
       "translation": "gratitud",
       "explanation": [
         "Idea principal: der Dank es un sustantivo masculino que significa gratitud o agradecimiento: lo que se expresa a alguien por su ayuda o por algo bueno que ha hecho. Normalmente se usa en singular.",
-        "Combinaciones frecuentes: Vielen Dank (muchas gracias), jemandem Dank sagen (dar las gracias a alguien), als Dank (en agradecimiento), zum Dank. Con minúscula, dank también es preposición: Dank deiner Hilfe (gracias a tu ayuda), y suele ir seguida de genitivo o dativo."
+        "Combinaciones frecuentes: Vielen Dank (muchas gracias), jemandem Dank sagen (dar las gracias a alguien), als Dank (en agradecimiento), zum Dank. Con minúscula, dank también es preposición: dank deiner Hilfe (gracias a tu ayuda), y suele ir seguida de genitivo o dativo."
       ],
       "examples": [
         {
@@ -17078,7 +17078,7 @@ const A2_WORDS = [
         "Contrario: weit (ancho, holgado) para la ropa; breit para la anchura."
       ],
       "important": [
-        "Para un camino o un carril estrecho se suele decir schmal; para un espacio reducido o una prenda apretada, eng."
+        "Para un camino o un carril estrecho se puede decir schmal o eng; para un espacio reducido o una prenda apretada, eng."
       ],
       "sectionAccents": {
         "explanation": {

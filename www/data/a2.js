@@ -12787,7 +12787,7 @@ const A2_WORDS = [
       "translation": "pateicība",
       "explanation": [
         "Galvenā doma: der Dank ir vīriešu dzimtes lietvārds, kas nozīmē pateicību — to, ko izsaka cilvēkam par palīdzību vai labu darbu. Parasti lieto vienskaitlī.",
-        "Bieži savienojumi: Vielen Dank (liels paldies), jemandem Dank sagen (pateikties kādam), als Dank (pateicībā), zum Dank. Ar mazo burtu dank ir arī prievārds: Dank deiner Hilfe (pateicoties tavai palīdzībai), kam parasti seko ģenitīvs vai datīvs."
+        "Bieži savienojumi: Vielen Dank (liels paldies), jemandem Dank sagen (pateikties kādam), als Dank (pateicībā), zum Dank. Ar mazo burtu dank ir arī prievārds: dank deiner Hilfe (pateicoties tavai palīdzībai), kam parasti seko ģenitīvs vai datīvs."
       ],
       "examples": [
         {
@@ -14544,8 +14544,7 @@ const A2_WORDS = [
             "gan"
           ],
           "green": [
-            "aber",
-            "ja"
+            "aber"
           ]
         },
         "examples": [
@@ -17068,7 +17067,7 @@ const A2_WORDS = [
         "Pretstats: weit (plats, brīvs) — par apģērbu; breit — par platumu."
       ],
       "important": [
-        "Par šauru ceļu vai joslu parasti saka schmal, par šauru telpu vai ciešu apģērbu — eng."
+        "Par šauru ceļu vai joslu var teikt gan schmal, gan eng; par šauru telpu vai ciešu apģērbu — eng."
       ],
       "sectionAccents": {
         "explanation": {
@@ -30817,7 +30816,7 @@ const A2_WORDS = [
       "explanation": [
         "Galvenā doma: los ir īpašības vārds un partikula, kas rāda, ka kaut kas nav piestiprināts vai ir atbrīvots: brīvs, vaļā, atraisīts (Der Hund ist los, suns ir vaļā). Svarīgākā frāze ir Was ist los?, kas nozīmē Kas notiek?",
         "Lieto ar sein: los sein. Frāzē etwas los sein tas nozīmē tikt vaļā no kaut kā (Ich bin die Erkältung endlich los). Atsevišķi Los! ir uzaicinājums: Aiziet! Ātrāk!",
-        "Los attiecas arī uz daļām, kas ir kļuvušas vaļīgas: Der Knopf ist los (poga ir vaļīga). Lietvārds das Los (loze, liktenis) ir cits vārds."
+        "Los attiecas arī uz daļām, kas ir atdalījušās: Der Knopf ist los (poga ir atrāvusies). Lietvārds das Los (loze, liktenis) ir cits vārds."
       ],
       "examples": [
         {
@@ -30834,7 +30833,7 @@ const A2_WORDS = [
         },
         {
           "de": "Der Knopf an meiner Jacke ist los.",
-          "lv": "Manai jakai poga ir vaļīga."
+          "lv": "Manai jakai ir atrāvusies poga."
         },
         {
           "de": "Ich bin meine Erkältung endlich los.",
@@ -30925,7 +30924,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "vaļīga"
+                "atrāvusies"
               ]
             }
           },

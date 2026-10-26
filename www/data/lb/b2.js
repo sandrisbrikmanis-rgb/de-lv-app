@@ -50,7 +50,6 @@ const B2_WORDS = [
   {
     "de": "Akrobatik",
     "de_article": "die",
-    "de_plural": "die Akrobatiken",
     "lv": "Akrobatik",
     "level": "B2"
   },
@@ -4968,7 +4967,7 @@ const B2_WORDS = [
   },
   {
     "de": "Bord",
-    "de_article": "das",
+    "de_article": "der",
     "de_plural": "die Borde",
     "lv": "Bord",
     "level": "B2"
@@ -6525,7 +6524,7 @@ const B2_WORDS = [
   {
     "de": "Doping",
     "de_article": "das",
-    "de_plural": "die Dopinge",
+    "de_plural": "die Dopings",
     "lv": "Doping",
     "level": "B2"
   },
@@ -6804,7 +6803,7 @@ const B2_WORDS = [
   {
     "de": "Dumping",
     "de_article": "das",
-    "de_plural": "die Dumpinge",
+    "de_plural": "die Dumpings",
     "lv": "Dumping",
     "level": "B2"
   },
@@ -7375,7 +7374,6 @@ const B2_WORDS = [
   {
     "de": "Eifer",
     "de_article": "der",
-    "de_plural": "die Eifer",
     "lv": "Äifer",
     "level": "B2"
   },
@@ -7718,7 +7716,6 @@ const B2_WORDS = [
   {
     "de": "Eingemachte",
     "de_article": "das",
-    "de_plural": "die Eingemachte",
     "lv": "Ageemaachtes",
     "level": "B2"
   },
@@ -11895,7 +11892,7 @@ const B2_WORDS = [
   },
   {
     "de": "Ferkel",
-    "de_article": "der",
+    "de_article": "das",
     "de_plural": "die Ferkel",
     "lv": "Fierkel",
     "level": "B2"
@@ -13844,7 +13841,6 @@ const B2_WORDS = [
   {
     "de": "Gerede",
     "de_article": "das",
-    "de_plural": "die Gerede",
     "lv": "Gerieds • Klaatsch",
     "level": "B2"
   },
@@ -17661,7 +17657,6 @@ const B2_WORDS = [
   {
     "de": "Hochachtung",
     "de_article": "die",
-    "de_plural": "die Hochachtungen",
     "lv": "Héichuechtung • Respekt",
     "level": "B2"
   },
@@ -18142,7 +18137,6 @@ const B2_WORDS = [
   {
     "de": "Knochenmark",
     "de_article": "das",
-    "de_plural": "die Knochenmarke",
     "lv": "Knachemark",
     "level": "B2"
   },
@@ -20668,7 +20662,6 @@ const B2_WORDS = [
   {
     "de": "Prostitution",
     "de_article": "die",
-    "de_plural": "die Prostitutionen",
     "lv": "Prostitutioun",
     "level": "B2"
   },
@@ -21881,7 +21874,7 @@ const B2_WORDS = [
   {
     "de": "Schwarze",
     "de_article": "der",
-    "de_plural": "die Schwarze",
+    "de_plural": "die Schwarzen",
     "lv": "Schwaarzen",
     "level": "B2"
   },
@@ -21914,7 +21907,6 @@ const B2_WORDS = [
   {
     "de": "Schwerathletik",
     "de_article": "die",
-    "de_plural": "die Schwerathletiken",
     "lv": "Schwéierathletik",
     "level": "B2"
   },
@@ -22849,7 +22841,7 @@ const B2_WORDS = [
   {
     "de": "Spruchband",
     "de_article": "das",
-    "de_plural": "die Spruchbande",
+    "de_plural": "die Spruchbänder",
     "lv": "Banner • Transparent",
     "level": "B2"
   },
@@ -23882,7 +23874,6 @@ const B2_WORDS = [
   {
     "de": "Unfug",
     "de_article": "der",
-    "de_plural": "die Unfuge",
     "lv": "Bléisinn • Quatsch",
     "level": "B2"
   },
@@ -24356,7 +24347,7 @@ const B2_WORDS = [
   },
   {
     "de": "Verdienst",
-    "de_article": "der",
+    "de_article": "das",
     "de_plural": "die Verdienste",
     "lv": "Verdéngscht",
     "level": "B2"

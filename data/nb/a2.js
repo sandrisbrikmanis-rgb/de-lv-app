@@ -12781,7 +12781,7 @@ const A2_WORDS = [
       "translation": "takk • takknemlighet",
       "explanation": [
         "Hovedpoenget: der Dank er et hankjønnssubstantiv som betyr takk eller takknemlighet – det man uttrykker overfor noen for hjelp eller en god gjerning. Det brukes vanligvis i entall.",
-        "Vanlige forbindelser: Vielen Dank (tusen takk), jemandem Dank sagen (takke noen), als Dank (som takk), zum Dank. Med liten forbokstav er dank også en preposisjon: Dank deiner Hilfe (takket være hjelpen din), og den følges vanligvis av genitiv eller dativ."
+        "Vanlige forbindelser: Vielen Dank (tusen takk), jemandem Dank sagen (takke noen), als Dank (som takk), zum Dank. Med liten forbokstav er dank også en preposisjon: dank deiner Hilfe (takket være hjelpen din), og den følges vanligvis av genitiv eller dativ."
       ],
       "examples": [
         {
@@ -17061,7 +17061,7 @@ const A2_WORDS = [
         "Motsetning: weit (vid, løs) om klær; breit om bredde."
       ],
       "important": [
-        "Om en smal vei eller fil sier man oftest schmal, om et trangt rom eller stramme klær eng. Merk: norsk eng (gressmark) er et helt annet ord."
+        "Om en smal vei eller fil kan man si både schmal og eng, om et trangt rom eller stramme klær eng. Merk: norsk eng (gressmark) er et helt annet ord."
       ],
       "sectionAccents": {
         "explanation": {

@@ -27963,7 +27963,7 @@ const A1_WORDS = [
       "translation": "vilciens",
       "explanation": [
         "Galvenā doma: der Zug ir vīriešu dzimtes lietvārds ar nozīmi vilciens. Daudzskaitlis ir die Züge (ar umlautu). Pēc prievārdiem lieto: mit dem Zug (ar vilcienu), im Zug (vilcienā), in den Zug einsteigen (iekāpt vilcienā).",
-        "Vārds Zug ir arī citās nozīmēs: gājiens (spēlē), caurvējš (der Zug), rakstura vilciens (Charakterzug). Šajā kartē aplūkots vilciens.",
+        "Vārds Zug ir arī citās nozīmēs: gājiens (spēlē), caurvējš (der Zug), rakstura iezīme (Charakterzug). Šajā kartē aplūkots vilciens.",
         "Tuvu stāv die Bahn, kas nozīmē dzelzceļu vai vilcienu kopumā."
       ],
       "examples": [

@@ -30828,7 +30828,7 @@ const A2_WORDS = [
       "explanation": [
         "Main idea: los is an adjective and particle showing that something is not fastened or has been freed: loose, free, undone (Der Hund ist los, the dog is loose). The most important phrase is Was ist los?, meaning What is going on?",
         "It is used with sein: los sein. In the phrase etwas los sein it means to be rid of something (Ich bin die Erkältung endlich los). On its own Los! is an urging: Come on! Get a move on!",
-        "Los also applies to parts that have come loose: Der Knopf ist los (the button is loose). The noun das Los (lot, ticket, fate) is a different word."
+        "Los also applies to parts that have come off: Der Knopf ist los (the button has come off). The noun das Los (lot, ticket, fate) is a different word."
       ],
       "examples": [
         {
@@ -30845,7 +30845,7 @@ const A2_WORDS = [
         },
         {
           "de": "Der Knopf an meiner Jacke ist los.",
-          "lv": "The button on my jacket is loose."
+          "lv": "The button on my jacket has come off."
         },
         {
           "de": "Ich bin meine Erkältung endlich los.",
@@ -30935,7 +30935,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "loose"
+                "come off"
               ]
             }
           },

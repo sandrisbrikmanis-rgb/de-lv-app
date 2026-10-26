@@ -12787,7 +12787,7 @@ const A2_WORDS = [
       "translation": "padėka",
       "explanation": [
         "Pagrindinė mintis: der Dank yra vyriškosios giminės daiktavardis, reiškiantis padėką – tai, ką išreiškiame žmogui už pagalbą ar gerą darbą. Paprastai vartojamas vienaskaita.",
-        "Dažni junginiai: Vielen Dank (labai ačiū), jemandem Dank sagen (padėkoti kam nors), als Dank (padėkos ženklan), zum Dank. Mažąja raide rašomas dank yra ir prielinksnis: Dank deiner Hilfe (tavo pagalbos dėka), po jo paprastai eina kilmininkas (Genitiv) arba naudininkas (Dativ)."
+        "Dažni junginiai: Vielen Dank (labai ačiū), jemandem Dank sagen (padėkoti kam nors), als Dank (padėkos ženklan), zum Dank. Mažąja raide rašomas dank yra ir prielinksnis: dank deiner Hilfe (tavo pagalbos dėka), po jo paprastai eina kilmininkas (Genitiv) arba naudininkas (Dativ)."
       ],
       "examples": [
         {
@@ -17068,7 +17068,7 @@ const A2_WORDS = [
         "Priešingybė: weit (platus, laisvas) — apie drabužius; breit — apie plotį."
       ],
       "important": [
-        "Apie siaurą kelią ar juostą dažniausiai sakoma schmal, apie ankštą patalpą ar aptemptą drabužį — eng."
+        "Apie siaurą kelią ar juostą galima sakyti ir schmal, ir eng, apie ankštą patalpą ar aptemptą drabužį — eng."
       ],
       "sectionAccents": {
         "explanation": {
@@ -30817,7 +30817,7 @@ const A2_WORDS = [
       "explanation": [
         "Pagrindinė mintis: los – būdvardis ir dalelytė, rodanti, kad kas nors nepritvirtinta arba išlaisvinta: laisvas, paleistas, atsirišęs (Der Hund ist los – šuo paleistas). Svarbiausia frazė – Was ist los?, reiškianti „Kas vyksta?“",
         "Vartojamas su sein: los sein. Frazėje etwas los sein jis reiškia atsikratyti ko nors (Ich bin die Erkältung endlich los). Atskirai Los! – raginimas: Pirmyn! Greičiau!",
-        "Los tinka ir apie atsilaisvinusias dalis: Der Knopf ist los (saga atsilaisvino). Daiktavardis das Los (burtas, likimas) – kitas žodis."
+        "Los tinka ir apie atsiskyrusias dalis: Der Knopf ist los (saga nutrūko). Daiktavardis das Los (burtas, likimas) – kitas žodis."
       ],
       "examples": [
         {
@@ -30834,7 +30834,7 @@ const A2_WORDS = [
         },
         {
           "de": "Der Knopf an meiner Jacke ist los.",
-          "lv": "Mano striukės saga atsilaisvino."
+          "lv": "Nuo mano striukės nutrūko saga."
         },
         {
           "de": "Ich bin meine Erkältung endlich los.",
@@ -30925,7 +30925,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "atsilaisvino"
+                "nutrūko"
               ]
             }
           },

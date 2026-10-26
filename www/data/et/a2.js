@@ -17117,7 +17117,7 @@ const A2_WORDS = [
         "Vastand: weit (lai, avar) — riiete kohta; breit — laiuse kohta."
       ],
       "important": [
-        "Kitsa tee või raja kohta öeldakse tavaliselt schmal, kitsa ruumi või liibuva riietuse kohta — eng."
+        "Kitsa tee või raja kohta võib öelda nii schmal kui ka eng, kitsa ruumi või liibuva riietuse kohta — eng."
       ],
       "sectionAccents": {
         "explanation": {

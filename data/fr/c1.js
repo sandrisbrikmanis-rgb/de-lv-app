@@ -819,7 +819,6 @@ const C1_WORDS = [
   {
     "de": "Leichtathletik",
     "de_article": "die",
-    "de_plural": "die Leichtathletiken",
     "lv": "athlétisme",
     "level": "C1"
   },
