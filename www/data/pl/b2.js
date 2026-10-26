@@ -3,932 +3,2920 @@ const B2_WORDS = [
     "de": "Verantwortung",
     "de_article": "die",
     "de_plural": "die Verantwortungen",
-    "lv": "Odpowiedzialność",
+    "lv": "odpowiedzialność",
     "level": "B2"
   },
   {
     "de": "beeinflussen",
-    "lv": "Wpływać",
+    "lv": "wpływać",
     "level": "B2"
   },
   {
     "de": "Voraussetzung",
     "de_article": "die",
     "de_plural": "die Voraussetzungen",
-    "lv": "Warunek wstępny",
+    "lv": "warunek wstępny",
     "level": "B2"
   },
   {
     "de": "nachhaltig",
-    "lv": "Zrównoważony",
+    "lv": "zrównoważony",
     "level": "B2"
   },
   {
     "de": "zustimmen",
-    "lv": "Zgodzić się",
+    "lv": "zgodzić się",
     "level": "B2"
   },
   {
     "de": "widersprechen",
-    "lv": "Obiekt",
+    "lv": "sprzeciwiać się • zaprzeczać",
     "level": "B2"
   },
   {
     "de": "Entwicklung",
     "de_article": "die",
     "de_plural": "die Entwicklungen",
-    "lv": "Rozwój",
+    "lv": "rozwój",
     "level": "B2"
   },
   {
     "de": "Akrobat",
     "de_article": "der",
     "de_plural": "die Akrobaten",
-    "lv": "Akrobata",
+    "lv": "akrobata",
     "level": "B2"
   },
   {
     "de": "Akrobatik",
     "de_article": "die",
     "de_plural": "die Akrobatiken",
-    "lv": "Akrobatyka",
+    "lv": "akrobatyka",
     "level": "B2"
   },
   {
     "de": "Akt",
     "de_article": "der",
     "de_plural": "die Akte",
-    "lv": "Akt • Dokument",
+    "lv": "akt • dokument",
     "level": "B2"
   },
   {
     "de": "akzeptabel",
-    "lv": "Do przyjęcia",
+    "lv": "do przyjęcia",
     "level": "B2"
   },
   {
     "de": "Alibi",
     "de_article": "das",
     "de_plural": "die Alibis",
-    "lv": "Alibi",
+    "lv": "alibi",
     "level": "B2"
   },
   {
     "de": "Alkoholismus",
     "de_article": "der",
-    "lv": "Alkoholizm",
+    "lv": "alkoholizm",
     "level": "B2"
   },
   {
     "de": "anbelangen",
-    "lv": "Odnieść się do",
+    "lv": "dotyczyć",
     "level": "B2"
   },
   {
     "de": "Analyse",
     "de_article": "die",
     "de_plural": "die Analysen",
-    "lv": "Analiza",
+    "lv": "analiza",
     "level": "B2"
   },
   {
     "de": "Anbau",
     "de_article": "der",
-    "lv": "Rozszerzenie • Uprawa",
+    "lv": "przybudówka • uprawa",
     "level": "B2"
   },
   {
     "de": "anfertigen",
-    "lv": "Zrobić",
+    "lv": "sporządzić • wykonać",
     "level": "B2"
   },
   {
     "de": "anführen",
-    "lv": "Wspomnieć • Prowadzić",
+    "lv": "przytaczać • przewodzić",
     "level": "B2"
   },
   {
     "de": "angebracht",
-    "lv": "Odpowiedni • Odpowiedni",
-    "level": "B2"
+    "lv": "stosowny • odpowiedni",
+    "level": "B2",
+    "study": {
+      "id": "b2-angebracht",
+      "layout": "standardStudy",
+      "translation": "stosowny • odpowiedni",
+      "explanation": [
+        "Główna myśl: angebracht to przymiotnik (od anbringen), który oznacza stosowny, na miejscu, odpowiedni w danej sytuacji. Zwykle występuje w orzeczeniu z sein: Vorsicht ist angebracht.",
+        "Służy do oceny zachowania, uwagi lub postępowania: czy jest stosowne, czy niestosowne (nicht angebracht, unangebracht). Połączenia: ein angebrachter Ton, eine angebrachte Bemerkung.",
+        "W znaczeniu dosłownym angebracht to także przymocowany: Das Schild ist an der Tür angebracht (tabliczka jest przymocowana do drzwi). To ta sama forma imiesłowu od anbringen (bringt an, brachte an, hat angebracht)."
+      ],
+      "examples": [
+        {
+          "de": "Hier ist Vorsicht angebracht.",
+          "lv": "Tutaj wskazana jest ostrożność."
+        },
+        {
+          "de": "Seine Bemerkung war nicht angebracht.",
+          "lv": "Jego uwaga była niestosowna."
+        },
+        {
+          "de": "Ein freundlicher Ton ist hier angebracht.",
+          "lv": "Przyjazny ton jest tu odpowiedni."
+        },
+        {
+          "de": "Ich halte das für angebracht.",
+          "lv": "Uważam to za stosowne."
+        },
+        {
+          "de": "Das Schild ist an der Tür angebracht.",
+          "lv": "Tabliczka jest przymocowana do drzwi."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "passend",
+          "meaning": "pasujący, odpowiedni",
+          "example": "Das ist ein passendes Geschenk. – To odpowiedni prezent."
+        },
+        {
+          "word": "angemessen",
+          "meaning": "adekwatny, rozsądny",
+          "example": "Der Preis ist angemessen. – Cena jest rozsądna."
+        },
+        {
+          "word": "unangebracht",
+          "meaning": "niestosowny",
+          "example": "Das war ein unangebrachter Witz. – To był niestosowny żart."
+        }
+      ],
+      "tip": [
+        "Zwrotu Das ist angebracht używa się do oceny sytuacji; w przeciwnym wypadku pasuje unangebracht.",
+        "Częste kolokacje: Vorsicht ist angebracht, Zurückhaltung ist angebracht."
+      ],
+      "important": [
+        "Angebracht zwykle łączy się z sein; przed rzeczownikiem dostaje końcówkę: eine angebrachte Bemerkung.",
+        "Nie myl z angemessen: angebracht dotyczy miejsca i chwili, a angemessen — zachowania właściwej miary."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "angebracht",
+            "anbringen",
+            "unangebracht"
+          ],
+          "purple": [
+            "stosowny",
+            "odpowiedni",
+            "przymocowana"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "angebracht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "wskazana"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "angebracht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "niestosowna"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "angebracht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "odpowiedni"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "angebracht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "stosowne"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "angebracht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "przymocowana"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "passend"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "pasujący"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "angemessen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "adekwatny"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "unangebracht"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "niestosowny"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "angebracht",
+              "unangebracht"
+            ]
+          },
+          {
+            "blue": [
+              "angebracht"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "angebracht"
+            ]
+          },
+          {
+            "blue": [
+              "angebracht"
+            ],
+            "green": [
+              "angemessen"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "angehen",
-    "lv": "Odnoszą się do • Zwrócić się przeciwko",
+    "lv": "dotyczyć • zwalczać",
     "level": "B2"
   },
   {
     "de": "angehören",
-    "lv": "Należeć do",
+    "lv": "należeć",
     "level": "B2"
   },
   {
     "de": "Aktienkurs",
     "de_article": "der",
     "de_plural": "die Aktienkurse",
-    "lv": "Cena akcji",
+    "lv": "kurs akcji",
     "level": "B2"
   },
   {
     "de": "allerhand",
-    "lv": "Wszelkiego rodzaju • Różne",
+    "lv": "wszelkiego rodzaju • różnorodny",
     "level": "B2"
   },
   {
     "de": "andererseits",
-    "lv": "Z drugiej strony",
+    "lv": "z drugiej strony",
     "level": "B2"
   },
   {
     "de": "andernfalls",
-    "lv": "W przeciwnym razie",
+    "lv": "w przeciwnym razie",
     "level": "B2"
   },
   {
     "de": "anbrechen",
-    "lv": "Na początek • Hack",
+    "lv": "nastać • napocząć",
     "level": "B2"
   },
   {
     "de": "anbremsen",
-    "lv": "Rozpocząć hamowanie",
+    "lv": "przyhamować",
     "level": "B2"
   },
   {
     "de": "anfreunden",
-    "lv": "Zaprzyjaźnić się",
+    "lv": "zaprzyjaźnić się",
     "level": "B2"
   },
   {
     "de": "angeblich",
-    "lv": "Jakby • Najwyraźniej",
+    "lv": "rzekomo • podobno",
     "level": "B2"
   },
   {
     "de": "angeboren",
-    "lv": "Wrodzony",
+    "lv": "wrodzony",
     "level": "B2"
   },
   {
     "de": "angelegt",
-    "lv": "Stworzony • Zainwestowany",
+    "lv": "założony • zainwestowany",
     "level": "B2"
   },
   {
     "de": "angeordnet",
-    "lv": "Ustalony • Zamówiony",
+    "lv": "ustalony • zarządzony",
     "level": "B2"
   },
   {
     "de": "angehoben",
-    "lv": "Podniesiony",
+    "lv": "podwyższony • podniesiony",
     "level": "B2"
   },
   {
     "de": "angegriffen",
-    "lv": "Zmęczony • Zaatakowany",
+    "lv": "wyczerpany • zaatakowany",
     "level": "B2"
   },
   {
     "de": "abberufen",
-    "lv": "Odwołać • Odwołać",
+    "lv": "odwołać",
     "level": "B2"
   },
   {
     "de": "abblitzen",
-    "lv": "Odrzucić",
+    "lv": "dostać kosza",
     "level": "B2"
   },
   {
     "de": "abbringen",
-    "lv": "Odradzać • Odradzać • Odwracać uwagę",
+    "lv": "odwieść • odciągnąć",
     "level": "B2"
   },
   {
     "de": "Abendblatt",
     "de_article": "das",
     "de_plural": "die Abendblätter",
-    "lv": "Gazeta wieczorna",
+    "lv": "gazeta wieczorna",
     "level": "B2"
   },
   {
     "de": "Abendgebet",
     "de_article": "das",
     "de_plural": "die Abendgebete",
-    "lv": "Wieczorna modlitwa",
+    "lv": "modlitwa wieczorna",
     "level": "B2"
   },
   {
     "de": "Abenteuerlust",
     "de_article": "die",
-    "lv": "Żądza romansu",
+    "lv": "żądza przygód",
     "level": "B2"
   },
   {
     "de": "Abfallprodukt",
     "de_article": "das",
     "de_plural": "die Abfallprodukte",
-    "lv": "Produkt odpadowy",
+    "lv": "produkt odpadowy",
     "level": "B2"
   },
   {
     "de": "abfällig",
-    "lv": "Niekorzystny • Negatywny • Zły • Dezaprobujący",
+    "lv": "lekceważący • pogardliwy",
     "level": "B2"
   },
   {
     "de": "abfertigen",
-    "lv": "Wysłać • Odesłać • Służyć • Traktować nieuprzejmie",
+    "lv": "odprawić • obsłużyć",
     "level": "B2"
   },
   {
     "de": "sich abfinden",
-    "lv": "Znosić",
+    "lv": "pogodzić się",
     "level": "B2",
     "study": {
       "id": "b2-sich-abfinden",
-      "layout": "minimalStudy",
-      "translation": "Znosić",
-      "rektion": "mit + kam?",
-      "explanation": "sich abfinden wymaga przyimka określonego mit + kam?.",
-      "forms": "mit + kam?",
-      "formsLabel": "Kierownictwo:",
+      "layout": "standardStudy",
+      "translation": "pogodzić się",
+      "explanation": [
+        "Główna myśl: sich abfinden mit to czasownik zwrotny, który oznacza pogodzić się z czymś nieprzyjemnym, czego nie da się zmienić. Po mit stoi celownik: sich mit etwas abfinden.",
+        "Formy: er findet sich ab, fand sich ab, hat sich abgefunden. Przedrostek ab- jest rozdzielny: Ich finde mich damit ab. W czasie Perfekt czasownikiem posiłkowym jest haben, a ge wstawia się między ab- a czasownik.",
+        "Bez zaimka zwrotnego abfinden znaczy wypłacić rekompensatę: jemanden mit Geld abfinden (spłacić kogoś pieniędzmi)."
+      ],
+      "examples": [
+        {
+          "de": "Er kann sich nicht mit der Niederlage abfinden.",
+          "lv": "Nie może pogodzić się z porażką."
+        },
+        {
+          "de": "Sie hat sich mit ihrem Schicksal abgefunden.",
+          "lv": "Pogodziła się ze swoim losem."
+        },
+        {
+          "de": "Wir müssen uns damit abfinden.",
+          "lv": "Musimy się z tym pogodzić."
+        },
+        {
+          "de": "Mit dem neuen Chef finde ich mich langsam ab.",
+          "lv": "Z nowym szefem powoli się godzę."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich gewöhnen an",
+          "meaning": "przyzwyczajać się do",
+          "example": "Ich gewöhne mich an die Kälte. – Przyzwyczajam się do zimna."
+        },
+        {
+          "word": "akzeptieren",
+          "meaning": "akceptować, uznawać",
+          "example": "Wir akzeptieren die Entscheidung. – Akceptujemy decyzję."
+        },
+        {
+          "word": "sich fügen",
+          "meaning": "podporządkować się",
+          "example": "Er fügt sich dem Beschluss. – Podporządkowuje się uchwale."
+        }
+      ],
+      "tip": [
+        "Po mit używaj celownika: mit dem Verlust, mit der Situation. Z zaimkiem mówi się damit.",
+        "Jeśli chcesz powiedzieć, że się nie poddasz, powiedz Ich finde mich nicht damit ab."
+      ],
+      "important": [
+        "Nie myl z abfinden bez sich: oznacza ono wypłacić rekompensatę lub zaspokoić czyjeś roszczenia pieniędzmi.",
+        "Forma Perfektu to sich abgefunden (z -ge- w środku), a nie gabgefunden."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
+            "abfinden",
+            "abgefunden",
+            "findet",
+            "finde",
+            "fand",
             "sich abfinden"
           ],
-          "red": [
-            "mit + kam?"
+          "purple": [
+            "pogodzić się",
+            "pogodzić"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "abfinden"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pogodzić",
+                "pogodzić"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "abgefunden"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Pogodziła",
+                "Pogodziła"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "abfinden"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pogodzić"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "finde"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "godzę",
+                "godzę"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich gewöhnen an"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "przyzwyczajać"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "akzeptieren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "akceptować"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich fügen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "podporządkować"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {
+            "blue": [
+              "finde"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "abfinden"
+            ]
+          },
+          {
+            "blue": [
+              "abgefunden"
+            ]
+          }
+        ]
       }
     }
   },
   {
     "de": "abgesehen",
-    "lv": "Chociaż • Dodatkowo",
-    "level": "B2"
+    "lv": "pomijając • oprócz",
+    "level": "B2",
+    "study": {
+      "id": "b2-abgesehen",
+      "layout": "standardStudy",
+      "translation": "pomijając • oprócz",
+      "explanation": [
+        "Główna myśl: abgesehen to forma imiesłowu, która z von działa jak przyimek i oznacza pomijając, oprócz: Abgesehen vom Wetter war alles gut.",
+        "Po abgesehen von stoi celownik: abgesehen von einem Fehler. Jeśli następuje całe zdanie, używa się abgesehen davon, dass …, a czasownik stoi na końcu zdania podrzędnego."
+      ],
+      "examples": [
+        {
+          "de": "Abgesehen vom Wetter war der Urlaub schön.",
+          "lv": "Pomijając pogodę, urlop był udany."
+        },
+        {
+          "de": "Abgesehen davon, dass es teuer ist, gefällt es mir.",
+          "lv": "Pomijając to, że jest drogie, podoba mi się."
+        },
+        {
+          "de": "Abgesehen von einem Kratzer ist das Auto in Ordnung.",
+          "lv": "Oprócz jednej rysy samochód jest w porządku."
+        },
+        {
+          "de": "Abgesehen von ihr waren alle da.",
+          "lv": "Oprócz niej wszyscy byli obecni."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "außer",
+          "meaning": "oprócz",
+          "example": "Alle außer mir waren da. – Wszyscy oprócz mnie byli obecni."
+        },
+        {
+          "word": "bis auf",
+          "meaning": "z wyjątkiem",
+          "example": "Bis auf einen Fehler war alles richtig. – Z wyjątkiem jednego błędu wszystko było dobrze."
+        },
+        {
+          "word": "einschließlich",
+          "meaning": "łącznie z",
+          "example": "Der Preis gilt einschließlich Frühstück. – Cena obowiązuje łącznie ze śniadaniem."
+        }
+      ],
+      "tip": [
+        "Po abgesehen zawsze stawia się von (lub davon, dass): abgesehen von dir.",
+        "Częsty początek uwagi: Abgesehen davon … (Pomijając to …)."
+      ],
+      "important": [
+        "Abgesehen zwykle występuje razem z von lub davon, dass, żeby było jasne, co zostaje pominięte.",
+        "Po abgesehen von rzeczownik stoi w celowniku: abgesehen vom Preis (= von dem Preis)."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Abgesehen",
+            "abgesehen"
+          ],
+          "purple": [
+            "pomijając",
+            "oprócz"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Abgesehen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Pomijając"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Abgesehen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Pomijając"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Abgesehen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Oprócz"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Abgesehen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Oprócz"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "außer"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "oprócz"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "bis auf"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "z wyjątkiem"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "einschließlich"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "łącznie"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "abgesehen"
+            ]
+          },
+          {
+            "blue": [
+              "abgesehen",
+              "Abgesehen"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "abgesehen",
+              "Abgesehen"
+            ]
+          },
+          {
+            "blue": [
+              "abgesehen"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "abgespannt",
-    "lv": "Zmęczony • Wyczerpany",
+    "lv": "zmęczony • wyczerpany",
     "level": "B2"
   },
   {
     "de": "abgetan",
-    "lv": "Zakończone • Rozliczone",
+    "lv": "załatwiony",
     "level": "B2"
   },
   {
     "de": "abgrenzen",
-    "lv": "Rozgraniczaj • Dystansuj się",
+    "lv": "rozgraniczyć • zdystansować się",
     "level": "B2"
   },
   {
     "de": "Abgrund",
     "de_article": "der",
     "de_plural": "die Abgründe",
-    "lv": "Otchłań",
+    "lv": "otchłań",
     "level": "B2"
   },
   {
     "de": "abhören",
-    "lv": "Podsłuchiwać • Podsłuchiwać",
+    "lv": "podsłuchiwać",
     "level": "B2"
   },
   {
     "de": "ableiten",
-    "lv": "Prowadzić • Odwracać • Wyprowadzać",
+    "lv": "odprowadzić • wyprowadzić",
     "level": "B2"
   },
   {
     "de": "Abneigung",
     "de_article": "die",
     "de_plural": "die Abneigungen",
-    "lv": "Niechęć • Antypatia",
+    "lv": "niechęć • antypatia",
     "level": "B2"
   },
   {
     "de": "Abnutzung",
     "de_article": "die",
     "de_plural": "die Abnutzungen",
-    "lv": "Ścieranie • Ścieranie • Ścieranie",
+    "lv": "zużycie",
     "level": "B2"
   },
   {
     "de": "Abonnent",
     "de_article": "der",
     "de_plural": "die Abonnenten",
-    "lv": "Abonent",
+    "lv": "prenumerator • abonent",
     "level": "B2"
   },
   {
     "de": "abrichten",
-    "lv": "Szkolić zwierzę",
+    "lv": "tresować",
     "level": "B2"
   },
   {
     "de": "Abrüstung",
     "de_article": "die",
     "de_plural": "die Abrüstungen",
-    "lv": "Rozbrojenie",
+    "lv": "rozbrojenie",
     "level": "B2"
   },
   {
     "de": "Absatzmarkt",
     "de_article": "der",
     "de_plural": "die Absatzmärkte",
-    "lv": "Rynek outletowy",
+    "lv": "rynek zbytu",
     "level": "B2"
   },
   {
     "de": "abscheulich",
-    "lv": "Obrzydliwe • Obrzydliwe",
+    "lv": "obrzydliwy • odrażający",
     "level": "B2"
   },
   {
     "de": "abschieben",
-    "lv": "Odepchnąć • Wygnać",
+    "lv": "odsunąć • deportować",
     "level": "B2"
   },
   {
     "de": "abschlagen",
-    "lv": "Ciąć • Odpychać • Odpychać • Odrzucać",
+    "lv": "odrąbać • odeprzeć • odmówić",
     "level": "B2"
   },
   {
     "de": "abschleppen",
-    "lv": "Usuń samochód",
+    "lv": "odholować",
     "level": "B2"
   },
   {
     "de": "abschrecken",
-    "lv": "Zastraszyć • Szybko się ochłodzić",
+    "lv": "odstraszyć • schłodzić",
     "level": "B2"
   },
   {
     "de": "Abschrift",
     "de_article": "die",
     "de_plural": "die Abschriften",
-    "lv": "Transkrypcja • Kopia",
+    "lv": "odpis • kopia",
     "level": "B2"
   },
   {
     "de": "absondern",
-    "lv": "Oddzielny • Oddzielny • Odizolowany",
+    "lv": "wydzielać • oddzielać • izolować",
     "level": "B2"
   },
   {
     "de": "Abstammung",
     "de_article": "die",
     "de_plural": "die Abstammungen",
-    "lv": "Pochodzenie",
+    "lv": "pochodzenie",
     "level": "B2"
   },
   {
     "de": "Abstecher",
     "de_article": "der",
     "de_plural": "die Abstecher",
-    "lv": "Dywersja • Krótka podróż",
+    "lv": "wypad • krótka wycieczka",
     "level": "B2"
   },
   {
     "de": "abstimmen",
-    "lv": "Głosować • Zgodzić się",
+    "lv": "głosować • uzgodnić",
     "level": "B2"
   },
   {
     "de": "Abstimmung",
     "de_article": "die",
     "de_plural": "die Abstimmungen",
-    "lv": "Głosowanie",
+    "lv": "głosowanie",
     "level": "B2"
   },
   {
     "de": "abstoßend",
-    "lv": "Odrażający • Obrzydliwy",
+    "lv": "odpychający • odrażający",
     "level": "B2"
   },
   {
     "de": "Absturz",
     "de_article": "der",
     "de_plural": "die Abstürze",
-    "lv": "Upadek • Upadek",
+    "lv": "upadek • katastrofa",
     "level": "B2"
   },
   {
     "de": "absurd",
-    "lv": "Absurdalne • Bezsensowne",
+    "lv": "absurdalny • bezsensowny",
     "level": "B2"
   },
   {
     "de": "abtragen",
-    "lv": "Wynieść • Wynieść • Zburzyć",
-    "level": "B2"
+    "lv": "uprzątnąć • znosić • rozebrać",
+    "level": "B2",
+    "study": {
+      "id": "b2-abtragen",
+      "layout": "standardStudy",
+      "translation": "uprzątnąć • znosić • rozebrać",
+      "explanation": [
+        "Główna myśl: abtragen to czasownik rozdzielnie złożony o kilku znaczeniach: znosić (ubranie), rozebrać lub zniwelować (budynek, wzgórze), uprzątnąć (np. talerze ze stołu). Formy: trägt ab, trug ab, hat abgetragen.",
+        "Imiesłów abgetragen często opisuje znoszone ubrania: abgetragene Schuhe. W budownictwie abtragen oznacza stopniowo rozbierać lub usuwać: eine Mauer abtragen.",
+        "Abtragen oznacza też stopniowo spłacać długi: Schulden abtragen. We wszystkich znaczeniach przedrostek ab- się oddziela: Er trägt die Teller ab."
+      ],
+      "examples": [
+        {
+          "de": "Die Schuhe sind schon stark abgetragen.",
+          "lv": "Buty są już mocno znoszone."
+        },
+        {
+          "de": "Man trägt die alte Mauer Stein für Stein ab.",
+          "lv": "Stary mur rozbiera się kamień po kamieniu."
+        },
+        {
+          "de": "Die Kellnerin trägt die Teller ab.",
+          "lv": "Kelnerka sprząta talerze ze stołu."
+        },
+        {
+          "de": "Er trägt seine Schulden in Raten ab.",
+          "lv": "Spłaca swoje długi w ratach."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "abreißen",
+          "meaning": "zburzyć",
+          "example": "Man hat das alte Haus abgerissen. – Stary dom zburzono."
+        },
+        {
+          "word": "abräumen",
+          "meaning": "sprzątnąć (ze stołu)",
+          "example": "Sie räumt den Tisch ab. – Ona sprząta ze stołu."
+        },
+        {
+          "word": "verschleißen",
+          "meaning": "zużywać się",
+          "example": "Die Reifen verschleißen schnell. – Opony szybko się zużywają."
+        }
+      ],
+      "tip": [
+        "O znaczeniu decyduje kontekst: przy ubraniach abtragen to znosić, przy murze — rozebrać, przy jedzeniu — sprzątnąć ze stołu.",
+        "W restauracji często słyszy się abtragen, gdy kelner sprząta ze stołu."
+      ],
+      "important": [
+        "Nie myl abtragen z abreißen: abreißen to szybko i całkowicie zburzyć budynek, a abtragen — stopniowo usuwać.",
+        "Perfekt: hat abgetragen (z ge- między ab- a tragen)."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "abtragen",
+            "trägt ab",
+            "trug ab",
+            "abgetragen",
+            "trägt",
+            "ab"
+          ],
+          "purple": [
+            "znosić",
+            "rozebrać",
+            "uprzątnąć",
+            "znoszone",
+            "spłacać"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "abgetragen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "znoszone"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "trägt",
+                "ab"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "rozbiera"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "trägt",
+                "ab"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "sprząta"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "trägt",
+                "ab"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Spłaca"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "abreißen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "zburzyć"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "abräumen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "sprzątnąć"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "verschleißen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "zużywać"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "abtragen"
+            ]
+          },
+          {
+            "blue": [
+              "abtragen"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "abtragen"
+            ],
+            "green": [
+              "abreißen"
+            ]
+          },
+          {
+            "blue": [
+              "abgetragen",
+              "ab"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "abtreten",
-    "lv": "Wycofać się • Dać • Urlop",
+    "lv": "ustąpić • odstąpić • odejść",
     "level": "B2"
   },
   {
     "de": "abweichen",
-    "lv": "Różnią się • Różnią się",
+    "lv": "różnić się • odbiegać",
     "level": "B2"
   },
   {
     "de": "abweisen",
-    "lv": "Odrzucić • Odrzucić",
+    "lv": "odrzucić • odprawić",
     "level": "B2"
   },
   {
     "de": "abwenden",
-    "lv": "Zapobiegać",
+    "lv": "zapobiec • odwrócić",
     "level": "B2"
   },
   {
     "de": "Affäre",
     "de_article": "die",
     "de_plural": "die Affären",
-    "lv": "Sprawa • Powieść",
+    "lv": "afera • romans",
     "level": "B2"
   },
   {
     "de": "sich abwenden",
-    "lv": "Odwróć się od",
+    "lv": "odwrócić się",
     "level": "B2",
     "study": {
       "id": "b2-sich-abwenden",
-      "layout": "minimalStudy",
-      "translation": "Odwróć się od",
-      "rektion": "von + kam?",
-      "explanation": "sich abwenden wymaga przyimka określonego von + kam?.",
-      "forms": "von + kam?",
-      "formsLabel": "Kierownictwo:",
+      "layout": "standardStudy",
+      "translation": "odwrócić się",
+      "explanation": [
+        "Główna myśl: sich abwenden to zwrotny czasownik rozdzielnie złożony, który oznacza odwrócić się — fizycznie odwrócić wzrok lub ciało, a w przenośni odwrócić się od kogoś lub czegoś. Po von stoi celownik: sich von jemandem abwenden.",
+        "Formy: wendet sich ab, wandte (rzadziej wendete) sich ab, hat sich abgewandt (rzadziej abgewendet). Przedrostek ab- się oddziela: Sie wendet sich ab.",
+        "Bez zaimka zwrotnego abwenden + biernik oznacza zapobiec czemuś, zażegnać coś: eine Gefahr abwenden (zażegnać niebezpieczeństwo); w tym znaczeniu zwykle używa się form regularnych: wendete ab, hat abgewendet."
+      ],
+      "examples": [
+        {
+          "de": "Sie wandte sich vom Fenster ab.",
+          "lv": "Odwróciła się od okna."
+        },
+        {
+          "de": "Viele Wähler haben sich von der Partei abgewandt.",
+          "lv": "Wielu wyborców odwróciło się od partii."
+        },
+        {
+          "de": "Er wendet sich von seinen Freunden ab.",
+          "lv": "Odwraca się od swoich przyjaciół."
+        },
+        {
+          "de": "Die Mutter wandte sich enttäuscht ab.",
+          "lv": "Matka odwróciła się rozczarowana."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "abwenden",
+          "meaning": "zapobiec, zażegnać",
+          "example": "Wir konnten die Katastrophe abwenden. – Udało nam się zapobiec katastrofie."
+        },
+        {
+          "word": "sich zuwenden",
+          "meaning": "zwrócić się (ku komuś)",
+          "example": "Sie wendet sich dem Kind zu. – Ona zwraca się ku dziecku."
+        },
+        {
+          "word": "sich umdrehen",
+          "meaning": "obrócić się, odwrócić się",
+          "example": "Er dreht sich um. – On się odwraca."
+        }
+      ],
+      "tip": [
+        "Po von używaj celownika: von der Politik, von den Freunden.",
+        "Zapamiętaj przeciwieństwo: sich abwenden (odwrócić się) i sich zuwenden (zwrócić się ku czemuś)."
+      ],
+      "important": [
+        "Sich abwenden i abwenden mają różne znaczenia: forma zwrotna wyraża odwrócenie się, a abwenden + biernik — zażegnanie niebezpieczeństwa.",
+        "W czasie Perfekt sich abwenden częściej ma formę abgewandt niż abgewendet."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich abwenden"
+            "abwenden",
+            "sich abwenden",
+            "wandte",
+            "ab",
+            "abgewandt",
+            "wendet"
           ],
-          "red": [
-            "von + kam?"
+          "purple": [
+            "odwrócić się"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "wandte",
+                "ab"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Odwróciła"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "abgewandt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "odwróciło"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "wendet",
+                "ab"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Odwraca"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "wandte",
+                "ab"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "odwróciła"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "abwenden"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "zapobiec"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "zuwenden"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "zwrócić się"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "umdrehen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "obrócić się"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {
+            "blue": [
+              "sich abwenden",
+              "abwenden"
+            ],
+            "green": [
+              "zuwenden",
+              "sich zuwenden"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "sich abwenden",
+              "abwenden"
+            ]
+          },
+          {
+            "blue": [
+              "sich abwenden",
+              "abwenden",
+              "abgewandt"
+            ]
+          }
+        ]
       }
     }
   },
   {
     "de": "Abzweigung",
     "de_article": "die",
-    "lv": "Oddział • Oddział",
+    "lv": "odgałęzienie • rozwidlenie",
     "level": "B2"
   },
   {
     "de": "ächzen",
-    "lv": "Jęczeć • Jęczeć",
+    "lv": "jęczeć • stękać",
     "level": "B2"
   },
   {
     "de": "affig",
-    "lv": "Krzykliwy • Zarozumiały",
+    "lv": "pretensjonalny • zarozumiały",
     "level": "B2"
   },
   {
     "de": "alsogleich",
-    "lv": "Natychmiast",
+    "lv": "natychmiast",
     "level": "B2"
   },
   {
     "de": "analysieren",
-    "lv": "Analizować",
+    "lv": "analizować",
     "level": "B2"
   },
   {
     "de": "Andeutung",
     "de_article": "die",
     "de_plural": "die Andeutungen",
-    "lv": "Wskazówka • Wskazanie",
+    "lv": "aluzja • wskazówka",
     "level": "B2"
   },
   {
     "de": "andeuten",
-    "lv": "Wskazać • Wskazówkę",
+    "lv": "sugerować • napomknąć",
     "level": "B2"
   },
   {
     "de": "Anmut",
     "de_article": "die",
-    "lv": "Atrakcyjność • Piękno • Wdzięk",
+    "lv": "wdzięk • gracja",
     "level": "B2"
   },
   {
     "de": "annähernd",
-    "lv": "Przybliżony • Przybliżony",
+    "lv": "przybliżony • w przybliżeniu",
     "level": "B2"
   },
   {
     "de": "Anorak",
     "de_article": "der",
     "de_plural": "die Anoraks",
-    "lv": "Sportowa kurtka z kapturem",
+    "lv": "anorak • kurtka z kapturem",
     "level": "B2"
   },
   {
     "de": "Anwärter",
     "de_article": "der",
     "de_plural": "die Anwärter",
-    "lv": "Wnioskodawca • Kandydat",
+    "lv": "kandydat • pretendent",
     "level": "B2"
   },
   {
     "de": "Areal",
     "de_article": "das",
     "de_plural": "die Areale",
-    "lv": "Zakres",
+    "lv": "obszar • teren",
     "level": "B2"
   },
   {
     "de": "Arie",
     "de_article": "die",
     "de_plural": "die Arien",
-    "lv": "Aria",
+    "lv": "aria",
     "level": "B2"
   },
   {
     "de": "Armsessel",
     "de_article": "der",
     "de_plural": "die Armsessel",
-    "lv": "Fotel",
+    "lv": "fotel",
     "level": "B2"
   },
   {
     "de": "Aster",
     "de_article": "die",
     "de_plural": "die Astern",
-    "lv": "Aster",
+    "lv": "aster",
     "level": "B2"
   },
   {
     "de": "Atombombe",
     "de_article": "die",
     "de_plural": "die Atombomben",
-    "lv": "Bomba atomowa",
+    "lv": "bomba atomowa",
     "level": "B2"
   },
   {
     "de": "Atomenergie",
     "de_article": "die",
-    "lv": "Energia atomowa",
+    "lv": "energia atomowa",
     "level": "B2"
   },
   {
     "de": "ausbeuten",
-    "lv": "Eksploatować",
+    "lv": "wyzyskiwać • eksploatować",
     "level": "B2"
   },
   {
     "de": "Ausbeutung",
     "de_article": "die",
     "de_plural": "die Ausbeutungen",
-    "lv": "Działanie",
+    "lv": "wyzysk • eksploatacja",
     "level": "B2"
   },
   {
     "de": "Auktion",
     "de_article": "die",
     "de_plural": "die Auktionen",
-    "lv": "Aukcja",
+    "lv": "aukcja • licytacja",
     "level": "B2"
   },
   {
     "de": "sich aufdrängen",
-    "lv": "Nękać",
+    "lv": "narzucać się",
     "level": "B2"
   },
   {
     "de": "Aufruf",
     "de_article": "der",
     "de_plural": "die Aufrufe",
-    "lv": "Wykrzyknik • Zaproszenie",
+    "lv": "apel • wezwanie",
     "level": "B2"
   },
   {
     "de": "Aufschluss",
     "de_article": "der",
     "de_plural": "die Aufschlüsse",
-    "lv": "Wyjaśnienie • Informacja",
+    "lv": "wyjaśnienie • informacja",
     "level": "B2"
   },
   {
     "de": "Augenleiden",
     "de_article": "das",
     "de_plural": "die Augenleiden",
-    "lv": "Choroba oczu",
+    "lv": "choroba oczu",
     "level": "B2"
   },
   {
     "de": "Augenmaß",
     "de_article": "das",
     "de_plural": "die Augenmaße",
-    "lv": "Akumetr",
+    "lv": "wyczucie • ocena na oko",
     "level": "B2"
   },
   {
     "de": "Äußerlichkeit",
     "de_article": "die",
     "de_plural": "die Äußerlichkeiten",
-    "lv": "Ostentacyjność",
-    "level": "B2"
+    "lv": "powierzchowność",
+    "level": "B2",
+    "study": {
+      "id": "b2--u-erlichkeit",
+      "layout": "standardStudy",
+      "translation": "powierzchowność",
+      "explanation": [
+        "Główna myśl: die Äußerlichkeit to rzeczownik rodzaju żeńskiego, który oznacza powierzchowność — zewnętrzną, płytką rzecz, która nie jest istotna. Często używa się go w liczbie mnogiej.",
+        "Liczba mnoga to die Äußerlichkeiten. Zwykle słowo ma wydźwięk krytyczny: Er achtet nur auf Äußerlichkeiten (zwraca uwagę tylko na zewnętrzne pozory).",
+        "Słowo pochodzi od äußerlich (zewnętrzny); rzeczownik die Äußerlichkeit określa to, co jest tylko na zewnątrz, bez głębi."
+      ],
+      "examples": [
+        {
+          "de": "Ihm sind Äußerlichkeiten nicht wichtig.",
+          "lv": "Sprawy zewnętrzne nie są dla niego ważne."
+        },
+        {
+          "de": "Das ist nur eine Äußerlichkeit.",
+          "lv": "To tylko rzecz powierzchowna."
+        },
+        {
+          "de": "Sie achtet zu sehr auf Äußerlichkeiten.",
+          "lv": "Przywiązuje zbyt dużą wagę do pozorów."
+        },
+        {
+          "de": "Man sollte sich nicht von Äußerlichkeiten täuschen lassen.",
+          "lv": "Nie należy dawać się zwodzić pozorom."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "das Äußere",
+          "meaning": "wygląd zewnętrzny",
+          "example": "Sein Äußeres täuscht. – Jego wygląd zewnętrzny myli."
+        },
+        {
+          "word": "die Oberflächlichkeit",
+          "meaning": "płytkość, powierzchowność",
+          "example": "Ich mag keine Oberflächlichkeit. – Nie lubię płytkości."
+        },
+        {
+          "word": "das Aussehen",
+          "meaning": "wygląd",
+          "example": "Sein Aussehen hat sich verändert. – Jego wygląd się zmienił."
+        }
+      ],
+      "tip": [
+        "Zwykle używa się z auf (auf Äußerlichkeiten achten) lub z nur: nur eine Äußerlichkeit.",
+        "Słowo często brzmi krytycznie: wskazuje, że coś jest tylko powierzchowne."
+      ],
+      "important": [
+        "Liczba mnoga Äußerlichkeiten jest znacznie częstsza niż liczba pojedyncza.",
+        "Äußerlichkeit to nie neutralny wygląd: wygląd zewnętrzny to das Äußere."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Äußerlichkeit",
+            "Äußerlichkeiten"
+          ],
+          "purple": [
+            "powierzchowność"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Äußerlichkeiten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "zewnętrzne"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Äußerlichkeit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "powierzchowna"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Äußerlichkeiten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pozorów"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Äußerlichkeiten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pozorom"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "das Äußere"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "wygląd zewnętrzny"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Oberflächlichkeit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "płytkość"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "das Aussehen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "wygląd"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "Äußerlichkeit",
+              "Äußerlichkeiten"
+            ]
+          },
+          {}
+        ],
+        "important": [
+          {
+            "blue": [
+              "Äußerlichkeiten"
+            ]
+          },
+          {
+            "blue": [
+              "Äußerlichkeit"
+            ],
+            "green": [
+              "das Äußere",
+              "Äußere"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Äußerung",
     "de_article": "die",
     "de_plural": "die Äußerungen",
-    "lv": "Wypowiedź • Ekspresja • Ekspresja",
+    "lv": "wypowiedź • wyraz",
     "level": "B2"
   },
   {
     "de": "aussetzen",
-    "lv": "Opublikuj • Temat • Sprzeciwiaj się • Postaw",
-    "level": "B2"
+    "lv": "wystawić • narazić • przerwać",
+    "level": "B2",
+    "study": {
+      "id": "b2-aussetzen",
+      "layout": "standardStudy",
+      "translation": "wystawić • narazić • przerwać",
+      "explanation": [
+        "Główna myśl: aussetzen to czasownik rozdzielnie złożony o kilku znaczeniach: porzucić (psa, dziecko), narazić, wystawić (na zimno, niebezpieczeństwo), zatrzymać się lub przerwać (o silniku, pracy), a z an + celownik — mieć zastrzeżenia.",
+        "Formy: setzt aus, setzte aus, hat ausgesetzt. Przy narażaniu na coś używa się celownika: jemanden/etwas einer Gefahr aussetzen; sich der Sonne aussetzen. Imiesłów ausgesetzt sein oznacza być narażonym.",
+        "W znaczeniu mieć zastrzeżenia używa się wyrażenia etwas an jemandem/etwas auszusetzen haben: Ich habe nichts daran auszusetzen. Tutaj zu wchodzi między przedrostek a rdzeń: auszusetzen."
+      ],
+      "examples": [
+        {
+          "de": "Sie setzten den Hund im Wald aus.",
+          "lv": "Porzucili psa w lesie."
+        },
+        {
+          "de": "Die Kinder sind der Kälte ausgesetzt.",
+          "lv": "Dzieci są narażone na zimno."
+        },
+        {
+          "de": "Der Motor setzte plötzlich aus.",
+          "lv": "Silnik nagle przestał pracować."
+        },
+        {
+          "de": "Ich habe nichts an deinem Plan auszusetzen.",
+          "lv": "Nie mam żadnych zastrzeżeń do twojego planu."
+        },
+        {
+          "de": "Du solltest dich nicht zu lange der Sonne aussetzen.",
+          "lv": "Nie powinieneś zbyt długo wystawiać się na słońce."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "unterbrechen",
+          "meaning": "przerwać",
+          "example": "Das Spiel wurde unterbrochen. – Mecz został przerwany."
+        },
+        {
+          "word": "kritisieren",
+          "meaning": "krytykować",
+          "example": "Er kritisiert den Plan. – On krytykuje plan."
+        },
+        {
+          "word": "verlassen",
+          "meaning": "porzucić, opuścić",
+          "example": "Er hat seine Familie verlassen. – Opuścił swoją rodzinę."
+        }
+      ],
+      "tip": [
+        "O znaczeniu decyduje kontekst: zwierzę lub dziecko — porzucić, słońce lub niebezpieczeństwo — narazić, silnik — zatrzymać się.",
+        "W znaczeniu zastrzeżeń zwykle używa się formy przeczącej: nichts auszusetzen haben."
+      ],
+      "important": [
+        "Przy narażaniu po aussetzen stoi celownik (der Gefahr, dem Risiko), a ten, kto jest narażany, stoi w bierniku (jemanden).",
+        "Nie myl ausgesetzt sein (być narażonym) z ausgestellt (wystawiony na wystawie lub wydany)."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "aussetzen",
+            "setzt",
+            "setzte",
+            "ausgesetzt",
+            "auszusetzen"
+          ],
+          "purple": [
+            "porzucić",
+            "narazić",
+            "wystawić",
+            "zatrzymać się",
+            "zastrzeżenia",
+            "narażaniu",
+            "narażonym"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "setzten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Porzucili"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ausgesetzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "narażone"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "setzte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "przestał"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "auszusetzen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "zastrzeżeń"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "aussetzen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "wystawiać"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "unterbrechen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "przerwać"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "kritisieren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "krytykować"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "verlassen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "porzucić"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {
+            "blue": [
+              "auszusetzen"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "aussetzen"
+            ]
+          },
+          {
+            "blue": [
+              "ausgesetzt"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "aussichtslos",
-    "lv": "Beznadziejny • Brak perspektyw",
+    "lv": "beznadziejny • bez szans",
     "level": "B2"
   },
   {
     "de": "ausspannen",
-    "lv": "Odpiąć • Zabrać partnera • Odpocząć",
+    "lv": "wyprząc • odbić partnera • odpocząć",
     "level": "B2"
   },
   {
     "de": "ausstatten",
-    "lv": "Dostarczyć • Zaprojektować",
+    "lv": "wyposażyć • urządzić",
     "level": "B2"
   },
   {
     "de": "aussterben",
-    "lv": "Wymierać",
+    "lv": "wymierać",
     "level": "B2"
   },
   {
     "de": "ausstopfen",
-    "lv": "Wypełnić • Wypełnić • Wypchać",
+    "lv": "wypchać • wypełnić",
     "level": "B2"
   },
   {
     "de": "ausströmen",
-    "lv": "Sączyć się • Emanować • Promieniować",
-    "level": "B2"
+    "lv": "wydobywać się • emanować",
+    "level": "B2",
+    "study": {
+      "id": "b2-ausstr-men",
+      "layout": "standardStudy",
+      "translation": "wydobywać się • emanować",
+      "explanation": [
+        "Główna myśl: ausströmen oznacza wydobywać się, wypływać, ulatniać się (o gazie, powietrzu, cieczy) lub w przenośni emanować, roztaczać (spokój, ciepło). Przedrostek aus- się oddziela.",
+        "Formy: strömt aus, strömte aus. Gdy coś się wydobywa i jest w tym ruch, czasownikiem posiłkowym w czasie Perfekt jest sein: Das Gas ist ausgeströmt. Z dopełnieniem w bierniku (Ruhe ausströmen) używa się haben: Sie hat Ruhe ausgeströmt.",
+        "Słowo jest bliskie strömen (płynąć). Najczęstsze użycia to techniczne, o wycieku gazu, oraz przenośne, o wrażeniu, jakie wywiera człowiek."
+      ],
+      "examples": [
+        {
+          "de": "Aus dem Rohr strömt Gas aus.",
+          "lv": "Z rury ulatnia się gaz."
+        },
+        {
+          "de": "Das Wasser ist aus dem Tank ausgeströmt.",
+          "lv": "Woda wyciekła ze zbiornika."
+        },
+        {
+          "de": "Sie strömt Ruhe aus.",
+          "lv": "Ona emanuje spokojem."
+        },
+        {
+          "de": "Aus der Küche strömte ein feiner Duft aus.",
+          "lv": "Z kuchni rozchodził się delikatny zapach."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "ausfließen",
+          "meaning": "wyciekać",
+          "example": "Das Öl fließt aus dem Tank aus. – Olej wycieka ze zbiornika."
+        },
+        {
+          "word": "austreten",
+          "meaning": "wydostawać się, ulatniać się",
+          "example": "Aus dem Rohr tritt Gas aus. – Z rury ulatnia się gaz."
+        },
+        {
+          "word": "ausstrahlen",
+          "meaning": "promieniować, emanować",
+          "example": "Er strahlt Freude aus. – On promienieje radością."
+        }
+      ],
+      "tip": [
+        "Przy wycieku gazu mówi się Gas strömt aus; zwykle oznacza to niebezpieczną sytuację.",
+        "Z sein tworzy się Perfekt, gdy nie ma dopełnienia: ist ausgeströmt."
+      ],
+      "important": [
+        "Czasownikiem posiłkowym w czasie Perfekt jest sein, gdy coś się wydobywa (ist ausgeströmt), a haben, gdy jest dopełnienie (hat Ruhe ausgeströmt).",
+        "Ausströmen to nie to samo co ausschütten (wylać): to drugie robi człowiek."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "ausströmen",
+            "strömt aus",
+            "strömte aus",
+            "ausgeströmt",
+            "strömen",
+            "aus",
+            "strömt",
+            "strömte"
+          ],
+          "purple": [
+            "wydobywać się",
+            "wypływać",
+            "emanować"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "strömt",
+                "aus"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ulatnia"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ausgeströmt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "wyciekła"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "strömt",
+                "aus"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "emanuje"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "strömte",
+                "aus"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "rozchodził"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "ausfließen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "wyciekać"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "austreten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "wydostawać się"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "ausstrahlen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "promieniować"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "strömt aus",
+              "strömt",
+              "aus"
+            ]
+          },
+          {
+            "blue": [
+              "ausgeströmt"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "ausgeströmt"
+            ]
+          },
+          {
+            "blue": [
+              "ausströmen"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "austragen",
-    "lv": "Nieść • Dostarczać • Wygrywać",
+    "lv": "roznosić • donosić • rozegrać",
     "level": "B2"
   },
   {
     "de": "austreiben",
-    "lv": "Wypędzić • Odsadzić",
+    "lv": "wypędzić • oduczyć",
     "level": "B2"
   },
   {
     "de": "austreten",
-    "lv": "Eksmitować • Czynsz • Zrezygnować",
-    "level": "B2"
+    "lv": "wydeptać • wystąpić",
+    "level": "B2",
+    "study": {
+      "id": "b2-austreten",
+      "layout": "standardStudy",
+      "translation": "wydeptać • wystąpić",
+      "explanation": [
+        "Główna myśl: austreten to czasownik rozdzielnie złożony z dwiema głównymi grupami znaczeń: bez dopełnienia (z sein) — wystąpić z organizacji albo wyciec, wydostać się; z biernikiem (z haben) — wydeptać lub zadeptać.",
+        "Formy: tritt aus, trat aus. Wystąpienie: Er ist aus dem Verein ausgetreten (aus + celownik). Wyciek: Gas ist ausgetreten. Zadeptanie: Er hat die Zigarette ausgetreten (zgasił ją, przydeptując).",
+        "Imiesłów ausgetreten jako przymiotnik opisuje wytarte, wydeptane miejsce: ausgetretene Stufen (wydeptane schody)."
+      ],
+      "examples": [
+        {
+          "de": "Er ist aus dem Verein ausgetreten.",
+          "lv": "Wystąpił ze stowarzyszenia."
+        },
+        {
+          "de": "Aus dem Tank ist Öl ausgetreten.",
+          "lv": "Ze zbiornika wyciekł olej."
+        },
+        {
+          "de": "Er hat die Zigarette auf dem Boden ausgetreten.",
+          "lv": "Zadeptał papierosa na podłodze."
+        },
+        {
+          "de": "Die alten Stufen sind schon ausgetreten.",
+          "lv": "Stare schody są już wydeptane."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "eintreten",
+          "meaning": "wejść, wstąpić",
+          "example": "Er tritt in den Verein ein. – Wstępuje do stowarzyszenia."
+        },
+        {
+          "word": "kündigen",
+          "meaning": "wypowiedzieć (umowę)",
+          "example": "Sie hat den Vertrag gekündigt. – Wypowiedziała umowę."
+        },
+        {
+          "word": "ausscheiden",
+          "meaning": "odejść, wystąpić (ze stanowiska)",
+          "example": "Er scheidet aus dem Vorstand aus. – Odchodzi z zarządu."
+        }
+      ],
+      "tip": [
+        "Czasownik posiłkowy rozstrzyga o znaczeniu: ist ausgetreten (wystąpić, wyciec), hat ausgetreten (zadeptać nogą).",
+        "Wystąpienie z organizacji wyraża się przez aus + celownik: aus der Kirche austreten."
+      ],
+      "important": [
+        "Austreten to nie to samo co eintreten: wejść lub wstąpić.",
+        "W codziennej mowie ich muss mal austreten to grzeczny sposób, by powiedzieć, że trzeba iść do toalety."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "austreten",
+            "ausgetreten",
+            "ausgetretene",
+            "tritt",
+            "trat"
+          ],
+          "purple": [
+            "Wystąpienie",
+            "wystąpić",
+            "wyciec",
+            "wydeptać",
+            "wydeptane"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "ausgetreten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Wystąpił"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ausgetreten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "wyciekł"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ausgetreten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Zadeptał"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ausgetreten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "wydeptane"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "eintreten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "wejść"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "kündigen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "wypowiedzieć"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "ausscheiden"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "odejść"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "ausgetreten"
+            ]
+          },
+          {
+            "blue": [
+              "austreten"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "austreten"
+            ],
+            "green": [
+              "eintreten"
+            ]
+          },
+          {
+            "blue": [
+              "austreten"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "auswärtig",
-    "lv": "Zagraniczne • Sprawy zagraniczne",
+    "lv": "zagraniczny",
     "level": "B2"
   },
   {
     "de": "ausweichend",
-    "lv": "Wymijający • Niepewny",
+    "lv": "wymijający • niejasny",
     "level": "B2"
   },
   {
     "de": "ausweisen",
-    "lv": "Wydalić • Wysłać • Potwierdzić • Udowodnić",
+    "lv": "wydalić • wykazać",
     "level": "B2"
   },
   {
     "de": "auswerfen",
-    "lv": "Wyrzucić • Wyrzucić",
+    "lv": "wyrzucić",
     "level": "B2"
   },
   {
     "de": "auswerten",
-    "lv": "Oceniać • Oceniać",
+    "lv": "ocenić",
     "level": "B2"
   },
   {
     "de": "auszeichnen",
-    "lv": "Nagroda • Nagroda • Wyróżnij się",
+    "lv": "odznaczyć • wyróżniać się",
     "level": "B2"
   },
   {
     "de": "Auszeichnung",
     "de_article": "die",
     "de_plural": "die Auszeichnungen",
-    "lv": "Przyznanie • Nagrody • Odznaki honorowej",
+    "lv": "odznaczenie • wyróżnienie",
     "level": "B2"
   },
   {
     "de": "autonom",
-    "lv": "Autonomiczny",
+    "lv": "autonomiczny",
     "level": "B2"
   },
   {
     "de": "Schwebebalken",
     "de_article": "der",
     "de_plural": "die Schwebebalken",
-    "lv": "Równoważnia",
+    "lv": "równoważnia",
     "level": "B2"
   },
   {
     "de": "bändigen",
-    "lv": "Powstrzymywać • Ujarzmiać",
+    "lv": "poskromić • okiełznać",
     "level": "B2"
   },
   {
     "de": "Blutbank",
     "de_article": "die",
     "de_plural": "die Blutbanken",
-    "lv": "Rezerwy krwi",
+    "lv": "bank krwi",
     "level": "B2"
   },
   {
     "de": "Organbank",
     "de_article": "die",
     "de_plural": "die Organbanken",
-    "lv": "Bank organów",
+    "lv": "bank narządów",
     "level": "B2"
   },
   {
     "de": "Bankgeheimnis",
     "de_article": "das",
     "de_plural": "die Bankgeheimnisse",
-    "lv": "Tajemnica bankowa",
+    "lv": "tajemnica bankowa",
     "level": "B2"
   },
   {
     "de": "Bankleitzahl",
     "de_article": "die",
     "de_plural": "die Bankleitzahlen",
-    "lv": "Indeks banku",
+    "lv": "numer rozliczeniowy banku",
     "level": "B2"
   },
   {
     "de": "Bankraub",
     "de_article": "der",
     "de_plural": "die Bankraube",
-    "lv": "Napad na bank",
+    "lv": "napad na bank",
     "level": "B2"
   },
   {
     "de": "Bankscheck",
     "de_article": "der",
     "de_plural": "die Bankschecks",
-    "lv": "Czek bankowy",
+    "lv": "czek bankowy",
     "level": "B2"
   },
   {
     "de": "Banküberfall",
     "de_article": "der",
     "de_plural": "die Banküberfälle",
-    "lv": "Napad na bank",
+    "lv": "napad na bank",
     "level": "B2"
   },
   {
     "de": "Bankrott",
     "de_article": "der",
     "de_plural": "die Bankrotte",
-    "lv": "Bankructwo",
+    "lv": "bankructwo",
     "level": "B2"
   },
   {
     "de": "Barbarei",
     "de_article": "die",
     "de_plural": "die Barbareien",
-    "lv": "Barbaryzm",
+    "lv": "barbarzyństwo",
     "level": "B2"
   },
   {
     "de": "barhäuptig",
-    "lv": "Z gołą głową",
+    "lv": "z odkrytą głową",
     "level": "B2"
   },
   {
     "de": "barmherzig",
-    "lv": "Miłosierny • Współczujący",
+    "lv": "miłosierny • współczujący",
     "level": "B2"
   },
   {
     "de": "Barren",
     "de_article": "der",
     "de_plural": "die Barren",
-    "lv": "Dopływy",
+    "lv": "poręcze",
     "level": "B2"
   },
   {
     "de": "Barrenturnen",
     "de_article": "das",
-    "lv": "Ćwiczenia na dopływach",
+    "lv": "ćwiczenia na poręczach",
     "level": "B2"
   },
   {
     "de": "Militärbasis",
     "de_article": "die",
     "de_plural": "die Militärbasen",
-    "lv": "Baza wojskowa",
+    "lv": "baza wojskowa",
     "level": "B2"
   },
   {
     "de": "Baukredit",
     "de_article": "der",
     "de_plural": "die Baukredite",
-    "lv": "Kredyt na rozpoczęcie budowy",
+    "lv": "kredyt budowlany",
     "level": "B2"
   },
   {
     "de": "Bauchhöhle",
     "de_article": "die",
     "de_plural": "die Bauchhöhlen",
-    "lv": "Jama brzuszna",
+    "lv": "jama brzuszna",
     "level": "B2"
   },
   {
     "de": "Baugelände",
     "de_article": "das",
     "de_plural": "die Baugelände",
-    "lv": "Działka budowlana",
+    "lv": "działka budowlana",
     "level": "B2"
   },
   {
     "de": "Baugrube",
     "de_article": "die",
     "de_plural": "die Baugruben",
-    "lv": "Dół budowlany",
+    "lv": "wykop budowlany",
     "level": "B2"
   },
   {
     "de": "Bauleiter",
     "de_article": "der",
     "de_plural": "die Bauleiter",
-    "lv": "Kierownik budowy",
+    "lv": "kierownik budowy",
     "level": "B2"
   },
   {
     "de": "Baumschule",
     "de_article": "die",
     "de_plural": "die Baumschulen",
-    "lv": "Szkółka drzew",
+    "lv": "szkółka drzew",
     "level": "B2"
   },
   {
     "de": "Bauwesen",
     "de_article": "das",
-    "lv": "Konstrukcja • Konstrukcja",
+    "lv": "budownictwo",
     "level": "B2"
   },
   {
     "de": "bebauen",
-    "lv": "Proces • Budowanie",
-    "level": "B2"
+    "lv": "uprawiać • zabudować",
+    "level": "B2",
+    "study": {
+      "id": "b2-bebauen",
+      "layout": "standardStudy",
+      "translation": "uprawiać • zabudować",
+      "explanation": [
+        "Główna myśl: bebauen to czasownik o dwóch znaczeniach: zabudować działkę budynkami oraz uprawiać ziemię, pole w rolnictwie. Jest nierozdzielny i łączy się z biernikiem.",
+        "Formy: bebaut, bebaute, hat bebaut. Częsty imiesłów bebaut bywa przymiotnikiem: dicht bebaut (gęsto zabudowany), unbebaut (niezabudowany). O budynkach mówi się mit Häusern bebauen.",
+        "W odniesieniu do pól używa się też anbauen (uprawiać roślinę): Weizen anbauen; bebauen ma szersze znaczenie — uprawa ziemi w ogóle."
+      ],
+      "examples": [
+        {
+          "de": "Das Grundstück wird mit Wohnhäusern bebaut.",
+          "lv": "Działka jest zabudowywana domami mieszkalnymi."
+        },
+        {
+          "de": "Die Bauern bebauen das Feld mit Weizen.",
+          "lv": "Rolnicy uprawiają na polu pszenicę."
+        },
+        {
+          "de": "Das Gelände darf nicht bebaut werden.",
+          "lv": "Tego terenu nie wolno zabudowywać."
+        },
+        {
+          "de": "Der Hang ist dicht bebaut.",
+          "lv": "Zbocze jest gęsto zabudowane."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "bauen",
+          "meaning": "budować",
+          "example": "Sie bauen ein Haus. – Budują dom."
+        },
+        {
+          "word": "anbauen",
+          "meaning": "uprawiać, dobudować",
+          "example": "Hier baut man Wein an. – Tutaj uprawia się winorośl."
+        },
+        {
+          "word": "bearbeiten",
+          "meaning": "obrabiać, uprawiać",
+          "example": "Er bearbeitet den Boden. – On uprawia glebę."
+        }
+      ],
+      "tip": [
+        "W znaczeniu budowlanym używa się mit: mit Häusern bebauen; często spotyka się też stronę bierną: bebaut werden.",
+        "Przeciwieństwo to unbebaut — niezabudowany."
+      ],
+      "important": [
+        "Bebauen to nie to samo co bauen: bauen to budować coś, a bebauen — pokryć teren budynkami.",
+        "W rolnictwie do uprawy roślin częściej używa się anbauen."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "bebauen",
+            "bebaut",
+            "bebaute",
+            "unbebaut",
+            "anbauen"
+          ],
+          "purple": [
+            "zabudować",
+            "uprawiać",
+            "zabudowany"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "bebaut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "zabudowywana"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bebauen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "uprawiają"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bebaut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "zabudowywać"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bebaut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "zabudowane"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "bauen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "budować"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "anbauen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "uprawiać"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "bearbeiten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "obrabiać"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "bebauen",
+              "bebaut"
+            ]
+          },
+          {
+            "blue": [
+              "unbebaut"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "bebauen"
+            ],
+            "green": [
+              "bauen"
+            ]
+          },
+          {
+            "blue": [
+              "anbauen"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "bedürfen",
-    "lv": "Potrzebować • Być koniecznym",
+    "lv": "potrzebować • wymagać",
     "level": "B2"
   },
   {
     "de": "befallen",
-    "lv": "Nadejść • Atak",
+    "lv": "ogarnąć • zaatakować",
     "level": "B2"
   },
   {
     "de": "sich befassen",
-    "lv": "Radzić sobie z",
+    "lv": "zajmować się",
     "level": "B2",
     "study": {
       "id": "b2-sich-befassen",
-      "layout": "minimalStudy",
-      "translation": "Radzić sobie z",
-      "rektion": "mit + kam?",
-      "explanation": "sich befassen wymaga przyimka określonego mit + kam?.",
-      "forms": "mit + kam?",
-      "formsLabel": "Kierownictwo:",
+      "layout": "standardStudy",
+      "translation": "zajmować się",
+      "explanation": [
+        "Główna myśl: sich befassen to czasownik zwrotny, który oznacza zajmować się czymś, rozpatrywać jakąś kwestię lub temat, często na piśmie lub zawodowo. Po mit stoi celownik: sich mit etwas befassen.",
+        "Formy: befasst sich, befasste sich, hat sich befasst. Przedrostek be- jest nierozdzielny, dlatego nie ma ge-.",
+        "Słowo brzmi bardziej formalnie niż sich beschäftigen; używa się go o komisjach, badaniach, sądach i ludziach, którzy badają jakąś kwestię."
+      ],
+      "examples": [
+        {
+          "de": "Ich befasse mich mit der Geschichte der Stadt.",
+          "lv": "Zajmuję się historią miasta."
+        },
+        {
+          "de": "Der Ausschuss befasst sich mit dem Problem.",
+          "lv": "Komisja zajmuje się tym problemem."
+        },
+        {
+          "de": "Damit habe ich mich noch nie befasst.",
+          "lv": "Nigdy jeszcze się tym nie zajmowałem."
+        },
+        {
+          "de": "Die Studie befasst sich mit den Folgen des Klimawandels.",
+          "lv": "Badanie analizuje skutki zmian klimatu."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich beschäftigen mit",
+          "meaning": "zajmować się",
+          "example": "Er beschäftigt sich mit Musik. – Zajmuje się muzyką."
+        },
+        {
+          "word": "sich auseinandersetzen mit",
+          "meaning": "zgłębiać, zmierzyć się z",
+          "example": "Wir setzen uns mit dem Thema auseinander. – Zgłębiamy ten temat."
+        },
+        {
+          "word": "behandeln",
+          "meaning": "omawiać, traktować o",
+          "example": "Das Buch behandelt dieses Thema. – Książka omawia ten temat."
+        }
+      ],
+      "tip": [
+        "Po mit używaj celownika: mit dem Thema, mit der Frage.",
+        "Mówiąc prościej, możesz użyć sich beschäftigen mit, co znaczy to samo."
+      ],
+      "important": [
+        "W czasie Perfekt jest hat sich befasst, a nie hat sich gebefasst: be- to przedrostek nierozdzielny.",
+        "Sich befassen odnosi się raczej do myślenia i rozpatrywania niż do zajęć fizycznych."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich befassen"
+            "sich befassen",
+            "befasst sich",
+            "befassen",
+            "befasst"
           ],
-          "red": [
-            "mit + kam?"
+          "purple": [
+            "zajmować się",
+            "rozpatrywać"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "befasse"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Zajmuję"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "befasst"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "zajmuje"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "befasst"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "zajmowałem"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "befasst"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "analizuje"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich beschäftigen mit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "zajmować się"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich auseinandersetzen mit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "zgłębiać"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "behandeln"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "omawiać"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {
+            "green": [
+              "sich beschäftigen mit"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "befasst"
+            ]
+          },
+          {
+            "blue": [
+              "sich befassen",
+              "befassen"
+            ]
+          }
+        ]
       }
     }
   },
@@ -936,227 +2924,546 @@ const B2_WORDS = [
     "de": "Beförderung",
     "de_article": "die",
     "de_plural": "die Beförderungen",
-    "lv": "Dostawa • Transport • Promocja • Promocja",
+    "lv": "przewóz • awans",
     "level": "B2"
   },
   {
     "de": "Befugnis",
     "de_article": "die",
     "de_plural": "die Befugnisse",
-    "lv": "Prawa • Władza",
+    "lv": "uprawnienie • pełnomocnictwo",
     "level": "B2"
   },
   {
     "de": "begehren",
-    "lv": "Żądać • Żądać • Lubić • Pożądać • Pożądać",
+    "lv": "pożądać • żądać",
     "level": "B2"
   },
   {
     "de": "begierig",
-    "lv": "Pragnienie",
+    "lv": "żądny • chętny",
     "level": "B2"
   },
   {
     "de": "begnadigen",
-    "lv": "Mieć miłosierdzie",
+    "lv": "ułaskawić",
     "level": "B2"
   },
   {
     "de": "sich begnügen",
-    "lv": "Być zadowolonym z",
+    "lv": "zadowolić się",
     "level": "B2",
     "study": {
       "id": "b2-sich-begnuegen",
-      "layout": "minimalStudy",
-      "translation": "Być zadowolonym z",
-      "rektion": "mit + kam?",
-      "explanation": "sich begnügen wymaga przyimka określonego mit + kam?.",
-      "forms": "mit + kam?",
-      "formsLabel": "Kierownictwo:",
+      "layout": "standardStudy",
+      "translation": "zadowolić się",
+      "explanation": [
+        "Główna myśl: sich begnügen to czasownik zwrotny, który oznacza zadowolić się czymś mniejszym, niż można by chcieć. Po mit stoi celownik: sich mit etwas begnügen.",
+        "Formy: begnügt sich, begnügte sich, hat sich begnügt. Przedrostek be- jest nierozdzielny, dlatego nie ma ge-.",
+        "Po mit następuje rzeczownik lub zaimek (damit) albo konstrukcja bezokolicznikowa: sich damit begnügen, etwas zu tun (poprzestać na tym, że się coś robi)."
+      ],
+      "examples": [
+        {
+          "de": "Er begnügt sich mit einem kleinen Gehalt.",
+          "lv": "Zadowala się niewielką pensją."
+        },
+        {
+          "de": "Wir mussten uns mit Brot und Wasser begnügen.",
+          "lv": "Musieliśmy zadowolić się chlebem i wodą."
+        },
+        {
+          "de": "Sie begnügt sich nicht mit dem zweiten Platz.",
+          "lv": "Nie zadowala się drugim miejscem."
+        },
+        {
+          "de": "Ich begnüge mich damit, zuzuschauen.",
+          "lv": "Poprzestaję na tym, że się przyglądam."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "zufrieden sein mit",
+          "meaning": "być zadowolonym z",
+          "example": "Ich bin mit dem Ergebnis zufrieden. – Jestem zadowolony z wyniku."
+        },
+        {
+          "word": "sich zufriedengeben",
+          "meaning": "zadowolić się, poprzestać",
+          "example": "Er gibt sich nicht zufrieden. – Nie daje się zadowolić."
+        },
+        {
+          "word": "sich beschränken auf",
+          "meaning": "ograniczać się do",
+          "example": "Ich beschränke mich auf das Wichtigste. – Ograniczam się do najważniejszego."
+        }
+      ],
+      "tip": [
+        "Po mit używaj celownika: mit wenig, mit dem Ergebnis.",
+        "Częste przeciwieństwo: sich nicht begnügen, gdy ktoś chce więcej."
+      ],
+      "important": [
+        "Sich begnügen to nie to samo co zufrieden sein: mówi, że człowiek obniża swoje wymagania.",
+        "Perfekt to hat sich begnügt (bez ge-)."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
+            "begnügen",
+            "begnügt",
             "sich begnügen"
           ],
-          "red": [
-            "mit + kam?"
+          "purple": [
+            "zadowolić się"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "begnügt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Zadowala"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "begnügen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "zadowolić"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "begnügt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "zadowala"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "begnüge"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Poprzestaję"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "zufrieden sein mit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "być zadowolonym"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich zufriedengeben"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "poprzestać"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich beschränken auf"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ograniczać"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {
+            "blue": [
+              "begnügen"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "sich begnügen",
+              "begnügen"
+            ]
+          },
+          {
+            "blue": [
+              "begnügt"
+            ]
+          }
+        ]
       }
     }
   },
   {
     "de": "begünstigen",
-    "lv": "Promować • Ułatwiać • Chronić • Wspierać",
+    "lv": "sprzyjać • faworyzować",
     "level": "B2"
   },
   {
     "de": "begutachten",
-    "lv": "Przekazać informację zwrotną • Ocenić",
+    "lv": "zaopiniować • ocenić",
     "level": "B2"
   },
   {
     "de": "beharren",
-    "lv": "Istnieć • Pozostać",
+    "lv": "obstawać • trwać",
     "level": "B2"
   },
   {
     "de": "beharrlich",
-    "lv": "Trwały • Trwały",
+    "lv": "wytrwały • uporczywy",
     "level": "B2"
   },
   {
     "de": "behüten",
-    "lv": "Chronić • Chronić",
+    "lv": "chronić • strzec",
     "level": "B2"
   },
   {
     "de": "Beihilfe",
     "de_article": "die",
     "de_plural": "die Beihilfen",
-    "lv": "Świadczenie państwowe • Premia",
+    "lv": "zasiłek • dodatek",
     "level": "B2"
   },
   {
     "de": "beiläufig",
-    "lv": "Przypadkowy • Przypadkowy • Przy okazji • Przejeżdżając",
+    "lv": "mimochodem • przypadkowy",
     "level": "B2"
   },
   {
     "de": "beispiellos",
-    "lv": "Nigdy nie był • Niewidziany • Jak nic w porównaniu",
+    "lv": "bezprecedensowy • niespotykany • niezrównany",
     "level": "B2"
   },
   {
     "de": "Beistand",
     "de_article": "der",
     "de_plural": "die Beistände",
-    "lv": "Pomoc",
+    "lv": "pomoc • wsparcie",
     "level": "B2"
   },
   {
     "de": "beistehen",
-    "lv": "Pomóc",
+    "lv": "pomagać • wspierać",
     "level": "B2"
   },
   {
     "de": "beistimmen",
-    "lv": "Zatwierdzać • Wspierać",
+    "lv": "przytakiwać • popierać",
     "level": "B2"
   },
   {
     "de": "beiwohnen",
-    "lv": "Być obecnym • Uczestniczyć",
+    "lv": "uczestniczyć • być obecnym",
     "level": "B2"
   },
   {
     "de": "beizen",
-    "lv": "Wytrawiać • Plamić",
+    "lv": "wytrawiać • bejcować",
     "level": "B2"
   },
   {
     "de": "bejahen",
-    "lv": "Potwierdzić • Potwierdzić",
+    "lv": "potwierdzić • przytaknąć",
     "level": "B2"
   },
   {
     "de": "bejahrt",
-    "lv": "Za wiele lat",
+    "lv": "sędziwy",
     "level": "B2"
   },
   {
     "de": "bekennen",
-    "lv": "Przyznać",
+    "lv": "przyznać • wyznać",
     "level": "B2"
   },
   {
     "de": "bekräftigen",
-    "lv": "Potwierdzić • Poświadczyć",
+    "lv": "potwierdzić • poświadczyć",
     "level": "B2"
   },
   {
     "de": "Fußbodenbelag",
     "de_article": "der",
     "de_plural": "die Fußbodenbeläge",
-    "lv": "Wykładzina podłogowa",
+    "lv": "wykładzina podłogowa",
     "level": "B2"
   },
   {
     "de": "Straßenbelag",
     "de_article": "der",
     "de_plural": "die Straßenbeläge",
-    "lv": "Obecność na ulicy",
+    "lv": "nawierzchnia drogi",
     "level": "B2"
   },
   {
     "de": "belagern",
-    "lv": "Oblegać • Otaczać",
+    "lv": "oblegać • otaczać",
     "level": "B2"
   },
   {
     "de": "belanglos",
-    "lv": "Nieistotny • Nieistotny",
+    "lv": "nieistotny • błahy",
     "level": "B2"
   },
   {
     "de": "belästigen",
-    "lv": "Zawracać sobie głowę • Zawracać sobie głowę • Wtrącać się",
+    "lv": "niepokoić • nękać • naprzykrzać się",
     "level": "B2"
   },
   {
     "de": "belauschen",
-    "lv": "Podsłuchiwać",
+    "lv": "podsłuchiwać",
     "level": "B2"
   },
   {
     "de": "beleben",
-    "lv": "Wskrzesić",
+    "lv": "ożywiać",
     "level": "B2"
   },
   {
     "de": "sich beleben",
-    "lv": "Ożywiać się",
+    "lv": "ożywiać się",
     "level": "B2"
   },
   {
     "de": "beleibt",
-    "lv": "Gruby • Drogi • Pełny",
+    "lv": "tęgi • korpulentny",
     "level": "B2"
   },
   {
     "de": "belichten",
-    "lv": "Oświetlać • Eksponować",
+    "lv": "oświetlić • naświetlić",
     "level": "B2"
   },
   {
     "de": "Belieben",
     "de_article": "das",
-    "lv": "Lubiłem • Lubiłem • Chciałem",
+    "lv": "upodobanie • ochota",
     "level": "B2"
   },
   {
     "de": "belustigen",
-    "lv": "Bawić",
+    "lv": "bawić • rozśmieszać",
     "level": "B2"
   },
   {
     "de": "sich bemächtigen",
-    "lv": "Przejąć • Wziąć w posiadanie",
+    "lv": "zawładnąć • opanować",
     "level": "B2",
     "study": {
       "id": "b2-sich-bemaechtigen",
-      "layout": "minimalStudy",
-      "translation": "Przejąć • Wziąć w posiadanie",
-      "rektion": "+ forma dzierżawcza",
-      "explanation": "sich bemächtigen jest używane we współczesnym języku niemieckim w formie dzierżawczej bez przyimka.",
-      "forms": "+ forma dzierżawcza",
-      "formsLabel": "Kierownictwo:",
+      "layout": "standardStudy",
+      "translation": "zawładnąć • opanować",
+      "explanation": [
+        "Główna myśl: sich bemächtigen to formalny czasownik zwrotny, który oznacza zawładnąć czymś, wziąć w swoje władanie — rzecz, miejsce lub władzę, często siłą; w przenośni mówi się tak o uczuciach, które ogarniają człowieka.",
+        "Po sich bemächtigen stoi dopełniacz: sich einer Sache bemächtigen. Formy: bemächtigt sich, bemächtigte sich, hat sich bemächtigt. Przedrostek be- jest nierozdzielny.",
+        "Słowo należy do języka pisanego i literackiego; na co dzień zamiast niego mówi się etwas nehmen lub ergreifen."
+      ],
+      "examples": [
+        {
+          "de": "Die Rebellen bemächtigten sich der Stadt.",
+          "lv": "Rebelianci opanowali miasto."
+        },
+        {
+          "de": "Er bemächtigte sich des Autoschlüssels.",
+          "lv": "Zawładnął kluczykiem do auta."
+        },
+        {
+          "de": "Große Angst bemächtigte sich seiner.",
+          "lv": "Ogarnął go wielki strach."
+        },
+        {
+          "de": "Die Armee hat sich der Macht bemächtigt.",
+          "lv": "Armia przejęła władzę."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "ergreifen",
+          "meaning": "chwycić, przejąć",
+          "example": "Er ergreift die Macht. – Przejmuje władzę."
+        },
+        {
+          "word": "sich aneignen",
+          "meaning": "przywłaszczyć sobie",
+          "example": "Er hat sich das Geld angeeignet. – Przywłaszczył sobie pieniądze."
+        },
+        {
+          "word": "besetzen",
+          "meaning": "okupować, zająć",
+          "example": "Die Soldaten besetzen die Stadt. – Żołnierze okupują miasto."
+        }
+      ],
+      "tip": [
+        "Pamiętaj o dopełniaczu: sich des Hauses bemächtigen, sich der Macht bemächtigen.",
+        "To słowo rozpoznasz w tekstach historycznych, wiadomościach i literaturze."
+      ],
+      "important": [
+        "Sich bemächtigen wymaga dopełniacza, a nie biernika.",
+        "Nie myl z ermächtigen (upoważnić): to inne słowo."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich bemächtigen"
+            "sich bemächtigen",
+            "bemächtigt sich",
+            "bemächtigte sich",
+            "bemächtigt",
+            "sich",
+            "bemächtigte"
+          ],
+          "purple": [
+            "zawładnąć",
+            "swoje władanie"
+          ],
+          "green": [
+            "ergreifen"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "bemächtigten",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "opanowali"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bemächtigte",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Zawładnął"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bemächtigte",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Ogarnął"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bemächtigt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "przejęła"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "ergreifen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "przejąć"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich aneignen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "przywłaszczyć"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "besetzen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "okupować"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "sich"
+            ]
+          },
+          {}
+        ],
+        "important": [
+          {
+            "blue": [
+              "sich bemächtigen",
+              "sich"
+            ]
+          },
+          {}
+        ]
       }
     }
   },
@@ -1164,143 +3471,658 @@ const B2_WORDS = [
     "de": "Benennung",
     "de_article": "die",
     "de_plural": "die Benennungen",
-    "lv": "Nazewnictwo • Nazewnictwo • Imię",
+    "lv": "nazwanie • nazwa",
     "level": "B2"
   },
   {
     "de": "Steuerberater",
     "de_article": "der",
     "de_plural": "die Steuerberater",
-    "lv": "Doradca podatkowy",
+    "lv": "doradca podatkowy",
     "level": "B2"
   },
   {
     "de": "berechtigen",
-    "lv": "Dać prawa",
+    "lv": "uprawniać",
     "level": "B2"
   },
   {
     "de": "beredt",
-    "lv": "Rozmowny",
+    "lv": "wymowny • elokwentny",
     "level": "B2"
   },
   {
     "de": "bereichern",
-    "lv": "Wzbogacać",
+    "lv": "wzbogacać",
     "level": "B2"
   },
   {
     "de": "Bergbau",
     "de_article": "der",
-    "lv": "Przemysł wydobywczy",
+    "lv": "górnictwo",
     "level": "B2"
   },
   {
     "de": "bergen",
-    "lv": "Oszczędzaj • Ratuj • Żniwa",
+    "lv": "ratować • wydobyć • zbierać plony",
     "level": "B2"
   },
   {
     "de": "Bergmann",
     "de_article": "der",
     "de_plural": "die Bergmänner",
-    "lv": "Górnik • Górnik",
+    "lv": "górnik",
     "level": "B2"
   },
   {
     "de": "Bergwerk",
     "de_article": "das",
     "de_plural": "die Bergwerke",
-    "lv": "Kopalnia • Szyb",
+    "lv": "kopalnia",
     "level": "B2"
   },
   {
     "de": "bersten",
-    "lv": "Pękać • Pękać • Pękać • Pękać",
+    "lv": "pękać",
     "level": "B2"
   },
   {
     "de": "berufen",
-    "lv": "Wyznaczyć • Zaprosić",
+    "lv": "powołać • mianować",
     "level": "B2"
   },
   {
     "de": "sich berufen",
-    "lv": "Odnieść się do",
+    "lv": "powoływać się",
     "level": "B2",
     "study": {
       "id": "b2-sich-berufen",
-      "layout": "minimalStudy",
-      "translation": "Odnieść się do",
-      "rektion": "auf + ko?",
-      "explanation": "sich berufen wymaga przyimka określonego auf + ko?.",
-      "forms": "auf + ko?",
-      "formsLabel": "Kierownictwo:",
+      "layout": "standardStudy",
+      "translation": "powoływać się",
+      "explanation": [
+        "Główna myśl: sich berufen auf to czasownik zwrotny, który oznacza powoływać się na coś jako podstawę argumentu: na ustawę, umowę, źródło lub osobę. Po auf stoi biernik: sich auf etwas berufen.",
+        "Formy: beruft sich, berief sich, hat sich berufen. Przedrostek be- jest nierozdzielny.",
+        "Samo berufen (bez sich) oznacza powołać na stanowisko: Er wurde zum Professor berufen. To znaczenie różni się od powoływania się na coś."
+      ],
+      "examples": [
+        {
+          "de": "Er beruft sich auf sein Recht.",
+          "lv": "Powołuje się na swoje prawa."
+        },
+        {
+          "de": "Der Politiker beruft sich auf eine Studie.",
+          "lv": "Polityk powołuje się na badanie."
+        },
+        {
+          "de": "Sie berief sich auf den Vertrag.",
+          "lv": "Powołała się na umowę."
+        },
+        {
+          "de": "Dabei kann ich mich auf niemanden berufen.",
+          "lv": "Nie mogę się przy tym na nikogo powołać."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "verweisen auf",
+          "meaning": "odsyłać do, wskazywać na",
+          "example": "Er verweist auf den Artikel. – Odsyła do artykułu."
+        },
+        {
+          "word": "sich stützen auf",
+          "meaning": "opierać się na",
+          "example": "Das Urteil stützt sich auf Beweise. – Wyrok opiera się na dowodach."
+        },
+        {
+          "word": "zitieren",
+          "meaning": "cytować",
+          "example": "Sie zitiert den Autor. – Cytuje autora."
+        }
+      ],
+      "tip": [
+        "Używaj auf + biernik: auf das Gesetz, auf einen Zeugen.",
+        "W języku sądowym i prawniczym sich berufen auf to podstawowa formuła."
+      ],
+      "important": [
+        "Sich berufen auf to nie to samo co berufen: bez sich znaczy powołać (na stanowisko).",
+        "Perfekt to hat sich berufen (bez ge-)."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich berufen"
+            "sich berufen",
+            "beruft sich",
+            "berief sich",
+            "berufen",
+            "berufen auf",
+            "sich",
+            "beruft",
+            "berief"
           ],
-          "red": [
-            "auf + ko?"
+          "purple": [
+            "powoływać się",
+            "powołać na stanowisko"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "beruft",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Powołuje"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "beruft",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "powołuje"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "berief",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Powołała"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "berufen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "powołać"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "verweisen auf"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "odsyłać"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich stützen auf"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "opierać"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "zitieren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "cytować"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {
+            "blue": [
+              "sich berufen",
+              "berufen",
+              "berufen auf",
+              "sich"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "sich berufen",
+              "berufen",
+              "berufen auf",
+              "sich"
+            ]
+          },
+          {
+            "blue": [
+              "sich berufen",
+              "berufen",
+              "sich"
+            ]
+          }
+        ]
       }
     }
   },
   {
     "de": "beruhen",
-    "lv": "Zostać założonym • Zostać założonym",
+    "lv": "opierać się • bazować",
     "level": "B2"
   },
   {
     "de": "besänftigen",
-    "lv": "Uspokoić • Uspokoić • Uspokoić • Ciszę",
+    "lv": "uspokoić • ułagodzić • załagodzić",
     "level": "B2"
   },
   {
     "de": "Besatzung",
     "de_article": "die",
     "de_plural": "die Besatzungen",
-    "lv": "Dowództwo • Załoga • Załoga • Okupacyjne jednostki wojskowe",
-    "level": "B2"
+    "lv": "załoga • wojska okupacyjne",
+    "level": "B2",
+    "study": {
+      "id": "b2-besatzung",
+      "layout": "standardStudy",
+      "translation": "załoga • wojska okupacyjne",
+      "explanation": [
+        "Główna myśl: die Besatzung to rzeczownik rodzaju żeńskiego o dwóch głównych znaczeniach: załoga statku lub samolotu (ludzie, którzy pracują na pokładzie) oraz wojska okupacyjne albo sama okupacja po wojnie.",
+        "Liczba mnoga to die Besatzungen. Połączenia: die Besatzung eines Schiffes (załoga statku), die Besatzungsmacht (mocarstwo okupacyjne), die Besatzungszone (strefa okupacyjna). Bliskie słowo to die Mannschaft (drużyna, zespół).",
+        "Znaczenie wynika z kontekstu: Flugzeug, Schiff — załoga; Krieg, Stadt, Land — okupacja."
+      ],
+      "examples": [
+        {
+          "de": "Die Besatzung des Schiffes besteht aus zwanzig Mann.",
+          "lv": "Załoga statku liczy dwudziestu ludzi."
+        },
+        {
+          "de": "Die Besatzung des Flugzeugs begrüßt die Passagiere.",
+          "lv": "Załoga samolotu wita pasażerów."
+        },
+        {
+          "de": "Nach dem Krieg stand die Stadt unter Besatzung.",
+          "lv": "Po wojnie miasto znajdowało się pod okupacją."
+        },
+        {
+          "de": "Die Besatzung zog nach zwei Jahren ab.",
+          "lv": "Wojska okupacyjne wycofały się po dwóch latach."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "die Mannschaft",
+          "meaning": "drużyna, zespół",
+          "example": "Die Mannschaft gewinnt das Spiel. – Drużyna wygrywa mecz."
+        },
+        {
+          "word": "die Crew",
+          "meaning": "załoga",
+          "example": "Die Crew bereitet den Start vor. – Załoga przygotowuje start."
+        },
+        {
+          "word": "die Besetzung",
+          "meaning": "obsada, zajęcie",
+          "example": "Die Besetzung des Films ist hervorragend. – Obsada filmu jest znakomita."
+        }
+      ],
+      "tip": [
+        "Gdy mowa o locie, słowo Besatzung obejmuje razem pilotów i personel pokładowy; pasażerowie to Fluggäste.",
+        "W znaczeniu historycznym często używa się złożeń z Besatzungs-."
+      ],
+      "important": [
+        "Nie myl die Besatzung z die Besetzung: Besetzung to obsada aktorska lub zajmowanie (okupowanie) terenu.",
+        "Liczba mnoga die Besatzungen oznacza kilka załóg lub kilka wojsk okupacyjnych."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Besatzung",
+            "Besatzungen"
+          ],
+          "purple": [
+            "załoga",
+            "okupacja",
+            "wojska okupacyjne"
+          ],
+          "green": [
+            "die Mannschaft",
+            "Mannschaft"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Besatzung"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Załoga"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Besatzung"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Załoga"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Besatzung"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "okupacją"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Besatzung"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Wojska okupacyjne"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "die Mannschaft"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "drużyna"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Crew"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "załoga"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Besetzung"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "obsada"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "Besatzung"
+            ]
+          },
+          {}
+        ],
+        "important": [
+          {
+            "blue": [
+              "Besatzung"
+            ],
+            "green": [
+              "die Besetzung",
+              "Besetzung"
+            ]
+          },
+          {
+            "blue": [
+              "Besatzungen"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "beschämen",
-    "lv": "Zawstydzać",
+    "lv": "zawstydzać",
     "level": "B2"
   },
   {
     "de": "beschatten",
-    "lv": "Przyćmić • Ślad",
+    "lv": "ocieniać • śledzić",
     "level": "B2"
   },
   {
     "de": "beschimpfen",
-    "lv": "Przeklinać • Kraść • Łapać",
+    "lv": "zwymyślać • znieważyć",
     "level": "B2"
   },
   {
     "de": "sich beschränken",
-    "lv": "Ograniczyć się do",
+    "lv": "ograniczać się",
     "level": "B2",
     "study": {
       "id": "b2-sich-beschraenken",
-      "layout": "minimalStudy",
-      "translation": "Ograniczyć się do",
-      "rektion": "auf + ko?",
-      "explanation": "sich beschränken wymaga przyimka określonego auf + ko?.",
-      "forms": "auf + ko?",
-      "formsLabel": "Kierownictwo:",
+      "layout": "standardStudy",
+      "translation": "ograniczać się",
+      "explanation": [
+        "Główna myśl: sich beschränken auf to czasownik zwrotny, który oznacza ograniczać się do czegoś, robić tylko określoną część i jej nie przekraczać. Po auf stoi biernik: sich auf etwas beschränken.",
+        "Formy: beschränkt sich, beschränkte sich, hat sich beschränkt. Przedrostek be- jest nierozdzielny, dlatego nie ma ge-.",
+        "Bez sich beschränken oznacza ograniczać coś innego: die Zahl beschränken. O rzeczach, które sprowadzają się do czegoś, mówi się sich beschränken auf: Das Problem beschränkt sich auf …"
+      ],
+      "examples": [
+        {
+          "de": "Ich beschränke mich auf das Wichtigste.",
+          "lv": "Ograniczam się do najważniejszego."
+        },
+        {
+          "de": "Der Redner beschränkte sich auf drei Punkte.",
+          "lv": "Mówca ograniczył się do trzech punktów."
+        },
+        {
+          "de": "Wir müssen uns auf das Nötigste beschränken.",
+          "lv": "Musimy ograniczyć się do tego, co najpotrzebniejsze."
+        },
+        {
+          "de": "Das Problem beschränkt sich nicht auf Deutschland.",
+          "lv": "Problem nie ogranicza się do Niemiec."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "begrenzen",
+          "meaning": "ograniczać",
+          "example": "Wir begrenzen die Zahl der Gäste. – Ograniczamy liczbę gości."
+        },
+        {
+          "word": "sich begnügen mit",
+          "meaning": "zadowolić się (czymś)",
+          "example": "Er begnügt sich mit wenig. – Zadowala się małym."
+        },
+        {
+          "word": "einschränken",
+          "meaning": "zmniejszać, ograniczać",
+          "example": "Ich muss meinen Verbrauch einschränken. – Muszę ograniczyć swoje zużycie."
+        }
+      ],
+      "tip": [
+        "Po auf używaj biernika: auf das Wesentliche, auf drei Punkte.",
+        "Często w zdaniu pojawia się też nur (tylko): Ich beschränke mich nur auf …"
+      ],
+      "important": [
+        "Uwaga na przyimek: po polsku ograniczamy się do czegoś, a po niemiecku mówi się auf — nie mit.",
+        "Sich beschränken to nie to samo co sich begnügen: pierwsze wyraża ograniczanie samego siebie, drugie — zadowalanie się czymś."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich beschränken"
+            "sich beschränken",
+            "beschränkt sich",
+            "beschränkte sich",
+            "beschränkt",
+            "sich",
+            "beschränken",
+            "beschränkte"
           ],
-          "red": [
-            "auf + ko?"
+          "purple": [
+            "ograniczać się",
+            "sprowadzają się",
+            "ograniczać coś"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "beschränke",
+                "mich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Ograniczam"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "beschränkte",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ograniczył"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "beschränken"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ograniczyć"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "beschränkt",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ogranicza"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "begrenzen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ograniczać"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich begnügen mit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "zadowolić się"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "einschränken"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "zmniejszać"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {
+            "blue": [
+              "beschränke",
+              "mich"
+            ]
+          }
+        ],
+        "important": [
+          {},
+          {
+            "blue": [
+              "sich beschränken",
+              "sich",
+              "beschränken"
+            ]
+          }
+        ]
       }
     }
   },
@@ -1308,96 +4130,444 @@ const B2_WORDS = [
     "de": "Beschützer",
     "de_article": "der",
     "de_plural": "die Beschützer",
-    "lv": "Obrońca • Strażnik • Obrońca",
+    "lv": "obrońca • opiekun",
     "level": "B2"
   },
   {
     "de": "beschwören",
-    "lv": "Przysięgać • Przysięgać • Bardzo się modlić",
+    "lv": "przysięgać • zaklinać • błagać",
     "level": "B2"
   },
   {
     "de": "besessen",
-    "lv": "Obsesja • Przytłoczony • Przytłoczony",
-    "level": "B2"
+    "lv": "opętany • owładnięty",
+    "level": "B2",
+    "study": {
+      "id": "b2-besessen",
+      "layout": "standardStudy",
+      "translation": "opętany • owładnięty",
+      "explanation": [
+        "Główna myśl: besessen to przymiotnik (od besitzen), który oznacza opętany lub owładnięty: ogarnięty jakąś ideą lub uczuciem tak bardzo, że dominuje ono nad myślami. Po von stoi celownik: besessen von etwas.",
+        "Używa się go też o fanatycznym zapale: von der Arbeit besessen sein, wie besessen arbeiten (pracować jak opętany).",
+        "Uwaga: besessen to także imiesłów od besitzen (posiadać): Er hat ein Haus besessen. To inne użycie; ta karta dotyczy przymiotnika opętany."
+      ],
+      "examples": [
+        {
+          "de": "Er ist besessen von seiner Arbeit.",
+          "lv": "Ma obsesję na punkcie swojej pracy."
+        },
+        {
+          "de": "Sie ist von der Idee besessen, berühmt zu werden.",
+          "lv": "Jest owładnięta myślą, żeby zostać sławną."
+        },
+        {
+          "de": "Der Mann wirkte wie vom Teufel besessen.",
+          "lv": "Mężczyzna wyglądał jak opętany przez diabła."
+        },
+        {
+          "de": "Er arbeitet wie besessen.",
+          "lv": "Pracuje jak opętany."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "besitzen",
+          "meaning": "posiadać",
+          "example": "Er besitzt ein Haus. – Posiada dom."
+        },
+        {
+          "word": "fanatisch",
+          "meaning": "fanatyczny",
+          "example": "Er ist ein fanatischer Fan. – Jest fanatycznym kibicem."
+        },
+        {
+          "word": "besetzt",
+          "meaning": "zajęty",
+          "example": "Der Platz ist besetzt. – Miejsce jest zajęte."
+        }
+      ],
+      "tip": [
+        "Typowe połączenia: besessen von einer Idee, besessen von Macht, wie besessen.",
+        "W pozytywnym sensie może chodzić o pasję: ein besessener Sammler (zapalony kolekcjoner)."
+      ],
+      "important": [
+        "Po besessen stoi von + celownik: besessen von der Arbeit.",
+        "Nie myl besessen z besetzt: besetzt znaczy zajęty (Der Platz ist besetzt)."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "besessen"
+          ],
+          "purple": [
+            "opętany",
+            "owładnięty",
+            "ogarnięty"
+          ],
+          "green": [
+            "besitzen"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "besessen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "obsesję"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "besessen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "owładnięta"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "besessen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "opętany"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "besessen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "opętany"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "besitzen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "posiadać"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "fanatisch"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "fanatyczny"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "besetzt"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "zajęty"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "besessen"
+            ]
+          },
+          {}
+        ],
+        "important": [
+          {
+            "blue": [
+              "besessen"
+            ]
+          },
+          {
+            "blue": [
+              "besessen"
+            ],
+            "green": [
+              "besetzt"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "besiedeln",
-    "lv": "Obozują mieszkańcy",
+    "lv": "zasiedlić • zaludnić",
     "level": "B2"
   },
   {
     "de": "Besinnung",
     "de_article": "die",
     "de_plural": "die Besinnungen",
-    "lv": "Świadomość • Świadomość",
+    "lv": "przytomność • świadomość",
     "level": "B2"
   },
   {
     "de": "bespielen",
-    "lv": "Nagrywać muzykę na kasecie lub dyskietce",
+    "lv": "nagrać",
     "level": "B2"
   },
   {
     "de": "Bestand",
     "de_article": "der",
     "de_plural": "die Bestände",
-    "lv": "Skład • Zapasy • Zapasy",
+    "lv": "stan • zasób • zapas",
     "level": "B2"
   },
   {
     "de": "beständig",
-    "lv": "Stała • Stała",
+    "lv": "stały • trwały",
     "level": "B2"
   },
   {
     "de": "bestärken",
-    "lv": "Wzmocnić • Wzmocnić • Ożywić",
+    "lv": "umacniać • utwierdzać",
     "level": "B2"
   },
   {
     "de": "bestechen",
-    "lv": "Przekupić",
+    "lv": "przekupić",
     "level": "B2"
   },
   {
     "de": "bestechlich",
-    "lv": "Do kupienia • Przekupstwa",
+    "lv": "przekupny • sprzedajny",
     "level": "B2"
   },
   {
     "de": "bestrahlen",
-    "lv": "Napromieniować • Błyszczeć",
+    "lv": "napromieniować • oświetlać",
     "level": "B2"
   },
   {
     "de": "bestreiten",
-    "lv": "Spór • Zapłacić • Pokryć",
+    "lv": "kwestionować • pokrywać",
     "level": "B2"
   },
   {
     "de": "bestürzt",
-    "lv": "Zaskoczony • Zdezorientowany • Zakłopotany • Zdezorientowany",
+    "lv": "skonsternowany • wstrząśnięty",
     "level": "B2"
   },
   {
     "de": "sich betätigen",
-    "lv": "Działać • Uczestniczyć",
+    "lv": "działać • udzielać się",
     "level": "B2",
     "study": {
       "id": "b2-sich-betaetigen",
-      "layout": "minimalStudy",
-      "translation": "Działać • Uczestniczyć",
-      "rektion": "in + kur?",
-      "explanation": "sich betigen wymaga przyimka określonego w + gdzie?.",
-      "forms": "in + kur?",
-      "formsLabel": "Kierownictwo:",
+      "layout": "standardStudy",
+      "translation": "działać • udzielać się",
+      "explanation": [
+        "Główna myśl: sich betätigen to czasownik zwrotny, który oznacza działać, być aktywnym w jakiejś dziedzinie lub udzielać się w jakimś zajęciu. Często łączy się z als lub z przysłówkiem: sich sportlich betätigen, sich politisch betätigen.",
+        "Formy: betätigt sich, betätigte sich, hat sich betätigt. Przedrostek be- jest nierozdzielny, dlatego nie ma ge-.",
+        "Bez zaimka zwrotnego betätigen oznacza uruchomić: einen Schalter betätigen (nacisnąć przełącznik), die Bremse betätigen."
+      ],
+      "examples": [
+        {
+          "de": "Er betätigt sich als Helfer im Verein.",
+          "lv": "Działa w stowarzyszeniu jako pomocnik."
+        },
+        {
+          "de": "Sie betätigt sich gern sportlich.",
+          "lv": "Ona chętnie uprawia sport."
+        },
+        {
+          "de": "Rentner können sich ehrenamtlich betätigen.",
+          "lv": "Emeryci mogą działać społecznie."
+        },
+        {
+          "de": "Wer hat den Notschalter betätigt?",
+          "lv": "Kto uruchomił wyłącznik awaryjny?"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich beschäftigen",
+          "meaning": "zajmować się",
+          "example": "Er beschäftigt sich mit Musik. – Zajmuje się muzyką."
+        },
+        {
+          "word": "teilnehmen",
+          "meaning": "uczestniczyć, brać udział",
+          "example": "Sie nimmt am Kurs teil. – Uczestniczy w kursie."
+        },
+        {
+          "word": "mitmachen",
+          "meaning": "przyłączyć się (potocznie)",
+          "example": "Machst du mit? – Przyłączysz się?"
+        }
+      ],
+      "tip": [
+        "Dodaj przysłówek, aby wskazać dziedzinę: politisch, kreativ, ehrenamtlich, sportlich.",
+        "W znaczeniu działać jako ktoś używa się als: sich als Künstler betätigen."
+      ],
+      "important": [
+        "Nie zapominaj o sich: bez niego betätigen znaczy uruchomić, a nie działać.",
+        "Sich betätigen to nie to samo co arbeiten: wyraża aktywne zaangażowanie, a nie tylko pracę zarobkową."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich"
+            "sich betätigen",
+            "betätigt sich",
+            "betätigte sich",
+            "betätigt",
+            "betätigen",
+            "sich",
+            "betätigte"
+          ],
+          "purple": [
+            "działać",
+            "udzielać się",
+            "uruchomić"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "betätigt",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Działa"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "betätigt",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "uprawia"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "betätigen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "działać"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "betätigt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "uruchomił"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich beschäftigen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "zajmować"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "teilnehmen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "uczestniczyć"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "mitmachen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "przyłączyć się"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {
+            "blue": [
+              "betätigen",
+              "sich"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "betätigen",
+              "sich"
+            ]
+          },
+          {
+            "blue": [
+              "sich betätigen",
+              "betätigen",
+              "sich"
+            ]
+          }
+        ]
       }
     }
   },
@@ -1405,2231 +4575,3788 @@ const B2_WORDS = [
     "de": "Betäubung",
     "de_article": "die",
     "de_plural": "die Betäubungen",
-    "lv": "Ogłuszenie • Otępienie • Narkoza • Znieczulenie",
+    "lv": "oszołomienie • znieczulenie • narkoza",
     "level": "B2"
   },
   {
     "de": "beteuern",
-    "lv": "Poświadczyć",
+    "lv": "zapewniać • zaręczać",
     "level": "B2"
   },
   {
     "de": "Betracht",
     "de_article": "der",
-    "lv": "Rozważenie • Rozważenie",
+    "lv": "rozważenie • branie pod uwagę",
     "level": "B2"
   },
   {
     "de": "sich betragen",
-    "lv": "Zachowywać się • Zachowywać się",
+    "lv": "zachowywać się",
     "level": "B2"
   },
   {
     "de": "Betriebsrat",
     "de_article": "der",
     "de_plural": "die Betriebsräte",
-    "lv": "Rada spółki",
+    "lv": "rada zakładowa",
     "level": "B2"
   },
   {
     "de": "Betrug",
     "de_article": "der",
     "de_plural": "die Betrüge",
-    "lv": "Oszustwo • Mistyfikacja • Podróbka • Oszustwo",
+    "lv": "oszustwo • oszukaństwo",
     "level": "B2"
   },
   {
     "de": "beurlauben",
-    "lv": "Urlop wypoczynkowy • Zwolnienie z pracy",
+    "lv": "udzielić urlopu • zawiesić",
     "level": "B2"
   },
   {
     "de": "Beute",
     "de_article": "die",
-    "lv": "Łup • Zysk • Trofeum",
+    "lv": "łup • zdobycz",
     "level": "B2"
   },
   {
     "de": "Bewaffnung",
     "de_article": "die",
     "de_plural": "die Bewaffnungen",
-    "lv": "Uzbrojenie • Uzbrojenie",
+    "lv": "uzbrojenie • zbrojenie",
     "level": "B2"
   },
   {
     "de": "bewähren",
-    "lv": "Chronić • Chronić • Chronić • Chronić",
+    "lv": "sprawdzić się",
     "level": "B2"
   },
   {
     "de": "bewährt",
-    "lv": "Przetestowane • Bezpieczne • Niezawodne",
+    "lv": "sprawdzony • niezawodny",
     "level": "B2"
   },
   {
     "de": "bewältigen",
-    "lv": "Przezwyciężyć • Poradzić sobie",
+    "lv": "podołać • uporać się",
     "level": "B2"
   },
   {
     "de": "bewandert",
-    "lv": "Biegły • Kompetentny",
+    "lv": "obeznany • biegły",
     "level": "B2"
   },
   {
     "de": "Bewässerung",
     "de_article": "die",
     "de_plural": "die Bewässerungen",
-    "lv": "Nawadnianie • System nawadniający",
+    "lv": "nawadnianie • system nawadniający",
     "level": "B2"
   },
   {
     "de": "Bewerbung",
     "de_article": "die",
     "de_plural": "die Bewerbungen",
-    "lv": "Wniosek • Formularz wniosku • Komplet złożonych dokumentów",
+    "lv": "podanie • zgłoszenie",
     "level": "B2"
   },
   {
     "de": "bewilligen",
-    "lv": "Zezwolić • Przydzielić • Przyznać",
+    "lv": "przyznać • zatwierdzić • zezwolić",
     "level": "B2"
   },
   {
     "de": "Bewusstsein",
     "de_article": "das",
     "de_plural": "die Bewusstseine",
-    "lv": "Świadomość • Świadomość",
+    "lv": "świadomość • przytomność",
     "level": "B2"
   },
   {
     "de": "bezähmen",
-    "lv": "Oczarować • Zniewolić",
+    "lv": "poskromić • pohamować",
     "level": "B2"
   },
   {
     "de": "bezeugen",
-    "lv": "Poświadczyć",
+    "lv": "poświadczyć • zaświadczyć",
     "level": "B2"
   },
   {
     "de": "Bezug",
     "de_article": "der",
     "de_plural": "die Bezüge",
-    "lv": "Przełożenie • Połączenie • Pokrywa",
+    "lv": "odniesienie • związek • poszewka",
     "level": "B2"
   },
   {
     "de": "bezüglich",
-    "lv": "W sprawie",
+    "lv": "odnośnie do • w sprawie",
     "level": "B2"
   },
   {
     "de": "bezwingen",
-    "lv": "Pokonać • Pokonać • Powstrzymać",
+    "lv": "pokonać • zwyciężyć • opanować",
     "level": "B2"
   },
   {
     "de": "biegsam",
-    "lv": "Elastyczny",
+    "lv": "giętki • elastyczny",
     "level": "B2"
   },
   {
     "de": "Biegung",
     "de_article": "die",
     "de_plural": "die Biegungen",
-    "lv": "Zgięcie • Krzywizna",
+    "lv": "zakręt • wygięcie",
     "level": "B2"
   },
   {
     "de": "bisweilen",
-    "lv": "Czasami • Czasami • Czasami",
+    "lv": "czasami • niekiedy",
     "level": "B2"
   },
   {
     "de": "Bildhauer",
     "de_article": "der",
     "de_plural": "die Bildhauer",
-    "lv": "Rzeźbiarz • Rzeźbiarz",
+    "lv": "rzeźbiarz",
     "level": "B2"
   },
   {
     "de": "bildlich",
-    "lv": "Obrazowe • Pomysłowe • Figuratywne",
+    "lv": "obrazowy • przenośny",
     "level": "B2"
   },
   {
     "de": "Bildnis",
     "de_article": "das",
     "de_plural": "die Bildnisse",
-    "lv": "Nazwisko • Portret • Zdjęcie",
+    "lv": "portret • wizerunek",
     "level": "B2"
   },
   {
     "de": "billigen",
-    "lv": "Uznać za dobre • Zgodzić się",
+    "lv": "aprobować • pochwalać",
     "level": "B2"
   },
   {
     "de": "Bindung",
     "de_article": "die",
     "de_plural": "die Bindungen",
-    "lv": "Więź • Połączenie • Wiązanie chemiczne • Więź • Paski • Więź emocjonalna",
+    "lv": "więź • wiązanie • połączenie",
     "level": "B2"
   },
   {
     "de": "binnen",
-    "lv": "Podczas • Wewnątrz",
+    "lv": "w ciągu • w obrębie",
     "level": "B2"
   },
   {
     "de": "Binnenhandel",
     "de_article": "der",
-    "lv": "Handel wewnętrzny",
+    "lv": "handel wewnętrzny",
     "level": "B2"
   },
   {
     "de": "Bienenwachs",
     "de_article": "das",
-    "lv": "Wosk",
+    "lv": "wosk pszczeli",
     "level": "B2"
   },
   {
     "de": "Bienenstock",
     "de_article": "der",
     "de_plural": "die Bienenstöcke",
-    "lv": "Ul",
+    "lv": "ul",
     "level": "B2"
   },
   {
     "de": "Bienenzucht",
     "de_article": "die",
     "de_plural": "die Bienenzuchten",
-    "lv": "Pszczelarstwo",
+    "lv": "pszczelarstwo",
     "level": "B2"
   },
   {
     "de": "Prüfer",
     "de_article": "der",
     "de_plural": "die Prüfer",
-    "lv": "Rewident księgowy",
+    "lv": "rewident • kontroler",
     "level": "B2"
   },
   {
     "de": "Bildbericht",
     "de_article": "der",
     "de_plural": "die Bildberichte",
-    "lv": "Reportaż fotograficzny",
+    "lv": "fotoreportaż",
     "level": "B2"
   },
   {
     "de": "bildend",
-    "lv": "Pomysłowe • Edukacyjne",
+    "lv": "kształcący • plastyczny",
     "level": "B2"
   },
   {
     "de": "blähen",
-    "lv": "Dmuchać • Nadmuchać • Napompować",
+    "lv": "nadymać • wzdymać",
     "level": "B2"
   },
   {
     "de": "sich blähen",
-    "lv": "Nadmuchać • Nadmuchać",
+    "lv": "nadymać się • wydymać się",
     "level": "B2"
   },
   {
     "de": "Blasorchester",
     "de_article": "das",
     "de_plural": "die Blasorchester",
-    "lv": "Orkiestra dęta",
+    "lv": "orkiestra dęta",
     "level": "B2"
   },
   {
     "de": "Bleigehalt",
     "de_article": "der",
     "de_plural": "die Bleigehalte",
-    "lv": "Zawartość wiodąca",
+    "lv": "zawartość ołowiu",
     "level": "B2"
   },
   {
     "de": "bleihaltig",
-    "lv": "Zawierający ołów",
+    "lv": "zawierający ołów",
     "level": "B2"
   },
   {
     "de": "bleichen",
-    "lv": "Balate • Balot • Wybielacz",
+    "lv": "blaknąć • wybielać",
     "level": "B2"
   },
   {
     "de": "blenden",
-    "lv": "Olśniewać • Olśniewać • Dezorientować • Wprowadzać w błąd",
+    "lv": "oślepiać • olśniewać • zwodzić",
     "level": "B2"
   },
   {
     "de": "Blindgänger",
     "de_article": "der",
     "de_plural": "die Blindgänger",
-    "lv": "Niewybuch bomby • Pocisk",
+    "lv": "niewybuch",
     "level": "B2"
   },
   {
     "de": "Blitzableiter",
     "de_article": "der",
     "de_plural": "die Blitzableiter",
-    "lv": "Piorunochron",
+    "lv": "piorunochron",
     "level": "B2"
   },
   {
     "de": "Blitzlicht",
     "de_article": "das",
     "de_plural": "die Blitzlichter",
-    "lv": "Światło lampy błyskowej",
+    "lv": "flesz • lampa błyskowa",
     "level": "B2"
   },
   {
     "de": "Militärblock",
     "de_article": "der",
     "de_plural": "die Militärblöcke",
-    "lv": "Blok wojskowy",
+    "lv": "blok wojskowy",
     "level": "B2"
   },
   {
     "de": "Blockade",
     "de_article": "die",
     "de_plural": "die Blockaden",
-    "lv": "Blokada",
+    "lv": "blokada",
     "level": "B2"
   },
   {
     "de": "Blockhaus",
     "de_article": "das",
     "de_plural": "die Blockhäuser",
-    "lv": "Dom z bali",
+    "lv": "dom z bali",
     "level": "B2"
   },
   {
     "de": "blödsinnig",
-    "lv": "Szalony • Głupi • Głupi • Głupi",
+    "lv": "idiotyczny • głupi",
     "level": "B2"
   },
   {
     "de": "Blumenkranz",
     "de_article": "der",
     "de_plural": "die Blumenkränze",
-    "lv": "Wieniec kwiatów",
+    "lv": "wieniec z kwiatów",
     "level": "B2"
   },
   {
     "de": "Blumenzucht",
     "de_article": "die",
-    "lv": "Kwiaciarstwo",
+    "lv": "kwiaciarstwo",
     "level": "B2"
   },
   {
     "de": "Blutkonserve",
     "de_article": "die",
     "de_plural": "die Blutkonserven",
-    "lv": "Krew w puszkach",
+    "lv": "krew konserwowana",
     "level": "B2"
   },
   {
     "de": "Blutalkohol",
     "de_article": "der",
-    "lv": "Ilość alkoholu we krwi",
+    "lv": "zawartość alkoholu we krwi",
     "level": "B2"
   },
   {
     "de": "blutarm",
-    "lv": "Anemiczny",
+    "lv": "anemiczny • niedokrwisty",
     "level": "B2"
   },
   {
     "de": "Blutarmut",
     "de_article": "die",
-    "lv": "Niedokrwistość",
+    "lv": "anemia • niedokrwistość",
     "level": "B2"
   },
   {
     "de": "Blutspender",
     "de_article": "der",
     "de_plural": "die Blutspender",
-    "lv": "Dawca",
+    "lv": "krwiodawca",
     "level": "B2"
   },
   {
     "de": "Blutsturz",
     "de_article": "der",
     "de_plural": "die Blutstürze",
-    "lv": "Nagłe krwawienie z ust lub nosa",
+    "lv": "krwotok",
     "level": "B2"
   },
   {
     "de": "Bodensatz",
     "de_article": "der",
     "de_plural": "die Bodensätze",
-    "lv": "Osad • Szumowina • Drożdże",
+    "lv": "osad • fusy",
     "level": "B2"
   },
   {
     "de": "Bodenschätze",
     "de_article": "die",
-    "lv": "Minerały",
+    "lv": "bogactwa naturalne • kopaliny",
     "level": "B2"
   },
   {
     "de": "bohnern",
-    "lv": "Woskować podłogę",
+    "lv": "pastować • froterować",
     "level": "B2"
   },
   {
     "de": "Bootsmann",
     "de_article": "der",
     "de_plural": "die Bootsleute",
-    "lv": "Przewoźnik",
+    "lv": "bosman",
     "level": "B2"
   },
   {
     "de": "Bootssteg",
     "de_article": "der",
     "de_plural": "die Bootsstege",
-    "lv": "Przystań dla łodzi",
+    "lv": "pomost",
     "level": "B2"
   },
   {
     "de": "Bord",
     "de_article": "das",
     "de_plural": "die Borde",
-    "lv": "Tablica",
+    "lv": "burta • pokład",
     "level": "B2"
   },
   {
     "de": "Bordbuch",
     "de_article": "das",
     "de_plural": "die Bordbücher",
-    "lv": "Dziennik okrętowy",
+    "lv": "dziennik pokładowy",
     "level": "B2"
   },
   {
     "de": "Börse",
     "de_article": "die",
     "de_plural": "die Börsen",
-    "lv": "Giełda",
+    "lv": "giełda",
     "level": "B2"
   },
   {
     "de": "Borte",
     "de_article": "die",
     "de_plural": "die Borten",
-    "lv": "Granica",
+    "lv": "lamówka • obszycie",
     "level": "B2"
   },
   {
     "de": "Böschung",
     "de_article": "die",
     "de_plural": "die Böschungen",
-    "lv": "Zbocze • Zbocze • Nasyp",
+    "lv": "skarpa • nasyp",
     "level": "B2"
   },
   {
     "de": "Bote",
     "de_article": "der",
     "de_plural": "die Boten",
-    "lv": "Posłaniec • Posłaniec • Posłaniec",
+    "lv": "posłaniec • goniec",
     "level": "B2"
   },
   {
     "de": "brach",
-    "lv": "Surowe • Odłożyć na bok",
+    "lv": "nieuprawiany • leżący odłogiem",
     "level": "B2"
   },
   {
     "de": "Brandschaden",
     "de_article": "der",
     "de_plural": "die Brandschäden",
-    "lv": "Strata spowodowana pożarem",
+    "lv": "szkoda spowodowana pożarem",
     "level": "B2"
   },
   {
     "de": "Brandstätte",
     "de_article": "die",
     "de_plural": "die Brandstätten",
-    "lv": "Miejsce na ognisko",
+    "lv": "pogorzelisko",
     "level": "B2"
   },
   {
     "de": "Brandanschlag",
     "de_article": "der",
     "de_plural": "die Brandanschläge",
-    "lv": "Podpalenie",
+    "lv": "podpalenie",
     "level": "B2"
   },
   {
     "de": "Brandmal",
     "de_article": "das",
     "de_plural": "die Brandmale",
-    "lv": "Spalić • Spalić bliznę",
+    "lv": "blizna po oparzeniu • piętno",
     "level": "B2"
   },
   {
     "de": "Brandstifter",
     "de_article": "der",
     "de_plural": "die Brandstifter",
-    "lv": "Podpalacz",
+    "lv": "podpalacz",
     "level": "B2"
   },
   {
     "de": "Brandwunde",
     "de_article": "die",
     "de_plural": "die Brandwunden",
-    "lv": "Oparzenie rany",
+    "lv": "oparzenie",
     "level": "B2"
   },
   {
     "de": "brauen",
-    "lv": "Zrobić piwo • Warzyć",
+    "lv": "warzyć",
     "level": "B2"
   },
   {
     "de": "Brauerei",
     "de_article": "die",
     "de_plural": "die Brauereien",
-    "lv": "Browar",
+    "lv": "browar",
     "level": "B2"
   },
   {
     "de": "Braunkohle",
     "de_article": "die",
     "de_plural": "die Braunkohlen",
-    "lv": "Węgiel brunatny",
+    "lv": "węgiel brunatny",
     "level": "B2"
   },
   {
     "de": "Brettsegeln",
     "de_article": "das",
-    "lv": "Windsurfing",
+    "lv": "windsurfing",
     "level": "B2"
   },
   {
     "de": "Briefbombe",
     "de_article": "die",
     "de_plural": "die Briefbomben",
-    "lv": "Bomba listowa",
+    "lv": "bomba listowa",
     "level": "B2"
   },
   {
     "de": "brillant",
-    "lv": "Doskonałe • Doskonałe",
+    "lv": "znakomity • błyskotliwy",
     "level": "B2"
   },
   {
     "de": "brüten",
-    "lv": "Rozpamiętywać • Ciągłe myślenie o czymś",
+    "lv": "wysiadywać • rozmyślać",
     "level": "B2"
   },
   {
     "de": "Buche",
     "de_article": "die",
     "de_plural": "die Buchen",
-    "lv": "Buk • Grab",
+    "lv": "buk",
     "level": "B2"
   },
   {
     "de": "Buchführer",
     "de_article": "der",
     "de_plural": "die Buchführer",
-    "lv": "Księgowy",
+    "lv": "księgowy",
     "level": "B2"
   },
   {
     "de": "Buchführung",
     "de_article": "die",
     "de_plural": "die Buchführungen",
-    "lv": "Księgowość",
+    "lv": "księgowość",
     "level": "B2"
   },
   {
     "de": "Buchhaltung",
     "de_article": "die",
     "de_plural": "die Buchhaltungen",
-    "lv": "Księgowość",
+    "lv": "księgowość",
     "level": "B2"
   },
   {
     "de": "buchstäblich",
-    "lv": "Dosłowny",
+    "lv": "dosłowny",
     "level": "B2"
   },
   {
     "de": "Buckel",
     "de_article": "der",
     "de_plural": "die Buckel",
-    "lv": "Garb • Ciasto • Plecy",
+    "lv": "garb • plecy",
     "level": "B2"
   },
   {
     "de": "Bügel",
     "de_article": "der",
     "de_plural": "die Bügel",
-    "lv": "Uchwyt • Obręcz • Wieszak na ubrania • Stopień",
+    "lv": "wieszak • kabłąk • strzemię",
     "level": "B2"
   },
   {
     "de": "Bühnenbild",
     "de_article": "das",
     "de_plural": "die Bühnenbilder",
-    "lv": "Dekoracja",
+    "lv": "scenografia • dekoracja",
     "level": "B2"
   },
   {
     "de": "Bühnenbildner",
     "de_article": "der",
     "de_plural": "die Bühnenbildner",
-    "lv": "Dekorator",
+    "lv": "scenograf",
     "level": "B2"
   },
   {
     "de": "Bundesland",
     "de_article": "das",
     "de_plural": "die Bundesländer",
-    "lv": "Ziemia federalna",
+    "lv": "kraj związkowy",
     "level": "B2"
   },
   {
     "de": "Bundesstaat",
     "de_article": "der",
     "de_plural": "die Bundesstaaten",
-    "lv": "Federacja • Stan federalny",
+    "lv": "państwo federalne • federacja",
     "level": "B2"
   },
   {
     "de": "Bundeswehr",
     "de_article": "die",
-    "lv": "Niemieckie Siły Zbrojne",
+    "lv": "niemieckie siły zbrojne",
     "level": "B2"
   },
   {
     "de": "Bündnis",
     "de_article": "das",
     "de_plural": "die Bündnisse",
-    "lv": "Unia",
+    "lv": "sojusz • przymierze",
     "level": "B2"
   },
   {
     "de": "Bürde",
     "de_article": "die",
     "de_plural": "die Bürden",
-    "lv": "Obciążenie • Obciążenie",
+    "lv": "brzemię • ciężar",
     "level": "B2"
   },
   {
     "de": "Bürge",
     "de_article": "der",
     "de_plural": "die Bürgen",
-    "lv": "Gwarant • Przywódca",
+    "lv": "poręczyciel • żyrant",
     "level": "B2"
   },
   {
     "de": "bürgen",
-    "lv": "Zagwarantować",
+    "lv": "ręczyć • poręczyć",
     "level": "B2"
   },
   {
     "de": "bürgerlich",
-    "lv": "Obywatelski • Obywatelski • Burżuazyjny • Burżuazyjny",
+    "lv": "obywatelski • mieszczański • burżuazyjny",
     "level": "B2"
   },
   {
     "de": "Chaot",
     "de_article": "der",
     "de_plural": "die Chaoten",
-    "lv": "Niechlujna osoba",
+    "lv": "bałaganiarz",
     "level": "B2"
   },
   {
     "de": "chartern",
-    "lv": "Wyczarterować samolot lub statek na konkretną podróż",
+    "lv": "czarterować",
     "level": "B2"
   },
   {
     "de": "Chefarzt",
     "de_article": "der",
     "de_plural": "die Chefärzte",
-    "lv": "Główny lekarz",
+    "lv": "ordynator",
     "level": "B2"
   },
   {
     "de": "Chefingenieur",
     "de_article": "der",
     "de_plural": "die Chefingenieure",
-    "lv": "Główny inżynier",
+    "lv": "główny inżynier",
     "level": "B2"
   },
   {
     "de": "Chefredakteur",
     "de_article": "der",
     "de_plural": "die Chefredakteure",
-    "lv": "Redaktor naczelny",
+    "lv": "redaktor naczelny",
     "level": "B2"
   },
   {
     "de": "Chemotherapie",
     "de_article": "die",
     "de_plural": "die Chemotherapien",
-    "lv": "Chemoterapia",
+    "lv": "chemioterapia",
     "level": "B2"
   },
   {
     "de": "Chirurgie",
     "de_article": "die",
     "de_plural": "die Chirurgien",
-    "lv": "Chirurgia",
+    "lv": "chirurgia",
     "level": "B2"
   },
   {
     "de": "Cholera",
     "de_article": "die",
     "de_plural": null,
-    "lv": "Cholera",
+    "lv": "cholera",
     "level": "B2"
   },
   {
     "de": "Cholesterin",
     "de_article": "das",
-    "lv": "Cholesterolu",
+    "lv": "cholesterol",
     "level": "B2"
   },
   {
     "de": "Chorleiter",
     "de_article": "der",
     "de_plural": "die Chorleiter",
-    "lv": "Mistrz chóru",
+    "lv": "dyrygent chóru • chórmistrz",
     "level": "B2"
   },
   {
     "de": "Chromosom",
     "de_article": "das",
     "de_plural": "die Chromosomen",
-    "lv": "Chromosom",
+    "lv": "chromosom",
     "level": "B2"
   },
   {
     "de": "Chronik",
     "de_article": "die",
     "de_plural": "die Chroniken",
-    "lv": "Kronika",
+    "lv": "kronika",
     "level": "B2"
   },
   {
     "de": "chronisch",
-    "lv": "Chroniczny",
+    "lv": "przewlekły • chroniczny",
     "level": "B2"
   },
   {
     "de": "Computervirus",
     "de_article": "der",
     "de_plural": "die Computerviren",
-    "lv": "Wirus komputerowy",
+    "lv": "wirus komputerowy",
     "level": "B2"
   },
   {
     "de": "Dachs",
     "de_article": "der",
     "de_plural": "die Dachse",
-    "lv": "Borsuk",
+    "lv": "borsuk",
     "level": "B2"
   },
   {
     "de": "Dachziegel",
     "de_article": "der",
     "de_plural": "die Dachziegel",
-    "lv": "Płytka",
+    "lv": "dachówka",
     "level": "B2"
   },
   {
     "de": "Dahlie",
     "de_article": "die",
     "de_plural": "die Dahlien",
-    "lv": "Dalia",
+    "lv": "dalia",
     "level": "B2"
   },
   {
     "de": "damalig",
-    "lv": "Następnie • Tamtego czasu",
+    "lv": "ówczesny",
     "level": "B2"
   },
   {
     "de": "Damm",
     "de_article": "der",
     "de_plural": "die Dämme",
-    "lv": "Tama • Tama • Nasyp kolejowy",
+    "lv": "tama • grobla • nasyp",
     "level": "B2"
   },
   {
     "de": "dämmern",
-    "lv": "O zmroku • Robi się ciemno • Świta • Światło się poci",
+    "lv": "zmierzchać się • świtać",
     "level": "B2"
   },
   {
     "de": "Dämmerung",
     "de_article": "die",
     "de_plural": "die Dämmerungen",
-    "lv": "Zmierzch • Zmierzch • Świt • Świt",
+    "lv": "zmierzch • świt",
     "level": "B2"
   },
   {
     "de": "dampfen",
-    "lv": "Dym • Wyparowuje",
+    "lv": "parować • dymić",
     "level": "B2"
   },
   {
     "de": "dämpfen",
-    "lv": "Wyciszyć • Udusić • Wytwarzać parę • Dusić • Wymieszać",
+    "lv": "tłumić • dusić",
     "level": "B2"
   },
   {
     "de": "Dämpfer",
     "de_article": "der",
     "de_plural": "die Dämpfer",
-    "lv": "Tłumik",
+    "lv": "tłumik",
     "level": "B2"
   },
   {
     "de": "Dampfheizung",
     "de_article": "die",
     "de_plural": "die Dampfheizungen",
-    "lv": "Ogrzewanie parowe",
+    "lv": "ogrzewanie parowe",
     "level": "B2"
   },
   {
     "de": "darbieten",
-    "lv": "Zapewnić • Obecny",
+    "lv": "ofiarować • prezentować",
     "level": "B2"
   },
   {
     "de": "Darbietung",
     "de_article": "die",
     "de_plural": "die Darbietungen",
-    "lv": "Wydajność • Wydajność",
+    "lv": "występ • przedstawienie",
     "level": "B2"
   },
   {
     "de": "darlegen",
-    "lv": "Zarys • Wyjaśnić",
+    "lv": "przedstawić • wyjaśnić",
     "level": "B2"
   },
   {
     "de": "Darlehen",
     "de_article": "das",
     "de_plural": "die Darlehen",
-    "lv": "Pożyczka • Pożyczka",
+    "lv": "pożyczka • kredyt",
     "level": "B2"
   },
   {
     "de": "Darm",
     "de_article": "der",
     "de_plural": "die Därme",
-    "lv": "Jelito",
+    "lv": "jelito",
     "level": "B2"
   },
   {
     "de": "Darminfektion",
     "de_article": "die",
     "de_plural": "die Darminfektionen",
-    "lv": "Infekcja jelitowa",
+    "lv": "infekcja jelitowa",
     "level": "B2"
   },
   {
     "de": "Darstellung",
     "de_article": "die",
     "de_plural": "die Darstellungen",
-    "lv": "Przedstawienie • Przedstawienie • Zarys",
-    "level": "B2"
+    "lv": "przedstawienie • wizerunek • opis",
+    "level": "B2",
+    "study": {
+      "id": "b2-darstellung",
+      "layout": "standardStudy",
+      "translation": "przedstawienie • wizerunek • opis",
+      "explanation": [
+        "Główna myśl: die Darstellung to rzeczownik rodzaju żeńskiego od czasownika darstellen. Oznacza przedstawienie czegoś: to, co ktoś mówi, pisze, rysuje lub gra.",
+        "Liczba mnoga to die Darstellungen. Znaczenia: opis, relacja (przedstawienie wydarzeń słowami), przedstawienie graficzne (na rysunku, schemacie: grafische Darstellung), kreacja aktorska (odegranie roli przez aktora).",
+        "Częste połączenia: eine Darstellung geben (przedstawić, zrelacjonować), die Darstellung der Ereignisse, die grafische Darstellung (przedstawienie graficzne)."
+      ],
+      "examples": [
+        {
+          "de": "Die Darstellung des Unfalls war sehr genau.",
+          "lv": "Opis wypadku był bardzo dokładny."
+        },
+        {
+          "de": "Die Zeitung gibt eine einseitige Darstellung der Ereignisse.",
+          "lv": "Gazeta podaje jednostronny obraz wydarzeń."
+        },
+        {
+          "de": "Die Darstellung des Hamlet durch den jungen Schauspieler war beeindruckend.",
+          "lv": "Kreacja Hamleta w wykonaniu młodego aktora była imponująca."
+        },
+        {
+          "de": "Die grafische Darstellung zeigt die Entwicklung der Preise.",
+          "lv": "Przedstawienie graficzne pokazuje zmiany cen."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "die Beschreibung",
+          "meaning": "opis",
+          "example": "Die Beschreibung ist genau. – Opis jest dokładny."
+        },
+        {
+          "word": "der Bericht",
+          "meaning": "sprawozdanie, raport",
+          "example": "Der Bericht ist kurz. – Raport jest krótki."
+        },
+        {
+          "word": "die Schilderung",
+          "meaning": "barwna relacja, opowieść",
+          "example": "Seine Schilderung war lebendig. – Jego opowieść była żywa."
+        }
+      ],
+      "tip": [
+        "Po Darstellung często następuje von lub dopełniacz: die Darstellung des Problems, die Darstellung von Daten.",
+        "O diagramie lub schemacie mówi się grafische Darstellung."
+      ],
+      "important": [
+        "Darstellung to nie to samo co Beschreibung: Beschreibung to opis słowami, a Darstellung może być też rysunkiem, schematem lub kreacją roli.",
+        "Die Darstellung jest rodzaju żeńskiego, w liczbie mnogiej — die Darstellungen."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "die Darstellung",
+            "Darstellung",
+            "Darstellungen",
+            "darstellen"
+          ],
+          "purple": [
+            "przedstawienie",
+            "opis",
+            "kreacja",
+            "relacja",
+            "graficzne"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Darstellung"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Opis"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Darstellung"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "obraz"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Darstellung"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Kreacja"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Darstellung"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Przedstawienie graficzne"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "die Beschreibung"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "opis"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Bericht"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "sprawozdanie"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Schilderung"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "barwna relacja"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "Darstellung",
+              "die Darstellung"
+            ]
+          },
+          {
+            "blue": [
+              "Darstellung"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "Darstellung"
+            ],
+            "green": [
+              "Beschreibung"
+            ]
+          },
+          {
+            "blue": [
+              "Darstellung",
+              "die Darstellung",
+              "Darstellungen"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Dasein",
     "de_article": "das",
-    "lv": "Istnienie • Istnienie",
+    "lv": "istnienie • egzystencja",
     "level": "B2"
   },
   {
     "de": "dasjenige",
-    "lv": "To",
-    "level": "B2"
+    "lv": "to",
+    "level": "B2",
+    "study": {
+      "id": "b2-dasjenige",
+      "layout": "standardStudy",
+      "translation": "to",
+      "explanation": [
+        "Główna myśl: dasjenige to zaimek wskazujący rodzaju nijakiego, który oznacza to (to, co). Zwykle wskazuje na coś, co dalej doprecyzowuje zdanie względne: dasjenige, was/das …",
+        "Słowo się odmienia: dasjenige (mianownik, biernik), desjenigen (dopełniacz), demjenigen (celownik). W rodzaju męskim jest derjenige, w żeńskim — diejenige, w liczbie mnogiej — diejenigen. Odmieniają się obie części (das + jenige).",
+        "Słowo jest formalne i częstsze w piśmie; w mowie zamiast niego zwykle mówi się das lub das, was."
+      ],
+      "examples": [
+        {
+          "de": "Dasjenige, was er sagte, war richtig.",
+          "lv": "To, co powiedział, było słuszne."
+        },
+        {
+          "de": "Ich nehme dasjenige Buch, das auf dem Tisch liegt.",
+          "lv": "Biorę tę książkę, która leży na stole."
+        },
+        {
+          "de": "Dasjenige Kind, das zuerst fertig ist, bekommt einen Preis.",
+          "lv": "To dziecko, które pierwsze skończy, dostanie nagrodę."
+        },
+        {
+          "de": "Mit demjenigen Auto, das du gekauft hast, bin ich zufrieden.",
+          "lv": "Jestem zadowolony z tego samochodu, który kupiłeś."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "derjenige / diejenige",
+          "meaning": "ten, ta",
+          "example": "Derjenige, der kommt, bekommt Kuchen. – Ten, kto przyjdzie, dostanie ciasto."
+        },
+        {
+          "word": "das, was",
+          "meaning": "to, co",
+          "example": "Ich verstehe das, was du sagst. – Rozumiem to, co mówisz."
+        },
+        {
+          "word": "dieses",
+          "meaning": "ten (tutaj)",
+          "example": "Dieses Buch gefällt mir. – Ta książka mi się podoba."
+        }
+      ],
+      "tip": [
+        "Po dasjenige zwykle spodziewaj się zdania względnego z das lub was; w zdaniu można je zastąpić prostym das.",
+        "Odmieniają się obie części: mit demjenigen Auto, a nie mit dasjenigen."
+      ],
+      "important": [
+        "Dasjenige bez zdania względnego zwykle nie występuje.",
+        "Nie myl z dieses (ten): dasjenige wskazuje na coś, co zaraz zostanie doprecyzowane."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "dasjenige",
+            "demjenigen",
+            "desjenigen",
+            "derjenige",
+            "diejenige",
+            "diejenigen"
+          ],
+          "purple": [
+            "to, co",
+            "to"
+          ],
+          "green": [
+            "das, was"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Dasjenige"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "To"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "dasjenige"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tę"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Dasjenige"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "To"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "demjenigen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tego"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "derjenige / diejenige"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ten"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "das, was"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "to, co"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "dieses"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ten"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "dasjenige"
+            ]
+          },
+          {
+            "blue": [
+              "demjenigen"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "dasjenige",
+              "Dasjenige"
+            ]
+          },
+          {
+            "blue": [
+              "dasjenige"
+            ],
+            "green": [
+              "dieses"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Datei",
     "de_article": "die",
     "de_plural": "die Dateien",
-    "lv": "Szafka na dokumenty",
+    "lv": "plik",
     "level": "B2"
   },
   {
     "de": "Datenspeicher",
     "de_article": "der",
     "de_plural": "die Datenspeicher",
-    "lv": "Pamięć komputera",
+    "lv": "pamięć komputera",
     "level": "B2"
   },
   {
     "de": "Datenträger",
     "de_article": "der",
     "de_plural": "die Datenträger",
-    "lv": "Dyskietka",
+    "lv": "nośnik danych",
     "level": "B2"
   },
   {
     "de": "Dattel",
     "de_article": "die",
     "de_plural": "die Datteln",
-    "lv": "Data",
+    "lv": "daktyl",
     "level": "B2"
   },
   {
     "de": "Daune",
     "de_article": "die",
     "de_plural": "die Daunen",
-    "lv": "W dół",
+    "lv": "puch",
     "level": "B2"
   },
   {
     "de": "Dealer",
     "de_article": "der",
     "de_plural": "die Dealer",
-    "lv": "Nielegalny handlarz narkotyków",
+    "lv": "handlarz narkotyków • diler",
     "level": "B2"
   },
   {
     "de": "Debatte",
     "de_article": "die",
     "de_plural": "die Debatten",
-    "lv": "Debata",
+    "lv": "debata",
     "level": "B2"
   },
   {
     "de": "Deck",
     "de_article": "das",
     "de_plural": "die Decks",
-    "lv": "Pokład statku",
+    "lv": "pokład",
     "level": "B2"
   },
   {
     "de": "Defekt",
     "de_article": "der",
     "de_plural": "die Defekte",
-    "lv": "Brak techniczny • Awaria",
+    "lv": "usterka • defekt",
     "level": "B2"
   },
   {
     "de": "Defizit",
     "de_article": "das",
     "de_plural": "die Defizite",
-    "lv": "Niedobór • Niedobór • Deficyt",
+    "lv": "niedobór • deficyt",
     "level": "B2"
   },
   {
     "de": "dehnbar",
-    "lv": "Rozciągliwy • Rozciągliwy • Rozciągliwy",
+    "lv": "rozciągliwy",
     "level": "B2"
   },
   {
     "de": "dehnen",
-    "lv": "Rozciągać • Rozciągać • Rozciągać • Rozciągać • Przeciągać",
+    "lv": "rozciągać • rozciągać się • przeciągać się",
     "level": "B2"
   },
   {
     "de": "deinerseits",
-    "lv": "Z twojej strony",
+    "lv": "z twojej strony",
     "level": "B2"
   },
   {
     "de": "deinetwegen",
-    "lv": "Z twojego powodu",
+    "lv": "z twojego powodu • przez ciebie",
     "level": "B2"
   },
   {
     "de": "Deklaration",
     "de_article": "die",
     "de_plural": "die Deklarationen",
-    "lv": "Deklaracja",
+    "lv": "deklaracja",
     "level": "B2"
   },
   {
     "de": "Delegierte",
     "de_article": "der",
     "de_plural": "die Delegierten",
-    "lv": "Delegat",
+    "lv": "delegat",
     "level": "B2"
   },
   {
     "de": "delikat",
-    "lv": "Delikatny • Pyszny",
+    "lv": "delikatny • wyborny",
     "level": "B2"
   },
   {
     "de": "Delikt",
     "de_article": "das",
     "de_plural": "die Delikte",
-    "lv": "Przestępstwo • Łamanie prawa",
+    "lv": "przestępstwo • wykroczenie",
     "level": "B2"
   },
   {
     "de": "dementieren",
-    "lv": "Wycofać informację",
+    "lv": "dementować",
     "level": "B2"
   },
   {
     "de": "Demission",
     "de_article": "die",
     "de_plural": "die Demissionen",
-    "lv": "Rezygnacja • Rezygnacja",
+    "lv": "dymisja • rezygnacja",
     "level": "B2"
   },
   {
     "de": "demütigen",
-    "lv": "Poniżyć",
+    "lv": "upokarzać",
     "level": "B2"
   },
   {
     "de": "denkbar",
-    "lv": "Przypuszczalne • Wyobrażalne • Możliwe",
+    "lv": "wyobrażalny • możliwy",
     "level": "B2"
   },
   {
     "de": "deplaziert",
-    "lv": "Nieodpowiednie • Nie na miejscu • Nie na czasie",
+    "lv": "niestosowny • nie na miejscu",
     "level": "B2"
   },
   {
     "de": "deponieren",
-    "lv": "Depozyt • Depozyt",
+    "lv": "deponować • zdeponować",
     "level": "B2"
   },
   {
     "de": "derartig",
-    "lv": "Takie • Takie • Podobne",
+    "lv": "taki • tego rodzaju",
     "level": "B2"
   },
   {
     "de": "derjenige",
-    "lv": "To",
+    "lv": "ten",
     "level": "B2"
   },
   {
     "de": "deuten",
-    "lv": "Wyjaśnić • Przetłumaczyć • Wskazać",
+    "lv": "interpretować • wskazywać",
     "level": "B2"
   },
   {
     "de": "Deutung",
     "de_article": "die",
     "de_plural": "die Deutungen",
-    "lv": "Wyjaśnienie • Tłumaczenie • Wyjaśnienie • Tłumaczenie",
+    "lv": "interpretacja • wykładnia",
     "level": "B2"
   },
   {
     "de": "Devisen",
     "de_article": "die",
-    "lv": "Środek płatniczy w walucie obcej",
+    "lv": "dewizy • waluta obca",
     "level": "B2"
   },
   {
     "de": "Devisenbörse",
     "de_article": "die",
     "de_plural": "die Devisenbörsen",
-    "lv": "Wymiana walut",
+    "lv": "giełda walutowa",
     "level": "B2"
   },
   {
     "de": "Devisenkurs",
     "de_article": "der",
     "de_plural": "die Devisenkurse",
-    "lv": "Kurs wymiany",
+    "lv": "kurs walutowy",
     "level": "B2"
   },
   {
     "de": "Dezernat",
     "de_article": "das",
     "de_plural": "die Dezernate",
-    "lv": "Wydział w policji",
+    "lv": "wydział policji",
     "level": "B2"
   },
   {
     "de": "Morddezernat",
     "de_article": "das",
     "de_plural": "die Morddezernate",
-    "lv": "Wydział kryminalny",
+    "lv": "wydział zabójstw",
     "level": "B2"
   },
   {
     "de": "Dia",
     "de_article": "das",
     "de_plural": "die Dias",
-    "lv": "Slajd",
+    "lv": "przezrocze • slajd",
     "level": "B2"
   },
   {
     "de": "Diagnose",
     "de_article": "die",
     "de_plural": "die Diagnosen",
-    "lv": "Diagnoza",
+    "lv": "diagnoza",
     "level": "B2"
   },
   {
     "de": "Dialekt",
     "de_article": "der",
     "de_plural": "die Dialekte",
-    "lv": "Dialekt",
+    "lv": "dialekt • gwara",
     "level": "B2"
   },
   {
     "de": "Diätkost",
     "de_article": "die",
-    "lv": "Żywienie dietetyczne",
+    "lv": "żywność dietetyczna",
     "level": "B2"
   },
   {
     "de": "dichten",
-    "lv": "Śpiewać • Śpiewać",
+    "lv": "pisać wiersze • tworzyć poezję",
     "level": "B2"
   },
   {
     "de": "Dichtung",
     "de_article": "die",
     "de_plural": "die Dichtungen",
-    "lv": "Poezja",
+    "lv": "poezja",
     "level": "B2"
   },
   {
     "de": "Dickicht",
     "de_article": "das",
     "de_plural": "die Dickichte",
-    "lv": "Gąszcz",
+    "lv": "gąszcz • zarośla",
     "level": "B2"
   },
   {
     "de": "dickköpfig",
-    "lv": "Uparty",
+    "lv": "uparty",
     "level": "B2"
   },
   {
     "de": "diejenige",
-    "lv": "Więc",
+    "lv": "ta",
     "level": "B2"
   },
   {
     "de": "Diele",
     "de_article": "die",
     "de_plural": "die Dielen",
-    "lv": "Podłoga • Deska • Przedsionek",
+    "lv": "deska podłogowa • przedpokój",
     "level": "B2"
   },
   {
     "de": "diensthabend",
-    "lv": "Na służbie",
+    "lv": "dyżurny • pełniący dyżur",
     "level": "B2"
   },
   {
     "de": "dienstlich",
-    "lv": "Stanowisko serwisowe",
+    "lv": "służbowy",
     "level": "B2"
   },
   {
     "de": "diesseits",
-    "lv": "Po tej stronie",
+    "lv": "po tej stronie",
     "level": "B2"
   },
   {
     "de": "dingen",
-    "lv": "Zgodzić się • Zgodzić się",
-    "level": "B2"
+    "lv": "najmować • wynająć",
+    "level": "B2",
+    "study": {
+      "id": "b2-dingen",
+      "layout": "standardStudy",
+      "translation": "najmować • wynająć",
+      "explanation": [
+        "Główna myśl: dingen to rzadki, staroświecki czasownik, który oznacza najmować, wynająć (człowieka za zapłatą do jakiejś pracy). Dziś słychać go głównie w wyrażeniu ein gedungener Mörder (płatny zabójca) i w tekstach historycznych.",
+        "Formy: dingt, dingte (rzadziej dang), hat gedungen (rzadziej gedingt). Typowo najmuje się Söldner, Mörder, Führer. Na co dzień mówi się anheuern lub engagieren.",
+        "Po dingen stoi biernik: jemanden dingen."
+      ],
+      "examples": [
+        {
+          "de": "Der Graf dingte Söldner für den Krieg.",
+          "lv": "Hrabia najął najemników na wojnę."
+        },
+        {
+          "de": "Sie dangen einen Führer für die Reise.",
+          "lv": "Wynajęli przewodnika na podróż."
+        },
+        {
+          "de": "Die Polizei sucht einen gedungenen Mörder.",
+          "lv": "Policja szuka płatnego zabójcy."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "anheuern",
+          "meaning": "najmować (potocznie)",
+          "example": "Sie heuern einen Fahrer an. – Najmują kierowcę."
+        },
+        {
+          "word": "engagieren",
+          "meaning": "angażować, zatrudniać",
+          "example": "Wir engagieren einen Musiker. – Angażujemy muzyka."
+        },
+        {
+          "word": "mieten",
+          "meaning": "wynajmować (rzecz)",
+          "example": "Er mietet ein Auto. – Wynajmuje samochód."
+        }
+      ],
+      "tip": [
+        "Najczęściej zobaczysz frazę ein gedungener Mörder; poza nią słowo jest rzadkie.",
+        "W żywym języku wybieraj anheuern (najmować) lub engagieren."
+      ],
+      "important": [
+        "Dingen to słowo literackie lub historyczne; w codziennej mowie brzmiałoby dziwnie.",
+        "Formy się wahają (dang/gedungen i dingte/gedingt); w czasie przeszłym zwykle dingte, w imiesłowie — gedungen."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "dingen",
+            "dingte",
+            "dang",
+            "gedungen",
+            "gedungener"
+          ],
+          "purple": [
+            "najmować",
+            "wynająć"
+          ],
+          "green": [
+            "anheuern",
+            "engagieren"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "dingte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "najął"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "dangen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Wynajęli"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "gedungenen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "płatnego"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "anheuern"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "najmować"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "engagieren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "angażować"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "mieten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "wynajmować"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "gedungener"
+            ]
+          },
+          {
+            "green": [
+              "anheuern",
+              "engagieren"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "dingen"
+            ]
+          },
+          {
+            "blue": [
+              "dingte",
+              "dang",
+              "gedungen"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Direktion",
     "de_article": "die",
     "de_plural": "die Direktionen",
-    "lv": "Kontrola przyimków",
+    "lv": "dyrekcja • zarząd",
     "level": "B2"
   },
   {
     "de": "Dirigent",
     "de_article": "der",
     "de_plural": "die Dirigenten",
-    "lv": "Dyrygent",
+    "lv": "dyrygent",
     "level": "B2"
   },
   {
     "de": "Diskette",
     "de_article": "die",
     "de_plural": "die Disketten",
-    "lv": "Dyskietka",
+    "lv": "dyskietka",
     "level": "B2"
   },
   {
     "de": "diskret",
-    "lv": "Dyskretny",
+    "lv": "dyskretny",
     "level": "B2"
   },
   {
     "de": "Diskuswerfen",
     "de_article": "das",
-    "lv": "Rzut dyskiem",
+    "lv": "rzut dyskiem",
     "level": "B2"
   },
   {
     "de": "Distel",
     "de_article": "die",
     "de_plural": "die Disteln",
-    "lv": "Oset",
+    "lv": "oset",
     "level": "B2"
   },
   {
     "de": "Dividende",
     "de_article": "die",
     "de_plural": "die Dividenden",
-    "lv": "Dywidenda",
+    "lv": "dywidenda",
     "level": "B2"
   },
   {
     "de": "Dock",
     "de_article": "das",
     "de_plural": "die Docks",
-    "lv": "Dok",
+    "lv": "dok",
     "level": "B2"
   },
   {
     "de": "Dohle",
     "de_article": "die",
     "de_plural": "die Dohlen",
-    "lv": "Współwłaściciel",
+    "lv": "kawka",
     "level": "B2"
   },
   {
     "de": "Dom",
     "de_article": "der",
     "de_plural": "die Dome",
-    "lv": "Katedra • Rada",
+    "lv": "katedra",
     "level": "B2"
   },
   {
     "de": "donnern",
-    "lv": "Ryk grzmotu • Dudnienie • Dudnienie",
-    "level": "B2"
+    "lv": "grzmieć • huczeć",
+    "level": "B2",
+    "study": {
+      "id": "b2-donnern",
+      "layout": "standardStudy",
+      "translation": "grzmieć • huczeć",
+      "explanation": [
+        "Główna myśl: donnern oznacza grzmieć, huczeć, dudnić: o burzy (es donnert — grzmi), o ciężkim hałasie (pociąg, ciężarówka, artyleria) lub o donośnym głosie.",
+        "Formy: donnert, donnerte, hat gedonnert. Przy burzy używa się bezosobowego es: Es donnert. Jeśli czasownik opisuje ruch połączony z hałasem, w czasie Perfekt używa się sein: Der Zug ist über die Brücke gedonnert.",
+        "W przenośni donnern to głośno krzyknąć: Der Chef donnerte los."
+      ],
+      "examples": [
+        {
+          "de": "Es blitzt und donnert.",
+          "lv": "Błyska się i grzmi."
+        },
+        {
+          "de": "Der Zug donnert über die Brücke.",
+          "lv": "Pociąg z hukiem przejeżdża przez most."
+        },
+        {
+          "de": "Die Lastwagen donnerten über die Straße.",
+          "lv": "Ciężarówki z łoskotem przejeżdżały ulicą."
+        },
+        {
+          "de": "Der Chef donnerte: „Raus hier!“",
+          "lv": "Szef ryknął: „Wynocha stąd!”"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "grollen",
+          "meaning": "dudnić (w oddali)",
+          "example": "In der Ferne grollt es. – W oddali dudni."
+        },
+        {
+          "word": "krachen",
+          "meaning": "trzaskać, trzeszczeć",
+          "example": "Das Eis kracht unter den Füßen. – Lód trzeszczy pod stopami."
+        },
+        {
+          "word": "rumpeln",
+          "meaning": "turkotać, dudnić",
+          "example": "Der Wagen rumpelt über die Steine. – Wóz turkocze po kamieniach."
+        }
+      ],
+      "tip": [
+        "O grzmotach mówi się Es donnert; o błyskawicach — Es blitzt.",
+        "Gdy chodzi o hałas połączony z ruchem, donnern może łączyć się z sein: ist gedonnert."
+      ],
+      "important": [
+        "Grzmot: es donnert z hat gedonnert, a nie z ist.",
+        "Donnern nie dotyczy tylko burzy: może też opisywać ciężkie pojazdy lub gniewny głos."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "donnern",
+            "donnert",
+            "donnerte",
+            "gedonnert",
+            "Es donnert"
+          ],
+          "purple": [
+            "grzmieć",
+            "huczeć",
+            "grzmi"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "donnert"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "grzmi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "donnert"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "hukiem"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "donnerten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "łoskotem"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "donnerte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ryknął"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "grollen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "dudnić"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "krachen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "trzaskać"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "rumpeln"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "turkotać"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "donnert",
+              "Es donnert"
+            ]
+          },
+          {
+            "blue": [
+              "donnern",
+              "gedonnert"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "donnert",
+              "gedonnert"
+            ]
+          },
+          {
+            "blue": [
+              "donnern"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "dopen",
-    "lv": "Używać środków dopingujących",
+    "lv": "stosować doping",
     "level": "B2"
   },
   {
     "de": "Doping",
     "de_article": "das",
     "de_plural": "die Dopinge",
-    "lv": "Środek dopingujący",
+    "lv": "doping",
     "level": "B2"
   },
   {
     "de": "doppelsinnig",
-    "lv": "Dwuznaczny",
+    "lv": "dwuznaczny",
     "level": "B2"
   },
   {
     "de": "Doppelzentner",
     "de_article": "der",
     "de_plural": "die Doppelzentner",
-    "lv": "Centnar",
+    "lv": "kwintal",
     "level": "B2"
   },
   {
     "de": "Dorn",
     "de_article": "der",
     "de_plural": "die Dornen",
-    "lv": "Cierń • Żądło",
+    "lv": "cierń • kolec",
     "level": "B2"
   },
   {
     "de": "dornig",
-    "lv": "Kłujący • Kłujący",
+    "lv": "ciernisty • kolczasty",
     "level": "B2"
   },
   {
     "de": "dörren",
-    "lv": "Wysuszyć • Wysuszyć",
+    "lv": "suszyć",
     "level": "B2"
   },
   {
     "de": "Dörrgemüse",
     "de_article": "das",
     "de_plural": "die Dörrgemüse",
-    "lv": "Suszone warzywa",
+    "lv": "suszone warzywa",
     "level": "B2"
   },
   {
     "de": "Dörrobst",
     "de_article": "das",
-    "lv": "Suszone owoce",
+    "lv": "suszone owoce",
     "level": "B2"
   },
   {
     "de": "Dorsch",
     "de_article": "der",
     "de_plural": "die Dorsche",
-    "lv": "Dorsz",
+    "lv": "dorsz",
     "level": "B2"
   },
   {
     "de": "Dosenfleisch",
     "de_article": "das",
     "de_plural": "die Dosenfleische",
-    "lv": "Konserwy mięsne",
+    "lv": "konserwa mięsna",
     "level": "B2"
   },
   {
     "de": "Dosenmilch",
     "de_article": "die",
     "de_plural": "die Dosenmilche",
-    "lv": "Mleko skondensowane w puszkach",
+    "lv": "mleko skondensowane",
     "level": "B2"
   },
   {
     "de": "Dosenöffner",
     "de_article": "der",
     "de_plural": "die Dosenöffner",
-    "lv": "Otwieracz do puszek",
+    "lv": "otwieracz do puszek",
     "level": "B2"
   },
   {
     "de": "Dosis",
     "de_article": "die",
     "de_plural": "die Dosen",
-    "lv": "Dawka • Dawka",
+    "lv": "dawka",
     "level": "B2"
   },
   {
     "de": "Dotterblume",
     "de_article": "die",
     "de_plural": "die Dotterblumen",
-    "lv": "Kijanka",
+    "lv": "knieć błotna",
     "level": "B2"
   },
   {
     "de": "Dragee",
     "de_article": "das",
     "de_plural": "die Dragees",
-    "lv": "Drażetka",
+    "lv": "drażetka",
     "level": "B2"
   },
   {
     "de": "drahtlos",
-    "lv": "Bezprzewodowy",
+    "lv": "bezprzewodowy",
     "level": "B2"
   },
   {
     "de": "Drahtseilbahn",
     "de_article": "die",
     "de_plural": "die Drahtseilbahnen",
-    "lv": "Kolejka linowa",
+    "lv": "kolejka linowa",
     "level": "B2"
   },
   {
     "de": "Dramatiker",
     "de_article": "der",
     "de_plural": "die Dramatiker",
-    "lv": "Dramaturg • Pisarz sztuk teatralnych",
+    "lv": "dramatopisarz • dramaturg",
     "level": "B2"
   },
   {
     "de": "Drang",
     "de_article": "der",
     "de_plural": "die Dränge",
-    "lv": "Napęd • Nachylenie",
+    "lv": "pęd • dążenie",
     "level": "B2"
   },
   {
     "de": "drängen",
-    "lv": "Pchnij • Pchnij • Pospiesz się • Pospiesz się • Zachęcaj",
+    "lv": "pchać • naciskać • ponaglać",
     "level": "B2"
   },
   {
     "de": "Dreck",
     "de_article": "der",
     "de_plural": "die Drecke",
-    "lv": "Łajno • Brud • Błoto • Brud",
+    "lv": "brud • błoto",
     "level": "B2"
   },
   {
     "de": "Dreharbeiten",
     "de_article": "die",
-    "lv": "Filmowanie",
+    "lv": "zdjęcia filmowe • kręcenie filmu",
     "level": "B2"
   },
   {
     "de": "Drehbank",
     "de_article": "die",
     "de_plural": "die Drehbänke",
-    "lv": "Tokarka",
+    "lv": "tokarka",
     "level": "B2"
   },
   {
     "de": "Drehbleistift",
     "de_article": "der",
     "de_plural": "die Drehbleistifte",
-    "lv": "Automatyczny ołówek",
+    "lv": "ołówek automatyczny",
     "level": "B2"
   },
   {
     "de": "Drehung",
     "de_article": "die",
     "de_plural": "die Drehungen",
-    "lv": "Wirowanie • Rewolucja",
+    "lv": "obrót",
     "level": "B2"
   },
   {
     "de": "Dreisprung",
     "de_article": "der",
     "de_plural": "die Dreisprünge",
-    "lv": "Potrójny skok",
+    "lv": "trójskok",
     "level": "B2"
   },
   {
     "de": "dreschen",
-    "lv": "Ubić ziarno • Ubić białko jaja",
+    "lv": "młócić",
     "level": "B2"
   },
   {
     "de": "Dressman",
     "de_article": "der",
     "de_plural": "die Dressmen",
-    "lv": "Demonstratorka modelek na pokazach mody",
+    "lv": "model",
     "level": "B2"
   },
   {
     "de": "dringen",
-    "lv": "Naciskać • Włamać się • Wcisnąć • Włamać się • Wymagać • Żądać",
+    "lv": "przenikać • przedzierać się • nalegać",
     "level": "B2"
   },
   {
     "de": "Drogensucht",
     "de_article": "die",
     "de_plural": "die Drogensüchte",
-    "lv": "Uzależnienie od narkotyków",
+    "lv": "narkomania • uzależnienie od narkotyków",
     "level": "B2"
   },
   {
     "de": "Drohung",
     "de_article": "die",
     "de_plural": "die Drohungen",
-    "lv": "Zagrożenia",
+    "lv": "groźba",
     "level": "B2"
   },
   {
     "de": "Drops",
     "de_article": "der",
     "de_plural": "die Drops",
-    "lv": "Karmelki z kwaśnych owoców • Lizaki",
+    "lv": "landrynka • drops",
     "level": "B2"
   },
   {
     "de": "Drossel",
     "de_article": "die",
     "de_plural": "die Drosseln",
-    "lv": "Szpak",
+    "lv": "drozd",
     "level": "B2"
   },
   {
     "de": "drosseln",
-    "lv": "Udusić • Zdusić",
+    "lv": "dławić • ograniczać",
     "level": "B2"
   },
   {
     "de": "Nadeldrucker",
     "de_article": "der",
     "de_plural": "die Nadeldrucker",
-    "lv": "Drukarka cyfrowa",
+    "lv": "drukarka igłowa",
     "level": "B2"
   },
   {
     "de": "Druckerei",
     "de_article": "die",
     "de_plural": "die Druckereien",
-    "lv": "Typografia",
+    "lv": "drukarnia",
     "level": "B2"
   },
   {
     "de": "Druckfehler",
     "de_article": "der",
     "de_plural": "die Druckfehler",
-    "lv": "Błąd drukarski",
+    "lv": "błąd drukarski • literówka",
     "level": "B2"
   },
   {
     "de": "Druckmaschine",
     "de_article": "die",
     "de_plural": "die Druckmaschinen",
-    "lv": "Prasa drukarska",
+    "lv": "maszyna drukarska",
     "level": "B2"
   },
   {
     "de": "Druckpapier",
     "de_article": "das",
     "de_plural": "die Druckpapiere",
-    "lv": "Papier do drukowania",
+    "lv": "papier drukowy",
     "level": "B2"
   },
   {
     "de": "Drucksache",
     "de_article": "die",
     "de_plural": "die Drucksachen",
-    "lv": "Bandrola • Druk na przesyłkach pocztowych",
+    "lv": "druk • przesyłka z drukami",
     "level": "B2"
   },
   {
     "de": "Drüse",
     "de_article": "die",
     "de_plural": "die Drüsen",
-    "lv": "Gruczoł",
+    "lv": "gruczoł",
     "level": "B2"
   },
   {
     "de": "dulden",
-    "lv": "Cierpieć • Znosić",
+    "lv": "tolerować • znosić",
     "level": "B2"
   },
   {
     "de": "dumpf",
-    "lv": "Pusty • Stłumiony • Duszny • Duszący • Ciężki • Uciskany • Uciążliwy",
+    "lv": "głuchy • stłumiony • duszny",
     "level": "B2"
   },
   {
     "de": "Dumping",
     "de_article": "das",
     "de_plural": "die Dumpinge",
-    "lv": "Dumping",
+    "lv": "dumping",
     "level": "B2"
   },
   {
     "de": "Dumpingpreis",
     "de_article": "der",
     "de_plural": "die Dumpingpreise",
-    "lv": "Cena dumpingowa",
+    "lv": "cena dumpingowa",
     "level": "B2"
   },
   {
     "de": "Düne",
     "de_article": "die",
     "de_plural": "die Dünen",
-    "lv": "Wydma",
+    "lv": "wydma",
     "level": "B2"
   },
   {
     "de": "Düngemittel",
     "de_article": "das",
     "de_plural": "die Düngemittel",
-    "lv": "Nawóz • Nawóz mineralny",
+    "lv": "nawóz",
     "level": "B2"
   },
   {
     "de": "düngen",
-    "lv": "Nawozić",
+    "lv": "nawozić",
     "level": "B2"
   },
   {
     "de": "Dünkel",
     "de_article": "der",
-    "lv": "Próżność • Zarozumiałość • Arogancja",
+    "lv": "zarozumiałość • pycha",
     "level": "B2"
   },
   {
     "de": "dunkeln",
-    "lv": "Robi się ciemno • Robi się ciemno",
+    "lv": "ciemnieć • zmierzchać się",
     "level": "B2"
   },
   {
     "de": "dünken",
-    "lv": "Wydawać się • Wydawać się",
+    "lv": "wydawać się",
     "level": "B2"
   },
   {
     "de": "Dunst",
     "de_article": "der",
     "de_plural": "die Dünste",
-    "lv": "Para • Opary • Opary • Para • Mgła • Mgła",
-    "level": "B2"
+    "lv": "opar • mgiełka",
+    "level": "B2",
+    "study": {
+      "id": "b2-dunst",
+      "layout": "standardStudy",
+      "translation": "opar • mgiełka",
+      "explanation": [
+        "Główna myśl: der Dunst to rzeczownik rodzaju męskiego, który oznacza opar, zamglone powietrze lub wyziewy: lekką mgiełkę, przez którą powietrze jest mętne, albo zapach i wyziewy.",
+        "Liczba mnoga to die Dünste (z przegłosem) i jest używana rzadko — głównie o wyziewach: giftige Dünste. W liczbie pojedynczej der Dunst często odnosi się do mgiełki nad miastem, jeziorem lub doliną.",
+        "Wyrażenie keinen blassen Dunst von etwas haben oznacza, że ktoś nie ma o czymś zielonego pojęcia."
+      ],
+      "examples": [
+        {
+          "de": "Über dem See lag ein feiner Dunst.",
+          "lv": "Nad jeziorem unosiła się delikatna mgiełka."
+        },
+        {
+          "de": "In der Küche hing der Dunst von gebratenem Fleisch.",
+          "lv": "W kuchni unosiły się opary smażonego mięsa."
+        },
+        {
+          "de": "Giftige Dünste stiegen aus dem Fass auf.",
+          "lv": "Z beczki unosiły się trujące wyziewy."
+        },
+        {
+          "de": "Ich habe keinen blassen Dunst davon.",
+          "lv": "Nie mam o tym zielonego pojęcia."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "der Nebel",
+          "meaning": "mgła",
+          "example": "Im Herbst gibt es oft Nebel. – Jesienią często jest mgła."
+        },
+        {
+          "word": "der Dampf",
+          "meaning": "para (gorąca)",
+          "example": "Dampf steigt aus dem Topf auf. – Z garnka unosi się para."
+        },
+        {
+          "word": "der Rauch",
+          "meaning": "dym",
+          "example": "Rauch steigt aus dem Schornstein auf. – Z komina unosi się dym."
+        }
+      ],
+      "tip": [
+        "Dunst używa się, gdy powietrze jest zamglone albo unoszą się opary zapachu; gęstą mgłę nazywa się Nebel.",
+        "Wyrażenie keinen blassen Dunst haben jest potoczne; używaj go w nieformalnej mowie."
+      ],
+      "important": [
+        "Der Dunst to nie to samo co Dampf: Dampf to gorąca para, a Dunst to lekka mgiełka lub opary.",
+        "Liczba mnoga die Dünste ma przegłos i jest używana rzadko."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "der Dunst",
+            "die Dünste",
+            "Dunst",
+            "Dünste",
+            "keinen blassen Dunst"
+          ],
+          "purple": [
+            "mgiełkę",
+            "wyziewy",
+            "opar",
+            "zielonego pojęcia"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Dunst"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "mgiełka"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Dunst"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "opary"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Dünste"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "wyziewy"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Dunst"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "zielonego pojęcia"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "der Nebel"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "mgła"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Dampf"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "para"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Rauch"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "dym"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "Dunst"
+            ],
+            "green": [
+              "Nebel"
+            ]
+          },
+          {
+            "blue": [
+              "Dunst",
+              "keinen blassen Dunst"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "Dunst",
+              "der Dunst"
+            ],
+            "green": [
+              "Dampf"
+            ]
+          },
+          {
+            "blue": [
+              "die Dünste",
+              "Dünste"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "durcharbeiten",
-    "lv": "Rozwiń • Przeczytaj uważnie • Dokładnie ugniataj",
+    "lv": "przerobić • przestudiować • wyrobić",
     "level": "B2"
   },
   {
     "de": "durchaus",
-    "lv": "Całkiem • Całkowicie • Całkowicie",
+    "lv": "całkowicie • zupełnie",
     "level": "B2"
   },
   {
     "de": "durchbrechen",
-    "lv": "Przebić się • Przebić się • Pojawić się • Przebić się",
+    "lv": "przełamać • przebić się • ukazać się",
     "level": "B2"
   },
   {
     "de": "durchbrennen",
-    "lv": "Przepalić • Przepalić • Wypalić się • Przepalić",
+    "lv": "przepalić • przepalić się",
     "level": "B2"
   },
   {
     "de": "durchbringen",
-    "lv": "Przedostać się • Doprowadzić • Osiągnąć • Wyleczyć • Zmarnować",
+    "lv": "przeforsować • wyleczyć • roztrwonić",
     "level": "B2"
   },
   {
     "de": "Durchbruch",
     "de_article": "der",
     "de_plural": "die Durchbrüche",
-    "lv": "Naruszenie • Naruszenie tamy",
+    "lv": "przełom • wyłom",
     "level": "B2"
   },
   {
     "de": "durchdringen",
-    "lv": "Przebić się • Przebić się • Zostać przytłoczonym",
+    "lv": "przenikać • przebić się",
     "level": "B2"
   },
   {
     "de": "Durchfahrt",
     "de_article": "die",
     "de_plural": "die Durchfahrten",
-    "lv": "Przejście • Arteria komunikacyjna",
+    "lv": "przejazd",
     "level": "B2"
   },
   {
     "de": "Durchfuhr",
     "de_article": "die",
-    "lv": "Przejazd • Tranzyt",
+    "lv": "tranzyt • przewóz tranzytowy",
     "level": "B2"
   },
   {
     "de": "Durchführung",
     "de_article": "die",
     "de_plural": "die Durchführungen",
-    "lv": "Przeprowadzanie czegoś • Robienie • Robienie • Przeprowadzanie • Realizowanie",
+    "lv": "przeprowadzenie • realizacja • wykonanie",
     "level": "B2"
   },
   {
     "de": "durchgreifend",
-    "lv": "Rodnik",
+    "lv": "radykalny • gruntowny",
     "level": "B2"
   },
   {
     "de": "durchlaufen",
-    "lv": "Przepłynąć • Przepłynąć",
+    "lv": "przebiec • przeciekać",
     "level": "B2"
   },
   {
     "de": "durchmachen",
-    "lv": "Przetrwać • Usunąć • Zakończyć",
+    "lv": "przechodzić • przeżywać",
     "level": "B2"
   },
   {
     "de": "Durchmesser",
     "de_article": "der",
     "de_plural": "die Durchmesser",
-    "lv": "Średnica • Średnica",
+    "lv": "średnica",
     "level": "B2"
   },
   {
     "de": "durchqueren",
-    "lv": "Przekroczyć",
+    "lv": "przemierzać • przecinać",
     "level": "B2"
   },
   {
     "de": "Durchreise",
     "de_article": "die",
     "de_plural": "die Durchreisen",
-    "lv": "Przejazd",
+    "lv": "przejazd",
     "level": "B2"
   },
   {
     "de": "durchschauen",
-    "lv": "Przejrzeć • Odkryć",
+    "lv": "przejrzeć • rozszyfrować",
     "level": "B2"
   },
   {
     "de": "durchschlagen",
-    "lv": "Odcedzić • Przetrzeć przez sito • Przebić • Zrobić dziurę",
+    "lv": "przecedzić • przebić • przebić się",
     "level": "B2"
   },
   {
     "de": "durchsehen",
-    "lv": "Zbadać • Zbadać • Przejrzeć",
+    "lv": "przeglądać • sprawdzać",
     "level": "B2"
   },
   {
     "de": "durchsetzen",
-    "lv": "Przedostać się • Osiągnąć",
+    "lv": "przeforsować • przeprowadzić",
     "level": "B2"
   },
   {
     "de": "durchstellen",
-    "lv": "Połączyć rozmowę telefoniczną",
+    "lv": "połączyć rozmowę • przełączyć",
     "level": "B2"
   },
   {
     "de": "dürr",
-    "lv": "Suchy • Wysuszony • Zwiędły • Chudy",
+    "lv": "suchy • uschnięty • chudy",
     "level": "B2"
   },
   {
     "de": "Dürre",
     "de_article": "die",
     "de_plural": "die Dürren",
-    "lv": "Suchość",
+    "lv": "susza",
     "level": "B2"
   },
   {
     "de": "dürsten",
-    "lv": "Pragnąć • Być spragnionym • Być spragnionym",
+    "lv": "pragnąć • łaknąć",
     "level": "B2"
   },
   {
     "de": "Düsenantrieb",
     "de_article": "der",
     "de_plural": "die Düsenantriebe",
-    "lv": "Silnik odrzutowy",
+    "lv": "napęd odrzutowy",
     "level": "B2"
   },
   {
     "de": "Ebbe",
     "de_article": "die",
     "de_plural": "die Ebben",
-    "lv": "Odpływ",
+    "lv": "odpływ",
     "level": "B2"
   },
   {
     "de": "ebenbürtig",
-    "lv": "Równowartość",
+    "lv": "równorzędny • dorównujący",
     "level": "B2"
   },
   {
     "de": "Eberesche",
     "de_article": "die",
     "de_plural": "die Ebereschen",
-    "lv": "Mech siarkowy • Jarzębina",
+    "lv": "jarzębina",
     "level": "B2"
   },
   {
     "de": "ebnen",
-    "lv": "Poziom • Gładki",
+    "lv": "wyrównać • wygładzić",
     "level": "B2"
   },
   {
     "de": "Echse",
     "de_article": "die",
     "de_plural": "die Echsen",
-    "lv": "Jaszczurka",
+    "lv": "jaszczurka",
     "level": "B2"
   },
   {
     "de": "edel",
-    "lv": "Szlachetny • Wzniosły • Szlachetny",
+    "lv": "szlachetny • wzniosły",
     "level": "B2"
   },
   {
     "de": "Edelstein",
     "de_article": "der",
     "de_plural": "die Edelsteine",
-    "lv": "Cenny kamień",
+    "lv": "kamień szlachetny",
     "level": "B2"
   },
   {
     "de": "effektvoll",
-    "lv": "Wydajny",
+    "lv": "efektowny",
     "level": "B2"
   },
   {
     "de": "Egge",
     "de_article": "die",
     "de_plural": "die Eggen",
-    "lv": "Brona",
+    "lv": "brona",
     "level": "B2"
   },
   {
     "de": "Eheberatung",
     "de_article": "die",
     "de_plural": "die Eheberatungen",
-    "lv": "Poradnictwo rodzinne",
+    "lv": "poradnictwo małżeńskie",
     "level": "B2"
   },
   {
     "de": "ehelich",
-    "lv": "Małżeństwo-",
+    "lv": "małżeński",
     "level": "B2"
   },
   {
     "de": "Ehescheidung",
     "de_article": "die",
     "de_plural": "die Ehescheidungen",
-    "lv": "Rozwód",
+    "lv": "rozwód",
     "level": "B2"
   },
   {
     "de": "Eheschließung",
     "de_article": "die",
     "de_plural": "die Eheschließungen",
-    "lv": "Małżeństwo • Małżeństwo",
+    "lv": "zawarcie małżeństwa • ślub",
     "level": "B2"
   },
   {
     "de": "ehren",
-    "lv": "Honor • Szacunek • Honor",
+    "lv": "czcić • szanować",
     "level": "B2"
   },
   {
     "de": "Ehrenamt",
     "de_article": "das",
     "de_plural": "die Ehrenämter",
-    "lv": "Stanowisko honorowe",
+    "lv": "funkcja honorowa",
     "level": "B2"
   },
   {
     "de": "ehrenamtlich",
-    "lv": "Bezpłatnie • W wykonywaniu obowiązku honorowego",
+    "lv": "społeczny • honorowy",
     "level": "B2"
   },
   {
     "de": "Ehrenmitglied",
     "de_article": "das",
     "de_plural": "die Ehrenmitglieder",
-    "lv": "Członek honorowy",
+    "lv": "członek honorowy",
     "level": "B2"
   },
   {
     "de": "Ehrenpflicht",
     "de_article": "die",
-    "lv": "Obowiązek honorowy",
+    "lv": "obowiązek honorowy",
     "level": "B2"
   },
   {
     "de": "Ehrenplatz",
     "de_article": "der",
     "de_plural": "die Ehrenplätze",
-    "lv": "Miejsce honorowe",
+    "lv": "miejsce honorowe",
     "level": "B2"
   },
   {
     "de": "Ehrensache",
     "de_article": "die",
     "de_plural": "die Ehrensachen",
-    "lv": "Sprawa honoru",
+    "lv": "sprawa honoru",
     "level": "B2"
   },
   {
     "de": "ehrenvoll",
-    "lv": "Honorowy • Honorowy",
+    "lv": "zaszczytny • honorowy",
     "level": "B2"
   },
   {
     "de": "Ehrenwache",
     "de_article": "die",
     "de_plural": "die Ehrenwachen",
-    "lv": "Straż honorowa",
+    "lv": "warta honorowa",
     "level": "B2"
   },
   {
     "de": "Ehrenwort",
     "de_article": "das",
     "de_plural": "die Ehrenworte",
-    "lv": "Grzecznościowy",
+    "lv": "słowo honoru",
     "level": "B2"
   },
   {
     "de": "ehrgeizig",
-    "lv": "Chciwy",
+    "lv": "ambitny",
     "level": "B2"
   },
   {
     "de": "Ehrung",
     "de_article": "die",
     "de_plural": "die Ehrungen",
-    "lv": "Uhonorowanie • Ceremonia uhonorowania",
+    "lv": "uhonorowanie • uroczystość ku czci",
     "level": "B2"
   },
   {
     "de": "Eichel",
     "de_article": "die",
     "de_plural": "die Eicheln",
-    "lv": "Żołądź",
+    "lv": "żołądź",
     "level": "B2"
   },
   {
     "de": "Eid",
     "de_article": "der",
     "de_plural": "die Eide",
-    "lv": "Przysięga",
+    "lv": "przysięga",
     "level": "B2"
   },
   {
     "de": "Eidechse",
     "de_article": "die",
     "de_plural": "die Eidechsen",
-    "lv": "Jaszczurka",
+    "lv": "jaszczurka",
     "level": "B2"
   },
   {
     "de": "Eidotter",
     "de_article": "der",
     "de_plural": "die Eidotter",
-    "lv": "Żółtko jaja",
+    "lv": "żółtko",
     "level": "B2"
   },
   {
     "de": "Eifer",
     "de_article": "der",
     "de_plural": "die Eifer",
-    "lv": "Pracowitość • Pracowitość • Pasja • Zapał • Zapał",
+    "lv": "zapał • gorliwość",
     "level": "B2"
   },
   {
     "de": "eifrig",
-    "lv": "Pracowity • Pracowity • Pracowity • Chętny",
+    "lv": "gorliwy • pilny",
     "level": "B2"
   },
   {
     "de": "Eigenart",
     "de_article": "die",
     "de_plural": "die Eigenarten",
-    "lv": "Osobliwość • Oryginalność",
+    "lv": "osobliwość • swoistość",
     "level": "B2"
   },
   {
     "de": "eigenhändig",
-    "lv": "Własnej roboty",
+    "lv": "własnoręczny",
     "level": "B2"
   },
   {
     "de": "Eigenliebe",
     "de_article": "die",
-    "lv": "Miłość własna • Egoizm",
+    "lv": "miłość własna • egoizm",
     "level": "B2"
   },
   {
     "de": "eigensinnig",
-    "lv": "Uparty • Uparty",
+    "lv": "uparty",
     "level": "B2"
   },
   {
     "de": "eigentümlich",
-    "lv": "Osobliwy • Charakterystyczny",
+    "lv": "osobliwy • charakterystyczny",
     "level": "B2"
   },
   {
     "de": "eigenwillig",
-    "lv": "Arbitralny • Uparty • Uparty • Apodyktyczny",
-    "level": "B2"
+    "lv": "uparty • samowolny",
+    "level": "B2",
+    "study": {
+      "id": "b2-eigenwillig",
+      "layout": "standardStudy",
+      "translation": "uparty • samowolny",
+      "explanation": [
+        "Główna myśl: eigenwillig to przymiotnik, który opisuje człowieka lub rzecz z własną wolą i stylem: upartego, krnąbrnego, ale często też oryginalnego, swoistego, który nie naśladuje innych.",
+        "O człowieku zwykle oznacza upartego, samowolnego: ein eigenwilliges Kind. O stylu, interpretacji czy guście — oryginalnego, swoistego: ein eigenwilliger Stil, eine eigenwillige Interpretation.",
+        "Słowo jest złożone z eigen (własny) i Wille (wola), dlatego można je rozumieć jako „mający własną wolę”."
+      ],
+      "examples": [
+        {
+          "de": "Sie ist ein eigenwilliges Kind.",
+          "lv": "Jest upartym dzieckiem."
+        },
+        {
+          "de": "Er hat eine eigenwillige Art, Probleme zu lösen.",
+          "lv": "Ma swoisty sposób rozwiązywania problemów."
+        },
+        {
+          "de": "Der Künstler ist für seinen eigenwilligen Stil bekannt.",
+          "lv": "Artysta jest znany ze swojego oryginalnego stylu."
+        },
+        {
+          "de": "Der alte Mann bleibt eigenwillig und lässt sich nichts sagen.",
+          "lv": "Stary człowiek pozostaje uparty i nie daje sobie nic powiedzieć."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "eigensinnig",
+          "meaning": "krnąbrny, uparty",
+          "example": "Das Kind ist eigensinnig. – Dziecko jest krnąbrne."
+        },
+        {
+          "word": "stur",
+          "meaning": "uparty",
+          "example": "Er bleibt stur bei seiner Meinung. – Uparcie trwa przy swoim zdaniu."
+        },
+        {
+          "word": "originell",
+          "meaning": "oryginalny",
+          "example": "Das ist eine originelle Idee. – To oryginalny pomysł."
+        }
+      ],
+      "tip": [
+        "O znaczeniu decyduje kontekst: dziecko, starszy człowiek — raczej uparty; styl, pomysł — oryginalny, swoisty.",
+        "Słowo ma końcówki jak każdy przymiotnik: ein eigenwilliger Mensch."
+      ],
+      "important": [
+        "Choć eigenwillig bywa tłumaczone jako samowolny, nie oznacza willkürlich (arbitralny, bez reguł): mówi o własnej woli i stylu człowieka.",
+        "Słowo może brzmieć zarówno krytycznie, jak i pochlebnie; zależy to od zdania."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "eigenwillig",
+            "eigenwilliges",
+            "eigenwilliger",
+            "eigenwillige"
+          ],
+          "purple": [
+            "upartego",
+            "krnąbrnego",
+            "swoistego"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "eigenwilliges"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "upartym"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "eigenwillige"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "swoisty"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "eigenwilligen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "oryginalnego"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "eigenwillig"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "uparty"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "eigensinnig"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "krnąbrny"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "stur"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "uparty"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "originell"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "oryginalny"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {
+            "blue": [
+              "eigenwilliger"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "eigenwillig"
+            ]
+          },
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "Eilbote",
     "de_article": "der",
     "de_plural": "die Eilboten",
-    "lv": "Posłaniec • Kurier",
+    "lv": "goniec • kurier",
     "level": "B2"
   },
   {
     "de": "Eilbrief",
     "de_article": "der",
     "de_plural": "die Eilbriefe",
-    "lv": "Pilny list",
+    "lv": "list ekspresowy",
     "level": "B2"
   },
   {
     "de": "einäschern",
-    "lv": "Kremacja • Palić w ogniu",
+    "lv": "kremować • spopielić",
     "level": "B2"
   },
   {
     "de": "Einband",
     "de_article": "der",
     "de_plural": "die Einbände",
-    "lv": "Wiążący",
+    "lv": "oprawa",
     "level": "B2"
   },
   {
     "de": "einberufen",
-    "lv": "Wezwać • Do poboru do służby wojskowej",
+    "lv": "zwołać • powołać do wojska",
     "level": "B2"
   },
   {
     "de": "Einbildung",
     "de_article": "die",
     "de_plural": "die Einbildungen",
-    "lv": "Fantazja • Wyobraźnia • Fantazja • Zarozumiałość • Zarozumiałość",
+    "lv": "wyobrażenie • wyobraźnia • zarozumiałość",
     "level": "B2"
   },
   {
     "de": "einbürgern",
-    "lv": "Przyznać obywatelowi prawo • Do wprowadzenia • Do zakorzenienia",
+    "lv": "naturalizować • przyjąć się",
     "level": "B2"
   },
   {
     "de": "einbüßen",
-    "lv": "Ponieść straty materialne",
+    "lv": "stracić • ponieść stratę",
     "level": "B2"
   },
   {
     "de": "eindringen",
-    "lv": "Wcisnąć • Włamać się • Wchłonąć • Zagłębić się",
+    "lv": "wdzierać się • przenikać • wnikać",
     "level": "B2"
   },
   {
     "de": "eindringlich",
-    "lv": "Wytrwały • Przekonujący",
+    "lv": "dobitny • przekonujący",
     "level": "B2"
   },
   {
     "de": "einfältig",
-    "lv": "Zarozumiały • Naiwny",
+    "lv": "naiwny • prostoduszny",
     "level": "B2"
   },
   {
     "de": "einfassen",
-    "lv": "Zawiera • Ramkę • Ramkę",
+    "lv": "obramować • oprawić",
     "level": "B2"
   },
   {
     "de": "einflussreich",
-    "lv": "Wpływowy • Imponujący",
+    "lv": "wpływowy",
     "level": "B2"
   },
   {
     "de": "einförmig",
-    "lv": "Jednolity • Monotonny",
+    "lv": "jednolity • monotonny",
     "level": "B2"
   },
   {
     "de": "einfrieren",
-    "lv": "Zamrozić • Zamrozić • Zatrzymać",
+    "lv": "zamrozić",
     "level": "B2"
   },
   {
     "de": "Einfuhr",
     "de_article": "die",
     "de_plural": "die Einfuhren",
-    "lv": "Wprowadzenie • Import • Sprowadzanie • Importowanie",
+    "lv": "import • przywóz",
     "level": "B2"
   },
   {
     "de": "Einfuhrsperre",
     "de_article": "die",
     "de_plural": "die Einfuhrsperren",
-    "lv": "Blokada importu",
+    "lv": "zakaz importu",
     "level": "B2"
   },
   {
     "de": "Eingabe",
     "de_article": "die",
     "de_plural": "die Eingaben",
-    "lv": "Aplikacja • Wprowadzanie danych do komputera",
+    "lv": "podanie • wprowadzanie danych",
     "level": "B2"
   },
   {
     "de": "eingebildet",
-    "lv": "Zarozumiały • Zarozumiały",
+    "lv": "zarozumiały",
     "level": "B2"
   },
   {
     "de": "Eingebung",
     "de_article": "die",
     "de_plural": "die Eingebungen",
-    "lv": "Inspiracja • Nagły pomysł",
+    "lv": "natchnienie • olśnienie",
     "level": "B2"
   },
   {
     "de": "eingehen",
-    "lv": "Wejdź • Przyjdź • Wejdź • Wejdź • Zmniejsz • Zgódź się • Postaw",
+    "lv": "nadejść • zbiec się • zgodzić się",
     "level": "B2"
   },
   {
     "de": "eingehend",
-    "lv": "Dokładny • Drobny • Przychodzący",
+    "lv": "szczegółowy • gruntowny • przychodzący",
     "level": "B2"
   },
   {
     "de": "Eingemachte",
     "de_article": "das",
     "de_plural": "die Eingemachte",
-    "lv": "Dżem • Konserwy owocowe",
+    "lv": "przetwory • konfitury",
     "level": "B2"
   },
   {
     "de": "eingerechnet",
-    "lv": "Policzone • Zaliczone • Dodane",
+    "lv": "wliczony • łącznie",
     "level": "B2"
   },
   {
     "de": "Eingeständnis",
     "de_article": "das",
     "de_plural": "die Eingeständnisse",
-    "lv": "Wyznanie",
+    "lv": "przyznanie się",
     "level": "B2"
   },
   {
     "de": "eingestehen",
-    "lv": "Przyznać",
+    "lv": "przyznać",
     "level": "B2"
   },
   {
     "de": "Eingeweide",
     "de_article": "die",
-    "lv": "Wnętrzności • Narządy wewnętrzne",
+    "lv": "wnętrzności • trzewia",
     "level": "B2"
   },
   {
     "de": "eingewurzelt",
-    "lv": "Ukorzeniony",
+    "lv": "zakorzeniony",
     "level": "B2"
   },
   {
     "de": "eingleisig",
-    "lv": "Jednoszynowy",
+    "lv": "jednotorowy",
     "level": "B2"
   },
   {
     "de": "eingrenzen",
-    "lv": "Ograniczać • Wyznaczać",
+    "lv": "ograniczyć • zawęzić",
     "level": "B2"
   },
   {
     "de": "Eingriff",
     "de_article": "der",
     "de_plural": "die Eingriffe",
-    "lv": "Interwencja • Operacja",
+    "lv": "ingerencja • zabieg",
     "level": "B2"
   },
   {
     "de": "einhüllen",
-    "lv": "Owinąć • Zwój • Owinąć",
+    "lv": "owinąć • otulić",
     "level": "B2"
   },
   {
     "de": "Einigkeit",
     "de_article": "die",
     "de_plural": "die Einigkeiten",
-    "lv": "Jednostka • Jedność • Konsensus",
+    "lv": "jedność • zgoda",
     "level": "B2"
   },
   {
     "de": "einkassieren",
-    "lv": "Zbierać",
+    "lv": "inkasować • ściągnąć",
     "level": "B2"
   },
   {
     "de": "Einklang",
     "de_article": "der",
     "de_plural": "die Einklänge",
-    "lv": "Porozumienie",
+    "lv": "zgodność • harmonia",
     "level": "B2"
   },
   {
     "de": "einkleiden",
-    "lv": "Ubierz się • Ubierz się",
+    "lv": "ubrać • odziać",
     "level": "B2"
   },
   {
     "de": "sich einlassen",
-    "lv": "Wpuszczać",
+    "lv": "wdawać się • angażować się",
     "level": "B2",
     "study": {
       "id": "b2-sich-einlassen",
-      "layout": "minimalStudy",
-      "translation": "Wpuszczać",
-      "rektion": "auf + ko?",
-      "explanation": "sich einlassen wymaga przyimka określonego auf + ko?.",
-      "forms": "auf + ko?",
-      "formsLabel": "Kierownictwo:",
+      "layout": "standardStudy",
+      "translation": "wdawać się • angażować się",
+      "explanation": [
+        "Główna myśl: sich einlassen to zwrotny czasownik rozdzielnie złożony, który oznacza wdawać się w coś, angażować się w interes lub związek, często ryzykowny. Używa się go z auf + biernik (sich auf etwas einlassen) lub z mit + celownik (sich mit jemandem einlassen).",
+        "Formy: lässt sich ein, ließ sich ein, hat sich eingelassen. Przedrostek ein- się oddziela: Ich lasse mich darauf nicht ein.",
+        "Bez zaimka zwrotnego einlassen oznacza wpuścić: jemanden einlassen (wpuścić kogoś do środka)."
+      ],
+      "examples": [
+        {
+          "de": "Ich lasse mich auf das Risiko nicht ein.",
+          "lv": "Nie podejmuję tego ryzyka."
+        },
+        {
+          "de": "Auf solche Geschäfte sollte man sich nicht einlassen.",
+          "lv": "W takie interesy nie należy się wdawać."
+        },
+        {
+          "de": "Sie hat sich mit dem Falschen eingelassen.",
+          "lv": "Zadała się z niewłaściwym człowiekiem."
+        },
+        {
+          "de": "Er ließ sich auf eine Diskussion ein.",
+          "lv": "Wdał się w dyskusję."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich beteiligen an",
+          "meaning": "uczestniczyć w",
+          "example": "Er beteiligt sich an der Diskussion. – Uczestniczy w dyskusji."
+        },
+        {
+          "word": "sich engagieren",
+          "meaning": "angażować się",
+          "example": "Sie engagiert sich für den Umweltschutz. – Angażuje się w ochronę środowiska."
+        },
+        {
+          "word": "eingehen auf",
+          "meaning": "przystać na, przyjąć",
+          "example": "Er geht auf den Vorschlag ein. – Przystaje na propozycję."
+        }
+      ],
+      "tip": [
+        "Po auf używaj biernika: auf ein Abenteuer, auf einen Kompromiss. Po mit — celownika: mit jemandem.",
+        "Często z przeczeniem: Darauf lasse ich mich nicht ein (Nie wdaję się w to)."
+      ],
+      "important": [
+        "Sich einlassen mit jemandem często brzmi krytycznie, jakby ta znajomość była niepożądana.",
+        "Nie myl z einlassen bez sich: oznacza ono wpuścić."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
+            "einlassen",
+            "lässt",
+            "ließ",
+            "eingelassen",
+            "lasse",
             "sich einlassen"
           ],
-          "red": [
-            "auf + ko?"
+          "purple": [
+            "wdawać się",
+            "wpuścić"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "lasse"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "einlassen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "wdawać"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "eingelassen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Zadała się"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ließ"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Wdał"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich beteiligen an"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "uczestniczyć"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich engagieren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "angażować"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "eingehen auf"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "przystać"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {
+            "blue": [
+              "lasse"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "sich einlassen",
+              "einlassen"
+            ]
+          },
+          {
+            "blue": [
+              "einlassen"
+            ]
+          }
+        ]
       }
     }
   },
   {
     "de": "einleiten",
-    "lv": "Wchodzić",
+    "lv": "wszcząć • zapoczątkować",
     "level": "B2"
   },
   {
     "de": "einleuchten",
-    "lv": "Być zrozumianym • Być jasnym",
+    "lv": "być zrozumiałym • trafiać do przekonania",
     "level": "B2"
   },
   {
     "de": "einliefern",
-    "lv": "Przynieść • Przynieść",
+    "lv": "dostarczyć • przywieźć",
     "level": "B2"
   },
   {
     "de": "einmachen",
-    "lv": "Konserwować • Marynować • Gotować",
+    "lv": "zaprawiać • konserwować",
     "level": "B2"
   },
   {
     "de": "einmütig",
-    "lv": "Jednomyślny",
+    "lv": "jednomyślny",
     "level": "B2"
   },
   {
     "de": "sich einprägen",
-    "lv": "Zapamiętać",
+    "lv": "zapamiętać • wryć się w pamięć",
     "level": "B2",
     "study": {
       "id": "b2-sich-einpraegen",
-      "layout": "minimalStudy",
-      "translation": "Zapamiętać",
-      "rektion": "in + ko?",
-      "explanation": "sich einprägen wymaga przyimka określonego w + ko?.",
-      "forms": "in + ko?",
-      "formsLabel": "Kierownictwo:",
+      "layout": "standardStudy",
+      "translation": "zapamiętać • wryć się w pamięć",
+      "explanation": [
+        "Główna myśl: sich einprägen oznacza zapamiętać, dobrze wryć sobie coś w pamięć. Zwykle używa się go z zaimkiem w celowniku i dopełnieniem w bierniku: Ich präge mir die Nummer ein.",
+        "Formy: prägt sich ein, prägte sich ein, hat sich eingeprägt. Przedrostek ein- się oddziela: Ich präge mir das ein. W czasie Perfekt ge- wchodzi między ein- a czasownik.",
+        "Gdy coś samo wryje się w pamięć, sich stoi w bierniku: Das Bild hat sich mir eingeprägt (ten obraz wrył mi się w pamięć)."
+      ],
+      "examples": [
+        {
+          "de": "Ich präge mir die Telefonnummer ein.",
+          "lv": "Zapamiętuję numer telefonu."
+        },
+        {
+          "de": "Prägt euch diese Regel gut ein!",
+          "lv": "Dobrze zapamiętajcie tę regułę!"
+        },
+        {
+          "de": "Das Bild hat sich mir tief eingeprägt.",
+          "lv": "Ten obraz głęboko wrył mi się w pamięć."
+        },
+        {
+          "de": "Diesen Namen sollte man sich einprägen.",
+          "lv": "To nazwisko warto zapamiętać."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "auswendig lernen",
+          "meaning": "nauczyć się na pamięć",
+          "example": "Wir lernen das Gedicht auswendig. – Uczymy się wiersza na pamięć."
+        },
+        {
+          "word": "sich merken",
+          "meaning": "zapamiętać, zanotować w pamięci",
+          "example": "Merk dir das! – Zapamiętaj to!"
+        },
+        {
+          "word": "behalten",
+          "meaning": "zachować w pamięci",
+          "example": "Ich habe den Namen behalten. – Zapamiętałem to nazwisko."
+        }
+      ],
+      "tip": [
+        "Jeśli chcesz opanować słówka, użyj sich etwas einprägen albo znanego sich merken.",
+        "Zaimek w celowniku następuje po czasowniku: mir, dir, sich, uns, euch."
+      ],
+      "important": [
+        "Gdy człowiek sam zapamiętuje, zaimek stoi w celowniku (mir, dir); gdy coś wryje się w pamięć, sich stoi w bierniku, a osoba — w celowniku (mir).",
+        "W czasie Perfekt jest hat sich eingeprägt (z haben)."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
+            "einprägen",
+            "präge",
+            "prägt",
+            "prägte",
+            "eingeprägt",
             "sich einprägen"
+          ],
+          "purple": [
+            "zapamiętać",
+            "wryć",
+            "wryje się",
+            "wrył"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "präge"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Zapamiętuję"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Prägt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "zapamiętajcie"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "eingeprägt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "wrył"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "einprägen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "zapamiętać"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "auswendig lernen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "na pamięć"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich merken"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "zapamiętać"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "behalten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "zachować"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "einprägen"
+            ],
+            "green": [
+              "sich merken"
+            ]
+          },
+          {}
+        ],
+        "important": [
+          {},
+          {
+            "blue": [
+              "eingeprägt"
+            ]
+          }
+        ]
       }
     }
   },
   {
     "de": "einrechnen",
-    "lv": "Liczyć • Liczyć",
+    "lv": "wliczyć • uwzględnić",
     "level": "B2"
   },
   {
     "de": "einschläfern",
-    "lv": "Uśpić",
+    "lv": "uśpić",
     "level": "B2"
   },
   {
     "de": "sich einschleichen",
-    "lv": "Wkraść się • Wkraść się",
+    "lv": "wkraść się",
     "level": "B2",
     "study": {
       "id": "b2-sich-einschleichen",
-      "layout": "minimalStudy",
-      "translation": "Wkraść się • Wkraść się",
-      "rektion": "in + ko?",
-      "explanation": "sich einschleichen wymaga przyimka określonego w + ko?.",
-      "forms": "in + ko?",
-      "formsLabel": "Kierownictwo:",
+      "layout": "standardStudy",
+      "translation": "wkraść się",
+      "explanation": [
+        "Główna myśl: sich einschleichen znaczy niepostrzeżenie, ukradkiem dostać się do jakiegoś miejsca (wkraść się), a w odniesieniu do błędu, wątpliwości itp. — pojawić się niezauważenie (wkraść się, zakraść się).",
+        "Czasownik rozdzielnie złożony: ich schleiche mich ein, schlich mich ein, habe mich eingeschlichen. Miejsce, do którego ktoś się wkrada, wprowadza in + biernik (in das Haus, ins Haus). W czasie Perfekt używa się hat, ponieważ czasownik jest zwrotny."
+      ],
+      "examples": [
+        {
+          "de": "Der Dieb schleicht sich nachts ins Haus ein.",
+          "lv": "Złodziej nocą wkrada się do domu."
+        },
+        {
+          "de": "Ein Fehler hat sich in den Text eingeschlichen.",
+          "lv": "Do tekstu wkradł się błąd."
+        },
+        {
+          "de": "Er hat sich unbemerkt in den Saal eingeschlichen.",
+          "lv": "Niepostrzeżenie wkradł się do sali."
+        },
+        {
+          "de": "Mit der Zeit schlichen sich Zweifel ein.",
+          "lv": "Z czasem wkradły się wątpliwości."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "schleichen",
+          "meaning": "skradać się",
+          "example": "Die Katze schleicht durch den Garten. – Kot skrada się przez ogród."
+        },
+        {
+          "word": "eindringen",
+          "meaning": "wtargnąć, wedrzeć się",
+          "example": "Der Täter ist in die Wohnung eingedrungen. – Sprawca wtargnął do mieszkania."
+        }
+      ],
+      "tip": [
+        "O błędach i wątpliwościach często mówi się: Ein Fehler hat sich eingeschlichen — wkradł się błąd.",
+        "Pamiętaj o rozdzielaniu: Er schleicht sich ein, ale Er hat sich eingeschlichen."
+      ],
+      "important": [
+        "Nie myl ze schleichen (skradać się, iść cicho): sich einschleichen zawsze oznacza dostanie się gdzieś do środka.",
+        "Po in miejsce stoi w bierniku, jeśli wskazuje kierunek: sich in den Raum einschleichen."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich einschleichen"
+            "sich einschleichen",
+            "schleiche mich ein",
+            "eingeschlichen"
+          ],
+          "purple": [
+            "wkraść się",
+            "zakraść się"
+          ],
+          "green": [
+            "schleiche"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "schleicht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "wkrada"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "eingeschlichen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "wkradł"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "eingeschlichen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "wkradł"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "schlichen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "wkradły"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "schleichen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "skradać się"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "eindringen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "wtargnąć"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "eingeschlichen"
+            ]
+          },
+          {
+            "blue": [
+              "schleicht",
+              "eingeschlichen"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "sich einschleichen"
+            ],
+            "green": [
+              "schleichen"
+            ]
+          },
+          {}
+        ]
       }
     }
   },
@@ -3637,30 +8364,193 @@ const B2_WORDS = [
     "de": "Einschnitt",
     "de_article": "der",
     "de_plural": "die Einschnitte",
-    "lv": "Nacięcie • Cięcie • Obrót • Nacięcie",
+    "lv": "nacięcie • cięcie • przełom",
     "level": "B2"
   },
   {
     "de": "sich einschränken",
-    "lv": "Ogranicz się",
+    "lv": "ograniczać się",
     "level": "B2",
     "study": {
       "id": "b2-sich-einschraenken",
-      "layout": "minimalStudy",
-      "translation": "Ogranicz się",
-      "rektion": "auf + ko?",
-      "explanation": "sich einschränken wymaga przyimka określonego auf + ko?.",
-      "forms": "auf + ko?",
-      "formsLabel": "Kierownictwo:",
+      "layout": "standardStudy",
+      "translation": "ograniczać się",
+      "explanation": [
+        "Główna myśl: sich einschränken znaczy ograniczać się — wydawać, jeść lub żyć skromniej niż zwykle albo poprzestawać na czymś konkretnym.",
+        "Formy: ich schränke mich ein, schränkte mich ein, habe mich eingeschränkt. Z auf + biernik wskazuje się, do czego ogranicza się dana osoba: sich auf das Nötigste einschränken. Bez dopełnienia często znaczy oszczędzać, ograniczać wydatki.",
+        "Bez sich czasownik einschränken jest przechodni: etwas einschränken — ograniczać coś (ruch drogowy, prawa)."
+      ],
+      "examples": [
+        {
+          "de": "Wir müssen uns finanziell einschränken.",
+          "lv": "Musimy ograniczyć się finansowo."
+        },
+        {
+          "de": "Er schränkt sich auf das Nötigste ein.",
+          "lv": "Ogranicza się do tego, co najpotrzebniejsze."
+        },
+        {
+          "de": "Nach der Entlassung musste sich die Familie stark einschränken.",
+          "lv": "Po zwolnieniu z pracy rodzina musiała się bardzo ograniczać."
+        },
+        {
+          "de": "Sie schränkt sich beim Essen ein, um abzunehmen.",
+          "lv": "Ogranicza się w jedzeniu, żeby schudnąć."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "einschränken",
+          "meaning": "ograniczać",
+          "example": "Die Stadt schränkt den Verkehr ein. – Miasto ogranicza ruch."
+        },
+        {
+          "word": "verzichten",
+          "meaning": "rezygnować",
+          "example": "Er verzichtet auf Zucker. – On rezygnuje z cukru."
+        },
+        {
+          "word": "sparen",
+          "meaning": "oszczędzać",
+          "example": "Wir sparen Strom. – Oszczędzamy prąd."
+        }
+      ],
+      "tip": [
+        "Jeśli chcesz powiedzieć, że zaczynasz oszczędzać, użyj sich einschränken bez dopełnienia.",
+        "Z auf + biernik nazywasz to, do czego się ograniczasz."
+      ],
+      "important": [
+        "Przedrostek ein- jest rozdzielny: Ich schränke mich ein, a nie Ich einschränke mich.",
+        "Nie myl zwrotnego sich einschränken z przechodnim einschränken (ograniczać coś)."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
+            "einschränken",
+            "schränke",
+            "eingeschränkt",
+            "ein",
             "sich einschränken"
           ],
-          "red": [
-            "auf + ko?"
+          "purple": [
+            "ograniczać się",
+            "ogranicza się",
+            "ograniczać"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "einschränken"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ograniczyć się"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "schränkt",
+                "ein"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Ogranicza się"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "einschränken"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ograniczać"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "schränkt",
+                "ein"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Ogranicza się"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "einschränken"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ograniczać"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "verzichten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "rezygnować"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sparen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "oszczędzać"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "sich einschränken",
+              "einschränken"
+            ]
+          },
+          {}
+        ],
+        "important": [
+          {
+            "blue": [
+              "schränke",
+              "ein"
+            ]
+          },
+          {
+            "blue": [
+              "sich einschränken",
+              "einschränken"
+            ]
+          }
+        ]
       }
     }
   },
@@ -3668,252 +8558,581 @@ const B2_WORDS = [
     "de": "Einschreiben",
     "de_article": "das",
     "de_plural": "die Einschreiben",
-    "lv": "List polecony lub paczka",
+    "lv": "list polecony • przesyłka polecona",
     "level": "B2"
   },
   {
     "de": "einschulen",
-    "lv": "Zapisać dziecko do szkoły",
+    "lv": "zapisać do szkoły",
     "level": "B2"
   },
   {
     "de": "einsichtig",
-    "lv": "Rozsądny • Rozsądny",
+    "lv": "rozsądny • wyrozumiały",
     "level": "B2"
   },
   {
     "de": "einspeichern",
-    "lv": "Wprowadź dane • Zapisz",
+    "lv": "zapisać • wprowadzić do pamięci",
     "level": "B2"
   },
   {
     "de": "Einspruch",
     "de_article": "der",
     "de_plural": "die Einsprüche",
-    "lv": "Sprzeciw • Sprzeciw • Protest",
+    "lv": "sprzeciw • zastrzeżenie",
     "level": "B2"
   },
   {
     "de": "Einstandsgeld",
     "de_article": "das",
     "de_plural": "die Einstandsgelder",
-    "lv": "Opłata za wstęp",
+    "lv": "wpisowe",
     "level": "B2"
   },
   {
     "de": "einstimmig",
-    "lv": "Jednomyślność • Jednomyślność",
+    "lv": "jednogłośny • jednomyślny",
     "level": "B2"
   },
   {
     "de": "einströmen",
-    "lv": "Napłynąć",
+    "lv": "napływać • wpływać",
     "level": "B2"
   },
   {
     "de": "eintauchen",
-    "lv": "Zanurzać • Zanurzać • Zanurzać • Zanurzać",
+    "lv": "zanurzyć • zanurzyć się",
     "level": "B2"
   },
   {
     "de": "eintönig",
-    "lv": "Monotonny • Monotonny • Monotonny",
+    "lv": "monotonny • jednostajny",
     "level": "B2"
   },
   {
     "de": "Eintracht",
     "de_article": "die",
-    "lv": "Konsensus • Zgoda • Harmonia • Zgodność",
+    "lv": "zgoda • jedność",
     "level": "B2"
   },
   {
     "de": "einträglich",
-    "lv": "Opłacalny • Opłacalny",
+    "lv": "dochodowy • opłacalny",
     "level": "B2"
   },
   {
     "de": "einüben",
-    "lv": "Nauczyć się • Występować na scenie",
+    "lv": "przećwiczyć • wyćwiczyć",
     "level": "B2"
   },
   {
     "de": "Einwand",
     "de_article": "der",
     "de_plural": "die Einwände",
-    "lv": "Sprzeciw",
+    "lv": "zarzut • sprzeciw",
     "level": "B2"
   },
   {
     "de": "einwandfrei",
-    "lv": "Bez zarzutu",
+    "lv": "nienaganny • bez zarzutu",
     "level": "B2"
   },
   {
     "de": "einweichen",
-    "lv": "Zanurzać",
+    "lv": "namoczyć",
     "level": "B2"
   },
   {
     "de": "einweihen",
-    "lv": "Uroczyście ujawnić • Zwierzyć się z tajemnicy",
+    "lv": "uroczyście otworzyć • wtajemniczyć",
     "level": "B2"
   },
   {
     "de": "einwenden",
-    "lv": "Sprzeciwić się • Zgłosić sprzeciw",
+    "lv": "oponować • zgłaszać zastrzeżenia",
     "level": "B2"
   },
   {
     "de": "einwilligen",
-    "lv": "Zgodzić się • Czuć się swobodnie",
+    "lv": "zgodzić się • przystać",
     "level": "B2"
   },
   {
     "de": "Eisblume",
     "de_article": "die",
     "de_plural": "die Eisblumen",
-    "lv": "Lodowy kwiat",
+    "lv": "kwiat lodowy",
     "level": "B2"
   },
   {
     "de": "Eisbrecher",
     "de_article": "der",
     "de_plural": "die Eisbrecher",
-    "lv": "Łamacz lodów",
+    "lv": "lodołamacz",
     "level": "B2"
   },
   {
     "de": "Eisenbeton",
     "de_article": "der",
-    "lv": "Żelbet",
+    "lv": "żelbet",
     "level": "B2"
   },
   {
     "de": "Eisenerz",
     "de_article": "das",
     "de_plural": "die Eisenerze",
-    "lv": "Ruda żelaza",
+    "lv": "ruda żelaza",
     "level": "B2"
   },
   {
     "de": "Eisengießerei",
     "de_article": "die",
     "de_plural": "die Eisengießereien",
-    "lv": "Odlewnia żeliwa",
+    "lv": "odlewnia żeliwa",
     "level": "B2"
   },
   {
     "de": "eisfrei",
-    "lv": "Bez lodu • Bez lodu",
+    "lv": "wolny od lodu • niezamarzający",
     "level": "B2"
   },
   {
     "de": "Eisgang",
     "de_article": "der",
     "de_plural": "die Eisgänge",
-    "lv": "Chodzenie po lodzie",
+    "lv": "spływ kry",
     "level": "B2"
   },
   {
     "de": "Eisschnelllauf",
     "de_article": "der",
     "de_plural": "die Eisschnellläufe",
-    "lv": "Łyżwiarstwo szybkie",
+    "lv": "łyżwiarstwo szybkie",
     "level": "B2"
   },
   {
     "de": "Eissegeln",
     "de_article": "das",
-    "lv": "Żeglowanie jachtami lodowymi",
+    "lv": "żeglarstwo lodowe",
     "level": "B2"
   },
   {
     "de": "eitel",
-    "lv": "Zarozumiały • Zarozumiały • Zarozumiały • Płytki • Pusty • Ostentacyjny",
+    "lv": "próżny • zarozumiały • pusty",
     "level": "B2"
   },
   {
     "de": "Ekel",
     "de_article": "der",
-    "lv": "Wstręt • Wstręt",
+    "lv": "wstręt • obrzydzenie",
     "level": "B2"
   },
   {
     "de": "Elfenbein",
     "de_article": "das",
     "de_plural": "die Elfenbeine",
-    "lv": "Kość słoniowa",
+    "lv": "kość słoniowa",
     "level": "B2"
   },
   {
     "de": "Elster",
     "de_article": "die",
     "de_plural": "die Elstern",
-    "lv": "Czkawka",
+    "lv": "sroka",
     "level": "B2"
   },
   {
     "de": "Empfangschef",
     "de_article": "der",
     "de_plural": "die Empfangschefs",
-    "lv": "Administrator hotelu",
+    "lv": "kierownik recepcji",
     "level": "B2"
   },
   {
     "de": "sich empfehlen",
-    "lv": "Być zalecane",
+    "lv": "być wskazanym • być zalecanym",
     "level": "B2",
     "study": {
       "id": "b2-sich-empfehlen",
-      "layout": "minimalStudy",
-      "translation": "Być zalecane",
-      "rektion": "zu + kam?",
-      "explanation": "sich empfehlen wymaga przyimka określonego zu + kam?.",
-      "forms": "zu + kam?",
-      "formsLabel": "Kierownictwo:",
+      "layout": "standardStudy",
+      "translation": "być wskazanym • być zalecanym",
+      "explanation": [
+        "Główna myśl: sich empfehlen w tym znaczeniu występuje prawie wyłącznie w 3. osobie z es lub z rzeczownikiem: es empfiehlt sich, … — wskazane, zalecane jest coś zrobić.",
+        "Formy: empfiehlt sich, empfahl sich, hat sich empfohlen (e zmienia się w ie). Po nim często następuje zu + Infinitiv lub zdanie z dass: Es empfiehlt sich, früh zu buchen.",
+        "W innym, formalnym znaczeniu sich empfehlen to także pożegnać się: Er empfahl sich früh."
+      ],
+      "examples": [
+        {
+          "de": "Es empfiehlt sich, früh zu buchen.",
+          "lv": "Zaleca się wcześnie rezerwować."
+        },
+        {
+          "de": "Bei Regen empfiehlt sich eine Jacke.",
+          "lv": "W czasie deszczu zalecana jest kurtka."
+        },
+        {
+          "de": "Es empfiehlt sich, die Datei vorher zu speichern.",
+          "lv": "Zaleca się wcześniej zapisać plik."
+        },
+        {
+          "de": "Vor der Reise empfiehlt sich eine Impfung.",
+          "lv": "Przed podróżą zalecane jest szczepienie."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "empfehlen",
+          "meaning": "polecać",
+          "example": "Ich empfehle dir dieses Restaurant. – Polecam ci tę restaurację."
+        },
+        {
+          "word": "ratsam",
+          "meaning": "wskazany, zalecany",
+          "example": "Es ist ratsam, einen Schirm mitzunehmen. – Wskazane jest zabranie parasola."
+        },
+        {
+          "word": "sich verabschieden",
+          "meaning": "żegnać się",
+          "example": "Wir verabschieden uns jetzt. – Teraz się żegnamy."
+        }
+      ],
+      "tip": [
+        "Schemat zdania: Es empfiehlt sich + zu + Infinitiv — wygodny, gdy nie chcesz wymieniać, kto coś zaleca.",
+        "Synonim o prostszej budowie: Es ist ratsam."
+      ],
+      "important": [
+        "To znaczenie prawie zawsze występuje w 3. osobie (empfiehlt sich); formy z ich czy du tu nie pasują.",
+        "Nie myl z empfehlen (polecać coś komuś): Ich empfehle dir das Buch."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich empfehlen"
+            "sich empfehlen",
+            "empfiehlt sich",
+            "empfahl",
+            "empfohlen",
+            "zu",
+            "empfiehlt",
+            "sich"
           ],
-          "red": [
-            "zu + kam?"
+          "purple": [
+            "zalecane"
+          ],
+          "green": [
+            "empfehlen"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "empfiehlt",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Zaleca się"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "empfiehlt",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "zalecana"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "empfiehlt",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Zaleca się"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "empfiehlt",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "zalecane"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "empfehlen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "polecać"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "ratsam"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "wskazany"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich verabschieden"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "żegnać się"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "empfiehlt sich",
+              "zu",
+              "empfiehlt",
+              "sich"
+            ]
+          },
+          {
+            "green": [
+              "ratsam"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "empfiehlt sich",
+              "empfiehlt",
+              "sich"
+            ]
+          },
+          {
+            "green": [
+              "empfehlen",
+              "empfehle"
+            ]
+          }
+        ]
       }
     }
   },
   {
     "de": "empor",
-    "lv": "W górę • W górę",
+    "lv": "w górę • ku górze",
     "level": "B2"
   },
   {
     "de": "empören",
-    "lv": "Wywołać oburzenie",
+    "lv": "oburzać",
     "level": "B2"
   },
   {
     "de": "sich empören",
-    "lv": "Złościć się • Buntować się",
+    "lv": "oburzać się • buntować się",
     "level": "B2",
     "study": {
       "id": "b2-sich-empoeren",
-      "layout": "minimalStudy",
-      "translation": "Złościć się • Buntować się",
-      "rektion": "über + ko?",
-      "explanation": "sich empören wymaga przyimka określonego über + ko?.",
-      "forms": "über + ko?",
-      "formsLabel": "Kierownictwo:",
+      "layout": "standardStudy",
+      "translation": "oburzać się • buntować się",
+      "explanation": [
+        "Główna myśl: sich empören znaczy mocno się oburzać, gniewnie reagować na niesprawiedliwość lub wykroczenie. Rzadziej i bardziej książkowo — buntować się przeciw władzy (sich gegen jemanden empören).",
+        "Formy: empört sich, empörte sich, hat sich empört. To, czym ktoś jest oburzony, wprowadza über + biernik: sich über die Lüge empören. Sprzeciw wobec kogoś wyraża się przez gegen + biernik.",
+        "Forma pochodna empört znaczy oburzony: Sie war empört."
+      ],
+      "examples": [
+        {
+          "de": "Alle empörten sich über die Entscheidung.",
+          "lv": "Wszyscy oburzyli się na tę decyzję."
+        },
+        {
+          "de": "Sie hat sich über seine Lüge empört.",
+          "lv": "Oburzyła się na jego kłamstwo."
+        },
+        {
+          "de": "Das Volk empörte sich gegen den Herrscher.",
+          "lv": "Lud zbuntował się przeciw władcy."
+        },
+        {
+          "de": "Ich empöre mich über so viel Ungerechtigkeit.",
+          "lv": "Oburzam się na tak wielką niesprawiedliwość."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich aufregen",
+          "meaning": "denerwować się",
+          "example": "Er regt sich über den Lärm auf. – Denerwuje się z powodu hałasu."
+        },
+        {
+          "word": "sich ärgern",
+          "meaning": "złościć się",
+          "example": "Ich ärgere mich über den Stau. – Złoszczę się z powodu korka."
+        },
+        {
+          "word": "empört",
+          "meaning": "oburzony",
+          "example": "Sie war empört. – Była oburzona."
+        }
+      ],
+      "tip": [
+        "Zapamiętaj połączenie sich über etwas empören (+ biernik).",
+        "sich empören jest mocniejsze niż sich ärgern: wyraża oburzenie moralne."
+      ],
+      "important": [
+        "Po über następuje biernik: über die Lüge, a nie über der Lüge.",
+        "W znaczeniu buntu używa się gegen: sich gegen die Regierung empören."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
+            "empören",
+            "empört",
+            "empörte",
             "sich empören"
           ],
-          "red": [
-            "über + ko?"
+          "purple": [
+            "oburzony"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "empörten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "oburzyli"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "empört"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Oburzyła"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "empörte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "zbuntował"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "empöre"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich aufregen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "denerwować się"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich ärgern"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "złościć się"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "empört"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "oburzony"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "empören"
+            ]
+          },
+          {
+            "blue": [
+              "sich empören",
+              "empören"
+            ],
+            "green": [
+              "sich ärgern"
+            ]
+          }
+        ],
+        "important": [
+          {},
+          {
+            "blue": [
+              "empören"
+            ]
+          }
+        ]
       }
     }
   },
@@ -3921,218 +9140,888 @@ const B2_WORDS = [
     "de": "Empörung",
     "de_article": "die",
     "de_plural": "die Empörungen",
-    "lv": "Oburzenie • Bunt • Bunt",
+    "lv": "oburzenie • bunt",
     "level": "B2"
   },
   {
     "de": "emsig",
-    "lv": "Pracowity • Żywy • Aktywny",
+    "lv": "pracowity • skrzętny",
     "level": "B2"
   },
   {
     "de": "entbehren",
-    "lv": "Obejść się bez • Znieść • Brak",
+    "lv": "obywać się bez • odczuwać brak",
     "level": "B2"
   },
   {
     "de": "entbinden",
-    "lv": "Uwolnić • Uwolnić • Urodzić",
+    "lv": "zwolnić • urodzić",
     "level": "B2"
   },
   {
     "de": "Entbindung",
     "de_article": "die",
     "de_plural": "die Entbindungen",
-    "lv": "Uwolnienie • Wybawienie • Narodziny",
+    "lv": "zwolnienie • poród",
     "level": "B2"
   },
   {
     "de": "entehren",
-    "lv": "Okraść honor • Hańbę",
+    "lv": "zhańbić • okryć hańbą",
     "level": "B2"
   },
   {
     "de": "enteignen",
-    "lv": "Wywłaszczyć • Wywłaszczyć",
+    "lv": "wywłaszczyć",
     "level": "B2"
   },
   {
     "de": "enterben",
-    "lv": "Wydziedziczyć",
+    "lv": "wydziedziczyć",
     "level": "B2"
   },
   {
     "de": "entfallen",
-    "lv": "Wypadnąć • Zapomnieć",
+    "lv": "odpaść • wypaść z pamięci",
     "level": "B2"
   },
   {
     "de": "entfalten",
-    "lv": "Odprężyć się • Rozwinąć • Rozwinąć • Rozwinąć",
+    "lv": "rozwinąć • rozłożyć",
     "level": "B2"
   },
   {
     "de": "sich entfalten",
-    "lv": "Otworzyć • Rozwikłać • Rozwinąć • Rozwinąć",
+    "lv": "rozwinąć się • otworzyć się",
     "level": "B2"
   },
   {
     "de": "entflammen",
-    "lv": "Rozpalać • Rozpalać • Ekscytować • Zapalać",
+    "lv": "rozpalić • zapalić się",
     "level": "B2"
   },
   {
     "de": "entführen",
-    "lv": "Zabrać • Porwać",
+    "lv": "uprowadzić • porwać",
     "level": "B2"
   },
   {
     "de": "entgegnen",
-    "lv": "Odpowiedzieć",
+    "lv": "odpowiedzieć • odrzec",
     "level": "B2"
   },
   {
     "de": "entgleisen",
-    "lv": "Wykoleić",
+    "lv": "wykoleić się",
     "level": "B2"
   },
   {
     "de": "sich enthalten",
-    "lv": "Powstrzymać się od",
+    "lv": "powstrzymać się",
     "level": "B2",
     "study": {
       "id": "b2-sich-enthalten",
-      "layout": "minimalStudy",
-      "translation": "Powstrzymać się od",
-      "rektion": "von + kam?",
-      "explanation": "sich enthalten wymaga przyimka określonego von + kam?.",
-      "forms": "von + kam?",
-      "formsLabel": "Kierownictwo:",
+      "layout": "standardStudy",
+      "translation": "powstrzymać się",
+      "explanation": [
+        "Główna myśl: sich enthalten znaczy świadomie powstrzymać się od czegoś — nie robić czegoś, nie używać, nie głosować. Jest to język formalny, książkowy.",
+        "Po nim następuje dopełniacz: sich der Stimme enthalten (wstrzymać się od głosu), sich jeden Kommentars enthalten. Formy: enthält sich, enthielt sich, hat sich enthalten.",
+        "Bez sich czasownik enthalten znaczy zawierać: Das Getränk enthält Zucker."
+      ],
+      "examples": [
+        {
+          "de": "Bei der Abstimmung enthielten sich zwei Abgeordnete der Stimme.",
+          "lv": "Podczas głosowania dwóch posłów wstrzymało się od głosu."
+        },
+        {
+          "de": "Ich enthalte mich jedes Kommentars.",
+          "lv": "Powstrzymuję się od wszelkich komentarzy."
+        },
+        {
+          "de": "Sie hat sich des Alkohols enthalten.",
+          "lv": "Powstrzymała się od alkoholu."
+        },
+        {
+          "de": "Er konnte sich kaum des Lachens enthalten.",
+          "lv": "Ledwo mógł powstrzymać się od śmiechu."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "enthalten",
+          "meaning": "zawierać",
+          "example": "Das Getränk enthält Zucker. – Napój zawiera cukier."
+        },
+        {
+          "word": "verzichten",
+          "meaning": "rezygnować",
+          "example": "Er verzichtet auf Fleisch. – On rezygnuje z mięsa."
+        },
+        {
+          "word": "sich zurückhalten",
+          "meaning": "zachowywać powściągliwość",
+          "example": "Er hält sich bei Diskussionen zurück. – W dyskusjach zachowuje powściągliwość."
+        }
+      ],
+      "tip": [
+        "Zapamiętaj zwrot sich der Stimme enthalten — to typowe wyrażenie związane z głosowaniem.",
+        "Na co dzień często mówi się prościej: Ich verzichte auf …"
+      ],
+      "important": [
+        "Po sich enthalten następuje dopełniacz, a nie przyimek: sich des Alkohols enthalten.",
+        "Nie myl z enthalten bez sich — znaczy ono zawierać."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich enthalten"
+            "sich enthalten",
+            "enthalten",
+            "enthält",
+            "sich",
+            "Stimme"
           ],
-          "red": [
-            "von + kam?"
+          "purple": [
+            "powstrzymać się",
+            "zawierać"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "enthielten",
+                "sich",
+                "Stimme"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "wstrzymało się"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "enthalte",
+                "mich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Powstrzymuję się"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sich",
+                "enthalten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Powstrzymała się"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sich",
+                "enthalten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "powstrzymać się"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "enthalten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "zawierać"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "verzichten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "rezygnować"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich zurückhalten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "powściągliwość"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "enthalten",
+              "sich",
+              "Stimme"
+            ]
+          },
+          {}
+        ],
+        "important": [
+          {
+            "blue": [
+              "sich enthalten",
+              "enthalten",
+              "sich"
+            ]
+          },
+          {
+            "blue": [
+              "enthalten",
+              "sich"
+            ]
+          }
+        ]
       }
     }
   },
   {
     "de": "enthüllen",
-    "lv": "Ujawnić • Odkryć",
+    "lv": "odsłonić • ujawnić",
     "level": "B2"
   },
   {
     "de": "entkorken",
-    "lv": "Odkorkować",
+    "lv": "odkorkować",
     "level": "B2"
   },
   {
     "de": "entkräften",
-    "lv": "Osłabić • Osłabić • Obalić • Obalić",
+    "lv": "osłabić • obalić",
     "level": "B2"
   },
   {
     "de": "entladen",
-    "lv": "Rozładować • Rozładować",
+    "lv": "rozładować",
     "level": "B2"
   },
   {
     "de": "entlarven",
-    "lv": "Odsłonić",
+    "lv": "zdemaskować",
     "level": "B2"
   },
   {
     "de": "sich entledigen",
-    "lv": "Pozbyć się • Pozbyć się",
+    "lv": "pozbyć się",
     "level": "B2",
     "study": {
       "id": "b2-sich-entledigen",
-      "layout": "minimalStudy",
-      "translation": "Pozbyć się • Pozbyć się",
-      "rektion": "+ forma dzierżawcza",
-      "explanation": "sich entledigen jest używane we współczesnym języku niemieckim w formie dzierżawczej bez przyimka.",
-      "forms": "+ forma dzierżawcza",
-      "formsLabel": "Kierownictwo:",
+      "layout": "standardStudy",
+      "translation": "pozbyć się",
+      "explanation": [
+        "Główna myśl: sich entledigen znaczy pozbyć się czegoś niepożądanego — ubrania, długów, obowiązku, broni. Słowo jest formalne i książkowe.",
+        "Po nim następuje dopełniacz: sich seines Mantels entledigen. Formy: entledigt sich, entledigte sich, hat sich entledigt. W języku codziennym częściej używa się etwas loswerden.",
+        "Po polsku: pozbyć się, uwolnić się od czegoś; o ubraniu — zdjąć."
+      ],
+      "examples": [
+        {
+          "de": "Er entledigte sich seines nassen Mantels.",
+          "lv": "Zdjął swój mokry płaszcz."
+        },
+        {
+          "de": "Die Firma hat sich ihrer Schulden entledigt.",
+          "lv": "Firma pozbyła się swoich długów."
+        },
+        {
+          "de": "Sie wollte sich der lästigen Pflicht entledigen.",
+          "lv": "Chciała uwolnić się od uciążliwego obowiązku."
+        },
+        {
+          "de": "Die Täter entledigten sich der Waffe.",
+          "lv": "Sprawcy pozbyli się broni."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "loswerden",
+          "meaning": "pozbyć się",
+          "example": "Ich werde die Erkältung nicht los. – Nie mogę pozbyć się przeziębienia."
+        },
+        {
+          "word": "sich befreien",
+          "meaning": "uwolnić się",
+          "example": "Er befreit sich von den Fesseln. – Uwalnia się z kajdan."
+        },
+        {
+          "word": "wegwerfen",
+          "meaning": "wyrzucać",
+          "example": "Ich werfe alte Zeitungen weg. – Wyrzucam stare gazety."
+        }
+      ],
+      "tip": [
+        "Na co dzień mów etwas loswerden; sich entledigen zostaw dla stylu urzędowego lub literackiego.",
+        "Pamiętaj o dopełniaczu: sich der Sorgen entledigen."
+      ],
+      "important": [
+        "Po sich entledigen nie ma przyimka — tylko dopełniacz.",
+        "Słowo jest formalne; w mowie potocznej brzmi zbyt podniośle."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich entledigen"
+            "sich entledigen",
+            "entledigte",
+            "entledigt",
+            "entledigen",
+            "sich"
+          ],
+          "purple": [
+            "pozbyć się",
+            "uwolnić się"
+          ],
+          "green": [
+            "loswerden"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "entledigte",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Zdjął"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sich",
+                "entledigt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pozbyła się"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sich",
+                "entledigen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "uwolnić się"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "entledigten",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pozbyli się"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "loswerden"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "pozbyć"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich befreien"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "uwolnić się"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "wegwerfen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "wyrzucać"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "sich entledigen",
+              "entledigen",
+              "sich"
+            ],
+            "green": [
+              "loswerden"
+            ]
+          },
+          {
+            "blue": [
+              "entledigen",
+              "sich"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "sich entledigen",
+              "entledigen",
+              "sich"
+            ]
+          },
+          {}
+        ]
       }
     }
   },
   {
     "de": "entlegen",
-    "lv": "Zdalny • Zdalny • Odległy",
+    "lv": "odległy • ustronny",
     "level": "B2"
   },
   {
     "de": "entmutigen",
-    "lv": "Odebrać odwagę",
+    "lv": "zniechęcić",
     "level": "B2"
   },
   {
     "de": "entnehmen",
-    "lv": "Weź • Weź • Wyjmij • Zakończ",
+    "lv": "pobrać • wyjąć • wywnioskować",
     "level": "B2"
   },
   {
     "de": "sich entrüsten",
-    "lv": "Złościć się • Buntować się",
+    "lv": "oburzyć się",
     "level": "B2",
     "study": {
       "id": "b2-sich-entruesten",
-      "layout": "minimalStudy",
-      "translation": "Złościć się • Buntować się",
-      "rektion": "über + ko?",
-      "explanation": "sich entrüsten wymaga przyimka określonego über + ko?.",
-      "forms": "über + ko?",
-      "formsLabel": "Kierownictwo:",
+      "layout": "standardStudy",
+      "translation": "oburzyć się",
+      "explanation": [
+        "Główna myśl: sich entrüsten znaczy oburzyć się, wyrazić silne oburzenie z powodu czyjegoś postępowania lub słów. Jest to oburzenie moralne, emocjonalne.",
+        "Przyczynę oburzenia wprowadza über + biernik: sich über die Frechheit entrüsten. Formy: entrüstet sich, entrüstete sich, hat sich entrüstet. Przymiotnik entrüstet znaczy oburzony.",
+        "Słowo jest bliskie sich empören, ale na co dzień jest rzadsze i bardziej literackie."
+      ],
+      "examples": [
+        {
+          "de": "Die Zuschauer entrüsteten sich über den Schiedsrichter.",
+          "lv": "Widzowie oburzyli się na sędziego."
+        },
+        {
+          "de": "Sie entrüstete sich über die Frechheit.",
+          "lv": "Oburzyła się na tę bezczelność."
+        },
+        {
+          "de": "Warum entrüstest du dich so?",
+          "lv": "Dlaczego tak się oburzasz?"
+        },
+        {
+          "de": "Viele haben sich über den Bericht entrüstet.",
+          "lv": "Wiele osób oburzyło się na ten raport."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich empören",
+          "meaning": "oburzać się",
+          "example": "Wir empören uns über die Ungerechtigkeit. – Oburzamy się na niesprawiedliwość."
+        },
+        {
+          "word": "sich aufregen",
+          "meaning": "denerwować się",
+          "example": "Reg dich nicht auf! – Nie denerwuj się!"
+        },
+        {
+          "word": "entrüstet",
+          "meaning": "oburzony",
+          "example": "Er sah mich entrüstet an. – Spojrzał na mnie oburzony."
+        }
+      ],
+      "tip": [
+        "Zapamiętaj cały zwrot: sich über etwas entrüsten (+ biernik).",
+        "Przymiotnika entrüstet często używa się z sein lub z czasownikami: entrüstet reagieren."
+      ],
+      "important": [
+        "Po über następuje biernik.",
+        "Na co dzień częściej usłyszysz sich aufregen lub sich ärgern."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich entrüsten"
+            "sich entrüsten",
+            "entrüstete sich",
+            "entrüstete",
+            "entrüstet"
           ],
-          "red": [
-            "über + ko?"
+          "purple": [
+            "oburzyć się",
+            "oburzenie"
+          ],
+          "green": [
+            "sich empören"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "entrüsteten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "oburzyli"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "entrüstete"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Oburzyła"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "entrüstest"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "oburzasz"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "entrüstet"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "oburzyło"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich empören"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "oburzać się"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich aufregen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "denerwować się"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "entrüstet"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "oburzony"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {
+            "blue": [
+              "entrüstet"
+            ]
+          }
+        ],
+        "important": [
+          {},
+          {
+            "green": [
+              "sich aufregen"
+            ]
+          }
+        ]
       }
     }
   },
   {
     "de": "entsagen",
-    "lv": "Poddaj się • Poddaj się",
+    "lv": "wyrzec się • zrezygnować",
     "level": "B2"
   },
   {
     "de": "entseuchen",
-    "lv": "Dezynfekować",
+    "lv": "dezynfekować • odkazić",
     "level": "B2"
   },
   {
     "de": "sich entsinnen",
-    "lv": "Pamiętać • Pamiętać",
+    "lv": "przypominać sobie • pamiętać",
     "level": "B2",
     "study": {
       "id": "b2-sich-entsinnen",
-      "layout": "minimalStudy",
-      "translation": "Pamiętać • Pamiętać",
-      "rektion": "+ forma dzierżawcza",
-      "explanation": "sich entsinnen jest używane we współczesnym języku niemieckim w formie dzierżawczej bez przyimka, na przykład: Ich entsinne mich eines Fehlers.",
-      "forms": "+ forma dzierżawcza",
-      "formsLabel": "Kierownictwo:",
+      "layout": "standardStudy",
+      "translation": "przypominać sobie • pamiętać",
+      "explanation": [
+        "Główna myśl: sich entsinnen znaczy pamiętać, przypominać sobie coś z przeszłości. Słowo jest książkowe i nieco staroświeckie.",
+        "Zwykle następuje po nim dopełniacz (sich seiner entsinnen, sich der Worte entsinnen), obecnie także an + biernik. Częsty zwrot: Soviel ich mich entsinne, … — o ile pamiętam. Formy: entsinnt sich, entsann sich, hat sich entsonnen."
+      ],
+      "examples": [
+        {
+          "de": "Ich entsinne mich seiner gut.",
+          "lv": "Dobrze go pamiętam."
+        },
+        {
+          "de": "Kannst du dich an den Namen entsinnen?",
+          "lv": "Czy możesz sobie przypomnieć to imię?"
+        },
+        {
+          "de": "Sie entsann sich der Worte ihrer Mutter.",
+          "lv": "Przypomniała sobie słowa matki."
+        },
+        {
+          "de": "Soviel ich mich entsinne, war es ein Montag.",
+          "lv": "O ile pamiętam, był to poniedziałek."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich erinnern",
+          "meaning": "pamiętać, przypominać sobie",
+          "example": "Ich erinnere mich an den Urlaub. – Pamiętam ten urlop."
+        },
+        {
+          "word": "gedenken",
+          "meaning": "upamiętniać, czcić pamięć",
+          "example": "Wir gedenken der Opfer. – Czcimy pamięć ofiar."
+        },
+        {
+          "word": "vergessen",
+          "meaning": "zapomnieć",
+          "example": "Ich habe seinen Namen vergessen. – Zapomniałem jego nazwiska."
+        }
+      ],
+      "tip": [
+        "W języku codziennym używa się sich erinnern an + biernik; sich entsinnen zostaje dla tekstów pisanych i wyższego stylu.",
+        "Gotowy zwrot: Soviel ich mich entsinne."
+      ],
+      "important": [
+        "Formy są nietypowe: entsann, hat sich entsonnen.",
+        "Nie myl sich entsinnen (przypominać sobie) z gedenken (upamiętniać, czcić pamięć)."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
+            "entsinnen",
+            "entsinne",
+            "entsann",
+            "entsonnen",
             "sich entsinnen"
+          ],
+          "purple": [
+            "przypominać sobie",
+            "pamiętam",
+            "pamiętać"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "entsinne"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pamiętam"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "entsinnen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "przypomnieć"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "entsann"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Przypomniała"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "entsinne"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pamiętam"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich erinnern"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "pamiętać"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "gedenken"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "upamiętniać"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "vergessen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "zapomnieć"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "sich entsinnen",
+              "entsinnen"
+            ],
+            "green": [
+              "sich erinnern"
+            ]
+          },
+          {
+            "blue": [
+              "entsinne"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "entsann",
+              "entsonnen"
+            ]
+          },
+          {
+            "blue": [
+              "sich entsinnen",
+              "entsinnen"
+            ],
+            "green": [
+              "gedenken"
+            ]
+          }
+        ]
       }
     }
   },
@@ -4140,128 +10029,283 @@ const B2_WORDS = [
     "de": "Entspannung",
     "de_article": "die",
     "de_plural": "die Entspannungen",
-    "lv": "Relaks • Relaks • Redukcja napięcia",
+    "lv": "odprężenie • relaks",
     "level": "B2"
   },
   {
     "de": "entstellen",
-    "lv": "Zniekształcać • Zwariować • Zniekształcać",
+    "lv": "zniekształcić • oszpecić",
     "level": "B2"
   },
   {
     "de": "entweichen",
-    "lv": "Odsunąć się • Uciec • Wycofać się • Emanować",
+    "lv": "ulatniać się • uciec",
     "level": "B2"
   },
   {
     "de": "entwerfen",
-    "lv": "Odlew • Zarys",
+    "lv": "zaprojektować • naszkicować",
     "level": "B2"
   },
   {
     "de": "Entwerter",
     "de_article": "der",
     "de_plural": "die Entwerter",
-    "lv": "Kompostownik",
+    "lv": "kasownik",
     "level": "B2"
   },
   {
     "de": "Entwertung",
     "de_article": "die",
     "de_plural": "die Entwertungen",
-    "lv": "Obniżenie wartości • Dewaluacja",
+    "lv": "obniżenie wartości • dewaluacja",
     "level": "B2"
   },
   {
     "de": "Entwurf",
     "de_article": "der",
     "de_plural": "die Entwürfe",
-    "lv": "Szkic • Szkic • Projekt",
+    "lv": "szkic • projekt",
     "level": "B2"
   },
   {
     "de": "entwurzeln",
-    "lv": "Wykorzenić • Wytępić • Całkowicie wykorzenić",
+    "lv": "wykorzenić • wyrwać z korzeniami",
     "level": "B2"
   },
   {
     "de": "entziehen",
-    "lv": "Zabrać • Wynieść • Unikać • Wyrwać się • Uciec",
+    "lv": "odebrać • pozbawić • uchylać się",
     "level": "B2"
   },
   {
     "de": "entziffern",
-    "lv": "Odszyfrować",
+    "lv": "odszyfrować • rozszyfrować",
     "level": "B2"
   },
   {
     "de": "entzückend",
-    "lv": "Cudownie • Zachwycająco • Czarująco",
+    "lv": "zachwycający • uroczy",
     "level": "B2"
   },
   {
     "de": "entzückt",
-    "lv": "Podekscytowany",
+    "lv": "zachwycony",
     "level": "B2"
   },
   {
     "de": "entzünden",
-    "lv": "Zapalić • Zapalić • Zapalić",
+    "lv": "zapalić • rozpalić",
     "level": "B2"
   },
   {
     "de": "sich entzünden",
-    "lv": "Zapalić się • Zapalić się • Rozpalić się",
+    "lv": "zapalić się • zaognić się",
     "level": "B2"
   },
   {
     "de": "Entzündung",
     "de_article": "die",
     "de_plural": "die Entzündungen",
-    "lv": "Zapłon • Zapłon • Zapalenie",
+    "lv": "zapłon • zapalenie",
     "level": "B2"
   },
   {
     "de": "Epidemie",
     "de_article": "die",
     "de_plural": "die Epidemien",
-    "lv": "Epidemia",
+    "lv": "epidemia",
     "level": "B2"
   },
   {
     "de": "Epoche",
     "de_article": "die",
     "de_plural": "die Epochen",
-    "lv": "Era",
+    "lv": "epoka",
     "level": "B2"
   },
   {
     "de": "Erachten",
     "de_article": "das",
-    "lv": "Myśli • Wgląd",
+    "lv": "zdanie • mniemanie",
     "level": "B2"
   },
   {
     "de": "sich erbarmen",
-    "lv": "Mieć miłosierdzie • Mieć miłosierdzie",
+    "lv": "zlitować się",
     "level": "B2",
     "study": {
       "id": "b2-sich-erbarmen",
-      "layout": "minimalStudy",
-      "translation": "Mieć miłosierdzie • Mieć miłosierdzie",
-      "rektion": "über + ko?",
-      "explanation": "sich erbarmen wymaga przyimka określonego über + ko?.",
-      "forms": "über + ko?",
-      "formsLabel": "Kierownictwo:",
+      "layout": "standardStudy",
+      "translation": "zlitować się",
+      "explanation": [
+        "Główna myśl: sich erbarmen znaczy odczuć współczucie dla cierpiącego i pomóc mu lub zlitować się nad nim. Jest to język podniosły, często religijny lub ironiczny.",
+        "Zwykle następuje po nim dopełniacz: sich des Hundes erbarmen. Rzadziej używa się über + biernik. Formy: erbarmt sich, erbarmte sich, hat sich erbarmt.",
+        "Żartobliwie w mowie potocznej: Wer erbarmt sich und …? — Kto się zlituje i …?"
+      ],
+      "examples": [
+        {
+          "de": "Der Richter erbarmte sich des Angeklagten.",
+          "lv": "Sędzia zlitował się nad oskarżonym."
+        },
+        {
+          "de": "Erbarme dich meiner!",
+          "lv": "Zmiłuj się nade mną!"
+        },
+        {
+          "de": "Endlich erbarmte sich jemand des hungrigen Hundes.",
+          "lv": "W końcu ktoś zlitował się nad głodnym psem."
+        },
+        {
+          "de": "Wer erbarmt sich und holt mir einen Kaffee?",
+          "lv": "Kto się zlituje i przyniesie mi kawę?"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "begnadigen",
+          "meaning": "ułaskawić",
+          "example": "Der Präsident begnadigt den Häftling. – Prezydent ułaskawia więźnia."
+        },
+        {
+          "word": "Mitleid haben",
+          "meaning": "współczuć",
+          "example": "Ich habe Mitleid mit ihr. – Żal mi jej."
+        },
+        {
+          "word": "helfen",
+          "meaning": "pomagać",
+          "example": "Er hilft dem Nachbarn. – Pomaga sąsiadowi."
+        }
+      ],
+      "tip": [
+        "Po sich erbarmen stawiaj dopełniacz: sich der Kinder erbarmen.",
+        "Typowa prośba: Herr, erbarme dich!"
+      ],
+      "important": [
+        "Słowo jest stylistycznie podniosłe; na co dzień mówi się Mitleid haben lub helfen.",
+        "Nie myl z begnadigen (ułaskawić w sensie prawnym, np. skazanego)."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich erbarmen"
+            "sich erbarmen",
+            "erbarmt",
+            "erbarmte"
           ],
-          "red": [
-            "über + ko?"
+          "purple": [
+            "zlitować się"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "erbarmte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "zlitował"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Erbarme"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Zmiłuj"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "erbarmte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "zlitował"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "erbarmt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "zlituje"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "begnadigen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ułaskawić"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "Mitleid haben"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "współczuć"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "helfen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "pomagać"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "sich erbarmen"
+            ]
+          },
+          {}
+        ],
+        "important": [
+          {
+            "green": [
+              "Mitleid haben",
+              "helfen"
+            ]
+          },
+          {
+            "green": [
+              "begnadigen"
+            ]
+          }
+        ]
       }
     }
   },
@@ -4269,217 +10313,544 @@ const B2_WORDS = [
     "de": "Erbauer",
     "de_article": "der",
     "de_plural": "die Erbauer",
-    "lv": "Złodziej",
+    "lv": "budowniczy",
     "level": "B2"
   },
   {
     "de": "Erbanspruch",
     "de_article": "der",
     "de_plural": "die Erbansprüche",
-    "lv": "Prawa do dziedziczenia",
+    "lv": "roszczenie spadkowe • prawo do spadku",
     "level": "B2"
   },
   {
     "de": "erbrechen",
-    "lv": "Włamać się • Włamać się",
+    "lv": "wymiotować",
     "level": "B2"
   },
   {
     "de": "Erdgas",
     "de_article": "das",
     "de_plural": "die Erdgase",
-    "lv": "Gaz ziemny",
+    "lv": "gaz ziemny",
     "level": "B2"
   },
   {
     "de": "erdrücken",
-    "lv": "Tłumić • Tłumić",
+    "lv": "zgnieść • przytłoczyć",
     "level": "B2"
   },
   {
     "de": "Erdrutsch",
     "de_article": "der",
     "de_plural": "die Erdrutsche",
-    "lv": "Osuwisko",
+    "lv": "osuwisko",
     "level": "B2"
   },
   {
     "de": "Erdsatellit",
     "de_article": "der",
     "de_plural": "die Erdsatelliten",
-    "lv": "Sztuczny satelita Ziemi",
+    "lv": "sztuczny satelita Ziemi",
     "level": "B2"
   },
   {
     "de": "Erdtrabant",
     "de_article": "der",
     "de_plural": "die Erdtrabanten",
-    "lv": "Ziemski towarzysz",
+    "lv": "satelita Ziemi • Księżyc",
     "level": "B2"
   },
   {
     "de": "erfassen",
-    "lv": "Zrozumieć • Zrozumieć",
+    "lv": "pojąć • uchwycić",
     "level": "B2"
   },
   {
     "de": "erforschen",
-    "lv": "Odkrywać • Dowiedzieć się",
+    "lv": "zbadać • zgłębić",
     "level": "B2"
   },
   {
     "de": "Erfrierung",
     "de_article": "die",
     "de_plural": "die Erfrierungen",
-    "lv": "Odmrożenie",
+    "lv": "odmrożenie",
     "level": "B2"
   },
   {
     "de": "sich ergeben",
-    "lv": "Skutkować • Poddaniem się",
+    "lv": "wynikać • poddać się",
     "level": "B2",
     "study": {
       "id": "b2-sich-ergeben",
-      "layout": "minimalStudy",
-      "translation": "Skutkować • Poddaniem się",
-      "rektion": "aus + kam?",
-      "explanation": "sich ergeben wymaga przyimka określonego aus + kam?.",
-      "forms": "aus + kam?",
-      "formsLabel": "Kierownictwo:",
+      "layout": "standardStudy",
+      "translation": "wynikać • poddać się",
+      "explanation": [
+        "Główna myśl: sich ergeben ma dwa znaczenia. Z aus + celownik znaczy wynikać, powstawać jako skutek: Aus dem Test ergibt sich ein Problem. Z celownikiem bez przyimka znaczy poddać się, podporządkować się: sich dem Feind ergeben.",
+        "Formy: ergibt sich, ergab sich, hat sich ergeben. W znaczeniu „wynikać” podmiotem jest zwykle rzecz (es, ein Problem, eine Chance), dlatego czasownik stoi w 3. osobie.",
+        "W znaczeniu „poddać się” podmiotem jest człowiek: sich ergeben, sich in sein Schicksal ergeben (pogodzić się z losem)."
+      ],
+      "examples": [
+        {
+          "de": "Aus dem Gespräch ergab sich ein neues Projekt.",
+          "lv": "Z rozmowy wyniknął nowy projekt."
+        },
+        {
+          "de": "Daraus ergibt sich ein Problem.",
+          "lv": "Z tego wynika problem."
+        },
+        {
+          "de": "Die Soldaten ergaben sich dem Feind.",
+          "lv": "Żołnierze poddali się wrogowi."
+        },
+        {
+          "de": "Er hat sich in sein Schicksal ergeben.",
+          "lv": "Pogodził się ze swoim losem."
+        },
+        {
+          "de": "Ergib dich!",
+          "lv": "Poddaj się!"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "ergeben",
+          "meaning": "dawać wynik",
+          "example": "Die Rechnung ergibt 50 Euro. – Rachunek wynosi 50 euro."
+        },
+        {
+          "word": "folgen",
+          "meaning": "wynikać, następować",
+          "example": "Daraus folgt nichts. – Z tego nic nie wynika."
+        },
+        {
+          "word": "aufgeben",
+          "meaning": "poddawać się, rezygnować",
+          "example": "Er gibt nicht auf. – On się nie poddaje."
+        }
+      ],
+      "tip": [
+        "Dla znaczenia „wynikać” zapamiętaj Daraus ergibt sich, dass … — z tego wynika, że …",
+        "Gdy chodzi o podporządkowanie się, często następuje celownik: sich dem Willen ergeben."
+      ],
+      "important": [
+        "Nie myl z ergeben bez sich: znaczy ono dawać wynik (Das ergibt Sinn).",
+        "O znaczeniu zwykle decyduje podmiot: rzecz — wynika, człowiek — poddaje się."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
+            "ergeben",
+            "ergibt",
+            "ergab",
             "sich ergeben"
           ],
-          "red": [
-            "aus + kam?"
+          "purple": [
+            "wynikać",
+            "poddać się",
+            "pogodzić się"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "ergab"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "wyniknął"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ergibt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "wynika"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ergaben"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "poddali"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ergeben"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Pogodził"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Ergib"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Poddaj"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "ergeben"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "dawać"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "folgen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "wynikać"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "aufgeben"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "rezygnować"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "ergibt"
+            ]
+          },
+          {
+            "blue": [
+              "ergeben"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "ergeben",
+              "ergibt"
+            ]
+          },
+          {}
+        ]
       }
     }
   },
   {
     "de": "ergiebig",
-    "lv": "Owocny • Dochodowy • Bogaty • Obfity • Płodny",
+    "lv": "wydajny • obfity • owocny",
     "level": "B2"
   },
   {
     "de": "ergrauen",
-    "lv": "Zmienić kolor na szary",
+    "lv": "posiwieć",
     "level": "B2"
   },
   {
     "de": "erhaben",
-    "lv": "Płaskorzeźba • Wypukła • Wielka • Wielka • Wzniosła • Wzniosła • Doskonała",
+    "lv": "wypukły • wzniosły",
     "level": "B2"
   },
   {
     "de": "erheben",
-    "lv": "Podnosić • Podnosić • Podnosić • Protestować",
+    "lv": "podnieść • wnieść",
     "level": "B2"
   },
   {
     "de": "sich erheben",
-    "lv": "Powstań • Powstań • Powstań",
+    "lv": "wstać • podnieść się • powstać",
     "level": "B2"
   },
   {
     "de": "erheblich",
-    "lv": "Godne uwagi • Ważne",
+    "lv": "znaczny • istotny",
     "level": "B2"
   },
   {
     "de": "erkämpfen",
-    "lv": "Wygrać",
+    "lv": "wywalczyć",
     "level": "B2"
   },
   {
     "de": "Erkenntnis",
     "de_article": "die",
     "de_plural": "die Erkenntnisse",
-    "lv": "Poznanie • Zrozumienie",
+    "lv": "poznanie • spostrzeżenie",
     "level": "B2"
   },
   {
     "de": "erlangen",
-    "lv": "Dotrzeć • Osiągnąć • Uzyskać • Uzyskać",
+    "lv": "osiągnąć • uzyskać",
     "level": "B2"
   },
   {
     "de": "Erlass",
     "de_article": "der",
     "de_plural": "die Erlasse",
-    "lv": "Nakaz • Nakaz • Dekret • Zwolnienie",
+    "lv": "rozporządzenie • dekret • umorzenie",
     "level": "B2"
   },
   {
     "de": "erlassen",
-    "lv": "Wydanie • Wydanie • Wydanie",
+    "lv": "wydać • zwolnić • umorzyć",
     "level": "B2"
   },
   {
     "de": "erläutern",
-    "lv": "Wyjaśnić • Wyjaśnić",
+    "lv": "objaśnić • wyjaśnić",
     "level": "B2"
   },
   {
     "de": "Erle",
     "de_article": "die",
     "de_plural": "die Erlen",
-    "lv": "Olcha",
+    "lv": "olcha",
     "level": "B2"
   },
   {
     "de": "erleiden",
-    "lv": "Cierpieć • Znosić • Znosić • Zostać pokonanym",
+    "lv": "ponieść • doznać • ucierpieć",
     "level": "B2"
   },
   {
     "de": "erlöschen",
-    "lv": "Wygasnąć • Wygasnąć • Przestać obowiązywać • Wygasnąć",
+    "lv": "zgasnąć • wygasnąć",
     "level": "B2"
   },
   {
     "de": "ermächtigen",
-    "lv": "Autoryzować",
+    "lv": "upoważnić • upełnomocnić",
     "level": "B2"
   },
   {
     "de": "ermäßigen",
-    "lv": "Obniżyć",
+    "lv": "obniżyć",
     "level": "B2"
   },
   {
     "de": "ermitteln",
-    "lv": "Dowiedzieć się • Dowiedzieć się",
+    "lv": "ustalić • wykryć",
     "level": "B2"
   },
   {
     "de": "erniedrigen",
-    "lv": "Obniżyć • Upokorzyć",
+    "lv": "obniżyć • poniżyć",
     "level": "B2"
   },
   {
     "de": "sich erniedrigen",
-    "lv": "Poniż się",
+    "lv": "poniżać się",
     "level": "B2",
     "study": {
       "id": "b2-sich-erniedrigen",
-      "layout": "minimalStudy",
-      "translation": "Poniż się",
-      "rektion": "vor + kam?",
-      "explanation": "sich erniedrigen wymaga przyimka określonego vor + kam?.",
-      "forms": "vor + kam?",
-      "formsLabel": "Kierownictwo:",
+      "layout": "standardStudy",
+      "translation": "poniżać się",
+      "explanation": [
+        "Główna myśl: sich erniedrigen znaczy poniżać samego siebie, postępować tak, że traci się godność — na przykład żebrać albo płaszczyć się przed kimś.",
+        "Osobę, przed którą ktoś się poniża, wprowadza vor + celownik: sich vor dem Chef erniedrigen. Formy: erniedrigt sich, erniedrigte sich, hat sich erniedrigt.",
+        "Bez sich czasownik erniedrigen znaczy poniżać kogoś innego: Er erniedrigt seine Kollegen."
+      ],
+      "examples": [
+        {
+          "de": "Ich erniedrige mich nicht vor dem Chef.",
+          "lv": "Nie będę się poniżać przed szefem."
+        },
+        {
+          "de": "Er hat sich erniedrigt, um Geld zu bitten.",
+          "lv": "Poniżył się do proszenia o pieniądze."
+        },
+        {
+          "de": "Sie erniedrigte sich nie vor anderen.",
+          "lv": "Nigdy nie poniżała się przed innymi."
+        },
+        {
+          "de": "So tief würde ich mich nicht erniedrigen.",
+          "lv": "Tak nisko bym się nie poniżył."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "demütigen",
+          "meaning": "upokarzać",
+          "example": "Er demütigt seinen Gegner vor allen. – Upokarza swojego przeciwnika na oczach wszystkich."
+        },
+        {
+          "word": "sich unterwerfen",
+          "meaning": "podporządkować się",
+          "example": "Er unterwirft sich dem Willen des Königs. – Podporządkowuje się woli króla."
+        },
+        {
+          "word": "sich blamieren",
+          "meaning": "skompromitować się",
+          "example": "Er hat sich vor allen blamiert. – Skompromitował się przed wszystkimi."
+        }
+      ],
+      "tip": [
+        "Z vor + celownik nazywasz osobę, przed którą ktoś się poniża.",
+        "Rozróżniaj: sich erniedrigen — poniżać samego siebie; jemanden erniedrigen — poniżać kogoś innego."
+      ],
+      "important": [
+        "Po vor następuje celownik: vor dem Chef, vor anderen.",
+        "Strona bierna erniedrigt werden znaczy być poniżanym."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
+            "erniedrigen",
+            "erniedrigt",
+            "erniedrigte",
             "sich erniedrigen"
           ],
-          "red": [
-            "vor + kam?"
+          "purple": [
+            "poniżać",
+            "poniża"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "erniedrige"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "poniżać"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "erniedrigt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Poniżył"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "erniedrigte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "poniżała"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "erniedrigen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "poniżył"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "demütigen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "upokarzać"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich unterwerfen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "podporządkować się"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich blamieren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "skompromitować"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {
+            "blue": [
+              "sich erniedrigen",
+              "erniedrigen"
+            ]
+          }
+        ],
+        "important": [
+          {},
+          {
+            "blue": [
+              "erniedrigt"
+            ]
+          }
+        ]
       }
     }
   },
@@ -4487,52 +10858,208 @@ const B2_WORDS = [
     "de": "Ernteertrag",
     "de_article": "der",
     "de_plural": "die Ernteerträge",
-    "lv": "Przyciąć",
+    "lv": "plon • zbiory",
     "level": "B2"
   },
   {
     "de": "Eröffnung",
     "de_article": "die",
     "de_plural": "die Eröffnungen",
-    "lv": "Otwarcie • Odkrycie • Pocztówka • Ogłoszenie • Odkrycie",
+    "lv": "otwarcie • ujawnienie",
     "level": "B2"
   },
   {
     "de": "erörtern",
-    "lv": "Dyskutować • Dyskutować",
+    "lv": "omawiać • roztrząsać",
     "level": "B2"
   },
   {
     "de": "erpressen",
-    "lv": "Szantażować",
+    "lv": "szantażować",
     "level": "B2"
   },
   {
     "de": "erregen",
-    "lv": "Ekscytować • Ekscytować • Powodować • Powodować • Obudzić",
+    "lv": "wzburzyć • wywołać • wzbudzić",
     "level": "B2"
   },
   {
     "de": "sich erregen",
-    "lv": "Martwić się",
+    "lv": "denerwować się • ekscytować się",
     "level": "B2",
     "study": {
       "id": "b2-sich-erregen",
-      "layout": "minimalStudy",
-      "translation": "Martwić się",
-      "rektion": "über + ko?",
-      "explanation": "sich erregen wymaga przyimka określonego über + co?.",
-      "forms": "über + ko?",
-      "formsLabel": "Kierownictwo:",
+      "layout": "standardStudy",
+      "translation": "denerwować się • ekscytować się",
+      "explanation": [
+        "Główna myśl: sich erregen znaczy denerwować się, irytować się z powodu czegoś — reagować emocjonalnie, często ze złością. To, czym ktoś się denerwuje, wprowadza über + biernik: sich über die Kosten erregen.",
+        "Formy: erregt sich, erregte sich, hat sich erregt. Na co dzień w tym znaczeniu częściej mówi się sich aufregen; sich erregen jest bardziej książkowe.",
+        "Bez sich czasownik erregen znaczy wywoływać, wzbudzać: Aufmerksamkeit erregen — przyciągać uwagę."
+      ],
+      "examples": [
+        {
+          "de": "Er erregt sich über jede Kleinigkeit.",
+          "lv": "Denerwuje się każdym drobiazgiem."
+        },
+        {
+          "de": "Warum erregst du dich so über die Nachricht?",
+          "lv": "Dlaczego tak się denerwujesz tą wiadomością?"
+        },
+        {
+          "de": "Sie erregte sich über die ungerechte Note.",
+          "lv": "Denerwowała się niesprawiedliwą oceną."
+        },
+        {
+          "de": "Das Publikum hat sich über den Skandal erregt.",
+          "lv": "Publiczność oburzyła się z powodu skandalu."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich aufregen",
+          "meaning": "denerwować się",
+          "example": "Er regt sich über den Lärm auf. – Denerwuje się z powodu hałasu."
+        },
+        {
+          "word": "erregen",
+          "meaning": "wywoływać",
+          "example": "Das Bild erregt Aufsehen. – Obraz wywołuje sensację."
+        },
+        {
+          "word": "sich beruhigen",
+          "meaning": "uspokoić się",
+          "example": "Beruhige dich! – Uspokój się!"
+        }
+      ],
+      "tip": [
+        "Na co dzień mów Reg dich nicht auf!, ale w tekstach pisanych możesz wybrać sich erregen.",
+        "Przyczynę zwykle wskazuje się przez über + biernik."
+      ],
+      "important": [
+        "Nie myl z erregen (wywoływać, pobudzać) bez sich.",
+        "Po über następuje biernik: über die Nachricht."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
+            "erregen",
+            "erregt",
+            "erregte",
             "sich erregen"
           ],
-          "red": [
-            "über"
+          "purple": [
+            "denerwować się",
+            "denerwuje"
+          ],
+          "green": [
+            "sich aufregen"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "erregt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Denerwuje"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "erregst"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "denerwujesz"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "erregte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Denerwowała"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "erregt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "oburzyła"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich aufregen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "denerwować się"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "erregen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "wywoływać"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich beruhigen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "uspokoić się"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "sich erregen",
+              "erregen"
+            ]
+          },
+          {}
+        ],
+        "important": [
+          {
+            "blue": [
+              "erregen"
+            ]
+          },
+          {}
+        ]
       }
     }
   },
@@ -4540,141 +11067,308 @@ const B2_WORDS = [
     "de": "Erreger",
     "de_article": "der",
     "de_plural": "die Erreger",
-    "lv": "Czynnik chorobotwórczy • Wirus",
+    "lv": "zarazek • czynnik chorobotwórczy",
     "level": "B2"
   },
   {
     "de": "erringen",
-    "lv": "Wygrać",
+    "lv": "wywalczyć • zdobyć",
     "level": "B2"
   },
   {
     "de": "erröten",
-    "lv": "Rumienić się",
+    "lv": "zarumienić się • zaczerwienić się",
     "level": "B2"
   },
   {
     "de": "Erscheinung",
     "de_article": "die",
     "de_plural": "die Erscheinungen",
-    "lv": "Zjawisko • Wygląd • Wygląd • Wygląd",
+    "lv": "zjawisko • pojawienie się • wygląd",
     "level": "B2"
   },
   {
     "de": "erschießen",
-    "lv": "Strzelać",
+    "lv": "zastrzelić",
     "level": "B2"
   },
   {
     "de": "erschlagen",
-    "lv": "Strącać",
+    "lv": "zatłuc • zabić",
     "level": "B2"
   },
   {
     "de": "erschöpfen",
-    "lv": "Wyczerpać • Męczyć",
+    "lv": "wyczerpać",
     "level": "B2"
   },
   {
     "de": "erschüttern",
-    "lv": "Wstrząsnąć • Zaszokować • Podważyć",
+    "lv": "wstrząsnąć • zachwiać",
     "level": "B2"
   },
   {
     "de": "erschweren",
-    "lv": "Utrudniać • Utrudniać",
+    "lv": "utrudnić",
     "level": "B2"
   },
   {
     "de": "ersehen",
-    "lv": "Widzieć • Rozeznać",
+    "lv": "wywnioskować • wyczytać",
     "level": "B2"
   },
   {
     "de": "ersparen",
-    "lv": "Oszczędzać • Oszczędzać • Oszczędzać • Oszczędzać",
+    "lv": "zaoszczędzić • oszczędzić",
     "level": "B2"
   },
   {
     "de": "Ersparnis",
     "de_article": "die",
     "de_plural": "die Ersparnisse",
-    "lv": "Oszczędności • Oszczędności",
+    "lv": "oszczędności",
     "level": "B2"
   },
   {
     "de": "erstarren",
-    "lv": "Zamarznąć",
+    "lv": "zastygnąć • zesztywnieć",
     "level": "B2"
   },
   {
     "de": "ersticken",
-    "lv": "Dusić • Dusić • Dusić • Gnębić • Gnębić • Dusić • Dusić",
+    "lv": "udusić • stłumić • udusić się",
     "level": "B2"
   },
   {
     "de": "sich erstrecken",
-    "lv": "Rozłożyć • Rozciągnąć • Rozciągnąć",
+    "lv": "rozciągać się • sięgać",
     "level": "B2"
   },
   {
     "de": "ertappen",
-    "lv": "Złapać",
+    "lv": "przyłapać",
     "level": "B2"
   },
   {
     "de": "ertönen",
-    "lv": "Rozbrzmiewać • Rozbrzmiewać",
+    "lv": "rozbrzmieć • zabrzmieć",
     "level": "B2"
   },
   {
     "de": "ertragen",
-    "lv": "Tolerować • Znosić",
+    "lv": "znosić • wytrzymywać",
     "level": "B2"
   },
   {
     "de": "erträglich",
-    "lv": "Tolerowany • Tolerowany",
+    "lv": "znośny",
     "level": "B2"
   },
   {
     "de": "erwägen",
-    "lv": "Rozważyć",
+    "lv": "rozważać • rozważyć",
     "level": "B2"
   },
   {
     "de": "Erwägung",
     "de_article": "die",
     "de_plural": "die Erwägungen",
-    "lv": "Rozważenie • Rozważenie",
+    "lv": "rozważanie • namysł",
     "level": "B2"
   },
   {
     "de": "erweisen",
-    "lv": "Pokaż • Pokaż • Zrób",
+    "lv": "okazać • wyświadczyć",
     "level": "B2"
   },
   {
     "de": "sich erweisen",
-    "lv": "Okazać się",
+    "lv": "okazać się",
     "level": "B2",
     "study": {
       "id": "b2-sich-erweisen",
-      "layout": "minimalStudy",
-      "translation": "Okazać się",
-      "rektion": "als + kas?",
-      "explanation": "sich erweisen wymaga przyimka określonego als + what?.",
-      "forms": "als + kas?",
-      "formsLabel": "Kierownictwo:",
+      "layout": "standardStudy",
+      "translation": "okazać się",
+      "explanation": [
+        "Główna myśl: sich erweisen als znaczy okazać się kimś lub czymś — z czasem wychodzi na jaw, jaki ktoś lub coś jest naprawdę. Po als wyraz stoi w tym samym przypadku co podmiot, zwykle w mianowniku: Das erwies sich als Fehler.",
+        "Formy: erweist sich, erwies sich, hat sich erwiesen. Często używa się go w 3. osobie z rzeczą, ale także z osobą: Er erwies sich als zuverlässig.",
+        "Konstrukcja jest bliska sich herausstellen als; sich erweisen jest nieco bardziej formalne."
+      ],
+      "examples": [
+        {
+          "de": "Das Medikament erwies sich als sehr wirksam.",
+          "lv": "Lek okazał się bardzo skuteczny."
+        },
+        {
+          "de": "Er hat sich als zuverlässiger Partner erwiesen.",
+          "lv": "Okazał się niezawodnym partnerem."
+        },
+        {
+          "de": "Die Information erwies sich als falsch.",
+          "lv": "Informacja okazała się fałszywa."
+        },
+        {
+          "de": "Der Plan wird sich als Erfolg erweisen.",
+          "lv": "Plan okaże się sukcesem."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich herausstellen",
+          "meaning": "okazać się",
+          "example": "Es stellte sich heraus, dass er recht hatte. – Okazało się, że miał rację."
+        },
+        {
+          "word": "scheinen",
+          "meaning": "wydawać się",
+          "example": "Das scheint richtig zu sein. – To wydaje się poprawne."
+        },
+        {
+          "word": "beweisen",
+          "meaning": "udowadniać, dowodzić",
+          "example": "Er beweist seinen Mut. – Dowodzi swojej odwagi."
+        }
+      ],
+      "tip": [
+        "Korzystaj ze schematu sich als + przymiotnik / rzeczownik erweisen.",
+        "Po als nie ma rodzajnika, jeśli występuje sam przymiotnik: als wirksam."
+      ],
+      "important": [
+        "Rzeczownik po als stoi zwykle w tym samym przypadku co podmiot: Er erwies sich als guter Freund.",
+        "Nie myl z erweisen bez sich (okazywać, wyświadczać): einen Dienst erweisen."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich erweisen"
+            "sich erweisen",
+            "erwies",
+            "erweist",
+            "erwiesen",
+            "erweisen",
+            "sich"
           ],
-          "red": [
-            "als"
+          "purple": [
+            "okazać się"
+          ],
+          "green": [
+            "sich herausstellen"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "erwies",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "okazał się"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sich",
+                "erwiesen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Okazał się"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "erwies",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "okazała się"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sich",
+                "erweisen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "okaże się"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich herausstellen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "okazać się"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "scheinen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "wydawać się"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "beweisen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "udowadniać"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "erweisen",
+              "sich"
+            ]
+          },
+          {}
+        ],
+        "important": [
+          {
+            "blue": [
+              "erwies",
+              "sich"
+            ]
+          },
+          {
+            "blue": [
+              "erweisen",
+              "sich"
+            ]
+          }
+        ]
       }
     }
   },
@@ -4682,305 +11376,466 @@ const B2_WORDS = [
     "de": "Erwerb",
     "de_article": "der",
     "de_plural": "die Erwerbe",
-    "lv": "Zarobki • Zysk • Zysk",
+    "lv": "nabycie • zarobek",
     "level": "B2"
   },
   {
     "de": "erwerben",
-    "lv": "Zarabiaj • Zdobywaj • Zdobywaj",
+    "lv": "nabyć • zarobić",
     "level": "B2"
   },
   {
     "de": "Erz",
     "de_article": "das",
     "de_plural": "die Erze",
-    "lv": "Ruda",
+    "lv": "ruda",
     "level": "B2"
   },
   {
     "de": "erzielen",
-    "lv": "Zyskać • Osiągnąć • Osiągnąć",
+    "lv": "osiągnąć • uzyskać",
     "level": "B2"
   },
   {
     "de": "erzürnen",
-    "lv": "Złościć się",
+    "lv": "rozgniewać",
     "level": "B2"
   },
   {
     "de": "Esche",
     "de_article": "die",
     "de_plural": "die Eschen",
-    "lv": "Popiół",
+    "lv": "jesion",
     "level": "B2"
   },
   {
     "de": "Espe",
     "de_article": "die",
     "de_plural": "die Espen",
-    "lv": "Osika",
+    "lv": "osika",
     "level": "B2"
   },
   {
     "de": "Etat",
     "de_article": "der",
     "de_plural": "die Etats",
-    "lv": "Budżet",
+    "lv": "budżet",
     "level": "B2"
   },
   {
     "de": "europaweit",
-    "lv": "Na skalę ogólnoeuropejską",
+    "lv": "ogólnoeuropejski",
     "level": "B2"
   },
   {
     "de": "Euter",
     "de_article": "das",
     "de_plural": "die Euter",
-    "lv": "Wymię",
+    "lv": "wymię",
     "level": "B2"
   },
   {
     "de": "exekutieren",
-    "lv": "Wykonać karę śmierci",
+    "lv": "wykonać egzekucję • stracić",
     "level": "B2"
   },
   {
     "de": "Exekutive",
     "de_article": "die",
     "de_plural": "die Exekutiven",
-    "lv": "Organ wykonawczy",
+    "lv": "władza wykonawcza",
     "level": "B2"
   },
   {
     "de": "Exil",
     "de_article": "das",
     "de_plural": "die Exile",
-    "lv": "Wygnanie • Wygnanie",
+    "lv": "wygnanie • emigracja",
     "level": "B2"
   },
   {
     "de": "Existenz",
     "de_article": "die",
     "de_plural": "die Existenzen",
-    "lv": "Istnienie",
+    "lv": "istnienie • egzystencja",
     "level": "B2"
   },
   {
     "de": "exklusiv",
-    "lv": "Zbadany • Piękny • Arystokratyczny",
+    "lv": "ekskluzywny • wytworny",
     "level": "B2"
   },
   {
     "de": "Exot",
     "de_article": "der",
     "de_plural": "die Exoten",
-    "lv": "Osoba egzotyczna • Roślina • Zwierzę",
+    "lv": "egzotyk",
     "level": "B2"
   },
   {
     "de": "expandieren",
-    "lv": "Szybko rosnąć • Rozwijać się",
+    "lv": "rozrastać się • ekspandować",
     "level": "B2"
   },
   {
     "de": "Export",
     "de_article": "der",
     "de_plural": "die Exporte",
-    "lv": "Eksport • Eksport",
+    "lv": "eksport • wywóz",
     "level": "B2"
   },
   {
     "de": "exportieren",
-    "lv": "Eksport • Wyjmij",
+    "lv": "eksportować • wywozić",
     "level": "B2"
   },
   {
     "de": "exquisit",
-    "lv": "Zbadane • Subtelne",
+    "lv": "wyborny • wykwintny",
     "level": "B2"
   },
   {
     "de": "Extremismus",
     "de_article": "der",
-    "lv": "Ekstremizm",
+    "lv": "ekstremizm",
     "level": "B2"
   },
   {
     "de": "Fabel",
     "de_article": "die",
     "de_plural": "die Fabeln",
-    "lv": "Bajka",
+    "lv": "bajka",
     "level": "B2"
   },
   {
     "de": "Fabrikat",
     "de_article": "das",
     "de_plural": "die Fabrikate",
-    "lv": "Produkcja przemysłowa • Produkt",
+    "lv": "wyrób • produkt",
     "level": "B2"
   },
   {
     "de": "Fachabitur",
     "de_article": "das",
     "de_plural": "die Fachabiture",
-    "lv": "Ukończone szkolenie zawodowe",
+    "lv": "matura zawodowa",
     "level": "B2"
   },
   {
     "de": "fachmännisch",
-    "lv": "Biegły",
+    "lv": "fachowy • kompetentny",
     "level": "B2"
   },
   {
     "de": "Fackel",
     "de_article": "die",
     "de_plural": "die Fackeln",
-    "lv": "Latarka",
+    "lv": "pochodnia",
     "level": "B2"
   },
   {
     "de": "fahl",
-    "lv": "Matowy • Blady",
+    "lv": "blady • matowy",
     "level": "B2"
   },
   {
     "de": "fahnden",
-    "lv": "Intensywnie szukać",
+    "lv": "poszukiwać • ścigać",
     "level": "B2"
   },
   {
     "de": "Fahndungsliste",
     "de_article": "die",
     "de_plural": "die Fahndungslisten",
-    "lv": "Lista poszukiwanych",
+    "lv": "lista osób poszukiwanych",
     "level": "B2"
   },
   {
     "de": "Fahrdamm",
     "de_article": "der",
     "de_plural": "die Fahrdämme",
-    "lv": "Przejezdna część ulicy • Chodnik",
+    "lv": "jezdnia",
     "level": "B2"
   },
   {
     "de": "Fahrerflucht",
     "de_article": "die",
-    "lv": "Opuszczenie miejsca wypadku",
+    "lv": "ucieczka z miejsca wypadku",
     "level": "B2"
   },
   {
     "de": "fahrlässig",
-    "lv": "Nieostrożny • Niechlujny",
+    "lv": "nieostrożny • niedbały",
     "level": "B2"
   },
   {
     "de": "Falke",
     "de_article": "der",
     "de_plural": "die Falken",
-    "lv": "Jastrząb",
+    "lv": "sokół",
     "level": "B2"
   },
   {
     "de": "Fallschirmturm",
     "de_article": "der",
     "de_plural": "die Fallschirmtürme",
-    "lv": "Wieża spadochroniarska",
+    "lv": "wieża spadochronowa",
     "level": "B2"
   },
   {
     "de": "Falltür",
     "de_article": "die",
     "de_plural": "die Falltüren",
-    "lv": "Właz • Drzwi wbudowane w podłogę",
+    "lv": "zapadnia • klapa w podłodze",
     "level": "B2"
   },
   {
     "de": "fälschen",
-    "lv": "Sfałszować",
+    "lv": "fałszować • podrabiać",
     "level": "B2"
   },
   {
     "de": "fälschlich",
-    "lv": "Wprowadzony w błąd • Pomylony",
+    "lv": "błędnie • mylnie",
     "level": "B2"
   },
   {
     "de": "Farbstoff",
     "de_article": "der",
     "de_plural": "die Farbstoffe",
-    "lv": "Barwnik",
+    "lv": "barwnik",
     "level": "B2"
   },
   {
     "de": "Farbige",
     "de_article": "der",
     "de_plural": "die Farbigen",
-    "lv": "Kolorowy człowiek",
+    "lv": "osoba kolorowa • kolorowy",
     "level": "B2"
   },
   {
     "de": "Färbung",
     "de_article": "die",
     "de_plural": "die Färbungen",
-    "lv": "Kolorystyka • Odcień",
+    "lv": "zabarwienie • odcień",
     "level": "B2"
   },
   {
     "de": "Farn",
     "de_article": "der",
     "de_plural": "die Farne",
-    "lv": "Paproć",
+    "lv": "paproć",
     "level": "B2"
   },
   {
     "de": "Fasan",
     "de_article": "der",
     "de_plural": "die Fasane",
-    "lv": "Bażant",
+    "lv": "bażant",
     "level": "B2"
   },
   {
     "de": "Fasanenjagd",
     "de_article": "die",
     "de_plural": "die Fasanenjagden",
-    "lv": "Polowanie na bażanty",
+    "lv": "polowanie na bażanty",
     "level": "B2"
   },
   {
     "de": "Faschismus",
     "de_article": "der",
-    "lv": "Faszyzm",
+    "lv": "faszyzm",
     "level": "B2"
   },
   {
     "de": "Faser",
     "de_article": "die",
     "de_plural": "die Fasern",
-    "lv": "Błonnik",
+    "lv": "włókno",
     "level": "B2"
   },
   {
     "de": "sich fassen",
-    "lv": "Chwytać • Przyjmować • Powstrzymywać",
+    "lv": "opanować się • uspokoić się",
     "level": "B2",
     "study": {
       "id": "b2-sich-fassen",
-      "layout": "minimalStudy",
-      "translation": "Chwytać • Przyjmować • Powstrzymywać",
-      "rektion": "an + kam?",
-      "explanation": "sich fassen wymaga przyimka określonego an + kam?.",
-      "forms": "an + kam?",
-      "formsLabel": "Kierownictwo:",
+      "layout": "standardStudy",
+      "translation": "opanować się • uspokoić się",
+      "explanation": [
+        "Główna myśl: sich fassen znaczy pozbierać się, odzyskać spokój po szoku lub zdenerwowaniu — opanować się. Formy: fasst sich, fasste sich, hat sich gefasst. Nie łączy się z przyimkiem.",
+        "Stały zwrot sich kurz fassen znaczy wypowiadać się krótko: Fassen Sie sich bitte kurz! Bez sich czasownik fassen znaczy chwytać, łapać (jemanden am Arm fassen), a także podjąć decyzję (einen Entschluss fassen)."
+      ],
+      "examples": [
+        {
+          "de": "Nach dem Schock fasste sie sich schnell.",
+          "lv": "Po szoku szybko się pozbierała."
+        },
+        {
+          "de": "Fass dich kurz, ich habe wenig Zeit.",
+          "lv": "Streszczaj się, mam mało czasu."
+        },
+        {
+          "de": "Er konnte sich vor Wut kaum fassen.",
+          "lv": "Ze złości ledwo mógł się opanować."
+        },
+        {
+          "de": "Ich muss mich erst einmal fassen.",
+          "lv": "Najpierw muszę się pozbierać."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "fassen",
+          "meaning": "chwytać",
+          "example": "Das Kind fasst die Hand der Mutter. – Dziecko chwyta mamę za rękę."
+        },
+        {
+          "word": "sich beherrschen",
+          "meaning": "panować nad sobą",
+          "example": "Sie beherrscht sich trotz der Kritik. – Mimo krytyki panuje nad sobą."
+        },
+        {
+          "word": "sich beruhigen",
+          "meaning": "uspokajać się",
+          "example": "Nach dem Streit beruhigt er sich langsam. – Po kłótni powoli się uspokaja."
+        }
+      ],
+      "tip": [
+        "Po ważnej wiadomości możesz powiedzieć Ich muss mich erst fassen — muszę się najpierw pozbierać.",
+        "Prosząc o zwięzłość, używaj Fassen Sie sich kurz!"
+      ],
+      "important": [
+        "Nie myl sich fassen (opanować się) z fassen bez sich (chwytać, pojmować).",
+        "W zwrocie sich kurz fassen słowo kurz pozostaje nieodmienne."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich fassen"
+            "sich fassen",
+            "fasst sich",
+            "fasste",
+            "fassen",
+            "fasst"
           ],
-          "red": [
-            "an + kam?"
+          "purple": [
+            "pozbierać się",
+            "opanować się"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "fasste"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pozbierała"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Fass"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Streszczaj się"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fassen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "opanować"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fassen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pozbierać"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "fassen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "chwytać"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich beherrschen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "panować nad sobą"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich beruhigen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "uspokajać się"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "fassen"
+            ]
+          },
+          {
+            "blue": [
+              "fassen"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "sich fassen",
+              "fassen"
+            ]
+          },
+          {
+            "blue": [
+              "fassen"
+            ]
+          }
+        ]
       }
     }
   },
@@ -4988,477 +11843,1032 @@ const B2_WORDS = [
     "de": "Fassung",
     "de_article": "die",
     "de_plural": "die Fassungen",
-    "lv": "Ramy • Koperta • Sformułowanie",
+    "lv": "oprawa • wersja • sformułowanie",
     "level": "B2"
   },
   {
     "de": "fassungslos",
-    "lv": "Zaskoczony • Zszokowany",
+    "lv": "osłupiały • oszołomiony",
     "level": "B2"
   },
   {
     "de": "Faulbaum",
     "de_article": "der",
     "de_plural": "die Faulbäume",
-    "lv": "Przeddzień",
+    "lv": "kruszyna",
     "level": "B2"
   },
   {
     "de": "fechten",
-    "lv": "Ogrodzenie",
+    "lv": "fechtować się • uprawiać szermierkę",
     "level": "B2"
   },
   {
     "de": "Fehlalarm",
     "de_article": "der",
     "de_plural": "die Fehlalarme",
-    "lv": "Fałszywy alarm",
+    "lv": "fałszywy alarm",
     "level": "B2"
   },
   {
     "de": "feilen",
-    "lv": "Rozczarować",
+    "lv": "piłować pilnikiem",
     "level": "B2"
   },
   {
     "de": "feindselig",
-    "lv": "Wrogi",
+    "lv": "wrogi",
     "level": "B2"
   },
   {
     "de": "Feingefühl",
     "de_article": "das",
-    "lv": "Delikatność • Takt",
+    "lv": "delikatność • takt",
     "level": "B2"
   },
   {
     "de": "Feldmesser",
     "de_article": "der",
     "de_plural": "die Feldmesser",
-    "lv": "Inspektor",
+    "lv": "mierniczy • geodeta",
     "level": "B2"
   },
   {
     "de": "Ferkel",
     "de_article": "der",
     "de_plural": "die Ferkel",
-    "lv": "Prosiaczek",
+    "lv": "prosię • prosiak",
     "level": "B2"
   },
   {
     "de": "fernstudieren",
-    "lv": "Nauka korespondencyjna",
+    "lv": "studiować zaocznie",
     "level": "B2"
   },
   {
     "de": "Fernstudium",
     "de_article": "das",
     "de_plural": "die Fernstudien",
-    "lv": "Nauka na odległość",
+    "lv": "studia zaoczne • nauczanie na odległość",
     "level": "B2"
   },
   {
     "de": "Fessel",
     "de_article": "die",
     "de_plural": "die Fesseln",
-    "lv": "Łańcuch • Kajdany",
+    "lv": "kajdany • okowy",
     "level": "B2"
   },
   {
     "de": "festigen",
-    "lv": "Wzmacniać • Wzmacniać",
+    "lv": "umacniać • wzmacniać",
     "level": "B2"
   },
   {
     "de": "Festigkeit",
     "de_article": "die",
     "de_plural": "die Festigkeiten",
-    "lv": "Twardość",
+    "lv": "wytrzymałość • twardość",
     "level": "B2"
   },
   {
     "de": "Festspiele",
     "de_article": "die",
-    "lv": "Festiwal",
+    "lv": "festiwal",
     "level": "B2"
   },
   {
     "de": "Festung",
     "de_article": "die",
     "de_plural": "die Festungen",
-    "lv": "Twierdza",
+    "lv": "twierdza",
     "level": "B2"
   },
   {
     "de": "Fetzen",
     "de_article": "der",
     "de_plural": "die Fetzen",
-    "lv": "Żołądek • Ryzyko",
+    "lv": "strzęp • szmata",
     "level": "B2"
   },
   {
     "de": "feuerfest",
-    "lv": "Ogniotrwały",
+    "lv": "ognioodporny • ogniotrwały",
     "level": "B2"
   },
   {
     "de": "Filmfestspiele",
     "de_article": "die",
-    "lv": "Festiwal filmowy",
+    "lv": "festiwal filmowy",
     "level": "B2"
   },
   {
     "de": "Fink",
     "de_article": "der",
     "de_plural": "die Finken",
-    "lv": "Zięba",
+    "lv": "zięba",
     "level": "B2"
   },
   {
     "de": "Finsternis",
     "de_article": "die",
     "de_plural": "die Finsternisse",
-    "lv": "Ciemność • Ciemność • Zaćmienie",
+    "lv": "ciemność • mrok • zaćmienie",
     "level": "B2"
   },
   {
     "de": "Firmeninhaber",
     "de_article": "der",
     "de_plural": "die Firmeninhaber",
-    "lv": "Właściciel firmy",
+    "lv": "właściciel firmy",
     "level": "B2"
   },
   {
     "de": "Firmenkapital",
     "de_article": "das",
-    "lv": "Kapitał firmy",
+    "lv": "kapitał firmy",
     "level": "B2"
   },
   {
     "de": "Handelsfirma",
     "de_article": "die",
     "de_plural": "die Handelsfirmen",
-    "lv": "Firma handlowa",
+    "lv": "firma handlowa",
     "level": "B2"
   },
   {
     "de": "Lieferfirma",
     "de_article": "die",
     "de_plural": "die Lieferfirmen",
-    "lv": "Firma dostawca",
+    "lv": "firma dostawcza • dostawca",
     "level": "B2"
   },
   {
     "de": "Flachs",
     "de_article": "der",
     "de_plural": "die Flachse",
-    "lv": "Len",
+    "lv": "len",
     "level": "B2"
   },
   {
     "de": "Flaum",
     "de_article": "der",
     "de_plural": null,
-    "lv": "Dół • Puch",
+    "lv": "puch • meszek",
     "level": "B2"
   },
   {
     "de": "flauschig",
-    "lv": "Puszyste",
+    "lv": "puszysty",
     "level": "B2"
   },
   {
     "de": "flechten",
-    "lv": "Skręt • Warkocz",
+    "lv": "pleść",
     "level": "B2"
   },
   {
     "de": "fleckig",
-    "lv": "Plamisty • Poplamiony • Cętkowany • Nakrapiany • Nakrapiany",
-    "level": "B2"
+    "lv": "poplamiony • plamisty • cętkowany",
+    "level": "B2",
+    "study": {
+      "id": "b2-fleckig",
+      "layout": "standardStudy",
+      "translation": "poplamiony • plamisty • cętkowany",
+      "explanation": [
+        "Główna myśl: fleckig to przymiotnik opisujący powierzchnię z plamami lub plamkami — brudne ubranie, skórę w plamy, łaciatą sierść zwierzęcia.",
+        "Stopniowanie: fleckig, fleckiger, am fleckigsten. Używa się go zarówno przy rzeczowniku (ein fleckiges Hemd), jak i po sein (Das Hemd ist fleckig). Wyrazem podstawowym jest der Fleck (plama, plamka), liczba mnoga die Flecken."
+      ],
+      "examples": [
+        {
+          "de": "Die Tischdecke ist fleckig.",
+          "lv": "Obrus jest poplamiony."
+        },
+        {
+          "de": "Das Hemd ist nach dem Essen fleckig.",
+          "lv": "Koszula po jedzeniu jest poplamiona."
+        },
+        {
+          "de": "Seine Haut war rot und fleckig.",
+          "lv": "Jego skóra była czerwona i plamista."
+        },
+        {
+          "de": "Die Kuh hat ein fleckiges Fell.",
+          "lv": "Krowa ma łaciatą sierść."
+        },
+        {
+          "de": "Das Pferd hat ein braun-weißes, fleckiges Fell.",
+          "lv": "Koń ma brązowo-białą, łaciatą sierść."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "gefleckt",
+          "meaning": "nakrapiany, łaciaty",
+          "example": "Der Hund ist schwarz-weiß gefleckt. – Pies jest czarno-biało łaciaty."
+        },
+        {
+          "word": "schmutzig",
+          "meaning": "brudny",
+          "example": "Die Hose ist schmutzig. – Spodnie są brudne."
+        },
+        {
+          "word": "gestreift",
+          "meaning": "w paski",
+          "example": "Er trägt ein gestreiftes Hemd. – Nosi koszulę w paski."
+        }
+      ],
+      "tip": [
+        "Pomyśl o der Fleck: fleckig jest to, co ma Flecken.",
+        "Do opisu naturalnych plam u zwierzęcia często używa się gefleckt."
+      ],
+      "important": [
+        "fleckig często wyraża niepożądany lub nierówny wygląd (brudne ubranie, czerwone plamy na skórze).",
+        "Dodając końcówkę, pamiętaj o e: ein fleckiges Fell, eine fleckige Haut."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "fleckig",
+            "Fleck",
+            "Flecken",
+            "fleckiges",
+            "fleckiger",
+            "fleckigsten"
+          ],
+          "purple": [
+            "łaciatą"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "fleckig"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "poplamiony"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fleckig"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "poplamiona"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fleckig"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "plamista"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fleckiges"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "łaciatą"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fleckiges"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "łaciatą"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "gefleckt"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "łaciaty"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "schmutzig"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "brudny"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "gestreift"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "w paski"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "fleckig",
+              "Fleck",
+              "Flecken"
+            ]
+          },
+          {
+            "green": [
+              "gefleckt"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "fleckig"
+            ]
+          },
+          {
+            "blue": [
+              "fleckiges"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "fliederfarben",
-    "lv": "Kolor liliowy",
+    "lv": "liliowy",
     "level": "B2"
   },
   {
     "de": "flimmern",
-    "lv": "Migotać • Migotać • Migotać • Migotać • Migotać",
+    "lv": "migotać • mienić się",
     "level": "B2"
   },
   {
     "de": "Flinte",
     "de_article": "die",
     "de_plural": "die Flinten",
-    "lv": "[łowiecka] strzelba",
+    "lv": "strzelba",
     "level": "B2"
   },
   {
     "de": "Flosse",
     "de_article": "die",
     "de_plural": "die Flossen",
-    "lv": "Płetwa",
+    "lv": "płetwa",
     "level": "B2"
   },
   {
     "de": "Flotte",
     "de_article": "die",
     "de_plural": "die Flotten",
-    "lv": "Flota",
+    "lv": "flota",
     "level": "B2"
   },
   {
     "de": "flüchtig",
-    "lv": "Przelotne • Powierzchowne • Ulotne • Ulotne • Krótkotrwałe",
+    "lv": "przelotny • pobieżny • lotny",
     "level": "B2"
   },
   {
     "de": "Flugfeld",
     "de_article": "das",
     "de_plural": "die Flugfelder",
-    "lv": "Lotnisko",
+    "lv": "lotnisko • lądowisko",
     "level": "B2"
   },
   {
     "de": "Flugverkehr",
     "de_article": "der",
-    "lv": "Ruch lotniczy",
+    "lv": "ruch lotniczy",
     "level": "B2"
   },
   {
     "de": "Flugwesen",
     "de_article": "das",
-    "lv": "Lotnictwo",
+    "lv": "lotnictwo",
     "level": "B2"
   },
   {
     "de": "Flunder",
     "de_article": "die",
     "de_plural": "die Flundern",
-    "lv": "Chata",
+    "lv": "flądra",
     "level": "B2"
   },
   {
     "de": "Flur",
     "de_article": "die",
     "de_plural": "die Fluren",
-    "lv": "Pole • Polana",
+    "lv": "pole • błonia",
     "level": "B2"
   },
   {
     "de": "Flussarm",
     "de_article": "der",
     "de_plural": "die Flussarme",
-    "lv": "Odpływ",
+    "lv": "odnoga rzeki",
     "level": "B2"
   },
   {
     "de": "Flussbett",
     "de_article": "das",
     "de_plural": "die Flussbetten",
-    "lv": "Łóżko",
+    "lv": "koryto rzeki",
     "level": "B2"
   },
   {
     "de": "folgern",
-    "lv": "Podsumować",
+    "lv": "wnioskować • wywnioskować",
     "level": "B2"
   },
   {
     "de": "Fonds",
     "de_article": "der",
     "de_plural": "die Fonds",
-    "lv": "Fundusz",
+    "lv": "fundusz",
     "level": "B2"
   },
   {
     "de": "Hilfsfonds",
     "de_article": "der",
     "de_plural": "die Hilfsfonds",
-    "lv": "Fundusz pomocowy",
+    "lv": "fundusz pomocy",
     "level": "B2"
   },
   {
     "de": "Studienfonds",
     "de_article": "der",
     "de_plural": "die Studienfonds",
-    "lv": "Fundusz naukowy",
+    "lv": "fundusz stypendialny",
     "level": "B2"
   },
   {
     "de": "formell",
-    "lv": "Poprawny • Uprzejmy • Formalny • Sztywny",
+    "lv": "formalny • oficjalny • sztywny",
     "level": "B2"
   },
   {
     "de": "Formsache",
     "de_article": "die",
     "de_plural": "die Formsachen",
-    "lv": "Formalność",
+    "lv": "formalność",
     "level": "B2"
   },
   {
     "de": "Förster",
     "de_article": "der",
     "de_plural": "die Förster",
-    "lv": "Leśniczy",
+    "lv": "leśniczy",
     "level": "B2"
   },
   {
     "de": "sich fortpflanzen",
-    "lv": "Pomnażać • Rozprzestrzeniać",
+    "lv": "rozmnażać się • rozprzestrzeniać się",
     "level": "B2"
   },
   {
     "de": "fortschaffen",
-    "lv": "Zdobyć • Zabrać • Zabrać",
+    "lv": "wywieźć • wynieść • usunąć",
     "level": "B2"
   },
   {
     "de": "fortschreiten",
-    "lv": "Rozwijać się dalej",
+    "lv": "postępować • posuwać się naprzód",
     "level": "B2"
   },
   {
     "de": "fortwährend",
-    "lv": "Stały • Ciągły",
+    "lv": "ciągły • nieustanny",
     "level": "B2"
   },
   {
     "de": "Fracht",
     "de_article": "die",
     "de_plural": "die Frachten",
-    "lv": "Ładunek • Fracht",
+    "lv": "ładunek • fracht",
     "level": "B2"
   },
   {
     "de": "fraglich",
-    "lv": "Wątpliwe • Dyskusyjne",
+    "lv": "wątpliwy • sporny",
     "level": "B2"
   },
   {
     "de": "fraglos",
-    "lv": "Niekwestionowany • Bezsporny",
+    "lv": "niewątpliwy • bezsporny",
     "level": "B2"
   },
   {
     "de": "Fraktion",
     "de_article": "die",
     "de_plural": "die Fraktionen",
-    "lv": "Frakcja",
+    "lv": "frakcja",
     "level": "B2"
   },
   {
     "de": "fräsen",
-    "lv": "Młynować",
+    "lv": "frezować",
     "level": "B2"
   },
   {
     "de": "Fräser",
     "de_article": "der",
     "de_plural": "die Fräser",
-    "lv": "Frezarka • Frezarka",
+    "lv": "frezer • frez",
     "level": "B2"
   },
   {
     "de": "Freiheitskampf",
     "de_article": "der",
     "de_plural": "die Freiheitskämpfe",
-    "lv": "Walka o wolność",
+    "lv": "walka o wolność",
     "level": "B2"
   },
   {
     "de": "freilich",
-    "lv": "Oczywiście • Bez wątpienia • Ale • Tylko",
+    "lv": "oczywiście • wprawdzie",
     "level": "B2"
   },
   {
     "de": "Freilichtbühne",
     "de_article": "die",
     "de_plural": "die Freilichtbühnen",
-    "lv": "Teatr na świeżym powietrzu",
+    "lv": "scena plenerowa • amfiteatr",
     "level": "B2"
   },
   {
     "de": "freimütig",
-    "lv": "Szczery • Szczery",
+    "lv": "szczery • otwarty",
     "level": "B2"
   },
   {
     "de": "freisprechen",
-    "lv": "Uzasadnić",
+    "lv": "uniewinnić",
     "level": "B2"
   },
   {
     "de": "Fremde",
     "de_article": "die",
-    "lv": "Obcość • Cudzoziemiec",
+    "lv": "obczyzna",
     "level": "B2"
   },
   {
     "de": "fremdgehen",
-    "lv": "Stać się niewiernym",
+    "lv": "zdradzać",
     "level": "B2"
   },
   {
     "de": "friedfertig",
-    "lv": "Spokojny • Zgodny",
+    "lv": "pokojowo nastawiony • zgodny",
     "level": "B2"
   },
   {
     "de": "fristlos",
-    "lv": "Nieokreślony",
-    "level": "B2"
+    "lv": "natychmiastowy • bez okresu wypowiedzenia",
+    "level": "B2",
+    "study": {
+      "id": "b2-fristlos",
+      "layout": "standardStudy",
+      "translation": "natychmiastowy • bez okresu wypowiedzenia",
+      "explanation": [
+        "Główna myśl: fristlos znaczy bez zachowania terminu, ze skutkiem natychmiastowym. Najczęściej mówi się tak o rozwiązaniu umowy o pracę lub umowy najmu: eine fristlose Kündigung, jemandem fristlos kündigen.",
+        "Słowo składa się z Frist (termin) + -los (bez). Jest przymiotnikiem i przysłówkiem: eine fristlose Kündigung, fristlos entlassen. Zwykle wypowiedzenie ze skutkiem natychmiastowym jest możliwe tylko z ważnej przyczyny (wichtiger Grund)."
+      ],
+      "examples": [
+        {
+          "de": "Der Arbeitgeber kündigte ihm fristlos.",
+          "lv": "Pracodawca wypowiedział mu umowę bez okresu wypowiedzenia."
+        },
+        {
+          "de": "Die Firma hat den Mitarbeiter fristlos entlassen.",
+          "lv": "Firma zwolniła pracownika w trybie natychmiastowym."
+        },
+        {
+          "de": "Eine fristlose Kündigung ist nur aus wichtigem Grund möglich.",
+          "lv": "Natychmiastowe wypowiedzenie umowy jest możliwe tylko z ważnej przyczyny."
+        },
+        {
+          "de": "Sie kündigte den Mietvertrag fristlos.",
+          "lv": "Wypowiedziała umowę najmu bez okresu wypowiedzenia."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sofort",
+          "meaning": "natychmiast",
+          "example": "Komm bitte sofort! – Przyjdź, proszę, natychmiast!"
+        },
+        {
+          "word": "fristgerecht",
+          "meaning": "z zachowaniem terminu",
+          "example": "Er kündigte fristgerecht. – Wypowiedział umowę z zachowaniem terminu."
+        },
+        {
+          "word": "kündigen",
+          "meaning": "wypowiadać (umowę)",
+          "example": "Sie kündigt ihre Wohnung. – Wypowiada umowę najmu swojego mieszkania."
+        }
+      ],
+      "tip": [
+        "Zapamiętaj przeciwieństwo: fristlose Kündigung (wypowiedzenie natychmiastowe) wobec fristgerechte Kündigung (wypowiedzenie z zachowaniem terminu).",
+        "Przyrostek -los występuje według tego samego wzoru: arbeitslos, sorglos, fristlos."
+      ],
+      "important": [
+        "fristlos dotyczy wypowiedzenia lub zwolnienia, a nie każdej pilnej czynności; ogólnie pośpiech wyraża się słowem sofort.",
+        "W prawie pracy natychmiastowe wypowiedzenie zwykle wymaga ważnej przyczyny."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "fristlos",
+            "fristlose",
+            "Frist",
+            "Kündigung"
+          ],
+          "purple": [
+            "bez zachowania terminu",
+            "natychmiastowym"
+          ],
+          "green": [
+            "kündigen"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "fristlos"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "bez okresu wypowiedzenia"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fristlos"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "natychmiastowym"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fristlose"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Natychmiastowe"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fristlos"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "bez okresu wypowiedzenia"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sofort"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "natychmiast"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "fristgerecht"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "z zachowaniem terminu"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "kündigen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "wypowiadać"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "fristlose",
+              "Kündigung"
+            ]
+          },
+          {
+            "blue": [
+              "fristlos"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "fristlos"
+            ],
+            "green": [
+              "sofort"
+            ]
+          },
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "fromm",
-    "lv": "Pobożny",
+    "lv": "pobożny",
     "level": "B2"
   },
   {
     "de": "Frosteinbruch",
     "de_article": "der",
     "de_plural": "die Frosteinbrüche",
-    "lv": "Początek mrozu",
+    "lv": "nadejście mrozów",
     "level": "B2"
   },
   {
     "de": "Frostschaden",
     "de_article": "der",
     "de_plural": "die Frostschäden",
-    "lv": "Szkody spowodowane mrozem",
+    "lv": "szkoda spowodowana mrozem",
     "level": "B2"
   },
   {
     "de": "fruchtlos",
-    "lv": "Jałowy",
+    "lv": "bezowocny • daremny",
     "level": "B2"
   },
   {
     "de": "Frust",
     "de_article": "der",
-    "lv": "Udaremnienie",
+    "lv": "frustracja",
     "level": "B2"
   },
   {
     "de": "sich fügen",
-    "lv": "Dostosować się • Być posłusznym",
+    "lv": "podporządkować się • dostosować się",
     "level": "B2",
     "study": {
       "id": "b2-sich-fuegen",
-      "layout": "minimalStudy",
-      "translation": "Dostosować się • Być posłusznym",
-      "rektion": "in + ko?",
-      "explanation": "sich fügen wymaga przyimka określonego w + ko?.",
-      "forms": "in + ko?",
-      "formsLabel": "Kierownictwo:",
+      "layout": "standardStudy",
+      "translation": "podporządkować się • dostosować się",
+      "explanation": [
+        "Główna myśl: sich fügen znaczy podporządkować się zasadzie, decyzji lub okolicznościom (sich dem Beschluss fügen) albo wpasować się w całość, dostosować się (sich in die Gruppe fügen).",
+        "Formy: fügt sich, fügte sich, hat sich gefügt. W znaczeniu podporządkowania często następuje celownik (sich dem Willen fügen), w znaczeniu dostosowania lub pogodzenia się — in + biernik (sich in sein Schicksal fügen).",
+        "Zwrot Alles fügt sich znaczy: wszystko stopniowo trafia na swoje miejsce, wszystko się układa. Bez sich czasownik fügen jest przechodni: Teile zusammenfügen — łączyć części."
+      ],
+      "examples": [
+        {
+          "de": "Er fügte sich dem Beschluss des Vorstands.",
+          "lv": "Podporządkował się decyzji zarządu."
+        },
+        {
+          "de": "Sie musste sich in ihr Schicksal fügen.",
+          "lv": "Musiała pogodzić się ze swoim losem."
+        },
+        {
+          "de": "Das Kind fügt sich den Regeln.",
+          "lv": "Dziecko podporządkowuje się zasadom."
+        },
+        {
+          "de": "Neue Kollegen müssen sich in das Team fügen.",
+          "lv": "Nowi koledzy muszą dopasować się do zespołu."
+        },
+        {
+          "de": "Alles fügte sich zum Guten.",
+          "lv": "Wszystko ułożyło się dobrze."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich anpassen",
+          "meaning": "dostosowywać się",
+          "example": "Er passt sich dem Klima an. – Dostosowuje się do klimatu."
+        },
+        {
+          "word": "gehorchen",
+          "meaning": "słuchać, być posłusznym",
+          "example": "Der Hund gehorcht seinem Herrn. – Pies słucha swojego pana."
+        },
+        {
+          "word": "fügen",
+          "meaning": "łączyć",
+          "example": "Er fügt zwei Teile zusammen. – Łączy dwie części."
+        }
+      ],
+      "tip": [
+        "Mówiąc, że ktoś podporządkowuje się decyzji, wybierz sich dem Beschluss fügen.",
+        "Znaj też zwrot: sich in sein Schicksal fügen."
+      ],
+      "important": [
+        "Nie myl z fügen bez sich (dodawać, łączyć).",
+        "Bezpośrednie posłuszeństwo wobec rozkazu lub rodziców zwykle wyraża się przez gehorchen, a nie sich fügen."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
+            "fügen",
+            "fügt",
+            "fügte",
+            "gefügt",
             "sich fügen"
+          ],
+          "purple": [
+            "podporządkować się",
+            "dostosować się",
+            "podporządkowania",
+            "dostosowania",
+            "pogodzenia"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "fügte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Podporządkował"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fügen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pogodzić"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fügt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "podporządkowuje"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fügen"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fügte"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich anpassen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "dostosowywać się"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "gehorchen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "słuchać"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "fügen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "łączyć"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "fügen"
+            ]
+          },
+          {
+            "blue": [
+              "fügen"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "fügen"
+            ]
+          },
+          {
+            "blue": [
+              "sich fügen",
+              "fügen"
+            ],
+            "green": [
+              "gehorchen"
+            ]
+          }
+        ]
       }
     }
   },
@@ -5466,562 +12876,912 @@ const B2_WORDS = [
     "de": "Fuhre",
     "de_article": "die",
     "de_plural": "die Fuhren",
-    "lv": "Przewóz • Ładunek",
+    "lv": "fura • ładunek",
     "level": "B2"
   },
   {
     "de": "Führerrolle",
     "de_article": "die",
     "de_plural": "die Führerrollen",
-    "lv": "Wiodącą rolę",
+    "lv": "rola przywódcza • przywództwo",
     "level": "B2"
   },
   {
     "de": "Führernatur",
     "de_article": "die",
-    "lv": "Typ lidera • Lider",
+    "lv": "urodzony przywódca • lider",
     "level": "B2"
   },
   {
     "de": "funken",
-    "lv": "Transmitowany w radiu",
+    "lv": "nadawać przez radio",
     "level": "B2"
   },
   {
     "de": "Funker",
     "de_article": "der",
     "de_plural": "die Funker",
-    "lv": "Radiooperator • Radiooperator",
+    "lv": "radiotelegrafista • radiooperator",
     "level": "B2"
   },
   {
     "de": "Funkspruch",
     "de_article": "der",
     "de_plural": "die Funksprüche",
-    "lv": "Radiogram",
+    "lv": "radiogram",
     "level": "B2"
   },
   {
     "de": "Funkstation",
     "de_article": "die",
     "de_plural": "die Funkstationen",
-    "lv": "Stacja nadawcza",
+    "lv": "radiostacja • stacja nadawcza",
     "level": "B2"
   },
   {
     "de": "Funkstörung",
     "de_article": "die",
     "de_plural": "die Funkstörungen",
-    "lv": "Zakłócenia transmisji",
+    "lv": "zakłócenie radiowe",
     "level": "B2"
   },
   {
     "de": "Funkverbindung",
     "de_article": "die",
     "de_plural": "die Funkverbindungen",
-    "lv": "Łączność radiowa",
+    "lv": "łączność radiowa",
     "level": "B2"
   },
   {
     "de": "Funktionär",
     "de_article": "der",
     "de_plural": "die Funktionäre",
-    "lv": "Działacz • Pracownik",
+    "lv": "działacz • aktywista",
     "level": "B2"
   },
   {
     "de": "Furche",
     "de_article": "die",
     "de_plural": "die Furchen",
-    "lv": "Bruzda • Zmarszczka • Zmarszczka",
+    "lv": "bruzda • zmarszczka",
     "level": "B2"
   },
   {
     "de": "Fürsorge",
     "de_article": "die",
     "de_plural": "die Fürsorgen",
-    "lv": "Opieka • Opieka",
+    "lv": "opieka • troska",
     "level": "B2"
   },
   {
     "de": "Fürsprache",
     "de_article": "die",
     "de_plural": "die Fürsprachen",
-    "lv": "Perswazja • Dobre imię, którego można bronić",
+    "lv": "wstawiennictwo • protekcja",
     "level": "B2"
   },
   {
     "de": "Futtertrog",
     "de_article": "der",
     "de_plural": "die Futtertröge",
-    "lv": "Koryto paszowe",
+    "lv": "koryto • żłób",
     "level": "B2"
   },
   {
     "de": "Futterpflanze",
     "de_article": "die",
     "de_plural": "die Futterpflanzen",
-    "lv": "Roślina pastewna",
+    "lv": "roślina pastewna",
     "level": "B2"
   },
   {
     "de": "Gage",
     "de_article": "die",
     "de_plural": "die Gagen",
-    "lv": "Wynagrodzenie artysty",
+    "lv": "gaża • honorarium",
     "level": "B2"
   },
   {
     "de": "Galle",
     "de_article": "die",
     "de_plural": "die Gallen",
-    "lv": "Żółć",
+    "lv": "żółć",
     "level": "B2"
   },
   {
     "de": "gangbar",
-    "lv": "Można chodzić",
+    "lv": "możliwy do przejścia • wykonalny",
     "level": "B2"
   },
   {
     "de": "gängig",
-    "lv": "Pieszy",
+    "lv": "powszechny • chodliwy",
     "level": "B2"
   },
   {
     "de": "Gangster",
     "de_article": "der",
     "de_plural": "die Gangster",
-    "lv": "Gangster",
+    "lv": "gangster",
     "level": "B2"
   },
   {
     "de": "Garbe",
     "de_article": "die",
     "de_plural": "die Garben",
-    "lv": "Wiązka • Wiązka",
+    "lv": "snop",
     "level": "B2"
   },
   {
     "de": "Garde",
     "de_article": "die",
     "de_plural": "die Garden",
-    "lv": "Strażnik",
+    "lv": "gwardia",
     "level": "B2"
   },
   {
     "de": "gären",
-    "lv": "Fermentować",
+    "lv": "fermentować",
     "level": "B2"
   },
   {
     "de": "Garnknäuel",
     "de_article": "das",
     "de_plural": "die Garnknäuel",
-    "lv": "Bryła",
+    "lv": "kłębek • motek",
     "level": "B2"
   },
   {
     "de": "Garnspule",
     "de_article": "die",
     "de_plural": "die Garnspulen",
-    "lv": "Cewka • Cewka",
+    "lv": "szpulka",
     "level": "B2"
   },
   {
     "de": "Gasableser",
     "de_article": "der",
     "de_plural": "die Gasableser",
-    "lv": "Gazomierz",
+    "lv": "inkasent gazowni",
     "level": "B2"
   },
   {
     "de": "Gastarbeiter",
     "de_article": "der",
     "de_plural": "die Gastarbeiter",
-    "lv": "Pracownik gościnny",
+    "lv": "pracownik zagraniczny • gastarbeiter",
     "level": "B2"
   },
   {
     "de": "Gatte",
     "de_article": "der",
     "de_plural": "die Gatten",
-    "lv": "Mąż",
+    "lv": "małżonek • mąż",
     "level": "B2"
   },
   {
     "de": "Gattin",
     "de_article": "die",
     "de_plural": "die Gattinnen",
-    "lv": "Żona",
+    "lv": "małżonka • żona",
     "level": "B2"
   },
   {
     "de": "Gattung",
     "de_article": "die",
     "de_plural": "die Gattungen",
-    "lv": "Gatunek • Rasa",
+    "lv": "gatunek • rodzaj",
     "level": "B2"
   },
   {
     "de": "Gebärde",
     "de_article": "die",
     "de_plural": "die Gebärden",
-    "lv": "Gest • Cecha",
+    "lv": "gest",
     "level": "B2"
   },
   {
     "de": "Gebot",
     "de_article": "das",
     "de_plural": "die Gebote",
-    "lv": "Polecenie • Wymóg • Przykazanie",
+    "lv": "przykazanie • nakaz",
     "level": "B2"
   },
   {
     "de": "gebrechlich",
-    "lv": "Słaby • Zwiędły • Piękny • Kaleki • Pełen wad",
+    "lv": "niedołężny • wątły • ułomny",
     "level": "B2"
   },
   {
     "de": "gedämpft",
-    "lv": "Stłumiony • Wyciszony • Stłumiony",
+    "lv": "przytłumiony • stłumiony • duszony",
     "level": "B2"
   },
   {
     "de": "Gedeck",
     "de_article": "das",
     "de_plural": "die Gedecke",
-    "lv": "Sztućce dla jednej osoby",
+    "lv": "nakrycie",
     "level": "B2"
   },
   {
     "de": "gedeihen",
-    "lv": "Radzić sobie dobrze • Odnieść sukces • Prosperować • Prosperować",
+    "lv": "rozwijać się • kwitnąć • udawać się",
     "level": "B2"
   },
   {
     "de": "gedenken",
-    "lv": "Mieć na uwadze • Pamiętać • Pamiętać • Wspominać",
+    "lv": "wspominać • upamiętniać • zamierzać",
     "level": "B2"
   },
   {
     "de": "Gedenktafel",
     "de_article": "die",
     "de_plural": "die Gedenktafeln",
-    "lv": "Tablica pamiątkowa",
+    "lv": "tablica pamiątkowa",
     "level": "B2"
   },
   {
     "de": "Gedenktag",
     "de_article": "der",
     "de_plural": "die Gedenktage",
-    "lv": "Dzień pamięci",
+    "lv": "dzień pamięci",
     "level": "B2"
   },
   {
     "de": "Gefährte",
     "de_article": "der",
     "de_plural": "die Gefährten",
-    "lv": "Członek",
+    "lv": "towarzysz",
     "level": "B2"
   },
   {
     "de": "Gefallen",
     "de_article": "das",
-    "lv": "Lubić • Lubić",
+    "lv": "upodobanie • przyjemność",
     "level": "B2"
   },
   {
     "de": "gefällig",
-    "lv": "Miły • Uczynny • Gościnny • Miły",
+    "lv": "uczynny • przyjemny",
     "level": "B2"
   },
   {
     "de": "Gefäß",
     "de_article": "das",
     "de_plural": "die Gefäße",
-    "lv": "Naczynie • Naczynie krwionośne",
+    "lv": "naczynie • naczynie krwionośne",
     "level": "B2"
   },
   {
     "de": "Gefecht",
     "de_article": "das",
     "de_plural": "die Gefechte",
-    "lv": "Bitwa • Bitwa",
+    "lv": "potyczka • walka",
     "level": "B2"
   },
   {
     "de": "Gefolge",
     "de_article": "das",
     "de_plural": "die Gefolge",
-    "lv": "Otoczenie • Opiekunowie",
+    "lv": "świta • orszak",
     "level": "B2"
   },
   {
     "de": "Gefüge",
     "de_article": "das",
     "de_plural": "die Gefüge",
-    "lv": "Konstrukcja • Konstrukcja • Połączenie • Złącze",
+    "lv": "struktura • budowa",
     "level": "B2"
   },
   {
     "de": "Gegengift",
     "de_article": "das",
     "de_plural": "die Gegengifte",
-    "lv": "Antidotum",
+    "lv": "odtrutka",
     "level": "B2"
   },
   {
     "de": "Gegenmittel",
     "de_article": "das",
     "de_plural": "die Gegenmittel",
-    "lv": "Antidotum",
+    "lv": "środek zaradczy • antidotum",
     "level": "B2"
   },
   {
     "de": "Gegenrede",
     "de_article": "die",
     "de_plural": "die Gegenreden",
-    "lv": "Oświadczenie • Sprzeciw",
+    "lv": "sprzeciw • replika",
     "level": "B2"
   },
   {
     "de": "Gegensatz",
     "de_article": "der",
     "de_plural": "die Gegensätze",
-    "lv": "Przeciwieństwo • Kontrast • Sprzeczność",
+    "lv": "przeciwieństwo • kontrast • sprzeczność",
     "level": "B2"
   },
   {
     "de": "Amtsgeheimnis",
     "de_article": "das",
     "de_plural": "die Amtsgeheimnisse",
-    "lv": "Tajemnica urzędowa",
+    "lv": "tajemnica służbowa",
     "level": "B2"
   },
   {
     "de": "gehörig",
-    "lv": "Przynależność • Przynależność • Właściwa • Przynależność",
+    "lv": "należący • należyty • odpowiedni",
     "level": "B2"
   },
   {
     "de": "Geiselnahme",
     "de_article": "die",
     "de_plural": "die Geiselnahmen",
-    "lv": "Branie zakładników",
+    "lv": "wzięcie zakładników",
     "level": "B2"
   },
   {
     "de": "Geistliche",
     "de_article": "der",
     "de_plural": "die Geistlichen",
-    "lv": "Duchowny",
+    "lv": "duchowny",
     "level": "B2"
   },
   {
     "de": "gekünstelt",
-    "lv": "Sztuczne • Nienaturalne",
+    "lv": "sztuczny • wymuszony",
     "level": "B2"
   },
   {
     "de": "Geländelauf",
     "de_article": "der",
     "de_plural": "die Geländeläufe",
-    "lv": "Przełaj",
+    "lv": "bieg przełajowy • przełaj",
     "level": "B2"
   },
   {
     "de": "gelassen",
-    "lv": "Spokojny • Powściągliwy",
+    "lv": "spokojny • opanowany",
     "level": "B2"
   },
   {
     "de": "geläufig",
-    "lv": "Znany • Znajomy • Nawykowy • Biegły • Biegły",
+    "lv": "znany • powszechny • płynny",
     "level": "B2"
   },
   {
     "de": "gelaunt",
-    "lv": "Oh",
-    "level": "B2"
+    "lv": "w nastroju • usposobiony",
+    "level": "B2",
+    "study": {
+      "id": "b2-gelaunt",
+      "layout": "standardStudy",
+      "translation": "w nastroju • usposobiony",
+      "explanation": [
+        "Główna myśl: gelaunt to przymiotnik używany tylko razem z przysłówkiem: gut gelaunt (w dobrym nastroju), schlecht gelaunt (w złym nastroju). Opisuje nastrój, samopoczucie człowieka.",
+        "Samodzielnie, bez przysłówka, prawie się go nie używa. Stopniowanie tworzy przysłówek: besser gelaunt, am besten gelaunt. Wyrazem podstawowym jest die Laune (nastrój, humor), liczba mnoga die Launen."
+      ],
+      "examples": [
+        {
+          "de": "Er ist heute gut gelaunt.",
+          "lv": "Jest dziś w dobrym humorze."
+        },
+        {
+          "de": "Sie kam schlecht gelaunt ins Büro.",
+          "lv": "Przyszła do biura w złym humorze."
+        },
+        {
+          "de": "Der Chef ist heute nicht besonders gut gelaunt.",
+          "lv": "Szef nie jest dziś w szczególnie dobrym humorze."
+        },
+        {
+          "de": "Wie ist er heute gelaunt?",
+          "lv": "W jakim on jest dziś humorze?"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "die Laune",
+          "meaning": "nastrój, humor",
+          "example": "Er hat gute Laune. – Ma dobry humor."
+        },
+        {
+          "word": "gut drauf",
+          "meaning": "w dobrym humorze (potocznie)",
+          "example": "Er ist heute gut drauf. – Jest dziś w świetnym humorze."
+        },
+        {
+          "word": "gestimmt",
+          "meaning": "usposobiony, nastrojony",
+          "example": "Sie ist heiter gestimmt. – Jest radośnie usposobiona."
+        }
+      ],
+      "tip": [
+        "Zapamiętaj gotowe połączenia: gut gelaunt, schlecht gelaunt, bestens gelaunt.",
+        "Z Laune można powiedzieć gute Laune haben."
+      ],
+      "important": [
+        "gelaunt prawie zawsze stoi razem z gut, schlecht, besser lub innym przysłówkiem.",
+        "Słowo nie jest tym samym co gestimmt (usposobiony, nastrojony), choć znaczenie jest bliskie."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "gelaunt",
+            "gut gelaunt",
+            "schlecht gelaunt",
+            "Laune",
+            "Launen",
+            "gut",
+            "schlecht"
+          ],
+          "purple": [
+            "nastroju",
+            "nastrój"
+          ],
+          "green": [
+            "die Laune"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "gut",
+                "gelaunt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "w dobrym humorze"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "schlecht",
+                "gelaunt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "w złym humorze"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "gut",
+                "gelaunt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "dobrym humorze"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "gelaunt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "humorze"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "die Laune"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "nastrój"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "gut drauf"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "dobrym"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "gestimmt"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "usposobiony"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "gelaunt",
+              "gut gelaunt",
+              "schlecht gelaunt",
+              "gut",
+              "schlecht"
+            ]
+          },
+          {
+            "blue": [
+              "Laune"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "gelaunt",
+              "gut",
+              "schlecht"
+            ]
+          },
+          {
+            "green": [
+              "gestimmt"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Geldbuße",
     "de_article": "die",
     "de_plural": "die Geldbußen",
-    "lv": "Cienki",
+    "lv": "grzywna",
     "level": "B2"
   },
   {
     "de": "Geldspende",
     "de_article": "die",
     "de_plural": "die Geldspenden",
-    "lv": "Darowizna",
+    "lv": "datek pieniężny • darowizna",
     "level": "B2"
   },
   {
     "de": "Geldeinlage",
     "de_article": "die",
     "de_plural": "die Geldeinlagen",
-    "lv": "Depozyt pieniężny • Depozyt",
+    "lv": "wkład pieniężny • depozyt",
     "level": "B2"
   },
   {
     "de": "Geldumlauf",
     "de_article": "der",
     "de_plural": "die Geldumläufe",
-    "lv": "Obieg pieniędzy",
+    "lv": "obieg pieniądza",
     "level": "B2"
   },
   {
     "de": "gelegen",
-    "lv": "Wygodny • Wygodny • Poręczny • Odosobniony",
+    "lv": "dogodny • stosowny • położony",
     "level": "B2"
   },
   {
     "de": "Gelehrte",
     "de_article": "der",
     "de_plural": "die Gelehrten",
-    "lv": "Naukowiec",
+    "lv": "uczony",
     "level": "B2"
   },
   {
     "de": "Geliebte",
     "de_article": "der",
     "de_plural": "die Geliebten",
-    "lv": "Ukochany • Ukochany • Kochanek",
+    "lv": "ukochany • kochanek",
     "level": "B2"
   },
   {
     "de": "Gelöbnis",
     "de_article": "das",
     "de_plural": "die Gelöbnisse",
-    "lv": "Uroczysta obietnica",
+    "lv": "ślubowanie • przyrzeczenie",
     "level": "B2"
   },
   {
     "de": "Geltung",
     "de_article": "die",
     "de_plural": "die Geltungen",
-    "lv": "Znaczenie • Znaczenie",
+    "lv": "znaczenie • ważność",
     "level": "B2"
   },
   {
     "de": "Gemahl",
     "de_article": "der",
     "de_plural": "die Gemahle",
-    "lv": "Mąż • Małżonek",
+    "lv": "małżonek",
     "level": "B2"
   },
   {
     "de": "Gemahlin",
     "de_article": "die",
     "de_plural": "die Gemahlinnen",
-    "lv": "Żona • Małżonek",
+    "lv": "małżonka",
     "level": "B2"
   },
   {
     "de": "gemäß",
-    "lv": "Po • Zgodnie z • Odpowiednio",
+    "lv": "zgodnie z • według",
     "level": "B2"
   },
   {
     "de": "gemessen",
-    "lv": "Zrównoważony • Przemyślany",
+    "lv": "wyważony • stateczny",
     "level": "B2"
   },
   {
     "de": "Gemetzel",
     "de_article": "das",
     "de_plural": "die Gemetzel",
-    "lv": "Rzeź • Masowe zabijanie",
+    "lv": "rzeź • masakra",
     "level": "B2"
   },
   {
     "de": "Gemisch",
     "de_article": "das",
     "de_plural": "die Gemische",
-    "lv": "Mieszanina • Mieszanina • Mieszanina",
+    "lv": "mieszanina",
     "level": "B2"
   },
   {
     "de": "Gemüsebau",
     "de_article": "der",
-    "lv": "Rośliny okopowe • Rośliny warzywne",
+    "lv": "warzywnictwo",
     "level": "B2"
   },
   {
     "de": "Gemüt",
     "de_article": "das",
     "de_plural": "die Gemüter",
-    "lv": "Charakter • Natura • Myśli • Umysły",
+    "lv": "usposobienie • dusza • umysł",
     "level": "B2"
   },
   {
     "de": "gemütvoll",
-    "lv": "Ciepły • Przytulny",
+    "lv": "serdeczny • uczuciowy",
     "level": "B2"
   },
   {
     "de": "Genforscher",
     "de_article": "der",
     "de_plural": "die Genforscher",
-    "lv": "Badacz genów",
+    "lv": "genetyk",
     "level": "B2"
   },
   {
     "de": "Genmaterial",
     "de_article": "das",
-    "lv": "Materiał genetyczny",
+    "lv": "materiał genetyczny",
     "level": "B2"
   },
   {
     "de": "Genmutation",
     "de_article": "die",
     "de_plural": "die Genmutationen",
-    "lv": "Mutacja genu",
+    "lv": "mutacja genowa",
     "level": "B2"
   },
   {
     "de": "genesen",
-    "lv": "Wyzdrowiej • Wyzdrowiej",
+    "lv": "wyzdrowieć • wracać do zdrowia",
     "level": "B2"
   },
   {
     "de": "Genesung",
     "de_article": "die",
     "de_plural": "die Genesungen",
-    "lv": "Powrót do zdrowia • Powrót do zdrowia",
+    "lv": "wyzdrowienie • rekonwalescencja",
     "level": "B2"
   },
   {
     "de": "Genick",
     "de_article": "das",
     "de_plural": "die Genicke",
-    "lv": "Potylica",
+    "lv": "kark",
     "level": "B2"
   },
   {
     "de": "sich genieren",
-    "lv": "Wstydzić się",
+    "lv": "wstydzić się • krępować się",
     "level": "B2",
     "study": {
       "id": "b2-sich-genieren",
-      "layout": "minimalStudy",
-      "translation": "Wstydzić się",
-      "rektion": "vor + kam?",
-      "explanation": "sich genieren wymaga przyimka określonego vor + kam?.",
-      "forms": "vor + kam?",
-      "formsLabel": "Kierownictwo:",
+      "layout": "standardStudy",
+      "translation": "wstydzić się • krępować się",
+      "explanation": [
+        "Główna myśl: sich genieren znaczy wstydzić się, krępować się, czuć się niezręcznie, robiąc coś w obecności innych. W wymowie g brzmi jak ż: [ʒeˈniːrən].",
+        "Osoby, przed którymi ktoś się wstydzi, wprowadza vor + celownik: sich vor den Gästen genieren. Formy: geniert sich, genierte sich, hat sich geniert. Często używa się go w przeczeniu: Genieren Sie sich nicht! — Proszę się nie krępować!"
+      ],
+      "examples": [
+        {
+          "de": "Er geniert sich vor fremden Leuten.",
+          "lv": "Wstydzi się przy obcych ludziach."
+        },
+        {
+          "de": "Du brauchst dich nicht zu genieren.",
+          "lv": "Nie musisz się wstydzić."
+        },
+        {
+          "de": "Sie genierte sich, nach dem Weg zu fragen.",
+          "lv": "Krępowała się zapytać o drogę."
+        },
+        {
+          "de": "Bitte genieren Sie sich nicht, greifen Sie zu!",
+          "lv": "Proszę się nie krępować, proszę się częstować!"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich schämen",
+          "meaning": "wstydzić się",
+          "example": "Ich schäme mich für meinen Fehler. – Wstydzę się swojego błędu."
+        },
+        {
+          "word": "schüchtern",
+          "meaning": "nieśmiały",
+          "example": "Er ist sehr schüchtern. – Jest bardzo nieśmiały."
+        },
+        {
+          "word": "peinlich",
+          "meaning": "krępujący, niezręczny",
+          "example": "Das ist mir peinlich. – To dla mnie krępujące."
+        }
+      ],
+      "tip": [
+        "Gościnne zaproszenie: Genieren Sie sich nicht!",
+        "W niezręcznej sytuacji powiedz też Das ist mir unangenehm."
+      ],
+      "important": [
+        "sich genieren wyraża skrępowanie w towarzystwie, a sich schämen — wstyd z powodu własnego postępowania.",
+        "Słowo jest zapożyczeniem z francuskiego, dlatego wymowa z ż jest ważna."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
+            "genieren",
+            "geniert",
+            "genierte",
+            "Genieren",
             "sich genieren"
           ],
-          "red": [
-            "vor + kam?"
+          "purple": [
+            "wstydzić się"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "geniert"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Wstydzi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "genieren"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "wstydzić"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "genierte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Krępowała"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "genieren"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "krępować"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "schämen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "wstydzić się"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "schüchtern"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "nieśmiały"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "peinlich"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "krępujący"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "genieren",
+              "Genieren"
+            ]
+          },
+          {}
+        ],
+        "important": [
+          {
+            "blue": [
+              "sich genieren",
+              "genieren"
+            ],
+            "green": [
+              "schämen",
+              "sich schämen"
+            ]
+          },
+          {}
+        ]
       }
     }
   },
@@ -6029,197 +13789,359 @@ const B2_WORDS = [
     "de": "Genosse",
     "de_article": "der",
     "de_plural": "die Genossen",
-    "lv": "Członek",
+    "lv": "towarzysz",
     "level": "B2"
   },
   {
     "de": "Genossin",
     "de_article": "die",
     "de_plural": "die Genossinnen",
-    "lv": "Członek • Członek",
+    "lv": "towarzyszka",
     "level": "B2"
   },
   {
     "de": "genügsam",
-    "lv": "Skromny",
+    "lv": "skromny • niewymagający",
     "level": "B2"
   },
   {
     "de": "Genugtuung",
     "de_article": "die",
     "de_plural": "die Genugtuungen",
-    "lv": "Zadowolenie",
+    "lv": "satysfakcja • zadośćuczynienie",
     "level": "B2"
   },
   {
     "de": "Gepäcknetz",
     "de_article": "das",
     "de_plural": "die Gepäcknetze",
-    "lv": "Siatka bagażowa",
+    "lv": "półka na bagaż",
     "level": "B2"
   },
   {
     "de": "Gepäckwagen",
     "de_article": "der",
     "de_plural": "die Gepäckwagen",
-    "lv": "Samochód bagażowy",
+    "lv": "wagon bagażowy",
     "level": "B2"
   },
   {
     "de": "geraten",
-    "lv": "Przybyć • Dostać się • Poddać się • Odnieść sukces • Trafić",
+    "lv": "trafić • dostać się • udać się",
     "level": "B2"
   },
   {
     "de": "Geratewohl",
     "de_article": "das",
-    "lv": "Powodzenia",
+    "lv": "na chybił trafił",
     "level": "B2"
   },
   {
     "de": "geräuschlos",
-    "lv": "Cicho • Cicho • Bez hałasu",
+    "lv": "bezgłośnie • cicho",
     "level": "B2"
   },
   {
     "de": "Gerede",
     "de_article": "das",
     "de_plural": "die Gerede",
-    "lv": "Mówienie • Mowa • Język narodowy • Plotki",
+    "lv": "gadanie • plotki",
     "level": "B2"
   },
   {
     "de": "gerinnen",
-    "lv": "Koagulować • Krzepnąć • Krzepnąć • Krzepnąć • Zamarzać",
+    "lv": "krzepnąć • ścinać się",
     "level": "B2"
   },
   {
     "de": "Gerippe",
     "de_article": "das",
     "de_plural": "die Gerippe",
-    "lv": "Szkielet • Ciało • Szkielet",
+    "lv": "szkielet • kościotrup",
     "level": "B2"
   },
   {
     "de": "Gerüst",
     "de_article": "das",
     "de_plural": "die Gerüste",
-    "lv": "Rusztowanie",
+    "lv": "rusztowanie",
     "level": "B2"
   },
   {
     "de": "Gesamtzahl",
     "de_article": "die",
     "de_plural": "die Gesamtzahlen",
-    "lv": "Całkowity",
+    "lv": "ogólna liczba • łączna liczba",
     "level": "B2"
   },
   {
     "de": "Gesandte",
     "de_article": "der",
     "de_plural": "die Gesandten",
-    "lv": "Posłaniec",
+    "lv": "poseł • wysłannik",
     "level": "B2"
   },
   {
     "de": "geschäftig",
-    "lv": "Aktywny • Żywy",
+    "lv": "ruchliwy • zabiegany",
     "level": "B2"
   },
   {
     "de": "Geschehnis",
     "de_article": "das",
     "de_plural": "die Geschehnisse",
-    "lv": "Wydarzenie • Przypadek • Incydent",
+    "lv": "wydarzenie • zdarzenie",
     "level": "B2"
   },
   {
     "de": "Geschiedene",
     "de_article": "der",
     "de_plural": "die Geschiedenen",
-    "lv": "Rozwód",
+    "lv": "rozwodnik",
     "level": "B2"
   },
   {
     "de": "Geschöpf",
     "de_article": "das",
     "de_plural": "die Geschöpfe",
-    "lv": "Stworzenie • Stworzenie • Istota",
+    "lv": "stworzenie • istota",
     "level": "B2"
   },
   {
     "de": "Geschoss",
     "de_article": "das",
     "de_plural": "die Geschosse",
-    "lv": "Pocisk",
+    "lv": "pocisk",
     "level": "B2"
   },
   {
     "de": "Geschütz",
     "de_article": "das",
     "de_plural": "die Geschütze",
-    "lv": "Armata",
+    "lv": "działo",
     "level": "B2"
   },
   {
     "de": "Geschwätz",
     "de_article": "das",
     "de_plural": "die Geschwätze",
-    "lv": "Gadać • Kłamać • Gadać",
+    "lv": "gadanina • brednie",
     "level": "B2"
   },
   {
     "de": "geschweige",
-    "lv": "Nie wspominając",
+    "lv": "nie mówiąc już o",
     "level": "B2"
   },
   {
     "de": "geschwind",
-    "lv": "Szybki • Zwinny • Zwinny",
+    "lv": "szybki • prędki",
     "level": "B2"
   },
   {
     "de": "Geschwulst",
     "de_article": "die",
     "de_plural": "die Geschwülste",
-    "lv": "Guz",
+    "lv": "guz • nowotwór",
     "level": "B2"
   },
   {
     "de": "Geschwür",
     "de_article": "das",
     "de_plural": "die Geschwüre",
-    "lv": "Roślina • Wrzód",
+    "lv": "wrzód",
     "level": "B2"
   },
   {
     "de": "Geselle",
     "de_article": "der",
     "de_plural": "die Gesellen",
-    "lv": "Zellis • Pomocnik • Facet • Rzemieślnik, który zdał egzamin po lekcjach",
+    "lv": "czeladnik",
     "level": "B2"
   },
   {
     "de": "sich gesellen",
-    "lv": "Dołączyć",
+    "lv": "przyłączyć się • dołączyć",
     "level": "B2",
     "study": {
       "id": "b2-sich-gesellen",
-      "layout": "minimalStudy",
-      "translation": "Dołączyć",
-      "rektion": "zu + kam?",
-      "explanation": "sich gesellen wymaga przyimka określonego zu + kam?.",
-      "forms": "zu + kam?",
-      "formsLabel": "Kierownictwo:",
+      "layout": "standardStudy",
+      "translation": "przyłączyć się • dołączyć",
+      "explanation": [
+        "Główna myśl: sich gesellen znaczy przyłączyć się do osoby lub grupy, usiąść albo stanąć razem z nimi. Może też wyrażać, że do czegoś dochodzi jeszcze coś innego (Zu der Kälte gesellte sich Regen).",
+        "Z zu + celownik nazywa się tego, do kogo ktoś dołącza: sich zu jemandem gesellen. Formy: gesellt sich, gesellte sich, hat sich gesellt. Język jest nieco książkowy.",
+        "Znane przysłowie: Gleich und gleich gesellt sich gern. — swój ciągnie do swego."
+      ],
+      "examples": [
+        {
+          "de": "Er gesellte sich zu uns an den Tisch.",
+          "lv": "Dołączył do nas przy stole."
+        },
+        {
+          "de": "Zu der Kälte gesellte sich noch Regen.",
+          "lv": "Do zimna doszedł jeszcze deszcz."
+        },
+        {
+          "de": "Darf ich mich zu Ihnen gesellen?",
+          "lv": "Czy mogę się do państwa przyłączyć?"
+        },
+        {
+          "de": "Sie gesellte sich zu den anderen Gästen.",
+          "lv": "Dołączyła do pozostałych gości."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich anschließen",
+          "meaning": "przyłączać się",
+          "example": "Ich schließe mich der Gruppe an. – Przyłączam się do grupy."
+        },
+        {
+          "word": "dazukommen",
+          "meaning": "dołączać, dochodzić",
+          "example": "Er kommt später dazu. – Dołączy później."
+        },
+        {
+          "word": "begleiten",
+          "meaning": "odprowadzać, towarzyszyć",
+          "example": "Ich begleite dich nach Hause. – Odprowadzę cię do domu."
+        }
+      ],
+      "tip": [
+        "Po sich gesellen następuje zu + celownik: zu uns, zu ihm, zu den Gästen.",
+        "Słowo dobrze pasuje, gdy ktoś dołącza swobodnie, na przykład do towarzystwa przy stole."
+      ],
+      "important": [
+        "Na formalne wstąpienie do organizacji zwykle używa się sich anschließen lub beitreten, a nie sich gesellen.",
+        "Z sich gesellen związany jest wyraz der Geselle (czeladnik lub towarzysz)."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
+            "gesellen",
+            "gesellte",
+            "gesellt",
             "sich gesellen"
           ],
-          "red": [
-            "zu + kam?"
+          "purple": [
+            "przyłączyć się",
+            "dołącza"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "gesellte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Dołączył"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "gesellte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "doszedł"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "gesellen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "przyłączyć"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "gesellte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Dołączyła"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich anschließen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "przyłączać się"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "dazukommen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "dołączać"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "begleiten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "odprowadzać"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "sich gesellen",
+              "gesellen"
+            ]
+          },
+          {}
+        ],
+        "important": [
+          {
+            "blue": [
+              "sich gesellen",
+              "gesellen"
+            ],
+            "green": [
+              "sich anschließen"
+            ]
+          },
+          {
+            "blue": [
+              "sich gesellen",
+              "gesellen"
+            ]
+          }
+        ]
       }
     }
   },
@@ -6227,49 +14149,218 @@ const B2_WORDS = [
     "de": "Gesichtszug",
     "de_article": "der",
     "de_plural": "die Gesichtszüge",
-    "lv": "Funkcja",
+    "lv": "rys twarzy",
     "level": "B2"
   },
   {
     "de": "Gesinnung",
     "de_article": "die",
     "de_plural": "die Gesinnungen",
-    "lv": "Przekonania • Nastrój",
+    "lv": "poglądy • nastawienie",
     "level": "B2"
   },
   {
     "de": "Gespött",
     "de_article": "das",
-    "lv": "Ząbkowanie",
+    "lv": "drwiny • pośmiewisko",
     "level": "B2"
   },
   {
     "de": "Gespür",
     "de_article": "das",
-    "lv": "Intuicja",
+    "lv": "wyczucie • intuicja",
     "level": "B2"
   },
   {
     "de": "sich gestalten",
-    "lv": "Uformować się",
+    "lv": "kształtować się • układać się",
     "level": "B2",
     "study": {
       "id": "b2-sich-gestalten",
-      "layout": "minimalStudy",
-      "translation": "Uformować się",
-      "rektion": "zu + kam?",
-      "explanation": "sich gestalten wymaga przyimka określonego zu + kam?.",
-      "forms": "zu + kam?",
-      "formsLabel": "Kierownictwo:",
+      "layout": "standardStudy",
+      "translation": "kształtować się • układać się",
+      "explanation": [
+        "Główna myśl: sich gestalten znaczy kształtować się, układać się — o wydarzeniu, negocjacjach czy przyszłości: jak to wszystko się potoczy. Zwykle następuje przymiotnik (schwierig, positiv) lub zu + celownik (zu einem Erfolg).",
+        "Formy: gestaltet sich, gestaltete sich, hat sich gestaltet. Podmiotem jest zwykle wyraz abstrakcyjny: Verhandlungen, Zukunft, Abend, Zusammenarbeit.",
+        "Bez sich czasownik gestalten znaczy kształtować, urządzać, projektować (den Garten gestalten)."
+      ],
+      "examples": [
+        {
+          "de": "Die Verhandlungen gestalten sich schwierig.",
+          "lv": "Negocjacje układają się trudno."
+        },
+        {
+          "de": "Der Abend gestaltete sich zu einem Erfolg.",
+          "lv": "Wieczór okazał się sukcesem."
+        },
+        {
+          "de": "Wie wird sich die Zukunft gestalten?",
+          "lv": "Jak ukształtuje się przyszłość?"
+        },
+        {
+          "de": "Das Treffen gestaltete sich anders als geplant.",
+          "lv": "Spotkanie potoczyło się inaczej, niż planowano."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "gestalten",
+          "meaning": "kształtować, urządzać",
+          "example": "Wir gestalten den Garten neu. – Urządzamy ogród na nowo."
+        },
+        {
+          "word": "werden",
+          "meaning": "stawać się, zostawać",
+          "example": "Er wird Lehrer. – Zostaje nauczycielem."
+        },
+        {
+          "word": "sich entwickeln",
+          "meaning": "rozwijać się",
+          "example": "Das Kind entwickelt sich gut. – Dziecko dobrze się rozwija."
+        }
+      ],
+      "tip": [
+        "Częste połączenie: sich schwierig gestalten — okazać się trudnym, przebiegać z trudem.",
+        "W stylu biznesowym i urzędowym: Die Zusammenarbeit gestaltet sich erfolgreich."
+      ],
+      "important": [
+        "sich gestalten używa się zwykle w języku formalnym; na co dzień prościej powiesz werden lub verlaufen.",
+        "Podmiotem zwykle nie jest człowiek, lecz wydarzenie lub proces."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich gestalten"
+            "sich gestalten",
+            "gestalten",
+            "gestaltet",
+            "gestaltete",
+            "sich"
           ],
-          "red": [
-            "zu + kam?"
+          "purple": [
+            "kształtować się",
+            "układać się",
+            "kształtować"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "gestalten",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "układają się"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "gestaltete",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "okazał się"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sich",
+                "gestalten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ukształtuje"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "gestaltete",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "potoczyło"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "gestalten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "urządzać"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "werden"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "stawać się"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich entwickeln"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "rozwijać się"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "gestalten",
+              "sich"
+            ]
+          },
+          {
+            "blue": [
+              "gestaltet",
+              "sich"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "sich gestalten",
+              "gestalten",
+              "sich"
+            ],
+            "green": [
+              "werden"
+            ]
+          },
+          {}
+        ]
       }
     }
   },
@@ -6277,755 +14368,1290 @@ const B2_WORDS = [
     "de": "Geständnis",
     "de_article": "das",
     "de_plural": "die Geständnisse",
-    "lv": "Wyznanie",
+    "lv": "wyznanie • przyznanie się",
     "level": "B2"
   },
   {
     "de": "gestehen",
-    "lv": "Przyznać • Przyznać",
+    "lv": "przyznać się • wyznać",
     "level": "B2"
   },
   {
     "de": "Gestein",
     "de_article": "das",
     "de_plural": "die Gesteine",
-    "lv": "Skała",
+    "lv": "skała",
     "level": "B2"
   },
   {
     "de": "Gestell",
     "de_article": "das",
     "de_plural": "die Gestelle",
-    "lv": "Stojak • Rozpórka • Podwozie",
+    "lv": "stojak • rama • podwozie",
     "level": "B2"
   },
   {
     "de": "Gestrüpp",
     "de_article": "das",
     "de_plural": "die Gestrüppe",
-    "lv": "Krzak",
+    "lv": "zarośla • chaszcze",
     "level": "B2"
   },
   {
     "de": "Gesuch",
     "de_article": "das",
     "de_plural": "die Gesuche",
-    "lv": "Żądanie • Złożenie",
+    "lv": "podanie • prośba",
     "level": "B2"
   },
   {
     "de": "Getriebe",
     "de_article": "das",
     "de_plural": "die Getriebe",
-    "lv": "Silnik",
+    "lv": "przekładnia • skrzynia biegów",
     "level": "B2"
   },
   {
     "de": "getüpfelt",
-    "lv": "Kropkowany",
+    "lv": "kropkowany • w kropki",
     "level": "B2"
   },
   {
     "de": "Gewähr",
     "de_article": "die",
-    "lv": "Bezpieczeństwo • Poręczenie • Gwarancja",
+    "lv": "gwarancja • rękojmia",
     "level": "B2"
   },
   {
     "de": "gewähren",
-    "lv": "Dać • Przypisać",
+    "lv": "udzielić • przyznać",
     "level": "B2"
   },
   {
     "de": "gewaltsam",
-    "lv": "Siłą • Siłą",
+    "lv": "siłą • przemocą",
     "level": "B2"
   },
   {
     "de": "Gewalttat",
     "de_article": "die",
     "de_plural": "die Gewalttaten",
-    "lv": "Przemoc • Akt przemocy",
+    "lv": "akt przemocy",
     "level": "B2"
   },
   {
     "de": "gewandt",
-    "lv": "Zwinny • Zręczny",
+    "lv": "zręczny • obrotny",
     "level": "B2"
   },
   {
     "de": "Gewässer",
     "de_article": "das",
     "de_plural": "die Gewässer",
-    "lv": "Fale",
+    "lv": "wody • akwen",
     "level": "B2"
   },
   {
     "de": "Gewebe",
     "de_article": "das",
     "de_plural": "die Gewebe",
-    "lv": "Tkanina • Chusteczka",
+    "lv": "tkanina • tkanka",
     "level": "B2"
   },
   {
     "de": "Gewerbe",
     "de_article": "das",
     "de_plural": "die Gewerbe",
-    "lv": "Stanowisko • Handel • Stała praca w handlu lub rzemiośle albo świadczenie usług",
+    "lv": "rzemiosło • zawód • działalność gospodarcza",
     "level": "B2"
   },
   {
     "de": "gewieft",
-    "lv": "Temperamentny • Bystry",
+    "lv": "cwany • obrotny",
     "level": "B2"
   },
   {
     "de": "gewissenlos",
-    "lv": "Bez sumienia • Nieuczciwy",
+    "lv": "bez sumienia • pozbawiony skrupułów",
     "level": "B2"
   },
   {
     "de": "Gewissheit",
     "de_article": "die",
     "de_plural": "die Gewissheiten",
-    "lv": "Przejrzystość • Bezpieczeństwo • Pewność",
+    "lv": "pewność",
     "level": "B2"
   },
   {
     "de": "Gezeiten",
     "de_article": "die",
-    "lv": "Przypływy",
+    "lv": "pływy",
     "level": "B2"
   },
   {
     "de": "gierig",
-    "lv": "Chętny • Chciwy • Chciwy",
+    "lv": "chciwy • łapczywy • żądny",
     "level": "B2"
   },
   {
     "de": "geldgierig",
-    "lv": "Chciwy na pieniądze",
+    "lv": "żądny pieniędzy • chciwy",
     "level": "B2"
   },
   {
     "de": "machtgierig",
-    "lv": "Żądny władzy",
+    "lv": "żądny władzy",
     "level": "B2"
   },
   {
     "de": "rachgierig",
-    "lv": "Żądza zemsty",
+    "lv": "mściwy • żądny zemsty",
     "level": "B2"
   },
   {
     "de": "raffgierig",
-    "lv": "Czarujące",
+    "lv": "zachłanny • chciwy",
     "level": "B2"
   },
   {
     "de": "Giftmüll",
     "de_article": "der",
-    "lv": "Toksyczne odpady",
+    "lv": "odpady toksyczne",
     "level": "B2"
   },
   {
     "de": "Gipsabdruck",
     "de_article": "der",
     "de_plural": "die Gipsabdrücke",
-    "lv": "Odcisk gipsu",
+    "lv": "odlew gipsowy",
     "level": "B2"
   },
   {
     "de": "Gipsverband",
     "de_article": "der",
     "de_plural": "die Gipsverbände",
-    "lv": "Bandaż gipsowy",
+    "lv": "opatrunek gipsowy • gips",
     "level": "B2"
   },
   {
     "de": "Glaser",
     "de_article": "der",
     "de_plural": "die Glaser",
-    "lv": "Szklarz",
+    "lv": "szklarz",
     "level": "B2"
   },
   {
     "de": "gläsern",
-    "lv": "Szkło • Szkliste",
+    "lv": "szklany",
     "level": "B2"
   },
   {
     "de": "Glasfiber",
     "de_article": "die",
-    "lv": "Włókno szklane",
+    "lv": "włókno szklane",
     "level": "B2"
   },
   {
     "de": "Glashütte",
     "de_article": "die",
     "de_plural": "die Glashütten",
-    "lv": "Fabryka szkła",
+    "lv": "huta szkła",
     "level": "B2"
   },
   {
     "de": "Glasur",
     "de_article": "die",
     "de_plural": "die Glasuren",
-    "lv": "Glazura • Glazura",
+    "lv": "glazura • polewa • lukier",
     "level": "B2"
   },
   {
     "de": "Glatze",
     "de_article": "die",
     "de_plural": "die Glatzen",
-    "lv": "Goła głowa",
+    "lv": "łysina",
     "level": "B2"
   },
   {
     "de": "Stirnglatze",
     "de_article": "die",
     "de_plural": "die Stirnglatzen",
-    "lv": "Odsłonięte czoło",
+    "lv": "zakola",
     "level": "B2"
   },
   {
     "de": "gleichmütig",
-    "lv": "Złożony • Zimnokrwisty",
+    "lv": "niewzruszony • opanowany",
     "level": "B2"
   },
   {
     "de": "Gleichnis",
     "de_article": "das",
     "de_plural": "die Gleichnisse",
-    "lv": "Podobieństwo",
+    "lv": "przypowieść • porównanie",
     "level": "B2"
   },
   {
     "de": "gleiten",
-    "lv": "Szybować • Szybować",
+    "lv": "ślizgać się • sunąć • szybować",
     "level": "B2"
   },
   {
     "de": "Glied",
     "de_article": "das",
     "de_plural": "die Glieder",
-    "lv": "Członek • Kończyna • Członek łańcucha • Ogniwo",
+    "lv": "członek • kończyna • ogniwo",
     "level": "B2"
   },
   {
     "de": "gliedern",
-    "lv": "Podzielić",
+    "lv": "dzielić",
     "level": "B2"
   },
   {
     "de": "glimmen",
-    "lv": "Świecić • Świecić • Tlić się",
+    "lv": "tlić się • żarzyć się",
     "level": "B2"
   },
   {
     "de": "glotzen",
-    "lv": "Zez",
+    "lv": "gapić się",
     "level": "B2"
   },
   {
     "de": "glühen",
-    "lv": "Świecić • Płonąć • Płonąć • Płonąć",
+    "lv": "żarzyć się • płonąć • pałać",
     "level": "B2"
   },
   {
     "de": "Glut",
     "de_article": "die",
     "de_plural": "die Gluten",
-    "lv": "Blask • Blask • Wielkie ciepło",
-    "level": "B2"
+    "lv": "żar • upał",
+    "level": "B2",
+    "study": {
+      "id": "b2-glut",
+      "layout": "standardStudy",
+      "translation": "żar • upał",
+      "explanation": [
+        "Główna myśl: die Glut to rzeczownik rodzaju żeńskiego. Oznacza żarzące się węgle lub gorący żar dogasającego ognia, a także bardzo silne gorąco, upał, spiekotę (die Glut der Sonne). W znaczeniu przenośnym Glut to także namiętność, zapał.",
+        "Liczba mnoga jest rzadka (die Gluten), zwykle używa się liczby pojedynczej: die Glut. Częste zwroty: die Glut anfachen (rozdmuchać żar), unter der Asche glimmt noch Glut (pod popiołem jeszcze tli się żar)."
+      ],
+      "examples": [
+        {
+          "de": "Die Glut des Lagerfeuers wärmte uns noch.",
+          "lv": "Żar ogniska jeszcze nas grzał."
+        },
+        {
+          "de": "In der Glut der Mittagssonne ruhte das ganze Dorf.",
+          "lv": "W skwarze południowego słońca cała wieś odpoczywała."
+        },
+        {
+          "de": "Er blies in die Glut, bis wieder Flammen aufstiegen.",
+          "lv": "Dmuchał w żar, aż znów buchnęły płomienie."
+        },
+        {
+          "de": "Mit großer Glut sprach sie über ihr Projekt.",
+          "lv": "Mówiła o swoim projekcie z wielkim zapałem."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "die Hitze",
+          "meaning": "upał, gorąco",
+          "example": "Im Sommer ist die Hitze groß. – Latem panuje wielki upał."
+        },
+        {
+          "word": "die Asche",
+          "meaning": "popiół",
+          "example": "Unter der Asche liegt noch Glut. – Pod popiołem jest jeszcze żar."
+        },
+        {
+          "word": "die Flamme",
+          "meaning": "płomień",
+          "example": "Die Flamme wird kleiner. – Płomień robi się mniejszy."
+        }
+      ],
+      "tip": [
+        "Glut oznacza pozostały po ogniu czerwony żar, a Flamme — widoczny płomień.",
+        "W kontekście ogniska zapamiętaj: Feuer — ogień, Flamme — płomień, Glut — żarzące się węgle."
+      ],
+      "important": [
+        "Glut zwykle występuje w liczbie pojedynczej; liczba mnoga die Gluten jest bardzo rzadka.",
+        "Do opisu zwykłego gorąca zwykle wystarczy die Hitze; Glut brzmi mocniej, bardziej poetycko."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "die Glut",
+            "Glut",
+            "Gluten"
+          ],
+          "purple": [
+            "żar",
+            "upał",
+            "gorąco"
+          ],
+          "green": [
+            "Asche"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Glut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Żar"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Glut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "skwarze"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Glut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "żar"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Glut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "zapałem"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "die Hitze"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "upał"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Asche"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "popiół"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Flamme"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "płomień"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "Glut"
+            ],
+            "green": [
+              "Flamme"
+            ]
+          },
+          {
+            "blue": [
+              "Glut"
+            ],
+            "green": [
+              "Flamme"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "Glut",
+              "Gluten"
+            ]
+          },
+          {
+            "blue": [
+              "Glut"
+            ],
+            "green": [
+              "die Hitze",
+              "Hitze"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Gnade",
     "de_article": "die",
     "de_plural": "die Gnaden",
-    "lv": "Miłosierdzie • Przebaczenie",
-    "level": "B2"
+    "lv": "łaska • ułaskawienie",
+    "level": "B2",
+    "study": {
+      "id": "b2-gnade",
+      "layout": "standardStudy",
+      "translation": "łaska • ułaskawienie",
+      "explanation": [
+        "Główna myśl: die Gnade to rzeczownik rodzaju żeńskiego. Oznacza łaskę, miłosierdzie — przychylność ze strony tego, kto ma władzę, a także ułaskawienie, darowanie kary.",
+        "Liczba mnoga jest używana rzadko (die Gnaden). Częste połączenia: um Gnade bitten (prosić o łaskę, o ułaskawienie), Gnade walten lassen (okazać łaskę), auf Gnade und Ungnade (całkowicie na czyjąś łaskę i niełaskę), die Gnade Gottes (łaska Boża)."
+      ],
+      "examples": [
+        {
+          "de": "Der Verurteilte bat um Gnade.",
+          "lv": "Skazany prosił o łaskę."
+        },
+        {
+          "de": "Der Präsident ließ Gnade walten.",
+          "lv": "Prezydent okazał łaskę."
+        },
+        {
+          "de": "Wir sind ihm auf Gnade und Ungnade ausgeliefert.",
+          "lv": "Jesteśmy zdani na jego łaskę i niełaskę."
+        },
+        {
+          "de": "Er verdankt sein Leben der Gnade des Königs.",
+          "lv": "Zawdzięcza życie łasce króla."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "das Mitleid",
+          "meaning": "współczucie, litość",
+          "example": "Ich habe Mitleid mit ihm. – Żal mi go."
+        },
+        {
+          "word": "die Begnadigung",
+          "meaning": "ułaskawienie",
+          "example": "Die Begnadigung wurde abgelehnt. – Ułaskawienia odmówiono."
+        },
+        {
+          "word": "die Gunst",
+          "meaning": "przychylność, względy",
+          "example": "Er genießt die Gunst des Chefs. – Cieszy się przychylnością szefa."
+        }
+      ],
+      "tip": [
+        "Zapamiętaj połączenie um Gnade bitten (prosić o łaskę); przyimek um wymaga biernika.",
+        "Razem z walten lassen mówi się Gnade walten lassen — okazać łaskę."
+      ],
+      "important": [
+        "Gnade dotyczy przychylności kogoś wyżej postawionego albo Boga; zwykłą litość wobec innych nazywa się Mitleid.",
+        "Nie myl z Gunst (przychylność, życzliwy stosunek)."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Gnade",
+            "Gnaden"
+          ],
+          "purple": [
+            "łaskę",
+            "ułaskawienie",
+            "łaska"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Gnade"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "łaskę"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Gnade"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "łaskę"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Gnade"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Gnade"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "łasce"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "das Mitleid"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "współczucie"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Begnadigung"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ułaskawienie"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Gunst"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "przychylność"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "Gnade"
+            ]
+          },
+          {
+            "blue": [
+              "Gnade"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "Gnade"
+            ],
+            "green": [
+              "Mitleid"
+            ]
+          },
+          {
+            "green": [
+              "Gunst"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Gnadenbrot",
     "de_article": "das",
-    "lv": "Chleb łaski",
+    "lv": "łaskawy chleb",
     "level": "B2"
   },
   {
     "de": "gnädig",
-    "lv": "Łaskawy • Szanowany",
+    "lv": "łaskawy",
     "level": "B2"
   },
   {
     "de": "Goldader",
     "de_article": "die",
     "de_plural": "die Goldadern",
-    "lv": "Złota żyła",
+    "lv": "żyła złota",
     "level": "B2"
   },
   {
     "de": "Goldbarren",
     "de_article": "der",
     "de_plural": "die Goldbarren",
-    "lv": "Sztabka złota",
+    "lv": "sztaba złota",
     "level": "B2"
   },
   {
     "de": "Goldlegierung",
     "de_article": "die",
     "de_plural": "die Goldlegierungen",
-    "lv": "Stop złota",
+    "lv": "stop złota",
     "level": "B2"
   },
   {
     "de": "Goldmine",
     "de_article": "die",
     "de_plural": "die Goldminen",
-    "lv": "Kopalnia złota",
+    "lv": "kopalnia złota",
     "level": "B2"
   },
   {
     "de": "Goldwäscher",
     "de_article": "der",
     "de_plural": "die Goldwäscher",
-    "lv": "Złota podkładka",
+    "lv": "poszukiwacz złota",
     "level": "B2"
   },
   {
     "de": "Goldschmied",
     "de_article": "der",
     "de_plural": "die Goldschmiede",
-    "lv": "Złotnik",
+    "lv": "złotnik",
     "level": "B2"
   },
   {
     "de": "Gondel",
     "de_article": "die",
     "de_plural": "die Gondeln",
-    "lv": "Gondola • Kolejka linowa",
+    "lv": "gondola • wagonik kolejki linowej",
     "level": "B2"
   },
   {
     "de": "Gönner",
     "de_article": "der",
     "de_plural": "die Gönner",
-    "lv": "Dobroczyńca • Patron",
+    "lv": "dobroczyńca • mecenas • protektor",
     "level": "B2"
   },
   {
     "de": "Gottheit",
     "de_article": "die",
     "de_plural": "die Gottheiten",
-    "lv": "Bóstwo",
+    "lv": "bóstwo",
     "level": "B2"
   },
   {
     "de": "Götze",
     "de_article": "der",
     "de_plural": "die Götzen",
-    "lv": "Idol",
+    "lv": "bożek • bałwan",
     "level": "B2"
   },
   {
     "de": "Götzendienst",
     "de_article": "der",
-    "lv": "Służąc idolowi",
+    "lv": "bałwochwalstwo",
     "level": "B2"
   },
   {
     "de": "Grabung",
     "de_article": "die",
     "de_plural": "die Grabungen",
-    "lv": "Wykopaliska",
+    "lv": "wykopaliska",
     "level": "B2"
   },
   {
     "de": "grässlich",
-    "lv": "Okropne • Okropne • Obrzydliwe • Okropne",
+    "lv": "okropny • straszny • ohydny",
     "level": "B2"
   },
   {
     "de": "grauen",
-    "lv": "Splot",
+    "lv": "świtać",
     "level": "B2"
   },
   {
     "de": "sich grauen",
-    "lv": "Się bać",
+    "lv": "bać się • odczuwać grozę",
     "level": "B2",
     "study": {
       "id": "b2-sich-grauen",
-      "layout": "minimalStudy",
-      "translation": "Się bać",
-      "rektion": "vor + kam?",
-      "explanation": "sich grauen wymaga przyimka określonego vor + kam?.",
-      "forms": "vor + kam?",
-      "formsLabel": "Kierownictwo:",
+      "layout": "standardStudy",
+      "translation": "bać się • odczuwać grozę",
+      "explanation": [
+        "Główna myśl: sich grauen znaczy odczuwać strach, obawę, odrazę lub niechęć z góry — bać się czegoś nieprzyjemnego, co ma nastąpić. W języku standardowym prawie zawsze używa się go w formie nieosobowej: Mir graut vor …, Es graut mir vor … (celownik).",
+        "Z vor + celownik nazywa się to, czego ktoś się boi: Mir graut vor der Prüfung. Formę z zaimkiem zwrotnym (ich graue mich) też się słyszy, ale rzadziej. Perfekt: hat gegraut.",
+        "Słowo jest związane z das Grauen (groza, przerażenie)."
+      ],
+      "examples": [
+        {
+          "de": "Mir graut vor der Prüfung.",
+          "lv": "Boję się egzaminu."
+        },
+        {
+          "de": "Es graut ihm vor dem Winter.",
+          "lv": "Boi się zimy."
+        },
+        {
+          "de": "Mir graut davor, allein zu wohnen.",
+          "lv": "Boję się mieszkać sam."
+        },
+        {
+          "de": "Vor dem Montagmorgen graut es mir schon jetzt.",
+          "lv": "Już teraz boję się poniedziałkowego poranka."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich fürchten",
+          "meaning": "bać się",
+          "example": "Ich fürchte mich vor Spinnen. – Boję się pająków."
+        },
+        {
+          "word": "Angst haben",
+          "meaning": "odczuwać strach, bać się",
+          "example": "Er hat Angst vor Hunden. – Boi się psów."
+        },
+        {
+          "word": "das Grauen",
+          "meaning": "groza, przerażenie",
+          "example": "Das Grauen packte ihn. – Ogarnęła go groza."
+        }
+      ],
+      "tip": [
+        "Tego słowa używa się w konstrukcji nieosobowej: Mir graut vor …",
+        "Na co dzień bezpieczniej wybrać Angst haben vor + celownik lub sich fürchten vor + celownik."
+      ],
+      "important": [
+        "Osoba, która się boi, często stoi w celowniku (mir, ihm), a nie w mianowniku.",
+        "Gdy mówisz Mir graut, nie dodawaj zaimka zwrotnego."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
+            "grauen",
+            "graut",
             "sich grauen"
           ],
-          "red": [
-            "vor + kam?"
+          "purple": [
+            "bać się",
+            "strach"
+          ],
+          "green": [
+            "das Grauen",
+            "Grauen"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "graut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Boję się"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "graut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Boi się"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "graut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Boję się"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "graut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "boję się"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich fürchten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "bać się"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "Angst haben"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "strach"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "das Grauen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "groza"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "graut"
+            ]
+          },
+          {
+            "green": [
+              "sich fürchten",
+              "Angst haben"
+            ]
+          }
+        ],
+        "important": [
+          {},
+          {
+            "blue": [
+              "graut"
+            ]
+          }
+        ]
       }
     }
   },
   {
     "de": "grausam",
-    "lv": "Okrutny • Surowy",
+    "lv": "okrutny • srogi",
     "level": "B2"
   },
   {
     "de": "gravierend",
-    "lv": "Istotne",
+    "lv": "poważny • istotny",
     "level": "B2"
   },
   {
     "de": "Greis",
     "de_article": "der",
     "de_plural": "die Greise",
-    "lv": "Stary",
+    "lv": "starzec",
     "level": "B2"
   },
   {
     "de": "grell",
-    "lv": "Genialny • Olśniewający",
+    "lv": "jaskrawy • rażący",
     "level": "B2"
   },
   {
     "de": "Grenzbeamte",
     "de_article": "der",
     "de_plural": "die Grenzbeamten",
-    "lv": "Funkcjonariusz straży granicznej",
+    "lv": "strażnik graniczny",
     "level": "B2"
   },
   {
     "de": "Grenzbezirk",
     "de_article": "der",
     "de_plural": "die Grenzbezirke",
-    "lv": "Obszar przygraniczny",
+    "lv": "okręg przygraniczny",
     "level": "B2"
   },
   {
     "de": "Grenzkonflikt",
     "de_article": "der",
     "de_plural": "die Grenzkonflikte",
-    "lv": "Konflikt graniczny",
+    "lv": "konflikt graniczny",
     "level": "B2"
   },
   {
     "de": "Grenzverkehr",
     "de_article": "der",
-    "lv": "Ruch graniczny",
+    "lv": "ruch graniczny",
     "level": "B2"
   },
   {
     "de": "Grenzbereich",
     "de_article": "der",
     "de_plural": "die Grenzbereiche",
-    "lv": "Pas przygraniczny • Strefa przygraniczna • Terytorium po obu stronach granicy",
+    "lv": "strefa przygraniczna • pogranicze",
     "level": "B2"
   },
   {
     "de": "Grimm",
     "de_article": "der",
-    "lv": "Wielki gniew • Wściekłość • Gniew",
+    "lv": "gniew • złość • wściekłość",
     "level": "B2"
   },
   {
     "de": "grinsen",
-    "lv": "Uśmiechać się",
+    "lv": "uśmiechać się szeroko • szczerzyć zęby",
     "level": "B2"
   },
   {
     "de": "Großmacht",
     "de_article": "die",
     "de_plural": "die Großmächte",
-    "lv": "Wielka moc",
+    "lv": "mocarstwo",
     "level": "B2"
   },
   {
     "de": "Großmut",
     "de_article": "die",
-    "lv": "Hojność",
+    "lv": "wielkoduszność",
     "level": "B2"
   },
   {
     "de": "großmütig",
-    "lv": "Hojny",
+    "lv": "wielkoduszny",
     "level": "B2"
   },
   {
     "de": "Gründonnerstag",
     "de_article": "der",
     "de_plural": "die Gründonnerstage",
-    "lv": "Zielony Czwartek przed Wielkanocą",
+    "lv": "Wielki Czwartek",
     "level": "B2"
   },
   {
     "de": "Grundrecht",
     "de_article": "das",
     "de_plural": "die Grundrechte",
-    "lv": "Prawa podstawowe",
+    "lv": "prawo podstawowe",
     "level": "B2"
   },
   {
     "de": "Grundriss",
     "de_article": "der",
     "de_plural": "die Grundrisse",
-    "lv": "Plan",
+    "lv": "rzut poziomy • plan",
     "level": "B2"
   },
   {
     "de": "Grußwort",
     "de_article": "das",
     "de_plural": "die Grußworte",
-    "lv": "Krótki oficjalny adres",
+    "lv": "przemówienie powitalne",
     "level": "B2"
   },
   {
     "de": "Gummizug",
     "de_article": "der",
     "de_plural": "die Gummizüge",
-    "lv": "Elastyczna opaska",
+    "lv": "gumka • ściągacz",
     "level": "B2"
   },
   {
     "de": "Gunst",
     "de_article": "die",
-    "lv": "Przychylność",
+    "lv": "przychylność • łaska",
     "level": "B2"
   },
   {
     "de": "Günstling",
     "de_article": "der",
     "de_plural": "die Günstlinge",
-    "lv": "Ulubiony • Protegowany",
+    "lv": "faworyt • ulubieniec • protegowany",
     "level": "B2"
   },
   {
     "de": "gurgeln",
-    "lv": "Płukać gardło • Usta",
+    "lv": "płukać gardło",
     "level": "B2"
   },
   {
     "de": "Guss",
     "de_article": "der",
     "de_plural": "die Güsse",
-    "lv": "Odlewanie • Wylewanie • Ulewa",
+    "lv": "odlew • odlewanie • ulewa",
     "level": "B2"
   },
   {
     "de": "Gutachten",
     "de_article": "das",
     "de_plural": "die Gutachten",
-    "lv": "Informacja zwrotna • Opinia eksperta",
+    "lv": "opinia • ekspertyza",
     "level": "B2"
   },
   {
     "de": "Güte",
     "de_article": "die",
-    "lv": "Życzliwość • Jakość • Korzyść",
+    "lv": "dobroć • jakość",
     "level": "B2"
   },
   {
     "de": "Güterversand",
     "de_article": "der",
     "de_plural": null,
-    "lv": "Wysyłka towaru",
+    "lv": "wysyłka towarów",
     "level": "B2"
   },
   {
     "de": "Gütezeichen",
     "de_article": "das",
     "de_plural": "die Gütezeichen",
-    "lv": "Znak jakości",
+    "lv": "znak jakości",
     "level": "B2"
   },
   {
     "de": "gutheißen",
-    "lv": "Uznać za dobre",
+    "lv": "aprobować • pochwalać",
     "level": "B2"
   },
   {
     "de": "gutmütig",
-    "lv": "Życzliwy",
+    "lv": "dobroduszny",
     "level": "B2"
   },
   {
     "de": "haaren",
-    "lv": "Rzucić pióro",
+    "lv": "linieć",
     "level": "B2"
   },
   {
     "de": "habsüchtig",
-    "lv": "Chciwy • Chciwy",
+    "lv": "chciwy • zachłanny",
     "level": "B2"
   },
   {
     "de": "Hafenbecken",
     "de_article": "das",
     "de_plural": "die Hafenbecken",
-    "lv": "Obszar wodny portu",
+    "lv": "basen portowy",
     "level": "B2"
   },
   {
     "de": "Hafengebühr",
     "de_article": "die",
     "de_plural": "die Hafengebühren",
-    "lv": "Obowiązek portowy",
+    "lv": "opłata portowa",
     "level": "B2"
   },
   {
     "de": "Hafengelände",
     "de_article": "das",
     "de_plural": "die Hafengelände",
-    "lv": "Teren portu",
+    "lv": "teren portu",
     "level": "B2"
   },
   {
     "de": "Hahnenkamm",
     "de_article": "der",
     "de_plural": "die Hahnenkämme",
-    "lv": "Seks z kutasem",
+    "lv": "grzebień koguta",
     "level": "B2"
   },
   {
     "de": "Haltung",
     "de_article": "die",
     "de_plural": "die Haltungen",
-    "lv": "Postawa • Zachowanie",
+    "lv": "postawa • zachowanie",
     "level": "B2"
   },
   {
     "de": "Handelsflotte",
     "de_article": "die",
     "de_plural": "die Handelsflotten",
-    "lv": "Marynarka handlowa",
+    "lv": "flota handlowa",
     "level": "B2"
   },
   {
     "de": "Handelsklasse",
     "de_article": "die",
     "de_plural": "die Handelsklassen",
-    "lv": "Klasa towaru",
+    "lv": "klasa jakości",
     "level": "B2"
   },
   {
     "de": "Hängebrücke",
     "de_article": "die",
     "de_plural": "die Hängebrücken",
-    "lv": "Most wantowy",
+    "lv": "most wiszący",
     "level": "B2"
   },
   {
     "de": "Hängsel",
     "de_article": "das",
     "de_plural": "die Hängsel",
-    "lv": "Szyty wieszak na ubrania",
+    "lv": "pętelka do wieszania",
     "level": "B2"
   },
   {
     "de": "hänseln",
-    "lv": "Nerwus • Pisk",
+    "lv": "dokuczać • drażnić się",
     "level": "B2"
   },
   {
     "de": "hantieren",
-    "lv": "Działać • Działać z czym",
+    "lv": "posługiwać się • manipulować",
     "level": "B2"
   },
   {
     "de": "Harn",
     "de_article": "der",
     "de_plural": "die Harne",
-    "lv": "Mocz",
+    "lv": "mocz",
     "level": "B2"
   },
   {
     "de": "Harsch",
     "de_article": "der",
     "de_plural": "die Harsche",
-    "lv": "Siarka • Zamarznięty śnieg",
+    "lv": "szreń",
     "level": "B2"
   },
   {
     "de": "härten",
-    "lv": "Stwardnieć",
+    "lv": "hartować",
     "level": "B2"
   },
   {
     "de": "hartnäckig",
-    "lv": "Uparty • Wytrwały",
+    "lv": "uparty • wytrwały",
     "level": "B2"
   },
   {
     "de": "Haube",
     "de_article": "die",
     "de_plural": "die Hauben",
-    "lv": "Czapka • Kaptur",
+    "lv": "czepek • osłona",
     "level": "B2",
     "study": {
       "id": "b2-haube",
       "layout": "standardStudy",
-      "translation": "Czapka • Kaptur",
+      "translation": "czepek • osłona",
       "explanation": [
-        "Główna idea: die Haube może oznaczać czapkę/kaptur lub kaptur/osłonę – znaczenie określa kontekst.",
-        "Na głowie: die Haube = czapka, kaptur lub technika autorska w konkretnym kontekście (np. B. Nonne mit Haube).",
-        "W samochodzie: die Motorhaube lub einfach die Haube = maska.",
-        "W kuchni: die Dunsthaube = okap nad kuchenką. W technologii: kaptur lub osłona na urządzenie."
+        "Główna myśl: die Haube to rzeczownik rodzaju żeńskiego, liczba mnoga die Hauben. Pierwsze znaczenie — czepek okrywający głowę (dawny czepek kobiecy, nakrycie głowy zakonnicy). Drugie — osłona przykrywająca urządzenie: Motorhaube (maska silnika samochodu), Dunsthaube (okap nad kuchenką).",
+        "Idiom unter die Haube kommen w mowie potocznej znaczy wyjść za mąż, ożenić się."
       ],
       "examples": [
         {
-          "de": "Sie trägt eine warme Haube.",
-          "lv": "Nosi ciepłą czapkę."
-        },
-        {
-          "de": "Die Nonne trägt eine schwarze Haube.",
-          "lv": "Zakonnica nosi czarny kaptur."
+          "de": "Die Großmutter trug eine weiße Haube.",
+          "lv": "Babcia nosiła biały czepek."
         },
         {
           "de": "Er öffnet die Haube des Autos.",
           "lv": "Otwiera maskę samochodu."
         },
         {
-          "de": "Die Motorhaube ist kaputt.",
-          "lv": "Maska ​​jest uszkodzona."
-        },
-        {
           "de": "Über dem Herd hängt eine Dunsthaube.",
-          "lv": "Nad piecem zamontowany jest okap."
+          "lv": "Nad kuchenką wisi okap."
         },
         {
-          "de": "Setz den Deckel als Haube auf den Topf.",
-          "lv": "Nałóż pokrywkę na garnek jako przykrywkę."
+          "de": "Meine Tante ist endlich unter die Haube gekommen.",
+          "lv": "Moja ciotka w końcu wyszła za mąż."
+        },
+        {
+          "de": "Beim Friseur saß sie unter der Haube.",
+          "lv": "U fryzjera siedziała pod suszarką hełmową."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "die Mütze",
+          "meaning": "czapka",
+          "example": "Im Winter trage ich eine Mütze. – Zimą noszę czapkę."
+        },
+        {
+          "word": "der Deckel",
+          "meaning": "pokrywka",
+          "example": "Der Deckel passt nicht auf den Topf. – Pokrywka nie pasuje do garnka."
+        },
+        {
+          "word": "die Abdeckung",
+          "meaning": "osłona, pokrywa",
+          "example": "Die Abdeckung schützt das Gerät. – Osłona chroni urządzenie."
         }
       ],
       "tip": [
-        "Mowa o głowie, zakonnicy, kapeluszu → czapce/kapcie.",
-        "Chodzi o samochód, silnik → maskę.",
-        "Mówimy o kuchence, urządzeniu → okapie lub okapie."
+        "W kontekście samochodu Haube to zwykle przednia maska silnika: die Motorhaube.",
+        "W wyrazach złożonych rzeczownik Haube wnosi znaczenie osłony: Dunsthaube, Motorhaube."
       ],
       "important": [
-        "Die Haube = czapka/kaptur LUB kaptur LUB kaptur/czapka – w zależności od kontekstu.",
-        "Pomocne są związki: Motorhaube (samochód), Dunstaube (kuchnia)."
+        "Haube to nie zwykła czapka; na czapkę noszoną zimą mówi się Mütze.",
+        "Zwrot unter die Haube kommen jest potoczny i nieco żartobliwy."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "die Haube"
+            "Haube",
+            "Hauben",
+            "Dunsthaube"
           ],
           "purple": [
-            "kaptur",
-            "Motorhaube"
-          ],
-          "green": [
-            "Motorhaube",
-            "Dunsthaube"
+            "czepek",
+            "osłona"
           ]
         },
         "examples": [
@@ -7035,7 +15661,11 @@ const B2_WORDS = [
                 "Haube"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "czepek"
+              ]
+            }
           },
           {
             "de": {
@@ -7045,33 +15675,21 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "kaptur"
+                "maskę"
               ]
             }
           },
           {
             "de": {
-              "green": [
-                "Haube"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "green": [
-                "Motorhaube"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "green": [
+              "blue": [
                 "Dunsthaube"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "okap"
+              ]
+            }
           },
           {
             "de": {
@@ -7079,7 +15697,89 @@ const B2_WORDS = [
                 "Haube"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "wyszła za mąż"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Haube"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "suszarką"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "Mütze"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "czapka"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "Deckel"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "pokrywka"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "Abdeckung"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "osłona"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "Haube"
+            ]
+          },
+          {
+            "blue": [
+              "Haube",
+              "Dunsthaube"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "Haube"
+            ],
+            "green": [
+              "Mütze"
+            ]
+          },
+          {
+            "blue": [
+              "Haube"
+            ]
           }
         ]
       }
@@ -7089,537 +15789,1756 @@ const B2_WORDS = [
     "de": "Haushaltung",
     "de_article": "die",
     "de_plural": "die Haushaltungen",
-    "lv": "Gospodarowanie",
+    "lv": "gospodarstwo domowe • prowadzenie domu",
     "level": "B2"
   },
   {
     "de": "Hausherr",
     "de_article": "der",
     "de_plural": "die Hausherren",
-    "lv": "Gospodyni domowa • Animatorka",
+    "lv": "gospodarz • pan domu",
     "level": "B2"
   },
   {
     "de": "Hausrat",
     "de_article": "der",
-    "lv": "Życie",
+    "lv": "sprzęty domowe • dobytek",
     "level": "B2"
   },
   {
     "de": "Hautjucken",
     "de_article": "das",
-    "lv": "Swędzenie skóry",
+    "lv": "swędzenie skóry",
     "level": "B2"
   },
   {
     "de": "Hautrötung",
     "de_article": "die",
     "de_plural": "die Hautrötungen",
-    "lv": "Zaczerwienienie skóry",
+    "lv": "zaczerwienienie skóry",
     "level": "B2"
   },
   {
     "de": "hauteng",
-    "lv": "Obcisłe ubranie",
+    "lv": "obcisły",
     "level": "B2"
   },
   {
     "de": "Heck",
     "de_article": "das",
     "de_plural": "die Hecke",
-    "lv": "Rufa statku",
+    "lv": "rufa • tył",
     "level": "B2"
   },
   {
     "de": "Heckklappe",
     "de_article": "die",
     "de_plural": "die Heckklappen",
-    "lv": "Tylne drzwi bagażnika samochodu",
+    "lv": "klapa bagażnika • tylna klapa",
     "level": "B2"
   },
   {
     "de": "Heilige",
     "de_article": "der",
     "de_plural": "die Heiligen",
-    "lv": "Święty",
+    "lv": "święty",
     "level": "B2"
   },
   {
     "de": "Heiligtum",
     "de_article": "das",
     "de_plural": "die Heiligtümer",
-    "lv": "Miejsce święte • Świętość",
+    "lv": "sanktuarium • świętość",
     "level": "B2"
   },
   {
     "de": "Heilkunde",
     "de_article": "die",
-    "lv": "Leczenie • Medycyna",
+    "lv": "medycyna • sztuka leczenia",
     "level": "B2"
   },
   {
     "de": "Heilquelle",
     "de_article": "die",
     "de_plural": "die Heilquellen",
-    "lv": "Źródło uzdrowienia",
+    "lv": "źródło lecznicze",
     "level": "B2"
   },
   {
     "de": "Heilstätte",
     "de_article": "die",
     "de_plural": "die Heilstätten",
-    "lv": "Sanatorium",
+    "lv": "sanatorium",
     "level": "B2"
   },
   {
     "de": "Heilpraktiker",
     "de_article": "der",
     "de_plural": "die Heilpraktiker",
-    "lv": "Uzdrowiciel",
+    "lv": "uzdrowiciel",
     "level": "B2"
   },
   {
     "de": "heimatlos",
-    "lv": "Bez ojczyzny",
+    "lv": "bez ojczyzny",
     "level": "B2"
   },
   {
     "de": "Heimkehr",
     "de_article": "die",
-    "lv": "Powrót do domu • Do ojczyzny",
+    "lv": "powrót do domu • powrót do ojczyzny",
     "level": "B2"
   },
   {
     "de": "Heimwerker",
     "de_article": "der",
     "de_plural": "die Heimwerker",
-    "lv": "Rzemieślnik • Mistrz domu",
+    "lv": "majsterkowicz",
     "level": "B2"
   },
   {
     "de": "Heizkraftwerk",
     "de_article": "das",
     "de_plural": "die Heizkraftwerke",
-    "lv": "Elektrownia cieplna",
+    "lv": "elektrociepłownia",
     "level": "B2"
   },
   {
     "de": "Heizöl",
     "de_article": "das",
     "de_plural": "die Heizöle",
-    "lv": "Paliwo płynne • Olej opałowy",
+    "lv": "olej opałowy • mazut",
     "level": "B2"
   },
   {
     "de": "Heldentat",
     "de_article": "die",
     "de_plural": "die Heldentaten",
-    "lv": "Wyczyn",
+    "lv": "bohaterski czyn",
     "level": "B2"
   },
   {
     "de": "hemmen",
-    "lv": "Utrudniać • Opóźniać • Hamować",
+    "lv": "hamować • powstrzymywać",
     "level": "B2"
   },
   {
     "de": "Hemmung",
     "de_article": "die",
     "de_plural": "die Hemmungen",
-    "lv": "Przeszkoda • Przeszkoda • Opóźnienie",
+    "lv": "zahamowanie • przeszkoda",
     "level": "B2"
   },
   {
     "de": "henken",
-    "lv": "Raz • Powiesić osobę",
+    "lv": "wieszać • powiesić",
     "level": "B2"
   },
   {
     "de": "herabsetzen",
-    "lv": "Obniżyć • Poniżać",
+    "lv": "obniżać • umniejszać",
     "level": "B2"
   },
   {
     "de": "herangehen",
-    "lv": "Zabrać się do pracy",
+    "lv": "podchodzić • zabierać się do pracy",
     "level": "B2"
   },
   {
     "de": "herantreten",
-    "lv": "Zbliżać się",
+    "lv": "podejść • zwrócić się",
     "level": "B2"
   },
   {
     "de": "heraufkommen",
-    "lv": "Wstać • Wstać",
+    "lv": "wchodzić na górę • nadciągać",
     "level": "B2"
   },
   {
     "de": "sich herausbilden",
-    "lv": "Uformować się",
+    "lv": "kształtować się • wykształcić się",
     "level": "B2",
     "study": {
       "id": "b2-sich-herausbilden",
-      "layout": "minimalStudy",
-      "translation": "Uformować się",
-      "rektion": "zu + kam?",
-      "explanation": "sich herausbilden wymaga przyimka określonego zu + kam?.",
-      "forms": "zu + kam?",
-      "formsLabel": "Kierownictwo:",
+      "layout": "standardStudy",
+      "translation": "kształtować się • wykształcić się",
+      "explanation": [
+        "Główna myśl: sich herausbilden znaczy stopniowo wykształcić się, wykrystalizować się z czegoś wcześniejszego — o stylu, zwyczaju, rolach, mieście. Z zu + celownik wskazuje się, w co ktoś lub coś się przekształca.",
+        "Przedrostek rozdzielny heraus-: bildet sich heraus, bildete sich heraus, hat sich herausgebildet. Proces jest stopniowy, dlatego podmiotem jest często wyraz abstrakcyjny."
+      ],
+      "examples": [
+        {
+          "de": "Aus dem kleinen Dorf bildete sich eine große Stadt heraus.",
+          "lv": "Z małej wsi wykształciło się duże miasto."
+        },
+        {
+          "de": "Mit der Zeit hat sich ein neuer Stil herausgebildet.",
+          "lv": "Z czasem wykształcił się nowy styl."
+        },
+        {
+          "de": "Der Junge hat sich zu einem guten Musiker herausgebildet.",
+          "lv": "Chłopiec wyrósł na dobrego muzyka."
+        },
+        {
+          "de": "In der Gruppe bildeten sich schnell feste Rollen heraus.",
+          "lv": "W grupie szybko wykształciły się stałe role."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich entwickeln",
+          "meaning": "rozwijać się",
+          "example": "Das Kind entwickelt sich gut. – Dziecko dobrze się rozwija."
+        },
+        {
+          "word": "entstehen",
+          "meaning": "powstawać",
+          "example": "Hier entstand eine neue Siedlung. – Tu powstało nowe osiedle."
+        },
+        {
+          "word": "bilden",
+          "meaning": "tworzyć",
+          "example": "Wir bilden eine Gruppe. – Tworzymy grupę."
+        }
+      ],
+      "tip": [
+        "Pamiętaj o rozdzielaniu: Es bildet sich heraus, ale Es hat sich herausgebildet.",
+        "Częste połączenie: sich zu etwas herausbilden."
+      ],
+      "important": [
+        "sich herausbilden wyraża stopniowy proces, a nie jednorazowe wydarzenie.",
+        "Nie myl z bilden (tworzyć, kształtować): to czasownik przechodni."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich herausbilden"
+            "herausbilden",
+            "bildet sich heraus",
+            "bildete sich heraus",
+            "hat sich herausgebildet",
+            "heraus-",
+            "sich herausbilden",
+            "bildete",
+            "heraus",
+            "herausgebildet",
+            "bildet"
           ],
-          "red": [
-            "zu + kam?"
+          "purple": [
+            "wykształcić się",
+            "wykrystalizować się"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "bildete",
+                "heraus"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "wykształciło"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "herausgebildet"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "wykształcił"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "herausgebildet"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "wyrósł"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bildeten",
+                "heraus"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "wykształciły"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich entwickeln"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "rozwijać się"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "entstehen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "powstawać"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "bilden"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "tworzyć"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "bildet sich heraus",
+              "hat sich herausgebildet",
+              "heraus",
+              "herausgebildet",
+              "bildet"
+            ]
+          },
+          {
+            "blue": [
+              "herausbilden"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "sich herausbilden",
+              "herausbilden"
+            ]
+          },
+          {
+            "green": [
+              "bilden"
+            ]
+          }
+        ]
       }
     }
   },
   {
     "de": "herausfordern",
-    "lv": "Rzucić wyzwanie",
+    "lv": "wyzywać • prowokować",
     "level": "B2"
   },
   {
     "de": "sich heraushalten",
-    "lv": "Trzymaj się z daleka od",
+    "lv": "trzymać się z dala • nie mieszać się",
     "level": "B2",
     "study": {
       "id": "b2-sich-heraushalten",
-      "layout": "minimalStudy",
-      "translation": "Trzymaj się z daleka od",
-      "rektion": "aus + kam?",
-      "explanation": "sich heraushalten wymaga pewnego przyimka aus + kam?.",
-      "forms": "aus + kam?",
-      "formsLabel": "Kierownictwo:",
+      "layout": "standardStudy",
+      "translation": "trzymać się z dala • nie mieszać się",
+      "explanation": [
+        "Główna myśl: sich heraushalten znaczy nie mieszać się, nie brać udziału w konflikcie lub sprawie, trzymać się z dala. Z aus + celownik nazywa się to, od czego ktoś się trzyma z daleka: sich aus dem Streit heraushalten.",
+        "Przedrostek rozdzielny heraus-: hält sich heraus, hielt sich heraus, hat sich herausgehalten. Tryb rozkazujący: Halt dich da heraus! Bez sich czasownik heraushalten jest przechodni: jemanden aus etwas heraushalten — nie angażować kogoś w coś."
+      ],
+      "examples": [
+        {
+          "de": "Halt dich aus dem Streit heraus!",
+          "lv": "Nie mieszaj się do tej kłótni!"
+        },
+        {
+          "de": "Ich halte mich aus der Politik heraus.",
+          "lv": "Trzymam się z dala od polityki."
+        },
+        {
+          "de": "Er hat sich aus allem herausgehalten.",
+          "lv": "Trzymał się z dala od wszystkiego."
+        },
+        {
+          "de": "Die Eltern wollten sich aus der Entscheidung heraushalten.",
+          "lv": "Rodzice chcieli trzymać się z dala od tej decyzji."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich einmischen",
+          "meaning": "wtrącać się",
+          "example": "Misch dich nicht ein! – Nie wtrącaj się!"
+        },
+        {
+          "word": "sich zurückhalten",
+          "meaning": "zachowywać powściągliwość",
+          "example": "Bei Diskussionen halte ich mich zurück. – W dyskusjach zachowuję powściągliwość."
+        },
+        {
+          "word": "heraushalten",
+          "meaning": "nie angażować, nie wciągać",
+          "example": "Halt die Kinder aus dem Streit heraus. – Nie wciągaj dzieci w kłótnię."
+        }
+      ],
+      "tip": [
+        "W trybie rozkazującym: Halt dich da heraus! — nie mieszaj się!",
+        "Zwykle następuje aus + celownik: aus dem Konflikt, aus meinen Angelegenheiten."
+      ],
+      "important": [
+        "Po aus rzeczownik stoi w celowniku: aus dem Streit.",
+        "Przeciwieństwem jest sich einmischen (wtrącać się)."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
+            "heraushalten",
+            "hält",
+            "hielt",
+            "herausgehalten",
+            "Halt",
             "sich heraushalten"
           ],
-          "red": [
-            "aus + kam?"
+          "purple": [
+            "nie mieszać się",
+            "trzymać się",
+            "nie angażować"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Halt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Nie mieszaj"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "halte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Trzymam"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "herausgehalten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Trzymał"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "heraushalten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "trzymać"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich einmischen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "wtrącać się"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich zurückhalten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "powściągliwość"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "heraushalten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "nie angażować"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "Halt"
+            ]
+          },
+          {}
+        ],
+        "important": [
+          {},
+          {
+            "green": [
+              "sich einmischen"
+            ]
+          }
+        ]
       }
     }
   },
   {
     "de": "herausstellen",
-    "lv": "Pominięty",
+    "lv": "wystawić • wyeksponować",
     "level": "B2"
   },
   {
     "de": "sich herausstellen",
-    "lv": "Okazać się",
+    "lv": "okazać się",
     "level": "B2",
     "study": {
       "id": "b2-sich-herausstellen",
-      "layout": "minimalStudy",
-      "translation": "Okazać się",
-      "rektion": "als + kas?",
-      "explanation": "sich herausstellen wymaga przyimka określonego als + what?.",
-      "forms": "als + kas?",
-      "formsLabel": "Kierownictwo:",
+      "layout": "standardStudy",
+      "translation": "okazać się",
+      "explanation": [
+        "Główna myśl: sich herausstellen znaczy okazać się, wyjść na jaw — stać się jasnym, jaki ktoś lub coś jest naprawdę. Z als + mianownik: Er stellte sich als Betrüger heraus. Typowy zwrot to Es stellte sich heraus, dass …",
+        "Przedrostek rozdzielny heraus-: stellt sich heraus, stellte sich heraus, hat sich herausgestellt. Podmiotem jest zwykle rzecz lub informacja, ale może nim być też człowiek."
+      ],
+      "examples": [
+        {
+          "de": "Es stellte sich heraus, dass er recht hatte.",
+          "lv": "Okazało się, że miał rację."
+        },
+        {
+          "de": "Der Verdacht stellte sich als falsch heraus.",
+          "lv": "Podejrzenie okazało się bezpodstawne."
+        },
+        {
+          "de": "Das Projekt hat sich als großer Erfolg herausgestellt.",
+          "lv": "Projekt okazał się wielkim sukcesem."
+        },
+        {
+          "de": "Wer der Täter ist, wird sich bald herausstellen.",
+          "lv": "Wkrótce okaże się, kto jest sprawcą."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich erweisen",
+          "meaning": "okazać się",
+          "example": "Die Methode erwies sich als nützlich. – Metoda okazała się przydatna."
+        },
+        {
+          "word": "sich zeigen",
+          "meaning": "okazywać się, ujawniać się",
+          "example": "Es zeigte sich, dass er müde war. – Okazało się, że był zmęczony."
+        },
+        {
+          "word": "herausfinden",
+          "meaning": "ustalić, dowiedzieć się",
+          "example": "Ich finde das heraus. – Ustalę to."
+        }
+      ],
+      "tip": [
+        "Na początku zdania wygodnie jest użyć Es stellte sich heraus, dass … — okazało się, że …",
+        "Z als nazywasz wynik: sich als falsch herausstellen."
+      ],
+      "important": [
+        "Przedrostek heraus- się odrywa: Es stellt sich heraus, a nie es herausstellt sich.",
+        "Nie myl z herausstellen bez sich (podkreślać, wystawiać): etwas herausstellen."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich herausstellen"
+            "herausstellen",
+            "sich herausstellen",
+            "stellte",
+            "heraus",
+            "herausgestellt"
           ],
-          "red": [
-            "als"
+          "purple": [
+            "okazać się"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "stellte",
+                "heraus"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Okazało się"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "stellte",
+                "heraus"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "okazało się"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "herausgestellt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "okazał się"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "herausstellen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "okaże się"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "erweisen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "okazać się"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "zeigen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ujawniać się"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "herausfinden"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ustalić"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "stellte",
+              "heraus"
+            ]
+          },
+          {
+            "blue": [
+              "herausstellen"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "heraus"
+            ]
+          },
+          {
+            "blue": [
+              "herausstellen"
+            ]
+          }
+        ]
       }
     }
   },
   {
     "de": "herb",
-    "lv": "Gorzki • Kwaśny • Kwaśny",
+    "lv": "cierpki • gorzkawy • surowy",
     "level": "B2"
   },
   {
     "de": "herrschen",
-    "lv": "Rządzić",
+    "lv": "panować • rządzić",
     "level": "B2"
   },
   {
     "de": "hervorheben",
-    "lv": "Podkreślić • Podkreślić",
+    "lv": "podkreślać • wyróżniać",
     "level": "B2"
   },
   {
     "de": "hervorrufen",
-    "lv": "Wywołać • Spowodować • Stworzyć • Obudzić",
+    "lv": "wywoływać • powodować",
     "level": "B2"
   },
   {
     "de": "sich hervortun",
-    "lv": "Wyróżniać się",
+    "lv": "wyróżniać się • odznaczać się",
     "level": "B2",
     "study": {
       "id": "b2-sich-hervortun",
-      "layout": "minimalStudy",
-      "translation": "Wyróżniać się",
-      "rektion": "in + kur?",
-      "explanation": "sich hervortun wymaga przyimka określonego w + gdzie?.",
-      "forms": "in + kur?",
-      "formsLabel": "Kierownictwo:",
+      "layout": "standardStudy",
+      "translation": "wyróżniać się • odznaczać się",
+      "explanation": [
+        "Główna myśl: sich hervortun znaczy wyróżniać się spośród innych zdolnościami, osiągnięciami lub jakąś cechą. Dziedzinę osiągnięć wskazuje się przez in + celownik, cechę przez durch + biernik, a rolę — przez als.",
+        "Przedrostek rozdzielny hervor-: tut sich hervor, tat sich hervor, hat sich hervorgetan. Język jest nieco formalny, często używany w opisach sukcesów.",
+        "Czasem może też oznaczać usilne, ostentacyjne wyróżnianie się, by zwrócić na siebie uwagę."
+      ],
+      "examples": [
+        {
+          "de": "Sie hat sich im Sport besonders hervorgetan.",
+          "lv": "Szczególnie wyróżniła się w sporcie."
+        },
+        {
+          "de": "Er tut sich durch Fleiß hervor.",
+          "lv": "Wyróżnia się pracowitością."
+        },
+        {
+          "de": "Im Krieg tat sich der General als mutiger Anführer hervor.",
+          "lv": "Na wojnie generał wyróżnił się jako odważny dowódca."
+        },
+        {
+          "de": "Wer sich hervortut, bekommt oft viel Aufmerksamkeit.",
+          "lv": "Kto się wyróżnia, często zyskuje dużo uwagi."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich auszeichnen",
+          "meaning": "wyróżniać się, odznaczać się",
+          "example": "Er zeichnet sich durch Ehrlichkeit aus. – Odznacza się uczciwością."
+        },
+        {
+          "word": "hervorheben",
+          "meaning": "podkreślać",
+          "example": "Der Lehrer hebt die Fehler hervor. – Nauczyciel podkreśla błędy."
+        },
+        {
+          "word": "auffallen",
+          "meaning": "rzucać się w oczy",
+          "example": "Sie fällt in der Menge auf. – Rzuca się w oczy w tłumie."
+        }
+      ],
+      "tip": [
+        "Dziedzinę osiągnięć wskaż przez in + celownik: sich in Mathe hervortun.",
+        "Jeśli chcesz nazwać cechę, dzięki której ktoś się wyróżnia, użyj durch: sich durch Mut hervortun."
+      ],
+      "important": [
+        "sich hervortun jest rozdzielny: Er tut sich hervor, ale Er hat sich hervorgetan.",
+        "Nie myl z hervorheben (podkreślać, wyróżniać coś): ten czasownik jest przechodni i niezwrotny."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich hervortun"
+            "hervortun",
+            "tut sich hervor",
+            "hervorgetan",
+            "sich hervortun",
+            "hervor"
+          ],
+          "purple": [
+            "wyróżniać się"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "hervorgetan"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "wyróżniła"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hervor"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Wyróżnia"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hervor"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "wyróżnił"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hervortut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "wyróżnia"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich auszeichnen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "odznaczać się"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "hervorheben"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "podkreślać"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "auffallen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "rzucać się w oczy"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "hervortun"
+            ]
+          },
+          {
+            "blue": [
+              "hervortun"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "sich hervortun",
+              "hervortun",
+              "tut sich hervor",
+              "hervorgetan",
+              "hervor"
+            ]
+          },
+          {
+            "green": [
+              "hervorheben"
+            ]
+          }
+        ]
       }
     }
   },
   {
     "de": "Herzflattern",
     "de_article": "das",
-    "lv": "Kołatanie serca",
+    "lv": "kołatanie serca",
     "level": "B2"
   },
   {
     "de": "Herzschwäche",
     "de_article": "die",
     "de_plural": "die Herzschwächen",
-    "lv": "Niewydolność serca",
+    "lv": "osłabienie serca",
     "level": "B2"
   },
   {
     "de": "Herzversagen",
     "de_article": "das",
-    "lv": "Zatrzymanie krążenia • Niewydolność",
+    "lv": "niewydolność serca • zatrzymanie akcji serca",
     "level": "B2"
   },
   {
     "de": "Hetze",
     "de_article": "die",
     "de_plural": "die Hetzen",
-    "lv": "Podżeganie • Podżeganie",
+    "lv": "nagonka • szczucie",
     "level": "B2"
   },
   {
     "de": "hetzen",
-    "lv": "Kopnij • Podżegaj • Pościg • Uderz",
-    "level": "B2"
+    "lv": "szczuć • podjudzać • ścigać",
+    "level": "B2",
+    "study": {
+      "id": "b2-hetzen",
+      "layout": "standardStudy",
+      "translation": "szczuć • podjudzać • ścigać",
+      "explanation": [
+        "Główna myśl: hetzen to czasownik o kilku znaczeniach. Oznacza szczuć psy na kogoś, ścigać zwierzynę i gonić ją; w znaczeniu przenośnym — podjudzać do nienawiści (gegen jemanden hetzen). Bez dopełnienia, z sein, może też znaczyć pędzić, gnać w pośpiechu: durch die Stadt hetzen.",
+        "Formy: hetzt, hetzte, hat gehetzt (czasownik przechodni) lub ist gehetzt (w znaczeniu ruchu). Częste wyrazy pochodne: aufhetzen (podburzyć), die Hetze (nagonka, podżeganie; pośpiech).",
+        "W mowie potocznej Hetz mich nicht! znaczy: nie poganiaj mnie!"
+      ],
+      "examples": [
+        {
+          "de": "Der Jäger hetzt die Hunde auf den Hirsch.",
+          "lv": "Myśliwy szczuje psy na jelenia."
+        },
+        {
+          "de": "Er hetzt gegen Ausländer.",
+          "lv": "Podjudza przeciwko cudzoziemcom."
+        },
+        {
+          "de": "Die Hunde hetzten den Hasen über das Feld.",
+          "lv": "Psy goniły zająca przez pole."
+        },
+        {
+          "de": "Ich bin den ganzen Tag durch die Stadt gehetzt.",
+          "lv": "Cały dzień gnałem po mieście."
+        },
+        {
+          "de": "Hetz mich nicht!",
+          "lv": "Nie poganiaj mnie!"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "jagen",
+          "meaning": "polować",
+          "example": "Der Jäger jagt Rehe. – Myśliwy poluje na sarny."
+        },
+        {
+          "word": "aufhetzen",
+          "meaning": "podburzać",
+          "example": "Er hetzt die Menge auf. – Podburza tłum."
+        },
+        {
+          "word": "eilen",
+          "meaning": "spieszyć się",
+          "example": "Ich eile zum Bahnhof. – Spieszę na dworzec."
+        }
+      ],
+      "tip": [
+        "W kontekście politycznym hetzen gegen + biernik znaczy podburzać, szczuć przeciwko komuś.",
+        "W kontekście łowieckim często: Hunde hetzen den Hasen."
+      ],
+      "important": [
+        "Czasownik hetzen ma często wydźwięk negatywny: podżeganie albo nieprzyjemny pośpiech.",
+        "W znaczeniu ruchu Perfekt tworzy się z sein (ist gehetzt), w pozostałych przypadkach z haben."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "hetzen",
+            "hetzt",
+            "gehetzt",
+            "Hetz"
+          ],
+          "purple": [
+            "szczuć",
+            "podjudzać",
+            "ścigać",
+            "gonić"
+          ],
+          "green": [
+            "aufhetzen"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "hetzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "szczuje"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hetzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Podjudza"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hetzten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "goniły"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "gehetzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "gnałem"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Hetz"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "poganiaj"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "jagen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "polować"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "aufhetzen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "podburzać"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "eilen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "spieszyć się"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "hetzen"
+            ]
+          },
+          {
+            "blue": [
+              "hetzen"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "hetzen"
+            ]
+          },
+          {
+            "blue": [
+              "gehetzt"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "heucheln",
-    "lv": "Udawać • Udawać",
+    "lv": "udawać • być obłudnym",
     "level": "B2"
   },
   {
     "de": "Heuschnupfen",
     "de_article": "der",
-    "lv": "Alergiczny nieżyt nosa wywołany pyłkami",
+    "lv": "katar sienny",
     "level": "B2"
   },
   {
     "de": "hierdurch",
-    "lv": "Z tym • Z tym",
+    "lv": "przez to • tym samym",
     "level": "B2"
   },
   {
     "de": "Hilfsaktion",
     "de_article": "die",
     "de_plural": "die Hilfsaktionen",
-    "lv": "Akcja pomocowa",
+    "lv": "akcja pomocy • akcja ratunkowa",
     "level": "B2"
   },
   {
     "de": "Hilfsdienst",
     "de_article": "der",
     "de_plural": "die Hilfsdienste",
-    "lv": "Pomoc techniczna",
+    "lv": "służba pomocy",
     "level": "B2"
   },
   {
     "de": "hingeben",
-    "lv": "Rozdawać • Pożyczać",
+    "lv": "oddawać • poświęcać",
     "level": "B2"
   },
   {
     "de": "sich hingeben",
-    "lv": "Poddać się • Poddać się",
+    "lv": "oddawać się • poświęcać się",
     "level": "B2",
     "study": {
       "id": "b2-sich-hingeben",
-      "layout": "minimalStudy",
-      "translation": "Poddać się • Poddać się",
-      "rektion": "+ kam?",
-      "explanation": "sich hingeben prasa + kam?.",
-      "forms": "+ kam?",
-      "formsLabel": "Kierownictwo:",
+      "layout": "standardStudy",
+      "translation": "oddawać się • poświęcać się",
+      "explanation": [
+        "Główna myśl: sich hingeben znaczy całkowicie oddawać się czemuś — muzyce, marzeniom, przyjemności, smutkowi lub uczuciom. Po nim następuje celownik: sich der Musik hingeben, sich seinen Träumen hingeben.",
+        "Rozdzielny przedrostek hin-: gibt sich hin, gab sich hin, hat sich hingegeben. Bez sich czasownik etwas hingeben znaczy coś poświęcić, oddać: sein Leben hingeben."
+      ],
+      "examples": [
+        {
+          "de": "Sie gab sich ganz der Musik hin.",
+          "lv": "Całkowicie oddała się muzyce."
+        },
+        {
+          "de": "Er gibt sich seinen Träumen hin.",
+          "lv": "Oddaje się swoim marzeniom."
+        },
+        {
+          "de": "Wir haben uns dem Genuss hingegeben.",
+          "lv": "Oddaliśmy się przyjemności."
+        },
+        {
+          "de": "Gib dich keinen falschen Hoffnungen hin!",
+          "lv": "Nie łudź się fałszywymi nadziejami!"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich widmen",
+          "meaning": "poświęcać się",
+          "example": "Er widmet sich der Forschung. – Poświęca się badaniom naukowym."
+        },
+        {
+          "word": "sich überlassen",
+          "meaning": "dać się ponieść",
+          "example": "Er überlässt sich seinen Gedanken. – Pogrąża się w swoich myślach."
+        },
+        {
+          "word": "sich ergeben",
+          "meaning": "poddawać się",
+          "example": "Der Soldat ergibt sich. – Żołnierz się poddaje."
+        }
+      ],
+      "tip": [
+        "Po sich hingeben stawiaj celownik: der Arbeit, dem Schmerz, den Erinnerungen.",
+        "Pamiętaj o rozdzielaniu: Sie gibt sich hin, ale Sie hat sich hingegeben."
+      ],
+      "important": [
+        "sich hingeben często wyraża całkowite pogrążenie się w czymś i brzmi podniośle.",
+        "Nie myl z sich ergeben (poddać się, wynikać): to inny czasownik."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
+            "hingeben",
+            "hingegeben",
+            "gab",
+            "gibt",
+            "hin",
             "sich hingeben"
           ],
-          "red": [
-            "+ kam?"
+          "purple": [
+            "oddawać się"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "gab",
+                "hin"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "oddała się"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "gibt",
+                "hin"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Oddaje się"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hingegeben"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Oddaliśmy się"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Gib",
+                "hin"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Nie łudź się"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich widmen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "poświęcać"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich überlassen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "dać się ponieść"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich ergeben"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "poddawać się"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "sich hingeben",
+              "hingeben"
+            ]
+          },
+          {
+            "blue": [
+              "hingegeben",
+              "gibt",
+              "hin"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "sich hingeben",
+              "hingeben"
+            ]
+          },
+          {
+            "green": [
+              "sich ergeben"
+            ]
+          }
+        ]
       }
     }
   },
   {
     "de": "hinreißen",
-    "lv": "Chwytać • Zabierać",
+    "lv": "porywać • zachwycać",
     "level": "B2"
   },
   {
     "de": "Hinsicht",
     "de_article": "die",
     "de_plural": "die Hinsichten",
-    "lv": "Wiadomość",
-    "level": "B2"
+    "lv": "wzgląd",
+    "level": "B2",
+    "study": {
+      "id": "b2-hinsicht",
+      "layout": "standardStudy",
+      "translation": "wzgląd",
+      "explanation": [
+        "Główna myśl: die Hinsicht to rzeczownik rodzaju żeńskiego oznaczający aspekt, punkt widzenia — to, pod jakim względem coś jest prawdziwe. Po polsku odpowiada mu „wzgląd” w połączeniach takich jak pod tym względem, pod pewnym względem.",
+        "Zwykle używa się go w połączeniach z przyimkiem: in dieser Hinsicht (pod tym względem), in gewisser Hinsicht (pod pewnym względem), in jeder Hinsicht (pod każdym względem). Liczba mnoga die Hinsichten jest rzadka. W stylu formalnym mówi się też in Hinsicht auf + biernik (w odniesieniu do) lub hinsichtlich + dopełniacz."
+      ],
+      "examples": [
+        {
+          "de": "In dieser Hinsicht hast du recht.",
+          "lv": "Pod tym względem masz rację."
+        },
+        {
+          "de": "In gewisser Hinsicht ist das ein Vorteil.",
+          "lv": "Pod pewnym względem to zaleta."
+        },
+        {
+          "de": "Das Hotel war in jeder Hinsicht perfekt.",
+          "lv": "Hotel był idealny pod każdym względem."
+        },
+        {
+          "de": "In Hinsicht auf die Kosten gibt es noch Fragen.",
+          "lv": "W odniesieniu do kosztów są jeszcze pytania."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "die Nachricht",
+          "meaning": "wiadomość",
+          "example": "Ich habe eine Nachricht bekommen. – Dostałem wiadomość."
+        },
+        {
+          "word": "der Bezug",
+          "meaning": "odniesienie",
+          "example": "In Bezug auf den Termin gibt es Fragen. – W odniesieniu do terminu są pytania."
+        },
+        {
+          "word": "die Rücksicht",
+          "meaning": "wzgląd (na innych)",
+          "example": "Er nimmt Rücksicht auf andere. – Liczy się z innymi."
+        }
+      ],
+      "tip": [
+        "Zapamiętaj jako gotowe wyrażenie: in dieser Hinsicht, in jeder Hinsicht.",
+        "Po in w tych połączeniach następuje celownik: in dieser Hinsicht, in jeder Hinsicht."
+      ],
+      "important": [
+        "Hinsicht nie oznacza wiadomości ani informacji — to Nachricht lub Information.",
+        "Po hinsichtlich (w odniesieniu do) następuje dopełniacz: hinsichtlich der Kosten."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Hinsicht",
+            "Hinsichten",
+            "hinsichtlich"
+          ],
+          "purple": [
+            "względem"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Hinsicht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "względem"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Hinsicht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "względem"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Hinsicht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "względem"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Hinsicht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "W odniesieniu"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "Nachricht"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "wiadomość"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "Bezug"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "odniesienie"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "Rücksicht"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "wzgląd"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "Hinsicht"
+            ]
+          },
+          {
+            "blue": [
+              "Hinsicht"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "Hinsicht"
+            ],
+            "green": [
+              "Nachricht"
+            ]
+          },
+          {
+            "blue": [
+              "hinsichtlich"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "hinsichtlich",
-    "lv": "Odnośnie • Z powodu",
+    "lv": "w odniesieniu do • co do",
     "level": "B2"
   },
   {
     "de": "hintergehen",
-    "lv": "Oszukiwać • Rozczarować",
+    "lv": "oszukiwać • zwodzić",
     "level": "B2"
   },
   {
     "de": "Hinterhalt",
     "de_article": "der",
     "de_plural": "die Hinterhalte",
-    "lv": "Kryjówka",
+    "lv": "zasadzka",
     "level": "B2"
   },
   {
     "de": "hinterziehen",
-    "lv": "Defraudować pieniądze • Nie płacić podatków",
+    "lv": "uchylać się od podatków • defraudować",
     "level": "B2"
   },
   {
     "de": "hinüberfahren",
-    "lv": "Przekraczać • Przekraczać",
+    "lv": "przejechać na drugą stronę • przewieźć",
     "level": "B2"
   },
   {
     "de": "Hirntumor",
     "de_article": "der",
     "de_plural": "die Hirntumoren",
-    "lv": "Guz mózgu",
+    "lv": "guz mózgu",
     "level": "B2"
   },
   {
     "de": "Hirnzelle",
     "de_article": "die",
     "de_plural": "die Hirnzellen",
-    "lv": "Komórka mózgowa",
+    "lv": "komórka mózgowa",
     "level": "B2"
   },
   {
     "de": "Hirschgeweih",
     "de_article": "das",
     "de_plural": "die Hirschgeweihe",
-    "lv": "Poroże jelenia",
+    "lv": "poroże jelenia",
     "level": "B2"
   },
   {
     "de": "Hirschkuh",
     "de_article": "die",
     "de_plural": "die Hirschkühe",
-    "lv": "Matka jelenia",
+    "lv": "łania",
     "level": "B2"
   },
   {
     "de": "hitzig",
-    "lv": "Gorący • Żarliwy • Porywczy • Skory do gniewu",
+    "lv": "porywczy • gorący • zapalczywy",
     "level": "B2"
   },
   {
     "de": "Hitzkopf",
     "de_article": "der",
     "de_plural": "die Hitzköpfe",
-    "lv": "Pasjonat",
+    "lv": "zapaleniec",
     "level": "B2"
   },
   {
     "de": "HIV",
     "de_article": "das",
     "de_plural": "die HIV",
-    "lv": "HIV (ludzki wirus niedoboru odporności)",
+    "lv": "wirus HIV",
     "level": "B2"
   },
   {
     "de": "HIV-negativ",
-    "lv": "HIV-ujemny",
+    "lv": "niezakażony HIV",
     "level": "B2"
   },
   {
     "de": "HIV-positiv",
-    "lv": "HIV-pozytywny",
+    "lv": "zakażony HIV • seropozytywny",
     "level": "B2"
   },
   {
     "de": "Hobelbank",
     "de_article": "die",
     "de_plural": "die Hobelbänke",
-    "lv": "Strugarka",
+    "lv": "warsztat stolarski",
     "level": "B2"
   },
   {
     "de": "Hoch",
     "de_article": "das",
     "de_plural": "die Hochs",
-    "lv": "Wznieść toast „niech żyje!”",
+    "lv": "toast • wiwat",
     "level": "B2",
     "study": {
       "id": "b2-hoch-study",
       "layout": "standardStudy",
-      "translation": "Wznieść toast „niech żyje!”",
+      "translation": "toast • wiwat",
       "explanation": [
-        "Główna idea: das Hoch z dużej litery i przedimka das to rzeczownik - uroczysty krzyk/toast (Ein Hoch auf...! = Niech żyje...!) lub w pogodzie - obszar wysokiego ciśnienia.",
-        "Mała litera hoch to przymiotnik - wysoki (der Berg ist hoch).",
-        "Wyrażenie ein Hoch ausbringen oznacza wznieść toast.",
-        "W pogodzie das Hoch oznacza antycyklon, obszar o wysokim ciśnieniu powietrza (naprzeciwko: das Tief)."
+        "Główna myśl: das Hoch w tym znaczeniu to wzniesiony toast, okrzyk „niech żyje!” na czyjąś cześć: ein Hoch auf das Brautpaar ausbringen. To rzeczownik rodzaju nijakiego, liczba mnoga die Hochs.",
+        "To samo słowo w meteorologii oznacza wyż, antycyklon, czyli obszar wysokiego ciśnienia, który zwykle przynosi bezchmurną pogodę: ein Hoch über Skandinavien. W znaczeniu przenośnym ein Hoch to też dobry, pełen sukcesów okres.",
+        "Przymiotnik hoch (wysoki) to inne słowo i pisze się go małą literą."
       ],
       "examples": [
         {
           "de": "Wir bringen ein Hoch auf das Brautpaar aus.",
-          "lv": "Wznosimy toast za nowożeńców."
+          "lv": "Wznosimy toast za młodą parę."
         },
         {
-          "de": "Ein Hoch auf dich!",
-          "lv": "Niech żyjesz!"
+          "de": "Ein dreifaches Hoch auf den Jubilar!",
+          "lv": "Trzykrotne „niech żyje” na cześć jubilata!"
         },
         {
-          "de": "Morgen kommt ein Hoch.",
-          "lv": "Jutro spodziewany jest antycyklon (wysokie ciśnienie)."
+          "de": "Morgen bringt ein Hoch sonniges Wetter.",
+          "lv": "Jutro wyż przyniesie słoneczną pogodę."
         },
         {
-          "de": "Der Berg ist sehr hoch.",
-          "lv": "Góra jest bardzo wysoka."
+          "de": "Nach dem Tief folgt ein Hoch.",
+          "lv": "Po niżu przychodzi wyż."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "der Toast",
+          "meaning": "toast",
+          "example": "Er hält einen Toast. – Wygłasza toast."
+        },
+        {
+          "word": "das Tief",
+          "meaning": "niż",
+          "example": "Das Tief bringt Regen. – Niż przynosi deszcz."
+        },
+        {
+          "word": "hoch",
+          "meaning": "wysoki",
+          "example": "Der Berg ist hoch. – Góra jest wysoka."
         }
       ],
       "tip": [
-        "Das Hoch z dużej litery - uroczysty okrzyk lub antycyklon w wiadomościach pogodowych.",
-        "Mała litera hoch - wysoki (przymiotnik)."
+        "Wznosząc toast, używaj połączenia ein Hoch auf + biernik: auf den Gastgeber.",
+        "W prognozie pogody Hoch jest przeciwieństwem Tief."
       ],
       "important": [
-        "Das Hoch = toast („niech żyje!”) LUB antycyklon (pogoda) - rzeczownik.",
-        "Hoch = wysoki — przymiotnik, bez rodzajnika.",
-        "Kontrast pogody: das Hoch ↔ das Tief."
+        "Rzeczownik das Hoch pisze się wielką literą, przymiotnik hoch — małą.",
+        "Liczba mnoga to die Hochs, nie die Höchen."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "das Hoch"
-          ],
-          "green": [
+            "Hoch",
             "hoch"
+          ],
+          "purple": [
+            "toast",
+            "antycyklon",
+            "niech żyje"
           ]
         },
         "examples": [
@@ -7629,15 +17548,11 @@ const B2_WORDS = [
                 "Hoch"
               ]
             },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "Hoch"
+            "lv": {
+              "purple": [
+                "toast"
               ]
-            },
-            "lv": {}
+            }
           },
           {
             "de": {
@@ -7647,47 +17562,98 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "antycyklon"
+                "niech żyje"
               ]
             }
           },
           {
             "de": {
+              "blue": [
+                "Hoch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "wyż"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Hoch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "wyż"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "der Toast"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "toast"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "das Tief"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "niż"
+              ]
+            }
+          },
+          {
+            "word": {
               "green": [
                 "hoch"
               ]
             },
-            "lv": {}
+            "meaning": {
+              "purple": [
+                "wysoki"
+              ]
+            }
           }
         ],
         "tip": [
           {
             "blue": [
-              "das Hoch"
+              "Hoch",
+              "hoch"
             ]
           },
           {
-            "green": [
+            "blue": [
+              "Hoch",
               "hoch"
+            ],
+            "green": [
+              "Tief"
             ]
           }
         ],
         "important": [
           {
             "blue": [
-              "das Hoch"
-            ]
-          },
-          {
-            "green": [
+              "Hoch",
               "hoch"
             ]
           },
-          {
-            "blue": [
-              "das Tief"
-            ]
-          }
+          {}
         ]
       }
     }
@@ -7696,108 +17662,119 @@ const B2_WORDS = [
     "de": "Hochachtung",
     "de_article": "die",
     "de_plural": "die Hochachtungen",
-    "lv": "Wielki szacunek",
+    "lv": "głęboki szacunek • poważanie",
     "level": "B2"
   },
   {
     "de": "Hochmut",
     "de_article": "der",
-    "lv": "Arogancja • Arogancja",
+    "lv": "pycha • wyniosłość",
     "level": "B2"
   },
   {
     "de": "hochmütig",
-    "lv": "Wyniosły • Wyniosły",
+    "lv": "wyniosły • pyszny",
     "level": "B2"
   },
   {
     "de": "Hochspannung",
     "de_article": "die",
     "de_plural": "die Hochspannungen",
-    "lv": "Wysokie napięcie",
+    "lv": "wysokie napięcie",
     "level": "B2"
   },
   {
     "de": "Hochsprung",
     "de_article": "der",
     "de_plural": "die Hochsprünge",
-    "lv": "Skok wzwyż",
+    "lv": "skok wzwyż",
     "level": "B2"
   },
   {
     "de": "Höchstleistung",
     "de_article": "die",
     "de_plural": "die Höchstleistungen",
-    "lv": "Najwyższe osiągnięcie • Największa moc • Rekord",
+    "lv": "najwyższe osiągnięcie • rekord • moc maksymalna",
     "level": "B2"
   },
   {
     "de": "Hochverrat",
     "de_article": "der",
     "de_plural": null,
-    "lv": "Zdrada",
+    "lv": "zdrada stanu",
     "level": "B2"
   },
   {
     "de": "Hochwasser",
     "de_article": "das",
     "de_plural": "die Hochwasser",
-    "lv": "Powódź • Wysoki poziom wody",
+    "lv": "powódź • wysoka woda",
     "level": "B2",
     "study": {
       "id": "b2-hochwasser",
       "layout": "standardStudy",
-      "translation": "Powódź • Wysoki poziom wody",
-      "explanation": "Główna idea: das Hochwasser oznacza powódź lub bardzo wysoki poziom wody w rzece, jeziorze lub morzu. Liczba mnoga: die Hochwasser. Często używany w prasie i ostrzeżeniach.",
+      "translation": "powódź • wysoka woda",
+      "explanation": [
+        "Główna myśl: das Hochwasser to rzeczownik rodzaju nijakiego. Oznacza bardzo wysoki poziom wody w rzece, morzu lub jeziorze oraz powódź, którą on wywołuje. Liczba mnoga to die Hochwasser (także Hochwässer).",
+        "Częste wyrażenia: Hochwasser führen (rzeka ma wysoki stan wody), vor Hochwasser warnen (ostrzegać przed powodzią), vom Hochwasser betroffen sein (być poszkodowanym przez powódź). Przeciwieństwem jest das Niedrigwasser."
+      ],
       "examples": [
         {
           "de": "Nach dem Regen gibt es Hochwasser.",
-          "lv": "Po deszczu następuje powódź."
+          "lv": "Po deszczu przychodzi powódź."
         },
         {
-          "de": "Das Hochwasser bedroht die Stadt.",
-          "lv": "Wysoki poziom wody zagraża miastu."
+          "de": "Der Fluss führt Hochwasser.",
+          "lv": "Rzeka ma wysoki stan wody."
         },
         {
           "de": "Die Behörden warnen vor Hochwasser.",
-          "lv": "Władze ostrzegają przed powodziami."
+          "lv": "Władze ostrzegają przed powodzią."
+        },
+        {
+          "de": "Das Hochwasser hat mehrere Dörfer erreicht.",
+          "lv": "Powódź dotarła do kilku wsi."
         }
       ],
       "comparison": [
         {
-          "word": "das Hochwasser",
-          "meaning": "Powódź • Wysoki poziom wody",
-          "example": "Es gibt Hochwasser. = Ir plūdi."
-        },
-        {
           "word": "die Überschwemmung",
-          "meaning": "Powódź (konkretna)",
-          "example": "Die Überschwemmung zerstörte Häuser. = Plūdi izpostīja mājas."
+          "meaning": "zalanie, wylew",
+          "example": "Die Überschwemmung zerstörte die Ernte. – Wylew zniszczył plony."
         },
         {
-          "word": "der Pegel",
-          "meaning": "Poziom wody",
-          "example": "Der Pegel steigt. = Ūdens līmenis ceļas."
+          "word": "die Flut",
+          "meaning": "przypływ",
+          "example": "Die Flut kommt am Abend. – Przypływ przychodzi wieczorem."
+        },
+        {
+          "word": "das Niedrigwasser",
+          "meaning": "niski stan wody",
+          "example": "Bei Niedrigwasser fahren weniger Schiffe. – Przy niskim stanie wody pływa mniej statków."
         }
       ],
-      "tip": {
-        "leftBlocks": [
-          {
-            "text": "Hoch = wysoki, Wasser = woda. Hochwasser = wysoki poziom wody, często oznaczający powódź."
-          }
-        ]
-      },
-      "important": {
-        "text": "das Hochwasser = powódź lub wysoki poziom wody. Liczba mnoga: die Hochwasser."
-      },
+      "tip": [
+        "Zapamiętaj przeciwieństwo: Hochwasser — Niedrigwasser.",
+        "W wiadomościach często usłyszysz Hochwasserwarnung, Hochwasserschutz."
+      ],
+      "important": [
+        "Hochwasser to nie to samo co Flut (przypływ morza).",
+        "W liczbie mnogiej rodzajnik to die, ale samo słowo pozostaje bez zmian: die Hochwasser."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "das Hochwasser"
+            "Hochwasser"
           ],
           "purple": [
             "powódź",
+            "powodzią",
+            "wysoki stan wody",
             "wysoki poziom wody"
+          ],
+          "green": [
+            "das Niedrigwasser",
+            "Niedrigwasser"
           ]
         },
         "examples": [
@@ -7807,7 +17784,11 @@ const B2_WORDS = [
                 "Hochwasser"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "powódź"
+              ]
+            }
           },
           {
             "de": {
@@ -7815,7 +17796,11 @@ const B2_WORDS = [
                 "Hochwasser"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "wysoki stan wody"
+              ]
+            }
           },
           {
             "de": {
@@ -7823,7 +17808,87 @@ const B2_WORDS = [
                 "Hochwasser"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "powodzią"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Hochwasser"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Powódź"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "die Überschwemmung"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "zalanie"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Flut"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "przypływ"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "das Niedrigwasser"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "niski"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "Hochwasser"
+            ],
+            "green": [
+              "Niedrigwasser"
+            ]
+          },
+          {}
+        ],
+        "important": [
+          {
+            "blue": [
+              "Hochwasser"
+            ],
+            "green": [
+              "Flut"
+            ]
+          },
+          {
+            "blue": [
+              "Hochwasser"
+            ]
           }
         ]
       }
@@ -7831,611 +17896,629 @@ const B2_WORDS = [
   },
   {
     "de": "hochwertig",
-    "lv": "Wysoka wartość",
+    "lv": "wysokiej jakości • wartościowy",
     "level": "B2"
   },
   {
     "de": "Hohlmaß",
     "de_article": "das",
     "de_plural": "die Hohlmaße",
-    "lv": "Miara objętości",
+    "lv": "miara objętości",
     "level": "B2"
   },
   {
     "de": "Hohn",
     "de_article": "der",
-    "lv": "Wyśmiewanie • Wyśmiewanie",
+    "lv": "drwina • szyderstwo",
     "level": "B2"
   },
   {
     "de": "Hölle",
     "de_article": "die",
     "de_plural": "die Höllen",
-    "lv": "Piekło",
+    "lv": "piekło",
     "level": "B2"
   },
   {
     "de": "holpern",
-    "lv": "Trząść się • Drżeć",
+    "lv": "trząść się • podskakiwać na wybojach",
     "level": "B2"
   },
   {
     "de": "Honorar",
     "de_article": "das",
     "de_plural": "die Honorare",
-    "lv": "Królewskość",
+    "lv": "honorarium",
     "level": "B2"
   },
   {
     "de": "humanitär",
-    "lv": "Humanitarny",
+    "lv": "humanitarny",
     "level": "B2"
   },
   {
     "de": "Hypnose",
     "de_article": "die",
     "de_plural": "die Hypnosen",
-    "lv": "Hipnoza",
+    "lv": "hipnoza",
     "level": "B2"
   },
   {
     "de": "Hypothek",
     "de_article": "die",
     "de_plural": "die Hypotheken",
-    "lv": "Hipoteka",
+    "lv": "hipoteka",
     "level": "B2"
   },
   {
     "de": "Immobilien",
     "de_article": "die",
-    "lv": "Nieruchomość",
+    "lv": "nieruchomości",
     "level": "B2"
   },
   {
     "de": "Immunität",
     "de_article": "die",
     "de_plural": "die Immunitäten",
-    "lv": "Odporność",
+    "lv": "odporność • immunitet",
     "level": "B2"
   },
   {
     "de": "implantieren",
-    "lv": "Wszczepić",
+    "lv": "wszczepiać • implantować",
     "level": "B2"
   },
   {
     "de": "in flagranti",
-    "lv": "Złapać • Zrobienie czegoś nielegalnego",
+    "lv": "na gorącym uczynku",
     "level": "B2"
   },
   {
     "de": "inkompatibel",
-    "lv": "Niezgodny",
+    "lv": "niekompatybilny • niezgodny",
     "level": "B2"
   },
   {
     "de": "Innenpolitik",
     "de_article": "die",
     "de_plural": "die Innenpolitiken",
-    "lv": "Polityka wewnętrzna",
+    "lv": "polityka wewnętrzna",
     "level": "B2"
   },
   {
     "de": "innewohnen",
-    "lv": "Dom",
+    "lv": "tkwić • być właściwym",
     "level": "B2"
   },
   {
     "de": "inszenieren",
-    "lv": "Na scenę",
+    "lv": "inscenizować • wystawiać",
     "level": "B2"
   },
   {
     "de": "Intervention",
     "de_article": "die",
     "de_plural": "die Interventionen",
-    "lv": "Interwencja",
+    "lv": "interwencja",
     "level": "B2"
   },
   {
     "de": "Investition",
     "de_article": "die",
     "de_plural": "die Investitionen",
-    "lv": "Inwestycja • Inwestowanie • Inwestycja kapitałowa • Inwestowanie",
+    "lv": "inwestycja • lokata kapitału",
     "level": "B2"
   },
   {
     "de": "irrsinnig",
-    "lv": "Szalony • Szalony",
+    "lv": "obłąkany • szalony",
     "level": "B2"
   },
   {
     "de": "Junkie",
     "de_article": "der",
     "de_plural": "die Junkies",
-    "lv": "Narkoman",
+    "lv": "ćpun • narkoman",
     "level": "B2"
   },
   {
     "de": "Kabinettskrise",
     "de_article": "die",
     "de_plural": "die Kabinettskrisen",
-    "lv": "Kryzys gabinetu",
+    "lv": "kryzys rządowy",
     "level": "B2"
   },
   {
     "de": "Kapazität",
     "de_article": "die",
     "de_plural": "die Kapazitäten",
-    "lv": "Zdolność produkcyjna • Wydajność • Wielkość • Wydajność",
+    "lv": "wydajność • moc • pojemność",
     "level": "B2"
   },
   {
     "de": "Kapitalanlage",
     "de_article": "die",
     "de_plural": "die Kapitalanlagen",
-    "lv": "Inwestycja kapitałowa",
+    "lv": "lokata kapitału • inwestycja",
     "level": "B2"
   },
   {
     "de": "Kapitalismus",
     "de_article": "der",
-    "lv": "Kapitalizm",
+    "lv": "kapitalizm",
     "level": "B2"
   },
   {
     "de": "Kapitalist",
     "de_article": "der",
     "de_plural": "die Kapitalisten",
-    "lv": "Kapitalista",
+    "lv": "kapitalista",
     "level": "B2"
   },
   {
     "de": "kapitalistisch",
-    "lv": "Kapitalista",
+    "lv": "kapitalistyczny",
     "level": "B2"
   },
   {
     "de": "Kapitulation",
     "de_article": "die",
     "de_plural": "die Kapitulationen",
-    "lv": "Kapitulacja",
+    "lv": "kapitulacja",
     "level": "B2"
   },
   {
     "de": "Karrierefrau",
     "de_article": "die",
     "de_plural": "die Karrierefrauen",
-    "lv": "Karierowiczka",
+    "lv": "kobieta robiąca karierę",
     "level": "B2"
   },
   {
     "de": "Kaufkraft",
     "de_article": "die",
-    "lv": "Pieniądze • Także osobista siła nabywcza",
+    "lv": "siła nabywcza",
     "level": "B2"
   },
   {
     "de": "Keuchhusten",
     "de_article": "der",
-    "lv": "Krztusiec",
+    "lv": "krztusiec • koklusz",
     "level": "B2"
   },
   {
     "de": "kidnappen",
-    "lv": "Porwać • Wziąć zakładnika",
+    "lv": "porwać • uprowadzić",
     "level": "B2"
   },
   {
     "de": "killen",
-    "lv": "Zabić",
+    "lv": "zabić • załatwić",
     "level": "B2"
   },
   {
     "de": "Klappe",
     "de_article": "die",
     "de_plural": "die Klappen",
-    "lv": "Zawór • Zawór",
+    "lv": "klapa • zawór • zastawka",
     "level": "B2"
   },
   {
     "de": "Klasse",
     "de_article": "die",
     "de_plural": "die Klassen",
-    "lv": "Klasa społeczna • Klasa • Kategoria",
+    "lv": "klasa • kategoria",
     "level": "B2"
   },
   {
     "de": "klassenlos",
-    "lv": "Bezklasowy",
+    "lv": "bezklasowy",
     "level": "B2"
   },
   {
     "de": "klassifizieren",
-    "lv": "Klasyfikować",
+    "lv": "klasyfikować",
     "level": "B2"
   },
   {
     "de": "Klinik",
     "de_article": "die",
     "de_plural": "die Kliniken",
-    "lv": "Klinika",
+    "lv": "klinika",
     "level": "B2"
   },
   {
     "de": "knifflig",
-    "lv": "Skomplikowany",
+    "lv": "zawiły • skomplikowany • podchwytliwy",
     "level": "B2"
   },
   {
     "de": "Knochengewebe",
     "de_article": "das",
     "de_plural": "die Knochengewebe",
-    "lv": "Tkanka kostna",
+    "lv": "tkanka kostna",
     "level": "B2"
   },
   {
     "de": "Knochenmark",
     "de_article": "das",
     "de_plural": "die Knochenmarke",
-    "lv": "Szpik kostny",
+    "lv": "szpik kostny",
     "level": "B2"
   },
   {
     "de": "Kolben",
     "de_article": "der",
     "de_plural": "die Kolben",
-    "lv": "Kolba • Tłok",
+    "lv": "kolba • tłok",
     "level": "B2"
   },
   {
     "de": "Kommunismus",
     "de_article": "der",
-    "lv": "Komunizm",
+    "lv": "komunizm",
     "level": "B2"
   },
   {
     "de": "kompatibel",
-    "lv": "Możliwość podłączenia",
+    "lv": "kompatybilny • zgodny",
     "level": "B2"
   },
   {
     "de": "kompetent",
-    "lv": "Kompetentny • Biegły",
+    "lv": "kompetentny • fachowy",
     "level": "B2"
   },
   {
     "de": "Komplott",
     "de_article": "das",
     "de_plural": "die Komplotte",
-    "lv": "Spisek",
+    "lv": "spisek",
     "level": "B2"
   },
   {
     "de": "Konsequenz",
     "de_article": "die",
     "de_plural": "die Konsequenzen",
-    "lv": "Spójność • Sekwencja • Zakończenie • Konsekwencja",
+    "lv": "konsekwencja • skutek",
     "level": "B2"
   },
   {
     "de": "Konsulat",
     "de_article": "das",
     "de_plural": "die Konsulate",
-    "lv": "Konsulat",
+    "lv": "konsulat",
     "level": "B2"
   },
   {
     "de": "Konsum",
     "de_article": "der",
     "de_plural": null,
-    "lv": "Konsumpcja",
+    "lv": "konsumpcja • spożycie",
     "level": "B2"
   },
   {
     "de": "Konsumgüter",
     "de_article": "die",
-    "lv": "Dobra konsumpcyjne",
+    "lv": "dobra konsumpcyjne",
     "level": "B2"
   },
   {
     "de": "konvertieren",
-    "lv": "Konwertować",
+    "lv": "konwertować • przekształcać",
     "level": "B2"
   },
   {
     "de": "Konzept",
     "de_article": "das",
     "de_plural": "die Konzepte",
-    "lv": "Koncepcja • Zarys • Plan",
+    "lv": "koncepcja • szkic • plan",
     "level": "B2"
   },
   {
     "de": "Korps",
     "de_article": "das",
     "de_plural": "die Korps",
-    "lv": "Ciało",
+    "lv": "korpus",
     "level": "B2"
   },
   {
     "de": "korrumpieren",
-    "lv": "Przekupić",
+    "lv": "korumpować • przekupywać",
     "level": "B2"
   },
   {
     "de": "korrupt",
-    "lv": "Do kupienia • Przekupstwa",
+    "lv": "skorumpowany • przekupny",
     "level": "B2"
   },
   {
     "de": "Kosmonaut",
     "de_article": "der",
     "de_plural": "die Kosmonauten",
-    "lv": "Kosmonauta",
+    "lv": "kosmonauta",
     "level": "B2"
   },
   {
     "de": "Krebs",
     "de_article": "der",
     "de_plural": "die Krebse",
-    "lv": "Rak",
+    "lv": "rak",
     "level": "B2"
   },
   {
     "de": "Kriegszustand",
     "de_article": "der",
     "de_plural": "die Kriegszustände",
-    "lv": "Stan wojenny",
+    "lv": "stan wojny",
     "level": "B2"
   },
   {
     "de": "Lähmung",
     "de_article": "die",
     "de_plural": "die Lähmungen",
-    "lv": "Paraliż",
+    "lv": "paraliż • porażenie",
     "level": "B2"
   },
   {
     "de": "Laie",
     "de_article": "der",
     "de_plural": "die Laien",
-    "lv": "Dyletant",
+    "lv": "laik • amator",
     "level": "B2"
   },
   {
     "de": "Laienkunst",
     "de_article": "die",
-    "lv": "Samodzielność artystyczna",
+    "lv": "twórczość amatorska",
     "level": "B2"
   },
   {
     "de": "Landarbeiter",
     "de_article": "der",
     "de_plural": "die Landarbeiter",
-    "lv": "Pracownik rolny",
+    "lv": "robotnik rolny",
     "level": "B2"
   },
   {
     "de": "Landebahn",
     "de_article": "die",
     "de_plural": "die Landebahnen",
-    "lv": "Lądowisko",
+    "lv": "pas startowy",
     "level": "B2"
   },
   {
     "de": "Landenge",
     "de_article": "die",
     "de_plural": "die Landengen",
-    "lv": "Przesmyk lądowy",
+    "lv": "przesmyk",
     "level": "B2"
   },
   {
     "de": "Länderkunde",
     "de_article": "die",
-    "lv": "Geografia regionalna",
+    "lv": "geografia regionalna",
     "level": "B2"
   },
   {
     "de": "Landsmann",
     "de_article": "der",
     "de_plural": "die Landsleute",
-    "lv": "Rodak • Mieszkaniec powiatu",
+    "lv": "rodak • krajan",
     "level": "B2"
   },
   {
     "de": "Landung",
     "de_article": "die",
     "de_plural": "die Landungen",
-    "lv": "Odskok • Lądowanie • Lądowanie",
+    "lv": "lądowanie • desant",
     "level": "B2"
   },
   {
     "de": "Landzunge",
     "de_article": "die",
     "de_plural": "die Landzungen",
-    "lv": "Język ziemi",
+    "lv": "cypel • mierzeja",
     "level": "B2"
   },
   {
     "de": "langfristig",
-    "lv": "Długoterminowe • Długoterminowe",
+    "lv": "długoterminowy • długofalowy",
     "level": "B2"
   },
   {
     "de": "länglich",
-    "lv": "Wydłużony",
+    "lv": "podłużny",
     "level": "B2"
   },
   {
     "de": "lästig",
-    "lv": "Uciążliwy",
+    "lv": "uciążliwy • natrętny",
     "level": "B2"
   },
   {
     "de": "latent",
-    "lv": "Ukryty • Niezauważalny",
+    "lv": "ukryty • utajony",
     "level": "B2"
   },
   {
     "de": "lauern",
-    "lv": "Się przytulić",
+    "lv": "czaić się • czyhać",
     "level": "B2"
   },
   {
     "de": "Staffellauf",
     "de_article": "der",
     "de_plural": "die Staffelläufe",
-    "lv": "Sztafeta",
+    "lv": "bieg sztafetowy • sztafeta",
     "level": "B2"
   },
   {
     "de": "Laufmasche",
     "de_article": "die",
     "de_plural": "die Laufmaschen",
-    "lv": "Szew spadł ze skarpetki",
+    "lv": "oczko w rajstopach",
     "level": "B2"
   },
   {
     "de": "Laufsteg",
     "de_article": "der",
     "de_plural": "die Laufstege",
-    "lv": "Język na pokazie mody",
+    "lv": "wybieg",
     "level": "B2"
   },
   {
     "de": "Laufwerk",
     "de_article": "das",
     "de_plural": "die Laufwerke",
-    "lv": "Silnik • Silnik",
+    "lv": "napęd",
     "level": "B2"
   },
   {
     "de": "lauschen",
-    "lv": "Uważnie słuchać • Podsłuchiwać",
+    "lv": "przysłuchiwać się • podsłuchiwać",
     "level": "B2"
   },
   {
     "de": "Lawinengefahr",
     "de_article": "die",
     "de_plural": "die Lawinengefahren",
-    "lv": "Zagrożenie lawinowe",
+    "lv": "zagrożenie lawinowe",
     "level": "B2"
   },
   {
     "de": "Lawinenopfer",
     "de_article": "das",
     "de_plural": "die Lawinenopfer",
-    "lv": "Ofiara lawiny",
+    "lv": "ofiara lawiny",
     "level": "B2"
   },
   {
     "de": "Leader",
     "de_article": "der",
     "de_plural": "die Leader",
-    "lv": "Lider",
+    "lv": "lider",
     "level": "B2"
   },
   {
     "de": "legalisieren",
-    "lv": "Zalegalizować",
+    "lv": "legalizować • zalegalizować",
     "level": "B2"
   },
   {
     "de": "Lehrstuhl",
     "de_article": "der",
     "de_plural": "die Lehrstühle",
-    "lv": "Dział",
+    "lv": "katedra",
     "level": "B2"
   },
   {
     "de": "leiblich",
-    "lv": "Cielesny",
+    "lv": "cielesny • rodzony",
     "level": "B2"
   },
   {
     "de": "Leibwächter",
     "de_article": "der",
     "de_plural": "die Leibwächter",
-    "lv": "Goryl",
+    "lv": "ochroniarz • goryl",
     "level": "B2"
   },
   {
     "de": "Leichenhalle",
     "de_article": "die",
     "de_plural": "die Leichenhallen",
-    "lv": "Na cmentarzu kaplicowym",
+    "lv": "kaplica cmentarna • kostnica",
     "level": "B2"
   },
   {
     "de": "Leichtgewicht",
     "de_article": "das",
     "de_plural": "die Leichtgewichte",
-    "lv": "Lekka waga",
+    "lv": "waga lekka",
     "level": "B2"
   },
   {
     "de": "leichtgläubig",
-    "lv": "Łatwowierny",
+    "lv": "łatwowierny",
     "level": "B2"
   },
   {
     "de": "leichtsinnig",
-    "lv": "Frywolny",
+    "lv": "lekkomyślny",
     "level": "B2"
   },
   {
     "de": "Leiden",
     "de_article": "das",
     "de_plural": "die Leiden",
-    "lv": "Długa i ciężka choroba",
+    "lv": "cierpienie • choroba",
     "level": "B2",
     "study": {
       "id": "b2-leiden-study",
       "layout": "standardStudy",
-      "translation": "Długa i ciężka choroba",
+      "translation": "cierpienie • choroba",
       "explanation": [
-        "Główna idea: das Leiden z dużej litery i przedimka das to rzeczownik - cierpienie, długa/ciężka choroba.",
-        "Leiden pisany małymi literami to czasownik - cierpieć.",
-        "Das Leiden jest często używane w kontekście medycznym lub literackim (ein schweres Leiden = ciężka choroba).",
-        "Liczba mnoga: die Leiden."
+        "Główna myśl: das Leiden to rzeczownik rodzaju nijakiego używany na dwa sposoby: jako cierpienie (das Leiden der Menschen) i jako długotrwała, często przewlekła choroba (ein schweres Leiden). Liczba mnoga to die Leiden.",
+        "Słowo jest rzeczownikiem utworzonym od czasownika leiden (cierpieć). Typowe połączenia: ein chronisches Leiden, ein altes Leiden, nach langem, schwerem Leiden (w nekrologach).",
+        "W porównaniu ze zwykłym Krankheit słowo Leiden podkreśla długi czas trwania i ciężki przebieg choroby."
       ],
       "examples": [
         {
           "de": "Er hat ein schweres Leiden.",
-          "lv": "Ma poważną chorobę."
+          "lv": "Ma ciężką chorobę."
         },
         {
           "de": "Das Leiden der Patienten war groß.",
-          "lv": "Cierpienie pacjentów było ogromne."
+          "lv": "Cierpienie pacjentów było wielkie."
         },
         {
-          "de": "Er leidet an einer seltenen Krankheit.",
-          "lv": "Cierpi na rzadką chorobę."
+          "de": "Nach langem Leiden ist er gestorben.",
+          "lv": "Zmarł po długim cierpieniu."
         },
         {
-          "de": "Ihr Leiden dauerte Jahre.",
-          "lv": "Jej choroba trwała latami."
+          "de": "Ein chronisches Leiden begleitet ihn seit Jahren.",
+          "lv": "Przewlekła choroba towarzyszy mu od lat."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "die Krankheit",
+          "meaning": "choroba",
+          "example": "Eine Krankheit kann ansteckend sein. – Choroba może być zaraźliwa."
+        },
+        {
+          "word": "der Schmerz",
+          "meaning": "ból",
+          "example": "Der Schmerz ist stark. – Ból jest silny."
+        },
+        {
+          "word": "leiden",
+          "meaning": "cierpieć",
+          "example": "Er leidet an Asthma. – Cierpi na astmę."
         }
       ],
       "tip": [
-        "Das Leiden dużą literą - rzeczownik (cierpienie, ciężka choroba).",
-        "Leiden małymi literami - czasownik (cierpieć)."
+        "Z czasownikiem leiden mówisz: an einer Krankheit leiden (chorować na jakąś chorobę).",
+        "W nekrologach często przeczytasz: nach schwerem Leiden."
       ],
       "important": [
-        "Das Leiden = cierpienie/ciężka choroba (rzeczownik).",
-        "Leiden = cierpieć (czasownik).",
-        "Liczba mnoga: die Leiden."
+        "Leiden to rzeczownik pisany wielką literą, a leiden — czasownik pisany małą.",
+        "Na co dzień o krótkotrwałej chorobie mówi się Krankheit, a nie Leiden."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "das Leiden"
+            "Leiden"
           ],
           "purple": [
-            "cierpienie"
+            "cierpienie",
+            "choroba",
+            "choroby"
           ],
           "green": [
-            "leiden"
+            "leiden",
+            "Krankheit"
           ]
         },
         "examples": [
@@ -8445,7 +18528,11 @@ const B2_WORDS = [
                 "Leiden"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "chorobę"
+              ]
+            }
           },
           {
             "de": {
@@ -8461,13 +18548,13 @@ const B2_WORDS = [
           },
           {
             "de": {
-              "green": [
-                "leidet"
+              "blue": [
+                "Leiden"
               ]
             },
             "lv": {
               "purple": [
-                "Cierpi"
+                "cierpieniu"
               ]
             }
           },
@@ -8477,16 +18564,62 @@ const B2_WORDS = [
                 "Leiden"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "choroba"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "die Krankheit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "choroba"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Schmerz"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ból"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "leiden"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "cierpieć"
+              ]
+            }
           }
         ],
         "tip": [
           {
-            "blue": [
-              "das Leiden"
+            "green": [
+              "leiden",
+              "Krankheit"
             ]
           },
           {
+            "blue": [
+              "Leiden"
+            ],
             "green": [
               "leiden"
             ]
@@ -8495,17 +18628,19 @@ const B2_WORDS = [
         "important": [
           {
             "blue": [
-              "das Leiden"
-            ]
-          },
-          {
+              "Leiden"
+            ],
             "green": [
               "leiden"
             ]
           },
           {
             "blue": [
-              "die Leiden"
+              "Leiden"
+            ],
+            "green": [
+              "leiden",
+              "Krankheit"
             ]
           }
         ]
@@ -8514,636 +18649,636 @@ const B2_WORDS = [
   },
   {
     "de": "leidlich",
-    "lv": "Znośny • Znośny • W połowie dobry",
+    "lv": "znośny • znośnie",
     "level": "B2"
   },
   {
     "de": "Leistungslohn",
     "de_article": "der",
     "de_plural": "die Leistungslöhne",
-    "lv": "Płatność akordowa",
+    "lv": "płaca akordowa",
     "level": "B2"
   },
   {
     "de": "Leitartikel",
     "de_article": "der",
     "de_plural": "die Leitartikel",
-    "lv": "Artykuł wprowadzający",
+    "lv": "artykuł wstępny",
     "level": "B2"
   },
   {
     "de": "Leitfaden",
     "de_article": "der",
     "de_plural": "die Leitfäden",
-    "lv": "Podręcznik",
+    "lv": "poradnik • przewodnik",
     "level": "B2"
   },
   {
     "de": "Lektor",
     "de_article": "der",
     "de_plural": "die Lektoren",
-    "lv": "Wykładowca uniwersytecki",
+    "lv": "lektor",
     "level": "B2"
   },
   {
     "de": "Lesbe",
     "de_article": "die",
     "de_plural": "die Lesben",
-    "lv": "Lesbijka",
+    "lv": "lesbijka",
     "level": "B2"
   },
   {
     "de": "lesegeschützt",
-    "lv": "Tekst, który można odczytać dopiero po wpisaniu hasła",
+    "lv": "chroniony hasłem",
     "level": "B2"
   },
   {
     "de": "Leuchtreklame",
     "de_article": "die",
     "de_plural": "die Leuchtreklamen",
-    "lv": "Lekka reklama",
+    "lv": "reklama świetlna • neon",
     "level": "B2"
   },
   {
     "de": "leugnen",
-    "lv": "Zaprzeczyć",
+    "lv": "zaprzeczać • wypierać się",
     "level": "B2"
   },
   {
     "de": "liberal",
-    "lv": "Liberał",
+    "lv": "liberalny",
     "level": "B2"
   },
   {
     "de": "Liebesaffäre",
     "de_article": "die",
     "de_plural": "die Liebesaffären",
-    "lv": "Intymne połączenie",
+    "lv": "romans",
     "level": "B2"
   },
   {
     "de": "liebkosten",
-    "lv": "Pieścić • Pieścić",
+    "lv": "pieścić • tulić",
     "level": "B2"
   },
   {
     "de": "liederlich",
-    "lv": "Niechlujny • Niechlujny",
+    "lv": "niedbały • niechlujny",
     "level": "B2"
   },
   {
     "de": "lindern",
-    "lv": "Łagodzić • Łagodzić ból",
+    "lv": "łagodzić • uśmierzać",
     "level": "B2"
   },
   {
     "de": "lispeln",
-    "lv": "Poślizgnąć się",
+    "lv": "seplenić",
     "level": "B2"
   },
   {
     "de": "List",
     "de_article": "die",
     "de_plural": "die Listen",
-    "lv": "Naciągnięcie",
+    "lv": "podstęp • chytrość",
     "level": "B2"
   },
   {
     "de": "listig",
-    "lv": "Podstępny",
+    "lv": "chytry • przebiegły",
     "level": "B2"
   },
   {
     "de": "Litfaßsäule",
     "de_article": "die",
     "de_plural": "die Litfaßsäulen",
-    "lv": "Słup plakatowy",
+    "lv": "słup ogłoszeniowy",
     "level": "B2"
   },
   {
     "de": "Lochband",
     "de_article": "das",
     "de_plural": "die Lochbänder",
-    "lv": "Doskonały",
+    "lv": "taśma perforowana",
     "level": "B2"
   },
   {
     "de": "Lochkarte",
     "de_article": "die",
     "de_plural": "die Lochkarten",
-    "lv": "Karta dziurkowana",
+    "lv": "karta perforowana",
     "level": "B2"
   },
   {
     "de": "Lohnabbau",
     "de_article": "der",
-    "lv": "Spadek płac",
+    "lv": "obniżka płac",
     "level": "B2"
   },
   {
     "de": "Lohnerhöhung",
     "de_article": "die",
     "de_plural": "die Lohnerhöhungen",
-    "lv": "Podwyżka wynagrodzenia",
+    "lv": "podwyżka płac",
     "level": "B2"
   },
   {
     "de": "Lösegeld",
     "de_article": "das",
     "de_plural": "die Lösegelder",
-    "lv": "Opłata za wykup",
+    "lv": "okup",
     "level": "B2"
   },
   {
     "de": "Losung",
     "de_article": "die",
     "de_plural": "die Losungen",
-    "lv": "Hasło • Hasło",
+    "lv": "hasło • slogan",
     "level": "B2"
   },
   {
     "de": "Löwenmähne",
     "de_article": "die",
     "de_plural": "die Löwenmähnen",
-    "lv": "Lwia grzywa",
+    "lv": "grzywa lwa",
     "level": "B2"
   },
   {
     "de": "Löwenpranke",
     "de_article": "die",
     "de_plural": "die Löwenpranken",
-    "lv": "Łapa lwa",
+    "lv": "łapa lwa",
     "level": "B2"
   },
   {
     "de": "Luftabwehr",
     "de_article": "die",
-    "lv": "Obrona powietrzna",
+    "lv": "obrona przeciwlotnicza",
     "level": "B2"
   },
   {
     "de": "Luftbad",
     "de_article": "das",
     "de_plural": "die Luftbäder",
-    "lv": "Pływanie w powietrzu",
+    "lv": "kąpiel powietrzna",
     "level": "B2"
   },
   {
     "de": "Luftaufnahme",
     "de_article": "die",
     "de_plural": "die Luftaufnahmen",
-    "lv": "Fotografia lotnicza • Fotografia lotnicza",
+    "lv": "zdjęcie lotnicze",
     "level": "B2"
   },
   {
     "de": "luftdicht",
-    "lv": "Przepuszczający powietrze • Hermetyczny",
+    "lv": "hermetyczny • szczelny",
     "level": "B2"
   },
   {
     "de": "Luftfahrt",
     "de_article": "die",
-    "lv": "Lotnictwo",
+    "lv": "lotnictwo",
     "level": "B2"
   },
   {
     "de": "Lufthafen",
     "de_article": "der",
     "de_plural": "die Lufthäfen",
-    "lv": "Lotnisko",
+    "lv": "port lotniczy • lotnisko",
     "level": "B2"
   },
   {
     "de": "Luftpost",
     "de_article": "die",
-    "lv": "Poczta lotnicza",
+    "lv": "poczta lotnicza",
     "level": "B2"
   },
   {
     "de": "Luftgewehr",
     "de_article": "das",
     "de_plural": "die Luftgewehre",
-    "lv": "Pistolet pneumatyczny",
+    "lv": "wiatrówka",
     "level": "B2"
   },
   {
     "de": "Luftpirat",
     "de_article": "der",
     "de_plural": "die Luftpiraten",
-    "lv": "Powietrzny pirat",
+    "lv": "porywacz samolotu",
     "level": "B2"
   },
   {
     "de": "Lustspiel",
     "de_article": "das",
     "de_plural": "die Lustspiele",
-    "lv": "Komedia • Żart",
+    "lv": "komedia • krotochwila",
     "level": "B2"
   },
   {
     "de": "Machtantritt",
     "de_article": "der",
     "de_plural": "die Machtantritte",
-    "lv": "Dojście do władzy",
+    "lv": "dojście do władzy",
     "level": "B2"
   },
   {
     "de": "Machtgier",
     "de_article": "die",
-    "lv": "Żądza władzy",
+    "lv": "żądza władzy",
     "level": "B2"
   },
   {
     "de": "mächtig",
-    "lv": "Potężny • Silny • Ogromny",
+    "lv": "potężny • silny • ogromny",
     "level": "B2"
   },
   {
     "de": "Magensäure",
     "de_article": "die",
     "de_plural": "die Magensäuren",
-    "lv": "Kwas żołądkowy",
+    "lv": "kwas żołądkowy",
     "level": "B2"
   },
   {
     "de": "Magister",
     "de_article": "der",
     "de_plural": "die Magister",
-    "lv": "Tytuł magistra",
+    "lv": "magister",
     "level": "B2"
   },
   {
     "de": "Mahd",
     "de_article": "die",
     "de_plural": "die Mahden",
-    "lv": "Zebrał",
+    "lv": "koszenie • sianokos",
     "level": "B2"
   },
   {
     "de": "Mähdrescher",
     "de_article": "der",
     "de_plural": "die Mähdrescher",
-    "lv": "Kombajn",
+    "lv": "kombajn zbożowy",
     "level": "B2"
   },
   {
     "de": "Mahl",
     "de_article": "das",
     "de_plural": "die Mähler",
-    "lv": "Posiłek • Uczta",
+    "lv": "posiłek • uczta",
     "level": "B2"
   },
   {
     "de": "mahnen",
-    "lv": "Przypomnieć",
+    "lv": "upominać • przypominać",
     "level": "B2"
   },
   {
     "de": "Mahnschreiben",
     "de_article": "das",
-    "lv": "Przypomnienie",
+    "lv": "upomnienie • monit",
     "level": "B2"
   },
   {
     "de": "Manifest",
     "de_article": "das",
     "de_plural": "die Manifeste",
-    "lv": "Manifest",
+    "lv": "manifest",
     "level": "B2"
   },
   {
     "de": "manipulieren",
-    "lv": "Manipulować",
+    "lv": "manipulować",
     "level": "B2"
   },
   {
     "de": "Manuskript",
     "de_article": "das",
     "de_plural": "die Manuskripte",
-    "lv": "Rękopis",
+    "lv": "rękopis • maszynopis",
     "level": "B2"
   },
   {
     "de": "Marine",
     "de_article": "die",
     "de_plural": "die Marinen",
-    "lv": "Granatowy • Pejzaż morski",
+    "lv": "marynarka wojenna • marina",
     "level": "B2"
   },
   {
     "de": "Mark",
     "de_article": "das",
     "de_plural": null,
-    "lv": "Szpik kostny",
+    "lv": "szpik kostny",
     "level": "B2"
   },
   {
     "de": "Marketing",
     "de_article": "das",
     "de_plural": null,
-    "lv": "Marketing • Handel",
+    "lv": "marketing",
     "level": "B2"
   },
   {
     "de": "Marktlücke",
     "de_article": "die",
     "de_plural": "die Marktlücken",
-    "lv": "Rynek niszowy",
+    "lv": "nisza rynkowa",
     "level": "B2"
   },
   {
     "de": "Marssonde",
     "de_article": "die",
     "de_plural": "die Marssonden",
-    "lv": "Sonda marsjańska",
+    "lv": "sonda marsjańska",
     "level": "B2"
   },
   {
     "de": "Marschall",
     "de_article": "der",
     "de_plural": "die Marschälle",
-    "lv": "Marszałek",
+    "lv": "marszałek",
     "level": "B2"
   },
   {
     "de": "Marxismus",
     "de_article": "der",
-    "lv": "Marksizm",
+    "lv": "marksizm",
     "level": "B2"
   },
   {
     "de": "Maschinenbau",
     "de_article": "der",
-    "lv": "Inżynieria mechaniczna",
+    "lv": "budowa maszyn",
     "level": "B2"
   },
   {
     "de": "Maskenbildner",
     "de_article": "der",
     "de_plural": "die Maskenbildner",
-    "lv": "Profesjonalna wizażystka i fryzjerka",
+    "lv": "charakteryzator",
     "level": "B2"
   },
   {
     "de": "Massaker",
     "de_article": "das",
     "de_plural": "die Massaker",
-    "lv": "Rzeź",
+    "lv": "masakra • rzeź",
     "level": "B2"
   },
   {
     "de": "Massenware",
     "de_article": "die",
-    "lv": "Dobra konsumpcyjne",
+    "lv": "towar masowy",
     "level": "B2"
   },
   {
     "de": "maßlos",
-    "lv": "Niezmierzone • Nieskończone",
+    "lv": "bezgraniczny • nieumiarkowany",
     "level": "B2"
   },
   {
     "de": "Materialismus",
     "de_article": "der",
-    "lv": "Materializm",
+    "lv": "materializm",
     "level": "B2"
   },
   {
     "de": "Matinée",
     "de_article": "die",
     "de_plural": "die Matinéen",
-    "lv": "Poranny program",
+    "lv": "poranek",
     "level": "B2"
   },
   {
     "de": "mechanisieren",
-    "lv": "Zmechanizować",
+    "lv": "mechanizować",
     "level": "B2"
   },
   {
     "de": "Meerbusen",
     "de_article": "der",
     "de_plural": "die Meerbusen",
-    "lv": "Zatoka morska",
+    "lv": "zatoka",
     "level": "B2"
   },
   {
     "de": "Meerenge",
     "de_article": "die",
     "de_plural": "die Meerengen",
-    "lv": "Bełt",
+    "lv": "cieśnina",
     "level": "B2"
   },
   {
     "de": "Meeresspiegel",
     "de_article": "der",
     "de_plural": "die Meeresspiegel",
-    "lv": "Poziom morza",
+    "lv": "poziom morza",
     "level": "B2"
   },
   {
     "de": "mehren",
-    "lv": "Zwielokrotniać",
+    "lv": "pomnażać • zwiększać",
     "level": "B2"
   },
   {
     "de": "meiden",
-    "lv": "Unikać",
+    "lv": "unikać",
     "level": "B2"
   },
   {
     "de": "Meisterwerk",
     "de_article": "das",
     "de_plural": "die Meisterwerke",
-    "lv": "Arcydzieło",
+    "lv": "arcydzieło",
     "level": "B2"
   },
   {
     "de": "Meldefrist",
     "de_article": "die",
     "de_plural": "die Meldefristen",
-    "lv": "Termin składania wniosków",
+    "lv": "termin zgłoszeń",
     "level": "B2"
   },
   {
     "de": "menschenscheu",
-    "lv": "Nietowarzyski • Nieśmiały",
+    "lv": "nietowarzyski • płochliwy",
     "level": "B2"
   },
   {
     "de": "merklich",
-    "lv": "Zauważalny",
+    "lv": "zauważalny • wyraźny",
     "level": "B2"
   },
   {
     "de": "meutern",
-    "lv": "Buntownik • Buntownik",
+    "lv": "buntować się",
     "level": "B2"
   },
   {
     "de": "Mieder",
     "de_article": "das",
     "de_plural": "die Mieder",
-    "lv": "Pasek do rajstop • Stanik",
+    "lv": "gorset • stanik",
     "level": "B2"
   },
   {
     "de": "Miederwaren",
     "de_article": "die",
-    "lv": "Gorsety • Biustonosze",
+    "lv": "bielizna gorseciarska",
     "level": "B2"
   },
   {
     "de": "Mikrofilm",
     "de_article": "der",
     "de_plural": "die Mikrofilme",
-    "lv": "Mikrofilm",
+    "lv": "mikrofilm",
     "level": "B2"
   },
   {
     "de": "Milbe",
     "de_article": "die",
     "de_plural": "die Milben",
-    "lv": "Kleszcz",
+    "lv": "roztocz",
     "level": "B2"
   },
   {
     "de": "Hausstaubmilbe",
     "de_article": "die",
     "de_plural": "die Hausstaubmilben",
-    "lv": "Roztocza",
+    "lv": "roztocz kurzu domowego",
     "level": "B2"
   },
   {
     "de": "mildern",
-    "lv": "Ukoić ból • Złagodzić osąd",
+    "lv": "łagodzić • złagodzić",
     "level": "B2"
   },
   {
     "de": "militant",
-    "lv": "Wojujący",
+    "lv": "wojowniczy • bojowy",
     "level": "B2"
   },
   {
     "de": "Militär",
     "de_article": "das",
-    "lv": "Wojska • Armia",
+    "lv": "wojsko • armia",
     "level": "B2"
   },
   {
     "de": "Militärdienst",
     "de_article": "der",
     "de_plural": "die Militärdienste",
-    "lv": "Służba wojskowa",
+    "lv": "służba wojskowa",
     "level": "B2"
   },
   {
     "de": "militärfrei",
-    "lv": "Nie podlega poborowi",
+    "lv": "zwolniony ze służby wojskowej",
     "level": "B2"
   },
   {
     "de": "minder",
-    "lv": "Mniejszy • Mniej",
+    "lv": "mniejszy • mniej",
     "level": "B2"
   },
   {
     "de": "Minderung",
     "de_article": "die",
     "de_plural": "die Minderungen",
-    "lv": "Malejący",
+    "lv": "zmniejszenie • obniżenie",
     "level": "B2"
   },
   {
     "de": "minderwertig",
-    "lv": "Bezwartościowy",
+    "lv": "podrzędny • pośledni",
     "level": "B2"
   },
   {
     "de": "missachten",
-    "lv": "Lekceważenie",
+    "lv": "lekceważyć • nie przestrzegać",
     "level": "B2"
   },
   {
     "de": "missbilligen",
-    "lv": "Nie uznawać za dobre • Zarabiać",
+    "lv": "nie pochwalać • potępiać",
     "level": "B2"
   },
   {
     "de": "missbrauchen",
-    "lv": "Nadużywać",
+    "lv": "nadużywać • wykorzystywać",
     "level": "B2"
   },
   {
     "de": "missfallen",
-    "lv": "Nie podoba mi się",
+    "lv": "nie podobać się",
     "level": "B2"
   },
   {
     "de": "missglücken",
-    "lv": "Ponieść porażkę • Ponieść porażkę",
+    "lv": "nie udać się",
     "level": "B2"
   },
   {
     "de": "missgönnen",
-    "lv": "Nie chcieć • Cierpieć",
+    "lv": "zazdrościć",
     "level": "B2"
   },
   {
     "de": "misstrauen",
-    "lv": "Nie ufać",
+    "lv": "nie ufać",
     "level": "B2"
   },
   {
     "de": "mitschuldig",
-    "lv": "Współwinny",
+    "lv": "współwinny",
     "level": "B2"
   },
   {
     "de": "mittels",
-    "lv": "Przy pomocy czegoś",
+    "lv": "za pomocą • przy użyciu",
     "level": "B2"
   },
   {
     "de": "Mittelsmann",
     "de_article": "der",
     "de_plural": "die Mittelsmänner",
-    "lv": "Mediator pomiędzy przeciwnikami lub partnerami",
+    "lv": "pośrednik",
     "level": "B2"
   },
   {
     "de": "mitwirken",
-    "lv": "Uczestniczyć • Działać razem",
+    "lv": "współdziałać • uczestniczyć",
     "level": "B2"
   },
   {
     "de": "Mitwisser",
     "de_article": "der",
     "de_plural": "die Mitwisser",
-    "lv": "Współspiskowiec",
+    "lv": "wtajemniczony",
     "level": "B2"
   },
   {
     "de": "mobilisieren",
-    "lv": "Zmobilizować",
+    "lv": "mobilizować",
     "level": "B2"
   },
   {
     "de": "moderieren",
-    "lv": "Moderować",
+    "lv": "prowadzić • moderować",
     "level": "B2"
   },
   {
     "de": "Moment",
     "de_article": "das",
     "de_plural": "die Momente",
-    "lv": "Okoliczność decydująca • Czynnik",
+    "lv": "czynnik • moment",
     "level": "B2"
   },
   {
     "de": "Monatsschrift",
     "de_article": "die",
-    "lv": "Miesięczny",
+    "lv": "miesięcznik",
     "level": "B2",
     "de_plural": "die Monatsschriften"
   },
@@ -9151,129 +19286,129 @@ const B2_WORDS = [
     "de": "Müllentsorgung",
     "de_article": "die",
     "de_plural": "die Müllentsorgungen",
-    "lv": "Utylizacja odpadów",
+    "lv": "utylizacja odpadów • wywóz śmieci",
     "level": "B2"
   },
   {
     "de": "Atommüll",
     "de_article": "der",
-    "lv": "Odpady radioaktywne",
+    "lv": "odpady radioaktywne",
     "level": "B2"
   },
   {
     "de": "mulmig",
-    "lv": "Niespokojny • Niepewny • Bojaźliwy",
+    "lv": "nieswój • niepewny • niepokojący",
     "level": "B2"
   },
   {
     "de": "münden",
-    "lv": "Napływ • Napływ • Odpływ • Wypływ",
+    "lv": "uchodzić • wpadać",
     "level": "B2"
   },
   {
     "de": "Muße",
     "de_article": "die",
-    "lv": "Czas wolny • Czas wolny",
+    "lv": "czas wolny • wytchnienie",
     "level": "B2"
   },
   {
     "de": "müßig",
-    "lv": "Bezczynny • Bezczynny",
+    "lv": "bezczynny • próżny",
     "level": "B2"
   },
   {
     "de": "mutieren",
-    "lv": "Mówić",
+    "lv": "mutować",
     "level": "B2"
   },
   {
     "de": "Mystik",
     "de_article": "die",
     "de_plural": "die Mystiken",
-    "lv": "Mistycyzm",
+    "lv": "mistyka",
     "level": "B2"
   },
   {
     "de": "Nabelschnur",
     "de_article": "die",
     "de_plural": "die Nabelschnüre",
-    "lv": "Pępowina",
+    "lv": "pępowina",
     "level": "B2"
   },
   {
     "de": "Nachbildung",
     "de_article": "die",
     "de_plural": "die Nachbildungen",
-    "lv": "Imitacja • Imitacja",
+    "lv": "kopia • imitacja",
     "level": "B2"
   },
   {
     "de": "Nachdruck",
     "de_article": "der",
     "de_plural": "die Nachdrucke",
-    "lv": "Podkreślenie",
+    "lv": "nacisk",
     "level": "B2",
     "study": {
       "id": "b2-nachdruck",
       "layout": "standardStudy",
-      "translation": "Podkreślenie • Przedruk",
+      "translation": "nacisk",
       "explanation": [
-        "Główna idea: der Nachdruck może oznaczać podkreślenie lub przedruk książki.",
-        "Nachdruck auf etwas legen = podkreślać coś, nalegać na coś.",
-        "Der Nachdruck eines Buches = przedruk książki.",
-        "Kontekst (transakcje/negocjacje lub publikacja) determinuje właściwe znaczenie."
+        "Główna myśl: der Nachdruck to rzeczownik rodzaju męskiego. Jego główne znaczenie to nacisk, stanowczość, natarczywość, z jaką się coś mówi lub robi: mit Nachdruck (stanowczo, z naciskiem), Nachdruck auf etwas legen (kłaść nacisk na coś).",
+        "W tym znaczeniu używa się liczby pojedynczej: der Nachdruck, des Nachdrucks. Drugie znaczenie — w poligrafii przedruk lub ponowna publikacja; wtedy liczba mnoga to die Nachdrucke. Na publikacjach często widać: Nachdruck verboten!"
       ],
       "examples": [
         {
-          "de": "Er legt Nachdruck auf die Frist.",
-          "lv": "– podkreśla termin."
+          "de": "Mit Nachdruck forderte sie eine Antwort.",
+          "lv": "Stanowczo domagała się odpowiedzi."
         },
         {
-          "de": "Mit Nachdruck forderte sie eine Antwort.",
-          "lv": "Zażądała odpowiedzi."
+          "de": "Er legt besonderen Nachdruck auf die Qualität.",
+          "lv": "Kładzie szczególny nacisk na jakość."
         },
         {
           "de": "Der Nachdruck des Romans erschien im Frühjahr.",
           "lv": "Przedruk powieści ukazał się wiosną."
         },
         {
-          "de": "Dieses Buch ist bereits im Nachdruck.",
-          "lv": "Ta książka jest już w przedruku."
-        },
-        {
-          "de": "Der Verlag plant einen Nachdruck.",
-          "lv": "Wydawca planuje reedycję."
+          "de": "Nachdruck verboten!",
+          "lv": "Przedruk zabroniony!"
         }
       ],
       "comparison": [
         {
-          "word": "Nachdruck legen auf",
-          "meaning": "Podkreślać, nalegać",
-          "example": "Er legt Nachdruck auf die Frist. = Viņš uzsver termiņu."
+          "word": "die Betonung",
+          "meaning": "akcent",
+          "example": "Die Betonung liegt auf der ersten Silbe. – Akcent pada na pierwszą sylabę."
         },
         {
-          "word": "der Nachdruck (Buch)",
-          "meaning": "Wznawiać wydanie",
-          "example": "Der Nachdruck erschien im Frühjahr. = Atkārtotais izdevums iznāca pavasarī."
+          "word": "die Auflage",
+          "meaning": "nakład, wydanie",
+          "example": "Das Buch erscheint in zweiter Auflage. – Książka ukazuje się w drugim wydaniu."
         },
         {
-          "word": "der Druck",
-          "meaning": "Ciśnienie / nadruk",
-          "example": "Unter Druck stehen = būt spiedienā."
+          "word": "nachdrücklich",
+          "meaning": "stanowczy, dobitny",
+          "example": "Er bat nachdrücklich um Hilfe. – Usilnie prosił o pomoc."
         }
       ],
       "tip": [
-        "W dyskusjach i żądaniach: Nachdruck = podkreślenie.",
-        "W wydawnictwach i książkach: Nachdruck = przedruk."
+        "Zapamiętaj dwa stałe połączenia: mit Nachdruck i Nachdruck verleihen.",
+        "Pokrewny przymiotnik nachdrücklich znaczy stanowczy, dobitny."
       ],
       "important": [
-        "Nachdruck auf etwas legen = podkreślać.",
-        "Der Nachdruck eines Buches = przedruk."
+        "Nachdruck w tym znaczeniu występuje w liczbie pojedynczej; liczba mnoga die Nachdrucke dotyczy wydań.",
+        "Nie myl z Druck (ciśnienie, presja, druk): to inne znaczenie."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "der Nachdruck"
+            "der Nachdruck",
+            "Nachdruck",
+            "Nachdrucke"
+          ],
+          "purple": [
+            "naciskiem",
+            "stanowczość"
           ]
         },
         "examples": [
@@ -9283,7 +19418,11 @@ const B2_WORDS = [
                 "Nachdruck"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Stanowczo"
+              ]
+            }
           },
           {
             "de": {
@@ -9291,153 +19430,395 @@ const B2_WORDS = [
                 "Nachdruck"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "nacisk"
+              ]
+            }
           },
           {
             "de": {
-              "green": [
+              "blue": [
                 "Nachdruck"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Przedruk"
+              ]
+            }
           },
           {
             "de": {
-              "green": [
+              "blue": [
                 "Nachdruck"
               ]
             },
-            "lv": {}
-          },
-          {
-            "de": {
-              "green": [
-                "Nachdruck"
+            "lv": {
+              "purple": [
+                "Przedruk"
               ]
-            },
-            "lv": {}
+            }
           }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "die Betonung"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "akcent"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Auflage"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "wydanie"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "nachdrücklich"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "stanowczy"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "Nachdruck"
+            ]
+          },
+          {
+            "green": [
+              "nachdrücklich"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "Nachdruck",
+              "Nachdrucke"
+            ]
+          },
+          {}
         ]
       }
     }
   },
   {
     "de": "nachdrücklich",
-    "lv": "Stanowczy • Energiczny • Przekonujący • Energicznie • Przekonujący",
+    "lv": "stanowczy • dobitny • stanowczo",
     "level": "B2"
   },
   {
     "de": "nachgehen",
-    "lv": "Podążaj • Dowiedz się",
+    "lv": "podążać za • badać",
     "level": "B2"
   },
   {
     "de": "nachgiebig",
-    "lv": "Protekcjonalny",
+    "lv": "ustępliwy • pobłażliwy",
     "level": "B2"
   },
   {
     "de": "Nachlass",
     "de_article": "der",
     "de_plural": "die Nachlasse",
-    "lv": "Dziedzictwo",
+    "lv": "spadek • spuścizna",
     "level": "B2"
   },
   {
     "de": "Nachruf",
     "de_article": "der",
     "de_plural": "die Nachrufe",
-    "lv": "Pośmiertny",
+    "lv": "nekrolog • wspomnienie pośmiertne",
     "level": "B2"
   },
   {
     "de": "Nachsicht",
     "de_article": "die",
-    "lv": "Tolerancja • Zrozumienie",
+    "lv": "pobłażliwość • wyrozumiałość",
     "level": "B2"
   },
   {
     "de": "nachsitzen",
-    "lv": "Zostawać w szkole po godzinach w ramach kary",
+    "lv": "zostać po lekcjach",
     "level": "B2"
   },
   {
     "de": "nachträglich",
-    "lv": "Później • Dodatkowe • Później • Za dodatki",
-    "level": "B2"
+    "lv": "późniejszy • dodatkowy • później",
+    "level": "B2",
+    "study": {
+      "id": "b2-nachtr-glich",
+      "layout": "standardStudy",
+      "translation": "późniejszy • dodatkowy • później",
+      "explanation": [
+        "Główna myśl: nachträglich oznacza po fakcie, już po głównej czynności lub terminie — później dodany lub zrobiony. Jest zarówno przymiotnikiem (eine nachträgliche Änderung), jak i przysłówkiem (nachträglich ändern).",
+        "Częste znaczenie to spóźnienie: nachträglich gratulieren — złożyć życzenia po wydarzeniu. Przymiotnik wyraża też dodatkowy charakter czegoś: eine nachträgliche Zahlung (dodatkowa płatność)."
+      ],
+      "examples": [
+        {
+          "de": "Eine nachträgliche Änderung ist nicht mehr möglich.",
+          "lv": "Późniejsza zmiana nie jest już możliwa."
+        },
+        {
+          "de": "Ich habe den Text nachträglich geändert.",
+          "lv": "Zmieniłem tekst później."
+        },
+        {
+          "de": "Es gibt eine nachträgliche Zahlung.",
+          "lv": "Jest dodatkowa płatność."
+        },
+        {
+          "de": "Herzlichen Glückwunsch nachträglich!",
+          "lv": "Serdeczne gratulacje, choć z opóźnieniem!"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "später",
+          "meaning": "później",
+          "example": "Wir sprechen später. – Porozmawiamy później."
+        },
+        {
+          "word": "zusätzlich",
+          "meaning": "dodatkowy",
+          "example": "Es gibt zusätzliche Kosten. – Są dodatkowe koszty."
+        },
+        {
+          "word": "nachher",
+          "meaning": "potem",
+          "example": "Ich rufe dich nachher an. – Zadzwonię do ciebie potem."
+        }
+      ],
+      "tip": [
+        "Składając życzenia z opóźnieniem, mów nachträglich: Alles Gute nachträglich!",
+        "W odróżnieniu od später, nachträglich wskazuje, że coś należało zrobić wcześniej."
+      ],
+      "important": [
+        "nachträglich dotyczy tego, co dzieje się po czymś, co już się wydarzyło, a nie dowolnego późniejszego czasu w przyszłości.",
+        "Przymiotnik się odmienia: nachträglicher, nachträgliche, nachträgliches."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "nachträglich",
+            "nachträgliche"
+          ],
+          "purple": [
+            "później",
+            "dodatkowa"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "nachträgliche"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Późniejsza"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "nachträglich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "później"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "nachträgliche"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "dodatkowa"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "nachträglich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "opóźnieniem"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "später"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "później"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "zusätzlich"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "dodatkowy"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "nachher"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "potem"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "nachträglich"
+            ]
+          },
+          {
+            "blue": [
+              "nachträglich"
+            ],
+            "green": [
+              "später"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "nachträglich"
+            ]
+          },
+          {
+            "blue": [
+              "nachträgliche"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Nachweis",
     "de_article": "der",
     "de_plural": "die Nachweise",
-    "lv": "Dowód",
+    "lv": "dowód",
     "level": "B2"
   },
   {
     "de": "Nachwort",
     "de_article": "das",
     "de_plural": "die Nachworte",
-    "lv": "Posłowie • Epilog",
+    "lv": "posłowie • epilog",
     "level": "B2"
   },
   {
     "de": "Nährboden",
     "de_article": "der",
     "de_plural": "die Nährböden",
-    "lv": "Średni",
+    "lv": "pożywka • podłoże",
     "level": "B2"
   },
   {
     "de": "namens",
-    "lv": "W imieniu • W nazwisku",
+    "lv": "w imieniu • o nazwisku",
     "level": "B2"
   },
   {
     "de": "Namensvetter",
     "de_article": "der",
     "de_plural": "die Namensvettern",
-    "lv": "Imiennik",
+    "lv": "imiennik",
     "level": "B2"
   },
   {
     "de": "Narkosearzt",
     "de_article": "der",
     "de_plural": "die Narkoseärzte",
-    "lv": "Lekarz anestezjolog",
+    "lv": "anestezjolog",
     "level": "B2"
   },
   {
     "de": "Teilnarkose",
     "de_article": "die",
     "de_plural": "die Teilnarkosen",
-    "lv": "Częściowe znieczulenie",
+    "lv": "znieczulenie miejscowe",
     "level": "B2"
   },
   {
     "de": "Vollnarkose",
     "de_article": "die",
     "de_plural": "die Vollnarkosen",
-    "lv": "Pełna narkoza",
+    "lv": "narkoza • znieczulenie ogólne",
     "level": "B2"
   },
   {
     "de": "Naturgewalten",
     "de_article": "die",
-    "lv": "Siły natury",
+    "lv": "siły natury • żywioły",
     "level": "B2"
   },
   {
     "de": "Nebelschwaden",
     "de_article": "der",
     "de_plural": "die Nebelschwaden",
-    "lv": "Pas mgły",
+    "lv": "pasmo mgły • kłąb mgły",
     "level": "B2"
   },
   {
     "de": "Nebenprodukt",
     "de_article": "das",
     "de_plural": "die Nebenprodukte",
-    "lv": "Produkt uboczny",
+    "lv": "produkt uboczny",
     "level": "B2"
   },
   {
@@ -9451,349 +19832,498 @@ const B2_WORDS = [
     "de": "Nenner",
     "de_article": "der",
     "de_plural": "die Nenner",
-    "lv": "Mianownik",
+    "lv": "mianownik",
     "level": "B2"
   },
   {
     "de": "Nervenarzt",
     "de_article": "der",
     "de_plural": "die Nervenärzte",
-    "lv": "Lekarz chorób nerwowych",
+    "lv": "neurolog",
     "level": "B2"
   },
   {
     "de": "Nesselfieber",
     "de_article": "das",
-    "lv": "Pokrzywka",
+    "lv": "pokrzywka",
     "level": "B2"
   },
   {
     "de": "Neuauflage",
     "de_article": "die",
     "de_plural": "die Neuauflagen",
-    "lv": "Ponownie • Wydanie poprawione",
+    "lv": "nowe wydanie • wznowienie",
     "level": "B2"
   },
   {
     "de": "neuerdings",
-    "lv": "Ostatnio • Obecnie • Ponownie • Ponownie",
+    "lv": "ostatnio • od niedawna • na nowo",
     "level": "B2"
   },
   {
     "de": "Neuerer",
     "de_article": "der",
     "de_plural": "die Neuerer",
-    "lv": "Nowator",
+    "lv": "innowator • nowator",
     "level": "B2"
   },
   {
     "de": "Neuerscheinung",
     "de_article": "die",
     "de_plural": "die Neuerscheinungen",
-    "lv": "Nowe • Nowe wydanie",
+    "lv": "nowość wydawnicza • nowość",
     "level": "B2"
   },
   {
     "de": "Neuerung",
     "de_article": "die",
     "de_plural": "die Neuerungen",
-    "lv": "Uaktualnienie",
+    "lv": "innowacja • nowość",
     "level": "B2"
   },
   {
     "de": "Neutralität",
     "de_article": "die",
     "de_plural": "die Neutralitäten",
-    "lv": "Neutralność",
+    "lv": "neutralność",
     "level": "B2"
   },
   {
     "de": "Nichtbeachtung",
     "de_article": "die",
     "de_plural": "die Nichtbeachtungen",
-    "lv": "Lekceważenie • Ignorowanie",
+    "lv": "nieprzestrzeganie • lekceważenie",
     "level": "B2"
   },
   {
     "de": "nichtig",
-    "lv": "Nieważne • Nieważne • Błahe • Nieistotne",
+    "lv": "nieważny • znikomy • błahy",
     "level": "B2"
   },
   {
     "de": "Niedergang",
     "de_article": "der",
     "de_plural": "die Niedergänge",
-    "lv": "Zachód słońca • Upadek • Upadek",
+    "lv": "upadek • schyłek",
     "level": "B2"
   },
   {
     "de": "niederlegen",
-    "lv": "Odłożyć • Przerwać pracę • Rozpocząć strajk",
+    "lv": "odłożyć • przerwać pracę",
     "level": "B2"
   },
   {
     "de": "Niederschlag",
     "de_article": "der",
     "de_plural": "die Niederschläge",
-    "lv": "Osad • Opady",
+    "lv": "opad • osad",
     "level": "B2"
   },
   {
     "de": "Niedertracht",
     "de_article": "die",
-    "lv": "Podłość",
+    "lv": "podłość • nikczemność",
     "level": "B2"
   },
   {
     "de": "nimmermehr",
-    "lv": "Nigdy więcej",
+    "lv": "nigdy więcej",
     "level": "B2"
   },
   {
     "de": "nominieren",
-    "lv": "Nominować",
+    "lv": "nominować",
     "level": "B2"
   },
   {
     "de": "normieren",
-    "lv": "Do racjonowania",
+    "lv": "normalizować • standaryzować",
     "level": "B2"
   },
   {
     "de": "nötigenfalls",
-    "lv": "W razie potrzeby",
+    "lv": "w razie potrzeby",
     "level": "B2"
   },
   {
     "de": "Notstand",
     "de_article": "der",
     "de_plural": "die Notstände",
-    "lv": "Stan katastroficzny • Stan wyjątkowy",
+    "lv": "stan wyjątkowy • stan klęski żywiołowej",
     "level": "B2"
   },
   {
     "de": "Notwehr",
     "de_article": "die",
-    "lv": "Niezbędną ochronę",
+    "lv": "obrona konieczna",
     "level": "B2"
   },
   {
     "de": "Nutzeffekt",
     "de_article": "der",
     "de_plural": "die Nutzeffekte",
-    "lv": "Współczynnik efektywności",
+    "lv": "współczynnik sprawności • sprawność",
     "level": "B2"
   },
   {
     "de": "Nutzholz",
     "de_article": "das",
     "de_plural": "die Nutzhölzer",
-    "lv": "Akta sprawy",
+    "lv": "drewno użytkowe",
     "level": "B2"
   },
   {
     "de": "Oberhand",
     "de_article": "die",
     "de_plural": null,
-    "lv": "Zwierzchnictwo",
+    "lv": "przewaga",
     "level": "B2"
   },
   {
     "de": "Oberst",
     "de_article": "der",
     "de_plural": "die Oberste",
-    "lv": "Pułkownik",
+    "lv": "pułkownik",
     "level": "B2"
   },
   {
     "de": "obgleich",
-    "lv": "Chociaż chociaż",
+    "lv": "chociaż • mimo że",
     "level": "B2"
   },
   {
     "de": "Obhut",
     "de_article": "die",
-    "lv": "Ochrona",
+    "lv": "opieka • piecza",
     "level": "B2"
   },
   {
     "de": "Oboe",
     "de_article": "die",
     "de_plural": "die Oboen",
-    "lv": "Obój",
+    "lv": "obój",
     "level": "B2"
   },
   {
     "de": "observieren",
-    "lv": "Śledzić • Obserwować",
+    "lv": "obserwować • śledzić",
     "level": "B2"
   },
   {
     "de": "Obstbau",
     "de_article": "der",
-    "lv": "Uprawa owoców",
+    "lv": "sadownictwo",
     "level": "B2"
   },
   {
     "de": "Offenbarung",
     "de_article": "die",
     "de_plural": "die Offenbarungen",
-    "lv": "Objawienie",
+    "lv": "objawienie",
     "level": "B2"
   },
   {
     "de": "offenherzig",
-    "lv": "Szczery",
+    "lv": "szczery • otwarty",
     "level": "B2"
   },
   {
     "de": "Ökobauer",
     "de_article": "der",
     "de_plural": "die Ökobauern",
-    "lv": "Rolnik wytwarzający ekologicznie czyste produkty rolne",
+    "lv": "rolnik ekologiczny",
     "level": "B2"
   },
   {
     "de": "Ökosystem",
     "de_article": "das",
     "de_plural": "die Ökosysteme",
-    "lv": "Ekosystem",
+    "lv": "ekosystem",
     "level": "B2"
   },
   {
     "de": "Ölbohrung",
     "de_article": "die",
     "de_plural": "die Ölbohrungen",
-    "lv": "Szyb naftowy",
+    "lv": "odwiert naftowy",
     "level": "B2"
   },
   {
     "de": "Ölgewinnung",
     "de_article": "die",
     "de_plural": "die Ölgewinnungen",
-    "lv": "Ekstrakcja oleju",
+    "lv": "wydobycie ropy naftowej",
     "level": "B2"
   },
   {
     "de": "Ölraffinerie",
     "de_article": "die",
     "de_plural": "die Ölraffinerien",
-    "lv": "Rafineria ropy naftowej",
+    "lv": "rafineria ropy naftowej",
     "level": "B2"
   },
   {
     "de": "Ölpest",
     "de_article": "die",
-    "lv": "Zanieczyszczenie wody i olejów przybrzeżnych",
+    "lv": "plama ropy • zanieczyszczenie ropą",
     "level": "B2"
   },
   {
     "de": "Ölpflanze",
     "de_article": "die",
     "de_plural": "die Ölpflanzen",
-    "lv": "Roślina oleista",
+    "lv": "roślina oleista",
     "level": "B2"
   },
   {
     "de": "Olympiasieger",
     "de_article": "der",
     "de_plural": "die Olympiasieger",
-    "lv": "Zwycięzca igrzysk olimpijskich",
+    "lv": "mistrz olimpijski",
     "level": "B2"
   },
   {
     "de": "Operator",
     "de_article": "der",
     "de_plural": "die Operatoren",
-    "lv": "Specjalista dużej ekipy komputerowej",
+    "lv": "operator komputera",
     "level": "B2"
   },
   {
     "de": "Opposition",
     "de_article": "die",
     "de_plural": "die Oppositionen",
-    "lv": "Opozycji",
+    "lv": "opozycja",
     "level": "B2"
   },
   {
     "de": "Order",
     "de_article": "die",
     "de_plural": "die Orders",
-    "lv": "Rozkaz • Polecenie • Zadanie",
+    "lv": "polecenie • rozkaz • zlecenie",
     "level": "B2"
   },
   {
     "de": "Organempfänger",
     "de_article": "der",
     "de_plural": "die Organempfänger",
-    "lv": "Biorca narządu do przeszczepu",
+    "lv": "biorca narządu",
     "level": "B2"
   },
   {
     "de": "Organentnahme",
     "de_article": "die",
     "de_plural": "die Organentnahmen",
-    "lv": "Usunięcie narządów",
+    "lv": "pobranie narządu",
     "level": "B2"
   },
   {
     "de": "Organspende",
     "de_article": "die",
     "de_plural": "die Organspenden",
-    "lv": "Oddanie narządu do przeszczepu",
+    "lv": "dawstwo narządów • oddanie narządu",
     "level": "B2"
   },
   {
     "de": "Organist",
     "de_article": "der",
     "de_plural": "die Organisten",
-    "lv": "Organista",
+    "lv": "organista",
     "level": "B2"
   },
   {
     "de": "Orgasmus",
     "de_article": "der",
     "de_plural": "die Orgasmen",
-    "lv": "Orgazm",
+    "lv": "orgazm",
     "level": "B2"
   },
   {
     "de": "orientalisch",
-    "lv": "Orientalny • Orientalny • Orientalny",
+    "lv": "orientalny • wschodni",
     "level": "B2"
   },
   {
     "de": "orten",
-    "lv": "Zlokalizować za pomocą narzędzi",
+    "lv": "namierzać • lokalizować",
     "level": "B2"
   },
   {
     "de": "Ortszeit",
     "de_article": "die",
-    "lv": "Czas lokalny",
+    "lv": "czas lokalny",
     "level": "B2"
   },
   {
     "de": "sich paaren",
-    "lv": "Z którym się koleguję",
+    "lv": "parzyć się • kojarzyć się w pary",
     "level": "B2",
     "study": {
       "id": "b2-sich-paaren",
-      "layout": "minimalStudy",
-      "translation": "Z którym się koleguję",
-      "rektion": "mit + kam?",
-      "explanation": "sich paaren wymaga przyimka określonego mit + kam?.",
-      "forms": "mit + kam?",
-      "formsLabel": "Kierownictwo:",
+      "layout": "standardStudy",
+      "translation": "parzyć się • kojarzyć się w pary",
+      "explanation": [
+        "Główna myśl: sich paaren znaczy parzyć się — o zwierzętach, gdy się rozmnażają. Z mit + celownik podaje się partnera: Der Löwe paart sich mit der Löwin. W znaczeniu przenośnym łączą się dwie cechy lub rzeczy: Mut paart sich mit Klugheit.",
+        "Formy: paart sich, paarte sich, hat sich gepaart. Bez sich czasownik paaren jest przechodni: Züchter paaren zwei Tiere — hodowcy kojarzą w pary dwa zwierzęta."
+      ],
+      "examples": [
+        {
+          "de": "Die Vögel paaren sich im Frühjahr.",
+          "lv": "Ptaki parzą się wiosną."
+        },
+        {
+          "de": "Der Löwe paart sich mit der Löwin.",
+          "lv": "Lew parzy się z lwicą."
+        },
+        {
+          "de": "Bei ihm paart sich Mut mit Klugheit.",
+          "lv": "U niego odwaga łączy się z rozsądkiem."
+        },
+        {
+          "de": "Hier paart sich Tradition mit Moderne.",
+          "lv": "Tutaj tradycja łączy się z nowoczesnością."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "paaren",
+          "meaning": "kojarzyć w pary",
+          "example": "Der Züchter paart zwei Hunde. – Hodowca kojarzy w parę dwa psy."
+        },
+        {
+          "word": "verbinden",
+          "meaning": "łączyć",
+          "example": "Das Hotel verbindet Komfort mit Natur. – Hotel łączy komfort z naturą."
+        },
+        {
+          "word": "sich vereinigen",
+          "meaning": "jednoczyć się, łączyć się",
+          "example": "Die Gruppen vereinigen sich. – Grupy się jednoczą."
+        }
+      ],
+      "tip": [
+        "Do znaczenia przenośnego zapamiętaj gotową parę: Mut paart sich mit Klugheit.",
+        "Partnera podawaj z mit + celownik: mit dem Männchen, mit der Tradition."
+      ],
+      "important": [
+        "O ludziach tego słowa używa się rzadko, bo brzmi biologicznie lub ordynarnie.",
+        "Po mit następuje celownik."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
+            "paaren",
+            "paart",
+            "paarte",
+            "gepaart",
             "sich paaren"
           ],
-          "red": [
-            "mit + kam?"
+          "purple": [
+            "parzyć się",
+            "łączą się",
+            "kojarzą"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "paaren"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "parzą się"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "paart"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "parzy się"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "paart"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "łączy się"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "paart"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "łączy się"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "paaren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "kojarzyć w pary"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "verbinden"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "łączyć"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich vereinigen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "jednoczyć się"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "paart"
+            ]
+          },
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -9801,653 +20331,801 @@ const B2_WORDS = [
     "de": "Pacht",
     "de_article": "die",
     "de_plural": "die Pachten",
-    "lv": "Dzierżawa",
+    "lv": "dzierżawa",
     "level": "B2"
   },
   {
     "de": "Pachtvertrag",
     "de_article": "der",
     "de_plural": "die Pachtverträge",
-    "lv": "Umowa najmu",
+    "lv": "umowa dzierżawy",
     "level": "B2"
   },
   {
     "de": "pachten",
-    "lv": "Wynająć",
+    "lv": "dzierżawić • wydzierżawić",
     "level": "B2"
   },
   {
     "de": "Palmsonntag",
     "de_article": "der",
     "de_plural": "die Palmsonntage",
-    "lv": "Niedziela przed Wielkanocą • Niedziela Palmowa",
+    "lv": "Niedziela Palmowa",
     "level": "B2"
   },
   {
     "de": "Panzerglas",
     "de_article": "das",
     "de_plural": "die Panzergläser",
-    "lv": "Szkło pancerne",
+    "lv": "szkło pancerne",
     "level": "B2"
   },
   {
     "de": "Panzerschrank",
     "de_article": "der",
     "de_plural": "die Panzerschränke",
-    "lv": "Sejf • Żelazna szafka",
+    "lv": "sejf • kasa pancerna",
     "level": "B2"
   },
   {
     "de": "Parole",
     "de_article": "die",
     "de_plural": "die Parolen",
-    "lv": "Hasło • Hasło",
+    "lv": "hasło • slogan",
     "level": "B2"
   },
   {
     "de": "Parteibuch",
     "de_article": "das",
     "de_plural": "die Parteibücher",
-    "lv": "Kartę członka partii",
+    "lv": "legitymacja partyjna",
     "level": "B2"
   },
   {
     "de": "parteiisch",
-    "lv": "Stronniczy",
+    "lv": "stronniczy",
     "level": "B2"
   },
   {
     "de": "parteilich",
-    "lv": "Partyzanckie • Partie",
+    "lv": "partyjny",
     "level": "B2"
   },
   {
     "de": "parteilos",
-    "lv": "Bezpartyjny",
+    "lv": "bezpartyjny",
     "level": "B2"
   },
   {
     "de": "Parteimitglied",
     "de_article": "das",
     "de_plural": "die Parteimitglieder",
-    "lv": "Członek partii",
+    "lv": "członek partii",
     "level": "B2"
   },
   {
     "de": "Parteitag",
     "de_article": "der",
     "de_plural": "die Parteitage",
-    "lv": "Zjazd partii",
+    "lv": "zjazd partii",
     "level": "B2"
   },
   {
     "de": "Partikel",
     "de_article": "das",
     "de_plural": "die Partikel",
-    "lv": "Cząstka • Ziarno",
+    "lv": "cząstka • drobina",
     "level": "B2"
   },
   {
     "de": "Pater",
     "de_article": "der",
     "de_plural": "die Patres",
-    "lv": "Ksiądz katolicki • Należący do zakonu",
+    "lv": "ojciec • zakonnik",
     "level": "B2"
   },
   {
     "de": "Peepshow",
     "de_article": "die",
     "de_plural": "die Peepshows",
-    "lv": "Program erotyczny, który ogląda się osobno przez pudełko",
+    "lv": "pokaz erotyczny w kabinie",
     "level": "B2"
   },
   {
     "de": "Pegel",
     "de_article": "der",
     "de_plural": "die Pegel",
-    "lv": "Poziom wody",
+    "lv": "wodowskaz • poziom wody",
     "level": "B2"
   },
   {
     "de": "Pendelverkehr",
     "de_article": "der",
     "de_plural": "die Pendelverkehre",
-    "lv": "Lokalny ruch dojazdowy",
+    "lv": "ruch wahadłowy • komunikacja podmiejska",
     "level": "B2"
   },
   {
     "de": "penibel",
-    "lv": "Pedantyczny",
+    "lv": "pedantyczny • drobiazgowy",
     "level": "B2"
   },
   {
     "de": "Penis",
     "de_article": "der",
     "de_plural": "die Penisse",
-    "lv": "Penis",
+    "lv": "penis • członek",
     "level": "B2"
   },
   {
     "de": "Personalakte",
     "de_article": "die",
     "de_plural": "die Personalakten",
-    "lv": "Sprawa osobista",
+    "lv": "akta osobowe",
     "level": "B2"
   },
   {
     "de": "Pfahlbau",
     "de_article": "der",
     "de_plural": "die Pfahlbauten",
-    "lv": "Konstrukcja pali",
+    "lv": "budowla na palach",
     "level": "B2"
   },
   {
     "de": "pfänden",
-    "lv": "Opisz nieruchomość • Zastaw",
+    "lv": "zajmować • zająć",
     "level": "B2"
   },
   {
     "de": "Pfandschein",
     "de_article": "der",
     "de_plural": "die Pfandscheine",
-    "lv": "Znak przysięgi",
+    "lv": "kwit zastawny",
     "level": "B2"
   },
   {
     "de": "Pflichtbesuch",
     "de_article": "der",
     "de_plural": "die Pflichtbesuche",
-    "lv": "Telefon grzecznościowy",
+    "lv": "wizyta kurtuazyjna",
     "level": "B2"
   },
   {
     "de": "pfuschen",
-    "lv": "Zła • Niewykwalifikowana • Niechlujna praca",
+    "lv": "partaczyć • fuszerować",
     "level": "B2"
   },
   {
     "de": "Philologie",
     "de_article": "die",
     "de_plural": "die Philologien",
-    "lv": "Filologia",
+    "lv": "filologia",
     "level": "B2"
   },
   {
     "de": "Philosophie",
     "de_article": "die",
     "de_plural": "die Philosophien",
-    "lv": "Filozofia",
+    "lv": "filozofia",
     "level": "B2"
   },
   {
     "de": "Pieper",
     "de_article": "der",
     "de_plural": "die Pieper",
-    "lv": "Pagera",
+    "lv": "pager",
     "level": "B2"
   },
   {
     "de": "pikiert",
-    "lv": "Obrażony • Obrażony • Oburzony",
+    "lv": "urażony • dotknięty",
     "level": "B2"
   },
   {
     "de": "Pilotfilm",
     "de_article": "der",
     "de_plural": "die Pilotfilme",
-    "lv": "Film otwierający serię",
+    "lv": "odcinek pilotażowy",
     "level": "B2"
   },
   {
     "de": "Pilotprojekt",
     "de_article": "das",
     "de_plural": "die Pilotprojekte",
-    "lv": "Projekt pilotażowy",
+    "lv": "projekt pilotażowy",
     "level": "B2"
   },
   {
     "de": "Pilotsendung",
     "de_article": "die",
     "de_plural": "die Pilotsendungen",
-    "lv": "Otwieracz serii",
+    "lv": "program pilotażowy",
     "level": "B2"
   },
   {
     "de": "Pilotstudie",
     "de_article": "die",
     "de_plural": "die Pilotstudien",
-    "lv": "Wprowadzenie do serii badawczej",
+    "lv": "badanie pilotażowe",
     "level": "B2"
   },
   {
     "de": "Plädoyer",
     "de_article": "das",
     "de_plural": "die Plädoyers",
-    "lv": "Przemówienie prokuratora lub adwokata w sądzie",
+    "lv": "mowa końcowa • przemówienie obrończe",
     "level": "B2"
   },
   {
     "de": "Plateau",
     "de_article": "das",
     "de_plural": "die Plateaus",
-    "lv": "Płaskie wzgórze",
+    "lv": "płaskowyż",
     "level": "B2"
   },
   {
     "de": "Poltergeist",
     "de_article": "der",
     "de_plural": "die Poltergeister",
-    "lv": "Poltergeist",
+    "lv": "poltergeist",
     "level": "B2"
   },
   {
     "de": "Porno",
     "de_article": "der",
-    "lv": "Prace zawierające pornografię",
+    "lv": "porno • film pornograficzny",
     "level": "B2"
   },
   {
     "de": "porös",
-    "lv": "Porowaty",
+    "lv": "porowaty",
     "level": "B2"
   },
   {
     "de": "Posse",
     "de_article": "die",
     "de_plural": "die Possen",
-    "lv": "Farsa • Żart • Prymitywny żart",
+    "lv": "farsa • krotochwila • psota",
     "level": "B2"
   },
   {
     "de": "Possen",
     "de_article": "der",
     "de_plural": "die Possen",
-    "lv": "Farsa • Żart • Prymitywny żart",
+    "lv": "psota • figiel",
     "level": "B2"
   },
   {
     "de": "postlagernd",
-    "lv": "Na żądanie",
+    "lv": "do odbioru na poczcie",
     "level": "B2"
   },
   {
     "de": "prägen",
-    "lv": "Bić pieniądze • Naciskać • Narzucać • Formować • Robić",
+    "lv": "wybijać • odciskać • kształtować",
     "level": "B2"
   },
   {
     "de": "prägnant",
-    "lv": "Żywo wyrażone",
+    "lv": "zwięzły • trafny",
     "level": "B2"
   },
   {
     "de": "prahlen",
-    "lv": "Przechwalać się",
+    "lv": "przechwalać się • chwalić się",
     "level": "B2"
   },
   {
     "de": "prämieren",
-    "lv": "Nagroda",
+    "lv": "nagradzać • nagrodzić",
     "level": "B2"
   },
   {
     "de": "Präsidium",
     "de_article": "das",
     "de_plural": "die Präsidien",
-    "lv": "Prezydium",
+    "lv": "prezydium",
     "level": "B2"
   },
   {
     "de": "predigen",
-    "lv": "Głosić",
+    "lv": "wygłaszać kazanie • głosić",
     "level": "B2"
   },
   {
     "de": "Preisträger",
     "de_article": "der",
     "de_plural": "die Preisträger",
-    "lv": "Zdobywca nagrody • Laureat",
+    "lv": "laureat",
     "level": "B2"
   },
   {
     "de": "Presseagentur",
     "de_article": "die",
     "de_plural": "die Presseagenturen",
-    "lv": "Agencja prasowa",
+    "lv": "agencja prasowa",
     "level": "B2"
   },
   {
     "de": "Pressesprecher",
     "de_article": "der",
     "de_plural": "die Pressesprecher",
-    "lv": "Sekretarz prasowy",
+    "lv": "rzecznik prasowy",
     "level": "B2"
   },
   {
     "de": "Propaganda",
     "de_article": "die",
     "de_plural": null,
-    "lv": "Propaganda",
+    "lv": "propaganda",
     "level": "B2"
   },
   {
     "de": "propagieren",
-    "lv": "Propagować",
+    "lv": "propagować • szerzyć",
     "level": "B2"
   },
   {
     "de": "Prostitution",
     "de_article": "die",
     "de_plural": "die Prostitutionen",
-    "lv": "Prostytucja",
+    "lv": "prostytucja",
     "level": "B2"
   },
   {
     "de": "provisorisch",
-    "lv": "Tymczasowe • Tymczasowe • Na jakiś czas",
+    "lv": "prowizoryczny • tymczasowy",
     "level": "B2"
   },
   {
     "de": "PS",
     "de_article": "das",
     "de_plural": "die PS",
-    "lv": "Moc w koniach mechanicznych",
+    "lv": "koń mechaniczny",
     "level": "B2"
   },
   {
     "de": "Psychoterror",
     "de_article": "der",
-    "lv": "Psychoterror",
+    "lv": "terror psychiczny",
     "level": "B2"
   },
   {
     "de": "Putsch",
     "de_article": "der",
     "de_plural": "die Putsche",
-    "lv": "Pucz",
+    "lv": "pucz",
     "level": "B2"
   },
   {
     "de": "qualifizieren",
-    "lv": "Zakwalifikować się",
+    "lv": "kwalifikować • kwalifikować się",
     "level": "B2"
   },
   {
     "de": "Quantität",
     "de_article": "die",
     "de_plural": "die Quantitäten",
-    "lv": "Ilość • Ilość",
+    "lv": "ilość",
     "level": "B2"
   },
   {
     "de": "quellen",
-    "lv": "Sączyć się • Sączyć się • Zalewać • Zalewać • Pęcznieć",
+    "lv": "tryskać • wypływać • pęcznieć",
     "level": "B2"
   },
   {
     "de": "querüber",
-    "lv": "Naprzeciwko",
+    "lv": "naprzeciwko • na ukos",
     "level": "B2"
   },
   {
     "de": "quittieren",
-    "lv": "Podpisać odbiór",
+    "lv": "pokwitować • potwierdzić odbiór",
     "level": "B2"
   },
   {
     "de": "Quote",
     "de_article": "die",
     "de_plural": "die Quoten",
-    "lv": "Kontyngent",
+    "lv": "kwota • udział",
     "level": "B2"
   },
   {
     "de": "Rabbiner",
     "de_article": "der",
     "de_plural": "die Rabbiner",
-    "lv": "Rabin",
+    "lv": "rabin",
     "level": "B2"
   },
   {
     "de": "Radierung",
     "de_article": "die",
     "de_plural": "die Radierungen",
-    "lv": "Ostrzenie • Trawienie",
+    "lv": "akwaforta • rycina",
     "level": "B2"
   },
   {
     "de": "Radioaktivität",
     "de_article": "die",
-    "lv": "Radioaktywność",
+    "lv": "radioaktywność • promieniotwórczość",
     "level": "B2"
   },
   {
     "de": "Radiobastler",
     "de_article": "der",
     "de_plural": "die Radiobastler",
-    "lv": "Amator radiowy",
+    "lv": "radioamator • krótkofalowiec",
     "level": "B2"
   },
   {
     "de": "raffiniert",
-    "lv": "Wyrafinowany • Przebiegły",
+    "lv": "wyrafinowany • przebiegły",
     "level": "B2"
   },
   {
     "de": "Rain",
     "de_article": "der",
     "de_plural": "die Raine",
-    "lv": "Jeż",
+    "lv": "miedza",
     "level": "B2"
   },
   {
     "de": "ranzig",
-    "lv": "Zjełczały • Gorzki do śmietanki • Tłusty • Masło",
+    "lv": "zjełczały",
     "level": "B2"
   },
   {
     "de": "rau",
-    "lv": "Szorstki • Szorstki • Szorstki • Ochrypły • Szorstki • Niemiły • Surowy",
+    "lv": "szorstki • chropowaty • ochrypły",
     "level": "B2"
   },
   {
     "de": "Rauchwaren",
     "de_article": "die",
-    "lv": "Futro • Produkty futrzane",
+    "lv": "futra • wyroby futrzarskie",
     "level": "B2"
   },
   {
     "de": "Raumflug",
     "de_article": "der",
     "de_plural": "die Raumflüge",
-    "lv": "Lot kosmiczny • Międzyplanetarny lot kosmiczny",
+    "lv": "lot kosmiczny",
     "level": "B2"
   },
   {
     "de": "Rauminhalt",
     "de_article": "der",
     "de_plural": "die Rauminhalte",
-    "lv": "Tom",
+    "lv": "objętość • pojemność",
     "level": "B2"
   },
   {
     "de": "Realismus",
     "de_article": "der",
-    "lv": "Realizm",
+    "lv": "realizm",
     "level": "B2"
   },
   {
     "de": "rechtlos",
-    "lv": "Bezprawny",
+    "lv": "pozbawiony praw",
     "level": "B2"
   },
   {
     "de": "rechtmäßig",
-    "lv": "Prawny",
+    "lv": "prawowity • zgodny z prawem",
     "level": "B2"
   },
   {
     "de": "Rechtsberater",
     "de_article": "der",
     "de_plural": "die Rechtsberater",
-    "lv": "Doradca prawny",
+    "lv": "radca prawny • doradca prawny",
     "level": "B2"
   },
   {
     "de": "rechtsfähig",
-    "lv": "Zdolność prawna",
+    "lv": "mający zdolność prawną",
     "level": "B2"
   },
   {
     "de": "Rechtsstaat",
     "de_article": "der",
     "de_plural": "die Rechtsstaaten",
-    "lv": "Kraj praworządności",
+    "lv": "państwo prawa",
     "level": "B2"
   },
   {
     "de": "recken",
-    "lv": "Rozciągać • Rozciągać • Rozciągać • Rozciągać",
+    "lv": "wyciągać • przeciągać się",
     "level": "B2"
   },
   {
     "de": "Redefreiheit",
     "de_article": "die",
     "de_plural": "die Redefreiheiten",
-    "lv": "Wolność słowa",
+    "lv": "wolność słowa",
     "level": "B2"
   },
   {
     "de": "redigieren",
-    "lv": "Edytować",
+    "lv": "redagować",
     "level": "B2"
   },
   {
     "de": "redselig",
-    "lv": "Rozmowny • Rozmowny",
+    "lv": "rozmowny • gadatliwy",
     "level": "B2"
   },
   {
     "de": "Referenz",
     "de_article": "die",
     "de_plural": "die Referenzen",
-    "lv": "Zalecenia",
+    "lv": "referencje • rekomendacja",
     "level": "B2"
   },
   {
     "de": "rege",
-    "lv": "Żywy • Żywy • Poruszający się • Aktywny",
+    "lv": "żywy • ruchliwy • ożywiony",
     "level": "B2"
   },
   {
     "de": "regellos",
-    "lv": "Nieregularny",
+    "lv": "nieregularny • bezładny",
     "level": "B2"
   },
   {
     "de": "Regelverstoß",
     "de_article": "der",
     "de_plural": "die Regelverstöße",
-    "lv": "Naruszenie zasad",
+    "lv": "naruszenie przepisów",
     "level": "B2"
   },
   {
     "de": "Regen",
     "de_article": "der",
     "de_plural": "die Regen",
-    "lv": "Deszcz",
+    "lv": "deszcz",
     "level": "B2"
   },
   {
     "de": "Regenfront",
     "de_article": "die",
     "de_plural": "die Regenfronten",
-    "lv": "Opaska przeciwdeszczowa",
+    "lv": "front deszczowy • strefa opadów",
     "level": "B2"
   },
   {
     "de": "Regung",
     "de_article": "die",
     "de_plural": "die Regungen",
-    "lv": "Ruch • Przypływ uczuć • Skłonność",
+    "lv": "poruszenie • odruch • uczucie",
     "level": "B2"
   },
   {
     "de": "regungslos",
-    "lv": "Bez ruchu",
+    "lv": "nieruchomy • bez ruchu",
     "level": "B2"
   },
   {
     "de": "Reich",
     "de_article": "das",
     "de_plural": "die Reiche",
-    "lv": "Imperium • Kraj",
+    "lv": "imperium • państwo • królestwo",
     "level": "B2"
   },
   {
     "de": "Reifeprüfung",
     "de_article": "die",
     "de_plural": "die Reifeprüfungen",
-    "lv": "Próba gotowości",
+    "lv": "egzamin dojrzałości • matura",
     "level": "B2"
   },
   {
     "de": "Reifezeugnis",
     "de_article": "das",
     "de_plural": "die Reifezeugnisse",
-    "lv": "Świadectwo gotowości",
+    "lv": "świadectwo dojrzałości",
     "level": "B2"
   },
   {
     "de": "reizbar",
-    "lv": "Łatwo drażliwy",
+    "lv": "drażliwy • nerwowy",
     "level": "B2"
   },
   {
     "de": "relevant",
-    "lv": "Znaczący • Ważny",
+    "lv": "istotny • ważny",
     "level": "B2"
   },
   {
     "de": "Relief",
     "de_article": "das",
     "de_plural": "die Reliefs",
-    "lv": "Teren",
+    "lv": "relief • płaskorzeźba",
     "level": "B2"
   },
   {
     "de": "rentabel",
-    "lv": "Opłacalny",
+    "lv": "rentowny • opłacalny",
     "level": "B2"
   },
   {
     "de": "Resolution",
     "de_article": "die",
     "de_plural": "die Resolutionen",
-    "lv": "Rezolucja",
+    "lv": "rezolucja",
     "level": "B2"
   },
   {
     "de": "sich revanchieren",
-    "lv": "Odwdzięczyć się • Zemścić się",
+    "lv": "zrewanżować się • odwdzięczyć się",
     "level": "B2",
     "study": {
       "id": "b2-sich-revanchieren",
-      "layout": "minimalStudy",
-      "translation": "Odwdzięczyć się • Zemścić się",
-      "rektion": "bei + kam?",
-      "explanation": "sich revanchieren wymaga przyimka określonego bei + kam?.",
-      "forms": "bei + kam?",
-      "formsLabel": "Kierownictwo:",
+      "layout": "standardStudy",
+      "translation": "zrewanżować się • odwdzięczyć się",
+      "explanation": [
+        "Główna myśl: sich revanchieren znaczy odpowiedzieć na czyjeś działanie podobnym działaniem. Najczęściej w sensie pozytywnym — odwdzięczyć się za uprzejmość (za zaproszenie, prezent), ale może też oznaczać zemstę za zło. Wymowa: [revɑ̃ˈʃiːrən], ch jak sz.",
+        "Komu się odwdzięczamy, wskazuje bei + celownik, za co — für + biernik, czym — mit + celownik: sich bei jemandem für etwas mit etwas revanchieren. Formy: revanchiert sich, revanchierte sich, hat sich revanchiert."
+      ],
+      "examples": [
+        {
+          "de": "Ich möchte mich bei dir für die Einladung revanchieren.",
+          "lv": "Chciałbym ci się odwdzięczyć za zaproszenie."
+        },
+        {
+          "de": "Er revanchierte sich mit einem Geschenk.",
+          "lv": "Odwdzięczył się prezentem."
+        },
+        {
+          "de": "Die Mannschaft revanchierte sich für die Niederlage.",
+          "lv": "Drużyna zrewanżowała się za porażkę."
+        },
+        {
+          "de": "Dafür werde ich mich noch revanchieren!",
+          "lv": "Za to jeszcze się zrewanżuję!"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich bedanken",
+          "meaning": "dziękować",
+          "example": "Ich bedanke mich bei dir. – Dziękuję ci."
+        },
+        {
+          "word": "sich rächen",
+          "meaning": "mścić się",
+          "example": "Er rächt sich an seinem Feind. – Mści się na swoim wrogu."
+        },
+        {
+          "word": "vergelten",
+          "meaning": "odpłacać",
+          "example": "Man soll Gutes mit Gutem vergelten. – Za dobro należy odpłacać dobrem."
+        }
+      ],
+      "tip": [
+        "Po miłym zaproszeniu można powiedzieć: Beim nächsten Mal revanchiere ich mich!",
+        "Znaczenie zależy od kontekstu: w sytuacji wdzięczności słowo jest pozytywne, w sporcie i sporach oznacza rewanż, zemstę."
+      ],
+      "important": [
+        "revanchieren nie zawsze oznacza złośliwą zemstę; na co dzień często odpowiada się dobrym uczynkiem.",
+        "Po bei następuje celownik: bei dir, bei den Gästen; po für — biernik."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
+            "revanchieren",
+            "revanchiert",
+            "revanchierte",
             "sich revanchieren"
           ],
-          "red": [
-            "bei + kam?"
+          "purple": [
+            "odwdzięczyć się",
+            "zemstę",
+            "odwdzięczamy"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "revanchieren"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "odwdzięczyć"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "revanchierte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Odwdzięczył"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "revanchierte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "zrewanżowała"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "revanchieren"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "zrewanżuję"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "bedanken"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "dziękować"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "rächen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "mścić się"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "vergelten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "odpłacać"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {
+            "blue": [
+              "revanchieren"
+            ]
+          },
+          {}
+        ]
       }
     }
   },
@@ -10455,337 +21133,505 @@ const B2_WORDS = [
     "de": "Richtfest",
     "de_article": "das",
     "de_plural": "die Richtfeste",
-    "lv": "Festiwal ważek",
+    "lv": "wiecha",
     "level": "B2"
   },
   {
     "de": "Ringbahn",
     "de_article": "die",
     "de_plural": "die Ringbahnen",
-    "lv": "Kolej okrężna",
+    "lv": "kolej obwodowa",
     "level": "B2"
   },
   {
     "de": "Ringelnatter",
     "de_article": "die",
     "de_plural": "die Ringelnattern",
-    "lv": "Głodny",
+    "lv": "zaskroniec",
     "level": "B2"
   },
   {
     "de": "Rivale",
     "de_article": "der",
     "de_plural": "die Rivalen",
-    "lv": "Rywal • Konkurent",
+    "lv": "rywal • konkurent",
     "level": "B2"
   },
   {
     "de": "rivalisieren",
-    "lv": "Konkurować",
+    "lv": "rywalizować • konkurować",
     "level": "B2"
   },
   {
     "de": "Rückfall",
     "de_article": "der",
     "de_plural": "die Rückfälle",
-    "lv": "Recydywa",
+    "lv": "nawrót • recydywa",
     "level": "B2"
   },
   {
     "de": "Rückgang",
     "de_article": "der",
     "de_plural": "die Rückgänge",
-    "lv": "Spadek • Regresja • Spadek",
+    "lv": "spadek • zmniejszenie • regres",
     "level": "B2"
   },
   {
     "de": "Rückhalt",
     "de_article": "der",
     "de_plural": "die Rückhalte",
-    "lv": "Wsparcie • Wsparcie",
+    "lv": "oparcie • wsparcie",
     "level": "B2"
   },
   {
     "de": "rücksichtslos",
-    "lv": "Nieostrożny • Niegrzeczny • Bezwzględny",
+    "lv": "bezwzględny • nieliczący się z innymi",
     "level": "B2"
   },
   {
     "de": "rückständig",
-    "lv": "Zaległe • Zaległe z płatnością",
+    "lv": "zacofany • zaległy",
     "level": "B2"
   },
   {
     "de": "Rücktritt",
     "de_article": "der",
     "de_plural": "die Rücktritte",
-    "lv": "Rezygnacja",
+    "lv": "ustąpienie • dymisja",
     "level": "B2"
   },
   {
     "de": "Rüge",
     "de_article": "die",
     "de_plural": "die Rügen",
-    "lv": "Karcenie • Karcenie",
+    "lv": "nagana • upomnienie",
     "level": "B2"
   },
   {
     "de": "rühmen",
-    "lv": "Chwalić • Wychwalać • Przechwalać się • Przechwalać się czymś",
+    "lv": "wychwalać • sławić • szczycić się",
     "level": "B2"
   },
   {
     "de": "rührselig",
-    "lv": "Sentymentalny",
+    "lv": "sentymentalny • ckliwy",
     "level": "B2"
   },
   {
     "de": "runzeln",
-    "lv": "Marszczyć się • Marszczyć brwi",
+    "lv": "marszczyć • zmarszczyć",
     "level": "B2"
   },
   {
     "de": "Rüstung",
     "de_article": "die",
     "de_plural": "die Rüstungen",
-    "lv": "Uzbrojenie • Uzbrojenie",
+    "lv": "zbrojenia • uzbrojenie • zbroja",
     "level": "B2"
   },
   {
     "de": "Sabotage",
     "de_article": "die",
     "de_plural": "die Sabotagen",
-    "lv": "Sabotaż",
+    "lv": "sabotaż",
     "level": "B2"
   },
   {
     "de": "Sachkenntnis",
     "de_article": "die",
     "de_plural": "die Sachkenntnisse",
-    "lv": "Biegłość • Kompetencja",
+    "lv": "znajomość rzeczy • fachowość • kompetencja",
     "level": "B2"
   },
   {
     "de": "sachkundig",
-    "lv": "Biegły • Kompetentny",
+    "lv": "fachowy • kompetentny",
     "level": "B2"
   },
   {
     "de": "Sachlage",
     "de_article": "die",
     "de_plural": "die Sachlagen",
-    "lv": "Warunek • Okoliczności • Sytuacja",
+    "lv": "stan rzeczy • sytuacja • okoliczności",
     "level": "B2"
   },
   {
     "de": "sächlich",
-    "lv": "~es Geschlecht gram. • Dowolna płeć",
+    "lv": "nijaki",
     "level": "B2"
   },
   {
     "de": "Sägewerk",
     "de_article": "das",
     "de_plural": "die Sägewerke",
-    "lv": "Tartak",
+    "lv": "tartak",
     "level": "B2"
   },
   {
     "de": "Sämaschine",
     "de_article": "die",
     "de_plural": "die Sämaschinen",
-    "lv": "Maszyna do siewu",
+    "lv": "siewnik",
     "level": "B2"
   },
   {
     "de": "sämtlich",
-    "lv": "Wszystko [bez wyjątku] • Z pełną mocą",
+    "lv": "wszyscy • cały",
     "level": "B2"
   },
   {
     "de": "Sandbank",
     "de_article": "die",
     "de_plural": "die Sandbänke",
-    "lv": "Płycizna",
+    "lv": "mielizna • ławica piaszczysta",
     "level": "B2"
   },
   {
     "de": "sanieren",
-    "lv": "Naprawić • Ek. uczynić opłacalnym",
+    "lv": "remontować • modernizować • uzdrawiać",
     "level": "B2"
   },
   {
     "de": "Sanitätsstelle",
     "de_article": "die",
     "de_plural": "die Sanitätsstellen",
-    "lv": "Punkt medyczny",
+    "lv": "punkt sanitarny",
     "level": "B2"
   },
   {
     "de": "Satellit",
     "de_article": "der",
     "de_plural": "die Satelliten",
-    "lv": "Pol. satelita • Astr. towarzysz",
+    "lv": "satelita",
     "level": "B2"
   },
   {
     "de": "sättigen",
-    "lv": "[dobre] pasza • Uczta • Chemia. nasycić",
+    "lv": "nasycać • sycić",
     "level": "B2"
   },
   {
     "de": "Satzung",
     "de_article": "die",
     "de_plural": "die Satzungen",
-    "lv": "Statut",
+    "lv": "statut",
     "level": "B2"
   },
   {
     "de": "sausen",
-    "lv": "Szelest • Gwizd • Świst • Świst",
+    "lv": "szumieć • świstać • pędzić",
     "level": "B2"
   },
   {
     "de": "Schädel",
     "de_article": "der",
     "de_plural": "die Schädel",
-    "lv": "Czaszka",
+    "lv": "czaszka",
     "level": "B2"
   },
   {
     "de": "Schadenersatz",
     "de_article": "der",
     "de_plural": null,
-    "lv": "Rekompensata materialna za straty",
+    "lv": "odszkodowanie",
     "level": "B2"
   },
   {
     "de": "schädigen",
-    "lv": "Szkodzić • Powodować szkody",
+    "lv": "szkodzić • wyrządzać szkodę",
     "level": "B2"
   },
   {
     "de": "Schaffen",
     "de_article": "das",
-    "lv": "Twórczość • Twórczość • Praca • Aktywność • Twórczość",
+    "lv": "twórczość • tworzenie • działalność",
     "level": "B2"
   },
   {
     "de": "Schalldämmung",
     "de_article": "die",
     "de_plural": "die Schalldämmungen",
-    "lv": "Tłumienie hałasu",
+    "lv": "izolacja akustyczna • wygłuszenie",
     "level": "B2"
   },
   {
     "de": "Schalldämpfer",
     "de_article": "der",
     "de_plural": "die Schalldämpfer",
-    "lv": "Tłumik dźwięku",
+    "lv": "tłumik",
     "level": "B2"
   },
   {
     "de": "Schallmauer",
     "de_article": "die",
     "de_plural": "die Schallmauern",
-    "lv": "Bariera dźwiękowa",
+    "lv": "bariera dźwięku",
     "level": "B2"
   },
   {
     "de": "schalldicht",
-    "lv": "Dźwiękoszczelny",
+    "lv": "dźwiękoszczelny",
     "level": "B2"
   },
   {
     "de": "schärfsichtig",
-    "lv": "O bystrym spojrzeniu • Spostrzegawczy",
+    "lv": "bystrooki • spostrzegawczy",
     "level": "B2"
   },
   {
     "de": "schärfsinnig",
-    "lv": "Dowcipny • O bystrym umyśle • Zaradny",
+    "lv": "bystry • przenikliwy",
     "level": "B2"
   },
   {
     "de": "Schattierung",
     "de_article": "die",
     "de_plural": "die Schattierungen",
-    "lv": "Odcień • Niuans",
+    "lv": "odcień • niuans",
     "level": "B2"
   },
   {
     "de": "schaudern",
-    "lv": "Być przerażonym • [być] wzdrygnięty",
+    "lv": "wzdrygać się • drżeć",
     "level": "B2"
   },
   {
     "de": "Schauplatz",
     "de_article": "der",
     "de_plural": "die Schauplätze",
-    "lv": "Arena",
+    "lv": "miejsce akcji • arena",
     "level": "B2"
   },
   {
     "de": "Schaustück",
     "de_article": "das",
     "de_plural": "die Schaustücke",
-    "lv": "Wystawa",
+    "lv": "eksponat",
     "level": "B2"
   },
   {
     "de": "scheiden",
-    "lv": "[nie]oddzielne • Oddzielne • Oddzielne • Sich sch. lassen • Zerwać • Zerwać",
+    "lv": "oddzielać • rozwodzić się • rozstawać się",
     "level": "B2"
   },
   {
     "de": "Scheidewand",
     "de_article": "die",
     "de_plural": "die Scheidewände",
-    "lv": "Przegroda nosowa",
+    "lv": "przegroda • ścianka działowa",
     "level": "B2"
   },
   {
     "de": "Scheitel",
     "de_article": "der",
     "de_plural": "die Scheitel",
-    "lv": "Głowa • Hol • Ścieżka",
+    "lv": "ciemię • przedziałek",
     "level": "B2"
   },
   {
     "de": "scheitern",
-    "lv": "Ponieść porażkę • Zerwać",
+    "lv": "ponieść porażkę • nie powieść się",
     "level": "B2"
   },
   {
     "de": "schelmisch",
-    "lv": "Dzielący",
+    "lv": "szelmowski • figlarny",
     "level": "B2"
   },
   {
     "de": "schelten",
-    "lv": "Bart • Bart",
+    "lv": "łajać • besztać",
     "level": "B2"
   },
   {
     "de": "sich scheren",
-    "lv": "Opiekować się",
+    "lv": "przejmować się • troszczyć się",
     "level": "B2",
     "study": {
       "id": "b2-sich-scheren",
-      "layout": "minimalStudy",
-      "translation": "Opiekować się",
-      "rektion": "um + ko?",
-      "explanation": "sich scheren wymaga określonego przyimka um + ko?.",
-      "forms": "um + ko?",
-      "formsLabel": "Kierownictwo:",
+      "layout": "standardStudy",
+      "translation": "przejmować się • troszczyć się",
+      "explanation": [
+        "Główna myśl: sich scheren um w tym znaczeniu to potoczne wyrażenie znaczące przejmować się, troszczyć się, ale prawie wyłącznie w przeczeniu lub pytaniu: Er schert sich nicht um die Regeln — nic go nie obchodzą zasady.",
+        "Formy: schert sich, scherte sich, hat sich geschert. Z um + biernik podaje się to, czym ktoś się przejmuje. Pytanie retoryczne: Was schert mich das? — co mnie to obchodzi?",
+        "Ordynarny tryb rozkazujący Scher dich weg! znaczy wynoś się! Bez zaimka zwrotnego sich czasownik scheren znaczy strzyc, przycinać (Schafe scheren)."
+      ],
+      "examples": [
+        {
+          "de": "Er schert sich nicht um die Regeln.",
+          "lv": "Nie przejmuje się zasadami."
+        },
+        {
+          "de": "Was schert mich das Gerede der anderen?",
+          "lv": "Co mnie obchodzi gadanie innych?"
+        },
+        {
+          "de": "Sie schert sich wenig um ihre Gesundheit.",
+          "lv": "Mało troszczy się o swoje zdrowie."
+        },
+        {
+          "de": "Scher dich weg!",
+          "lv": "Wynoś się!"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich kümmern",
+          "meaning": "troszczyć się",
+          "example": "Ich kümmere mich um die Kinder. – Opiekuję się dziećmi."
+        },
+        {
+          "word": "interessieren",
+          "meaning": "interesować",
+          "example": "Das interessiert mich nicht. – To mnie nie interesuje."
+        },
+        {
+          "word": "scheren",
+          "meaning": "strzyc",
+          "example": "Der Bauer schert die Schafe. – Rolnik strzyże owce."
+        }
+      ],
+      "tip": [
+        "W języku codziennym sich scheren um typowo słychać z nicht: Er schert sich nicht darum.",
+        "Jeśli chcesz neutralnie powiedzieć troszczyć się, wybierz sich kümmern um + biernik."
+      ],
+      "important": [
+        "sich scheren um zwykle używa się w przeczeniu; w zdaniu twierdzącym brzmi nietypowo.",
+        "Scher dich weg! jest ordynarne — nie używaj tego w uprzejmej rozmowie."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
+            "scheren",
+            "schert",
+            "scherte",
+            "geschert",
+            "Scher",
             "sich scheren"
           ],
-          "red": [
-            "um + ko?"
+          "purple": [
+            "przejmować się",
+            "obchodzą",
+            "przejmuje",
+            "obchodzi",
+            "wynoś się"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "schert"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "przejmuje"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "schert"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "obchodzi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "schert"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "troszczy"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Scher"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Wynoś"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich kümmern"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "troszczyć się"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "interessieren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "interesować"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "scheren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "strzyc"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "sich scheren",
+              "scheren",
+              "schert"
+            ]
+          },
+          {
+            "green": [
+              "sich kümmern"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "sich scheren",
+              "scheren"
+            ]
+          },
+          {
+            "blue": [
+              "Scher"
+            ]
+          }
+        ]
       }
     }
   },
@@ -10793,390 +21639,405 @@ const B2_WORDS = [
     "de": "Schiebedach",
     "de_article": "das",
     "de_plural": "die Schiebedächer",
-    "lv": "Szyberdach samochodu",
+    "lv": "szyberdach",
     "level": "B2"
   },
   {
     "de": "Schieber",
     "de_article": "der",
     "de_plural": "die Schieber",
-    "lv": "Śruba • Strzałka • Spekulant",
+    "lv": "zasuwa • rygiel • spekulant",
     "level": "B2"
   },
   {
     "de": "Schiffbau",
     "de_article": "der",
-    "lv": "Budowa statku",
+    "lv": "budownictwo okrętowe",
     "level": "B2"
   },
   {
     "de": "Schiffbruch",
     "de_article": "der",
     "de_plural": "die Schiffbrüche",
-    "lv": "Katastrofa morska",
+    "lv": "katastrofa statku • rozbicie się statku",
     "level": "B2"
   },
   {
     "de": "Schiffsverkehr",
     "de_article": "der",
     "de_plural": "die Schiffsverkehre",
-    "lv": "Ruch statków",
+    "lv": "żegluga • ruch statków",
     "level": "B2"
   },
   {
     "de": "schillern",
-    "lv": "Opalizujący • Kąpać się w różnych kolorach",
+    "lv": "mienić się • połyskiwać",
     "level": "B2"
   },
   {
     "de": "Schlachtfeld",
     "de_article": "das",
     "de_plural": "die Schlachtfelder",
-    "lv": "Pole bitwy",
+    "lv": "pole bitwy",
     "level": "B2"
   },
   {
     "de": "schlafwandeln",
-    "lv": "Być oczarowanym księżycem",
+    "lv": "lunatykować",
     "level": "B2"
   },
   {
     "de": "Schlaganfall",
     "de_article": "der",
     "de_plural": "die Schlaganfälle",
-    "lv": "Paraliż",
+    "lv": "udar • wylew",
     "level": "B2"
   },
   {
     "de": "schlagfertig",
-    "lv": "Zaradny • Dowcipny",
+    "lv": "błyskotliwy • cięty",
     "level": "B2"
   },
   {
     "de": "Schlagwort",
     "de_article": "das",
     "de_plural": "die Schlagwörter",
-    "lv": "Slogan • Trafne słowo",
+    "lv": "hasło • slogan",
     "level": "B2"
   },
   {
     "de": "Schleudersitz",
     "de_article": "der",
     "de_plural": "die Schleudersitze",
-    "lv": "Fotel katapultowy w samolocie",
+    "lv": "fotel katapultowy",
     "level": "B2"
   },
   {
     "de": "schleunigst",
-    "lv": "Natychmiast • Tak szybko, jak to możliwe",
+    "lv": "natychmiast • czym prędzej",
     "level": "B2"
   },
   {
     "de": "Schlusswort",
     "de_article": "das",
     "de_plural": "die Schlussworte",
-    "lv": "Ostatnie słowo",
+    "lv": "słowo końcowe",
     "level": "B2"
   },
   {
     "de": "Schmach",
     "de_article": "die",
     "de_plural": null,
-    "lv": "Wstyd • Hańba",
+    "lv": "hańba • niesława",
     "level": "B2"
   },
   {
     "de": "Schmarotzer",
     "de_article": "der",
     "de_plural": "die Schmarotzer",
-    "lv": "Żarłoczny • Pasożyt",
+    "lv": "pasożyt • darmozjad",
     "level": "B2"
   },
   {
     "de": "schmeicheln",
-    "lv": "Schlebiać",
+    "lv": "schlebiać • pochlebiać",
     "level": "B2"
   },
   {
     "de": "Schmerzensgeld",
     "de_article": "das",
     "de_plural": "die Schmerzensgelder",
-    "lv": "Bolesne pieniądze",
+    "lv": "zadośćuczynienie",
     "level": "B2"
   },
   {
     "de": "schmerzlich",
-    "lv": "Bolesny • Smutny",
+    "lv": "bolesny • przykry",
     "level": "B2"
   },
   {
     "de": "schmollen",
-    "lv": "Ubieranie się",
+    "lv": "dąsać się • boczyć się",
     "level": "B2"
   },
   {
     "de": "Schmuggel",
     "de_article": "der",
-    "lv": "Przemyt",
+    "lv": "przemyt • kontrabanda",
     "level": "B2"
   },
   {
     "de": "Schnappschuss",
     "de_article": "der",
     "de_plural": "die Schnappschüsse",
-    "lv": "Migawka na zdjęciu",
+    "lv": "zdjęcie migawkowe • fotka",
     "level": "B2"
   },
   {
     "de": "schonungslos",
-    "lv": "Bezwzględny",
+    "lv": "bezlitosny • bezwzględny",
     "level": "B2"
   },
   {
     "de": "schöpferisch",
-    "lv": "Twórczy",
+    "lv": "twórczy",
     "level": "B2"
   },
   {
     "de": "Schöpfung",
     "de_article": "die",
     "de_plural": "die Schöpfungen",
-    "lv": "Tworzenie • Tworzenie • Praca",
+    "lv": "stworzenie • dzieło • twór",
     "level": "B2"
   },
   {
     "de": "schreiten",
-    "lv": "Spacer • Idź",
+    "lv": "kroczyć • stąpać",
     "level": "B2"
   },
   {
     "de": "Bittschrift",
     "de_article": "die",
     "de_plural": "die Bittschriften",
-    "lv": "Prośba",
+    "lv": "petycja • prośba",
     "level": "B2"
   },
   {
     "de": "schrill",
-    "lv": "Ostry • Ostry",
+    "lv": "przeraźliwy • piskliwy",
     "level": "B2"
   },
   {
     "de": "schroff",
-    "lv": "Stromy • Stromy • Ostry • Ostry • Niemiły",
+    "lv": "stromy • szorstki • opryskliwy",
     "level": "B2"
   },
   {
     "de": "Schuhfabrik",
     "de_article": "die",
     "de_plural": "die Schuhfabriken",
-    "lv": "Fabryka obuwia",
+    "lv": "fabryka obuwia",
     "level": "B2"
   },
   {
     "de": "Schuldschein",
     "de_article": "der",
     "de_plural": "die Schuldscheine",
-    "lv": "Weksel",
+    "lv": "skrypt dłużny",
     "level": "B2"
   },
   {
     "de": "Schusswaffe",
     "de_article": "die",
     "de_plural": "die Schusswaffen",
-    "lv": "Broń palna",
+    "lv": "broń palna",
     "level": "B2"
   },
   {
     "de": "Schutzfarbe",
     "de_article": "die",
     "de_plural": "die Schutzfarben",
-    "lv": "Farba ochronna",
+    "lv": "barwa ochronna",
     "level": "B2"
   },
   {
     "de": "Schutzimpfung",
     "de_article": "die",
     "de_plural": "die Schutzimpfungen",
-    "lv": "Szczepienie ochronne",
+    "lv": "szczepienie ochronne",
     "level": "B2"
   },
   {
     "de": "schutzlos",
-    "lv": "Bezbronny",
+    "lv": "bezbronny • bez ochrony",
     "level": "B2"
   },
   {
     "de": "Schwankung",
     "de_article": "die",
     "de_plural": "die Schwankungen",
-    "lv": "Fluktuacja",
+    "lv": "wahanie • fluktuacja",
     "level": "B2"
   },
   {
     "de": "Schwarm",
     "de_article": "der",
     "de_plural": "die Schwärme",
-    "lv": "Pasja • Zachwyt",
+    "lv": "stado • rój • ławica",
     "level": "B2"
   },
   {
     "de": "schwärmen",
-    "lv": "Ekscytuj się • Zachwycaj się • Śnij",
+    "lv": "zachwycać się • marzyć",
     "level": "B2"
   },
   {
     "de": "Schwarzarbeit",
     "de_article": "die",
     "de_plural": "die Schwarzarbeiten",
-    "lv": "Nielegalną pracę, za którą nie płaci się podatków",
+    "lv": "praca na czarno",
     "level": "B2"
   },
   {
     "de": "Schwarze",
     "de_article": "der",
     "de_plural": "die Schwarze",
-    "lv": "Osoba o czarnym kolorze skóry",
+    "lv": "czarnoskóry",
     "level": "B2"
   },
   {
     "de": "Schwarzmarkt",
     "de_article": "der",
     "de_plural": "die Schwarzmärkte",
-    "lv": "Czarny rynek",
+    "lv": "czarny rynek",
     "level": "B2"
   },
   {
     "de": "Schwebebahn",
     "de_article": "die",
     "de_plural": "die Schwebebahnen",
-    "lv": "Zawieszenie [kolejowe].",
+    "lv": "kolej podwieszana",
     "level": "B2"
   },
   {
     "de": "Schweinezucht",
     "de_article": "die",
     "de_plural": "die Schweinezuchten",
-    "lv": "Hodowla świń",
+    "lv": "hodowla świń",
     "level": "B2"
   },
   {
     "de": "schwelen",
-    "lv": "Rozjarzony",
+    "lv": "tlić się",
     "level": "B2"
   },
   {
     "de": "Schwerathletik",
     "de_article": "die",
     "de_plural": "die Schwerathletiken",
-    "lv": "Sp. podnoszenie ciężarów",
+    "lv": "ciężka atletyka • sporty siłowe",
     "level": "B2"
   },
   {
     "de": "schwerfällig",
-    "lv": "Ciężki • Nieporęczny",
+    "lv": "ociężały • niezgrabny",
     "level": "B2"
   },
   {
     "de": "Schwerpunkt",
     "de_article": "der",
     "de_plural": "die Schwerpunkte",
-    "lv": "Punkt ciężkości",
+    "lv": "środek ciężkości • główny akcent",
     "level": "B2"
   },
   {
     "de": "schwinden",
-    "lv": "[zmniejsza się] • [znika] pojawia się • Znika",
+    "lv": "zanikać • słabnąć • znikać",
     "level": "B2"
   },
   {
     "de": "Seenot",
     "de_article": "die",
-    "lv": "Awaria na morzu",
+    "lv": "niebezpieczeństwo na morzu",
     "level": "B2"
   },
   {
     "de": "Seemacht",
     "de_article": "die",
     "de_plural": "die Seemächte",
-    "lv": "Morska [wielka] moc",
+    "lv": "mocarstwo morskie • potęga morska",
     "level": "B2"
   },
   {
     "de": "Segelflieger",
     "de_article": "der",
     "de_plural": "die Segelflieger",
-    "lv": "Szybowiec",
+    "lv": "szybownik",
     "level": "B2"
   },
   {
     "de": "Segelflugzeug",
     "de_article": "das",
     "de_plural": "die Segelflugzeuge",
-    "lv": "Szybowiec",
+    "lv": "szybowiec",
     "level": "B2"
   },
   {
     "de": "Sehkraft",
     "de_article": "die",
-    "lv": "Wizja • Zdolność widzenia",
+    "lv": "wzrok",
     "level": "B2"
   },
   {
     "de": "Naturseide",
     "de_article": "die",
-    "lv": "Naturalny jedwab",
+    "lv": "jedwab naturalny",
     "level": "B2"
   },
   {
     "de": "Sein",
     "de_article": "das",
-    "lv": "Istnienie",
+    "lv": "byt • istnienie",
     "level": "B2",
     "study": {
       "id": "b2-sein-study",
       "layout": "standardStudy",
-      "translation": "Istnienie",
+      "translation": "byt • istnienie",
       "explanation": [
-        "Idea główna: das Sein z dużej litery i rodzajnik das to rzeczownik - istnienie, istnienie (pojęcie filozoficzne).",
-        "Sein pisany małą literą to czasownik - być.",
-        "Das Sein jest często używany w kontekście filozoficznym lub abstrakcyjnym (das menschliche Sein).",
-        "Substantywizacja: sein → das Sein, jak können → das Können."
+        "Główna myśl: das Sein to rzeczownik rodzaju nijakiego utworzony od czasownika sein. W filozofii oznacza byt, istnienie — to, że coś w ogóle jest. Przeciwieństwem jest das Nichts lub das Nichtsein (niebyt).",
+        "Słowo występuje tylko w liczbie pojedynczej (das Sein, des Seins), liczby mnogiej nie ma. Znane wyrażenie: Sein oder Nichtsein (u Hamleta „Być albo nie być”). Rzeczownik Sein pisze się wielką literą."
       ],
       "examples": [
         {
           "de": "Das menschliche Sein ist komplex.",
-          "lv": "Egzystencja człowieka jest złożona."
+          "lv": "Ludzki byt jest złożony."
         },
         {
           "de": "Sein oder Nichtsein, das ist die Frage.",
           "lv": "Być albo nie być, oto jest pytanie."
         },
         {
-          "de": "Ich bin müde.",
-          "lv": "Jestem zmęczony"
+          "de": "Das Sein bestimmt das Bewusstsein.",
+          "lv": "Byt określa świadomość."
         },
         {
-          "de": "Das Sein bestimmt das Bewusstsein.",
-          "lv": "Istnienie determinuje świadomość."
+          "de": "Der Philosoph denkt über das Sein nach.",
+          "lv": "Filozof rozmyśla o bycie."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "das Dasein",
+          "meaning": "egzystencja, istnienie",
+          "example": "Sein Dasein war schwer. – Jego egzystencja była trudna."
+        },
+        {
+          "word": "das Wesen",
+          "meaning": "istota",
+          "example": "Das Wesen der Sache ist einfach. – Istota rzeczy jest prosta."
+        },
+        {
+          "word": "die Existenz",
+          "meaning": "egzystencja, istnienie",
+          "example": "Er bezweifelt ihre Existenz. – Wątpi w jej istnienie."
         }
       ],
       "tip": [
-        "Das Sein z dużej litery - rzeczownik (istnienie w sensie filozoficznym).",
-        "Sein mała litera - czasownik (być)."
+        "Rzeczownik Sein często pojawia się w filozofii: das Sein und das Bewusstsein.",
+        "Czymś innym jest zaimek dzierżawczy sein (jego), który pisze się małą literą."
       ],
       "important": [
-        "Das Sein = istnienie (rzeczownik, abstrakcyjny/filozoficzny).",
-        "Sein = być (czasownik, codziennie).",
-        "To słowo jest czasownikiem uzasadnionym, jak das Können."
+        "Das Sein nie jest słowem codziennym; na co dzień mówi się das Leben albo die Existenz.",
+        "Nie myl rzeczownika das Sein z czasownikiem sein (być) ani z zaimkiem sein (jego)."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "das Sein"
+            "Sein"
           ],
-          "green": [
-            "sein"
+          "purple": [
+            "byt",
+            "istnienie"
           ]
         },
         "examples": [
@@ -11186,23 +22047,11 @@ const B2_WORDS = [
                 "Sein"
               ]
             },
-            "lv": {}
-          },
-          {
-            "de": {
-              "green": [
-                "Sein"
+            "lv": {
+              "purple": [
+                "byt"
               ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "green": [
-                "bin"
-              ]
-            },
-            "lv": {}
+            }
           },
           {
             "de": {
@@ -11210,35 +22059,96 @@ const B2_WORDS = [
                 "Sein"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Być"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Sein"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Byt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Sein"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "bycie"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "das Dasein"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "egzystencja"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "das Wesen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "istota"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Existenz"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "istnienie"
+              ]
+            }
           }
         ],
         "tip": [
           {
             "blue": [
-              "das Sein"
+              "Sein"
             ]
           },
-          {
-            "green": [
-              "sein"
-            ]
-          }
+          {}
         ],
         "important": [
           {
             "blue": [
-              "das Sein"
-            ]
-          },
-          {
+              "Sein"
+            ],
             "green": [
-              "sein"
+              "die Existenz",
+              "Existenz"
             ]
           },
           {
             "blue": [
-              "das Können"
+              "Sein"
             ]
           }
         ]
@@ -11249,187 +22159,202 @@ const B2_WORDS = [
     "de": "Selbstgefühl",
     "de_article": "das",
     "de_plural": "die Selbstgefühle",
-    "lv": "Pewność siebie • Samoświadomość",
+    "lv": "poczucie własnej wartości • pewność siebie",
     "level": "B2"
   },
   {
     "de": "Selbstkosten",
     "de_article": "die",
-    "lv": "Cena kosztowa",
+    "lv": "koszt własny",
     "level": "B2"
   },
   {
     "de": "Selbstkritik",
     "de_article": "die",
     "de_plural": "die Selbstkritiken",
-    "lv": "Samokrytyka",
+    "lv": "samokrytyka",
     "level": "B2"
   },
   {
     "de": "selbstlos",
-    "lv": "Bezinteresowny • Bezinteresowny",
+    "lv": "bezinteresowny • ofiarny",
     "level": "B2"
   },
   {
     "de": "Selbstmord",
     "de_article": "der",
     "de_plural": "die Selbstmorde",
-    "lv": "Samobójstwo",
+    "lv": "samobójstwo",
     "level": "B2"
   },
   {
     "de": "selbsttätig",
-    "lv": "Automatyczny",
+    "lv": "samoczynny • automatyczny",
     "level": "B2"
   },
   {
     "de": "Senat",
     "de_article": "der",
     "de_plural": "die Senate",
-    "lv": "Senat • Rada naukowa",
+    "lv": "senat • rada naukowa",
     "level": "B2"
   },
   {
     "de": "Sensenblatt",
     "de_article": "das",
     "de_plural": "die Sensenblätter",
-    "lv": "Ostrze kosy",
+    "lv": "ostrze kosy",
     "level": "B2"
   },
   {
     "de": "sensibel",
-    "lv": "Wrażliwy • Wrażliwy",
+    "lv": "wrażliwy • delikatny",
     "level": "B2"
   },
   {
     "de": "Separatismus",
     "de_article": "der",
-    "lv": "Separatyzm",
+    "lv": "separatyzm",
     "level": "B2"
   },
   {
     "de": "Seuche",
     "de_article": "die",
     "de_plural": "die Seuchen",
-    "lv": "Zaraza • Epidemia",
+    "lv": "zaraza • epidemia",
     "level": "B2"
   },
   {
     "de": "Seuchenherd",
     "de_article": "der",
     "de_plural": "die Seuchenherde",
-    "lv": "Źródło epidemii",
+    "lv": "ognisko epidemii",
     "level": "B2"
   },
   {
     "de": "sickern",
-    "lv": "Kapać • Ssać",
+    "lv": "sączyć się • przesiąkać",
     "level": "B2"
   },
   {
     "de": "siegreich",
-    "lv": "Uwieńczone zwycięstwami",
+    "lv": "zwycięski",
     "level": "B2"
   },
   {
     "de": "Silberschmied",
     "de_article": "der",
     "de_plural": "die Silberschmiede",
-    "lv": "Złotnik",
+    "lv": "złotnik",
     "level": "B2"
   },
   {
     "de": "Simulator",
     "de_article": "der",
     "de_plural": "die Simulatoren",
-    "lv": "Symulator",
+    "lv": "symulator",
     "level": "B2"
   },
   {
     "de": "simulieren",
-    "lv": "Symulować • Naśladować",
+    "lv": "symulować • udawać",
     "level": "B2"
   },
   {
     "de": "Sinnbild",
     "de_article": "das",
     "de_plural": "die Sinnbilder",
-    "lv": "Symbol",
+    "lv": "symbol",
     "level": "B2"
   },
   {
     "de": "sittlich",
-    "lv": "Cnotliwy",
+    "lv": "moralny • obyczajny",
     "level": "B2"
   },
   {
     "de": "Skalpell",
     "de_article": "das",
     "de_plural": "die Skalpelle",
-    "lv": "Skalpel",
+    "lv": "skalpel",
     "level": "B2"
   },
   {
     "de": "smart",
-    "lv": "Sprytny • Przebiegły",
+    "lv": "sprytny • bystry",
     "level": "B2"
   },
   {
     "de": "sofern",
-    "lv": "Jeśli • Pod warunkiem, że",
+    "lv": "o ile • jeśli",
     "level": "B2",
     "study": {
       "id": "b2-sofern",
       "layout": "standardStudy",
-      "translation": "Jeśli • Pod warunkiem, że",
+      "translation": "o ile • jeśli",
       "explanation": [
-        "Główna idea: sofät jest koniunkcją warunkową - oznacza, jeśli/pod warunkiem, że.",
-        "Sofè wprowadza warunkową klauzulę pomocniczą, podobną do wenn, ale jest bardziej formalna i typowa dla stylu pisanego.",
-        "Soufen NIE oznacza „as” (spójnik przyczynowy) – to po niemiecku da lub weil.",
-        "Powszechnie używane w tekstach prawniczych/formalnych (sofern nicht anders verfahrt = chyba, że ​​uzgodniono inaczej)."
+        "Główna myśl: sofern to spójnik podrzędny wprowadzający warunek: o ile, pod warunkiem że. Wyraża, że coś obowiązuje lub się dzieje tylko wtedy, gdy warunek jest spełniony.",
+        "Po sofern zaczyna się zdanie podrzędne, w którym czasownik stoi na końcu: Ich komme, sofern ich Zeit habe. Zdanie podrzędne oddziela się przecinkiem. Spójnik jest stylistycznie nieco bardziej oficjalny niż wenn i często pojawia się w umowach i regulaminach.",
+        "Można go też używać w skrócie: sofern möglich — o ile to możliwe."
       ],
       "examples": [
         {
           "de": "Ich komme, sofern ich Zeit habe.",
-          "lv": "Przychodzę, kiedy mam czas."
+          "lv": "Przyjdę, o ile będę miał czas."
         },
         {
           "de": "Sofern nichts anderes vereinbart ist, gilt der Standardpreis.",
           "lv": "O ile nie uzgodniono inaczej, obowiązuje cena standardowa."
         },
         {
-          "de": "Sofern das Wetter gut ist, machen wir einen Ausflug.",
-          "lv": "Jeśli pogoda dopisze, pojedziemy na wycieczkę."
-        },
-        {
-          "de": "Sofern möglich, bitte pünktlich sein.",
-          "lv": "Proszę o konkrety jeśli to możliwe."
+          "de": "Wir fahren morgen, sofern das Wetter gut ist.",
+          "lv": "Pojedziemy jutro, o ile pogoda będzie dobra."
         },
         {
           "de": "Er hilft, sofern er kann.",
-          "lv": "Pomaga, jeśli może."
+          "lv": "Pomaga, o ile tylko może."
         },
         {
-          "de": "Da es regnet, bleiben wir zu Hause.",
-          "lv": "Skoro pada deszcz, zostajemy w domu."
+          "de": "Sofern es möglich ist, rufe ich dich an.",
+          "lv": "O ile to będzie możliwe, zadzwonię do ciebie."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "wenn",
+          "meaning": "jeśli, gdy",
+          "example": "Wenn es regnet, bleibe ich zu Hause. – Jeśli będzie padać, zostanę w domu."
+        },
+        {
+          "word": "falls",
+          "meaning": "w razie gdyby, jeżeli",
+          "example": "Falls du kommst, ruf an. – Jeśli przyjdziesz, zadzwoń."
+        },
+        {
+          "word": "soweit",
+          "meaning": "na ile, w jakim stopniu",
+          "example": "Soweit ich weiß, ist er krank. – Z tego, co wiem, jest chory."
         }
       ],
       "tip": [
-        "Jeśli/pod warunkiem, że (warunek) - nie mylić z przyczyną.",
-        "„ponieważ” (przyczyna) po niemiecku to da/weil, ne soufen."
+        "sofern używaj, gdy chcesz podkreślić warunek: Sofern keine Einwände bestehen, …",
+        "Pamiętaj o szyku: sofern + podmiot + … + czasownik na końcu."
       ],
       "important": [
-        "Jeśli istnieje związek warunkowy, a nie przyczynowy.",
-        "Błędnie: soufen = as → Poprawnie: da/weil = as."
+        "Po sofern czasownik stoi na końcu zdania podrzędnego, a nie na drugim miejscu.",
+        "sofern to nie to samo co soweit (na ile, w jakim stopniu): soweit wskazuje zakres, sofern — warunek."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "sofern"
           ],
-          "red": [
-            "da",
-            "weil"
+          "purple": [
+            "o ile",
+            "warunkiem"
+          ],
+          "green": [
+            "wenn"
           ]
         },
         "examples": [
@@ -11439,7 +22364,11 @@ const B2_WORDS = [
                 "sofern"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "o ile"
+              ]
+            }
           },
           {
             "de": {
@@ -11447,23 +22376,11 @@ const B2_WORDS = [
                 "Sofern"
               ]
             },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "Sofern"
+            "lv": {
+              "purple": [
+                "O ile"
               ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "Sofern"
-              ]
-            },
-            "lv": {}
+            }
           },
           {
             "de": {
@@ -11471,32 +22388,100 @@ const B2_WORDS = [
                 "sofern"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "o ile"
+              ]
+            }
           },
           {
             "de": {
-              "red": [
-                "Da"
+              "blue": [
+                "sofern"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "o ile tylko"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Sofern"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "O ile"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "wenn"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "jeśli"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "falls"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "w razie"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "soweit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "na ile"
+              ]
+            }
           }
         ],
         "tip": [
-          {},
           {
-            "red": [
-              "da",
-              "weil"
+            "blue": [
+              "sofern",
+              "Sofern"
+            ]
+          },
+          {
+            "blue": [
+              "sofern"
             ]
           }
         ],
         "important": [
-          {},
           {
-            "red": [
-              "da",
-              "weil"
+            "blue": [
+              "sofern"
+            ]
+          },
+          {
+            "blue": [
+              "sofern"
+            ],
+            "green": [
+              "soweit"
             ]
           }
         ]
@@ -11507,1362 +22492,2079 @@ const B2_WORDS = [
     "de": "Söldner",
     "de_article": "der",
     "de_plural": "die Söldner",
-    "lv": "Najemnik",
+    "lv": "najemnik",
     "level": "B2"
   },
   {
     "de": "solidarisch",
-    "lv": "Solidarny",
+    "lv": "solidarny",
     "level": "B2"
   },
   {
     "de": "Sonde",
     "de_article": "die",
     "de_plural": "die Sonden",
-    "lv": "Sonda",
+    "lv": "sonda",
     "level": "B2"
   },
   {
     "de": "Sonderausgabe",
     "de_article": "die",
     "de_plural": "die Sonderausgaben",
-    "lv": "Wydanie specjalne książki • Wydanie specjalne gazety • Wydanie specjalne znaczków",
+    "lv": "wydanie specjalne",
     "level": "B2"
   },
   {
     "de": "Sonderfall",
     "de_article": "der",
     "de_plural": "die Sonderfälle",
-    "lv": "Wyjątkowy przypadek",
+    "lv": "wyjątkowy przypadek • przypadek szczególny",
     "level": "B2"
   },
   {
     "de": "Sonnenuhr",
     "de_article": "die",
     "de_plural": "die Sonnenuhren",
-    "lv": "Zegar słoneczny",
+    "lv": "zegar słoneczny",
     "level": "B2"
   },
   {
     "de": "Sonnenwende",
     "de_article": "die",
     "de_plural": "die Sonnenwenden",
-    "lv": "Przesilenie dnia z nocą",
+    "lv": "przesilenie",
     "level": "B2"
   },
   {
     "de": "Sorgenkind",
     "de_article": "das",
     "de_plural": "die Sorgenkinder",
-    "lv": "Opiekuj się dzieckiem",
+    "lv": "kłopotliwe dziecko • zmartwienie",
     "level": "B2"
   },
   {
     "de": "Sorgepflicht",
     "de_article": "die",
-    "lv": "Obowiązek staranności",
+    "lv": "obowiązek opieki",
     "level": "B2"
   },
   {
     "de": "Sorgerecht",
     "de_article": "das",
     "de_plural": "die Sorgerechte",
-    "lv": "Prawo do opieki",
+    "lv": "prawo do opieki • władza rodzicielska",
     "level": "B2"
   },
   {
     "de": "Sozialismus",
     "de_article": "der",
-    "lv": "Socjalizm",
+    "lv": "socjalizm",
     "level": "B2"
   },
   {
     "de": "sozialistisch",
-    "lv": "Socjalista",
+    "lv": "socjalistyczny",
     "level": "B2"
   },
   {
     "de": "Spaltung",
     "de_article": "die",
     "de_plural": "die Spaltungen",
-    "lv": "Dzielenie • [sa]dzielenie • [sa]dzielenie",
+    "lv": "rozszczepienie • rozłam • podział",
     "level": "B2"
   },
   {
     "de": "spärlich",
-    "lv": "Skąpy • Skąpy • Rzadki",
+    "lv": "skąpy • nikły • rzadki",
     "level": "B2"
   },
   {
     "de": "Sperma",
     "de_article": "das",
     "de_plural": "die Spermen",
-    "lv": "Sperma",
+    "lv": "sperma",
     "level": "B2"
   },
   {
     "de": "spezifisch",
-    "lv": "Specyficzny",
+    "lv": "specyficzny • swoisty",
     "level": "B2"
   },
   {
     "de": "Sphäre",
     "de_article": "die",
     "de_plural": "die Sphären",
-    "lv": "Kula • Obszar",
+    "lv": "sfera • dziedzina",
     "level": "B2"
   },
   {
     "de": "Spielgerät",
     "de_article": "das",
     "de_plural": "die Spielgeräte",
-    "lv": "Inwentarz gier sportowych",
+    "lv": "sprzęt do gier sportowych",
     "level": "B2"
   },
   {
     "de": "Spießbürger",
     "de_article": "der",
     "de_plural": "die Spießbürger",
-    "lv": "Obywatel-rezydent",
+    "lv": "filister • kołtun",
     "level": "B2"
   },
   {
     "de": "spionieren",
-    "lv": "Szpiegować • Szpiegować",
+    "lv": "szpiegować",
     "level": "B2"
   },
   {
     "de": "Spott",
     "de_article": "der",
-    "lv": "Kpina • Ząbkowanie • Kiepski żart",
+    "lv": "kpina • drwina • szyderstwo",
     "level": "B2"
   },
   {
     "de": "spötteln",
-    "lv": "Ironizować",
+    "lv": "ironizować • podkpiwać",
     "level": "B2"
   },
   {
     "de": "spotten",
-    "lv": "Kpić • Ząbkowanie",
+    "lv": "kpić • drwić",
     "level": "B2"
   },
   {
     "de": "spöttisch",
-    "lv": "Kpiący • Zębaty",
+    "lv": "kpiący • drwiący • szyderczy",
     "level": "B2"
   },
   {
     "de": "Sprechanlage",
     "de_article": "die",
     "de_plural": "die Sprechanlagen",
-    "lv": "Domofon w domu",
+    "lv": "domofon",
     "level": "B2"
   },
   {
     "de": "sprengen",
-    "lv": "[w]dmuchaniu • Posypać • Wodą",
-    "level": "B2"
+    "lv": "wysadzić w powietrze • zraszać • podlewać",
+    "level": "B2",
+    "study": {
+      "id": "b2-sprengen",
+      "layout": "standardStudy",
+      "translation": "wysadzić w powietrze • zraszać • podlewać",
+      "explanation": [
+        "Główna myśl: sprengen to czasownik przechodni o kilku znaczeniach. Pierwsze — wysadzać, wysadzić w powietrze (eine Brücke sprengen), rozsadzać lub rozłupywać siłą (der Frost sprengt Felsen). Drugie — skrapiać, zraszać wodą (Wäsche sprengen) i podlewać (den Rasen sprengen).",
+        "Formy: sprengt, sprengte, hat gesprengt. Rdzeń jest ten sam, ale znaczenia się różnią; kontekst pokazuje, o co chodzi. W znaczeniu przenośnym die Grenzen sprengen — przekraczać granice."
+      ],
+      "examples": [
+        {
+          "de": "Die Armee sprengte die Brücke.",
+          "lv": "Wojsko wysadziło most."
+        },
+        {
+          "de": "Er sprengt jeden Abend den Rasen.",
+          "lv": "Co wieczór podlewa trawnik."
+        },
+        {
+          "de": "Vor dem Bügeln sprengt sie die Wäsche mit Wasser.",
+          "lv": "Przed prasowaniem skrapia pranie wodą."
+        },
+        {
+          "de": "Der Frost sprengt die Felsen.",
+          "lv": "Mróz rozsadza skały."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "gießen",
+          "meaning": "podlewać",
+          "example": "Ich gieße die Blumen. – Podlewam kwiaty."
+        },
+        {
+          "word": "explodieren",
+          "meaning": "wybuchać",
+          "example": "Die Bombe explodiert. – Bomba wybucha."
+        },
+        {
+          "word": "sprühen",
+          "meaning": "rozpylać, spryskiwać",
+          "example": "Er sprüht Wasser auf die Pflanzen. – Spryskuje rośliny wodą."
+        }
+      ],
+      "tip": [
+        "W kontekście ogrodu den Rasen sprengen znaczy podlewać trawnik wężem lub zraszaczem.",
+        "Przy słowach Bombe, Brücke, Tür czasownik sprengen oznacza wysadzanie lub wyważanie."
+      ],
+      "important": [
+        "Częste połączenie: etwas in die Luft sprengen — wysadzić coś w powietrze.",
+        "Znaczenie zależy od dopełnienia: Brücke — wysadza się, Rasen — podlewa, Wäsche — skrapia."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "sprengen",
+            "sprengt",
+            "sprengte",
+            "gesprengt"
+          ],
+          "purple": [
+            "wysadzać",
+            "wysadzić",
+            "zraszać",
+            "podlewać"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "sprengte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "wysadziło"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sprengt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "podlewa"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sprengt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "skrapia"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sprengt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "rozsadza"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "gießen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "podlewać"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "explodieren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "wybuchać"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sprühen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "rozpylać"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "sprengen"
+            ]
+          },
+          {
+            "blue": [
+              "sprengen"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "sprengen"
+            ]
+          },
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "Sprengstoff",
     "de_article": "der",
     "de_plural": "die Sprengstoffe",
-    "lv": "Materiał wybuchowy",
+    "lv": "materiał wybuchowy",
     "level": "B2"
   },
   {
     "de": "Spross",
     "de_article": "der",
     "de_plural": "die Sprosse",
-    "lv": "Nerw. potomek • Strzelać • Przeł. potomstwo • Potomstwo",
+    "lv": "pęd • latorośl • potomek",
     "level": "B2"
   },
   {
     "de": "Spruch",
     "de_article": "der",
     "de_plural": "die Sprüche",
-    "lv": "Wyrażenie • Aforyzm • Jur. osąd",
+    "lv": "powiedzenie • aforyzm • orzeczenie",
     "level": "B2"
   },
   {
     "de": "Spruchband",
     "de_article": "das",
     "de_plural": "die Spruchbande",
-    "lv": "Przezroczysty • Plakat",
+    "lv": "transparent",
     "level": "B2"
   },
   {
     "de": "Spuk",
     "de_article": "der",
     "de_plural": "die Spuke",
-    "lv": "Widmo • Duch • Zjawa",
+    "lv": "widmo • upiór • zjawa",
     "level": "B2"
   },
   {
     "de": "spurlos",
-    "lv": "Bez śladu • Bez śladu",
+    "lv": "bez śladu",
     "level": "B2"
   },
   {
     "de": "Staatenlose",
     "de_article": "der",
     "de_plural": "die Staatenlosen",
-    "lv": "Bezpaństwowca",
+    "lv": "bezpaństwowiec",
     "level": "B2"
   },
   {
     "de": "Staatsbesuch",
     "de_article": "der",
     "de_plural": "die Staatsbesuche",
-    "lv": "Wizyta państwowa",
+    "lv": "wizyta państwowa",
     "level": "B2"
   },
   {
     "de": "Staatsexamen",
     "de_article": "das",
     "de_plural": "die Staatsexamen",
-    "lv": "Egzamin państwowy",
+    "lv": "egzamin państwowy",
     "level": "B2"
   },
   {
     "de": "Staatshaushalt",
     "de_article": "der",
     "de_plural": "die Staatshaushalte",
-    "lv": "Budżet państwa",
+    "lv": "budżet państwa",
     "level": "B2"
   },
   {
     "de": "Staatsmann",
     "de_article": "der",
     "de_plural": "die Staatsmänner",
-    "lv": "Mąż stanu",
+    "lv": "mąż stanu",
     "level": "B2"
   },
   {
     "de": "Staatsstreich",
     "de_article": "der",
     "de_plural": "die Staatsstreiche",
-    "lv": "Zamach stanu",
+    "lv": "zamach stanu",
     "level": "B2"
   },
   {
     "de": "stabilisieren",
-    "lv": "Ustabilizować",
+    "lv": "stabilizować",
     "level": "B2"
   },
   {
     "de": "Stahlwerk",
     "de_article": "das",
     "de_plural": "die Stahlwerke",
-    "lv": "Odlewnia stali",
+    "lv": "huta stali • stalownia",
     "level": "B2"
   },
   {
     "de": "starr",
-    "lv": "Nieruchomy • Odrętwiały • Sztywny",
+    "lv": "nieruchomy • zdrętwiały • sztywny",
     "level": "B2"
   },
   {
     "de": "starren",
-    "lv": "Przyjrzyj się uważnie • Blask",
+    "lv": "wpatrywać się • gapić się",
     "level": "B2"
   },
   {
     "de": "starrköpfig",
-    "lv": "Uparty • Uparty",
+    "lv": "uparty • krnąbrny",
     "level": "B2"
   },
   {
     "de": "starrsinnig",
-    "lv": "Uparty • Uparty",
+    "lv": "uparty • nieustępliwy",
     "level": "B2"
   },
   {
     "de": "Stätte",
     "de_article": "die",
     "de_plural": "die Stätten",
-    "lv": "Miejsce",
+    "lv": "miejsce",
     "level": "B2"
   },
   {
     "de": "Statut",
     "de_article": "das",
     "de_plural": "die Statuten",
-    "lv": "Statut",
+    "lv": "statut",
     "level": "B2"
   },
   {
     "de": "Steckbrief",
     "de_article": "der",
     "de_plural": "die Steckbriefe",
-    "lv": "Opis osoby poszukiwanej na policji",
+    "lv": "list gończy",
     "level": "B2"
   },
   {
     "de": "steril",
-    "lv": "Jałowy",
+    "lv": "sterylny • jałowy",
     "level": "B2"
   },
   {
     "de": "Steuergelder",
     "de_article": "die",
-    "lv": "Wszystkie pieniądze, które państwo otrzymuje w formie podatków",
+    "lv": "pieniądze z podatków • wpływy podatkowe",
     "level": "B2"
   },
   {
     "de": "Steuererhöhung",
     "de_article": "die",
     "de_plural": "die Steuererhöhungen",
-    "lv": "Podnoszenie podatków",
+    "lv": "podwyżka podatków",
     "level": "B2"
   },
   {
     "de": "Steuersenkung",
     "de_article": "die",
     "de_plural": "die Steuersenkungen",
-    "lv": "Obniżenie podatków",
+    "lv": "obniżka podatków",
     "level": "B2"
   },
   {
     "de": "Stoßverkehr",
     "de_article": "der",
-    "lv": "Godziny szczytu • Wzmożony ruch w określonej porze dnia",
+    "lv": "godziny szczytu",
     "level": "B2"
   },
   {
     "de": "Strafanzeige",
     "de_article": "die",
     "de_plural": "die Strafanzeigen",
-    "lv": "Wszczęcie przeciwko komuś sprawy karnej",
+    "lv": "zawiadomienie o przestępstwie",
     "level": "B2"
   },
   {
     "de": "stranden",
-    "lv": "Osiąść na mieliźnie • Mieć wypadek",
+    "lv": "osiąść na mieliźnie • rozbić się",
     "level": "B2"
   },
   {
     "de": "streben",
-    "lv": "Dążyć do czegoś",
+    "lv": "dążyć",
     "level": "B2"
   },
   {
     "de": "streitbar",
-    "lv": "Rzeczowy",
+    "lv": "kłótliwy • wojowniczy",
     "level": "B2"
   },
   {
     "de": "Streitkräfte",
     "de_article": "die",
-    "lv": "Wszystkie organizacje wojskowe i siły zbrojne kraju",
+    "lv": "siły zbrojne",
     "level": "B2"
   },
   {
     "de": "strippen",
-    "lv": "Zrób striptiz",
+    "lv": "robić striptiz",
     "level": "B2"
   },
   {
     "de": "Stripper",
     "de_article": "der",
     "de_plural": "die Stripper",
-    "lv": "Spychacz",
+    "lv": "striptizer",
     "level": "B2"
   },
   {
     "de": "Stripperin",
     "de_article": "die",
     "de_plural": "die Stripperinnen",
-    "lv": "Tancerka striptiz",
+    "lv": "striptizerka",
     "level": "B2"
   },
   {
     "de": "Striptease",
     "de_article": "der",
-    "lv": "Striptease",
+    "lv": "striptiz",
     "level": "B2"
   },
   {
     "de": "Strolch",
     "de_article": "der",
     "de_plural": "die Strolche",
-    "lv": "Włóczęga",
+    "lv": "włóczęga • łobuz",
     "level": "B2"
   },
   {
     "de": "Stücklohn",
     "de_article": "der",
     "de_plural": "die Stücklöhne",
-    "lv": "Wynagrodzenie za pracę na akord",
+    "lv": "płaca akordowa",
     "level": "B2"
   },
   {
     "de": "Studiengebühr",
     "de_article": "die",
     "de_plural": "die Studiengebühren",
-    "lv": "Opłaty za studia na uniwersytecie",
+    "lv": "czesne • opłata za studia",
     "level": "B2"
   },
   {
     "de": "stur",
-    "lv": "Uparty • Uparty",
+    "lv": "uparty • zawzięty",
     "level": "B2"
   },
   {
     "de": "Stützpunkt",
     "de_article": "der",
     "de_plural": "die Stützpunkte",
-    "lv": "Baza wojskowa",
+    "lv": "baza wojskowa",
     "level": "B2"
   },
   {
     "de": "Suchaktion",
     "de_article": "die",
     "de_plural": "die Suchaktionen",
-    "lv": "Przeszukanie zorganizowane przez policję",
+    "lv": "akcja poszukiwawcza",
     "level": "B2"
   },
   {
     "de": "Täfelung",
     "de_article": "die",
     "de_plural": "die Täfelungen",
-    "lv": "Panel ścienny • Okładzina",
+    "lv": "boazeria • okładzina",
     "level": "B2"
   },
   {
     "de": "Tagebau",
     "de_article": "der",
     "de_plural": "die Tagebaue",
-    "lv": "Odkrywkowe wydobycie minerałów",
+    "lv": "kopalnia odkrywkowa • wydobycie odkrywkowe",
     "level": "B2"
   },
   {
     "de": "Tagegeld",
     "de_article": "das",
     "de_plural": "die Tagegelder",
-    "lv": "Dieta w podróży służbowej",
+    "lv": "dieta",
     "level": "B2"
   },
   {
     "de": "Tagelohn",
     "de_article": "der",
     "de_plural": "die Tagelöhne",
-    "lv": "Płaca dzienna",
+    "lv": "dniówka",
     "level": "B2"
   },
   {
     "de": "Tagelöhner",
     "de_article": "der",
     "de_plural": "die Tagelöhner",
-    "lv": "Dniówkarz",
+    "lv": "dniówkarz • wyrobnik",
     "level": "B2"
   },
   {
     "de": "tagen",
-    "lv": "Przeprowadzić sesję • Posiedzeń",
+    "lv": "obradować",
     "level": "B2"
   },
   {
     "de": "Tapferkeit",
     "de_article": "die",
     "de_plural": "die Tapferkeiten",
-    "lv": "Odwaga • Odwaga",
+    "lv": "męstwo • odwaga",
     "level": "B2"
   },
   {
     "de": "Tatkraft",
     "de_article": "die",
-    "lv": "Energia • Wigor",
+    "lv": "energia • zapał",
     "level": "B2"
   },
   {
     "de": "telegrafieren",
-    "lv": "Telegrafować",
+    "lv": "telegrafować",
     "level": "B2"
   },
   {
     "de": "Terrorismus",
     "de_article": "der",
-    "lv": "Terroryzm",
+    "lv": "terroryzm",
     "level": "B2"
   },
   {
     "de": "Testperson",
     "de_article": "die",
     "de_plural": "die Testpersonen",
-    "lv": "Osoba próbna",
+    "lv": "osoba badana",
     "level": "B2"
   },
   {
     "de": "texten",
-    "lv": "Napisz tekst piosenki lub reklamy",
+    "lv": "pisać teksty",
     "level": "B2"
   },
   {
     "de": "These",
     "de_article": "die",
     "de_plural": "die Thesen",
-    "lv": "Praca",
+    "lv": "teza",
     "level": "B2"
   },
   {
     "de": "Tiefsinn",
     "de_article": "der",
-    "lv": "Zamyślenie",
+    "lv": "głębia myśli",
     "level": "B2"
   },
   {
     "de": "Tollwut",
     "de_article": "die",
-    "lv": "Wścieklizna",
+    "lv": "wścieklizna",
     "level": "B2"
   },
   {
     "de": "tönen",
-    "lv": "Brzmieć • Tonować • Dawać cień",
+    "lv": "brzmieć • barwić",
     "level": "B2"
   },
   {
     "de": "Töpferscheibe",
     "de_article": "die",
     "de_plural": "die Töpferscheiben",
-    "lv": "Koło garncarskie",
+    "lv": "koło garncarskie",
     "level": "B2"
   },
   {
     "de": "Tor",
     "de_article": "der",
     "de_plural": "die Toren",
-    "lv": "Głupiec • Nelga",
+    "lv": "głupiec",
     "level": "B2"
   },
   {
     "de": "Totalschaden",
     "de_article": "der",
     "de_plural": "die Totalschäden",
-    "lv": "Uszkodzenia pojazdu, których po wypadku nie da się naprawić",
+    "lv": "szkoda całkowita",
     "level": "B2"
   },
   {
     "de": "Totenschein",
     "de_article": "der",
     "de_plural": "die Totenscheine",
-    "lv": "Akt zgonu",
+    "lv": "akt zgonu • karta zgonu",
     "level": "B2"
   },
   {
     "de": "totschießen",
-    "lv": "Strzelać",
+    "lv": "zastrzelić",
     "level": "B2"
   },
   {
     "de": "totschlagen",
-    "lv": "Strącać",
+    "lv": "zatłuc • zabić",
     "level": "B2"
   },
   {
     "de": "Trabant",
     "de_article": "der",
     "de_plural": "die Trabanten",
-    "lv": "Astr. towarzysz",
+    "lv": "satelita",
     "level": "B2"
   },
   {
     "de": "Tragbahre",
     "de_article": "die",
     "de_plural": "die Tragbahren",
-    "lv": "Nosze",
+    "lv": "nosze",
     "level": "B2"
   },
   {
     "de": "Trägerrakete",
     "de_article": "die",
     "de_plural": "die Trägerraketen",
-    "lv": "Wyrzutnia",
+    "lv": "rakieta nośna",
     "level": "B2"
   },
   {
     "de": "Transit",
     "de_article": "der",
     "de_plural": "die Transite",
-    "lv": "Tranzyt",
+    "lv": "tranzyt",
     "level": "B2"
   },
   {
     "de": "Transvestit",
     "de_article": "der",
     "de_plural": "die Transvestiten",
-    "lv": "Transwestyta",
+    "lv": "transwestyta",
     "level": "B2"
   },
   {
     "de": "Trauma",
     "de_article": "das",
     "de_plural": "die Traumen",
-    "lv": "Uraz",
+    "lv": "uraz • trauma",
     "level": "B2"
   },
   {
     "de": "treffend",
-    "lv": "Trafny • Znaczący",
+    "lv": "trafny",
     "level": "B2"
   },
   {
     "de": "Tretmine",
     "de_article": "die",
     "de_plural": "die Tretminen",
-    "lv": "Mina przeciwpiechotna",
+    "lv": "mina przeciwpiechotna",
     "level": "B2"
   },
   {
     "de": "treuherzig",
-    "lv": "Serdeczny • Serdeczny",
+    "lv": "prostoduszny • ufny • serdeczny",
     "level": "B2"
   },
   {
     "de": "treulos",
-    "lv": "Nierzetelny • Niegodny zaufania",
+    "lv": "niewierny • nielojalny",
     "level": "B2"
   },
   {
     "de": "Triebkraft",
     "de_article": "die",
-    "lv": "Siła napędowa",
+    "lv": "siła napędowa",
     "level": "B2"
   },
   {
     "de": "Triumphbogen",
     "de_article": "der",
     "de_plural": "die Triumphbögen",
-    "lv": "Brama triumfalna",
+    "lv": "łuk triumfalny",
     "level": "B2"
   },
   {
     "de": "Triumphzug",
     "de_article": "der",
     "de_plural": "die Triumphzüge",
-    "lv": "Procesja triumfalna",
+    "lv": "pochód triumfalny",
     "level": "B2"
   },
   {
     "de": "Trockenlegung",
     "de_article": "die",
     "de_plural": "die Trockenlegungen",
-    "lv": "Drenaż",
+    "lv": "osuszanie",
     "level": "B2"
   },
   {
     "de": "Trommelfell",
     "de_article": "das",
     "de_plural": "die Trommelfelle",
-    "lv": "Bębenek ucha",
+    "lv": "błona bębenkowa",
     "level": "B2"
   },
   {
     "de": "trügen",
-    "lv": "Oszukać • Oszukać",
+    "lv": "mylić • zwodzić",
     "level": "B2"
   },
   {
     "de": "trügerisch",
-    "lv": "Oszukańczy • Oszukańczy",
+    "lv": "zwodniczy • złudny",
     "level": "B2"
   },
   {
     "de": "Tugend",
     "de_article": "die",
     "de_plural": "die Tugenden",
-    "lv": "Cnota",
+    "lv": "cnota",
     "level": "B2"
   },
   {
     "de": "Tusch",
     "de_article": "der",
     "de_plural": "die Tusche",
-    "lv": "Fanfara",
+    "lv": "fanfara",
     "level": "B2"
   },
   {
     "de": "überbringen",
-    "lv": "Dostarczyć wiadomość • Pozdrowienia • List • Prezent",
-    "level": "B2"
+    "lv": "doręczyć • przekazać",
+    "level": "B2",
+    "study": {
+      "id": "b2--berbringen",
+      "layout": "standardStudy",
+      "translation": "doręczyć • przekazać",
+      "explanation": [
+        "Główna myśl: überbringen znaczy dostarczyć adresatowi powierzoną wiadomość, gratulacje, list lub prezent — przynieść i przekazać osobiście. Osoba, której się coś przekazuje, stoi w celowniku: jemandem etwas überbringen.",
+        "Nierozdzielny przedrostek über-: überbringt, überbrachte, hat überbracht. W bezokoliczniku zu stoi przed czasownikiem: um die Nachricht zu überbringen. Słowo jest nieco formalne."
+      ],
+      "examples": [
+        {
+          "de": "Er überbrachte uns die traurige Nachricht.",
+          "lv": "Przekazał nam smutną wiadomość."
+        },
+        {
+          "de": "Der Botschafter überbringt die Glückwünsche des Präsidenten.",
+          "lv": "Ambasador przekazuje gratulacje od prezydenta."
+        },
+        {
+          "de": "Der Bote hat den Brief persönlich überbracht.",
+          "lv": "Posłaniec osobiście doręczył list."
+        },
+        {
+          "de": "Sie überbrachte dem Jubilar ein Geschenk.",
+          "lv": "Wręczyła jubilatowi prezent."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "bringen",
+          "meaning": "przynieść",
+          "example": "Bring mir bitte ein Glas Wasser. – Przynieś mi, proszę, szklankę wody."
+        },
+        {
+          "word": "übermitteln",
+          "meaning": "przekazać",
+          "example": "Ich übermittle Ihnen die Daten. – Przekazuję Panu dane."
+        },
+        {
+          "word": "ausrichten",
+          "meaning": "przekazać (pozdrowienia)",
+          "example": "Richte ihm Grüße aus. – Przekaż mu pozdrowienia."
+        }
+      ],
+      "tip": [
+        "Typowe dopełnienia: eine Nachricht, Grüße, Glückwünsche, ein Geschenk überbringen.",
+        "W rozmowie prościej mówi się ausrichten (o pozdrowieniach) lub bringen."
+      ],
+      "important": [
+        "Przedrostek über- jest tu nierozdzielny: Er überbringt die Nachricht, a nie er bringt die Nachricht über.",
+        "Osoba, której się coś przekazuje, stoi w celowniku: dem Chef, den Eltern."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "überbringen",
+            "überbringt",
+            "überbrachte",
+            "überbracht"
+          ],
+          "purple": [
+            "gratulacje",
+            "list",
+            "prezent",
+            "przekazać"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "überbrachte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Przekazał"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "überbringt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "przekazuje",
+                "gratulacje"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "überbracht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "doręczył"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "überbrachte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Wręczyła"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "bringen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "przynieść"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "übermitteln"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "przekazać"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "ausrichten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "przekazać"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "überbringen"
+            ]
+          },
+          {
+            "green": [
+              "bringen",
+              "ausrichten"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "überbringt"
+            ]
+          },
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "Übereinkommen",
     "de_article": "das",
-    "lv": "Umowa • Układ",
+    "lv": "porozumienie • umowa",
     "level": "B2"
   },
   {
     "de": "überfahren",
-    "lv": "Przejechać • Lekko przejechać",
+    "lv": "przejechać",
     "level": "B2"
   },
   {
     "de": "überfallen",
-    "lv": "Nagle zaatakować",
+    "lv": "napaść",
     "level": "B2"
   },
   {
     "de": "Überfluss",
     "de_article": "der",
     "de_plural": null,
-    "lv": "Obfitość",
+    "lv": "obfitość • nadmiar",
     "level": "B2"
   },
   {
     "de": "überfordern",
-    "lv": "Stawiać nadmierne wymagania",
+    "lv": "przeciążać • wymagać za dużo",
     "level": "B2"
   },
   {
     "de": "überführen",
-    "lv": "Przewieźć • Przeprawić się przez rzekę",
+    "lv": "przewieźć • przeprawić",
     "level": "B2"
   },
   {
     "de": "übergehen",
-    "lv": "Przeoczyć • Zignorować • Pominąć",
+    "lv": "pominąć • zignorować • przeoczyć",
     "level": "B2"
   },
   {
     "de": "überhören",
-    "lv": "Nie słyszeć z powodu nieostrożności • Udawać, że nie słyszy",
+    "lv": "nie dosłyszeć • puścić mimo uszu",
     "level": "B2"
   },
   {
     "de": "überlassen",
-    "lv": "Pozostawić do czyjejś dyspozycji • Pozwolić na wybór",
+    "lv": "pozostawić • oddać do dyspozycji",
     "level": "B2"
   },
   {
     "de": "Überlastung",
     "de_article": "die",
     "de_plural": "die Überlastungen",
-    "lv": "Przeciążać",
+    "lv": "przeciążenie",
     "level": "B2"
   },
   {
     "de": "Überlegung",
     "de_article": "die",
     "de_plural": "die Überlegungen",
-    "lv": "Refleksja • Rozważenie • Rozważenie",
+    "lv": "zastanowienie • rozważanie • namysł",
     "level": "B2"
   },
   {
     "de": "übermitteln",
-    "lv": "Dostarczyć • Wysłać list",
+    "lv": "przekazać • przesłać",
     "level": "B2"
   },
   {
     "de": "Übermüdung",
     "de_article": "die",
     "de_plural": "die Übermüdungen",
-    "lv": "Wyczerpanie",
+    "lv": "przemęczenie",
     "level": "B2"
   },
   {
     "de": "überschätzen",
-    "lv": "Przeszacować",
+    "lv": "przeceniać",
     "level": "B2"
   },
   {
     "de": "überschreiten",
-    "lv": "Przejść • Przekroczyć",
+    "lv": "przekroczyć • naruszyć",
     "level": "B2"
   },
   {
     "de": "übersichtlich",
-    "lv": "Przezroczysty",
+    "lv": "przejrzysty",
     "level": "B2"
   },
   {
     "de": "übersiedeln",
-    "lv": "Przenieść się w inne miejsce • Zmienić miejsce zamieszkania",
+    "lv": "przeprowadzić się",
     "level": "B2"
   },
   {
     "de": "überstehen",
-    "lv": "Znosić • Znosić kłopoty",
+    "lv": "przetrwać • wytrzymać",
     "level": "B2"
   },
   {
     "de": "übertragen",
-    "lv": "Transmitować • Transmitować choroby zakaźne • Transmitować przez radio • [re]tłumaczyć",
+    "lv": "przenosić • transmitować • przetłumaczyć",
     "level": "B2"
   },
   {
     "de": "übertreten",
-    "lv": "Łamać prawo • Naruszać coś",
+    "lv": "naruszyć • przekroczyć",
     "level": "B2"
   },
   {
     "de": "überwältigen",
-    "lv": "Pokonać • Pokonać",
+    "lv": "obezwładnić • pokonać",
     "level": "B2"
   },
   {
     "de": "ultimativ",
-    "lv": "Ostateczny",
+    "lv": "ultymatywny",
     "level": "B2"
   },
   {
     "de": "Ultraschall",
     "de_article": "der",
-    "lv": "Ultradźwięk",
+    "lv": "ultradźwięki",
     "level": "B2"
   },
   {
     "de": "umarbeiten",
-    "lv": "Poddać recyklingowi • Przerobić",
+    "lv": "przerobić",
     "level": "B2"
   },
   {
     "de": "Umbruch",
     "de_article": "der",
     "de_plural": "die Umbrüche",
-    "lv": "Wielka zmiana w polityce",
+    "lv": "przełom • przewrót",
     "level": "B2"
   },
   {
     "de": "umdenken",
-    "lv": "Zmieniać zdanie w zależności od sytuacji",
+    "lv": "zmienić sposób myślenia",
     "level": "B2"
   },
   {
     "de": "umfassen",
-    "lv": "Obejmować • Obejmować • Obejmować",
+    "lv": "obejmować • otaczać",
     "level": "B2"
   },
   {
     "de": "Umfeld",
     "de_article": "das",
     "de_plural": "die Umfelder",
-    "lv": "Środowisko społeczne • Polityczne",
+    "lv": "otoczenie • środowisko",
     "level": "B2"
   },
   {
     "de": "umgestalten",
-    "lv": "Przekształcać",
+    "lv": "przekształcić • przebudować",
     "level": "B2"
   },
   {
     "de": "umhören, sich",
-    "lv": "Słuchać",
+    "lv": "popytać • rozpytać się",
     "level": "B2"
   },
   {
     "de": "Umkreis",
     "de_article": "der",
     "de_plural": "die Umkreise",
-    "lv": "Sąsiedztwo",
+    "lv": "okolica • otoczenie",
     "level": "B2"
   },
   {
     "de": "umkreisen",
-    "lv": "Otoczyć • Oblegać • Unosić się w powietrzu • Wystrzelić • Krąg",
+    "lv": "krążyć • okrążać • otaczać",
     "level": "B2"
   },
   {
     "de": "Umlauf",
     "de_article": "der",
     "de_plural": "die Umläufe",
-    "lv": "Krążynie • Krążenie",
+    "lv": "obieg • krążenie",
     "level": "B2"
   },
   {
     "de": "Umlaufbahn",
     "de_article": "die",
     "de_plural": "die Umlaufbahnen",
-    "lv": "Orbita",
+    "lv": "orbita",
     "level": "B2"
   },
   {
     "de": "Umriss",
     "de_article": "der",
     "de_plural": "die Umrisse",
-    "lv": "Kontur",
+    "lv": "zarys • kontur",
     "level": "B2"
   },
   {
     "de": "umschließen",
-    "lv": "Włącz • Obejmuj • Obejmuj",
+    "lv": "otaczać • obejmować • zamykać",
     "level": "B2"
   },
   {
     "de": "umschreiben",
-    "lv": "Opisać",
+    "lv": "opisać • omówić",
     "level": "B2"
   },
   {
     "de": "umschulen",
-    "lv": "Uczyć ludzi wykonujących jedną pracę inną pracę • Przekwalifikować się",
+    "lv": "przekwalifikować",
     "level": "B2"
   },
   {
     "de": "Umschwung",
     "de_article": "der",
     "de_plural": "die Umschwünge",
-    "lv": "Odwrócenie • Przerwa • Nagła zmiana • Odwrócenie • Zwrot",
+    "lv": "zwrot • przełom • przewrót",
     "level": "B2"
   },
   {
     "de": "Umsicht",
     "de_article": "die",
-    "lv": "Ostrożność • Ostrożność",
+    "lv": "rozwaga • przezorność",
     "level": "B2"
   },
   {
     "de": "umsiedeln",
-    "lv": "Zostać przymusowo przeniesiony do innego miejsca zamieszkania",
+    "lv": "przesiedlić",
     "level": "B2"
   },
   {
     "de": "umständlich",
-    "lv": "Bardzo szczegółowe • Zbyt szerokie • Uciążliwe • Skomplikowane",
+    "lv": "drobiazgowy • kłopotliwy • skomplikowany",
     "level": "B2"
   },
   {
     "de": "Umsturz",
     "de_article": "der",
     "de_plural": "die Umstürze",
-    "lv": "Pucz",
+    "lv": "przewrót • pucz",
     "level": "B2"
   },
   {
     "de": "umwandeln",
-    "lv": "Konwertować • Konwertować",
+    "lv": "przekształcić • zamienić",
     "level": "B2"
   },
   {
     "de": "umwickeln",
-    "lv": "Owinąć • Owinąć",
+    "lv": "owinąć",
     "level": "B2"
   },
   {
     "de": "unangebracht",
-    "lv": "Nie na miejscu",
+    "lv": "niestosowny • nie na miejscu",
     "level": "B2"
   },
   {
     "de": "unanständig",
-    "lv": "Niegrzeczny • Zachował się niewłaściwie",
+    "lv": "nieprzyzwoity • niegrzeczny",
     "level": "B2"
   },
   {
     "de": "unaufhörlich",
-    "lv": "Ciągły • Nieustanny",
+    "lv": "nieustanny • ciągły",
     "level": "B2"
   },
   {
     "de": "unbarmherzig",
-    "lv": "Okrutny • Bez serca",
+    "lv": "bezlitosny • okrutny",
     "level": "B2"
   },
   {
     "de": "unbebaut",
-    "lv": "Nieuprawiane dla gruntów • Niezabudowane",
+    "lv": "niezabudowany • nieuprawny",
     "level": "B2"
   },
   {
     "de": "unbedacht",
-    "lv": "Bezmyślny • Pochopny • Nieostrożny",
+    "lv": "nierozważny • pochopny • nieprzemyślany",
     "level": "B2"
   },
   {
     "de": "unbegreiflich",
-    "lv": "Niezgłębiony • Niezrozumiały",
+    "lv": "niepojęty • niezrozumiały",
     "level": "B2"
   },
   {
     "de": "unbegründet",
-    "lv": "Bezpodstawne • Bezpodstawne",
+    "lv": "bezpodstawny • nieuzasadniony",
     "level": "B2"
   },
   {
     "de": "unbehaglich",
-    "lv": "Niespokojny",
+    "lv": "nieprzytulny • nieprzyjemny",
     "level": "B2"
   },
   {
     "de": "unbekümmert",
-    "lv": "Beztroski",
+    "lv": "beztroski",
     "level": "B2"
   },
   {
     "de": "unbemerkbar",
-    "lv": "Niedostrzegalny",
+    "lv": "niezauważalny • niedostrzegalny",
     "level": "B2"
   },
   {
     "de": "unberechenbar",
-    "lv": "Nieobliczalny",
+    "lv": "nieobliczalny • nieprzewidywalny",
     "level": "B2"
   },
   {
     "de": "unbeschränkt",
-    "lv": "Nieograniczony",
+    "lv": "nieograniczony",
     "level": "B2"
   },
   {
     "de": "unbestechlich",
-    "lv": "Nieprzekupny",
+    "lv": "nieprzekupny",
     "level": "B2"
   },
   {
     "de": "unbewusst",
-    "lv": "Nieświadomy • Instynktowny • Niezamierzony • Niezamierzony",
+    "lv": "nieświadomy • instynktowny • mimowolny",
     "level": "B2"
   },
   {
     "de": "undenkbar",
-    "lv": "Niewyobrażalny",
+    "lv": "nie do pomyślenia • niewyobrażalny",
     "level": "B2"
   },
   {
     "de": "unentbehrlich",
-    "lv": "Niezbędny",
+    "lv": "niezbędny • nieodzowny",
     "level": "B2"
   },
   {
     "de": "unentgeltlich",
-    "lv": "Bez wynagrodzenia • Bezpłatnie • Za darmo",
+    "lv": "nieodpłatny • bezpłatny • za darmo",
     "level": "B2"
   },
   {
     "de": "unerhört",
-    "lv": "Niespotykane",
+    "lv": "niesłychany",
     "level": "B2"
   },
   {
     "de": "unerträglich",
-    "lv": "Nie do zniesienia • Nie do zniesienia",
+    "lv": "nieznośny • nie do zniesienia",
     "level": "B2"
   },
   {
     "de": "Unfug",
     "de_article": "der",
     "de_plural": "die Unfuge",
-    "lv": "Występek • Nieobecność • Sprośny czyn",
+    "lv": "wybryk • psota • bzdura",
     "level": "B2"
   },
   {
     "de": "ungeachtet",
-    "lv": "Pomimo • Choć",
+    "lv": "pomimo • mimo",
     "level": "B2"
   },
   {
     "de": "ungerade",
-    "lv": "Nie całkiem proste • Krzywe • Dziwne",
+    "lv": "krzywy • nieparzysty",
     "level": "B2"
   },
   {
     "de": "Union",
     "de_article": "die",
     "de_plural": "die Unionen",
-    "lv": "Związek • Związek",
+    "lv": "unia • związek",
     "level": "B2"
   },
   {
     "de": "Unkosten",
     "de_article": "die",
-    "lv": "Wydatki",
+    "lv": "koszty • wydatki",
     "level": "B2"
   },
   {
     "de": "unmenschlich",
-    "lv": "Nieludzki • Nieludzki",
+    "lv": "nieludzki",
     "level": "B2"
   },
   {
     "de": "unnütz",
-    "lv": "Bezużyteczny • Niepotrzebny • Daremny",
+    "lv": "bezużyteczny • niepotrzebny • daremny",
     "level": "B2"
   },
   {
     "de": "Unstimmigkeit",
     "de_article": "die",
     "de_plural": "die Unstimmigkeiten",
-    "lv": "Nieporozumienia",
+    "lv": "nieporozumienie • rozbieżność",
     "level": "B2"
   },
   {
     "de": "unterbreiten",
-    "lv": "Wyjaśnić • Obecny",
+    "lv": "przedstawić • przedłożyć",
     "level": "B2"
   },
   {
     "de": "unterdrücken",
-    "lv": "Tłumić • Tłumić",
+    "lv": "tłumić • uciskać",
     "level": "B2"
   },
   {
     "de": "untereinander",
-    "lv": "Między sobą • Wzajemnie",
+    "lv": "między sobą • wzajemnie",
     "level": "B2"
   },
   {
     "de": "Untergang",
     "de_article": "der",
     "de_plural": "die Untergänge",
-    "lv": "Upadek • Upadek • Upadek • Upadek",
+    "lv": "zachód • upadek • zagłada",
     "level": "B2"
   },
   {
     "de": "Untergrund",
     "de_article": "der",
     "de_plural": "die Untergründe",
-    "lv": "Podziemny",
+    "lv": "podziemie",
     "level": "B2"
   },
   {
     "de": "Unterhalt",
     "de_article": "der",
-    "lv": "Podaż • Podaż • Podaż",
+    "lv": "utrzymanie • alimenty",
     "level": "B2"
   },
   {
     "de": "unterirdisch",
-    "lv": "Podziemny-",
+    "lv": "podziemny",
     "level": "B2"
   },
   {
     "de": "unterjochen",
-    "lv": "Podporządkować",
+    "lv": "ujarzmić • podbić",
     "level": "B2"
   },
   {
     "de": "Unterlage",
     "de_article": "die",
     "de_plural": "die Unterlagen",
-    "lv": "Trwałe • Mata • Podkładka • Podpórka • Dane • Dokumentacja",
-    "level": "B2"
+    "lv": "podkładka • podstawa • dokumentacja",
+    "level": "B2",
+    "study": {
+      "id": "b2-unterlage",
+      "layout": "standardStudy",
+      "translation": "podkładka • podstawa • dokumentacja",
+      "explanation": [
+        "Główna myśl: die Unterlage to rzeczownik rodzaju żeńskiego. W liczbie pojedynczej to coś, co leży pod czymś — podkładka, podłoże, podstawa, oparcie (eine Unterlage zum Schreiben). W liczbie mnogiej die Unterlagen oznacza dokumenty, materiały, dokumentację.",
+        "Liczba mnoga to die Unterlagen i bardzo często używa się właśnie jej: die Unterlagen einreichen (złożyć dokumenty), Unterlagen anfordern (zażądać dokumentów). Znaczeniowo liczba pojedyncza i mnoga dość się różnią, dlatego zwracaj uwagę na kontekst."
+      ],
+      "examples": [
+        {
+          "de": "Als Unterlage verwenden wir ein Brett.",
+          "lv": "Jako podkładki używamy deski."
+        },
+        {
+          "de": "Die Matte dient als Unterlage für die Übungen.",
+          "lv": "Mata służy jako podłoże do ćwiczeń."
+        },
+        {
+          "de": "Bitte reichen Sie die Unterlagen bis Freitag ein.",
+          "lv": "Proszę złożyć dokumentację do piątku."
+        },
+        {
+          "de": "Er hat alle Unterlagen für den Antrag gesammelt.",
+          "lv": "Zebrał wszystkie dokumenty do wniosku."
+        },
+        {
+          "de": "Eine feste Unterlage stützt das Werkstück.",
+          "lv": "Solidna podstawa podtrzymuje obrabiany przedmiot."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "das Dokument",
+          "meaning": "dokument",
+          "example": "Das Dokument ist wichtig. – Dokument jest ważny."
+        },
+        {
+          "word": "die Grundlage",
+          "meaning": "podstawa",
+          "example": "Das ist die Grundlage des Vertrags. – To jest podstawa umowy."
+        },
+        {
+          "word": "der Untersetzer",
+          "meaning": "podstawka (pod naczynie)",
+          "example": "Stell das Glas auf den Untersetzer. – Postaw szklankę na podstawce."
+        }
+      ],
+      "tip": [
+        "W odniesieniu do papierów i w kontekście biurowym prawie zawsze używa się liczby mnogiej: Unterlagen.",
+        "To, co kładzie się pod przedmiot, nazywa się Unterlage; to, co stawia się pod szklankę — Untersetzer."
+      ],
+      "important": [
+        "Unterlagen to nie jeden dokument, lecz zbiór dokumentów; jeden dokument to das Dokument.",
+        "Nie myl z Grundlage (podstawa, baza): to szersze, bardziej abstrakcyjne słowo."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "die Unterlage",
+            "Unterlage",
+            "Unterlagen"
+          ],
+          "purple": [
+            "podkładka",
+            "podłoże",
+            "dokumenty",
+            "dokumentację",
+            "oparcie"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Unterlage"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "podkładki"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Unterlage"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "podłoże"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Unterlagen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "dokumentację"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Unterlagen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "dokumenty"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Unterlage"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "podstawa"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "das Dokument"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "dokument"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Grundlage"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "podstawa"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Untersetzer"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "podstawka"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "Unterlagen"
+            ]
+          },
+          {
+            "blue": [
+              "Unterlage"
+            ],
+            "green": [
+              "Untersetzer"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "Unterlagen"
+            ],
+            "green": [
+              "das Dokument",
+              "Dokument"
+            ]
+          },
+          {
+            "green": [
+              "Grundlage"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "unterlassen",
-    "lv": "Przestać coś robić • Nie robić",
+    "lv": "zaniechać • zaprzestać",
     "level": "B2"
   },
   {
     "de": "unterordnen",
-    "lv": "Podrzędny • Podmiot",
+    "lv": "podporządkować",
     "level": "B2"
   },
   {
     "de": "unterschlagen",
-    "lv": "Do odpowiedniego",
+    "lv": "sprzeniewierzyć • przywłaszczyć",
     "level": "B2"
   },
   {
     "de": "Unterstellung",
     "de_article": "die",
     "de_plural": "die Unterstellungen",
-    "lv": "Oszczerstwo",
+    "lv": "insynuacja • pomówienie",
     "level": "B2"
   },
   {
     "de": "Untertan",
     "de_article": "der",
     "de_plural": "die Untertanen",
-    "lv": "Obywatel",
+    "lv": "poddany",
     "level": "B2"
   },
   {
     "de": "untertauchen",
-    "lv": "Nurkować • Zanurzać się pod wodą • Zanurzać się • Zanurzać się",
+    "lv": "zanurkować • zanurzyć się • zanurzyć",
     "level": "B2"
   },
   {
     "de": "unterweisen",
-    "lv": "Pokaż • Poinstruuj",
+    "lv": "instruować • pouczać",
     "level": "B2"
   },
   {
     "de": "unterwerfen",
-    "lv": "Podlega",
+    "lv": "podporządkować • podbić",
     "level": "B2"
   },
   {
     "de": "sich unterwerfen",
-    "lv": "Być posłusznym",
+    "lv": "podporządkować się • poddać się",
     "level": "B2"
   },
   {
     "de": "untragbar",
-    "lv": "Nie do przyjęcia • Nie do zniesienia",
+    "lv": "nie do przyjęcia • nie do zniesienia",
     "level": "B2"
   },
   {
     "de": "unüberlegt",
-    "lv": "Lekkomyślny • Lekkomyślny",
+    "lv": "nierozważny • lekkomyślny",
     "level": "B2"
   },
   {
     "de": "unvermeidlich",
-    "lv": "Nieuchronne • Nieuniknione",
+    "lv": "nieunikniony • nieuchronny",
     "level": "B2"
   },
   {
     "de": "unverzeihlich",
-    "lv": "Nieprzebaczalny",
+    "lv": "niewybaczalny",
     "level": "B2"
   },
   {
     "de": "unwiderlegbar",
-    "lv": "Niezaprzeczalny • Bezsporny",
+    "lv": "niezbity • bezsporny",
     "level": "B2"
   },
   {
     "de": "unwillkürlich",
-    "lv": "Nieświadomy • Niezamierzony • Nieświadomy",
+    "lv": "mimowolny • odruchowy",
     "level": "B2"
   },
   {
     "de": "unzählig",
-    "lv": "Bez liku",
+    "lv": "niezliczony",
     "level": "B2"
   },
   {
     "de": "unzulässig",
-    "lv": "Niedopuszczalny",
+    "lv": "niedopuszczalny",
     "level": "B2"
   },
   {
     "de": "üppig",
-    "lv": "Obfity • Pulchny",
+    "lv": "bujny • obfity",
     "level": "B2"
   },
   {
     "de": "Urheber",
     "de_article": "der",
     "de_plural": "die Urheber",
-    "lv": "Inicjator • Inicjator • Autor",
+    "lv": "sprawca • inicjator • autor",
     "level": "B2"
   },
   {
     "de": "Urheberrecht",
     "de_article": "das",
     "de_plural": "die Urheberrechte",
-    "lv": "Prawo autorskie",
+    "lv": "prawo autorskie",
     "level": "B2"
   },
   {
     "de": "Urkunde",
     "de_article": "die",
     "de_plural": "die Urkunden",
-    "lv": "Dokument • Artykuł",
+    "lv": "dokument • akt",
     "level": "B2"
   },
   {
     "de": "Ursprung",
     "de_article": "der",
     "de_plural": "die Ursprünge",
-    "lv": "Pochodzenie • Pochodzenie • [pre]początek",
+    "lv": "pochodzenie • źródło • początek",
     "level": "B2"
   },
   {
     "de": "ursprünglich",
-    "lv": "Wstępny",
+    "lv": "pierwotny • początkowy",
     "level": "B2"
   },
   {
     "de": "vage",
-    "lv": "Niejasne • Nieprecyzyjne",
+    "lv": "niejasny • mglisty",
     "level": "B2"
   },
   {
     "de": "väterlich",
-    "lv": "Ojcowski- • Ojcowski",
+    "lv": "ojcowski",
     "level": "B2"
   },
   {
     "de": "verachten",
-    "lv": "Gardzić • Pogardą",
+    "lv": "gardzić • pogardzać",
     "level": "B2"
   },
   {
     "de": "veraltet",
-    "lv": "Przestarzały",
+    "lv": "przestarzały",
     "level": "B2"
   },
   {
     "de": "Veranlagung",
     "de_article": "die",
     "de_plural": "die Veranlagungen",
-    "lv": "Talenty • Zdolności",
+    "lv": "uzdolnienia • predyspozycje",
     "level": "B2"
   },
   {
     "de": "veranlassen",
-    "lv": "Powodować • Inicjować • Zachęcać",
+    "lv": "spowodować • skłonić • zainicjować",
     "level": "B2"
   },
   {
     "de": "verbittert",
-    "lv": "Zdenerwowany",
+    "lv": "zgorzkniały • rozgoryczony",
     "level": "B2"
   },
   {
     "de": "verborgen",
-    "lv": "Ukryty • Sekret",
+    "lv": "ukryty • tajny",
     "level": "B2"
   },
   {
     "de": "verdauen",
-    "lv": "Strawić",
+    "lv": "trawić",
     "level": "B2"
   },
   {
     "de": "Verdienst",
     "de_article": "der",
     "de_plural": "die Verdienste",
-    "lv": "Zasługa",
+    "lv": "zasługa",
     "level": "B2"
   },
   {
     "de": "Verdruss",
     "de_article": "der",
     "de_plural": "die Verdrusse",
-    "lv": "Niechęć • Rozczarowanie • Irytacja",
+    "lv": "przykrość • niezadowolenie • irytacja",
     "level": "B2"
   },
   {
     "de": "verdünnen",
-    "lv": "Rozcieńczyć • Chemię. rozcieńczyć • Osłabić",
+    "lv": "rozcieńczyć • rozrzedzić",
     "level": "B2"
   },
   {
     "de": "verehren",
-    "lv": "Honor • Szacunek • Komp. [do] oddania",
+    "lv": "czcić • szanować • podarować",
     "level": "B2"
   },
   {
     "de": "vereinigen",
-    "lv": "Połączyć • Połączyć",
+    "lv": "zjednoczyć • połączyć",
     "level": "B2"
   },
   {
     "de": "sich vereinigen",
-    "lv": "Połączyć się z",
+    "lv": "zjednoczyć się • połączyć się",
     "level": "B2",
     "study": {
       "id": "b2-sich-vereinigen",
-      "layout": "minimalStudy",
-      "translation": "Połączyć się z",
-      "rektion": "mit + kam?",
-      "explanation": "sich vereinigen wymaga przyimka określonego mit + kam?.",
-      "forms": "mit + kam?",
-      "formsLabel": "Kierownictwo:",
+      "layout": "standardStudy",
+      "translation": "zjednoczyć się • połączyć się",
+      "explanation": [
+        "Główna myśl: sich vereinigen znaczy zjednoczyć się, połączyć się — o państwach, partiach, firmach, siłach. Z mit + celownik podaje się partnera: sich mit einer Gruppe vereinigen. Rezultat wskazuje zu + celownik: sich zu einer Union vereinigen.",
+        "Formy: vereinigt sich, vereinigte sich, hat sich vereinigt. Bez sich czasownik vereinigen jest przechodni: Länder vereinigen — zjednoczyć państwa. Przykład w nazwie: die Vereinigten Staaten."
+      ],
+      "examples": [
+        {
+          "de": "Die beiden Firmen vereinigten sich zu einem Konzern.",
+          "lv": "Obie firmy połączyły się w jeden koncern."
+        },
+        {
+          "de": "Die Partei vereinigte sich mit einer kleineren Gruppe.",
+          "lv": "Partia połączyła się z mniejszą grupą."
+        },
+        {
+          "de": "Die Länder haben sich zu einer Union vereinigt.",
+          "lv": "Państwa zjednoczyły się w unię."
+        },
+        {
+          "de": "Alle Kräfte vereinigten sich gegen den Gegner.",
+          "lv": "Wszystkie siły zjednoczyły się przeciwko przeciwnikowi."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "vereinen",
+          "meaning": "łączyć, jednoczyć",
+          "example": "Das Fest vereint alle Generationen. – Święto łączy wszystkie pokolenia."
+        },
+        {
+          "word": "sich zusammenschließen",
+          "meaning": "łączyć się, zrzeszać się",
+          "example": "Die Firmen schließen sich zusammen. – Firmy się łączą."
+        },
+        {
+          "word": "fusionieren",
+          "meaning": "łączyć się (przez fuzję)",
+          "example": "Zwei Banken fusionieren. – Dwa banki łączą się w jeden."
+        }
+      ],
+      "tip": [
+        "Częste połączenie: sich zu etwas vereinigen (połączyć się w coś).",
+        "Na co dzień często prościej: sich zusammenschließen."
+      ],
+      "important": [
+        "Bliskie słowo vereinen (łączyć, jednoczyć) zwykle odnosi się do ludzi i uczuć, a vereinigen — częściej do organizacji i państw.",
+        "Po mit następuje celownik: mit der Partei, mit dem Nachbarn."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich vereinigen"
+            "vereinigen",
+            "vereinigt",
+            "vereinigte",
+            "Vereinigten",
+            "sich vereinigen",
+            "vereinigten"
           ],
-          "red": [
-            "mit + kam?"
+          "purple": [
+            "zjednoczyć się",
+            "zjednoczyć"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "vereinigten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "połączyły się"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "vereinigte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "połączyła się"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "vereinigt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "zjednoczyły się"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "vereinigten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "zjednoczyły się"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "vereinen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "jednoczyć"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich zusammenschließen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "zrzeszać się"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "fusionieren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "fuzję"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "vereinigen"
+            ]
+          },
+          {
+            "green": [
+              "sich zusammenschließen"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "vereinigen"
+            ],
+            "green": [
+              "vereinen"
+            ]
+          },
+          {}
+        ]
       }
     }
   },
@@ -12870,425 +24572,1075 @@ const B2_WORDS = [
     "de": "Vereinigung",
     "de_article": "die",
     "de_plural": "die Vereinigungen",
-    "lv": "Związek • Społeczeństwo • Sprzęgło",
+    "lv": "związek • stowarzyszenie • połączenie",
     "level": "B2"
   },
   {
     "de": "vererben",
-    "lv": "Pozostawić • Odziedziczyć",
+    "lv": "zostawić w spadku • zapisać",
     "level": "B2"
   },
   {
     "de": "Verfahren",
     "de_article": "das",
     "de_plural": "die Verfahren",
-    "lv": "Zachowanie • Zachowanie • Technika • Metoda • Jur. proces • Sprawa",
+    "lv": "metoda • postępowanie • proces",
     "level": "B2"
   },
   {
     "de": "Verfall",
     "de_article": "der",
     "de_plural": "die Verfälle",
-    "lv": "Upadek • Upadek • Upadek",
+    "lv": "rozpad • upadek",
     "level": "B2"
   },
   {
     "de": "verfallen",
-    "lv": "Upadek • Upadek • Upadek • Upadek",
+    "lv": "podupadać • rozpadać się • niszczeć",
     "level": "B2"
   },
   {
     "de": "Verfasser",
     "de_article": "der",
     "de_plural": "die Verfasser",
-    "lv": "Kompozytor • Autor",
+    "lv": "autor",
     "level": "B2"
   },
   {
     "de": "verfügen",
-    "lv": "Określić • Polecenie • Przypisać",
-    "level": "B2"
+    "lv": "zarządzić • polecić",
+    "level": "B2",
+    "study": {
+      "id": "b2-verf-gen",
+      "layout": "standardStudy",
+      "translation": "zarządzić • polecić",
+      "explanation": [
+        "Główna myśl: verfügen w tym znaczeniu to czasownik urzędowy: decyzją władzy lub instytucji zarządzić, nakazać lub polecić (eine Maßnahme verfügen). Podmiotem jest zwykle urząd, dyrektor, sąd lub władca.",
+        "Nierozdzielny przedrostek ver-: verfügt, verfügte, hat verfügt. Po nim może stać biernik (eine Ausgangssperre verfügen) lub zdanie z dass.",
+        "Osobna konstrukcja verfügen über + biernik oznacza, że ktoś ma coś do dyspozycji: über Erfahrung verfügen — mieć doświadczenie."
+      ],
+      "examples": [
+        {
+          "de": "Die Behörde verfügt eine Ausgangssperre.",
+          "lv": "Urząd zarządza godzinę policyjną."
+        },
+        {
+          "de": "Der König verfügte, dass das Tor geschlossen wird.",
+          "lv": "Król zarządził zamknięcie bramy."
+        },
+        {
+          "de": "Der Direktor verfügte die sofortige Schließung des Werks.",
+          "lv": "Dyrektor zarządził natychmiastowe zamknięcie zakładu."
+        },
+        {
+          "de": "Er verfügt über große Erfahrung.",
+          "lv": "Ma duże doświadczenie."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "anordnen",
+          "meaning": "zarządzić, polecić",
+          "example": "Der Arzt ordnet Ruhe an. – Lekarz zaleca odpoczynek."
+        },
+        {
+          "word": "bestimmen",
+          "meaning": "ustalać, określać",
+          "example": "Das Gesetz bestimmt die Frist. – Ustawa określa termin."
+        },
+        {
+          "word": "besitzen",
+          "meaning": "posiadać",
+          "example": "Er besitzt ein Haus. – Posiada dom."
+        }
+      ],
+      "tip": [
+        "W stylu urzędowym verfügen oznacza decyzję administracyjną, na co dzień zamiast tego mówi się anordnen lub bestimmen.",
+        "Wyrażenie Er verfügt über … znaczy ma …, i używa się go częściej niż pierwszego znaczenia."
+      ],
+      "important": [
+        "Nie myl verfügen (zarządzić) z verfügen über (dysponować, mieć coś): przyimek zmienia znaczenie.",
+        "Gdy verfügen znaczy zarządzić, przyimek über nie jest potrzebny."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "verfügen",
+            "verfügt",
+            "verfügte"
+          ],
+          "purple": [
+            "zarządzić",
+            "nakazać",
+            "polecić"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "verfügt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "zarządza"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verfügte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "zarządził"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verfügte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "zarządził"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verfügt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "duże doświadczenie"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "anordnen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "polecić"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "bestimmen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "określać"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "besitzen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "posiadać"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "verfügen"
+            ],
+            "green": [
+              "anordnen",
+              "bestimmen"
+            ]
+          },
+          {
+            "blue": [
+              "verfügt"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "verfügen"
+            ]
+          },
+          {
+            "blue": [
+              "verfügen"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Verfügung",
     "de_article": "die",
     "de_plural": "die Verfügungen",
-    "lv": "Zamówienie",
+    "lv": "zarządzenie • rozporządzenie",
     "level": "B2"
   },
   {
     "de": "verführen",
-    "lv": "Uwodzić • Uwodzić",
+    "lv": "uwodzić • kusić",
     "level": "B2"
   },
   {
     "de": "vergeblich",
-    "lv": "Próżny • Próżny",
+    "lv": "daremny • próżny",
     "level": "B2"
   },
   {
     "de": "Vergehen",
     "de_article": "das",
     "de_plural": "die Vergehen",
-    "lv": "Naruszenie",
+    "lv": "wykroczenie • przewinienie",
     "level": "B2"
   },
   {
     "de": "vergeuden",
-    "lv": "Marnować • Marnować",
+    "lv": "marnować • trwonić",
     "level": "B2"
   },
   {
     "de": "vergiften",
-    "lv": "Zatruć • Otruć",
+    "lv": "zatruć • otruć",
     "level": "B2"
   },
   {
     "de": "verhandeln",
-    "lv": "Omawiać • Negocjować",
+    "lv": "negocjować • omawiać",
     "level": "B2"
   },
   {
     "de": "verhasst",
-    "lv": "Znienawidzony • Niewidziany",
+    "lv": "znienawidzony • nienawistny",
     "level": "B2"
   },
   {
     "de": "verheeren",
-    "lv": "Zrujnować",
+    "lv": "spustoszyć • zniszczyć",
     "level": "B2"
   },
   {
     "de": "verhöhnen",
-    "lv": "Próbny • Wgniecenie",
+    "lv": "wyszydzać • drwić",
     "level": "B2"
   },
   {
     "de": "Verhör",
     "de_article": "das",
     "de_plural": "die Verhöre",
-    "lv": "[z] przesłuchania",
+    "lv": "przesłuchanie",
     "level": "B2"
   },
   {
     "de": "verhören",
-    "lv": "[o] przesłuchaniu",
+    "lv": "przesłuchiwać",
     "level": "B2"
   },
   {
     "de": "sich verhören",
-    "lv": "Posłuchaj jeszcze raz",
+    "lv": "przesłyszeć się",
     "level": "B2"
   },
   {
     "de": "verhüten",
-    "lv": "Zapobiegać • Chronić przed",
+    "lv": "zapobiegać",
     "level": "B2"
   },
   {
     "de": "Verlauf",
     "de_article": "der",
     "de_plural": "die Verläufe",
-    "lv": "Postęp • Postęp",
+    "lv": "przebieg • tok",
     "level": "B2"
   },
   {
     "de": "Verleger",
     "de_article": "der",
     "de_plural": "die Verleger",
-    "lv": "Wydawca",
+    "lv": "wydawca",
     "level": "B2"
   },
   {
     "de": "Verleih",
     "de_article": "der",
     "de_plural": "die Verleihe",
-    "lv": "Dzierżawa",
+    "lv": "wypożyczalnia • wynajem",
     "level": "B2"
   },
   {
     "de": "Vermächtnis",
     "de_article": "das",
     "de_plural": "die Vermächtnisse",
-    "lv": "Testament",
+    "lv": "spuścizna • testament • zapis",
     "level": "B2"
   },
   {
     "de": "Vermerk",
     "de_article": "der",
     "de_plural": "die Vermerke",
-    "lv": "Uwaga • Znak",
+    "lv": "adnotacja • notatka",
     "level": "B2"
   },
   {
     "de": "Vermögen",
     "de_article": "das",
     "de_plural": "die Vermögen",
-    "lv": "Nieruchomość",
+    "lv": "majątek",
     "level": "B2"
   },
   {
     "de": "Vermutung",
     "de_article": "die",
     "de_plural": "die Vermutungen",
-    "lv": "Założenie • Hipoteza",
+    "lv": "przypuszczenie • domysł • hipoteza",
     "level": "B2"
   },
   {
     "de": "Vernehmung",
     "de_article": "die",
     "de_plural": "die Vernehmungen",
-    "lv": "Przesłuchanie policji",
+    "lv": "przesłuchanie",
     "level": "B2"
   },
   {
     "de": "Verrat",
     "de_article": "der",
-    "lv": "Zdrada",
+    "lv": "zdrada",
     "level": "B2"
   },
   {
     "de": "Vers",
     "de_article": "der",
     "de_plural": "die Verse",
-    "lv": "Artykuł",
+    "lv": "wers • zwrotka",
     "level": "B2"
   },
   {
     "de": "Versager",
     "de_article": "der",
     "de_plural": "die Versager",
-    "lv": "Przegrany • Przegrany",
+    "lv": "nieudacznik • ofiara losu",
     "level": "B2"
   },
   {
     "de": "Verschluss",
     "de_article": "der",
     "de_plural": "die Verschlüsse",
-    "lv": "Zamykanie • Zamek",
+    "lv": "zamknięcie • zamek",
     "level": "B2"
   },
   {
     "de": "Versehen",
     "de_article": "das",
     "de_plural": "die Versehen",
-    "lv": "Błąd • Rewizja",
+    "lv": "pomyłka • przeoczenie",
     "level": "B2"
   },
   {
     "de": "verkommen",
-    "lv": "Odmówić • Zatonąć • Zejść na manowce",
+    "lv": "podupaść • zmarnieć • zejść na złą drogę",
     "level": "B2"
   },
   {
     "de": "verkörpern",
-    "lv": "Ucieleśnienie",
+    "lv": "uosabiać • ucieleśniać",
     "level": "B2"
   },
   {
     "de": "verkraften",
-    "lv": "Utrzymać siłę moralną, aby pokonać coś nieprzyjemnego",
+    "lv": "poradzić sobie • uporać się",
     "level": "B2"
   },
   {
     "de": "verkümmern",
-    "lv": "Odmówić",
+    "lv": "marnieć • zanikać",
     "level": "B2"
   },
   {
     "de": "verkünden",
-    "lv": "Ogłosić • Ogłosić",
+    "lv": "ogłosić • obwieścić",
     "level": "B2"
   },
   {
     "de": "verleumden",
-    "lv": "Oszczerstwo • Zniesławienie",
+    "lv": "oczerniać • zniesławiać",
     "level": "B2"
   },
   {
     "de": "vermehren",
-    "lv": "Mnożyć • Mnożyć",
+    "lv": "zwiększać • pomnażać",
     "level": "B2"
   },
   {
     "de": "sich vermehren",
-    "lv": "Mnożenie",
+    "lv": "rozmnażać się • mnożyć się",
     "level": "B2"
   },
   {
     "de": "vermessen",
-    "lv": "Zmierzyć",
+    "lv": "zmierzyć • wymierzyć",
     "level": "B2"
   },
   {
     "de": "vermindern",
-    "lv": "[aby] zmniejszyć",
+    "lv": "zmniejszyć • obniżyć",
     "level": "B2"
   },
   {
     "de": "vermitteln",
-    "lv": "Pośredniczyć • Pozyskiwać • Promować",
+    "lv": "pośredniczyć • załatwić • przekazywać",
     "level": "B2"
   },
   {
     "de": "vermögend",
-    "lv": "Bogaty • Nakarmiony",
+    "lv": "zamożny • bogaty",
     "level": "B2"
   },
   {
     "de": "verneinen",
-    "lv": "Zaprzeczyć",
+    "lv": "zaprzeczyć • zanegować",
     "level": "B2"
   },
   {
     "de": "vernichten",
-    "lv": "Niszczyć • Niszczyć",
+    "lv": "zniszczyć • unicestwić",
     "level": "B2"
   },
   {
     "de": "verordnen",
-    "lv": "Ustalić • Zamówić • Med. podpisać",
+    "lv": "zarządzić • przepisać",
     "level": "B2"
   },
   {
     "de": "verpfänden",
-    "lv": "Zastaw",
+    "lv": "zastawić",
     "level": "B2"
   },
   {
     "de": "verrechnen",
-    "lv": "Obliczać",
+    "lv": "rozliczyć • policzyć",
     "level": "B2"
   },
   {
     "de": "verrenken",
-    "lv": "Zwichnąć",
+    "lv": "zwichnąć",
     "level": "B2"
   },
   {
     "de": "versagen",
-    "lv": "Zaprzeczać • Odmawiać • Odrzucać • Być nieposłusznym • Odmawiać służenia • Sprawiać wrażenie tchórzliwego i bezsilnego",
+    "lv": "zawieść • odmówić • nie zadziałać",
     "level": "B2"
   },
   {
     "de": "sich versehen",
-    "lv": "Zapomnieć • Wyposażyć",
+    "lv": "pomylić się • przeoczyć",
     "level": "B2",
     "study": {
       "id": "b2-sich-versehen",
-      "layout": "minimalStudy",
-      "translation": "Zapomnieć • Wyposażyć",
-      "rektion": "mit + kam?",
-      "explanation": "sich verschein wymaga przyimka określonego mit + kam?.",
-      "forms": "mit + kam?",
-      "formsLabel": "Kierownictwo:",
+      "layout": "standardStudy",
+      "translation": "pomylić się • przeoczyć",
+      "explanation": [
+        "Główna myśl: sich versehen znaczy pomylić się, przeoczyć coś — nie dostrzec czegoś prawidłowo lub popełnić błąd przez nieuwagę (np. w dacie, w liczbie). Formy: versieht sich, versah sich, hat sich versehen.",
+        "Popularne wyrażenia: Wenn ich mich nicht versehe, … (jeśli się nie mylę, …) i ehe man sich versieht (zanim się człowiek obejrzy). Bez sich słowo versehen znaczy zaopatrzyć, opatrzyć (mit etwas versehen)."
+      ],
+      "examples": [
+        {
+          "de": "Ich habe mich beim Datum versehen.",
+          "lv": "Pomyliłem się w dacie."
+        },
+        {
+          "de": "Wenn ich mich nicht versehe, kommt dort Anna.",
+          "lv": "Jeśli się nie mylę, tam idzie Anna."
+        },
+        {
+          "de": "Ehe man sich versieht, ist der Sommer vorbei.",
+          "lv": "Zanim się człowiek obejrzy, lato już minęło."
+        },
+        {
+          "de": "Da hast du dich wohl versehen.",
+          "lv": "Chyba się pomyliłeś."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich irren",
+          "meaning": "mylić się",
+          "example": "Ich habe mich geirrt. – Pomyliłem się."
+        },
+        {
+          "word": "sich verlesen",
+          "meaning": "źle przeczytać",
+          "example": "Ich habe mich verlesen. – Źle przeczytałem."
+        },
+        {
+          "word": "versehen",
+          "meaning": "zaopatrzyć, opatrzyć",
+          "example": "Er versieht den Brief mit einer Marke. – Opatruje list znaczkiem."
+        }
+      ],
+      "tip": [
+        "Zwrotne sich versehen wyraża przypadkowy błąd: Ich habe mich versehen.",
+        "Za pomocą Wenn ich mich nicht versehe, … ostrożnie wyrażasz przypuszczenie."
+      ],
+      "important": [
+        "sich versehen nie oznacza wady wzroku, lecz przeoczenie lub pomyłkę.",
+        "Nie myl sich versehen (pomylić się) z versehen mit (zaopatrzyć w): tam nie ma sich."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich"
+            "sich versehen",
+            "versehen",
+            "versieht",
+            "versehe",
+            "versah",
+            "sich",
+            "mich"
           ],
-          "red": [
-            "mit + kam?"
+          "purple": [
+            "pomylić się",
+            "przeoczyć"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "mich",
+                "versehen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Pomyliłem się"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "mich",
+                "versehe"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nie mylę"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sich",
+                "versieht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "obejrzy"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "dich",
+                "versehen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pomyliłeś"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich irren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "mylić się"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich verlesen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "źle przeczytać"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "versehen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "zaopatrzyć"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "sich versehen",
+              "versehen",
+              "mich",
+              "sich"
+            ]
+          },
+          {
+            "blue": [
+              "versehe",
+              "mich"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "sich versehen",
+              "versehen",
+              "sich"
+            ]
+          },
+          {
+            "blue": [
+              "sich versehen",
+              "versehen",
+              "sich"
+            ]
+          }
+        ]
       }
     }
   },
   {
     "de": "versetzen",
-    "lv": "Ruszaj się • Poruszaj się",
+    "lv": "przenieść • przesunąć",
     "level": "B2"
   },
   {
     "de": "verseuchen",
-    "lv": "Zanieczyszczać",
+    "lv": "skazić • zanieczyścić",
     "level": "B2"
   },
   {
     "de": "versiegeln",
-    "lv": "Uszczelnić",
+    "lv": "zapieczętować • opieczętować",
     "level": "B2"
   },
   {
     "de": "versinken",
-    "lv": "Zatonąć",
+    "lv": "zatonąć • pogrążyć się",
     "level": "B2"
   },
   {
     "de": "versöhnen",
-    "lv": "Pogodzić",
+    "lv": "pogodzić • pojednać",
     "level": "B2"
   },
   {
     "de": "sich versöhnen",
-    "lv": "Znosić",
+    "lv": "pogodzić się • pojednać się",
     "level": "B2",
     "study": {
       "id": "b2-sich-versoehnen",
-      "layout": "minimalStudy",
-      "translation": "Znosić",
-      "rektion": "mit + kam?",
-      "explanation": "sich versöhnen wymaga przyimka określonego mit + kam?.",
-      "forms": "mit + kam?",
-      "formsLabel": "Kierownictwo:",
+      "layout": "standardStudy",
+      "translation": "pogodzić się • pojednać się",
+      "explanation": [
+        "Główna myśl: sich versöhnen znaczy pogodzić się po kłótni lub konflikcie — odnowić z kimś dobre relacje.",
+        "Czasownik jest zwrotny: ich versöhne mich, er versöhnt sich; w Präteritum er versöhnte sich, w Perfekt er hat sich versöhnt. Z kim się godzimy, wskazuje mit + celownik: sich mit jemandem versöhnen.",
+        "Czasownik może być też przechodni: jemanden versöhnen — pogodzić kogoś (z kimś innym)."
+      ],
+      "examples": [
+        {
+          "de": "Die Geschwister haben sich nach dem Streit versöhnt.",
+          "lv": "Rodzeństwo pogodziło się po kłótni."
+        },
+        {
+          "de": "Ich möchte mich mit dir versöhnen.",
+          "lv": "Chciałbym się z tobą pogodzić."
+        },
+        {
+          "de": "Er versöhnte sich mit seinem Vater.",
+          "lv": "Pogodził się ze swoim ojcem."
+        },
+        {
+          "de": "Wann versöhnt ihr euch endlich?",
+          "lv": "Kiedy wreszcie się pogodzicie?"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "verzeihen",
+          "meaning": "wybaczać",
+          "example": "Ich verzeihe dir. – Wybaczam ci."
+        },
+        {
+          "word": "sich vertragen",
+          "meaning": "dogadywać się, żyć w zgodzie",
+          "example": "Die Kinder vertragen sich gut. – Dzieci dobrze się dogadują."
+        }
+      ],
+      "tip": [
+        "Zapamiętaj parę: sich versöhnen mit + celownik. Osoba, z którą się godzimy, zawsze stoi po mit.",
+        "Przed pogodzeniem się zwykle jest kłótnia: sich streiten → sich versöhnen."
+      ],
+      "important": [
+        "W tym znaczeniu zwrotne sich jest obowiązkowe: ich versöhne mich, a nie ich versöhne.",
+        "Perfekt tworzy się z haben: er hat sich versöhnt."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich versöhnen"
+            "versöhnen",
+            "versöhne",
+            "versöhnt",
+            "sich versöhnen",
+            "versöhnte"
           ],
-          "red": [
-            "mit + kam?"
+          "purple": [
+            "pogodzić się"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "versöhnt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pogodziło się"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "versöhnen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pogodzić"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "versöhnte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Pogodził się"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "versöhnt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pogodzicie"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "verzeihen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "wybaczać"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich vertragen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "dogadywać się"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "sich versöhnen",
+              "versöhnen"
+            ]
+          },
+          {
+            "blue": [
+              "sich versöhnen",
+              "versöhnen"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "versöhne"
+            ]
+          },
+          {
+            "blue": [
+              "versöhnt"
+            ]
+          }
+        ]
       }
     }
   },
   {
     "de": "verspielen",
-    "lv": "Grać • Przegrać",
+    "lv": "przegrać • zaprzepaścić",
     "level": "B2"
   },
   {
     "de": "verspotten",
-    "lv": "Dent • Kpina",
+    "lv": "wyśmiewać • kpić",
     "level": "B2"
   },
   {
     "de": "verständig",
-    "lv": "Rozsądny • Rozsądny",
+    "lv": "rozsądny • rozważny",
     "level": "B2"
   },
   {
     "de": "verstauchen",
-    "lv": "Zwichnąć",
+    "lv": "skręcić • zwichnąć",
     "level": "B2"
   },
   {
     "de": "versteigern",
-    "lv": "Sprzedać na aukcji",
+    "lv": "sprzedać na licytacji • zlicytować",
     "level": "B2"
   },
   {
     "de": "sich verstellen",
-    "lv": "Personifikować",
+    "lv": "udawać",
     "level": "B2",
     "study": {
       "id": "b2-sich-verstellen",
-      "layout": "minimalStudy",
-      "translation": "Personifikować",
-      "rektion": "als + ko?",
-      "explanation": "sich verstellen wymaga przyimka określonego als + ko?.",
-      "forms": "als + ko?",
-      "formsLabel": "Kierownictwo:",
+      "layout": "standardStudy",
+      "translation": "udawać",
+      "explanation": [
+        "Główna myśl: sich verstellen znaczy udawać, zmieniać swoje zachowanie lub sposób bycia, aby inni nie zobaczyli prawdziwego charakteru lub uczuć. Człowiek nie jest wtedy naturalny.",
+        "Czasownik jest zwrotny: ich verstelle mich, er verstellt sich; w Präteritum verstellte sich, w Perfekt hat sich verstellt. Bez sich czasownik verstellen znaczy też przestawić lub zastawić (den Weg verstellen — zastawić drogę; den Sitz verstellen — wyregulować siedzenie), a także zmienić głos (die Stimme verstellen).",
+        "Znaczenie podawać się za kogoś (np. za lekarza) oddaje raczej połączenie sich ausgeben als; samo sich verstellen zwykle znaczy po prostu udawać."
+      ],
+      "examples": [
+        {
+          "de": "Er verstellt sich vor den Gästen und tut freundlich.",
+          "lv": "Przy gościach udaje i zachowuje się przyjaźnie."
+        },
+        {
+          "de": "Du musst dich nicht verstellen.",
+          "lv": "Nie musisz udawać."
+        },
+        {
+          "de": "Sie verstellte ihre Stimme am Telefon.",
+          "lv": "Przez telefon zmieniła głos."
+        },
+        {
+          "de": "Bei ihm weiß man nie, ob er sich verstellt.",
+          "lv": "U niego nigdy nie wiadomo, czy nie udaje."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich ausgeben als",
+          "meaning": "podawać się za",
+          "example": "Er gibt sich als Arzt aus. – Podaje się za lekarza."
+        },
+        {
+          "word": "so tun, als ob",
+          "meaning": "udawać, że",
+          "example": "Sie tut so, als ob sie schliefe. – Udaje, że śpi."
+        }
+      ],
+      "tip": [
+        "Jeśli chcesz powiedzieć podawać się za kogoś, używaj sich ausgeben als; sich verstellen jest ogólniejsze: nie być sobą.",
+        "Przydatne zdanie: Du brauchst dich nicht zu verstellen — nie musisz udawać."
+      ],
+      "important": [
+        "Nie myl z verstellen bez sich: Er verstellt den Weg znaczy, że on zastawia drogę."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich verstellen"
+            "verstellen",
+            "verstellt sich",
+            "verstelle mich",
+            "sich verstellen",
+            "verstellt",
+            "verstellte",
+            "verstelle"
           ],
-          "red": [
-            "als + ko?"
+          "purple": [
+            "udawać",
+            "podawać się za"
+          ],
+          "green": [
+            "sich ausgeben als"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "verstellt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "udaje"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verstellen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "udawać"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verstellte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "zmieniła"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verstellt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "udaje"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich ausgeben als"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "podawać się za"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "so tun, als ob"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "udawać"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "sich verstellen",
+              "verstellen"
+            ],
+            "green": [
+              "sich ausgeben als"
+            ]
+          },
+          {
+            "blue": [
+              "verstellen"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "verstellen",
+              "verstellt"
+            ]
+          }
+        ]
       }
     }
   },
@@ -13296,115 +25648,272 @@ const B2_WORDS = [
     "de": "Verstorbene",
     "de_article": "der",
     "de_plural": "die Verstorbenen",
-    "lv": "Zmarły • Zmarły",
+    "lv": "zmarły • nieboszczyk",
     "level": "B2"
   },
   {
     "de": "Versuchung",
     "de_article": "die",
     "de_plural": "die Versuchungen",
-    "lv": "Pokusa",
+    "lv": "pokusa",
     "level": "B2"
   },
   {
     "de": "vertagen",
-    "lv": "Odłożyć • Odłożyć",
+    "lv": "odroczyć • przełożyć",
     "level": "B2"
   },
   {
     "de": "vertiefen",
-    "lv": "Pogłębiać",
+    "lv": "pogłębić",
     "level": "B2"
   },
   {
     "de": "Vertretung",
     "de_article": "die",
     "de_plural": "die Vertretungen",
-    "lv": "Substytucja • Substytucja • Reprezentacja • Reprezentowanie",
+    "lv": "zastępstwo • przedstawicielstwo • reprezentacja",
     "level": "B2"
   },
   {
     "de": "verwalten",
-    "lv": "Zarządzać",
+    "lv": "zarządzać • administrować",
     "level": "B2"
   },
   {
     "de": "verwandeln",
-    "lv": "Przekształcać",
+    "lv": "przemienić • zmienić",
     "level": "B2"
   },
   {
     "de": "verweigern",
-    "lv": "Odmówić • Odmówić",
+    "lv": "odmówić",
     "level": "B2"
   },
   {
     "de": "verweilen",
-    "lv": "Obijać się",
+    "lv": "zatrzymać się • pozostać",
     "level": "B2"
   },
   {
     "de": "Verweis",
     "de_article": "der",
     "de_plural": "die Verweise",
-    "lv": "Nagana • Nagana",
+    "lv": "nagana • upomnienie",
     "level": "B2"
   },
   {
     "de": "Verwendung",
     "de_article": "die",
     "de_plural": "die Verwendungen",
-    "lv": "Wykorzystanie",
+    "lv": "użycie • zastosowanie • wykorzystanie",
     "level": "B2"
   },
   {
     "de": "verwickeln",
-    "lv": "Mylić • Przym. przeplatać się • Przeszkadzać",
+    "lv": "zaplątać • wplątać • uwikłać",
     "level": "B2"
   },
   {
     "de": "verwirren",
-    "lv": "Dezorientować • Dezorientować • Dezorientować",
+    "lv": "zaplątać • zmylić • zdezorientować",
     "level": "B2"
   },
   {
     "de": "Verwirrung",
     "de_article": "die",
     "de_plural": "die Verwirrungen",
-    "lv": "Zamieszanie • Zakłopotanie",
+    "lv": "pomieszanie • zmieszanie",
     "level": "B2"
   },
   {
     "de": "verwöhnen",
-    "lv": "Psuć • Psuć",
+    "lv": "rozpieszczać",
     "level": "B2"
   },
   {
     "de": "verwundern",
-    "lv": "Wywołać zdziwienie",
+    "lv": "dziwić • zdziwić",
     "level": "B2"
   },
   {
     "de": "sich verwundern",
-    "lv": "Zastanawiać się",
+    "lv": "dziwić się",
     "level": "B2",
     "study": {
       "id": "b2-sich-verwundern",
-      "layout": "minimalStudy",
-      "translation": "Zastanawiać się",
-      "rektion": "über + ko?",
-      "explanation": "sich verwundern wymaga przyimka określonego über + ko?.",
-      "forms": "über + ko?",
-      "formsLabel": "Kierownictwo:",
+      "layout": "standardStudy",
+      "translation": "dziwić się",
+      "explanation": [
+        "Główna myśl: sich verwundern znaczy dziwić się — odczuwać zaskoczenie czymś nieoczekiwanym lub niezrozumiałym.",
+        "Czasownik jest zwrotny, z przyimkiem über + biernik: sich über etwas verwundern. Formy: ich verwundere mich, er verwundert sich, verwunderte sich, hat sich verwundert. Często następuje też zdanie podrzędne z dass: sich darüber verwundern, dass …",
+        "W mowie potocznej częściej używa się prostszego sich wundern; sich verwundern brzmi bardziej formalnie i książkowo."
+      ],
+      "examples": [
+        {
+          "de": "Ich verwundere mich über seine Antwort.",
+          "lv": "Dziwię się jego odpowiedzi."
+        },
+        {
+          "de": "Sie verwunderte sich darüber, dass niemand kam.",
+          "lv": "Dziwiła się, że nikt nie przyszedł."
+        },
+        {
+          "de": "Wir verwundern uns über das schlechte Wetter im Mai.",
+          "lv": "Dziwimy się złej pogodzie w maju."
+        },
+        {
+          "de": "Er hat sich sehr über den Preis verwundert.",
+          "lv": "Bardzo zdziwił się ceną."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich wundern",
+          "meaning": "dziwić się",
+          "example": "Ich wundere mich über ihn. – On mnie dziwi."
+        },
+        {
+          "word": "staunen",
+          "meaning": "zdumiewać się, podziwiać",
+          "example": "Die Kinder staunen über den Zauberer. – Dzieci z podziwem patrzą na czarodzieja."
+        },
+        {
+          "word": "überrascht sein",
+          "meaning": "być zaskoczonym",
+          "example": "Ich bin überrascht. – Jestem zaskoczony."
+        }
+      ],
+      "tip": [
+        "Zapamiętaj razem: sich verwundern über + biernik (a nie z celownikiem).",
+        "Na co dzień prościej mów sich wundern; sich verwundern to jego bardziej formalna wersja."
+      ],
+      "important": [
+        "Nie myl z verwunden (ranić) — to inne słowo o innym znaczeniu."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich verwundern"
+            "sich verwundern",
+            "über",
+            "verwundert",
+            "verwunderte",
+            "sich wundern",
+            "verwundere",
+            "verwundern"
           ],
-          "red": [
-            "über + ko?"
+          "purple": [
+            "dziwić się",
+            "zaskoczenie"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "verwundere"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Dziwię się"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verwunderte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Dziwiła się"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verwundern"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Dziwimy się"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verwundert"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "zdziwił się"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich wundern"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "dziwić się"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "staunen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "podziwiać"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "überrascht sein"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "zaskoczonym"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "sich verwundern",
+              "über",
+              "verwundern"
+            ]
+          },
+          {
+            "blue": [
+              "sich verwundern",
+              "sich wundern",
+              "verwundern"
+            ]
+          }
+        ],
+        "important": [
+          {}
+        ]
       }
     }
   },
@@ -13412,678 +25921,993 @@ const B2_WORDS = [
     "de": "Verwüstung",
     "de_article": "die",
     "de_plural": "die Verwüstungen",
-    "lv": "Dewastacja",
+    "lv": "spustoszenie • zniszczenie",
     "level": "B2"
   },
   {
     "de": "Verzeichnis",
     "de_article": "das",
     "de_plural": "die Verzeichnisse",
-    "lv": "Lista",
+    "lv": "spis • wykaz • lista",
     "level": "B2"
   },
   {
     "de": "verzögern",
-    "lv": "Opóźnić",
+    "lv": "opóźnić • odwlec",
     "level": "B2"
   },
   {
     "de": "sich verzögern",
-    "lv": "Opóźniać • Zwlekać",
+    "lv": "opóźnić się • przeciągać się",
     "level": "B2"
   },
   {
     "de": "verzollen",
-    "lv": "Do odprawy celnej",
+    "lv": "oclić",
     "level": "B2"
   },
   {
     "de": "verzweifeln",
-    "lv": "Wyszedł",
+    "lv": "rozpaczać • zwątpić",
     "level": "B2"
   },
   {
     "de": "verzweifelt",
-    "lv": "Zdesperowany • Zdesperowany • Pełen rozpaczy",
+    "lv": "zrozpaczony • rozpaczliwy",
     "level": "B2"
   },
   {
     "de": "Viehbestand",
     "de_article": "der",
     "de_plural": "die Viehbestände",
-    "lv": "[całkowita] liczba zwierząt gospodarskich",
+    "lv": "pogłowie",
     "level": "B2"
   },
   {
     "de": "Viehzucht",
     "de_article": "die",
     "de_plural": "die Viehzuchten",
-    "lv": "Hodowla zwierząt",
+    "lv": "hodowla zwierząt • hodowla bydła",
     "level": "B2"
   },
   {
     "de": "Vielfalt",
     "de_article": "die",
-    "lv": "Różnorodność",
+    "lv": "różnorodność • wielość",
     "level": "B2"
   },
   {
     "de": "vielseitig",
-    "lv": "Wszechstronny",
+    "lv": "wszechstronny",
     "level": "B2"
   },
   {
     "de": "visuell",
-    "lv": "Wizualny",
+    "lv": "wizualny • wzrokowy",
     "level": "B2"
   },
   {
     "de": "Volkszählung",
     "de_article": "die",
     "de_plural": "die Volkszählungen",
-    "lv": "Oficjalny spis ludności",
+    "lv": "spis ludności • spis powszechny",
     "level": "B2"
   },
   {
     "de": "vollbringen",
-    "lv": "Osiągnąć • Zrobić",
+    "lv": "dokonać • wykonać",
     "level": "B2"
   },
   {
     "de": "vollenden",
-    "lv": "Skończyć",
+    "lv": "ukończyć • dokończyć",
     "level": "B2"
   },
   {
     "de": "vollkommen",
-    "lv": "Kompletny • Całkowicie • Całkowicie",
+    "lv": "całkowity • doskonały • całkowicie",
     "level": "B2"
   },
   {
     "de": "Vollmacht",
     "de_article": "die",
     "de_plural": "die Vollmachten",
-    "lv": "Pełnomocnictwo",
+    "lv": "pełnomocnictwo",
     "level": "B2"
   },
   {
     "de": "vollzählig",
-    "lv": "Istniejąca w całości",
+    "lv": "w komplecie • kompletny",
     "level": "B2"
   },
   {
     "de": "vollziehen",
-    "lv": "Wykonać",
+    "lv": "wykonać • przeprowadzić • dokonać",
     "level": "B2"
   },
   {
     "de": "Volumen",
     "de_article": "das",
     "de_plural": "die Volumen",
-    "lv": "Głośność • Głośność",
+    "lv": "objętość • rozmiar",
     "level": "B2"
   },
   {
     "de": "Vorahnung",
     "de_article": "die",
     "de_plural": "die Vorahnungen",
-    "lv": "Przeczucie czegoś złego",
+    "lv": "przeczucie",
     "level": "B2"
   },
   {
     "de": "voran",
-    "lv": "Naprzód • Przed • Na czele",
+    "lv": "naprzód • na przedzie • na czele",
     "level": "B2"
   },
   {
     "de": "voraussehen",
-    "lv": "Przewidzieć",
+    "lv": "przewidzieć",
     "level": "B2"
   },
   {
     "de": "voraussetzen",
-    "lv": "Wymagać • Być warunkiem wstępnym",
+    "lv": "wymagać • zakładać",
     "level": "B2"
   },
   {
     "de": "Vorbehalt",
     "de_article": "der",
     "de_plural": "die Vorbehalte",
-    "lv": "Stan",
+    "lv": "zastrzeżenie",
     "level": "B2"
   },
   {
     "de": "vorbestraft",
-    "lv": "Z wcześniejszym wyrokiem",
+    "lv": "wcześniej karany",
     "level": "B2"
   },
   {
     "de": "vorbeugen",
-    "lv": "Zapobiegać",
+    "lv": "zapobiegać • przeciwdziałać",
     "level": "B2"
   },
   {
     "de": "Vorbildung",
     "de_article": "die",
     "de_plural": "die Vorbildungen",
-    "lv": "Wcześniejsza wiedza • Przygotowanie",
+    "lv": "przygotowanie • wiedza wstępna",
     "level": "B2"
   },
   {
     "de": "vorder",
-    "lv": "Przód",
+    "lv": "przedni",
     "level": "B2"
   },
   {
     "de": "Vordergrund",
     "de_article": "der",
     "de_plural": "die Vordergründe",
-    "lv": "Pierwszoplanowy",
+    "lv": "pierwszy plan",
     "level": "B2"
   },
   {
     "de": "vordringen",
-    "lv": "Wyłamać się do przodu",
+    "lv": "przedrzeć się • posuwać się naprzód",
     "level": "B2"
   },
   {
     "de": "Vorfall",
     "de_article": "der",
     "de_plural": "die Vorfälle",
-    "lv": "Incydent • Wydarzenie",
+    "lv": "zajście • wydarzenie",
     "level": "B2"
   },
   {
     "de": "vorfristig",
-    "lv": "Przedwczesne • Przed terminem",
+    "lv": "przedterminowy • przed terminem",
     "level": "B2"
   },
   {
     "de": "Vorkehrung",
     "de_article": "die",
     "de_plural": "die Vorkehrungen",
-    "lv": "Środki ochronne",
+    "lv": "środek ostrożności • zabezpieczenie",
     "level": "B2"
   },
   {
     "de": "Vorliebe",
     "de_article": "die",
     "de_plural": "die Vorlieben",
-    "lv": "Szczególnie lubiłem",
+    "lv": "upodobanie • zamiłowanie",
     "level": "B2"
   },
   {
     "de": "vornehmen",
-    "lv": "Zrobić • Wykonać • Podjąć się • Zobowiązać się do czegoś",
+    "lv": "dokonać • przeprowadzić • postanowić",
     "level": "B2"
   },
   {
     "de": "vornherein",
-    "lv": "Na samym początku",
+    "lv": "z góry • od samego początku",
     "level": "B2"
   },
   {
     "de": "Vorrecht",
     "de_article": "das",
     "de_plural": "die Vorrechte",
-    "lv": "Prerogatywa • Przywilej",
+    "lv": "przywilej • pierwszeństwo",
     "level": "B2"
   },
   {
     "de": "vorsätzlich",
-    "lv": "Celowe • Celowe",
+    "lv": "umyślny • celowy",
     "level": "B2"
   },
   {
     "de": "Vorspiel",
     "de_article": "das",
     "de_plural": "die Vorspiele",
-    "lv": "Prolog • Preludium • Uwertura",
+    "lv": "preludium • prolog • gra wstępna",
     "level": "B2"
   },
   {
     "de": "Vorsprung",
     "de_article": "der",
     "de_plural": "die Vorsprünge",
-    "lv": "Prymat • Supremacja • Wyższość",
+    "lv": "występ • przewaga • prowadzenie",
     "level": "B2"
   },
   {
     "de": "Vorstand",
     "de_article": "der",
     "de_plural": "die Vorstände",
-    "lv": "Zarząd • Szef • Zarząd • Szef",
+    "lv": "zarząd • kierownictwo",
     "level": "B2"
   },
   {
     "de": "Vorstrafe",
     "de_article": "die",
     "de_plural": "die Vorstrafen",
-    "lv": "Poprzednia przeszłość kryminalna",
+    "lv": "wcześniejsza karalność",
     "level": "B2"
   },
   {
     "de": "vortragen",
-    "lv": "Wykład • Występować • Recytować • Grać",
+    "lv": "wygłaszać • recytować • wykonywać",
     "level": "B2"
   },
   {
     "de": "vortrefflich",
-    "lv": "Doskonałe • Doskonałe",
+    "lv": "znakomity • doskonały",
     "level": "B2"
   },
   {
     "de": "Vorverkauf",
     "de_article": "der",
     "de_plural": "die Vorverkäufe",
-    "lv": "Przedsprzedaż",
+    "lv": "przedsprzedaż",
     "level": "B2"
   },
   {
     "de": "Vorwahl",
     "de_article": "die",
     "de_plural": "die Vorwahlen",
-    "lv": "Kod innego miasta lub kraju w rozmowie telefonicznej",
+    "lv": "numer kierunkowy",
     "level": "B2"
   },
   {
     "de": "Vorwand",
     "de_article": "der",
     "de_plural": "die Vorwände",
-    "lv": "Pretekst • Pretekst",
+    "lv": "pretekst • wymówka",
     "level": "B2"
   },
   {
     "de": "Vorwort",
     "de_article": "das",
     "de_plural": "die Vorworte",
-    "lv": "Przedmowa",
+    "lv": "przedmowa • wstęp",
     "level": "B2"
   },
   {
     "de": "Vorwurf",
     "de_article": "der",
     "de_plural": "die Vorwürfe",
-    "lv": "Zarzut",
+    "lv": "zarzut • wyrzut",
     "level": "B2"
   },
   {
     "de": "vorzeitig",
-    "lv": "Przedwczesny • Przedwczesny",
+    "lv": "przedwczesny • przedterminowy",
     "level": "B2"
   },
   {
     "de": "vorzüglich",
-    "lv": "Doskonałe • Doskonałe",
+    "lv": "wyborny • znakomity",
     "level": "B2"
   },
   {
     "de": "Wacholder",
     "de_article": "der",
     "de_plural": "die Wacholder",
-    "lv": "Jodła • Jałowiec",
+    "lv": "jałowiec",
     "level": "B2"
   },
   {
     "de": "Wachsamkeit",
     "de_article": "die",
     "de_plural": "die Wachsamkeiten",
-    "lv": "Czujność • Uważność",
+    "lv": "czujność • uważność",
     "level": "B2"
   },
   {
     "de": "Wade",
     "de_article": "die",
     "de_plural": "die Waden",
-    "lv": "Ikra",
+    "lv": "łydka",
     "level": "B2"
   },
   {
     "de": "Wahlbezirk",
     "de_article": "der",
     "de_plural": "die Wahlbezirke",
-    "lv": "Okręg wyborczy",
+    "lv": "okręg wyborczy",
     "level": "B2"
   },
   {
     "de": "Wahlfach",
     "de_article": "das",
     "de_plural": "die Wahlfächer",
-    "lv": "Przedmiot fakultatywny w szkole lub na uniwersytecie",
+    "lv": "przedmiot fakultatywny",
     "level": "B2"
   },
   {
     "de": "Wahlkampf",
     "de_article": "der",
     "de_plural": "die Wahlkämpfe",
-    "lv": "Bitwa wyborcza",
+    "lv": "kampania wyborcza",
     "level": "B2"
   },
   {
     "de": "Wahlrecht",
     "de_article": "das",
     "de_plural": "die Wahlrechte",
-    "lv": "Prawo wyborcze",
+    "lv": "prawo wyborcze",
     "level": "B2"
   },
   {
     "de": "Wählscheibe",
     "de_article": "die",
     "de_plural": "die Wählscheiben",
-    "lv": "Klawiatura telefonu",
+    "lv": "tarcza telefonu • tarcza numerowa",
     "level": "B2"
   },
   {
     "de": "wahren",
-    "lv": "Ratować",
+    "lv": "zachować",
     "level": "B2"
   },
   {
     "de": "wahrnehmen",
-    "lv": "Postrzegać",
+    "lv": "postrzegać • dostrzegać",
     "level": "B2"
   },
   {
     "de": "Waisenheim",
     "de_article": "das",
     "de_plural": "die Waisenheime",
-    "lv": "Sierociniec",
+    "lv": "sierociniec • dom dziecka",
     "level": "B2"
   },
   {
     "de": "Wall",
     "de_article": "der",
     "de_plural": "die Wälle",
-    "lv": "Nasyp • Nasyp",
+    "lv": "wał • nasyp",
     "level": "B2"
   },
   {
     "de": "wankelmütig",
-    "lv": "Niezdecydowany",
+    "lv": "chwiejny • niezdecydowany",
     "level": "B2"
   },
   {
     "de": "wanken",
-    "lv": "Grillowanie • Przym. wahać się",
+    "lv": "chwiać się • zataczać się • wahać się",
     "level": "B2"
   },
   {
     "de": "Warenausgabe",
     "de_article": "die",
     "de_plural": "die Warenausgaben",
-    "lv": "Kontrola zakupów i wydawanie",
+    "lv": "wydawanie towarów",
     "level": "B2"
   },
   {
     "de": "Warnanlage",
     "de_article": "die",
     "de_plural": "die Warnanlagen",
-    "lv": "Urządzenie sygnalizacyjne",
+    "lv": "urządzenie alarmowe • urządzenie ostrzegawcze",
     "level": "B2"
   },
   {
     "de": "Wartung",
     "de_article": "die",
     "de_plural": "die Wartungen",
-    "lv": "Konserwacja",
+    "lv": "konserwacja • przegląd",
     "level": "B2"
   },
   {
     "de": "Wasserspiegel",
     "de_article": "der",
     "de_plural": "die Wasserspiegel",
-    "lv": "Poziom wody • Powierzchnia wody",
+    "lv": "poziom wody • lustro wody",
     "level": "B2"
   },
   {
     "de": "Wasserstoff",
     "de_article": "der",
     "de_plural": "die Wasserstoffe",
-    "lv": "Wodór",
+    "lv": "wodór",
     "level": "B2"
   },
   {
     "de": "Wasserwerfer",
     "de_article": "der",
     "de_plural": "die Wasserwerfer",
-    "lv": "Radiowóz - armatka wodna",
+    "lv": "armatka wodna",
     "level": "B2"
   },
   {
     "de": "weben",
-    "lv": "Splot",
+    "lv": "tkać",
     "level": "B2"
   },
   {
     "de": "Weber",
     "de_article": "der",
     "de_plural": "die Weber",
-    "lv": "Tkacz",
+    "lv": "tkacz",
     "level": "B2"
   },
   {
     "de": "Wegstrecke",
     "de_article": "die",
     "de_plural": "die Wegstrecken",
-    "lv": "Odcinek drogi • Szt",
+    "lv": "odcinek drogi • odległość",
     "level": "B2"
   },
   {
     "de": "Wegwerfware",
     "de_article": "die",
     "de_plural": "die Wegwerfwaren",
-    "lv": "Przedmiot jednorazowego użytku",
+    "lv": "artykuł jednorazowego użytku",
     "level": "B2"
   },
   {
     "de": "Wehe",
     "de_article": "die",
     "de_plural": "die Wehen",
-    "lv": "Wydma • Kupena",
+    "lv": "wydma • zaspa",
     "level": "B2"
   },
   {
     "de": "Wehrdienst",
     "de_article": "der",
     "de_plural": "die Wehrdienste",
-    "lv": "Służba wojskowa",
+    "lv": "służba wojskowa",
     "level": "B2"
   },
   {
     "de": "Wehrpflicht",
     "de_article": "die",
-    "lv": "Stan wojenny",
+    "lv": "obowiązek służby wojskowej • pobór",
     "level": "B2"
   },
   {
     "de": "Weib",
     "de_article": "das",
     "de_plural": "die Weiber",
-    "lv": "Por. nie kobieta",
+    "lv": "baba",
     "level": "B2"
   },
   {
     "de": "Weinbau",
     "de_article": "der",
-    "lv": "Uprawa winorośli",
+    "lv": "uprawa winorośli • winiarstwo",
     "level": "B2"
   },
   {
     "de": "Weise",
     "de_article": "der",
     "de_plural": "die Weisen",
-    "lv": "Mądry człowiek",
+    "lv": "mędrzec",
     "level": "B2"
   },
   {
     "de": "weitsichtig",
-    "lv": "Dalekowzroczny",
+    "lv": "dalekowzroczny",
     "level": "B2"
   },
   {
     "de": "Welpe",
     "de_article": "der",
     "de_plural": "die Welpen",
-    "lv": "Szczeniak",
+    "lv": "szczeniak • szczenię",
     "level": "B2"
   },
   {
     "de": "Weltlage",
     "de_article": "die",
     "de_plural": "die Weltlagen",
-    "lv": "Sytuację międzynarodową",
+    "lv": "sytuacja międzynarodowa • sytuacja na świecie",
     "level": "B2"
   },
   {
     "de": "Weltmacht",
     "de_article": "die",
     "de_plural": "die Weltmächte",
-    "lv": "Wielka moc",
+    "lv": "mocarstwo światowe • mocarstwo",
     "level": "B2"
   },
   {
     "de": "Weltraumfahrt",
     "de_article": "die",
-    "lv": "Lot kosmiczny",
+    "lv": "lot kosmiczny • astronautyka",
     "level": "B2"
   },
   {
     "de": "Wendepunkt",
     "de_article": "der",
     "de_plural": "die Wendepunkte",
-    "lv": "Punkt zwrotny",
+    "lv": "punkt zwrotny",
     "level": "B2"
   },
   {
     "de": "Werft",
     "de_article": "die",
     "de_plural": "die Werften",
-    "lv": "Stocznia",
+    "lv": "stocznia",
     "level": "B2"
   },
   {
     "de": "Werkbank",
     "de_article": "die",
     "de_plural": "die Werkbänke",
-    "lv": "Obrabiarka",
+    "lv": "stół warsztatowy",
     "level": "B2"
   },
   {
     "de": "Werkhalle",
     "de_article": "die",
     "de_plural": "die Werkhallen",
-    "lv": "Warsztat",
+    "lv": "hala fabryczna • hala produkcyjna",
     "level": "B2"
   },
   {
     "de": "Werkstoff",
     "de_article": "der",
     "de_plural": "die Werkstoffe",
-    "lv": "Tworzywo",
+    "lv": "tworzywo • materiał",
     "level": "B2"
   },
   {
     "de": "Werktätige",
     "de_article": "der",
     "de_plural": "die Werktätigen",
-    "lv": "Ten pracujący",
+    "lv": "pracujący • człowiek pracy",
     "level": "B2"
   },
   {
     "de": "Werkteil",
     "de_article": "der",
     "de_plural": "die Werkteile",
-    "lv": "Szczegół",
+    "lv": "część • element",
     "level": "B2"
   },
   {
     "de": "Wertpapier",
     "de_article": "das",
     "de_plural": "die Wertpapiere",
-    "lv": "Bezpieczeństwo",
+    "lv": "papier wartościowy",
     "level": "B2"
   },
   {
     "de": "Wesen",
     "de_article": "das",
     "de_plural": "die Wesen",
-    "lv": "Istota • Istota • Istota • Charakter",
-    "level": "B2"
+    "lv": "istota • stworzenie • natura",
+    "level": "B2",
+    "study": {
+      "id": "b2-wesen",
+      "layout": "standardStudy",
+      "translation": "istota • stworzenie • natura",
+      "explanation": [
+        "Główna myśl: das Wesen to słowo o kilku znaczeniach. Po pierwsze, żywa istota lub stworzenie (ein fremdes Wesen), po drugie, istota czegoś (das Wesen der Sache), po trzecie, charakter lub natura człowieka (ein freundliches Wesen).",
+        "To rzeczownik rodzaju nijakiego: das Wesen. Liczba mnoga to die Wesen (bez przegłosu). W znaczeniu istota rzeczy słowo zwykle nie ma liczby mnogiej.",
+        "Często używane wyrażenie: im Wesentlichen — zasadniczo, w gruncie rzeczy."
+      ],
+      "examples": [
+        {
+          "de": "Im Märchen kommt ein fremdes Wesen vor.",
+          "lv": "W bajce pojawia się obca istota."
+        },
+        {
+          "de": "Der Mensch ist ein soziales Wesen.",
+          "lv": "Człowiek jest istotą społeczną."
+        },
+        {
+          "de": "Das Wesen der Demokratie ist die Teilnahme aller.",
+          "lv": "Istotą demokracji jest udział wszystkich."
+        },
+        {
+          "de": "Sie hat ein freundliches Wesen.",
+          "lv": "Ma przyjazne usposobienie."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "der Charakter",
+          "meaning": "charakter",
+          "example": "Er hat einen starken Charakter. – Ma silny charakter."
+        },
+        {
+          "word": "das Lebewesen",
+          "meaning": "żywa istota, organizm",
+          "example": "Pflanzen sind Lebewesen. – Rośliny są żywymi istotami."
+        },
+        {
+          "word": "der Kern",
+          "meaning": "jądro, sedno",
+          "example": "Das ist der Kern des Problems. – To jest sedno problemu."
+        }
+      ],
+      "tip": [
+        "Zapamiętaj trzy znaczenia: istota (to, co żyje), istota rzeczy (to, co leży u podstaw czegoś), charakter (jaki jest człowiek).",
+        "Znaczenie słowa wynika z kontekstu: z przymiotnikiem freundlich lub ruhig zwykle chodzi o charakter."
+      ],
+      "important": [
+        "Nie myl z das Wesentliche (to, co najważniejsze, istotne) — to inny rzeczownik."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "das Wesen",
+            "die Wesen",
+            "Wesen",
+            "im Wesentlichen",
+            "das Wesen der Sache",
+            "ein fremdes Wesen",
+            "Wesentlichen"
+          ],
+          "purple": [
+            "istota",
+            "stworzenie",
+            "istota czegoś",
+            "charakter"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Wesen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "istota"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Wesen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "istotą"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Wesen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Istotą"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Wesen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "usposobienie"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "der Charakter"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "charakter"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "das Lebewesen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "istota"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Kern"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "sedno"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "Wettlauf",
     "de_article": "der",
     "de_plural": "die Wettläufe",
-    "lv": "Sp. wyścig pośpiechu • Pośpiech",
+    "lv": "wyścig • bieg",
     "level": "B2"
   },
   {
     "de": "Wettrennen",
     "de_article": "das",
     "de_plural": "die Wettrennen",
-    "lv": "Wyścig • Wyścig",
+    "lv": "wyścig • gonitwa",
     "level": "B2"
   },
   {
     "de": "Wettrudern",
     "de_article": "das",
-    "lv": "Wyścig wioślarski",
+    "lv": "wyścig wioślarski • regaty wioślarskie",
     "level": "B2"
   },
   {
     "de": "Wettschwimmen",
     "de_article": "das",
-    "lv": "Wyścig pływacki",
+    "lv": "zawody pływackie",
     "level": "B2"
   },
   {
     "de": "wichsen",
-    "lv": "Polerować",
+    "lv": "pastować • polerować",
     "level": "B2"
   },
   {
     "de": "wider",
-    "lv": "Vs",
+    "lv": "przeciw • wbrew",
     "level": "B2"
   },
   {
     "de": "widerlegen",
-    "lv": "Obalić",
+    "lv": "obalić • odeprzeć",
     "level": "B2"
   },
   {
     "de": "widerlich",
-    "lv": "Obrzydliwy • Obrzydliwy",
+    "lv": "obrzydliwy • odrażający",
     "level": "B2"
   },
   {
     "de": "Widerrede",
     "de_article": "die",
     "de_plural": "die Widerreden",
-    "lv": "Sprzeciw",
+    "lv": "sprzeciw • zastrzeżenie",
     "level": "B2"
   },
   {
     "de": "sich widersetzen",
-    "lv": "Oprzeć się • Twarzy",
+    "lv": "przeciwstawiać się • opierać się",
     "level": "B2",
     "study": {
       "id": "b2-sich-widersetzen",
-      "layout": "minimalStudy",
-      "translation": "Oprzeć się • Twarzy",
-      "rektion": "+ kam?",
-      "explanation": "sich widersetzen prasa + kam?.",
-      "forms": "+ kam?",
-      "formsLabel": "Kierownictwo:",
+      "layout": "standardStudy",
+      "translation": "przeciwstawiać się • opierać się",
+      "explanation": [
+        "Główna myśl: sich widersetzen znaczy sprzeciwiać się, opierać się komuś lub czemuś — nie podporządkować się rozkazowi, presji, decyzji lub osobie.",
+        "Czasownik jest zwrotny i wymaga celownika: sich jemandem/etwas widersetzen. Formy: widersetzt sich, widersetzte sich, hat sich widersetzt. Przedrostek wider- jest nierozdzielny."
+      ],
+      "examples": [
+        {
+          "de": "Er widersetzte sich dem Befehl.",
+          "lv": "Sprzeciwił się rozkazowi."
+        },
+        {
+          "de": "Die Bürger widersetzen sich der Entscheidung der Regierung.",
+          "lv": "Obywatele sprzeciwiają się decyzji rządu."
+        },
+        {
+          "de": "Sie hat sich dem Druck nicht widersetzt.",
+          "lv": "Nie oparła się presji."
+        },
+        {
+          "de": "Niemand wagte es, sich dem Chef zu widersetzen.",
+          "lv": "Nikt nie odważył się przeciwstawić szefowi."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Widerstand leisten",
+          "meaning": "stawiać opór",
+          "example": "Das Volk leistete Widerstand. – Naród stawiał opór."
+        },
+        {
+          "word": "sich wehren gegen",
+          "meaning": "bronić się przed",
+          "example": "Er wehrt sich gegen die Vorwürfe. – Broni się przed zarzutami."
+        },
+        {
+          "word": "ablehnen",
+          "meaning": "odrzucać",
+          "example": "Sie lehnt das Angebot ab. – Odrzuca ofertę."
+        }
+      ],
+      "tip": [
+        "Po sich widersetzen zawsze następuje celownik: dem Befehl, dem Druck, dem Chef.",
+        "Pasuje do stylu formalnego lub pisanego; w mowie potocznej częściej mówi się sich wehren."
+      ],
+      "important": [
+        "Nie używaj przyimka: nie sich gegen etwas widersetzen, lecz sich etwas widersetzen (celownik)."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich widersetzen"
+            "sich widersetzen",
+            "widersetzt",
+            "widersetzte",
+            "widersetzen"
           ],
-          "red": [
-            "+ kam?"
+          "purple": [
+            "sprzeciwiać się"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "widersetzte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Sprzeciwił się"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "widersetzen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "sprzeciwiają się"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "widersetzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Nie oparła się"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "widersetzen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "przeciwstawić"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "Widerstand leisten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "opór"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich wehren gegen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "bronić się"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "ablehnen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "odrzucać"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "sich widersetzen",
+              "widersetzen"
+            ]
+          },
+          {}
+        ],
+        "important": [
+          {
+            "blue": [
+              "widersetzen"
+            ]
+          }
+        ]
       }
     }
   },
@@ -14091,238 +26915,261 @@ const B2_WORDS = [
     "de": "Widmung",
     "de_article": "die",
     "de_plural": "die Widmungen",
-    "lv": "Poświęcenie",
+    "lv": "dedykacja",
     "level": "B2"
   },
   {
     "de": "Wiederaufbau",
     "de_article": "der",
-    "lv": "Renowacja • Rekonstrukcja",
+    "lv": "odbudowa",
     "level": "B2"
   },
   {
     "de": "wiedergeben",
-    "lv": "Dawać • Reprodukować • Reprodukować",
+    "lv": "oddać • odtworzyć • przedstawić",
     "level": "B2"
   },
   {
     "de": "wildern",
-    "lv": "Zajmować się kłusownictwem",
+    "lv": "kłusować",
     "level": "B2"
   },
   {
     "de": "Willkür",
     "de_article": "die",
-    "lv": "Arbitralny",
+    "lv": "samowola • arbitralność",
     "level": "B2"
   },
   {
     "de": "Windbeutel",
     "de_article": "der",
     "de_plural": "die Windbeutel",
-    "lv": "Ciasto z wiatrem",
+    "lv": "ptyś",
     "level": "B2"
   },
   {
     "de": "winden",
-    "lv": "Skręt • Skręt • Warkocz",
+    "lv": "wić • nawijać • pleść",
     "level": "B2"
   },
   {
     "de": "zielbewusst",
-    "lv": "Ukierunkowane",
+    "lv": "zdeterminowany • dążący do celu",
     "level": "B2"
   },
   {
     "de": "Zivildienst",
     "de_article": "der",
     "de_plural": "die Zivildienste",
-    "lv": "Służba cywilna zamiast służby wojskowej",
+    "lv": "służba zastępcza",
     "level": "B2"
   },
   {
     "de": "zollfrei",
-    "lv": "Wolne od ceł",
+    "lv": "wolny od cła • bezcłowy",
     "level": "B2"
   },
   {
     "de": "zollpflichtig",
-    "lv": "Podlega celom",
+    "lv": "podlegający cłu",
     "level": "B2"
   },
   {
     "de": "Zucht",
     "de_article": "die",
     "de_plural": "die Zuchten",
-    "lv": "Wychowanie • Hodowla",
+    "lv": "wychowanie • hodowla",
     "level": "B2"
   },
   {
     "de": "Zuckerrübe",
     "de_article": "die",
     "de_plural": "die Zuckerrüben",
-    "lv": "Burak cukrowy",
+    "lv": "burak cukrowy",
     "level": "B2"
   },
   {
     "de": "zuerkennen",
-    "lv": "Zamówić • Przypisać",
+    "lv": "przyznać • zasądzić",
     "level": "B2"
   },
   {
     "de": "Zuflucht",
     "de_article": "die",
-    "lv": "Schronienie",
+    "lv": "schronienie • azyl",
     "level": "B2"
   },
   {
     "de": "Zufluss",
     "de_article": "der",
     "de_plural": "die Zuflüsse",
-    "lv": "Dopływ",
+    "lv": "dopływ",
     "level": "B2"
   },
   {
     "de": "zureden",
-    "lv": "Namówić",
+    "lv": "namawiać • przekonywać",
     "level": "B2"
   },
   {
     "de": "zürnen",
-    "lv": "Złościć się",
+    "lv": "gniewać się",
     "level": "B2"
   },
   {
     "de": "zurückprallen",
-    "lv": "Odbić się",
+    "lv": "odbić się",
     "level": "B2"
   },
   {
     "de": "zurückweisen",
-    "lv": "Odrzucić",
+    "lv": "odrzucić • odeprzeć",
     "level": "B2"
   },
   {
     "de": "Zusage",
     "de_article": "die",
     "de_plural": "die Zusagen",
-    "lv": "Przyjemna odpowiedź",
+    "lv": "zgoda • obietnica",
     "level": "B2"
   },
   {
     "de": "zusammenfügen",
-    "lv": "Połączyć",
+    "lv": "połączyć • złożyć",
     "level": "B2"
   },
   {
     "de": "zusammenlegen",
-    "lv": "Złożyć · złożyć [razem]",
+    "lv": "złożyć • połączyć",
     "level": "B2"
   },
   {
     "de": "zuschneiden",
-    "lv": "Ciąć",
+    "lv": "przyciąć • skroić",
     "level": "B2"
   },
   {
     "de": "zuströmen",
-    "lv": "Wpływa",
+    "lv": "napływać",
     "level": "B2"
   },
   {
     "de": "zuteilen",
-    "lv": "Przypisać • Przypisać",
+    "lv": "przydzielić • rozdzielić",
     "level": "B2"
   },
   {
     "de": "zutrauen",
-    "lv": "Oczekiwać • Myśleć, że jestem w stanie",
+    "lv": "uważać za zdolnego • spodziewać się",
     "level": "B2"
   },
   {
     "de": "Zuversicht",
     "de_article": "die",
     "de_plural": "die Zuversichten",
-    "lv": "Poleganie",
+    "lv": "ufność • optymizm",
     "level": "B2"
   },
   {
     "de": "Zuwachs",
     "de_article": "der",
     "de_plural": "die Zuwächse",
-    "lv": "Zwiększyć",
+    "lv": "przyrost • wzrost",
     "level": "B2"
   },
   {
     "de": "zuweisen",
-    "lv": "Przypisać • Przypisać",
+    "lv": "przydzielić • skierować",
     "level": "B2",
     "study": {
       "id": "b2-zuweisen",
       "layout": "standardStudy",
-      "translation": "Przypisać • Przypisać",
-      "explanation": "Główna idea: zuweisen oznacza oficjalne przypisanie lub przypisanie zadania, roli, zasobu lub pieniędzy określonej osobie lub działowi. Podzielne: weise... zu.",
+      "translation": "przydzielić • skierować",
+      "explanation": [
+        "Główna myśl: zuweisen znaczy oficjalnie przydzielić komuś coś (miejsce, zadanie, mieszkanie, środki) albo skierować człowieka w jakieś miejsce.",
+        "Czasownik rozdzielnie złożony: er weist zu, wies zu, hat zugewiesen. Zwykle z celownikiem (komu?) i biernikiem (co?): jemandem etwas zuweisen. Często używa się też strony biernej: Mir wurde ein Platz zugewiesen.",
+        "Słowo jest formalne i używa się go w języku urzędów, szkół i firm."
+      ],
       "examples": [
         {
-          "de": "Der Chef weist ihm eine neue Aufgabe zu.",
-          "lv": "Szef daje mu nowe zadanie."
+          "de": "Die Schule weist den Kindern Klassenräume zu.",
+          "lv": "Szkoła przydziela dzieciom sale lekcyjne."
         },
         {
-          "de": "Die Mittel wurden dem Projekt zugewiesen.",
-          "lv": "Na projekt przeznaczono środki."
+          "de": "Der Chef wies mir eine neue Aufgabe zu.",
+          "lv": "Szef powierzył mi nowe zadanie."
         },
         {
-          "de": "Sie wurde einer anderen Abteilung zugewiesen.",
-          "lv": "Został przydzielony do innego działu."
+          "de": "Dem Studenten wurde ein Platz im Wohnheim zugewiesen.",
+          "lv": "Studentowi przydzielono miejsce w akademiku."
+        },
+        {
+          "de": "Die Stadt hat der Familie eine Wohnung zugewiesen.",
+          "lv": "Miasto przydzieliło rodzinie mieszkanie."
         }
       ],
       "comparison": [
         {
-          "word": "zuweisen",
-          "meaning": "Przypisać • Przypisać",
-          "example": "Er weist die Aufgabe zu. = Viņš piešķir uzdevumu."
+          "word": "zuteilen",
+          "meaning": "przydzielać, rozdzielać",
+          "example": "Man teilt uns die Arbeit zu. – Przydziela się nam pracę."
+        },
+        {
+          "word": "zuordnen",
+          "meaning": "przyporządkować",
+          "example": "Ordne die Wörter den Bildern zu. – Przyporządkuj słowa do obrazków."
         },
         {
           "word": "geben",
-          "meaning": "Dać",
-          "example": "Er gibt mir die Arbeit. = Viņš man dod darbu."
-        },
-        {
-          "word": "verteilen",
-          "meaning": "Podzielić",
-          "example": "Er verteilt die Aufgaben. = Viņš sadala uzdevumus."
+          "meaning": "dawać",
+          "example": "Ich gebe dir das Buch. – Daję ci książkę."
         }
       ],
-      "tip": {
-        "leftBlocks": [
-          {
-            "text": "zuweisen kładzie nacisk na przydział formalny – w pracy, administracji, projektach."
-          }
-        ]
-      },
-      "important": {
-        "text": "zuweisen = przypisywać lub przypisywać oficjalnie. Idealny: przydzielony. Podzielne: weise... zu."
-      },
+      "tip": [
+        "Pamiętaj o rozdzielaniu: Er weist mir etwas zu, ale w zdaniu podrzędnym …, weil er mir etwas zuweist.",
+        "Celownik oznacza odbiorcę: wem? — dem Studenten, der Familie."
+      ],
+      "important": [
+        "Imiesłów czasu przeszłego to zugewiesen — zu + gewiesen (weisen – wies – gewiesen)."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "zuweisen",
-            "weise",
-            "zu"
+            "weist zu",
+            "weist",
+            "wies",
+            "zugewiesen"
           ],
           "purple": [
-            "przypisanie"
+            "przydzielić",
+            "skierować"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "weist",
-                "zu"
+                "weist"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "przydziela"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "wies"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "powierzył"
+              ]
+            }
           },
           {
             "de": {
@@ -14330,7 +27177,11 @@ const B2_WORDS = [
                 "zugewiesen"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "przydzielono"
+              ]
+            }
           },
           {
             "de": {
@@ -14338,7 +27189,65 @@ const B2_WORDS = [
                 "zugewiesen"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "przydzieliło"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "zuteilen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "rozdzielać"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "zuordnen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "przyporządkować"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "geben"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "dawać"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "weist"
+            ]
+          },
+          {}
+        ],
+        "important": [
+          {
+            "blue": [
+              "zugewiesen",
+              "wies"
+            ]
           }
         ]
       }
@@ -14348,71 +27257,81 @@ const B2_WORDS = [
     "de": "Zuwendung",
     "de_article": "die",
     "de_plural": "die Zuwendungen",
-    "lv": "Dodatek",
+    "lv": "zasiłek • dotacja",
     "level": "B2"
   },
   {
     "de": "zuwider",
-    "lv": "Przeciw • Wbrew • Niechęci",
+    "lv": "wbrew • przeciw • niemiły",
     "level": "B2",
     "study": {
       "id": "b2-zuwider",
       "layout": "standardStudy",
-      "translation": "Przeciw • Wbrew • Niechęci",
-      "explanation": "Główna idea: zuwider to słowo o wielu funkcjach. Jako przyimek + celownik oznacza „przeciw, przeciw”: mir zuwider. Część wyrażenia jemandem zuwider sein/laufen oznacza „nie lubić kogoś, stać się nieprzyjemnym”. Nie mylić z szerszym (przeciwko) .",
+      "translation": "wbrew • przeciw • niemiły",
+      "explanation": [
+        "Główna myśl: zuwider to słowo używane z celownikiem na dwa sposoby. Z czasownikiem sein — etwas ist mir zuwider — znaczy, że coś jest mi wstrętne, obrzydliwe albo mi się nie podoba. Po rzeczowniku — dem Gesetz zuwider — znaczy wbrew czemuś.",
+        "W pierwszym znaczeniu zuwider jest przymiotnikiem i się nie odmienia: Das ist mir zuwider. W drugim znaczeniu zwykle stoi po rzeczowniku w celowniku: dem Gesetz zuwider handeln. Często używa się tu czasowników rozdzielnie złożonych zuwiderhandeln (postępować wbrew) i zuwiderlaufen (być sprzecznym): Das läuft dem Plan zuwider.",
+        "To słowo formalne, nieco książkowe."
+      ],
       "examples": [
         {
-          "de": "Er handelte mir zuwider.",
-          "lv": "Działał wbrew mojej woli."
+          "de": "Dieser Geruch ist mir zuwider.",
+          "lv": "Ten zapach jest mi wstrętny."
         },
         {
-          "de": "Sein Benehmen ist mir zuwider.",
-          "lv": "Nie podoba mi się jego zachowanie."
+          "de": "Lügen ist ihm zuwider.",
+          "lv": "Kłamanie jest mu wstrętne."
         },
         {
-          "de": "Das läuft mir zuwider.",
-          "lv": "Nie podoba mi się to/smutno mi."
+          "de": "Das läuft dem Gesetz zuwider.",
+          "lv": "To jest wbrew prawu."
+        },
+        {
+          "de": "Er handelte den Regeln zuwider.",
+          "lv": "Postąpił wbrew zasadom."
         }
       ],
       "comparison": [
         {
-          "word": "zuwider (+ Dat.)",
-          "meaning": "Przeciw • Przeciwnie",
-          "example": "mir zuwider = pret manu gribu"
+          "word": "entgegen",
+          "meaning": "wbrew",
+          "example": "Entgegen der Vorhersage regnete es nicht. – Wbrew prognozie nie padało."
         },
         {
-          "word": "jemandem zuwider sein",
-          "meaning": "Komuś się to nie spodoba",
-          "example": "Es ist mir zuwider. = Man tas nepatīk."
+          "word": "widerlich",
+          "meaning": "obrzydliwy",
+          "example": "Der Geruch ist widerlich. – Zapach jest obrzydliwy."
         },
         {
-          "word": "wider",
-          "meaning": "Przeciw (przyimek)",
-          "example": "wider den Willen = pret gribu"
-        },
-        {
-          "word": "widersprechen",
-          "meaning": "Sprzeciwiać się • Nie zgadzać się",
-          "example": "Ich widerspreche. = Es iebilstu."
+          "word": "gegen",
+          "meaning": "przeciw, przeciwko",
+          "example": "Das ist gegen die Regeln. – To jest przeciw zasadom."
         }
       ],
-      "tip": {
-        "leftBlocks": [
-          {
-            "text": "Znaczenie podstawowe: przeciw / przeciw (mir zuwider). Idiomatycznie: jemandem zuwider sein/laufen = nie lubić kogoś."
-          }
-        ]
-      },
-      "important": {
-        "text": "zuwider + celownik = przeciw, przeciwny. zuwider sein = niechęć. To nie to samo, co szersze."
-      },
+      "tip": [
+        "Zapamiętaj jedno wyrażenie: Das ist mir zuwider. — To jest mi wstrętne / Brzydzę się tym.",
+        "Z zuwider zawsze używa się celownika, który stoi przed nim: mir, ihm, dem Gesetz."
+      ],
+      "important": [
+        "Z zuwider nie używa się biernika: nie mich zuwider, lecz mir zuwider.",
+        "W znaczeniu wbrew zuwider zwykle stoi po rzeczowniku: dem Gesetz zuwider; entgegen zwykle stoi przed nim: entgegen dem Gesetz."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "zuwider"
+            "zuwider",
+            "zuwiderhandeln",
+            "zuwiderlaufen",
+            "läuft",
+            "mir zuwider",
+            "dem Gesetz zuwider",
+            "Das ist mir zuwider"
           ],
-          "green": [
-            "wider"
+          "purple": [
+            "wstrętne",
+            "obrzydliwe",
+            "nie podoba",
+            "wbrew"
           ]
         },
         "examples": [
@@ -14422,7 +27341,11 @@ const B2_WORDS = [
                 "zuwider"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "wstrętny"
+              ]
+            }
           },
           {
             "de": {
@@ -14430,7 +27353,11 @@ const B2_WORDS = [
                 "zuwider"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "wstrętne"
+              ]
+            }
           },
           {
             "de": {
@@ -14438,7 +27365,92 @@ const B2_WORDS = [
                 "zuwider"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "wbrew"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "zuwider"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "wbrew"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "entgegen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "wbrew"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "widerlich"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "obrzydliwy"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "gegen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "przeciw"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "zuwider",
+              "mir zuwider",
+              "Das ist mir zuwider"
+            ]
+          },
+          {
+            "blue": [
+              "zuwider"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "zuwider",
+              "mir zuwider"
+            ]
+          },
+          {
+            "blue": [
+              "zuwider",
+              "dem Gesetz zuwider"
+            ],
+            "green": [
+              "entgegen"
+            ]
           }
         ]
       }
@@ -14446,137 +27458,229 @@ const B2_WORDS = [
   },
   {
     "de": "zwanglos",
-    "lv": "Wolny • Niewymuszony",
+    "lv": "swobodny • nieskrępowany",
     "level": "B2"
   },
   {
     "de": "zweckmäßig",
-    "lv": "Korzystny",
+    "lv": "celowy • praktyczny",
     "level": "B2"
   },
   {
     "de": "zweifellos",
-    "lv": "Niewątpliwy",
+    "lv": "niewątpliwy • bez wątpienia",
     "level": "B2"
   },
   {
     "de": "Zwielicht",
     "de_article": "das",
-    "lv": "Zmierzch",
+    "lv": "półmrok • zmierzch",
     "level": "B2"
   },
   {
     "de": "Zwirn",
     "de_article": "der",
     "de_plural": "die Zwirne",
-    "lv": "Nitka",
+    "lv": "nić • przędza",
     "level": "B2"
   },
   {
     "de": "Zwischenfall",
     "de_article": "der",
     "de_plural": "die Zwischenfälle",
-    "lv": "Incydent",
+    "lv": "incydent",
     "level": "B2"
   },
   {
     "de": "Zwischenraum",
     "de_article": "der",
     "de_plural": "die Zwischenräume",
-    "lv": "Przestrzeń • Przestrzeń międzyprzestrzenna",
+    "lv": "odstęp • przerwa",
     "level": "B2"
   },
   {
     "de": "wechseln",
-    "lv": "Wymienić • Wymienić",
+    "lv": "zmieniać • wymieniać",
     "level": "B2",
     "study": {
       "id": "b2-wechseln",
       "layout": "standardStudy",
-      "translation": "Wymienić • Wymienić",
+      "translation": "zmieniać • wymieniać",
       "explanation": [
-        "Główna idea: Wymienić lub wymienić coś na coś innego – pieniądze, ubrania, pracę, szkołę, przedmiot.",
-        "Wechseln w zasadzie oznacza: zastąpić innym.",
-        "Często charakteryzuje się: wymianą/wymianą.",
-        "Wechseln stosuje się, gdy coś ulega zmianie lub wymianie na coś innego — pieniądze, ubrania, pracę, szkołę lub przedmiot."
+        "Główna myśl: wechseln znaczy wymienić jedną rzecz na inną lub wymienić pieniądze: Geld wechseln, die Schule wechseln, den Reifen wechseln. Nieprzechodnio może też znaczyć zmieniać się (Das Wetter wechselt).",
+        "Formy: wechselt, wechselte, hat gewechselt. Czasownik przechodni wymaga biernika: etwas wechseln. Przy zmianie kierunku używa się przyimków in/auf/zu: Er wechselt zu einem anderen Verein.",
+        "Rzeczownik to der Wechsel (zmiana). Jeśli coś się przekształca (a nie zastępuje), częściej używa się ändern lub sich verändern."
       ],
       "examples": [
         {
-          "de": "Ich wechsle die Schule.",
-          "lv": "Zmieniam szkołę."
+          "de": "Ich muss noch Geld wechseln.",
+          "lv": "Muszę jeszcze wymienić pieniądze."
         },
         {
-          "de": "Ich muss Geld wechseln.",
-          "lv": "Muszę wymienić pieniądze."
+          "de": "Sie wechselt die Schule im Sommer.",
+          "lv": "Latem zmienia szkołę."
         },
         {
-          "de": "Wir wechseln das Thema.",
-          "lv": "Zmieniamy temat."
+          "de": "Können Sie mir zwanzig Euro wechseln?",
+          "lv": "Czy może mi Pan rozmienić dwadzieścia euro?"
         },
         {
-          "de": "Ich wechsle die Schule.",
-          "lv": "Zmieniam szkołę."
+          "de": "Das Wetter wechselt oft.",
+          "lv": "Pogoda często się zmienia."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "ändern",
+          "meaning": "zmieniać (przekształcać)",
+          "example": "Ich ändere meinen Plan. – Zmieniam swój plan."
+        },
+        {
+          "word": "tauschen",
+          "meaning": "zamieniać (się)",
+          "example": "Wir tauschen die Plätze. – Zamieniamy się miejscami."
+        },
+        {
+          "word": "sich verändern",
+          "meaning": "zmieniać się",
+          "example": "Die Stadt hat sich verändert. – Miasto się zmieniło."
         }
       ],
       "tip": [
-        "Wymienić lub wymienić coś na coś innego - pieniądze, ubrania, pracę, szkołę, przedmiot.",
-        "Użyj wechseln, gdy kontekst pasuje do tego znaczenia."
+        "Do wymiany pieniędzy używa się Geld wechseln; o rozmienienie na drobne prosi się słowami Können Sie mir das wechseln?",
+        "Kiedy coś wymieniasz na nowe, to jest wechseln: den Reifen, die Wohnung, den Beruf."
       ],
       "important": [
-        "Wechseln = wymieniać lub wymieniać na inny (Geld, Schule, Thema).",
-        "Pieniądze, szkoła, praca, temat: wechseln.",
-        "Wymienić lub wymienić coś na coś innego - pieniądze, ubrania, pracę, szkołę, przedmiot."
+        "Nie myl z ändern: wechseln znaczy zastąpić czymś innym, ändern — zmienić, przekształcić."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "wechseln",
+            "wechselt",
+            "wechselte",
+            "gewechselt",
+            "der Wechsel",
+            "Geld wechseln"
+          ],
+          "purple": [
+            "wymienić",
+            "wymienić pieniądze",
+            "zmieniać się"
+          ],
           "green": [
-            "wechseln"
+            "ändern",
+            "sich verändern"
           ]
         },
         "examples": [
           {
             "de": {
-              "green": [
-                "wechsle"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "green": [
-                "wechseln",
+              "blue": [
                 "wechseln"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "wymienić"
+              ]
+            }
           },
           {
             "de": {
-              "green": [
-                "wechseln",
+              "blue": [
+                "wechselt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "zmienia"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
                 "wechseln"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "rozmienić"
+              ]
+            }
           },
           {
             "de": {
-              "green": [
-                "wechsle"
+              "blue": [
+                "wechselt"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "zmienia"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "ändern"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "zmieniać"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "tauschen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "zamieniać"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich verändern"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "zmieniać się"
+              ]
+            }
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "wechseln",
+              "Geld wechseln"
+            ]
+          },
+          {
+            "blue": [
+              "wechseln"
+            ]
+          }
         ],
         "important": [
           {
-            "green": [
+            "blue": [
               "wechseln"
+            ],
+            "green": [
+              "ändern"
             ]
           }
         ]
@@ -14585,108 +27689,181 @@ const B2_WORDS = [
   },
   {
     "de": "bieten",
-    "lv": "Oferować • Zapewniać",
+    "lv": "oferować • dawać",
     "level": "B2",
     "study": {
       "id": "b2-bieten",
       "layout": "standardStudy",
-      "translation": "Oferować • Zapewniać",
+      "translation": "oferować • dawać",
       "explanation": [
-        "Główna idea: oferuj możliwości, kursy, usługi lub korzyści — jakie zapewnia miejsce lub program.",
-        "Bieten oznacza głównie: dawać szansę / korzyść.",
-        "Często opisuje: co zapewnia dane miejsce/program.",
-        "Bieten oznacza głównie: zapewnienie możliwości.",
-        "Często charakteryzuje się: bardziej formalnym.",
-        "Bieten często opisuje, co zapewnia miejsce, program lub usługa (Die Schule bietet viele Kurse)."
+        "Główna myśl: bieten znaczy oferować (cenę, możliwość, pomoc) lub dawać, zapewniać (widok, bezpieczeństwo, rozrywkę). Podmiotem może być zarówno człowiek, jak i miejsce lub instytucja.",
+        "Czasownik mocny: er bietet, bot, hat geboten. Zwykle z biernikiem, a osoba w celowniku: jemandem etwas bieten. Przy podawaniu ceny na aukcji lub przy kupnie: Wie viel bietest du?",
+        "Z rozdzielnym przedrostkiem anbieten oznacza konkretną propozycję dla kogoś; samo bieten często opisuje, co dane miejsce lub rzecz może dać."
       ],
       "examples": [
         {
-          "de": "Die Schule bietet viele Kurse.",
-          "lv": "Szkoła oferuje wiele kursów."
+          "de": "Das Hotel bietet einen schönen Blick auf das Meer.",
+          "lv": "Hotel oferuje piękny widok na morze."
         },
         {
-          "de": "Darf ich Ihnen etwas anbieten?",
-          "lv": "Czy mogę ci coś zaoferować?"
+          "de": "Wie viel bietest du für das Auto?",
+          "lv": "Ile oferujesz za samochód?"
         },
         {
-          "de": "Die Schule bietet viele Kurse.",
-          "lv": "Szkoła oferuje wiele kursów."
+          "de": "Die Stadt bietet jungen Leuten viele Möglichkeiten.",
+          "lv": "Miasto daje młodym ludziom wiele możliwości."
         },
         {
-          "de": "Die App bietet Sicherheit.",
-          "lv": "Aplikacja zapewnia bezpieczeństwo."
+          "de": "Das Museum bietet jeden Sonntag eine Führung.",
+          "lv": "Muzeum w każdą niedzielę oferuje oprowadzanie."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "anbieten",
+          "meaning": "proponować komuś, częstować",
+          "example": "Darf ich Ihnen Tee anbieten? – Czy mogę zaproponować Panu herbatę?"
         },
         {
-          "de": "bieten",
-          "lv": "Co coś zapewnia • Anbieten"
+          "word": "gewähren",
+          "meaning": "przyznawać, udzielać",
+          "example": "Die Bank gewährt einen Kredit. – Bank udziela kredytu."
+        },
+        {
+          "word": "geben",
+          "meaning": "dawać",
+          "example": "Ich gebe dir mein Wort. – Daję ci słowo."
         }
       ],
       "tip": [
-        "Oferuj możliwości, kursy, usługi lub korzyści — jakie zapewnia lokalizacja lub program.",
-        "Użyj buraków, gdy kontekst pasuje do tego znaczenia."
+        "Jeśli opisujesz, co zapewnia miejsce lub usługa, używaj bieten: Das Hotel bietet WLAN.",
+        "Jeśli proponujesz komuś konkretną rzecz, częściej używa się anbieten."
       ],
       "important": [
-        "Bieten: Die Schule bietet Kurse. (niepodzielny)",
-        "Co zapewnia miejsce/program: Buraki."
+        "Präteritum to bot (a nie bietete): er bot, hat geboten."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "bieten"
+            "bieten",
+            "bietet",
+            "bietest",
+            "bot",
+            "geboten",
+            "anbieten"
+          ],
+          "purple": [
+            "oferować",
+            "zapewniać",
+            "dawać"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "biete"
+                "bietet"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "oferuje"
+              ]
+            }
           },
           {
             "de": {
               "blue": [
-                "bieten",
-                "bieten"
+                "bietest"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "oferujesz"
+              ]
+            }
           },
           {
             "de": {
               "blue": [
-                "biete"
+                "bietet"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "daje"
+              ]
+            }
           },
           {
             "de": {
               "blue": [
-                "biete"
+                "bietet"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "oferuje"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "anbieten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "proponować"
+              ]
+            }
           },
           {
-            "de": {
-              "blue": [
-                "bieten",
-                "bieten"
+            "word": {
+              "green": [
+                "gewähren"
               ]
             },
-            "lv": {}
+            "meaning": {
+              "purple": [
+                "udzielać"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "geben"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "dawać"
+              ]
+            }
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "bieten",
+              "bietet"
+            ]
+          },
+          {
+            "blue": [
+              "anbieten"
+            ]
+          }
         ],
         "important": [
           {
             "blue": [
-              "bieten"
+              "bot",
+              "geboten"
             ]
           }
         ]
@@ -14695,88 +27872,178 @@ const B2_WORDS = [
   },
   {
     "de": "anbieten",
-    "lv": "Zaoferować",
+    "lv": "oferować • proponować",
     "level": "B2",
     "study": {
       "id": "b2-anbieten",
       "layout": "standardStudy",
-      "translation": "Zaoferować",
-      "explanation": "Główna idea: anbieten oznacza aktywne oferowanie komuś przysługi, napoju, pracy lub usługi. Czasownik rozłączny: ich biete an, er bietet an. Podkreśla inicjatywę ze strony oferenta.",
+      "translation": "oferować • proponować",
+      "explanation": [
+        "Główna myśl: anbieten znaczy proponować, oferować komuś coś: napój, pomoc, pracę, towar lub usługę. Druga osoba sama decyduje, czy propozycję przyjąć.",
+        "Czasownik rozdzielnie złożony: er bietet an, bot an, hat angeboten. Konstrukcja: jemandem etwas anbieten. Z bezokolicznikiem: Er bot an, mich zu fahren. Zwrotne sich anbieten znaczy nasuwać się, nadawać się: Das bietet sich an.",
+        "Rzeczownik to das Angebot (oferta, propozycja)."
+      ],
       "examples": [
         {
-          "de": "Ich biete dir meine Hilfe an.",
-          "lv": "Oferuję ci moją pomoc."
+          "de": "Darf ich Ihnen einen Kaffee anbieten?",
+          "lv": "Czy mogę zaproponować Panu kawę?"
         },
         {
-          "de": "Darf ich Ihnen etwas anbieten?",
-          "lv": "Czy mogę ci coś zaoferować?"
+          "de": "Die Firma bietet neue Produkte an.",
+          "lv": "Firma oferuje nowe produkty."
         },
         {
-          "de": "Das Unternehmen bietet neue Stellen an.",
-          "lv": "Firma oferuje nowe miejsca pracy."
+          "de": "Er bot mir an, mich nach Hause zu fahren.",
+          "lv": "Zaproponował, że odwiezie mnie do domu."
+        },
+        {
+          "de": "Sie hat uns ihre Hilfe angeboten.",
+          "lv": "Zaoferowała nam swoją pomoc."
         }
       ],
       "comparison": [
         {
-          "word": "anbieten",
-          "meaning": "Oferta (aktywna)",
-          "example": "Ich biete Hilfe an. = Es piedāvāju palīdzību."
-        },
-        {
           "word": "bieten",
-          "meaning": "Oferować • Dawać",
-          "example": "Er bietet viel Geld. = Viņš piedāvā daudz naudas."
+          "meaning": "oferować, zapewniać",
+          "example": "Das Hotel bietet viel. – Hotel oferuje wiele."
         },
         {
           "word": "vorschlagen",
-          "meaning": "Zaproponować",
-          "example": "Ich schlage vor. = Es ierosinu."
+          "meaning": "proponować, sugerować",
+          "example": "Ich schlage vor, dass wir gehen. – Proponuję, żebyśmy poszli."
+        },
+        {
+          "word": "empfehlen",
+          "meaning": "polecać",
+          "example": "Ich empfehle dir das Buch. – Polecam ci tę książkę."
         }
       ],
-      "tip": {
-        "leftBlocks": [
-          {
-            "text": "anbieten podkreśla, że ​​ktoś aktywnie oferuje coś konkretnej osobie: Ich biete dir… an."
-          }
-        ]
-      },
-      "important": {
-        "text": "anbieten = aktywnie oferować. Podzielne: burak ... an. Idealny: angeboten."
-      },
+      "tip": [
+        "Pamiętaj o rozdzielaniu: Er bietet mir Hilfe an, ale w zdaniu podrzędnym …, weil er mir Hilfe anbietet.",
+        "Odpowiadając na propozycję, można powiedzieć: Danke, gern. albo Nein, danke."
+      ],
+      "important": [
+        "Anbieten to propozycja dla kogoś konkretnego; Angebot może też oznaczać towar dostępny w sklepie."
+      ],
       "sectionAccents": {
         "explanation": {
-          "green": [
+          "blue": [
             "anbieten",
-            "biete",
-            "an"
+            "bietet an",
+            "bot an",
+            "angeboten",
+            "bietet",
+            "bot",
+            "Angebot"
+          ],
+          "purple": [
+            "proponować",
+            "oferta",
+            "propozycję"
           ]
         },
         "examples": [
           {
             "de": {
-              "green": [
-                "biete",
-                "an"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "green": [
+              "blue": [
                 "anbieten"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "zaproponować"
+              ]
+            }
           },
           {
             "de": {
-              "green": [
-                "bietet",
-                "an"
+              "blue": [
+                "bietet"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "oferuje"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bot"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Zaproponował"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "angeboten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Zaoferowała"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "bieten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "zapewniać"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "vorschlagen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "sugerować"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "empfehlen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "polecać"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "bietet"
+            ]
+          },
+          {}
+        ],
+        "important": [
+          {
+            "blue": [
+              "anbieten",
+              "Angebot"
+            ]
           }
         ]
       }
@@ -14784,122 +28051,185 @@ const B2_WORDS = [
   },
   {
     "de": "fordern",
-    "lv": "Wymagać • Wymagać",
+    "lv": "żądać • wymagać",
     "level": "B2",
     "study": {
       "id": "b2-fordern",
       "layout": "standardStudy",
-      "translation": "Wymagać • Wymagać",
+      "translation": "żądać • wymagać",
       "explanation": [
-        "Główna idea: Prośba o pieniądze, prawa, zmiany lub obowiązki — aktywne żądanie.",
-        "Fordern oznacza głównie: wymagać / wymagać.",
-        "Często charakteryzuje się: aktywnym popytem.",
-        "Fordern oznacza głównie: żądać standardu.",
-        "Często charakteryzuje się: formalnością.",
-        "Fordern używamy, gdy ktoś prosi o pieniądze, prawa, drobne lub zobowiązania (Sie fordern mehr Geld)."
+        "Główna myśl: fordern znaczy stanowczo żądać lub domagać się czegoś, do czego ktoś ma prawo lub co uważa za należne. Zwykle jest to mocniejsze niż bitten (prosić).",
+        "Czasownik regularny: er fordert, forderte, hat gefordert. Czego się żąda — biernik, od kogo — von + celownik: etwas von jemandem fordern. Może też następować zdanie z dass. W znaczeniu przenośnym fordern może oznaczać pochłaniać ofiary: Der Unfall forderte zwei Todesopfer.",
+        "Uważaj na podobne słowo: fordern (żądać) i fördern (wspierać) różnią się przegłosem."
       ],
       "examples": [
         {
-          "de": "Sie fordert mehr Geld.",
-          "lv": "Prosi o więcej pieniędzy."
+          "de": "Die Arbeiter fordern höhere Löhne.",
+          "lv": "Robotnicy żądają wyższych płac."
         },
         {
-          "de": "Wir fordern mehr Transparenz.",
-          "lv": "Żądamy większej przejrzystości."
+          "de": "Der Lehrer fordert von uns mehr Disziplin.",
+          "lv": "Nauczyciel wymaga od nas większej dyscypliny."
         },
         {
-          "de": "Sie fordert mehr Geld.",
-          "lv": "Prosi o więcej pieniędzy."
+          "de": "Der Unfall forderte zwei Todesopfer.",
+          "lv": "Wypadek pochłonął dwie ofiary śmiertelne."
         },
         {
-          "de": "Wir fordern mehr Sicherheit.",
-          "lv": "Żądamy większego bezpieczeństwa."
+          "de": "Sie forderte, dass er sich entschuldigt.",
+          "lv": "Zażądała, żeby przeprosił."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "fördern",
+          "meaning": "wspierać",
+          "example": "Sport fördert die Gesundheit. – Sport sprzyja zdrowiu."
         },
         {
-          "de": "fordern",
-          "lv": "Żądać • Förden"
+          "word": "verlangen",
+          "meaning": "żądać, prosić o",
+          "example": "Er verlangt die Rechnung. – Prosi o rachunek."
+        },
+        {
+          "word": "bitten",
+          "meaning": "prosić",
+          "example": "Ich bitte dich um Hilfe. – Proszę cię o pomoc."
         }
       ],
       "tip": [
-        "Żądaj pieniędzy, praw, zmian lub obowiązków – roszczenie aktywne.",
-        "Używane przez forder, gdy kontekst pasuje do tego znaczenia."
+        "Jeśli żądasz czegoś od kogoś: etwas von jemandem fordern (von + celownik).",
+        "Odróżniaj parę fordern — fördern: o bez przegłosu to żądać, ö to wspierać."
       ],
       "important": [
-        "Fordern = żądaj / wymagaj (bez ö).",
-        "Zapotrzebowanie, żądanie: fordern (bez ö).",
-        "Żądaj pieniędzy, praw, zmian lub obowiązków – roszczenie aktywne."
+        "Osobę, od której się żąda, zwykle wskazuje się przez von: etwas von jemandem fordern."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "fordern"
+            "fordern",
+            "fordert",
+            "forderte",
+            "gefordert",
+            "fördern",
+            "von"
           ],
           "purple": [
-            "pieniądze",
-            "prawa"
+            "żądać",
+            "domagać się",
+            "żąda"
+          ],
+          "green": [
+            "bitten"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "forde"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "fordern",
                 "fordern"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "żądają"
+              ]
+            }
           },
           {
             "de": {
               "blue": [
-                "forde"
+                "fordert"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "wymaga"
+              ]
+            }
           },
           {
             "de": {
               "blue": [
-                "fordern",
-                "fordern"
+                "forderte"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "pochłonął"
+              ]
+            }
           },
           {
             "de": {
               "blue": [
-                "fordern",
-                "fordern"
+                "forderte"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Zażądała"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "fördern"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "wspierać"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "verlangen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "prosić"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "bitten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "prosić"
+              ]
+            }
           }
         ],
         "tip": [
           {
-            "purple": [
-              "pieniędzy"
+            "blue": [
+              "fordern",
+              "von"
             ]
           },
           {
-            "purple": [
-              "praw"
+            "blue": [
+              "fordern",
+              "fördern"
             ]
           }
         ],
         "important": [
           {
             "blue": [
-              "fordern"
+              "fordern",
+              "von"
             ]
           }
         ]
@@ -14908,101 +28238,183 @@ const B2_WORDS = [
   },
   {
     "de": "fördern",
-    "lv": "Promować • Wspierać",
+    "lv": "wspierać • sprzyjać",
     "level": "B2",
     "study": {
       "id": "b2-foerdern",
       "layout": "standardStudy",
-      "translation": "Promować • Wspierać",
+      "translation": "wspierać • sprzyjać",
       "explanation": [
-        "Główna idea: Promuj rozwój, wspieraj osobę, projekt lub proces.",
-        "Fördern oznacza przede wszystkim: promowanie rozwoju.",
-        "Często charakteryzuje się: wsparciem/postępem.",
-        "Fördern oznacza głównie: wydobywanie minerałów.",
-        "Często charakteryzuje się: w przemyśle.",
-        "Fördern oznacza przede wszystkim: rozwijanie talentów.",
-        "Często charakteryzuje się: w edukacji.",
-        "fördern oznacza promowanie rozwoju, wspieranie osoby lub projektu (Sport fördern die Gesundheit)."
+        "Główna myśl: fördern znaczy wspierać, sprzyjać, pomagać czemuś się rozwijać — talentowi, zdrowiu, gospodarce, projektowi. Często jest to też wsparcie finansowe.",
+        "Czasownik regularny: er fördert, förderte, hat gefördert. Zawsze z biernikiem: etwas/jemanden fördern. Rzeczownik to die Förderung (wspieranie, wsparcie).",
+        "Uważaj: fördern (z ö) to inne słowo niż fordern (żądać)."
       ],
       "examples": [
         {
-          "de": "Sport fördert die Gesundheit.",
-          "lv": "Sport promuje zdrowie."
+          "de": "Der Staat fördert erneuerbare Energien.",
+          "lv": "Państwo wspiera odnawialne źródła energii."
         },
         {
           "de": "Sport fördert die Gesundheit.",
           "lv": "Sport sprzyja zdrowiu."
         },
         {
-          "de": "In der Region wird Öl gefördert.",
-          "lv": "W regionie wydobywa się ropę naftową."
+          "de": "Die Stiftung fördert junge Künstler.",
+          "lv": "Fundacja wspiera młodych artystów."
         },
         {
-          "de": "Die Schule fördert begabte Kinder.",
-          "lv": "Szkoła wspiera dzieci uzdolnione."
+          "de": "Gute Lehrer fördern die Talente der Kinder.",
+          "lv": "Dobrzy nauczyciele wspierają rozwój talentów dzieci."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "fordern",
+          "meaning": "żądać",
+          "example": "Die Arbeiter fordern mehr Geld. – Robotnicy żądają więcej pieniędzy."
+        },
+        {
+          "word": "unterstützen",
+          "meaning": "wspierać",
+          "example": "Ich unterstütze dich. – Wspieram cię."
+        },
+        {
+          "word": "helfen",
+          "meaning": "pomagać",
+          "example": "Er hilft mir. – Pomaga mi."
         }
       ],
       "tip": [
-        "Promuj rozwój, wspieraj osobę, projekt lub proces.",
-        "Użyj förden, gdy kontekst pasuje do tego znaczenia."
+        "Jeśli coś pomaga się rozwijać, używaj fördern: das Wachstum, die Gesundheit, die Kinder.",
+        "Rzeczownik die Förderung: staatliche Förderung — wsparcie państwa."
       ],
       "important": [
-        "Förden = promuj / wspieraj (z ö).",
-        "Promocja, wsparcie: förden (z ö).",
-        "Promuj rozwój, wspieraj osobę, projekt lub proces."
+        "Fördern wymaga biernika, a nie celownika (w odróżnieniu od helfen): Er fördert mich."
       ],
       "sectionAccents": {
         "explanation": {
-          "green": [
-            "fördern"
+          "blue": [
+            "fördern",
+            "fördert",
+            "förderte",
+            "gefördert",
+            "Förderung",
+            "fordern"
           ],
           "purple": [
-            "Promuj",
-            "wspieraj"
+            "wspierać",
+            "sprzyjać",
+            "wsparcie"
           ]
         },
         "examples": [
           {
             "de": {
-              "green": [
-                "förde"
+              "blue": [
+                "fördert"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "wspiera"
+              ]
+            }
           },
           {
             "de": {
-              "green": [
-                "förde"
+              "blue": [
+                "fördert"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "sprzyja"
+              ]
+            }
           },
           {
             "de": {
-              "green": [
-                "gefördert"
+              "blue": [
+                "fördert"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "wspiera"
+              ]
+            }
           },
           {
             "de": {
-              "green": [
-                "förde"
+              "blue": [
+                "fördern"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "wspierają"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "fordern"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "żądać"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "unterstützen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "wspierać"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "helfen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "pomagać"
+              ]
+            }
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "fördern"
+            ]
+          },
+          {
+            "blue": [
+              "Förderung"
+            ]
+          }
         ],
         "important": [
           {
+            "blue": [
+              "fördern",
+              "fördert"
+            ],
             "green": [
-              "Förden"
+              "helfen"
             ]
           }
         ]
@@ -15011,43 +28423,371 @@ const B2_WORDS = [
   },
   {
     "de": "sich verlaufen",
-    "lv": "Spadaj",
+    "lv": "zabłądzić • zgubić się",
     "level": "B2",
     "study": {
       "id": "b2-sich-verlaufen",
-      "layout": "minimalStudy",
-      "translation": "Spadaj",
-      "explanation": "sich verlaufen oznacza zgubić się. Nie ma stałego przyimka. Nie mylić z verlaufenem.",
+      "layout": "standardStudy",
+      "translation": "zabłądzić • zgubić się",
+      "explanation": [
+        "Główna myśl: sich verlaufen znaczy zabłądzić, zgubić się, idąc pieszo — zejść z właściwej drogi i nie wiedzieć, gdzie się jest.",
+        "Czasownik zwrotny: ich verlaufe mich, er verläuft sich, verlief sich, hat sich verlaufen. Perfekt tworzy się z haben. Zwykle używa się go z określeniem miejsca: im Wald, in der Stadt, in den Bergen.",
+        "Kto zabłądzi, jadąc pojazdem, mówi sich verfahren; sich verirren jest ogólniejsze i może znaczyć zabłąkać się."
+      ],
+      "examples": [
+        {
+          "de": "Wir haben uns im Wald verlaufen.",
+          "lv": "Zabłądziliśmy w lesie."
+        },
+        {
+          "de": "Ich verlaufe mich in dieser Stadt ständig.",
+          "lv": "W tym mieście ciągle się gubię."
+        },
+        {
+          "de": "Der Tourist hat sich in der Altstadt verlaufen.",
+          "lv": "Turysta zabłądził na starówce."
+        },
+        {
+          "de": "Pass auf, dass du dich nicht verläufst!",
+          "lv": "Uważaj, żebyś nie zabłądził!"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich verfahren",
+          "meaning": "zabłądzić, jadąc pojazdem",
+          "example": "Wir haben uns verfahren. – Zabłądziliśmy, jadąc samochodem."
+        },
+        {
+          "word": "sich verirren",
+          "meaning": "zabłąkać się",
+          "example": "Das Kind hat sich verirrt. – Dziecko się zabłąkało."
+        },
+        {
+          "word": "verlaufen",
+          "meaning": "przebiegać",
+          "example": "Die Prüfung verlief gut. – Egzamin przebiegł dobrze."
+        }
+      ],
+      "tip": [
+        "Jeśli zabłądziłeś pieszo — sich verlaufen; jeśli samochodem — sich verfahren.",
+        "Kiedy zabłądzisz, możesz powiedzieć: Ich habe mich verlaufen. Können Sie mir helfen?"
+      ],
+      "important": [
+        "Nie myl z verlaufen bez sich: Die Grenze verläuft entlang des Flusses ma zupełnie inne znaczenie."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich verlaufen"
+            "sich verlaufen",
+            "verlaufe",
+            "verläuft",
+            "verlief",
+            "verlaufen",
+            "verfahren"
           ],
-          "red": [
-            "verlaufen"
+          "purple": [
+            "zabłądzić"
+          ],
+          "green": [
+            "sich verfahren",
+            "sich verirren"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "verlaufen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Zabłądziliśmy"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verlaufe"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "gubię"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verlaufen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "zabłądził"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verläufst"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nie zabłądził"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich verfahren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "jadąc"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich verirren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "zabłąkać się"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "verlaufen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "przebiegać"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "sich verlaufen",
+              "verlaufen",
+              "verfahren"
+            ],
+            "green": [
+              "sich verfahren"
+            ]
+          },
+          {
+            "blue": [
+              "verlaufen"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "verläuft",
+              "verlaufen"
+            ]
+          }
+        ]
       }
     }
   },
   {
     "de": "verlaufen",
-    "lv": "Kontynuować • Rzucić",
+    "lv": "przebiegać • odbywać się",
     "level": "B2",
     "study": {
       "id": "b2-verlaufen",
-      "layout": "minimalStudy",
-      "translation": "Kontynuować • Rzucić",
-      "explanation": "verlaufen (bez sich) oznacza bieganie lub tarzanie się. Nie jest synonimem sich verlaufen (zgubić się).",
+      "layout": "standardStudy",
+      "translation": "przebiegać • odbywać się",
+      "explanation": [
+        "Główna myśl: verlaufen (bez sich) znaczy przebiegać, odbywać się w określony sposób: Die Prüfung ist gut verlaufen. Opisuje, jak coś rozwijało się lub zakończyło w czasie.",
+        "Formy: es verläuft, es verlief, es ist verlaufen — Perfekt tworzy się z sein. W znaczeniu przestrzennym verlaufen może znaczyć ciągnąć się, biec (o drodze, granicy, linii): Die Grenze verläuft entlang des Flusses.",
+        "Z sich to inny czasownik: sich verlaufen — zabłądzić."
+      ],
+      "examples": [
+        {
+          "de": "Die Prüfung ist gut verlaufen.",
+          "lv": "Egzamin przebiegł dobrze."
+        },
+        {
+          "de": "Die Operation verlief ohne Probleme.",
+          "lv": "Operacja przebiegła bez problemów."
+        },
+        {
+          "de": "Die Grenze verläuft entlang des Flusses.",
+          "lv": "Granica biegnie wzdłuż rzeki."
+        },
+        {
+          "de": "Wie ist die Besprechung verlaufen?",
+          "lv": "Jak przebiegło spotkanie?"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich verlaufen",
+          "meaning": "zabłądzić",
+          "example": "Ich habe mich verlaufen. – Zabłądziłem."
+        },
+        {
+          "word": "stattfinden",
+          "meaning": "odbywać się, mieć miejsce",
+          "example": "Die Feier findet morgen statt. – Uroczystość odbędzie się jutro."
+        },
+        {
+          "word": "ablaufen",
+          "meaning": "przebiegać, kończyć się",
+          "example": "Der Tag ist ruhig abgelaufen. – Dzień upłynął spokojnie."
+        }
+      ],
+      "tip": [
+        "Zwykle dodaje się sposób: gut, schlecht, ruhig, ohne Probleme verlaufen.",
+        "W medycynie często opisuje przebieg choroby: Die Krankheit verläuft leicht."
+      ],
+      "important": [
+        "W Perfekcie używa się sein: ist verlaufen (a nie hat verlaufen)."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "verlaufen"
-          ],
-          "red": [
+            "verlaufen",
+            "verläuft",
+            "verlief",
+            "ist verlaufen",
             "sich verlaufen"
+          ],
+          "purple": [
+            "przebiegać",
+            "odbywać się",
+            "ciągnąć się"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "verlaufen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "przebiegł"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verlief"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "przebiegła"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verläuft"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "biegnie"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verlaufen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "przebiegło"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich verlaufen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "zabłądzić"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "stattfinden"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "odbywać się"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "ablaufen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "przebiegać"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "verlaufen"
+            ]
+          },
+          {
+            "blue": [
+              "verläuft"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "verlaufen",
+              "ist verlaufen"
+            ]
+          }
+        ]
       }
     }
   }
