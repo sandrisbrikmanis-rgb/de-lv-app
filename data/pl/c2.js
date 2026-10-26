@@ -3,1483 +3,1627 @@ const C2_WORDS = [
     "de": "Unvoreingenommenheit",
     "de_article": "die",
     "de_plural": "die Unvoreingenommenheiten",
-    "lv": "Obiektywizm • Neutralność",
+    "lv": "bezstronność • obiektywizm",
     "level": "C2"
   },
   {
     "de": "konterkarieren",
-    "lv": "Zakłócać",
+    "lv": "udaremniać • torpedować",
     "level": "C2"
   },
   {
     "de": "Stichhaltigkeit",
     "de_article": "die",
     "de_plural": "die Stichhaltigkeiten",
-    "lv": "Rozsądek",
+    "lv": "zasadność",
     "level": "C2"
   },
   {
     "de": "unmissverständlich",
-    "lv": "Niewątpliwy",
+    "lv": "jednoznaczny • niedwuznaczny",
     "level": "C2"
   },
   {
     "de": "Wechselwirkung",
     "de_article": "die",
     "de_plural": "die Wechselwirkungen",
-    "lv": "Wzajemne oddziaływanie",
+    "lv": "wzajemne oddziaływanie • interakcja",
     "level": "C2"
   },
   {
     "de": "veranschaulichen",
-    "lv": "Pokazać w sposób widoczny",
+    "lv": "unaoczniać • obrazować",
     "level": "C2"
   },
   {
     "de": "Schlussfolgerung",
     "de_article": "die",
     "de_plural": "die Schlussfolgerungen",
-    "lv": "Wniosek",
+    "lv": "wniosek",
     "level": "C2"
   },
   {
     "de": "Sorgfaltspflicht",
     "de_article": "die",
-    "lv": "Obowiązek staranności",
+    "lv": "obowiązek należytej staranności",
     "level": "C2"
   },
   {
     "de": "Anfangsbuchstabe",
     "de_article": "der",
     "de_plural": "die Anfangsbuchstaben",
-    "lv": "Pierwszy list",
+    "lv": "pierwsza litera • inicjał",
     "level": "C2"
   },
   {
     "de": "Anführungszeichen",
     "de_article": "das",
     "de_plural": "die Anführungszeichen",
-    "lv": "Cudzysłowy",
+    "lv": "cudzysłów",
     "level": "C2"
   },
   {
     "de": "Abschlussprüfung",
     "de_article": "die",
     "de_plural": "die Abschlussprüfungen",
-    "lv": "Egzamin końcowy",
+    "lv": "egzamin końcowy",
     "level": "C2"
   },
   {
     "de": "Arbeitserlaubnis",
     "de_article": "die",
     "de_plural": "die Arbeitserlaubnisse",
-    "lv": "Pozwolenie na pracę",
+    "lv": "pozwolenie na pracę",
     "level": "C2"
   },
   {
     "de": "Teilnehmerausweis",
     "de_article": "der",
     "de_plural": "die Teilnehmerausweise",
-    "lv": "Kartę członkowską",
+    "lv": "identyfikator uczestnika",
     "level": "C2"
   },
   {
     "de": "batteriebetrieben",
-    "lv": "Zasilany baterią",
+    "lv": "zasilany bateryjnie",
     "level": "C2"
   },
   {
     "de": "beaufsichtigen",
-    "lv": "Monitor",
+    "lv": "nadzorować • pilnować",
     "level": "C2"
   },
   {
     "de": "Lebensbedingungen",
     "de_article": "die",
     "de_plural": "die Lebensbedingungen",
-    "lv": "Warunki życia",
+    "lv": "warunki życia",
     "level": "C2"
   },
   {
     "de": "Behandlungsraum",
     "de_article": "der",
     "de_plural": "die Behandlungsräume",
-    "lv": "Gabinet lekarski",
+    "lv": "gabinet zabiegowy • gabinet lekarski",
     "level": "C2"
   },
   {
     "de": "beispielsweise",
-    "lv": "Na przykład",
+    "lv": "na przykład",
     "level": "C2"
   },
   {
     "de": "Mitgliedsbeitrag",
     "de_article": "der",
     "de_plural": "die Mitgliedsbeiträge",
-    "lv": "Opłata członkowska",
+    "lv": "składka członkowska",
     "level": "C2"
   },
   {
     "de": "benachrichtigen",
-    "lv": "Ogłosić",
+    "lv": "zawiadamiać • powiadamiać",
     "level": "C2"
   },
   {
     "de": "Benzingutschein",
     "de_article": "der",
     "de_plural": "die Benzingutscheine",
-    "lv": "Kupon na benzynę",
+    "lv": "talon na benzynę",
     "level": "C2"
   },
   {
     "de": "Benzinkanister",
     "de_article": "der",
     "de_plural": "die Benzinkanister",
-    "lv": "Kanister z benzyną",
+    "lv": "kanister na benzynę",
     "level": "C2"
   },
   {
     "de": "Benzinverbrauch",
     "de_article": "der",
     "de_plural": "die Benzinverbräuche",
-    "lv": "Zużycie benzyny",
+    "lv": "zużycie benzyny",
     "level": "C2"
   },
   {
     "de": "Bequemlichkeit",
     "de_article": "die",
     "de_plural": "die Bequemlichkeiten",
-    "lv": "Wygoda",
+    "lv": "wygoda",
     "level": "C2"
   },
   {
     "de": "berücksichtigen",
-    "lv": "Wziąć pod uwagę",
+    "lv": "uwzględniać • brać pod uwagę",
     "level": "C2"
   },
   {
     "de": "Berufsausbildung",
     "de_article": "die",
     "de_plural": "die Berufsausbildungen",
-    "lv": "Wykształcenie zawodowe",
+    "lv": "kształcenie zawodowe",
     "level": "C2"
   },
   {
     "de": "Tintenstrahldrucker",
     "de_article": "der",
     "de_plural": "die Tintenstrahldrucker",
-    "lv": "Drukarka atramentowa",
+    "lv": "drukarka atramentowa",
     "level": "C2"
   },
   {
     "de": "Gewichtseinheit",
     "de_article": "die",
     "de_plural": "die Gewichtseinheiten",
-    "lv": "Jednostka masy",
+    "lv": "jednostka wagi",
     "level": "C2",
     "study": {
       "id": "c2-gewichtseinheit",
       "layout": "standardStudy",
-      "translation": "Jednostka masy",
-      "explanation": "Główna idea: die Gewichtseinheit oznacza jednostkę masy. Używa się go, gdy mówimy o kilogramach, gramach, tonach i innych jednostkach wagi/masy.",
+      "translation": "jednostka wagi",
+      "explanation": [
+        "Główna myśl: die Gewichtseinheit to jednostka wagi, której używa się do mierzenia ciężaru: gram, kilogram, tona, funt.",
+        "Rzeczownik złożony rodzaju żeńskiego: die Gewichtseinheit, liczba mnoga die Gewichtseinheiten. Składa się z das Gewicht (waga, ciężar) i die Einheit (jednostka).",
+        "Złożenie jest techniczne i neutralne; na co dzień używa się nazw konkretnych jednostek (Kilogramm, Gramm, Pfund)."
+      ],
       "examples": [
         {
-          "de": "Kilogramm ist eine Gewichtseinheit.",
-          "lv": "Kilogram to jednostka masy."
+          "de": "Das Kilogramm ist eine Gewichtseinheit.",
+          "lv": "Kilogram jest jednostką wagi."
         },
         {
-          "de": "Welche Gewichtseinheit soll ich benutzen?",
-          "lv": "Jakiej jednostki masy powinienem użyć?"
+          "de": "Das Pfund ist eine alte Gewichtseinheit.",
+          "lv": "Funt to dawna jednostka wagi."
         },
         {
-          "de": "Gramm und Tonne sind Gewichtseinheiten.",
-          "lv": "Gram i tona to jednostki masy."
+          "de": "Welche Gewichtseinheit wird in Deutschland verwendet?",
+          "lv": "Jakiej jednostki wagi używa się w Niemczech?"
         }
-      ]
+      ],
+      "comparison": [
+        {
+          "word": "die Maßeinheit",
+          "meaning": "jednostka miary",
+          "example": "Der Meter ist eine Maßeinheit. – Metr jest jednostką miary."
+        },
+        {
+          "word": "die Längeneinheit",
+          "meaning": "jednostka długości",
+          "example": "Der Kilometer ist eine Längeneinheit. – Kilometr jest jednostką długości."
+        },
+        {
+          "word": "das Gewicht",
+          "meaning": "waga, ciężar",
+          "example": "Das Gewicht beträgt zwei Kilo. – Waga wynosi dwa kilogramy."
+        }
+      ],
+      "tip": [
+        "Złożenie przyjmuje rodzajnik ostatniego członu: die Einheit, a więc die Gewichtseinheit.",
+        "Podobnie tworzy się: Längeneinheit, Zeiteinheit, Volumeneinheit."
+      ],
+      "important": [
+        "Na co dzień słowo Gewicht często oznacza masę, jednak w fizyce ciężar i masa to różne pojęcia."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "die Gewichtseinheit",
+            "die Gewichtseinheiten",
+            "Gewichtseinheit",
+            "das Gewicht",
+            "die Einheit",
+            "Gewichtseinheiten"
+          ],
+          "purple": [
+            "jednostka wagi",
+            "jednostka"
+          ],
+          "green": [
+            "Gewicht"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Gewichtseinheit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "jednostką wagi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Gewichtseinheit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "jednostka wagi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Gewichtseinheit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "jednostki wagi"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "die Maßeinheit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "jednostka miary"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Längeneinheit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "długości"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "das Gewicht"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "waga"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "Gewichtseinheit",
+              "die Gewichtseinheit",
+              "die Einheit"
+            ]
+          },
+          {
+            "green": [
+              "Längeneinheit"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "green": [
+              "Gewicht"
+            ]
+          }
+        ]
+      }
     }
   },
   {
     "de": "Elementarkenntnisse",
     "de_article": "die",
-    "lv": "Podstawowa wiedza",
+    "lv": "wiedza podstawowa",
     "level": "C2"
   },
   {
     "de": "entgegenkommen",
-    "lv": "Natknąć się",
+    "lv": "wychodzić naprzeciw",
     "level": "C2"
   },
   {
     "de": "Gebrauchtwagen",
     "de_article": "der",
     "de_plural": "die Gebrauchtwagen",
-    "lv": "Używany samochód",
+    "lv": "samochód używany",
     "level": "C2"
   },
   {
     "de": "Geburtsurkunde",
     "de_article": "die",
     "de_plural": "die Geburtsurkunden",
-    "lv": "Akt urodzenia",
+    "lv": "akt urodzenia",
     "level": "C2"
   },
   {
     "de": "Gehaltsabrechnung",
     "de_article": "die",
     "de_plural": "die Gehaltsabrechnungen",
-    "lv": "Kalkulacja wynagrodzenia",
+    "lv": "rozliczenie wynagrodzenia",
     "level": "C2"
   },
   {
     "de": "Gehaltserhöhung",
     "de_article": "die",
     "de_plural": "die Gehaltserhöhungen",
-    "lv": "Podwyżka wynagrodzenia",
+    "lv": "podwyżka",
     "level": "C2"
   },
   {
     "de": "Gehirnerschütterung",
     "de_article": "die",
     "de_plural": "die Gehirnerschütterungen",
-    "lv": "Wstrząs mózgu",
+    "lv": "wstrząśnienie mózgu",
     "level": "C2"
   },
   {
     "de": "Gepäckaufbewahrung",
     "de_article": "die",
     "de_plural": "die Gepäckaufbewahrungen",
-    "lv": "Przechowalnia bagażu",
+    "lv": "przechowalnia bagażu",
     "level": "C2"
   },
   {
     "de": "Geschäftsführer",
     "de_article": "der",
     "de_plural": "die Geschäftsführer",
-    "lv": "Menadżer firmy",
+    "lv": "dyrektor zarządzający • kierownik",
     "level": "C2"
   },
   {
     "de": "Geschäftspartner",
     "de_article": "der",
     "de_plural": "die Geschäftspartner",
-    "lv": "Partnerem biznesowym",
+    "lv": "partner w interesach • kontrahent",
     "level": "C2"
   },
   {
     "de": "Geschenkgutschein",
     "de_article": "der",
     "de_plural": "die Geschenkgutscheine",
-    "lv": "Karta podarunkowa",
+    "lv": "bon podarunkowy • karta podarunkowa",
     "level": "C2"
   },
   {
     "de": "Geschenkpackung",
     "de_article": "die",
     "de_plural": "die Geschenkpackungen",
-    "lv": "Pakowanie prezentów",
+    "lv": "opakowanie prezentowe",
     "level": "C2"
   },
   {
     "de": "Gleichheitszeichen",
     "de_article": "das",
     "de_plural": "die Gleichheitszeichen",
-    "lv": "Znak równości",
+    "lv": "znak równości",
     "level": "C2"
   },
   {
     "de": "Inhaltsverzeichnis",
     "de_article": "das",
     "de_plural": "die Inhaltsverzeichnisse",
-    "lv": "Spis treści",
+    "lv": "spis treści",
     "level": "C2"
   },
   {
     "de": "Streichinstrument",
     "de_article": "das",
     "de_plural": "die Streichinstrumente",
-    "lv": "Instrument strunowy",
+    "lv": "instrument smyczkowy",
     "level": "C2"
   },
   {
     "de": "Kassettenrecorder",
     "de_article": "der",
     "de_plural": "die Kassettenrecorder",
-    "lv": "Magnetofon kasetowy",
+    "lv": "magnetofon kasetowy",
     "level": "C2"
   },
   {
     "de": "Katastrophendienst",
     "de_article": "der",
-    "lv": "Służba katastroficzna",
+    "lv": "służba ratownicza",
     "level": "C2"
   },
   {
     "de": "Kostenerstattung",
     "de_article": "die",
     "de_plural": "die Kostenerstattungen",
-    "lv": "Zwrot kosztów",
+    "lv": "zwrot kosztów",
     "level": "C2"
   },
   {
     "de": "Kostensteigerung",
     "de_article": "die",
     "de_plural": "die Kostensteigerungen",
-    "lv": "Rosnące koszty",
+    "lv": "wzrost kosztów",
     "level": "C2"
   },
   {
     "de": "Krankenversicherung",
     "de_article": "die",
     "de_plural": "die Krankenversicherungen",
-    "lv": "Ubezpieczenie na wypadek choroby",
+    "lv": "ubezpieczenie zdrowotne",
     "level": "C2"
   },
   {
     "de": "Krankheitssymptom",
     "de_article": "das",
     "de_plural": "die Krankheitssymptome",
-    "lv": "Objaw choroby",
+    "lv": "objaw choroby",
     "level": "C2"
   },
   {
     "de": "Krankheitsüberträger",
     "de_article": "der",
     "de_plural": "die Krankheitsüberträger",
-    "lv": "Nosiciel choroby",
+    "lv": "nosiciel choroby",
     "level": "C2"
   },
   {
     "de": "Liebenswürdigkeit",
     "de_article": "die",
     "de_plural": "die Liebenswürdigkeiten",
-    "lv": "Życzliwość",
+    "lv": "uprzejmość",
     "level": "C2"
   },
   {
     "de": "Luftverschmutzung",
     "de_article": "die",
     "de_plural": "die Luftverschmutzungen",
-    "lv": "Zanieczyszczenie powietrza",
+    "lv": "zanieczyszczenie powietrza",
     "level": "C2"
   },
   {
     "de": "Lungenentzündung",
     "de_article": "die",
     "de_plural": "die Lungenentzündungen",
-    "lv": "Rak płuc",
+    "lv": "zapalenie płuc",
     "level": "C2"
   },
   {
     "de": "Nebelscheinwerfer",
     "de_article": "der",
     "de_plural": "die Nebelscheinwerfer",
-    "lv": "Lampa przeciwmgielna do samochodów",
+    "lv": "reflektor przeciwmgielny",
     "level": "C2"
   },
   {
     "de": "Personenkraftwagen",
     "de_article": "der",
     "de_plural": "die Personenkraftwagen",
-    "lv": "Samochód osobowy",
+    "lv": "samochód osobowy",
     "level": "C2"
   },
   {
     "de": "Reisebeschreibung",
     "de_article": "die",
     "de_plural": "die Reisebeschreibungen",
-    "lv": "Opis podróży",
+    "lv": "opis podróży",
     "level": "C2"
   },
   {
     "de": "Reparaturwerkstatt",
     "de_article": "die",
     "de_plural": "die Reparaturwerkstätten",
-    "lv": "Warsztat naprawczy",
+    "lv": "warsztat naprawczy",
     "level": "C2"
   },
   {
     "de": "Rundfunkempfänger",
     "de_article": "der",
     "de_plural": "die Rundfunkempfänger",
-    "lv": "Odbiornik radiowy",
+    "lv": "odbiornik radiowy",
     "level": "C2"
   },
   {
     "de": "Schlafwagenzimmer",
     "de_article": "das",
     "de_plural": "die Schlafwagenzimmer",
-    "lv": "Sypialnia",
+    "lv": "przedział sypialny",
     "level": "C2"
   },
   {
     "de": "Schlittschuhkufe",
     "de_article": "die",
     "de_plural": "die Schlittschuhkufen",
-    "lv": "Nachylenie sanek",
+    "lv": "płoza łyżwy",
     "level": "C2"
   },
   {
     "de": "Schornsteinfeger",
     "de_article": "der",
     "de_plural": "die Schornsteinfeger",
-    "lv": "Kominiarz",
+    "lv": "kominiarz",
     "level": "C2"
   },
   {
     "de": "selbstverständlich",
-    "lv": "Oczywiste",
+    "lv": "oczywisty • oczywiście",
     "level": "C2"
   },
   {
     "de": "sicherheitshalber",
-    "lv": "Dla bezpieczeństwa",
+    "lv": "dla bezpieczeństwa • na wszelki wypadek",
     "level": "C2"
   },
   {
     "de": "Sozialversicherung",
     "de_article": "die",
     "de_plural": "die Sozialversicherungen",
-    "lv": "Ubezpieczenie społeczne",
+    "lv": "ubezpieczenie społeczne",
     "level": "C2"
   },
   {
     "de": "Straßenbahnführer",
     "de_article": "der",
     "de_plural": "die Straßenbahnführer",
-    "lv": "Kierowca tramwaju",
+    "lv": "motorniczy",
     "level": "C2"
   },
   {
     "de": "Straßenbahnstrecke",
     "de_article": "die",
     "de_plural": "die Straßenbahnstrecken",
-    "lv": "Linia tramwajowa",
+    "lv": "linia tramwajowa",
     "level": "C2"
   },
   {
     "de": "Straßenüberführung",
     "de_article": "die",
     "de_plural": "die Straßenüberführungen",
-    "lv": "Wiadukt drogowy",
+    "lv": "wiadukt • estakada",
     "level": "C2"
   },
   {
     "de": "Straßenunterführung",
     "de_article": "die",
     "de_plural": "die Straßenunterführungen",
-    "lv": "Tunel dla pieszych",
+    "lv": "przejście podziemne",
     "level": "C2"
   },
   {
     "de": "verantwortlich",
-    "lv": "Odpowiedzialny",
+    "lv": "odpowiedzialny",
     "level": "C2"
   },
   {
     "de": "Verkehrsunfall",
     "de_article": "der",
     "de_plural": "die Verkehrsunfälle",
-    "lv": "Wypadek drogowy",
+    "lv": "wypadek drogowy",
     "level": "C2"
   },
   {
     "de": "veröffentlichen",
-    "lv": "Opublikować",
+    "lv": "publikować",
     "level": "C2"
   },
   {
     "de": "verschlechtern",
-    "lv": "Pogarszać",
+    "lv": "pogarszać",
     "level": "C2"
   },
   {
     "de": "sich verschlechtern",
-    "lv": "Pogorszyć się",
+    "lv": "pogarszać się",
     "level": "C2"
   },
   {
     "de": "Vorstellungsgespräch",
     "de_article": "das",
     "de_plural": "die Vorstellungsgespräche",
-    "lv": "Rozmowa kwalifikacyjna",
+    "lv": "rozmowa kwalifikacyjna",
     "level": "C2"
   },
   {
     "de": "Wettervorhersage",
     "de_article": "die",
     "de_plural": "die Wettervorhersagen",
-    "lv": "Prognoza pogody",
+    "lv": "prognoza pogody",
     "level": "C2"
   },
   {
     "de": "Windschutzscheibe",
     "de_article": "die",
     "de_plural": "die Windschutzscheiben",
-    "lv": "Szyba samochodu",
+    "lv": "przednia szyba",
     "level": "C2"
   },
   {
     "de": "Sehenswürdigkeit",
     "de_article": "die",
     "de_plural": "die Sehenswürdigkeiten",
-    "lv": "Wybitne miejsce",
+    "lv": "zabytek • atrakcja turystyczna",
     "level": "C2"
   },
   {
     "de": "Abenteuergeschichte",
     "de_article": "die",
     "de_plural": "die Abenteuergeschichten",
-    "lv": "Historia pewnego romansu",
+    "lv": "opowieść przygodowa",
     "level": "C2"
   },
   {
     "de": "Abgeordnetenhaus",
     "de_article": "das",
     "de_plural": "die Abgeordnetenhäuser",
-    "lv": "Parlament",
+    "lv": "izba poselska",
     "level": "C2"
   },
   {
     "de": "Aufenthaltsgenehmigung",
     "de_article": "die",
     "de_plural": "die Aufenthaltsgenehmigungen",
-    "lv": "Zezwolenie na pobyt",
+    "lv": "zezwolenie na pobyt",
     "level": "C2"
   },
   {
     "de": "Gedankenaustausch",
     "de_article": "der",
     "de_plural": "die Gedankenaustausche",
-    "lv": "Wymiana pomysłów",
+    "lv": "wymiana myśli • wymiana poglądów",
     "level": "C2"
   },
   {
     "de": "Behindertenausweis",
     "de_article": "der",
     "de_plural": "die Behindertenausweise",
-    "lv": "Orzeczenie o niepełnosprawności",
+    "lv": "legitymacja osoby niepełnosprawnej",
     "level": "C2"
   },
   {
     "de": "Baugenossenschaft",
     "de_article": "die",
     "de_plural": "die Baugenossenschaften",
-    "lv": "Spółdzielnia mieszkaniowa",
+    "lv": "spółdzielnia mieszkaniowa",
     "level": "C2"
   },
   {
     "de": "Arbeitslosenbeihilfe",
     "de_article": "die",
     "de_plural": "die Arbeitslosenbeihilfen",
-    "lv": "Zasiłek dla bezrobotnych",
+    "lv": "zasiłek dla bezrobotnych",
     "level": "C2"
   },
   {
     "de": "Ausbildungsbeihilfe",
     "de_article": "die",
     "de_plural": "die Ausbildungsbeihilfen",
-    "lv": "Dodatek na naukę",
+    "lv": "zasiłek szkoleniowy • stypendium",
     "level": "C2"
   },
   {
     "de": "Unternehmensberater",
     "de_article": "der",
     "de_plural": "die Unternehmensberater",
-    "lv": "Konsultant firmy",
+    "lv": "doradca biznesowy • konsultant",
     "level": "C2"
   },
   {
     "de": "Berichterstatter",
     "de_article": "der",
     "de_plural": "die Berichterstatter",
-    "lv": "Reporter • Reporter • Korespondent • Reporter",
+    "lv": "sprawozdawca • korespondent • reporter",
     "level": "C2"
   },
   {
     "de": "Berufsbezeichnung",
     "de_article": "die",
     "de_plural": "die Berufsbezeichnungen",
-    "lv": "Tytuł pracy",
+    "lv": "nazwa zawodu • nazwa stanowiska",
     "level": "C2"
   },
   {
     "de": "Besatzungsregime",
     "de_article": "das",
     "de_plural": "die Besatzungsregime",
-    "lv": "Reżim okupacyjny",
+    "lv": "reżim okupacyjny",
     "level": "C2"
   },
   {
     "de": "Besatzungstruppen",
     "de_article": "die",
     "de_plural": "die Besatzungstruppen",
-    "lv": "Wojska okupacyjne",
+    "lv": "wojska okupacyjne",
     "level": "C2"
   },
   {
     "de": "Bevölkerungsdichte",
     "de_article": "die",
     "de_plural": "die Bevölkerungsdichten",
-    "lv": "Gęstość zaludnienia",
+    "lv": "gęstość zaludnienia",
     "level": "C2"
   },
   {
     "de": "Bildberichterstatter",
     "de_article": "der",
     "de_plural": "die Bildberichterstatter",
-    "lv": "Korespondent fotograficzny",
+    "lv": "fotoreporter",
     "level": "C2"
   },
   {
     "de": "Wirtschaftsblock",
     "de_article": "der",
     "de_plural": "die Wirtschaftsblöcke",
-    "lv": "Blok gospodarczy",
+    "lv": "blok gospodarczy",
     "level": "C2"
   },
   {
     "de": "Wirtschaftsblockade",
     "de_article": "die",
     "de_plural": "die Wirtschaftsblockaden",
-    "lv": "Blokada gospodarcza",
+    "lv": "blokada gospodarcza",
     "level": "C2"
   },
   {
     "de": "Bluttransfusion",
     "de_article": "die",
     "de_plural": "die Bluttransfusionen",
-    "lv": "Transfuzja krwi",
+    "lv": "transfuzja krwi • przetoczenie krwi",
     "level": "C2"
   },
   {
     "de": "Computersimulation",
     "de_article": "die",
     "de_plural": "die Computersimulationen",
-    "lv": "Symulacja komputerowa",
+    "lv": "symulacja komputerowa",
     "level": "C2"
   },
   {
     "de": "Computerwissenschaft",
     "de_article": "die",
     "de_plural": "die Computerwissenschaften",
-    "lv": "Informatyka • Informatyka",
+    "lv": "informatyka",
     "level": "C2"
   },
   {
     "de": "Informationsdefizit",
     "de_article": "das",
-    "lv": "Deficyt informacji",
+    "lv": "brak informacji • niedobór informacji",
     "level": "C2"
   },
   {
     "de": "Sittlichkeitsdelikt",
     "de_article": "das",
     "de_plural": "die Sittlichkeitsdelikte",
-    "lv": "Naruszenie norm moralnych",
+    "lv": "przestępstwo obyczajowe",
     "level": "C2"
   },
   {
     "de": "Rauschgiftdezernat",
     "de_article": "das",
     "de_plural": "die Rauschgiftdezernate",
-    "lv": "Dział narkotykowy",
+    "lv": "wydział antynarkotykowy",
     "level": "C2"
   },
   {
     "de": "Dialektik",
     "de_article": "die",
     "de_plural": "die Dialektiken",
-    "lv": "Dialektyka",
+    "lv": "dialektyka",
     "level": "C2"
   },
   {
     "de": "Bereitschaftsdienst",
     "de_article": "der",
     "de_plural": "die Bereitschaftsdienste",
-    "lv": "Obsługa operacyjna",
+    "lv": "dyżur",
     "level": "C2"
   },
   {
     "de": "Durchfuhrerlaubnis",
     "de_article": "die",
     "de_plural": "die Durchfuhrerlaubnisse",
-    "lv": "Zezwolenie na tranzyt",
+    "lv": "zezwolenie na tranzyt",
     "level": "C2"
   },
   {
     "de": "durchkreuzen",
-    "lv": "Przekreślić • Krzyżować • Krzyżować • Zakłócać",
+    "lv": "krzyżować • przekreślać • przemierzać",
     "level": "C2"
   },
   {
     "de": "Durchschnittsalter",
     "de_article": "das",
     "de_plural": "die Durchschnittsalter",
-    "lv": "Średni wiek",
+    "lv": "średni wiek",
     "level": "C2"
   },
   {
     "de": "Durchschnittsverdienst",
     "de_article": "der",
     "de_plural": "die Durchschnittsverdienste",
-    "lv": "Średnie zarobki",
+    "lv": "średnie wynagrodzenie",
     "level": "C2"
   },
   {
     "de": "Durchschnittsleistung",
     "de_article": "die",
     "de_plural": "die Durchschnittsleistungen",
-    "lv": "Średnia wydajność • Średnia wydajność",
+    "lv": "przeciętny wynik",
     "level": "C2"
   },
   {
     "de": "Durchschnittsmensch",
     "de_article": "der",
     "de_plural": "die Durchschnittsmenschen",
-    "lv": "Przeciętna osoba",
+    "lv": "przeciętny człowiek",
     "level": "C2"
   },
   {
     "de": "Einfuhrbeschränkung",
     "de_article": "die",
     "de_plural": "die Einfuhrbeschränkungen",
-    "lv": "Ograniczenie importu",
+    "lv": "ograniczenie importu",
     "level": "C2"
   },
   {
     "de": "Einstellungsgespräch",
     "de_article": "das",
     "de_plural": "die Einstellungsgespräche",
-    "lv": "Rozmowa kwalifikacyjna",
+    "lv": "rozmowa kwalifikacyjna",
     "level": "C2"
   },
   {
     "de": "Empfehlungsschreiben",
     "de_article": "das",
     "de_plural": "die Empfehlungsschreiben",
-    "lv": "Pisemna rekomendacja",
+    "lv": "list polecający",
     "level": "C2"
   },
   {
     "de": "Entbindungsanstalt",
     "de_article": "die",
     "de_plural": "die Entbindungsanstalten",
-    "lv": "Szpital położniczy",
+    "lv": "szpital położniczy • izba porodowa",
     "level": "C2"
   },
   {
     "de": "entgegengesetzt",
-    "lv": "Odwrotnie",
+    "lv": "przeciwny • przeciwległy",
     "level": "C2"
   },
   {
     "de": "Entschlossenheit",
     "de_article": "die",
     "de_plural": "die Entschlossenheiten",
-    "lv": "Pewność • Determinacja • Niekwestionowanie",
+    "lv": "zdecydowanie • stanowczość",
     "level": "C2"
   },
   {
     "de": "Entwicklungsland",
     "de_article": "das",
     "de_plural": "die Entwicklungsländer",
-    "lv": "Kraina rozwoju",
+    "lv": "kraj rozwijający się",
     "level": "C2"
   },
   {
     "de": "Erfrischungsraum",
     "de_article": "der",
     "de_plural": "die Erfrischungsräume",
-    "lv": "Bufet",
+    "lv": "bufet",
     "level": "C2"
   },
   {
     "de": "Regierungserklärung",
     "de_article": "die",
     "de_plural": "die Regierungserklärungen",
-    "lv": "Ogłoszenie rządu",
+    "lv": "oświadczenie rządu",
     "level": "C2"
   },
   {
     "de": "Errungenschaft",
     "de_article": "die",
     "de_plural": "die Errungenschaften",
-    "lv": "Osiągnięcie • Korzyść • Zysk",
+    "lv": "osiągnięcie • zdobycz",
     "level": "C2"
   },
   {
     "de": "Erwachsenenbildung",
     "de_article": "die",
     "de_plural": "die Erwachsenenbildungen",
-    "lv": "Edukacja dorosłych",
+    "lv": "kształcenie dorosłych",
     "level": "C2"
   },
   {
     "de": "Fallschirmspringen",
     "de_article": "das",
-    "lv": "Skydiving",
+    "lv": "skoki spadochronowe",
     "level": "C2"
   },
   {
     "de": "Friedensbedingungen",
     "de_article": "die",
     "de_plural": "die Friedensbedingungen",
-    "lv": "Warunki pokojowe",
+    "lv": "warunki pokoju",
     "level": "C2"
   },
   {
     "de": "Friedensverhandlungen",
     "de_article": "die",
     "de_plural": "die Friedensverhandlungen",
-    "lv": "Rozmowy pokojowe",
+    "lv": "rokowania pokojowe • negocjacje pokojowe",
     "level": "C2"
   },
   {
     "de": "Führereigenschaften",
     "de_article": "die",
     "de_plural": "die Führereigenschaften",
-    "lv": "Cechy przywódcze",
+    "lv": "cechy przywódcze",
     "level": "C2"
   },
   {
     "de": "Führerpersönlichkeit",
     "de_article": "die",
     "de_plural": "die Führerpersönlichkeiten",
-    "lv": "Osobowość przywódcza",
+    "lv": "osobowość przywódcza",
     "level": "C2"
   },
   {
     "de": "Fußballweltmeisterschaft",
     "de_article": "die",
     "de_plural": "die Fußballweltmeisterschaften",
-    "lv": "Mistrzostwa świata w piłce nożnej",
+    "lv": "mistrzostwa świata w piłce nożnej",
     "level": "C2"
   },
   {
     "de": "Geburtenkontrolle",
     "de_article": "die",
     "de_plural": "die Geburtenkontrollen",
-    "lv": "Kontrola urodzeń",
+    "lv": "kontrola urodzeń",
     "level": "C2"
   },
   {
     "de": "Gedächtnisschwäche",
     "de_article": "die",
     "de_plural": "die Gedächtnisschwächen",
-    "lv": "Zła pamięć",
+    "lv": "słaba pamięć",
     "level": "C2"
   },
   {
     "de": "Gedächtnisstörung",
     "de_article": "die",
     "de_plural": "die Gedächtnisstörungen",
-    "lv": "Upośledzenie pamięci",
+    "lv": "zaburzenia pamięci",
     "level": "C2"
   },
   {
     "de": "Gefängnisaufseher",
     "de_article": "der",
     "de_plural": "die Gefängnisaufseher",
-    "lv": "Naczelnik więzienia",
+    "lv": "strażnik więzienny",
     "level": "C2"
   },
   {
     "de": "Gefängnisinsasse",
     "de_article": "der",
     "de_plural": "die Gefängnisinsassen",
-    "lv": "Więzień",
+    "lv": "więzień",
     "level": "C2"
   },
   {
     "de": "Gefäßerweiterung",
     "de_article": "die",
     "de_plural": "die Gefäßerweiterungen",
-    "lv": "Rozszerzenie naczyń krwionośnych",
+    "lv": "rozszerzenie naczyń krwionośnych",
     "level": "C2"
   },
   {
     "de": "Geistesgegenwart",
     "de_article": "die",
-    "lv": "Pomysłowość",
+    "lv": "przytomność umysłu",
     "level": "C2"
   },
   {
     "de": "geistige Getränke",
-    "lv": "Napoje alkoholowe",
+    "lv": "napoje alkoholowe • napoje wyskokowe",
     "level": "C2"
   },
   {
     "de": "Gelegenheitsarbeiter",
     "de_article": "der",
     "de_plural": "die Gelegenheitsarbeiter",
-    "lv": "Przypadkowy robotnik",
+    "lv": "pracownik dorywczy",
     "level": "C2"
   },
   {
     "de": "Gemäldeausstellung",
     "de_article": "die",
     "de_plural": "die Gemäldeausstellungen",
-    "lv": "Wystawa obrazów",
+    "lv": "wystawa obrazów",
     "level": "C2"
   },
   {
     "de": "Arbeitsgemeinschaft",
     "de_article": "die",
     "de_plural": "die Arbeitsgemeinschaften",
-    "lv": "Grupa robocza",
+    "lv": "grupa robocza • zespół roboczy",
     "level": "C2"
   },
   {
     "de": "Dorfgemeinschaft",
     "de_article": "die",
     "de_plural": "die Dorfgemeinschaften",
-    "lv": "Wieśniacy",
+    "lv": "społeczność wiejska",
     "level": "C2"
   },
   {
     "de": "Forschungsgemeinschaft",
     "de_article": "die",
     "de_plural": "die Forschungsgemeinschaften",
-    "lv": "Grupa badawcza",
+    "lv": "zespół badawczy",
     "level": "C2"
   },
   {
     "de": "Generalreparatur",
     "de_article": "die",
     "de_plural": "die Generalreparaturen",
-    "lv": "Wyremontować",
+    "lv": "remont kapitalny",
     "level": "C2"
   },
   {
     "de": "Generalversammlung",
     "de_article": "die",
     "de_plural": "die Generalversammlungen",
-    "lv": "Zgromadzenie ogólne",
+    "lv": "walne zgromadzenie • zgromadzenie ogólne",
     "level": "C2"
   },
   {
     "de": "Genossenschaft",
     "de_article": "die",
     "de_plural": "die Genossenschaften",
-    "lv": "Spółdzielnia • Artel",
+    "lv": "spółdzielnia",
     "level": "C2"
   },
   {
     "de": "Gerechtigkeitsgefühl",
     "de_article": "das",
     "de_plural": "die Gerechtigkeitsgefühle",
-    "lv": "Sprawiedliwość • Poczucie sprawiedliwości",
+    "lv": "poczucie sprawiedliwości",
     "level": "C2"
   },
   {
     "de": "Schiedsgericht",
     "de_article": "das",
     "de_plural": "die Schiedsgerichte",
-    "lv": "Arbitraż",
+    "lv": "sąd polubowny • sąd arbitrażowy",
     "level": "C2"
   },
   {
     "de": "Gerichtsverfahren",
     "de_article": "das",
     "de_plural": "die Gerichtsverfahren",
-    "lv": "Postępowanie sądowe",
+    "lv": "postępowanie sądowe • proces",
     "level": "C2"
   },
   {
     "de": "Geschäftsordnung",
     "de_article": "die",
     "de_plural": "die Geschäftsordnungen",
-    "lv": "Regulacje • Regulacje",
+    "lv": "regulamin",
     "level": "C2"
   },
   {
     "de": "Geschlechtsverkehr",
     "de_article": "der",
-    "lv": "Stosunek płciowy",
+    "lv": "stosunek płciowy",
     "level": "C2"
   },
   {
     "de": "Geschwindigkeitsbegrenzung",
     "de_article": "die",
     "de_plural": "die Geschwindigkeitsbegrenzungen",
-    "lv": "Ograniczenie prędkości",
+    "lv": "ograniczenie prędkości",
     "level": "C2"
   },
   {
     "de": "Geschwindigkeitskontrolle",
     "de_article": "die",
     "de_plural": "die Geschwindigkeitskontrollen",
-    "lv": "Kontrola prędkości",
+    "lv": "kontrola prędkości",
     "level": "C2"
   },
   {
     "de": "Geschwindigkeitsmessung",
     "de_article": "die",
     "de_plural": "die Geschwindigkeitsmessungen",
-    "lv": "Pomiar prędkości",
+    "lv": "pomiar prędkości",
     "level": "C2"
   },
   {
     "de": "Geschwindigkeitsüberschreitung",
     "de_article": "die",
     "de_plural": "die Geschwindigkeitsüberschreitungen",
-    "lv": "Nieprzestrzeganie przepisowej prędkości • Naruszenie",
+    "lv": "przekroczenie prędkości",
     "level": "C2"
   },
   {
     "de": "gesellschaftlich",
-    "lv": "Społeczeństwa • Publiczne",
+    "lv": "społeczny",
     "level": "C2"
   },
   {
     "de": "Gesellschaftsordnung",
     "de_article": "die",
     "de_plural": "die Gesellschaftsordnungen",
-    "lv": "Obiekt publiczny",
+    "lv": "ustrój społeczny",
     "level": "C2"
   },
   {
     "de": "Gesetzesvorlage",
     "de_article": "die",
     "de_plural": "die Gesetzesvorlagen",
-    "lv": "Rachunek",
+    "lv": "projekt ustawy",
     "level": "C2"
   },
   {
     "de": "gesetzgebende Gewalt",
     "de_article": "die",
     "de_plural": "die gesetzgebenden Gewalten",
-    "lv": "Władza legislacyjna",
+    "lv": "władza ustawodawcza",
     "level": "C2"
   },
   {
     "de": "Gewerkschaftsbeitrag",
     "de_article": "der",
     "de_plural": "die Gewerkschaftsbeiträge",
-    "lv": "Składki członkowskie związkowe",
+    "lv": "składka związkowa",
     "level": "C2"
   },
   {
     "de": "Gewerkschaftsmitglied",
     "de_article": "das",
     "de_plural": "die Gewerkschaftsmitglieder",
-    "lv": "Członek związku",
+    "lv": "członek związku zawodowego • związkowiec",
     "level": "C2"
   },
   {
     "de": "Gewinnauszahlung",
     "de_article": "die",
     "de_plural": "die Gewinnauszahlungen",
-    "lv": "Wypłata wygranych na loterii",
+    "lv": "wypłata wygranej",
     "level": "C2"
   },
   {
     "de": "Gipfelkonferenz",
     "de_article": "die",
     "de_plural": "die Gipfelkonferenzen",
-    "lv": "Konferencja na najwyższym poziomie",
+    "lv": "konferencja na szczycie • szczyt",
     "level": "C2"
   },
   {
     "de": "Gleichberechtigung",
     "de_article": "die",
     "de_plural": "die Gleichberechtigungen",
-    "lv": "Równość",
+    "lv": "równouprawnienie",
     "level": "C2"
   },
   {
     "de": "Grundnahrungsmittel",
     "de_article": "das",
     "de_plural": "die Grundnahrungsmittel",
-    "lv": "Podstawowe pożywienie",
+    "lv": "podstawowy artykuł spożywczy",
     "level": "C2"
   },
   {
     "de": "Handelsabkommen",
     "de_article": "das",
     "de_plural": "die Handelsabkommen",
-    "lv": "Umowa handlowa",
+    "lv": "umowa handlowa",
     "level": "C2"
   },
   {
     "de": "Hausgemeinschaft",
     "de_article": "die",
     "de_plural": "die Hausgemeinschaften",
-    "lv": "Członkowie rodziny • Mieszkańcy domu",
+    "lv": "domownicy • mieszkańcy domu",
     "level": "C2"
   },
   {
     "de": "Haushaltsausschuss",
     "de_article": "der",
     "de_plural": "die Haushaltsausschüsse",
-    "lv": "Komisja budżetowa",
+    "lv": "komisja budżetowa",
     "level": "C2"
   },
   {
     "de": "Herztransplantation",
     "de_article": "die",
     "de_plural": "die Herztransplantationen",
-    "lv": "Przeszczep serca",
+    "lv": "przeszczep serca",
     "level": "C2"
   },
   {
     "de": "Hinterlassenschaft",
     "de_article": "die",
     "de_plural": "die Hinterlassenschaften",
-    "lv": "Dziedzictwo",
+    "lv": "spuścizna • spadek",
     "level": "C2"
   },
   {
     "de": "Kabinettsbeschluss",
     "de_article": "der",
     "de_plural": "die Kabinettsbeschlüsse",
-    "lv": "Decyzja gabinetu",
+    "lv": "uchwała rządu",
     "level": "C2"
   },
   {
     "de": "Kabinettsmitglied",
     "de_article": "das",
     "de_plural": "die Kabinettsmitglieder",
-    "lv": "Członek gabinetu • Minister",
+    "lv": "członek rządu • minister",
     "level": "C2"
   },
   {
     "de": "Koalitionspartner",
     "de_article": "der",
     "de_plural": "die Koalitionspartner",
-    "lv": "Partnera koalicyjnego",
+    "lv": "koalicjant • partner koalicyjny",
     "level": "C2"
   },
   {
     "de": "Koalitionsregierung",
     "de_article": "die",
     "de_plural": "die Koalitionsregierungen",
-    "lv": "Rząd koalicyjny",
+    "lv": "rząd koalicyjny",
     "level": "C2"
   },
   {
     "de": "Kriegsentschädigung",
     "de_article": "die",
     "de_plural": "die Kriegsentschädigungen",
-    "lv": "Odszkodowania za straty wojenne • Reparacje",
+    "lv": "odszkodowanie wojenne • reparacje",
     "level": "C2"
   },
   {
     "de": "Lebenserhaltungstrieb",
     "de_article": "der",
     "de_plural": "die Lebenserhaltungstriebe",
-    "lv": "Napęd życia",
+    "lv": "instynkt samozachowawczy",
     "level": "C2"
   },
   {
     "de": "Lebenshaltungskosten",
     "de_article": "die",
     "de_plural": "die Lebenshaltungskosten",
-    "lv": "Środki utrzymania • Koszty",
+    "lv": "koszty utrzymania",
     "level": "C2"
   },
   {
     "de": "Lebensversicherung",
     "de_article": "die",
     "de_plural": "die Lebensversicherungen",
-    "lv": "Ubezpieczenie na życie",
+    "lv": "ubezpieczenie na życie",
     "level": "C2"
   },
   {
     "de": "Leistungsfähigkeit",
     "de_article": "die",
     "de_plural": "die Leistungsfähigkeiten",
-    "lv": "Zdolność robocza • Produktywność • Wydajność",
+    "lv": "sprawność • wydajność",
     "level": "C2"
   },
   {
     "de": "Mannschaftskampf",
     "de_article": "der",
     "de_plural": "die Mannschaftskämpfe",
-    "lv": "Rywalizacja zespołowa",
+    "lv": "zawody drużynowe",
     "level": "C2"
   },
   {
     "de": "Marktwirtschaft",
     "de_article": "die",
     "de_plural": "die Marktwirtschaften",
-    "lv": "Gospodarka rynkowa",
+    "lv": "gospodarka rynkowa",
     "level": "C2"
   },
   {
     "de": "Meinungsverschiedenheiten",
     "de_article": "die",
     "de_plural": "die Meinungsverschiedenheiten",
-    "lv": "Nieporozumienia",
+    "lv": "różnice zdań",
     "level": "C2"
   },
   {
     "de": "Meisterschaftsspiel",
     "de_article": "das",
     "de_plural": "die Meisterschaftsspiele",
-    "lv": "Rasa mistrzów",
+    "lv": "mecz mistrzowski",
     "level": "C2"
   },
   {
     "de": "menschenfreundlich",
-    "lv": "Humanitarny • Humanitarny",
+    "lv": "przyjazny ludziom • humanitarny",
     "level": "C2"
   },
   {
     "de": "Minderheitsregierung",
     "de_article": "die",
     "de_plural": "die Minderheitsregierungen",
-    "lv": "Rząd mniejszościowy",
+    "lv": "rząd mniejszościowy",
     "level": "C2"
   },
   {
     "de": "Mutterschaftsurlaub",
     "de_article": "der",
     "de_plural": "die Mutterschaftsurlaube",
-    "lv": "Urlop macierzyński",
+    "lv": "urlop macierzyński",
     "level": "C2"
   },
   {
     "de": "Nebenbeschäftigung",
     "de_article": "die",
     "de_plural": "die Nebenbeschäftigungen",
-    "lv": "Praca poboczna",
+    "lv": "zajęcie dodatkowe • dodatkowa praca",
     "level": "C2"
   },
   {
     "de": "Nervenzusammenbruch",
     "de_article": "der",
     "de_plural": "die Nervenzusammenbrüche",
-    "lv": "Załamanie nerwowe",
+    "lv": "załamanie nerwowe",
     "level": "C2"
   },
   {
     "de": "Parlamentarier",
     "de_article": "der",
     "de_plural": "die Parlamentarier",
-    "lv": "Członek parlamentu • Parlamentarzysta",
+    "lv": "parlamentarzysta • poseł",
     "level": "C2"
   },
   {
     "de": "Pflichtversicherung",
     "de_article": "die",
     "de_plural": "die Pflichtversicherungen",
-    "lv": "Obowiązkowe ubezpieczenie",
+    "lv": "ubezpieczenie obowiązkowe",
     "level": "C2"
   },
   {
     "de": "politische Ökonomie",
     "de_article": "die",
-    "lv": "Ekonomia polityczna",
+    "lv": "ekonomia polityczna",
     "level": "C2"
   },
   {
     "de": "populärwissenschaftlich",
-    "lv": "Popularno-naukowa",
+    "lv": "popularnonaukowy",
     "level": "C2"
   },
   {
     "de": "Preisausschreiben",
     "de_article": "das",
     "de_plural": "die Preisausschreiben",
-    "lv": "Konkurs",
+    "lv": "konkurs",
     "level": "C2"
   },
   {
     "de": "rechtsextremistisch",
-    "lv": "Prawicowy ekstremista",
+    "lv": "skrajnie prawicowy",
     "level": "C2"
   },
   {
     "de": "Satellitenübertragung",
     "de_article": "die",
     "de_plural": "die Satellitenübertragungen",
-    "lv": "Transmisja telewizji satelitarnej",
+    "lv": "transmisja satelitarna",
     "level": "C2"
   },
   {
     "de": "Scheidungsprozess",
     "de_article": "der",
     "de_plural": "die Scheidungsprozesse",
-    "lv": "Postępowanie rozwodowe",
+    "lv": "sprawa rozwodowa • proces rozwodowy",
     "level": "C2"
   },
   {
     "de": "Beschwerdeschrift",
     "de_article": "die",
     "de_plural": "die Beschwerdeschriften",
-    "lv": "Skarga",
+    "lv": "skarga • zażalenie",
     "level": "C2"
   },
   {
     "de": "Schwangerschaftsabbruch",
     "de_article": "der",
     "de_plural": "die Schwangerschaftsabbrüche",
-    "lv": "Zakończenie ciąży",
+    "lv": "przerwanie ciąży • aborcja",
     "level": "C2"
   },
   {
     "de": "Selbstbestimmungsrecht",
     "de_article": "das",
     "de_plural": "die Selbstbestimmungsrechte",
-    "lv": "Prawo do samostanowienia",
+    "lv": "prawo do samostanowienia",
     "level": "C2"
   },
   {
     "de": "Selbsterhaltungstrieb",
     "de_article": "der",
     "de_plural": "die Selbsterhaltungstriebe",
-    "lv": "Instynkt samozachowawczy",
+    "lv": "instynkt samozachowawczy",
     "level": "C2"
   },
   {
     "de": "Selbstverteidigung",
     "de_article": "die",
     "de_plural": "die Selbstverteidigungen",
-    "lv": "Zestaw technik samoobrony",
+    "lv": "samoobrona",
     "level": "C2"
   },
   {
     "de": "Staatsangehörigkeit",
     "de_article": "die",
     "de_plural": "die Staatsangehörigkeiten",
-    "lv": "Państwowość",
+    "lv": "obywatelstwo",
     "level": "C2"
   },
   {
     "de": "Steuererleichterung",
     "de_article": "die",
     "de_plural": "die Steuererleichterungen",
-    "lv": "Korzyści podatkowe",
+    "lv": "ulga podatkowa",
     "level": "C2"
   },
   {
     "de": "Strafgesetzbuch",
     "de_article": "das",
     "de_plural": "die Strafgesetzbücher",
-    "lv": "Kodeks karny jur",
+    "lv": "kodeks karny",
     "level": "C2"
   },
   {
     "de": "Tochtergesellschaft",
     "de_article": "die",
     "de_plural": "die Tochtergesellschaften",
-    "lv": "Spółka zależna",
+    "lv": "spółka zależna • spółka córka",
     "level": "C2"
   },
   {
     "de": "Vaterschaftsklage",
     "de_article": "die",
     "de_plural": "die Vaterschaftsklagen",
-    "lv": "Pozew o ustalenie ojcostwa",
+    "lv": "powództwo o ustalenie ojcostwa",
     "level": "C2"
   },
   {
     "de": "verallgemeinern",
-    "lv": "Generalizować",
+    "lv": "uogólniać",
     "level": "C2"
   },
   {
     "de": "Verhütungsmittel",
     "de_article": "das",
     "de_plural": "die Verhütungsmittel",
-    "lv": "Antykoncepcyjny",
+    "lv": "środek antykoncepcyjny",
     "level": "C2"
   },
   {
     "de": "Waffenstillstand",
     "de_article": "der",
     "de_plural": "die Waffenstillstände",
-    "lv": "Rozejm",
+    "lv": "rozejm • zawieszenie broni",
     "level": "C2"
   },
   {
     "de": "Widerstandsbewegung",
     "de_article": "die",
     "de_plural": "die Widerstandsbewegungen",
-    "lv": "Ruch oporu",
+    "lv": "ruch oporu",
     "level": "C2"
   },
   {
     "de": "Widerstandskämpfer",
     "de_article": "der",
     "de_plural": "die Widerstandskämpfer",
-    "lv": "Członek ruchu oporu",
+    "lv": "członek ruchu oporu • bojownik ruchu oporu",
     "level": "C2"
   },
   {
     "de": "zugrunde, zu Grunde",
-    "lv": "Zasadniczo",
+    "lv": "u podstaw • u podłoża",
     "level": "C2"
   },
   {
     "de": "zugunsten, zu Gunsten",
-    "lv": "Dla dobra • Dla dobra",
+    "lv": "na korzyść • na rzecz",
     "level": "C2"
   },
   {
     "de": "imstande",
-    "lv": "Zdolny",
+    "lv": "w stanie • zdolny",
     "level": "C2"
   },
   {
     "de": "im Stande",
-    "lv": "Zdolny",
+    "lv": "w stanie • zdolny",
     "level": "C2"
   },
   {
     "de": "instand",
-    "lv": "W porządku",
+    "lv": "w dobrym stanie",
     "level": "C2"
   },
   {
     "de": "in Stand",
-    "lv": "W porządku",
+    "lv": "w dobrym stanie",
     "level": "C2"
   },
   {
     "de": "inwiefern",
-    "lv": "W jakim stopniu",
+    "lv": "w jakim stopniu • na ile",
     "level": "C2"
   },
   {
     "de": "inwieweit",
-    "lv": "W jakim stopniu",
+    "lv": "w jakim stopniu • na ile",
     "level": "C2"
   },
   {
     "de": "Karre",
     "de_article": "die",
     "de_plural": "die Karren",
-    "lv": "Taczki",
+    "lv": "taczka • wózek ręczny",
     "level": "C2"
   },
   {
     "de": "Karren",
     "de_article": "der",
     "de_plural": "die Karren",
-    "lv": "Taczki",
+    "lv": "taczka • wózek ręczny",
     "level": "C2"
   },
   {
     "de": "Kriegsbeschädigte",
     "de_article": "der",
     "de_plural": "die Kriegsbeschädigten",
-    "lv": "Wojna nieważna",
+    "lv": "inwalida wojenny",
     "level": "C2"
   },
   {
     "de": "Kriegsgefangene",
     "de_article": "der",
     "de_plural": "die Kriegsgefangenen",
-    "lv": "Jeniec wojenny",
+    "lv": "jeniec wojenny",
     "level": "C2"
   },
   {
     "de": "Sachverständige",
     "de_article": "der",
     "de_plural": "die Sachverständigen",
-    "lv": "Biegły • Ekspert",
+    "lv": "rzeczoznawca • ekspert",
     "level": "C2"
   }
 ];
