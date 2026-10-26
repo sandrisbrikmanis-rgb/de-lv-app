@@ -12787,7 +12787,7 @@ const A2_WORDS = [
       "translation": "zahvala • zahvalnost",
       "explanation": [
         "Glavna ideja: der Dank je imenica muškog roda koja znači zahvala, zahvalnost: ono što nekome izražavamo za pomoć ili uslugu. Obično se koristi u jednini.",
-        "Česti izrazi: Vielen Dank (hvala lijepa), jemandem Dank sagen (zahvaliti nekome), als Dank (u znak zahvalnosti), zum Dank. Malim slovom dank je i prijedlog: Dank deiner Hilfe (zahvaljujući tvojoj pomoći), obično s genitivom ili dativom."
+        "Česti izrazi: Vielen Dank (hvala lijepa), jemandem Dank sagen (zahvaliti nekome), als Dank (u znak zahvalnosti), zum Dank. Malim slovom dank je i prijedlog: dank deiner Hilfe (zahvaljujući tvojoj pomoći), obično s genitivom ili dativom."
       ],
       "examples": [
         {
@@ -17066,7 +17066,7 @@ const A2_WORDS = [
         "Suprotnost: weit (širok, komotan) — za odjeću; breit — za širinu."
       ],
       "important": [
-        "Za uzak put ili traku obično se kaže schmal, a za skučenu prostoriju ili tijesnu odjeću — eng."
+        "Za uzak put ili traku kaže se schmal ili eng, a za skučenu prostoriju ili tijesnu odjeću — eng."
       ],
       "sectionAccents": {
         "explanation": {

@@ -12773,7 +12773,7 @@ const A2_WORDS = [
       "translation": "Merci • Dank",
       "explanation": [
         "Haaptiddi: der Dank ass e männlecht Substantiv, dat Merci oder Dankbarkeet heescht: dat, wat een engem fir seng Hëllef oder en Déngscht ausdréckt. Et gëtt normalerweis am Singulier gebraucht.",
-        "Heefeg Ausdréck: Vielen Dank (villmools Merci), jemandem Dank sagen (engem Merci soen), als Dank (als Merci), zum Dank. Kleng geschriwwen ass dank och eng Präpositioun: Dank deiner Hilfe (dank denger Hëllef), meeschtens mam Genitiv oder Dativ."
+        "Heefeg Ausdréck: Vielen Dank (villmools Merci), jemandem Dank sagen (engem Merci soen), als Dank (als Merci), zum Dank. Kleng geschriwwen ass dank och eng Präpositioun: dank deiner Hilfe (dank denger Hëllef), meeschtens mam Genitiv oder Dativ."
       ],
       "examples": [
         {
@@ -17052,7 +17052,7 @@ const A2_WORDS = [
         "Géigendeel: weit (wäit) — bei Kleeder; breit — fir d'Breet."
       ],
       "important": [
-        "Fir e schmuele Wee oder eng schmuel Spuer seet ee meeschtens schmal, fir en enke Raum oder enk Kleeder — eng."
+        "Fir e schmuele Wee oder eng schmuel Spuer kann ee schmal oder eng soen, fir en enke Raum oder enk Kleeder — eng."
       ],
       "sectionAccents": {
         "explanation": {

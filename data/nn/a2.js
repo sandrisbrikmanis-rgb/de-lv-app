@@ -12787,7 +12787,7 @@ const A2_WORDS = [
       "translation": "takk • takksemd",
       "explanation": [
         "Hovudpoenget: der Dank er eit hankjønnssubstantiv som tyder takk eller takksemd – det ein uttrykkjer overfor nokon for hjelp eller ei god gjerning. Det blir vanlegvis brukt i eintal.",
-        "Vanlege samband: Vielen Dank (tusen takk), jemandem Dank sagen (takke nokon), als Dank (som takk), zum Dank. Med liten forbokstav er dank òg ein preposisjon: Dank deiner Hilfe (takka vere hjelpa di), og han blir vanlegvis følgd av genitiv eller dativ."
+        "Vanlege samband: Vielen Dank (tusen takk), jemandem Dank sagen (takke nokon), als Dank (som takk), zum Dank. Med liten forbokstav er dank òg ein preposisjon: dank deiner Hilfe (takka vere hjelpa di), og han blir vanlegvis følgd av genitiv eller dativ."
       ],
       "examples": [
         {
@@ -17070,7 +17070,7 @@ const A2_WORDS = [
         "Motsetnad: weit (vid, laus) om klede; breit om breidd."
       ],
       "important": [
-        "Om ein smal veg eller fil seier ein oftast schmal, om eit trongt rom eller stramme klede eng."
+        "Om ein smal veg eller fil kan ein seie både schmal og eng, om eit trongt rom eller stramme klede eng."
       ],
       "sectionAccents": {
         "explanation": {

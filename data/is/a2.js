@@ -12784,7 +12784,7 @@ const A2_WORDS = [
       "translation": "þakklæti • þökk",
       "explanation": [
         "Meginhugsun: der Dank er karlkynsnafnorð sem merkir þakklæti – það sem maður lætur í ljós við einhvern fyrir hjálp eða gott verk. Það er venjulega notað í eintölu.",
-        "Algeng sambönd: Vielen Dank (kærar þakkir), jemandem Dank sagen (þakka einhverjum), als Dank (í þakklætisskyni), zum Dank. Með litlum staf er dank líka forsetning: Dank deiner Hilfe (þökk sé hjálp þinni), og á eftir henni kemur venjulega eignarfall eða þágufall."
+        "Algeng sambönd: Vielen Dank (kærar þakkir), jemandem Dank sagen (þakka einhverjum), als Dank (í þakklætisskyni), zum Dank. Með litlum staf er dank líka forsetning: dank deiner Hilfe (þökk sé hjálp þinni), og á eftir henni kemur venjulega eignarfall eða þágufall."
       ],
       "examples": [
         {
@@ -17063,7 +17063,7 @@ const A2_WORDS = [
         "Andheiti: weit (víður) — um föt; breit — um breidd."
       ],
       "important": [
-        "Um mjóan veg eða akrein er venjulega sagt schmal, um þröngt rými eða þröng föt — eng."
+        "Um mjóan veg eða akrein má segja bæði schmal og eng, um þröngt rými eða þröng föt — eng."
       ],
       "sectionAccents": {
         "explanation": {

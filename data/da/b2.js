@@ -50,7 +50,6 @@ const B2_WORDS = [
   {
     "de": "Akrobatik",
     "de_article": "die",
-    "de_plural": "die Akrobatiken",
     "lv": "Akrobatik",
     "level": "B2"
   },
@@ -4966,7 +4965,7 @@ const B2_WORDS = [
   },
   {
     "de": "Bord",
-    "de_article": "das",
+    "de_article": "der",
     "de_plural": "die Borde",
     "lv": "Skibsside • Ræling",
     "level": "B2"
@@ -6522,7 +6521,7 @@ const B2_WORDS = [
   {
     "de": "Doping",
     "de_article": "das",
-    "de_plural": "die Dopinge",
+    "de_plural": "die Dopings",
     "lv": "Dopingmiddel",
     "level": "B2"
   },
@@ -6801,7 +6800,7 @@ const B2_WORDS = [
   {
     "de": "Dumping",
     "de_article": "das",
-    "de_plural": "die Dumpinge",
+    "de_plural": "die Dumpings",
     "lv": "Dumping",
     "level": "B2"
   },
@@ -7372,7 +7371,6 @@ const B2_WORDS = [
   {
     "de": "Eifer",
     "de_article": "der",
-    "de_plural": "die Eifer",
     "lv": "Iver • Begejstring",
     "level": "B2"
   },
@@ -7715,7 +7713,6 @@ const B2_WORDS = [
   {
     "de": "Eingemachte",
     "de_article": "das",
-    "de_plural": "die Eingemachte",
     "lv": "Syltetøj • Konserveret frugt",
     "level": "B2"
   },
@@ -11905,7 +11902,7 @@ const B2_WORDS = [
   },
   {
     "de": "Ferkel",
-    "de_article": "der",
+    "de_article": "das",
     "de_plural": "die Ferkel",
     "lv": "Pattegris",
     "level": "B2"
@@ -13855,7 +13852,6 @@ const B2_WORDS = [
   {
     "de": "Gerede",
     "de_article": "das",
-    "de_plural": "die Gerede",
     "lv": "Snak • Sladder",
     "level": "B2"
   },
@@ -17663,7 +17659,6 @@ const B2_WORDS = [
   {
     "de": "Hochachtung",
     "de_article": "die",
-    "de_plural": "die Hochachtungen",
     "lv": "Stor respekt",
     "level": "B2"
   },
@@ -18142,7 +18137,6 @@ const B2_WORDS = [
   {
     "de": "Knochenmark",
     "de_article": "das",
-    "de_plural": "die Knochenmarke",
     "lv": "Knoglemarv",
     "level": "B2"
   },
@@ -20666,7 +20660,6 @@ const B2_WORDS = [
   {
     "de": "Prostitution",
     "de_article": "die",
-    "de_plural": "die Prostitutionen",
     "lv": "Prostitution",
     "level": "B2"
   },
@@ -21876,7 +21869,7 @@ const B2_WORDS = [
   {
     "de": "Schwarze",
     "de_article": "der",
-    "de_plural": "die Schwarze",
+    "de_plural": "die Schwarzen",
     "lv": "Sort person",
     "level": "B2"
   },
@@ -21909,7 +21902,6 @@ const B2_WORDS = [
   {
     "de": "Schwerathletik",
     "de_article": "die",
-    "de_plural": "die Schwerathletiken",
     "lv": "Sværatletik • Vægtløftning",
     "level": "B2"
   },
@@ -22842,7 +22834,7 @@ const B2_WORDS = [
   {
     "de": "Spruchband",
     "de_article": "das",
-    "de_plural": "die Spruchbande",
+    "de_plural": "die Spruchbänder",
     "lv": "Transparent • Plakat",
     "level": "B2"
   },
@@ -23872,7 +23864,6 @@ const B2_WORDS = [
   {
     "de": "Unfug",
     "de_article": "der",
-    "de_plural": "die Unfuge",
     "lv": "Ugagn • Sludder",
     "level": "B2"
   },
@@ -24345,7 +24336,7 @@ const B2_WORDS = [
   },
   {
     "de": "Verdienst",
-    "de_article": "der",
+    "de_article": "das",
     "de_plural": "die Verdienste",
     "lv": "Fortjeneste",
     "level": "B2"

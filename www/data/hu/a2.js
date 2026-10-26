@@ -30803,7 +30803,7 @@ const A2_WORDS = [
       "explanation": [
         "A lényeg: a los melléknév és partikula, amely azt fejezi ki, hogy valami nincs rögzítve, vagy kiszabadult: szabad, eloldódott, elszabadult (Der Hund ist los, a kutya elszabadult). A legfontosabb kifejezés a Was ist los?, jelentése: Mi történik? Mi a baj?",
         "A sein igével használjuk: los sein. Az etwas los sein szerkezet jelentése: megszabadul valamitől (Ich bin die Erkältung endlich los). Önállóan a Los! felszólítás: Gyerünk! Indulás!",
-        "A los a meglazult részekre is vonatkozik: Der Knopf ist los (a gomb meglazult). A das Los (sorsjegy, sors) főnév egy másik szó."
+        "A los a levált részekre is vonatkozik: Der Knopf ist los (leszakadt a gomb). A das Los (sorsjegy, sors) főnév egy másik szó."
       ],
       "examples": [
         {
@@ -30820,7 +30820,7 @@ const A2_WORDS = [
         },
         {
           "de": "Der Knopf an meiner Jacke ist los.",
-          "lv": "Meglazult a gomb a dzsekimen."
+          "lv": "Leszakadt a gomb a dzsekimről."
         },
         {
           "de": "Ich bin meine Erkältung endlich los.",
@@ -30911,7 +30911,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Meglazult"
+                "Leszakadt"
               ]
             }
           },

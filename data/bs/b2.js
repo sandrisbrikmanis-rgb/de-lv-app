@@ -50,7 +50,6 @@ const B2_WORDS = [
   {
     "de": "Akrobatik",
     "de_article": "die",
-    "de_plural": "die Akrobatiken",
     "lv": "akrobatika",
     "level": "B2"
   },
@@ -4969,7 +4968,7 @@ const B2_WORDS = [
   },
   {
     "de": "Bord",
-    "de_article": "das",
+    "de_article": "der",
     "de_plural": "die Borde",
     "lv": "bok broda",
     "level": "B2"
@@ -6525,7 +6524,7 @@ const B2_WORDS = [
   {
     "de": "Doping",
     "de_article": "das",
-    "de_plural": "die Dopinge",
+    "de_plural": "die Dopings",
     "lv": "doping • doping sredstvo",
     "level": "B2"
   },
@@ -6804,7 +6803,7 @@ const B2_WORDS = [
   {
     "de": "Dumping",
     "de_article": "das",
-    "de_plural": "die Dumpinge",
+    "de_plural": "die Dumpings",
     "lv": "damping",
     "level": "B2"
   },
@@ -7375,7 +7374,6 @@ const B2_WORDS = [
   {
     "de": "Eifer",
     "de_article": "der",
-    "de_plural": "die Eifer",
     "lv": "marljivost • žar • revnost",
     "level": "B2"
   },
@@ -7719,7 +7717,6 @@ const B2_WORDS = [
   {
     "de": "Eingemachte",
     "de_article": "das",
-    "de_plural": "die Eingemachte",
     "lv": "džem • konzervirano voće",
     "level": "B2"
   },
@@ -11897,7 +11894,7 @@ const B2_WORDS = [
   },
   {
     "de": "Ferkel",
-    "de_article": "der",
+    "de_article": "das",
     "de_plural": "die Ferkel",
     "lv": "prase",
     "level": "B2"
@@ -13846,7 +13843,6 @@ const B2_WORDS = [
   {
     "de": "Gerede",
     "de_article": "das",
-    "de_plural": "die Gerede",
     "lv": "brbljanje • priče • ogovaranje",
     "level": "B2"
   },
@@ -17664,7 +17660,6 @@ const B2_WORDS = [
   {
     "de": "Hochachtung",
     "de_article": "die",
-    "de_plural": "die Hochachtungen",
     "lv": "veliko poštovanje",
     "level": "B2"
   },
@@ -18144,7 +18139,6 @@ const B2_WORDS = [
   {
     "de": "Knochenmark",
     "de_article": "das",
-    "de_plural": "die Knochenmarke",
     "lv": "koštana srž",
     "level": "B2"
   },
@@ -20670,7 +20664,6 @@ const B2_WORDS = [
   {
     "de": "Prostitution",
     "de_article": "die",
-    "de_plural": "die Prostitutionen",
     "lv": "prostitucija",
     "level": "B2"
   },
@@ -21883,7 +21876,7 @@ const B2_WORDS = [
   {
     "de": "Schwarze",
     "de_article": "der",
-    "de_plural": "die Schwarze",
+    "de_plural": "die Schwarzen",
     "lv": "osoba sa crnom bojom kože",
     "level": "B2"
   },
@@ -21916,7 +21909,6 @@ const B2_WORDS = [
   {
     "de": "Schwerathletik",
     "de_article": "die",
-    "de_plural": "die Schwerathletiken",
     "lv": "sp. teška atletika",
     "level": "B2"
   },
@@ -22851,7 +22843,7 @@ const B2_WORDS = [
   {
     "de": "Spruchband",
     "de_article": "das",
-    "de_plural": "die Spruchbande",
+    "de_plural": "die Spruchbänder",
     "lv": "transparent • plakat",
     "level": "B2"
   },
@@ -23884,7 +23876,6 @@ const B2_WORDS = [
   {
     "de": "Unfug",
     "de_article": "der",
-    "de_plural": "die Unfuge",
     "lv": "nestašluk • glupost • nepristojno ponašanje",
     "level": "B2"
   },
@@ -24359,7 +24350,7 @@ const B2_WORDS = [
   },
   {
     "de": "Verdienst",
-    "de_article": "der",
+    "de_article": "das",
     "de_plural": "die Verdienste",
     "lv": "zasluga",
     "level": "B2"

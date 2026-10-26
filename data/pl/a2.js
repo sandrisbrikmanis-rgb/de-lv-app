@@ -12788,7 +12788,7 @@ const A2_WORDS = [
       "translation": "wdzięczność • podziękowanie",
       "explanation": [
         "Główna myśl: der Dank to rzeczownik rodzaju męskiego, który znaczy wdzięczność, podziękowanie – to, co wyraża się komuś za pomoc lub dobry uczynek. Zwykle używa się go w liczbie pojedynczej.",
-        "Częste połączenia: Vielen Dank (dziękuję bardzo), jemandem Dank sagen (podziękować komuś), als Dank (w podziękowaniu), zum Dank. Pisane małą literą dank jest też przyimkiem: Dank deiner Hilfe (dzięki twojej pomocy), po którym zwykle następuje dopełniacz lub celownik."
+        "Częste połączenia: Vielen Dank (dziękuję bardzo), jemandem Dank sagen (podziękować komuś), als Dank (w podziękowaniu), zum Dank. Pisane małą literą dank jest też przyimkiem: dank deiner Hilfe (dzięki twojej pomocy), po którym zwykle następuje dopełniacz lub celownik."
       ],
       "examples": [
         {
@@ -17070,7 +17070,7 @@ const A2_WORDS = [
         "Przeciwieństwo: weit (szeroki, luźny) — o ubraniu; breit — o szerokości."
       ],
       "important": [
-        "O wąskiej drodze lub wąskim pasie mówi się zwykle schmal, o ciasnym pomieszczeniu lub obcisłym ubraniu — eng."
+        "O wąskiej drodze lub wąskim pasie można powiedzieć schmal albo eng, o ciasnym pomieszczeniu lub obcisłym ubraniu — eng."
       ],
       "sectionAccents": {
         "explanation": {
@@ -30822,7 +30822,7 @@ const A2_WORDS = [
       "explanation": [
         "Główna myśl: los to przymiotnik i partykuła, które pokazują, że coś nie jest przymocowane albo zostało uwolnione: wolny, luzem, odwiązany (Der Hund ist los, pies się zerwał). Najważniejsze wyrażenie to Was ist los?, które znaczy Co się dzieje?",
         "Używa się go z sein: los sein. W wyrażeniu etwas los sein znaczy pozbyć się czegoś (Ich bin die Erkältung endlich los). Samo Los! to wezwanie: Dalej! Szybciej!",
-        "Los dotyczy też części, które się poluzowały: Der Knopf ist los (guzik się obluzował). Rzeczownik das Los (los na loterii, przeznaczenie) to inne słowo."
+        "Los dotyczy też części, które się oderwały: Der Knopf ist los (guzik się oderwał). Rzeczownik das Los (los na loterii, przeznaczenie) to inne słowo."
       ],
       "examples": [
         {
@@ -30839,7 +30839,7 @@ const A2_WORDS = [
         },
         {
           "de": "Der Knopf an meiner Jacke ist los.",
-          "lv": "Guzik przy mojej kurtce się obluzował."
+          "lv": "Od mojej kurtki oderwał się guzik."
         },
         {
           "de": "Ich bin meine Erkältung endlich los.",
@@ -30930,7 +30930,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "obluzował"
+                "oderwał"
               ]
             }
           },

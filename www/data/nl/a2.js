@@ -12787,7 +12787,7 @@ const A2_WORDS = [
       "translation": "dank • dankbaarheid",
       "explanation": [
         "Kern: der Dank is een mannelijk zelfstandig naamwoord dat dank of dankbaarheid betekent: wat je iemand betuigt voor hulp of een goede daad. Het wordt meestal in het enkelvoud gebruikt.",
-        "Veelgebruikte combinaties: Vielen Dank (hartelijk dank), jemandem Dank sagen (iemand bedanken), als Dank (als dank), zum Dank. Met een kleine letter is dank ook een voorzetsel: Dank deiner Hilfe (dankzij jouw hulp), meestal gevolgd door de genitief of de datief."
+        "Veelgebruikte combinaties: Vielen Dank (hartelijk dank), jemandem Dank sagen (iemand bedanken), als Dank (als dank), zum Dank. Met een kleine letter is dank ook een voorzetsel: dank deiner Hilfe (dankzij jouw hulp), meestal gevolgd door de genitief of de datief."
       ],
       "examples": [
         {
@@ -17065,7 +17065,7 @@ const A2_WORDS = [
         "Tegenovergestelde: weit (wijd, ruim) — bij kleding; breit — voor breedte. Let op: eng betekent niet ‘eng’ in de Nederlandse zin (griezelig)."
       ],
       "important": [
-        "Voor een smalle weg of rijstrook zeg je meestal schmal, voor een krappe ruimte of strakke kleding eng."
+        "Voor een smalle weg of rijstrook kun je schmal of eng zeggen, voor een krappe ruimte of strakke kleding eng."
       ],
       "sectionAccents": {
         "explanation": {
@@ -30811,7 +30811,7 @@ const A2_WORDS = [
       "explanation": [
         "Kern: los is een bijvoeglijk naamwoord en partikel dat aangeeft dat iets niet vastzit of is vrijgekomen: los, vrij (Der Hund ist los, de hond is los). De belangrijkste uitdrukking is Was ist los?, dat Wat is er aan de hand? betekent.",
         "Wordt gebruikt met sein: los sein. In etwas los sein betekent het van iets af zijn (Ich bin die Erkältung endlich los). Los! op zichzelf is een aansporing: Vooruit! Schiet op!",
-        "Los gaat ook over onderdelen die los zijn gaan zitten: Der Knopf ist los (de knoop zit los). Het zelfstandig naamwoord das Los (lot, lotsbestemming) is een ander woord."
+        "Los gaat ook over onderdelen die losgeraakt zijn: Der Knopf ist los (de knoop is eraf). Het zelfstandig naamwoord das Los (lot, lotsbestemming) is een ander woord."
       ],
       "examples": [
         {
@@ -30828,7 +30828,7 @@ const A2_WORDS = [
         },
         {
           "de": "Der Knopf an meiner Jacke ist los.",
-          "lv": "De knoop van mijn jas zit los."
+          "lv": "De knoop van mijn jas is eraf."
         },
         {
           "de": "Ich bin meine Erkältung endlich los.",
@@ -30919,7 +30919,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "los"
+                "eraf"
               ]
             }
           },

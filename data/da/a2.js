@@ -12795,7 +12795,7 @@ const A2_WORDS = [
       "translation": "Tak • Taknemmelighed",
       "explanation": [
         "Hovedtanken: der Dank er et navneord i hankøn, der betyder tak eller taknemmelighed – det, man udtrykker over for et menneske for hjælp eller en god gerning. Det bruges normalt i ental.",
-        "Hyppige forbindelser: Vielen Dank (mange tak), jemandem Dank sagen (takke nogen), als Dank (som tak), zum Dank (til tak). Med lille begyndelsesbogstav er dank også et forholdsord: Dank deiner Hilfe (takket være din hjælp); det styrer normalt genitiv eller dativ."
+        "Hyppige forbindelser: Vielen Dank (mange tak), jemandem Dank sagen (takke nogen), als Dank (som tak), zum Dank (til tak). Med lille begyndelsesbogstav er dank også et forholdsord: dank deiner Hilfe (takket være din hjælp); det styrer normalt genitiv eller dativ."
       ],
       "examples": [
         {
@@ -17076,7 +17076,7 @@ const A2_WORDS = [
         "Modsætning: weit (vid, løs) om tøj; breit om bredde."
       ],
       "important": [
-        "Om en smal vej eller bane siger man oftest schmal, om et trangt rum eller stramt tøj eng. Pas på: dansk eng (græsmark) er et helt andet ord."
+        "Om en smal vej eller bane kan man sige både schmal og eng, om et trangt rum eller stramt tøj eng. Pas på: dansk eng (græsmark) er et helt andet ord."
       ],
       "sectionAccents": {
         "explanation": {

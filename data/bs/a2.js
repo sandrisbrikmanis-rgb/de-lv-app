@@ -12806,7 +12806,7 @@ const A2_WORDS = [
       "translation": "zahvalnost",
       "explanation": [
         "Glavna ideja: der Dank je imenica muškog roda i znači zahvalnost – ono što izražavamo nekome za pomoć ili dobro djelo. Obično se koristi u jednini.",
-        "Česte veze: Vielen Dank (puno hvala), jemandem Dank sagen (zahvaliti se nekome), als Dank (u znak zahvalnosti), zum Dank. S malim slovom dank je i prijedlog: Dank deiner Hilfe (zahvaljujući tvojoj pomoći), iza kojeg obično dolazi genitiv ili dativ."
+        "Česte veze: Vielen Dank (puno hvala), jemandem Dank sagen (zahvaliti se nekome), als Dank (u znak zahvalnosti), zum Dank. S malim slovom dank je i prijedlog: dank deiner Hilfe (zahvaljujući tvojoj pomoći), iza kojeg obično dolazi genitiv ili dativ."
       ],
       "examples": [
         {
@@ -17092,7 +17092,7 @@ const A2_WORDS = [
         "Suprotnost: weit (širok, komotan) – za odjeću; breit – za širinu."
       ],
       "important": [
-        "Za uzak put ili traku obično se kaže schmal, a za tijesan prostor ili usku odjeću – eng."
+        "Za uzak put ili traku kaže se schmal ili eng, a za tijesan prostor ili usku odjeću – eng."
       ],
       "sectionAccents": {
         "explanation": {
@@ -30841,7 +30841,7 @@ const A2_WORDS = [
       "explanation": [
         "Glavna ideja: los je pridjev i čestica koja pokazuje da nešto nije pričvršćeno ili je oslobođeno: slobodan, pušten, odvezan (Der Hund ist los, pas je pušten). Najvažnija fraza je Was ist los?, koja znači Šta se dešava?",
         "Koristi se sa sein: los sein. U izrazu etwas los sein znači riješiti se nečega (Ich bin die Erkältung endlich los). Samo Los! je poziv: Hajde! Brže!",
-        "Los se odnosi i na dijelove koji su se olabavili: Der Knopf ist los (dugme se otkačilo). Imenica das Los (srećka, sudbina) je druga riječ."
+        "Los se odnosi i na dijelove koji su se odvojili: Der Knopf ist los (dugme se otkačilo). Imenica das Los (srećka, sudbina) je druga riječ."
       ],
       "examples": [
         {

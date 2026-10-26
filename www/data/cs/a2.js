@@ -12795,7 +12795,7 @@ const A2_WORDS = [
       "translation": "Vděk",
       "explanation": [
         "Hlavní myšlenka: der Dank je podstatné jméno mužského rodu a znamená vděk, poděkování, tedy to, co člověku vyjadřujeme za pomoc nebo dobrý skutek. Obvykle se užívá v jednotném čísle.",
-        "Častá spojení: Vielen Dank (mnohokrát děkuji), jemandem Dank sagen (poděkovat někomu), als Dank (jako poděkování), zum Dank. S malým písmenem je dank také předložka: Dank deiner Hilfe (díky tvé pomoci), po které obvykle následuje genitiv nebo dativ."
+        "Častá spojení: Vielen Dank (mnohokrát děkuji), jemandem Dank sagen (poděkovat někomu), als Dank (jako poděkování), zum Dank. S malým písmenem je dank také předložka: dank deiner Hilfe (díky tvé pomoci), po které obvykle následuje genitiv nebo dativ."
       ],
       "examples": [
         {
@@ -17094,7 +17094,7 @@ const A2_WORDS = [
         "Protiklad: weit (široký, volný) u oblečení; breit o šířce."
       ],
       "important": [
-        "O úzké cestě nebo pruhu se obvykle říká schmal, o stísněném prostoru nebo těsném oblečení eng."
+        "O úzké cestě nebo pruhu lze říct schmal i eng, o stísněném prostoru nebo těsném oblečení eng."
       ],
       "sectionAccents": {
         "explanation": {
@@ -30844,7 +30844,7 @@ const A2_WORDS = [
       "explanation": [
         "Hlavní myšlenka: los je přídavné jméno a částice, která říká, že něco není připevněné nebo je uvolněné: volný, pryč, uvolněný (Der Hund ist los, pes je volný). Nejdůležitější fráze je Was ist los?, což znamená Co se děje?",
         "Používá se se sein: los sein. Ve frázi etwas los sein znamená zbavit se něčeho (Ich bin die Erkältung endlich los). Samostatné Los! je vyzvání: Jdeme! Pospěš si!",
-        "Los se vztahuje i na části, které se uvolnily: Der Knopf ist los (knoflík je uvolněný). Podstatné jméno das Los (los, osud) je jiné slovo."
+        "Los se vztahuje i na části, které se oddělily: Der Knopf ist los (knoflík se utrhl). Podstatné jméno das Los (los, osud) je jiné slovo."
       ],
       "examples": [
         {
@@ -30861,7 +30861,7 @@ const A2_WORDS = [
         },
         {
           "de": "Der Knopf an meiner Jacke ist los.",
-          "lv": "Knoflík na mé bundě je uvolněný."
+          "lv": "Na mé bundě se utrhl knoflík."
         },
         {
           "de": "Ich bin meine Erkältung endlich los.",
@@ -30951,7 +30951,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "uvolněný"
+                "utrhl"
               ]
             }
           },

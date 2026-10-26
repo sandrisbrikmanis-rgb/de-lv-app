@@ -12787,7 +12787,7 @@ const A2_WORDS = [
       "translation": "gratitudine • ringraziamento",
       "explanation": [
         "Idea principale: der Dank è un sostantivo maschile che significa gratitudine, ringraziamento: ciò che si esprime a una persona per un aiuto o una buona azione. Di solito si usa al singolare.",
-        "Espressioni frequenti: Vielen Dank (grazie mille), jemandem Dank sagen (ringraziare qualcuno), als Dank (come ringraziamento), zum Dank. Con la minuscola dank è anche una preposizione: Dank deiner Hilfe (grazie al tuo aiuto), seguita di solito dal genitivo o dal dativo."
+        "Espressioni frequenti: Vielen Dank (grazie mille), jemandem Dank sagen (ringraziare qualcuno), als Dank (come ringraziamento), zum Dank. Con la minuscola dank è anche una preposizione: dank deiner Hilfe (grazie al tuo aiuto), seguita di solito dal genitivo o dal dativo."
       ],
       "examples": [
         {
@@ -17066,7 +17066,7 @@ const A2_WORDS = [
         "Contrario: weit (largo, ampio) — per i vestiti; breit — per la larghezza."
       ],
       "important": [
-        "Per una strada o una corsia stretta si dice di solito schmal; per uno spazio angusto o un abito aderente — eng."
+        "Per una strada o una corsia stretta si può dire schmal o eng; per uno spazio angusto o un abito aderente — eng."
       ],
       "sectionAccents": {
         "explanation": {
@@ -30814,7 +30814,7 @@ const A2_WORDS = [
       "explanation": [
         "Idea principale: los è un aggettivo e una particella che indica che qualcosa non è fissato o è stato liberato: libero, sciolto, slegato (Der Hund ist los, il cane è sciolto). L'espressione più importante è Was ist los?, che significa Che succede?",
         "Si usa con sein: los sein. Nell'espressione etwas los sein significa liberarsi di qualcosa (Ich bin die Erkältung endlich los). Da solo Los! è un'esortazione: Forza! Su, sbrigati!",
-        "Los si usa anche per parti che si sono staccate o allentate: Der Knopf ist los (il bottone si è staccato). Il sostantivo das Los (biglietto della lotteria, destino) è un'altra parola."
+        "Los si usa anche per parti che si sono staccate: Der Knopf ist los (il bottone si è staccato). Il sostantivo das Los (biglietto della lotteria, destino) è un'altra parola."
       ],
       "examples": [
         {

@@ -50,7 +50,6 @@ const B2_WORDS = [
   {
     "de": "Akrobatik",
     "de_article": "die",
-    "de_plural": "die Akrobatiken",
     "lv": "akrobatika",
     "level": "B2"
   },
@@ -4967,7 +4966,7 @@ const B2_WORDS = [
   },
   {
     "de": "Bord",
-    "de_article": "das",
+    "de_article": "der",
     "de_plural": "die Borde",
     "lv": "hajóoldal • fedélzet",
     "level": "B2"
@@ -6523,7 +6522,7 @@ const B2_WORDS = [
   {
     "de": "Doping",
     "de_article": "das",
-    "de_plural": "die Dopinge",
+    "de_plural": "die Dopings",
     "lv": "dopping • doppingszer",
     "level": "B2"
   },
@@ -6802,7 +6801,7 @@ const B2_WORDS = [
   {
     "de": "Dumping",
     "de_article": "das",
-    "de_plural": "die Dumpinge",
+    "de_plural": "die Dumpings",
     "lv": "dömping",
     "level": "B2"
   },
@@ -7373,7 +7372,6 @@ const B2_WORDS = [
   {
     "de": "Eifer",
     "de_article": "der",
-    "de_plural": "die Eifer",
     "lv": "buzgalom • igyekezet • lelkesedés",
     "level": "B2"
   },
@@ -7716,7 +7714,6 @@ const B2_WORDS = [
   {
     "de": "Eingemachte",
     "de_article": "das",
-    "de_plural": "die Eingemachte",
     "lv": "befőtt • lekvár",
     "level": "B2"
   },
@@ -11893,7 +11890,7 @@ const B2_WORDS = [
   },
   {
     "de": "Ferkel",
-    "de_article": "der",
+    "de_article": "das",
     "de_plural": "die Ferkel",
     "lv": "malac",
     "level": "B2"
@@ -13842,7 +13839,6 @@ const B2_WORDS = [
   {
     "de": "Gerede",
     "de_article": "das",
-    "de_plural": "die Gerede",
     "lv": "szóbeszéd • pletyka",
     "level": "B2"
   },
@@ -17659,7 +17655,6 @@ const B2_WORDS = [
   {
     "de": "Hochachtung",
     "de_article": "die",
-    "de_plural": "die Hochachtungen",
     "lv": "nagyrabecsülés • mély tisztelet",
     "level": "B2"
   },
@@ -18140,7 +18135,6 @@ const B2_WORDS = [
   {
     "de": "Knochenmark",
     "de_article": "das",
-    "de_plural": "die Knochenmarke",
     "lv": "csontvelő",
     "level": "B2"
   },
@@ -20666,7 +20660,6 @@ const B2_WORDS = [
   {
     "de": "Prostitution",
     "de_article": "die",
-    "de_plural": "die Prostitutionen",
     "lv": "prostitúció",
     "level": "B2"
   },
@@ -21879,7 +21872,7 @@ const B2_WORDS = [
   {
     "de": "Schwarze",
     "de_article": "der",
-    "de_plural": "die Schwarze",
+    "de_plural": "die Schwarzen",
     "lv": "fekete bőrű ember",
     "level": "B2"
   },
@@ -21912,7 +21905,6 @@ const B2_WORDS = [
   {
     "de": "Schwerathletik",
     "de_article": "die",
-    "de_plural": "die Schwerathletiken",
     "lv": "nehézatlétika",
     "level": "B2"
   },
@@ -22847,7 +22839,7 @@ const B2_WORDS = [
   {
     "de": "Spruchband",
     "de_article": "das",
-    "de_plural": "die Spruchbande",
+    "de_plural": "die Spruchbänder",
     "lv": "transzparens",
     "level": "B2"
   },
@@ -23880,7 +23872,6 @@ const B2_WORDS = [
   {
     "de": "Unfug",
     "de_article": "der",
-    "de_plural": "die Unfuge",
     "lv": "csíny • ostobaság • garázdaság",
     "level": "B2"
   },
@@ -24355,7 +24346,7 @@ const B2_WORDS = [
   },
   {
     "de": "Verdienst",
-    "de_article": "der",
+    "de_article": "das",
     "de_plural": "die Verdienste",
     "lv": "kereset • érdem",
     "level": "B2"

@@ -3475,7 +3475,6 @@ const B1_WORDS = [
   {
     "de": "Athletik",
     "de_article": "die",
-    "de_plural": "die Athletiken",
     "lv": "Лека атлетика",
     "level": "B1"
   },
@@ -6124,7 +6123,6 @@ const B1_WORDS = [
   {
     "de": "Beileid",
     "de_article": "das",
-    "de_plural": "die Beileide",
     "lv": "Съчувствие",
     "level": "B1"
   },
@@ -24324,7 +24322,6 @@ const B1_WORDS = [
   {
     "de": "Handel",
     "de_article": "der",
-    "de_plural": "die Händel",
     "lv": "Търговия",
     "level": "B1"
   },
@@ -24649,7 +24646,6 @@ const B1_WORDS = [
   {
     "de": "Hartgeld",
     "de_article": "das",
-    "de_plural": "die Hartgelde",
     "lv": "Монети",
     "level": "B1"
   },
@@ -24663,7 +24659,6 @@ const B1_WORDS = [
   {
     "de": "Hass",
     "de_article": "der",
-    "de_plural": "die Hasse",
     "lv": "Омраза",
     "level": "B1"
   },
@@ -25124,7 +25119,6 @@ const B1_WORDS = [
   {
     "de": "Heimweh",
     "de_article": "das",
-    "de_plural": "die Heimwehe",
     "lv": "Носталгия по дома",
     "level": "B1"
   },
@@ -26698,7 +26692,7 @@ const B1_WORDS = [
   {
     "de": "Hürdenlauf",
     "de_article": "der",
-    "de_plural": "die Hürdenlaufe",
+    "de_plural": "die Hürdenläufe",
     "lv": "Стипълчейз",
     "level": "B1"
   },
@@ -27047,7 +27041,6 @@ const B1_WORDS = [
   {
     "de": "Inland",
     "de_article": "das",
-    "de_plural": "die Inlande",
     "lv": "Вътрешност",
     "level": "B1"
   },
@@ -28437,8 +28430,7 @@ const B1_WORDS = [
   },
   {
     "de": "Karies",
-    "de_article": "der",
-    "de_plural": "die Kariese",
+    "de_article": "die",
     "lv": "Кариес",
     "level": "B1"
   },
@@ -28877,7 +28869,7 @@ const B1_WORDS = [
   {
     "de": "Kettenglied",
     "de_article": "das",
-    "de_plural": "die Kettengliede",
+    "de_plural": "die Kettenglieder",
     "lv": "Верижна връзка",
     "level": "B1"
   },
@@ -29743,7 +29735,7 @@ const B1_WORDS = [
   {
     "de": "Kollegbuch",
     "de_article": "das",
-    "de_plural": "die Kollegbuche",
+    "de_plural": "die Kollegbücher",
     "lv": "Студентско списание",
     "level": "B1"
   },
@@ -30211,7 +30203,6 @@ const B1_WORDS = [
   {
     "de": "Kosmetik",
     "de_article": "die",
-    "de_plural": "die Kosmetika",
     "lv": "Козметика",
     "level": "B1"
   },
@@ -30223,7 +30214,6 @@ const B1_WORDS = [
   {
     "de": "Kosmos",
     "de_article": "der",
-    "de_plural": "die Kosmose",
     "lv": "Вселена",
     "level": "B1"
   },
@@ -30395,14 +30385,14 @@ const B1_WORDS = [
   {
     "de": "Muskelkrampf",
     "de_article": "der",
-    "de_plural": "die Muskelkrampfe",
+    "de_plural": "die Muskelkrämpfe",
     "lv": "Мускулни крампи",
     "level": "B1"
   },
   {
     "de": "Magenkrampf",
     "de_article": "der",
-    "de_plural": "die Magenkrampfe",
+    "de_plural": "die Magenkrämpfe",
     "lv": "Стомашни спазми",
     "level": "B1"
   },
@@ -32948,7 +32938,6 @@ const B1_WORDS = [
   {
     "de": "Laub",
     "de_article": "das",
-    "de_plural": "die Laube",
     "lv": "Листна маса",
     "level": "B1"
   },
@@ -33238,7 +33227,6 @@ const B1_WORDS = [
   {
     "de": "Leid",
     "de_article": "das",
-    "de_plural": "die Leide",
     "lv": "Страдание",
     "level": "B1"
   },
@@ -33645,7 +33633,7 @@ const B1_WORDS = [
   {
     "de": "Liegeplatz",
     "de_article": "der",
-    "de_plural": "die Liegeplatze",
+    "de_plural": "die Liegeplätze",
     "lv": "Място за спане в каретата",
     "level": "B1"
   },
@@ -35292,7 +35280,6 @@ const B1_WORDS = [
   {
     "de": "Mitleid",
     "de_article": "das",
-    "de_plural": "die Mitleide",
     "lv": "Съчувствие",
     "level": "B1"
   },
@@ -35327,7 +35314,6 @@ const B1_WORDS = [
   {
     "de": "Mobbing",
     "de_article": "das",
-    "de_plural": "die Mobbinge",
     "lv": "Психотерор",
     "level": "B1"
   },
@@ -35339,7 +35325,6 @@ const B1_WORDS = [
   {
     "de": "Mobilfunk",
     "de_article": "der",
-    "de_plural": "die Mobilfunke",
     "lv": "Мобилна мрежа",
     "level": "B1"
   },
@@ -35552,7 +35537,6 @@ const B1_WORDS = [
   {
     "de": "Mumps",
     "de_article": "der",
-    "de_plural": "die Mumpse",
     "lv": "Прасиња",
     "level": "B1"
   },
@@ -37224,7 +37208,7 @@ const B1_WORDS = [
   {
     "de": "Obdachlose",
     "de_article": "der",
-    "de_plural": "die Obdachlose",
+    "de_plural": "die Obdachlosen",
     "lv": "Бездомни",
     "level": "B1"
   },
@@ -37986,7 +37970,7 @@ const B1_WORDS = [
   },
   {
     "de": "Pack",
-    "de_article": "das",
+    "de_article": "der",
     "de_plural": "die Packe",
     "lv": "Пакет",
     "level": "B1"
@@ -38172,14 +38156,14 @@ const B1_WORDS = [
   {
     "de": "Pendelbus",
     "de_article": "der",
-    "de_plural": "die Pendelbuse",
+    "de_plural": "die Pendelbusse",
     "lv": "Совалков автобус",
     "level": "B1"
   },
   {
     "de": "Pendelzug",
     "de_article": "der",
-    "de_plural": "die Pendelzuge",
+    "de_plural": "die Pendelzüge",
     "lv": "Крайградски влак",
     "level": "B1"
   },
@@ -39516,7 +39500,6 @@ const B1_WORDS = [
   {
     "de": "Quatsch",
     "de_article": "der",
-    "de_plural": "die Quatsche",
     "lv": "Глупости",
     "level": "B1"
   },
@@ -39609,7 +39592,7 @@ const B1_WORDS = [
   {
     "de": "Radioamateur",
     "de_article": "der",
-    "de_plural": "die Radioamateurs",
+    "de_plural": "die Radioamateure",
     "lv": "Радиолюбител",
     "level": "B1"
   },
@@ -43064,7 +43047,7 @@ const B1_WORDS = [
   {
     "de": "Schild",
     "de_article": "der",
-    "de_plural": "die Schilder",
+    "de_plural": "die Schilde",
     "lv": "Щит",
     "level": "B1"
   },
@@ -44465,7 +44448,7 @@ const B1_WORDS = [
   {
     "de": "Schubfach",
     "de_article": "das",
-    "de_plural": "die Schubfache",
+    "de_plural": "die Schubfächer",
     "lv": "Кутия",
     "level": "B1"
   },
@@ -45607,7 +45590,7 @@ const B1_WORDS = [
   {
     "de": "Setzei",
     "de_article": "das",
-    "de_plural": "die Setzeien",
+    "de_plural": "die Setzeier",
     "lv": "Булсай",
     "level": "B1"
   },
@@ -50343,7 +50326,7 @@ const B1_WORDS = [
   },
   {
     "de": "Telefax",
-    "de_article": "der",
+    "de_article": "das",
     "de_plural": "die Telefaxe",
     "lv": "Факс",
     "level": "B1"
@@ -50418,7 +50401,7 @@ const B1_WORDS = [
   {
     "de": "Tiefkühlfach",
     "de_article": "das",
-    "de_plural": "die Tiefkühlfache",
+    "de_plural": "die Tiefkühlfächer",
     "lv": "Фризер",
     "level": "B1"
   },
