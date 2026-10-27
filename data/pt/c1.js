@@ -3,1354 +3,1972 @@ const C1_WORDS = [
     "de": "Wahrnehmung",
     "de_article": "die",
     "de_plural": "die Wahrnehmungen",
-    "lv": "Uztvere",
+    "lv": "perceção",
     "level": "C1"
   },
   {
     "de": "gewährleisten",
-    "lv": "Nodrošinat",
+    "lv": "garantir • assegurar",
     "level": "C1"
   },
   {
     "de": "Auswirkung",
     "de_article": "die",
     "de_plural": "die Auswirkungen",
-    "lv": "Yetekme",
+    "lv": "efeito • repercussão",
     "level": "C1"
   },
   {
     "de": "umstritten",
-    "lv": "Pretrunigs",
+    "lv": "controverso",
     "level": "C1"
   },
   {
     "de": "Stellungnahme",
     "de_article": "die",
     "de_plural": "die Stellungnahmen",
-    "lv": "Oficiais paziņojums • Viedokļa paušana",
+    "lv": "tomada de posição • parecer",
     "level": "C1"
   },
   {
     "de": "nachvollziehen",
-    "lv": "Saprast • Sekot loģikai",
+    "lv": "compreender",
     "level": "C1"
   },
   {
     "de": "ausschlaggebend",
-    "lv": "Izšųirošs",
+    "lv": "decisivo",
     "level": "C1"
   },
   {
     "de": "Belastbarkeit",
     "de_article": "die",
     "de_plural": "die Belastbarkeiten",
-    "lv": "Stresa noturība • Izturība pret slodzi",
+    "lv": "resistência • capacidade de carga",
     "level": "C1"
   },
   {
     "de": "akkreditieren",
-    "lv": "Credenciar",
+    "lv": "acreditar",
     "level": "C1"
   },
   {
     "de": "Aktiengesellschaft",
     "de_article": "die",
     "de_plural": "die Aktiengesellschaften",
-    "lv": "Akciju sabiedrība",
+    "lv": "sociedade anónima",
     "level": "C1"
   },
   {
     "de": "Aktionsprogramm",
     "de_article": "das",
     "de_plural": "die Aktionsprogramme",
-    "lv": "Programa Pasakumu",
+    "lv": "programa de ação",
     "level": "C1"
   },
   {
     "de": "Alarmbereitschaft",
     "de_article": "die",
     "de_plural": "die Alarmbereitschaften",
-    "lv": "Trauksmes gatavība",
+    "lv": "estado de alerta",
     "level": "C1"
   },
   {
     "de": "Altweibersommer",
     "de_article": "der",
     "de_plural": "die Altweibersommer",
-    "lv": "Atvasara",
+    "lv": "verão de São Martinho",
     "level": "C1"
   },
   {
     "de": "anfechten",
-    "lv": "Apstrīdēt • Apšaubīt",
+    "lv": "impugnar • contestar",
     "level": "C1"
   },
   {
     "de": "allerseits",
-    "lv": "No visām pusēm",
+    "lv": "de todos os lados",
     "level": "C1"
   },
   {
     "de": "anderweitig",
-    "lv": "Citur • Citadi",
+    "lv": "noutro lado • de outra forma",
     "level": "C1"
   },
   {
     "de": "Abrüstungsabkommen",
     "de_article": "das",
     "de_plural": "die Abrüstungsabkommen",
-    "lv": "Atbruņošanās ligums",
+    "lv": "acordo de desarmamento",
     "level": "C1"
   },
   {
     "de": "Abrüstungsverhandlungen",
     "de_article": "die",
     "de_plural": "die Abrüstungsverhandlungen",
-    "lv": "Sarunas de Atbruņošanās",
+    "lv": "negociações de desarmamento",
     "level": "C1"
   },
   {
     "de": "Aal",
     "de_article": "der",
     "de_plural": "die Aale",
-    "lv": "Zutis",
+    "lv": "enguia",
     "level": "C1"
   },
   {
     "de": "Abart",
     "de_article": "die",
     "de_plural": "die Abarten",
-    "lv": "Novirze • Aberracija",
+    "lv": "variante • aberração",
     "level": "C1"
   },
   {
     "de": "abstumpfen",
-    "lv": "Notrulināt • Padarīt nejūtīgu",
+    "lv": "embotar • tornar insensível",
     "level": "C1"
   },
   {
     "de": "Abtreibung",
     "de_article": "die",
     "de_plural": "die Abtreibungen",
-    "lv": "Abortos",
+    "lv": "aborto",
     "level": "C1"
   },
   {
     "de": "Affekt",
     "de_article": "der",
     "de_plural": "die Affekte",
-    "lv": "Emociju uzliesmojums",
+    "lv": "acesso emocional • impulso",
     "level": "C1"
   },
   {
     "de": "ächten",
-    "lv": "Situação • Situação social",
+    "lv": "proscrever • ostracizar",
     "level": "C1"
   },
   {
     "de": "Flottenstützpunkt",
     "de_article": "der",
     "de_plural": "die Flottenstützpunkte",
-    "lv": "Jūras bāze",
+    "lv": "base naval",
     "level": "C1"
   },
   {
     "de": "Flugwetter",
     "de_article": "das",
-    "lv": "Laika apstākųi lidošanai",
+    "lv": "condições meteorológicas para voar",
     "level": "C1"
   },
   {
     "de": "Frachtbrief",
     "de_article": "der",
     "de_plural": "die Frachtbriefe",
-    "lv": "Kravas Pavadzime",
+    "lv": "guia de transporte",
     "level": "C1"
   },
   {
     "de": "Frachtgeld",
     "de_article": "das",
     "de_plural": "die Frachtgelder",
-    "lv": "Maksa par kravas pārvadāšanu",
+    "lv": "frete",
     "level": "C1"
   },
   {
     "de": "Frauenrechtlerin",
     "de_article": "die",
     "de_plural": "die Frauenrechtlerinnen",
-    "lv": "Cīnītāja par sieviešu līdztiesību",
+    "lv": "feminista • defensora dos direitos das mulheres",
     "level": "C1"
   },
   {
     "de": "Freikörperkultur",
     "de_article": "die",
     "de_plural": "die Freikörperkulturen",
-    "lv": "Nudismo",
+    "lv": "naturismo",
     "level": "C1"
   },
   {
     "de": "Kinderschänder",
     "de_article": "der",
     "de_plural": "die Kinderschänder",
-    "lv": "Pedófilos",
+    "lv": "pedófilo • abusador de crianças",
     "level": "C1"
   },
   {
     "de": "Kindesmisshandlung",
     "de_article": "die",
     "de_plural": "die Kindesmisshandlungen",
-    "lv": "Vardarbība pret berniem",
+    "lv": "maus-tratos infantis",
     "level": "C1"
   },
   {
     "de": "Zivilgesetzbuch",
     "de_article": "das",
     "de_plural": "die Zivilgesetzbücher",
-    "lv": "Civilikums",
+    "lv": "código civil",
     "level": "C1"
   },
   {
     "de": "Aktie",
     "de_article": "die",
     "de_plural": "die Aktien",
-    "lv": "Akcija",
+    "lv": "ação",
     "level": "C1"
   },
   {
     "de": "Abenddämmerung",
     "de_article": "die",
     "de_plural": "die Abenddämmerungen",
-    "lv": "Avondscherering",
+    "lv": "crepúsculo",
     "level": "C1"
   },
   {
     "de": "Anwalt",
     "de_article": "der",
     "de_plural": "die Anwälte",
-    "lv": "Advogados",
+    "lv": "advogado",
     "level": "C1"
   },
   {
     "de": "außergewöhnlich",
-    "lv": "Neparasts",
+    "lv": "invulgar • extraordinário",
     "level": "C1"
   },
   {
     "de": "außerordentlich",
-    "lv": "Arkārtējs",
+    "lv": "extraordinário",
     "level": "C1"
   },
   {
     "de": "Autokennzeichen",
     "de_article": "das",
     "de_plural": "die Autokennzeichen",
-    "lv": "Burti un cipari uz automašīnas numura zīmes",
+    "lv": "matrícula",
     "level": "C1"
   },
   {
     "de": "Bäckerhandwerk",
     "de_article": "das",
     "de_plural": "die Bäckerhandwerke",
-    "lv": "Maiznieka amats",
+    "lv": "ofício de padeiro",
     "level": "C1"
   },
   {
     "de": "bekannt geben",
-    "lv": "Pazinot",
+    "lv": "anunciar • comunicar",
     "level": "C1"
   },
   {
     "de": "Bergwanderung",
     "de_article": "die",
     "de_plural": "die Bergwanderungen",
-    "lv": "Turismo em Kalnu",
+    "lv": "caminhada na montanha",
     "level": "C1"
   },
   {
     "de": "beschäftigen",
-    "lv": "Nodarbinato",
+    "lv": "empregar • ocupar",
     "level": "C1"
   },
   {
     "de": "sich beschäftigen",
-    "lv": "Nodarboties",
+    "lv": "ocupar-se",
     "level": "C1"
   },
   {
     "de": "Beschäftigung",
     "de_article": "die",
     "de_plural": "die Beschäftigungen",
-    "lv": "Nodarbošanas",
+    "lv": "ocupação",
     "level": "C1"
   },
   {
     "de": "beschleunigen",
-    "lv": "Patriat",
+    "lv": "acelerar",
     "level": "C1"
   },
   {
     "de": "Besichtigung",
     "de_article": "die",
     "de_plural": "die Besichtigungen",
-    "lv": "Apskate",
+    "lv": "visita • inspeção",
     "level": "C1"
   },
   {
     "de": "beurteilen",
-    "lv": "Vertēt",
+    "lv": "avaliar • julgar",
     "level": "C1"
   },
   {
     "de": "Autobahnbrücke",
     "de_article": "die",
     "de_plural": "die Autobahnbrücken",
-    "lv": "Ceļa parvads",
+    "lv": "ponte de autoestrada",
     "level": "C1"
   },
   {
     "de": "Eisenbahnbrücke",
     "de_article": "die",
     "de_plural": "die Eisenbahnbrücken",
-    "lv": "Dzelzceļa se curva",
+    "lv": "ponte ferroviária",
     "level": "C1"
   },
   {
     "de": "Dampfbügeleisen",
     "de_article": "das",
     "de_plural": "die Dampfbügeleisen",
-    "lv": "Tvaika gludeklis",
+    "lv": "ferro a vapor",
     "level": "C1"
   },
   {
     "de": "Büroangestellte",
     "de_article": "der",
-    "lv": "Biroja darbiniek",
+    "lv": "empregado de escritório",
     "level": "C1"
   },
   {
     "de": "charakteristisch",
-    "lv": "Raksturigs",
+    "lv": "característico",
     "level": "C1"
   },
   {
     "de": "Diplomat",
     "de_article": "der",
     "de_plural": "die Diplomaten",
-    "lv": "Diplomatas",
+    "lv": "diplomata",
     "level": "C1"
   },
   {
     "de": "Dokumentarfilm",
     "de_article": "der",
     "de_plural": "die Dokumentarfilme",
-    "lv": "Documentário",
+    "lv": "documentário",
     "level": "C1"
   },
   {
     "de": "durchschnittlich",
-    "lv": "Vidéji",
+    "lv": "em média",
     "level": "C1"
   },
   {
     "de": "durchstreichen",
-    "lv": "Parsvitrot",
+    "lv": "riscar",
     "level": "C1"
   },
   {
     "de": "Einfamilienhaus",
     "de_article": "das",
     "de_plural": "die Einfamilienhäuser",
-    "lv": "Maja de Viena",
+    "lv": "moradia",
     "level": "C1",
     "study": {
       "id": "c1-einfamilienhaus",
       "layout": "standardStudy",
-      "translation": "Maja de Viena",
-      "explanation": "Galvenā tama: das Einfamilienhaus ir māja vienai ģimenei. Tas parasti nozīmē atsevišķu privātmāju, nevis daudzdzīvokļu māju.",
-      "examples": [
-        {
-          "de": "Sie wohnen in einem Einfamilienhaus.",
-          "lv": "Viņi dzīvo vienģimenes mājā."
-        },
-        {
-          "de": "Das Einfamilienhaus hat einen Garten.",
-          "lv": "Vienģimenes mājai ir dārzs."
-        },
-        {
-          "de": "Nebenan steht ein Mehrfamilienhaus.",
-          "lv": "Ernaast está localizado em um complexo de apartamentos."
-        }
-      ]
-    }
-  },
-  {
-    "de": "Eisenbahnfahrt",
-    "de_article": "die",
-    "de_plural": "die Eisenbahnfahrten",
-    "lv": "Brauciens pa dzelzceļu",
-    "level": "C1"
-  },
-  {
-    "de": "Eisenbahnstation",
-    "de_article": "die",
-    "de_plural": "die Eisenbahnstationen",
-    "lv": "Dzelzceųa stacija",
-    "level": "C1"
-  },
-  {
-    "de": "ekelhaft",
-    "lv": "Pretigs",
-    "level": "C1"
-  },
-  {
-    "de": "Energieverbrauch",
-    "de_article": "der",
-    "de_plural": "die Energieverbräuche",
-    "lv": "Energia Patēriņš",
-    "level": "C1"
-  },
-  {
-    "de": "Gartenerdbeere",
-    "de_article": "die",
-    "de_plural": "die Gartenerdbeeren",
-    "lv": "Darza Zemene",
-    "level": "C1"
-  },
-  {
-    "de": "erforderlich",
-    "lv": "Nepieciešams",
-    "level": "C1"
-  },
-  {
-    "de": "fabelhaft",
-    "lv": "Lielisk",
-    "level": "C1"
-  },
-  {
-    "de": "fehlerhaft",
-    "lv": "Kļūdains",
-    "level": "C1"
-  },
-  {
-    "de": "folgendermaßen",
-    "lv": "Šadi",
-    "level": "C1"
-  },
-  {
-    "de": "Geburtsschein",
-    "de_article": "der",
-    "de_plural": "die Geburtsscheine",
-    "lv": "Dzimšanas apliecība",
-    "level": "C1"
-  },
-  {
-    "de": "gegeneinander",
-    "lv": "Venha antes de qualquer outra pessoa",
-    "level": "C1"
-  },
-  {
-    "de": "Gemüsegarten",
-    "de_article": "der",
-    "de_plural": "die Gemüsegärten",
-    "lv": "Sakņu darzs",
-    "level": "C1"
-  },
-  {
-    "de": "Gepäckträger",
-    "de_article": "der",
-    "de_plural": "die Gepäckträger",
-    "lv": "Bagaznieks",
-    "level": "C1"
-  },
-  {
-    "de": "geschäftlich",
-    "lv": "Darijumu",
-    "level": "C1"
-  },
-  {
-    "de": "Geschäftsmann",
-    "de_article": "der",
-    "de_plural": "die Geschäftsleute",
-    "lv": "Uzņēmējs",
-    "level": "C1"
-  },
-  {
-    "de": "geschichtlich",
-    "lv": "Vesturis",
-    "level": "C1"
-  },
-  {
-    "de": "geschmacklos",
-    "lv": "Bezgaumīgs",
-    "level": "C1"
-  },
-  {
-    "de": "geschmackvoll",
-    "lv": "Gaumigs",
-    "level": "C1"
-  },
-  {
-    "de": "gesetzlich",
-    "lv": "Likumigs",
-    "level": "C1"
-  },
-  {
-    "de": "Gesichtspunkt",
-    "de_article": "der",
-    "de_plural": "die Gesichtspunkte",
-    "lv": "Viedoklis",
-    "level": "C1"
-  },
-  {
-    "de": "Gewichtheben",
-    "de_article": "das",
-    "lv": "Gewichtheffen",
-    "level": "C1"
-  },
-  {
-    "de": "gewissenhaft",
-    "lv": "Apzinigs",
-    "level": "C1"
-  },
-  {
-    "de": "Gipfel",
-    "de_article": "der",
-    "de_plural": "die Gipfel",
-    "lv": "Virsotne",
-    "level": "C1"
-  },
-  {
-    "de": "Hausangestellte",
-    "de_article": "die",
-    "lv": "Majkalpotaja",
-    "level": "C1"
-  },
-  {
-    "de": "hinaufklettern",
-    "lv": "Kapt agosto",
-    "level": "C1"
-  },
-  {
-    "de": "hintereinander",
-    "lv": "Venha para outro lugar",
-    "level": "C1"
-  },
-  {
-    "de": "Hochzeitsbrauch",
-    "de_article": "der",
-    "de_plural": "die Hochzeitsbräuche",
-    "lv": "Kazu paraža",
-    "level": "C1"
-  },
-  {
-    "de": "Hochzeitsfeier",
-    "de_article": "die",
-    "de_plural": "die Hochzeitsfeiern",
-    "lv": "Kazu svinibas",
-    "level": "C1"
-  },
-  {
-    "de": "Hochzeitsreise",
-    "de_article": "die",
-    "de_plural": "die Hochzeitsreisen",
-    "lv": "Kazu ceļojums",
-    "level": "C1"
-  },
-  {
-    "de": "identifizieren",
-    "lv": "Identificação",
-    "level": "C1"
-  },
-  {
-    "de": "Inflationsrate",
-    "de_article": "die",
-    "de_plural": "die Inflationsraten",
-    "lv": "Inflacijas līmenis",
-    "level": "C1"
-  },
-  {
-    "de": "Schlaginstrument",
-    "de_article": "das",
-    "de_plural": "die Schlaginstrumente",
-    "lv": "Instrumento de escória",
-    "level": "C1"
-  },
-  {
-    "de": "Tasteninstrument",
-    "de_article": "das",
-    "de_plural": "die Tasteninstrumente",
-    "lv": "Instrumentos Taustiņ",
-    "level": "C1"
-  },
-  {
-    "de": "Jahreseinkommen",
-    "de_article": "das",
-    "de_plural": "die Jahreseinkommen",
-    "lv": "Gada ienākums",
-    "level": "C1"
-  },
-  {
-    "de": "Kabelanschluss",
-    "de_article": "der",
-    "de_plural": "die Kabelanschlüsse",
-    "lv": "Televīzijas kabeļpieslēgums",
-    "level": "C1"
-  },
-  {
-    "de": "Kabelfernsehen",
-    "de_article": "das",
-    "lv": "Kabeļtelevīzija",
-    "level": "C1"
-  },
-  {
-    "de": "Kaltwasserhahn",
-    "de_article": "der",
-    "de_plural": "die Kaltwasserhähne",
-    "lv": "Auksta ūdens krans",
-    "level": "C1"
-  },
-  {
-    "de": "Pressekampagne",
-    "de_article": "die",
-    "de_plural": "die Pressekampagnen",
-    "lv": "Preses da Campânia",
-    "level": "C1"
-  },
-  {
-    "de": "Kandidatenliste",
-    "de_article": "die",
-    "de_plural": "die Kandidatenlisten",
-    "lv": "Saraksts Kandidatu",
-    "level": "C1"
-  },
-  {
-    "de": "Klage",
-    "de_article": "die",
-    "de_plural": "die Klagen",
-    "lv": "Sudziba",
-    "level": "C1"
-  },
-  {
-    "de": "klagen",
-    "lv": "Sudzēties",
-    "level": "C1"
-  },
-  {
-    "de": "Kostenanschlag",
-    "de_article": "der",
-    "de_plural": "die Kostenanschläge",
-    "lv": "Izdevumu domesticado",
-    "level": "C1"
-  },
-  {
-    "de": "krampfhaft",
-    "lv": "Krampjain",
-    "level": "C1"
-  },
-  {
-    "de": "Krankheitsbild",
-    "de_article": "das",
-    "de_plural": "die Krankheitsbilder",
-    "lv": "Cena de Ziekte",
-    "level": "C1"
-  },
-  {
-    "de": "Lastkraftwagen",
-    "de_article": "der",
-    "de_plural": "die Lastkraftwagen",
-    "lv": "Smagā automašīna",
-    "level": "C1"
-  },
-  {
-    "de": "lebhaft",
-    "lv": "Rosigs",
-    "level": "C1"
-  },
-  {
-    "de": "Leichtathletik",
-    "de_article": "die",
-    "lv": "Vieglatletika",
-    "level": "C1"
-  },
-  {
-    "de": "Mehrwertsteuer",
-    "de_article": "die",
-    "de_plural": "die Mehrwertsteuern",
-    "lv": "Pievienotās vērtības nodoklis",
-    "level": "C1"
-  },
-  {
-    "de": "Meinungsumfrage",
-    "de_article": "die",
-    "de_plural": "die Meinungsumfragen",
-    "lv": "Viedokļu aptauja",
-    "level": "C1"
-  },
-  {
-    "de": "Menschenrechte",
-    "de_article": "die",
-    "lv": "Cilvektiesibas",
-    "level": "C1"
-  },
-  {
-    "de": "Ministerium",
-    "de_article": "das",
-    "de_plural": "die Ministerien",
-    "lv": "Ministro",
-    "level": "C1"
-  },
-  {
-    "de": "Missverständnis",
-    "de_article": "das",
-    "de_plural": "die Missverständnisse",
-    "lv": "Parpratums",
-    "level": "C1"
-  },
-  {
-    "de": "Modezeitschrift",
-    "de_article": "die",
-    "de_plural": "die Modezeitschriften",
-    "lv": "Modos surround",
-    "level": "C1"
-  },
-  {
-    "de": "Morgendämmerung",
-    "de_article": "die",
-    "de_plural": "die Morgendämmerungen",
-    "lv": "Ritausma",
-    "level": "C1"
-  },
-  {
-    "de": "Morgengymnastik",
-    "de_article": "die",
-    "de_plural": "die Morgengymnastiken",
-    "lv": "Ritarosme",
-    "level": "C1"
-  },
-  {
-    "de": "nahrhaft",
-    "lv": "Barojoss",
-    "level": "C1"
-  },
-  {
-    "de": "Nationaltracht",
-    "de_article": "die",
-    "de_plural": "die Nationaltrachten",
-    "lv": "Tautastērps",
-    "level": "C1"
-  },
-  {
-    "de": "Notar",
-    "de_article": "der",
-    "de_plural": "die Notare",
-    "lv": "Notários",
-    "level": "C1"
-  },
-  {
-    "de": "Notarzt",
-    "de_article": "der",
-    "de_plural": "die Notärzte",
-    "lv": "Ātrās palīdzības ārsts",
-    "level": "C1"
-  },
-  {
-    "de": "Öffentlichkeit",
-    "de_article": "die",
-    "de_plural": "die Öffentlichkeiten",
-    "lv": "Sabiedrība • Atklātība",
-    "level": "C1",
-    "study": {
-      "id": "c1-offentlichkeit",
-      "layout": "standardStudy",
-      "translation": "Sabiedrība • Atklātība",
-      "explanation": "Adestramento Galvenā: die Öffentlichkeit nozīmē sabiedrību kā publisko telpu vai cilvēkus kopumā. Frāzē an die Öffentlichkeit kommen tas nozīmē nonākt atklātībā.",
-      "examples": [
-        {
-          "de": "Die Öffentlichkeit reagierte kritisch.",
-          "lv": "Sabiedrība reaģēja kritiski."
-        },
-        {
-          "de": "Der Fall kam an die Öffentlichkeit.",
-          "lv": "Feliz nonāca atklātībā."
-        },
-        {
-          "de": "Die Öffentlichkeit hat ein Recht auf Information.",
-          "lv": "Sabiedrībai go tiesības uz informaāciju."
-        }
-      ]
-    }
-  },
-  {
-    "de": "Parlament",
-    "de_article": "das",
-    "de_plural": "die Parlamente",
-    "lv": "Parlamentos",
-    "level": "C1"
-  },
-  {
-    "de": "Partei",
-    "de_article": "die",
-    "de_plural": "die Parteien",
-    "lv": "Partija • Eu coloquei",
-    "level": "C1",
-    "study": {
-      "id": "c1-partei",
-      "layout": "standardStudy",
-      "translation": "Partija • Eu coloquei",
-      "explanation": "Galvenā tama: die Partei parasti ir politiska partija. Juridiskā vai konflikta valodā tā var nozīmēt arī pusi.",
-      "examples": [
-        {
-          "de": "Diese Partei gewann die Wahl.",
-          "lv": "Šī partija uzvarēja vēlēšanās."
-        },
-        {
-          "de": "Er ist seit Jahren Mitglied einer Partei.",
-          "lv": "Viņš jau gadiem ir partijas biedrs."
-        },
-        {
-          "de": "Beide Parteien müssen den Vertrag unterschreiben.",
-          "lv": "Antes de partir, você terá que contratar contratos."
-        }
-      ]
-    }
-  },
-  {
-    "de": "Persönlichkeit",
-    "de_article": "die",
-    "de_plural": "die Persönlichkeiten",
-    "lv": "Pessoa",
-    "level": "C1"
-  },
-  {
-    "de": "Polizeieinheit",
-    "de_article": "die",
-    "de_plural": "die Polizeieinheiten",
-    "lv": "Policiais de Comeniba",
-    "level": "C1"
-  },
-  {
-    "de": "Polizeistreife",
-    "de_article": "die",
-    "de_plural": "die Polizeistreifen",
-    "lv": "Polícia de patrulha",
-    "level": "C1"
-  },
-  {
-    "de": "Pollenallergie",
-    "de_article": "die",
-    "de_plural": "die Pollenallergien",
-    "lv": "Alerta Putekšņu",
-    "level": "C1"
-  },
-  {
-    "de": "Polstergarnitur",
-    "de_article": "die",
-    "de_plural": "die Polstergarnituren",
-    "lv": "Mīksto mēbeļu garnitūra",
-    "level": "C1"
-  },
-  {
-    "de": "Premier",
-    "de_article": "der",
-    "de_plural": "die Premiers",
-    "lv": "Primeiros Ministros",
-    "level": "C1"
-  },
-  {
-    "de": "Prozess",
-    "de_article": "der",
-    "de_plural": "die Prozesse",
-    "lv": "Processo • Prava",
-    "level": "C1",
-    "study": {
-      "id": "c1-prozess",
-      "layout": "standardStudy",
-      "translation": "Processo • Prava",
-      "explanation": "Galvenā doma: der Prozess ir process vai norise. Tiesā der Prozess nozīmē prāvu.",
-      "examples": [
-        {
-          "de": "Der Prozess dauert mehrere Monate.",
-          "lv": "Processus ilgst vairākus mēnešus."
-        },
-        {
-          "de": "Der Prozess vor Gericht beginnt morgen.",
-          "lv": "Tiesas prava sākas rit."
-        },
-        {
-          "de": "Wir verbessern den ganzen Prozess.",
-          "lv": "Deixe-me ver o processo."
-        }
-      ]
-    }
-  },
-  {
-    "de": "Prozessor",
-    "de_article": "der",
-    "de_plural": "die Prozessoren",
-    "lv": "Processadores",
-    "level": "C1"
-  },
-  {
-    "de": "Radioübertragung",
-    "de_article": "die",
-    "de_plural": "die Radioübertragungen",
-    "lv": "Rádioparraide",
-    "level": "C1"
-  },
-  {
-    "de": "Rechtsanwalt",
-    "de_article": "der",
-    "de_plural": "die Rechtsanwälte",
-    "lv": "Advogados",
-    "level": "C1"
-  },
-  {
-    "de": "Rekonstruktion",
-    "de_article": "die",
-    "de_plural": "die Rekonstruktionen",
-    "lv": "Reconstrução",
-    "level": "C1"
-  },
-  {
-    "de": "Rennen mit Hindernissen",
-    "de_article": "das",
-    "de_plural": "die Rennen mit Hindernissen",
-    "lv": "Šķēršļu skrējiens",
-    "level": "C1"
-  },
-  {
-    "de": "Reparaturkosten",
-    "de_article": "die",
-    "lv": "Remonta izmaksas",
-    "level": "C1"
-  },
-  {
-    "de": "Rettungsstelle",
-    "de_article": "die",
-    "de_plural": "die Rettungsstellen",
-    "lv": "Pontos de Ātrās palīdzības",
-    "level": "C1"
-  },
-  {
-    "de": "rezeptpflichtig",
-    "lv": "Receptores Pēc",
-    "level": "C1"
-  },
-  {
-    "de": "Schauspielhaus",
-    "de_article": "das",
-    "de_plural": "die Schauspielhäuser",
-    "lv": "Teatro",
-    "level": "C1"
-  },
-  {
-    "de": "Scheibenwischer",
-    "de_article": "der",
-    "de_plural": "die Scheibenwischer",
-    "lv": "Automašīnas logou tīrītājs",
-    "level": "C1"
-  },
-  {
-    "de": "Schiedsrichter",
-    "de_article": "der",
-    "de_plural": "die Schiedsrichter",
-    "lv": "Da lei",
-    "level": "C1"
-  },
-  {
-    "de": "Schlussverkauf",
-    "de_article": "der",
-    "de_plural": "die Schlussverkäufe",
-    "lv": "Preču izpārdošana seções bege par pazeminātām cenām",
-    "level": "C1"
-  },
-  {
-    "de": "schmerzhaft",
-    "lv": "Sapigs",
-    "level": "C1"
-  },
-  {
-    "de": "Schneewittchen",
-    "de_article": "das",
-    "de_plural": "die Schneewittchen",
-    "lv": "Pasaku tēls Sniegbaltīte",
-    "level": "C1"
-  },
-  {
-    "de": "Schraubenzieher",
-    "de_article": "der",
-    "de_plural": "die Schraubenzieher",
-    "lv": "Skrūvgriezis",
-    "level": "C1"
-  },
-  {
-    "de": "Schutzumschlag",
-    "de_article": "der",
-    "de_plural": "die Schutzumschläge",
-    "lv": "Apvāks",
-    "level": "C1"
-  },
-  {
-    "de": "Schwiegereltern",
-    "de_article": "die",
-    "lv": "Vīra vecaki",
-    "level": "C1"
-  },
-  {
-    "de": "Schwiegermutter",
-    "de_article": "die",
-    "de_plural": "die Schwiegermütter",
-    "lv": "Viramāte",
-    "level": "C1"
-  },
-  {
-    "de": "Schwiegertochter",
-    "de_article": "die",
-    "de_plural": "die Schwiegertöchter",
-    "lv": "Vedekla",
-    "level": "C1"
-  },
-  {
-    "de": "Schwiegervater",
-    "de_article": "der",
-    "de_plural": "die Schwiegerväter",
-    "lv": "Viratēvs",
-    "level": "C1"
-  },
-  {
-    "de": "Selbstbedienung",
-    "de_article": "die",
-    "de_plural": "die Selbstbedienungen",
-    "lv": "Pašapkalpošanas",
-    "level": "C1"
-  },
-  {
-    "de": "Stabhochspringen",
-    "de_article": "das",
-    "lv": "Kartslēkšana",
-    "level": "C1"
-  },
-  {
-    "de": "Stadtrundfahrt",
-    "de_article": "die",
-    "de_plural": "die Stadtrundfahrten",
-    "lv": "Estedentrip",
-    "level": "C1"
-  },
-  {
-    "de": "stecken bleiben",
-    "lv": "Iestregt",
-    "level": "C1"
-  },
-  {
-    "de": "Stellvertreter",
-    "de_article": "der",
-    "de_plural": "die Stellvertreter",
-    "lv": "Aizstājējs",
-    "level": "C1"
-  },
-  {
-    "de": "Steuererklärung",
-    "de_article": "die",
-    "de_plural": "die Steuererklärungen",
-    "lv": "Nodokļu deklarācija",
-    "level": "C1"
-  },
-  {
-    "de": "Strampelhöschen",
-    "de_article": "das",
-    "de_plural": "die Strampelhöschen",
-    "lv": "Zīdaiņa rapulitis",
-    "level": "C1"
-  },
-  {
-    "de": "Stromverbrauch",
-    "de_article": "der",
-    "de_plural": "die Stromverbräuche",
-    "lv": "Stravas patēriņš",
-    "level": "C1"
-  },
-  {
-    "de": "Tagesnachrichten",
-    "de_article": "die",
-    "lv": "Dienas Ziņas",
-    "level": "C1"
-  },
-  {
-    "de": "Teilzeitarbeit",
-    "de_article": "die",
-    "de_plural": "die Teilzeitarbeiten",
-    "lv": "Darbs nepilnu darba dienu",
-    "level": "C1"
-  },
-  {
-    "de": "Terminkalender",
-    "de_article": "der",
-    "de_plural": "die Terminkalender",
-    "lv": "Calendário Piezimju",
-    "level": "C1"
-  },
-  {
-    "de": "Thermosflasche",
-    "de_article": "die",
-    "de_plural": "die Thermosflaschen",
-    "lv": "Garrafa térmica",
-    "level": "C1"
-  },
-  {
-    "de": "Tierkreiszeichen",
-    "de_article": "das",
-    "de_plural": "die Tierkreiszeichen",
-    "lv": "Zodiaka zīme",
-    "level": "C1"
-  },
-  {
-    "de": "transportieren",
-    "lv": "Transporte",
-    "level": "C1"
-  },
-  {
-    "de": "Überschwemmung",
-    "de_article": "die",
-    "de_plural": "die Überschwemmungen",
-    "lv": "Pludi",
-    "level": "C1"
-  },
-  {
-    "de": "Unternehmen",
-    "de_article": "das",
-    "de_plural": "die Unternehmen",
-    "lv": "Uzņēmums • Pasakums",
-    "level": "C1"
-  },
-  {
-    "de": "unterstreichen",
-    "lv": "Pasvitrot",
-    "level": "C1"
-  },
-  {
-    "de": "unverständlich",
-    "lv": "Nesaprotamos",
-    "level": "C1"
-  },
-  {
-    "de": "Heiratsurkunde",
-    "de_article": "die",
-    "de_plural": "die Heiratsurkunden",
-    "lv": "Laulības apliecība",
-    "level": "C1"
-  },
-  {
-    "de": "Urteil",
-    "de_article": "das",
-    "de_plural": "die Urteile",
-    "lv": "Espíritos",
-    "level": "C1"
-  },
-  {
-    "de": "veranstalten",
-    "lv": "Organizar",
-    "level": "C1"
-  },
-  {
-    "de": "verantworten",
-    "lv": "Uzņemties atbildību par",
-    "level": "C1"
-  },
-  {
-    "de": "Verantwortung",
-    "de_article": "die",
-    "de_plural": "die Verantwortungen",
-    "lv": "Atbildiba",
-    "level": "C1"
-  },
-  {
-    "de": "Vereinbarung",
-    "de_article": "die",
-    "de_plural": "die Vereinbarungen",
-    "lv": "Vienašanas",
-    "level": "C1"
-  },
-  {
-    "de": "Vergangenheit",
-    "de_article": "die",
-    "de_plural": "die Vergangenheiten",
-    "lv": "Pagatne",
-    "level": "C1"
-  },
-  {
-    "de": "Verkehrsstau",
-    "de_article": "der",
-    "de_plural": "die Verkehrsstaue",
-    "lv": "Satiksmes sastregums",
-    "level": "C1"
-  },
-  {
-    "de": "Verlegenheit",
-    "de_article": "die",
-    "de_plural": "die Verlegenheiten",
-    "lv": "Apjukums",
-    "level": "C1"
-  },
-  {
-    "de": "verschließen",
-    "lv": "Aizslēgt",
-    "level": "C1"
-  },
-  {
-    "de": "verschlucken",
-    "lv": "Norita",
-    "level": "C1"
-  },
-  {
-    "de": "verschwenden",
-    "lv": "Izšķērdēt",
-    "level": "C1"
-  },
-  {
-    "de": "Versicherung",
-    "de_article": "die",
-    "de_plural": "die Versicherungen",
-    "lv": "Apdrošinašana",
-    "level": "C1"
-  },
-  {
-    "de": "sich verständigen",
-    "lv": "Saprastias",
-    "level": "C1"
-  },
-  {
-    "de": "verständlich",
-    "lv": "Nós sabotamos",
-    "level": "C1"
-  },
-  {
-    "de": "Vertrag",
-    "de_article": "der",
-    "de_plural": "die Verträge",
-    "lv": "Ligamas",
-    "level": "C1"
-  },
-  {
-    "de": "voll beschäftigt",
-    "lv": "Nodarbināts pilnu darba dienu",
-    "level": "C1"
-  },
-  {
-    "de": "Vorgesetzte",
-    "de_article": "der",
-    "de_plural": "die Vorgesetzten",
-    "lv": "Priekšnieks",
-    "level": "C1"
-  },
-  {
-    "de": "vorteilhaft",
-    "lv": "Izdevigs",
-    "level": "C1"
-  },
-  {
-    "de": "Wettbewerb",
-    "de_article": "der",
-    "de_plural": "die Wettbewerbe",
-    "lv": "Konkurss",
-    "level": "C1"
-  },
-  {
-    "de": "sich zufrieden geben",
-    "lv": "Amierinações",
-    "level": "C1"
-  },
-  {
-    "de": "zusammenbringen",
-    "lv": "Salvar copa",
-    "level": "C1"
-  },
-  {
-    "de": "zusammenfassen",
-    "lv": "Apkopot • Rezumēt",
-    "level": "C1",
-    "study": {
-      "id": "c1-zusammenfassen",
-      "layout": "standardStudy",
-      "translation": "Apkopot • Rezumēt",
+      "translation": "moradia",
       "explanation": [
-        "Adestramento Galvenā: zusammenfassen ir darbības vārds — apkopot vai sakopot informaciju vienā īsā izklāstā.",
-        "Zusammenfassen happy, ja no vairākiem factiem, tekstiem vai domām tiek izveidots īss pārskats.",
-        "Nejauc ar die Zusammenfassung — tas ar lielo burtu un artikulu die ir lietvārds, kas apzīmē pašu kopsavilkumu (rezultātu, gatavu tekstu).",
-        "Zusammenfassen = processo/darbība (apkopot, rezumēt) • Die Zusammenfassung = rezultāts (kopsavilkums kā lietvārds).",
-        "Kā daudzi vācu darbības vārdi, zusammenfassen var kļūt par lietvārdu ou lielo burtu un artikulu: zusammenfassen → die Zusammenfassung (substantivizācija)."
+        "Ideia principal: das Einfamilienhaus é uma casa destinada a uma só família — isolada ou encostada às dos vizinhos, mas com uma única habitação e geralmente com jardim próprio.",
+        "Substantivo neutro: das Einfamilienhaus, plural die Einfamilienhäuser. É composto por Ein- + Familie + Haus.",
+        "O contrário é das Mehrfamilienhaus (prédio de habitação para várias famílias)."
       ],
       "examples": [
         {
-          "de": "Können Sie den Text zusammenfassen?",
-          "lv": "Você é um aplicativo apkopot que é um texto?"
+          "de": "Sie wohnen in einem Einfamilienhaus am Stadtrand.",
+          "lv": "Eles vivem numa moradia nos arredores da cidade."
         },
         {
-          "de": "Ich fasse die wichtigsten Punkte zusammen.",
-          "lv": "Ik vat de belangrijkste punten Samen."
+          "de": "Das Einfamilienhaus hat einen kleinen Garten.",
+          "lv": "A moradia tem um pequeno jardim."
         },
         {
-          "de": "Er hat den Bericht kurz zusammengefasst.",
-          "lv": "Viņš īsi exala pārskatu."
+          "de": "Sie träumen von einem eigenen Einfamilienhaus.",
+          "lv": "Eles sonham com uma moradia própria."
         },
         {
-          "de": "Zusammenfassend kann man sagen, dass...",
-          "lv": "Apkopojot var sacīt, ka..."
+          "de": "In dieser Siedlung stehen nur Einfamilienhäuser.",
+          "lv": "Neste bairro só há moradias."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "das Mehrfamilienhaus",
+          "meaning": "prédio de apartamentos",
+          "example": "Im Mehrfamilienhaus wohnen zehn Familien. – No prédio vivem dez famílias."
         },
         {
-          "de": "Ich schreibe eine Zusammenfassung des Buches.",
-          "lv": "É rakstu grāmatas kopsavilkumu."
+          "word": "das Reihenhaus",
+          "meaning": "moradia em banda",
+          "example": "Das Reihenhaus steht zwischen zwei anderen. – A moradia em banda fica entre duas outras."
         },
         {
-          "de": "Die Zusammenfassung ist zu lang.",
-          "lv": "Kopsavilkums ir pārāk garš."
+          "word": "das Hochhaus",
+          "meaning": "edifício alto, torre",
+          "example": "Im Hochhaus gibt es einen Aufzug. – Na torre há um elevador."
         }
       ],
       "tip": [
-        "zusammenfassen (darbības vārds) = process — apkopot/rezumēt.",
-        "die Zusammenfassung (lietvārds, ar lielo burtu un artikulu die) = rezultāts — pats kopsavilkums."
+        "O composto entende-se por partes: ein + Familie + Haus.",
+        "Combinação frequente: ein Einfamilienhaus bauen / kaufen / mieten."
       ],
       "important": [
-        "zusammenfassen = apkopot/rezumēt (darbības vārds).",
-        "die Zusammenfassung = kopsavilkums (lietvārds, substantivizēts no zusammenfassen).",
-        "Nepareizi: die zusammenfassen → Pareizi: die Zusammenfassung (lietvārds vienmēr ar lielo burtu)."
+        "Einfamilienhaus não é o mesmo que Villa: pode ser também uma casa bem simples."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "zusammenfassen"
+            "Einfamilienhaus",
+            "Einfamilienhäuser"
           ],
           "purple": [
-            "apkopot",
-            "rezumēt"
+            "casa"
           ],
           "green": [
-            "die Zusammenfassung"
+            "das Mehrfamilienhaus",
+            "Mehrfamilienhaus"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "zusammenfassen"
+                "Einfamilienhaus"
               ]
             },
             "lv": {
               "purple": [
-                "apkopot"
+                "moradia"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "fasse",
-                "zusammen"
+                "Einfamilienhaus"
               ]
             },
             "lv": {
               "purple": [
-                "vat"
+                "moradia"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Einfamilienhaus"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "moradia"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Einfamilienhäuser"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "moradias"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "das Mehrfamilienhaus"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apartamentos"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "das Reihenhaus"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "banda"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "das Hochhaus"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "torre"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {
+            "blue": [
+              "Einfamilienhaus"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "Einfamilienhaus"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "de": "Eisenbahnfahrt",
+    "de_article": "die",
+    "de_plural": "die Eisenbahnfahrten",
+    "lv": "viagem de comboio",
+    "level": "C1"
+  },
+  {
+    "de": "Eisenbahnstation",
+    "de_article": "die",
+    "de_plural": "die Eisenbahnstationen",
+    "lv": "estação ferroviária",
+    "level": "C1"
+  },
+  {
+    "de": "ekelhaft",
+    "lv": "nojento • repugnante",
+    "level": "C1"
+  },
+  {
+    "de": "Energieverbrauch",
+    "de_article": "der",
+    "de_plural": "die Energieverbräuche",
+    "lv": "consumo de energia",
+    "level": "C1"
+  },
+  {
+    "de": "Gartenerdbeere",
+    "de_article": "die",
+    "de_plural": "die Gartenerdbeeren",
+    "lv": "morango",
+    "level": "C1"
+  },
+  {
+    "de": "erforderlich",
+    "lv": "necessário",
+    "level": "C1"
+  },
+  {
+    "de": "fabelhaft",
+    "lv": "fabuloso • excelente",
+    "level": "C1"
+  },
+  {
+    "de": "fehlerhaft",
+    "lv": "errado • defeituoso",
+    "level": "C1"
+  },
+  {
+    "de": "folgendermaßen",
+    "lv": "da seguinte forma",
+    "level": "C1"
+  },
+  {
+    "de": "Geburtsschein",
+    "de_article": "der",
+    "de_plural": "die Geburtsscheine",
+    "lv": "certidão de nascimento",
+    "level": "C1"
+  },
+  {
+    "de": "gegeneinander",
+    "lv": "um contra o outro",
+    "level": "C1"
+  },
+  {
+    "de": "Gemüsegarten",
+    "de_article": "der",
+    "de_plural": "die Gemüsegärten",
+    "lv": "horta",
+    "level": "C1"
+  },
+  {
+    "de": "Gepäckträger",
+    "de_article": "der",
+    "de_plural": "die Gepäckträger",
+    "lv": "porta-bagagens",
+    "level": "C1"
+  },
+  {
+    "de": "geschäftlich",
+    "lv": "comercial • de negócios",
+    "level": "C1"
+  },
+  {
+    "de": "Geschäftsmann",
+    "de_article": "der",
+    "de_plural": "die Geschäftsleute",
+    "lv": "homem de negócios • empresário",
+    "level": "C1"
+  },
+  {
+    "de": "geschichtlich",
+    "lv": "histórico",
+    "level": "C1"
+  },
+  {
+    "de": "geschmacklos",
+    "lv": "de mau gosto",
+    "level": "C1"
+  },
+  {
+    "de": "geschmackvoll",
+    "lv": "de bom gosto",
+    "level": "C1"
+  },
+  {
+    "de": "gesetzlich",
+    "lv": "legal",
+    "level": "C1"
+  },
+  {
+    "de": "Gesichtspunkt",
+    "de_article": "der",
+    "de_plural": "die Gesichtspunkte",
+    "lv": "ponto de vista",
+    "level": "C1"
+  },
+  {
+    "de": "Gewichtheben",
+    "de_article": "das",
+    "lv": "halterofilismo",
+    "level": "C1"
+  },
+  {
+    "de": "gewissenhaft",
+    "lv": "consciencioso • escrupuloso",
+    "level": "C1"
+  },
+  {
+    "de": "Gipfel",
+    "de_article": "der",
+    "de_plural": "die Gipfel",
+    "lv": "cume • cimeira",
+    "level": "C1"
+  },
+  {
+    "de": "Hausangestellte",
+    "de_article": "die",
+    "lv": "empregada doméstica",
+    "level": "C1"
+  },
+  {
+    "de": "hinaufklettern",
+    "lv": "subir • trepar",
+    "level": "C1"
+  },
+  {
+    "de": "hintereinander",
+    "lv": "um atrás do outro • seguido",
+    "level": "C1"
+  },
+  {
+    "de": "Hochzeitsbrauch",
+    "de_article": "der",
+    "de_plural": "die Hochzeitsbräuche",
+    "lv": "costume nupcial",
+    "level": "C1"
+  },
+  {
+    "de": "Hochzeitsfeier",
+    "de_article": "die",
+    "de_plural": "die Hochzeitsfeiern",
+    "lv": "festa de casamento",
+    "level": "C1"
+  },
+  {
+    "de": "Hochzeitsreise",
+    "de_article": "die",
+    "de_plural": "die Hochzeitsreisen",
+    "lv": "lua de mel • viagem de núpcias",
+    "level": "C1"
+  },
+  {
+    "de": "identifizieren",
+    "lv": "identificar",
+    "level": "C1"
+  },
+  {
+    "de": "Inflationsrate",
+    "de_article": "die",
+    "de_plural": "die Inflationsraten",
+    "lv": "taxa de inflação",
+    "level": "C1"
+  },
+  {
+    "de": "Schlaginstrument",
+    "de_article": "das",
+    "de_plural": "die Schlaginstrumente",
+    "lv": "instrumento de percussão",
+    "level": "C1"
+  },
+  {
+    "de": "Tasteninstrument",
+    "de_article": "das",
+    "de_plural": "die Tasteninstrumente",
+    "lv": "instrumento de teclado",
+    "level": "C1"
+  },
+  {
+    "de": "Jahreseinkommen",
+    "de_article": "das",
+    "de_plural": "die Jahreseinkommen",
+    "lv": "rendimento anual",
+    "level": "C1"
+  },
+  {
+    "de": "Kabelanschluss",
+    "de_article": "der",
+    "de_plural": "die Kabelanschlüsse",
+    "lv": "ligação por cabo",
+    "level": "C1"
+  },
+  {
+    "de": "Kabelfernsehen",
+    "de_article": "das",
+    "lv": "televisão por cabo",
+    "level": "C1"
+  },
+  {
+    "de": "Kaltwasserhahn",
+    "de_article": "der",
+    "de_plural": "die Kaltwasserhähne",
+    "lv": "torneira de água fria",
+    "level": "C1"
+  },
+  {
+    "de": "Pressekampagne",
+    "de_article": "die",
+    "de_plural": "die Pressekampagnen",
+    "lv": "campanha de imprensa",
+    "level": "C1"
+  },
+  {
+    "de": "Kandidatenliste",
+    "de_article": "die",
+    "de_plural": "die Kandidatenlisten",
+    "lv": "lista de candidatos",
+    "level": "C1"
+  },
+  {
+    "de": "Klage",
+    "de_article": "die",
+    "de_plural": "die Klagen",
+    "lv": "queixa • ação judicial",
+    "level": "C1"
+  },
+  {
+    "de": "klagen",
+    "lv": "queixar-se",
+    "level": "C1"
+  },
+  {
+    "de": "Kostenanschlag",
+    "de_article": "der",
+    "de_plural": "die Kostenanschläge",
+    "lv": "orçamento",
+    "level": "C1"
+  },
+  {
+    "de": "krampfhaft",
+    "lv": "convulsivo • crispado",
+    "level": "C1"
+  },
+  {
+    "de": "Krankheitsbild",
+    "de_article": "das",
+    "de_plural": "die Krankheitsbilder",
+    "lv": "quadro clínico",
+    "level": "C1"
+  },
+  {
+    "de": "Lastkraftwagen",
+    "de_article": "der",
+    "de_plural": "die Lastkraftwagen",
+    "lv": "camião",
+    "level": "C1"
+  },
+  {
+    "de": "lebhaft",
+    "lv": "animado • vivo",
+    "level": "C1"
+  },
+  {
+    "de": "Leichtathletik",
+    "de_article": "die",
+    "lv": "atletismo",
+    "level": "C1"
+  },
+  {
+    "de": "Mehrwertsteuer",
+    "de_article": "die",
+    "de_plural": "die Mehrwertsteuern",
+    "lv": "imposto sobre o valor acrescentado",
+    "level": "C1"
+  },
+  {
+    "de": "Meinungsumfrage",
+    "de_article": "die",
+    "de_plural": "die Meinungsumfragen",
+    "lv": "sondagem",
+    "level": "C1"
+  },
+  {
+    "de": "Menschenrechte",
+    "de_article": "die",
+    "lv": "direitos humanos",
+    "level": "C1"
+  },
+  {
+    "de": "Ministerium",
+    "de_article": "das",
+    "de_plural": "die Ministerien",
+    "lv": "ministério",
+    "level": "C1"
+  },
+  {
+    "de": "Missverständnis",
+    "de_article": "das",
+    "de_plural": "die Missverständnisse",
+    "lv": "mal-entendido",
+    "level": "C1"
+  },
+  {
+    "de": "Modezeitschrift",
+    "de_article": "die",
+    "de_plural": "die Modezeitschriften",
+    "lv": "revista de moda",
+    "level": "C1"
+  },
+  {
+    "de": "Morgendämmerung",
+    "de_article": "die",
+    "de_plural": "die Morgendämmerungen",
+    "lv": "alvorada • aurora",
+    "level": "C1"
+  },
+  {
+    "de": "Morgengymnastik",
+    "de_article": "die",
+    "de_plural": "die Morgengymnastiken",
+    "lv": "ginástica matinal",
+    "level": "C1"
+  },
+  {
+    "de": "nahrhaft",
+    "lv": "nutritivo",
+    "level": "C1"
+  },
+  {
+    "de": "Nationaltracht",
+    "de_article": "die",
+    "de_plural": "die Nationaltrachten",
+    "lv": "traje nacional • traje regional",
+    "level": "C1"
+  },
+  {
+    "de": "Notar",
+    "de_article": "der",
+    "de_plural": "die Notare",
+    "lv": "notário",
+    "level": "C1"
+  },
+  {
+    "de": "Notarzt",
+    "de_article": "der",
+    "de_plural": "die Notärzte",
+    "lv": "médico de urgência",
+    "level": "C1"
+  },
+  {
+    "de": "Öffentlichkeit",
+    "de_article": "die",
+    "de_plural": "die Öffentlichkeiten",
+    "lv": "público • opinião pública",
+    "level": "C1",
+    "study": {
+      "id": "c1-offentlichkeit",
+      "layout": "standardStudy",
+      "translation": "público • opinião pública",
+      "explanation": [
+        "Ideia principal: die Öffentlichkeit é o público — todas as pessoas a quem algo é acessível ou conhecido — e, ao mesmo tempo, o caráter público, ou seja, o facto de algo não ser secreto.",
+        "Substantivo feminino: die Öffentlichkeit, praticamente sem plural. Expressões frequentes: in der Öffentlichkeit (publicamente, em público), an die Öffentlichkeit gehen (tornar público), unter Ausschluss der Öffentlichkeit (à porta fechada, sem a presença do público), die Öffentlichkeit informieren.",
+        "A sociedade enquanto sistema diz-se die Gesellschaft; trata-se de outro significado."
+      ],
+      "examples": [
+        {
+          "de": "Der Politiker trat vor die Öffentlichkeit.",
+          "lv": "O político apresentou-se perante o público."
+        },
+        {
+          "de": "In der Öffentlichkeit darf man hier nicht rauchen.",
+          "lv": "Aqui não se pode fumar em locais públicos."
+        },
+        {
+          "de": "Die Verhandlung fand unter Ausschluss der Öffentlichkeit statt.",
+          "lv": "O julgamento decorreu sem a presença do público."
+        },
+        {
+          "de": "Die Firma will den Skandal nicht an die Öffentlichkeit bringen.",
+          "lv": "A empresa não quer tornar o escândalo público."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "die Gesellschaft",
+          "meaning": "sociedade (como sistema)",
+          "example": "Die Gesellschaft verändert sich. – A sociedade está a mudar."
+        },
+        {
+          "word": "das Publikum",
+          "meaning": "público (espetadores)",
+          "example": "Das Publikum klatscht. – O público aplaude."
+        },
+        {
+          "word": "die Bevölkerung",
+          "meaning": "população",
+          "example": "Die Bevölkerung wächst. – A população está a crescer."
+        }
+      ],
+      "tip": [
+        "Usa-se com preposições: in der Öffentlichkeit (onde?), an die Öffentlichkeit (para onde?).",
+        "Um significado semelhante tem a palavra die Allgemeinheit (todas as pessoas em geral)."
+      ],
+      "important": [
+        "O plural normalmente não se usa: die Öffentlichkeiten é raro."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "die Öffentlichkeit",
+            "in der Öffentlichkeit",
+            "an die Öffentlichkeit gehen",
+            "unter Ausschluss der Öffentlichkeit",
+            "Gesellschaft",
+            "Öffentlichkeit"
+          ],
+          "purple": [
+            "público",
+            "caráter público",
+            "publicamente"
+          ],
+          "green": [
+            "die Gesellschaft"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Öffentlichkeit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "público"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Öffentlichkeit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "locais públicos"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Öffentlichkeit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "público"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Öffentlichkeit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "público"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "die Gesellschaft"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "sociedade"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "das Publikum"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "espetadores"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Bevölkerung"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "população"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "Öffentlichkeit",
+              "die Öffentlichkeit",
+              "in der Öffentlichkeit"
+            ]
+          },
+          {}
+        ],
+        "important": [
+          {}
+        ]
+      }
+    }
+  },
+  {
+    "de": "Parlament",
+    "de_article": "das",
+    "de_plural": "die Parlamente",
+    "lv": "parlamento",
+    "level": "C1"
+  },
+  {
+    "de": "Partei",
+    "de_article": "die",
+    "de_plural": "die Parteien",
+    "lv": "partido • parte",
+    "level": "C1",
+    "study": {
+      "id": "c1-partei",
+      "layout": "standardStudy",
+      "translation": "partido • parte",
+      "explanation": [
+        "Ideia principal: die Partei é um partido político (die CDU ist eine Partei), mas também uma parte num litígio, num processo judicial ou num contrato: die Streitparteien, die Vertragsparteien.",
+        "Substantivo feminino: die Partei, plural die Parteien. A expressão Partei ergreifen für jemanden significa tomar o partido de alguém.",
+        "No contexto político usa-se frequentemente: eine Partei gründen (fundar um partido), in eine Partei eintreten (filiar-se num partido), die Regierungspartei (o partido do governo)."
+      ],
+      "examples": [
+        {
+          "de": "Sie ist Mitglied einer Partei.",
+          "lv": "Ela é membro de um partido."
+        },
+        {
+          "de": "Die Parteien verhandeln über eine Koalition.",
+          "lv": "Os partidos estão a negociar uma coligação."
+        },
+        {
+          "de": "Im Streit ergriff er Partei für seinen Bruder.",
+          "lv": "Na discussão, ele tomou o partido do irmão."
+        },
+        {
+          "de": "Beide Parteien haben den Vertrag unterschrieben.",
+          "lv": "Ambas as partes assinaram o contrato."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "die Seite",
+          "meaning": "lado",
+          "example": "Auf welcher Seite stehst du? – De que lado estás?"
+        },
+        {
+          "word": "der Verein",
+          "meaning": "associação, clube",
+          "example": "Er ist im Sportverein. – Ele está num clube desportivo."
+        },
+        {
+          "word": "die Gruppe",
+          "meaning": "grupo",
+          "example": "Die Gruppe trifft sich heute. – O grupo reúne-se hoje."
+        }
+      ],
+      "tip": [
+        "Partei ergreifen (tomar o partido de alguém) é uma expressão útil para descrever conflitos.",
+        "Na política diz-se eine Partei wählen ou für eine Partei stimmen."
+      ],
+      "important": [
+        "Die Partei e die Party (festa) soam parecido, mas não estão relacionadas."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Partei",
+            "Parteien"
+          ],
+          "purple": [
+            "partido",
+            "parte",
+            "um partido",
+            "num partido",
+            "o partido"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Partei"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "partido"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Parteien"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "partidos"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Partei"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "partido"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Parteien"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "partes"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "die Seite"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "lado"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Verein"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "associação"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Gruppe"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "grupo"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "Partei"
+            ]
+          },
+          {
+            "blue": [
+              "Partei"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "Partei"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "de": "Persönlichkeit",
+    "de_article": "die",
+    "de_plural": "die Persönlichkeiten",
+    "lv": "personalidade",
+    "level": "C1"
+  },
+  {
+    "de": "Polizeieinheit",
+    "de_article": "die",
+    "de_plural": "die Polizeieinheiten",
+    "lv": "unidade policial",
+    "level": "C1"
+  },
+  {
+    "de": "Polizeistreife",
+    "de_article": "die",
+    "de_plural": "die Polizeistreifen",
+    "lv": "patrulha policial",
+    "level": "C1"
+  },
+  {
+    "de": "Pollenallergie",
+    "de_article": "die",
+    "de_plural": "die Pollenallergien",
+    "lv": "alergia ao pólen",
+    "level": "C1"
+  },
+  {
+    "de": "Polstergarnitur",
+    "de_article": "die",
+    "de_plural": "die Polstergarnituren",
+    "lv": "conjunto de sofás",
+    "level": "C1"
+  },
+  {
+    "de": "Premier",
+    "de_article": "der",
+    "de_plural": "die Premiers",
+    "lv": "primeiro-ministro",
+    "level": "C1"
+  },
+  {
+    "de": "Prozess",
+    "de_article": "der",
+    "de_plural": "die Prozesse",
+    "lv": "processo",
+    "level": "C1",
+    "study": {
+      "id": "c1-prozess",
+      "layout": "standardStudy",
+      "translation": "processo",
+      "explanation": [
+        "Ideia principal: der Prozess tem dois significados principais: processo, evolução (ein langsamer Prozess) e processo judicial (ein Prozess gegen jemanden).",
+        "Substantivo masculino: der Prozess, plural die Prozesse. Um processo judicial pode ser movido, iniciado, ganho ou perdido: einen Prozess führen, gewinnen, verlieren.",
+        "A expressão kurzen Prozess machen significa agir sem grandes hesitações, de forma implacável."
+      ],
+      "examples": [
+        {
+          "de": "Der Prozess gegen den Angeklagten dauert Monate.",
+          "lv": "O processo contra o arguido dura meses."
+        },
+        {
+          "de": "Die Heilung ist ein langsamer Prozess.",
+          "lv": "A cura é um processo lento."
+        },
+        {
+          "de": "Sie haben den Prozess gewonnen.",
+          "lv": "Eles ganharam o processo."
+        },
+        {
+          "de": "Die Firma machte kurzen Prozess und kündigte ihm.",
+          "lv": "A empresa não hesitou e despediu-o."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "der Vorgang",
+          "meaning": "procedimento, decurso",
+          "example": "Der Vorgang dauert eine Stunde. – O procedimento dura uma hora."
+        },
+        {
+          "word": "die Verhandlung",
+          "meaning": "audiência (em tribunal)",
+          "example": "Die Verhandlung beginnt um neun. – A audiência começa às nove."
+        },
+        {
+          "word": "die Klage",
+          "meaning": "ação judicial, queixa",
+          "example": "Er reichte eine Klage ein. – Ele intentou uma ação judicial."
+        }
+      ],
+      "tip": [
+        "Quando se fala de tribunal, são frequentes os verbos: einen Prozess führen / gewinnen / verlieren.",
+        "O processo no sentido de evolução é também um termo técnico e científico: der Prozess der Herstellung (o processo de produção)."
+      ],
+      "important": [
+        "Em todos os significados, a palavra não é neutra: der Prozess (e não das Prozess)."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Prozess",
+            "Prozesse"
+          ],
+          "purple": [
+            "processo",
+            "processo judicial",
+            "Um processo judicial"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Prozess"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "processo"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Prozess"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "processo"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Prozess"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "processo"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Prozess"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "hesitou"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "Vorgang"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "procedimento"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "Verhandlung"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "audiência"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "Klage"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ação"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "Prozess"
+            ]
+          },
+          {
+            "blue": [
+              "Prozess"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "Prozess"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "de": "Prozessor",
+    "de_article": "der",
+    "de_plural": "die Prozessoren",
+    "lv": "processador",
+    "level": "C1"
+  },
+  {
+    "de": "Radioübertragung",
+    "de_article": "die",
+    "de_plural": "die Radioübertragungen",
+    "lv": "transmissão radiofónica",
+    "level": "C1"
+  },
+  {
+    "de": "Rechtsanwalt",
+    "de_article": "der",
+    "de_plural": "die Rechtsanwälte",
+    "lv": "advogado",
+    "level": "C1"
+  },
+  {
+    "de": "Rekonstruktion",
+    "de_article": "die",
+    "de_plural": "die Rekonstruktionen",
+    "lv": "reconstrução • reconstituição",
+    "level": "C1"
+  },
+  {
+    "de": "Rennen mit Hindernissen",
+    "de_article": "das",
+    "de_plural": "die Rennen mit Hindernissen",
+    "lv": "corrida de obstáculos",
+    "level": "C1"
+  },
+  {
+    "de": "Reparaturkosten",
+    "de_article": "die",
+    "lv": "custos de reparação",
+    "level": "C1"
+  },
+  {
+    "de": "Rettungsstelle",
+    "de_article": "die",
+    "de_plural": "die Rettungsstellen",
+    "lv": "posto de primeiros socorros",
+    "level": "C1"
+  },
+  {
+    "de": "rezeptpflichtig",
+    "lv": "sujeito a receita médica",
+    "level": "C1"
+  },
+  {
+    "de": "Schauspielhaus",
+    "de_article": "das",
+    "de_plural": "die Schauspielhäuser",
+    "lv": "teatro",
+    "level": "C1"
+  },
+  {
+    "de": "Scheibenwischer",
+    "de_article": "der",
+    "de_plural": "die Scheibenwischer",
+    "lv": "limpa-para-brisas",
+    "level": "C1"
+  },
+  {
+    "de": "Schiedsrichter",
+    "de_article": "der",
+    "de_plural": "die Schiedsrichter",
+    "lv": "árbitro",
+    "level": "C1"
+  },
+  {
+    "de": "Schlussverkauf",
+    "de_article": "der",
+    "de_plural": "die Schlussverkäufe",
+    "lv": "saldos",
+    "level": "C1"
+  },
+  {
+    "de": "schmerzhaft",
+    "lv": "doloroso",
+    "level": "C1"
+  },
+  {
+    "de": "Schneewittchen",
+    "de_article": "das",
+    "de_plural": "die Schneewittchen",
+    "lv": "Branca de Neve",
+    "level": "C1"
+  },
+  {
+    "de": "Schraubenzieher",
+    "de_article": "der",
+    "de_plural": "die Schraubenzieher",
+    "lv": "chave de fendas",
+    "level": "C1"
+  },
+  {
+    "de": "Schutzumschlag",
+    "de_article": "der",
+    "de_plural": "die Schutzumschläge",
+    "lv": "sobrecapa",
+    "level": "C1"
+  },
+  {
+    "de": "Schwiegereltern",
+    "de_article": "die",
+    "lv": "sogros",
+    "level": "C1"
+  },
+  {
+    "de": "Schwiegermutter",
+    "de_article": "die",
+    "de_plural": "die Schwiegermütter",
+    "lv": "sogra",
+    "level": "C1"
+  },
+  {
+    "de": "Schwiegertochter",
+    "de_article": "die",
+    "de_plural": "die Schwiegertöchter",
+    "lv": "nora",
+    "level": "C1"
+  },
+  {
+    "de": "Schwiegervater",
+    "de_article": "der",
+    "de_plural": "die Schwiegerväter",
+    "lv": "sogro",
+    "level": "C1"
+  },
+  {
+    "de": "Selbstbedienung",
+    "de_article": "die",
+    "de_plural": "die Selbstbedienungen",
+    "lv": "self-service",
+    "level": "C1"
+  },
+  {
+    "de": "Stabhochspringen",
+    "de_article": "das",
+    "lv": "salto com vara",
+    "level": "C1"
+  },
+  {
+    "de": "Stadtrundfahrt",
+    "de_article": "die",
+    "de_plural": "die Stadtrundfahrten",
+    "lv": "visita guiada à cidade",
+    "level": "C1"
+  },
+  {
+    "de": "stecken bleiben",
+    "lv": "ficar preso • encalhar",
+    "level": "C1"
+  },
+  {
+    "de": "Stellvertreter",
+    "de_article": "der",
+    "de_plural": "die Stellvertreter",
+    "lv": "substituto • adjunto",
+    "level": "C1"
+  },
+  {
+    "de": "Steuererklärung",
+    "de_article": "die",
+    "de_plural": "die Steuererklärungen",
+    "lv": "declaração de rendimentos",
+    "level": "C1"
+  },
+  {
+    "de": "Strampelhöschen",
+    "de_article": "das",
+    "de_plural": "die Strampelhöschen",
+    "lv": "macacão de bebé",
+    "level": "C1"
+  },
+  {
+    "de": "Stromverbrauch",
+    "de_article": "der",
+    "de_plural": "die Stromverbräuche",
+    "lv": "consumo de eletricidade",
+    "level": "C1"
+  },
+  {
+    "de": "Tagesnachrichten",
+    "de_article": "die",
+    "lv": "notícias do dia",
+    "level": "C1"
+  },
+  {
+    "de": "Teilzeitarbeit",
+    "de_article": "die",
+    "de_plural": "die Teilzeitarbeiten",
+    "lv": "trabalho a tempo parcial",
+    "level": "C1"
+  },
+  {
+    "de": "Terminkalender",
+    "de_article": "der",
+    "de_plural": "die Terminkalender",
+    "lv": "agenda",
+    "level": "C1"
+  },
+  {
+    "de": "Thermosflasche",
+    "de_article": "die",
+    "de_plural": "die Thermosflaschen",
+    "lv": "termo",
+    "level": "C1"
+  },
+  {
+    "de": "Tierkreiszeichen",
+    "de_article": "das",
+    "de_plural": "die Tierkreiszeichen",
+    "lv": "signo do zodíaco",
+    "level": "C1"
+  },
+  {
+    "de": "transportieren",
+    "lv": "transportar",
+    "level": "C1"
+  },
+  {
+    "de": "Überschwemmung",
+    "de_article": "die",
+    "de_plural": "die Überschwemmungen",
+    "lv": "inundação • cheia",
+    "level": "C1"
+  },
+  {
+    "de": "Unternehmen",
+    "de_article": "das",
+    "de_plural": "die Unternehmen",
+    "lv": "empresa • empreendimento",
+    "level": "C1"
+  },
+  {
+    "de": "unterstreichen",
+    "lv": "sublinhar",
+    "level": "C1"
+  },
+  {
+    "de": "unverständlich",
+    "lv": "incompreensível",
+    "level": "C1"
+  },
+  {
+    "de": "Heiratsurkunde",
+    "de_article": "die",
+    "de_plural": "die Heiratsurkunden",
+    "lv": "certidão de casamento",
+    "level": "C1"
+  },
+  {
+    "de": "Urteil",
+    "de_article": "das",
+    "de_plural": "die Urteile",
+    "lv": "sentença • juízo",
+    "level": "C1"
+  },
+  {
+    "de": "veranstalten",
+    "lv": "organizar",
+    "level": "C1"
+  },
+  {
+    "de": "verantworten",
+    "lv": "responsabilizar-se por • responder por",
+    "level": "C1"
+  },
+  {
+    "de": "Verantwortung",
+    "de_article": "die",
+    "de_plural": "die Verantwortungen",
+    "lv": "responsabilidade",
+    "level": "C1"
+  },
+  {
+    "de": "Vereinbarung",
+    "de_article": "die",
+    "de_plural": "die Vereinbarungen",
+    "lv": "acordo",
+    "level": "C1"
+  },
+  {
+    "de": "Vergangenheit",
+    "de_article": "die",
+    "de_plural": "die Vergangenheiten",
+    "lv": "passado",
+    "level": "C1"
+  },
+  {
+    "de": "Verkehrsstau",
+    "de_article": "der",
+    "de_plural": "die Verkehrsstaue",
+    "lv": "engarrafamento",
+    "level": "C1"
+  },
+  {
+    "de": "Verlegenheit",
+    "de_article": "die",
+    "de_plural": "die Verlegenheiten",
+    "lv": "embaraço • atrapalhação",
+    "level": "C1"
+  },
+  {
+    "de": "verschließen",
+    "lv": "fechar à chave",
+    "level": "C1"
+  },
+  {
+    "de": "verschlucken",
+    "lv": "engolir",
+    "level": "C1"
+  },
+  {
+    "de": "verschwenden",
+    "lv": "desperdiçar • esbanjar",
+    "level": "C1"
+  },
+  {
+    "de": "Versicherung",
+    "de_article": "die",
+    "de_plural": "die Versicherungen",
+    "lv": "seguro",
+    "level": "C1"
+  },
+  {
+    "de": "sich verständigen",
+    "lv": "entender-se • comunicar-se",
+    "level": "C1"
+  },
+  {
+    "de": "verständlich",
+    "lv": "compreensível",
+    "level": "C1"
+  },
+  {
+    "de": "Vertrag",
+    "de_article": "der",
+    "de_plural": "die Verträge",
+    "lv": "contrato",
+    "level": "C1"
+  },
+  {
+    "de": "voll beschäftigt",
+    "lv": "empregado a tempo inteiro",
+    "level": "C1"
+  },
+  {
+    "de": "Vorgesetzte",
+    "de_article": "der",
+    "de_plural": "die Vorgesetzten",
+    "lv": "superior • chefe",
+    "level": "C1"
+  },
+  {
+    "de": "vorteilhaft",
+    "lv": "vantajoso",
+    "level": "C1"
+  },
+  {
+    "de": "Wettbewerb",
+    "de_article": "der",
+    "de_plural": "die Wettbewerbe",
+    "lv": "concurso • concorrência",
+    "level": "C1"
+  },
+  {
+    "de": "sich zufrieden geben",
+    "lv": "contentar-se",
+    "level": "C1"
+  },
+  {
+    "de": "zusammenbringen",
+    "lv": "juntar • reunir",
+    "level": "C1"
+  },
+  {
+    "de": "zusammenfassen",
+    "lv": "resumir",
+    "level": "C1",
+    "study": {
+      "id": "c1-zusammenfassen",
+      "layout": "standardStudy",
+      "translation": "resumir",
+      "explanation": [
+        "Ideia principal: zusammenfassen significa resumir brevemente o essencial de um texto, de um discurso ou de resultados; também reunir várias coisas num todo.",
+        "Verbo separável: er fasst zusammen, fasste zusammen, hat zusammengefasst. O que se resume vai para o acusativo: einen Text zusammenfassen. Muitas vezes segue-se in + dativo ou zu + dativo: in einem Satz zusammenfassen. O substantivo é die Zusammenfassung.",
+        "No início da frase usa-se muitas vezes zusammenfassend (em resumo): Zusammenfassend lässt sich sagen …"
+      ],
+      "examples": [
+        {
+          "de": "Fasst bitte den Text in drei Sätzen zusammen.",
+          "lv": "Resumam o texto em três frases, por favor."
+        },
+        {
+          "de": "Der Redner fasste die Ergebnisse kurz zusammen.",
+          "lv": "O orador resumiu brevemente os resultados."
+        },
+        {
+          "de": "Wir haben die Vorschläge in einer Liste zusammengefasst.",
+          "lv": "Reunimos as propostas numa lista."
+        },
+        {
+          "de": "Kannst du den Film kurz zusammenfassen?",
+          "lv": "Consegues resumir o filme em poucas palavras?"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "zusammenstellen",
+          "meaning": "compilar, organizar",
+          "example": "Ich stelle eine Liste zusammen. – Estou a compilar uma lista."
+        },
+        {
+          "word": "kürzen",
+          "meaning": "encurtar",
+          "example": "Wir kürzen den Text. – Encurtamos o texto."
+        },
+        {
+          "word": "wiederholen",
+          "meaning": "repetir",
+          "example": "Wiederhole den Satz. – Repete a frase."
+        }
+      ],
+      "tip": [
+        "Lembra-te da separação: Ich fasse den Text zusammen, mas na oração subordinada …, weil ich den Text zusammenfasse.",
+        "Depois de zusammenfassen segue-se muitas vezes in einem Satz / in drei Punkten."
+      ],
+      "important": [
+        "O particípio passado é zusammengefasst (com -ge- entre zusammen e fasst).",
+        "Não confundas com zusammenstellen: significa compilar, e não resumir brevemente."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "zusammenfassen",
+            "zusammenfassend",
+            "fasst zusammen",
+            "fasste zusammen",
+            "zusammengefasst",
+            "Zusammenfassung",
+            "fasste",
+            "fasst"
+          ],
+          "purple": [
+            "resumir",
+            "reunir"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Fasst"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Resumam"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fasste"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "resumiu"
               ]
             }
           },
@@ -1362,76 +1980,79 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Viņš"
+                "Reunimos"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "Zusammenfassend"
+                "zusammenfassen"
               ]
             },
             "lv": {
               "purple": [
-                "apkopojot"
+                "resumir"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "zusammenstellen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "compilar"
               ]
             }
           },
           {
-            "de": {
+            "word": {
               "green": [
-                "Zusammenfassung"
+                "kürzen"
               ]
             },
-            "lv": {
+            "meaning": {
               "purple": [
-                "kopsavilkumu"
+                "encurtar"
               ]
             }
           },
           {
-            "de": {
+            "word": {
               "green": [
-                "Zusammenfassung"
+                "wiederholen"
               ]
             },
-            "lv": {
+            "meaning": {
               "purple": [
-                "kopsavilkums"
+                "repetir"
               ]
             }
           }
         ],
         "tip": [
+          {},
           {
             "blue": [
               "zusammenfassen"
-            ]
-          },
-          {
-            "green": [
-              "die Zusammenfassung"
             ]
           }
         ],
         "important": [
           {
             "blue": [
-              "zusammenfassen"
+              "zusammengefasst",
+              "fasst"
             ]
           },
           {
             "green": [
-              "die Zusammenfassung"
-            ]
-          },
-          {
-            "green": [
-              "die Zusammenfassung"
-            ],
-            "red": [
-              "die zusammenfassen"
+              "zusammenstellen"
             ]
           }
         ]
@@ -1440,1062 +2061,1736 @@ const C1_WORDS = [
   },
   {
     "de": "zusammenhängen",
-    "lv": "Mas saistītam (ar)",
+    "lv": "estar relacionado",
     "level": "C1"
   },
   {
     "de": "Aufmerksamkeit",
     "de_article": "die",
     "de_plural": "die Aufmerksamkeiten",
-    "lv": "Uzmaniba",
+    "lv": "atenção",
     "level": "C1"
   },
   {
     "de": "Fernsehsendung",
     "de_article": "die",
     "de_plural": "die Fernsehsendungen",
-    "lv": "Raidījums televisivos",
+    "lv": "programa de televisão",
     "level": "C1"
   },
   {
     "de": "Landschaft",
     "de_article": "die",
     "de_plural": "die Landschaften",
-    "lv": "Ainavá",
+    "lv": "paisagem",
     "level": "C1"
   },
   {
     "de": "Rechtschreibung",
     "de_article": "die",
     "de_plural": "die Rechtschreibungen",
-    "lv": "Pareizrakstiba",
+    "lv": "ortografia",
     "level": "C1"
   },
   {
     "de": "Straßenkreuzung",
     "de_article": "die",
     "de_plural": "die Straßenkreuzungen",
-    "lv": "Ielu Krustojums",
+    "lv": "cruzamento",
     "level": "C1"
   },
   {
     "de": "Wahl",
     "de_article": "die",
     "de_plural": "die Wahlen",
-    "lv": "Izvēle • Vēlēšanas",
+    "lv": "escolha • eleição",
     "level": "C1",
     "study": {
       "id": "c1-wahl",
       "layout": "standardStudy",
-      "translation": "Izvēle • Vēlēšanas",
-      "explanation": "Die Wahl foi nozīmēt izvēli starp iespējām. Politikas kontekstā Wahl nozīmē vēlēšanas. Tā var nozīmēt arī pašu balsošanu. Frāze eine Wahl treffen nozīmē izdarīt izvēli. zur Wahl gehen nozīmē doties uz vēlēšanām. O conteúdo da política será personīgu lēmumu stopāda pareizo nozīmi.",
+      "translation": "escolha • eleição",
+      "explanation": [
+        "Ideia principal: die Wahl significa escolha (o que se escolhe entre várias possibilidades) e eleição (a eleição de pessoas para um cargo).",
+        "Substantivo feminino: die Wahl, plural die Wahlen. No sentido de eleições, usa-se muito frequentemente o plural: die Wahlen finden statt. No sentido de escolha, está normalmente no singular: die Wahl haben, keine andere Wahl haben.",
+        "Combinações: die Wahl treffen (fazer uma escolha), zur Wahl gehen (ir votar), die Wahl gewinnen (ganhar as eleições)."
+      ],
       "examples": [
         {
-          "de": "Du hast die Wahl.",
-          "lv": "Tev ir izvēle."
+          "de": "Du hast die Wahl zwischen Tee und Kaffee.",
+          "lv": "Podes escolher entre chá e café."
         },
         {
-          "de": "Ich treffe meine Wahl morgen.",
-          "lv": "É izdaru savu izvēli rīt."
+          "de": "Die Wahlen finden im Herbst statt.",
+          "lv": "As eleições realizam-se no outono."
         },
         {
-          "de": "Die Wahl findet am Sonntag statt.",
-          "lv": "Vēlēšanas notoek svētdien."
+          "de": "Er hatte keine andere Wahl.",
+          "lv": "Ele não tinha outra escolha."
         },
         {
-          "de": "Viele Menschen gehen zur Wahl.",
-          "lv": "Daudzi cilvēki dodas uz vēlēšanām."
-        },
-        {
-          "de": "Die freie Wahl ist wichtig.",
-          "lv": "Brīva izvēle ir svarīga."
-        },
-        {
-          "de": "Bei der Wahl stimmen wir ab.",
-          "lv": "Vēlēšanās mēs balsojam."
+          "de": "Die Wahl des Bürgermeisters ist am Sonntag.",
+          "lv": "A eleição do presidente da câmara é no domingo."
         }
-      ]
+      ],
+      "comparison": [
+        {
+          "word": "die Auswahl",
+          "meaning": "escolha (variedade disponível)",
+          "example": "Im Laden gibt es eine große Auswahl. – Na loja há uma grande variedade."
+        },
+        {
+          "word": "die Entscheidung",
+          "meaning": "decisão",
+          "example": "Das ist meine Entscheidung. – É a minha decisão."
+        },
+        {
+          "word": "die Abstimmung",
+          "meaning": "votação",
+          "example": "Die Abstimmung ist morgen. – A votação é amanhã."
+        }
+      ],
+      "tip": [
+        "Pensa no contexto: Wahl sem plural é muitas vezes escolha, die Wahlen — eleições.",
+        "O verbo ligado às eleições é wählen (votar, eleger, escolher)."
+      ],
+      "important": [
+        "Não confundas die Wahl com die Auswahl: Auswahl é a oferta de onde se escolhe."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "die Wahl",
+            "die Wahlen",
+            "Wahlen",
+            "Wahl",
+            "zur Wahl gehen",
+            "die Wahl treffen"
+          ],
+          "purple": [
+            "escolha",
+            "eleição"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Wahl"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "escolher"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Wahlen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "eleições"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Wahl"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "escolha"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Wahl"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "eleição"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "die Auswahl"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "variedade"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Entscheidung"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "decisão"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Abstimmung"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "votação"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "Wahl",
+              "die Wahlen",
+              "Wahlen"
+            ]
+          },
+          {}
+        ],
+        "important": [
+          {
+            "blue": [
+              "Wahl",
+              "die Wahl"
+            ],
+            "green": [
+              "die Auswahl",
+              "Auswahl"
+            ]
+          }
+        ]
+      }
     }
   },
   {
     "de": "Herausforderung",
     "de_article": "die",
     "de_plural": "die Herausforderungen",
-    "lv": "Izaicinajums",
+    "lv": "desafio",
     "level": "C1"
   },
   {
     "de": "Abfallbeseitigung",
     "de_article": "die",
     "de_plural": "die Abfallbeseitigungen",
-    "lv": "Atkritumu iznīcināšana",
+    "lv": "eliminação de resíduos",
     "level": "C1"
   },
   {
     "de": "Abgeordnete",
     "de_article": "der",
     "de_plural": "die Abgeordneten",
-    "lv": "Deputados • Pārstāvis • Delegados",
+    "lv": "deputado • delegado",
     "level": "C1"
   },
   {
     "de": "Abkommen",
     "de_article": "das",
     "de_plural": "die Abkommen",
-    "lv": "Nolīgums • Vienašanās",
+    "lv": "acordo • convénio",
     "level": "C1"
   },
   {
     "de": "Abschleppdienst",
     "de_article": "der",
     "de_plural": "die Abschleppdienste",
-    "lv": "Evacuatiedienst • Verhuisservice",
+    "lv": "serviço de reboque",
     "level": "C1"
   },
   {
     "de": "Abteilungsleiter",
     "de_article": "der",
     "de_plural": "die Abteilungsleiter",
-    "lv": "Vadītājs de nós",
+    "lv": "chefe de departamento",
     "level": "C1"
   },
   {
     "de": "antifaschistisch",
-    "lv": "Anti-fascistas",
+    "lv": "antifascista",
     "level": "C1"
   },
   {
     "de": "Aufenthaltsdauer",
     "de_article": "die",
     "de_plural": "die Aufenthaltsdauern",
-    "lv": "Ilgums Uzturēšanās",
+    "lv": "duração da estada",
     "level": "C1"
   },
   {
     "de": "augenscheinlich",
-    "lv": "Acimredzot",
+    "lv": "aparentemente • evidentemente",
     "level": "C1"
   },
   {
     "de": "Güteraustausch",
     "de_article": "der",
     "de_plural": "die Güteraustausche",
-    "lv": "Preču apmaiņa",
+    "lv": "troca de mercadorias",
     "level": "C1"
   },
   {
     "de": "Flottenbasis",
     "de_article": "die",
     "de_plural": "die Flottenbasen",
-    "lv": "Flutuadores de baze",
+    "lv": "base naval",
     "level": "C1"
   },
   {
     "de": "Basisforschung",
     "de_article": "die",
     "de_plural": "die Basisforschungen",
-    "lv": "Pamatpētījums",
+    "lv": "investigação fundamental",
     "level": "C1"
   },
   {
     "de": "beachtenswert",
-    "lv": "Ciências Ievērības • Vērā ņemams",
+    "lv": "notável • digno de nota",
     "level": "C1"
   },
   {
     "de": "beanspruchen",
-    "lv": "Prasīt • Pretendēt • Mas noslogotam",
+    "lv": "exigir • reivindicar • sobrecarregar",
     "level": "C1"
   },
   {
     "de": "Bedarfsartikel",
     "de_article": "der",
     "de_plural": "die Bedarfsartikel",
-    "lv": "Plaša patēriņa prece",
+    "lv": "artigo de consumo",
     "level": "C1"
   },
   {
     "de": "bedingungslos",
-    "lv": "Bezierunu • Beznosacījumu • Bez ierunām • Bez nosacījumiem",
+    "lv": "incondicional",
     "level": "C1"
   },
   {
     "de": "Befangenheit",
     "de_article": "die",
     "de_plural": "die Befangenheiten",
-    "lv": "Samulsums • Apmulsums",
-    "level": "C1"
+    "lv": "embaraço • timidez",
+    "level": "C1",
+    "study": {
+      "id": "c1-befangenheit",
+      "layout": "standardStudy",
+      "translation": "embaraço • timidez",
+      "explanation": [
+        "Ideia principal: die Befangenheit é o embaraço ou o acanhamento que surge numa situação desconhecida ou perante outras pessoas. Em linguagem jurídica significa também falta de imparcialidade, por exemplo a parcialidade de um juiz ou de um perito.",
+        "Substantivo feminino: die Befangenheit, normalmente sem plural. O adjetivo é befangen (embaraçado, parcial).",
+        "Em tribunal, a expressão Besorgnis der Befangenheit designa dúvidas quanto à imparcialidade do juiz; daí vem Befangenheitsantrag (pedido de recusa do juiz)."
+      ],
+      "examples": [
+        {
+          "de": "Seine Befangenheit war deutlich zu spüren.",
+          "lv": "O seu embaraço notava-se claramente."
+        },
+        {
+          "de": "Sie sprach ohne jede Befangenheit vor der Gruppe.",
+          "lv": "Ela falou perante o grupo sem qualquer embaraço."
+        },
+        {
+          "de": "Vor Fremden hatte das Kind eine gewisse Befangenheit.",
+          "lv": "Perante estranhos, a criança mostrava uma certa timidez."
+        },
+        {
+          "de": "Der Anwalt stellte einen Antrag wegen Befangenheit des Richters.",
+          "lv": "O advogado apresentou um requerimento por parcialidade do juiz."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "die Verlegenheit",
+          "meaning": "constrangimento, embaraço",
+          "example": "Er lachte aus Verlegenheit. – Ele riu-se por constrangimento."
+        },
+        {
+          "word": "die Voreingenommenheit",
+          "meaning": "preconceito, parcialidade",
+          "example": "Ihre Voreingenommenheit stört mich. – O preconceito dela incomoda-me."
+        },
+        {
+          "word": "die Schüchternheit",
+          "meaning": "timidez",
+          "example": "Seine Schüchternheit verschwand. – A timidez dele desapareceu."
+        }
+      ],
+      "tip": [
+        "Se em tribunal se fala de Befangenheit, o significado é parcialidade e não embaraço.",
+        "No sentido de embaraço, a palavra é literária; no dia a dia diz-se mais verlegen sein."
+      ],
+      "important": [
+        "O contrário é Unbefangenheit (naturalidade, desembaraço) ou Objektivität (objetividade)."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "die Befangenheit",
+            "Befangenheit",
+            "befangen",
+            "Befangenheitsantrag"
+          ],
+          "purple": [
+            "embaraço",
+            "parcialidade"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Befangenheit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "embaraço"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Befangenheit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "embaraço"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Befangenheit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "timidez"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Befangenheit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "parcialidade"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "die Verlegenheit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "constrangimento"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Voreingenommenheit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "preconceito"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Schüchternheit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "timidez"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "Befangenheit"
+            ]
+          },
+          {}
+        ],
+        "important": [
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "beglaubigen",
-    "lv": "Pedido oficial • Notariali apstiprināt",
+    "lv": "autenticar • reconhecer notarialmente",
     "level": "C1"
   },
   {
     "de": "beglückwünschen",
-    "lv": "Novēlēt laimes • Apsveikt",
+    "lv": "felicitar • dar os parabéns",
     "level": "C1"
   },
   {
     "de": "beiderseitig",
-    "lv": "Abpusīgs • Abpusējs",
+    "lv": "mútuo • recíproco",
     "level": "C1"
   },
   {
     "de": "Familienbeihilfe",
     "de_article": "die",
     "de_plural": "die Familienbeihilfen",
-    "lv": "Ģimenes pabalsts",
+    "lv": "abono de família",
     "level": "C1"
   },
   {
     "de": "beispielhaft",
-    "lv": "Parauga • Priekšzīmīgs",
+    "lv": "exemplar • ilustrativo",
     "level": "C1"
   },
   {
     "de": "beklagen",
-    "lv": "Nožēlot • Skumt • Apraudāt • Žēloties • Sūdzēties",
+    "lv": "lamentar • chorar • queixar-se",
     "level": "C1"
   },
   {
     "de": "Zahnbelag",
     "de_article": "der",
     "de_plural": "die Zahnbeläge",
-    "lv": "Aplicações zobu",
+    "lv": "placa bacteriana",
     "level": "C1"
   },
   {
     "de": "Belegschaft",
     "de_article": "die",
     "de_plural": "die Belegschaften",
-    "lv": "Colektīvs • Contatos pessoais",
+    "lv": "pessoal • efetivo",
     "level": "C1"
   },
   {
     "de": "benachteiligen",
-    "lv": "Kaitīt • Nodarīt zaudējumus • Nodarīt pāri",
+    "lv": "prejudicar • discriminar",
     "level": "C1"
   },
   {
     "de": "Berufsberater",
     "de_article": "der",
     "de_plural": "die Berufsberater",
-    "lv": "Consultores darba",
+    "lv": "orientador profissional",
     "level": "C1"
   },
   {
     "de": "beratschlagen",
-    "lv": "Apristos",
+    "lv": "deliberar • debater",
     "level": "C1"
   },
   {
     "de": "Einflussbereich",
     "de_article": "der",
     "de_plural": "die Einflussbereiche",
-    "lv": "Esfera Ietekmes",
+    "lv": "esfera de influência",
     "level": "C1"
   },
   {
     "de": "bereitwillig",
-    "lv": "Gatavs pakalpot • Pakalpīgs",
+    "lv": "solícito • prestável",
     "level": "C1"
   },
   {
     "de": "Berufsberatung",
     "de_article": "die",
     "de_plural": "die Berufsberatungen",
-    "lv": "Consultas profissionais voltadas para orientação",
+    "lv": "orientação profissional",
     "level": "C1"
   },
   {
     "de": "Berufsgeheimnis",
     "de_article": "das",
     "de_plural": "die Berufsgeheimnisse",
-    "lv": "Amados noslēpums",
+    "lv": "segredo profissional",
     "level": "C1"
   },
   {
     "de": "Berufung",
     "de_article": "die",
     "de_plural": "die Berufungen",
-    "lv": "Roeping • Neiging • Beroep",
-    "level": "C1"
+    "lv": "vocação • nomeação • recurso",
+    "level": "C1",
+    "study": {
+      "id": "c1-berufung",
+      "layout": "standardStudy",
+      "translation": "vocação • nomeação • recurso",
+      "explanation": [
+        "Ideia principal: die Berufung é uma palavra com vários significados: vocação (chamamento interior para uma profissão), nomeação para um cargo (sobretudo numa universidade), invocação de algo (unter Berufung auf) e, no direito, recurso (Berufung einlegen).",
+        "Substantivo feminino: die Berufung, plural die Berufungen. O verbo correspondente é berufen, mas a ideia de invocar algo exprime-se com sich berufen auf + acusativo.",
+        "O significado é normalmente definido pela combinação: Berufung einlegen — interpor recurso; unter Berufung auf — invocando, com base em."
+      ],
+      "examples": [
+        {
+          "de": "Sie spürt die Berufung zur Ärztin.",
+          "lv": "Ela sente a vocação para ser médica."
+        },
+        {
+          "de": "Die Anwältin legte gegen das Urteil Berufung ein.",
+          "lv": "A advogada interpôs recurso da sentença."
+        },
+        {
+          "de": "Er lehnte die Fragen unter Berufung auf das Datenschutzgesetz ab.",
+          "lv": "Ele recusou-se a responder às perguntas, invocando a lei de proteção de dados."
+        },
+        {
+          "de": "Seine Berufung an die Universität kam überraschend.",
+          "lv": "A sua nomeação para a universidade foi uma surpresa."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "der Beruf",
+          "meaning": "profissão",
+          "example": "Mein Beruf ist Lehrer. – A minha profissão é professor."
+        },
+        {
+          "word": "der Einspruch",
+          "meaning": "reclamação, oposição",
+          "example": "Er legte Einspruch ein. – Ele apresentou reclamação."
+        },
+        {
+          "word": "die Revision",
+          "meaning": "recurso de revista",
+          "example": "Die Revision wurde abgelehnt. – O recurso de revista foi rejeitado."
+        }
+      ],
+      "tip": [
+        "Memoriza duas combinações fixas: Berufung einlegen (recorrer) e unter Berufung auf (invocando).",
+        "Der Beruf (profissão) e die Berufung (vocação) são palavras aparentadas, mas significam coisas diferentes."
+      ],
+      "important": [
+        "O recurso no sistema jurídico alemão (Berufung) não é o mesmo que a Revision, que verifica apenas a aplicação do direito."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Berufung",
+            "Berufungen"
+          ],
+          "purple": [
+            "vocação",
+            "chamamento",
+            "nomeação",
+            "recurso",
+            "interpor recurso"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Berufung"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vocação"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Berufung"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "recurso"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Berufung"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "invocando"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Berufung"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nomeação"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "der Beruf"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "profissão"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Einspruch"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "reclamação"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Revision"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "revista"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "Berufung"
+            ]
+          },
+          {
+            "blue": [
+              "Berufung"
+            ],
+            "green": [
+              "der Beruf",
+              "Beruf"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "Berufung"
+            ],
+            "green": [
+              "Revision"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Besatzungsmacht",
     "de_article": "die",
     "de_plural": "die Besatzungsmächte",
-    "lv": "Posseiros de Vara",
+    "lv": "potência ocupante",
     "level": "C1"
   },
   {
     "de": "Beschaffenheit",
     "de_article": "die",
     "de_plural": "die Beschaffenheiten",
-    "lv": "Īpašība • Daba • Būtība",
+    "lv": "natureza • propriedade",
     "level": "C1"
   },
   {
     "de": "bescheinigen",
-    "lv": "Appliecināt • Izdot apliecību",
+    "lv": "certificar • atestar",
     "level": "C1"
   },
   {
     "de": "Bescheinigung",
     "de_article": "die",
     "de_plural": "die Bescheinigungen",
-    "lv": "Uzziņa • Apliecība • Apliecinājums • Apliecināšana",
+    "lv": "certificado • atestado • declaração",
     "level": "C1"
   },
   {
     "de": "beschlagnahmen",
-    "lv": "Apķīlāt • Konfiscēt • Atsavināt",
+    "lv": "confiscar • apreender",
     "level": "C1"
   },
   {
     "de": "beschuldigen",
-    "lv": "Apsūdzēt • Apvainot",
+    "lv": "acusar • culpar",
     "level": "C1"
   },
   {
     "de": "Besonderheit",
     "de_article": "die",
     "de_plural": "die Besonderheiten",
-    "lv": "Īpatnība • Savādība",
+    "lv": "particularidade • peculiaridade",
     "level": "C1"
   },
   {
     "de": "beträchtlich",
-    "lv": "Ievērojams • Krietni liels • Krietns",
+    "lv": "considerável",
     "level": "C1"
   },
   {
     "de": "Betriebskosten",
     "de_article": "die",
-    "lv": "Uzņēmuma ekspluatācijas izdevumi • Ražošanas izdevumi",
+    "lv": "custos de exploração • custos operacionais",
     "level": "C1"
   },
   {
     "de": "Betriebssystem",
     "de_article": "das",
     "de_plural": "die Betriebssysteme",
-    "lv": "Dados de instalação do sistema",
+    "lv": "sistema operativo",
     "level": "C1"
   },
   {
     "de": "bevollmächtigen",
-    "lv": "Pilnvarot • Piešķirt pilnvaru",
+    "lv": "autorizar • dar procuração",
     "level": "C1"
   },
   {
     "de": "bevorstehend",
-    "lv": "Gaidamais • Nākamais",
+    "lv": "iminente • próximo",
     "level": "C1"
   },
   {
     "de": "bewähren, sich",
-    "lv": "Izrādīties par patiesu • Attaisnoties",
+    "lv": "dar provas • comprovar-se",
     "level": "C1"
   },
   {
     "de": "Beweismaterial",
     "de_article": "das",
     "de_plural": "die Beweismaterialien",
-    "lv": "Lietiskie pierādījumi",
+    "lv": "material probatório • provas",
     "level": "C1"
   },
   {
     "de": "bewerben, sich",
-    "lv": "Pretendēt • Kandidēt • Censties • Tiekties",
+    "lv": "candidatar-se • concorrer",
     "level": "C1"
   },
   {
     "de": "Bezugsperson",
     "de_article": "die",
     "de_plural": "die Bezugspersonen",
-    "lv": "Pessoa de contato • Tuvākais cilvēks",
+    "lv": "pessoa de referência",
     "level": "C1"
   },
   {
     "de": "Bildhauerkunst",
     "de_article": "die",
-    "lv": "Tēlnieciba",
+    "lv": "escultura",
     "level": "C1"
   },
   {
     "de": "Bilanz",
     "de_article": "die",
     "de_plural": "die Bilanzen",
-    "lv": "Equilíbrio",
+    "lv": "balanço",
     "level": "C1"
   },
   {
     "de": "Finanzblockade",
     "de_article": "die",
     "de_plural": "die Finanzblockaden",
-    "lv": "Bloco financeiro",
+    "lv": "bloqueio financeiro",
     "level": "C1"
   },
   {
     "de": "Blutuntersuchung",
     "de_article": "die",
     "de_plural": "die Blutuntersuchungen",
-    "lv": "Asinsanalize",
+    "lv": "análise ao sangue",
     "level": "C1"
   },
   {
     "de": "Blutsverwandte",
     "de_article": "der",
     "de_plural": "die Blutsverwandten",
-    "lv": "Asinsradinieks",
+    "lv": "consanguíneo • parente de sangue",
     "level": "C1"
   },
   {
     "de": "Botschafter",
     "de_article": "der",
     "de_plural": "die Botschafter",
-    "lv": "Embaixador",
+    "lv": "embaixador",
     "level": "C1"
   },
   {
     "de": "Bundesdeutsche",
     "de_article": "der",
     "de_plural": "die Bundesdeutschen",
-    "lv": "Pilsona VFR e pilsona",
+    "lv": "cidadão da República Federal da Alemanha",
     "level": "C1"
   },
   {
     "de": "Computersprache",
     "de_article": "die",
     "de_plural": "die Computersprachen",
-    "lv": "Datorvaloda",
+    "lv": "linguagem informática",
     "level": "C1"
   },
   {
     "de": "Dachgepäckträger",
     "de_article": "der",
     "de_plural": "die Dachgepäckträger",
-    "lv": "Máquinas automáticas jumta bagāžnieks",
+    "lv": "porta-bagagens de tejadilho",
     "level": "C1"
   },
   {
     "de": "Datenübermittlung",
     "de_article": "die",
     "de_plural": "die Datenübermittlungen",
-    "lv": "Desfile Datu",
+    "lv": "transmissão de dados",
     "level": "C1"
   },
   {
     "de": "Datenübertragung",
     "de_article": "die",
     "de_plural": "die Datenübertragungen",
-    "lv": "Desfile Datu",
+    "lv": "transmissão de dados",
     "level": "C1"
   },
   {
     "de": "dauerhaft",
-    "lv": "Ilgstošs • Ilgs • Izturīgs",
+    "lv": "duradouro • durável • resistente",
     "level": "C1"
   },
   {
     "de": "dazwischenkommen",
-    "lv": "Atgadīties • Gadīties starpā • Iejaukties",
+    "lv": "surgir • intrometer-se",
     "level": "C1"
   },
   {
     "de": "Haushaltsdefizit",
     "de_article": "das",
     "de_plural": "die Haushaltsdefizite",
-    "lv": "Deficiência de Budžeta",
+    "lv": "défice orçamental",
     "level": "C1"
   },
   {
     "de": "Zolldeklaration",
     "de_article": "die",
     "de_plural": "die Zolldeklarationen",
-    "lv": "Muitas declarações",
+    "lv": "declaração aduaneira",
     "level": "C1"
   },
   {
     "de": "Delegation",
     "de_article": "die",
     "de_plural": "die Delegationen",
-    "lv": "Delegacija",
+    "lv": "delegação",
     "level": "C1"
   },
   {
     "de": "Eigentumsdelikt",
     "de_article": "das",
     "de_plural": "die Eigentumsdelikte",
-    "lv": "Schending van eigendomsrechten",
+    "lv": "crime contra a propriedade",
     "level": "C1"
   },
   {
     "de": "Verkehrsdelikt",
     "de_article": "das",
     "de_plural": "die Verkehrsdelikte",
-    "lv": "Satiksmes noteikumu pārkāpums",
+    "lv": "infração rodoviária",
     "level": "C1"
   },
   {
     "de": "dementsprechend",
-    "lv": "Atbilstoši tam",
+    "lv": "consequentemente • em conformidade",
     "level": "C1"
   },
   {
     "de": "dessen ungeachtet",
-    "lv": "Neskatoties uz a • Neievērojot a",
+    "lv": "apesar disso • não obstante",
     "level": "C1"
   },
   {
     "de": "Nachrichtendienst",
     "de_article": "der",
     "de_plural": "die Nachrichtendienste",
-    "lv": "Valsts slepenais dienests",
+    "lv": "serviço de informações",
     "level": "C1"
   },
   {
     "de": "Rettungsdienst",
     "de_article": "der",
     "de_plural": "die Rettungsdienste",
-    "lv": "Dienests de Glābšanas",
+    "lv": "serviço de emergência • serviço de socorro",
     "level": "C1"
   },
   {
     "de": "Dienstleistung",
     "de_article": "die",
     "de_plural": "die Dienstleistungen",
-    "lv": "Sadzīves pakalpojums",
+    "lv": "serviço • prestação de serviços",
     "level": "C1"
   },
   {
     "de": "dienstpflichtig",
-    "lv": "Padots Karadienestam",
+    "lv": "sujeito ao serviço militar",
     "level": "C1"
   },
   {
     "de": "diensttauglich",
-    "lv": "Derīgs Karadienestam",
+    "lv": "apto para o serviço militar",
     "level": "C1"
   },
   {
     "de": "Dieseltreibstoff",
     "de_article": "der",
     "de_plural": "die Dieseltreibstoffe",
-    "lv": "Dīzeļdegviela",
+    "lv": "gasóleo",
     "level": "C1"
   },
   {
     "de": "Diplomatie",
     "de_article": "die",
-    "lv": "Diploma",
+    "lv": "diplomacia",
     "level": "C1"
   },
   {
     "de": "diplomatisch",
-    "lv": "Diplomatas",
+    "lv": "diplomático",
     "level": "C1"
   },
   {
     "de": "Dirigentenstab",
     "de_article": "der",
     "de_plural": "die Dirigentenstäbe",
-    "lv": "Diretiva zizlis",
+    "lv": "batuta",
     "level": "C1"
   },
   {
     "de": "Diskettenlaufwerk",
     "de_article": "das",
     "de_plural": "die Diskettenlaufwerke",
-    "lv": "Disquetes Dzinis",
+    "lv": "unidade de disquetes",
     "level": "C1"
   },
   {
     "de": "disqualifizieren",
-    "lv": "Desvalificēt",
+    "lv": "desclassificar",
     "level": "C1"
   },
   {
     "de": "Durchfuhrverbot",
     "de_article": "das",
     "de_plural": "die Durchfuhrverbote",
-    "lv": "Caurbraukšanas aizliegums",
+    "lv": "proibição de trânsito",
     "level": "C1"
   },
   {
     "de": "Durchgangsverkehr",
     "de_article": "der",
-    "lv": "Tranzitsatiksme",
+    "lv": "tráfego de passagem",
     "level": "C1"
   },
   {
     "de": "ehrenhaft",
-    "lv": "Godīgs • Godājams • Cienījams",
+    "lv": "honrado • honroso • respeitável",
     "level": "C1"
   },
   {
     "de": "Einflusssphäre",
     "de_article": "die",
     "de_plural": "die Einflusssphären",
-    "lv": "Esfera Ietekmes",
+    "lv": "esfera de influência",
     "level": "C1"
   },
   {
     "de": "eingeschrieben",
-    "lv": "Ierakstīts • Reģistrēts",
+    "lv": "registado • inscrito",
     "level": "C1"
   },
   {
     "de": "Währungseinheit",
     "de_article": "die",
     "de_plural": "die Währungseinheiten",
-    "lv": "Cavalo Eenheid",
+    "lv": "unidade monetária",
     "level": "C1"
   },
   {
     "de": "Einkommensteuer",
     "de_article": "die",
     "de_plural": "die Einkommensteuern",
-    "lv": "Ienakuma nodoklis",
+    "lv": "imposto sobre o rendimento",
     "level": "C1"
   },
   {
     "de": "Einlage",
     "de_article": "die",
     "de_plural": "die Einlagen",
-    "lv": "Iemaksa • Noguldījums • Pielikums vēstulei",
+    "lv": "entrada • depósito • anexo",
     "level": "C1"
   },
   {
     "de": "einreden",
-    "lv": "Iestāstīt • Iegalvot • Mēģināt pārliecināt",
+    "lv": "convencer • fazer crer",
     "level": "C1"
   },
   {
     "de": "sich einschmeicheln",
-    "lv": "Pieglaimoties • Pielabināties",
+    "lv": "insinuar-se • bajular",
     "level": "C1"
   },
   {
     "de": "Einschreibebrief",
     "de_article": "der",
     "de_plural": "die Einschreibebriefe",
-    "lv": "Vestule Ierakstīta",
+    "lv": "carta registada",
     "level": "C1"
   },
   {
     "de": "Einspruchsrecht",
     "de_article": "das",
     "de_plural": "die Einspruchsrechte",
-    "lv": "Protesto de Tieības • Veto de Tieības",
+    "lv": "direito de oposição • direito de veto",
     "level": "C1"
   },
   {
     "de": "Einstandsgebühr",
     "de_article": "die",
     "de_plural": "die Einstandsgebühren",
-    "lv": "Iestāšanās maksa",
+    "lv": "taxa de inscrição • joia de admissão",
     "level": "C1"
   },
   {
     "de": "Einverständnis",
     "de_article": "das",
     "de_plural": "die Einverständnisse",
-    "lv": "Saprašanās • Vienprātība • Piekrišana",
+    "lv": "acordo • consentimento",
     "level": "C1"
   },
   {
     "de": "Eisenbahnunglück",
     "de_article": "das",
     "de_plural": "die Eisenbahnunglücke",
-    "lv": "Dzelzceļa catastrofa",
+    "lv": "acidente ferroviário",
     "level": "C1"
   },
   {
     "de": "Eisenbahnverkehr",
     "de_article": "der",
     "de_plural": "die Eisenbahnverkehre",
-    "lv": "Dzelzceļa satiksme",
+    "lv": "tráfego ferroviário",
     "level": "C1"
   },
   {
     "de": "Elektrizitätswerk",
     "de_article": "das",
     "de_plural": "die Elektrizitätswerke",
-    "lv": "Eletrostática",
+    "lv": "central elétrica",
     "level": "C1"
   },
   {
     "de": "Elementarbegriff",
     "de_article": "der",
     "de_plural": "die Elementarbegriffe",
-    "lv": "Pamatjēdziens",
+    "lv": "conceito elementar",
     "level": "C1"
   },
   {
     "de": "Elementarregel",
     "de_article": "die",
     "de_plural": "die Elementarregeln",
-    "lv": "Pamatlikums",
+    "lv": "regra elementar",
     "level": "C1"
   },
   {
     "de": "Energieerzeugung",
     "de_article": "die",
     "de_plural": "die Energieerzeugungen",
-    "lv": "Energias razoáveis",
+    "lv": "produção de energia",
     "level": "C1"
   },
   {
     "de": "Energieversorgung",
     "de_article": "die",
     "de_plural": "die Energieversorgungen",
-    "lv": "Desligue a energia",
+    "lv": "abastecimento de energia",
     "level": "C1"
   },
   {
     "de": "entgegensetzen",
-    "lv": "Nostādīt pretī • Likt pretī",
+    "lv": "contrapor • opor",
     "level": "C1"
   },
   {
     "de": "sich entgegensetzen",
-    "lv": "Pretos",
+    "lv": "opor-se",
     "level": "C1"
   },
   {
     "de": "entschädigen",
-    "lv": "Atlīdzināt • Compensação",
+    "lv": "indemnizar • compensar",
     "level": "C1"
   },
   {
     "de": "sich entschließen",
-    "lv": "Izlemt • Izšķirties",
+    "lv": "decidir-se • resolver-se",
     "level": "C1"
   },
   {
     "de": "entschlossen",
-    "lv": "Notas • Apņēmīgs • Nešaubīgs",
+    "lv": "decidido • determinado",
     "level": "C1"
   },
   {
     "de": "entschlüsseln",
-    "lv": "Atšifrēt",
+    "lv": "decifrar • descodificar",
     "level": "C1"
   },
   {
     "de": "Gesetzentwurf",
     "de_article": "der",
     "de_plural": "die Gesetzentwürfe",
-    "lv": "Likumprojekts",
+    "lv": "projeto de lei",
     "level": "C1"
   },
   {
     "de": "Entziehungskur",
     "de_article": "die",
     "de_plural": "die Entziehungskuren",
-    "lv": "Ārstniecības kurss alkoholiķiem vai narkomāniem",
+    "lv": "tratamento de desintoxicação",
     "level": "C1"
   },
   {
     "de": "Erbkrankheit",
     "de_article": "die",
     "de_plural": "die Erbkrankheiten",
-    "lv": "Iedzimta slimiba",
+    "lv": "doença hereditária",
     "level": "C1"
   },
   {
     "de": "Kriegserklärung",
     "de_article": "die",
     "de_plural": "die Kriegserklärungen",
-    "lv": "Kara pieteikums",
+    "lv": "declaração de guerra",
     "level": "C1"
   },
   {
     "de": "Erntearbeiten",
     "de_article": "die",
-    "lv": "Ražas novakšanas darbi",
+    "lv": "trabalhos de colheita",
     "level": "C1"
   },
   {
     "de": "Ersatzspieler",
     "de_article": "der",
     "de_plural": "die Ersatzspieler",
-    "lv": "Rezervistas • Rezerves spēlētājs",
+    "lv": "suplente • jogador suplente",
     "level": "C1"
   },
   {
     "de": "Erstaufführung",
     "de_article": "die",
     "de_plural": "die Erstaufführungen",
-    "lv": "Pirmuzvedums • Pirmizrāde",
+    "lv": "estreia",
     "level": "C1"
   },
   {
     "de": "festgesetzt",
-    "lv": "Notas • Nosacīts • Nolikts",
-    "level": "C1"
+    "lv": "fixado • estabelecido",
+    "level": "C1",
+    "study": {
+      "id": "c1-festgesetzt",
+      "layout": "standardStudy",
+      "translation": "fixado • estabelecido",
+      "explanation": [
+        "Ideia principal: festgesetzt é o particípio de festsetzen e significa oficialmente fixado, estabelecido ou determinado (prazo, preço, pena). Descreve algo que foi definido como vinculativo.",
+        "Verbo separável: er setzt fest, setzte fest, hat festgesetzt. Como adjetivo, flete-se: der festgesetzte Termin, die festgesetzte Frist. Na voz passiva: wurde festgesetzt.",
+        "Em contexto jurídico, festsetzen pode também significar deter uma pessoa: Die Täter wurden festgesetzt."
+      ],
+      "examples": [
+        {
+          "de": "Der Termin ist auf den 5. Mai festgesetzt.",
+          "lv": "A data está fixada para 5 de maio."
+        },
+        {
+          "de": "Die Preise wurden vom Staat festgesetzt.",
+          "lv": "Os preços foram fixados pelo Estado."
+        },
+        {
+          "de": "Die Strafe wurde auf zwei Jahre festgesetzt.",
+          "lv": "A pena foi fixada em dois anos."
+        },
+        {
+          "de": "Die festgesetzte Frist läuft morgen ab.",
+          "lv": "O prazo fixado termina amanhã."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "festgelegt",
+          "meaning": "definido, estabelecido",
+          "example": "Der Plan ist festgelegt. – O plano está definido."
+        },
+        {
+          "word": "beschlossen",
+          "meaning": "decidido",
+          "example": "Das wurde beschlossen. – Isso foi decidido."
+        },
+        {
+          "word": "bestimmt",
+          "meaning": "determinado, previsto",
+          "example": "Der Ort ist bestimmt. – O local está determinado."
+        }
+      ],
+      "tip": [
+        "Usa-se frequentemente com Frist, Termin, Preis, Strafe, Höhe: auf einen Betrag festgesetzt.",
+        "Na linguagem corrente diz-se mais festgelegt; festgesetzt soa mais oficial."
+      ],
+      "important": [
+        "Atenção ao significado: festgesetzt quer dizer detido apenas em contexto policial ou judicial."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "festgesetzt",
+            "festsetzen",
+            "setzt fest",
+            "setzte fest",
+            "festgesetzte",
+            "hat festgesetzt"
+          ],
+          "purple": [
+            "fixado",
+            "deter"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "festgesetzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "fixada"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "festgesetzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "fixados"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "festgesetzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "fixada"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "festgesetzte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "fixado"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "festgelegt"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "definido"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "beschlossen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "decidido"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "bestimmt"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "previsto"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "festgesetzt"
+            ]
+          },
+          {
+            "blue": [
+              "festgesetzt"
+            ],
+            "green": [
+              "festgelegt"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "festgesetzt"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "feuergefährlich",
-    "lv": "Ugunsnedross",
+    "lv": "inflamável",
     "level": "C1"
   },
   {
     "de": "Feuerversicherung",
     "de_article": "die",
     "de_plural": "die Feuerversicherungen",
-    "lv": "Apdrošināšana pret ugunsgrēku",
+    "lv": "seguro contra incêndios",
     "level": "C1"
   },
   {
     "de": "Feuerwerkskörper",
     "de_article": "der",
     "de_plural": "die Feuerwerkskörper",
-    "lv": "Raquete para vuurwerk",
+    "lv": "foguete de fogo de artifício",
     "level": "C1"
   },
   {
     "de": "Fleckenentferner",
     "de_article": "der",
     "de_plural": "die Fleckenentferner",
-    "lv": "Traipu tiramais līdzeklis",
+    "lv": "tira-nódoas",
     "level": "C1"
   },
   {
     "de": "Flüchtlingslager",
     "de_article": "das",
     "de_plural": "die Flüchtlingslager",
-    "lv": "Bēgļu nometne",
+    "lv": "campo de refugiados",
     "level": "C1"
   },
   {
     "de": "Fortbildungskurse",
     "de_article": "die",
-    "lv": "Kvalifikācijas paaugstināšanas kursi",
+    "lv": "cursos de formação contínua",
     "level": "C1"
   },
   {
     "de": "fortgeschritten",
-    "lv": "Samērā vēlā attīstības Stadiumjā",
+    "lv": "avançado",
     "level": "C1"
   },
   {
     "de": "fortschrittlich",
-    "lv": "Progressistas",
+    "lv": "progressista",
     "level": "C1"
   },
   {
     "de": "Freilichtmuseum",
     "de_article": "das",
     "de_plural": "die Freilichtmuseen",
-    "lv": "Brīvdabas muzejs",
+    "lv": "museu ao ar livre",
     "level": "C1"
   },
   {
     "de": "Friedensangebot",
     "de_article": "das",
     "de_plural": "die Friedensangebote",
-    "lv": "Miera piedavājums",
+    "lv": "proposta de paz",
     "level": "C1"
   },
   {
     "de": "Friedensvertrag",
     "de_article": "der",
     "de_plural": "die Friedensverträge",
-    "lv": "Miera ligum",
+    "lv": "tratado de paz",
     "level": "C1"
   },
   {
     "de": "Friedenspolitik",
     "de_article": "die",
     "de_plural": "die Friedenspolitiken",
-    "lv": "Vredesbeleid",
+    "lv": "política de paz",
     "level": "C1"
   },
   {
     "de": "Fuhrunternehmen",
     "de_article": "das",
     "de_plural": "die Fuhrunternehmen",
-    "lv": "Kravas transporta uzņēmums",
+    "lv": "empresa transportadora",
     "level": "C1"
   },
   {
     "de": "soziale Fürsorge",
     "de_article": "die",
-    "lv": "Apgāde social",
+    "lv": "assistência social",
     "level": "C1"
   },
   {
     "de": "Auffassungsgabe",
     "de_article": "die",
     "de_plural": "die Auffassungsgaben",
-    "lv": "Uztveres spēja",
+    "lv": "capacidade de compreensão",
     "level": "C1"
   },
   {
     "de": "Gebrauchtwaren",
     "de_article": "die",
-    "lv": "Cobertores felizes",
+    "lv": "artigos usados",
     "level": "C1"
   },
   {
     "de": "Geburtenrate",
     "de_article": "die",
     "de_plural": "die Geburtenraten",
-    "lv": "Dzimstības limenis",
+    "lv": "taxa de natalidade",
     "level": "C1"
   },
   {
     "de": "Gefängniszelle",
     "de_article": "die",
     "de_plural": "die Gefängniszellen",
-    "lv": "Câmara cietum",
+    "lv": "cela prisional",
     "level": "C1"
   },
   {
     "de": "Gefäßverengung",
     "de_article": "die",
     "de_plural": "die Gefäßverengungen",
-    "lv": "Asinsvadu sašaurināšanās",
+    "lv": "estreitamento dos vasos sanguíneos",
     "level": "C1"
   },
   {
     "de": "Geflügelzucht",
     "de_article": "die",
     "de_plural": "die Geflügelzuchten",
-    "lv": "Putnkopiba",
+    "lv": "avicultura",
     "level": "C1"
   },
   {
     "de": "Gefrierpunkt",
     "de_article": "der",
     "de_plural": "die Gefrierpunkte",
-    "lv": "Pontos Sasalšanas • Pontos Nulos",
+    "lv": "ponto de congelação",
     "level": "C1"
   },
   {
     "de": "Gehaltskürzung",
     "de_article": "die",
     "de_plural": "die Gehaltskürzungen",
-    "lv": "Algas Pazeminajums",
+    "lv": "redução salarial",
     "level": "C1"
   },
   {
     "de": "Beichtgeheimnis",
     "de_article": "das",
     "de_plural": "die Beichtgeheimnisse",
-    "lv": "Bikts noslēpums",
+    "lv": "segredo de confissão",
     "level": "C1"
   },
   {
     "de": "Gehirnschlag",
     "de_article": "der",
     "de_plural": "die Gehirnschläge",
-    "lv": "Abuso",
+    "lv": "acidente vascular cerebral",
     "level": "C1"
   },
   {
     "de": "Geisterstunde",
     "de_article": "die",
     "de_plural": "die Geisterstunden",
-    "lv": "Spoku stunda",
+    "lv": "hora das bruxas",
     "level": "C1"
   },
   {
     "de": "geistesabwesend",
-    "lv": "Izklaidīgs",
+    "lv": "distraído • ausente",
     "level": "C1"
   },
   {
     "de": "geisteskrank",
-    "lv": "Garigi perde peso",
+    "lv": "doente mental",
     "level": "C1"
   },
   {
     "de": "geistesschwach",
-    "lv": "Garā vājš • Planoprātīgs",
+    "lv": "débil mental",
     "level": "C1"
   },
   {
     "de": "Geländefahrt",
     "de_article": "die",
     "de_plural": "die Geländefahrten",
-    "lv": "Apvidus brauciens",
+    "lv": "passeio todo-o-terreno",
     "level": "C1"
   },
   {
     "de": "Geldentwertung",
     "de_article": "die",
     "de_plural": "die Geldentwertungen",
-    "lv": "Inflável",
+    "lv": "desvalorização da moeda • inflação",
     "level": "C1"
   },
   {
     "de": "gelegentlich",
-    "lv": "Reizēm • Gadījuma • Sakarā ar",
+    "lv": "ocasionalmente • ocasional • por ocasião de",
     "level": "C1",
     "study": {
       "id": "c1-gelegentlich",
       "layout": "standardStudy",
-      "translation": "Reizēm • Gadījuma • Sakarā ar",
-      "explanation": "Adestramento Galvenā: gelegentlich ir vārds ar trim funkcijām. Īpašības vārds: gadījuma, nejaušs (ein gelegentlicher Besuch). Apstākļa vārds: reizēm, ik pa laikam (Er kommt gelegentlich). Prievārds + datīvs: sakarā ar (gelegentlich des Festes).",
+      "translation": "ocasionalmente • ocasional • por ocasião de",
+      "explanation": [
+        "Ideia principal: gelegentlich é sobretudo um advérbio que significa ocasionalmente, de vez em quando: algo acontece não de forma regular, mas de tempos a tempos. Como adjetivo significa ocasional ou esporádico: gelegentliche Schauer — aguaceiros dispersos.",
+        "Mais raramente e num registo formal, gelegentlich é uma preposição com genitivo que significa por ocasião de: gelegentlich seines Geburtstags — por ocasião do seu aniversário. Este uso soa hoje muito oficial ou antiquado.",
+        "Gelegentlich não se flete como advérbio; como adjetivo, recebe terminações."
+      ],
       "examples": [
         {
-          "de": "Er kommt gelegentlich vorbei.",
-          "lv": "Viņš reizēm iegriežas."
+          "de": "Wir treffen uns gelegentlich auf einen Kaffee.",
+          "lv": "Encontramo-nos ocasionalmente para tomar um café."
         },
         {
-          "de": "Ein gelegentlicher Besuch reicht.",
-          "lv": "Gadījuma apmeklējums pietiek."
+          "de": "Er raucht nur gelegentlich.",
+          "lv": "Ele só fuma ocasionalmente."
         },
         {
-          "de": "Gelegentlich des Festes gab es eine Rede.",
-          "lv": "Runa Svētku sakarā tika teikta."
+          "de": "Gelegentliche Schauer sind möglich.",
+          "lv": "São possíveis aguaceiros dispersos."
+        },
+        {
+          "de": "Gelegentlich seines Geburtstags hielt er eine Rede.",
+          "lv": "Por ocasião do seu aniversário, fez um discurso."
         }
       ],
       "comparison": [
         {
-          "word": "gelegentlich (Adv.)",
-          "meaning": "Reizēm • Ik pa laikam",
-          "example": "Er kommt gelegentlich. = Viņš reizēm atnāk."
-        },
-        {
-          "word": "gelegentlich (Adj.)",
-          "meaning": "Gadījuma • Nejaušs",
-          "example": "ein gelegentlicher Besuch = gadījuma apmeklējums"
-        },
-        {
-          "word": "gelegentlich (+ Gen.)",
-          "meaning": "Sakara-ar",
-          "example": "gelegentlich des Festes = svētku sakarā"
-        },
-        {
           "word": "manchmal",
-          "meaning": "Reizēm",
-          "example": "Manchmal regnet es. = Reizēm līst."
+          "meaning": "às vezes",
+          "example": "Manchmal gehe ich laufen. – Às vezes vou correr."
+        },
+        {
+          "word": "ab und zu",
+          "meaning": "de vez em quando",
+          "example": "Ab und zu rufe ich ihn an. – De vez em quando telefono-lhe."
+        },
+        {
+          "word": "selten",
+          "meaning": "raramente",
+          "example": "Er kommt selten. – Ele raramente vem."
         }
       ],
-      "tip": {
-        "leftBlocks": [
-          {
-            "text": "Pozīcija teikumā palīdz: pirms lietvārda = īpašības vārds • Pēc darbības vārda = apstākļa vārds • + ģenitīvs = prievārds."
-          }
-        ]
-      },
-      "important": {
-        "text": "Adj.: gadījuma. Adv.: reizēm. Trabalho de casa. + Gen.: sakarā ar. Konteksts nosaka nozīmi."
-      },
+      "tip": [
+        "Se queres dizer ocasionalmente, mas não com regularidade, usa gelegentlich ou ab und zu.",
+        "No dia a dia ouvirás mais manchmal; gelegentlich é mais cuidado e mais próprio da escrita."
+      ],
+      "important": [
+        "Gelegentlich não significa ocasião ou oportunidade: para isso existe die Gelegenheit (oportunidade)."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "gelegentlich"
+            "gelegentlich",
+            "gelegentliche",
+            "gelegentlich seines Geburtstags",
+            "Gelegentlich"
           ],
           "purple": [
-            "reizēm",
-            "gadījuma",
-            "sakarā ar"
+            "ocasionalmente",
+            "ocasional",
+            "por ocasião de",
+            "dispersos"
           ]
         },
         "examples": [
@@ -2507,7 +3802,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "reizēm"
+                "ocasionalmente"
               ]
             }
           },
@@ -2519,7 +3814,19 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "gadījuma"
+                "ocasionalmente"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Gelegentliche"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "dispersos"
               ]
             }
           },
@@ -2531,9 +3838,73 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "sakarā"
+                "ocasião"
               ]
             }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "manchmal"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "vezes"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "ab und zu"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "de vez em quando"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "selten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "raramente"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "gelegentlich"
+            ],
+            "green": [
+              "ab und zu"
+            ]
+          },
+          {
+            "blue": [
+              "gelegentlich"
+            ],
+            "green": [
+              "manchmal"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "gelegentlich",
+              "Gelegentlich"
+            ]
           }
         ]
       }
@@ -2543,1570 +3914,1177 @@ const C1_WORDS = [
     "de": "Gemäldegalerie",
     "de_article": "die",
     "de_plural": "die Gemäldegalerien",
-    "lv": "Galeria Gleznu",
+    "lv": "galeria de pintura",
     "level": "C1"
   },
   {
     "de": "Gemäldesammlung",
     "de_article": "die",
     "de_plural": "die Gemäldesammlungen",
-    "lv": "Coleção Gleznu",
+    "lv": "coleção de pinturas",
     "level": "C1"
   },
   {
     "de": "Gemeineigentum",
     "de_article": "das",
-    "lv": "Sabiedriskais īpašums",
+    "lv": "propriedade pública",
     "level": "C1"
   },
   {
     "de": "Gemütsmensch",
     "de_article": "der",
     "de_plural": "die Gemütsmenschen",
-    "lv": "Laipns un labsirdīgs cilvēks",
+    "lv": "pessoa bonacheirona",
     "level": "C1"
   },
   {
     "de": "Genmanipulation",
     "de_article": "die",
     "de_plural": "die Genmanipulationen",
-    "lv": "Gēnu pārveidošana",
+    "lv": "manipulação genética",
     "level": "C1"
   },
   {
     "de": "Generalprobe",
     "de_article": "die",
     "de_plural": "die Generalproben",
-    "lv": "Ģenerālmēģinājums",
+    "lv": "ensaio geral",
     "level": "C1"
   },
   {
     "de": "Generalstreik",
     "de_article": "der",
     "de_plural": "die Generalstreiks",
-    "lv": "Faixas de Vispārējs",
+    "lv": "greve geral",
     "level": "C1"
   },
   {
     "de": "genmanipuliert",
-    "lv": "Ar pārveidotiem gēniem",
+    "lv": "geneticamente modificado",
     "level": "C1"
   },
   {
     "de": "Gepäckschein",
     "de_article": "der",
     "de_plural": "die Gepäckscheine",
-    "lv": "Bagāžas kvīts",
+    "lv": "talão de bagagem",
     "level": "C1"
   },
   {
     "de": "Gepflogenheit",
     "de_article": "die",
     "de_plural": "die Gepflogenheiten",
-    "lv": "Op maat • Op maat",
+    "lv": "hábito • costume",
     "level": "C1"
   },
   {
     "de": "geradebiegen",
-    "lv": "Iztaisnot • Izlabot",
+    "lv": "endireitar • corrigir",
     "level": "C1"
   },
   {
     "de": "Schwurgericht",
     "de_article": "das",
     "de_plural": "die Schwurgerichte",
-    "lv": "Zvērināto rigidez",
+    "lv": "tribunal de júri",
     "level": "C1"
   },
   {
     "de": "Gerichtshof",
     "de_article": "der",
     "de_plural": "die Gerichtshöfe",
-    "lv": "Tiesu palata • Tribunais",
+    "lv": "tribunal",
     "level": "C1"
   },
   {
     "de": "geringschätzig",
-    "lv": "Nicigs • Nievājošs • Nicinošs",
+    "lv": "desdenhoso • depreciativo",
     "level": "C1"
   },
   {
     "de": "Gesamteindruck",
     "de_article": "der",
     "de_plural": "die Gesamteindrücke",
-    "lv": "Cópias Pagas",
+    "lv": "impressão geral",
     "level": "C1"
   },
   {
     "de": "Gesamtergebnis",
     "de_article": "das",
     "de_plural": "die Gesamtergebnisse",
-    "lv": "Gala iznākums • Gala rezultāts",
+    "lv": "resultado global • resultado final",
     "level": "C1"
   },
   {
     "de": "Gesandtschaft",
     "de_article": "die",
     "de_plural": "die Gesandtschaften",
-    "lv": "Sutnieciba",
+    "lv": "legação",
     "level": "C1"
   },
   {
     "de": "Geschäftshaus",
     "de_article": "das",
     "de_plural": "die Geschäftshäuser",
-    "lv": "Nomes de Tirdzniecības",
+    "lv": "edifício comercial",
     "level": "C1"
   },
   {
     "de": "Geschäftsjahr",
     "de_article": "das",
     "de_plural": "die Geschäftsjahre",
-    "lv": "Saimniecības gads",
+    "lv": "exercício",
     "level": "C1"
   },
   {
     "de": "geschlechtsreif",
-    "lv": "Sasniedzis dzimumbriedumu",
+    "lv": "sexualmente maduro",
     "level": "C1"
   },
   {
     "de": "Gesetzbuch",
     "de_article": "das",
     "de_plural": "die Gesetzbücher",
-    "lv": "Kodekss • Likumu krajums",
+    "lv": "código",
     "level": "C1"
   },
   {
     "de": "gesetzgebend",
-    "lv": "Likumdevējs",
+    "lv": "legislativo",
     "level": "C1"
   },
   {
     "de": "gesetzlos",
-    "lv": "Nelikumīgs",
+    "lv": "sem lei • anárquico",
     "level": "C1"
   },
   {
     "de": "gesetzmäßig",
-    "lv": "Likumīgs • Likumsakarīgs",
+    "lv": "legal • regular",
     "level": "C1"
   },
   {
     "de": "gesetzwidrig",
-    "lv": "Pretrunā ar likumu",
+    "lv": "ilegal • contrário à lei",
     "level": "C1"
   },
   {
     "de": "Gesichtskreis",
     "de_article": "der",
     "de_plural": "die Gesichtskreise",
-    "lv": "Redzesloks • Apvārsnis",
+    "lv": "horizonte • campo de visão",
     "level": "C1"
   },
   {
     "de": "Gewinnanteil",
     "de_article": "der",
     "de_plural": "die Gewinnanteile",
-    "lv": "Dano",
+    "lv": "participação nos lucros",
     "level": "C1"
   },
   {
     "de": "Gewissensbisse",
     "de_article": "die",
-    "lv": "Sirdsapziņas parmetumi",
+    "lv": "remorsos",
     "level": "C1"
   },
   {
     "de": "gewissermaßen",
-    "lv": "Zināmā mērā • Savā ziņā • Tā sakot",
+    "lv": "até certo ponto • de certo modo • por assim dizer",
     "level": "C1"
   },
   {
     "de": "glaubhaft",
-    "lv": "Ticams • Parliecinošs",
+    "lv": "credível • convincente",
     "level": "C1"
   },
   {
     "de": "gleichberechtigt",
-    "lv": "Līdztiesīgs • Ar vienādām tiesībām",
+    "lv": "com direitos iguais • em pé de igualdade",
     "level": "C1"
   },
   {
     "de": "Götzenverehrung",
     "de_article": "die",
     "de_plural": "die Götzenverehrungen",
-    "lv": "Elku Pielūgšana",
+    "lv": "idolatria",
     "level": "C1"
   },
   {
     "de": "Grenzverletzung",
     "de_article": "die",
     "de_plural": "die Grenzverletzungen",
-    "lv": "Robežpārkāpums",
+    "lv": "violação da fronteira",
     "level": "C1"
   },
   {
     "de": "Grundgesetz",
     "de_article": "das",
     "de_plural": "die Grundgesetze",
-    "lv": "Lei Fundamental • Constituição",
+    "lv": "lei fundamental • constituição",
     "level": "C1"
   },
   {
     "de": "Gütertransport",
     "de_article": "der",
     "de_plural": "die Gütertransporte",
-    "lv": "Preču pārvadajumi",
+    "lv": "transporte de mercadorias",
     "level": "C1"
   },
   {
     "de": "Haft",
     "de_article": "die",
-    "lv": "Apcietinājums • Prisões",
+    "lv": "detenção • prisão",
     "level": "C1"
   },
   {
     "de": "Haftbefehl",
     "de_article": "der",
     "de_plural": "die Haftbefehle",
-    "lv": "Apcietināšanas Ordenis",
+    "lv": "mandado de detenção",
     "level": "C1"
   },
   {
     "de": "haften",
-    "lv": "Pielipt • Mas pilipušam",
+    "lv": "aderir • estar colado",
     "level": "C1"
   },
   {
     "de": "Haftung",
     "de_article": "die",
     "de_plural": "die Haftungen",
-    "lv": "Atbildiba",
+    "lv": "responsabilidade",
     "level": "C1"
   },
   {
     "de": "Haltbarkeitsdauer",
     "de_article": "die",
     "de_plural": "die Haltbarkeitsdauern",
-    "lv": "Laiks uzglabāšanas",
+    "lv": "prazo de validade",
     "level": "C1"
   },
   {
     "de": "Handelspartner",
     "de_article": "der",
     "de_plural": "die Handelspartner",
-    "lv": "Parceiros Tirdzniecības",
+    "lv": "parceiro comercial",
     "level": "C1"
   },
   {
     "de": "Handelsvertretung",
     "de_article": "die",
     "de_plural": "die Handelsvertretungen",
-    "lv": "Tirdzniecības pārstāvniecība",
+    "lv": "representação comercial",
     "level": "C1"
   },
   {
     "de": "Hauptversammlung",
     "de_article": "die",
     "de_plural": "die Hauptversammlungen",
-    "lv": "Kopsaflea",
+    "lv": "assembleia geral",
     "level": "C1"
   },
   {
     "de": "Hausdurchsuchung",
     "de_article": "die",
     "de_plural": "die Hausdurchsuchungen",
-    "lv": "Política Kratīšana",
+    "lv": "busca domiciliária",
     "level": "C1"
   },
   {
     "de": "Haushaltsartikel",
     "de_article": "der",
     "de_plural": "die Haushaltsartikel",
-    "lv": "Preço Saimniecības",
+    "lv": "artigo doméstico",
     "level": "C1"
   },
   {
     "de": "Haushaltshilfe",
     "de_article": "die",
     "de_plural": "die Haushaltshilfen",
-    "lv": "Algota palīdze mājsaimniecībā",
+    "lv": "empregada doméstica • mulher a dias",
     "level": "C1"
   },
   {
     "de": "Hautentzündung",
     "de_article": "die",
     "de_plural": "die Hautentzündungen",
-    "lv": "Ādas iekaisums",
+    "lv": "inflamação da pele • dermatite",
     "level": "C1"
   },
   {
     "de": "heldenhaft",
-    "lv": "Meninos",
+    "lv": "heroico",
     "level": "C1"
   },
   {
     "de": "Herrschaft",
     "de_article": "die",
     "de_plural": "die Herrschaften",
-    "lv": "Kundziba • Vara",
+    "lv": "domínio • poder",
     "level": "C1"
   },
   {
     "de": "herunterkommen",
-    "lv": "Nonākt lejā • Nonīkt • Panīkt • Pagrimt",
+    "lv": "descer • decair • degradar-se",
     "level": "C1"
   },
   {
     "de": "herunterstürzen",
-    "lv": "Krist zemē • Gāzties zemē",
+    "lv": "despenhar-se • precipitar-se",
     "level": "C1"
   },
   {
     "de": "sich hinreißen lassen",
-    "lv": "Aizrauties",
+    "lv": "deixar-se levar • entusiasmar-se",
     "level": "C1"
   },
   {
     "de": "Industrieabgase",
     "de_article": "die",
-    "lv": "Rūpnieciskās izplūdes olha",
+    "lv": "gases industriais • emissões industriais",
     "level": "C1"
   },
   {
     "de": "Industrieabwässer",
     "de_article": "die",
-    "lv": "Rūpnieciskie notekūdeņi",
+    "lv": "águas residuais industriais • efluentes industriais",
     "level": "C1"
   },
   {
     "de": "Industrieanlage",
     "de_article": "die",
     "de_plural": "die Industrieanlagen",
-    "lv": "Complexo Rūpniecības",
+    "lv": "instalação industrial • complexo industrial",
     "level": "C1"
   },
   {
     "de": "inhaftieren",
-    "lv": "Apcietinat",
+    "lv": "deter • prender",
     "level": "C1"
   },
   {
     "de": "Innenarchitekt",
     "de_article": "der",
     "de_plural": "die Innenarchitekten",
-    "lv": "Iekštelpu Architects",
+    "lv": "arquiteto de interiores",
     "level": "C1"
   },
   {
     "de": "Innenminister",
     "de_article": "der",
     "de_plural": "die Innenminister",
-    "lv": "Ministros de Iekšlietu",
+    "lv": "ministro do Interior • ministro da Administração Interna",
     "level": "C1"
   },
   {
     "de": "Intensivstation",
     "de_article": "die",
     "de_plural": "die Intensivstationen",
-    "lv": "Reanimação nodaļa slimnīcā",
+    "lv": "unidade de cuidados intensivos",
     "level": "C1"
   },
   {
     "de": "interpretieren",
-    "lv": "Interpretēt • Izskadrot",
+    "lv": "interpretar • explicar",
     "level": "C1"
   },
   {
     "de": "Justiz",
     "de_article": "die",
-    "lv": "Justiça • Tieslietas",
+    "lv": "justiça • poder judicial",
     "level": "C1"
   },
   {
     "de": "Kabinettsitzung",
     "de_article": "die",
     "de_plural": "die Kabinettsitzungen",
-    "lv": "Assento de gabinete",
+    "lv": "reunião do conselho de ministros",
     "level": "C1"
   },
   {
     "de": "Kapitalverbrechen",
     "de_article": "das",
     "de_plural": "die Kapitalverbrechen",
-    "lv": "Sevišķi smags noziegums",
+    "lv": "crime grave • crime capital",
     "level": "C1"
   },
   {
     "de": "Kaution",
     "de_article": "die",
     "de_plural": "die Kautionen",
-    "lv": "Ķīla • Galvojums • Drošības nauda • Garantija",
+    "lv": "caução • fiança • depósito de garantia",
     "level": "C1"
   },
   {
     "de": "Koalition",
     "de_article": "die",
     "de_plural": "die Koalitionen",
-    "lv": "Koalicija",
+    "lv": "coligação",
     "level": "C1"
   },
   {
     "de": "körperbehindert",
-    "lv": "Fizisks inválidos",
+    "lv": "deficiente físico • com deficiência física",
     "level": "C1"
   },
   {
     "de": "Krankheitserreger",
     "de_article": "der",
     "de_plural": "die Krankheitserreger",
-    "lv": "Slimības ierosinātājs",
+    "lv": "agente patogénico",
     "level": "C1"
   },
   {
     "de": "Kriegsbeschädigte",
     "de_article": "der",
     "de_plural": "die Kriegsbeschädigten",
-    "lv": "Um oorlog ongeldig",
+    "lv": "mutilado de guerra • inválido de guerra",
     "level": "C1"
   },
   {
     "de": "Kriegsgefangene",
     "de_article": "der",
     "de_plural": "die Kriegsgefangenen",
-    "lv": "Karagusteknis",
+    "lv": "prisioneiro de guerra",
     "level": "C1"
   },
   {
     "de": "Kabinettskrise",
     "de_article": "die",
     "de_plural": "die Kabinettskrisen",
-    "lv": "Gabinete krīze",
+    "lv": "crise governamental",
     "level": "C1"
   },
   {
     "de": "Lawinenwarnung",
     "de_article": "die",
     "de_plural": "die Lawinenwarnungen",
-    "lv": "Brīdinajums par lavinu",
+    "lv": "aviso de avalanche",
     "level": "C1"
   },
   {
     "de": "Lebenserwartung",
     "de_article": "die",
     "de_plural": "die Lebenserwartungen",
-    "lv": "Vidējais dzīves ilgums",
+    "lv": "esperança de vida • esperança média de vida",
     "level": "C1"
   },
   {
     "de": "lebensgefährlich",
-    "lv": "Dzīvību apdraudošs • Bīstams",
+    "lv": "potencialmente mortal • muito perigoso",
     "level": "C1"
   },
   {
     "de": "Lebensgefährte",
     "de_article": "der",
     "de_plural": "die Lebensgefährten",
-    "lv": "Dzīvesbiedrs nereģistrētā laulībā",
+    "lv": "companheiro",
     "level": "C1"
   },
   {
     "de": "Lebensstandard",
     "de_article": "der",
     "de_plural": "die Lebensstandards",
-    "lv": "Dzīves limenis",
+    "lv": "nível de vida • padrão de vida",
     "level": "C1"
   },
   {
     "de": "Leistungssport",
     "de_article": "der",
-    "lv": "Esportes profissionais",
+    "lv": "desporto de alta competição",
     "level": "C1"
   },
   {
     "de": "lichtempfindlich",
-    "lv": "Gaismjutīgs",
+    "lv": "fotossensível • sensível à luz",
     "level": "C1"
   },
   {
     "de": "Liebesbeziehung",
     "de_article": "die",
     "de_plural": "die Liebesbeziehungen",
-    "lv": "Intimas attiecības",
+    "lv": "relação amorosa",
     "level": "C1"
   },
   {
     "de": "Liebeserklärung",
     "de_article": "die",
     "de_plural": "die Liebeserklärungen",
-    "lv": "De ontdekking van liefde",
+    "lv": "declaração de amor",
     "level": "C1"
   },
   {
     "de": "Linksextremismus",
     "de_article": "der",
-    "lv": "Kreisais ekstremismos",
+    "lv": "extremismo de esquerda",
     "level": "C1"
   },
   {
     "de": "Machtergreifung",
     "de_article": "die",
     "de_plural": "die Machtergreifungen",
-    "lv": "Varas sagrābšana",
+    "lv": "tomada do poder",
     "level": "C1"
   },
   {
     "de": "Machtübernahme",
     "de_article": "die",
     "de_plural": "die Machtübernahmen",
-    "lv": "Varas parņemšana",
+    "lv": "tomada do poder • ascensão ao poder",
     "level": "C1"
   },
   {
     "de": "Magnetstreifen",
     "de_article": "der",
     "de_plural": "die Magnetstreifen",
-    "lv": "Magnētiskā josla (us cartões de crédito)",
+    "lv": "banda magnética",
     "level": "C1"
   },
   {
     "de": "Marschflugkörper",
     "de_article": "der",
     "de_plural": "die Marschflugkörper",
-    "lv": "Kruīza raķete • Kruīzraķete",
+    "lv": "míssil de cruzeiro",
     "level": "C1"
   },
   {
     "de": "Massenherstellung",
     "de_article": "die",
     "de_plural": "die Massenherstellungen",
-    "lv": "Masveida ražošana",
+    "lv": "produção em massa • produção em série",
     "level": "C1"
   },
   {
     "de": "materialistisch",
-    "lv": "Materiais",
+    "lv": "materialista",
     "level": "C1"
   },
   {
     "de": "Meineid",
     "de_article": "der",
     "de_plural": "die Meineide",
-    "lv": "Apzināti nepatiesa liecība tiesā",
+    "lv": "perjúrio • falso testemunho",
     "level": "C1"
   },
   {
     "de": "menschenfeindlich",
-    "lv": "Naidīgs cilvēkiem",
+    "lv": "misantrópico • desumano",
     "level": "C1"
   },
   {
     "de": "militärpflichtig",
-    "lv": "Padots Karaklausībai",
+    "lv": "sujeito ao serviço militar",
     "level": "C1"
   },
   {
     "de": "Nachschlagewerk",
     "de_article": "das",
     "de_plural": "die Nachschlagewerke",
-    "lv": "Uzziņu literatūra • Vārdnīca • Enciklopēdija",
+    "lv": "obra de consulta • obra de referência",
     "level": "C1"
   },
   {
     "de": "namhaft",
-    "lv": "Escravos • Ievērojams",
+    "lv": "famoso • notável • conceituado",
     "level": "C1"
   },
   {
     "de": "Nichtangriffspakt",
     "de_article": "der",
     "de_plural": "die Nichtangriffspakte",
-    "lv": "Pacotes Neuzbrukšanas",
+    "lv": "pacto de não agressão",
     "level": "C1"
   },
   {
     "de": "niedergeschlagen",
-    "lv": "Nomākts • Depressivos",
+    "lv": "abatido • deprimido",
     "level": "C1"
   },
   {
     "de": "Ölembargo",
     "de_article": "das",
     "de_plural": "die Ölembargos",
-    "lv": "Embargo do NAFTA",
+    "lv": "embargo petrolífero",
     "level": "C1"
   },
   {
     "de": "Oppositionsführer",
     "de_article": "der",
     "de_plural": "die Oppositionsführer",
-    "lv": "Opozīcijas líderes",
+    "lv": "líder da oposição",
     "level": "C1"
   },
   {
     "de": "Oppositionspartei",
     "de_article": "die",
     "de_plural": "die Oppositionsparteien",
-    "lv": "Partija de Opozīcijas",
+    "lv": "partido da oposição",
     "level": "C1"
   },
   {
     "de": "Originalausgabe",
     "de_article": "die",
     "de_plural": "die Originalausgaben",
-    "lv": "Oriģinālizdevums",
+    "lv": "edição original",
     "level": "C1"
   },
   {
     "de": "Originalfassung",
     "de_article": "die",
     "de_plural": "die Originalfassungen",
-    "lv": "Variantes originais",
+    "lv": "versão original",
     "level": "C1"
   },
   {
     "de": "Originalgemälde",
     "de_article": "das",
     "de_plural": "die Originalgemälde",
-    "lv": "Oriģinālglezna",
+    "lv": "pintura original • quadro original",
     "level": "C1"
   },
   {
     "de": "Parteifunktionär",
     "de_article": "der",
     "de_plural": "die Parteifunktionäre",
-    "lv": "Peças Darbieks",
+    "lv": "funcionário do partido • dirigente partidário",
     "level": "C1"
   },
   {
     "de": "Pflichtlektüre",
     "de_article": "die",
     "de_plural": "die Pflichtlektüren",
-    "lv": "Literatura Obligātā mācību",
+    "lv": "leitura obrigatória",
     "level": "C1"
   },
   {
     "de": "Preisfrage",
     "de_article": "die",
     "de_plural": "die Preisfragen",
-    "lv": "Konkursa jautajums",
+    "lv": "pergunta de concurso",
     "level": "C1"
   },
   {
     "de": "Pressefreiheit",
     "de_article": "die",
     "de_plural": "die Pressefreiheiten",
-    "lv": "Vrijheid van de pers",
+    "lv": "liberdade de imprensa",
     "level": "C1"
   },
   {
     "de": "Pressevertreter",
     "de_article": "der",
     "de_plural": "die Pressevertreter",
-    "lv": "Preses pārstavis",
+    "lv": "representante da imprensa • jornalista",
     "level": "C1"
   },
   {
     "de": "Presseerklärung",
     "de_article": "die",
     "de_plural": "die Presseerklärungen",
-    "lv": "Pazinojums pegou",
+    "lv": "comunicado de imprensa",
     "level": "C1"
   },
   {
     "de": "Produktionskosten",
     "de_article": "die",
-    "lv": "Ražošanas pašizmaksa",
+    "lv": "custos de produção",
     "level": "C1"
   },
   {
     "de": "Produktionsweise",
     "de_article": "die",
     "de_plural": "die Produktionsweisen",
-    "lv": "Ražošanas Veids",
+    "lv": "modo de produção",
     "level": "C1"
   },
   {
     "de": "Rangierbahnhof",
     "de_article": "der",
     "de_plural": "die Rangierbahnhöfe",
-    "lv": "Šķirotava dzelzceļa",
+    "lv": "estação de triagem",
     "level": "C1"
   },
   {
     "de": "rätselhaft",
-    "lv": "Miklains • Neizprotamos",
+    "lv": "enigmático • incompreensível",
     "level": "C1"
   },
   {
     "de": "Raumausstatter",
     "de_article": "der",
     "de_plural": "die Raumausstatter",
-    "lv": "Intervencionistas",
+    "lv": "decorador de interiores • estofador",
     "level": "C1"
   },
   {
     "de": "Rechenschaft",
     "de_article": "die",
-    "lv": "Atskaite (par savu rīcību) • Atbildība",
+    "lv": "prestação de contas • responsabilidade",
     "level": "C1"
   },
   {
     "de": "rechtswidrig",
-    "lv": "Nelikumigi",
+    "lv": "ilegal • ilícito",
     "level": "C1"
   },
   {
     "de": "Regenbogenpresse",
     "de_article": "die",
     "de_plural": "die Regenbogenpressen",
-    "lv": "Bulvarprese",
+    "lv": "imprensa cor-de-rosa • imprensa sensacionalista",
     "level": "C1"
   },
   {
     "de": "Regierungschef",
     "de_article": "der",
     "de_plural": "die Regierungschefs",
-    "lv": "Primeiros Ministros • Valdības galva",
+    "lv": "chefe de governo • primeiro-ministro",
     "level": "C1"
   },
   {
     "de": "Regierungspartei",
     "de_article": "die",
     "de_plural": "die Regierungsparteien",
-    "lv": "Partija de Valdības",
+    "lv": "partido do governo",
     "level": "C1"
   },
   {
     "de": "Regierungswechsel",
     "de_article": "der",
     "de_plural": "die Regierungswechsel",
-    "lv": "Valdības maiņa",
+    "lv": "mudança de governo",
     "level": "C1"
   },
   {
     "de": "Rentenanspruch",
     "de_article": "der",
     "de_plural": "die Rentenansprüche",
-    "lv": "Tiesības uz pensiju",
+    "lv": "direito à pensão • direito à reforma",
     "level": "C1"
   },
   {
     "de": "Rentenempfänger",
     "de_article": "der",
     "de_plural": "die Rentenempfänger",
-    "lv": "Pensamentos saņēmējs",
+    "lv": "pensionista • reformado",
     "level": "C1"
   },
   {
     "de": "republikanisch",
-    "lv": "Repúblicas • Repúblicas",
+    "lv": "republicano",
     "level": "C1"
   },
   {
     "de": "Sanktion",
     "de_article": "die",
     "de_plural": "die Sanktionen",
-    "lv": "Sankcija",
+    "lv": "sanção",
     "level": "C1"
   },
   {
     "de": "sanktionieren",
-    "lv": "Atbalstīt • Sankcionēt",
+    "lv": "sancionar • aprovar",
     "level": "C1"
   },
   {
     "de": "Lüftungsschacht",
     "de_article": "der",
     "de_plural": "die Lüftungsschächte",
-    "lv": "Šahta Ventilācijas",
+    "lv": "conduta de ventilação • poço de ventilação",
     "level": "C1"
   },
   {
     "de": "Scheidungsgrund",
     "de_article": "der",
     "de_plural": "die Scheidungsgründe",
-    "lv": "Šķiršanās iemesls",
+    "lv": "motivo de divórcio",
     "level": "C1"
   },
   {
     "de": "Schicksalsschlag",
     "de_article": "der",
     "de_plural": "die Schicksalsschläge",
-    "lv": "Likteņa trieciens",
+    "lv": "golpe do destino • revés",
     "level": "C1"
   },
   {
     "de": "schmerzstillend",
-    "lv": "Sāpes remdējošs",
+    "lv": "analgésico",
     "level": "C1"
   },
   {
     "de": "Anklageschrift",
     "de_article": "die",
     "de_plural": "die Anklageschriften",
-    "lv": "Raksts Apsūdzības",
+    "lv": "acusação formal • libelo acusatório",
     "level": "C1"
   },
   {
     "de": "Schwerindustrie",
     "de_article": "die",
     "de_plural": "die Schwerindustrien",
-    "lv": "Smagā rūpniecība",
+    "lv": "indústria pesada",
     "level": "C1"
   },
   {
     "de": "Segelflugsport",
     "de_article": "der",
-    "lv": "Planejamento",
+    "lv": "voo planado • voo à vela",
     "level": "C1"
   },
   {
     "de": "Selbstverwaltung",
     "de_article": "die",
     "de_plural": "die Selbstverwaltungen",
-    "lv": "Pašvaldiba",
+    "lv": "autonomia administrativa • autogoverno",
     "level": "C1"
   },
   {
     "de": "selbstzufrieden",
-    "lv": "Pasapmierinats",
+    "lv": "convencido • satisfeito consigo próprio",
     "level": "C1"
   },
   {
     "de": "Sensationsmeldung",
     "de_article": "die",
     "de_plural": "die Sensationsmeldungen",
-    "lv": "Sensação de uso",
+    "lv": "notícia sensacional • notícia bombástica",
     "level": "C1"
   },
   {
     "de": "sesshaft",
-    "lv": "Vienā vietā dzīvojošs • Nometnieku",
+    "lv": "sedentário • estabelecido",
     "level": "C1"
   },
   {
     "de": "Sinfonieorchester",
     "de_article": "das",
     "de_plural": "die Sinfonieorchester",
-    "lv": "Simfoniskais orķestris",
+    "lv": "orquestra sinfónica",
     "level": "C1"
   },
   {
     "de": "Sinnestäuschung",
     "de_article": "die",
     "de_plural": "die Sinnestäuschungen",
-    "lv": "Alucinação",
+    "lv": "ilusão dos sentidos • alucinação",
     "level": "C1"
   },
   {
     "de": "Konfliktsituation",
     "de_article": "die",
     "de_plural": "die Konfliktsituationen",
-    "lv": "Situação de conflito",
+    "lv": "situação de conflito",
     "level": "C1"
   },
   {
     "de": "Krisensituation",
     "de_article": "die",
     "de_plural": "die Krisensituationen",
-    "lv": "Situação de Krīzes • Krīze",
+    "lv": "situação de crise • crise",
     "level": "C1"
   },
   {
     "de": "Sommersonnenwende",
     "de_article": "die",
     "de_plural": "die Sommersonnenwenden",
-    "lv": "Vasaras saulgriži",
+    "lv": "solstício de verão",
     "level": "C1"
   },
   {
     "de": "Sonnenfinsternis",
     "de_article": "die",
     "de_plural": "die Sonnenfinsternisse",
-    "lv": "Aptumsums Saules",
+    "lv": "eclipse solar",
     "level": "C1"
   },
   {
     "de": "Spitzenleistung",
     "de_article": "die",
     "de_plural": "die Spitzenleistungen",
-    "lv": "Registros • Augstākais sasniegums • Tehn. maksimālā jauda",
+    "lv": "recorde • desempenho máximo • potência máxima",
     "level": "C1"
   },
   {
     "de": "Staatsangehörige",
     "de_article": "der",
     "de_plural": "die Staatsangehörigen",
-    "lv": "Pavalstniek",
+    "lv": "cidadão • nacional",
     "level": "C1"
   },
   {
     "de": "Staatsanwalt",
     "de_article": "der",
     "de_plural": "die Staatsanwälte",
-    "lv": "Promotores",
+    "lv": "procurador • magistrado do Ministério Público",
     "level": "C1"
   },
   {
     "de": "Staatsgeheimnis",
     "de_article": "das",
     "de_plural": "die Staatsgeheimnisse",
-    "lv": "Valsts noslēpums",
+    "lv": "segredo de Estado",
     "level": "C1"
   },
   {
     "de": "Steuereinnahmen",
     "de_article": "die",
-    "lv": "Nodokļu ieņēmumi",
+    "lv": "receitas fiscais",
     "level": "C1"
   },
   {
     "de": "stimmberechtigt",
-    "lv": "Balsstiesīgs",
+    "lv": "com direito de voto",
     "level": "C1"
   },
   {
     "de": "Studienbewerber",
     "de_article": "der",
     "de_plural": "die Studienbewerber",
-    "lv": "Refletores Augstskola",
+    "lv": "candidato ao ensino superior",
     "level": "C1"
   },
   {
     "de": "synchronisieren",
-    "lv": "Filme duplo",
+    "lv": "dobrar • sincronizar",
     "level": "C1"
   },
   {
     "de": "Tageseinnahmen",
     "de_article": "die",
-    "lv": "Dienas ieņēmumi",
+    "lv": "receita diária • receitas do dia",
     "level": "C1"
   },
   {
     "de": "Transfusion",
     "de_article": "die",
     "de_plural": "die Transfusionen",
-    "lv": "Tieša asins pārliešana no vienna cilvēka citam",
+    "lv": "transfusão",
     "level": "C1"
   },
   {
     "de": "überanstrengen",
-    "lv": "Pārpūlēt • Sichü. parpūlēties",
+    "lv": "sobrecarregar • esforçar-se demasiado",
     "level": "C1"
   },
   {
     "de": "Überbevölkerung",
     "de_article": "die",
     "de_plural": "die Überbevölkerungen",
-    "lv": "Parapdzīvotība",
+    "lv": "sobrepopulação • superpovoamento",
     "level": "C1"
   },
   {
     "de": "Überbleibsel",
     "de_article": "das",
     "de_plural": "die Überbleibsel",
-    "lv": "Parpalikums • Paliekas",
+    "lv": "resto • sobra • vestígio",
     "level": "C1"
   },
   {
     "de": "übereinstimmen",
-    "lv": "Saskanēt • Mas ar kādu ordinisprātis",
+    "lv": "coincidir • concordar • estar de acordo",
     "level": "C1"
   },
   {
     "de": "Überschuss",
     "de_article": "der",
     "de_plural": "die Überschüsse",
-    "lv": "Atlikums • Pārpalikums • Uzvija",
+    "lv": "excedente • excesso • sobra",
     "level": "C1"
   },
   {
     "de": "Umgangssprache",
     "de_article": "die",
     "de_plural": "die Umgangssprachen",
-    "lv": "Sarunvaloda",
+    "lv": "linguagem coloquial • linguagem corrente",
     "level": "C1"
   },
   {
     "de": "Unannehmlichkeit",
     "de_article": "die",
     "de_plural": "die Unannehmlichkeiten",
-    "lv": "Nepatikšanas • Nepatikams gadījums",
+    "lv": "inconveniente • incómodo • aborrecimento",
     "level": "C1"
   },
   {
     "de": "unausgeglichen",
-    "lv": "Nelidzsvarots",
+    "lv": "desequilibrado",
     "level": "C1"
   },
   {
     "de": "unerschütterlich",
-    "lv": "Barra de escrita",
+    "lv": "inabalável",
     "level": "C1"
   },
   {
     "de": "Unterschätzung",
     "de_article": "die",
     "de_plural": "die Unterschätzungen",
-    "lv": "Nepietiekams novertējums • Novērtēšana par zemu",
+    "lv": "subestimação • subavaliação",
     "level": "C1"
   },
   {
     "de": "urteilen",
-    "lv": "Mais alegre",
+    "lv": "julgar",
     "level": "C1"
   },
   {
     "de": "verabschieden",
-    "lv": "Atbrīvot no darba • Aizlaist pensijā",
-    "level": "C1"
-  },
-  {
-    "de": "veränderlich",
-    "lv": "Mainigs • Grozigs",
-    "level": "C1"
-  },
-  {
-    "de": "veranschlagen",
-    "lv": "Aprēķināt • Kalkulet • Sastādīt tāmi",
-    "level": "C1"
-  },
-  {
-    "de": "verdrießlich",
-    "lv": "Nepatikams • Īgns • Sapīcis",
-    "level": "C1"
-  },
-  {
-    "de": "Verfallsdatum",
-    "de_article": "das",
-    "de_plural": "die Verfallsdaten",
-    "lv": "Lietošanas termiņa beigas",
-    "level": "C1"
-  },
-  {
-    "de": "Verfassung",
-    "de_article": "die",
-    "de_plural": "die Verfassungen",
-    "lv": "Konstitūcija • Satversme",
-    "level": "C1"
-  },
-  {
-    "de": "vergewaltigen",
-    "lv": "Izvarot",
-    "level": "C1"
-  },
-  {
-    "de": "sich vergewissern",
-    "lv": "Parlamentos",
-    "level": "C1"
-  },
-  {
-    "de": "Vergünstigung",
-    "de_article": "die",
-    "de_plural": "die Vergünstigungen",
-    "lv": "Priekšrocība • Privilēģija • Atvieglojums",
-    "level": "C1"
-  },
-  {
-    "de": "verhaften",
-    "lv": "Apcietinat",
-    "level": "C1"
-  },
-  {
-    "de": "verhältnismäßig",
-    "lv": "Samērā",
-    "level": "C1"
-  },
-  {
-    "de": "Verhandlungen",
-    "de_article": "die",
-    "de_plural": "die Verhandlungen",
-    "lv": "Sarunas",
-    "level": "C1"
-  },
-  {
-    "de": "verheimlichen",
-    "lv": "Dormindo • Turēt slepenībā",
-    "level": "C1"
-  },
-  {
-    "de": "Verkehrsdichte",
-    "de_article": "die",
-    "de_plural": "die Verkehrsdichten",
-    "lv": "Satiksmes blīvums",
-    "level": "C1"
-  },
-  {
-    "de": "Verkehrswesen",
-    "de_article": "das",
-    "lv": "Transporte",
-    "level": "C1"
-  },
-  {
-    "de": "Verpflichtung",
-    "de_article": "die",
-    "de_plural": "die Verpflichtungen",
-    "lv": "Plichting • Verplichting",
-    "level": "C1"
-  },
-  {
-    "de": "Verschwörung",
-    "de_article": "die",
-    "de_plural": "die Verschwörungen",
-    "lv": "Sazvērestība",
-    "level": "C1"
-  },
-  {
-    "de": "verklagen",
-    "lv": "Iesudzēt tiesa",
-    "level": "C1"
-  },
-  {
-    "de": "vernachlässigen",
-    "lv": "Atstāt novārtā • Nunca informações",
-    "level": "C1"
-  },
-  {
-    "de": "verpflichten",
-    "lv": "Usado para plenitude",
-    "level": "C1"
-  },
-  {
-    "de": "sich verpflichten",
-    "lv": "Uzņemties",
-    "level": "C1"
-  },
-  {
-    "de": "sich verschließen",
-    "lv": "Noslēgties • Norobežoties",
-    "level": "C1"
-  },
-  {
-    "de": "verschlossen",
-    "lv": "Aizslēgts • Noslēgts • Pārn. noslēgts • Sevī noslēdzies",
-    "level": "C1"
-  },
-  {
-    "de": "verschlüsseln",
-    "lv": "Šifrēt • Código",
-    "level": "C1"
-  },
-  {
-    "de": "verschreiben",
-    "lv": "Medicamento. parakstīt",
-    "level": "C1"
-  },
-  {
-    "de": "verschweigen",
-    "lv": "Noklusēt • Neizpaust",
-    "level": "C1"
-  },
-  {
-    "de": "verständigen",
-    "lv": "Informar • Paziņot",
-    "level": "C1"
-  },
-  {
-    "de": "Versuchsanlage",
-    "de_article": "die",
-    "de_plural": "die Versuchsanlagen",
-    "lv": "Izmēģinājumu iekārta",
-    "level": "C1"
-  },
-  {
-    "de": "Versuchsgelände",
-    "de_article": "das",
-    "de_plural": "die Versuchsgelände",
-    "lv": "Polígonos Izmēģinājumu",
-    "level": "C1"
-  },
-  {
-    "de": "Versuchsreihe",
-    "de_article": "die",
-    "de_plural": "die Versuchsreihen",
-    "lv": "Teste em série",
-    "level": "C1"
-  },
-  {
-    "de": "verunglücken",
-    "lv": "Ciest nelaimes gadījumā • Ciest avārijā",
-    "level": "C1"
-  },
-  {
-    "de": "verurteilen",
-    "lv": "Notícias por satélite",
-    "level": "C1"
-  },
-  {
-    "de": "vervielfältigen",
-    "lv": "Pavairot",
-    "level": "C1"
-  },
-  {
-    "de": "vervollkommnen",
-    "lv": "Papildinat • Uzlabot",
-    "level": "C1"
-  },
-  {
-    "de": "sich vervollkommnen",
-    "lv": "Papildināt savas zināšanas",
-    "level": "C1"
-  },
-  {
-    "de": "verwirklichen",
-    "lv": "Realizet • Osteno",
-    "level": "C1"
-  },
-  {
-    "de": "Volksabstimmung",
-    "de_article": "die",
-    "de_plural": "die Volksabstimmungen",
-    "lv": "Tautas nobalsošana • Plebiscitos",
-    "level": "C1"
-  },
-  {
-    "de": "Volksbefragung",
-    "de_article": "die",
-    "de_plural": "die Volksbefragungen",
-    "lv": "Opinião sobre todos os homens • Referendo",
-    "level": "C1"
-  },
-  {
-    "de": "Vollversammlung",
-    "de_article": "die",
-    "de_plural": "die Vollversammlungen",
-    "lv": "Plenários • Pilnsapulce • Assembleia Ģenerālā",
-    "level": "C1"
-  },
-  {
-    "de": "voreingenommen",
-    "lv": "Aizspriedumains • Neobjektīvs",
-    "level": "C1"
-  },
-  {
-    "de": "waag[e]recht",
-    "lv": "Liménicos • Horizontais",
-    "level": "C1"
-  },
-  {
-    "de": "Waffenruhe",
-    "de_article": "die",
-    "de_plural": "die Waffenruhen",
-    "lv": "Cīņu pārtraukums",
-    "level": "C1"
-  },
-  {
-    "de": "Waffenschein",
-    "de_article": "der",
-    "de_plural": "die Waffenscheine",
-    "lv": "Ieroča atļauja",
-    "level": "C1"
-  },
-  {
-    "de": "wahlberechtigt",
-    "lv": "Tāds, kam ir vēlēšanu tiesības",
+    "lv": "despedir-se • aprovar",
     "level": "C1",
     "study": {
-      "id": "c1-wahlberechtigt",
+      "id": "c1-verabschieden",
       "layout": "standardStudy",
-      "translation": "Tāds, kam ir vēlēšanu tiesības",
-      "explanation": "Galvenā doma: wahlberechtigt ir īpašības vārds, kas nozīmē, ka personai ir tiesības piedalīties vēlēšanās — balsot vai candidēt. Saliktenis: Wahl (vēlēšanas) + berechtigt (tiesīgs).",
+      "translation": "despedir-se • aprovar",
+      "explanation": [
+        "Ideia principal: sich verabschieden significa despedir-se de alguém: Ich verabschiede mich von dir. A pessoa de quem alguém se despede é introduzida por von + dativo.",
+        "Verbo reflexo: ich verabschiede mich, er verabschiedet sich, verabschiedete sich, hat sich verabschiedet. Sem sich, verabschieden pode significar despedir-se de alguém numa cerimónia (der Direktor wurde in den Ruhestand verabschiedet) ou aprovar uma lei (ein Gesetz verabschieden).",
+        "O substantivo é die Verabschiedung (despedida, aprovação de uma lei)."
+      ],
       "examples": [
         {
-          "de": "Alle wahlberechtigten Bürger können wählen.",
-          "lv": "Visi vēlētāji ar vēlēšanu tiesībām var balsot."
+          "de": "Ich verabschiede mich von meinen Kollegen.",
+          "lv": "Despeço-me dos meus colegas."
         },
         {
-          "de": "Ab 18 Jahren ist man wahlberechtigt.",
-          "lv": "No 18 gadu vecuma ir vēlēšanu tiesības."
+          "de": "Sie verabschiedete sich und ging nach Hause.",
+          "lv": "Ela despediu-se e foi para casa."
         },
         {
-          "de": "Nicht alle Einwohner sind wahlberechtigt.",
-          "lv": "Eu não vejo nenhum deles."
+          "de": "Das Parlament hat das Gesetz verabschiedet.",
+          "lv": "O Parlamento aprovou a lei."
+        },
+        {
+          "de": "Der Direktor wurde nach dreißig Jahren in den Ruhestand verabschiedet.",
+          "lv": "Ao fim de trinta anos, o diretor teve uma despedida solene ao passar à reforma."
         }
       ],
       "comparison": [
         {
-          "word": "wahlberechtigt",
-          "meaning": "Ar vēlēšanu tiebām",
-          "example": "Er ist wahlberechtigt. = Viņam ir vēlēšanu tiesības."
+          "word": "Abschied nehmen",
+          "meaning": "despedir-se",
+          "example": "Er nahm Abschied von seiner Heimat. – Ele despediu-se da sua terra natal."
         },
         {
-          "word": "wählen",
-          "meaning": "Vēlēt • Balsot",
-          "example": "Ich wähle heute. = Es šodien balsoju."
+          "word": "beschließen",
+          "meaning": "decidir, tomar uma decisão",
+          "example": "Der Rat beschließt das Budget. – O conselho aprova o orçamento."
         },
         {
-          "word": "der Wähler",
-          "meaning": "Vēlētājs",
-          "example": "Der Wähler geht zur Wahl. = Vēlētājs iet uz vēlēšanām."
-        }
-      ],
-      "tip": {
-        "leftBlocks": [
-          {
-            "text": "Wahl = vēlēšanas, berechtigt = tiesīgs. Bieži pegou um texto jurídico."
-          }
-        ]
-      },
-      "important": {
-        "text": "Wahlberechtigt = ar vēlēšanu tiesībām. Pretējais: nicht wahlberechtigt."
-      },
-      "sectionAccents": {
-        "explanation": {
-          "blue": [
-            "wahlberechtigt",
-            "Wahl",
-            "berechtigt"
-          ]
-        },
-        "examples": [
-          {
-            "de": {
-              "blue": [
-                "wahlberechtigten"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "vēlēšanu tiesībām"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "wahlberechtigt"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "vēlēšanu tiesības"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "wahlberechtigt"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "vejo"
-              ]
-            }
-          }
-        ]
-      }
-    }
-  },
-  {
-    "de": "wahrhaft",
-    "lv": "Patiesi • Tiešām",
-    "level": "C1"
-  },
-  {
-    "de": "Wäscheschleuder",
-    "de_article": "die",
-    "de_plural": "die Wäscheschleudern",
-    "lv": "Veja centrífuga",
-    "level": "C1"
-  },
-  {
-    "de": "Wasserheilanstalt",
-    "de_article": "die",
-    "lv": "Ūdensdziedniecības iestāde",
-    "level": "C1"
-  },
-  {
-    "de": "Wasserkraftwerk",
-    "de_article": "das",
-    "de_plural": "die Wasserkraftwerke",
-    "lv": "Hidroeletrostacia",
-    "level": "C1"
-  },
-  {
-    "de": "Wasserversorgung",
-    "de_article": "die",
-    "de_plural": "die Wasserversorgungen",
-    "lv": "Ūdensapgāde",
-    "level": "C1"
-  },
-  {
-    "de": "Wechselbeziehung",
-    "de_article": "die",
-    "de_plural": "die Wechselbeziehungen",
-    "lv": "Savstarpējs sakars",
-    "level": "C1"
-  },
-  {
-    "de": "Wehrersatzdienst",
-    "de_article": "der",
-    "lv": "Civildienests karadienesta vietā",
-    "level": "C1"
-  },
-  {
-    "de": "Weidenkätzchen",
-    "de_article": "das",
-    "de_plural": "die Weidenkätzchen",
-    "lv": "Alunos",
-    "level": "C1"
-  },
-  {
-    "de": "Weltanschauung",
-    "de_article": "die",
-    "de_plural": "die Weltanschauungen",
-    "lv": "Passagens Uzskat",
-    "level": "C1"
-  },
-  {
-    "de": "Wetterleuchten",
-    "de_article": "das",
-    "lv": "Rusa",
-    "level": "C1"
-  },
-  {
-    "de": "widerrechtlich",
-    "lv": "Bonito",
-    "level": "C1"
-  },
-  {
-    "de": "wiederherstellen",
-    "lv": "Atjaunot • Restaurante",
-    "level": "C1"
-  },
-  {
-    "de": "zusammenfallen",
-    "lv": "Sabrukt • Sagadidades",
-    "level": "C1"
-  },
-  {
-    "de": "zusammenstellen",
-    "lv": "Sastādīt",
-    "level": "C1"
-  },
-  {
-    "de": "Zuschlag",
-    "de_article": "der",
-    "de_plural": "die Zuschläge",
-    "lv": "Piemaksa • Uzcenojums",
-    "level": "C1",
-    "study": {
-      "id": "c1-zuschlag",
-      "layout": "standardStudy",
-      "translation": "Piemaksa • Uzcenojums",
-      "explanation": [
-        "Galvenā doma: der Zuschlag nozīmē piemaksu vai uzcenojumu — papildu summu, kas tiek pieskaitīta pamatcenai.",
-        "Ceļojumu/transporta kontekstā der Zuschlag ir papildu maksa par ātrāku vilcienu, labāku vietu u.tml.",
-        "Não se preocupe com informações (de bijlage bij het document) - essa é uma palavra diferente.",
-        "Izsolēs den Zuschlag erhalten nozīmē uzvarēt izsolē/saņemt pasūtījumu."
-      ],
-      "examples": [
-        {
-          "de": "Für den ICE muss man einen Zuschlag zahlen.",
-          "lv": "Par ICE vilcienu jāmaksā piemaksa."
-        },
-        {
-          "de": "Der Zuschlag für die Nachtschicht beträgt 20%.",
-          "lv": "Piemaksa par nakts mayu ir 20%."
-        },
-        {
-          "de": "Sie erhielt den Zuschlag für den Auftrag.",
-          "lv": "Viņa saņēma pasūtījumu (izsolē)."
-        },
-        {
-          "de": "Es gibt einen Zuschlag für Übergepäck.",
-          "lv": "Par pārsvara bagāžu ir uzcenojums."
-        },
-        {
-          "de": "Der Preis versteht sich ohne Zuschläge.",
-          "lv": "O jantar vai bez piemaksām."
+          "word": "winken",
+          "meaning": "acenar",
+          "example": "Sie winkt zum Abschied. – Ela acena em despedida."
         }
       ],
       "tip": [
-        "der Zuschlag = piemaksa/uzcenojums (papildu maksa), ne dokumenta pielikums.",
-        "den Zuschlag erhalten (izsolēs) = uzvarēt izsolē/saņemt pasūtījumu."
+        "No dia a dia, ao despedir-se, usa-se: Ich verabschiede mich, tschüss! ou Auf Wiedersehen!",
+        "Para dizer de quem alguém se despede, usa-se sempre von + dativo."
       ],
       "important": [
-        "der Zuschlag = piemaksa/uzcenojums, ne 'pielikums' dokumentam.",
-        "Dokumenta pielikums vācu valodā ir die Anlage/der Anhang."
+        "No parlamento, verabschieden uma lei significa aprová-la; não se trata do significado quotidiano de despedida."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "der Zuschlag"
+            "sich verabschieden",
+            "verabschiede",
+            "verabschiedete",
+            "verabschiedet",
+            "von",
+            "Verabschiedung",
+            "verabschieden"
           ],
           "purple": [
-            "piemaksu",
-            "uzcenojumu"
-          ],
-          "red": [
-            "Galvenā",
-            "de bijlage"
+            "despedir-se",
+            "aprovar uma lei"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "Zuschlag"
+                "verabschiede"
               ]
             },
             "lv": {
               "purple": [
-                "piemaksa"
+                "Despeço-me"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "Zuschlag"
+                "verabschiedete"
               ]
             },
             "lv": {
               "purple": [
-                "piemaksa"
+                "despediu-se"
               ]
             }
           },
           {
             "de": {
+              "blue": [
+                "verabschiedet"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "aprovou"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verabschiedet"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "despedida"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
               "green": [
-                "Zuschlag"
+                "Abschied nehmen"
               ]
             },
-            "lv": {
+            "meaning": {
               "purple": [
-                "pasūtījumu"
+                "despedir-se"
               ]
             }
           },
           {
-            "de": {
-              "blue": [
-                "Zuschlag"
+            "word": {
+              "green": [
+                "beschließen"
               ]
             },
-            "lv": {
+            "meaning": {
               "purple": [
-                "uzcenojums"
+                "decidir"
               ]
             }
           },
           {
-            "de": {
-              "blue": [
-                "Zuschläge"
+            "word": {
+              "green": [
+                "winken"
               ]
             },
-            "lv": {
+            "meaning": {
               "purple": [
-                "piemaksām"
+                "acenar"
               ]
             }
           }
@@ -4114,30 +5092,703 @@ const C1_WORDS = [
         "tip": [
           {
             "blue": [
-              "piemaksa",
-              "uzcenojums"
+              "verabschiede"
             ]
           },
           {
-            "green": [
-              "den Zuschlag erhalten"
+            "blue": [
+              "von"
             ]
           }
         ],
         "important": [
           {
-            "purple": [
-              "piemaksa",
-              "uzcenojums"
+            "blue": [
+              "verabschieden"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "de": "veränderlich",
+    "lv": "variável • mutável",
+    "level": "C1"
+  },
+  {
+    "de": "veranschlagen",
+    "lv": "calcular • orçamentar • estimar",
+    "level": "C1"
+  },
+  {
+    "de": "verdrießlich",
+    "lv": "desagradável • rabugento • mal-humorado",
+    "level": "C1"
+  },
+  {
+    "de": "Verfallsdatum",
+    "de_article": "das",
+    "de_plural": "die Verfallsdaten",
+    "lv": "data de validade • prazo de validade",
+    "level": "C1"
+  },
+  {
+    "de": "Verfassung",
+    "de_article": "die",
+    "de_plural": "die Verfassungen",
+    "lv": "constituição",
+    "level": "C1"
+  },
+  {
+    "de": "vergewaltigen",
+    "lv": "violar",
+    "level": "C1"
+  },
+  {
+    "de": "sich vergewissern",
+    "lv": "certificar-se • assegurar-se",
+    "level": "C1"
+  },
+  {
+    "de": "Vergünstigung",
+    "de_article": "die",
+    "de_plural": "die Vergünstigungen",
+    "lv": "benefício • regalia • vantagem",
+    "level": "C1"
+  },
+  {
+    "de": "verhaften",
+    "lv": "prender • deter",
+    "level": "C1"
+  },
+  {
+    "de": "verhältnismäßig",
+    "lv": "relativamente • proporcionalmente",
+    "level": "C1"
+  },
+  {
+    "de": "Verhandlungen",
+    "de_article": "die",
+    "de_plural": "die Verhandlungen",
+    "lv": "negociações",
+    "level": "C1"
+  },
+  {
+    "de": "verheimlichen",
+    "lv": "esconder • ocultar • manter em segredo",
+    "level": "C1"
+  },
+  {
+    "de": "Verkehrsdichte",
+    "de_article": "die",
+    "de_plural": "die Verkehrsdichten",
+    "lv": "densidade de tráfego • intensidade do trânsito",
+    "level": "C1"
+  },
+  {
+    "de": "Verkehrswesen",
+    "de_article": "das",
+    "lv": "transportes",
+    "level": "C1"
+  },
+  {
+    "de": "Verpflichtung",
+    "de_article": "die",
+    "de_plural": "die Verpflichtungen",
+    "lv": "dever • obrigação • compromisso",
+    "level": "C1"
+  },
+  {
+    "de": "Verschwörung",
+    "de_article": "die",
+    "de_plural": "die Verschwörungen",
+    "lv": "conspiração",
+    "level": "C1"
+  },
+  {
+    "de": "verklagen",
+    "lv": "processar • pôr em tribunal",
+    "level": "C1"
+  },
+  {
+    "de": "vernachlässigen",
+    "lv": "descuidar • negligenciar • desleixar",
+    "level": "C1"
+  },
+  {
+    "de": "verpflichten",
+    "lv": "obrigar",
+    "level": "C1"
+  },
+  {
+    "de": "sich verpflichten",
+    "lv": "comprometer-se",
+    "level": "C1"
+  },
+  {
+    "de": "sich verschließen",
+    "lv": "fechar-se • isolar-se",
+    "level": "C1"
+  },
+  {
+    "de": "verschlossen",
+    "lv": "fechado à chave • fechado • reservado",
+    "level": "C1"
+  },
+  {
+    "de": "verschlüsseln",
+    "lv": "cifrar • codificar • encriptar",
+    "level": "C1"
+  },
+  {
+    "de": "verschreiben",
+    "lv": "receitar • prescrever",
+    "level": "C1"
+  },
+  {
+    "de": "verschweigen",
+    "lv": "calar • ocultar • silenciar",
+    "level": "C1"
+  },
+  {
+    "de": "verständigen",
+    "lv": "informar • notificar • avisar",
+    "level": "C1"
+  },
+  {
+    "de": "Versuchsanlage",
+    "de_article": "die",
+    "de_plural": "die Versuchsanlagen",
+    "lv": "instalação experimental • instalação-piloto",
+    "level": "C1"
+  },
+  {
+    "de": "Versuchsgelände",
+    "de_article": "das",
+    "de_plural": "die Versuchsgelände",
+    "lv": "campo de ensaios • campo de provas",
+    "level": "C1"
+  },
+  {
+    "de": "Versuchsreihe",
+    "de_article": "die",
+    "de_plural": "die Versuchsreihen",
+    "lv": "série de ensaios • série de testes",
+    "level": "C1"
+  },
+  {
+    "de": "verunglücken",
+    "lv": "sofrer um acidente • ter um acidente",
+    "level": "C1"
+  },
+  {
+    "de": "verurteilen",
+    "lv": "condenar",
+    "level": "C1"
+  },
+  {
+    "de": "vervielfältigen",
+    "lv": "reproduzir • multiplicar • fotocopiar",
+    "level": "C1"
+  },
+  {
+    "de": "vervollkommnen",
+    "lv": "aperfeiçoar • melhorar",
+    "level": "C1"
+  },
+  {
+    "de": "sich vervollkommnen",
+    "lv": "aperfeiçoar-se",
+    "level": "C1"
+  },
+  {
+    "de": "verwirklichen",
+    "lv": "realizar • concretizar • pôr em prática",
+    "level": "C1"
+  },
+  {
+    "de": "Volksabstimmung",
+    "de_article": "die",
+    "de_plural": "die Volksabstimmungen",
+    "lv": "referendo • plebiscito",
+    "level": "C1"
+  },
+  {
+    "de": "Volksbefragung",
+    "de_article": "die",
+    "de_plural": "die Volksbefragungen",
+    "lv": "consulta popular • referendo",
+    "level": "C1"
+  },
+  {
+    "de": "Vollversammlung",
+    "de_article": "die",
+    "de_plural": "die Vollversammlungen",
+    "lv": "plenário • assembleia geral",
+    "level": "C1"
+  },
+  {
+    "de": "voreingenommen",
+    "lv": "parcial • preconceituoso",
+    "level": "C1"
+  },
+  {
+    "de": "waag[e]recht",
+    "lv": "horizontal • nivelado",
+    "level": "C1"
+  },
+  {
+    "de": "Waffenruhe",
+    "de_article": "die",
+    "de_plural": "die Waffenruhen",
+    "lv": "cessar-fogo • tréguas",
+    "level": "C1"
+  },
+  {
+    "de": "Waffenschein",
+    "de_article": "der",
+    "de_plural": "die Waffenscheine",
+    "lv": "licença de porte de arma",
+    "level": "C1"
+  },
+  {
+    "de": "wahlberechtigt",
+    "lv": "com direito de voto • recenseado",
+    "level": "C1",
+    "study": {
+      "id": "c1-wahlberechtigt",
+      "layout": "standardStudy",
+      "translation": "com direito de voto • recenseado",
+      "explanation": [
+        "Ideia principal: wahlberechtigt é um adjetivo que designa uma pessoa com direito de voto — que pode participar nas eleições e votar.",
+        "Como os outros adjetivos, flete-se: wahlberechtigte Bürger. A partir do adjetivo pode formar-se um substantivo: der/die Wahlberechtigte, die Wahlberechtigten (eleitor).",
+        "A palavra é composta por die Wahl (eleição) e berechtigt (com direito)."
+      ],
+      "examples": [
+        {
+          "de": "Alle Bürger ab 18 Jahren sind wahlberechtigt.",
+          "lv": "Todos os cidadãos a partir dos 18 anos têm direito de voto."
+        },
+        {
+          "de": "Nur wahlberechtigte Personen dürfen abstimmen.",
+          "lv": "Só as pessoas com direito de voto podem votar."
+        },
+        {
+          "de": "Wer ist in dieser Stadt wahlberechtigt?",
+          "lv": "Quem tem direito de voto nesta cidade?"
+        },
+        {
+          "de": "Die Zahl der Wahlberechtigten ist gestiegen.",
+          "lv": "O número de eleitores aumentou."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "das Wahlrecht",
+          "meaning": "direito de voto",
+          "example": "Das Wahlrecht ist ein Grundrecht. – O direito de voto é um direito fundamental."
+        },
+        {
+          "word": "wählbar",
+          "meaning": "elegível",
+          "example": "Er ist wählbar. – Ele é elegível."
+        },
+        {
+          "word": "stimmberechtigt",
+          "meaning": "com direito a voto (numa votação)",
+          "example": "Alle Mitglieder sind stimmberechtigt. – Todos os membros têm direito a voto."
+        }
+      ],
+      "tip": [
+        "Distingue: wahlberechtigt (pode votar) e wählbar (pode ser eleito).",
+        "Em estatísticas usa-se: die Zahl der Wahlberechtigten — o número de eleitores."
+      ],
+      "important": [
+        "Wahlberechtigt não significa que a pessoa vote: é apenas um direito, não uma ação."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "wahlberechtigt",
+            "wahlberechtigte",
+            "Wahlberechtigten"
+          ],
+          "purple": [
+            "direito de voto",
+            "eleitor"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "wahlberechtigt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "direito de voto"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "wahlberechtigte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "direito de voto"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "wahlberechtigt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "direito de voto"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Wahlberechtigten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "eleitores"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "das Wahlrecht"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "voto"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "wählbar"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "elegível"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "stimmberechtigt"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "votação"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "wahlberechtigt"
             ],
-            "red": [
-              "pielikums"
+            "green": [
+              "wählbar"
             ]
           },
           {
-            "red": [
-              "die Anlage",
-              "der Anhang"
+            "blue": [
+              "Wahlberechtigten"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "wahlberechtigt"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "de": "wahrhaft",
+    "lv": "verdadeiro • verdadeiramente",
+    "level": "C1"
+  },
+  {
+    "de": "Wäscheschleuder",
+    "de_article": "die",
+    "de_plural": "die Wäscheschleudern",
+    "lv": "centrifugadora de roupa",
+    "level": "C1"
+  },
+  {
+    "de": "Wasserheilanstalt",
+    "de_article": "die",
+    "lv": "centro de hidroterapia • estabelecimento de hidroterapia",
+    "level": "C1"
+  },
+  {
+    "de": "Wasserkraftwerk",
+    "de_article": "das",
+    "de_plural": "die Wasserkraftwerke",
+    "lv": "central hidroelétrica",
+    "level": "C1"
+  },
+  {
+    "de": "Wasserversorgung",
+    "de_article": "die",
+    "de_plural": "die Wasserversorgungen",
+    "lv": "abastecimento de água",
+    "level": "C1"
+  },
+  {
+    "de": "Wechselbeziehung",
+    "de_article": "die",
+    "de_plural": "die Wechselbeziehungen",
+    "lv": "inter-relação • correlação",
+    "level": "C1"
+  },
+  {
+    "de": "Wehrersatzdienst",
+    "de_article": "der",
+    "lv": "serviço cívico alternativo",
+    "level": "C1"
+  },
+  {
+    "de": "Weidenkätzchen",
+    "de_article": "das",
+    "de_plural": "die Weidenkätzchen",
+    "lv": "amento de salgueiro • amentilho",
+    "level": "C1"
+  },
+  {
+    "de": "Weltanschauung",
+    "de_article": "die",
+    "de_plural": "die Weltanschauungen",
+    "lv": "visão do mundo • mundividência",
+    "level": "C1"
+  },
+  {
+    "de": "Wetterleuchten",
+    "de_article": "das",
+    "lv": "relâmpago distante",
+    "level": "C1"
+  },
+  {
+    "de": "widerrechtlich",
+    "lv": "ilegal • ilícito",
+    "level": "C1"
+  },
+  {
+    "de": "wiederherstellen",
+    "lv": "restabelecer • restaurar • recuperar",
+    "level": "C1"
+  },
+  {
+    "de": "zusammenfallen",
+    "lv": "desabar • coincidir",
+    "level": "C1"
+  },
+  {
+    "de": "zusammenstellen",
+    "lv": "compor • compilar • organizar",
+    "level": "C1"
+  },
+  {
+    "de": "Zuschlag",
+    "de_article": "der",
+    "de_plural": "die Zuschläge",
+    "lv": "suplemento • sobretaxa",
+    "level": "C1",
+    "study": {
+      "id": "c1-zuschlag",
+      "layout": "standardStudy",
+      "translation": "suplemento • sobretaxa",
+      "explanation": [
+        "Ideia principal: der Zuschlag é um suplemento que se acrescenta ao valor base: sobretaxa, suplemento por trabalho noturno, por um comboio rápido ou por um serviço adicional.",
+        "Substantivo masculino: der Zuschlag, plural die Zuschläge (com Umlaut). Outro significado importante, num leilão ou concurso: den Zuschlag erhalten — ganhar, ser escolhido.",
+        "Forma muitas vezes compostos: Nachtzuschlag, Zugzuschlag, Gefahrenzuschlag."
+      ],
+      "examples": [
+        {
+          "de": "Für Nachtarbeit gibt es einen Zuschlag.",
+          "lv": "Pelo trabalho noturno há um suplemento."
+        },
+        {
+          "de": "Im Zug musste ich einen Zuschlag bezahlen.",
+          "lv": "No comboio tive de pagar um suplemento."
+        },
+        {
+          "de": "Die Firma erhielt den Zuschlag für den Bau.",
+          "lv": "A empresa ganhou a adjudicação da obra."
+        },
+        {
+          "de": "Das Hotel verlangt einen Zuschlag für Haustiere.",
+          "lv": "O hotel cobra um suplemento por animais de estimação."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "der Aufpreis",
+          "meaning": "acréscimo de preço",
+          "example": "Für Leder zahlt man einen Aufpreis. – Pelo couro paga-se um acréscimo."
+        },
+        {
+          "word": "die Gebühr",
+          "meaning": "taxa",
+          "example": "Die Gebühr beträgt zehn Euro. – A taxa é de dez euros."
+        },
+        {
+          "word": "der Rabatt",
+          "meaning": "desconto",
+          "example": "Sie bekommen einen Rabatt. – Recebe um desconto."
+        }
+      ],
+      "tip": [
+        "Lembra-te de dois usos: einen Zuschlag bezahlen (pagar um suplemento) e den Zuschlag erhalten (ser escolhido num leilão ou concurso).",
+        "Opostos: Zuschlag (acrescentado) e Abschlag (deduzido)."
+      ],
+      "important": [
+        "No plural usa-se die Zuschläge, e não die Zuschlägen."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Zuschlag",
+            "Zuschläge"
+          ],
+          "purple": [
+            "suplemento",
+            "sobretaxa"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Zuschlag"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "suplemento"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Zuschlag"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "suplemento"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Zuschlag"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "adjudicação"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Zuschlag"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "suplemento"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "der Aufpreis"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "acréscimo"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Gebühr"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "taxa"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Rabatt"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "desconto"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "Zuschlag"
+            ]
+          },
+          {
+            "blue": [
+              "Zuschlag"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "Zuschläge"
             ]
           }
         ]
@@ -4146,203 +5797,374 @@ const C1_WORDS = [
   },
   {
     "de": "beziehen / sich beziehen auf",
-    "lv": "Attiecināt • Attiekties uz",
+    "lv": "relacionar • referir-se a",
     "level": "C1",
     "study": {
       "id": "c1-beziehen-sich-beziehen-auf",
       "layout": "standardStudy",
-      "translation": "Attiecināt • Attiekties uz",
+      "translation": "relacionar • referir-se a",
       "explanation": [
-        "Hoofdidee: Registro formal: toeschrijving aan bron, regulier pensionoen/salarisontvangst of verhuizen naar een appartement.",
-        "Piemēros meklē tipisku ikdienas alegrejumu.",
-        "Oui šaubies, pārbaudi, vai runa ir par stāvokli vai darbību.",
-        "Conteúdo de um dado virziens nosaka pareizo izvēli."
+        "Ideia principal: etwas auf etwas beziehen significa relacionar algo com algo ou alguém; sich auf etwas beziehen significa referir-se a algo ou remeter para isso.",
+        "Formas: bezieht, bezog, hat bezogen. Em ambas as construções segue-se auf + acusativo: etwas auf sich beziehen (tomar algo como dirigido a si próprio), sich auf einen Text beziehen (referir-se a um texto).",
+        "Além deste significado, beziehen pode significar também mudar a roupa da cama (das Bett beziehen), mudar-se para uma casa (eine Wohnung beziehen) e receber regularmente (ein Gehalt beziehen)."
       ],
       "examples": [
         {
-          "de": "beziehen / sich beziehen auf.",
-          "lv": "Attiecināt • Attiekties uz"
+          "de": "Du darfst das nicht auf dich beziehen.",
+          "lv": "Não deves levar isso para o lado pessoal."
+        },
+        {
+          "de": "Meine Frage bezieht sich auf den letzten Absatz.",
+          "lv": "A minha pergunta refere-se ao último parágrafo."
+        },
+        {
+          "de": "Er bezieht sich in seinem Brief auf unser Gespräch.",
+          "lv": "Na carta, ele faz referência à nossa conversa."
+        },
+        {
+          "de": "Sie bezog die Aussage auf ihren Bruder.",
+          "lv": "Ela entendeu a afirmação como dirigida ao irmão."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "betreffen",
+          "meaning": "dizer respeito a, afetar",
+          "example": "Das betrifft uns alle. – Isso diz respeito a todos nós."
+        },
+        {
+          "word": "verweisen auf",
+          "meaning": "remeter para",
+          "example": "Er verweist auf das Gesetz. – Ele remete para a lei."
+        },
+        {
+          "word": "sich handeln um",
+          "meaning": "tratar-se de",
+          "example": "Es handelt sich um einen Fehler. – Trata-se de um erro."
         }
       ],
       "tip": [
-        "Formāls reģistrs: attiecināt uz avotu, regulāru pensiju/algas saņemšanu vai ievākšanos dzīvoklī.",
-        "Izmanto beziehen / sich beziehen auf, kad konteksts atbilst šai nozīmei."
+        "Memoriza o par: sich beziehen auf + acusativo. A preposição é sempre auf.",
+        "Para dizer tomar algo como dirigido a si próprio: etwas auf sich beziehen."
       ],
       "important": [
-        "Formāls reģistrs: attiecināt uz avotu, regulāru pensiju/algas saņemšanu vai ievākšanos dzīvoklī.",
-        "beziehen / sich beziehen auf: pirms lietošanas pārbaudi kontekstu un salīdzini ar citiem vārdiem kartītē."
+        "Beziehen é uma palavra com vários significados: o contexto indica se se trata de relacionar algo, da cama ou do salário.",
+        "Betreffen é transitivo, sem preposição: Das betrifft mich."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "beziehen",
+            "sich beziehen",
+            "bezieht",
+            "bezog",
+            "bezogen",
+            "auf"
+          ],
           "purple": [
-            "Hoofdidee"
+            "relacionar",
+            "referir-se a",
+            "remeter para"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "beziehen / sich beziehen auf",
-                "beziehen / sich beziehen auf"
+                "beziehen"
               ]
             },
             "lv": {
               "purple": [
-                "attiecināt",
-                "attiekties uz"
+                "levar"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bezieht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "refere-se"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bezieht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "referência"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bezog"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "dirigida"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "betreffen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "afetar"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "verweisen auf"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "remeter"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich handeln um"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "tratar-se"
               ]
             }
           }
         ],
         "tip": [
           {
-            "purple": [
-              "attiecināt"
+            "blue": [
+              "beziehen",
+              "sich beziehen",
+              "auf"
             ]
           },
-          {}
+          {
+            "blue": [
+              "beziehen",
+              "sich beziehen",
+              "auf"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "beziehen"
+            ]
+          },
+          {
+            "green": [
+              "betreffen"
+            ]
+          }
         ]
       }
     }
   },
   {
     "de": "beabsichtigen",
-    "lv": "Nodomāt • Planot",
+    "lv": "tencionar • planear",
     "level": "C1",
     "study": {
       "id": "c1-beabsichtigen",
       "layout": "standardStudy",
-      "translation": "Nodomāt • Planot",
+      "translation": "tencionar • planear",
       "explanation": [
-        "Galvenā doma: Apzināts nodoms veikt darbību nākotnē. Neattiecas uz attiecību, aposte no plano.",
-        "Beabsichtigigen galvenokārt nozīmē: apzināts nodoms.",
-        "Bieži raksturo: planos / nolūks.",
-        "Beabsichtigen galvenokārt nozīmē: plānot darbību.",
-        "Bieži raksturo: oficiais registrados.",
-        "Beabsichtigigen nozīmē apzināti nodomāt vai plānot darbību — nevis attiecību, bet nolūku."
+        "Ideia principal: beabsichtigen significa tencionar, planear, ter a intenção de fazer algo; é um propósito consciente. Soa mais formal do que vorhaben.",
+        "Verbo regular: er beabsichtigt, beabsichtigte, hat beabsichtigt. Segue-se um acusativo (etwas beabsichtigen) ou um infinitivo com zu: Ich beabsichtige, im Herbst umzuziehen. O substantivo é die Absicht (intenção).",
+        "O particípio beabsichtigt usa-se como adjetivo: eine beabsichtigte Wirkung (um efeito intencional)."
       ],
       "examples": [
         {
-          "de": "Er beabsichtigt, das Projekt zu beenden.",
-          "lv": "Viņš nodomājis pabeigt projektu."
+          "de": "Ich beabsichtige, im Herbst umzuziehen.",
+          "lv": "Tenciono mudar de casa no outono."
         },
         {
-          "de": "Was beabsichtigen Sie mit dieser Maßnahme?",
-          "lv": "Ko jūs nodomājat aršo pasākumu?"
+          "de": "Die Firma beabsichtigt, ein neues Werk zu bauen.",
+          "lv": "A empresa planeia construir uma nova fábrica."
         },
         {
-          "de": "Wir beabsichtigen keine Änderung.",
-          "lv": "Mais neplānojam izmaiņu."
+          "de": "Das war nicht beabsichtigt.",
+          "lv": "Isso não foi intencional."
         },
         {
-          "de": "Er beabsichtigt, das Projekt zu beenden.",
-          "lv": "Viņš nodomājis pabeigt projektu."
+          "de": "Was beabsichtigst du damit?",
+          "lv": "O que pretendes com isso?"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "vorhaben",
+          "meaning": "ter a intenção",
+          "example": "Ich habe vor, morgen zu kommen. – Tenho a intenção de vir amanhã."
         },
         {
-          "de": "beabsichtigen + zu + nenoteiksme",
-          "lv": "Nodomāt kaut ko darīt."
+          "word": "planen",
+          "meaning": "planear",
+          "example": "Wir planen eine Reise. – Estamos a planear uma viagem."
+        },
+        {
+          "word": "wollen",
+          "meaning": "querer",
+          "example": "Ich will schlafen. – Quero dormir."
         }
       ],
       "tip": [
-        "Ja runa ir par attiecību, avotu vai regulāru saņemšanu — beziehen. Ja par apzinātu plānu — beabsichtigen.",
-        "beabsichtigen = nodomāt"
+        "A seguir a beabsichtigen vem muitas vezes zu + infinitivo, com vírgula: …, zu bauen.",
+        "No dia a dia podes dizer também vorhaben ou planen; beabsichtigen é mais formal."
       ],
       "important": [
-        "beabsichtigen + zu + nenoteiksme: Er beabsichtigt zu gehen.",
-        "beabsichtigen nevar aizstāt ar beziehen — tas ir nolūks, ne attiecība.",
-        "beabsichtigen → nodoms, plāns.",
-        "Apzināts nodoms veikt darbību nākotnē. Neattiecas uz attiecību, bet uz plānu."
+        "O particípio passado é beabsichtigt (sem ge-), porque o prefixo be- é inseparável."
       ],
       "sectionAccents": {
         "explanation": {
-          "green": [
-            "beabsichtigen"
+          "blue": [
+            "beabsichtigen",
+            "beabsichtigt",
+            "beabsichtigte",
+            "vorhaben",
+            "Absicht",
+            "beabsichtige"
           ],
           "purple": [
-            "nodomāt",
-            "plānot"
+            "tencionar",
+            "planear",
+            "intenção"
           ]
         },
         "examples": [
           {
             "de": {
-              "green": [
+              "blue": [
+                "beabsichtige"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Tenciono"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
                 "beabsichtigt"
               ]
             },
             "lv": {
               "purple": [
-                "nodomājis"
+                "planeia"
               ]
             }
           },
           {
             "de": {
-              "green": [
-                "beabsichtigen",
-                "beabsichtigen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "nodomājat"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "beabsichtigen",
-                "beabsichtigen"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "green": [
+              "blue": [
                 "beabsichtigt"
               ]
             },
             "lv": {
               "purple": [
-                "nodomājis"
+                "intencional"
               ]
             }
           },
           {
             "de": {
-              "green": [
-                "beabsichtigen",
-                "beabsichtigen"
+              "blue": [
+                "beabsichtigst"
               ]
             },
             "lv": {
               "purple": [
-                "nodomāt"
+                "pretendes"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "vorhaben"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "intenção"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "planen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "planear"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "wollen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "querer"
               ]
             }
           }
         ],
         "tip": [
           {
-            "purple": [
-              "nodomāt"
+            "blue": [
+              "beabsichtigen"
             ]
           },
           {
-            "purple": [
-              "plānu"
+            "blue": [
+              "beabsichtigen",
+              "vorhaben"
+            ],
+            "green": [
+              "planen"
             ]
           }
         ],
         "important": [
           {
-            "green": [
-              "beabsichtigen"
+            "blue": [
+              "beabsichtigt"
             ]
           }
         ]
@@ -4351,60 +6173,70 @@ const C1_WORDS = [
   },
   {
     "de": "unterstellen",
-    "lv": "Pārmest • Piedēvēt bez pamata",
+    "lv": "imputar • insinuar • atribuir",
     "level": "C1",
     "study": {
       "id": "c1-unterstellen",
       "layout": "standardStudy",
-      "translation": "Pārmest • Piedēvēt bez pamata",
+      "translation": "imputar • insinuar • atribuir",
       "explanation": [
-        "Galvenā doma: Nepamatoti piešķirt vainu, motīvu vai nodomu citam.",
-        "Unterstellen galvenokārt nozīmē: piedēvēt bez pamata.",
-        "Bieži raksturo: apsūdzība / pievilkšana.",
-        "Jemandem etwas unterstellen betekent ten onrechte toeschrijven of beschuldigen."
+        "Ideia principal: jemandem etwas unterstellen significa atribuir a alguém algo (uma intenção, palavras, uma má ação), muitas vezes sem provas. Segundo significado: subordinar: Die Abteilung ist dem Direktor unterstellt.",
+        "Verbo inseparável, com acento em -stell-: er unterstellt, unterstellte, hat unterstellt. Construção: jemandem etwas unterstellen (a quem? o quê?). Com o acento em unter-, é outro verbo, separável: Ich stelle das Auto unter — pôr ao abrigo; sich unterstellen — abrigar-se.",
+        "Neste sentido, a palavra exprime suspeita ou uma acusação infundada, por isso soa dura."
       ],
       "examples": [
         {
-          "de": "Man unterstellt mir schlechte Absichten.",
-          "lv": "Man parmet man sliktu nodomu."
+          "de": "Er unterstellt mir böse Absichten.",
+          "lv": "Ele atribui-me más intenções."
         },
         {
-          "de": "Unterstellen Sie mir nichts!",
-          "lv": "Neparmetiet man neko!"
+          "de": "Das unterstelle ich dir nicht.",
+          "lv": "Não te atribuo isso."
         },
         {
-          "de": "Man darf niemandem Verrat unterstellen.",
-          "lv": "Nevienam nedrīkst nepamatoti pārmest nodevību."
+          "de": "Man unterstellte ihr, dass sie gelogen habe.",
+          "lv": "Insinuaram que ela teria mentido."
         },
         {
-          "de": "Ihm wird Untreue unterstellt.",
-          "lv": "Viņam tiek pārmesta neuzticība."
+          "de": "Die Abteilung ist direkt dem Direktor unterstellt.",
+          "lv": "O departamento está diretamente subordinado ao diretor."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "vorwerfen",
+          "meaning": "censurar, acusar",
+          "example": "Er wirft mir Faulheit vor. – Ele acusa-me de preguiça."
         },
         {
-          "de": "unterstellen",
-          "lv": "Vagem Nepamatota • Voraussetzen"
+          "word": "beschuldigen",
+          "meaning": "acusar",
+          "example": "Sie beschuldigt ihn des Diebstahls. – Ela acusa-o de roubo."
+        },
+        {
+          "word": "behaupten",
+          "meaning": "afirmar",
+          "example": "Er behauptet, krank zu sein. – Ele afirma estar doente."
         }
       ],
       "tip": [
-        "unterstellen = pārmest",
-        "Izmanto unterstellen, kad konteksts atbilst šai nozīmei."
+        "Lembra-te: unterstellen = atribuir algo negativo, muitas vezes sem fundamento.",
+        "Depois de unterstellen, a pessoa vai para o dativo: Er unterstellt mir …"
       ],
       "important": [
-        "unterstellen ir emocionāli negatīvs — nepamatota apsūdzība.",
-        "Nepareizi: Wir unterstellen Grundkenntnisse. → Pareizi: Wir setzen Grundkenntnisse voraus.",
-        "unterstellen → pārmest, piedēvēt."
+        "O unterstellen inseparável (atribuir, subordinar) não é o mesmo que o unterstellen separável (pôr ao abrigo, abrigar-se)."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "unterstellen"
+            "unterstellen",
+            "unterstellt",
+            "unterstellte"
           ],
           "purple": [
-            "Galvenā",
-            "piedēvēt bez pamata"
-          ],
-          "red": [
-            "Galvenā"
+            "atribuir",
+            "subordinar",
+            "acusação"
           ]
         },
         "examples": [
@@ -4416,29 +6248,26 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "pārmet"
+                "atribui-me"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "unterstellen",
-                "unterstellen"
+                "unterstelle"
               ]
-            },
-            "lv": {}
+            }
           },
           {
             "de": {
               "blue": [
-                "unterstellen",
-                "unterstellen"
+                "unterstellte"
               ]
             },
             "lv": {
               "purple": [
-                "pārmest"
+                "Insinuaram"
               ]
             }
           },
@@ -4450,27 +6279,61 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "pārmest"
+                "subordinado"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "vorwerfen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "censurar"
               ]
             }
           },
           {
-            "de": {
-              "blue": [
-                "unterstellen",
-                "unterstellen"
+            "word": {
+              "green": [
+                "beschuldigen"
               ]
             },
-            "lv": {}
+            "meaning": {
+              "purple": [
+                "acusar"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "behaupten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "afirmar"
+              ]
+            }
           }
         ],
         "tip": [
           {
-            "purple": [
-              "pārmest"
+            "blue": [
+              "unterstellen"
             ]
           },
-          {}
+          {
+            "blue": [
+              "unterstellen",
+              "unterstellt"
+            ]
+          }
         ],
         "important": [
           {
@@ -4484,64 +6347,184 @@ const C1_WORDS = [
   },
   {
     "de": "voraussetzen",
-    "lv": "Pieņemt kā priekšnoteikumu",
+    "lv": "pressupor • partir do princípio",
     "level": "C1",
     "study": {
       "id": "c1-voraussetzen",
       "layout": "standardStudy",
-      "translation": "Pieņemt kā priekšnoteikumu",
+      "translation": "pressupor • partir do princípio",
       "explanation": [
-        "Galvenā doma: Uzskatīt, ka kaut kas jau ir zināms vai pastāv kā pamats.",
-        "Voraussetzen galvenokārt nozīmē: uzskatīt par pamatu.",
-        "Bieži raksturo: loģisks priekšnosacījums.",
-        "Etwas voraussetzen nozīmē uzskatīt par pašsaprotamu priekšnoteikumu, kas jau pastāv."
+        "Ideia principal: voraussetzen significa pressupor algo como conhecido ou evidente, ou então exigir algo como pré-requisito: Der Kurs setzt gute Kenntnisse voraus.",
+        "Verbo separável: er setzt voraus, setzte voraus, hat vorausgesetzt. O que se pressupõe ou exige vai para o acusativo. O substantivo é die Voraussetzung (pré-requisito).",
+        "O particípio vorausgesetzt seguido de vírgula significa desde que, na condição de que: Vorausgesetzt, es regnet nicht, grillen wir."
       ],
       "examples": [
         {
-          "de": "Wir setzen Grundkenntnisse voraus.",
-          "lv": "Mēs pieņemam pamatzināšanas kā priekšnoteikumu."
+          "de": "Der Kurs setzt gute Deutschkenntnisse voraus.",
+          "lv": "O curso pressupõe bons conhecimentos de alemão."
         },
         {
-          "de": "Wir setzen Grundkenntnisse voraus.",
-          "lv": "Mēs pieņemam pamatzināšanas kā priekšnoteikumu."
+          "de": "Ich habe vorausgesetzt, dass du Bescheid weißt.",
+          "lv": "Parti do princípio de que estavas informado."
+        },
+        {
+          "de": "Diese Stelle setzt ein Studium voraus.",
+          "lv": "Este posto de trabalho exige um curso superior como pré-requisito."
+        },
+        {
+          "de": "Vorausgesetzt, es regnet nicht, grillen wir.",
+          "lv": "Desde que não chova, fazemos churrasco."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "erfordern",
+          "meaning": "exigir, ser necessário",
+          "example": "Die Aufgabe erfordert Geduld. – A tarefa exige paciência."
+        },
+        {
+          "word": "annehmen",
+          "meaning": "supor, considerar",
+          "example": "Ich nehme an, dass er kommt. – Suponho que ele vem."
+        },
+        {
+          "word": "die Voraussetzung",
+          "meaning": "pré-requisito, condição",
+          "example": "Das ist keine Voraussetzung. – Isso não é um pré-requisito."
         }
       ],
       "tip": [
-        "voraussetzen = pieņemt priekšnoteikumu",
-        "Izmanto voraussetzen, kad konteksts atbilst šai nozīmei."
+        "Lembra-te da separação: Das setzt Mühe voraus, mas …, weil das Mühe voraussetzt.",
+        "Combinação frequente: etwas als bekannt voraussetzen."
       ],
       "important": [
-        "voraussetzen ir neitrāls — priekšnosacījums.",
-        "voraussetzen → pieņemt kā pamatu.",
-        "Uzskatīt, ka kaut kas jau ir zināms vai pastāv kā pamats."
+        "O particípio passado é vorausgesetzt — o ge- coloca-se entre voraus e setzt."
       ],
       "sectionAccents": {
         "explanation": {
-          "green": [
+          "blue": [
             "voraussetzen",
-            "voraus"
+            "setzt voraus",
+            "setzte voraus",
+            "vorausgesetzt",
+            "Voraussetzung",
+            "setzt",
+            "setzte",
+            "Vorausgesetzt"
           ],
           "purple": [
-            "priekšnoteikumu"
+            "pressupor",
+            "pré-requisito"
+          ],
+          "green": [
+            "die Voraussetzung"
           ]
         },
         "examples": [
           {
-            "de": {},
-            "lv": {}
+            "de": {
+              "blue": [
+                "setzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pressupõe"
+              ]
+            }
           },
           {
-            "de": {},
-            "lv": {}
+            "de": {
+              "blue": [
+                "vorausgesetzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Parti do princípio"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "setzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pré-requisito"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Vorausgesetzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Desde que"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "erfordern"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "exigir"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "annehmen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "supor"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Voraussetzung"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "pré-requisito"
+              ]
+            }
           }
         ],
         "tip": [
-          {}
+          {
+            "blue": [
+              "setzt"
+            ]
+          },
+          {
+            "blue": [
+              "voraussetzen"
+            ]
+          }
         ],
         "important": [
           {
-            "green": [
-              "voraussetzen"
+            "blue": [
+              "vorausgesetzt",
+              "setzt"
             ]
           }
         ]
@@ -4550,121 +6533,190 @@ const C1_WORDS = [
   },
   {
     "de": "bewahren",
-    "lv": "Pasargat • Saglabat",
+    "lv": "proteger • preservar • conservar",
     "level": "C1",
     "study": {
       "id": "c1-bewahren",
       "layout": "standardStudy",
-      "translation": "Pasargat • Saglabat",
+      "translation": "proteger • preservar • conservar",
       "explanation": [
-        "Galvenā doma: Aizsargāt no zuduma, bojājuma vai iznīcināšanas — vērtību, tradīciju, mieru.",
-        "Bewahren galvenokārt nozīmē: aizsargāt no zuduma.",
-        "Bieži raksturo: vērtību saglabāšana.",
-        "Bewahren nozīmē Pasagāt no bojājuma, zuduma vai izmaiņām."
+        "Ideia principal: bewahren significa proteger de algo mau (jemanden vor etwas bewahren) e preservar algo valioso ou inalterado (Ruhe, Traditionen, Erinnerungen).",
+        "Verbo regular: er bewahrt, bewahrte, hat bewahrt. Proteção: bewahren vor + dativo (quem? de quê?). Preservação: acusativo — die Ruhe bewahren. Guardar um segredo: ein Geheimnis bewahren.",
+        "A palavra pertence a um registo mais elevado do que behalten (ficar com) ou aufheben (guardar)."
       ],
       "examples": [
         {
-          "de": "Wir bewahren die Traditionen.",
-          "lv": "Mēs saglabājam tradīcijas."
+          "de": "Bitte bewahren Sie Ruhe!",
+          "lv": "Por favor, mantenha a calma!"
         },
         {
-          "de": "Sie bewahren die Ruhe in der Krise.",
-          "lv": "Viņi saglabā mieru krīzē."
+          "de": "Der Helm hat ihn vor Schlimmerem bewahrt.",
+          "lv": "O capacete protegeu-o de algo pior."
         },
         {
-          "de": "Wir bewahren die Traditionen.",
-          "lv": "Mēs saglabājam tradīcijas."
+          "de": "Er bewahrte das Geheimnis jahrelang.",
+          "lv": "Ele guardou o segredo durante anos."
         },
         {
-          "de": "bewahren",
-          "lv": "Pasargāt/saglabāt • Aufrechterhalten"
+          "de": "Wir wollen diese Tradition bewahren.",
+          "lv": "Queremos preservar esta tradição."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "aufbewahren",
+          "meaning": "guardar, conservar",
+          "example": "Bewahre die Quittung auf! – Guarda o recibo!"
+        },
+        {
+          "word": "schützen",
+          "meaning": "proteger",
+          "example": "Der Zaun schützt vor dem Wind. – A vedação protege do vento."
+        },
+        {
+          "word": "behalten",
+          "meaning": "ficar com",
+          "example": "Du kannst das Buch behalten. – Podes ficar com o livro."
         }
       ],
       "tip": [
-        "bewahren = pasargāt",
-        "Izmanto bewahren, kad konteksts atbilst šai nozīmei."
+        "Memoriza a expressão fixa: Ruhe bewahren — manter a calma.",
+        "Proteger de algo: bewahren vor + dativo (vor Schaden, vor Gefahr)."
       ],
       "important": [
-        "bewahren: Wertvolles bewahren — pasargāt vērtīgo.",
-        "Nepareizi: Wir bewahren den Frieden auf. → Pareizi: Wir erhalten den Frieden auf.",
-        "bewahren → aizsargāt, saglabāt."
+        "Bewahren não é o mesmo que aufbewahren: este último é guardar fisicamente, bewahren — preservar ou proteger.",
+        "O particípio passado é bewahrt (sem ge-)."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "bewahren"
+            "bewahren",
+            "bewahrt",
+            "bewahrte",
+            "behalten",
+            "vor",
+            "Ruhe bewahren"
           ],
           "purple": [
-            "Aizsargāt"
+            "proteger",
+            "preservar",
+            "guardar"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "bewahren",
                 "bewahren"
               ]
             },
             "lv": {
               "purple": [
-                "saglabājam"
+                "mantenha"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "bewahren",
-                "bewahren"
+                "bewahrt"
               ]
             },
             "lv": {
               "purple": [
-                "saglabā"
+                "protegeu-o"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "bewahren",
-                "bewahren"
+                "bewahrte"
               ]
             },
             "lv": {
               "purple": [
-                "saglabājam"
+                "guardou"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "bewahren",
                 "bewahren"
               ]
             },
             "lv": {
               "purple": [
-                "pasargāt",
-                "saglabāt"
+                "preservar"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "aufbewahren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "guardar"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "schützen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "proteger"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "behalten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ficar"
               ]
             }
           }
         ],
         "tip": [
           {
-            "purple": [
-              "pasargāt"
+            "blue": [
+              "bewahren",
+              "Ruhe bewahren"
             ]
           },
-          {}
+          {
+            "blue": [
+              "bewahren",
+              "vor"
+            ]
+          }
         ],
         "important": [
           {
             "blue": [
               "bewahren"
+            ],
+            "green": [
+              "aufbewahren"
+            ]
+          },
+          {
+            "blue": [
+              "bewahrt"
             ]
           }
         ]
@@ -4673,78 +6725,180 @@ const C1_WORDS = [
   },
   {
     "de": "aufrechterhalten",
-    "lv": "Uzturēt spēkā",
+    "lv": "manter • manter em vigor",
     "level": "C1",
     "study": {
       "id": "c1-aufrechterhalten",
       "layout": "standardStudy",
-      "translation": "Uzturēt spēkā",
+      "translation": "manter • manter em vigor",
       "explanation": [
-        "Galvenā tama: Nodrošināt, ka kāds stāvoklis, kārtība vai attiecības turpinās pastāvēt.",
-        "Aufrechterhalten galvenokārt nozīmē: nodrošināt turpināšanos.",
-        "Bieži raksturo: stāvokļa uzturēšana.",
-        "Aufrechterhalten nozīmē uzturēt kādu stāvokli, sistēmu vai attiecību spēkā — nodrošināt turpināšanos."
+        "Ideia principal: aufrechterhalten significa manter, não deixar perder: conservar algo em vigor ou em funcionamento (a ordem, um contacto, uma afirmação, uma oferta).",
+        "Verbo separável: er erhält aufrecht, erhielt aufrecht, hat aufrechterhalten. O que se mantém vai para o acusativo. Com zu + infinitivo: aufrechtzuerhalten.",
+        "Muito frequente com Ordnung, Kontakt, Verbindung, Behauptung, Forderung."
       ],
       "examples": [
         {
-          "de": "Der Staat erhält die Ordnung auf.",
-          "lv": "Valsts uztur kārtību spēkā."
+          "de": "Der Staat erhält die Ordnung aufrecht.",
+          "lv": "O Estado mantém a ordem."
         },
         {
-          "de": "Man muss den Betrieb aufrechterhalten.",
-          "lv": "Jāuztur darbība spēkā."
+          "de": "Sie haben den Kontakt über Jahre aufrechterhalten.",
+          "lv": "Mantiveram o contacto durante anos."
         },
         {
-          "de": "Der Staat erhält die Ordnung auf.",
-          "lv": "Valsts uztur kārtību spēkā."
+          "de": "Wir können dieses Angebot nicht länger aufrechterhalten.",
+          "lv": "Já não podemos manter esta oferta."
+        },
+        {
+          "de": "Er erhielt seine Behauptung aufrecht.",
+          "lv": "Ele manteve a sua afirmação."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "erhalten",
+          "meaning": "conservar",
+          "example": "Wir erhalten das Gebäude. – Conservamos o edifício."
+        },
+        {
+          "word": "beibehalten",
+          "meaning": "manter sem alterar",
+          "example": "Wir behalten den Plan bei. – Mantemos o plano."
+        },
+        {
+          "word": "pflegen",
+          "meaning": "cultivar, manter",
+          "example": "Sie pflegt Kontakte. – Ela cultiva contactos."
         }
       ],
       "tip": [
-        "aufrechterhalten = uzturēt spēkā",
-        "Izmanto aufrechterhalten, kad konteksts atbilst šai nozīmei."
+        "Lembra-te da separação: Er erhält die Ordnung aufrecht, mas …, dass er die Ordnung aufrechterhält.",
+        "Para um contacto diz-se: den Kontakt aufrechterhalten (ou pflegen)."
       ],
       "important": [
-        "aufrechterhalten: Ordnung/Frieden/Stabilität aufrechterhalten.",
-        "aufrechterhalten → uzturēt spēkā.",
-        "Nodrošināt, ka kāds stāvoklis, kārtība vai attiecības turpinās pastāvēt."
+        "No pretérito perfeito composto, aufrechterhalten é uma só palavra, sem ge-: hat aufrechterhalten."
       ],
       "sectionAccents": {
         "explanation": {
-          "green": [
+          "blue": [
             "aufrechterhalten",
+            "erhält aufrecht",
+            "erhielt aufrecht",
+            "aufrechtzuerhalten",
             "erhält",
-            "auf"
+            "erhielt"
+          ],
+          "purple": [
+            "manter",
+            "conservar"
           ]
         },
         "examples": [
           {
-            "de": {},
-            "lv": {}
+            "de": {
+              "blue": [
+                "erhält"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "mantém"
+              ]
+            }
           },
           {
             "de": {
-              "green": [
-                "aufrechterhalten",
+              "blue": [
                 "aufrechterhalten"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Mantiveram"
+              ]
+            }
           },
           {
-            "de": {},
-            "lv": {}
+            "de": {
+              "blue": [
+                "aufrechterhalten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "manter"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "erhielt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "manteve"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "erhalten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "conservar"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "beibehalten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "sem alterar"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "pflegen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "cultivar"
+              ]
+            }
           }
         ],
         "tip": [
           {
-            "purple": [
-              "uzturēt spēkā"
+            "blue": [
+              "erhält"
+            ]
+          },
+          {
+            "blue": [
+              "aufrechterhalten"
+            ],
+            "green": [
+              "pflegen"
             ]
           }
         ],
         "important": [
           {
-            "green": [
+            "blue": [
               "aufrechterhalten"
             ]
           }
@@ -4756,49 +6910,49 @@ const C1_WORDS = [
     "de": "Hektar",
     "de_article": "der",
     "de_plural": "die Hektar",
-    "lv": "Hektārs",
+    "lv": "hectare",
     "level": "C1"
   },
   {
     "de": "Karre",
     "de_article": "die",
     "de_plural": "die Karren",
-    "lv": "Kruiwagen",
+    "lv": "carrinho de mão • carroça",
     "level": "C1"
   },
   {
     "de": "Karren",
     "de_article": "der",
     "de_plural": "die Karren",
-    "lv": "Kruiwagen",
+    "lv": "carrinho de mão • carroça",
     "level": "C1"
   },
   {
     "de": "Krüppel",
     "de_article": "der",
     "de_plural": "die Krüppel",
-    "lv": "Kroplis",
+    "lv": "aleijado",
     "level": "C1"
   },
   {
     "de": "Matsch",
     "de_article": "der",
     "de_plural": "die Matsche",
-    "lv": "Dubļi • Šļaka",
+    "lv": "lama • neve derretida",
     "level": "C1"
   },
   {
     "de": "Panter",
     "de_article": "der",
     "de_plural": "die Panter",
-    "lv": "Pantera",
+    "lv": "pantera",
     "level": "C1"
   },
   {
     "de": "Panther",
     "de_article": "der",
     "de_plural": "die Panther",
-    "lv": "Pantera",
+    "lv": "pantera",
     "level": "C1"
   }
 ];
