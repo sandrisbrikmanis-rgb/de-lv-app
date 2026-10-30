@@ -3,1344 +3,1974 @@ const C1_WORDS = [
     "de": "Wahrnehmung",
     "de_article": "die",
     "de_plural": "die Wahrnehmungen",
-    "lv": "Postrzeganie",
+    "lv": "perceptim",
     "level": "C1"
   },
   {
     "de": "gewährleisten",
-    "lv": "Sağlamak için",
+    "lv": "siguroj • garantoj",
     "level": "C1"
   },
   {
     "de": "Auswirkung",
     "de_article": "die",
     "de_plural": "die Auswirkungen",
-    "lv": "Etkilemek",
+    "lv": "pasojë • ndikim",
     "level": "C1"
   },
   {
     "de": "umstritten",
-    "lv": "Sprzeczny",
+    "lv": "i diskutueshëm • i kontestuar",
     "level": "C1"
   },
   {
     "de": "Stellungnahme",
     "de_article": "die",
     "de_plural": "die Stellungnahmen",
-    "lv": "Resmi Açıklama • Görüş beyanı",
+    "lv": "deklaratë zyrtare • qëndrim",
     "level": "C1"
   },
   {
     "de": "nachvollziehen",
-    "lv": "Anlayın • Mantığı takip edin",
+    "lv": "kuptoj",
     "level": "C1"
   },
   {
     "de": "ausschlaggebend",
-    "lv": "Belirleyici",
+    "lv": "vendimtar",
     "level": "C1"
   },
   {
     "de": "Belastbarkeit",
     "de_article": "die",
     "de_plural": "die Belastbarkeiten",
-    "lv": "Strese karşı direnç • Strese karşı direnç",
+    "lv": "qëndrueshmëri ndaj stresit • aftësi mbajtëse",
     "level": "C1"
   },
   {
     "de": "akkreditieren",
-    "lv": "Akreditasyon",
+    "lv": "akreditoj",
     "level": "C1"
   },
   {
     "de": "Aktiengesellschaft",
     "de_article": "die",
     "de_plural": "die Aktiengesellschaften",
-    "lv": "Spółka akcyjna",
+    "lv": "shoqëri aksionare",
     "level": "C1"
   },
   {
     "de": "Aktionsprogramm",
     "de_article": "das",
     "de_plural": "die Aktionsprogramme",
-    "lv": "Etkinlik programı",
+    "lv": "program veprimi",
     "level": "C1"
   },
   {
     "de": "Alarmbereitschaft",
     "de_article": "die",
     "de_plural": "die Alarmbereitschaften",
-    "lv": "Acil duruma hazırlık",
+    "lv": "gatishmëri alarmi",
     "level": "C1"
   },
   {
     "de": "Altweibersommer",
     "de_article": "der",
     "de_plural": "die Altweibersommer",
-    "lv": "Pranverë.",
+    "lv": "verë e vonë",
     "level": "C1"
   },
   {
     "de": "anfechten",
-    "lv": "Anlaşmazlık • Soru",
+    "lv": "kontestoj • vë në dyshim",
     "level": "C1"
   },
   {
     "de": "allerseits",
-    "lv": "Ze wszystkich stron",
+    "lv": "nga të gjitha anët",
     "level": "C1"
   },
   {
     "de": "anderweitig",
-    "lv": "Gdzie indziej • Inaczej",
+    "lv": "gjetiu • ndryshe",
     "level": "C1"
   },
   {
     "de": "Abrüstungsabkommen",
     "de_article": "das",
     "de_plural": "die Abrüstungsabkommen",
-    "lv": "Traktat rozbrojeniowy",
+    "lv": "marrëveshje çarmatimi",
     "level": "C1"
   },
   {
     "de": "Abrüstungsverhandlungen",
     "de_article": "die",
     "de_plural": "die Abrüstungsverhandlungen",
-    "lv": "Rozmowy o rozbrojeniu",
+    "lv": "bisedime çarmatimi",
     "level": "C1"
   },
   {
     "de": "Aal",
     "de_article": "der",
     "de_plural": "die Aale",
-    "lv": "Yılanbalığı",
+    "lv": "ngjalë",
     "level": "C1"
   },
   {
     "de": "Abart",
     "de_article": "die",
     "de_plural": "die Abarten",
-    "lv": "Odchylenie • Aberracja",
+    "lv": "varietet • shmangie",
     "level": "C1"
   },
   {
     "de": "abstumpfen",
-    "lv": "Donuk • Duyarsız hale getirmek",
+    "lv": "mpij • bëj të pandjeshëm",
     "level": "C1"
   },
   {
     "de": "Abtreibung",
     "de_article": "die",
     "de_plural": "die Abtreibungen",
-    "lv": "Poronienie",
+    "lv": "abort",
     "level": "C1"
   },
   {
     "de": "Affekt",
     "de_article": "der",
     "de_plural": "die Affekte",
-    "lv": "Wybuch emocji",
+    "lv": "shpërthim emocional • afekt",
     "level": "C1"
   },
   {
     "de": "ächten",
-    "lv": "Dışlanma • Sosyal dışlanma",
+    "lv": "përjashtoj nga shoqëria",
     "level": "C1"
   },
   {
     "de": "Flottenstützpunkt",
     "de_article": "der",
     "de_plural": "die Flottenstützpunkte",
-    "lv": "Baza morska",
+    "lv": "bazë detare",
     "level": "C1"
   },
   {
     "de": "Flugwetter",
     "de_article": "das",
-    "lv": "Warunki pogodowe do latania",
+    "lv": "mot për fluturim",
     "level": "C1"
   },
   {
     "de": "Frachtbrief",
     "de_article": "der",
     "de_plural": "die Frachtbriefe",
-    "lv": "Kargo irsaliyesi",
+    "lv": "fletëngarkesë",
     "level": "C1"
   },
   {
     "de": "Frachtgeld",
     "de_article": "das",
     "de_plural": "die Frachtgelder",
-    "lv": "Navlun ücretleri",
+    "lv": "tarifë transporti",
     "level": "C1"
   },
   {
     "de": "Frauenrechtlerin",
     "de_article": "die",
     "de_plural": "die Frauenrechtlerinnen",
-    "lv": "Kadınların eşitliği için bir savaşçı",
+    "lv": "feministe • luftëtare për të drejtat e grave",
     "level": "C1"
   },
   {
     "de": "Freikörperkultur",
     "de_article": "die",
     "de_plural": "die Freikörperkulturen",
-    "lv": "Nudyzm",
+    "lv": "nudizëm",
     "level": "C1"
   },
   {
     "de": "Kinderschänder",
     "de_article": "der",
     "de_plural": "die Kinderschänder",
-    "lv": "Pedofil",
+    "lv": "pedofil • abuzues fëmijësh",
     "level": "C1"
   },
   {
     "de": "Kindesmisshandlung",
     "de_article": "die",
     "de_plural": "die Kindesmisshandlungen",
-    "lv": "Przemoc wobec dzieci",
+    "lv": "dhunë ndaj fëmijëve • keqtrajtim i fëmijëve",
     "level": "C1"
   },
   {
     "de": "Zivilgesetzbuch",
     "de_article": "das",
     "de_plural": "die Zivilgesetzbücher",
-    "lv": "Prawo cywilne",
+    "lv": "kod civil",
     "level": "C1"
   },
   {
     "de": "Aktie",
     "de_article": "die",
     "de_plural": "die Aktien",
-    "lv": "Aksiyon",
+    "lv": "aksion",
     "level": "C1"
   },
   {
     "de": "Abenddämmerung",
     "de_article": "die",
     "de_plural": "die Abenddämmerungen",
-    "lv": "Wieczorny zmierzch",
+    "lv": "muzg",
     "level": "C1"
   },
   {
     "de": "Anwalt",
     "de_article": "der",
     "de_plural": "die Anwälte",
-    "lv": "Prawnik",
+    "lv": "avokat",
     "level": "C1"
   },
   {
     "de": "außergewöhnlich",
-    "lv": "Aşırı boyutta",
+    "lv": "i pazakontë • i jashtëzakonshëm",
     "level": "C1"
   },
   {
     "de": "außerordentlich",
-    "lv": "Nadzwyczajny",
+    "lv": "i jashtëzakonshëm",
     "level": "C1"
   },
   {
     "de": "Autokennzeichen",
     "de_article": "das",
     "de_plural": "die Autokennzeichen",
-    "lv": "Litery i cyfry na tablicy rejestracyjnej samochodu",
+    "lv": "targë makine",
     "level": "C1"
   },
   {
     "de": "Bäckerhandwerk",
     "de_article": "das",
     "de_plural": "die Bäckerhandwerke",
-    "lv": "Praca piekarza",
+    "lv": "zanat i bukëpjekësit",
     "level": "C1"
   },
   {
     "de": "bekannt geben",
-    "lv": "Duyur",
+    "lv": "njoftoj • shpall",
     "level": "C1"
   },
   {
     "de": "Bergwanderung",
     "de_article": "die",
     "de_plural": "die Bergwanderungen",
-    "lv": "Dağ turizmi",
+    "lv": "ecje në mal • shëtitje malore",
     "level": "C1"
   },
   {
     "de": "beschäftigen",
-    "lv": "Çalıştır",
+    "lv": "punësoj",
     "level": "C1"
   },
   {
     "de": "sich beschäftigen",
-    "lv": "Işgal",
+    "lv": "merrem",
     "level": "C1"
   },
   {
     "de": "Beschäftigung",
     "de_article": "die",
     "de_plural": "die Beschäftigungen",
-    "lv": "Meslek",
+    "lv": "punë • veprimtari",
     "level": "C1"
   },
   {
     "de": "beschleunigen",
-    "lv": "Hızlanmak",
+    "lv": "përshpejtoj",
     "level": "C1"
   },
   {
     "de": "Besichtigung",
     "de_article": "die",
     "de_plural": "die Besichtigungen",
-    "lv": "Kontrola",
+    "lv": "vizitë • inspektim",
     "level": "C1"
   },
   {
     "de": "beurteilen",
-    "lv": "Değerlendirmek",
+    "lv": "vlerësoj • gjykoj",
     "level": "C1"
   },
   {
     "de": "Autobahnbrücke",
     "de_article": "die",
     "de_plural": "die Autobahnbrücken",
-    "lv": "Wiadukt drogowy",
+    "lv": "urë autostrade • mbikalim",
     "level": "C1"
   },
   {
     "de": "Eisenbahnbrücke",
     "de_article": "die",
     "de_plural": "die Eisenbahnbrücken",
-    "lv": "Most kolejowy",
+    "lv": "urë hekurudhore",
     "level": "C1"
   },
   {
     "de": "Dampfbügeleisen",
     "de_article": "das",
     "de_plural": "die Dampfbügeleisen",
-    "lv": "Żelazko parowe",
+    "lv": "hekur me avull",
     "level": "C1"
   },
   {
     "de": "Büroangestellte",
     "de_article": "der",
-    "lv": "Pracownik biurowy",
+    "lv": "nëpunës zyre",
     "level": "C1"
   },
   {
     "de": "charakteristisch",
-    "lv": "Charakterystyczny",
+    "lv": "karakteristik • tipik",
     "level": "C1"
   },
   {
     "de": "Diplomat",
     "de_article": "der",
     "de_plural": "die Diplomaten",
-    "lv": "Dyplomata",
+    "lv": "diplomat",
     "level": "C1"
   },
   {
     "de": "Dokumentarfilm",
     "de_article": "der",
     "de_plural": "die Dokumentarfilme",
-    "lv": "Film dokumentalny",
+    "lv": "film dokumentar",
     "level": "C1"
   },
   {
     "de": "durchschnittlich",
-    "lv": "Średnio",
+    "lv": "mesatarisht • mesatar",
     "level": "C1"
   },
   {
     "de": "durchstreichen",
-    "lv": "Üzerini çiz",
+    "lv": "fshij me vizë",
     "level": "C1"
   },
   {
     "de": "Einfamilienhaus",
     "de_article": "das",
     "de_plural": "die Einfamilienhäuser",
-    "lv": "Dom jednorodzinny",
+    "lv": "shtëpi për një familje",
     "level": "C1",
     "study": {
       "id": "c1-einfamilienhaus",
       "layout": "standardStudy",
-      "translation": "Dom jednorodzinny",
-      "explanation": "Ana fikir: das Einfamilienhaus bir aileye ait bir evdir. Bu genellikle bir apartman binası değil, tek ailelik bir ev anlamına gelir.",
-      "examples": [
-        {
-          "de": "Sie wohnen in einem Einfamilienhaus.",
-          "lv": "Tek aileli bir evde yaşıyorlar."
-        },
-        {
-          "de": "Das Einfamilienhaus hat einen Garten.",
-          "lv": "Tek aileli evin bir bahçesi vardır."
-        },
-        {
-          "de": "Nebenan steht ein Mehrfamilienhaus.",
-          "lv": "Yan tarafta bir apartman var."
-        }
-      ]
-    }
-  },
-  {
-    "de": "Eisenbahnfahrt",
-    "de_article": "die",
-    "de_plural": "die Eisenbahnfahrten",
-    "lv": "Podróż pociągiem",
-    "level": "C1"
-  },
-  {
-    "de": "Eisenbahnstation",
-    "de_article": "die",
-    "de_plural": "die Eisenbahnstationen",
-    "lv": "Tren istasyonu",
-    "level": "C1"
-  },
-  {
-    "de": "ekelhaft",
-    "lv": "Obrzydliwe",
-    "level": "C1"
-  },
-  {
-    "de": "Energieverbrauch",
-    "de_article": "der",
-    "de_plural": "die Energieverbräuche",
-    "lv": "Enerji tüketimi",
-    "level": "C1"
-  },
-  {
-    "de": "Gartenerdbeere",
-    "de_article": "die",
-    "de_plural": "die Gartenerdbeeren",
-    "lv": "Truskawka ogrodowa",
-    "level": "C1"
-  },
-  {
-    "de": "erforderlich",
-    "lv": "Gerekli",
-    "level": "C1"
-  },
-  {
-    "de": "fabelhaft",
-    "lv": "Mükemmel",
-    "level": "C1"
-  },
-  {
-    "de": "fehlerhaft",
-    "lv": "\"agoraphobia.\" Saktë?",
-    "level": "C1"
-  },
-  {
-    "de": "folgendermaßen",
-    "lv": "Aşağıdaki gibi",
-    "level": "C1"
-  },
-  {
-    "de": "Geburtsschein",
-    "de_article": "der",
-    "de_plural": "die Geburtsscheine",
-    "lv": "Akt urodzenia",
-    "level": "C1"
-  },
-  {
-    "de": "gegeneinander",
-    "lv": "Przeciwko sobie",
-    "level": "C1"
-  },
-  {
-    "de": "Gemüsegarten",
-    "de_article": "der",
-    "de_plural": "die Gemüsegärten",
-    "lv": "Sebze bahçesi",
-    "level": "C1"
-  },
-  {
-    "de": "Gepäckträger",
-    "de_article": "der",
-    "de_plural": "die Gepäckträger",
-    "lv": "Për ty.",
-    "level": "C1"
-  },
-  {
-    "de": "geschäftlich",
-    "lv": "Transakcja",
-    "level": "C1"
-  },
-  {
-    "de": "Geschäftsmann",
-    "de_article": "der",
-    "de_plural": "die Geschäftsleute",
-    "lv": "Girişimci",
-    "level": "C1"
-  },
-  {
-    "de": "geschichtlich",
-    "lv": "Historyczny",
-    "level": "C1"
-  },
-  {
-    "de": "geschmacklos",
-    "lv": "Bez smaku",
-    "level": "C1"
-  },
-  {
-    "de": "geschmackvoll",
-    "lv": "Gustowny",
-    "level": "C1"
-  },
-  {
-    "de": "gesetzlich",
-    "lv": "Prawny",
-    "level": "C1"
-  },
-  {
-    "de": "Gesichtspunkt",
-    "de_article": "der",
-    "de_plural": "die Gesichtspunkte",
-    "lv": "Fikir",
-    "level": "C1"
-  },
-  {
-    "de": "Gewichtheben",
-    "de_article": "das",
-    "lv": "Halter",
-    "level": "C1"
-  },
-  {
-    "de": "gewissenhaft",
-    "lv": "Sumienny",
-    "level": "C1"
-  },
-  {
-    "de": "Gipfel",
-    "de_article": "der",
-    "de_plural": "die Gipfel",
-    "lv": "Szczyt",
-    "level": "C1"
-  },
-  {
-    "de": "Hausangestellte",
-    "de_article": "die",
-    "lv": "Gosposia",
-    "level": "C1"
-  },
-  {
-    "de": "hinaufklettern",
-    "lv": "Tırmanmak",
-    "level": "C1"
-  },
-  {
-    "de": "hintereinander",
-    "lv": "Jeden za drugim",
-    "level": "C1"
-  },
-  {
-    "de": "Hochzeitsbrauch",
-    "de_article": "der",
-    "de_plural": "die Hochzeitsbräuche",
-    "lv": "Düğün özel",
-    "level": "C1"
-  },
-  {
-    "de": "Hochzeitsfeier",
-    "de_article": "die",
-    "de_plural": "die Hochzeitsfeiern",
-    "lv": "Düğün kutlaması",
-    "level": "C1"
-  },
-  {
-    "de": "Hochzeitsreise",
-    "de_article": "die",
-    "de_plural": "die Hochzeitsreisen",
-    "lv": "Miesiąc miodowy",
-    "level": "C1"
-  },
-  {
-    "de": "identifizieren",
-    "lv": "Tanımlamak",
-    "level": "C1"
-  },
-  {
-    "de": "Inflationsrate",
-    "de_article": "die",
-    "de_plural": "die Inflationsraten",
-    "lv": "Stopa inflacji",
-    "level": "C1"
-  },
-  {
-    "de": "Schlaginstrument",
-    "de_article": "das",
-    "de_plural": "die Schlaginstrumente",
-    "lv": "Instrument perkusyjny",
-    "level": "C1"
-  },
-  {
-    "de": "Tasteninstrument",
-    "de_article": "das",
-    "de_plural": "die Tasteninstrumente",
-    "lv": "Klavye",
-    "level": "C1"
-  },
-  {
-    "de": "Jahreseinkommen",
-    "de_article": "das",
-    "de_plural": "die Jahreseinkommen",
-    "lv": "Yıllık gelir",
-    "level": "C1"
-  },
-  {
-    "de": "Kabelanschluss",
-    "de_article": "der",
-    "de_plural": "die Kabelanschlüsse",
-    "lv": "Kablo TV bağlantısı",
-    "level": "C1"
-  },
-  {
-    "de": "Kabelfernsehen",
-    "de_article": "das",
-    "lv": "Telewizja kablowa",
-    "level": "C1"
-  },
-  {
-    "de": "Kaltwasserhahn",
-    "de_article": "der",
-    "de_plural": "die Kaltwasserhähne",
-    "lv": "Soğuk su musluğu",
-    "level": "C1"
-  },
-  {
-    "de": "Pressekampagne",
-    "de_article": "die",
-    "de_plural": "die Pressekampagnen",
-    "lv": "Basın kampanyası",
-    "level": "C1"
-  },
-  {
-    "de": "Kandidatenliste",
-    "de_article": "die",
-    "de_plural": "die Kandidatenlisten",
-    "lv": "Aday listesi",
-    "level": "C1"
-  },
-  {
-    "de": "Klage",
-    "de_article": "die",
-    "de_plural": "die Klagen",
-    "lv": "Yakınması",
-    "level": "C1"
-  },
-  {
-    "de": "klagen",
-    "lv": "Şikayet etmek",
-    "level": "C1"
-  },
-  {
-    "de": "Kostenanschlag",
-    "de_article": "der",
-    "de_plural": "die Kostenanschläge",
-    "lv": "Kosztorys wydatków",
-    "level": "C1"
-  },
-  {
-    "de": "krampfhaft",
-    "lv": "Konwulsyjny",
-    "level": "C1"
-  },
-  {
-    "de": "Krankheitsbild",
-    "de_article": "das",
-    "de_plural": "die Krankheitsbilder",
-    "lv": "Scena chorobowa",
-    "level": "C1"
-  },
-  {
-    "de": "Lastkraftwagen",
-    "de_article": "der",
-    "de_plural": "die Lastkraftwagen",
-    "lv": "Ağır araba",
-    "level": "C1"
-  },
-  {
-    "de": "lebhaft",
-    "lv": "Hayat dolu",
-    "level": "C1"
-  },
-  {
-    "de": "Leichtathletik",
-    "de_article": "die",
-    "lv": "Atletizm",
-    "level": "C1"
-  },
-  {
-    "de": "Mehrwertsteuer",
-    "de_article": "die",
-    "de_plural": "die Mehrwertsteuern",
-    "lv": "KDV",
-    "level": "C1"
-  },
-  {
-    "de": "Meinungsumfrage",
-    "de_article": "die",
-    "de_plural": "die Meinungsumfragen",
-    "lv": "Ankieta",
-    "level": "C1"
-  },
-  {
-    "de": "Menschenrechte",
-    "de_article": "die",
-    "lv": "İnsan hakları",
-    "level": "C1"
-  },
-  {
-    "de": "Ministerium",
-    "de_article": "das",
-    "de_plural": "die Ministerien",
-    "lv": "Ministerstwo",
-    "level": "C1"
-  },
-  {
-    "de": "Missverständnis",
-    "de_article": "das",
-    "de_plural": "die Missverständnisse",
-    "lv": "Nieporozumienie",
-    "level": "C1"
-  },
-  {
-    "de": "Modezeitschrift",
-    "de_article": "die",
-    "de_plural": "die Modezeitschriften",
-    "lv": "Magazyn o modzie",
-    "level": "C1"
-  },
-  {
-    "de": "Morgendämmerung",
-    "de_article": "die",
-    "de_plural": "die Morgendämmerungen",
-    "lv": "Świt",
-    "level": "C1"
-  },
-  {
-    "de": "Morgengymnastik",
-    "de_article": "die",
-    "de_plural": "die Morgengymnastiken",
-    "lv": "Świt",
-    "level": "C1"
-  },
-  {
-    "de": "nahrhaft",
-    "lv": "Besleyici",
-    "level": "C1"
-  },
-  {
-    "de": "Nationaltracht",
-    "de_article": "die",
-    "de_plural": "die Nationaltrachten",
-    "lv": "Ulusal kostüm",
-    "level": "C1"
-  },
-  {
-    "de": "Notar",
-    "de_article": "der",
-    "de_plural": "die Notare",
-    "lv": "Notariusz",
-    "level": "C1"
-  },
-  {
-    "de": "Notarzt",
-    "de_article": "der",
-    "de_plural": "die Notärzte",
-    "lv": "Lekarz pogotowia",
-    "level": "C1"
-  },
-  {
-    "de": "Öffentlichkeit",
-    "de_article": "die",
-    "de_plural": "die Öffentlichkeiten",
-    "lv": "Toplum • Açıklık",
-    "level": "C1",
-    "study": {
-      "id": "c1-offentlichkeit",
-      "layout": "standardStudy",
-      "translation": "Toplum • Açıklık",
-      "explanation": "Ana fikir: die Öffentlichkeit, kamusal alan olarak toplum veya bir bütün olarak insanlar anlamına gelir. An die Öffentlichkeit kommen cümlesinde açık havaya çıkmak anlamına gelir.",
-      "examples": [
-        {
-          "de": "Die Öffentlichkeit reagierte kritisch.",
-          "lv": "Kamuoyu eleştirel tepki gösterdi."
-        },
-        {
-          "de": "Der Fall kam an die Öffentlichkeit.",
-          "lv": "Dava gün yüzüne çıktı."
-        },
-        {
-          "de": "Die Öffentlichkeit hat ein Recht auf Information.",
-          "lv": "Kamunun bilgi edinme hakkı vardır."
-        }
-      ]
-    }
-  },
-  {
-    "de": "Parlament",
-    "de_article": "das",
-    "de_plural": "die Parlamente",
-    "lv": "Parlament",
-    "level": "C1"
-  },
-  {
-    "de": "Partei",
-    "de_article": "die",
-    "de_plural": "die Parteien",
-    "lv": "Impreza • Impreza",
-    "level": "C1",
-    "study": {
-      "id": "c1-partei",
-      "layout": "standardStudy",
-      "translation": "Impreza • Impreza",
-      "explanation": "Ana fikir: Partei genellikle siyasi bir partidir. Hukuk veya çatışma jargonunda taraf anlamına da gelebilir.",
-      "examples": [
-        {
-          "de": "Diese Partei gewann die Wahl.",
-          "lv": "Bu parti seçimleri kazandı."
-        },
-        {
-          "de": "Er ist seit Jahren Mitglied einer Partei.",
-          "lv": "Yıllardır partinin üyesi."
-        },
-        {
-          "de": "Beide Parteien müssen den Vertrag unterschreiben.",
-          "lv": "Her iki taraf da sözleşmeyi imzalamalıdır."
-        }
-      ]
-    }
-  },
-  {
-    "de": "Persönlichkeit",
-    "de_article": "die",
-    "de_plural": "die Persönlichkeiten",
-    "lv": "Kişilik",
-    "level": "C1"
-  },
-  {
-    "de": "Polizeieinheit",
-    "de_article": "die",
-    "de_plural": "die Polizeieinheiten",
-    "lv": "Jednostka policji",
-    "level": "C1"
-  },
-  {
-    "de": "Polizeistreife",
-    "de_article": "die",
-    "de_plural": "die Polizeistreifen",
-    "lv": "Patrol policyjny",
-    "level": "C1"
-  },
-  {
-    "de": "Pollenallergie",
-    "de_article": "die",
-    "de_plural": "die Pollenallergien",
-    "lv": "Polen alerjisi",
-    "level": "C1"
-  },
-  {
-    "de": "Polstergarnitur",
-    "de_article": "die",
-    "de_plural": "die Polstergarnituren",
-    "lv": "Komplet mebli tapicerowanych",
-    "level": "C1"
-  },
-  {
-    "de": "Premier",
-    "de_article": "der",
-    "de_plural": "die Premiers",
-    "lv": "Premier",
-    "level": "C1"
-  },
-  {
-    "de": "Prozess",
-    "de_article": "der",
-    "de_plural": "die Prozesse",
-    "lv": "Proces • Pozew",
-    "level": "C1",
-    "study": {
-      "id": "c1-prozess",
-      "layout": "standardStudy",
-      "translation": "Proces • Pozew",
-      "explanation": "Ana fikir: der Prozess bir süreç veya ilerlemedir. Mahkemede der Prozess yargılama anlamına gelir.",
-      "examples": [
-        {
-          "de": "Der Prozess dauert mehrere Monate.",
-          "lv": "Süreç birkaç ay sürüyor."
-        },
-        {
-          "de": "Der Prozess vor Gericht beginnt morgen.",
-          "lv": "Duruşma yarın başlıyor."
-        },
-        {
-          "de": "Wir verbessern den ganzen Prozess.",
-          "lv": "Tüm süreci kolaylaştırıyoruz."
-        }
-      ]
-    }
-  },
-  {
-    "de": "Prozessor",
-    "de_article": "der",
-    "de_plural": "die Prozessoren",
-    "lv": "Edytor",
-    "level": "C1"
-  },
-  {
-    "de": "Radioübertragung",
-    "de_article": "die",
-    "de_plural": "die Radioübertragungen",
-    "lv": "Audycja radiowa",
-    "level": "C1"
-  },
-  {
-    "de": "Rechtsanwalt",
-    "de_article": "der",
-    "de_plural": "die Rechtsanwälte",
-    "lv": "Prawnik",
-    "level": "C1"
-  },
-  {
-    "de": "Rekonstruktion",
-    "de_article": "die",
-    "de_plural": "die Rekonstruktionen",
-    "lv": "Rekonstrukcja",
-    "level": "C1"
-  },
-  {
-    "de": "Rennen mit Hindernissen",
-    "de_article": "das",
-    "de_plural": "die Rennen mit Hindernissen",
-    "lv": "Tor przeszkód",
-    "level": "C1"
-  },
-  {
-    "de": "Reparaturkosten",
-    "de_article": "die",
-    "lv": "Koszty naprawy",
-    "level": "C1"
-  },
-  {
-    "de": "Rettungsstelle",
-    "de_article": "die",
-    "de_plural": "die Rettungsstellen",
-    "lv": "Punkt pierwszej pomocy",
-    "level": "C1"
-  },
-  {
-    "de": "rezeptpflichtig",
-    "lv": "Reçeteyle",
-    "level": "C1"
-  },
-  {
-    "de": "Schauspielhaus",
-    "de_article": "das",
-    "de_plural": "die Schauspielhäuser",
-    "lv": "Tiyatro",
-    "level": "C1"
-  },
-  {
-    "de": "Scheibenwischer",
-    "de_article": "der",
-    "de_plural": "die Scheibenwischer",
-    "lv": "Środek do czyszczenia szyb samochodowych",
-    "level": "C1"
-  },
-  {
-    "de": "Schiedsrichter",
-    "de_article": "der",
-    "de_plural": "die Schiedsrichter",
-    "lv": "Yargıç",
-    "level": "C1"
-  },
-  {
-    "de": "Schlussverkauf",
-    "de_article": "der",
-    "de_plural": "die Schlussverkäufe",
-    "lv": "Sezon sonu indirimli fiyatlarla mal satışı",
-    "level": "C1"
-  },
-  {
-    "de": "schmerzhaft",
-    "lv": "Acı verici",
-    "level": "C1"
-  },
-  {
-    "de": "Schneewittchen",
-    "de_article": "das",
-    "de_plural": "die Schneewittchen",
-    "lv": "Pamuk Prenses masalından bir karakter",
-    "level": "C1"
-  },
-  {
-    "de": "Schraubenzieher",
-    "de_article": "der",
-    "de_plural": "die Schraubenzieher",
-    "lv": "Tornavida",
-    "level": "C1"
-  },
-  {
-    "de": "Schutzumschlag",
-    "de_article": "der",
-    "de_plural": "die Schutzumschläge",
-    "lv": "Kapak",
-    "level": "C1"
-  },
-  {
-    "de": "Schwiegereltern",
-    "de_article": "die",
-    "lv": "Kocanın ebeveynleri",
-    "level": "C1"
-  },
-  {
-    "de": "Schwiegermutter",
-    "de_article": "die",
-    "de_plural": "die Schwiegermütter",
-    "lv": "Kayınvalide",
-    "level": "C1"
-  },
-  {
-    "de": "Schwiegertochter",
-    "de_article": "die",
-    "de_plural": "die Schwiegertöchter",
-    "lv": "Synowa",
-    "level": "C1"
-  },
-  {
-    "de": "Schwiegervater",
-    "de_article": "der",
-    "de_plural": "die Schwiegerväter",
-    "lv": "Kayınpeder",
-    "level": "C1"
-  },
-  {
-    "de": "Selbstbedienung",
-    "de_article": "die",
-    "de_plural": "die Selbstbedienungen",
-    "lv": "Self servis",
-    "level": "C1"
-  },
-  {
-    "de": "Stabhochspringen",
-    "de_article": "das",
-    "lv": "Skok o tyczce",
-    "level": "C1"
-  },
-  {
-    "de": "Stadtrundfahrt",
-    "de_article": "die",
-    "de_plural": "die Stadtrundfahrten",
-    "lv": "Şehir turu",
-    "level": "C1"
-  },
-  {
-    "de": "stecken bleiben",
-    "lv": "Dolaşmak",
-    "level": "C1"
-  },
-  {
-    "de": "Stellvertreter",
-    "de_article": "der",
-    "de_plural": "die Stellvertreter",
-    "lv": "Değiştirmek için",
-    "level": "C1"
-  },
-  {
-    "de": "Steuererklärung",
-    "de_article": "die",
-    "de_plural": "die Steuererklärungen",
-    "lv": "Deklaracja podatkowa",
-    "level": "C1"
-  },
-  {
-    "de": "Strampelhöschen",
-    "de_article": "das",
-    "de_plural": "die Strampelhöschen",
-    "lv": "Bebek Sarmaşık",
-    "level": "C1"
-  },
-  {
-    "de": "Stromverbrauch",
-    "de_article": "der",
-    "de_plural": "die Stromverbräuche",
-    "lv": "Güç tüketimi",
-    "level": "C1"
-  },
-  {
-    "de": "Tagesnachrichten",
-    "de_article": "die",
-    "lv": "Wiadomość dnia",
-    "level": "C1"
-  },
-  {
-    "de": "Teilzeitarbeit",
-    "de_article": "die",
-    "de_plural": "die Teilzeitarbeiten",
-    "lv": "Yarı zamanlı iş",
-    "level": "C1"
-  },
-  {
-    "de": "Terminkalender",
-    "de_article": "der",
-    "de_plural": "die Terminkalender",
-    "lv": "Kalendarz notatek",
-    "level": "C1"
-  },
-  {
-    "de": "Thermosflasche",
-    "de_article": "die",
-    "de_plural": "die Thermosflaschen",
-    "lv": "Termos",
-    "level": "C1"
-  },
-  {
-    "de": "Tierkreiszeichen",
-    "de_article": "das",
-    "de_plural": "die Tierkreiszeichen",
-    "lv": "Znak zodiaku",
-    "level": "C1"
-  },
-  {
-    "de": "transportieren",
-    "lv": "Do transportu",
-    "level": "C1"
-  },
-  {
-    "de": "Überschwemmung",
-    "de_article": "die",
-    "de_plural": "die Überschwemmungen",
-    "lv": "Sel basmak",
-    "level": "C1"
-  },
-  {
-    "de": "Unternehmen",
-    "de_article": "das",
-    "de_plural": "die Unternehmen",
-    "lv": "Firma • Wydarzenie",
-    "level": "C1"
-  },
-  {
-    "de": "unterstreichen",
-    "lv": "Vurgula",
-    "level": "C1"
-  },
-  {
-    "de": "unverständlich",
-    "lv": "Anlaşılmaz",
-    "level": "C1"
-  },
-  {
-    "de": "Heiratsurkunde",
-    "de_article": "die",
-    "de_plural": "die Heiratsurkunden",
-    "lv": "Evlilik belgesi",
-    "level": "C1"
-  },
-  {
-    "de": "Urteil",
-    "de_article": "das",
-    "de_plural": "die Urteile",
-    "lv": "Çökelti",
-    "level": "C1"
-  },
-  {
-    "de": "veranstalten",
-    "lv": "Organize et",
-    "level": "C1"
-  },
-  {
-    "de": "verantworten",
-    "lv": "Sorumluluğunu üstlenin",
-    "level": "C1"
-  },
-  {
-    "de": "Verantwortung",
-    "de_article": "die",
-    "de_plural": "die Verantwortungen",
-    "lv": "Sorumluluk",
-    "level": "C1"
-  },
-  {
-    "de": "Vereinbarung",
-    "de_article": "die",
-    "de_plural": "die Vereinbarungen",
-    "lv": "Anlaşma",
-    "level": "C1"
-  },
-  {
-    "de": "Vergangenheit",
-    "de_article": "die",
-    "de_plural": "die Vergangenheiten",
-    "lv": "Geçmiş",
-    "level": "C1"
-  },
-  {
-    "de": "Verkehrsstau",
-    "de_article": "der",
-    "de_plural": "die Verkehrsstaue",
-    "lv": "Trafik sıkışıklığı",
-    "level": "C1"
-  },
-  {
-    "de": "Verlegenheit",
-    "de_article": "die",
-    "de_plural": "die Verlegenheiten",
-    "lv": "Dezorientacja",
-    "level": "C1"
-  },
-  {
-    "de": "verschließen",
-    "lv": "Engellemek için",
-    "level": "C1"
-  },
-  {
-    "de": "verschlucken",
-    "lv": "Kırlangıç",
-    "level": "C1"
-  },
-  {
-    "de": "verschwenden",
-    "lv": "Atık",
-    "level": "C1"
-  },
-  {
-    "de": "Versicherung",
-    "de_article": "die",
-    "de_plural": "die Versicherungen",
-    "lv": "Ubezpieczenie",
-    "level": "C1"
-  },
-  {
-    "de": "sich verständigen",
-    "lv": "Iyi geçinmek",
-    "level": "C1"
-  },
-  {
-    "de": "verständlich",
-    "lv": "Anlaşılabilir",
-    "level": "C1"
-  },
-  {
-    "de": "Vertrag",
-    "de_article": "der",
-    "de_plural": "die Verträge",
-    "lv": "Umowa",
-    "level": "C1"
-  },
-  {
-    "de": "voll beschäftigt",
-    "lv": "Tam zamanlı çalışan",
-    "level": "C1"
-  },
-  {
-    "de": "Vorgesetzte",
-    "de_article": "der",
-    "de_plural": "die Vorgesetzten",
-    "lv": "Szef",
-    "level": "C1"
-  },
-  {
-    "de": "vorteilhaft",
-    "lv": "Korzystny",
-    "level": "C1"
-  },
-  {
-    "de": "Wettbewerb",
-    "de_article": "der",
-    "de_plural": "die Wettbewerbe",
-    "lv": "Konkurs",
-    "level": "C1"
-  },
-  {
-    "de": "sich zufrieden geben",
-    "lv": "Tatmin et",
-    "level": "C1"
-  },
-  {
-    "de": "zusammenbringen",
-    "lv": "Birleştirmek",
-    "level": "C1"
-  },
-  {
-    "de": "zusammenfassen",
-    "lv": "Özetle • Özetle",
-    "level": "C1",
-    "study": {
-      "id": "c1-zusammenfassen",
-      "layout": "standardStudy",
-      "translation": "Özetle • Özetle",
+      "translation": "shtëpi për një familje",
       "explanation": [
-        "Główna idea: zusammenfassen to czasownik oznaczający zbieranie lub organizowanie informacji w jedno zwięzłe stwierdzenie.",
-        "Zusammenfassen, çeşitli gerçeklerin, metinlerin veya düşüncelerin kısa bir özet halinde sunulduğu durumlarda kullanılır.",
-        "Die Zusammenfassung ile karıştırılmamalıdır - büyük harfli olan ve artikel die, özetin kendisi anlamına gelen bir isimdir (sonuç, bitmiş metin).",
-        "Zusammenfassen = proces/akcja (podsumuj, podsumuj) • Die Zusammenfassung = wynik (podsumowanie jako rzeczownik).",
-        "Pek çok Almanca fiil gibi, zusammenfassen de büyük harf ve artikel içeren bir isme dönüşebilir: zusammenfassen → die Zusammenfassen (kanıtlama)."
+        "Ideja kryesore: das Einfamilienhaus është një shtëpi e destinuar për një familje — më vete ose ngjitur me fqinjët, por me një banesë të vetme dhe zakonisht me kopshtin e vet.",
+        "Emër i gjinisë asnjanëse: das Einfamilienhaus, shumësi die Einfamilienhäuser. Përbëhet nga Ein- + Familie + Haus.",
+        "E kundërta është das Mehrfamilienhaus (pallat me shumë banesa)."
       ],
       "examples": [
         {
-          "de": "Können Sie den Text zusammenfassen?",
-          "lv": "Bu metni özetleyebilir misiniz?"
+          "de": "Sie wohnen in einem Einfamilienhaus am Stadtrand.",
+          "lv": "Ata jetojnë në një shtëpi familjare në periferi të qytetit."
         },
         {
-          "de": "Ich fasse die wichtigsten Punkte zusammen.",
-          "lv": "En önemli noktaları özetleyeceğim."
+          "de": "Das Einfamilienhaus hat einen kleinen Garten.",
+          "lv": "Shtëpia familjare ka një kopsht të vogël."
         },
         {
-          "de": "Er hat den Bericht kurz zusammengefasst.",
-          "lv": "– İncelemeyi kısaca özetledim."
+          "de": "Sie träumen von einem eigenen Einfamilienhaus.",
+          "lv": "Ata ëndërrojnë të kenë shtëpinë e tyre familjare."
         },
         {
-          "de": "Zusammenfassend kann man sagen, dass...",
-          "lv": "Özetle şunu söyleyebiliriz..."
+          "de": "In dieser Siedlung stehen nur Einfamilienhäuser.",
+          "lv": "Në këtë lagje banimi ka vetëm shtëpi familjare."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "das Mehrfamilienhaus",
+          "meaning": "pallat me shumë banesa",
+          "example": "Im Mehrfamilienhaus wohnen zehn Familien. – Në pallat jetojnë dhjetë familje."
         },
         {
-          "de": "Ich schreibe eine Zusammenfassung des Buches.",
-          "lv": "Piszę streszczenie książki."
+          "word": "das Reihenhaus",
+          "meaning": "shtëpi në rresht",
+          "example": "Das Reihenhaus steht zwischen zwei anderen. – Shtëpia në rresht qëndron midis dy të tjerave."
         },
         {
-          "de": "Die Zusammenfassung ist zu lang.",
-          "lv": "Özet çok uzun."
+          "word": "das Hochhaus",
+          "meaning": "ndërtesë shumëkatëshe",
+          "example": "Im Hochhaus gibt es einen Aufzug. – Në ndërtesën shumëkatëshe ka ashensor."
         }
       ],
       "tip": [
-        "Zusammenfassen (fiil) = süreç - özetlemek/özetlemek.",
-        "Die Zusammenfassung (rzeczownik pisany wielką literą i artykuł die) = wynik - samo podsumowanie."
+        "Fjalën e përbërë mund ta kuptosh pjesë-pjesë: ein + Familie + Haus.",
+        "Lidhje e shpeshtë: ein Einfamilienhaus bauen / kaufen / mieten."
       ],
       "important": [
-        "Zusammenfassen = özetlemek/özetlemek (fiil).",
-        "Die Zusammenfassung = podsumowanie (rzeczownik uzasadniony od zusammenfassen).",
-        "Niepoprawnie: die zusammenfassen → Poprawnie: die Zusammenfassen (rzeczownik zawsze pisany wielką literą)."
+        "Einfamilienhaus nuk është e njëjta gjë me Villa: mund të jetë edhe një shtëpi krejt e thjeshtë."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "zusammenfassen"
+            "Einfamilienhaus",
+            "Einfamilienhäuser"
+          ],
+          "purple": [
+            "shtëpi"
           ],
           "green": [
-            "die Zusammenfassung"
+            "das Mehrfamilienhaus",
+            "Mehrfamilienhaus"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "zusammenfassen"
+                "Einfamilienhaus"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "familjare"
+              ]
+            }
           },
           {
             "de": {
               "blue": [
-                "fasse",
-                "zusammen"
+                "Einfamilienhaus"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "familjare"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Einfamilienhaus"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "familjare"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Einfamilienhäuser"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "familjare"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "das Mehrfamilienhaus"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "pallat"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "das Reihenhaus"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "rresht"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "das Hochhaus"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "shumëkatëshe"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {
+            "blue": [
+              "Einfamilienhaus"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "Einfamilienhaus"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "de": "Eisenbahnfahrt",
+    "de_article": "die",
+    "de_plural": "die Eisenbahnfahrten",
+    "lv": "udhëtim me tren",
+    "level": "C1"
+  },
+  {
+    "de": "Eisenbahnstation",
+    "de_article": "die",
+    "de_plural": "die Eisenbahnstationen",
+    "lv": "stacion hekurudhor",
+    "level": "C1"
+  },
+  {
+    "de": "ekelhaft",
+    "lv": "i neveritshëm • i pështirë",
+    "level": "C1"
+  },
+  {
+    "de": "Energieverbrauch",
+    "de_article": "der",
+    "de_plural": "die Energieverbräuche",
+    "lv": "konsum energjie",
+    "level": "C1"
+  },
+  {
+    "de": "Gartenerdbeere",
+    "de_article": "die",
+    "de_plural": "die Gartenerdbeeren",
+    "lv": "luleshtrydhe kopshti",
+    "level": "C1"
+  },
+  {
+    "de": "erforderlich",
+    "lv": "i nevojshëm • i domosdoshëm",
+    "level": "C1"
+  },
+  {
+    "de": "fabelhaft",
+    "lv": "i mrekullueshëm • përrallor",
+    "level": "C1"
+  },
+  {
+    "de": "fehlerhaft",
+    "lv": "i gabuar • me gabime",
+    "level": "C1"
+  },
+  {
+    "de": "folgendermaßen",
+    "lv": "si vijon • kështu",
+    "level": "C1"
+  },
+  {
+    "de": "Geburtsschein",
+    "de_article": "der",
+    "de_plural": "die Geburtsscheine",
+    "lv": "certifikatë lindjeje",
+    "level": "C1"
+  },
+  {
+    "de": "gegeneinander",
+    "lv": "kundër njëri-tjetrit",
+    "level": "C1"
+  },
+  {
+    "de": "Gemüsegarten",
+    "de_article": "der",
+    "de_plural": "die Gemüsegärten",
+    "lv": "kopsht perimesh",
+    "level": "C1"
+  },
+  {
+    "de": "Gepäckträger",
+    "de_article": "der",
+    "de_plural": "die Gepäckträger",
+    "lv": "mbajtëse bagazhi",
+    "level": "C1"
+  },
+  {
+    "de": "geschäftlich",
+    "lv": "për punë • afarist",
+    "level": "C1"
+  },
+  {
+    "de": "Geschäftsmann",
+    "de_article": "der",
+    "de_plural": "die Geschäftsleute",
+    "lv": "biznesmen • afarist",
+    "level": "C1"
+  },
+  {
+    "de": "geschichtlich",
+    "lv": "historik",
+    "level": "C1"
+  },
+  {
+    "de": "geschmacklos",
+    "lv": "pa shije",
+    "level": "C1"
+  },
+  {
+    "de": "geschmackvoll",
+    "lv": "me shije",
+    "level": "C1"
+  },
+  {
+    "de": "gesetzlich",
+    "lv": "ligjor • i ligjshëm",
+    "level": "C1"
+  },
+  {
+    "de": "Gesichtspunkt",
+    "de_article": "der",
+    "de_plural": "die Gesichtspunkte",
+    "lv": "pikëpamje • këndvështrim",
+    "level": "C1"
+  },
+  {
+    "de": "Gewichtheben",
+    "de_article": "das",
+    "lv": "peshëngritje",
+    "level": "C1"
+  },
+  {
+    "de": "gewissenhaft",
+    "lv": "i ndërgjegjshëm • i përpiktë",
+    "level": "C1"
+  },
+  {
+    "de": "Gipfel",
+    "de_article": "der",
+    "de_plural": "die Gipfel",
+    "lv": "majë • samit",
+    "level": "C1"
+  },
+  {
+    "de": "Hausangestellte",
+    "de_article": "die",
+    "lv": "shërbëtore shtëpie",
+    "level": "C1"
+  },
+  {
+    "de": "hinaufklettern",
+    "lv": "ngjitem lart",
+    "level": "C1"
+  },
+  {
+    "de": "hintereinander",
+    "lv": "njëri pas tjetrit",
+    "level": "C1"
+  },
+  {
+    "de": "Hochzeitsbrauch",
+    "de_article": "der",
+    "de_plural": "die Hochzeitsbräuche",
+    "lv": "zakon dasme",
+    "level": "C1"
+  },
+  {
+    "de": "Hochzeitsfeier",
+    "de_article": "die",
+    "de_plural": "die Hochzeitsfeiern",
+    "lv": "festë dasme • dasmë",
+    "level": "C1"
+  },
+  {
+    "de": "Hochzeitsreise",
+    "de_article": "die",
+    "de_plural": "die Hochzeitsreisen",
+    "lv": "muaj mjalti • udhëtim martese",
+    "level": "C1"
+  },
+  {
+    "de": "identifizieren",
+    "lv": "identifikoj",
+    "level": "C1"
+  },
+  {
+    "de": "Inflationsrate",
+    "de_article": "die",
+    "de_plural": "die Inflationsraten",
+    "lv": "normë inflacioni",
+    "level": "C1"
+  },
+  {
+    "de": "Schlaginstrument",
+    "de_article": "das",
+    "de_plural": "die Schlaginstrumente",
+    "lv": "instrument me goditje",
+    "level": "C1"
+  },
+  {
+    "de": "Tasteninstrument",
+    "de_article": "das",
+    "de_plural": "die Tasteninstrumente",
+    "lv": "instrument me tastierë",
+    "level": "C1"
+  },
+  {
+    "de": "Jahreseinkommen",
+    "de_article": "das",
+    "de_plural": "die Jahreseinkommen",
+    "lv": "të ardhura vjetore",
+    "level": "C1"
+  },
+  {
+    "de": "Kabelanschluss",
+    "de_article": "der",
+    "de_plural": "die Kabelanschlüsse",
+    "lv": "lidhje kabllore",
+    "level": "C1"
+  },
+  {
+    "de": "Kabelfernsehen",
+    "de_article": "das",
+    "lv": "televizion kabllor",
+    "level": "C1"
+  },
+  {
+    "de": "Kaltwasserhahn",
+    "de_article": "der",
+    "de_plural": "die Kaltwasserhähne",
+    "lv": "rubinet i ujit të ftohtë",
+    "level": "C1"
+  },
+  {
+    "de": "Pressekampagne",
+    "de_article": "die",
+    "de_plural": "die Pressekampagnen",
+    "lv": "fushatë shtypi",
+    "level": "C1"
+  },
+  {
+    "de": "Kandidatenliste",
+    "de_article": "die",
+    "de_plural": "die Kandidatenlisten",
+    "lv": "listë kandidatësh",
+    "level": "C1"
+  },
+  {
+    "de": "Klage",
+    "de_article": "die",
+    "de_plural": "die Klagen",
+    "lv": "ankesë • padi",
+    "level": "C1"
+  },
+  {
+    "de": "klagen",
+    "lv": "ankohem",
+    "level": "C1"
+  },
+  {
+    "de": "Kostenanschlag",
+    "de_article": "der",
+    "de_plural": "die Kostenanschläge",
+    "lv": "preventiv shpenzimesh",
+    "level": "C1"
+  },
+  {
+    "de": "krampfhaft",
+    "lv": "konvulsiv • i sforcuar",
+    "level": "C1"
+  },
+  {
+    "de": "Krankheitsbild",
+    "de_article": "das",
+    "de_plural": "die Krankheitsbilder",
+    "lv": "pamje klinike",
+    "level": "C1"
+  },
+  {
+    "de": "Lastkraftwagen",
+    "de_article": "der",
+    "de_plural": "die Lastkraftwagen",
+    "lv": "kamion",
+    "level": "C1"
+  },
+  {
+    "de": "lebhaft",
+    "lv": "i gjallë",
+    "level": "C1"
+  },
+  {
+    "de": "Leichtathletik",
+    "de_article": "die",
+    "lv": "atletikë e lehtë",
+    "level": "C1"
+  },
+  {
+    "de": "Mehrwertsteuer",
+    "de_article": "die",
+    "de_plural": "die Mehrwertsteuern",
+    "lv": "tatim mbi vlerën e shtuar",
+    "level": "C1"
+  },
+  {
+    "de": "Meinungsumfrage",
+    "de_article": "die",
+    "de_plural": "die Meinungsumfragen",
+    "lv": "sondazh opinioni",
+    "level": "C1"
+  },
+  {
+    "de": "Menschenrechte",
+    "de_article": "die",
+    "lv": "të drejta të njeriut",
+    "level": "C1"
+  },
+  {
+    "de": "Ministerium",
+    "de_article": "das",
+    "de_plural": "die Ministerien",
+    "lv": "ministri",
+    "level": "C1"
+  },
+  {
+    "de": "Missverständnis",
+    "de_article": "das",
+    "de_plural": "die Missverständnisse",
+    "lv": "keqkuptim",
+    "level": "C1"
+  },
+  {
+    "de": "Modezeitschrift",
+    "de_article": "die",
+    "de_plural": "die Modezeitschriften",
+    "lv": "revistë mode",
+    "level": "C1"
+  },
+  {
+    "de": "Morgendämmerung",
+    "de_article": "die",
+    "de_plural": "die Morgendämmerungen",
+    "lv": "agim",
+    "level": "C1"
+  },
+  {
+    "de": "Morgengymnastik",
+    "de_article": "die",
+    "de_plural": "die Morgengymnastiken",
+    "lv": "gjimnastikë mëngjesi",
+    "level": "C1"
+  },
+  {
+    "de": "nahrhaft",
+    "lv": "ushqyes",
+    "level": "C1"
+  },
+  {
+    "de": "Nationaltracht",
+    "de_article": "die",
+    "de_plural": "die Nationaltrachten",
+    "lv": "veshje kombëtare • kostum popullor",
+    "level": "C1"
+  },
+  {
+    "de": "Notar",
+    "de_article": "der",
+    "de_plural": "die Notare",
+    "lv": "noter",
+    "level": "C1"
+  },
+  {
+    "de": "Notarzt",
+    "de_article": "der",
+    "de_plural": "die Notärzte",
+    "lv": "mjek i urgjencës",
+    "level": "C1"
+  },
+  {
+    "de": "Öffentlichkeit",
+    "de_article": "die",
+    "de_plural": "die Öffentlichkeiten",
+    "lv": "publik • transparencë",
+    "level": "C1",
+    "study": {
+      "id": "c1-offentlichkeit",
+      "layout": "standardStudy",
+      "translation": "publik • transparencë",
+      "explanation": [
+        "Ideja kryesore: die Öffentlichkeit është publiku, pra të gjithë njerëzit për të cilët diçka është e arritshme ose e njohur, dhe njëkohësisht transparenca — gjendja kur diçka nuk është e fshehtë.",
+        "Emër i gjinisë femërore: die Öffentlichkeit, shumës praktikisht nuk ka. Shprehje të shpeshta: in der Öffentlichkeit (publikisht), an die Öffentlichkeit gehen (bëj publike), unter Ausschluss der Öffentlichkeit (pa praninë e publikut), die Öffentlichkeit informieren.",
+        "Mos e ngatërro Öffentlichkeit me die Gesellschaft (shoqëria): ky është kuptim tjetër."
+      ],
+      "examples": [
+        {
+          "de": "Der Politiker trat vor die Öffentlichkeit.",
+          "lv": "Politikani doli para publikut."
+        },
+        {
+          "de": "In der Öffentlichkeit darf man hier nicht rauchen.",
+          "lv": "Këtu nuk lejohet të pish duhan në vende publike."
+        },
+        {
+          "de": "Die Verhandlung fand unter Ausschluss der Öffentlichkeit statt.",
+          "lv": "Seanca gjyqësore u zhvillua pa praninë e publikut."
+        },
+        {
+          "de": "Die Firma will den Skandal nicht an die Öffentlichkeit bringen.",
+          "lv": "Kompania nuk dëshiron ta bëjë skandalin publik."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "die Gesellschaft",
+          "meaning": "shoqëria (si sistem)",
+          "example": "Die Gesellschaft verändert sich. – Shoqëria po ndryshon."
+        },
+        {
+          "word": "das Publikum",
+          "meaning": "publiku (spektatorët)",
+          "example": "Das Publikum klatscht. – Publiku duartroket."
+        },
+        {
+          "word": "die Bevölkerung",
+          "meaning": "popullsia",
+          "example": "Die Bevölkerung wächst. – Popullsia rritet."
+        }
+      ],
+      "tip": [
+        "Përdoret me parafjalë: in der Öffentlichkeit (ku?), an die Öffentlichkeit (për ku?).",
+        "Kuptim të ngjashëm ka fjala die Allgemeinheit (të gjithë njerëzit së bashku)."
+      ],
+      "important": [
+        "Shumësi zakonisht nuk përdoret: die Öffentlichkeiten haset rrallë."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "die Öffentlichkeit",
+            "in der Öffentlichkeit",
+            "an die Öffentlichkeit gehen",
+            "unter Ausschluss der Öffentlichkeit",
+            "Gesellschaft",
+            "Öffentlichkeit"
+          ],
+          "purple": [
+            "publiku",
+            "transparenca",
+            "publikisht"
+          ],
+          "green": [
+            "die Gesellschaft"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Öffentlichkeit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "publikut"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Öffentlichkeit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vende publike"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Öffentlichkeit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "publikut"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Öffentlichkeit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "publik"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "die Gesellschaft"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "shoqëria"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "das Publikum"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "publiku"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Bevölkerung"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "popullsia"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "Öffentlichkeit",
+              "die Öffentlichkeit",
+              "in der Öffentlichkeit"
+            ]
+          },
+          {}
+        ],
+        "important": [
+          {}
+        ]
+      }
+    }
+  },
+  {
+    "de": "Parlament",
+    "de_article": "das",
+    "de_plural": "die Parlamente",
+    "lv": "parlament",
+    "level": "C1"
+  },
+  {
+    "de": "Partei",
+    "de_article": "die",
+    "de_plural": "die Parteien",
+    "lv": "parti • palë",
+    "level": "C1",
+    "study": {
+      "id": "c1-partei",
+      "layout": "standardStudy",
+      "translation": "parti • palë",
+      "explanation": [
+        "Ideja kryesore: die Partei është parti politike (die CDU ist eine Partei), por edhe palë në një mosmarrëveshje, në gjyq ose në një kontratë: die Streitparteien, die Vertragsparteien.",
+        "Emër i gjinisë femërore: die Partei, shumësi die Parteien. Shprehja Partei ergreifen für jemanden — mbaj anën e dikujt.",
+        "Në kontekstin politik përdoret shpesh: eine Partei gründen (themeloj një parti), in eine Partei eintreten (anëtarësohem në një parti), die Regierungspartei (partia në pushtet)."
+      ],
+      "examples": [
+        {
+          "de": "Sie ist Mitglied einer Partei.",
+          "lv": "Ajo është anëtare e një partie."
+        },
+        {
+          "de": "Die Parteien verhandeln über eine Koalition.",
+          "lv": "Partitë po negociojnë për një koalicion."
+        },
+        {
+          "de": "Im Streit ergriff er Partei für seinen Bruder.",
+          "lv": "Në grindje ai mbajti anën e vëllait të tij."
+        },
+        {
+          "de": "Beide Parteien haben den Vertrag unterschrieben.",
+          "lv": "Të dyja palët e kanë nënshkruar kontratën."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "die Seite",
+          "meaning": "anë",
+          "example": "Auf welcher Seite stehst du? – Në cilën anë je ti?"
+        },
+        {
+          "word": "der Verein",
+          "meaning": "shoqatë, klub",
+          "example": "Er ist im Sportverein. – Ai është në klubin sportiv."
+        },
+        {
+          "word": "die Gruppe",
+          "meaning": "grup",
+          "example": "Die Gruppe trifft sich heute. – Grupi takohet sot."
+        }
+      ],
+      "tip": [
+        "Partei ergreifen (mbaj anën e dikujt) është shprehje e dobishme për të përshkruar mosmarrëveshjet.",
+        "Në politikë thuhet eine Partei wählen ose für eine Partei stimmen."
+      ],
+      "important": [
+        "Die Partei dhe die Party (festë) tingëllojnë ngjashëm, por kuptimet e tyre nuk kanë lidhje."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Partei",
+            "Parteien"
+          ],
+          "purple": [
+            "parti",
+            "palë",
+            "anën",
+            "partia",
+            "politike"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Partei"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "partie"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Parteien"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Partitë"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Partei"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "anën"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Parteien"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "palët"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "die Seite"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "anë"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Verein"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "shoqatë"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Gruppe"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "grup"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "Partei"
+            ]
+          },
+          {
+            "blue": [
+              "Partei"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "Partei"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "de": "Persönlichkeit",
+    "de_article": "die",
+    "de_plural": "die Persönlichkeiten",
+    "lv": "personalitet",
+    "level": "C1"
+  },
+  {
+    "de": "Polizeieinheit",
+    "de_article": "die",
+    "de_plural": "die Polizeieinheiten",
+    "lv": "njësi policie",
+    "level": "C1"
+  },
+  {
+    "de": "Polizeistreife",
+    "de_article": "die",
+    "de_plural": "die Polizeistreifen",
+    "lv": "patrullë policie",
+    "level": "C1"
+  },
+  {
+    "de": "Pollenallergie",
+    "de_article": "die",
+    "de_plural": "die Pollenallergien",
+    "lv": "alergji nga poleni",
+    "level": "C1"
+  },
+  {
+    "de": "Polstergarnitur",
+    "de_article": "die",
+    "de_plural": "die Polstergarnituren",
+    "lv": "komplet mobiliesh të veshura",
+    "level": "C1"
+  },
+  {
+    "de": "Premier",
+    "de_article": "der",
+    "de_plural": "die Premiers",
+    "lv": "kryeministër",
+    "level": "C1"
+  },
+  {
+    "de": "Prozess",
+    "de_article": "der",
+    "de_plural": "die Prozesse",
+    "lv": "proces • gjyq",
+    "level": "C1",
+    "study": {
+      "id": "c1-prozess",
+      "layout": "standardStudy",
+      "translation": "proces • gjyq",
+      "explanation": [
+        "Ideja kryesore: der Prozess është fjalë me dy kuptime kryesore: proces, ecuri (ein langsamer Prozess) dhe gjyq, proces gjyqësor (ein Prozess gegen jemanden).",
+        "Emër i gjinisë mashkullore: der Prozess, shumësi die Prozesse. Gjyqin mund ta zhvillosh, ta nisësh, ta fitosh ose ta humbasësh: einen Prozess führen, gewinnen, verlieren.",
+        "Shprehja kurzen Prozess machen do të thotë të veprosh pa u zgjatur, pa mëshirë."
+      ],
+      "examples": [
+        {
+          "de": "Der Prozess gegen den Angeklagten dauert Monate.",
+          "lv": "Gjyqi kundër të akuzuarit zgjat me muaj."
+        },
+        {
+          "de": "Die Heilung ist ein langsamer Prozess.",
+          "lv": "Shërimi është një proces i ngadaltë."
+        },
+        {
+          "de": "Sie haben den Prozess gewonnen.",
+          "lv": "Ata e fituan gjyqin."
+        },
+        {
+          "de": "Die Firma machte kurzen Prozess und kündigte ihm.",
+          "lv": "Kompania nuk e zgjati shumë dhe e pushoi nga puna."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "der Vorgang",
+          "meaning": "ecuri, proces",
+          "example": "Der Vorgang dauert eine Stunde. – Procesi zgjat një orë."
+        },
+        {
+          "word": "die Verhandlung",
+          "meaning": "seancë gjyqësore",
+          "example": "Die Verhandlung beginnt um neun. – Seanca gjyqësore fillon në orën nëntë."
+        },
+        {
+          "word": "die Klage",
+          "meaning": "padi",
+          "example": "Er reichte eine Klage ein. – Ai paraqiti një padi."
+        }
+      ],
+      "tip": [
+        "Kur bëhet fjalë për gjyqin, hasen shpesh këto folje: einen Prozess führen / gewinnen / verlieren.",
+        "Si ecuri, Prozess është edhe term teknik dhe shkencor: der Prozess der Herstellung (procesi i prodhimit)."
+      ],
+      "important": [
+        "Në të gjitha kuptimet fjala është e gjinisë mashkullore: der Prozess (jo das Prozess)."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Prozess",
+            "Prozesse"
+          ],
+          "purple": [
+            "proces",
+            "gjyq",
+            "Gjyqin"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Prozess"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Gjyqi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Prozess"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "proces"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Prozess"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "gjyqin"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Prozess"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "zgjati"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "Vorgang"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ecuri"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "Verhandlung"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "gjyqësore"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "Klage"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "padi"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "Prozess"
+            ]
+          },
+          {
+            "blue": [
+              "Prozess"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "Prozess"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "de": "Prozessor",
+    "de_article": "der",
+    "de_plural": "die Prozessoren",
+    "lv": "procesor",
+    "level": "C1"
+  },
+  {
+    "de": "Radioübertragung",
+    "de_article": "die",
+    "de_plural": "die Radioübertragungen",
+    "lv": "transmetim radiofonik",
+    "level": "C1"
+  },
+  {
+    "de": "Rechtsanwalt",
+    "de_article": "der",
+    "de_plural": "die Rechtsanwälte",
+    "lv": "avokat",
+    "level": "C1"
+  },
+  {
+    "de": "Rekonstruktion",
+    "de_article": "die",
+    "de_plural": "die Rekonstruktionen",
+    "lv": "rindërtim • rikonstruksion",
+    "level": "C1"
+  },
+  {
+    "de": "Rennen mit Hindernissen",
+    "de_article": "das",
+    "de_plural": "die Rennen mit Hindernissen",
+    "lv": "garë me pengesa",
+    "level": "C1"
+  },
+  {
+    "de": "Reparaturkosten",
+    "de_article": "die",
+    "lv": "shpenzime riparimi",
+    "level": "C1"
+  },
+  {
+    "de": "Rettungsstelle",
+    "de_article": "die",
+    "de_plural": "die Rettungsstellen",
+    "lv": "pikë e ndihmës së shpejtë",
+    "level": "C1"
+  },
+  {
+    "de": "rezeptpflichtig",
+    "lv": "me recetë",
+    "level": "C1"
+  },
+  {
+    "de": "Schauspielhaus",
+    "de_article": "das",
+    "de_plural": "die Schauspielhäuser",
+    "lv": "teatër",
+    "level": "C1"
+  },
+  {
+    "de": "Scheibenwischer",
+    "de_article": "der",
+    "de_plural": "die Scheibenwischer",
+    "lv": "fshirëse xhami",
+    "level": "C1"
+  },
+  {
+    "de": "Schiedsrichter",
+    "de_article": "der",
+    "de_plural": "die Schiedsrichter",
+    "lv": "gjyqtar • arbitër",
+    "level": "C1"
+  },
+  {
+    "de": "Schlussverkauf",
+    "de_article": "der",
+    "de_plural": "die Schlussverkäufe",
+    "lv": "shitje me ulje në fund të sezonit",
+    "level": "C1"
+  },
+  {
+    "de": "schmerzhaft",
+    "lv": "i dhimbshëm",
+    "level": "C1"
+  },
+  {
+    "de": "Schneewittchen",
+    "de_article": "das",
+    "de_plural": "die Schneewittchen",
+    "lv": "Borëbardha",
+    "level": "C1"
+  },
+  {
+    "de": "Schraubenzieher",
+    "de_article": "der",
+    "de_plural": "die Schraubenzieher",
+    "lv": "kaçavidë",
+    "level": "C1"
+  },
+  {
+    "de": "Schutzumschlag",
+    "de_article": "der",
+    "de_plural": "die Schutzumschläge",
+    "lv": "këmishë libri",
+    "level": "C1"
+  },
+  {
+    "de": "Schwiegereltern",
+    "de_article": "die",
+    "lv": "prindër të bashkëshortit",
+    "level": "C1"
+  },
+  {
+    "de": "Schwiegermutter",
+    "de_article": "die",
+    "de_plural": "die Schwiegermütter",
+    "lv": "vjehërr",
+    "level": "C1"
+  },
+  {
+    "de": "Schwiegertochter",
+    "de_article": "die",
+    "de_plural": "die Schwiegertöchter",
+    "lv": "nuse e djalit",
+    "level": "C1"
+  },
+  {
+    "de": "Schwiegervater",
+    "de_article": "der",
+    "de_plural": "die Schwiegerväter",
+    "lv": "vjehërr",
+    "level": "C1"
+  },
+  {
+    "de": "Selbstbedienung",
+    "de_article": "die",
+    "de_plural": "die Selbstbedienungen",
+    "lv": "vetëshërbim",
+    "level": "C1"
+  },
+  {
+    "de": "Stabhochspringen",
+    "de_article": "das",
+    "lv": "kërcim me shkop",
+    "level": "C1"
+  },
+  {
+    "de": "Stadtrundfahrt",
+    "de_article": "die",
+    "de_plural": "die Stadtrundfahrten",
+    "lv": "vizitë e qytetit",
+    "level": "C1"
+  },
+  {
+    "de": "stecken bleiben",
+    "lv": "ngec",
+    "level": "C1"
+  },
+  {
+    "de": "Stellvertreter",
+    "de_article": "der",
+    "de_plural": "die Stellvertreter",
+    "lv": "zëvendës",
+    "level": "C1"
+  },
+  {
+    "de": "Steuererklärung",
+    "de_article": "die",
+    "de_plural": "die Steuererklärungen",
+    "lv": "deklaratë tatimore",
+    "level": "C1"
+  },
+  {
+    "de": "Strampelhöschen",
+    "de_article": "das",
+    "de_plural": "die Strampelhöschen",
+    "lv": "tutë foshnje",
+    "level": "C1"
+  },
+  {
+    "de": "Stromverbrauch",
+    "de_article": "der",
+    "de_plural": "die Stromverbräuche",
+    "lv": "konsum i energjisë elektrike",
+    "level": "C1"
+  },
+  {
+    "de": "Tagesnachrichten",
+    "de_article": "die",
+    "lv": "lajme të ditës",
+    "level": "C1"
+  },
+  {
+    "de": "Teilzeitarbeit",
+    "de_article": "die",
+    "de_plural": "die Teilzeitarbeiten",
+    "lv": "punë me kohë të pjesshme",
+    "level": "C1"
+  },
+  {
+    "de": "Terminkalender",
+    "de_article": "der",
+    "de_plural": "die Terminkalender",
+    "lv": "agjendë",
+    "level": "C1"
+  },
+  {
+    "de": "Thermosflasche",
+    "de_article": "die",
+    "de_plural": "die Thermosflaschen",
+    "lv": "termos",
+    "level": "C1"
+  },
+  {
+    "de": "Tierkreiszeichen",
+    "de_article": "das",
+    "de_plural": "die Tierkreiszeichen",
+    "lv": "shenjë e zodiakut",
+    "level": "C1"
+  },
+  {
+    "de": "transportieren",
+    "lv": "transportoj",
+    "level": "C1"
+  },
+  {
+    "de": "Überschwemmung",
+    "de_article": "die",
+    "de_plural": "die Überschwemmungen",
+    "lv": "përmbytje",
+    "level": "C1"
+  },
+  {
+    "de": "Unternehmen",
+    "de_article": "das",
+    "de_plural": "die Unternehmen",
+    "lv": "ndërmarrje • sipërmarrje",
+    "level": "C1"
+  },
+  {
+    "de": "unterstreichen",
+    "lv": "nënvizoj",
+    "level": "C1"
+  },
+  {
+    "de": "unverständlich",
+    "lv": "i pakuptueshëm",
+    "level": "C1"
+  },
+  {
+    "de": "Heiratsurkunde",
+    "de_article": "die",
+    "de_plural": "die Heiratsurkunden",
+    "lv": "certifikatë martese",
+    "level": "C1"
+  },
+  {
+    "de": "Urteil",
+    "de_article": "das",
+    "de_plural": "die Urteile",
+    "lv": "vendim gjyqësor • gjykim",
+    "level": "C1"
+  },
+  {
+    "de": "veranstalten",
+    "lv": "organizoj",
+    "level": "C1"
+  },
+  {
+    "de": "verantworten",
+    "lv": "mbaj përgjegjësi për",
+    "level": "C1"
+  },
+  {
+    "de": "Verantwortung",
+    "de_article": "die",
+    "de_plural": "die Verantwortungen",
+    "lv": "përgjegjësi",
+    "level": "C1"
+  },
+  {
+    "de": "Vereinbarung",
+    "de_article": "die",
+    "de_plural": "die Vereinbarungen",
+    "lv": "marrëveshje",
+    "level": "C1"
+  },
+  {
+    "de": "Vergangenheit",
+    "de_article": "die",
+    "de_plural": "die Vergangenheiten",
+    "lv": "e kaluar",
+    "level": "C1"
+  },
+  {
+    "de": "Verkehrsstau",
+    "de_article": "der",
+    "de_plural": "die Verkehrsstaue",
+    "lv": "bllokim trafiku",
+    "level": "C1"
+  },
+  {
+    "de": "Verlegenheit",
+    "de_article": "die",
+    "de_plural": "die Verlegenheiten",
+    "lv": "hutim • vështirësi",
+    "level": "C1"
+  },
+  {
+    "de": "verschließen",
+    "lv": "mbyll me çelës",
+    "level": "C1"
+  },
+  {
+    "de": "verschlucken",
+    "lv": "gëlltis",
+    "level": "C1"
+  },
+  {
+    "de": "verschwenden",
+    "lv": "shpërdoroj • shpenzoj kot",
+    "level": "C1"
+  },
+  {
+    "de": "Versicherung",
+    "de_article": "die",
+    "de_plural": "die Versicherungen",
+    "lv": "sigurim",
+    "level": "C1"
+  },
+  {
+    "de": "sich verständigen",
+    "lv": "merrem vesh",
+    "level": "C1"
+  },
+  {
+    "de": "verständlich",
+    "lv": "i kuptueshëm",
+    "level": "C1"
+  },
+  {
+    "de": "Vertrag",
+    "de_article": "der",
+    "de_plural": "die Verträge",
+    "lv": "kontratë • marrëveshje",
+    "level": "C1"
+  },
+  {
+    "de": "voll beschäftigt",
+    "lv": "i punësuar me kohë të plotë",
+    "level": "C1"
+  },
+  {
+    "de": "Vorgesetzte",
+    "de_article": "der",
+    "de_plural": "die Vorgesetzten",
+    "lv": "epror • shef",
+    "level": "C1"
+  },
+  {
+    "de": "vorteilhaft",
+    "lv": "i leverdishëm • i favorshëm",
+    "level": "C1"
+  },
+  {
+    "de": "Wettbewerb",
+    "de_article": "der",
+    "de_plural": "die Wettbewerbe",
+    "lv": "konkurs • konkurrencë",
+    "level": "C1"
+  },
+  {
+    "de": "sich zufrieden geben",
+    "lv": "kënaqem",
+    "level": "C1"
+  },
+  {
+    "de": "zusammenbringen",
+    "lv": "bashkoj • njoh me njëri-tjetrin",
+    "level": "C1"
+  },
+  {
+    "de": "zusammenfassen",
+    "lv": "përmbledh",
+    "level": "C1",
+    "study": {
+      "id": "c1-zusammenfassen",
+      "layout": "standardStudy",
+      "translation": "përmbledh",
+      "explanation": [
+        "Ideja kryesore: zusammenfassen do të thotë të përmbledhësh shkurt thelbin e një teksti, të një fjalimi ose të rezultateve; gjithashtu të bashkosh disa gjëra në një tërësi.",
+        "Folje e ndashme: er fasst zusammen, fasste zusammen, hat zusammengefasst. Ajo që përmblidhet është në rasën kallëzore (Akkusativ): einen Text zusammenfassen. Shpesh pason in + dhanore (Dativ) ose zu + dhanore (Dativ): in einem Satz zusammenfassen. Emri është die Zusammenfassung.",
+        "Në fillim të fjalisë përdoret shpesh zusammenfassend (si përmbledhje): Zusammenfassend lässt sich sagen …"
+      ],
+      "examples": [
+        {
+          "de": "Fasst bitte den Text in drei Sätzen zusammen.",
+          "lv": "Përmblidheni tekstin në tri fjali, ju lutem."
+        },
+        {
+          "de": "Der Redner fasste die Ergebnisse kurz zusammen.",
+          "lv": "Folësi i përmblodhi shkurt rezultatet."
+        },
+        {
+          "de": "Wir haben die Vorschläge in einer Liste zusammengefasst.",
+          "lv": "I kemi përmbledhur propozimet në një listë."
+        },
+        {
+          "de": "Kannst du den Film kurz zusammenfassen?",
+          "lv": "A mund ta përmbledhësh shkurt filmin?"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "zusammenstellen",
+          "meaning": "hartoj, përpiloj",
+          "example": "Ich stelle eine Liste zusammen. – Unë po përpiloj një listë."
+        },
+        {
+          "word": "kürzen",
+          "meaning": "shkurtoj",
+          "example": "Wir kürzen den Text. – Ne po e shkurtojmë tekstin."
+        },
+        {
+          "word": "wiederholen",
+          "meaning": "përsëris",
+          "example": "Wiederhole den Satz. – Përsërite fjalinë."
+        }
+      ],
+      "tip": [
+        "Mbaj mend ndarjen: Ich fasse den Text zusammen, por në fjali të varur …, weil ich den Text zusammenfasse.",
+        "Pas zusammenfassen shpesh vjen in einem Satz / in drei Punkten."
+      ],
+      "important": [
+        "Pjesorja është zusammengefasst (me -ge- midis zusammen dhe fasst).",
+        "Mos e ngatërro me zusammenstellen: ajo do të thotë të përpilosh, jo të tregosh shkurt."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "zusammenfassen",
+            "zusammenfassend",
+            "fasst zusammen",
+            "fasste zusammen",
+            "zusammengefasst",
+            "Zusammenfassung",
+            "fasste",
+            "fasst"
+          ],
+          "purple": [
+            "përmbledhësh",
+            "bashkosh"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Fasst"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Përmblidheni"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fasste"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "përmblodhi"
+              ]
+            }
           },
           {
             "de": {
@@ -1348,62 +1978,81 @@ const C1_WORDS = [
                 "zusammengefasst"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "përmbledhur"
+              ]
+            }
           },
           {
             "de": {
               "blue": [
-                "Zusammenfassend"
+                "zusammenfassen"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "përmbledhësh"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "zusammenstellen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "përpiloj"
+              ]
+            }
           },
           {
-            "de": {
+            "word": {
               "green": [
-                "Zusammenfassung"
+                "kürzen"
               ]
             },
-            "lv": {}
+            "meaning": {
+              "purple": [
+                "shkurtoj"
+              ]
+            }
           },
           {
-            "de": {
+            "word": {
               "green": [
-                "Zusammenfassung"
+                "wiederholen"
               ]
             },
-            "lv": {}
+            "meaning": {
+              "purple": [
+                "përsëris"
+              ]
+            }
           }
         ],
         "tip": [
+          {},
           {
             "blue": [
               "zusammenfassen"
-            ]
-          },
-          {
-            "green": [
-              "die Zusammenfassung"
             ]
           }
         ],
         "important": [
           {
             "blue": [
-              "zusammenfassen"
+              "zusammengefasst",
+              "fasst"
             ]
           },
           {
             "green": [
-              "die Zusammenfassung"
-            ]
-          },
-          {
-            "green": [
-              "die"
-            ],
-            "red": [
-              "die zusammenfassen"
+              "zusammenstellen"
             ]
           }
         ]
@@ -1412,1057 +2061,1735 @@ const C1_WORDS = [
   },
   {
     "de": "zusammenhängen",
-    "lv": "İlişkili olmak (ile)",
+    "lv": "jam i lidhur",
     "level": "C1"
   },
   {
     "de": "Aufmerksamkeit",
     "de_article": "die",
     "de_plural": "die Aufmerksamkeiten",
-    "lv": "Dikkat",
+    "lv": "vëmendje",
     "level": "C1"
   },
   {
     "de": "Fernsehsendung",
     "de_article": "die",
     "de_plural": "die Fernsehsendungen",
-    "lv": "Program telewizyjny",
+    "lv": "emision televiziv",
     "level": "C1"
   },
   {
     "de": "Landschaft",
     "de_article": "die",
     "de_plural": "die Landschaften",
-    "lv": "Krajobraz",
+    "lv": "peizazh",
     "level": "C1"
   },
   {
     "de": "Rechtschreibung",
     "de_article": "die",
     "de_plural": "die Rechtschreibungen",
-    "lv": "Pisownia",
+    "lv": "drejtshkrim",
     "level": "C1"
   },
   {
     "de": "Straßenkreuzung",
     "de_article": "die",
     "de_plural": "die Straßenkreuzungen",
-    "lv": "Sokak kavşağı",
+    "lv": "kryqëzim rrugësh",
     "level": "C1"
   },
   {
     "de": "Wahl",
     "de_article": "die",
     "de_plural": "die Wahlen",
-    "lv": "Seçim • Seçim",
+    "lv": "zgjedhje",
     "level": "C1",
     "study": {
       "id": "c1-wahl",
       "layout": "standardStudy",
-      "translation": "Seçim • Seçim",
-      "explanation": "Die Wahl seçenekler arasında seçim yapmak anlamına gelebilir. Siyaset bağlamında Wahl, seçim anlamına gelir. Bu aynı zamanda oy vermenin kendisi anlamına da gelebilir. Eine Wahl treffen ifadesi bir seçim yapmak anlamına gelir. zur Wahl gehen sandık başına gitmek anlamına gelir. Bir politikanın veya kişisel kararın bağlamı doğru anlamı gösterir.",
+      "translation": "zgjedhje",
+      "explanation": [
+        "Ideja kryesore: die Wahl do të thotë zgjedhje (kur zgjedh nga disa mundësi) dhe zgjedhjet (kur njerëzit zgjidhen me votë në një detyrë).",
+        "Emër i gjinisë femërore: die Wahl, shumësi die Wahlen. Për zgjedhjet politike shumë shpesh përdoret shumësi: die Wahlen finden statt. Zgjedhja si mundësi është zakonisht në njëjës: die Wahl haben, keine andere Wahl haben.",
+        "Lidhje: die Wahl treffen (bëj një zgjedhje), zur Wahl gehen (shkoj të votoj), die Wahl gewinnen (fitoj zgjedhjet)."
+      ],
       "examples": [
         {
-          "de": "Du hast die Wahl.",
-          "lv": "Bir seçeneğin var."
+          "de": "Du hast die Wahl zwischen Tee und Kaffee.",
+          "lv": "Mund të zgjedhësh midis çajit dhe kafesë."
         },
         {
-          "de": "Ich treffe meine Wahl morgen.",
-          "lv": "Jutro dokonam wyboru."
+          "de": "Die Wahlen finden im Herbst statt.",
+          "lv": "Zgjedhjet mbahen në vjeshtë."
         },
         {
-          "de": "Die Wahl findet am Sonntag statt.",
-          "lv": "Seçimler Pazar günü yapılıyor."
+          "de": "Er hatte keine andere Wahl.",
+          "lv": "Ai nuk kishte zgjedhje tjetër."
         },
         {
-          "de": "Viele Menschen gehen zur Wahl.",
-          "lv": "Birçok kişi sandık başına gidiyor."
-        },
-        {
-          "de": "Die freie Wahl ist wichtig.",
-          "lv": "Özgür seçim önemlidir."
-        },
-        {
-          "de": "Bei der Wahl stimmen wir ab.",
-          "lv": "Seçimlerde oy veriyoruz."
+          "de": "Die Wahl des Bürgermeisters ist am Sonntag.",
+          "lv": "Zgjedhja e kryetarit të bashkisë bëhet të dielën."
         }
-      ]
+      ],
+      "comparison": [
+        {
+          "word": "die Auswahl",
+          "meaning": "zgjedhje (gama e mundësive)",
+          "example": "Im Laden gibt es eine große Auswahl. – Në dyqan ka një gamë të gjerë mallrash."
+        },
+        {
+          "word": "die Entscheidung",
+          "meaning": "vendim",
+          "example": "Das ist meine Entscheidung. – Ky është vendimi im."
+        },
+        {
+          "word": "die Abstimmung",
+          "meaning": "votim",
+          "example": "Die Abstimmung ist morgen. – Votimi është nesër."
+        }
+      ],
+      "tip": [
+        "Mendo për kontekstin: Wahl pa shumës shpesh është zgjedhja si mundësi, die Wahlen — zgjedhjet politike.",
+        "Folja për zgjedhjet është wählen (votoj, zgjedh)."
+      ],
+      "important": [
+        "Mos e ngatërro die Wahl me die Auswahl: Auswahl është oferta nga e cila zgjedh."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "die Wahl",
+            "die Wahlen",
+            "Wahlen",
+            "Wahl",
+            "zur Wahl gehen",
+            "die Wahl treffen"
+          ],
+          "purple": [
+            "zgjedhje",
+            "zgjedhjet"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Wahl"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "zgjedhësh"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Wahlen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Zgjedhjet"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Wahl"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "zgjedhje"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Wahl"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Zgjedhja"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "die Auswahl"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "gama"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Entscheidung"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "vendim"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Abstimmung"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "votim"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "Wahl",
+              "die Wahlen",
+              "Wahlen"
+            ]
+          },
+          {}
+        ],
+        "important": [
+          {
+            "blue": [
+              "Wahl",
+              "die Wahl"
+            ],
+            "green": [
+              "die Auswahl",
+              "Auswahl"
+            ]
+          }
+        ]
+      }
     }
   },
   {
     "de": "Herausforderung",
     "de_article": "die",
     "de_plural": "die Herausforderungen",
-    "lv": "Wyzwanie",
+    "lv": "sfidë",
     "level": "C1"
   },
   {
     "de": "Abfallbeseitigung",
     "de_article": "die",
     "de_plural": "die Abfallbeseitigungen",
-    "lv": "Atık bertarafı",
+    "lv": "asgjësim i mbeturinave",
     "level": "C1"
   },
   {
     "de": "Abgeordnete",
     "de_article": "der",
     "de_plural": "die Abgeordneten",
-    "lv": "Yardımcısı • Temsilci • Delege",
+    "lv": "deputet • përfaqësues • delegat",
     "level": "C1"
   },
   {
     "de": "Abkommen",
     "de_article": "das",
     "de_plural": "die Abkommen",
-    "lv": "Umowa • Umowa",
+    "lv": "marrëveshje",
     "level": "C1"
   },
   {
     "de": "Abschleppdienst",
     "de_article": "der",
     "de_plural": "die Abschleppdienste",
-    "lv": "Tahliye hizmeti • Kaldırma hizmeti",
+    "lv": "shërbim tërheqjeje automjetesh",
     "level": "C1"
   },
   {
     "de": "Abteilungsleiter",
     "de_article": "der",
     "de_plural": "die Abteilungsleiter",
-    "lv": "Bölüm Başkanı",
+    "lv": "shef i departamentit • përgjegjës sektori",
     "level": "C1"
   },
   {
     "de": "antifaschistisch",
-    "lv": "Antyfaszysta",
+    "lv": "antifashist",
     "level": "C1"
   },
   {
     "de": "Aufenthaltsdauer",
     "de_article": "die",
     "de_plural": "die Aufenthaltsdauern",
-    "lv": "Konaklama süresi",
+    "lv": "kohëzgjatje e qëndrimit",
     "level": "C1"
   },
   {
     "de": "augenscheinlich",
-    "lv": "Görünüşe göre",
+    "lv": "me sa duket • dukshëm",
     "level": "C1"
   },
   {
     "de": "Güteraustausch",
     "de_article": "der",
     "de_plural": "die Güteraustausche",
-    "lv": "Mal değişimi",
+    "lv": "shkëmbim mallrash",
     "level": "C1"
   },
   {
     "de": "Flottenbasis",
     "de_article": "die",
     "de_plural": "die Flottenbasen",
-    "lv": "Baza morska",
+    "lv": "bazë detare",
     "level": "C1"
   },
   {
     "de": "Basisforschung",
     "de_article": "die",
     "de_plural": "die Basisforschungen",
-    "lv": "Badania podstawowe",
+    "lv": "kërkim themelor",
     "level": "C1"
   },
   {
     "de": "beachtenswert",
-    "lv": "Godny uwagi • Znaczny",
+    "lv": "i shquar • i konsiderueshëm",
     "level": "C1"
   },
   {
     "de": "beanspruchen",
-    "lv": "Gerektirmek • Talep etmek • Ücretlendirilmek",
+    "lv": "kërkoj • pretendoj • ngarkoj",
     "level": "C1"
   },
   {
     "de": "Bedarfsartikel",
     "de_article": "der",
     "de_plural": "die Bedarfsartikel",
-    "lv": "Dobra konsumpcyjne",
+    "lv": "mall i konsumit të gjerë",
     "level": "C1"
   },
   {
     "de": "bedingungslos",
-    "lv": "Koşulsuz • Koşulsuz • Rezervasyonsuz • Koşulsuz",
+    "lv": "pa kushte • i pakushtëzuar",
     "level": "C1"
   },
   {
     "de": "Befangenheit",
     "de_article": "die",
     "de_plural": "die Befangenheiten",
-    "lv": "Zakłopotanie • Zakłopotanie",
-    "level": "C1"
+    "lv": "ndrojtje • hutim",
+    "level": "C1",
+    "study": {
+      "id": "c1-befangenheit",
+      "layout": "standardStudy",
+      "translation": "ndrojtje • hutim",
+      "explanation": [
+        "Ideja kryesore: die Befangenheit është hutim ose ndrojtje e sikletshme që lind në një situatë të panjohur ose para njerëzve. Në drejtësi do të thotë edhe njëanshmëri, për shembull paragjykimi i një gjyqtari ose i një eksperti.",
+        "Emër i gjinisë femërore: die Befangenheit, zakonisht pa shumës. Mbiemri është befangen (i hutuar, i njëanshëm).",
+        "Në gjyq shprehja Besorgnis der Befangenheit tregon dyshim për paanshmërinë e gjyqtarit; prej saj vjen Befangenheitsantrag (kërkesë për përjashtimin e gjyqtarit)."
+      ],
+      "examples": [
+        {
+          "de": "Seine Befangenheit war deutlich zu spüren.",
+          "lv": "Hutimi i tij ndihej qartë."
+        },
+        {
+          "de": "Sie sprach ohne jede Befangenheit vor der Gruppe.",
+          "lv": "Ajo foli para grupit pa asnjë ndrojtje."
+        },
+        {
+          "de": "Vor Fremden hatte das Kind eine gewisse Befangenheit.",
+          "lv": "Para të huajve fëmija kishte njëfarë ndrojtjeje."
+        },
+        {
+          "de": "Der Anwalt stellte einen Antrag wegen Befangenheit des Richters.",
+          "lv": "Avokati paraqiti një kërkesë për shkak të njëanshmërisë së gjyqtarit."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "die Verlegenheit",
+          "meaning": "siklet",
+          "example": "Er lachte aus Verlegenheit. – Ai qeshi nga sikleti."
+        },
+        {
+          "word": "die Voreingenommenheit",
+          "meaning": "paragjykim, anësi",
+          "example": "Ihre Voreingenommenheit stört mich. – Paragjykimi i saj më shqetëson."
+        },
+        {
+          "word": "die Schüchternheit",
+          "meaning": "druajtje",
+          "example": "Seine Schüchternheit verschwand. – Druajtja e tij u zhduk."
+        }
+      ],
+      "tip": [
+        "Kur në gjyq flitet për Befangenheit, kuptimi është njëanshmëri, jo hutim.",
+        "Në kuptimin hutim fjala është librore; në jetën e përditshme thuhet më shpesh verlegen sein."
+      ],
+      "important": [
+        "E kundërta është Unbefangenheit (natyrshmëri, shkujdesje) ose Objektivität (objektivitet)."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "die Befangenheit",
+            "Befangenheit",
+            "befangen",
+            "Befangenheitsantrag"
+          ],
+          "purple": [
+            "hutim",
+            "njëanshmëri"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Befangenheit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Hutimi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Befangenheit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ndrojtje"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Befangenheit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ndrojtjeje"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Befangenheit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "njëanshmërisë"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "die Verlegenheit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "siklet"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Voreingenommenheit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "paragjykim"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Schüchternheit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "druajtje"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "Befangenheit"
+            ]
+          },
+          {}
+        ],
+        "important": [
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "beglaubigen",
-    "lv": "Resmi olarak tasdik etmek • Noter tasdiki",
+    "lv": "vërtetoj zyrtarisht • noterizoj",
     "level": "C1"
   },
   {
     "de": "beglückwünschen",
-    "lv": "Size şans diliyorum • Sizi tebrik ediyorum",
+    "lv": "uroj • përgëzoj",
     "level": "C1"
   },
   {
     "de": "beiderseitig",
-    "lv": "Dwustronny • Dwustronny",
+    "lv": "i ndërsjellë • i dyanshëm",
     "level": "C1"
   },
   {
     "de": "Familienbeihilfe",
     "de_article": "die",
     "de_plural": "die Familienbeihilfen",
-    "lv": "Aile ödeneği",
+    "lv": "shtesë familjare",
     "level": "C1"
   },
   {
     "de": "beispielhaft",
-    "lv": "Wzorowy • Wzorowy",
+    "lv": "shembullor • ilustrues",
     "level": "C1"
   },
   {
     "de": "beklagen",
-    "lv": "Yas tutmak • Acı çekmek • Yas tutmak • Ağıt yakmak • Şikayet etmek",
+    "lv": "vajtoj • ankohem • qaj",
     "level": "C1"
   },
   {
     "de": "Zahnbelag",
     "de_article": "der",
     "de_plural": "die Zahnbeläge",
-    "lv": "Diş plağı",
+    "lv": "pllakë dentare",
     "level": "C1"
   },
   {
     "de": "Belegschaft",
     "de_article": "die",
     "de_plural": "die Belegschaften",
-    "lv": "Zbiorowy • Personel",
+    "lv": "personel • kolektiv pune",
     "level": "C1"
   },
   {
     "de": "benachteiligen",
-    "lv": "Zarara neden olun • Zarara neden olun • Zarara neden olun",
+    "lv": "diskriminoj • dëmtoj",
     "level": "C1"
   },
   {
     "de": "Berufsberater",
     "de_article": "der",
     "de_plural": "die Berufsberater",
-    "lv": "Konsultant ds. zatrudnienia",
+    "lv": "këshilltar profesional",
     "level": "C1"
   },
   {
     "de": "beratschlagen",
-    "lv": "Tartışmak",
+    "lv": "këshillohem • diskutoj",
     "level": "C1"
   },
   {
     "de": "Einflussbereich",
     "de_article": "der",
     "de_plural": "die Einflussbereiche",
-    "lv": "Etki alanı",
+    "lv": "sferë ndikimi",
     "level": "C1"
   },
   {
     "de": "bereitwillig",
-    "lv": "Hizmete hazır • Uyumlu",
+    "lv": "i gatshëm • me dëshirë",
     "level": "C1"
   },
   {
     "de": "Berufsberatung",
     "de_article": "die",
     "de_plural": "die Berufsberatungen",
-    "lv": "Konsultacje orientacji zawodowej",
+    "lv": "orientim profesional",
     "level": "C1"
   },
   {
     "de": "Berufsgeheimnis",
     "de_article": "das",
     "de_plural": "die Berufsgeheimnisse",
-    "lv": "Devlet sırrı",
+    "lv": "sekret profesional",
     "level": "C1"
   },
   {
     "de": "Berufung",
     "de_article": "die",
     "de_plural": "die Berufungen",
-    "lv": "Çağırmak • Eğilim • Çekicilik",
-    "level": "C1"
+    "lv": "thirrje • emërim • apel",
+    "level": "C1",
+    "study": {
+      "id": "c1-berufung",
+      "layout": "standardStudy",
+      "translation": "thirrje • emërim • apel",
+      "explanation": [
+        "Ideja kryesore: die Berufung është fjalë me disa kuptime: thirrje (thirrje e brendshme për një profesion), emërim në një post (sidomos në universitet), referim te diçka (unter Berufung auf) dhe, në drejtësi, apel (Berufung einlegen).",
+        "Emër i gjinisë femërore: die Berufung, shumësi die Berufungen. Folja përkatëse është berufen, kurse referimin e shpreh sich berufen auf + kallëzore (Akkusativ).",
+        "Kuptimin zakonisht e përcakton lidhja: Berufung einlegen — bëj apel (ankim); unter Berufung auf — duke iu referuar."
+      ],
+      "examples": [
+        {
+          "de": "Sie spürt die Berufung zur Ärztin.",
+          "lv": "Ajo e ndien thirrjen për t'u bërë mjeke."
+        },
+        {
+          "de": "Die Anwältin legte gegen das Urteil Berufung ein.",
+          "lv": "Avokatja bëri apel kundër vendimit gjyqësor."
+        },
+        {
+          "de": "Er lehnte die Fragen unter Berufung auf das Datenschutzgesetz ab.",
+          "lv": "Ai i refuzoi pyetjet duke iu referuar ligjit për mbrojtjen e të dhënave."
+        },
+        {
+          "de": "Seine Berufung an die Universität kam überraschend.",
+          "lv": "Emërimi i tij në universitet erdhi papritur."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "der Beruf",
+          "meaning": "profesion",
+          "example": "Mein Beruf ist Lehrer. – Profesioni im është mësues."
+        },
+        {
+          "word": "der Einspruch",
+          "meaning": "kundërshtim",
+          "example": "Er legte Einspruch ein. – Ai paraqiti kundërshtim."
+        },
+        {
+          "word": "die Revision",
+          "meaning": "rekurs (në gjykatën më të lartë)",
+          "example": "Die Revision wurde abgelehnt. – Rekursi u rrëzua."
+        }
+      ],
+      "tip": [
+        "Mbaj mend dy lidhje të qëndrueshme: Berufung einlegen (bëj apel) dhe unter Berufung auf (duke iu referuar).",
+        "Der Beruf (profesion) dhe die Berufung (thirrje) janë fjalë të afërta, por kanë kuptime të ndryshme."
+      ],
+      "important": [
+        "Apeli në sistemin juridik gjerman (Berufung) nuk është e njëjta gjë me Revision, i cili shqyrton vetëm zbatimin e ligjit."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Berufung",
+            "Berufungen"
+          ],
+          "purple": [
+            "thirrje",
+            "emërim",
+            "referim",
+            "apel",
+            "ankim"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Berufung"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "thirrjen"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Berufung"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apel"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Berufung"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "referuar"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Berufung"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Emërimi"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "der Beruf"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "profesion"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Einspruch"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "kundërshtim"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Revision"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "rekurs"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "Berufung"
+            ]
+          },
+          {
+            "blue": [
+              "Berufung"
+            ],
+            "green": [
+              "der Beruf",
+              "Beruf"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "Berufung"
+            ],
+            "green": [
+              "Revision"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Besatzungsmacht",
     "de_article": "die",
     "de_plural": "die Besatzungsmächte",
-    "lv": "Meslek gücü",
+    "lv": "fuqi pushtuese",
     "level": "C1"
   },
   {
     "de": "Beschaffenheit",
     "de_article": "die",
     "de_plural": "die Beschaffenheiten",
-    "lv": "Kalite • Doğa • Öz",
+    "lv": "cilësi • natyrë • përbërje",
     "level": "C1"
   },
   {
     "de": "bescheinigen",
-    "lv": "Sertifikalandırın • Sertifika düzenleyin",
+    "lv": "vërtetoj • lëshoj vërtetim",
     "level": "C1"
   },
   {
     "de": "Bescheinigung",
     "de_article": "die",
     "de_plural": "die Bescheinigungen",
-    "lv": "Referencja • Certyfikat • Atest • Atest",
+    "lv": "vërtetim • certifikatë",
     "level": "C1"
   },
   {
     "de": "beschlagnahmen",
-    "lv": "Ele geçirmek • El koymak • Kamulaştırmak",
+    "lv": "sekuestroj • konfiskoj",
     "level": "C1"
   },
   {
     "de": "beschuldigen",
-    "lv": "Suçlamak • Hakaret",
+    "lv": "akuzoj • fajësoj",
     "level": "C1"
   },
   {
     "de": "Besonderheit",
     "de_article": "die",
     "de_plural": "die Besonderheiten",
-    "lv": "Tuhaflık • Gariplik",
+    "lv": "veçori • veçanti",
     "level": "C1"
   },
   {
     "de": "beträchtlich",
-    "lv": "Önemli • Oldukça büyük • Önemli",
+    "lv": "i konsiderueshëm • i madh",
     "level": "C1"
   },
   {
     "de": "Betriebskosten",
     "de_article": "die",
-    "lv": "Koszty operacyjne firmy • Koszty produkcji",
+    "lv": "shpenzime operative • kosto prodhimi",
     "level": "C1"
   },
   {
     "de": "Betriebssystem",
     "de_article": "das",
     "de_plural": "die Betriebssysteme",
-    "lv": "System instalacji komputera",
+    "lv": "sistem operativ",
     "level": "C1"
   },
   {
     "de": "bevollmächtigen",
-    "lv": "Upoważnić • Nadać organowi uprawnienia",
+    "lv": "autorizoj • i jap prokurë",
     "level": "C1"
   },
   {
     "de": "bevorstehend",
-    "lv": "Nadchodzące • Następne",
+    "lv": "i ardhshëm • i afërt",
     "level": "C1"
   },
   {
     "de": "bewähren, sich",
-    "lv": "Doğru olduğunu kanıtlayın • Gerekçelendirin",
+    "lv": "provohem • tregohem i zoti",
     "level": "C1"
   },
   {
     "de": "Beweismaterial",
     "de_article": "das",
     "de_plural": "die Beweismaterialien",
-    "lv": "Fiziksel kanıt",
+    "lv": "prova materiale",
     "level": "C1"
   },
   {
     "de": "bewerben, sich",
-    "lv": "Stosować • Biegać • Dążyć • Aspirować",
+    "lv": "aplikoj • kandidoj",
     "level": "C1"
   },
   {
     "de": "Bezugsperson",
     "de_article": "die",
     "de_plural": "die Bezugspersonen",
-    "lv": "İletişim • En yakın kişi",
+    "lv": "person referimi • njeri i afërt",
     "level": "C1"
   },
   {
     "de": "Bildhauerkunst",
     "de_article": "die",
-    "lv": "Heykel",
+    "lv": "skulpturë",
     "level": "C1"
   },
   {
     "de": "Bilanz",
     "de_article": "die",
     "de_plural": "die Bilanzen",
-    "lv": "Salınım",
+    "lv": "bilanc",
     "level": "C1"
   },
   {
     "de": "Finanzblockade",
     "de_article": "die",
     "de_plural": "die Finanzblockaden",
-    "lv": "Blokada finansowa",
+    "lv": "bllokadë financiare",
     "level": "C1"
   },
   {
     "de": "Blutuntersuchung",
     "de_article": "die",
     "de_plural": "die Blutuntersuchungen",
-    "lv": "Analiza krwi",
+    "lv": "analizë gjaku",
     "level": "C1"
   },
   {
     "de": "Blutsverwandte",
     "de_article": "der",
     "de_plural": "die Blutsverwandten",
-    "lv": "Krewny",
+    "lv": "i afërm gjaku",
     "level": "C1"
   },
   {
     "de": "Botschafter",
     "de_article": "der",
     "de_plural": "die Botschafter",
-    "lv": "Ambasador",
+    "lv": "ambasador",
     "level": "C1"
   },
   {
     "de": "Bundesdeutsche",
     "de_article": "der",
     "de_plural": "die Bundesdeutschen",
-    "lv": "Obywatel FFR",
+    "lv": "shtetas i Gjermanisë Federale",
     "level": "C1"
   },
   {
     "de": "Computersprache",
     "de_article": "die",
     "de_plural": "die Computersprachen",
-    "lv": "Bilgisayar dili",
+    "lv": "gjuhë programimi",
     "level": "C1"
   },
   {
     "de": "Dachgepäckträger",
     "de_article": "der",
     "de_plural": "die Dachgepäckträger",
-    "lv": "Araba tavan portbagajı",
+    "lv": "mbajtëse bagazhi për tavanin e makinës",
     "level": "C1"
   },
   {
     "de": "Datenübermittlung",
     "de_article": "die",
     "de_plural": "die Datenübermittlungen",
-    "lv": "Transmisja danych",
+    "lv": "transmetim të dhënash",
     "level": "C1"
   },
   {
     "de": "Datenübertragung",
     "de_article": "die",
     "de_plural": "die Datenübertragungen",
-    "lv": "Transmisja danych",
+    "lv": "transmetim të dhënash",
     "level": "C1"
   },
   {
     "de": "dauerhaft",
-    "lv": "Dayanıklı • Uzun • Dayanıklı",
+    "lv": "i qëndrueshëm • i përhershëm • i fortë",
     "level": "C1"
   },
   {
     "de": "dazwischenkommen",
-    "lv": "Olmak • Arasında olmak • Müdahale etmek",
+    "lv": "ndodh papritur • ndërhyj",
     "level": "C1"
   },
   {
     "de": "Haushaltsdefizit",
     "de_article": "das",
     "de_plural": "die Haushaltsdefizite",
-    "lv": "Bütçe açığı",
+    "lv": "deficit buxhetor",
     "level": "C1"
   },
   {
     "de": "Zolldeklaration",
     "de_article": "die",
     "de_plural": "die Zolldeklarationen",
-    "lv": "Gümrük beyanı",
+    "lv": "deklaratë doganore",
     "level": "C1"
   },
   {
     "de": "Delegation",
     "de_article": "die",
     "de_plural": "die Delegationen",
-    "lv": "Delegacja",
+    "lv": "delegacion",
     "level": "C1"
   },
   {
     "de": "Eigentumsdelikt",
     "de_article": "das",
     "de_plural": "die Eigentumsdelikte",
-    "lv": "Mülkiyet haklarının ihlali",
+    "lv": "vepër penale kundër pronës",
     "level": "C1"
   },
   {
     "de": "Verkehrsdelikt",
     "de_article": "das",
     "de_plural": "die Verkehrsdelikte",
-    "lv": "Trafik kurallarının ihlali",
+    "lv": "shkelje e rregullave të qarkullimit",
     "level": "C1"
   },
   {
     "de": "dementsprechend",
-    "lv": "Odpowiednio",
+    "lv": "në përputhje me këtë • rrjedhimisht",
     "level": "C1"
   },
   {
     "de": "dessen ungeachtet",
-    "lv": "Pomimo tego • Pomimo tego",
+    "lv": "megjithatë • pavarësisht nga kjo",
     "level": "C1"
   },
   {
     "de": "Nachrichtendienst",
     "de_article": "der",
     "de_plural": "die Nachrichtendienste",
-    "lv": "Gizli devlet servisi",
+    "lv": "shërbim i fshehtë • shërbim informativ",
     "level": "C1"
   },
   {
     "de": "Rettungsdienst",
     "de_article": "der",
     "de_plural": "die Rettungsdienste",
-    "lv": "Kurtarma hizmeti",
+    "lv": "shërbim shpëtimi",
     "level": "C1"
   },
   {
     "de": "Dienstleistung",
     "de_article": "die",
     "de_plural": "die Dienstleistungen",
-    "lv": "Ev hizmetçileri",
+    "lv": "shërbim",
     "level": "C1"
   },
   {
     "de": "dienstpflichtig",
-    "lv": "Oddany do służby wojskowej",
+    "lv": "i detyruar për shërbim ushtarak",
     "level": "C1"
   },
   {
     "de": "diensttauglich",
-    "lv": "Nadający się do służby wojskowej",
+    "lv": "i aftë për shërbim ushtarak",
     "level": "C1"
   },
   {
     "de": "Dieseltreibstoff",
     "de_article": "der",
     "de_plural": "die Dieseltreibstoffe",
-    "lv": "Dizel",
+    "lv": "naftë",
     "level": "C1"
   },
   {
     "de": "Diplomatie",
     "de_article": "die",
-    "lv": "Dyplomacja",
+    "lv": "diplomaci",
     "level": "C1"
   },
   {
     "de": "diplomatisch",
-    "lv": "Dyplomatyczny",
+    "lv": "diplomatik",
     "level": "C1"
   },
   {
     "de": "Dirigentenstab",
     "de_article": "der",
     "de_plural": "die Dirigentenstäbe",
-    "lv": "Batuta dyrygenta",
+    "lv": "shkop dirigjenti",
     "level": "C1"
   },
   {
     "de": "Diskettenlaufwerk",
     "de_article": "das",
     "de_plural": "die Diskettenlaufwerke",
-    "lv": "Stacja dyskietek",
+    "lv": "njësi disketash",
     "level": "C1"
   },
   {
     "de": "disqualifizieren",
-    "lv": "Diskalifiye",
+    "lv": "skualifikoj",
     "level": "C1"
   },
   {
     "de": "Durchfuhrverbot",
     "de_article": "das",
     "de_plural": "die Durchfuhrverbote",
-    "lv": "Zakaz przejazdu",
+    "lv": "ndalim tranziti",
     "level": "C1"
   },
   {
     "de": "Durchgangsverkehr",
     "de_article": "der",
-    "lv": "Ruch tranzytowy",
+    "lv": "trafik tranziti",
     "level": "C1"
   },
   {
     "de": "ehrenhaft",
-    "lv": "Uczciwy • Honorowy • Szanowany",
+    "lv": "i ndershëm • i nderuar",
     "level": "C1"
   },
   {
     "de": "Einflusssphäre",
     "de_article": "die",
     "de_plural": "die Einflusssphären",
-    "lv": "Etki alanı",
+    "lv": "sferë ndikimi",
     "level": "C1"
   },
   {
     "de": "eingeschrieben",
-    "lv": "Zarejestrowany • Zarejestrowany",
+    "lv": "i regjistruar • rekomande",
     "level": "C1"
   },
   {
     "de": "Währungseinheit",
     "de_article": "die",
     "de_plural": "die Währungseinheiten",
-    "lv": "Para birimi",
+    "lv": "njësi monetare",
     "level": "C1"
   },
   {
     "de": "Einkommensteuer",
     "de_article": "die",
     "de_plural": "die Einkommensteuern",
-    "lv": "Podatek dochodowy",
+    "lv": "tatim mbi të ardhurat",
     "level": "C1"
   },
   {
     "de": "Einlage",
     "de_article": "die",
     "de_plural": "die Einlagen",
-    "lv": "Katkı payı • Depozito • Mektubun eki",
+    "lv": "derdhje • depozitë • shtojcë",
     "level": "C1"
   },
   {
     "de": "einreden",
-    "lv": "Söyle • Israr et • İkna etmeye çalış",
+    "lv": "i mbush mendjen • bind",
     "level": "C1"
   },
   {
     "de": "sich einschmeicheln",
-    "lv": "Schlebiać • Schlebiać",
+    "lv": "i bëj lajka • lajkatoj",
     "level": "C1"
   },
   {
     "de": "Einschreibebrief",
     "de_article": "der",
     "de_plural": "die Einschreibebriefe",
-    "lv": "List polecony",
+    "lv": "letër rekomande",
     "level": "C1"
   },
   {
     "de": "Einspruchsrecht",
     "de_article": "das",
     "de_plural": "die Einspruchsrechte",
-    "lv": "Prawo do protestu • Prawo weta",
+    "lv": "e drejtë kundërshtimi • e drejtë vetoje",
     "level": "C1"
   },
   {
     "de": "Einstandsgebühr",
     "de_article": "die",
     "de_plural": "die Einstandsgebühren",
-    "lv": "Teminat ücreti",
+    "lv": "tarifë hyrjeje",
     "level": "C1"
   },
   {
     "de": "Einverständnis",
     "de_article": "das",
     "de_plural": "die Einverständnisse",
-    "lv": "Zrozumienie • Konsensus • Zgoda",
+    "lv": "pëlqim • mirëkuptim",
     "level": "C1"
   },
   {
     "de": "Eisenbahnunglück",
     "de_article": "das",
     "de_plural": "die Eisenbahnunglücke",
-    "lv": "Katastrofa kolejowa",
+    "lv": "aksident hekurudhor",
     "level": "C1"
   },
   {
     "de": "Eisenbahnverkehr",
     "de_article": "der",
     "de_plural": "die Eisenbahnverkehre",
-    "lv": "Ruch kolejowy",
+    "lv": "trafik hekurudhor",
     "level": "C1"
   },
   {
     "de": "Elektrizitätswerk",
     "de_article": "das",
     "de_plural": "die Elektrizitätswerke",
-    "lv": "Elektrownia",
+    "lv": "central elektrik",
     "level": "C1"
   },
   {
     "de": "Elementarbegriff",
     "de_article": "der",
     "de_plural": "die Elementarbegriffe",
-    "lv": "Podstawowa koncepcja",
+    "lv": "koncept bazë",
     "level": "C1"
   },
   {
     "de": "Elementarregel",
     "de_article": "die",
     "de_plural": "die Elementarregeln",
-    "lv": "Prawo podstawowe",
+    "lv": "rregull bazë",
     "level": "C1"
   },
   {
     "de": "Energieerzeugung",
     "de_article": "die",
     "de_plural": "die Energieerzeugungen",
-    "lv": "Produkcja energii",
+    "lv": "prodhim energjie",
     "level": "C1"
   },
   {
     "de": "Energieversorgung",
     "de_article": "die",
     "de_plural": "die Energieversorgungen",
-    "lv": "Enerji temini",
+    "lv": "furnizim me energji",
     "level": "C1"
   },
   {
     "de": "entgegensetzen",
-    "lv": "Przeciwny • Przeciwny",
+    "lv": "kundërvë",
     "level": "C1"
   },
   {
     "de": "sich entgegensetzen",
-    "lv": "Direnmek",
+    "lv": "kundërvihem",
     "level": "C1"
   },
   {
     "de": "entschädigen",
-    "lv": "Telafi et • Telafi et",
+    "lv": "dëmshpërblej • kompensoj",
     "level": "C1"
   },
   {
     "de": "sich entschließen",
-    "lv": "Zdecydować • Zdecydować",
+    "lv": "vendos",
     "level": "C1"
   },
   {
     "de": "entschlossen",
-    "lv": "Zdeterminowany • Zdeterminowany • Niezachwiany",
+    "lv": "i vendosur",
     "level": "C1"
   },
   {
     "de": "entschlüsseln",
-    "lv": "Şifrelemeyi Aç",
+    "lv": "deshifroj",
     "level": "C1"
   },
   {
     "de": "Gesetzentwurf",
     "de_article": "der",
     "de_plural": "die Gesetzentwürfe",
-    "lv": "Fatura",
+    "lv": "projektligj",
     "level": "C1"
   },
   {
     "de": "Entziehungskur",
     "de_article": "die",
     "de_plural": "die Entziehungskuren",
-    "lv": "Alkolikler ve uyuşturucu bağımlıları için tedavi kursu",
+    "lv": "kurë kundër varësisë",
     "level": "C1"
   },
   {
     "de": "Erbkrankheit",
     "de_article": "die",
     "de_plural": "die Erbkrankheiten",
-    "lv": "Choroba wrodzona",
+    "lv": "sëmundje e trashëguar",
     "level": "C1"
   },
   {
     "de": "Kriegserklärung",
     "de_article": "die",
     "de_plural": "die Kriegserklärungen",
-    "lv": "Wypowiedzenie wojny",
+    "lv": "shpallje lufte",
     "level": "C1"
   },
   {
     "de": "Erntearbeiten",
     "de_article": "die",
-    "lv": "Hasat işlemleri",
+    "lv": "punime të korrjes",
     "level": "C1"
   },
   {
     "de": "Ersatzspieler",
     "de_article": "der",
     "de_plural": "die Ersatzspieler",
-    "lv": "Zawodnik rezerwowy • Zawodnik rezerwowy",
+    "lv": "lojtar rezervë",
     "level": "C1"
   },
   {
     "de": "Erstaufführung",
     "de_article": "die",
     "de_plural": "die Erstaufführungen",
-    "lv": "Premiera • Premiera",
+    "lv": "premierë",
     "level": "C1"
   },
   {
     "de": "festgesetzt",
-    "lv": "Ustalone • Warunkowe • Ustalone",
-    "level": "C1"
+    "lv": "i caktuar • i përcaktuar",
+    "level": "C1",
+    "study": {
+      "id": "c1-festgesetzt",
+      "layout": "standardStudy",
+      "translation": "i caktuar • i përcaktuar",
+      "explanation": [
+        "Ideja kryesore: festgesetzt është pjesorja e festsetzen dhe do të thotë i caktuar, i vendosur zyrtarisht (afat, çmim, dënim). Përshkruan diçka që është caktuar si e detyrueshme.",
+        "Folje e ndashme: er setzt fest, setzte fest, hat festgesetzt. Si mbiemër lakohet: der festgesetzte Termin, die festgesetzte Frist. Në pasiv: wurde festgesetzt.",
+        "Në drejtësi festsetzen mund të thotë edhe të ndalosh, të arrestosh një person: Die Täter wurden festgesetzt."
+      ],
+      "examples": [
+        {
+          "de": "Der Termin ist auf den 5. Mai festgesetzt.",
+          "lv": "Data është caktuar për më 5 maj."
+        },
+        {
+          "de": "Die Preise wurden vom Staat festgesetzt.",
+          "lv": "Çmimet u caktuan nga shteti."
+        },
+        {
+          "de": "Die Strafe wurde auf zwei Jahre festgesetzt.",
+          "lv": "Dënimi u caktua në dy vjet."
+        },
+        {
+          "de": "Die festgesetzte Frist läuft morgen ab.",
+          "lv": "Afati i caktuar skadon nesër."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "festgelegt",
+          "meaning": "i përcaktuar",
+          "example": "Der Plan ist festgelegt. – Plani është përcaktuar."
+        },
+        {
+          "word": "beschlossen",
+          "meaning": "i vendosur (me vendim)",
+          "example": "Das wurde beschlossen. – Kjo u vendos."
+        },
+        {
+          "word": "bestimmt",
+          "meaning": "i caktuar, i paracaktuar",
+          "example": "Der Ort ist bestimmt. – Vendi është caktuar."
+        }
+      ],
+      "tip": [
+        "Përdoret shpesh me Frist, Termin, Preis, Strafe, Höhe: auf einen Betrag festgesetzt.",
+        "Në bisedë thuhet më shpesh festgelegt; festgesetzt tingëllon më zyrtare."
+      ],
+      "important": [
+        "Kujdes me kuptimin: festgesetzt do të thotë i arrestuar vetëm në kontekstin e policisë ose të gjykatës."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "festgesetzt",
+            "festsetzen",
+            "setzt fest",
+            "setzte fest",
+            "festgesetzte",
+            "hat festgesetzt"
+          ],
+          "purple": [
+            "caktuar",
+            "arrestosh"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "festgesetzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "caktuar"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "festgesetzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "caktuan"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "festgesetzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "caktua"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "festgesetzte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "caktuar"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "festgelegt"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "përcaktuar"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "beschlossen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "vendosur"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "bestimmt"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "paracaktuar"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "festgesetzt"
+            ]
+          },
+          {
+            "blue": [
+              "festgesetzt"
+            ],
+            "green": [
+              "festgelegt"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "festgesetzt"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "feuergefährlich",
-    "lv": "Yanmaz",
+    "lv": "i ndezshëm • lehtësisht i djegshëm",
     "level": "C1"
   },
   {
     "de": "Feuerversicherung",
     "de_article": "die",
     "de_plural": "die Feuerversicherungen",
-    "lv": "Ubezpieczenie od ognia",
+    "lv": "sigurim kundër zjarrit",
     "level": "C1"
   },
   {
     "de": "Feuerwerkskörper",
     "de_article": "der",
     "de_plural": "die Feuerwerkskörper",
-    "lv": "Havai fişek roketi",
+    "lv": "fishekzjarr",
     "level": "C1"
   },
   {
     "de": "Fleckenentferner",
     "de_article": "der",
     "de_plural": "die Fleckenentferner",
-    "lv": "Odplamiacz",
+    "lv": "heqës njollash",
     "level": "C1"
   },
   {
     "de": "Flüchtlingslager",
     "de_article": "das",
     "de_plural": "die Flüchtlingslager",
-    "lv": "Mülteci kampı",
+    "lv": "kamp refugjatësh",
     "level": "C1"
   },
   {
     "de": "Fortbildungskurse",
     "de_article": "die",
-    "lv": "Kursy doskonalenia zawodowego",
+    "lv": "kurse kualifikimi",
     "level": "C1"
   },
   {
     "de": "fortgeschritten",
-    "lv": "Stosunkowo późno w rozwoju",
+    "lv": "i përparuar • në fazë të përparuar",
     "level": "C1"
   },
   {
     "de": "fortschrittlich",
-    "lv": "Progresywny",
+    "lv": "përparimtar • progresiv",
     "level": "C1"
   },
   {
     "de": "Freilichtmuseum",
     "de_article": "das",
     "de_plural": "die Freilichtmuseen",
-    "lv": "Skansen",
+    "lv": "muze në ajër të hapur",
     "level": "C1"
   },
   {
     "de": "Friedensangebot",
     "de_article": "das",
     "de_plural": "die Friedensangebote",
-    "lv": "Bir barış teklifi",
+    "lv": "ofertë paqeje",
     "level": "C1"
   },
   {
     "de": "Friedensvertrag",
     "de_article": "der",
     "de_plural": "die Friedensverträge",
-    "lv": "Traktat pokojowy",
+    "lv": "traktat paqeje",
     "level": "C1"
   },
   {
     "de": "Friedenspolitik",
     "de_article": "die",
     "de_plural": "die Friedenspolitiken",
-    "lv": "Polityka pokojowa",
+    "lv": "politikë paqeje",
     "level": "C1"
   },
   {
     "de": "Fuhrunternehmen",
     "de_article": "das",
     "de_plural": "die Fuhrunternehmen",
-    "lv": "Yük taşımacılığı yapan bir firma",
+    "lv": "ndërmarrje transporti mallrash",
     "level": "C1"
   },
   {
     "de": "soziale Fürsorge",
     "de_article": "die",
-    "lv": "Sosyal güvenlik",
+    "lv": "kujdes social • mirëqenie sociale",
     "level": "C1"
   },
   {
     "de": "Auffassungsgabe",
     "de_article": "die",
     "de_plural": "die Auffassungsgaben",
-    "lv": "Algılama yeteneği",
+    "lv": "aftësi kuptimi",
     "level": "C1"
   },
   {
     "de": "Gebrauchtwaren",
     "de_article": "die",
-    "lv": "Kullanılmış ürünler",
+    "lv": "mallra të përdorura",
     "level": "C1"
   },
   {
     "de": "Geburtenrate",
     "de_article": "die",
     "de_plural": "die Geburtenraten",
-    "lv": "Doğum oranı",
+    "lv": "normë e lindshmërisë",
     "level": "C1"
   },
   {
     "de": "Gefängniszelle",
     "de_article": "die",
     "de_plural": "die Gefängniszellen",
-    "lv": "Hapishane hücresi",
+    "lv": "qeli burgu",
     "level": "C1"
   },
   {
     "de": "Gefäßverengung",
     "de_article": "die",
     "de_plural": "die Gefäßverengungen",
-    "lv": "Kan damarlarının daralması",
+    "lv": "ngushtim i enëve të gjakut",
     "level": "C1"
   },
   {
     "de": "Geflügelzucht",
     "de_article": "die",
     "de_plural": "die Geflügelzuchten",
-    "lv": "Hodowla drobiu",
+    "lv": "shpendari",
     "level": "C1"
   },
   {
     "de": "Gefrierpunkt",
     "de_article": "der",
     "de_plural": "die Gefrierpunkte",
-    "lv": "Temperatura zamarzania • Punkt zerowy",
+    "lv": "pikë ngrirjeje",
     "level": "C1"
   },
   {
     "de": "Gehaltskürzung",
     "de_article": "die",
     "de_plural": "die Gehaltskürzungen",
-    "lv": "Maaş kesintisi",
+    "lv": "ulje rroge",
     "level": "C1"
   },
   {
     "de": "Beichtgeheimnis",
     "de_article": "das",
     "de_plural": "die Beichtgeheimnisse",
-    "lv": "İtiraf edilen bir sır",
+    "lv": "sekret i rrëfimit",
     "level": "C1"
   },
   {
     "de": "Gehirnschlag",
     "de_article": "der",
     "de_plural": "die Gehirnschläge",
-    "lv": "Udar",
+    "lv": "pikë • goditje në tru",
     "level": "C1"
   },
   {
     "de": "Geisterstunde",
     "de_article": "die",
     "de_plural": "die Geisterstunden",
-    "lv": "Hayalet Saati",
+    "lv": "orë e fantazmave",
     "level": "C1"
   },
   {
     "de": "geistesabwesend",
-    "lv": "Rozproszony",
+    "lv": "i hutuar • i shpërqendruar",
     "level": "C1"
   },
   {
     "de": "geisteskrank",
-    "lv": "Akıl hastası",
+    "lv": "i sëmurë mendor",
     "level": "C1"
   },
   {
     "de": "geistesschwach",
-    "lv": "Słaby duchem • Uparty",
+    "lv": "i prapambetur mendor • i metë nga mendja",
     "level": "C1"
   },
   {
     "de": "Geländefahrt",
     "de_article": "die",
     "de_plural": "die Geländefahrten",
-    "lv": "Ülkelerarası gezi",
+    "lv": "udhëtim jashtë rrugës",
     "level": "C1"
   },
   {
     "de": "Geldentwertung",
     "de_article": "die",
     "de_plural": "die Geldentwertungen",
-    "lv": "Inflacja",
+    "lv": "inflacion • zhvlerësim i parasë",
     "level": "C1"
   },
   {
     "de": "gelegentlich",
-    "lv": "Czasami • Okazja • Z powodu",
+    "lv": "herë pas here • rastësor • me rastin e",
     "level": "C1",
     "study": {
       "id": "c1-gelegentlich",
       "layout": "standardStudy",
-      "translation": "Czasami • Okazja • Z powodu",
-      "explanation": "Ana fikir: gelegentlich üç işlevi olan bir kelimedir. Sıfat: tesadüfi, tesadüfi (ein gelegentlicher Besuch). Zarf: bazen, zaman zaman (Er kommt gelegentlich). Edat + datif: nedeniyle (gelegentlich des Festes).",
+      "translation": "herë pas here • rastësor • me rastin e",
+      "explanation": [
+        "Ideja kryesore: gelegentlich më shpesh është ndajfolje me kuptimin herë pas here, kohë pas kohe: diçka ndodh jo rregullisht, por nganjëherë. Si mbiemër do të thotë rastësor ose i veçantë: gelegentliche Schauer — reshje të shpërndara shiu.",
+        "Më rrallë dhe më zyrtarisht gelegentlich është parafjalë me rasën gjinore (Genitiv), me kuptimin me rastin e: gelegentlich seines Geburtstags — me rastin e ditëlindjes së tij. Ky përdorim sot tingëllon shumë zyrtar ose i vjetruar.",
+        "Si ndajfolje gelegentlich nuk lakohet; si mbiemër merr mbaresa."
+      ],
       "examples": [
         {
-          "de": "Er kommt gelegentlich vorbei.",
-          "lv": "Czasami wpada."
+          "de": "Wir treffen uns gelegentlich auf einen Kaffee.",
+          "lv": "Ne takohemi herë pas here për një kafe."
         },
         {
-          "de": "Ein gelegentlicher Besuch reicht.",
-          "lv": "Wystarczy okazjonalna wizyta."
+          "de": "Er raucht nur gelegentlich.",
+          "lv": "Ai pi duhan vetëm herë pas here."
         },
         {
-          "de": "Gelegentlich des Festes gab es eine Rede.",
-          "lv": "Bayram dolayısıyla bir konuşma yapıldı."
+          "de": "Gelegentliche Schauer sind möglich.",
+          "lv": "Janë të mundshme reshje të shpërndara shiu."
+        },
+        {
+          "de": "Gelegentlich seines Geburtstags hielt er eine Rede.",
+          "lv": "Me rastin e ditëlindjes së tij ai mbajti një fjalim."
         }
       ],
       "comparison": [
         {
-          "word": "gelegentlich (Adv.)",
-          "meaning": "Czasami • Od czasu do czasu",
-          "example": "Er kommt gelegentlich. = Viņš reizēm atnāk."
-        },
-        {
-          "word": "gelegentlich (Adj.)",
-          "meaning": "Przypadkowy • Przypadkowy",
-          "example": "ein gelegentlicher Besuch = gadījuma apmeklējums"
-        },
-        {
-          "word": "gelegentlich (+ Gen.)",
-          "meaning": "Sonuç olarak",
-          "example": "gelegentlich des Festes = svētku sakarā"
-        },
-        {
           "word": "manchmal",
-          "meaning": "Ndonjëherë.",
-          "example": "Manchmal regnet es. = Reizēm līst."
+          "meaning": "nganjëherë",
+          "example": "Manchmal gehe ich laufen. – Nganjëherë shkoj për vrapim."
+        },
+        {
+          "word": "ab und zu",
+          "meaning": "kohë pas kohe",
+          "example": "Ab und zu rufe ich ihn an. – Kohë pas kohe i telefonoj."
+        },
+        {
+          "word": "selten",
+          "meaning": "rrallë",
+          "example": "Er kommt selten. – Ai vjen rrallë."
         }
       ],
-      "tip": {
-        "leftBlocks": [
-          {
-            "text": "Cümledeki konum yardımcı olur: isimden önce = sıfat • Fiilden sonra = zarf • + genel hali = edat."
-          }
-        ]
-      },
-      "important": {
-        "text": "Przym.: swobodny. Adw.: czasami. Przygotowanie + Gen.: z powodu. Kontekst determinuje znaczenie."
-      },
+      "tip": [
+        "Nëse do të thuash herë pas here, por jo rregullisht, përdor gelegentlich ose ab und zu.",
+        "Në jetën e përditshme do të dëgjosh më shpesh manchmal; gelegentlich është më i zgjedhur dhe më shumë i gjuhës së shkruar."
+      ],
+      "important": [
+        "Gelegentlich nuk do të thotë rast ose mundësi: për këtë ka die Gelegenheit (rast, mundësi)."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "gelegentlich"
+            "gelegentlich",
+            "gelegentliche",
+            "gelegentlich seines Geburtstags"
+          ],
+          "purple": [
+            "herë pas here",
+            "rastësor",
+            "me rastin e",
+            "shpërndara"
           ]
         },
         "examples": [
@@ -2472,7 +3799,11 @@ const C1_WORDS = [
                 "gelegentlich"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "herë pas here"
+              ]
+            }
           },
           {
             "de": {
@@ -2480,7 +3811,23 @@ const C1_WORDS = [
                 "gelegentlich"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "herë pas here"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Gelegentliche"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "shpërndara"
+              ]
+            }
           },
           {
             "de": {
@@ -2488,7 +3835,75 @@ const C1_WORDS = [
                 "Gelegentlich"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "rastin"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "manchmal"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "nganjëherë"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "ab und zu"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "kohë pas kohe"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "selten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "rrallë"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "gelegentlich"
+            ],
+            "green": [
+              "ab und zu"
+            ]
+          },
+          {
+            "blue": [
+              "gelegentlich"
+            ],
+            "green": [
+              "manchmal"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "gelegentlich",
+              "Gelegentlich"
+            ]
           }
         ]
       }
@@ -2498,1333 +3913,1535 @@ const C1_WORDS = [
     "de": "Gemäldegalerie",
     "de_article": "die",
     "de_plural": "die Gemäldegalerien",
-    "lv": "Galeria malarstwa",
+    "lv": "galeri pikture",
     "level": "C1"
   },
   {
     "de": "Gemäldesammlung",
     "de_article": "die",
     "de_plural": "die Gemäldesammlungen",
-    "lv": "Bir resim koleksiyonu",
+    "lv": "koleksion pikturash",
     "level": "C1"
   },
   {
     "de": "Gemeineigentum",
     "de_article": "das",
-    "lv": "Kamu malı",
+    "lv": "pronë e përbashkët • pronë publike",
     "level": "C1"
   },
   {
     "de": "Gemütsmensch",
     "de_article": "der",
     "de_plural": "die Gemütsmenschen",
-    "lv": "Güzel ve dost canlısı bir insan",
+    "lv": "njeri zemërmirë",
     "level": "C1"
   },
   {
     "de": "Genmanipulation",
     "de_article": "die",
     "de_plural": "die Genmanipulationen",
-    "lv": "Modyfikacja genu",
+    "lv": "manipulim gjenetik",
     "level": "C1"
   },
   {
     "de": "Generalprobe",
     "de_article": "die",
     "de_plural": "die Generalproben",
-    "lv": "Genel prova",
+    "lv": "provë gjenerale",
     "level": "C1"
   },
   {
     "de": "Generalstreik",
     "de_article": "der",
     "de_plural": "die Generalstreiks",
-    "lv": "Strajk generalny",
+    "lv": "grevë e përgjithshme",
     "level": "C1"
   },
   {
     "de": "genmanipuliert",
-    "lv": "Ze zmodyfikowanymi genami",
+    "lv": "i modifikuar gjenetikisht",
     "level": "C1"
   },
   {
     "de": "Gepäckschein",
     "de_article": "der",
     "de_plural": "die Gepäckscheine",
-    "lv": "Odbiór bagażu",
+    "lv": "dëftesë bagazhi",
     "level": "C1"
   },
   {
     "de": "Gepflogenheit",
     "de_article": "die",
     "de_plural": "die Gepflogenheiten",
-    "lv": "Niestandardowe • Niestandardowe",
+    "lv": "zakon • traditë",
     "level": "C1"
   },
   {
     "de": "geradebiegen",
-    "lv": "Düzleştir • Düzelt",
+    "lv": "drejtoj • ndreq",
     "level": "C1"
   },
   {
     "de": "Schwurgericht",
     "de_article": "das",
     "de_plural": "die Schwurgerichte",
-    "lv": "Jüri duruşması",
+    "lv": "gjykatë me juri",
     "level": "C1"
   },
   {
     "de": "Gerichtshof",
     "de_article": "der",
     "de_plural": "die Gerichtshöfe",
-    "lv": "Mahkeme salonu • Mahkeme",
+    "lv": "gjykatë",
     "level": "C1"
   },
   {
     "de": "geringschätzig",
-    "lv": "Pogardliwy • Pogardliwy • Pogardliwy",
+    "lv": "përbuzës • përçmues",
     "level": "C1"
   },
   {
     "de": "Gesamteindruck",
     "de_article": "der",
     "de_plural": "die Gesamteindrücke",
-    "lv": "Genel izlenim",
+    "lv": "përshtypje e përgjithshme",
     "level": "C1"
   },
   {
     "de": "Gesamtergebnis",
     "de_article": "das",
     "de_plural": "die Gesamtergebnisse",
-    "lv": "Nihai sonuç • Nihai sonuç",
+    "lv": "rezultat përfundimtar • rezultat i përgjithshëm",
     "level": "C1"
   },
   {
     "de": "Gesandtschaft",
     "de_article": "die",
     "de_plural": "die Gesandtschaften",
-    "lv": "Elçilik",
+    "lv": "legatë",
     "level": "C1"
   },
   {
     "de": "Geschäftshaus",
     "de_article": "das",
     "de_plural": "die Geschäftshäuser",
-    "lv": "Dom handlowy",
+    "lv": "ndërtesë tregtare",
     "level": "C1"
   },
   {
     "de": "Geschäftsjahr",
     "de_article": "das",
     "de_plural": "die Geschäftsjahre",
-    "lv": "Rok rolniczy",
+    "lv": "vit financiar",
     "level": "C1"
   },
   {
     "de": "geschlechtsreif",
-    "lv": "Osiągnął dojrzałość płciową",
+    "lv": "i pjekur seksualisht",
     "level": "C1"
   },
   {
     "de": "Gesetzbuch",
     "de_article": "das",
     "de_plural": "die Gesetzbücher",
-    "lv": "Kurallar • Bir hukuk bütünü",
+    "lv": "kod • përmbledhje ligjesh",
     "level": "C1"
   },
   {
     "de": "gesetzgebend",
-    "lv": "Prawodawca",
+    "lv": "ligjvënës",
     "level": "C1"
   },
   {
     "de": "gesetzlos",
-    "lv": "Yasa dışı",
+    "lv": "i paligjshëm • pa ligj",
     "level": "C1"
   },
   {
     "de": "gesetzmäßig",
-    "lv": "Zgodne z prawem • Zgodne z prawem",
+    "lv": "i ligjshëm • ligjësor",
     "level": "C1"
   },
   {
     "de": "gesetzwidrig",
-    "lv": "Niezgodne z prawem",
+    "lv": "i paligjshëm • kundërligjor",
     "level": "C1"
   },
   {
     "de": "Gesichtskreis",
     "de_article": "der",
     "de_plural": "die Gesichtskreise",
-    "lv": "Horyzont • Horyzont",
+    "lv": "horizont • fushë e shikimit",
     "level": "C1"
   },
   {
     "de": "Gewinnanteil",
     "de_article": "der",
     "de_plural": "die Gewinnanteile",
-    "lv": "Kârdan pay",
+    "lv": "pjesë e fitimit",
     "level": "C1"
   },
   {
     "de": "Gewissensbisse",
     "de_article": "die",
-    "lv": "Wyrzuty sumienia",
+    "lv": "brejtje ndërgjegjeje",
     "level": "C1"
   },
   {
     "de": "gewissermaßen",
-    "lv": "W pewnym stopniu • W pewnym sensie • Że tak powiem",
+    "lv": "deri diku • në një farë mënyre",
     "level": "C1"
   },
   {
     "de": "glaubhaft",
-    "lv": "Wiarygodne • Przekonujące",
+    "lv": "i besueshëm • bindës",
     "level": "C1"
   },
   {
     "de": "gleichberechtigt",
-    "lv": "Eşit • Eşit haklara sahip",
+    "lv": "i barabartë • me të drejta të barabarta",
     "level": "C1"
   },
   {
     "de": "Götzenverehrung",
     "de_article": "die",
     "de_plural": "die Götzenverehrungen",
-    "lv": "Putperestlik",
+    "lv": "idhujtari",
     "level": "C1"
   },
   {
     "de": "Grenzverletzung",
     "de_article": "die",
     "de_plural": "die Grenzverletzungen",
-    "lv": "Naruszenie granicy",
+    "lv": "shkelje e kufirit",
     "level": "C1"
   },
   {
     "de": "Grundgesetz",
     "de_article": "das",
     "de_plural": "die Grundgesetze",
-    "lv": "Prawo podstawowe • Konstytucja",
+    "lv": "ligj themelor • kushtetutë",
     "level": "C1"
   },
   {
     "de": "Gütertransport",
     "de_article": "der",
     "de_plural": "die Gütertransporte",
-    "lv": "Malların taşınması",
+    "lv": "transport mallrash",
     "level": "C1"
   },
   {
     "de": "Haft",
     "de_article": "die",
-    "lv": "Zatrzymanie • Aresztowanie",
+    "lv": "arrest • burgim",
     "level": "C1"
   },
   {
     "de": "Haftbefehl",
     "de_article": "der",
     "de_plural": "die Haftbefehle",
-    "lv": "Nakaz aresztowania",
+    "lv": "urdhër arresti",
     "level": "C1"
   },
   {
     "de": "haften",
-    "lv": "Yapışmak • Takılıp kalmak",
+    "lv": "ngjitem • jam i ngjitur",
     "level": "C1"
   },
   {
     "de": "Haftung",
     "de_article": "die",
     "de_plural": "die Haftungen",
-    "lv": "Sorumluluk",
+    "lv": "përgjegjësi",
     "level": "C1"
   },
   {
     "de": "Haltbarkeitsdauer",
     "de_article": "die",
     "de_plural": "die Haltbarkeitsdauern",
-    "lv": "Czas przechowywania",
+    "lv": "afat ruajtjeje • afat përdorimi",
     "level": "C1"
   },
   {
     "de": "Handelspartner",
     "de_article": "der",
     "de_plural": "die Handelspartner",
-    "lv": "Partnerem handlowym",
+    "lv": "partner tregtar",
     "level": "C1"
   },
   {
     "de": "Handelsvertretung",
     "de_article": "die",
     "de_plural": "die Handelsvertretungen",
-    "lv": "Reprezentacja handlowa",
+    "lv": "përfaqësi tregtare",
     "level": "C1"
   },
   {
     "de": "Hauptversammlung",
     "de_article": "die",
     "de_plural": "die Hauptversammlungen",
-    "lv": "Walne zgromadzenie",
+    "lv": "mbledhje e përgjithshme • asamble e përgjithshme",
     "level": "C1"
   },
   {
     "de": "Hausdurchsuchung",
     "de_article": "die",
     "de_plural": "die Hausdurchsuchungen",
-    "lv": "Przeszukanie policji",
+    "lv": "kontroll i banesës • bastisje",
     "level": "C1"
   },
   {
     "de": "Haushaltsartikel",
     "de_article": "der",
     "de_plural": "die Haushaltsartikel",
-    "lv": "Przedmiot gospodarstwa domowego",
+    "lv": "artikull shtëpiak",
     "level": "C1"
   },
   {
     "de": "Haushaltshilfe",
     "de_article": "die",
     "de_plural": "die Haushaltshilfen",
-    "lv": "Ücretli ev yardımcısı",
+    "lv": "ndihmëse shtëpiake • punëtore shtëpie",
     "level": "C1"
   },
   {
     "de": "Hautentzündung",
     "de_article": "die",
     "de_plural": "die Hautentzündungen",
-    "lv": "Dermatit",
+    "lv": "inflamacion i lëkurës",
     "level": "C1"
   },
   {
     "de": "heldenhaft",
-    "lv": "Heroiczny",
+    "lv": "heroik • trimëror",
     "level": "C1"
   },
   {
     "de": "Herrschaft",
     "de_article": "die",
     "de_plural": "die Herrschaften",
-    "lv": "Hakimiyet • Otorite",
+    "lv": "sundim • pushtet",
     "level": "C1"
   },
   {
     "de": "herunterkommen",
-    "lv": "Alçalma • Çürüme • Çökme • Batma",
+    "lv": "zbres • katandisem • rrënohem",
     "level": "C1"
   },
   {
     "de": "herunterstürzen",
-    "lv": "Yere düşmek • Yere düşmek",
+    "lv": "bie përtokë • rrëzohem",
     "level": "C1"
   },
   {
     "de": "sich hinreißen lassen",
-    "lv": "Heyecanlan",
+    "lv": "rrëmbehem • marr flakë",
     "level": "C1"
   },
   {
     "de": "Industrieabgase",
     "de_article": "die",
-    "lv": "Endüstriyel egzoz gazları",
+    "lv": "gazra industriale shkarkimi",
     "level": "C1"
   },
   {
     "de": "Industrieabwässer",
     "de_article": "die",
-    "lv": "Endüstriyel kanalizasyon",
+    "lv": "ujëra të zeza industriale",
     "level": "C1"
   },
   {
     "de": "Industrieanlage",
     "de_article": "die",
     "de_plural": "die Industrieanlagen",
-    "lv": "Endüstriyel kompleks",
+    "lv": "kompleks industrial • impiant industrial",
     "level": "C1"
   },
   {
     "de": "inhaftieren",
-    "lv": "Tutuklamak",
+    "lv": "arrestoj • burgos",
     "level": "C1"
   },
   {
     "de": "Innenarchitekt",
     "de_article": "der",
     "de_plural": "die Innenarchitekten",
-    "lv": "İç mimar",
+    "lv": "arkitekt interieri",
     "level": "C1"
   },
   {
     "de": "Innenminister",
     "de_article": "der",
     "de_plural": "die Innenminister",
-    "lv": "İçişleri Bakanı",
+    "lv": "ministër i punëve të brendshme",
     "level": "C1"
   },
   {
     "de": "Intensivstation",
     "de_article": "die",
     "de_plural": "die Intensivstationen",
-    "lv": "Hastanede yoğun bakım ünitesi",
+    "lv": "pavijon i terapisë intensive",
     "level": "C1"
   },
   {
     "de": "interpretieren",
-    "lv": "Yorumla • Açıkla",
+    "lv": "interpretoj • shpjegoj",
     "level": "C1"
   },
   {
     "de": "Justiz",
     "de_article": "die",
-    "lv": "Adalet • Hukuki konular",
+    "lv": "drejtësi • pushtet gjyqësor",
     "level": "C1"
   },
   {
     "de": "Kabinettsitzung",
     "de_article": "die",
     "de_plural": "die Kabinettsitzungen",
-    "lv": "Posiedzeniu gabinetu",
+    "lv": "mbledhje e qeverisë",
     "level": "C1"
   },
   {
     "de": "Kapitalverbrechen",
     "de_article": "das",
     "de_plural": "die Kapitalverbrechen",
-    "lv": "Özellikle ciddi bir suç",
+    "lv": "krim i rëndë",
     "level": "C1"
   },
   {
     "de": "Kaution",
     "de_article": "die",
     "de_plural": "die Kautionen",
-    "lv": "Zastaw • Poręczenie • Kaucja • Gwarancja",
+    "lv": "garanci • dorëzani • depozitë",
     "level": "C1"
   },
   {
     "de": "Koalition",
     "de_article": "die",
     "de_plural": "die Koalitionen",
-    "lv": "Koalicja",
+    "lv": "koalicion",
     "level": "C1"
   },
   {
     "de": "körperbehindert",
-    "lv": "Fiziksel engelli",
+    "lv": "me aftësi të kufizuara fizike • invalid",
     "level": "C1"
   },
   {
     "de": "Krankheitserreger",
     "de_article": "der",
     "de_plural": "die Krankheitserreger",
-    "lv": "Czynnik chorobowy",
+    "lv": "shkaktar sëmundjeje • patogjen",
     "level": "C1"
   },
   {
     "de": "Kriegsbeschädigte",
     "de_article": "der",
     "de_plural": "die Kriegsbeschädigten",
-    "lv": "Savaş önemsiz",
+    "lv": "invalid lufte",
     "level": "C1"
   },
   {
     "de": "Kriegsgefangene",
     "de_article": "der",
     "de_plural": "die Kriegsgefangenen",
-    "lv": "Jeniec wojenny",
+    "lv": "rob lufte",
     "level": "C1"
   },
   {
     "de": "Kabinettskrise",
     "de_article": "die",
     "de_plural": "die Kabinettskrisen",
-    "lv": "Kryzys gabinetu",
+    "lv": "krizë qeveritare",
     "level": "C1"
   },
   {
     "de": "Lawinenwarnung",
     "de_article": "die",
     "de_plural": "die Lawinenwarnungen",
-    "lv": "Çığ uyarısı",
+    "lv": "paralajmërim për ortek",
     "level": "C1"
   },
   {
     "de": "Lebenserwartung",
     "de_article": "die",
     "de_plural": "die Lebenserwartungen",
-    "lv": "Yaşam beklentisi",
+    "lv": "jetëgjatësi mesatare",
     "level": "C1"
   },
   {
     "de": "lebensgefährlich",
-    "lv": "Hayatı tehdit eden • Tehlikeli",
+    "lv": "i rrezikshëm për jetën • i rrezikshëm",
     "level": "C1"
   },
   {
     "de": "Lebensgefährte",
     "de_article": "der",
     "de_plural": "die Lebensgefährten",
-    "lv": "Kayıt dışı evlilikte eş",
+    "lv": "bashkëjetues • partner jete",
     "level": "C1"
   },
   {
     "de": "Lebensstandard",
     "de_article": "der",
     "de_plural": "die Lebensstandards",
-    "lv": "Yaşam standardı",
+    "lv": "nivel jetese • standard jetese",
     "level": "C1"
   },
   {
     "de": "Leistungssport",
     "de_article": "der",
-    "lv": "Sport zawodowy",
+    "lv": "sport profesionist",
     "level": "C1"
   },
   {
     "de": "lichtempfindlich",
-    "lv": "Işığa duyarlı",
+    "lv": "i ndjeshëm ndaj dritës",
     "level": "C1"
   },
   {
     "de": "Liebesbeziehung",
     "de_article": "die",
     "de_plural": "die Liebesbeziehungen",
-    "lv": "Relacje intymne",
+    "lv": "lidhje dashurie",
     "level": "C1"
   },
   {
     "de": "Liebeserklärung",
     "de_article": "die",
     "de_plural": "die Liebeserklärungen",
-    "lv": "Odkrycie miłości",
+    "lv": "shfaqje dashurie • deklarim dashurie",
     "level": "C1"
   },
   {
     "de": "Linksextremismus",
     "de_article": "der",
-    "lv": "Lewicowy ekstremizm",
+    "lv": "ekstremizëm i majtë",
     "level": "C1"
   },
   {
     "de": "Machtergreifung",
     "de_article": "die",
     "de_plural": "die Machtergreifungen",
-    "lv": "Güç almak",
+    "lv": "rrëmbim i pushtetit",
     "level": "C1"
   },
   {
     "de": "Machtübernahme",
     "de_article": "die",
     "de_plural": "die Machtübernahmen",
-    "lv": "Güç almak",
+    "lv": "marrje e pushtetit",
     "level": "C1"
   },
   {
     "de": "Magnetstreifen",
     "de_article": "der",
     "de_plural": "die Magnetstreifen",
-    "lv": "Pasek magnetyczny (na karcie kredytowej)",
+    "lv": "shirit magnetik",
     "level": "C1"
   },
   {
     "de": "Marschflugkörper",
     "de_article": "der",
     "de_plural": "die Marschflugkörper",
-    "lv": "Seyir füzesi • Seyir füzesi",
+    "lv": "raketë lundruese",
     "level": "C1"
   },
   {
     "de": "Massenherstellung",
     "de_article": "die",
     "de_plural": "die Massenherstellungen",
-    "lv": "Produkcja masowa",
+    "lv": "prodhim në masë",
     "level": "C1"
   },
   {
     "de": "materialistisch",
-    "lv": "Materialistyczny",
+    "lv": "materialist",
     "level": "C1"
   },
   {
     "de": "Meineid",
     "de_article": "der",
     "de_plural": "die Meineide",
-    "lv": "Mahkemede bilinçli olarak yalan yere yemin etmek",
+    "lv": "betim i rremë • dëshmi e rreme",
     "level": "C1"
   },
   {
     "de": "menschenfeindlich",
-    "lv": "Wrogi ludziom",
+    "lv": "armiqësor ndaj njerëzve",
     "level": "C1"
   },
   {
     "de": "militärpflichtig",
-    "lv": "Askerlik hizmetine tabi",
+    "lv": "i detyruar për shërbim ushtarak",
     "level": "C1"
   },
   {
     "de": "Nachschlagewerk",
     "de_article": "das",
     "de_plural": "die Nachschlagewerke",
-    "lv": "Konu edebiyatı • Sözlük • Ansiklopedi",
+    "lv": "libër referimi • fjalor • enciklopedi",
     "level": "C1"
   },
   {
     "de": "namhaft",
-    "lv": "Sławny • Godny uwagi",
+    "lv": "i njohur • i shquar",
     "level": "C1"
   },
   {
     "de": "Nichtangriffspakt",
     "de_article": "der",
     "de_plural": "die Nichtangriffspakte",
-    "lv": "Pakt o nieagresji",
+    "lv": "pakt mossulmimi",
     "level": "C1"
   },
   {
     "de": "niedergeschlagen",
-    "lv": "Bunalımlı • Bunalımlı",
+    "lv": "i dëshpëruar • i trishtuar",
     "level": "C1"
   },
   {
     "de": "Ölembargo",
     "de_article": "das",
     "de_plural": "die Ölembargos",
-    "lv": "Petrol ambargosu",
+    "lv": "embargo nafte",
     "level": "C1"
   },
   {
     "de": "Oppositionsführer",
     "de_article": "der",
     "de_plural": "die Oppositionsführer",
-    "lv": "Muhalefetin lideri",
+    "lv": "udhëheqës i opozitës",
     "level": "C1"
   },
   {
     "de": "Oppositionspartei",
     "de_article": "die",
     "de_plural": "die Oppositionsparteien",
-    "lv": "Partii opozycyjnej",
+    "lv": "parti opozitare",
     "level": "C1"
   },
   {
     "de": "Originalausgabe",
     "de_article": "die",
     "de_plural": "die Originalausgaben",
-    "lv": "Wydanie oryginalne",
+    "lv": "botim origjinal",
     "level": "C1"
   },
   {
     "de": "Originalfassung",
     "de_article": "die",
     "de_plural": "die Originalfassungen",
-    "lv": "Wariant oryginalny",
+    "lv": "version origjinal",
     "level": "C1"
   },
   {
     "de": "Originalgemälde",
     "de_article": "das",
     "de_plural": "die Originalgemälde",
-    "lv": "Oryginalne malowanie",
+    "lv": "pikturë origjinale",
     "level": "C1"
   },
   {
     "de": "Parteifunktionär",
     "de_article": "der",
     "de_plural": "die Parteifunktionäre",
-    "lv": "Pracownik partii",
+    "lv": "funksionar partie",
     "level": "C1"
   },
   {
     "de": "Pflichtlektüre",
     "de_article": "die",
     "de_plural": "die Pflichtlektüren",
-    "lv": "Zorunlu bilimsel literatür",
+    "lv": "lexim i detyrueshëm • literaturë e detyrueshme",
     "level": "C1"
   },
   {
     "de": "Preisfrage",
     "de_article": "die",
     "de_plural": "die Preisfragen",
-    "lv": "Pytanie konkursowe",
+    "lv": "pyetje konkursi",
     "level": "C1"
   },
   {
     "de": "Pressefreiheit",
     "de_article": "die",
     "de_plural": "die Pressefreiheiten",
-    "lv": "Basın özgürlüğü",
+    "lv": "liri e shtypit",
     "level": "C1"
   },
   {
     "de": "Pressevertreter",
     "de_article": "der",
     "de_plural": "die Pressevertreter",
-    "lv": "Przedstawiciel prasowy",
+    "lv": "përfaqësues i shtypit • gazetar",
     "level": "C1"
   },
   {
     "de": "Presseerklärung",
     "de_article": "die",
     "de_plural": "die Presseerklärungen",
-    "lv": "Komunikat prasowy",
+    "lv": "deklaratë për shtyp • komunikatë për shtyp",
     "level": "C1"
   },
   {
     "de": "Produktionskosten",
     "de_article": "die",
-    "lv": "Koszt produkcji",
+    "lv": "kosto prodhimi • shpenzime prodhimi",
     "level": "C1"
   },
   {
     "de": "Produktionsweise",
     "de_article": "die",
     "de_plural": "die Produktionsweisen",
-    "lv": "Rodzaj produkcji",
+    "lv": "mënyrë prodhimi",
     "level": "C1"
   },
   {
     "de": "Rangierbahnhof",
     "de_article": "der",
     "de_plural": "die Rangierbahnhöfe",
-    "lv": "Plac kolejowy",
+    "lv": "stacion manovrimi",
     "level": "C1"
   },
   {
     "de": "rätselhaft",
-    "lv": "Gizemli • Anlaşılmaz",
+    "lv": "enigmatik • i pakuptueshëm",
     "level": "C1"
   },
   {
     "de": "Raumausstatter",
     "de_article": "der",
     "de_plural": "die Raumausstatter",
-    "lv": "İç mimar",
+    "lv": "dekorator interieri",
     "level": "C1"
   },
   {
     "de": "Rechenschaft",
     "de_article": "die",
-    "lv": "Sorumluluk (kişinin eylemleri için) • Sorumluluk",
+    "lv": "llogari • përgjegjësi",
     "level": "C1"
   },
   {
     "de": "rechtswidrig",
-    "lv": "Yasa dışı",
+    "lv": "i paligjshëm • kundërligjor",
     "level": "C1"
   },
   {
     "de": "Regenbogenpresse",
     "de_article": "die",
     "de_plural": "die Regenbogenpressen",
-    "lv": "Prasa tabloidowa",
+    "lv": "shtyp i verdhë",
     "level": "C1"
   },
   {
     "de": "Regierungschef",
     "de_article": "der",
     "de_plural": "die Regierungschefs",
-    "lv": "Başbakan • Hükümet Başkanı",
+    "lv": "kryeministër • kryetar i qeverisë",
     "level": "C1"
   },
   {
     "de": "Regierungspartei",
     "de_article": "die",
     "de_plural": "die Regierungsparteien",
-    "lv": "Hükümet partisi",
+    "lv": "parti në pushtet • parti qeverisëse",
     "level": "C1"
   },
   {
     "de": "Regierungswechsel",
     "de_article": "der",
     "de_plural": "die Regierungswechsel",
-    "lv": "Hükümet değişikliği",
+    "lv": "ndërrim qeverie",
     "level": "C1"
   },
   {
     "de": "Rentenanspruch",
     "de_article": "der",
     "de_plural": "die Rentenansprüche",
-    "lv": "Prawo do emerytury",
+    "lv": "e drejtë për pension",
     "level": "C1"
   },
   {
     "de": "Rentenempfänger",
     "de_article": "der",
     "de_plural": "die Rentenempfänger",
-    "lv": "Emekli",
+    "lv": "pensionist • përfitues pensioni",
     "level": "C1"
   },
   {
     "de": "republikanisch",
-    "lv": "Cumhuriyetçi • Cumhuriyet",
+    "lv": "republikan",
     "level": "C1"
   },
   {
     "de": "Sanktion",
     "de_article": "die",
     "de_plural": "die Sanktionen",
-    "lv": "Sankcja",
+    "lv": "sanksion",
     "level": "C1"
   },
   {
     "de": "sanktionieren",
-    "lv": "Wsparcie • Sankcja",
+    "lv": "miratoj • sanksionoj",
     "level": "C1"
   },
   {
     "de": "Lüftungsschacht",
     "de_article": "der",
     "de_plural": "die Lüftungsschächte",
-    "lv": "Szyb wentylacyjny",
+    "lv": "kanal ajrimi • pus ajrimi",
     "level": "C1"
   },
   {
     "de": "Scheidungsgrund",
     "de_article": "der",
     "de_plural": "die Scheidungsgründe",
-    "lv": "Boşanma nedeni",
+    "lv": "shkak divorci",
     "level": "C1"
   },
   {
     "de": "Schicksalsschlag",
     "de_article": "der",
     "de_plural": "die Schicksalsschläge",
-    "lv": "Udar losu",
+    "lv": "goditje e fatit",
     "level": "C1"
   },
   {
     "de": "schmerzstillend",
-    "lv": "Analjezik",
+    "lv": "qetësues i dhimbjeve",
     "level": "C1"
   },
   {
     "de": "Anklageschrift",
     "de_article": "die",
     "de_plural": "die Anklageschriften",
-    "lv": "İddianame",
+    "lv": "aktakuzë",
     "level": "C1"
   },
   {
     "de": "Schwerindustrie",
     "de_article": "die",
     "de_plural": "die Schwerindustrien",
-    "lv": "Ağır sanayi",
+    "lv": "industri e rëndë",
     "level": "C1"
   },
   {
     "de": "Segelflugsport",
     "de_article": "der",
-    "lv": "Kayma",
+    "lv": "fluturim me planer",
     "level": "C1"
   },
   {
     "de": "Selbstverwaltung",
     "de_article": "die",
     "de_plural": "die Selbstverwaltungen",
-    "lv": "Qytet",
+    "lv": "vetëqeverisje • pushtet vendor",
     "level": "C1"
   },
   {
     "de": "selbstzufrieden",
-    "lv": "Koltuski",
+    "lv": "i vetëkënaqur",
     "level": "C1"
   },
   {
     "de": "Sensationsmeldung",
     "de_article": "die",
     "de_plural": "die Sensationsmeldungen",
-    "lv": "Sensacyjne stwierdzenie",
+    "lv": "lajm sensacional",
     "level": "C1"
   },
   {
     "de": "sesshaft",
-    "lv": "Mieszkanie w jednym miejscu • Kamper",
+    "lv": "i ngulur • me banim të përhershëm",
     "level": "C1"
   },
   {
     "de": "Sinfonieorchester",
     "de_article": "das",
     "de_plural": "die Sinfonieorchester",
-    "lv": "Orkiestra symfoniczna",
+    "lv": "orkestër simfonike",
     "level": "C1"
   },
   {
     "de": "Sinnestäuschung",
     "de_article": "die",
     "de_plural": "die Sinnestäuschungen",
-    "lv": "Halucynacja",
+    "lv": "halucinacion • iluzion",
     "level": "C1"
   },
   {
     "de": "Konfliktsituation",
     "de_article": "die",
     "de_plural": "die Konfliktsituationen",
-    "lv": "Sytuacja konfliktowa",
+    "lv": "situatë konflikti",
     "level": "C1"
   },
   {
     "de": "Krisensituation",
     "de_article": "die",
     "de_plural": "die Krisensituationen",
-    "lv": "Sytuacja kryzysowa • Kryzys",
+    "lv": "situatë krize • krizë",
     "level": "C1"
   },
   {
     "de": "Sommersonnenwende",
     "de_article": "die",
     "de_plural": "die Sommersonnenwenden",
-    "lv": "Przesilenie letnie",
+    "lv": "solstic veror",
     "level": "C1"
   },
   {
     "de": "Sonnenfinsternis",
     "de_article": "die",
     "de_plural": "die Sonnenfinsternisse",
-    "lv": "Güneş tutulması",
+    "lv": "eklips diellor",
     "level": "C1"
   },
   {
     "de": "Spitzenleistung",
     "de_article": "die",
     "de_plural": "die Spitzenleistungen",
-    "lv": "Rekor • En yüksek başarı • Teknoloji. maksimum güç",
+    "lv": "rekord • arritje maksimale • fuqi maksimale",
     "level": "C1"
   },
   {
     "de": "Staatsangehörige",
     "de_article": "der",
     "de_plural": "die Staatsangehörigen",
-    "lv": "Vatandaş",
+    "lv": "shtetas",
     "level": "C1"
   },
   {
     "de": "Staatsanwalt",
     "de_article": "der",
     "de_plural": "die Staatsanwälte",
-    "lv": "İthamcı",
+    "lv": "prokuror",
     "level": "C1"
   },
   {
     "de": "Staatsgeheimnis",
     "de_article": "das",
     "de_plural": "die Staatsgeheimnisse",
-    "lv": "Devlet sırrı",
+    "lv": "sekret shtetëror",
     "level": "C1"
   },
   {
     "de": "Steuereinnahmen",
     "de_article": "die",
-    "lv": "Dochody podatkowe",
+    "lv": "të ardhura nga taksat",
     "level": "C1"
   },
   {
     "de": "stimmberechtigt",
-    "lv": "Oy vermeye uygun",
+    "lv": "me të drejtë vote",
     "level": "C1"
   },
   {
     "de": "Studienbewerber",
     "de_article": "der",
     "de_plural": "die Studienbewerber",
-    "lv": "Kandydat na uniwersytet",
+    "lv": "kandidat për studime",
     "level": "C1"
   },
   {
     "de": "synchronisieren",
-    "lv": "Zdubbinguj film",
+    "lv": "sinkronizoj • dubloj",
     "level": "C1"
   },
   {
     "de": "Tageseinnahmen",
     "de_article": "die",
-    "lv": "Dzienne zarobki",
+    "lv": "të ardhura ditore • arkëtim ditor",
     "level": "C1"
   },
   {
     "de": "Transfusion",
     "de_article": "die",
     "de_plural": "die Transfusionen",
-    "lv": "Bezpośrednia transfuzja krwi od jednej osoby do drugiej",
+    "lv": "transfuzion",
     "level": "C1"
   },
   {
     "de": "überanstrengen",
-    "lv": "İş • Sich ü. iş",
+    "lv": "lodh tepër • lodhem tepër",
     "level": "C1"
   },
   {
     "de": "Überbevölkerung",
     "de_article": "die",
     "de_plural": "die Überbevölkerungen",
-    "lv": "Przeludnienie",
+    "lv": "mbipopullim",
     "level": "C1"
   },
   {
     "de": "Überbleibsel",
     "de_article": "das",
     "de_plural": "die Überbleibsel",
-    "lv": "Fazlalık • Kalan",
+    "lv": "mbetje • tepricë",
     "level": "C1"
   },
   {
     "de": "übereinstimmen",
-    "lv": "Katılıyorum • Biriyle aynı fikirde olmak",
+    "lv": "përputhem • pajtohem",
     "level": "C1"
   },
   {
     "de": "Überschuss",
     "de_article": "der",
     "de_plural": "die Überschüsse",
-    "lv": "Kalan • Fazla • Tasfiye",
+    "lv": "tepricë • suficit",
     "level": "C1"
   },
   {
     "de": "Umgangssprache",
     "de_article": "die",
     "de_plural": "die Umgangssprachen",
-    "lv": "Konuşma dili",
+    "lv": "gjuhë e folur • gjuhë bisedore",
     "level": "C1"
   },
   {
     "de": "Unannehmlichkeit",
     "de_article": "die",
     "de_plural": "die Unannehmlichkeiten",
-    "lv": "Sorun • Hoş olmayan bir fırsat",
+    "lv": "bezdi • shqetësim",
     "level": "C1"
   },
   {
     "de": "unausgeglichen",
-    "lv": "Dengesiz",
+    "lv": "i paekuilibruar • i paqëndrueshëm",
     "level": "C1"
   },
   {
     "de": "unerschütterlich",
-    "lv": "Niewzruszony",
+    "lv": "i palëkundur",
     "level": "C1"
   },
   {
     "de": "Unterschätzung",
     "de_article": "die",
     "de_plural": "die Unterschätzungen",
-    "lv": "Niedocenianie • Niedocenianie",
+    "lv": "nënvlerësim",
     "level": "C1"
   },
   {
     "de": "urteilen",
-    "lv": "Göm",
+    "lv": "gjykoj",
     "level": "C1"
   },
   {
     "de": "verabschieden",
-    "lv": "Fazlalık • Emeklilik",
-    "level": "C1"
-  },
-  {
-    "de": "veränderlich",
-    "lv": "Zmienne • Zmienne",
-    "level": "C1"
-  },
-  {
-    "de": "veranschlagen",
-    "lv": "Hesapla • Hesapla • Tahminde bulun",
-    "level": "C1"
-  },
-  {
-    "de": "verdrießlich",
-    "lv": "Nieprzyjemny • Zirytowany • Zirytowany",
-    "level": "C1"
-  },
-  {
-    "de": "Verfallsdatum",
-    "de_article": "das",
-    "de_plural": "die Verfallsdaten",
-    "lv": "Son kullanma tarihi",
-    "level": "C1"
-  },
-  {
-    "de": "Verfassung",
-    "de_article": "die",
-    "de_plural": "die Verfassungen",
-    "lv": "Konstytucja • Konstytucja",
-    "level": "C1"
-  },
-  {
-    "de": "vergewaltigen",
-    "lv": "Tecavüz",
-    "level": "C1"
-  },
-  {
-    "de": "sich vergewissern",
-    "lv": "Emin olmak",
-    "level": "C1"
-  },
-  {
-    "de": "Vergünstigung",
-    "de_article": "die",
-    "de_plural": "die Vergünstigungen",
-    "lv": "Fayda • Ayrıcalık • Rölyef",
-    "level": "C1"
-  },
-  {
-    "de": "verhaften",
-    "lv": "Tutuklamak",
-    "level": "C1"
-  },
-  {
-    "de": "verhältnismäßig",
-    "lv": "Stosunkowo",
-    "level": "C1"
-  },
-  {
-    "de": "Verhandlungen",
-    "de_article": "die",
-    "de_plural": "die Verhandlungen",
-    "lv": "Rozmowy",
-    "level": "C1"
-  },
-  {
-    "de": "verheimlichen",
-    "lv": "Sakla • Sır sakla",
-    "level": "C1"
-  },
-  {
-    "de": "Verkehrsdichte",
-    "de_article": "die",
-    "de_plural": "die Verkehrsdichten",
-    "lv": "Trafik yoğunluğu",
-    "level": "C1"
-  },
-  {
-    "de": "Verkehrswesen",
-    "de_article": "das",
-    "lv": "Transport",
-    "level": "C1"
-  },
-  {
-    "de": "Verpflichtung",
-    "de_article": "die",
-    "de_plural": "die Verpflichtungen",
-    "lv": "Yükümlülük • Yükümlülük",
-    "level": "C1"
-  },
-  {
-    "de": "Verschwörung",
-    "de_article": "die",
-    "de_plural": "die Verschwörungen",
-    "lv": "Spisek",
-    "level": "C1"
-  },
-  {
-    "de": "verklagen",
-    "lv": "Pozwać",
-    "level": "C1"
-  },
-  {
-    "de": "vernachlässigen",
-    "lv": "İhmal etmek • Dikkatsiz olmak",
-    "level": "C1"
-  },
-  {
-    "de": "verpflichten",
-    "lv": "Taahhüt",
-    "level": "C1"
-  },
-  {
-    "de": "sich verpflichten",
-    "lv": "Al",
-    "level": "C1"
-  },
-  {
-    "de": "sich verschließen",
-    "lv": "Kapat • Kapat",
-    "level": "C1"
-  },
-  {
-    "de": "verschlossen",
-    "lv": "Kilitli • Kapalı • Trans. kapalı • Kendi kendine yeterli",
-    "level": "C1"
-  },
-  {
-    "de": "verschlüsseln",
-    "lv": "Şifrele • Kodla",
-    "level": "C1"
-  },
-  {
-    "de": "verschreiben",
-    "lv": "Med. sign",
-    "level": "C1"
-  },
-  {
-    "de": "verschweigen",
-    "lv": "Gizle • Gösterme",
-    "level": "C1"
-  },
-  {
-    "de": "verständigen",
-    "lv": "Bilgilendir • Bildir",
-    "level": "C1"
-  },
-  {
-    "de": "Versuchsanlage",
-    "de_article": "die",
-    "de_plural": "die Versuchsanlagen",
-    "lv": "Obiekt testowy",
-    "level": "C1"
-  },
-  {
-    "de": "Versuchsgelände",
-    "de_article": "das",
-    "de_plural": "die Versuchsgelände",
-    "lv": "Test alanı",
-    "level": "C1"
-  },
-  {
-    "de": "Versuchsreihe",
-    "de_article": "die",
-    "de_plural": "die Versuchsreihen",
-    "lv": "Test serisi",
-    "level": "C1"
-  },
-  {
-    "de": "verunglücken",
-    "lv": "Kaza geçirmek • Kaza geçirmek",
-    "level": "C1"
-  },
-  {
-    "de": "verurteilen",
-    "lv": "Hükümlü",
-    "level": "C1"
-  },
-  {
-    "de": "vervielfältigen",
-    "lv": "Çarp",
-    "level": "C1"
-  },
-  {
-    "de": "vervollkommnen",
-    "lv": "Tamamlayın • İyileştirin",
-    "level": "C1"
-  },
-  {
-    "de": "sich vervollkommnen",
-    "lv": "Bilginizi geliştirin",
-    "level": "C1"
-  },
-  {
-    "de": "verwirklichen",
-    "lv": "Uygula • Uygula",
-    "level": "C1"
-  },
-  {
-    "de": "Volksabstimmung",
-    "de_article": "die",
-    "de_plural": "die Volksabstimmungen",
-    "lv": "Evrensel oylama • Plebisit",
-    "level": "C1"
-  },
-  {
-    "de": "Volksbefragung",
-    "de_article": "die",
-    "de_plural": "die Volksbefragungen",
-    "lv": "Ankieta wszystkich ludzi • Referendum",
-    "level": "C1"
-  },
-  {
-    "de": "Vollversammlung",
-    "de_article": "die",
-    "de_plural": "die Vollversammlungen",
-    "lv": "Plenum • Walne zgromadzenie • Walne zgromadzenie",
-    "level": "C1"
-  },
-  {
-    "de": "voreingenommen",
-    "lv": "Stronniczy • Stronniczy",
-    "level": "C1"
-  },
-  {
-    "de": "waag[e]recht",
-    "lv": "Poziom • Poziomy",
-    "level": "C1"
-  },
-  {
-    "de": "Waffenruhe",
-    "de_article": "die",
-    "de_plural": "die Waffenruhen",
-    "lv": "Przerwa w walce",
-    "level": "C1"
-  },
-  {
-    "de": "Waffenschein",
-    "de_article": "der",
-    "de_plural": "die Waffenscheine",
-    "lv": "Silah izni",
-    "level": "C1"
-  },
-  {
-    "de": "wahlberechtigt",
-    "lv": "Oy kullanma hakkına sahip olan",
+    "lv": "përcjell • miratoj",
     "level": "C1",
     "study": {
-      "id": "c1-wahlberechtigt",
+      "id": "c1-verabschieden",
       "layout": "standardStudy",
-      "translation": "Oy kullanma hakkına sahip olan",
-      "explanation": "Ana fikir: wahlberechtig, bir kişinin seçimlere katılma, oy verme veya seçime aday olma hakkına sahip olduğu anlamına gelen bir sıfattır. İlişki: Wahl (seçimler) + behrechtig (hak sahibi).",
+      "translation": "përcjell • miratoj",
+      "explanation": [
+        "Ideja kryesore: sich verabschieden do të thotë të përshëndetesh me dikë kur ndahesh: Ich verabschiede mich von dir. Personi me të cilin ndahesh vjen me von + dhanore (Dativ).",
+        "Folje vetvetore: ich verabschiede mich, er verabschiedet sich, verabschiedete sich, hat sich verabschiedet. Pa sich, verabschieden mund të thotë të përcjellësh dikë, të ndahesh me të (der Direktor wurde in den Ruhestand verabschiedet) ose të miratosh një ligj (ein Gesetz verabschieden).",
+        "Emri është die Verabschiedung (përshëndetje në ndarje, miratim i një ligji)."
+      ],
       "examples": [
         {
-          "de": "Alle wahlberechtigten Bürger können wählen.",
-          "lv": "Oy kullanma hakkı olan herkes oy kullanabilir."
+          "de": "Ich verabschiede mich von meinen Kollegen.",
+          "lv": "Po u them mirupafshim kolegëve të mi."
         },
         {
-          "de": "Ab 18 Jahren ist man wahlberechtigt.",
-          "lv": "18 yaşından itibaren oy kullanma hakkına sahiptirler."
+          "de": "Sie verabschiedete sich und ging nach Hause.",
+          "lv": "Ajo u përshëndet dhe shkoi në shtëpi."
         },
         {
-          "de": "Nicht alle Einwohner sind wahlberechtigt.",
-          "lv": "Her vatandaşın oy hakkı yoktur."
+          "de": "Das Parlament hat das Gesetz verabschiedet.",
+          "lv": "Parlamenti e ka miratuar ligjin."
+        },
+        {
+          "de": "Der Direktor wurde nach dreißig Jahren in den Ruhestand verabschiedet.",
+          "lv": "Pas tridhjetë vjetësh drejtori u përcoll solemnisht në pension."
         }
       ],
       "comparison": [
         {
-          "word": "wahlberechtigt",
-          "meaning": "Oy hakkı ile",
-          "example": "Er ist wahlberechtigt. = Viņam ir vēlēšanu tiesības."
+          "word": "Abschied nehmen",
+          "meaning": "ndahem, i them lamtumirë",
+          "example": "Er nahm Abschied von seiner Heimat. – Ai i tha lamtumirë vendlindjes."
         },
         {
-          "word": "wählen",
-          "meaning": "İstiyorum • Oy vermek",
-          "example": "Ich wähle heute. = Es šodien balsoju."
+          "word": "beschließen",
+          "meaning": "vendos, marr vendim",
+          "example": "Der Rat beschließt das Budget. – Këshilli miraton buxhetin."
         },
         {
-          "word": "der Wähler",
-          "meaning": "Wyborca",
-          "example": "Der Wähler geht zur Wahl. = Vēlētājs iet uz vēlēšanām."
+          "word": "winken",
+          "meaning": "tund dorën",
+          "example": "Sie winkt zum Abschied. – Ajo tund dorën në shenjë përshëndetjeje."
         }
       ],
-      "tip": {
-        "leftBlocks": [
-          {
-            "text": "Wahl = seçim, behrechtig = hak sahibi. Basında ve yasal metinlerde yaygındır."
-          }
-        ]
-      },
-      "important": {
-        "text": "Wahlberechtig = oy hakkı olan. Karşıt: nicht wahlberechtigkeit."
-      },
+      "tip": [
+        "Në jetën e përditshme, kur ndahesh, thua: Ich verabschiede mich, tschüss! ose Auf Wiedersehen!",
+        "Për të treguar me kë ndahesh, përdor gjithmonë von + dhanore (Dativ)."
+      ],
+      "important": [
+        "Një ligj e miraton (verabschieden) parlamenti; ky nuk është kuptimi i përditshëm i ndarjes."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "wahlberechtig",
-            "Wahl"
+            "sich verabschieden",
+            "verabschiede",
+            "verabschiedete",
+            "verabschiedet",
+            "von",
+            "Verabschiedung",
+            "verabschieden"
+          ],
+          "purple": [
+            "përshëndetesh",
+            "miratosh një ligj"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "wahlberechtigten"
+                "verabschiede"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "mirupafshim"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verabschiedete"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "përshëndet"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verabschiedet"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "miratuar"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verabschiedet"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "përcoll"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "Abschied nehmen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "lamtumirë"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "beschließen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "vendos"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "winken"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "tund"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "verabschiede"
+            ]
+          },
+          {
+            "blue": [
+              "von"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "verabschieden"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "de": "veränderlich",
+    "lv": "i ndryshueshëm • i paqëndrueshëm",
+    "level": "C1"
+  },
+  {
+    "de": "veranschlagen",
+    "lv": "llogaris • bëj preventivin",
+    "level": "C1"
+  },
+  {
+    "de": "verdrießlich",
+    "lv": "i pakëndshëm • i nevrikosur • i vrenjtur",
+    "level": "C1"
+  },
+  {
+    "de": "Verfallsdatum",
+    "de_article": "das",
+    "de_plural": "die Verfallsdaten",
+    "lv": "afat skadimi • datë skadimi",
+    "level": "C1"
+  },
+  {
+    "de": "Verfassung",
+    "de_article": "die",
+    "de_plural": "die Verfassungen",
+    "lv": "kushtetutë",
+    "level": "C1"
+  },
+  {
+    "de": "vergewaltigen",
+    "lv": "përdhunoj",
+    "level": "C1"
+  },
+  {
+    "de": "sich vergewissern",
+    "lv": "sigurohem",
+    "level": "C1"
+  },
+  {
+    "de": "Vergünstigung",
+    "de_article": "die",
+    "de_plural": "die Vergünstigungen",
+    "lv": "përparësi • privilegj • lehtësim",
+    "level": "C1"
+  },
+  {
+    "de": "verhaften",
+    "lv": "arrestoj",
+    "level": "C1"
+  },
+  {
+    "de": "verhältnismäßig",
+    "lv": "relativisht",
+    "level": "C1"
+  },
+  {
+    "de": "Verhandlungen",
+    "de_article": "die",
+    "de_plural": "die Verhandlungen",
+    "lv": "bisedime • negociata",
+    "level": "C1"
+  },
+  {
+    "de": "verheimlichen",
+    "lv": "fsheh • mbaj të fshehtë",
+    "level": "C1"
+  },
+  {
+    "de": "Verkehrsdichte",
+    "de_article": "die",
+    "de_plural": "die Verkehrsdichten",
+    "lv": "dendësi trafiku",
+    "level": "C1"
+  },
+  {
+    "de": "Verkehrswesen",
+    "de_article": "das",
+    "lv": "transport • sistem transporti",
+    "level": "C1"
+  },
+  {
+    "de": "Verpflichtung",
+    "de_article": "die",
+    "de_plural": "die Verpflichtungen",
+    "lv": "detyrim • angazhim",
+    "level": "C1"
+  },
+  {
+    "de": "Verschwörung",
+    "de_article": "die",
+    "de_plural": "die Verschwörungen",
+    "lv": "komplot",
+    "level": "C1"
+  },
+  {
+    "de": "verklagen",
+    "lv": "padit",
+    "level": "C1"
+  },
+  {
+    "de": "vernachlässigen",
+    "lv": "lë pas dore • neglizhoj",
+    "level": "C1"
+  },
+  {
+    "de": "verpflichten",
+    "lv": "detyroj • obligoj",
+    "level": "C1"
+  },
+  {
+    "de": "sich verpflichten",
+    "lv": "marr përsipër • zotohem",
+    "level": "C1"
+  },
+  {
+    "de": "sich verschließen",
+    "lv": "mbyllem në vetvete • izolohem",
+    "level": "C1"
+  },
+  {
+    "de": "verschlossen",
+    "lv": "i kyçur • i mbyllur • i rezervuar",
+    "level": "C1"
+  },
+  {
+    "de": "verschlüsseln",
+    "lv": "shifroj • kodoj",
+    "level": "C1"
+  },
+  {
+    "de": "verschreiben",
+    "lv": "përshkruaj • jap recetë",
+    "level": "C1"
+  },
+  {
+    "de": "verschweigen",
+    "lv": "fsheh • kaloj në heshtje",
+    "level": "C1"
+  },
+  {
+    "de": "verständigen",
+    "lv": "njoftoj • informoj",
+    "level": "C1"
+  },
+  {
+    "de": "Versuchsanlage",
+    "de_article": "die",
+    "de_plural": "die Versuchsanlagen",
+    "lv": "impiant eksperimental",
+    "level": "C1"
+  },
+  {
+    "de": "Versuchsgelände",
+    "de_article": "das",
+    "de_plural": "die Versuchsgelände",
+    "lv": "poligon provash",
+    "level": "C1"
+  },
+  {
+    "de": "Versuchsreihe",
+    "de_article": "die",
+    "de_plural": "die Versuchsreihen",
+    "lv": "seri provash • seri eksperimentesh",
+    "level": "C1"
+  },
+  {
+    "de": "verunglücken",
+    "lv": "pësoj aksident",
+    "level": "C1"
+  },
+  {
+    "de": "verurteilen",
+    "lv": "dënoj",
+    "level": "C1"
+  },
+  {
+    "de": "vervielfältigen",
+    "lv": "shumëfishoj • kopjoj",
+    "level": "C1"
+  },
+  {
+    "de": "vervollkommnen",
+    "lv": "përsos • përmirësoj",
+    "level": "C1"
+  },
+  {
+    "de": "sich vervollkommnen",
+    "lv": "përsosem • plotësoj njohuritë",
+    "level": "C1"
+  },
+  {
+    "de": "verwirklichen",
+    "lv": "realizoj • zbatoj",
+    "level": "C1"
+  },
+  {
+    "de": "Volksabstimmung",
+    "de_article": "die",
+    "de_plural": "die Volksabstimmungen",
+    "lv": "referendum • plebishit",
+    "level": "C1"
+  },
+  {
+    "de": "Volksbefragung",
+    "de_article": "die",
+    "de_plural": "die Volksbefragungen",
+    "lv": "konsultim popullor • referendum",
+    "level": "C1"
+  },
+  {
+    "de": "Vollversammlung",
+    "de_article": "die",
+    "de_plural": "die Vollversammlungen",
+    "lv": "plenum • asamble e përgjithshme • mbledhje plenare",
+    "level": "C1"
+  },
+  {
+    "de": "voreingenommen",
+    "lv": "i paragjykuar • i njëanshëm",
+    "level": "C1"
+  },
+  {
+    "de": "waag[e]recht",
+    "lv": "horizontal • i rrafshët",
+    "level": "C1"
+  },
+  {
+    "de": "Waffenruhe",
+    "de_article": "die",
+    "de_plural": "die Waffenruhen",
+    "lv": "armëpushim",
+    "level": "C1"
+  },
+  {
+    "de": "Waffenschein",
+    "de_article": "der",
+    "de_plural": "die Waffenscheine",
+    "lv": "leje arme",
+    "level": "C1"
+  },
+  {
+    "de": "wahlberechtigt",
+    "lv": "me të drejtë vote",
+    "level": "C1",
+    "study": {
+      "id": "c1-wahlberechtigt",
+      "layout": "standardStudy",
+      "translation": "me të drejtë vote",
+      "explanation": [
+        "Ideja kryesore: wahlberechtigt është mbiemër që tregon një person që ka të drejtë vote — që mund të marrë pjesë në zgjedhje dhe të votojë.",
+        "Si mbiemrat e tjerë, lakohet: wahlberechtigte Bürger. Nga mbiemri mund të formohet emër: der/die Wahlberechtigte, die Wahlberechtigten (zgjedhësi, personi me të drejtë vote).",
+        "Fjala përbëhet nga die Wahl (zgjedhje) dhe berechtigt (që ka të drejtë)."
+      ],
+      "examples": [
+        {
+          "de": "Alle Bürger ab 18 Jahren sind wahlberechtigt.",
+          "lv": "Të gjithë qytetarët që nga mosha 18 vjeç kanë të drejtë vote."
+        },
+        {
+          "de": "Nur wahlberechtigte Personen dürfen abstimmen.",
+          "lv": "Vetëm personat me të drejtë vote mund të votojnë."
+        },
+        {
+          "de": "Wer ist in dieser Stadt wahlberechtigt?",
+          "lv": "Kush ka të drejtë vote në këtë qytet?"
+        },
+        {
+          "de": "Die Zahl der Wahlberechtigten ist gestiegen.",
+          "lv": "Numri i zgjedhësve është rritur."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "das Wahlrecht",
+          "meaning": "e drejta e votës",
+          "example": "Das Wahlrecht ist ein Grundrecht. – E drejta e votës është e drejtë themelore."
+        },
+        {
+          "word": "wählbar",
+          "meaning": "që mund të zgjidhet",
+          "example": "Er ist wählbar. – Ai mund të zgjidhet."
+        },
+        {
+          "word": "stimmberechtigt",
+          "meaning": "me të drejtë për të votuar",
+          "example": "Alle Mitglieder sind stimmberechtigt. – Të gjithë anëtarët kanë të drejtë të votojnë."
+        }
+      ],
+      "tip": [
+        "Dallo: wahlberechtigt (mund të votojë) dhe wählbar (mund të zgjidhet).",
+        "Në statistika përdoret: die Zahl der Wahlberechtigten — numri i zgjedhësve."
+      ],
+      "important": [
+        "Wahlberechtigt nuk do të thotë që personi voton: është vetëm një e drejtë, jo një veprim."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "wahlberechtigt",
+            "wahlberechtigte",
+            "Wahlberechtigten"
+          ],
+          "purple": [
+            "të drejtë vote",
+            "zgjedhësi"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "wahlberechtigt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "të drejtë vote"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "wahlberechtigte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "të drejtë vote"
+              ]
+            }
           },
           {
             "de": {
@@ -3832,15 +5449,83 @@ const C1_WORDS = [
                 "wahlberechtigt"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "të drejtë vote"
+              ]
+            }
           },
           {
             "de": {
               "blue": [
-                "wahlberechtigt"
+                "Wahlberechtigten"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "zgjedhësve"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "das Wahlrecht"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "votës"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "wählbar"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "zgjidhet"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "stimmberechtigt"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "votuar"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "wahlberechtigt"
+            ],
+            "green": [
+              "wählbar"
+            ]
+          },
+          {
+            "blue": [
+              "Wahlberechtigten"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "wahlberechtigt"
+            ]
           }
         ]
       }
@@ -3848,143 +5533,155 @@ const C1_WORDS = [
   },
   {
     "de": "wahrhaft",
-    "lv": "Gerçekten • Gerçekten",
+    "lv": "vërtet • me të vërtetë",
     "level": "C1"
   },
   {
     "de": "Wäscheschleuder",
     "de_article": "die",
     "de_plural": "die Wäscheschleudern",
-    "lv": "Çamaşır santrifüjü",
+    "lv": "centrifugë rrobash",
     "level": "C1"
   },
   {
     "de": "Wasserheilanstalt",
     "de_article": "die",
-    "lv": "Su arıtma tesisi",
+    "lv": "qendër hidroterapie",
     "level": "C1"
   },
   {
     "de": "Wasserkraftwerk",
     "de_article": "das",
     "de_plural": "die Wasserkraftwerke",
-    "lv": "Elektrownia wodna",
+    "lv": "hidrocentral",
     "level": "C1"
   },
   {
     "de": "Wasserversorgung",
     "de_article": "die",
     "de_plural": "die Wasserversorgungen",
-    "lv": "Su temini",
+    "lv": "furnizim me ujë",
     "level": "C1"
   },
   {
     "de": "Wechselbeziehung",
     "de_article": "die",
     "de_plural": "die Wechselbeziehungen",
-    "lv": "Wzajemna komunikacja",
+    "lv": "marrëdhënie reciproke • ndërlidhje",
     "level": "C1"
   },
   {
     "de": "Wehrersatzdienst",
     "de_article": "der",
-    "lv": "Askerlik yerine sivil hizmet",
+    "lv": "shërbim civil alternativ",
     "level": "C1"
   },
   {
     "de": "Weidenkätzchen",
     "de_article": "das",
     "de_plural": "die Weidenkätzchen",
-    "lv": "Haşhaş",
+    "lv": "lule shelgu",
     "level": "C1"
   },
   {
     "de": "Weltanschauung",
     "de_article": "die",
     "de_plural": "die Weltanschauungen",
-    "lv": "Dünya görüşü",
+    "lv": "botëkuptim",
     "level": "C1"
   },
   {
     "de": "Wetterleuchten",
     "de_article": "das",
-    "lv": "Rdza",
+    "lv": "vetëtimë e largët",
     "level": "C1"
   },
   {
     "de": "widerrechtlich",
-    "lv": "Yasa dışı",
+    "lv": "i paligjshëm • kundërligjor",
     "level": "C1"
   },
   {
     "de": "wiederherstellen",
-    "lv": "Geri Yükle • Geri Yükle",
+    "lv": "rivendos • restauroj",
     "level": "C1"
   },
   {
     "de": "zusammenfallen",
-    "lv": "Güz • Olur",
+    "lv": "shembem • përkoj",
     "level": "C1"
   },
   {
     "de": "zusammenstellen",
-    "lv": "Oluştur",
+    "lv": "përpiloj • hartoj",
     "level": "C1"
   },
   {
     "de": "Zuschlag",
     "de_article": "der",
     "de_plural": "die Zuschläge",
-    "lv": "Premia • Znaczniki",
+    "lv": "shtesë • pagesë shtesë",
     "level": "C1",
     "study": {
       "id": "c1-zuschlag",
       "layout": "standardStudy",
-      "translation": "Premia • Znaczniki",
+      "translation": "shtesë • pagesë shtesë",
       "explanation": [
-        "Ana fikir: der Zuschlag, taban fiyata eklenen ek bir tutar olan bonus veya fiyat artışı anlamına gelir.",
-        "Seyahat/ulaşım bağlamında der Zuschlag, daha hızlı bir tren, daha iyi bir koltuk vb. için ek bir ücrettir.",
-        "Der Anhang/die Beilage (belgenin eki) ile karıştırılmamalıdır • Bu farklı bir kelimedir.",
-        "Açık artırmalarda den Zuschlag erhalten, açık artırmayı kazanmak/siparişi almak anlamına gelir."
+        "Ideja kryesore: der Zuschlag është një pagesë shtesë që i shtohet shumës bazë: shtesë çmimi, shtesë për punën e natës, për trenin e shpejtë ose për një shërbim shtesë.",
+        "Emër i gjinisë mashkullore: der Zuschlag, shumësi die Zuschläge (me umlaut). Kuptim tjetër i rëndësishëm në ankand ose në tender: den Zuschlag erhalten — fitoj, përzgjidhem.",
+        "Formon shpesh fjalë të përbëra: Nachtzuschlag, Zugzuschlag, Gefahrenzuschlag."
       ],
       "examples": [
         {
-          "de": "Für den ICE muss man einen Zuschlag zahlen.",
-          "lv": "ICE treni için ek ücret alınmaktadır."
+          "de": "Für Nachtarbeit gibt es einen Zuschlag.",
+          "lv": "Për punën e natës jepet një shtesë."
         },
         {
-          "de": "Der Zuschlag für die Nachtschicht beträgt 20%.",
-          "lv": "Gece vardiyası ek ücreti %20'dir."
+          "de": "Im Zug musste ich einen Zuschlag bezahlen.",
+          "lv": "Në tren m'u desh të paguaja një shtesë."
         },
         {
-          "de": "Sie erhielt den Zuschlag für den Auftrag.",
-          "lv": "Siparişi (açık artırmada) aldı."
+          "de": "Die Firma erhielt den Zuschlag für den Bau.",
+          "lv": "Kompania fitoi tenderin për ndërtimin."
         },
         {
-          "de": "Es gibt einen Zuschlag für Übergepäck.",
-          "lv": "Fazla bagaj için ek ücret uygulanır."
+          "de": "Das Hotel verlangt einen Zuschlag für Haustiere.",
+          "lv": "Hoteli kërkon një pagesë shtesë për kafshët shtëpiake."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "der Aufpreis",
+          "meaning": "shtesë çmimi",
+          "example": "Für Leder zahlt man einen Aufpreis. – Për lëkurën paguhet një shtesë çmimi."
         },
         {
-          "de": "Der Preis versteht sich ohne Zuschläge.",
-          "lv": "Fiyat ekstra ücrete tabi değildir."
+          "word": "die Gebühr",
+          "meaning": "tarifë",
+          "example": "Die Gebühr beträgt zehn Euro. – Tarifa është dhjetë euro."
+        },
+        {
+          "word": "der Rabatt",
+          "meaning": "zbritje",
+          "example": "Sie bekommen einen Rabatt. – Ju merrni një zbritje."
         }
       ],
       "tip": [
-        "Der Zuschlag = ek ücret/ek ücret (ek ücret), belgenin eki değil.",
-        "Den Zuschlag erhalten (açık artırmalarda) = açık artırmayı kazanmak/siparişi almak."
+        "Mbaj mend dy përdorime: einen Zuschlag bezahlen (paguaj një shtesë) dhe den Zuschlag erhalten (përzgjidhem në ankand ose në tender).",
+        "E kundërta: Zuschlag (i shtuar) dhe Abschlag (i zbritur)."
       ],
       "important": [
-        "Der Zuschlag = ek ücret/ek ücret, belgeye yapılan bir \"ek\" değil.",
-        "Belgenin Almanca ekinde die Anlage/der Anhang ifadesi yer alıyor."
+        "Në shumës përdoret die Zuschläge, jo die Zuschlägen."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "der Zuschlag"
+            "Zuschlag",
+            "Zuschläge"
           ],
-          "red": [
-            "der Anhang",
-            "die Beilage"
+          "purple": [
+            "pagesë shtesë",
+            "shtesë çmimi"
           ]
         },
         "examples": [
@@ -3994,7 +5691,11 @@ const C1_WORDS = [
                 "Zuschlag"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "shtesë"
+              ]
+            }
           },
           {
             "de": {
@@ -4002,47 +5703,91 @@ const C1_WORDS = [
                 "Zuschlag"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "shtesë"
+              ]
+            }
           },
           {
             "de": {
+              "blue": [
+                "Zuschlag"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tenderin"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Zuschlag"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pagesë shtesë"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
               "green": [
-                "Zuschlag"
+                "der Aufpreis"
               ]
             },
-            "lv": {}
+            "meaning": {
+              "purple": [
+                "çmimi"
+              ]
+            }
           },
           {
-            "de": {
-              "blue": [
-                "Zuschlag"
+            "word": {
+              "green": [
+                "die Gebühr"
               ]
             },
-            "lv": {}
+            "meaning": {
+              "purple": [
+                "tarifë"
+              ]
+            }
           },
           {
-            "de": {
-              "blue": [
-                "Zuschläge"
+            "word": {
+              "green": [
+                "der Rabatt"
               ]
             },
-            "lv": {}
+            "meaning": {
+              "purple": [
+                "zbritje"
+              ]
+            }
           }
         ],
         "tip": [
-          {},
           {
-            "green": [
-              "den Zuschlag erhalten"
+            "blue": [
+              "Zuschlag"
+            ]
+          },
+          {
+            "blue": [
+              "Zuschlag"
             ]
           }
         ],
         "important": [
-          {},
           {
-            "red": [
-              "die Anlage",
-              "der Anhang"
+            "blue": [
+              "Zuschläge"
             ]
           }
         ]
@@ -4051,169 +5796,374 @@ const C1_WORDS = [
   },
   {
     "de": "beziehen / sich beziehen auf",
-    "lv": "Uygula • İlişkilendir",
+    "lv": "lidh me • i referohem",
     "level": "C1",
     "study": {
       "id": "c1-beziehen-sich-beziehen-auf",
       "layout": "standardStudy",
-      "translation": "Uygula • İlişkilendir",
+      "translation": "lidh me • i referohem",
       "explanation": [
-        "Ana fikir: Resmi kayıt: kaynağın belirtilmesi, düzenli olarak emekli maaşı/maaş alınması veya bir daireye taşınma.",
-        "Örnekler tipik günlük kullanıma yöneliktir.",
-        "Şüpheniz varsa bunun bir durum mu yoksa bir aktivite mi olduğunu kontrol edin.",
-        "Bağlam ve eylem planı doğru seçimi belirler."
+        "Ideja kryesore: etwas auf etwas beziehen do të thotë ta lidhësh diçka me diçka ose me dikë; sich auf etwas beziehen do të thotë të ketë të bëjë me diçka ose t'i referohesh asaj.",
+        "Format: bezieht, bezog, hat bezogen. Në të dy ndërtimet pason auf + kallëzore (Akkusativ): etwas auf sich beziehen (e marr për vete), sich auf einen Text beziehen (i referohem një teksti).",
+        "Përveç këtij kuptimi, beziehen mund të thotë edhe të vësh çarçafë në shtrat (das Bett beziehen), të hysh të banosh (eine Wohnung beziehen) dhe të marrësh rregullisht (ein Gehalt beziehen)."
       ],
       "examples": [
         {
-          "de": "beziehen / sich beziehen auf.",
-          "lv": "Uygula • İlişkilendir"
+          "de": "Du darfst das nicht auf dich beziehen.",
+          "lv": "Nuk duhet ta marrësh këtë për vete."
+        },
+        {
+          "de": "Meine Frage bezieht sich auf den letzten Absatz.",
+          "lv": "Pyetja ime ka të bëjë me paragrafin e fundit."
+        },
+        {
+          "de": "Er bezieht sich in seinem Brief auf unser Gespräch.",
+          "lv": "Në letrën e tij ai i referohet bisedës sonë."
+        },
+        {
+          "de": "Sie bezog die Aussage auf ihren Bruder.",
+          "lv": "Ajo e lidhi deklaratën me vëllanë e saj."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "betreffen",
+          "meaning": "prek, ka të bëjë me",
+          "example": "Das betrifft uns alle. – Kjo na prek të gjithëve."
+        },
+        {
+          "word": "verweisen auf",
+          "meaning": "tregoj, i referohem",
+          "example": "Er verweist auf das Gesetz. – Ai i referohet ligjit."
+        },
+        {
+          "word": "sich handeln um",
+          "meaning": "bëhet fjalë për",
+          "example": "Es handelt sich um einen Fehler. – Bëhet fjalë për një gabim."
         }
       ],
       "tip": [
-        "Resmi kayıt: kaynağın belirtilmesi, düzenli olarak emekli maaşı/maaş alınması veya bir daireye taşınma.",
-        "Bağlam bu anlama uyduğunda beziehen / sich beziehen auf kullanın."
+        "Mbaj mend çiftin: sich beziehen auf + kallëzore (Akkusativ). Parafjala është gjithmonë auf.",
+        "Nëse do të thuash «e marr për vete»: etwas auf sich beziehen."
       ],
       "important": [
-        "Resmi kayıt: kaynağın belirtilmesi, düzenli olarak emekli maaşı/maaş alınması veya bir daireye taşınma.",
-        "Beziehen / sich beziehen auf: przed użyciem sprawdź kontekst i porównaj z innymi słowami na karcie."
+        "Beziehen është fjalë me shumë kuptime: konteksti tregon nëse bëhet fjalë për lidhjen me diçka, për shtratin apo për rrogën.",
+        "Vetë betreffen është folje kalimtare, pa parafjalë: Das betrifft mich."
       ],
       "sectionAccents": {
-        "explanation": {},
+        "explanation": {
+          "blue": [
+            "beziehen",
+            "sich beziehen",
+            "bezieht",
+            "bezog",
+            "bezogen",
+            "auf"
+          ],
+          "purple": [
+            "lidhësh",
+            "të bëjë me",
+            "referohesh"
+          ]
+        },
         "examples": [
           {
             "de": {
               "blue": [
-                "beziehen / sich beziehen auf",
-                "beziehen / sich beziehen auf"
+                "beziehen"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "marrësh"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bezieht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "të bëjë me"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bezieht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "referohet"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bezog"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "lidhi"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "betreffen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "prek"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "verweisen auf"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "tregoj"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich handeln um"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "fjalë"
+              ]
+            }
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "beziehen",
+              "sich beziehen",
+              "auf"
+            ]
+          },
+          {
+            "blue": [
+              "beziehen",
+              "sich beziehen",
+              "auf"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "beziehen"
+            ]
+          },
+          {
+            "green": [
+              "betreffen"
+            ]
+          }
         ]
       }
     }
   },
   {
     "de": "beabsichtigen",
-    "lv": "Niyet etmek • Planlamak",
+    "lv": "kam ndër mend • synoj • planifikoj",
     "level": "C1",
     "study": {
       "id": "c1-beabsichtigen",
       "layout": "standardStudy",
-      "translation": "Niyet etmek • Planlamak",
+      "translation": "kam ndër mend • synoj • planifikoj",
       "explanation": [
-        "Ana fikir: Gelecekte bir eylem gerçekleştirmeye yönelik bilinçli niyet. Bir ilişki hakkında değil, bir plan hakkında.",
-        "Beabsichtigen her şeyden önce bilinçli niyet anlamına gelir.",
-        "Genellikle şu şekilde karakterize edilir: plan/niyet.",
-        "Beabsichtigen temel olarak şu anlama gelir: eylemi planlamak.",
-        "Często charakteryzuje się: oficjalnym rejestrem.",
-        "Beabsichtigen kasıtlı olarak bir eyleme niyet etmek veya planlamak anlamına gelir • Bir ilişki değil, bir niyet."
+        "Ideja kryesore: beabsichtigen do të thotë të kesh ndër mend, të planifikosh, të kesh qëllim të bësh diçka; është synim i vetëdijshëm. Tingëllon më zyrtare se vorhaben.",
+        "Folje e rregullt: er beabsichtigt, beabsichtigte, hat beabsichtigt. Pason ose rasa kallëzore (Akkusativ) (etwas beabsichtigen), ose paskajorja me zu: Ich beabsichtige, im Herbst umzuziehen. Emri është die Absicht (qëllim, synim).",
+        "Pjesorja beabsichtigt përdoret si mbiemër: eine beabsichtigte Wirkung (efekt i qëllimshëm)."
       ],
       "examples": [
         {
-          "de": "Er beabsichtigt, das Projekt zu beenden.",
-          "lv": "Projeyi bitirecekti."
+          "de": "Ich beabsichtige, im Herbst umzuziehen.",
+          "lv": "Kam ndër mend të shpërngulem në vjeshtë."
         },
         {
-          "de": "Was beabsichtigen Sie mit dieser Maßnahme?",
-          "lv": "Bu olayla ne demek istiyorsunuz?"
+          "de": "Die Firma beabsichtigt, ein neues Werk zu bauen.",
+          "lv": "Kompania planifikon të ndërtojë një fabrikë të re."
         },
         {
-          "de": "Wir beabsichtigen keine Änderung.",
-          "lv": "Nie planujemy zmian."
+          "de": "Das war nicht beabsichtigt.",
+          "lv": "Kjo nuk ishte e qëllimshme."
         },
         {
-          "de": "Er beabsichtigt, das Projekt zu beenden.",
-          "lv": "Projeyi bitirecekti."
+          "de": "Was beabsichtigst du damit?",
+          "lv": "Çfarë synon me këtë?"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "vorhaben",
+          "meaning": "kam ndër mend",
+          "example": "Ich habe vor, morgen zu kommen. – Kam ndër mend të vij nesër."
         },
         {
-          "de": "beabsichtigen + zu + nenoteiksme",
-          "lv": "Bir şeyler yapmaya niyetlenmek."
+          "word": "planen",
+          "meaning": "planifikoj",
+          "example": "Wir planen eine Reise. – Ne po planifikojmë një udhëtim."
+        },
+        {
+          "word": "wollen",
+          "meaning": "dua",
+          "example": "Ich will schlafen. – Dua të fle."
         }
       ],
       "tip": [
-        "Jeśli chodzi o relacje, źródła czy regularne wpływy — beziehen. Jeśli chodzi o przemyślany plan — beabsichtigen.",
-        "Beabsichtigen = düşünmek"
+        "Pas beabsichtigen më shpesh vjen zu + paskajore me presje: …, zu bauen.",
+        "Në jetën e përditshme mund të thuash edhe vorhaben ose planen; beabsichtigen është më zyrtare."
       ],
       "important": [
-        "Beabsichtigen + zu + düzensizlik: Er beabsichtigt zu gehen.",
-        "Beabsichtigen'in yerini beziehen alamaz • Bu bir niyettir, bir ilişki değil.",
-        "Beabsichtigen → intencja, plan.",
-        "Gelecekte bir eylem gerçekleştirmeye yönelik bilinçli niyet. Bir ilişki hakkında değil, bir plan hakkında."
+        "Pjesorja është beabsichtigt (pa ge-), sepse parashtesa be- është e pandashme."
       ],
       "sectionAccents": {
         "explanation": {
-          "green": [
-            "beabsichtigen"
+          "blue": [
+            "beabsichtigen",
+            "beabsichtigt",
+            "beabsichtigte",
+            "vorhaben",
+            "Absicht",
+            "beabsichtige"
           ],
           "purple": [
-            "plan"
+            "ndër mend",
+            "planifikosh",
+            "qëllim"
           ]
         },
         "examples": [
           {
             "de": {
-              "green": [
+              "blue": [
+                "beabsichtige"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ndër mend"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
                 "beabsichtigt"
               ]
             },
-            "lv": {}
-          },
-          {
-            "de": {
-              "green": [
-                "beabsichtigen",
-                "beabsichtigen"
+            "lv": {
+              "purple": [
+                "planifikon"
               ]
-            },
-            "lv": {}
+            }
           },
           {
             "de": {
-              "green": [
-                "beabsichtigen",
-                "beabsichtigen"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "green": [
+              "blue": [
                 "beabsichtigt"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "qëllimshme"
+              ]
+            }
           },
           {
             "de": {
-              "green": [
-                "beabsichtigen",
-                "beabsichtigen"
+              "blue": [
+                "beabsichtigst"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "synon"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "vorhaben"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ndër mend"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "planen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "planifikoj"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "wollen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "dua"
+              ]
+            }
           }
         ],
         "tip": [
-          {},
           {
-            "purple": [
-              "plan"
+            "blue": [
+              "beabsichtigen"
+            ]
+          },
+          {
+            "blue": [
+              "beabsichtigen",
+              "vorhaben"
+            ],
+            "green": [
+              "planen"
             ]
           }
         ],
         "important": [
           {
-            "green": [
-              "beabsichtigen"
+            "blue": [
+              "beabsichtigt"
             ]
           }
         ]
@@ -4222,53 +6172,70 @@ const C1_WORDS = [
   },
   {
     "de": "unterstellen",
-    "lv": "Wina • Przypisywanie bezpodstawne",
+    "lv": "akuzoj padrejtësisht • i atribuoj padrejtësisht",
     "level": "C1",
     "study": {
       "id": "c1-unterstellen",
       "layout": "standardStudy",
-      "translation": "Wina • Przypisywanie bezpodstawne",
+      "translation": "akuzoj padrejtësisht • i atribuoj padrejtësisht",
       "explanation": [
-        "Główna idea: bezzasadne przypisywanie winy, motywu lub zamiaru innej osobie.",
-        "Unterstellen temel olarak şu anlama gelir: temelsiz atıf yapmak.",
-        "Genellikle şu şekilde karakterize edilir: suçlama/ilgi.",
-        "Jemandem etwas unterstellen oznacza niesprawiedliwe przypisywanie lub obwinianie."
+        "Ideja kryesore: jemandem etwas unterstellen do të thotë t'i atribuosh dikujt diçka (një qëllim, fjalë, një veprim të keq), shpesh pa prova. Kuptimi i dytë: të vësh nën varësi: Die Abteilung ist dem Direktor unterstellt.",
+        "Folje e pandashme, theksi bie te -stell-: er unterstellt, unterstellte, hat unterstellt. Ndërtimi: jemandem etwas unterstellen (kujt? çfarë?). Kur theksi bie te unter-, është folje tjetër, e ndashme: Ich stelle das Auto unter — e vendos nën strehë; sich unterstellen — strehohem.",
+        "Në këtë kuptim fjala shpreh dyshim ose qortim të pabazuar, prandaj tingëllon e ashpër."
       ],
       "examples": [
         {
-          "de": "Man unterstellt mir schlechte Absichten.",
-          "lv": "Kötü niyetle suçlanıyorum."
+          "de": "Er unterstellt mir böse Absichten.",
+          "lv": "Ai më atribuon qëllime të këqija."
         },
         {
-          "de": "Unterstellen Sie mir nichts!",
-          "lv": "Nie obwiniaj mnie o nic!"
+          "de": "Das unterstelle ich dir nicht.",
+          "lv": "Unë nuk të akuzoj për këtë."
         },
         {
-          "de": "Man darf niemandem Verrat unterstellen.",
-          "lv": "Hiç kimse haksız yere vatana ihanetle suçlanmamalıdır."
+          "de": "Man unterstellte ihr, dass sie gelogen habe.",
+          "lv": "Ajo u akuzua padrejtësisht se gjoja kishte gënjyer."
         },
         {
-          "de": "Ihm wird Untreue unterstellt.",
-          "lv": "Güven eksikliği ile suçlanıyor."
+          "de": "Die Abteilung ist direkt dem Direktor unterstellt.",
+          "lv": "Seksioni është drejtpërdrejt në varësi të drejtorit."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "vorwerfen",
+          "meaning": "qortoj, fajësoj",
+          "example": "Er wirft mir Faulheit vor. – Ai më qorton për përtaci."
         },
         {
-          "de": "unterstellen",
-          "lv": "Nieuzasadniona wina • Prognoza"
+          "word": "beschuldigen",
+          "meaning": "akuzoj",
+          "example": "Sie beschuldigt ihn des Diebstahls. – Ajo e akuzon për vjedhje."
+        },
+        {
+          "word": "behaupten",
+          "meaning": "pohoj",
+          "example": "Er behauptet, krank zu sein. – Ai pohon se është i sëmurë."
         }
       ],
       "tip": [
-        "Unterstellen = atmak",
-        "Bağlam bu anlama uyduğu zaman unterstellen'ı kullanır."
+        "Mbaj mend: unterstellen = t'i atribuosh dikujt diçka negative, shpesh pa bazë.",
+        "Pas unterstellen personi vihet në rasën dhanore (Dativ): Er unterstellt mir …"
       ],
       "important": [
-        "Unterstellen duygusal açıdan olumsuzdur • Temelsiz bir suçlamadır.",
-        "Niepoprawnie: Wir unterstellen Grundkenntnisse. → Poprawnie: Wir setzen Grundkenntnisse voraus.",
-        "Unterstellen → wina, atrybut."
+        "Folja e pandashme unterstellen (atribuoj, vë nën varësi) nuk është e njëjtë me foljen e ndashme unterstellen (vendos nën strehë, strehohem)."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "unterstellen"
+            "unterstellen",
+            "unterstellt",
+            "unterstellte"
+          ],
+          "purple": [
+            "atribuosh",
+            "varësi",
+            "qortim"
           ]
         },
         "examples": [
@@ -4278,25 +6245,30 @@ const C1_WORDS = [
                 "unterstellt"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "atribuon"
+              ]
+            }
           },
           {
             "de": {
               "blue": [
-                "unterstellen",
-                "unterstellen"
+                "unterstelle"
               ]
-            },
-            "lv": {}
+            }
           },
           {
             "de": {
               "blue": [
-                "unterstellen",
-                "unterstellen"
+                "unterstellte"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "akuzua"
+              ]
+            }
           },
           {
             "de": {
@@ -4304,21 +6276,63 @@ const C1_WORDS = [
                 "unterstellt"
               ]
             },
-            "lv": {}
-          },
+            "lv": {
+              "purple": [
+                "varësi"
+              ]
+            }
+          }
+        ],
+        "comparison": [
           {
-            "de": {
-              "blue": [
-                "unterstellen",
-                "unterstellen"
+            "word": {
+              "green": [
+                "vorwerfen"
               ]
             },
-            "lv": {}
+            "meaning": {
+              "purple": [
+                "qortoj"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "beschuldigen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "akuzoj"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "behaupten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "pohoj"
+              ]
+            }
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "unterstellen"
+            ]
+          },
+          {
+            "blue": [
+              "unterstellen",
+              "unterstellt"
+            ]
+          }
         ],
         "important": [
           {
@@ -4332,60 +6346,184 @@ const C1_WORDS = [
   },
   {
     "de": "voraussetzen",
-    "lv": "Bunu bir önkoşul olarak kabul edin",
+    "lv": "marr si të mirëqenë • kërkoj si parakusht",
     "level": "C1",
     "study": {
       "id": "c1-voraussetzen",
       "layout": "standardStudy",
-      "translation": "Bunu bir önkoşul olarak kabul edin",
+      "translation": "marr si të mirëqenë • kërkoj si parakusht",
       "explanation": [
-        "Ana fikir: Bir şeyin zaten bilindiğini veya var olduğunu temel olarak varsaymak.",
-        "Voraussetzen esas olarak şu anlama gelir: temel olarak düşünmek.",
-        "Genellikle şu şekilde karakterize edilir: mantıksal bir öncül.",
-        "Etwas voraussetzen zaten var olan bir varsayımı olduğu gibi kabul etmek anlamına gelir."
+        "Ideja kryesore: voraussetzen do të thotë ta marrësh diçka si të njohur ose të vetëkuptueshme, ose ta kërkosh diçka si parakusht: Der Kurs setzt gute Kenntnisse voraus.",
+        "Folje e ndashme: er setzt voraus, setzte voraus, hat vorausgesetzt. Ajo që merret si e mirëqenë ose që kërkohet është në rasën kallëzore (Akkusativ). Emri është die Voraussetzung (parakusht).",
+        "Pjesorja vorausgesetzt me presje do të thotë me kusht që: Vorausgesetzt, es regnet nicht, grillen wir."
       ],
       "examples": [
         {
-          "de": "Wir setzen Grundkenntnisse voraus.",
-          "lv": "Temel bilgiyi ön koşul olarak alıyoruz."
+          "de": "Der Kurs setzt gute Deutschkenntnisse voraus.",
+          "lv": "Kursi kërkon njohuri të mira të gjermanishtes."
         },
         {
-          "de": "Wir setzen Grundkenntnisse voraus.",
-          "lv": "Temel bilgiyi ön koşul olarak alıyoruz."
+          "de": "Ich habe vorausgesetzt, dass du Bescheid weißt.",
+          "lv": "E kam marrë si të mirëqenë që ishe në dijeni."
+        },
+        {
+          "de": "Diese Stelle setzt ein Studium voraus.",
+          "lv": "Ky vend pune kërkon si parakusht studime universitare."
+        },
+        {
+          "de": "Vorausgesetzt, es regnet nicht, grillen wir.",
+          "lv": "Me kusht që të mos bjerë shi, do të pjekim në skarë."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "erfordern",
+          "meaning": "kërkoj, është i nevojshëm",
+          "example": "Die Aufgabe erfordert Geduld. – Detyra kërkon durim."
+        },
+        {
+          "word": "annehmen",
+          "meaning": "supozoj, mendoj",
+          "example": "Ich nehme an, dass er kommt. – Supozoj se ai do të vijë."
+        },
+        {
+          "word": "die Voraussetzung",
+          "meaning": "parakusht",
+          "example": "Das ist keine Voraussetzung. – Ky nuk është parakusht."
         }
       ],
       "tip": [
-        "Voraussetzen = bir önkoşulu kabul etmek",
-        "Bağlam bu anlama uygun olduğunda voraussetzen'i kullanın."
+        "Mbaj mend ndarjen: Das setzt Mühe voraus, por …, weil das Mühe voraussetzt.",
+        "Lidhje e shpeshtë: etwas als bekannt voraussetzen."
       ],
       "important": [
-        "Voraussetzen jest nijaki — przyimek.",
-        "Voraussetzen → temel alın.",
-        "Temel olarak bir şeyin zaten bilindiğini veya var olduğunu varsaymak."
+        "Pjesorja është vorausgesetzt — ge- vendoset midis voraus dhe setzt."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "voraussetzen",
+            "setzt voraus",
+            "setzte voraus",
+            "vorausgesetzt",
+            "Voraussetzung",
+            "setzt",
+            "setzte",
+            "Vorausgesetzt"
+          ],
+          "purple": [
+            "marrësh",
+            "parakusht"
+          ],
           "green": [
-            "voraussetzen"
+            "die Voraussetzung"
           ]
         },
         "examples": [
           {
-            "de": {},
-            "lv": {}
+            "de": {
+              "blue": [
+                "setzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kërkon"
+              ]
+            }
           },
           {
-            "de": {},
-            "lv": {}
+            "de": {
+              "blue": [
+                "vorausgesetzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "marrë"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "setzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "parakusht"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Vorausgesetzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Me kusht"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "erfordern"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "kërkoj"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "annehmen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "supozoj"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Voraussetzung"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "parakusht"
+              ]
+            }
           }
         ],
         "tip": [
-          {}
+          {
+            "blue": [
+              "setzt"
+            ]
+          },
+          {
+            "blue": [
+              "voraussetzen"
+            ]
+          }
         ],
         "important": [
           {
-            "green": [
-              "voraussetzen"
+            "blue": [
+              "vorausgesetzt",
+              "setzt"
             ]
           }
         ]
@@ -4394,97 +6532,190 @@ const C1_WORDS = [
   },
   {
     "de": "bewahren",
-    "lv": "Koruyun • Koruyun",
+    "lv": "ruaj • mbroj",
     "level": "C1",
     "study": {
       "id": "c1-bewahren",
       "layout": "standardStudy",
-      "translation": "Koruyun • Koruyun",
+      "translation": "ruaj • mbroj",
       "explanation": [
-        "Ana fikir: Kayıp, hasar veya yıkıma karşı koruyun - değer, gelenek, barış.",
-        "Bewahren her şeyden önce şu anlama gelir: kayba karşı korunmak.",
-        "Genellikle şu şekilde karakterize edilir: değerlerin korunması.",
-        "Bewahren oznacza chronić przed uszkodzeniem, utratą lub zmianą."
+        "Ideja kryesore: bewahren do të thotë ta mbrosh dikë nga diçka e keqe (jemanden vor etwas bewahren) dhe të ruash diçka të vlefshme ose të pandryshuar (Ruhe, Traditionen, Erinnerungen).",
+        "Folje e rregullt: er bewahrt, bewahrte, hat bewahrt. Mbrojtja: bewahren vor + dhanore (Dativ) (kë? nga çfarë?). Ruajtja: kallëzore (Akkusativ) — die Ruhe bewahren. Të mbash një sekret: ein Geheimnis bewahren.",
+        "Fjala është e një stili më të lartë se behalten (mbaj për vete) ose aufheben (ruaj diku)."
       ],
       "examples": [
         {
-          "de": "Wir bewahren die Traditionen.",
-          "lv": "Podtrzymujemy tradycje."
+          "de": "Bitte bewahren Sie Ruhe!",
+          "lv": "Ju lutem, ruani qetësinë!"
         },
         {
-          "de": "Sie bewahren die Ruhe in der Krise.",
-          "lv": "Kriz anında sakin kalırlar."
+          "de": "Der Helm hat ihn vor Schlimmerem bewahrt.",
+          "lv": "Helmeta e shpëtoi nga më e keqja."
         },
         {
-          "de": "Wir bewahren die Traditionen.",
-          "lv": "Podtrzymujemy tradycje."
+          "de": "Er bewahrte das Geheimnis jahrelang.",
+          "lv": "Ai e mbajti sekretin për vite me radhë."
         },
         {
-          "de": "bewahren",
-          "lv": "Koruyun/koruyun • Aufrechterhalten"
+          "de": "Wir wollen diese Tradition bewahren.",
+          "lv": "Ne duam ta ruajmë këtë traditë."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "aufbewahren",
+          "meaning": "ruaj (në një vend)",
+          "example": "Bewahre die Quittung auf! – Ruaje faturën!"
+        },
+        {
+          "word": "schützen",
+          "meaning": "mbroj",
+          "example": "Der Zaun schützt vor dem Wind. – Gardhi mbron nga era."
+        },
+        {
+          "word": "behalten",
+          "meaning": "mbaj (për vete)",
+          "example": "Du kannst das Buch behalten. – Mund ta mbash librin."
         }
       ],
       "tip": [
-        "Bewahren = chronić",
-        "Bağlam bu anlama uygun olduğunda bewahren kullanın."
+        "Mbaj mend shprehjen e ngulitur: Ruhe bewahren — ruaj qetësinë.",
+        "Të mbrosh nga diçka: bewahren vor + dhanore (Dativ) (vor Schaden, vor Gefahr)."
       ],
       "important": [
-        "Bewahren: Wertvolles bewahren – değerli olanı koruyun.",
-        "Niepoprawnie: Wir bewahren den Frieden auf. → Poprawnie: Wir erhalten den Frieden auf.",
-        "Bewahren → koruyun, muhafaza edin."
+        "Bewahren nuk është e njëjta gjë me aufbewahren: aufbewahren është ruajtje fizike e sendeve, kurse bewahren do të thotë të ruash diçka ose të mbrosh dikë.",
+        "Pjesorja është bewahrt (pa ge-)."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "bewahren"
+            "bewahren",
+            "bewahrt",
+            "bewahrte",
+            "behalten",
+            "vor",
+            "Ruhe bewahren"
+          ],
+          "purple": [
+            "mbrosh",
+            "ruash",
+            "mbash"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "bewahren",
                 "bewahren"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "ruani"
+              ]
+            }
           },
           {
             "de": {
               "blue": [
-                "bewahren",
-                "bewahren"
+                "bewahrt"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "shpëtoi"
+              ]
+            }
           },
           {
             "de": {
               "blue": [
-                "bewahren",
-                "bewahren"
+                "bewahrte"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "mbajti"
+              ]
+            }
           },
           {
             "de": {
               "blue": [
-                "bewahren",
                 "bewahren"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "ruajmë"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "aufbewahren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ruaj"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "schützen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "mbroj"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "behalten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "mbaj"
+              ]
+            }
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "bewahren",
+              "Ruhe bewahren"
+            ]
+          },
+          {
+            "blue": [
+              "bewahren",
+              "vor"
+            ]
+          }
         ],
         "important": [
           {
             "blue": [
               "bewahren"
+            ],
+            "green": [
+              "aufbewahren"
+            ]
+          },
+          {
+            "blue": [
+              "bewahrt"
             ]
           }
         ]
@@ -4493,72 +6724,180 @@ const C1_WORDS = [
   },
   {
     "de": "aufrechterhalten",
-    "lv": "Destekle",
+    "lv": "mbaj në fuqi • ruaj",
     "level": "C1",
     "study": {
       "id": "c1-aufrechterhalten",
       "layout": "standardStudy",
-      "translation": "Destekle",
+      "translation": "mbaj në fuqi • ruaj",
       "explanation": [
-        "Główna idea: zapewnienie dalszego istnienia stanu, porządku lub relacji.",
-        "Aufrechterhalten oznacza przede wszystkim: zapewnienie kontynuacji.",
-        "Genellikle şu şekilde karakterize edilir: Durumun sürdürülmesi.",
-        "Aufrechterhalten sürekliliği sağlamak için bir durumu, sistemi veya ilişkiyi sürdürmek anlamına gelir."
+        "Ideja kryesore: aufrechterhalten do të thotë të mbash, të mos humbasësh: të ruash diçka në fuqi ose në funksion (rendin, kontaktin, një pohim, një ofertë).",
+        "Folje e ndashme: er erhält aufrecht, erhielt aufrecht, hat aufrechterhalten. Ajo që mbahet është në rasën kallëzore (Akkusativ). Me paskajore me zu: aufrechtzuerhalten.",
+        "Shumë shpesh përdoret me Ordnung, Kontakt, Verbindung, Behauptung, Forderung."
       ],
       "examples": [
         {
-          "de": "Der Staat erhält die Ordnung auf.",
-          "lv": "Devlet düzeni sağlar."
+          "de": "Der Staat erhält die Ordnung aufrecht.",
+          "lv": "Shteti mban rendin."
         },
         {
-          "de": "Man muss den Betrieb aufrechterhalten.",
-          "lv": "Eylemin yürürlükte kalması gerekiyor."
+          "de": "Sie haben den Kontakt über Jahre aufrechterhalten.",
+          "lv": "Ata e kanë mbajtur kontaktin për vite me radhë."
         },
         {
-          "de": "Der Staat erhält die Ordnung auf.",
-          "lv": "Devlet düzeni sağlar."
+          "de": "Wir können dieses Angebot nicht länger aufrechterhalten.",
+          "lv": "Këtë ofertë nuk mund ta mbajmë më gjatë në fuqi."
+        },
+        {
+          "de": "Er erhielt seine Behauptung aufrecht.",
+          "lv": "Ai ngulmoi në pohimin e tij."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "erhalten",
+          "meaning": "ruaj",
+          "example": "Wir erhalten das Gebäude. – Ne e ruajmë ndërtesën."
+        },
+        {
+          "word": "beibehalten",
+          "meaning": "ruaj pa e ndryshuar",
+          "example": "Wir behalten den Plan bei. – Ne e mbajmë planin."
+        },
+        {
+          "word": "pflegen",
+          "meaning": "mbaj, kultivoj",
+          "example": "Sie pflegt Kontakte. – Ajo kultivon kontaktet."
         }
       ],
       "tip": [
-        "Aufrechterhalten = yürürlükte kalmak",
-        "Bağlam bu anlama uygun olduğunda aufrechterhalten kullanın."
+        "Mbaj mend ndarjen: Er erhält die Ordnung aufrecht, por …, dass er die Ordnung aufrechterhält.",
+        "Për kontaktin do të thuash: den Kontakt aufrechterhalten (ose pflegen)."
       ],
       "important": [
-        "Aufrechterhalten: Ordnung/Frieden/Stabilität aufrechterhalten.",
-        "Aufrechterhalten → yürürlükte kal.",
-        "Bir devletin, düzenin veya ilişkinin varlığının devamını sağlamak."
+        "Në kohën e kryer (Perfekt) aufrechterhalten është një fjalë e vetme, pa ge-: hat aufrechterhalten."
       ],
       "sectionAccents": {
         "explanation": {
-          "green": [
-            "aufrechterhalten"
+          "blue": [
+            "aufrechterhalten",
+            "erhält aufrecht",
+            "erhielt aufrecht",
+            "aufrechtzuerhalten",
+            "erhält",
+            "erhielt"
+          ],
+          "purple": [
+            "mbash",
+            "ruash"
           ]
         },
         "examples": [
           {
-            "de": {},
-            "lv": {}
+            "de": {
+              "blue": [
+                "erhält"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "mban"
+              ]
+            }
           },
           {
             "de": {
-              "green": [
-                "aufrechterhalten",
+              "blue": [
                 "aufrechterhalten"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "mbajtur"
+              ]
+            }
           },
           {
-            "de": {},
-            "lv": {}
+            "de": {
+              "blue": [
+                "aufrechterhalten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "mbajmë"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "erhielt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ngulmoi"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "erhalten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ruaj"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "beibehalten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ndryshuar"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "pflegen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "kultivoj"
+              ]
+            }
           }
         ],
         "tip": [
-          {}
+          {
+            "blue": [
+              "erhält"
+            ]
+          },
+          {
+            "blue": [
+              "aufrechterhalten"
+            ],
+            "green": [
+              "pflegen"
+            ]
+          }
         ],
         "important": [
           {
-            "green": [
+            "blue": [
               "aufrechterhalten"
             ]
           }
@@ -4570,49 +6909,49 @@ const C1_WORDS = [
     "de": "Hektar",
     "de_article": "der",
     "de_plural": "die Hektar",
-    "lv": "Hektar",
+    "lv": "hektar",
     "level": "C1"
   },
   {
     "de": "Karre",
     "de_article": "die",
     "de_plural": "die Karren",
-    "lv": "Taczki",
+    "lv": "karrocë dore • karrocë",
     "level": "C1"
   },
   {
     "de": "Karren",
     "de_article": "der",
     "de_plural": "die Karren",
-    "lv": "Taczki",
+    "lv": "karrocë dore • qerre",
     "level": "C1"
   },
   {
     "de": "Krüppel",
     "de_article": "der",
     "de_plural": "die Krüppel",
-    "lv": "Kaleka",
+    "lv": "i gjymtë • invalid",
     "level": "C1"
   },
   {
     "de": "Matsch",
     "de_article": "der",
     "de_plural": "die Matsche",
-    "lv": "Çamur • Sulu Kar",
+    "lv": "baltë • llucë",
     "level": "C1"
   },
   {
     "de": "Panter",
     "de_article": "der",
     "de_plural": "die Panter",
-    "lv": "Pantera",
+    "lv": "panterë",
     "level": "C1"
   },
   {
     "de": "Panther",
     "de_article": "der",
     "de_plural": "die Panther",
-    "lv": "Pantera",
+    "lv": "panterë",
     "level": "C1"
   }
 ];

@@ -3,1483 +3,1627 @@ const C2_WORDS = [
     "de": "Unvoreingenommenheit",
     "de_article": "die",
     "de_plural": "die Unvoreingenommenheiten",
-    "lv": "Obiektywizm • Neutralność",
+    "lv": "paanshmëri • objektivitet",
     "level": "C2"
   },
   {
     "de": "konterkarieren",
-    "lv": "Kesintiye uğratmak",
+    "lv": "pengoj • prish",
     "level": "C2"
   },
   {
     "de": "Stichhaltigkeit",
     "de_article": "die",
     "de_plural": "die Stichhaltigkeiten",
-    "lv": "Algı",
+    "lv": "qëndrueshmëri • vlefshmëri",
     "level": "C2"
   },
   {
     "de": "unmissverständlich",
-    "lv": "Şüphesiz",
+    "lv": "i qartë • i prerë",
     "level": "C2"
   },
   {
     "de": "Wechselwirkung",
     "de_article": "die",
     "de_plural": "die Wechselwirkungen",
-    "lv": "Wzajemne oddziaływanie",
+    "lv": "bashkëveprim • ndërveprim",
     "level": "C2"
   },
   {
     "de": "veranschaulichen",
-    "lv": "Görünür şekilde göster",
+    "lv": "ilustroj • tregoj qartë",
     "level": "C2"
   },
   {
     "de": "Schlussfolgerung",
     "de_article": "die",
     "de_plural": "die Schlussfolgerungen",
-    "lv": "Başvuru",
+    "lv": "përfundim",
     "level": "C2"
   },
   {
     "de": "Sorgfaltspflicht",
     "de_article": "die",
-    "lv": "Bakım görevi",
+    "lv": "detyrim kujdesi",
     "level": "C2"
   },
   {
     "de": "Anfangsbuchstabe",
     "de_article": "der",
     "de_plural": "die Anfangsbuchstaben",
-    "lv": "Pierwszy list",
+    "lv": "shkronjë fillestare • iniciale",
     "level": "C2"
   },
   {
     "de": "Anführungszeichen",
     "de_article": "das",
     "de_plural": "die Anführungszeichen",
-    "lv": "Tırnak işareti",
+    "lv": "thonjëza",
     "level": "C2"
   },
   {
     "de": "Abschlussprüfung",
     "de_article": "die",
     "de_plural": "die Abschlussprüfungen",
-    "lv": "Final sınavı",
+    "lv": "provim përfundimtar",
     "level": "C2"
   },
   {
     "de": "Arbeitserlaubnis",
     "de_article": "die",
     "de_plural": "die Arbeitserlaubnisse",
-    "lv": "Çalışma izni",
+    "lv": "leje pune",
     "level": "C2"
   },
   {
     "de": "Teilnehmerausweis",
     "de_article": "der",
     "de_plural": "die Teilnehmerausweise",
-    "lv": "Üyelik kartı",
+    "lv": "kartë pjesëmarrësi",
     "level": "C2"
   },
   {
     "de": "batteriebetrieben",
-    "lv": "Pille çalışan",
+    "lv": "me bateri",
     "level": "C2"
   },
   {
     "de": "beaufsichtigen",
-    "lv": "Monitor",
+    "lv": "mbikëqyr",
     "level": "C2"
   },
   {
     "de": "Lebensbedingungen",
     "de_article": "die",
     "de_plural": "die Lebensbedingungen",
-    "lv": "Yaşam koşulları",
+    "lv": "kushte jetese",
     "level": "C2"
   },
   {
     "de": "Behandlungsraum",
     "de_article": "der",
     "de_plural": "die Behandlungsräume",
-    "lv": "Gabinet lekarski",
+    "lv": "dhomë mjekimi • kabinet mjekësor",
     "level": "C2"
   },
   {
     "de": "beispielsweise",
-    "lv": "Örneğin",
+    "lv": "për shembull",
     "level": "C2"
   },
   {
     "de": "Mitgliedsbeitrag",
     "de_article": "der",
     "de_plural": "die Mitgliedsbeiträge",
-    "lv": "Üyelik ücreti",
+    "lv": "kuotë anëtarësie",
     "level": "C2"
   },
   {
     "de": "benachrichtigen",
-    "lv": "Duyur",
+    "lv": "njoftoj",
     "level": "C2"
   },
   {
     "de": "Benzingutschein",
     "de_article": "der",
     "de_plural": "die Benzingutscheine",
-    "lv": "Benzin kuponu",
+    "lv": "kupon benzine",
     "level": "C2"
   },
   {
     "de": "Benzinkanister",
     "de_article": "der",
     "de_plural": "die Benzinkanister",
-    "lv": "Benzin bidonu",
+    "lv": "bidon benzine",
     "level": "C2"
   },
   {
     "de": "Benzinverbrauch",
     "de_article": "der",
     "de_plural": "die Benzinverbräuche",
-    "lv": "Benzin tüketimi",
+    "lv": "konsum benzine",
     "level": "C2"
   },
   {
     "de": "Bequemlichkeit",
     "de_article": "die",
     "de_plural": "die Bequemlichkeiten",
-    "lv": "Wygoda",
+    "lv": "rehati",
     "level": "C2"
   },
   {
     "de": "berücksichtigen",
-    "lv": "Dikkate al",
+    "lv": "marr parasysh",
     "level": "C2"
   },
   {
     "de": "Berufsausbildung",
     "de_article": "die",
     "de_plural": "die Berufsausbildungen",
-    "lv": "Wykształcenie zawodowe",
+    "lv": "arsim profesional • formim profesional",
     "level": "C2"
   },
   {
     "de": "Tintenstrahldrucker",
     "de_article": "der",
     "de_plural": "die Tintenstrahldrucker",
-    "lv": "Drukarka atramentowa",
+    "lv": "printer me bojë",
     "level": "C2"
   },
   {
     "de": "Gewichtseinheit",
     "de_article": "die",
     "de_plural": "die Gewichtseinheiten",
-    "lv": "Jednostka masy",
+    "lv": "njësi peshe",
     "level": "C2",
     "study": {
       "id": "c2-gewichtseinheit",
       "layout": "standardStudy",
-      "translation": "Jednostka masy",
-      "explanation": "Ana fikir: die Gewichtseinheit kütle birimi anlamına gelir. Kilogram, gram, ton ve diğer ağırlık/kütle birimlerinden bahsederken kullanılır.",
+      "translation": "njësi peshe",
+      "explanation": [
+        "Ideja kryesore: die Gewichtseinheit është njësi peshe, e cila përdoret për të matur peshën: gram, kilogram, ton, funt.",
+        "Fjalë e përbërë e gjinisë femërore: die Gewichtseinheit, shumësi die Gewichtseinheiten. Përbëhet nga das Gewicht (peshë) dhe die Einheit (njësi).",
+        "Fjala e përbërë është teknike dhe neutrale; në jetën e përditshme përdoren njësitë konkrete (Kilogramm, Gramm, Pfund)."
+      ],
       "examples": [
         {
-          "de": "Kilogramm ist eine Gewichtseinheit.",
-          "lv": "Kilogram to jednostka masy."
+          "de": "Das Kilogramm ist eine Gewichtseinheit.",
+          "lv": "Kilogrami është njësi peshe."
         },
         {
-          "de": "Welche Gewichtseinheit soll ich benutzen?",
-          "lv": "Hangi kütle birimini kullanmalıyım?"
+          "de": "Das Pfund ist eine alte Gewichtseinheit.",
+          "lv": "Funti është një njësi peshe e vjetër."
         },
         {
-          "de": "Gramm und Tonne sind Gewichtseinheiten.",
-          "lv": "Gram i tona to jednostki masy."
+          "de": "Welche Gewichtseinheit wird in Deutschland verwendet?",
+          "lv": "Cila njësi peshe përdoret në Gjermani?"
         }
-      ]
+      ],
+      "comparison": [
+        {
+          "word": "die Maßeinheit",
+          "meaning": "njësi matëse",
+          "example": "Der Meter ist eine Maßeinheit. – Metri është njësi matëse."
+        },
+        {
+          "word": "die Längeneinheit",
+          "meaning": "njësi gjatësie",
+          "example": "Der Kilometer ist eine Längeneinheit. – Kilometri është njësi gjatësie."
+        },
+        {
+          "word": "das Gewicht",
+          "meaning": "peshë",
+          "example": "Das Gewicht beträgt zwei Kilo. – Pesha është dy kilogramë."
+        }
+      ],
+      "tip": [
+        "Fjala e përbërë merr nyjën e pjesës së fundit: die Einheit, pra die Gewichtseinheit.",
+        "Në të njëjtën mënyrë formohen: Längeneinheit, Zeiteinheit, Volumeneinheit."
+      ],
+      "important": [
+        "Në jetën e përditshme fjala Gewicht shpesh tregon masën, por në fizikë pesha dhe masa janë koncepte të ndryshme."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "die Gewichtseinheit",
+            "die Gewichtseinheiten",
+            "Gewichtseinheit",
+            "das Gewicht",
+            "die Einheit",
+            "Gewichtseinheiten"
+          ],
+          "purple": [
+            "njësi peshe",
+            "njësi"
+          ],
+          "green": [
+            "Gewicht"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Gewichtseinheit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "njësi peshe"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Gewichtseinheit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "njësi peshe"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Gewichtseinheit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "njësi peshe"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "die Maßeinheit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "matëse"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Längeneinheit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "gjatësie"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "das Gewicht"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "peshë"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "Gewichtseinheit",
+              "die Gewichtseinheit",
+              "die Einheit"
+            ]
+          },
+          {
+            "green": [
+              "Längeneinheit"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "green": [
+              "Gewicht"
+            ]
+          }
+        ]
+      }
     }
   },
   {
     "de": "Elementarkenntnisse",
     "de_article": "die",
-    "lv": "Podstawowa wiedza",
+    "lv": "njohuri bazë",
     "level": "C2"
   },
   {
     "de": "entgegenkommen",
-    "lv": "Karşılaşın",
+    "lv": "dal përpara • i vij në ndihmë",
     "level": "C2"
   },
   {
     "de": "Gebrauchtwagen",
     "de_article": "der",
     "de_plural": "die Gebrauchtwagen",
-    "lv": "Używany samochód",
+    "lv": "makinë e përdorur",
     "level": "C2"
   },
   {
     "de": "Geburtsurkunde",
     "de_article": "die",
     "de_plural": "die Geburtsurkunden",
-    "lv": "Akt urodzenia",
+    "lv": "certifikatë lindjeje",
     "level": "C2"
   },
   {
     "de": "Gehaltsabrechnung",
     "de_article": "die",
     "de_plural": "die Gehaltsabrechnungen",
-    "lv": "Kalkulacja wynagrodzenia",
+    "lv": "fletëpagesë • llogaritje e pagës",
     "level": "C2"
   },
   {
     "de": "Gehaltserhöhung",
     "de_article": "die",
     "de_plural": "die Gehaltserhöhungen",
-    "lv": "Maaş artışı",
+    "lv": "rritje rroge • rritje page",
     "level": "C2"
   },
   {
     "de": "Gehirnerschütterung",
     "de_article": "die",
     "de_plural": "die Gehirnerschütterungen",
-    "lv": "Beyin sarsıntısı",
+    "lv": "tronditje truri",
     "level": "C2"
   },
   {
     "de": "Gepäckaufbewahrung",
     "de_article": "die",
     "de_plural": "die Gepäckaufbewahrungen",
-    "lv": "Bagaj muhafazası",
+    "lv": "ruajtje bagazhesh",
     "level": "C2"
   },
   {
     "de": "Geschäftsführer",
     "de_article": "der",
     "de_plural": "die Geschäftsführer",
-    "lv": "Şirket yöneticisi",
+    "lv": "drejtor ekzekutiv • administrator",
     "level": "C2"
   },
   {
     "de": "Geschäftspartner",
     "de_article": "der",
     "de_plural": "die Geschäftspartner",
-    "lv": "Partnerem biznesowym",
+    "lv": "partner biznesi",
     "level": "C2"
   },
   {
     "de": "Geschenkgutschein",
     "de_article": "der",
     "de_plural": "die Geschenkgutscheine",
-    "lv": "Karta podarunkowa",
+    "lv": "kupon dhuratë • kartë dhuratë",
     "level": "C2"
   },
   {
     "de": "Geschenkpackung",
     "de_article": "die",
     "de_plural": "die Geschenkpackungen",
-    "lv": "Hediye paketleri",
+    "lv": "paketim dhurate",
     "level": "C2"
   },
   {
     "de": "Gleichheitszeichen",
     "de_article": "das",
     "de_plural": "die Gleichheitszeichen",
-    "lv": "Eşittir işareti",
+    "lv": "shenjë barazimi",
     "level": "C2"
   },
   {
     "de": "Inhaltsverzeichnis",
     "de_article": "das",
     "de_plural": "die Inhaltsverzeichnisse",
-    "lv": "İçindekiler",
+    "lv": "pasqyrë e lëndës",
     "level": "C2"
   },
   {
     "de": "Streichinstrument",
     "de_article": "das",
     "de_plural": "die Streichinstrumente",
-    "lv": "Instrument strunowy",
+    "lv": "vegël me hark • instrument me hark",
     "level": "C2"
   },
   {
     "de": "Kassettenrecorder",
     "de_article": "der",
     "de_plural": "die Kassettenrecorder",
-    "lv": "Magnetofon kasetowy",
+    "lv": "magnetofon me kaseta",
     "level": "C2"
   },
   {
     "de": "Katastrophendienst",
     "de_article": "der",
-    "lv": "Afet servisi",
+    "lv": "shërbim i emergjencave civile",
     "level": "C2"
   },
   {
     "de": "Kostenerstattung",
     "de_article": "die",
     "de_plural": "die Kostenerstattungen",
-    "lv": "Maliyet geri ödemesi",
+    "lv": "rimbursim i shpenzimeve",
     "level": "C2"
   },
   {
     "de": "Kostensteigerung",
     "de_article": "die",
     "de_plural": "die Kostensteigerungen",
-    "lv": "Artan maliyetler",
+    "lv": "rritje e kostove",
     "level": "C2"
   },
   {
     "de": "Krankenversicherung",
     "de_article": "die",
     "de_plural": "die Krankenversicherungen",
-    "lv": "Ubezpieczenie na wypadek choroby",
+    "lv": "sigurim shëndetësor",
     "level": "C2"
   },
   {
     "de": "Krankheitssymptom",
     "de_article": "das",
     "de_plural": "die Krankheitssymptome",
-    "lv": "Objaw choroby",
+    "lv": "simptomë sëmundjeje",
     "level": "C2"
   },
   {
     "de": "Krankheitsüberträger",
     "de_article": "der",
     "de_plural": "die Krankheitsüberträger",
-    "lv": "Nosiciel choroby",
+    "lv": "bartës sëmundjeje",
     "level": "C2"
   },
   {
     "de": "Liebenswürdigkeit",
     "de_article": "die",
     "de_plural": "die Liebenswürdigkeiten",
-    "lv": "Nezaket",
+    "lv": "mirësjellje • përzemërsi",
     "level": "C2"
   },
   {
     "de": "Luftverschmutzung",
     "de_article": "die",
     "de_plural": "die Luftverschmutzungen",
-    "lv": "Zanieczyszczenie powietrza",
+    "lv": "ndotje e ajrit",
     "level": "C2"
   },
   {
     "de": "Lungenentzündung",
     "de_article": "die",
     "de_plural": "die Lungenentzündungen",
-    "lv": "Akciğer kanseri",
+    "lv": "pneumoni • inflamacion i mushkërive",
     "level": "C2"
   },
   {
     "de": "Nebelscheinwerfer",
     "de_article": "der",
     "de_plural": "die Nebelscheinwerfer",
-    "lv": "Arabalar için sis lambası",
+    "lv": "fener mjegulle",
     "level": "C2"
   },
   {
     "de": "Personenkraftwagen",
     "de_article": "der",
     "de_plural": "die Personenkraftwagen",
-    "lv": "Binek otomobil",
+    "lv": "automobil • makinë pasagjerësh",
     "level": "C2"
   },
   {
     "de": "Reisebeschreibung",
     "de_article": "die",
     "de_plural": "die Reisebeschreibungen",
-    "lv": "Gezinin açıklaması",
+    "lv": "përshkrim udhëtimi",
     "level": "C2"
   },
   {
     "de": "Reparaturwerkstatt",
     "de_article": "die",
     "de_plural": "die Reparaturwerkstätten",
-    "lv": "Warsztat naprawczy",
+    "lv": "punishte riparimi",
     "level": "C2"
   },
   {
     "de": "Rundfunkempfänger",
     "de_article": "der",
     "de_plural": "die Rundfunkempfänger",
-    "lv": "Odbiornik radiowy",
+    "lv": "radiomarrës • aparat radioje",
     "level": "C2"
   },
   {
     "de": "Schlafwagenzimmer",
     "de_article": "das",
     "de_plural": "die Schlafwagenzimmer",
-    "lv": "Sypialnia",
+    "lv": "kabinë në vagon-shtrat",
     "level": "C2"
   },
   {
     "de": "Schlittschuhkufe",
     "de_article": "die",
     "de_plural": "die Schlittschuhkufen",
-    "lv": "Nachylenie sanek",
+    "lv": "teh patine",
     "level": "C2"
   },
   {
     "de": "Schornsteinfeger",
     "de_article": "der",
     "de_plural": "die Schornsteinfeger",
-    "lv": "Kominiarz",
+    "lv": "oxhakpastrues",
     "level": "C2"
   },
   {
     "de": "selbstverständlich",
-    "lv": "Oczywiste",
+    "lv": "i vetëkuptueshëm • natyrisht",
     "level": "C2"
   },
   {
     "de": "sicherheitshalber",
-    "lv": "Güvenlik için",
+    "lv": "për siguri",
     "level": "C2"
   },
   {
     "de": "Sozialversicherung",
     "de_article": "die",
     "de_plural": "die Sozialversicherungen",
-    "lv": "Sosyal güvenlik",
+    "lv": "sigurim shoqëror",
     "level": "C2"
   },
   {
     "de": "Straßenbahnführer",
     "de_article": "der",
     "de_plural": "die Straßenbahnführer",
-    "lv": "Kierowca tramwaju",
+    "lv": "drejtues tramvaji",
     "level": "C2"
   },
   {
     "de": "Straßenbahnstrecke",
     "de_article": "die",
     "de_plural": "die Straßenbahnstrecken",
-    "lv": "Linia tramwajowa",
+    "lv": "linjë tramvaji",
     "level": "C2"
   },
   {
     "de": "Straßenüberführung",
     "de_article": "die",
     "de_plural": "die Straßenüberführungen",
-    "lv": "Wiadukt drogowy",
+    "lv": "mbikalim",
     "level": "C2"
   },
   {
     "de": "Straßenunterführung",
     "de_article": "die",
     "de_plural": "die Straßenunterführungen",
-    "lv": "Tunel dla pieszych",
+    "lv": "nënkalim",
     "level": "C2"
   },
   {
     "de": "verantwortlich",
-    "lv": "Odpowiedzialny",
+    "lv": "përgjegjës • i përgjegjshëm",
     "level": "C2"
   },
   {
     "de": "Verkehrsunfall",
     "de_article": "der",
     "de_plural": "die Verkehrsunfälle",
-    "lv": "Wypadek drogowy",
+    "lv": "aksident rrugor",
     "level": "C2"
   },
   {
     "de": "veröffentlichen",
-    "lv": "Opublikować",
+    "lv": "botoj • publikoj",
     "level": "C2"
   },
   {
     "de": "verschlechtern",
-    "lv": "Përkeqësimi",
+    "lv": "përkeqësoj",
     "level": "C2"
   },
   {
     "de": "sich verschlechtern",
-    "lv": "Daha da kötüleş",
+    "lv": "përkeqësohem",
     "level": "C2"
   },
   {
     "de": "Vorstellungsgespräch",
     "de_article": "das",
     "de_plural": "die Vorstellungsgespräche",
-    "lv": "Rozmowa kwalifikacyjna",
+    "lv": "intervistë pune",
     "level": "C2"
   },
   {
     "de": "Wettervorhersage",
     "de_article": "die",
     "de_plural": "die Wettervorhersagen",
-    "lv": "Prognoza pogody",
+    "lv": "parashikim i motit",
     "level": "C2"
   },
   {
     "de": "Windschutzscheibe",
     "de_article": "die",
     "de_plural": "die Windschutzscheiben",
-    "lv": "Szyba samochodu",
+    "lv": "xham i përparmë",
     "level": "C2"
   },
   {
     "de": "Sehenswürdigkeit",
     "de_article": "die",
     "de_plural": "die Sehenswürdigkeiten",
-    "lv": "Wybitne miejsce",
+    "lv": "vend i shquar • objekt turistik",
     "level": "C2"
   },
   {
     "de": "Abenteuergeschichte",
     "de_article": "die",
     "de_plural": "die Abenteuergeschichten",
-    "lv": "Historia pewnego romansu",
+    "lv": "tregim aventurash",
     "level": "C2"
   },
   {
     "de": "Abgeordnetenhaus",
     "de_article": "das",
     "de_plural": "die Abgeordnetenhäuser",
-    "lv": "Parlament",
+    "lv": "parlament • dhomë e deputetëve",
     "level": "C2"
   },
   {
     "de": "Aufenthaltsgenehmigung",
     "de_article": "die",
     "de_plural": "die Aufenthaltsgenehmigungen",
-    "lv": "Zezwolenie na pobyt",
+    "lv": "leje qëndrimi",
     "level": "C2"
   },
   {
     "de": "Gedankenaustausch",
     "de_article": "der",
     "de_plural": "die Gedankenaustausche",
-    "lv": "Fikir alışverişi",
+    "lv": "shkëmbim mendimesh",
     "level": "C2"
   },
   {
     "de": "Behindertenausweis",
     "de_article": "der",
     "de_plural": "die Behindertenausweise",
-    "lv": "Engellilik sertifikası",
+    "lv": "kartë invalidi",
     "level": "C2"
   },
   {
     "de": "Baugenossenschaft",
     "de_article": "die",
     "de_plural": "die Baugenossenschaften",
-    "lv": "Konut kooperatifi",
+    "lv": "kooperativë ndërtimi",
     "level": "C2"
   },
   {
     "de": "Arbeitslosenbeihilfe",
     "de_article": "die",
     "de_plural": "die Arbeitslosenbeihilfen",
-    "lv": "Zasiłek dla bezrobotnych",
+    "lv": "ndihmë papunësie",
     "level": "C2"
   },
   {
     "de": "Ausbildungsbeihilfe",
     "de_article": "die",
     "de_plural": "die Ausbildungsbeihilfen",
-    "lv": "Eğitim ödeneği",
+    "lv": "bursë • ndihmë për shkollim",
     "level": "C2"
   },
   {
     "de": "Unternehmensberater",
     "de_article": "der",
     "de_plural": "die Unternehmensberater",
-    "lv": "Konsultant firmy",
+    "lv": "konsulent biznesi",
     "level": "C2"
   },
   {
     "de": "Berichterstatter",
     "de_article": "der",
     "de_plural": "die Berichterstatter",
-    "lv": "Reporter • Reporter • Korespondent • Reporter",
+    "lv": "raportues • korrespondent • reporter",
     "level": "C2"
   },
   {
     "de": "Berufsbezeichnung",
     "de_article": "die",
     "de_plural": "die Berufsbezeichnungen",
-    "lv": "Eserin başlığı",
+    "lv": "titull profesional • emërtim i profesionit",
     "level": "C2"
   },
   {
     "de": "Besatzungsregime",
     "de_article": "das",
     "de_plural": "die Besatzungsregime",
-    "lv": "Meslek rejimi",
+    "lv": "regjim pushtimi",
     "level": "C2"
   },
   {
     "de": "Besatzungstruppen",
     "de_article": "die",
     "de_plural": "die Besatzungstruppen",
-    "lv": "Wojska okupacyjne",
+    "lv": "trupa pushtuese",
     "level": "C2"
   },
   {
     "de": "Bevölkerungsdichte",
     "de_article": "die",
     "de_plural": "die Bevölkerungsdichten",
-    "lv": "Nüfus yoğunluğu",
+    "lv": "dendësi e popullsisë",
     "level": "C2"
   },
   {
     "de": "Bildberichterstatter",
     "de_article": "der",
     "de_plural": "die Bildberichterstatter",
-    "lv": "Korespondent fotograficzny",
+    "lv": "fotoreporter",
     "level": "C2"
   },
   {
     "de": "Wirtschaftsblock",
     "de_article": "der",
     "de_plural": "die Wirtschaftsblöcke",
-    "lv": "Blok gospodarczy",
+    "lv": "bllok ekonomik",
     "level": "C2"
   },
   {
     "de": "Wirtschaftsblockade",
     "de_article": "die",
     "de_plural": "die Wirtschaftsblockaden",
-    "lv": "Blokada gospodarcza",
+    "lv": "bllokadë ekonomike",
     "level": "C2"
   },
   {
     "de": "Bluttransfusion",
     "de_article": "die",
     "de_plural": "die Bluttransfusionen",
-    "lv": "Transfuzja krwi",
+    "lv": "transfuzion gjaku",
     "level": "C2"
   },
   {
     "de": "Computersimulation",
     "de_article": "die",
     "de_plural": "die Computersimulationen",
-    "lv": "Symulacja komputerowa",
+    "lv": "simulim kompjuterik",
     "level": "C2"
   },
   {
     "de": "Computerwissenschaft",
     "de_article": "die",
     "de_plural": "die Computerwissenschaften",
-    "lv": "Informatyka • Informatyka",
+    "lv": "informatikë • shkenca kompjuterike",
     "level": "C2"
   },
   {
     "de": "Informationsdefizit",
     "de_article": "das",
-    "lv": "Deficyt informacji",
+    "lv": "mungesë informacioni",
     "level": "C2"
   },
   {
     "de": "Sittlichkeitsdelikt",
     "de_article": "das",
     "de_plural": "die Sittlichkeitsdelikte",
-    "lv": "Naruszenie norm moralnych",
+    "lv": "krim kundër moralit",
     "level": "C2"
   },
   {
     "de": "Rauschgiftdezernat",
     "de_article": "das",
     "de_plural": "die Rauschgiftdezernate",
-    "lv": "İlaç departmanı",
+    "lv": "seksion antidrogë",
     "level": "C2"
   },
   {
     "de": "Dialektik",
     "de_article": "die",
     "de_plural": "die Dialektiken",
-    "lv": "Dialektyka",
+    "lv": "dialektikë",
     "level": "C2"
   },
   {
     "de": "Bereitschaftsdienst",
     "de_article": "der",
     "de_plural": "die Bereitschaftsdienste",
-    "lv": "Operasyonel destek",
+    "lv": "shërbim kujdestarie • shërbim gatishmërie",
     "level": "C2"
   },
   {
     "de": "Durchfuhrerlaubnis",
     "de_article": "die",
     "de_plural": "die Durchfuhrerlaubnisse",
-    "lv": "Zezwolenie na tranzyt",
+    "lv": "leje tranziti",
     "level": "C2"
   },
   {
     "de": "durchkreuzen",
-    "lv": "Przekreślić • Krzyżować • Krzyżować • Zakłócać",
+    "lv": "vizatoj kryq • kryqëzoj • prish",
     "level": "C2"
   },
   {
     "de": "Durchschnittsalter",
     "de_article": "das",
     "de_plural": "die Durchschnittsalter",
-    "lv": "Średni wiek",
+    "lv": "moshë mesatare",
     "level": "C2"
   },
   {
     "de": "Durchschnittsverdienst",
     "de_article": "der",
     "de_plural": "die Durchschnittsverdienste",
-    "lv": "Średnie zarobki",
+    "lv": "fitim mesatar • pagë mesatare",
     "level": "C2"
   },
   {
     "de": "Durchschnittsleistung",
     "de_article": "die",
     "de_plural": "die Durchschnittsleistungen",
-    "lv": "Średnia wydajność • Średnia wydajność",
+    "lv": "rendiment mesatar • arritje mesatare",
     "level": "C2"
   },
   {
     "de": "Durchschnittsmensch",
     "de_article": "der",
     "de_plural": "die Durchschnittsmenschen",
-    "lv": "Ortalama kişi",
+    "lv": "njeri i zakonshëm • njeri mesatar",
     "level": "C2"
   },
   {
     "de": "Einfuhrbeschränkung",
     "de_article": "die",
     "de_plural": "die Einfuhrbeschränkungen",
-    "lv": "Ograniczenie importu",
+    "lv": "kufizim importi",
     "level": "C2"
   },
   {
     "de": "Einstellungsgespräch",
     "de_article": "das",
     "de_plural": "die Einstellungsgespräche",
-    "lv": "Rozmowa kwalifikacyjna",
+    "lv": "intervistë pune",
     "level": "C2"
   },
   {
     "de": "Empfehlungsschreiben",
     "de_article": "das",
     "de_plural": "die Empfehlungsschreiben",
-    "lv": "Pisemna rekomendacja",
+    "lv": "letër rekomandimi",
     "level": "C2"
   },
   {
     "de": "Entbindungsanstalt",
     "de_article": "die",
     "de_plural": "die Entbindungsanstalten",
-    "lv": "Doğum hastanesi",
+    "lv": "maternitet",
     "level": "C2"
   },
   {
     "de": "entgegengesetzt",
-    "lv": "Odwrotnie",
+    "lv": "i kundërt",
     "level": "C2"
   },
   {
     "de": "Entschlossenheit",
     "de_article": "die",
     "de_plural": "die Entschlossenheiten",
-    "lv": "Güven • Kararlılık • Sorgulamamak",
+    "lv": "vendosmëri",
     "level": "C2"
   },
   {
     "de": "Entwicklungsland",
     "de_article": "das",
     "de_plural": "die Entwicklungsländer",
-    "lv": "Kraina rozwoju",
+    "lv": "vend në zhvillim",
     "level": "C2"
   },
   {
     "de": "Erfrischungsraum",
     "de_article": "der",
     "de_plural": "die Erfrischungsräume",
-    "lv": "Bufet",
+    "lv": "bufe",
     "level": "C2"
   },
   {
     "de": "Regierungserklärung",
     "de_article": "die",
     "de_plural": "die Regierungserklärungen",
-    "lv": "Hükümet duyurusu",
+    "lv": "deklaratë e qeverisë",
     "level": "C2"
   },
   {
     "de": "Errungenschaft",
     "de_article": "die",
     "de_plural": "die Errungenschaften",
-    "lv": "Başarı • Fayda • Kâr",
+    "lv": "arritje • fitore",
     "level": "C2"
   },
   {
     "de": "Erwachsenenbildung",
     "de_article": "die",
     "de_plural": "die Erwachsenenbildungen",
-    "lv": "Yetişkin eğitimi",
+    "lv": "arsim i të rriturve",
     "level": "C2"
   },
   {
     "de": "Fallschirmspringen",
     "de_article": "das",
-    "lv": "Skydiving",
+    "lv": "parashutizëm",
     "level": "C2"
   },
   {
     "de": "Friedensbedingungen",
     "de_article": "die",
     "de_plural": "die Friedensbedingungen",
-    "lv": "Warunki pokojowe",
+    "lv": "kushte paqeje",
     "level": "C2"
   },
   {
     "de": "Friedensverhandlungen",
     "de_article": "die",
     "de_plural": "die Friedensverhandlungen",
-    "lv": "Rozmowy pokojowe",
+    "lv": "bisedime paqeje",
     "level": "C2"
   },
   {
     "de": "Führereigenschaften",
     "de_article": "die",
     "de_plural": "die Führereigenschaften",
-    "lv": "Liderlik nitelikleri",
+    "lv": "cilësi drejtuese",
     "level": "C2"
   },
   {
     "de": "Führerpersönlichkeit",
     "de_article": "die",
     "de_plural": "die Führerpersönlichkeiten",
-    "lv": "Liderlik kişiliği",
+    "lv": "personalitet drejtues • udhëheqës",
     "level": "C2"
   },
   {
     "de": "Fußballweltmeisterschaft",
     "de_article": "die",
     "de_plural": "die Fußballweltmeisterschaften",
-    "lv": "FIFA Dünya Kupası",
+    "lv": "kampionat botëror i futbollit",
     "level": "C2"
   },
   {
     "de": "Geburtenkontrolle",
     "de_article": "die",
     "de_plural": "die Geburtenkontrollen",
-    "lv": "Doğum kontrolü",
+    "lv": "kontroll i lindjeve",
     "level": "C2"
   },
   {
     "de": "Gedächtnisschwäche",
     "de_article": "die",
     "de_plural": "die Gedächtnisschwächen",
-    "lv": "Unutkanlık",
+    "lv": "kujtesë e dobët",
     "level": "C2"
   },
   {
     "de": "Gedächtnisstörung",
     "de_article": "die",
     "de_plural": "die Gedächtnisstörungen",
-    "lv": "Hafıza bozukluğu",
+    "lv": "çrregullim i kujtesës",
     "level": "C2"
   },
   {
     "de": "Gefängnisaufseher",
     "de_article": "der",
     "de_plural": "die Gefängnisaufseher",
-    "lv": "Naczelnik więzienia",
+    "lv": "gardian burgu • roje burgu",
     "level": "C2"
   },
   {
     "de": "Gefängnisinsasse",
     "de_article": "der",
     "de_plural": "die Gefängnisinsassen",
-    "lv": "Mahkum",
+    "lv": "i burgosur",
     "level": "C2"
   },
   {
     "de": "Gefäßerweiterung",
     "de_article": "die",
     "de_plural": "die Gefäßerweiterungen",
-    "lv": "Vazodilatasyon",
+    "lv": "zgjerim i enëve të gjakut",
     "level": "C2"
   },
   {
     "de": "Geistesgegenwart",
     "de_article": "die",
-    "lv": "Yaratıcılık",
+    "lv": "gjakftohtësi • shkathtësi mendore",
     "level": "C2"
   },
   {
     "de": "geistige Getränke",
-    "lv": "Napoje alkoholowe",
+    "lv": "pije alkoolike",
     "level": "C2"
   },
   {
     "de": "Gelegenheitsarbeiter",
     "de_article": "der",
     "de_plural": "die Gelegenheitsarbeiter",
-    "lv": "Przypadkowy robotnik",
+    "lv": "punëtor i rastit",
     "level": "C2"
   },
   {
     "de": "Gemäldeausstellung",
     "de_article": "die",
     "de_plural": "die Gemäldeausstellungen",
-    "lv": "Resim sergisi",
+    "lv": "ekspozitë pikture",
     "level": "C2"
   },
   {
     "de": "Arbeitsgemeinschaft",
     "de_article": "die",
     "de_plural": "die Arbeitsgemeinschaften",
-    "lv": "Grupa robocza",
+    "lv": "grup pune",
     "level": "C2"
   },
   {
     "de": "Dorfgemeinschaft",
     "de_article": "die",
     "de_plural": "die Dorfgemeinschaften",
-    "lv": "Köylüler",
+    "lv": "bashkësi fshatare • banorë të fshatit",
     "level": "C2"
   },
   {
     "de": "Forschungsgemeinschaft",
     "de_article": "die",
     "de_plural": "die Forschungsgemeinschaften",
-    "lv": "Grupa badawcza",
+    "lv": "bashkësi kërkimore • grup kërkimor",
     "level": "C2"
   },
   {
     "de": "Generalreparatur",
     "de_article": "die",
     "de_plural": "die Generalreparaturen",
-    "lv": "Yenilemek",
+    "lv": "riparim kapital • remont",
     "level": "C2"
   },
   {
     "de": "Generalversammlung",
     "de_article": "die",
     "de_plural": "die Generalversammlungen",
-    "lv": "Genel Kurul",
+    "lv": "asamble e përgjithshme • mbledhje e përgjithshme",
     "level": "C2"
   },
   {
     "de": "Genossenschaft",
     "de_article": "die",
     "de_plural": "die Genossenschaften",
-    "lv": "Kooperatif • Artel",
+    "lv": "kooperativë",
     "level": "C2"
   },
   {
     "de": "Gerechtigkeitsgefühl",
     "de_article": "das",
     "de_plural": "die Gerechtigkeitsgefühle",
-    "lv": "Adalet • Adalet duygusu",
+    "lv": "ndjenjë e drejtësisë",
     "level": "C2"
   },
   {
     "de": "Schiedsgericht",
     "de_article": "das",
     "de_plural": "die Schiedsgerichte",
-    "lv": "Tahkim",
+    "lv": "gjykatë arbitrazhi",
     "level": "C2"
   },
   {
     "de": "Gerichtsverfahren",
     "de_article": "das",
     "de_plural": "die Gerichtsverfahren",
-    "lv": "Mahkeme işlemleri",
+    "lv": "proces gjyqësor",
     "level": "C2"
   },
   {
     "de": "Geschäftsordnung",
     "de_article": "die",
     "de_plural": "die Geschäftsordnungen",
-    "lv": "Regulacje • Regulacje",
+    "lv": "rregullore • rregullore e brendshme",
     "level": "C2"
   },
   {
     "de": "Geschlechtsverkehr",
     "de_article": "der",
-    "lv": "Cinsel ilişki",
+    "lv": "marrëdhënie seksuale",
     "level": "C2"
   },
   {
     "de": "Geschwindigkeitsbegrenzung",
     "de_article": "die",
     "de_plural": "die Geschwindigkeitsbegrenzungen",
-    "lv": "Hız sınırı",
+    "lv": "kufizim shpejtësie",
     "level": "C2"
   },
   {
     "de": "Geschwindigkeitskontrolle",
     "de_article": "die",
     "de_plural": "die Geschwindigkeitskontrollen",
-    "lv": "Hız kontrolü",
+    "lv": "kontroll shpejtësie",
     "level": "C2"
   },
   {
     "de": "Geschwindigkeitsmessung",
     "de_article": "die",
     "de_plural": "die Geschwindigkeitsmessungen",
-    "lv": "Hız ölçümü",
+    "lv": "matje e shpejtësisë",
     "level": "C2"
   },
   {
     "de": "Geschwindigkeitsüberschreitung",
     "de_article": "die",
     "de_plural": "die Geschwindigkeitsüberschreitungen",
-    "lv": "Hız düzenlemelerine uyulmaması • İhlal",
+    "lv": "tejkalim i shpejtësisë",
     "level": "C2"
   },
   {
     "de": "gesellschaftlich",
-    "lv": "Topluluklar • Kamu",
+    "lv": "shoqëror",
     "level": "C2"
   },
   {
     "de": "Gesellschaftsordnung",
     "de_article": "die",
     "de_plural": "die Gesellschaftsordnungen",
-    "lv": "Obiekt publiczny",
+    "lv": "rend shoqëror",
     "level": "C2"
   },
   {
     "de": "Gesetzesvorlage",
     "de_article": "die",
     "de_plural": "die Gesetzesvorlagen",
-    "lv": "Fatura",
+    "lv": "projektligj",
     "level": "C2"
   },
   {
     "de": "gesetzgebende Gewalt",
     "de_article": "die",
     "de_plural": "die gesetzgebenden Gewalten",
-    "lv": "Władza legislacyjna",
+    "lv": "pushtet ligjvënës",
     "level": "C2"
   },
   {
     "de": "Gewerkschaftsbeitrag",
     "de_article": "der",
     "de_plural": "die Gewerkschaftsbeiträge",
-    "lv": "Składki członkowskie związkowe",
+    "lv": "kuotë sindikale",
     "level": "C2"
   },
   {
     "de": "Gewerkschaftsmitglied",
     "de_article": "das",
     "de_plural": "die Gewerkschaftsmitglieder",
-    "lv": "Sendika üyesi",
+    "lv": "anëtar sindikate",
     "level": "C2"
   },
   {
     "de": "Gewinnauszahlung",
     "de_article": "die",
     "de_plural": "die Gewinnauszahlungen",
-    "lv": "Piyango kazançlarının geri çekilmesi",
+    "lv": "pagesë e fitimit",
     "level": "C2"
   },
   {
     "de": "Gipfelkonferenz",
     "de_article": "die",
     "de_plural": "die Gipfelkonferenzen",
-    "lv": "En üst düzeyde bir konferans",
+    "lv": "konferencë e nivelit të lartë • samit",
     "level": "C2"
   },
   {
     "de": "Gleichberechtigung",
     "de_article": "die",
     "de_plural": "die Gleichberechtigungen",
-    "lv": "Eşitlik",
+    "lv": "barazi • barazi të drejtash",
     "level": "C2"
   },
   {
     "de": "Grundnahrungsmittel",
     "de_article": "das",
     "de_plural": "die Grundnahrungsmittel",
-    "lv": "Temel gıda",
+    "lv": "ushqim bazë",
     "level": "C2"
   },
   {
     "de": "Handelsabkommen",
     "de_article": "das",
     "de_plural": "die Handelsabkommen",
-    "lv": "Umowa handlowa",
+    "lv": "marrëveshje tregtare",
     "level": "C2"
   },
   {
     "de": "Hausgemeinschaft",
     "de_article": "die",
     "de_plural": "die Hausgemeinschaften",
-    "lv": "Aile üyeleri • Evin sakinleri",
+    "lv": "banorë të pallatit • familjarë",
     "level": "C2"
   },
   {
     "de": "Haushaltsausschuss",
     "de_article": "der",
     "de_plural": "die Haushaltsausschüsse",
-    "lv": "Bütçe Komitesi",
+    "lv": "komision i buxhetit",
     "level": "C2"
   },
   {
     "de": "Herztransplantation",
     "de_article": "die",
     "de_plural": "die Herztransplantationen",
-    "lv": "Przeszczep serca",
+    "lv": "transplantim zemre",
     "level": "C2"
   },
   {
     "de": "Hinterlassenschaft",
     "de_article": "die",
     "de_plural": "die Hinterlassenschaften",
-    "lv": "Dziedzictwo",
+    "lv": "trashëgimi",
     "level": "C2"
   },
   {
     "de": "Kabinettsbeschluss",
     "de_article": "der",
     "de_plural": "die Kabinettsbeschlüsse",
-    "lv": "Decyzja gabinetu",
+    "lv": "vendim i qeverisë",
     "level": "C2"
   },
   {
     "de": "Kabinettsmitglied",
     "de_article": "das",
     "de_plural": "die Kabinettsmitglieder",
-    "lv": "Kabine üyesi • Bakan",
+    "lv": "anëtar i qeverisë • ministër",
     "level": "C2"
   },
   {
     "de": "Koalitionspartner",
     "de_article": "der",
     "de_plural": "die Koalitionspartner",
-    "lv": "Partnera koalicyjnego",
+    "lv": "partner koalicioni",
     "level": "C2"
   },
   {
     "de": "Koalitionsregierung",
     "de_article": "die",
     "de_plural": "die Koalitionsregierungen",
-    "lv": "Koalisyon hükümeti",
+    "lv": "qeveri koalicioni",
     "level": "C2"
   },
   {
     "de": "Kriegsentschädigung",
     "de_article": "die",
     "de_plural": "die Kriegsentschädigungen",
-    "lv": "Odszkodowania za straty wojenne • Reparacje",
+    "lv": "dëmshpërblim lufte • reparacione",
     "level": "C2"
   },
   {
     "de": "Lebenserhaltungstrieb",
     "de_article": "der",
     "de_plural": "die Lebenserhaltungstriebe",
-    "lv": "Napęd życia",
+    "lv": "instinkt i vetëruajtjes",
     "level": "C2"
   },
   {
     "de": "Lebenshaltungskosten",
     "de_article": "die",
     "de_plural": "die Lebenshaltungskosten",
-    "lv": "Środki utrzymania • Koszty",
+    "lv": "kosto e jetesës",
     "level": "C2"
   },
   {
     "de": "Lebensversicherung",
     "de_article": "die",
     "de_plural": "die Lebensversicherungen",
-    "lv": "Hayat sigortası",
+    "lv": "sigurim jete",
     "level": "C2"
   },
   {
     "de": "Leistungsfähigkeit",
     "de_article": "die",
     "de_plural": "die Leistungsfähigkeiten",
-    "lv": "Çalışma kapasitesi • Üretkenlik • Verimlilik",
+    "lv": "aftësi pune • rendiment • kapacitet",
     "level": "C2"
   },
   {
     "de": "Mannschaftskampf",
     "de_article": "der",
     "de_plural": "die Mannschaftskämpfe",
-    "lv": "Takım rekabeti",
+    "lv": "garë ekipore",
     "level": "C2"
   },
   {
     "de": "Marktwirtschaft",
     "de_article": "die",
     "de_plural": "die Marktwirtschaften",
-    "lv": "Gospodarka rynkowa",
+    "lv": "ekonomi tregu",
     "level": "C2"
   },
   {
     "de": "Meinungsverschiedenheiten",
     "de_article": "die",
     "de_plural": "die Meinungsverschiedenheiten",
-    "lv": "Nieporozumienia",
+    "lv": "mosmarrëveshje",
     "level": "C2"
   },
   {
     "de": "Meisterschaftsspiel",
     "de_article": "das",
     "de_plural": "die Meisterschaftsspiele",
-    "lv": "Şampiyonlar yarışı",
+    "lv": "ndeshje kampionati",
     "level": "C2"
   },
   {
     "de": "menschenfreundlich",
-    "lv": "Humanitarny • Humanitarny",
+    "lv": "humanitar • njerëzor",
     "level": "C2"
   },
   {
     "de": "Minderheitsregierung",
     "de_article": "die",
     "de_plural": "die Minderheitsregierungen",
-    "lv": "Azınlık hükümeti",
+    "lv": "qeveri e pakicës",
     "level": "C2"
   },
   {
     "de": "Mutterschaftsurlaub",
     "de_article": "der",
     "de_plural": "die Mutterschaftsurlaube",
-    "lv": "Doğum izni",
+    "lv": "leje lindjeje",
     "level": "C2"
   },
   {
     "de": "Nebenbeschäftigung",
     "de_article": "die",
     "de_plural": "die Nebenbeschäftigungen",
-    "lv": "Praca poboczna",
+    "lv": "punë anësore • punë shtesë",
     "level": "C2"
   },
   {
     "de": "Nervenzusammenbruch",
     "de_article": "der",
     "de_plural": "die Nervenzusammenbrüche",
-    "lv": "Załamanie nerwowe",
+    "lv": "krizë nervore",
     "level": "C2"
   },
   {
     "de": "Parlamentarier",
     "de_article": "der",
     "de_plural": "die Parlamentarier",
-    "lv": "Milletvekili • Milletvekili",
+    "lv": "deputet • parlamentar",
     "level": "C2"
   },
   {
     "de": "Pflichtversicherung",
     "de_article": "die",
     "de_plural": "die Pflichtversicherungen",
-    "lv": "Zorunlu sigorta",
+    "lv": "sigurim i detyrueshëm",
     "level": "C2"
   },
   {
     "de": "politische Ökonomie",
     "de_article": "die",
-    "lv": "Ekonomia polityczna",
+    "lv": "ekonomi politike",
     "level": "C2"
   },
   {
     "de": "populärwissenschaftlich",
-    "lv": "Popularno-naukowa",
+    "lv": "shkencor-popullor",
     "level": "C2"
   },
   {
     "de": "Preisausschreiben",
     "de_article": "das",
     "de_plural": "die Preisausschreiben",
-    "lv": "Konkurs",
+    "lv": "konkurs me çmime",
     "level": "C2"
   },
   {
     "de": "rechtsextremistisch",
-    "lv": "Prawicowy ekstremista",
+    "lv": "ekstremist i djathtë",
     "level": "C2"
   },
   {
     "de": "Satellitenübertragung",
     "de_article": "die",
     "de_plural": "die Satellitenübertragungen",
-    "lv": "Transmisja telewizji satelitarnej",
+    "lv": "transmetim satelitor",
     "level": "C2"
   },
   {
     "de": "Scheidungsprozess",
     "de_article": "der",
     "de_plural": "die Scheidungsprozesse",
-    "lv": "Boşanma davası",
+    "lv": "proces divorci",
     "level": "C2"
   },
   {
     "de": "Beschwerdeschrift",
     "de_article": "die",
     "de_plural": "die Beschwerdeschriften",
-    "lv": "Yakınması",
+    "lv": "ankesë me shkrim",
     "level": "C2"
   },
   {
     "de": "Schwangerschaftsabbruch",
     "de_article": "der",
     "de_plural": "die Schwangerschaftsabbrüche",
-    "lv": "Hamileliğin sonu",
+    "lv": "ndërprerje shtatzënie • abort",
     "level": "C2"
   },
   {
     "de": "Selbstbestimmungsrecht",
     "de_article": "das",
     "de_plural": "die Selbstbestimmungsrechte",
-    "lv": "Prawo do samostanowienia",
+    "lv": "e drejtë e vetëvendosjes",
     "level": "C2"
   },
   {
     "de": "Selbsterhaltungstrieb",
     "de_article": "der",
     "de_plural": "die Selbsterhaltungstriebe",
-    "lv": "Instynkt samozachowawczy",
+    "lv": "instinkt i vetëruajtjes",
     "level": "C2"
   },
   {
     "de": "Selbstverteidigung",
     "de_article": "die",
     "de_plural": "die Selbstverteidigungen",
-    "lv": "Zestaw technik samoobrony",
+    "lv": "vetëmbrojtje",
     "level": "C2"
   },
   {
     "de": "Staatsangehörigkeit",
     "de_article": "die",
     "de_plural": "die Staatsangehörigkeiten",
-    "lv": "Devlet olma",
+    "lv": "shtetësi",
     "level": "C2"
   },
   {
     "de": "Steuererleichterung",
     "de_article": "die",
     "de_plural": "die Steuererleichterungen",
-    "lv": "Vergi avantajları",
+    "lv": "lehtësim tatimor",
     "level": "C2"
   },
   {
     "de": "Strafgesetzbuch",
     "de_article": "das",
     "de_plural": "die Strafgesetzbücher",
-    "lv": "Kodeks karny jur",
+    "lv": "kod penal",
     "level": "C2"
   },
   {
     "de": "Tochtergesellschaft",
     "de_article": "die",
     "de_plural": "die Tochtergesellschaften",
-    "lv": "Bağlı şirket",
+    "lv": "filial • shoqëri bijë",
     "level": "C2"
   },
   {
     "de": "Vaterschaftsklage",
     "de_article": "die",
     "de_plural": "die Vaterschaftsklagen",
-    "lv": "Pozew o ustalenie ojcostwa",
+    "lv": "padi për atësi",
     "level": "C2"
   },
   {
     "de": "verallgemeinern",
-    "lv": "Genelleştir",
+    "lv": "përgjithësoj",
     "level": "C2"
   },
   {
     "de": "Verhütungsmittel",
     "de_article": "das",
     "de_plural": "die Verhütungsmittel",
-    "lv": "Antykoncepcyjny",
+    "lv": "kontraceptiv",
     "level": "C2"
   },
   {
     "de": "Waffenstillstand",
     "de_article": "der",
     "de_plural": "die Waffenstillstände",
-    "lv": "Rozejm",
+    "lv": "armëpushim",
     "level": "C2"
   },
   {
     "de": "Widerstandsbewegung",
     "de_article": "die",
     "de_plural": "die Widerstandsbewegungen",
-    "lv": "Ruch oporu",
+    "lv": "lëvizje e rezistencës",
     "level": "C2"
   },
   {
     "de": "Widerstandskämpfer",
     "de_article": "der",
     "de_plural": "die Widerstandskämpfer",
-    "lv": "Direniş hareketinin üyesi",
+    "lv": "luftëtar i rezistencës",
     "level": "C2"
   },
   {
     "de": "zugrunde, zu Grunde",
-    "lv": "Zasadniczo",
+    "lv": "në themel • në bazë",
     "level": "C2"
   },
   {
     "de": "zugunsten, zu Gunsten",
-    "lv": "Dla dobra • Dla dobra",
+    "lv": "në favor të • në dobi të",
     "level": "C2"
   },
   {
     "de": "imstande",
-    "lv": "Zdolny",
+    "lv": "i aftë • në gjendje",
     "level": "C2"
   },
   {
     "de": "im Stande",
-    "lv": "Zdolny",
+    "lv": "i aftë • në gjendje",
     "level": "C2"
   },
   {
     "de": "instand",
-    "lv": "Elbette",
+    "lv": "në rregull • në gjendje pune",
     "level": "C2"
   },
   {
     "de": "in Stand",
-    "lv": "Elbette",
+    "lv": "në rregull • në gjendje pune",
     "level": "C2"
   },
   {
     "de": "inwiefern",
-    "lv": "W jakim stopniu",
+    "lv": "në çfarë mase • deri ku",
     "level": "C2"
   },
   {
     "de": "inwieweit",
-    "lv": "W jakim stopniu",
+    "lv": "në çfarë mase • deri ku",
     "level": "C2"
   },
   {
     "de": "Karre",
     "de_article": "die",
     "de_plural": "die Karren",
-    "lv": "Taczki",
+    "lv": "karrocë dore • qerre",
     "level": "C2"
   },
   {
     "de": "Karren",
     "de_article": "der",
     "de_plural": "die Karren",
-    "lv": "Taczki",
+    "lv": "qerre • karrocë",
     "level": "C2"
   },
   {
     "de": "Kriegsbeschädigte",
     "de_article": "der",
     "de_plural": "die Kriegsbeschädigten",
-    "lv": "Savaş önemsiz",
+    "lv": "invalid lufte",
     "level": "C2"
   },
   {
     "de": "Kriegsgefangene",
     "de_article": "der",
     "de_plural": "die Kriegsgefangenen",
-    "lv": "Jeniec wojenny",
+    "lv": "rob lufte",
     "level": "C2"
   },
   {
     "de": "Sachverständige",
     "de_article": "der",
     "de_plural": "die Sachverständigen",
-    "lv": "Uzman • Uzman",
+    "lv": "ekspert • specialist",
     "level": "C2"
   }
 ];
