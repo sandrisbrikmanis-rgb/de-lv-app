@@ -2,7 +2,7 @@
 /**
  * Verifies that ui.js's study-vs-flashcard routing decision is consistent
  * for a given native language's data. Generalized from the LT-specific
- * validate-lt-flashcard-routing.js per LANGUAGE_AUDIT_STANDARD.md §5.
+ * validate-lt-flashcard-routing.js per PROJECT_LANGUAGE_MASTER_STANDARD.md §7.7.
  *
  * Run: node scripts/validate-flashcard-routing.js --lang=lt
  */
