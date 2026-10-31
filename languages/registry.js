@@ -151,7 +151,7 @@
     },
     {
       code: "sl",
-      nativeName: "Slovenski",
+      nativeName: "Slovenščina",
       nativeCode: "SL",
       active: true,
       uiAvailable: true,
