@@ -3,1344 +3,1974 @@ const C1_WORDS = [
     "de": "Wahrnehmung",
     "de_article": "die",
     "de_plural": "die Wahrnehmungen",
-    "lv": "Postrzeganie",
+    "lv": "vnímanie",
     "level": "C1"
   },
   {
     "de": "gewährleisten",
-    "lv": "Zapewnić",
+    "lv": "zaručiť • zabezpečiť",
     "level": "C1"
   },
   {
     "de": "Auswirkung",
     "de_article": "die",
     "de_plural": "die Auswirkungen",
-    "lv": "Wpływ",
+    "lv": "vplyv • dôsledok",
     "level": "C1"
   },
   {
     "de": "umstritten",
-    "lv": "Sprzeczny",
+    "lv": "sporný • kontroverzný",
     "level": "C1"
   },
   {
     "de": "Stellungnahme",
     "de_article": "die",
     "de_plural": "die Stellungnahmen",
-    "lv": "Oficjalne oświadczenie • Wyrażenie opinii",
+    "lv": "stanovisko • vyjadrenie",
     "level": "C1"
   },
   {
     "de": "nachvollziehen",
-    "lv": "Rozumieć • Kierować się logiką",
+    "lv": "pochopiť",
     "level": "C1"
   },
   {
     "de": "ausschlaggebend",
-    "lv": "Decydujący",
+    "lv": "rozhodujúci",
     "level": "C1"
   },
   {
     "de": "Belastbarkeit",
     "de_article": "die",
     "de_plural": "die Belastbarkeiten",
-    "lv": "Odporność na naprężenia • Odporność na obciążenia",
+    "lv": "odolnosť • zaťažiteľnosť",
     "level": "C1"
   },
   {
     "de": "akkreditieren",
-    "lv": "Akredytować",
+    "lv": "akreditovať",
     "level": "C1"
   },
   {
     "de": "Aktiengesellschaft",
     "de_article": "die",
     "de_plural": "die Aktiengesellschaften",
-    "lv": "Spółka akcyjna",
+    "lv": "akciová spoločnosť",
     "level": "C1"
   },
   {
     "de": "Aktionsprogramm",
     "de_article": "das",
     "de_plural": "die Aktionsprogramme",
-    "lv": "Program wydarzeń",
+    "lv": "akčný program",
     "level": "C1"
   },
   {
     "de": "Alarmbereitschaft",
     "de_article": "die",
     "de_plural": "die Alarmbereitschaften",
-    "lv": "Gotowość alarmowa",
+    "lv": "pohotovosť",
     "level": "C1"
   },
   {
     "de": "Altweibersommer",
     "de_article": "der",
     "de_plural": "die Altweibersommer",
-    "lv": "Jar",
+    "lv": "babie leto",
     "level": "C1"
   },
   {
     "de": "anfechten",
-    "lv": "Spór • Pytanie",
+    "lv": "napadnúť • spochybniť",
     "level": "C1"
   },
   {
     "de": "allerseits",
-    "lv": "Ze wszystkich stron",
+    "lv": "zo všetkých strán",
     "level": "C1"
   },
   {
     "de": "anderweitig",
-    "lv": "Gdzie indziej • Inaczej",
+    "lv": "inde • inak",
     "level": "C1"
   },
   {
     "de": "Abrüstungsabkommen",
     "de_article": "das",
     "de_plural": "die Abrüstungsabkommen",
-    "lv": "Traktat rozbrojeniowy",
+    "lv": "dohoda o odzbrojení",
     "level": "C1"
   },
   {
     "de": "Abrüstungsverhandlungen",
     "de_article": "die",
     "de_plural": "die Abrüstungsverhandlungen",
-    "lv": "Rozmowy o rozbrojeniu",
+    "lv": "rokovania o odzbrojení",
     "level": "C1"
   },
   {
     "de": "Aal",
     "de_article": "der",
     "de_plural": "die Aale",
-    "lv": "Węgorz",
+    "lv": "úhor",
     "level": "C1"
   },
   {
     "de": "Abart",
     "de_article": "die",
     "de_plural": "die Abarten",
-    "lv": "Odchylenie • Aberracja",
+    "lv": "odchýlka • odroda",
     "level": "C1"
   },
   {
     "de": "abstumpfen",
-    "lv": "Stępić • Uczynić nieczułym",
+    "lv": "otupiť",
     "level": "C1"
   },
   {
     "de": "Abtreibung",
     "de_article": "die",
     "de_plural": "die Abtreibungen",
-    "lv": "Poronienie",
+    "lv": "potrat",
     "level": "C1"
   },
   {
     "de": "Affekt",
     "de_article": "der",
     "de_plural": "die Affekte",
-    "lv": "Wybuch emocji",
+    "lv": "afekt • citový výbuch",
     "level": "C1"
   },
   {
     "de": "ächten",
-    "lv": "Ostracyzm • Wykluczenie społeczne",
+    "lv": "vyobcovať",
     "level": "C1"
   },
   {
     "de": "Flottenstützpunkt",
     "de_article": "der",
     "de_plural": "die Flottenstützpunkte",
-    "lv": "Baza morska",
+    "lv": "námorná základňa",
     "level": "C1"
   },
   {
     "de": "Flugwetter",
     "de_article": "das",
-    "lv": "Warunki pogodowe do latania",
+    "lv": "letové počasie",
     "level": "C1"
   },
   {
     "de": "Frachtbrief",
     "de_article": "der",
     "de_plural": "die Frachtbriefe",
-    "lv": "List przewozowy ładunku",
+    "lv": "nákladný list",
     "level": "C1"
   },
   {
     "de": "Frachtgeld",
     "de_article": "das",
     "de_plural": "die Frachtgelder",
-    "lv": "Opłaty za fracht",
+    "lv": "prepravné",
     "level": "C1"
   },
   {
     "de": "Frauenrechtlerin",
     "de_article": "die",
     "de_plural": "die Frauenrechtlerinnen",
-    "lv": "Bojovník za rovnosť žien",
+    "lv": "feministka • bojovníčka za práva žien",
     "level": "C1"
   },
   {
     "de": "Freikörperkultur",
     "de_article": "die",
     "de_plural": "die Freikörperkulturen",
-    "lv": "Nudyzm",
+    "lv": "nudizmus",
     "level": "C1"
   },
   {
     "de": "Kinderschänder",
     "de_article": "der",
     "de_plural": "die Kinderschänder",
-    "lv": "Pedofil",
+    "lv": "pedofil",
     "level": "C1"
   },
   {
     "de": "Kindesmisshandlung",
     "de_article": "die",
     "de_plural": "die Kindesmisshandlungen",
-    "lv": "Przemoc wobec dzieci",
+    "lv": "týranie detí",
     "level": "C1"
   },
   {
     "de": "Zivilgesetzbuch",
     "de_article": "das",
     "de_plural": "die Zivilgesetzbücher",
-    "lv": "Prawo cywilne",
+    "lv": "občiansky zákonník",
     "level": "C1"
   },
   {
     "de": "Aktie",
     "de_article": "die",
     "de_plural": "die Aktien",
-    "lv": "Działanie",
+    "lv": "akcia",
     "level": "C1"
   },
   {
     "de": "Abenddämmerung",
     "de_article": "die",
     "de_plural": "die Abenddämmerungen",
-    "lv": "Wieczorny zmierzch",
+    "lv": "súmrak",
     "level": "C1"
   },
   {
     "de": "Anwalt",
     "de_article": "der",
     "de_plural": "die Anwälte",
-    "lv": "Prawnik",
+    "lv": "advokát • právnik",
     "level": "C1"
   },
   {
     "de": "außergewöhnlich",
-    "lv": "Niezwykłe",
+    "lv": "neobyčajný • nezvyčajný",
     "level": "C1"
   },
   {
     "de": "außerordentlich",
-    "lv": "Nadzwyczajny",
+    "lv": "mimoriadny",
     "level": "C1"
   },
   {
     "de": "Autokennzeichen",
     "de_article": "das",
     "de_plural": "die Autokennzeichen",
-    "lv": "Litery i cyfry na tablicy rejestracyjnej samochodu",
+    "lv": "poznávacia značka • evidenčné číslo vozidla",
     "level": "C1"
   },
   {
     "de": "Bäckerhandwerk",
     "de_article": "das",
     "de_plural": "die Bäckerhandwerke",
-    "lv": "Praca piekarza",
+    "lv": "pekárske remeslo",
     "level": "C1"
   },
   {
     "de": "bekannt geben",
-    "lv": "Ogłosić",
+    "lv": "oznámiť",
     "level": "C1"
   },
   {
     "de": "Bergwanderung",
     "de_article": "die",
     "de_plural": "die Bergwanderungen",
-    "lv": "Turystyka górska",
+    "lv": "horská túra",
     "level": "C1"
   },
   {
     "de": "beschäftigen",
-    "lv": "Prenájom",
+    "lv": "zamestnávať",
     "level": "C1"
   },
   {
     "de": "sich beschäftigen",
-    "lv": "Zajmować",
+    "lv": "zaoberať sa",
     "level": "C1"
   },
   {
     "de": "Beschäftigung",
     "de_article": "die",
     "de_plural": "die Beschäftigungen",
-    "lv": "Povolanie",
+    "lv": "zamestnanie • činnosť",
     "level": "C1"
   },
   {
     "de": "beschleunigen",
-    "lv": "Przyśpieszyć",
+    "lv": "zrýchliť • urýchliť",
     "level": "C1"
   },
   {
     "de": "Besichtigung",
     "de_article": "die",
     "de_plural": "die Besichtigungen",
-    "lv": "Kontrola",
+    "lv": "prehliadka",
     "level": "C1"
   },
   {
     "de": "beurteilen",
-    "lv": "Ocenić",
+    "lv": "hodnotiť • posudzovať",
     "level": "C1"
   },
   {
     "de": "Autobahnbrücke",
     "de_article": "die",
     "de_plural": "die Autobahnbrücken",
-    "lv": "Wiadukt drogowy",
+    "lv": "diaľničný most",
     "level": "C1"
   },
   {
     "de": "Eisenbahnbrücke",
     "de_article": "die",
     "de_plural": "die Eisenbahnbrücken",
-    "lv": "Most kolejowy",
+    "lv": "železničný most",
     "level": "C1"
   },
   {
     "de": "Dampfbügeleisen",
     "de_article": "das",
     "de_plural": "die Dampfbügeleisen",
-    "lv": "Żelazko parowe",
+    "lv": "parná žehlička",
     "level": "C1"
   },
   {
     "de": "Büroangestellte",
     "de_article": "der",
-    "lv": "Pracownik biurowy",
+    "lv": "úradník",
     "level": "C1"
   },
   {
     "de": "charakteristisch",
-    "lv": "Charakterystyczny",
+    "lv": "charakteristický • typický",
     "level": "C1"
   },
   {
     "de": "Diplomat",
     "de_article": "der",
     "de_plural": "die Diplomaten",
-    "lv": "Dyplomata",
+    "lv": "diplomat",
     "level": "C1"
   },
   {
     "de": "Dokumentarfilm",
     "de_article": "der",
     "de_plural": "die Dokumentarfilme",
-    "lv": "Film dokumentalny",
+    "lv": "dokumentárny film",
     "level": "C1"
   },
   {
     "de": "durchschnittlich",
-    "lv": "Średnio",
+    "lv": "priemerne • priemerný",
     "level": "C1"
   },
   {
     "de": "durchstreichen",
-    "lv": "Wykreślić",
+    "lv": "prečiarknuť",
     "level": "C1"
   },
   {
     "de": "Einfamilienhaus",
     "de_article": "das",
     "de_plural": "die Einfamilienhäuser",
-    "lv": "Dom jednorodzinny",
+    "lv": "rodinný dom",
     "level": "C1",
     "study": {
       "id": "c1-einfamilienhaus",
       "layout": "standardStudy",
-      "translation": "Dom jednorodzinny",
-      "explanation": "Główna idea: das Einfamilienhaus to dom dla jednej rodziny. Zwykle oznacza to dom jednorodzinny, a nie apartamentowiec.",
-      "examples": [
-        {
-          "de": "Sie wohnen in einem Einfamilienhaus.",
-          "lv": "Mieszkają w domu jednorodzinnym."
-        },
-        {
-          "de": "Das Einfamilienhaus hat einen Garten.",
-          "lv": "Dom jednorodzinny posiada ogród."
-        },
-        {
-          "de": "Nebenan steht ein Mehrfamilienhaus.",
-          "lv": "Obok znajduje się apartamentowiec."
-        }
-      ]
-    }
-  },
-  {
-    "de": "Eisenbahnfahrt",
-    "de_article": "die",
-    "de_plural": "die Eisenbahnfahrten",
-    "lv": "Cestovanie vlakom",
-    "level": "C1"
-  },
-  {
-    "de": "Eisenbahnstation",
-    "de_article": "die",
-    "de_plural": "die Eisenbahnstationen",
-    "lv": "Železničná stanica",
-    "level": "C1"
-  },
-  {
-    "de": "ekelhaft",
-    "lv": "Obrzydliwe",
-    "level": "C1"
-  },
-  {
-    "de": "Energieverbrauch",
-    "de_article": "der",
-    "de_plural": "die Energieverbräuche",
-    "lv": "Zużycie energii",
-    "level": "C1"
-  },
-  {
-    "de": "Gartenerdbeere",
-    "de_article": "die",
-    "de_plural": "die Gartenerdbeeren",
-    "lv": "Truskawka ogrodowa",
-    "level": "C1"
-  },
-  {
-    "de": "erforderlich",
-    "lv": "Niezbędny",
-    "level": "C1"
-  },
-  {
-    "de": "fabelhaft",
-    "lv": "Doskonały",
-    "level": "C1"
-  },
-  {
-    "de": "fehlerhaft",
-    "lv": "Nesprávne",
-    "level": "C1"
-  },
-  {
-    "de": "folgendermaßen",
-    "lv": "Następująco",
-    "level": "C1"
-  },
-  {
-    "de": "Geburtsschein",
-    "de_article": "der",
-    "de_plural": "die Geburtsscheine",
-    "lv": "Akt urodzenia",
-    "level": "C1"
-  },
-  {
-    "de": "gegeneinander",
-    "lv": "Przeciwko sobie",
-    "level": "C1"
-  },
-  {
-    "de": "Gemüsegarten",
-    "de_article": "der",
-    "de_plural": "die Gemüsegärten",
-    "lv": "Ogród warzywny",
-    "level": "C1"
-  },
-  {
-    "de": "Gepäckträger",
-    "de_article": "der",
-    "de_plural": "die Gepäckträger",
-    "lv": "Pień",
-    "level": "C1"
-  },
-  {
-    "de": "geschäftlich",
-    "lv": "Transakcja",
-    "level": "C1"
-  },
-  {
-    "de": "Geschäftsmann",
-    "de_article": "der",
-    "de_plural": "die Geschäftsleute",
-    "lv": "Przedsiębiorca",
-    "level": "C1"
-  },
-  {
-    "de": "geschichtlich",
-    "lv": "Historyczny",
-    "level": "C1"
-  },
-  {
-    "de": "geschmacklos",
-    "lv": "Bez smaku",
-    "level": "C1"
-  },
-  {
-    "de": "geschmackvoll",
-    "lv": "Gustowny",
-    "level": "C1"
-  },
-  {
-    "de": "gesetzlich",
-    "lv": "Prawny",
-    "level": "C1"
-  },
-  {
-    "de": "Gesichtspunkt",
-    "de_article": "der",
-    "de_plural": "die Gesichtspunkte",
-    "lv": "Opinia",
-    "level": "C1"
-  },
-  {
-    "de": "Gewichtheben",
-    "de_article": "das",
-    "lv": "Podnoszenie ciężarów",
-    "level": "C1"
-  },
-  {
-    "de": "gewissenhaft",
-    "lv": "Svedomitý",
-    "level": "C1"
-  },
-  {
-    "de": "Gipfel",
-    "de_article": "der",
-    "de_plural": "die Gipfel",
-    "lv": "Szczyt",
-    "level": "C1"
-  },
-  {
-    "de": "Hausangestellte",
-    "de_article": "die",
-    "lv": "Gosposia",
-    "level": "C1"
-  },
-  {
-    "de": "hinaufklettern",
-    "lv": "Wspinać się",
-    "level": "C1"
-  },
-  {
-    "de": "hintereinander",
-    "lv": "Jeden za drugim",
-    "level": "C1"
-  },
-  {
-    "de": "Hochzeitsbrauch",
-    "de_article": "der",
-    "de_plural": "die Hochzeitsbräuche",
-    "lv": "Zwyczaj ślubny",
-    "level": "C1"
-  },
-  {
-    "de": "Hochzeitsfeier",
-    "de_article": "die",
-    "de_plural": "die Hochzeitsfeiern",
-    "lv": "Uroczystość weselna",
-    "level": "C1"
-  },
-  {
-    "de": "Hochzeitsreise",
-    "de_article": "die",
-    "de_plural": "die Hochzeitsreisen",
-    "lv": "Miesiąc miodowy",
-    "level": "C1"
-  },
-  {
-    "de": "identifizieren",
-    "lv": "Zidentyfikować",
-    "level": "C1"
-  },
-  {
-    "de": "Inflationsrate",
-    "de_article": "die",
-    "de_plural": "die Inflationsraten",
-    "lv": "Stopa inflacji",
-    "level": "C1"
-  },
-  {
-    "de": "Schlaginstrument",
-    "de_article": "das",
-    "de_plural": "die Schlaginstrumente",
-    "lv": "Instrument perkusyjny",
-    "level": "C1"
-  },
-  {
-    "de": "Tasteninstrument",
-    "de_article": "das",
-    "de_plural": "die Tasteninstrumente",
-    "lv": "Klávesnica",
-    "level": "C1"
-  },
-  {
-    "de": "Jahreseinkommen",
-    "de_article": "das",
-    "de_plural": "die Jahreseinkommen",
-    "lv": "Roczny dochód",
-    "level": "C1"
-  },
-  {
-    "de": "Kabelanschluss",
-    "de_article": "der",
-    "de_plural": "die Kabelanschlüsse",
-    "lv": "Podłączenie telewizji kablowej",
-    "level": "C1"
-  },
-  {
-    "de": "Kabelfernsehen",
-    "de_article": "das",
-    "lv": "Telewizja kablowa",
-    "level": "C1"
-  },
-  {
-    "de": "Kaltwasserhahn",
-    "de_article": "der",
-    "de_plural": "die Kaltwasserhähne",
-    "lv": "Kran z zimną wodą",
-    "level": "C1"
-  },
-  {
-    "de": "Pressekampagne",
-    "de_article": "die",
-    "de_plural": "die Pressekampagnen",
-    "lv": "Kampanię prasową",
-    "level": "C1"
-  },
-  {
-    "de": "Kandidatenliste",
-    "de_article": "die",
-    "de_plural": "die Kandidatenlisten",
-    "lv": "Lista kandydatów",
-    "level": "C1"
-  },
-  {
-    "de": "Klage",
-    "de_article": "die",
-    "de_plural": "die Klagen",
-    "lv": "Skarga",
-    "level": "C1"
-  },
-  {
-    "de": "klagen",
-    "lv": "Sťažnosť",
-    "level": "C1"
-  },
-  {
-    "de": "Kostenanschlag",
-    "de_article": "der",
-    "de_plural": "die Kostenanschläge",
-    "lv": "Kosztorys wydatków",
-    "level": "C1"
-  },
-  {
-    "de": "krampfhaft",
-    "lv": "Konwulsyjny",
-    "level": "C1"
-  },
-  {
-    "de": "Krankheitsbild",
-    "de_article": "das",
-    "de_plural": "die Krankheitsbilder",
-    "lv": "Scena chorobowa",
-    "level": "C1"
-  },
-  {
-    "de": "Lastkraftwagen",
-    "de_article": "der",
-    "de_plural": "die Lastkraftwagen",
-    "lv": "Ciężki samochód",
-    "level": "C1"
-  },
-  {
-    "de": "lebhaft",
-    "lv": "Pełen życia",
-    "level": "C1"
-  },
-  {
-    "de": "Leichtathletik",
-    "de_article": "die",
-    "lv": "Atletyka",
-    "level": "C1"
-  },
-  {
-    "de": "Mehrwertsteuer",
-    "de_article": "die",
-    "de_plural": "die Mehrwertsteuern",
-    "lv": "Podatek od wartości dodanej",
-    "level": "C1"
-  },
-  {
-    "de": "Meinungsumfrage",
-    "de_article": "die",
-    "de_plural": "die Meinungsumfragen",
-    "lv": "Ankieta",
-    "level": "C1"
-  },
-  {
-    "de": "Menschenrechte",
-    "de_article": "die",
-    "lv": "Prawa człowieka",
-    "level": "C1"
-  },
-  {
-    "de": "Ministerium",
-    "de_article": "das",
-    "de_plural": "die Ministerien",
-    "lv": "Ministerstwo",
-    "level": "C1"
-  },
-  {
-    "de": "Missverständnis",
-    "de_article": "das",
-    "de_plural": "die Missverständnisse",
-    "lv": "Nieporozumienie",
-    "level": "C1"
-  },
-  {
-    "de": "Modezeitschrift",
-    "de_article": "die",
-    "de_plural": "die Modezeitschriften",
-    "lv": "Magazyn o modzie",
-    "level": "C1"
-  },
-  {
-    "de": "Morgendämmerung",
-    "de_article": "die",
-    "de_plural": "die Morgendämmerungen",
-    "lv": "Świt",
-    "level": "C1"
-  },
-  {
-    "de": "Morgengymnastik",
-    "de_article": "die",
-    "de_plural": "die Morgengymnastiken",
-    "lv": "Świt",
-    "level": "C1"
-  },
-  {
-    "de": "nahrhaft",
-    "lv": "Pożywny",
-    "level": "C1"
-  },
-  {
-    "de": "Nationaltracht",
-    "de_article": "die",
-    "de_plural": "die Nationaltrachten",
-    "lv": "Strój narodowy",
-    "level": "C1"
-  },
-  {
-    "de": "Notar",
-    "de_article": "der",
-    "de_plural": "die Notare",
-    "lv": "Notariusz",
-    "level": "C1"
-  },
-  {
-    "de": "Notarzt",
-    "de_article": "der",
-    "de_plural": "die Notärzte",
-    "lv": "Lekarz pogotowia",
-    "level": "C1"
-  },
-  {
-    "de": "Öffentlichkeit",
-    "de_article": "die",
-    "de_plural": "die Öffentlichkeiten",
-    "lv": "Społeczeństwo • Otwartość",
-    "level": "C1",
-    "study": {
-      "id": "c1-offentlichkeit",
-      "layout": "standardStudy",
-      "translation": "Społeczeństwo • Otwartość",
-      "explanation": "Główna idea: die Öffentlichkeit oznacza społeczeństwo jako przestrzeń publiczną lub ludzi jako całość. W zdaniu an die Öffentlichkeit kommen oznacza wyjść na otwartą przestrzeń.",
-      "examples": [
-        {
-          "de": "Die Öffentlichkeit reagierte kritisch.",
-          "lv": "Opinia publiczna zareagowała krytycznie."
-        },
-        {
-          "de": "Der Fall kam an die Öffentlichkeit.",
-          "lv": "Sprawa wyszła na jaw."
-        },
-        {
-          "de": "Die Öffentlichkeit hat ein Recht auf Information.",
-          "lv": "Społeczeństwo ma prawo do informacji."
-        }
-      ]
-    }
-  },
-  {
-    "de": "Parlament",
-    "de_article": "das",
-    "de_plural": "die Parlamente",
-    "lv": "Parlament",
-    "level": "C1"
-  },
-  {
-    "de": "Partei",
-    "de_article": "die",
-    "de_plural": "die Parteien",
-    "lv": "Impreza • Impreza",
-    "level": "C1",
-    "study": {
-      "id": "c1-partei",
-      "layout": "standardStudy",
-      "translation": "Impreza • Impreza",
-      "explanation": "Główna idea: die Partei jest zazwyczaj partią polityczną. W żargonie prawniczym lub konfliktowym może to również oznaczać stronę.",
-      "examples": [
-        {
-          "de": "Diese Partei gewann die Wahl.",
-          "lv": "Ta partia wygrała wybory."
-        },
-        {
-          "de": "Er ist seit Jahren Mitglied einer Partei.",
-          "lv": "Od lat jest członkiem partii."
-        },
-        {
-          "de": "Beide Parteien müssen den Vertrag unterschreiben.",
-          "lv": "Obie strony muszą podpisać umowę."
-        }
-      ]
-    }
-  },
-  {
-    "de": "Persönlichkeit",
-    "de_article": "die",
-    "de_plural": "die Persönlichkeiten",
-    "lv": "Osobnosť",
-    "level": "C1"
-  },
-  {
-    "de": "Polizeieinheit",
-    "de_article": "die",
-    "de_plural": "die Polizeieinheiten",
-    "lv": "Jednostka policji",
-    "level": "C1"
-  },
-  {
-    "de": "Polizeistreife",
-    "de_article": "die",
-    "de_plural": "die Polizeistreifen",
-    "lv": "Policajná hliadka",
-    "level": "C1"
-  },
-  {
-    "de": "Pollenallergie",
-    "de_article": "die",
-    "de_plural": "die Pollenallergien",
-    "lv": "Alergia na pyłki",
-    "level": "C1"
-  },
-  {
-    "de": "Polstergarnitur",
-    "de_article": "die",
-    "de_plural": "die Polstergarnituren",
-    "lv": "Komplet mebli tapicerowanych",
-    "level": "C1"
-  },
-  {
-    "de": "Premier",
-    "de_article": "der",
-    "de_plural": "die Premiers",
-    "lv": "Premier",
-    "level": "C1"
-  },
-  {
-    "de": "Prozess",
-    "de_article": "der",
-    "de_plural": "die Prozesse",
-    "lv": "Proces • Pozew",
-    "level": "C1",
-    "study": {
-      "id": "c1-prozess",
-      "layout": "standardStudy",
-      "translation": "Proces • Pozew",
-      "explanation": "Główna idea: der Prozess to proces lub postępowanie. W sądzie der Prozess oznacza proces.",
-      "examples": [
-        {
-          "de": "Der Prozess dauert mehrere Monate.",
-          "lv": "Proces trwa kilka miesięcy."
-        },
-        {
-          "de": "Der Prozess vor Gericht beginnt morgen.",
-          "lv": "Proces rozpoczyna się jutro."
-        },
-        {
-          "de": "Wir verbessern den ganzen Prozess.",
-          "lv": "Usprawniamy cały proces."
-        }
-      ]
-    }
-  },
-  {
-    "de": "Prozessor",
-    "de_article": "der",
-    "de_plural": "die Prozessoren",
-    "lv": "Edytor",
-    "level": "C1"
-  },
-  {
-    "de": "Radioübertragung",
-    "de_article": "die",
-    "de_plural": "die Radioübertragungen",
-    "lv": "Audycja radiowa",
-    "level": "C1"
-  },
-  {
-    "de": "Rechtsanwalt",
-    "de_article": "der",
-    "de_plural": "die Rechtsanwälte",
-    "lv": "Prawnik",
-    "level": "C1"
-  },
-  {
-    "de": "Rekonstruktion",
-    "de_article": "die",
-    "de_plural": "die Rekonstruktionen",
-    "lv": "Rekonstrukcja",
-    "level": "C1"
-  },
-  {
-    "de": "Rennen mit Hindernissen",
-    "de_article": "das",
-    "de_plural": "die Rennen mit Hindernissen",
-    "lv": "Tor przeszkód",
-    "level": "C1"
-  },
-  {
-    "de": "Reparaturkosten",
-    "de_article": "die",
-    "lv": "Koszty naprawy",
-    "level": "C1"
-  },
-  {
-    "de": "Rettungsstelle",
-    "de_article": "die",
-    "de_plural": "die Rettungsstellen",
-    "lv": "Punkt pierwszej pomocy",
-    "level": "C1"
-  },
-  {
-    "de": "rezeptpflichtig",
-    "lv": "Na receptę",
-    "level": "C1"
-  },
-  {
-    "de": "Schauspielhaus",
-    "de_article": "das",
-    "de_plural": "die Schauspielhäuser",
-    "lv": "Divadlo",
-    "level": "C1"
-  },
-  {
-    "de": "Scheibenwischer",
-    "de_article": "der",
-    "de_plural": "die Scheibenwischer",
-    "lv": "Środek do czyszczenia szyb samochodowych",
-    "level": "C1"
-  },
-  {
-    "de": "Schiedsrichter",
-    "de_article": "der",
-    "de_plural": "die Schiedsrichter",
-    "lv": "Sędzia",
-    "level": "C1"
-  },
-  {
-    "de": "Schlussverkauf",
-    "de_article": "der",
-    "de_plural": "die Schlussverkäufe",
-    "lv": "Wyprzedaż towaru na koniec sezonu po obniżonych cenach",
-    "level": "C1"
-  },
-  {
-    "de": "schmerzhaft",
-    "lv": "Bolesny",
-    "level": "C1"
-  },
-  {
-    "de": "Schneewittchen",
-    "de_article": "das",
-    "de_plural": "die Schneewittchen",
-    "lv": "Postać z bajki Królewna Śnieżka",
-    "level": "C1"
-  },
-  {
-    "de": "Schraubenzieher",
-    "de_article": "der",
-    "de_plural": "die Schraubenzieher",
-    "lv": "Śrubokręt",
-    "level": "C1"
-  },
-  {
-    "de": "Schutzumschlag",
-    "de_article": "der",
-    "de_plural": "die Schutzumschläge",
-    "lv": "Okładka",
-    "level": "C1"
-  },
-  {
-    "de": "Schwiegereltern",
-    "de_article": "die",
-    "lv": "Rodzice męża",
-    "level": "C1"
-  },
-  {
-    "de": "Schwiegermutter",
-    "de_article": "die",
-    "de_plural": "die Schwiegermütter",
-    "lv": "Teściowa",
-    "level": "C1"
-  },
-  {
-    "de": "Schwiegertochter",
-    "de_article": "die",
-    "de_plural": "die Schwiegertöchter",
-    "lv": "Synowa",
-    "level": "C1"
-  },
-  {
-    "de": "Schwiegervater",
-    "de_article": "der",
-    "de_plural": "die Schwiegerväter",
-    "lv": "Teść",
-    "level": "C1"
-  },
-  {
-    "de": "Selbstbedienung",
-    "de_article": "die",
-    "de_plural": "die Selbstbedienungen",
-    "lv": "Samoobsluha",
-    "level": "C1"
-  },
-  {
-    "de": "Stabhochspringen",
-    "de_article": "das",
-    "lv": "Skok o tyczce",
-    "level": "C1"
-  },
-  {
-    "de": "Stadtrundfahrt",
-    "de_article": "die",
-    "de_plural": "die Stadtrundfahrten",
-    "lv": "Wycieczka po mieście",
-    "level": "C1"
-  },
-  {
-    "de": "stecken bleiben",
-    "lv": "Wkopać się",
-    "level": "C1"
-  },
-  {
-    "de": "Stellvertreter",
-    "de_article": "der",
-    "de_plural": "die Stellvertreter",
-    "lv": "Zastąpić",
-    "level": "C1"
-  },
-  {
-    "de": "Steuererklärung",
-    "de_article": "die",
-    "de_plural": "die Steuererklärungen",
-    "lv": "Deklaracja podatkowa",
-    "level": "C1"
-  },
-  {
-    "de": "Strampelhöschen",
-    "de_article": "das",
-    "de_plural": "die Strampelhöschen",
-    "lv": "Dziecięcy pełzacz",
-    "level": "C1"
-  },
-  {
-    "de": "Stromverbrauch",
-    "de_article": "der",
-    "de_plural": "die Stromverbräuche",
-    "lv": "Zużycie prądu",
-    "level": "C1"
-  },
-  {
-    "de": "Tagesnachrichten",
-    "de_article": "die",
-    "lv": "Wiadomość dnia",
-    "level": "C1"
-  },
-  {
-    "de": "Teilzeitarbeit",
-    "de_article": "die",
-    "de_plural": "die Teilzeitarbeiten",
-    "lv": "Praca na pół etatu",
-    "level": "C1"
-  },
-  {
-    "de": "Terminkalender",
-    "de_article": "der",
-    "de_plural": "die Terminkalender",
-    "lv": "Kalendarz notatek",
-    "level": "C1"
-  },
-  {
-    "de": "Thermosflasche",
-    "de_article": "die",
-    "de_plural": "die Thermosflaschen",
-    "lv": "Termos",
-    "level": "C1"
-  },
-  {
-    "de": "Tierkreiszeichen",
-    "de_article": "das",
-    "de_plural": "die Tierkreiszeichen",
-    "lv": "Znak zodiaku",
-    "level": "C1"
-  },
-  {
-    "de": "transportieren",
-    "lv": "Do transportu",
-    "level": "C1"
-  },
-  {
-    "de": "Überschwemmung",
-    "de_article": "die",
-    "de_plural": "die Überschwemmungen",
-    "lv": "Povodeň",
-    "level": "C1"
-  },
-  {
-    "de": "Unternehmen",
-    "de_article": "das",
-    "de_plural": "die Unternehmen",
-    "lv": "Firma • Wydarzenie",
-    "level": "C1"
-  },
-  {
-    "de": "unterstreichen",
-    "lv": "Podkreślić",
-    "level": "C1"
-  },
-  {
-    "de": "unverständlich",
-    "lv": "Niezrozumiały",
-    "level": "C1"
-  },
-  {
-    "de": "Heiratsurkunde",
-    "de_article": "die",
-    "de_plural": "die Heiratsurkunden",
-    "lv": "Akt małżeństwa",
-    "level": "C1"
-  },
-  {
-    "de": "Urteil",
-    "de_article": "das",
-    "de_plural": "die Urteile",
-    "lv": "Osąd",
-    "level": "C1"
-  },
-  {
-    "de": "veranstalten",
-    "lv": "Usporiadať",
-    "level": "C1"
-  },
-  {
-    "de": "verantworten",
-    "lv": "Wziąć odpowiedzialność za",
-    "level": "C1"
-  },
-  {
-    "de": "Verantwortung",
-    "de_article": "die",
-    "de_plural": "die Verantwortungen",
-    "lv": "Odpowiedzialność",
-    "level": "C1"
-  },
-  {
-    "de": "Vereinbarung",
-    "de_article": "die",
-    "de_plural": "die Vereinbarungen",
-    "lv": "Porozumienie",
-    "level": "C1"
-  },
-  {
-    "de": "Vergangenheit",
-    "de_article": "die",
-    "de_plural": "die Vergangenheiten",
-    "lv": "Przeszłość",
-    "level": "C1"
-  },
-  {
-    "de": "Verkehrsstau",
-    "de_article": "der",
-    "de_plural": "die Verkehrsstaue",
-    "lv": "Korek uliczny",
-    "level": "C1"
-  },
-  {
-    "de": "Verlegenheit",
-    "de_article": "die",
-    "de_plural": "die Verlegenheiten",
-    "lv": "Dezorientacja",
-    "level": "C1"
-  },
-  {
-    "de": "verschließen",
-    "lv": "Zablokować",
-    "level": "C1"
-  },
-  {
-    "de": "verschlucken",
-    "lv": "Przełknąć",
-    "level": "C1"
-  },
-  {
-    "de": "verschwenden",
-    "lv": "Marnować",
-    "level": "C1"
-  },
-  {
-    "de": "Versicherung",
-    "de_article": "die",
-    "de_plural": "die Versicherungen",
-    "lv": "Ubezpieczenie",
-    "level": "C1"
-  },
-  {
-    "de": "sich verständigen",
-    "lv": "Dawać sobie radę",
-    "level": "C1"
-  },
-  {
-    "de": "verständlich",
-    "lv": "Zrozumiały",
-    "level": "C1"
-  },
-  {
-    "de": "Vertrag",
-    "de_article": "der",
-    "de_plural": "die Verträge",
-    "lv": "Umowa",
-    "level": "C1"
-  },
-  {
-    "de": "voll beschäftigt",
-    "lv": "Zatrudniony na pełen etat",
-    "level": "C1"
-  },
-  {
-    "de": "Vorgesetzte",
-    "de_article": "der",
-    "de_plural": "die Vorgesetzten",
-    "lv": "Szef",
-    "level": "C1"
-  },
-  {
-    "de": "vorteilhaft",
-    "lv": "Korzystny",
-    "level": "C1"
-  },
-  {
-    "de": "Wettbewerb",
-    "de_article": "der",
-    "de_plural": "die Wettbewerbe",
-    "lv": "Konkurs",
-    "level": "C1"
-  },
-  {
-    "de": "sich zufrieden geben",
-    "lv": "Zadowolić",
-    "level": "C1"
-  },
-  {
-    "de": "zusammenbringen",
-    "lv": "Połączyć",
-    "level": "C1"
-  },
-  {
-    "de": "zusammenfassen",
-    "lv": "Podsumować • Podsumować",
-    "level": "C1",
-    "study": {
-      "id": "c1-zusammenfassen",
-      "layout": "standardStudy",
-      "translation": "Podsumować • Podsumować",
+      "translation": "rodinný dom",
       "explanation": [
-        "Główna idea: zusammenfassen to czasownik oznaczający zbieranie lub organizowanie informacji w jedno zwięzłe stwierdzenie.",
-        "Zusammenfassen sa používa, keď je v krátkom prehľade prezentovaných niekoľko faktov, textov alebo myšlienok.",
-        "Nie mylić z die Zusammenfassung - ten z dużą literą i przedimkiem die to rzeczownik oznaczający samo podsumowanie (wynik, gotowy tekst).",
-        "Zusammenfassen = proces/akcja (podsumuj, podsumuj) • Die Zusammenfassung = wynik (podsumowanie jako rzeczownik).",
-        "Podobnie jak wiele czasowników niemieckich, zusammenfassen może stać się rzeczownikiem pisanym wielką literą i przedimkiem: zusammenfassen → die Zusammenfassen (substantywizacja)."
+        "Hlavná myšlienka: das Einfamilienhaus je dom určený pre jednu rodinu — samostatne stojaci alebo spojený so susednými domami, ale s jedným bytom a zvyčajne s vlastnou záhradou.",
+        "Podstatné meno stredného rodu: das Einfamilienhaus, množné číslo die Einfamilienhäuser. Skladá sa z Ein- + Familie + Haus.",
+        "Opakom je das Mehrfamilienhaus (bytový dom)."
       ],
       "examples": [
         {
-          "de": "Können Sie den Text zusammenfassen?",
-          "lv": "Możesz streścić ten tekst?"
+          "de": "Sie wohnen in einem Einfamilienhaus am Stadtrand.",
+          "lv": "Bývajú v rodinnom dome na okraji mesta."
         },
         {
-          "de": "Ich fasse die wichtigsten Punkte zusammen.",
-          "lv": "Podsumuję najważniejsze punkty."
+          "de": "Das Einfamilienhaus hat einen kleinen Garten.",
+          "lv": "Rodinný dom má malú záhradu."
         },
         {
-          "de": "Er hat den Bericht kurz zusammengefasst.",
-          "lv": "– podsumował krótko recenzję."
+          "de": "Sie träumen von einem eigenen Einfamilienhaus.",
+          "lv": "Snívajú o vlastnom rodinnom dome."
         },
         {
-          "de": "Zusammenfassend kann man sagen, dass...",
-          "lv": "Podsumowując można powiedzieć, że..."
+          "de": "In dieser Siedlung stehen nur Einfamilienhäuser.",
+          "lv": "V tejto obytnej štvrti sú iba rodinné domy."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "das Mehrfamilienhaus",
+          "meaning": "bytový dom",
+          "example": "Im Mehrfamilienhaus wohnen zehn Familien. – V bytovom dome býva desať rodín."
         },
         {
-          "de": "Ich schreibe eine Zusammenfassung des Buches.",
-          "lv": "Piszę streszczenie książki."
+          "word": "das Reihenhaus",
+          "meaning": "radový dom",
+          "example": "Das Reihenhaus steht zwischen zwei anderen. – Radový dom stojí medzi dvoma ďalšími."
         },
         {
-          "de": "Die Zusammenfassung ist zu lang.",
-          "lv": "Podsumowanie jest za długie."
+          "word": "das Hochhaus",
+          "meaning": "výšková budova",
+          "example": "Im Hochhaus gibt es einen Aufzug. – Vo výškovej budove je výťah."
         }
       ],
       "tip": [
-        "Zusammenfassen (czasownik) = proces - podsumowywać/podsumowywać.",
-        "Die Zusammenfassung (rzeczownik pisany wielką literą i artykuł die) = wynik - samo podsumowanie."
+        "Zloženinu môžeš pochopiť podľa častí: ein + Familie + Haus.",
+        "Časté spojenie: ein Einfamilienhaus bauen / kaufen / mieten."
       ],
       "important": [
-        "Zusammenfassen = podsumowywać/podsumowywać (czasownik).",
-        "Die Zusammenfassung = podsumowanie (rzeczownik uzasadniony od zusammenfassen).",
-        "Niepoprawnie: die zusammenfassen → Poprawnie: die Zusammenfassen (rzeczownik zawsze pisany wielką literą)."
+        "Einfamilienhaus nie je to isté čo Villa: môže to byť aj celkom jednoduchý dom."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "zusammenfassen"
+            "Einfamilienhaus",
+            "Einfamilienhäuser"
+          ],
+          "purple": [
+            "dom"
           ],
           "green": [
-            "die Zusammenfassung"
+            "das Mehrfamilienhaus",
+            "Mehrfamilienhaus"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "zusammenfassen"
+                "Einfamilienhaus"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "rodinnom"
+              ]
+            }
           },
           {
             "de": {
               "blue": [
-                "fasse",
-                "zusammen"
+                "Einfamilienhaus"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Rodinný"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Einfamilienhaus"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "rodinnom"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Einfamilienhäuser"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "rodinné"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "das Mehrfamilienhaus"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "bytový"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "das Reihenhaus"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "radový"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "das Hochhaus"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "výšková"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {
+            "blue": [
+              "Einfamilienhaus"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "Einfamilienhaus"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "de": "Eisenbahnfahrt",
+    "de_article": "die",
+    "de_plural": "die Eisenbahnfahrten",
+    "lv": "cesta vlakom",
+    "level": "C1"
+  },
+  {
+    "de": "Eisenbahnstation",
+    "de_article": "die",
+    "de_plural": "die Eisenbahnstationen",
+    "lv": "železničná stanica",
+    "level": "C1"
+  },
+  {
+    "de": "ekelhaft",
+    "lv": "odporný • hnusný",
+    "level": "C1"
+  },
+  {
+    "de": "Energieverbrauch",
+    "de_article": "der",
+    "de_plural": "die Energieverbräuche",
+    "lv": "spotreba energie",
+    "level": "C1"
+  },
+  {
+    "de": "Gartenerdbeere",
+    "de_article": "die",
+    "de_plural": "die Gartenerdbeeren",
+    "lv": "záhradná jahoda",
+    "level": "C1"
+  },
+  {
+    "de": "erforderlich",
+    "lv": "potrebný • nevyhnutný",
+    "level": "C1"
+  },
+  {
+    "de": "fabelhaft",
+    "lv": "báječný • skvelý",
+    "level": "C1"
+  },
+  {
+    "de": "fehlerhaft",
+    "lv": "chybný",
+    "level": "C1"
+  },
+  {
+    "de": "folgendermaßen",
+    "lv": "takto • nasledujúcim spôsobom",
+    "level": "C1"
+  },
+  {
+    "de": "Geburtsschein",
+    "de_article": "der",
+    "de_plural": "die Geburtsscheine",
+    "lv": "rodný list",
+    "level": "C1"
+  },
+  {
+    "de": "gegeneinander",
+    "lv": "proti sebe",
+    "level": "C1"
+  },
+  {
+    "de": "Gemüsegarten",
+    "de_article": "der",
+    "de_plural": "die Gemüsegärten",
+    "lv": "zeleninová záhrada",
+    "level": "C1"
+  },
+  {
+    "de": "Gepäckträger",
+    "de_article": "der",
+    "de_plural": "die Gepäckträger",
+    "lv": "nosič batožiny",
+    "level": "C1"
+  },
+  {
+    "de": "geschäftlich",
+    "lv": "obchodný",
+    "level": "C1"
+  },
+  {
+    "de": "Geschäftsmann",
+    "de_article": "der",
+    "de_plural": "die Geschäftsleute",
+    "lv": "podnikateľ • obchodník",
+    "level": "C1"
+  },
+  {
+    "de": "geschichtlich",
+    "lv": "historický • dejinný",
+    "level": "C1"
+  },
+  {
+    "de": "geschmacklos",
+    "lv": "nevkusný",
+    "level": "C1"
+  },
+  {
+    "de": "geschmackvoll",
+    "lv": "vkusný",
+    "level": "C1"
+  },
+  {
+    "de": "gesetzlich",
+    "lv": "zákonný",
+    "level": "C1"
+  },
+  {
+    "de": "Gesichtspunkt",
+    "de_article": "der",
+    "de_plural": "die Gesichtspunkte",
+    "lv": "hľadisko",
+    "level": "C1"
+  },
+  {
+    "de": "Gewichtheben",
+    "de_article": "das",
+    "lv": "vzpieranie",
+    "level": "C1"
+  },
+  {
+    "de": "gewissenhaft",
+    "lv": "svedomitý",
+    "level": "C1"
+  },
+  {
+    "de": "Gipfel",
+    "de_article": "der",
+    "de_plural": "die Gipfel",
+    "lv": "vrchol • štít",
+    "level": "C1"
+  },
+  {
+    "de": "Hausangestellte",
+    "de_article": "die",
+    "lv": "pomocníčka v domácnosti • slúžka",
+    "level": "C1"
+  },
+  {
+    "de": "hinaufklettern",
+    "lv": "vyliezť • vyšplhať sa",
+    "level": "C1"
+  },
+  {
+    "de": "hintereinander",
+    "lv": "za sebou • jeden za druhým",
+    "level": "C1"
+  },
+  {
+    "de": "Hochzeitsbrauch",
+    "de_article": "der",
+    "de_plural": "die Hochzeitsbräuche",
+    "lv": "svadobný zvyk",
+    "level": "C1"
+  },
+  {
+    "de": "Hochzeitsfeier",
+    "de_article": "die",
+    "de_plural": "die Hochzeitsfeiern",
+    "lv": "svadobná oslava • svadba",
+    "level": "C1"
+  },
+  {
+    "de": "Hochzeitsreise",
+    "de_article": "die",
+    "de_plural": "die Hochzeitsreisen",
+    "lv": "svadobná cesta",
+    "level": "C1"
+  },
+  {
+    "de": "identifizieren",
+    "lv": "identifikovať",
+    "level": "C1"
+  },
+  {
+    "de": "Inflationsrate",
+    "de_article": "die",
+    "de_plural": "die Inflationsraten",
+    "lv": "miera inflácie",
+    "level": "C1"
+  },
+  {
+    "de": "Schlaginstrument",
+    "de_article": "das",
+    "de_plural": "die Schlaginstrumente",
+    "lv": "bicí nástroj",
+    "level": "C1"
+  },
+  {
+    "de": "Tasteninstrument",
+    "de_article": "das",
+    "de_plural": "die Tasteninstrumente",
+    "lv": "klávesový nástroj",
+    "level": "C1"
+  },
+  {
+    "de": "Jahreseinkommen",
+    "de_article": "das",
+    "de_plural": "die Jahreseinkommen",
+    "lv": "ročný príjem",
+    "level": "C1"
+  },
+  {
+    "de": "Kabelanschluss",
+    "de_article": "der",
+    "de_plural": "die Kabelanschlüsse",
+    "lv": "káblová prípojka",
+    "level": "C1"
+  },
+  {
+    "de": "Kabelfernsehen",
+    "de_article": "das",
+    "lv": "káblová televízia",
+    "level": "C1"
+  },
+  {
+    "de": "Kaltwasserhahn",
+    "de_article": "der",
+    "de_plural": "die Kaltwasserhähne",
+    "lv": "kohútik na studenú vodu",
+    "level": "C1"
+  },
+  {
+    "de": "Pressekampagne",
+    "de_article": "die",
+    "de_plural": "die Pressekampagnen",
+    "lv": "tlačová kampaň",
+    "level": "C1"
+  },
+  {
+    "de": "Kandidatenliste",
+    "de_article": "die",
+    "de_plural": "die Kandidatenlisten",
+    "lv": "kandidátna listina",
+    "level": "C1"
+  },
+  {
+    "de": "Klage",
+    "de_article": "die",
+    "de_plural": "die Klagen",
+    "lv": "sťažnosť • žaloba",
+    "level": "C1"
+  },
+  {
+    "de": "klagen",
+    "lv": "sťažovať sa • nariekať",
+    "level": "C1"
+  },
+  {
+    "de": "Kostenanschlag",
+    "de_article": "der",
+    "de_plural": "die Kostenanschläge",
+    "lv": "rozpočet nákladov • kalkulácia",
+    "level": "C1"
+  },
+  {
+    "de": "krampfhaft",
+    "lv": "kŕčovitý",
+    "level": "C1"
+  },
+  {
+    "de": "Krankheitsbild",
+    "de_article": "das",
+    "de_plural": "die Krankheitsbilder",
+    "lv": "obraz choroby • klinický obraz",
+    "level": "C1"
+  },
+  {
+    "de": "Lastkraftwagen",
+    "de_article": "der",
+    "de_plural": "die Lastkraftwagen",
+    "lv": "nákladné auto",
+    "level": "C1"
+  },
+  {
+    "de": "lebhaft",
+    "lv": "živý • čulý",
+    "level": "C1"
+  },
+  {
+    "de": "Leichtathletik",
+    "de_article": "die",
+    "lv": "atletika • ľahká atletika",
+    "level": "C1"
+  },
+  {
+    "de": "Mehrwertsteuer",
+    "de_article": "die",
+    "de_plural": "die Mehrwertsteuern",
+    "lv": "daň z pridanej hodnoty",
+    "level": "C1"
+  },
+  {
+    "de": "Meinungsumfrage",
+    "de_article": "die",
+    "de_plural": "die Meinungsumfragen",
+    "lv": "prieskum verejnej mienky",
+    "level": "C1"
+  },
+  {
+    "de": "Menschenrechte",
+    "de_article": "die",
+    "lv": "ľudské práva",
+    "level": "C1"
+  },
+  {
+    "de": "Ministerium",
+    "de_article": "das",
+    "de_plural": "die Ministerien",
+    "lv": "ministerstvo",
+    "level": "C1"
+  },
+  {
+    "de": "Missverständnis",
+    "de_article": "das",
+    "de_plural": "die Missverständnisse",
+    "lv": "nedorozumenie",
+    "level": "C1"
+  },
+  {
+    "de": "Modezeitschrift",
+    "de_article": "die",
+    "de_plural": "die Modezeitschriften",
+    "lv": "módny časopis",
+    "level": "C1"
+  },
+  {
+    "de": "Morgendämmerung",
+    "de_article": "die",
+    "de_plural": "die Morgendämmerungen",
+    "lv": "svitanie • úsvit",
+    "level": "C1"
+  },
+  {
+    "de": "Morgengymnastik",
+    "de_article": "die",
+    "de_plural": "die Morgengymnastiken",
+    "lv": "ranná rozcvička",
+    "level": "C1"
+  },
+  {
+    "de": "nahrhaft",
+    "lv": "výživný",
+    "level": "C1"
+  },
+  {
+    "de": "Nationaltracht",
+    "de_article": "die",
+    "de_plural": "die Nationaltrachten",
+    "lv": "národný kroj",
+    "level": "C1"
+  },
+  {
+    "de": "Notar",
+    "de_article": "der",
+    "de_plural": "die Notare",
+    "lv": "notár",
+    "level": "C1"
+  },
+  {
+    "de": "Notarzt",
+    "de_article": "der",
+    "de_plural": "die Notärzte",
+    "lv": "lekár záchrannej služby",
+    "level": "C1"
+  },
+  {
+    "de": "Öffentlichkeit",
+    "de_article": "die",
+    "de_plural": "die Öffentlichkeiten",
+    "lv": "verejnosť • otvorenosť",
+    "level": "C1",
+    "study": {
+      "id": "c1-offentlichkeit",
+      "layout": "standardStudy",
+      "translation": "verejnosť • otvorenosť",
+      "explanation": [
+        "Hlavná myšlienka: die Öffentlichkeit je verejnosť ako všetci ľudia, ktorým je niečo prístupné alebo známe, a zároveň aj otvorenosť — stav, keď niečo nie je tajné.",
+        "Podstatné meno ženského rodu: die Öffentlichkeit, množné číslo sa prakticky nepoužíva. Časté spojenia: in der Öffentlichkeit (verejne, na verejnosti), an die Öffentlichkeit gehen (obrátiť sa na verejnosť, zverejniť), unter Ausschluss der Öffentlichkeit (bez prítomnosti verejnosti), die Öffentlichkeit informieren.",
+        "Nezamieňaj s die Gesellschaft (spoločnosť ako sociálny systém) — to je iný význam."
+      ],
+      "examples": [
+        {
+          "de": "Der Politiker trat vor die Öffentlichkeit.",
+          "lv": "Politik vystúpil pred verejnosť."
+        },
+        {
+          "de": "In der Öffentlichkeit darf man hier nicht rauchen.",
+          "lv": "Na verejnosti sa tu nesmie fajčiť."
+        },
+        {
+          "de": "Die Verhandlung fand unter Ausschluss der Öffentlichkeit statt.",
+          "lv": "Pojednávanie sa konalo s vylúčením verejnosti."
+        },
+        {
+          "de": "Die Firma will den Skandal nicht an die Öffentlichkeit bringen.",
+          "lv": "Firma nechce škandál zverejniť."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "die Gesellschaft",
+          "meaning": "spoločnosť (ako systém)",
+          "example": "Die Gesellschaft verändert sich. – Spoločnosť sa mení."
+        },
+        {
+          "word": "das Publikum",
+          "meaning": "publikum, obecenstvo",
+          "example": "Das Publikum klatscht. – Obecenstvo tlieska."
+        },
+        {
+          "word": "die Bevölkerung",
+          "meaning": "obyvateľstvo",
+          "example": "Die Bevölkerung wächst. – Počet obyvateľov rastie."
+        }
+      ],
+      "tip": [
+        "Používa sa s predložkami: in der Öffentlichkeit (kde?), an die Öffentlichkeit (kam?).",
+        "Podobný význam má slovo die Allgemeinheit (všetci ľudia spolu)."
+      ],
+      "important": [
+        "Množné číslo sa zvyčajne nepoužíva: die Öffentlichkeiten je zriedkavé."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "die Öffentlichkeit",
+            "in der Öffentlichkeit",
+            "an die Öffentlichkeit gehen",
+            "unter Ausschluss der Öffentlichkeit",
+            "Gesellschaft",
+            "Öffentlichkeit"
+          ],
+          "purple": [
+            "verejnosť",
+            "otvorenosť",
+            "verejne"
+          ],
+          "green": [
+            "die Gesellschaft"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Öffentlichkeit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "verejnosť"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Öffentlichkeit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Na verejnosti"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Öffentlichkeit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "verejnosti"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Öffentlichkeit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "zverejniť"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "die Gesellschaft"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "spoločnosť"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "das Publikum"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "publikum"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Bevölkerung"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "obyvateľstvo"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "Öffentlichkeit",
+              "die Öffentlichkeit",
+              "in der Öffentlichkeit"
+            ]
+          },
+          {}
+        ],
+        "important": [
+          {}
+        ]
+      }
+    }
+  },
+  {
+    "de": "Parlament",
+    "de_article": "das",
+    "de_plural": "die Parlamente",
+    "lv": "parlament",
+    "level": "C1"
+  },
+  {
+    "de": "Partei",
+    "de_article": "die",
+    "de_plural": "die Parteien",
+    "lv": "strana",
+    "level": "C1",
+    "study": {
+      "id": "c1-partei",
+      "layout": "standardStudy",
+      "translation": "strana",
+      "explanation": [
+        "Hlavná myšlienka: die Partei je politická strana (die CDU ist eine Partei), ale aj strana v spore, na súde alebo v zmluve: die Streitparteien, die Vertragsparteien.",
+        "Podstatné meno ženského rodu: die Partei, množné číslo die Parteien. Výraz Partei ergreifen für jemanden — postaviť sa na niečiu stranu.",
+        "V politickom kontexte sa často používa: eine Partei gründen (založiť stranu), in eine Partei eintreten (vstúpiť do strany), die Regierungspartei (vládna strana)."
+      ],
+      "examples": [
+        {
+          "de": "Sie ist Mitglied einer Partei.",
+          "lv": "Je členkou nejakej strany."
+        },
+        {
+          "de": "Die Parteien verhandeln über eine Koalition.",
+          "lv": "Strany rokujú o koalícii."
+        },
+        {
+          "de": "Im Streit ergriff er Partei für seinen Bruder.",
+          "lv": "V spore sa postavil na stranu svojho brata."
+        },
+        {
+          "de": "Beide Parteien haben den Vertrag unterschrieben.",
+          "lv": "Obe strany podpísali zmluvu."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "die Seite",
+          "meaning": "strana",
+          "example": "Auf welcher Seite stehst du? – Na ktorej strane stojíš?"
+        },
+        {
+          "word": "der Verein",
+          "meaning": "spolok",
+          "example": "Er ist im Sportverein. – Je v športovom spolku."
+        },
+        {
+          "word": "die Gruppe",
+          "meaning": "skupina",
+          "example": "Die Gruppe trifft sich heute. – Skupina sa dnes stretáva."
+        }
+      ],
+      "tip": [
+        "Partei ergreifen (postaviť sa na niečiu stranu) je užitočný výraz pri opise sporov.",
+        "V politike sa hovorí eine Partei wählen alebo für eine Partei stimmen."
+      ],
+      "important": [
+        "Die Partei a die Party (večierok) znejú podobne, ale nesúvisia spolu."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Partei",
+            "Parteien"
+          ],
+          "purple": [
+            "strana",
+            "stranu",
+            "strany",
+            "politická strana",
+            "vládna strana"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Partei"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "strany"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Parteien"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Strany"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Partei"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "stranu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Parteien"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "strany"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "die Seite"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "strana"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Verein"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "spolok"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Gruppe"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "skupina"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "Partei"
+            ]
+          },
+          {
+            "blue": [
+              "Partei"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "Partei"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "de": "Persönlichkeit",
+    "de_article": "die",
+    "de_plural": "die Persönlichkeiten",
+    "lv": "osobnosť",
+    "level": "C1"
+  },
+  {
+    "de": "Polizeieinheit",
+    "de_article": "die",
+    "de_plural": "die Polizeieinheiten",
+    "lv": "policajná jednotka",
+    "level": "C1"
+  },
+  {
+    "de": "Polizeistreife",
+    "de_article": "die",
+    "de_plural": "die Polizeistreifen",
+    "lv": "policajná hliadka",
+    "level": "C1"
+  },
+  {
+    "de": "Pollenallergie",
+    "de_article": "die",
+    "de_plural": "die Pollenallergien",
+    "lv": "alergia na peľ",
+    "level": "C1"
+  },
+  {
+    "de": "Polstergarnitur",
+    "de_article": "die",
+    "de_plural": "die Polstergarnituren",
+    "lv": "sedacia súprava",
+    "level": "C1"
+  },
+  {
+    "de": "Premier",
+    "de_article": "der",
+    "de_plural": "die Premiers",
+    "lv": "premiér",
+    "level": "C1"
+  },
+  {
+    "de": "Prozess",
+    "de_article": "der",
+    "de_plural": "die Prozesse",
+    "lv": "proces • súdny spor",
+    "level": "C1",
+    "study": {
+      "id": "c1-prozess",
+      "layout": "standardStudy",
+      "translation": "proces • súdny spor",
+      "explanation": [
+        "Hlavná myšlienka: der Prozess je slovo s dvoma hlavnými významami: proces, priebeh (ein langsamer Prozess) a súdny spor, súdny proces (ein Prozess gegen jemanden).",
+        "Podstatné meno mužského rodu: der Prozess, množné číslo die Prozesse. Spor možno viesť, začať, vyhrať alebo prehrať: einen Prozess führen, gewinnen, verlieren.",
+        "Výraz kurzen Prozess machen znamená konať bez dlhého váhania, nekompromisne."
+      ],
+      "examples": [
+        {
+          "de": "Der Prozess gegen den Angeklagten dauert Monate.",
+          "lv": "Proces s obžalovaným trvá mesiace."
+        },
+        {
+          "de": "Die Heilung ist ein langsamer Prozess.",
+          "lv": "Uzdravovanie je pomalý proces."
+        },
+        {
+          "de": "Sie haben den Prozess gewonnen.",
+          "lv": "Vyhrali súdny spor."
+        },
+        {
+          "de": "Die Firma machte kurzen Prozess und kündigte ihm.",
+          "lv": "Firma urobila krátky proces a dala mu výpoveď."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "der Vorgang",
+          "meaning": "priebeh, postup",
+          "example": "Der Vorgang dauert eine Stunde. – Postup trvá hodinu."
+        },
+        {
+          "word": "die Verhandlung",
+          "meaning": "súdne pojednávanie",
+          "example": "Die Verhandlung beginnt um neun. – Pojednávanie sa začína o deviatej."
+        },
+        {
+          "word": "die Klage",
+          "meaning": "žaloba",
+          "example": "Er reichte eine Klage ein. – Podal žalobu."
+        }
+      ],
+      "tip": [
+        "Keď ide o súd, často sa vyskytujú slovesá: einen Prozess führen / gewinnen / verlieren.",
+        "Proces ako priebeh je aj technický a vedecký termín: der Prozess der Herstellung (výrobný proces)."
+      ],
+      "important": [
+        "Vo všetkých významoch je slovo mužského rodu: der Prozess (nie das Prozess)."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Prozess",
+            "Prozesse"
+          ],
+          "purple": [
+            "proces",
+            "súdny spor",
+            "Spor"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Prozess"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Proces"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Prozess"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "proces"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Prozess"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "spor"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Prozess"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "krátky proces"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "Vorgang"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "postup"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "Verhandlung"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "pojednávanie"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "Klage"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "žaloba"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "Prozess"
+            ]
+          },
+          {
+            "blue": [
+              "Prozess"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "Prozess"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "de": "Prozessor",
+    "de_article": "der",
+    "de_plural": "die Prozessoren",
+    "lv": "procesor",
+    "level": "C1"
+  },
+  {
+    "de": "Radioübertragung",
+    "de_article": "die",
+    "de_plural": "die Radioübertragungen",
+    "lv": "rozhlasový prenos",
+    "level": "C1"
+  },
+  {
+    "de": "Rechtsanwalt",
+    "de_article": "der",
+    "de_plural": "die Rechtsanwälte",
+    "lv": "advokát",
+    "level": "C1"
+  },
+  {
+    "de": "Rekonstruktion",
+    "de_article": "die",
+    "de_plural": "die Rekonstruktionen",
+    "lv": "rekonštrukcia",
+    "level": "C1"
+  },
+  {
+    "de": "Rennen mit Hindernissen",
+    "de_article": "das",
+    "de_plural": "die Rennen mit Hindernissen",
+    "lv": "prekážkový beh",
+    "level": "C1"
+  },
+  {
+    "de": "Reparaturkosten",
+    "de_article": "die",
+    "lv": "náklady na opravu",
+    "level": "C1"
+  },
+  {
+    "de": "Rettungsstelle",
+    "de_article": "die",
+    "de_plural": "die Rettungsstellen",
+    "lv": "stanica prvej pomoci",
+    "level": "C1"
+  },
+  {
+    "de": "rezeptpflichtig",
+    "lv": "viazaný na lekársky predpis",
+    "level": "C1"
+  },
+  {
+    "de": "Schauspielhaus",
+    "de_article": "das",
+    "de_plural": "die Schauspielhäuser",
+    "lv": "divadlo • činohra",
+    "level": "C1"
+  },
+  {
+    "de": "Scheibenwischer",
+    "de_article": "der",
+    "de_plural": "die Scheibenwischer",
+    "lv": "stierač",
+    "level": "C1"
+  },
+  {
+    "de": "Schiedsrichter",
+    "de_article": "der",
+    "de_plural": "die Schiedsrichter",
+    "lv": "rozhodca",
+    "level": "C1"
+  },
+  {
+    "de": "Schlussverkauf",
+    "de_article": "der",
+    "de_plural": "die Schlussverkäufe",
+    "lv": "sezónny výpredaj • výpredaj",
+    "level": "C1"
+  },
+  {
+    "de": "schmerzhaft",
+    "lv": "bolestivý",
+    "level": "C1"
+  },
+  {
+    "de": "Schneewittchen",
+    "de_article": "das",
+    "de_plural": "die Schneewittchen",
+    "lv": "Snehulienka",
+    "level": "C1"
+  },
+  {
+    "de": "Schraubenzieher",
+    "de_article": "der",
+    "de_plural": "die Schraubenzieher",
+    "lv": "skrutkovač",
+    "level": "C1"
+  },
+  {
+    "de": "Schutzumschlag",
+    "de_article": "der",
+    "de_plural": "die Schutzumschläge",
+    "lv": "prebal • ochranný obal",
+    "level": "C1"
+  },
+  {
+    "de": "Schwiegereltern",
+    "de_article": "die",
+    "lv": "svokrovci",
+    "level": "C1"
+  },
+  {
+    "de": "Schwiegermutter",
+    "de_article": "die",
+    "de_plural": "die Schwiegermütter",
+    "lv": "svokra",
+    "level": "C1"
+  },
+  {
+    "de": "Schwiegertochter",
+    "de_article": "die",
+    "de_plural": "die Schwiegertöchter",
+    "lv": "nevesta",
+    "level": "C1"
+  },
+  {
+    "de": "Schwiegervater",
+    "de_article": "der",
+    "de_plural": "die Schwiegerväter",
+    "lv": "svokor",
+    "level": "C1"
+  },
+  {
+    "de": "Selbstbedienung",
+    "de_article": "die",
+    "de_plural": "die Selbstbedienungen",
+    "lv": "samoobsluha",
+    "level": "C1"
+  },
+  {
+    "de": "Stabhochspringen",
+    "de_article": "das",
+    "lv": "skok o žrdi",
+    "level": "C1"
+  },
+  {
+    "de": "Stadtrundfahrt",
+    "de_article": "die",
+    "de_plural": "die Stadtrundfahrten",
+    "lv": "okružná jazda mestom",
+    "level": "C1"
+  },
+  {
+    "de": "stecken bleiben",
+    "lv": "uviaznuť • zaseknúť sa",
+    "level": "C1"
+  },
+  {
+    "de": "Stellvertreter",
+    "de_article": "der",
+    "de_plural": "die Stellvertreter",
+    "lv": "zástupca",
+    "level": "C1"
+  },
+  {
+    "de": "Steuererklärung",
+    "de_article": "die",
+    "de_plural": "die Steuererklärungen",
+    "lv": "daňové priznanie",
+    "level": "C1"
+  },
+  {
+    "de": "Strampelhöschen",
+    "de_article": "das",
+    "de_plural": "die Strampelhöschen",
+    "lv": "dupačky",
+    "level": "C1"
+  },
+  {
+    "de": "Stromverbrauch",
+    "de_article": "der",
+    "de_plural": "die Stromverbräuche",
+    "lv": "spotreba elektriny",
+    "level": "C1"
+  },
+  {
+    "de": "Tagesnachrichten",
+    "de_article": "die",
+    "lv": "denné správy",
+    "level": "C1"
+  },
+  {
+    "de": "Teilzeitarbeit",
+    "de_article": "die",
+    "de_plural": "die Teilzeitarbeiten",
+    "lv": "práca na čiastočný úväzok",
+    "level": "C1"
+  },
+  {
+    "de": "Terminkalender",
+    "de_article": "der",
+    "de_plural": "die Terminkalender",
+    "lv": "diár",
+    "level": "C1"
+  },
+  {
+    "de": "Thermosflasche",
+    "de_article": "die",
+    "de_plural": "die Thermosflaschen",
+    "lv": "termoska",
+    "level": "C1"
+  },
+  {
+    "de": "Tierkreiszeichen",
+    "de_article": "das",
+    "de_plural": "die Tierkreiszeichen",
+    "lv": "znamenie zverokruhu",
+    "level": "C1"
+  },
+  {
+    "de": "transportieren",
+    "lv": "prepravovať • transportovať",
+    "level": "C1"
+  },
+  {
+    "de": "Überschwemmung",
+    "de_article": "die",
+    "de_plural": "die Überschwemmungen",
+    "lv": "povodeň • záplava",
+    "level": "C1"
+  },
+  {
+    "de": "Unternehmen",
+    "de_article": "das",
+    "de_plural": "die Unternehmen",
+    "lv": "podnik • počin",
+    "level": "C1"
+  },
+  {
+    "de": "unterstreichen",
+    "lv": "podčiarknuť • zdôrazniť",
+    "level": "C1"
+  },
+  {
+    "de": "unverständlich",
+    "lv": "nezrozumiteľný",
+    "level": "C1"
+  },
+  {
+    "de": "Heiratsurkunde",
+    "de_article": "die",
+    "de_plural": "die Heiratsurkunden",
+    "lv": "sobášny list",
+    "level": "C1"
+  },
+  {
+    "de": "Urteil",
+    "de_article": "das",
+    "de_plural": "die Urteile",
+    "lv": "rozsudok • úsudok",
+    "level": "C1"
+  },
+  {
+    "de": "veranstalten",
+    "lv": "usporiadať • organizovať",
+    "level": "C1"
+  },
+  {
+    "de": "verantworten",
+    "lv": "zodpovedať • niesť zodpovednosť",
+    "level": "C1"
+  },
+  {
+    "de": "Verantwortung",
+    "de_article": "die",
+    "de_plural": "die Verantwortungen",
+    "lv": "zodpovednosť",
+    "level": "C1"
+  },
+  {
+    "de": "Vereinbarung",
+    "de_article": "die",
+    "de_plural": "die Vereinbarungen",
+    "lv": "dohoda",
+    "level": "C1"
+  },
+  {
+    "de": "Vergangenheit",
+    "de_article": "die",
+    "de_plural": "die Vergangenheiten",
+    "lv": "minulosť",
+    "level": "C1"
+  },
+  {
+    "de": "Verkehrsstau",
+    "de_article": "der",
+    "de_plural": "die Verkehrsstaue",
+    "lv": "dopravná zápcha",
+    "level": "C1"
+  },
+  {
+    "de": "Verlegenheit",
+    "de_article": "die",
+    "de_plural": "die Verlegenheiten",
+    "lv": "rozpaky",
+    "level": "C1"
+  },
+  {
+    "de": "verschließen",
+    "lv": "zamknúť • uzavrieť",
+    "level": "C1"
+  },
+  {
+    "de": "verschlucken",
+    "lv": "prehltnúť",
+    "level": "C1"
+  },
+  {
+    "de": "verschwenden",
+    "lv": "mrhať • plytvať",
+    "level": "C1"
+  },
+  {
+    "de": "Versicherung",
+    "de_article": "die",
+    "de_plural": "die Versicherungen",
+    "lv": "poistenie • poisťovňa",
+    "level": "C1"
+  },
+  {
+    "de": "sich verständigen",
+    "lv": "dorozumieť sa",
+    "level": "C1"
+  },
+  {
+    "de": "verständlich",
+    "lv": "zrozumiteľný • pochopiteľný",
+    "level": "C1"
+  },
+  {
+    "de": "Vertrag",
+    "de_article": "der",
+    "de_plural": "die Verträge",
+    "lv": "zmluva",
+    "level": "C1"
+  },
+  {
+    "de": "voll beschäftigt",
+    "lv": "zamestnaný na plný úväzok",
+    "level": "C1"
+  },
+  {
+    "de": "Vorgesetzte",
+    "de_article": "der",
+    "de_plural": "die Vorgesetzten",
+    "lv": "nadriadený",
+    "level": "C1"
+  },
+  {
+    "de": "vorteilhaft",
+    "lv": "výhodný",
+    "level": "C1"
+  },
+  {
+    "de": "Wettbewerb",
+    "de_article": "der",
+    "de_plural": "die Wettbewerbe",
+    "lv": "súťaž • konkurencia",
+    "level": "C1"
+  },
+  {
+    "de": "sich zufrieden geben",
+    "lv": "uspokojiť sa",
+    "level": "C1"
+  },
+  {
+    "de": "zusammenbringen",
+    "lv": "spojiť • dať dokopy",
+    "level": "C1"
+  },
+  {
+    "de": "zusammenfassen",
+    "lv": "zhrnúť",
+    "level": "C1",
+    "study": {
+      "id": "c1-zusammenfassen",
+      "layout": "standardStudy",
+      "translation": "zhrnúť",
+      "explanation": [
+        "Hlavná myšlienka: zusammenfassen znamená stručne zhrnúť to hlavné z textu, prejavu alebo výsledkov; aj spojiť viaceré veci do jedného celku.",
+        "Odlučiteľné sloveso: er fasst zusammen, fasste zusammen, hat zusammengefasst. To, čo sa zhŕňa, je v akuzatíve: einen Text zusammenfassen. Často nasleduje in + datív alebo zu + datív: in einem Satz zusammenfassen. Podstatné meno je die Zusammenfassung.",
+        "Na začiatku vety sa často používa zusammenfassend (zhrnuté, v súhrne): Zusammenfassend lässt sich sagen …"
+      ],
+      "examples": [
+        {
+          "de": "Fasst bitte den Text in drei Sätzen zusammen.",
+          "lv": "Zhrňte, prosím, text do troch viet."
+        },
+        {
+          "de": "Der Redner fasste die Ergebnisse kurz zusammen.",
+          "lv": "Rečník stručne zhrnul výsledky."
+        },
+        {
+          "de": "Wir haben die Vorschläge in einer Liste zusammengefasst.",
+          "lv": "Návrhy sme zhrnuli do zoznamu."
+        },
+        {
+          "de": "Kannst du den Film kurz zusammenfassen?",
+          "lv": "Môžeš stručne zhrnúť obsah filmu?"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "zusammenstellen",
+          "meaning": "zostaviť",
+          "example": "Ich stelle eine Liste zusammen. – Zostavujem zoznam."
+        },
+        {
+          "word": "kürzen",
+          "meaning": "skrátiť",
+          "example": "Wir kürzen den Text. – Skracujeme text."
+        },
+        {
+          "word": "wiederholen",
+          "meaning": "zopakovať",
+          "example": "Wiederhole den Satz. – Zopakuj vetu."
+        }
+      ],
+      "tip": [
+        "Pamätaj na odlučovanie: Ich fasse den Text zusammen, ale vo vedľajšej vete …, weil ich den Text zusammenfasse.",
+        "Po zusammenfassen často nasleduje in einem Satz / in drei Punkten."
+      ],
+      "important": [
+        "Príčastie perfekta je zusammengefasst (s -ge- medzi zusammen a fasst).",
+        "Nezamieňaj so zusammenstellen: to znamená zostaviť, nie stručne prerozprávať."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "zusammenfassen",
+            "zusammenfassend",
+            "fasst zusammen",
+            "fasste zusammen",
+            "zusammengefasst",
+            "Zusammenfassung",
+            "fasste",
+            "fasst"
+          ],
+          "purple": [
+            "zhrnúť",
+            "spojiť"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Fasst"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Zhrňte"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fasste"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "zhrnul"
+              ]
+            }
           },
           {
             "de": {
@@ -1348,62 +1978,81 @@ const C1_WORDS = [
                 "zusammengefasst"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "zhrnuli"
+              ]
+            }
           },
           {
             "de": {
               "blue": [
-                "Zusammenfassend"
+                "zusammenfassen"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "zhrnúť"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "zusammenstellen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "zostaviť"
+              ]
+            }
           },
           {
-            "de": {
+            "word": {
               "green": [
-                "Zusammenfassung"
+                "kürzen"
               ]
             },
-            "lv": {}
+            "meaning": {
+              "purple": [
+                "skrátiť"
+              ]
+            }
           },
           {
-            "de": {
+            "word": {
               "green": [
-                "Zusammenfassung"
+                "wiederholen"
               ]
             },
-            "lv": {}
+            "meaning": {
+              "purple": [
+                "zopakovať"
+              ]
+            }
           }
         ],
         "tip": [
+          {},
           {
             "blue": [
               "zusammenfassen"
-            ]
-          },
-          {
-            "green": [
-              "die Zusammenfassung"
             ]
           }
         ],
         "important": [
           {
             "blue": [
-              "zusammenfassen"
+              "zusammengefasst",
+              "fasst"
             ]
           },
           {
             "green": [
-              "die Zusammenfassung"
-            ]
-          },
-          {
-            "green": [
-              "die"
-            ],
-            "red": [
-              "die zusammenfassen"
+              "zusammenstellen"
             ]
           }
         ]
@@ -1412,1060 +2061,1735 @@ const C1_WORDS = [
   },
   {
     "de": "zusammenhängen",
-    "lv": "Być powiązanym (z)",
+    "lv": "súvisieť",
     "level": "C1"
   },
   {
     "de": "Aufmerksamkeit",
     "de_article": "die",
     "de_plural": "die Aufmerksamkeiten",
-    "lv": "Poznámka",
+    "lv": "pozornosť",
     "level": "C1"
   },
   {
     "de": "Fernsehsendung",
     "de_article": "die",
     "de_plural": "die Fernsehsendungen",
-    "lv": "Program telewizyjny",
+    "lv": "televízna relácia",
     "level": "C1"
   },
   {
     "de": "Landschaft",
     "de_article": "die",
     "de_plural": "die Landschaften",
-    "lv": "Krajobraz",
+    "lv": "krajina",
     "level": "C1"
   },
   {
     "de": "Rechtschreibung",
     "de_article": "die",
     "de_plural": "die Rechtschreibungen",
-    "lv": "Pisownia",
+    "lv": "pravopis",
     "level": "C1"
   },
   {
     "de": "Straßenkreuzung",
     "de_article": "die",
     "de_plural": "die Straßenkreuzungen",
-    "lv": "Skrzyżowanie ulic",
+    "lv": "križovatka",
     "level": "C1"
   },
   {
     "de": "Wahl",
     "de_article": "die",
     "de_plural": "die Wahlen",
-    "lv": "Výber • Výber",
+    "lv": "voľba • voľby",
     "level": "C1",
     "study": {
       "id": "c1-wahl",
       "layout": "standardStudy",
-      "translation": "Výber • Výber",
-      "explanation": "Die Wahl może oznaczać wybór pomiędzy opcjami. W kontekście polityki Wahl oznacza wybory. Może to również oznaczać samo głosowanie. Wyrażenie eine Wahl treffen oznacza dokonać wyboru. zur Wahl gehen oznacza iść do urn. Kontekst polityki lub decyzji osobistej pokazuje właściwe znaczenie.",
+      "translation": "voľba • voľby",
+      "explanation": [
+        "Hlavná myšlienka: die Wahl znamená voľbu, výber (keď sa vyberá z viacerých možností) a voľby (zvolenie ľudí do funkcie).",
+        "Podstatné meno ženského rodu: die Wahl, množné číslo die Wahlen. Vo význame voľby (hlasovanie) sa veľmi často používa množné číslo: die Wahlen finden statt. Vo význame výber býva zvyčajne jednotné číslo: die Wahl haben, keine andere Wahl haben.",
+        "Spojenia: die Wahl treffen (urobiť voľbu, rozhodnúť sa), zur Wahl gehen (ísť voliť), die Wahl gewinnen (vyhrať voľby)."
+      ],
       "examples": [
         {
-          "de": "Du hast die Wahl.",
-          "lv": "Masz wybór."
+          "de": "Du hast die Wahl zwischen Tee und Kaffee.",
+          "lv": "Máš na výber medzi čajom a kávou."
         },
         {
-          "de": "Ich treffe meine Wahl morgen.",
-          "lv": "Jutro dokonam wyboru."
+          "de": "Die Wahlen finden im Herbst statt.",
+          "lv": "Voľby sa konajú na jeseň."
         },
         {
-          "de": "Die Wahl findet am Sonntag statt.",
-          "lv": "Wybory odbywają się w niedzielę."
+          "de": "Er hatte keine andere Wahl.",
+          "lv": "Nemal inú voľbu."
         },
         {
-          "de": "Viele Menschen gehen zur Wahl.",
-          "lv": "Wiele osób idzie do urn."
-        },
-        {
-          "de": "Die freie Wahl ist wichtig.",
-          "lv": "Ważny jest wolny wybór."
-        },
-        {
-          "de": "Bei der Wahl stimmen wir ab.",
-          "lv": "Głosujemy w wyborach."
+          "de": "Die Wahl des Bürgermeisters ist am Sonntag.",
+          "lv": "Voľba starostu je v nedeľu."
         }
-      ]
+      ],
+      "comparison": [
+        {
+          "word": "die Auswahl",
+          "meaning": "výber (ponuka)",
+          "example": "Im Laden gibt es eine große Auswahl. – V obchode je veľký výber."
+        },
+        {
+          "word": "die Entscheidung",
+          "meaning": "rozhodnutie",
+          "example": "Das ist meine Entscheidung. – To je moje rozhodnutie."
+        },
+        {
+          "word": "die Abstimmung",
+          "meaning": "hlasovanie",
+          "example": "Die Abstimmung ist morgen. – Hlasovanie je zajtra."
+        }
+      ],
+      "tip": [
+        "Mysli na kontext: Wahl bez množného čísla je často voľba, výber, die Wahlen — voľby.",
+        "Sloveso k voľbám je wählen (voliť, vybrať si)."
+      ],
+      "important": [
+        "Nezamieňaj die Wahl a die Auswahl: Auswahl je ponuka, z ktorej sa vyberá."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "die Wahl",
+            "die Wahlen",
+            "Wahlen",
+            "Wahl",
+            "zur Wahl gehen",
+            "die Wahl treffen"
+          ],
+          "purple": [
+            "voľbu",
+            "voľby"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Wahl"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "výber"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Wahlen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Voľby"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Wahl"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "voľbu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Wahl"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Voľba"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "die Auswahl"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ponuka"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Entscheidung"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "rozhodnutie"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Abstimmung"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "hlasovanie"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "Wahl",
+              "die Wahlen",
+              "Wahlen"
+            ]
+          },
+          {}
+        ],
+        "important": [
+          {
+            "blue": [
+              "Wahl",
+              "die Wahl"
+            ],
+            "green": [
+              "die Auswahl",
+              "Auswahl"
+            ]
+          }
+        ]
+      }
     }
   },
   {
     "de": "Herausforderung",
     "de_article": "die",
     "de_plural": "die Herausforderungen",
-    "lv": "Wyzwanie",
+    "lv": "výzva",
     "level": "C1"
   },
   {
     "de": "Abfallbeseitigung",
     "de_article": "die",
     "de_plural": "die Abfallbeseitigungen",
-    "lv": "Utylizacja odpadów",
+    "lv": "likvidácia odpadu • odstraňovanie odpadu",
     "level": "C1"
   },
   {
     "de": "Abgeordnete",
     "de_article": "der",
     "de_plural": "die Abgeordneten",
-    "lv": "Zastępca • Przedstawiciel • Delegat",
+    "lv": "poslanec • zástupca • delegát",
     "level": "C1"
   },
   {
     "de": "Abkommen",
     "de_article": "das",
     "de_plural": "die Abkommen",
-    "lv": "Umowa • Umowa",
+    "lv": "dohoda",
     "level": "C1"
   },
   {
     "de": "Abschleppdienst",
     "de_article": "der",
     "de_plural": "die Abschleppdienste",
-    "lv": "Evakuačná služba • Sťahovacia služba",
+    "lv": "odťahová služba",
     "level": "C1"
   },
   {
     "de": "Abteilungsleiter",
     "de_article": "der",
     "de_plural": "die Abteilungsleiter",
-    "lv": "Szef działu",
+    "lv": "vedúci oddelenia",
     "level": "C1"
   },
   {
     "de": "antifaschistisch",
-    "lv": "Antyfaszysta",
+    "lv": "antifašistický",
     "level": "C1"
   },
   {
     "de": "Aufenthaltsdauer",
     "de_article": "die",
     "de_plural": "die Aufenthaltsdauern",
-    "lv": "Długość pobytu",
+    "lv": "dĺžka pobytu",
     "level": "C1"
   },
   {
     "de": "augenscheinlich",
-    "lv": "Najwyraźniej",
+    "lv": "zjavne • zrejme",
     "level": "C1"
   },
   {
     "de": "Güteraustausch",
     "de_article": "der",
     "de_plural": "die Güteraustausche",
-    "lv": "Wymiana towarów",
+    "lv": "výmena tovaru",
     "level": "C1"
   },
   {
     "de": "Flottenbasis",
     "de_article": "die",
     "de_plural": "die Flottenbasen",
-    "lv": "Baza morska",
+    "lv": "námorná základňa",
     "level": "C1"
   },
   {
     "de": "Basisforschung",
     "de_article": "die",
     "de_plural": "die Basisforschungen",
-    "lv": "Badania podstawowe",
+    "lv": "základný výskum",
     "level": "C1"
   },
   {
     "de": "beachtenswert",
-    "lv": "Godny uwagi • Znaczny",
+    "lv": "pozoruhodný • hodný pozornosti",
     "level": "C1"
   },
   {
     "de": "beanspruchen",
-    "lv": "Wymagać • Domagać się • Być obciążony",
+    "lv": "vyžadovať • nárokovať si • zaťažovať",
     "level": "C1"
   },
   {
     "de": "Bedarfsartikel",
     "de_article": "der",
     "de_plural": "die Bedarfsartikel",
-    "lv": "Dobra konsumpcyjne",
+    "lv": "spotrebný tovar",
     "level": "C1"
   },
   {
     "de": "bedingungslos",
-    "lv": "Bezwarunkowy • Bezwarunkowy • Bez zastrzeżeń • Bez warunków",
+    "lv": "bezpodmienečný",
     "level": "C1"
   },
   {
     "de": "Befangenheit",
     "de_article": "die",
     "de_plural": "die Befangenheiten",
-    "lv": "Zakłopotanie • Zakłopotanie",
-    "level": "C1"
+    "lv": "rozpaky • ostych",
+    "level": "C1",
+    "study": {
+      "id": "c1-befangenheit",
+      "layout": "standardStudy",
+      "translation": "rozpaky • ostych",
+      "explanation": [
+        "Hlavná myšlienka: die Befangenheit sú rozpaky alebo ostýchavá neistota, ktorá vzniká v neznámej situácii alebo pred inými ľuďmi. V právnom zmysle znamená aj zaujatosť, napríklad predpojatosť sudcu alebo znalca.",
+        "Podstatné meno ženského rodu: die Befangenheit, množné číslo zvyčajne nemá. Prídavné meno je befangen (v rozpakoch, zaujatý).",
+        "Na súde výraz Besorgnis der Befangenheit označuje pochybnosti o nestrannosti sudcu; z toho pochádza Befangenheitsantrag (návrh na vylúčenie sudcu pre zaujatosť)."
+      ],
+      "examples": [
+        {
+          "de": "Seine Befangenheit war deutlich zu spüren.",
+          "lv": "Jeho rozpaky bolo zreteľne cítiť."
+        },
+        {
+          "de": "Sie sprach ohne jede Befangenheit vor der Gruppe.",
+          "lv": "Hovorila pred skupinou bez najmenšieho ostychu."
+        },
+        {
+          "de": "Vor Fremden hatte das Kind eine gewisse Befangenheit.",
+          "lv": "Pred cudzími ľuďmi malo dieťa istý ostych."
+        },
+        {
+          "de": "Der Anwalt stellte einen Antrag wegen Befangenheit des Richters.",
+          "lv": "Advokát podal návrh pre zaujatosť sudcu."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "die Verlegenheit",
+          "meaning": "rozpaky",
+          "example": "Er lachte aus Verlegenheit. – Smial sa z rozpakov."
+        },
+        {
+          "word": "die Voreingenommenheit",
+          "meaning": "predpojatosť",
+          "example": "Ihre Voreingenommenheit stört mich. – Jej predpojatosť mi prekáža."
+        },
+        {
+          "word": "die Schüchternheit",
+          "meaning": "hanblivosť",
+          "example": "Seine Schüchternheit verschwand. – Jeho hanblivosť zmizla."
+        }
+      ],
+      "tip": [
+        "Ak sa na súde hovorí o Befangenheit, význam je zaujatosť, nie rozpaky.",
+        "Vo význame rozpaky je slovo knižné; v bežnej reči sa častejšie hovorí verlegen sein."
+      ],
+      "important": [
+        "Opakom je Unbefangenheit (nenútenosť, bezprostrednosť) alebo Objektivität (objektivita)."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "die Befangenheit",
+            "Befangenheit",
+            "befangen",
+            "Befangenheitsantrag"
+          ],
+          "purple": [
+            "rozpaky",
+            "zaujatosť"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Befangenheit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "rozpaky"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Befangenheit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ostychu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Befangenheit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ostych"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Befangenheit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "zaujatosť"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "die Verlegenheit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "rozpaky"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Voreingenommenheit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "predpojatosť"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Schüchternheit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "hanblivosť"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "Befangenheit"
+            ]
+          },
+          {}
+        ],
+        "important": [
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "beglaubigen",
-    "lv": "Oficjalnie poświadczyć • Notarialnie",
+    "lv": "overiť • osvedčiť",
     "level": "C1"
   },
   {
     "de": "beglückwünschen",
-    "lv": "Życzyć szczęścia • Pogratulować",
+    "lv": "blahoželať • gratulovať",
     "level": "C1"
   },
   {
     "de": "beiderseitig",
-    "lv": "Dwustronny • Dwustronny",
+    "lv": "obojstranný • vzájomný",
     "level": "C1"
   },
   {
     "de": "Familienbeihilfe",
     "de_article": "die",
     "de_plural": "die Familienbeihilfen",
-    "lv": "Zasiłek rodzinny",
+    "lv": "rodinné prídavky",
     "level": "C1"
   },
   {
     "de": "beispielhaft",
-    "lv": "Wzorowy • Wzorowy",
+    "lv": "príkladný • vzorový",
     "level": "C1"
   },
   {
     "de": "beklagen",
-    "lv": "Żałować • Smucić się • Opłakiwać • Lamentować • Narzekać",
+    "lv": "oplakávať • ľutovať • sťažovať sa",
     "level": "C1"
   },
   {
     "de": "Zahnbelag",
     "de_article": "der",
     "de_plural": "die Zahnbeläge",
-    "lv": "Płytka nazębna",
+    "lv": "zubný povlak",
     "level": "C1"
   },
   {
     "de": "Belegschaft",
     "de_article": "die",
     "de_plural": "die Belegschaften",
-    "lv": "Zbiorowy • Personel",
+    "lv": "osadenstvo • personál",
     "level": "C1"
   },
   {
     "de": "benachteiligen",
-    "lv": "Wyrządzić krzywdę • Wyrządzić szkodę • Wyrządzić krzywdę",
+    "lv": "znevýhodniť • diskriminovať • poškodiť",
     "level": "C1"
   },
   {
     "de": "Berufsberater",
     "de_article": "der",
     "de_plural": "die Berufsberater",
-    "lv": "Konsultant ds. zatrudnienia",
+    "lv": "kariérny poradca",
     "level": "C1"
   },
   {
     "de": "beratschlagen",
-    "lv": "Omówić",
+    "lv": "radiť sa • poradiť sa",
     "level": "C1"
   },
   {
     "de": "Einflussbereich",
     "de_article": "der",
     "de_plural": "die Einflussbereiche",
-    "lv": "Sfera wpływów",
+    "lv": "sféra vplyvu",
     "level": "C1"
   },
   {
     "de": "bereitwillig",
-    "lv": "Gotowy służyć • Uczynny",
+    "lv": "ochotný • úslužný",
     "level": "C1"
   },
   {
     "de": "Berufsberatung",
     "de_article": "die",
     "de_plural": "die Berufsberatungen",
-    "lv": "Konsultacje orientacji zawodowej",
+    "lv": "kariérne poradenstvo",
     "level": "C1"
   },
   {
     "de": "Berufsgeheimnis",
     "de_article": "das",
     "de_plural": "die Berufsgeheimnisse",
-    "lv": "Tajemnica urzędowa",
+    "lv": "profesijné tajomstvo • služobné tajomstvo",
     "level": "C1"
   },
   {
     "de": "Berufung",
     "de_article": "die",
     "de_plural": "die Berufungen",
-    "lv": "Powołanie • Skłonność • Atrakcyjność",
-    "level": "C1"
+    "lv": "poslanie • vymenovanie • odvolanie",
+    "level": "C1",
+    "study": {
+      "id": "c1-berufung",
+      "layout": "standardStudy",
+      "translation": "poslanie • vymenovanie • odvolanie",
+      "explanation": [
+        "Hlavná myšlienka: die Berufung je slovo s viacerými významami. Poslanie (vnútorné povolanie k profesii), vymenovanie do funkcie (najmä na vysokej škole), odvolávanie sa na niečo (unter Berufung auf) a v práve odvolanie (Berufung einlegen).",
+        "Podstatné meno ženského rodu: die Berufung, množné číslo die Berufungen. Príslušné sloveso je berufen, odvolávanie sa na niečo sa však vyjadruje pomocou sich berufen auf + akuzatív.",
+        "Význam zvyčajne určuje spojenie: Berufung einlegen — podať odvolanie; unter Berufung auf — s odvolaním na."
+      ],
+      "examples": [
+        {
+          "de": "Sie spürt die Berufung zur Ärztin.",
+          "lv": "Cíti v sebe povolanie stať sa lekárkou."
+        },
+        {
+          "de": "Die Anwältin legte gegen das Urteil Berufung ein.",
+          "lv": "Advokátka podala proti rozsudku odvolanie."
+        },
+        {
+          "de": "Er lehnte die Fragen unter Berufung auf das Datenschutzgesetz ab.",
+          "lv": "Odmietol otázky s odvolaním na zákon o ochrane údajov."
+        },
+        {
+          "de": "Seine Berufung an die Universität kam überraschend.",
+          "lv": "Jeho vymenovanie na univerzitu prišlo nečakane."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "der Beruf",
+          "meaning": "povolanie, profesia",
+          "example": "Mein Beruf ist Lehrer. – Povolaním som učiteľ."
+        },
+        {
+          "word": "der Einspruch",
+          "meaning": "námietka",
+          "example": "Er legte Einspruch ein. – Podal námietku."
+        },
+        {
+          "word": "die Revision",
+          "meaning": "dovolanie",
+          "example": "Die Revision wurde abgelehnt. – Dovolanie bolo zamietnuté."
+        }
+      ],
+      "tip": [
+        "Zapamätaj si dve ustálené spojenia: Berufung einlegen (odvolať sa) a unter Berufung auf (s odvolaním na).",
+        "Der Beruf (povolanie, profesia) a die Berufung (poslanie) sú príbuzné, ale znamenajú rôzne veci."
+      ],
+      "important": [
+        "Odvolanie v nemeckom právnom systéme (Berufung) nie je to isté ako Revision, ktorá preskúmava iba uplatnenie práva."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Berufung",
+            "Berufungen"
+          ],
+          "purple": [
+            "Poslanie",
+            "povolanie",
+            "vymenovanie",
+            "odvolanie",
+            "odvolávanie"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Berufung"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "povolanie"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Berufung"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "odvolanie"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Berufung"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "odvolaním"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Berufung"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vymenovanie"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "der Beruf"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "profesia"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Einspruch"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "námietka"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Revision"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "dovolanie"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "Berufung"
+            ]
+          },
+          {
+            "blue": [
+              "Berufung"
+            ],
+            "green": [
+              "der Beruf",
+              "Beruf"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "Berufung"
+            ],
+            "green": [
+              "Revision"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Besatzungsmacht",
     "de_article": "die",
     "de_plural": "die Besatzungsmächte",
-    "lv": "Władza okupacyjna",
+    "lv": "okupačná mocnosť",
     "level": "C1"
   },
   {
     "de": "Beschaffenheit",
     "de_article": "die",
     "de_plural": "die Beschaffenheiten",
-    "lv": "Jakość • Natura • Esencja",
+    "lv": "povaha • vlastnosť",
     "level": "C1"
   },
   {
     "de": "bescheinigen",
-    "lv": "Certyfikować • Wydać certyfikat",
+    "lv": "potvrdiť • osvedčiť",
     "level": "C1"
   },
   {
     "de": "Bescheinigung",
     "de_article": "die",
     "de_plural": "die Bescheinigungen",
-    "lv": "Referencja • Certyfikat • Atest • Atest",
+    "lv": "potvrdenie • osvedčenie",
     "level": "C1"
   },
   {
     "de": "beschlagnahmen",
-    "lv": "Przejąć • Skonfiskować • Wywłaszczyć",
+    "lv": "zhabať • skonfiškovať",
     "level": "C1"
   },
   {
     "de": "beschuldigen",
-    "lv": "Oskarżać • Obrazić",
+    "lv": "obviniť",
     "level": "C1"
   },
   {
     "de": "Besonderheit",
     "de_article": "die",
     "de_plural": "die Besonderheiten",
-    "lv": "Osobliwość • Dziwność",
+    "lv": "zvláštnosť • osobitosť",
     "level": "C1"
   },
   {
     "de": "beträchtlich",
-    "lv": "Významné • Pomerne veľké • Významné",
+    "lv": "značný • podstatný",
     "level": "C1"
   },
   {
     "de": "Betriebskosten",
     "de_article": "die",
-    "lv": "Koszty operacyjne firmy • Koszty produkcji",
+    "lv": "prevádzkové náklady • výrobné náklady",
     "level": "C1"
   },
   {
     "de": "Betriebssystem",
     "de_article": "das",
     "de_plural": "die Betriebssysteme",
-    "lv": "System instalacji komputera",
+    "lv": "operačný systém",
     "level": "C1"
   },
   {
     "de": "bevollmächtigen",
-    "lv": "Upoważnić • Nadać organowi uprawnienia",
+    "lv": "splnomocniť",
     "level": "C1"
   },
   {
     "de": "bevorstehend",
-    "lv": "Nadchodzące • Następne",
+    "lv": "nadchádzajúci • blížiaci sa",
     "level": "C1"
   },
   {
     "de": "bewähren, sich",
-    "lv": "Okazać się prawdą • Uzasadnij",
+    "lv": "osvedčiť sa",
     "level": "C1"
   },
   {
     "de": "Beweismaterial",
     "de_article": "das",
     "de_plural": "die Beweismaterialien",
-    "lv": "Dowód fizyczny",
+    "lv": "dôkazový materiál • dôkazy",
     "level": "C1"
   },
   {
     "de": "bewerben, sich",
-    "lv": "Použitie • Run • Strive • Aspire",
+    "lv": "uchádzať sa • kandidovať",
     "level": "C1"
   },
   {
     "de": "Bezugsperson",
     "de_article": "die",
     "de_plural": "die Bezugspersonen",
-    "lv": "Kontakt • Najbliższa osoba",
+    "lv": "blízka osoba • kontaktná osoba",
     "level": "C1"
   },
   {
     "de": "Bildhauerkunst",
     "de_article": "die",
-    "lv": "Rzeźba",
+    "lv": "sochárstvo",
     "level": "C1"
   },
   {
     "de": "Bilanz",
     "de_article": "die",
     "de_plural": "die Bilanzen",
-    "lv": "Balansować",
+    "lv": "bilancia • súvaha",
     "level": "C1"
   },
   {
     "de": "Finanzblockade",
     "de_article": "die",
     "de_plural": "die Finanzblockaden",
-    "lv": "Blokada finansowa",
+    "lv": "finančná blokáda",
     "level": "C1"
   },
   {
     "de": "Blutuntersuchung",
     "de_article": "die",
     "de_plural": "die Blutuntersuchungen",
-    "lv": "Analiza krwi",
+    "lv": "krvný test • vyšetrenie krvi",
     "level": "C1"
   },
   {
     "de": "Blutsverwandte",
     "de_article": "der",
     "de_plural": "die Blutsverwandten",
-    "lv": "Krewny",
+    "lv": "pokrvný príbuzný",
     "level": "C1"
   },
   {
     "de": "Botschafter",
     "de_article": "der",
     "de_plural": "die Botschafter",
-    "lv": "Ambasador",
+    "lv": "veľvyslanec",
     "level": "C1"
   },
   {
     "de": "Bundesdeutsche",
     "de_article": "der",
     "de_plural": "die Bundesdeutschen",
-    "lv": "Obywatel FFR",
+    "lv": "občan Spolkovej republiky Nemecko",
     "level": "C1"
   },
   {
     "de": "Computersprache",
     "de_article": "die",
     "de_plural": "die Computersprachen",
-    "lv": "Jazyk počítača",
+    "lv": "počítačový jazyk • programovací jazyk",
     "level": "C1"
   },
   {
     "de": "Dachgepäckträger",
     "de_article": "der",
     "de_plural": "die Dachgepäckträger",
-    "lv": "Bagażnik dachowy samochodu",
+    "lv": "strešný nosič",
     "level": "C1"
   },
   {
     "de": "Datenübermittlung",
     "de_article": "die",
     "de_plural": "die Datenübermittlungen",
-    "lv": "Transmisja danych",
+    "lv": "prenos údajov",
     "level": "C1"
   },
   {
     "de": "Datenübertragung",
     "de_article": "die",
     "de_plural": "die Datenübertragungen",
-    "lv": "Transmisja danych",
+    "lv": "prenos dát • prenos údajov",
     "level": "C1"
   },
   {
     "de": "dauerhaft",
-    "lv": "Trwały • Długi • Trwały",
+    "lv": "trvalý • trváci • odolný",
     "level": "C1"
   },
   {
     "de": "dazwischenkommen",
-    "lv": "Wydarzyć się • Wydarzyć się pomiędzy • Interweniować",
+    "lv": "vyskytnúť sa • prihodiť sa • zasiahnuť",
     "level": "C1"
   },
   {
     "de": "Haushaltsdefizit",
     "de_article": "das",
     "de_plural": "die Haushaltsdefizite",
-    "lv": "Deficyt budżetowy",
+    "lv": "rozpočtový deficit • schodok rozpočtu",
     "level": "C1"
   },
   {
     "de": "Zolldeklaration",
     "de_article": "die",
     "de_plural": "die Zolldeklarationen",
-    "lv": "Zgłoszenie celne",
+    "lv": "colné vyhlásenie • colná deklarácia",
     "level": "C1"
   },
   {
     "de": "Delegation",
     "de_article": "die",
     "de_plural": "die Delegationen",
-    "lv": "Delegacja",
+    "lv": "delegácia",
     "level": "C1"
   },
   {
     "de": "Eigentumsdelikt",
     "de_article": "das",
     "de_plural": "die Eigentumsdelikte",
-    "lv": "Naruszenie praw własności",
+    "lv": "majetkový trestný čin",
     "level": "C1"
   },
   {
     "de": "Verkehrsdelikt",
     "de_article": "das",
     "de_plural": "die Verkehrsdelikte",
-    "lv": "Naruszenie przepisów ruchu drogowego",
+    "lv": "dopravný priestupok",
     "level": "C1"
   },
   {
     "de": "dementsprechend",
-    "lv": "Odpowiednio",
+    "lv": "zodpovedajúco • podľa toho",
     "level": "C1"
   },
   {
     "de": "dessen ungeachtet",
-    "lv": "Pomimo tego • Pomimo tego",
+    "lv": "napriek tomu • bez ohľadu na to",
     "level": "C1"
   },
   {
     "de": "Nachrichtendienst",
     "de_article": "der",
     "de_plural": "die Nachrichtendienste",
-    "lv": "Tajna służba państwowa",
+    "lv": "spravodajská služba • tajná služba",
     "level": "C1"
   },
   {
     "de": "Rettungsdienst",
     "de_article": "der",
     "de_plural": "die Rettungsdienste",
-    "lv": "Záchranná služba",
+    "lv": "záchranná služba",
     "level": "C1"
   },
   {
     "de": "Dienstleistung",
     "de_article": "die",
     "de_plural": "die Dienstleistungen",
-    "lv": "Służba domowa",
+    "lv": "služba",
     "level": "C1"
   },
   {
     "de": "dienstpflichtig",
-    "lv": "Oddany do służby wojskowej",
+    "lv": "podliehajúci brannej povinnosti",
     "level": "C1"
   },
   {
     "de": "diensttauglich",
-    "lv": "Nadający się do służby wojskowej",
+    "lv": "spôsobilý na vojenskú službu",
     "level": "C1"
   },
   {
     "de": "Dieseltreibstoff",
     "de_article": "der",
     "de_plural": "die Dieseltreibstoffe",
-    "lv": "Olej napędowy",
+    "lv": "motorová nafta • nafta",
     "level": "C1"
   },
   {
     "de": "Diplomatie",
     "de_article": "die",
-    "lv": "Dyplomacja",
+    "lv": "diplomacia",
     "level": "C1"
   },
   {
     "de": "diplomatisch",
-    "lv": "Dyplomatyczny",
+    "lv": "diplomatický",
     "level": "C1"
   },
   {
     "de": "Dirigentenstab",
     "de_article": "der",
     "de_plural": "die Dirigentenstäbe",
-    "lv": "Batuta dyrygenta",
+    "lv": "taktovka",
     "level": "C1"
   },
   {
     "de": "Diskettenlaufwerk",
     "de_article": "das",
     "de_plural": "die Diskettenlaufwerke",
-    "lv": "Stacja dyskietek",
+    "lv": "disketová mechanika",
     "level": "C1"
   },
   {
     "de": "disqualifizieren",
-    "lv": "Zdyskwalifikować",
+    "lv": "diskvalifikovať",
     "level": "C1"
   },
   {
     "de": "Durchfuhrverbot",
     "de_article": "das",
     "de_plural": "die Durchfuhrverbote",
-    "lv": "Zakaz przejazdu",
+    "lv": "zákaz tranzitu",
     "level": "C1"
   },
   {
     "de": "Durchgangsverkehr",
     "de_article": "der",
-    "lv": "Ruch tranzytowy",
+    "lv": "tranzitná doprava",
     "level": "C1"
   },
   {
     "de": "ehrenhaft",
-    "lv": "Uczciwy • Honorowy • Szanowany",
+    "lv": "čestný • ctihodný • úctyhodný",
     "level": "C1"
   },
   {
     "de": "Einflusssphäre",
     "de_article": "die",
     "de_plural": "die Einflusssphären",
-    "lv": "Sfera wpływów",
+    "lv": "sféra vplyvu",
     "level": "C1"
   },
   {
     "de": "eingeschrieben",
-    "lv": "Zarejestrowany • Zarejestrowany",
+    "lv": "zapísaný • registrovaný",
     "level": "C1"
   },
   {
     "de": "Währungseinheit",
     "de_article": "die",
     "de_plural": "die Währungseinheiten",
-    "lv": "Jednostka pieniężna",
+    "lv": "menová jednotka",
     "level": "C1"
   },
   {
     "de": "Einkommensteuer",
     "de_article": "die",
     "de_plural": "die Einkommensteuern",
-    "lv": "Podatek dochodowy",
+    "lv": "daň z príjmu",
     "level": "C1"
   },
   {
     "de": "Einlage",
     "de_article": "die",
     "de_plural": "die Einlagen",
-    "lv": "Wkład • Depozyt • Załącznik do pisma",
+    "lv": "vklad • príloha",
     "level": "C1"
   },
   {
     "de": "einreden",
-    "lv": "Powiedz • Nalegaj • Spróbuj przekonać",
+    "lv": "nahovoriť • vsugerovať • presviedčať",
     "level": "C1"
   },
   {
     "de": "sich einschmeicheln",
-    "lv": "Schlebiać • Schlebiać",
+    "lv": "vtierať sa • zaliečať sa",
     "level": "C1"
   },
   {
     "de": "Einschreibebrief",
     "de_article": "der",
     "de_plural": "die Einschreibebriefe",
-    "lv": "List polecony",
+    "lv": "doporučený list",
     "level": "C1"
   },
   {
     "de": "Einspruchsrecht",
     "de_article": "das",
     "de_plural": "die Einspruchsrechte",
-    "lv": "Prawo do protestu • Prawo weta",
+    "lv": "právo veta • právo námietky",
     "level": "C1"
   },
   {
     "de": "Einstandsgebühr",
     "de_article": "die",
     "de_plural": "die Einstandsgebühren",
-    "lv": "Opłata za wstęp",
+    "lv": "vstupný poplatok • zápisné",
     "level": "C1"
   },
   {
     "de": "Einverständnis",
     "de_article": "das",
     "de_plural": "die Einverständnisse",
-    "lv": "Zrozumienie • Konsensus • Zgoda",
+    "lv": "súhlas • zhoda • porozumenie",
     "level": "C1"
   },
   {
     "de": "Eisenbahnunglück",
     "de_article": "das",
     "de_plural": "die Eisenbahnunglücke",
-    "lv": "Katastrofa kolejowa",
+    "lv": "železničné nešťastie",
     "level": "C1"
   },
   {
     "de": "Eisenbahnverkehr",
     "de_article": "der",
     "de_plural": "die Eisenbahnverkehre",
-    "lv": "Ruch kolejowy",
+    "lv": "železničná doprava",
     "level": "C1"
   },
   {
     "de": "Elektrizitätswerk",
     "de_article": "das",
     "de_plural": "die Elektrizitätswerke",
-    "lv": "Elektrownia",
+    "lv": "elektráreň",
     "level": "C1"
   },
   {
     "de": "Elementarbegriff",
     "de_article": "der",
     "de_plural": "die Elementarbegriffe",
-    "lv": "Podstawowa koncepcja",
+    "lv": "základný pojem",
     "level": "C1"
   },
   {
     "de": "Elementarregel",
     "de_article": "die",
     "de_plural": "die Elementarregeln",
-    "lv": "Prawo podstawowe",
+    "lv": "základné pravidlo",
     "level": "C1"
   },
   {
     "de": "Energieerzeugung",
     "de_article": "die",
     "de_plural": "die Energieerzeugungen",
-    "lv": "Produkcja energii",
+    "lv": "výroba energie",
     "level": "C1"
   },
   {
     "de": "Energieversorgung",
     "de_article": "die",
     "de_plural": "die Energieversorgungen",
-    "lv": "Zaopatrzenie w energię",
+    "lv": "zásobovanie energiou",
     "level": "C1"
   },
   {
     "de": "entgegensetzen",
-    "lv": "Przeciwny • Przeciwny",
+    "lv": "postaviť proti • oponovať",
     "level": "C1"
   },
   {
     "de": "sich entgegensetzen",
-    "lv": "Oprzeć się",
+    "lv": "vzoprieť sa • postaviť sa proti",
     "level": "C1"
   },
   {
     "de": "entschädigen",
-    "lv": "Kompensować • Kompensować",
+    "lv": "odškodniť • kompenzovať",
     "level": "C1"
   },
   {
     "de": "sich entschließen",
-    "lv": "Zdecydować • Zdecydować",
+    "lv": "rozhodnúť sa • odhodlať sa",
     "level": "C1"
   },
   {
     "de": "entschlossen",
-    "lv": "Zdeterminowany • Zdeterminowany • Niezachwiany",
+    "lv": "rozhodný • odhodlaný",
     "level": "C1"
   },
   {
     "de": "entschlüsseln",
-    "lv": "Odszyfrować",
+    "lv": "rozlúštiť • dešifrovať",
     "level": "C1"
   },
   {
     "de": "Gesetzentwurf",
     "de_article": "der",
     "de_plural": "die Gesetzentwürfe",
-    "lv": "Rachunek",
+    "lv": "návrh zákona",
     "level": "C1"
   },
   {
     "de": "Entziehungskur",
     "de_article": "die",
     "de_plural": "die Entziehungskuren",
-    "lv": "Kurs terapeutyczny dla alkoholików i narkomanów",
+    "lv": "odvykacia liečba",
     "level": "C1"
   },
   {
     "de": "Erbkrankheit",
     "de_article": "die",
     "de_plural": "die Erbkrankheiten",
-    "lv": "Choroba wrodzona",
+    "lv": "dedičná choroba",
     "level": "C1"
   },
   {
     "de": "Kriegserklärung",
     "de_article": "die",
     "de_plural": "die Kriegserklärungen",
-    "lv": "Wypowiedzenie wojny",
+    "lv": "vyhlásenie vojny",
     "level": "C1"
   },
   {
     "de": "Erntearbeiten",
     "de_article": "die",
-    "lv": "Operacje żniwne",
+    "lv": "žatevné práce",
     "level": "C1"
   },
   {
     "de": "Ersatzspieler",
     "de_article": "der",
     "de_plural": "die Ersatzspieler",
-    "lv": "Zawodnik rezerwowy • Zawodnik rezerwowy",
+    "lv": "náhradník",
     "level": "C1"
   },
   {
     "de": "Erstaufführung",
     "de_article": "die",
     "de_plural": "die Erstaufführungen",
-    "lv": "Premiera • Premiera",
+    "lv": "premiéra",
     "level": "C1"
   },
   {
     "de": "festgesetzt",
-    "lv": "Ustalone • Warunkowe • Ustalone",
-    "level": "C1"
+    "lv": "stanovený • určený",
+    "level": "C1",
+    "study": {
+      "id": "c1-festgesetzt",
+      "layout": "standardStudy",
+      "translation": "stanovený • určený",
+      "explanation": [
+        "Hlavná myšlienka: festgesetzt je príčastie od festsetzen a znamená úradne stanovený, určený (termín, cena, trest). Opisuje niečo, čo bolo stanovené ako záväzné.",
+        "Odlučiteľné sloveso: er setzt fest, setzte fest, hat festgesetzt. Ako prídavné meno sa skloňuje: der festgesetzte Termin, die festgesetzte Frist. V trpnom rode: wurde festgesetzt.",
+        "V práve môže festsetzen znamenať aj zadržať človeka: Die Täter wurden festgesetzt."
+      ],
+      "examples": [
+        {
+          "de": "Der Termin ist auf den 5. Mai festgesetzt.",
+          "lv": "Termín je stanovený na 5. mája."
+        },
+        {
+          "de": "Die Preise wurden vom Staat festgesetzt.",
+          "lv": "Ceny stanovil štát."
+        },
+        {
+          "de": "Die Strafe wurde auf zwei Jahre festgesetzt.",
+          "lv": "Trest bol stanovený na dva roky."
+        },
+        {
+          "de": "Die festgesetzte Frist läuft morgen ab.",
+          "lv": "Stanovená lehota uplynie zajtra."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "festgelegt",
+          "meaning": "určený, pevne daný",
+          "example": "Der Plan ist festgelegt. – Plán je pevne daný."
+        },
+        {
+          "word": "beschlossen",
+          "meaning": "rozhodnutý, schválený",
+          "example": "Das wurde beschlossen. – Bolo to rozhodnuté."
+        },
+        {
+          "word": "bestimmt",
+          "meaning": "určený, vyhradený",
+          "example": "Der Ort ist bestimmt. – Miesto je určené."
+        }
+      ],
+      "tip": [
+        "Často sa používa s Frist, Termin, Preis, Strafe, Höhe: auf einen Betrag festgesetzt.",
+        "V hovorovej reči sa častejšie hovorí festgelegt; festgesetzt znie úradnejšie."
+      ],
+      "important": [
+        "Všímaj si význam: festgesetzt znamená zadržaný iba v policajnom alebo súdnom kontexte."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "festgesetzt",
+            "festsetzen",
+            "setzt fest",
+            "setzte fest",
+            "festgesetzte",
+            "hat festgesetzt"
+          ],
+          "purple": [
+            "stanovený",
+            "zadržať"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "festgesetzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "stanovený"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "festgesetzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "stanovil"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "festgesetzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "stanovený"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "festgesetzte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Stanovená"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "festgelegt"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "určený"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "beschlossen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "rozhodnutý"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "bestimmt"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "vyhradený"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "festgesetzt"
+            ]
+          },
+          {
+            "blue": [
+              "festgesetzt"
+            ],
+            "green": [
+              "festgelegt"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "festgesetzt"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "feuergefährlich",
-    "lv": "Ogniotrwały",
+    "lv": "horľavý",
     "level": "C1"
   },
   {
     "de": "Feuerversicherung",
     "de_article": "die",
     "de_plural": "die Feuerversicherungen",
-    "lv": "Ubezpieczenie od ognia",
+    "lv": "poistenie proti požiaru",
     "level": "C1"
   },
   {
     "de": "Feuerwerkskörper",
     "de_article": "der",
     "de_plural": "die Feuerwerkskörper",
-    "lv": "Rakieta do fajerwerków",
+    "lv": "petarda • pyrotechnický výrobok",
     "level": "C1"
   },
   {
     "de": "Fleckenentferner",
     "de_article": "der",
     "de_plural": "die Fleckenentferner",
-    "lv": "Odplamiacz",
+    "lv": "odstraňovač škvŕn",
     "level": "C1"
   },
   {
     "de": "Flüchtlingslager",
     "de_article": "das",
     "de_plural": "die Flüchtlingslager",
-    "lv": "Obóz dla uchodźców",
+    "lv": "utečenecký tábor",
     "level": "C1"
   },
   {
     "de": "Fortbildungskurse",
     "de_article": "die",
-    "lv": "Kursy doskonalenia zawodowego",
+    "lv": "kurzy ďalšieho vzdelávania",
     "level": "C1"
   },
   {
     "de": "fortgeschritten",
-    "lv": "Stosunkowo późno w rozwoju",
+    "lv": "pokročilý",
     "level": "C1"
   },
   {
     "de": "fortschrittlich",
-    "lv": "Progresywny",
+    "lv": "pokrokový • progresívny",
     "level": "C1"
   },
   {
     "de": "Freilichtmuseum",
     "de_article": "das",
     "de_plural": "die Freilichtmuseen",
-    "lv": "Skansen",
+    "lv": "skanzen • múzeum v prírode",
     "level": "C1"
   },
   {
     "de": "Friedensangebot",
     "de_article": "das",
     "de_plural": "die Friedensangebote",
-    "lv": "Ofiarę pokojową",
+    "lv": "mierová ponuka",
     "level": "C1"
   },
   {
     "de": "Friedensvertrag",
     "de_article": "der",
     "de_plural": "die Friedensverträge",
-    "lv": "Traktat pokojowy",
+    "lv": "mierová zmluva",
     "level": "C1"
   },
   {
     "de": "Friedenspolitik",
     "de_article": "die",
     "de_plural": "die Friedenspolitiken",
-    "lv": "Polityka pokojowa",
+    "lv": "mierová politika",
     "level": "C1"
   },
   {
     "de": "Fuhrunternehmen",
     "de_article": "das",
     "de_plural": "die Fuhrunternehmen",
-    "lv": "Firma zajmująca się transportem towarowym",
+    "lv": "dopravná spoločnosť • prepravca",
     "level": "C1"
   },
   {
     "de": "soziale Fürsorge",
     "de_article": "die",
-    "lv": "Zabezpieczenie społeczne",
+    "lv": "sociálna starostlivosť",
     "level": "C1"
   },
   {
     "de": "Auffassungsgabe",
     "de_article": "die",
     "de_plural": "die Auffassungsgaben",
-    "lv": "Percepčná schopnosť",
+    "lv": "chápavosť",
     "level": "C1"
   },
   {
     "de": "Gebrauchtwaren",
     "de_article": "die",
-    "lv": "Towary używane",
+    "lv": "použitý tovar",
     "level": "C1"
   },
   {
     "de": "Geburtenrate",
     "de_article": "die",
     "de_plural": "die Geburtenraten",
-    "lv": "Współczynnik urodzeń",
+    "lv": "pôrodnosť",
     "level": "C1"
   },
   {
     "de": "Gefängniszelle",
     "de_article": "die",
     "de_plural": "die Gefängniszellen",
-    "lv": "Cela więzienna",
+    "lv": "väzenská cela",
     "level": "C1"
   },
   {
     "de": "Gefäßverengung",
     "de_article": "die",
     "de_plural": "die Gefäßverengungen",
-    "lv": "Zwężenie naczyń krwionośnych",
+    "lv": "zúženie ciev",
     "level": "C1"
   },
   {
     "de": "Geflügelzucht",
     "de_article": "die",
     "de_plural": "die Geflügelzuchten",
-    "lv": "Hodowla drobiu",
+    "lv": "chov hydiny • hydinárstvo",
     "level": "C1"
   },
   {
     "de": "Gefrierpunkt",
     "de_article": "der",
     "de_plural": "die Gefrierpunkte",
-    "lv": "Temperatura zamarzania • Punkt zerowy",
+    "lv": "bod mrazu",
     "level": "C1"
   },
   {
     "de": "Gehaltskürzung",
     "de_article": "die",
     "de_plural": "die Gehaltskürzungen",
-    "lv": "Obniżka wynagrodzenia",
+    "lv": "zníženie platu",
     "level": "C1"
   },
   {
     "de": "Beichtgeheimnis",
     "de_article": "das",
     "de_plural": "die Beichtgeheimnisse",
-    "lv": "Wyznaną tajemnicę",
+    "lv": "spovedné tajomstvo",
     "level": "C1"
   },
   {
     "de": "Gehirnschlag",
     "de_article": "der",
     "de_plural": "die Gehirnschläge",
-    "lv": "Udar",
+    "lv": "mozgová príhoda • mŕtvica",
     "level": "C1"
   },
   {
     "de": "Geisterstunde",
     "de_article": "die",
     "de_plural": "die Geisterstunden",
-    "lv": "Godzina duchów",
+    "lv": "hodina duchov",
     "level": "C1"
   },
   {
     "de": "geistesabwesend",
-    "lv": "Rozproszony",
+    "lv": "duchom neprítomný • roztržitý",
     "level": "C1"
   },
   {
     "de": "geisteskrank",
-    "lv": "Chory umysłowo",
+    "lv": "duševne chorý",
     "level": "C1"
   },
   {
     "de": "geistesschwach",
-    "lv": "Słaby duchem • Uparty",
+    "lv": "slabomyseľný",
     "level": "C1"
   },
   {
     "de": "Geländefahrt",
     "de_article": "die",
     "de_plural": "die Geländefahrten",
-    "lv": "Wycieczka przełajowa",
+    "lv": "jazda terénom",
     "level": "C1"
   },
   {
     "de": "Geldentwertung",
     "de_article": "die",
     "de_plural": "die Geldentwertungen",
-    "lv": "Inflacja",
+    "lv": "znehodnotenie peňazí • inflácia",
     "level": "C1"
   },
   {
     "de": "gelegentlich",
-    "lv": "Czasami • Okazja • Z powodu",
+    "lv": "príležitostne • príležitostný",
     "level": "C1",
     "study": {
       "id": "c1-gelegentlich",
       "layout": "standardStudy",
-      "translation": "Czasami • Okazja • Z powodu",
-      "explanation": "Główna idea: gelegentlich to słowo posiadające trzy funkcje. Przymiotnik: przypadkowy, przypadkowy (ein gelegentlicher Besuch). Przysłówek: czasami, od czasu do czasu (Er kommt gelegentlich). Przyimek + celownik: ze względu na (gelegentlich des Festes).",
+      "translation": "príležitostne • príležitostný",
+      "explanation": [
+        "Hlavná myšlienka: gelegentlich je najčastejšie príslovka s významom občas, z času na čas: niečo sa deje nie pravidelne, ale raz za čas. Ako prídavné meno znamená príležitostný alebo ojedinelý: gelegentliche Schauer — ojedinelé prehánky.",
+        "Zriedkavejšie a formálnejšie je gelegentlich predložka s genitívom, ktorá znamená pri príležitosti: gelegentlich seines Geburtstags — pri príležitosti jeho narodenín. Toto použitie je dnes veľmi úradné alebo zastarané.",
+        "Ako príslovka sa gelegentlich neskloňuje; ako prídavné meno dostáva koncovky."
+      ],
       "examples": [
         {
-          "de": "Er kommt gelegentlich vorbei.",
-          "lv": "Czasami wpada."
+          "de": "Wir treffen uns gelegentlich auf einen Kaffee.",
+          "lv": "Občas sa stretneme na kávu."
         },
         {
-          "de": "Ein gelegentlicher Besuch reicht.",
-          "lv": "Wystarczy okazjonalna wizyta."
+          "de": "Er raucht nur gelegentlich.",
+          "lv": "Fajčí len príležitostne."
         },
         {
-          "de": "Gelegentlich des Festes gab es eine Rede.",
-          "lv": "Z okazji święta wygłoszono przemówienie."
+          "de": "Gelegentliche Schauer sind möglich.",
+          "lv": "Možné sú ojedinelé prehánky."
+        },
+        {
+          "de": "Gelegentlich seines Geburtstags hielt er eine Rede.",
+          "lv": "Pri príležitosti svojich narodenín predniesol prejav."
         }
       ],
       "comparison": [
         {
-          "word": "gelegentlich (Adv.)",
-          "meaning": "Czasami • Od czasu do czasu",
-          "example": "Er kommt gelegentlich. = Viņš reizēm atnāk."
-        },
-        {
-          "word": "gelegentlich (Adj.)",
-          "meaning": "Przypadkowy • Przypadkowy",
-          "example": "ein gelegentlicher Besuch = gadījuma apmeklējums"
-        },
-        {
-          "word": "gelegentlich (+ Gen.)",
-          "meaning": "V dôsledku toho",
-          "example": "gelegentlich des Festes = svētku sakarā"
-        },
-        {
           "word": "manchmal",
-          "meaning": "Niekedy",
-          "example": "Manchmal regnet es. = Reizēm līst."
+          "meaning": "niekedy",
+          "example": "Manchmal gehe ich laufen. – Niekedy chodím behať."
+        },
+        {
+          "word": "ab und zu",
+          "meaning": "z času na čas",
+          "example": "Ab und zu rufe ich ihn an. – Z času na čas mu zavolám."
+        },
+        {
+          "word": "selten",
+          "meaning": "zriedka",
+          "example": "Er kommt selten. – Prichádza zriedka."
         }
       ],
-      "tip": {
-        "leftBlocks": [
-          {
-            "text": "Pozycja w zdaniu pomaga: przed rzeczownikiem = przymiotnik • Po czasowniku = przysłówek • + dopełniacz = przyimek."
-          }
-        ]
-      },
-      "important": {
-        "text": "Przym.: swobodny. Adw.: czasami. Przygotowanie + Gen.: z powodu. Kontekst determinuje znaczenie."
-      },
+      "tip": [
+        "Ak chceš povedať občas, ale nie pravidelne, použi gelegentlich alebo ab und zu.",
+        "V bežnej reči budeš častejšie počuť manchmal; gelegentlich je spisovnejšie a typické skôr pre písaný jazyk."
+      ],
+      "important": [
+        "Gelegentlich neznamená príležitosť: na to slúži die Gelegenheit (príležitosť)."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "gelegentlich"
+            "gelegentlich",
+            "gelegentliche",
+            "gelegentlich seines Geburtstags"
           ],
           "purple": [
-            "Czasami"
+            "občas",
+            "príležitostný",
+            "pri príležitosti",
+            "ojedinelé"
           ]
         },
         "examples": [
@@ -2475,7 +3799,11 @@ const C1_WORDS = [
                 "gelegentlich"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Občas"
+              ]
+            }
           },
           {
             "de": {
@@ -2483,7 +3811,23 @@ const C1_WORDS = [
                 "gelegentlich"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "príležitostne"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Gelegentliche"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ojedinelé"
+              ]
+            }
           },
           {
             "de": {
@@ -2491,7 +3835,75 @@ const C1_WORDS = [
                 "Gelegentlich"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "príležitosti"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "manchmal"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "niekedy"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "ab und zu"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "z času na čas"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "selten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "zriedka"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "gelegentlich"
+            ],
+            "green": [
+              "ab und zu"
+            ]
+          },
+          {
+            "blue": [
+              "gelegentlich"
+            ],
+            "green": [
+              "manchmal"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "gelegentlich",
+              "Gelegentlich"
+            ]
           }
         ]
       }
@@ -2501,1333 +3913,1535 @@ const C1_WORDS = [
     "de": "Gemäldegalerie",
     "de_article": "die",
     "de_plural": "die Gemäldegalerien",
-    "lv": "Galeria malarstwa",
+    "lv": "obrazáreň • galéria obrazov",
     "level": "C1"
   },
   {
     "de": "Gemäldesammlung",
     "de_article": "die",
     "de_plural": "die Gemäldesammlungen",
-    "lv": "Zbiór obrazów",
+    "lv": "zbierka obrazov",
     "level": "C1"
   },
   {
     "de": "Gemeineigentum",
     "de_article": "das",
-    "lv": "Własność publiczna",
+    "lv": "spoločný majetok • verejný majetok",
     "level": "C1"
   },
   {
     "de": "Gemütsmensch",
     "de_article": "der",
     "de_plural": "die Gemütsmenschen",
-    "lv": "Miła i życzliwa osoba",
+    "lv": "dobrák • dobrosrdečný človek",
     "level": "C1"
   },
   {
     "de": "Genmanipulation",
     "de_article": "die",
     "de_plural": "die Genmanipulationen",
-    "lv": "Modyfikacja genu",
+    "lv": "genetická manipulácia",
     "level": "C1"
   },
   {
     "de": "Generalprobe",
     "de_article": "die",
     "de_plural": "die Generalproben",
-    "lv": "Próba generalna",
+    "lv": "generálna skúška",
     "level": "C1"
   },
   {
     "de": "Generalstreik",
     "de_article": "der",
     "de_plural": "die Generalstreiks",
-    "lv": "Strajk generalny",
+    "lv": "generálny štrajk",
     "level": "C1"
   },
   {
     "de": "genmanipuliert",
-    "lv": "Ze zmodyfikowanymi genami",
+    "lv": "geneticky modifikovaný",
     "level": "C1"
   },
   {
     "de": "Gepäckschein",
     "de_article": "der",
     "de_plural": "die Gepäckscheine",
-    "lv": "Odbiór bagażu",
+    "lv": "batožinový lístok",
     "level": "C1"
   },
   {
     "de": "Gepflogenheit",
     "de_article": "die",
     "de_plural": "die Gepflogenheiten",
-    "lv": "Niestandardowe • Niestandardowe",
+    "lv": "zvyk • obyčaj",
     "level": "C1"
   },
   {
     "de": "geradebiegen",
-    "lv": "Wyprostować • Poprawić",
+    "lv": "vyrovnať • napraviť",
     "level": "C1"
   },
   {
     "de": "Schwurgericht",
     "de_article": "das",
     "de_plural": "die Schwurgerichte",
-    "lv": "Vypočutie poroty",
+    "lv": "porotný súd",
     "level": "C1"
   },
   {
     "de": "Gerichtshof",
     "de_article": "der",
     "de_plural": "die Gerichtshöfe",
-    "lv": "Sala sądowa • Trybunał",
+    "lv": "súdny dvor • tribunál",
     "level": "C1"
   },
   {
     "de": "geringschätzig",
-    "lv": "Pogardliwy • Pogardliwy • Pogardliwy",
+    "lv": "pohŕdavý • opovržlivý",
     "level": "C1"
   },
   {
     "de": "Gesamteindruck",
     "de_article": "der",
     "de_plural": "die Gesamteindrücke",
-    "lv": "Ogólne wrażenie",
+    "lv": "celkový dojem",
     "level": "C1"
   },
   {
     "de": "Gesamtergebnis",
     "de_article": "das",
     "de_plural": "die Gesamtergebnisse",
-    "lv": "Wynik końcowy • Wynik końcowy",
+    "lv": "celkový výsledok • konečný výsledok",
     "level": "C1"
   },
   {
     "de": "Gesandtschaft",
     "de_article": "die",
     "de_plural": "die Gesandtschaften",
-    "lv": "Veľvyslanectvo",
+    "lv": "vyslanectvo",
     "level": "C1"
   },
   {
     "de": "Geschäftshaus",
     "de_article": "das",
     "de_plural": "die Geschäftshäuser",
-    "lv": "Dom handlowy",
+    "lv": "obchodná budova",
     "level": "C1"
   },
   {
     "de": "Geschäftsjahr",
     "de_article": "das",
     "de_plural": "die Geschäftsjahre",
-    "lv": "Rok rolniczy",
+    "lv": "hospodársky rok",
     "level": "C1"
   },
   {
     "de": "geschlechtsreif",
-    "lv": "Osiągnął dojrzałość płciową",
+    "lv": "pohlavne zrelý",
     "level": "C1"
   },
   {
     "de": "Gesetzbuch",
     "de_article": "das",
     "de_plural": "die Gesetzbücher",
-    "lv": "Kodeks • Zbiór praw",
+    "lv": "zákonník • kódex",
     "level": "C1"
   },
   {
     "de": "gesetzgebend",
-    "lv": "Prawodawca",
+    "lv": "zákonodarný",
     "level": "C1"
   },
   {
     "de": "gesetzlos",
-    "lv": "Nielegalny",
+    "lv": "bezprávny • nezákonný",
     "level": "C1"
   },
   {
     "de": "gesetzmäßig",
-    "lv": "Zgodne z prawem • Zgodne z prawem",
+    "lv": "zákonný • zákonitý",
     "level": "C1"
   },
   {
     "de": "gesetzwidrig",
-    "lv": "Niezgodne z prawem",
+    "lv": "protizákonný",
     "level": "C1"
   },
   {
     "de": "Gesichtskreis",
     "de_article": "der",
     "de_plural": "die Gesichtskreise",
-    "lv": "Horyzont • Horyzont",
+    "lv": "obzor • horizont",
     "level": "C1"
   },
   {
     "de": "Gewinnanteil",
     "de_article": "der",
     "de_plural": "die Gewinnanteile",
-    "lv": "Udział w zysku",
+    "lv": "podiel na zisku",
     "level": "C1"
   },
   {
     "de": "Gewissensbisse",
     "de_article": "die",
-    "lv": "Wyrzuty sumienia",
+    "lv": "výčitky svedomia",
     "level": "C1"
   },
   {
     "de": "gewissermaßen",
-    "lv": "W pewnym stopniu • W pewnym sensie • Że tak powiem",
+    "lv": "do istej miery • takpovediac",
     "level": "C1"
   },
   {
     "de": "glaubhaft",
-    "lv": "Wiarygodne • Przekonujące",
+    "lv": "vierohodný • presvedčivý",
     "level": "C1"
   },
   {
     "de": "gleichberechtigt",
-    "lv": "Równi • Z równymi prawami",
+    "lv": "rovnoprávny",
     "level": "C1"
   },
   {
     "de": "Götzenverehrung",
     "de_article": "die",
     "de_plural": "die Götzenverehrungen",
-    "lv": "Bałwochwalstwo",
+    "lv": "modloslužba",
     "level": "C1"
   },
   {
     "de": "Grenzverletzung",
     "de_article": "die",
     "de_plural": "die Grenzverletzungen",
-    "lv": "Naruszenie granicy",
+    "lv": "narušenie hranice",
     "level": "C1"
   },
   {
     "de": "Grundgesetz",
     "de_article": "das",
     "de_plural": "die Grundgesetze",
-    "lv": "Prawo podstawowe • Konstytucja",
+    "lv": "základný zákon • ústava",
     "level": "C1"
   },
   {
     "de": "Gütertransport",
     "de_article": "der",
     "de_plural": "die Gütertransporte",
-    "lv": "Transport towarów",
+    "lv": "nákladná doprava • preprava tovaru",
     "level": "C1"
   },
   {
     "de": "Haft",
     "de_article": "die",
-    "lv": "Zatrzymanie • Aresztowanie",
+    "lv": "väzba • väzenie",
     "level": "C1"
   },
   {
     "de": "Haftbefehl",
     "de_article": "der",
     "de_plural": "die Haftbefehle",
-    "lv": "Nakaz aresztowania",
+    "lv": "zatykač",
     "level": "C1"
   },
   {
     "de": "haften",
-    "lv": "Trzymać się • Utknąć",
+    "lv": "lepiť sa • držať sa",
     "level": "C1"
   },
   {
     "de": "Haftung",
     "de_article": "die",
     "de_plural": "die Haftungen",
-    "lv": "Odpowiedzialność",
+    "lv": "zodpovednosť • ručenie",
     "level": "C1"
   },
   {
     "de": "Haltbarkeitsdauer",
     "de_article": "die",
     "de_plural": "die Haltbarkeitsdauern",
-    "lv": "Doba skladovania",
+    "lv": "trvanlivosť • doba trvanlivosti",
     "level": "C1"
   },
   {
     "de": "Handelspartner",
     "de_article": "der",
     "de_plural": "die Handelspartner",
-    "lv": "Partnerem handlowym",
+    "lv": "obchodný partner",
     "level": "C1"
   },
   {
     "de": "Handelsvertretung",
     "de_article": "die",
     "de_plural": "die Handelsvertretungen",
-    "lv": "Reprezentacja handlowa",
+    "lv": "obchodné zastúpenie",
     "level": "C1"
   },
   {
     "de": "Hauptversammlung",
     "de_article": "die",
     "de_plural": "die Hauptversammlungen",
-    "lv": "Walne zgromadzenie",
+    "lv": "valné zhromaždenie",
     "level": "C1"
   },
   {
     "de": "Hausdurchsuchung",
     "de_article": "die",
     "de_plural": "die Hausdurchsuchungen",
-    "lv": "Przeszukanie policji",
+    "lv": "domová prehliadka",
     "level": "C1"
   },
   {
     "de": "Haushaltsartikel",
     "de_article": "der",
     "de_plural": "die Haushaltsartikel",
-    "lv": "Przedmiot gospodarstwa domowego",
+    "lv": "potreba pre domácnosť",
     "level": "C1"
   },
   {
     "de": "Haushaltshilfe",
     "de_article": "die",
     "de_plural": "die Haushaltshilfen",
-    "lv": "Płatna pomoc w gospodarstwie domowym",
+    "lv": "pomocníčka v domácnosti",
     "level": "C1"
   },
   {
     "de": "Hautentzündung",
     "de_article": "die",
     "de_plural": "die Hautentzündungen",
-    "lv": "Zapalenie skóry",
+    "lv": "zápal kože",
     "level": "C1"
   },
   {
     "de": "heldenhaft",
-    "lv": "Heroiczny",
+    "lv": "hrdinský",
     "level": "C1"
   },
   {
     "de": "Herrschaft",
     "de_article": "die",
     "de_plural": "die Herrschaften",
-    "lv": "Panowanie • Władza",
+    "lv": "nadvláda • moc",
     "level": "C1"
   },
   {
     "de": "herunterkommen",
-    "lv": "Zejść • Rozkład • Upadek • Zatonąć",
+    "lv": "zísť dolu • upadnúť • spustnúť",
     "level": "C1"
   },
   {
     "de": "herunterstürzen",
-    "lv": "Upaść na ziemię • Upaść na ziemię",
+    "lv": "spadnúť • zrútiť sa",
     "level": "C1"
   },
   {
     "de": "sich hinreißen lassen",
-    "lv": "Denerwować się",
+    "lv": "dať sa strhnúť • nechať sa uniesť",
     "level": "C1"
   },
   {
     "de": "Industrieabgase",
     "de_article": "die",
-    "lv": "Przemysłowe gazy spalinowe",
+    "lv": "priemyselné exhaláty",
     "level": "C1"
   },
   {
     "de": "Industrieabwässer",
     "de_article": "die",
-    "lv": "Ścieki przemysłowe",
+    "lv": "priemyselné odpadové vody",
     "level": "C1"
   },
   {
     "de": "Industrieanlage",
     "de_article": "die",
     "de_plural": "die Industrieanlagen",
-    "lv": "Kompleks przemysłowy",
+    "lv": "priemyselný komplex • priemyselné zariadenie",
     "level": "C1"
   },
   {
     "de": "inhaftieren",
-    "lv": "Aresztować",
+    "lv": "zatknúť • uväzniť",
     "level": "C1"
   },
   {
     "de": "Innenarchitekt",
     "de_article": "der",
     "de_plural": "die Innenarchitekten",
-    "lv": "Architekt wnętrz",
+    "lv": "architekt interiérov",
     "level": "C1"
   },
   {
     "de": "Innenminister",
     "de_article": "der",
     "de_plural": "die Innenminister",
-    "lv": "Ministrem spraw wewnętrznych",
+    "lv": "minister vnútra",
     "level": "C1"
   },
   {
     "de": "Intensivstation",
     "de_article": "die",
     "de_plural": "die Intensivstationen",
-    "lv": "Oddział intensywnej terapii w szpitalu",
+    "lv": "jednotka intenzívnej starostlivosti",
     "level": "C1"
   },
   {
     "de": "interpretieren",
-    "lv": "Interpretować • Wyjaśniać",
+    "lv": "interpretovať • vykladať",
     "level": "C1"
   },
   {
     "de": "Justiz",
     "de_article": "die",
-    "lv": "Sprawiedliwość • Sprawy prawne",
+    "lv": "justícia • súdnictvo",
     "level": "C1"
   },
   {
     "de": "Kabinettsitzung",
     "de_article": "die",
     "de_plural": "die Kabinettsitzungen",
-    "lv": "Posiedzeniu gabinetu",
+    "lv": "zasadnutie vlády",
     "level": "C1"
   },
   {
     "de": "Kapitalverbrechen",
     "de_article": "das",
     "de_plural": "die Kapitalverbrechen",
-    "lv": "Szczególnie poważne przestępstwo",
+    "lv": "obzvlášť závažný zločin",
     "level": "C1"
   },
   {
     "de": "Kaution",
     "de_article": "die",
     "de_plural": "die Kautionen",
-    "lv": "Zastaw • Poręczenie • Kaucja • Gwarancja",
+    "lv": "kaucia • záloha • záruka",
     "level": "C1"
   },
   {
     "de": "Koalition",
     "de_article": "die",
     "de_plural": "die Koalitionen",
-    "lv": "Koalicja",
+    "lv": "koalícia",
     "level": "C1"
   },
   {
     "de": "körperbehindert",
-    "lv": "Niepełnosprawny fizycznie",
+    "lv": "telesne postihnutý",
     "level": "C1"
   },
   {
     "de": "Krankheitserreger",
     "de_article": "der",
     "de_plural": "die Krankheitserreger",
-    "lv": "Czynnik chorobowy",
+    "lv": "pôvodca choroby • patogén",
     "level": "C1"
   },
   {
     "de": "Kriegsbeschädigte",
     "de_article": "der",
     "de_plural": "die Kriegsbeschädigten",
-    "lv": "Wojna nieważna",
+    "lv": "vojnový invalid",
     "level": "C1"
   },
   {
     "de": "Kriegsgefangene",
     "de_article": "der",
     "de_plural": "die Kriegsgefangenen",
-    "lv": "Jeniec wojenny",
+    "lv": "vojnový zajatec",
     "level": "C1"
   },
   {
     "de": "Kabinettskrise",
     "de_article": "die",
     "de_plural": "die Kabinettskrisen",
-    "lv": "Kryzys gabinetu",
+    "lv": "vládna kríza",
     "level": "C1"
   },
   {
     "de": "Lawinenwarnung",
     "de_article": "die",
     "de_plural": "die Lawinenwarnungen",
-    "lv": "Ostrzeżenie lawinowe",
+    "lv": "lavínová výstraha",
     "level": "C1"
   },
   {
     "de": "Lebenserwartung",
     "de_article": "die",
     "de_plural": "die Lebenserwartungen",
-    "lv": "Średnia długość życia",
+    "lv": "stredná dĺžka života • priemerná dĺžka života",
     "level": "C1"
   },
   {
     "de": "lebensgefährlich",
-    "lv": "Zagrażające życiu • Niebezpieczne",
+    "lv": "životu nebezpečný • nebezpečný",
     "level": "C1"
   },
   {
     "de": "Lebensgefährte",
     "de_article": "der",
     "de_plural": "die Lebensgefährten",
-    "lv": "Współmałżonek pozostający w niezarejestrowanym małżeństwie",
+    "lv": "životný partner • druh",
     "level": "C1"
   },
   {
     "de": "Lebensstandard",
     "de_article": "der",
     "de_plural": "die Lebensstandards",
-    "lv": "Poziom życia",
+    "lv": "životná úroveň",
     "level": "C1"
   },
   {
     "de": "Leistungssport",
     "de_article": "der",
-    "lv": "Sport zawodowy",
+    "lv": "vrcholový šport",
     "level": "C1"
   },
   {
     "de": "lichtempfindlich",
-    "lv": "Światłoczuły",
+    "lv": "svetlocitlivý",
     "level": "C1"
   },
   {
     "de": "Liebesbeziehung",
     "de_article": "die",
     "de_plural": "die Liebesbeziehungen",
-    "lv": "Relacje intymne",
+    "lv": "ľúbostný vzťah",
     "level": "C1"
   },
   {
     "de": "Liebeserklärung",
     "de_article": "die",
     "de_plural": "die Liebeserklärungen",
-    "lv": "Odkrycie miłości",
+    "lv": "vyznanie lásky",
     "level": "C1"
   },
   {
     "de": "Linksextremismus",
     "de_article": "der",
-    "lv": "Lewicowy ekstremizm",
+    "lv": "ľavicový extrémizmus",
     "level": "C1"
   },
   {
     "de": "Machtergreifung",
     "de_article": "die",
     "de_plural": "die Machtergreifungen",
-    "lv": "Przejęcie władzy",
+    "lv": "uchopenie moci",
     "level": "C1"
   },
   {
     "de": "Machtübernahme",
     "de_article": "die",
     "de_plural": "die Machtübernahmen",
-    "lv": "Przejęcie władzy",
+    "lv": "prevzatie moci",
     "level": "C1"
   },
   {
     "de": "Magnetstreifen",
     "de_article": "der",
     "de_plural": "die Magnetstreifen",
-    "lv": "Pasek magnetyczny (na karcie kredytowej)",
+    "lv": "magnetický prúžok",
     "level": "C1"
   },
   {
     "de": "Marschflugkörper",
     "de_article": "der",
     "de_plural": "die Marschflugkörper",
-    "lv": "Raketa s plochou dráhou letu • Raketa s plochou dráhou letu",
+    "lv": "riadená strela • krížová strela",
     "level": "C1"
   },
   {
     "de": "Massenherstellung",
     "de_article": "die",
     "de_plural": "die Massenherstellungen",
-    "lv": "Produkcja masowa",
+    "lv": "hromadná výroba • masová výroba",
     "level": "C1"
   },
   {
     "de": "materialistisch",
-    "lv": "Materialistyczny",
+    "lv": "materialistický",
     "level": "C1"
   },
   {
     "de": "Meineid",
     "de_article": "der",
     "de_plural": "die Meineide",
-    "lv": "Świadomie krzywoprzysięstwo w sądzie",
+    "lv": "krivá prísaha • krivé svedectvo",
     "level": "C1"
   },
   {
     "de": "menschenfeindlich",
-    "lv": "Wrogi ludziom",
+    "lv": "nepriateľský voči ľuďom",
     "level": "C1"
   },
   {
     "de": "militärpflichtig",
-    "lv": "Podlega służbie wojskowej",
+    "lv": "podliehajúci brannej povinnosti",
     "level": "C1"
   },
   {
     "de": "Nachschlagewerk",
     "de_article": "das",
     "de_plural": "die Nachschlagewerke",
-    "lv": "Literatura przedmiotu • Słownik • Encyklopedia",
+    "lv": "príručka • slovník • encyklopédia",
     "level": "C1"
   },
   {
     "de": "namhaft",
-    "lv": "Sławny • Godny uwagi",
+    "lv": "známy • významný",
     "level": "C1"
   },
   {
     "de": "Nichtangriffspakt",
     "de_article": "der",
     "de_plural": "die Nichtangriffspakte",
-    "lv": "Pakt o nieagresji",
+    "lv": "pakt o neútočení",
     "level": "C1"
   },
   {
     "de": "niedergeschlagen",
-    "lv": "Przygnębiony • Przygnębiony",
+    "lv": "skľúčený • deprimovaný",
     "level": "C1"
   },
   {
     "de": "Ölembargo",
     "de_article": "das",
     "de_plural": "die Ölembargos",
-    "lv": "Embargo na ropę",
+    "lv": "ropné embargo",
     "level": "C1"
   },
   {
     "de": "Oppositionsführer",
     "de_article": "der",
     "de_plural": "die Oppositionsführer",
-    "lv": "Przywódca opozycji",
+    "lv": "líder opozície",
     "level": "C1"
   },
   {
     "de": "Oppositionspartei",
     "de_article": "die",
     "de_plural": "die Oppositionsparteien",
-    "lv": "Partii opozycyjnej",
+    "lv": "opozičná strana",
     "level": "C1"
   },
   {
     "de": "Originalausgabe",
     "de_article": "die",
     "de_plural": "die Originalausgaben",
-    "lv": "Wydanie oryginalne",
+    "lv": "pôvodné vydanie • originálne vydanie",
     "level": "C1"
   },
   {
     "de": "Originalfassung",
     "de_article": "die",
     "de_plural": "die Originalfassungen",
-    "lv": "Wariant oryginalny",
+    "lv": "pôvodná verzia • originálna verzia",
     "level": "C1"
   },
   {
     "de": "Originalgemälde",
     "de_article": "das",
     "de_plural": "die Originalgemälde",
-    "lv": "Oryginalne malowanie",
+    "lv": "originálny obraz",
     "level": "C1"
   },
   {
     "de": "Parteifunktionär",
     "de_article": "der",
     "de_plural": "die Parteifunktionäre",
-    "lv": "Pracownik partii",
+    "lv": "stranícky funkcionár",
     "level": "C1"
   },
   {
     "de": "Pflichtlektüre",
     "de_article": "die",
     "de_plural": "die Pflichtlektüren",
-    "lv": "Obowiązkowa literatura naukowa",
+    "lv": "povinné čítanie",
     "level": "C1"
   },
   {
     "de": "Preisfrage",
     "de_article": "die",
     "de_plural": "die Preisfragen",
-    "lv": "Pytanie konkursowe",
+    "lv": "súťažná otázka",
     "level": "C1"
   },
   {
     "de": "Pressefreiheit",
     "de_article": "die",
     "de_plural": "die Pressefreiheiten",
-    "lv": "Wolność prasy",
+    "lv": "sloboda tlače",
     "level": "C1"
   },
   {
     "de": "Pressevertreter",
     "de_article": "der",
     "de_plural": "die Pressevertreter",
-    "lv": "Przedstawiciel prasowy",
+    "lv": "zástupca tlače • novinár",
     "level": "C1"
   },
   {
     "de": "Presseerklärung",
     "de_article": "die",
     "de_plural": "die Presseerklärungen",
-    "lv": "Tlačová správa",
+    "lv": "tlačové vyhlásenie • tlačová správa",
     "level": "C1"
   },
   {
     "de": "Produktionskosten",
     "de_article": "die",
-    "lv": "Koszt produkcji",
+    "lv": "výrobné náklady",
     "level": "C1"
   },
   {
     "de": "Produktionsweise",
     "de_article": "die",
     "de_plural": "die Produktionsweisen",
-    "lv": "Druh výroby",
+    "lv": "spôsob výroby",
     "level": "C1"
   },
   {
     "de": "Rangierbahnhof",
     "de_article": "der",
     "de_plural": "die Rangierbahnhöfe",
-    "lv": "Plac kolejowy",
+    "lv": "zriaďovacia stanica",
     "level": "C1"
   },
   {
     "de": "rätselhaft",
-    "lv": "Enigmatyczny • Niezrozumiały",
+    "lv": "záhadný • nepochopiteľný",
     "level": "C1"
   },
   {
     "de": "Raumausstatter",
     "de_article": "der",
     "de_plural": "die Raumausstatter",
-    "lv": "Projektant wnętrz",
+    "lv": "bytový dekoratér",
     "level": "C1"
   },
   {
     "de": "Rechenschaft",
     "de_article": "die",
-    "lv": "Odpowiedzialność (za swoje czyny) • Odpowiedzialność",
+    "lv": "zodpovednosť • skladanie účtov",
     "level": "C1"
   },
   {
     "de": "rechtswidrig",
-    "lv": "Nielegalny",
+    "lv": "protiprávny • nezákonný",
     "level": "C1"
   },
   {
     "de": "Regenbogenpresse",
     "de_article": "die",
     "de_plural": "die Regenbogenpressen",
-    "lv": "Prasa tabloidowa",
+    "lv": "bulvárna tlač • bulvár",
     "level": "C1"
   },
   {
     "de": "Regierungschef",
     "de_article": "der",
     "de_plural": "die Regierungschefs",
-    "lv": "Premier • Szef rządu",
+    "lv": "predseda vlády • premiér",
     "level": "C1"
   },
   {
     "de": "Regierungspartei",
     "de_article": "die",
     "de_plural": "die Regierungsparteien",
-    "lv": "Partię rządową",
+    "lv": "vládna strana",
     "level": "C1"
   },
   {
     "de": "Regierungswechsel",
     "de_article": "der",
     "de_plural": "die Regierungswechsel",
-    "lv": "Zmiana rządu",
+    "lv": "zmena vlády",
     "level": "C1"
   },
   {
     "de": "Rentenanspruch",
     "de_article": "der",
     "de_plural": "die Rentenansprüche",
-    "lv": "Prawo do emerytury",
+    "lv": "nárok na dôchodok",
     "level": "C1"
   },
   {
     "de": "Rentenempfänger",
     "de_article": "der",
     "de_plural": "die Rentenempfänger",
-    "lv": "Emeryt",
+    "lv": "poberateľ dôchodku • dôchodca",
     "level": "C1"
   },
   {
     "de": "republikanisch",
-    "lv": "Republikańskie • Republiki",
+    "lv": "republikánsky",
     "level": "C1"
   },
   {
     "de": "Sanktion",
     "de_article": "die",
     "de_plural": "die Sanktionen",
-    "lv": "Sankcja",
+    "lv": "sankcia",
     "level": "C1"
   },
   {
     "de": "sanktionieren",
-    "lv": "Wsparcie • Sankcja",
+    "lv": "schváliť • sankcionovať",
     "level": "C1"
   },
   {
     "de": "Lüftungsschacht",
     "de_article": "der",
     "de_plural": "die Lüftungsschächte",
-    "lv": "Szyb wentylacyjny",
+    "lv": "vetracia šachta",
     "level": "C1"
   },
   {
     "de": "Scheidungsgrund",
     "de_article": "der",
     "de_plural": "die Scheidungsgründe",
-    "lv": "Powód rozwodu",
+    "lv": "dôvod rozvodu",
     "level": "C1"
   },
   {
     "de": "Schicksalsschlag",
     "de_article": "der",
     "de_plural": "die Schicksalsschläge",
-    "lv": "Udar losu",
+    "lv": "rana osudu",
     "level": "C1"
   },
   {
     "de": "schmerzstillend",
-    "lv": "Liečivo proti bolesti",
+    "lv": "utišujúci bolesť",
     "level": "C1"
   },
   {
     "de": "Anklageschrift",
     "de_article": "die",
     "de_plural": "die Anklageschriften",
-    "lv": "Akt oskarżenia",
+    "lv": "obžaloba • obžalovací spis",
     "level": "C1"
   },
   {
     "de": "Schwerindustrie",
     "de_article": "die",
     "de_plural": "die Schwerindustrien",
-    "lv": "Przemysł ciężki",
+    "lv": "ťažký priemysel",
     "level": "C1"
   },
   {
     "de": "Segelflugsport",
     "de_article": "der",
-    "lv": "Szybowcowość",
+    "lv": "bezmotorové lietanie • plachtárstvo",
     "level": "C1"
   },
   {
     "de": "Selbstverwaltung",
     "de_article": "die",
     "de_plural": "die Selbstverwaltungen",
-    "lv": "Mesto",
+    "lv": "samospráva",
     "level": "C1"
   },
   {
     "de": "selbstzufrieden",
-    "lv": "Kołtuński",
+    "lv": "samoľúby • spokojný sám so sebou",
     "level": "C1"
   },
   {
     "de": "Sensationsmeldung",
     "de_article": "die",
     "de_plural": "die Sensationsmeldungen",
-    "lv": "Sensacyjne stwierdzenie",
+    "lv": "senzačná správa",
     "level": "C1"
   },
   {
     "de": "sesshaft",
-    "lv": "Mieszkanie w jednym miejscu • Kamper",
+    "lv": "usadlý • usadený",
     "level": "C1"
   },
   {
     "de": "Sinfonieorchester",
     "de_article": "das",
     "de_plural": "die Sinfonieorchester",
-    "lv": "Orkiestra symfoniczna",
+    "lv": "symfonický orchester",
     "level": "C1"
   },
   {
     "de": "Sinnestäuschung",
     "de_article": "die",
     "de_plural": "die Sinnestäuschungen",
-    "lv": "Halucynacja",
+    "lv": "zmyslový klam • halucinácia",
     "level": "C1"
   },
   {
     "de": "Konfliktsituation",
     "de_article": "die",
     "de_plural": "die Konfliktsituationen",
-    "lv": "Sytuacja konfliktowa",
+    "lv": "konfliktná situácia",
     "level": "C1"
   },
   {
     "de": "Krisensituation",
     "de_article": "die",
     "de_plural": "die Krisensituationen",
-    "lv": "Sytuacja kryzysowa • Kryzys",
+    "lv": "krízová situácia • kríza",
     "level": "C1"
   },
   {
     "de": "Sommersonnenwende",
     "de_article": "die",
     "de_plural": "die Sommersonnenwenden",
-    "lv": "Przesilenie letnie",
+    "lv": "letný slnovrat",
     "level": "C1"
   },
   {
     "de": "Sonnenfinsternis",
     "de_article": "die",
     "de_plural": "die Sonnenfinsternisse",
-    "lv": "Zaćmienie słońca",
+    "lv": "zatmenie Slnka",
     "level": "C1"
   },
   {
     "de": "Spitzenleistung",
     "de_article": "die",
     "de_plural": "die Spitzenleistungen",
-    "lv": "Rekord • Najwyższe osiągnięcie • Technologia. maksymalna moc",
+    "lv": "špičkový výkon • rekord",
     "level": "C1"
   },
   {
     "de": "Staatsangehörige",
     "de_article": "der",
     "de_plural": "die Staatsangehörigen",
-    "lv": "Obywatel",
+    "lv": "štátny príslušník",
     "level": "C1"
   },
   {
     "de": "Staatsanwalt",
     "de_article": "der",
     "de_plural": "die Staatsanwälte",
-    "lv": "Oskarżyciel",
+    "lv": "prokurátor",
     "level": "C1"
   },
   {
     "de": "Staatsgeheimnis",
     "de_article": "das",
     "de_plural": "die Staatsgeheimnisse",
-    "lv": "Tajemnica państwowa",
+    "lv": "štátne tajomstvo",
     "level": "C1"
   },
   {
     "de": "Steuereinnahmen",
     "de_article": "die",
-    "lv": "Dochody podatkowe",
+    "lv": "daňové príjmy",
     "level": "C1"
   },
   {
     "de": "stimmberechtigt",
-    "lv": "Uprawniony do głosowania",
+    "lv": "oprávnený hlasovať",
     "level": "C1"
   },
   {
     "de": "Studienbewerber",
     "de_article": "der",
     "de_plural": "die Studienbewerber",
-    "lv": "Kandydat na uniwersytet",
+    "lv": "uchádzač o štúdium",
     "level": "C1"
   },
   {
     "de": "synchronisieren",
-    "lv": "Zdubbinguj film",
+    "lv": "dabovať • synchronizovať",
     "level": "C1"
   },
   {
     "de": "Tageseinnahmen",
     "de_article": "die",
-    "lv": "Dzienne zarobki",
+    "lv": "denná tržba",
     "level": "C1"
   },
   {
     "de": "Transfusion",
     "de_article": "die",
     "de_plural": "die Transfusionen",
-    "lv": "Bezpośrednia transfuzja krwi od jednej osoby do drugiej",
+    "lv": "transfúzia",
     "level": "C1"
   },
   {
     "de": "überanstrengen",
-    "lv": "Przepracować • Sich ü. przepracować",
+    "lv": "preťažovať • prepínať sa",
     "level": "C1"
   },
   {
     "de": "Überbevölkerung",
     "de_article": "die",
     "de_plural": "die Überbevölkerungen",
-    "lv": "Przeludnienie",
+    "lv": "preľudnenie",
     "level": "C1"
   },
   {
     "de": "Überbleibsel",
     "de_article": "das",
     "de_plural": "die Überbleibsel",
-    "lv": "Nadwyżka • Pozostaje",
+    "lv": "zvyšok • pozostatok",
     "level": "C1"
   },
   {
     "de": "übereinstimmen",
-    "lv": "Zgodzić się • Zgodzić się z kimś",
+    "lv": "zhodovať sa • súhlasiť",
     "level": "C1"
   },
   {
     "de": "Überschuss",
     "de_article": "der",
     "de_plural": "die Überschüsse",
-    "lv": "Pozostała część • Nadwyżka • Likwidacja",
+    "lv": "prebytok • zvyšok • nadbytok",
     "level": "C1"
   },
   {
     "de": "Umgangssprache",
     "de_article": "die",
     "de_plural": "die Umgangssprachen",
-    "lv": "Język potoczny",
+    "lv": "hovorový jazyk",
     "level": "C1"
   },
   {
     "de": "Unannehmlichkeit",
     "de_article": "die",
     "de_plural": "die Unannehmlichkeiten",
-    "lv": "Kłopoty • Nieprzyjemna okazja",
+    "lv": "nepríjemnosť • ťažkosť",
     "level": "C1"
   },
   {
     "de": "unausgeglichen",
-    "lv": "Niezrównoważony",
+    "lv": "nevyrovnaný",
     "level": "C1"
   },
   {
     "de": "unerschütterlich",
-    "lv": "Niewzruszony",
+    "lv": "neochvejný • neotrasiteľný",
     "level": "C1"
   },
   {
     "de": "Unterschätzung",
     "de_article": "die",
     "de_plural": "die Unterschätzungen",
-    "lv": "Niedocenianie • Niedocenianie",
+    "lv": "podcenenie",
     "level": "C1"
   },
   {
     "de": "urteilen",
-    "lv": "Osądzać",
+    "lv": "súdiť • posudzovať",
     "level": "C1"
   },
   {
     "de": "verabschieden",
-    "lv": "Zwolnienie z pracy • Przejść na emeryturę",
-    "level": "C1"
-  },
-  {
-    "de": "veränderlich",
-    "lv": "Zmienne • Zmienne",
-    "level": "C1"
-  },
-  {
-    "de": "veranschlagen",
-    "lv": "Vypočítať • Vypočítať • Odhad",
-    "level": "C1"
-  },
-  {
-    "de": "verdrießlich",
-    "lv": "Nieprzyjemny • Zirytowany • Zirytowany",
-    "level": "C1"
-  },
-  {
-    "de": "Verfallsdatum",
-    "de_article": "das",
-    "de_plural": "die Verfallsdaten",
-    "lv": "Data ważności",
-    "level": "C1"
-  },
-  {
-    "de": "Verfassung",
-    "de_article": "die",
-    "de_plural": "die Verfassungen",
-    "lv": "Konstytucja • Konstytucja",
-    "level": "C1"
-  },
-  {
-    "de": "vergewaltigen",
-    "lv": "Gwałcenie",
-    "level": "C1"
-  },
-  {
-    "de": "sich vergewissern",
-    "lv": "Upewniać się",
-    "level": "C1"
-  },
-  {
-    "de": "Vergünstigung",
-    "de_article": "die",
-    "de_plural": "die Vergünstigungen",
-    "lv": "Korzyść • Przywilej • Ulga",
-    "level": "C1"
-  },
-  {
-    "de": "verhaften",
-    "lv": "Aresztować",
-    "level": "C1"
-  },
-  {
-    "de": "verhältnismäßig",
-    "lv": "Stosunkowo",
-    "level": "C1"
-  },
-  {
-    "de": "Verhandlungen",
-    "de_article": "die",
-    "de_plural": "die Verhandlungen",
-    "lv": "Rozmowy",
-    "level": "C1"
-  },
-  {
-    "de": "verheimlichen",
-    "lv": "Ukryj • Zachowaj tajemnicę",
-    "level": "C1"
-  },
-  {
-    "de": "Verkehrsdichte",
-    "de_article": "die",
-    "de_plural": "die Verkehrsdichten",
-    "lv": "Gęstość ruchu",
-    "level": "C1"
-  },
-  {
-    "de": "Verkehrswesen",
-    "de_article": "das",
-    "lv": "Transport",
-    "level": "C1"
-  },
-  {
-    "de": "Verpflichtung",
-    "de_article": "die",
-    "de_plural": "die Verpflichtungen",
-    "lv": "Obowiązek • Obowiązek",
-    "level": "C1"
-  },
-  {
-    "de": "Verschwörung",
-    "de_article": "die",
-    "de_plural": "die Verschwörungen",
-    "lv": "Spisek",
-    "level": "C1"
-  },
-  {
-    "de": "verklagen",
-    "lv": "Pozwać",
-    "level": "C1"
-  },
-  {
-    "de": "vernachlässigen",
-    "lv": "Zaniedbywać • Być nieostrożnym",
-    "level": "C1"
-  },
-  {
-    "de": "verpflichten",
-    "lv": "Zobowiązać się",
-    "level": "C1"
-  },
-  {
-    "de": "sich verpflichten",
-    "lv": "Podjąć",
-    "level": "C1"
-  },
-  {
-    "de": "sich verschließen",
-    "lv": "Wyłączyć • Wyłączyć",
-    "level": "C1"
-  },
-  {
-    "de": "verschlossen",
-    "lv": "Zablokowane • Zamknięte • Trans. zamknięty • Samowystarczalny",
-    "level": "C1"
-  },
-  {
-    "de": "verschlüsseln",
-    "lv": "Szyfrować • Kodować",
-    "level": "C1"
-  },
-  {
-    "de": "verschreiben",
-    "lv": "Med. podpisać",
-    "level": "C1"
-  },
-  {
-    "de": "verschweigen",
-    "lv": "Ukrywać • Nie ujawniać",
-    "level": "C1"
-  },
-  {
-    "de": "verständigen",
-    "lv": "Informować • Powiadamiać",
-    "level": "C1"
-  },
-  {
-    "de": "Versuchsanlage",
-    "de_article": "die",
-    "de_plural": "die Versuchsanlagen",
-    "lv": "Obiekt testowy",
-    "level": "C1"
-  },
-  {
-    "de": "Versuchsgelände",
-    "de_article": "das",
-    "de_plural": "die Versuchsgelände",
-    "lv": "Poligon doświadczalny",
-    "level": "C1"
-  },
-  {
-    "de": "Versuchsreihe",
-    "de_article": "die",
-    "de_plural": "die Versuchsreihen",
-    "lv": "Séria testov",
-    "level": "C1"
-  },
-  {
-    "de": "verunglücken",
-    "lv": "Ucierpieć w wypadku • Ucierpieć w wypadku",
-    "level": "C1"
-  },
-  {
-    "de": "verurteilen",
-    "lv": "Skazać",
-    "level": "C1"
-  },
-  {
-    "de": "vervielfältigen",
-    "lv": "Zwielokrotniać",
-    "level": "C1"
-  },
-  {
-    "de": "vervollkommnen",
-    "lv": "Uzupełnić • Ulepszyć",
-    "level": "C1"
-  },
-  {
-    "de": "sich vervollkommnen",
-    "lv": "Uzupełnij swoją wiedzę",
-    "level": "C1"
-  },
-  {
-    "de": "verwirklichen",
-    "lv": "Zrealizować • Wdrożyć",
-    "level": "C1"
-  },
-  {
-    "de": "Volksabstimmung",
-    "de_article": "die",
-    "de_plural": "die Volksabstimmungen",
-    "lv": "Všeobecné volebné právo • Plebiscite",
-    "level": "C1"
-  },
-  {
-    "de": "Volksbefragung",
-    "de_article": "die",
-    "de_plural": "die Volksbefragungen",
-    "lv": "Ankieta wszystkich ludzi • Referendum",
-    "level": "C1"
-  },
-  {
-    "de": "Vollversammlung",
-    "de_article": "die",
-    "de_plural": "die Vollversammlungen",
-    "lv": "Plenum • Walne zgromadzenie • Walne zgromadzenie",
-    "level": "C1"
-  },
-  {
-    "de": "voreingenommen",
-    "lv": "Stronniczy • Stronniczy",
-    "level": "C1"
-  },
-  {
-    "de": "waag[e]recht",
-    "lv": "Poziom • Poziomy",
-    "level": "C1"
-  },
-  {
-    "de": "Waffenruhe",
-    "de_article": "die",
-    "de_plural": "die Waffenruhen",
-    "lv": "Przerwa w walce",
-    "level": "C1"
-  },
-  {
-    "de": "Waffenschein",
-    "de_article": "der",
-    "de_plural": "die Waffenscheine",
-    "lv": "Pozwolenie na broń",
-    "level": "C1"
-  },
-  {
-    "de": "wahlberechtigt",
-    "lv": "Taki, który ma prawo głosu",
+    "lv": "rozlúčiť sa • schváliť",
     "level": "C1",
     "study": {
-      "id": "c1-wahlberechtigt",
+      "id": "c1-verabschieden",
       "layout": "standardStudy",
-      "translation": "Taki, który ma prawo głosu",
-      "explanation": "Główna idea: wahlberechtig to przymiotnik oznaczający, że dana osoba ma prawo uczestniczyć w wyborach – głosować lub kandydować w wyborach. Związek: Wahl (wybory) + behrechtig (uprawniony).",
+      "translation": "rozlúčiť sa • schváliť",
+      "explanation": [
+        "Hlavná myšlienka: sich verabschieden znamená rozlúčiť sa s niekým: Ich verabschiede mich von dir. Osoba, s ktorou sa lúčiš, sa pripája pomocou von + datív.",
+        "Zvratné sloveso: ich verabschiede mich, er verabschiedet sich, verabschiedete sich, hat sich verabschiedet. Bez sich môže verabschieden znamenať slávnostne niekoho vyprevadiť, rozlúčiť sa s niekým (der Direktor wurde in den Ruhestand verabschiedet) alebo schváliť zákon (ein Gesetz verabschieden).",
+        "Podstatné meno je die Verabschiedung (rozlúčka, schválenie zákona)."
+      ],
       "examples": [
         {
-          "de": "Alle wahlberechtigten Bürger können wählen.",
-          "lv": "Wszyscy uprawnieni do głosowania mogą głosować."
+          "de": "Ich verabschiede mich von meinen Kollegen.",
+          "lv": "Lúčim sa s kolegami."
         },
         {
-          "de": "Ab 18 Jahren ist man wahlberechtigt.",
-          "lv": "Od 18 roku życia mają prawo głosu."
+          "de": "Sie verabschiedete sich und ging nach Hause.",
+          "lv": "Rozlúčila sa a išla domov."
         },
         {
-          "de": "Nicht alle Einwohner sind wahlberechtigt.",
-          "lv": "Nie wszyscy obywatele mają prawo do głosowania."
+          "de": "Das Parlament hat das Gesetz verabschiedet.",
+          "lv": "Parlament schválil zákon."
+        },
+        {
+          "de": "Der Direktor wurde nach dreißig Jahren in den Ruhestand verabschiedet.",
+          "lv": "Riaditeľa po tridsiatich rokoch slávnostne vyprevadili do dôchodku."
         }
       ],
       "comparison": [
         {
-          "word": "wahlberechtigt",
-          "meaning": "Z prawem głosu",
-          "example": "Er ist wahlberechtigt. = Viņam ir vēlēšanu tiesības."
+          "word": "Abschied nehmen",
+          "meaning": "rozlúčiť sa",
+          "example": "Er nahm Abschied von seiner Heimat. – Rozlúčil sa so svojou vlasťou."
         },
         {
-          "word": "wählen",
-          "meaning": "Chcieć • Głosować",
-          "example": "Ich wähle heute. = Es šodien balsoju."
+          "word": "beschließen",
+          "meaning": "rozhodnúť, uzniesť sa",
+          "example": "Der Rat beschließt das Budget. – Rada schvaľuje rozpočet."
         },
         {
-          "word": "der Wähler",
-          "meaning": "Wyborca",
-          "example": "Der Wähler geht zur Wahl. = Vēlētājs iet uz vēlēšanām."
+          "word": "winken",
+          "meaning": "mávať (rukou)",
+          "example": "Sie winkt zum Abschied. – Na rozlúčku máva."
         }
       ],
-      "tip": {
-        "leftBlocks": [
-          {
-            "text": "Wahl = wybór, behrechtig = uprawniony. Powszechne w prasie i tekstach prawniczych."
-          }
-        ]
-      },
-      "important": {
-        "text": "Wahlberechtig = z prawem głosu. Naprzeciwko: nicht wahlberechtigkeit."
-      },
+      "tip": [
+        "V bežnom živote sa pri lúčení hovorí: Ich verabschiede mich, tschüss! alebo Auf Wiedersehen!",
+        "Ak chceš povedať, s kým sa lúčiš, vždy použi von + datív."
+      ],
+      "important": [
+        "Vo význame schváliť zákon sa verabschieden používa v parlamente; to nie je bežný význam lúčenia."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "wahlberechtig",
-            "Wahl"
+            "sich verabschieden",
+            "verabschiede",
+            "verabschiedete",
+            "verabschiedet",
+            "von",
+            "Verabschiedung",
+            "verabschieden"
+          ],
+          "purple": [
+            "rozlúčiť",
+            "schváliť zákon"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "wahlberechtigten"
+                "verabschiede"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Lúčim"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verabschiedete"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Rozlúčila"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verabschiedet"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "schválil"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verabschiedet"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vyprevadili"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "Abschied nehmen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "rozlúčiť"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "beschließen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "rozhodnúť"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "winken"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "mávať"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "verabschiede"
+            ]
+          },
+          {
+            "blue": [
+              "von"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "verabschieden"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "de": "veränderlich",
+    "lv": "premenlivý • nestály",
+    "level": "C1"
+  },
+  {
+    "de": "veranschlagen",
+    "lv": "odhadnúť • vyčísliť",
+    "level": "C1"
+  },
+  {
+    "de": "verdrießlich",
+    "lv": "mrzutý • nepríjemný",
+    "level": "C1"
+  },
+  {
+    "de": "Verfallsdatum",
+    "de_article": "das",
+    "de_plural": "die Verfallsdaten",
+    "lv": "dátum spotreby",
+    "level": "C1"
+  },
+  {
+    "de": "Verfassung",
+    "de_article": "die",
+    "de_plural": "die Verfassungen",
+    "lv": "ústava",
+    "level": "C1"
+  },
+  {
+    "de": "vergewaltigen",
+    "lv": "znásilniť",
+    "level": "C1"
+  },
+  {
+    "de": "sich vergewissern",
+    "lv": "presvedčiť sa • uistiť sa",
+    "level": "C1"
+  },
+  {
+    "de": "Vergünstigung",
+    "de_article": "die",
+    "de_plural": "die Vergünstigungen",
+    "lv": "výhoda • zľava • úľava",
+    "level": "C1"
+  },
+  {
+    "de": "verhaften",
+    "lv": "zatknúť",
+    "level": "C1"
+  },
+  {
+    "de": "verhältnismäßig",
+    "lv": "pomerne • relatívne",
+    "level": "C1"
+  },
+  {
+    "de": "Verhandlungen",
+    "de_article": "die",
+    "de_plural": "die Verhandlungen",
+    "lv": "rokovania",
+    "level": "C1"
+  },
+  {
+    "de": "verheimlichen",
+    "lv": "zatajiť • tajiť",
+    "level": "C1"
+  },
+  {
+    "de": "Verkehrsdichte",
+    "de_article": "die",
+    "de_plural": "die Verkehrsdichten",
+    "lv": "hustota premávky",
+    "level": "C1"
+  },
+  {
+    "de": "Verkehrswesen",
+    "de_article": "das",
+    "lv": "doprava",
+    "level": "C1"
+  },
+  {
+    "de": "Verpflichtung",
+    "de_article": "die",
+    "de_plural": "die Verpflichtungen",
+    "lv": "povinnosť • záväzok",
+    "level": "C1"
+  },
+  {
+    "de": "Verschwörung",
+    "de_article": "die",
+    "de_plural": "die Verschwörungen",
+    "lv": "sprisahanie",
+    "level": "C1"
+  },
+  {
+    "de": "verklagen",
+    "lv": "žalovať • podať žalobu",
+    "level": "C1"
+  },
+  {
+    "de": "vernachlässigen",
+    "lv": "zanedbávať • zanedbať",
+    "level": "C1"
+  },
+  {
+    "de": "verpflichten",
+    "lv": "zaviazať • zaväzovať",
+    "level": "C1"
+  },
+  {
+    "de": "sich verpflichten",
+    "lv": "zaviazať sa • podujať sa",
+    "level": "C1"
+  },
+  {
+    "de": "sich verschließen",
+    "lv": "uzavrieť sa",
+    "level": "C1"
+  },
+  {
+    "de": "verschlossen",
+    "lv": "zamknutý • uzavretý",
+    "level": "C1"
+  },
+  {
+    "de": "verschlüsseln",
+    "lv": "šifrovať • kódovať",
+    "level": "C1"
+  },
+  {
+    "de": "verschreiben",
+    "lv": "predpísať",
+    "level": "C1"
+  },
+  {
+    "de": "verschweigen",
+    "lv": "zamlčať • zatajiť",
+    "level": "C1"
+  },
+  {
+    "de": "verständigen",
+    "lv": "informovať • upovedomiť",
+    "level": "C1"
+  },
+  {
+    "de": "Versuchsanlage",
+    "de_article": "die",
+    "de_plural": "die Versuchsanlagen",
+    "lv": "skúšobné zariadenie",
+    "level": "C1"
+  },
+  {
+    "de": "Versuchsgelände",
+    "de_article": "das",
+    "de_plural": "die Versuchsgelände",
+    "lv": "skúšobný polygón",
+    "level": "C1"
+  },
+  {
+    "de": "Versuchsreihe",
+    "de_article": "die",
+    "de_plural": "die Versuchsreihen",
+    "lv": "séria pokusov • séria testov",
+    "level": "C1"
+  },
+  {
+    "de": "verunglücken",
+    "lv": "mať nehodu • havarovať",
+    "level": "C1"
+  },
+  {
+    "de": "verurteilen",
+    "lv": "odsúdiť",
+    "level": "C1"
+  },
+  {
+    "de": "vervielfältigen",
+    "lv": "rozmnožiť • rozmnožovať",
+    "level": "C1"
+  },
+  {
+    "de": "vervollkommnen",
+    "lv": "zdokonaliť • zlepšiť",
+    "level": "C1"
+  },
+  {
+    "de": "sich vervollkommnen",
+    "lv": "zdokonaliť sa • zdokonaľovať sa",
+    "level": "C1"
+  },
+  {
+    "de": "verwirklichen",
+    "lv": "uskutočniť • realizovať",
+    "level": "C1"
+  },
+  {
+    "de": "Volksabstimmung",
+    "de_article": "die",
+    "de_plural": "die Volksabstimmungen",
+    "lv": "ľudové hlasovanie • plebiscit",
+    "level": "C1"
+  },
+  {
+    "de": "Volksbefragung",
+    "de_article": "die",
+    "de_plural": "die Volksbefragungen",
+    "lv": "referendum • ľudové hlasovanie",
+    "level": "C1"
+  },
+  {
+    "de": "Vollversammlung",
+    "de_article": "die",
+    "de_plural": "die Vollversammlungen",
+    "lv": "plénum • valné zhromaždenie • generálne zhromaždenie",
+    "level": "C1"
+  },
+  {
+    "de": "voreingenommen",
+    "lv": "zaujatý • predpojatý",
+    "level": "C1"
+  },
+  {
+    "de": "waag[e]recht",
+    "lv": "vodorovný • horizontálny",
+    "level": "C1"
+  },
+  {
+    "de": "Waffenruhe",
+    "de_article": "die",
+    "de_plural": "die Waffenruhen",
+    "lv": "prímerie • zastavenie paľby",
+    "level": "C1"
+  },
+  {
+    "de": "Waffenschein",
+    "de_article": "der",
+    "de_plural": "die Waffenscheine",
+    "lv": "zbrojný preukaz",
+    "level": "C1"
+  },
+  {
+    "de": "wahlberechtigt",
+    "lv": "oprávnený voliť",
+    "level": "C1",
+    "study": {
+      "id": "c1-wahlberechtigt",
+      "layout": "standardStudy",
+      "translation": "oprávnený voliť",
+      "explanation": [
+        "Hlavná myšlienka: wahlberechtigt je prídavné meno, ktoré označuje človeka s volebným právom — ktorý sa smie zúčastniť na voľbách a hlasovať.",
+        "Ako iné prídavné mená sa skloňuje: wahlberechtigte Bürger. Z prídavného mena možno utvoriť podstatné meno: der/die Wahlberechtigte, die Wahlberechtigten (oprávnený volič, oprávnení voliči).",
+        "Slovo sa skladá z die Wahl (voľby) a berechtigt (oprávnený)."
+      ],
+      "examples": [
+        {
+          "de": "Alle Bürger ab 18 Jahren sind wahlberechtigt.",
+          "lv": "Všetci občania od 18 rokov sú oprávnení voliť."
+        },
+        {
+          "de": "Nur wahlberechtigte Personen dürfen abstimmen.",
+          "lv": "Hlasovať smú iba osoby s volebným právom."
+        },
+        {
+          "de": "Wer ist in dieser Stadt wahlberechtigt?",
+          "lv": "Kto má v tomto meste volebné právo?"
+        },
+        {
+          "de": "Die Zahl der Wahlberechtigten ist gestiegen.",
+          "lv": "Počet oprávnených voličov stúpol."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "das Wahlrecht",
+          "meaning": "volebné právo",
+          "example": "Das Wahlrecht ist ein Grundrecht. – Volebné právo je základné právo."
+        },
+        {
+          "word": "wählbar",
+          "meaning": "voliteľný",
+          "example": "Er ist wählbar. – Je voliteľný."
+        },
+        {
+          "word": "stimmberechtigt",
+          "meaning": "oprávnený hlasovať",
+          "example": "Alle Mitglieder sind stimmberechtigt. – Všetci členovia sú oprávnení hlasovať."
+        }
+      ],
+      "tip": [
+        "Rozlišuj: wahlberechtigt (smie voliť) a wählbar (smie byť zvolený).",
+        "Pri číslach sa používa: die Zahl der Wahlberechtigten — počet oprávnených voličov."
+      ],
+      "important": [
+        "Wahlberechtigt neznamená, že človek volí: je to iba právo, nie činnosť."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "wahlberechtigt",
+            "wahlberechtigte",
+            "Wahlberechtigten"
+          ],
+          "purple": [
+            "volebným právom",
+            "oprávnený volič"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "wahlberechtigt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "oprávnení voliť"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "wahlberechtigte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "volebným právom"
+              ]
+            }
           },
           {
             "de": {
@@ -3835,15 +5449,83 @@ const C1_WORDS = [
                 "wahlberechtigt"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "volebné právo"
+              ]
+            }
           },
           {
             "de": {
               "blue": [
-                "wahlberechtigt"
+                "Wahlberechtigten"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "oprávnených voličov"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "das Wahlrecht"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "volebné"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "wählbar"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "voliteľný"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "stimmberechtigt"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "hlasovať"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "wahlberechtigt"
+            ],
+            "green": [
+              "wählbar"
+            ]
+          },
+          {
+            "blue": [
+              "Wahlberechtigten"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "wahlberechtigt"
+            ]
           }
         ]
       }
@@ -3851,143 +5533,155 @@ const C1_WORDS = [
   },
   {
     "de": "wahrhaft",
-    "lv": "Naprawdę • Naprawdę",
+    "lv": "skutočne • naozaj",
     "level": "C1"
   },
   {
     "de": "Wäscheschleuder",
     "de_article": "die",
     "de_plural": "die Wäscheschleudern",
-    "lv": "Wirówka do prania",
+    "lv": "odstredivka na bielizeň",
     "level": "C1"
   },
   {
     "de": "Wasserheilanstalt",
     "de_article": "die",
-    "lv": "Zakład uzdatniania wody",
+    "lv": "vodoliečebný ústav",
     "level": "C1"
   },
   {
     "de": "Wasserkraftwerk",
     "de_article": "das",
     "de_plural": "die Wasserkraftwerke",
-    "lv": "Elektrownia wodna",
+    "lv": "vodná elektráreň • hydroelektráreň",
     "level": "C1"
   },
   {
     "de": "Wasserversorgung",
     "de_article": "die",
     "de_plural": "die Wasserversorgungen",
-    "lv": "Zaopatrzenie w wodę",
+    "lv": "zásobovanie vodou",
     "level": "C1"
   },
   {
     "de": "Wechselbeziehung",
     "de_article": "die",
     "de_plural": "die Wechselbeziehungen",
-    "lv": "Wzajemna komunikacja",
+    "lv": "vzájomný vzťah • vzájomná súvislosť",
     "level": "C1"
   },
   {
     "de": "Wehrersatzdienst",
     "de_article": "der",
-    "lv": "Służba cywilna zamiast służby wojskowej",
+    "lv": "náhradná služba • civilná služba",
     "level": "C1"
   },
   {
     "de": "Weidenkätzchen",
     "de_article": "das",
     "de_plural": "die Weidenkätzchen",
-    "lv": "Mak roślina",
+    "lv": "bahniatko",
     "level": "C1"
   },
   {
     "de": "Weltanschauung",
     "de_article": "die",
     "de_plural": "die Weltanschauungen",
-    "lv": "Światopogląd",
+    "lv": "svetonázor",
     "level": "C1"
   },
   {
     "de": "Wetterleuchten",
     "de_article": "das",
-    "lv": "Rdza",
+    "lv": "blýskavica",
     "level": "C1"
   },
   {
     "de": "widerrechtlich",
-    "lv": "Nielegalny",
+    "lv": "protiprávny",
     "level": "C1"
   },
   {
     "de": "wiederherstellen",
-    "lv": "Przywrócić • Przywrócić",
+    "lv": "obnoviť • reštaurovať",
     "level": "C1"
   },
   {
     "de": "zusammenfallen",
-    "lv": "Upadek • Wydarzyć się",
+    "lv": "zrútiť sa • zhodovať sa",
     "level": "C1"
   },
   {
     "de": "zusammenstellen",
-    "lv": "Komponować",
+    "lv": "zostaviť",
     "level": "C1"
   },
   {
     "de": "Zuschlag",
     "de_article": "der",
     "de_plural": "die Zuschläge",
-    "lv": "Premia • Znaczniki",
+    "lv": "príplatok • prirážka",
     "level": "C1",
     "study": {
       "id": "c1-zuschlag",
       "layout": "standardStudy",
-      "translation": "Premia • Znaczniki",
+      "translation": "príplatok • prirážka",
       "explanation": [
-        "Główna idea: der Zuschlag oznacza premię lub narzut – dodatkową kwotę dodaną do ceny bazowej.",
-        "W kontekście podróży/transportu der Zuschlag to dodatkowa opłata za szybszy pociąg, lepsze miejsce itp.",
-        "Nie mylić z der Anhang/die Beilage (załącznik do dokumentu) – to inne słowo.",
-        "Na aukcjach den Zuschlag erhalten oznacza wygranie aukcji/otrzymanie zamówienia."
+        "Hlavná myšlienka: der Zuschlag je príplatok, ktorý sa pripočítava k základnej sume: prirážka, príplatok za nočnú prácu, za rýchlik alebo za doplnkovú službu.",
+        "Podstatné meno mužského rodu: der Zuschlag, množné číslo die Zuschläge (s prehláskou). Druhý dôležitý význam je pri dražbe alebo vo verejnej súťaži: den Zuschlag erhalten — vyhrať, byť vybraný.",
+        "Často tvorí zloženiny: Nachtzuschlag, Zugzuschlag, Gefahrenzuschlag."
       ],
       "examples": [
         {
-          "de": "Für den ICE muss man einen Zuschlag zahlen.",
-          "lv": "Za pociąg ICE pobierana jest dodatkowa opłata."
+          "de": "Für Nachtarbeit gibt es einen Zuschlag.",
+          "lv": "Za nočnú prácu sa platí príplatok."
         },
         {
-          "de": "Der Zuschlag für die Nachtschicht beträgt 20%.",
-          "lv": "Dopłata za nocną zmianę wynosi 20%."
+          "de": "Im Zug musste ich einen Zuschlag bezahlen.",
+          "lv": "Vo vlaku som musel zaplatiť príplatok."
         },
         {
-          "de": "Sie erhielt den Zuschlag für den Auftrag.",
-          "lv": "Objednávku dostala (na aukcii)."
+          "de": "Die Firma erhielt den Zuschlag für den Bau.",
+          "lv": "Firma získala zákazku na stavbu."
         },
         {
-          "de": "Es gibt einen Zuschlag für Übergepäck.",
-          "lv": "Za nadbagaż pobierana jest dodatkowa opłata."
+          "de": "Das Hotel verlangt einen Zuschlag für Haustiere.",
+          "lv": "Hotel si účtuje príplatok za domáce zvieratá."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "der Aufpreis",
+          "meaning": "prirážka",
+          "example": "Für Leder zahlt man einen Aufpreis. – Za kožu sa platí prirážka."
         },
         {
-          "de": "Der Preis versteht sich ohne Zuschläge.",
-          "lv": "Cena jest bez dopłat."
+          "word": "die Gebühr",
+          "meaning": "poplatok",
+          "example": "Die Gebühr beträgt zehn Euro. – Poplatok je desať eur."
+        },
+        {
+          "word": "der Rabatt",
+          "meaning": "zľava",
+          "example": "Sie bekommen einen Rabatt. – Dostanete zľavu."
         }
       ],
       "tip": [
-        "Der Zuschlag = dopłata/dopłata (dopłata), a nie załącznik dokumentu.",
-        "Den Zuschlag erhalten (na aukcjach) = wygraj aukcję/otrzymaj zamówienie."
+        "Zapamätaj si dve použitia: einen Zuschlag bezahlen (zaplatiť príplatok) a den Zuschlag erhalten (byť vybraný pri dražbe alebo v súťaži).",
+        "Opak: Zuschlag (pripočítané) a Abschlag (odpočítané)."
       ],
       "important": [
-        "Der Zuschlag = dopłata/narzut, a nie „dodatek” do dokumentu.",
-        "Załącznik do dokumentu w języku niemieckim brzmi die Anlage/der Anhang."
+        "V množnom čísle sa používa die Zuschläge, nie die Zuschlägen."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "der Zuschlag"
+            "Zuschlag",
+            "Zuschläge"
           ],
-          "red": [
-            "der Anhang",
-            "die Beilage"
+          "purple": [
+            "príplatok",
+            "prirážka"
           ]
         },
         "examples": [
@@ -3997,7 +5691,11 @@ const C1_WORDS = [
                 "Zuschlag"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "príplatok"
+              ]
+            }
           },
           {
             "de": {
@@ -4005,47 +5703,91 @@ const C1_WORDS = [
                 "Zuschlag"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "príplatok"
+              ]
+            }
           },
           {
             "de": {
+              "blue": [
+                "Zuschlag"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "zákazku"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Zuschlag"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "príplatok"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
               "green": [
-                "Zuschlag"
+                "der Aufpreis"
               ]
             },
-            "lv": {}
+            "meaning": {
+              "purple": [
+                "prirážka"
+              ]
+            }
           },
           {
-            "de": {
-              "blue": [
-                "Zuschlag"
+            "word": {
+              "green": [
+                "die Gebühr"
               ]
             },
-            "lv": {}
+            "meaning": {
+              "purple": [
+                "poplatok"
+              ]
+            }
           },
           {
-            "de": {
-              "blue": [
-                "Zuschläge"
+            "word": {
+              "green": [
+                "der Rabatt"
               ]
             },
-            "lv": {}
+            "meaning": {
+              "purple": [
+                "zľava"
+              ]
+            }
           }
         ],
         "tip": [
-          {},
           {
-            "green": [
-              "den Zuschlag erhalten"
+            "blue": [
+              "Zuschlag"
+            ]
+          },
+          {
+            "blue": [
+              "Zuschlag"
             ]
           }
         ],
         "important": [
-          {},
           {
-            "red": [
-              "die Anlage",
-              "der Anhang"
+            "blue": [
+              "Zuschläge"
             ]
           }
         ]
@@ -4054,169 +5796,374 @@ const C1_WORDS = [
   },
   {
     "de": "beziehen / sich beziehen auf",
-    "lv": "Zastosować • Odnieść się",
+    "lv": "vzťahovať • vzťahovať sa na",
     "level": "C1",
     "study": {
       "id": "c1-beziehen-sich-beziehen-auf",
       "layout": "standardStudy",
-      "translation": "Zastosować • Odnieść się",
+      "translation": "vzťahovať • vzťahovať sa na",
       "explanation": [
-        "Hlavná myšlienka: Formálna evidencia: uvedenie zdroja, pravidelné čerpanie dôchodku alebo presťahovanie sa do bytu.",
-        "Przykłady dotyczą typowego codziennego użytku.",
-        "W razie wątpliwości sprawdź, czy jest to stan, czy czynność.",
-        "Kontext a spôsob účinku určujú správnu voľbu."
+        "Hlavná myšlienka: etwas auf etwas beziehen znamená vzťahovať niečo na niečo alebo na niekoho; sich auf etwas beziehen znamená vzťahovať sa na niečo alebo odvolávať sa naň.",
+        "Tvary: bezieht, bezog, hat bezogen. V oboch konštrukciách nasleduje auf + akuzatív: etwas auf sich beziehen (vzťahovať na seba), sich auf einen Text beziehen (odvolávať sa na text).",
+        "Okrem tohto významu môže beziehen znamenať aj obliecť posteľ (das Bett beziehen), nasťahovať sa (eine Wohnung beziehen) a pravidelne poberať (ein Gehalt beziehen)."
       ],
       "examples": [
         {
-          "de": "beziehen / sich beziehen auf.",
-          "lv": "Zastosować • Odnieść się"
+          "de": "Du darfst das nicht auf dich beziehen.",
+          "lv": "Nesmieš to vzťahovať na seba."
+        },
+        {
+          "de": "Meine Frage bezieht sich auf den letzten Absatz.",
+          "lv": "Moja otázka sa vzťahuje na posledný odsek."
+        },
+        {
+          "de": "Er bezieht sich in seinem Brief auf unser Gespräch.",
+          "lv": "Vo svojom liste sa odvoláva na náš rozhovor."
+        },
+        {
+          "de": "Sie bezog die Aussage auf ihren Bruder.",
+          "lv": "Ten výrok vztiahla na svojho brata."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "betreffen",
+          "meaning": "týkať sa, dotýkať sa",
+          "example": "Das betrifft uns alle. – Týka sa to nás všetkých."
+        },
+        {
+          "word": "verweisen auf",
+          "meaning": "odkazovať na",
+          "example": "Er verweist auf das Gesetz. – Odkazuje na zákon."
+        },
+        {
+          "word": "sich handeln um",
+          "meaning": "ísť o",
+          "example": "Es handelt sich um einen Fehler. – Ide o chybu."
         }
       ],
       "tip": [
-        "Rejestr formalny: przypisanie źródła, regularne pobieranie emerytury/pensji lub przeprowadzka do mieszkania.",
-        "Użyj beziehen / sich beziehen auf, gdy kontekst pasuje do tego znaczenia."
+        "Zapamätaj si spojenie: sich beziehen auf + akuzatív. Predložka je vždy auf.",
+        "Ak chceš povedať vzťahovať na seba: etwas auf sich beziehen."
       ],
       "important": [
-        "Rejestr formalny: przypisanie źródła, regularne pobieranie emerytury/pensji lub przeprowadzka do mieszkania.",
-        "Beziehen / sich beziehen auf: pred použitím skontrolujte kontext a porovnajte ho s inými slovami na karte."
+        "Beziehen je mnohovýznamové slovo: kontext určí, či ide o vzťahovanie, posteľ alebo plat.",
+        "Betreffen je samo osebe prechodné, bez predložky: Das betrifft mich."
       ],
       "sectionAccents": {
-        "explanation": {},
+        "explanation": {
+          "blue": [
+            "beziehen",
+            "sich beziehen",
+            "bezieht",
+            "bezog",
+            "bezogen",
+            "auf"
+          ],
+          "purple": [
+            "vzťahovať",
+            "vzťahovať sa na",
+            "odvolávať sa"
+          ]
+        },
         "examples": [
           {
             "de": {
               "blue": [
-                "beziehen / sich beziehen auf",
-                "beziehen / sich beziehen auf"
+                "beziehen"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "vzťahovať"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bezieht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vzťahuje"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bezieht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "odvoláva"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bezog"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vztiahla"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "betreffen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "týkať"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "verweisen auf"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "odkazovať"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich handeln um"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ísť o"
+              ]
+            }
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "beziehen",
+              "sich beziehen",
+              "auf"
+            ]
+          },
+          {
+            "blue": [
+              "beziehen",
+              "sich beziehen",
+              "auf"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "beziehen"
+            ]
+          },
+          {
+            "green": [
+              "betreffen"
+            ]
+          }
         ]
       }
     }
   },
   {
     "de": "beabsichtigen",
-    "lv": "Zamierzać • Planować",
+    "lv": "mať v úmysle • zamýšľať • plánovať",
     "level": "C1",
     "study": {
       "id": "c1-beabsichtigen",
       "layout": "standardStudy",
-      "translation": "Zamierzać • Planować",
+      "translation": "mať v úmysle • zamýšľať • plánovať",
       "explanation": [
-        "Główna idea: Świadomy zamiar wykonania działania w przyszłości. Nie o związek, ale o plan.",
-        "Beabsichtigen oznacza przede wszystkim: świadomą intencję.",
-        "Często charakteryzuje się: planem/zamiarem.",
-        "Beabsichtigen zasadniczo oznacza: zaplanować działanie.",
-        "Często charakteryzuje się: oficjalnym rejestrem.",
-        "Beabsichtigen oznacza celowe zamierzenie lub zaplanowanie działania – nie relacji, ale intencji."
+        "Hlavná myšlienka: beabsichtigen znamená zamýšľať, plánovať, mať v úmysle niečo urobiť; ide o vedomý zámer. Znie formálnejšie ako vorhaben.",
+        "Pravidelné sloveso: er beabsichtigt, beabsichtigte, hat beabsichtigt. Nasleduje buď akuzatív (etwas beabsichtigen), alebo neurčitok so zu: Ich beabsichtige, im Herbst umzuziehen. Podstatné meno je die Absicht (úmysel, zámer).",
+        "Príčastie beabsichtigt sa používa ako prídavné meno: eine beabsichtigte Wirkung (zamýšľaný účinok)."
       ],
       "examples": [
         {
-          "de": "Er beabsichtigt, das Projekt zu beenden.",
-          "lv": "Zamierzał dokończyć projekt."
+          "de": "Ich beabsichtige, im Herbst umzuziehen.",
+          "lv": "Mám v úmysle sa na jeseň presťahovať."
         },
         {
-          "de": "Was beabsichtigen Sie mit dieser Maßnahme?",
-          "lv": "Co masz na myśli mówiąc o tym wydarzeniu?"
+          "de": "Die Firma beabsichtigt, ein neues Werk zu bauen.",
+          "lv": "Firma plánuje postaviť nový závod."
         },
         {
-          "de": "Wir beabsichtigen keine Änderung.",
-          "lv": "Nie planujemy zmian."
+          "de": "Das war nicht beabsichtigt.",
+          "lv": "To nebolo úmyselné."
         },
         {
-          "de": "Er beabsichtigt, das Projekt zu beenden.",
-          "lv": "Zamierzał dokończyć projekt."
+          "de": "Was beabsichtigst du damit?",
+          "lv": "Čo tým sleduješ?"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "vorhaben",
+          "meaning": "mať v pláne",
+          "example": "Ich habe vor, morgen zu kommen. – Mám v pláne prísť zajtra."
         },
         {
-          "de": "beabsichtigen + zu + nenoteiksme",
-          "lv": "Zamierzać coś zrobić."
+          "word": "planen",
+          "meaning": "plánovať",
+          "example": "Wir planen eine Reise. – Plánujeme cestu."
+        },
+        {
+          "word": "wollen",
+          "meaning": "chcieť",
+          "example": "Ich will schlafen. – Chcem spať."
         }
       ],
       "tip": [
-        "Jeśli chodzi o relacje, źródła czy regularne wpływy — beziehen. Jeśli chodzi o przemyślany plan — beabsichtigen.",
-        "Beabsichtigen = myśleć"
+        "Po beabsichtigen najčastejšie nasleduje zu + neurčitok s čiarkou: …, zu bauen.",
+        "V bežnej reči môžeš povedať aj vorhaben alebo planen; beabsichtigen je úradnejšie."
       ],
       "important": [
-        "Beabsichtigen + zu + nieregularność: Er beabsichtigt zu gehen.",
-        "Beabsichtigen nie da się zastąpić beziehen – jest to intencja, a nie relacja.",
-        "Beabsichtigen → intencja, plan.",
-        "Świadomy zamiar wykonania działania w przyszłości. Nie o związek, ale o plan."
+        "Príčastie perfekta je beabsichtigt (bez ge-), pretože predpona be- je neodlučiteľná."
       ],
       "sectionAccents": {
         "explanation": {
-          "green": [
-            "beabsichtigen"
+          "blue": [
+            "beabsichtigen",
+            "beabsichtigt",
+            "beabsichtigte",
+            "vorhaben",
+            "Absicht",
+            "beabsichtige"
           ],
           "purple": [
-            "plan"
+            "zamýšľať",
+            "plánovať",
+            "úmysel"
           ]
         },
         "examples": [
           {
             "de": {
-              "green": [
+              "blue": [
+                "beabsichtige"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Mám v úmysle"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
                 "beabsichtigt"
               ]
             },
-            "lv": {}
-          },
-          {
-            "de": {
-              "green": [
-                "beabsichtigen",
-                "beabsichtigen"
+            "lv": {
+              "purple": [
+                "plánuje"
               ]
-            },
-            "lv": {}
+            }
           },
           {
             "de": {
-              "green": [
-                "beabsichtigen",
-                "beabsichtigen"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "green": [
+              "blue": [
                 "beabsichtigt"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "úmyselné"
+              ]
+            }
           },
           {
             "de": {
-              "green": [
-                "beabsichtigen",
-                "beabsichtigen"
+              "blue": [
+                "beabsichtigst"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "sleduješ"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "vorhaben"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "pláne"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "planen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "plánovať"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "wollen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "chcieť"
+              ]
+            }
           }
         ],
         "tip": [
-          {},
           {
-            "purple": [
-              "plan"
+            "blue": [
+              "beabsichtigen"
+            ]
+          },
+          {
+            "blue": [
+              "beabsichtigen",
+              "vorhaben"
+            ],
+            "green": [
+              "planen"
             ]
           }
         ],
         "important": [
           {
-            "green": [
-              "beabsichtigen"
+            "blue": [
+              "beabsichtigt"
             ]
           }
         ]
@@ -4225,53 +6172,70 @@ const C1_WORDS = [
   },
   {
     "de": "unterstellen",
-    "lv": "Wina • Przypisywanie bezpodstawne",
+    "lv": "podsúvať • pripisovať",
     "level": "C1",
     "study": {
       "id": "c1-unterstellen",
       "layout": "standardStudy",
-      "translation": "Wina • Przypisywanie bezpodstawne",
+      "translation": "podsúvať • pripisovať",
       "explanation": [
-        "Główna idea: bezzasadne przypisywanie winy, motywu lub zamiaru innej osobie.",
-        "Unterstellen oznacza głównie: przypisywać bez podstawy.",
-        "Często charakteryzuje się: oskarżeniem/zainteresowaniem.",
-        "Jemandem etwas unterstellen oznacza niesprawiedliwe przypisywanie lub obwinianie."
+        "Hlavná myšlienka: jemandem etwas unterstellen znamená pripisovať niekomu niečo (úmysel, slová, zlý čin), často bez dôkazov. Druhý význam: podriadiť: Die Abteilung ist dem Direktor unterstellt.",
+        "Neodlučiteľné sloveso, prízvuk je na -stell-: er unterstellt, unterstellte, hat unterstellt. Väzba: jemandem etwas unterstellen (komu? čo?). Ak je prízvuk na unter-, ide o iné, odlučiteľné sloveso: Ich stelle das Auto unter — dať pod strechu; sich unterstellen — ukryť sa (napríklad pred dažďom).",
+        "V tomto význame slovo vyjadruje podozrenie alebo neopodstatnenú výčitku, preto znie prísne."
       ],
       "examples": [
         {
-          "de": "Man unterstellt mir schlechte Absichten.",
-          "lv": "Zarzuca mi się złe intencje."
+          "de": "Er unterstellt mir böse Absichten.",
+          "lv": "Pripisuje mi zlé úmysly."
         },
         {
-          "de": "Unterstellen Sie mir nichts!",
-          "lv": "Nie obwiniaj mnie o nic!"
+          "de": "Das unterstelle ich dir nicht.",
+          "lv": "To ti nepripisujem."
         },
         {
-          "de": "Man darf niemandem Verrat unterstellen.",
-          "lv": "Nikt nie powinien być niesprawiedliwie oskarżany o zdradę stanu."
+          "de": "Man unterstellte ihr, dass sie gelogen habe.",
+          "lv": "Podsúvali jej, že vraj klamala."
         },
         {
-          "de": "Ihm wird Untreue unterstellt.",
-          "lv": "Zarzuca się mu brak zaufania."
+          "de": "Die Abteilung ist direkt dem Direktor unterstellt.",
+          "lv": "Oddelenie je priamo podriadené riaditeľovi."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "vorwerfen",
+          "meaning": "vyčítať",
+          "example": "Er wirft mir Faulheit vor. – Vyčíta mi lenivosť."
         },
         {
-          "de": "unterstellen",
-          "lv": "Nieuzasadniona wina • Prognoza"
+          "word": "beschuldigen",
+          "meaning": "obviňovať",
+          "example": "Sie beschuldigt ihn des Diebstahls. – Obviňuje ho z krádeže."
+        },
+        {
+          "word": "behaupten",
+          "meaning": "tvrdiť",
+          "example": "Er behauptet, krank zu sein. – Tvrdí, že je chorý."
         }
       ],
       "tip": [
-        "Unterstellen = wyrzucać",
-        "Używa unterstellen, gdy kontekst pasuje do tego znaczenia."
+        "Zapamätaj si: unterstellen = pripisovať niekomu niečo negatívne, často neoprávnene.",
+        "Po unterstellen sa osoba dáva do datívu: Er unterstellt mir …"
       ],
       "important": [
-        "Unterstellen je emocionálne negatívny – to je nepodložené obvinenie.",
-        "Nesprávne: Wir unterstellen Grundkenntnisse. → Správne: Vortex setzen Grundkenntnisse voraus.",
-        "Unterstellen → wina, atrybut."
+        "Neodlučiteľné unterstellen (pripisovať, podriadiť) nie je to isté ako odlučiteľné unterstellen (dať pod strechu, ukryť sa)."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "unterstellen"
+            "unterstellen",
+            "unterstellt",
+            "unterstellte"
+          ],
+          "purple": [
+            "pripisovať",
+            "podriadiť",
+            "výčitku"
           ]
         },
         "examples": [
@@ -4281,25 +6245,30 @@ const C1_WORDS = [
                 "unterstellt"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Pripisuje"
+              ]
+            }
           },
           {
             "de": {
               "blue": [
-                "unterstellen",
-                "unterstellen"
+                "unterstelle"
               ]
-            },
-            "lv": {}
+            }
           },
           {
             "de": {
               "blue": [
-                "unterstellen",
-                "unterstellen"
+                "unterstellte"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Podsúvali"
+              ]
+            }
           },
           {
             "de": {
@@ -4307,21 +6276,63 @@ const C1_WORDS = [
                 "unterstellt"
               ]
             },
-            "lv": {}
-          },
+            "lv": {
+              "purple": [
+                "podriadené"
+              ]
+            }
+          }
+        ],
+        "comparison": [
           {
-            "de": {
-              "blue": [
-                "unterstellen",
-                "unterstellen"
+            "word": {
+              "green": [
+                "vorwerfen"
               ]
             },
-            "lv": {}
+            "meaning": {
+              "purple": [
+                "vyčítať"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "beschuldigen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "obviňovať"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "behaupten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "tvrdiť"
+              ]
+            }
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "unterstellen"
+            ]
+          },
+          {
+            "blue": [
+              "unterstellen",
+              "unterstellt"
+            ]
+          }
         ],
         "important": [
           {
@@ -4335,60 +6346,184 @@ const C1_WORDS = [
   },
   {
     "de": "voraussetzen",
-    "lv": "Przyjąć jako warunek wstępny",
+    "lv": "predpokladať",
     "level": "C1",
     "study": {
       "id": "c1-voraussetzen",
       "layout": "standardStudy",
-      "translation": "Przyjąć jako warunek wstępny",
+      "translation": "predpokladať",
       "explanation": [
-        "Główna idea: Założyć, że coś jest już znane lub istnieje jako podstawa.",
-        "Voraussetzen oznacza głównie: uważać za podstawę.",
-        "Często charakteryzuje się: logiczną przesłanką.",
-        "Etwas voraussetzen oznacza przyjęcie za pewnik założenia, które już istnieje."
+        "Hlavná myšlienka: voraussetzen znamená predpokladať niečo ako známe alebo samozrejmé, alebo vyžadovať niečo ako predpoklad: Der Kurs setzt gute Kenntnisse voraus.",
+        "Odlučiteľné sloveso: er setzt voraus, setzte voraus, hat vorausgesetzt. To, čo sa predpokladá alebo vyžaduje, je v akuzatíve. Podstatné meno je die Voraussetzung (predpoklad, podmienka).",
+        "Príčastie vorausgesetzt s čiarkou znamená za predpokladu, že: Vorausgesetzt, es regnet nicht, grillen wir."
       ],
       "examples": [
         {
-          "de": "Wir setzen Grundkenntnisse voraus.",
-          "lv": "Jako warunek wstępny przyjmujemy podstawową wiedzę."
+          "de": "Der Kurs setzt gute Deutschkenntnisse voraus.",
+          "lv": "Kurz predpokladá dobré znalosti nemčiny."
         },
         {
-          "de": "Wir setzen Grundkenntnisse voraus.",
-          "lv": "Jako warunek wstępny przyjmujemy podstawową wiedzę."
+          "de": "Ich habe vorausgesetzt, dass du Bescheid weißt.",
+          "lv": "Predpokladal som, že o tom vieš."
+        },
+        {
+          "de": "Diese Stelle setzt ein Studium voraus.",
+          "lv": "Predpokladom pre toto miesto je vysokoškolské štúdium."
+        },
+        {
+          "de": "Vorausgesetzt, es regnet nicht, grillen wir.",
+          "lv": "Za predpokladu, že nebude pršať, budeme grilovať."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "erfordern",
+          "meaning": "vyžadovať",
+          "example": "Die Aufgabe erfordert Geduld. – Úloha si vyžaduje trpezlivosť."
+        },
+        {
+          "word": "annehmen",
+          "meaning": "predpokladať, myslieť si",
+          "example": "Ich nehme an, dass er kommt. – Predpokladám, že príde."
+        },
+        {
+          "word": "die Voraussetzung",
+          "meaning": "predpoklad, podmienka",
+          "example": "Das ist keine Voraussetzung. – To nie je podmienka."
         }
       ],
       "tip": [
-        "Voraussetzen = przyjąć warunek wstępny",
-        "Użyj voraussetzen, gdy kontekst pasuje do tego znaczenia."
+        "Pamätaj na odlučovanie: Das setzt Mühe voraus, ale …, weil das Mühe voraussetzt.",
+        "Časté spojenie: etwas als bekannt voraussetzen."
       ],
       "important": [
-        "Voraussetzen jest nijaki — przyimek.",
-        "Voraussetzen → przyjąć jako podstawę.",
-        "Zakładać, że coś jest już znane lub istnieje jako podstawa."
+        "Príčastie perfekta je vorausgesetzt — ge- sa vkladá medzi voraus a setzt."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "voraussetzen",
+            "setzt voraus",
+            "setzte voraus",
+            "vorausgesetzt",
+            "Voraussetzung",
+            "setzt",
+            "setzte",
+            "Vorausgesetzt"
+          ],
+          "purple": [
+            "predpokladať",
+            "predpoklad"
+          ],
           "green": [
-            "voraussetzen"
+            "die Voraussetzung"
           ]
         },
         "examples": [
           {
-            "de": {},
-            "lv": {}
+            "de": {
+              "blue": [
+                "setzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "predpokladá"
+              ]
+            }
           },
           {
-            "de": {},
-            "lv": {}
+            "de": {
+              "blue": [
+                "vorausgesetzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Predpokladal"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "setzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Predpokladom"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Vorausgesetzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Za predpokladu"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "erfordern"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "vyžadovať"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "annehmen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "myslieť"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Voraussetzung"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "podmienka"
+              ]
+            }
           }
         ],
         "tip": [
-          {}
+          {
+            "blue": [
+              "setzt"
+            ]
+          },
+          {
+            "blue": [
+              "voraussetzen"
+            ]
+          }
         ],
         "important": [
           {
-            "green": [
-              "voraussetzen"
+            "blue": [
+              "vorausgesetzt",
+              "setzt"
             ]
           }
         ]
@@ -4397,101 +6532,190 @@ const C1_WORDS = [
   },
   {
     "de": "bewahren",
-    "lv": "Chronić • Chronić",
+    "lv": "chrániť • zachovať",
     "level": "C1",
     "study": {
       "id": "c1-bewahren",
       "layout": "standardStudy",
-      "translation": "Chronić • Chronić",
+      "translation": "chrániť • zachovať",
       "explanation": [
-        "Główna idea: Chronić przed utratą, uszkodzeniem lub zniszczeniem - wartość, tradycja, pokój.",
-        "Bewahren oznacza przede wszystkim: chronić przed stratą.",
-        "Często charakteryzuje się: zachowaniem wartości.",
-        "Bewahren oznacza chronić przed uszkodzeniem, utratą lub zmianą."
+        "Hlavná myšlienka: bewahren znamená chrániť pred niečím zlým (jemanden vor etwas bewahren) a zachovať niečo cenné alebo nezmenené (Ruhe, Traditionen, Erinnerungen).",
+        "Pravidelné sloveso: er bewahrt, bewahrte, hat bewahrt. Ochrana: bewahren vor + datív (koho? pred čím?). Zachovanie: akuzatív — die Ruhe bewahren. Uchovať tajomstvo: ein Geheimnis bewahren.",
+        "Slovo patrí k vyššiemu štýlu ako behalten (ponechať si) alebo aufheben (odložiť, uschovať)."
       ],
       "examples": [
         {
-          "de": "Wir bewahren die Traditionen.",
-          "lv": "Podtrzymujemy tradycje."
+          "de": "Bitte bewahren Sie Ruhe!",
+          "lv": "Zachovajte, prosím, pokoj!"
         },
         {
-          "de": "Sie bewahren die Ruhe in der Krise.",
-          "lv": "Zachowują spokój w kryzysie."
+          "de": "Der Helm hat ihn vor Schlimmerem bewahrt.",
+          "lv": "Prilba ho uchránila pred horším."
         },
         {
-          "de": "Wir bewahren die Traditionen.",
-          "lv": "Podtrzymujemy tradycje."
+          "de": "Er bewahrte das Geheimnis jahrelang.",
+          "lv": "Roky uchovával to tajomstvo."
         },
         {
-          "de": "bewahren",
-          "lv": "Chronić/zachowywać • Aufrechterhalten"
+          "de": "Wir wollen diese Tradition bewahren.",
+          "lv": "Chceme zachovať túto tradíciu."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "aufbewahren",
+          "meaning": "uschovať, odložiť",
+          "example": "Bewahre die Quittung auf! – Odlož si pokladničný doklad!"
+        },
+        {
+          "word": "schützen",
+          "meaning": "chrániť",
+          "example": "Der Zaun schützt vor dem Wind. – Plot chráni pred vetrom."
+        },
+        {
+          "word": "behalten",
+          "meaning": "ponechať si",
+          "example": "Du kannst das Buch behalten. – Knihu si môžeš ponechať."
         }
       ],
       "tip": [
-        "Bewahren = chronić",
-        "Użyj bewahren, gdy kontekst pasuje do tego znaczenia."
+        "Zapamätaj si ustálené spojenie: Ruhe bewahren — zachovať pokoj.",
+        "Chrániť pred niečím: bewahren vor + datív (vor Schaden, vor Gefahr)."
       ],
       "important": [
-        "Bewahren: Wertvolles bewahren – chroń to, co cenne.",
-        "Niepoprawnie: Wir bewahren den Frieden auf. → Poprawnie: Wir erhalten den Frieden auf.",
-        "Bewahren → chronić, zachować."
+        "Bewahren nie je to isté ako aufbewahren: to je fyzické uschovanie, kým bewahren znamená zachovať alebo chrániť.",
+        "Príčastie perfekta je bewahrt (bez ge-)."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "bewahren"
+            "bewahren",
+            "bewahrt",
+            "bewahrte",
+            "behalten",
+            "vor",
+            "Ruhe bewahren"
+          ],
+          "purple": [
+            "chrániť",
+            "zachovať",
+            "uchovať"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "bewahren",
                 "bewahren"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Zachovajte"
+              ]
+            }
           },
           {
             "de": {
               "blue": [
-                "bewahren",
-                "bewahren"
+                "bewahrt"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "uchránila"
+              ]
+            }
           },
           {
             "de": {
               "blue": [
-                "bewahren",
-                "bewahren"
+                "bewahrte"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "uchovával"
+              ]
+            }
           },
           {
             "de": {
               "blue": [
-                "bewahren",
                 "bewahren"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "zachovať"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "aufbewahren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "uschovať"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "schützen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "chrániť"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "behalten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ponechať"
+              ]
+            }
           }
         ],
         "tip": [
           {
-            "purple": [
-              "pasuje"
+            "blue": [
+              "bewahren",
+              "Ruhe bewahren"
             ]
           },
-          {}
+          {
+            "blue": [
+              "bewahren",
+              "vor"
+            ]
+          }
         ],
         "important": [
           {
             "blue": [
               "bewahren"
+            ],
+            "green": [
+              "aufbewahren"
+            ]
+          },
+          {
+            "blue": [
+              "bewahrt"
             ]
           }
         ]
@@ -4500,73 +6724,180 @@ const C1_WORDS = [
   },
   {
     "de": "aufrechterhalten",
-    "lv": "Utrzymać w mocy",
+    "lv": "udržiavať • zachovať",
     "level": "C1",
     "study": {
       "id": "c1-aufrechterhalten",
       "layout": "standardStudy",
-      "translation": "Utrzymać w mocy",
+      "translation": "udržiavať • zachovať",
       "explanation": [
-        "Główna idea: zapewnienie dalszego istnienia stanu, porządku lub relacji.",
-        "Aufrechterhalten oznacza przede wszystkim: zapewnienie kontynuacji.",
-        "Często charakteryzuje się: utrzymaniem stanu.",
-        "Aufrechterhalten oznacza utrzymywanie w mocy stanu, systemu lub relacji – w celu zapewnienia ciągłości."
+        "Hlavná myšlienka: aufrechterhalten znamená udržiavať, nestratiť: zachovať niečo v platnosti alebo v chode (poriadok, kontakt, tvrdenie, ponuku).",
+        "Odlučiteľné sloveso: er erhält aufrecht, erhielt aufrecht, hat aufrechterhalten. To, čo sa udržiava, je v akuzatíve. S neurčitkom so zu: aufrechtzuerhalten.",
+        "Veľmi často sa spája s Ordnung, Kontakt, Verbindung, Behauptung, Forderung."
       ],
       "examples": [
         {
-          "de": "Der Staat erhält die Ordnung auf.",
-          "lv": "Państwo utrzymuje w mocy porządek."
+          "de": "Der Staat erhält die Ordnung aufrecht.",
+          "lv": "Štát udržiava poriadok."
         },
         {
-          "de": "Man muss den Betrieb aufrechterhalten.",
-          "lv": "Musi utrzymać działanie w mocy."
+          "de": "Sie haben den Kontakt über Jahre aufrechterhalten.",
+          "lv": "Roky udržiavali kontakt."
         },
         {
-          "de": "Der Staat erhält die Ordnung auf.",
-          "lv": "Państwo utrzymuje porządek."
+          "de": "Wir können dieses Angebot nicht länger aufrechterhalten.",
+          "lv": "Túto ponuku už nemôžeme dlhšie zachovať v platnosti."
+        },
+        {
+          "de": "Er erhielt seine Behauptung aufrecht.",
+          "lv": "Trval na svojom tvrdení."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "erhalten",
+          "meaning": "zachovať",
+          "example": "Wir erhalten das Gebäude. – Zachovávame budovu."
+        },
+        {
+          "word": "beibehalten",
+          "meaning": "ponechať bez zmeny",
+          "example": "Wir behalten den Plan bei. – Plán ponechávame bez zmeny."
+        },
+        {
+          "word": "pflegen",
+          "meaning": "udržiavať, pestovať",
+          "example": "Sie pflegt Kontakte. – Udržiava kontakty."
         }
       ],
       "tip": [
-        "Aufrechterhalten = utrzymać w mocy",
-        "Użyj aufrechterhalten, gdy kontekst pasuje do tego znaczenia."
+        "Pamätaj na odlučovanie: Er erhält die Ordnung aufrecht, ale …, dass er die Ordnung aufrechterhält.",
+        "Pri kontakte povieš: den Kontakt aufrechterhalten (alebo pflegen)."
       ],
       "important": [
-        "Aufrechterhalten: Ordnung/Frieden/Stabilität aufrechterhalten.",
-        "Aufrechterhalten → zachować w mocy.",
-        "Aby zapewnić dalsze istnienie stanu, porządku lub relacji."
+        "V perfekte je aufrechterhalten jedno slovo, bez ge-: hat aufrechterhalten."
       ],
       "sectionAccents": {
         "explanation": {
-          "green": [
+          "blue": [
             "aufrechterhalten",
-            "erhalt"
+            "erhält aufrecht",
+            "erhielt aufrecht",
+            "aufrechtzuerhalten",
+            "erhält",
+            "erhielt"
+          ],
+          "purple": [
+            "udržiavať",
+            "zachovať"
           ]
         },
         "examples": [
           {
-            "de": {},
-            "lv": {}
+            "de": {
+              "blue": [
+                "erhält"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "udržiava"
+              ]
+            }
           },
           {
             "de": {
-              "green": [
-                "aufrechterhalten",
+              "blue": [
                 "aufrechterhalten"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "udržiavali"
+              ]
+            }
           },
           {
-            "de": {},
-            "lv": {}
+            "de": {
+              "blue": [
+                "aufrechterhalten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "zachovať"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "erhielt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Trval"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "erhalten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "zachovať"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "beibehalten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "bez zmeny"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "pflegen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "pestovať"
+              ]
+            }
           }
         ],
         "tip": [
-          {}
+          {
+            "blue": [
+              "erhält"
+            ]
+          },
+          {
+            "blue": [
+              "aufrechterhalten"
+            ],
+            "green": [
+              "pflegen"
+            ]
+          }
         ],
         "important": [
           {
-            "green": [
+            "blue": [
               "aufrechterhalten"
             ]
           }
@@ -4578,49 +6909,49 @@ const C1_WORDS = [
     "de": "Hektar",
     "de_article": "der",
     "de_plural": "die Hektar",
-    "lv": "Hektar",
+    "lv": "hektár",
     "level": "C1"
   },
   {
     "de": "Karre",
     "de_article": "die",
     "de_plural": "die Karren",
-    "lv": "Taczki",
+    "lv": "fúrik • kára",
     "level": "C1"
   },
   {
     "de": "Karren",
     "de_article": "der",
     "de_plural": "die Karren",
-    "lv": "Taczki",
+    "lv": "fúrik • kára",
     "level": "C1"
   },
   {
     "de": "Krüppel",
     "de_article": "der",
     "de_plural": "die Krüppel",
-    "lv": "Kaleka",
+    "lv": "mrzák",
     "level": "C1"
   },
   {
     "de": "Matsch",
     "de_article": "der",
     "de_plural": "die Matsche",
-    "lv": "Błoto • Błoto pośniegowe",
+    "lv": "blato • brečka",
     "level": "C1"
   },
   {
     "de": "Panter",
     "de_article": "der",
     "de_plural": "die Panter",
-    "lv": "Panter",
+    "lv": "panter",
     "level": "C1"
   },
   {
     "de": "Panther",
     "de_article": "der",
     "de_plural": "die Panther",
-    "lv": "Panter",
+    "lv": "panter",
     "level": "C1"
   }
 ];
