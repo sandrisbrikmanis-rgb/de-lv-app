@@ -1,0 +1,302 @@
+{
+  "g2/a1/is|erst|idx:165|lv; study.translation; study.examples; study.comparison|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"fyrst • ekki fyrr en\",\"study.translation\":\"fyrst • ekki fyrr en\",\"study.examples[0].lv\":\"Fyrst lærum við, svo leikum við.\",\"study.examples[1].lv\":\"Ég kem ekki fyrr en á morgun.\",\"study.examples[2].lv\":\"Hann er aðeins 18 ára gamall.\",\"study.examples[3].lv\":\"Við borðum ekki fyrr en klukkan átta.\",\"study.comparison[0].meaning\":\"fyrst / ekki fyrr en\",\"study.comparison[0].example\":\"Erst lernen, dann spielen. – Fyrst lærum við, svo leikum við.\",\"study.comparison[1].meaning\":\"fyrst (röð)\",\"study.comparison[1].example\":\"Zuerst frühstücken wir. – Fyrst borðum við morgunverð.\",\"study.comparison[2].meaning\":\"aðeins\",\"study.comparison[2].example\":\"Ich habe nur 5 Euro. – Ég á aðeins 5 evrur.\",\"study.comparison[3].meaning\":\"þá\",\"study.comparison[3].example\":\"Dann gehen wir nach Hause. – Þá förum við heim.\"}",
+    "owner_note": "IS erst gala: ex[0]+cmp[0]→Fyrst lærum við, svo leikum við natural IS. DE untouched."
+  },
+  "g2/a1/is|erste|idx:166|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"fyrsti\"}",
+    "owner_note": "IS erste lv: NO Den første→fyrsti for pirmais first. DE untouched."
+  },
+  "g2/a1/is|es|idx:167|lv; study.translation; study.explanation; study.examples; study.comparison|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"það\",\"study.translation\":\"það\",\"study.explanation\":[\"Meginhugsun: es er fornafn fyrir hlutlaust kyn.\",\"Það er notað í veðurfars- og almennum setningum: það rignir, það er kalt.\",\"Ekki rugla við persónufornöfn.\"],\"study.examples[0].lv\":\"Það rignir.\",\"study.examples[1].lv\":\"Það er kalt.\",\"study.examples[2].lv\":\"Barnið sefur.\",\"study.examples[3].lv\":\"Það er þreytt.\",\"study.examples[4].lv\":\"Það rignir.\",\"study.examples[5].lv\":\"Það snjóar.\",\"study.comparison[0].meaning\":\"það (ópersónulegt)\",\"study.comparison[0].example\":\"Es regnet. – Það rignir.\",\"study.comparison[1].meaning\":\"ég (persóna)\",\"study.comparison[1].example\":\"Ich lerne Deutsch. – Ég læri þýsku.\"}",
+    "owner_note": "IS es composite: ET/NO Se/Ta/Det→það throughout study fields for tas. DE untouched."
+  },
+  "g2/a1/is|essen|idx:690|lv|TARGET_LANGUAGE_MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"borða\"}",
+    "owner_note": "IS essen lv: garbage Sy→borða for ēst eat. DE untouched."
+  },
+  "g2/a1/is|Essen|idx:691|lv; study.translation; study.explanation; study.examples[].lv|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"matur • máltíð\",\"study.translation\":\"matur • máltíð\",\"study.explanation\":[\"Meginhugsun: das Essen er nafnorð — matur eða máltíð.\",\"Das Essen þýðir aðallega mat eða máltíð.\",\"Essen (sögn) þýðir að borða.\",\"Ekki rugla sögn og nafnorð.\"],\"study.examples[0].lv\":\"Maturinn er góður.\",\"study.examples[1].lv\":\"Hvað viltu borða?\",\"study.examples[2].lv\":\"Við borðum klukkan tólf.\",\"study.tip[0]\":\"das Essen = matur/máltíð\",\"study.tip[1]\":\"essen = borða\",\"study.important[0]\":\"Essen er sögn án greinis.\",\"study.important[1]\":\"Das Essen er ekki sama og essen.\"}",
+    "owner_note": "IS Essen composite: NO Toalett/ET→matur•máltíð throughout for ēdiens•maltīte. DE untouched."
+  },
+  "g2/a1/is|Esslöffel|idx:168|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"matarskeið\"}",
+    "owner_note": "IS Esslöffel lv: ET Supilusika→matarskeið for ēdamkarote spoon. DE untouched."
+  },
+  "g2/a1/is|etwas|idx:169|lv; study.translation; study.explanation; study.examples; study.comparison|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"eitthvað • dálítið\",\"study.translation\":\"eitthvað • dálítið\",\"study.explanation\":[\"Meginhugsun: etwas getur þýtt eitthvað eða dálítið eftir samhengi.\",\"Þegar etwas stendur fyrir hlut, þýðir það eitthvað.\",\"Fyrir framan lýsingarorð eða magn getur etwas þýtt dálítið.\"],\"study.examples[0].lv\":\"Ég vil drekka eitthvað.\",\"study.examples[1].lv\":\"Áttu dálítið tíma?\",\"study.examples[2].lv\":\"Ég er dálítið þreyttur.\",\"study.examples[3].lv\":\"Ég á eitthvað handa þér.\",\"study.examples[4].lv\":\"Þetta er dálítið dýrt.\",\"study.comparison[0].meaning\":\"eitthvað / dálítið\",\"study.comparison[0].example\":\"Ich brauche etwas. – Ég þarf eitthvað.\",\"study.comparison[1].meaning\":\"eitthvað (tal)\",\"study.comparison[1].example\":\"Willst du was trinken? – Viltu drekka eitthvað?\",\"study.comparison[2].meaning\":\"dálítið\",\"study.comparison[2].example\":\"Ich bin ein bisschen müde. – Ég er dálítið þreyttur.\",\"study.comparison[3].meaning\":\"ekkert\",\"study.comparison[3].example\":\"Ich brauche nichts. – Ég þarf ekki neitt.\"}",
+    "owner_note": "IS etwas composite: ET/NO Midagi/Veidi→eitthvað•dálítið throughout for kaut kas. DE untouched."
+  },
+  "g2/a1/is|euch|idx:170|study|TARGET_LOCALE_CONTAMINATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"ykkur\",\"study.explanation\":\"„euch“ er fornafn í fleirtölu í þolfalli og datívi. Það þýðir ykkur — bæði sem beint og óbeint hlutfall.\",\"study.examples[0].lv\":\"Ég sé ykkur.\",\"study.examples[1].lv\":\"Ég hjálpa ykkur.\",\"study.examples[2].lv\":\"Ég gef ykkur bókina.\",\"study.examples[3].lv\":\"Ég þakka ykkur.\",\"study.examples[4].lv\":\"Þið munduð eftir.\",\"study.comparison[0].meaning\":\"þið (nefnifall)\",\"study.comparison[0].example\":\"Ihr seid freundlich. – Þið eruð vinaleg.\",\"study.comparison[1].meaning\":\"ykkur\",\"study.comparison[1].example\":\"Ich helfe euch. – Ég hjálpa ykkur.\",\"study.comparison[2].meaning\":\"ykkar\",\"study.comparison[2].example\":\"Das ist euer Haus. – Það er ykkar hús.\",\"study.tip.text\":\"Mundu: euch svarar til „hverjum?“ eða er beint hlutfall með „þið“.\",\"study.tip.example\":\"Ég hjálpa ykkur. = Ich helfe euch. Ég sé ykkur. = Ich sehe euch.\"}",
+    "owner_note": "IS euch composite: ET/NO Teid/Jeg→ykkur throughout study for jūs•jums. DE untouched."
+  },
+  "g2/a1/is|euer|idx:171|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"ykkar\"}",
+    "owner_note": "IS euer lv: ET Tei→ykkar for jūsu your (pl). DE untouched."
+  },
+  "g2/a1/is|fahren|idx:172|study|TARGET_LOCALE_CONTAMINATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"keyra • fara með\",\"study.explanation\":[\"Meginhugsun: fahren þýðir að keyra eða fara með farartæki.\",\"Fahren er notað með bíl, strætisvagni, lest eða hjóli.\",\"Stundum þýðir fahren að fara með einhvern á ákveðinn stað.\",\"Til fóts notaðu gehen eða laufen.\"],\"study.examples[0].lv\":\"Ég keyri til Berlínar.\",\"study.examples[1].lv\":\"Ég fer með bílnum.\",\"study.examples[2].lv\":\"Ég keyri dóttur mína í skólann.\",\"study.examples[3].lv\":\"Ég keyri þig heim.\",\"study.examples[4].lv\":\"Við keyrum til München á morgun.\",\"study.comparison[0].meaning\":\"keyra\",\"study.comparison[0].example\":\"Ég keyri með strætisvagni.\",\"study.comparison[1].meaning\":\"ganga\",\"study.comparison[1].example\":\"Ég fer heim.\",\"study.comparison[2].meaning\":\"hlaupa\",\"study.comparison[2].example\":\"Hann hljóp hratt.\",\"study.comparison[3].meaning\":\"bera / koma með\",\"study.comparison[3].example\":\"Ég kem með bókina.\",\"study.comparison[4].meaning\":\"taka með sér\",\"study.comparison[4].example\":\"Ég tek þig með mér.\",\"study.tip.text\":\"Mundu: farartæki → fahren; á fótum → gehen.\",\"study.important.text\":\"Fahren ≠ bara „keyra“\",\"study.important.example\":\"Fahren getur þýtt keyra, fara með eða aka eftir samhengi.\"}",
+    "owner_note": "IS fahren composite: ET/NO Sõitma/Jeg→keyra•fara með throughout for braukt. DE untouched."
+  },
+  "g2/a1/is|Familie|idx:174|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"fjölskylda\"}",
+    "owner_note": "IS Familie lv: ET Perecond→fjölskylda for ģimene family. DE untouched."
+  },
+  "g2/a1/is|Farbe|idx:176|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"litur\"}",
+    "owner_note": "IS Farbe lv: NO Rekruttering→litur for krāsa color. DE untouched."
+  },
+  "g2/a1/is|fast|idx:177|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"næstum\"}",
+    "owner_note": "IS fast lv: NO Nesten→næstum for gandrīz almost. DE untouched."
+  },
+  "g2/a1/is|Fehler|idx:179|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"villa\"}",
+    "owner_note": "IS Fehler lv: NO Gift deg→villa for kļūda error. DE untouched."
+  },
+  "g2/a1/is|Fenster|idx:180|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"gluggi\"}",
+    "owner_note": "IS Fenster lv: NL Aken→gluggi for logs window. DE untouched."
+  },
+  "g2/a1/is|Ferien|idx:694|lv; study.translation; study.explanation; study.examples[].lv|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"skólafrí\",\"study.translation\":\"skólafrí\",\"study.explanation\":[\"Meginhugsun: die Ferien eru aðeins í fleirtölu.\",\"Die Ferien þýðir skólafrí eða frídagar frá skóla.\",\"Notað: in den Ferien (í fríinu).\",\"Ekki rugla við Urlaub (frí frá vinnu).\"],\"study.examples[0].lv\":\"Í fríinu ferðum við til sjávar.\",\"study.examples[1].lv\":\"Í fríinu á ég mikinn tíma.\",\"study.examples[2].lv\":\"Hvað gerir þú í fríinu?\",\"study.examples[3].lv\":\"Skólinn er lokaður í fríinu.\",\"study.comparison[0].meaning\":\"skólafrí (fleirtala)\",\"study.comparison[0].example\":\"In den Ferien fahren wir weg. – Í fríinu ferðum við í ferðalag.\",\"study.comparison[1].meaning\":\"orlof (eintala)\",\"study.comparison[1].example\":\"Mein Vater ist im Urlaub. – Faðir minn er í orlofi.\",\"study.important[0]\":\"Rangt: in der Ferien\",\"study.important[1]\":\"Rétt: in den Ferien\"}",
+    "owner_note": "IS Ferien composite: ET Vaheag→skólafrí throughout for brīvdienas skola. DE untouched."
+  },
+  "g2/a1/is|Fernsehen|idx:688|lv|TARGET_LANGUAGE_MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"sjónvarp\"}",
+    "owner_note": "IS Fernsehen lv: NO Fjernsyn→sjónvarp for televīzija TV. DE untouched."
+  },
+  "g2/a1/is|Fernseher|idx:182|lv|LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"sjónvarpstæki\"}",
+    "owner_note": "IS Fernseher lv: NO Ringer→sjónvarpstæki for televizors TV set. DE untouched."
+  },
+  "g2/a1/is|fertig|idx:183|lv|LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"tilbúinn\"}",
+    "owner_note": "IS fertig lv: NO Ferdig→tilbúinn for gatavs ready. DE untouched."
+  },
+  "g2/a1/is|fett|idx:184|lv|LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"feitur\"}",
+    "owner_note": "IS fett lv: garbage Rasevane→feitur for trekns fatty. DE untouched."
+  },
+  "g2/a1/is|Film|idx:185|lv|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"kvikmynd\"}",
+    "owner_note": "IS Film lv: DE Film→kvikmynd for filma movie. DE untouched."
+  },
+  "g2/a1/is|Filzstift|idx:186|lv|LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"filctúss\"}",
+    "owner_note": "IS Filzstift lv: ET Ville pliiater→filctúss for flomāsters marker. DE untouched."
+  },
+  "g2/a1/is|finden|idx:187|study|TARGET_LOCALE_CONTAMINATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"finna • finnast\",\"study.explanation\":[\"Meginhugsun: finden þýðir oftast að finna.\",\"Í talmáli getur finden líka þýtt að finnast eða telja.\",\"Ef talað er um týnda hlut, þýðir finden að finna.\",\"Ef talað er um skoðun, þýðir ich finde... að mér finnst...\"],\"study.examples[0].lv\":\"Ég finn lykilinn minn.\",\"study.examples[1].lv\":\"Mér finnst þetta gott.\",\"study.examples[2].lv\":\"Hvað finnst þér um myndina?\",\"study.examples[3].lv\":\"Hvað finnst þér um myndina?\",\"study.comparison[0].meaning\":\"finna / finnast\",\"study.comparison[0].example\":\"Ich finde das gut. – Mér finnst þetta gott.\",\"study.comparison[1].meaning\":\"leita að\",\"study.comparison[1].example\":\"Ich suche den Schlüssel. – Ég leita að lyklinum.\",\"study.comparison[2].meaning\":\"hugsa\",\"study.comparison[2].example\":\"Ich denke an dich. – Ég hugsa um þig.\",\"study.comparison[3].meaning\":\"trúa / telja\",\"study.comparison[3].example\":\"Ich glaube, er kommt. – Ég tel að hann komi.\",\"study.tip.text\":\"Mundu: týndur hlutur → finden; skoðun → ich finde...\",\"study.important[0]\":\"finden er ekki bara „finna“.\",\"study.important[1]\":\"Ich finde das gut þýðir mér finnst þetta gott.\"}",
+    "owner_note": "IS finden gala: ex[3] Hvernig→Hvað finnst þér um myndina; full DE↔IS alignment. DE untouched."
+  },
+  "g2/a1/is|Finger|idx:188|lv|LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"fingur\"}",
+    "owner_note": "IS Finger lv: HU Sorm→fingur for pirksts finger. DE untouched."
+  },
+  "g2/a1/is|Fisch|idx:189|lv|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"fiskur\"}",
+    "owner_note": "IS Fisch lv: NO Skallet→fiskur for zivs fish. DE untouched."
+  },
+  "g2/a1/is|Flasche|idx:190|lv|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"flaska\"}",
+    "owner_note": "IS Flasche lv: NO Puddel→flaska for pudele bottle. DE untouched."
+  },
+  "g2/a1/is|Fleisch|idx:191|lv|LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"kjöt\"}",
+    "owner_note": "IS Fleisch lv: ET Liha→kjöt for gaļa meat. DE untouched."
+  },
+  "g2/a1/is|fliegen|idx:192|lv|LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"fljúga\"}",
+    "owner_note": "IS fliegen lv: ET Lendama→fljúga for lidot fly. DE untouched."
+  },
+  "g2/a1/is|Flugzeug|idx:193|lv|LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"flugvél\"}",
+    "owner_note": "IS Flugzeug lv: ET Lennuk→flugvél for lidmašīna airplane. DE untouched."
+  },
+  "g2/a1/is|Fluss|idx:194|lv|LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"á\"}",
+    "owner_note": "IS Fluss lv: ET Jogi→á for upe river. DE untouched."
+  },
+  "g2/a1/is|Frage|idx:196|lv|LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"spurning\"}",
+    "owner_note": "IS Frage lv: NO Spørsmål→spurning for jautājums question. DE untouched."
+  },
+  "g2/a1/is|fragen|idx:197|lv|LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"spyrja\"}",
+    "owner_note": "IS fragen lv: ET Kusima→spyrja for jautāt ask. DE untouched."
+  },
+  "g2/a1/is|Frau|idx:198|study|TARGET_LOCALE_CONTAMINATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"kona • eiginkona\",\"study.explanation\":[\"Meginhugsun: die Frau getur þýtt konu eða eiginkonu.\",\"Án eignarfornafns þýðir die Frau venjulega konu.\",\"Með eignarfornafni (meine Frau) þýðir það eiginkonu.\",\"Fleirtala: die Frauen.\"],\"study.examples[0].lv\":\"Hún er góð kona.\",\"study.examples[1].lv\":\"Þetta er eiginkona mín.\",\"study.examples[2].lv\":\"Hversu margar konur eru hér?\",\"study.examples[3].lv\":\"Eiginkona mín vinnur í Berlín.\",\"study.examples[4].lv\":\"Konan er í kjól.\",\"study.examples[5].lv\":\"Eiginkona hans er læknir.\",\"study.tip[0]\":\"Með eignarfornafni er Frau næstum alltaf eiginkona.\",\"study.tip[1]\":\"Án eignarfornafns er venjulega átt við konu.\",\"study.important[0]\":\"die Frau = kona EÐA eiginkona.\",\"study.important[1]\":\"meine Frau = eiginkona mín.\",\"study.important[2]\":\"Fleirtala: die Frauen.\"}",
+    "owner_note": "IS Frau composite: ET/NO Naine/Se på→kona•eiginkona throughout for sieviete. DE untouched."
+  },
+  "g2/a1/is|frei|idx:199|lv|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"laus\"}",
+    "owner_note": "IS frei lv: garbage Wow→laus for brīvs free. DE untouched."
+  },
+  "g2/a1/is|Freitag|idx:200|lv|LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"föstudagur\"}",
+    "owner_note": "IS Freitag lv: ET Reed→föstudagur for piektdiena Friday. DE untouched."
+  },
+  "g2/a1/is|Freundin|idx:202|lv|LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"vinkona\"}",
+    "owner_note": "IS Freundin lv: ET Sõbratar→vinkona for draudzene girlfriend/friend. DE untouched."
+  },
+  "g2/a1/is|freundlich|idx:203|lv|LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"vinalegur\"}",
+    "owner_note": "IS freundlich lv: ET Sõbralik→vinalegur for laipns friendly. DE untouched."
+  },
+  "g2/a1/is|frisch|idx:204|lv|LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"ferskur\"}",
+    "owner_note": "IS frisch lv: NO Fersk→ferskur for svaigs fresh. DE untouched."
+  },
+  "g2/a1/is|früh|idx:205|lv|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"snemma\"}",
+    "owner_note": "IS früh lv: garbage Punkt→snemma for agrs early. DE untouched."
+  },
+  "g2/a1/is|Frühling|idx:206|lv|LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"vor\"}",
+    "owner_note": "IS Frühling lv: ET Kevad→vor for pavasaris spring. DE untouched."
+  },
+  "g2/a1/is|Frühstück|idx:207|lv|LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"morgunmatur\"}",
+    "owner_note": "IS Frühstück lv: ET Hommikusöök→morgunmatur for brokastis breakfast. DE untouched."
+  },
+  "g2/a1/is|für|idx:216|study|TARGET_LOCALE_CONTAMINATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"fyrir\",\"study.explanation\":[\"Meginhugsun: für er forsetning sem krefst alltaf þolfalls.\",\"Þegar talað er um viðtakanda eða tilgang, þýðir für fyrir.\",\"Þegar talað er um skipti, ástæðu eða greiðslu, þýðir für líka fyrir.\",\"Für krefst alltaf þolfalls.\"],\"study.examples[0].lv\":\"Þetta er handa þér.\",\"study.examples[1].lv\":\"Takk fyrir hjálpina.\",\"study.examples[2].lv\":\"Ég kaupi gjöf handa mömmu.\",\"study.examples[3].lv\":\"Hvað borgar þú fyrir bílinn?\",\"study.examples[4].lv\":\"Bókin er fyrir börn.\",\"study.examples[5].lv\":\"Þetta er nóg í dag.\",\"study.tip[0]\":\"für krefst alltaf þolfalls.\",\"study.tip[1]\":\"Viðtakandi/tilgangur → fyrir; skipti/ástæða → fyrir.\",\"study.important[0]\":\"für + þolfall alltaf, t.d. für mich, für dich.\",\"study.important[1]\":\"danke für = takk fyrir; bezahlen für = borga fyrir.\"}",
+    "owner_note": "IS für gala: important[1] danke/bezahlen split; ex[5]→Þetta er nóg í dag for Für heute. DE untouched."
+  },
+  "g2/a1/is|Fußball|idx:218|lv, study.explanation, study.comparison, study.tip, study.important|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"knattspyrna\",\"study.explanation\":[\"Meginhugsun: Fußball án greinis þýðir knattspyrnu sem íþrótt.\",\"Der Fußball með greini þýðir knattspyrnuboltann.\",\"Die Fußbälle þýðir knattspyrnubolta eða fótbolta.\",\"Ekki rugla íþróttina og boltann.\"],\"study.comparison[0].meaning\":\"knattspyrna (íþrótt)\",\"study.comparison[0].example\":\"Ich spiele Fußball. – Ég spila knattspyrnu.\",\"study.comparison[1].meaning\":\"knattspyrnubolti\",\"study.comparison[1].example\":\"Der Fußball ist neu. – Knattspyrnuboltinn er nýr.\",\"study.tip[0]\":\"Án greinis þýðir spielen Fußball að spila knattspyrnu.\",\"study.tip[1]\":\"Der Fußball = boltinn; die Fußbälle = boltarnir.\",\"study.important[0]\":\"die Fußbälle = knattspyrnuboltar/fótboltar.\",\"study.important[1]\":\"Fußball ≠ der Fußball — íþrótt vs bolti.\"}",
+    "owner_note": "IS Fußball gala: sport vs ball distinction; der Fußball=knattspyrnubolti not knattspyrnan. DE untouched."
+  },
+  "g2/a1/is|ganz|idx:219|lv, study.*|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"allur • alveg\",\"study.translation\":\"allur • alveg\",\"study.explanation\":[\"Meginhugsun: ganz með nafnorði þýðir allur eða allt í heild.\",\"Fyrir framan lýsingarorð getur ganz þýtt alveg eða dálítið.\",\"ganz er ekki sama og fornafnið alles.\"],\"study.examples[0].lv\":\"Ég vinn alla daginn.\",\"study.examples[1].lv\":\"Allt húsið er hreint.\",\"study.examples[2].lv\":\"Þetta er alveg öruggt.\",\"study.examples[3].lv\":\"Maturinn er alveg góður.\",\"study.comparison[0].meaning\":\"allur • allt í heild • alveg\",\"study.comparison[0].example\":\"der ganze Tag – allan daginn\",\"study.comparison[1].meaning\":\"allt\",\"study.comparison[1].example\":\"Alles ist gut. – Allt er gott.\",\"study.tip[0]\":\"Fyrir framan nafnorð þýðir ganz oft allt eða allur.\",\"study.tip[1]\":\"Fyrir framan lýsingarorð þýðir ganz oft alveg eða dálítið.\",\"study.important[0]\":\"der ganze Tag = allan daginn.\",\"study.important[1]\":\"alles = allt sem fornafn.\"}",
+    "owner_note": "IS ganz composite: DE Hallo/LV leak→allur•alveg + full IS examples for vesels. DE untouched."
+  },
+  "g2/a1/is|geben|idx:223|lv, study.explanation, study.comparison, study.tip, study.important|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"gefa\",\"study.translation\":\"gefa\",\"study.explanation\":[\"Meginhugsun: geben þýðir að gefa.\",\"Geben er notað þegar eitthvað er gefið til einhvers.\",\"Andstæða er nehmen — taka.\",\"Bekommen þýðir að fá, ekki gefa.\"],\"study.comparison[0].meaning\":\"gefa\",\"study.comparison[0].example\":\"Gib mir das Buch. – Gef mér bókina.\",\"study.comparison[1].meaning\":\"taka\",\"study.comparison[1].example\":\"Ich nehme das Buch. – Ég tek bókina.\",\"study.comparison[2].meaning\":\"fá\",\"study.comparison[2].example\":\"Ich bekomme ein Geschenk. – Ég fæ gjöf.\",\"study.comparison[3].meaning\":\"bera / koma með\",\"study.comparison[3].example\":\"Ich bringe dir das Buch. – Ég kem með bókina til þín.\",\"study.tip.text\":\"Mundu: gefa til einhvers → geben; taka → nehmen.\",\"study.important[0]\":\"geben og nehmen eru gagnstæðar áttir.\",\"study.important[1]\":\"bekommen þýðir fá, ekki gefa.\"}",
+    "owner_note": "IS geben composite: NO Puste/ET→gefa throughout for dot give. DE untouched."
+  },
+  "g2/a1/is|gefallen|idx:225|lv, study.explanation, study.comparison, study.tip, study.important|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"finnast\",\"study.explanation\":[\"Meginhugsun: gefallen þýðir finnast, en þýsk setningarbygging er frábrugðin íslensku.\",\"Hluturinn sem finnst er aðalgreinir í þýsku setningu.\",\"Sá sem finnst eitthvað er í þolfalli: mir, dir, ihm, ihr, uns, euch, ihnen.\"],\"study.comparison[0].meaning\":\"finnast • persóna í þolfalli\",\"study.comparison[0].example\":\"Das gefällt mir. – Mér finnst þetta gott.\",\"study.comparison[1].meaning\":\"finnast • kjósa með gleði\",\"study.comparison[1].example\":\"Ich mag das. – Mér finnst þetta gott.\",\"study.tip[0]\":\"Mundu smíðina: Das gefällt mir.\",\"study.tip[1]\":\"Ekki mynda bóklega íslenska orðaröð.\",\"study.important[0]\":\"gefallen er notað með þolfalli: mir, dir, ihm, ihr.\",\"study.important[1]\":\"Das gefällt mir = mér finnst þetta gott.\"}",
+    "owner_note": "IS gefallen composite: ET Meeldima→finnast throughout for patikt. DE untouched."
+  },
+  "g2/a1/is|Gemüse|idx:692|lv; study.translation; study.explanation; study.examples[].lv|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"grænmeti\",\"study.translation\":\"grænmeti\",\"study.explanation\":[\"Meginhugsun: das Gemüse þýðir grænmeti almennt.\",\"Das Gemüse er venjulega notað í eintölu án fleirtölu.\",\"Rétt form: das Gemüse (hlutlaust kyn, eintala).\"],\"study.examples[0].lv\":\"Ég borða mikið af grænmeti.\",\"study.examples[1].lv\":\"Grænmetið er ferskt.\",\"study.examples[2].lv\":\"Við kaupum grænmeti á markaðnum.\",\"study.examples[3].lv\":\"Ég elska ávexti og grænmeti.\"}",
+    "owner_note": "IS Gemüse composite: NO Kjøkken-elskende/ET→grænmeti throughout for dārzeņi. DE untouched."
+  },
+  "g2/a1/is|Geschichte|idx:233|lv, study.explanation, study.comparison, study.tip, study.important|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"saga\",\"study.explanation\":[\"Meginhugsun: Geschichte getur þýtt sögu eða sagnfræði.\",\"Fleirtalan die Geschichten þýðir venjulega sögur.\",\"Sem námsgrein þýðir Geschichte sagnfræði.\"],\"study.comparison[0].meaning\":\"saga\",\"study.comparison[0].example\":\"eine interessante Geschichte – áhugaverð saga\",\"study.comparison[1].meaning\":\"sagnfræði\",\"study.comparison[1].example\":\"Geschichte lernen – læra sagnfræði\",\"study.tip[0]\":\"Með eine og fleirtölu er venjulega um söguna.\",\"study.tip[1]\":\"Sem námsgrein þýðir Geschichte sagnfræði.\",\"study.important[0]\":\"die Geschichten = sögur.\",\"study.important[1]\":\"Geschichte sem saga er venjulega í eintölu.\"}",
+    "owner_note": "IS Geschichte composite: confirm saga IS fields; sögu vs sagnfræði for stāsts. DE untouched."
+  },
+  "g2/a1/is|Geschwister|idx:234|lv, study.explanation, study.comparison, study.tip, study.important|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"systkin\",\"study.explanation\":[\"Meginhugsun: Geschwister þýðir systkin saman.\",\"Þetta orð er venjulega notað aðeins í fleirtölu.\",\"Fyrir eina persónu notaðu Bruder eða Schwester.\"],\"study.comparison[0].meaning\":\"systkin\",\"study.comparison[0].example\":\"Meine Geschwister – systkin mín\",\"study.comparison[1].meaning\":\"bróðir\",\"study.comparison[1].example\":\"mein Bruder – bróðir minn\",\"study.comparison[2].meaning\":\"systir\",\"study.comparison[2].example\":\"meine Schwester – systir mín\",\"study.tip[0]\":\"Geschwister er venjulega notað í fleirtölu.\",\"study.tip[1]\":\"Fyrir eina persónu veldu Bruder eða Schwester.\",\"study.important[0]\":\"Ekki nota ein Geschwister sem venjulegt A1 eintöluform.\"}",
+    "owner_note": "IS Geschwister composite: ET systkini/Vend/Õde→systkin•bróðir•systir for brāļi un māsas. DE untouched."
+  },
+  "g2/a1/is|gleich|idx:243|lv, study.translation, study.explanation, study.examples|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"strax • jafn\",\"study.translation\":\"strax • jafn\",\"study.explanation\":[\"Meginhugsun: gleich getur þýtt strax eða jafn eftir samhengi.\",\"Í tímasetningu þýðir gleich strax (Ich komme gleich).\",\"Í samanburði þýðir gleich jafn (die gleiche Farbe).\",\"Samhengið ræður merkinguna.\"],\"study.examples[0].lv\":\"Ég kem strax.\",\"study.examples[1].lv\":\"Við höfum sama litinn.\",\"study.examples[2].lv\":\"Maturinn er strax tilbúinn.\",\"study.examples[3].lv\":\"Báðar leiðirnar eru jafn langar.\",\"study.examples[4].lv\":\"Sjáumst strax!\",\"study.examples[5].lv\":\"Þau eru jafn há.\"}",
+    "owner_note": "IS gleich composite: ET Kohe/Ëësäkää→strax•jafn throughout for tūlīt. DE untouched."
+  }
+}
