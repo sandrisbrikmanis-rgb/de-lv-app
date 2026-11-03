@@ -3,1354 +3,1972 @@ const C1_WORDS = [
     "de": "Wahrnehmung",
     "de_article": "die",
     "de_plural": "die Wahrnehmungen",
-    "lv": "Taju",
+    "lv": "havaitseminen • havainto",
     "level": "C1"
   },
   {
     "de": "gewährleisten",
-    "lv": "Tagama",
+    "lv": "taata • varmistaa",
     "level": "C1"
   },
   {
     "de": "Auswirkung",
     "de_article": "die",
     "de_plural": "die Auswirkungen",
-    "lv": "Mõju",
+    "lv": "vaikutus",
     "level": "C1"
   },
   {
     "de": "umstritten",
-    "lv": "Vastuoluline",
+    "lv": "kiistanalainen",
     "level": "C1"
   },
   {
     "de": "Stellungnahme",
     "de_article": "die",
     "de_plural": "die Stellungnahmen",
-    "lv": "Ametlik avaldus • Seisukoha väljendamine",
+    "lv": "kannanotto • lausunto",
     "level": "C1"
   },
   {
     "de": "nachvollziehen",
-    "lv": "Mõista • Loogikat jälgida",
+    "lv": "ymmärtää • käsittää",
     "level": "C1"
   },
   {
     "de": "ausschlaggebend",
-    "lv": "Otsustav",
+    "lv": "ratkaiseva",
     "level": "C1"
   },
   {
     "de": "Belastbarkeit",
     "de_article": "die",
     "de_plural": "die Belastbarkeiten",
-    "lv": "Stressitaluvus • Koormustaluvus",
+    "lv": "paineensietokyky • kantokyky",
     "level": "C1"
   },
   {
     "de": "akkreditieren",
-    "lv": "Akrediteerima",
+    "lv": "akkreditoida",
     "level": "C1"
   },
   {
     "de": "Aktiengesellschaft",
     "de_article": "die",
     "de_plural": "die Aktiengesellschaften",
-    "lv": "Aktsiaselts",
+    "lv": "osakeyhtiö",
     "level": "C1"
   },
   {
     "de": "Aktionsprogramm",
     "de_article": "das",
     "de_plural": "die Aktionsprogramme",
-    "lv": "Tegevusprogramm",
+    "lv": "toimintaohjelma",
     "level": "C1"
   },
   {
     "de": "Alarmbereitschaft",
     "de_article": "die",
     "de_plural": "die Alarmbereitschaften",
-    "lv": "Häirevalmidus",
+    "lv": "hälytysvalmius",
     "level": "C1"
   },
   {
     "de": "Altweibersommer",
     "de_article": "der",
     "de_plural": "die Altweibersommer",
-    "lv": "Vananaistesuvi",
+    "lv": "intiaanikesä",
     "level": "C1"
   },
   {
     "de": "anfechten",
-    "lv": "Vaidlustama • Kahtluse alla seadma",
+    "lv": "kiistää • riitauttaa",
     "level": "C1"
   },
   {
     "de": "allerseits",
-    "lv": "Igast küljest",
+    "lv": "kaikkialta • kaikilta puolin",
     "level": "C1"
   },
   {
     "de": "anderweitig",
-    "lv": "Mujal • Teisiti",
+    "lv": "muualla • muuten",
     "level": "C1"
   },
   {
     "de": "Abrüstungsabkommen",
     "de_article": "das",
     "de_plural": "die Abrüstungsabkommen",
-    "lv": "Desarmeerimisleping",
+    "lv": "aseistariisuntasopimus",
     "level": "C1"
   },
   {
     "de": "Abrüstungsverhandlungen",
     "de_article": "die",
     "de_plural": "die Abrüstungsverhandlungen",
-    "lv": "Desarmeerimisläbirääkimised",
+    "lv": "aseistariisuntaneuvottelut",
     "level": "C1"
   },
   {
     "de": "Aal",
     "de_article": "der",
     "de_plural": "die Aale",
-    "lv": "Angerjas",
+    "lv": "ankerias",
     "level": "C1"
   },
   {
     "de": "Abart",
     "de_article": "die",
     "de_plural": "die Abarten",
-    "lv": "Kõrvalekalle • Aberratsioon",
+    "lv": "poikkeama • muunnos",
     "level": "C1"
   },
   {
     "de": "abstumpfen",
-    "lv": "Nüristama • Tundetuks tegema",
+    "lv": "tylsyttää • turruttaa",
     "level": "C1"
   },
   {
     "de": "Abtreibung",
     "de_article": "die",
     "de_plural": "die Abtreibungen",
-    "lv": "Abort",
+    "lv": "abortti • raskaudenkeskeytys",
     "level": "C1"
   },
   {
     "de": "Affekt",
     "de_article": "der",
     "de_plural": "die Affekte",
-    "lv": "Afektipurse",
+    "lv": "tunnekuohu • affekti",
     "level": "C1"
   },
   {
     "de": "ächten",
-    "lv": "Tõrjuma • Sotsiaalselt tõrjuma",
+    "lv": "syrjiä • julistaa pannaan",
     "level": "C1"
   },
   {
     "de": "Flottenstützpunkt",
     "de_article": "der",
     "de_plural": "die Flottenstützpunkte",
-    "lv": "Mereväebaas",
+    "lv": "laivastotukikohta",
     "level": "C1"
   },
   {
     "de": "Flugwetter",
     "de_article": "das",
-    "lv": "Lennuilm",
+    "lv": "lentosää",
     "level": "C1"
   },
   {
     "de": "Frachtbrief",
     "de_article": "der",
     "de_plural": "die Frachtbriefe",
-    "lv": "Kaubasaateleht",
+    "lv": "rahtikirja",
     "level": "C1"
   },
   {
     "de": "Frachtgeld",
     "de_article": "das",
     "de_plural": "die Frachtgelder",
-    "lv": "Veotasu",
+    "lv": "rahti • rahtimaksu",
     "level": "C1"
   },
   {
     "de": "Frauenrechtlerin",
     "de_article": "die",
     "de_plural": "die Frauenrechtlerinnen",
-    "lv": "Naisõiguslane",
+    "lv": "naisasianainen",
     "level": "C1"
   },
   {
     "de": "Freikörperkultur",
     "de_article": "die",
     "de_plural": "die Freikörperkulturen",
-    "lv": "Nudism",
+    "lv": "naturismi • nudismi",
     "level": "C1"
   },
   {
     "de": "Kinderschänder",
     "de_article": "der",
     "de_plural": "die Kinderschänder",
-    "lv": "Lapse väärkohtleja",
+    "lv": "lasten hyväksikäyttäjä • pedofiili",
     "level": "C1"
   },
   {
     "de": "Kindesmisshandlung",
     "de_article": "die",
     "de_plural": "die Kindesmisshandlungen",
-    "lv": "Lastevastane vägivald",
+    "lv": "lasten pahoinpitely",
     "level": "C1"
   },
   {
     "de": "Zivilgesetzbuch",
     "de_article": "das",
     "de_plural": "die Zivilgesetzbücher",
-    "lv": "Tsiviilseadustik",
+    "lv": "siviililaki",
     "level": "C1"
   },
   {
     "de": "Aktie",
     "de_article": "die",
     "de_plural": "die Aktien",
-    "lv": "Aktsia",
+    "lv": "osake",
     "level": "C1"
   },
   {
     "de": "Abenddämmerung",
     "de_article": "die",
     "de_plural": "die Abenddämmerungen",
-    "lv": "Õhtuhämarus",
+    "lv": "iltahämärä",
     "level": "C1"
   },
   {
     "de": "Anwalt",
     "de_article": "der",
     "de_plural": "die Anwälte",
-    "lv": "Advokaat",
+    "lv": "asianajaja",
     "level": "C1"
   },
   {
     "de": "außergewöhnlich",
-    "lv": "Ebatavaline",
+    "lv": "poikkeuksellinen • epätavallinen",
     "level": "C1"
   },
   {
     "de": "außerordentlich",
-    "lv": "Erakorraline",
+    "lv": "tavaton • ylimääräinen",
     "level": "C1"
   },
   {
     "de": "Autokennzeichen",
     "de_article": "das",
     "de_plural": "die Autokennzeichen",
-    "lv": "Auto numbrimärgi tähed ja numbrid",
+    "lv": "rekisterikilpi • rekisteritunnus",
     "level": "C1"
   },
   {
     "de": "Bäckerhandwerk",
     "de_article": "das",
     "de_plural": "die Bäckerhandwerke",
-    "lv": "Pagariamet",
+    "lv": "leipurinammatti",
     "level": "C1"
   },
   {
     "de": "bekannt geben",
-    "lv": "Teatavaks tegema",
+    "lv": "ilmoittaa • tiedottaa",
     "level": "C1"
   },
   {
     "de": "Bergwanderung",
     "de_article": "die",
     "de_plural": "die Bergwanderungen",
-    "lv": "Mägiturism",
+    "lv": "vuoristovaellus",
     "level": "C1"
   },
   {
     "de": "beschäftigen",
-    "lv": "Tööle võtma",
+    "lv": "työllistää",
     "level": "C1"
   },
   {
     "de": "sich beschäftigen",
-    "lv": "Tegelema",
+    "lv": "askarrella • puuhata",
     "level": "C1"
   },
   {
     "de": "Beschäftigung",
     "de_article": "die",
     "de_plural": "die Beschäftigungen",
-    "lv": "Tegevusala",
+    "lv": "toimi • työ",
     "level": "C1"
   },
   {
     "de": "beschleunigen",
-    "lv": "Kiirendama",
+    "lv": "kiihdyttää • nopeuttaa",
     "level": "C1"
   },
   {
     "de": "Besichtigung",
     "de_article": "die",
     "de_plural": "die Besichtigungen",
-    "lv": "Vaatamine",
+    "lv": "tarkastus • tutustumiskäynti",
     "level": "C1"
   },
   {
     "de": "beurteilen",
-    "lv": "Hindama",
+    "lv": "arvioida",
     "level": "C1"
   },
   {
     "de": "Autobahnbrücke",
     "de_article": "die",
     "de_plural": "die Autobahnbrücken",
-    "lv": "Teeviadukt",
+    "lv": "moottoritiesilta",
     "level": "C1"
   },
   {
     "de": "Eisenbahnbrücke",
     "de_article": "die",
     "de_plural": "die Eisenbahnbrücken",
-    "lv": "Raudteesild",
+    "lv": "rautatiesilta",
     "level": "C1"
   },
   {
     "de": "Dampfbügeleisen",
     "de_article": "das",
     "de_plural": "die Dampfbügeleisen",
-    "lv": "Auruga triikraud",
+    "lv": "höyrysilitysrauta",
     "level": "C1"
   },
   {
     "de": "Büroangestellte",
     "de_article": "der",
-    "lv": "Kontoritöötaja",
+    "lv": "toimistotyöntekijä",
     "level": "C1"
   },
   {
     "de": "charakteristisch",
-    "lv": "Iseloomulik",
+    "lv": "luonteenomainen • tyypillinen",
     "level": "C1"
   },
   {
     "de": "Diplomat",
     "de_article": "der",
     "de_plural": "die Diplomaten",
-    "lv": "Diplomaat",
+    "lv": "diplomaatti",
     "level": "C1"
   },
   {
     "de": "Dokumentarfilm",
     "de_article": "der",
     "de_plural": "die Dokumentarfilme",
-    "lv": "Dokumentaalfilm",
+    "lv": "dokumenttielokuva",
     "level": "C1"
   },
   {
     "de": "durchschnittlich",
-    "lv": "Keskmiselt",
+    "lv": "keskimäärin • keskimääräinen",
     "level": "C1"
   },
   {
     "de": "durchstreichen",
-    "lv": "Läbi kriipsutama",
+    "lv": "vetää yli • yliviivata",
     "level": "C1"
   },
   {
     "de": "Einfamilienhaus",
     "de_article": "das",
     "de_plural": "die Einfamilienhäuser",
-    "lv": "Üksikelamu",
+    "lv": "omakotitalo",
     "level": "C1",
     "study": {
       "id": "c1-einfamilienhaus",
       "layout": "standardStudy",
-      "translation": "Üksikelamu",
-      "explanation": "Põhiidee: das Einfamilienhaus on maja ühele perele. See tähendab tavaliselt eraldiseisvat eramaja, mitte kortermaja.",
-      "examples": [
-        {
-          "de": "Sie wohnen in einem Einfamilienhaus.",
-          "lv": "Nad elavad üksikelamus."
-        },
-        {
-          "de": "Das Einfamilienhaus hat einen Garten.",
-          "lv": "Üksikelamul on aed."
-        },
-        {
-          "de": "Nebenan steht ein Mehrfamilienhaus.",
-          "lv": "Kõrval asub kortermaja."
-        }
-      ]
-    }
-  },
-  {
-    "de": "Eisenbahnfahrt",
-    "de_article": "die",
-    "de_plural": "die Eisenbahnfahrten",
-    "lv": "Rongisõit",
-    "level": "C1"
-  },
-  {
-    "de": "Eisenbahnstation",
-    "de_article": "die",
-    "de_plural": "die Eisenbahnstationen",
-    "lv": "Raudteejaam",
-    "level": "C1"
-  },
-  {
-    "de": "ekelhaft",
-    "lv": "Vastik",
-    "level": "C1"
-  },
-  {
-    "de": "Energieverbrauch",
-    "de_article": "der",
-    "de_plural": "die Energieverbräuche",
-    "lv": "Energiakulu",
-    "level": "C1"
-  },
-  {
-    "de": "Gartenerdbeere",
-    "de_article": "die",
-    "de_plural": "die Gartenerdbeeren",
-    "lv": "Aiamaasikas",
-    "level": "C1"
-  },
-  {
-    "de": "erforderlich",
-    "lv": "Vajalik",
-    "level": "C1"
-  },
-  {
-    "de": "fabelhaft",
-    "lv": "Suurepärane",
-    "level": "C1"
-  },
-  {
-    "de": "fehlerhaft",
-    "lv": "Vigane",
-    "level": "C1"
-  },
-  {
-    "de": "folgendermaßen",
-    "lv": "Järgmiselt",
-    "level": "C1"
-  },
-  {
-    "de": "Geburtsschein",
-    "de_article": "der",
-    "de_plural": "die Geburtsscheine",
-    "lv": "Sünnitunnistus",
-    "level": "C1"
-  },
-  {
-    "de": "gegeneinander",
-    "lv": "Üksteise vastu",
-    "level": "C1"
-  },
-  {
-    "de": "Gemüsegarten",
-    "de_article": "der",
-    "de_plural": "die Gemüsegärten",
-    "lv": "Köögiviljaaed",
-    "level": "C1"
-  },
-  {
-    "de": "Gepäckträger",
-    "de_article": "der",
-    "de_plural": "die Gepäckträger",
-    "lv": "Pagasiraam",
-    "level": "C1"
-  },
-  {
-    "de": "geschäftlich",
-    "lv": "Äri-",
-    "level": "C1"
-  },
-  {
-    "de": "Geschäftsmann",
-    "de_article": "der",
-    "de_plural": "die Geschäftsleute",
-    "lv": "Ärimees",
-    "level": "C1"
-  },
-  {
-    "de": "geschichtlich",
-    "lv": "Ajalooline",
-    "level": "C1"
-  },
-  {
-    "de": "geschmacklos",
-    "lv": "Maitsetu",
-    "level": "C1"
-  },
-  {
-    "de": "geschmackvoll",
-    "lv": "Maitsekas",
-    "level": "C1"
-  },
-  {
-    "de": "gesetzlich",
-    "lv": "Seaduslik",
-    "level": "C1"
-  },
-  {
-    "de": "Gesichtspunkt",
-    "de_article": "der",
-    "de_plural": "die Gesichtspunkte",
-    "lv": "Seisukoht",
-    "level": "C1"
-  },
-  {
-    "de": "Gewichtheben",
-    "de_article": "das",
-    "lv": "Tõstmine",
-    "level": "C1"
-  },
-  {
-    "de": "gewissenhaft",
-    "lv": "Kohusetundlik",
-    "level": "C1"
-  },
-  {
-    "de": "Gipfel",
-    "de_article": "der",
-    "de_plural": "die Gipfel",
-    "lv": "Tipp",
-    "level": "C1"
-  },
-  {
-    "de": "Hausangestellte",
-    "de_article": "die",
-    "lv": "Koduabiline",
-    "level": "C1"
-  },
-  {
-    "de": "hinaufklettern",
-    "lv": "Üles ronima",
-    "level": "C1"
-  },
-  {
-    "de": "hintereinander",
-    "lv": "Üksteise järel",
-    "level": "C1"
-  },
-  {
-    "de": "Hochzeitsbrauch",
-    "de_article": "der",
-    "de_plural": "die Hochzeitsbräuche",
-    "lv": "Pulmakomme",
-    "level": "C1"
-  },
-  {
-    "de": "Hochzeitsfeier",
-    "de_article": "die",
-    "de_plural": "die Hochzeitsfeiern",
-    "lv": "Pulmapidu",
-    "level": "C1"
-  },
-  {
-    "de": "Hochzeitsreise",
-    "de_article": "die",
-    "de_plural": "die Hochzeitsreisen",
-    "lv": "Mesinädalate reis",
-    "level": "C1"
-  },
-  {
-    "de": "identifizieren",
-    "lv": "Identifitseerima",
-    "level": "C1"
-  },
-  {
-    "de": "Inflationsrate",
-    "de_article": "die",
-    "de_plural": "die Inflationsraten",
-    "lv": "Inflatsioonimäär",
-    "level": "C1"
-  },
-  {
-    "de": "Schlaginstrument",
-    "de_article": "das",
-    "de_plural": "die Schlaginstrumente",
-    "lv": "Löökpill",
-    "level": "C1"
-  },
-  {
-    "de": "Tasteninstrument",
-    "de_article": "das",
-    "de_plural": "die Tasteninstrumente",
-    "lv": "Klahvpill",
-    "level": "C1"
-  },
-  {
-    "de": "Jahreseinkommen",
-    "de_article": "das",
-    "de_plural": "die Jahreseinkommen",
-    "lv": "Aastasissetulek",
-    "level": "C1"
-  },
-  {
-    "de": "Kabelanschluss",
-    "de_article": "der",
-    "de_plural": "die Kabelanschlüsse",
-    "lv": "Kaabellevi liitumine",
-    "level": "C1"
-  },
-  {
-    "de": "Kabelfernsehen",
-    "de_article": "das",
-    "lv": "Kaabeltelevisioon",
-    "level": "C1"
-  },
-  {
-    "de": "Kaltwasserhahn",
-    "de_article": "der",
-    "de_plural": "die Kaltwasserhähne",
-    "lv": "Külma vee kraan",
-    "level": "C1"
-  },
-  {
-    "de": "Pressekampagne",
-    "de_article": "die",
-    "de_plural": "die Pressekampagnen",
-    "lv": "Ajakirjanduskampaania",
-    "level": "C1"
-  },
-  {
-    "de": "Kandidatenliste",
-    "de_article": "die",
-    "de_plural": "die Kandidatenlisten",
-    "lv": "Kandidaatide nimekiri",
-    "level": "C1"
-  },
-  {
-    "de": "Klage",
-    "de_article": "die",
-    "de_plural": "die Klagen",
-    "lv": "Kaebus",
-    "level": "C1"
-  },
-  {
-    "de": "klagen",
-    "lv": "Kaebama",
-    "level": "C1"
-  },
-  {
-    "de": "Kostenanschlag",
-    "de_article": "der",
-    "de_plural": "die Kostenanschläge",
-    "lv": "Kuluprognoos",
-    "level": "C1"
-  },
-  {
-    "de": "krampfhaft",
-    "lv": "Kramplik",
-    "level": "C1"
-  },
-  {
-    "de": "Krankheitsbild",
-    "de_article": "das",
-    "de_plural": "die Krankheitsbilder",
-    "lv": "Haiguspilt",
-    "level": "C1"
-  },
-  {
-    "de": "Lastkraftwagen",
-    "de_article": "der",
-    "de_plural": "die Lastkraftwagen",
-    "lv": "Veoauto",
-    "level": "C1"
-  },
-  {
-    "de": "lebhaft",
-    "lv": "Elav",
-    "level": "C1"
-  },
-  {
-    "de": "Leichtathletik",
-    "de_article": "die",
-    "lv": "Kergejõustik",
-    "level": "C1"
-  },
-  {
-    "de": "Mehrwertsteuer",
-    "de_article": "die",
-    "de_plural": "die Mehrwertsteuern",
-    "lv": "Käibemaks",
-    "level": "C1"
-  },
-  {
-    "de": "Meinungsumfrage",
-    "de_article": "die",
-    "de_plural": "die Meinungsumfragen",
-    "lv": "Arvamusküsitlus",
-    "level": "C1"
-  },
-  {
-    "de": "Menschenrechte",
-    "de_article": "die",
-    "lv": "Inimõigused",
-    "level": "C1"
-  },
-  {
-    "de": "Ministerium",
-    "de_article": "das",
-    "de_plural": "die Ministerien",
-    "lv": "Ministeerium",
-    "level": "C1"
-  },
-  {
-    "de": "Missverständnis",
-    "de_article": "das",
-    "de_plural": "die Missverständnisse",
-    "lv": "Arusaamatus",
-    "level": "C1"
-  },
-  {
-    "de": "Modezeitschrift",
-    "de_article": "die",
-    "de_plural": "die Modezeitschriften",
-    "lv": "Moeajakiri",
-    "level": "C1"
-  },
-  {
-    "de": "Morgendämmerung",
-    "de_article": "die",
-    "de_plural": "die Morgendämmerungen",
-    "lv": "Koidik",
-    "level": "C1"
-  },
-  {
-    "de": "Morgengymnastik",
-    "de_article": "die",
-    "de_plural": "die Morgengymnastiken",
-    "lv": "Hommikvõimlemine",
-    "level": "C1"
-  },
-  {
-    "de": "nahrhaft",
-    "lv": "Toitev",
-    "level": "C1"
-  },
-  {
-    "de": "Nationaltracht",
-    "de_article": "die",
-    "de_plural": "die Nationaltrachten",
-    "lv": "Rahvarõivas",
-    "level": "C1"
-  },
-  {
-    "de": "Notar",
-    "de_article": "der",
-    "de_plural": "die Notare",
-    "lv": "Notar",
-    "level": "C1"
-  },
-  {
-    "de": "Notarzt",
-    "de_article": "der",
-    "de_plural": "die Notärzte",
-    "lv": "Kiirabiarst",
-    "level": "C1"
-  },
-  {
-    "de": "Öffentlichkeit",
-    "de_article": "die",
-    "de_plural": "die Öffentlichkeiten",
-    "lv": "Avalikkus • Avalik ruum",
-    "level": "C1",
-    "study": {
-      "id": "c1-offentlichkeit",
-      "layout": "standardStudy",
-      "translation": "Avalikkus • Avalik ruum",
-      "explanation": "Põhiidee: die Öffentlichkeit tähendab avalikkust kui avalikku ruumi või inimesi tervikuna. Väljendis an die Öffentlichkeit kommen tähendab see avalikuks saamist.",
-      "examples": [
-        {
-          "de": "Die Öffentlichkeit reagierte kritisch.",
-          "lv": "Avalikkus reageeris kriitiliselt."
-        },
-        {
-          "de": "Der Fall kam an die Öffentlichkeit.",
-          "lv": "Juhtum sai avalikuks."
-        },
-        {
-          "de": "Die Öffentlichkeit hat ein Recht auf Information.",
-          "lv": "Avalikkusel on õigus infole."
-        }
-      ]
-    }
-  },
-  {
-    "de": "Parlament",
-    "de_article": "das",
-    "de_plural": "die Parlamente",
-    "lv": "Parlament",
-    "level": "C1"
-  },
-  {
-    "de": "Partei",
-    "de_article": "die",
-    "de_plural": "die Parteien",
-    "lv": "Partei • Pool",
-    "level": "C1",
-    "study": {
-      "id": "c1-partei",
-      "layout": "standardStudy",
-      "translation": "Partei • Pool",
-      "explanation": "Põhiidee: die Partei on tavaliselt poliitiline partei. Juriidilises või konfliktikeeles võib see tähendada ka poolt.",
-      "examples": [
-        {
-          "de": "Diese Partei gewann die Wahl.",
-          "lv": "See partei võitis valimised."
-        },
-        {
-          "de": "Er ist seit Jahren Mitglied einer Partei.",
-          "lv": "Ta on juba aastaid partei liige."
-        },
-        {
-          "de": "Beide Parteien müssen den Vertrag unterschreiben.",
-          "lv": "Mõlemad pooled peavad lepingu allkirjastama."
-        }
-      ]
-    }
-  },
-  {
-    "de": "Persönlichkeit",
-    "de_article": "die",
-    "de_plural": "die Persönlichkeiten",
-    "lv": "Isiksus",
-    "level": "C1"
-  },
-  {
-    "de": "Polizeieinheit",
-    "de_article": "die",
-    "de_plural": "die Polizeieinheiten",
-    "lv": "Politseiüksus",
-    "level": "C1"
-  },
-  {
-    "de": "Polizeistreife",
-    "de_article": "die",
-    "de_plural": "die Polizeistreifen",
-    "lv": "Politseipatrull",
-    "level": "C1"
-  },
-  {
-    "de": "Pollenallergie",
-    "de_article": "die",
-    "de_plural": "die Pollenallergien",
-    "lv": "Õietolmuallergia",
-    "level": "C1"
-  },
-  {
-    "de": "Polstergarnitur",
-    "de_article": "die",
-    "de_plural": "die Polstergarnituren",
-    "lv": "Pehme mööbli garnituur",
-    "level": "C1"
-  },
-  {
-    "de": "Premier",
-    "de_article": "der",
-    "de_plural": "die Premiers",
-    "lv": "Peaminister",
-    "level": "C1"
-  },
-  {
-    "de": "Prozess",
-    "de_article": "der",
-    "de_plural": "die Prozesse",
-    "lv": "Protsess • Kohtuprotsess",
-    "level": "C1",
-    "study": {
-      "id": "c1-prozess",
-      "layout": "standardStudy",
-      "translation": "Protsess • Kohtuprotsess",
-      "explanation": "Põhiidee: der Prozess on protsess või kulg. Kohtus tähendab der Prozess kohtuprotsessi.",
-      "examples": [
-        {
-          "de": "Der Prozess dauert mehrere Monate.",
-          "lv": "Protsess kestab mitu kuud."
-        },
-        {
-          "de": "Der Prozess vor Gericht beginnt morgen.",
-          "lv": "Kohtuprotsess algab homme."
-        },
-        {
-          "de": "Wir verbessern den ganzen Prozess.",
-          "lv": "Me täiustame kogu protsessi."
-        }
-      ]
-    }
-  },
-  {
-    "de": "Prozessor",
-    "de_article": "der",
-    "de_plural": "die Prozessoren",
-    "lv": "Protsessor",
-    "level": "C1"
-  },
-  {
-    "de": "Radioübertragung",
-    "de_article": "die",
-    "de_plural": "die Radioübertragungen",
-    "lv": "Raadioülekanne",
-    "level": "C1"
-  },
-  {
-    "de": "Rechtsanwalt",
-    "de_article": "der",
-    "de_plural": "die Rechtsanwälte",
-    "lv": "Advokaat",
-    "level": "C1"
-  },
-  {
-    "de": "Rekonstruktion",
-    "de_article": "die",
-    "de_plural": "die Rekonstruktionen",
-    "lv": "Rekonstrueerimine",
-    "level": "C1"
-  },
-  {
-    "de": "Rennen mit Hindernissen",
-    "de_article": "das",
-    "de_plural": "die Rennen mit Hindernissen",
-    "lv": "Tõkkejooks",
-    "level": "C1"
-  },
-  {
-    "de": "Reparaturkosten",
-    "de_article": "die",
-    "lv": "Remondikulud",
-    "level": "C1"
-  },
-  {
-    "de": "Rettungsstelle",
-    "de_article": "die",
-    "de_plural": "die Rettungsstellen",
-    "lv": "Kiirabipunkt",
-    "level": "C1"
-  },
-  {
-    "de": "rezeptpflichtig",
-    "lv": "Retsepti alusel",
-    "level": "C1"
-  },
-  {
-    "de": "Schauspielhaus",
-    "de_article": "das",
-    "de_plural": "die Schauspielhäuser",
-    "lv": "Teater",
-    "level": "C1"
-  },
-  {
-    "de": "Scheibenwischer",
-    "de_article": "der",
-    "de_plural": "die Scheibenwischer",
-    "lv": "Klaasipuhastaja",
-    "level": "C1"
-  },
-  {
-    "de": "Schiedsrichter",
-    "de_article": "der",
-    "de_plural": "die Schiedsrichter",
-    "lv": "Kohtunik",
-    "level": "C1"
-  },
-  {
-    "de": "Schlussverkauf",
-    "de_article": "der",
-    "de_plural": "die Schlussverkäufe",
-    "lv": "Hooajalõpu allahindlus",
-    "level": "C1"
-  },
-  {
-    "de": "schmerzhaft",
-    "lv": "Valus",
-    "level": "C1"
-  },
-  {
-    "de": "Schneewittchen",
-    "de_article": "das",
-    "de_plural": "die Schneewittchen",
-    "lv": "Muinasjututegelane Lumivalgeke",
-    "level": "C1"
-  },
-  {
-    "de": "Schraubenzieher",
-    "de_article": "der",
-    "de_plural": "die Schraubenzieher",
-    "lv": "Kruvikeeraja",
-    "level": "C1"
-  },
-  {
-    "de": "Schutzumschlag",
-    "de_article": "der",
-    "de_plural": "die Schutzumschläge",
-    "lv": "Ümbrispaber",
-    "level": "C1"
-  },
-  {
-    "de": "Schwiegereltern",
-    "de_article": "die",
-    "lv": "Ämm ja äi",
-    "level": "C1"
-  },
-  {
-    "de": "Schwiegermutter",
-    "de_article": "die",
-    "de_plural": "die Schwiegermütter",
-    "lv": "Ämm",
-    "level": "C1"
-  },
-  {
-    "de": "Schwiegertochter",
-    "de_article": "die",
-    "de_plural": "die Schwiegertöchter",
-    "lv": "Minia",
-    "level": "C1"
-  },
-  {
-    "de": "Schwiegervater",
-    "de_article": "der",
-    "de_plural": "die Schwiegerväter",
-    "lv": "Äi",
-    "level": "C1"
-  },
-  {
-    "de": "Selbstbedienung",
-    "de_article": "die",
-    "de_plural": "die Selbstbedienungen",
-    "lv": "Iseteenindus",
-    "level": "C1"
-  },
-  {
-    "de": "Stabhochspringen",
-    "de_article": "das",
-    "lv": "Teivashüpe",
-    "level": "C1"
-  },
-  {
-    "de": "Stadtrundfahrt",
-    "de_article": "die",
-    "de_plural": "die Stadtrundfahrten",
-    "lv": "Linnaekskursioon",
-    "level": "C1"
-  },
-  {
-    "de": "stecken bleiben",
-    "lv": "Kinni jääma",
-    "level": "C1"
-  },
-  {
-    "de": "Stellvertreter",
-    "de_article": "der",
-    "de_plural": "die Stellvertreter",
-    "lv": "Asendaja",
-    "level": "C1"
-  },
-  {
-    "de": "Steuererklärung",
-    "de_article": "die",
-    "de_plural": "die Steuererklärungen",
-    "lv": "Maksudeklaratsioon",
-    "level": "C1"
-  },
-  {
-    "de": "Strampelhöschen",
-    "de_article": "das",
-    "de_plural": "die Strampelhöschen",
-    "lv": "Imiku roomik",
-    "level": "C1"
-  },
-  {
-    "de": "Stromverbrauch",
-    "de_article": "der",
-    "de_plural": "die Stromverbräuche",
-    "lv": "Voolutarve",
-    "level": "C1"
-  },
-  {
-    "de": "Tagesnachrichten",
-    "de_article": "die",
-    "lv": "Päevauudised",
-    "level": "C1"
-  },
-  {
-    "de": "Teilzeitarbeit",
-    "de_article": "die",
-    "de_plural": "die Teilzeitarbeiten",
-    "lv": "Osaajaga töö",
-    "level": "C1"
-  },
-  {
-    "de": "Terminkalender",
-    "de_article": "der",
-    "de_plural": "die Terminkalender",
-    "lv": "Tähtajakalender",
-    "level": "C1"
-  },
-  {
-    "de": "Thermosflasche",
-    "de_article": "die",
-    "de_plural": "die Thermosflaschen",
-    "lv": "Termos",
-    "level": "C1"
-  },
-  {
-    "de": "Tierkreiszeichen",
-    "de_article": "das",
-    "de_plural": "die Tierkreiszeichen",
-    "lv": "Sodiaagimärk",
-    "level": "C1"
-  },
-  {
-    "de": "transportieren",
-    "lv": "Transportima",
-    "level": "C1"
-  },
-  {
-    "de": "Überschwemmung",
-    "de_article": "die",
-    "de_plural": "die Überschwemmungen",
-    "lv": "Üleujutus",
-    "level": "C1"
-  },
-  {
-    "de": "Unternehmen",
-    "de_article": "das",
-    "de_plural": "die Unternehmen",
-    "lv": "Ettevõte • Ettevõtmine",
-    "level": "C1"
-  },
-  {
-    "de": "unterstreichen",
-    "lv": "Alla kriipsutama",
-    "level": "C1"
-  },
-  {
-    "de": "unverständlich",
-    "lv": "Arusaamatu",
-    "level": "C1"
-  },
-  {
-    "de": "Heiratsurkunde",
-    "de_article": "die",
-    "de_plural": "die Heiratsurkunden",
-    "lv": "Abielutunnistus",
-    "level": "C1"
-  },
-  {
-    "de": "Urteil",
-    "de_article": "das",
-    "de_plural": "die Urteile",
-    "lv": "Kohtuotsus",
-    "level": "C1"
-  },
-  {
-    "de": "veranstalten",
-    "lv": "Korraldama",
-    "level": "C1"
-  },
-  {
-    "de": "verantworten",
-    "lv": "Vastutust võtma",
-    "level": "C1"
-  },
-  {
-    "de": "Verantwortung",
-    "de_article": "die",
-    "de_plural": "die Verantwortungen",
-    "lv": "Vastutus",
-    "level": "C1"
-  },
-  {
-    "de": "Vereinbarung",
-    "de_article": "die",
-    "de_plural": "die Vereinbarungen",
-    "lv": "Kokkulepe",
-    "level": "C1"
-  },
-  {
-    "de": "Vergangenheit",
-    "de_article": "die",
-    "de_plural": "die Vergangenheiten",
-    "lv": "Minevik",
-    "level": "C1"
-  },
-  {
-    "de": "Verkehrsstau",
-    "de_article": "der",
-    "de_plural": "die Verkehrsstaue",
-    "lv": "Liiklusummik",
-    "level": "C1"
-  },
-  {
-    "de": "Verlegenheit",
-    "de_article": "die",
-    "de_plural": "die Verlegenheiten",
-    "lv": "Hämmeldus",
-    "level": "C1"
-  },
-  {
-    "de": "verschließen",
-    "lv": "Lukustama",
-    "level": "C1"
-  },
-  {
-    "de": "verschlucken",
-    "lv": "Alla neelama",
-    "level": "C1"
-  },
-  {
-    "de": "verschwenden",
-    "lv": "Raiskama",
-    "level": "C1"
-  },
-  {
-    "de": "Versicherung",
-    "de_article": "die",
-    "de_plural": "die Versicherungen",
-    "lv": "Kindlustus",
-    "level": "C1"
-  },
-  {
-    "de": "sich verständigen",
-    "lv": "Üksteisest aru saama",
-    "level": "C1"
-  },
-  {
-    "de": "verständlich",
-    "lv": "Arusaadav",
-    "level": "C1"
-  },
-  {
-    "de": "Vertrag",
-    "de_article": "der",
-    "de_plural": "die Verträge",
-    "lv": "Leping",
-    "level": "C1"
-  },
-  {
-    "de": "voll beschäftigt",
-    "lv": "Täiskohaga tööl",
-    "level": "C1"
-  },
-  {
-    "de": "Vorgesetzte",
-    "de_article": "der",
-    "de_plural": "die Vorgesetzten",
-    "lv": "Ülemus",
-    "level": "C1"
-  },
-  {
-    "de": "vorteilhaft",
-    "lv": "Kasulik",
-    "level": "C1"
-  },
-  {
-    "de": "Wettbewerb",
-    "de_article": "der",
-    "de_plural": "die Wettbewerbe",
-    "lv": "Konkurss",
-    "level": "C1"
-  },
-  {
-    "de": "sich zufrieden geben",
-    "lv": "Leppima",
-    "level": "C1"
-  },
-  {
-    "de": "zusammenbringen",
-    "lv": "Kokku viima",
-    "level": "C1"
-  },
-  {
-    "de": "zusammenfassen",
-    "lv": "Kokku võtma • Resümeerima",
-    "level": "C1",
-    "study": {
-      "id": "c1-zusammenfassen",
-      "layout": "standardStudy",
-      "translation": "Kokku võtma • Resümeerima",
+      "translation": "omakotitalo",
       "explanation": [
-        "Põhiidee: zusammenfassen on tegusõna — koguda või koondada teave üheks lühikeseks ülevaateks.",
-        "Sõna zusammenfassen kasutatakse, kui mitmest faktist, tekstist või mõttest luuakse lühike ülevaade.",
-        "Ära aja segi sõnaga die Zusammenfassung — see on suure algustähe ja artikliga die nimisõna, mis tähistab kokkuvõtet ennast (tulemust, valmis teksti).",
-        "Zusammenfassen = protsess/tegevus (kokku võtma, resümeerima) • Die Zusammenfassung = tulemus (kokkuvõte nimisõnana).",
-        "Nagu paljud saksa tegusõnad, võib zusammenfassen muutuda nimisõnaks suure algustähe ja artikliga: zusammenfassen → die Zusammenfassung (substantiveerumine)."
+        "Perusajatus: das Einfamilienhaus on yhdelle perheelle tarkoitettu talo — erillinen tai naapuritaloon kiinni rakennettu, mutta siinä on yksi asunto ja yleensä oma puutarha.",
+        "Neutrisubstantiivi: das Einfamilienhaus, monikko die Einfamilienhäuser. Se muodostuu osista Ein- + Familie + Haus.",
+        "Vastakohta on das Mehrfamilienhaus (usean perheen talo, kerrostalo)."
       ],
       "examples": [
         {
-          "de": "Können Sie den Text zusammenfassen?",
-          "lv": "Kas te saate selle teksti kokku võtta?"
+          "de": "Sie wohnen in einem Einfamilienhaus am Stadtrand.",
+          "lv": "He asuvat omakotitalossa kaupungin laidalla."
         },
         {
-          "de": "Ich fasse die wichtigsten Punkte zusammen.",
-          "lv": "Ma võtan kokku kõige tähtsamad punktid."
+          "de": "Das Einfamilienhaus hat einen kleinen Garten.",
+          "lv": "Omakotitalossa on pieni puutarha."
         },
         {
-          "de": "Er hat den Bericht kurz zusammengefasst.",
-          "lv": "Ta resümeeris lühidalt ülevaate."
+          "de": "Sie träumen von einem eigenen Einfamilienhaus.",
+          "lv": "He haaveilevat omasta omakotitalosta."
         },
         {
-          "de": "Zusammenfassend kann man sagen, dass...",
-          "lv": "Kokkuvõttes võib öelda, et..."
+          "de": "In dieser Siedlung stehen nur Einfamilienhäuser.",
+          "lv": "Tällä asuinalueella on vain omakotitaloja."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "das Mehrfamilienhaus",
+          "meaning": "kerrostalo",
+          "example": "Im Mehrfamilienhaus wohnen zehn Familien. – Kerrostalossa asuu kymmenen perhettä."
         },
         {
-          "de": "Ich schreibe eine Zusammenfassung des Buches.",
-          "lv": "Ma kirjutan raamatu kokkuvõtet."
+          "word": "das Reihenhaus",
+          "meaning": "rivitalo",
+          "example": "Das Reihenhaus steht zwischen zwei anderen. – Rivitalo on kahden muun talon välissä."
         },
         {
-          "de": "Die Zusammenfassung ist zu lang.",
-          "lv": "Kokkuvõte on liiga pikk."
+          "word": "das Hochhaus",
+          "meaning": "tornitalo",
+          "example": "Im Hochhaus gibt es einen Aufzug. – Tornitalossa on hissi."
         }
       ],
       "tip": [
-        "zusammenfassen (darbības vārds) = process — apkopot/rezumēt.",
-        "die Zusammenfassung (lietvārds, ar lielo burtu un artikulu die) = rezultāts — pats kopsavilkums."
+        "Yhdyssanan voi ymmärtää osista: ein + Familie + Haus.",
+        "Yleinen yhdistelmä: ein Einfamilienhaus bauen / kaufen / mieten."
       ],
       "important": [
-        "zusammenfassen = apkopot/rezumēt (darbības vārds).",
-        "die Zusammenfassung = kopsavilkums (lietvārds, substantivizēts no zusammenfassen).",
-        "Nepareizi: die zusammenfassen → Pareizi: die Zusammenfassung (lietvārds vienmēr ar lielo burtu)."
+        "Einfamilienhaus ei ole sama kuin Villa: se voi olla myös hyvin vaatimaton talo."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "zusammenfassen"
+            "Einfamilienhaus",
+            "Einfamilienhäuser"
           ],
           "purple": [
-            "kokku võtma",
-            "resümeerima"
+            "talo"
           ],
           "green": [
-            "die Zusammenfassung"
+            "das Mehrfamilienhaus",
+            "Mehrfamilienhaus"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "zusammenfassen"
+                "Einfamilienhaus"
               ]
             },
             "lv": {
               "purple": [
-                "kokku võtta"
+                "omakotitalossa"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "fasse",
-                "zusammen"
+                "Einfamilienhaus"
               ]
             },
             "lv": {
               "purple": [
-                "võtan kokku"
+                "Omakotitalossa"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Einfamilienhaus"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "omakotitalosta"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Einfamilienhäuser"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "omakotitaloja"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "das Mehrfamilienhaus"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "kerrostalo"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "das Reihenhaus"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "rivitalo"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "das Hochhaus"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "tornitalo"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {
+            "blue": [
+              "Einfamilienhaus"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "Einfamilienhaus"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "de": "Eisenbahnfahrt",
+    "de_article": "die",
+    "de_plural": "die Eisenbahnfahrten",
+    "lv": "junamatka",
+    "level": "C1"
+  },
+  {
+    "de": "Eisenbahnstation",
+    "de_article": "die",
+    "de_plural": "die Eisenbahnstationen",
+    "lv": "rautatieasema",
+    "level": "C1"
+  },
+  {
+    "de": "ekelhaft",
+    "lv": "inhottava • iljettävä",
+    "level": "C1"
+  },
+  {
+    "de": "Energieverbrauch",
+    "de_article": "der",
+    "de_plural": "die Energieverbräuche",
+    "lv": "energiankulutus",
+    "level": "C1"
+  },
+  {
+    "de": "Gartenerdbeere",
+    "de_article": "die",
+    "de_plural": "die Gartenerdbeeren",
+    "lv": "mansikka • tarhamansikka",
+    "level": "C1"
+  },
+  {
+    "de": "erforderlich",
+    "lv": "tarpeellinen • tarvittava",
+    "level": "C1"
+  },
+  {
+    "de": "fabelhaft",
+    "lv": "upea • erinomainen",
+    "level": "C1"
+  },
+  {
+    "de": "fehlerhaft",
+    "lv": "virheellinen",
+    "level": "C1"
+  },
+  {
+    "de": "folgendermaßen",
+    "lv": "seuraavasti",
+    "level": "C1"
+  },
+  {
+    "de": "Geburtsschein",
+    "de_article": "der",
+    "de_plural": "die Geburtsscheine",
+    "lv": "syntymätodistus",
+    "level": "C1"
+  },
+  {
+    "de": "gegeneinander",
+    "lv": "toisiaan vastaan",
+    "level": "C1"
+  },
+  {
+    "de": "Gemüsegarten",
+    "de_article": "der",
+    "de_plural": "die Gemüsegärten",
+    "lv": "kasvimaa • vihannestarha",
+    "level": "C1"
+  },
+  {
+    "de": "Gepäckträger",
+    "de_article": "der",
+    "de_plural": "die Gepäckträger",
+    "lv": "tavarateline",
+    "level": "C1"
+  },
+  {
+    "de": "geschäftlich",
+    "lv": "liiketoiminnallinen • työasioissa",
+    "level": "C1"
+  },
+  {
+    "de": "Geschäftsmann",
+    "de_article": "der",
+    "de_plural": "die Geschäftsleute",
+    "lv": "liikemies",
+    "level": "C1"
+  },
+  {
+    "de": "geschichtlich",
+    "lv": "historiallinen",
+    "level": "C1"
+  },
+  {
+    "de": "geschmacklos",
+    "lv": "mauton",
+    "level": "C1"
+  },
+  {
+    "de": "geschmackvoll",
+    "lv": "tyylikäs • aistikas",
+    "level": "C1"
+  },
+  {
+    "de": "gesetzlich",
+    "lv": "lakisääteinen • laillinen",
+    "level": "C1"
+  },
+  {
+    "de": "Gesichtspunkt",
+    "de_article": "der",
+    "de_plural": "die Gesichtspunkte",
+    "lv": "näkökohta • näkökulma",
+    "level": "C1"
+  },
+  {
+    "de": "Gewichtheben",
+    "de_article": "das",
+    "lv": "painonnosto",
+    "level": "C1"
+  },
+  {
+    "de": "gewissenhaft",
+    "lv": "tunnollinen",
+    "level": "C1"
+  },
+  {
+    "de": "Gipfel",
+    "de_article": "der",
+    "de_plural": "die Gipfel",
+    "lv": "huippu",
+    "level": "C1"
+  },
+  {
+    "de": "Hausangestellte",
+    "de_article": "die",
+    "lv": "kotiapulainen",
+    "level": "C1"
+  },
+  {
+    "de": "hinaufklettern",
+    "lv": "kiivetä ylös",
+    "level": "C1"
+  },
+  {
+    "de": "hintereinander",
+    "lv": "peräkkäin",
+    "level": "C1"
+  },
+  {
+    "de": "Hochzeitsbrauch",
+    "de_article": "der",
+    "de_plural": "die Hochzeitsbräuche",
+    "lv": "häätapa • hääperinne",
+    "level": "C1"
+  },
+  {
+    "de": "Hochzeitsfeier",
+    "de_article": "die",
+    "de_plural": "die Hochzeitsfeiern",
+    "lv": "hääjuhla",
+    "level": "C1"
+  },
+  {
+    "de": "Hochzeitsreise",
+    "de_article": "die",
+    "de_plural": "die Hochzeitsreisen",
+    "lv": "häämatka",
+    "level": "C1"
+  },
+  {
+    "de": "identifizieren",
+    "lv": "tunnistaa • identifioida",
+    "level": "C1"
+  },
+  {
+    "de": "Inflationsrate",
+    "de_article": "die",
+    "de_plural": "die Inflationsraten",
+    "lv": "inflaatiovauhti",
+    "level": "C1"
+  },
+  {
+    "de": "Schlaginstrument",
+    "de_article": "das",
+    "de_plural": "die Schlaginstrumente",
+    "lv": "lyömäsoitin",
+    "level": "C1"
+  },
+  {
+    "de": "Tasteninstrument",
+    "de_article": "das",
+    "de_plural": "die Tasteninstrumente",
+    "lv": "kosketinsoitin",
+    "level": "C1"
+  },
+  {
+    "de": "Jahreseinkommen",
+    "de_article": "das",
+    "de_plural": "die Jahreseinkommen",
+    "lv": "vuositulot",
+    "level": "C1"
+  },
+  {
+    "de": "Kabelanschluss",
+    "de_article": "der",
+    "de_plural": "die Kabelanschlüsse",
+    "lv": "kaapeliliittymä",
+    "level": "C1"
+  },
+  {
+    "de": "Kabelfernsehen",
+    "de_article": "das",
+    "lv": "kaapelitelevisio",
+    "level": "C1"
+  },
+  {
+    "de": "Kaltwasserhahn",
+    "de_article": "der",
+    "de_plural": "die Kaltwasserhähne",
+    "lv": "kylmävesihana",
+    "level": "C1"
+  },
+  {
+    "de": "Pressekampagne",
+    "de_article": "die",
+    "de_plural": "die Pressekampagnen",
+    "lv": "lehdistökampanja",
+    "level": "C1"
+  },
+  {
+    "de": "Kandidatenliste",
+    "de_article": "die",
+    "de_plural": "die Kandidatenlisten",
+    "lv": "ehdokaslista",
+    "level": "C1"
+  },
+  {
+    "de": "Klage",
+    "de_article": "die",
+    "de_plural": "die Klagen",
+    "lv": "valitus • kanne",
+    "level": "C1"
+  },
+  {
+    "de": "klagen",
+    "lv": "valittaa",
+    "level": "C1"
+  },
+  {
+    "de": "Kostenanschlag",
+    "de_article": "der",
+    "de_plural": "die Kostenanschläge",
+    "lv": "kustannusarvio",
+    "level": "C1"
+  },
+  {
+    "de": "krampfhaft",
+    "lv": "kouristuksenomainen • väkinäinen",
+    "level": "C1"
+  },
+  {
+    "de": "Krankheitsbild",
+    "de_article": "das",
+    "de_plural": "die Krankheitsbilder",
+    "lv": "taudinkuva",
+    "level": "C1"
+  },
+  {
+    "de": "Lastkraftwagen",
+    "de_article": "der",
+    "de_plural": "die Lastkraftwagen",
+    "lv": "kuorma-auto",
+    "level": "C1"
+  },
+  {
+    "de": "lebhaft",
+    "lv": "vilkas • eloisa",
+    "level": "C1"
+  },
+  {
+    "de": "Leichtathletik",
+    "de_article": "die",
+    "lv": "yleisurheilu",
+    "level": "C1"
+  },
+  {
+    "de": "Mehrwertsteuer",
+    "de_article": "die",
+    "de_plural": "die Mehrwertsteuern",
+    "lv": "arvonlisävero",
+    "level": "C1"
+  },
+  {
+    "de": "Meinungsumfrage",
+    "de_article": "die",
+    "de_plural": "die Meinungsumfragen",
+    "lv": "mielipidekysely • mielipidetiedustelu",
+    "level": "C1"
+  },
+  {
+    "de": "Menschenrechte",
+    "de_article": "die",
+    "lv": "ihmisoikeudet",
+    "level": "C1"
+  },
+  {
+    "de": "Ministerium",
+    "de_article": "das",
+    "de_plural": "die Ministerien",
+    "lv": "ministeriö",
+    "level": "C1"
+  },
+  {
+    "de": "Missverständnis",
+    "de_article": "das",
+    "de_plural": "die Missverständnisse",
+    "lv": "väärinkäsitys",
+    "level": "C1"
+  },
+  {
+    "de": "Modezeitschrift",
+    "de_article": "die",
+    "de_plural": "die Modezeitschriften",
+    "lv": "muotilehti",
+    "level": "C1"
+  },
+  {
+    "de": "Morgendämmerung",
+    "de_article": "die",
+    "de_plural": "die Morgendämmerungen",
+    "lv": "aamunkoitto • aamuhämärä",
+    "level": "C1"
+  },
+  {
+    "de": "Morgengymnastik",
+    "de_article": "die",
+    "de_plural": "die Morgengymnastiken",
+    "lv": "aamuvoimistelu",
+    "level": "C1"
+  },
+  {
+    "de": "nahrhaft",
+    "lv": "ravitseva",
+    "level": "C1"
+  },
+  {
+    "de": "Nationaltracht",
+    "de_article": "die",
+    "de_plural": "die Nationaltrachten",
+    "lv": "kansallispuku",
+    "level": "C1"
+  },
+  {
+    "de": "Notar",
+    "de_article": "der",
+    "de_plural": "die Notare",
+    "lv": "notaari",
+    "level": "C1"
+  },
+  {
+    "de": "Notarzt",
+    "de_article": "der",
+    "de_plural": "die Notärzte",
+    "lv": "ensihoitolääkäri",
+    "level": "C1"
+  },
+  {
+    "de": "Öffentlichkeit",
+    "de_article": "die",
+    "de_plural": "die Öffentlichkeiten",
+    "lv": "yleisö • julkisuus",
+    "level": "C1",
+    "study": {
+      "id": "c1-offentlichkeit",
+      "layout": "standardStudy",
+      "translation": "yleisö • julkisuus",
+      "explanation": [
+        "Perusajatus: die Öffentlichkeit on yleisö eli kaikki ihmiset, joiden saatavilla tai tiedossa jokin on, ja samalla julkisuus — tila, jossa jokin ei ole salaista.",
+        "Feminiinisubstantiivi: die Öffentlichkeit, monikkoa ei käytännössä ole. Yleisiä ilmauksia: in der Öffentlichkeit (julkisesti), an die Öffentlichkeit gehen (tulla julkisuuteen), unter Ausschluss der Öffentlichkeit (yleisöltä suljettuna), die Öffentlichkeit informieren.",
+        "Öffentlichkeit ei ole sama kuin die Gesellschaft (yhteiskunta): se on eri merkitys."
+      ],
+      "examples": [
+        {
+          "de": "Der Politiker trat vor die Öffentlichkeit.",
+          "lv": "Poliitikko astui julkisuuteen."
+        },
+        {
+          "de": "In der Öffentlichkeit darf man hier nicht rauchen.",
+          "lv": "Täällä ei saa tupakoida julkisilla paikoilla."
+        },
+        {
+          "de": "Die Verhandlung fand unter Ausschluss der Öffentlichkeit statt.",
+          "lv": "Oikeudenistunto pidettiin yleisöltä suljettuna."
+        },
+        {
+          "de": "Die Firma will den Skandal nicht an die Öffentlichkeit bringen.",
+          "lv": "Yritys ei halua tuoda skandaalia julkisuuteen."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "die Gesellschaft",
+          "meaning": "yhteiskunta (järjestelmänä)",
+          "example": "Die Gesellschaft verändert sich. – Yhteiskunta muuttuu."
+        },
+        {
+          "word": "das Publikum",
+          "meaning": "yleisö",
+          "example": "Das Publikum klatscht. – Yleisö taputtaa."
+        },
+        {
+          "word": "die Bevölkerung",
+          "meaning": "väestö",
+          "example": "Die Bevölkerung wächst. – Väestö kasvaa."
+        }
+      ],
+      "tip": [
+        "Käytetään prepositioiden kanssa: in der Öffentlichkeit (missä?), an die Öffentlichkeit (minne?).",
+        "Samankaltainen merkitys on sanalla die Allgemeinheit (kaikki ihmiset kokonaisuutena)."
+      ],
+      "important": [
+        "Monikkoa ei yleensä käytetä: die Öffentlichkeiten on harvinainen."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "die Öffentlichkeit",
+            "in der Öffentlichkeit",
+            "an die Öffentlichkeit gehen",
+            "unter Ausschluss der Öffentlichkeit",
+            "Gesellschaft",
+            "Öffentlichkeit"
+          ],
+          "purple": [
+            "yleisö",
+            "julkisuus",
+            "julkisesti"
+          ],
+          "green": [
+            "die Gesellschaft"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Öffentlichkeit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "julkisuuteen"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Öffentlichkeit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "julkisilla paikoilla"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Öffentlichkeit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "yleisöltä"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Öffentlichkeit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "julkisuuteen"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "die Gesellschaft"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "yhteiskunta"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "das Publikum"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "yleisö"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Bevölkerung"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "väestö"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "Öffentlichkeit",
+              "die Öffentlichkeit",
+              "in der Öffentlichkeit"
+            ]
+          },
+          {}
+        ],
+        "important": [
+          {}
+        ]
+      }
+    }
+  },
+  {
+    "de": "Parlament",
+    "de_article": "das",
+    "de_plural": "die Parlamente",
+    "lv": "parlamentti • eduskunta",
+    "level": "C1"
+  },
+  {
+    "de": "Partei",
+    "de_article": "die",
+    "de_plural": "die Parteien",
+    "lv": "puolue • osapuoli",
+    "level": "C1",
+    "study": {
+      "id": "c1-partei",
+      "layout": "standardStudy",
+      "translation": "puolue • osapuoli",
+      "explanation": [
+        "Perusajatus: die Partei on poliittinen puolue (die CDU ist eine Partei), mutta myös osapuoli riidassa, oikeudenkäynnissä tai sopimuksessa: die Streitparteien, die Vertragsparteien.",
+        "Feminiinisubstantiivi: die Partei, monikko die Parteien. Ilmaus Partei ergreifen für jemanden — asettua jonkun puolelle.",
+        "Politiikassa käytetään usein ilmauksia eine Partei gründen (perustaa puolueen), in eine Partei eintreten (liittyä puolueeseen), die Regierungspartei (hallituspuolue)."
+      ],
+      "examples": [
+        {
+          "de": "Sie ist Mitglied einer Partei.",
+          "lv": "Hän on erään puolueen jäsen."
+        },
+        {
+          "de": "Die Parteien verhandeln über eine Koalition.",
+          "lv": "Puolueet neuvottelevat koalitiosta."
+        },
+        {
+          "de": "Im Streit ergriff er Partei für seinen Bruder.",
+          "lv": "Riidassa hän asettui veljensä puolelle."
+        },
+        {
+          "de": "Beide Parteien haben den Vertrag unterschrieben.",
+          "lv": "Molemmat osapuolet ovat allekirjoittaneet sopimuksen."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "die Seite",
+          "meaning": "puoli",
+          "example": "Auf welcher Seite stehst du? – Kenen puolella sinä olet?"
+        },
+        {
+          "word": "der Verein",
+          "meaning": "yhdistys",
+          "example": "Er ist im Sportverein. – Hän on urheiluseurassa."
+        },
+        {
+          "word": "die Gruppe",
+          "meaning": "ryhmä",
+          "example": "Die Gruppe trifft sich heute. – Ryhmä kokoontuu tänään."
+        }
+      ],
+      "tip": [
+        "Partei ergreifen (asettua jonkun puolelle) on hyödyllinen ilmaus riitojen kuvaamiseen.",
+        "Politiikassa sanotaan eine Partei wählen tai für eine Partei stimmen."
+      ],
+      "important": [
+        "Die Partei ja die Party (juhlat) kuulostavat samankaltaisilta, mutta ne eivät liity toisiinsa."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Partei",
+            "Parteien"
+          ],
+          "purple": [
+            "puolue",
+            "osapuoli",
+            "puolelle",
+            "puolueen",
+            "puolueeseen"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Partei"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "puolueen"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Parteien"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Puolueet"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Partei"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "puolelle"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Parteien"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "osapuolet"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "die Seite"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "puoli"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Verein"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "yhdistys"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Gruppe"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ryhmä"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "Partei"
+            ]
+          },
+          {
+            "blue": [
+              "Partei"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "Partei"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "de": "Persönlichkeit",
+    "de_article": "die",
+    "de_plural": "die Persönlichkeiten",
+    "lv": "persoonallisuus",
+    "level": "C1"
+  },
+  {
+    "de": "Polizeieinheit",
+    "de_article": "die",
+    "de_plural": "die Polizeieinheiten",
+    "lv": "poliisiyksikkö",
+    "level": "C1"
+  },
+  {
+    "de": "Polizeistreife",
+    "de_article": "die",
+    "de_plural": "die Polizeistreifen",
+    "lv": "poliisipartio",
+    "level": "C1"
+  },
+  {
+    "de": "Pollenallergie",
+    "de_article": "die",
+    "de_plural": "die Pollenallergien",
+    "lv": "siitepölyallergia",
+    "level": "C1"
+  },
+  {
+    "de": "Polstergarnitur",
+    "de_article": "die",
+    "de_plural": "die Polstergarnituren",
+    "lv": "sohvaryhmä",
+    "level": "C1"
+  },
+  {
+    "de": "Premier",
+    "de_article": "der",
+    "de_plural": "die Premiers",
+    "lv": "pääministeri",
+    "level": "C1"
+  },
+  {
+    "de": "Prozess",
+    "de_article": "der",
+    "de_plural": "die Prozesse",
+    "lv": "prosessi • oikeudenkäynti",
+    "level": "C1",
+    "study": {
+      "id": "c1-prozess",
+      "layout": "standardStudy",
+      "translation": "prosessi • oikeudenkäynti",
+      "explanation": [
+        "Perusajatus: der Prozess on sana, jolla on kaksi päämerkitystä: prosessi, kulku (ein langsamer Prozess) ja oikeudenkäynti (ein Prozess gegen jemanden).",
+        "Maskuliinisubstantiivi: der Prozess, monikko die Prozesse. Oikeudenkäyntiä voi käydä, aloittaa, voittaa tai hävitä: einen Prozess führen, gewinnen, verlieren.",
+        "Ilmaus kurzen Prozess machen tarkoittaa toimia pitkään epäröimättä, armottomasti."
+      ],
+      "examples": [
+        {
+          "de": "Der Prozess gegen den Angeklagten dauert Monate.",
+          "lv": "Oikeudenkäynti syytettyä vastaan kestää kuukausia."
+        },
+        {
+          "de": "Die Heilung ist ein langsamer Prozess.",
+          "lv": "Paraneminen on hidas prosessi."
+        },
+        {
+          "de": "Sie haben den Prozess gewonnen.",
+          "lv": "He voittivat oikeudenkäynnin."
+        },
+        {
+          "de": "Die Firma machte kurzen Prozess und kündigte ihm.",
+          "lv": "Yritys ei vitkastellut vaan irtisanoi hänet."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "der Vorgang",
+          "meaning": "toimenpide, kulku",
+          "example": "Der Vorgang dauert eine Stunde. – Toimenpide kestää tunnin."
+        },
+        {
+          "word": "die Verhandlung",
+          "meaning": "oikeudenistunto",
+          "example": "Die Verhandlung beginnt um neun. – Oikeudenistunto alkaa yhdeksältä."
+        },
+        {
+          "word": "die Klage",
+          "meaning": "kanne",
+          "example": "Er reichte eine Klage ein. – Hän nosti kanteen."
+        }
+      ],
+      "tip": [
+        "Kun puhutaan oikeudenkäynnistä, usein esiintyvät verbit einen Prozess führen / gewinnen / verlieren.",
+        "Prozess kulun merkityksessä on myös tekninen ja tieteellinen termi: der Prozess der Herstellung (tuotantoprosessi)."
+      ],
+      "important": [
+        "Sana ei ole missään merkityksessä neutri: der Prozess (ei das Prozess)."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Prozess",
+            "Prozesse"
+          ],
+          "purple": [
+            "prosessi",
+            "oikeudenkäynti",
+            "Oikeudenkäyntiä"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Prozess"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Oikeudenkäynti"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Prozess"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "prosessi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Prozess"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "oikeudenkäynnin"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Prozess"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vitkastellut"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "Vorgang"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "kulku"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "Verhandlung"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "oikeudenistunto"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "Klage"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "kanne"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "Prozess"
+            ]
+          },
+          {
+            "blue": [
+              "Prozess"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "Prozess"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "de": "Prozessor",
+    "de_article": "der",
+    "de_plural": "die Prozessoren",
+    "lv": "prosessori • suoritin",
+    "level": "C1"
+  },
+  {
+    "de": "Radioübertragung",
+    "de_article": "die",
+    "de_plural": "die Radioübertragungen",
+    "lv": "radiolähetys",
+    "level": "C1"
+  },
+  {
+    "de": "Rechtsanwalt",
+    "de_article": "der",
+    "de_plural": "die Rechtsanwälte",
+    "lv": "asianajaja",
+    "level": "C1"
+  },
+  {
+    "de": "Rekonstruktion",
+    "de_article": "die",
+    "de_plural": "die Rekonstruktionen",
+    "lv": "rekonstruktio • jälleenrakennus",
+    "level": "C1"
+  },
+  {
+    "de": "Rennen mit Hindernissen",
+    "de_article": "das",
+    "de_plural": "die Rennen mit Hindernissen",
+    "lv": "estejuoksu",
+    "level": "C1"
+  },
+  {
+    "de": "Reparaturkosten",
+    "de_article": "die",
+    "lv": "korjauskustannukset",
+    "level": "C1"
+  },
+  {
+    "de": "Rettungsstelle",
+    "de_article": "die",
+    "de_plural": "die Rettungsstellen",
+    "lv": "ensiapuasema",
+    "level": "C1"
+  },
+  {
+    "de": "rezeptpflichtig",
+    "lv": "reseptinvarainen",
+    "level": "C1"
+  },
+  {
+    "de": "Schauspielhaus",
+    "de_article": "das",
+    "de_plural": "die Schauspielhäuser",
+    "lv": "teatteri",
+    "level": "C1"
+  },
+  {
+    "de": "Scheibenwischer",
+    "de_article": "der",
+    "de_plural": "die Scheibenwischer",
+    "lv": "tuulilasinpyyhin",
+    "level": "C1"
+  },
+  {
+    "de": "Schiedsrichter",
+    "de_article": "der",
+    "de_plural": "die Schiedsrichter",
+    "lv": "erotuomari",
+    "level": "C1"
+  },
+  {
+    "de": "Schlussverkauf",
+    "de_article": "der",
+    "de_plural": "die Schlussverkäufe",
+    "lv": "kausialennusmyynti • loppuunmyynti",
+    "level": "C1"
+  },
+  {
+    "de": "schmerzhaft",
+    "lv": "kivulias • tuskallinen",
+    "level": "C1"
+  },
+  {
+    "de": "Schneewittchen",
+    "de_article": "das",
+    "de_plural": "die Schneewittchen",
+    "lv": "Lumikki",
+    "level": "C1"
+  },
+  {
+    "de": "Schraubenzieher",
+    "de_article": "der",
+    "de_plural": "die Schraubenzieher",
+    "lv": "ruuvitaltta • ruuvimeisseli",
+    "level": "C1"
+  },
+  {
+    "de": "Schutzumschlag",
+    "de_article": "der",
+    "de_plural": "die Schutzumschläge",
+    "lv": "suojakansi • suojapaperi",
+    "level": "C1"
+  },
+  {
+    "de": "Schwiegereltern",
+    "de_article": "die",
+    "lv": "appivanhemmat",
+    "level": "C1"
+  },
+  {
+    "de": "Schwiegermutter",
+    "de_article": "die",
+    "de_plural": "die Schwiegermütter",
+    "lv": "anoppi",
+    "level": "C1"
+  },
+  {
+    "de": "Schwiegertochter",
+    "de_article": "die",
+    "de_plural": "die Schwiegertöchter",
+    "lv": "miniä",
+    "level": "C1"
+  },
+  {
+    "de": "Schwiegervater",
+    "de_article": "der",
+    "de_plural": "die Schwiegerväter",
+    "lv": "appi",
+    "level": "C1"
+  },
+  {
+    "de": "Selbstbedienung",
+    "de_article": "die",
+    "de_plural": "die Selbstbedienungen",
+    "lv": "itsepalvelu",
+    "level": "C1"
+  },
+  {
+    "de": "Stabhochspringen",
+    "de_article": "das",
+    "lv": "seiväshyppy",
+    "level": "C1"
+  },
+  {
+    "de": "Stadtrundfahrt",
+    "de_article": "die",
+    "de_plural": "die Stadtrundfahrten",
+    "lv": "kiertoajelu",
+    "level": "C1"
+  },
+  {
+    "de": "stecken bleiben",
+    "lv": "juuttua • jäädä jumiin",
+    "level": "C1"
+  },
+  {
+    "de": "Stellvertreter",
+    "de_article": "der",
+    "de_plural": "die Stellvertreter",
+    "lv": "sijainen • varamies",
+    "level": "C1"
+  },
+  {
+    "de": "Steuererklärung",
+    "de_article": "die",
+    "de_plural": "die Steuererklärungen",
+    "lv": "veroilmoitus",
+    "level": "C1"
+  },
+  {
+    "de": "Strampelhöschen",
+    "de_article": "das",
+    "de_plural": "die Strampelhöschen",
+    "lv": "potkupuku",
+    "level": "C1"
+  },
+  {
+    "de": "Stromverbrauch",
+    "de_article": "der",
+    "de_plural": "die Stromverbräuche",
+    "lv": "sähkönkulutus",
+    "level": "C1"
+  },
+  {
+    "de": "Tagesnachrichten",
+    "de_article": "die",
+    "lv": "päivän uutiset",
+    "level": "C1"
+  },
+  {
+    "de": "Teilzeitarbeit",
+    "de_article": "die",
+    "de_plural": "die Teilzeitarbeiten",
+    "lv": "osa-aikatyö",
+    "level": "C1"
+  },
+  {
+    "de": "Terminkalender",
+    "de_article": "der",
+    "de_plural": "die Terminkalender",
+    "lv": "kalenteri • taskukalenteri",
+    "level": "C1"
+  },
+  {
+    "de": "Thermosflasche",
+    "de_article": "die",
+    "de_plural": "die Thermosflaschen",
+    "lv": "termospullo",
+    "level": "C1"
+  },
+  {
+    "de": "Tierkreiszeichen",
+    "de_article": "das",
+    "de_plural": "die Tierkreiszeichen",
+    "lv": "eläinradan merkki • horoskooppimerkki",
+    "level": "C1"
+  },
+  {
+    "de": "transportieren",
+    "lv": "kuljettaa",
+    "level": "C1"
+  },
+  {
+    "de": "Überschwemmung",
+    "de_article": "die",
+    "de_plural": "die Überschwemmungen",
+    "lv": "tulva",
+    "level": "C1"
+  },
+  {
+    "de": "Unternehmen",
+    "de_article": "das",
+    "de_plural": "die Unternehmen",
+    "lv": "yritys • hanke",
+    "level": "C1"
+  },
+  {
+    "de": "unterstreichen",
+    "lv": "alleviivata • korostaa",
+    "level": "C1"
+  },
+  {
+    "de": "unverständlich",
+    "lv": "käsittämätön • vaikeaselkoinen",
+    "level": "C1"
+  },
+  {
+    "de": "Heiratsurkunde",
+    "de_article": "die",
+    "de_plural": "die Heiratsurkunden",
+    "lv": "vihkitodistus",
+    "level": "C1"
+  },
+  {
+    "de": "Urteil",
+    "de_article": "das",
+    "de_plural": "die Urteile",
+    "lv": "tuomio • arvio",
+    "level": "C1"
+  },
+  {
+    "de": "veranstalten",
+    "lv": "järjestää",
+    "level": "C1"
+  },
+  {
+    "de": "verantworten",
+    "lv": "vastata • ottaa vastuu",
+    "level": "C1"
+  },
+  {
+    "de": "Verantwortung",
+    "de_article": "die",
+    "de_plural": "die Verantwortungen",
+    "lv": "vastuu",
+    "level": "C1"
+  },
+  {
+    "de": "Vereinbarung",
+    "de_article": "die",
+    "de_plural": "die Vereinbarungen",
+    "lv": "sopimus",
+    "level": "C1"
+  },
+  {
+    "de": "Vergangenheit",
+    "de_article": "die",
+    "de_plural": "die Vergangenheiten",
+    "lv": "menneisyys",
+    "level": "C1"
+  },
+  {
+    "de": "Verkehrsstau",
+    "de_article": "der",
+    "de_plural": "die Verkehrsstaue",
+    "lv": "liikenneruuhka",
+    "level": "C1"
+  },
+  {
+    "de": "Verlegenheit",
+    "de_article": "die",
+    "de_plural": "die Verlegenheiten",
+    "lv": "hämmennys • nolous",
+    "level": "C1"
+  },
+  {
+    "de": "verschließen",
+    "lv": "lukita • sulkea",
+    "level": "C1"
+  },
+  {
+    "de": "verschlucken",
+    "lv": "niellä",
+    "level": "C1"
+  },
+  {
+    "de": "verschwenden",
+    "lv": "tuhlata",
+    "level": "C1"
+  },
+  {
+    "de": "Versicherung",
+    "de_article": "die",
+    "de_plural": "die Versicherungen",
+    "lv": "vakuutus",
+    "level": "C1"
+  },
+  {
+    "de": "sich verständigen",
+    "lv": "ymmärtää toisiaan • päästä yhteisymmärrykseen",
+    "level": "C1"
+  },
+  {
+    "de": "verständlich",
+    "lv": "ymmärrettävä",
+    "level": "C1"
+  },
+  {
+    "de": "Vertrag",
+    "de_article": "der",
+    "de_plural": "die Verträge",
+    "lv": "sopimus",
+    "level": "C1"
+  },
+  {
+    "de": "voll beschäftigt",
+    "lv": "kokoaikatyössä oleva",
+    "level": "C1"
+  },
+  {
+    "de": "Vorgesetzte",
+    "de_article": "der",
+    "de_plural": "die Vorgesetzten",
+    "lv": "esimies • esihenkilö",
+    "level": "C1"
+  },
+  {
+    "de": "vorteilhaft",
+    "lv": "edullinen • hyödyllinen",
+    "level": "C1"
+  },
+  {
+    "de": "Wettbewerb",
+    "de_article": "der",
+    "de_plural": "die Wettbewerbe",
+    "lv": "kilpailu",
+    "level": "C1"
+  },
+  {
+    "de": "sich zufrieden geben",
+    "lv": "tyytyä",
+    "level": "C1"
+  },
+  {
+    "de": "zusammenbringen",
+    "lv": "tuoda yhteen • saattaa yhteen",
+    "level": "C1"
+  },
+  {
+    "de": "zusammenfassen",
+    "lv": "tiivistää • tehdä yhteenveto",
+    "level": "C1",
+    "study": {
+      "id": "c1-zusammenfassen",
+      "layout": "standardStudy",
+      "translation": "tiivistää • tehdä yhteenveto",
+      "explanation": [
+        "Perusajatus: zusammenfassen tarkoittaa tiivistää lyhyesti tekstin, puheen tai tulosten pääkohdat; myös yhdistää useita asioita yhdeksi kokonaisuudeksi.",
+        "Erotettava verbi: er fasst zusammen, fasste zusammen, hat zusammengefasst. Se, mitä tiivistetään, on akkusatiivissa: einen Text zusammenfassen. Usein seuraa in + datiivi tai zu + datiivi: in einem Satz zusammenfassen. Substantiivi on die Zusammenfassung.",
+        "Lauseen alussa käytetään usein muotoa zusammenfassend (yhteenvetona): Zusammenfassend lässt sich sagen …"
+      ],
+      "examples": [
+        {
+          "de": "Fasst bitte den Text in drei Sätzen zusammen.",
+          "lv": "Olkaa hyvät ja tiivistäkää teksti kolmeen lauseeseen."
+        },
+        {
+          "de": "Der Redner fasste die Ergebnisse kurz zusammen.",
+          "lv": "Puhuja tiivisti tulokset lyhyesti."
+        },
+        {
+          "de": "Wir haben die Vorschläge in einer Liste zusammengefasst.",
+          "lv": "Kokosimme ehdotukset yhteen luetteloon."
+        },
+        {
+          "de": "Kannst du den Film kurz zusammenfassen?",
+          "lv": "Voitko kertoa lyhyesti elokuvan juonen?"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "zusammenstellen",
+          "meaning": "koota",
+          "example": "Ich stelle eine Liste zusammen. – Kokoan luettelon."
+        },
+        {
+          "word": "kürzen",
+          "meaning": "lyhentää",
+          "example": "Wir kürzen den Text. – Lyhennämme tekstiä."
+        },
+        {
+          "word": "wiederholen",
+          "meaning": "toistaa",
+          "example": "Wiederhole den Satz. – Toista lause."
+        }
+      ],
+      "tip": [
+        "Muista erottaminen: Ich fasse den Text zusammen, mutta sivulauseessa …, weil ich den Text zusammenfasse.",
+        "Verbin zusammenfassen jälkeen tulee usein in einem Satz / in drei Punkten."
+      ],
+      "important": [
+        "Perfektin partisiippi on zusammengefasst (-ge- osien zusammen ja fasst välissä).",
+        "Älä sekoita verbiin zusammenstellen: se tarkoittaa koota, ei kertoa lyhyesti."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "zusammenfassen",
+            "zusammenfassend",
+            "fasst zusammen",
+            "fasste zusammen",
+            "zusammengefasst",
+            "Zusammenfassung",
+            "fasste",
+            "fasst"
+          ],
+          "purple": [
+            "tiivistää",
+            "yhdistää"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Fasst"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tiivistäkää"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fasste"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tiivisti"
               ]
             }
           },
@@ -1362,76 +1980,79 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "resümeeris"
+                "Kokosimme"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "Zusammenfassend"
+                "zusammenfassen"
               ]
             },
             "lv": {
               "purple": [
-                "kokkuvõttes"
+                "kertoa"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "zusammenstellen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "koota"
               ]
             }
           },
           {
-            "de": {
+            "word": {
               "green": [
-                "Zusammenfassung"
+                "kürzen"
               ]
             },
-            "lv": {
+            "meaning": {
               "purple": [
-                "kokkuvõtet"
+                "lyhentää"
               ]
             }
           },
           {
-            "de": {
+            "word": {
               "green": [
-                "Zusammenfassung"
+                "wiederholen"
               ]
             },
-            "lv": {
+            "meaning": {
               "purple": [
-                "kokkuvõte"
+                "toistaa"
               ]
             }
           }
         ],
         "tip": [
+          {},
           {
             "blue": [
               "zusammenfassen"
-            ]
-          },
-          {
-            "green": [
-              "die Zusammenfassung"
             ]
           }
         ],
         "important": [
           {
             "blue": [
-              "zusammenfassen"
+              "zusammengefasst",
+              "fasst"
             ]
           },
           {
             "green": [
-              "die Zusammenfassung"
-            ]
-          },
-          {
-            "green": [
-              "die Zusammenfassung"
-            ],
-            "red": [
-              "die zusammenfassen"
+              "zusammenstellen"
             ]
           }
         ]
@@ -1440,1067 +2061,1735 @@ const C1_WORDS = [
   },
   {
     "de": "zusammenhängen",
-    "lv": "Seotud olema (millegagi)",
+    "lv": "liittyä • olla yhteydessä",
     "level": "C1"
   },
   {
     "de": "Aufmerksamkeit",
     "de_article": "die",
     "de_plural": "die Aufmerksamkeiten",
-    "lv": "Tähelepanu",
+    "lv": "huomio • tarkkaavaisuus",
     "level": "C1"
   },
   {
     "de": "Fernsehsendung",
     "de_article": "die",
     "de_plural": "die Fernsehsendungen",
-    "lv": "Telesaade",
+    "lv": "televisio-ohjelma",
     "level": "C1"
   },
   {
     "de": "Landschaft",
     "de_article": "die",
     "de_plural": "die Landschaften",
-    "lv": "Maastik",
+    "lv": "maisema",
     "level": "C1"
   },
   {
     "de": "Rechtschreibung",
     "de_article": "die",
     "de_plural": "die Rechtschreibungen",
-    "lv": "Õigekiri",
+    "lv": "oikeinkirjoitus",
     "level": "C1"
   },
   {
     "de": "Straßenkreuzung",
     "de_article": "die",
     "de_plural": "die Straßenkreuzungen",
-    "lv": "Tänavaristmik",
+    "lv": "risteys",
     "level": "C1"
   },
   {
     "de": "Wahl",
     "de_article": "die",
     "de_plural": "die Wahlen",
-    "lv": "Valik • Valimised",
+    "lv": "valinta • vaalit",
     "level": "C1",
     "study": {
       "id": "c1-wahl",
       "layout": "standardStudy",
-      "translation": "Valik • Valimised",
+      "translation": "valinta • vaalit",
       "explanation": [
-        "Põhiidee: die Wahl tähendab valikut kahe või enama võimaluse vahel.",
-        "Poliitika kontekstis tähendab die Wahl valimisi või hääletamist ennast.",
-        "Väljend eine Wahl treffen tähendab valiku tegemist • Zur Wahl gehen tähendab valimistele minemist.",
-        "Kontekst — isiklik otsus või poliitika — näitab, kumb tähendus on õige."
+        "Perusajatus: die Wahl tarkoittaa valintaa (sitä, mitä valitaan useista vaihtoehdoista) ja vaaleja (ihmisten valitsemista virkaan).",
+        "Feminiinisubstantiivi: die Wahl, monikko die Wahlen. Vaaleista puhuttaessa käytetään hyvin usein monikkoa: die Wahlen finden statt. Valinnan merkityksessä sana on yleensä yksikössä: die Wahl haben, keine andere Wahl haben.",
+        "Yhdistelmiä: die Wahl treffen (tehdä valinta), zur Wahl gehen (mennä äänestämään), die Wahl gewinnen (voittaa vaalit)."
       ],
       "examples": [
         {
-          "de": "Du hast die Wahl.",
-          "lv": "Sul on valik."
+          "de": "Du hast die Wahl zwischen Tee und Kaffee.",
+          "lv": "Saat valita teen ja kahvin välillä."
         },
         {
-          "de": "Ich treffe meine Wahl morgen.",
-          "lv": "Ma teen oma valiku homme."
+          "de": "Die Wahlen finden im Herbst statt.",
+          "lv": "Vaalit pidetään syksyllä."
         },
         {
-          "de": "Die Wahl findet am Sonntag statt.",
-          "lv": "Valimised toimuvad pühapäeval."
+          "de": "Er hatte keine andere Wahl.",
+          "lv": "Hänellä ei ollut muuta vaihtoehtoa."
         },
         {
-          "de": "Viele Menschen gehen zur Wahl.",
-          "lv": "Paljud inimesed lähevad valimistele."
-        },
-        {
-          "de": "Die freie Wahl ist wichtig.",
-          "lv": "Vaba valik on tähtis."
-        },
-        {
-          "de": "Bei der Wahl stimmen wir ab.",
-          "lv": "Valimistel me hääletame."
+          "de": "Die Wahl des Bürgermeisters ist am Sonntag.",
+          "lv": "Pormestarinvaali on sunnuntaina."
         }
-      ]
+      ],
+      "comparison": [
+        {
+          "word": "die Auswahl",
+          "meaning": "valikoima",
+          "example": "Im Laden gibt es eine große Auswahl. – Kaupassa on laaja valikoima."
+        },
+        {
+          "word": "die Entscheidung",
+          "meaning": "päätös",
+          "example": "Das ist meine Entscheidung. – Se on minun päätökseni."
+        },
+        {
+          "word": "die Abstimmung",
+          "meaning": "äänestys",
+          "example": "Die Abstimmung ist morgen. – Äänestys on huomenna."
+        }
+      ],
+      "tip": [
+        "Mieti asiayhteyttä: Wahl ilman monikkoa on usein valinta, die Wahlen taas vaalit.",
+        "Vaaleihin liittyvä verbi on wählen (äänestää, valita)."
+      ],
+      "important": [
+        "Älä sekoita sanoja die Wahl ja die Auswahl: Auswahl on valikoima, josta valitaan."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "die Wahl",
+            "die Wahlen",
+            "Wahlen",
+            "Wahl",
+            "zur Wahl gehen",
+            "die Wahl treffen"
+          ],
+          "purple": [
+            "valintaa",
+            "vaaleja"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Wahl"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "valita"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Wahlen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Vaalit"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Wahl"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vaihtoehtoa"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Wahl"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Pormestarinvaali"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "die Auswahl"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "valikoima"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Entscheidung"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "päätös"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Abstimmung"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "äänestys"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "Wahl",
+              "die Wahlen",
+              "Wahlen"
+            ]
+          },
+          {}
+        ],
+        "important": [
+          {
+            "blue": [
+              "Wahl",
+              "die Wahl"
+            ],
+            "green": [
+              "die Auswahl",
+              "Auswahl"
+            ]
+          }
+        ]
+      }
     }
   },
   {
     "de": "Herausforderung",
     "de_article": "die",
     "de_plural": "die Herausforderungen",
-    "lv": "Väljakutse",
+    "lv": "haaste",
     "level": "C1"
   },
   {
     "de": "Abfallbeseitigung",
     "de_article": "die",
     "de_plural": "die Abfallbeseitigungen",
-    "lv": "Jäätmete kõrvaldamine",
+    "lv": "jätehuolto",
     "level": "C1"
   },
   {
     "de": "Abgeordnete",
     "de_article": "der",
     "de_plural": "die Abgeordneten",
-    "lv": "Saadik • Esindaja • Delegaat",
+    "lv": "kansanedustaja • edustaja • valtuutettu",
     "level": "C1"
   },
   {
     "de": "Abkommen",
     "de_article": "das",
     "de_plural": "die Abkommen",
-    "lv": "Kokkulepe",
+    "lv": "sopimus",
     "level": "C1"
   },
   {
     "de": "Abschleppdienst",
     "de_article": "der",
     "de_plural": "die Abschleppdienste",
-    "lv": "Evakuatsiooniteenistus • Pukseerimisteenistus",
+    "lv": "hinauspalvelu",
     "level": "C1"
   },
   {
     "de": "Abteilungsleiter",
     "de_article": "der",
     "de_plural": "die Abteilungsleiter",
-    "lv": "Osakonnajuhataja",
+    "lv": "osastopäällikkö",
     "level": "C1"
   },
   {
     "de": "antifaschistisch",
-    "lv": "Antifašistlik",
+    "lv": "antifasistinen",
     "level": "C1"
   },
   {
     "de": "Aufenthaltsdauer",
     "de_article": "die",
     "de_plural": "die Aufenthaltsdauern",
-    "lv": "Viibimise kestus",
+    "lv": "oleskeluaika • oleskelun kesto",
     "level": "C1"
   },
   {
     "de": "augenscheinlich",
-    "lv": "Ilmselt",
+    "lv": "ilmeisesti • ilmeinen",
     "level": "C1"
   },
   {
     "de": "Güteraustausch",
     "de_article": "der",
     "de_plural": "die Güteraustausche",
-    "lv": "Kaubavahetus",
+    "lv": "tavaranvaihto",
     "level": "C1"
   },
   {
     "de": "Flottenbasis",
     "de_article": "die",
     "de_plural": "die Flottenbasen",
-    "lv": "Laevastikubaas",
+    "lv": "laivastotukikohta",
     "level": "C1"
   },
   {
     "de": "Basisforschung",
     "de_article": "die",
     "de_plural": "die Basisforschungen",
-    "lv": "Põhiuuring",
+    "lv": "perustutkimus",
     "level": "C1"
   },
   {
     "de": "beachtenswert",
-    "lv": "Tähelepanuväärne • Arvestamisväärne",
+    "lv": "huomionarvoinen • huomattava",
     "level": "C1"
   },
   {
     "de": "beanspruchen",
-    "lv": "Nõudma • Pretendeerima • Koormatud olema",
+    "lv": "vaatia • kuormittaa",
     "level": "C1"
   },
   {
     "de": "Bedarfsartikel",
     "de_article": "der",
     "de_plural": "die Bedarfsartikel",
-    "lv": "Laiatarbekaup",
+    "lv": "kulutustavara • käyttötavara",
     "level": "C1"
   },
   {
     "de": "bedingungslos",
-    "lv": "Tingimusteta",
+    "lv": "ehdoton",
     "level": "C1"
   },
   {
     "de": "Befangenheit",
     "de_article": "die",
     "de_plural": "die Befangenheiten",
-    "lv": "Kimbatus • Segadus",
-    "level": "C1"
+    "lv": "hämillisyys • ujous",
+    "level": "C1",
+    "study": {
+      "id": "c1-befangenheit",
+      "layout": "standardStudy",
+      "translation": "hämillisyys • ujous",
+      "explanation": [
+        "Perusajatus: die Befangenheit on hämillisyyttä tai ujoa kömpelyyttä, jota syntyy vieraassa tilanteessa tai muiden ihmisten edessä. Oikeudellisesti se tarkoittaa myös puolueellisuutta, esimerkiksi tuomarin tai asiantuntijan esteellisyyttä.",
+        "Feminiinisubstantiivi: die Befangenheit, monikkoa ei yleensä ole. Adjektiivi on befangen (hämillinen, puolueellinen).",
+        "Oikeudessa ilmaus Besorgnis der Befangenheit tarkoittaa epäilyä tuomarin puolueettomuudesta; siitä on peräisin Befangenheitsantrag (vaatimus tuomarin jääväämisestä)."
+      ],
+      "examples": [
+        {
+          "de": "Seine Befangenheit war deutlich zu spüren.",
+          "lv": "Hänen hämillisyytensä oli selvästi aistittavissa."
+        },
+        {
+          "de": "Sie sprach ohne jede Befangenheit vor der Gruppe.",
+          "lv": "Hän puhui ryhmän edessä ilman pienintäkään hämillisyyttä."
+        },
+        {
+          "de": "Vor Fremden hatte das Kind eine gewisse Befangenheit.",
+          "lv": "Vieraiden ihmisten edessä lapsessa oli tiettyä ujoutta."
+        },
+        {
+          "de": "Der Anwalt stellte einen Antrag wegen Befangenheit des Richters.",
+          "lv": "Asianajaja esitti vaatimuksen tuomarin esteellisyyden vuoksi."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "die Verlegenheit",
+          "meaning": "nolous",
+          "example": "Er lachte aus Verlegenheit. – Hän nauroi noloissaan."
+        },
+        {
+          "word": "die Voreingenommenheit",
+          "meaning": "ennakkoluuloisuus",
+          "example": "Ihre Voreingenommenheit stört mich. – Hänen ennakkoluuloisuutensa häiritsee minua."
+        },
+        {
+          "word": "die Schüchternheit",
+          "meaning": "ujous",
+          "example": "Seine Schüchternheit verschwand. – Hänen ujoutensa katosi."
+        }
+      ],
+      "tip": [
+        "Kun oikeudessa puhutaan sanasta Befangenheit, merkitys on puolueellisuus, ei hämillisyys.",
+        "Hämillisyyden merkityksessä sana on kirjakielinen; arkikielessä sanotaan useammin verlegen sein."
+      ],
+      "important": [
+        "Vastakohta on Unbefangenheit (luontevuus, vapautuneisuus) tai Objektivität (objektiivisuus)."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "die Befangenheit",
+            "Befangenheit",
+            "befangen",
+            "Befangenheitsantrag"
+          ],
+          "purple": [
+            "hämillisyyttä",
+            "puolueellisuutta"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Befangenheit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "hämillisyytensä"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Befangenheit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "hämillisyyttä"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Befangenheit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ujoutta"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Befangenheit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "esteellisyyden"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "die Verlegenheit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "nolous"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Voreingenommenheit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ennakkoluuloisuus"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Schüchternheit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ujous"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "Befangenheit"
+            ]
+          },
+          {}
+        ],
+        "important": [
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "beglaubigen",
-    "lv": "Ametlikult kinnitama • Notariaalselt tõestama",
+    "lv": "todistaa oikeaksi • vahvistaa",
     "level": "C1"
   },
   {
     "de": "beglückwünschen",
-    "lv": "Õnne soovima • Õnnitlema",
+    "lv": "onnitella",
     "level": "C1"
   },
   {
     "de": "beiderseitig",
-    "lv": "Kahepoolne • Vastastikune",
+    "lv": "molemminpuolinen • kahdenvälinen",
     "level": "C1"
   },
   {
     "de": "Familienbeihilfe",
     "de_article": "die",
     "de_plural": "die Familienbeihilfen",
-    "lv": "Peretoetus",
+    "lv": "perheavustus • lapsilisä",
     "level": "C1"
   },
   {
     "de": "beispielhaft",
-    "lv": "Eeskujulik",
+    "lv": "esimerkillinen",
     "level": "C1"
   },
   {
     "de": "beklagen",
-    "lv": "Kahetsema • Kurvastama • Leinama • Kaebama",
+    "lv": "valittaa • surra",
     "level": "C1"
   },
   {
     "de": "Zahnbelag",
     "de_article": "der",
     "de_plural": "die Zahnbeläge",
-    "lv": "Hambakatt",
+    "lv": "plakki • hammasplakki",
     "level": "C1"
   },
   {
     "de": "Belegschaft",
     "de_article": "die",
     "de_plural": "die Belegschaften",
-    "lv": "Kollektiiv • Personal",
+    "lv": "henkilökunta • henkilöstö",
     "level": "C1"
   },
   {
     "de": "benachteiligen",
-    "lv": "Kahjustama • Kahju tekitama",
+    "lv": "syrjiä • asettaa epäedulliseen asemaan",
     "level": "C1"
   },
   {
     "de": "Berufsberater",
     "de_article": "der",
     "de_plural": "die Berufsberater",
-    "lv": "Tööalane nõustaja",
+    "lv": "ammatinvalinnanohjaaja",
     "level": "C1"
   },
   {
     "de": "beratschlagen",
-    "lv": "Nõu pidama",
+    "lv": "neuvotella • pitää neuvoa",
     "level": "C1"
   },
   {
     "de": "Einflussbereich",
     "de_article": "der",
     "de_plural": "die Einflussbereiche",
-    "lv": "Mõjusfäär",
+    "lv": "vaikutuspiiri",
     "level": "C1"
   },
   {
     "de": "bereitwillig",
-    "lv": "Abivalmis • Teenistusvalmis",
+    "lv": "aulis • avulias",
     "level": "C1"
   },
   {
     "de": "Berufsberatung",
     "de_article": "die",
     "de_plural": "die Berufsberatungen",
-    "lv": "Kutsenõustamine",
+    "lv": "ammatinvalinnanohjaus",
     "level": "C1"
   },
   {
     "de": "Berufsgeheimnis",
     "de_article": "das",
     "de_plural": "die Berufsgeheimnisse",
-    "lv": "Ametisaladus",
+    "lv": "ammattisalaisuus • vaitiolovelvollisuus",
     "level": "C1"
   },
   {
     "de": "Berufung",
     "de_article": "die",
     "de_plural": "die Berufungen",
-    "lv": "Kutsumus • Kalduvus • Apellatsioon",
-    "level": "C1"
+    "lv": "kutsumus • nimitys • muutoksenhaku",
+    "level": "C1",
+    "study": {
+      "id": "c1-berufung",
+      "layout": "standardStudy",
+      "translation": "kutsumus • nimitys • muutoksenhaku",
+      "explanation": [
+        "Perusajatus: die Berufung on monimerkityksinen sana. Kutsumus (sisäinen kutsumus johonkin ammattiin), nimitys virkaan (erityisesti korkeakouluun), vetoaminen johonkin (unter Berufung auf) ja oikeuskielessä valitus (Berufung einlegen).",
+        "Feminiinisubstantiivi: die Berufung, monikko die Berufungen. Vastaava verbi on berufen, mutta johonkin vetoamista ilmaistaan rakenteella sich berufen auf + akkusatiivi.",
+        "Merkityksen ratkaisee yleensä yhdistelmä: Berufung einlegen — jättää valituksen; unter Berufung auf — vedoten johonkin."
+      ],
+      "examples": [
+        {
+          "de": "Sie spürt die Berufung zur Ärztin.",
+          "lv": "Hän tuntee kutsumusta lääkärin ammattiin."
+        },
+        {
+          "de": "Die Anwältin legte gegen das Urteil Berufung ein.",
+          "lv": "Asianajaja jätti tuomiosta valituksen."
+        },
+        {
+          "de": "Er lehnte die Fragen unter Berufung auf das Datenschutzgesetz ab.",
+          "lv": "Hän kieltäytyi vastaamasta kysymyksiin vedoten tietosuojalakiin."
+        },
+        {
+          "de": "Seine Berufung an die Universität kam überraschend.",
+          "lv": "Hänen nimityksensä yliopistoon tuli yllätyksenä."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "der Beruf",
+          "meaning": "ammatti",
+          "example": "Mein Beruf ist Lehrer. – Ammattini on opettaja."
+        },
+        {
+          "word": "der Einspruch",
+          "meaning": "vastalause",
+          "example": "Er legte Einspruch ein. – Hän esitti vastalauseen."
+        },
+        {
+          "word": "die Revision",
+          "meaning": "revisiovalitus",
+          "example": "Die Revision wurde abgelehnt. – Revisiovalitus hylättiin."
+        }
+      ],
+      "tip": [
+        "Opettele kaksi vakiintunutta yhdistelmää: Berufung einlegen (valittaa) ja unter Berufung auf (vedoten johonkin).",
+        "Der Beruf (ammatti) ja die Berufung (kutsumus) ovat sukua toisilleen, mutta ne tarkoittavat eri asioita."
+      ],
+      "important": [
+        "Saksan oikeusjärjestelmässä valitus (Berufung) ei ole sama kuin Revision, jossa tarkastetaan vain lain soveltaminen."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Berufung",
+            "Berufungen"
+          ],
+          "purple": [
+            "Kutsumus",
+            "kutsumus",
+            "nimitys",
+            "valitus",
+            "valituksen"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Berufung"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kutsumusta"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Berufung"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "valituksen"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Berufung"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vedoten"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Berufung"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nimityksensä"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "der Beruf"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ammatti"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Einspruch"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "vastalause"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Revision"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "revisiovalitus"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "Berufung"
+            ]
+          },
+          {
+            "blue": [
+              "Berufung"
+            ],
+            "green": [
+              "der Beruf",
+              "Beruf"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "Berufung"
+            ],
+            "green": [
+              "Revision"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Besatzungsmacht",
     "de_article": "die",
     "de_plural": "die Besatzungsmächte",
-    "lv": "Okupatsioonivõim",
+    "lv": "miehitysvalta",
     "level": "C1"
   },
   {
     "de": "Beschaffenheit",
     "de_article": "die",
     "de_plural": "die Beschaffenheiten",
-    "lv": "Omadus • Olemus",
+    "lv": "laatu • ominaisuus • luonne",
     "level": "C1"
   },
   {
     "de": "bescheinigen",
-    "lv": "Kinnitama • Tõendit väljastama",
+    "lv": "todistaa • vahvistaa",
     "level": "C1"
   },
   {
     "de": "Bescheinigung",
     "de_article": "die",
     "de_plural": "die Bescheinigungen",
-    "lv": "Tõend • Tunnistus • Kinnitus",
+    "lv": "todistus",
     "level": "C1"
   },
   {
     "de": "beschlagnahmen",
-    "lv": "Arestima • Konfiskeerima • Võõrandama",
+    "lv": "takavarikoida",
     "level": "C1"
   },
   {
     "de": "beschuldigen",
-    "lv": "Süüdistama",
+    "lv": "syyttää",
     "level": "C1"
   },
   {
     "de": "Besonderheit",
     "de_article": "die",
     "de_plural": "die Besonderheiten",
-    "lv": "Iseärasus",
+    "lv": "erityispiirre • erikoisuus",
     "level": "C1"
   },
   {
     "de": "beträchtlich",
-    "lv": "Märkimisväärne • Üsna suur",
+    "lv": "huomattava • melkoinen",
     "level": "C1"
   },
   {
     "de": "Betriebskosten",
     "de_article": "die",
-    "lv": "Ettevõtte ekspluatatsioonikulud • Tootmiskulud",
+    "lv": "käyttökustannukset",
     "level": "C1"
   },
   {
     "de": "Betriebssystem",
     "de_article": "das",
     "de_plural": "die Betriebssysteme",
-    "lv": "Operatsioonisüsteem",
+    "lv": "käyttöjärjestelmä",
     "level": "C1"
   },
   {
     "de": "bevollmächtigen",
-    "lv": "Volitama",
+    "lv": "valtuuttaa",
     "level": "C1"
   },
   {
     "de": "bevorstehend",
-    "lv": "Eesseisev • Järgmine",
+    "lv": "tuleva • lähestyvä",
     "level": "C1"
   },
   {
     "de": "bewähren, sich",
-    "lv": "End tõestama • Õigustatuks osutuma",
+    "lv": "osoittautua hyväksi • pitää paikkansa",
     "level": "C1"
   },
   {
     "de": "Beweismaterial",
     "de_article": "das",
     "de_plural": "die Beweismaterialien",
-    "lv": "Materiaalsed tõendid",
+    "lv": "todistusaineisto",
     "level": "C1"
   },
   {
     "de": "bewerben, sich",
-    "lv": "Kandideerima • Püüdlema",
+    "lv": "hakea • pyrkiä",
     "level": "C1"
   },
   {
     "de": "Bezugsperson",
     "de_article": "die",
     "de_plural": "die Bezugspersonen",
-    "lv": "Kontaktisik • Lähedane inimene",
+    "lv": "läheinen ihminen • yhteyshenkilö",
     "level": "C1"
   },
   {
     "de": "Bildhauerkunst",
     "de_article": "die",
-    "lv": "Skulptuur",
+    "lv": "kuvanveisto",
     "level": "C1"
   },
   {
     "de": "Bilanz",
     "de_article": "die",
     "de_plural": "die Bilanzen",
-    "lv": "Bilanss",
+    "lv": "tase",
     "level": "C1"
   },
   {
     "de": "Finanzblockade",
     "de_article": "die",
     "de_plural": "die Finanzblockaden",
-    "lv": "Finantsblokaad",
+    "lv": "rahoitussaarto",
     "level": "C1"
   },
   {
     "de": "Blutuntersuchung",
     "de_article": "die",
     "de_plural": "die Blutuntersuchungen",
-    "lv": "Vereanalüüs",
+    "lv": "verikoe",
     "level": "C1"
   },
   {
     "de": "Blutsverwandte",
     "de_article": "der",
     "de_plural": "die Blutsverwandten",
-    "lv": "Veresugulane",
+    "lv": "verisukulainen",
     "level": "C1"
   },
   {
     "de": "Botschafter",
     "de_article": "der",
     "de_plural": "die Botschafter",
-    "lv": "Saadik",
+    "lv": "suurlähettiläs",
     "level": "C1"
   },
   {
     "de": "Bundesdeutsche",
     "de_article": "der",
     "de_plural": "die Bundesdeutschen",
-    "lv": "Saksamaa Liitvabariigi kodanik",
+    "lv": "Saksan liittotasavallan kansalainen",
     "level": "C1"
   },
   {
     "de": "Computersprache",
     "de_article": "die",
     "de_plural": "die Computersprachen",
-    "lv": "Programmeerimiskeel",
+    "lv": "ohjelmointikieli • tietokonekieli",
     "level": "C1"
   },
   {
     "de": "Dachgepäckträger",
     "de_article": "der",
     "de_plural": "die Dachgepäckträger",
-    "lv": "Katuse pagasiraam",
+    "lv": "kattoteline",
     "level": "C1"
   },
   {
     "de": "Datenübermittlung",
     "de_article": "die",
     "de_plural": "die Datenübermittlungen",
-    "lv": "Andmeedastus",
+    "lv": "tiedonsiirto",
     "level": "C1"
   },
   {
     "de": "Datenübertragung",
     "de_article": "die",
     "de_plural": "die Datenübertragungen",
-    "lv": "Andmeedastus",
+    "lv": "tiedonsiirto",
     "level": "C1"
   },
   {
     "de": "dauerhaft",
-    "lv": "Püsiv • Pikaajaline • Vastupidav",
+    "lv": "pysyvä • kestävä",
     "level": "C1"
   },
   {
     "de": "dazwischenkommen",
-    "lv": "Vahele tulema • Sekkuma",
+    "lv": "tulla väliin • sattua",
     "level": "C1"
   },
   {
     "de": "Haushaltsdefizit",
     "de_article": "das",
     "de_plural": "die Haushaltsdefizite",
-    "lv": "Eelarvedefitsiit",
+    "lv": "budjettivaje • budjettialijäämä",
     "level": "C1"
   },
   {
     "de": "Zolldeklaration",
     "de_article": "die",
     "de_plural": "die Zolldeklarationen",
-    "lv": "Tollideklaratsioon",
+    "lv": "tulli-ilmoitus",
     "level": "C1"
   },
   {
     "de": "Delegation",
     "de_article": "die",
     "de_plural": "die Delegationen",
-    "lv": "Delegatsioon",
+    "lv": "valtuuskunta • delegaatio",
     "level": "C1"
   },
   {
     "de": "Eigentumsdelikt",
     "de_article": "das",
     "de_plural": "die Eigentumsdelikte",
-    "lv": "Omandiõiguse rikkumine",
+    "lv": "omaisuusrikos",
     "level": "C1"
   },
   {
     "de": "Verkehrsdelikt",
     "de_article": "das",
     "de_plural": "die Verkehrsdelikte",
-    "lv": "Liiklusrikkumine",
+    "lv": "liikennerikkomus",
     "level": "C1"
   },
   {
     "de": "dementsprechend",
-    "lv": "Vastavalt sellele",
+    "lv": "sen mukaisesti • vastaavasti",
     "level": "C1"
   },
   {
     "de": "dessen ungeachtet",
-    "lv": "Sellest hoolimata",
+    "lv": "siitä huolimatta",
     "level": "C1"
   },
   {
     "de": "Nachrichtendienst",
     "de_article": "der",
     "de_plural": "die Nachrichtendienste",
-    "lv": "Riiklik luureteenistus",
+    "lv": "tiedustelupalvelu",
     "level": "C1"
   },
   {
     "de": "Rettungsdienst",
     "de_article": "der",
     "de_plural": "die Rettungsdienste",
-    "lv": "Päästeteenistus",
+    "lv": "pelastuspalvelu",
     "level": "C1"
   },
   {
     "de": "Dienstleistung",
     "de_article": "die",
     "de_plural": "die Dienstleistungen",
-    "lv": "Olmeteenus",
+    "lv": "palvelu",
     "level": "C1"
   },
   {
     "de": "dienstpflichtig",
-    "lv": "Sõjaväeteenistuskohuslane",
+    "lv": "asevelvollinen",
     "level": "C1"
   },
   {
     "de": "diensttauglich",
-    "lv": "Sõjaväeteenistuskõlblik",
+    "lv": "palveluskelpoinen",
     "level": "C1"
   },
   {
     "de": "Dieseltreibstoff",
     "de_article": "der",
     "de_plural": "die Dieseltreibstoffe",
-    "lv": "Diislikütus",
+    "lv": "dieselpolttoaine",
     "level": "C1"
   },
   {
     "de": "Diplomatie",
     "de_article": "die",
-    "lv": "Diplomaatia",
+    "lv": "diplomatia",
     "level": "C1"
   },
   {
     "de": "diplomatisch",
-    "lv": "Diplomaatiline",
+    "lv": "diplomaattinen",
     "level": "C1"
   },
   {
     "de": "Dirigentenstab",
     "de_article": "der",
     "de_plural": "die Dirigentenstäbe",
-    "lv": "Dirigendikepp",
+    "lv": "tahtipuikko",
     "level": "C1"
   },
   {
     "de": "Diskettenlaufwerk",
     "de_article": "das",
     "de_plural": "die Diskettenlaufwerke",
-    "lv": "Disketiseade",
+    "lv": "levykeasema",
     "level": "C1"
   },
   {
     "de": "disqualifizieren",
-    "lv": "Diskvalifitseerima",
+    "lv": "hylätä • diskvalifioida",
     "level": "C1"
   },
   {
     "de": "Durchfuhrverbot",
     "de_article": "das",
     "de_plural": "die Durchfuhrverbote",
-    "lv": "Läbisõidukeeld",
+    "lv": "kauttakulkukielto",
     "level": "C1"
   },
   {
     "de": "Durchgangsverkehr",
     "de_article": "der",
-    "lv": "Transiitliiklus",
+    "lv": "läpikulkuliikenne • kauttakulkuliikenne",
     "level": "C1"
   },
   {
     "de": "ehrenhaft",
-    "lv": "Aus • Auväärne • Lugupeetav",
+    "lv": "kunniallinen • kunnioitettava",
     "level": "C1"
   },
   {
     "de": "Einflusssphäre",
     "de_article": "die",
     "de_plural": "die Einflusssphären",
-    "lv": "Mõjusfäär",
+    "lv": "vaikutuspiiri",
     "level": "C1"
   },
   {
     "de": "eingeschrieben",
-    "lv": "Registreeritud",
+    "lv": "kirjattu • rekisteröity",
     "level": "C1"
   },
   {
     "de": "Währungseinheit",
     "de_article": "die",
     "de_plural": "die Währungseinheiten",
-    "lv": "Rahaühik",
+    "lv": "rahayksikkö • valuuttayksikkö",
     "level": "C1"
   },
   {
     "de": "Einkommensteuer",
     "de_article": "die",
     "de_plural": "die Einkommensteuern",
-    "lv": "Tulumaks",
+    "lv": "tulovero",
     "level": "C1"
   },
   {
     "de": "Einlage",
     "de_article": "die",
     "de_plural": "die Einlagen",
-    "lv": "Sissemakse • Hoius • Kirja lisa",
+    "lv": "talletus • panos • liite",
     "level": "C1"
   },
   {
     "de": "einreden",
-    "lv": "Sisendama • Veenda püüdma",
+    "lv": "uskotella • taivutella",
     "level": "C1"
   },
   {
     "de": "sich einschmeicheln",
-    "lv": "Meelitama end sisse",
+    "lv": "mielistellä • liehitellä",
     "level": "C1"
   },
   {
     "de": "Einschreibebrief",
     "de_article": "der",
     "de_plural": "die Einschreibebriefe",
-    "lv": "Tähtkiri",
+    "lv": "kirjattu kirje",
     "level": "C1"
   },
   {
     "de": "Einspruchsrecht",
     "de_article": "das",
     "de_plural": "die Einspruchsrechte",
-    "lv": "Vastuväiteõigus • Vetoõigus",
+    "lv": "vastustusoikeus • veto-oikeus",
     "level": "C1"
   },
   {
     "de": "Einstandsgebühr",
     "de_article": "die",
     "de_plural": "die Einstandsgebühren",
-    "lv": "Liitumistasu",
+    "lv": "liittymismaksu • osallistumismaksu",
     "level": "C1"
   },
   {
     "de": "Einverständnis",
     "de_article": "das",
     "de_plural": "die Einverständnisse",
-    "lv": "Üksmeel • Kokkulepe • Nõusolek",
+    "lv": "suostumus • yhteisymmärrys",
     "level": "C1"
   },
   {
     "de": "Eisenbahnunglück",
     "de_article": "das",
     "de_plural": "die Eisenbahnunglücke",
-    "lv": "Raudteeõnnetus",
+    "lv": "junaonnettomuus",
     "level": "C1"
   },
   {
     "de": "Eisenbahnverkehr",
     "de_article": "der",
     "de_plural": "die Eisenbahnverkehre",
-    "lv": "Raudteeliiklus",
+    "lv": "rautatieliikenne",
     "level": "C1"
   },
   {
     "de": "Elektrizitätswerk",
     "de_article": "das",
     "de_plural": "die Elektrizitätswerke",
-    "lv": "Elektrijaam",
+    "lv": "voimalaitos • sähkövoimala",
     "level": "C1"
   },
   {
     "de": "Elementarbegriff",
     "de_article": "der",
     "de_plural": "die Elementarbegriffe",
-    "lv": "Põhimõiste",
+    "lv": "peruskäsite",
     "level": "C1"
   },
   {
     "de": "Elementarregel",
     "de_article": "die",
     "de_plural": "die Elementarregeln",
-    "lv": "Põhireegel",
+    "lv": "perussääntö",
     "level": "C1"
   },
   {
     "de": "Energieerzeugung",
     "de_article": "die",
     "de_plural": "die Energieerzeugungen",
-    "lv": "Energiatootmine",
+    "lv": "energiantuotanto",
     "level": "C1"
   },
   {
     "de": "Energieversorgung",
     "de_article": "die",
     "de_plural": "die Energieversorgungen",
-    "lv": "Energiavarustus",
+    "lv": "energiahuolto",
     "level": "C1"
   },
   {
     "de": "entgegensetzen",
-    "lv": "Vastandama",
+    "lv": "asettaa vastaan • vastustaa",
     "level": "C1"
   },
   {
     "de": "sich entgegensetzen",
-    "lv": "Vastu seisma",
+    "lv": "vastustaa • asettua vastustamaan",
     "level": "C1"
   },
   {
     "de": "entschädigen",
-    "lv": "Hüvitama • Kompenseerima",
+    "lv": "korvata • hyvittää",
     "level": "C1"
   },
   {
     "de": "sich entschließen",
-    "lv": "Otsustama",
+    "lv": "päättää • ratkaista",
     "level": "C1"
   },
   {
     "de": "entschlossen",
-    "lv": "Otsustav • Kindlameelne",
+    "lv": "päättäväinen • määrätietoinen",
     "level": "C1"
   },
   {
     "de": "entschlüsseln",
-    "lv": "Dešifreerima",
+    "lv": "purkaa salaus • tulkita",
     "level": "C1"
   },
   {
     "de": "Gesetzentwurf",
     "de_article": "der",
     "de_plural": "die Gesetzentwürfe",
-    "lv": "Seaduseelnõu",
+    "lv": "lakiesitys • lakiehdotus",
     "level": "C1"
   },
   {
     "de": "Entziehungskur",
     "de_article": "die",
     "de_plural": "die Entziehungskuren",
-    "lv": "Võõrutusravi kuur",
+    "lv": "vieroitushoito",
     "level": "C1"
   },
   {
     "de": "Erbkrankheit",
     "de_article": "die",
     "de_plural": "die Erbkrankheiten",
-    "lv": "Pärilik haigus",
+    "lv": "perinnöllinen sairaus",
     "level": "C1"
   },
   {
     "de": "Kriegserklärung",
     "de_article": "die",
     "de_plural": "die Kriegserklärungen",
-    "lv": "Sõjakuulutus",
+    "lv": "sodanjulistus",
     "level": "C1"
   },
   {
     "de": "Erntearbeiten",
     "de_article": "die",
-    "lv": "Saagikoristustööd",
+    "lv": "sadonkorjuutyöt",
     "level": "C1"
   },
   {
     "de": "Ersatzspieler",
     "de_article": "der",
     "de_plural": "die Ersatzspieler",
-    "lv": "Reservväelane • Reservmängija",
+    "lv": "varapelaaja • vaihtopelaaja",
     "level": "C1"
   },
   {
     "de": "Erstaufführung",
     "de_article": "die",
     "de_plural": "die Erstaufführungen",
-    "lv": "Esietendus",
+    "lv": "ensi-ilta • kantaesitys",
     "level": "C1"
   },
   {
     "de": "festgesetzt",
-    "lv": "Kindlaks määratud",
-    "level": "C1"
+    "lv": "määrätty • sovittu",
+    "level": "C1",
+    "study": {
+      "id": "c1-festgesetzt",
+      "layout": "standardStudy",
+      "translation": "määrätty • sovittu",
+      "explanation": [
+        "Perusajatus: festgesetzt on verbin festsetzen partisiippi ja tarkoittaa virallisesti määrättyä, vahvistettua tai sovittua (määräaika, hinta, rangaistus). Se kuvaa jotakin, joka on määrätty sitovaksi.",
+        "Erotettava verbi: er setzt fest, setzte fest, hat festgesetzt. Adjektiivina se taipuu: der festgesetzte Termin, die festgesetzte Frist. Passiivissa: wurde festgesetzt.",
+        "Oikeuskielessä festsetzen voi tarkoittaa myös pidättää ihminen: Die Täter wurden festgesetzt."
+      ],
+      "examples": [
+        {
+          "de": "Der Termin ist auf den 5. Mai festgesetzt.",
+          "lv": "Ajankohdaksi on määrätty 5. toukokuuta."
+        },
+        {
+          "de": "Die Preise wurden vom Staat festgesetzt.",
+          "lv": "Hinnat määräsi valtio."
+        },
+        {
+          "de": "Die Strafe wurde auf zwei Jahre festgesetzt.",
+          "lv": "Rangaistukseksi määrättiin kaksi vuotta."
+        },
+        {
+          "de": "Die festgesetzte Frist läuft morgen ab.",
+          "lv": "Asetettu määräaika päättyy huomenna."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "festgelegt",
+          "meaning": "vahvistettu",
+          "example": "Der Plan ist festgelegt. – Suunnitelma on vahvistettu."
+        },
+        {
+          "word": "beschlossen",
+          "meaning": "päätetty",
+          "example": "Das wurde beschlossen. – Se päätettiin."
+        },
+        {
+          "word": "bestimmt",
+          "meaning": "määrätty, tarkoitettu",
+          "example": "Der Ort ist bestimmt. – Paikka on määrätty."
+        }
+      ],
+      "tip": [
+        "Käytetään usein sanojen Frist, Termin, Preis, Strafe, Höhe kanssa: auf einen Betrag festgesetzt.",
+        "Puhekielessä sanotaan useammin festgelegt; festgesetzt kuulostaa virallisemmalta."
+      ],
+      "important": [
+        "Kiinnitä huomiota merkitykseen: festgesetzt tarkoittaa pidätettyä vain poliisin tai oikeuden yhteydessä."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "festgesetzt",
+            "festsetzen",
+            "setzt fest",
+            "setzte fest",
+            "festgesetzte",
+            "hat festgesetzt"
+          ],
+          "purple": [
+            "määrättyä",
+            "pidättää"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "festgesetzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "määrätty"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "festgesetzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "määräsi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "festgesetzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "määrättiin"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "festgesetzte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Asetettu"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "festgelegt"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "vahvistettu"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "beschlossen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "päätetty"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "bestimmt"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "tarkoitettu"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "festgesetzt"
+            ]
+          },
+          {
+            "blue": [
+              "festgesetzt"
+            ],
+            "green": [
+              "festgelegt"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "festgesetzt"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "feuergefährlich",
-    "lv": "Tuleohtlik",
+    "lv": "tulenarka • helposti syttyvä",
     "level": "C1"
   },
   {
     "de": "Feuerversicherung",
     "de_article": "die",
     "de_plural": "die Feuerversicherungen",
-    "lv": "Tulekindlustus",
+    "lv": "palovakuutus",
     "level": "C1"
   },
   {
     "de": "Feuerwerkskörper",
     "de_article": "der",
     "de_plural": "die Feuerwerkskörper",
-    "lv": "Ilutulestikurakett",
+    "lv": "ilotulite",
     "level": "C1"
   },
   {
     "de": "Fleckenentferner",
     "de_article": "der",
     "de_plural": "die Fleckenentferner",
-    "lv": "Plekieemaldi",
+    "lv": "tahranpoistoaine",
     "level": "C1"
   },
   {
     "de": "Flüchtlingslager",
     "de_article": "das",
     "de_plural": "die Flüchtlingslager",
-    "lv": "Pagulaslaager",
+    "lv": "pakolaisleiri",
     "level": "C1"
   },
   {
     "de": "Fortbildungskurse",
     "de_article": "die",
-    "lv": "Täienduskoolituskursused",
+    "lv": "täydennyskoulutuskurssit",
     "level": "C1"
   },
   {
     "de": "fortgeschritten",
-    "lv": "Üsna hilises arengujärgus",
+    "lv": "edistynyt • pitkälle edennyt",
     "level": "C1"
   },
   {
     "de": "fortschrittlich",
-    "lv": "Progressiivne",
+    "lv": "edistyksellinen",
     "level": "C1"
   },
   {
     "de": "Freilichtmuseum",
     "de_article": "das",
     "de_plural": "die Freilichtmuseen",
-    "lv": "Vabaõhumuuseum",
+    "lv": "ulkomuseo",
     "level": "C1"
   },
   {
     "de": "Friedensangebot",
     "de_article": "das",
     "de_plural": "die Friedensangebote",
-    "lv": "Rahupakkumine",
+    "lv": "rauhantarjous",
     "level": "C1"
   },
   {
     "de": "Friedensvertrag",
     "de_article": "der",
     "de_plural": "die Friedensverträge",
-    "lv": "Rahuleping",
+    "lv": "rauhansopimus",
     "level": "C1"
   },
   {
     "de": "Friedenspolitik",
     "de_article": "die",
     "de_plural": "die Friedenspolitiken",
-    "lv": "Rahupoliitika",
+    "lv": "rauhanpolitiikka",
     "level": "C1"
   },
   {
     "de": "Fuhrunternehmen",
     "de_article": "das",
     "de_plural": "die Fuhrunternehmen",
-    "lv": "kravas transporta uzņēmums",
+    "lv": "kuljetusliike",
     "level": "C1"
   },
   {
     "de": "soziale Fürsorge",
     "de_article": "die",
-    "lv": "Sotsiaalhoolekanne",
+    "lv": "sosiaalihuolto",
     "level": "C1"
   },
   {
     "de": "Auffassungsgabe",
     "de_article": "die",
     "de_plural": "die Auffassungsgaben",
-    "lv": "Taipamisvõime",
+    "lv": "käsityskyky • oppimiskyky",
     "level": "C1"
   },
   {
     "de": "Gebrauchtwaren",
     "de_article": "die",
-    "lv": "Kasutatud asjad",
+    "lv": "käytetyt tavarat",
     "level": "C1"
   },
   {
     "de": "Geburtenrate",
     "de_article": "die",
     "de_plural": "die Geburtenraten",
-    "lv": "Sündimuse tase",
+    "lv": "syntyvyys",
     "level": "C1"
   },
   {
     "de": "Gefängniszelle",
     "de_article": "die",
     "de_plural": "die Gefängniszellen",
-    "lv": "Vanglakamber",
+    "lv": "vankiselli",
     "level": "C1"
   },
   {
     "de": "Gefäßverengung",
     "de_article": "die",
     "de_plural": "die Gefäßverengungen",
-    "lv": "Veresoonte ahenemine",
+    "lv": "verisuonten ahtauma",
     "level": "C1"
   },
   {
     "de": "Geflügelzucht",
     "de_article": "die",
     "de_plural": "die Geflügelzuchten",
-    "lv": "Linnukasvatus",
+    "lv": "siipikarjankasvatus",
     "level": "C1"
   },
   {
     "de": "Gefrierpunkt",
     "de_article": "der",
     "de_plural": "die Gefrierpunkte",
-    "lv": "Külmumispunkt • Nullpunkt",
+    "lv": "jäätymispiste • nollapiste",
     "level": "C1"
   },
   {
     "de": "Gehaltskürzung",
     "de_article": "die",
     "de_plural": "die Gehaltskürzungen",
-    "lv": "Palgakärbe",
+    "lv": "palkanalennus",
     "level": "C1"
   },
   {
     "de": "Beichtgeheimnis",
     "de_article": "das",
     "de_plural": "die Beichtgeheimnisse",
-    "lv": "Pihisaladus",
+    "lv": "rippisalaisuus",
     "level": "C1"
   },
   {
     "de": "Gehirnschlag",
     "de_article": "der",
     "de_plural": "die Gehirnschläge",
-    "lv": "Insult",
+    "lv": "aivohalvaus",
     "level": "C1"
   },
   {
     "de": "Geisterstunde",
     "de_article": "die",
     "de_plural": "die Geisterstunden",
-    "lv": "Kummituste tund",
+    "lv": "aaveiden hetki",
     "level": "C1"
   },
   {
     "de": "geistesabwesend",
-    "lv": "Hajevil",
+    "lv": "hajamielinen",
     "level": "C1"
   },
   {
     "de": "geisteskrank",
-    "lv": "Vaimuhaige",
+    "lv": "mielisairas",
     "level": "C1"
   },
   {
     "de": "geistesschwach",
-    "lv": "Vaimupuudega",
+    "lv": "vähämielinen • heikkolahjainen",
     "level": "C1"
   },
   {
     "de": "Geländefahrt",
     "de_article": "die",
     "de_plural": "die Geländefahrten",
-    "lv": "Maastikusõit",
+    "lv": "maastoajo",
     "level": "C1"
   },
   {
     "de": "Geldentwertung",
     "de_article": "die",
     "de_plural": "die Geldentwertungen",
-    "lv": "Inflatsioon",
+    "lv": "inflaatio • rahan arvon aleneminen",
     "level": "C1"
   },
   {
     "de": "gelegentlich",
-    "lv": "Aeg-ajalt • Juhuslik • Seoses",
+    "lv": "toisinaan • satunnainen",
     "level": "C1",
     "study": {
       "id": "c1-gelegentlich",
       "layout": "standardStudy",
-      "translation": "Aeg-ajalt • Juhuslik • Seoses",
-      "explanation": "Põhiidee: gelegentlich on kolme funktsiooniga sõna. Omadussõna: juhuslik (ein gelegentlicher Besuch). Määrsõna: aeg-ajalt (Er kommt gelegentlich). Eessõna + genitiiv: seoses (gelegentlich des Festes).",
+      "translation": "toisinaan • satunnainen",
+      "explanation": [
+        "Perusajatus: gelegentlich on useimmiten adverbi, joka tarkoittaa toisinaan, aika ajoin: jotakin tapahtuu ei säännöllisesti vaan silloin tällöin. Adjektiivina se tarkoittaa satunnainen tai yksittäinen: gelegentliche Schauer — yksittäisiä sadekuuroja.",
+        "Harvemmin ja muodollisemmin gelegentlich on genetiiviä vaativa prepositio, joka tarkoittaa jonkin johdosta: gelegentlich seines Geburtstags — hänen syntymäpäivänsä johdosta. Tämä käyttö kuulostaa nykyään hyvin viralliselta tai vanhahtavalta.",
+        "Adverbina gelegentlich ei taivu; adjektiivina se saa päätteet."
+      ],
       "examples": [
         {
-          "de": "Er kommt gelegentlich vorbei.",
-          "lv": "Ta astub aeg-ajalt läbi."
+          "de": "Wir treffen uns gelegentlich auf einen Kaffee.",
+          "lv": "Tapaamme toisinaan kahvin merkeissä."
         },
         {
-          "de": "Ein gelegentlicher Besuch reicht.",
-          "lv": "Juhuslikust külastusest piisab."
+          "de": "Er raucht nur gelegentlich.",
+          "lv": "Hän polttaa vain toisinaan."
         },
         {
-          "de": "Gelegentlich des Festes gab es eine Rede.",
-          "lv": "Peo puhul peeti kõne."
+          "de": "Gelegentliche Schauer sind möglich.",
+          "lv": "Yksittäiset sadekuurot ovat mahdollisia."
+        },
+        {
+          "de": "Gelegentlich seines Geburtstags hielt er eine Rede.",
+          "lv": "Syntymäpäivänsä johdosta hän piti puheen."
         }
       ],
       "comparison": [
         {
-          "word": "gelegentlich (Adv.)",
-          "meaning": "Aeg-ajalt",
-          "example": "Er kommt gelegentlich. = Viņš reizēm atnāk."
-        },
-        {
-          "word": "gelegentlich (Adj.)",
-          "meaning": "Juhuslik",
-          "example": "ein gelegentlicher Besuch = gadījuma apmeklējums"
-        },
-        {
-          "word": "gelegentlich (+ Gen.)",
-          "meaning": "Seoses",
-          "example": "gelegentlich des Festes = svētku sakarā"
-        },
-        {
           "word": "manchmal",
-          "meaning": "Vahel",
-          "example": "Manchmal regnet es. = Reizēm līst."
+          "meaning": "joskus",
+          "example": "Manchmal gehe ich laufen. – Joskus käyn juoksemassa."
+        },
+        {
+          "word": "ab und zu",
+          "meaning": "silloin tällöin",
+          "example": "Ab und zu rufe ich ihn an. – Soitan hänelle silloin tällöin."
+        },
+        {
+          "word": "selten",
+          "meaning": "harvoin",
+          "example": "Er kommt selten. – Hän tulee harvoin."
         }
       ],
-      "tip": {
-        "leftBlocks": [
-          {
-            "text": "Positsioon lauses aitab: enne nimisõna = omadussõna • Pärast tegusõna = määrsõna • + genitiiv = eessõna."
-          }
-        ]
-      },
-      "important": {
-        "text": "Adj: juhuslik. Adv: aeg-ajalt. Prep. + Gen.: seoses. Kontekst määrab tähenduse."
-      },
+      "tip": [
+        "Kun haluat sanoa toisinaan mutta et säännöllisesti, käytä sanaa gelegentlich tai ab und zu.",
+        "Arkipuheessa kuulet useammin sanan manchmal; gelegentlich on huolitellumpi ja kirjakielisempi."
+      ],
+      "important": [
+        "Gelegentlich ei tarkoita tilaisuutta: se on die Gelegenheit (tilaisuus)."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "gelegentlich"
+            "gelegentlich",
+            "gelegentliche",
+            "gelegentlich seines Geburtstags"
           ],
           "purple": [
-            "aeg-ajalt",
-            "juhuslik",
-            "seoses"
+            "toisinaan",
+            "satunnainen",
+            "johdosta",
+            "yksittäisiä"
           ]
         },
         "examples": [
@@ -2512,7 +3801,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "aeg-ajalt"
+                "toisinaan"
               ]
             }
           },
@@ -2524,7 +3813,19 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "juhuslik"
+                "toisinaan"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Gelegentliche"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Yksittäiset"
               ]
             }
           },
@@ -2536,9 +3837,73 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "puhul"
+                "johdosta"
               ]
             }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "manchmal"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "joskus"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "ab und zu"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "silloin tällöin"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "selten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "harvoin"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "gelegentlich"
+            ],
+            "green": [
+              "ab und zu"
+            ]
+          },
+          {
+            "blue": [
+              "gelegentlich"
+            ],
+            "green": [
+              "manchmal"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "gelegentlich",
+              "Gelegentlich"
+            ]
           }
         ]
       }
@@ -2548,1573 +3913,1177 @@ const C1_WORDS = [
     "de": "Gemäldegalerie",
     "de_article": "die",
     "de_plural": "die Gemäldegalerien",
-    "lv": "Maaligalerii",
+    "lv": "taidegalleria • maalausgalleria",
     "level": "C1"
   },
   {
     "de": "Gemäldesammlung",
     "de_article": "die",
     "de_plural": "die Gemäldesammlungen",
-    "lv": "Maalikogu",
+    "lv": "maalauskokoelma • taidekokoelma",
     "level": "C1"
   },
   {
     "de": "Gemeineigentum",
     "de_article": "das",
-    "lv": "Ühiskondlik omand",
+    "lv": "yhteisomaisuus",
     "level": "C1"
   },
   {
     "de": "Gemütsmensch",
     "de_article": "der",
     "de_plural": "die Gemütsmenschen",
-    "lv": "Lahke ja heasüdamlik inimene",
+    "lv": "hyväntahtoinen ihminen",
     "level": "C1"
   },
   {
     "de": "Genmanipulation",
     "de_article": "die",
     "de_plural": "die Genmanipulationen",
-    "lv": "Geenimuundamine",
+    "lv": "geenimanipulaatio • geenimuuntelu",
     "level": "C1"
   },
   {
     "de": "Generalprobe",
     "de_article": "die",
     "de_plural": "die Generalproben",
-    "lv": "Peaproov",
+    "lv": "kenraaliharjoitus",
     "level": "C1"
   },
   {
     "de": "Generalstreik",
     "de_article": "der",
     "de_plural": "die Generalstreiks",
-    "lv": "Üldstreik",
+    "lv": "yleislakko",
     "level": "C1"
   },
   {
     "de": "genmanipuliert",
-    "lv": "Geneetiliselt muundatud",
+    "lv": "geenimuunneltu",
     "level": "C1"
   },
   {
     "de": "Gepäckschein",
     "de_article": "der",
     "de_plural": "die Gepäckscheine",
-    "lv": "Pagasitõend",
+    "lv": "matkatavarakuitti",
     "level": "C1"
   },
   {
     "de": "Gepflogenheit",
     "de_article": "die",
     "de_plural": "die Gepflogenheiten",
-    "lv": "Harjumus • Komme",
+    "lv": "tapa • käytäntö",
     "level": "C1"
   },
   {
     "de": "geradebiegen",
-    "lv": "Sirgeks ajama • Parandama",
+    "lv": "oikaista • korjata",
     "level": "C1"
   },
   {
     "de": "Schwurgericht",
     "de_article": "das",
     "de_plural": "die Schwurgerichte",
-    "lv": "Vandekohus",
+    "lv": "valamiesoikeus",
     "level": "C1"
   },
   {
     "de": "Gerichtshof",
     "de_article": "der",
     "de_plural": "die Gerichtshöfe",
-    "lv": "Kohtukoda • Tribunal",
+    "lv": "tuomioistuin",
     "level": "C1"
   },
   {
     "de": "geringschätzig",
-    "lv": "Põlglik • Halvustav",
+    "lv": "halveksiva • väheksyvä",
     "level": "C1"
   },
   {
     "de": "Gesamteindruck",
     "de_article": "der",
     "de_plural": "die Gesamteindrücke",
-    "lv": "Üldmulje",
+    "lv": "kokonaisvaikutelma",
     "level": "C1"
   },
   {
     "de": "Gesamtergebnis",
     "de_article": "das",
     "de_plural": "die Gesamtergebnisse",
-    "lv": "Lõpptulemus",
+    "lv": "kokonaistulos • lopputulos",
     "level": "C1"
   },
   {
     "de": "Gesandtschaft",
     "de_article": "die",
     "de_plural": "die Gesandtschaften",
-    "lv": "Saatkond",
+    "lv": "lähetystö",
     "level": "C1"
   },
   {
     "de": "Geschäftshaus",
     "de_article": "das",
     "de_plural": "die Geschäftshäuser",
-    "lv": "Kaubamaja",
+    "lv": "liiketalo",
     "level": "C1"
   },
   {
     "de": "Geschäftsjahr",
     "de_article": "das",
     "de_plural": "die Geschäftsjahre",
-    "lv": "Majandusaasta",
+    "lv": "tilikausi",
     "level": "C1"
   },
   {
     "de": "geschlechtsreif",
-    "lv": "Suguküpseks saanud",
+    "lv": "sukukypsä",
     "level": "C1"
   },
   {
     "de": "Gesetzbuch",
     "de_article": "das",
     "de_plural": "die Gesetzbücher",
-    "lv": "Seadustik",
+    "lv": "lakikirja • lakikokoelma",
     "level": "C1"
   },
   {
     "de": "gesetzgebend",
-    "lv": "Seadusandlik",
+    "lv": "lainsäädännöllinen • lakiasäätävä",
     "level": "C1"
   },
   {
     "de": "gesetzlos",
-    "lv": "Seadusevastane",
+    "lv": "laiton",
     "level": "C1"
   },
   {
     "de": "gesetzmäßig",
-    "lv": "Seaduslik • Seaduspärane",
+    "lv": "laillinen • säännönmukainen",
     "level": "C1"
   },
   {
     "de": "gesetzwidrig",
-    "lv": "Seadusevastane",
+    "lv": "lainvastainen",
     "level": "C1"
   },
   {
     "de": "Gesichtskreis",
     "de_article": "der",
     "de_plural": "die Gesichtskreise",
-    "lv": "Silmaring • Horisont",
+    "lv": "näköpiiri",
     "level": "C1"
   },
   {
     "de": "Gewinnanteil",
     "de_article": "der",
     "de_plural": "die Gewinnanteile",
-    "lv": "Kasumiosa",
+    "lv": "voitto-osuus",
     "level": "C1"
   },
   {
     "de": "Gewissensbisse",
     "de_article": "die",
-    "lv": "Südametunnistuse piinad",
+    "lv": "omantunnontuskat",
     "level": "C1"
   },
   {
     "de": "gewissermaßen",
-    "lv": "Teataval määral • Omal moel • Nii-öelda",
+    "lv": "tavallaan • jossain määrin • niin sanoakseni",
     "level": "C1"
   },
   {
     "de": "glaubhaft",
-    "lv": "Usutav • Veenev",
+    "lv": "uskottava • vakuuttava",
     "level": "C1"
   },
   {
     "de": "gleichberechtigt",
-    "lv": "Võrdõiguslik",
+    "lv": "tasa-arvoinen • yhdenvertainen",
     "level": "C1"
   },
   {
     "de": "Götzenverehrung",
     "de_article": "die",
     "de_plural": "die Götzenverehrungen",
-    "lv": "Ebajumalateenistus",
+    "lv": "epäjumalanpalvonta",
     "level": "C1"
   },
   {
     "de": "Grenzverletzung",
     "de_article": "die",
     "de_plural": "die Grenzverletzungen",
-    "lv": "Piiririkkumine",
+    "lv": "rajaloukkaus",
     "level": "C1"
   },
   {
     "de": "Grundgesetz",
     "de_article": "das",
     "de_plural": "die Grundgesetze",
-    "lv": "Põhiseadus",
+    "lv": "perustuslaki",
     "level": "C1"
   },
   {
     "de": "Gütertransport",
     "de_article": "der",
     "de_plural": "die Gütertransporte",
-    "lv": "Kaubavedu",
+    "lv": "tavaraliikenne • tavarankuljetus",
     "level": "C1"
   },
   {
     "de": "Haft",
     "de_article": "die",
-    "lv": "Vahi all olek • Arest",
+    "lv": "vankeus • pidätys",
     "level": "C1"
   },
   {
     "de": "Haftbefehl",
     "de_article": "der",
     "de_plural": "die Haftbefehle",
-    "lv": "Vahistamismäärus",
+    "lv": "pidätysmääräys",
     "level": "C1"
   },
   {
     "de": "haften",
-    "lv": "Kinni jääma • Küljes olema",
+    "lv": "tarttua • olla kiinni",
     "level": "C1"
   },
   {
     "de": "Haftung",
     "de_article": "die",
     "de_plural": "die Haftungen",
-    "lv": "Vastutus",
+    "lv": "vastuu",
     "level": "C1"
   },
   {
     "de": "Haltbarkeitsdauer",
     "de_article": "die",
     "de_plural": "die Haltbarkeitsdauern",
-    "lv": "Säilivusaeg",
+    "lv": "säilyvyysaika",
     "level": "C1"
   },
   {
     "de": "Handelspartner",
     "de_article": "der",
     "de_plural": "die Handelspartner",
-    "lv": "Kaubanduspartner",
+    "lv": "kauppakumppani",
     "level": "C1"
   },
   {
     "de": "Handelsvertretung",
     "de_article": "die",
     "de_plural": "die Handelsvertretungen",
-    "lv": "Kaubandusesindus",
+    "lv": "kauppaedustusto",
     "level": "C1"
   },
   {
     "de": "Hauptversammlung",
     "de_article": "die",
     "de_plural": "die Hauptversammlungen",
-    "lv": "Üldkoosolek",
+    "lv": "yhtiökokous",
     "level": "C1"
   },
   {
     "de": "Hausdurchsuchung",
     "de_article": "die",
     "de_plural": "die Hausdurchsuchungen",
-    "lv": "Politseiläbiotsimine",
+    "lv": "kotietsintä",
     "level": "C1"
   },
   {
     "de": "Haushaltsartikel",
     "de_article": "der",
     "de_plural": "die Haushaltsartikel",
-    "lv": "Majapidamiskaup",
+    "lv": "taloustarvike",
     "level": "C1"
   },
   {
     "de": "Haushaltshilfe",
     "de_article": "die",
     "de_plural": "die Haushaltshilfen",
-    "lv": "Palgaline koduabiline",
+    "lv": "kotiapulainen",
     "level": "C1"
   },
   {
     "de": "Hautentzündung",
     "de_article": "die",
     "de_plural": "die Hautentzündungen",
-    "lv": "Nahapõletik",
+    "lv": "ihotulehdus",
     "level": "C1"
   },
   {
     "de": "heldenhaft",
-    "lv": "Kangelaslik",
+    "lv": "sankarillinen",
     "level": "C1"
   },
   {
     "de": "Herrschaft",
     "de_article": "die",
     "de_plural": "die Herrschaften",
-    "lv": "Valitsemine • Võim",
+    "lv": "valta • herruus",
     "level": "C1"
   },
   {
     "de": "herunterkommen",
-    "lv": "Alla käima • Viletsaks jääma",
+    "lv": "tulla alas • rappeutua",
     "level": "C1"
   },
   {
     "de": "herunterstürzen",
-    "lv": "Alla kukkuma",
+    "lv": "syöksyä alas • pudota maahan",
     "level": "C1"
   },
   {
     "de": "sich hinreißen lassen",
-    "lv": "End kaasa haarata laskma",
+    "lv": "innostua • antaa tunteiden viedä",
     "level": "C1"
   },
   {
     "de": "Industrieabgase",
     "de_article": "die",
-    "lv": "Tööstuslikud heitgaasid",
+    "lv": "teollisuuden pakokaasut",
     "level": "C1"
   },
   {
     "de": "Industrieabwässer",
     "de_article": "die",
-    "lv": "Tööstuslikud reoveed",
+    "lv": "teollisuuden jätevedet",
     "level": "C1"
   },
   {
     "de": "Industrieanlage",
     "de_article": "die",
     "de_plural": "die Industrieanlagen",
-    "lv": "Tööstuskompleks",
+    "lv": "teollisuuslaitos",
     "level": "C1"
   },
   {
     "de": "inhaftieren",
-    "lv": "Vahistama",
+    "lv": "vangita • pidättää",
     "level": "C1"
   },
   {
     "de": "Innenarchitekt",
     "de_article": "der",
     "de_plural": "die Innenarchitekten",
-    "lv": "Sisearhitekt",
+    "lv": "sisustusarkkitehti",
     "level": "C1"
   },
   {
     "de": "Innenminister",
     "de_article": "der",
     "de_plural": "die Innenminister",
-    "lv": "Siseminister",
+    "lv": "sisäministeri",
     "level": "C1"
   },
   {
     "de": "Intensivstation",
     "de_article": "die",
     "de_plural": "die Intensivstationen",
-    "lv": "Haigla intensiivravi osakond",
+    "lv": "teho-osasto",
     "level": "C1"
   },
   {
     "de": "interpretieren",
-    "lv": "Tõlgendama • Selgitama",
+    "lv": "tulkita • selittää",
     "level": "C1"
   },
   {
     "de": "Justiz",
     "de_article": "die",
-    "lv": "Õigusemõistmine • Justiits",
+    "lv": "oikeuslaitos • oikeudenhoito",
     "level": "C1"
   },
   {
     "de": "Kabinettsitzung",
     "de_article": "die",
     "de_plural": "die Kabinettsitzungen",
-    "lv": "Kabinetiistung",
+    "lv": "hallituksen istunto",
     "level": "C1"
   },
   {
     "de": "Kapitalverbrechen",
     "de_article": "das",
     "de_plural": "die Kapitalverbrechen",
-    "lv": "Eriti raske kuritegu",
+    "lv": "törkeä rikos",
     "level": "C1"
   },
   {
     "de": "Kaution",
     "de_article": "die",
     "de_plural": "die Kautionen",
-    "lv": "Tagatis • Kautsjon • Garantii",
+    "lv": "vakuus • takuu • takuumaksu",
     "level": "C1"
   },
   {
     "de": "Koalition",
     "de_article": "die",
     "de_plural": "die Koalitionen",
-    "lv": "Koalitsioon",
+    "lv": "koalitio • liittouma",
     "level": "C1"
   },
   {
     "de": "körperbehindert",
-    "lv": "Füüsilise puudega inimene",
+    "lv": "liikuntavammainen",
     "level": "C1"
   },
   {
     "de": "Krankheitserreger",
     "de_article": "der",
     "de_plural": "die Krankheitserreger",
-    "lv": "Haigustekitaja",
+    "lv": "taudinaiheuttaja",
     "level": "C1"
   },
   {
     "de": "Kriegsbeschädigte",
     "de_article": "der",
     "de_plural": "die Kriegsbeschädigten",
-    "lv": "Sõjainvaliid",
+    "lv": "sotainvalidi",
     "level": "C1"
   },
   {
     "de": "Kriegsgefangene",
     "de_article": "der",
     "de_plural": "die Kriegsgefangenen",
-    "lv": "Sõjavang",
+    "lv": "sotavanki",
     "level": "C1"
   },
   {
     "de": "Kabinettskrise",
     "de_article": "die",
     "de_plural": "die Kabinettskrisen",
-    "lv": "Kabinetikriis",
+    "lv": "hallituskriisi",
     "level": "C1"
   },
   {
     "de": "Lawinenwarnung",
     "de_article": "die",
     "de_plural": "die Lawinenwarnungen",
-    "lv": "Laviinihoiatus",
+    "lv": "lumivyöryvaroitus",
     "level": "C1"
   },
   {
     "de": "Lebenserwartung",
     "de_article": "die",
     "de_plural": "die Lebenserwartungen",
-    "lv": "Keskmine eluiga",
+    "lv": "elinajanodote",
     "level": "C1"
   },
   {
     "de": "lebensgefährlich",
-    "lv": "Eluohtlik • Ohtlik",
+    "lv": "hengenvaarallinen • vaarallinen",
     "level": "C1"
   },
   {
     "de": "Lebensgefährte",
     "de_article": "der",
     "de_plural": "die Lebensgefährten",
-    "lv": "Vabaabikaasa",
+    "lv": "avopuoliso • elämänkumppani",
     "level": "C1"
   },
   {
     "de": "Lebensstandard",
     "de_article": "der",
     "de_plural": "die Lebensstandards",
-    "lv": "Elatustase",
+    "lv": "elintaso",
     "level": "C1"
   },
   {
     "de": "Leistungssport",
     "de_article": "der",
-    "lv": "Tippspord",
+    "lv": "kilpaurheilu • huippu-urheilu",
     "level": "C1"
   },
   {
     "de": "lichtempfindlich",
-    "lv": "Valgustundlik",
+    "lv": "valoherkkä",
     "level": "C1"
   },
   {
     "de": "Liebesbeziehung",
     "de_article": "die",
     "de_plural": "die Liebesbeziehungen",
-    "lv": "Armusuhe",
+    "lv": "rakkaussuhde",
     "level": "C1"
   },
   {
     "de": "Liebeserklärung",
     "de_article": "die",
     "de_plural": "die Liebeserklärungen",
-    "lv": "Armastusavaldus",
+    "lv": "rakkaudentunnustus",
     "level": "C1"
   },
   {
     "de": "Linksextremismus",
     "de_article": "der",
-    "lv": "Vasakäärmuslus",
+    "lv": "äärivasemmistolaisuus",
     "level": "C1"
   },
   {
     "de": "Machtergreifung",
     "de_article": "die",
     "de_plural": "die Machtergreifungen",
-    "lv": "Võimuhaaramine",
+    "lv": "vallankaappaus",
     "level": "C1"
   },
   {
     "de": "Machtübernahme",
     "de_article": "die",
     "de_plural": "die Machtübernahmen",
-    "lv": "Võimuülevõtmine",
+    "lv": "vallanotto • vallan haltuunotto",
     "level": "C1"
   },
   {
     "de": "Magnetstreifen",
     "de_article": "der",
     "de_plural": "die Magnetstreifen",
-    "lv": "Magnetriba (krediitkaardil)",
+    "lv": "magneettiraita",
     "level": "C1"
   },
   {
     "de": "Marschflugkörper",
     "de_article": "der",
     "de_plural": "die Marschflugkörper",
-    "lv": "Tiibrakett",
+    "lv": "risteilyohjus",
     "level": "C1"
   },
   {
     "de": "Massenherstellung",
     "de_article": "die",
     "de_plural": "die Massenherstellungen",
-    "lv": "Masstootmine",
+    "lv": "massatuotanto",
     "level": "C1"
   },
   {
     "de": "materialistisch",
-    "lv": "Materialistlik",
+    "lv": "materialistinen",
     "level": "C1"
   },
   {
     "de": "Meineid",
     "de_article": "der",
     "de_plural": "die Meineide",
-    "lv": "Tahtlik valeütlus kohtus",
+    "lv": "väärä vala",
     "level": "C1"
   },
   {
     "de": "menschenfeindlich",
-    "lv": "Inimestevaenulik",
+    "lv": "ihmisvihamielinen",
     "level": "C1"
   },
   {
     "de": "militärpflichtig",
-    "lv": "Ajateenistuskohuslane",
+    "lv": "asevelvollinen",
     "level": "C1"
   },
   {
     "de": "Nachschlagewerk",
     "de_article": "das",
     "de_plural": "die Nachschlagewerke",
-    "lv": "Teatmeteos • Sõnaraamat • Entsüklopeedia",
+    "lv": "hakuteos",
     "level": "C1"
   },
   {
     "de": "namhaft",
-    "lv": "Kuulus • Silmapaistev",
+    "lv": "tunnettu • huomattava",
     "level": "C1"
   },
   {
     "de": "Nichtangriffspakt",
     "de_article": "der",
     "de_plural": "die Nichtangriffspakte",
-    "lv": "Mittekallaletungileping",
+    "lv": "hyökkäämättömyyssopimus",
     "level": "C1"
   },
   {
     "de": "niedergeschlagen",
-    "lv": "Masendunud • Depressioonis",
+    "lv": "masentunut • alakuloinen",
     "level": "C1"
   },
   {
     "de": "Ölembargo",
     "de_article": "das",
     "de_plural": "die Ölembargos",
-    "lv": "Naftaembargo",
+    "lv": "öljysaarto",
     "level": "C1"
   },
   {
     "de": "Oppositionsführer",
     "de_article": "der",
     "de_plural": "die Oppositionsführer",
-    "lv": "Opositsioonijuht",
+    "lv": "oppositiojohtaja",
     "level": "C1"
   },
   {
     "de": "Oppositionspartei",
     "de_article": "die",
     "de_plural": "die Oppositionsparteien",
-    "lv": "Opositsioonipartei",
+    "lv": "oppositiopuolue",
     "level": "C1"
   },
   {
     "de": "Originalausgabe",
     "de_article": "die",
     "de_plural": "die Originalausgaben",
-    "lv": "Originaalväljaanne",
+    "lv": "alkuperäispainos",
     "level": "C1"
   },
   {
     "de": "Originalfassung",
     "de_article": "die",
     "de_plural": "die Originalfassungen",
-    "lv": "Originaalversioon",
+    "lv": "alkuperäisversio",
     "level": "C1"
   },
   {
     "de": "Originalgemälde",
     "de_article": "das",
     "de_plural": "die Originalgemälde",
-    "lv": "Originaalmaal",
+    "lv": "alkuperäinen maalaus",
     "level": "C1"
   },
   {
     "de": "Parteifunktionär",
     "de_article": "der",
     "de_plural": "die Parteifunktionäre",
-    "lv": "Parteitöötaja",
+    "lv": "puoluetoimitsija • puoluefunktionääri",
     "level": "C1"
   },
   {
     "de": "Pflichtlektüre",
     "de_article": "die",
     "de_plural": "die Pflichtlektüren",
-    "lv": "Kohustuslik kirjandus",
+    "lv": "pakollinen kirjallisuus",
     "level": "C1"
   },
   {
     "de": "Preisfrage",
     "de_article": "die",
     "de_plural": "die Preisfragen",
-    "lv": "Konkursiküsimus",
+    "lv": "kilpailukysymys",
     "level": "C1"
   },
   {
     "de": "Pressefreiheit",
     "de_article": "die",
     "de_plural": "die Pressefreiheiten",
-    "lv": "Ajakirjandusvabadus",
+    "lv": "lehdistönvapaus",
     "level": "C1"
   },
   {
     "de": "Pressevertreter",
     "de_article": "der",
     "de_plural": "die Pressevertreter",
-    "lv": "Ajakirjanduse esindaja",
+    "lv": "lehdistön edustaja",
     "level": "C1"
   },
   {
     "de": "Presseerklärung",
     "de_article": "die",
     "de_plural": "die Presseerklärungen",
-    "lv": "Pressiteade",
+    "lv": "lehdistötiedote",
     "level": "C1"
   },
   {
     "de": "Produktionskosten",
     "de_article": "die",
-    "lv": "Tootmise omahind",
+    "lv": "tuotantokustannukset",
     "level": "C1"
   },
   {
     "de": "Produktionsweise",
     "de_article": "die",
     "de_plural": "die Produktionsweisen",
-    "lv": "Tootmisviis",
+    "lv": "tuotantotapa",
     "level": "C1"
   },
   {
     "de": "Rangierbahnhof",
     "de_article": "der",
     "de_plural": "die Rangierbahnhöfe",
-    "lv": "Raudtee sorteerimisjaam",
+    "lv": "järjestelyratapiha",
     "level": "C1"
   },
   {
     "de": "rätselhaft",
-    "lv": "Salapärane • Arusaamatu",
+    "lv": "arvoituksellinen • käsittämätön",
     "level": "C1"
   },
   {
     "de": "Raumausstatter",
     "de_article": "der",
     "de_plural": "die Raumausstatter",
-    "lv": "Sisekujundaja",
+    "lv": "sisustaja",
     "level": "C1"
   },
   {
     "de": "Rechenschaft",
     "de_article": "die",
-    "lv": "Aruandekohustus • Vastutus",
+    "lv": "tilivelvollisuus • vastuu",
     "level": "C1"
   },
   {
     "de": "rechtswidrig",
-    "lv": "Ebaseaduslikult",
+    "lv": "laiton • lainvastainen",
     "level": "C1"
   },
   {
     "de": "Regenbogenpresse",
     "de_article": "die",
     "de_plural": "die Regenbogenpressen",
-    "lv": "Kollane ajakirjandus",
+    "lv": "juorulehdistö",
     "level": "C1"
   },
   {
     "de": "Regierungschef",
     "de_article": "der",
     "de_plural": "die Regierungschefs",
-    "lv": "Peaminister • Valitsusjuht",
+    "lv": "pääministeri • hallituksen päämies",
     "level": "C1"
   },
   {
     "de": "Regierungspartei",
     "de_article": "die",
     "de_plural": "die Regierungsparteien",
-    "lv": "Valitsuspartei",
+    "lv": "hallituspuolue",
     "level": "C1"
   },
   {
     "de": "Regierungswechsel",
     "de_article": "der",
     "de_plural": "die Regierungswechsel",
-    "lv": "Valitsusvahetus",
+    "lv": "hallituksenvaihdos",
     "level": "C1"
   },
   {
     "de": "Rentenanspruch",
     "de_article": "der",
     "de_plural": "die Rentenansprüche",
-    "lv": "Pensioniõigus",
+    "lv": "eläkeoikeus",
     "level": "C1"
   },
   {
     "de": "Rentenempfänger",
     "de_article": "der",
     "de_plural": "die Rentenempfänger",
-    "lv": "Pensionisaaja",
+    "lv": "eläkkeensaaja",
     "level": "C1"
   },
   {
     "de": "republikanisch",
-    "lv": "Vabariiklik",
+    "lv": "tasavaltalainen • republikaaninen",
     "level": "C1"
   },
   {
     "de": "Sanktion",
     "de_article": "die",
     "de_plural": "die Sanktionen",
-    "lv": "Sanktsioon",
+    "lv": "sanktio • pakote",
     "level": "C1"
   },
   {
     "de": "sanktionieren",
-    "lv": "Toetama • Sanktsioneerima",
+    "lv": "hyväksyä • vahvistaa",
     "level": "C1"
   },
   {
     "de": "Lüftungsschacht",
     "de_article": "der",
     "de_plural": "die Lüftungsschächte",
-    "lv": "Ventilatsioonišaht",
+    "lv": "ilmanvaihtokuilu",
     "level": "C1"
   },
   {
     "de": "Scheidungsgrund",
     "de_article": "der",
     "de_plural": "die Scheidungsgründe",
-    "lv": "Lahutuse põhjus",
+    "lv": "avioeron syy",
     "level": "C1"
   },
   {
     "de": "Schicksalsschlag",
     "de_article": "der",
     "de_plural": "die Schicksalsschläge",
-    "lv": "Saatuselöök",
+    "lv": "kohtalon isku",
     "level": "C1"
   },
   {
     "de": "schmerzstillend",
-    "lv": "Valuvaigistav",
+    "lv": "kipua lievittävä",
     "level": "C1"
   },
   {
     "de": "Anklageschrift",
     "de_article": "die",
     "de_plural": "die Anklageschriften",
-    "lv": "Süüdistusakt",
+    "lv": "syytekirjelmä",
     "level": "C1"
   },
   {
     "de": "Schwerindustrie",
     "de_article": "die",
     "de_plural": "die Schwerindustrien",
-    "lv": "Rasketööstus",
+    "lv": "raskas teollisuus",
     "level": "C1"
   },
   {
     "de": "Segelflugsport",
     "de_article": "der",
-    "lv": "Purilennusport",
+    "lv": "purjelento",
     "level": "C1"
   },
   {
     "de": "Selbstverwaltung",
     "de_article": "die",
     "de_plural": "die Selbstverwaltungen",
-    "lv": "Omavalitsus",
+    "lv": "itsehallinto",
     "level": "C1"
   },
   {
     "de": "selbstzufrieden",
-    "lv": "Enesega rahulolev",
+    "lv": "omahyväinen • itsetyytyväinen",
     "level": "C1"
   },
   {
     "de": "Sensationsmeldung",
     "de_article": "die",
     "de_plural": "die Sensationsmeldungen",
-    "lv": "Sensatsiooniline teade",
+    "lv": "sensaatiouutinen",
     "level": "C1"
   },
   {
     "de": "sesshaft",
-    "lv": "Paikne",
+    "lv": "paikalleen asettunut • vakituisesti asuva",
     "level": "C1"
   },
   {
     "de": "Sinfonieorchester",
     "de_article": "das",
     "de_plural": "die Sinfonieorchester",
-    "lv": "Sümfooniaorkester",
+    "lv": "sinfoniaorkesteri",
     "level": "C1"
   },
   {
     "de": "Sinnestäuschung",
     "de_article": "die",
     "de_plural": "die Sinnestäuschungen",
-    "lv": "Hallutsinatsioon",
+    "lv": "aistiharha",
     "level": "C1"
   },
   {
     "de": "Konfliktsituation",
     "de_article": "die",
     "de_plural": "die Konfliktsituationen",
-    "lv": "Konfliktolukord",
+    "lv": "konfliktitilanne • ristiriitatilanne",
     "level": "C1"
   },
   {
     "de": "Krisensituation",
     "de_article": "die",
     "de_plural": "die Krisensituationen",
-    "lv": "Kriisiolukord • Kriis",
+    "lv": "kriisitilanne • kriisi",
     "level": "C1"
   },
   {
     "de": "Sommersonnenwende",
     "de_article": "die",
     "de_plural": "die Sommersonnenwenden",
-    "lv": "Suvine pööripäev",
+    "lv": "kesäpäivänseisaus",
     "level": "C1"
   },
   {
     "de": "Sonnenfinsternis",
     "de_article": "die",
     "de_plural": "die Sonnenfinsternisse",
-    "lv": "Päikesevarjutus",
+    "lv": "auringonpimennys",
     "level": "C1"
   },
   {
     "de": "Spitzenleistung",
     "de_article": "die",
     "de_plural": "die Spitzenleistungen",
-    "lv": "Rekord • Tippsaavutus • Maksimaalne võimsus",
+    "lv": "huippusuoritus • ennätys",
     "level": "C1"
   },
   {
     "de": "Staatsangehörige",
     "de_article": "der",
     "de_plural": "die Staatsangehörigen",
-    "lv": "Kodanik",
+    "lv": "kansalainen",
     "level": "C1"
   },
   {
     "de": "Staatsanwalt",
     "de_article": "der",
     "de_plural": "die Staatsanwälte",
-    "lv": "Prokurör",
+    "lv": "syyttäjä",
     "level": "C1"
   },
   {
     "de": "Staatsgeheimnis",
     "de_article": "das",
     "de_plural": "die Staatsgeheimnisse",
-    "lv": "Riigisaladus",
+    "lv": "valtiosalaisuus",
     "level": "C1"
   },
   {
     "de": "Steuereinnahmen",
     "de_article": "die",
-    "lv": "Maksutulu",
+    "lv": "verotulot",
     "level": "C1"
   },
   {
     "de": "stimmberechtigt",
-    "lv": "Hääleõiguslik",
+    "lv": "äänivaltainen • äänioikeutettu",
     "level": "C1"
   },
   {
     "de": "Studienbewerber",
     "de_article": "der",
     "de_plural": "die Studienbewerber",
-    "lv": "Ülikooli sisseastuja",
+    "lv": "opiskelupaikan hakija",
     "level": "C1"
   },
   {
     "de": "synchronisieren",
-    "lv": "Filmi dubleerima",
+    "lv": "dubata • synkronoida",
     "level": "C1"
   },
   {
     "de": "Tageseinnahmen",
     "de_article": "die",
-    "lv": "Päevatulu",
+    "lv": "päivän tulot",
     "level": "C1"
   },
   {
     "de": "Transfusion",
     "de_article": "die",
     "de_plural": "die Transfusionen",
-    "lv": "Otsene vereülekanne inimeselt inimesele",
+    "lv": "verensiirto",
     "level": "C1"
   },
   {
     "de": "überanstrengen",
-    "lv": "Üle koormama • End üle pingutama",
+    "lv": "rasittaa liikaa • ylirasittaa",
     "level": "C1"
   },
   {
     "de": "Überbevölkerung",
     "de_article": "die",
     "de_plural": "die Überbevölkerungen",
-    "lv": "Ülerahvastatus",
+    "lv": "liikakansoitus",
     "level": "C1"
   },
   {
     "de": "Überbleibsel",
     "de_article": "das",
     "de_plural": "die Überbleibsel",
-    "lv": "Jäänused",
+    "lv": "jäänne • tähde",
     "level": "C1"
   },
   {
     "de": "übereinstimmen",
-    "lv": "Kokku sobima • Kellegagi ühel meelel olema",
+    "lv": "vastata • olla samaa mieltä",
     "level": "C1"
   },
   {
     "de": "Überschuss",
     "de_article": "der",
     "de_plural": "die Überschüsse",
-    "lv": "Jääk • Ülejääk",
+    "lv": "ylijäämä • liika",
     "level": "C1"
   },
   {
     "de": "Umgangssprache",
     "de_article": "die",
     "de_plural": "die Umgangssprachen",
-    "lv": "Kõnekeel",
+    "lv": "puhekieli • arkikieli",
     "level": "C1"
   },
   {
     "de": "Unannehmlichkeit",
     "de_article": "die",
     "de_plural": "die Unannehmlichkeiten",
-    "lv": "Ebameeldivused • Ebameeldiv juhtum",
+    "lv": "ikävyys • harmi",
     "level": "C1"
   },
   {
     "de": "unausgeglichen",
-    "lv": "Tasakaalustamata",
+    "lv": "epätasapainoinen",
     "level": "C1"
   },
   {
     "de": "unerschütterlich",
-    "lv": "Vankumatu",
+    "lv": "järkkymätön",
     "level": "C1"
   },
   {
     "de": "Unterschätzung",
     "de_article": "die",
     "de_plural": "die Unterschätzungen",
-    "lv": "Alahindamine",
+    "lv": "aliarviointi",
     "level": "C1"
   },
   {
     "de": "urteilen",
-    "lv": "Otsustama • Arutlema",
+    "lv": "arvioida • arvostella",
     "level": "C1"
   },
   {
     "de": "verabschieden",
-    "lv": "Töölt vabastama • Pensionile saatma",
-    "level": "C1"
-  },
-  {
-    "de": "veränderlich",
-    "lv": "Muutlik",
-    "level": "C1"
-  },
-  {
-    "de": "veranschlagen",
-    "lv": "Arvestama • Kalkuleerima • Eelarvet koostama",
-    "level": "C1"
-  },
-  {
-    "de": "verdrießlich",
-    "lv": "Ebameeldiv • Tusane",
-    "level": "C1"
-  },
-  {
-    "de": "Verfallsdatum",
-    "de_article": "das",
-    "de_plural": "die Verfallsdaten",
-    "lv": "Kõlblikkusaja lõpp",
-    "level": "C1"
-  },
-  {
-    "de": "Verfassung",
-    "de_article": "die",
-    "de_plural": "die Verfassungen",
-    "lv": "Põhiseadus",
-    "level": "C1"
-  },
-  {
-    "de": "vergewaltigen",
-    "lv": "Vägistama",
-    "level": "C1"
-  },
-  {
-    "de": "sich vergewissern",
-    "lv": "Veenduma",
-    "level": "C1"
-  },
-  {
-    "de": "Vergünstigung",
-    "de_article": "die",
-    "de_plural": "die Vergünstigungen",
-    "lv": "Eelis • Privileeg • Soodustus",
-    "level": "C1"
-  },
-  {
-    "de": "verhaften",
-    "lv": "Vahistama",
-    "level": "C1"
-  },
-  {
-    "de": "verhältnismäßig",
-    "lv": "Suhteliselt",
-    "level": "C1"
-  },
-  {
-    "de": "Verhandlungen",
-    "de_article": "die",
-    "de_plural": "die Verhandlungen",
-    "lv": "Läbirääkimised",
-    "level": "C1"
-  },
-  {
-    "de": "verheimlichen",
-    "lv": "Varjama • Salajas hoidma",
-    "level": "C1"
-  },
-  {
-    "de": "Verkehrsdichte",
-    "de_article": "die",
-    "de_plural": "die Verkehrsdichten",
-    "lv": "Liiklustihedus",
-    "level": "C1"
-  },
-  {
-    "de": "Verkehrswesen",
-    "de_article": "das",
-    "lv": "Transport",
-    "level": "C1"
-  },
-  {
-    "de": "Verpflichtung",
-    "de_article": "die",
-    "de_plural": "die Verpflichtungen",
-    "lv": "Kohustus",
-    "level": "C1"
-  },
-  {
-    "de": "Verschwörung",
-    "de_article": "die",
-    "de_plural": "die Verschwörungen",
-    "lv": "Vandenõu",
-    "level": "C1"
-  },
-  {
-    "de": "verklagen",
-    "lv": "Kohtusse kaebama",
-    "level": "C1"
-  },
-  {
-    "de": "vernachlässigen",
-    "lv": "Hooletusse jätma",
-    "level": "C1"
-  },
-  {
-    "de": "verpflichten",
-    "lv": "Kohustama",
-    "level": "C1"
-  },
-  {
-    "de": "sich verpflichten",
-    "lv": "Endale võtma",
-    "level": "C1"
-  },
-  {
-    "de": "sich verschließen",
-    "lv": "Endasse tõmbuma • End isoleerima",
-    "level": "C1"
-  },
-  {
-    "de": "verschlossen",
-    "lv": "Lukustatud • Suletud • Endassetõmbunud",
-    "level": "C1"
-  },
-  {
-    "de": "verschlüsseln",
-    "lv": "Krüpteerima • Kodeerima",
-    "level": "C1"
-  },
-  {
-    "de": "verschreiben",
-    "lv": "Med. välja kirjutama",
-    "level": "C1"
-  },
-  {
-    "de": "verschweigen",
-    "lv": "Maha vaikima • Mitte avaldama",
-    "level": "C1"
-  },
-  {
-    "de": "verständigen",
-    "lv": "Informeerima • Teatama",
-    "level": "C1"
-  },
-  {
-    "de": "Versuchsanlage",
-    "de_article": "die",
-    "de_plural": "die Versuchsanlagen",
-    "lv": "Katserajatis",
-    "level": "C1"
-  },
-  {
-    "de": "Versuchsgelände",
-    "de_article": "das",
-    "de_plural": "die Versuchsgelände",
-    "lv": "Katsepolügoon",
-    "level": "C1"
-  },
-  {
-    "de": "Versuchsreihe",
-    "de_article": "die",
-    "de_plural": "die Versuchsreihen",
-    "lv": "Katseseeria",
-    "level": "C1"
-  },
-  {
-    "de": "verunglücken",
-    "lv": "Õnnetusse sattuma",
-    "level": "C1"
-  },
-  {
-    "de": "verurteilen",
-    "lv": "Süüdi mõistma",
-    "level": "C1"
-  },
-  {
-    "de": "vervielfältigen",
-    "lv": "Paljundama",
-    "level": "C1"
-  },
-  {
-    "de": "vervollkommnen",
-    "lv": "Täiendama • Täiustama",
-    "level": "C1"
-  },
-  {
-    "de": "sich vervollkommnen",
-    "lv": "Oma teadmisi täiendama",
-    "level": "C1"
-  },
-  {
-    "de": "verwirklichen",
-    "lv": "Realiseerima • Ellu viima",
-    "level": "C1"
-  },
-  {
-    "de": "Volksabstimmung",
-    "de_article": "die",
-    "de_plural": "die Volksabstimmungen",
-    "lv": "Rahvahääletus • Plebistsiit",
-    "level": "C1"
-  },
-  {
-    "de": "Volksbefragung",
-    "de_article": "die",
-    "de_plural": "die Volksbefragungen",
-    "lv": "Üleriigiline küsitlus • Referendum",
-    "level": "C1"
-  },
-  {
-    "de": "Vollversammlung",
-    "de_article": "die",
-    "de_plural": "die Vollversammlungen",
-    "lv": "Pleenum • Üldkoosolek • Peaassamblee",
-    "level": "C1"
-  },
-  {
-    "de": "voreingenommen",
-    "lv": "Eelarvamuslik • Erapoolik",
-    "level": "C1"
-  },
-  {
-    "de": "waag[e]recht",
-    "lv": "Horisontaalne",
-    "level": "C1"
-  },
-  {
-    "de": "Waffenruhe",
-    "de_article": "die",
-    "de_plural": "die Waffenruhen",
-    "lv": "Relvarahu",
-    "level": "C1"
-  },
-  {
-    "de": "Waffenschein",
-    "de_article": "der",
-    "de_plural": "die Waffenscheine",
-    "lv": "Relvaluba",
-    "level": "C1"
-  },
-  {
-    "de": "wahlberechtigt",
-    "lv": "Valimisõiguslik",
+    "lv": "hyvästellä • hyväksyä",
     "level": "C1",
     "study": {
-      "id": "c1-wahlberechtigt",
+      "id": "c1-verabschieden",
       "layout": "standardStudy",
-      "translation": "Valimisõiguslik",
-      "explanation": "Põhiidee: wahlberechtigt on omadussõna, mis tähendab, et isikul on õigus valimistel osaleda — hääletada või kandideerida. Liitsõna: Wahl (valimised) + berechtigt (õigustatud).",
+      "translation": "hyvästellä • hyväksyä",
+      "explanation": [
+        "Perusajatus: sich verabschieden tarkoittaa hyvästellä joku: Ich verabschiede mich von dir. Henkilö, jonka hyvästelee, ilmaistaan rakenteella von + datiivi.",
+        "Refleksiiviverbi: ich verabschiede mich, er verabschiedet sich, verabschiedete sich, hat sich verabschiedet. Ilman sich-pronominia verabschieden voi tarkoittaa saattaa joku juhlallisesti pois, hyvästellä (der Direktor wurde in den Ruhestand verabschiedet) tai hyväksyä laki (ein Gesetz verabschieden).",
+        "Substantiivi on die Verabschiedung (hyvästely, lain hyväksyminen)."
+      ],
       "examples": [
         {
-          "de": "Alle wahlberechtigten Bürger können wählen.",
-          "lv": "Kõik valimisõiguslikud kodanikud võivad hääletada."
+          "de": "Ich verabschiede mich von meinen Kollegen.",
+          "lv": "Hyvästelen kollegani."
         },
         {
-          "de": "Ab 18 Jahren ist man wahlberechtigt.",
-          "lv": "Alates 18. eluaastast on valimisõigus."
+          "de": "Sie verabschiedete sich und ging nach Hause.",
+          "lv": "Hän hyvästeli ja lähti kotiin."
         },
         {
-          "de": "Nicht alle Einwohner sind wahlberechtigt.",
-          "lv": "Mitte kõigil elanikel pole valimisõigust."
+          "de": "Das Parlament hat das Gesetz verabschiedet.",
+          "lv": "Parlamentti on hyväksynyt lain."
+        },
+        {
+          "de": "Der Direktor wurde nach dreißig Jahren in den Ruhestand verabschiedet.",
+          "lv": "Johtaja saatettiin juhlallisesti eläkkeelle kolmenkymmenen vuoden jälkeen."
         }
       ],
       "comparison": [
         {
-          "word": "wahlberechtigt",
-          "meaning": "Valimisõiguslik",
-          "example": "Er ist wahlberechtigt. = Viņam ir vēlēšanu tiesības."
+          "word": "Abschied nehmen",
+          "meaning": "jättää hyvästit",
+          "example": "Er nahm Abschied von seiner Heimat. – Hän jätti hyvästit kotimaalleen."
         },
         {
-          "word": "wählen",
-          "meaning": "Valima • Hääletama",
-          "example": "Ich wähle heute. = Es šodien balsoju."
+          "word": "beschließen",
+          "meaning": "päättää, hyväksyä",
+          "example": "Der Rat beschließt das Budget. – Neuvosto hyväksyy talousarvion."
         },
         {
-          "word": "der Wähler",
-          "meaning": "Valija",
-          "example": "Der Wähler geht zur Wahl. = Vēlētājs iet uz vēlēšanām."
-        }
-      ],
-      "tip": {
-        "leftBlocks": [
-          {
-            "text": "Wahl = valimised, berechtigt = õigustatud. Sageli ajakirjanduses ja õigustekstides."
-          }
-        ]
-      },
-      "important": {
-        "text": "Wahlberechtigt = valimisõiguslik. Vastand: nicht wahlberechtigt."
-      },
-      "sectionAccents": {
-        "explanation": {
-          "blue": [
-            "wahlberechtigt",
-            "Wahl",
-            "berechtigt"
-          ],
-          "purple": [
-            "Põhiidee"
-          ]
-        },
-        "examples": [
-          {
-            "de": {
-              "blue": [
-                "wahlberechtigten"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "valimisõiguslikud"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "wahlberechtigt"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "valimisõigus"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "wahlberechtigt"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "valimisõigust"
-              ]
-            }
-          }
-        ]
-      }
-    }
-  },
-  {
-    "de": "wahrhaft",
-    "lv": "Tõesti • Tõepoolest",
-    "level": "C1"
-  },
-  {
-    "de": "Wäscheschleuder",
-    "de_article": "die",
-    "de_plural": "die Wäscheschleudern",
-    "lv": "Pesutsentrifuug",
-    "level": "C1"
-  },
-  {
-    "de": "Wasserheilanstalt",
-    "de_article": "die",
-    "lv": "Vesiravila",
-    "level": "C1"
-  },
-  {
-    "de": "Wasserkraftwerk",
-    "de_article": "das",
-    "de_plural": "die Wasserkraftwerke",
-    "lv": "Hüdroelektrijaam",
-    "level": "C1"
-  },
-  {
-    "de": "Wasserversorgung",
-    "de_article": "die",
-    "de_plural": "die Wasserversorgungen",
-    "lv": "Veevarustus",
-    "level": "C1"
-  },
-  {
-    "de": "Wechselbeziehung",
-    "de_article": "die",
-    "de_plural": "die Wechselbeziehungen",
-    "lv": "Vastastikune seos",
-    "level": "C1"
-  },
-  {
-    "de": "Wehrersatzdienst",
-    "de_article": "der",
-    "lv": "Asendusteenistus",
-    "level": "C1"
-  },
-  {
-    "de": "Weidenkätzchen",
-    "de_article": "das",
-    "de_plural": "die Weidenkätzchen",
-    "lv": "Pajuurb",
-    "level": "C1"
-  },
-  {
-    "de": "Weltanschauung",
-    "de_article": "die",
-    "de_plural": "die Weltanschauungen",
-    "lv": "Maailmavaade",
-    "level": "C1"
-  },
-  {
-    "de": "Wetterleuchten",
-    "de_article": "das",
-    "lv": "Hõõguv välk",
-    "level": "C1"
-  },
-  {
-    "de": "widerrechtlich",
-    "lv": "Õigusvastane",
-    "level": "C1"
-  },
-  {
-    "de": "wiederherstellen",
-    "lv": "Taastama • Restaureerima",
-    "level": "C1"
-  },
-  {
-    "de": "zusammenfallen",
-    "lv": "Kokku langema • Kokku sattuma",
-    "level": "C1"
-  },
-  {
-    "de": "zusammenstellen",
-    "lv": "Koostama",
-    "level": "C1"
-  },
-  {
-    "de": "Zuschlag",
-    "de_article": "der",
-    "de_plural": "die Zuschläge",
-    "lv": "Lisatasu • Hinnalisa",
-    "level": "C1",
-    "study": {
-      "id": "c1-zuschlag",
-      "layout": "standardStudy",
-      "translation": "Lisatasu • Hinnalisa",
-      "explanation": [
-        "Põhiidee: der Zuschlag tähendab lisatasu või hinnalisa — täiendavat summat, mis lisatakse põhihinnale.",
-        "Reisi/transpordi kontekstis on der Zuschlag lisatasu kiirema rongi, parema koha jms eest.",
-        "Ära aja segi sõnadega der Anhang/die Beilage (dokumendi lisa) — see on hoopis teine sõna.",
-        "Enampakkumisel tähendab den Zuschlag erhalten enampakkumise võitmist/tellimuse saamist."
-      ],
-      "examples": [
-        {
-          "de": "Für den ICE muss man einen Zuschlag zahlen.",
-          "lv": "ICE rongi eest tuleb maksta lisatasu."
-        },
-        {
-          "de": "Der Zuschlag für die Nachtschicht beträgt 20%.",
-          "lv": "Öövahetuse lisatasu on 20%."
-        },
-        {
-          "de": "Sie erhielt den Zuschlag für den Auftrag.",
-          "lv": "Ta sai tellimuse (enampakkumisel)."
-        },
-        {
-          "de": "Es gibt einen Zuschlag für Übergepäck.",
-          "lv": "Liigpagasi eest on lisatasu."
-        },
-        {
-          "de": "Der Preis versteht sich ohne Zuschläge.",
-          "lv": "Hind on ilma lisatasudeta."
+          "word": "winken",
+          "meaning": "vilkuttaa",
+          "example": "Sie winkt zum Abschied. – Hän vilkuttaa hyvästiksi."
         }
       ],
       "tip": [
-        "der Zuschlag = piemaksa/uzcenojums (papildu maksa), ne dokumenta pielikums.",
-        "den Zuschlag erhalten (izsolēs) = uzvarēt izsolē/saņemt pasūtījumu."
+        "Arkisessa hyvästelyssä sanotaan: Ich verabschiede mich, tschüss! tai Auf Wiedersehen!",
+        "Kun kerrot, kenet hyvästelet, käytä aina rakennetta von + datiivi."
       ],
       "important": [
-        "der Zuschlag = piemaksa/uzcenojums, ne 'pielikums' dokumentam.",
-        "Dokumenta pielikums vācu valodā ir die Anlage/der Anhang."
+        "Parlamentti voi verabschieden lain eli hyväksyä sen; tämä ei ole arkinen hyvästelemisen merkitys."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "der Zuschlag"
+            "sich verabschieden",
+            "verabschiede",
+            "verabschiedete",
+            "verabschiedet",
+            "von",
+            "Verabschiedung",
+            "verabschieden"
           ],
           "purple": [
-            "lisatasu",
-            "hinnalisa"
-          ],
-          "red": [
-            "der Anhang",
-            "die Beilage"
+            "hyvästellä",
+            "hyväksyä laki"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "Zuschlag"
+                "verabschiede"
               ]
             },
             "lv": {
               "purple": [
-                "lisatasu"
+                "Hyvästelen"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "Zuschlag"
+                "verabschiedete"
               ]
             },
             "lv": {
               "purple": [
-                "lisatasu"
+                "hyvästeli"
               ]
             }
           },
           {
             "de": {
+              "blue": [
+                "verabschiedet"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "hyväksynyt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verabschiedet"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "saatettiin"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
               "green": [
-                "Zuschlag"
+                "Abschied nehmen"
               ]
             },
-            "lv": {
+            "meaning": {
               "purple": [
-                "tellimuse"
+                "hyvästit"
               ]
             }
           },
           {
-            "de": {
-              "blue": [
-                "Zuschlag"
+            "word": {
+              "green": [
+                "beschließen"
               ]
             },
-            "lv": {
+            "meaning": {
               "purple": [
-                "lisatasu"
+                "päättää"
               ]
             }
           },
           {
-            "de": {
-              "blue": [
-                "Zuschläge"
+            "word": {
+              "green": [
+                "winken"
               ]
             },
-            "lv": {
+            "meaning": {
               "purple": [
-                "lisatasudeta"
+                "vilkuttaa"
               ]
             }
           }
@@ -4122,30 +5091,703 @@ const C1_WORDS = [
         "tip": [
           {
             "blue": [
-              "der",
-              "der"
+              "verabschiede"
             ]
           },
           {
-            "green": [
-              "den Zuschlag erhalten"
+            "blue": [
+              "von"
             ]
           }
         ],
         "important": [
           {
-            "purple": [
-              "der",
-              "der"
+            "blue": [
+              "verabschieden"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "de": "veränderlich",
+    "lv": "muuttuva • vaihteleva",
+    "level": "C1"
+  },
+  {
+    "de": "veranschlagen",
+    "lv": "arvioida • laskea",
+    "level": "C1"
+  },
+  {
+    "de": "verdrießlich",
+    "lv": "ikävä • pahantuulinen • ärtyisä",
+    "level": "C1"
+  },
+  {
+    "de": "Verfallsdatum",
+    "de_article": "das",
+    "de_plural": "die Verfallsdaten",
+    "lv": "viimeinen käyttöpäivä",
+    "level": "C1"
+  },
+  {
+    "de": "Verfassung",
+    "de_article": "die",
+    "de_plural": "die Verfassungen",
+    "lv": "perustuslaki",
+    "level": "C1"
+  },
+  {
+    "de": "vergewaltigen",
+    "lv": "raiskata",
+    "level": "C1"
+  },
+  {
+    "de": "sich vergewissern",
+    "lv": "varmistua • varmistaa",
+    "level": "C1"
+  },
+  {
+    "de": "Vergünstigung",
+    "de_article": "die",
+    "de_plural": "die Vergünstigungen",
+    "lv": "etu • etuoikeus • alennus",
+    "level": "C1"
+  },
+  {
+    "de": "verhaften",
+    "lv": "pidättää",
+    "level": "C1"
+  },
+  {
+    "de": "verhältnismäßig",
+    "lv": "suhteellisen • verrattain",
+    "level": "C1"
+  },
+  {
+    "de": "Verhandlungen",
+    "de_article": "die",
+    "de_plural": "die Verhandlungen",
+    "lv": "neuvottelut",
+    "level": "C1"
+  },
+  {
+    "de": "verheimlichen",
+    "lv": "salata • pitää salassa",
+    "level": "C1"
+  },
+  {
+    "de": "Verkehrsdichte",
+    "de_article": "die",
+    "de_plural": "die Verkehrsdichten",
+    "lv": "liikennetiheys",
+    "level": "C1"
+  },
+  {
+    "de": "Verkehrswesen",
+    "de_article": "das",
+    "lv": "liikenne",
+    "level": "C1"
+  },
+  {
+    "de": "Verpflichtung",
+    "de_article": "die",
+    "de_plural": "die Verpflichtungen",
+    "lv": "velvollisuus • sitoumus",
+    "level": "C1"
+  },
+  {
+    "de": "Verschwörung",
+    "de_article": "die",
+    "de_plural": "die Verschwörungen",
+    "lv": "salaliitto",
+    "level": "C1"
+  },
+  {
+    "de": "verklagen",
+    "lv": "haastaa oikeuteen",
+    "level": "C1"
+  },
+  {
+    "de": "vernachlässigen",
+    "lv": "laiminlyödä • jättää huomiotta",
+    "level": "C1"
+  },
+  {
+    "de": "verpflichten",
+    "lv": "velvoittaa",
+    "level": "C1"
+  },
+  {
+    "de": "sich verpflichten",
+    "lv": "sitoutua",
+    "level": "C1"
+  },
+  {
+    "de": "sich verschließen",
+    "lv": "sulkeutua • eristäytyä",
+    "level": "C1"
+  },
+  {
+    "de": "verschlossen",
+    "lv": "lukittu • suljettu • sulkeutunut",
+    "level": "C1"
+  },
+  {
+    "de": "verschlüsseln",
+    "lv": "salata • koodata",
+    "level": "C1"
+  },
+  {
+    "de": "verschreiben",
+    "lv": "määrätä",
+    "level": "C1"
+  },
+  {
+    "de": "verschweigen",
+    "lv": "vaieta • salata",
+    "level": "C1"
+  },
+  {
+    "de": "verständigen",
+    "lv": "ilmoittaa • tiedottaa",
+    "level": "C1"
+  },
+  {
+    "de": "Versuchsanlage",
+    "de_article": "die",
+    "de_plural": "die Versuchsanlagen",
+    "lv": "koelaitos",
+    "level": "C1"
+  },
+  {
+    "de": "Versuchsgelände",
+    "de_article": "das",
+    "de_plural": "die Versuchsgelände",
+    "lv": "koealue • koekenttä",
+    "level": "C1"
+  },
+  {
+    "de": "Versuchsreihe",
+    "de_article": "die",
+    "de_plural": "die Versuchsreihen",
+    "lv": "koesarja",
+    "level": "C1"
+  },
+  {
+    "de": "verunglücken",
+    "lv": "joutua onnettomuuteen",
+    "level": "C1"
+  },
+  {
+    "de": "verurteilen",
+    "lv": "tuomita",
+    "level": "C1"
+  },
+  {
+    "de": "vervielfältigen",
+    "lv": "monistaa • kopioida",
+    "level": "C1"
+  },
+  {
+    "de": "vervollkommnen",
+    "lv": "parantaa • täydellistää",
+    "level": "C1"
+  },
+  {
+    "de": "sich vervollkommnen",
+    "lv": "kehittyä • täydentää tietojaan",
+    "level": "C1"
+  },
+  {
+    "de": "verwirklichen",
+    "lv": "toteuttaa",
+    "level": "C1"
+  },
+  {
+    "de": "Volksabstimmung",
+    "de_article": "die",
+    "de_plural": "die Volksabstimmungen",
+    "lv": "kansanäänestys",
+    "level": "C1"
+  },
+  {
+    "de": "Volksbefragung",
+    "de_article": "die",
+    "de_plural": "die Volksbefragungen",
+    "lv": "kansalaiskysely • kansanäänestys",
+    "level": "C1"
+  },
+  {
+    "de": "Vollversammlung",
+    "de_article": "die",
+    "de_plural": "die Vollversammlungen",
+    "lv": "täysistunto • yleiskokous",
+    "level": "C1"
+  },
+  {
+    "de": "voreingenommen",
+    "lv": "ennakkoluuloinen • puolueellinen",
+    "level": "C1"
+  },
+  {
+    "de": "waag[e]recht",
+    "lv": "vaakasuora",
+    "level": "C1"
+  },
+  {
+    "de": "Waffenruhe",
+    "de_article": "die",
+    "de_plural": "die Waffenruhen",
+    "lv": "tulitauko",
+    "level": "C1"
+  },
+  {
+    "de": "Waffenschein",
+    "de_article": "der",
+    "de_plural": "die Waffenscheine",
+    "lv": "aselupa",
+    "level": "C1"
+  },
+  {
+    "de": "wahlberechtigt",
+    "lv": "äänioikeutettu",
+    "level": "C1",
+    "study": {
+      "id": "c1-wahlberechtigt",
+      "layout": "standardStudy",
+      "translation": "äänioikeutettu",
+      "explanation": [
+        "Perusajatus: wahlberechtigt on adjektiivi, joka kuvaa ihmistä, jolla on äänioikeus — joka saa osallistua vaaleihin ja äänestää.",
+        "Kuten muutkin adjektiivit, se taipuu: wahlberechtigte Bürger. Adjektiivista voi muodostaa substantiivin: der/die Wahlberechtigte, die Wahlberechtigten (äänioikeutettu).",
+        "Sana muodostuu osista die Wahl (vaalit) ja berechtigt (oikeutettu)."
+      ],
+      "examples": [
+        {
+          "de": "Alle Bürger ab 18 Jahren sind wahlberechtigt.",
+          "lv": "Kaikki 18 vuotta täyttäneet kansalaiset ovat äänioikeutettuja."
+        },
+        {
+          "de": "Nur wahlberechtigte Personen dürfen abstimmen.",
+          "lv": "Vain äänioikeutetut henkilöt saavat äänestää."
+        },
+        {
+          "de": "Wer ist in dieser Stadt wahlberechtigt?",
+          "lv": "Kenellä on äänioikeus tässä kaupungissa?"
+        },
+        {
+          "de": "Die Zahl der Wahlberechtigten ist gestiegen.",
+          "lv": "Äänioikeutettujen määrä on kasvanut."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "das Wahlrecht",
+          "meaning": "äänioikeus",
+          "example": "Das Wahlrecht ist ein Grundrecht. – Äänioikeus on perusoikeus."
+        },
+        {
+          "word": "wählbar",
+          "meaning": "vaalikelpoinen",
+          "example": "Er ist wählbar. – Hän on vaalikelpoinen."
+        },
+        {
+          "word": "stimmberechtigt",
+          "meaning": "äänivaltainen",
+          "example": "Alle Mitglieder sind stimmberechtigt. – Kaikki jäsenet ovat äänivaltaisia."
+        }
+      ],
+      "tip": [
+        "Erota toisistaan: wahlberechtigt (saa äänestää) ja wählbar (voidaan valita).",
+        "Lukumääristä puhuttaessa käytetään ilmausta die Zahl der Wahlberechtigten — äänioikeutettujen määrä."
+      ],
+      "important": [
+        "Wahlberechtigt ei tarkoita, että ihminen äänestää: se on vain oikeus, ei teko."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "wahlberechtigt",
+            "wahlberechtigte",
+            "Wahlberechtigten"
+          ],
+          "purple": [
+            "äänioikeus",
+            "äänioikeutettu"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "wahlberechtigt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "äänioikeutettuja"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "wahlberechtigte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "äänioikeutetut"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "wahlberechtigt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "äänioikeus"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Wahlberechtigten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Äänioikeutettujen"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "das Wahlrecht"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "äänioikeus"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "wählbar"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "vaalikelpoinen"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "stimmberechtigt"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "äänivaltainen"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "wahlberechtigt"
             ],
-            "red": [
-              "der"
+            "green": [
+              "wählbar"
             ]
           },
           {
-            "red": [
-              "die Anlage",
-              "der Anhang"
+            "blue": [
+              "Wahlberechtigten"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "wahlberechtigt"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "de": "wahrhaft",
+    "lv": "todella • totisesti",
+    "level": "C1"
+  },
+  {
+    "de": "Wäscheschleuder",
+    "de_article": "die",
+    "de_plural": "die Wäscheschleudern",
+    "lv": "kuivauslinko • linko",
+    "level": "C1"
+  },
+  {
+    "de": "Wasserheilanstalt",
+    "de_article": "die",
+    "lv": "vesihoitola",
+    "level": "C1"
+  },
+  {
+    "de": "Wasserkraftwerk",
+    "de_article": "das",
+    "de_plural": "die Wasserkraftwerke",
+    "lv": "vesivoimala",
+    "level": "C1"
+  },
+  {
+    "de": "Wasserversorgung",
+    "de_article": "die",
+    "de_plural": "die Wasserversorgungen",
+    "lv": "vesihuolto",
+    "level": "C1"
+  },
+  {
+    "de": "Wechselbeziehung",
+    "de_article": "die",
+    "de_plural": "die Wechselbeziehungen",
+    "lv": "vuorovaikutus • keskinäinen suhde",
+    "level": "C1"
+  },
+  {
+    "de": "Wehrersatzdienst",
+    "de_article": "der",
+    "lv": "siviilipalvelus",
+    "level": "C1"
+  },
+  {
+    "de": "Weidenkätzchen",
+    "de_article": "das",
+    "de_plural": "die Weidenkätzchen",
+    "lv": "pajunkissa",
+    "level": "C1"
+  },
+  {
+    "de": "Weltanschauung",
+    "de_article": "die",
+    "de_plural": "die Weltanschauungen",
+    "lv": "maailmankatsomus",
+    "level": "C1"
+  },
+  {
+    "de": "Wetterleuchten",
+    "de_article": "das",
+    "lv": "elosalama • kalevantuli",
+    "level": "C1"
+  },
+  {
+    "de": "widerrechtlich",
+    "lv": "oikeudenvastainen • laiton",
+    "level": "C1"
+  },
+  {
+    "de": "wiederherstellen",
+    "lv": "palauttaa • entisöidä",
+    "level": "C1"
+  },
+  {
+    "de": "zusammenfallen",
+    "lv": "romahtaa • osua yhteen",
+    "level": "C1"
+  },
+  {
+    "de": "zusammenstellen",
+    "lv": "koota • laatia",
+    "level": "C1"
+  },
+  {
+    "de": "Zuschlag",
+    "de_article": "der",
+    "de_plural": "die Zuschläge",
+    "lv": "lisämaksu • hinnanlisä",
+    "level": "C1",
+    "study": {
+      "id": "c1-zuschlag",
+      "layout": "standardStudy",
+      "translation": "lisämaksu • hinnanlisä",
+      "explanation": [
+        "Perusajatus: der Zuschlag on lisämaksu, joka lisätään perussummaan: hinnanlisä, yötyölisä, lisämaksu pikajunasta tai lisäpalvelusta.",
+        "Maskuliinisubstantiivi: der Zuschlag, monikko die Zuschläge (ä-kirjaimella). Toinen tärkeä merkitys huutokaupassa tai tarjouskilpailussa: den Zuschlag erhalten — voittaa, tulla valituksi.",
+        "Muodostaa usein yhdyssanoja: Nachtzuschlag, Zugzuschlag, Gefahrenzuschlag."
+      ],
+      "examples": [
+        {
+          "de": "Für Nachtarbeit gibt es einen Zuschlag.",
+          "lv": "Yötyöstä maksetaan erillinen lisä."
+        },
+        {
+          "de": "Im Zug musste ich einen Zuschlag bezahlen.",
+          "lv": "Junassa minun piti maksaa lisämaksu."
+        },
+        {
+          "de": "Die Firma erhielt den Zuschlag für den Bau.",
+          "lv": "Yritys voitti rakennushankkeen tarjouskilpailun."
+        },
+        {
+          "de": "Das Hotel verlangt einen Zuschlag für Haustiere.",
+          "lv": "Hotelli perii lisämaksun lemmikeistä."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "der Aufpreis",
+          "meaning": "hinnanlisä",
+          "example": "Für Leder zahlt man einen Aufpreis. – Nahasta maksetaan hinnanlisä."
+        },
+        {
+          "word": "die Gebühr",
+          "meaning": "maksu",
+          "example": "Die Gebühr beträgt zehn Euro. – Maksu on kymmenen euroa."
+        },
+        {
+          "word": "der Rabatt",
+          "meaning": "alennus",
+          "example": "Sie bekommen einen Rabatt. – Saatte alennuksen."
+        }
+      ],
+      "tip": [
+        "Muista kaksi käyttötapaa: einen Zuschlag bezahlen (maksaa lisämaksu) ja den Zuschlag erhalten (tulla valituksi huutokaupassa tai tarjouskilpailussa).",
+        "Vastakohdat: Zuschlag (lisätty) ja Abschlag (vähennetty)."
+      ],
+      "important": [
+        "Monikossa käytetään muotoa die Zuschläge, ei die Zuschlägen."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Zuschlag",
+            "Zuschläge"
+          ],
+          "purple": [
+            "lisämaksu",
+            "hinnanlisä"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Zuschlag"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "lisä"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Zuschlag"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "lisämaksu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Zuschlag"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "voitti"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Zuschlag"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "lisämaksun"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "der Aufpreis"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "hinnanlisä"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Gebühr"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "maksu"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Rabatt"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "alennus"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "Zuschlag"
+            ]
+          },
+          {
+            "blue": [
+              "Zuschlag"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "Zuschläge"
             ]
           }
         ]
@@ -4154,74 +5796,189 @@ const C1_WORDS = [
   },
   {
     "de": "beziehen / sich beziehen auf",
-    "lv": "Seostama • Käima millegi kohta",
+    "lv": "kohdistaa • koskea • viitata",
     "level": "C1",
     "study": {
       "id": "c1-beziehen-sich-beziehen-auf",
       "layout": "standardStudy",
-      "translation": "Seostama • Käima millegi kohta",
+      "translation": "kohdistaa • koskea • viitata",
       "explanation": [
-        "Põhiidee: Formaalne register: seostada allikaga, regulaarse pensioni/palga saamisega või korterisse sisseelamisega.",
-        "Näidetes otsi tüüpilist igapäevast kasutust.",
-        "Kui kahtled, kontrolli, kas jutt käib seisundist või tegevusest.",
-        "Kontekst ja tegevuse suund määravad õige valiku."
+        "Perusajatus: etwas auf etwas beziehen tarkoittaa kohdistaa jotakin johonkin asiaan tai henkilöön; sich auf etwas beziehen tarkoittaa koskea jotakin tai viitata siihen.",
+        "Muodot: bezieht, bezog, hat bezogen. Kummassakin rakenteessa seuraa auf + akkusatiivi: etwas auf sich beziehen (ottaa itseensä), sich auf einen Text beziehen (viitata tekstiin).",
+        "Tämän merkityksen lisäksi beziehen voi tarkoittaa myös vaihtaa vuodevaatteet (das Bett beziehen), muuttaa asuntoon (eine Wohnung beziehen) ja saada säännöllisesti (ein Gehalt beziehen)."
       ],
       "examples": [
         {
-          "de": "beziehen / sich beziehen auf.",
-          "lv": "Ta saab juba aasta pensioni."
+          "de": "Du darfst das nicht auf dich beziehen.",
+          "lv": "Sinun ei pidä ottaa sitä itseesi."
+        },
+        {
+          "de": "Meine Frage bezieht sich auf den letzten Absatz.",
+          "lv": "Kysymykseni koskee viimeistä kappaletta."
+        },
+        {
+          "de": "Er bezieht sich in seinem Brief auf unser Gespräch.",
+          "lv": "Kirjeessään hän viittaa keskusteluumme."
+        },
+        {
+          "de": "Sie bezog die Aussage auf ihren Bruder.",
+          "lv": "Hän kohdisti lausunnon veljeensä."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "betreffen",
+          "meaning": "koskea",
+          "example": "Das betrifft uns alle. – Se koskee meitä kaikkia."
+        },
+        {
+          "word": "verweisen auf",
+          "meaning": "viitata johonkin",
+          "example": "Er verweist auf das Gesetz. – Hän viittaa lakiin."
+        },
+        {
+          "word": "sich handeln um",
+          "meaning": "olla kyse jostakin",
+          "example": "Es handelt sich um einen Fehler. – Kyse on virheestä."
         }
       ],
       "tip": [
-        "Formāls reģistrs: attiecināt uz avotu, regulāru pensiju/algas saņemšanu vai ievākšanos dzīvoklī.",
-        "Izmanto beziehen / sich beziehen auf, kad konteksts atbilst šai nozīmei."
+        "Muista pari: sich beziehen auf + akkusatiivi. Prepositio on aina auf.",
+        "Kun haluat sanoa ottaa itseensä: etwas auf sich beziehen."
       ],
       "important": [
-        "Formāls reģistrs: attiecināt uz avotu, regulāru pensiju/algas saņemšanu vai ievākšanos dzīvoklī.",
-        "beziehen / sich beziehen auf: pirms lietošanas pārbaudi kontekstu un salīdzini ar citiem vārdiem kartītē."
+        "Beziehen on monimerkityksinen sana: asiayhteydestä riippuu, puhutaanko kohdistamisesta, vuodevaatteista tai palkasta.",
+        "Betreffen itse on transitiivinen, ilman prepositiota: Das betrifft mich."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "Põhiidee",
-            "Põhiidee"
+            "beziehen",
+            "sich beziehen",
+            "bezieht",
+            "bezog",
+            "bezogen",
+            "auf"
           ],
           "purple": [
-            "seostada",
-            "Põhiidee"
+            "kohdistaa",
+            "koskea",
+            "viitata"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "beziehen / sich beziehen auf",
-                "beziehen / sich beziehen auf"
+                "beziehen"
               ]
             },
             "lv": {
               "purple": [
-                "saab"
+                "itseesi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bezieht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "koskee"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bezieht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "viittaa"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bezog"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kohdisti"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "betreffen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "koskea"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "verweisen auf"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "viitata"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich handeln um"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "kyse"
               ]
             }
           }
         ],
         "tip": [
           {
-            "purple": [
-              "Formāls"
+            "blue": [
+              "beziehen",
+              "sich beziehen",
+              "auf"
             ]
           },
           {
-            "purple": [
-              "Formāls"
+            "blue": [
+              "beziehen",
+              "sich beziehen",
+              "auf"
             ]
           }
         ],
         "important": [
           {
             "blue": [
-              "Formāls"
+              "beziehen"
+            ]
+          },
+          {
+            "green": [
+              "betreffen"
             ]
           }
         ]
@@ -4230,149 +5987,183 @@ const C1_WORDS = [
   },
   {
     "de": "beabsichtigen",
-    "lv": "Kavatsema • Plaanima",
+    "lv": "aikoa • suunnitella",
     "level": "C1",
     "study": {
       "id": "c1-beabsichtigen",
       "layout": "standardStudy",
-      "translation": "Kavatsema • Plaanima",
+      "translation": "aikoa • suunnitella",
       "explanation": [
-        "Põhiidee: Teadlik kavatsus teha tegevus tulevikus. Ei käi suhte, vaid plaani kohta.",
-        "Beabsichtigen tähendab peamiselt: teadlik kavatsus.",
-        "Sageli iseloomustab: plaan / kavatsus.",
-        "Beabsichtigen tähendab peamiselt: tegevust plaanima.",
-        "Sageli iseloomustab: ametlik register.",
-        "Beabsichtigen tähendab teadlikult kavatseda või plaanida tegevust — mitte suhet, vaid kavatsust."
+        "Perusajatus: beabsichtigen tarkoittaa aikoa, suunnitella, olla aikeissa tehdä jotakin; kyse on tietoisesta tarkoituksesta. Se kuulostaa muodollisemmalta kuin vorhaben.",
+        "Säännöllinen verbi: er beabsichtigt, beabsichtigte, hat beabsichtigt. Sitä seuraa joko akkusatiivi (etwas beabsichtigen) tai zu-infinitiivi: Ich beabsichtige, im Herbst umzuziehen. Substantiivi on die Absicht (aikomus).",
+        "Partisiippia beabsichtigt käytetään adjektiivina: eine beabsichtigte Wirkung (tarkoituksellinen vaikutus)."
       ],
       "examples": [
         {
-          "de": "Er beabsichtigt, das Projekt zu beenden.",
-          "lv": "Ta kavatseb projekti lõpetada."
+          "de": "Ich beabsichtige, im Herbst umzuziehen.",
+          "lv": "Aion muuttaa syksyllä."
         },
         {
-          "de": "Was beabsichtigen Sie mit dieser Maßnahme?",
-          "lv": "Mida te selle meetmega kavatsete?"
+          "de": "Die Firma beabsichtigt, ein neues Werk zu bauen.",
+          "lv": "Yritys aikoo rakentaa uuden tehtaan."
         },
         {
-          "de": "Wir beabsichtigen keine Änderung.",
-          "lv": "Me ei plaani muudatust."
+          "de": "Das war nicht beabsichtigt.",
+          "lv": "Se ei ollut tarkoituksellista."
         },
         {
-          "de": "Er beabsichtigt, das Projekt zu beenden.",
-          "lv": "Ta kavatseb projekti lõpetada."
+          "de": "Was beabsichtigst du damit?",
+          "lv": "Mitä aiot sillä saavuttaa?"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "vorhaben",
+          "meaning": "olla aikeissa",
+          "example": "Ich habe vor, morgen zu kommen. – Aion tulla huomenna."
         },
         {
-          "de": "beabsichtigen + zu + nenoteiksme",
-          "lv": "Kavatseda midagi teha."
+          "word": "planen",
+          "meaning": "suunnitella",
+          "example": "Wir planen eine Reise. – Suunnittelemme matkaa."
+        },
+        {
+          "word": "wollen",
+          "meaning": "haluta",
+          "example": "Ich will schlafen. – Haluan nukkua."
         }
       ],
       "tip": [
-        "Ja runa ir par attiecību, avotu vai regulāru saņemšanu — beziehen. Ja par apzinātu plānu — beabsichtigen.",
-        "beabsichtigen = nodomāt"
+        "Verbiä beabsichtigen seuraa useimmiten zu + infinitiivi pilkun kanssa: …, zu bauen.",
+        "Arkikielessä voit sanoa myös vorhaben tai planen; beabsichtigen on virallisempi."
       ],
       "important": [
-        "beabsichtigen + zu + nenoteiksme: Er beabsichtigt zu gehen.",
-        "beabsichtigen nevar aizstāt ar beziehen — tas ir nolūks, ne attiecība.",
-        "beabsichtigen → nodoms, plāns.",
-        "Apzināts nodoms veikt darbību nākotnē. Neattiecas uz attiecību, bet uz plānu."
+        "Perfektin partisiippi on beabsichtigt (ilman ge-), koska etuliite be- on erottamaton."
       ],
       "sectionAccents": {
         "explanation": {
-          "green": [
+          "blue": [
             "beabsichtigen",
-            "beabsichtigen"
+            "beabsichtigt",
+            "beabsichtigte",
+            "vorhaben",
+            "Absicht",
+            "beabsichtige"
           ],
           "purple": [
-            "kavatsus",
-            "plaanima"
+            "aikoa",
+            "suunnitella",
+            "aikomus"
           ]
         },
         "examples": [
           {
             "de": {
-              "green": [
+              "blue": [
+                "beabsichtige"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Aion"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
                 "beabsichtigt"
               ]
             },
             "lv": {
               "purple": [
-                "kavatseb",
-                "kavatseb"
+                "aikoo"
               ]
             }
           },
           {
             "de": {
-              "green": [
-                "beabsichtigen",
-                "beabsichtigen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "kavatsete",
-                "mida"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "beabsichtigen",
-                "beabsichtigen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "plaani",
-                "plaani"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
+              "blue": [
                 "beabsichtigt"
               ]
             },
             "lv": {
               "purple": [
-                "kavatseb",
-                "kavatseb"
+                "tarkoituksellista"
               ]
             }
           },
           {
             "de": {
-              "green": [
-                "beabsichtigen",
-                "beabsichtigen"
+              "blue": [
+                "beabsichtigst"
               ]
             },
             "lv": {
               "purple": [
-                "kavatseda",
-                "kavatseda"
+                "saavuttaa"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "vorhaben"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "aikeissa"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "planen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "suunnitella"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "wollen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "haluta"
               ]
             }
           }
         ],
         "tip": [
           {
-            "purple": [
-              "runa"
+            "blue": [
+              "beabsichtigen"
             ]
           },
           {
-            "purple": [
-              "runa"
+            "blue": [
+              "beabsichtigen",
+              "vorhaben"
+            ],
+            "green": [
+              "planen"
             ]
           }
         ],
         "important": [
           {
-            "green": [
-              "beabsichtigen"
+            "blue": [
+              "beabsichtigt"
             ]
           }
         ]
@@ -4381,61 +6172,70 @@ const C1_WORDS = [
   },
   {
     "de": "unterstellen",
-    "lv": "Ette heitma • Alusetult omistama",
+    "lv": "panna syyksi • vihjailla",
     "level": "C1",
     "study": {
       "id": "c1-unterstellen",
       "layout": "standardStudy",
-      "translation": "Ette heitma • Alusetult omistama",
+      "translation": "panna syyksi • vihjailla",
       "explanation": [
-        "Põhiidee: Alusetult omistada kellelegi süü, motiiv või kavatsus.",
-        "Unterstellen tähendab peamiselt: alusetult omistama.",
-        "Sageli iseloomustab: süüdistus / kahtlustus.",
-        "Jemandem etwas unterstellen tähendab alusetult ette heita või omistada."
+        "Perusajatus: jemandem etwas unterstellen tarkoittaa panna jonkun syyksi jotakin (aikomus, sanat, paha teko), usein ilman todisteita. Toinen merkitys on alistaa, asettaa jonkun alaisuuteen: Die Abteilung ist dem Direktor unterstellt.",
+        "Erottamaton verbi, paino on tavulla -stell-: er unterstellt, unterstellte, hat unterstellt. Rakenne: jemandem etwas unterstellen (kenelle? mitä?). Jos paino on etuliitteellä unter-, kyseessä on toinen, erotettava verbi: Ich stelle das Auto unter — panna katon alle; sich unterstellen — mennä suojaan.",
+        "Tässä merkityksessä sana ilmaisee epäluuloa tai perusteetonta moitetta, joten se kuulostaa jyrkältä."
       ],
       "examples": [
         {
-          "de": "Man unterstellt mir schlechte Absichten.",
-          "lv": "Mulle heidetakse ette halba kavatsust."
+          "de": "Er unterstellt mir böse Absichten.",
+          "lv": "Hän epäilee minua pahoista aikeista."
         },
         {
-          "de": "Unterstellen Sie mir nichts!",
-          "lv": "Ärge heitke mulle midagi ette!"
+          "de": "Das unterstelle ich dir nicht.",
+          "lv": "En epäile sinua siitä."
         },
         {
-          "de": "Man darf niemandem Verrat unterstellen.",
-          "lv": "Kellelegi ei tohi alusetult ette heita reetmist."
+          "de": "Man unterstellte ihr, dass sie gelogen habe.",
+          "lv": "Hänen väitettiin valehdelleen."
         },
         {
-          "de": "Ihm wird Untreue unterstellt.",
-          "lv": "Talle heidetakse ette truudusetust."
+          "de": "Die Abteilung ist direkt dem Direktor unterstellt.",
+          "lv": "Osasto on suoraan johtajan alainen."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "vorwerfen",
+          "meaning": "moittia, syyttää",
+          "example": "Er wirft mir Faulheit vor. – Hän moittii minua laiskuudesta."
         },
         {
-          "de": "unterstellen",
-          "lv": "Ta heidab oma kolleegile ette laiskust, ilma tõenditeta."
+          "word": "beschuldigen",
+          "meaning": "syyttää",
+          "example": "Sie beschuldigt ihn des Diebstahls. – Hän syyttää häntä varkaudesta."
+        },
+        {
+          "word": "behaupten",
+          "meaning": "väittää",
+          "example": "Er behauptet, krank zu sein. – Hän väittää olevansa sairas."
         }
       ],
       "tip": [
-        "unterstellen = pārmest",
-        "Izmanto unterstellen, kad konteksts atbilst šai nozīmei."
+        "Muista: unterstellen = panna jonkun syyksi jotakin kielteistä, usein perusteetta.",
+        "Verbin unterstellen jälkeen henkilö on datiivissa: Er unterstellt mir …"
       ],
       "important": [
-        "unterstellen ir emocionāli negatīvs — nepamatota apsūdzība.",
-        "Nepareizi: Wir unterstellen Grundkenntnisse. → Pareizi: Wir setzen Grundkenntnisse voraus.",
-        "unterstellen → pārmest, piedēvēt."
+        "Erottamaton unterstellen (panna syyksi, alistaa) ei ole sama kuin erotettava unterstellen (panna suojaan, mennä suojaan)."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "unterstellen",
-            "unterstellen"
+            "unterstellt",
+            "unterstellte"
           ],
           "purple": [
-            "ette heita",
-            "alusetult omistama"
-          ],
-          "red": [
-            "ette heita"
+            "syyksi",
+            "alistaa",
+            "moitetta"
           ]
         },
         "examples": [
@@ -4447,36 +6247,26 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Mulle",
-                "Mulle"
+                "epäilee"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "unterstellen",
-                "unterstellen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "ärge",
-                "ärge"
+                "unterstelle"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "unterstellen",
-                "unterstellen"
+                "unterstellte"
               ]
             },
             "lv": {
               "purple": [
-                "ette heita",
-                "kellelegi"
+                "väitettiin"
               ]
             }
           },
@@ -4488,34 +6278,59 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "talle",
-                "talle"
+                "alainen"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "vorwerfen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "moittia"
               ]
             }
           },
           {
-            "de": {
-              "blue": [
-                "unterstellen",
-                "unterstellen"
+            "word": {
+              "green": [
+                "beschuldigen"
               ]
             },
-            "lv": {
+            "meaning": {
               "purple": [
-                "heidab"
+                "syyttää"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "behaupten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "väittää"
               ]
             }
           }
         ],
         "tip": [
           {
-            "purple": [
+            "blue": [
               "unterstellen"
             ]
           },
           {
-            "purple": [
-              "unterstellen"
+            "blue": [
+              "unterstellen",
+              "unterstellt"
             ]
           }
         ],
@@ -4531,76 +6346,184 @@ const C1_WORDS = [
   },
   {
     "de": "voraussetzen",
-    "lv": "Eeldama",
+    "lv": "edellyttää • olettaa",
     "level": "C1",
     "study": {
       "id": "c1-voraussetzen",
       "layout": "standardStudy",
-      "translation": "Eeldama",
+      "translation": "edellyttää • olettaa",
       "explanation": [
-        "Põhiidee: Pidada millegi juba teadaolevaks või aluseks olevaks.",
-        "Voraussetzen tähendab peamiselt: pidada aluseks.",
-        "Sageli iseloomustab: loogiline eeldus.",
-        "Etwas voraussetzen tähendab pidada iseenesestmõistetavaks eelduseks, mis juba eksisteerib."
+        "Perusajatus: voraussetzen tarkoittaa olettaa jotakin tunnetuksi tai itsestään selväksi tai edellyttää jotakin: Der Kurs setzt gute Kenntnisse voraus.",
+        "Erotettava verbi: er setzt voraus, setzte voraus, hat vorausgesetzt. Se, mitä oletetaan tai edellytetään, on akkusatiivissa. Substantiivi on die Voraussetzung (edellytys).",
+        "Partisiippi vorausgesetzt pilkun kanssa tarkoittaa edellyttäen, että: Vorausgesetzt, es regnet nicht, grillen wir."
       ],
       "examples": [
         {
-          "de": "Wir setzen Grundkenntnisse voraus.",
-          "lv": "Me eeldame põhiteadmisi."
+          "de": "Der Kurs setzt gute Deutschkenntnisse voraus.",
+          "lv": "Kurssi edellyttää hyvää saksan kielen taitoa."
         },
         {
-          "de": "Wir setzen Grundkenntnisse voraus.",
-          "lv": "Me eeldame põhiteadmisi."
+          "de": "Ich habe vorausgesetzt, dass du Bescheid weißt.",
+          "lv": "Oletin, että tiedät asiasta."
+        },
+        {
+          "de": "Diese Stelle setzt ein Studium voraus.",
+          "lv": "Tämän työpaikan edellytyksenä on korkeakoulututkinto."
+        },
+        {
+          "de": "Vorausgesetzt, es regnet nicht, grillen wir.",
+          "lv": "Edellyttäen, ettei sada, grillaamme."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "erfordern",
+          "meaning": "vaatia, edellyttää",
+          "example": "Die Aufgabe erfordert Geduld. – Tehtävä vaatii kärsivällisyyttä."
+        },
+        {
+          "word": "annehmen",
+          "meaning": "olettaa",
+          "example": "Ich nehme an, dass er kommt. – Oletan, että hän tulee."
+        },
+        {
+          "word": "die Voraussetzung",
+          "meaning": "edellytys",
+          "example": "Das ist keine Voraussetzung. – Se ei ole edellytys."
         }
       ],
       "tip": [
-        "voraussetzen = pieņemt priekšnoteikumu",
-        "Izmanto voraussetzen, kad konteksts atbilst šai nozīmei."
+        "Muista erottaminen: Das setzt Mühe voraus, mutta …, weil das Mühe voraussetzt.",
+        "Yleinen yhdistelmä: etwas als bekannt voraussetzen."
       ],
       "important": [
-        "voraussetzen ir neitrāls — priekšnosacījums.",
-        "voraussetzen → pieņemt kā pamatu.",
-        "Uzskatīt, ka kaut kas jau ir zināms vai pastāv kā pamats."
+        "Perfektin partisiippi on vorausgesetzt — ge- tulee osien voraus ja setzt väliin."
       ],
       "sectionAccents": {
         "explanation": {
-          "green": [
+          "blue": [
             "voraussetzen",
-            "voraus"
+            "setzt voraus",
+            "setzte voraus",
+            "vorausgesetzt",
+            "Voraussetzung",
+            "setzt",
+            "setzte",
+            "Vorausgesetzt"
           ],
           "purple": [
-            "eeldus"
+            "olettaa",
+            "edellytys"
+          ],
+          "green": [
+            "die Voraussetzung"
           ]
         },
         "examples": [
           {
-            "de": {},
+            "de": {
+              "blue": [
+                "setzt"
+              ]
+            },
             "lv": {
               "purple": [
-                "eeldame"
+                "edellyttää"
               ]
             }
           },
           {
-            "de": {},
+            "de": {
+              "blue": [
+                "vorausgesetzt"
+              ]
+            },
             "lv": {
               "purple": [
-                "eeldame"
+                "Oletin"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "setzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "edellytyksenä"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Vorausgesetzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Edellyttäen"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "erfordern"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "vaatia"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "annehmen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "olettaa"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Voraussetzung"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "edellytys"
               ]
             }
           }
         ],
         "tip": [
           {
-            "purple": [
+            "blue": [
+              "setzt"
+            ]
+          },
+          {
+            "blue": [
               "voraussetzen"
             ]
           }
         ],
         "important": [
           {
-            "green": [
-              "voraussetzen"
+            "blue": [
+              "vorausgesetzt",
+              "setzt"
             ]
           }
         ]
@@ -4609,121 +6532,175 @@ const C1_WORDS = [
   },
   {
     "de": "bewahren",
-    "lv": "Hoidma • Säilitama",
+    "lv": "suojella • säilyttää",
     "level": "C1",
     "study": {
       "id": "c1-bewahren",
       "layout": "standardStudy",
-      "translation": "Hoidma • Säilitama",
+      "translation": "suojella • säilyttää",
       "explanation": [
-        "Põhiidee: Kaitsta kaotuse, kahjustuse või hävimise eest — väärtust, traditsiooni, rahu.",
-        "Bewahren tähendab peamiselt: kaitsma kaotuse eest.",
-        "Sageli iseloomustab: väärtuste säilitamine.",
-        "Bewahren tähendab kaitsta kahjustuse, kaotuse või muutuste eest."
+        "Perusajatus: bewahren tarkoittaa suojella joltakin pahalta (jemanden vor etwas bewahren) ja säilyttää jotakin arvokasta tai muuttumatonta (Ruhe, Traditionen, Erinnerungen).",
+        "Säännöllinen verbi: er bewahrt, bewahrte, hat bewahrt. Suojeleminen: bewahren vor + datiivi (kenet? miltä?). Säilyttäminen: akkusatiivi — die Ruhe bewahren. Pitää salaisuus: ein Geheimnis bewahren.",
+        "Sana on tyyliltään ylevämpi kuin behalten (pitää itsellään) tai aufheben (säilyttää tallessa)."
       ],
       "examples": [
         {
-          "de": "Wir bewahren die Traditionen.",
-          "lv": "Me säilitame traditsioone."
+          "de": "Bitte bewahren Sie Ruhe!",
+          "lv": "Pyydän, säilyttäkää malttinne!"
         },
         {
-          "de": "Sie bewahren die Ruhe in der Krise.",
-          "lv": "Nad säilitavad rahu kriisis."
+          "de": "Der Helm hat ihn vor Schlimmerem bewahrt.",
+          "lv": "Kypärä suojeli häntä pahemmalta."
         },
         {
-          "de": "Wir bewahren die Traditionen.",
-          "lv": "Me säilitame traditsioone."
+          "de": "Er bewahrte das Geheimnis jahrelang.",
+          "lv": "Hän piti salaisuuden vuosikausia."
         },
         {
-          "de": "bewahren",
-          "lv": "Loodust tuleb säilitada järgmise põlvkonna jaoks."
+          "de": "Wir wollen diese Tradition bewahren.",
+          "lv": "Haluamme säilyttää tämän perinteen."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "aufbewahren",
+          "meaning": "säilyttää tallessa",
+          "example": "Bewahre die Quittung auf! – Säilytä kuitti!"
+        },
+        {
+          "word": "schützen",
+          "meaning": "suojata",
+          "example": "Der Zaun schützt vor dem Wind. – Aita suojaa tuulelta."
+        },
+        {
+          "word": "behalten",
+          "meaning": "pitää itsellään",
+          "example": "Du kannst das Buch behalten. – Voit pitää kirjan."
         }
       ],
       "tip": [
-        "bewahren = pasargāt",
-        "Izmanto bewahren, kad konteksts atbilst šai nozīmei."
+        "Opettele vakiintunut ilmaus: Ruhe bewahren — säilyttää malttinsa.",
+        "Suojella joltakin: bewahren vor + datiivi (vor Schaden, vor Gefahr)."
       ],
       "important": [
-        "bewahren: Wertvolles bewahren — pasargāt vērtīgo.",
-        "Nepareizi: Wir bewahren den Frieden auf. → Pareizi: Wir erhalten den Frieden auf.",
-        "bewahren → aizsargāt, saglabāt."
+        "Bewahren ei ole sama kuin aufbewahren: aufbewahren on fyysistä säilyttämistä tallessa, bewahren taas säilyttämistä tai suojelemista.",
+        "Perfektin partisiippi on bewahrt (ilman ge-)."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "bewahren",
-            "bewahren"
+            "bewahrt",
+            "bewahrte",
+            "behalten",
+            "vor",
+            "Ruhe bewahren"
           ],
           "purple": [
-            "kaitsma"
+            "suojella",
+            "säilyttää",
+            "pitää"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "bewahren",
                 "bewahren"
               ]
             },
             "lv": {
               "purple": [
-                "säilitame",
-                "säilitame"
+                "säilyttäkää"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "bewahren",
-                "bewahren"
+                "bewahrt"
               ]
             },
             "lv": {
               "purple": [
-                "nad",
-                "säilitavad"
+                "suojeli"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "bewahren",
-                "bewahren"
+                "bewahrte"
               ]
             },
             "lv": {
               "purple": [
-                "säilitame",
-                "säilitame"
+                "piti"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "bewahren",
                 "bewahren"
               ]
             },
             "lv": {
               "purple": [
-                "säilitada"
+                "säilyttää"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "aufbewahren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "tallessa"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "schützen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "suojata"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "behalten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "itsellään"
               ]
             }
           }
         ],
         "tip": [
           {
-            "purple": [
-              "bewahren"
+            "blue": [
+              "bewahren",
+              "Ruhe bewahren"
             ]
           },
           {
-            "purple": [
-              "bewahren"
+            "blue": [
+              "bewahren",
+              "vor"
             ]
           }
         ],
@@ -4731,6 +6708,14 @@ const C1_WORDS = [
           {
             "blue": [
               "bewahren"
+            ],
+            "green": [
+              "aufbewahren"
+            ]
+          },
+          {
+            "blue": [
+              "bewahrt"
             ]
           }
         ]
@@ -4739,96 +6724,180 @@ const C1_WORDS = [
   },
   {
     "de": "aufrechterhalten",
-    "lv": "Kehtivana hoidma",
+    "lv": "ylläpitää • pitää voimassa",
     "level": "C1",
     "study": {
       "id": "c1-aufrechterhalten",
       "layout": "standardStudy",
-      "translation": "Kehtivana hoidma",
+      "translation": "ylläpitää • pitää voimassa",
       "explanation": [
-        "Põhiidee: Tagada, et mingi seisund, kord või suhe jätkuvalt kestaks.",
-        "Aufrechterhalten tähendab peamiselt: tagada jätkumine.",
-        "Sageli iseloomustab: seisundi säilitamine.",
-        "Aufrechterhalten tähendab hoida mingit seisundit, süsteemi või suhet kehtivana — tagada jätkumine."
+        "Perusajatus: aufrechterhalten tarkoittaa ylläpitää, olla menettämättä: säilyttää jokin voimassa tai toiminnassa (järjestys, yhteys, väite, tarjous).",
+        "Erotettava verbi: er erhält aufrecht, erhielt aufrecht, hat aufrechterhalten. Se, mitä ylläpidetään, on akkusatiivissa. Zu-infinitiivi: aufrechtzuerhalten.",
+        "Hyvin usein yhdessä sanojen Ordnung, Kontakt, Verbindung, Behauptung, Forderung kanssa."
       ],
       "examples": [
         {
-          "de": "Der Staat erhält die Ordnung auf.",
-          "lv": "Riik hoiab korda kehtivana."
+          "de": "Der Staat erhält die Ordnung aufrecht.",
+          "lv": "Valtio ylläpitää järjestystä."
         },
         {
-          "de": "Man muss den Betrieb aufrechterhalten.",
-          "lv": "Tegevus tuleb hoida kehtivana."
+          "de": "Sie haben den Kontakt über Jahre aufrechterhalten.",
+          "lv": "He ovat pitäneet yhteyttä yllä vuosien ajan."
         },
         {
-          "de": "Der Staat erhält die Ordnung auf.",
-          "lv": "Riik hoiab korda kehtivana."
+          "de": "Wir können dieses Angebot nicht länger aufrechterhalten.",
+          "lv": "Emme voi enää pitää tätä tarjousta voimassa."
+        },
+        {
+          "de": "Er erhielt seine Behauptung aufrecht.",
+          "lv": "Hän pysyi väitteessään."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "erhalten",
+          "meaning": "säilyttää",
+          "example": "Wir erhalten das Gebäude. – Säilytämme rakennuksen."
+        },
+        {
+          "word": "beibehalten",
+          "meaning": "säilyttää ennallaan",
+          "example": "Wir behalten den Plan bei. – Pidämme suunnitelman ennallaan."
+        },
+        {
+          "word": "pflegen",
+          "meaning": "ylläpitää, vaalia",
+          "example": "Sie pflegt Kontakte. – Hän vaalii ihmissuhteitaan."
         }
       ],
       "tip": [
-        "aufrechterhalten = uzturēt spēkā",
-        "Izmanto aufrechterhalten, kad konteksts atbilst šai nozīmei."
+        "Muista erottaminen: Er erhält die Ordnung aufrecht, mutta …, dass er die Ordnung aufrechterhält.",
+        "Yhteydestä sanotaan: den Kontakt aufrechterhalten (tai pflegen)."
       ],
       "important": [
-        "aufrechterhalten: Ordnung/Frieden/Stabilität aufrechterhalten.",
-        "aufrechterhalten → uzturēt spēkā.",
-        "Nodrošināt, ka kāds stāvoklis, kārtība vai attiecības turpinās pastāvēt."
+        "Perfektissä aufrechterhalten on yksi sana ilman ge-ainesta: hat aufrechterhalten."
       ],
       "sectionAccents": {
         "explanation": {
-          "green": [
+          "blue": [
             "aufrechterhalten",
+            "erhält aufrecht",
+            "erhielt aufrecht",
+            "aufrechtzuerhalten",
             "erhält",
-            "auf"
+            "erhielt"
           ],
           "purple": [
-            "Põhiidee"
-          ],
-          "yellow": [
-            "Põhiidee"
+            "ylläpitää",
+            "säilyttää"
           ]
         },
         "examples": [
           {
-            "de": {},
+            "de": {
+              "blue": [
+                "erhält"
+              ]
+            },
             "lv": {
               "purple": [
-                "kehtivana"
+                "ylläpitää"
               ]
             }
           },
           {
             "de": {
-              "green": [
-                "aufrechterhalten",
+              "blue": [
                 "aufrechterhalten"
               ]
             },
             "lv": {
               "purple": [
-                "kehtivana"
+                "pitäneet"
               ]
             }
           },
           {
-            "de": {},
+            "de": {
+              "blue": [
+                "aufrechterhalten"
+              ]
+            },
             "lv": {
               "purple": [
-                "kehtivana"
+                "voimassa"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "erhielt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pysyi"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "erhalten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "säilyttää"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "beibehalten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ennallaan"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "pflegen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "vaalia"
               ]
             }
           }
         ],
         "tip": [
           {
-            "purple": [
+            "blue": [
+              "erhält"
+            ]
+          },
+          {
+            "blue": [
               "aufrechterhalten"
+            ],
+            "green": [
+              "pflegen"
             ]
           }
         ],
         "important": [
           {
-            "green": [
+            "blue": [
               "aufrechterhalten"
             ]
           }
@@ -4840,49 +6909,49 @@ const C1_WORDS = [
     "de": "Hektar",
     "de_article": "der",
     "de_plural": "die Hektar",
-    "lv": "Hektar",
+    "lv": "hehtaari",
     "level": "C1"
   },
   {
     "de": "Karre",
     "de_article": "die",
     "de_plural": "die Karren",
-    "lv": "Kärutis",
+    "lv": "kärry • kottikärryt",
     "level": "C1"
   },
   {
     "de": "Karren",
     "de_article": "der",
     "de_plural": "die Karren",
-    "lv": "Kärutis",
+    "lv": "kärry • kottikärryt",
     "level": "C1"
   },
   {
     "de": "Krüppel",
     "de_article": "der",
     "de_plural": "die Krüppel",
-    "lv": "Sandistunu",
+    "lv": "raajarikko • rampa",
     "level": "C1"
   },
   {
     "de": "Matsch",
     "de_article": "der",
     "de_plural": "die Matsche",
-    "lv": "Pori • Lörts",
+    "lv": "muta • loska",
     "level": "C1"
   },
   {
     "de": "Panter",
     "de_article": "der",
     "de_plural": "die Panter",
-    "lv": "Panter",
+    "lv": "pantteri",
     "level": "C1"
   },
   {
     "de": "Panther",
     "de_article": "der",
     "de_plural": "die Panther",
-    "lv": "Panter",
+    "lv": "pantteri",
     "level": "C1"
   }
 ];
