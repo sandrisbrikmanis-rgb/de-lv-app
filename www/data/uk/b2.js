@@ -4919,13 +4919,6 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "Farbige",
-    "de_article": "der",
-    "de_plural": "die Farbigen",
-    "lv": "кольорова людина",
-    "level": "B2"
-  },
-  {
     "de": "Färbung",
     "de_article": "die",
     "de_plural": "die Färbungen",
@@ -9484,13 +9477,6 @@ const B2_WORDS = [
     "de_article": "das",
     "de_plural": "die Nebenprodukte",
     "lv": "побічний продукт",
-    "level": "B2"
-  },
-  {
-    "de": "Neger",
-    "de_article": "der",
-    "de_plural": "die Neger",
-    "lv": "негр",
     "level": "B2"
   },
   {
@@ -14121,11 +14107,6 @@ const B2_WORDS = [
     "de": "Wettschwimmen",
     "de_article": "das",
     "lv": "гонка з плавання",
-    "level": "B2"
-  },
-  {
-    "de": "wichsen",
-    "lv": "полірувати",
     "level": "B2"
   },
   {

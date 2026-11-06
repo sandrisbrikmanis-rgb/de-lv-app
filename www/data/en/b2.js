@@ -11308,13 +11308,6 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "Farbige",
-    "de_article": "der",
-    "de_plural": "die Farbigen",
-    "lv": "A man of colour",
-    "level": "B2"
-  },
-  {
     "de": "Färbung",
     "de_article": "die",
     "de_plural": "die Färbungen",
@@ -19535,13 +19528,6 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "Neger",
-    "de_article": "der",
-    "de_plural": "die Neger",
-    "lv": "Negro (offensive, historical term)",
-    "level": "B2"
-  },
-  {
     "de": "Nenner",
     "de_article": "der",
     "de_plural": "die Nenner",
@@ -26419,11 +26405,6 @@ const B2_WORDS = [
     "de": "Wettschwimmen",
     "de_article": "das",
     "lv": "Swimming race",
-    "level": "B2"
-  },
-  {
-    "de": "wichsen",
-    "lv": "To polish",
     "level": "B2"
   },
   {

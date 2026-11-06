@@ -11604,13 +11604,6 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "Farbige",
-    "de_article": "der",
-    "de_plural": "die Farbigen",
-    "lv": "tummaihoinen",
-    "level": "B2"
-  },
-  {
     "de": "Färbung",
     "de_article": "die",
     "de_plural": "die Färbungen",
@@ -19816,13 +19809,6 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "Neger",
-    "de_article": "der",
-    "de_plural": "die Neger",
-    "lv": "neekeri",
-    "level": "B2"
-  },
-  {
     "de": "Nenner",
     "de_article": "der",
     "de_plural": "die Nenner",
@@ -26700,11 +26686,6 @@ const B2_WORDS = [
     "de": "Wettschwimmen",
     "de_article": "das",
     "lv": "uintikilpailu",
-    "level": "B2"
-  },
-  {
-    "de": "wichsen",
-    "lv": "kiillottaa",
     "level": "B2"
   },
   {
