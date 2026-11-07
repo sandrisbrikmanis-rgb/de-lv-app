@@ -1,0 +1,30 @@
+{
+  "batch_id": "LRB-020",
+  "classification": "LRB_020_OWNER_PREP_READY_FOR_LINGUISTIC_REVIEW",
+  "reviewer": "owner-prep-pipeline",
+  "recalculated_from_production": true,
+  "pass": true,
+  "row_count": 50,
+  "labot": 50,
+  "nelabot": 0,
+  "pending": 0,
+  "unique_cards": 50,
+  "fr_rows": 15,
+  "gr_rows": 35,
+  "gates": {
+    "ROWS": "50/50",
+    "PENDING": 0,
+    "LABOT": "50/50",
+    "NELABOT": 0,
+    "UNIQUE_CARDS": "50/50",
+    "wrong_language_residue": 0,
+    "semantic_alignment_violations": 0
+  },
+  "languages": {
+    "fr": 15,
+    "gr": 35
+  },
+  "failures": [],
+  "verdict": "LRB_020_OWNER_PREP_READY_FOR_LINGUISTIC_REVIEW",
+  "updatedAt": "2026-09-12T18:01:05.723Z"
+}
