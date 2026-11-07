@@ -1,0 +1,1735 @@
+{
+  "batchId": "LRB-092",
+  "sourceCommit": "07aa224bd4bc4f4d86f23901adf2ee0a84d89266",
+  "reviewer": "OWNER/GPT independent review",
+  "reviewType": "FULL_50_50_INDIVIDUAL_LINGUISTIC_REVIEW",
+  "cards": [
+    {
+      "auditId": "LRB092-0001",
+      "cardId": "lesen|idx:369",
+      "status": "LABOT",
+      "reason": "Infinitívna heslová forma; pôvodné „Na čítanie“ bolo účelové spojenie.",
+      "new": {
+        "lv": "čítať"
+      }
+    },
+    {
+      "auditId": "LRB092-0002",
+      "cardId": "lieb|idx:373",
+      "status": "LABOT",
+      "reason": "Pôvodné „Vážení“ bolo oslovenie v množnom čísle, nie význam prídavného mena lieb.",
+      "new": {
+        "lv": "milý"
+      }
+    },
+    {
+      "auditId": "LRB092-0003",
+      "cardId": "lieben|idx:375",
+      "status": "LABOT",
+      "reason": "Infinitívna heslová forma; pôvodné podstatné meno „Láska“ menilo slovný druh.",
+      "new": {
+        "lv": "milovať"
+      }
+    },
+    {
+      "auditId": "LRB092-0004",
+      "cardId": "liegen|idx:377",
+      "status": "LABOT",
+      "reason": "Pôvodná karta miešala cudzie jazyky a významy; nahradená je celá karta v slovenčine podľa DE/LV štruktúry.",
+      "new": {
+        "lv": "ležať • nachádzať sa",
+        "study": {
+          "id": "a1-liegen",
+          "layout": "standardStudy",
+          "translation": "ležať • nachádzať sa",
+          "explanation": [
+            "Hlavná myšlienka: liegen znamená ležať alebo nachádzať sa vo vodorovnej polohe.",
+            "Pri človeku liegen často opisuje, že leží.",
+            "Pri veci liegen vyjadruje, že sa niekde nachádza.",
+            "Liegen treba odlíšiť od legen, ktoré znamená niečo položiť."
+          ],
+          "examples": [
+            {
+              "de": "Das Buch liegt auf dem Tisch.",
+              "lv": "Kniha leží na stole."
+            },
+            {
+              "de": "Mein Handy liegt im Auto.",
+              "lv": "Môj telefón leží v aute."
+            },
+            {
+              "de": "Er liegt im Bett.",
+              "lv": "On leží v posteli."
+            },
+            {
+              "de": "Ich lege das Buch auf den Tisch.",
+              "lv": "Položím knihu na stôl."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "liegen",
+              "meaning": "ležať • nachádzať sa",
+              "example": "Das Buch liegt hier. — Kniha leží tu."
+            },
+            {
+              "word": "legen",
+              "meaning": "položiť",
+              "example": "Ich lege das Buch hierhin. — Položím knihu sem."
+            },
+            {
+              "word": "stehen",
+              "meaning": "stáť • byť postavený",
+              "example": "Die Flasche steht auf dem Tisch. — Fľaša stojí na stole."
+            },
+            {
+              "word": "sein",
+              "meaning": "byť",
+              "example": "Ich bin hier. — Som tu."
+            }
+          ],
+          "tip": {
+            "text": "Vec už je na mieste → liegen; niekto ju na miesto položí → legen."
+          },
+          "important": [
+            "liegen vyjadruje polohu alebo miesto.",
+            "legen vyjadruje dej: niekto niečo položí."
+          ],
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {},
+              {}
+            ],
+            "comparison": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB092-0005",
+      "cardId": "Lineal|idx:379",
+      "status": "LABOT",
+      "reason": "Presný slovenský názov školského predmetu Lineal.",
+      "new": {
+        "lv": "pravítko"
+      }
+    },
+    {
+      "auditId": "LRB092-0006",
+      "cardId": "links",
+      "status": "LABOT",
+      "reason": "Doplnené obe zdrojové funkcie: príslovka smeru aj prídavné meno.",
+      "new": {
+        "lv": "vľavo • ľavý"
+      }
+    },
+    {
+      "auditId": "LRB092-0007",
+      "cardId": "links|idx:380",
+      "status": "LABOT",
+      "reason": "Doplnené obe zdrojové funkcie: príslovka smeru aj prídavné meno.",
+      "new": {
+        "lv": "vľavo • ľavý"
+      }
+    },
+    {
+      "auditId": "LRB092-0008",
+      "cardId": "Liter|idx:382",
+      "status": "LABOT",
+      "reason": "Normalizovaná slovenská heslová forma a preložené celé vysvetlenie.",
+      "new": {
+        "lv": "liter",
+        "study": {
+          "id": "a1-liter",
+          "layout": "standardStudy",
+          "translation": "liter",
+          "explanation": "V Nemecku sa zvyčajne používa „der Liter“, v Rakúsku a Švajčiarsku možno počuť aj „das Liter“. Množné číslo zostáva nezmenené: „die Liter“.",
+          "sectionAccents": {}
+        }
+      }
+    },
+    {
+      "auditId": "LRB092-0009",
+      "cardId": "lustig|idx:385",
+      "status": "LABOT",
+      "reason": "Presný jednoslovný ekvivalent zdrojového „jautrs“; pôvodný tvar bol nesprávny.",
+      "new": {
+        "lv": "veselý"
+      }
+    },
+    {
+      "auditId": "LRB092-0010",
+      "cardId": "machen|idx:386",
+      "status": "LABOT",
+      "reason": "Doplnená celá slovenská karta; Luna menila iba časť študijného objektu.",
+      "new": {
+        "lv": "robiť • spraviť",
+        "study": {
+          "id": "a1-machen",
+          "layout": "standardStudy",
+          "translation": "robiť • spraviť",
+          "explanation": [
+            "Hlavná myšlienka: machen je veľmi časté sloveso s významom robiť alebo spraviť.",
+            "Pri všeobecnej činnosti sa zvyčajne prekladá ako robiť.",
+            "Pri vytvorení alebo príprave niečoho často znamená spraviť alebo pripraviť.",
+            "V ustálených spojeniach sa prekladá prirodzene podľa kontextu, nie doslovne."
+          ],
+          "examples": [
+            {
+              "de": "Was machst du?",
+              "lv": "Čo robíš?"
+            },
+            {
+              "de": "Ich mache Hausaufgaben.",
+              "lv": "Robím si domáce úlohy."
+            },
+            {
+              "de": "Wir machen Pizza.",
+              "lv": "Pripravujeme pizzu."
+            },
+            {
+              "de": "Das macht Spaß.",
+              "lv": "Je to zábava."
+            }
+          ],
+          "tip": {
+            "text": "Was machst du? = Čo robíš?"
+          },
+          "important": [
+            "machen má široký význam a treba ho preložiť podľa situácie.",
+            "Das macht Spaß znamená „Je to zábava“, nie doslovný preklad jednotlivých slov."
+          ],
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB092-0011",
+      "cardId": "Mai|idx:389",
+      "status": "LABOT",
+      "reason": "Slovenský názov mesiaca v základnom tvare a s malým začiatočným písmenom.",
+      "new": {
+        "lv": "máj"
+      }
+    },
+    {
+      "auditId": "LRB092-0012",
+      "cardId": "Mal|idx:390",
+      "status": "LABOT",
+      "reason": "Nahradená celá karta; pôvodná obsahovala cudzojazyčné a neúplné polia.",
+      "new": {
+        "lv": "raz",
+        "study": {
+          "id": "a1-mal",
+          "layout": "standardStudy",
+          "translation": "raz",
+          "explanation": [
+            "Hlavná myšlienka: das Mal označuje jeden raz alebo prípad.",
+            "Často sa používa s číslami: ein Mal, zwei Mal, drei Mal.",
+            "S radovou číslovkou: das erste Mal, das zweite Mal.",
+            "Nezamieňať s hovorovou časticou mal vo vete Komm mal her!"
+          ],
+          "examples": [
+            {
+              "de": "Das erste Mal war schwer.",
+              "lv": "Prvý raz to bolo ťažké."
+            },
+            {
+              "de": "Ich war schon zwei Mal in Berlin.",
+              "lv": "V Berlíne som už bol dvakrát."
+            },
+            {
+              "de": "Ein Mal reicht.",
+              "lv": "Jeden raz stačí."
+            },
+            {
+              "de": "Noch ein Mal, bitte!",
+              "lv": "Ešte raz, prosím!"
+            }
+          ],
+          "tip": {
+            "text": "das Mal = raz alebo prípad; mal bez člena = hovorová častica."
+          },
+          "important": [
+            "das Mal • die Male je podstatné meno s členom.",
+            "ein Mal • zwei Mal počíta opakovania.",
+            "mal bez člena nie je to isté ako das Mal."
+          ],
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB092-0013",
+      "cardId": "malen",
+      "status": "LABOT",
+      "reason": "Doplnené oba zdrojové významy slovesa malen.",
+      "new": {
+        "lv": "maľovať • natierať"
+      }
+    },
+    {
+      "auditId": "LRB092-0014",
+      "cardId": "malen|idx:391",
+      "status": "LABOT",
+      "reason": "Doplnené oba zdrojové významy slovesa malen.",
+      "new": {
+        "lv": "maľovať • natierať"
+      }
+    },
+    {
+      "auditId": "LRB092-0015",
+      "cardId": "müssen|idx:423",
+      "status": "LABOT",
+      "reason": "Kompletná karta opravená; odstránený anglický zvyšok a lomkové hodnoty.",
+      "new": {
+        "lv": "musieť",
+        "study": {
+          "id": "a1-müssen",
+          "layout": "standardStudy",
+          "translation": "musieť",
+          "explanation": [
+            "Hlavná myšlienka: müssen vyjadruje povinnosť alebo nutnosť niečo urobiť.",
+            "Po slovensky sa často vyjadruje tvarmi musím, musíš alebo musíme.",
+            "V nemčine stojí druhé sloveso spravidla na konci vety.",
+            "Na úrovni A1 je základná forma Ich muss... = Musím..."
+          ],
+          "examples": [
+            {
+              "de": "Ich muss gehen.",
+              "lv": "Musím ísť."
+            },
+            {
+              "de": "Du musst warten.",
+              "lv": "Musíš čakať."
+            },
+            {
+              "de": "Wir müssen lernen.",
+              "lv": "Musíme sa učiť."
+            },
+            {
+              "de": "Ich muss heute arbeiten.",
+              "lv": "Dnes musím pracovať."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "müssen",
+              "meaning": "musieť",
+              "example": "Ich muss gehen. — Musím ísť."
+            },
+            {
+              "word": "können",
+              "meaning": "môcť • vedieť",
+              "example": "Ich kann kommen. — Môžem prísť."
+            },
+            {
+              "word": "wollen",
+              "meaning": "chcieť",
+              "example": "Ich will nach Hause. — Chcem ísť domov."
+            },
+            {
+              "word": "dürfen",
+              "meaning": "smieť",
+              "example": "Darf ich gehen? — Smiem odísť?"
+            }
+          ],
+          "tip": {
+            "text": "Ich muss... = Musím..."
+          },
+          "important": [
+            "müssen je modálne sloveso.",
+            "Druhé sloveso zvyčajne stojí na konci: Ich muss heute arbeiten."
+          ],
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {},
+              {}
+            ],
+            "comparison": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB092-0016",
+      "cardId": "nach|idx:426",
+      "status": "LABOT",
+      "reason": "Kompletná karta normalizovaná; významy sú oddelené odrážkou a všetky príklady sú po slovensky.",
+      "new": {
+        "lv": "do • po",
+        "study": {
+          "id": "a1-nach",
+          "layout": "standardStudy",
+          "translation": "do • po",
+          "explanation": [
+            "Hlavná myšlienka: nach označuje smer k miestu alebo časovú následnosť.",
+            "Pri mestách a krajinách bez člena nach často znamená do.",
+            "V časovom význame nach znamená po.",
+            "V spojení nach Hause znamená domov."
+          ],
+          "examples": [
+            {
+              "de": "Ich fahre nach Berlin.",
+              "lv": "Idem do Berlína."
+            },
+            {
+              "de": "Wir gehen nach Hause.",
+              "lv": "Ideme domov."
+            },
+            {
+              "de": "Nach dem Essen gehen wir spazieren.",
+              "lv": "Po jedle ideme na prechádzku."
+            },
+            {
+              "de": "Es ist zehn nach acht.",
+              "lv": "Je desať minút po ôsmej."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "nach",
+              "meaning": "do • po",
+              "example": "Ich fahre nach Berlin. — Idem do Berlína."
+            },
+            {
+              "word": "zu",
+              "meaning": "k • ku",
+              "example": "Ich gehe zum Arzt. — Idem k lekárovi."
+            },
+            {
+              "word": "in",
+              "meaning": "do • v",
+              "example": "Ich gehe in die Schule. — Idem do školy."
+            },
+            {
+              "word": "vor",
+              "meaning": "pred",
+              "example": "Vor dem Essen wasche ich die Hände. — Pred jedlom si umývam ruky."
+            }
+          ],
+          "tip": {
+            "text": "nach Hause • nach Berlin • nach dem Essen"
+          },
+          "important": [
+            "nach sa nepoužíva pri všetkých cieľoch.",
+            "Pri škole sa používa in die Schule, nie nach Schule."
+          ],
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {},
+              {}
+            ],
+            "comparison": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB092-0017",
+      "cardId": "natürlich|idx:433",
+      "status": "LABOT",
+      "reason": "Preložená a zosúladená celá karta vrátane všetkých šiestich príkladov.",
+      "new": {
+        "lv": "samozrejme • prirodzený",
+        "study": {
+          "id": "a1-natuerlich",
+          "layout": "standardStudy",
+          "translation": "samozrejme • prirodzený",
+          "explanation": [
+            "Hlavná myšlienka: natürlich ako príslovka znamená samozrejme, ako prídavné meno prirodzený.",
+            "V odpovedi alebo pri potvrdení znamená natürlich samozrejme.",
+            "Pri opise pôvodu či vlastnosti znamená prirodzený alebo prírodný.",
+            "Správny význam určuje kontext."
+          ],
+          "examples": [
+            {
+              "de": "Kommst du mit? – Natürlich!",
+              "lv": "Ideš s nami? – Samozrejme!"
+            },
+            {
+              "de": "Das ist eine natürliche Reaktion.",
+              "lv": "Je to prirodzená reakcia."
+            },
+            {
+              "de": "Natürlich helfe ich dir.",
+              "lv": "Samozrejme ti pomôžem."
+            },
+            {
+              "de": "Sie hat natürliche rote Haare.",
+              "lv": "Má prirodzene ryšavé vlasy."
+            },
+            {
+              "de": "Natürlich kann ich das machen.",
+              "lv": "Samozrejme to môžem urobiť."
+            },
+            {
+              "de": "Das ist ganz natürlich.",
+              "lv": "Je to úplne prirodzené."
+            }
+          ],
+          "tip": [
+            "Samostatné potvrdenie → samozrejme.",
+            "Opis vlastnosti alebo pôvodu → prirodzený."
+          ],
+          "important": [
+            "natürlich môže znamenať samozrejme alebo prirodzený.",
+            "Samostatné Natürlich! znamená Samozrejme!"
+          ],
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB092-0018",
+      "cardId": "neben|idx:434",
+      "status": "LABOT",
+      "reason": "Presný slovenský ekvivalent predložky neben.",
+      "new": {
+        "lv": "vedľa"
+      }
+    },
+    {
+      "auditId": "LRB092-0019",
+      "cardId": "nehmen|idx:435",
+      "status": "LABOT",
+      "reason": "Kompletná karta opravená a lomkové hodnoty nahradené povoleným oddeľovačom.",
+      "new": {
+        "lv": "vziať • zobrať",
+        "study": {
+          "id": "a1-nehmen",
+          "layout": "standardStudy",
+          "translation": "vziať • zobrať",
+          "explanation": [
+            "Hlavná myšlienka: nehmen znamená vziať alebo zobrať.",
+            "Používa sa, keď si niečo berieme alebo vyberáme.",
+            "bringen znamená niečo niekomu priniesť alebo odniesť.",
+            "holen znamená ísť po niečo a priniesť to alebo niekoho vyzdvihnúť."
+          ],
+          "examples": [
+            {
+              "de": "Ich nehme den Bus.",
+              "lv": "Idem autobusom."
+            },
+            {
+              "de": "Nimm das Buch!",
+              "lv": "Vezmi si knihu!"
+            },
+            {
+              "de": "Ich bringe dir das Buch.",
+              "lv": "Prinesiem ti knihu."
+            },
+            {
+              "de": "Ich hole dich ab.",
+              "lv": "Prídem po teba."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "nehmen",
+              "meaning": "vziať • zobrať",
+              "example": "Nimm das Buch! — Vezmi si knihu!"
+            },
+            {
+              "word": "bringen",
+              "meaning": "priniesť • odniesť",
+              "example": "Ich bringe dir das Buch. — Prinesiem ti knihu."
+            },
+            {
+              "word": "holen",
+              "meaning": "ísť po • priniesť",
+              "example": "Ich hole Wasser. — Idem po vodu."
+            },
+            {
+              "word": "mitnehmen",
+              "meaning": "vziať so sebou",
+              "example": "Ich nehme dich mit. — Vezmem ťa so sebou."
+            }
+          ],
+          "tip": {
+            "text": "Vziať si pre seba → nehmen; priniesť niekomu → bringen."
+          },
+          "important": [
+            "Ich nehme den Bus znamená, že idem autobusom.",
+            "nehmen nie je to isté ako bringen."
+          ],
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {},
+              {}
+            ],
+            "comparison": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB092-0020",
+      "cardId": "nennen|idx:437",
+      "status": "LABOT",
+      "reason": "Infinitívna heslová forma zodpovedajúca slovesu nennen.",
+      "new": {
+        "lv": "nazvať"
+      }
+    },
+    {
+      "auditId": "LRB092-0021",
+      "cardId": "nett|idx:438",
+      "status": "LABOT",
+      "reason": "Presný slovenský ekvivalent zdrojového „jauks“.",
+      "new": {
+        "lv": "milý"
+      }
+    },
+    {
+      "auditId": "LRB092-0022",
+      "cardId": "neu|idx:439",
+      "status": "LABOT",
+      "reason": "Odstránené zbytočné zúženie v názve a preložená celá karta podľa zdrojovej štruktúry.",
+      "new": {
+        "lv": "nový",
+        "study": {
+          "id": "a1-neu",
+          "layout": "standardStudy",
+          "translation": "nový",
+          "explanation": [
+            "Hlavná myšlienka: neu znamená nový, teda nedávno vytvorený, kúpený alebo prvýkrát používaný.",
+            "neu opisuje veci, zariadenia, oblečenie, bývanie či nápady, nie vek človeka alebo zvieraťa.",
+            "V slovenčine môže nový označovať aj nízky vek, ale nemčina tu rozlišuje neu a jung.",
+            "Pre vek človeka alebo zvieraťa sa používa jung.",
+            "neu sa používa aj prenesene: nová práca, nové informácie, nový začiatok.",
+            "Opakom je alt; podstatné meno das Neue znamená niečo nové."
+          ],
+          "examples": [
+            {
+              "de": "Mein Handy ist neu.",
+              "lv": "Môj telefón je nový."
+            },
+            {
+              "de": "Wir haben ein neues Auto.",
+              "lv": "Máme nové auto."
+            },
+            {
+              "de": "Das ist meine neue Wohnung.",
+              "lv": "Toto je môj nový byt."
+            },
+            {
+              "de": "Ich habe neue Schuhe gekauft.",
+              "lv": "Kúpil som si nové topánky."
+            },
+            {
+              "de": "Das ist eine neue Idee.",
+              "lv": "Toto je nový nápad."
+            },
+            {
+              "de": "Er hat einen neuen Job.",
+              "lv": "Má novú prácu."
+            },
+            {
+              "de": "Was gibt es Neues?",
+              "lv": "Čo je nové?"
+            }
+          ],
+          "tip": [
+            "neu opisuje nové veci a novinky; pri veku človeka použite jung.",
+            "Protiklad: neu ↔ alt."
+          ],
+          "important": [
+            "neu opisuje veci a novinky, nie vek.",
+            "Pri veku osoby alebo zvieraťa sa používa jung.",
+            "Nesprávne: Meine Schwester ist neu. → Správne: Meine Schwester ist jung."
+          ],
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB092-0023",
+      "cardId": "neunte|idx:442",
+      "status": "LABOT",
+      "reason": "Slovenské radové číslovky sa ako heslá píšu s malým začiatočným písmenom.",
+      "new": {
+        "lv": "deviaty"
+      }
+    },
+    {
+      "auditId": "LRB092-0024",
+      "cardId": "neunzehnte|idx:444",
+      "status": "LABOT",
+      "reason": "Slovenské radové číslovky sa ako heslá píšu s malým začiatočným písmenom.",
+      "new": {
+        "lv": "devätnásty"
+      }
+    },
+    {
+      "auditId": "LRB092-0025",
+      "cardId": "neunzigste|idx:446",
+      "status": "LABOT",
+      "reason": "Slovenské radové číslovky sa ako heslá píšu s malým začiatočným písmenom.",
+      "new": {
+        "lv": "deväťdesiaty"
+      }
+    },
+    {
+      "auditId": "LRB092-0026",
+      "cardId": "nicht|idx:447",
+      "status": "LABOT",
+      "reason": "Normalizovaný správny slovenský tvar bez verzál.",
+      "new": {
+        "lv": "nie"
+      }
+    },
+    {
+      "auditId": "LRB092-0027",
+      "cardId": "nichts|idx:448",
+      "status": "LABOT",
+      "reason": "Opravený nesprávny výraz „Niť“ na zámeno nič.",
+      "new": {
+        "lv": "nič"
+      }
+    },
+    {
+      "auditId": "LRB092-0028",
+      "cardId": "noch|idx:451",
+      "status": "LABOT",
+      "reason": "Celá karta preložená a zbavená duplicitného, strojovo opakovaného vysvetlenia.",
+      "new": {
+        "lv": "ešte",
+        "study": {
+          "id": "a1-noch-study",
+          "layout": "standardStudy",
+          "translation": "ešte",
+          "explanation": [
+            "Hlavná myšlienka: noch vyjadruje, že niečo stále trvá alebo sa ešte neskončilo.",
+            "Najčastejšie sa prekladá ako ešte.",
+            "Používa sa pri pokračujúcom alebo nedokončenom stave.",
+            "Kontext ukazuje, čo ešte trvá alebo sa ešte nestalo."
+          ],
+          "examples": [
+            {
+              "de": "Ich bin noch zu Hause.",
+              "lv": "Ešte som doma."
+            },
+            {
+              "de": "Ich bin noch zu Hause.",
+              "lv": "Ešte som doma."
+            },
+            {
+              "de": "Bist du noch da?",
+              "lv": "Si ešte tu?"
+            }
+          ],
+          "tip": [
+            "noch často znamená ešte.",
+            "Použite ho, keď niečo stále pokračuje alebo ešte nie je dokončené."
+          ],
+          "important": [
+            "noch = ešte.",
+            "noch vyjadruje pokračovanie alebo nedokončený stav."
+          ],
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB092-0029",
+      "cardId": "normal|idx:452",
+      "status": "LABOT",
+      "reason": "Správny slovenský základný tvar prídavného mena.",
+      "new": {
+        "lv": "normálny"
+      }
+    },
+    {
+      "auditId": "LRB092-0030",
+      "cardId": "November|idx:453",
+      "status": "LABOT",
+      "reason": "Názov mesiaca v slovenčine má základný tvar a malé začiatočné písmeno.",
+      "new": {
+        "lv": "november"
+      }
+    },
+    {
+      "auditId": "LRB092-0031",
+      "cardId": "nur|idx:456",
+      "status": "LABOT",
+      "reason": "Doplnená celá karta vrátane všetkých piatich zdrojových príkladov.",
+      "new": {
+        "lv": "iba • len",
+        "study": {
+          "id": "a1-nur-study",
+          "layout": "standardStudy",
+          "translation": "iba • len",
+          "explanation": [
+            "Hlavná myšlienka: nur obmedzuje množstvo, výber alebo možnosti.",
+            "Najčastejšie znamená iba alebo len.",
+            "Môže určovať jediné množstvo, vec alebo osobu.",
+            "Vyjadruje, že nič ďalšie sa nezahŕňa."
+          ],
+          "examples": [
+            {
+              "de": "Ich habe nur zehn Euro.",
+              "lv": "Mám len desať eur."
+            },
+            {
+              "de": "Ich habe nur zehn Euro.",
+              "lv": "Mám len desať eur."
+            },
+            {
+              "de": "Nur du kannst mir helfen.",
+              "lv": "Len ty mi môžeš pomôcť."
+            },
+            {
+              "de": "Ich möchte nur Kaffee.",
+              "lv": "Chcem iba kávu."
+            },
+            {
+              "de": "Ich habe nur acht Euro.",
+              "lv": "Mám len osem eur."
+            }
+          ],
+          "tip": [
+            "nur vyjadruje obmedzenie: iba, len, nič viac.",
+            "Správny slovenský tvar vyberte podľa kontextu."
+          ],
+          "important": [
+            "nur = iba • len.",
+            "Správny preklad určuje kontext vety."
+          ],
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB092-0032",
+      "cardId": "ob|idx:457",
+      "status": "LABOT",
+      "reason": "Luna ponechala príklady a porovnania nepreložené; nahradená je celá karta.",
+      "new": {
+        "lv": "či",
+        "study": {
+          "id": "a1-ob",
+          "layout": "standardStudy",
+          "translation": "či",
+          "explanation": [
+            "Hlavná myšlienka: ob uvádza nepriamu otázku a po slovensky najčastejšie znamená či.",
+            "Používa sa po slovesách ako fragen, wissen, sehen a sagen, keď nejde o priamu otázku.",
+            "V priamej otázke sa ob zvyčajne nepoužíva.",
+            "Treba ho odlíšiť od oder."
+          ],
+          "examples": [
+            {
+              "de": "Ich weiß nicht, ob er kommt.",
+              "lv": "Neviem, či príde."
+            },
+            {
+              "de": "Sie fragt, ob du Zeit hast.",
+              "lv": "Pýta sa, či máš čas."
+            },
+            {
+              "de": "Sag mir, ob das stimmt.",
+              "lv": "Povedz mi, či je to pravda."
+            },
+            {
+              "de": "Kommst du heute oder morgen?",
+              "lv": "Prídeš dnes alebo zajtra?"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "ob",
+              "meaning": "či v nepriamej otázke",
+              "example": "Ich weiß nicht, ob er kommt. — Neviem, či príde."
+            },
+            {
+              "word": "oder",
+              "meaning": "alebo pri výbere",
+              "example": "Kaffee oder Tee? — Káva alebo čaj?"
+            },
+            {
+              "word": "wenn",
+              "meaning": "ak • keď",
+              "example": "Wenn du Zeit hast... — Ak máš čas..."
+            },
+            {
+              "word": "dass",
+              "meaning": "že",
+              "example": "Ich weiß, dass er kommt. — Viem, že príde."
+            }
+          ],
+          "tip": {
+            "text": "Neviem, či... → ob; káva alebo čaj → oder."
+          },
+          "important": [
+            "ob nie je spojka na výber medzi dvoma vecami.",
+            "V spojení Kaffee oder Tee? sa používa oder."
+          ],
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {},
+              {}
+            ],
+            "comparison": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB092-0033",
+      "cardId": "oben|idx:458",
+      "status": "LABOT",
+      "reason": "Presný slovenský ekvivalent príslovky oben.",
+      "new": {
+        "lv": "hore"
+      }
+    },
+    {
+      "auditId": "LRB092-0034",
+      "cardId": "Obst|idx:693",
+      "status": "LABOT",
+      "reason": "Doplnená celá karta a zachovaných všetkých päť zdrojových príkladov.",
+      "new": {
+        "lv": "ovocie",
+        "study": {
+          "id": "a1-obst",
+          "layout": "standardStudy",
+          "translation": "ovocie",
+          "explanation": [
+            "Hlavná myšlienka: Obst označuje ovocie ako celok.",
+            "V nemčine sa používa v jednotnom čísle a nemá bežný tvar množného čísla die Obsts.",
+            "Je stredného rodu: das Obst."
+          ],
+          "examples": [
+            {
+              "de": "Wir essen viel Obst.",
+              "lv": "Jeme veľa ovocia."
+            },
+            {
+              "de": "Wir essen viel Obst.",
+              "lv": "Jeme veľa ovocia."
+            },
+            {
+              "de": "Obst ist gesund.",
+              "lv": "Ovocie je zdravé."
+            },
+            {
+              "de": "Ich mag Obst und Gemüse.",
+              "lv": "Mám rád ovocie a zeleninu."
+            },
+            {
+              "de": "Wir essen Obst.",
+              "lv": "Jeme ovocie."
+            }
+          ],
+          "tip": [
+            "das Obst = ovocie",
+            "Použite das Obst, keď hovoríte o ovocí všeobecne."
+          ],
+          "important": [
+            "Nesprávne: die Obsts → správne: das Obst.",
+            "das Obst označuje ovocie ako celok."
+          ],
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB092-0035",
+      "cardId": "oder|idx:459",
+      "status": "LABOT",
+      "reason": "Odstránený nadbytočný druhý význam názvu a doplnené všetky chýbajúce časti karty.",
+      "new": {
+        "lv": "alebo",
+        "study": {
+          "id": "a1-oder",
+          "layout": "standardStudy",
+          "translation": "alebo",
+          "explanation": [
+            "Hlavná myšlienka: oder sa používa pri výbere medzi dvoma alebo viacerými možnosťami.",
+            "Po slovensky najčastejšie znamená alebo.",
+            "Nie je to to isté ako ob, ktoré uvádza nepriamu otázku.",
+            "V rozhovore môže stáť aj na konci vety: Du kommst, oder?"
+          ],
+          "examples": [
+            {
+              "de": "Kaffee oder Tee?",
+              "lv": "Kávu alebo čaj?"
+            },
+            {
+              "de": "Heute oder morgen?",
+              "lv": "Dnes alebo zajtra?"
+            },
+            {
+              "de": "Willst du Pizza oder Salat?",
+              "lv": "Chceš pizzu alebo šalát?"
+            },
+            {
+              "de": "Du kommst, oder?",
+              "lv": "Prídeš, však?"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "oder",
+              "meaning": "alebo pri výbere",
+              "example": "Kaffee oder Tee? — Káva alebo čaj?"
+            },
+            {
+              "word": "ob",
+              "meaning": "či v nepriamej otázke",
+              "example": "Ich weiß nicht, ob er kommt. — Neviem, či príde."
+            },
+            {
+              "word": "und",
+              "meaning": "a",
+              "example": "Kaffee und Kuchen. — Káva a koláč."
+            },
+            {
+              "word": "aber",
+              "meaning": "ale",
+              "example": "Ich komme, aber später. — Prídem, ale neskôr."
+            }
+          ],
+          "tip": {
+            "text": "Výber medzi možnosťami → oder."
+          },
+          "important": [
+            "oder sa používa pri výbere.",
+            "V nepriamej otázke sa používa ob vo význame či."
+          ],
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {},
+              {}
+            ],
+            "comparison": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB092-0036",
+      "cardId": "öffnen|idx:460",
+      "status": "LABOT",
+      "reason": "Infinitívna heslová forma; pôvodné „OTVORENÉ“ bolo prídavné meno vo verzálach.",
+      "new": {
+        "lv": "otvoriť"
+      }
+    },
+    {
+      "auditId": "LRB092-0037",
+      "cardId": "Ohr|idx:463",
+      "status": "LABOT",
+      "reason": "Opravený úplne nesúvisiaci pôvodný preklad „Rukoväť“.",
+      "new": {
+        "lv": "ucho"
+      }
+    },
+    {
+      "auditId": "LRB092-0038",
+      "cardId": "passen|idx:471",
+      "status": "LABOT",
+      "reason": "Luna vynechala príklady, tip a dôležité poznámky; doplnená je celá karta.",
+      "new": {
+        "lv": "sedieť • hodiť sa",
+        "study": {
+          "id": "a1-passen",
+          "layout": "standardStudy",
+          "translation": "sedieť • hodiť sa",
+          "explanation": [
+            "Hlavná myšlienka: passen znamená sedieť, hodiť sa alebo byť vhodný.",
+            "Pri oblečení často znamená sedieť veľkosťou.",
+            "Pri farbe alebo štýle znamená hodiť sa či pristať.",
+            "Časté spojenie Das passt. znamená Hodí sa to."
+          ],
+          "examples": [
+            {
+              "de": "Die Jacke passt mir.",
+              "lv": "Bunda mi sedí."
+            },
+            {
+              "de": "Das Kleid passt gut.",
+              "lv": "Šaty dobre sedia."
+            },
+            {
+              "de": "Die Farbe passt zu dir.",
+              "lv": "Tá farba ti pristane."
+            },
+            {
+              "de": "Das passt.",
+              "lv": "Hodí sa to."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "passen",
+              "meaning": "sedieť • hodiť sa",
+              "example": "Die Jacke passt mir. — Bunda mi sedí."
+            },
+            {
+              "word": "stehen",
+              "meaning": "pristať • stáť",
+              "example": "Rot steht dir gut. — Červená ti pristane."
+            },
+            {
+              "word": "geeignet sein",
+              "meaning": "byť vhodný",
+              "example": "Das ist geeignet. — Je to vhodné."
+            },
+            {
+              "word": "funktionieren",
+              "meaning": "fungovať",
+              "example": "Das funktioniert. — Funguje to."
+            }
+          ],
+          "tip": {
+            "text": "Das passt. = Hodí sa to."
+          },
+          "important": [
+            "passen sa nepoužíva iba pri oblečení.",
+            "Môže vyjadriť aj to, že čas, plán alebo riešenie vyhovuje."
+          ],
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {},
+              {}
+            ],
+            "comparison": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB092-0039",
+      "cardId": "probieren|idx:482",
+      "status": "LABOT",
+      "reason": "Luna zmenila iba názov; všetky ostatné časti boli stále cudzojazyčné.",
+      "new": {
+        "lv": "vyskúšať • ochutnať",
+        "study": {
+          "id": "a1-probieren",
+          "layout": "standardStudy",
+          "translation": "vyskúšať • ochutnať",
+          "explanation": [
+            "Hlavná myšlienka: probieren znamená vyskúšať alebo ochutnať.",
+            "Pri jedle a nápojoch často znamená ochutnať.",
+            "Pri činnosti, metóde alebo veci znamená vyskúšať.",
+            "prüfen znamená dôkladnejšie skontrolovať."
+          ],
+          "examples": [
+            {
+              "de": "Probier mal die Suppe!",
+              "lv": "Ochutnaj polievku!"
+            },
+            {
+              "de": "Ich möchte den Kuchen probieren.",
+              "lv": "Chcem ochutnať koláč."
+            },
+            {
+              "de": "Wir probieren eine neue Methode.",
+              "lv": "Skúšame novú metódu."
+            },
+            {
+              "de": "Kann ich die Jacke anprobieren?",
+              "lv": "Môžem si vyskúšať bundu?"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "probieren",
+              "meaning": "vyskúšať • ochutnať",
+              "example": "Probier mal die Suppe! — Ochutnaj polievku!"
+            },
+            {
+              "word": "versuchen",
+              "meaning": "pokúsiť sa • skúsiť",
+              "example": "Ich versuche es. — Skúsim to."
+            },
+            {
+              "word": "prüfen",
+              "meaning": "skontrolovať",
+              "example": "Ich prüfe die Rechnung. — Kontrolujem účet."
+            },
+            {
+              "word": "anprobieren",
+              "meaning": "vyskúšať si",
+              "example": "Ich probiere die Jacke an. — Skúšam si bundu."
+            }
+          ],
+          "tip": {
+            "text": "Pri jedle probieren často znamená ochutnať."
+          },
+          "important": [
+            "probieren nie je hlavné slovo pre úradnú alebo dôkladnú kontrolu.",
+            "Dokument alebo účet sa zvyčajne kontroluje slovesom prüfen."
+          ],
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {},
+              {}
+            ],
+            "comparison": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB092-0040",
+      "cardId": "rechts",
+      "status": "LABOT",
+      "reason": "Doplnené obe zdrojové funkcie: príslovka smeru aj prídavné meno.",
+      "new": {
+        "lv": "vpravo • pravý"
+      }
+    },
+    {
+      "auditId": "LRB092-0041",
+      "cardId": "Reis|idx:496",
+      "status": "LABOT",
+      "reason": "Luna zmenila iba názov; preložená a významovo opravená je celá karta.",
+      "new": {
+        "lv": "ryža",
+        "study": {
+          "id": "a1-reis",
+          "layout": "standardStudy",
+          "translation": "ryža",
+          "explanation": "Nemecké podstatné meno „der Reis“ sa používa iba v jednotnom čísle, preto je aj sloveso v jednotnom čísle, napríklad „ist“, nie „sind“. Slovenské slovo ryža je tiež jednotné číslo.",
+          "examples": [
+            {
+              "de": "Der Reis ist fertig.",
+              "lv": "Ryža je hotová."
+            },
+            {
+              "de": "Ich esse Reis.",
+              "lv": "Jem ryžu."
+            },
+            {
+              "de": "Kochst du Reis?",
+              "lv": "Varíš ryžu?"
+            },
+            {
+              "de": "Der Reis schmeckt gut.",
+              "lv": "Ryža chutí dobre."
+            }
+          ],
+          "tip": {
+            "text": "der Reis je v nemčine jednotné číslo; po slovensky je to ryža."
+          },
+          "important": [
+            "der Reis sa v nemčine používa v jednotnom čísle.",
+            "Slovenský preklad ryža je tiež jednotné číslo."
+          ],
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB092-0042",
+      "cardId": "richtig|idx:497",
+      "status": "LABOT",
+      "reason": "Presný slovenský základný tvar prídavného mena.",
+      "new": {
+        "lv": "správny"
+      }
+    },
+    {
+      "auditId": "LRB092-0043",
+      "cardId": "Rose|idx:502",
+      "status": "LABOT",
+      "reason": "Presný slovenský názov rastliny v základnom tvare.",
+      "new": {
+        "lv": "ruža"
+      }
+    },
+    {
+      "auditId": "LRB092-0044",
+      "cardId": "sagen|idx:505",
+      "status": "LABOT",
+      "reason": "Luna zmenila iba názov; preložená je celá študijná karta.",
+      "new": {
+        "lv": "povedať",
+        "study": {
+          "id": "a1-sagen-study",
+          "layout": "standardStudy",
+          "translation": "povedať",
+          "explanation": [
+            "Hlavná myšlienka: sagen znamená povedať konkrétnu myšlienku, slovo alebo vetu.",
+            "Najčastejšie označuje konkrétny vyslovený obsah.",
+            "Používa sa pri slovách a vetách.",
+            "Na všeobecné hovorenie alebo ovládanie jazyka sa používa sprechen."
+          ],
+          "examples": [
+            {
+              "de": "Was hast du gesagt?",
+              "lv": "Čo si povedal?"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "sagen",
+              "meaning": "povedať konkrétny obsah",
+              "example": "Was hast du gesagt? — Čo si povedal?"
+            },
+            {
+              "word": "sprechen",
+              "meaning": "hovoriť • rozprávať",
+              "example": "Ich spreche Deutsch. — Hovorím po nemecky."
+            }
+          ],
+          "tip": [
+            "sagen = povedať",
+            "Použite sagen pri konkrétnom vyslovenom obsahu."
+          ],
+          "important": [
+            "sagen = povedať.",
+            "sagen označuje konkrétnu myšlienku, slovo alebo vetu."
+          ],
+          "sectionAccents": {
+            "examples": [
+              {}
+            ],
+            "comparison": [
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB092-0045",
+      "cardId": "schauen|idx:510",
+      "status": "LABOT",
+      "reason": "Luna zmenila iba názov; preložená je celá študijná karta.",
+      "new": {
+        "lv": "pozerať sa",
+        "study": {
+          "id": "a1-schauen-study",
+          "layout": "standardStudy",
+          "translation": "pozerať sa",
+          "explanation": [
+            "Hlavná myšlienka: schauen znamená aktívne sa pozerať alebo pozrieť sa.",
+            "Najčastejšie opisuje úmyselné pozeranie.",
+            "Ide o činnosť, nie iba o schopnosť niečo vidieť.",
+            "Tým sa odlišuje od sehen vo význame vidieť."
+          ],
+          "examples": [
+            {
+              "de": "Ich schaue fern.",
+              "lv": "Pozerám televíziu."
+            },
+            {
+              "de": "Wir schauen aus dem Fenster.",
+              "lv": "Pozeráme sa z okna."
+            },
+            {
+              "de": "Ich schaue fern.",
+              "lv": "Pozerám televíziu."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "schauen",
+              "meaning": "pozerať sa",
+              "example": "Ich schaue aus dem Fenster. — Pozerám sa z okna."
+            },
+            {
+              "word": "sehen",
+              "meaning": "vidieť",
+              "example": "Ich sehe dich. — Vidím ťa."
+            }
+          ],
+          "tip": [
+            "schauen = pozerať sa",
+            "Použite schauen pri aktívnom pozeraní."
+          ],
+          "important": [
+            "schauen = pozerať sa.",
+            "schauen opisuje aktívne pozeranie alebo krátke pozretie."
+          ],
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {}
+            ],
+            "comparison": [
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB092-0046",
+      "cardId": "Schnee|idx:517",
+      "status": "LABOT",
+      "reason": "Presný slovenský názov v základnom tvare.",
+      "new": {
+        "lv": "sneh"
+      }
+    },
+    {
+      "auditId": "LRB092-0047",
+      "cardId": "schon|idx:521",
+      "status": "LABOT",
+      "reason": "Luna zmenila iba názov; preložená je celá študijná karta.",
+      "new": {
+        "lv": "už",
+        "study": {
+          "id": "a1-schon-study",
+          "layout": "standardStudy",
+          "translation": "už",
+          "explanation": [
+            "Hlavná myšlienka: schon vyjadruje, že niečo sa už stalo alebo už platí.",
+            "Najčastejšie sa prekladá ako už.",
+            "Môže opisovať dokončenú udalosť alebo existujúci stav.",
+            "Kontext určuje, čo už nastalo alebo platí."
+          ],
+          "examples": [
+            {
+              "de": "Ich bin schon zu Hause.",
+              "lv": "Už som doma."
+            }
+          ],
+          "tip": [
+            "schon znamená už.",
+            "Použite ho, keď sa niečo už stalo alebo už platí."
+          ],
+          "important": [
+            "schon = už.",
+            "Vyjadruje uskutočnený dej alebo existujúci stav."
+          ],
+          "sectionAccents": {
+            "examples": [
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB092-0048",
+      "cardId": "sicher|idx:548",
+      "status": "LABOT",
+      "reason": "Preložená celá karta a nepresné „Asi“ nahradené významovo zodpovedajúcim „Určite“.",
+      "new": {
+        "lv": "bezpečný • určite",
+        "study": {
+          "id": "a1-sicher",
+          "layout": "standardStudy",
+          "translation": "bezpečný • určite",
+          "explanation": [
+            "Hlavná myšlienka: sicher ako prídavné meno znamená bezpečný, ako príslovka určite alebo pravdepodobne.",
+            "Pri mieste, situácii alebo osobe môže označovať bezpečnosť.",
+            "Ako potvrdenie alebo vyjadrenie presvedčenia znamená určite či pravdepodobne.",
+            "Samostatné Sicher! znamená Iste! alebo Samozrejme!"
+          ],
+          "examples": [
+            {
+              "de": "Ist das Wasser sicher?",
+              "lv": "Je tá voda bezpečná?"
+            },
+            {
+              "de": "Kommst du morgen? – Sicher!",
+              "lv": "Prídeš zajtra? – Iste!"
+            },
+            {
+              "de": "Er ist sicher zu Hause.",
+              "lv": "Určite je doma."
+            },
+            {
+              "de": "Das ist eine sichere Lösung.",
+              "lv": "Toto je bezpečné riešenie."
+            },
+            {
+              "de": "Ich bin mir sicher.",
+              "lv": "Som si istý."
+            },
+            {
+              "de": "Fahr sicher!",
+              "lv": "Jazdi bezpečne!"
+            }
+          ],
+          "tip": [
+            "Pri bezpečnosti → bezpečný.",
+            "Pri presvedčení alebo potvrdení → určite • pravdepodobne."
+          ],
+          "important": [
+            "sicher môže znamenať bezpečný alebo určite.",
+            "sich sicher sein = byť si istý."
+          ],
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB092-0049",
+      "cardId": "sie|idx:549",
+      "status": "LABOT",
+      "reason": "Lomka v názve bola nahradená odrážkou a celá karta bola zjednotená podľa všetkých DE príkladov.",
+      "new": {
+        "lv": "oni • ony",
+        "study": {
+          "id": "a1-sie-study",
+          "layout": "standardStudy",
+          "translation": "oni • ony",
+          "explanation": [
+            "Hlavná myšlienka: malé sie s množným slovesom znamená oni alebo ony.",
+            "Malé sie so slovesom v jednotnom čísle znamená ona.",
+            "Tvar ju sa používa, keď je sie predmetom v akuzatíve.",
+            "Pri význame oni alebo ony je sloveso v množnom čísle.",
+            "Typická množná forma slovesa sa končí na -en.",
+            "Veľké Sie označuje zdvorilé vykanie.",
+            "Veľké Sie má tiež sloveso v množnom čísle.",
+            "Správny význam určuje kontext, veľké písmeno a tvar slovesa."
+          ],
+          "examples": [
+            {
+              "de": "Sie kochen.",
+              "lv": "Oni varia."
+            },
+            {
+              "de": "Sie kocht.",
+              "lv": "Ona varí."
+            },
+            {
+              "de": "Sie isst.",
+              "lv": "Ona je."
+            },
+            {
+              "de": "Sie kochen.",
+              "lv": "Oni varia."
+            },
+            {
+              "de": "Sie spielen Fußball.",
+              "lv": "Oni hrajú futbal."
+            },
+            {
+              "de": "Sie kochen, bitte.",
+              "lv": "Varte, prosím."
+            }
+          ],
+          "tip": [
+            "Pri množnom sie má sloveso tvar množného čísla.",
+            "Tvar slovesa a kontext rozlišujú významy sie."
+          ],
+          "important": [
+            "Zdvorilé Sie sa píše s veľkým S.",
+            "Ona: sie kocht. Oni alebo ony: sie kochen. Vy: Sie kochen.",
+            "Malé sie so slovesom v jednotnom čísle neznamená oni alebo ony.",
+            "Množné sie používa sloveso v množnom čísle."
+          ],
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB092-0050",
+      "cardId": "Sie|idx:550",
+      "status": "LABOT",
+      "reason": "Opravená vnútorná nejednotnosť rovnakého DE príkladu a preložená celá karta bez lomiek.",
+      "new": {
+        "lv": "vy",
+        "study": {
+          "id": "a1-sie-study-2",
+          "layout": "standardStudy",
+          "translation": "vy",
+          "explanation": [
+            "Hlavná myšlienka: Sie s veľkým S je zdvorilé oslovenie, po slovensky vy.",
+            "Malé sie so slovesom v jednotnom čísle môže znamenať ona.",
+            "Malé sie so slovesom v množnom čísle môže znamenať oni alebo ony.",
+            "Zdvorilé Sie sa vždy píše s veľkým S.",
+            "Pri zdvorilom Sie má sloveso tvar množného čísla.",
+            "Sie môže zdvorilo oslovovať jednu aj viac osôb.",
+            "Na začiatku vety treba význam určiť podľa slovesa a kontextu.",
+            "Malé sie môže znamenať ona, ju alebo oni • ony."
+          ],
+          "examples": [
+            {
+              "de": "Sie kochen, bitte.",
+              "lv": "Varte, prosím."
+            },
+            {
+              "de": "Sie kocht.",
+              "lv": "Ona varí."
+            },
+            {
+              "de": "Sie isst.",
+              "lv": "Ona je."
+            },
+            {
+              "de": "Sie kochen.",
+              "lv": "Oni varia."
+            },
+            {
+              "de": "Sie spielen Fußball.",
+              "lv": "Oni hrajú futbal."
+            },
+            {
+              "de": "Sie kochen, bitte.",
+              "lv": "Varte, prosím."
+            }
+          ],
+          "tip": [
+            "Zdvorilé Sie sa vždy píše s veľkým S.",
+            "Pri tomto význame má sloveso tvar množného čísla."
+          ],
+          "important": [
+            "Zdvorilé Sie sa vždy píše s veľkým S.",
+            "Sie kochen môže podľa kontextu znamenať Vy varíte alebo Oni varia.",
+            "Sie kocht znamená Ona varí, nie zdvorilé vykanie.",
+            "Veľké písmeno sa nedá spoľahlivo určiť iba na začiatku vety; rozhoduje aj kontext."
+          ],
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    }
+  ]
+}
