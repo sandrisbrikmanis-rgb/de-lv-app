@@ -3,7 +3,7 @@
  * Validates the Kurss (course lessons) section for a given native
  * language: lesson structure, translate/exercise card counts, and
  * leftover-source-language text leaks. Generalized from the
- * LT-specific validate-lt-kurss.js per LANGUAGE_AUDIT_STANDARD.md §5.
+ * LT-specific validate-lt-kurss.js per PROJECT_LANGUAGE_MASTER_STANDARD.md §7.7.
  *
  * Some checks are inherently language-specific (e.g. the exact section
  * title strings used for "translate"/"exercise" sections, or the
