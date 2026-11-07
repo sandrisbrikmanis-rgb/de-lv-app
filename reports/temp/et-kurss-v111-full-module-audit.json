@@ -1,0 +1,218 @@
+{
+  "generatedAt": "2026-08-24T11:12:40.836Z",
+  "standard": "PROJECT_LANGUAGE_MASTER_STANDARD v1.11",
+  "mode": "READ-ONLY_FULL_MODULE_VERIFICATION",
+  "mainBefore": "571124878bb889e5353d84bc5118806976670c31",
+  "mergeCommit": "2f4d62089a66b0d101a34cd72d3fdffea2763e93",
+  "mainAfter": "2f4d62089a66b0d101a34cd72d3fdffea2763e93",
+  "etKurssProductionBlob": "01ccd6882675d755cbea21613528d9eead46425f",
+  "masterVersion": "1.11",
+  "verdict": "ET_KURSS_V111_FULL_MODULE_PASS",
+  "finalClosureVerdict": "ET_KURSS_FINAL_CLOSED_ON_MAIN",
+  "precondition": {
+    "pr643Merged": true,
+    "mergeMessage": "2f4d6208 Merge pull request #643 from sandrisbrikmanis-rgb/cursor/et-de-kurss-v111-full-audit-4a7c",
+    "requestedLabot": 37,
+    "appliedVerified": 37,
+    "currentValueMismatch": 0,
+    "repairsPresentOnMain": true,
+    "pass": true
+  },
+  "inventory": {
+    "entries": [
+      {
+        "id": "A_HAALDUS",
+        "label": "Hääldus",
+        "keys": [
+          "kurssPronunciationLesson",
+          "kurssConsonantsLesson"
+        ],
+        "paths": [
+          "data/et/courseLessons.js → COURSE_LESSON_HTML"
+        ],
+        "mapped": true
+      },
+      {
+        "id": "B_ARTIKLID",
+        "label": "Artiklid",
+        "keys": [
+          "kurssArticlesLesson"
+        ],
+        "paths": [
+          "data/et/courseLessons.js → COURSE_LESSON_HTML.kurssArticlesLesson"
+        ],
+        "mapped": true
+      },
+      {
+        "id": "C_ASESÕNAD",
+        "label": "Asesõnad",
+        "keys": [
+          "kurssPronounsLesson"
+        ],
+        "paths": [
+          "data/et/courseLessons.js → COURSE_LESSON_HTML.kurssPronounsLesson"
+        ],
+        "mapped": true
+      },
+      {
+        "id": "D_OPPETUNNID",
+        "label": "Õppetunnid L1–L21",
+        "keys": [
+          "kurssLesson1",
+          "kurssLesson2",
+          "kurssLesson3",
+          "kurssLesson4",
+          "kurssLesson5",
+          "kurssLesson6",
+          "kurssLesson7",
+          "kurssLesson8",
+          "kurssLesson9",
+          "kurssLesson10",
+          "kurssLesson11",
+          "kurssLesson12",
+          "kurssLesson13",
+          "kurssLesson14",
+          "kurssLesson15",
+          "kurssLesson16",
+          "kurssLesson17",
+          "kurssLesson18",
+          "kurssLesson19",
+          "kurssLesson20",
+          "kurssLesson21"
+        ],
+        "paths": [
+          "data/et/courseLessons.js → COURSE_LESSON_DATA + COURSE_LESSON_HTML"
+        ],
+        "mapped": true
+      },
+      {
+        "id": "E_TEGUSONADE_ALUSED",
+        "label": "Tegusõnade alused",
+        "keys": [
+          "kurssVerbBasicsLesson"
+        ],
+        "paths": [
+          "data/et/courseLessons.js → COURSE_LESSON_HTML.kurssVerbBasicsLesson"
+        ],
+        "mapped": true
+      },
+      {
+        "id": "F_LAUSE_YLESEHITUS",
+        "label": "Lause ülesehitus",
+        "keys": [
+          "kurssSentenceStructureLesson"
+        ],
+        "paths": [
+          "data/et/courseLessons.js → COURSE_LESSON_HTML.kurssSentenceStructureLesson"
+        ],
+        "mapped": true
+      },
+      {
+        "id": "G_KURSS_UI",
+        "label": "Kurss landing/menu UI",
+        "keys": [
+          "kurss"
+        ],
+        "paths": [
+          "languages/et/ui.js → LANGUAGE_UI_STRINGS.kurss",
+          "index.html → #kurssPanel"
+        ],
+        "mapped": true
+      },
+      {
+        "id": "H_KURSS_I18N",
+        "label": "Kurss-specific i18n",
+        "keys": [],
+        "paths": [
+          "languages/et/ui.js",
+          "ui.js → refreshAppLanguageUi / openKurss"
+        ],
+        "mapped": true
+      },
+      {
+        "id": "I_RENDERER",
+        "label": "Shared Kurss renderer",
+        "keys": [],
+        "paths": [
+          "ui.js → initStaticCourseLessons, renderCourse*Card, getCourseTranslateCards"
+        ],
+        "mapped": true
+      },
+      {
+        "id": "J_L1_L7_TRAINING",
+        "label": "L1–L7 translate/exercise decks",
+        "keys": [
+          "lesson1TrainingCardsEt",
+          "lesson2TrainingCardsEt",
+          "lesson3TrainingCardsEt",
+          "lesson4TrainingCardsEt",
+          "lesson5TrainingCardsEt",
+          "lesson6TrainingCardsEt",
+          "lesson7ExerciseCardsEt"
+        ],
+        "paths": [
+          "ui.js → lessonNTrainingCardsEt / lesson7ExerciseCardsEt"
+        ],
+        "mapped": true
+      },
+      {
+        "id": "K_LOADER",
+        "label": "Data loader / manifest",
+        "keys": [],
+        "paths": [
+          "languages/et/data/manifest.js",
+          "languages/data-loader.js"
+        ],
+        "mapped": true
+      }
+    ],
+    "totalSources": 12,
+    "kurssModuleSourceInventory": "100%",
+    "unmappedKurssLearnerSource": 0,
+    "inventoryComplete": true
+  },
+  "kurssModuleSourceInventory": "100%",
+  "unmappedKurssLearnerSource": 0,
+  "deterministicScopeCoverage": 100,
+  "deterministicDiscoveryCompleteness": 100,
+  "foreignLanguageResidual": 0,
+  "emptyRequiredLocalizedFields": 0,
+  "placeholders": 0,
+  "mojibake": 0,
+  "multiTranslation": {
+    "ordinaryFlashcardScope": "362/362",
+    "ordinaryFlashcardCount": 362,
+    "multiTranslationScanCoverage": "100%",
+    "multipleTranslationCandidatesRaw": 0,
+    "multipleTranslationValidatedReal": 0,
+    "multipleTranslationOwnerUnresolved": 0,
+    "ordinaryFlashcardTranslationCountViolations": 0,
+    "ownerAutomaticSelection": 0,
+    "candidatesRaw": [],
+    "validatedReal": []
+  },
+  "structural": {
+    "MIRROR": "PASS",
+    "SYNTAX": "PASS",
+    "STRUCTURE": "PASS",
+    "ID_ORDER": "PASS",
+    "VALIDATE_KURSS": "PASS",
+    "DE_CHANGES": 0,
+    "LV_BEHAVIOR_UNCHANGED": "PASS"
+  },
+  "unexpectedProductionChanges": 0,
+  "unexpectedFiles": [],
+  "runtime": {
+    "KURSS_FULL_MODULE_RUNTIME_SMOKE": "PASS",
+    "KURSS_L1_L21_RENDER_SCOPE": "PASS",
+    "KURSS_DYNAMIC_EXERCISE": "PASS",
+    "KURSS_DYNAMIC_TRANSLATE": "PASS",
+    "KURSS_FIRST_CARD_INITIALIZATION": "PASS",
+    "KURSS_PROGRESS": "PASS",
+    "KURSS_FLIP": "PASS",
+    "KURSS_NEXT": "PASS",
+    "staticSectionsPass": true
+  },
+  "ownerBacklog": 0,
+  "ownerFindings": []
+}
