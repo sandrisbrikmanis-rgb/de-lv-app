@@ -3,1483 +3,1627 @@ const C2_WORDS = [
     "de": "Unvoreingenommenheit",
     "de_article": "die",
     "de_plural": "die Unvoreingenommenheiten",
-    "lv": "Объективность • Нейтральность",
+    "lv": "объективность • нейтральность",
     "level": "C2"
   },
   {
     "de": "konterkarieren",
-    "lv": "Нарушить",
+    "lv": "срывать • сорвать",
     "level": "C2"
   },
   {
     "de": "Stichhaltigkeit",
     "de_article": "die",
     "de_plural": "die Stichhaltigkeiten",
-    "lv": "Разумность",
+    "lv": "обоснованность",
     "level": "C2"
   },
   {
     "de": "unmissverständlich",
-    "lv": "Безошибочный",
+    "lv": "недвусмысленный",
     "level": "C2"
   },
   {
     "de": "Wechselwirkung",
     "de_article": "die",
     "de_plural": "die Wechselwirkungen",
-    "lv": "Взаимодействие",
+    "lv": "взаимодействие",
     "level": "C2"
   },
   {
     "de": "veranschaulichen",
-    "lv": "Показать наглядно",
+    "lv": "наглядно показывать • наглядно показать",
     "level": "C2"
   },
   {
     "de": "Schlussfolgerung",
     "de_article": "die",
     "de_plural": "die Schlussfolgerungen",
-    "lv": "Заключение",
+    "lv": "вывод",
     "level": "C2"
   },
   {
     "de": "Sorgfaltspflicht",
     "de_article": "die",
-    "lv": "Обязанность заботиться",
+    "lv": "обязанность проявлять осмотрительность",
     "level": "C2"
   },
   {
     "de": "Anfangsbuchstabe",
     "de_article": "der",
     "de_plural": "die Anfangsbuchstaben",
-    "lv": "Начальная буква",
+    "lv": "начальная буква",
     "level": "C2"
   },
   {
     "de": "Anführungszeichen",
     "de_article": "das",
     "de_plural": "die Anführungszeichen",
-    "lv": "Кавычки",
+    "lv": "кавычка",
     "level": "C2"
   },
   {
     "de": "Abschlussprüfung",
     "de_article": "die",
     "de_plural": "die Abschlussprüfungen",
-    "lv": "Выпускной экзамен",
+    "lv": "итоговый экзамен",
     "level": "C2"
   },
   {
     "de": "Arbeitserlaubnis",
     "de_article": "die",
     "de_plural": "die Arbeitserlaubnisse",
-    "lv": "Разрешение на работу",
+    "lv": "разрешение на работу",
     "level": "C2"
   },
   {
     "de": "Teilnehmerausweis",
     "de_article": "der",
     "de_plural": "die Teilnehmerausweise",
-    "lv": "Членский билет",
+    "lv": "удостоверение участника",
     "level": "C2"
   },
   {
     "de": "batteriebetrieben",
-    "lv": "На батарейках",
+    "lv": "работающий от батареи",
     "level": "C2"
   },
   {
     "de": "beaufsichtigen",
-    "lv": "Монитор",
+    "lv": "надзирать • присматривать • присмотреть",
     "level": "C2"
   },
   {
     "de": "Lebensbedingungen",
     "de_article": "die",
     "de_plural": "die Lebensbedingungen",
-    "lv": "Условия жизни",
+    "lv": "условия жизни",
     "level": "C2"
   },
   {
     "de": "Behandlungsraum",
     "de_article": "der",
     "de_plural": "die Behandlungsräume",
-    "lv": "Кабинет врача",
+    "lv": "кабинет врача",
     "level": "C2"
   },
   {
     "de": "beispielsweise",
-    "lv": "Например",
+    "lv": "например",
     "level": "C2"
   },
   {
     "de": "Mitgliedsbeitrag",
     "de_article": "der",
     "de_plural": "die Mitgliedsbeiträge",
-    "lv": "Членский взнос",
+    "lv": "членский взнос",
     "level": "C2"
   },
   {
     "de": "benachrichtigen",
-    "lv": "Объявить",
+    "lv": "уведомлять • уведомить",
     "level": "C2"
   },
   {
     "de": "Benzingutschein",
     "de_article": "der",
     "de_plural": "die Benzingutscheine",
-    "lv": "Купон на бензин",
+    "lv": "талон на бензин",
     "level": "C2"
   },
   {
     "de": "Benzinkanister",
     "de_article": "der",
     "de_plural": "die Benzinkanister",
-    "lv": "Бензин может",
+    "lv": "канистра для бензина",
     "level": "C2"
   },
   {
     "de": "Benzinverbrauch",
     "de_article": "der",
     "de_plural": "die Benzinverbräuche",
-    "lv": "Расход бензина",
+    "lv": "расход бензина",
     "level": "C2"
   },
   {
     "de": "Bequemlichkeit",
     "de_article": "die",
     "de_plural": "die Bequemlichkeiten",
-    "lv": "Удобство",
+    "lv": "удобство",
     "level": "C2"
   },
   {
     "de": "berücksichtigen",
-    "lv": "Принять во внимание",
+    "lv": "учитывать • учесть",
     "level": "C2"
   },
   {
     "de": "Berufsausbildung",
     "de_article": "die",
     "de_plural": "die Berufsausbildungen",
-    "lv": "Профессиональное образование",
+    "lv": "профессиональное образование",
     "level": "C2"
   },
   {
     "de": "Tintenstrahldrucker",
     "de_article": "der",
     "de_plural": "die Tintenstrahldrucker",
-    "lv": "Струйный принтер",
+    "lv": "струйный принтер",
     "level": "C2"
   },
   {
     "de": "Gewichtseinheit",
     "de_article": "die",
     "de_plural": "die Gewichtseinheiten",
-    "lv": "Единица веса",
+    "lv": "единица веса",
     "level": "C2",
     "study": {
       "id": "c2-gewichtseinheit",
       "layout": "standardStudy",
-      "translation": "Единица веса",
-      "explanation": "Основная идея: die Gewichtseinheit означает единица веса. Его используют, когда говорят о килограммах, граммах, тоннах и других единицах веса/массы.",
+      "translation": "единица веса",
+      "explanation": [
+        "Слово die Gewichtseinheit обозначает единицу веса, которая используется для измерения веса: грамм, килограмм, тонна, фунт.",
+        "Сложное существительное женского рода: die Gewichtseinheit, множественное число die Gewichtseinheiten. Состоит из das Gewicht (вес) и die Einheit (единица).",
+        "Это сложное слово техническое и нейтральное; в повседневной речи используют названия конкретных единиц (Kilogramm, Gramm, Pfund)."
+      ],
       "examples": [
         {
-          "de": "Kilogramm ist eine Gewichtseinheit.",
-          "lv": "Килограмм – единица веса."
+          "de": "Das Kilogramm ist eine Gewichtseinheit.",
+          "lv": "Килограмм — это единица веса."
         },
         {
-          "de": "Welche Gewichtseinheit soll ich benutzen?",
-          "lv": "Какую единицу веса мне следует использовать?"
+          "de": "Das Pfund ist eine alte Gewichtseinheit.",
+          "lv": "Фунт — старинная единица веса."
         },
         {
-          "de": "Gramm und Tonne sind Gewichtseinheiten.",
-          "lv": "Грамм и тонна - единицы веса."
+          "de": "Welche Gewichtseinheit wird in Deutschland verwendet?",
+          "lv": "Какая единица веса используется в Германии?"
         }
-      ]
+      ],
+      "comparison": [
+        {
+          "word": "die Maßeinheit",
+          "meaning": "единица измерения",
+          "example": "Der Meter ist eine Maßeinheit. – Метр — это единица измерения."
+        },
+        {
+          "word": "die Längeneinheit",
+          "meaning": "единица длины",
+          "example": "Der Kilometer ist eine Längeneinheit. – Километр — это единица длины."
+        },
+        {
+          "word": "das Gewicht",
+          "meaning": "вес",
+          "example": "Das Gewicht beträgt zwei Kilo. – Вес составляет два килограмма."
+        }
+      ],
+      "tip": [
+        "У сложного слова артикль определяется последней частью: die Einheit, значит, die Gewichtseinheit.",
+        "Похожим образом образуются: Längeneinheit, Zeiteinheit, Volumeneinheit."
+      ],
+      "important": [
+        "В быту слово Gewicht часто обозначает массу, но в физике вес и масса — разные понятия."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "die Gewichtseinheit",
+            "die Gewichtseinheiten",
+            "Gewichtseinheit",
+            "das Gewicht",
+            "die Einheit",
+            "Gewichtseinheiten"
+          ],
+          "purple": [
+            "единицу веса",
+            "единица"
+          ],
+          "green": [
+            "Gewicht"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Gewichtseinheit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "единица веса"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Gewichtseinheit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "единица веса"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Gewichtseinheit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "единица веса"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "die Maßeinheit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "единица измерения"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Längeneinheit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "длины"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "das Gewicht"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "вес"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "Gewichtseinheit",
+              "die Gewichtseinheit",
+              "die Einheit"
+            ]
+          },
+          {
+            "green": [
+              "Längeneinheit"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "green": [
+              "Gewicht"
+            ]
+          }
+        ]
+      }
     }
   },
   {
     "de": "Elementarkenntnisse",
     "de_article": "die",
-    "lv": "Базовые знания",
+    "lv": "базовые знания",
     "level": "C2"
   },
   {
     "de": "entgegenkommen",
-    "lv": "Встретить",
+    "lv": "идти навстречу • пойти навстречу",
     "level": "C2"
   },
   {
     "de": "Gebrauchtwagen",
     "de_article": "der",
     "de_plural": "die Gebrauchtwagen",
-    "lv": "Подержанный автомобиль",
+    "lv": "подержанный автомобиль",
     "level": "C2"
   },
   {
     "de": "Geburtsurkunde",
     "de_article": "die",
     "de_plural": "die Geburtsurkunden",
-    "lv": "Свидетельство о рождении",
+    "lv": "свидетельство о рождении",
     "level": "C2"
   },
   {
     "de": "Gehaltsabrechnung",
     "de_article": "die",
     "de_plural": "die Gehaltsabrechnungen",
-    "lv": "Расчет зарплаты",
+    "lv": "расчёт заработной платы",
     "level": "C2"
   },
   {
     "de": "Gehaltserhöhung",
     "de_article": "die",
     "de_plural": "die Gehaltserhöhungen",
-    "lv": "Повышение зарплаты",
+    "lv": "повышение заработной платы",
     "level": "C2"
   },
   {
     "de": "Gehirnerschütterung",
     "de_article": "die",
     "de_plural": "die Gehirnerschütterungen",
-    "lv": "Сотрясение",
+    "lv": "сотрясение мозга",
     "level": "C2"
   },
   {
     "de": "Gepäckaufbewahrung",
     "de_article": "die",
     "de_plural": "die Gepäckaufbewahrungen",
-    "lv": "Камера хранения багажа",
+    "lv": "камера хранения",
     "level": "C2"
   },
   {
     "de": "Geschäftsführer",
     "de_article": "der",
     "de_plural": "die Geschäftsführer",
-    "lv": "Менеджер компании",
+    "lv": "руководитель предприятия",
     "level": "C2"
   },
   {
     "de": "Geschäftspartner",
     "de_article": "der",
     "de_plural": "die Geschäftspartner",
-    "lv": "Деловой партнер",
+    "lv": "деловой партнёр",
     "level": "C2"
   },
   {
     "de": "Geschenkgutschein",
     "de_article": "der",
     "de_plural": "die Geschenkgutscheine",
-    "lv": "Подарочная карта",
+    "lv": "подарочная карта",
     "level": "C2"
   },
   {
     "de": "Geschenkpackung",
     "de_article": "die",
     "de_plural": "die Geschenkpackungen",
-    "lv": "Подарочная упаковка",
+    "lv": "подарочная упаковка",
     "level": "C2"
   },
   {
     "de": "Gleichheitszeichen",
     "de_article": "das",
     "de_plural": "die Gleichheitszeichen",
-    "lv": "Знак равенства",
+    "lv": "знак равенства",
     "level": "C2"
   },
   {
     "de": "Inhaltsverzeichnis",
     "de_article": "das",
     "de_plural": "die Inhaltsverzeichnisse",
-    "lv": "Оглавление",
+    "lv": "оглавление",
     "level": "C2"
   },
   {
     "de": "Streichinstrument",
     "de_article": "das",
     "de_plural": "die Streichinstrumente",
-    "lv": "Струнный инструмент",
+    "lv": "смычковый струнный инструмент",
     "level": "C2"
   },
   {
     "de": "Kassettenrecorder",
     "de_article": "der",
     "de_plural": "die Kassettenrecorder",
-    "lv": "Кассетный магнитофон",
+    "lv": "кассетный магнитофон",
     "level": "C2"
   },
   {
     "de": "Katastrophendienst",
     "de_article": "der",
-    "lv": "Служба стихийных бедствий",
+    "lv": "служба помощи при катастрофах",
     "level": "C2"
   },
   {
     "de": "Kostenerstattung",
     "de_article": "die",
     "de_plural": "die Kostenerstattungen",
-    "lv": "Возмещение затрат",
+    "lv": "возмещение расходов",
     "level": "C2"
   },
   {
     "de": "Kostensteigerung",
     "de_article": "die",
     "de_plural": "die Kostensteigerungen",
-    "lv": "Увеличение затрат",
+    "lv": "рост расходов",
     "level": "C2"
   },
   {
     "de": "Krankenversicherung",
     "de_article": "die",
     "de_plural": "die Krankenversicherungen",
-    "lv": "Страховка на случай болезни",
+    "lv": "медицинское страхование",
     "level": "C2"
   },
   {
     "de": "Krankheitssymptom",
     "de_article": "das",
     "de_plural": "die Krankheitssymptome",
-    "lv": "Симптом болезни",
+    "lv": "симптом болезни",
     "level": "C2"
   },
   {
     "de": "Krankheitsüberträger",
     "de_article": "der",
     "de_plural": "die Krankheitsüberträger",
-    "lv": "Носитель болезни",
+    "lv": "переносчик болезни",
     "level": "C2"
   },
   {
     "de": "Liebenswürdigkeit",
     "de_article": "die",
     "de_plural": "die Liebenswürdigkeiten",
-    "lv": "Доброта",
+    "lv": "любезность",
     "level": "C2"
   },
   {
     "de": "Luftverschmutzung",
     "de_article": "die",
     "de_plural": "die Luftverschmutzungen",
-    "lv": "Загрязнение воздуха",
+    "lv": "загрязнение воздуха",
     "level": "C2"
   },
   {
     "de": "Lungenentzündung",
     "de_article": "die",
     "de_plural": "die Lungenentzündungen",
-    "lv": "Рак легких",
+    "lv": "воспаление лёгких",
     "level": "C2"
   },
   {
     "de": "Nebelscheinwerfer",
     "de_article": "der",
     "de_plural": "die Nebelscheinwerfer",
-    "lv": "Противотуманные фары для автомобилей",
+    "lv": "противотуманная фара",
     "level": "C2"
   },
   {
     "de": "Personenkraftwagen",
     "de_article": "der",
     "de_plural": "die Personenkraftwagen",
-    "lv": "Легковой автомобиль",
+    "lv": "легковой автомобиль",
     "level": "C2"
   },
   {
     "de": "Reisebeschreibung",
     "de_article": "die",
     "de_plural": "die Reisebeschreibungen",
-    "lv": "Описание путешествия",
+    "lv": "описание путешествия",
     "level": "C2"
   },
   {
     "de": "Reparaturwerkstatt",
     "de_article": "die",
     "de_plural": "die Reparaturwerkstätten",
-    "lv": "Ремонтная мастерская",
+    "lv": "ремонтная мастерская",
     "level": "C2"
   },
   {
     "de": "Rundfunkempfänger",
     "de_article": "der",
     "de_plural": "die Rundfunkempfänger",
-    "lv": "Радиоприемник",
+    "lv": "радиоприёмник",
     "level": "C2"
   },
   {
     "de": "Schlafwagenzimmer",
     "de_article": "das",
     "de_plural": "die Schlafwagenzimmer",
-    "lv": "Спальня",
+    "lv": "купе спального вагона",
     "level": "C2"
   },
   {
     "de": "Schlittschuhkufe",
     "de_article": "die",
     "de_plural": "die Schlittschuhkufen",
-    "lv": "Наклон саней",
+    "lv": "лезвие конька",
     "level": "C2"
   },
   {
     "de": "Schornsteinfeger",
     "de_article": "der",
     "de_plural": "die Schornsteinfeger",
-    "lv": "Трубочист",
+    "lv": "трубочист",
     "level": "C2"
   },
   {
     "de": "selbstverständlich",
-    "lv": "Самоочевидный",
+    "lv": "само собой разумеющийся",
     "level": "C2"
   },
   {
     "de": "sicherheitshalber",
-    "lv": "Для безопасности",
+    "lv": "для безопасности • на всякий случай",
     "level": "C2"
   },
   {
     "de": "Sozialversicherung",
     "de_article": "die",
     "de_plural": "die Sozialversicherungen",
-    "lv": "Социальное страхование",
+    "lv": "социальное страхование",
     "level": "C2"
   },
   {
     "de": "Straßenbahnführer",
     "de_article": "der",
     "de_plural": "die Straßenbahnführer",
-    "lv": "Водитель трамвая",
+    "lv": "водитель трамвая",
     "level": "C2"
   },
   {
     "de": "Straßenbahnstrecke",
     "de_article": "die",
     "de_plural": "die Straßenbahnstrecken",
-    "lv": "Трамвайная линия",
+    "lv": "трамвайная линия",
     "level": "C2"
   },
   {
     "de": "Straßenüberführung",
     "de_article": "die",
     "de_plural": "die Straßenüberführungen",
-    "lv": "Дорожный путепровод",
+    "lv": "путепровод",
     "level": "C2"
   },
   {
     "de": "Straßenunterführung",
     "de_article": "die",
     "de_plural": "die Straßenunterführungen",
-    "lv": "Пешеходный туннель",
+    "lv": "подземный переход",
     "level": "C2"
   },
   {
     "de": "verantwortlich",
-    "lv": "Ответственный",
+    "lv": "ответственный",
     "level": "C2"
   },
   {
     "de": "Verkehrsunfall",
     "de_article": "der",
     "de_plural": "die Verkehrsunfälle",
-    "lv": "Дорожно-транспортное происшествие",
+    "lv": "дорожно-транспортное происшествие",
     "level": "C2"
   },
   {
     "de": "veröffentlichen",
-    "lv": "Публиковать",
+    "lv": "публиковать • опубликовать",
     "level": "C2"
   },
   {
     "de": "verschlechtern",
-    "lv": "Ухудшаться",
+    "lv": "ухудшать • ухудшить",
     "level": "C2"
   },
   {
     "de": "sich verschlechtern",
-    "lv": "Становиться хуже",
+    "lv": "ухудшаться • ухудшиться",
     "level": "C2"
   },
   {
     "de": "Vorstellungsgespräch",
     "de_article": "das",
     "de_plural": "die Vorstellungsgespräche",
-    "lv": "Собеседование",
+    "lv": "собеседование",
     "level": "C2"
   },
   {
     "de": "Wettervorhersage",
     "de_article": "die",
     "de_plural": "die Wettervorhersagen",
-    "lv": "Прогноз погоды",
+    "lv": "прогноз погоды",
     "level": "C2"
   },
   {
     "de": "Windschutzscheibe",
     "de_article": "die",
     "de_plural": "die Windschutzscheiben",
-    "lv": "Лобовое стекло автомобиля",
+    "lv": "лобовое стекло",
     "level": "C2"
   },
   {
     "de": "Sehenswürdigkeit",
     "de_article": "die",
     "de_plural": "die Sehenswürdigkeiten",
-    "lv": "Видное место",
+    "lv": "достопримечательность",
     "level": "C2"
   },
   {
     "de": "Abenteuergeschichte",
     "de_article": "die",
     "de_plural": "die Abenteuergeschichten",
-    "lv": "История романа",
+    "lv": "приключенческий рассказ",
     "level": "C2"
   },
   {
     "de": "Abgeordnetenhaus",
     "de_article": "das",
     "de_plural": "die Abgeordnetenhäuser",
-    "lv": "Парламент",
+    "lv": "парламент",
     "level": "C2"
   },
   {
     "de": "Aufenthaltsgenehmigung",
     "de_article": "die",
     "de_plural": "die Aufenthaltsgenehmigungen",
-    "lv": "Вид на жительство",
+    "lv": "разрешение на пребывание",
     "level": "C2"
   },
   {
     "de": "Gedankenaustausch",
     "de_article": "der",
     "de_plural": "die Gedankenaustausche",
-    "lv": "Обмен идеями",
+    "lv": "обмен мнениями",
     "level": "C2"
   },
   {
     "de": "Behindertenausweis",
     "de_article": "der",
     "de_plural": "die Behindertenausweise",
-    "lv": "Свидетельство об инвалидности",
+    "lv": "удостоверение инвалида",
     "level": "C2"
   },
   {
     "de": "Baugenossenschaft",
     "de_article": "die",
     "de_plural": "die Baugenossenschaften",
-    "lv": "Кооператив многоквартирного дома",
+    "lv": "жилищно-строительный кооператив",
     "level": "C2"
   },
   {
     "de": "Arbeitslosenbeihilfe",
     "de_article": "die",
     "de_plural": "die Arbeitslosenbeihilfen",
-    "lv": "Пособие по безработице",
+    "lv": "пособие по безработице",
     "level": "C2"
   },
   {
     "de": "Ausbildungsbeihilfe",
     "de_article": "die",
     "de_plural": "die Ausbildungsbeihilfen",
-    "lv": "Пособие за обучение",
+    "lv": "пособие на обучение",
     "level": "C2"
   },
   {
     "de": "Unternehmensberater",
     "de_article": "der",
     "de_plural": "die Unternehmensberater",
-    "lv": "Консультант компании",
+    "lv": "бизнес-консультант",
     "level": "C2"
   },
   {
     "de": "Berichterstatter",
     "de_article": "der",
     "de_plural": "die Berichterstatter",
-    "lv": "Репортер • Репортер • Корреспондент • Репортер",
+    "lv": "докладчик • корреспондент • репортёр",
     "level": "C2"
   },
   {
     "de": "Berufsbezeichnung",
     "de_article": "die",
     "de_plural": "die Berufsbezeichnungen",
-    "lv": "Должность",
+    "lv": "название должности",
     "level": "C2"
   },
   {
     "de": "Besatzungsregime",
     "de_article": "das",
     "de_plural": "die Besatzungsregime",
-    "lv": "Оккупационный режим",
+    "lv": "оккупационный режим",
     "level": "C2"
   },
   {
     "de": "Besatzungstruppen",
     "de_article": "die",
     "de_plural": "die Besatzungstruppen",
-    "lv": "Оккупационные войска",
+    "lv": "оккупационные войска",
     "level": "C2"
   },
   {
     "de": "Bevölkerungsdichte",
     "de_article": "die",
     "de_plural": "die Bevölkerungsdichten",
-    "lv": "Плотность населения",
+    "lv": "плотность населения",
     "level": "C2"
   },
   {
     "de": "Bildberichterstatter",
     "de_article": "der",
     "de_plural": "die Bildberichterstatter",
-    "lv": "Фотокорреспондент",
+    "lv": "фотокорреспондент",
     "level": "C2"
   },
   {
     "de": "Wirtschaftsblock",
     "de_article": "der",
     "de_plural": "die Wirtschaftsblöcke",
-    "lv": "Экономический блок",
+    "lv": "экономический блок",
     "level": "C2"
   },
   {
     "de": "Wirtschaftsblockade",
     "de_article": "die",
     "de_plural": "die Wirtschaftsblockaden",
-    "lv": "Экономическая блокада",
+    "lv": "экономическая блокада",
     "level": "C2"
   },
   {
     "de": "Bluttransfusion",
     "de_article": "die",
     "de_plural": "die Bluttransfusionen",
-    "lv": "Переливание крови",
+    "lv": "переливание крови",
     "level": "C2"
   },
   {
     "de": "Computersimulation",
     "de_article": "die",
     "de_plural": "die Computersimulationen",
-    "lv": "Компьютерное моделирование",
+    "lv": "компьютерное моделирование",
     "level": "C2"
   },
   {
     "de": "Computerwissenschaft",
     "de_article": "die",
     "de_plural": "die Computerwissenschaften",
-    "lv": "Информатика • Информатика",
+    "lv": "компьютерная наука • информатика",
     "level": "C2"
   },
   {
     "de": "Informationsdefizit",
     "de_article": "das",
-    "lv": "Дефицит информации",
+    "lv": "дефицит информации",
     "level": "C2"
   },
   {
     "de": "Sittlichkeitsdelikt",
     "de_article": "das",
     "de_plural": "die Sittlichkeitsdelikte",
-    "lv": "Нарушение моральных норм",
+    "lv": "нарушение норм нравственности",
     "level": "C2"
   },
   {
     "de": "Rauschgiftdezernat",
     "de_article": "das",
     "de_plural": "die Rauschgiftdezernate",
-    "lv": "Отдел по борьбе с наркотиками",
+    "lv": "отдел борьбы с наркотиками",
     "level": "C2"
   },
   {
     "de": "Dialektik",
     "de_article": "die",
     "de_plural": "die Dialektiken",
-    "lv": "Диалектика",
+    "lv": "диалектика",
     "level": "C2"
   },
   {
     "de": "Bereitschaftsdienst",
     "de_article": "der",
     "de_plural": "die Bereitschaftsdienste",
-    "lv": "Оперативная служба",
+    "lv": "дежурная служба",
     "level": "C2"
   },
   {
     "de": "Durchfuhrerlaubnis",
     "de_article": "die",
     "de_plural": "die Durchfuhrerlaubnisse",
-    "lv": "Разрешение на транзит",
+    "lv": "разрешение на транзит",
     "level": "C2"
   },
   {
     "de": "durchkreuzen",
-    "lv": "Вычеркнуть • Перекрестить • Перечеркнуть • Нарушить",
+    "lv": "зачёркивать • зачеркнуть • срывать • сорвать",
     "level": "C2"
   },
   {
     "de": "Durchschnittsalter",
     "de_article": "das",
     "de_plural": "die Durchschnittsalter",
-    "lv": "Средний возраст",
+    "lv": "средний возраст",
     "level": "C2"
   },
   {
     "de": "Durchschnittsverdienst",
     "de_article": "der",
     "de_plural": "die Durchschnittsverdienste",
-    "lv": "Средний заработок",
+    "lv": "средний заработок",
     "level": "C2"
   },
   {
     "de": "Durchschnittsleistung",
     "de_article": "die",
     "de_plural": "die Durchschnittsleistungen",
-    "lv": "Средняя производительность • Средняя производительность",
+    "lv": "посредственный результат • средний результат",
     "level": "C2"
   },
   {
     "de": "Durchschnittsmensch",
     "de_article": "der",
     "de_plural": "die Durchschnittsmenschen",
-    "lv": "Средний человек",
+    "lv": "средний человек",
     "level": "C2"
   },
   {
     "de": "Einfuhrbeschränkung",
     "de_article": "die",
     "de_plural": "die Einfuhrbeschränkungen",
-    "lv": "Ограничение импорта",
+    "lv": "ограничение импорта",
     "level": "C2"
   },
   {
     "de": "Einstellungsgespräch",
     "de_article": "das",
     "de_plural": "die Einstellungsgespräche",
-    "lv": "Собеседование",
+    "lv": "собеседование",
     "level": "C2"
   },
   {
     "de": "Empfehlungsschreiben",
     "de_article": "das",
     "de_plural": "die Empfehlungsschreiben",
-    "lv": "Письменная рекомендация",
+    "lv": "рекомендательное письмо",
     "level": "C2"
   },
   {
     "de": "Entbindungsanstalt",
     "de_article": "die",
     "de_plural": "die Entbindungsanstalten",
-    "lv": "Родильный дом",
+    "lv": "родильный дом",
     "level": "C2"
   },
   {
     "de": "entgegengesetzt",
-    "lv": "Наоборот",
+    "lv": "противоположный",
     "level": "C2"
   },
   {
     "de": "Entschlossenheit",
     "de_article": "die",
     "de_plural": "die Entschlossenheiten",
-    "lv": "Уверенность • Решительность • Беспрекословность",
+    "lv": "решительность • решимость • твёрдость",
     "level": "C2"
   },
   {
     "de": "Entwicklungsland",
     "de_article": "das",
     "de_plural": "die Entwicklungsländer",
-    "lv": "Земля развития",
+    "lv": "развивающаяся страна",
     "level": "C2"
   },
   {
     "de": "Erfrischungsraum",
     "de_article": "der",
     "de_plural": "die Erfrischungsräume",
-    "lv": "Буфет",
+    "lv": "буфет",
     "level": "C2"
   },
   {
     "de": "Regierungserklärung",
     "de_article": "die",
     "de_plural": "die Regierungserklärungen",
-    "lv": "Правительственное заявление",
+    "lv": "заявление правительства",
     "level": "C2"
   },
   {
     "de": "Errungenschaft",
     "de_article": "die",
     "de_plural": "die Errungenschaften",
-    "lv": "Достижение • Польза • Выгода",
+    "lv": "достижение • приобретение",
     "level": "C2"
   },
   {
     "de": "Erwachsenenbildung",
     "de_article": "die",
     "de_plural": "die Erwachsenenbildungen",
-    "lv": "Образование для взрослых",
+    "lv": "образование взрослых",
     "level": "C2"
   },
   {
     "de": "Fallschirmspringen",
     "de_article": "das",
-    "lv": "Прыжки с парашютом",
+    "lv": "прыжки с парашютом",
     "level": "C2"
   },
   {
     "de": "Friedensbedingungen",
     "de_article": "die",
     "de_plural": "die Friedensbedingungen",
-    "lv": "Условия мира",
+    "lv": "условия мира",
     "level": "C2"
   },
   {
     "de": "Friedensverhandlungen",
     "de_article": "die",
     "de_plural": "die Friedensverhandlungen",
-    "lv": "Мирные переговоры",
+    "lv": "мирные переговоры",
     "level": "C2"
   },
   {
     "de": "Führereigenschaften",
     "de_article": "die",
     "de_plural": "die Führereigenschaften",
-    "lv": "Лидерские качества",
+    "lv": "лидерские качества",
     "level": "C2"
   },
   {
     "de": "Führerpersönlichkeit",
     "de_article": "die",
     "de_plural": "die Führerpersönlichkeiten",
-    "lv": "Лидерская личность",
+    "lv": "личность лидера",
     "level": "C2"
   },
   {
     "de": "Fußballweltmeisterschaft",
     "de_article": "die",
     "de_plural": "die Fußballweltmeisterschaften",
-    "lv": "Чемпионат мира по футболу",
+    "lv": "чемпионат мира по футболу",
     "level": "C2"
   },
   {
     "de": "Geburtenkontrolle",
     "de_article": "die",
     "de_plural": "die Geburtenkontrollen",
-    "lv": "Контроль над рождаемостью",
+    "lv": "контроль рождаемости",
     "level": "C2"
   },
   {
     "de": "Gedächtnisschwäche",
     "de_article": "die",
     "de_plural": "die Gedächtnisschwächen",
-    "lv": "Плохая память",
+    "lv": "плохая память",
     "level": "C2"
   },
   {
     "de": "Gedächtnisstörung",
     "de_article": "die",
     "de_plural": "die Gedächtnisstörungen",
-    "lv": "Ухудшение памяти",
+    "lv": "нарушение памяти",
     "level": "C2"
   },
   {
     "de": "Gefängnisaufseher",
     "de_article": "der",
     "de_plural": "die Gefängnisaufseher",
-    "lv": "Тюремный надзиратель",
+    "lv": "тюремный надзиратель",
     "level": "C2"
   },
   {
     "de": "Gefängnisinsasse",
     "de_article": "der",
     "de_plural": "die Gefängnisinsassen",
-    "lv": "Заключенный",
+    "lv": "заключённый",
     "level": "C2"
   },
   {
     "de": "Gefäßerweiterung",
     "de_article": "die",
     "de_plural": "die Gefäßerweiterungen",
-    "lv": "Расширение кровеносных сосудов",
+    "lv": "расширение сосудов",
     "level": "C2"
   },
   {
     "de": "Geistesgegenwart",
     "de_article": "die",
-    "lv": "Изобретательность",
+    "lv": "находчивость • присутствие духа",
     "level": "C2"
   },
   {
     "de": "geistige Getränke",
-    "lv": "Алкогольные напитки",
+    "lv": "спиртные напитки",
     "level": "C2"
   },
   {
     "de": "Gelegenheitsarbeiter",
     "de_article": "der",
     "de_plural": "die Gelegenheitsarbeiter",
-    "lv": "Временный рабочий",
+    "lv": "рабочий на случайных заработках",
     "level": "C2"
   },
   {
     "de": "Gemäldeausstellung",
     "de_article": "die",
     "de_plural": "die Gemäldeausstellungen",
-    "lv": "Выставка картин",
+    "lv": "выставка картин",
     "level": "C2"
   },
   {
     "de": "Arbeitsgemeinschaft",
     "de_article": "die",
     "de_plural": "die Arbeitsgemeinschaften",
-    "lv": "Рабочая группа",
+    "lv": "рабочая группа",
     "level": "C2"
   },
   {
     "de": "Dorfgemeinschaft",
     "de_article": "die",
     "de_plural": "die Dorfgemeinschaften",
-    "lv": "Жители деревни",
+    "lv": "жители деревни",
     "level": "C2"
   },
   {
     "de": "Forschungsgemeinschaft",
     "de_article": "die",
     "de_plural": "die Forschungsgemeinschaften",
-    "lv": "Исследовательская группа",
+    "lv": "исследовательская группа",
     "level": "C2"
   },
   {
     "de": "Generalreparatur",
     "de_article": "die",
     "de_plural": "die Generalreparaturen",
-    "lv": "Капитальный ремонт",
+    "lv": "капитальный ремонт",
     "level": "C2"
   },
   {
     "de": "Generalversammlung",
     "de_article": "die",
     "de_plural": "die Generalversammlungen",
-    "lv": "Генеральная ассамблея",
+    "lv": "общее собрание",
     "level": "C2"
   },
   {
     "de": "Genossenschaft",
     "de_article": "die",
     "de_plural": "die Genossenschaften",
-    "lv": "Кооператив • Артель",
+    "lv": "кооператив • артель",
     "level": "C2"
   },
   {
     "de": "Gerechtigkeitsgefühl",
     "de_article": "das",
     "de_plural": "die Gerechtigkeitsgefühle",
-    "lv": "Справедливость • Чувство справедливости",
+    "lv": "чувство справедливости",
     "level": "C2"
   },
   {
     "de": "Schiedsgericht",
     "de_article": "das",
     "de_plural": "die Schiedsgerichte",
-    "lv": "Арбитраж",
+    "lv": "третейский суд",
     "level": "C2"
   },
   {
     "de": "Gerichtsverfahren",
     "de_article": "das",
     "de_plural": "die Gerichtsverfahren",
-    "lv": "Судебное разбирательство",
+    "lv": "судебный процесс",
     "level": "C2"
   },
   {
     "de": "Geschäftsordnung",
     "de_article": "die",
     "de_plural": "die Geschäftsordnungen",
-    "lv": "Регулирование • Правила",
+    "lv": "положение • регламент",
     "level": "C2"
   },
   {
     "de": "Geschlechtsverkehr",
     "de_article": "der",
-    "lv": "Половой акт",
+    "lv": "половой акт",
     "level": "C2"
   },
   {
     "de": "Geschwindigkeitsbegrenzung",
     "de_article": "die",
     "de_plural": "die Geschwindigkeitsbegrenzungen",
-    "lv": "Ограничение скорости",
+    "lv": "ограничение скорости",
     "level": "C2"
   },
   {
     "de": "Geschwindigkeitskontrolle",
     "de_article": "die",
     "de_plural": "die Geschwindigkeitskontrollen",
-    "lv": "Контроль скорости",
+    "lv": "контроль скорости",
     "level": "C2"
   },
   {
     "de": "Geschwindigkeitsmessung",
     "de_article": "die",
     "de_plural": "die Geschwindigkeitsmessungen",
-    "lv": "Измерение скорости",
+    "lv": "измерение скорости",
     "level": "C2"
   },
   {
     "de": "Geschwindigkeitsüberschreitung",
     "de_article": "die",
     "de_plural": "die Geschwindigkeitsüberschreitungen",
-    "lv": "Несоблюдение предписанной скорости • Нарушение",
+    "lv": "превышение скорости",
     "level": "C2"
   },
   {
     "de": "gesellschaftlich",
-    "lv": "Общественные • Общества",
+    "lv": "общественный",
     "level": "C2"
   },
   {
     "de": "Gesellschaftsordnung",
     "de_article": "die",
     "de_plural": "die Gesellschaftsordnungen",
-    "lv": "Общественное учреждение",
+    "lv": "общественный строй",
     "level": "C2"
   },
   {
     "de": "Gesetzesvorlage",
     "de_article": "die",
     "de_plural": "die Gesetzesvorlagen",
-    "lv": "Счет",
+    "lv": "законопроект",
     "level": "C2"
   },
   {
     "de": "gesetzgebende Gewalt",
     "de_article": "die",
     "de_plural": "die gesetzgebenden Gewalten",
-    "lv": "Законодательная власть",
+    "lv": "законодательная власть",
     "level": "C2"
   },
   {
     "de": "Gewerkschaftsbeitrag",
     "de_article": "der",
     "de_plural": "die Gewerkschaftsbeiträge",
-    "lv": "Членские взносы в профсоюз",
+    "lv": "профсоюзный взнос",
     "level": "C2"
   },
   {
     "de": "Gewerkschaftsmitglied",
     "de_article": "das",
     "de_plural": "die Gewerkschaftsmitglieder",
-    "lv": "Член профсоюза",
+    "lv": "член профсоюза",
     "level": "C2"
   },
   {
     "de": "Gewinnauszahlung",
     "de_article": "die",
     "de_plural": "die Gewinnauszahlungen",
-    "lv": "Выплата выигрыша в лотерею",
+    "lv": "выплата лотерейного выигрыша",
     "level": "C2"
   },
   {
     "de": "Gipfelkonferenz",
     "de_article": "die",
     "de_plural": "die Gipfelkonferenzen",
-    "lv": "Конференция на высшем уровне",
+    "lv": "конференция на высшем уровне",
     "level": "C2"
   },
   {
     "de": "Gleichberechtigung",
     "de_article": "die",
     "de_plural": "die Gleichberechtigungen",
-    "lv": "Равенство",
+    "lv": "равноправие",
     "level": "C2"
   },
   {
     "de": "Grundnahrungsmittel",
     "de_article": "das",
     "de_plural": "die Grundnahrungsmittel",
-    "lv": "Основные продукты питания",
+    "lv": "основной продукт питания",
     "level": "C2"
   },
   {
     "de": "Handelsabkommen",
     "de_article": "das",
     "de_plural": "die Handelsabkommen",
-    "lv": "Торговое соглашение",
+    "lv": "торговое соглашение",
     "level": "C2"
   },
   {
     "de": "Hausgemeinschaft",
     "de_article": "die",
     "de_plural": "die Hausgemeinschaften",
-    "lv": "Члены семьи • Жители дома",
+    "lv": "члены семьи • жильцы дома",
     "level": "C2"
   },
   {
     "de": "Haushaltsausschuss",
     "de_article": "der",
     "de_plural": "die Haushaltsausschüsse",
-    "lv": "Бюджетная комиссия",
+    "lv": "бюджетная комиссия",
     "level": "C2"
   },
   {
     "de": "Herztransplantation",
     "de_article": "die",
     "de_plural": "die Herztransplantationen",
-    "lv": "Пересадка сердца",
+    "lv": "пересадка сердца",
     "level": "C2"
   },
   {
     "de": "Hinterlassenschaft",
     "de_article": "die",
     "de_plural": "die Hinterlassenschaften",
-    "lv": "Наследование",
+    "lv": "наследство",
     "level": "C2"
   },
   {
     "de": "Kabinettsbeschluss",
     "de_article": "der",
     "de_plural": "die Kabinettsbeschlüsse",
-    "lv": "Решение кабинета министров",
+    "lv": "решение кабинета",
     "level": "C2"
   },
   {
     "de": "Kabinettsmitglied",
     "de_article": "das",
     "de_plural": "die Kabinettsmitglieder",
-    "lv": "Член кабинета министров • Министр",
+    "lv": "член кабинета • министр",
     "level": "C2"
   },
   {
     "de": "Koalitionspartner",
     "de_article": "der",
     "de_plural": "die Koalitionspartner",
-    "lv": "Партнер по коалиции",
+    "lv": "партнёр по коалиции",
     "level": "C2"
   },
   {
     "de": "Koalitionsregierung",
     "de_article": "die",
     "de_plural": "die Koalitionsregierungen",
-    "lv": "Коалиционное правительство",
+    "lv": "коалиционное правительство",
     "level": "C2"
   },
   {
     "de": "Kriegsentschädigung",
     "de_article": "die",
     "de_plural": "die Kriegsentschädigungen",
-    "lv": "Компенсация военных потерь • Репарации",
+    "lv": "возмещение военного ущерба • репарации",
     "level": "C2"
   },
   {
     "de": "Lebenserhaltungstrieb",
     "de_article": "der",
     "de_plural": "die Lebenserhaltungstriebe",
-    "lv": "Драйв жизни",
+    "lv": "инстинкт сохранения жизни",
     "level": "C2"
   },
   {
     "de": "Lebenshaltungskosten",
     "de_article": "die",
     "de_plural": "die Lebenshaltungskosten",
-    "lv": "Средства к существованию • Расходы",
+    "lv": "стоимость жизни • расходы на жизнь",
     "level": "C2"
   },
   {
     "de": "Lebensversicherung",
     "de_article": "die",
     "de_plural": "die Lebensversicherungen",
-    "lv": "Страхование жизни",
+    "lv": "страхование жизни",
     "level": "C2"
   },
   {
     "de": "Leistungsfähigkeit",
     "de_article": "die",
     "de_plural": "die Leistungsfähigkeiten",
-    "lv": "Работоспособность • Производительность • Мощность",
+    "lv": "работоспособность • производительность • мощность",
     "level": "C2"
   },
   {
     "de": "Mannschaftskampf",
     "de_article": "der",
     "de_plural": "die Mannschaftskämpfe",
-    "lv": "Командное соревнование",
+    "lv": "командные соревнования",
     "level": "C2"
   },
   {
     "de": "Marktwirtschaft",
     "de_article": "die",
     "de_plural": "die Marktwirtschaften",
-    "lv": "Рыночная экономика",
+    "lv": "рыночная экономика",
     "level": "C2"
   },
   {
     "de": "Meinungsverschiedenheiten",
     "de_article": "die",
     "de_plural": "die Meinungsverschiedenheiten",
-    "lv": "Разногласия",
+    "lv": "разногласия",
     "level": "C2"
   },
   {
     "de": "Meisterschaftsspiel",
     "de_article": "das",
     "de_plural": "die Meisterschaftsspiele",
-    "lv": "Раса мастеров",
+    "lv": "матч чемпионата",
     "level": "C2"
   },
   {
     "de": "menschenfreundlich",
-    "lv": "Гуманный • Гуманный",
+    "lv": "гуманный • человечный",
     "level": "C2"
   },
   {
     "de": "Minderheitsregierung",
     "de_article": "die",
     "de_plural": "die Minderheitsregierungen",
-    "lv": "Правительство меньшинства",
+    "lv": "правительство меньшинства",
     "level": "C2"
   },
   {
     "de": "Mutterschaftsurlaub",
     "de_article": "der",
     "de_plural": "die Mutterschaftsurlaube",
-    "lv": "Декретный отпуск",
+    "lv": "отпуск по беременности и родам",
     "level": "C2"
   },
   {
     "de": "Nebenbeschäftigung",
     "de_article": "die",
     "de_plural": "die Nebenbeschäftigungen",
-    "lv": "Подработка",
+    "lv": "побочная работа",
     "level": "C2"
   },
   {
     "de": "Nervenzusammenbruch",
     "de_article": "der",
     "de_plural": "die Nervenzusammenbrüche",
-    "lv": "Нервный срыв",
+    "lv": "нервный срыв",
     "level": "C2"
   },
   {
     "de": "Parlamentarier",
     "de_article": "der",
     "de_plural": "die Parlamentarier",
-    "lv": "Член парламента • Парламентарий",
+    "lv": "депутат парламента • парламентарий",
     "level": "C2"
   },
   {
     "de": "Pflichtversicherung",
     "de_article": "die",
     "de_plural": "die Pflichtversicherungen",
-    "lv": "Обязательное страхование",
+    "lv": "обязательное страхование",
     "level": "C2"
   },
   {
     "de": "politische Ökonomie",
     "de_article": "die",
-    "lv": "Политическая экономия",
+    "lv": "политическая экономия",
     "level": "C2"
   },
   {
     "de": "populärwissenschaftlich",
-    "lv": "Научно-популярная",
+    "lv": "научно-популярный",
     "level": "C2"
   },
   {
     "de": "Preisausschreiben",
     "de_article": "das",
     "de_plural": "die Preisausschreiben",
-    "lv": "Соревнование",
+    "lv": "конкурс",
     "level": "C2"
   },
   {
     "de": "rechtsextremistisch",
-    "lv": "Правый экстремист",
+    "lv": "правоэкстремистский",
     "level": "C2"
   },
   {
     "de": "Satellitenübertragung",
     "de_article": "die",
     "de_plural": "die Satellitenübertragungen",
-    "lv": "Передача спутникового телевидения",
+    "lv": "спутниковая трансляция",
     "level": "C2"
   },
   {
     "de": "Scheidungsprozess",
     "de_article": "der",
     "de_plural": "die Scheidungsprozesse",
-    "lv": "Бракоразводный процесс",
+    "lv": "бракоразводный процесс",
     "level": "C2"
   },
   {
     "de": "Beschwerdeschrift",
     "de_article": "die",
     "de_plural": "die Beschwerdeschriften",
-    "lv": "Жалоба",
+    "lv": "жалоба",
     "level": "C2"
   },
   {
     "de": "Schwangerschaftsabbruch",
     "de_article": "der",
     "de_plural": "die Schwangerschaftsabbrüche",
-    "lv": "Прерывание беременности",
+    "lv": "прерывание беременности",
     "level": "C2"
   },
   {
     "de": "Selbstbestimmungsrecht",
     "de_article": "das",
     "de_plural": "die Selbstbestimmungsrechte",
-    "lv": "Право на самоопределение",
+    "lv": "право на самоопределение",
     "level": "C2"
   },
   {
     "de": "Selbsterhaltungstrieb",
     "de_article": "der",
     "de_plural": "die Selbsterhaltungstriebe",
-    "lv": "Инстинкт самосохранения",
+    "lv": "инстинкт самосохранения",
     "level": "C2"
   },
   {
     "de": "Selbstverteidigung",
     "de_article": "die",
     "de_plural": "die Selbstverteidigungen",
-    "lv": "Комплекс приемов самообороны",
+    "lv": "самооборона",
     "level": "C2"
   },
   {
     "de": "Staatsangehörigkeit",
     "de_article": "die",
     "de_plural": "die Staatsangehörigkeiten",
-    "lv": "Государственность",
+    "lv": "гражданство",
     "level": "C2"
   },
   {
     "de": "Steuererleichterung",
     "de_article": "die",
     "de_plural": "die Steuererleichterungen",
-    "lv": "Налоговые льготы",
+    "lv": "налоговая льгота",
     "level": "C2"
   },
   {
     "de": "Strafgesetzbuch",
     "de_article": "das",
     "de_plural": "die Strafgesetzbücher",
-    "lv": "Уголовный кодекс юр.",
+    "lv": "(юр.) уголовный кодекс",
     "level": "C2"
   },
   {
     "de": "Tochtergesellschaft",
     "de_article": "die",
     "de_plural": "die Tochtergesellschaften",
-    "lv": "Дочерняя компания",
+    "lv": "дочернее предприятие",
     "level": "C2"
   },
   {
     "de": "Vaterschaftsklage",
     "de_article": "die",
     "de_plural": "die Vaterschaftsklagen",
-    "lv": "Иск об установлении отцовства",
+    "lv": "иск об установлении отцовства",
     "level": "C2"
   },
   {
     "de": "verallgemeinern",
-    "lv": "Обобщать",
+    "lv": "обобщать • обобщить",
     "level": "C2"
   },
   {
     "de": "Verhütungsmittel",
     "de_article": "das",
     "de_plural": "die Verhütungsmittel",
-    "lv": "Противозачаточное средство",
+    "lv": "противозачаточное средство",
     "level": "C2"
   },
   {
     "de": "Waffenstillstand",
     "de_article": "der",
     "de_plural": "die Waffenstillstände",
-    "lv": "Перемирие",
+    "lv": "перемирие",
     "level": "C2"
   },
   {
     "de": "Widerstandsbewegung",
     "de_article": "die",
     "de_plural": "die Widerstandsbewegungen",
-    "lv": "Движение сопротивления",
+    "lv": "движение сопротивления",
     "level": "C2"
   },
   {
     "de": "Widerstandskämpfer",
     "de_article": "der",
     "de_plural": "die Widerstandskämpfer",
-    "lv": "Участник движения сопротивления",
+    "lv": "участник движения сопротивления",
     "level": "C2"
   },
   {
     "de": "zugrunde, zu Grunde",
-    "lv": "По сути",
+    "lv": "в основе",
     "level": "C2"
   },
   {
     "de": "zugunsten, zu Gunsten",
-    "lv": "Во благо • Во благо",
+    "lv": "в пользу",
     "level": "C2"
   },
   {
     "de": "imstande",
-    "lv": "Способный",
+    "lv": "способный • в состоянии",
     "level": "C2"
   },
   {
     "de": "im Stande",
-    "lv": "Способный",
+    "lv": "способный • в состоянии",
     "level": "C2"
   },
   {
     "de": "instand",
-    "lv": "Чтобы",
+    "lv": "в порядке",
     "level": "C2"
   },
   {
     "de": "in Stand",
-    "lv": "Чтобы",
+    "lv": "в порядке",
     "level": "C2"
   },
   {
     "de": "inwiefern",
-    "lv": "В какой степени",
+    "lv": "насколько • в какой мере",
     "level": "C2"
   },
   {
     "de": "inwieweit",
-    "lv": "В какой степени",
+    "lv": "насколько • в какой мере",
     "level": "C2"
   },
   {
     "de": "Karre",
     "de_article": "die",
     "de_plural": "die Karren",
-    "lv": "Тачка",
+    "lv": "тачка",
     "level": "C2"
   },
   {
     "de": "Karren",
     "de_article": "der",
     "de_plural": "die Karren",
-    "lv": "Тачка",
+    "lv": "тачка",
     "level": "C2"
   },
   {
     "de": "Kriegsbeschädigte",
     "de_article": "der",
     "de_plural": "die Kriegsbeschädigten",
-    "lv": "Инвалид войны",
+    "lv": "инвалид войны",
     "level": "C2"
   },
   {
     "de": "Kriegsgefangene",
     "de_article": "der",
     "de_plural": "die Kriegsgefangenen",
-    "lv": "Военнопленный",
+    "lv": "военнопленный",
     "level": "C2"
   },
   {
     "de": "Sachverständige",
     "de_article": "der",
     "de_plural": "die Sachverständigen",
-    "lv": "Опытный • Эксперт",
+    "lv": "специалист • эксперт",
     "level": "C2"
   }
 ];
