@@ -4256,7 +4256,7 @@ const B1_WORDS = [
         },
         {
           "de": "Unter dieser Nummer gibt es keinen Anschluss.",
-          "lv": "Этот номер не обслуживается."
+          "lv": "По этому номеру нет соединения."
         }
       ],
       "comparison": [
@@ -4337,7 +4337,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "номер"
+                "соединения"
               ]
             }
           }
