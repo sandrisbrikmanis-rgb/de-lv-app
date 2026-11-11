@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "g2-a1-card-translation-lv-lt-pl-readiness-verification-v1",
+  "generatedAt": "2026-10-02T19:07:51.396Z",
+  "gate": {
+    "pass": true,
+    "failures": []
+  },
+  "reportSummary": {
+    "languageCount": 3,
+    "sourcesRegisteredCount": 3,
+    "regressionDocumentedPass": true,
+    "note": "Šī atskaite reģistrē divvalodu avotus un pārbaudes secību; 32 valodu cardTranslationReady joprojām no atsevišķā verify artefakta."
+  }
+}

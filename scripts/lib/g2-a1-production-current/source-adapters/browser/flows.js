@@ -1,0 +1,593 @@
+#!/usr/bin/env node
+"use strict";
+
+const { URL } = require("url");
+const { classifyBrowserText } = require("./guards");
+const { isHostnameAllowed } = require("../../registry-domain-allowlist");
+
+async function acceptCookiesIfPresent(page) {
+  const patterns = [/Tillad alle cookies/i, /Accept all/i, /Godta alle/i, /Accepter/i, /OK/i];
+  for (const re of patterns) {
+    try {
+      await page.getByRole("button", { name: re }).click({ timeout: 1500 });
+      return;
+    } catch {
+      /* continue */
+    }
+  }
+}
+
+async function bodyText(page) {
+  return page.evaluate(() => document.body?.innerText || "");
+}
+
+function isLikelyNoResults(text) {
+  return /найдено\s*:?\s*0|ничего не найдено|не найден|no results|0 results|ei osumaa|ei tuloksia|ingen treff|geen resultaten|brak wyników|nincs találat|0 rezultat/i.test(
+    text,
+  );
+}
+
+function foldUkLemma(value) {
+  return String(value || "")
+    .trim()
+    .normalize("NFD")
+    .replace(/\p{M}/gu, "")
+    .normalize("NFC")
+    .toLowerCase();
+}
+
+function headwordFromDictUaArticleHtml(html, lookupTerm) {
+  const m = String(html || "").match(/class="word_style"\s*>([^<]+)</i);
+  if (!m) return null;
+  const raw = m[1].replace(/\s+/g, " ").trim();
+  if (foldUkLemma(raw) !== foldUkLemma(lookupTerm)) return null;
+  return String(lookupTerm).trim();
+}
+
+async function flowUkDictua(page, lookupTerm, allowedDomains) {
+  const term = String(lookupTerm || "").trim();
+  const searchUrl = `https://lcorp.ulif.org.ua/dictua/?s=${encodeURIComponent(term)}`;
+  await page.goto("https://lcorp.ulif.org.ua/dictua/", { waitUntil: "domcontentloaded", timeout: 90000 });
+  await acceptCookiesIfPresent(page);
+  await page.waitForTimeout(2000);
+  const inp = page.locator("#ContentPlaceHolder1_tsearch");
+  await inp.fill(term);
+  await page.locator("#ContentPlaceHolder1_search").click();
+  await page.waitForTimeout(5500);
+  const want = foldUkLemma(term);
+  const picked = await page.evaluate((wantLemma) => {
+    function fold(s) {
+      return String(s || "")
+        .trim()
+        .normalize("NFD")
+        .replace(/\p{M}/gu, "")
+        .normalize("NFC")
+        .toLowerCase();
+    }
+    for (const a of document.querySelectorAll("#ContentPlaceHolder1_dgv a")) {
+      if (fold(a.textContent) === wantLemma) {
+        a.click();
+        return true;
+      }
+    }
+    return false;
+  }, want);
+  if (picked) await page.waitForTimeout(4500);
+  let finalUrl = page.url();
+  let host;
+  try {
+    host = new URL(finalUrl).hostname;
+  } catch {
+    return { validated: false, reason: "BAD_URL", searchUrl, finalUrl };
+  }
+  if (!isHostnameAllowed(host, allowedDomains)) {
+    return { validated: false, reason: "DOMAIN_REJECTED", searchUrl, finalUrl };
+  }
+  let articleHtml = await page.locator("#ContentPlaceHolder1_article").innerHTML().catch(() => "");
+  let headword = headwordFromDictUaArticleHtml(articleHtml, term);
+  if (!headword) {
+    await page.goto(searchUrl, { waitUntil: "domcontentloaded", timeout: 90000 });
+    await page.waitForTimeout(4000);
+    finalUrl = page.url();
+    articleHtml = await page.locator("#ContentPlaceHolder1_article").innerHTML().catch(() => "");
+    headword = headwordFromDictUaArticleHtml(articleHtml, term);
+  }
+  const text = await bodyText(page);
+  const guard = classifyBrowserText(text, finalUrl);
+  if (guard.blocked) return { validated: false, reason: guard.reason, searchUrl, finalUrl };
+  if (!headword) {
+    return { validated: false, reason: "entry_not_found", searchUrl, finalUrl };
+  }
+  const fragment = extractHeadwordFragment(text, term, 25);
+  const fragText = fragment?.fragment || text.slice(0, 900);
+  if (!/іменник|дієслово|прикметник|значення/i.test(fragText)) {
+    return { validated: false, reason: "parse_failed", searchUrl, finalUrl };
+  }
+  const entryUrl = searchUrl;
+  return {
+    validated: true,
+    searchUrl,
+    entryUrl,
+    headword,
+    fragment: fragText,
+    entryOrRule: `DictUA (ULIF): ${headword}`,
+  };
+}
+
+function extractHeadwordFragment(text, lookupTerm, minFrag = 40) {
+  if (isLikelyNoResults(text)) return null;
+  const esc = String(lookupTerm).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const boundary =
+    /^[\p{L}\p{N}]+$/u.test(String(lookupTerm)) && String(lookupTerm).length <= 64
+      ? new RegExp(`(?:^|[\\s,.;:!?()"'])(${esc})(?:$|[\\s,.;:!?()"'])`, "iu")
+      : new RegExp(esc, "iu");
+  const match = text.match(boundary);
+  if (!match) return null;
+  const idx = match.index ?? text.search(boundary);
+  if (idx < 0) return null;
+  const fragment = text.slice(Math.max(0, idx - 20), idx + 900).trim();
+  if (fragment.length < minFrag) return null;
+  return { headword: lookupTerm, fragment };
+}
+
+async function flowDaDdo(page, lookupTerm, allowedDomains) {
+  const searchUrl = `https://ordnet.dk/ddo/ordbog?query=${encodeURIComponent(lookupTerm)}`;
+  await page.goto(searchUrl, { waitUntil: "domcontentloaded" });
+  await acceptCookiesIfPresent(page);
+  await page.waitForTimeout(3500);
+  const finalUrl = page.url();
+  const host = new URL(finalUrl).hostname;
+  if (!isHostnameAllowed(host, allowedDomains)) {
+    return { validated: false, reason: "DOMAIN_REJECTED", searchUrl, finalUrl };
+  }
+  const text = await bodyText(page);
+  const guard = classifyBrowserText(text, finalUrl);
+  if (guard.blocked) return { validated: false, reason: guard.reason, searchUrl, finalUrl };
+  const parsed = extractHeadwordFragment(text, lookupTerm);
+  if (!parsed || !/ORD I NÆRHEDEN|EKSEMPLER|selvstændig|substantiv/i.test(parsed.fragment)) {
+    return { validated: false, reason: "parse_failed", searchUrl, finalUrl };
+  }
+  return {
+    validated: true,
+    searchUrl,
+    entryUrl: finalUrl,
+    headword: parsed.headword,
+    fragment: parsed.fragment,
+    entryOrRule: `Den Danske Ordbog: ${parsed.headword}`,
+  };
+}
+
+async function flowSkJuls(page, lookupTerm, allowedDomains) {
+  const searchUrl = `https://slovnik.juls.savba.sk/?s=${encodeURIComponent(lookupTerm)}`;
+  await page.goto("https://slovnik.juls.savba.sk/", { waitUntil: "domcontentloaded" });
+  await page.waitForTimeout(1500);
+  const inp = page.locator('input[type="text"]').first();
+  await inp.fill(lookupTerm);
+  await inp.press("Enter");
+  await page.waitForTimeout(4500);
+  const finalUrl = page.url();
+  const host = new URL(finalUrl).hostname;
+  if (!isHostnameAllowed(host, allowedDomains)) {
+    return { validated: false, reason: "DOMAIN_REJECTED", searchUrl, finalUrl };
+  }
+  const text = await bodyText(page);
+  const guard = classifyBrowserText(text, finalUrl);
+  if (guard.blocked) return { validated: false, reason: guard.reason, searchUrl, finalUrl };
+  const parsed = extractHeadwordFragment(text, lookupTerm);
+  if (!parsed || !/príd|podstat|slovenského jazyka/i.test(parsed.fragment)) {
+    return { validated: false, reason: "parse_failed", searchUrl, finalUrl };
+  }
+  return {
+    validated: true,
+    searchUrl,
+    entryUrl: finalUrl,
+    headword: parsed.headword,
+    fragment: parsed.fragment,
+    entryOrRule: `JÚĽŠ slovníkový portál: ${parsed.headword}`,
+  };
+}
+
+async function flowOrdbokeneNo(page, lookupTerm, allowedDomains, bmOrNn) {
+  const base = bmOrNn === "nn" ? "https://ordbokene.no/nn/" : "https://ordbokene.no/bm/";
+  const searchUrl = `${base}?search=${encodeURIComponent(lookupTerm)}`;
+  await page.goto(base, { waitUntil: "domcontentloaded" });
+  await acceptCookiesIfPresent(page);
+  await page.waitForTimeout(2000);
+  const inp = page.locator('input[type="search"], input[type="text"]').first();
+  await inp.fill(lookupTerm);
+  await inp.press("Enter");
+  await page.waitForTimeout(4500);
+  const esc = String(lookupTerm).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  try {
+    await page.locator("a").filter({ hasText: new RegExp(`^${esc}$`, "i") }).first().click({ timeout: 8000 });
+    await page.waitForTimeout(3500);
+  } catch {
+    /* may already be on entry */
+  }
+  const finalUrl = page.url();
+  const host = new URL(finalUrl).hostname;
+  if (!isHostnameAllowed(host, allowedDomains)) {
+    return { validated: false, reason: "DOMAIN_REJECTED", searchUrl, finalUrl };
+  }
+  const text = await bodyText(page);
+  const guard = classifyBrowserText(text, finalUrl);
+  if (guard.blocked) return { validated: false, reason: guard.reason, searchUrl, finalUrl };
+  const parsed = extractHeadwordFragment(text, lookupTerm);
+  if (!parsed || !/substantiv|verb|betydning|ordklasse/i.test(parsed.fragment)) {
+    return { validated: false, reason: "parse_failed", searchUrl, finalUrl };
+  }
+  return {
+    validated: true,
+    searchUrl,
+    entryUrl: finalUrl,
+    headword: parsed.headword,
+    fragment: parsed.fragment,
+    entryOrRule: `Ordbøkene (${bmOrNn}): ${parsed.headword}`,
+  };
+}
+
+async function flowLtEkalbaLkz(page, lookupTerm, allowedDomains) {
+  const term = String(lookupTerm || "").trim();
+  const searchUrl = `https://ekalba.lt/lietuviu-kalbos-zodynas/${encodeURIComponent(term)}?paieska=${encodeURIComponent(term)}`;
+  await page.goto(searchUrl, { waitUntil: "domcontentloaded", timeout: 90000 });
+  await acceptCookiesIfPresent(page);
+  await page.waitForTimeout(4000);
+  if (!/i=[0-9a-f-]{36}/i.test(page.url())) {
+    try {
+      await page.getByText(term, { exact: true }).first().click({ timeout: 8000 });
+      await page.waitForTimeout(4000);
+    } catch {
+      /* entry may load without explicit click */
+    }
+  }
+  const finalUrl = page.url();
+  let host;
+  try {
+    host = new URL(finalUrl).hostname;
+  } catch {
+    return { validated: false, reason: "BAD_URL", searchUrl, finalUrl };
+  }
+  if (!isHostnameAllowed(host, allowedDomains)) {
+    return { validated: false, reason: "DOMAIN_REJECTED", searchUrl, finalUrl };
+  }
+  const text = await bodyText(page);
+  const guard = classifyBrowserText(text, finalUrl);
+  if (guard.blocked) return { validated: false, reason: guard.reason, searchUrl, finalUrl };
+  const folded = term.normalize("NFD").replace(/\p{M}/gu, "").toLowerCase();
+  const textFolded = text.normalize("NFD").replace(/\p{M}/gu, "");
+  if (!new RegExp(`\\b${folded.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\b`, "i").test(textFolded)) {
+    return { validated: false, reason: "entry_not_found", searchUrl, finalUrl };
+  }
+  if (!/Lietuvių kalbos žodynas|LKŽ/i.test(text) || !/\bsm\.|\bdv\.|\bv\.|gyvenam|trobes/i.test(text)) {
+    return { validated: false, reason: "parse_failed", searchUrl, finalUrl };
+  }
+  const parsed = extractHeadwordFragment(text, term, 30);
+  return {
+    validated: true,
+    searchUrl,
+    entryUrl: finalUrl,
+    headword: parsed?.headword || term,
+    fragment: parsed?.fragment || text.slice(0, 900),
+    entryOrRule: `LKŽ (eKalba): ${term}`,
+  };
+}
+
+async function flowPlWsjp(page, lookupTerm, allowedDomains) {
+  const term = String(lookupTerm || "").trim();
+  const searchUrl = "https://wsjp.pl/";
+  await page.goto(searchUrl, { waitUntil: "domcontentloaded", timeout: 90000 });
+  await page.waitForTimeout(2000);
+  const inp = page.locator("#tftextinput, input[name=szukaj]").first();
+  await inp.fill(term);
+  await page.waitForTimeout(1500);
+  await inp.press("Enter");
+  await page.waitForTimeout(4500);
+  const esc = String(term).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const entryHref = await page.evaluate((lemma) => {
+    const want = String(lemma || "").trim().toLowerCase();
+    const a = [...document.querySelectorAll('a[href*="/haslo/"]')].find(
+      (el) => el.textContent.trim().toLowerCase() === want,
+    );
+    return a ? a.href : null;
+  }, term);
+  if (entryHref) {
+    await page.goto(entryHref, { waitUntil: "domcontentloaded" });
+    await page.waitForTimeout(3500);
+  } else {
+    try {
+      await page
+        .locator(`a[href*="/haslo/"]`)
+        .filter({ hasText: new RegExp(`^${esc}$`, "i") })
+        .first()
+        .click({ timeout: 8000 });
+      await page.waitForTimeout(4000);
+    } catch {
+      /* stay on search results */
+    }
+  }
+  await page.waitForTimeout(1500);
+  const finalUrl = page.url();
+  const host = new URL(finalUrl).hostname;
+  if (!isHostnameAllowed(host, allowedDomains)) {
+    return { validated: false, reason: "DOMAIN_REJECTED", searchUrl, finalUrl };
+  }
+  const text = await bodyText(page);
+  const guard = classifyBrowserText(text, finalUrl);
+  if (guard.blocked) return { validated: false, reason: guard.reason, searchUrl, finalUrl };
+  const parsed = extractHeadwordFragment(text, term, 25);
+  if (
+    !parsed ||
+    !/\/haslo\//i.test(finalUrl) ||
+    !/budynek|mieszkanie|znacze|rodzina|gospodarstwo|Hasło ma wiele/i.test(text)
+  ) {
+    return { validated: false, reason: "parse_failed", searchUrl, finalUrl };
+  }
+  return {
+    validated: true,
+    searchUrl,
+    entryUrl: finalUrl,
+    headword: parsed.headword,
+    fragment: parsed.fragment,
+    entryOrRule: `WSJP: ${parsed.headword}`,
+  };
+}
+
+async function flowRuOrfo(page, lookupTerm, allowedDomains) {
+  const searchUrl = "https://orfo.ruslang.ru/search";
+  await page.goto(searchUrl, { waitUntil: "domcontentloaded" });
+  await page.waitForTimeout(1500);
+  await page.locator('input[type="text"]').first().fill(lookupTerm);
+  await page.locator('input[type="submit"]').first().click();
+  await page.waitForTimeout(6000);
+  const finalUrl = page.url();
+  const text = await bodyText(page);
+  const guard = classifyBrowserText(text, finalUrl);
+  if (guard.blocked) return { validated: false, reason: guard.reason, searchUrl, finalUrl };
+  const host = new URL(finalUrl).hostname;
+  if (!isHostnameAllowed(host, allowedDomains)) {
+    return { validated: false, reason: "DOMAIN_REJECTED", searchUrl, finalUrl };
+  }
+  if (/По запросу/i.test(text) && /найдено\s*:?\s*0|не найден/i.test(text)) {
+    return { validated: false, reason: "entry_not_found", searchUrl, finalUrl };
+  }
+  const parsed = extractHeadwordFragment(text, lookupTerm);
+  if (!parsed || !/АКАДЕМОС|стать/i.test(parsed.fragment)) {
+    return { validated: false, reason: "parse_failed", searchUrl, finalUrl };
+  }
+  const entryUrl =
+    /word=|[?&]q=|%D0%B4|%D0%B|E0%B4/i.test(finalUrl) && !/\/search\/word\/?$/i.test(finalUrl)
+      ? finalUrl
+      : `https://orfo.ruslang.ru/search?word=${encodeURIComponent(lookupTerm)}`;
+  return {
+    validated: true,
+    searchUrl,
+    entryUrl,
+    headword: parsed.headword,
+    fragment: parsed.fragment,
+    entryOrRule: `ORFO АКАДЕМОС: ${parsed.headword}`,
+  };
+}
+
+async function flowGenericSearchUrl(page, lookupTerm, allowedDomains, { searchUrlTemplate, validateRe, waitMs = 5000 }) {
+  const searchUrl = searchUrlTemplate(lookupTerm);
+  await page.goto(searchUrl, { waitUntil: "domcontentloaded" });
+  await acceptCookiesIfPresent(page);
+  await page.waitForTimeout(waitMs);
+  const finalUrl = page.url();
+  let host;
+  try {
+    host = new URL(finalUrl).hostname;
+  } catch {
+    return { validated: false, reason: "BAD_URL", searchUrl, finalUrl };
+  }
+  if (!isHostnameAllowed(host, allowedDomains)) {
+    return { validated: false, reason: "DOMAIN_REJECTED", searchUrl, finalUrl };
+  }
+  const text = await bodyText(page);
+  const guard = classifyBrowserText(text, finalUrl);
+  if (guard.blocked) return { validated: false, reason: guard.reason, searchUrl, finalUrl };
+  const parsed = extractHeadwordFragment(text, lookupTerm);
+  if (!parsed || (validateRe && !validateRe.test(parsed.fragment))) {
+    return { validated: false, reason: "parse_failed", searchUrl, finalUrl };
+  }
+  return {
+    validated: true,
+    searchUrl,
+    entryUrl: finalUrl,
+    headword: parsed.headword,
+    fragment: parsed.fragment,
+    entryOrRule: `Entry: ${parsed.headword}`,
+  };
+}
+
+const FLOW_RUNNERS = {
+  "da-ddo": flowDaDdo,
+  "sk-juls": flowSkJuls,
+  "nb-ordbokene": (page, term, allow) => flowOrdbokeneNo(page, term, allow, "bm"),
+  "nn-ordbokene": (page, term, allow) => flowOrdbokeneNo(page, term, allow, "nn"),
+  "fr-academie": (page, term, allow) =>
+    flowGenericSearchUrl(page, term, allow, {
+      searchUrlTemplate: (t) => `https://www.dictionnaire-academie.fr/#/recherche/${encodeURIComponent(t)}`,
+      validateRe: /.+/,
+    }),
+  "hr-rjecnik": async (page, term, allow) => {
+    const searchUrl = "https://rjecnik.hr/";
+    await page.goto(searchUrl, { waitUntil: "networkidle", timeout: 90000 });
+    await acceptCookiesIfPresent(page);
+    await page.waitForTimeout(2500);
+    const inp = page.locator('input[type="text"], input[type="search"]').first();
+    await inp.fill(term);
+    await inp.press("Enter");
+    await page.waitForTimeout(10000);
+    const finalUrl = page.url();
+    const host = new URL(finalUrl).hostname;
+    if (!isHostnameAllowed(host, allow)) {
+      return { validated: false, reason: "DOMAIN_REJECTED", searchUrl, finalUrl };
+    }
+    const text = await bodyText(page);
+    const guard = classifyBrowserText(text, finalUrl);
+    if (guard.blocked) return { validated: false, reason: guard.reason, searchUrl, finalUrl };
+    const parsed = extractHeadwordFragment(text, term);
+    if (!parsed || !/građevina|im\.\s*ž|stanovanj|zgrada/i.test(parsed.fragment)) {
+      return { validated: false, reason: "parse_failed", searchUrl, finalUrl };
+    }
+    return {
+      validated: true,
+      searchUrl,
+      entryUrl: finalUrl,
+      headword: parsed.headword,
+      fragment: parsed.fragment,
+      entryOrRule: `Školski rječnik hrvatskoga jezika: ${parsed.headword}`,
+    };
+  },
+  "nl-woordenlijst": async (page, term, allow) => {
+    const searchUrl = `https://woordenlijst.org/#/zoeken/${encodeURIComponent(term)}`;
+    await page.goto(searchUrl, { waitUntil: "domcontentloaded" });
+    await acceptCookiesIfPresent(page);
+    await page.waitForTimeout(5000);
+    const esc = String(term).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    try {
+      await page.locator("a").filter({ hasText: new RegExp(`^${esc}$`, "i") }).first().click({ timeout: 10000 });
+      await page.waitForTimeout(5000);
+    } catch {
+      /* suggestions list may differ */
+    }
+    const finalUrl = page.url();
+    const host = new URL(finalUrl).hostname;
+    if (!isHostnameAllowed(host, allow)) {
+      return { validated: false, reason: "DOMAIN_REJECTED", searchUrl, finalUrl };
+    }
+    const text = await bodyText(page);
+    const guard = classifyBrowserText(text, finalUrl);
+    if (guard.blocked) return { validated: false, reason: guard.reason, searchUrl, finalUrl };
+    const parsed = extractHeadwordFragment(text, term);
+    if (!parsed || !/werkwoord|zelfstandig|betekenis|spelling/i.test(parsed.fragment)) {
+      return { validated: false, reason: "parse_failed", searchUrl, finalUrl };
+    }
+    return {
+      validated: true,
+      searchUrl,
+      entryUrl: finalUrl,
+      headword: parsed.headword,
+      fragment: parsed.fragment,
+      entryOrRule: `Woordenlijst.org: ${parsed.headword}`,
+    };
+  },
+  "sv-svenska": (page, term, allow) =>
+    flowGenericSearchUrl(page, term, allow, {
+      searchUrlTemplate: (t) => `https://svenska.se/saol/#/search/${encodeURIComponent(t)}`,
+      validateRe: /substantiv|verb|betydelse/i,
+    }),
+  "pl-wsjp": flowPlWsjp,
+  "ro-doom": (page, term, allow) =>
+    flowGenericSearchUrl(page, term, allow, {
+      searchUrlTemplate: (t) => {
+        const q = String(t).normalize("NFD").replace(/\p{M}/gu, "");
+        return `https://doom.lingv.ro/cautare?q=${encodeURIComponent(q)}`;
+      },
+      validateRe: /substantiv|verb|defini|sens/i,
+    }),
+  "fi-kielitoimisto": async (page, term, allow) => {
+    const searchUrl = "https://www.kielitoimistonsanakirja.fi/";
+    await page.goto(searchUrl, { waitUntil: "domcontentloaded" });
+    await page.waitForTimeout(2500);
+    const inp = page.locator('input[type="text"]').first();
+    await inp.fill(term);
+    await inp.press("Enter");
+    await page.waitForTimeout(6000);
+    const esc = String(term).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    try {
+      await page.locator("a").filter({ hasText: new RegExp(`^${esc}$`, "i") }).first().click({ timeout: 8000 });
+      await page.waitForTimeout(4000);
+    } catch {
+      /* may already show entry */
+    }
+    const finalUrl = page.url();
+    const host = new URL(finalUrl).hostname;
+    if (!isHostnameAllowed(host, allow)) {
+      return { validated: false, reason: "DOMAIN_REJECTED", searchUrl, finalUrl };
+    }
+    const text = await bodyText(page);
+    const guard = classifyBrowserText(text, finalUrl);
+    if (guard.blocked) return { validated: false, reason: guard.reason, searchUrl, finalUrl };
+    const parsed = extractHeadwordFragment(text, term);
+    if (!parsed || !/substantiivi|verbi|merkitys|s\.|adj\.|rakenne/i.test(parsed.fragment)) {
+      return { validated: false, reason: "parse_failed", searchUrl, finalUrl };
+    }
+    return {
+      validated: true,
+      searchUrl,
+      entryUrl: finalUrl,
+      headword: parsed.headword,
+      fragment: parsed.fragment,
+      entryOrRule: `Kielitoimiston sanakirja: ${parsed.headword}`,
+    };
+  },
+  "pt-acl": (page, term, allow) =>
+    flowGenericSearchUrl(page, term, allow, {
+      searchUrlTemplate: (t) => `https://dicionario.acad-ciencias.pt/#/search/${encodeURIComponent(t)}`,
+      validateRe: /substantivo|adjetivo|significado/i,
+    }),
+  "uk-dictua": flowUkDictua,
+  "ru-orfo": flowRuOrfo,
+  "bg-beron": (page, term, allow) =>
+    flowGenericSearchUrl(page, term, allow, {
+      searchUrlTemplate: (t) => `https://beron.mon.bg/dictionary/search?q=${encodeURIComponent(t)}`,
+      validateRe: /.+/,
+    }),
+  "is-bin": (page, term, allow) =>
+    flowGenericSearchUrl(page, term, allow, {
+      searchUrlTemplate: (t) =>
+        `https://bin.arnastofnun.is/beygingarstodur/nidur.php?adgerdir=leit&nafn=${encodeURIComponent(t)}`,
+      validateRe: /.+/,
+    }),
+  "is-malid": (page, term, allow) =>
+    flowGenericSearchUrl(page, term, allow, {
+      searchUrlTemplate: (t) => `https://malid.is/leit?q=${encodeURIComponent(t)}`,
+      validateRe: /.+/,
+    }),
+  "lt-ekalba": flowLtEkalbaLkz,
+  "hu-nagyszotar": async (page, term, allow) => {
+    const searchUrl = "https://nagyszotar.nytud.hu/index.html";
+    await page.goto(searchUrl, { waitUntil: "domcontentloaded" });
+    await page.locator("input").first().fill(term);
+    await page.keyboard.press("Enter");
+    await page.waitForTimeout(5000);
+    const finalUrl = page.url();
+    const text = await bodyText(page);
+    if (/nincs találat/i.test(text)) return { validated: false, reason: "entry_not_found", searchUrl, finalUrl };
+    const guard = classifyBrowserText(text, finalUrl);
+    if (guard.blocked) return { validated: false, reason: guard.reason, searchUrl, finalUrl };
+    const parsed = extractHeadwordFragment(text, term);
+    if (!parsed) return { validated: false, reason: "parse_failed", searchUrl, finalUrl };
+    return {
+      validated: true,
+      searchUrl,
+      entryUrl: finalUrl,
+      headword: parsed.headword,
+      fragment: parsed.fragment,
+      entryOrRule: `Akadémiai Nagyszótár: ${parsed.headword}`,
+    };
+  },
+  "lb-lod": (page, term, allow) =>
+    flowGenericSearchUrl(page, term, allow, {
+      searchUrlTemplate: (t) => `https://lod.lu/search/${encodeURIComponent(t)}`,
+      validateRe: /.+/,
+    }),
+  "it-lessicografia": (page, term, allow) =>
+    flowGenericSearchUrl(page, term, allow, {
+      searchUrlTemplate: (t) => `https://www.lessicografia.it/search?q=${encodeURIComponent(t)}`,
+      validateRe: /significato|sostantivo/i,
+    }),
+  "mk-drmj": (page, term, allow) =>
+    flowGenericSearchUrl(page, term, allow, {
+      searchUrlTemplate: (t) => `https://drmj.eu/search?q=${encodeURIComponent(t)}`,
+      validateRe: /.+/,
+    }),
+};
+
+function getBrowserFlow(flowId) {
+  return FLOW_RUNNERS[flowId] || null;
+}
+
+module.exports = { getBrowserFlow, FLOW_RUNNERS, flowDaDdo, flowSkJuls };

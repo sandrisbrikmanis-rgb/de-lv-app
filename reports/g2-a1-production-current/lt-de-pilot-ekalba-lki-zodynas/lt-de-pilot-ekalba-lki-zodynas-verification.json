@@ -1,0 +1,163 @@
+{
+  "generatedAt": "2026-09-27T18:45:00.000Z",
+  "gitBranch": "cursor/g2-a1-card-translation-31lang-17f5",
+  "gitBranchUrl": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/tree/cursor/g2-a1-card-translation-31lang-17f5",
+  "pullRequest": {
+    "number": 843,
+    "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/843",
+    "title": "G2/A1: card translation readiness 12/32 (catalog wiring, strict gates)",
+    "baseBranch": "cursor/g2-a1-official-target-adapters-17f5"
+  },
+  "pilotLemmasDe": ["Haus", "arbeiten", "Kleingeld", "bewirten", "Grenzkonflikt", "Machtgier"],
+  "pilotLemmasLt": ["namas", "dirbti", "smulkūs pinigai", "vaišinti", "pasienio konfliktas", "valdžios geidulys"],
+  "primaryBilingualSources": [
+    {
+      "id": "ekalba-de-lt",
+      "role": "primary",
+      "title": "Vokiečių–lietuvių kalbų žodynas",
+      "direction": "DE→LT",
+      "url": "https://ekalba.lt/vokieciu-lietuviu-kalbu-zodynas/",
+      "lemmaCountApprox": 15262
+    },
+    {
+      "id": "ekalba-lt-de",
+      "role": "primary",
+      "title": "Lietuvių–vokiečių kalbų žodynas",
+      "direction": "LT→DE",
+      "url": "https://ekalba.lt/lietuviu-vokieciu-kalbu-zodynas/",
+      "lemmaCountApprox": 17008
+    }
+  ],
+  "supplementarySources": [
+    {
+      "id": "lki-zodynas-ia",
+      "role": "supplement",
+      "title": "Lietuvių rašomosios kalbos žodynas / Wörterbuch der litauischen Schriftsprache",
+      "direction": "LT→DE",
+      "note": "Not a DE→LT dictionary; German appears as glosses under Lithuanian headwords.",
+      "volumes": [
+        { "itemId": "zodynas-t.-1-1932", "year": 1932, "alphabetRange": "A–K", "landingUrl": "https://archive.org/details/zodynas-t.-1-1932/page/n9/mode/2up" },
+        { "itemId": "zodynas-t.-2-1951", "year": 1951, "alphabetRange": "L–Pa", "landingUrl": "https://archive.org/details/zodynas-t.-2-1951/page/n1/mode/2up" },
+        { "itemId": "zodynas-t.-3-1957", "year": 1957, "alphabetRange": "Pe–Sk", "landingUrl": "https://archive.org/details/zodynas-t.-3-1957/page/n1/mode/2up" },
+        { "itemId": "zodynas-t.-4-1963", "year": 1963, "alphabetRange": "Sl–Tev", "landingUrl": "https://archive.org/details/zodynas-t.-4-1963/page/n1/mode/2up" },
+        { "itemId": "zodynas-t.-5-1968", "year": 1968, "alphabetRange": "Tėv–Ž", "landingUrl": "https://archive.org/details/zodynas-t.-5-1968/page/n1/mode/2up" }
+      ]
+    }
+  ],
+  "iaVisualVerification": {
+    "method": "Internet Archive BookReader UI text overlay (Playwright, 2026-09-27)",
+    "ocrOnlyUsedFor": "volume/lemma routing only; final URLs confirmed in BookReader"
+  },
+  "results": [
+    {
+      "pilotDe": "Haus",
+      "pilotLt": "namas",
+      "cardDwellingSenseLt": "namas",
+      "excludedFromDwellingSense": ["pastatas"],
+      "ekalbaDeLt": {
+        "status": "FOUND",
+        "entryUrl": "https://ekalba.lt/vokieciu-lietuviu-kalbu-zodynas/Haus?i=32b14ac4-c7e6-4aca-b722-bde8f8168bad",
+        "primaryGlossLt": "namas",
+        "secondaryGlossLt": ["pastatas"],
+        "note": "pastatas is building/structure; not primary das Haus dwelling card sense"
+      },
+      "ekalbaLtDe": {
+        "status": "FOUND",
+        "entryUrl": "https://ekalba.lt/lietuviu-vokieciu-kalbu-zodynas/namas?i=0cdbd720-ccec-48f1-a8a1-e3cd960c1301",
+        "glossDe": "Haus; Wohnhaus"
+      },
+      "lkiIaLtDe": {
+        "status": "FOUND",
+        "volume": "zodynas-t.-2-1951",
+        "alphabetRange": "L–Pa",
+        "verifiedPageUrl": "https://archive.org/details/zodynas-t.-2-1951/page/117/mode/2up?q=n%C3%A4mas%2C+-o&search=n%C3%A4mas%2C+-o",
+        "bookReaderConfirmed": true,
+        "visibleHeadword": "nämas, -o",
+        "visibleGlossDe": "(Wohn)haus n., Heim n."
+      }
+    },
+    {
+      "pilotDe": "arbeiten",
+      "pilotLt": "dirbti",
+      "ekalbaDeLt": {
+        "status": "FOUND",
+        "entryUrl": "https://ekalba.lt/vokieciu-lietuviu-kalbu-zodynas/arbeiten?i=2aeb2719-576a-4819-83ec-4fa822c20c2d",
+        "primaryGlossLt": "dirbti"
+      },
+      "ekalbaLtDe": {
+        "status": "FOUND",
+        "entryUrl": "https://ekalba.lt/lietuviu-vokieciu-kalbu-zodynas/dirbti?i=3ed0c8c1-5f67-4dde-9f74-4f1eca06eaf6",
+        "glossDe": "arbeiten"
+      },
+      "lkiIaLtDe": {
+        "status": "FOUND",
+        "volume": "zodynas-t.-1-1932",
+        "alphabetRange": "A–K",
+        "verifiedPageUrl": "https://archive.org/details/zodynas-t.-1-1932/page/124/mode/2up?q=dirbti+Arbeitszimmer&search=dirbti+Arbeitszimmer",
+        "bookReaderConfirmed": true,
+        "visibleHeadword": "dirbti (-du, -baw, -bsiu)",
+        "visibleGlossDe": "arbeiten"
+      }
+    },
+    {
+      "pilotDe": "Kleingeld",
+      "pilotLt": "smulkūs pinigai",
+      "ekalbaDeLt": {
+        "status": "FOUND",
+        "entryUrl": "https://ekalba.lt/vokieciu-lietuviu-kalbu-zodynas/Kleingeld?paieska=Kleingeld&i=f8697769-4fb6-471a-96ca-b0b2e63d899d",
+        "primaryGlossLt": "smulkūs pinigai"
+      },
+      "ekalbaLtDe": {
+        "status": "FOUND",
+        "entryUrl": "https://ekalba.lt/lietuviu-vokieciu-kalbu-zodynas/smulkus?i=0e556c07-f528-4bc7-aef1-6c786ac7814e",
+        "glossDe": "smulkūs pinigai → Kleingeld"
+      },
+      "lkiIaLtDe": {
+        "status": "FOUND",
+        "volume": "zodynas-t.-3-1957",
+        "alphabetRange": "Pe–Sk",
+        "verifiedPageUrl": "https://archive.org/details/zodynas-t.-3-1957/page/95/mode/2up?q=pinigai+Kleingeld&search=pinigai+Kleingeld",
+        "bookReaderConfirmed": true,
+        "visibleHeadword": "pinigas / pinigai",
+        "visibleGlossDe": "smulküs a Kleingeld"
+      }
+    },
+    {
+      "pilotDe": "bewirten",
+      "pilotLt": "vaišinti",
+      "ekalbaDeLt": {
+        "status": "FOUND",
+        "entryUrl": "https://ekalba.lt/vokieciu-lietuviu-kalbu-zodynas/bewirten?paieska=bewirten&i=1501ec18-60c5-43d9-9faf-e23d0840edd0",
+        "primaryGlossLt": "vaišinti svečią"
+      },
+      "ekalbaLtDe": {
+        "status": "FOUND",
+        "entryUrl": "https://ekalba.lt/lietuviu-vokieciu-kalbu-zodynas/vai%C5%A1inti?paieska=vai%C5%A1inti&i=99055672-eaf3-4960-a8c1-f2950de4631d",
+        "glossDe": "bewirten"
+      },
+      "lkiIaLtDe": {
+        "status": "FOUND",
+        "volume": "zodynas-t.-5-1968",
+        "alphabetRange": "Tėv–Ž",
+        "verifiedPageUrl": "https://archive.org/details/zodynas-t.-5-1968/page/185/mode/2up?q=gastlich%29+bewirten&search=gastlich%29+bewirten",
+        "bookReaderConfirmed": true,
+        "visibleHeadword": "väisinti",
+        "visibleGlossDe": "(gastlich) bewirten"
+      }
+    },
+    {
+      "pilotDe": "Grenzkonflikt",
+      "pilotLt": "pasienio konfliktas",
+      "ekalbaDeLt": { "status": "NOT_FOUND", "searchUrl": "https://ekalba.lt/vokieciu-lietuviu-kalbu-zodynas/?paieska=Grenzkonflikt", "resultCount": 0 },
+      "ekalbaLtDe": { "status": "NOT_FOUND", "searchUrl": "https://ekalba.lt/lietuviu-vokieciu-kalbu-zodynas/?paieska=pasienio%20konfliktas", "resultCount": 0 },
+      "lkiIaLtDe": { "status": "NOT_FOUND", "bookReaderConfirmed": false }
+    },
+    {
+      "pilotDe": "Machtgier",
+      "pilotLt": "valdžios geidulys",
+      "ekalbaDeLt": { "status": "NOT_FOUND", "searchUrl": "https://ekalba.lt/vokieciu-lietuviu-kalbu-zodynas/?paieska=Machtgier", "resultCount": 0 },
+      "ekalbaLtDe": { "status": "NOT_FOUND", "searchUrl": "https://ekalba.lt/lietuviu-vokieciu-kalbu-zodynas/?paieska=vald%C5%BEios%20geidulys", "resultCount": 0 },
+      "lkiIaLtDe": { "status": "NOT_FOUND", "bookReaderConfirmed": false }
+    }
+  ]
+}

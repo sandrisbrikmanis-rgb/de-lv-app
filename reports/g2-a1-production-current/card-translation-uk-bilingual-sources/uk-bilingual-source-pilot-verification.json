@@ -1,0 +1,188 @@
+{
+  "schemaVersion": "g2-a1-uk-bilingual-source-pilot-v1",
+  "generatedAt": "2026-09-28T18:30:00.000Z",
+  "sourceOrderVerified": ["UDEW", "Lingea dict.com", "dict.cc"],
+  "pilotLemmas": ["Haus", "arbeiten", "Kleingeld", "bewirten", "Grenzkonflikt", "Machtgier"],
+  "udewPrimaryForCardAudit": true,
+  "udewPrimaryRationale": "Institucionāls pilna satura bidirectionālais leksikons (Leipzig); HTTP/1.1 fetch verificēts; Playwright HTTP/2 neizmantots. Kartīšu auditā pieslēgts kā publicPrimary/reversePrimary.",
+  "sourceHealth": {
+    "udew": {
+      "portalUrl": "https://udew.uni-leipzig.de/udew/ukrainisch_deutsch_online.htm",
+      "searchAndEntryVisible": true,
+      "fetchMode": "curl --http1.1",
+      "note": "Serveris periodiski atgriež tukšu atbildi; ieviests retry."
+    },
+    "lingeaDictCom": {
+      "portalUrl": "https://dict.com/німецько-український",
+      "searchAndEntryVisible": false,
+      "note": "Cloudflare 'Performing security verification' — nav vārdnīcas šķirkļa."
+    },
+    "dictCc": {
+      "deUkPortal": "https://deuk.dict.cc/",
+      "ukDePortal": "https://ukde.dict.cc/",
+      "searchAndEntryVisible": true
+    }
+  },
+  "results": [
+    {
+      "direction": "de→uk",
+      "deLemma": "Haus",
+      "dictionary": "UDEW Ukrainisch–Deutsch–Ukrainisch Online-Wörterbuch",
+      "dictionaryId": "udew",
+      "ukrainianVariants": ["будинок", "дім", "хата", "корпус", "хатина"],
+      "entryUrl": "https://udew.uni-leipzig.de/udew/ukrainisch_deutsch_online.htm?input=Haus",
+      "status": "TRANSLATION_PAIR_FOUND",
+      "senseNote": "Gebäude/Wohnung — atsevišķi no 'Familie/Heim' nozīmēm lapā."
+    },
+    {
+      "direction": "de→uk",
+      "deLemma": "arbeiten",
+      "dictionary": "UDEW",
+      "dictionaryId": "udew",
+      "ukrainianVariants": ["працювати", "трудитися", "попрацювати"],
+      "entryUrl": "https://udew.uni-leipzig.de/udew/ukrainisch_deutsch_online.htm?input=arbeiten",
+      "status": "TRANSLATION_PAIR_FOUND"
+    },
+    {
+      "direction": "de→uk",
+      "deLemma": "Kleingeld",
+      "dictionary": "UDEW",
+      "dictionaryId": "udew",
+      "ukrainianVariants": ["дрібні гроші", "розмінна монета", "грошенята", "розмінний"],
+      "entryUrl": "https://udew.uni-leipzig.de/udew/ukrainisch_deutsch_online.htm?input=Kleingeld",
+      "status": "TRANSLATION_PAIR_FOUND"
+    },
+    {
+      "direction": "de→uk",
+      "deLemma": "bewirten",
+      "dictionary": "UDEW",
+      "dictionaryId": "udew",
+      "ukrainianVariants": ["частувати", "потрактувати", "почастувати", "пригощати", "пошанувати"],
+      "entryUrl": "https://udew.uni-leipzig.de/udew/ukrainisch_deutsch_online.htm?input=bewirten",
+      "status": "TRANSLATION_PAIR_FOUND",
+      "senseNote": "Gastlich bewirten — ne jaukt ar citām 'bewirten' nozīmēm."
+    },
+    {
+      "direction": "de→uk",
+      "deLemma": "Grenzkonflikt",
+      "dictionary": "UDEW",
+      "dictionaryId": "udew",
+      "ukrainianVariants": [],
+      "entryUrl": "https://udew.uni-leipzig.de/udew/ukrainisch_deutsch_online.htm?input=Grenzkonflikt",
+      "status": "NOT_FOUND"
+    },
+    {
+      "direction": "de→uk",
+      "deLemma": "Machtgier",
+      "dictionary": "UDEW",
+      "dictionaryId": "udew",
+      "ukrainianVariants": [],
+      "entryUrl": "https://udew.uni-leipzig.de/udew/ukrainisch_deutsch_online.htm?input=Machtgier",
+      "status": "NOT_FOUND"
+    },
+    {
+      "direction": "uk→de",
+      "deLemma": "Haus",
+      "queryLemma": "будинок",
+      "dictionary": "UDEW",
+      "dictionaryId": "udew",
+      "germanVariants": ["Haus", "Gebäude"],
+      "entryUrl": "https://udew.uni-leipzig.de/udew/ukrainisch_deutsch_online.htm?input=%D0%B1%D1%83%D0%B4%D0%B8%D0%BD%D0%BE%D0%BA",
+      "status": "TRANSLATION_PAIR_FOUND"
+    },
+    {
+      "direction": "uk→de",
+      "deLemma": "arbeiten",
+      "queryLemma": "працювати",
+      "dictionary": "UDEW",
+      "dictionaryId": "udew",
+      "germanVariants": ["arbeiten"],
+      "entryUrl": "https://udew.uni-leipzig.de/udew/ukrainisch_deutsch_online.htm?input=%D0%BF%D1%80%D0%B0%D1%86%D1%8E%D0%B2%D0%B0%D1%82%D0%B8",
+      "status": "TRANSLATION_PAIR_FOUND"
+    },
+    {
+      "direction": "de→uk",
+      "deLemma": "Haus",
+      "dictionary": "dict.cc Deutsch–Ukrainisch",
+      "dictionaryId": "dict-cc-de-uk",
+      "ukrainianVariants": ["будинок"],
+      "entryUrl": "https://deuk.dict.cc/?s=Haus",
+      "status": "TRANSLATION_PAIR_FOUND"
+    },
+    {
+      "direction": "de→uk",
+      "deLemma": "arbeiten",
+      "dictionary": "dict.cc Deutsch–Ukrainisch",
+      "dictionaryId": "dict-cc-de-uk",
+      "ukrainianVariants": ["працювати"],
+      "entryUrl": "https://deuk.dict.cc/?s=arbeiten",
+      "status": "TRANSLATION_PAIR_FOUND"
+    },
+    {
+      "direction": "de→uk",
+      "deLemma": "Kleingeld",
+      "dictionary": "dict.cc Deutsch–Ukrainisch",
+      "dictionaryId": "dict-cc-de-uk",
+      "ukrainianVariants": [],
+      "entryUrl": "https://deuk.dict.cc/?s=Kleingeld",
+      "status": "NOT_FOUND"
+    },
+    {
+      "direction": "de→uk",
+      "deLemma": "bewirten",
+      "dictionary": "dict.cc Deutsch–Ukrainisch",
+      "dictionaryId": "dict-cc-de-uk",
+      "ukrainianVariants": [],
+      "entryUrl": "https://deuk.dict.cc/?s=bewirten",
+      "status": "NOT_FOUND"
+    },
+    {
+      "direction": "de→uk",
+      "deLemma": "Grenzkonflikt",
+      "dictionary": "dict.cc Deutsch–Ukrainisch",
+      "dictionaryId": "dict-cc-de-uk",
+      "ukrainianVariants": [],
+      "entryUrl": "https://deuk.dict.cc/?s=Grenzkonflikt",
+      "status": "NOT_FOUND"
+    },
+    {
+      "direction": "de→uk",
+      "deLemma": "Machtgier",
+      "dictionary": "dict.cc Deutsch–Ukrainisch",
+      "dictionaryId": "dict-cc-de-uk",
+      "ukrainianVariants": [],
+      "entryUrl": "https://deuk.dict.cc/?s=Machtgier",
+      "status": "NOT_FOUND"
+    },
+    {
+      "direction": "uk→de",
+      "deLemma": "Haus",
+      "queryLemma": "будинок",
+      "dictionary": "dict.cc Ukrainisch–Deutsch",
+      "dictionaryId": "dict-cc-uk-de",
+      "germanVariants": ["Gebäude", "Haus"],
+      "entryUrl": "https://ukde.dict.cc/?s=%D0%B1%D1%83%D0%B4%D0%B8%D0%BD%D0%BE%D0%BA",
+      "status": "TRANSLATION_PAIR_FOUND"
+    },
+    {
+      "direction": "uk→de",
+      "deLemma": "arbeiten",
+      "queryLemma": "працювати",
+      "dictionary": "dict.cc Ukrainisch–Deutsch",
+      "dictionaryId": "dict-cc-uk-de",
+      "germanVariants": ["arbeiten"],
+      "entryUrl": "https://ukde.dict.cc/?s=%D0%BF%D1%80%D0%B0%D1%86%D1%8E%D0%B2%D0%B0%D1%82%D0%B8",
+      "status": "TRANSLATION_PAIR_FOUND"
+    },
+    {
+      "direction": "de→uk",
+      "deLemma": "Haus",
+      "dictionary": "dict.com / Lingea німецько-український",
+      "dictionaryId": "lingea-dict-com",
+      "ukrainianVariants": [],
+      "entryUrl": "https://dict.com/translate/german-ukrainian/haus",
+      "status": "NOT_FOUND",
+      "note": "BOT_WALL_ONLY"
+    }
+  ]
+}

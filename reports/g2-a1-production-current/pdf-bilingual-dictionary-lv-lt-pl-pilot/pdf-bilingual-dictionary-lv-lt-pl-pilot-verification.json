@@ -1,0 +1,283 @@
+{
+  "schemaVersion": "g2-a1-pdf-bilingual-dictionary-lv-lt-pl-pilot-v1",
+  "generatedAt": "2026-09-27",
+  "methodology": {
+    "usableDefinition": "Content opened and searched in OCR or PDF text; not catalog-only.",
+    "pageUrlMethod": "Internet Archive viewer leaf: floor((lineNumber - 1) / ocrLineCount * scannedLeafCount). IA hocr_pageindex.json char offsets refer to full hOCR HTML, not djvu.txt; do not use raw pageindex char mapping on djvu alone.",
+    "pilotLemmas": ["Haus", "arbeiten", "Kleingeld", "bewirten", "Grenzkonflikt", "Machtgier"],
+    "jbcLiveAccess": "jbc.bj.uj.edu.pl returns HTTP 200 with PoW captcha cookie (headless curl blocked); verification used archive.org mirrors."
+  },
+  "summaryByLanguage": {
+    "pl": {
+      "galaStatus": "VERIFIED_HISTORICAL_COMPARABLE",
+      "notes": "Haessel JBC two-volume set (~1872 vol.1 PL→DE, ~1903 vol.2 DE→PL), IA OCR searchable; not modern ~30k Valgus-class but large bilingual pair both directions."
+    },
+    "lv": {
+      "galaStatus": "VERIFIED_HISTORICAL_LIMITED",
+      "notes": "Stender 1789 IA PDF/OCR only verified open corpus; ~7k–14k historical; no modern Avots ~33k PDF opened; LNB DOM viewer HTML loads but bitstream not fetched this run."
+    },
+    "lt": {
+      "galaStatus": "GAP_MODERN_PAIR",
+      "notes": "No public DE↔LT ~30k scanned PDF pair verified. LKI Senn–Salys vol.3 LT→DE OCR on IA (725 pp, one volume only). Brodowski/epaveldas not opened as usable PDF."
+    }
+  },
+  "directions": [
+    {
+      "appCode": "pl",
+      "direction": "de→pl",
+      "galaStatus": "VERIFIED_HISTORICAL_COMPARABLE",
+      "title": "Nowy dokładny słownik … t. 2 Deutsch und Polnisch mit Supplement (Neues vollständiges … vol. 2)",
+      "authorsEditors": "JBC / H. Haessel edition",
+      "year": "1903",
+      "publisher": "H. Haessel, Leipzig",
+      "approxScannedPages": 409,
+      "approxEntryScale": "COMPARABLE_HISTORICAL (multi-volume work; not counted this run)",
+      "accessPrimary": {
+        "type": "PUBLIC_DLIBRA_VIEWER",
+        "url": "https://jbc.bj.uj.edu.pl/dlibra/doccontent?id=330399",
+        "liveSearchable": false,
+        "blocker": "PoW captcha"
+      },
+      "accessVerified": {
+        "type": "INTERNET_ARCHIVE_MIRROR",
+        "identifier": "jbc.bj.uj.edu.pl.NDIGDRUK014604",
+        "viewerBase": "https://archive.org/details/jbc.bj.uj.edu.pl.NDIGDRUK014604",
+        "ocrFulltext": "NDIGDRUK014604_djvu.txt / hocr_searchtext",
+        "searchableHeadless": true
+      },
+      "pilotLemmas": [
+        {
+          "lemma": "Haus",
+          "found": "PARTIAL_OCR",
+          "targetGloss": "dom (in compounds/phrases; headword line OCR-noisy)",
+          "ocrSnippet": "Haus, cine Feftung Bem — gleidh machen obłąkowaty wystrzał…",
+          "viewerUrl": "https://archive.org/details/jbc.bj.uj.edu.pl.NDIGDRUK014604/page/n64"
+        },
+        {
+          "lemma": "arbeiten",
+          "found": true,
+          "targetGloss": "m.in. pańszczyznę odrabiać; zur — arbeiten",
+          "ocrSnippet": "arbeiten szczórze prawować; … zur — arbeiten pańszczyznę odrabiać",
+          "viewerUrl": "https://archive.org/details/jbc.bj.uj.edu.pl.NDIGDRUK014604/page/n113"
+        },
+        {
+          "lemma": "Grenze",
+          "found": true,
+          "targetGloss": "granica",
+          "ocrSnippet": "Grenze, Gri'nze, sf. granica (über, baupt)",
+          "viewerUrl": "https://archive.org/details/jbc.bj.uj.edu.pl.NDIGDRUK014604/page/n156"
+        },
+        {
+          "lemma": "Kleingeld",
+          "found": false,
+          "targetGloss": null,
+          "viewerUrl": null,
+          "note": "Not in vol.2 OCR text (may be absent or OCR gap in 19th-c. work)."
+        },
+        {
+          "lemma": "bewirten",
+          "found": false,
+          "targetGloss": null,
+          "viewerUrl": null
+        },
+        {
+          "lemma": "Grenzkonflikt",
+          "found": false,
+          "targetGloss": null,
+          "viewerUrl": null,
+          "note": "Modern compound; unlikely in historical dictionary."
+        },
+        {
+          "lemma": "Machtgier",
+          "found": false,
+          "targetGloss": null,
+          "viewerUrl": null
+        }
+      ]
+    },
+    {
+      "appCode": "pl",
+      "direction": "pl→de",
+      "galaStatus": "VERIFIED_HISTORICAL_COMPARABLE",
+      "title": "Nowy dokładny słownik … t. 1 polsko-niemiecki (Neues vollständiges … vol. 1)",
+      "year": "1872",
+      "publisher": "H. Haessel",
+      "approxScannedPages": 1160,
+      "accessPrimary": {
+        "type": "PUBLIC_DLIBRA_VIEWER",
+        "url": "https://jbc.bj.uj.edu.pl/dlibra/publication/345998",
+        "liveSearchable": false,
+        "blocker": "PoW captcha"
+      },
+      "accessVerified": {
+        "type": "INTERNET_ARCHIVE_MIRROR",
+        "identifier": "jbc.bj.uj.edu.pl.NDIGDRUK014605",
+        "viewerBase": "https://archive.org/details/jbc.bj.uj.edu.pl.NDIGDRUK014605",
+        "ocrFulltext": "NDIGDRUK014605_hocr_searchtext.txt.gz",
+        "searchableHeadless": true
+      },
+      "pilotLemmas": [
+        {
+          "lemma": "Haus",
+          "found": true,
+          "targetGloss": "dom (headword Dom → Haus, Wohnhaus)",
+          "ocrSnippet": "Dom, -u, sm. Haus, Wohnhaus n.",
+          "viewerUrl": "https://archive.org/details/jbc.bj.uj.edu.pl.NDIGDRUK014605/page/n78"
+        },
+        {
+          "lemma": "arbeiten",
+          "found": false,
+          "targetGloss": null,
+          "viewerUrl": null,
+          "note": "No clean headword hit in vol.1 OCR sample search (only front-matter mentions)."
+        },
+        {
+          "lemma": "Kleingeld",
+          "found": false,
+          "targetGloss": null,
+          "viewerUrl": null
+        },
+        {
+          "lemma": "bewirten",
+          "found": false,
+          "targetGloss": null,
+          "viewerUrl": null
+        },
+        {
+          "lemma": "Grenzkonflikt",
+          "found": false,
+          "targetGloss": null,
+          "viewerUrl": null
+        },
+        {
+          "lemma": "Machtgier",
+          "found": false,
+          "targetGloss": null,
+          "viewerUrl": null
+        }
+      ]
+    },
+    {
+      "appCode": "lv",
+      "direction": "de→lv",
+      "galaStatus": "VERIFIED_HISTORICAL_LIMITED",
+      "title": "Stender, Lettisches Lexicon, 2. Theil: Deutschlettisches Wörter-Lexikon (1789)",
+      "year": "1789",
+      "approxEntryScale": "~14k historical (manifest estimate)",
+      "accessPrimary": {
+        "type": "LNB_DOM",
+        "url": "https://dom.lndb.lv/data/obj/1709940.html",
+        "liveSearchable": "NOT_VERIFIED_THIS_RUN",
+        "note": "Flipbook HTML loads; PDF bitstream not downloaded."
+      },
+      "accessVerified": {
+        "type": "INTERNET_ARCHIVE_MIRROR",
+        "identifier": "bub_gb_vFhKAAAAcAAJ",
+        "viewerBase": "https://archive.org/details/bub_gb_vFhKAAAAcAAJ",
+        "note": "Full Stender lexicon scan (both parts in one item); Fraktur OCR quality poor."
+      },
+      "pilotLemmas": [
+        {
+          "lemma": "arbeiten",
+          "found": "PARTIAL_OCR",
+          "targetGloss": "Latvian gloss not reliably readable in OCR",
+          "ocrSnippet": "arbeiten. l. … isgahjiil'clui neddefu",
+          "viewerUrl": "https://archive.org/details/bub_gb_vFhKAAAAcAAJ/page/n74"
+        },
+        {
+          "lemma": "Haus",
+          "found": false,
+          "targetGloss": null,
+          "viewerUrl": null,
+          "note": "No Haus string in djvu/pdftotext (Fraktur/encoding)."
+        },
+        {
+          "lemma": "Kleingeld",
+          "found": false,
+          "targetGloss": null,
+          "viewerUrl": null
+        },
+        {
+          "lemma": "bewirten",
+          "found": false,
+          "targetGloss": null,
+          "viewerUrl": null
+        },
+        {
+          "lemma": "Grenzkonflikt",
+          "found": false,
+          "targetGloss": null,
+          "viewerUrl": null
+        },
+        {
+          "lemma": "Machtgier",
+          "found": false,
+          "targetGloss": null,
+          "viewerUrl": null
+        }
+      ]
+    },
+    {
+      "appCode": "lv",
+      "direction": "lv→de",
+      "galaStatus": "NOT_VERIFIED_OPEN_PDF",
+      "title": "Stender, Lettisches Lexicon, 1. Theil: Lettisches Wörter-Lexikon (1789)",
+      "year": "1789",
+      "accessPrimary": {
+        "type": "LU_DSPACE",
+        "url": "https://dspace.lu.lv/items/98bdf37e-0eb8-4fd5-94d4-d6ed655e5791",
+        "liveSearchable": false,
+        "note": "Direct bitstream fetch failed earlier in discovery; not re-opened this run."
+      },
+      "accessVerified": null,
+      "pilotLemmas": [],
+      "notes": "Same Stender IA volume may contain Teil 1, but LV→DE pilot lemmas not verified with readable TARGET gloss + page URL this run."
+    },
+    {
+      "appCode": "lt",
+      "direction": "de→lt",
+      "galaStatus": "GAP",
+      "title": "Lexicon Germanico-Lithvanicum (Brodowski, 18th c.)",
+      "accessPrimary": {
+        "type": "PUBLICATION_METADATA",
+        "url": "https://www.lituanistika.lt/content/20958"
+      },
+      "accessVerified": null,
+      "pilotLemmas": [],
+      "notes": "No modern DE→LT institutional PDF at Valgus scale opened or searched."
+    },
+    {
+      "appCode": "lt",
+      "direction": "lt→de",
+      "galaStatus": "VERIFIED_PARTIAL_VOLUME",
+      "title": "Wörterbuch der litauischen Schriftsprache / Lietuvių rašomosios kalbos žodynas (LKI, vol. 3, 1957)",
+      "authorsEditors": "Alfred Senn, Anton Salys",
+      "year": "1957",
+      "approxScannedPages": 725,
+      "accessVerified": {
+        "type": "INTERNET_ARCHIVE_MIRROR",
+        "identifier": "zodynas-t.-3-1957",
+        "viewerBase": "https://archive.org/details/zodynas-t.-3-1957",
+        "ocrFulltext": "Zodynas, t.3, 1957_djvu.txt",
+        "searchableHeadless": true
+      },
+      "pilotLemmas": [
+        {
+          "lemma": "Haus",
+          "found": false,
+          "targetGloss": null,
+          "viewerUrl": null,
+          "note": "LT-headword dictionary; pilot DE lemma Haus not applicable as headword. Reverse check (LT headword → DE Haus) not completed for namas this run."
+        },
+        {
+          "lemma": "arbeiten",
+          "found": false,
+          "targetGloss": null,
+          "viewerUrl": null,
+          "note": "DE glosses contain arbeiten in compounds only; no pilot row verified with page URL."
+        }
+      ],
+      "notes": "One volume of multi-volume LT→DE set only; does not form symmetric ~30k DE↔LT PDF pair."
+    }
+  ]
+}
