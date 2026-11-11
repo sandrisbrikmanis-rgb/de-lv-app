@@ -1,0 +1,191 @@
+{
+  "schemaVersion": "g2-a1-card-translation-bilingual-audit-hr-hu-is-v1",
+  "description": "Kartīšu tulkojuma audits — digitizēti DE↔TARGET avoti hr/hu (pilotā verificēti, PARTIAL); is bez automatizētas digitizētas DE↔IS ķēdes.",
+  "auditSequence": [
+    {
+      "step": 1,
+      "rule": "Meklē tiešo pāri DE→TARGET primārajā digitizētajā vārdnīcā (OCR, PDF teksts vai MDZ/IIIF lapas)."
+    },
+    {
+      "step": 2,
+      "rule": "Ja nav, meklē TARGET→DE otrajā ķēdes posmā (atsevišķa vārdnīca; hr: Filipović 1875 A–O — P–Z trūkums)."
+    },
+    {
+      "step": 3,
+      "rule": "Papildavotus (hu: REAL-EOD vēsturiskais PDF; hr: kabatas Žepni u.c.) izmanto tikai ja primārais posms nedod pāri — neaizstāj primāro ķēdi."
+    },
+    {
+      "step": 4,
+      "rule": "Pārbaudi vārdšķiru un konkrētās kartītes vācu nozīmi; citai nozīmei piederošu ekvivalentu nepieņem."
+    },
+    {
+      "step": 5,
+      "rule": "Automātiskos tulkotājus, dict.cc, bosniešu/serbu vārdnīcas kā hr aizstājējus un hr/sr maisījumus neizmanto kā pierādījumu."
+    },
+    {
+      "step": 6,
+      "rule": "Saglabā avota nosaukumu, virzienu, atrasto pāri un precīzo viewer / OCR / PDF URL."
+    }
+  ],
+  "regressionPilotDeLemmas": ["Haus", "arbeiten", "Kleingeld", "bewirten", "Grenzkonflikt", "Machtgier"],
+  "languages": {
+    "hr": {
+      "digitizedAuditStatus": "PARTIAL",
+      "primaryDigitized": [
+        {
+          "id": "mdz-bsb-sulek-de-hr-vol1-1860",
+          "name": "Deutsch-kroatisches Wörterbuch vol. I A–L (Bogoslav Šulek, 1860)",
+          "direction": "de→hr",
+          "role": "primary",
+          "accessType": "MDZ IIIF + Internet Archive PDF/OCR (vol. 1)",
+          "viewerUrl": "https://www.digitale-sammlungen.de/de/view/bsb10703395?page=1",
+          "pdfUrl": "https://archive.org/download/bub_gb_qgstAAAAYAAJ/bub_gb_qgstAAAAYAAJ.pdf",
+          "ocrUrl": "https://archive.org/download/bub_gb_qgstAAAAYAAJ/bub_gb_qgstAAAAYAAJ_djvu.txt"
+        },
+        {
+          "id": "mdz-bsb-sulek-de-hr-vol2-1860",
+          "name": "Deutsch-kroatisches Wörterbuch vol. II M–Z (Bogoslav Šulek, 1860)",
+          "direction": "de→hr",
+          "role": "primary",
+          "accessType": "MDZ IIIF page images (vol. 2 completes DE→HR pair)",
+          "viewerUrl": "https://www.digitale-sammlungen.de/de/view/bsb10703396?page=1",
+          "iiifSampleUrl": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb10703396_00050/full/full/0/default.jpg"
+        }
+      ],
+      "reverseChainDigitized": [
+        {
+          "id": "ia-filipovic-hr-de-vol-a-o-1875",
+          "name": "Novi rječnik hrvatskoga i njemačkoga jezika — A–O (Ivan Filipović, 1875)",
+          "direction": "hr→de",
+          "role": "primary_reverse",
+          "accessType": "Internet Archive open PDF + OCR",
+          "viewerUrl": "https://archive.org/details/novi_rjecnik_hrvatskoga_i_njemackoga_jezika_1_a-o_1875-ivan_filipovic",
+          "ocrUrl": "https://archive.org/download/novi_rjecnik_hrvatskoga_i_njemackoga_jezika_1_a-o_1875-ivan_filipovic/novi_rjecnik_hrvatskoga_i_njemackoga_jezika_1_a-o_1875-ivan_filipovic_djvu.txt",
+          "coverageGap": "P–Z volume not found open on IA — HR→DE chain incomplete"
+        }
+      ],
+      "supplementaryReserve": [
+        {
+          "id": "ia-filipovic-de-hr-1869",
+          "name": "Filipović 1869 DE→HR (IA)",
+          "direction": "de→hr",
+          "role": "supplement_only",
+          "note": "Alternate DE→HR; pilot weaker than Šulek OCR — reserve only."
+        }
+      ],
+      "rejectedNotUsable": [
+        {
+          "id": "karadzic-de-sr-1877-ia",
+          "name": "Karadžić Deutsch-serbisches Wörterbuch",
+          "reason": "sr ≠ hr — neaizstāj horvātu audita avotu."
+        },
+        {
+          "id": "samsalovic-de-hr-or-sr-1984",
+          "name": "Šamšalović DE↔HR/SR mixed",
+          "reason": "hr/sr maisījums — nav hr-only pierādījums."
+        }
+      ],
+      "collectorOverrideId": "mdz-bsb-sulek-de-hr-vol1-1860",
+      "sourceChainPriority": [
+        "primaryDigitized:de→hr (mdz-bsb-sulek-de-hr-vol1-1860 + mdz-bsb-sulek-de-hr-vol2-1860)",
+        "reverseChainDigitized:hr→de (ia-filipovic-hr-de-vol-a-o-1875 — A–O only, PARTIAL)",
+        "supplementaryReserve:ia-filipovic-de-hr-1869 (only if primary DE→HR fails)"
+      ],
+      "pilotNotes": {
+        "deToTargetVerifiedLemmas": ["Haus", "arbeiten", "Kleingeld"],
+        "deToTargetHitCount": "3/6",
+        "reverseKućaFound": true,
+        "auditReady": false,
+        "reasonNotReady": "HR→DE reverse volume P–Z missing; overall chain PARTIAL only"
+      }
+    },
+    "hu": {
+      "digitizedAuditStatus": "PARTIAL",
+      "primaryDigitized": [
+        {
+          "id": "mek-24482-nemet-magyar-pdf-2023",
+          "name": "Német–magyar szótár (MEK / OSZK, 2023 PDF)",
+          "direction": "de→hu",
+          "role": "primary",
+          "accessType": "Institutional open PDF (~2378 pages, 2 parts)",
+          "viewerUrl": "https://mek.oszk.hu/24400/24482/",
+          "pdfUrlPart1": "https://mek.oszk.hu/24400/24482/pdf/24482_1.pdf",
+          "pdfUrlPart2": "https://mek.oszk.hu/24400/24482/pdf/24482_2.pdf"
+        },
+        {
+          "id": "mek-00072-de-hu-hu-de-html",
+          "name": "Német-magyar, magyar-német szótár (Molnár Ágnes, 1996 — MEK HTML)",
+          "direction": "de↔hu",
+          "role": "primary_bidirectional",
+          "accessType": "Searchable HTML (~24k entries)",
+          "viewerUrl": "https://mek.oszk.hu/00000/00072/html/index.htm"
+        }
+      ],
+      "reverseChainDigitized": [],
+      "supplementaryReserve": [
+        {
+          "id": "real-eod-nemet-magyar-zsebszotar-vol13-1838",
+          "name": "Magyar és német zsebszótár — REAL-EOD vol. 13 (1838 pocket)",
+          "direction": "hu↔de",
+          "role": "supplement_hu_to_de",
+          "accessType": "Open historical PDF",
+          "pdfUrl": "http://real-eod.mtak.hu/1348/13/Magyar_es_N%C3%A9met_Zsebsz%C3%B3t%C3%A1r.pdf",
+          "note": "HU→DE papildavots; pilot DE→HU weak (1/6) — do not replace MEK primaries."
+        }
+      ],
+      "rejectedNotUsable": [
+        {
+          "id": "ia-halasz-nemet-magyar-1952-borrow",
+          "name": "Halász 1952 on IA (nemetmagyar0000haka)",
+          "reason": "Borrow/LCP — use MEK 24482 for open DE→HU PDF."
+        },
+        {
+          "id": "ia-picdic-nemet-magyar-software",
+          "name": "PICDIC / Data Manager software",
+          "reason": "Nav vārdnīcas skenējuma."
+        }
+      ],
+      "collectorOverrideId": "mek-24482-nemet-magyar-pdf-2023",
+      "sourceChainPriority": [
+        "primaryDigitized:de→hu (mek-24482-nemet-magyar-pdf-2023)",
+        "primaryDigitized:de↔hu (mek-00072-de-hu-hu-de-html — searchable both ways)",
+        "supplementaryReserve:real-eod-nemet-magyar-zsebszotar-vol13-1838 (HU→DE historical supplement)"
+      ],
+      "pilotNotes": {
+        "deToTargetVerifiedLemmas": ["Haus", "arbeiten", "Kleingeld", "bewirten"],
+        "deToTargetHitCountMekHtml": "4/6",
+        "deToTargetHitCountMekPdf": "4/6",
+        "reverseHausToHazVerified": true,
+        "auditReady": false,
+        "reasonNotReady": "No single open modern facsimile both ways; chain registered as PARTIAL"
+      }
+    },
+    "is": {
+      "digitizedAuditStatus": "IS_NOT_VERIFIED_DIGITIZED",
+      "primaryDigitized": [],
+      "reverseChainDigitized": [],
+      "supplementaryReserve": [],
+      "rejectedNotUsable": [
+        {
+          "id": "lexia-is-de-sam",
+          "name": "LEXÍA online IS↔DE",
+          "reason": "SPA — nav automatizēti verificēta ar esošo audit pipeline (NOT_VERIFIED_AUTOMATION)."
+        },
+        {
+          "id": "jon-ofeigsson-1935-print",
+          "name": "Jón Ófeigsson 1935 print (~930 pp)",
+          "reason": "Nav atvērts pilns PDF/skenējums; fiziska grāmata nav digitāls audita avots."
+        },
+        {
+          "id": "dict-cc-de-is",
+          "name": "dict.cc Deutsch–Isländisch",
+          "reason": "Nav institucionāls vārdnīcas skenējums."
+        }
+      ],
+      "sourceChainPriority": [
+        "digitizedAuditStatus:IS_NOT_VERIFIED_DIGITIZED — nav reģistrēta gatava audita ķēde"
+      ],
+      "note": "is nepievienots kā gatavs audita avots; LEXÍA un 1997 drukātais avots nav audit-ready."
+    }
+  }
+}
