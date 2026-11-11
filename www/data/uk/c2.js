@@ -3,24 +3,24 @@ const C2_WORDS = [
     "de": "Unvoreingenommenheit",
     "de_article": "die",
     "de_plural": "die Unvoreingenommenheiten",
-    "lv": "об'єктивність • нейтральність",
+    "lv": "об’єктивність • неупередженість",
     "level": "C2"
   },
   {
     "de": "konterkarieren",
-    "lv": "зірвати",
+    "lv": "зривати • зірвати",
     "level": "C2"
   },
   {
     "de": "Stichhaltigkeit",
     "de_article": "die",
     "de_plural": "die Stichhaltigkeiten",
-    "lv": "розумність",
+    "lv": "обґрунтованість",
     "level": "C2"
   },
   {
     "de": "unmissverständlich",
-    "lv": "безпомилковий",
+    "lv": "недвозначний",
     "level": "C2"
   },
   {
@@ -32,7 +32,7 @@ const C2_WORDS = [
   },
   {
     "de": "veranschaulichen",
-    "lv": "показувати демонстративно",
+    "lv": "наочно показувати • наочно показати",
     "level": "C2"
   },
   {
@@ -45,7 +45,7 @@ const C2_WORDS = [
   {
     "de": "Sorgfaltspflicht",
     "de_article": "die",
-    "lv": "обов'язок догляду",
+    "lv": "обов’язок дбайливості",
     "level": "C2"
   },
   {
@@ -80,17 +80,17 @@ const C2_WORDS = [
     "de": "Teilnehmerausweis",
     "de_article": "der",
     "de_plural": "die Teilnehmerausweise",
-    "lv": "членський квиток",
+    "lv": "посвідчення учасника",
     "level": "C2"
   },
   {
     "de": "batteriebetrieben",
-    "lv": "працює від акумулятора",
+    "lv": "що працює від батарейки",
     "level": "C2"
   },
   {
     "de": "beaufsichtigen",
-    "lv": "монітор",
+    "lv": "наглядати",
     "level": "C2"
   },
   {
@@ -121,7 +121,7 @@ const C2_WORDS = [
   },
   {
     "de": "benachrichtigen",
-    "lv": "оголосити",
+    "lv": "повідомляти • повідомити",
     "level": "C2"
   },
   {
@@ -135,7 +135,7 @@ const C2_WORDS = [
     "de": "Benzinkanister",
     "de_article": "der",
     "de_plural": "die Benzinkanister",
-    "lv": "каністра бензину",
+    "lv": "каністра для бензину",
     "level": "C2"
   },
   {
@@ -154,7 +154,7 @@ const C2_WORDS = [
   },
   {
     "de": "berücksichtigen",
-    "lv": "взяти до уваги",
+    "lv": "брати до уваги • взяти до уваги",
     "level": "C2"
   },
   {
@@ -181,21 +181,165 @@ const C2_WORDS = [
       "id": "c2-gewichtseinheit",
       "layout": "standardStudy",
       "translation": "одиниця ваги",
-      "explanation": "Головна думка: die Gewichtseinheit означає одиницю ваги. Він використовується, коли йдеться про кілограми, грами, тонни та інші одиниці ваги/маси.",
+      "explanation": [
+        "Головна думка: die Gewichtseinheit — одиниця ваги, яку використовують для вимірювання ваги: грам, кілограм, тонна, фунт.",
+        "Складний іменник жіночого роду: die Gewichtseinheit, множина die Gewichtseinheiten. Складається з das Gewicht (вага) і die Einheit (одиниця).",
+        "Це слово технічне й нейтральне; у повсякденні вживають конкретні одиниці (Kilogramm, Gramm, Pfund)."
+      ],
       "examples": [
         {
-          "de": "Kilogramm ist eine Gewichtseinheit.",
-          "lv": "кілограм - одиниця ваги."
+          "de": "Das Kilogramm ist eine Gewichtseinheit.",
+          "lv": "Кілограм — одиниця ваги."
         },
         {
-          "de": "Welche Gewichtseinheit soll ich benutzen?",
-          "lv": "яку одиницю ваги я повинен використовувати?"
+          "de": "Das Pfund ist eine alte Gewichtseinheit.",
+          "lv": "Фунт — давня одиниця ваги."
         },
         {
-          "de": "Gramm und Tonne sind Gewichtseinheiten.",
-          "lv": "грам і тонна є одиницями ваги."
+          "de": "Welche Gewichtseinheit wird in Deutschland verwendet?",
+          "lv": "Яку одиницю ваги використовують у Німеччині?"
         }
-      ]
+      ],
+      "comparison": [
+        {
+          "word": "die Maßeinheit",
+          "meaning": "одиниця виміру",
+          "example": "Der Meter ist eine Maßeinheit. – Метр — одиниця виміру."
+        },
+        {
+          "word": "die Längeneinheit",
+          "meaning": "одиниця довжини",
+          "example": "Der Kilometer ist eine Längeneinheit. – Кілометр — одиниця довжини."
+        },
+        {
+          "word": "das Gewicht",
+          "meaning": "вага",
+          "example": "Das Gewicht beträgt zwei Kilo. – Вага становить два кілограми."
+        }
+      ],
+      "tip": [
+        "Артикль складного слова — це артикль його останньої частини: die Einheit, отже, die Gewichtseinheit.",
+        "Подібно утворюються: Längeneinheit, Zeiteinheit, Volumeneinheit."
+      ],
+      "important": [
+        "У повсякденні слово Gewicht часто позначає масу, проте у фізиці вага й маса — різні поняття."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "die Gewichtseinheit",
+            "die Gewichtseinheiten",
+            "Gewichtseinheit",
+            "das Gewicht",
+            "die Einheit",
+            "Gewichtseinheiten"
+          ],
+          "purple": [
+            "одиниця ваги",
+            "одиниця"
+          ],
+          "green": [
+            "Gewicht"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Gewichtseinheit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "одиниця ваги"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Gewichtseinheit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "одиниця ваги"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Gewichtseinheit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "одиницю ваги"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "die Maßeinheit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "одиниця"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Längeneinheit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "довжини"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "das Gewicht"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "вага"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "Gewichtseinheit",
+              "die Gewichtseinheit",
+              "die Einheit"
+            ]
+          },
+          {
+            "green": [
+              "Längeneinheit"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "green": [
+              "Gewicht"
+            ]
+          }
+        ]
+      }
     }
   },
   {
@@ -206,7 +350,7 @@ const C2_WORDS = [
   },
   {
     "de": "entgegenkommen",
-    "lv": "натрапити",
+    "lv": "іти назустріч • піти назустріч",
     "level": "C2"
   },
   {
@@ -248,14 +392,14 @@ const C2_WORDS = [
     "de": "Gepäckaufbewahrung",
     "de_article": "die",
     "de_plural": "die Gepäckaufbewahrungen",
-    "lv": "камера зберігання багажу",
+    "lv": "камера схову",
     "level": "C2"
   },
   {
     "de": "Geschäftsführer",
     "de_article": "der",
     "de_plural": "die Geschäftsführer",
-    "lv": "менеджер компанії",
+    "lv": "керівник підприємства",
     "level": "C2"
   },
   {
@@ -269,7 +413,7 @@ const C2_WORDS = [
     "de": "Geschenkgutschein",
     "de_article": "der",
     "de_plural": "die Geschenkgutscheine",
-    "lv": "подарунок karte",
+    "lv": "подарункова картка",
     "level": "C2"
   },
   {
@@ -297,7 +441,7 @@ const C2_WORDS = [
     "de": "Streichinstrument",
     "de_article": "das",
     "de_plural": "die Streichinstrumente",
-    "lv": "струнний інструмент",
+    "lv": "струнний смичковий інструмент",
     "level": "C2"
   },
   {
@@ -310,7 +454,7 @@ const C2_WORDS = [
   {
     "de": "Katastrophendienst",
     "de_article": "der",
-    "lv": "служба катастроф",
+    "lv": "служба ліквідації катастроф",
     "level": "C2"
   },
   {
@@ -324,21 +468,21 @@ const C2_WORDS = [
     "de": "Kostensteigerung",
     "de_article": "die",
     "de_plural": "die Kostensteigerungen",
-    "lv": "збільшення витрат",
+    "lv": "зростання витрат",
     "level": "C2"
   },
   {
     "de": "Krankenversicherung",
     "de_article": "die",
     "de_plural": "die Krankenversicherungen",
-    "lv": "страхування на випадок хвороби",
+    "lv": "медичне страхування",
     "level": "C2"
   },
   {
     "de": "Krankheitssymptom",
     "de_article": "das",
     "de_plural": "die Krankheitssymptome",
-    "lv": "симптом захворювання",
+    "lv": "симптом хвороби",
     "level": "C2"
   },
   {
@@ -352,7 +496,7 @@ const C2_WORDS = [
     "de": "Liebenswürdigkeit",
     "de_article": "die",
     "de_plural": "die Liebenswürdigkeiten",
-    "lv": "доброта",
+    "lv": "люб’язність",
     "level": "C2"
   },
   {
@@ -366,14 +510,14 @@ const C2_WORDS = [
     "de": "Lungenentzündung",
     "de_article": "die",
     "de_plural": "die Lungenentzündungen",
-    "lv": "рак легенів",
+    "lv": "запалення легень",
     "level": "C2"
   },
   {
     "de": "Nebelscheinwerfer",
     "de_article": "der",
     "de_plural": "die Nebelscheinwerfer",
-    "lv": "протитуманні фари для авто",
+    "lv": "протитуманна фара",
     "level": "C2"
   },
   {
@@ -408,14 +552,14 @@ const C2_WORDS = [
     "de": "Schlafwagenzimmer",
     "de_article": "das",
     "de_plural": "die Schlafwagenzimmer",
-    "lv": "спальня",
+    "lv": "купе спального вагона",
     "level": "C2"
   },
   {
     "de": "Schlittschuhkufe",
     "de_article": "die",
     "de_plural": "die Schlittschuhkufen",
-    "lv": "нахил саней",
+    "lv": "лезо ковзана",
     "level": "C2"
   },
   {
@@ -427,12 +571,12 @@ const C2_WORDS = [
   },
   {
     "de": "selbstverständlich",
-    "lv": "зрозумілий сам за себе",
+    "lv": "само собою зрозумілий",
     "level": "C2"
   },
   {
     "de": "sicherheitshalber",
-    "lv": "для безпеки",
+    "lv": "про всяк випадок",
     "level": "C2"
   },
   {
@@ -460,14 +604,14 @@ const C2_WORDS = [
     "de": "Straßenüberführung",
     "de_article": "die",
     "de_plural": "die Straßenüberführungen",
-    "lv": "дорожній шляхопровід",
+    "lv": "шляхопровід",
     "level": "C2"
   },
   {
     "de": "Straßenunterführung",
     "de_article": "die",
     "de_plural": "die Straßenunterführungen",
-    "lv": "пішохідний тунель",
+    "lv": "підземний перехід",
     "level": "C2"
   },
   {
@@ -484,24 +628,24 @@ const C2_WORDS = [
   },
   {
     "de": "veröffentlichen",
-    "lv": "опублікувати",
+    "lv": "публікувати • опублікувати",
     "level": "C2"
   },
   {
     "de": "verschlechtern",
-    "lv": "погіршуватися",
+    "lv": "погіршувати • погіршити",
     "level": "C2"
   },
   {
     "de": "sich verschlechtern",
-    "lv": "погіршуватися",
+    "lv": "погіршуватися • погіршитися",
     "level": "C2"
   },
   {
     "de": "Vorstellungsgespräch",
     "de_article": "das",
     "de_plural": "die Vorstellungsgespräche",
-    "lv": "співбесіда при прийомі на роботу",
+    "lv": "співбесіда (при працевлаштуванні)",
     "level": "C2"
   },
   {
@@ -515,21 +659,21 @@ const C2_WORDS = [
     "de": "Windschutzscheibe",
     "de_article": "die",
     "de_plural": "die Windschutzscheiben",
-    "lv": "лобове скло автомобіля",
+    "lv": "лобове скло (автомобіля)",
     "level": "C2"
   },
   {
     "de": "Sehenswürdigkeit",
     "de_article": "die",
     "de_plural": "die Sehenswürdigkeiten",
-    "lv": "видне місце",
+    "lv": "визначне місце",
     "level": "C2"
   },
   {
     "de": "Abenteuergeschichte",
     "de_article": "die",
     "de_plural": "die Abenteuergeschichten",
-    "lv": "історія роману",
+    "lv": "пригодницьке оповідання",
     "level": "C2"
   },
   {
@@ -543,7 +687,7 @@ const C2_WORDS = [
     "de": "Aufenthaltsgenehmigung",
     "de_article": "die",
     "de_plural": "die Aufenthaltsgenehmigungen",
-    "lv": "вид на проживання",
+    "lv": "дозвіл на проживання",
     "level": "C2"
   },
   {
@@ -557,14 +701,14 @@ const C2_WORDS = [
     "de": "Behindertenausweis",
     "de_article": "der",
     "de_plural": "die Behindertenausweise",
-    "lv": "листок непрацездатності",
+    "lv": "посвідчення особи з інвалідністю",
     "level": "C2"
   },
   {
     "de": "Baugenossenschaft",
     "de_article": "die",
     "de_plural": "die Baugenossenschaften",
-    "lv": "багатоквартирний кооператив",
+    "lv": "житлово-будівельний кооператив",
     "level": "C2"
   },
   {
@@ -585,14 +729,14 @@ const C2_WORDS = [
     "de": "Unternehmensberater",
     "de_article": "der",
     "de_plural": "die Unternehmensberater",
-    "lv": "консультант компанії",
+    "lv": "бізнес-консультант",
     "level": "C2"
   },
   {
     "de": "Berichterstatter",
     "de_article": "der",
     "de_plural": "die Berichterstatter",
-    "lv": "репортер • репортер • кореспондент • репортер",
+    "lv": "доповідач • кореспондент • репортер",
     "level": "C2"
   },
   {
@@ -620,7 +764,7 @@ const C2_WORDS = [
     "de": "Bevölkerungsdichte",
     "de_article": "die",
     "de_plural": "die Bevölkerungsdichten",
-    "lv": "щільність населення",
+    "lv": "густота населення",
     "level": "C2"
   },
   {
@@ -655,34 +799,34 @@ const C2_WORDS = [
     "de": "Computersimulation",
     "de_article": "die",
     "de_plural": "die Computersimulationen",
-    "lv": "комп'ютерне моделювання",
+    "lv": "комп’ютерне моделювання",
     "level": "C2"
   },
   {
     "de": "Computerwissenschaft",
     "de_article": "die",
     "de_plural": "die Computerwissenschaften",
-    "lv": "інформатика • інформатика",
+    "lv": "комп’ютерна наука • інформатика",
     "level": "C2"
   },
   {
     "de": "Informationsdefizit",
     "de_article": "das",
-    "lv": "інформаційний дефіцит",
+    "lv": "дефіцит інформації",
     "level": "C2"
   },
   {
     "de": "Sittlichkeitsdelikt",
     "de_article": "das",
     "de_plural": "die Sittlichkeitsdelikte",
-    "lv": "порушення моральних норм",
+    "lv": "порушення норм моралі",
     "level": "C2"
   },
   {
     "de": "Rauschgiftdezernat",
     "de_article": "das",
     "de_plural": "die Rauschgiftdezernate",
-    "lv": "наркологічний відділ",
+    "lv": "відділ боротьби з наркотиками",
     "level": "C2"
   },
   {
@@ -696,7 +840,7 @@ const C2_WORDS = [
     "de": "Bereitschaftsdienst",
     "de_article": "der",
     "de_plural": "die Bereitschaftsdienste",
-    "lv": "оперативна служба",
+    "lv": "чергова служба",
     "level": "C2"
   },
   {
@@ -708,7 +852,7 @@ const C2_WORDS = [
   },
   {
     "de": "durchkreuzen",
-    "lv": "викреслити • перетнути • перетнути • порушити",
+    "lv": "перекреслювати • перекреслити • зривати • зірвати",
     "level": "C2"
   },
   {
@@ -729,14 +873,14 @@ const C2_WORDS = [
     "de": "Durchschnittsleistung",
     "de_article": "die",
     "de_plural": "die Durchschnittsleistungen",
-    "lv": "середня продуктивність • середня продуктивність",
+    "lv": "посередній результат • середній результат",
     "level": "C2"
   },
   {
     "de": "Durchschnittsmensch",
     "de_article": "der",
     "de_plural": "die Durchschnittsmenschen",
-    "lv": "середня людина",
+    "lv": "пересічна людина",
     "level": "C2"
   },
   {
@@ -750,14 +894,14 @@ const C2_WORDS = [
     "de": "Einstellungsgespräch",
     "de_article": "das",
     "de_plural": "die Einstellungsgespräche",
-    "lv": "співбесіда при прийомі на роботу",
+    "lv": "співбесіда (при працевлаштуванні)",
     "level": "C2"
   },
   {
     "de": "Empfehlungsschreiben",
     "de_article": "das",
     "de_plural": "die Empfehlungsschreiben",
-    "lv": "письмова рекомендація",
+    "lv": "рекомендаційний лист",
     "level": "C2"
   },
   {
@@ -769,42 +913,42 @@ const C2_WORDS = [
   },
   {
     "de": "entgegengesetzt",
-    "lv": "навпаки",
+    "lv": "протилежний",
     "level": "C2"
   },
   {
     "de": "Entschlossenheit",
     "de_article": "die",
     "de_plural": "die Entschlossenheiten",
-    "lv": "визначеність • рішучість • беззаперечність",
+    "lv": "твердість • рішучість • непохитність",
     "level": "C2"
   },
   {
     "de": "Entwicklungsland",
     "de_article": "das",
     "de_plural": "die Entwicklungsländer",
-    "lv": "земля забудови",
+    "lv": "країна, що розвивається",
     "level": "C2"
   },
   {
     "de": "Erfrischungsraum",
     "de_article": "der",
     "de_plural": "die Erfrischungsräume",
-    "lv": "шведський стіл",
+    "lv": "буфет",
     "level": "C2"
   },
   {
     "de": "Regierungserklärung",
     "de_article": "die",
     "de_plural": "die Regierungserklärungen",
-    "lv": "урядове оголошення",
+    "lv": "заява уряду",
     "level": "C2"
   },
   {
     "de": "Errungenschaft",
     "de_article": "die",
     "de_plural": "die Errungenschaften",
-    "lv": "досягнення • користь • виграш",
+    "lv": "досягнення • здобуток",
     "level": "C2"
   },
   {
@@ -824,7 +968,7 @@ const C2_WORDS = [
     "de": "Friedensbedingungen",
     "de_article": "die",
     "de_plural": "die Friedensbedingungen",
-    "lv": "мирні умови",
+    "lv": "умови миру",
     "level": "C2"
   },
   {
@@ -866,41 +1010,41 @@ const C2_WORDS = [
     "de": "Gedächtnisschwäche",
     "de_article": "die",
     "de_plural": "die Gedächtnisschwächen",
-    "lv": "погана пам'ять",
+    "lv": "погана пам’ять",
     "level": "C2"
   },
   {
     "de": "Gedächtnisstörung",
     "de_article": "die",
     "de_plural": "die Gedächtnisstörungen",
-    "lv": "погіршення пам'яті",
+    "lv": "розлад пам’яті",
     "level": "C2"
   },
   {
     "de": "Gefängnisaufseher",
     "de_article": "der",
     "de_plural": "die Gefängnisaufseher",
-    "lv": "наглядач в'язниці",
+    "lv": "тюремний наглядач",
     "level": "C2"
   },
   {
     "de": "Gefängnisinsasse",
     "de_article": "der",
     "de_plural": "die Gefängnisinsassen",
-    "lv": "в'язень",
+    "lv": "в’язень",
     "level": "C2"
   },
   {
     "de": "Gefäßerweiterung",
     "de_article": "die",
     "de_plural": "die Gefäßerweiterungen",
-    "lv": "розширення кровоносних судин",
+    "lv": "розширення судин",
     "level": "C2"
   },
   {
     "de": "Geistesgegenwart",
     "de_article": "die",
-    "lv": "винахідливість",
+    "lv": "кмітливість",
     "level": "C2"
   },
   {
@@ -933,7 +1077,7 @@ const C2_WORDS = [
     "de": "Dorfgemeinschaft",
     "de_article": "die",
     "de_plural": "die Dorfgemeinschaften",
-    "lv": "селяни",
+    "lv": "сільська громада",
     "level": "C2"
   },
   {
@@ -975,21 +1119,21 @@ const C2_WORDS = [
     "de": "Schiedsgericht",
     "de_article": "das",
     "de_plural": "die Schiedsgerichte",
-    "lv": "арбітраж",
+    "lv": "третейський суд",
     "level": "C2"
   },
   {
     "de": "Gerichtsverfahren",
     "de_article": "das",
     "de_plural": "die Gerichtsverfahren",
-    "lv": "судові процеси",
+    "lv": "судовий процес",
     "level": "C2"
   },
   {
     "de": "Geschäftsordnung",
     "de_article": "die",
     "de_plural": "die Geschäftsordnungen",
-    "lv": "регламент • регламент",
+    "lv": "положення • регламент",
     "level": "C2"
   },
   {
@@ -1023,26 +1167,26 @@ const C2_WORDS = [
     "de": "Geschwindigkeitsüberschreitung",
     "de_article": "die",
     "de_plural": "die Geschwindigkeitsüberschreitungen",
-    "lv": "недотримання встановленої швидкості • порушення",
+    "lv": "перевищення швидкості",
     "level": "C2"
   },
   {
     "de": "gesellschaftlich",
-    "lv": "громадські • суспільства",
+    "lv": "суспільний • громадський",
     "level": "C2"
   },
   {
     "de": "Gesellschaftsordnung",
     "de_article": "die",
     "de_plural": "die Gesellschaftsordnungen",
-    "lv": "громадський заклад",
+    "lv": "суспільний лад",
     "level": "C2"
   },
   {
     "de": "Gesetzesvorlage",
     "de_article": "die",
     "de_plural": "die Gesetzesvorlagen",
-    "lv": "рахунок",
+    "lv": "законопроєкт",
     "level": "C2"
   },
   {
@@ -1056,7 +1200,7 @@ const C2_WORDS = [
     "de": "Gewerkschaftsbeitrag",
     "de_article": "der",
     "de_plural": "die Gewerkschaftsbeiträge",
-    "lv": "профспілкові членські внески",
+    "lv": "профспілковий внесок",
     "level": "C2"
   },
   {
@@ -1070,42 +1214,42 @@ const C2_WORDS = [
     "de": "Gewinnauszahlung",
     "de_article": "die",
     "de_plural": "die Gewinnauszahlungen",
-    "lv": "виплата лотерейних виграшів",
+    "lv": "виплата лотерейного виграшу",
     "level": "C2"
   },
   {
     "de": "Gipfelkonferenz",
     "de_article": "die",
     "de_plural": "die Gipfelkonferenzen",
-    "lv": "конференції на найвищому рівні",
+    "lv": "конференція на найвищому рівні",
     "level": "C2"
   },
   {
     "de": "Gleichberechtigung",
     "de_article": "die",
     "de_plural": "die Gleichberechtigungen",
-    "lv": "рівність",
+    "lv": "рівноправність",
     "level": "C2"
   },
   {
     "de": "Grundnahrungsmittel",
     "de_article": "das",
     "de_plural": "die Grundnahrungsmittel",
-    "lv": "основний продукт харчування",
+    "lv": "основний харчовий продукт",
     "level": "C2"
   },
   {
     "de": "Handelsabkommen",
     "de_article": "das",
     "de_plural": "die Handelsabkommen",
-    "lv": "торговий договір",
+    "lv": "торговельна угода",
     "level": "C2"
   },
   {
     "de": "Hausgemeinschaft",
     "de_article": "die",
     "de_plural": "die Hausgemeinschaften",
-    "lv": "члени сім'ї • мешканці будинку",
+    "lv": "члени родини • мешканці будинку",
     "level": "C2"
   },
   {
@@ -1119,21 +1263,21 @@ const C2_WORDS = [
     "de": "Herztransplantation",
     "de_article": "die",
     "de_plural": "die Herztransplantationen",
-    "lv": "пересадка серця",
+    "lv": "трансплантація серця",
     "level": "C2"
   },
   {
     "de": "Hinterlassenschaft",
     "de_article": "die",
     "de_plural": "die Hinterlassenschaften",
-    "lv": "успадкування",
+    "lv": "спадщина",
     "level": "C2"
   },
   {
     "de": "Kabinettsbeschluss",
     "de_article": "der",
     "de_plural": "die Kabinettsbeschlüsse",
-    "lv": "рішення кабінету міністрів",
+    "lv": "рішення кабінету",
     "level": "C2"
   },
   {
@@ -1147,7 +1291,7 @@ const C2_WORDS = [
     "de": "Koalitionspartner",
     "de_article": "der",
     "de_plural": "die Koalitionspartner",
-    "lv": "партнер по коаліції",
+    "lv": "коаліційний партнер",
     "level": "C2"
   },
   {
@@ -1161,21 +1305,21 @@ const C2_WORDS = [
     "de": "Kriegsentschädigung",
     "de_article": "die",
     "de_plural": "die Kriegsentschädigungen",
-    "lv": "відшкодування втрат у війні • репарації",
+    "lv": "компенсація воєнних збитків • репарації",
     "level": "C2"
   },
   {
     "de": "Lebenserhaltungstrieb",
     "de_article": "der",
     "de_plural": "die Lebenserhaltungstriebe",
-    "lv": "драйв життя",
+    "lv": "інстинкт самозбереження",
     "level": "C2"
   },
   {
     "de": "Lebenshaltungskosten",
     "de_article": "die",
     "de_plural": "die Lebenshaltungskosten",
-    "lv": "засоби існування • витрати",
+    "lv": "кошти на прожиття • вартість життя",
     "level": "C2"
   },
   {
@@ -1196,7 +1340,7 @@ const C2_WORDS = [
     "de": "Mannschaftskampf",
     "de_article": "der",
     "de_plural": "die Mannschaftskämpfe",
-    "lv": "командне змагання",
+    "lv": "командні змагання",
     "level": "C2"
   },
   {
@@ -1210,19 +1354,19 @@ const C2_WORDS = [
     "de": "Meinungsverschiedenheiten",
     "de_article": "die",
     "de_plural": "die Meinungsverschiedenheiten",
-    "lv": "розбіжності",
+    "lv": "розбіжності в думках",
     "level": "C2"
   },
   {
     "de": "Meisterschaftsspiel",
     "de_article": "das",
     "de_plural": "die Meisterschaftsspiele",
-    "lv": "майстер раси",
+    "lv": "матч чемпіонату",
     "level": "C2"
   },
   {
     "de": "menschenfreundlich",
-    "lv": "гуманний • гуманний",
+    "lv": "гуманний • людяний",
     "level": "C2"
   },
   {
@@ -1243,7 +1387,7 @@ const C2_WORDS = [
     "de": "Nebenbeschäftigung",
     "de_article": "die",
     "de_plural": "die Nebenbeschäftigungen",
-    "lv": "підробіток",
+    "lv": "додаткова робота",
     "level": "C2"
   },
   {
@@ -1257,14 +1401,14 @@ const C2_WORDS = [
     "de": "Parlamentarier",
     "de_article": "der",
     "de_plural": "die Parlamentarier",
-    "lv": "депутат • парламентарій",
+    "lv": "депутат парламенту • парламентар",
     "level": "C2"
   },
   {
     "de": "Pflichtversicherung",
     "de_article": "die",
     "de_plural": "die Pflichtversicherungen",
-    "lv": "обов'язкове страхування",
+    "lv": "обов’язкове страхування",
     "level": "C2"
   },
   {
@@ -1282,19 +1426,19 @@ const C2_WORDS = [
     "de": "Preisausschreiben",
     "de_article": "das",
     "de_plural": "die Preisausschreiben",
-    "lv": "змагання",
+    "lv": "конкурс",
     "level": "C2"
   },
   {
     "de": "rechtsextremistisch",
-    "lv": "правий екстреміст",
+    "lv": "правоекстремістський",
     "level": "C2"
   },
   {
     "de": "Satellitenübertragung",
     "de_article": "die",
     "de_plural": "die Satellitenübertragungen",
-    "lv": "трансляція супутникового телебачення",
+    "lv": "супутникова трансляція",
     "level": "C2"
   },
   {
@@ -1336,28 +1480,28 @@ const C2_WORDS = [
     "de": "Selbstverteidigung",
     "de_article": "die",
     "de_plural": "die Selbstverteidigungen",
-    "lv": "набір прийомів самозахисту",
+    "lv": "самооборона",
     "level": "C2"
   },
   {
     "de": "Staatsangehörigkeit",
     "de_article": "die",
     "de_plural": "die Staatsangehörigkeiten",
-    "lv": "державність",
+    "lv": "громадянство",
     "level": "C2"
   },
   {
     "de": "Steuererleichterung",
     "de_article": "die",
     "de_plural": "die Steuererleichterungen",
-    "lv": "податкові пільги",
+    "lv": "податкова пільга",
     "level": "C2"
   },
   {
     "de": "Strafgesetzbuch",
     "de_article": "das",
     "de_plural": "die Strafgesetzbücher",
-    "lv": "юр кримінальний кодекс",
+    "lv": "(юр.) кримінальний кодекс",
     "level": "C2"
   },
   {
@@ -1376,21 +1520,21 @@ const C2_WORDS = [
   },
   {
     "de": "verallgemeinern",
-    "lv": "узагальнювати",
+    "lv": "узагальнювати • узагальнити",
     "level": "C2"
   },
   {
     "de": "Verhütungsmittel",
     "de_article": "das",
     "de_plural": "die Verhütungsmittel",
-    "lv": "контрацептивний",
+    "lv": "протизаплідний засіб",
     "level": "C2"
   },
   {
     "de": "Waffenstillstand",
     "de_article": "der",
     "de_plural": "die Waffenstillstände",
-    "lv": "перемир'я",
+    "lv": "перемир’я",
     "level": "C2"
   },
   {
@@ -1409,12 +1553,12 @@ const C2_WORDS = [
   },
   {
     "de": "zugrunde, zu Grunde",
-    "lv": "в основному",
+    "lv": "в основі",
     "level": "C2"
   },
   {
     "de": "zugunsten, zu Gunsten",
-    "lv": "на благо • на благо",
+    "lv": "на користь",
     "level": "C2"
   },
   {
@@ -1429,22 +1573,22 @@ const C2_WORDS = [
   },
   {
     "de": "instand",
-    "lv": "в порядку",
+    "lv": "у справному стані",
     "level": "C2"
   },
   {
     "de": "in Stand",
-    "lv": "в порядку",
+    "lv": "у справному стані",
     "level": "C2"
   },
   {
     "de": "inwiefern",
-    "lv": "в якій мірі",
+    "lv": "наскільки",
     "level": "C2"
   },
   {
     "de": "inwieweit",
-    "lv": "в якій мірі",
+    "lv": "наскільки",
     "level": "C2"
   },
   {
@@ -1472,14 +1616,14 @@ const C2_WORDS = [
     "de": "Kriegsgefangene",
     "de_article": "der",
     "de_plural": "die Kriegsgefangenen",
-    "lv": "військовополоненим",
+    "lv": "військовополонений",
     "level": "C2"
   },
   {
     "de": "Sachverständige",
     "de_article": "der",
     "de_plural": "die Sachverständigen",
-    "lv": "вправний • експерт",
+    "lv": "фахівець • експерт",
     "level": "C2"
   }
 ];
