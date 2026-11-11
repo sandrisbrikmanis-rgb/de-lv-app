@@ -8,7 +8,7 @@ const C1_WORDS = [
   },
   {
     "de": "gewährleisten",
-    "lv": "надавати",
+    "lv": "забезпечувати • забезпечити",
     "level": "C1"
   },
   {
@@ -32,19 +32,19 @@ const C1_WORDS = [
   },
   {
     "de": "nachvollziehen",
-    "lv": "розуміти • слідувати логіці",
+    "lv": "розуміти • зрозуміти • стежити за логікою",
     "level": "C1"
   },
   {
     "de": "ausschlaggebend",
-    "lv": "вирішальним",
+    "lv": "вирішальний",
     "level": "C1"
   },
   {
     "de": "Belastbarkeit",
     "de_article": "die",
     "de_plural": "die Belastbarkeiten",
-    "lv": "стресостійкість • стійкість до навантаження",
+    "lv": "стресостійкість • стійкість до навантажень",
     "level": "C1"
   },
   {
@@ -70,19 +70,19 @@ const C1_WORDS = [
     "de": "Alarmbereitschaft",
     "de_article": "die",
     "de_plural": "die Alarmbereitschaften",
-    "lv": "тривожна готовність",
+    "lv": "стан підвищеної готовності",
     "level": "C1"
   },
   {
     "de": "Altweibersommer",
     "de_article": "der",
     "de_plural": "die Altweibersommer",
-    "lv": "весна",
+    "lv": "бабине літо",
     "level": "C1"
   },
   {
     "de": "anfechten",
-    "lv": "диспут • питання",
+    "lv": "оскаржувати • оскаржити • ставити під сумнів • поставити під сумнів",
     "level": "C1"
   },
   {
@@ -92,7 +92,7 @@ const C1_WORDS = [
   },
   {
     "de": "anderweitig",
-    "lv": "в іншому місці • інакше",
+    "lv": "деінде • інакше",
     "level": "C1"
   },
   {
@@ -125,7 +125,7 @@ const C1_WORDS = [
   },
   {
     "de": "abstumpfen",
-    "lv": "притуплювати • робити безчутним",
+    "lv": "притупляти • притупити • робити нечутливим • зробити нечутливим",
     "level": "C1"
   },
   {
@@ -139,25 +139,25 @@ const C1_WORDS = [
     "de": "Affekt",
     "de_article": "der",
     "de_plural": "die Affekte",
-    "lv": "спалах емоцій",
+    "lv": "афект • спалах емоцій",
     "level": "C1"
   },
   {
     "de": "ächten",
-    "lv": "остракізувати • соціально остракізувати",
+    "lv": "піддавати остракізму • піддати остракізму",
     "level": "C1"
   },
   {
     "de": "Flottenstützpunkt",
     "de_article": "der",
     "de_plural": "die Flottenstützpunkte",
-    "lv": "військово-морська база",
+    "lv": "морська база",
     "level": "C1"
   },
   {
     "de": "Flugwetter",
     "de_article": "das",
-    "lv": "погодні умови для польоту",
+    "lv": "льотна погода",
     "level": "C1"
   },
   {
@@ -171,14 +171,14 @@ const C1_WORDS = [
     "de": "Frachtgeld",
     "de_article": "das",
     "de_plural": "die Frachtgelder",
-    "lv": "транспортні витрати",
+    "lv": "плата за перевезення вантажу",
     "level": "C1"
   },
   {
     "de": "Frauenrechtlerin",
     "de_article": "die",
     "de_plural": "die Frauenrechtlerinnen",
-    "lv": "борець за рівноправність жінок",
+    "lv": "борчиня за права жінок",
     "level": "C1"
   },
   {
@@ -206,14 +206,14 @@ const C1_WORDS = [
     "de": "Zivilgesetzbuch",
     "de_article": "das",
     "de_plural": "die Zivilgesetzbücher",
-    "lv": "цивільне право",
+    "lv": "цивільний кодекс",
     "level": "C1"
   },
   {
     "de": "Aktie",
     "de_article": "die",
     "de_plural": "die Aktien",
-    "lv": "дію",
+    "lv": "акція",
     "level": "C1"
   },
   {
@@ -227,7 +227,7 @@ const C1_WORDS = [
     "de": "Anwalt",
     "de_article": "der",
     "de_plural": "die Anwälte",
-    "lv": "юрист",
+    "lv": "адвокат",
     "level": "C1"
   },
   {
@@ -244,48 +244,48 @@ const C1_WORDS = [
     "de": "Autokennzeichen",
     "de_article": "das",
     "de_plural": "die Autokennzeichen",
-    "lv": "літери та цифри на номерному знаку автомобіля",
+    "lv": "номерний знак автомобіля",
     "level": "C1"
   },
   {
     "de": "Bäckerhandwerk",
     "de_article": "das",
     "de_plural": "die Bäckerhandwerke",
-    "lv": "робота пекаря",
+    "lv": "пекарське ремесло",
     "level": "C1"
   },
   {
     "de": "bekannt geben",
-    "lv": "оголосити",
+    "lv": "оголошувати • оголосити",
     "level": "C1"
   },
   {
     "de": "Bergwanderung",
     "de_article": "die",
     "de_plural": "die Bergwanderungen",
-    "lv": "гірський туризм",
+    "lv": "гірський туризм • гірський похід",
     "level": "C1"
   },
   {
     "de": "beschäftigen",
-    "lv": "найняти",
+    "lv": "давати роботу • дати роботу",
     "level": "C1"
   },
   {
     "de": "sich beschäftigen",
-    "lv": "займати",
+    "lv": "займатися • зайнятися",
     "level": "C1"
   },
   {
     "de": "Beschäftigung",
     "de_article": "die",
     "de_plural": "die Beschäftigungen",
-    "lv": "професія",
+    "lv": "заняття",
     "level": "C1"
   },
   {
     "de": "beschleunigen",
-    "lv": "прискорити",
+    "lv": "прискорювати • прискорити",
     "level": "C1"
   },
   {
@@ -297,14 +297,14 @@ const C1_WORDS = [
   },
   {
     "de": "beurteilen",
-    "lv": "оцінювати",
+    "lv": "оцінювати • оцінити",
     "level": "C1"
   },
   {
     "de": "Autobahnbrücke",
     "de_article": "die",
     "de_plural": "die Autobahnbrücken",
-    "lv": "дорожній шляхопровід",
+    "lv": "шляхопровід",
     "level": "C1"
   },
   {
@@ -329,7 +329,7 @@ const C1_WORDS = [
   },
   {
     "de": "charakteristisch",
-    "lv": "характеристика",
+    "lv": "характерний",
     "level": "C1"
   },
   {
@@ -348,46 +348,196 @@ const C1_WORDS = [
   },
   {
     "de": "durchschnittlich",
-    "lv": "в середньому",
+    "lv": "у середньому",
     "level": "C1"
   },
   {
     "de": "durchstreichen",
-    "lv": "викреслювати",
+    "lv": "перекреслювати • перекреслити",
     "level": "C1"
   },
   {
     "de": "Einfamilienhaus",
     "de_article": "das",
     "de_plural": "die Einfamilienhäuser",
-    "lv": "односімейний будинок",
+    "lv": "будинок на одну сім’ю",
     "level": "C1",
     "study": {
       "id": "c1-einfamilienhaus",
       "layout": "standardStudy",
-      "translation": "односімейний будинок",
-      "explanation": "Головна думка: das Einfamilienhaus будинок для однієї сім'ї. Зазвичай це окремий будинок, а не багатоквартирний будинок.",
+      "translation": "будинок на одну сім’ю",
+      "explanation": [
+        "Головна думка: das Einfamilienhaus — це будинок, призначений для однієї сім’ї, — окремий або суміжний із сусідніми, але з однією квартирою і зазвичай із власним садом.",
+        "Іменник середнього роду: das Einfamilienhaus, множина die Einfamilienhäuser. Складається з Ein- + Familie + Haus.",
+        "Протилежність — das Mehrfamilienhaus (багатоквартирний будинок)."
+      ],
       "examples": [
         {
-          "de": "Sie wohnen in einem Einfamilienhaus.",
-          "lv": "вони живуть в будинку для однієї родини."
+          "de": "Sie wohnen in einem Einfamilienhaus am Stadtrand.",
+          "lv": "Вони живуть у будинку на одну сім’ю на околиці міста."
         },
         {
-          "de": "Das Einfamilienhaus hat einen Garten.",
-          "lv": "односімейний будинок має сад."
+          "de": "Das Einfamilienhaus hat einen kleinen Garten.",
+          "lv": "Будинок на одну сім’ю має невеликий сад."
         },
         {
-          "de": "Nebenan steht ein Mehrfamilienhaus.",
-          "lv": "поруч є житловий будинок."
+          "de": "Sie träumen von einem eigenen Einfamilienhaus.",
+          "lv": "Вони мріють про власний будинок на одну сім’ю."
+        },
+        {
+          "de": "In dieser Siedlung stehen nur Einfamilienhäuser.",
+          "lv": "У цьому житловому масиві стоять лише будинки на одну сім’ю."
         }
-      ]
+      ],
+      "comparison": [
+        {
+          "word": "das Mehrfamilienhaus",
+          "meaning": "багатоквартирний будинок",
+          "example": "Im Mehrfamilienhaus wohnen zehn Familien. – У багатоквартирному будинку живуть десять сімей."
+        },
+        {
+          "word": "das Reihenhaus",
+          "meaning": "зблокований будинок",
+          "example": "Das Reihenhaus steht zwischen zwei anderen. – Зблокований будинок стоїть між двома іншими."
+        },
+        {
+          "word": "das Hochhaus",
+          "meaning": "висотний будинок",
+          "example": "Im Hochhaus gibt es einen Aufzug. – У висотному будинку є ліфт."
+        }
+      ],
+      "tip": [
+        "Складне слово можна зрозуміти за частинами: ein + Familie + Haus.",
+        "Поширене сполучення: ein Einfamilienhaus bauen / kaufen / mieten."
+      ],
+      "important": [
+        "Einfamilienhaus — це не те саме, що Villa: це може бути й зовсім простий будинок."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Einfamilienhaus",
+            "Einfamilienhäuser"
+          ],
+          "purple": [
+            "будинок"
+          ],
+          "green": [
+            "das Mehrfamilienhaus",
+            "Mehrfamilienhaus"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Einfamilienhaus"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "одну сім’ю"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Einfamilienhaus"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "одну сім’ю"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Einfamilienhaus"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "одну сім’ю"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Einfamilienhäuser"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "одну сім’ю"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "das Mehrfamilienhaus"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "багатоквартирний"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "das Reihenhaus"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "зблокований"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "das Hochhaus"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "висотний"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {
+            "blue": [
+              "Einfamilienhaus"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "Einfamilienhaus"
+            ]
+          }
+        ]
+      }
     }
   },
   {
     "de": "Eisenbahnfahrt",
     "de_article": "die",
     "de_plural": "die Eisenbahnfahrten",
-    "lv": "подорож поїздом",
+    "lv": "поїздка залізницею",
     "level": "C1"
   },
   {
@@ -413,17 +563,17 @@ const C1_WORDS = [
     "de": "Gartenerdbeere",
     "de_article": "die",
     "de_plural": "die Gartenerdbeeren",
-    "lv": "суниця садова",
+    "lv": "полуниця",
     "level": "C1"
   },
   {
     "de": "erforderlich",
-    "lv": "необхідно",
+    "lv": "необхідний",
     "level": "C1"
   },
   {
     "de": "fabelhaft",
-    "lv": "відмінно",
+    "lv": "чудовий",
     "level": "C1"
   },
   {
@@ -433,7 +583,7 @@ const C1_WORDS = [
   },
   {
     "de": "folgendermaßen",
-    "lv": "наступним чином",
+    "lv": "у такий спосіб",
     "level": "C1"
   },
   {
@@ -459,19 +609,19 @@ const C1_WORDS = [
     "de": "Gepäckträger",
     "de_article": "der",
     "de_plural": "die Gepäckträger",
-    "lv": "стовбур",
+    "lv": "багажник",
     "level": "C1"
   },
   {
     "de": "geschäftlich",
-    "lv": "угода",
+    "lv": "діловий",
     "level": "C1"
   },
   {
     "de": "Geschäftsmann",
     "de_article": "der",
     "de_plural": "die Geschäftsleute",
-    "lv": "підприємець",
+    "lv": "бізнесмен • підприємець",
     "level": "C1"
   },
   {
@@ -481,30 +631,30 @@ const C1_WORDS = [
   },
   {
     "de": "geschmacklos",
-    "lv": "несмачний",
+    "lv": "позбавлений смаку",
     "level": "C1"
   },
   {
     "de": "geschmackvoll",
-    "lv": "зі смаком",
+    "lv": "вишуканий • зі смаком",
     "level": "C1"
   },
   {
     "de": "gesetzlich",
-    "lv": "правовий",
+    "lv": "законний",
     "level": "C1"
   },
   {
     "de": "Gesichtspunkt",
     "de_article": "der",
     "de_plural": "die Gesichtspunkte",
-    "lv": "думка",
+    "lv": "точка зору",
     "level": "C1"
   },
   {
     "de": "Gewichtheben",
     "de_article": "das",
-    "lv": "підняття тяжкості",
+    "lv": "важка атлетика",
     "level": "C1"
   },
   {
@@ -516,18 +666,18 @@ const C1_WORDS = [
     "de": "Gipfel",
     "de_article": "der",
     "de_plural": "die Gipfel",
-    "lv": "пік",
+    "lv": "вершина",
     "level": "C1"
   },
   {
     "de": "Hausangestellte",
     "de_article": "die",
-    "lv": "економка",
+    "lv": "хатня робітниця",
     "level": "C1"
   },
   {
     "de": "hinaufklettern",
-    "lv": "підніматися вгору",
+    "lv": "вилазити • вилізти",
     "level": "C1"
   },
   {
@@ -546,14 +696,14 @@ const C1_WORDS = [
     "de": "Hochzeitsfeier",
     "de_article": "die",
     "de_plural": "die Hochzeitsfeiern",
-    "lv": "святкування весілля",
+    "lv": "весільне святкування",
     "level": "C1"
   },
   {
     "de": "Hochzeitsreise",
     "de_article": "die",
     "de_plural": "die Hochzeitsreisen",
-    "lv": "медовий місяць",
+    "lv": "весільна подорож",
     "level": "C1"
   },
   {
@@ -579,7 +729,7 @@ const C1_WORDS = [
     "de": "Tasteninstrument",
     "de_article": "das",
     "de_plural": "die Tasteninstrumente",
-    "lv": "клавіатура",
+    "lv": "клавішний інструмент",
     "level": "C1"
   },
   {
@@ -593,7 +743,7 @@ const C1_WORDS = [
     "de": "Kabelanschluss",
     "de_article": "der",
     "de_plural": "die Kabelanschlüsse",
-    "lv": "підключення кабельного телебачення",
+    "lv": "підключення до кабельного телебачення",
     "level": "C1"
   },
   {
@@ -613,7 +763,7 @@ const C1_WORDS = [
     "de": "Pressekampagne",
     "de_article": "die",
     "de_plural": "die Pressekampagnen",
-    "lv": "прес-кампанія",
+    "lv": "кампанія в пресі",
     "level": "C1"
   },
   {
@@ -632,14 +782,14 @@ const C1_WORDS = [
   },
   {
     "de": "klagen",
-    "lv": "скаржитися",
+    "lv": "скаржитися • поскаржитися",
     "level": "C1"
   },
   {
     "de": "Kostenanschlag",
     "de_article": "der",
     "de_plural": "die Kostenanschläge",
-    "lv": "кошторис витрат",
+    "lv": "кошторис",
     "level": "C1"
   },
   {
@@ -651,14 +801,14 @@ const C1_WORDS = [
     "de": "Krankheitsbild",
     "de_article": "das",
     "de_plural": "die Krankheitsbilder",
-    "lv": "сцена хвороби",
+    "lv": "картина хвороби",
     "level": "C1"
   },
   {
     "de": "Lastkraftwagen",
     "de_article": "der",
     "de_plural": "die Lastkraftwagen",
-    "lv": "важкий автомобіль",
+    "lv": "вантажний автомобіль",
     "level": "C1"
   },
   {
@@ -689,7 +839,7 @@ const C1_WORDS = [
   {
     "de": "Menschenrechte",
     "de_article": "die",
-    "lv": "прав людини",
+    "lv": "права людини",
     "level": "C1"
   },
   {
@@ -710,7 +860,7 @@ const C1_WORDS = [
     "de": "Modezeitschrift",
     "de_article": "die",
     "de_plural": "die Modezeitschriften",
-    "lv": "модний журнал",
+    "lv": "журнал мод",
     "level": "C1"
   },
   {
@@ -724,7 +874,7 @@ const C1_WORDS = [
     "de": "Morgengymnastik",
     "de_article": "die",
     "de_plural": "die Morgengymnastiken",
-    "lv": "світанок",
+    "lv": "ранкова гімнастика",
     "level": "C1"
   },
   {
@@ -757,27 +907,180 @@ const C1_WORDS = [
     "de": "Öffentlichkeit",
     "de_article": "die",
     "de_plural": "die Öffentlichkeiten",
-    "lv": "суспільство • відкритість",
+    "lv": "громадськість • публічність",
     "level": "C1",
     "study": {
       "id": "c1-offentlichkeit",
       "layout": "standardStudy",
-      "translation": "суспільство • відкритість",
-      "explanation": "Головна думка: die Öffentlichkeit означає суспільство як публічний простір або людей загалом. У фразі an die Öffentlichkeit kommen це означає вийти на відкрите.",
+      "translation": "громадськість • публічність",
+      "explanation": [
+        "Головна думка: die Öffentlichkeit — це громадськість, тобто всі люди, яким щось доступне чи відоме, і водночас публічність, гласність — стан, коли щось не є таємним.",
+        "Іменник жіночого роду: die Öffentlichkeit, множини практично немає. Поширені вирази: in der Öffentlichkeit (публічно, на людях), an die Öffentlichkeit gehen (оприлюднювати), unter Ausschluss der Öffentlichkeit (без присутності громадськості), die Öffentlichkeit informieren.",
+        "Не плутай із die Gesellschaft (суспільство): це інше значення."
+      ],
       "examples": [
         {
-          "de": "Die Öffentlichkeit reagierte kritisch.",
-          "lv": "громадськість відреагувала критично."
+          "de": "Der Politiker trat vor die Öffentlichkeit.",
+          "lv": "Політик виступив перед громадськістю."
         },
         {
-          "de": "Der Fall kam an die Öffentlichkeit.",
-          "lv": "справа розкрилася."
+          "de": "In der Öffentlichkeit darf man hier nicht rauchen.",
+          "lv": "Тут не можна курити в громадських місцях."
         },
         {
-          "de": "Die Öffentlichkeit hat ein Recht auf Information.",
-          "lv": "громадськість має право на інформацію."
+          "de": "Die Verhandlung fand unter Ausschluss der Öffentlichkeit statt.",
+          "lv": "Судове засідання відбулося без присутності громадськості."
+        },
+        {
+          "de": "Die Firma will den Skandal nicht an die Öffentlichkeit bringen.",
+          "lv": "Фірма не хоче оприлюднювати скандал."
         }
-      ]
+      ],
+      "comparison": [
+        {
+          "word": "die Gesellschaft",
+          "meaning": "суспільство (як система)",
+          "example": "Die Gesellschaft verändert sich. – Суспільство змінюється."
+        },
+        {
+          "word": "das Publikum",
+          "meaning": "публіка",
+          "example": "Das Publikum klatscht. – Публіка аплодує."
+        },
+        {
+          "word": "die Bevölkerung",
+          "meaning": "населення",
+          "example": "Die Bevölkerung wächst. – Населення зростає."
+        }
+      ],
+      "tip": [
+        "Вживається з прийменниками: in der Öffentlichkeit (де?), an die Öffentlichkeit (куди?).",
+        "Схоже значення має слово die Allgemeinheit (усі люди загалом)."
+      ],
+      "important": [
+        "Множини зазвичай не вживають: die Öffentlichkeiten трапляється рідко."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "die Öffentlichkeit",
+            "in der Öffentlichkeit",
+            "an die Öffentlichkeit gehen",
+            "unter Ausschluss der Öffentlichkeit",
+            "Gesellschaft",
+            "Öffentlichkeit"
+          ],
+          "purple": [
+            "громадськість",
+            "публічність",
+            "публічно"
+          ],
+          "green": [
+            "die Gesellschaft"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Öffentlichkeit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "громадськістю"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Öffentlichkeit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "громадських місцях"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Öffentlichkeit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "громадськості"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Öffentlichkeit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "оприлюднювати"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "die Gesellschaft"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "суспільство"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "das Publikum"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "публіка"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Bevölkerung"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "населення"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "Öffentlichkeit",
+              "die Öffentlichkeit",
+              "in der Öffentlichkeit"
+            ]
+          },
+          {}
+        ],
+        "important": [
+          {}
+        ]
+      }
     }
   },
   {
@@ -791,34 +1094,188 @@ const C1_WORDS = [
     "de": "Partei",
     "de_article": "die",
     "de_plural": "die Parteien",
-    "lv": "вечірка • вечірка",
+    "lv": "партія • сторона",
     "level": "C1",
     "study": {
       "id": "c1-partei",
       "layout": "standardStudy",
-      "translation": "вечірка • вечірка",
-      "explanation": "Головна думка: die Partei зазвичай є політичною партією. На юридичній або конфліктній мові це також може означати сторону.",
+      "translation": "партія • сторона",
+      "explanation": [
+        "Головна думка: die Partei — це політична партія (die CDU ist eine Partei), а також сторона в суперечці, у суді чи в договорі: die Streitparteien, die Vertragsparteien.",
+        "Іменник жіночого роду: die Partei, множина die Parteien. Вислів Partei ergreifen für jemanden — стати на чийсь бік.",
+        "У політичному контексті часто вживають: eine Partei gründen (заснувати партію), in eine Partei eintreten (вступити до партії), die Regierungspartei (урядова партія)."
+      ],
       "examples": [
         {
-          "de": "Diese Partei gewann die Wahl.",
-          "lv": "ця партія перемогла на виборах."
+          "de": "Sie ist Mitglied einer Partei.",
+          "lv": "Вона є членом партії."
         },
         {
-          "de": "Er ist seit Jahren Mitglied einer Partei.",
-          "lv": "він багато років є членом партії."
+          "de": "Die Parteien verhandeln über eine Koalition.",
+          "lv": "Партії ведуть переговори про коаліцію."
         },
         {
-          "de": "Beide Parteien müssen den Vertrag unterschreiben.",
-          "lv": "договір повинні підписати обидві сторони."
+          "de": "Im Streit ergriff er Partei für seinen Bruder.",
+          "lv": "У суперечці він став на бік свого брата."
+        },
+        {
+          "de": "Beide Parteien haben den Vertrag unterschrieben.",
+          "lv": "Обидві сторони підписали договір."
         }
-      ]
+      ],
+      "comparison": [
+        {
+          "word": "die Seite",
+          "meaning": "сторона, бік",
+          "example": "Auf welcher Seite stehst du? – На чиєму ти боці?"
+        },
+        {
+          "word": "der Verein",
+          "meaning": "товариство, клуб",
+          "example": "Er ist im Sportverein. – Він у спортивному клубі."
+        },
+        {
+          "word": "die Gruppe",
+          "meaning": "група",
+          "example": "Die Gruppe trifft sich heute. – Група сьогодні збирається."
+        }
+      ],
+      "tip": [
+        "Partei ergreifen (стати на чийсь бік) — корисний вислів для опису суперечок.",
+        "У політиці кажуть eine Partei wählen або für eine Partei stimmen."
+      ],
+      "important": [
+        "Die Partei і die Party (вечірка) звучать схоже, але не пов’язані."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Partei",
+            "Parteien"
+          ],
+          "purple": [
+            "партія",
+            "сторона",
+            "бік",
+            "партію",
+            "партії"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Partei"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "партії"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Parteien"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Партії"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Partei"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "бік"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Parteien"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "сторони"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "die Seite"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "сторона"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Verein"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "товариство"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Gruppe"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "група"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "Partei"
+            ]
+          },
+          {
+            "blue": [
+              "Partei"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "Partei"
+            ]
+          }
+        ]
+      }
     }
   },
   {
     "de": "Persönlichkeit",
     "de_article": "die",
     "de_plural": "die Persönlichkeiten",
-    "lv": "особистості",
+    "lv": "особистість",
     "level": "C1"
   },
   {
@@ -846,41 +1303,193 @@ const C1_WORDS = [
     "de": "Polstergarnitur",
     "de_article": "die",
     "de_plural": "die Polstergarnituren",
-    "lv": "комплект м'яких меблів",
+    "lv": "гарнітур м’яких меблів",
     "level": "C1"
   },
   {
     "de": "Premier",
     "de_article": "der",
     "de_plural": "die Premiers",
-    "lv": "прем'єр-міністр",
+    "lv": "прем’єр-міністр",
     "level": "C1"
   },
   {
     "de": "Prozess",
     "de_article": "der",
     "de_plural": "die Prozesse",
-    "lv": "процес • позов",
+    "lv": "процес • судова справа",
     "level": "C1",
     "study": {
       "id": "c1-prozess",
       "layout": "standardStudy",
-      "translation": "процес • позов",
-      "explanation": "Головна думка: der Prozess - це процес або процедура. У суді der Prozess означає суд.",
+      "translation": "процес • судова справа",
+      "explanation": [
+        "Головна думка: der Prozess — слово з двома основними значеннями: процес, перебіг (ein langsamer Prozess) і судовий процес, судова справа (ein Prozess gegen jemanden).",
+        "Іменник чоловічого роду: der Prozess, множина die Prozesse. Судову справу можна вести, почати, виграти чи програти: einen Prozess führen, gewinnen, verlieren.",
+        "Вислів kurzen Prozess machen означає діяти без довгих вагань, безжально."
+      ],
       "examples": [
         {
-          "de": "Der Prozess dauert mehrere Monate.",
-          "lv": "процес займає кілька місяців."
+          "de": "Der Prozess gegen den Angeklagten dauert Monate.",
+          "lv": "Судовий процес проти обвинуваченого триває місяцями."
         },
         {
-          "de": "Der Prozess vor Gericht beginnt morgen.",
-          "lv": "завтра починається суд."
+          "de": "Die Heilung ist ein langsamer Prozess.",
+          "lv": "Загоєння — повільний процес."
         },
         {
-          "de": "Wir verbessern den ganzen Prozess.",
-          "lv": "ми вдосконалюємо весь процес."
+          "de": "Sie haben den Prozess gewonnen.",
+          "lv": "Вони виграли судову справу."
+        },
+        {
+          "de": "Die Firma machte kurzen Prozess und kündigte ihm.",
+          "lv": "Фірма не вагалася й звільнила його."
         }
-      ]
+      ],
+      "comparison": [
+        {
+          "word": "der Vorgang",
+          "meaning": "перебіг, процес",
+          "example": "Der Vorgang dauert eine Stunde. – Процес триває годину."
+        },
+        {
+          "word": "die Verhandlung",
+          "meaning": "судове засідання",
+          "example": "Die Verhandlung beginnt um neun. – Судове засідання починається о дев’ятій."
+        },
+        {
+          "word": "die Klage",
+          "meaning": "позов",
+          "example": "Er reichte eine Klage ein. – Він подав позов."
+        }
+      ],
+      "tip": [
+        "Якщо йдеться про суд, часто трапляються дієслова: einen Prozess führen / gewinnen / verlieren.",
+        "Процес як перебіг — це також технічний і науковий термін: der Prozess der Herstellung (процес виробництва)."
+      ],
+      "important": [
+        "У жодному значенні це слово не середнього роду: der Prozess (а не das Prozess)."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Prozess",
+            "Prozesse"
+          ],
+          "purple": [
+            "процес",
+            "судова справа",
+            "справу"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Prozess"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Судовий процес"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Prozess"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "процес"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Prozess"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "судову справу"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Prozess"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "не вагалася"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "Vorgang"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "перебіг"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "Verhandlung"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "судове"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "Klage"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "позов"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "Prozess"
+            ]
+          },
+          {
+            "blue": [
+              "Prozess"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "Prozess"
+            ]
+          }
+        ]
+      }
     }
   },
   {
@@ -894,14 +1503,14 @@ const C1_WORDS = [
     "de": "Radioübertragung",
     "de_article": "die",
     "de_plural": "die Radioübertragungen",
-    "lv": "радіомовлення",
+    "lv": "радіотрансляція",
     "level": "C1"
   },
   {
     "de": "Rechtsanwalt",
     "de_article": "der",
     "de_plural": "die Rechtsanwälte",
-    "lv": "юрист",
+    "lv": "адвокат",
     "level": "C1"
   },
   {
@@ -915,7 +1524,7 @@ const C1_WORDS = [
     "de": "Rennen mit Hindernissen",
     "de_article": "das",
     "de_plural": "die Rennen mit Hindernissen",
-    "lv": "смуга перешкод",
+    "lv": "біг з перешкодами",
     "level": "C1"
   },
   {
@@ -928,7 +1537,7 @@ const C1_WORDS = [
     "de": "Rettungsstelle",
     "de_article": "die",
     "de_plural": "die Rettungsstellen",
-    "lv": "пункт першої допомоги",
+    "lv": "пункт швидкої допомоги",
     "level": "C1"
   },
   {
@@ -947,33 +1556,33 @@ const C1_WORDS = [
     "de": "Scheibenwischer",
     "de_article": "der",
     "de_plural": "die Scheibenwischer",
-    "lv": "засіб для миття вікон автомобіля",
+    "lv": "склоочисник",
     "level": "C1"
   },
   {
     "de": "Schiedsrichter",
     "de_article": "der",
     "de_plural": "die Schiedsrichter",
-    "lv": "суддя",
+    "lv": "(спорт.) суддя",
     "level": "C1"
   },
   {
     "de": "Schlussverkauf",
     "de_article": "der",
     "de_plural": "die Schlussverkäufe",
-    "lv": "продаж товарів в кінці сезону за зниженими цінами",
+    "lv": "сезонний розпродаж",
     "level": "C1"
   },
   {
     "de": "schmerzhaft",
-    "lv": "хворобливий",
+    "lv": "болючий",
     "level": "C1"
   },
   {
     "de": "Schneewittchen",
     "de_article": "das",
     "de_plural": "die Schneewittchen",
-    "lv": "персонаж казки Білосніжка",
+    "lv": "Білосніжка",
     "level": "C1"
   },
   {
@@ -987,20 +1596,20 @@ const C1_WORDS = [
     "de": "Schutzumschlag",
     "de_article": "der",
     "de_plural": "die Schutzumschläge",
-    "lv": "кришка",
+    "lv": "суперобкладинка",
     "level": "C1"
   },
   {
     "de": "Schwiegereltern",
     "de_article": "die",
-    "lv": "батьки чоловіка",
+    "lv": "батьки чоловіка • батьки дружини",
     "level": "C1"
   },
   {
     "de": "Schwiegermutter",
     "de_article": "die",
     "de_plural": "die Schwiegermütter",
-    "lv": "свекруха",
+    "lv": "свекруха • теща",
     "level": "C1"
   },
   {
@@ -1014,7 +1623,7 @@ const C1_WORDS = [
     "de": "Schwiegervater",
     "de_article": "der",
     "de_plural": "die Schwiegerväter",
-    "lv": "свекор",
+    "lv": "свекор • тесть",
     "level": "C1"
   },
   {
@@ -1034,19 +1643,19 @@ const C1_WORDS = [
     "de": "Stadtrundfahrt",
     "de_article": "die",
     "de_plural": "die Stadtrundfahrten",
-    "lv": "поїздка по місту",
+    "lv": "оглядова поїздка містом",
     "level": "C1"
   },
   {
     "de": "stecken bleiben",
-    "lv": "застрягти",
+    "lv": "застрягати • застрягти",
     "level": "C1"
   },
   {
     "de": "Stellvertreter",
     "de_article": "der",
     "de_plural": "die Stellvertreter",
-    "lv": "замінити",
+    "lv": "заступник",
     "level": "C1"
   },
   {
@@ -1060,34 +1669,34 @@ const C1_WORDS = [
     "de": "Strampelhöschen",
     "de_article": "das",
     "de_plural": "die Strampelhöschen",
-    "lv": "дитячий повзун",
+    "lv": "повзунки",
     "level": "C1"
   },
   {
     "de": "Stromverbrauch",
     "de_article": "der",
     "de_plural": "die Stromverbräuche",
-    "lv": "струм споживання",
+    "lv": "споживання електроенергії",
     "level": "C1"
   },
   {
     "de": "Tagesnachrichten",
     "de_article": "die",
-    "lv": "новина дня",
+    "lv": "новини дня",
     "level": "C1"
   },
   {
     "de": "Teilzeitarbeit",
     "de_article": "die",
     "de_plural": "die Teilzeitarbeiten",
-    "lv": "неповний робочий день",
+    "lv": "робота неповний робочий день",
     "level": "C1"
   },
   {
     "de": "Terminkalender",
     "de_article": "der",
     "de_plural": "die Terminkalender",
-    "lv": "нотний календар",
+    "lv": "діловий щоденник",
     "level": "C1"
   },
   {
@@ -1120,12 +1729,12 @@ const C1_WORDS = [
     "de": "Unternehmen",
     "de_article": "das",
     "de_plural": "die Unternehmen",
-    "lv": "компанія • подія",
+    "lv": "підприємство • починання",
     "level": "C1"
   },
   {
     "de": "unterstreichen",
-    "lv": "підкреслити",
+    "lv": "підкреслювати • підкреслити",
     "level": "C1"
   },
   {
@@ -1144,17 +1753,17 @@ const C1_WORDS = [
     "de": "Urteil",
     "de_article": "das",
     "de_plural": "die Urteile",
-    "lv": "судження",
+    "lv": "вирок",
     "level": "C1"
   },
   {
     "de": "veranstalten",
-    "lv": "організовувати",
+    "lv": "організовувати • організувати",
     "level": "C1"
   },
   {
     "de": "verantworten",
-    "lv": "взяти відповідальність за",
+    "lv": "брати відповідальність • взяти відповідальність",
     "level": "C1"
   },
   {
@@ -1168,7 +1777,7 @@ const C1_WORDS = [
     "de": "Vereinbarung",
     "de_article": "die",
     "de_plural": "die Vereinbarungen",
-    "lv": "угода",
+    "lv": "домовленість",
     "level": "C1"
   },
   {
@@ -1182,29 +1791,29 @@ const C1_WORDS = [
     "de": "Verkehrsstau",
     "de_article": "der",
     "de_plural": "die Verkehrsstaue",
-    "lv": "пробка",
+    "lv": "затор",
     "level": "C1"
   },
   {
     "de": "Verlegenheit",
     "de_article": "die",
     "de_plural": "die Verlegenheiten",
-    "lv": "спантеличеність",
+    "lv": "збентеження",
     "level": "C1"
   },
   {
     "de": "verschließen",
-    "lv": "замкнути",
+    "lv": "замикати • замкнути",
     "level": "C1"
   },
   {
     "de": "verschlucken",
-    "lv": "проковтнути",
+    "lv": "ковтати • проковтнути",
     "level": "C1"
   },
   {
     "de": "verschwenden",
-    "lv": "марнувати",
+    "lv": "марнувати • змарнувати",
     "level": "C1"
   },
   {
@@ -1216,12 +1825,12 @@ const C1_WORDS = [
   },
   {
     "de": "sich verständigen",
-    "lv": "ладити",
+    "lv": "порозуміватися • порозумітися",
     "level": "C1"
   },
   {
     "de": "verständlich",
-    "lv": "зрозуміло",
+    "lv": "зрозумілий",
     "level": "C1"
   },
   {
@@ -1240,107 +1849,128 @@ const C1_WORDS = [
     "de": "Vorgesetzte",
     "de_article": "der",
     "de_plural": "die Vorgesetzten",
-    "lv": "бос",
+    "lv": "начальник",
     "level": "C1"
   },
   {
     "de": "vorteilhaft",
-    "lv": "вигідно",
+    "lv": "вигідний",
     "level": "C1"
   },
   {
     "de": "Wettbewerb",
     "de_article": "der",
     "de_plural": "die Wettbewerbe",
-    "lv": "змагання",
+    "lv": "конкурс",
     "level": "C1"
   },
   {
     "de": "sich zufrieden geben",
-    "lv": "задовольнити",
+    "lv": "задовольнятися • задовольнитися",
     "level": "C1"
   },
   {
     "de": "zusammenbringen",
-    "lv": "звести разом",
+    "lv": "зводити разом • звести разом",
     "level": "C1"
   },
   {
     "de": "zusammenfassen",
-    "lv": "резюмировать • конспектувати",
+    "lv": "узагальнювати • узагальнити • резюмувати",
     "level": "C1",
     "study": {
       "id": "c1-zusammenfassen",
       "layout": "standardStudy",
-      "translation": "резюмировать • конспектувати",
+      "translation": "узагальнювати • узагальнити • резюмувати",
       "explanation": [
-        "Головна думка: zusammenfassen — це дієслово — щоб зібрати або організувати інформацію в один короткий план.",
-        "zusammenfassen використовується, коли короткий огляд складається з кількох фактів, текстів або думок.",
-        "Не плутати з die Zusammenfassung - той, що з великої літери та артиклем die, є іменник, що позначає сам резюме (результат, готовий текст).",
-        "zusammenfassen = процес/діяльність (підбивати підсумки, підсумовувати); die Zusammenfassung = результат (підсумок як іменник).",
-        "Як і багато німецьких дієслова, zusammenfassen може стати іменником і артиклем з великої літери: zusammenfassen → die Zusammenfassung (субстантивація)."
+        "Головна думка: zusammenfassen означає коротко підсумувати, узагальнити головне з тексту, промови чи результатів; також об’єднувати кілька речей в одне ціле.",
+        "Дієслово з відокремлюваним префіксом: er fasst zusammen, fasste zusammen, hat zusammengefasst. Те, що підсумовують, — у знахідному відмінку: einen Text zusammenfassen. Часто далі йде in + Dativ або zu + Dativ: in einem Satz zusammenfassen. Іменник — die Zusammenfassung.",
+        "На початку речення часто вживають zusammenfassend (підсумовуючи): Zusammenfassend lässt sich sagen …"
       ],
       "examples": [
         {
-          "de": "Können Sie den Text zusammenfassen?",
-          "lv": "чи можете ви коротко описати цей текст?"
+          "de": "Fasst bitte den Text in drei Sätzen zusammen.",
+          "lv": "Підсумуйте, будь ласка, текст у трьох реченнях."
         },
         {
-          "de": "Ich fasse die wichtigsten Punkte zusammen.",
-          "lv": "Я резюмую найважливіші моменти."
+          "de": "Der Redner fasste die Ergebnisse kurz zusammen.",
+          "lv": "Доповідач коротко підсумував результати."
         },
         {
-          "de": "Er hat den Bericht kurz zusammengefasst.",
-          "lv": "він коротко резюмував огляд."
+          "de": "Wir haben die Vorschläge in einer Liste zusammengefasst.",
+          "lv": "Ми звели пропозиції в один список."
         },
         {
-          "de": "Zusammenfassend kann man sagen, dass...",
-          "lv": "підсумовуючи, можна сказати, що..."
+          "de": "Kannst du den Film kurz zusammenfassen?",
+          "lv": "Можеш коротко переказати зміст фільму?"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "zusammenstellen",
+          "meaning": "складати",
+          "example": "Ich stelle eine Liste zusammen. – Я складаю список."
         },
         {
-          "de": "Ich schreibe eine Zusammenfassung des Buches.",
-          "lv": "Я пишу короткий зміст книги."
+          "word": "kürzen",
+          "meaning": "скорочувати",
+          "example": "Wir kürzen den Text. – Ми скорочуємо текст."
         },
         {
-          "de": "Die Zusammenfassung ist zu lang.",
-          "lv": "короткий зміст занадто довгий."
+          "word": "wiederholen",
+          "meaning": "повторювати",
+          "example": "Wiederhole den Satz. – Повтори речення."
         }
       ],
       "tip": [
-        "zusammenfassen (дієслово) = процес - підсумувати/узагальнити.",
-        "die Zusammenfassung (іменник, великими літерами та стаття die) = результат - сам підсумок."
+        "Запам’ятай відокремлення: Ich fasse den Text zusammen, але в підрядному реченні …, weil ich den Text zusammenfasse.",
+        "Після zusammenfassen часто йде in einem Satz / in drei Punkten."
       ],
       "important": [
-        "zusammenfassen = узагальнити/узагальнити (дієслово).",
-        "die Zusammenfassung = резюме (іменник, субстантивовано з zusammenfassen).",
-        "Неправильно: die zusammenfassen → Правильно: die Zusammenfassung (іменник завжди з великої літери)."
+        "Дієприкметник Perfekt — zusammengefasst (з -ge- між zusammen і fasst).",
+        "Не плутай із zusammenstellen: воно означає складати, а не коротко переказувати."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "zusammenfassen"
+            "zusammenfassen",
+            "zusammenfassend",
+            "fasst zusammen",
+            "fasste zusammen",
+            "zusammengefasst",
+            "Zusammenfassung",
+            "fasste",
+            "fasst"
           ],
-          "green": [
-            "die Zusammenfassung"
+          "purple": [
+            "підсумувати",
+            "об’єднувати"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "zusammenfassen"
+                "Fasst"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Підсумуйте"
+              ]
+            }
           },
           {
             "de": {
               "blue": [
-                "fasse",
-                "zusammen"
+                "fasste"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "підсумував"
+              ]
+            }
           },
           {
             "de": {
@@ -1348,62 +1978,81 @@ const C1_WORDS = [
                 "zusammengefasst"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "звели"
+              ]
+            }
           },
           {
             "de": {
               "blue": [
-                "Zusammenfassend"
+                "zusammenfassen"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "переказати"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "zusammenstellen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "складати"
+              ]
+            }
           },
           {
-            "de": {
+            "word": {
               "green": [
-                "Zusammenfassung"
+                "kürzen"
               ]
             },
-            "lv": {}
+            "meaning": {
+              "purple": [
+                "скорочувати"
+              ]
+            }
           },
           {
-            "de": {
+            "word": {
               "green": [
-                "Zusammenfassung"
+                "wiederholen"
               ]
             },
-            "lv": {}
+            "meaning": {
+              "purple": [
+                "повторювати"
+              ]
+            }
           }
         ],
         "tip": [
+          {},
           {
             "blue": [
               "zusammenfassen"
-            ]
-          },
-          {
-            "green": [
-              "die Zusammenfassung"
             ]
           }
         ],
         "important": [
           {
             "blue": [
-              "zusammenfassen"
+              "zusammengefasst",
+              "fasst"
             ]
           },
           {
             "green": [
-              "die Zusammenfassung"
-            ]
-          },
-          {
-            "green": [
-              "die Zusammenfassung"
-            ],
-            "red": [
-              "die zusammenfassen"
+              "zusammenstellen"
             ]
           }
         ]
@@ -1412,28 +2061,28 @@ const C1_WORDS = [
   },
   {
     "de": "zusammenhängen",
-    "lv": "бути пов'язаним (з)",
+    "lv": "бути пов’язаним (з)",
     "level": "C1"
   },
   {
     "de": "Aufmerksamkeit",
     "de_article": "die",
     "de_plural": "die Aufmerksamkeiten",
-    "lv": "уваги",
+    "lv": "увага",
     "level": "C1"
   },
   {
     "de": "Fernsehsendung",
     "de_article": "die",
     "de_plural": "die Fernsehsendungen",
-    "lv": "телевізійне шоу",
+    "lv": "телепередача",
     "level": "C1"
   },
   {
     "de": "Landschaft",
     "de_article": "die",
     "de_plural": "die Landschaften",
-    "lv": "пейзаж",
+    "lv": "краєвид",
     "level": "C1"
   },
   {
@@ -1447,46 +2096,192 @@ const C1_WORDS = [
     "de": "Straßenkreuzung",
     "de_article": "die",
     "de_plural": "die Straßenkreuzungen",
-    "lv": "перехрестя вул",
+    "lv": "перехрестя",
     "level": "C1"
   },
   {
     "de": "Wahl",
     "de_article": "die",
     "de_plural": "die Wahlen",
-    "lv": "вибір • обрання",
+    "lv": "вибір • вибори",
     "level": "C1",
     "study": {
       "id": "c1-wahl",
       "layout": "standardStudy",
-      "translation": "вибір • обрання",
-      "explanation": "die Wahl може означати вибір між варіантами. У контексті політики Wahl означає вибори. Це також може означати саме голосування. Фраза eine Wahl treffen означає зробити вибір. zur Wahl gehen означає йти на вибори. Контекст політики чи особистого рішення показує правильне значення.",
+      "translation": "вибір • вибори",
+      "explanation": [
+        "Головна думка: die Wahl означає вибір (те, що обирають із кількох можливостей) і вибори (обрання людей на посаду).",
+        "Іменник жіночого роду: die Wahl, множина die Wahlen. У значенні «вибори» слово дуже часто вживають у множині: die Wahlen finden statt. У значенні «вибір» — зазвичай в однині: die Wahl haben, keine andere Wahl haben.",
+        "Сполучення: die Wahl treffen (зробити вибір), zur Wahl gehen (іти голосувати), die Wahl gewinnen (перемогти на виборах)."
+      ],
       "examples": [
         {
-          "de": "Du hast die Wahl.",
-          "lv": "у вас є вибір."
+          "de": "Du hast die Wahl zwischen Tee und Kaffee.",
+          "lv": "У тебе є вибір між чаєм і кавою."
         },
         {
-          "de": "Ich treffe meine Wahl morgen.",
-          "lv": "я зроблю свій вибір завтра."
+          "de": "Die Wahlen finden im Herbst statt.",
+          "lv": "Вибори відбуваються восени."
         },
         {
-          "de": "Die Wahl findet am Sonntag statt.",
-          "lv": "вибори відбуваються в неділю."
+          "de": "Er hatte keine andere Wahl.",
+          "lv": "У нього не було іншого вибору."
         },
         {
-          "de": "Viele Menschen gehen zur Wahl.",
-          "lv": "багато хто ходить на вибори."
-        },
-        {
-          "de": "Die freie Wahl ist wichtig.",
-          "lv": "важливий вільний вибір."
-        },
-        {
-          "de": "Bei der Wahl stimmen wir ab.",
-          "lv": "ми голосуємо на виборах."
+          "de": "Die Wahl des Bürgermeisters ist am Sonntag.",
+          "lv": "Вибори мера — у неділю."
         }
-      ]
+      ],
+      "comparison": [
+        {
+          "word": "die Auswahl",
+          "meaning": "вибір (асортимент)",
+          "example": "Im Laden gibt es eine große Auswahl. – У магазині великий вибір."
+        },
+        {
+          "word": "die Entscheidung",
+          "meaning": "рішення",
+          "example": "Das ist meine Entscheidung. – Це моє рішення."
+        },
+        {
+          "word": "die Abstimmung",
+          "meaning": "голосування",
+          "example": "Die Abstimmung ist morgen. – Голосування завтра."
+        }
+      ],
+      "tip": [
+        "Зважай на контекст: Wahl без множини часто означає вибір, die Wahlen — вибори.",
+        "Дієслово, пов’язане з виборами, — wählen (голосувати, обирати)."
+      ],
+      "important": [
+        "Не плутай die Wahl із die Auswahl: Auswahl — це асортимент, з якого обирають."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "die Wahl",
+            "die Wahlen",
+            "Wahlen",
+            "Wahl",
+            "zur Wahl gehen",
+            "die Wahl treffen"
+          ],
+          "purple": [
+            "вибір",
+            "вибори"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Wahl"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "вибір"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Wahlen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Вибори"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Wahl"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "вибору"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Wahl"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Вибори"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "die Auswahl"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "асортимент"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Entscheidung"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "рішення"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Abstimmung"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "голосування"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "Wahl",
+              "die Wahlen",
+              "Wahlen"
+            ]
+          },
+          {}
+        ],
+        "important": [
+          {
+            "blue": [
+              "Wahl",
+              "die Wahl"
+            ],
+            "green": [
+              "die Auswahl",
+              "Auswahl"
+            ]
+          }
+        ]
+      }
     }
   },
   {
@@ -1514,14 +2309,14 @@ const C1_WORDS = [
     "de": "Abkommen",
     "de_article": "das",
     "de_plural": "die Abkommen",
-    "lv": "угода • угода",
+    "lv": "угода • домовленість",
     "level": "C1"
   },
   {
     "de": "Abschleppdienst",
     "de_article": "der",
     "de_plural": "die Abschleppdienste",
-    "lv": "служба евакуації • служба вивезення",
+    "lv": "служба евакуації автомобілів",
     "level": "C1"
   },
   {
@@ -1533,7 +2328,7 @@ const C1_WORDS = [
   },
   {
     "de": "antifaschistisch",
-    "lv": "антифаш",
+    "lv": "антифашистський",
     "level": "C1"
   },
   {
@@ -1545,28 +2340,28 @@ const C1_WORDS = [
   },
   {
     "de": "augenscheinlich",
-    "lv": "мабуть",
+    "lv": "очевидно",
     "level": "C1"
   },
   {
     "de": "Güteraustausch",
     "de_article": "der",
     "de_plural": "die Güteraustausche",
-    "lv": "обмін товарами",
+    "lv": "товарообмін",
     "level": "C1"
   },
   {
     "de": "Flottenbasis",
     "de_article": "die",
     "de_plural": "die Flottenbasen",
-    "lv": "військово-морська база",
+    "lv": "база флоту",
     "level": "C1"
   },
   {
     "de": "Basisforschung",
     "de_article": "die",
     "de_plural": "die Basisforschungen",
-    "lv": "фундаментальні дослідження",
+    "lv": "фундаментальне дослідження",
     "level": "C1"
   },
   {
@@ -1576,41 +2371,206 @@ const C1_WORDS = [
   },
   {
     "de": "beanspruchen",
-    "lv": "вимагати • претендувати • бути обтяженим",
+    "lv": "вимагати • претендувати • бути завантаженим",
     "level": "C1"
   },
   {
     "de": "Bedarfsartikel",
     "de_article": "der",
     "de_plural": "die Bedarfsartikel",
-    "lv": "споживчі товари",
+    "lv": "товар широкого вжитку",
     "level": "C1"
   },
   {
     "de": "bedingungslos",
-    "lv": "безумовний • безумовний • без застережень • без умов",
+    "lv": "беззастережний • безумовний",
     "level": "C1"
   },
   {
     "de": "Befangenheit",
     "de_article": "die",
     "de_plural": "die Befangenheiten",
-    "lv": "збентеження • збентеження",
-    "level": "C1"
+    "lv": "збентеження",
+    "level": "C1",
+    "study": {
+      "id": "c1-befangenheit",
+      "layout": "standardStudy",
+      "translation": "збентеження",
+      "explanation": [
+        "Головна думка: die Befangenheit — це збентеження або сором’язлива ніяковість, що виникає в незнайомій ситуації чи перед людьми. Юридично це слово означає також необ’єктивність, наприклад упередженість судді чи експерта.",
+        "Іменник жіночого роду: die Befangenheit, множини зазвичай немає. Прикметник — befangen (збентежений, необ’єктивний).",
+        "У суді вислів Besorgnis der Befangenheit позначає сумнів в об’єктивності судді; звідси походить Befangenheitsantrag (клопотання про відвід судді)."
+      ],
+      "examples": [
+        {
+          "de": "Seine Befangenheit war deutlich zu spüren.",
+          "lv": "Його збентеження було добре помітно."
+        },
+        {
+          "de": "Sie sprach ohne jede Befangenheit vor der Gruppe.",
+          "lv": "Вона виступала перед групою без жодного збентеження."
+        },
+        {
+          "de": "Vor Fremden hatte das Kind eine gewisse Befangenheit.",
+          "lv": "Перед незнайомими людьми дитина відчувала певну ніяковість."
+        },
+        {
+          "de": "Der Anwalt stellte einen Antrag wegen Befangenheit des Richters.",
+          "lv": "Адвокат подав клопотання через необ’єктивність судді."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "die Verlegenheit",
+          "meaning": "ніяковість",
+          "example": "Er lachte aus Verlegenheit. – Він засміявся від ніяковості."
+        },
+        {
+          "word": "die Voreingenommenheit",
+          "meaning": "упередженість",
+          "example": "Ihre Voreingenommenheit stört mich. – Її упередженість мені заважає."
+        },
+        {
+          "word": "die Schüchternheit",
+          "meaning": "сором’язливість",
+          "example": "Seine Schüchternheit verschwand. – Його сором’язливість зникла."
+        }
+      ],
+      "tip": [
+        "Якщо в суді йдеться про Befangenheit, значення — необ’єктивність, а не збентеження.",
+        "У значенні «збентеження» слово книжне; у повсякденні частіше кажуть verlegen sein."
+      ],
+      "important": [
+        "Протилежність — Unbefangenheit (невимушеність, безтурботність) або Objektivität (об’єктивність)."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "die Befangenheit",
+            "Befangenheit",
+            "befangen",
+            "Befangenheitsantrag"
+          ],
+          "purple": [
+            "збентеження",
+            "необ’єктивність"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Befangenheit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "збентеження"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Befangenheit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "збентеження"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Befangenheit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ніяковість"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Befangenheit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "необ’єктивність"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "die Verlegenheit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ніяковість"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Voreingenommenheit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "упередженість"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Schüchternheit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "сором’язливість"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "Befangenheit"
+            ]
+          },
+          {}
+        ],
+        "important": [
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "beglaubigen",
-    "lv": "офіційно засвідчити • нотаріально",
+    "lv": "засвідчувати • засвідчити",
     "level": "C1"
   },
   {
     "de": "beglückwünschen",
-    "lv": "бажати щастя • вітати",
+    "lv": "вітати • привітати",
     "level": "C1"
   },
   {
     "de": "beiderseitig",
-    "lv": "двусторонний • двобічний",
+    "lv": "взаємний • двосторонній",
     "level": "C1"
   },
   {
@@ -1622,12 +2582,12 @@ const C1_WORDS = [
   },
   {
     "de": "beispielhaft",
-    "lv": "образцовый • зразковий",
+    "lv": "зразковий • показовий",
     "level": "C1"
   },
   {
     "de": "beklagen",
-    "lv": "жалкувати • сумувати • сумувати • нарікати • скаржитися",
+    "lv": "шкодувати • оплакувати • скаржитися",
     "level": "C1"
   },
   {
@@ -1646,19 +2606,19 @@ const C1_WORDS = [
   },
   {
     "de": "benachteiligen",
-    "lv": "шкодити • завдавати шкоди • шкодити",
+    "lv": "завдавати шкоди • завдати шкоди • кривдити • скривдити",
     "level": "C1"
   },
   {
     "de": "Berufsberater",
     "de_article": "der",
     "de_plural": "die Berufsberater",
-    "lv": "консультант з працевлаштування",
+    "lv": "консультант із працевлаштування",
     "level": "C1"
   },
   {
     "de": "beratschlagen",
-    "lv": "обговорити",
+    "lv": "радитися • порадитися",
     "level": "C1"
   },
   {
@@ -1670,29 +2630,210 @@ const C1_WORDS = [
   },
   {
     "de": "bereitwillig",
-    "lv": "готовий служити • послужливий",
+    "lv": "готовий допомогти • послужливий",
     "level": "C1"
   },
   {
     "de": "Berufsberatung",
     "de_article": "die",
     "de_plural": "die Berufsberatungen",
-    "lv": "профорієнтаційна консультація",
+    "lv": "профорієнтація",
     "level": "C1"
   },
   {
     "de": "Berufsgeheimnis",
     "de_article": "das",
     "de_plural": "die Berufsgeheimnisse",
-    "lv": "службова таємниця",
+    "lv": "професійна таємниця",
     "level": "C1"
   },
   {
     "de": "Berufung",
     "de_article": "die",
     "de_plural": "die Berufungen",
-    "lv": "кличний • нахил • звертання",
-    "level": "C1"
+    "lv": "покликання • посилання",
+    "level": "C1",
+    "study": {
+      "id": "c1-berufung",
+      "layout": "standardStudy",
+      "translation": "покликання • посилання",
+      "explanation": [
+        "Головна думка: die Berufung — слово з кількома значеннями. Покликання (внутрішній потяг до професії), призначення на посаду (особливо у виші), посилання на щось (unter Berufung auf), а в юриспруденції — апеляція (Berufung einlegen).",
+        "Іменник жіночого роду: die Berufung, множина die Berufungen. Відповідне дієслово — berufen, а посилання виражають через sich berufen auf + Akkusativ.",
+        "Значення зазвичай визначає сполучення: Berufung einlegen — подати апеляцію; unter Berufung auf — посилаючись на."
+      ],
+      "examples": [
+        {
+          "de": "Sie spürt die Berufung zur Ärztin.",
+          "lv": "Вона відчуває покликання стати лікаркою."
+        },
+        {
+          "de": "Die Anwältin legte gegen das Urteil Berufung ein.",
+          "lv": "Адвокатка подала апеляцію на вирок."
+        },
+        {
+          "de": "Er lehnte die Fragen unter Berufung auf das Datenschutzgesetz ab.",
+          "lv": "Він відмовився відповідати на запитання, посилаючись на закон про захист даних."
+        },
+        {
+          "de": "Seine Berufung an die Universität kam überraschend.",
+          "lv": "Його призначення до університету було несподіваним."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "der Beruf",
+          "meaning": "професія",
+          "example": "Mein Beruf ist Lehrer. – Моя професія — учитель."
+        },
+        {
+          "word": "der Einspruch",
+          "meaning": "заперечення",
+          "example": "Er legte Einspruch ein. – Він подав заперечення."
+        },
+        {
+          "word": "die Revision",
+          "meaning": "касація",
+          "example": "Die Revision wurde abgelehnt. – Касацію відхилили."
+        }
+      ],
+      "tip": [
+        "Запам’ятай два сталі сполучення: Berufung einlegen (подати апеляцію) і unter Berufung auf (посилаючись на).",
+        "Der Beruf (професія) і die Berufung (покликання) споріднені, але означають різне."
+      ],
+      "important": [
+        "Апеляція в німецькій правовій системі (Berufung) — це не те саме, що Revision, яка перевіряє лише застосування права."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Berufung",
+            "Berufungen"
+          ],
+          "purple": [
+            "Покликання",
+            "призначення",
+            "посилання",
+            "апеляція",
+            "апеляцію"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Berufung"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "покликання"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Berufung"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "апеляцію"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Berufung"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "посилаючись"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Berufung"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "призначення"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "der Beruf"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "професія"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Einspruch"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "заперечення"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Revision"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "касація"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "Berufung"
+            ]
+          },
+          {
+            "blue": [
+              "Berufung"
+            ],
+            "green": [
+              "der Beruf",
+              "Beruf"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "Berufung"
+            ],
+            "green": [
+              "Revision"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Besatzungsmacht",
@@ -1705,59 +2846,59 @@ const C1_WORDS = [
     "de": "Beschaffenheit",
     "de_article": "die",
     "de_plural": "die Beschaffenheiten",
-    "lv": "якість • природа • сутність",
+    "lv": "властивість • природа • суть",
     "level": "C1"
   },
   {
     "de": "bescheinigen",
-    "lv": "засвідчувати • видати свідоцтво",
+    "lv": "засвідчувати • засвідчити • видавати довідку • видати довідку",
     "level": "C1"
   },
   {
     "de": "Bescheinigung",
     "de_article": "die",
     "de_plural": "die Bescheinigungen",
-    "lv": "довідка • сертифікат • атестація • атест",
+    "lv": "довідка • посвідчення • засвідчення",
     "level": "C1"
   },
   {
     "de": "beschlagnahmen",
-    "lv": "конфіскувати • конфіскувати • експропріювати",
+    "lv": "конфісковувати • конфіскувати • накладати арешт • накласти арешт",
     "level": "C1"
   },
   {
     "de": "beschuldigen",
-    "lv": "звинувачувати • ображати",
+    "lv": "звинувачувати • звинуватити",
     "level": "C1"
   },
   {
     "de": "Besonderheit",
     "de_article": "die",
     "de_plural": "die Besonderheiten",
-    "lv": "особливість • незвичайність",
+    "lv": "особливість • дивність",
     "level": "C1"
   },
   {
     "de": "beträchtlich",
-    "lv": "значний • досить великий • чималий",
+    "lv": "значний • чималий",
     "level": "C1"
   },
   {
     "de": "Betriebskosten",
     "de_article": "die",
-    "lv": "операційні витрати підприємства • виробничі витрати",
+    "lv": "експлуатаційні витрати • виробничі витрати",
     "level": "C1"
   },
   {
     "de": "Betriebssystem",
     "de_article": "das",
     "de_plural": "die Betriebssysteme",
-    "lv": "комп'ютерна система інсталяції",
+    "lv": "операційна система",
     "level": "C1"
   },
   {
     "de": "bevollmächtigen",
-    "lv": "уповноважити • надати повноваження",
+    "lv": "уповноважувати • уповноважити",
     "level": "C1"
   },
   {
@@ -1767,7 +2908,7 @@ const C1_WORDS = [
   },
   {
     "de": "bewähren, sich",
-    "lv": "виявитися правдивим • виправдати",
+    "lv": "підтверджуватися • підтвердитися • виправдовувати себе • виправдати себе",
     "level": "C1"
   },
   {
@@ -1779,14 +2920,14 @@ const C1_WORDS = [
   },
   {
     "de": "bewerben, sich",
-    "lv": "застосовувати • бігти • прагнути • прагнути",
+    "lv": "претендувати • балотуватися • прагнути",
     "level": "C1"
   },
   {
     "de": "Bezugsperson",
     "de_article": "die",
     "de_plural": "die Bezugspersonen",
-    "lv": "контакт • найближча людина",
+    "lv": "контактна особа • близька людина",
     "level": "C1"
   },
   {
@@ -1834,52 +2975,52 @@ const C1_WORDS = [
     "de": "Bundesdeutsche",
     "de_article": "der",
     "de_plural": "die Bundesdeutschen",
-    "lv": "Громадянин ФРН",
+    "lv": "громадянин або громадянка ФРН",
     "level": "C1"
   },
   {
     "de": "Computersprache",
     "de_article": "die",
     "de_plural": "die Computersprachen",
-    "lv": "мова комп’ютера",
+    "lv": "комп’ютерна мова",
     "level": "C1"
   },
   {
     "de": "Dachgepäckträger",
     "de_article": "der",
     "de_plural": "die Dachgepäckträger",
-    "lv": "багажник на дах автомобіля",
+    "lv": "багажник на даху автомобіля",
     "level": "C1"
   },
   {
     "de": "Datenübermittlung",
     "de_article": "die",
     "de_plural": "die Datenübermittlungen",
-    "lv": "передача даних",
+    "lv": "передавання даних",
     "level": "C1"
   },
   {
     "de": "Datenübertragung",
     "de_article": "die",
     "de_plural": "die Datenübertragungen",
-    "lv": "передача даних",
+    "lv": "передавання даних",
     "level": "C1"
   },
   {
     "de": "dauerhaft",
-    "lv": "міцний • довгий • міцний",
+    "lv": "тривалий • довговічний",
     "level": "C1"
   },
   {
     "de": "dazwischenkommen",
-    "lv": "відбуватися • траплятися між • втручатися",
+    "lv": "траплятися • трапитися • втручатися • втрутитися",
     "level": "C1"
   },
   {
     "de": "Haushaltsdefizit",
     "de_article": "das",
     "de_plural": "die Haushaltsdefizite",
-    "lv": "дефіцит бюджету",
+    "lv": "бюджетний дефіцит",
     "level": "C1"
   },
   {
@@ -1912,38 +3053,38 @@ const C1_WORDS = [
   },
   {
     "de": "dementsprechend",
-    "lv": "відповідно",
+    "lv": "відповідно до цього",
     "level": "C1"
   },
   {
     "de": "dessen ungeachtet",
-    "lv": "inspite of it • попри це",
+    "lv": "незважаючи на це • попри це",
     "level": "C1"
   },
   {
     "de": "Nachrichtendienst",
     "de_article": "der",
     "de_plural": "die Nachrichtendienste",
-    "lv": "державна секретна служба",
+    "lv": "розвідувальна служба",
     "level": "C1"
   },
   {
     "de": "Rettungsdienst",
     "de_article": "der",
     "de_plural": "die Rettungsdienste",
-    "lv": "служба порятунку",
+    "lv": "рятувальна служба",
     "level": "C1"
   },
   {
     "de": "Dienstleistung",
     "de_article": "die",
     "de_plural": "die Dienstleistungen",
-    "lv": "побутове обслуговування",
+    "lv": "послуга",
     "level": "C1"
   },
   {
     "de": "dienstpflichtig",
-    "lv": "зданий на військову службу",
+    "lv": "військовозобов’язаний",
     "level": "C1"
   },
   {
@@ -1980,7 +3121,7 @@ const C1_WORDS = [
     "de": "Diskettenlaufwerk",
     "de_article": "das",
     "de_plural": "die Diskettenlaufwerke",
-    "lv": "дисковод для гнучких дисків",
+    "lv": "дисковод для дискет",
     "level": "C1"
   },
   {
@@ -1992,7 +3133,7 @@ const C1_WORDS = [
     "de": "Durchfuhrverbot",
     "de_article": "das",
     "de_plural": "die Durchfuhrverbote",
-    "lv": "заборона проходу",
+    "lv": "заборона транзиту",
     "level": "C1"
   },
   {
@@ -2003,7 +3144,7 @@ const C1_WORDS = [
   },
   {
     "de": "ehrenhaft",
-    "lv": "чесний • почесний • поважний",
+    "lv": "чесний • шановний",
     "level": "C1"
   },
   {
@@ -2022,31 +3163,31 @@ const C1_WORDS = [
     "de": "Währungseinheit",
     "de_article": "die",
     "de_plural": "die Währungseinheiten",
-    "lv": "одиниця грошей",
+    "lv": "грошова одиниця",
     "level": "C1"
   },
   {
     "de": "Einkommensteuer",
     "de_article": "die",
     "de_plural": "die Einkommensteuern",
-    "lv": "прибутковий податок",
+    "lv": "податок на доходи",
     "level": "C1"
   },
   {
     "de": "Einlage",
     "de_article": "die",
     "de_plural": "die Einlagen",
-    "lv": "внесок • депозит • додаток до листа",
+    "lv": "внесок • вклад • додаток до листа",
     "level": "C1"
   },
   {
     "de": "einreden",
-    "lv": "розповідати • наполягати • намагатися переконати",
+    "lv": "навіювати • навіяти • запевняти • запевнити",
     "level": "C1"
   },
   {
     "de": "sich einschmeicheln",
-    "lv": "лестити • лестити",
+    "lv": "підлещуватися • підлеститися",
     "level": "C1"
   },
   {
@@ -2074,7 +3215,7 @@ const C1_WORDS = [
     "de": "Einverständnis",
     "de_article": "das",
     "de_plural": "die Einverständnisse",
-    "lv": "розуміння • консенсус • згода",
+    "lv": "порозуміння • одностайність • згода",
     "level": "C1"
   },
   {
@@ -2102,14 +3243,14 @@ const C1_WORDS = [
     "de": "Elementarbegriff",
     "de_article": "der",
     "de_plural": "die Elementarbegriffe",
-    "lv": "основна концепція",
+    "lv": "основне поняття",
     "level": "C1"
   },
   {
     "de": "Elementarregel",
     "de_article": "die",
     "de_plural": "die Elementarregeln",
-    "lv": "основний закон",
+    "lv": "основне правило",
     "level": "C1"
   },
   {
@@ -2123,58 +3264,58 @@ const C1_WORDS = [
     "de": "Energieversorgung",
     "de_article": "die",
     "de_plural": "die Energieversorgungen",
-    "lv": "енергозабезпечення",
+    "lv": "енергопостачання",
     "level": "C1"
   },
   {
     "de": "entgegensetzen",
-    "lv": "ставити проти • ставити проти",
+    "lv": "протиставляти • протиставити",
     "level": "C1"
   },
   {
     "de": "sich entgegensetzen",
-    "lv": "чинити опір",
+    "lv": "опиратися",
     "level": "C1"
   },
   {
     "de": "entschädigen",
-    "lv": "компенсувати • компенсувати",
+    "lv": "відшкодовувати • відшкодувати • компенсувати",
     "level": "C1"
   },
   {
     "de": "sich entschließen",
-    "lv": "вирішувати • вирішувати",
+    "lv": "вирішувати • вирішити • наважуватися • наважитися",
     "level": "C1"
   },
   {
     "de": "entschlossen",
-    "lv": "рішучий • рішучий • непохитний",
+    "lv": "рішучий • твердий • непохитний",
     "level": "C1"
   },
   {
     "de": "entschlüsseln",
-    "lv": "розшифрувати",
+    "lv": "розшифровувати • розшифрувати",
     "level": "C1"
   },
   {
     "de": "Gesetzentwurf",
     "de_article": "der",
     "de_plural": "die Gesetzentwürfe",
-    "lv": "рахунок",
+    "lv": "законопроєкт",
     "level": "C1"
   },
   {
     "de": "Entziehungskur",
     "de_article": "die",
     "de_plural": "die Entziehungskuren",
-    "lv": "курс лікування алкоголіків або наркоманів",
+    "lv": "лікування від залежності",
     "level": "C1"
   },
   {
     "de": "Erbkrankheit",
     "de_article": "die",
     "de_plural": "die Erbkrankheiten",
-    "lv": "вроджене захворювання",
+    "lv": "спадкова хвороба",
     "level": "C1"
   },
   {
@@ -2187,31 +3328,209 @@ const C1_WORDS = [
   {
     "de": "Erntearbeiten",
     "de_article": "die",
-    "lv": "збиральні роботи",
+    "lv": "роботи зі збирання врожаю",
     "level": "C1"
   },
   {
     "de": "Ersatzspieler",
     "de_article": "der",
     "de_plural": "die Ersatzspieler",
-    "lv": "резервний гравець • резервний гравець",
+    "lv": "запасний гравець",
     "level": "C1"
   },
   {
     "de": "Erstaufführung",
     "de_article": "die",
     "de_plural": "die Erstaufführungen",
-    "lv": "прем'єра • прем'єра",
+    "lv": "прем’єра",
     "level": "C1"
   },
   {
     "de": "festgesetzt",
-    "lv": "визначений • умовний • закладений",
-    "level": "C1"
+    "lv": "встановлений • визначений",
+    "level": "C1",
+    "study": {
+      "id": "c1-festgesetzt",
+      "layout": "standardStudy",
+      "translation": "встановлений • визначений",
+      "explanation": [
+        "Головна думка: festgesetzt — дієприкметник від festsetzen, що означає офіційно встановлений, призначений або визначений (строк, ціна, покарання). Він описує щось, що визначено як обов’язкове.",
+        "Дієслово з відокремлюваним префіксом: er setzt fest, setzte fest, hat festgesetzt. Як прикметник відмінюється: der festgesetzte Termin, die festgesetzte Frist. У пасиві: wurde festgesetzt.",
+        "У юриспруденції festsetzen може означати й затримати людину: Die Täter wurden festgesetzt."
+      ],
+      "examples": [
+        {
+          "de": "Der Termin ist auf den 5. Mai festgesetzt.",
+          "lv": "Строк призначено на 5 травня."
+        },
+        {
+          "de": "Die Preise wurden vom Staat festgesetzt.",
+          "lv": "Ціни встановила держава."
+        },
+        {
+          "de": "Die Strafe wurde auf zwei Jahre festgesetzt.",
+          "lv": "Строк покарання встановили у два роки."
+        },
+        {
+          "de": "Die festgesetzte Frist läuft morgen ab.",
+          "lv": "Встановлений строк спливає завтра."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "festgelegt",
+          "meaning": "визначений",
+          "example": "Der Plan ist festgelegt. – План визначений."
+        },
+        {
+          "word": "beschlossen",
+          "meaning": "ухвалений",
+          "example": "Das wurde beschlossen. – Це було ухвалено."
+        },
+        {
+          "word": "bestimmt",
+          "meaning": "визначений, призначений",
+          "example": "Der Ort ist bestimmt. – Місце визначене."
+        }
+      ],
+      "tip": [
+        "Часто вживається з Frist, Termin, Preis, Strafe, Höhe: auf einen Betrag festgesetzt.",
+        "У розмовній мові частіше кажуть festgelegt; festgesetzt звучить офіційніше."
+      ],
+      "important": [
+        "Зверни увагу на значення: festgesetzt означає «затриманий» лише в контексті поліції чи суду."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "festgesetzt",
+            "festsetzen",
+            "setzt fest",
+            "setzte fest",
+            "festgesetzte",
+            "hat festgesetzt"
+          ],
+          "purple": [
+            "встановлений",
+            "затримати"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "festgesetzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "призначено"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "festgesetzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "встановила"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "festgesetzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "встановили"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "festgesetzte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Встановлений"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "festgelegt"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "визначений"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "beschlossen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ухвалений"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "bestimmt"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "призначений"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "festgesetzt"
+            ]
+          },
+          {
+            "blue": [
+              "festgesetzt"
+            ],
+            "green": [
+              "festgelegt"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "festgesetzt"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "feuergefährlich",
-    "lv": "пожежобезпечний",
+    "lv": "вогненебезпечний",
     "level": "C1"
   },
   {
@@ -2225,7 +3544,7 @@ const C1_WORDS = [
     "de": "Feuerwerkskörper",
     "de_article": "der",
     "de_plural": "die Feuerwerkskörper",
-    "lv": "ракета для феєрверків",
+    "lv": "ракета для феєрверку",
     "level": "C1"
   },
   {
@@ -2250,7 +3569,7 @@ const C1_WORDS = [
   },
   {
     "de": "fortgeschritten",
-    "lv": "порівняно пізно в розвитку",
+    "lv": "на пізній стадії розвитку",
     "level": "C1"
   },
   {
@@ -2262,7 +3581,7 @@ const C1_WORDS = [
     "de": "Freilichtmuseum",
     "de_article": "das",
     "de_plural": "die Freilichtmuseen",
-    "lv": "музей під відкритим небом",
+    "lv": "музей просто неба",
     "level": "C1"
   },
   {
@@ -2283,14 +3602,14 @@ const C1_WORDS = [
     "de": "Friedenspolitik",
     "de_article": "die",
     "de_plural": "die Friedenspolitiken",
-    "lv": "політика миру",
+    "lv": "мирна політика",
     "level": "C1"
   },
   {
     "de": "Fuhrunternehmen",
     "de_article": "das",
     "de_plural": "die Fuhrunternehmen",
-    "lv": "вантажно-транспортна компанія",
+    "lv": "компанія вантажних перевезень",
     "level": "C1"
   },
   {
@@ -2309,28 +3628,28 @@ const C1_WORDS = [
   {
     "de": "Gebrauchtwaren",
     "de_article": "die",
-    "lv": "вживані товари",
+    "lv": "вживані речі",
     "level": "C1"
   },
   {
     "de": "Geburtenrate",
     "de_article": "die",
     "de_plural": "die Geburtenraten",
-    "lv": "народжуваність",
+    "lv": "рівень народжуваності",
     "level": "C1"
   },
   {
     "de": "Gefängniszelle",
     "de_article": "die",
     "de_plural": "die Gefängniszellen",
-    "lv": "в'язниця kamera",
+    "lv": "тюремна камера",
     "level": "C1"
   },
   {
     "de": "Gefäßverengung",
     "de_article": "die",
     "de_plural": "die Gefäßverengungen",
-    "lv": "звуження кровоносних судин",
+    "lv": "звуження судин",
     "level": "C1"
   },
   {
@@ -2344,21 +3663,21 @@ const C1_WORDS = [
     "de": "Gefrierpunkt",
     "de_article": "der",
     "de_plural": "die Gefrierpunkte",
-    "lv": "температура замерзання • нульова точка",
+    "lv": "точка замерзання • нульова точка",
     "level": "C1"
   },
   {
     "de": "Gehaltskürzung",
     "de_article": "die",
     "de_plural": "die Gehaltskürzungen",
-    "lv": "зниження зарплати",
+    "lv": "зниження заробітної плати",
     "level": "C1"
   },
   {
     "de": "Beichtgeheimnis",
     "de_article": "das",
     "de_plural": "die Beichtgeheimnisse",
-    "lv": "визнана таємниця",
+    "lv": "таємниця сповіді",
     "level": "C1"
   },
   {
@@ -2377,7 +3696,7 @@ const C1_WORDS = [
   },
   {
     "de": "geistesabwesend",
-    "lv": "відволіктися",
+    "lv": "неуважний",
     "level": "C1"
   },
   {
@@ -2387,14 +3706,14 @@ const C1_WORDS = [
   },
   {
     "de": "geistesschwach",
-    "lv": "слабкий духом • свавільний",
+    "lv": "розумово відсталий",
     "level": "C1"
   },
   {
     "de": "Geländefahrt",
     "de_article": "die",
     "de_plural": "die Geländefahrten",
-    "lv": "мандрівка по пересіченій місцевості",
+    "lv": "поїздка бездоріжжям",
     "level": "C1"
   },
   {
@@ -2406,66 +3725,72 @@ const C1_WORDS = [
   },
   {
     "de": "gelegentlich",
-    "lv": "іноді • нагода • через",
+    "lv": "іноді • випадковий • з нагоди",
     "level": "C1",
     "study": {
       "id": "c1-gelegentlich",
       "layout": "standardStudy",
-      "translation": "іноді • нагода • через",
-      "explanation": "Головна думка: gelegentlich - це слово з трьома функціями. Прикметник: випадковий, випадковий (ein gelegentlicher Besuch). Прислівник: зрідка, час від часу (Er kommt gelegentlich). Прийменник + давальний відмінок: через (gelegentlich des Festes).",
+      "translation": "іноді • випадковий • з нагоди",
+      "explanation": [
+        "Головна думка: gelegentlich найчастіше — прислівник іноді, час від часу: щось відбувається не регулярно, а зрідка. Як прикметник воно означає випадковий або поодинокий: gelegentliche Schauer — поодинокі зливи.",
+        "Рідше й офіційніше gelegentlich — прийменник із родовим відмінком (Genitiv), що означає з нагоди: gelegentlich seines Geburtstags — з нагоди його дня народження. Таке вживання сьогодні звучить дуже офіційно або застаріло.",
+        "Gelegentlich як прислівник не змінюється; як прикметник отримує закінчення."
+      ],
       "examples": [
         {
-          "de": "Er kommt gelegentlich vorbei.",
-          "lv": "він іноді зупиняється."
+          "de": "Wir treffen uns gelegentlich auf einen Kaffee.",
+          "lv": "Ми іноді зустрічаємося на каву."
         },
         {
-          "de": "Ein gelegentlicher Besuch reicht.",
-          "lv": "достатньо періодичного відвідування."
+          "de": "Er raucht nur gelegentlich.",
+          "lv": "Він курить лише іноді."
         },
         {
-          "de": "Gelegentlich des Festes gab es eine Rede.",
-          "lv": "була виголошена промова з нагоди свята."
+          "de": "Gelegentliche Schauer sind möglich.",
+          "lv": "Можливі поодинокі зливи."
+        },
+        {
+          "de": "Gelegentlich seines Geburtstags hielt er eine Rede.",
+          "lv": "З нагоди свого дня народження він виголосив промову."
         }
       ],
       "comparison": [
         {
-          "word": "gelegentlich (Adv.)",
-          "meaning": "іноді • час від часу",
-          "example": "Er kommt gelegentlich. = Viņš reizēm atnāk."
-        },
-        {
-          "word": "gelegentlich (Adj.)",
-          "meaning": "випадковий • випадковий",
-          "example": "ein gelegentlicher Besuch = gadījuma apmeklējums"
-        },
-        {
-          "word": "gelegentlich (+ Gen.)",
-          "meaning": "завдяки",
-          "example": "gelegentlich des Festes = svētku sakarā"
-        },
-        {
           "word": "manchmal",
-          "meaning": "іноді",
-          "example": "Manchmal regnet es. = Reizēm līst."
+          "meaning": "інколи",
+          "example": "Manchmal gehe ich laufen. – Інколи я ходжу бігати."
+        },
+        {
+          "word": "ab und zu",
+          "meaning": "час від часу",
+          "example": "Ab und zu rufe ich ihn an. – Час від часу я йому телефоную."
+        },
+        {
+          "word": "selten",
+          "meaning": "рідко",
+          "example": "Er kommt selten. – Він приходить рідко."
         }
       ],
-      "tip": {
-        "leftBlocks": [
-          {
-            "text": "Допомагає позиція в реченні: перед іменником = прикметник; дієсловом = прислівник; + родовий відмінок = прийменник."
-          }
-        ]
-      },
-      "important": {
-        "text": "Adj.: випадковий. Adv.: іноді. підготовка + Gen.: завдяки. Контекст визначає значення."
-      },
+      "tip": [
+        "Якщо хочеш сказати «іноді, але не регулярно», вживай gelegentlich або ab und zu.",
+        "У повсякденні частіше почуєш manchmal; gelegentlich звучить ретельніше й більше підходить для писемної мови."
+      ],
+      "important": [
+        "Gelegentlich не означає «випадок» чи «нагода»: для цього є die Gelegenheit (нагода)."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "gelegentlich"
+            "gelegentlich",
+            "gelegentliche",
+            "gelegentlich seines Geburtstags",
+            "Gelegentlich"
           ],
           "purple": [
-            "випадковий"
+            "іноді",
+            "випадковий",
+            "з нагоди",
+            "поодинокі"
           ]
         },
         "examples": [
@@ -2487,7 +3812,23 @@ const C1_WORDS = [
                 "gelegentlich"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "іноді"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Gelegentliche"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "поодинокі"
+              ]
+            }
           },
           {
             "de": {
@@ -2495,7 +3836,75 @@ const C1_WORDS = [
                 "Gelegentlich"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "нагоди"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "manchmal"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "інколи"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "ab und zu"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "час від часу"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "selten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "рідко"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "gelegentlich"
+            ],
+            "green": [
+              "ab und zu"
+            ]
+          },
+          {
+            "blue": [
+              "gelegentlich"
+            ],
+            "green": [
+              "manchmal"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "gelegentlich",
+              "Gelegentlich"
+            ]
           }
         ]
       }
@@ -2505,7 +3914,7 @@ const C1_WORDS = [
     "de": "Gemäldegalerie",
     "de_article": "die",
     "de_plural": "die Gemäldegalerien",
-    "lv": "галерея живопису",
+    "lv": "картинна галерея",
     "level": "C1"
   },
   {
@@ -2518,21 +3927,21 @@ const C1_WORDS = [
   {
     "de": "Gemeineigentum",
     "de_article": "das",
-    "lv": "громадська власність",
+    "lv": "суспільна власність",
     "level": "C1"
   },
   {
     "de": "Gemütsmensch",
     "de_article": "der",
     "de_plural": "die Gemütsmenschen",
-    "lv": "добра і добра людина",
+    "lv": "добродушна людина",
     "level": "C1"
   },
   {
     "de": "Genmanipulation",
     "de_article": "die",
     "de_plural": "die Genmanipulationen",
-    "lv": "модифікація гена",
+    "lv": "генетична модифікація",
     "level": "C1"
   },
   {
@@ -2546,12 +3955,12 @@ const C1_WORDS = [
     "de": "Generalstreik",
     "de_article": "der",
     "de_plural": "die Generalstreiks",
-    "lv": "загальні streiks",
+    "lv": "загальний страйк",
     "level": "C1"
   },
   {
     "de": "genmanipuliert",
-    "lv": "з модифікованими генами",
+    "lv": "генетично модифікований",
     "level": "C1"
   },
   {
@@ -2565,12 +3974,12 @@ const C1_WORDS = [
     "de": "Gepflogenheit",
     "de_article": "die",
     "de_plural": "die Gepflogenheiten",
-    "lv": "звичай • звичай",
+    "lv": "звичка • звичай",
     "level": "C1"
   },
   {
     "de": "geradebiegen",
-    "lv": "straight out • правильний",
+    "lv": "випрямляти • випрямити • виправляти • виправити",
     "level": "C1"
   },
   {
@@ -2584,12 +3993,12 @@ const C1_WORDS = [
     "de": "Gerichtshof",
     "de_article": "der",
     "de_plural": "die Gerichtshöfe",
-    "lv": "судова зала • трибунал",
+    "lv": "судова палата • трибунал",
     "level": "C1"
   },
   {
     "de": "geringschätzig",
-    "lv": "зневажливий • зневажливий • зневажливий",
+    "lv": "зневажливий",
     "level": "C1"
   },
   {
@@ -2603,14 +4012,14 @@ const C1_WORDS = [
     "de": "Gesamtergebnis",
     "de_article": "das",
     "de_plural": "die Gesamtergebnisse",
-    "lv": "кінцевий результат • кінцевий результат",
+    "lv": "кінцевий результат",
     "level": "C1"
   },
   {
     "de": "Gesandtschaft",
     "de_article": "die",
     "de_plural": "die Gesandtschaften",
-    "lv": "посольство",
+    "lv": "дипломатична місія",
     "level": "C1"
   },
   {
@@ -2624,24 +4033,24 @@ const C1_WORDS = [
     "de": "Geschäftsjahr",
     "de_article": "das",
     "de_plural": "die Geschäftsjahre",
-    "lv": "господарський рік",
+    "lv": "фінансовий рік",
     "level": "C1"
   },
   {
     "de": "geschlechtsreif",
-    "lv": "досяг статевої зрілості",
+    "lv": "статевозрілий",
     "level": "C1"
   },
   {
     "de": "Gesetzbuch",
     "de_article": "das",
     "de_plural": "die Gesetzbücher",
-    "lv": "кодекс • збірник законів",
+    "lv": "кодекс • звід законів",
     "level": "C1"
   },
   {
     "de": "gesetzgebend",
-    "lv": "законодавець",
+    "lv": "законодавчий",
     "level": "C1"
   },
   {
@@ -2651,19 +4060,19 @@ const C1_WORDS = [
   },
   {
     "de": "gesetzmäßig",
-    "lv": "законний • законний",
+    "lv": "законний • закономірний",
     "level": "C1"
   },
   {
     "de": "gesetzwidrig",
-    "lv": "проти закону",
+    "lv": "протизаконний",
     "level": "C1"
   },
   {
     "de": "Gesichtskreis",
     "de_article": "der",
     "de_plural": "die Gesichtskreise",
-    "lv": "горизонт • горизонт",
+    "lv": "кругозір • обрій",
     "level": "C1"
   },
   {
@@ -2676,12 +4085,12 @@ const C1_WORDS = [
   {
     "de": "Gewissensbisse",
     "de_article": "die",
-    "lv": "каяття",
+    "lv": "докори сумління",
     "level": "C1"
   },
   {
     "de": "gewissermaßen",
-    "lv": "певною мірою • в певному сенсі • так би мовити",
+    "lv": "певною мірою • у певному сенсі • так би мовити",
     "level": "C1"
   },
   {
@@ -2691,7 +4100,7 @@ const C1_WORDS = [
   },
   {
     "de": "gleichberechtigt",
-    "lv": "рівний • з рівними правами",
+    "lv": "рівноправний",
     "level": "C1"
   },
   {
@@ -2725,7 +4134,7 @@ const C1_WORDS = [
   {
     "de": "Haft",
     "de_article": "die",
-    "lv": "затримання • арешт",
+    "lv": "ув’язнення • арешт",
     "level": "C1"
   },
   {
@@ -2737,7 +4146,7 @@ const C1_WORDS = [
   },
   {
     "de": "haften",
-    "lv": "палка • застрягти",
+    "lv": "прилипати • прилипнути",
     "level": "C1"
   },
   {
@@ -2751,21 +4160,21 @@ const C1_WORDS = [
     "de": "Haltbarkeitsdauer",
     "de_article": "die",
     "de_plural": "die Haltbarkeitsdauern",
-    "lv": "час зберігання",
+    "lv": "термін зберігання",
     "level": "C1"
   },
   {
     "de": "Handelspartner",
     "de_article": "der",
     "de_plural": "die Handelspartner",
-    "lv": "торговий партнер",
+    "lv": "торговельний партнер",
     "level": "C1"
   },
   {
     "de": "Handelsvertretung",
     "de_article": "die",
     "de_plural": "die Handelsvertretungen",
-    "lv": "торгове представництво",
+    "lv": "торговельне представництво",
     "level": "C1"
   },
   {
@@ -2786,14 +4195,14 @@ const C1_WORDS = [
     "de": "Haushaltsartikel",
     "de_article": "der",
     "de_plural": "die Haushaltsartikel",
-    "lv": "предмет побуту",
+    "lv": "господарський товар",
     "level": "C1"
   },
   {
     "de": "Haushaltshilfe",
     "de_article": "die",
     "de_plural": "die Haushaltshilfen",
-    "lv": "оплачувана допомога по господарству",
+    "lv": "хатня робітниця",
     "level": "C1"
   },
   {
@@ -2817,23 +4226,23 @@ const C1_WORDS = [
   },
   {
     "de": "herunterkommen",
-    "lv": "зійти • розпад • занепад • тонути",
+    "lv": "спускатися • спуститися • занепадати • занепасти",
     "level": "C1"
   },
   {
     "de": "herunterstürzen",
-    "lv": "упасть на землю • впасти на землю",
+    "lv": "падати • упасти • звалюватися • звалитися",
     "level": "C1"
   },
   {
     "de": "sich hinreißen lassen",
-    "lv": "збудитися",
+    "lv": "захоплюватися • захопитися",
     "level": "C1"
   },
   {
     "de": "Industrieabgase",
     "de_article": "die",
-    "lv": "промислові вихлопні гази",
+    "lv": "промислові викиди",
     "level": "C1"
   },
   {
@@ -2851,46 +4260,46 @@ const C1_WORDS = [
   },
   {
     "de": "inhaftieren",
-    "lv": "арештовувати",
+    "lv": "заарештовувати • заарештувати",
     "level": "C1"
   },
   {
     "de": "Innenarchitekt",
     "de_article": "der",
     "de_plural": "die Innenarchitekten",
-    "lv": "архітектор інтер'єрів",
+    "lv": "архітектор інтер’єру",
     "level": "C1"
   },
   {
     "de": "Innenminister",
     "de_article": "der",
     "de_plural": "die Innenminister",
-    "lv": "міністра внутрішніх справ",
+    "lv": "міністр внутрішніх справ",
     "level": "C1"
   },
   {
     "de": "Intensivstation",
     "de_article": "die",
     "de_plural": "die Intensivstationen",
-    "lv": "відділення інтенсивної терапії в лікарні",
+    "lv": "реанімаційне відділення",
     "level": "C1"
   },
   {
     "de": "interpretieren",
-    "lv": "тлумачити • пояснювати",
+    "lv": "інтерпретувати • пояснювати • пояснити",
     "level": "C1"
   },
   {
     "de": "Justiz",
     "de_article": "die",
-    "lv": "правосуддя • судові справи",
+    "lv": "юстиція",
     "level": "C1"
   },
   {
     "de": "Kabinettsitzung",
     "de_article": "die",
     "de_plural": "die Kabinettsitzungen",
-    "lv": "засідання кабінету міністрів",
+    "lv": "засідання кабінету",
     "level": "C1"
   },
   {
@@ -2904,7 +4313,7 @@ const C1_WORDS = [
     "de": "Kaution",
     "de_article": "die",
     "de_plural": "die Kautionen",
-    "lv": "застава • порука • поручительство • гарантія",
+    "lv": "застава • порука • гарантія",
     "level": "C1"
   },
   {
@@ -2916,7 +4325,7 @@ const C1_WORDS = [
   },
   {
     "de": "körperbehindert",
-    "lv": "фізично обмежені",
+    "lv": "з фізичною інвалідністю",
     "level": "C1"
   },
   {
@@ -2937,21 +4346,21 @@ const C1_WORDS = [
     "de": "Kriegsgefangene",
     "de_article": "der",
     "de_plural": "die Kriegsgefangenen",
-    "lv": "військовополоненим",
+    "lv": "військовополонений",
     "level": "C1"
   },
   {
     "de": "Kabinettskrise",
     "de_article": "die",
     "de_plural": "die Kabinettskrisen",
-    "lv": "Кабмінська криза",
+    "lv": "урядова криза",
     "level": "C1"
   },
   {
     "de": "Lawinenwarnung",
     "de_article": "die",
     "de_plural": "die Lawinenwarnungen",
-    "lv": "лавинне попередження",
+    "lv": "попередження про лавину",
     "level": "C1"
   },
   {
@@ -2970,7 +4379,7 @@ const C1_WORDS = [
     "de": "Lebensgefährte",
     "de_article": "der",
     "de_plural": "die Lebensgefährten",
-    "lv": "подружжя в незареєстрованому шлюбі",
+    "lv": "партнер (у незареєстрованому шлюбі)",
     "level": "C1"
   },
   {
@@ -3002,7 +4411,7 @@ const C1_WORDS = [
     "de": "Liebeserklärung",
     "de_article": "die",
     "de_plural": "die Liebeserklärungen",
-    "lv": "відкриття кохання",
+    "lv": "освідчення в коханні",
     "level": "C1"
   },
   {
@@ -3022,21 +4431,21 @@ const C1_WORDS = [
     "de": "Machtübernahme",
     "de_article": "die",
     "de_plural": "die Machtübernahmen",
-    "lv": "захоплення влади",
+    "lv": "взяття влади",
     "level": "C1"
   },
   {
     "de": "Magnetstreifen",
     "de_article": "der",
     "de_plural": "die Magnetstreifen",
-    "lv": "магнітна смуга (на кредитну картку)",
+    "lv": "магнітна смуга (на кредитній картці)",
     "level": "C1"
   },
   {
     "de": "Marschflugkörper",
     "de_article": "der",
     "de_plural": "die Marschflugkörper",
-    "lv": "крилатая ракета • крилата ракета",
+    "lv": "крилата ракета",
     "level": "C1"
   },
   {
@@ -3055,7 +4464,7 @@ const C1_WORDS = [
     "de": "Meineid",
     "de_article": "der",
     "de_plural": "die Meineide",
-    "lv": "завідомо неправдиві свідчення в суді",
+    "lv": "завідомо неправдиве показання",
     "level": "C1"
   },
   {
@@ -3065,7 +4474,7 @@ const C1_WORDS = [
   },
   {
     "de": "militärpflichtig",
-    "lv": "підлягає військовій службі",
+    "lv": "військовозобов’язаний",
     "level": "C1"
   },
   {
@@ -3077,7 +4486,7 @@ const C1_WORDS = [
   },
   {
     "de": "namhaft",
-    "lv": "знаменитий • знатний",
+    "lv": "відомий • видатний",
     "level": "C1"
   },
   {
@@ -3089,7 +4498,7 @@ const C1_WORDS = [
   },
   {
     "de": "niedergeschlagen",
-    "lv": "депресивний • пригнічений",
+    "lv": "пригнічений • депресивний",
     "level": "C1"
   },
   {
@@ -3124,35 +4533,35 @@ const C1_WORDS = [
     "de": "Originalfassung",
     "de_article": "die",
     "de_plural": "die Originalfassungen",
-    "lv": "оригінальний варіант",
+    "lv": "оригінальна версія",
     "level": "C1"
   },
   {
     "de": "Originalgemälde",
     "de_article": "das",
     "de_plural": "die Originalgemälde",
-    "lv": "оригінальний живопис",
+    "lv": "оригінал картини",
     "level": "C1"
   },
   {
     "de": "Parteifunktionär",
     "de_article": "der",
     "de_plural": "die Parteifunktionäre",
-    "lv": "партійний працівник",
+    "lv": "партійний функціонер",
     "level": "C1"
   },
   {
     "de": "Pflichtlektüre",
     "de_article": "die",
     "de_plural": "die Pflichtlektüren",
-    "lv": "обов'язкова навчальна література",
+    "lv": "обов’язкова навчальна література",
     "level": "C1"
   },
   {
     "de": "Preisfrage",
     "de_article": "die",
     "de_plural": "die Preisfragen",
-    "lv": "конкурсне питання",
+    "lv": "конкурсне запитання",
     "level": "C1"
   },
   {
@@ -3173,50 +4582,50 @@ const C1_WORDS = [
     "de": "Presseerklärung",
     "de_article": "die",
     "de_plural": "die Presseerklärungen",
-    "lv": "прес-реліз",
+    "lv": "заява для преси",
     "level": "C1"
   },
   {
     "de": "Produktionskosten",
     "de_article": "die",
-    "lv": "собівартість продукції",
+    "lv": "собівартість виробництва",
     "level": "C1"
   },
   {
     "de": "Produktionsweise",
     "de_article": "die",
     "de_plural": "die Produktionsweisen",
-    "lv": "вид виробництва",
+    "lv": "спосіб виробництва",
     "level": "C1"
   },
   {
     "de": "Rangierbahnhof",
     "de_article": "der",
     "de_plural": "die Rangierbahnhöfe",
-    "lv": "залізничний двір",
+    "lv": "сортувальна станція",
     "level": "C1"
   },
   {
     "de": "rätselhaft",
-    "lv": "загадковий • незрозумілий",
+    "lv": "загадковий • незбагненний",
     "level": "C1"
   },
   {
     "de": "Raumausstatter",
     "de_article": "der",
     "de_plural": "die Raumausstatter",
-    "lv": "дизайнер інтер'єру",
+    "lv": "дизайнер інтер’єру",
     "level": "C1"
   },
   {
     "de": "Rechenschaft",
     "de_article": "die",
-    "lv": "відповідальність (за свої дії) • відповідальність",
+    "lv": "звіт (про свої дії) • відповідальність",
     "level": "C1"
   },
   {
     "de": "rechtswidrig",
-    "lv": "незаконний",
+    "lv": "протиправний",
     "level": "C1"
   },
   {
@@ -3230,7 +4639,7 @@ const C1_WORDS = [
     "de": "Regierungschef",
     "de_article": "der",
     "de_plural": "die Regierungschefs",
-    "lv": "прем'єр • голова уряду",
+    "lv": "прем’єр-міністр • глава уряду",
     "level": "C1"
   },
   {
@@ -3258,12 +4667,12 @@ const C1_WORDS = [
     "de": "Rentenempfänger",
     "de_article": "der",
     "de_plural": "die Rentenempfänger",
-    "lv": "пенсіонер",
+    "lv": "одержувач пенсії",
     "level": "C1"
   },
   {
     "de": "republikanisch",
-    "lv": "республіканський • республіки",
+    "lv": "республіканський",
     "level": "C1"
   },
   {
@@ -3275,7 +4684,7 @@ const C1_WORDS = [
   },
   {
     "de": "sanktionieren",
-    "lv": "підтримка • санкція",
+    "lv": "схвалювати • схвалити • санкціонувати",
     "level": "C1"
   },
   {
@@ -3296,19 +4705,19 @@ const C1_WORDS = [
     "de": "Schicksalsschlag",
     "de_article": "der",
     "de_plural": "die Schicksalsschläge",
-    "lv": "волею долі",
+    "lv": "удар долі",
     "level": "C1"
   },
   {
     "de": "schmerzstillend",
-    "lv": "болезаспокійливий засіб",
+    "lv": "знеболювальний",
     "level": "C1"
   },
   {
     "de": "Anklageschrift",
     "de_article": "die",
     "de_plural": "die Anklageschriften",
-    "lv": "обвинувачення",
+    "lv": "обвинувальний акт",
     "level": "C1"
   },
   {
@@ -3328,7 +4737,7 @@ const C1_WORDS = [
     "de": "Selbstverwaltung",
     "de_article": "die",
     "de_plural": "die Selbstverwaltungen",
-    "lv": "муніципалітет",
+    "lv": "самоврядування",
     "level": "C1"
   },
   {
@@ -3340,12 +4749,12 @@ const C1_WORDS = [
     "de": "Sensationsmeldung",
     "de_article": "die",
     "de_plural": "die Sensationsmeldungen",
-    "lv": "сенсаційна заява",
+    "lv": "сенсаційне повідомлення",
     "level": "C1"
   },
   {
     "de": "sesshaft",
-    "lv": "проживання в одному місці • кемпер",
+    "lv": "осілий",
     "level": "C1"
   },
   {
@@ -3373,14 +4782,14 @@ const C1_WORDS = [
     "de": "Krisensituation",
     "de_article": "die",
     "de_plural": "die Krisensituationen",
-    "lv": "кризисная ситуация • криза",
+    "lv": "кризова ситуація • криза",
     "level": "C1"
   },
   {
     "de": "Sommersonnenwende",
     "de_article": "die",
     "de_plural": "die Sommersonnenwenden",
-    "lv": "літнього сонцестояння",
+    "lv": "літнє сонцестояння",
     "level": "C1"
   },
   {
@@ -3394,7 +4803,7 @@ const C1_WORDS = [
     "de": "Spitzenleistung",
     "de_article": "die",
     "de_plural": "die Spitzenleistungen",
-    "lv": "рекорд • найвище досягнення • техн. максимальна потужність",
+    "lv": "рекорд • найвище досягнення • (тех.) максимальна потужність",
     "level": "C1"
   },
   {
@@ -3426,37 +4835,37 @@ const C1_WORDS = [
   },
   {
     "de": "stimmberechtigt",
-    "lv": "має право голосу",
+    "lv": "який має право голосу",
     "level": "C1"
   },
   {
     "de": "Studienbewerber",
     "de_article": "der",
     "de_plural": "die Studienbewerber",
-    "lv": "абітурієнт ВНЗ",
+    "lv": "абітурієнт",
     "level": "C1"
   },
   {
     "de": "synchronisieren",
-    "lv": "озвучити фільм",
+    "lv": "дублювати • продублювати (фільм)",
     "level": "C1"
   },
   {
     "de": "Tageseinnahmen",
     "de_article": "die",
-    "lv": "денний заробіток",
+    "lv": "денний виторг",
     "level": "C1"
   },
   {
     "de": "Transfusion",
     "de_article": "die",
     "de_plural": "die Transfusionen",
-    "lv": "пряме переливання крові від однієї людини до іншої",
+    "lv": "переливання крові",
     "level": "C1"
   },
   {
     "de": "überanstrengen",
-    "lv": "перевтомлюватися • sich ü. перевтомлюватися",
+    "lv": "перевтомлювати • перевтомити • перевтомлюватися • перевтомитися",
     "level": "C1"
   },
   {
@@ -3470,19 +4879,19 @@ const C1_WORDS = [
     "de": "Überbleibsel",
     "de_article": "das",
     "de_plural": "die Überbleibsel",
-    "lv": "надлишок • залишається",
+    "lv": "залишок • рештки",
     "level": "C1"
   },
   {
     "de": "übereinstimmen",
-    "lv": "погоджуватися • погоджуватися з ким",
+    "lv": "узгоджуватися • узгодитися • погоджуватися • погодитися",
     "level": "C1"
   },
   {
     "de": "Überschuss",
     "de_article": "der",
     "de_plural": "die Überschüsse",
-    "lv": "залишок • надлишок • ліквідація",
+    "lv": "залишок • надлишок",
     "level": "C1"
   },
   {
@@ -3501,7 +4910,7 @@ const C1_WORDS = [
   },
   {
     "de": "unausgeglichen",
-    "lv": "незбалансований",
+    "lv": "неврівноважений",
     "level": "C1"
   },
   {
@@ -3513,7 +4922,7 @@ const C1_WORDS = [
     "de": "Unterschätzung",
     "de_article": "die",
     "de_plural": "die Unterschätzungen",
-    "lv": "недооцінка • недооцінка",
+    "lv": "недооцінка",
     "level": "C1"
   },
   {
@@ -3523,75 +4932,251 @@ const C1_WORDS = [
   },
   {
     "de": "verabschieden",
-    "lv": "звільнення з роботи • вийти на пенсію",
-    "level": "C1"
+    "lv": "прощатися • попрощатися",
+    "level": "C1",
+    "study": {
+      "id": "c1-verabschieden",
+      "layout": "standardStudy",
+      "translation": "прощатися • попрощатися",
+      "explanation": [
+        "Головна думка: sich verabschieden означає прощатися з кимось: Ich verabschiede mich von dir. Особу, з якою прощаються, позначають через von + Dativ.",
+        "Зворотне дієслово: ich verabschiede mich, er verabschiedet sich, verabschiedete sich, hat sich verabschiedet. Без sich дієслово verabschieden може означати проводжати когось, прощатися з кимось (der Direktor wurde in den Ruhestand verabschiedet) або ухвалити закон (ein Gesetz verabschieden).",
+        "Іменник — die Verabschiedung (прощання, ухвалення закону)."
+      ],
+      "examples": [
+        {
+          "de": "Ich verabschiede mich von meinen Kollegen.",
+          "lv": "Я прощаюся з колегами."
+        },
+        {
+          "de": "Sie verabschiedete sich und ging nach Hause.",
+          "lv": "Вона попрощалася й пішла додому."
+        },
+        {
+          "de": "Das Parlament hat das Gesetz verabschiedet.",
+          "lv": "Парламент ухвалив закон."
+        },
+        {
+          "de": "Der Direktor wurde nach dreißig Jahren in den Ruhestand verabschiedet.",
+          "lv": "Директора після тридцяти років урочисто провели на пенсію."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Abschied nehmen",
+          "meaning": "прощатися",
+          "example": "Er nahm Abschied von seiner Heimat. – Він попрощався з батьківщиною."
+        },
+        {
+          "word": "beschließen",
+          "meaning": "вирішувати, ухвалювати рішення",
+          "example": "Der Rat beschließt das Budget. – Рада ухвалює бюджет."
+        },
+        {
+          "word": "winken",
+          "meaning": "махати рукою",
+          "example": "Sie winkt zum Abschied. – Вона махає на прощання."
+        }
+      ],
+      "tip": [
+        "У повсякденні, прощаючись, кажуть: Ich verabschiede mich, tschüss! або Auf Wiedersehen!",
+        "Щоб сказати, з ким прощаються, завжди вживай von + Dativ."
+      ],
+      "important": [
+        "Про закони кажуть verabschieden, коли їх ухвалює парламент; це не повсякденне значення прощання."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "sich verabschieden",
+            "verabschiede",
+            "verabschiedete",
+            "verabschiedet",
+            "von",
+            "Verabschiedung",
+            "verabschieden"
+          ],
+          "purple": [
+            "прощатися",
+            "ухвалити закон"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "verabschiede"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "прощаюся"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verabschiedete"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "попрощалася"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verabschiedet"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ухвалив"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verabschiedet"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "провели"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "Abschied nehmen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "прощатися"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "beschließen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "вирішувати"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "winken"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "махати"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "verabschiede"
+            ]
+          },
+          {
+            "blue": [
+              "von"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "verabschieden"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "veränderlich",
-    "lv": "мінливий • мінливий",
+    "lv": "мінливий • змінний",
     "level": "C1"
   },
   {
     "de": "veranschlagen",
-    "lv": "обчислити • обчислити • скласти кошторис",
+    "lv": "обчислювати • обчислити • складати кошторис • скласти кошторис",
     "level": "C1"
   },
   {
     "de": "verdrießlich",
-    "lv": "неприємний • роздратований • роздратований",
+    "lv": "неприємний • похмурий • сердитий",
     "level": "C1"
   },
   {
     "de": "Verfallsdatum",
     "de_article": "das",
     "de_plural": "die Verfallsdaten",
-    "lv": "термін придатності",
+    "lv": "кінець терміну придатності",
     "level": "C1"
   },
   {
     "de": "Verfassung",
     "de_article": "die",
     "de_plural": "die Verfassungen",
-    "lv": "конституція • конституція",
+    "lv": "конституція",
     "level": "C1"
   },
   {
     "de": "vergewaltigen",
-    "lv": "ґвалтування",
+    "lv": "ґвалтувати • зґвалтувати",
     "level": "C1"
   },
   {
     "de": "sich vergewissern",
-    "lv": "переконайтеся",
+    "lv": "переконуватися • переконатися",
     "level": "C1"
   },
   {
     "de": "Vergünstigung",
     "de_article": "die",
     "de_plural": "die Vergünstigungen",
-    "lv": "перевага • привілей • полегшення",
+    "lv": "перевага • привілей • пільга",
     "level": "C1"
   },
   {
     "de": "verhaften",
-    "lv": "арештовувати",
+    "lv": "заарештовувати • заарештувати",
     "level": "C1"
   },
   {
     "de": "verhältnismäßig",
-    "lv": "відносно",
+    "lv": "порівняно",
     "level": "C1"
   },
   {
     "de": "Verhandlungen",
     "de_article": "die",
     "de_plural": "die Verhandlungen",
-    "lv": "розмови",
+    "lv": "переговори",
     "level": "C1"
   },
   {
     "de": "verheimlichen",
-    "lv": "приховати • зберігати в таємниці",
+    "lv": "приховувати • приховати • тримати в таємниці",
     "level": "C1"
   },
   {
@@ -3611,7 +5196,7 @@ const C1_WORDS = [
     "de": "Verpflichtung",
     "de_article": "die",
     "de_plural": "die Verpflichtungen",
-    "lv": "обов'язок • зобов'язання",
+    "lv": "обов’язок • зобов’язання",
     "level": "C1"
   },
   {
@@ -3623,59 +5208,59 @@ const C1_WORDS = [
   },
   {
     "de": "verklagen",
-    "lv": "судитися",
+    "lv": "подавати до суду • подати до суду",
     "level": "C1"
   },
   {
     "de": "vernachlässigen",
-    "lv": "нехтувати • бути недбалим",
+    "lv": "занедбувати • занедбати • нехтувати • знехтувати",
     "level": "C1"
   },
   {
     "de": "verpflichten",
-    "lv": "зобов'язувати",
+    "lv": "зобов’язувати • зобов’язати",
     "level": "C1"
   },
   {
     "de": "sich verpflichten",
-    "lv": "взятися",
+    "lv": "зобов’язуватися • зобов’язатися",
     "level": "C1"
   },
   {
     "de": "sich verschließen",
-    "lv": "отключать • відключати",
+    "lv": "замикатися • замкнутися • відгороджуватися • відгородитися",
     "level": "C1"
   },
   {
     "de": "verschlossen",
-    "lv": "замкнутий • закритий • перев. закритий • самодостатній",
+    "lv": "замкнений • закритий • замкнутий (про людину)",
     "level": "C1"
   },
   {
     "de": "verschlüsseln",
-    "lv": "шифрувати • кодувати",
+    "lv": "шифрувати • зашифрувати • кодувати • закодувати",
     "level": "C1"
   },
   {
     "de": "verschreiben",
-    "lv": "мед. підписувати",
+    "lv": "приписувати • приписати (ліки)",
     "level": "C1"
   },
   {
     "de": "verschweigen",
-    "lv": "утримувати • не розкривати",
+    "lv": "замовчувати • замовчати • не розголошувати",
     "level": "C1"
   },
   {
     "de": "verständigen",
-    "lv": "повідомляти • повідомляти",
+    "lv": "інформувати • поінформувати • повідомляти • повідомити",
     "level": "C1"
   },
   {
     "de": "Versuchsanlage",
     "de_article": "die",
     "de_plural": "die Versuchsanlagen",
-    "lv": "випробувальний заклад",
+    "lv": "випробувальна установка",
     "level": "C1"
   },
   {
@@ -3689,75 +5274,75 @@ const C1_WORDS = [
     "de": "Versuchsreihe",
     "de_article": "die",
     "de_plural": "die Versuchsreihen",
-    "lv": "серії тестів",
+    "lv": "серія випробувань",
     "level": "C1"
   },
   {
     "de": "verunglücken",
-    "lv": "потерпіти в аварії • постраждати в аварії",
+    "lv": "потрапляти в аварію • потрапити в аварію • постраждати від нещасного випадку",
     "level": "C1"
   },
   {
     "de": "verurteilen",
-    "lv": "засуджувати",
+    "lv": "засуджувати • засудити",
     "level": "C1"
   },
   {
     "de": "vervielfältigen",
-    "lv": "множити",
+    "lv": "розмножувати • розмножити",
     "level": "C1"
   },
   {
     "de": "vervollkommnen",
-    "lv": "доповнювати • покращувати",
+    "lv": "удосконалювати • удосконалити • доповнювати • доповнити",
     "level": "C1"
   },
   {
     "de": "sich vervollkommnen",
-    "lv": "поповнити свої знання",
+    "lv": "удосконалюватися • удосконалитися",
     "level": "C1"
   },
   {
     "de": "verwirklichen",
-    "lv": "реалізувати • реалізувати",
+    "lv": "реалізовувати • реалізувати • здійснювати • здійснити",
     "level": "C1"
   },
   {
     "de": "Volksabstimmung",
     "de_article": "die",
     "de_plural": "die Volksabstimmungen",
-    "lv": "народне голосування • плебісцит",
+    "lv": "всенародне голосування • плебісцит",
     "level": "C1"
   },
   {
     "de": "Volksbefragung",
     "de_article": "die",
     "de_plural": "die Volksbefragungen",
-    "lv": "опитування всього народу • референдум",
+    "lv": "всенародне опитування • референдум",
     "level": "C1"
   },
   {
     "de": "Vollversammlung",
     "de_article": "die",
     "de_plural": "die Vollversammlungen",
-    "lv": "пленум • загальні збори • загальні збори",
+    "lv": "пленум • загальні збори • генеральна асамблея",
     "level": "C1"
   },
   {
     "de": "voreingenommen",
-    "lv": "упереджений • упереджений",
+    "lv": "упереджений • необ’єктивний",
     "level": "C1"
   },
   {
     "de": "waag[e]recht",
-    "lv": "рівень • горизонтальний",
+    "lv": "горизонтальний",
     "level": "C1"
   },
   {
     "de": "Waffenruhe",
     "de_article": "die",
     "de_plural": "die Waffenruhen",
-    "lv": "перерва в боях",
+    "lv": "припинення вогню",
     "level": "C1"
   },
   {
@@ -3769,70 +5354,95 @@ const C1_WORDS = [
   },
   {
     "de": "wahlberechtigt",
-    "lv": "той, хто має право голосу",
+    "lv": "який має виборче право",
     "level": "C1",
     "study": {
       "id": "c1-wahlberechtigt",
       "layout": "standardStudy",
-      "translation": "той, хто має право голосу",
-      "explanation": "Головна думка: wahlberechtigt - це прикметник, що означає, що особа має право брати участь у виборах - голосувати або бути обраним. Складені: Wahl (вибори) + behrechtig (під назвою).",
+      "translation": "який має виборче право",
+      "explanation": [
+        "Головна думка: wahlberechtigt — прикметник, що позначає людину, яка має виборче право, тобто може брати участь у виборах і голосувати.",
+        "Як і інші прикметники, він відмінюється: wahlberechtigte Bürger. Від прикметника можна утворити іменник: der/die Wahlberechtigte, die Wahlberechtigten (виборець, особа з правом голосу).",
+        "Слово складається з die Wahl (вибори) і berechtigt (який має право)."
+      ],
       "examples": [
         {
-          "de": "Alle wahlberechtigten Bürger können wählen.",
-          "lv": "голосувати можуть усі виборці, які мають право голосу."
+          "de": "Alle Bürger ab 18 Jahren sind wahlberechtigt.",
+          "lv": "Усі громадяни від 18 років мають право голосувати."
         },
         {
-          "de": "Ab 18 Jahren ist man wahlberechtigt.",
-          "lv": "з 18 років мають право голосу."
+          "de": "Nur wahlberechtigte Personen dürfen abstimmen.",
+          "lv": "Голосувати можуть лише особи з виборчим правом."
         },
         {
-          "de": "Nicht alle Einwohner sind wahlberechtigt.",
-          "lv": "не всі громадяни мають право голосу."
+          "de": "Wer ist in dieser Stadt wahlberechtigt?",
+          "lv": "Хто в цьому місті має виборче право?"
+        },
+        {
+          "de": "Die Zahl der Wahlberechtigten ist gestiegen.",
+          "lv": "Кількість виборців зросла."
         }
       ],
       "comparison": [
         {
-          "word": "wahlberechtigt",
-          "meaning": "з правом голосу",
-          "example": "Er ist wahlberechtigt. = Viņam ir vēlēšanu tiesības."
+          "word": "das Wahlrecht",
+          "meaning": "виборче право",
+          "example": "Das Wahlrecht ist ein Grundrecht. – Виборче право є одним з основних прав."
         },
         {
-          "word": "wählen",
-          "meaning": "бажати • голосувати",
-          "example": "Ich wähle heute. = Es šodien balsoju."
+          "word": "wählbar",
+          "meaning": "який може бути обраний",
+          "example": "Er ist wählbar. – Він може бути обраний."
         },
         {
-          "word": "der Wähler",
-          "meaning": "виборець",
-          "example": "Der Wähler geht zur Wahl. = Vēlētājs iet uz vēlēšanām."
+          "word": "stimmberechtigt",
+          "meaning": "який має право голосу",
+          "example": "Alle Mitglieder sind stimmberechtigt. – Усі члени мають право голосу."
         }
       ],
-      "tip": {
-        "leftBlocks": [
-          {
-            "text": "Wahl = обрання, behrechtig = право. Поширений у пресі та юридичних текстах."
-          }
-        ]
-      },
-      "important": {
-        "text": "wahlberechtigt = з виборчим правом. Навпаки: nicht wahlberechtigt."
-      },
+      "tip": [
+        "Розрізняй: wahlberechtigt (може обирати) і wählbar (може бути обраним).",
+        "У статистиці вживають: die Zahl der Wahlberechtigten — кількість виборців."
+      ],
+      "important": [
+        "Wahlberechtigt не означає, що людина голосує: це лише право, а не дія."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "wahlberechtigt",
-            "Wahl",
-            "berechtigt"
+            "wahlberechtigte",
+            "Wahlberechtigten"
+          ],
+          "purple": [
+            "виборче право",
+            "виборець"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "wahlberechtigten"
+                "wahlberechtigt"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "мають право голосувати"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "wahlberechtigte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "виборчим правом"
+              ]
+            }
           },
           {
             "de": {
@@ -3840,15 +5450,83 @@ const C1_WORDS = [
                 "wahlberechtigt"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "виборче право"
+              ]
+            }
           },
           {
             "de": {
               "blue": [
-                "wahlberechtigt"
+                "Wahlberechtigten"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "виборців"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "das Wahlrecht"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "виборче"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "wählbar"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "обраний"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "stimmberechtigt"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "голосу"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "wahlberechtigt"
+            ],
+            "green": [
+              "wählbar"
+            ]
+          },
+          {
+            "blue": [
+              "Wahlberechtigten"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "wahlberechtigt"
+            ]
           }
         ]
       }
@@ -3856,20 +5534,20 @@ const C1_WORDS = [
   },
   {
     "de": "wahrhaft",
-    "lv": "дійсно • справді",
+    "lv": "справді • дійсно",
     "level": "C1"
   },
   {
     "de": "Wäscheschleuder",
     "de_article": "die",
     "de_plural": "die Wäscheschleudern",
-    "lv": "віджим для білизни",
+    "lv": "центрифуга для білизни",
     "level": "C1"
   },
   {
     "de": "Wasserheilanstalt",
     "de_article": "die",
-    "lv": "водоочисна споруда",
+    "lv": "водолікарня",
     "level": "C1"
   },
   {
@@ -3890,20 +5568,20 @@ const C1_WORDS = [
     "de": "Wechselbeziehung",
     "de_article": "die",
     "de_plural": "die Wechselbeziehungen",
-    "lv": "взаємне спілкування",
+    "lv": "взаємозв’язок",
     "level": "C1"
   },
   {
     "de": "Wehrersatzdienst",
     "de_article": "der",
-    "lv": "державна служба замість військової служби",
+    "lv": "альтернативна служба",
     "level": "C1"
   },
   {
     "de": "Weidenkätzchen",
     "de_article": "das",
     "de_plural": "die Weidenkätzchen",
-    "lv": "Мак",
+    "lv": "вербовий котик",
     "level": "C1"
   },
   {
@@ -3916,83 +5594,95 @@ const C1_WORDS = [
   {
     "de": "Wetterleuchten",
     "de_article": "das",
-    "lv": "іржа",
+    "lv": "далека блискавка",
     "level": "C1"
   },
   {
     "de": "widerrechtlich",
-    "lv": "незаконний",
+    "lv": "протиправний",
     "level": "C1"
   },
   {
     "de": "wiederherstellen",
-    "lv": "відновити • відновити",
+    "lv": "відновлювати • відновити • реставрувати",
     "level": "C1"
   },
   {
     "de": "zusammenfallen",
-    "lv": "крах • траплятися",
+    "lv": "обвалюватися • обвалитися • збігатися • збігтися",
     "level": "C1"
   },
   {
     "de": "zusammenstellen",
-    "lv": "складати",
+    "lv": "складати • скласти",
     "level": "C1"
   },
   {
     "de": "Zuschlag",
     "de_article": "der",
     "de_plural": "die Zuschläge",
-    "lv": "преміальна • націнка",
+    "lv": "доплата • націнка",
     "level": "C1",
     "study": {
       "id": "c1-zuschlag",
       "layout": "standardStudy",
-      "translation": "преміальна • націнка",
+      "translation": "доплата • націнка",
       "explanation": [
-        "Головна думка: der Zuschlag означає надбавку або націнку - додаткову суму, що додається до базової ціни.",
-        "У контексті подорожей/транспорту der Zuschlag — це додаткова плата за швидший поїзд, краще місце тощо.",
-        "Не плутати з der Anhang/die Beilage (додаток до документа) - це різні слова.",
-        "На аукціонах den Zuschlag erhalten означає виграти аукціон/отримати замовлення."
+        "Головна думка: der Zuschlag — це доплата, яку додають до основної суми: націнка, доплата за нічну роботу, за швидкісний потяг або за додаткову послугу.",
+        "Іменник чоловічого роду: der Zuschlag, множина die Zuschläge (з умлаутом). Друге важливе значення — на аукціоні чи в конкурсі: den Zuschlag erhalten — перемогти, бути обраним.",
+        "Часто утворює складні слова: Nachtzuschlag, Zugzuschlag, Gefahrenzuschlag."
       ],
       "examples": [
         {
-          "de": "Für den ICE muss man einen Zuschlag zahlen.",
-          "lv": "за поїзд ICE необхідно заплатити доплату."
+          "de": "Für Nachtarbeit gibt es einen Zuschlag.",
+          "lv": "За нічну роботу належить доплата."
         },
         {
-          "de": "Der Zuschlag für die Nachtschicht beträgt 20%.",
-          "lv": "доплата за нічну зміну 20%."
+          "de": "Im Zug musste ich einen Zuschlag bezahlen.",
+          "lv": "У потязі мені довелося внести доплату."
         },
         {
-          "de": "Sie erhielt den Zuschlag für den Auftrag.",
-          "lv": "вона отримала замовлення (на аукціоні)."
+          "de": "Die Firma erhielt den Zuschlag für den Bau.",
+          "lv": "Фірма отримала право на будівництво."
         },
         {
-          "de": "Es gibt einen Zuschlag für Übergepäck.",
-          "lv": "є доплата за наднормативний багаж."
+          "de": "Das Hotel verlangt einen Zuschlag für Haustiere.",
+          "lv": "Готель бере доплату за домашніх тварин."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "der Aufpreis",
+          "meaning": "націнка",
+          "example": "Für Leder zahlt man einen Aufpreis. – За шкіру доводиться платити націнку."
         },
         {
-          "de": "Der Preis versteht sich ohne Zuschläge.",
-          "lv": "ціна без націнок."
+          "word": "die Gebühr",
+          "meaning": "збір",
+          "example": "Die Gebühr beträgt zehn Euro. – Збір становить десять євро."
+        },
+        {
+          "word": "der Rabatt",
+          "meaning": "знижка",
+          "example": "Sie bekommen einen Rabatt. – Ви отримуєте знижку."
         }
       ],
       "tip": [
-        "der Zuschlag = доплата/націнка (додаткова плата), а не додаток до документа.",
-        "den Zuschlag erhalten (на аукціонах) = виграти аукціон/отримати замовлення."
+        "Запам’ятай два вживання: einen Zuschlag bezahlen (сплатити доплату) і den Zuschlag erhalten (бути обраним на аукціоні чи в конкурсі).",
+        "Протилежність: Zuschlag (додається) і Abschlag (віднімається)."
       ],
       "important": [
-        "der Zuschlag = доплата/націнка, а не «додаток» до документа.",
-        "Додаток до документа німецькою мовою – die Anlage/der Anhang."
+        "У множині вживають die Zuschläge, а не die Zuschlägen."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "der Zuschlag"
+            "Zuschlag",
+            "Zuschläge"
           ],
-          "red": [
-            "der Anhang",
-            "die Beilage"
+          "purple": [
+            "доплата",
+            "націнка"
           ]
         },
         "examples": [
@@ -4002,7 +5692,11 @@ const C1_WORDS = [
                 "Zuschlag"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "доплата"
+              ]
+            }
           },
           {
             "de": {
@@ -4010,47 +5704,91 @@ const C1_WORDS = [
                 "Zuschlag"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "доплату"
+              ]
+            }
           },
           {
             "de": {
+              "blue": [
+                "Zuschlag"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "право"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Zuschlag"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "доплату"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
               "green": [
-                "Zuschlag"
+                "der Aufpreis"
               ]
             },
-            "lv": {}
+            "meaning": {
+              "purple": [
+                "націнка"
+              ]
+            }
           },
           {
-            "de": {
-              "blue": [
-                "Zuschlag"
+            "word": {
+              "green": [
+                "die Gebühr"
               ]
             },
-            "lv": {}
+            "meaning": {
+              "purple": [
+                "збір"
+              ]
+            }
           },
           {
-            "de": {
-              "blue": [
-                "Zuschläge"
+            "word": {
+              "green": [
+                "der Rabatt"
               ]
             },
-            "lv": {}
+            "meaning": {
+              "purple": [
+                "знижка"
+              ]
+            }
           }
         ],
         "tip": [
-          {},
           {
-            "green": [
-              "den Zuschlag erhalten"
+            "blue": [
+              "Zuschlag"
+            ]
+          },
+          {
+            "blue": [
+              "Zuschlag"
             ]
           }
         ],
         "important": [
-          {},
           {
-            "red": [
-              "die Anlage",
-              "der Anhang"
+            "blue": [
+              "Zuschläge"
             ]
           }
         ]
@@ -4059,181 +5797,374 @@ const C1_WORDS = [
   },
   {
     "de": "beziehen / sich beziehen auf",
-    "lv": "застосовувати • звертатися до",
+    "lv": "відносити • віднести • стосуватися",
     "level": "C1",
     "study": {
       "id": "c1-beziehen-sich-beziehen-auf",
       "layout": "standardStudy",
-      "translation": "застосовувати • звертатися до",
+      "translation": "відносити • віднести • стосуватися",
       "explanation": [
-        "Головна думка: офіційний реєстр: атрибут джерела, регулярне отримання пенсії/зарплати або переїзд у квартиру.",
-        "Приклади для типового повсякденного використання.",
-        "Якщо сумніваєтеся, перевірте, чи це стан чи дія.",
-        "Контекст і порядок дій визначають правильний вибір."
+        "Головна думка: etwas auf etwas beziehen означає відносити щось до чогось чи когось; sich auf etwas beziehen означає стосуватися чогось або посилатися на це.",
+        "Форми: bezieht, bezog, hat bezogen. В обох конструкціях далі йде auf + Akkusativ: etwas auf sich beziehen (сприймати на свій рахунок), sich auf einen Text beziehen (посилатися на текст).",
+        "Окрім цього значення, beziehen може означати також застеляти ліжко (das Bett beziehen), вселятися (eine Wohnung beziehen) і регулярно отримувати (ein Gehalt beziehen)."
       ],
       "examples": [
         {
-          "de": "beziehen / sich beziehen auf.",
-          "lv": "застосовувати • звертатися до"
+          "de": "Du darfst das nicht auf dich beziehen.",
+          "lv": "Тобі не варто сприймати це на свій рахунок."
+        },
+        {
+          "de": "Meine Frage bezieht sich auf den letzten Absatz.",
+          "lv": "Моє запитання стосується останнього абзацу."
+        },
+        {
+          "de": "Er bezieht sich in seinem Brief auf unser Gespräch.",
+          "lv": "У листі він посилається на нашу розмову."
+        },
+        {
+          "de": "Sie bezog die Aussage auf ihren Bruder.",
+          "lv": "Вона віднесла це висловлювання до свого брата."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "betreffen",
+          "meaning": "зачіпати, стосуватися",
+          "example": "Das betrifft uns alle. – Це стосується нас усіх."
+        },
+        {
+          "word": "verweisen auf",
+          "meaning": "вказувати на",
+          "example": "Er verweist auf das Gesetz. – Він вказує на закон."
+        },
+        {
+          "word": "sich handeln um",
+          "meaning": "ідеться про",
+          "example": "Es handelt sich um einen Fehler. – Ідеться про помилку."
         }
       ],
       "tip": [
-        "Формальний реєстр: посилання на джерело, регулярне отримання пенсії/зарплати або переїзд на квартиру.",
-        "Використовуйте beziehen / sich beziehen auf, коли контекст відповідає цьому значенню."
+        "Запам’ятай пару: sich beziehen auf + Akkusativ. Прийменник завжди auf.",
+        "Якщо треба сказати «сприймати на свій рахунок»: etwas auf sich beziehen."
       ],
       "important": [
-        "Формальний реєстр: посилання на джерело, регулярне отримання пенсії/зарплати або переїзд на квартиру.",
-        "beziehen / sich beziehen auf: перед використанням перевірте контекст і порівняйте з іншими словами на картці."
+        "Beziehen — багатозначне слово: контекст визначає, чи йдеться про віднесення, ліжко чи зарплату.",
+        "Betreffen саме по собі перехідне, без прийменника: Das betrifft mich."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "beziehen",
+            "sich beziehen",
+            "bezieht",
+            "bezog",
+            "bezogen",
+            "auf"
+          ],
           "purple": [
-            "атрибут"
+            "відносити",
+            "стосуватися",
+            "посилатися на"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "beziehen / sich beziehen auf",
-                "beziehen / sich beziehen auf"
+                "beziehen"
               ]
             },
             "lv": {
               "purple": [
-                "звертатися до"
+                "сприймати"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bezieht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "стосується"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bezieht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "посилається"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bezog"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "віднесла"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "betreffen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "зачіпати"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "verweisen auf"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "вказувати"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich handeln um"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ідеться"
               ]
             }
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "beziehen",
+              "sich beziehen",
+              "auf"
+            ]
+          },
+          {
+            "blue": [
+              "beziehen",
+              "sich beziehen",
+              "auf"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "beziehen"
+            ]
+          },
+          {
+            "green": [
+              "betreffen"
+            ]
+          }
         ]
       }
     }
   },
   {
     "de": "beabsichtigen",
-    "lv": "мати намір • планувати",
+    "lv": "мати намір • планувати • запланувати",
     "level": "C1",
     "study": {
       "id": "c1-beabsichtigen",
       "layout": "standardStudy",
-      "translation": "мати намір • планувати",
+      "translation": "мати намір • планувати • запланувати",
       "explanation": [
-        "Головна думка: свідомий намір виконати дію в майбутньому. Не про стосунки, а про план.",
-        "beabsichtigen в основному означає: свідомий намір.",
-        "Часто характеризується: план / намір.",
-        "beabsichtigen в основному означає: планувати дію.",
-        "Часто характеризується: офіційний реєстр.",
-        "beabsichtigen означає свідомий намір або планування дії—не відношення, а намір."
+        "Головна думка: beabsichtigen означає мати намір, планувати щось зробити; це свідомий намір. Звучить офіційніше, ніж vorhaben.",
+        "Слабке (правильне) дієслово: er beabsichtigt, beabsichtigte, hat beabsichtigt. Далі йде або знахідний відмінок (etwas beabsichtigen), або інфінітив із zu: Ich beabsichtige, im Herbst umzuziehen. Іменник — die Absicht (намір).",
+        "Дієприкметник beabsichtigt уживається як прикметник: eine beabsichtigte Wirkung (навмисний ефект)."
       ],
       "examples": [
         {
-          "de": "Er beabsichtigt, das Projekt zu beenden.",
-          "lv": "Він мав намір завершити проект."
+          "de": "Ich beabsichtige, im Herbst umzuziehen.",
+          "lv": "Я маю намір восени переїхати."
         },
         {
-          "de": "Was beabsichtigen Sie mit dieser Maßnahme?",
-          "lv": "що ти маєш на увазі під цією подією?"
+          "de": "Die Firma beabsichtigt, ein neues Werk zu bauen.",
+          "lv": "Фірма планує збудувати новий завод."
         },
         {
-          "de": "Wir beabsichtigen keine Änderung.",
-          "lv": "ми не плануємо змін."
+          "de": "Das war nicht beabsichtigt.",
+          "lv": "Це було ненавмисно."
         },
         {
-          "de": "Er beabsichtigt, das Projekt zu beenden.",
-          "lv": "він мав намір завершити проект."
+          "de": "Was beabsichtigst du damit?",
+          "lv": "Чого ти цим хочеш досягти?"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "vorhaben",
+          "meaning": "мати намір",
+          "example": "Ich habe vor, morgen zu kommen. – Я маю намір прийти завтра."
         },
         {
-          "de": "beabsichtigen + zu + nenoteiksme",
-          "lv": "мати намір щось зробити."
+          "word": "planen",
+          "meaning": "планувати",
+          "example": "Wir planen eine Reise. – Ми плануємо подорож."
+        },
+        {
+          "word": "wollen",
+          "meaning": "хотіти",
+          "example": "Ich will schlafen. – Я хочу спати."
         }
       ],
       "tip": [
-        "Якщо мова йде про спорідненість, джерело або регулярне отримання - beziehen. Якщо про навмисний план - beabsichtigen.",
-        "beabsichtigen = думати"
+        "Після beabsichtigen найчастіше йде zu + інфінітив через кому: …, zu bauen.",
+        "У повсякденні можеш сказати також vorhaben або planen; beabsichtigen — офіційніше."
       ],
       "important": [
-        "beabsichtigen + zu + nenoteiksme: Er beabsichtigt zu gehen.",
-        "beabsichtigen не можна замінити на beziehen - це намір, а не відношення.",
-        "beabsichtigen → намір, план.",
-        "Свідомий намір виконати дію в майбутньому. Не про стосунки, а про план."
+        "Дієприкметник Perfekt — beabsichtigt (без ge-), бо префікс be- невідокремлюваний."
       ],
       "sectionAccents": {
         "explanation": {
-          "green": [
-            "beabsichtigen"
+          "blue": [
+            "beabsichtigen",
+            "beabsichtigt",
+            "beabsichtigte",
+            "vorhaben",
+            "Absicht",
+            "beabsichtige"
           ],
           "purple": [
-            "планувати"
+            "мати намір",
+            "планувати",
+            "намір"
           ]
         },
         "examples": [
           {
             "de": {
-              "green": [
+              "blue": [
+                "beabsichtige"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "маю намір"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
                 "beabsichtigt"
               ]
             },
-            "lv": {}
-          },
-          {
-            "de": {
-              "green": [
-                "beabsichtigen",
-                "beabsichtigen"
+            "lv": {
+              "purple": [
+                "планує"
               ]
-            },
-            "lv": {}
+            }
           },
           {
             "de": {
-              "green": [
-                "beabsichtigen",
-                "beabsichtigen"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "green": [
+              "blue": [
                 "beabsichtigt"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "ненавмисно"
+              ]
+            }
           },
           {
             "de": {
-              "green": [
-                "beabsichtigen",
-                "beabsichtigen"
+              "blue": [
+                "beabsichtigst"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "хочеш досягти"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "vorhaben"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "намір"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "planen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "планувати"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "wollen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "хотіти"
+              ]
+            }
           }
         ],
         "tip": [
           {
-            "purple": [
-              "думати"
+            "blue": [
+              "beabsichtigen"
             ]
           },
           {
-            "purple": [
-              "план"
+            "blue": [
+              "beabsichtigen",
+              "vorhaben"
+            ],
+            "green": [
+              "planen"
             ]
           }
         ],
         "important": [
           {
-            "green": [
-              "beabsichtigen"
+            "blue": [
+              "beabsichtigt"
             ]
           }
         ]
@@ -4242,60 +6173,70 @@ const C1_WORDS = [
   },
   {
     "de": "unterstellen",
-    "lv": "звинувачувати • приписувати безпідставно",
+    "lv": "дорікати • дорікнути • безпідставно приписувати • безпідставно приписати",
     "level": "C1",
     "study": {
       "id": "c1-unterstellen",
       "layout": "standardStudy",
-      "translation": "звинувачувати • приписувати безпідставно",
+      "translation": "дорікати • дорікнути • безпідставно приписувати • безпідставно приписати",
       "explanation": [
-        "Головна думка: Необґрунтоване покладання провини, мотиву або наміру на іншого.",
-        "unterstellen в основному означає: приписувати безпідставно.",
-        "Часто характеризується: звинуваченням / потягом.",
-        "jemandem etwas unterstellen означає приписувати чи звинувачувати несправедливо."
+        "Головна думка: jemandem etwas unterstellen означає приписувати комусь щось (намір, слова, лихий учинок), часто без доказів. Друге значення — підпорядковувати: Die Abteilung ist dem Direktor unterstellt.",
+        "Дієслово з невідокремлюваним префіксом, наголос на -stell-: er unterstellt, unterstellte, hat unterstellt. Конструкція: jemandem etwas unterstellen (кому? що?). Якщо наголос на unter-, це інше дієслово, з відокремлюваним префіксом: Ich stelle das Auto unter — поставити під дах; sich unterstellen — сховатися (від дощу).",
+        "У цьому значенні слово виражає підозру або безпідставний докір, тому звучить різко."
       ],
       "examples": [
         {
-          "de": "Man unterstellt mir schlechte Absichten.",
-          "lv": "Мене звинувачують у злих намірах."
+          "de": "Er unterstellt mir böse Absichten.",
+          "lv": "Він приписує мені лихі наміри."
         },
         {
-          "de": "Unterstellen Sie mir nichts!",
-          "lv": "не звинувачуйте мене ні в чому!"
+          "de": "Das unterstelle ich dir nicht.",
+          "lv": "Я тобі цього не приписую."
         },
         {
-          "de": "Man darf niemandem Verrat unterstellen.",
-          "lv": "ніхто не повинен бути несправедливо звинувачений у зраді."
+          "de": "Man unterstellte ihr, dass sie gelogen habe.",
+          "lv": "Їй приписували те, що вона нібито збрехала."
         },
         {
-          "de": "Ihm wird Untreue unterstellt.",
-          "lv": "його звинувачують у недовірі."
+          "de": "Die Abteilung ist direkt dem Direktor unterstellt.",
+          "lv": "Відділ безпосередньо підпорядкований директорові."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "vorwerfen",
+          "meaning": "дорікати",
+          "example": "Er wirft mir Faulheit vor. – Він дорікає мені лінощами."
         },
         {
-          "de": "unterstellen",
-          "lv": "невиправдана провина; voraussetzen"
+          "word": "beschuldigen",
+          "meaning": "звинувачувати",
+          "example": "Sie beschuldigt ihn des Diebstahls. – Вона звинувачує його в крадіжці."
+        },
+        {
+          "word": "behaupten",
+          "meaning": "стверджувати",
+          "example": "Er behauptet, krank zu sein. – Він стверджує, що хворий."
         }
       ],
       "tip": [
-        "unterstellen = докоряти",
-        "Використовується в unterstellen, коли контекст відповідає цьому значенню."
+        "Запам’ятай: unterstellen = приписувати щось негативне, часто безпідставно.",
+        "Після unterstellen особу ставлять у давальному відмінку: Er unterstellt mir …"
       ],
       "important": [
-        "unterstellen емоційно негативний — невиправдане звинувачення.",
-        "Неправильно: Wir unterstellen Grundkenntnisse. → Правильно: Wir setzen Grundkenntnisse voraus.",
-        "unterstellen → звинувачення, атрибут."
+        "Невідокремлюване unterstellen (приписувати, підпорядковувати) — не те саме, що відокремлюване unterstellen (поставити, сховатися)."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "unterstellen"
+            "unterstellen",
+            "unterstellt",
+            "unterstellte"
           ],
           "purple": [
-            "звинувачувати",
-            "приписувати безпідставно"
-          ],
-          "red": [
-            "звинувачувати"
+            "приписувати",
+            "підпорядковувати",
+            "докір"
           ]
         },
         "examples": [
@@ -4305,25 +6246,30 @@ const C1_WORDS = [
                 "unterstellt"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "приписує"
+              ]
+            }
           },
           {
             "de": {
               "blue": [
-                "unterstellen",
-                "unterstellen"
+                "unterstelle"
               ]
-            },
-            "lv": {}
+            }
           },
           {
             "de": {
               "blue": [
-                "unterstellen",
-                "unterstellen"
+                "unterstellte"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "приписували"
+              ]
+            }
           },
           {
             "de": {
@@ -4331,21 +6277,63 @@ const C1_WORDS = [
                 "unterstellt"
               ]
             },
-            "lv": {}
-          },
+            "lv": {
+              "purple": [
+                "підпорядкований"
+              ]
+            }
+          }
+        ],
+        "comparison": [
           {
-            "de": {
-              "blue": [
-                "unterstellen",
-                "unterstellen"
+            "word": {
+              "green": [
+                "vorwerfen"
               ]
             },
-            "lv": {}
+            "meaning": {
+              "purple": [
+                "дорікати"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "beschuldigen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "звинувачувати"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "behaupten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "стверджувати"
+              ]
+            }
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "blue": [
+              "unterstellen"
+            ]
+          },
+          {
+            "blue": [
+              "unterstellen",
+              "unterstellt"
+            ]
+          }
         ],
         "important": [
           {
@@ -4359,64 +6347,184 @@ const C1_WORDS = [
   },
   {
     "de": "voraussetzen",
-    "lv": "прийняти як передумову",
+    "lv": "брати за передумову • взяти за передумову",
     "level": "C1",
     "study": {
       "id": "c1-voraussetzen",
       "layout": "standardStudy",
-      "translation": "прийняти як передумову",
+      "translation": "брати за передумову • взяти за передумову",
       "explanation": [
-        "Головна думка: Припустити, що щось уже відомо або існує як основа.",
-        "voraussetzen передусім означає: розглядати як основу.",
-        "Часто характеризується: логічною передумовою.",
-        "etwas voraussetzen означає сприймати як належне передумову, яка вже існує."
+        "Головна думка: voraussetzen означає припускати, вважати щось відомим чи само собою зрозумілим або вимагати чогось як передумови: Der Kurs setzt gute Kenntnisse voraus.",
+        "Дієслово з відокремлюваним префіксом: er setzt voraus, setzte voraus, hat vorausgesetzt. Те, що припускають чи передбачають, — у знахідному відмінку. Іменник — die Voraussetzung (передумова).",
+        "Дієприкметник vorausgesetzt із комою означає «за умови, що»: Vorausgesetzt, es regnet nicht, grillen wir."
       ],
       "examples": [
         {
-          "de": "Wir setzen Grundkenntnisse voraus.",
-          "lv": "Ми приймаємо базові знання як передумову."
+          "de": "Der Kurs setzt gute Deutschkenntnisse voraus.",
+          "lv": "Курс передбачає добре знання німецької мови."
         },
         {
-          "de": "Wir setzen Grundkenntnisse voraus.",
-          "lv": "ми приймаємо базові знання як передумову."
+          "de": "Ich habe vorausgesetzt, dass du Bescheid weißt.",
+          "lv": "Я припускав, що ти в курсі."
+        },
+        {
+          "de": "Diese Stelle setzt ein Studium voraus.",
+          "lv": "Для цієї посади обов’язковою передумовою є вища освіта."
+        },
+        {
+          "de": "Vorausgesetzt, es regnet nicht, grillen wir.",
+          "lv": "Якщо тільки не буде дощу, ми смажитимемо на грилі."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "erfordern",
+          "meaning": "вимагати, бути потрібним",
+          "example": "Die Aufgabe erfordert Geduld. – Завдання вимагає терпіння."
+        },
+        {
+          "word": "annehmen",
+          "meaning": "припускати, вважати",
+          "example": "Ich nehme an, dass er kommt. – Я припускаю, що він прийде."
+        },
+        {
+          "word": "die Voraussetzung",
+          "meaning": "передумова",
+          "example": "Das ist keine Voraussetzung. – Це не передумова."
         }
       ],
       "tip": [
-        "voraussetzen = прийняти передумову",
-        "Використовується в voraussetzen, коли контекст відповідає цьому значенню."
+        "Запам’ятай відокремлення: Das setzt Mühe voraus, але …, weil das Mühe voraussetzt.",
+        "Поширене сполучення: etwas als bekannt voraussetzen."
       ],
       "important": [
-        "voraussetzen середнього роду - прийменник.",
-        "voraussetzen → взяти за основу.",
-        "Припустити, що щось уже відомо або існує як основа."
+        "Дієприкметник Perfekt — vorausgesetzt: ge- вставляють між voraus і setzt."
       ],
       "sectionAccents": {
         "explanation": {
-          "green": [
+          "blue": [
             "voraussetzen",
-            "voraus"
+            "setzt voraus",
+            "setzte voraus",
+            "vorausgesetzt",
+            "Voraussetzung",
+            "setzt",
+            "setzte",
+            "Vorausgesetzt"
           ],
           "purple": [
-            "передумовою"
+            "припускати",
+            "передумова"
+          ],
+          "green": [
+            "die Voraussetzung"
           ]
         },
         "examples": [
           {
-            "de": {},
-            "lv": {}
+            "de": {
+              "blue": [
+                "setzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "передбачає"
+              ]
+            }
           },
           {
-            "de": {},
-            "lv": {}
+            "de": {
+              "blue": [
+                "vorausgesetzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "припускав"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "setzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "передумовою"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Vorausgesetzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Якщо тільки"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "erfordern"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "вимагати"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "annehmen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "припускати"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Voraussetzung"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "передумова"
+              ]
+            }
           }
         ],
         "tip": [
-          {}
+          {
+            "blue": [
+              "setzt"
+            ]
+          },
+          {
+            "blue": [
+              "voraussetzen"
+            ]
+          }
         ],
         "important": [
           {
-            "green": [
-              "voraussetzen"
+            "blue": [
+              "vorausgesetzt",
+              "setzt"
             ]
           }
         ]
@@ -4425,104 +6533,190 @@ const C1_WORDS = [
   },
   {
     "de": "bewahren",
-    "lv": "захистити • зберегти",
+    "lv": "оберігати • оберегти • зберігати • зберегти",
     "level": "C1",
     "study": {
       "id": "c1-bewahren",
       "layout": "standardStudy",
-      "translation": "захистити • зберегти",
+      "translation": "оберігати • оберегти • зберігати • зберегти",
       "explanation": [
-        "Головна думка: Захищати від втрати, пошкодження або знищення - цінність, традиція, мир.",
-        "bewahren в першу чергу означає: захистити від втрати.",
-        "Часто характеризується: збереженням цінностей.",
-        "bewahren означає захист від пошкодження, втрати або зміни."
+        "Головна думка: bewahren означає оберігати від чогось лихого (jemanden vor etwas bewahren) і зберігати щось цінне чи незмінне (Ruhe, Traditionen, Erinnerungen).",
+        "Слабке (правильне) дієслово: er bewahrt, bewahrte, hat bewahrt. Захист: bewahren vor + Dativ (кого? від чого?). Збереження: знахідний відмінок — die Ruhe bewahren. Берегти таємницю: ein Geheimnis bewahren.",
+        "Слово належить до вищого стилю, ніж behalten (залишати собі) чи aufheben (зберігати, відкладати)."
       ],
       "examples": [
         {
-          "de": "Wir bewahren die Traditionen.",
-          "lv": "Зберігаємо традиції."
+          "de": "Bitte bewahren Sie Ruhe!",
+          "lv": "Будь ласка, зберігайте спокій!"
         },
         {
-          "de": "Sie bewahren die Ruhe in der Krise.",
-          "lv": "вони зберігають спокій під час кризи."
+          "de": "Der Helm hat ihn vor Schlimmerem bewahrt.",
+          "lv": "Шолом уберіг його від гіршого."
         },
         {
-          "de": "Wir bewahren die Traditionen.",
-          "lv": "зберігаємо традиції."
+          "de": "Er bewahrte das Geheimnis jahrelang.",
+          "lv": "Він роками беріг таємницю."
         },
         {
-          "de": "bewahren",
-          "lv": "захищати/берегти; aufrechterhalten"
+          "de": "Wir wollen diese Tradition bewahren.",
+          "lv": "Ми хочемо зберегти цю традицію."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "aufbewahren",
+          "meaning": "зберігати (фізично)",
+          "example": "Bewahre die Quittung auf! – Збережи чек!"
+        },
+        {
+          "word": "schützen",
+          "meaning": "захищати",
+          "example": "Der Zaun schützt vor dem Wind. – Паркан захищає від вітру."
+        },
+        {
+          "word": "behalten",
+          "meaning": "залишати собі",
+          "example": "Du kannst das Buch behalten. – Можеш залишити книжку собі."
         }
       ],
       "tip": [
-        "bewahren = захистити",
-        "Використовується в bewahren, коли контекст відповідає цьому значенню."
+        "Запам’ятай сталу фразу: Ruhe bewahren — зберігати спокій.",
+        "Уберегти від чогось: bewahren vor + Dativ (vor Schaden, vor Gefahr)."
       ],
       "important": [
-        "bewahren: Wertvolles bewahren - захистити цінне.",
-        "Неправильно: Wir bewahren den Frieden auf. → Правильно: Wir erhalten den Frieden auf.",
-        "bewahren → захистити, зберегти."
+        "Bewahren — це не те саме, що aufbewahren: aufbewahren — фізичне зберігання, bewahren — зберегти або вберегти.",
+        "Дієприкметник Perfekt — bewahrt (без ge-)."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "bewahren"
+            "bewahren",
+            "bewahrt",
+            "bewahrte",
+            "behalten",
+            "vor",
+            "Ruhe bewahren"
           ],
           "purple": [
-            "захистити"
+            "оберігати",
+            "зберігати",
+            "берегти"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "bewahren",
                 "bewahren"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "зберігайте"
+              ]
+            }
           },
           {
             "de": {
               "blue": [
-                "bewahren",
-                "bewahren"
+                "bewahrt"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "уберіг"
+              ]
+            }
           },
           {
             "de": {
               "blue": [
-                "bewahren",
-                "bewahren"
+                "bewahrte"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "беріг"
+              ]
+            }
           },
           {
             "de": {
               "blue": [
-                "bewahren",
                 "bewahren"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "зберегти"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "aufbewahren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "зберігати"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "schützen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "захищати"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "behalten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "залишати"
+              ]
+            }
           }
         ],
         "tip": [
           {
-            "purple": [
-              "захистити"
+            "blue": [
+              "bewahren",
+              "Ruhe bewahren"
             ]
           },
-          {}
+          {
+            "blue": [
+              "bewahren",
+              "vor"
+            ]
+          }
         ],
         "important": [
           {
             "blue": [
               "bewahren"
+            ],
+            "green": [
+              "aufbewahren"
+            ]
+          },
+          {
+            "blue": [
+              "bewahrt"
             ]
           }
         ]
@@ -4531,74 +6725,180 @@ const C1_WORDS = [
   },
   {
     "de": "aufrechterhalten",
-    "lv": "залишати в силі",
+    "lv": "підтримувати • підтримати • залишати в силі • залишити в силі",
     "level": "C1",
     "study": {
       "id": "c1-aufrechterhalten",
       "layout": "standardStudy",
-      "translation": "залишати в силі",
+      "translation": "підтримувати • підтримати • залишати в силі • залишити в силі",
       "explanation": [
-        "Головна думка: щоб гарантувати, що стан, порядок або відносини продовжуватимуть існувати.",
-        "aufrechterhalten передусім означає: забезпечити безперервність.",
-        "Часто характеризується: збереження кондиції.",
-        "aufrechterhalten означає підтримувати стан, систему або відносини в силі — для забезпечення безперервності."
+        "Головна думка: aufrechterhalten означає підтримувати, не втрачати: зберігати щось чинним або таким, що діє (порядок, контакт, твердження, пропозицію).",
+        "Дієслово з відокремлюваною частиною: er erhält aufrecht, erhielt aufrecht, hat aufrechterhalten. Те, що підтримують, — у знахідному відмінку. Інфінітив із часткою: aufrechtzuerhalten.",
+        "Дуже часто вживається з Ordnung, Kontakt, Verbindung, Behauptung, Forderung."
       ],
       "examples": [
         {
-          "de": "Der Staat erhält die Ordnung auf.",
-          "lv": "Держава стежить за порядком."
+          "de": "Der Staat erhält die Ordnung aufrecht.",
+          "lv": "Держава підтримує порядок."
         },
         {
-          "de": "Man muss den Betrieb aufrechterhalten.",
-          "lv": "повинен залишити дію в силі."
+          "de": "Sie haben den Kontakt über Jahre aufrechterhalten.",
+          "lv": "Вони роками підтримували контакт."
         },
         {
-          "de": "Der Staat erhält die Ordnung auf.",
-          "lv": "держава підтримує порядок."
+          "de": "Wir können dieses Angebot nicht länger aufrechterhalten.",
+          "lv": "Ми більше не можемо залишати цю пропозицію в силі."
+        },
+        {
+          "de": "Er erhielt seine Behauptung aufrecht.",
+          "lv": "Він наполягав на своєму твердженні."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "erhalten",
+          "meaning": "зберігати",
+          "example": "Wir erhalten das Gebäude. – Ми зберігаємо будівлю."
+        },
+        {
+          "word": "beibehalten",
+          "meaning": "зберігати незмінним",
+          "example": "Wir behalten den Plan bei. – Ми залишаємо план без змін."
+        },
+        {
+          "word": "pflegen",
+          "meaning": "підтримувати, плекати",
+          "example": "Sie pflegt Kontakte. – Вона підтримує зв’язки."
         }
       ],
       "tip": [
-        "aufrechterhalten = залишити в силі",
-        "Використовується в aufrechterhalten, коли контекст відповідає цьому значенню."
+        "Запам’ятай відокремлення: Er erhält die Ordnung aufrecht, але …, dass er die Ordnung aufrechterhält.",
+        "Про контакт кажуть: den Kontakt aufrechterhalten (або pflegen)."
       ],
       "important": [
-        "aufrechterhalten: Ordnung/Frieden/Stabilität aufrechterhalten.",
-        "aufrechterhalten → залишити в силі.",
-        "Щоб переконатися, що держава, порядок або відносини продовжуватимуть існувати."
+        "У Perfekt aufrechterhalten — одне слово, без ge-: hat aufrechterhalten."
       ],
       "sectionAccents": {
         "explanation": {
-          "green": [
+          "blue": [
             "aufrechterhalten",
+            "erhält aufrecht",
+            "erhielt aufrecht",
+            "aufrechtzuerhalten",
             "erhält",
-            "auf"
+            "erhielt"
+          ],
+          "purple": [
+            "підтримувати",
+            "зберігати"
           ]
         },
         "examples": [
           {
-            "de": {},
-            "lv": {}
+            "de": {
+              "blue": [
+                "erhält"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "підтримує"
+              ]
+            }
           },
           {
             "de": {
-              "green": [
-                "aufrechterhalten",
+              "blue": [
                 "aufrechterhalten"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "підтримували"
+              ]
+            }
           },
           {
-            "de": {},
-            "lv": {}
+            "de": {
+              "blue": [
+                "aufrechterhalten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "залишати"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "erhielt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "наполягав"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "erhalten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "зберігати"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "beibehalten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "незмінним"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "pflegen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "плекати"
+              ]
+            }
           }
         ],
         "tip": [
-          {}
+          {
+            "blue": [
+              "erhält"
+            ]
+          },
+          {
+            "blue": [
+              "aufrechterhalten"
+            ],
+            "green": [
+              "pflegen"
+            ]
+          }
         ],
         "important": [
           {
-            "green": [
+            "blue": [
               "aufrechterhalten"
             ]
           }
@@ -4638,7 +6938,7 @@ const C1_WORDS = [
     "de": "Matsch",
     "de_article": "der",
     "de_plural": "die Matsche",
-    "lv": "грязь • сльота",
+    "lv": "багнюка • сльота",
     "level": "C1"
   },
   {
