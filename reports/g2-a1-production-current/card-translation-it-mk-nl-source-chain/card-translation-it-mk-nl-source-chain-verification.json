@@ -1,0 +1,13 @@
+{
+  "schemaVersion": "g2-a1-card-translation-it-mk-nl-source-chain-verification-v1",
+  "generatedAt": "2026-10-02T18:09:05.571Z",
+  "gate": {
+    "pass": true,
+    "failures": []
+  },
+  "finalStatus": {
+    "it": "IT_DIGITIZED_SOURCES_REGISTERED_READY",
+    "nl": "NL_DIGITIZED_SOURCES_REGISTERED_PARTIAL",
+    "mk": "MK_NOT_FOUND_DIGITIZED"
+  }
+}

@@ -1,0 +1,501 @@
+{
+  "schemaVersion": "g2-a1-card-translation-it-mk-nl-readiness-v1",
+  "generatedAt": "2026-10-02T18:09:05.057Z",
+  "auditSequence": [
+    {
+      "step": 1,
+      "rule": "Meklē tiešo pāri DE→TARGET primārajā digitizētajā vārdnīcā (MDZ IIIF lapas, IA PDF vai OCR)."
+    },
+    {
+      "step": 2,
+      "rule": "Ja nepieciešams, izmanto TARGET→DE tajā pašā divvirzienu darbā vai otrā sējumā."
+    },
+    {
+      "step": 3,
+      "rule": "Papildu/reserves avotus (it: Bull IA, 11645915/16) izmanto tikai ja primārais 11793257 posms nedod pāri."
+    },
+    {
+      "step": 4,
+      "rule": "Pārbaudi vārdšķiru un konkrētās kartītes vācu nozīmi; citai nozīmei piederošu ekvivalentu nepieņem."
+    },
+    {
+      "step": 5,
+      "rule": "Automātiskos tulkotājus, dict.cc un bg kā mk aizstājējus neizmanto kā pierādījumu."
+    },
+    {
+      "step": 6,
+      "rule": "Saglabā avota nosaukumu, virzienu, atrasto pāri un precīzo viewer / IIIF / OCR URL."
+    }
+  ],
+  "automaticTranslationEvidenceForbidden": true,
+  "productionOrOwnerDecisionsModified": false,
+  "masterModified": false,
+  "languages": [
+    {
+      "appLang": "it",
+      "digitizedAuditStatus": "READY",
+      "primaryDigitized": [
+        {
+          "id": "ia-bsb-neues-it-de-11793257-vol1",
+          "name": "Neues italienisch-deutsches und deutsch-italienisches Wörterbuch. 1 (BSB 11793257)",
+          "year": null,
+          "authorPublisher": "Bayerische Staatsbibliothek / MDZ + Internet Archive",
+          "direction": "de↔it",
+          "role": "primary",
+          "accessType": "MDZ IIIF page images + IA open PDF + OCR",
+          "viewerUrl": "https://www.digitale-sammlungen.de/de/view/bsb11793257?page=1",
+          "pdfUrl": "https://archive.org/download/11793257bsb/11793257bsb.pdf",
+          "ocrUrl": "https://archive.org/download/11793257bsb/11793257bsb_djvu.txt",
+          "iiifSampleUrl": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb11793257_00020/full/full/0/default.jpg"
+        }
+      ],
+      "reverseChainDigitized": [],
+      "supplementaryReserve": [
+        {
+          "id": "ia-neuesitalienisch00bulluoft-vol1",
+          "name": "Neues italienisch-deutsches Wörterbuch vol. 1 (Bull IA)",
+          "direction": "de↔it",
+          "role": "supplement_reserve",
+          "viewerUrl": "https://archive.org/details/neuesitalienisch00bulluoft",
+          "ocrUrl": "https://archive.org/download/neuesitalienisch00bulluoft/neuesitalienisch00bulluoft_djvu.txt"
+        },
+        {
+          "id": "ia-neuesitalienisch02bulluoft",
+          "name": "Neues italienisch-deutsches Wörterbuch vol. 2 (Bull IA)",
+          "direction": "de↔it",
+          "role": "supplement_reserve",
+          "viewerUrl": "https://archive.org/details/neuesitalienisch02bulluoft",
+          "ocrUrl": "https://archive.org/download/neuesitalienisch02bulluoft/neuesitalienisch02bulluoft_djvu.txt"
+        },
+        {
+          "id": "ia-bsb-neues-vollstaendig-it-de-vol1-2",
+          "name": "Neues vollständiges italienisch-deutsches Wörterbuch (11645915/16 BSB)",
+          "direction": "de↔it",
+          "role": "supplement_reserve",
+          "viewerUrl": "https://archive.org/details/11645915bsb",
+          "ocrUrl": "https://archive.org/download/11645915bsb/11645915bsb_djvu.txt"
+        }
+      ],
+      "rejectedNotUsable": [],
+      "discoveryEvidenceOnly": [],
+      "sourceChainPriority": [
+        "primaryDigitized:de↔it (ia-bsb-neues-it-de-11793257-vol1 — MDZ IIIF + IA PDF/OCR)",
+        "supplementaryReserve:ia-neuesitalienisch00bulluoft-vol1",
+        "supplementaryReserve:ia-neuesitalienisch02bulluoft",
+        "supplementaryReserve:ia-bsb-neues-vollstaendig-it-de-vol1-2 (only if primary fails)"
+      ],
+      "collectorOverrideId": "ia-bsb-neues-it-de-11793257-vol1",
+      "pilotNotes": {
+        "deToTargetVerifiedLemmas": [
+          "Haus",
+          "arbeiten",
+          "Kleingeld",
+          "bewirten"
+        ],
+        "deToTargetHitCount": "4/6",
+        "reverseCasaFound": true,
+        "mdzIiifVerified": true,
+        "auditReady": true,
+        "readinessClassification": "IT_DIGITIZED_SOURCES_REGISTERED_READY"
+      },
+      "discoveryBestFound": {
+        "id": "stack-bsb-11793257-plus-mdz-iiif-and-bull-ia",
+        "title": "BSB Neues italienisch-deutsches Wörterbuch vol. 1 (11793257: IA PDF+OCR, MDZ IIIF) + Bull vol. 0–2 IA; alt. 11645915/16",
+        "status": "READY",
+        "primaryUrls": [
+          "https://archive.org/details/11793257bsb",
+          "https://www.digitale-sammlungen.de/de/view/bsb11793257?page=1",
+          "https://archive.org/details/neuesitalienisch00bulluoft",
+          "https://archive.org/details/neuesitalienisch02bulluoft"
+        ],
+        "note": "Round-2: MDZ IIIF page images + IA OCR; pilot 4/6 on 11793257 vol. 1; historical orthography"
+      },
+      "regressionPilotDe": [
+        {
+          "deLemma": "Haus",
+          "auditStepUsed": 1,
+          "primaryDirection": "de→it",
+          "sourceName": "BSB 11793257 vol. 1 (IA OCR)",
+          "pairFound": true,
+          "targetGloss": "FOUND_IN_OCR",
+          "entryUrl": "https://archive.org/download/11793257bsb/11793257bsb_djvu.txt",
+          "note": "MDZ IIIF sample OK",
+          "supplementUsed": false
+        },
+        {
+          "deLemma": "arbeiten",
+          "auditStepUsed": 1,
+          "primaryDirection": "de→it",
+          "sourceName": "BSB 11793257 vol. 1 (IA OCR)",
+          "pairFound": true,
+          "targetGloss": "FOUND_IN_OCR",
+          "entryUrl": "https://archive.org/download/11793257bsb/11793257bsb_djvu.txt",
+          "note": "MDZ IIIF sample OK",
+          "supplementUsed": false
+        },
+        {
+          "deLemma": "Kleingeld",
+          "auditStepUsed": 1,
+          "primaryDirection": "de→it",
+          "sourceName": "BSB 11793257 vol. 1 (IA OCR)",
+          "pairFound": true,
+          "targetGloss": "FOUND_IN_OCR",
+          "entryUrl": "https://archive.org/download/11793257bsb/11793257bsb_djvu.txt",
+          "note": "MDZ IIIF sample OK",
+          "supplementUsed": false
+        },
+        {
+          "deLemma": "bewirten",
+          "auditStepUsed": 1,
+          "primaryDirection": "de→it",
+          "sourceName": "BSB 11793257 vol. 1 (IA OCR)",
+          "pairFound": true,
+          "targetGloss": "FOUND_IN_OCR",
+          "entryUrl": "https://archive.org/download/11793257bsb/11793257bsb_djvu.txt",
+          "note": "MDZ IIIF sample OK",
+          "supplementUsed": false
+        },
+        {
+          "deLemma": "Grenzkonflikt",
+          "auditStepUsed": 1,
+          "primaryDirection": "de→it",
+          "sourceName": "BSB 11793257 vol. 1 (IA OCR)",
+          "pairFound": false,
+          "targetGloss": null,
+          "entryUrl": "https://archive.org/download/11793257bsb/11793257bsb_djvu.txt",
+          "note": "MDZ IIIF sample OK",
+          "supplementUsed": false
+        },
+        {
+          "deLemma": "Machtgier",
+          "auditStepUsed": 1,
+          "primaryDirection": "de→it",
+          "sourceName": "BSB 11793257 vol. 1 (IA OCR)",
+          "pairFound": false,
+          "targetGloss": null,
+          "entryUrl": "https://archive.org/download/11793257bsb/11793257bsb_djvu.txt",
+          "note": "MDZ IIIF sample OK",
+          "supplementUsed": false
+        },
+        {
+          "deLemma": "(reverse) casa",
+          "auditStepUsed": 1,
+          "primaryDirection": "it→de",
+          "sourceName": "BSB 11793257 vol. 1 (IA OCR)",
+          "pairFound": true,
+          "targetGloss": "casa attested",
+          "entryUrl": "https://archive.org/download/11793257bsb/11793257bsb_djvu.txt",
+          "note": null,
+          "supplementUsed": false
+        }
+      ],
+      "pilotSummary": {
+        "status": "READY",
+        "deToTargetHits": "4/6",
+        "alt11645915Hits": "3/6",
+        "altBull00Hits": "3/6",
+        "sourceId": "ia-bsb-neues-it-de-11793257-vol1",
+        "mdzIiifSampleOk": true,
+        "targetToDeCasa": true,
+        "targetToDeHausNear": false
+      },
+      "readinessClassification": "IT_DIGITIZED_SOURCES_REGISTERED_READY",
+      "usesNewAuditSources": true,
+      "auditReady": true
+    },
+    {
+      "appLang": "mk",
+      "digitizedAuditStatus": "MK_NOT_FOUND_DIGITIZED",
+      "primaryDigitized": [],
+      "reverseChainDigitized": [],
+      "supplementaryReserve": [],
+      "rejectedNotUsable": [
+        {
+          "id": "bg-miladinov-as-mk-proxy",
+          "name": "Bulgarian Miladinov as MK substitute",
+          "reason": "bg ≠ mk."
+        }
+      ],
+      "discoveryEvidenceOnly": [
+        {
+          "id": "web-makedonisch-info-de-mk",
+          "name": "makedonisch.info web lexicon",
+          "role": "discovery_partial_not_audit_primary",
+          "note": "Documented in discovery; NOT_VERIFIED_AUTOMATION in pilot — not registered as primary."
+        },
+        {
+          "id": "ugd-elib-ivanovska-belcev-2012",
+          "name": "Ivanovska & Belčev 2012 e-lib",
+          "role": "discovery_metadata_only"
+        },
+        {
+          "id": "print-milosev-matica-2004",
+          "name": "Milošev 2004 print",
+          "role": "discovery_print_only"
+        }
+      ],
+      "sourceChainPriority": [
+        "digitizedAuditStatus:MK_NOT_FOUND_DIGITIZED — no primary audit chain registered"
+      ],
+      "collectorOverrideId": null,
+      "pilotNotes": null,
+      "discoveryBestFound": {
+        "id": "no-open-full-de-mk-lexicon",
+        "title": "No open DE↔MK dictionary scan/PDF (MANU/UGD/HathiTrust round-2 negative); makedonisch.info web PARTIAL only",
+        "status": "NOT_FOUND_DIGITIZED",
+        "primaryUrls": [
+          "http://makedonisch.info/",
+          "http://damj.manu.edu.mk/materijali.html"
+        ],
+        "note": "Pulevski 1875 trilingual listed on MANU but PDF fetch failed; Milošev 2004 print only"
+      },
+      "regressionPilotDe": [
+        {
+          "deLemma": "Haus",
+          "auditStepUsed": 0,
+          "primaryDirection": "n/a",
+          "sourceName": "—",
+          "pairFound": false,
+          "targetGloss": null,
+          "entryUrl": null,
+          "note": "No open DE↔MK PDF/OCR; web UI does not expose pilot lemmas for word-boundary grep",
+          "supplementUsed": false
+        },
+        {
+          "deLemma": "arbeiten",
+          "auditStepUsed": 0,
+          "primaryDirection": "n/a",
+          "sourceName": "—",
+          "pairFound": false,
+          "targetGloss": null,
+          "entryUrl": null,
+          "note": "No open DE↔MK PDF/OCR; web UI does not expose pilot lemmas for word-boundary grep",
+          "supplementUsed": false
+        },
+        {
+          "deLemma": "Kleingeld",
+          "auditStepUsed": 0,
+          "primaryDirection": "n/a",
+          "sourceName": "—",
+          "pairFound": false,
+          "targetGloss": null,
+          "entryUrl": null,
+          "note": "No open DE↔MK PDF/OCR; web UI does not expose pilot lemmas for word-boundary grep",
+          "supplementUsed": false
+        },
+        {
+          "deLemma": "bewirten",
+          "auditStepUsed": 0,
+          "primaryDirection": "n/a",
+          "sourceName": "—",
+          "pairFound": false,
+          "targetGloss": null,
+          "entryUrl": null,
+          "note": "No open DE↔MK PDF/OCR; web UI does not expose pilot lemmas for word-boundary grep",
+          "supplementUsed": false
+        },
+        {
+          "deLemma": "Grenzkonflikt",
+          "auditStepUsed": 0,
+          "primaryDirection": "n/a",
+          "sourceName": "—",
+          "pairFound": false,
+          "targetGloss": null,
+          "entryUrl": null,
+          "note": "No open DE↔MK PDF/OCR; web UI does not expose pilot lemmas for word-boundary grep",
+          "supplementUsed": false
+        },
+        {
+          "deLemma": "Machtgier",
+          "auditStepUsed": 0,
+          "primaryDirection": "n/a",
+          "sourceName": "—",
+          "pairFound": false,
+          "targetGloss": null,
+          "entryUrl": null,
+          "note": "No open DE↔MK PDF/OCR; web UI does not expose pilot lemmas for word-boundary grep",
+          "supplementUsed": false
+        }
+      ],
+      "pilotSummary": {
+        "status": "NOT_VERIFIED_AUTOMATION",
+        "deToTargetHits": "0/6",
+        "sourceId": "web-makedonisch-info-de-mk",
+        "reason": "No open DE↔MK PDF/OCR; web UI does not expose pilot lemmas for word-boundary grep"
+      },
+      "readinessClassification": "MK_NOT_FOUND_DIGITIZED",
+      "usesNewAuditSources": false,
+      "auditReady": false
+    },
+    {
+      "appLang": "nl",
+      "digitizedAuditStatus": "PARTIAL",
+      "primaryDigitized": [
+        {
+          "id": "ia-bsb-nieuw-woordenboek-nl-hoogduits-1787-3parts",
+          "name": "Nieuw Woordenboek der Nederlandsche en Hoogduitsche Taal (1787, 3 BSB parts)",
+          "year": 1787,
+          "authorPublisher": "BSB / MDZ + Internet Archive",
+          "direction": "nl↔de",
+          "role": "primary",
+          "accessType": "MDZ IIIF + IA PDF + OCR (3 volumes)",
+          "viewerUrl": "https://www.digitale-sammlungen.de/de/view/bsb10523039?page=1",
+          "pdfUrl": "https://archive.org/download/10523039bsb/10523039bsb.pdf",
+          "pdfUrlPart2": "https://archive.org/download/10627384bsb/10627384bsb.pdf",
+          "pdfUrlPart3": "https://archive.org/download/10523038bsb/10523038bsb.pdf",
+          "ocrUrl": "https://archive.org/download/10523039bsb/10523039bsb_djvu.txt",
+          "ocrUrlPart2": "https://archive.org/download/10627384bsb/10627384bsb_djvu.txt",
+          "ocrUrlPart3": "https://archive.org/download/10523038bsb/10523038bsb_djvu.txt",
+          "iiifSampleUrl": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb10523039_00020/full/full/0/default.jpg"
+        }
+      ],
+      "reverseChainDigitized": [],
+      "supplementaryReserve": [],
+      "rejectedNotUsable": [
+        {
+          "id": "ia-kramers-woordenboek-duits-1969",
+          "name": "Kramers DE↔NL (1969 IA)",
+          "reason": "Modern bidirectional title but IA borrow — not open audit source."
+        },
+        {
+          "id": "ia-van-dale-pocket-nl-de-borrow",
+          "name": "Van Dale pocket NL-DE",
+          "reason": "IA LCP/borrow."
+        }
+      ],
+      "discoveryEvidenceOnly": [],
+      "sourceChainPriority": [
+        "primaryDigitized:nl↔de (ia-bsb-nieuw-woordenboek-nl-hoogduits-1787-3parts — MDZ IIIF + 3× IA OCR)"
+      ],
+      "collectorOverrideId": "ia-bsb-nieuw-woordenboek-nl-hoogduits-1787-3parts",
+      "pilotNotes": {
+        "deToTargetVerifiedLemmas": [
+          "Haus",
+          "arbeiten"
+        ],
+        "deToTargetHitCount": "2/6",
+        "kleinGeldSpacedVariant": true,
+        "reverseHuisFound": true,
+        "mdzIiifVerified": true,
+        "auditReady": false,
+        "readinessClassification": "NL_DIGITIZED_SOURCES_REGISTERED_PARTIAL"
+      },
+      "discoveryBestFound": {
+        "id": "stack-bsb-nieuw-woordenboek-nl-hoogduits-1787-3parts-mdz-iiif",
+        "title": "Nieuw Woordenboek der Nederlandsche en Hoogduitsche Taal (1787): IA PDF+OCR (3 parts) + MDZ IIIF page images — no open modern full DE↔NL scan",
+        "status": "PARTIAL",
+        "primaryUrls": [
+          "https://archive.org/details/10523039bsb",
+          "https://www.digitale-sammlungen.de/de/view/bsb10523039?page=1",
+          "https://archive.org/details/10627384bsb",
+          "https://archive.org/details/10523038bsb"
+        ],
+        "note": "Round-2 IIIF JPEG OK on bsb10523039/384/538; pilot OCR 2/6 strict + Huis/Klein geld"
+      },
+      "regressionPilotDe": [
+        {
+          "deLemma": "Haus",
+          "auditStepUsed": 1,
+          "primaryDirection": "de→nl",
+          "sourceName": "Nieuw Woordenboek 1787 (3× IA OCR)",
+          "pairFound": true,
+          "targetGloss": "FOUND_IN_OCR",
+          "entryUrl": "https://archive.org/download/10523039bsb/10523039bsb_djvu.txt",
+          "note": "Klein geld spaced variant also in corpus",
+          "supplementUsed": false
+        },
+        {
+          "deLemma": "arbeiten",
+          "auditStepUsed": 1,
+          "primaryDirection": "de→nl",
+          "sourceName": "Nieuw Woordenboek 1787 (3× IA OCR)",
+          "pairFound": true,
+          "targetGloss": "FOUND_IN_OCR",
+          "entryUrl": "https://archive.org/download/10523039bsb/10523039bsb_djvu.txt",
+          "note": "Klein geld spaced variant also in corpus",
+          "supplementUsed": false
+        },
+        {
+          "deLemma": "Kleingeld",
+          "auditStepUsed": 1,
+          "primaryDirection": "de→nl",
+          "sourceName": "Nieuw Woordenboek 1787 (3× IA OCR)",
+          "pairFound": false,
+          "targetGloss": null,
+          "entryUrl": "https://archive.org/download/10523039bsb/10523039bsb_djvu.txt",
+          "note": "Klein geld spaced variant also in corpus",
+          "supplementUsed": false
+        },
+        {
+          "deLemma": "bewirten",
+          "auditStepUsed": 1,
+          "primaryDirection": "de→nl",
+          "sourceName": "Nieuw Woordenboek 1787 (3× IA OCR)",
+          "pairFound": false,
+          "targetGloss": null,
+          "entryUrl": "https://archive.org/download/10523039bsb/10523039bsb_djvu.txt",
+          "note": "Klein geld spaced variant also in corpus",
+          "supplementUsed": false
+        },
+        {
+          "deLemma": "Grenzkonflikt",
+          "auditStepUsed": 1,
+          "primaryDirection": "de→nl",
+          "sourceName": "Nieuw Woordenboek 1787 (3× IA OCR)",
+          "pairFound": false,
+          "targetGloss": null,
+          "entryUrl": "https://archive.org/download/10523039bsb/10523039bsb_djvu.txt",
+          "note": "Klein geld spaced variant also in corpus",
+          "supplementUsed": false
+        },
+        {
+          "deLemma": "Machtgier",
+          "auditStepUsed": 1,
+          "primaryDirection": "de→nl",
+          "sourceName": "Nieuw Woordenboek 1787 (3× IA OCR)",
+          "pairFound": false,
+          "targetGloss": null,
+          "entryUrl": "https://archive.org/download/10523039bsb/10523039bsb_djvu.txt",
+          "note": "Klein geld spaced variant also in corpus",
+          "supplementUsed": false
+        },
+        {
+          "deLemma": "(reverse) Huis",
+          "auditStepUsed": 1,
+          "primaryDirection": "nl→de",
+          "sourceName": "Nieuw Woordenboek 1787 (3× IA OCR)",
+          "pairFound": true,
+          "targetGloss": "Huis attested",
+          "entryUrl": "https://archive.org/download/10523039bsb/10523039bsb_djvu.txt",
+          "note": null,
+          "supplementUsed": false
+        }
+      ],
+      "pilotSummary": {
+        "status": "PARTIAL",
+        "deToTargetHits": "2/6",
+        "sourceId": "ia-bsb-nieuw-woordenboek-nl-hoogduits-1787",
+        "mdzIiifSampleOk": true,
+        "targetToDeHuis": true,
+        "kleinGeldVariant": true
+      },
+      "readinessClassification": "NL_DIGITIZED_SOURCES_REGISTERED_PARTIAL",
+      "usesNewAuditSources": true,
+      "auditReady": false
+    }
+  ],
+  "summary": {
+    "languageCount": 3,
+    "itPrimarySourceId": "ia-bsb-neues-it-de-11793257-vol1",
+    "itStatus": "IT_DIGITIZED_SOURCES_REGISTERED_READY",
+    "nlPrimarySourceId": "ia-bsb-nieuw-woordenboek-nl-hoogduits-1787-3parts",
+    "nlStatus": "NL_DIGITIZED_SOURCES_REGISTERED_PARTIAL",
+    "mkStatus": "MK_NOT_FOUND_DIGITIZED",
+    "note": "it READY (BSB 11793257 + MDZ IIIF); nl PARTIAL (1787 3-part scan); mk no primary audit source."
+  },
+  "inputs": {
+    "auditCatalog": "scripts/lib/data/g2-a1-card-translation-bilingual-audit-it-mk-nl.json",
+    "pilotVerification": "reports/g2-a1-production-current/pdf-bilingual-dictionary-it-mk-nl-pilot-verify/pdf-bilingual-dictionary-it-mk-nl-pilot-verify.json",
+    "discoveryReport": "reports/g2-a1-production-current/pdf-bilingual-dictionary-it-mk-nl-discovery/pdf-bilingual-dictionary-it-mk-nl-discovery.json"
+  }
+}
