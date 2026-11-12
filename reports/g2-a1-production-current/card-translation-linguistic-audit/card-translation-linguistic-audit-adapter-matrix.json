@@ -1,0 +1,245 @@
+{
+  "generatedAt": "2026-10-03T11:19:44.100Z",
+  "bilingualLookupImplemented": false,
+  "officialDeImplemented": true,
+  "rows": [
+    {
+      "language": "lt",
+      "bilingualCatalog": null,
+      "officialTargetAdapterId": "lt-lki-pending",
+      "officialTargetImplemented": false,
+      "bilingualLookupImplemented": false
+    },
+    {
+      "language": "ru",
+      "bilingualCatalog": null,
+      "officialTargetAdapterId": "ru-ruslang-pending",
+      "officialTargetImplemented": false,
+      "bilingualLookupImplemented": false
+    },
+    {
+      "language": "pl",
+      "bilingualCatalog": null,
+      "officialTargetAdapterId": "pl-rjp-pending",
+      "officialTargetImplemented": false,
+      "bilingualLookupImplemented": false
+    },
+    {
+      "language": "uk",
+      "bilingualCatalog": null,
+      "officialTargetAdapterId": "uk-iul-pending",
+      "officialTargetImplemented": false,
+      "bilingualLookupImplemented": false
+    },
+    {
+      "language": "et",
+      "bilingualCatalog": null,
+      "officialTargetAdapterId": "et-sonaveeb-eki-entry",
+      "officialTargetImplemented": true,
+      "bilingualLookupImplemented": false
+    },
+    {
+      "language": "en",
+      "bilingualCatalog": null,
+      "officialTargetAdapterId": "en-oed-pending",
+      "officialTargetImplemented": false,
+      "bilingualLookupImplemented": false
+    },
+    {
+      "language": "ro",
+      "bilingualCatalog": {
+        "catalogId": "nn-pt-ro",
+        "primaryId": "ia-barcianu-de-ro-bidir-1886"
+      },
+      "officialTargetAdapterId": "ro-acad-pending",
+      "officialTargetImplemented": false,
+      "bilingualLookupImplemented": false
+    },
+    {
+      "language": "bg",
+      "bilingualCatalog": null,
+      "officialTargetAdapterId": "bg-ibl-pending",
+      "officialTargetImplemented": false,
+      "bilingualLookupImplemented": false
+    },
+    {
+      "language": "tr",
+      "bilingualCatalog": null,
+      "officialTargetAdapterId": "tr-tdk-pending",
+      "officialTargetImplemented": false,
+      "bilingualLookupImplemented": false
+    },
+    {
+      "language": "gr",
+      "bilingualCatalog": null,
+      "officialTargetAdapterId": "el-greek-language-pending",
+      "officialTargetImplemented": false,
+      "bilingualLookupImplemented": false
+    },
+    {
+      "language": "sq",
+      "bilingualCatalog": {
+        "catalogId": "sl-sq-sr-sv",
+        "primaryId": "ia-hahn-albanesische-studien-martin-lexicon"
+      },
+      "officialTargetAdapterId": "sq-akad-pending",
+      "officialTargetImplemented": false,
+      "bilingualLookupImplemented": false
+    },
+    {
+      "language": "mk",
+      "bilingualCatalog": null,
+      "officialTargetAdapterId": "mk-imj-pending",
+      "officialTargetImplemented": false,
+      "bilingualLookupImplemented": false
+    },
+    {
+      "language": "sl",
+      "bilingualCatalog": {
+        "catalogId": "sl-sq-sr-sv",
+        "primaryId": "ia-deutschslovenis00unkngoog"
+      },
+      "officialTargetAdapterId": "sl-zrc-pending",
+      "officialTargetImplemented": false,
+      "bilingualLookupImplemented": false
+    },
+    {
+      "language": "bs",
+      "bilingualCatalog": null,
+      "officialTargetAdapterId": "bs-izj-pending",
+      "officialTargetImplemented": false,
+      "bilingualLookupImplemented": false
+    },
+    {
+      "language": "sr",
+      "bilingualCatalog": {
+        "catalogId": "sl-sq-sr-sv",
+        "primaryId": "mdz-bsb11358470-karadzic-de-sr-1872"
+      },
+      "officialTargetAdapterId": "sr-isj-pending",
+      "officialTargetImplemented": false,
+      "bilingualLookupImplemented": false
+    },
+    {
+      "language": "hr",
+      "bilingualCatalog": null,
+      "officialTargetAdapterId": "hr-pravopis-pending",
+      "officialTargetImplemented": false,
+      "bilingualLookupImplemented": false
+    },
+    {
+      "language": "sk",
+      "bilingualCatalog": null,
+      "officialTargetAdapterId": "sk-juls-pending",
+      "officialTargetImplemented": false,
+      "bilingualLookupImplemented": false
+    },
+    {
+      "language": "cs",
+      "bilingualCatalog": null,
+      "officialTargetAdapterId": "cs-ujc-pending",
+      "officialTargetImplemented": false,
+      "bilingualLookupImplemented": false
+    },
+    {
+      "language": "fi",
+      "bilingualCatalog": null,
+      "officialTargetAdapterId": "fi-kotus-pending",
+      "officialTargetImplemented": false,
+      "bilingualLookupImplemented": false
+    },
+    {
+      "language": "sv",
+      "bilingualCatalog": {
+        "catalogId": "sl-sq-sr-sv",
+        "primaryId": "ia-tysksvenskordbok00hoppuoft"
+      },
+      "officialTargetAdapterId": "sv-sa-pending",
+      "officialTargetImplemented": false,
+      "bilingualLookupImplemented": false
+    },
+    {
+      "language": "nb",
+      "bilingualCatalog": null,
+      "officialTargetAdapterId": "nb-sprakradet-pending",
+      "officialTargetImplemented": false,
+      "bilingualLookupImplemented": false
+    },
+    {
+      "language": "nn",
+      "bilingualCatalog": {
+        "catalogId": "nn-pt-ro",
+        "primaryId": "ia-bsb-helms-dano-nor-de-11752747"
+      },
+      "officialTargetAdapterId": "nn-sprakradet-pending",
+      "officialTargetImplemented": false,
+      "bilingualLookupImplemented": false
+    },
+    {
+      "language": "da",
+      "bilingualCatalog": null,
+      "officialTargetAdapterId": "da-dsn-pending",
+      "officialTargetImplemented": false,
+      "bilingualLookupImplemented": false
+    },
+    {
+      "language": "nl",
+      "bilingualCatalog": null,
+      "officialTargetAdapterId": "nl-taalunie-pending",
+      "officialTargetImplemented": false,
+      "bilingualLookupImplemented": false
+    },
+    {
+      "language": "lb",
+      "bilingualCatalog": null,
+      "officialTargetAdapterId": "lb-zls-pending",
+      "officialTargetImplemented": false,
+      "bilingualLookupImplemented": false
+    },
+    {
+      "language": "fr",
+      "bilingualCatalog": null,
+      "officialTargetAdapterId": "fr-academie-pending",
+      "officialTargetImplemented": false,
+      "bilingualLookupImplemented": false
+    },
+    {
+      "language": "it",
+      "bilingualCatalog": null,
+      "officialTargetAdapterId": "it-crusca-pending",
+      "officialTargetImplemented": false,
+      "bilingualLookupImplemented": false
+    },
+    {
+      "language": "es",
+      "bilingualCatalog": null,
+      "officialTargetAdapterId": "es-rae-pending",
+      "officialTargetImplemented": false,
+      "bilingualLookupImplemented": false
+    },
+    {
+      "language": "pt",
+      "bilingualCatalog": {
+        "catalogId": "nn-pt-ro",
+        "primaryId": "ia-torchtrop-de-pt-1943"
+      },
+      "officialTargetAdapterId": "pt-acad-pending",
+      "officialTargetImplemented": false,
+      "bilingualLookupImplemented": false
+    },
+    {
+      "language": "hu",
+      "bilingualCatalog": null,
+      "officialTargetAdapterId": "hu-nytud-pending",
+      "officialTargetImplemented": false,
+      "bilingualLookupImplemented": false
+    },
+    {
+      "language": "is",
+      "bilingualCatalog": null,
+      "officialTargetAdapterId": "is-bin-pending",
+      "officialTargetImplemented": false,
+      "bilingualLookupImplemented": false
+    }
+  ]
+}

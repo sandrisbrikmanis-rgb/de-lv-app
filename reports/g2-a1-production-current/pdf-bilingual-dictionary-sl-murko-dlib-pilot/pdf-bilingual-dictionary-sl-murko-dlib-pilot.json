@@ -1,0 +1,152 @@
+{
+  "schemaVersion": "g2-a1-pdf-bilingual-dictionary-sl-murko-dlib-pilot-v1",
+  "generatedAt": "2026-10-03T11:05:00.000Z",
+  "source": {
+    "title": "Deutsch-Slowenisches und Slowenisch-Deutsches Handwörterbuch",
+    "author": "Anton Murko (Johann Lorenz Greiner, ed.)",
+    "yearLabel": "1833 (dLib metadata); TXT colophon 1883 reprint",
+    "dlibDetailsUrl": "https://www.dlib.si/details/URN:NBN:SI:DOC-T28EEL0U",
+    "dlibTxtStreams": {
+      "vol1DeSl": "https://www.dlib.si/stream/URN:NBN:SI:DOC-T28EEL0U/c6e13f7f-f297-4d2f-99f1-c05cfda85d29/TEXT",
+      "vol2SlDe": "https://www.dlib.si/stream/URN:NBN:SI:DOC-T28EEL0U/5453dc73-29ff-4ad0-a156-8bf187c93dfe/TEXT"
+    },
+    "localTxtPaths": {
+      "vol1DeSl": "reports/g2-a1-production-current/pdf-bilingual-dictionary-sl-murko-dlib-pilot/murko-dlib-vol1-de-sl.txt",
+      "vol2SlDe": "reports/g2-a1-production-current/pdf-bilingual-dictionary-sl-murko-dlib-pilot/murko-dlib-vol2-sl-de.txt"
+    },
+    "verificationMethod": "rg on committed dLib TEXT/plain (session cookie required for re-download; raw curl without cookie returns WAF HTML)",
+    "pilotLemmasDe": [
+      "Haus",
+      "arbeiten",
+      "Kleingeld",
+      "bewirten",
+      "Grenzkonflikt",
+      "Machtgier"
+    ]
+  },
+  "deToSl": {
+    "hitCountStrictHeadword": "2/6",
+    "hitCountIncludingSubgloss": "3/6",
+    "notes": "German lemmas span both dLib volumes (e.g. Arbeiten only in vol2 TXT). Strict = isolated DE headword; subgloss = sense label under another verb block.",
+    "entries": [
+      {
+        "lemma": "Haus",
+        "found": true,
+        "deFormInTxt": "HauS, n.",
+        "slEquivalent": "dom; hifha (hifhen); liram (Styrian); hifhka, domik (compounds)",
+        "txtLocation": {
+          "file": "murko-dlib-vol1-de-sl.txt",
+          "line": 4880
+        },
+        "dlibSourceUrl": "https://www.dlib.si/stream/URN:NBN:SI:DOC-T28EEL0U/c6e13f7f-f297-4d2f-99f1-c05cfda85d29/TEXT",
+        "alsoNote": "Bäckerei sense: «hauS n. pekalniza, pekamiza, pekarnja» vol1 line 2021 (Backhaus, not Wohnhaus primary)"
+      },
+      {
+        "lemma": "arbeiten",
+        "found": true,
+        "deFormInTxt": "Arbeiten v. a.",
+        "slEquivalent": "delati; opravljati",
+        "txtLocation": {
+          "file": "murko-dlib-vol2-sl-de.txt",
+          "line": 12513
+        },
+        "dlibSourceUrl": "https://www.dlib.si/stream/URN:NBN:SI:DOC-T28EEL0U/5453dc73-29ff-4ad0-a156-8bf187c93dfe/TEXT"
+      },
+      {
+        "lemma": "Kleingeld",
+        "found": false,
+        "deFormInTxt": null,
+        "slEquivalent": null,
+        "txtLocation": null,
+        "dlibSourceUrl": "https://www.dlib.si/details/URN:NBN:SI:DOC-T28EEL0U",
+        "note": "No «Kleingeld» / «Wechselgeld» headword in either TXT; coinage uses Pfennig / denar / dnarji (e.g. vol1 ~6323, ~10199)"
+      },
+      {
+        "lemma": "bewirten",
+        "found": false,
+        "deFormInTxt": "(bewirten) — sense gloss only",
+        "slEquivalent": "sadobiti, perdobiti, obdershati (when sense appears)",
+        "txtLocation": {
+          "file": "murko-dlib-vol1-de-sl.txt",
+          "line": 1974
+        },
+        "dlibSourceUrl": "https://www.dlib.si/stream/URN:NBN:SI:DOC-T28EEL0U/c6e13f7f-f297-4d2f-99f1-c05cfda85d29/TEXT",
+        "note": "Strict headword miss (same rule as Cigale/Janežič pilots). Subgloss under Aus-…/Äußern verb cluster, not «bewirten» lemma."
+      },
+      {
+        "lemma": "Grenzkonflikt",
+        "found": false,
+        "deFormInTxt": null,
+        "slEquivalent": null,
+        "txtLocation": null,
+        "dlibSourceUrl": "https://www.dlib.si/details/URN:NBN:SI:DOC-T28EEL0U",
+        "note": "No «Konflikt»; border verbs «grenzen/greniti» present but not modern compound"
+      },
+      {
+        "lemma": "Machtgier",
+        "found": false,
+        "deFormInTxt": null,
+        "slEquivalent": null,
+        "txtLocation": null,
+        "dlibSourceUrl": "https://www.dlib.si/details/URN:NBN:SI:DOC-T28EEL0U",
+        "note": "Separate «Macht»/«Gier» material (e.g. Oblaft/moč, Gierig/posheljiv) but no compound «Machtgier»"
+      }
+    ]
+  },
+  "slToDeReversePilot": {
+    "queryModern": "hiša",
+    "queryMatchedOrthography": "hifha / hirha / hifh",
+    "found": true,
+    "slFormInTxt": "hifha, hirha (Styrian), hifh, na (gospodizhna)",
+    "deEquivalent": "HauS, n.; das Haus; Wohnung",
+    "txtLocations": [
+      {
+        "file": "murko-dlib-vol2-sl-de.txt",
+        "line": 15765,
+        "excerptRole": "DE headword «HauS» with SL equivalents dom, hifha, hirha, liram"
+      },
+      {
+        "file": "murko-dlib-vol2-sl-de.txt",
+        "line": 16069,
+        "excerptRole": "SL «hifh, na (gofpodizhna)» in Kämmerer/Hauszimmer sense"
+      }
+    ],
+    "dlibSourceUrl": "https://www.dlib.si/stream/URN:NBN:SI:DOC-T28EEL0U/5453dc73-29ff-4ad0-a156-8bf187c93dfe/TEXT",
+    "note": "Modern «hiša» not spelled in TXT; reverse lookup uses 1833 Bohorič-style «hifha»."
+  },
+  "comparisonSamePilotLemmas": {
+    "cigale1860Ia": {
+      "sourceId": "ia-deutschslovenis00unkngoog",
+      "deToSlHitCount": "2/6",
+      "reverseTxtOnDlib": false,
+      "viewerUrl": "https://archive.org/details/deutschslovenis00unkngoog"
+    },
+    "janezicTaschen1866": {
+      "sourceId": "ia-bub-gb-geodkupucbsc-janezic-taschen-1866",
+      "deToSlHitCount": "2/6",
+      "viewerUrl": "https://archive.org/details/geodkupucbsc"
+    },
+    "janezic1905": {
+      "sourceId": "ia-bub-gb-nrataaaaiaaj-janezic-1905",
+      "deToSlHitCount": "1/6",
+      "note": "arbeiten only",
+      "viewerUrl": "https://archive.org/details/bub_gb_NRATAAAAIAAJ"
+    },
+    "murkoDlibTxt1833": {
+      "deToSlHitCountStrict": "2/6",
+      "deToSlHitCountWithBewirtenSubgloss": "3/6",
+      "reverseHišaToHaus": true,
+      "bidirectionalTxt": true
+    }
+  },
+  "recommendation": {
+    "slPrimarySource": "ia-deutschslovenis00unkngoog",
+    "murkoRole": "supplementary",
+    "rationale": [
+      "DE→SL strict pilot tie at 2/6 with Cigale (Haus + arbeiten); no gain on Kleingeld/Grenzkonflikt/Machtgier.",
+      "Murko adds institutional dLib TEXT/plain (both directions) and documents reverse hiša↔Haus via hifha, but OCR/Fraktur spelling and two-volume split add adapter friction.",
+      "Bewirten appears only as a sense gloss, not a headword—do not count as pilot hit unless subgloss policy changes.",
+      "Keep Cigale 1860 as `sl` primary in discovery until a modern SL DE→SL index or unified lemma normalizer lands; register Murko dLib URN as official supplement for Styrian/Carinthian lexical variants."
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "schemaVersion": "g2-a1-card-translation-sl-sq-sr-sv-source-chain-v1",
+  "generatedAt": "2026-10-03T11:15:00.000Z",
+  "inputs": {
+    "auditCatalog": "scripts/lib/data/g2-a1-card-translation-bilingual-audit-sl-sq-sr-sv.json",
+    "pilotVerification": "reports/g2-a1-production-current/pdf-bilingual-dictionary-sl-sq-sr-sv-pilot-verify/pdf-bilingual-dictionary-sl-sq-sr-sv-pilot-verify.json",
+    "discoveryReport": "reports/g2-a1-production-current/pdf-bilingual-dictionary-sl-sq-sr-sv-discovery/pdf-bilingual-dictionary-sl-sq-sr-sv-discovery.json",
+    "murkoDlibPilot": "reports/g2-a1-production-current/pdf-bilingual-dictionary-sl-murko-dlib-pilot/pdf-bilingual-dictionary-sl-murko-dlib-pilot.json"
+  },
+  "auditSequence": [
+    {
+      "step": 1,
+      "rule": "Meklē tiešo pāri DE→TARGET primārajā digitizētajā vārdnīcā (IA OCR, MDZ hOCR/IIIF, dLib TEXT, institucionālais digitālais leksikons)."
+    },
+    {
+      "step": 2,
+      "rule": "Ja nepieciešams, izmanto TARGET→DE tajā pašā divvirzienu darbā vai otrā reģistrētajā virzienā."
+    },
+    {
+      "step": 3,
+      "rule": "Papildu/reserves avotus izmanto tikai ja primārais posms nedod derīgu pāri."
+    },
+    {
+      "step": 4,
+      "rule": "Pārbaudi vārdšķiru un konkrētās kartītes vācu nozīmi; citai nozīmei piederošu ekvivalentu nepieņem."
+    },
+    {
+      "step": 5,
+      "rule": "Lietotāju papildinātos tīmekļa vārdnīcus neizmanto kā galveno OWNER pierādījumu."
+    },
+    {
+      "step": 6,
+      "rule": "Saglabā avota nosaukumu, virzienu, atrasto pāri un precīzo viewer / OCR / TEXT URL."
+    }
+  ],
+  "summary": {
+    "slStatus": "SL_DIGITIZED_SOURCES_REGISTERED_PARTIAL",
+    "sqStatus": "SQ_DIGITIZED_SOURCES_REGISTERED_PARTIAL",
+    "srStatus": "SR_DIGITIZED_SOURCES_REGISTERED_PARTIAL",
+    "svStatus": "SV_DIGITIZED_SOURCES_REGISTERED_PARTIAL"
+  },
+  "languagesRegistered": ["sl", "sq", "sr", "sv"],
+  "productionOwnerMasterChanged": false
+}

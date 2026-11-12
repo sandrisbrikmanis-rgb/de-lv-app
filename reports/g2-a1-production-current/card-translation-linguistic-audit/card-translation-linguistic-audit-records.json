@@ -1,0 +1,175 @@
+{
+  "records": [
+    {
+      "level": "a1",
+      "language": "sl",
+      "cardId": "apfel",
+      "fieldPath": "a1.card.apfel.native",
+      "currentValue": "jabolko",
+      "deValue": "Apfel",
+      "sourceType": "bilingual_dictionary",
+      "sourceName": "Deutsch-slovenisches Wörterbuch (Cigale, 1860, IA)",
+      "sourceUrl": "https://archive.org/details/deutschslovenis00unkngoog",
+      "sourceDirection": "de→sl",
+      "evidenceStatus": "BILINGUAL_CATALOG_BOUND",
+      "evidenceNote": "Catalog-bound primary ia-deutschslovenis00unkngoog; lookup stub (dry-run)",
+      "chainSteps": [
+        {
+          "sourceType": "bilingual_dictionary",
+          "sourceName": "Deutsch-slovenisches Wörterbuch (Cigale, 1860, IA)",
+          "sourceUrl": "https://archive.org/details/deutschslovenis00unkngoog",
+          "sourceDirection": "de→sl",
+          "evidenceStatus": "BILINGUAL_CATALOG_BOUND",
+          "evidenceNote": "Catalog-bound primary ia-deutschslovenis00unkngoog; lookup stub (dry-run)",
+          "adapterId": "bilingual-ia-deutschslovenis00unkngoog",
+          "fetched": false
+        },
+        {
+          "sourceType": "official_target",
+          "sourceName": "ZRC SAZU — FRAN",
+          "sourceUrl": "https://www.zrc-sazu.si/",
+          "sourceDirection": "target_normative",
+          "evidenceStatus": "ADAPTER_NOT_IMPLEMENTED",
+          "evidenceNote": "Official TARGET adapter pending (sl-zrc-pending)",
+          "adapterId": "sl-zrc-pending",
+          "fetched": false
+        },
+        {
+          "sourceType": "official_de",
+          "sourceName": "Rat für deutsche Rechtschreibung + Goethe-Institut + Duden + IDS/DWDS",
+          "sourceUrl": "https://www.rechtschreibrat.com/",
+          "sourceDirection": "de_normative",
+          "evidenceStatus": "SOURCE_NOT_FETCHED",
+          "evidenceNote": "DE official lookup (DWDS/Duden chain) pending --execute-sources",
+          "adapterId": "de-official-dwds-duden",
+          "fetched": false
+        }
+      ],
+      "registryBinding": {
+        "DE_AUTHORITY": "Rat für deutsche Rechtschreibung + Goethe-Institut + Duden + IDS/DWDS",
+        "DE_SOURCE_URL": "https://www.rechtschreibrat.com/",
+        "TARGET_AUTHORITY": "ZRC SAZU — FRAN",
+        "TARGET_SOURCE_URL": "https://www.zrc-sazu.si/",
+        "targetStandardCode": "sl",
+        "targetAppCode": "sl",
+        "deStandardCode": "de"
+      },
+      "bilingualCatalogId": "sl-sq-sr-sv",
+      "dryRun": true
+    },
+    {
+      "level": "a1",
+      "language": "sl",
+      "cardId": "brot",
+      "fieldPath": "a1.card.brot.native",
+      "currentValue": "kruh",
+      "deValue": "Brot",
+      "sourceType": "bilingual_dictionary",
+      "sourceName": "Deutsch-slovenisches Wörterbuch (Cigale, 1860, IA)",
+      "sourceUrl": "https://archive.org/details/deutschslovenis00unkngoog",
+      "sourceDirection": "de→sl",
+      "evidenceStatus": "BILINGUAL_CATALOG_BOUND",
+      "evidenceNote": "Catalog-bound primary ia-deutschslovenis00unkngoog; lookup stub (dry-run)",
+      "chainSteps": [
+        {
+          "sourceType": "bilingual_dictionary",
+          "sourceName": "Deutsch-slovenisches Wörterbuch (Cigale, 1860, IA)",
+          "sourceUrl": "https://archive.org/details/deutschslovenis00unkngoog",
+          "sourceDirection": "de→sl",
+          "evidenceStatus": "BILINGUAL_CATALOG_BOUND",
+          "evidenceNote": "Catalog-bound primary ia-deutschslovenis00unkngoog; lookup stub (dry-run)",
+          "adapterId": "bilingual-ia-deutschslovenis00unkngoog",
+          "fetched": false
+        },
+        {
+          "sourceType": "official_target",
+          "sourceName": "ZRC SAZU — FRAN",
+          "sourceUrl": "https://www.zrc-sazu.si/",
+          "sourceDirection": "target_normative",
+          "evidenceStatus": "ADAPTER_NOT_IMPLEMENTED",
+          "evidenceNote": "Official TARGET adapter pending (sl-zrc-pending)",
+          "adapterId": "sl-zrc-pending",
+          "fetched": false
+        },
+        {
+          "sourceType": "official_de",
+          "sourceName": "Rat für deutsche Rechtschreibung + Goethe-Institut + Duden + IDS/DWDS",
+          "sourceUrl": "https://www.rechtschreibrat.com/",
+          "sourceDirection": "de_normative",
+          "evidenceStatus": "SOURCE_NOT_FETCHED",
+          "evidenceNote": "DE official lookup (DWDS/Duden chain) pending --execute-sources",
+          "adapterId": "de-official-dwds-duden",
+          "fetched": false
+        }
+      ],
+      "registryBinding": {
+        "DE_AUTHORITY": "Rat für deutsche Rechtschreibung + Goethe-Institut + Duden + IDS/DWDS",
+        "DE_SOURCE_URL": "https://www.rechtschreibrat.com/",
+        "TARGET_AUTHORITY": "ZRC SAZU — FRAN",
+        "TARGET_SOURCE_URL": "https://www.zrc-sazu.si/",
+        "targetStandardCode": "sl",
+        "targetAppCode": "sl",
+        "deStandardCode": "de"
+      },
+      "bilingualCatalogId": "sl-sq-sr-sv",
+      "dryRun": true
+    },
+    {
+      "level": "a1",
+      "language": "sl",
+      "cardId": "wasser",
+      "fieldPath": "a1.card.wasser.native",
+      "currentValue": "voda",
+      "deValue": "Wasser",
+      "sourceType": "bilingual_dictionary",
+      "sourceName": "Deutsch-slovenisches Wörterbuch (Cigale, 1860, IA)",
+      "sourceUrl": "https://archive.org/details/deutschslovenis00unkngoog",
+      "sourceDirection": "de→sl",
+      "evidenceStatus": "BILINGUAL_CATALOG_BOUND",
+      "evidenceNote": "Catalog-bound primary ia-deutschslovenis00unkngoog; lookup stub (dry-run)",
+      "chainSteps": [
+        {
+          "sourceType": "bilingual_dictionary",
+          "sourceName": "Deutsch-slovenisches Wörterbuch (Cigale, 1860, IA)",
+          "sourceUrl": "https://archive.org/details/deutschslovenis00unkngoog",
+          "sourceDirection": "de→sl",
+          "evidenceStatus": "BILINGUAL_CATALOG_BOUND",
+          "evidenceNote": "Catalog-bound primary ia-deutschslovenis00unkngoog; lookup stub (dry-run)",
+          "adapterId": "bilingual-ia-deutschslovenis00unkngoog",
+          "fetched": false
+        },
+        {
+          "sourceType": "official_target",
+          "sourceName": "ZRC SAZU — FRAN",
+          "sourceUrl": "https://www.zrc-sazu.si/",
+          "sourceDirection": "target_normative",
+          "evidenceStatus": "ADAPTER_NOT_IMPLEMENTED",
+          "evidenceNote": "Official TARGET adapter pending (sl-zrc-pending)",
+          "adapterId": "sl-zrc-pending",
+          "fetched": false
+        },
+        {
+          "sourceType": "official_de",
+          "sourceName": "Rat für deutsche Rechtschreibung + Goethe-Institut + Duden + IDS/DWDS",
+          "sourceUrl": "https://www.rechtschreibrat.com/",
+          "sourceDirection": "de_normative",
+          "evidenceStatus": "SOURCE_NOT_FETCHED",
+          "evidenceNote": "DE official lookup (DWDS/Duden chain) pending --execute-sources",
+          "adapterId": "de-official-dwds-duden",
+          "fetched": false
+        }
+      ],
+      "registryBinding": {
+        "DE_AUTHORITY": "Rat für deutsche Rechtschreibung + Goethe-Institut + Duden + IDS/DWDS",
+        "DE_SOURCE_URL": "https://www.rechtschreibrat.com/",
+        "TARGET_AUTHORITY": "ZRC SAZU — FRAN",
+        "TARGET_SOURCE_URL": "https://www.zrc-sazu.si/",
+        "targetStandardCode": "sl",
+        "targetAppCode": "sl",
+        "deStandardCode": "de"
+      },
+      "bilingualCatalogId": "sl-sq-sr-sv",
+      "dryRun": true
+    }
+  ]
+}
