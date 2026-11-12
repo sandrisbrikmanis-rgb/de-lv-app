@@ -3279,28 +3279,6 @@ const VERB_ENTRIES = [
   },
   {
     "infinitiv": {
-      "de": "stieben",
-      "lv": "Πετάω / ψεκάζω"
-    },
-    "praesens": {
-      "de": "es stiebt",
-      "lv": "Ψεκάζει"
-    },
-    "imperfektIndikativ": {
-      "de": "stob / stiebte",
-      "lv": "Αυτό το σπρέι"
-    },
-    "imperfektKonjunktiv": {
-      "de": "stob / stiebte",
-      "lv": "Αυτό το σπρέι"
-    },
-    "partizipVergangenheit": {
-      "de": "gestoben / gestiebt",
-      "lv": "Διεσπαρμένος"
-    }
-  },
-  {
-    "infinitiv": {
       "de": "stinken",
       "lv": "Βρώμα"
     },

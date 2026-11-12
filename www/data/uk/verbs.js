@@ -2,7 +2,7 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "backen",
-      "lv": "пекти"
+      "lv": "пекти • спекти"
     },
     "praesens": {
       "de": "er bäckt",
@@ -10,43 +10,43 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er buk",
-      "lv": "він випікав"
+      "lv": "він пік"
     },
     "imperfektKonjunktiv": {
       "de": "er büke",
-      "lv": "він би випік"
+      "lv": "він би пік"
     },
     "partizipVergangenheit": {
       "de": "gebacken",
-      "lv": "смажені/запечені"
+      "lv": "спечений"
     }
   },
   {
     "infinitiv": {
       "de": "befehlen",
-      "lv": "командувати"
+      "lv": "наказувати • наказати"
     },
     "praesens": {
       "de": "er befiehlt",
-      "lv": "наказує він"
+      "lv": "він наказує"
     },
     "imperfektIndikativ": {
       "de": "er befahl",
-      "lv": "— наказав він"
+      "lv": "він наказував"
     },
     "imperfektKonjunktiv": {
       "de": "er beföhle",
-      "lv": "він би командував"
+      "lv": "він би наказував"
     },
     "partizipVergangenheit": {
       "de": "befohlen",
-      "lv": "наказав"
+      "lv": "наказаний"
     }
   },
   {
     "infinitiv": {
       "de": "beginnen",
-      "lv": "почати"
+      "lv": "починати • почати"
     },
     "praesens": {
       "de": "er beginnt",
@@ -54,121 +54,121 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er begann",
-      "lv": "почав він"
+      "lv": "він починав"
     },
     "imperfektKonjunktiv": {
       "de": "er begönne / er begänne",
-      "lv": "він почав би"
+      "lv": "він би починав"
     },
     "partizipVergangenheit": {
       "de": "begonnen",
-      "lv": "почався"
+      "lv": "початий"
     }
   },
   {
     "infinitiv": {
       "de": "beißen",
-      "lv": "kost"
+      "lv": "кусати • вкусити"
     },
     "praesens": {
       "de": "er beißt",
-      "lv": "він кусається"
+      "lv": "він кусає"
     },
     "imperfektIndikativ": {
       "de": "er biss",
-      "lv": "він закодував"
+      "lv": "він кусав"
     },
     "imperfektKonjunktiv": {
       "de": "er bisse",
-      "lv": "він кусається"
+      "lv": "він би кусав"
     },
     "partizipVergangenheit": {
       "de": "gebissen",
-      "lv": "покусаний / покусаний"
+      "lv": "покусаний"
     }
   },
   {
     "infinitiv": {
       "de": "bergen",
-      "lv": "приховати"
+      "lv": "рятувати • врятувати / ховати • сховати"
     },
     "praesens": {
       "de": "er birgt",
-      "lv": "він ховається"
+      "lv": "він рятує / ховає"
     },
     "imperfektIndikativ": {
       "de": "er barg",
-      "lv": "він сховався"
+      "lv": "він рятував / ховав"
     },
     "imperfektKonjunktiv": {
       "de": "er bürge / er bärge",
-      "lv": "він би сховався"
+      "lv": "він би рятував / ховав"
     },
     "partizipVergangenheit": {
       "de": "geborgen",
-      "lv": "приховано / збережено"
+      "lv": "врятований / схований"
     }
   },
   {
     "infinitiv": {
       "de": "bersten",
-      "lv": "розривається"
+      "lv": "тріскатися • тріснути"
     },
     "praesens": {
       "de": "er birst",
-      "lv": "він лопається"
+      "lv": "він тріскається"
     },
     "imperfektIndikativ": {
       "de": "er barst / er borst",
-      "lv": "— вирвався він"
+      "lv": "він тріскався"
     },
     "imperfektKonjunktiv": {
       "de": "er bärste / er börste",
-      "lv": "він лопається"
+      "lv": "він би тріскався"
     },
     "partizipVergangenheit": {
       "de": "geborsten (er ist)",
-      "lv": "зламаний"
+      "lv": "він тріснув"
     }
   },
   {
     "infinitiv": {
       "de": "bewegen",
-      "lv": "заохочувати"
+      "lv": "спонукати"
     },
     "praesens": {
       "de": "er bewegt",
-      "lv": "— підказує він"
+      "lv": "він спонукає"
     },
     "imperfektIndikativ": {
       "de": "er bewog",
-      "lv": "— закликав він"
+      "lv": "він спонукав"
     },
     "imperfektKonjunktiv": {
       "de": "er bewöge",
-      "lv": "він підбадьорював би"
+      "lv": "він би спонукав"
     },
     "partizipVergangenheit": {
       "de": "bewogen",
-      "lv": "заохочували"
+      "lv": "спонуканий"
     }
   },
   {
     "infinitiv": {
       "de": "biegen",
-      "lv": "зігнути"
+      "lv": "гнути • зігнути"
     },
     "praesens": {
       "de": "er biegt",
-      "lv": "він кланяється"
+      "lv": "він гне"
     },
     "imperfektIndikativ": {
       "de": "er bog",
-      "lv": "він зігнувся"
+      "lv": "він гнув"
     },
     "imperfektKonjunktiv": {
       "de": "er böge",
-      "lv": "він би зігнувся"
+      "lv": "він би гнув"
     },
     "partizipVergangenheit": {
       "de": "gebogen",
@@ -178,67 +178,67 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "bieten",
-      "lv": "обіцяти"
+      "lv": "пропонувати • запропонувати"
     },
     "praesens": {
       "de": "er bietet",
-      "lv": "він обіцяє"
+      "lv": "він пропонує"
     },
     "imperfektIndikativ": {
       "de": "er bot",
-      "lv": "він пообіцяв"
+      "lv": "він пропонував"
     },
     "imperfektKonjunktiv": {
       "de": "er böte",
-      "lv": "він пообіцяв"
+      "lv": "він би пропонував"
     },
     "partizipVergangenheit": {
       "de": "geboten",
-      "lv": "обіцяно / запропоновано"
+      "lv": "запропонований"
     }
   },
   {
     "infinitiv": {
       "de": "binden",
-      "lv": "сито"
+      "lv": "зв’язувати • зв’язати"
     },
     "praesens": {
       "de": "er bindet",
-      "lv": "він сіно"
+      "lv": "він зв’язує"
     },
     "imperfektIndikativ": {
       "de": "er band",
-      "lv": "він посіяв"
+      "lv": "він зв’язував"
     },
     "imperfektKonjunktiv": {
       "de": "er bände",
-      "lv": "він процідив"
+      "lv": "він би зв’язував"
     },
     "partizipVergangenheit": {
       "de": "gebunden",
-      "lv": "сито"
+      "lv": "зв’язаний"
     }
   },
   {
     "infinitiv": {
       "de": "bitten",
-      "lv": "просити"
+      "lv": "просити • попросити"
     },
     "praesens": {
       "de": "er bittet",
-      "lv": "— благає він"
+      "lv": "він просить"
     },
     "imperfektIndikativ": {
       "de": "er bat",
-      "lv": "запитав він"
+      "lv": "він просив"
     },
     "imperfektKonjunktiv": {
       "de": "er bäte",
-      "lv": "він молився б"
+      "lv": "він би просив"
     },
     "partizipVergangenheit": {
       "de": "gebeten",
-      "lv": "запитуваний"
+      "lv": "попрошений"
     }
   },
   {
@@ -248,11 +248,11 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er bläst",
-      "lv": "він дме"
+      "lv": "він дує"
     },
     "imperfektIndikativ": {
       "de": "er blies",
-      "lv": "— подув він"
+      "lv": "він дув"
     },
     "imperfektKonjunktiv": {
       "de": "er bliese",
@@ -260,7 +260,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "geblasen",
-      "lv": "продутий"
+      "lv": "дутий"
     }
   },
   {
@@ -274,109 +274,109 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "es gor / es gärte",
-      "lv": "воно бродить"
+      "lv": "воно бродило"
     },
     "imperfektKonjunktiv": {
       "de": "es göre / es gärte",
-      "lv": "було б гірко"
+      "lv": "воно б бродило"
     },
     "partizipVergangenheit": {
       "de": "gegoren / gegärt",
-      "lv": "жито"
+      "lv": "воно перебродило"
     }
   },
   {
     "infinitiv": {
       "de": "gebären",
-      "lv": "народжувати"
+      "lv": "народжувати • народити"
     },
     "praesens": {
       "de": "sie gebiert",
-      "lv": "в її лоні"
+      "lv": "вона народжує"
     },
     "imperfektIndikativ": {
       "de": "sie gebar",
-      "lv": "вона народила"
+      "lv": "вона народжувала"
     },
     "imperfektKonjunktiv": {
       "de": "sie gebäre",
-      "lv": "вона б народила"
+      "lv": "вона б народжувала"
     },
     "partizipVergangenheit": {
       "de": "geboren",
-      "lv": "народився / народився"
+      "lv": "народжений"
     }
   },
   {
     "infinitiv": {
       "de": "gelingen",
-      "lv": "досягти успіху"
+      "lv": "вдаватися • вдатися"
     },
     "praesens": {
       "de": "es gelingt",
-      "lv": "це вдається"
+      "lv": "воно вдається"
     },
     "imperfektIndikativ": {
       "de": "es gelang",
-      "lv": "це спрацювало"
+      "lv": "воно вдавалося"
     },
     "imperfektKonjunktiv": {
       "de": "es gelänge",
-      "lv": "це спрацювало б"
+      "lv": "воно б удавалося"
     },
     "partizipVergangenheit": {
       "de": "gelungen (es ist)",
-      "lv": "вдалося"
+      "lv": "воно вдалося"
     }
   },
   {
     "infinitiv": {
       "de": "gelten",
-      "lv": "стане в нагоді"
+      "lv": "годитися / мати силу"
     },
     "praesens": {
       "de": "er gilt",
-      "lv": "він der / дійсний"
+      "lv": "він годиться / має силу"
     },
     "imperfektIndikativ": {
       "de": "er galt",
-      "lv": "він придатний / був придатний"
+      "lv": "він годився / мав силу"
     },
     "imperfektKonjunktiv": {
       "de": "er gölte / es gälte",
-      "lv": "він підійде / це підійде"
+      "lv": "він би годився / мав силу"
     },
     "partizipVergangenheit": {
       "de": "gegolten",
-      "lv": "застосовано / було дійсним"
+      "lv": "він годився / мав силу"
     }
   },
   {
     "infinitiv": {
       "de": "genesen",
-      "lv": "одужувати"
+      "lv": "одужувати • одужати"
     },
     "praesens": {
       "de": "er genest",
-      "lv": "йому стає краще"
+      "lv": "він одужує"
     },
     "imperfektIndikativ": {
       "de": "er genas",
-      "lv": "йому стало добре"
+      "lv": "він одужував"
     },
     "imperfektKonjunktiv": {
       "de": "er genäse",
-      "lv": "він би одужав"
+      "lv": "він би одужував"
     },
     "partizipVergangenheit": {
       "de": "genesen (er ist)",
-      "lv": "одужувати"
+      "lv": "одужалий"
     }
   },
   {
     "infinitiv": {
       "de": "genießen",
-      "lv": "насолоджуватися"
+      "lv": "насолоджуватися • насолодитися"
     },
     "praesens": {
       "de": "er genießt",
@@ -392,73 +392,73 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "genossen",
-      "lv": "насолоджувався"
+      "lv": "він насолодився"
     }
   },
   {
     "infinitiv": {
       "de": "geschehen",
-      "lv": "статися"
+      "lv": "траплятися • трапитися"
     },
     "praesens": {
       "de": "es geschieht",
-      "lv": "таке буває"
+      "lv": "воно трапляється"
     },
     "imperfektIndikativ": {
       "de": "es geschah",
-      "lv": "це сталося"
+      "lv": "воно траплялося"
     },
     "imperfektKonjunktiv": {
       "de": "es geschähe",
-      "lv": "це сталося б"
+      "lv": "воно б траплялося"
     },
     "partizipVergangenheit": {
       "de": "geschehen (es ist)",
-      "lv": "сталося"
+      "lv": "воно трапилося"
     }
   },
   {
     "infinitiv": {
       "de": "gießen",
-      "lv": "лейтенант"
+      "lv": "лити"
     },
     "praesens": {
       "de": "er gießt",
-      "lv": "він наливає"
+      "lv": "він ллє"
     },
     "imperfektIndikativ": {
       "de": "er goss",
-      "lv": "він налив"
+      "lv": "він лив"
     },
     "imperfektKonjunktiv": {
       "de": "er gösse",
-      "lv": "він дощить"
+      "lv": "він би лив"
     },
     "partizipVergangenheit": {
       "de": "gegossen",
-      "lv": "річ"
+      "lv": "литий"
     }
   },
   {
     "infinitiv": {
       "de": "gleichen",
-      "lv": "нагадувати"
+      "lv": "скидатися"
     },
     "praesens": {
       "de": "er gleicht",
-      "lv": "він схожий"
+      "lv": "він скидається"
     },
     "imperfektIndikativ": {
       "de": "er glich",
-      "lv": "він наслідував"
+      "lv": "він скидався"
     },
     "imperfektKonjunktiv": {
       "de": "er gliche",
-      "lv": "він буде наслідувати"
+      "lv": "він би скидався"
     },
     "partizipVergangenheit": {
       "de": "geglichen",
-      "lv": "нагадував"
+      "lv": "він скидався"
     }
   },
   {
@@ -480,35 +480,35 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "geglitten (er ist)",
-      "lv": "послизнувся"
+      "lv": "він ковзав"
     }
   },
   {
     "infinitiv": {
       "de": "glimmen",
-      "lv": "світиться"
+      "lv": "жевріти"
     },
     "praesens": {
       "de": "er glimmt",
-      "lv": "він світиться"
+      "lv": "він жевріє"
     },
     "imperfektIndikativ": {
       "de": "er glimmte / glomm",
-      "lv": "він світився"
+      "lv": "він жеврів"
     },
     "imperfektKonjunktiv": {
       "de": "er glimmte",
-      "lv": "він би світився"
+      "lv": "він би жеврів"
     },
     "partizipVergangenheit": {
       "de": "geglimmt / geglommen",
-      "lv": "світиться"
+      "lv": "він жеврів"
     }
   },
   {
     "infinitiv": {
       "de": "graben",
-      "lv": "копати"
+      "lv": "копати • викопати"
     },
     "praesens": {
       "de": "er gräbt",
@@ -524,57 +524,57 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gegraben",
-      "lv": "копати"
+      "lv": "викопаний"
     }
   },
   {
     "infinitiv": {
       "de": "greifen",
-      "lv": "ловити"
+      "lv": "хапати • схопити"
     },
     "praesens": {
       "de": "er greift",
-      "lv": "він ловить"
+      "lv": "він хапає"
     },
     "imperfektIndikativ": {
       "de": "er griff",
-      "lv": "він спіймав"
+      "lv": "він хапав"
     },
     "imperfektKonjunktiv": {
       "de": "er griffe",
-      "lv": "він би спіймав"
+      "lv": "він би хапав"
     },
     "partizipVergangenheit": {
       "de": "gegriffen",
-      "lv": "спійманий / схоплений"
+      "lv": "схоплений"
     }
   },
   {
     "infinitiv": {
       "de": "hauen",
-      "lv": "різати"
+      "lv": "рубати • зрубати"
     },
     "praesens": {
       "de": "er haut",
-      "lv": "він вибрав"
+      "lv": "він рубає"
     },
     "imperfektIndikativ": {
       "de": "er hieb",
-      "lv": "— огризнувся він"
+      "lv": "він рубав"
     },
     "imperfektKonjunktiv": {
       "de": "er hiebe",
-      "lv": "він би вирізав"
+      "lv": "він би рубав"
     },
     "partizipVergangenheit": {
       "de": "gehauen",
-      "lv": "різьблені"
+      "lv": "зрубаний"
     }
   },
   {
     "infinitiv": {
       "de": "heben",
-      "lv": "піднімати"
+      "lv": "піднімати • підняти"
     },
     "praesens": {
       "de": "er hebt",
@@ -582,21 +582,21 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er hob",
-      "lv": "він приніс"
+      "lv": "він піднімав"
     },
     "imperfektKonjunktiv": {
       "de": "er höbe",
-      "lv": "він би збудував"
+      "lv": "він би піднімав"
     },
     "partizipVergangenheit": {
       "de": "gehoben",
-      "lv": "побудований"
+      "lv": "піднятий"
     }
   },
   {
     "infinitiv": {
       "de": "kennen",
-      "lv": "знати / знати"
+      "lv": "знати"
     },
     "praesens": {
       "de": "er kennt",
@@ -604,21 +604,21 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "kannte",
-      "lv": "знав"
+      "lv": "він знав"
     },
     "imperfektKonjunktiv": {
       "de": "kannte",
-      "lv": "знав"
+      "lv": "він би знав"
     },
     "partizipVergangenheit": {
       "de": "gekannt",
-      "lv": "знайомство"
+      "lv": "знаний"
     }
   },
   {
     "infinitiv": {
       "de": "klingen",
-      "lv": "звучати"
+      "lv": "звучати • прозвучати"
     },
     "praesens": {
       "de": "er klingt",
@@ -626,43 +626,43 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er klang",
-      "lv": "— пролунав він"
+      "lv": "він звучав"
     },
     "imperfektKonjunktiv": {
       "de": "er klänge",
-      "lv": "він звучав би"
+      "lv": "він би звучав"
     },
     "partizipVergangenheit": {
       "de": "geklungen",
-      "lv": "прозвучало"
+      "lv": "він прозвучав"
     }
   },
   {
     "infinitiv": {
       "de": "kneifen",
-      "lv": "щіпка"
+      "lv": "щипати"
     },
     "praesens": {
       "de": "er kneift",
-      "lv": "він іронізує"
+      "lv": "він щипає"
     },
     "imperfektIndikativ": {
       "de": "er kniff",
-      "lv": "він ущипнув"
+      "lv": "він щипав"
     },
     "imperfektKonjunktiv": {
       "de": "er kniffe",
-      "lv": "він ущипнув би"
+      "lv": "він би щипав"
     },
     "partizipVergangenheit": {
       "de": "gekniffen",
-      "lv": "прищипаний"
+      "lv": "щипаний"
     }
   },
   {
     "infinitiv": {
       "de": "bleiben",
-      "lv": "залишитися"
+      "lv": "залишатися • залишитися"
     },
     "praesens": {
       "de": "er bleibt",
@@ -670,87 +670,87 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er blieb",
-      "lv": "він залишився"
+      "lv": "він залишався"
     },
     "imperfektKonjunktiv": {
       "de": "er bliebe",
-      "lv": "він би залишився"
+      "lv": "він би залишався"
     },
     "partizipVergangenheit": {
       "de": "geblieben (er ist)",
-      "lv": "зліва"
+      "lv": "він залишився"
     }
   },
   {
     "infinitiv": {
       "de": "bleichen",
-      "lv": "відбілити"
+      "lv": "вицвітати • вицвісти"
     },
     "praesens": {
       "de": "er bleicht",
-      "lv": "він відбілює"
+      "lv": "він вицвітає"
     },
     "imperfektIndikativ": {
       "de": "blich",
-      "lv": "вибілені"
+      "lv": "він вицвітав"
     },
     "imperfektKonjunktiv": {
       "de": "blich",
-      "lv": "вибілені"
+      "lv": "він би вицвітав"
     },
     "partizipVergangenheit": {
       "de": "geblichen",
-      "lv": "вибілені"
+      "lv": "вицвілий"
     }
   },
   {
     "infinitiv": {
       "de": "braten",
-      "lv": "пекти"
+      "lv": "смажити • засмажити"
     },
     "praesens": {
       "de": "er brät",
-      "lv": "він пече"
+      "lv": "він смажить"
     },
     "imperfektIndikativ": {
       "de": "er briet",
-      "lv": "він випікав"
+      "lv": "він смажив"
     },
     "imperfektKonjunktiv": {
       "de": "er briete",
-      "lv": "він би випік"
+      "lv": "він би смажив"
     },
     "partizipVergangenheit": {
       "de": "gebraten",
-      "lv": "смажені/запечені"
+      "lv": "засмажений"
     }
   },
   {
     "infinitiv": {
       "de": "brechen",
-      "lv": "зламати"
+      "lv": "ламати • зламати"
     },
     "praesens": {
       "de": "er bricht",
-      "lv": "він ламається"
+      "lv": "він ламає"
     },
     "imperfektIndikativ": {
       "de": "er brach",
-      "lv": "він зламався"
+      "lv": "він ламав"
     },
     "imperfektKonjunktiv": {
       "de": "er bräche",
-      "lv": "він би зламався"
+      "lv": "він би ламав"
     },
     "partizipVergangenheit": {
       "de": "gebrochen",
-      "lv": "зламаний / зламаний"
+      "lv": "зламаний"
     }
   },
   {
     "infinitiv": {
       "de": "brennen",
-      "lv": "спалювати"
+      "lv": "горіти"
     },
     "praesens": {
       "de": "er brennt",
@@ -758,87 +758,87 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "brannte",
-      "lv": "горів"
+      "lv": "він горів"
     },
     "imperfektKonjunktiv": {
       "de": "brannte",
-      "lv": "горів"
+      "lv": "він би горів"
     },
     "partizipVergangenheit": {
       "de": "gebrannt",
-      "lv": "спалений"
+      "lv": "він горів"
     }
   },
   {
     "infinitiv": {
       "de": "bringen",
-      "lv": "nest"
+      "lv": "приносити • принести"
     },
     "praesens": {
       "de": "er bringt",
-      "lv": "він несе"
+      "lv": "він приносить"
     },
     "imperfektIndikativ": {
       "de": "er brachte",
-      "lv": "він ніс"
+      "lv": "він приносив"
     },
     "imperfektKonjunktiv": {
       "de": "er brächte",
-      "lv": "він би ніс"
+      "lv": "він би приносив"
     },
     "partizipVergangenheit": {
       "de": "gebracht",
-      "lv": "принесений / принесений"
+      "lv": "принесений"
     }
   },
   {
     "infinitiv": {
       "de": "denken",
-      "lv": "думати"
+      "lv": "думати • подумати"
     },
     "praesens": {
       "de": "er denkt",
-      "lv": "думає він"
+      "lv": "він думає"
     },
     "imperfektIndikativ": {
       "de": "er dachte",
-      "lv": "— думав він"
+      "lv": "він думав"
     },
     "imperfektKonjunktiv": {
       "de": "er dächte",
-      "lv": "він думав би"
+      "lv": "він би думав"
     },
     "partizipVergangenheit": {
       "de": "gedacht",
-      "lv": "призначений"
+      "lv": "він подумав"
     }
   },
   {
     "infinitiv": {
       "de": "dingen",
-      "lv": "найняти / погодитися"
+      "lv": "наймати • найняти / домовлятися • домовитися"
     },
     "praesens": {
       "de": "er dingt",
-      "lv": "він наймає"
+      "lv": "він наймає / домовляється"
     },
     "imperfektIndikativ": {
       "de": "dingte",
-      "lv": "найнятий"
+      "lv": "він наймав / домовлявся"
     },
     "imperfektKonjunktiv": {
       "de": "dingte",
-      "lv": "найнятий"
+      "lv": "він би наймав / домовлявся"
     },
     "partizipVergangenheit": {
       "de": "gedungen",
-      "lv": "найнятий"
+      "lv": "найнятий / домовлений"
     }
   },
   {
     "infinitiv": {
       "de": "dreschen",
-      "lv": "культ"
+      "lv": "молотити • змолотити"
     },
     "praesens": {
       "de": "er drischt",
@@ -850,91 +850,91 @@ const VERB_ENTRIES = [
     },
     "imperfektKonjunktiv": {
       "de": "er dräsche / er drösche",
-      "lv": "він би поклонявся"
+      "lv": "він би молотив"
     },
     "partizipVergangenheit": {
       "de": "gedroschen",
-      "lv": "культ"
+      "lv": "змолочений"
     }
   },
   {
     "infinitiv": {
       "de": "dringen",
-      "lv": "вламати"
+      "lv": "пробиватися • пробитися"
     },
     "praesens": {
       "de": "er dringt",
-      "lv": "він вривається"
+      "lv": "він пробивається"
     },
     "imperfektIndikativ": {
       "de": "er drang",
-      "lv": "він увірвався"
+      "lv": "він пробивався"
     },
     "imperfektKonjunktiv": {
       "de": "er dränge",
-      "lv": "він увірвався б"
+      "lv": "він би пробивався"
     },
     "partizipVergangenheit": {
       "de": "gedrungen (er ist)",
-      "lv": "увірвалися"
+      "lv": "він пробився"
     }
   },
   {
     "infinitiv": {
       "de": "dünken",
-      "lv": "здається"
+      "lv": "здаватися • здатися"
     },
     "praesens": {
       "de": "es dünkt",
-      "lv": "здається"
+      "lv": "воно здається"
     },
     "imperfektIndikativ": {
       "de": "deuchte",
-      "lv": "здавалося"
+      "lv": "воно здавалося"
     },
     "imperfektKonjunktiv": {
       "de": "deuchte",
-      "lv": "здавалося"
+      "lv": "воно б здавалося"
     },
     "partizipVergangenheit": {
       "de": "gedünkt",
-      "lv": "здавалося"
+      "lv": "воно здалося"
     }
   },
   {
     "infinitiv": {
       "de": "dürfen",
-      "lv": "бути дозволеним"
+      "lv": "сміти"
     },
     "praesens": {
       "de": "er darf",
-      "lv": "він може"
+      "lv": "він сміє"
     },
     "imperfektIndikativ": {
       "de": "durfte",
-      "lv": "було дозволено"
+      "lv": "він смів"
     },
     "imperfektKonjunktiv": {
       "de": "durfte",
-      "lv": "було дозволено"
+      "lv": "він би смів"
     },
     "partizipVergangenheit": {
       "de": "gedurft",
-      "lv": "дозволено"
+      "lv": "він смів"
     }
   },
   {
     "infinitiv": {
       "de": "empfehlen",
-      "lv": "рекомендую"
+      "lv": "рекомендувати • порекомендувати"
     },
     "praesens": {
       "de": "er empfiehlt",
-      "lv": "він пропонує"
+      "lv": "він рекомендує"
     },
     "imperfektIndikativ": {
       "de": "er empfahl",
-      "lv": "— запропонував він"
+      "lv": "він рекомендував"
     },
     "imperfektKonjunktiv": {
       "de": "er empfähle / er empföhle",
@@ -948,7 +948,7 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "empfinden",
-      "lv": "відчувати"
+      "lv": "відчувати • відчути"
     },
     "praesens": {
       "de": "er empfindet",
@@ -960,61 +960,61 @@ const VERB_ENTRIES = [
     },
     "imperfektKonjunktiv": {
       "de": "er empfände",
-      "lv": "він відчував би"
+      "lv": "він би відчував"
     },
     "partizipVergangenheit": {
       "de": "empfunden",
-      "lv": "фетр"
+      "lv": "відчутий"
     }
   },
   {
     "infinitiv": {
       "de": "erlöschen",
-      "lv": "зникає"
+      "lv": "гаснути • згаснути"
     },
     "praesens": {
       "de": "er erlischt",
-      "lv": "він виходить"
+      "lv": "він гасне"
     },
     "imperfektIndikativ": {
       "de": "er erlosch",
-      "lv": "він вийшов"
+      "lv": "він гас"
     },
     "imperfektKonjunktiv": {
       "de": "er erlösche",
-      "lv": "він би зник"
+      "lv": "він би гас"
     },
     "partizipVergangenheit": {
       "de": "erloschen (er ist)",
-      "lv": "погашений"
+      "lv": "згаслий"
     }
   },
   {
     "infinitiv": {
       "de": "erschrecken",
-      "lv": "заплутатися"
+      "lv": "лякатися • злякатися"
     },
     "praesens": {
       "de": "er erschrickt",
-      "lv": "йому стає страшно"
+      "lv": "він лякається"
     },
     "imperfektIndikativ": {
       "de": "er erschrak",
-      "lv": "він злякався"
+      "lv": "він лякався"
     },
     "imperfektKonjunktiv": {
       "de": "er erschräke",
-      "lv": "він би збожеволів"
+      "lv": "він би лякався"
     },
     "partizipVergangenheit": {
       "de": "erschrocken (er ist)",
-      "lv": "наляканий"
+      "lv": "він злякався"
     }
   },
   {
     "infinitiv": {
       "de": "essen",
-      "lv": "їсти"
+      "lv": "їсти • з’їсти"
     },
     "praesens": {
       "de": "er isst",
@@ -1030,35 +1030,35 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gegessen",
-      "lv": "з'їдено / з'їдено"
+      "lv": "з’їдений"
     }
   },
   {
     "infinitiv": {
       "de": "fahren",
-      "lv": "диск"
+      "lv": "їхати • поїхати"
     },
     "praesens": {
       "de": "er fährt",
-      "lv": "він керує"
+      "lv": "він їде"
     },
     "imperfektIndikativ": {
       "de": "er fuhr",
-      "lv": "він був за кермом"
+      "lv": "він їхав"
     },
     "imperfektKonjunktiv": {
       "de": "er führe",
-      "lv": "він би водив"
+      "lv": "він би їхав"
     },
     "partizipVergangenheit": {
       "de": "gefahren (er ist)",
-      "lv": "їхав / пішов"
+      "lv": "він поїхав"
     }
   },
   {
     "infinitiv": {
       "de": "fallen",
-      "lv": "падати"
+      "lv": "падати • впасти"
     },
     "praesens": {
       "de": "er fällt",
@@ -1066,21 +1066,21 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er fiel",
-      "lv": "він упав"
+      "lv": "він падав"
     },
     "imperfektKonjunktiv": {
       "de": "er fiele",
-      "lv": "він би впав"
+      "lv": "він би падав"
     },
     "partizipVergangenheit": {
       "de": "gefallen (er ist)",
-      "lv": "впав"
+      "lv": "він упав"
     }
   },
   {
     "infinitiv": {
       "de": "fangen",
-      "lv": "ловити"
+      "lv": "ловити • зловити"
     },
     "praesens": {
       "de": "er fängt",
@@ -1088,21 +1088,21 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er fing",
-      "lv": "він спіймав"
+      "lv": "він ловив"
     },
     "imperfektKonjunktiv": {
       "de": "er finge",
-      "lv": "він би спіймав"
+      "lv": "він би ловив"
     },
     "partizipVergangenheit": {
       "de": "gefangen",
-      "lv": "спійманий / спійманий"
+      "lv": "зловлений"
     }
   },
   {
     "infinitiv": {
       "de": "finden",
-      "lv": "знайти"
+      "lv": "знаходити • знайти"
     },
     "praesens": {
       "de": "er findet",
@@ -1110,43 +1110,43 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er fand",
-      "lv": "він знайшов"
+      "lv": "він знаходив"
     },
     "imperfektKonjunktiv": {
       "de": "er fände",
-      "lv": "він би знайшов"
+      "lv": "він би знаходив"
     },
     "partizipVergangenheit": {
       "de": "gefunden",
-      "lv": "знайдено"
+      "lv": "знайдений"
     }
   },
   {
     "infinitiv": {
       "de": "fliegen",
-      "lv": "відпустити"
+      "lv": "летіти • полетіти"
     },
     "praesens": {
       "de": "er fliegt",
-      "lv": "він літає"
+      "lv": "він летить"
     },
     "imperfektIndikativ": {
       "de": "er flog",
-      "lv": "він полетів"
+      "lv": "він летів"
     },
     "imperfektKonjunktiv": {
       "de": "er flöge",
-      "lv": "він би полетів"
+      "lv": "він би летів"
     },
     "partizipVergangenheit": {
       "de": "geflogen (er ist)",
-      "lv": "полетів"
+      "lv": "він полетів"
     }
   },
   {
     "infinitiv": {
       "de": "fliehen",
-      "lv": "тікати"
+      "lv": "тікати • втекти"
     },
     "praesens": {
       "de": "er flieht",
@@ -1154,15 +1154,15 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er floh",
-      "lv": "він утік"
+      "lv": "він тікав"
     },
     "imperfektKonjunktiv": {
       "de": "er flöhe",
-      "lv": "він би втік"
+      "lv": "він би тікав"
     },
     "partizipVergangenheit": {
       "de": "geflohen (er ist)",
-      "lv": "втік"
+      "lv": "він утік"
     }
   },
   {
@@ -1172,47 +1172,47 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er fließt",
-      "lv": "він біжить"
+      "lv": "він тече"
     },
     "imperfektIndikativ": {
       "de": "er floss",
-      "lv": "він побіг"
+      "lv": "він тік"
     },
     "imperfektKonjunktiv": {
       "de": "er flösse",
-      "lv": "він би побіг"
+      "lv": "він би тік"
     },
     "partizipVergangenheit": {
       "de": "geflossen (er ist)",
-      "lv": "пройшли"
+      "lv": "він тік"
     }
   },
   {
     "infinitiv": {
       "de": "fressen",
-      "lv": "їсти завтра"
+      "lv": "їсти • з’їсти / пожирати • пожерти"
     },
     "praesens": {
       "de": "er frisst",
-      "lv": "він їсть / ковтає"
+      "lv": "він їсть / пожирає"
     },
     "imperfektIndikativ": {
       "de": "er frass",
-      "lv": "він з'їв / проковтнув"
+      "lv": "він їв / пожирав"
     },
     "imperfektKonjunktiv": {
       "de": "er fräße",
-      "lv": "він би їв / снідав"
+      "lv": "він би їв / пожирав"
     },
     "partizipVergangenheit": {
       "de": "gefressen",
-      "lv": "з'їдено / ранок"
+      "lv": "з’їдений / пожертий"
     }
   },
   {
     "infinitiv": {
       "de": "frieren",
-      "lv": "холодний"
+      "lv": "мерзнути • змерзнути"
     },
     "praesens": {
       "de": "er friert",
@@ -1220,21 +1220,21 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er fror",
-      "lv": "він острів"
+      "lv": "він мерз"
     },
     "imperfektKonjunktiv": {
       "de": "er fröre",
-      "lv": "він мерз"
+      "lv": "він би мерз"
     },
     "partizipVergangenheit": {
       "de": "gefroren",
-      "lv": "острів"
+      "lv": "змерзлий"
     }
   },
   {
     "infinitiv": {
       "de": "geben",
-      "lv": "дарувати"
+      "lv": "давати • дати"
     },
     "praesens": {
       "de": "er gibt",
@@ -1242,43 +1242,43 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er gab",
-      "lv": "він дав"
+      "lv": "він давав"
     },
     "imperfektKonjunktiv": {
       "de": "er gäbe",
-      "lv": "він би дав"
+      "lv": "він би давав"
     },
     "partizipVergangenheit": {
       "de": "gegeben",
-      "lv": "дано"
+      "lv": "даний"
     }
   },
   {
     "infinitiv": {
       "de": "gedeihen",
-      "lv": "досягти успіху"
+      "lv": "процвітати"
     },
     "praesens": {
       "de": "er gedeiht",
-      "lv": "йому це вдається"
+      "lv": "він процвітає"
     },
     "imperfektIndikativ": {
       "de": "er gedieh",
-      "lv": "йому це вдалося"
+      "lv": "він процвітав"
     },
     "imperfektKonjunktiv": {
       "de": "er gediehe",
-      "lv": "йому б це вдалося"
+      "lv": "він би процвітав"
     },
     "partizipVergangenheit": {
       "de": "gediehen (er ist)",
-      "lv": "вдалося"
+      "lv": "він процвітав"
     }
   },
   {
     "infinitiv": {
       "de": "gehen",
-      "lv": "йти"
+      "lv": "іти • піти"
     },
     "praesens": {
       "de": "er geht",
@@ -1286,43 +1286,43 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er ging",
-      "lv": "він ходив"
+      "lv": "він ішов"
     },
     "imperfektKonjunktiv": {
       "de": "er ginge",
-      "lv": "він пішов би"
+      "lv": "він би йшов"
     },
     "partizipVergangenheit": {
       "de": "gegangen (er ist)",
-      "lv": "пішов"
+      "lv": "він пішов"
     }
   },
   {
     "infinitiv": {
       "de": "gewinnen",
-      "lv": "отримати"
+      "lv": "здобувати • здобути"
     },
     "praesens": {
       "de": "er gewinnt",
-      "lv": "він отримує"
+      "lv": "він здобуває"
     },
     "imperfektIndikativ": {
       "de": "er gewann",
-      "lv": "він отримав"
+      "lv": "він здобував"
     },
     "imperfektKonjunktiv": {
       "de": "er gewönne / er gewänne",
-      "lv": "він отримав би"
+      "lv": "він би здобував"
     },
     "partizipVergangenheit": {
       "de": "gewonnen",
-      "lv": "отримано"
+      "lv": "здобутий"
     }
   },
   {
     "infinitiv": {
       "de": "haben",
-      "lv": "бути / належати"
+      "lv": "мати"
     },
     "praesens": {
       "de": "er hat",
@@ -1330,25 +1330,25 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "hatte",
-      "lv": "був"
+      "lv": "він мав"
     },
     "imperfektKonjunktiv": {
       "de": "hatte",
-      "lv": "був"
+      "lv": "він би мав"
     },
     "partizipVergangenheit": {
       "de": "gehabt",
-      "lv": "був"
+      "lv": "він мав"
     }
   },
   {
     "infinitiv": {
       "de": "halten",
-      "lv": "утримувати"
+      "lv": "тримати"
     },
     "praesens": {
       "de": "er hält",
-      "lv": "він там"
+      "lv": "він тримає"
     },
     "imperfektIndikativ": {
       "de": "er hielt",
@@ -1360,35 +1360,35 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gehalten",
-      "lv": "проведено"
+      "lv": "триманий"
     }
   },
   {
     "infinitiv": {
       "de": "heißen",
-      "lv": "дзвонити"
+      "lv": "називати • назвати / зватися"
     },
     "praesens": {
       "de": "er heißt",
-      "lv": "він кличе / його кличуть"
+      "lv": "він називає / зветься"
     },
     "imperfektIndikativ": {
       "de": "er hieß",
-      "lv": "він дзвонив / його викликали"
+      "lv": "він називав / звався"
     },
     "imperfektKonjunktiv": {
       "de": "er hieße",
-      "lv": "він би подзвонив / йому б подзвонили"
+      "lv": "він би називав / звався"
     },
     "partizipVergangenheit": {
       "de": "geheißen",
-      "lv": "дзвонив"
+      "lv": "названий"
     }
   },
   {
     "infinitiv": {
       "de": "helfen",
-      "lv": "допомогти"
+      "lv": "допомагати • допомогти"
     },
     "praesens": {
       "de": "er hilft",
@@ -1396,21 +1396,21 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er half",
-      "lv": "він допоміг"
+      "lv": "він допомагав"
     },
     "imperfektKonjunktiv": {
       "de": "er hülfe / er hälfe",
-      "lv": "він би допоміг"
+      "lv": "він би допомагав"
     },
     "partizipVergangenheit": {
       "de": "geholfen",
-      "lv": "допоміг"
+      "lv": "він допоміг"
     }
   },
   {
     "infinitiv": {
       "de": "kommen",
-      "lv": "прийти"
+      "lv": "приходити • прийти"
     },
     "praesens": {
       "de": "er kommt",
@@ -1418,21 +1418,21 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er kam",
-      "lv": "він прийшов"
+      "lv": "він приходив"
     },
     "imperfektKonjunktiv": {
       "de": "er käme",
-      "lv": "він би прийшов"
+      "lv": "він би приходив"
     },
     "partizipVergangenheit": {
       "de": "gekommen (er ist)",
-      "lv": "прийшов"
+      "lv": "він прийшов"
     }
   },
   {
     "infinitiv": {
       "de": "können",
-      "lv": "вміти"
+      "lv": "могти • змогти"
     },
     "praesens": {
       "de": "er kann",
@@ -1440,87 +1440,87 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "konnte",
-      "lv": "міг би"
+      "lv": "він міг"
     },
     "imperfektKonjunktiv": {
       "de": "konnte",
-      "lv": "міг би"
+      "lv": "він би міг"
     },
     "partizipVergangenheit": {
       "de": "gekonnt",
-      "lv": "міг би"
+      "lv": "він міг"
     }
   },
   {
     "infinitiv": {
       "de": "kriechen",
-      "lv": "іде дощ"
+      "lv": "повзти"
     },
     "praesens": {
       "de": "er kriecht",
-      "lv": "він нахиляється"
+      "lv": "він повзе"
     },
     "imperfektIndikativ": {
       "de": "er kroch",
-      "lv": "він дощив"
+      "lv": "він повз"
     },
     "imperfektKonjunktiv": {
       "de": "er kröche",
-      "lv": "він дощ"
+      "lv": "він би повз"
     },
     "partizipVergangenheit": {
       "de": "gekrochen (er ist)",
-      "lv": "помер"
+      "lv": "він повз"
     }
   },
   {
     "infinitiv": {
       "de": "laden",
-      "lv": "kraut, запросити"
+      "lv": "вантажити • навантажити / запрошувати • запросити"
     },
     "praesens": {
       "de": "er lädt",
-      "lv": "він нагромаджує / запрошує"
+      "lv": "він вантажить / запрошує"
     },
     "imperfektIndikativ": {
       "de": "er lud",
-      "lv": "він загрузив / запросив"
+      "lv": "він вантажив / запрошував"
     },
     "imperfektKonjunktiv": {
       "de": "er lüde",
-      "lv": "він би завантажив / запросив"
+      "lv": "він би вантажив / запрошував"
     },
     "partizipVergangenheit": {
       "de": "geladen",
-      "lv": "завантажено / запрошено"
+      "lv": "навантажений / запрошений"
     }
   },
   {
     "infinitiv": {
       "de": "lassen",
-      "lv": "класти, пускати"
+      "lv": "наказувати • наказати / дозволяти • дозволити"
     },
     "praesens": {
       "de": "er lässt",
-      "lv": "він ставить / дозволяє"
+      "lv": "він наказує / дозволяє"
     },
     "imperfektIndikativ": {
       "de": "er ließ",
-      "lv": "він наказав / дозволив"
+      "lv": "він наказував / дозволяв"
     },
     "imperfektKonjunktiv": {
       "de": "er ließe",
-      "lv": "він би поставив / дозволив"
+      "lv": "він би наказував / дозволяв"
     },
     "partizipVergangenheit": {
       "de": "gelassen",
-      "lv": "поставити / дозволити"
+      "lv": "наказаний / дозволений"
     }
   },
   {
     "infinitiv": {
       "de": "laufen",
-      "lv": "бігти"
+      "lv": "бігти • побігти"
     },
     "praesens": {
       "de": "er läuft",
@@ -1528,15 +1528,15 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er lief",
-      "lv": "він побіг"
+      "lv": "він біг"
     },
     "imperfektKonjunktiv": {
       "de": "er liefe",
-      "lv": "він би побіг"
+      "lv": "він би біг"
     },
     "partizipVergangenheit": {
       "de": "gelaufen (er ist)",
-      "lv": "побіг"
+      "lv": "він побіг"
     }
   },
   {
@@ -1558,35 +1558,35 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gelitten",
-      "lv": "постраждав"
+      "lv": "він страждав"
     }
   },
   {
     "infinitiv": {
       "de": "leihen",
-      "lv": "позичати / позичати"
+      "lv": "позичати • позичити / брати • взяти в позику"
     },
     "praesens": {
       "de": "er leiht",
-      "lv": "він позичає / позичає"
+      "lv": "він позичає / бере в позику"
     },
     "imperfektIndikativ": {
       "de": "er lieh",
-      "lv": "він позичив / позичив"
+      "lv": "він позичав / брав у позику"
     },
     "imperfektKonjunktiv": {
       "de": "er liehe",
-      "lv": "він би позичив / позичив"
+      "lv": "він би позичав / брав у позику"
     },
     "partizipVergangenheit": {
       "de": "geliehen",
-      "lv": "позичений / позичений"
+      "lv": "позичений / взятий у позику"
     }
   },
   {
     "infinitiv": {
       "de": "lesen",
-      "lv": "читати"
+      "lv": "читати • прочитати"
     },
     "praesens": {
       "de": "er liest",
@@ -1598,39 +1598,39 @@ const VERB_ENTRIES = [
     },
     "imperfektKonjunktiv": {
       "de": "er läse",
-      "lv": "він читав би"
+      "lv": "він би читав"
     },
     "partizipVergangenheit": {
       "de": "gelesen",
-      "lv": "читати"
+      "lv": "прочитаний"
     }
   },
   {
     "infinitiv": {
       "de": "liegen",
-      "lv": "спати"
+      "lv": "лежати"
     },
     "praesens": {
       "de": "er liegt",
-      "lv": "він спить"
+      "lv": "він лежить"
     },
     "imperfektIndikativ": {
       "de": "er lag",
-      "lv": "він спав"
+      "lv": "він лежав"
     },
     "imperfektKonjunktiv": {
       "de": "er läge",
-      "lv": "він спав би"
+      "lv": "він би лежав"
     },
     "partizipVergangenheit": {
       "de": "gelegen",
-      "lv": "спав"
+      "lv": "він лежав"
     }
   },
   {
     "infinitiv": {
       "de": "lügen",
-      "lv": "брехати"
+      "lv": "брехати • збрехати"
     },
     "praesens": {
       "de": "er lügt",
@@ -1638,21 +1638,21 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er log",
-      "lv": "він збрехав"
+      "lv": "він брехав"
     },
     "imperfektKonjunktiv": {
       "de": "er löge",
-      "lv": "він би збрехав"
+      "lv": "він би брехав"
     },
     "partizipVergangenheit": {
       "de": "gelogen",
-      "lv": "збрехав"
+      "lv": "він збрехав"
     }
   },
   {
     "infinitiv": {
       "de": "mahlen",
-      "lv": "землю"
+      "lv": "молоти • змолоти"
     },
     "praesens": {
       "de": "er mahlt",
@@ -1660,21 +1660,21 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er mahlte",
-      "lv": "він краю"
+      "lv": "він молов"
     },
     "imperfektKonjunktiv": {
       "de": "er malte",
-      "lv": "він меле"
+      "lv": "він би молов"
     },
     "partizipVergangenheit": {
       "de": "gemahlen",
-      "lv": "землю"
+      "lv": "змелений"
     }
   },
   {
     "infinitiv": {
       "de": "meiden",
-      "lv": "уникнути"
+      "lv": "уникати • уникнути"
     },
     "praesens": {
       "de": "er meidet",
@@ -1690,21 +1690,21 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gemieden",
-      "lv": "уникнути"
+      "lv": "він уникнув"
     }
   },
   {
     "infinitiv": {
       "de": "melken",
-      "lv": "доїти"
+      "lv": "доїти • подоїти"
     },
     "praesens": {
       "de": "er milkt / er melkt",
-      "lv": "він підмітає"
+      "lv": "він доїть"
     },
     "imperfektIndikativ": {
       "de": "er molk / er melkte",
-      "lv": "він підмітав"
+      "lv": "він доїв"
     },
     "imperfektKonjunktiv": {
       "de": "er mölke / er melkte",
@@ -1712,21 +1712,21 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gemolken / gemelkt",
-      "lv": "доїли"
+      "lv": "видоєний"
     }
   },
   {
     "infinitiv": {
       "de": "messen",
-      "lv": "вимірювати"
+      "lv": "вимірювати • виміряти"
     },
     "praesens": {
       "de": "er misst",
-      "lv": "він міряє"
+      "lv": "він вимірює"
     },
     "imperfektIndikativ": {
       "de": "er mass",
-      "lv": "він міряв"
+      "lv": "він вимірював"
     },
     "imperfektKonjunktiv": {
       "de": "er mäße",
@@ -1734,35 +1734,35 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gemessen",
-      "lv": "вимірюваний"
+      "lv": "виміряний"
     }
   },
   {
     "infinitiv": {
       "de": "misslingen",
-      "lv": "провалитися"
+      "lv": "не вдаватися • не вдатися"
     },
     "praesens": {
       "de": "es misslingt",
-      "lv": "це не вдається"
+      "lv": "воно не вдається"
     },
     "imperfektIndikativ": {
       "de": "misslang",
-      "lv": "не вдалося"
+      "lv": "воно не вдавалося"
     },
     "imperfektKonjunktiv": {
       "de": "misslang",
-      "lv": "не вдалося"
+      "lv": "воно б не вдавалося"
     },
     "partizipVergangenheit": {
       "de": "misslungen",
-      "lv": "не вдалося"
+      "lv": "воно не вдалося"
     }
   },
   {
     "infinitiv": {
       "de": "mögen",
-      "lv": "подобатися"
+      "lv": "подобатися • сподобатися"
     },
     "praesens": {
       "de": "er mag",
@@ -1770,43 +1770,43 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "mochte",
-      "lv": "сподобалось"
+      "lv": "йому подобалося"
     },
     "imperfektKonjunktiv": {
       "de": "mochte",
-      "lv": "сподобалось"
+      "lv": "йому б подобалося"
     },
     "partizipVergangenheit": {
       "de": "gemocht",
-      "lv": "сподобався"
+      "lv": "йому сподобалося"
     }
   },
   {
     "infinitiv": {
       "de": "müssen",
-      "lv": "потребувати"
+      "lv": "мусити"
     },
     "praesens": {
       "de": "er muss",
-      "lv": "йому потрібно"
+      "lv": "він мусить"
     },
     "imperfektIndikativ": {
       "de": "musste",
-      "lv": "повинен мати"
+      "lv": "він мусив"
     },
     "imperfektKonjunktiv": {
       "de": "musste",
-      "lv": "повинен мати"
+      "lv": "він би мусив"
     },
     "partizipVergangenheit": {
       "de": "gemusst",
-      "lv": "необхідний"
+      "lv": "він мусив"
     }
   },
   {
     "infinitiv": {
       "de": "nehmen",
-      "lv": "брати"
+      "lv": "брати • взяти"
     },
     "praesens": {
       "de": "er nimmt",
@@ -1814,33 +1814,33 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er nahm",
-      "lv": "він взяв"
+      "lv": "він брав"
     },
     "imperfektKonjunktiv": {
       "de": "er nähme",
-      "lv": "він би взяв"
+      "lv": "він би брав"
     },
     "partizipVergangenheit": {
       "de": "genommen",
-      "lv": "взято"
+      "lv": "взятий"
     }
   },
   {
     "infinitiv": {
       "de": "nennen",
-      "lv": "називати"
+      "lv": "називати • назвати"
     },
     "praesens": {
       "de": "er nennt",
-      "lv": "він назвав"
+      "lv": "він називає"
     },
     "imperfektIndikativ": {
       "de": "er nannte",
-      "lv": "він закликав"
+      "lv": "він називав"
     },
     "imperfektKonjunktiv": {
       "de": "er nennte",
-      "lv": "він назвав би"
+      "lv": "він би називав"
     },
     "partizipVergangenheit": {
       "de": "genannt",
@@ -1858,33 +1858,33 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er pfiff",
-      "lv": "він свиснув"
+      "lv": "він свистів"
     },
     "imperfektKonjunktiv": {
       "de": "er pfiffe",
-      "lv": "він свиснув би"
+      "lv": "він би свистів"
     },
     "partizipVergangenheit": {
       "de": "gepfiffen",
-      "lv": "свистів"
+      "lv": "він свистів"
     }
   },
   {
     "infinitiv": {
       "de": "pflegen",
-      "lv": "підтримувати"
+      "lv": "доглядати • доглянути"
     },
     "praesens": {
       "de": "er pflegt",
-      "lv": "він піклується"
+      "lv": "він доглядає"
     },
     "imperfektIndikativ": {
       "de": "pflegte / pflog",
-      "lv": "встановити"
+      "lv": "він доглядав"
     },
     "imperfektKonjunktiv": {
       "de": "pflegte / pflog",
-      "lv": "встановити"
+      "lv": "він би доглядав"
     },
     "partizipVergangenheit": {
       "de": "gepflegt / gepflogen",
@@ -1894,7 +1894,7 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "preisen",
-      "lv": "похвала"
+      "lv": "хвалити • похвалити"
     },
     "praesens": {
       "de": "er preist",
@@ -1902,7 +1902,7 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er pries",
-      "lv": "— похвалив він"
+      "lv": "він хвалив"
     },
     "imperfektKonjunktiv": {
       "de": "er priese",
@@ -1910,51 +1910,51 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gepriesen",
-      "lv": "хвалив"
+      "lv": "похвалений"
     }
   },
   {
     "infinitiv": {
       "de": "quellen",
-      "lv": "повніти"
+      "lv": "набухати • набухнути"
     },
     "praesens": {
       "de": "er quillt",
-      "lv": "він товстіє"
+      "lv": "він набухає"
     },
     "imperfektIndikativ": {
       "de": "er quoll",
-      "lv": "він дозрів"
+      "lv": "він набухав"
     },
     "imperfektKonjunktiv": {
       "de": "er quölle",
-      "lv": "він товстий"
+      "lv": "він би набухав"
     },
     "partizipVergangenheit": {
       "de": "gequollen (er ist)",
-      "lv": "набряклі"
+      "lv": "набухлий"
     }
   },
   {
     "infinitiv": {
       "de": "raten",
-      "lv": "запропонувати / згадати"
+      "lv": "радити • порадити / відгадувати • відгадати"
     },
     "praesens": {
       "de": "er rät",
-      "lv": "він рекомендує / хв"
+      "lv": "він радить / відгадує"
     },
     "imperfektIndikativ": {
       "de": "er riet",
-      "lv": "він запропонував / запропонував"
+      "lv": "він радив / відгадував"
     },
     "imperfektKonjunktiv": {
       "de": "er riete",
-      "lv": "він запропонував би / згадав"
+      "lv": "він би радив / відгадував"
     },
     "partizipVergangenheit": {
       "de": "geraten",
-      "lv": "запропоновано / згадано"
+      "lv": "він порадив / відгаданий"
     }
   },
   {
@@ -1968,7 +1968,7 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er rieb",
-      "lv": "він тре"
+      "lv": "він тер"
     },
     "imperfektKonjunktiv": {
       "de": "er riebe",
@@ -1976,25 +1976,25 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gerieben",
-      "lv": "натертий"
+      "lv": "тертий"
     }
   },
   {
     "infinitiv": {
       "de": "reißen",
-      "lv": "тягнути"
+      "lv": "рвати • порвати"
     },
     "praesens": {
       "de": "er reißt",
-      "lv": "— кидається він"
+      "lv": "він рве"
     },
     "imperfektIndikativ": {
       "de": "er riss",
-      "lv": "— огризнувся він"
+      "lv": "він рвав"
     },
     "imperfektKonjunktiv": {
       "de": "er risse",
-      "lv": "— огризнувся він"
+      "lv": "він би рвав"
     },
     "partizipVergangenheit": {
       "de": "gerissen",
@@ -2004,29 +2004,29 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "reiten",
-      "lv": "їздити"
+      "lv": "їздити верхи"
     },
     "praesens": {
       "de": "er reitet",
-      "lv": "він їздить"
+      "lv": "він їздить верхи"
     },
     "imperfektIndikativ": {
       "de": "er ritt",
-      "lv": "він їхав"
+      "lv": "він їздив верхи"
     },
     "imperfektKonjunktiv": {
       "de": "er ritte",
-      "lv": "він би їздив"
+      "lv": "він би їздив верхи"
     },
     "partizipVergangenheit": {
       "de": "geritten (er ist)",
-      "lv": "їхав"
+      "lv": "він їздив верхи"
     }
   },
   {
     "infinitiv": {
       "de": "rennen",
-      "lv": "бігти"
+      "lv": "бігти • побігти"
     },
     "praesens": {
       "de": "er rennt",
@@ -2034,59 +2034,59 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er rannte",
-      "lv": "він побіг"
+      "lv": "він біг"
     },
     "imperfektKonjunktiv": {
       "de": "er rennte",
-      "lv": "він би побіг"
+      "lv": "він би біг"
     },
     "partizipVergangenheit": {
       "de": "gerannt",
-      "lv": "побіг"
+      "lv": "він побіг"
     }
   },
   {
     "infinitiv": {
       "de": "riechen",
-      "lv": "ост"
+      "lv": "нюхати • понюхати"
     },
     "praesens": {
       "de": "er riecht",
-      "lv": "він пахне"
+      "lv": "він нюхає"
     },
     "imperfektIndikativ": {
       "de": "er roch",
-      "lv": "він співає"
+      "lv": "він нюхав"
     },
     "imperfektKonjunktiv": {
       "de": "er röche",
-      "lv": "він порт"
+      "lv": "він би нюхав"
     },
     "partizipVergangenheit": {
       "de": "gerochen",
-      "lv": "порт"
+      "lv": "він понюхав"
     }
   },
   {
     "infinitiv": {
       "de": "ringen",
-      "lv": "зламати"
+      "lv": "боротися"
     },
     "praesens": {
       "de": "er ringt",
-      "lv": "він ламається"
+      "lv": "він бореться"
     },
     "imperfektIndikativ": {
       "de": "er rang",
-      "lv": "він зламався"
+      "lv": "він боровся"
     },
     "imperfektKonjunktiv": {
       "de": "er ränge",
-      "lv": "він би зламався"
+      "lv": "він би боровся"
     },
     "partizipVergangenheit": {
       "de": "gerungen",
-      "lv": "чекати"
+      "lv": "він боровся"
     }
   },
   {
@@ -2096,85 +2096,85 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er rinnt",
-      "lv": "він біжить"
+      "lv": "він тече"
     },
     "imperfektIndikativ": {
       "de": "er rann",
-      "lv": "він побіг"
+      "lv": "він тік"
     },
     "imperfektKonjunktiv": {
       "de": "er ränne / er rönne",
-      "lv": "він би побіг"
+      "lv": "він би тік"
     },
     "partizipVergangenheit": {
       "de": "geronnen (er ist)",
-      "lv": "текла / згорталася"
+      "lv": "він тік"
     }
   },
   {
     "infinitiv": {
       "de": "rufen",
-      "lv": "дзвонити"
+      "lv": "кликати • покликати"
     },
     "praesens": {
       "de": "er ruft",
-      "lv": "він дзвонить"
+      "lv": "він кличе"
     },
     "imperfektIndikativ": {
       "de": "er rief",
-      "lv": "він закликав"
+      "lv": "він кликав"
     },
     "imperfektKonjunktiv": {
       "de": "er riefe",
-      "lv": "він подзвонить"
+      "lv": "він би кликав"
     },
     "partizipVergangenheit": {
       "de": "gerufen",
-      "lv": "дзвонив"
+      "lv": "покликаний"
     }
   },
   {
     "infinitiv": {
       "de": "salzen",
-      "lv": "посолити"
+      "lv": "солити • посолити"
     },
     "praesens": {
       "de": "er salzt",
-      "lv": "він посолив"
+      "lv": "він солить"
     },
     "imperfektIndikativ": {
       "de": "er salzte",
-      "lv": "він посолив"
+      "lv": "він солив"
     },
     "imperfektKonjunktiv": {
       "de": "er salzte",
-      "lv": "він би посолив"
+      "lv": "він би солив"
     },
     "partizipVergangenheit": {
       "de": "gesalzen",
-      "lv": "солені"
+      "lv": "посолений"
     }
   },
   {
     "infinitiv": {
       "de": "saufen",
-      "lv": "сушити / пити"
+      "lv": "пиячити / пити • випити"
     },
     "praesens": {
       "de": "er säuft",
-      "lv": "він п'є / п'є"
+      "lv": "він пиячить / п’є"
     },
     "imperfektIndikativ": {
       "de": "er soff",
-      "lv": "він випив / випив"
+      "lv": "він пиячив / пив"
     },
     "imperfektKonjunktiv": {
       "de": "er söffe",
-      "lv": "він би пив / пив"
+      "lv": "він би пиячив / пив"
     },
     "partizipVergangenheit": {
       "de": "gesoffen",
-      "lv": "п'яний"
+      "lv": "випитий"
     }
   },
   {
@@ -2196,13 +2196,13 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gesogen",
-      "lv": "смоктати"
+      "lv": "висмоктаний"
     }
   },
   {
     "infinitiv": {
       "de": "schaffen",
-      "lv": "створювати"
+      "lv": "створювати • створити"
     },
     "praesens": {
       "de": "er schafft",
@@ -2210,11 +2210,11 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er schuf",
-      "lv": "він створив"
+      "lv": "він створював"
     },
     "imperfektKonjunktiv": {
       "de": "er schüfe",
-      "lv": "він би створив"
+      "lv": "він би створював"
     },
     "partizipVergangenheit": {
       "de": "geschaffen",
@@ -2224,51 +2224,51 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "schallen",
-      "lv": "звучати"
+      "lv": "лунати • пролунати"
     },
     "praesens": {
       "de": "es schallt",
-      "lv": "це звучить"
+      "lv": "воно лунає"
     },
     "imperfektIndikativ": {
       "de": "schallte / scholl",
-      "lv": "прозвучало"
+      "lv": "воно лунало"
     },
     "imperfektKonjunktiv": {
       "de": "schallte / scholl",
-      "lv": "прозвучало"
+      "lv": "воно б лунало"
     },
     "partizipVergangenheit": {
       "de": "geschallt",
-      "lv": "прозвучало"
+      "lv": "воно пролунало"
     }
   },
   {
     "infinitiv": {
       "de": "scheiden",
-      "lv": "розлучення / розлучення"
+      "lv": "розлучати • розлучити / розлучатися • розлучитися"
     },
     "praesens": {
       "de": "er scheidet",
-      "lv": "він розлучається / розлучається"
+      "lv": "він розлучає / розлучається"
     },
     "imperfektIndikativ": {
       "de": "er schied",
-      "lv": "він розлучився / розлучився"
+      "lv": "він розлучав / розлучався"
     },
     "imperfektKonjunktiv": {
       "de": "er schiede",
-      "lv": "він би розлучився / розлучився"
+      "lv": "він би розлучав / розлучався"
     },
     "partizipVergangenheit": {
       "de": "geschieden (er hat / er ist)",
-      "lv": "розділений / розлучений"
+      "lv": "розлучений"
     }
   },
   {
     "infinitiv": {
       "de": "scheinen",
-      "lv": "сяяти / з'являтися"
+      "lv": "світити / здаватися"
     },
     "praesens": {
       "de": "er scheint",
@@ -2276,87 +2276,87 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er schien",
-      "lv": "він сяяв / здавався"
+      "lv": "він світив / здавався"
     },
     "imperfektKonjunktiv": {
       "de": "er schiene",
-      "lv": "він би світив / здався"
+      "lv": "він би світив / здавався"
     },
     "partizipVergangenheit": {
       "de": "geschienen",
-      "lv": "сяяв / здавався"
+      "lv": "він світив / здавався"
     }
   },
   {
     "infinitiv": {
       "de": "schelten",
-      "lv": "барт"
+      "lv": "лаяти • вилаяти"
     },
     "praesens": {
       "de": "er schilt",
-      "lv": "він bar"
+      "lv": "він лає"
     },
     "imperfektIndikativ": {
       "de": "er schalt",
-      "lv": "він заборонив"
+      "lv": "він лаяв"
     },
     "imperfektKonjunktiv": {
       "de": "er schölte / er schälte",
-      "lv": "він голиться"
+      "lv": "він би лаяв"
     },
     "partizipVergangenheit": {
       "de": "gescholten",
-      "lv": "борода"
+      "lv": "вилаяний"
     }
   },
   {
     "infinitiv": {
       "de": "scheren",
-      "lv": "різати"
+      "lv": "стригти • обстригти"
     },
     "praesens": {
       "de": "er schert",
-      "lv": "він ріже"
+      "lv": "він стриже"
     },
     "imperfektIndikativ": {
       "de": "schor / scherte",
-      "lv": "ножиці"
+      "lv": "він стриг"
     },
     "imperfektKonjunktiv": {
       "de": "schor / scherte",
-      "lv": "ножиці"
+      "lv": "він би стриг"
     },
     "partizipVergangenheit": {
       "de": "geschoren / geschert",
-      "lv": "обрізаний"
+      "lv": "обстрижений"
     }
   },
   {
     "infinitiv": {
       "de": "schieben",
-      "lv": "штовхати"
+      "lv": "посувати • посунути"
     },
     "praesens": {
       "de": "er schiebt",
-      "lv": "він штовхає"
+      "lv": "він посуває"
     },
     "imperfektIndikativ": {
       "de": "er schob",
-      "lv": "штовхнув він"
+      "lv": "він посував"
     },
     "imperfektKonjunktiv": {
       "de": "er schöbe",
-      "lv": "він буде штовхати"
+      "lv": "він би посував"
     },
     "partizipVergangenheit": {
       "de": "geschoben",
-      "lv": "штовхнув"
+      "lv": "посунутий"
     }
   },
   {
     "infinitiv": {
       "de": "schießen",
-      "lv": "стріляти"
+      "lv": "стріляти • вистрілити"
     },
     "praesens": {
       "de": "er schießt",
@@ -2364,7 +2364,7 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er schoss",
-      "lv": "він вистрілив"
+      "lv": "він стріляв"
     },
     "imperfektKonjunktiv": {
       "de": "er schösse",
@@ -2372,13 +2372,13 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "geschossen",
-      "lv": "постріл"
+      "lv": "вистрілений"
     }
   },
   {
     "infinitiv": {
       "de": "schinden",
-      "lv": "мучити"
+      "lv": "мучити • замучити"
     },
     "praesens": {
       "de": "er schindet",
@@ -2386,15 +2386,15 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "schindete",
-      "lv": "мучився"
+      "lv": "він мучив"
     },
     "imperfektKonjunktiv": {
       "de": "schindete",
-      "lv": "мучився"
+      "lv": "він би мучив"
     },
     "partizipVergangenheit": {
       "de": "geschunden",
-      "lv": "мучився"
+      "lv": "замучений"
     }
   },
   {
@@ -2412,29 +2412,29 @@ const VERB_ENTRIES = [
     },
     "imperfektKonjunktiv": {
       "de": "er schliefe",
-      "lv": "він спав би"
+      "lv": "він би спав"
     },
     "partizipVergangenheit": {
       "de": "geschlafen",
-      "lv": "спав"
+      "lv": "він спав"
     }
   },
   {
     "infinitiv": {
       "de": "schlagen",
-      "lv": "удар"
+      "lv": "бити • побити"
     },
     "praesens": {
       "de": "er schlägt",
-      "lv": "він б'є"
+      "lv": "він б’є"
     },
     "imperfektIndikativ": {
       "de": "er schlug",
-      "lv": "він ударив"
+      "lv": "він бив"
     },
     "imperfektKonjunktiv": {
       "de": "er schlüge",
-      "lv": "він би вдарив"
+      "lv": "він би бив"
     },
     "partizipVergangenheit": {
       "de": "geschlagen",
@@ -2444,73 +2444,73 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "schleichen",
-      "lv": "іде дощ"
+      "lv": "крастися"
     },
     "praesens": {
       "de": "er schleicht",
-      "lv": "він нахиляється"
+      "lv": "він крадеться"
     },
     "imperfektIndikativ": {
       "de": "er schlich",
-      "lv": "він дощив"
+      "lv": "він крався"
     },
     "imperfektKonjunktiv": {
       "de": "er schliche",
-      "lv": "він дощ"
+      "lv": "він би крався"
     },
     "partizipVergangenheit": {
       "de": "geschlichen (er ist)",
-      "lv": "помер"
+      "lv": "він крався"
     }
   },
   {
     "infinitiv": {
       "de": "schleifen",
-      "lv": "розтирати"
+      "lv": "шліфувати • відшліфувати"
     },
     "praesens": {
       "de": "er schleift",
-      "lv": "він меле"
+      "lv": "він шліфує"
     },
     "imperfektIndikativ": {
       "de": "er schliff",
-      "lv": "— змолов він"
+      "lv": "він шліфував"
     },
     "imperfektKonjunktiv": {
       "de": "er schliffe",
-      "lv": "він би змолов"
+      "lv": "він би шліфував"
     },
     "partizipVergangenheit": {
       "de": "geschliffen",
-      "lv": "полірований"
+      "lv": "відшліфований"
     }
   },
   {
     "infinitiv": {
       "de": "schließen",
-      "lv": "закрити"
+      "lv": "зачиняти • зачинити"
     },
     "praesens": {
       "de": "er schließt",
-      "lv": "він закриває"
+      "lv": "він зачиняє"
     },
     "imperfektIndikativ": {
       "de": "er schloss",
-      "lv": "він закрився"
+      "lv": "він зачиняв"
     },
     "imperfektKonjunktiv": {
       "de": "er schlösse",
-      "lv": "він би закрився"
+      "lv": "він би зачиняв"
     },
     "partizipVergangenheit": {
       "de": "geschlossen",
-      "lv": "ЗАЧИНЕНО"
+      "lv": "зачинений"
     }
   },
   {
     "infinitiv": {
       "de": "schlingen",
-      "lv": "завтра"
+      "lv": "ковтати • проковтнути"
     },
     "praesens": {
       "de": "er schlingt",
@@ -2518,33 +2518,33 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er schlang",
-      "lv": "він проковтнув"
+      "lv": "він ковтав"
     },
     "imperfektKonjunktiv": {
       "de": "er schlänge",
-      "lv": "він ранок"
+      "lv": "він би ковтав"
     },
     "partizipVergangenheit": {
       "de": "geschlungen",
-      "lv": "ранок"
+      "lv": "проковтнутий"
     }
   },
   {
     "infinitiv": {
       "de": "schmeißen",
-      "lv": "кинути"
+      "lv": "кидати • кинути"
     },
     "praesens": {
       "de": "er schmeißt",
-      "lv": "кидає він"
+      "lv": "він кидає"
     },
     "imperfektIndikativ": {
       "de": "er schmiss",
-      "lv": "— кинув він"
+      "lv": "він кидав"
     },
     "imperfektKonjunktiv": {
       "de": "er schmisse",
-      "lv": "— кинув він"
+      "lv": "він би кидав"
     },
     "partizipVergangenheit": {
       "de": "geschmissen",
@@ -2554,7 +2554,7 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "schmelzen",
-      "lv": "переміщення"
+      "lv": "танути • розтанути"
     },
     "praesens": {
       "de": "er schmilzt",
@@ -2562,21 +2562,21 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er schmolz",
-      "lv": "— простогнав він"
+      "lv": "він танув"
     },
     "imperfektKonjunktiv": {
       "de": "er schmölze",
-      "lv": "він рухався"
+      "lv": "він би танув"
     },
     "partizipVergangenheit": {
       "de": "geschmolzen (er ist)",
-      "lv": "розплавлений"
+      "lv": "розталий"
     }
   },
   {
     "infinitiv": {
       "de": "schnauben",
-      "lv": "шипіти"
+      "lv": "пирхати • пирхнути"
     },
     "praesens": {
       "de": "er schnaubt",
@@ -2584,25 +2584,25 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "schnaubte / schnob",
-      "lv": "пирхнув"
+      "lv": "він пирхав"
     },
     "imperfektKonjunktiv": {
       "de": "schnaubte / schnob",
-      "lv": "пирхнув"
+      "lv": "він би пирхав"
     },
     "partizipVergangenheit": {
       "de": "geschnaubt / geschnoben",
-      "lv": "пирхати"
+      "lv": "він пирхнув"
     }
   },
   {
     "infinitiv": {
       "de": "schneiden",
-      "lv": "різати"
+      "lv": "різати • порізати"
     },
     "praesens": {
       "de": "er schneidet",
-      "lv": "він крутиться"
+      "lv": "він ріже"
     },
     "imperfektIndikativ": {
       "de": "er schnitt",
@@ -2610,29 +2610,29 @@ const VERB_ENTRIES = [
     },
     "imperfektKonjunktiv": {
       "de": "er schnitte",
-      "lv": "він би вирізав"
+      "lv": "він би різав"
     },
     "partizipVergangenheit": {
       "de": "geschnitten",
-      "lv": "вирізати"
+      "lv": "порізаний"
     }
   },
   {
     "infinitiv": {
       "de": "schreiben",
-      "lv": "писати"
+      "lv": "писати • написати"
     },
     "praesens": {
       "de": "er schreibt",
-      "lv": "пише він"
+      "lv": "він пише"
     },
     "imperfektIndikativ": {
       "de": "er schrieb",
-      "lv": "— написав він"
+      "lv": "він писав"
     },
     "imperfektKonjunktiv": {
       "de": "er schriebe",
-      "lv": "він писав би"
+      "lv": "він би писав"
     },
     "partizipVergangenheit": {
       "de": "geschrieben",
@@ -2646,41 +2646,41 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er schreit",
-      "lv": "— кричить він"
+      "lv": "він кричить"
     },
     "imperfektIndikativ": {
       "de": "er schrie",
-      "lv": "— закричав він"
+      "lv": "він кричав"
     },
     "imperfektKonjunktiv": {
       "de": "er schriee",
-      "lv": "— кричав би він"
+      "lv": "він би кричав"
     },
     "partizipVergangenheit": {
       "de": "geschrien",
-      "lv": "кричав"
+      "lv": "він кричав"
     }
   },
   {
     "infinitiv": {
       "de": "schreiten",
-      "lv": "ходьба"
+      "lv": "крокувати"
     },
     "praesens": {
       "de": "er schreitet",
-      "lv": "він гуляє"
+      "lv": "він крокує"
     },
     "imperfektIndikativ": {
       "de": "er schritt",
-      "lv": "він йшов"
+      "lv": "він крокував"
     },
     "imperfektKonjunktiv": {
       "de": "er schritte",
-      "lv": "він би ходив"
+      "lv": "він би крокував"
     },
     "partizipVergangenheit": {
       "de": "geschritten (er ist)",
-      "lv": "ходили"
+      "lv": "він крокував"
     }
   },
   {
@@ -2702,29 +2702,29 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "geschwiegen",
-      "lv": "замовкли"
+      "lv": "він мовчав"
     }
   },
   {
     "infinitiv": {
       "de": "schwellen",
-      "lv": "памп"
+      "lv": "пухнути • спухнути"
     },
     "praesens": {
       "de": "er schwillt",
-      "lv": "він дується"
+      "lv": "він пухне"
     },
     "imperfektIndikativ": {
       "de": "er schwoll",
-      "lv": "він пампас"
+      "lv": "він пух"
     },
     "imperfektKonjunktiv": {
       "de": "er schwölle",
-      "lv": "він би насос"
+      "lv": "він би пух"
     },
     "partizipVergangenheit": {
       "de": "geschwollen (er ist)",
-      "lv": "насос"
+      "lv": "спухлий"
     }
   },
   {
@@ -2742,17 +2742,17 @@ const VERB_ENTRIES = [
     },
     "imperfektKonjunktiv": {
       "de": "er schwömme / er schwämme",
-      "lv": "він би поплив"
+      "lv": "він би плавав"
     },
     "partizipVergangenheit": {
       "de": "geschwommen (er ist)",
-      "lv": "плавав"
+      "lv": "він плавав"
     }
   },
   {
     "infinitiv": {
       "de": "schwinden",
-      "lv": "зникнути"
+      "lv": "зникати • зникнути"
     },
     "praesens": {
       "de": "er schwindet",
@@ -2760,65 +2760,65 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er schwand",
-      "lv": "він зник"
+      "lv": "він зникав"
     },
     "imperfektKonjunktiv": {
       "de": "er schwände",
-      "lv": "він би зник"
+      "lv": "він би зникав"
     },
     "partizipVergangenheit": {
       "de": "geschwunden (er ist)",
-      "lv": "втрачено"
+      "lv": "зниклий"
     }
   },
   {
     "infinitiv": {
       "de": "schwingen",
-      "lv": "хвиля"
+      "lv": "махати • помахати"
     },
     "praesens": {
       "de": "er schwingt",
-      "lv": "він махає рукою"
+      "lv": "він махає"
     },
     "imperfektIndikativ": {
       "de": "er schwang",
-      "lv": "— махнув він рукою"
+      "lv": "він махав"
     },
     "imperfektKonjunktiv": {
       "de": "er schwänge",
-      "lv": "він би помахав"
+      "lv": "він би махав"
     },
     "partizipVergangenheit": {
       "de": "geschwungen",
-      "lv": "помахав"
+      "lv": "він помахав"
     }
   },
   {
     "infinitiv": {
       "de": "schwören",
-      "lv": "лаятися"
+      "lv": "присягати • присягнути"
     },
     "praesens": {
       "de": "er schwört",
-      "lv": "— лається він"
+      "lv": "він присягає"
     },
     "imperfektIndikativ": {
       "de": "er schwur / er schwor",
-      "lv": "— вилаявся він"
+      "lv": "він присягав"
     },
     "imperfektKonjunktiv": {
       "de": "er schwöre",
-      "lv": "він би лаявся"
+      "lv": "він би присягав"
     },
     "partizipVergangenheit": {
       "de": "geschworen",
-      "lv": "присяжний"
+      "lv": "він присягнув"
     }
   },
   {
     "infinitiv": {
       "de": "sehen",
-      "lv": "побачити"
+      "lv": "бачити • побачити"
     },
     "praesens": {
       "de": "er sieht",
@@ -2830,11 +2830,11 @@ const VERB_ENTRIES = [
     },
     "imperfektKonjunktiv": {
       "de": "er sähe",
-      "lv": "він би побачив"
+      "lv": "він би бачив"
     },
     "partizipVergangenheit": {
       "de": "gesehen",
-      "lv": "бачив"
+      "lv": "побачений"
     }
   },
   {
@@ -2848,65 +2848,65 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "war",
-      "lv": "був"
+      "lv": "він був"
     },
     "imperfektKonjunktiv": {
       "de": "war",
-      "lv": "був"
+      "lv": "він би був"
     },
     "partizipVergangenheit": {
       "de": "gewesen",
-      "lv": "був"
+      "lv": "він був"
     }
   },
   {
     "infinitiv": {
       "de": "senden",
-      "lv": "відправити"
+      "lv": "надсилати • надіслати"
     },
     "praesens": {
       "de": "er sendet",
-      "lv": "він посилає"
+      "lv": "він надсилає"
     },
     "imperfektIndikativ": {
       "de": "er sandte / er sendete",
-      "lv": "він послав"
+      "lv": "він надсилав"
     },
     "imperfektKonjunktiv": {
       "de": "er sendete",
-      "lv": "він би послав"
+      "lv": "він би надсилав"
     },
     "partizipVergangenheit": {
       "de": "gesandt / gesendet",
-      "lv": "надіслано"
+      "lv": "надісланий"
     }
   },
   {
     "infinitiv": {
       "de": "sieden",
-      "lv": "варити"
+      "lv": "варити • зварити"
     },
     "praesens": {
       "de": "er siedet",
-      "lv": "він готує"
+      "lv": "він варить"
     },
     "imperfektIndikativ": {
       "de": "sott / siedete",
-      "lv": "приготований"
+      "lv": "він варив"
     },
     "imperfektKonjunktiv": {
       "de": "sott / siedete",
-      "lv": "приготований"
+      "lv": "він би варив"
     },
     "partizipVergangenheit": {
       "de": "gesotten / gesiedet",
-      "lv": "варені"
+      "lv": "зварений"
     }
   },
   {
     "infinitiv": {
       "de": "singen",
-      "lv": "співати"
+      "lv": "співати • заспівати"
     },
     "praesens": {
       "de": "er singt",
@@ -2918,17 +2918,17 @@ const VERB_ENTRIES = [
     },
     "imperfektKonjunktiv": {
       "de": "er sänge",
-      "lv": "він співав би"
+      "lv": "він би співав"
     },
     "partizipVergangenheit": {
       "de": "gesungen",
-      "lv": "заспівана"
+      "lv": "заспіваний"
     }
   },
   {
     "infinitiv": {
       "de": "sinken",
-      "lv": "тонути"
+      "lv": "тонути • потонути"
     },
     "praesens": {
       "de": "er sinkt",
@@ -2936,37 +2936,37 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er sank",
-      "lv": "він складав"
+      "lv": "він тонув"
     },
     "imperfektKonjunktiv": {
       "de": "er sänke",
-      "lv": "він би потонув"
+      "lv": "він би тонув"
     },
     "partizipVergangenheit": {
       "de": "gesunken (er ist)",
-      "lv": "макіяж"
+      "lv": "потонулий"
     }
   },
   {
     "infinitiv": {
       "de": "sinnen",
-      "lv": "дивуватися"
+      "lv": "міркувати"
     },
     "praesens": {
       "de": "er sinnt",
-      "lv": "дивується він"
+      "lv": "він міркує"
     },
     "imperfektIndikativ": {
       "de": "er sann",
-      "lv": "— дивувався він"
+      "lv": "він міркував"
     },
     "imperfektKonjunktiv": {
       "de": "er sönne / er sänne",
-      "lv": "він буде дивуватися"
+      "lv": "він би міркував"
     },
     "partizipVergangenheit": {
       "de": "gesonnen",
-      "lv": "налаштований"
+      "lv": "він міркував"
     }
   },
   {
@@ -2988,35 +2988,35 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gesessen",
-      "lv": "сіли"
+      "lv": "він сидів"
     }
   },
   {
     "infinitiv": {
       "de": "sollen",
-      "lv": "потребувати / бути зобов'язаним"
+      "lv": "бути повинним / мусити"
     },
     "praesens": {
       "de": "er soll",
-      "lv": "йому потрібно"
+      "lv": "він повинен / мусить"
     },
     "imperfektIndikativ": {
       "de": "sollte",
-      "lv": "повинен мати"
+      "lv": "він був повинен / мусив"
     },
     "imperfektKonjunktiv": {
       "de": "sollte",
-      "lv": "повинен мати"
+      "lv": "він би був повинен / мусив"
     },
     "partizipVergangenheit": {
       "de": "gesollt",
-      "lv": "необхідний"
+      "lv": "він був повинен / мусив"
     }
   },
   {
     "infinitiv": {
       "de": "speien",
-      "lv": "плюватися"
+      "lv": "плювати • плюнути"
     },
     "praesens": {
       "de": "er speit",
@@ -3024,59 +3024,59 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er spie",
-      "lv": "він плюнув"
+      "lv": "він плював"
     },
     "imperfektKonjunktiv": {
       "de": "er spie",
-      "lv": "він би плюнув"
+      "lv": "він би плював"
     },
     "partizipVergangenheit": {
       "de": "gespien",
-      "lv": "виплюнув"
+      "lv": "він плюнув"
     }
   },
   {
     "infinitiv": {
       "de": "spinnen",
-      "lv": "спина"
+      "lv": "прясти • спрясти"
     },
     "praesens": {
       "de": "er spinnt",
-      "lv": "він крутиться"
+      "lv": "він пряде"
     },
     "imperfektIndikativ": {
       "de": "er spann",
-      "lv": "— закрутився він"
+      "lv": "він пряв"
     },
     "imperfektKonjunktiv": {
       "de": "er spönne / er spänne",
-      "lv": "він би крутився"
+      "lv": "він би пряв"
     },
     "partizipVergangenheit": {
       "de": "gesponnen",
-      "lv": "закрутився"
+      "lv": "спрядений"
     }
   },
   {
     "infinitiv": {
       "de": "spleißen",
-      "lv": "підключити"
+      "lv": "з’єднувати • з’єднати"
     },
     "praesens": {
       "de": "er spleißt",
-      "lv": "він з'єднується"
+      "lv": "він з’єднує"
     },
     "imperfektIndikativ": {
       "de": "spliss",
-      "lv": "підключений"
+      "lv": "він з’єднував"
     },
     "imperfektKonjunktiv": {
       "de": "spliss",
-      "lv": "підключений"
+      "lv": "він би з’єднував"
     },
     "partizipVergangenheit": {
       "de": "gesplissen",
-      "lv": "підключений"
+      "lv": "з’єднаний"
     }
   },
   {
@@ -3094,39 +3094,39 @@ const VERB_ENTRIES = [
     },
     "imperfektKonjunktiv": {
       "de": "er spräche",
-      "lv": "він говорив би"
+      "lv": "він би говорив"
     },
     "partizipVergangenheit": {
       "de": "gesprochen",
-      "lv": "говорив"
+      "lv": "він говорив"
     }
   },
   {
     "infinitiv": {
       "de": "sprießen",
-      "lv": "процвітати"
+      "lv": "проростати • прорости"
     },
     "praesens": {
       "de": "er sprießt",
-      "lv": "він процвітає"
+      "lv": "він проростає"
     },
     "imperfektIndikativ": {
       "de": "er spross",
-      "lv": "він процвітав"
+      "lv": "він проростав"
     },
     "imperfektKonjunktiv": {
       "de": "er sprösse",
-      "lv": "він полиця"
+      "lv": "він би проростав"
     },
     "partizipVergangenheit": {
       "de": "gesprossen (er ist)",
-      "lv": "плече"
+      "lv": "пророслий"
     }
   },
   {
     "infinitiv": {
       "de": "springen",
-      "lv": "стрибати"
+      "lv": "стрибати • стрибнути"
     },
     "praesens": {
       "de": "er springt",
@@ -3134,21 +3134,21 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er sprang",
-      "lv": "він підскочив"
+      "lv": "він стрибав"
     },
     "imperfektKonjunktiv": {
       "de": "er spränge",
-      "lv": "він би стрибнув"
+      "lv": "він би стрибав"
     },
     "partizipVergangenheit": {
       "de": "gesprungen (er ist)",
-      "lv": "об'єктив"
+      "lv": "він стрибнув"
     }
   },
   {
     "infinitiv": {
       "de": "stechen",
-      "lv": "колоти"
+      "lv": "колоти • вколоти"
     },
     "praesens": {
       "de": "er sticht",
@@ -3156,37 +3156,37 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er stach",
-      "lv": "вдарив він"
+      "lv": "він колов"
     },
     "imperfektKonjunktiv": {
       "de": "er stäche",
-      "lv": "він би вколов"
+      "lv": "він би колов"
     },
     "partizipVergangenheit": {
       "de": "gestochen",
-      "lv": "заколоти"
+      "lv": "вколотий"
     }
   },
   {
     "infinitiv": {
       "de": "stecken",
-      "lv": "вклеювати / встромляти"
+      "lv": "засовувати • засунути / встромляти • встромити"
     },
     "praesens": {
       "de": "er steckt",
-      "lv": "він штовхає"
+      "lv": "він засовує / встромляє"
     },
     "imperfektIndikativ": {
       "de": "stak / steckte",
-      "lv": "фаршировані"
+      "lv": "він засовував / встромляв"
     },
     "imperfektKonjunktiv": {
       "de": "stak / steckte",
-      "lv": "фаршировані"
+      "lv": "він би засовував / встромляв"
     },
     "partizipVergangenheit": {
       "de": "gesteckt",
-      "lv": "фаршировані"
+      "lv": "засунутий / встромлений"
     }
   },
   {
@@ -3208,57 +3208,57 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gestanden",
-      "lv": "стоячи"
+      "lv": "він стояв"
     }
   },
   {
     "infinitiv": {
       "de": "stehlen",
-      "lv": "красти"
+      "lv": "красти • вкрасти"
     },
     "praesens": {
       "de": "er stiehlt",
-      "lv": "він zog"
+      "lv": "він краде"
     },
     "imperfektIndikativ": {
       "de": "er stahl",
-      "lv": "він вкрав"
+      "lv": "він крав"
     },
     "imperfektKonjunktiv": {
       "de": "er stöhle / er stähle",
-      "lv": "він би вкрав"
+      "lv": "він би крав"
     },
     "partizipVergangenheit": {
       "de": "gestohlen",
-      "lv": "вкрадені"
+      "lv": "вкрадений"
     }
   },
   {
     "infinitiv": {
       "de": "steigen",
-      "lv": "лазити"
+      "lv": "підніматися • піднятися"
     },
     "praesens": {
       "de": "er steigt",
-      "lv": "він лізе"
+      "lv": "він піднімається"
     },
     "imperfektIndikativ": {
       "de": "er stieg",
-      "lv": "він поліз"
+      "lv": "він піднімався"
     },
     "imperfektKonjunktiv": {
       "de": "er stiege",
-      "lv": "він би поліз"
+      "lv": "він би піднімався"
     },
     "partizipVergangenheit": {
       "de": "gestiegen (er ist)",
-      "lv": "піднявся"
+      "lv": "він піднявся"
     }
   },
   {
     "infinitiv": {
       "de": "sterben",
-      "lv": "померти"
+      "lv": "помирати • померти"
     },
     "praesens": {
       "de": "er stirbt",
@@ -3266,65 +3266,43 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er starb",
-      "lv": "він помер"
+      "lv": "він помирав"
     },
     "imperfektKonjunktiv": {
       "de": "er stürbe",
-      "lv": "він би помер"
+      "lv": "він би помирав"
     },
     "partizipVergangenheit": {
       "de": "gestorben (er ist)",
-      "lv": "мертвий"
-    }
-  },
-  {
-    "infinitiv": {
-      "de": "stieben",
-      "lv": "піна / завихр"
-    },
-    "praesens": {
-      "de": "es stiebt",
-      "lv": "це дме"
-    },
-    "imperfektIndikativ": {
-      "de": "stob / stiebte",
-      "lv": "спінений"
-    },
-    "imperfektKonjunktiv": {
-      "de": "stob / stiebte",
-      "lv": "спінений"
-    },
-    "partizipVergangenheit": {
-      "de": "gestoben / gestiebt",
-      "lv": "зіпсований"
+      "lv": "померлий"
     }
   },
   {
     "infinitiv": {
       "de": "stinken",
-      "lv": "пахнути"
+      "lv": "смердіти"
     },
     "praesens": {
       "de": "es stinkt",
-      "lv": "це смердить"
+      "lv": "воно смердить"
     },
     "imperfektIndikativ": {
       "de": "stank",
-      "lv": "пахло"
+      "lv": "воно смерділо"
     },
     "imperfektKonjunktiv": {
       "de": "stank",
-      "lv": "пахло"
+      "lv": "воно б смерділо"
     },
     "partizipVergangenheit": {
       "de": "gestunken",
-      "lv": "смердючий"
+      "lv": "воно смерділо"
     }
   },
   {
     "infinitiv": {
       "de": "stoßen",
-      "lv": "штовхати"
+      "lv": "штовхати • штовхнути"
     },
     "praesens": {
       "de": "er stößt",
@@ -3332,65 +3310,65 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er stieß",
-      "lv": "штовхнув він"
+      "lv": "він штовхав"
     },
     "imperfektKonjunktiv": {
       "de": "er stieße",
-      "lv": "він штовхався"
+      "lv": "він би штовхав"
     },
     "partizipVergangenheit": {
       "de": "gestoßen",
-      "lv": "штовхнув"
+      "lv": "він штовхнув"
     }
   },
   {
     "infinitiv": {
       "de": "streichen",
-      "lv": "фарба / смужка"
+      "lv": "фарбувати • пофарбувати / викреслювати • викреслити"
     },
     "praesens": {
       "de": "er streicht",
-      "lv": "він малює / смуги"
+      "lv": "він фарбує / викреслює"
     },
     "imperfektIndikativ": {
       "de": "er strich",
-      "lv": "він розмальований / смугастий"
+      "lv": "він фарбував / викреслював"
     },
     "imperfektKonjunktiv": {
       "de": "er striche",
-      "lv": "він би намалював / роздягнув"
+      "lv": "він би фарбував / викреслював"
     },
     "partizipVergangenheit": {
       "de": "gestrichen",
-      "lv": "фарбований/смугастий"
+      "lv": "пофарбований / викреслений"
     }
   },
   {
     "infinitiv": {
       "de": "streiten",
-      "lv": "воювати"
+      "lv": "сперечатися • посперечатися"
     },
     "praesens": {
       "de": "er streitet",
-      "lv": "він бореться"
+      "lv": "він сперечається"
     },
     "imperfektIndikativ": {
       "de": "er stritt",
-      "lv": "він боровся"
+      "lv": "він сперечався"
     },
     "imperfektKonjunktiv": {
       "de": "er stritte",
-      "lv": "він бився"
+      "lv": "він би сперечався"
     },
     "partizipVergangenheit": {
       "de": "gestritten",
-      "lv": "воював"
+      "lv": "він посперечався"
     }
   },
   {
     "infinitiv": {
       "de": "tragen",
-      "lv": "nest"
+      "lv": "нести"
     },
     "praesens": {
       "de": "er trägt",
@@ -3406,13 +3384,13 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "getragen",
-      "lv": "несли"
+      "lv": "несений"
     }
   },
   {
     "infinitiv": {
       "de": "treffen",
-      "lv": "зіткнутися"
+      "lv": "зустрічати • зустріти"
     },
     "praesens": {
       "de": "er trifft",
@@ -3420,69 +3398,69 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er traf",
-      "lv": "він зіткнувся"
+      "lv": "він зустрічав"
     },
     "imperfektKonjunktiv": {
       "de": "er träfe",
-      "lv": "він би зіткнувся"
+      "lv": "він би зустрічав"
     },
     "partizipVergangenheit": {
       "de": "getroffen",
-      "lv": "зіткнувся"
+      "lv": "зустрінутий"
     }
   },
   {
     "infinitiv": {
       "de": "treiben",
-      "lv": "погоня"
+      "lv": "гнати"
     },
     "praesens": {
       "de": "er treibt",
-      "lv": "він керує"
+      "lv": "він жене"
     },
     "imperfektIndikativ": {
       "de": "er trieb",
-      "lv": "він їхав"
+      "lv": "він гнав"
     },
     "imperfektKonjunktiv": {
       "de": "er triebe",
-      "lv": "він би водив"
+      "lv": "він би гнав"
     },
     "partizipVergangenheit": {
       "de": "getrieben",
-      "lv": "переслідували"
+      "lv": "гнаний"
     }
   },
   {
     "infinitiv": {
       "de": "treten",
-      "lv": "входити / йти"
+      "lv": "ступати • ступити / іти • піти"
     },
     "praesens": {
       "de": "er tritt",
-      "lv": "він входить / йде"
+      "lv": "він ступає / іде"
     },
     "imperfektIndikativ": {
       "de": "er trat",
-      "lv": "він стояв/ходив"
+      "lv": "він ступав / ішов"
     },
     "imperfektKonjunktiv": {
       "de": "er träte",
-      "lv": "він би стояв / йшов"
+      "lv": "він би ступав / ішов"
     },
     "partizipVergangenheit": {
       "de": "getreten (er ist)",
-      "lv": "стояв / ходив"
+      "lv": "він ступив / пішов"
     }
   },
   {
     "infinitiv": {
       "de": "trinken",
-      "lv": "пити"
+      "lv": "пити • випити"
     },
     "praesens": {
       "de": "er trinkt",
-      "lv": "він п'є"
+      "lv": "він п’є"
     },
     "imperfektIndikativ": {
       "de": "er trank",
@@ -3490,17 +3468,17 @@ const VERB_ENTRIES = [
     },
     "imperfektKonjunktiv": {
       "de": "er tränke",
-      "lv": "він би випив"
+      "lv": "він би пив"
     },
     "partizipVergangenheit": {
       "de": "getrunken",
-      "lv": "п'яний"
+      "lv": "випитий"
     }
   },
   {
     "infinitiv": {
       "de": "trügen",
-      "lv": "обманювати"
+      "lv": "обманювати • обманути"
     },
     "praesens": {
       "de": "er trögt",
@@ -3508,7 +3486,7 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er trog",
-      "lv": "він обдурив"
+      "lv": "він обманював"
     },
     "imperfektKonjunktiv": {
       "de": "er tröge",
@@ -3516,13 +3494,13 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "getrogen",
-      "lv": "обдурили"
+      "lv": "обманутий"
     }
   },
   {
     "infinitiv": {
       "de": "tun",
-      "lv": "робити"
+      "lv": "робити • зробити"
     },
     "praesens": {
       "de": "er tut",
@@ -3530,65 +3508,65 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er tat",
-      "lv": "він зробив"
+      "lv": "він робив"
     },
     "imperfektKonjunktiv": {
       "de": "er täte",
-      "lv": "він би зробив"
+      "lv": "він би робив"
     },
     "partizipVergangenheit": {
       "de": "getan",
-      "lv": "зроблено"
+      "lv": "зроблений"
     }
   },
   {
     "infinitiv": {
       "de": "verderben",
-      "lv": "пошкодити"
+      "lv": "псувати • зіпсувати"
     },
     "praesens": {
       "de": "er verdirbt",
-      "lv": "він руйнує"
+      "lv": "він псує"
     },
     "imperfektIndikativ": {
       "de": "er verdarb",
-      "lv": "він пошкодив"
+      "lv": "він псував"
     },
     "imperfektKonjunktiv": {
       "de": "er verdürbe",
-      "lv": "він би пошкодив"
+      "lv": "він би псував"
     },
     "partizipVergangenheit": {
       "de": "verdorben",
-      "lv": "пошкоджений"
+      "lv": "зіпсований"
     }
   },
   {
     "infinitiv": {
       "de": "verdrießen",
-      "lv": "викликати роздратування"
+      "lv": "дратувати • роздратувати"
     },
     "praesens": {
       "de": "er verdrießt",
-      "lv": "він викликає роздратування"
+      "lv": "він дратує"
     },
     "imperfektIndikativ": {
       "de": "er verdross",
-      "lv": "він викликав роздратування"
+      "lv": "він дратував"
     },
     "imperfektKonjunktiv": {
       "de": "er verdrösse",
-      "lv": "він викликав би роздратування"
+      "lv": "він би дратував"
     },
     "partizipVergangenheit": {
       "de": "verdrossen",
-      "lv": "засмучений"
+      "lv": "роздратований"
     }
   },
   {
     "infinitiv": {
       "de": "vergessen",
-      "lv": "забути"
+      "lv": "забувати • забути"
     },
     "praesens": {
       "de": "er vergisst",
@@ -3596,11 +3574,11 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er vergass",
-      "lv": "він забув"
+      "lv": "він забував"
     },
     "imperfektKonjunktiv": {
       "de": "er vergäße",
-      "lv": "він би забув"
+      "lv": "він би забував"
     },
     "partizipVergangenheit": {
       "de": "vergessen",
@@ -3610,29 +3588,29 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "verlieren",
-      "lv": "втратити"
+      "lv": "втрачати • втратити"
     },
     "praesens": {
       "de": "er verliert",
-      "lv": "він програє"
+      "lv": "він втрачає"
     },
     "imperfektIndikativ": {
       "de": "er verlor",
-      "lv": "він програв"
+      "lv": "він втрачав"
     },
     "imperfektKonjunktiv": {
       "de": "er verlöre",
-      "lv": "він би програв"
+      "lv": "він би втрачав"
     },
     "partizipVergangenheit": {
       "de": "verloren",
-      "lv": "втрачено"
+      "lv": "втрачений"
     }
   },
   {
     "infinitiv": {
       "de": "wachsen",
-      "lv": "рости"
+      "lv": "рости • вирости"
     },
     "praesens": {
       "de": "er wächst",
@@ -3644,17 +3622,17 @@ const VERB_ENTRIES = [
     },
     "imperfektKonjunktiv": {
       "de": "er wüchse",
-      "lv": "він би виріс"
+      "lv": "він би ріс"
     },
     "partizipVergangenheit": {
       "de": "gewachsen (er ist)",
-      "lv": "виріс"
+      "lv": "він виріс"
     }
   },
   {
     "infinitiv": {
       "de": "waschen",
-      "lv": "мити"
+      "lv": "мити • помити"
     },
     "praesens": {
       "de": "er wäscht",
@@ -3662,43 +3640,43 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er wusch",
-      "lv": "він вмивався"
+      "lv": "він мив"
     },
     "imperfektKonjunktiv": {
       "de": "er wüsche",
-      "lv": "він би мився"
+      "lv": "він би мив"
     },
     "partizipVergangenheit": {
       "de": "gewaschen",
-      "lv": "вимитий"
+      "lv": "помитий"
     }
   },
   {
     "infinitiv": {
       "de": "weben",
-      "lv": "плести"
+      "lv": "ткати • виткати"
     },
     "praesens": {
       "de": "er webt",
-      "lv": "він плете"
+      "lv": "він тче"
     },
     "imperfektIndikativ": {
       "de": "wob",
-      "lv": "тканина"
+      "lv": "він ткав"
     },
     "imperfektKonjunktiv": {
       "de": "wob",
-      "lv": "тканина"
+      "lv": "він би ткав"
     },
     "partizipVergangenheit": {
       "de": "gewoben",
-      "lv": "тканий"
+      "lv": "витканий"
     }
   },
   {
     "infinitiv": {
       "de": "weichen",
-      "lv": "відкликати"
+      "lv": "відступати • відступити"
     },
     "praesens": {
       "de": "er weicht",
@@ -3706,87 +3684,87 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er wich",
-      "lv": "він відступив"
+      "lv": "він відступав"
     },
     "imperfektKonjunktiv": {
       "de": "er wiche",
-      "lv": "він би відступив"
+      "lv": "він би відступав"
     },
     "partizipVergangenheit": {
       "de": "gewichen (er ist)",
-      "lv": "відступати"
+      "lv": "він відступив"
     }
   },
   {
     "infinitiv": {
       "de": "weisen",
-      "lv": "шоу"
+      "lv": "вказувати • вказати"
     },
     "praesens": {
       "de": "er weist",
-      "lv": "він показує"
+      "lv": "він вказує"
     },
     "imperfektIndikativ": {
       "de": "er wies",
-      "lv": "він показав"
+      "lv": "він вказував"
     },
     "imperfektKonjunktiv": {
       "de": "er wiese",
-      "lv": "він би показав"
+      "lv": "він би вказував"
     },
     "partizipVergangenheit": {
       "de": "gewiesen",
-      "lv": "показано"
+      "lv": "вказаний"
     }
   },
   {
     "infinitiv": {
       "de": "wenden",
-      "lv": "змінити / обрізати"
+      "lv": "повертати • повернути / перевертати • перевернути"
     },
     "praesens": {
       "de": "er wendet",
-      "lv": "він крутить / повертає"
+      "lv": "він повертає / перевертає"
     },
     "imperfektIndikativ": {
       "de": "er wandte / es wendete",
-      "lv": "він скрутив / повернув"
+      "lv": "він повертав / перевертав"
     },
     "imperfektKonjunktiv": {
       "de": "er wendete",
-      "lv": "він би змінив / змінив"
+      "lv": "він би повертав / перевертав"
     },
     "partizipVergangenheit": {
       "de": "gewandt / gewendet",
-      "lv": "змінено / скасовано"
+      "lv": "повернутий / перевернутий"
     }
   },
   {
     "infinitiv": {
       "de": "werben",
-      "lv": "пропонувати"
+      "lv": "сватати • посватати"
     },
     "praesens": {
       "de": "er wirbt",
-      "lv": "він пропонує"
+      "lv": "він сватає"
     },
     "imperfektIndikativ": {
       "de": "er warb",
-      "lv": "він запропонував"
+      "lv": "він сватав"
     },
     "imperfektKonjunktiv": {
       "de": "er würbe",
-      "lv": "він запропонував би"
+      "lv": "він би сватав"
     },
     "partizipVergangenheit": {
       "de": "geworben",
-      "lv": "запропоновано"
+      "lv": "посватаний"
     }
   },
   {
     "infinitiv": {
       "de": "werden",
-      "lv": "стати"
+      "lv": "ставати • стати"
     },
     "praesens": {
       "de": "er wird",
@@ -3794,33 +3772,33 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "wurde",
-      "lv": "став"
+      "lv": "він ставав"
     },
     "imperfektKonjunktiv": {
       "de": "wurde",
-      "lv": "став"
+      "lv": "він би ставав"
     },
     "partizipVergangenheit": {
       "de": "geworden",
-      "lv": "стало"
+      "lv": "він став"
     }
   },
   {
     "infinitiv": {
       "de": "werfen",
-      "lv": "кинути"
+      "lv": "кидати • кинути"
     },
     "praesens": {
       "de": "er wirft",
-      "lv": "кидає він"
+      "lv": "він кидає"
     },
     "imperfektIndikativ": {
       "de": "er warf",
-      "lv": "— кинув він"
+      "lv": "він кидав"
     },
     "imperfektKonjunktiv": {
       "de": "er würfe",
-      "lv": "— кинув він"
+      "lv": "він би кидав"
     },
     "partizipVergangenheit": {
       "de": "geworfen",
@@ -3830,19 +3808,19 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "wiegen",
-      "lv": "зважувати"
+      "lv": "зважувати • зважити"
     },
     "praesens": {
       "de": "er wiegt",
-      "lv": "він важить"
+      "lv": "він зважує"
     },
     "imperfektIndikativ": {
       "de": "er wog",
-      "lv": "він зважив"
+      "lv": "він зважував"
     },
     "imperfektKonjunktiv": {
       "de": "er wöge",
-      "lv": "він би важив"
+      "lv": "він би зважував"
     },
     "partizipVergangenheit": {
       "de": "gewogen",
@@ -3852,23 +3830,23 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "winden",
-      "lv": "коса"
+      "lv": "вити • звити"
     },
     "praesens": {
       "de": "er windet",
-      "lv": "він шпилька"
+      "lv": "він в’є"
     },
     "imperfektIndikativ": {
       "de": "er wand",
-      "lv": "він заплітає коси"
+      "lv": "він вив"
     },
     "imperfektKonjunktiv": {
       "de": "er wände",
-      "lv": "він заплітає косу"
+      "lv": "він би вив"
     },
     "partizipVergangenheit": {
       "de": "gewunden",
-      "lv": "плетений"
+      "lv": "звитий"
     }
   },
   {
@@ -3890,13 +3868,13 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gewusst",
-      "lv": "відомий"
+      "lv": "знаний"
     }
   },
   {
     "infinitiv": {
       "de": "wollen",
-      "lv": "хочуть"
+      "lv": "хотіти"
     },
     "praesens": {
       "de": "er will",
@@ -3904,43 +3882,43 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "wollte",
-      "lv": "хотів"
+      "lv": "він хотів"
     },
     "imperfektKonjunktiv": {
       "de": "wollte",
-      "lv": "хотів"
+      "lv": "він би хотів"
     },
     "partizipVergangenheit": {
       "de": "gewollt",
-      "lv": "хотів"
+      "lv": "він хотів"
     }
   },
   {
     "infinitiv": {
       "de": "wringen",
-      "lv": "вирізати / витиснути"
+      "lv": "викручувати • викрутити / вичавлювати • вичавити"
     },
     "praesens": {
       "de": "er wringt",
-      "lv": "— вирізає він"
+      "lv": "він викручує / вичавлює"
     },
     "imperfektIndikativ": {
       "de": "wrang",
-      "lv": "вирізати"
+      "lv": "він викручував / вичавлював"
     },
     "imperfektKonjunktiv": {
       "de": "wrang",
-      "lv": "вирізати"
+      "lv": "він би викручував / вичавлював"
     },
     "partizipVergangenheit": {
       "de": "gewrungen",
-      "lv": "вирізати"
+      "lv": "викручений / вичавлений"
     }
   },
   {
     "infinitiv": {
       "de": "zeihen",
-      "lv": "звинувачувати"
+      "lv": "звинувачувати • звинуватити"
     },
     "praesens": {
       "de": "er zeiht",
@@ -3948,11 +3926,11 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "zieh",
-      "lv": "звинувачений"
+      "lv": "він звинувачував"
     },
     "imperfektKonjunktiv": {
       "de": "zieh",
-      "lv": "звинувачений"
+      "lv": "він би звинувачував"
     },
     "partizipVergangenheit": {
       "de": "geziehen",
@@ -3962,7 +3940,7 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "ziehen",
-      "lv": "тягнути"
+      "lv": "тягнути • потягнути"
     },
     "praesens": {
       "de": "er zieht",
@@ -3970,7 +3948,7 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er zog",
-      "lv": "він потягнув"
+      "lv": "він тягнув"
     },
     "imperfektKonjunktiv": {
       "de": "er zöge",
@@ -3978,13 +3956,13 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gezogen",
-      "lv": "тягнули"
+      "lv": "потягнутий"
     }
   },
   {
     "infinitiv": {
       "de": "zwingen",
-      "lv": "змушувати"
+      "lv": "змушувати • змусити"
     },
     "praesens": {
       "de": "er zwingt",
@@ -3992,21 +3970,21 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er zwang",
-      "lv": "він змусив"
+      "lv": "він змушував"
     },
     "imperfektKonjunktiv": {
       "de": "er zwänge",
-      "lv": "він би змусив"
+      "lv": "він би змушував"
     },
     "partizipVergangenheit": {
       "de": "gezwungen",
-      "lv": "вимушений"
+      "lv": "змушений"
     }
   },
   {
     "infinitiv": {
       "de": "empfangen",
-      "lv": "отримати"
+      "lv": "отримувати • отримати"
     },
     "praesens": {
       "de": "er empfängt",
@@ -4014,87 +3992,87 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er empfing",
-      "lv": "він отримав"
+      "lv": "він отримував"
     },
     "imperfektKonjunktiv": {
       "de": "er empfinge",
-      "lv": "він отримав би"
+      "lv": "він би отримував"
     },
     "partizipVergangenheit": {
       "de": "empfangen",
-      "lv": "отримано"
+      "lv": "отриманий"
     }
   },
   {
     "infinitiv": {
       "de": "erwägen",
-      "lv": "розглянути"
+      "lv": "обмірковувати • обміркувати"
     },
     "praesens": {
       "de": "er erwägt",
-      "lv": "він вважає"
+      "lv": "він обмірковує"
     },
     "imperfektIndikativ": {
       "de": "er erwog",
-      "lv": "він розглядав"
+      "lv": "він обмірковував"
     },
     "imperfektKonjunktiv": {
       "de": "er erwöge",
-      "lv": "він би розглянув"
+      "lv": "він би обмірковував"
     },
     "partizipVergangenheit": {
       "de": "erwogen",
-      "lv": "розглядається"
+      "lv": "обміркований"
     }
   },
   {
     "infinitiv": {
       "de": "fechten",
-      "lv": "воювати"
+      "lv": "битися"
     },
     "praesens": {
       "de": "er ficht",
-      "lv": "він бореться"
+      "lv": "він б’ється"
     },
     "imperfektIndikativ": {
       "de": "er focht",
-      "lv": "він боровся"
+      "lv": "він бився"
     },
     "imperfektKonjunktiv": {
       "de": "er föchte",
-      "lv": "він бився"
+      "lv": "він би бився"
     },
     "partizipVergangenheit": {
       "de": "gefochten",
-      "lv": "воював"
+      "lv": "він бився"
     }
   },
   {
     "infinitiv": {
       "de": "flechten",
-      "lv": "коса"
+      "lv": "плести • сплести"
     },
     "praesens": {
       "de": "er flicht",
-      "lv": "він шпилька"
+      "lv": "він плете"
     },
     "imperfektIndikativ": {
       "de": "er flocht",
-      "lv": "він заплітає коси"
+      "lv": "він плів"
     },
     "imperfektKonjunktiv": {
       "de": "er flöchte",
-      "lv": "він заплітає косу"
+      "lv": "він би плів"
     },
     "partizipVergangenheit": {
       "de": "geflochten",
-      "lv": "плетений"
+      "lv": "сплетений"
     }
   },
   {
     "infinitiv": {
       "de": "hangen",
-      "lv": "повісити"
+      "lv": "висіти"
     },
     "praesens": {
       "de": "er hängt",
@@ -4102,43 +4080,43 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er hing",
-      "lv": "він повісився"
+      "lv": "він висів"
     },
     "imperfektKonjunktiv": {
       "de": "er hinge",
-      "lv": "він би повісився"
+      "lv": "він би висів"
     },
     "partizipVergangenheit": {
       "de": "gehangen",
-      "lv": "триматися"
+      "lv": "він висів"
     }
   },
   {
     "infinitiv": {
       "de": "spalten",
-      "lv": "розділити"
+      "lv": "розколювати • розколоти"
     },
     "praesens": {
       "de": "er spaltet",
-      "lv": "він розколюється"
+      "lv": "він розколює"
     },
     "imperfektIndikativ": {
       "de": "er spaltete",
-      "lv": "він розколовся"
+      "lv": "він розколював"
     },
     "imperfektKonjunktiv": {
       "de": "er spaltete",
-      "lv": "він би розділився"
+      "lv": "він би розколював"
     },
     "partizipVergangenheit": {
       "de": "gespalten",
-      "lv": "розкол"
+      "lv": "розколотий"
     }
   },
   {
     "infinitiv": {
       "de": "verzeihen",
-      "lv": "прощати"
+      "lv": "прощати • простити"
     },
     "praesens": {
       "de": "er verzeiht",
@@ -4146,15 +4124,15 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er verzieh",
-      "lv": "він пробачив"
+      "lv": "він прощав"
     },
     "imperfektKonjunktiv": {
       "de": "er verziehe",
-      "lv": "він би простив"
+      "lv": "він би прощав"
     },
     "partizipVergangenheit": {
       "de": "verziehen",
-      "lv": "прощено"
+      "lv": "прощений"
     }
   }
 ];

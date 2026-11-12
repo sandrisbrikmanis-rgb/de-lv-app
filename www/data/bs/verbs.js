@@ -3279,28 +3279,6 @@ const VERB_ENTRIES = [
   },
   {
     "infinitiv": {
-      "de": "stieben",
-      "lv": "Prštati / kovitlati se"
-    },
-    "praesens": {
-      "de": "es stiebt",
-      "lv": "Ono pršti"
-    },
-    "imperfektIndikativ": {
-      "de": "stob / stiebte",
-      "lv": "Prštalo je ili se kovitlalo"
-    },
-    "imperfektKonjunktiv": {
-      "de": "stob / stiebte",
-      "lv": "Prštalo bi / kovitlalo bi se"
-    },
-    "partizipVergangenheit": {
-      "de": "gestoben / gestiebt",
-      "lv": "Prhnulo ili prštilo"
-    }
-  },
-  {
-    "infinitiv": {
       "de": "stinken",
       "lv": "Smrdjeti"
     },

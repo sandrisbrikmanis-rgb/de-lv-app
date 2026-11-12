@@ -3279,28 +3279,6 @@ const VERB_ENTRIES = [
   },
   {
     "infinitiv": {
-      "de": "stieben",
-      "lv": "Hab / örvény"
-    },
-    "praesens": {
-      "de": "es stiebt",
-      "lv": "Fúj"
-    },
-    "imperfektIndikativ": {
-      "de": "stob / stiebte",
-      "lv": "Habosodott"
-    },
-    "imperfektKonjunktiv": {
-      "de": "stob / stiebte",
-      "lv": "Habosodott"
-    },
-    "partizipVergangenheit": {
-      "de": "gestoben / gestiebt",
-      "lv": "Elrontott"
-    }
-  },
-  {
-    "infinitiv": {
       "de": "stinken",
       "lv": "Szagolni"
     },

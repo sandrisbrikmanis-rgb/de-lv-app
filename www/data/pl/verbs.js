@@ -3279,28 +3279,6 @@ const VERB_ENTRIES = [
   },
   {
     "infinitiv": {
-      "de": "stieben",
-      "lv": "Piana / wir"
-    },
-    "praesens": {
-      "de": "es stiebt",
-      "lv": "Wieje"
-    },
-    "imperfektIndikativ": {
-      "de": "stob / stiebte",
-      "lv": "Spieniony"
-    },
-    "imperfektKonjunktiv": {
-      "de": "stob / stiebte",
-      "lv": "Spieniony"
-    },
-    "partizipVergangenheit": {
-      "de": "gestoben / gestiebt",
-      "lv": "Rozpieszczony"
-    }
-  },
-  {
-    "infinitiv": {
       "de": "stinken",
       "lv": "Pachnieć"
     },

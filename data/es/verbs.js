@@ -3279,28 +3279,6 @@ const VERB_ENTRIES = [
   },
   {
     "infinitiv": {
-      "de": "stieben",
-      "lv": "dispersarse / salir disparado"
-    },
-    "praesens": {
-      "de": "es stiebt",
-      "lv": "se dispersa"
-    },
-    "imperfektIndikativ": {
-      "de": "stob / stiebte",
-      "lv": "se dispersó"
-    },
-    "imperfektKonjunktiv": {
-      "de": "stob / stiebte",
-      "lv": "se dispersaría"
-    },
-    "partizipVergangenheit": {
-      "de": "gestoben / gestiebt",
-      "lv": "dispersado"
-    }
-  },
-  {
-    "infinitiv": {
       "de": "stinken",
       "lv": "oler"
     },

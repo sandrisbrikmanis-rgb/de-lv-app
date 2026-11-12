@@ -3279,28 +3279,6 @@ const VERB_ENTRIES = [
   },
   {
     "infinitiv": {
-      "de": "stieben",
-      "lv": "Spumă / vârtej"
-    },
-    "praesens": {
-      "de": "es stiebt",
-      "lv": "Suflă"
-    },
-    "imperfektIndikativ": {
-      "de": "stob / stiebte",
-      "lv": "Spumat"
-    },
-    "imperfektKonjunktiv": {
-      "de": "stob / stiebte",
-      "lv": "Spumat"
-    },
-    "partizipVergangenheit": {
-      "de": "gestoben / gestiebt",
-      "lv": "Stricat"
-    }
-  },
-  {
-    "infinitiv": {
       "de": "stinken",
       "lv": "A mirosi"
     },

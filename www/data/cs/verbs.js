@@ -3279,28 +3279,6 @@ const VERB_ENTRIES = [
   },
   {
     "infinitiv": {
-      "de": "stieben",
-      "lv": "Pěnit / vířit"
-    },
-    "praesens": {
-      "de": "es stiebt",
-      "lv": "Pění / víří"
-    },
-    "imperfektIndikativ": {
-      "de": "stob / stiebte",
-      "lv": "Pěnil / vířil"
-    },
-    "imperfektKonjunktiv": {
-      "de": "stob / stiebte",
-      "lv": "Pěnil by / vířil by"
-    },
-    "partizipVergangenheit": {
-      "de": "gestoben / gestiebt",
-      "lv": "Pěnil / vířil"
-    }
-  },
-  {
-    "infinitiv": {
       "de": "stinken",
       "lv": "Vonět"
     },

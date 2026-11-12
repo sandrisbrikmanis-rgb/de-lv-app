@@ -3279,28 +3279,6 @@ const VERB_ENTRIES = [
   },
   {
     "infinitiv": {
-      "de": "stieben",
-      "lv": "At hvirvle"
-    },
-    "praesens": {
-      "de": "es stiebt",
-      "lv": "Det hvirvler"
-    },
-    "imperfektIndikativ": {
-      "de": "stob / stiebte",
-      "lv": "Det hvirvlede"
-    },
-    "imperfektKonjunktiv": {
-      "de": "stob / stiebte",
-      "lv": "Det ville hvirvle"
-    },
-    "partizipVergangenheit": {
-      "de": "gestoben / gestiebt",
-      "lv": "Hvirvlet"
-    }
-  },
-  {
-    "infinitiv": {
       "de": "stinken",
       "lv": "At stinke"
     },
