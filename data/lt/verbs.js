@@ -3279,28 +3279,6 @@ const VERB_ENTRIES = [
   },
   {
     "infinitiv": {
-      "de": "stieben",
-      "lv": "dulkėti / sūkuriuoti"
-    },
-    "praesens": {
-      "de": "es stiebt",
-      "lv": "tai dulkėja"
-    },
-    "imperfektIndikativ": {
-      "de": "stob / stiebte",
-      "lv": "dulkėjo"
-    },
-    "imperfektKonjunktiv": {
-      "de": "stob / stiebte",
-      "lv": "dulkėjo"
-    },
-    "partizipVergangenheit": {
-      "de": "gestoben / gestiebt",
-      "lv": "išsisklaidęs"
-    }
-  },
-  {
-    "infinitiv": {
       "de": "stinken",
       "lv": "dvokti"
     },

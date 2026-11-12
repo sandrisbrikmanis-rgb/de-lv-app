@@ -3279,28 +3279,6 @@ const VERB_ENTRIES = [
   },
   {
     "infinitiv": {
-      "de": "stieben",
-      "lv": "Mousse / tourbillon"
-    },
-    "praesens": {
-      "de": "es stiebt",
-      "lv": "Tas mettre"
-    },
-    "imperfektIndikativ": {
-      "de": "stob / stiebte",
-      "lv": "Moussé"
-    },
-    "imperfektKonjunktiv": {
-      "de": "stob / stiebte",
-      "lv": "Moussé"
-    },
-    "partizipVergangenheit": {
-      "de": "gestoben / gestiebt",
-      "lv": "Gâté"
-    }
-  },
-  {
-    "infinitiv": {
       "de": "stinken",
       "lv": "Sentir"
     },

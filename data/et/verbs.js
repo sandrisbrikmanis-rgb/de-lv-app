@@ -3279,28 +3279,6 @@ const VERB_ENTRIES = [
   },
   {
     "infinitiv": {
-      "de": "stieben",
-      "lv": "laiali lendama"
-    },
-    "praesens": {
-      "de": "es stiebt",
-      "lv": "see pihustub"
-    },
-    "imperfektIndikativ": {
-      "de": "stob / stiebte",
-      "lv": "see pihustus"
-    },
-    "imperfektKonjunktiv": {
-      "de": "stob / stiebte",
-      "lv": "see pihustuks"
-    },
-    "partizipVergangenheit": {
-      "de": "gestoben / gestiebt",
-      "lv": "laiali pihustunud"
-    }
-  },
-  {
-    "infinitiv": {
       "de": "stinken",
       "lv": "haisema"
     },

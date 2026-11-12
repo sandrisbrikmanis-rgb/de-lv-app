@@ -3279,28 +3279,6 @@ const VERB_ENTRIES = [
   },
   {
     "infinitiv": {
-      "de": "stieben",
-      "lv": "Пена / водоворот"
-    },
-    "praesens": {
-      "de": "es stiebt",
-      "lv": "Оно дует"
-    },
-    "imperfektIndikativ": {
-      "de": "stob / stiebte",
-      "lv": "Вспененный"
-    },
-    "imperfektKonjunktiv": {
-      "de": "stob / stiebte",
-      "lv": "Вспененный"
-    },
-    "partizipVergangenheit": {
-      "de": "gestoben / gestiebt",
-      "lv": "Испорченный"
-    }
-  },
-  {
-    "infinitiv": {
       "de": "stinken",
       "lv": "Миризма"
     },

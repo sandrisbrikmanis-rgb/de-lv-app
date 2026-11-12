@@ -3279,28 +3279,6 @@ const VERB_ENTRIES = [
   },
   {
     "infinitiv": {
-      "de": "stieben",
-      "lv": "to scatter / to swirl"
-    },
-    "praesens": {
-      "de": "es stiebt",
-      "lv": "it scatters"
-    },
-    "imperfektIndikativ": {
-      "de": "stob / stiebte",
-      "lv": "it scattered"
-    },
-    "imperfektKonjunktiv": {
-      "de": "stob / stiebte",
-      "lv": "foamed"
-    },
-    "partizipVergangenheit": {
-      "de": "gestoben / gestiebt",
-      "lv": "scattered"
-    }
-  },
-  {
-    "infinitiv": {
       "de": "stinken",
       "lv": "to stink"
     },
