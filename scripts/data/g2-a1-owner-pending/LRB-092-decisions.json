@@ -1,0 +1,302 @@
+{
+  "g2/a1/sk|lesen|idx:369|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Čítať",
+    "owner_note": "DE „lesen“ je sloveso s významom „čítať“, preto sa podstatné meno „Na čítanie“ opravuje na infinitív."
+  },
+  "g2/a1/sk|lieb|idx:373|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Milý",
+    "owner_note": "DE „lieb“ je prídavné meno s významom „milý“ alebo „drahý“, nie oslovenie „Vážení“."
+  },
+  "g2/a1/sk|lieben|idx:375|lv|PART_OF_SPEECH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Milovať",
+    "owner_note": "DE „lieben“ je sloveso v infinitíve a znamená „milovať“, nie podstatné meno „láska“."
+  },
+  "g2/a1/sk|liegen|idx:377|translation; study.explanation; study.examples; study.tip; study.sectionAccents|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Ležať • nachádzať sa\",\"study\":{\"translation\":\"Ležať • nachádzať sa\",\"explanation\":[\"Hlavná myšlienka: liegen znamená ležať alebo nachádzať sa vo vodorovnej polohe.\",\"Pri ľuďoch môže liegen často znamenať spať.\",\"Liegen môže tiež vyjadrovať, že sa niečo nachádza na určitom mieste.\",\"Je to iné ako legen, čo znamená položiť alebo odložiť niečo.\"],\"examples\":[{\"de\":\"Das Buch liegt auf dem Tisch.\",\"lv\":\"Kniha leží na stole.\"},{\"de\":\"Mein Handy liegt im Auto.\",\"lv\":\"Môj telefón leží v aute.\"},{\"de\":\"Er liegt im Bett.\",\"lv\":\"Spí v posteli.\"},{\"de\":\"Ich lege das Buch auf den Tisch.\",\"lv\":\"Položím knihu na stôl.\"}],\"tip\":{\"text\":\"Pamätajte: ak je vec už na svojom mieste → liegen • ak ju odkladáte → legen.\"},\"sectionAccents\":{\"explanation\":{\"blue\":[\"liegen\",\"legen\"],\"yellow\":[\"Liegen\"]},\"examples\":[{\"de\":{\"blue\":[\"liegt\"],\"yellow\":[\"Buch\",\"Tisch\"]},\"lv\":{}},{\"de\":{\"blue\":[\"liegt\"],\"yellow\":[\"Handy\",\"Auto\"]},\"lv\":{\"yellow\":[\"telefón\"]}},{\"de\":{\"blue\":[\"liegt\"],\"green\":[\"Bett\"]},\"lv\":{}},{\"de\":{\"red\":[\"lege\"],\"yellow\":[\"Buch\",\"Tisch\"]},\"lv\":{}}],\"comparison\":[{\"word\":{\"green\":[\"liegen\"]},\"meaning\":{},\"example\":{}},{\"word\":{\"green\":[\"legen\"]},\"meaning\":{},\"example\":{\"red\":[\"lege\"]}},{\"word\":{\"green\":[\"stehen\"]},\"meaning\":{\"purple\":[\"Stáť\"]},\"example\":{\"yellow\":[\"steht\"]}},{\"word\":{\"green\":[\"sein\"]},\"meaning\":{},\"example\":{}}],\"tip\":{\"left\":{\"blue\":[\"liegen\"],\"purple\":[\"Pamätajte\"],\"red\":[\"legen\"]}},\"important\":[{\"blue\":[\"liegen\"],\"purple\":[\"Liegen\"]},{\"red\":[\"legen\"]}]}}}",
+    "owner_note": "DE „liegen“ znamená „ležať“ alebo „nachádzať sa“; opravené sú preklady, vysvetlenia, príklady a tipy, ktoré obsahovali nesprávne alebo neprirodzené významy."
+  },
+  "g2/a1/sk|Lineal|idx:379|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Pravítko",
+    "owner_note": "DE „Lineal“ označuje merací nástroj „pravítko“, nie „linku“."
+  },
+  "g2/a1/sk|links|a1.card.links.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Vľavo • ľavý",
+    "owner_note": "DE „links“ má adverbiálny význam „vľavo“ aj adjektívny význam „ľavý“, preto druhý preklad nemožno duplikovať."
+  },
+  "g2/a1/sk|links|idx:380|lv|DUPLICATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Vľavo • ľavý",
+    "owner_note": "DE „links“ vyžaduje dva odlišné slovenské ekvivalenty: „vľavo“ a „ľavý“, nie opakované „Vľavo“."
+  },
+  "g2/a1/sk|Liter|idx:382|study.explanation; study.sectionAccents|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study\":{\"explanation\":[\"V Nemecku sa zvyčajne hovorí „der Liter“, ale v Rakúsku a Švajčiarsku môžete počuť aj „das Liter“. Množné číslo zostáva nezmenené: „die Liter“.\"],\"sectionAccents\":{\"explanation\":{\"green\":[\"der Liter\"],\"blue\":[\"das Liter\"],\"purple\":[\"die Liter\"]}}}}",
+    "owner_note": "DE „Liter“ je v nemčine názov jednotky objemu; vysvetlenie je už po slovensky a zachováva správne nemecké členy aj množné číslo."
+  },
+  "g2/a1/sk|lustig|idx:385|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Veselý",
+    "owner_note": "DE „lustig“ je prídavné meno s významom „veselý“ alebo „zábavný“, nie podstatné meno „hra“."
+  },
+  "g2/a1/sk|machen|idx:386|translation; study.tip; study.sectionAccents|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Robiť • vyrábať\",\"study\":{\"translation\":\"Robiť • vyrábať\",\"tip\":{\"text\":\"Pamätajte: Was machst du? = Čo robíš?\"},\"sectionAccents\":{\"explanation\":{\"blue\":[\"machen\"]},\"examples\":[{\"de\":{\"blue\":[\"machst\"]},\"lv\":{}},{\"de\":{\"blue\":[\"mache\"],\"yellow\":[\"Hausaufgaben\"]},\"lv\":{}},{\"de\":{\"blue\":[\"machen\"],\"yellow\":[\"Pizza\"]},\"lv\":{}},{\"de\":{\"blue\":[\"macht Spaß\"]},\"lv\":{}}],\"comparison\":[{\"word\":{},\"meaning\":{},\"example\":{}},{\"word\":{},\"meaning\":{},\"example\":{}},{\"word\":{},\"meaning\":{},\"example\":{}},{\"word\":{},\"meaning\":{},\"example\":{}}],\"tip\":{\"left\":{\"blue\":[\"Pamätajte\"],\"purple\":[\"Pamätajte\"]}},\"important\":[{\"blue\":[\"machen\"]},{\"blue\":[\"Das macht Spaß\"]}]}}}",
+    "owner_note": "DE „machen“ znamená najmä „robiť“ alebo podľa kontextu „vyrábať“; opravená je duplicita prekladu aj neslovenský text v tipe."
+  },
+  "g2/a1/sk|Mai|idx:389|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Máj",
+    "owner_note": "DE „Mai“ označuje mesiac máj; „Sila“ je významovo nesprávne."
+  },
+  "g2/a1/sk|Mal|idx:390|translation; study.tip; study.sectionAccents|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Raz\",\"study\":{\"translation\":\"Raz\",\"tip\":{\"text\":\"Pamätajte: das Mal = raz alebo príležitosť • mal bez člena = hovorová častica.\"},\"sectionAccents\":{\"explanation\":{\"blue\":[\"das Mal\",\"ein Mal\",\"zwei Mal\",\"das erste Mal\"]},\"examples\":[{\"de\":{\"blue\":[\"erste Mal\"]},\"lv\":{}},{\"de\":{\"blue\":[\"zwei Mal\"]},\"lv\":{}},{\"de\":{\"blue\":[\"Ein Mal\"]},\"lv\":{}},{\"de\":{\"blue\":[\"ein Mal\"]},\"lv\":{}}],\"tip\":{\"blue\":[\"das Mal\",\"mal\"],\"purple\":[\"Pamätajte\",\"Pamätajte\"]},\"important\":[{\"blue\":[\"das Mal\",\"die Male\"]},{\"blue\":[\"ein Mal\",\"zwei Mal\"]},{\"blue\":[\"mal\"],\"purple\":[\"das Mal\"]}]}}}",
+    "owner_note": "DE „Mal“ v tomto význame znamená „raz“ alebo „príležitosť“, nie slovenské „čas“."
+  },
+  "g2/a1/sk|malen|a1.card.malen.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Maľovať • Natierať",
+    "owner_note": "DE „malen“ má význam „maľovať“ aj „natierať“; opakované „Maľovať“ neposkytuje druhý slovenský preklad."
+  },
+  "g2/a1/sk|malen|idx:391|lv|DUPLICATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Maľovať • Natierať",
+    "owner_note": "DE „malen“ vyžaduje dva odlíšené slovenské významy; druhý preklad má byť „natierať“, nie duplicita."
+  },
+  "g2/a1/sk|müssen|idx:423|lv, study|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Musieť\",\"study\":{\"translation\":\"Musieť\",\"explanation\":[\"Hlavná myšlienka: müssen vyjadruje povinnosť alebo nutnosť niečo urobiť.\",\"V nemeckej vete je druhé sloveso zvyčajne na poslednom mieste.\",\"Na úrovni A1 je najdôležitejšou formou Ich muss... = Musím...\"],\"examples\":[{\"de\":\"Ich muss gehen.\",\"lv\":\"Musím ísť.\"},{\"de\":\"Du musst warten.\",\"lv\":\"Musíš počkať.\"},{\"de\":\"Wir müssen lernen.\",\"lv\":\"Musíme sa učiť.\"},{\"de\":\"Ich muss heute arbeiten.\",\"lv\":\"Dnes musím pracovať.\"}],\"comparison\":[{\"word\":\"müssen\",\"meaning\":\"musieť\",\"example\":\"Ich muss gehen.\"},{\"word\":\"können\",\"meaning\":\"môcť / vedieť\",\"example\":\"Ich kann kommen.\"},{\"word\":\"wollen\",\"meaning\":\"chcieť\",\"example\":\"Ich will nach Hause.\"},{\"word\":\"dürfen\",\"meaning\":\"smieť\",\"example\":\"Darf ich gehen?\"}],\"tip\":{\"text\":\"Pamätajte si: I must... = musím...\"},\"important\":[\"Müssen je modálne sloveso.\",\"Druhé sloveso je zvyčajne na konci vety: Ich muss heute arbeiten.\"],\"sectionAccents\":{\"explanation\":{\"blue\":[\"müssen\",\"Ich muss\"]},\"examples\":[{\"de\":{\"blue\":[\"muss\",\"gehen\"]},\"lv\":{}},{\"de\":{\"blue\":[\"musst\",\"warten\"]},\"lv\":{}},{\"de\":{\"blue\":[\"müssen\",\"lernen\"]},\"lv\":{}},{\"de\":{\"blue\":[\"muss\",\"arbeiten\"]},\"lv\":{}}],\"comparison\":[{\"word\":{\"green\":[\"müssen\"]},\"meaning\":{\"blue\":[\"musieť\"]},\"example\":{\"blue\":[\"Musím\"]}},{\"word\":{\"green\":[\"können\"]},\"meaning\":{\"blue\":[\"môcť\",\"vedieť\"]},\"example\":{}},{\"word\":{\"green\":[\"wollen\"]},\"meaning\":{\"blue\":[\"chcieť\"]},\"example\":{}},{\"word\":{\"green\":[\"dürfen\"]},\"meaning\":{\"blue\":[\"smieť\"]},\"example\":{\"red\":[\"Smieť\"]}}]},\"tip\":{\"left\":{\"blue\":[\"Pamätajte\"]}},\"important\":[{\"blue\":[\"müssen\"],\"purple\":[\"Musieť\"]},{\"blue\":[\"muss\",\"arbeiten\"]}]}}}",
+    "owner_note": "DE „müssen“ je modálne sloveso s významom „musieť“; pôvodný obsah obsahoval nesprávne významy a cudzojazyčné formulácie."
+  },
+  "g2/a1/sk|nach|idx:426|lv, study|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Do • Po\",\"study\":{\"translation\":\"Do • Po\",\"explanation\":[\"Hlavná myšlienka: nach sa používa pri smerovaní na miesto a vo význame po.\",\"Pri mestách a krajinách bez člena nach často znamená do.\",\"Pri časovej následnosti nach znamená po.\",\"Vo fráze nach Hause znamená domov.\"],\"examples\":[{\"de\":\"Ich fahre nach Berlin.\",\"lv\":\"Idem do Berlína.\"},{\"de\":\"Wir gehen nach Hause.\",\"lv\":\"Ideme domov.\"},{\"de\":\"Nach dem Essen gehen wir spazieren.\",\"lv\":\"Po jedle ideme na prechádzku.\"},{\"de\":\"Es ist zehn nach acht.\",\"lv\":\"Je desať minút po ôsmej.\"}],\"comparison\":[{\"word\":\"nach\",\"meaning\":\"do / po\",\"example\":\"Ich fahre nach Berlin.\"},{\"word\":\"zu\",\"meaning\":\"k / do\",\"example\":\"Ich gehe zum Arzt.\"},{\"word\":\"in\",\"meaning\":\"do / v\",\"example\":\"Ich gehe in die Schule.\"},{\"word\":\"vor\",\"meaning\":\"pred\",\"example\":\"Vor dem Essen wasche ich die Hände.\"}],\"tip\":{\"text\":\"Pamätajte: nach Hause • nach Berlin • nach dem Essen.\"},\"important\":[\"Nach sa nepoužíva pri všetkých miestach.\",\"Pri škole sa používa in die Schule, nie nach Schule.\"],\"sectionAccents\":{\"explanation\":{\"blue\":[\"nach\",\"nach Hause\"]},\"examples\":[{\"de\":{\"blue\":[\"nach\"],\"green\":[\"Berlin\"]},\"lv\":{\"green\":[\"Berlína\"]}},{\"de\":{\"blue\":[\"nach Hause\"]},\"lv\":{}},{\"de\":{\"blue\":[\"Nach\"],\"yellow\":[\"Essen\"]},\"lv\":{}},{\"de\":{\"blue\":[\"nach\"]},\"lv\":{}}],\"comparison\":[{\"word\":{\"green\":[\"nach\"]},\"meaning\":{\"blue\":[\"do / po\"]},\"example\":{\"blue\":[\"nach\"]}},{\"word\":{\"green\":[\"zu\"]},\"meaning\":{},\"example\":{\"yellow\":[\"zum Arzt\"]}},{\"word\":{\"green\":[\"in\"]},\"meaning\":{},\"example\":{\"green\":[\"in die Schule\"]}},{\"word\":{\"green\":[\"vor\"]},\"meaning\":{},\"example\":{\"red\":[\"Vor\"]}}]},\"tip\":{\"left\":{\"blue\":[\"nach Hause\",\"nach\"],\"purple\":[\"Pamätajte\"]}},\"important\":[{\"blue\":[\"nach\"]},{\"red\":[\"nach Schule\"]}]}}}",
+    "owner_note": "DE „nach“ znamená „do“ pri smerovaní a „po“ pri časovej následnosti; pôvodný obsah obsahoval lotyšské a nepresné formulácie."
+  },
+  "g2/a1/sk|natürlich|idx:433|lv, study|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Samozrejme • Prirodzený\",\"study\":{\"translation\":\"Samozrejme • Prirodzený\",\"explanation\":[\"Hlavná myšlienka: natürlich ako príslovka znamená samozrejme, ako prídavné meno znamená prirodzený.\",\"V rozhovore alebo pri potvrdení natürlich znamená samozrejme.\",\"Pri opise vlastnosti alebo pôvodu natürlich znamená prirodzený alebo prírodný.\",\"Kontext určuje správny význam.\"],\"examples\":[{\"de\":\"Kommst du mit? – Natürlich!\",\"lv\":\"Ideš so mnou? – Samozrejme!\"},{\"de\":\"Das ist eine natürliche Reaktion.\",\"lv\":\"Je to prirodzená reakcia.\"},{\"de\":\"Natürlich helfe ich dir.\",\"lv\":\"Samozrejme ti pomôžem.\"},{\"de\":\"Sie hat natürliche rote Haare.\",\"lv\":\"Má prirodzene ryšavé vlasy.\"},{\"de\":\"Natürlich kann ich das machen.\",\"lv\":\"Samozrejme, že to môžem urobiť.\"},{\"de\":\"Das ist ganz natürlich.\",\"lv\":\"To je úplne prirodzené.\"}],\"tip\":[\"Ako samostatné slovo pri potvrdení znamená samozrejme.\",\"Pri podstatnom mene opisuje prirodzený alebo prírodný pôvod či vlastnosť.\"],\"important\":[\"Natürlich = samozrejme alebo prirodzený.\",\"Samostatné zvolanie Natürlich! sa prekladá ako Samozrejme!\"],\"sectionAccents\":{\"explanation\":{\"blue\":[\"natürlich\"]},\"examples\":[{\"de\":{\"blue\":[\"Natürlich\"]},\"lv\":{}},{\"de\":{\"green\":[\"natürliche\"]},\"lv\":{}},{\"de\":{\"blue\":[\"Natürlich\"]},\"lv\":{}},{\"de\":{\"green\":[\"natürliche\"]},\"lv\":{}},{\"de\":{\"blue\":[\"Natürlich\"]},\"lv\":{}},{\"de\":{\"green\":[\"natürlich\"]},\"lv\":{}}],\"tip\":[{},{}],\"important\":[{}, {\"blue\":[\"Samozrejme\"]}]}}}",
+    "owner_note": "DE „natürlich“ má v karte dva významy: príslovkové „samozrejme“ a prídavné „prirodzený“; slovenský tvar musí byť gramaticky správny."
+  },
+  "g2/a1/sk|neben|idx:434|lv|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Vedľa",
+    "owner_note": "DE „neben“ znamená priestorovo „vedľa“, nie všeobecné „blízko“."
+  },
+  "g2/a1/sk|nehmen|idx:435|lv, study|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Vziať • Zobrať\",\"study\":{\"translation\":\"Vziať • Zobrať\",\"explanation\":[\"Hlavná myšlienka: nehmen znamená vziať alebo zobrať.\",\"Nehmen sa používa, keď si niečo beriete alebo si niečo vyberáte.\",\"Nie je to to isté ako bringen, ktoré znamená priniesť alebo doniesť niečo niekomu.\",\"Holen znamená ísť po niečo alebo niekoho vyzdvihnúť.\"],\"examples\":[{\"de\":\"Ich nehme den Bus.\",\"lv\":\"Idem autobusom.\"},{\"de\":\"Nimm das Buch!\",\"lv\":\"Vezmi si tú knihu!\"},{\"de\":\"Ich bringe dir das Buch.\",\"lv\":\"Prinesiem ti tú knihu.\"},{\"de\":\"Ich hole dich ab.\",\"lv\":\"Prídem po teba.\"}],\"comparison\":[{\"word\":\"nehmen\",\"meaning\":\"vziať / zobrať\",\"example\":\"Nimm das Buch!\"},{\"word\":\"bringen\",\"meaning\":\"priniesť / doniesť\",\"example\":\"Ich bringe dir das Buch.\"},{\"word\":\"holen\",\"meaning\":\"ísť po / vyzdvihnúť\",\"example\":\"Ich hole Wasser.\"},{\"word\":\"mitnehmen\",\"meaning\":\"vziať so sebou\",\"example\":\"Ich nehme dich mit.\"}],\"tip\":{\"text\":\"Zapamätaj si: vziať si pre seba → nehmen • priniesť niekomu → bringen.\"},\"important\":[\"Ich nehme den Bus znamená cestujem autobusom alebo idem autobusom.\",\"Nehmen nie je to isté ako bringen.\"],\"sectionAccents\":{\"explanation\":{\"blue\":[\"nehmen\"],\"red\":[\"holen\"]},\"examples\":[{\"de\":{\"blue\":[\"nehme\"],\"yellow\":[\"Bus\"]},\"lv\":{\"yellow\":[\"autobusom\"]}},{\"de\":{\"blue\":[\"Nimm\"],\"yellow\":[\"Buch\"]},\"lv\":{}},{\"de\":{\"red\":[\"bringe\"],\"yellow\":[\"Buch\"]},\"lv\":{}},{\"de\":{\"red\":[\"hole\"],\"green\":[\"dich\"]},\"lv\":{}}],\"comparison\":[{\"word\":{\"green\":[\"nehmen\"]},\"meaning\":{},\"example\":{\"blue\":[\"Nimm\"]}},{\"word\":{\"green\":[\"bringen\"]},\"meaning\":{},\"example\":{\"red\":[\"bringe\"]}},{\"word\":{\"green\":[\"holen\"]},\"meaning\":{},\"example\":{}},{\"word\":{\"green\":[\"mitnehmen\"]},\"meaning\":{},\"example\":{\"green\":[\"nehme\",\"mit\"]}}],\"tip\":{\"left\":{\"blue\":[\"nehmen\"],\"purple\":[\"Zapamätaj\"]}},\"important\":[{\"blue\":[\"nehme den Bus\"]},{\"blue\":[\"nehmen\"]}]}}}",
+    "owner_note": "DE „nehmen“ znamená „vziať“ alebo „zobrať“; pôvodný materiál obsahoval nesprávne a miestami cudzojazyčné formulácie."
+  },
+  "g2/a1/sk|nennen|idx:437|lv|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Nazvať",
+    "owner_note": "DE „nennen“ znamená „nazvať“ alebo „pomenovať“; imperatív „Zavolajte“ je nesprávny význam."
+  },
+  "g2/a1/sk|nett|idx:438|lv|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Milý",
+    "owner_note": "DE „nett“ znamená „milý“ alebo „príjemný“, nie ženský tvar „pekná“."
+  },
+  "g2/a1/sk|neu|idx:439|lv, study|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Nový (o veciach)\",\"study\":{\"id\":\"a1-neu\",\"layout\":\"standardStudy\",\"translation\":\"Nový (o veciach)\",\"explanation\":[\"Hlavná myšlienka: neu znamená novú vec – nedávno vytvorenú, zakúpenú alebo prvýkrát použitú.\",\"Neu opisuje veci, spotrebiče, oblečenie, domy, nápady atď. – nie vek človeka alebo zvieraťa.\",\"V nemčine sa rozlišuje medzi neu pre veci a jung pre vek človeka alebo zvieraťa.\",\"Pre vek človeka alebo zvieraťa sa používa jung, nie neu.\",\"Neu sa používa aj obrazne: nová práca, nové informácie, nový začiatok.\",\"Opakom je alt (starý) • Podstatné meno das Neue znamená niečo nové.\"],\"examples\":[{\"de\":\"Mein Handy ist neu.\",\"lv\":\"Môj telefón je nový.\"},{\"de\":\"Wir haben ein neues Auto.\",\"lv\":\"Máme nové auto.\"},{\"de\":\"Das ist meine neue Wohnung.\",\"lv\":\"Toto je môj nový byt.\"},{\"de\":\"Ich habe neue Schuhe gekauft.\",\"lv\":\"Kúpil som si nové topánky.\"},{\"de\":\"Das ist eine neue Idee.\",\"lv\":\"Toto je nová myšlienka.\"},{\"de\":\"Er hat einen neuen Job.\",\"lv\":\"Má novú prácu.\"},{\"de\":\"Was gibt es Neues?\",\"lv\":\"Čo je nové?\"}],\"tip\":[\"Neu odkazuje na veci, zariadenia a novinky – keď hovoríme o veku človeka, použite jung.\",\"Opak: neu ↔ alt (nový ↔ starý).\"],\"important\":[\"Neu opisuje veci a novinky, nie vek človeka či zvieraťa.\",\"Na určenie veku osoby alebo zvieraťa použite jung namiesto neu.\",\"Nesprávne: Meine Schwester ist neu. → Správne: Meine Schwester ist jung.\"],\"sectionAccents\":{\"explanation\":{\"blue\":[\"neu\"],\"green\":[\"jung\"]},\"examples\":[{\"de\":{\"blue\":[\"neu\"]},\"lv\":{}},{\"de\":{\"blue\":[\"neues\"]},\"lv\":{}},{\"de\":{\"blue\":[\"neue\"]},\"lv\":{}},{\"de\":{\"blue\":[\"neue\"]},\"lv\":{}},{\"de\":{\"blue\":[\"neue\"]},\"lv\":{}},{\"de\":{\"blue\":[\"neuen\"]},\"lv\":{}},{\"de\":{\"blue\":[\"Neues\"]},\"lv\":{}}],\"tip\":[{\"blue\":[\"neu\"],\"green\":[\"jung\"]},{\"blue\":[\"neu\"],\"purple\":[\"alt\"]}],\"important\":[{\"blue\":[\"neu\"]},{\"green\":[\"jung\"],\"blue\":[\"neu\"]},{\"blue\":[\"neu\"],\"green\":[\"jung\"]}]}}}",
+    "owner_note": "DE „neu“ znamená „nový“ pri veciach; opravený slovenský obsah používa prirodzený slovenský preklad a odlišuje ho od „jung“."
+  },
+  "g2/a1/sk|neunte|idx:442|lv|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "DE „neunte“ je radová číslovka „deviaty“ a aktuálne slovenské „Deviaty“ je správne."
+  },
+  "g2/a1/sk|neunzehnte|idx:444|lv|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "DE „neunzehnte“ znamená „devätnásty“ a aktuálne slovenské „Devätnásty“ je správne."
+  },
+  "g2/a1/sk|neunzigste|idx:446|lv|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "DE „neunzigste“ znamená „deväťdesiaty“ a aktuálne slovenské „Deväťdesiaty“ je správne."
+  },
+  "g2/a1/sk|nicht|idx:447|lv|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Nie",
+    "owner_note": "DE „nicht“ sa po slovensky prekladá ako „nie“; upravuje sa aj neprirodzené písanie celým veľkým písmom."
+  },
+  "g2/a1/sk|nichts|idx:448|lv|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Nič",
+    "owner_note": "DE „nichts“ znamená „nič“, zatiaľ čo „niť“ označuje vlákno alebo špagát."
+  },
+  "g2/a1/sk|noch|idx:451|lv, study.translation, study.explanation, study.examples|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Ešte\",\"study\":{\"id\":\"a1-noch-study\",\"layout\":\"standardStudy\",\"translation\":\"Ešte\",\"explanation\":[\"Hlavná myšlienka: stále sa niečo deje alebo ešte neskončilo.\",\"Noch hlavne znamená: ešte stále sa niečo deje.\",\"Často opisuje pokračovanie alebo nedokončený stav.\",\"Noch znamená „ešte“: niečo sa stále deje alebo ešte neskončilo.\"],\"examples\":[{\"de\":\"Ich bin noch zu Hause.\",\"lv\":\"Som ešte stále doma.\"},{\"de\":\"Ich bin noch zu Hause.\",\"lv\":\"Som ešte stále doma.\"},{\"de\":\"Bist du noch da?\",\"lv\":\"Si ešte tu?\"}],\"tip\":[\"Ešte stále sa niečo deje alebo ešte neskončilo.\",\"Použite noch, keď kontext vyjadruje tento význam.\"],\"important\":[\"Noch = ešte.\",\"Stále sa niečo deje alebo ešte neskončilo.\"],\"sectionAccents\":{\"explanation\":{},\"examples\":[{\"de\":{\"green\":[\"noch\",\"noch\"]},\"lv\":{}},{\"de\":{\"green\":[\"noch\",\"noch\"]},\"lv\":{}},{\"de\":{\"green\":[\"noch\",\"noch\"]},\"lv\":{}}],\"tip\":[{}],\"important\":[{\"green\":[\"noch\"]}]}}}",
+    "owner_note": "DE „noch“ v tomto význame znamená „ešte“, nie „už“; opravený je preklad aj súvisiace slovenské vysvetlenie."
+  },
+  "g2/a1/sk|normal|idx:452|lv|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Normálny",
+    "owner_note": "DE „normal“ je prídavné meno v základnom tvare; slovenské „normálny“ je správny tvar, nie príslovka „normálne“."
+  },
+  "g2/a1/sk|November|idx:453|lv|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "November",
+    "owner_note": "DE „November“ označuje názov mesiaca v nominatíve; „novembra“ je iba genitívny tvar."
+  },
+  "g2/a1/sk|nur|idx:456|lv, study.translation, study.explanation, study.examples|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Iba • Len\",\"study\":{\"translation\":\"Iba • Len\",\"explanation\":[\"Hlavná myšlienka: obmedzuje množstvo, počet ľudí, výber alebo možnosti.\",\"Nemecké nur znamená najmä iba alebo len.\",\"Často opisuje, koľko čoho je, čo presne platí alebo kto je jediný.\",\"Nur znamená iba, výlučne, nič viac; obmedzuje množstvo alebo výber.\"],\"examples\":[{\"de\":\"Ich habe nur zehn Euro.\",\"lv\":\"Mám len desať eur.\"},{\"de\":\"Ich habe nur zehn Euro.\",\"lv\":\"Mám len desať eur.\"},{\"de\":\"Nur du kannst mir helfen.\",\"lv\":\"Len ty mi môžeš pomôcť.\"},{\"de\":\"Ich möchte nur Kaffee.\",\"lv\":\"Chcem len kávu.\"},{\"de\":\"Ich habe nur acht Euro.\",\"lv\":\"Mám len osem eur.\"}]}}",
+    "owner_note": "Pri nemeckom slove „nur“ odstraňujem duplicitný preklad a opravujem príklad s chýbajúcou bodkou; prirodzené slovenské ekvivalenty sú „iba“ a „len“."
+  },
+  "g2/a1/sk|ob|idx:457|lv, study.translation, study.explanation, study.tip|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Či\",\"study\":{\"translation\":\"Či\",\"explanation\":[\"Hlavná myšlienka: ob uvádza nepriamu otázku a v slovenčine najčastejšie znamená či.\",\"Ob sa používa po slovách ako fragen, wissen, sehen a sagen, keď nejde o priamu otázku.\",\"Ob sa v nemčine zvyčajne nepoužíva v priamej otázke.\",\"Na úrovni A1 je dôležité rozlíšiť ob od oder.\"],\"tip\":{\"text\":\"Pamätajte: Neviem, či... → ob • Káva alebo čaj? → oder.\"}}}",
+    "owner_note": "Nemecké „ob“ v nepriamej otázke znamená slovenské „či“, nie „alebo“; preto upravujem aj vysvetlenie a tip."
+  },
+  "g2/a1/sk|oben|idx:458|lv|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Hore",
+    "owner_note": "Nemecké príslovkové slovo „oben“ znamená „hore“, zatiaľ čo „vyššie“ vyjadruje porovnávací význam."
+  },
+  "g2/a1/sk|Obst|idx:693|lv, study|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Ovocie\",\"study\":{\"translation\":\"Ovocie\",\"explanation\":[\"Hlavná myšlienka: Obst označuje ovocie všeobecne.\",\"Das Obst znamená ovocie vo všeobecnosti a používa sa najmä v jednotnom čísle.\",\"Pri slove Obst sa bežne hovorí o ovocí ako o celku, nie o jednotlivých druhoch ovocia.\"],\"tip\":[\"Das Obst = ovocie\",\"Použite das Obst, keď hovoríte o ovocí všeobecne.\"],\"important\":[\"Správne je das Obst, nie die Obsts.\",\"Das Obst znamená ovocie vo všeobecnosti.\"]}}",
+    "owner_note": "Pri nemeckom podstatnom mene „Obst“ opravujem chybný tvar „die Obsts“, člen das aj neprirodzené slovenské formulácie; význam zostáva „ovocie“."
+  },
+  "g2/a1/sk|oder|idx:459|lv, study.translation, study.explanation, study.tip, study.important|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Alebo • Či\",\"study\":{\"translation\":\"Alebo • Či\",\"explanation\":[\"Hlavná myšlienka: oder sa používa, keď si vyberáme medzi dvoma alebo viacerými možnosťami.\",\"V slovenčine oder najčastejšie znamená alebo.\",\"Toto nie je to isté ako ob, ktoré uvádza nepriamu otázku.\",\"V rozhovoroch možno oder umiestniť aj na koniec vety: Du kommst, oder?\"],\"tip\":{\"text\":\"Pamätajte: výber medzi možnosťami → alebo.\"},\"important\":[\"Na výber sa používa oder: Kaffee oder Tee.\",\"V nepriamej otázke býva ob, ktoré znamená či.\"]}}",
+    "owner_note": "Pri nemeckom spojovacom slove „oder“ odstraňujem anglické „Or“ a opravujem vetu o „ob“; slovenské významy sú „alebo“ a podľa kontextu aj „či“."
+  },
+  "g2/a1/sk|öffnen|idx:460|lv|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Otvoriť",
+    "owner_note": "Nemecké sloveso „öffnen“ je infinitív „otvoriť“, nie tvar prídavného mena alebo príslovky „otvorené“."
+  },
+  "g2/a1/sk|Ohr|idx:463|lv|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Ucho",
+    "owner_note": "Nemecké podstatné meno „Ohr“ označuje časť tela „ucho“, nie predmet „rukoväť“."
+  },
+  "g2/a1/sk|passen|idx:471|lv, study.translation, study.explanation, study.comparison|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Sedieť • Hodiť sa\",\"study\":{\"translation\":\"Sedieť • Hodiť sa\",\"explanation\":[\"Hlavná myšlienka: passen znamená sedieť, hodiť sa alebo byť vhodný.\",\"Pri oblečení passen často znamená, že oblečenie dobre sedí.\",\"Pri farbách a štýle passen znamená, že sa k niečomu hodia alebo niekomu pristanú.\",\"Častá fráza je Das passt. = Hodí sa to.\"],\"comparison\":[{\"word\":\"passen\",\"meaning\":\"Sedieť alebo hodiť sa\",\"example\":\"Die Jacke passt mir.\"},{\"word\":\"stehen\",\"meaning\":\"Pristať\",\"example\":\"Rot steht dir gut.\"},{\"word\":\"geeignet sein\",\"meaning\":\"Byť vhodný\",\"example\":\"Das ist geeignet.\"},{\"word\":\"funktionieren\",\"meaning\":\"Fungovať\",\"example\":\"Das funktioniert.\"}]}}",
+    "owner_note": "Pri nemeckom slovese „passen“ opravujem duplicitný preklad, anglické „fit“ a chybné významy v porovnaní; podľa kontextu znamená „sedieť“ alebo „hodiť sa“."
+  },
+  "g2/a1/sk|probieren|idx:482|lv and study LV fields|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Vyskúšať • Ochutnať\",\"study\":{\"translation\":\"Vyskúšať • Ochutnať\"}}",
+    "owner_note": "Nemecké sloveso „probieren“ má v slovenčine význam „vyskúšať“ alebo pri jedle „ochutnať“; prázdne slovenské polia preto dopĺňam."
+  },
+  "g2/a1/sk|rechts|a1.card.rechts.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Vpravo • Pravý",
+    "owner_note": "Nemecké slovo „rechts“ znamená smerové „vpravo“ alebo prídavné meno „pravý“, nie „správne“."
+  },
+  "g2/a1/sk|Reis|idx:496|lv and study LV fields|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"ryža\",\"study\":{\"translation\":\"ryža\"}}",
+    "owner_note": "DE „Reis“ znamená po slovensky „ryža“, preto sa odstraňuje prázdna hodnota a dopĺňa sa slovenský preklad."
+  },
+  "g2/a1/sk|richtig|idx:497|lv|MEANING_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "správny",
+    "owner_note": "DE „richtig“ znamená „správny“, nie „normálne“, ktoré vyjadruje príslovku „normalerweise“."
+  },
+  "g2/a1/sk|Rose|idx:502|lv|MEANING_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "ruža",
+    "owner_note": "DE „Rose“ má v slovenčine význam „ruža“; ponechaný tvar „Rose“ je nemecký, nie slovenský."
+  },
+  "g2/a1/sk|sagen|idx:505|lv and study LV fields|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"povedať\",\"study\":{\"translation\":\"povedať\"}}",
+    "owner_note": "DE „sagen“ sa po slovensky prekladá ako „povedať“, preto sa prázdne cieľové polia dopĺňajú slovenským infinitívom."
+  },
+  "g2/a1/sk|schauen|idx:510|lv and study LV fields|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"pozerať sa\",\"study\":{\"translation\":\"pozerať sa\"}}",
+    "owner_note": "DE „schauen“ znamená „pozerať sa“; dopĺňa sa prirodzený slovenský zvratný infinitív namiesto prázdnych polí."
+  },
+  "g2/a1/sk|Schnee|idx:517|lv|MEANING_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "sneh",
+    "owner_note": "DE „Schnee“ je podstatné meno „sneh“, nie veta „Bude sneh“."
+  },
+  "g2/a1/sk|schon|idx:521|lv and study LV fields|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"už\",\"study\":{\"translation\":\"už\"}}",
+    "owner_note": "DE „schon“ sa v tomto základnom význame prekladá ako slovenské príslovkové „už“, preto sa dopĺňajú obe cieľové polia."
+  },
+  "g2/a1/sk|sicher|idx:548|lv, study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Bezpečný • Určite\",\"study\":{\"id\":\"a1-sicher\",\"layout\":\"standardStudy\",\"translation\":\"Bezpečný • Určite\",\"explanation\":[\"Hlavná myšlienka: sicher ako prídavné meno znamená bezpečný, ako príslovka znamená určite alebo pravdepodobne.\",\"Keď hovoríme o mieste, situácii alebo osobe, sicher znamená bezpečný (ein sicherer Ort = bezpečné miesto).\",\"Ako potvrdenie alebo uistenie vo vete sicher znamená určite alebo pravdepodobne (Das ist sicher wahr. = To je určite pravda.).\",\"Sicher! ako samostatná odpoveď znamená Iste! alebo Samozrejme!\"],\"examples\":[{\"de\":\"Ist das Wasser sicher?\",\"lv\":\"Je tá voda bezpečná?\"},{\"de\":\"Kommst du morgen? – Sicher!\",\"lv\":\"Prídeš zajtra? – Iste!\"},{\"de\":\"Er ist sicher zu Hause.\",\"lv\":\"Asi je doma.\"},{\"de\":\"Das ist eine sichere Lösung.\",\"lv\":\"Toto je bezpečné riešenie.\"},{\"de\":\"Ich bin mir sicher.\",\"lv\":\"Som si istý.\"},{\"de\":\"Fahr sicher!\",\"lv\":\"Jazdi bezpečne!\"}],\"tip\":[\"O mieste alebo situácii, kde ide o bezpečnosť, použite bezpečný.\",\"Pri vyjadrení presvedčenia alebo potvrdenia použite určite alebo pravdepodobne.\"],\"important\":[\"Sicher znamená bezpečný ako prídavné meno alebo určite či pravdepodobne ako príslovka.\",\"Sich sicher sein znamená byť si istý.\"] ,\"sectionAccents\":{\"explanation\":{\"blue\":[\"sicher\"]},\"examples\":[{\"de\":{\"blue\":[\"sicher\"]},\"lv\":{}},{\"de\":{\"green\":[\"Sicher\"]},\"lv\":{}},{\"de\":{\"green\":[\"sicher\"]},\"lv\":{}},{\"de\":{\"blue\":[\"sichere\"]},\"lv\":{}},{\"de\":{\"green\":[\"sicher\"]},\"lv\":{}},{\"de\":{\"blue\":[\"sicher\"]},\"lv\":{}}],\"tip\":[{},{}],\"important\":[{},{}]}}}",
+    "owner_note": "DE „sicher“ má významy „bezpečný“ a „určite/pravdepodobne“; opravuje sa rod, nepresné vysvetlenie aj slovenské vetné preklady."
+  },
+  "g2/a1/sk|sie|idx:549|lv, study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"oni / ony\",\"study\":{\"id\":\"a1-sie-study\",\"layout\":\"standardStudy\",\"translation\":\"oni / ony\",\"explanation\":[\"Hlavná myšlienka: sie znamená oni alebo ony, teda viac ako jednu osobu. Sloveso je v množnom čísle a často končí na -en: kochen, essen, gehen.\",\"Malé sie môže podľa kontextu znamenať aj ona alebo ju; v tomto kartičkovom význame však znamená oni alebo ony.\",\"Pri význame oni alebo ony stojí sloveso v množnom čísle: Sie kochen = Oni varia.\",\"Význam závisí od kontextu a od tvaru slovesa.\"],\"examples\":[{\"de\":\"Sie kochen.\",\"lv\":\"Oni varia.\"},{\"de\":\"Sie kocht.\",\"lv\":\"Ona varí.\"},{\"de\":\"Sie isst.\",\"lv\":\"Ona je.\"},{\"de\":\"Sie kochen.\",\"lv\":\"Oni varia.\"},{\"de\":\"Sie spielen Fußball.\",\"lv\":\"Oni hrajú futbal.\"},{\"de\":\"Sie kochen, bitte.\",\"lv\":\"Varte, prosím.\"}],\"tip\":[\"Pri množnom čísle sie označuje viac ako jednu osobu a sloveso je v množnom čísle, napríklad kochen, essen alebo gehen.\",\"Význam určite podľa kontextu a podľa tvaru slovesa.\"],\"important\":[\"Sie s veľkým S môže znamenať aj zdvorilé vykanie; malé sie v tomto význame znamená oni alebo ony.\",\"Sie kochen = Oni varia, ale Sie kocht = Ona varí.\"] ,\"sectionAccents\":{\"explanation\":{\"green\":[\"sie\",\"kochen\"]},\"examples\":[{\"de\":{\"green\":[\"sie\",\"sie\"]},\"lv\":{}},{\"de\":{\"blue\":[\"sie\",\"sie\"]},\"lv\":{}},{\"de\":{\"blue\":[\"sie\",\"sie\"]},\"lv\":{}},{\"de\":{\"green\":[\"sie\",\"sie\"]},\"lv\":{}},{\"de\":{\"green\":[\"sie\",\"sie\"]},\"lv\":{}},{\"de\":{\"yellow\":[\"sie\"]},\"lv\":{}}],\"tip\":[{}],\"important\":[{\"green\":[\"sie\"]}]}}}",
+    "owner_note": "DE „sie“ v danom význame znamená „oni/ony“; opravuje sa nesprávne „ona“, nepresné vysvetlenie a vetné preklady."
+  },
+  "g2/a1/sk|Sie|idx:550|lv, study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"vy\",\"study\":{\"id\":\"a1-sie-study-2\",\"layout\":\"standardStudy\",\"translation\":\"vy\",\"explanation\":[\"Hlavná myšlienka: Sie s veľkým S je zdvorilostné oslovenie, ktoré po slovensky prekladáme ako vy.\",\"Pri zdvorilostnom oslovení stojí sloveso v tvare množného čísla: Sie kochen = Vy varíte.\",\"Sie s veľkým S môže podľa kontextu označovať jednu alebo viac osôb, ktorým vykáme.\",\"Malé sie má iný význam: môže znamenať ona, ju alebo oni/ony.\"],\"examples\":[{\"de\":\"Sie kochen, bitte.\",\"lv\":\"Varíte, prosím?\"},{\"de\":\"Sie kocht.\",\"lv\":\"Ona varí.\"},{\"de\":\"Sie isst.\",\"lv\":\"Ona je.\"},{\"de\":\"Sie kochen.\",\"lv\":\"Oni varia.\"},{\"de\":\"Sie spielen Fußball.\",\"lv\":\"Oni hrajú futbal.\"},{\"de\":\"Sie kochen, bitte.\",\"lv\":\"Varíte, prosím.\"}],\"tip\":[\"Použite Sie s veľkým S pri zdvorilostnom oslovení; v slovenčine ho prekladáme ako vy.\",\"Pri tomto význame má sloveso tvar množného čísla, napríklad Sie kochen = Vy varíte.\"],\"important\":[\"Zdvorilostné Sie sa vždy píše s veľkým S.\",\"Sie kochen môže znamenať Vy varíte alebo Oni varia; rozhoduje kontext.\",\"Sie kocht znamená Ona varí, nie zdvorilostné Sie.\"] ,\"sectionAccents\":{\"explanation\":{\"yellow\":[\"Sie\",\"kocht\"]},\"examples\":[{\"de\":{\"yellow\":[\"Sie\",\"sie\"]},\"lv\":{}},{\"de\":{\"yellow\":[\"Sie\",\"sie\"]},\"lv\":{}},{\"de\":{\"yellow\":[\"Sie\",\"sie\"]},\"lv\":{}},{\"de\":{\"yellow\":[\"Sie\",\"sie\"]},\"lv\":{}},{\"de\":{\"yellow\":[\"Sie\",\"sie\"]},\"lv\":{}},{\"de\":{\"yellow\":[\"Sie\",\"sie\"]},\"lv\":{}}],\"tip\":[{}],\"important\":[{\"yellow\":[\"Sie\"]}]}}}",
+    "owner_note": "DE „Sie“ je zdvorilostné oslovenie „vy“; opravujú sa lotyšské alebo chybné formulácie, pravopis „veľkým S“ a významy príkladov."
+  }
+}
