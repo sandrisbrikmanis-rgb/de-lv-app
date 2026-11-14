@@ -3,7 +3,7 @@
  * Regression guard for the LT-DE visual-equivalence audit (2026-07-29):
  * verifies that every LT study card's examples/tip/important section has
  * highlight coverage wherever the LV original has it. Missing highlights
- * render as plain/uncolored text (STUDY_CARD_RULES.md violation).
+ * render as plain/uncolored text (PROJECT_LANGUAGE_MASTER_STANDARD.md §4.2 violation).
  *
  * Run: node scripts/validate-lt-highlight-density.js
  */

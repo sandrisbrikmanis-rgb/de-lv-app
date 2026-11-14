@@ -2,7 +2,7 @@
 /**
  * Comprehensive {lang}-DE study card and flashcard routing validation.
  * Generalized from the LT-specific validate-lt-study-design.js per
- * docs_and_rules/LANGUAGE_AUDIT_STANDARD.md §5.
+ * PROJECT_LANGUAGE_MASTER_STANDARD.md §7.7.
  *
  * Run: node scripts/validate-study-design.js --lang=lt
  *      node scripts/validate-study-design.js --lang=lv
