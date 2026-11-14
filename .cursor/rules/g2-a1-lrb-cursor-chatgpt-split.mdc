@@ -1,0 +1,43 @@
+# G2 A1 LRB — Cursor ↔ ChatGPT operating split
+
+## Core rule (mandatory)
+
+**Cursor = repo operator. ChatGPT = linguistic authority (PDF FULL_50_50).**
+
+Never blur these roles.
+
+## Cursor MAY do
+
+1. **Batch prep** — input CSV, manifest (`owner_authorization_status: APPROVED`), index, SHA alignment.
+2. **Copy/paste only** — insert ChatGPT-provided `owner_new`, `owner_decision`, `owner_note` into `scripts/data/g2-a1-owner-pending/LRB-###-decisions.json` exactly as given. No reinterpretation.
+3. **Technical artifacts** — run `build-g2-a1-owner-pending-batch-decisions.js`, anti-bulk, fresh proof from POST-PASTE merge.
+4. **Status / proof JSON** — `owner-authorization-proof.json`, `status-index.json` with `PENDING_LINGUISTIC_REVIEW` until ChatGPT PASS.
+5. **Git** — commit, push, PR. Scope guard: no `data/`, Crowdin, ingest, apply unless explicitly tasked.
+
+## Cursor MUST NOT do
+
+- Build or rely on **repair engines** to invent `owner_new` from production when ChatGPT will supply decisions.
+- Perform **linguistic analysis**, semantic interpretation, or “fix” target-language content.
+- Claim **`LRB_XXX_FULL_50_50_LINGUISTIC_REVIEW_PASS`** or `LINGUISTICALLY_CLOSED` without explicit ChatGPT/Gala verdict.
+- Use mechanical audit `exit 0` / `0 violations` as substitute for ChatGPT PDF review.
+- Multi-round **semantic repair rounds** (round 2b, 2c, etc.) unless ChatGPT issues a new copy/paste task.
+
+## ChatGPT responsibility (PDF)
+
+- FULL_50_50 audit of all 50 rows and full merged cards per attached PDF standard.
+- All LABOT/NELABOT/PENDING decisions and exact replacement values.
+- Single consolidated repair task when possible (all errors + copy/paste in one pass).
+- Final verification and PASS verdict.
+
+## Workflow
+
+```
+Cursor (1)     batch + artifacts → PENDING_LINGUISTIC_REVIEW
+ChatGPT (2–3)  PDF audit + decisions + copy/paste task
+Cursor (4)     paste decisions → build → anti-bulk → fresh proof
+ChatGPT (5)    verify → PASS or new paste task
+```
+
+## Anti-pattern
+
+LRB-021-style repair engine generating 50 LABOT from production **before** ChatGPT review is **deprecated** unless user explicitly requests engine-based prep.
