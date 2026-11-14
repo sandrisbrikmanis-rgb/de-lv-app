@@ -84,29 +84,29 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gebissen",
-      "lv": "hammustanud"
+      "lv": "hammustatud"
     }
   },
   {
     "infinitiv": {
       "de": "bergen",
-      "lv": "päästma"
+      "lv": "päästma / peitma"
     },
     "praesens": {
       "de": "er birgt",
-      "lv": "ta peidab"
+      "lv": "ta päästab / peidab"
     },
     "imperfektIndikativ": {
       "de": "er barg",
-      "lv": "ta peitis"
+      "lv": "ta päästis / peitis"
     },
     "imperfektKonjunktiv": {
       "de": "er bürge / er bärge",
-      "lv": "ta peidaks"
+      "lv": "ta päästaks / peidaks"
     },
     "partizipVergangenheit": {
       "de": "geborgen",
-      "lv": "päästnud"
+      "lv": "päästetud / peidetud"
     }
   },
   {
@@ -116,15 +116,15 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er birst",
-      "lv": "ta lõhkeb"
+      "lv": "see lõhkeb"
     },
     "imperfektIndikativ": {
       "de": "er barst / er borst",
-      "lv": "ta lõhkes"
+      "lv": "see lõhkes"
     },
     "imperfektKonjunktiv": {
       "de": "er bärste / er börste",
-      "lv": "ta lõhkeks"
+      "lv": "see lõhkeks"
     },
     "partizipVergangenheit": {
       "de": "geborsten (er ist)",
@@ -194,7 +194,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "geboten",
-      "lv": "pakkunud"
+      "lv": "pakutud"
     }
   },
   {
@@ -304,7 +304,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "geboren",
-      "lv": "sündinud"
+      "lv": "sünnitatud"
     }
   },
   {
@@ -332,23 +332,23 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "gelten",
-      "lv": "kehtima"
+      "lv": "kõlbama / kehtima"
     },
     "praesens": {
       "de": "er gilt",
-      "lv": "ta kehtib"
+      "lv": "ta kõlbab / kehtib"
     },
     "imperfektIndikativ": {
       "de": "er galt",
-      "lv": "ta kehtis"
+      "lv": "ta kõlbas / kehtis"
     },
     "imperfektKonjunktiv": {
       "de": "er gölte / es gälte",
-      "lv": "see kehtiks"
+      "lv": "ta kõlbaks / kehtiks"
     },
     "partizipVergangenheit": {
       "de": "gegolten",
-      "lv": "kehtinud"
+      "lv": "kõlvanud / kehtinud"
     }
   },
   {
@@ -490,15 +490,15 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er glimmt",
-      "lv": "ta hõõgub"
+      "lv": "see hõõgub"
     },
     "imperfektIndikativ": {
       "de": "er glimmte / glomm",
-      "lv": "ta hõõgus"
+      "lv": "see hõõgus"
     },
     "imperfektKonjunktiv": {
       "de": "er glimmte",
-      "lv": "ta hõõguks"
+      "lv": "see hõõguks"
     },
     "partizipVergangenheit": {
       "de": "geglimmt / geglommen",
@@ -546,7 +546,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gegriffen",
-      "lv": "haaranud"
+      "lv": "haaratud"
     }
   },
   {
@@ -596,23 +596,23 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "kennen",
-      "lv": "tundma"
+      "lv": "tundma / teadma"
     },
     "praesens": {
       "de": "er kennt",
-      "lv": "ta tunneb"
+      "lv": "ta tunneb / teab"
     },
     "imperfektIndikativ": {
       "de": "kannte",
-      "lv": "ta tundis"
+      "lv": "ta tundis / teadis"
     },
     "imperfektKonjunktiv": {
       "de": "kannte",
-      "lv": "ta tunneks"
+      "lv": "ta tunneks / teaks"
     },
     "partizipVergangenheit": {
       "de": "gekannt",
-      "lv": "tundnud"
+      "lv": "tuntud / teatud"
     }
   },
   {
@@ -622,15 +622,15 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er klingt",
-      "lv": "ta kõlab"
+      "lv": "see kõlab"
     },
     "imperfektIndikativ": {
       "de": "er klang",
-      "lv": "ta kõlas"
+      "lv": "see kõlas"
     },
     "imperfektKonjunktiv": {
       "de": "er klänge",
-      "lv": "ta kõlaks"
+      "lv": "see kõlaks"
     },
     "partizipVergangenheit": {
       "de": "geklungen",
@@ -684,23 +684,23 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "bleichen",
-      "lv": "pleegitama"
+      "lv": "pleekima"
     },
     "praesens": {
       "de": "er bleicht",
-      "lv": "ta pleegitab"
+      "lv": "see pleegib"
     },
     "imperfektIndikativ": {
       "de": "blich",
-      "lv": "ta pleegitas"
+      "lv": "see pleekis"
     },
     "imperfektKonjunktiv": {
       "de": "blich",
-      "lv": "ta pleegitaks"
+      "lv": "see pleegiks"
     },
     "partizipVergangenheit": {
       "de": "geblichen",
-      "lv": "pleegitatud"
+      "lv": "pleekinud"
     }
   },
   {
@@ -710,19 +710,19 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er brät",
-      "lv": "ta küpsetab"
+      "lv": "ta praeb"
     },
     "imperfektIndikativ": {
       "de": "er briet",
-      "lv": "ta küpsetas"
+      "lv": "ta praadis"
     },
     "imperfektKonjunktiv": {
       "de": "er briete",
-      "lv": "ta küpsetaks"
+      "lv": "ta praeks"
     },
     "partizipVergangenheit": {
       "de": "gebraten",
-      "lv": "küpsetatud"
+      "lv": "praetud"
     }
   },
   {
@@ -744,7 +744,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gebrochen",
-      "lv": "murdnud"
+      "lv": "murtud"
     }
   },
   {
@@ -754,15 +754,15 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er brennt",
-      "lv": "ta põleb"
+      "lv": "see põleb"
     },
     "imperfektIndikativ": {
       "de": "brannte",
-      "lv": "ta põles"
+      "lv": "see põles"
     },
     "imperfektKonjunktiv": {
       "de": "brannte",
-      "lv": "ta põleks"
+      "lv": "see põleks"
     },
     "partizipVergangenheit": {
       "de": "gebrannt",
@@ -788,7 +788,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gebracht",
-      "lv": "toonud"
+      "lv": "toodud"
     }
   },
   {
@@ -816,23 +816,23 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "dingen",
-      "lv": "palkama"
+      "lv": "palkama / kokku leppima"
     },
     "praesens": {
       "de": "er dingt",
-      "lv": "ta palkab"
+      "lv": "ta palkab / lepib kokku"
     },
     "imperfektIndikativ": {
       "de": "dingte",
-      "lv": "ta palkas"
+      "lv": "ta palkas / leppis kokku"
     },
     "imperfektKonjunktiv": {
       "de": "dingte",
-      "lv": "ta palkaks"
+      "lv": "ta palkaks / lepiks kokku"
     },
     "partizipVergangenheit": {
       "de": "gedungen",
-      "lv": "palgatud"
+      "lv": "palgatud / kokku lepitud"
     }
   },
   {
@@ -948,7 +948,7 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "empfinden",
-      "lv": "tajuma"
+      "lv": "tundma"
     },
     "praesens": {
       "de": "er empfindet",
@@ -974,15 +974,15 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er erlischt",
-      "lv": "ta kustub"
+      "lv": "see kustub"
     },
     "imperfektIndikativ": {
       "de": "er erlosch",
-      "lv": "ta kustus"
+      "lv": "see kustus"
     },
     "imperfektKonjunktiv": {
       "de": "er erlösche",
-      "lv": "ta kustuks"
+      "lv": "see kustuks"
     },
     "partizipVergangenheit": {
       "de": "erloschen (er ist)",
@@ -1030,7 +1030,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gegessen",
-      "lv": "söönud"
+      "lv": "söödud"
     }
   },
   {
@@ -1096,7 +1096,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gefangen",
-      "lv": "püüdnud"
+      "lv": "püütud"
     }
   },
   {
@@ -1172,15 +1172,15 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er fließt",
-      "lv": "ta voolab"
+      "lv": "see voolab"
     },
     "imperfektIndikativ": {
       "de": "er floss",
-      "lv": "ta voolas"
+      "lv": "see voolas"
     },
     "imperfektKonjunktiv": {
       "de": "er flösse",
-      "lv": "ta voolaks"
+      "lv": "see voolaks"
     },
     "partizipVergangenheit": {
       "de": "geflossen (er ist)",
@@ -1190,23 +1190,23 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "fressen",
-      "lv": "õgima"
+      "lv": "sööma / õgima"
     },
     "praesens": {
       "de": "er frisst",
-      "lv": "ta õgib"
+      "lv": "ta sööb / õgib"
     },
     "imperfektIndikativ": {
       "de": "er frass",
-      "lv": "ta õgis"
+      "lv": "ta sõi / õgis"
     },
     "imperfektKonjunktiv": {
       "de": "er fräße",
-      "lv": "ta õgiks"
+      "lv": "ta sööks / õgiks"
     },
     "partizipVergangenheit": {
       "de": "gefressen",
-      "lv": "õginud"
+      "lv": "söödud / õgitud"
     }
   },
   {
@@ -1228,7 +1228,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gefroren",
-      "lv": "külmunud"
+      "lv": "külmetanud"
     }
   },
   {
@@ -1250,7 +1250,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gegeben",
-      "lv": "andnud"
+      "lv": "antud"
     }
   },
   {
@@ -1316,7 +1316,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gewonnen",
-      "lv": "võitnud"
+      "lv": "võidetud"
     }
   },
   {
@@ -1338,7 +1338,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gehabt",
-      "lv": "olnud"
+      "lv": "omanud"
     }
   },
   {
@@ -1360,29 +1360,29 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gehalten",
-      "lv": "hoidnud"
+      "lv": "hoitud"
     }
   },
   {
     "infinitiv": {
       "de": "heißen",
-      "lv": "nimetama"
+      "lv": "kutsuma / nime kandma"
     },
     "praesens": {
       "de": "er heißt",
-      "lv": "tema nimi on"
+      "lv": "ta kutsub / kannab nime"
     },
     "imperfektIndikativ": {
       "de": "er hieß",
-      "lv": "tema nimi oli"
+      "lv": "ta kutsus / kandis nime"
     },
     "imperfektKonjunktiv": {
       "de": "er hieße",
-      "lv": "tema nimi oleks"
+      "lv": "ta kutsuks / kannaks nime"
     },
     "partizipVergangenheit": {
       "de": "geheißen",
-      "lv": "nimetatud"
+      "lv": "kutsutud / nime kandnud"
     }
   },
   {
@@ -1404,7 +1404,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "geholfen",
-      "lv": "aidanud"
+      "lv": "aidatud"
     }
   },
   {
@@ -1448,7 +1448,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gekonnt",
-      "lv": "osanud"
+      "lv": "suutnud"
     }
   },
   {
@@ -1476,45 +1476,45 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "laden",
-      "lv": "laadima"
+      "lv": "laadima / kutsuma"
     },
     "praesens": {
       "de": "er lädt",
-      "lv": "ta laadib"
+      "lv": "ta laadib / kutsub"
     },
     "imperfektIndikativ": {
       "de": "er lud",
-      "lv": "ta laadis"
+      "lv": "ta laadis / kutsus"
     },
     "imperfektKonjunktiv": {
       "de": "er lüde",
-      "lv": "ta laadiks"
+      "lv": "ta laadiks / kutsuks"
     },
     "partizipVergangenheit": {
       "de": "geladen",
-      "lv": "laadinud"
+      "lv": "laaditud / kutsutud"
     }
   },
   {
     "infinitiv": {
       "de": "lassen",
-      "lv": "laskma"
+      "lv": "laskma / lubama"
     },
     "praesens": {
       "de": "er lässt",
-      "lv": "ta laseb"
+      "lv": "ta laseb / lubab"
     },
     "imperfektIndikativ": {
       "de": "er ließ",
-      "lv": "ta laskis"
+      "lv": "ta lasi / lubas"
     },
     "imperfektKonjunktiv": {
       "de": "er ließe",
-      "lv": "ta laseks"
+      "lv": "ta laseks / lubaks"
     },
     "partizipVergangenheit": {
       "de": "gelassen",
-      "lv": "lasknud"
+      "lv": "lastud / lubatud"
     }
   },
   {
@@ -1564,23 +1564,23 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "leihen",
-      "lv": "laenama"
+      "lv": "laenuks andma / laenuks võtma"
     },
     "praesens": {
       "de": "er leiht",
-      "lv": "ta laenab"
+      "lv": "ta annab laenuks / võtab laenuks"
     },
     "imperfektIndikativ": {
       "de": "er lieh",
-      "lv": "ta laenas"
+      "lv": "ta andis laenuks / võttis laenuks"
     },
     "imperfektKonjunktiv": {
       "de": "er liehe",
-      "lv": "ta laenaks"
+      "lv": "ta annaks laenuks / võtaks laenuks"
     },
     "partizipVergangenheit": {
       "de": "geliehen",
-      "lv": "laenanud"
+      "lv": "laenuks antud / laenuks võetud"
     }
   },
   {
@@ -1602,7 +1602,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gelesen",
-      "lv": "lugenud"
+      "lv": "loetud"
     }
   },
   {
@@ -1668,7 +1668,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gemahlen",
-      "lv": "jahvatanud"
+      "lv": "jahvatatud"
     }
   },
   {
@@ -1690,7 +1690,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gemieden",
-      "lv": "vältinud"
+      "lv": "välditud"
     }
   },
   {
@@ -1712,7 +1712,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gemolken / gemelkt",
-      "lv": "lüpsnud"
+      "lv": "lüpstud"
     }
   },
   {
@@ -1822,7 +1822,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "genommen",
-      "lv": "võtnud"
+      "lv": "võetud"
     }
   },
   {
@@ -1844,7 +1844,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "genannt",
-      "lv": "nimetanud"
+      "lv": "nimetatud"
     }
   },
   {
@@ -1872,23 +1872,23 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "pflegen",
-      "lv": "hoolitsema"
+      "lv": "hooldama"
     },
     "praesens": {
       "de": "er pflegt",
-      "lv": "ta hoolitseb"
+      "lv": "ta hooldab"
     },
     "imperfektIndikativ": {
       "de": "pflegte / pflog",
-      "lv": "ta hoolitses"
+      "lv": "ta hooldas"
     },
     "imperfektKonjunktiv": {
       "de": "pflegte / pflog",
-      "lv": "ta hoolitseks"
+      "lv": "ta hooldaks"
     },
     "partizipVergangenheit": {
       "de": "gepflegt / gepflogen",
-      "lv": "hoolitsenud"
+      "lv": "hooldatud"
     }
   },
   {
@@ -1910,7 +1910,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gepriesen",
-      "lv": "kiitnud"
+      "lv": "kiidetud"
     }
   },
   {
@@ -1920,15 +1920,15 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er quillt",
-      "lv": "ta paisub"
+      "lv": "see paisub"
     },
     "imperfektIndikativ": {
       "de": "er quoll",
-      "lv": "ta paisus"
+      "lv": "see paisus"
     },
     "imperfektKonjunktiv": {
       "de": "er quölle",
-      "lv": "ta paisuks"
+      "lv": "see paisuks"
     },
     "partizipVergangenheit": {
       "de": "gequollen (er ist)",
@@ -1938,23 +1938,23 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "raten",
-      "lv": "soovitama"
+      "lv": "soovitama / ära arvama"
     },
     "praesens": {
       "de": "er rät",
-      "lv": "ta soovitab"
+      "lv": "ta soovitab / arvab ära"
     },
     "imperfektIndikativ": {
       "de": "er riet",
-      "lv": "ta soovitas"
+      "lv": "ta soovitas / arvas ära"
     },
     "imperfektKonjunktiv": {
       "de": "er riete",
-      "lv": "ta soovitaks"
+      "lv": "ta soovitaks / arvaks ära"
     },
     "partizipVergangenheit": {
       "de": "geraten",
-      "lv": "soovitanud"
+      "lv": "soovitatud / ära arvatud"
     }
   },
   {
@@ -1976,7 +1976,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gerieben",
-      "lv": "hõõrunud"
+      "lv": "hõõrutud"
     }
   },
   {
@@ -1998,7 +1998,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gerissen",
-      "lv": "rebinud"
+      "lv": "rebitud"
     }
   },
   {
@@ -2048,7 +2048,7 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "riechen",
-      "lv": "lõhnama"
+      "lv": "haistma"
     },
     "praesens": {
       "de": "er riecht",
@@ -2064,7 +2064,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gerochen",
-      "lv": "lõhnanud"
+      "lv": "haistetud"
     }
   },
   {
@@ -2074,19 +2074,19 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er ringt",
-      "lv": "ta rabeleb"
+      "lv": "ta maadleb"
     },
     "imperfektIndikativ": {
       "de": "er rang",
-      "lv": "ta rabeles"
+      "lv": "ta maadles"
     },
     "imperfektKonjunktiv": {
       "de": "er ränge",
-      "lv": "ta rabeleks"
+      "lv": "ta maadleks"
     },
     "partizipVergangenheit": {
       "de": "gerungen",
-      "lv": "rabelenud"
+      "lv": "maadelnud"
     }
   },
   {
@@ -2096,15 +2096,15 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er rinnt",
-      "lv": "ta voolab"
+      "lv": "see voolab"
     },
     "imperfektIndikativ": {
       "de": "er rann",
-      "lv": "ta voolas"
+      "lv": "see voolas"
     },
     "imperfektKonjunktiv": {
       "de": "er ränne / er rönne",
-      "lv": "ta voolaks"
+      "lv": "see voolaks"
     },
     "partizipVergangenheit": {
       "de": "geronnen (er ist)",
@@ -2130,7 +2130,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gerufen",
-      "lv": "hüüdnud"
+      "lv": "hüütud"
     }
   },
   {
@@ -2152,29 +2152,29 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gesalzen",
-      "lv": "soolanud"
+      "lv": "soolatud"
     }
   },
   {
     "infinitiv": {
       "de": "saufen",
-      "lv": "jooma"
+      "lv": "purjutama / jooma"
     },
     "praesens": {
       "de": "er säuft",
-      "lv": "ta joob"
+      "lv": "ta purjutab / joob"
     },
     "imperfektIndikativ": {
       "de": "er soff",
-      "lv": "ta jõi"
+      "lv": "ta purjutas / jõi"
     },
     "imperfektKonjunktiv": {
       "de": "er söffe",
-      "lv": "ta jooks"
+      "lv": "ta purjutaks / jooks"
     },
     "partizipVergangenheit": {
       "de": "gesoffen",
-      "lv": "joonud"
+      "lv": "purjutanud / joodud"
     }
   },
   {
@@ -2196,7 +2196,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gesogen",
-      "lv": "imenud"
+      "lv": "imetud"
     }
   },
   {
@@ -2224,89 +2224,89 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "schallen",
-      "lv": "kõlama"
+      "lv": "kajama"
     },
     "praesens": {
       "de": "es schallt",
-      "lv": "see kõlab"
+      "lv": "see kajab"
     },
     "imperfektIndikativ": {
       "de": "schallte / scholl",
-      "lv": "see kõlas"
+      "lv": "see kajas"
     },
     "imperfektKonjunktiv": {
       "de": "schallte / scholl",
-      "lv": "see kõlaks"
+      "lv": "see kajaks"
     },
     "partizipVergangenheit": {
       "de": "geschallt",
-      "lv": "kõlanud"
+      "lv": "kajanud"
     }
   },
   {
     "infinitiv": {
       "de": "scheiden",
-      "lv": "lahkuma"
+      "lv": "lahutama / lahkuma"
     },
     "praesens": {
       "de": "er scheidet",
-      "lv": "ta lahkub"
+      "lv": "ta lahutab / lahkub"
     },
     "imperfektIndikativ": {
       "de": "er schied",
-      "lv": "ta lahkus"
+      "lv": "ta lahutas / lahkus"
     },
     "imperfektKonjunktiv": {
       "de": "er schiede",
-      "lv": "ta lahkuks"
+      "lv": "ta lahutaks / lahkuks"
     },
     "partizipVergangenheit": {
       "de": "geschieden (er hat / er ist)",
-      "lv": "lahkunud"
+      "lv": "lahutatud / lahkunud"
     }
   },
   {
     "infinitiv": {
       "de": "scheinen",
-      "lv": "paistma"
+      "lv": "paistma / tunduma"
     },
     "praesens": {
       "de": "er scheint",
-      "lv": "ta paistab"
+      "lv": "ta paistab / tundub"
     },
     "imperfektIndikativ": {
       "de": "er schien",
-      "lv": "ta paistis"
+      "lv": "ta paistis / tundus"
     },
     "imperfektKonjunktiv": {
       "de": "er schiene",
-      "lv": "ta paistaks"
+      "lv": "ta paistaks / tunduks"
     },
     "partizipVergangenheit": {
       "de": "geschienen",
-      "lv": "paistnud"
+      "lv": "paistnud / tundunud"
     }
   },
   {
     "infinitiv": {
       "de": "schelten",
-      "lv": "sõimama"
+      "lv": "noomima"
     },
     "praesens": {
       "de": "er schilt",
-      "lv": "ta sõimab"
+      "lv": "ta noomib"
     },
     "imperfektIndikativ": {
       "de": "er schalt",
-      "lv": "ta sõimas"
+      "lv": "ta noomis"
     },
     "imperfektKonjunktiv": {
       "de": "er schölte / er schälte",
-      "lv": "ta sõimaks"
+      "lv": "ta noomiks"
     },
     "partizipVergangenheit": {
       "de": "gescholten",
-      "lv": "sõimatud"
+      "lv": "noomitud"
     }
   },
   {
@@ -2324,7 +2324,7 @@ const VERB_ENTRIES = [
     },
     "imperfektKonjunktiv": {
       "de": "schor / scherte",
-      "lv": "ta pügas"
+      "lv": "ta pügaks"
     },
     "partizipVergangenheit": {
       "de": "geschoren / geschert",
@@ -2558,15 +2558,15 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er schmilzt",
-      "lv": "ta sulab"
+      "lv": "see sulab"
     },
     "imperfektIndikativ": {
       "de": "er schmolz",
-      "lv": "ta sulas"
+      "lv": "see sulas"
     },
     "imperfektKonjunktiv": {
       "de": "er schmölze",
-      "lv": "ta sulaks"
+      "lv": "see sulaks"
     },
     "partizipVergangenheit": {
       "de": "geschmolzen (er ist)",
@@ -2576,23 +2576,23 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "schnauben",
-      "lv": "puristama"
+      "lv": "turtsuma"
     },
     "praesens": {
       "de": "er schnaubt",
-      "lv": "ta puristab"
+      "lv": "ta turtsub"
     },
     "imperfektIndikativ": {
       "de": "schnaubte / schnob",
-      "lv": "ta puristas"
+      "lv": "ta turtsus"
     },
     "imperfektKonjunktiv": {
       "de": "schnaubte / schnob",
-      "lv": "ta puristaks"
+      "lv": "ta turtsuks"
     },
     "partizipVergangenheit": {
       "de": "geschnaubt / geschnoben",
-      "lv": "puristanud"
+      "lv": "turtsunud"
     }
   },
   {
@@ -2708,23 +2708,23 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "schwellen",
-      "lv": "paisuma"
+      "lv": "paistetama"
     },
     "praesens": {
       "de": "er schwillt",
-      "lv": "ta paisub"
+      "lv": "see paistetab"
     },
     "imperfektIndikativ": {
       "de": "er schwoll",
-      "lv": "ta paisus"
+      "lv": "see paistetas"
     },
     "imperfektKonjunktiv": {
       "de": "er schwölle",
-      "lv": "ta paisuks"
+      "lv": "see paistetaks"
     },
     "partizipVergangenheit": {
       "de": "geschwollen (er ist)",
-      "lv": "paisunud"
+      "lv": "paistetanud"
     }
   },
   {
@@ -2756,15 +2756,15 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er schwindet",
-      "lv": "ta kaob"
+      "lv": "see kaob"
     },
     "imperfektIndikativ": {
       "de": "er schwand",
-      "lv": "ta kadus"
+      "lv": "see kadus"
     },
     "imperfektKonjunktiv": {
       "de": "er schwände",
-      "lv": "ta kaoks"
+      "lv": "see kaoks"
     },
     "partizipVergangenheit": {
       "de": "geschwunden (er ist)",
@@ -2808,7 +2808,7 @@ const VERB_ENTRIES = [
     },
     "imperfektKonjunktiv": {
       "de": "er schwöre",
-      "lv": "ta vanduks"
+      "lv": "ta vannuks"
     },
     "partizipVergangenheit": {
       "de": "geschworen",
@@ -2884,23 +2884,23 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "sieden",
-      "lv": "keema"
+      "lv": "keetma"
     },
     "praesens": {
       "de": "er siedet",
-      "lv": "ta keeb"
+      "lv": "ta keedab"
     },
     "imperfektIndikativ": {
       "de": "sott / siedete",
-      "lv": "ta kees"
+      "lv": "ta keetis"
     },
     "imperfektKonjunktiv": {
       "de": "sott / siedete",
-      "lv": "ta keeks"
+      "lv": "ta keedaks"
     },
     "partizipVergangenheit": {
       "de": "gesotten / gesiedet",
-      "lv": "keenud"
+      "lv": "keedetud"
     }
   },
   {
@@ -3032,7 +3032,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gespien",
-      "lv": "sülitanud"
+      "lv": "sülitatud"
     }
   },
   {
@@ -3098,7 +3098,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gesprochen",
-      "lv": "rääkinud"
+      "lv": "räägitud"
     }
   },
   {
@@ -3108,15 +3108,15 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er sprießt",
-      "lv": "ta võrsub"
+      "lv": "see võrsub"
     },
     "imperfektIndikativ": {
       "de": "er spross",
-      "lv": "ta võrsus"
+      "lv": "see võrsus"
     },
     "imperfektKonjunktiv": {
       "de": "er sprösse",
-      "lv": "ta võrsuks"
+      "lv": "see võrsuks"
     },
     "partizipVergangenheit": {
       "de": "gesprossen (er ist)",
@@ -3170,23 +3170,23 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "stecken",
-      "lv": "pistma"
+      "lv": "toppima / pistma"
     },
     "praesens": {
       "de": "er steckt",
-      "lv": "ta pistab"
+      "lv": "ta topib / pistab"
     },
     "imperfektIndikativ": {
       "de": "stak / steckte",
-      "lv": "ta pistis"
+      "lv": "ta toppis / pistis"
     },
     "imperfektKonjunktiv": {
       "de": "stak / steckte",
-      "lv": "ta pistaks"
+      "lv": "ta topiks / pistaks"
     },
     "partizipVergangenheit": {
       "de": "gesteckt",
-      "lv": "pistetud"
+      "lv": "topitud / pistetud"
     }
   },
   {
@@ -3318,29 +3318,29 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gestoßen",
-      "lv": "tõuganud"
+      "lv": "tõugatud"
     }
   },
   {
     "infinitiv": {
       "de": "streichen",
-      "lv": "värvima"
+      "lv": "värvima / maha tõmbama"
     },
     "praesens": {
       "de": "er streicht",
-      "lv": "ta värvib"
+      "lv": "ta värvib / tõmbab maha"
     },
     "imperfektIndikativ": {
       "de": "er strich",
-      "lv": "ta värvis"
+      "lv": "ta värvis / tõmbas maha"
     },
     "imperfektKonjunktiv": {
       "de": "er striche",
-      "lv": "ta värviks"
+      "lv": "ta värviks / tõmbaks maha"
     },
     "partizipVergangenheit": {
       "de": "gestrichen",
-      "lv": "värvinud"
+      "lv": "värvitud / maha tõmmatud"
     }
   },
   {
@@ -3384,7 +3384,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "getragen",
-      "lv": "kandnud"
+      "lv": "kantud"
     }
   },
   {
@@ -3406,7 +3406,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "getroffen",
-      "lv": "kohanud"
+      "lv": "kohatud"
     }
   },
   {
@@ -3428,29 +3428,29 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "getrieben",
-      "lv": "ajanud"
+      "lv": "aetud"
     }
   },
   {
     "infinitiv": {
       "de": "treten",
-      "lv": "astuma"
+      "lv": "astuma / minema"
     },
     "praesens": {
       "de": "er tritt",
-      "lv": "ta astub"
+      "lv": "ta astub / läheb"
     },
     "imperfektIndikativ": {
       "de": "er trat",
-      "lv": "ta astus"
+      "lv": "ta astus / läks"
     },
     "imperfektKonjunktiv": {
       "de": "er träte",
-      "lv": "ta astuks"
+      "lv": "ta astuks / läheks"
     },
     "partizipVergangenheit": {
       "de": "getreten (er ist)",
-      "lv": "astunud"
+      "lv": "astunud / läinud"
     }
   },
   {
@@ -3472,7 +3472,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "getrunken",
-      "lv": "joonud"
+      "lv": "joodud"
     }
   },
   {
@@ -3486,7 +3486,7 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er trog",
-      "lv": "ta petis"
+      "lv": "ta pettis"
     },
     "imperfektKonjunktiv": {
       "de": "er tröge",
@@ -3494,7 +3494,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "getrogen",
-      "lv": "petnud"
+      "lv": "petetud"
     }
   },
   {
@@ -3516,7 +3516,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "getan",
-      "lv": "teinud"
+      "lv": "tehtud"
     }
   },
   {
@@ -3538,29 +3538,29 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "verdorben",
-      "lv": "rikkunud"
+      "lv": "rikutud"
     }
   },
   {
     "infinitiv": {
       "de": "verdrießen",
-      "lv": "pahandama"
+      "lv": "ärritama"
     },
     "praesens": {
       "de": "er verdrießt",
-      "lv": "ta tekitab pahameelt"
+      "lv": "ta ärritab"
     },
     "imperfektIndikativ": {
       "de": "er verdross",
-      "lv": "ta tekitas pahameelt"
+      "lv": "ta ärritas"
     },
     "imperfektKonjunktiv": {
       "de": "er verdrösse",
-      "lv": "ta tekitaks pahameelt"
+      "lv": "ta ärritaks"
     },
     "partizipVergangenheit": {
       "de": "verdrossen",
-      "lv": "pahandanud"
+      "lv": "ärritatud"
     }
   },
   {
@@ -3582,7 +3582,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "vergessen",
-      "lv": "unustanud"
+      "lv": "unustatud"
     }
   },
   {
@@ -3604,7 +3604,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "verloren",
-      "lv": "kaotanud"
+      "lv": "kaotatud"
     }
   },
   {
@@ -3648,7 +3648,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gewaschen",
-      "lv": "pesnud"
+      "lv": "pestud"
     }
   },
   {
@@ -3666,11 +3666,11 @@ const VERB_ENTRIES = [
     },
     "imperfektKonjunktiv": {
       "de": "wob",
-      "lv": "ta kuduks"
+      "lv": "ta kooks"
     },
     "partizipVergangenheit": {
       "de": "gewoben",
-      "lv": "kudunud"
+      "lv": "kootud"
     }
   },
   {
@@ -3714,29 +3714,29 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gewiesen",
-      "lv": "näidanud"
+      "lv": "näidatud"
     }
   },
   {
     "infinitiv": {
       "de": "wenden",
-      "lv": "pöörama"
+      "lv": "pöörama / ümber pöörama"
     },
     "praesens": {
       "de": "er wendet",
-      "lv": "ta pöörab"
+      "lv": "ta pöörab / pöörab ümber"
     },
     "imperfektIndikativ": {
       "de": "er wandte / es wendete",
-      "lv": "ta pööras"
+      "lv": "ta pööras / pööras ümber"
     },
     "imperfektKonjunktiv": {
       "de": "er wendete",
-      "lv": "ta pööraks"
+      "lv": "ta pööraks / pööraks ümber"
     },
     "partizipVergangenheit": {
       "de": "gewandt / gewendet",
-      "lv": "pööranud"
+      "lv": "pööratud / ümber pööratud"
     }
   },
   {
@@ -3758,7 +3758,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "geworben",
-      "lv": "kosinud"
+      "lv": "kositud"
     }
   },
   {
@@ -3802,7 +3802,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "geworfen",
-      "lv": "visanud"
+      "lv": "visatud"
     }
   },
   {
@@ -3824,29 +3824,29 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gewogen",
-      "lv": "kaalunud"
+      "lv": "kaalutud"
     }
   },
   {
     "infinitiv": {
       "de": "winden",
-      "lv": "punuma"
+      "lv": "põimima"
     },
     "praesens": {
       "de": "er windet",
-      "lv": "ta punub"
+      "lv": "ta põimib"
     },
     "imperfektIndikativ": {
       "de": "er wand",
-      "lv": "ta punus"
+      "lv": "ta põimis"
     },
     "imperfektKonjunktiv": {
       "de": "er wände",
-      "lv": "ta punuks"
+      "lv": "ta põimiks"
     },
     "partizipVergangenheit": {
       "de": "gewunden",
-      "lv": "pununud"
+      "lv": "põimitud"
     }
   },
   {
@@ -3868,7 +3868,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gewusst",
-      "lv": "teadnud"
+      "lv": "teatud"
     }
   },
   {
@@ -3896,23 +3896,23 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "wringen",
-      "lv": "väänama"
+      "lv": "väänama / pigistama"
     },
     "praesens": {
       "de": "er wringt",
-      "lv": "ta väänab"
+      "lv": "ta väänab / pigistab"
     },
     "imperfektIndikativ": {
       "de": "wrang",
-      "lv": "ta väänas"
+      "lv": "ta väänas / pigistas"
     },
     "imperfektKonjunktiv": {
       "de": "wrang",
-      "lv": "ta väänaks"
+      "lv": "ta väänaks / pigistaks"
     },
     "partizipVergangenheit": {
       "de": "gewrungen",
-      "lv": "väänanud"
+      "lv": "väänatud / pigistatud"
     }
   },
   {
@@ -3934,7 +3934,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "geziehen",
-      "lv": "süüdistanud"
+      "lv": "süüdistatud"
     }
   },
   {
@@ -3956,7 +3956,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gezogen",
-      "lv": "tõmmanud"
+      "lv": "tõmmatud"
     }
   },
   {
@@ -3978,7 +3978,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gezwungen",
-      "lv": "sundinud"
+      "lv": "sunnitud"
     }
   },
   {
@@ -4000,7 +4000,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "empfangen",
-      "lv": "vastu võtnud"
+      "lv": "vastu võetud"
     }
   },
   {
@@ -4022,13 +4022,13 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "erwogen",
-      "lv": "kaalunud"
+      "lv": "kaalutud"
     }
   },
   {
     "infinitiv": {
       "de": "fechten",
-      "lv": "vehklema"
+      "lv": "võitlema"
     },
     "praesens": {
       "de": "er ficht",
@@ -4094,23 +4094,23 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "spalten",
-      "lv": "lõhestama"
+      "lv": "lõhkuma"
     },
     "praesens": {
       "de": "er spaltet",
-      "lv": "ta lõhestab"
+      "lv": "ta lõhub"
     },
     "imperfektIndikativ": {
       "de": "er spaltete",
-      "lv": "ta lõhestas"
+      "lv": "ta lõhkus"
     },
     "imperfektKonjunktiv": {
       "de": "er spaltete",
-      "lv": "ta lõhestaks"
+      "lv": "ta lõhuks"
     },
     "partizipVergangenheit": {
       "de": "gespalten",
-      "lv": "lõhestanud"
+      "lv": "lõhutud"
     }
   },
   {
@@ -4132,7 +4132,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "verziehen",
-      "lv": "andestanud"
+      "lv": "andestatud"
     }
   }
 ];
