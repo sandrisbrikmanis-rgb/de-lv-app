@@ -2,4137 +2,4137 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "backen",
-      "lv": "Cuire au four"
+      "lv": "cuire"
     },
     "praesens": {
       "de": "er bäckt",
-      "lv": "Il cuisine"
+      "lv": "il cuit"
     },
     "imperfektIndikativ": {
       "de": "er buk",
-      "lv": "Il cuisinait"
+      "lv": "il cuisit"
     },
     "imperfektKonjunktiv": {
       "de": "er büke",
-      "lv": "Il cuisinerait"
+      "lv": "il cuirait"
     },
     "partizipVergangenheit": {
       "de": "gebacken",
-      "lv": "Cuit au four"
+      "lv": "cuit"
     }
   },
   {
     "infinitiv": {
       "de": "befehlen",
-      "lv": "Commander"
+      "lv": "ordonner"
     },
     "praesens": {
       "de": "er befiehlt",
-      "lv": "Il commande"
+      "lv": "il ordonne"
     },
     "imperfektIndikativ": {
       "de": "er befahl",
-      "lv": "Il a commandé"
+      "lv": "il ordonna"
     },
     "imperfektKonjunktiv": {
       "de": "er beföhle",
-      "lv": "Il commanderait"
+      "lv": "il ordonnerait"
     },
     "partizipVergangenheit": {
       "de": "befohlen",
-      "lv": "Commandé"
+      "lv": "ordonné"
     }
   },
   {
     "infinitiv": {
       "de": "beginnen",
-      "lv": "Pour commencer"
+      "lv": "commencer"
     },
     "praesens": {
       "de": "er beginnt",
-      "lv": "Il commence"
+      "lv": "il commence"
     },
     "imperfektIndikativ": {
       "de": "er begann",
-      "lv": "Il a commencé"
+      "lv": "il commença"
     },
     "imperfektKonjunktiv": {
       "de": "er begönne / er begänne",
-      "lv": "Il commencerait"
+      "lv": "il commencerait"
     },
     "partizipVergangenheit": {
       "de": "begonnen",
-      "lv": "Commencé"
+      "lv": "commencé"
     }
   },
   {
     "infinitiv": {
       "de": "beißen",
-      "lv": "Coût"
+      "lv": "mordre"
     },
     "praesens": {
       "de": "er beißt",
-      "lv": "Il mord"
+      "lv": "il mord"
     },
     "imperfektIndikativ": {
       "de": "er biss",
-      "lv": "Il a codé"
+      "lv": "il mordit"
     },
     "imperfektKonjunktiv": {
       "de": "er bisse",
-      "lv": "Il mord"
+      "lv": "il mordrait"
     },
     "partizipVergangenheit": {
       "de": "gebissen",
-      "lv": "Coûts / sakosts"
+      "lv": "mordu"
     }
   },
   {
     "infinitiv": {
       "de": "bergen",
-      "lv": "Cacher"
+      "lv": "sauver / cacher"
     },
     "praesens": {
       "de": "er birgt",
-      "lv": "Il se cache"
+      "lv": "il sauve / cache"
     },
     "imperfektIndikativ": {
       "de": "er barg",
-      "lv": "Il s'est caché"
+      "lv": "il sauva / cacha"
     },
     "imperfektKonjunktiv": {
       "de": "er bürge / er bärge",
-      "lv": "Il se cacherait"
+      "lv": "il sauverait / cacherait"
     },
     "partizipVergangenheit": {
       "de": "geborgen",
-      "lv": "Caché / enregistré"
+      "lv": "sauvé / caché"
     }
   },
   {
     "infinitiv": {
       "de": "bersten",
-      "lv": "Éclatement"
+      "lv": "éclater"
     },
     "praesens": {
       "de": "er birst",
-      "lv": "Il éclate"
+      "lv": "il éclate"
     },
     "imperfektIndikativ": {
       "de": "er barst / er borst",
-      "lv": "Il a éclaté"
+      "lv": "il éclata"
     },
     "imperfektKonjunktiv": {
       "de": "er bärste / er börste",
-      "lv": "Il éclate"
+      "lv": "il éclaterait"
     },
     "partizipVergangenheit": {
       "de": "geborsten (er ist)",
-      "lv": "Cassé"
+      "lv": "éclaté"
     }
   },
   {
     "infinitiv": {
       "de": "bewegen",
-      "lv": "Encourager"
+      "lv": "inciter"
     },
     "praesens": {
       "de": "er bewegt",
-      "lv": "Il invite"
+      "lv": "il incite"
     },
     "imperfektIndikativ": {
       "de": "er bewog",
-      "lv": "Il a exhorté"
+      "lv": "il incita"
     },
     "imperfektKonjunktiv": {
       "de": "er bewöge",
-      "lv": "Il encouragerait"
+      "lv": "il inciterait"
     },
     "partizipVergangenheit": {
       "de": "bewogen",
-      "lv": "Encouragé"
+      "lv": "incité"
     }
   },
   {
     "infinitiv": {
       "de": "biegen",
-      "lv": "Plier"
+      "lv": "plier"
     },
     "praesens": {
       "de": "er biegt",
-      "lv": "Il s'incline"
+      "lv": "il plie"
     },
     "imperfektIndikativ": {
       "de": "er bog",
-      "lv": "Il a fléchi"
+      "lv": "il plia"
     },
     "imperfektKonjunktiv": {
       "de": "er böge",
-      "lv": "Il plierait"
+      "lv": "il plierait"
     },
     "partizipVergangenheit": {
       "de": "gebogen",
-      "lv": "Courbé"
+      "lv": "plié"
     }
   },
   {
     "infinitiv": {
       "de": "bieten",
-      "lv": "Promettre"
+      "lv": "offrir"
     },
     "praesens": {
       "de": "er bietet",
-      "lv": "Il promet"
+      "lv": "il offre"
     },
     "imperfektIndikativ": {
       "de": "er bot",
-      "lv": "Il a promis"
+      "lv": "il offrit"
     },
     "imperfektKonjunktiv": {
       "de": "er böte",
-      "lv": "Il promettrait"
+      "lv": "il offrirait"
     },
     "partizipVergangenheit": {
       "de": "geboten",
-      "lv": "Promis / offert"
+      "lv": "offert"
     }
   },
   {
     "infinitiv": {
       "de": "binden",
-      "lv": "Assis"
+      "lv": "lier"
     },
     "praesens": {
       "de": "er bindet",
-      "lv": "Il foin"
+      "lv": "il lie"
     },
     "imperfektIndikativ": {
       "de": "er band",
-      "lv": "Il a semé"
+      "lv": "il lia"
     },
     "imperfektKonjunktiv": {
       "de": "er bände",
-      "lv": "Il a tamisé"
+      "lv": "il lierait"
     },
     "partizipVergangenheit": {
       "de": "gebunden",
-      "lv": "Sièges"
+      "lv": "lié"
     }
   },
   {
     "infinitiv": {
       "de": "bitten",
-      "lv": "Demander"
+      "lv": "demander"
     },
     "praesens": {
       "de": "er bittet",
-      "lv": "Il supplie"
+      "lv": "il demande"
     },
     "imperfektIndikativ": {
       "de": "er bat",
-      "lv": "Il a demandé"
+      "lv": "il demanda"
     },
     "imperfektKonjunktiv": {
       "de": "er bäte",
-      "lv": "Il prierait"
+      "lv": "il demanderait"
     },
     "partizipVergangenheit": {
       "de": "gebeten",
-      "lv": "Demandé"
+      "lv": "demandé"
     }
   },
   {
     "infinitiv": {
       "de": "blasen",
-      "lv": "Souffler"
+      "lv": "souffler"
     },
     "praesens": {
       "de": "er bläst",
-      "lv": "Il souffle"
+      "lv": "il souffle"
     },
     "imperfektIndikativ": {
       "de": "er blies",
-      "lv": "Il a soufflé"
+      "lv": "il souffla"
     },
     "imperfektKonjunktiv": {
       "de": "er bliese",
-      "lv": "Il soufflerait"
+      "lv": "il soufflerait"
     },
     "partizipVergangenheit": {
       "de": "geblasen",
-      "lv": "Soufflé"
+      "lv": "soufflé"
     }
   },
   {
     "infinitiv": {
       "de": "gären",
-      "lv": "Fermenter"
+      "lv": "fermenter"
     },
     "praesens": {
       "de": "es gärt",
-      "lv": "Ça fermente"
+      "lv": "il fermente"
     },
     "imperfektIndikativ": {
       "de": "es gor / es gärte",
-      "lv": "Ça fermente"
+      "lv": "il fermenta"
     },
     "imperfektKonjunktiv": {
       "de": "es göre / es gärte",
-      "lv": "Ce serait amer"
+      "lv": "il fermenterait"
     },
     "partizipVergangenheit": {
       "de": "gegoren / gegärt",
-      "lv": "Seigle"
+      "lv": "fermenté"
     }
   },
   {
     "infinitiv": {
       "de": "gebären",
-      "lv": "Accoucher"
+      "lv": "mettre au monde"
     },
     "praesens": {
       "de": "sie gebiert",
-      "lv": "Dans son ventre"
+      "lv": "elle met au monde"
     },
     "imperfektIndikativ": {
       "de": "sie gebar",
-      "lv": "Elle a accouché"
+      "lv": "elle mit au monde"
     },
     "imperfektKonjunktiv": {
       "de": "sie gebäre",
-      "lv": "Elle allait accoucher"
+      "lv": "elle mettrait au monde"
     },
     "partizipVergangenheit": {
       "de": "geboren",
-      "lv": "Né / est né"
+      "lv": "mis au monde"
     }
   },
   {
     "infinitiv": {
       "de": "gelingen",
-      "lv": "Izdoties"
+      "lv": "réussir"
     },
     "praesens": {
       "de": "es gelingt",
-      "lv": "Tas izdodas"
+      "lv": "il réussit"
     },
     "imperfektIndikativ": {
       "de": "es gelang",
-      "lv": "Ça a marché"
+      "lv": "il réussit"
     },
     "imperfektKonjunktiv": {
       "de": "es gelänge",
-      "lv": "Tas izdotos"
+      "lv": "il réussirait"
     },
     "partizipVergangenheit": {
       "de": "gelungen (es ist)",
-      "lv": "Izdevies"
+      "lv": "réussi"
     }
   },
   {
     "infinitiv": {
       "de": "gelten",
-      "lv": "Être utile"
+      "lv": "servir / être valable"
     },
     "praesens": {
       "de": "er gilt",
-      "lv": "Il correspond / est valide"
+      "lv": "il sert / est valable"
     },
     "imperfektIndikativ": {
       "de": "er galt",
-      "lv": "Il était en forme / était en forme"
+      "lv": "il servit / fut valable"
     },
     "imperfektKonjunktiv": {
       "de": "er gölte / es gälte",
-      "lv": "Il conviendrait / cela conviendrait"
+      "lv": "il servirait / serait valable"
     },
     "partizipVergangenheit": {
       "de": "gegolten",
-      "lv": "Appliqué / était valide"
+      "lv": "servi / été valable"
     }
   },
   {
     "infinitiv": {
       "de": "genesen",
-      "lv": "Se rétablir"
+      "lv": "se rétablir"
     },
     "praesens": {
       "de": "er genest",
-      "lv": "Il va bien"
+      "lv": "il se rétablit"
     },
     "imperfektIndikativ": {
       "de": "er genas",
-      "lv": "Il s'est rétabli"
+      "lv": "il se rétablit"
     },
     "imperfektKonjunktiv": {
       "de": "er genäse",
-      "lv": "Il irait mieux"
+      "lv": "il se rétablirait"
     },
     "partizipVergangenheit": {
       "de": "genesen (er ist)",
-      "lv": "Guéris"
+      "lv": "rétabli"
     }
   },
   {
     "infinitiv": {
       "de": "genießen",
-      "lv": "Profiter"
+      "lv": "savourer"
     },
     "praesens": {
       "de": "er genießt",
-      "lv": "Il aime"
+      "lv": "il savoure"
     },
     "imperfektIndikativ": {
       "de": "er genoss",
-      "lv": "Il a apprécié"
+      "lv": "il savoura"
     },
     "imperfektKonjunktiv": {
       "de": "er genösse",
-      "lv": "Il apprécierait"
+      "lv": "il savourerait"
     },
     "partizipVergangenheit": {
       "de": "genossen",
-      "lv": "Apprécié"
+      "lv": "savouré"
     }
   },
   {
     "infinitiv": {
       "de": "geschehen",
-      "lv": "Note"
+      "lv": "arriver"
     },
     "praesens": {
       "de": "es geschieht",
-      "lv": "Tas note"
+      "lv": "il arrive"
     },
     "imperfektIndikativ": {
       "de": "es geschah",
-      "lv": "Tas note"
+      "lv": "il arriva"
     },
     "imperfektKonjunktiv": {
       "de": "es geschähe",
-      "lv": "Tas notiktu"
+      "lv": "il arriverait"
     },
     "partizipVergangenheit": {
       "de": "geschehen (es ist)",
-      "lv": "Avis"
+      "lv": "arrivé"
     }
   },
   {
     "infinitiv": {
       "de": "gießen",
-      "lv": "Mensonge"
+      "lv": "verser"
     },
     "praesens": {
       "de": "er gießt",
-      "lv": "Il verse"
+      "lv": "il verse"
     },
     "imperfektIndikativ": {
       "de": "er goss",
-      "lv": "Il a versé"
+      "lv": "il versa"
     },
     "imperfektKonjunktiv": {
       "de": "er gösse",
-      "lv": "Il pleut"
+      "lv": "il verserait"
     },
     "partizipVergangenheit": {
       "de": "gegossen",
-      "lv": "Mensonges"
+      "lv": "versé"
     }
   },
   {
     "infinitiv": {
       "de": "gleichen",
-      "lv": "Ressembler"
+      "lv": "ressembler"
     },
     "praesens": {
       "de": "er gleicht",
-      "lv": "Il ressemble"
+      "lv": "il ressemble"
     },
     "imperfektIndikativ": {
       "de": "er glich",
-      "lv": "Il a imité"
+      "lv": "il ressembla"
     },
     "imperfektKonjunktiv": {
       "de": "er gliche",
-      "lv": "Il imiterait"
+      "lv": "il ressemblerait"
     },
     "partizipVergangenheit": {
       "de": "geglichen",
-      "lv": "Ressemblait"
+      "lv": "ressemblé"
     }
   },
   {
     "infinitiv": {
       "de": "gleiten",
-      "lv": "Glisser"
+      "lv": "glisser"
     },
     "praesens": {
       "de": "er gleitet",
-      "lv": "Il glisse"
+      "lv": "il glisse"
     },
     "imperfektIndikativ": {
       "de": "er glitt",
-      "lv": "Il glissait"
+      "lv": "il glissa"
     },
     "imperfektKonjunktiv": {
       "de": "er glitte",
-      "lv": "Il glisserait"
+      "lv": "il glisserait"
     },
     "partizipVergangenheit": {
       "de": "geglitten (er ist)",
-      "lv": "Glissé"
+      "lv": "glissé"
     }
   },
   {
     "infinitiv": {
       "de": "glimmen",
-      "lv": "Embrasé"
+      "lv": "rougeoyer"
     },
     "praesens": {
       "de": "er glimmt",
-      "lv": "Il brille"
+      "lv": "il rougeoie"
     },
     "imperfektIndikativ": {
       "de": "er glimmte / glomm",
-      "lv": "Il brillait"
+      "lv": "il rougeoya"
     },
     "imperfektKonjunktiv": {
       "de": "er glimmte",
-      "lv": "Il brillerait"
+      "lv": "il rougeoierait"
     },
     "partizipVergangenheit": {
       "de": "geglimmt / geglommen",
-      "lv": "Embrasé"
+      "lv": "rougeoyé"
     }
   },
   {
     "infinitiv": {
       "de": "graben",
-      "lv": "Droit"
+      "lv": "creuser"
     },
     "praesens": {
       "de": "er gräbt",
-      "lv": "Il creuse"
+      "lv": "il creuse"
     },
     "imperfektIndikativ": {
       "de": "er grub",
-      "lv": "Il a creusé"
+      "lv": "il creusa"
     },
     "imperfektKonjunktiv": {
       "de": "er grübe",
-      "lv": "Il creuserait"
+      "lv": "il creuserait"
     },
     "partizipVergangenheit": {
       "de": "gegraben",
-      "lv": "Rakts"
+      "lv": "creusé"
     }
   },
   {
     "infinitiv": {
       "de": "greifen",
-      "lv": "Attraper"
+      "lv": "saisir"
     },
     "praesens": {
       "de": "er greift",
-      "lv": "Il attrape"
+      "lv": "il saisit"
     },
     "imperfektIndikativ": {
       "de": "er griff",
-      "lv": "Il a attrapé"
+      "lv": "il saisit"
     },
     "imperfektKonjunktiv": {
       "de": "er griffe",
-      "lv": "Il attraperait"
+      "lv": "il saisirait"
     },
     "partizipVergangenheit": {
       "de": "gegriffen",
-      "lv": "Attrapé / saisi"
+      "lv": "saisi"
     }
   },
   {
     "infinitiv": {
       "de": "hauen",
-      "lv": "Première"
+      "lv": "abattre"
     },
     "praesens": {
       "de": "er haut",
-      "lv": "Il a choisi"
+      "lv": "il abat"
     },
     "imperfektIndikativ": {
       "de": "er hieb",
-      "lv": "Il a cassé"
+      "lv": "il abattit"
     },
     "imperfektKonjunktiv": {
       "de": "er hiebe",
-      "lv": "Il sculpterait"
+      "lv": "il abattrait"
     },
     "partizipVergangenheit": {
       "de": "gehauen",
-      "lv": "Cistres"
+      "lv": "abattu"
     }
   },
   {
     "infinitiv": {
       "de": "heben",
-      "lv": "Celte"
+      "lv": "lever"
     },
     "praesens": {
       "de": "er hebt",
-      "lv": "Il élève"
+      "lv": "il lève"
     },
     "imperfektIndikativ": {
       "de": "er hob",
-      "lv": "Il a apporté"
+      "lv": "il leva"
     },
     "imperfektKonjunktiv": {
       "de": "er höbe",
-      "lv": "Il construirait"
+      "lv": "il lèverait"
     },
     "partizipVergangenheit": {
       "de": "gehoben",
-      "lv": "Celtes"
+      "lv": "levé"
     }
   },
   {
     "infinitiv": {
       "de": "kennen",
-      "lv": "Savoir / savoir"
+      "lv": "connaître / savoir"
     },
     "praesens": {
       "de": "er kennt",
-      "lv": "Il sait"
+      "lv": "il connaît / sait"
     },
     "imperfektIndikativ": {
       "de": "kannte",
-      "lv": "Pazina"
+      "lv": "il connut / sut"
     },
     "imperfektKonjunktiv": {
       "de": "kannte",
-      "lv": "Pazina"
+      "lv": "il connaîtrait / saurait"
     },
     "partizipVergangenheit": {
       "de": "gekannt",
-      "lv": "Pazinis"
+      "lv": "connu / su"
     }
   },
   {
     "infinitiv": {
       "de": "klingen",
-      "lv": "Sonner"
+      "lv": "sonner"
     },
     "praesens": {
       "de": "er klingt",
-      "lv": "Il sonne"
+      "lv": "il sonne"
     },
     "imperfektIndikativ": {
       "de": "er klang",
-      "lv": "Il sonnait"
+      "lv": "il sonna"
     },
     "imperfektKonjunktiv": {
       "de": "er klänge",
-      "lv": "Il sonnerait"
+      "lv": "il sonnerait"
     },
     "partizipVergangenheit": {
       "de": "geklungen",
-      "lv": "Sonnait"
+      "lv": "sonné"
     }
   },
   {
     "infinitiv": {
       "de": "kneifen",
-      "lv": "Kniebt"
+      "lv": "pincer"
     },
     "praesens": {
       "de": "er kneift",
-      "lv": "Il plaisante"
+      "lv": "il pince"
     },
     "imperfektIndikativ": {
       "de": "er kniff",
-      "lv": "Il a pincé"
+      "lv": "il pinça"
     },
     "imperfektKonjunktiv": {
       "de": "er kniffe",
-      "lv": "Il pincerait"
+      "lv": "il pincerait"
     },
     "partizipVergangenheit": {
       "de": "gekniffen",
-      "lv": "Kniebts"
+      "lv": "pincé"
     }
   },
   {
     "infinitiv": {
       "de": "bleiben",
-      "lv": "Palikt"
+      "lv": "rester"
     },
     "praesens": {
       "de": "er bleibt",
-      "lv": "Il reste"
+      "lv": "il reste"
     },
     "imperfektIndikativ": {
       "de": "er blieb",
-      "lv": "Il est resté"
+      "lv": "il resta"
     },
     "imperfektKonjunktiv": {
       "de": "er bliebe",
-      "lv": "Il resterait"
+      "lv": "il resterait"
     },
     "partizipVergangenheit": {
       "de": "geblieben (er ist)",
-      "lv": "Palicis"
+      "lv": "resté"
     }
   },
   {
     "infinitiv": {
       "de": "bleichen",
-      "lv": "Blanchir"
+      "lv": "pâlir"
     },
     "praesens": {
       "de": "er bleicht",
-      "lv": "Il blanchit"
+      "lv": "il pâlit"
     },
     "imperfektIndikativ": {
       "de": "blich",
-      "lv": "Blanchi"
+      "lv": "il pâlit"
     },
     "imperfektKonjunktiv": {
       "de": "blich",
-      "lv": "Blanchi"
+      "lv": "il pâlirait"
     },
     "partizipVergangenheit": {
       "de": "geblichen",
-      "lv": "Blanchi"
+      "lv": "pâli"
     }
   },
   {
     "infinitiv": {
       "de": "braten",
-      "lv": "Frire • Rôtir"
+      "lv": "rôtir"
     },
     "praesens": {
       "de": "er brät",
-      "lv": "Il cuisine"
+      "lv": "il rôtit"
     },
     "imperfektIndikativ": {
       "de": "er briet",
-      "lv": "Il cuisinait"
+      "lv": "il rôtit"
     },
     "imperfektKonjunktiv": {
       "de": "er briete",
-      "lv": "Il cuisinerait"
+      "lv": "il rôtirait"
     },
     "partizipVergangenheit": {
       "de": "gebraten",
-      "lv": "Rôti / Frit"
+      "lv": "rôti"
     }
   },
   {
     "infinitiv": {
       "de": "brechen",
-      "lv": "Casser"
+      "lv": "casser"
     },
     "praesens": {
       "de": "er bricht",
-      "lv": "Il casse"
+      "lv": "il casse"
     },
     "imperfektIndikativ": {
       "de": "er brach",
-      "lv": "Il s'est cassé"
+      "lv": "il cassa"
     },
     "imperfektKonjunktiv": {
       "de": "er bräche",
-      "lv": "Il briserait"
+      "lv": "il casserait"
     },
     "partizipVergangenheit": {
       "de": "gebrochen",
-      "lv": "Cassé"
+      "lv": "cassé"
     }
   },
   {
     "infinitiv": {
       "de": "brennen",
-      "lv": "Degré"
+      "lv": "brûler"
     },
     "praesens": {
       "de": "er brennt",
-      "lv": "Il est en feu"
+      "lv": "il brûle"
     },
     "imperfektIndikativ": {
       "de": "brannte",
-      "lv": "Déga"
+      "lv": "il brûla"
     },
     "imperfektKonjunktiv": {
       "de": "brannte",
-      "lv": "Déga"
+      "lv": "il brûlerait"
     },
     "partizipVergangenheit": {
       "de": "gebrannt",
-      "lv": "Dedzis"
+      "lv": "brûlé"
     }
   },
   {
     "infinitiv": {
       "de": "bringen",
-      "lv": "Nid"
+      "lv": "apporter"
     },
     "praesens": {
       "de": "er bringt",
-      "lv": "Il porte"
+      "lv": "il apporte"
     },
     "imperfektIndikativ": {
       "de": "er brachte",
-      "lv": "Il portait"
+      "lv": "il apporta"
     },
     "imperfektKonjunktiv": {
       "de": "er brächte",
-      "lv": "Il porterait"
+      "lv": "il apporterait"
     },
     "partizipVergangenheit": {
       "de": "gebracht",
-      "lv": "Nids / atnests"
+      "lv": "apporté"
     }
   },
   {
     "infinitiv": {
       "de": "denken",
-      "lv": "Penser"
+      "lv": "penser"
     },
     "praesens": {
       "de": "er denkt",
-      "lv": "Il pense"
+      "lv": "il pense"
     },
     "imperfektIndikativ": {
       "de": "er dachte",
-      "lv": "Il pensait"
+      "lv": "il pensa"
     },
     "imperfektKonjunktiv": {
       "de": "er dächte",
-      "lv": "Il penserait"
+      "lv": "il penserait"
     },
     "partizipVergangenheit": {
       "de": "gedacht",
-      "lv": "Destiné"
+      "lv": "pensé"
     }
   },
   {
     "infinitiv": {
       "de": "dingen",
-      "lv": "Embaucher / convenir"
+      "lv": "engager / s'accorder"
     },
     "praesens": {
       "de": "er dingt",
-      "lv": "Il embauche"
+      "lv": "il engage / s'accorde"
     },
     "imperfektIndikativ": {
       "de": "dingte",
-      "lv": "Embauché"
+      "lv": "il engagea / s'accorda"
     },
     "imperfektKonjunktiv": {
       "de": "dingte",
-      "lv": "Embauché"
+      "lv": "il engagerait / s'accorderait"
     },
     "partizipVergangenheit": {
       "de": "gedungen",
-      "lv": "Embauché"
+      "lv": "engagé / accordé"
     }
   },
   {
     "infinitiv": {
       "de": "dreschen",
-      "lv": "Culte"
+      "lv": "battre"
     },
     "praesens": {
       "de": "er drischt",
-      "lv": "Il bat"
+      "lv": "il bat"
     },
     "imperfektIndikativ": {
       "de": "er drasch / er drosch",
-      "lv": "Il a battu"
+      "lv": "il battit"
     },
     "imperfektKonjunktiv": {
       "de": "er dräsche / er drösche",
-      "lv": "Il adorerait"
+      "lv": "il battrait"
     },
     "partizipVergangenheit": {
       "de": "gedroschen",
-      "lv": "Kults"
+      "lv": "battu"
     }
   },
   {
     "infinitiv": {
       "de": "dringen",
-      "lv": "Ielauzties"
+      "lv": "pénétrer"
     },
     "praesens": {
       "de": "er dringt",
-      "lv": "Il entre par effraction"
+      "lv": "il pénètre"
     },
     "imperfektIndikativ": {
       "de": "er drang",
-      "lv": "Il est entré par effraction"
+      "lv": "il pénétra"
     },
     "imperfektKonjunktiv": {
       "de": "er dränge",
-      "lv": "Il entrerait par effraction"
+      "lv": "il pénétrerait"
     },
     "partizipVergangenheit": {
       "de": "gedrungen (er ist)",
-      "lv": "Ielauzies"
+      "lv": "pénétré"
     }
   },
   {
     "infinitiv": {
       "de": "dünken",
-      "lv": "Il semble"
+      "lv": "sembler"
     },
     "praesens": {
       "de": "es dünkt",
-      "lv": "Il semble"
+      "lv": "il semble"
     },
     "imperfektIndikativ": {
       "de": "deuchte",
-      "lv": "Il semblait"
+      "lv": "il sembla"
     },
     "imperfektKonjunktiv": {
       "de": "deuchte",
-      "lv": "Il semblait"
+      "lv": "il semblerait"
     },
     "partizipVergangenheit": {
       "de": "gedünkt",
-      "lv": "Semblait"
+      "lv": "semblé"
     }
   },
   {
     "infinitiv": {
       "de": "dürfen",
-      "lv": "Être autorisé"
+      "lv": "avoir le droit"
     },
     "praesens": {
       "de": "er darf",
-      "lv": "Il peut"
+      "lv": "il a le droit"
     },
     "imperfektIndikativ": {
       "de": "durfte",
-      "lv": "A été autorisé"
+      "lv": "il eut le droit"
     },
     "imperfektKonjunktiv": {
       "de": "durfte",
-      "lv": "A été autorisé"
+      "lv": "il aurait le droit"
     },
     "partizipVergangenheit": {
       "de": "gedurft",
-      "lv": "Autorisé"
+      "lv": "eu le droit"
     }
   },
   {
     "infinitiv": {
       "de": "empfehlen",
-      "lv": "Ieteikt"
+      "lv": "recommander"
     },
     "praesens": {
       "de": "er empfiehlt",
-      "lv": "Il suggère"
+      "lv": "il recommande"
     },
     "imperfektIndikativ": {
       "de": "er empfahl",
-      "lv": "Il a suggéré"
+      "lv": "il recommanda"
     },
     "imperfektKonjunktiv": {
       "de": "er empfähle / er empföhle",
-      "lv": "Il recommanderait"
+      "lv": "il recommanderait"
     },
     "partizipVergangenheit": {
       "de": "empfohlen",
-      "lv": "Ieteikts"
+      "lv": "recommandé"
     }
   },
   {
     "infinitiv": {
       "de": "empfinden",
-      "lv": "Sajuste"
+      "lv": "ressentir"
     },
     "praesens": {
       "de": "er empfindet",
-      "lv": "Il se sent"
+      "lv": "il ressent"
     },
     "imperfektIndikativ": {
       "de": "er empfand",
-      "lv": "Il s'est senti"
+      "lv": "il ressentit"
     },
     "imperfektKonjunktiv": {
       "de": "er empfände",
-      "lv": "Il se sentirait"
+      "lv": "il ressentirait"
     },
     "partizipVergangenheit": {
       "de": "empfunden",
-      "lv": "Sajustes"
+      "lv": "ressenti"
     }
   },
   {
     "infinitiv": {
       "de": "erlöschen",
-      "lv": "Izdziste"
+      "lv": "s'éteindre"
     },
     "praesens": {
       "de": "er erlischt",
-      "lv": "Il sort"
+      "lv": "il s'éteint"
     },
     "imperfektIndikativ": {
       "de": "er erlosch",
-      "lv": "Il est sorti"
+      "lv": "il s'éteignit"
     },
     "imperfektKonjunktiv": {
       "de": "er erlösche",
-      "lv": "Il disparaîtrait"
+      "lv": "il s'éteindrait"
     },
     "partizipVergangenheit": {
       "de": "erloschen (er ist)",
-      "lv": "Izdzisis"
+      "lv": "éteint"
     }
   },
   {
     "infinitiv": {
       "de": "erschrecken",
-      "lv": "Être confus"
+      "lv": "s'effrayer"
     },
     "praesens": {
       "de": "er erschrickt",
-      "lv": "Il a peur"
+      "lv": "il s'effraie"
     },
     "imperfektIndikativ": {
       "de": "er erschrak",
-      "lv": "Il a eu peur"
+      "lv": "il s'effraya"
     },
     "imperfektKonjunktiv": {
       "de": "er erschräke",
-      "lv": "Il paniquerait"
+      "lv": "il s'effraierait"
     },
     "partizipVergangenheit": {
       "de": "erschrocken (er ist)",
-      "lv": "Sabijies"
+      "lv": "effrayé"
     }
   },
   {
     "infinitiv": {
       "de": "essen",
-      "lv": "Manger"
+      "lv": "manger"
     },
     "praesens": {
       "de": "er isst",
-      "lv": "Il mange"
+      "lv": "il mange"
     },
     "imperfektIndikativ": {
       "de": "er ass",
-      "lv": "Il mangeait"
+      "lv": "il mangea"
     },
     "imperfektKonjunktiv": {
       "de": "er äße",
-      "lv": "Il mangerait"
+      "lv": "il mangerait"
     },
     "partizipVergangenheit": {
       "de": "gegessen",
-      "lv": "Mangé / mangé"
+      "lv": "mangé"
     }
   },
   {
     "infinitiv": {
       "de": "fahren",
-      "lv": "Braukt"
+      "lv": "conduire"
     },
     "praesens": {
       "de": "er fährt",
-      "lv": "Il conduit"
+      "lv": "il conduit"
     },
     "imperfektIndikativ": {
       "de": "er fuhr",
-      "lv": "Il conduisait"
+      "lv": "il conduisit"
     },
     "imperfektKonjunktiv": {
       "de": "er führe",
-      "lv": "Il conduirait"
+      "lv": "il conduirait"
     },
     "partizipVergangenheit": {
       "de": "gefahren (er ist)",
-      "lv": "Braucis / aizbraucis"
+      "lv": "conduit"
     }
   },
   {
     "infinitiv": {
       "de": "fallen",
-      "lv": "Kriste"
+      "lv": "tomber"
     },
     "praesens": {
       "de": "er fällt",
-      "lv": "Il tombe"
+      "lv": "il tombe"
     },
     "imperfektIndikativ": {
       "de": "er fiel",
-      "lv": "Il est tombé"
+      "lv": "il tomba"
     },
     "imperfektKonjunktiv": {
       "de": "er fiele",
-      "lv": "Il tomberait"
+      "lv": "il tomberait"
     },
     "partizipVergangenheit": {
       "de": "gefallen (er ist)",
-      "lv": "Krite"
+      "lv": "tombé"
     }
   },
   {
     "infinitiv": {
       "de": "fangen",
-      "lv": "Attraper"
+      "lv": "attraper"
     },
     "praesens": {
       "de": "er fängt",
-      "lv": "Il attrape"
+      "lv": "il attrape"
     },
     "imperfektIndikativ": {
       "de": "er fing",
-      "lv": "Il a attrapé"
+      "lv": "il attrapa"
     },
     "imperfektKonjunktiv": {
       "de": "er finge",
-      "lv": "Il attraperait"
+      "lv": "il attraperait"
     },
     "partizipVergangenheit": {
       "de": "gefangen",
-      "lv": "Attrapé / attrapé"
+      "lv": "attrapé"
     }
   },
   {
     "infinitiv": {
       "de": "finden",
-      "lv": "Atrast"
+      "lv": "trouver"
     },
     "praesens": {
       "de": "er findet",
-      "lv": "Il trouve"
+      "lv": "il trouve"
     },
     "imperfektIndikativ": {
       "de": "er fand",
-      "lv": "Il a trouvé"
+      "lv": "il trouva"
     },
     "imperfektKonjunktiv": {
       "de": "er fände",
-      "lv": "Il trouverait"
+      "lv": "il trouverait"
     },
     "partizipVergangenheit": {
       "de": "gefunden",
-      "lv": "Atrastes"
+      "lv": "trouvé"
     }
   },
   {
     "infinitiv": {
       "de": "fliegen",
-      "lv": "Laisties"
+      "lv": "voler"
     },
     "praesens": {
       "de": "er fliegt",
-      "lv": "Il vole"
+      "lv": "il vole"
     },
     "imperfektIndikativ": {
       "de": "er flog",
-      "lv": "Il a volé"
+      "lv": "il vola"
     },
     "imperfektKonjunktiv": {
       "de": "er flöge",
-      "lv": "Il volerait"
+      "lv": "il volerait"
     },
     "partizipVergangenheit": {
       "de": "geflogen (er ist)",
-      "lv": "Lidojis"
+      "lv": "volé"
     }
   },
   {
     "infinitiv": {
       "de": "fliehen",
-      "lv": "Fuyez"
+      "lv": "fuir"
     },
     "praesens": {
       "de": "er flieht",
-      "lv": "Il s'enfuit"
+      "lv": "il fuit"
     },
     "imperfektIndikativ": {
       "de": "er floh",
-      "lv": "Il s'est enfui"
+      "lv": "il fuit"
     },
     "imperfektKonjunktiv": {
       "de": "er flöhe",
-      "lv": "Il s'enfuirait"
+      "lv": "il fuirait"
     },
     "partizipVergangenheit": {
       "de": "geflohen (er ist)",
-      "lv": "S'est enfui"
+      "lv": "fui"
     }
   },
   {
     "infinitiv": {
       "de": "fließen",
-      "lv": "Couler"
+      "lv": "couler"
     },
     "praesens": {
       "de": "er fließt",
-      "lv": "Il court"
+      "lv": "il coule"
     },
     "imperfektIndikativ": {
       "de": "er floss",
-      "lv": "Il a couru"
+      "lv": "il coula"
     },
     "imperfektKonjunktiv": {
       "de": "er flösse",
-      "lv": "Il courrait"
+      "lv": "il coulerait"
     },
     "partizipVergangenheit": {
       "de": "geflossen (er ist)",
-      "lv": "Passé"
+      "lv": "coulé"
     }
   },
   {
     "infinitiv": {
       "de": "fressen",
-      "lv": "Manger demain"
+      "lv": "manger / dévorer"
     },
     "praesens": {
       "de": "er frisst",
-      "lv": "Il mange / avale"
+      "lv": "il mange / dévore"
     },
     "imperfektIndikativ": {
       "de": "er frass",
-      "lv": "Il a mangé/avalé"
+      "lv": "il mangea / dévora"
     },
     "imperfektKonjunktiv": {
       "de": "er fräße",
-      "lv": "Il mangerait/petit déjeuner"
+      "lv": "il mangerait / dévorerait"
     },
     "partizipVergangenheit": {
       "de": "gefressen",
-      "lv": "Mangé / matin"
+      "lv": "mangé / dévoré"
     }
   },
   {
     "infinitiv": {
       "de": "frieren",
-      "lv": "Sel"
+      "lv": "avoir froid"
     },
     "praesens": {
       "de": "er friert",
-      "lv": "Il gèle"
+      "lv": "il a froid"
     },
     "imperfektIndikativ": {
       "de": "er fror",
-      "lv": "Il île"
+      "lv": "il eut froid"
     },
     "imperfektKonjunktiv": {
       "de": "er fröre",
-      "lv": "Il était gelé"
+      "lv": "il aurait froid"
     },
     "partizipVergangenheit": {
       "de": "gefroren",
-      "lv": "(Salis)"
+      "lv": "eu froid"
     }
   },
   {
     "infinitiv": {
       "de": "geben",
-      "lv": "Point"
+      "lv": "donner"
     },
     "praesens": {
       "de": "er gibt",
-      "lv": "Il donne"
+      "lv": "il donne"
     },
     "imperfektIndikativ": {
       "de": "er gab",
-      "lv": "Il a donné"
+      "lv": "il donna"
     },
     "imperfektKonjunktiv": {
       "de": "er gäbe",
-      "lv": "Il donnerait"
+      "lv": "il donnerait"
     },
     "partizipVergangenheit": {
       "de": "gegeben",
-      "lv": "Points"
+      "lv": "donné"
     }
   },
   {
     "infinitiv": {
       "de": "gedeihen",
-      "lv": "Izdoties"
+      "lv": "prospérer"
     },
     "praesens": {
       "de": "er gedeiht",
-      "lv": "Il réussit"
+      "lv": "il prospère"
     },
     "imperfektIndikativ": {
       "de": "er gedieh",
-      "lv": "Il a réussi"
+      "lv": "il prospéra"
     },
     "imperfektKonjunktiv": {
       "de": "er gediehe",
-      "lv": "Il réussirait"
+      "lv": "il prospérerait"
     },
     "partizipVergangenheit": {
       "de": "gediehen (er ist)",
-      "lv": "Izdevies"
+      "lv": "prospéré"
     }
   },
   {
     "infinitiv": {
       "de": "gehen",
-      "lv": "Iet"
+      "lv": "aller"
     },
     "praesens": {
       "de": "er geht",
-      "lv": "Il va"
+      "lv": "il va"
     },
     "imperfektIndikativ": {
       "de": "er ging",
-      "lv": "Il a marché"
+      "lv": "il alla"
     },
     "imperfektKonjunktiv": {
       "de": "er ginge",
-      "lv": "Il irait"
+      "lv": "il irait"
     },
     "partizipVergangenheit": {
       "de": "gegangen (er ist)",
-      "lv": "Est allé"
+      "lv": "allé"
     }
   },
   {
     "infinitiv": {
       "de": "gewinnen",
-      "lv": "Obtenir"
+      "lv": "gagner"
     },
     "praesens": {
       "de": "er gewinnt",
-      "lv": "Il obtient"
+      "lv": "il gagne"
     },
     "imperfektIndikativ": {
       "de": "er gewann",
-      "lv": "Il a eu"
+      "lv": "il gagna"
     },
     "imperfektKonjunktiv": {
       "de": "er gewönne / er gewänne",
-      "lv": "Il obtiendrait"
+      "lv": "il gagnerait"
     },
     "partizipVergangenheit": {
       "de": "gewonnen",
-      "lv": "Obtenu"
+      "lv": "gagné"
     }
   },
   {
     "infinitiv": {
       "de": "haben",
-      "lv": "Être / appartenir"
+      "lv": "avoir"
     },
     "praesens": {
       "de": "er hat",
-      "lv": "Il a"
+      "lv": "il a"
     },
     "imperfektIndikativ": {
       "de": "hatte",
-      "lv": "Bija"
+      "lv": "il eut"
     },
     "imperfektKonjunktiv": {
       "de": "hatte",
-      "lv": "Bija"
+      "lv": "il aurait"
     },
     "partizipVergangenheit": {
       "de": "gehabt",
-      "lv": "Bijis"
+      "lv": "eu"
     }
   },
   {
     "infinitiv": {
       "de": "halten",
-      "lv": "Prise"
+      "lv": "tenir"
     },
     "praesens": {
       "de": "er hält",
-      "lv": "Il est là"
+      "lv": "il tient"
     },
     "imperfektIndikativ": {
       "de": "er hielt",
-      "lv": "Il a tenu"
+      "lv": "il tint"
     },
     "imperfektKonjunktiv": {
       "de": "er hielte",
-      "lv": "Il tiendrait"
+      "lv": "il tiendrait"
     },
     "partizipVergangenheit": {
       "de": "gehalten",
-      "lv": "Détenu"
+      "lv": "tenu"
     }
   },
   {
     "infinitiv": {
       "de": "heißen",
-      "lv": "Saukt"
+      "lv": "appeler / s'appeler"
     },
     "praesens": {
       "de": "er heißt",
-      "lv": "Il appelle / il est appelé"
+      "lv": "il appelle / s'appelle"
     },
     "imperfektIndikativ": {
       "de": "er hieß",
-      "lv": "Il a appelé / il a été appelé"
+      "lv": "il appela / s'appela"
     },
     "imperfektKonjunktiv": {
       "de": "er hieße",
-      "lv": "Il appellerait / il serait appelé"
+      "lv": "il appellerait / s'appellerait"
     },
     "partizipVergangenheit": {
       "de": "geheißen",
-      "lv": "Saukts"
+      "lv": "appelé / appelé"
     }
   },
   {
     "infinitiv": {
       "de": "helfen",
-      "lv": "Pour aider"
+      "lv": "aider"
     },
     "praesens": {
       "de": "er hilft",
-      "lv": "Il aide"
+      "lv": "il aide"
     },
     "imperfektIndikativ": {
       "de": "er half",
-      "lv": "Il a aidé"
+      "lv": "il aida"
     },
     "imperfektKonjunktiv": {
       "de": "er hülfe / er hälfe",
-      "lv": "Il aiderait"
+      "lv": "il aiderait"
     },
     "partizipVergangenheit": {
       "de": "geholfen",
-      "lv": "Aidé"
+      "lv": "aidé"
     }
   },
   {
     "infinitiv": {
       "de": "kommen",
-      "lv": "Venir"
+      "lv": "venir"
     },
     "praesens": {
       "de": "er kommt",
-      "lv": "Il vient"
+      "lv": "il vient"
     },
     "imperfektIndikativ": {
       "de": "er kam",
-      "lv": "Il est venu"
+      "lv": "il vint"
     },
     "imperfektKonjunktiv": {
       "de": "er käme",
-      "lv": "Il viendrait"
+      "lv": "il viendrait"
     },
     "partizipVergangenheit": {
       "de": "gekommen (er ist)",
-      "lv": "Est venu"
+      "lv": "venu"
     }
   },
   {
     "infinitiv": {
       "de": "können",
-      "lv": "Pouvoir"
+      "lv": "pouvoir"
     },
     "praesens": {
       "de": "er kann",
-      "lv": "Il peut"
+      "lv": "il peut"
     },
     "imperfektIndikativ": {
       "de": "konnte",
-      "lv": "Pourrait"
+      "lv": "il put"
     },
     "imperfektKonjunktiv": {
       "de": "konnte",
-      "lv": "Pourrait"
+      "lv": "il pourrait"
     },
     "partizipVergangenheit": {
       "de": "gekonnt",
-      "lv": "Pourrait"
+      "lv": "pu"
     }
   },
   {
     "infinitiv": {
       "de": "kriechen",
-      "lv": "Il pleut"
+      "lv": "ramper"
     },
     "praesens": {
       "de": "er kriecht",
-      "lv": "Il se penche"
+      "lv": "il rampe"
     },
     "imperfektIndikativ": {
       "de": "er kroch",
-      "lv": "Il a plu"
+      "lv": "il rampa"
     },
     "imperfektKonjunktiv": {
       "de": "er kröche",
-      "lv": "Il pleut"
+      "lv": "il ramperait"
     },
     "partizipVergangenheit": {
       "de": "gekrochen (er ist)",
-      "lv": "Est décédé"
+      "lv": "rampé"
     }
   },
   {
     "infinitiv": {
       "de": "laden",
-      "lv": "Charger, inviter"
+      "lv": "charger / inviter"
     },
     "praesens": {
       "de": "er lädt",
-      "lv": "Il empile / invite"
+      "lv": "il charge / invite"
     },
     "imperfektIndikativ": {
       "de": "er lud",
-      "lv": "Il a chargé / invité"
+      "lv": "il chargea / invita"
     },
     "imperfektKonjunktiv": {
       "de": "er lüde",
-      "lv": "Il chargerait / inviterait"
+      "lv": "il chargerait / inviterait"
     },
     "partizipVergangenheit": {
       "de": "geladen",
-      "lv": "Chargé / invité"
+      "lv": "chargé / invité"
     }
   },
   {
     "infinitiv": {
       "de": "lassen",
-      "lv": "Mettre, laisser"
+      "lv": "faire / laisser"
     },
     "praesens": {
       "de": "er lässt",
-      "lv": "Il met / laisse"
+      "lv": "il fait / laisse"
     },
     "imperfektIndikativ": {
       "de": "er ließ",
-      "lv": "Il a ordonné / autorisé"
+      "lv": "il fit / laissa"
     },
     "imperfektKonjunktiv": {
       "de": "er ließe",
-      "lv": "Il mettrait / laisserait"
+      "lv": "il ferait / laisserait"
     },
     "partizipVergangenheit": {
       "de": "gelassen",
-      "lv": "Mettre / autorisé"
+      "lv": "fait / laissé"
     }
   },
   {
     "infinitiv": {
       "de": "laufen",
-      "lv": "Skriet"
+      "lv": "courir"
     },
     "praesens": {
       "de": "er läuft",
-      "lv": "Il court"
+      "lv": "il court"
     },
     "imperfektIndikativ": {
       "de": "er lief",
-      "lv": "Il a couru"
+      "lv": "il courut"
     },
     "imperfektKonjunktiv": {
       "de": "er liefe",
-      "lv": "Il courrait"
+      "lv": "il courrait"
     },
     "partizipVergangenheit": {
       "de": "gelaufen (er ist)",
-      "lv": "Couru"
+      "lv": "couru"
     }
   },
   {
     "infinitiv": {
       "de": "leiden",
-      "lv": "Ciest"
+      "lv": "souffrir"
     },
     "praesens": {
       "de": "er leidet",
-      "lv": "Il souffre"
+      "lv": "il souffre"
     },
     "imperfektIndikativ": {
       "de": "er litt",
-      "lv": "Il a souffert"
+      "lv": "il souffrit"
     },
     "imperfektKonjunktiv": {
       "de": "er litte",
-      "lv": "Il souffrirait"
+      "lv": "il souffrirait"
     },
     "partizipVergangenheit": {
       "de": "gelitten",
-      "lv": "Villes"
+      "lv": "souffert"
     }
   },
   {
     "infinitiv": {
       "de": "leihen",
-      "lv": "Prêter/emprunter"
+      "lv": "prêter / emprunter"
     },
     "praesens": {
       "de": "er leiht",
-      "lv": "Il prête/emprunte"
+      "lv": "il prête / emprunte"
     },
     "imperfektIndikativ": {
       "de": "er lieh",
-      "lv": "Il a prêté / emprunté"
+      "lv": "il prêta / emprunta"
     },
     "imperfektKonjunktiv": {
       "de": "er liehe",
-      "lv": "Il prêterait/emprunterait"
+      "lv": "il prêterait / emprunterait"
     },
     "partizipVergangenheit": {
       "de": "geliehen",
-      "lv": "Prêté / emprunté"
+      "lv": "prêté / emprunté"
     }
   },
   {
     "infinitiv": {
       "de": "lesen",
-      "lv": "Lire"
+      "lv": "lire"
     },
     "praesens": {
       "de": "er liest",
-      "lv": "Il lit"
+      "lv": "il lit"
     },
     "imperfektIndikativ": {
       "de": "er las",
-      "lv": "Il lisait"
+      "lv": "il lut"
     },
     "imperfektKonjunktiv": {
       "de": "er läse",
-      "lv": "Il lirait"
+      "lv": "il lirait"
     },
     "partizipVergangenheit": {
       "de": "gelesen",
-      "lv": "Lire"
+      "lv": "lu"
     }
   },
   {
     "infinitiv": {
       "de": "liegen",
-      "lv": "Dormir"
+      "lv": "être couché"
     },
     "praesens": {
       "de": "er liegt",
-      "lv": "Il dort"
+      "lv": "il est couché"
     },
     "imperfektIndikativ": {
       "de": "er lag",
-      "lv": "Il dormait"
+      "lv": "il fut couché"
     },
     "imperfektKonjunktiv": {
       "de": "er läge",
-      "lv": "Il dormirait"
+      "lv": "il serait couché"
     },
     "partizipVergangenheit": {
       "de": "gelegen",
-      "lv": "J'ai dormi"
+      "lv": "été couché"
     }
   },
   {
     "infinitiv": {
       "de": "lügen",
-      "lv": "Mélot"
+      "lv": "mentir"
     },
     "praesens": {
       "de": "er lügt",
-      "lv": "Il ment"
+      "lv": "il ment"
     },
     "imperfektIndikativ": {
       "de": "er log",
-      "lv": "Il a menti"
+      "lv": "il mentit"
     },
     "imperfektKonjunktiv": {
       "de": "er löge",
-      "lv": "Il mentirait"
+      "lv": "il mentirait"
     },
     "partizipVergangenheit": {
       "de": "gelogen",
-      "lv": "Melots"
+      "lv": "menti"
     }
   },
   {
     "infinitiv": {
       "de": "mahlen",
-      "lv": "Lait malté"
+      "lv": "moudre"
     },
     "praesens": {
       "de": "er mahlt",
-      "lv": "Il broie"
+      "lv": "il moud"
     },
     "imperfektIndikativ": {
       "de": "er mahlte",
-      "lv": "Il borde"
+      "lv": "il moulut"
     },
     "imperfektKonjunktiv": {
       "de": "er malte",
-      "lv": "Il broie"
+      "lv": "il moudrait"
     },
     "partizipVergangenheit": {
       "de": "gemahlen",
-      "lv": "Malts"
+      "lv": "moulu"
     }
   },
   {
     "infinitiv": {
       "de": "meiden",
-      "lv": "Éviter"
+      "lv": "éviter"
     },
     "praesens": {
       "de": "er meidet",
-      "lv": "Il évite"
+      "lv": "il évite"
     },
     "imperfektIndikativ": {
       "de": "er mied",
-      "lv": "Il a évité"
+      "lv": "il évita"
     },
     "imperfektKonjunktiv": {
       "de": "er miede",
-      "lv": "Il éviterait"
+      "lv": "il éviterait"
     },
     "partizipVergangenheit": {
       "de": "gemieden",
-      "lv": "Évité"
+      "lv": "évité"
     }
   },
   {
     "infinitiv": {
       "de": "melken",
-      "lv": "Slauk"
+      "lv": "traire"
     },
     "praesens": {
       "de": "er milkt / er melkt",
-      "lv": "Il balaie"
+      "lv": "il trait"
     },
     "imperfektIndikativ": {
       "de": "er molk / er melkte",
-      "lv": "Il a balayé"
+      "lv": "il a trait"
     },
     "imperfektKonjunktiv": {
       "de": "er mölke / er melkte",
-      "lv": "Il traireait"
+      "lv": "il trairait"
     },
     "partizipVergangenheit": {
       "de": "gemolken / gemelkt",
-      "lv": "Slaukts"
+      "lv": "trait"
     }
   },
   {
     "infinitiv": {
       "de": "messen",
-      "lv": "Mesurer"
+      "lv": "mesurer"
     },
     "praesens": {
       "de": "er misst",
-      "lv": "Il mesure"
+      "lv": "il mesure"
     },
     "imperfektIndikativ": {
       "de": "er mass",
-      "lv": "Il a mesuré"
+      "lv": "il mesura"
     },
     "imperfektKonjunktiv": {
       "de": "er mäße",
-      "lv": "Il mesurerait"
+      "lv": "il mesurerait"
     },
     "partizipVergangenheit": {
       "de": "gemessen",
-      "lv": "Mesuré"
+      "lv": "mesuré"
     }
   },
   {
     "infinitiv": {
       "de": "misslingen",
-      "lv": "Neizdoties"
+      "lv": "échouer"
     },
     "praesens": {
       "de": "es misslingt",
-      "lv": "Tas neizdodas"
+      "lv": "il échoue"
     },
     "imperfektIndikativ": {
       "de": "misslang",
-      "lv": "Échoué"
+      "lv": "il échoua"
     },
     "imperfektKonjunktiv": {
       "de": "misslang",
-      "lv": "Échoué"
+      "lv": "il échouerait"
     },
     "partizipVergangenheit": {
       "de": "misslungen",
-      "lv": "Neizdevies"
+      "lv": "échoué"
     }
   },
   {
     "infinitiv": {
       "de": "mögen",
-      "lv": "Patikt"
+      "lv": "aimer"
     },
     "praesens": {
       "de": "er mag",
-      "lv": "Il aime"
+      "lv": "il aime"
     },
     "imperfektIndikativ": {
       "de": "mochte",
-      "lv": "Patika"
+      "lv": "il aima"
     },
     "imperfektKonjunktiv": {
       "de": "mochte",
-      "lv": "Patika"
+      "lv": "il aimerait"
     },
     "partizipVergangenheit": {
       "de": "gemocht",
-      "lv": "Paticis"
+      "lv": "aimé"
     }
   },
   {
     "infinitiv": {
       "de": "müssen",
-      "lv": "Avoir besoin"
+      "lv": "devoir"
     },
     "praesens": {
       "de": "er muss",
-      "lv": "Il a besoin"
+      "lv": "il doit"
     },
     "imperfektIndikativ": {
       "de": "musste",
-      "lv": "Aurait dû"
+      "lv": "il dut"
     },
     "imperfektKonjunktiv": {
       "de": "musste",
-      "lv": "Aurait dû"
+      "lv": "il devrait"
     },
     "partizipVergangenheit": {
       "de": "gemusst",
-      "lv": "Nécessaire"
+      "lv": "dû"
     }
   },
   {
     "infinitiv": {
       "de": "nehmen",
-      "lv": "Prendre"
+      "lv": "prendre"
     },
     "praesens": {
       "de": "er nimmt",
-      "lv": "Il prend"
+      "lv": "il prend"
     },
     "imperfektIndikativ": {
       "de": "er nahm",
-      "lv": "Il a pris"
+      "lv": "il prit"
     },
     "imperfektKonjunktiv": {
       "de": "er nähme",
-      "lv": "Il prendrait"
+      "lv": "il prendrait"
     },
     "partizipVergangenheit": {
       "de": "genommen",
-      "lv": "Pris"
+      "lv": "pris"
     }
   },
   {
     "infinitiv": {
       "de": "nennen",
-      "lv": "Nosaukt"
+      "lv": "nommer"
     },
     "praesens": {
       "de": "er nennt",
-      "lv": "Il a nommé"
+      "lv": "il nomme"
     },
     "imperfektIndikativ": {
       "de": "er nannte",
-      "lv": "Il a appelé"
+      "lv": "il nomma"
     },
     "imperfektKonjunktiv": {
       "de": "er nennte",
-      "lv": "Il nommerait"
+      "lv": "il nommerait"
     },
     "partizipVergangenheit": {
       "de": "genannt",
-      "lv": "Nosaukts"
+      "lv": "nommé"
     }
   },
   {
     "infinitiv": {
       "de": "pfeifen",
-      "lv": "Svilpot"
+      "lv": "siffler"
     },
     "praesens": {
       "de": "er pfeift",
-      "lv": "Il siffle"
+      "lv": "il siffle"
     },
     "imperfektIndikativ": {
       "de": "er pfiff",
-      "lv": "Il a sifflé"
+      "lv": "il siffla"
     },
     "imperfektKonjunktiv": {
       "de": "er pfiffe",
-      "lv": "Il sifflerait"
+      "lv": "il sifflerait"
     },
     "partizipVergangenheit": {
       "de": "gepfiffen",
-      "lv": "Svilpots"
+      "lv": "sifflé"
     }
   },
   {
     "infinitiv": {
       "de": "pflegen",
-      "lv": "Copte"
+      "lv": "soigner"
     },
     "praesens": {
       "de": "er pflegt",
-      "lv": "Il s'en soucie"
+      "lv": "il soigne"
     },
     "imperfektIndikativ": {
       "de": "pflegte / pflog",
-      "lv": "Copa"
+      "lv": "il soigna"
     },
     "imperfektKonjunktiv": {
       "de": "pflegte / pflog",
-      "lv": "Copa"
+      "lv": "il soignerait"
     },
     "partizipVergangenheit": {
       "de": "gepflegt / gepflogen",
-      "lv": "Coptes"
+      "lv": "soigné"
     }
   },
   {
     "infinitiv": {
       "de": "preisen",
-      "lv": "Louer"
+      "lv": "louer"
     },
     "praesens": {
       "de": "er preist",
-      "lv": "Il fait l'éloge"
+      "lv": "il loue"
     },
     "imperfektIndikativ": {
       "de": "er pries",
-      "lv": "Il a loué"
+      "lv": "il loua"
     },
     "imperfektKonjunktiv": {
       "de": "er priese",
-      "lv": "Il louerait"
+      "lv": "il louerait"
     },
     "partizipVergangenheit": {
       "de": "gepriesen",
-      "lv": "Loué"
+      "lv": "loué"
     }
   },
   {
     "infinitiv": {
       "de": "quellen",
-      "lv": "Le plus court"
+      "lv": "gonfler"
     },
     "praesens": {
       "de": "er quillt",
-      "lv": "Il grossit"
+      "lv": "il gonfle"
     },
     "imperfektIndikativ": {
       "de": "er quoll",
-      "lv": "Il a mûri"
+      "lv": "il gonfla"
     },
     "imperfektKonjunktiv": {
       "de": "er quölle",
-      "lv": "Il est gros"
+      "lv": "il gonflerait"
     },
     "partizipVergangenheit": {
       "de": "gequollen (er ist)",
-      "lv": "Ouzbriedis"
+      "lv": "gonflé"
     }
   },
   {
     "infinitiv": {
       "de": "raten",
-      "lv": "Suggérer / mentionner"
+      "lv": "conseiller / deviner"
     },
     "praesens": {
       "de": "er rät",
-      "lv": "Il recommande / min"
+      "lv": "il conseille / devine"
     },
     "imperfektIndikativ": {
       "de": "er riet",
-      "lv": "Il a suggéré / suggéré"
+      "lv": "il conseilla / devina"
     },
     "imperfektKonjunktiv": {
       "de": "er riete",
-      "lv": "Il suggérerait / mentionnerait"
+      "lv": "il conseillerait / devinerait"
     },
     "partizipVergangenheit": {
       "de": "geraten",
-      "lv": "Suggéré / mentionné"
+      "lv": "conseillé / deviné"
     }
   },
   {
     "infinitiv": {
       "de": "reiben",
-      "lv": "Berzt"
+      "lv": "frotter"
     },
     "praesens": {
       "de": "er reibt",
-      "lv": "Il frotte"
+      "lv": "il frotte"
     },
     "imperfektIndikativ": {
       "de": "er rieb",
-      "lv": "Il frotte"
+      "lv": "il frotta"
     },
     "imperfektKonjunktiv": {
       "de": "er riebe",
-      "lv": "Il frotterait"
+      "lv": "il frotterait"
     },
     "partizipVergangenheit": {
       "de": "gerieben",
-      "lv": "Berzts"
+      "lv": "frotté"
     }
   },
   {
     "infinitiv": {
       "de": "reißen",
-      "lv": "RAUT"
+      "lv": "déchirer"
     },
     "praesens": {
       "de": "er reißt",
-      "lv": "Il claque"
+      "lv": "il déchire"
     },
     "imperfektIndikativ": {
       "de": "er riss",
-      "lv": "Il a cassé"
+      "lv": "il déchira"
     },
     "imperfektKonjunktiv": {
       "de": "er risse",
-      "lv": "Il a cassé"
+      "lv": "il déchirerait"
     },
     "partizipVergangenheit": {
       "de": "gerissen",
-      "lv": "Routs"
+      "lv": "déchiré"
     }
   },
   {
     "infinitiv": {
       "de": "reiten",
-      "lv": "Rouler"
+      "lv": "monter à cheval"
     },
     "praesens": {
       "de": "er reitet",
-      "lv": "Il monte"
+      "lv": "il monte à cheval"
     },
     "imperfektIndikativ": {
       "de": "er ritt",
-      "lv": "Il a roulé"
+      "lv": "il monta à cheval"
     },
     "imperfektKonjunktiv": {
       "de": "er ritte",
-      "lv": "Il monterait"
+      "lv": "il monterait à cheval"
     },
     "partizipVergangenheit": {
       "de": "geritten (er ist)",
-      "lv": "Monté"
+      "lv": "monté à cheval"
     }
   },
   {
     "infinitiv": {
       "de": "rennen",
-      "lv": "Skriet"
+      "lv": "courir"
     },
     "praesens": {
       "de": "er rennt",
-      "lv": "Il court"
+      "lv": "il court"
     },
     "imperfektIndikativ": {
       "de": "er rannte",
-      "lv": "Il a couru"
+      "lv": "il courut"
     },
     "imperfektKonjunktiv": {
       "de": "er rennte",
-      "lv": "Il courrait"
+      "lv": "il courrait"
     },
     "partizipVergangenheit": {
       "de": "gerannt",
-      "lv": "Couru"
+      "lv": "couru"
     }
   },
   {
     "infinitiv": {
       "de": "riechen",
-      "lv": "Ost"
+      "lv": "sentir"
     },
     "praesens": {
       "de": "er riecht",
-      "lv": "Il sent"
+      "lv": "il sent"
     },
     "imperfektIndikativ": {
       "de": "er roch",
-      "lv": "Il chante"
+      "lv": "il sentit"
     },
     "imperfektKonjunktiv": {
       "de": "er röche",
-      "lv": "Il porte"
+      "lv": "il sentirait"
     },
     "partizipVergangenheit": {
       "de": "gerochen",
-      "lv": "Senti"
+      "lv": "senti"
     }
   },
   {
     "infinitiv": {
       "de": "ringen",
-      "lv": "Se débattre / S'efforcer"
+      "lv": "lutter"
     },
     "praesens": {
       "de": "er ringt",
-      "lv": "Il se bat"
+      "lv": "il lutte"
     },
     "imperfektIndikativ": {
       "de": "er rang",
-      "lv": "Il est tombé en panne"
+      "lv": "il lutta"
     },
     "imperfektKonjunktiv": {
       "de": "er ränge",
-      "lv": "Il briserait"
+      "lv": "il lutterait"
     },
     "partizipVergangenheit": {
       "de": "gerungen",
-      "lv": "Laucies"
+      "lv": "lutté"
     }
   },
   {
     "infinitiv": {
       "de": "rinnen",
-      "lv": "Couler"
+      "lv": "couler"
     },
     "praesens": {
       "de": "er rinnt",
-      "lv": "Il court"
+      "lv": "il coule"
     },
     "imperfektIndikativ": {
       "de": "er rann",
-      "lv": "Il a couru"
+      "lv": "il coula"
     },
     "imperfektKonjunktiv": {
       "de": "er ränne / er rönne",
-      "lv": "Il courrait"
+      "lv": "il coulerait"
     },
     "partizipVergangenheit": {
       "de": "geronnen (er ist)",
-      "lv": "Coulé / coagulé"
+      "lv": "coulé"
     }
   },
   {
     "infinitiv": {
       "de": "rufen",
-      "lv": "Saukt"
+      "lv": "appeler"
     },
     "praesens": {
       "de": "er ruft",
-      "lv": "Il appelle"
+      "lv": "il appelle"
     },
     "imperfektIndikativ": {
       "de": "er rief",
-      "lv": "Il a appelé"
+      "lv": "il appela"
     },
     "imperfektKonjunktiv": {
       "de": "er riefe",
-      "lv": "Il appellerait"
+      "lv": "il appellerait"
     },
     "partizipVergangenheit": {
       "de": "gerufen",
-      "lv": "Saukts"
+      "lv": "appelé"
     }
   },
   {
     "infinitiv": {
       "de": "salzen",
-      "lv": "Saler"
+      "lv": "saler"
     },
     "praesens": {
       "de": "er salzt",
-      "lv": "Il a salé"
+      "lv": "il sale"
     },
     "imperfektIndikativ": {
       "de": "er salzte",
-      "lv": "Il a salé"
+      "lv": "il sala"
     },
     "imperfektKonjunktiv": {
       "de": "er salzte",
-      "lv": "Il salerait"
+      "lv": "il salerait"
     },
     "partizipVergangenheit": {
       "de": "gesalzen",
-      "lv": "Salé"
+      "lv": "salé"
     }
   },
   {
     "infinitiv": {
       "de": "saufen",
-      "lv": "Sécher / boire"
+      "lv": "s'enivrer / boire"
     },
     "praesens": {
       "de": "er säuft",
-      "lv": "Il boit / boit"
+      "lv": "il s'enivre / boit"
     },
     "imperfektIndikativ": {
       "de": "er soff",
-      "lv": "Il a bu/a bu"
+      "lv": "il s'enivra / but"
     },
     "imperfektKonjunktiv": {
       "de": "er söffe",
-      "lv": "Il boirait / boirait"
+      "lv": "il s'enivrerait / boirait"
     },
     "partizipVergangenheit": {
       "de": "gesoffen",
-      "lv": "Dzerts"
+      "lv": "enivré / bu"
     }
   },
   {
     "infinitiv": {
       "de": "saugen",
-      "lv": "Sucer"
+      "lv": "sucer"
     },
     "praesens": {
       "de": "er saugt",
-      "lv": "Il est nul"
+      "lv": "il suce"
     },
     "imperfektIndikativ": {
       "de": "er sog",
-      "lv": "Il a sucé"
+      "lv": "il suça"
     },
     "imperfektKonjunktiv": {
       "de": "er söge",
-      "lv": "Il serait nul"
+      "lv": "il sucerait"
     },
     "partizipVergangenheit": {
       "de": "gesogen",
-      "lv": "Sucé"
+      "lv": "sucé"
     }
   },
   {
     "infinitiv": {
       "de": "schaffen",
-      "lv": "Créer"
+      "lv": "créer"
     },
     "praesens": {
       "de": "er schafft",
-      "lv": "Il crée"
+      "lv": "il crée"
     },
     "imperfektIndikativ": {
       "de": "er schuf",
-      "lv": "Il a créé"
+      "lv": "il créa"
     },
     "imperfektKonjunktiv": {
       "de": "er schüfe",
-      "lv": "Il créerait"
+      "lv": "il créerait"
     },
     "partizipVergangenheit": {
       "de": "geschaffen",
-      "lv": "Créé"
+      "lv": "créé"
     }
   },
   {
     "infinitiv": {
       "de": "schallen",
-      "lv": "Sonner"
+      "lv": "résonner"
     },
     "praesens": {
       "de": "es schallt",
-      "lv": "Tâche skan"
+      "lv": "il résonne"
     },
     "imperfektIndikativ": {
       "de": "schallte / scholl",
-      "lv": "Sonnait"
+      "lv": "il résonna"
     },
     "imperfektKonjunktiv": {
       "de": "schallte / scholl",
-      "lv": "Sonnait"
+      "lv": "il résonnerait"
     },
     "partizipVergangenheit": {
       "de": "geschallt",
-      "lv": "Sonnait"
+      "lv": "résonné"
     }
   },
   {
     "infinitiv": {
       "de": "scheiden",
-      "lv": "Divorce / rupture"
+      "lv": "séparer / se séparer"
     },
     "praesens": {
       "de": "er scheidet",
-      "lv": "Il est en train de divorcer / divorcer"
+      "lv": "il sépare / se sépare"
     },
     "imperfektIndikativ": {
       "de": "er schied",
-      "lv": "Il a divorcé / divorcé"
+      "lv": "il sépara / se sépara"
     },
     "imperfektKonjunktiv": {
       "de": "er schiede",
-      "lv": "Il divorcerait / divorcerait"
+      "lv": "il séparerait / se séparerait"
     },
     "partizipVergangenheit": {
       "de": "geschieden (er hat / er ist)",
-      "lv": "Séparé/divorcé"
+      "lv": "séparé / séparé"
     }
   },
   {
     "infinitiv": {
       "de": "scheinen",
-      "lv": "Briller / apparaître"
+      "lv": "briller / paraître"
     },
     "praesens": {
       "de": "er scheint",
-      "lv": "Il brille / semble"
+      "lv": "il brille / paraît"
     },
     "imperfektIndikativ": {
       "de": "er schien",
-      "lv": "Il brillait / semblait"
+      "lv": "il brilla / parut"
     },
     "imperfektKonjunktiv": {
       "de": "er schiene",
-      "lv": "Il brillerait / semblerait"
+      "lv": "il brillerait / paraîtrait"
     },
     "partizipVergangenheit": {
       "de": "geschienen",
-      "lv": "Brillait / semblait"
+      "lv": "brillé / paru"
     }
   },
   {
     "infinitiv": {
       "de": "schelten",
-      "lv": "Bart"
+      "lv": "gronder"
     },
     "praesens": {
       "de": "er schilt",
-      "lv": "Il gronde"
+      "lv": "il gronde"
     },
     "imperfektIndikativ": {
       "de": "er schalt",
-      "lv": "Il a interdit"
+      "lv": "il gronda"
     },
     "imperfektKonjunktiv": {
       "de": "er schölte / er schälte",
-      "lv": "Il se rase"
+      "lv": "il gronderait"
     },
     "partizipVergangenheit": {
       "de": "gescholten",
-      "lv": "Barbe"
+      "lv": "grondé"
     }
   },
   {
     "infinitiv": {
       "de": "scheren",
-      "lv": "Crypte"
+      "lv": "tondre"
     },
     "praesens": {
       "de": "er schert",
-      "lv": "Il coupe"
+      "lv": "il tond"
     },
     "imperfektIndikativ": {
       "de": "schor / scherte",
-      "lv": "CirPA"
+      "lv": "il tondit"
     },
     "imperfektKonjunktiv": {
       "de": "schor / scherte",
-      "lv": "CirPA"
+      "lv": "il tondrait"
     },
     "partizipVergangenheit": {
       "de": "geschoren / geschert",
-      "lv": "Extraits"
+      "lv": "tondu"
     }
   },
   {
     "infinitiv": {
       "de": "schieben",
-      "lv": "Stunt"
+      "lv": "pousser"
     },
     "praesens": {
       "de": "er schiebt",
-      "lv": "Il pousse"
+      "lv": "il pousse"
     },
     "imperfektIndikativ": {
       "de": "er schob",
-      "lv": "Il a poussé"
+      "lv": "il poussa"
     },
     "imperfektKonjunktiv": {
       "de": "er schöbe",
-      "lv": "Il pousserait"
+      "lv": "il pousserait"
     },
     "partizipVergangenheit": {
       "de": "geschoben",
-      "lv": "Des trucs"
+      "lv": "poussé"
     }
   },
   {
     "infinitiv": {
       "de": "schießen",
-      "lv": "Tirer"
+      "lv": "tirer"
     },
     "praesens": {
       "de": "er schießt",
-      "lv": "Il tire"
+      "lv": "il tire"
     },
     "imperfektIndikativ": {
       "de": "er schoss",
-      "lv": "Il a tiré"
+      "lv": "il tira"
     },
     "imperfektKonjunktiv": {
       "de": "er schösse",
-      "lv": "Il tirerait"
+      "lv": "il tirerait"
     },
     "partizipVergangenheit": {
       "de": "geschossen",
-      "lv": "Tir"
+      "lv": "tiré"
     }
   },
   {
     "infinitiv": {
       "de": "schinden",
-      "lv": "Tourmenter"
+      "lv": "tourmenter"
     },
     "praesens": {
       "de": "er schindet",
-      "lv": "Il tourmente"
+      "lv": "il tourmente"
     },
     "imperfektIndikativ": {
       "de": "schindete",
-      "lv": "Tourmenté"
+      "lv": "il tourmenta"
     },
     "imperfektKonjunktiv": {
       "de": "schindete",
-      "lv": "Tourmenté"
+      "lv": "il tourmenterait"
     },
     "partizipVergangenheit": {
       "de": "geschunden",
-      "lv": "Tourmenté"
+      "lv": "tourmenté"
     }
   },
   {
     "infinitiv": {
       "de": "schlafen",
-      "lv": "Dormir"
+      "lv": "dormir"
     },
     "praesens": {
       "de": "er schläft",
-      "lv": "Il dort"
+      "lv": "il dort"
     },
     "imperfektIndikativ": {
       "de": "er schlief",
-      "lv": "Il dormait"
+      "lv": "il dormit"
     },
     "imperfektKonjunktiv": {
       "de": "er schliefe",
-      "lv": "Il dormirait"
+      "lv": "il dormirait"
     },
     "partizipVergangenheit": {
       "de": "geschlafen",
-      "lv": "J'ai dormi"
+      "lv": "dormi"
     }
   },
   {
     "infinitiv": {
       "de": "schlagen",
-      "lv": "Soeur"
+      "lv": "frapper"
     },
     "praesens": {
       "de": "er schlägt",
-      "lv": "Il frappe"
+      "lv": "il frappe"
     },
     "imperfektIndikativ": {
       "de": "er schlug",
-      "lv": "Il a frappé"
+      "lv": "il frappa"
     },
     "imperfektKonjunktiv": {
       "de": "er schlüge",
-      "lv": "Il frapperait"
+      "lv": "il frapperait"
     },
     "partizipVergangenheit": {
       "de": "geschlagen",
-      "lv": "Soeur"
+      "lv": "frappé"
     }
   },
   {
     "infinitiv": {
       "de": "schleichen",
-      "lv": "Il pleut"
+      "lv": "se faufiler"
     },
     "praesens": {
       "de": "er schleicht",
-      "lv": "Il se penche"
+      "lv": "il se faufile"
     },
     "imperfektIndikativ": {
       "de": "er schlich",
-      "lv": "Il a plu"
+      "lv": "il se faufila"
     },
     "imperfektKonjunktiv": {
       "de": "er schliche",
-      "lv": "Il pleut"
+      "lv": "il se faufilerait"
     },
     "partizipVergangenheit": {
       "de": "geschlichen (er ist)",
-      "lv": "Est décédé"
+      "lv": "faufilé"
     }
   },
   {
     "infinitiv": {
       "de": "schleifen",
-      "lv": "Broyer"
+      "lv": "polir"
     },
     "praesens": {
       "de": "er schleift",
-      "lv": "Il broie"
+      "lv": "il polit"
     },
     "imperfektIndikativ": {
       "de": "er schliff",
-      "lv": "Il a broyé"
+      "lv": "il polit"
     },
     "imperfektKonjunktiv": {
       "de": "er schliffe",
-      "lv": "Il broyerait"
+      "lv": "il polirait"
     },
     "partizipVergangenheit": {
       "de": "geschliffen",
-      "lv": "Brillant"
+      "lv": "poli"
     }
   },
   {
     "infinitiv": {
       "de": "schließen",
-      "lv": "Fermer"
+      "lv": "fermer"
     },
     "praesens": {
       "de": "er schließt",
-      "lv": "Il ferme"
+      "lv": "il ferme"
     },
     "imperfektIndikativ": {
       "de": "er schloss",
-      "lv": "Il a fermé"
+      "lv": "il ferma"
     },
     "imperfektKonjunktiv": {
       "de": "er schlösse",
-      "lv": "Il fermerait"
+      "lv": "il fermerait"
     },
     "partizipVergangenheit": {
       "de": "geschlossen",
-      "lv": "Fermé"
+      "lv": "fermé"
     }
   },
   {
     "infinitiv": {
       "de": "schlingen",
-      "lv": "Demain"
+      "lv": "engloutir"
     },
     "praesens": {
       "de": "er schlingt",
-      "lv": "Il avale"
+      "lv": "il engloutit"
     },
     "imperfektIndikativ": {
       "de": "er schlang",
-      "lv": "Il a avalé"
+      "lv": "il engloutit"
     },
     "imperfektKonjunktiv": {
       "de": "er schlänge",
-      "lv": "Il matin"
+      "lv": "il engloutirait"
     },
     "partizipVergangenheit": {
       "de": "geschlungen",
-      "lv": "Le matin"
+      "lv": "englouti"
     }
   },
   {
     "infinitiv": {
       "de": "schmeißen",
-      "lv": "Plus"
+      "lv": "jeter"
     },
     "praesens": {
       "de": "er schmeißt",
-      "lv": "Il jette"
+      "lv": "il jette"
     },
     "imperfektIndikativ": {
       "de": "er schmiss",
-      "lv": "Il a jeté"
+      "lv": "il jeta"
     },
     "imperfektKonjunktiv": {
       "de": "er schmisse",
-      "lv": "Il a jeté"
+      "lv": "il jetterait"
     },
     "partizipVergangenheit": {
       "de": "geschmissen",
-      "lv": "Mesmes"
+      "lv": "jeté"
     }
   },
   {
     "infinitiv": {
       "de": "schmelzen",
-      "lv": "Kust"
+      "lv": "fondre"
     },
     "praesens": {
       "de": "er schmilzt",
-      "lv": "Il fond"
+      "lv": "il fond"
     },
     "imperfektIndikativ": {
       "de": "er schmolz",
-      "lv": "Il a gémi"
+      "lv": "il fondit"
     },
     "imperfektKonjunktiv": {
       "de": "er schmölze",
-      "lv": "Il bougeait"
+      "lv": "il fondrait"
     },
     "partizipVergangenheit": {
       "de": "geschmolzen (er ist)",
-      "lv": "Kusis"
+      "lv": "fondu"
     }
   },
   {
     "infinitiv": {
       "de": "schnauben",
-      "lv": "Siffler"
+      "lv": "renâcler"
     },
     "praesens": {
       "de": "er schnaubt",
-      "lv": "Il renifle"
+      "lv": "il renâcle"
     },
     "imperfektIndikativ": {
       "de": "schnaubte / schnob",
-      "lv": "Renifla"
+      "lv": "il renâcla"
     },
     "imperfektKonjunktiv": {
       "de": "schnaubte / schnob",
-      "lv": "Renifla"
+      "lv": "il renâclerait"
     },
     "partizipVergangenheit": {
       "de": "geschnaubt / geschnoben",
-      "lv": "Renifler"
+      "lv": "renâclé"
     }
   },
   {
     "infinitiv": {
       "de": "schneiden",
-      "lv": "Griezt"
+      "lv": "couper"
     },
     "praesens": {
       "de": "er schneidet",
-      "lv": "Il tourne"
+      "lv": "il coupe"
     },
     "imperfektIndikativ": {
       "de": "er schnitt",
-      "lv": "Il coupait"
+      "lv": "il coupa"
     },
     "imperfektKonjunktiv": {
       "de": "er schnitte",
-      "lv": "Il couperait"
+      "lv": "il couperait"
     },
     "partizipVergangenheit": {
       "de": "geschnitten",
-      "lv": "Griezts"
+      "lv": "coupé"
     }
   },
   {
     "infinitiv": {
       "de": "schreiben",
-      "lv": "Écrire"
+      "lv": "écrire"
     },
     "praesens": {
       "de": "er schreibt",
-      "lv": "Il écrit"
+      "lv": "il écrit"
     },
     "imperfektIndikativ": {
       "de": "er schrieb",
-      "lv": "Il a écrit"
+      "lv": "il écrivit"
     },
     "imperfektKonjunktiv": {
       "de": "er schriebe",
-      "lv": "Il écrirait"
+      "lv": "il écrirait"
     },
     "partizipVergangenheit": {
       "de": "geschrieben",
-      "lv": "Écrit"
+      "lv": "écrit"
     }
   },
   {
     "infinitiv": {
       "de": "schreien",
-      "lv": "Kliegt"
+      "lv": "crier"
     },
     "praesens": {
       "de": "er schreit",
-      "lv": "Il crie"
+      "lv": "il crie"
     },
     "imperfektIndikativ": {
       "de": "er schrie",
-      "lv": "Il a crié"
+      "lv": "il cria"
     },
     "imperfektKonjunktiv": {
       "de": "er schriee",
-      "lv": "Il crierait"
+      "lv": "il crierait"
     },
     "partizipVergangenheit": {
       "de": "geschrien",
-      "lv": "Kliegts"
+      "lv": "crié"
     }
   },
   {
     "infinitiv": {
       "de": "schreiten",
-      "lv": "Marche"
+      "lv": "marcher à grands pas"
     },
     "praesens": {
       "de": "er schreitet",
-      "lv": "Il marche"
+      "lv": "il marche à grands pas"
     },
     "imperfektIndikativ": {
       "de": "er schritt",
-      "lv": "Il marchait"
+      "lv": "il marcha à grands pas"
     },
     "imperfektKonjunktiv": {
       "de": "er schritte",
-      "lv": "Il marcherait"
+      "lv": "il marcherait à grands pas"
     },
     "partizipVergangenheit": {
       "de": "geschritten (er ist)",
-      "lv": "Marché"
+      "lv": "marché à grands pas"
     }
   },
   {
     "infinitiv": {
       "de": "schweigen",
-      "lv": "Garder le silence"
+      "lv": "se taire"
     },
     "praesens": {
       "de": "er schweigt",
-      "lv": "Il est silencieux"
+      "lv": "il se tait"
     },
     "imperfektIndikativ": {
       "de": "er schwieg",
-      "lv": "Il était silencieux"
+      "lv": "il se tut"
     },
     "imperfektKonjunktiv": {
       "de": "er schwiege",
-      "lv": "Il se tairait"
+      "lv": "il se tairait"
     },
     "partizipVergangenheit": {
       "de": "geschwiegen",
-      "lv": "Silencieux"
+      "lv": "tu"
     }
   },
   {
     "infinitiv": {
       "de": "schwellen",
-      "lv": "Chouchouter"
+      "lv": "enfler"
     },
     "praesens": {
       "de": "er schwillt",
-      "lv": "Il fait la moue"
+      "lv": "il enfle"
     },
     "imperfektIndikativ": {
       "de": "er schwoll",
-      "lv": "Il pampa"
+      "lv": "il enfla"
     },
     "imperfektKonjunktiv": {
       "de": "er schwölle",
-      "lv": "Il pomperait"
+      "lv": "il enflerait"
     },
     "partizipVergangenheit": {
       "de": "geschwollen (er ist)",
-      "lv": "Pampis"
+      "lv": "enflé"
     }
   },
   {
     "infinitiv": {
       "de": "schwimmen",
-      "lv": "Nager"
+      "lv": "nager"
     },
     "praesens": {
       "de": "er schwimmt",
-      "lv": "Il nage"
+      "lv": "il nage"
     },
     "imperfektIndikativ": {
       "de": "er schwamm",
-      "lv": "Il nageait"
+      "lv": "il nagea"
     },
     "imperfektKonjunktiv": {
       "de": "er schwömme / er schwämme",
-      "lv": "Il nagerait"
+      "lv": "il nagerait"
     },
     "partizipVergangenheit": {
       "de": "geschwommen (er ist)",
-      "lv": "Nagé"
+      "lv": "nagé"
     }
   },
   {
     "infinitiv": {
       "de": "schwinden",
-      "lv": "Zut"
+      "lv": "disparaître"
     },
     "praesens": {
       "de": "er schwindet",
-      "lv": "Il disparaît"
+      "lv": "il disparaît"
     },
     "imperfektIndikativ": {
       "de": "er schwand",
-      "lv": "Il a disparu"
+      "lv": "il disparut"
     },
     "imperfektKonjunktiv": {
       "de": "er schwände",
-      "lv": "Il disparaîtrait"
+      "lv": "il disparaîtrait"
     },
     "partizipVergangenheit": {
       "de": "geschwunden (er ist)",
-      "lv": "Zudis"
+      "lv": "disparu"
     }
   },
   {
     "infinitiv": {
       "de": "schwingen",
-      "lv": "Vague"
+      "lv": "agiter"
     },
     "praesens": {
       "de": "er schwingt",
-      "lv": "Il fait signe"
+      "lv": "il agite"
     },
     "imperfektIndikativ": {
       "de": "er schwang",
-      "lv": "Il a fait signe"
+      "lv": "il agita"
     },
     "imperfektKonjunktiv": {
       "de": "er schwänge",
-      "lv": "Il ferait signe"
+      "lv": "il agiterait"
     },
     "partizipVergangenheit": {
       "de": "geschwungen",
-      "lv": "Agité"
+      "lv": "agité"
     }
   },
   {
     "infinitiv": {
       "de": "schwören",
-      "lv": "Jurer"
+      "lv": "jurer"
     },
     "praesens": {
       "de": "er schwört",
-      "lv": "Il jure"
+      "lv": "il jure"
     },
     "imperfektIndikativ": {
       "de": "er schwur / er schwor",
-      "lv": "Il a juré"
+      "lv": "il jura"
     },
     "imperfektKonjunktiv": {
       "de": "er schwöre",
-      "lv": "Il jurerait"
+      "lv": "il jurerait"
     },
     "partizipVergangenheit": {
       "de": "geschworen",
-      "lv": "Juré"
+      "lv": "juré"
     }
   },
   {
     "infinitiv": {
       "de": "sehen",
-      "lv": "Voir"
+      "lv": "voir"
     },
     "praesens": {
       "de": "er sieht",
-      "lv": "Il voit"
+      "lv": "il voit"
     },
     "imperfektIndikativ": {
       "de": "er sah",
-      "lv": "Il a vu"
+      "lv": "il vit"
     },
     "imperfektKonjunktiv": {
       "de": "er sähe",
-      "lv": "Il verrait"
+      "lv": "il verrait"
     },
     "partizipVergangenheit": {
       "de": "gesehen",
-      "lv": "Vu"
+      "lv": "vu"
     }
   },
   {
     "infinitiv": {
       "de": "sein",
-      "lv": "Être"
+      "lv": "être"
     },
     "praesens": {
       "de": "er ist",
-      "lv": "Il est"
+      "lv": "il est"
     },
     "imperfektIndikativ": {
       "de": "war",
-      "lv": "Bija"
+      "lv": "il fut"
     },
     "imperfektKonjunktiv": {
       "de": "war",
-      "lv": "Bija"
+      "lv": "il serait"
     },
     "partizipVergangenheit": {
       "de": "gewesen",
-      "lv": "Bijis"
+      "lv": "été"
     }
   },
   {
     "infinitiv": {
       "de": "senden",
-      "lv": "Envoyer"
+      "lv": "envoyer"
     },
     "praesens": {
       "de": "er sendet",
-      "lv": "Il envoie"
+      "lv": "il envoie"
     },
     "imperfektIndikativ": {
       "de": "er sandte / er sendete",
-      "lv": "Il a envoyé"
+      "lv": "il envoya"
     },
     "imperfektKonjunktiv": {
       "de": "er sendete",
-      "lv": "Il enverrait"
+      "lv": "il enverrait"
     },
     "partizipVergangenheit": {
       "de": "gesandt / gesendet",
-      "lv": "Envoyé"
+      "lv": "envoyé"
     }
   },
   {
     "infinitiv": {
       "de": "sieden",
-      "lv": "Faire bouillir"
+      "lv": "faire bouillir"
     },
     "praesens": {
       "de": "er siedet",
-      "lv": "Il cuisine"
+      "lv": "il fait bouillir"
     },
     "imperfektIndikativ": {
       "de": "sott / siedete",
-      "lv": "Cuit"
+      "lv": "il fit bouillir"
     },
     "imperfektKonjunktiv": {
       "de": "sott / siedete",
-      "lv": "Cuit"
+      "lv": "il ferait bouillir"
     },
     "partizipVergangenheit": {
       "de": "gesotten / gesiedet",
-      "lv": "Bouilli"
+      "lv": "fait bouillir"
     }
   },
   {
     "infinitiv": {
       "de": "singen",
-      "lv": "Chanter"
+      "lv": "chanter"
     },
     "praesens": {
       "de": "er singt",
-      "lv": "Il chante"
+      "lv": "il chante"
     },
     "imperfektIndikativ": {
       "de": "er sang",
-      "lv": "Il a chanté"
+      "lv": "il chanta"
     },
     "imperfektKonjunktiv": {
       "de": "er sänge",
-      "lv": "Il chanterait"
+      "lv": "il chanterait"
     },
     "partizipVergangenheit": {
       "de": "gesungen",
-      "lv": "Chanté"
+      "lv": "chanté"
     }
   },
   {
     "infinitiv": {
       "de": "sinken",
-      "lv": "Sinistre"
+      "lv": "sombrer"
     },
     "praesens": {
       "de": "er sinkt",
-      "lv": "Il coule"
+      "lv": "il sombre"
     },
     "imperfektIndikativ": {
       "de": "er sank",
-      "lv": "Il inventait"
+      "lv": "il sombra"
     },
     "imperfektKonjunktiv": {
       "de": "er sänke",
-      "lv": "Il coulerait"
+      "lv": "il sombrerait"
     },
     "partizipVergangenheit": {
       "de": "gesunken (er ist)",
-      "lv": "Grimis"
+      "lv": "sombré"
     }
   },
   {
     "infinitiv": {
       "de": "sinnen",
-      "lv": "Se demander"
+      "lv": "réfléchir"
     },
     "praesens": {
       "de": "er sinnt",
-      "lv": "Il se demande"
+      "lv": "il réfléchit"
     },
     "imperfektIndikativ": {
       "de": "er sann",
-      "lv": "Il se demandait"
+      "lv": "il réfléchit"
     },
     "imperfektKonjunktiv": {
       "de": "er sönne / er sänne",
-      "lv": "Il se demanderait"
+      "lv": "il réfléchirait"
     },
     "partizipVergangenheit": {
       "de": "gesonnen",
-      "lv": "Esprit"
+      "lv": "réfléchi"
     }
   },
   {
     "infinitiv": {
       "de": "sitzen",
-      "lv": "S'asseoir"
+      "lv": "être assis"
     },
     "praesens": {
       "de": "er sitzt",
-      "lv": "Il est assis"
+      "lv": "il est assis"
     },
     "imperfektIndikativ": {
       "de": "er sass",
-      "lv": "Il était assis"
+      "lv": "il fut assis"
     },
     "imperfektKonjunktiv": {
       "de": "er säße",
-      "lv": "Il s'asseyait"
+      "lv": "il serait assis"
     },
     "partizipVergangenheit": {
       "de": "gesessen",
-      "lv": "S'assit"
+      "lv": "été assis"
     }
   },
   {
     "infinitiv": {
       "de": "sollen",
-      "lv": "Avoir besoin / être obligé"
+      "lv": "devoir"
     },
     "praesens": {
       "de": "er soll",
-      "lv": "Il a besoin"
+      "lv": "il doit"
     },
     "imperfektIndikativ": {
       "de": "sollte",
-      "lv": "Aurait dû"
+      "lv": "il dut"
     },
     "imperfektKonjunktiv": {
       "de": "sollte",
-      "lv": "Aurait dû"
+      "lv": "il devrait"
     },
     "partizipVergangenheit": {
       "de": "gesollt",
-      "lv": "Nécessaire"
+      "lv": "dû"
     }
   },
   {
     "infinitiv": {
       "de": "speien",
-      "lv": "Cracher"
+      "lv": "cracher"
     },
     "praesens": {
       "de": "er speit",
-      "lv": "Il crache"
+      "lv": "il crache"
     },
     "imperfektIndikativ": {
       "de": "er spie",
-      "lv": "Il a craché"
+      "lv": "il cracha"
     },
     "imperfektKonjunktiv": {
       "de": "er spie",
-      "lv": "Il cracherait"
+      "lv": "il cracherait"
     },
     "partizipVergangenheit": {
       "de": "gespien",
-      "lv": "Craché"
+      "lv": "craché"
     }
   },
   {
     "infinitiv": {
       "de": "spinnen",
-      "lv": "Rotation"
+      "lv": "filer"
     },
     "praesens": {
       "de": "er spinnt",
-      "lv": "Il se tord"
+      "lv": "il file"
     },
     "imperfektIndikativ": {
       "de": "er spann",
-      "lv": "Il a tourné"
+      "lv": "il fila"
     },
     "imperfektKonjunktiv": {
       "de": "er spönne / er spänne",
-      "lv": "Il tournerait"
+      "lv": "il filerait"
     },
     "partizipVergangenheit": {
       "de": "gesponnen",
-      "lv": "Filé"
+      "lv": "filé"
     }
   },
   {
     "infinitiv": {
       "de": "spleißen",
-      "lv": "Savienot"
+      "lv": "joindre"
     },
     "praesens": {
       "de": "er spleißt",
-      "lv": "Il se connecte"
+      "lv": "il joint"
     },
     "imperfektIndikativ": {
       "de": "spliss",
-      "lv": "Savienoja"
+      "lv": "il joignit"
     },
     "imperfektKonjunktiv": {
       "de": "spliss",
-      "lv": "Savienoja"
+      "lv": "il joindrait"
     },
     "partizipVergangenheit": {
       "de": "gesplissen",
-      "lv": "Savienots"
+      "lv": "joint"
     }
   },
   {
     "infinitiv": {
       "de": "sprechen",
-      "lv": "Parler"
+      "lv": "parler"
     },
     "praesens": {
       "de": "er spricht",
-      "lv": "Il parle"
+      "lv": "il parle"
     },
     "imperfektIndikativ": {
       "de": "er sprach",
-      "lv": "Il a parlé"
+      "lv": "il parla"
     },
     "imperfektKonjunktiv": {
       "de": "er spräche",
-      "lv": "Il parlerait"
+      "lv": "il parlerait"
     },
     "partizipVergangenheit": {
       "de": "gesprochen",
-      "lv": "Parlé"
+      "lv": "parlé"
     }
   },
   {
     "infinitiv": {
       "de": "sprießen",
-      "lv": "Plaukt"
+      "lv": "germer"
     },
     "praesens": {
       "de": "er sprießt",
-      "lv": "Il prospère"
+      "lv": "il germe"
     },
     "imperfektIndikativ": {
       "de": "er spross",
-      "lv": "Il a prospéré"
+      "lv": "il germa"
     },
     "imperfektKonjunktiv": {
       "de": "er sprösse",
-      "lv": "Il étagère"
+      "lv": "il germerait"
     },
     "partizipVergangenheit": {
       "de": "gesprossen (er ist)",
-      "lv": "Plaucis"
+      "lv": "germé"
     }
   },
   {
     "infinitiv": {
       "de": "springen",
-      "lv": "Sauter"
+      "lv": "sauter"
     },
     "praesens": {
       "de": "er springt",
-      "lv": "Il saute"
+      "lv": "il saute"
     },
     "imperfektIndikativ": {
       "de": "er sprang",
-      "lv": "Il a sauté"
+      "lv": "il sauta"
     },
     "imperfektKonjunktiv": {
       "de": "er spränge",
-      "lv": "Il sauterait"
+      "lv": "il sauterait"
     },
     "partizipVergangenheit": {
       "de": "gesprungen (er ist)",
-      "lv": "Lentille"
+      "lv": "sauté"
     }
   },
   {
     "infinitiv": {
       "de": "stechen",
-      "lv": "Dur"
+      "lv": "piquer"
     },
     "praesens": {
       "de": "er sticht",
-      "lv": "Il poignarde"
+      "lv": "il pique"
     },
     "imperfektIndikativ": {
       "de": "er stach",
-      "lv": "Il a frappé"
+      "lv": "il piqua"
     },
     "imperfektKonjunktiv": {
       "de": "er stäche",
-      "lv": "Il poignarderait"
+      "lv": "il piquerait"
     },
     "partizipVergangenheit": {
       "de": "gestochen",
-      "lv": "Durs"
+      "lv": "piqué"
     }
   },
   {
     "infinitiv": {
       "de": "stecken",
-      "lv": "Coller / rester dedans"
+      "lv": "mettre / planter"
     },
     "praesens": {
       "de": "er steckt",
-      "lv": "Il pousse"
+      "lv": "il met / plante"
     },
     "imperfektIndikativ": {
       "de": "stak / steckte",
-      "lv": "Farci"
+      "lv": "il mit / planta"
     },
     "imperfektKonjunktiv": {
       "de": "stak / steckte",
-      "lv": "Farci"
+      "lv": "il mettrait / planterait"
     },
     "partizipVergangenheit": {
       "de": "gesteckt",
-      "lv": "Farci"
+      "lv": "mis / planté"
     }
   },
   {
     "infinitiv": {
       "de": "stehen",
-      "lv": "Se tenir debout"
+      "lv": "être debout"
     },
     "praesens": {
       "de": "er steht",
-      "lv": "Il est debout"
+      "lv": "il est debout"
     },
     "imperfektIndikativ": {
       "de": "er stand",
-      "lv": "Il s'est levé"
+      "lv": "il fut debout"
     },
     "imperfektKonjunktiv": {
       "de": "er stände / er stünde",
-      "lv": "Il resterait debout"
+      "lv": "il serait debout"
     },
     "partizipVergangenheit": {
       "de": "gestanden",
-      "lv": "Debout"
+      "lv": "été debout"
     }
   },
   {
     "infinitiv": {
       "de": "stehlen",
-      "lv": "Zagt"
+      "lv": "voler"
     },
     "praesens": {
       "de": "er stiehlt",
-      "lv": "Il vole"
+      "lv": "il vole"
     },
     "imperfektIndikativ": {
       "de": "er stahl",
-      "lv": "Il a volé"
+      "lv": "il vola"
     },
     "imperfektKonjunktiv": {
       "de": "er stöhle / er stähle",
-      "lv": "Il volerait"
+      "lv": "il volerait"
     },
     "partizipVergangenheit": {
       "de": "gestohlen",
-      "lv": "Zagts"
+      "lv": "volé"
     }
   },
   {
     "infinitiv": {
       "de": "steigen",
-      "lv": "Grimper"
+      "lv": "monter"
     },
     "praesens": {
       "de": "er steigt",
-      "lv": "Il grimpe"
+      "lv": "il monte"
     },
     "imperfektIndikativ": {
       "de": "er stieg",
-      "lv": "Il a grimpé"
+      "lv": "il monta"
     },
     "imperfektKonjunktiv": {
       "de": "er stiege",
-      "lv": "Il grimperait"
+      "lv": "il monterait"
     },
     "partizipVergangenheit": {
       "de": "gestiegen (er ist)",
-      "lv": "Grimpé"
+      "lv": "monté"
     }
   },
   {
     "infinitiv": {
       "de": "sterben",
-      "lv": "Mire"
+      "lv": "mourir"
     },
     "praesens": {
       "de": "er stirbt",
-      "lv": "Il est en train de mourir"
+      "lv": "il meurt"
     },
     "imperfektIndikativ": {
       "de": "er starb",
-      "lv": "Il est mort"
+      "lv": "il mourut"
     },
     "imperfektKonjunktiv": {
       "de": "er stürbe",
-      "lv": "Il mourrait"
+      "lv": "il mourrait"
     },
     "partizipVergangenheit": {
       "de": "gestorben (er ist)",
-      "lv": "Miris"
+      "lv": "mort"
     }
   },
   {
     "infinitiv": {
       "de": "stinken",
-      "lv": "Sentir"
+      "lv": "puer"
     },
     "praesens": {
       "de": "es stinkt",
-      "lv": "Tas smird"
+      "lv": "il pue"
     },
     "imperfektIndikativ": {
       "de": "stank",
-      "lv": "Sentait"
+      "lv": "il pua"
     },
     "imperfektKonjunktiv": {
       "de": "stank",
-      "lv": "Sentait"
+      "lv": "il puerait"
     },
     "partizipVergangenheit": {
       "de": "gestunken",
-      "lv": "Malodorant"
+      "lv": "pué"
     }
   },
   {
     "infinitiv": {
       "de": "stoßen",
-      "lv": "Pousser"
+      "lv": "bousculer"
     },
     "praesens": {
       "de": "er stößt",
-      "lv": "Il pousse"
+      "lv": "il bouscule"
     },
     "imperfektIndikativ": {
       "de": "er stieß",
-      "lv": "Il a poussé"
+      "lv": "il bouscula"
     },
     "imperfektKonjunktiv": {
       "de": "er stieße",
-      "lv": "Il poussait"
+      "lv": "il bousculerait"
     },
     "partizipVergangenheit": {
       "de": "gestoßen",
-      "lv": "Poussé"
+      "lv": "bousculé"
     }
   },
   {
     "infinitiv": {
       "de": "streichen",
-      "lv": "Peinture / décapage"
+      "lv": "peindre / rayer"
     },
     "praesens": {
       "de": "er streicht",
-      "lv": "Il peint/raye"
+      "lv": "il peint / raye"
     },
     "imperfektIndikativ": {
       "de": "er strich",
-      "lv": "Il a peint / rayé"
+      "lv": "il peignit / raya"
     },
     "imperfektKonjunktiv": {
       "de": "er striche",
-      "lv": "Il peindrait/décaperait"
+      "lv": "il peindrait / rayerait"
     },
     "partizipVergangenheit": {
       "de": "gestrichen",
-      "lv": "Peint / rayé"
+      "lv": "peint / rayé"
     }
   },
   {
     "infinitiv": {
       "de": "streiten",
-      "lv": "Se battre"
+      "lv": "se disputer"
     },
     "praesens": {
       "de": "er streitet",
-      "lv": "Il se bat"
+      "lv": "il se dispute"
     },
     "imperfektIndikativ": {
       "de": "er stritt",
-      "lv": "Il a eu du mal"
+      "lv": "il se disputa"
     },
     "imperfektKonjunktiv": {
       "de": "er stritte",
-      "lv": "Il se battrait"
+      "lv": "il se disputerait"
     },
     "partizipVergangenheit": {
       "de": "gestritten",
-      "lv": "Combattu"
+      "lv": "disputé"
     }
   },
   {
     "infinitiv": {
       "de": "tragen",
-      "lv": "Nid"
+      "lv": "porter"
     },
     "praesens": {
       "de": "er trägt",
-      "lv": "Il porte"
+      "lv": "il porte"
     },
     "imperfektIndikativ": {
       "de": "er trug",
-      "lv": "Il portait"
+      "lv": "il porta"
     },
     "imperfektKonjunktiv": {
       "de": "er trüge",
-      "lv": "Il porterait"
+      "lv": "il porterait"
     },
     "partizipVergangenheit": {
       "de": "getragen",
-      "lv": "Nids"
+      "lv": "porté"
     }
   },
   {
     "infinitiv": {
       "de": "treffen",
-      "lv": "Sastapt"
+      "lv": "rencontrer"
     },
     "praesens": {
       "de": "er trifft",
-      "lv": "Il rencontre"
+      "lv": "il rencontre"
     },
     "imperfektIndikativ": {
       "de": "er traf",
-      "lv": "Il a rencontré"
+      "lv": "il rencontra"
     },
     "imperfektKonjunktiv": {
       "de": "er träfe",
-      "lv": "Il rencontrerait"
+      "lv": "il rencontrerait"
     },
     "partizipVergangenheit": {
       "de": "getroffen",
-      "lv": "Sastaptes"
+      "lv": "rencontré"
     }
   },
   {
     "infinitiv": {
       "de": "treiben",
-      "lv": "Chasse"
+      "lv": "chasser"
     },
     "praesens": {
       "de": "er treibt",
-      "lv": "Il conduit"
+      "lv": "il chasse"
     },
     "imperfektIndikativ": {
       "de": "er trieb",
-      "lv": "Il a conduit"
+      "lv": "il chassa"
     },
     "imperfektKonjunktiv": {
       "de": "er triebe",
-      "lv": "Il conduirait"
+      "lv": "il chasserait"
     },
     "partizipVergangenheit": {
       "de": "getrieben",
-      "lv": "Poursuivi"
+      "lv": "chassé"
     }
   },
   {
     "infinitiv": {
       "de": "treten",
-      "lv": "Entrer/aller"
+      "lv": "faire un pas / aller"
     },
     "praesens": {
       "de": "er tritt",
-      "lv": "Il entre/va"
+      "lv": "il fait un pas / va"
     },
     "imperfektIndikativ": {
       "de": "er trat",
-      "lv": "Il se tenait debout / marchait"
+      "lv": "il fit un pas / alla"
     },
     "imperfektKonjunktiv": {
       "de": "er träte",
-      "lv": "Il resterait debout / partirait"
+      "lv": "il ferait un pas / irait"
     },
     "partizipVergangenheit": {
       "de": "getreten (er ist)",
-      "lv": "Debout/marchait"
+      "lv": "fait un pas / allé"
     }
   },
   {
     "infinitiv": {
       "de": "trinken",
-      "lv": "Dzert"
+      "lv": "boire"
     },
     "praesens": {
       "de": "er trinkt",
-      "lv": "Il boit"
+      "lv": "il boit"
     },
     "imperfektIndikativ": {
       "de": "er trank",
-      "lv": "Il buvait"
+      "lv": "il but"
     },
     "imperfektKonjunktiv": {
       "de": "er tränke",
-      "lv": "Il boirait"
+      "lv": "il boirait"
     },
     "partizipVergangenheit": {
       "de": "getrunken",
-      "lv": "Dzerts"
+      "lv": "bu"
     }
   },
   {
     "infinitiv": {
       "de": "trügen",
-      "lv": "Tricher"
+      "lv": "tromper"
     },
     "praesens": {
       "de": "er trögt",
-      "lv": "Il triche"
+      "lv": "il trompe"
     },
     "imperfektIndikativ": {
       "de": "er trog",
-      "lv": "Il a triché"
+      "lv": "il trompa"
     },
     "imperfektKonjunktiv": {
       "de": "er tröge",
-      "lv": "Il tricherait"
+      "lv": "il tromperait"
     },
     "partizipVergangenheit": {
       "de": "getrogen",
-      "lv": "Triché"
+      "lv": "trompé"
     }
   },
   {
     "infinitiv": {
       "de": "tun",
-      "lv": "Faire"
+      "lv": "faire"
     },
     "praesens": {
       "de": "er tut",
-      "lv": "Il le fait"
+      "lv": "il fait"
     },
     "imperfektIndikativ": {
       "de": "er tat",
-      "lv": "Il l'a fait"
+      "lv": "il fit"
     },
     "imperfektKonjunktiv": {
       "de": "er täte",
-      "lv": "Il ferait"
+      "lv": "il ferait"
     },
     "partizipVergangenheit": {
       "de": "getan",
-      "lv": "Fait"
+      "lv": "fait"
     }
   },
   {
     "infinitiv": {
       "de": "verderben",
-      "lv": "Endommager"
+      "lv": "abîmer"
     },
     "praesens": {
       "de": "er verdirbt",
-      "lv": "Il détruit"
+      "lv": "il abîme"
     },
     "imperfektIndikativ": {
       "de": "er verdarb",
-      "lv": "Il a endommagé"
+      "lv": "il abîma"
     },
     "imperfektKonjunktiv": {
       "de": "er verdürbe",
-      "lv": "Il endommagerait"
+      "lv": "il abîmerait"
     },
     "partizipVergangenheit": {
       "de": "verdorben",
-      "lv": "Endommagé"
+      "lv": "abîmé"
     }
   },
   {
     "infinitiv": {
       "de": "verdrießen",
-      "lv": "Causer de l'ennui"
+      "lv": "contrarier"
     },
     "praesens": {
       "de": "er verdrießt",
-      "lv": "Il provoque des ennuis"
+      "lv": "il contrarie"
     },
     "imperfektIndikativ": {
       "de": "er verdross",
-      "lv": "Il a causé de l'ennui"
+      "lv": "il contraria"
     },
     "imperfektKonjunktiv": {
       "de": "er verdrösse",
-      "lv": "Il causerait de l'ennui"
+      "lv": "il contrarierait"
     },
     "partizipVergangenheit": {
       "de": "verdrossen",
-      "lv": "Bouleversé"
+      "lv": "contrarié"
     }
   },
   {
     "infinitiv": {
       "de": "vergessen",
-      "lv": "Aizmirst"
+      "lv": "oublier"
     },
     "praesens": {
       "de": "er vergisst",
-      "lv": "Il oublie"
+      "lv": "il oublie"
     },
     "imperfektIndikativ": {
       "de": "er vergass",
-      "lv": "Il a oublié"
+      "lv": "il oublia"
     },
     "imperfektKonjunktiv": {
       "de": "er vergäße",
-      "lv": "Il oublierait"
+      "lv": "il oublierait"
     },
     "partizipVergangenheit": {
       "de": "vergessen",
-      "lv": "Aizmirsts"
+      "lv": "oublié"
     }
   },
   {
     "infinitiv": {
       "de": "verlieren",
-      "lv": "Perdre"
+      "lv": "perdre"
     },
     "praesens": {
       "de": "er verliert",
-      "lv": "Il perd"
+      "lv": "il perd"
     },
     "imperfektIndikativ": {
       "de": "er verlor",
-      "lv": "Il a perdu"
+      "lv": "il perdit"
     },
     "imperfektKonjunktiv": {
       "de": "er verlöre",
-      "lv": "Il perdrait"
+      "lv": "il perdrait"
     },
     "partizipVergangenheit": {
       "de": "verloren",
-      "lv": "Perdu"
+      "lv": "perdu"
     }
   },
   {
     "infinitiv": {
       "de": "wachsen",
-      "lv": "Août"
+      "lv": "grandir"
     },
     "praesens": {
       "de": "er wächst",
-      "lv": "Il grandit"
+      "lv": "il grandit"
     },
     "imperfektIndikativ": {
       "de": "er wuchs",
-      "lv": "Il grandissait"
+      "lv": "il grandit"
     },
     "imperfektKonjunktiv": {
       "de": "er wüchse",
-      "lv": "Il grandirait"
+      "lv": "il grandirait"
     },
     "partizipVergangenheit": {
       "de": "gewachsen (er ist)",
-      "lv": "Audzis"
+      "lv": "grandi"
     }
   },
   {
     "infinitiv": {
       "de": "waschen",
-      "lv": "Se laver"
+      "lv": "laver"
     },
     "praesens": {
       "de": "er wäscht",
-      "lv": "Il lave"
+      "lv": "il lave"
     },
     "imperfektIndikativ": {
       "de": "er wusch",
-      "lv": "Il s'est lavé"
+      "lv": "il lava"
     },
     "imperfektKonjunktiv": {
       "de": "er wüsche",
-      "lv": "Il se laverait"
+      "lv": "il laverait"
     },
     "partizipVergangenheit": {
       "de": "gewaschen",
-      "lv": "Lavé"
+      "lv": "lavé"
     }
   },
   {
     "infinitiv": {
       "de": "weben",
-      "lv": "Austère"
+      "lv": "tisser"
     },
     "praesens": {
       "de": "er webt",
-      "lv": "Il tisse"
+      "lv": "il tisse"
     },
     "imperfektIndikativ": {
       "de": "wob",
-      "lv": "AUDA"
+      "lv": "il tissa"
     },
     "imperfektKonjunktiv": {
       "de": "wob",
-      "lv": "AUDA"
+      "lv": "il tisserait"
     },
     "partizipVergangenheit": {
       "de": "gewoben",
-      "lv": "Izaustes"
+      "lv": "tissé"
     }
   },
   {
     "infinitiv": {
       "de": "weichen",
-      "lv": "Se retirer"
+      "lv": "reculer"
     },
     "praesens": {
       "de": "er weicht",
-      "lv": "Il recule"
+      "lv": "il recule"
     },
     "imperfektIndikativ": {
       "de": "er wich",
-      "lv": "Il a reculé"
+      "lv": "il recula"
     },
     "imperfektKonjunktiv": {
       "de": "er wiche",
-      "lv": "Il reculerait"
+      "lv": "il reculerait"
     },
     "partizipVergangenheit": {
       "de": "gewichen (er ist)",
-      "lv": "Reculer"
+      "lv": "reculé"
     }
   },
   {
     "infinitiv": {
       "de": "weisen",
-      "lv": "Montrer"
+      "lv": "montrer"
     },
     "praesens": {
       "de": "er weist",
-      "lv": "Il montre"
+      "lv": "il montre"
     },
     "imperfektIndikativ": {
       "de": "er wies",
-      "lv": "Il a montré"
+      "lv": "il montra"
     },
     "imperfektKonjunktiv": {
       "de": "er wiese",
-      "lv": "Il montrerait"
+      "lv": "il montrerait"
     },
     "partizipVergangenheit": {
       "de": "gewiesen",
-      "lv": "Montré"
+      "lv": "montré"
     }
   },
   {
     "infinitiv": {
       "de": "wenden",
-      "lv": "Modifier / recadrer"
+      "lv": "tourner / retourner"
     },
     "praesens": {
       "de": "er wendet",
-      "lv": "Il se tord/tourne"
+      "lv": "il tourne / retourne"
     },
     "imperfektIndikativ": {
       "de": "er wandte / es wendete",
-      "lv": "Il s'est tordu/tourné"
+      "lv": "il tourna / retourna"
     },
     "imperfektKonjunktiv": {
       "de": "er wendete",
-      "lv": "Il modifierait / inverserait"
+      "lv": "il tournerait / retournerait"
     },
     "partizipVergangenheit": {
       "de": "gewandt / gewendet",
-      "lv": "Modifié / annulé"
+      "lv": "tourné / retourné"
     }
   },
   {
     "infinitiv": {
       "de": "werben",
-      "lv": "Proposer"
+      "lv": "demander en mariage"
     },
     "praesens": {
       "de": "er wirbt",
-      "lv": "Il propose"
+      "lv": "il demande en mariage"
     },
     "imperfektIndikativ": {
       "de": "er warb",
-      "lv": "Il a proposé"
+      "lv": "il demanda en mariage"
     },
     "imperfektKonjunktiv": {
       "de": "er würbe",
-      "lv": "Il proposerait"
+      "lv": "il demanderait en mariage"
     },
     "partizipVergangenheit": {
       "de": "geworben",
-      "lv": "Proposé à"
+      "lv": "demandé en mariage"
     }
   },
   {
     "infinitiv": {
       "de": "werden",
-      "lv": "Devenir"
+      "lv": "devenir"
     },
     "praesens": {
       "de": "er wird",
-      "lv": "Il devient"
+      "lv": "il devient"
     },
     "imperfektIndikativ": {
       "de": "wurde",
-      "lv": "Devenu"
+      "lv": "il devint"
     },
     "imperfektKonjunktiv": {
       "de": "wurde",
-      "lv": "Devenu"
+      "lv": "il deviendrait"
     },
     "partizipVergangenheit": {
       "de": "geworden",
-      "lv": "Est devenu"
+      "lv": "devenu"
     }
   },
   {
     "infinitiv": {
       "de": "werfen",
-      "lv": "Plus"
+      "lv": "lancer"
     },
     "praesens": {
       "de": "er wirft",
-      "lv": "Il jette"
+      "lv": "il lance"
     },
     "imperfektIndikativ": {
       "de": "er warf",
-      "lv": "Il a jeté"
+      "lv": "il lança"
     },
     "imperfektKonjunktiv": {
       "de": "er würfe",
-      "lv": "Il a jeté"
+      "lv": "il lancerait"
     },
     "partizipVergangenheit": {
       "de": "geworfen",
-      "lv": "Mesmes"
+      "lv": "lancé"
     }
   },
   {
     "infinitiv": {
       "de": "wiegen",
-      "lv": "Peser"
+      "lv": "peser"
     },
     "praesens": {
       "de": "er wiegt",
-      "lv": "Il pèse"
+      "lv": "il pèse"
     },
     "imperfektIndikativ": {
       "de": "er wog",
-      "lv": "Il pesait"
+      "lv": "il pesa"
     },
     "imperfektKonjunktiv": {
       "de": "er wöge",
-      "lv": "Il pèserait"
+      "lv": "il pèserait"
     },
     "partizipVergangenheit": {
       "de": "gewogen",
-      "lv": "Pondéré"
+      "lv": "pesé"
     }
   },
   {
     "infinitiv": {
       "de": "winden",
-      "lv": "Tresser"
+      "lv": "entrelacer"
     },
     "praesens": {
       "de": "er windet",
-      "lv": "Il épingle"
+      "lv": "il entrelace"
     },
     "imperfektIndikativ": {
       "de": "er wand",
-      "lv": "Il tresse"
+      "lv": "il entrelaça"
     },
     "imperfektKonjunktiv": {
       "de": "er wände",
-      "lv": "Il tresserait"
+      "lv": "il entrelacerait"
     },
     "partizipVergangenheit": {
       "de": "gewunden",
-      "lv": "Tressé"
+      "lv": "entrelacé"
     }
   },
   {
     "infinitiv": {
       "de": "wissen",
-      "lv": "Savoir"
+      "lv": "savoir"
     },
     "praesens": {
       "de": "er weiß",
-      "lv": "Il sait"
+      "lv": "il sait"
     },
     "imperfektIndikativ": {
       "de": "er wusste",
-      "lv": "Il savait"
+      "lv": "il sut"
     },
     "imperfektKonjunktiv": {
       "de": "er wüsste",
-      "lv": "Il saurait"
+      "lv": "il saurait"
     },
     "partizipVergangenheit": {
       "de": "gewusst",
-      "lv": "Connu"
+      "lv": "su"
     }
   },
   {
     "infinitiv": {
       "de": "wollen",
-      "lv": "Veux"
+      "lv": "vouloir"
     },
     "praesens": {
       "de": "er will",
-      "lv": "Il veut"
+      "lv": "il veut"
     },
     "imperfektIndikativ": {
       "de": "wollte",
-      "lv": "Je voulais"
+      "lv": "il voulut"
     },
     "imperfektKonjunktiv": {
       "de": "wollte",
-      "lv": "Je voulais"
+      "lv": "il voudrait"
     },
     "partizipVergangenheit": {
       "de": "gewollt",
-      "lv": "Je voulais"
+      "lv": "voulu"
     }
   },
   {
     "infinitiv": {
       "de": "wringen",
-      "lv": "Izgriezt / izspiest"
+      "lv": "essorer / presser"
     },
     "praesens": {
       "de": "er wringt",
-      "lv": "Il coupe"
+      "lv": "il essore / presse"
     },
     "imperfektIndikativ": {
       "de": "wrang",
-      "lv": "Izgrieza"
+      "lv": "il essora / pressa"
     },
     "imperfektKonjunktiv": {
       "de": "wrang",
-      "lv": "Izgrieza"
+      "lv": "il essorerait / presserait"
     },
     "partizipVergangenheit": {
       "de": "gewrungen",
-      "lv": "Izgriezts"
+      "lv": "essoré / pressé"
     }
   },
   {
     "infinitiv": {
       "de": "zeihen",
-      "lv": "Vaine"
+      "lv": "accuser"
     },
     "praesens": {
       "de": "er zeiht",
-      "lv": "Il blâme"
+      "lv": "il accuse"
     },
     "imperfektIndikativ": {
       "de": "zieh",
-      "lv": "Vainoja"
+      "lv": "il accusa"
     },
     "imperfektKonjunktiv": {
       "de": "zieh",
-      "lv": "Vainoja"
+      "lv": "il accuserait"
     },
     "partizipVergangenheit": {
       "de": "geziehen",
-      "lv": "Vainojis"
+      "lv": "accusé"
     }
   },
   {
     "infinitiv": {
       "de": "ziehen",
-      "lv": "Vilkt"
+      "lv": "tirer"
     },
     "praesens": {
       "de": "er zieht",
-      "lv": "Il tire"
+      "lv": "il tire"
     },
     "imperfektIndikativ": {
       "de": "er zog",
-      "lv": "Il a tiré"
+      "lv": "il tira"
     },
     "imperfektKonjunktiv": {
       "de": "er zöge",
-      "lv": "Il traînerait"
+      "lv": "il tirerait"
     },
     "partizipVergangenheit": {
       "de": "gezogen",
-      "lv": "Vilkts"
+      "lv": "tiré"
     }
   },
   {
     "infinitiv": {
       "de": "zwingen",
-      "lv": "Le plus pitoyable"
+      "lv": "forcer"
     },
     "praesens": {
       "de": "er zwingt",
-      "lv": "Il force"
+      "lv": "il force"
     },
     "imperfektIndikativ": {
       "de": "er zwang",
-      "lv": "Il a forcé"
+      "lv": "il força"
     },
     "imperfektKonjunktiv": {
       "de": "er zwänge",
-      "lv": "Il forcerait"
+      "lv": "il forcerait"
     },
     "partizipVergangenheit": {
       "de": "gezwungen",
-      "lv": "Tartes"
+      "lv": "forcé"
     }
   },
   {
     "infinitiv": {
       "de": "empfangen",
-      "lv": "Recevoir"
+      "lv": "recevoir"
     },
     "praesens": {
       "de": "er empfängt",
-      "lv": "Il reçoit"
+      "lv": "il reçoit"
     },
     "imperfektIndikativ": {
       "de": "er empfing",
-      "lv": "Il a reçu"
+      "lv": "il reçut"
     },
     "imperfektKonjunktiv": {
       "de": "er empfinge",
-      "lv": "Il recevrait"
+      "lv": "il recevrait"
     },
     "partizipVergangenheit": {
       "de": "empfangen",
-      "lv": "Reçu"
+      "lv": "reçu"
     }
   },
   {
     "infinitiv": {
       "de": "erwägen",
-      "lv": "Considérer"
+      "lv": "considérer"
     },
     "praesens": {
       "de": "er erwägt",
-      "lv": "Il considère"
+      "lv": "il considère"
     },
     "imperfektIndikativ": {
       "de": "er erwog",
-      "lv": "Il considérait"
+      "lv": "il considéra"
     },
     "imperfektKonjunktiv": {
       "de": "er erwöge",
-      "lv": "Il considérerait"
+      "lv": "il considérerait"
     },
     "partizipVergangenheit": {
       "de": "erwogen",
-      "lv": "Considéré"
+      "lv": "considéré"
     }
   },
   {
     "infinitiv": {
       "de": "fechten",
-      "lv": "Se battre"
+      "lv": "combattre"
     },
     "praesens": {
       "de": "er ficht",
-      "lv": "Il se bat"
+      "lv": "il combat"
     },
     "imperfektIndikativ": {
       "de": "er focht",
-      "lv": "Il a eu du mal"
+      "lv": "il combattit"
     },
     "imperfektKonjunktiv": {
       "de": "er föchte",
-      "lv": "Il se battrait"
+      "lv": "il combattrait"
     },
     "partizipVergangenheit": {
       "de": "gefochten",
-      "lv": "Combattu"
+      "lv": "combattu"
     }
   },
   {
     "infinitiv": {
       "de": "flechten",
-      "lv": "Tresser"
+      "lv": "tresser"
     },
     "praesens": {
       "de": "er flicht",
-      "lv": "Il épingle"
+      "lv": "il tresse"
     },
     "imperfektIndikativ": {
       "de": "er flocht",
-      "lv": "Il tresse"
+      "lv": "il tressa"
     },
     "imperfektKonjunktiv": {
       "de": "er flöchte",
-      "lv": "Il tresserait"
+      "lv": "il tresserait"
     },
     "partizipVergangenheit": {
       "de": "geflochten",
-      "lv": "Tressé"
+      "lv": "tressé"
     }
   },
   {
     "infinitiv": {
       "de": "hangen",
-      "lv": "Pendre"
+      "lv": "pendre"
     },
     "praesens": {
       "de": "er hängt",
-      "lv": "Il pend"
+      "lv": "il pend"
     },
     "imperfektIndikativ": {
       "de": "er hing",
-      "lv": "Il a pendu"
+      "lv": "il pendit"
     },
     "imperfektKonjunktiv": {
       "de": "er hinge",
-      "lv": "Il se pendrait"
+      "lv": "il pendrait"
     },
     "partizipVergangenheit": {
       "de": "gehangen",
-      "lv": "Accrochez-vous"
+      "lv": "pendu"
     }
   },
   {
     "infinitiv": {
       "de": "spalten",
-      "lv": "Diviser"
+      "lv": "fendre"
     },
     "praesens": {
       "de": "er spaltet",
-      "lv": "Il se divise"
+      "lv": "il fend"
     },
     "imperfektIndikativ": {
       "de": "er spaltete",
-      "lv": "Il s'est séparé"
+      "lv": "il fendit"
     },
     "imperfektKonjunktiv": {
       "de": "er spaltete",
-      "lv": "Il se séparerait"
+      "lv": "il fendrait"
     },
     "partizipVergangenheit": {
       "de": "gespalten",
-      "lv": "Diviser"
+      "lv": "fendu"
     }
   },
   {
     "infinitiv": {
       "de": "verzeihen",
-      "lv": "Piedot"
+      "lv": "pardonner"
     },
     "praesens": {
       "de": "er verzeiht",
-      "lv": "Il pardonne"
+      "lv": "il pardonne"
     },
     "imperfektIndikativ": {
       "de": "er verzieh",
-      "lv": "Il a pardonné"
+      "lv": "il pardonna"
     },
     "imperfektKonjunktiv": {
       "de": "er verziehe",
-      "lv": "Il pardonnerait"
+      "lv": "il pardonnerait"
     },
     "partizipVergangenheit": {
       "de": "verziehen",
-      "lv": "Piedsots"
+      "lv": "pardonné"
     }
   }
 ];
