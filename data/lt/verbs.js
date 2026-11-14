@@ -18,7 +18,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gebacken",
-      "lv": "keptas / iškeptas"
+      "lv": "keptas"
     }
   },
   {
@@ -84,29 +84,29 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gebissen",
-      "lv": "kąstas / įkąstas"
+      "lv": "kąstas"
     }
   },
   {
     "infinitiv": {
       "de": "bergen",
-      "lv": "slėpti"
+      "lv": "gelbėti / slėpti"
     },
     "praesens": {
       "de": "er birgt",
-      "lv": "jis slepia"
+      "lv": "jis gelbėja / slepia"
     },
     "imperfektIndikativ": {
       "de": "er barg",
-      "lv": "jis slėpė"
+      "lv": "jis gelbėjo / slėpė"
     },
     "imperfektKonjunktiv": {
       "de": "er bürge / er bärge",
-      "lv": "jis slėptų"
+      "lv": "jis gelbėtų / slėptų"
     },
     "partizipVergangenheit": {
       "de": "geborgen",
-      "lv": "paslėptas / išgelbėtas"
+      "lv": "gelbėtas / slėptas"
     }
   },
   {
@@ -128,13 +128,13 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "geborsten (er ist)",
-      "lv": "suplyšęs"
+      "lv": "plyšęs"
     }
   },
   {
     "infinitiv": {
       "de": "bewegen",
-      "lv": "paraginti"
+      "lv": "paskatinti"
     },
     "praesens": {
       "de": "er bewegt",
@@ -178,23 +178,23 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "bieten",
-      "lv": "žadėti"
+      "lv": "siūlyti"
     },
     "praesens": {
       "de": "er bietet",
-      "lv": "jis žada"
+      "lv": "jis siūlo"
     },
     "imperfektIndikativ": {
       "de": "er bot",
-      "lv": "jis žadėjo"
+      "lv": "jis siūlė"
     },
     "imperfektKonjunktiv": {
       "de": "er böte",
-      "lv": "jis žadėtų"
+      "lv": "jis siūlytų"
     },
     "partizipVergangenheit": {
       "de": "geboten",
-      "lv": "pažadėtas / pasiūlytas"
+      "lv": "siūlytas"
     }
   },
   {
@@ -216,7 +216,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gebunden",
-      "lv": "sietas"
+      "lv": "rištas"
     }
   },
   {
@@ -304,7 +304,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "geboren",
-      "lv": "pagimdytas / gimęs"
+      "lv": "gimdytas"
     }
   },
   {
@@ -332,23 +332,23 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "gelten",
-      "lv": "tikti"
+      "lv": "tikti / galioti"
     },
     "praesens": {
       "de": "er gilt",
-      "lv": "jis tinka / yra galiojantis"
+      "lv": "jis tinka / galioja"
     },
     "imperfektIndikativ": {
       "de": "er galt",
-      "lv": "jis tiko / buvo galiojantis"
+      "lv": "jis tiko / galiojo"
     },
     "imperfektKonjunktiv": {
       "de": "er gölte / es gälte",
-      "lv": "jis tiktų / tai būtų galiojantis"
+      "lv": "jis tiktų / galiotų"
     },
     "partizipVergangenheit": {
       "de": "gegolten",
-      "lv": "tikęs / buvęs galiojantis"
+      "lv": "tikęs / galiojęs"
     }
   },
   {
@@ -358,7 +358,7 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er genest",
-      "lv": "jis sveiksta"
+      "lv": "jis pasveiksta"
     },
     "imperfektIndikativ": {
       "de": "er genas",
@@ -392,13 +392,13 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "genossen",
-      "lv": "mėgautas"
+      "lv": "mėgavęsis"
     }
   },
   {
     "infinitiv": {
       "de": "geschehen",
-      "lv": "įvykti"
+      "lv": "vykti"
     },
     "praesens": {
       "de": "es geschieht",
@@ -414,7 +414,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "geschehen (es ist)",
-      "lv": "įvykęs"
+      "lv": "vykęs"
     }
   },
   {
@@ -442,23 +442,23 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "gleichen",
-      "lv": "prilygti"
+      "lv": "panėšėti"
     },
     "praesens": {
       "de": "er gleicht",
-      "lv": "jis yra panašus"
+      "lv": "jis panėši"
     },
     "imperfektIndikativ": {
       "de": "er glich",
-      "lv": "jis buvo panašus"
+      "lv": "jis panėšėjo"
     },
     "imperfektKonjunktiv": {
       "de": "er gliche",
-      "lv": "jis būtų panašus"
+      "lv": "jis panėšėtų"
     },
     "partizipVergangenheit": {
       "de": "geglichen",
-      "lv": "buvęs panašus"
+      "lv": "panėšėjęs"
     }
   },
   {
@@ -486,23 +486,23 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "glimmen",
-      "lv": "kaisti (žėrėti)"
+      "lv": "rusenti"
     },
     "praesens": {
       "de": "er glimmt",
-      "lv": "jis žėri"
+      "lv": "jis rusena"
     },
     "imperfektIndikativ": {
       "de": "er glimmte / glomm",
-      "lv": "jis žėrėjo"
+      "lv": "jis ruseno"
     },
     "imperfektKonjunktiv": {
       "de": "er glimmte",
-      "lv": "jis žėrėtų"
+      "lv": "jis rusentų"
     },
     "partizipVergangenheit": {
       "de": "geglimmt / geglommen",
-      "lv": "žėrėjęs"
+      "lv": "rusenęs"
     }
   },
   {
@@ -530,23 +530,23 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "greifen",
-      "lv": "gaudyti"
+      "lv": "griebti"
     },
     "praesens": {
       "de": "er greift",
-      "lv": "jis gaudo"
+      "lv": "jis griebia"
     },
     "imperfektIndikativ": {
       "de": "er griff",
-      "lv": "jis gaudė"
+      "lv": "jis griebė"
     },
     "imperfektKonjunktiv": {
       "de": "er griffe",
-      "lv": "jis gaudytų"
+      "lv": "jis griebtų"
     },
     "partizipVergangenheit": {
       "de": "gegriffen",
-      "lv": "pagautas / sugautas"
+      "lv": "griebtas"
     }
   },
   {
@@ -596,7 +596,7 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "kennen",
-      "lv": "pažinti / žinoti"
+      "lv": "pažinti"
     },
     "praesens": {
       "de": "er kennt",
@@ -604,15 +604,15 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "kannte",
-      "lv": "pažino"
+      "lv": "jis pažino"
     },
     "imperfektKonjunktiv": {
       "de": "kannte",
-      "lv": "pažino"
+      "lv": "jis pažintų"
     },
     "partizipVergangenheit": {
       "de": "gekannt",
-      "lv": "pažinęs"
+      "lv": "pažintas"
     }
   },
   {
@@ -640,29 +640,29 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "kneifen",
-      "lv": "gnybti"
+      "lv": "žnybti"
     },
     "praesens": {
       "de": "er kneift",
-      "lv": "jis gnybia"
+      "lv": "jis žnybia"
     },
     "imperfektIndikativ": {
       "de": "er kniff",
-      "lv": "jis gnybė"
+      "lv": "jis žnybė"
     },
     "imperfektKonjunktiv": {
       "de": "er kniffe",
-      "lv": "jis gnybtų"
+      "lv": "jis žnybtų"
     },
     "partizipVergangenheit": {
       "de": "gekniffen",
-      "lv": "gnybtas"
+      "lv": "žnybtas"
     }
   },
   {
     "infinitiv": {
       "de": "bleiben",
-      "lv": "pasilikti"
+      "lv": "likti"
     },
     "praesens": {
       "de": "er bleibt",
@@ -684,23 +684,23 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "bleichen",
-      "lv": "baltinti"
+      "lv": "blukti"
     },
     "praesens": {
       "de": "er bleicht",
-      "lv": "jis baltina"
+      "lv": "jis blunka"
     },
     "imperfektIndikativ": {
       "de": "blich",
-      "lv": "baltino"
+      "lv": "jis bluko"
     },
     "imperfektKonjunktiv": {
       "de": "blich",
-      "lv": "baltino"
+      "lv": "jis bluktų"
     },
     "partizipVergangenheit": {
       "de": "geblichen",
-      "lv": "baltintas"
+      "lv": "blukęs"
     }
   },
   {
@@ -722,7 +722,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gebraten",
-      "lv": "keptas / iškeptas"
+      "lv": "keptas"
     }
   },
   {
@@ -744,7 +744,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gebrochen",
-      "lv": "laužtas / sulaužtas"
+      "lv": "laužtas"
     }
   },
   {
@@ -758,11 +758,11 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "brannte",
-      "lv": "degė"
+      "lv": "jis degė"
     },
     "imperfektKonjunktiv": {
       "de": "brannte",
-      "lv": "degė"
+      "lv": "jis degtų"
     },
     "partizipVergangenheit": {
       "de": "gebrannt",
@@ -772,29 +772,29 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "bringen",
-      "lv": "nešti"
+      "lv": "atnešti"
     },
     "praesens": {
       "de": "er bringt",
-      "lv": "jis neša"
+      "lv": "jis atneša"
     },
     "imperfektIndikativ": {
       "de": "er brachte",
-      "lv": "jis nešė"
+      "lv": "jis atnešė"
     },
     "imperfektKonjunktiv": {
       "de": "er brächte",
-      "lv": "jis neštų"
+      "lv": "jis atneštų"
     },
     "partizipVergangenheit": {
       "de": "gebracht",
-      "lv": "neštas / atneštas"
+      "lv": "atneštas"
     }
   },
   {
     "infinitiv": {
       "de": "denken",
-      "lv": "manyti"
+      "lv": "galvoti"
     },
     "praesens": {
       "de": "er denkt",
@@ -810,29 +810,29 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gedacht",
-      "lv": "pagalvotas"
+      "lv": "galvojęs"
     }
   },
   {
     "infinitiv": {
       "de": "dingen",
-      "lv": "pasamdyti / susitarti"
+      "lv": "samdyti / susitarti"
     },
     "praesens": {
       "de": "er dingt",
-      "lv": "jis samdo"
+      "lv": "jis samdo / susitaria"
     },
     "imperfektIndikativ": {
       "de": "dingte",
-      "lv": "samdė"
+      "lv": "jis samdė / susitarė"
     },
     "imperfektKonjunktiv": {
       "de": "dingte",
-      "lv": "samdė"
+      "lv": "jis samdytų / susitartų"
     },
     "partizipVergangenheit": {
       "de": "gedungen",
-      "lv": "samdytas"
+      "lv": "samdytas / susitaręs"
     }
   },
   {
@@ -860,23 +860,23 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "dringen",
-      "lv": "įsilaužti"
+      "lv": "veržtis"
     },
     "praesens": {
       "de": "er dringt",
-      "lv": "jis įsilaužia"
+      "lv": "jis veržiasi"
     },
     "imperfektIndikativ": {
       "de": "er drang",
-      "lv": "jis įsilaužė"
+      "lv": "jis veržėsi"
     },
     "imperfektKonjunktiv": {
       "de": "er dränge",
-      "lv": "jis įsilaužtų"
+      "lv": "jis veržtųsi"
     },
     "partizipVergangenheit": {
       "de": "gedrungen (er ist)",
-      "lv": "įsilaužęs"
+      "lv": "veržęsis"
     }
   },
   {
@@ -890,11 +890,11 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "deuchte",
-      "lv": "atrodė"
+      "lv": "tai atrodė"
     },
     "imperfektKonjunktiv": {
       "de": "deuchte",
-      "lv": "atrodė"
+      "lv": "tai atrodytų"
     },
     "partizipVergangenheit": {
       "de": "gedünkt",
@@ -912,11 +912,11 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "durfte",
-      "lv": "galėjo"
+      "lv": "jis galėjo"
     },
     "imperfektKonjunktiv": {
       "de": "durfte",
-      "lv": "galėjo"
+      "lv": "jis galėtų"
     },
     "partizipVergangenheit": {
       "de": "gedurft",
@@ -930,19 +930,19 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er empfiehlt",
-      "lv": "jis siūlo"
+      "lv": "jis rekomenduoja"
     },
     "imperfektIndikativ": {
       "de": "er empfahl",
-      "lv": "jis siūlė"
+      "lv": "jis rekomendavo"
     },
     "imperfektKonjunktiv": {
       "de": "er empfähle / er empföhle",
-      "lv": "jis siūlytų"
+      "lv": "jis rekomenduotų"
     },
     "partizipVergangenheit": {
       "de": "empfohlen",
-      "lv": "pasiūlytas"
+      "lv": "rekomenduotas"
     }
   },
   {
@@ -996,19 +996,19 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er erschrickt",
-      "lv": "jis nusigąsta"
+      "lv": "jis išsigąsta"
     },
     "imperfektIndikativ": {
       "de": "er erschrak",
-      "lv": "jis nusigando"
+      "lv": "jis išsigando"
     },
     "imperfektKonjunktiv": {
       "de": "er erschräke",
-      "lv": "jis nusigąstų"
+      "lv": "jis išsigąstų"
     },
     "partizipVergangenheit": {
       "de": "erschrocken (er ist)",
-      "lv": "nusigandęs"
+      "lv": "išsigandęs"
     }
   },
   {
@@ -1018,19 +1018,19 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er isst",
-      "lv": "jis ėda"
+      "lv": "jis valgo"
     },
     "imperfektIndikativ": {
       "de": "er ass",
-      "lv": "jis ėdė"
+      "lv": "jis valgė"
     },
     "imperfektKonjunktiv": {
       "de": "er äße",
-      "lv": "jis ėstų"
+      "lv": "jis valgytų"
     },
     "partizipVergangenheit": {
       "de": "gegessen",
-      "lv": "ėstas / suėstas"
+      "lv": "valgytas"
     }
   },
   {
@@ -1052,7 +1052,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gefahren (er ist)",
-      "lv": "važiavęs / nuvažiavęs"
+      "lv": "važiavęs"
     }
   },
   {
@@ -1062,7 +1062,7 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er fällt",
-      "lv": "jis krenta"
+      "lv": "jis krinta"
     },
     "imperfektIndikativ": {
       "de": "er fiel",
@@ -1096,7 +1096,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gefangen",
-      "lv": "pagautas / sugautas"
+      "lv": "gaudytas"
     }
   },
   {
@@ -1150,19 +1150,19 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er flieht",
-      "lv": "jis sprunka"
+      "lv": "jis bėga"
     },
     "imperfektIndikativ": {
       "de": "er floh",
-      "lv": "jis spruko"
+      "lv": "jis bėgo"
     },
     "imperfektKonjunktiv": {
       "de": "er flöhe",
-      "lv": "jis spruktų"
+      "lv": "jis bėgtų"
     },
     "partizipVergangenheit": {
       "de": "geflohen (er ist)",
-      "lv": "pasprukęs"
+      "lv": "bėgęs"
     }
   },
   {
@@ -1172,25 +1172,25 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er fließt",
-      "lv": "jis laksto"
+      "lv": "jis teka"
     },
     "imperfektIndikativ": {
       "de": "er floss",
-      "lv": "jis lakstė"
+      "lv": "jis tekėjo"
     },
     "imperfektKonjunktiv": {
       "de": "er flösse",
-      "lv": "jis lakstytų"
+      "lv": "jis tekėtų"
     },
     "partizipVergangenheit": {
       "de": "geflossen (er ist)",
-      "lv": "lakstęs"
+      "lv": "tekėjęs"
     }
   },
   {
     "infinitiv": {
       "de": "fressen",
-      "lv": "ėsti, ryti"
+      "lv": "ėsti / ryti"
     },
     "praesens": {
       "de": "er frisst",
@@ -1206,7 +1206,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gefressen",
-      "lv": "suėstas / surytas"
+      "lv": "ėstas / rytas"
     }
   },
   {
@@ -1256,23 +1256,23 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "gedeihen",
-      "lv": "pavykti"
+      "lv": "klestėti"
     },
     "praesens": {
       "de": "er gedeiht",
-      "lv": "jam pavyksta"
+      "lv": "jis klesti"
     },
     "imperfektIndikativ": {
       "de": "er gedieh",
-      "lv": "jam pavyko"
+      "lv": "jis klestėjo"
     },
     "imperfektKonjunktiv": {
       "de": "er gediehe",
-      "lv": "jam pavyktų"
+      "lv": "jis klestėtų"
     },
     "partizipVergangenheit": {
       "de": "gediehen (er ist)",
-      "lv": "pavykęs"
+      "lv": "klestėjęs"
     }
   },
   {
@@ -1300,29 +1300,29 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "gewinnen",
-      "lv": "gauti"
+      "lv": "laimėti"
     },
     "praesens": {
       "de": "er gewinnt",
-      "lv": "jis gauna"
+      "lv": "jis laimi"
     },
     "imperfektIndikativ": {
       "de": "er gewann",
-      "lv": "jis gavo"
+      "lv": "jis laimėjo"
     },
     "imperfektKonjunktiv": {
       "de": "er gewönne / er gewänne",
-      "lv": "jis gautų"
+      "lv": "jis laimėtų"
     },
     "partizipVergangenheit": {
       "de": "gewonnen",
-      "lv": "gautas"
+      "lv": "laimėtas"
     }
   },
   {
     "infinitiv": {
       "de": "haben",
-      "lv": "būti / priklausyti"
+      "lv": "turėti"
     },
     "praesens": {
       "de": "er hat",
@@ -1330,11 +1330,11 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "hatte",
-      "lv": "turėjo"
+      "lv": "jis turėjo"
     },
     "imperfektKonjunktiv": {
       "de": "hatte",
-      "lv": "turėjo"
+      "lv": "jis turėtų"
     },
     "partizipVergangenheit": {
       "de": "gehabt",
@@ -1366,23 +1366,23 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "heißen",
-      "lv": "šaukti"
+      "lv": "vadinti / vadintis"
     },
     "praesens": {
       "de": "er heißt",
-      "lv": "jis šaukia / jį vadina"
+      "lv": "jis vadina / vadinasi"
     },
     "imperfektIndikativ": {
       "de": "er hieß",
-      "lv": "jis šaukė / jį vadino"
+      "lv": "jis vadino / vadinosi"
     },
     "imperfektKonjunktiv": {
       "de": "er hieße",
-      "lv": "jis šauktų / jį vadintų"
+      "lv": "jis vadintų / vadintųsi"
     },
     "partizipVergangenheit": {
       "de": "geheißen",
-      "lv": "šauktas"
+      "lv": "vadintas / vadinęsis"
     }
   },
   {
@@ -1404,7 +1404,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "geholfen",
-      "lv": "padėta"
+      "lv": "padėjęs"
     }
   },
   {
@@ -1440,11 +1440,11 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "konnte",
-      "lv": "galėjo"
+      "lv": "jis galėjo"
     },
     "imperfektKonjunktiv": {
       "de": "konnte",
-      "lv": "galėjo"
+      "lv": "jis galėtų"
     },
     "partizipVergangenheit": {
       "de": "gekonnt",
@@ -1476,45 +1476,45 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "laden",
-      "lv": "krauti, pakviesti"
+      "lv": "krauti / kviesti"
     },
     "praesens": {
       "de": "er lädt",
-      "lv": "jis krauna / pakviečia"
+      "lv": "jis krauna / kviečia"
     },
     "imperfektIndikativ": {
       "de": "er lud",
-      "lv": "jis krovė / pakvietė"
+      "lv": "jis krovė / kvietė"
     },
     "imperfektKonjunktiv": {
       "de": "er lüde",
-      "lv": "jis krautų / pakviestų"
+      "lv": "jis krautų / kviestų"
     },
     "partizipVergangenheit": {
       "de": "geladen",
-      "lv": "krautas / pakviestas"
+      "lv": "krautas / kviestas"
     }
   },
   {
     "infinitiv": {
       "de": "lassen",
-      "lv": "dėti, leisti"
+      "lv": "liepti / leisti"
     },
     "praesens": {
       "de": "er lässt",
-      "lv": "jis deda / leidžia"
+      "lv": "jis liepia / leidžia"
     },
     "imperfektIndikativ": {
       "de": "er ließ",
-      "lv": "jis dėjo / leido"
+      "lv": "jis liepė / leido"
     },
     "imperfektKonjunktiv": {
       "de": "er ließe",
-      "lv": "jis dėtų / leistų"
+      "lv": "jis lieptų / leistų"
     },
     "partizipVergangenheit": {
       "de": "gelassen",
-      "lv": "dėtas / leista"
+      "lv": "lieptas / leistas"
     }
   },
   {
@@ -1558,7 +1558,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gelitten",
-      "lv": "kentėtas"
+      "lv": "kentėjęs"
     }
   },
   {
@@ -1572,15 +1572,15 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er lieh",
-      "lv": "jis paskolino / pasiskolino"
+      "lv": "jis skolino / skolinosi"
     },
     "imperfektKonjunktiv": {
       "de": "er liehe",
-      "lv": "jis paskolintų / pasiskolintų"
+      "lv": "jis skolintų / skolintųsi"
     },
     "partizipVergangenheit": {
       "de": "geliehen",
-      "lv": "paskolintas / pasiskolintas"
+      "lv": "skolintas / skolinęsis"
     }
   },
   {
@@ -1608,7 +1608,7 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "liegen",
-      "lv": "miegoti"
+      "lv": "gulėti"
     },
     "praesens": {
       "de": "er liegt",
@@ -1624,7 +1624,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gelegen",
-      "lv": "gulėta"
+      "lv": "gulėjęs"
     }
   },
   {
@@ -1646,7 +1646,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gelogen",
-      "lv": "meluota"
+      "lv": "melavęs"
     }
   },
   {
@@ -1682,15 +1682,15 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er mied",
-      "lv": "jis išvengė"
+      "lv": "jis vengė"
     },
     "imperfektKonjunktiv": {
       "de": "er miede",
-      "lv": "jis išvengtų"
+      "lv": "jis vengtų"
     },
     "partizipVergangenheit": {
       "de": "gemieden",
-      "lv": "išvengtas"
+      "lv": "vengtas"
     }
   },
   {
@@ -1748,11 +1748,11 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "misslang",
-      "lv": "nepavyko"
+      "lv": "tai nepavyko"
     },
     "imperfektKonjunktiv": {
       "de": "misslang",
-      "lv": "nepavyko"
+      "lv": "tai nepavyktų"
     },
     "partizipVergangenheit": {
       "de": "misslungen",
@@ -1770,11 +1770,11 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "mochte",
-      "lv": "patiko"
+      "lv": "jam patiko"
     },
     "imperfektKonjunktiv": {
       "de": "mochte",
-      "lv": "patiko"
+      "lv": "jam patiktų"
     },
     "partizipVergangenheit": {
       "de": "gemocht",
@@ -1792,11 +1792,11 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "musste",
-      "lv": "reikėjo"
+      "lv": "jam reikėjo"
     },
     "imperfektKonjunktiv": {
       "de": "musste",
-      "lv": "reikėjo"
+      "lv": "jam reikėtų"
     },
     "partizipVergangenheit": {
       "de": "gemusst",
@@ -1866,7 +1866,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gepfiffen",
-      "lv": "švilptas"
+      "lv": "švilpęs"
     }
   },
   {
@@ -1880,11 +1880,11 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "pflegte / pflog",
-      "lv": "prižiūrėjo"
+      "lv": "jis prižiūrėjo"
     },
     "imperfektKonjunktiv": {
       "de": "pflegte / pflog",
-      "lv": "prižiūrėjo"
+      "lv": "jis prižiūrėtų"
     },
     "partizipVergangenheit": {
       "de": "gepflegt / gepflogen",
@@ -1910,51 +1910,51 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gepriesen",
-      "lv": "pagirtas"
+      "lv": "girtas"
     }
   },
   {
     "infinitiv": {
       "de": "quellen",
-      "lv": "tinti"
+      "lv": "brinkti"
     },
     "praesens": {
       "de": "er quillt",
-      "lv": "jis tinsta"
+      "lv": "jis brinksta"
     },
     "imperfektIndikativ": {
       "de": "er quoll",
-      "lv": "jis tino"
+      "lv": "jis brinko"
     },
     "imperfektKonjunktiv": {
       "de": "er quölle",
-      "lv": "jis tintų"
+      "lv": "jis brinktų"
     },
     "partizipVergangenheit": {
       "de": "gequollen (er ist)",
-      "lv": "patinęs"
+      "lv": "brinkęs"
     }
   },
   {
     "infinitiv": {
       "de": "raten",
-      "lv": "siūlyti / spėti"
+      "lv": "patarti / spėti"
     },
     "praesens": {
       "de": "er rät",
-      "lv": "jis siūlo / spėja"
+      "lv": "jis pataria / spėja"
     },
     "imperfektIndikativ": {
       "de": "er riet",
-      "lv": "jis siūlė / spėjo"
+      "lv": "jis patarė / spėjo"
     },
     "imperfektKonjunktiv": {
       "de": "er riete",
-      "lv": "jis siūlytų / spėtų"
+      "lv": "jis patartų / spėtų"
     },
     "partizipVergangenheit": {
       "de": "geraten",
-      "lv": "pasiūlytas / atspėtas"
+      "lv": "patartas / spėtas"
     }
   },
   {
@@ -1982,23 +1982,23 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "reißen",
-      "lv": "rauti"
+      "lv": "plėšti"
     },
     "praesens": {
       "de": "er reißt",
-      "lv": "jis rauna"
+      "lv": "jis plėšia"
     },
     "imperfektIndikativ": {
       "de": "er riss",
-      "lv": "jis rovė"
+      "lv": "jis plėšė"
     },
     "imperfektKonjunktiv": {
       "de": "er risse",
-      "lv": "jis rautų"
+      "lv": "jis plėštų"
     },
     "partizipVergangenheit": {
       "de": "gerissen",
-      "lv": "rautas"
+      "lv": "plėštas"
     }
   },
   {
@@ -2070,23 +2070,23 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "ringen",
-      "lv": "laužtis"
+      "lv": "grumtis"
     },
     "praesens": {
       "de": "er ringt",
-      "lv": "jis laužiasi"
+      "lv": "jis grumiasi"
     },
     "imperfektIndikativ": {
       "de": "er rang",
-      "lv": "jis laužėsi"
+      "lv": "jis grūmėsi"
     },
     "imperfektKonjunktiv": {
       "de": "er ränge",
-      "lv": "jis laužtųsi"
+      "lv": "jis grumtųsi"
     },
     "partizipVergangenheit": {
       "de": "gerungen",
-      "lv": "laužęsis"
+      "lv": "grūmęsis"
     }
   },
   {
@@ -2096,19 +2096,19 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er rinnt",
-      "lv": "jis laksto"
+      "lv": "jis teka"
     },
     "imperfektIndikativ": {
       "de": "er rann",
-      "lv": "jis lakstė"
+      "lv": "jis tekėjo"
     },
     "imperfektKonjunktiv": {
       "de": "er ränne / er rönne",
-      "lv": "jis lakstytų"
+      "lv": "jis tekėtų"
     },
     "partizipVergangenheit": {
       "de": "geronnen (er ist)",
-      "lv": "tekėjęs / sukrekėjęs"
+      "lv": "tekėjęs"
     }
   },
   {
@@ -2174,7 +2174,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gesoffen",
-      "lv": "gertas"
+      "lv": "girtuokliavęs / gertas"
     }
   },
   {
@@ -2218,7 +2218,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "geschaffen",
-      "lv": "sukurtas"
+      "lv": "kurtas"
     }
   },
   {
@@ -2232,11 +2232,11 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "schallte / scholl",
-      "lv": "skambėjo"
+      "lv": "tai skambėjo"
     },
     "imperfektKonjunktiv": {
       "de": "schallte / scholl",
-      "lv": "skambėjo"
+      "lv": "tai skambėtų"
     },
     "partizipVergangenheit": {
       "de": "geschallt",
@@ -2262,29 +2262,29 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "geschieden (er hat / er ist)",
-      "lv": "skirtas / išsiskyręs"
+      "lv": "skirtas / skyręsis"
     }
   },
   {
     "infinitiv": {
       "de": "scheinen",
-      "lv": "šviesti / rodytis"
+      "lv": "šviesti / atrodyti"
     },
     "praesens": {
       "de": "er scheint",
-      "lv": "jis šviečia / rodosi"
+      "lv": "jis šviečia / atrodo"
     },
     "imperfektIndikativ": {
       "de": "er schien",
-      "lv": "jis švietė / rodėsi"
+      "lv": "jis švietė / atrodė"
     },
     "imperfektKonjunktiv": {
       "de": "er schiene",
-      "lv": "jis šviestų / rodytųsi"
+      "lv": "jis šviestų / atrodytų"
     },
     "partizipVergangenheit": {
       "de": "geschienen",
-      "lv": "švietęs / rodęsis"
+      "lv": "švietęs / atrodęs"
     }
   },
   {
@@ -2320,15 +2320,15 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "schor / scherte",
-      "lv": "kirpo"
+      "lv": "jis kirpo"
     },
     "imperfektKonjunktiv": {
       "de": "schor / scherte",
-      "lv": "kirpo"
+      "lv": "jis kirptų"
     },
     "partizipVergangenheit": {
       "de": "geschoren / geschert",
-      "lv": "apkirptas"
+      "lv": "kirptas"
     }
   },
   {
@@ -2386,11 +2386,11 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "schindete",
-      "lv": "kankino"
+      "lv": "jis kankino"
     },
     "imperfektKonjunktiv": {
       "de": "schindete",
-      "lv": "kankino"
+      "lv": "jis kankintų"
     },
     "partizipVergangenheit": {
       "de": "geschunden",
@@ -2404,19 +2404,19 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er schläft",
-      "lv": "jis guli"
+      "lv": "jis miega"
     },
     "imperfektIndikativ": {
       "de": "er schlief",
-      "lv": "jis gulėjo"
+      "lv": "jis miegojo"
     },
     "imperfektKonjunktiv": {
       "de": "er schliefe",
-      "lv": "jis gulėtų"
+      "lv": "jis miegotų"
     },
     "partizipVergangenheit": {
       "de": "geschlafen",
-      "lv": "gulėta"
+      "lv": "miegojęs"
     }
   },
   {
@@ -2444,23 +2444,23 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "schleichen",
-      "lv": "šliaužti"
+      "lv": "sėlinti"
     },
     "praesens": {
       "de": "er schleicht",
-      "lv": "jis šliaužia"
+      "lv": "jis sėlina"
     },
     "imperfektIndikativ": {
       "de": "er schlich",
-      "lv": "jis šliaužė"
+      "lv": "jis sėlino"
     },
     "imperfektKonjunktiv": {
       "de": "er schliche",
-      "lv": "jis šliaužtų"
+      "lv": "jis sėlintų"
     },
     "partizipVergangenheit": {
       "de": "geschlichen (er ist)",
-      "lv": "šliaužęs"
+      "lv": "sėlinęs"
     }
   },
   {
@@ -2510,7 +2510,7 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "schlingen",
-      "lv": "rytoj"
+      "lv": "ryti"
     },
     "praesens": {
       "de": "er schlingt",
@@ -2576,29 +2576,29 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "schnauben",
-      "lv": "šnypšti"
+      "lv": "prunkšti"
     },
     "praesens": {
       "de": "er schnaubt",
-      "lv": "jis šnypščia"
+      "lv": "jis prunkščia"
     },
     "imperfektIndikativ": {
       "de": "schnaubte / schnob",
-      "lv": "šnypštė"
+      "lv": "jis prunkštė"
     },
     "imperfektKonjunktiv": {
       "de": "schnaubte / schnob",
-      "lv": "šnypštė"
+      "lv": "jis prunkštų"
     },
     "partizipVergangenheit": {
       "de": "geschnaubt / geschnoben",
-      "lv": "nušnypštęs"
+      "lv": "prunkštęs"
     }
   },
   {
     "infinitiv": {
       "de": "schneiden",
-      "lv": "sukti"
+      "lv": "pjauti"
     },
     "praesens": {
       "de": "er schneidet",
@@ -2658,7 +2658,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "geschrien",
-      "lv": "rėkta"
+      "lv": "rėkęs"
     }
   },
   {
@@ -2702,7 +2702,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "geschwiegen",
-      "lv": "tylėta"
+      "lv": "tylėjęs"
     }
   },
   {
@@ -2712,19 +2712,19 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er schwillt",
-      "lv": "jis brinksta"
+      "lv": "jis tinsta"
     },
     "imperfektIndikativ": {
       "de": "er schwoll",
-      "lv": "jis brinko"
+      "lv": "jis tino"
     },
     "imperfektKonjunktiv": {
       "de": "er schwölle",
-      "lv": "jis brinktų"
+      "lv": "jis tintų"
     },
     "partizipVergangenheit": {
       "de": "geschwollen (er ist)",
-      "lv": "brinkęs"
+      "lv": "tinęs"
     }
   },
   {
@@ -2752,45 +2752,45 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "schwinden",
-      "lv": "dingti"
+      "lv": "nykti"
     },
     "praesens": {
       "de": "er schwindet",
-      "lv": "jis dingsta"
+      "lv": "jis nyksta"
     },
     "imperfektIndikativ": {
       "de": "er schwand",
-      "lv": "jis dingo"
+      "lv": "jis nyko"
     },
     "imperfektKonjunktiv": {
       "de": "er schwände",
-      "lv": "jis dingtų"
+      "lv": "jis nyktų"
     },
     "partizipVergangenheit": {
       "de": "geschwunden (er ist)",
-      "lv": "dingęs"
+      "lv": "nykęs"
     }
   },
   {
     "infinitiv": {
       "de": "schwingen",
-      "lv": "mosuoti"
+      "lv": "mojuoti"
     },
     "praesens": {
       "de": "er schwingt",
-      "lv": "jis mosuoja"
+      "lv": "jis mojuoja"
     },
     "imperfektIndikativ": {
       "de": "er schwang",
-      "lv": "jis mosuojo"
+      "lv": "jis mojavo"
     },
     "imperfektKonjunktiv": {
       "de": "er schwänge",
-      "lv": "jis mosuotų"
+      "lv": "jis mojuotų"
     },
     "partizipVergangenheit": {
       "de": "geschwungen",
-      "lv": "mosuotas"
+      "lv": "mojuotas"
     }
   },
   {
@@ -2812,7 +2812,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "geschworen",
-      "lv": "prisiekta"
+      "lv": "prisiektas"
     }
   },
   {
@@ -2848,15 +2848,15 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "war",
-      "lv": "turėjo"
+      "lv": "jis buvo"
     },
     "imperfektKonjunktiv": {
       "de": "war",
-      "lv": "turėjo"
+      "lv": "jis būtų"
     },
     "partizipVergangenheit": {
       "de": "gewesen",
-      "lv": "turėjęs"
+      "lv": "buvęs"
     }
   },
   {
@@ -2892,11 +2892,11 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "sott / siedete",
-      "lv": "virė"
+      "lv": "jis virė"
     },
     "imperfektKonjunktiv": {
       "de": "sott / siedete",
-      "lv": "virė"
+      "lv": "jis virtų"
     },
     "partizipVergangenheit": {
       "de": "gesotten / gesiedet",
@@ -2928,45 +2928,45 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "sinken",
-      "lv": "skęsti"
+      "lv": "grimzti"
     },
     "praesens": {
       "de": "er sinkt",
-      "lv": "jis skęsta"
+      "lv": "jis grimzta"
     },
     "imperfektIndikativ": {
       "de": "er sank",
-      "lv": "jis skendo"
+      "lv": "jis grimzdo"
     },
     "imperfektKonjunktiv": {
       "de": "er sänke",
-      "lv": "jis skęstų"
+      "lv": "jis grimztų"
     },
     "partizipVergangenheit": {
       "de": "gesunken (er ist)",
-      "lv": "skendęs"
+      "lv": "grimzdęs"
     }
   },
   {
     "infinitiv": {
       "de": "sinnen",
-      "lv": "svarstyti"
+      "lv": "mąstyti"
     },
     "praesens": {
       "de": "er sinnt",
-      "lv": "jis svarsto"
+      "lv": "jis mąsto"
     },
     "imperfektIndikativ": {
       "de": "er sann",
-      "lv": "jis svarstė"
+      "lv": "jis mąstė"
     },
     "imperfektKonjunktiv": {
       "de": "er sönne / er sänne",
-      "lv": "jis svarstytų"
+      "lv": "jis mąstytų"
     },
     "partizipVergangenheit": {
       "de": "gesonnen",
-      "lv": "svarstytas"
+      "lv": "mąstęs"
     }
   },
   {
@@ -2988,39 +2988,39 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gesessen",
-      "lv": "sėdėta"
+      "lv": "sėdėjęs"
     }
   },
   {
     "infinitiv": {
       "de": "sollen",
-      "lv": "privalėti / turėti pareigą"
+      "lv": "privalėti"
     },
     "praesens": {
       "de": "er soll",
-      "lv": "jam reikia"
+      "lv": "jis privalo"
     },
     "imperfektIndikativ": {
       "de": "sollte",
-      "lv": "reikėjo"
+      "lv": "jis privalėjo"
     },
     "imperfektKonjunktiv": {
       "de": "sollte",
-      "lv": "reikėjo"
+      "lv": "jis privalėtų"
     },
     "partizipVergangenheit": {
       "de": "gesollt",
-      "lv": "reikėjęs"
+      "lv": "privalėjęs"
     }
   },
   {
     "infinitiv": {
       "de": "speien",
-      "lv": "spjaudyti"
+      "lv": "spjauti"
     },
     "praesens": {
       "de": "er speit",
-      "lv": "jis spjaudo"
+      "lv": "jis spjauna"
     },
     "imperfektIndikativ": {
       "de": "er spie",
@@ -3060,23 +3060,23 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "spleißen",
-      "lv": "sujungti"
+      "lv": "jungti"
     },
     "praesens": {
       "de": "er spleißt",
-      "lv": "jis sujungia"
+      "lv": "jis jungia"
     },
     "imperfektIndikativ": {
       "de": "spliss",
-      "lv": "sujungė"
+      "lv": "jis jungė"
     },
     "imperfektKonjunktiv": {
       "de": "spliss",
-      "lv": "sujungė"
+      "lv": "jis jungtų"
     },
     "partizipVergangenheit": {
       "de": "gesplissen",
-      "lv": "sujungtas"
+      "lv": "jungtas"
     }
   },
   {
@@ -3098,29 +3098,29 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gesprochen",
-      "lv": "kalbėta"
+      "lv": "kalbėtas"
     }
   },
   {
     "infinitiv": {
       "de": "sprießen",
-      "lv": "žydėti"
+      "lv": "dygti"
     },
     "praesens": {
       "de": "er sprießt",
-      "lv": "jis žydi"
+      "lv": "jis dygsta"
     },
     "imperfektIndikativ": {
       "de": "er spross",
-      "lv": "jis žydėjo"
+      "lv": "jis dygo"
     },
     "imperfektKonjunktiv": {
       "de": "er sprösse",
-      "lv": "jis žydėtų"
+      "lv": "jis dygtų"
     },
     "partizipVergangenheit": {
       "de": "gesprossen (er ist)",
-      "lv": "žydėjęs"
+      "lv": "dygęs"
     }
   },
   {
@@ -3156,7 +3156,7 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er stach",
-      "lv": "jis durė"
+      "lv": "jis dūrė"
     },
     "imperfektKonjunktiv": {
       "de": "er stäche",
@@ -3170,23 +3170,23 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "stecken",
-      "lv": "kišti / įsprausti"
+      "lv": "kišti / smeigti"
     },
     "praesens": {
       "de": "er steckt",
-      "lv": "jis kiša"
+      "lv": "jis kiša / smeigia"
     },
     "imperfektIndikativ": {
       "de": "stak / steckte",
-      "lv": "įkišo"
+      "lv": "jis kišo / smeigė"
     },
     "imperfektKonjunktiv": {
       "de": "stak / steckte",
-      "lv": "įkišo"
+      "lv": "jis kištų / smeigtų"
     },
     "partizipVergangenheit": {
       "de": "gesteckt",
-      "lv": "įkištas"
+      "lv": "kištas / smeigtas"
     }
   },
   {
@@ -3208,7 +3208,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gestanden",
-      "lv": "stovėta"
+      "lv": "stovėjęs"
     }
   },
   {
@@ -3240,19 +3240,19 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er steigt",
-      "lv": "jis kopia"
+      "lv": "jis lipa"
     },
     "imperfektIndikativ": {
       "de": "er stieg",
-      "lv": "jis kopė"
+      "lv": "jis lipo"
     },
     "imperfektKonjunktiv": {
       "de": "er stiege",
-      "lv": "jis koptų"
+      "lv": "jis liptų"
     },
     "partizipVergangenheit": {
       "de": "gestiegen (er ist)",
-      "lv": "kopęs"
+      "lv": "lipęs"
     }
   },
   {
@@ -3262,7 +3262,7 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er stirbt",
-      "lv": "jis mirsta"
+      "lv": "jis miršta"
     },
     "imperfektIndikativ": {
       "de": "er starb",
@@ -3288,11 +3288,11 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "stank",
-      "lv": "dvokė"
+      "lv": "tai dvokė"
     },
     "imperfektKonjunktiv": {
       "de": "stank",
-      "lv": "dvokė"
+      "lv": "tai dvoktų"
     },
     "partizipVergangenheit": {
       "de": "gestunken",
@@ -3306,63 +3306,63 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er stößt",
-      "lv": "jis trenkia"
+      "lv": "jis stumia"
     },
     "imperfektIndikativ": {
       "de": "er stieß",
-      "lv": "jis trenkė"
+      "lv": "jis stūmė"
     },
     "imperfektKonjunktiv": {
       "de": "er stieße",
-      "lv": "jis trenktų"
+      "lv": "jis stumtų"
     },
     "partizipVergangenheit": {
       "de": "gestoßen",
-      "lv": "trenktas"
+      "lv": "stumtas"
     }
   },
   {
     "infinitiv": {
       "de": "streichen",
-      "lv": "dažyti / dryžuoti"
+      "lv": "dažyti / braukti"
     },
     "praesens": {
       "de": "er streicht",
-      "lv": "jis dažo / dryžuoja"
+      "lv": "jis dažo / braukia"
     },
     "imperfektIndikativ": {
       "de": "er strich",
-      "lv": "jis dažė / dryžavo"
+      "lv": "jis dažė / braukė"
     },
     "imperfektKonjunktiv": {
       "de": "er striche",
-      "lv": "jis dažytų / dryžuotų"
+      "lv": "jis dažytų / brauktų"
     },
     "partizipVergangenheit": {
       "de": "gestrichen",
-      "lv": "dažytas / dryžuotas"
+      "lv": "dažytas / brauktas"
     }
   },
   {
     "infinitiv": {
       "de": "streiten",
-      "lv": "kovoti"
+      "lv": "ginčytis"
     },
     "praesens": {
       "de": "er streitet",
-      "lv": "jis kovoja"
+      "lv": "jis ginčijasi"
     },
     "imperfektIndikativ": {
       "de": "er stritt",
-      "lv": "jis kovojo"
+      "lv": "jis ginčijosi"
     },
     "imperfektKonjunktiv": {
       "de": "er stritte",
-      "lv": "jis kovotų"
+      "lv": "jis ginčytųsi"
     },
     "partizipVergangenheit": {
       "de": "gestritten",
-      "lv": "kovojęs"
+      "lv": "ginčijęsis"
     }
   },
   {
@@ -3434,23 +3434,23 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "treten",
-      "lv": "stotis / eiti"
+      "lv": "žengti / eiti"
     },
     "praesens": {
       "de": "er tritt",
-      "lv": "jis stojasi / eina"
+      "lv": "jis žengia / eina"
     },
     "imperfektIndikativ": {
       "de": "er trat",
-      "lv": "jis stojosi / ėjo"
+      "lv": "jis žengė / ėjo"
     },
     "imperfektKonjunktiv": {
       "de": "er träte",
-      "lv": "jis stotųsi / eitų"
+      "lv": "jis žengtų / eitų"
     },
     "partizipVergangenheit": {
       "de": "getreten (er ist)",
-      "lv": "stojęsis / ėjęs"
+      "lv": "žengęs / ėjęs"
     }
   },
   {
@@ -3478,23 +3478,23 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "trügen",
-      "lv": "apgauti"
+      "lv": "apgaudinėti"
     },
     "praesens": {
       "de": "er trögt",
-      "lv": "jis apgauna"
+      "lv": "jis apgaudinėja"
     },
     "imperfektIndikativ": {
       "de": "er trog",
-      "lv": "jis apgavo"
+      "lv": "jis apgaudinėjo"
     },
     "imperfektKonjunktiv": {
       "de": "er tröge",
-      "lv": "jis apgautų"
+      "lv": "jis apgaudinėtų"
     },
     "partizipVergangenheit": {
       "de": "getrogen",
-      "lv": "apgautas"
+      "lv": "apgaudinėtas"
     }
   },
   {
@@ -3538,29 +3538,29 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "verdorben",
-      "lv": "sugadintas"
+      "lv": "gadintas"
     }
   },
   {
     "infinitiv": {
       "de": "verdrießen",
-      "lv": "sukelti apmaudą"
+      "lv": "erzinti"
     },
     "praesens": {
       "de": "er verdrießt",
-      "lv": "jis sukelia apmaudą"
+      "lv": "jis erzina"
     },
     "imperfektIndikativ": {
       "de": "er verdross",
-      "lv": "jis sukėlė apmaudą"
+      "lv": "jis erzino"
     },
     "imperfektKonjunktiv": {
       "de": "er verdrösse",
-      "lv": "jis sukeltų apmaudą"
+      "lv": "jis erzintų"
     },
     "partizipVergangenheit": {
       "de": "verdrossen",
-      "lv": "nuliūdintas (nusiminęs)"
+      "lv": "erzintas"
     }
   },
   {
@@ -3626,7 +3626,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gewachsen (er ist)",
-      "lv": "užaugęs"
+      "lv": "augęs"
     }
   },
   {
@@ -3662,37 +3662,37 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "wob",
-      "lv": "audė"
+      "lv": "jis audė"
     },
     "imperfektKonjunktiv": {
       "de": "wob",
-      "lv": "audė"
+      "lv": "jis austų"
     },
     "partizipVergangenheit": {
       "de": "gewoben",
-      "lv": "išaustas"
+      "lv": "austas"
     }
   },
   {
     "infinitiv": {
       "de": "weichen",
-      "lv": "atsitraukti"
+      "lv": "trauktis"
     },
     "praesens": {
       "de": "er weicht",
-      "lv": "jis atsitraukia"
+      "lv": "jis traukiasi"
     },
     "imperfektIndikativ": {
       "de": "er wich",
-      "lv": "jis atsitraukė"
+      "lv": "jis traukėsi"
     },
     "imperfektKonjunktiv": {
       "de": "er wiche",
-      "lv": "jis atsitrauktų"
+      "lv": "jis trauktųsi"
     },
     "partizipVergangenheit": {
       "de": "gewichen (er ist)",
-      "lv": "atsitraukęs"
+      "lv": "traukęsis"
     }
   },
   {
@@ -3720,7 +3720,7 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "wenden",
-      "lv": "sukti / apversti"
+      "lv": "sukioti / apversti"
     },
     "praesens": {
       "de": "er wendet",
@@ -3742,23 +3742,23 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "werben",
-      "lv": "piršti"
+      "lv": "pirštis"
     },
     "praesens": {
       "de": "er wirbt",
-      "lv": "jis perša"
+      "lv": "jis peršasi"
     },
     "imperfektIndikativ": {
       "de": "er warb",
-      "lv": "jis piršo"
+      "lv": "jis piršosi"
     },
     "imperfektKonjunktiv": {
       "de": "er würbe",
-      "lv": "jis pirštų"
+      "lv": "jis pirštųsi"
     },
     "partizipVergangenheit": {
       "de": "geworben",
-      "lv": "pirštas"
+      "lv": "piršęsis"
     }
   },
   {
@@ -3772,11 +3772,11 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "wurde",
-      "lv": "tapo"
+      "lv": "jis tapo"
     },
     "imperfektKonjunktiv": {
       "de": "wurde",
-      "lv": "tapo"
+      "lv": "jis taptų"
     },
     "partizipVergangenheit": {
       "de": "geworden",
@@ -3868,7 +3868,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gewusst",
-      "lv": "žinomas"
+      "lv": "žinotas"
     }
   },
   {
@@ -3882,11 +3882,11 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "wollte",
-      "lv": "norėjo"
+      "lv": "jis norėjo"
     },
     "imperfektKonjunktiv": {
       "de": "wollte",
-      "lv": "norėjo"
+      "lv": "jis norėtų"
     },
     "partizipVergangenheit": {
       "de": "gewollt",
@@ -3896,23 +3896,23 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "wringen",
-      "lv": "išgręžti / išspausti"
+      "lv": "gręžti / spausti"
     },
     "praesens": {
       "de": "er wringt",
-      "lv": "jis išgręžia"
+      "lv": "jis gręžia / spaudžia"
     },
     "imperfektIndikativ": {
       "de": "wrang",
-      "lv": "išgręžė"
+      "lv": "jis gręžė / spaudė"
     },
     "imperfektKonjunktiv": {
       "de": "wrang",
-      "lv": "išgręžė"
+      "lv": "jis gręžtų / spaustų"
     },
     "partizipVergangenheit": {
       "de": "gewrungen",
-      "lv": "išgręžtas"
+      "lv": "gręžtas / spaustas"
     }
   },
   {
@@ -3926,15 +3926,15 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "zieh",
-      "lv": "kaltino"
+      "lv": "jis kaltino"
     },
     "imperfektKonjunktiv": {
       "de": "zieh",
-      "lv": "kaltino"
+      "lv": "jis kaltintų"
     },
     "partizipVergangenheit": {
       "de": "geziehen",
-      "lv": "kaltinęs"
+      "lv": "kaltintas"
     }
   },
   {
@@ -3944,19 +3944,19 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er zieht",
-      "lv": "jis velka"
+      "lv": "jis traukia"
     },
     "imperfektIndikativ": {
       "de": "er zog",
-      "lv": "jis vilko"
+      "lv": "jis traukė"
     },
     "imperfektKonjunktiv": {
       "de": "er zöge",
-      "lv": "jis vilktų"
+      "lv": "jis trauktų"
     },
     "partizipVergangenheit": {
       "de": "gezogen",
-      "lv": "vilktas"
+      "lv": "trauktas"
     }
   },
   {
@@ -4006,23 +4006,23 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "erwägen",
-      "lv": "apsvarstyti"
+      "lv": "svarstyti"
     },
     "praesens": {
       "de": "er erwägt",
-      "lv": "jis apsvarsto"
+      "lv": "jis svarsto"
     },
     "imperfektIndikativ": {
       "de": "er erwog",
-      "lv": "jis apsvarstė"
+      "lv": "jis svarstė"
     },
     "imperfektKonjunktiv": {
       "de": "er erwöge",
-      "lv": "jis apsvarstytų"
+      "lv": "jis svarstytų"
     },
     "partizipVergangenheit": {
       "de": "erwogen",
-      "lv": "apsvarstytas"
+      "lv": "svarstytas"
     }
   },
   {
@@ -4076,19 +4076,19 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er hängt",
-      "lv": "jis kabo"
+      "lv": "jis kaba"
     },
     "imperfektIndikativ": {
       "de": "er hing",
-      "lv": "jis kabojo"
+      "lv": "jis kabėjo"
     },
     "imperfektKonjunktiv": {
       "de": "er hinge",
-      "lv": "jis kabotų"
+      "lv": "jis kabėtų"
     },
     "partizipVergangenheit": {
       "de": "gehangen",
-      "lv": "kabojęs"
+      "lv": "kabėjęs"
     }
   },
   {
