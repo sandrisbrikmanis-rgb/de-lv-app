@@ -1,0 +1,268 @@
+{
+  "classification": "G2_A1_BATCH_001_TARGET_LANGUAGE_BACKLOG_PRESERVED",
+  "count": 29,
+  "status": "DEFERRED_TARGET_LANGUAGE_REVIEW",
+  "entries": [
+    {
+      "auditId": "DISC-G2-A1-BG-L0020",
+      "findingStableId": "g2/a1/bg|Brötchen|idx:113|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
+      "status": "DEFERRED_TARGET_LANGUAGE_REVIEW",
+      "batchId": "BATCH-001",
+      "language": "bg",
+      "discoveryCurrent": "",
+      "note": "Deferred from BATCH-001 OWNER NOTE target-language review backlog"
+    },
+    {
+      "auditId": "DISC-G2-A1-DA-L0020",
+      "findingStableId": "g2/a1/da|freundlich|idx:203|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
+      "status": "DEFERRED_TARGET_LANGUAGE_REVIEW",
+      "batchId": "BATCH-001",
+      "language": "da",
+      "discoveryCurrent": "",
+      "note": "Deferred from BATCH-001 OWNER NOTE target-language review backlog"
+    },
+    {
+      "auditId": "DISC-G2-A1-FI-L0020",
+      "findingStableId": "g2/a1/fi|Brötchen|idx:113|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
+      "status": "DEFERRED_TARGET_LANGUAGE_REVIEW",
+      "batchId": "BATCH-001",
+      "language": "fi",
+      "discoveryCurrent": "",
+      "note": "Deferred from BATCH-001 OWNER NOTE target-language review backlog"
+    },
+    {
+      "auditId": "DISC-G2-A1-FI-L0020",
+      "findingStableId": "g2/a1/fi|Brötchen|idx:113|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
+      "status": "DEFERRED_TARGET_LANGUAGE_REVIEW",
+      "batchId": "BATCH-001",
+      "language": "fi",
+      "discoveryCurrent": "",
+      "note": "Deferred from BATCH-001 OWNER NOTE target-language review backlog"
+    },
+    {
+      "auditId": "DISC-G2-A1-FR-L0016",
+      "findingStableId": "g2/a1/fr|euer|idx:171|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
+      "status": "DEFERRED_TARGET_LANGUAGE_REVIEW",
+      "batchId": "BATCH-001",
+      "language": "fr",
+      "discoveryCurrent": "",
+      "note": "Deferred from BATCH-001 OWNER NOTE target-language review backlog"
+    },
+    {
+      "auditId": "DISC-G2-A1-HR-L0022",
+      "findingStableId": "g2/a1/hr|jetzt|idx:302|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
+      "status": "DEFERRED_TARGET_LANGUAGE_REVIEW",
+      "batchId": "BATCH-001",
+      "language": "hr",
+      "discoveryCurrent": "",
+      "note": "Deferred from BATCH-001 OWNER NOTE target-language review backlog"
+    },
+    {
+      "auditId": "DISC-G2-A1-HU-L0001",
+      "findingStableId": "g2/a1/hu|Apfel|idx:0|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
+      "status": "DEFERRED_TARGET_LANGUAGE_REVIEW",
+      "batchId": "BATCH-001",
+      "language": "hu",
+      "discoveryCurrent": "",
+      "note": "Deferred from BATCH-001 OWNER NOTE target-language review backlog"
+    },
+    {
+      "auditId": "DISC-G2-A1-HU-L0003",
+      "findingStableId": "g2/a1/hu|euer|idx:171|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
+      "status": "DEFERRED_TARGET_LANGUAGE_REVIEW",
+      "batchId": "BATCH-001",
+      "language": "hu",
+      "discoveryCurrent": "",
+      "note": "Deferred from BATCH-001 OWNER NOTE target-language review backlog"
+    },
+    {
+      "auditId": "DISC-G2-A1-HU-L0005",
+      "findingStableId": "g2/a1/hu|freundlich|idx:203|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
+      "status": "DEFERRED_TARGET_LANGUAGE_REVIEW",
+      "batchId": "BATCH-001",
+      "language": "hu",
+      "discoveryCurrent": "",
+      "note": "Deferred from BATCH-001 OWNER NOTE target-language review backlog"
+    },
+    {
+      "auditId": "DISC-G2-A1-HU-L0016",
+      "findingStableId": "g2/a1/hu|ob|idx:457|lv, study.translation, study.explanation, study.examples, study.comparison, study.important|SOURCE_LV_ISSUE|gpt-5.6-luna",
+      "status": "DEFERRED_TARGET_LANGUAGE_REVIEW",
+      "batchId": "BATCH-001",
+      "language": "hu",
+      "discoveryCurrent": "",
+      "note": "Deferred from BATCH-001 OWNER NOTE target-language review backlog"
+    },
+    {
+      "auditId": "DISC-G2-A1-HU-L0020",
+      "findingStableId": "g2/a1/hu|passen|idx:471|lv, study.translation, study.explanation, study.examples, study.comparison, study.important|SOURCE_LV_ISSUE|gpt-5.6-luna",
+      "status": "DEFERRED_TARGET_LANGUAGE_REVIEW",
+      "batchId": "BATCH-001",
+      "language": "hu",
+      "discoveryCurrent": "",
+      "note": "Deferred from BATCH-001 OWNER NOTE target-language review backlog"
+    },
+    {
+      "auditId": "DISC-G2-A1-MK-L0008",
+      "findingStableId": "g2/a1/mk|Brötchen|idx:113|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
+      "status": "DEFERRED_TARGET_LANGUAGE_REVIEW",
+      "batchId": "BATCH-001",
+      "language": "mk",
+      "discoveryCurrent": "",
+      "note": "Deferred from BATCH-001 OWNER NOTE target-language review backlog"
+    },
+    {
+      "auditId": "DISC-G2-A1-MK-L0020",
+      "findingStableId": "g2/a1/mk|danken|idx:127|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
+      "status": "DEFERRED_TARGET_LANGUAGE_REVIEW",
+      "batchId": "BATCH-001",
+      "language": "mk",
+      "discoveryCurrent": "",
+      "note": "Deferred from BATCH-001 OWNER NOTE target-language review backlog"
+    },
+    {
+      "auditId": "DISC-G2-A1-MK-L0022",
+      "findingStableId": "g2/a1/mk|jetzt|idx:302|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
+      "status": "DEFERRED_TARGET_LANGUAGE_REVIEW",
+      "batchId": "BATCH-001",
+      "language": "mk",
+      "discoveryCurrent": "",
+      "note": "Deferred from BATCH-001 OWNER NOTE target-language review backlog"
+    },
+    {
+      "auditId": "DISC-G2-A1-NB-L0016",
+      "findingStableId": "g2/a1/nb|Preis|idx:481|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
+      "status": "DEFERRED_TARGET_LANGUAGE_REVIEW",
+      "batchId": "BATCH-001",
+      "language": "nb",
+      "discoveryCurrent": "",
+      "note": "Deferred from BATCH-001 OWNER NOTE target-language review backlog"
+    },
+    {
+      "auditId": "DISC-G2-A1-NB-L0017",
+      "findingStableId": "g2/a1/nb|Welt|idx:653|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
+      "status": "DEFERRED_TARGET_LANGUAGE_REVIEW",
+      "batchId": "BATCH-001",
+      "language": "nb",
+      "discoveryCurrent": "",
+      "note": "Deferred from BATCH-001 OWNER NOTE target-language review backlog"
+    },
+    {
+      "auditId": "DISC-G2-A1-NN-L0017",
+      "findingStableId": "g2/a1/nn|Preis|idx:481|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
+      "status": "DEFERRED_TARGET_LANGUAGE_REVIEW",
+      "batchId": "BATCH-001",
+      "language": "nn",
+      "discoveryCurrent": "",
+      "note": "Deferred from BATCH-001 OWNER NOTE target-language review backlog"
+    },
+    {
+      "auditId": "DISC-G2-A1-PL-L0003",
+      "findingStableId": "g2/a1/pl|ob|idx:457|lv, study.translation, study.explanation, study.examples, study.comparison, study.important|SOURCE_LV_ISSUE|gpt-5.6-luna",
+      "status": "DEFERRED_TARGET_LANGUAGE_REVIEW",
+      "batchId": "BATCH-001",
+      "language": "pl",
+      "discoveryCurrent": "",
+      "note": "Deferred from BATCH-001 OWNER NOTE target-language review backlog"
+    },
+    {
+      "auditId": "DISC-G2-A1-PL-L0005",
+      "findingStableId": "g2/a1/pl|passen|idx:471|lv, study.translation, study.explanation, study.examples, study.comparison, study.important|SOURCE_LV_ISSUE|gpt-5.6-luna",
+      "status": "DEFERRED_TARGET_LANGUAGE_REVIEW",
+      "batchId": "BATCH-001",
+      "language": "pl",
+      "discoveryCurrent": "",
+      "note": "Deferred from BATCH-001 OWNER NOTE target-language review backlog"
+    },
+    {
+      "auditId": "DISC-G2-A1-RO-L0001",
+      "findingStableId": "g2/a1/ro|Apfel|idx:0|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
+      "status": "DEFERRED_TARGET_LANGUAGE_REVIEW",
+      "batchId": "BATCH-001",
+      "language": "ro",
+      "discoveryCurrent": "",
+      "note": "Deferred from BATCH-001 OWNER NOTE target-language review backlog"
+    },
+    {
+      "auditId": "DISC-G2-A1-RO-L0004",
+      "findingStableId": "g2/a1/ro|danken|idx:127|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
+      "status": "DEFERRED_TARGET_LANGUAGE_REVIEW",
+      "batchId": "BATCH-001",
+      "language": "ro",
+      "discoveryCurrent": "",
+      "note": "Deferred from BATCH-001 OWNER NOTE target-language review backlog"
+    },
+    {
+      "auditId": "DISC-G2-A1-RO-L0007",
+      "findingStableId": "g2/a1/ro|freundlich|idx:203|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
+      "status": "DEFERRED_TARGET_LANGUAGE_REVIEW",
+      "batchId": "BATCH-001",
+      "language": "ro",
+      "discoveryCurrent": "",
+      "note": "Deferred from BATCH-001 OWNER NOTE target-language review backlog"
+    },
+    {
+      "auditId": "DISC-G2-A1-RO-L0020",
+      "findingStableId": "g2/a1/ro|zurück|idx:674|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
+      "status": "DEFERRED_TARGET_LANGUAGE_REVIEW",
+      "batchId": "BATCH-001",
+      "language": "ro",
+      "discoveryCurrent": "",
+      "note": "Deferred from BATCH-001 OWNER NOTE target-language review backlog"
+    },
+    {
+      "auditId": "DISC-G2-A1-SK-L0020",
+      "findingStableId": "g2/a1/sk|Brötchen|idx:113|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
+      "status": "DEFERRED_TARGET_LANGUAGE_REVIEW",
+      "batchId": "BATCH-001",
+      "language": "sk",
+      "discoveryCurrent": "",
+      "note": "Deferred from BATCH-001 OWNER NOTE target-language review backlog"
+    },
+    {
+      "auditId": "DISC-G2-A1-SL-L0020",
+      "findingStableId": "g2/a1/sl|Brötchen|idx:113|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
+      "status": "DEFERRED_TARGET_LANGUAGE_REVIEW",
+      "batchId": "BATCH-001",
+      "language": "sl",
+      "discoveryCurrent": "",
+      "note": "Deferred from BATCH-001 OWNER NOTE target-language review backlog"
+    },
+    {
+      "auditId": "DISC-G2-A1-SV-L0004",
+      "findingStableId": "g2/a1/sv|Brötchen|idx:113|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
+      "status": "DEFERRED_TARGET_LANGUAGE_REVIEW",
+      "batchId": "BATCH-001",
+      "language": "sv",
+      "discoveryCurrent": "",
+      "note": "Deferred from BATCH-001 OWNER NOTE target-language review backlog"
+    },
+    {
+      "auditId": "DISC-G2-A1-SV-L0017",
+      "findingStableId": "g2/a1/sv|Preis|idx:481|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
+      "status": "DEFERRED_TARGET_LANGUAGE_REVIEW",
+      "batchId": "BATCH-001",
+      "language": "sv",
+      "discoveryCurrent": "",
+      "note": "Deferred from BATCH-001 OWNER NOTE target-language review backlog"
+    },
+    {
+      "auditId": "DISC-G2-A1-SV-L0020",
+      "findingStableId": "g2/a1/sv|morgen|idx:417|lv, study|SOURCE_LV_ISSUE|gpt-5.6-luna",
+      "status": "DEFERRED_TARGET_LANGUAGE_REVIEW",
+      "batchId": "BATCH-001",
+      "language": "sv",
+      "discoveryCurrent": "",
+      "note": "Deferred from BATCH-001 OWNER NOTE target-language review backlog"
+    },
+    {
+      "auditId": "DISC-G2-A1-TR-L0016",
+      "findingStableId": "g2/a1/tr|euer|idx:171|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
+      "status": "DEFERRED_TARGET_LANGUAGE_REVIEW",
+      "batchId": "BATCH-001",
+      "language": "tr",
+      "discoveryCurrent": "",
+      "note": "Deferred from BATCH-001 OWNER NOTE target-language review backlog"
+    }
+  ]
+}

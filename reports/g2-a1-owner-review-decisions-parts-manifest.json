@@ -1,0 +1,64 @@
+{
+  "schemaVersion": "g2-a1-owner-review-plain-csv-split-v1",
+  "sourceFile": "g2-a1-owner-review-all-remaining-decisions-final.csv",
+  "sourceRows": 22650,
+  "sourceBytes": 21700814,
+  "sourceSha256": "37fbe192699bfe2bc5738eaaf3622481ac2ed1335f995032666d2ba8033c25d0",
+  "partCount": 6,
+  "maxPartBytes": 3799933,
+  "totalPartRows": 22650,
+  "uniqueStableIds": 22650,
+  "missingOrDuplicateStableIds": 0,
+  "repeatedHeader": true,
+  "reconstruction": "Keep the header from part 01, skip the header in parts 02-06, then concatenate all data records in part order.",
+  "parts": [
+    {
+      "file": "g2-a1-owner-review-decisions-part-01-of-06.csv",
+      "rows": 4420,
+      "bytes": 3799354,
+      "sha256": "84ec8f6c0d90f68fe8a9d9cdee46a50a34b83f7bda37642512c302a0e1ba5279",
+      "firstStableId": "g2/a1/bg|breit|idx:108|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
+      "lastStableId": "g2/a1/ro|zwischen|idx:684|lv|SOURCE_LV_ISSUE|gpt-5.6-luna"
+    },
+    {
+      "file": "g2-a1-owner-review-decisions-part-02-of-06.csv",
+      "rows": 3888,
+      "bytes": 3799735,
+      "sha256": "078a6f51bc428fc089d0f6f140f2514c7c40db4bb30b84e7ba61df3abee07b90",
+      "firstStableId": "g2/a1/ru|euch|idx:170|lv, study.translation, study.examples, study.comparison|SOURCE_LV_ISSUE|gpt-5.6-luna",
+      "lastStableId": "g2/a1/gr|leicht|idx:366|lv|LANGUAGE_MISMATCH|gpt-5.6-luna"
+    },
+    {
+      "file": "g2-a1-owner-review-decisions-part-03-of-06.csv",
+      "rows": 3103,
+      "bytes": 3799587,
+      "sha256": "4128be6850e4f1af1ace44174e9d54c4255761f3ba5ff21eb22b72210fa592b8",
+      "firstStableId": "g2/a1/gr|leise|idx:368|lv, study.translation, study.explanation, study.examples|WRONG_TARGET_LANGUAGE|gpt-5.6-luna",
+      "lastStableId": "g2/a1/pl|Land|idx:351|lv/study|LANGUAGE_MISMATCH|gpt-5.6-luna"
+    },
+    {
+      "file": "g2-a1-owner-review-decisions-part-04-of-06.csv",
+      "rows": 3392,
+      "bytes": 3799834,
+      "sha256": "d390bf5901ffd6fba27b3641c9374ab5b9f73562902ea631b19507cc55af3bd8",
+      "firstStableId": "g2/a1/pl|Laut|idx:359|lv, study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna",
+      "lastStableId": "g2/a1/uk|Schnee|idx:517|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna"
+    },
+    {
+      "file": "g2-a1-owner-review-decisions-part-05-of-06.csv",
+      "rows": 4252,
+      "bytes": 3799933,
+      "sha256": "c845273108df9f272b930d97dd9d7dcc4243971f85e1e0356d49aace7815e356",
+      "firstStableId": "g2/a1/uk|schneien|idx:518|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna",
+      "lastStableId": "g2/a1/en|a1-probieren|a1.card.a1-probieren.native|MULTI_TRANSLATION|deterministic/multi-translation"
+    },
+    {
+      "file": "g2-a1-owner-review-decisions-part-06-of-06.csv",
+      "rows": 3595,
+      "bytes": 2704486,
+      "sha256": "c194dbd2cdae3c701ddf95f10e6ad8bbe2a2049d8e9b81d6810a1b52fcbb6dc6",
+      "firstStableId": "g2/a1/en|a1-seite|a1.card.a1-seite.study.translation|MULTI_TRANSLATION|deterministic/multi-translation",
+      "lastStableId": "g2/a1/uk|malen|idx:391|lv|STYLE_ONLY|gpt-5.6-luna"
+    }
+  ]
+}
