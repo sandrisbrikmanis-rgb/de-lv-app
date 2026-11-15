@@ -2,4137 +2,4137 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "backen",
-      "lv": "Piec"
+      "lv": "piec"
     },
     "praesens": {
       "de": "er bäckt",
-      "lv": "On piecze"
+      "lv": "on piecze"
     },
     "imperfektIndikativ": {
       "de": "er buk",
-      "lv": "On piecze"
+      "lv": "on piekł"
     },
     "imperfektKonjunktiv": {
       "de": "er büke",
-      "lv": "Piecze"
+      "lv": "on piekłby"
     },
     "partizipVergangenheit": {
       "de": "gebacken",
-      "lv": "Smażone / pieczone"
+      "lv": "pieczony"
     }
   },
   {
     "infinitiv": {
       "de": "befehlen",
-      "lv": "Rozkazywać"
+      "lv": "rozkazywać"
     },
     "praesens": {
       "de": "er befiehlt",
-      "lv": "On rozkazuje"
+      "lv": "on rozkazuje"
     },
     "imperfektIndikativ": {
       "de": "er befahl",
-      "lv": "– rozkazał"
+      "lv": "on rozkazywał"
     },
     "imperfektKonjunktiv": {
       "de": "er beföhle",
-      "lv": "By rozkazał"
+      "lv": "on rozkazywałby"
     },
     "partizipVergangenheit": {
       "de": "befohlen",
-      "lv": "Rozkazał"
+      "lv": "rozkazywał"
     }
   },
   {
     "infinitiv": {
       "de": "beginnen",
-      "lv": "Zacząć"
+      "lv": "zaczynać"
     },
     "praesens": {
       "de": "er beginnt",
-      "lv": "Zaczyna"
+      "lv": "on zaczyna"
     },
     "imperfektIndikativ": {
       "de": "er begann",
-      "lv": "Zaczął"
+      "lv": "on zaczynał"
     },
     "imperfektKonjunktiv": {
       "de": "er begönne / er begänne",
-      "lv": "Zacząłby"
+      "lv": "on zaczynałby"
     },
     "partizipVergangenheit": {
       "de": "begonnen",
-      "lv": "Zaczął"
+      "lv": "zaczynany"
     }
   },
   {
     "infinitiv": {
       "de": "beißen",
-      "lv": "Ugryzienie"
+      "lv": "gryźć"
     },
     "praesens": {
       "de": "er beißt",
-      "lv": "Gryzie"
+      "lv": "on gryzie"
     },
     "imperfektIndikativ": {
       "de": "er biss",
-      "lv": "Kodował"
+      "lv": "on gryzł"
     },
     "imperfektKonjunktiv": {
       "de": "er bisse",
-      "lv": "Gryzie"
+      "lv": "on gryzłby"
     },
     "partizipVergangenheit": {
       "de": "gebissen",
-      "lv": "Ugryziony / ugryziony"
+      "lv": "gryziony"
     }
   },
   {
     "infinitiv": {
       "de": "bergen",
-      "lv": "Ukrywać"
+      "lv": "ratować / ukrywać"
     },
     "praesens": {
       "de": "er birgt",
-      "lv": "Ukrywa się"
+      "lv": "on ratuje / ukrywa"
     },
     "imperfektIndikativ": {
       "de": "er barg",
-      "lv": "Ukrył się"
+      "lv": "on ratował / ukrywał"
     },
     "imperfektKonjunktiv": {
       "de": "er bürge / er bärge",
-      "lv": "By się ukrył"
+      "lv": "on ratowałby / ukrywałby"
     },
     "partizipVergangenheit": {
       "de": "geborgen",
-      "lv": "Ukryty/zapisany"
+      "lv": "ratowany / ukrywany"
     }
   },
   {
     "infinitiv": {
       "de": "bersten",
-      "lv": "Pękanie"
+      "lv": "pękać"
     },
     "praesens": {
       "de": "er birst",
-      "lv": "On pęka"
+      "lv": "on pęka"
     },
     "imperfektIndikativ": {
       "de": "er barst / er borst",
-      "lv": "Wybuchnął"
+      "lv": "on pękał"
     },
     "imperfektKonjunktiv": {
       "de": "er bärste / er börste",
-      "lv": "On pęka"
+      "lv": "on pękałby"
     },
     "partizipVergangenheit": {
       "de": "geborsten (er ist)",
-      "lv": "Złamany"
+      "lv": "pękał"
     }
   },
   {
     "infinitiv": {
       "de": "bewegen",
-      "lv": "Zachęcać"
+      "lv": "skłaniać"
     },
     "praesens": {
       "de": "er bewegt",
-      "lv": "– podpowiada"
+      "lv": "on skłania"
     },
     "imperfektIndikativ": {
       "de": "er bewog",
-      "lv": "Nalegał"
+      "lv": "on skłaniał"
     },
     "imperfektKonjunktiv": {
       "de": "er bewöge",
-      "lv": "Zachęcałby"
+      "lv": "on skłaniałby"
     },
     "partizipVergangenheit": {
       "de": "bewogen",
-      "lv": "Zachęcał"
+      "lv": "skłaniany"
     }
   },
   {
     "infinitiv": {
       "de": "biegen",
-      "lv": "Schylać się"
+      "lv": "zginać"
     },
     "praesens": {
       "de": "er biegt",
-      "lv": "Kłania się"
+      "lv": "on zgina"
     },
     "imperfektIndikativ": {
       "de": "er bog",
-      "lv": "Naprężył się"
+      "lv": "on zginał"
     },
     "imperfektKonjunktiv": {
       "de": "er böge",
-      "lv": "Uginałby się"
+      "lv": "on zginałby"
     },
     "partizipVergangenheit": {
       "de": "gebogen",
-      "lv": "Zgięty"
+      "lv": "zginany"
     }
   },
   {
     "infinitiv": {
       "de": "bieten",
-      "lv": "Obiecać"
+      "lv": "oferować"
     },
     "praesens": {
       "de": "er bietet",
-      "lv": "Obiecuje"
+      "lv": "on oferuje"
     },
     "imperfektIndikativ": {
       "de": "er bot",
-      "lv": "Obiecał"
+      "lv": "on oferował"
     },
     "imperfektKonjunktiv": {
       "de": "er böte",
-      "lv": "Obiecał"
+      "lv": "on oferowałby"
     },
     "partizipVergangenheit": {
       "de": "geboten",
-      "lv": "Obiecał/oferował"
+      "lv": "oferowany"
     }
   },
   {
     "infinitiv": {
       "de": "binden",
-      "lv": "Sito"
+      "lv": "wiązać"
     },
     "praesens": {
       "de": "er bindet",
-      "lv": "On siano"
+      "lv": "on wiąże"
     },
     "imperfektIndikativ": {
       "de": "er band",
-      "lv": "Siał"
+      "lv": "on wiązał"
     },
     "imperfektKonjunktiv": {
       "de": "er bände",
-      "lv": "Przesiał"
+      "lv": "on wiązałby"
     },
     "partizipVergangenheit": {
       "de": "gebunden",
-      "lv": "Sito"
+      "lv": "wiązany"
     }
   },
   {
     "infinitiv": {
       "de": "bitten",
-      "lv": "Zapytać"
+      "lv": "prosić"
     },
     "praesens": {
       "de": "er bittet",
-      "lv": "Błaga"
+      "lv": "on prosi"
     },
     "imperfektIndikativ": {
       "de": "er bat",
-      "lv": "Zapytał"
+      "lv": "on prosił"
     },
     "imperfektKonjunktiv": {
       "de": "er bäte",
-      "lv": "Będzie się modlił"
+      "lv": "on prosiłby"
     },
     "partizipVergangenheit": {
       "de": "gebeten",
-      "lv": "Wymagany"
+      "lv": "proszony"
     }
   },
   {
     "infinitiv": {
       "de": "blasen",
-      "lv": "Dmuchać"
+      "lv": "dmuchać"
     },
     "praesens": {
       "de": "er bläst",
-      "lv": "On dmucha"
+      "lv": "on dmucha"
     },
     "imperfektIndikativ": {
       "de": "er blies",
-      "lv": "Dmuchał"
+      "lv": "on dmuchał"
     },
     "imperfektKonjunktiv": {
       "de": "er bliese",
-      "lv": "By dmuchał"
+      "lv": "on dmuchałby"
     },
     "partizipVergangenheit": {
       "de": "geblasen",
-      "lv": "Nadęty"
+      "lv": "dmuchany"
     }
   },
   {
     "infinitiv": {
       "de": "gären",
-      "lv": "Fermentować"
+      "lv": "fermentować"
     },
     "praesens": {
       "de": "es gärt",
-      "lv": "Fermentuje"
+      "lv": "ono fermentuje"
     },
     "imperfektIndikativ": {
       "de": "es gor / es gärte",
-      "lv": "Fermentuje"
+      "lv": "ono fermentowało"
     },
     "imperfektKonjunktiv": {
       "de": "es göre / es gärte",
-      "lv": "Byłoby gorzko"
+      "lv": "ono fermentowałoby"
     },
     "partizipVergangenheit": {
       "de": "gegoren / gegärt",
-      "lv": "Żyto"
+      "lv": "fermentował"
     }
   },
   {
     "infinitiv": {
       "de": "gebären",
-      "lv": "Rodzić"
+      "lv": "rodzić"
     },
     "praesens": {
       "de": "sie gebiert",
-      "lv": "W jej łonie"
+      "lv": "ona rodzi"
     },
     "imperfektIndikativ": {
       "de": "sie gebar",
-      "lv": "Urodziła"
+      "lv": "ona rodziła"
     },
     "imperfektKonjunktiv": {
       "de": "sie gebäre",
-      "lv": "Urodziłaby"
+      "lv": "ona rodziłaby"
     },
     "partizipVergangenheit": {
       "de": "geboren",
-      "lv": "Urodziłem się / urodziłem się"
+      "lv": "rodzony"
     }
   },
   {
     "infinitiv": {
       "de": "gelingen",
-      "lv": "Odnieść sukces"
+      "lv": "udawać się"
     },
     "praesens": {
       "de": "es gelingt",
-      "lv": "To się udaje"
+      "lv": "ono udaje się"
     },
     "imperfektIndikativ": {
       "de": "es gelang",
-      "lv": "Zadziałało"
+      "lv": "ono udawało się"
     },
     "imperfektKonjunktiv": {
       "de": "es gelänge",
-      "lv": "To by zadziałało"
+      "lv": "ono udawałoby się"
     },
     "partizipVergangenheit": {
       "de": "gelungen (es ist)",
-      "lv": "Udało się"
+      "lv": "udawał się"
     }
   },
   {
     "infinitiv": {
       "de": "gelten",
-      "lv": "Się przydać"
+      "lv": "nadawać się / obowiązywać"
     },
     "praesens": {
       "de": "er gilt",
-      "lv": "On pasuje / jest ważny"
+      "lv": "on nadaje się / obowiązuje"
     },
     "imperfektIndikativ": {
       "de": "er galt",
-      "lv": "On pasował / był sprawny"
+      "lv": "on nadawał się / obowiązywał"
     },
     "imperfektKonjunktiv": {
       "de": "er gölte / es gälte",
-      "lv": "Pasowałby / pasowałoby"
+      "lv": "on nadawałby się / obowiązywałby"
     },
     "partizipVergangenheit": {
       "de": "gegolten",
-      "lv": "Zastosowano/było ważne"
+      "lv": "nadawał się / obowiązywał"
     }
   },
   {
     "infinitiv": {
       "de": "genesen",
-      "lv": "Wyzdrowieć"
+      "lv": "zdrowieć"
     },
     "praesens": {
       "de": "er genest",
-      "lv": "Jego zdrowie się poprawia"
+      "lv": "on zdrowieje"
     },
     "imperfektIndikativ": {
       "de": "er genas",
-      "lv": "Wyzdrowiał"
+      "lv": "on zdrowiał"
     },
     "imperfektKonjunktiv": {
       "de": "er genäse",
-      "lv": "Wyzdrowieje"
+      "lv": "on zdrowiałby"
     },
     "partizipVergangenheit": {
       "de": "genesen (er ist)",
-      "lv": "Wyzdrowieć"
+      "lv": "zdrowiał"
     }
   },
   {
     "infinitiv": {
       "de": "genießen",
-      "lv": "Cieszyć się"
+      "lv": "rozkoszować się"
     },
     "praesens": {
       "de": "er genießt",
-      "lv": "Cieszy się"
+      "lv": "on rozkoszuje się"
     },
     "imperfektIndikativ": {
       "de": "er genoss",
-      "lv": "Cieszył się"
+      "lv": "on rozkoszował się"
     },
     "imperfektKonjunktiv": {
       "de": "er genösse",
-      "lv": "Cieszyłby się"
+      "lv": "on rozkoszowałby się"
     },
     "partizipVergangenheit": {
       "de": "genossen",
-      "lv": "Cieszył się"
+      "lv": "rozkoszował się"
     }
   },
   {
     "infinitiv": {
       "de": "geschehen",
-      "lv": "Stać się"
+      "lv": "zdarzać się"
     },
     "praesens": {
       "de": "es geschieht",
-      "lv": "To się zdarza"
+      "lv": "ono zdarza się"
     },
     "imperfektIndikativ": {
       "de": "es geschah",
-      "lv": "To się stało"
+      "lv": "ono zdarzało się"
     },
     "imperfektKonjunktiv": {
       "de": "es geschähe",
-      "lv": "To by się stało"
+      "lv": "ono zdarzałoby się"
     },
     "partizipVergangenheit": {
       "de": "geschehen (es ist)",
-      "lv": "Się stało"
+      "lv": "zdarzał się"
     }
   },
   {
     "infinitiv": {
       "de": "gießen",
-      "lv": "Porucznik"
+      "lv": "lać"
     },
     "praesens": {
       "de": "er gießt",
-      "lv": "Nalewa"
+      "lv": "on leje"
     },
     "imperfektIndikativ": {
       "de": "er goss",
-      "lv": "Nalał"
+      "lv": "on lał"
     },
     "imperfektKonjunktiv": {
       "de": "er gösse",
-      "lv": "On pada"
+      "lv": "on lałby"
     },
     "partizipVergangenheit": {
       "de": "gegossen",
-      "lv": "Rzecz"
+      "lv": "lany"
     }
   },
   {
     "infinitiv": {
       "de": "gleichen",
-      "lv": "Przypominać"
+      "lv": "przypominać"
     },
     "praesens": {
       "de": "er gleicht",
-      "lv": "On przypomina"
+      "lv": "on przypomina"
     },
     "imperfektIndikativ": {
       "de": "er glich",
-      "lv": "Naśladował"
+      "lv": "on przypominał"
     },
     "imperfektKonjunktiv": {
       "de": "er gliche",
-      "lv": "Naśladowałby"
+      "lv": "on przypominałby"
     },
     "partizipVergangenheit": {
       "de": "geglichen",
-      "lv": "Przypominał"
+      "lv": "przypominał"
     }
   },
   {
     "infinitiv": {
       "de": "gleiten",
-      "lv": "Ślizgać się"
+      "lv": "ślizgać się"
     },
     "praesens": {
       "de": "er gleitet",
-      "lv": "On się ślizga"
+      "lv": "on ślizga się"
     },
     "imperfektIndikativ": {
       "de": "er glitt",
-      "lv": "Ślizgał się"
+      "lv": "on ślizgał się"
     },
     "imperfektKonjunktiv": {
       "de": "er glitte",
-      "lv": "Poślizgnąłby się"
+      "lv": "on ślizgałby się"
     },
     "partizipVergangenheit": {
       "de": "geglitten (er ist)",
-      "lv": "Poślizgnął się"
+      "lv": "ślizgał się"
     }
   },
   {
     "infinitiv": {
       "de": "glimmen",
-      "lv": "Rozjarzony"
+      "lv": "tlić się"
     },
     "praesens": {
       "de": "er glimmt",
-      "lv": "On świeci"
+      "lv": "on tli się"
     },
     "imperfektIndikativ": {
       "de": "er glimmte / glomm",
-      "lv": "On świecił"
+      "lv": "on tlił się"
     },
     "imperfektKonjunktiv": {
       "de": "er glimmte",
-      "lv": "By świecił"
+      "lv": "on tliłby się"
     },
     "partizipVergangenheit": {
       "de": "geglimmt / geglommen",
-      "lv": "Rozjarzony"
+      "lv": "tlił się"
     }
   },
   {
     "infinitiv": {
       "de": "graben",
-      "lv": "Kopać"
+      "lv": "kopać"
     },
     "praesens": {
       "de": "er gräbt",
-      "lv": "On kopie"
+      "lv": "on kopie"
     },
     "imperfektIndikativ": {
       "de": "er grub",
-      "lv": "Kopał"
+      "lv": "on kopał"
     },
     "imperfektKonjunktiv": {
       "de": "er grübe",
-      "lv": "Kopałby"
+      "lv": "on kopałby"
     },
     "partizipVergangenheit": {
       "de": "gegraben",
-      "lv": "Kopać"
+      "lv": "kopany"
     }
   },
   {
     "infinitiv": {
       "de": "greifen",
-      "lv": "Złapać"
+      "lv": "chwytać"
     },
     "praesens": {
       "de": "er greift",
-      "lv": "Łapie"
+      "lv": "on chwyta"
     },
     "imperfektIndikativ": {
       "de": "er griff",
-      "lv": "Złapał"
+      "lv": "on chwytał"
     },
     "imperfektKonjunktiv": {
       "de": "er griffe",
-      "lv": "Złapałby"
+      "lv": "on chwytałby"
     },
     "partizipVergangenheit": {
       "de": "gegriffen",
-      "lv": "Złapany / złapany"
+      "lv": "chwytany"
     }
   },
   {
     "infinitiv": {
       "de": "hauen",
-      "lv": "Ciąć"
+      "lv": "rąbać"
     },
     "praesens": {
       "de": "er haut",
-      "lv": "Wybrał"
+      "lv": "on rąbie"
     },
     "imperfektIndikativ": {
       "de": "er hieb",
-      "lv": "– warknął"
+      "lv": "on rąbał"
     },
     "imperfektKonjunktiv": {
       "de": "er hiebe",
-      "lv": "By rzeźbił"
+      "lv": "on rąbałby"
     },
     "partizipVergangenheit": {
       "de": "gehauen",
-      "lv": "Rzeźbione"
+      "lv": "rąbany"
     }
   },
   {
     "infinitiv": {
       "de": "heben",
-      "lv": "Podnieść"
+      "lv": "podnosić"
     },
     "praesens": {
       "de": "er hebt",
-      "lv": "On podnosi"
+      "lv": "on podnosi"
     },
     "imperfektIndikativ": {
       "de": "er hob",
-      "lv": "Przyniósł"
+      "lv": "on podnosił"
     },
     "imperfektKonjunktiv": {
       "de": "er höbe",
-      "lv": "Zbudowałby"
+      "lv": "on podnosiłby"
     },
     "partizipVergangenheit": {
       "de": "gehoben",
-      "lv": "Wybudowany"
+      "lv": "podnoszony"
     }
   },
   {
     "infinitiv": {
       "de": "kennen",
-      "lv": "Wiedzieć/wiedzieć"
+      "lv": "znać / wiedzieć"
     },
     "praesens": {
       "de": "er kennt",
-      "lv": "On wie"
+      "lv": "on zna / wie"
     },
     "imperfektIndikativ": {
       "de": "kannte",
-      "lv": "Wiedział"
+      "lv": "on znał / wiedział"
     },
     "imperfektKonjunktiv": {
       "de": "kannte",
-      "lv": "Wiedział"
+      "lv": "on znałby / wiedziałby"
     },
     "partizipVergangenheit": {
       "de": "gekannt",
-      "lv": "Znajomy"
+      "lv": "znany / wiedział"
     }
   },
   {
     "infinitiv": {
       "de": "klingen",
-      "lv": "Brzmieć"
+      "lv": "brzmieć"
     },
     "praesens": {
       "de": "er klingt",
-      "lv": "Brzmi"
+      "lv": "on brzmi"
     },
     "imperfektIndikativ": {
       "de": "er klang",
-      "lv": "– brzmiał"
+      "lv": "on brzmiał"
     },
     "imperfektKonjunktiv": {
       "de": "er klänge",
-      "lv": "– zabrzmi"
+      "lv": "on brzmiałby"
     },
     "partizipVergangenheit": {
       "de": "geklungen",
-      "lv": "Brzmiało"
+      "lv": "brzmiał"
     }
   },
   {
     "infinitiv": {
       "de": "kneifen",
-      "lv": "Szczypta"
+      "lv": "szczypać"
     },
     "praesens": {
       "de": "er kneift",
-      "lv": "– żartuje"
+      "lv": "on szczypie"
     },
     "imperfektIndikativ": {
       "de": "er kniff",
-      "lv": "Uszczypnął"
+      "lv": "on szczypał"
     },
     "imperfektKonjunktiv": {
       "de": "er kniffe",
-      "lv": "Uszczypnąłby"
+      "lv": "on szczypałby"
     },
     "partizipVergangenheit": {
       "de": "gekniffen",
-      "lv": "Ściągnięty"
+      "lv": "szczypany"
     }
   },
   {
     "infinitiv": {
       "de": "bleiben",
-      "lv": "Zostawać"
+      "lv": "zostawać"
     },
     "praesens": {
       "de": "er bleibt",
-      "lv": "On zostaje"
+      "lv": "on zostaje"
     },
     "imperfektIndikativ": {
       "de": "er blieb",
-      "lv": "Został"
+      "lv": "on zostawał"
     },
     "imperfektKonjunktiv": {
       "de": "er bliebe",
-      "lv": "Zostałby"
+      "lv": "on zostawałby"
     },
     "partizipVergangenheit": {
       "de": "geblieben (er ist)",
-      "lv": "Lewy"
+      "lv": "zostawał"
     }
   },
   {
     "infinitiv": {
       "de": "bleichen",
-      "lv": "Zbieleć"
+      "lv": "blaknąć"
     },
     "praesens": {
       "de": "er bleicht",
-      "lv": "On wybiela"
+      "lv": "on blaknie"
     },
     "imperfektIndikativ": {
       "de": "blich",
-      "lv": "Bielone"
+      "lv": "on blakł"
     },
     "imperfektKonjunktiv": {
       "de": "blich",
-      "lv": "Bielone"
+      "lv": "on blakłby"
     },
     "partizipVergangenheit": {
       "de": "geblichen",
-      "lv": "Bielone"
+      "lv": "blakł"
     }
   },
   {
     "infinitiv": {
       "de": "braten",
-      "lv": "Piec"
+      "lv": "smażyć"
     },
     "praesens": {
       "de": "er brät",
-      "lv": "On piecze"
+      "lv": "on smaży"
     },
     "imperfektIndikativ": {
       "de": "er briet",
-      "lv": "On piecze"
+      "lv": "on smażył"
     },
     "imperfektKonjunktiv": {
       "de": "er briete",
-      "lv": "Piecze"
+      "lv": "on smażyłby"
     },
     "partizipVergangenheit": {
       "de": "gebraten",
-      "lv": "Smażone / pieczone"
+      "lv": "smażony"
     }
   },
   {
     "infinitiv": {
       "de": "brechen",
-      "lv": "Złamać"
+      "lv": "łamać"
     },
     "praesens": {
       "de": "er bricht",
-      "lv": "On łamie"
+      "lv": "on łamie"
     },
     "imperfektIndikativ": {
       "de": "er brach",
-      "lv": "Złamał się"
+      "lv": "on łamał"
     },
     "imperfektKonjunktiv": {
       "de": "er bräche",
-      "lv": "Złamałby się"
+      "lv": "on łamałby"
     },
     "partizipVergangenheit": {
       "de": "gebrochen",
-      "lv": "Zepsuty/zepsuty"
+      "lv": "łamany"
     }
   },
   {
     "infinitiv": {
       "de": "brennen",
-      "lv": "Spalić"
+      "lv": "palić się"
     },
     "praesens": {
       "de": "er brennt",
-      "lv": "On się pali"
+      "lv": "on pali się"
     },
     "imperfektIndikativ": {
       "de": "brannte",
-      "lv": "Płonął"
+      "lv": "on palił się"
     },
     "imperfektKonjunktiv": {
       "de": "brannte",
-      "lv": "Płonął"
+      "lv": "on paliłby się"
     },
     "partizipVergangenheit": {
       "de": "gebrannt",
-      "lv": "Spalony"
+      "lv": "palił się"
     }
   },
   {
     "infinitiv": {
       "de": "bringen",
-      "lv": "Nosić"
+      "lv": "przynosić"
     },
     "praesens": {
       "de": "er bringt",
-      "lv": "On niesie"
+      "lv": "on przynosi"
     },
     "imperfektIndikativ": {
       "de": "er brachte",
-      "lv": "Niósł"
+      "lv": "on przynosił"
     },
     "imperfektKonjunktiv": {
       "de": "er brächte",
-      "lv": "Niósłby"
+      "lv": "on przynosiłby"
     },
     "partizipVergangenheit": {
       "de": "gebracht",
-      "lv": "Przyniósł / przyniósł"
+      "lv": "przynoszony"
     }
   },
   {
     "infinitiv": {
       "de": "denken",
-      "lv": "Myśleć"
+      "lv": "myśleć"
     },
     "praesens": {
       "de": "er denkt",
-      "lv": "Myśli"
+      "lv": "on myśli"
     },
     "imperfektIndikativ": {
       "de": "er dachte",
-      "lv": "Pomyślał"
+      "lv": "on myślał"
     },
     "imperfektKonjunktiv": {
       "de": "er dächte",
-      "lv": "Pomyślałby"
+      "lv": "on myślałby"
     },
     "partizipVergangenheit": {
       "de": "gedacht",
-      "lv": "Przeznaczony"
+      "lv": "myślał"
     }
   },
   {
     "infinitiv": {
       "de": "dingen",
-      "lv": "Zatrudnić / zgodzić się"
+      "lv": "najmować / umawiać się"
     },
     "praesens": {
       "de": "er dingt",
-      "lv": "On zatrudnia"
+      "lv": "on najmuje / umawia się"
     },
     "imperfektIndikativ": {
       "de": "dingte",
-      "lv": "Zatrudniony"
+      "lv": "on najmował / umawiał się"
     },
     "imperfektKonjunktiv": {
       "de": "dingte",
-      "lv": "Zatrudniony"
+      "lv": "on najmowałby / umawiałby się"
     },
     "partizipVergangenheit": {
       "de": "gedungen",
-      "lv": "Zatrudniony"
+      "lv": "najmowany / umawiał się"
     }
   },
   {
     "infinitiv": {
       "de": "dreschen",
-      "lv": "Kult"
+      "lv": "młócić"
     },
     "praesens": {
       "de": "er drischt",
-      "lv": "On młóci"
+      "lv": "on młóci"
     },
     "imperfektIndikativ": {
       "de": "er drasch / er drosch",
-      "lv": "Młócił się"
+      "lv": "on młócił"
     },
     "imperfektKonjunktiv": {
       "de": "er dräsche / er drösche",
-      "lv": "Będzie wielbił"
+      "lv": "on młóciłby"
     },
     "partizipVergangenheit": {
       "de": "gedroschen",
-      "lv": "Kult"
+      "lv": "młócony"
     }
   },
   {
     "infinitiv": {
       "de": "dringen",
-      "lv": "Włamać się"
+      "lv": "wdzierać się"
     },
     "praesens": {
       "de": "er dringt",
-      "lv": "Włamuje się"
+      "lv": "on wdziera się"
     },
     "imperfektIndikativ": {
       "de": "er drang",
-      "lv": "Włamał się"
+      "lv": "on wdzierał się"
     },
     "imperfektKonjunktiv": {
       "de": "er dränge",
-      "lv": "Włamałby się"
+      "lv": "on wdzierałby się"
     },
     "partizipVergangenheit": {
       "de": "gedrungen (er ist)",
-      "lv": "Włamał się"
+      "lv": "wdzierał się"
     }
   },
   {
     "infinitiv": {
       "de": "dünken",
-      "lv": "Wydaje się"
+      "lv": "zdawać się"
     },
     "praesens": {
       "de": "es dünkt",
-      "lv": "Wydaje się"
+      "lv": "ono zdaje się"
     },
     "imperfektIndikativ": {
       "de": "deuchte",
-      "lv": "Wydawało się"
+      "lv": "ono zdawało się"
     },
     "imperfektKonjunktiv": {
       "de": "deuchte",
-      "lv": "Wydawało się"
+      "lv": "ono zdawałoby się"
     },
     "partizipVergangenheit": {
       "de": "gedünkt",
-      "lv": "Wydawało"
+      "lv": "zdawał się"
     }
   },
   {
     "infinitiv": {
       "de": "dürfen",
-      "lv": "Być dozwolone"
+      "lv": "móc"
     },
     "praesens": {
       "de": "er darf",
-      "lv": "On może"
+      "lv": "on może"
     },
     "imperfektIndikativ": {
       "de": "durfte",
-      "lv": "Było dozwolone"
+      "lv": "on mógł"
     },
     "imperfektKonjunktiv": {
       "de": "durfte",
-      "lv": "Było dozwolone"
+      "lv": "on mógłby"
     },
     "partizipVergangenheit": {
       "de": "gedurft",
-      "lv": "Dozwolony"
+      "lv": "mógł"
     }
   },
   {
     "infinitiv": {
       "de": "empfehlen",
-      "lv": "Polecić"
+      "lv": "polecać"
     },
     "praesens": {
       "de": "er empfiehlt",
-      "lv": "Sugeruje"
+      "lv": "on poleca"
     },
     "imperfektIndikativ": {
       "de": "er empfahl",
-      "lv": "Zasugerował"
+      "lv": "on polecał"
     },
     "imperfektKonjunktiv": {
       "de": "er empfähle / er empföhle",
-      "lv": "Poleciłby"
+      "lv": "on polecałby"
     },
     "partizipVergangenheit": {
       "de": "empfohlen",
-      "lv": "Zalecony"
+      "lv": "polecany"
     }
   },
   {
     "infinitiv": {
       "de": "empfinden",
-      "lv": "Czuć"
+      "lv": "odczuwać"
     },
     "praesens": {
       "de": "er empfindet",
-      "lv": "Czuje"
+      "lv": "on odczuwa"
     },
     "imperfektIndikativ": {
       "de": "er empfand",
-      "lv": "Czuł"
+      "lv": "on odczuwał"
     },
     "imperfektKonjunktiv": {
       "de": "er empfände",
-      "lv": "Czułby"
+      "lv": "on odczuwałby"
     },
     "partizipVergangenheit": {
       "de": "empfunden",
-      "lv": "Filc"
+      "lv": "odczuwany"
     }
   },
   {
     "infinitiv": {
       "de": "erlöschen",
-      "lv": "Zanika"
+      "lv": "gasnąć"
     },
     "praesens": {
       "de": "er erlischt",
-      "lv": "On wychodzi"
+      "lv": "on gaśnie"
     },
     "imperfektIndikativ": {
       "de": "er erlosch",
-      "lv": "Wyszedł"
+      "lv": "on gasł"
     },
     "imperfektKonjunktiv": {
       "de": "er erlösche",
-      "lv": "Zniknie"
+      "lv": "on gasłby"
     },
     "partizipVergangenheit": {
       "de": "erloschen (er ist)",
-      "lv": "Zgasł"
+      "lv": "gasł"
     }
   },
   {
     "infinitiv": {
       "de": "erschrecken",
-      "lv": "Peszyć się"
+      "lv": "przestraszać się"
     },
     "praesens": {
       "de": "er erschrickt",
-      "lv": "On się boi"
+      "lv": "on przestrasza się"
     },
     "imperfektIndikativ": {
       "de": "er erschrak",
-      "lv": "Przestraszył się"
+      "lv": "on przestraszał się"
     },
     "imperfektKonjunktiv": {
       "de": "er erschräke",
-      "lv": "By się przeraził"
+      "lv": "on przestraszałby się"
     },
     "partizipVergangenheit": {
       "de": "erschrocken (er ist)",
-      "lv": "Przestraszony"
+      "lv": "przestraszał się"
     }
   },
   {
     "infinitiv": {
       "de": "essen",
-      "lv": "Jeść"
+      "lv": "jeść"
     },
     "praesens": {
       "de": "er isst",
-      "lv": "On je"
+      "lv": "on je"
     },
     "imperfektIndikativ": {
       "de": "er ass",
-      "lv": "Jadł"
+      "lv": "on jadł"
     },
     "imperfektKonjunktiv": {
       "de": "er äße",
-      "lv": "Zjadłby"
+      "lv": "on jadłby"
     },
     "partizipVergangenheit": {
       "de": "gegessen",
-      "lv": "Zjedzony / zjedzony"
+      "lv": "jedzony"
     }
   },
   {
     "infinitiv": {
       "de": "fahren",
-      "lv": "Prowadzić"
+      "lv": "jechać"
     },
     "praesens": {
       "de": "er fährt",
-      "lv": "On jeździ"
+      "lv": "on jedzie"
     },
     "imperfektIndikativ": {
       "de": "er fuhr",
-      "lv": "On jechał"
+      "lv": "on jechał"
     },
     "imperfektKonjunktiv": {
       "de": "er führe",
-      "lv": "Jeździłby"
+      "lv": "on jechałby"
     },
     "partizipVergangenheit": {
       "de": "gefahren (er ist)",
-      "lv": "Pojechałem/w lewo"
+      "lv": "jechał"
     }
   },
   {
     "infinitiv": {
       "de": "fallen",
-      "lv": "Upaść"
+      "lv": "padać"
     },
     "praesens": {
       "de": "er fällt",
-      "lv": "On upada"
+      "lv": "on pada"
     },
     "imperfektIndikativ": {
       "de": "er fiel",
-      "lv": "Upadł"
+      "lv": "on padał"
     },
     "imperfektKonjunktiv": {
       "de": "er fiele",
-      "lv": "Upadłby"
+      "lv": "on padałby"
     },
     "partizipVergangenheit": {
       "de": "gefallen (er ist)",
-      "lv": "Ściąć"
+      "lv": "padał"
     }
   },
   {
     "infinitiv": {
       "de": "fangen",
-      "lv": "Złapać"
+      "lv": "łapać"
     },
     "praesens": {
       "de": "er fängt",
-      "lv": "Łapie"
+      "lv": "on łapie"
     },
     "imperfektIndikativ": {
       "de": "er fing",
-      "lv": "Złapał"
+      "lv": "on łapał"
     },
     "imperfektKonjunktiv": {
       "de": "er finge",
-      "lv": "Złapałby"
+      "lv": "on łapałby"
     },
     "partizipVergangenheit": {
       "de": "gefangen",
-      "lv": "Złapany / złapany"
+      "lv": "łapany"
     }
   },
   {
     "infinitiv": {
       "de": "finden",
-      "lv": "Znaleźć"
+      "lv": "znajdować"
     },
     "praesens": {
       "de": "er findet",
-      "lv": "Znajduje"
+      "lv": "on znajduje"
     },
     "imperfektIndikativ": {
       "de": "er fand",
-      "lv": "Znalazł"
+      "lv": "on znajdował"
     },
     "imperfektKonjunktiv": {
       "de": "er fände",
-      "lv": "Znalazłby"
+      "lv": "on znajdowałby"
     },
     "partizipVergangenheit": {
       "de": "gefunden",
-      "lv": "Znaleziony"
+      "lv": "znajdowany"
     }
   },
   {
     "infinitiv": {
       "de": "fliegen",
-      "lv": "Puścić"
+      "lv": "latać"
     },
     "praesens": {
       "de": "er fliegt",
-      "lv": "On leci"
+      "lv": "on lata"
     },
     "imperfektIndikativ": {
       "de": "er flog",
-      "lv": "Poleciał"
+      "lv": "on latał"
     },
     "imperfektKonjunktiv": {
       "de": "er flöge",
-      "lv": "Latałby"
+      "lv": "on latałby"
     },
     "partizipVergangenheit": {
       "de": "geflogen (er ist)",
-      "lv": "Poleciał"
+      "lv": "latał"
     }
   },
   {
     "infinitiv": {
       "de": "fliehen",
-      "lv": "Uciec"
+      "lv": "uciekać"
     },
     "praesens": {
       "de": "er flieht",
-      "lv": "Ucieka"
+      "lv": "on ucieka"
     },
     "imperfektIndikativ": {
       "de": "er floh",
-      "lv": "Uciekł"
+      "lv": "on uciekał"
     },
     "imperfektKonjunktiv": {
       "de": "er flöhe",
-      "lv": "Uciekłby"
+      "lv": "on uciekałby"
     },
     "partizipVergangenheit": {
       "de": "geflohen (er ist)",
-      "lv": "Uciekł"
+      "lv": "uciekał"
     }
   },
   {
     "infinitiv": {
       "de": "fließen",
-      "lv": "Płynąć"
+      "lv": "płynąć"
     },
     "praesens": {
       "de": "er fließt",
-      "lv": "On biegnie"
+      "lv": "on płynie"
     },
     "imperfektIndikativ": {
       "de": "er floss",
-      "lv": "Pobiegł"
+      "lv": "on płynął"
     },
     "imperfektKonjunktiv": {
       "de": "er flösse",
-      "lv": "Pobiegłby"
+      "lv": "on płynąłby"
     },
     "partizipVergangenheit": {
       "de": "geflossen (er ist)",
-      "lv": "Przeszedł"
+      "lv": "płynął"
     }
   },
   {
     "infinitiv": {
       "de": "fressen",
-      "lv": "Zjeść jutro"
+      "lv": "jeść / żreć"
     },
     "praesens": {
       "de": "er frisst",
-      "lv": "Je / połyka"
+      "lv": "on je / żre"
     },
     "imperfektIndikativ": {
       "de": "er frass",
-      "lv": "Zjadł / połknął"
+      "lv": "on jadł / żarł"
     },
     "imperfektKonjunktiv": {
       "de": "er fräße",
-      "lv": "Jadł/śniadanie"
+      "lv": "on jadłby / żarłby"
     },
     "partizipVergangenheit": {
       "de": "gefressen",
-      "lv": "Zjedzone/rano"
+      "lv": "jedzony / żarty"
     }
   },
   {
     "infinitiv": {
       "de": "frieren",
-      "lv": "Zimno"
+      "lv": "marznąć"
     },
     "praesens": {
       "de": "er friert",
-      "lv": "On marznie"
+      "lv": "on marznie"
     },
     "imperfektIndikativ": {
       "de": "er fror",
-      "lv": "On wyspa"
+      "lv": "on marzł"
     },
     "imperfektKonjunktiv": {
       "de": "er fröre",
-      "lv": "Zmarzł"
+      "lv": "on marzłby"
     },
     "partizipVergangenheit": {
       "de": "gefroren",
-      "lv": "Wyspa"
+      "lv": "marzł"
     }
   },
   {
     "infinitiv": {
       "de": "geben",
-      "lv": "Dać"
+      "lv": "dawać"
     },
     "praesens": {
       "de": "er gibt",
-      "lv": "On daje"
+      "lv": "on daje"
     },
     "imperfektIndikativ": {
       "de": "er gab",
-      "lv": "Dał"
+      "lv": "on dawał"
     },
     "imperfektKonjunktiv": {
       "de": "er gäbe",
-      "lv": "Dałby"
+      "lv": "on dawałby"
     },
     "partizipVergangenheit": {
       "de": "gegeben",
-      "lv": "Dany"
+      "lv": "dawany"
     }
   },
   {
     "infinitiv": {
       "de": "gedeihen",
-      "lv": "Odnieść sukces"
+      "lv": "rozwijać się"
     },
     "praesens": {
       "de": "er gedeiht",
-      "lv": "Udaje mu się"
+      "lv": "on rozwija się"
     },
     "imperfektIndikativ": {
       "de": "er gedieh",
-      "lv": "Udało mu się"
+      "lv": "on rozwijał się"
     },
     "imperfektKonjunktiv": {
       "de": "er gediehe",
-      "lv": "By mu się to udało"
+      "lv": "on rozwijałby się"
     },
     "partizipVergangenheit": {
       "de": "gediehen (er ist)",
-      "lv": "Udało się"
+      "lv": "rozwijał się"
     }
   },
   {
     "infinitiv": {
       "de": "gehen",
-      "lv": "Iść"
+      "lv": "iść"
     },
     "praesens": {
       "de": "er geht",
-      "lv": "On idzie"
+      "lv": "on idzie"
     },
     "imperfektIndikativ": {
       "de": "er ging",
-      "lv": "Chodził"
+      "lv": "on szedł"
     },
     "imperfektKonjunktiv": {
       "de": "er ginge",
-      "lv": "Poszedłby"
+      "lv": "on szedłby"
     },
     "partizipVergangenheit": {
       "de": "gegangen (er ist)",
-      "lv": "Wszedł"
+      "lv": "szedł"
     }
   },
   {
     "infinitiv": {
       "de": "gewinnen",
-      "lv": "Uzyskać"
+      "lv": "zdobywać"
     },
     "praesens": {
       "de": "er gewinnt",
-      "lv": "Dostaje"
+      "lv": "on zdobywa"
     },
     "imperfektIndikativ": {
       "de": "er gewann",
-      "lv": "Dostał"
+      "lv": "on zdobywał"
     },
     "imperfektKonjunktiv": {
       "de": "er gewönne / er gewänne",
-      "lv": "Dostałby"
+      "lv": "on zdobywałby"
     },
     "partizipVergangenheit": {
       "de": "gewonnen",
-      "lv": "Uzyskany"
+      "lv": "zdobywany"
     }
   },
   {
     "infinitiv": {
       "de": "haben",
-      "lv": "Być/należeć"
+      "lv": "mieć"
     },
     "praesens": {
       "de": "er hat",
-      "lv": "On ma"
+      "lv": "on ma"
     },
     "imperfektIndikativ": {
       "de": "hatte",
-      "lv": "Był"
+      "lv": "on miał"
     },
     "imperfektKonjunktiv": {
       "de": "hatte",
-      "lv": "Był"
+      "lv": "on miałby"
     },
     "partizipVergangenheit": {
       "de": "gehabt",
-      "lv": "Został"
+      "lv": "miał"
     }
   },
   {
     "infinitiv": {
       "de": "halten",
-      "lv": "Trzymać"
+      "lv": "trzymać"
     },
     "praesens": {
       "de": "er hält",
-      "lv": "On tam"
+      "lv": "on trzyma"
     },
     "imperfektIndikativ": {
       "de": "er hielt",
-      "lv": "Trzymał"
+      "lv": "on trzymał"
     },
     "imperfektKonjunktiv": {
       "de": "er hielte",
-      "lv": "By trzymał"
+      "lv": "on trzymałby"
     },
     "partizipVergangenheit": {
       "de": "gehalten",
-      "lv": "Trzymany"
+      "lv": "trzymany"
     }
   },
   {
     "infinitiv": {
       "de": "heißen",
-      "lv": "Zadzwonić"
+      "lv": "nazywać / nazywać się"
     },
     "praesens": {
       "de": "er heißt",
-      "lv": "On dzwoni / jest wzywany"
+      "lv": "on nazywa / nazywa się"
     },
     "imperfektIndikativ": {
       "de": "er hieß",
-      "lv": "Zadzwonił / został wezwany"
+      "lv": "on nazywał / nazywał się"
     },
     "imperfektKonjunktiv": {
       "de": "er hieße",
-      "lv": "On by zadzwonił/zostałby wezwany"
+      "lv": "on nazywałby / nazywałby się"
     },
     "partizipVergangenheit": {
       "de": "geheißen",
-      "lv": "Zwany"
+      "lv": "nazywany / nazywał się"
     }
   },
   {
     "infinitiv": {
       "de": "helfen",
-      "lv": "Pomóc"
+      "lv": "pomagać"
     },
     "praesens": {
       "de": "er hilft",
-      "lv": "On pomaga"
+      "lv": "on pomaga"
     },
     "imperfektIndikativ": {
       "de": "er half",
-      "lv": "Pomógł"
+      "lv": "on pomagał"
     },
     "imperfektKonjunktiv": {
       "de": "er hülfe / er hälfe",
-      "lv": "On by pomógł"
+      "lv": "on pomagałby"
     },
     "partizipVergangenheit": {
       "de": "geholfen",
-      "lv": "Pomogło"
+      "lv": "pomagał"
     }
   },
   {
     "infinitiv": {
       "de": "kommen",
-      "lv": "Przyjść"
+      "lv": "przychodzić"
     },
     "praesens": {
       "de": "er kommt",
-      "lv": "On nadchodzi"
+      "lv": "on przychodzi"
     },
     "imperfektIndikativ": {
       "de": "er kam",
-      "lv": "Przyszedł"
+      "lv": "on przychodził"
     },
     "imperfektKonjunktiv": {
       "de": "er käme",
-      "lv": "Przyjdzie"
+      "lv": "on przychodziłby"
     },
     "partizipVergangenheit": {
       "de": "gekommen (er ist)",
-      "lv": "Nadszedł"
+      "lv": "przychodził"
     }
   },
   {
     "infinitiv": {
       "de": "können",
-      "lv": "Móc"
+      "lv": "móc"
     },
     "praesens": {
       "de": "er kann",
-      "lv": "On może"
+      "lv": "on może"
     },
     "imperfektIndikativ": {
       "de": "konnte",
-      "lv": "Mógł"
+      "lv": "on mógł"
     },
     "imperfektKonjunktiv": {
       "de": "konnte",
-      "lv": "Mógł"
+      "lv": "on mógłby"
     },
     "partizipVergangenheit": {
       "de": "gekonnt",
-      "lv": "Mógł"
+      "lv": "mógł"
     }
   },
   {
     "infinitiv": {
       "de": "kriechen",
-      "lv": "Pada deszcz"
+      "lv": "pełzać"
     },
     "praesens": {
       "de": "er kriecht",
-      "lv": "On się pochyla"
+      "lv": "on pełza"
     },
     "imperfektIndikativ": {
       "de": "er kroch",
-      "lv": "Padał deszcz"
+      "lv": "on pełzał"
     },
     "imperfektKonjunktiv": {
       "de": "er kröche",
-      "lv": "On pada"
+      "lv": "on pełzałby"
     },
     "partizipVergangenheit": {
       "de": "gekrochen (er ist)",
-      "lv": "Zmarł"
+      "lv": "pełzał"
     }
   },
   {
     "infinitiv": {
       "de": "laden",
-      "lv": "Załadować, zaprosić"
+      "lv": "ładować / zapraszać"
     },
     "praesens": {
       "de": "er lädt",
-      "lv": "On gromadzi / zaprasza"
+      "lv": "on ładuje / zaprasza"
     },
     "imperfektIndikativ": {
       "de": "er lud",
-      "lv": "Załadował / zaprosił"
+      "lv": "on ładował / zapraszał"
     },
     "imperfektKonjunktiv": {
       "de": "er lüde",
-      "lv": "Ładował/zapraszał"
+      "lv": "on ładowałby / zapraszałby"
     },
     "partizipVergangenheit": {
       "de": "geladen",
-      "lv": "Załadowany / zaproszony"
+      "lv": "ładowany / zapraszany"
     }
   },
   {
     "infinitiv": {
       "de": "lassen",
-      "lv": "Postawić, pozwolić"
+      "lv": "kazać / pozwalać"
     },
     "praesens": {
       "de": "er lässt",
-      "lv": "On stawia / pozwala"
+      "lv": "on każe / pozwala"
     },
     "imperfektIndikativ": {
       "de": "er ließ",
-      "lv": "Nakazał / pozwolił"
+      "lv": "on kazał / pozwalał"
     },
     "imperfektKonjunktiv": {
       "de": "er ließe",
-      "lv": "Położyłby / pozwolił"
+      "lv": "on kazałby / pozwalałby"
     },
     "partizipVergangenheit": {
       "de": "gelassen",
-      "lv": "Umieścić / pozwolić"
+      "lv": "kazał / pozwalał"
     }
   },
   {
     "infinitiv": {
       "de": "laufen",
-      "lv": "Biegać"
+      "lv": "biec"
     },
     "praesens": {
       "de": "er läuft",
-      "lv": "On biega"
+      "lv": "on biegnie"
     },
     "imperfektIndikativ": {
       "de": "er lief",
-      "lv": "Pobiegł"
+      "lv": "on biegł"
     },
     "imperfektKonjunktiv": {
       "de": "er liefe",
-      "lv": "Pobiegłby"
+      "lv": "on biegłby"
     },
     "partizipVergangenheit": {
       "de": "gelaufen (er ist)",
-      "lv": "Pobiegł"
+      "lv": "biegł"
     }
   },
   {
     "infinitiv": {
       "de": "leiden",
-      "lv": "Cierpieć"
+      "lv": "cierpieć"
     },
     "praesens": {
       "de": "er leidet",
-      "lv": "On cierpi"
+      "lv": "on cierpi"
     },
     "imperfektIndikativ": {
       "de": "er litt",
-      "lv": "Cierpiał"
+      "lv": "on cierpiał"
     },
     "imperfektKonjunktiv": {
       "de": "er litte",
-      "lv": "Cierpiałby"
+      "lv": "on cierpiałby"
     },
     "partizipVergangenheit": {
       "de": "gelitten",
-      "lv": "Cierpiał"
+      "lv": "cierpiał"
     }
   },
   {
     "infinitiv": {
       "de": "leihen",
-      "lv": "Pożyczać / pożyczać"
+      "lv": "pożyczać"
     },
     "praesens": {
       "de": "er leiht",
-      "lv": "Pożycza / pożycza"
+      "lv": "on pożycza"
     },
     "imperfektIndikativ": {
       "de": "er lieh",
-      "lv": "Pożyczył / pożyczył"
+      "lv": "on pożyczał"
     },
     "imperfektKonjunktiv": {
       "de": "er liehe",
-      "lv": "Pożyczyłby/pożyczył"
+      "lv": "on pożyczałby"
     },
     "partizipVergangenheit": {
       "de": "geliehen",
-      "lv": "Pożyczył/pożyczył"
+      "lv": "pożyczany"
     }
   },
   {
     "infinitiv": {
       "de": "lesen",
-      "lv": "Czytać"
+      "lv": "czytać"
     },
     "praesens": {
       "de": "er liest",
-      "lv": "On czyta"
+      "lv": "on czyta"
     },
     "imperfektIndikativ": {
       "de": "er las",
-      "lv": "Czytał"
+      "lv": "on czytał"
     },
     "imperfektKonjunktiv": {
       "de": "er läse",
-      "lv": "Przeczytałby"
+      "lv": "on czytałby"
     },
     "partizipVergangenheit": {
       "de": "gelesen",
-      "lv": "Czytać"
+      "lv": "czytany"
     }
   },
   {
     "infinitiv": {
       "de": "liegen",
-      "lv": "Spać"
+      "lv": "leżeć"
     },
     "praesens": {
       "de": "er liegt",
-      "lv": "On śpi"
+      "lv": "on leży"
     },
     "imperfektIndikativ": {
       "de": "er lag",
-      "lv": "Spał"
+      "lv": "on leżał"
     },
     "imperfektKonjunktiv": {
       "de": "er läge",
-      "lv": "Spałby"
+      "lv": "on leżałby"
     },
     "partizipVergangenheit": {
       "de": "gelegen",
-      "lv": "Spał"
+      "lv": "leżał"
     }
   },
   {
     "infinitiv": {
       "de": "lügen",
-      "lv": "Kłamać"
+      "lv": "kłamać"
     },
     "praesens": {
       "de": "er lügt",
-      "lv": "On kłamie"
+      "lv": "on kłamie"
     },
     "imperfektIndikativ": {
       "de": "er log",
-      "lv": "Skłamał"
+      "lv": "on kłamał"
     },
     "imperfektKonjunktiv": {
       "de": "er löge",
-      "lv": "Skłamałby"
+      "lv": "on kłamałby"
     },
     "partizipVergangenheit": {
       "de": "gelogen",
-      "lv": "Okłamał"
+      "lv": "kłamał"
     }
   },
   {
     "infinitiv": {
       "de": "mahlen",
-      "lv": "Grunt"
+      "lv": "mleć"
     },
     "praesens": {
       "de": "er mahlt",
-      "lv": "On miele"
+      "lv": "on miele"
     },
     "imperfektIndikativ": {
       "de": "er mahlte",
-      "lv": "On krawędź"
+      "lv": "on mełł"
     },
     "imperfektKonjunktiv": {
       "de": "er malte",
-      "lv": "On miele"
+      "lv": "on mełłby"
     },
     "partizipVergangenheit": {
       "de": "gemahlen",
-      "lv": "Grunt"
+      "lv": "mielony"
     }
   },
   {
     "infinitiv": {
       "de": "meiden",
-      "lv": "Unikać"
+      "lv": "unikać"
     },
     "praesens": {
       "de": "er meidet",
-      "lv": "Unika"
+      "lv": "on unika"
     },
     "imperfektIndikativ": {
       "de": "er mied",
-      "lv": "Unikał"
+      "lv": "on unikał"
     },
     "imperfektKonjunktiv": {
       "de": "er miede",
-      "lv": "Unikałby"
+      "lv": "on unikałby"
     },
     "partizipVergangenheit": {
       "de": "gemieden",
-      "lv": "Uniknąć"
+      "lv": "unikany"
     }
   },
   {
     "infinitiv": {
       "de": "melken",
-      "lv": "Do mleka"
+      "lv": "doić"
     },
     "praesens": {
       "de": "er milkt / er melkt",
-      "lv": "Zamiata"
+      "lv": "on doi"
     },
     "imperfektIndikativ": {
       "de": "er molk / er melkte",
-      "lv": "Zamiatał"
+      "lv": "on doił"
     },
     "imperfektKonjunktiv": {
       "de": "er mölke / er melkte",
-      "lv": "Doił"
+      "lv": "on doiłby"
     },
     "partizipVergangenheit": {
       "de": "gemolken / gemelkt",
-      "lv": "Dojone"
+      "lv": "dojony"
     }
   },
   {
     "infinitiv": {
       "de": "messen",
-      "lv": "Zmierzyć"
+      "lv": "mierzyć"
     },
     "praesens": {
       "de": "er misst",
-      "lv": "On mierzy"
+      "lv": "on mierzy"
     },
     "imperfektIndikativ": {
       "de": "er mass",
-      "lv": "Zmierzył"
+      "lv": "on mierzył"
     },
     "imperfektKonjunktiv": {
       "de": "er mäße",
-      "lv": "By zmierzył"
+      "lv": "on mierzyłby"
     },
     "partizipVergangenheit": {
       "de": "gemessen",
-      "lv": "Wymierzony"
+      "lv": "mierzony"
     }
   },
   {
     "infinitiv": {
       "de": "misslingen",
-      "lv": "Ponieść porażkę"
+      "lv": "nie udawać się"
     },
     "praesens": {
       "de": "es misslingt",
-      "lv": "To zawodzi"
+      "lv": "ono nie udaje się"
     },
     "imperfektIndikativ": {
       "de": "misslang",
-      "lv": "Przegrany"
+      "lv": "ono nie udawało się"
     },
     "imperfektKonjunktiv": {
       "de": "misslang",
-      "lv": "Przegrany"
+      "lv": "ono nie udawałoby się"
     },
     "partizipVergangenheit": {
       "de": "misslungen",
-      "lv": "Przegrany"
+      "lv": "nie udawał się"
     }
   },
   {
     "infinitiv": {
       "de": "mögen",
-      "lv": "Lubić"
+      "lv": "lubić"
     },
     "praesens": {
       "de": "er mag",
-      "lv": "On lubi"
+      "lv": "on lubi"
     },
     "imperfektIndikativ": {
       "de": "mochte",
-      "lv": "Podobało się"
+      "lv": "on lubił"
     },
     "imperfektKonjunktiv": {
       "de": "mochte",
-      "lv": "Podobało się"
+      "lv": "on lubiłby"
     },
     "partizipVergangenheit": {
       "de": "gemocht",
-      "lv": "Podobało się"
+      "lv": "lubiany"
     }
   },
   {
     "infinitiv": {
       "de": "müssen",
-      "lv": "Potrzebować"
+      "lv": "musieć"
     },
     "praesens": {
       "de": "er muss",
-      "lv": "Potrzebuje"
+      "lv": "on musi"
     },
     "imperfektIndikativ": {
       "de": "musste",
-      "lv": "Powinien mieć"
+      "lv": "on musiał"
     },
     "imperfektKonjunktiv": {
       "de": "musste",
-      "lv": "Powinien mieć"
+      "lv": "on musiałby"
     },
     "partizipVergangenheit": {
       "de": "gemusst",
-      "lv": "Wymagany"
+      "lv": "musiał"
     }
   },
   {
     "infinitiv": {
       "de": "nehmen",
-      "lv": "Wziąć"
+      "lv": "brać"
     },
     "praesens": {
       "de": "er nimmt",
-      "lv": "Bierze"
+      "lv": "on bierze"
     },
     "imperfektIndikativ": {
       "de": "er nahm",
-      "lv": "Wziął"
+      "lv": "on brał"
     },
     "imperfektKonjunktiv": {
       "de": "er nähme",
-      "lv": "Wziąłby"
+      "lv": "on brałby"
     },
     "partizipVergangenheit": {
       "de": "genommen",
-      "lv": "Zajęty"
+      "lv": "brany"
     }
   },
   {
     "infinitiv": {
       "de": "nennen",
-      "lv": "Nazwać"
+      "lv": "nazywać"
     },
     "praesens": {
       "de": "er nennt",
-      "lv": "Nazwał"
+      "lv": "on nazywa"
     },
     "imperfektIndikativ": {
       "de": "er nannte",
-      "lv": "Zadzwonił"
+      "lv": "on nazywał"
     },
     "imperfektKonjunktiv": {
       "de": "er nennte",
-      "lv": "Wymieniłby"
+      "lv": "on nazywałby"
     },
     "partizipVergangenheit": {
       "de": "genannt",
-      "lv": "Nazwany"
+      "lv": "nazywany"
     }
   },
   {
     "infinitiv": {
       "de": "pfeifen",
-      "lv": "Gwizdać"
+      "lv": "gwizdać"
     },
     "praesens": {
       "de": "er pfeift",
-      "lv": "On gwiżdże"
+      "lv": "on gwiżdże"
     },
     "imperfektIndikativ": {
       "de": "er pfiff",
-      "lv": "– gwizdnął"
+      "lv": "on gwizdał"
     },
     "imperfektKonjunktiv": {
       "de": "er pfiffe",
-      "lv": "Gwizdnąłby"
+      "lv": "on gwizdałby"
     },
     "partizipVergangenheit": {
       "de": "gepfiffen",
-      "lv": "Gwizdnął"
+      "lv": "gwizdał"
     }
   },
   {
     "infinitiv": {
       "de": "pflegen",
-      "lv": "Utrzymywać"
+      "lv": "pielęgnować"
     },
     "praesens": {
       "de": "er pflegt",
-      "lv": "Mu zależy"
+      "lv": "on pielęgnuje"
     },
     "imperfektIndikativ": {
       "de": "pflegte / pflog",
-      "lv": "Ustawić"
+      "lv": "on pielęgnował"
     },
     "imperfektKonjunktiv": {
       "de": "pflegte / pflog",
-      "lv": "Ustawić"
+      "lv": "on pielęgnowałby"
     },
     "partizipVergangenheit": {
       "de": "gepflegt / gepflogen",
-      "lv": "Zadbane"
+      "lv": "pielęgnowany"
     }
   },
   {
     "infinitiv": {
       "de": "preisen",
-      "lv": "Pochwała"
+      "lv": "chwalić"
     },
     "praesens": {
       "de": "er preist",
-      "lv": "– chwali"
+      "lv": "on chwali"
     },
     "imperfektIndikativ": {
       "de": "er pries",
-      "lv": "– pochwalił"
+      "lv": "on chwalił"
     },
     "imperfektKonjunktiv": {
       "de": "er priese",
-      "lv": "Pochwaliłby"
+      "lv": "on chwaliłby"
     },
     "partizipVergangenheit": {
       "de": "gepriesen",
-      "lv": "Chwalony"
+      "lv": "chwalony"
     }
   },
   {
     "infinitiv": {
       "de": "quellen",
-      "lv": "Pulchnieć"
+      "lv": "pęcznieć"
     },
     "praesens": {
       "de": "er quillt",
-      "lv": "On przybiera na wadze"
+      "lv": "on pęcznieje"
     },
     "imperfektIndikativ": {
       "de": "er quoll",
-      "lv": "Dojrzał"
+      "lv": "on pęczniał"
     },
     "imperfektKonjunktiv": {
       "de": "er quölle",
-      "lv": "On gruby"
+      "lv": "on pęczniałby"
     },
     "partizipVergangenheit": {
       "de": "gequollen (er ist)",
-      "lv": "Spuchnięty"
+      "lv": "pęczniał"
     }
   },
   {
     "infinitiv": {
       "de": "raten",
-      "lv": "Zasugerować/wspomnieć"
+      "lv": "radzić / zgadywać"
     },
     "praesens": {
       "de": "er rät",
-      "lv": "Poleca /min"
+      "lv": "on radzi / zgaduje"
     },
     "imperfektIndikativ": {
       "de": "er riet",
-      "lv": "Zasugerował / zasugerował"
+      "lv": "on radził / zgadywał"
     },
     "imperfektKonjunktiv": {
       "de": "er riete",
-      "lv": "Zasugerowałby/wspomniał"
+      "lv": "on radziłby / zgadywałby"
     },
     "partizipVergangenheit": {
       "de": "geraten",
-      "lv": "Zasugerowane/wspomniane"
+      "lv": "radził / zgadywany"
     }
   },
   {
     "infinitiv": {
       "de": "reiben",
-      "lv": "Pocierać"
+      "lv": "trzeć"
     },
     "praesens": {
       "de": "er reibt",
-      "lv": "On pociera"
+      "lv": "on trze"
     },
     "imperfektIndikativ": {
       "de": "er rieb",
-      "lv": "On pociera"
+      "lv": "on tarł"
     },
     "imperfektKonjunktiv": {
       "de": "er riebe",
-      "lv": "Pocierałby"
+      "lv": "on tarłby"
     },
     "partizipVergangenheit": {
       "de": "gerieben",
-      "lv": "Pocierany"
+      "lv": "tarty"
     }
   },
   {
     "infinitiv": {
       "de": "reißen",
-      "lv": "Ciągnąć"
+      "lv": "rwać"
     },
     "praesens": {
       "de": "er reißt",
-      "lv": "– warczy"
+      "lv": "on rwie"
     },
     "imperfektIndikativ": {
       "de": "er riss",
-      "lv": "– warknął"
+      "lv": "on rwał"
     },
     "imperfektKonjunktiv": {
       "de": "er risse",
-      "lv": "– warknął"
+      "lv": "on rwałby"
     },
     "partizipVergangenheit": {
       "de": "gerissen",
-      "lv": "Rozdarty"
+      "lv": "rwany"
     }
   },
   {
     "infinitiv": {
       "de": "reiten",
-      "lv": "Jeździć"
+      "lv": "jeździć konno"
     },
     "praesens": {
       "de": "er reitet",
-      "lv": "On jeździ"
+      "lv": "on jeździ konno"
     },
     "imperfektIndikativ": {
       "de": "er ritt",
-      "lv": "Jechał"
+      "lv": "on jeździł konno"
     },
     "imperfektKonjunktiv": {
       "de": "er ritte",
-      "lv": "Jeździłby"
+      "lv": "on jeździłby konno"
     },
     "partizipVergangenheit": {
       "de": "geritten (er ist)",
-      "lv": "Jechał"
+      "lv": "jeździł konno"
     }
   },
   {
     "infinitiv": {
       "de": "rennen",
-      "lv": "Biegać"
+      "lv": "biegać"
     },
     "praesens": {
       "de": "er rennt",
-      "lv": "On biega"
+      "lv": "on biega"
     },
     "imperfektIndikativ": {
       "de": "er rannte",
-      "lv": "Pobiegł"
+      "lv": "on biegał"
     },
     "imperfektKonjunktiv": {
       "de": "er rennte",
-      "lv": "Pobiegłby"
+      "lv": "on biegałby"
     },
     "partizipVergangenheit": {
       "de": "gerannt",
-      "lv": "Pobiegł"
+      "lv": "biegał"
     }
   },
   {
     "infinitiv": {
       "de": "riechen",
-      "lv": "Ost"
+      "lv": "wąchać"
     },
     "praesens": {
       "de": "er riecht",
-      "lv": "On pachnie"
+      "lv": "on wącha"
     },
     "imperfektIndikativ": {
       "de": "er roch",
-      "lv": "On śpiewa"
+      "lv": "on wąchał"
     },
     "imperfektKonjunktiv": {
       "de": "er röche",
-      "lv": "On portuje"
+      "lv": "on wąchałby"
     },
     "partizipVergangenheit": {
       "de": "gerochen",
-      "lv": "Port"
+      "lv": "wąchany"
     }
   },
   {
     "infinitiv": {
       "de": "ringen",
-      "lv": "Złamać"
+      "lv": "zmagać się"
     },
     "praesens": {
       "de": "er ringt",
-      "lv": "On łamie"
+      "lv": "on zmaga się"
     },
     "imperfektIndikativ": {
       "de": "er rang",
-      "lv": "Załamał się"
+      "lv": "on zmagał się"
     },
     "imperfektKonjunktiv": {
       "de": "er ränge",
-      "lv": "Złamałby się"
+      "lv": "on zmagałby się"
     },
     "partizipVergangenheit": {
       "de": "gerungen",
-      "lv": "Czekać"
+      "lv": "zmagał się"
     }
   },
   {
     "infinitiv": {
       "de": "rinnen",
-      "lv": "Płynąć"
+      "lv": "ciec"
     },
     "praesens": {
       "de": "er rinnt",
-      "lv": "On biegnie"
+      "lv": "on cieknie"
     },
     "imperfektIndikativ": {
       "de": "er rann",
-      "lv": "Pobiegł"
+      "lv": "on ciekł"
     },
     "imperfektKonjunktiv": {
       "de": "er ränne / er rönne",
-      "lv": "Pobiegłby"
+      "lv": "on ciekłby"
     },
     "partizipVergangenheit": {
       "de": "geronnen (er ist)",
-      "lv": "Płynął/koagulował"
+      "lv": "ciekł"
     }
   },
   {
     "infinitiv": {
       "de": "rufen",
-      "lv": "Zadzwonić"
+      "lv": "wołać"
     },
     "praesens": {
       "de": "er ruft",
-      "lv": "On dzwoni"
+      "lv": "on woła"
     },
     "imperfektIndikativ": {
       "de": "er rief",
-      "lv": "Zadzwonił"
+      "lv": "on wołał"
     },
     "imperfektKonjunktiv": {
       "de": "er riefe",
-      "lv": "Zadzwoniłby"
+      "lv": "on wołałby"
     },
     "partizipVergangenheit": {
       "de": "gerufen",
-      "lv": "Zwany"
+      "lv": "wołany"
     }
   },
   {
     "infinitiv": {
       "de": "salzen",
-      "lv": "Do soli"
+      "lv": "solić"
     },
     "praesens": {
       "de": "er salzt",
-      "lv": "Posolił"
+      "lv": "on soli"
     },
     "imperfektIndikativ": {
       "de": "er salzte",
-      "lv": "Posolił"
+      "lv": "on solił"
     },
     "imperfektKonjunktiv": {
       "de": "er salzte",
-      "lv": "Soliłby"
+      "lv": "on soliłby"
     },
     "partizipVergangenheit": {
       "de": "gesalzen",
-      "lv": "Posolony"
+      "lv": "solony"
     }
   },
   {
     "infinitiv": {
       "de": "saufen",
-      "lv": "Wysuszyć / wypić"
+      "lv": "chlać / pić"
     },
     "praesens": {
       "de": "er säuft",
-      "lv": "On pije/pije"
+      "lv": "on chla / pije"
     },
     "imperfektIndikativ": {
       "de": "er soff",
-      "lv": "Pił / pił"
+      "lv": "on chlał / pił"
     },
     "imperfektKonjunktiv": {
       "de": "er söffe",
-      "lv": "Piłby/pił"
+      "lv": "on chlałby / piłby"
     },
     "partizipVergangenheit": {
       "de": "gesoffen",
-      "lv": "Pijany"
+      "lv": "chlał / pity"
     }
   },
   {
     "infinitiv": {
       "de": "saugen",
-      "lv": "Ssać"
+      "lv": "ssać"
     },
     "praesens": {
       "de": "er saugt",
-      "lv": "On jest do bani"
+      "lv": "on ssie"
     },
     "imperfektIndikativ": {
       "de": "er sog",
-      "lv": "Ssał"
+      "lv": "on ssał"
     },
     "imperfektKonjunktiv": {
       "de": "er söge",
-      "lv": "By ssał"
+      "lv": "on ssałby"
     },
     "partizipVergangenheit": {
       "de": "gesogen",
-      "lv": "Ssane"
+      "lv": "ssany"
     }
   },
   {
     "infinitiv": {
       "de": "schaffen",
-      "lv": "Stworzyć"
+      "lv": "tworzyć"
     },
     "praesens": {
       "de": "er schafft",
-      "lv": "On tworzy"
+      "lv": "on tworzy"
     },
     "imperfektIndikativ": {
       "de": "er schuf",
-      "lv": "Stworzył"
+      "lv": "on tworzył"
     },
     "imperfektKonjunktiv": {
       "de": "er schüfe",
-      "lv": "Stworzyłby"
+      "lv": "on tworzyłby"
     },
     "partizipVergangenheit": {
       "de": "geschaffen",
-      "lv": "Stworzony"
+      "lv": "tworzony"
     }
   },
   {
     "infinitiv": {
       "de": "schallen",
-      "lv": "Brzmieć"
+      "lv": "rozbrzmiewać"
     },
     "praesens": {
       "de": "es schallt",
-      "lv": "To brzmi"
+      "lv": "ono rozbrzmiewa"
     },
     "imperfektIndikativ": {
       "de": "schallte / scholl",
-      "lv": "Brzmiało"
+      "lv": "ono rozbrzmiewało"
     },
     "imperfektKonjunktiv": {
       "de": "schallte / scholl",
-      "lv": "Brzmiało"
+      "lv": "ono rozbrzmiewałoby"
     },
     "partizipVergangenheit": {
       "de": "geschallt",
-      "lv": "Brzmiało"
+      "lv": "rozbrzmiewał"
     }
   },
   {
     "infinitiv": {
       "de": "scheiden",
-      "lv": "Rozwód/rozstanie"
+      "lv": "oddzielać / rozstawać się"
     },
     "praesens": {
       "de": "er scheidet",
-      "lv": "On się rozwodzi/rozwodzi"
+      "lv": "on oddziela / rozstaje się"
     },
     "imperfektIndikativ": {
       "de": "er schied",
-      "lv": "Rozwiódł się / rozwiódł się"
+      "lv": "on oddzielał / rozstawał się"
     },
     "imperfektKonjunktiv": {
       "de": "er schiede",
-      "lv": "Rozwiódłby się/rozwiódł"
+      "lv": "on oddzielałby / rozstawałby się"
     },
     "partizipVergangenheit": {
       "de": "geschieden (er hat / er ist)",
-      "lv": "W separacji/rozwiedziony"
+      "lv": "oddzielany / rozstawał się"
     }
   },
   {
     "infinitiv": {
       "de": "scheinen",
-      "lv": "Błyszczeć / wydawać się"
+      "lv": "świecić / wydawać się"
     },
     "praesens": {
       "de": "er scheint",
-      "lv": "On świeci/wydaje się"
+      "lv": "on świeci / wydaje się"
     },
     "imperfektIndikativ": {
       "de": "er schien",
-      "lv": "On świecił/wydawał się"
+      "lv": "on świecił / wydawał się"
     },
     "imperfektKonjunktiv": {
       "de": "er schiene",
-      "lv": "On by świecił/wydawał się"
+      "lv": "on świeciłby / wydawałby się"
     },
     "partizipVergangenheit": {
       "de": "geschienen",
-      "lv": "Świeciło/wydawało się"
+      "lv": "świecił / wydawał się"
     }
   },
   {
     "infinitiv": {
       "de": "schelten",
-      "lv": "Bart"
+      "lv": "łajać"
     },
     "praesens": {
       "de": "er schilt",
-      "lv": "– karci"
+      "lv": "on łaje"
     },
     "imperfektIndikativ": {
       "de": "er schalt",
-      "lv": "Zabronił"
+      "lv": "on łajał"
     },
     "imperfektKonjunktiv": {
       "de": "er schölte / er schälte",
-      "lv": "Goli się"
+      "lv": "on łajałby"
     },
     "partizipVergangenheit": {
       "de": "gescholten",
-      "lv": "Broda"
+      "lv": "łajany"
     }
   },
   {
     "infinitiv": {
       "de": "scheren",
-      "lv": "Ciąć"
+      "lv": "strzyc"
     },
     "praesens": {
       "de": "er schert",
-      "lv": "On tnie"
+      "lv": "on strzyże"
     },
     "imperfektIndikativ": {
       "de": "schor / scherte",
-      "lv": "Nożyczki"
+      "lv": "on strzygł"
     },
     "imperfektKonjunktiv": {
       "de": "schor / scherte",
-      "lv": "Nożyczki"
+      "lv": "on strzygłby"
     },
     "partizipVergangenheit": {
       "de": "geschoren / geschert",
-      "lv": "Przycięty"
+      "lv": "strzyżony"
     }
   },
   {
     "infinitiv": {
       "de": "schieben",
-      "lv": "Pchać"
+      "lv": "pchać"
     },
     "praesens": {
       "de": "er schiebt",
-      "lv": "On popycha"
+      "lv": "on pcha"
     },
     "imperfektIndikativ": {
       "de": "er schob",
-      "lv": "Pchnął"
+      "lv": "on pchał"
     },
     "imperfektKonjunktiv": {
       "de": "er schöbe",
-      "lv": "Pchnąłby"
+      "lv": "on pchałby"
     },
     "partizipVergangenheit": {
       "de": "geschoben",
-      "lv": "Pchnięty"
+      "lv": "pchany"
     }
   },
   {
     "infinitiv": {
       "de": "schießen",
-      "lv": "Strzelać"
+      "lv": "strzelać"
     },
     "praesens": {
       "de": "er schießt",
-      "lv": "On strzela"
+      "lv": "on strzela"
     },
     "imperfektIndikativ": {
       "de": "er schoss",
-      "lv": "Strzelił"
+      "lv": "on strzelał"
     },
     "imperfektKonjunktiv": {
       "de": "er schösse",
-      "lv": "Strzelałby"
+      "lv": "on strzelałby"
     },
     "partizipVergangenheit": {
       "de": "geschossen",
-      "lv": "Strzał"
+      "lv": "strzelany"
     }
   },
   {
     "infinitiv": {
       "de": "schinden",
-      "lv": "Dręczyć"
+      "lv": "dręczyć"
     },
     "praesens": {
       "de": "er schindet",
-      "lv": "On dręczy"
+      "lv": "on dręczy"
     },
     "imperfektIndikativ": {
       "de": "schindete",
-      "lv": "Zadręczany"
+      "lv": "on dręczył"
     },
     "imperfektKonjunktiv": {
       "de": "schindete",
-      "lv": "Zadręczany"
+      "lv": "on dręczyłby"
     },
     "partizipVergangenheit": {
       "de": "geschunden",
-      "lv": "Zadręczany"
+      "lv": "dręczony"
     }
   },
   {
     "infinitiv": {
       "de": "schlafen",
-      "lv": "Spać"
+      "lv": "spać"
     },
     "praesens": {
       "de": "er schläft",
-      "lv": "On śpi"
+      "lv": "on śpi"
     },
     "imperfektIndikativ": {
       "de": "er schlief",
-      "lv": "Spał"
+      "lv": "on spał"
     },
     "imperfektKonjunktiv": {
       "de": "er schliefe",
-      "lv": "Spałby"
+      "lv": "on spałby"
     },
     "partizipVergangenheit": {
       "de": "geschlafen",
-      "lv": "Spał"
+      "lv": "spał"
     }
   },
   {
     "infinitiv": {
       "de": "schlagen",
-      "lv": "Uderzyć"
+      "lv": "bić"
     },
     "praesens": {
       "de": "er schlägt",
-      "lv": "Uderza"
+      "lv": "on bije"
     },
     "imperfektIndikativ": {
       "de": "er schlug",
-      "lv": "Uderzył"
+      "lv": "on bił"
     },
     "imperfektKonjunktiv": {
       "de": "er schlüge",
-      "lv": "By uderzył"
+      "lv": "on biłby"
     },
     "partizipVergangenheit": {
       "de": "geschlagen",
-      "lv": "Bity"
+      "lv": "bity"
     }
   },
   {
     "infinitiv": {
       "de": "schleichen",
-      "lv": "Pada deszcz"
+      "lv": "skradać się"
     },
     "praesens": {
       "de": "er schleicht",
-      "lv": "On się pochyla"
+      "lv": "on skrada się"
     },
     "imperfektIndikativ": {
       "de": "er schlich",
-      "lv": "Padał deszcz"
+      "lv": "on skradał się"
     },
     "imperfektKonjunktiv": {
       "de": "er schliche",
-      "lv": "On pada"
+      "lv": "on skradałby się"
     },
     "partizipVergangenheit": {
       "de": "geschlichen (er ist)",
-      "lv": "Zmarł"
+      "lv": "skradał się"
     }
   },
   {
     "infinitiv": {
       "de": "schleifen",
-      "lv": "Szlifować"
+      "lv": "szlifować"
     },
     "praesens": {
       "de": "er schleift",
-      "lv": "On miele"
+      "lv": "on szlifuje"
     },
     "imperfektIndikativ": {
       "de": "er schliff",
-      "lv": "Zmielił"
+      "lv": "on szlifował"
     },
     "imperfektKonjunktiv": {
       "de": "er schliffe",
-      "lv": "Zmiażdżyłby"
+      "lv": "on szlifowałby"
     },
     "partizipVergangenheit": {
       "de": "geschliffen",
-      "lv": "Błyszczący"
+      "lv": "szlifowany"
     }
   },
   {
     "infinitiv": {
       "de": "schließen",
-      "lv": "Zamknąć"
+      "lv": "zamykać"
     },
     "praesens": {
       "de": "er schließt",
-      "lv": "Zamyka"
+      "lv": "on zamyka"
     },
     "imperfektIndikativ": {
       "de": "er schloss",
-      "lv": "Zamknął"
+      "lv": "on zamykał"
     },
     "imperfektKonjunktiv": {
       "de": "er schlösse",
-      "lv": "Zamknąłby"
+      "lv": "on zamykałby"
     },
     "partizipVergangenheit": {
       "de": "geschlossen",
-      "lv": "Zamknięte"
+      "lv": "zamykany"
     }
   },
   {
     "infinitiv": {
       "de": "schlingen",
-      "lv": "Jutro"
+      "lv": "połykać"
     },
     "praesens": {
       "de": "er schlingt",
-      "lv": "On połyka"
+      "lv": "on połyka"
     },
     "imperfektIndikativ": {
       "de": "er schlang",
-      "lv": "Przełknął"
+      "lv": "on połykał"
     },
     "imperfektKonjunktiv": {
       "de": "er schlänge",
-      "lv": "On rano"
+      "lv": "on połykałby"
     },
     "partizipVergangenheit": {
       "de": "geschlungen",
-      "lv": "Poranek"
+      "lv": "połykany"
     }
   },
   {
     "infinitiv": {
       "de": "schmeißen",
-      "lv": "Rzucić"
+      "lv": "ciskać"
     },
     "praesens": {
       "de": "er schmeißt",
-      "lv": "Rzuca"
+      "lv": "on ciska"
     },
     "imperfektIndikativ": {
       "de": "er schmiss",
-      "lv": "Rzucił"
+      "lv": "on ciskał"
     },
     "imperfektKonjunktiv": {
       "de": "er schmisse",
-      "lv": "Rzucił"
+      "lv": "on ciskałby"
     },
     "partizipVergangenheit": {
       "de": "geschmissen",
-      "lv": "Rzucony"
+      "lv": "ciskany"
     }
   },
   {
     "infinitiv": {
       "de": "schmelzen",
-      "lv": "Poruszający"
+      "lv": "topnieć"
     },
     "praesens": {
       "de": "er schmilzt",
-      "lv": "On się topi"
+      "lv": "on topnieje"
     },
     "imperfektIndikativ": {
       "de": "er schmolz",
-      "lv": "Jęknął"
+      "lv": "on topniał"
     },
     "imperfektKonjunktiv": {
       "de": "er schmölze",
-      "lv": "Poruszał się"
+      "lv": "on topniałby"
     },
     "partizipVergangenheit": {
       "de": "geschmolzen (er ist)",
-      "lv": "Stopiony"
+      "lv": "topniał"
     }
   },
   {
     "infinitiv": {
       "de": "schnauben",
-      "lv": "Syczeć"
+      "lv": "parskać"
     },
     "praesens": {
       "de": "er schnaubt",
-      "lv": "Prycha"
+      "lv": "on parska"
     },
     "imperfektIndikativ": {
       "de": "schnaubte / schnob",
-      "lv": "Parsknął"
+      "lv": "on parskał"
     },
     "imperfektKonjunktiv": {
       "de": "schnaubte / schnob",
-      "lv": "Parsknął"
+      "lv": "on parskałby"
     },
     "partizipVergangenheit": {
       "de": "geschnaubt / geschnoben",
-      "lv": "Parsknięcie"
+      "lv": "parskał"
     }
   },
   {
     "infinitiv": {
       "de": "schneiden",
-      "lv": "Ciąć"
+      "lv": "ciąć"
     },
     "praesens": {
       "de": "er schneidet",
-      "lv": "Kręci się"
+      "lv": "on tnie"
     },
     "imperfektIndikativ": {
       "de": "er schnitt",
-      "lv": "Cięł"
+      "lv": "on ciął"
     },
     "imperfektKonjunktiv": {
       "de": "er schnitte",
-      "lv": "Tnie"
+      "lv": "on ciąłby"
     },
     "partizipVergangenheit": {
       "de": "geschnitten",
-      "lv": "Cięcie"
+      "lv": "cięty"
     }
   },
   {
     "infinitiv": {
       "de": "schreiben",
-      "lv": "Pisać"
+      "lv": "pisać"
     },
     "praesens": {
       "de": "er schreibt",
-      "lv": "Pisze"
+      "lv": "on pisze"
     },
     "imperfektIndikativ": {
       "de": "er schrieb",
-      "lv": "Napisał"
+      "lv": "on pisał"
     },
     "imperfektKonjunktiv": {
       "de": "er schriebe",
-      "lv": "Napisałby"
+      "lv": "on pisałby"
     },
     "partizipVergangenheit": {
       "de": "geschrieben",
-      "lv": "Pisemny"
+      "lv": "pisany"
     }
   },
   {
     "infinitiv": {
       "de": "schreien",
-      "lv": "Krzyczeć"
+      "lv": "krzyczeć"
     },
     "praesens": {
       "de": "er schreit",
-      "lv": "– krzyczy"
+      "lv": "on krzyczy"
     },
     "imperfektIndikativ": {
       "de": "er schrie",
-      "lv": "– krzyknął"
+      "lv": "on krzyczał"
     },
     "imperfektKonjunktiv": {
       "de": "er schriee",
-      "lv": "– krzyknąłby"
+      "lv": "on krzyczałby"
     },
     "partizipVergangenheit": {
       "de": "geschrien",
-      "lv": "Krzyknął"
+      "lv": "krzyczał"
     }
   },
   {
     "infinitiv": {
       "de": "schreiten",
-      "lv": "Pieszy"
+      "lv": "kroczyć"
     },
     "praesens": {
       "de": "er schreitet",
-      "lv": "On idzie"
+      "lv": "on kroczy"
     },
     "imperfektIndikativ": {
       "de": "er schritt",
-      "lv": "On chodził"
+      "lv": "on kroczył"
     },
     "imperfektKonjunktiv": {
       "de": "er schritte",
-      "lv": "Poszedłby"
+      "lv": "on kroczyłby"
     },
     "partizipVergangenheit": {
       "de": "geschritten (er ist)",
-      "lv": "Chodził"
+      "lv": "kroczył"
     }
   },
   {
     "infinitiv": {
       "de": "schweigen",
-      "lv": "Milczeć"
+      "lv": "milczeć"
     },
     "praesens": {
       "de": "er schweigt",
-      "lv": "On milczy"
+      "lv": "on milczy"
     },
     "imperfektIndikativ": {
       "de": "er schwieg",
-      "lv": "On milczał"
+      "lv": "on milczał"
     },
     "imperfektKonjunktiv": {
       "de": "er schwiege",
-      "lv": "Milczałby"
+      "lv": "on milczałby"
     },
     "partizipVergangenheit": {
       "de": "geschwiegen",
-      "lv": "Uciszony"
+      "lv": "milczał"
     }
   },
   {
     "infinitiv": {
       "de": "schwellen",
-      "lv": "Pompa"
+      "lv": "puchnąć"
     },
     "praesens": {
       "de": "er schwillt",
-      "lv": "– wydysza się"
+      "lv": "on puchnie"
     },
     "imperfektIndikativ": {
       "de": "er schwoll",
-      "lv": "On pampas"
+      "lv": "on puchnął"
     },
     "imperfektKonjunktiv": {
       "de": "er schwölle",
-      "lv": "Pompowałby"
+      "lv": "on puchnąłby"
     },
     "partizipVergangenheit": {
       "de": "geschwollen (er ist)",
-      "lv": "Pompa"
+      "lv": "puchnął"
     }
   },
   {
     "infinitiv": {
       "de": "schwimmen",
-      "lv": "Pływać"
+      "lv": "pływać"
     },
     "praesens": {
       "de": "er schwimmt",
-      "lv": "On pływa"
+      "lv": "on pływa"
     },
     "imperfektIndikativ": {
       "de": "er schwamm",
-      "lv": "Pływał"
+      "lv": "on pływał"
     },
     "imperfektKonjunktiv": {
       "de": "er schwömme / er schwämme",
-      "lv": "Pływałby"
+      "lv": "on pływałby"
     },
     "partizipVergangenheit": {
       "de": "geschwommen (er ist)",
-      "lv": "Pływał"
+      "lv": "pływał"
     }
   },
   {
     "infinitiv": {
       "de": "schwinden",
-      "lv": "Zniknąć"
+      "lv": "znikać"
     },
     "praesens": {
       "de": "er schwindet",
-      "lv": "On znika"
+      "lv": "on znika"
     },
     "imperfektIndikativ": {
       "de": "er schwand",
-      "lv": "Zniknął"
+      "lv": "on znikał"
     },
     "imperfektKonjunktiv": {
       "de": "er schwände",
-      "lv": "Zniknąłby"
+      "lv": "on znikałby"
     },
     "partizipVergangenheit": {
       "de": "geschwunden (er ist)",
-      "lv": "Zaginiony"
+      "lv": "znikał"
     }
   },
   {
     "infinitiv": {
       "de": "schwingen",
-      "lv": "Fala"
+      "lv": "machać"
     },
     "praesens": {
       "de": "er schwingt",
-      "lv": "Macha"
+      "lv": "on macha"
     },
     "imperfektIndikativ": {
       "de": "er schwang",
-      "lv": "Pomachał"
+      "lv": "on machał"
     },
     "imperfektKonjunktiv": {
       "de": "er schwänge",
-      "lv": "Pomachałby"
+      "lv": "on machałby"
     },
     "partizipVergangenheit": {
       "de": "geschwungen",
-      "lv": "Zaondulowany"
+      "lv": "machał"
     }
   },
   {
     "infinitiv": {
       "de": "schwören",
-      "lv": "Przysięgać"
+      "lv": "przysięgać"
     },
     "praesens": {
       "de": "er schwört",
-      "lv": "Przysięga"
+      "lv": "on przysięga"
     },
     "imperfektIndikativ": {
       "de": "er schwur / er schwor",
-      "lv": "Przysiągł"
+      "lv": "on przysięgał"
     },
     "imperfektKonjunktiv": {
       "de": "er schwöre",
-      "lv": "Przysiągłby"
+      "lv": "on przysięgałby"
     },
     "partizipVergangenheit": {
       "de": "geschworen",
-      "lv": "Przysięgły"
+      "lv": "przysięgał"
     }
   },
   {
     "infinitiv": {
       "de": "sehen",
-      "lv": "Zobaczyć"
+      "lv": "widzieć"
     },
     "praesens": {
       "de": "er sieht",
-      "lv": "Widzi"
+      "lv": "on widzi"
     },
     "imperfektIndikativ": {
       "de": "er sah",
-      "lv": "Widział"
+      "lv": "on widział"
     },
     "imperfektKonjunktiv": {
       "de": "er sähe",
-      "lv": "Zobaczyłby"
+      "lv": "on widziałby"
     },
     "partizipVergangenheit": {
       "de": "gesehen",
-      "lv": "Widziany"
+      "lv": "widziany"
     }
   },
   {
     "infinitiv": {
       "de": "sein",
-      "lv": "Być"
+      "lv": "być"
     },
     "praesens": {
       "de": "er ist",
-      "lv": "On jest"
+      "lv": "on jest"
     },
     "imperfektIndikativ": {
       "de": "war",
-      "lv": "Był"
+      "lv": "on był"
     },
     "imperfektKonjunktiv": {
       "de": "war",
-      "lv": "Był"
+      "lv": "on byłby"
     },
     "partizipVergangenheit": {
       "de": "gewesen",
-      "lv": "Został"
+      "lv": "był"
     }
   },
   {
     "infinitiv": {
       "de": "senden",
-      "lv": "Wysłać"
+      "lv": "wysyłać"
     },
     "praesens": {
       "de": "er sendet",
-      "lv": "On wysyła"
+      "lv": "on wysyła"
     },
     "imperfektIndikativ": {
       "de": "er sandte / er sendete",
-      "lv": "Wysłał"
+      "lv": "on wysyłał"
     },
     "imperfektKonjunktiv": {
       "de": "er sendete",
-      "lv": "Wysłałby"
+      "lv": "on wysyłałby"
     },
     "partizipVergangenheit": {
       "de": "gesandt / gesendet",
-      "lv": "Wysłano"
+      "lv": "wysyłany"
     }
   },
   {
     "infinitiv": {
       "de": "sieden",
-      "lv": "Gotować"
+      "lv": "gotować"
     },
     "praesens": {
       "de": "er siedet",
-      "lv": "On gotuje"
+      "lv": "on gotuje"
     },
     "imperfektIndikativ": {
       "de": "sott / siedete",
-      "lv": "Gotowany"
+      "lv": "on gotował"
     },
     "imperfektKonjunktiv": {
       "de": "sott / siedete",
-      "lv": "Gotowany"
+      "lv": "on gotowałby"
     },
     "partizipVergangenheit": {
       "de": "gesotten / gesiedet",
-      "lv": "Gotowany"
+      "lv": "gotowany"
     }
   },
   {
     "infinitiv": {
       "de": "singen",
-      "lv": "Śpiewać"
+      "lv": "śpiewać"
     },
     "praesens": {
       "de": "er singt",
-      "lv": "On śpiewa"
+      "lv": "on śpiewa"
     },
     "imperfektIndikativ": {
       "de": "er sang",
-      "lv": "Śpiewał"
+      "lv": "on śpiewał"
     },
     "imperfektKonjunktiv": {
       "de": "er sänge",
-      "lv": "Śpiewałby"
+      "lv": "on śpiewałby"
     },
     "partizipVergangenheit": {
       "de": "gesungen",
-      "lv": "Zaśpiewany"
+      "lv": "śpiewany"
     }
   },
   {
     "infinitiv": {
       "de": "sinken",
-      "lv": "Zatonąć"
+      "lv": "tonąć"
     },
     "praesens": {
       "de": "er sinkt",
-      "lv": "On tonie"
+      "lv": "on tonie"
     },
     "imperfektIndikativ": {
       "de": "er sank",
-      "lv": "Układał się"
+      "lv": "on tonął"
     },
     "imperfektKonjunktiv": {
       "de": "er sänke",
-      "lv": "Zatonąłby"
+      "lv": "on tonąłby"
     },
     "partizipVergangenheit": {
       "de": "gesunken (er ist)",
-      "lv": "Makijaż"
+      "lv": "tonął"
     }
   },
   {
     "infinitiv": {
       "de": "sinnen",
-      "lv": "Zastanawiać się"
+      "lv": "rozmyślać"
     },
     "praesens": {
       "de": "er sinnt",
-      "lv": "– zastanawia się"
+      "lv": "on rozmyśla"
     },
     "imperfektIndikativ": {
       "de": "er sann",
-      "lv": "– zastanawiał się"
+      "lv": "on rozmyślał"
     },
     "imperfektKonjunktiv": {
       "de": "er sönne / er sänne",
-      "lv": "Zastanawiałby się"
+      "lv": "on rozmyślałby"
     },
     "partizipVergangenheit": {
       "de": "gesonnen",
-      "lv": "Myślący"
+      "lv": "rozmyślał"
     }
   },
   {
     "infinitiv": {
       "de": "sitzen",
-      "lv": "Siedzieć"
+      "lv": "siedzieć"
     },
     "praesens": {
       "de": "er sitzt",
-      "lv": "On siedzi"
+      "lv": "on siedzi"
     },
     "imperfektIndikativ": {
       "de": "er sass",
-      "lv": "Siedział"
+      "lv": "on siedział"
     },
     "imperfektKonjunktiv": {
       "de": "er säße",
-      "lv": "Siedziałby"
+      "lv": "on siedziałby"
     },
     "partizipVergangenheit": {
       "de": "gesessen",
-      "lv": "Usiadł"
+      "lv": "siedział"
     }
   },
   {
     "infinitiv": {
       "de": "sollen",
-      "lv": "Potrzebuję/będę zobowiązany"
+      "lv": "mieć"
     },
     "praesens": {
       "de": "er soll",
-      "lv": "Potrzebuje"
+      "lv": "on ma"
     },
     "imperfektIndikativ": {
       "de": "sollte",
-      "lv": "Powinien mieć"
+      "lv": "on miał"
     },
     "imperfektKonjunktiv": {
       "de": "sollte",
-      "lv": "Powinien mieć"
+      "lv": "on miałby"
     },
     "partizipVergangenheit": {
       "de": "gesollt",
-      "lv": "Wymagany"
+      "lv": "miał"
     }
   },
   {
     "infinitiv": {
       "de": "speien",
-      "lv": "Pluć"
+      "lv": "pluć"
     },
     "praesens": {
       "de": "er speit",
-      "lv": "On pluje"
+      "lv": "on pluje"
     },
     "imperfektIndikativ": {
       "de": "er spie",
-      "lv": "Splunął"
+      "lv": "on pluł"
     },
     "imperfektKonjunktiv": {
       "de": "er spie",
-      "lv": "Splunąłby"
+      "lv": "on plułby"
     },
     "partizipVergangenheit": {
       "de": "gespien",
-      "lv": "Wypluł"
+      "lv": "pluł"
     }
   },
   {
     "infinitiv": {
       "de": "spinnen",
-      "lv": "Kręcić się"
+      "lv": "prząść"
     },
     "praesens": {
       "de": "er spinnt",
-      "lv": "On się przekręca"
+      "lv": "on przędzie"
     },
     "imperfektIndikativ": {
       "de": "er spann",
-      "lv": "Obrócił się"
+      "lv": "on prządł"
     },
     "imperfektKonjunktiv": {
       "de": "er spönne / er spänne",
-      "lv": "Kręciłby się"
+      "lv": "on prządłby"
     },
     "partizipVergangenheit": {
       "de": "gesponnen",
-      "lv": "Uprzedzony"
+      "lv": "przędziony"
     }
   },
   {
     "infinitiv": {
       "de": "spleißen",
-      "lv": "Połączyć"
+      "lv": "splatać"
     },
     "praesens": {
       "de": "er spleißt",
-      "lv": "On łączy"
+      "lv": "on splata"
     },
     "imperfektIndikativ": {
       "de": "spliss",
-      "lv": "Połączony"
+      "lv": "on splatał"
     },
     "imperfektKonjunktiv": {
       "de": "spliss",
-      "lv": "Połączony"
+      "lv": "on splatałby"
     },
     "partizipVergangenheit": {
       "de": "gesplissen",
-      "lv": "Połączony"
+      "lv": "splatany"
     }
   },
   {
     "infinitiv": {
       "de": "sprechen",
-      "lv": "Mówić"
+      "lv": "mówić"
     },
     "praesens": {
       "de": "er spricht",
-      "lv": "On mówi"
+      "lv": "on mówi"
     },
     "imperfektIndikativ": {
       "de": "er sprach",
-      "lv": "Mówił"
+      "lv": "on mówił"
     },
     "imperfektKonjunktiv": {
       "de": "er spräche",
-      "lv": "By mówił"
+      "lv": "on mówiłby"
     },
     "partizipVergangenheit": {
       "de": "gesprochen",
-      "lv": "Mówiony"
+      "lv": "mówiony"
     }
   },
   {
     "infinitiv": {
       "de": "sprießen",
-      "lv": "Prosperować"
+      "lv": "kiełkować"
     },
     "praesens": {
       "de": "er sprießt",
-      "lv": "On się rozwija"
+      "lv": "on kiełkuje"
     },
     "imperfektIndikativ": {
       "de": "er spross",
-      "lv": "Prosperował"
+      "lv": "on kiełkował"
     },
     "imperfektKonjunktiv": {
       "de": "er sprösse",
-      "lv": "On półka"
+      "lv": "on kiełkowałby"
     },
     "partizipVergangenheit": {
       "de": "gesprossen (er ist)",
-      "lv": "Ramię"
+      "lv": "kiełkował"
     }
   },
   {
     "infinitiv": {
       "de": "springen",
-      "lv": "Skakać"
+      "lv": "skakać"
     },
     "praesens": {
       "de": "er springt",
-      "lv": "On skacze"
+      "lv": "on skacze"
     },
     "imperfektIndikativ": {
       "de": "er sprang",
-      "lv": "Skoczył"
+      "lv": "on skakał"
     },
     "imperfektKonjunktiv": {
       "de": "er spränge",
-      "lv": "Skoczyłby"
+      "lv": "on skakałby"
     },
     "partizipVergangenheit": {
       "de": "gesprungen (er ist)",
-      "lv": "Obiektyw"
+      "lv": "skakał"
     }
   },
   {
     "infinitiv": {
       "de": "stechen",
-      "lv": "Zasztyletować"
+      "lv": "kłuć"
     },
     "praesens": {
       "de": "er sticht",
-      "lv": "On dźga"
+      "lv": "on kłuje"
     },
     "imperfektIndikativ": {
       "de": "er stach",
-      "lv": "Uderzył"
+      "lv": "on kłuł"
     },
     "imperfektKonjunktiv": {
       "de": "er stäche",
-      "lv": "By dźgnął"
+      "lv": "on kłułby"
     },
     "partizipVergangenheit": {
       "de": "gestochen",
-      "lv": "Dźgnięty"
+      "lv": "kłuty"
     }
   },
   {
     "infinitiv": {
       "de": "stecken",
-      "lv": "Wbijać się/wklejać"
+      "lv": "wkładać / wtykać"
     },
     "praesens": {
       "de": "er steckt",
-      "lv": "On popycha"
+      "lv": "on wkłada / wtyka"
     },
     "imperfektIndikativ": {
       "de": "stak / steckte",
-      "lv": "Nadziewany"
+      "lv": "on wkładał / wtykał"
     },
     "imperfektKonjunktiv": {
       "de": "stak / steckte",
-      "lv": "Nadziewany"
+      "lv": "on wkładałby / wtykałby"
     },
     "partizipVergangenheit": {
       "de": "gesteckt",
-      "lv": "Nadziewany"
+      "lv": "wkładany / wtykany"
     }
   },
   {
     "infinitiv": {
       "de": "stehen",
-      "lv": "Stać"
+      "lv": "stać"
     },
     "praesens": {
       "de": "er steht",
-      "lv": "On stoi"
+      "lv": "on stoi"
     },
     "imperfektIndikativ": {
       "de": "er stand",
-      "lv": "Stał"
+      "lv": "on stał"
     },
     "imperfektKonjunktiv": {
       "de": "er stände / er stünde",
-      "lv": "Stałby"
+      "lv": "on stałby"
     },
     "partizipVergangenheit": {
       "de": "gestanden",
-      "lv": "Na stojąco"
+      "lv": "stał"
     }
   },
   {
     "infinitiv": {
       "de": "stehlen",
-      "lv": "Ukraść"
+      "lv": "kraść"
     },
     "praesens": {
       "de": "er stiehlt",
-      "lv": "On kradnie"
+      "lv": "on kradnie"
     },
     "imperfektIndikativ": {
       "de": "er stahl",
-      "lv": "Ukradł"
+      "lv": "on kradł"
     },
     "imperfektKonjunktiv": {
       "de": "er stöhle / er stähle",
-      "lv": "Ukradłby"
+      "lv": "on kradłby"
     },
     "partizipVergangenheit": {
       "de": "gestohlen",
-      "lv": "Skradziony"
+      "lv": "kradziony"
     }
   },
   {
     "infinitiv": {
       "de": "steigen",
-      "lv": "Wspinać się"
+      "lv": "wchodzić"
     },
     "praesens": {
       "de": "er steigt",
-      "lv": "Wspina się"
+      "lv": "on wchodzi"
     },
     "imperfektIndikativ": {
       "de": "er stieg",
-      "lv": "Wspiął się"
+      "lv": "on wchodził"
     },
     "imperfektKonjunktiv": {
       "de": "er stiege",
-      "lv": "Wspinałby się"
+      "lv": "on wchodziłby"
     },
     "partizipVergangenheit": {
       "de": "gestiegen (er ist)",
-      "lv": "Wspiął się"
+      "lv": "wchodził"
     }
   },
   {
     "infinitiv": {
       "de": "sterben",
-      "lv": "Umrzeć"
+      "lv": "umierać"
     },
     "praesens": {
       "de": "er stirbt",
-      "lv": "On umiera"
+      "lv": "on umiera"
     },
     "imperfektIndikativ": {
       "de": "er starb",
-      "lv": "Umarł"
+      "lv": "on umierał"
     },
     "imperfektKonjunktiv": {
       "de": "er stürbe",
-      "lv": "Umarłby"
+      "lv": "on umierałby"
     },
     "partizipVergangenheit": {
       "de": "gestorben (er ist)",
-      "lv": "Martwy"
+      "lv": "umierał"
     }
   },
   {
     "infinitiv": {
       "de": "stinken",
-      "lv": "Pachnieć"
+      "lv": "cuchnąć"
     },
     "praesens": {
       "de": "es stinkt",
-      "lv": "To śmierdzi"
+      "lv": "ono cuchnie"
     },
     "imperfektIndikativ": {
       "de": "stank",
-      "lv": "Pachniało"
+      "lv": "ono cuchnęło"
     },
     "imperfektKonjunktiv": {
       "de": "stank",
-      "lv": "Pachniało"
+      "lv": "ono cuchnęłoby"
     },
     "partizipVergangenheit": {
       "de": "gestunken",
-      "lv": "Śmierdzący"
+      "lv": "cuchnął"
     }
   },
   {
     "infinitiv": {
       "de": "stoßen",
-      "lv": "Naciskać"
+      "lv": "popychać"
     },
     "praesens": {
       "de": "er stößt",
-      "lv": "On popycha"
+      "lv": "on popycha"
     },
     "imperfektIndikativ": {
       "de": "er stieß",
-      "lv": "Pchnął"
+      "lv": "on popychał"
     },
     "imperfektKonjunktiv": {
       "de": "er stieße",
-      "lv": "On naciskał"
+      "lv": "on popychałby"
     },
     "partizipVergangenheit": {
       "de": "gestoßen",
-      "lv": "Pchnięty"
+      "lv": "popychany"
     }
   },
   {
     "infinitiv": {
       "de": "streichen",
-      "lv": "Farba/pasek"
+      "lv": "malować / skreślać"
     },
     "praesens": {
       "de": "er streicht",
-      "lv": "Maluje / paski"
+      "lv": "on maluje / skreśla"
     },
     "imperfektIndikativ": {
       "de": "er strich",
-      "lv": "Malował/paski"
+      "lv": "on malował / skreślał"
     },
     "imperfektKonjunktiv": {
       "de": "er striche",
-      "lv": "Malował/rozbierał"
+      "lv": "on malowałby / skreślałby"
     },
     "partizipVergangenheit": {
       "de": "gestrichen",
-      "lv": "Malowane / w paski"
+      "lv": "malowany / skreślany"
     }
   },
   {
     "infinitiv": {
       "de": "streiten",
-      "lv": "Walczyć"
+      "lv": "kłócić się"
     },
     "praesens": {
       "de": "er streitet",
-      "lv": "On walczy"
+      "lv": "on kłóci się"
     },
     "imperfektIndikativ": {
       "de": "er stritt",
-      "lv": "Walczył"
+      "lv": "on kłócił się"
     },
     "imperfektKonjunktiv": {
       "de": "er stritte",
-      "lv": "Walczyłby"
+      "lv": "on kłóciłby się"
     },
     "partizipVergangenheit": {
       "de": "gestritten",
-      "lv": "Walczył"
+      "lv": "kłócił się"
     }
   },
   {
     "infinitiv": {
       "de": "tragen",
-      "lv": "Nosić"
+      "lv": "nieść"
     },
     "praesens": {
       "de": "er trägt",
-      "lv": "On niesie"
+      "lv": "on niesie"
     },
     "imperfektIndikativ": {
       "de": "er trug",
-      "lv": "Niósł"
+      "lv": "on niósł"
     },
     "imperfektKonjunktiv": {
       "de": "er trüge",
-      "lv": "Niósłby"
+      "lv": "on niósłby"
     },
     "partizipVergangenheit": {
       "de": "getragen",
-      "lv": "Przewieziony"
+      "lv": "niesiony"
     }
   },
   {
     "infinitiv": {
       "de": "treffen",
-      "lv": "Spotkać"
+      "lv": "spotykać"
     },
     "praesens": {
       "de": "er trifft",
-      "lv": "Spotyka"
+      "lv": "on spotyka"
     },
     "imperfektIndikativ": {
       "de": "er traf",
-      "lv": "Spotkał"
+      "lv": "on spotykał"
     },
     "imperfektKonjunktiv": {
       "de": "er träfe",
-      "lv": "Spotkałby"
+      "lv": "on spotykałby"
     },
     "partizipVergangenheit": {
       "de": "getroffen",
-      "lv": "Napotkane"
+      "lv": "spotykany"
     }
   },
   {
     "infinitiv": {
       "de": "treiben",
-      "lv": "Pościg"
+      "lv": "pędzić"
     },
     "praesens": {
       "de": "er treibt",
-      "lv": "On jeździ"
+      "lv": "on pędzi"
     },
     "imperfektIndikativ": {
       "de": "er trieb",
-      "lv": "Jechał"
+      "lv": "on pędził"
     },
     "imperfektKonjunktiv": {
       "de": "er triebe",
-      "lv": "Jeździłby"
+      "lv": "on pędziłby"
     },
     "partizipVergangenheit": {
       "de": "getrieben",
-      "lv": "Goniony"
+      "lv": "pędzony"
     }
   },
   {
     "infinitiv": {
       "de": "treten",
-      "lv": "Wejdź / idź"
+      "lv": "wstępować / iść"
     },
     "praesens": {
       "de": "er tritt",
-      "lv": "On wchodzi/idzie"
+      "lv": "on wstępuje / idzie"
     },
     "imperfektIndikativ": {
       "de": "er trat",
-      "lv": "Stał/chodził"
+      "lv": "on wstępował / szedł"
     },
     "imperfektKonjunktiv": {
       "de": "er träte",
-      "lv": "Stałby / poszedł"
+      "lv": "on wstępowałby / szedłby"
     },
     "partizipVergangenheit": {
       "de": "getreten (er ist)",
-      "lv": "Stał/chodził"
+      "lv": "wstępował / szedł"
     }
   },
   {
     "infinitiv": {
       "de": "trinken",
-      "lv": "Pić"
+      "lv": "pić"
     },
     "praesens": {
       "de": "er trinkt",
-      "lv": "On pije"
+      "lv": "on pije"
     },
     "imperfektIndikativ": {
       "de": "er trank",
-      "lv": "Pił"
+      "lv": "on pił"
     },
     "imperfektKonjunktiv": {
       "de": "er tränke",
-      "lv": "Piłby"
+      "lv": "on piłby"
     },
     "partizipVergangenheit": {
       "de": "getrunken",
-      "lv": "Pijany"
+      "lv": "pity"
     }
   },
   {
     "infinitiv": {
       "de": "trügen",
-      "lv": "Oszukiwać"
+      "lv": "oszukiwać"
     },
     "praesens": {
       "de": "er trögt",
-      "lv": "On oszukuje"
+      "lv": "on oszukuje"
     },
     "imperfektIndikativ": {
       "de": "er trog",
-      "lv": "Oszukał"
+      "lv": "on oszukiwał"
     },
     "imperfektKonjunktiv": {
       "de": "er tröge",
-      "lv": "Oszukałby"
+      "lv": "on oszukiwałby"
     },
     "partizipVergangenheit": {
       "de": "getrogen",
-      "lv": "Oszukany"
+      "lv": "oszukiwany"
     }
   },
   {
     "infinitiv": {
       "de": "tun",
-      "lv": "Zrobić"
+      "lv": "robić"
     },
     "praesens": {
       "de": "er tut",
-      "lv": "On to robi"
+      "lv": "on robi"
     },
     "imperfektIndikativ": {
       "de": "er tat",
-      "lv": "Zrobił"
+      "lv": "on robił"
     },
     "imperfektKonjunktiv": {
       "de": "er täte",
-      "lv": "By to zrobił"
+      "lv": "on robiłby"
     },
     "partizipVergangenheit": {
       "de": "getan",
-      "lv": "Zrobione"
+      "lv": "robiony"
     }
   },
   {
     "infinitiv": {
       "de": "verderben",
-      "lv": "Uszkodzić"
+      "lv": "psuć"
     },
     "praesens": {
       "de": "er verdirbt",
-      "lv": "On niszczy"
+      "lv": "on psuje"
     },
     "imperfektIndikativ": {
       "de": "er verdarb",
-      "lv": "Uszkodził"
+      "lv": "on psuł"
     },
     "imperfektKonjunktiv": {
       "de": "er verdürbe",
-      "lv": "By uszkodził"
+      "lv": "on psułby"
     },
     "partizipVergangenheit": {
       "de": "verdorben",
-      "lv": "Uszkodzony"
+      "lv": "psuty"
     }
   },
   {
     "infinitiv": {
       "de": "verdrießen",
-      "lv": "Powodować irytację"
+      "lv": "irytować"
     },
     "praesens": {
       "de": "er verdrießt",
-      "lv": "Powoduje irytację"
+      "lv": "on irytuje"
     },
     "imperfektIndikativ": {
       "de": "er verdross",
-      "lv": "Wywołał irytację"
+      "lv": "on irytował"
     },
     "imperfektKonjunktiv": {
       "de": "er verdrösse",
-      "lv": "Wywołałby irytację"
+      "lv": "on irytowałby"
     },
     "partizipVergangenheit": {
       "de": "verdrossen",
-      "lv": "Zdenerwowany"
+      "lv": "irytowany"
     }
   },
   {
     "infinitiv": {
       "de": "vergessen",
-      "lv": "Zapominać"
+      "lv": "zapominać"
     },
     "praesens": {
       "de": "er vergisst",
-      "lv": "Zapomina"
+      "lv": "on zapomina"
     },
     "imperfektIndikativ": {
       "de": "er vergass",
-      "lv": "Zapomniał"
+      "lv": "on zapominał"
     },
     "imperfektKonjunktiv": {
       "de": "er vergäße",
-      "lv": "Zapomniałby"
+      "lv": "on zapominałby"
     },
     "partizipVergangenheit": {
       "de": "vergessen",
-      "lv": "Zapomniany"
+      "lv": "zapominany"
     }
   },
   {
     "infinitiv": {
       "de": "verlieren",
-      "lv": "Stracić"
+      "lv": "gubić"
     },
     "praesens": {
       "de": "er verliert",
-      "lv": "On przegrywa"
+      "lv": "on gubi"
     },
     "imperfektIndikativ": {
       "de": "er verlor",
-      "lv": "Przegrał"
+      "lv": "on gubił"
     },
     "imperfektKonjunktiv": {
       "de": "er verlöre",
-      "lv": "Przegrałby"
+      "lv": "on gubiłby"
     },
     "partizipVergangenheit": {
       "de": "verloren",
-      "lv": "Zaginiony"
+      "lv": "gubiony"
     }
   },
   {
     "infinitiv": {
       "de": "wachsen",
-      "lv": "Rosnąć"
+      "lv": "rosnąć"
     },
     "praesens": {
       "de": "er wächst",
-      "lv": "On rośnie"
+      "lv": "on rośnie"
     },
     "imperfektIndikativ": {
       "de": "er wuchs",
-      "lv": "Dorastał"
+      "lv": "on rósł"
     },
     "imperfektKonjunktiv": {
       "de": "er wüchse",
-      "lv": "Urósłby"
+      "lv": "on rósłby"
     },
     "partizipVergangenheit": {
       "de": "gewachsen (er ist)",
-      "lv": "Dorósł"
+      "lv": "rósł"
     }
   },
   {
     "infinitiv": {
       "de": "waschen",
-      "lv": "Umyć"
+      "lv": "myć"
     },
     "praesens": {
       "de": "er wäscht",
-      "lv": "Myje"
+      "lv": "on myje"
     },
     "imperfektIndikativ": {
       "de": "er wusch",
-      "lv": "Umył się"
+      "lv": "on mył"
     },
     "imperfektKonjunktiv": {
       "de": "er wüsche",
-      "lv": "By się umył"
+      "lv": "on myłby"
     },
     "partizipVergangenheit": {
       "de": "gewaschen",
-      "lv": "Umyty"
+      "lv": "myty"
     }
   },
   {
     "infinitiv": {
       "de": "weben",
-      "lv": "Splot"
+      "lv": "tkać"
     },
     "praesens": {
       "de": "er webt",
-      "lv": "On tka"
+      "lv": "on tka"
     },
     "imperfektIndikativ": {
       "de": "wob",
-      "lv": "Tkanka"
+      "lv": "on tkał"
     },
     "imperfektKonjunktiv": {
       "de": "wob",
-      "lv": "Tkanka"
+      "lv": "on tkałby"
     },
     "partizipVergangenheit": {
       "de": "gewoben",
-      "lv": "Tkane"
+      "lv": "tkany"
     }
   },
   {
     "infinitiv": {
       "de": "weichen",
-      "lv": "Wycofać się"
+      "lv": "cofać się"
     },
     "praesens": {
       "de": "er weicht",
-      "lv": "On się wycofuje"
+      "lv": "on cofa się"
     },
     "imperfektIndikativ": {
       "de": "er wich",
-      "lv": "Cofnął się"
+      "lv": "on cofał się"
     },
     "imperfektKonjunktiv": {
       "de": "er wiche",
-      "lv": "Wycofałby się"
+      "lv": "on cofałby się"
     },
     "partizipVergangenheit": {
       "de": "gewichen (er ist)",
-      "lv": "Cofnąć się"
+      "lv": "cofał się"
     }
   },
   {
     "infinitiv": {
       "de": "weisen",
-      "lv": "Pokazywać"
+      "lv": "wskazywać"
     },
     "praesens": {
       "de": "er weist",
-      "lv": "On pokazuje"
+      "lv": "on wskazuje"
     },
     "imperfektIndikativ": {
       "de": "er wies",
-      "lv": "Pokazał"
+      "lv": "on wskazywał"
     },
     "imperfektKonjunktiv": {
       "de": "er wiese",
-      "lv": "Pokazałby"
+      "lv": "on wskazywałby"
     },
     "partizipVergangenheit": {
       "de": "gewiesen",
-      "lv": "Pokazano"
+      "lv": "wskazywany"
     }
   },
   {
     "infinitiv": {
       "de": "wenden",
-      "lv": "Modyfikować / przycinać"
+      "lv": "obracać / odwracać"
     },
     "praesens": {
       "de": "er wendet",
-      "lv": "On się kręci/kręci"
+      "lv": "on obraca / odwraca"
     },
     "imperfektIndikativ": {
       "de": "er wandte / es wendete",
-      "lv": "Przekręcił się/obrócił"
+      "lv": "on obracał / odwracał"
     },
     "imperfektKonjunktiv": {
       "de": "er wendete",
-      "lv": "On by zmienił/odwrócił"
+      "lv": "on obracałby / odwracałby"
     },
     "partizipVergangenheit": {
       "de": "gewandt / gewendet",
-      "lv": "Zmienione/odwrócone"
+      "lv": "obracany / odwracany"
     }
   },
   {
     "infinitiv": {
       "de": "werben",
-      "lv": "Zaproponować"
+      "lv": "zalecać się"
     },
     "praesens": {
       "de": "er wirbt",
-      "lv": "Proponuje"
+      "lv": "on zaleca się"
     },
     "imperfektIndikativ": {
       "de": "er warb",
-      "lv": "Zaproponował"
+      "lv": "on zalecał się"
     },
     "imperfektKonjunktiv": {
       "de": "er würbe",
-      "lv": "Zaproponowałby"
+      "lv": "on zalecałby się"
     },
     "partizipVergangenheit": {
       "de": "geworben",
-      "lv": "Zaproponował"
+      "lv": "zalecał się"
     }
   },
   {
     "infinitiv": {
       "de": "werden",
-      "lv": "Stać się"
+      "lv": "stawać się"
     },
     "praesens": {
       "de": "er wird",
-      "lv": "Staje się"
+      "lv": "on staje się"
     },
     "imperfektIndikativ": {
       "de": "wurde",
-      "lv": "Stał się"
+      "lv": "on stawał się"
     },
     "imperfektKonjunktiv": {
       "de": "wurde",
-      "lv": "Stał się"
+      "lv": "on stawałby się"
     },
     "partizipVergangenheit": {
       "de": "geworden",
-      "lv": "Stało się"
+      "lv": "stawał się"
     }
   },
   {
     "infinitiv": {
       "de": "werfen",
-      "lv": "Rzucić"
+      "lv": "rzucać"
     },
     "praesens": {
       "de": "er wirft",
-      "lv": "Rzuca"
+      "lv": "on rzuca"
     },
     "imperfektIndikativ": {
       "de": "er warf",
-      "lv": "Rzucił"
+      "lv": "on rzucał"
     },
     "imperfektKonjunktiv": {
       "de": "er würfe",
-      "lv": "Rzucił"
+      "lv": "on rzucałby"
     },
     "partizipVergangenheit": {
       "de": "geworfen",
-      "lv": "Rzucony"
+      "lv": "rzucany"
     }
   },
   {
     "infinitiv": {
       "de": "wiegen",
-      "lv": "Ważyć"
+      "lv": "ważyć"
     },
     "praesens": {
       "de": "er wiegt",
-      "lv": "On waży"
+      "lv": "on waży"
     },
     "imperfektIndikativ": {
       "de": "er wog",
-      "lv": "Ważył"
+      "lv": "on ważył"
     },
     "imperfektKonjunktiv": {
       "de": "er wöge",
-      "lv": "Ważyłby"
+      "lv": "on ważyłby"
     },
     "partizipVergangenheit": {
       "de": "gewogen",
-      "lv": "Ważony"
+      "lv": "ważony"
     }
   },
   {
     "infinitiv": {
       "de": "winden",
-      "lv": "Warkocz"
+      "lv": "wić"
     },
     "praesens": {
       "de": "er windet",
-      "lv": "On przypina"
+      "lv": "on wije"
     },
     "imperfektIndikativ": {
       "de": "er wand",
-      "lv": "On zaplata warkocze"
+      "lv": "on wił"
     },
     "imperfektKonjunktiv": {
       "de": "er wände",
-      "lv": "Zaplatałby warkocz"
+      "lv": "on wiłby"
     },
     "partizipVergangenheit": {
       "de": "gewunden",
-      "lv": "Spleciony"
+      "lv": "wity"
     }
   },
   {
     "infinitiv": {
       "de": "wissen",
-      "lv": "Wiedzieć"
+      "lv": "wiedzieć"
     },
     "praesens": {
       "de": "er weiß",
-      "lv": "On wie"
+      "lv": "on wie"
     },
     "imperfektIndikativ": {
       "de": "er wusste",
-      "lv": "Wiedział"
+      "lv": "on wiedział"
     },
     "imperfektKonjunktiv": {
       "de": "er wüsste",
-      "lv": "Wiedziałby"
+      "lv": "on wiedziałby"
     },
     "partizipVergangenheit": {
       "de": "gewusst",
-      "lv": "Znany"
+      "lv": "wiedział"
     }
   },
   {
     "infinitiv": {
       "de": "wollen",
-      "lv": "Chcę"
+      "lv": "chcieć"
     },
     "praesens": {
       "de": "er will",
-      "lv": "On chce"
+      "lv": "on chce"
     },
     "imperfektIndikativ": {
       "de": "wollte",
-      "lv": "Chciałem"
+      "lv": "on chciał"
     },
     "imperfektKonjunktiv": {
       "de": "wollte",
-      "lv": "Chciałem"
+      "lv": "on chciałby"
     },
     "partizipVergangenheit": {
       "de": "gewollt",
-      "lv": "Chciałem"
+      "lv": "chciał"
     }
   },
   {
     "infinitiv": {
       "de": "wringen",
-      "lv": "Wyciąć/wycisnąć"
+      "lv": "wyżymać / wyciskać"
     },
     "praesens": {
       "de": "er wringt",
-      "lv": "On wycina"
+      "lv": "on wyżyma / wyciska"
     },
     "imperfektIndikativ": {
       "de": "wrang",
-      "lv": "Wyciąć"
+      "lv": "on wyżymał / wyciskał"
     },
     "imperfektKonjunktiv": {
       "de": "wrang",
-      "lv": "Wyciąć"
+      "lv": "on wyżymałby / wyciskałby"
     },
     "partizipVergangenheit": {
       "de": "gewrungen",
-      "lv": "Wyciąć"
+      "lv": "wyżymany / wyciskany"
     }
   },
   {
     "infinitiv": {
       "de": "zeihen",
-      "lv": "Winić"
+      "lv": "obwiniać"
     },
     "praesens": {
       "de": "er zeiht",
-      "lv": "On obwinia"
+      "lv": "on obwinia"
     },
     "imperfektIndikativ": {
       "de": "zieh",
-      "lv": "Obwiniony"
+      "lv": "on obwiniał"
     },
     "imperfektKonjunktiv": {
       "de": "zieh",
-      "lv": "Obwiniony"
+      "lv": "on obwiniałby"
     },
     "partizipVergangenheit": {
       "de": "geziehen",
-      "lv": "Obwiniony"
+      "lv": "obwiniany"
     }
   },
   {
     "infinitiv": {
       "de": "ziehen",
-      "lv": "Ciągnąć"
+      "lv": "ciągnąć"
     },
     "praesens": {
       "de": "er zieht",
-      "lv": "On ciągnie"
+      "lv": "on ciągnie"
     },
     "imperfektIndikativ": {
       "de": "er zog",
-      "lv": "Pociągnął"
+      "lv": "on ciągnął"
     },
     "imperfektKonjunktiv": {
       "de": "er zöge",
-      "lv": "Ciągnąłby"
+      "lv": "on ciągnąłby"
     },
     "partizipVergangenheit": {
       "de": "gezogen",
-      "lv": "Przeciągnięty"
+      "lv": "ciągnięty"
     }
   },
   {
     "infinitiv": {
       "de": "zwingen",
-      "lv": "Zmuszać"
+      "lv": "zmuszać"
     },
     "praesens": {
       "de": "er zwingt",
-      "lv": "On zmusza"
+      "lv": "on zmusza"
     },
     "imperfektIndikativ": {
       "de": "er zwang",
-      "lv": "– zmusił"
+      "lv": "on zmuszał"
     },
     "imperfektKonjunktiv": {
       "de": "er zwänge",
-      "lv": "By zmusił"
+      "lv": "on zmuszałby"
     },
     "partizipVergangenheit": {
       "de": "gezwungen",
-      "lv": "Wymuszony"
+      "lv": "zmuszany"
     }
   },
   {
     "infinitiv": {
       "de": "empfangen",
-      "lv": "Otrzymać"
+      "lv": "otrzymywać"
     },
     "praesens": {
       "de": "er empfängt",
-      "lv": "Otrzymuje"
+      "lv": "on otrzymuje"
     },
     "imperfektIndikativ": {
       "de": "er empfing",
-      "lv": "Otrzymał"
+      "lv": "on otrzymywał"
     },
     "imperfektKonjunktiv": {
       "de": "er empfinge",
-      "lv": "Otrzymałby"
+      "lv": "on otrzymywałby"
     },
     "partizipVergangenheit": {
       "de": "empfangen",
-      "lv": "Otrzymane"
+      "lv": "otrzymywany"
     }
   },
   {
     "infinitiv": {
       "de": "erwägen",
-      "lv": "Rozważyć"
+      "lv": "rozważać"
     },
     "praesens": {
       "de": "er erwägt",
-      "lv": "Uważa"
+      "lv": "on rozważa"
     },
     "imperfektIndikativ": {
       "de": "er erwog",
-      "lv": "Zastanowił się"
+      "lv": "on rozważał"
     },
     "imperfektKonjunktiv": {
       "de": "er erwöge",
-      "lv": "Zastanowiłby się"
+      "lv": "on rozważałby"
     },
     "partizipVergangenheit": {
       "de": "erwogen",
-      "lv": "Uważany za"
+      "lv": "rozważany"
     }
   },
   {
     "infinitiv": {
       "de": "fechten",
-      "lv": "Walczyć"
+      "lv": "walczyć"
     },
     "praesens": {
       "de": "er ficht",
-      "lv": "On walczy"
+      "lv": "on walczy"
     },
     "imperfektIndikativ": {
       "de": "er focht",
-      "lv": "Walczył"
+      "lv": "on walczył"
     },
     "imperfektKonjunktiv": {
       "de": "er föchte",
-      "lv": "Walczyłby"
+      "lv": "on walczyłby"
     },
     "partizipVergangenheit": {
       "de": "gefochten",
-      "lv": "Walczył"
+      "lv": "walczył"
     }
   },
   {
     "infinitiv": {
       "de": "flechten",
-      "lv": "Warkocz"
+      "lv": "pleść"
     },
     "praesens": {
       "de": "er flicht",
-      "lv": "On przypina"
+      "lv": "on plecie"
     },
     "imperfektIndikativ": {
       "de": "er flocht",
-      "lv": "On zaplata warkocze"
+      "lv": "on plótł"
     },
     "imperfektKonjunktiv": {
       "de": "er flöchte",
-      "lv": "Zaplatałby warkocz"
+      "lv": "on plótłby"
     },
     "partizipVergangenheit": {
       "de": "geflochten",
-      "lv": "Spleciony"
+      "lv": "pleciony"
     }
   },
   {
     "infinitiv": {
       "de": "hangen",
-      "lv": "Powiesić"
+      "lv": "wisieć"
     },
     "praesens": {
       "de": "er hängt",
-      "lv": "Wisi"
+      "lv": "on wisi"
     },
     "imperfektIndikativ": {
       "de": "er hing",
-      "lv": "Powiesił się"
+      "lv": "on wisiał"
     },
     "imperfektKonjunktiv": {
       "de": "er hinge",
-      "lv": "Powiesiłby się"
+      "lv": "on wisiałby"
     },
     "partizipVergangenheit": {
       "de": "gehangen",
-      "lv": "Wytrzymać"
+      "lv": "wisiał"
     }
   },
   {
     "infinitiv": {
       "de": "spalten",
-      "lv": "Podzielić"
+      "lv": "rozłupywać"
     },
     "praesens": {
       "de": "er spaltet",
-      "lv": "On dzieli"
+      "lv": "on rozłupuje"
     },
     "imperfektIndikativ": {
       "de": "er spaltete",
-      "lv": "Rozstał się"
+      "lv": "on rozłupywał"
     },
     "imperfektKonjunktiv": {
       "de": "er spaltete",
-      "lv": "By się podzielił"
+      "lv": "on rozłupywałby"
     },
     "partizipVergangenheit": {
       "de": "gespalten",
-      "lv": "Podział"
+      "lv": "rozłupywany"
     }
   },
   {
     "infinitiv": {
       "de": "verzeihen",
-      "lv": "Wybaczyć"
+      "lv": "wybaczać"
     },
     "praesens": {
       "de": "er verzeiht",
-      "lv": "On przebacza"
+      "lv": "on wybacza"
     },
     "imperfektIndikativ": {
       "de": "er verzieh",
-      "lv": "Przebaczył"
+      "lv": "on wybaczał"
     },
     "imperfektKonjunktiv": {
       "de": "er verziehe",
-      "lv": "Przebaczyłby"
+      "lv": "on wybaczałby"
     },
     "partizipVergangenheit": {
       "de": "verziehen",
-      "lv": "Wybaczony"
+      "lv": "wybaczany"
     }
   }
 ];
