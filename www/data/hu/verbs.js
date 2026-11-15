@@ -2,4137 +2,4137 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "backen",
-      "lv": "Sütni"
+      "lv": "sütni"
     },
     "praesens": {
       "de": "er bäckt",
-      "lv": "Ő süti"
+      "lv": "ő süt"
     },
     "imperfektIndikativ": {
       "de": "er buk",
-      "lv": "Éppen sütött"
+      "lv": "ő sütött"
     },
     "imperfektKonjunktiv": {
       "de": "er büke",
-      "lv": "Ő sütné"
+      "lv": "ő sütne"
     },
     "partizipVergangenheit": {
       "de": "gebacken",
-      "lv": "Sült / sült"
+      "lv": "sütött"
     }
   },
   {
     "infinitiv": {
       "de": "befehlen",
-      "lv": "Parancsolni"
+      "lv": "parancsolni"
     },
     "praesens": {
       "de": "er befiehlt",
-      "lv": "Parancsolja"
+      "lv": "ő parancsol"
     },
     "imperfektIndikativ": {
       "de": "er befahl",
-      "lv": "– parancsolta"
+      "lv": "ő parancsolt"
     },
     "imperfektKonjunktiv": {
       "de": "er beföhle",
-      "lv": "Ő parancsolna"
+      "lv": "ő parancsolna"
     },
     "partizipVergangenheit": {
       "de": "befohlen",
-      "lv": "Parancsolta"
+      "lv": "parancsolt"
     }
   },
   {
     "infinitiv": {
       "de": "beginnen",
-      "lv": "Kezdeni"
+      "lv": "kezdeni"
     },
     "praesens": {
       "de": "er beginnt",
-      "lv": "Kezdi"
+      "lv": "ő kezd"
     },
     "imperfektIndikativ": {
       "de": "er begann",
-      "lv": "– kezdte"
+      "lv": "ő kezdett"
     },
     "imperfektKonjunktiv": {
       "de": "er begönne / er begänne",
-      "lv": "Ő kezdené"
+      "lv": "ő kezdene"
     },
     "partizipVergangenheit": {
       "de": "begonnen",
-      "lv": "Elindult"
+      "lv": "kezdett"
     }
   },
   {
     "infinitiv": {
       "de": "beißen",
-      "lv": "Harapás"
+      "lv": "harapni"
     },
     "praesens": {
       "de": "er beißt",
-      "lv": "Harap"
+      "lv": "ő harap"
     },
     "imperfektIndikativ": {
       "de": "er biss",
-      "lv": "– kódolta"
+      "lv": "ő harapott"
     },
     "imperfektKonjunktiv": {
       "de": "er bisse",
-      "lv": "Harap"
+      "lv": "ő harapna"
     },
     "partizipVergangenheit": {
       "de": "gebissen",
-      "lv": "Harapott / harapott"
+      "lv": "harapott"
     }
   },
   {
     "infinitiv": {
       "de": "bergen",
-      "lv": "Elrejt"
+      "lv": "megmenteni / eldugni"
     },
     "praesens": {
       "de": "er birgt",
-      "lv": "Elbújik"
+      "lv": "ő megment / eldug"
     },
     "imperfektIndikativ": {
       "de": "er barg",
-      "lv": "Elbújt"
+      "lv": "ő megmentett / eldugott"
     },
     "imperfektKonjunktiv": {
       "de": "er bürge / er bärge",
-      "lv": "Elbújna"
+      "lv": "ő megmentene / eldugna"
     },
     "partizipVergangenheit": {
       "de": "geborgen",
-      "lv": "Rejtett / mentve"
+      "lv": "megmentett / eldugott"
     }
   },
   {
     "infinitiv": {
       "de": "bersten",
-      "lv": "Felrobbanva"
+      "lv": "szétrepedni"
     },
     "praesens": {
       "de": "er birst",
-      "lv": "Felrobban"
+      "lv": "szétreped"
     },
     "imperfektIndikativ": {
       "de": "er barst / er borst",
-      "lv": "– tört ki belőle"
+      "lv": "szétrepedt"
     },
     "imperfektKonjunktiv": {
       "de": "er bärste / er börste",
-      "lv": "Felrobban"
+      "lv": "szétrepedne"
     },
     "partizipVergangenheit": {
       "de": "geborsten (er ist)",
-      "lv": "Törött"
+      "lv": "szétrepedt"
     }
   },
   {
     "infinitiv": {
       "de": "bewegen",
-      "lv": "Bátorítani"
+      "lv": "ösztönözni"
     },
     "praesens": {
       "de": "er bewegt",
-      "lv": "Felszólítja"
+      "lv": "ő ösztönöz"
     },
     "imperfektIndikativ": {
       "de": "er bewog",
-      "lv": "– sürgette"
+      "lv": "ő ösztönzött"
     },
     "imperfektKonjunktiv": {
       "de": "er bewöge",
-      "lv": "Biztatná"
+      "lv": "ő ösztönözne"
     },
     "partizipVergangenheit": {
       "de": "bewogen",
-      "lv": "Biztatott"
+      "lv": "ösztönzött"
     }
   },
   {
     "infinitiv": {
       "de": "biegen",
-      "lv": "Kanyar"
+      "lv": "hajlítani"
     },
     "praesens": {
       "de": "er biegt",
-      "lv": "Meghajol"
+      "lv": "ő hajlít"
     },
     "imperfektIndikativ": {
       "de": "er bog",
-      "lv": "Meghajolt"
+      "lv": "ő hajlított"
     },
     "imperfektKonjunktiv": {
       "de": "er böge",
-      "lv": "Meghajolna"
+      "lv": "ő hajlítana"
     },
     "partizipVergangenheit": {
       "de": "gebogen",
-      "lv": "Hajlott"
+      "lv": "hajlított"
     }
   },
   {
     "infinitiv": {
       "de": "bieten",
-      "lv": "Megígérni"
+      "lv": "kínálni"
     },
     "praesens": {
       "de": "er bietet",
-      "lv": "Megígéri"
+      "lv": "ő kínál"
     },
     "imperfektIndikativ": {
       "de": "er bot",
-      "lv": "Megígérte"
+      "lv": "ő kínált"
     },
     "imperfektKonjunktiv": {
       "de": "er böte",
-      "lv": "Megígérné"
+      "lv": "ő kínálna"
     },
     "partizipVergangenheit": {
       "de": "geboten",
-      "lv": "Ígért / felajánlotta"
+      "lv": "kínált"
     }
   },
   {
     "infinitiv": {
       "de": "binden",
-      "lv": "Szita"
+      "lv": "kötni"
     },
     "praesens": {
       "de": "er bindet",
-      "lv": "Ő széna"
+      "lv": "ő köt"
     },
     "imperfektIndikativ": {
       "de": "er band",
-      "lv": "Vetette"
+      "lv": "ő kötött"
     },
     "imperfektKonjunktiv": {
       "de": "er bände",
-      "lv": "Szitált"
+      "lv": "ő kötne"
     },
     "partizipVergangenheit": {
       "de": "gebunden",
-      "lv": "Szita"
+      "lv": "kötött"
     }
   },
   {
     "infinitiv": {
       "de": "bitten",
-      "lv": "Megkérdezni"
+      "lv": "kérni"
     },
     "praesens": {
       "de": "er bittet",
-      "lv": "Könyörög"
+      "lv": "ő kér"
     },
     "imperfektIndikativ": {
       "de": "er bat",
-      "lv": "– kérdezte"
+      "lv": "ő kért"
     },
     "imperfektKonjunktiv": {
       "de": "er bäte",
-      "lv": "Imádkozna"
+      "lv": "ő kérne"
     },
     "partizipVergangenheit": {
       "de": "gebeten",
-      "lv": "Kérte"
+      "lv": "kért"
     }
   },
   {
     "infinitiv": {
       "de": "blasen",
-      "lv": "Fújni"
+      "lv": "fújni"
     },
     "praesens": {
       "de": "er bläst",
-      "lv": "Fújja"
+      "lv": "ő fúj"
     },
     "imperfektIndikativ": {
       "de": "er blies",
-      "lv": "– fújta"
+      "lv": "ő fújt"
     },
     "imperfektKonjunktiv": {
       "de": "er bliese",
-      "lv": "Fújna"
+      "lv": "ő fújna"
     },
     "partizipVergangenheit": {
       "de": "geblasen",
-      "lv": "Kifulladt"
+      "lv": "fújt"
     }
   },
   {
     "infinitiv": {
       "de": "gären",
-      "lv": "Erjeszteni"
+      "lv": "erjedni"
     },
     "praesens": {
       "de": "es gärt",
-      "lv": "Erjed"
+      "lv": "erjed"
     },
     "imperfektIndikativ": {
       "de": "es gor / es gärte",
-      "lv": "Erjed"
+      "lv": "erjedt"
     },
     "imperfektKonjunktiv": {
       "de": "es göre / es gärte",
-      "lv": "Keserű lenne"
+      "lv": "erjedne"
     },
     "partizipVergangenheit": {
       "de": "gegoren / gegärt",
-      "lv": "Rozs"
+      "lv": "erjedt"
     }
   },
   {
     "infinitiv": {
       "de": "gebären",
-      "lv": "Szülni"
+      "lv": "szülni"
     },
     "praesens": {
       "de": "sie gebiert",
-      "lv": "A méhében"
+      "lv": "ő szül"
     },
     "imperfektIndikativ": {
       "de": "sie gebar",
-      "lv": "Szült"
+      "lv": "ő szült"
     },
     "imperfektKonjunktiv": {
       "de": "sie gebäre",
-      "lv": "Szülne"
+      "lv": "ő szülne"
     },
     "partizipVergangenheit": {
       "de": "geboren",
-      "lv": "Született / született"
+      "lv": "szült"
     }
   },
   {
     "infinitiv": {
       "de": "gelingen",
-      "lv": "Sikerül"
+      "lv": "sikerülni"
     },
     "praesens": {
       "de": "es gelingt",
-      "lv": "Ez sikerül"
+      "lv": "sikerül"
     },
     "imperfektIndikativ": {
       "de": "es gelang",
-      "lv": "Működött"
+      "lv": "sikerült"
     },
     "imperfektKonjunktiv": {
       "de": "es gelänge",
-      "lv": "Működne"
+      "lv": "sikerülne"
     },
     "partizipVergangenheit": {
       "de": "gelungen (es ist)",
-      "lv": "Sikerült"
+      "lv": "sikerült"
     }
   },
   {
     "infinitiv": {
       "de": "gelten",
-      "lv": "Jól jön"
+      "lv": "számítani"
     },
     "praesens": {
       "de": "er gilt",
-      "lv": "Neki megfelel / érvényes"
+      "lv": "ő számít"
     },
     "imperfektIndikativ": {
       "de": "er galt",
-      "lv": "Fitt / fitt volt"
+      "lv": "ő számított"
     },
     "imperfektKonjunktiv": {
       "de": "er gölte / es gälte",
-      "lv": "Ráférne / ráférne"
+      "lv": "ő számítana"
     },
     "partizipVergangenheit": {
       "de": "gegolten",
-      "lv": "Alkalmazta / érvényes volt"
+      "lv": "számított"
     }
   },
   {
     "infinitiv": {
       "de": "genesen",
-      "lv": "Gyógyulni"
+      "lv": "gyógyulni"
     },
     "praesens": {
       "de": "er genest",
-      "lv": "Meggyógyul"
+      "lv": "ő gyógyul"
     },
     "imperfektIndikativ": {
       "de": "er genas",
-      "lv": "Meggyógyult"
+      "lv": "ő gyógyult"
     },
     "imperfektKonjunktiv": {
       "de": "er genäse",
-      "lv": "Meggyógyulna"
+      "lv": "ő gyógyulna"
     },
     "partizipVergangenheit": {
       "de": "genesen (er ist)",
-      "lv": "Meggyógyul"
+      "lv": "gyógyult"
     }
   },
   {
     "infinitiv": {
       "de": "genießen",
-      "lv": "Élvezni"
+      "lv": "élvezni"
     },
     "praesens": {
       "de": "er genießt",
-      "lv": "Élvezi"
+      "lv": "ő élvez"
     },
     "imperfektIndikativ": {
       "de": "er genoss",
-      "lv": "Élvezte"
+      "lv": "ő élvezett"
     },
     "imperfektKonjunktiv": {
       "de": "er genösse",
-      "lv": "Élvezné"
+      "lv": "ő élvezne"
     },
     "partizipVergangenheit": {
       "de": "genossen",
-      "lv": "Élvezte"
+      "lv": "élvezett"
     }
   },
   {
     "infinitiv": {
       "de": "geschehen",
-      "lv": "Történik"
+      "lv": "történni"
     },
     "praesens": {
       "de": "es geschieht",
-      "lv": "Megtörténik"
+      "lv": "történik"
     },
     "imperfektIndikativ": {
       "de": "es geschah",
-      "lv": "Megtörtént"
+      "lv": "történt"
     },
     "imperfektKonjunktiv": {
       "de": "es geschähe",
-      "lv": "Megtörténne"
+      "lv": "történne"
     },
     "partizipVergangenheit": {
       "de": "geschehen (es ist)",
-      "lv": "Történt"
+      "lv": "történt"
     }
   },
   {
     "infinitiv": {
       "de": "gießen",
-      "lv": "Hadnagy"
+      "lv": "önteni"
     },
     "praesens": {
       "de": "er gießt",
-      "lv": "Önti"
+      "lv": "ő önt"
     },
     "imperfektIndikativ": {
       "de": "er goss",
-      "lv": "Öntötte"
+      "lv": "ő öntött"
     },
     "imperfektKonjunktiv": {
       "de": "er gösse",
-      "lv": "Ő esik"
+      "lv": "ő öntene"
     },
     "partizipVergangenheit": {
       "de": "gegossen",
-      "lv": "Dolog"
+      "lv": "öntött"
     }
   },
   {
     "infinitiv": {
       "de": "gleichen",
-      "lv": "Hasonlítani"
+      "lv": "hasonlítani"
     },
     "praesens": {
       "de": "er gleicht",
-      "lv": "Hasonlít"
+      "lv": "ő hasonlít"
     },
     "imperfektIndikativ": {
       "de": "er glich",
-      "lv": "– utánozta"
+      "lv": "ő hasonlított"
     },
     "imperfektKonjunktiv": {
       "de": "er gliche",
-      "lv": "Utánozna"
+      "lv": "ő hasonlítana"
     },
     "partizipVergangenheit": {
       "de": "geglichen",
-      "lv": "Hasonlított"
+      "lv": "hasonlított"
     }
   },
   {
     "infinitiv": {
       "de": "gleiten",
-      "lv": "Csúsztatni"
+      "lv": "siklani"
     },
     "praesens": {
       "de": "er gleitet",
-      "lv": "Csúszik"
+      "lv": "ő siklik"
     },
     "imperfektIndikativ": {
       "de": "er glitt",
-      "lv": "Csúszott"
+      "lv": "ő siklott"
     },
     "imperfektKonjunktiv": {
       "de": "er glitte",
-      "lv": "Csúszna"
+      "lv": "ő siklana"
     },
     "partizipVergangenheit": {
       "de": "geglitten (er ist)",
-      "lv": "Megcsúszott"
+      "lv": "siklott"
     }
   },
   {
     "infinitiv": {
       "de": "glimmen",
-      "lv": "Izzó"
+      "lv": "parázslani"
     },
     "praesens": {
       "de": "er glimmt",
-      "lv": "Izzik"
+      "lv": "parázslik"
     },
     "imperfektIndikativ": {
       "de": "er glimmte / glomm",
-      "lv": "– izzott"
+      "lv": "parázslott"
     },
     "imperfektKonjunktiv": {
       "de": "er glimmte",
-      "lv": "Ragyogna"
+      "lv": "parázslana"
     },
     "partizipVergangenheit": {
       "de": "geglimmt / geglommen",
-      "lv": "Izzó"
+      "lv": "parázslott"
     }
   },
   {
     "infinitiv": {
       "de": "graben",
-      "lv": "Ásni"
+      "lv": "ásni"
     },
     "praesens": {
       "de": "er gräbt",
-      "lv": "Ő ás"
+      "lv": "ő ás"
     },
     "imperfektIndikativ": {
       "de": "er grub",
-      "lv": "Ásott"
+      "lv": "ő ásott"
     },
     "imperfektKonjunktiv": {
       "de": "er grübe",
-      "lv": "Ásna"
+      "lv": "ő ásna"
     },
     "partizipVergangenheit": {
       "de": "gegraben",
-      "lv": "Dig"
+      "lv": "ásott"
     }
   },
   {
     "infinitiv": {
       "de": "greifen",
-      "lv": "Elkapni"
+      "lv": "megragadni"
     },
     "praesens": {
       "de": "er greift",
-      "lv": "Elkapja"
+      "lv": "ő megragad"
     },
     "imperfektIndikativ": {
       "de": "er griff",
-      "lv": "Elkapta"
+      "lv": "ő megragadott"
     },
     "imperfektKonjunktiv": {
       "de": "er griffe",
-      "lv": "Elkapná"
+      "lv": "ő megragadna"
     },
     "partizipVergangenheit": {
       "de": "gegriffen",
-      "lv": "Elkapta / megragadta"
+      "lv": "megragadott"
     }
   },
   {
     "infinitiv": {
       "de": "hauen",
-      "lv": "Vágni"
+      "lv": "vagdalni"
     },
     "praesens": {
       "de": "er haut",
-      "lv": "Választotta"
+      "lv": "ő vagdal"
     },
     "imperfektIndikativ": {
       "de": "er hieb",
-      "lv": "– csattant fel"
+      "lv": "ő vagdalt"
     },
     "imperfektKonjunktiv": {
       "de": "er hiebe",
-      "lv": "Faragna"
+      "lv": "ő vagdalna"
     },
     "partizipVergangenheit": {
       "de": "gehauen",
-      "lv": "Faragott"
+      "lv": "vagdalt"
     }
   },
   {
     "infinitiv": {
       "de": "heben",
-      "lv": "Emelni"
+      "lv": "emelni"
     },
     "praesens": {
       "de": "er hebt",
-      "lv": "Felemeli"
+      "lv": "ő emel"
     },
     "imperfektIndikativ": {
       "de": "er hob",
-      "lv": "Hozta"
+      "lv": "ő emelt"
     },
     "imperfektKonjunktiv": {
       "de": "er höbe",
-      "lv": "Építene"
+      "lv": "ő emelne"
     },
     "partizipVergangenheit": {
       "de": "gehoben",
-      "lv": "Épült"
+      "lv": "emelt"
     }
   },
   {
     "infinitiv": {
       "de": "kennen",
-      "lv": "Tudni / tudni"
+      "lv": "ismerni / tudni"
     },
     "praesens": {
       "de": "er kennt",
-      "lv": "Ő tudja"
+      "lv": "ő ismer / tud"
     },
     "imperfektIndikativ": {
       "de": "kannte",
-      "lv": "Tudta"
+      "lv": "ő ismert / tudott"
     },
     "imperfektKonjunktiv": {
       "de": "kannte",
-      "lv": "Tudta"
+      "lv": "ő ismerne / tudna"
     },
     "partizipVergangenheit": {
       "de": "gekannt",
-      "lv": "Ismerős"
+      "lv": "ismert / tudott"
     }
   },
   {
     "infinitiv": {
       "de": "klingen",
-      "lv": "Hogy megszólaljon"
+      "lv": "hangzani"
     },
     "praesens": {
       "de": "er klingt",
-      "lv": "Hangzik"
+      "lv": "hangzik"
     },
     "imperfektIndikativ": {
       "de": "er klang",
-      "lv": "– hangzott el"
+      "lv": "hangzott"
     },
     "imperfektKonjunktiv": {
       "de": "er klänge",
-      "lv": "Hangozna"
+      "lv": "hangzana"
     },
     "partizipVergangenheit": {
       "de": "geklungen",
-      "lv": "Hangzott el"
+      "lv": "hangzott"
     }
   },
   {
     "infinitiv": {
       "de": "kneifen",
-      "lv": "Csipet"
+      "lv": "csípni"
     },
     "praesens": {
       "de": "er kneift",
-      "lv": "– viccelődik"
+      "lv": "ő csíp"
     },
     "imperfektIndikativ": {
       "de": "er kniff",
-      "lv": "Megcsípte"
+      "lv": "ő csípett"
     },
     "imperfektKonjunktiv": {
       "de": "er kniffe",
-      "lv": "Megcsípné"
+      "lv": "ő csípne"
     },
     "partizipVergangenheit": {
       "de": "gekniffen",
-      "lv": "Megcsípte"
+      "lv": "csípett"
     }
   },
   {
     "infinitiv": {
       "de": "bleiben",
-      "lv": "Marad"
+      "lv": "maradni"
     },
     "praesens": {
       "de": "er bleibt",
-      "lv": "Ő marad"
+      "lv": "ő marad"
     },
     "imperfektIndikativ": {
       "de": "er blieb",
-      "lv": "Ő maradt"
+      "lv": "ő maradt"
     },
     "imperfektKonjunktiv": {
       "de": "er bliebe",
-      "lv": "Maradna"
+      "lv": "ő maradna"
     },
     "partizipVergangenheit": {
       "de": "geblieben (er ist)",
-      "lv": "Balra"
+      "lv": "maradt"
     }
   },
   {
     "infinitiv": {
       "de": "bleichen",
-      "lv": "Fehérít"
+      "lv": "fakulni"
     },
     "praesens": {
       "de": "er bleicht",
-      "lv": "Ő fehéríti"
+      "lv": "fakul"
     },
     "imperfektIndikativ": {
       "de": "blich",
-      "lv": "Fehérített"
+      "lv": "fakult"
     },
     "imperfektKonjunktiv": {
       "de": "blich",
-      "lv": "Fehérített"
+      "lv": "fakulna"
     },
     "partizipVergangenheit": {
       "de": "geblichen",
-      "lv": "Fehérített"
+      "lv": "fakult"
     }
   },
   {
     "infinitiv": {
       "de": "braten",
-      "lv": "Sütni"
+      "lv": "sütni"
     },
     "praesens": {
       "de": "er brät",
-      "lv": "Ő süti"
+      "lv": "ő süt"
     },
     "imperfektIndikativ": {
       "de": "er briet",
-      "lv": "Éppen sütött"
+      "lv": "ő sütött"
     },
     "imperfektKonjunktiv": {
       "de": "er briete",
-      "lv": "Ő sütné"
+      "lv": "ő sütne"
     },
     "partizipVergangenheit": {
       "de": "gebraten",
-      "lv": "Sült / sült"
+      "lv": "sütött"
     }
   },
   {
     "infinitiv": {
       "de": "brechen",
-      "lv": "Megtörni"
+      "lv": "törni"
     },
     "praesens": {
       "de": "er bricht",
-      "lv": "Megtöri"
+      "lv": "ő tör"
     },
     "imperfektIndikativ": {
       "de": "er brach",
-      "lv": "Megtörte"
+      "lv": "ő tört"
     },
     "imperfektKonjunktiv": {
       "de": "er bräche",
-      "lv": "Megtörne"
+      "lv": "ő törne"
     },
     "partizipVergangenheit": {
       "de": "gebrochen",
-      "lv": "Törött / törött"
+      "lv": "tört"
     }
   },
   {
     "infinitiv": {
       "de": "brennen",
-      "lv": "Égni"
+      "lv": "égni"
     },
     "praesens": {
       "de": "er brennt",
-      "lv": "Lángol"
+      "lv": "ég"
     },
     "imperfektIndikativ": {
       "de": "brannte",
-      "lv": "Égett"
+      "lv": "égett"
     },
     "imperfektKonjunktiv": {
       "de": "brannte",
-      "lv": "Égett"
+      "lv": "égne"
     },
     "partizipVergangenheit": {
       "de": "gebrannt",
-      "lv": "Égett"
+      "lv": "égett"
     }
   },
   {
     "infinitiv": {
       "de": "bringen",
-      "lv": "Visz"
+      "lv": "hozni"
     },
     "praesens": {
       "de": "er bringt",
-      "lv": "Ő viszi"
+      "lv": "ő hoz"
     },
     "imperfektIndikativ": {
       "de": "er brachte",
-      "lv": "Vitte"
+      "lv": "ő hozott"
     },
     "imperfektKonjunktiv": {
       "de": "er brächte",
-      "lv": "Vinné"
+      "lv": "ő hozna"
     },
     "partizipVergangenheit": {
       "de": "gebracht",
-      "lv": "Hozott / hozott"
+      "lv": "hozott"
     }
   },
   {
     "infinitiv": {
       "de": "denken",
-      "lv": "Gondolkodni"
+      "lv": "gondolni"
     },
     "praesens": {
       "de": "er denkt",
-      "lv": "Azt gondolja"
+      "lv": "ő gondol"
     },
     "imperfektIndikativ": {
       "de": "er dachte",
-      "lv": "– gondolta"
+      "lv": "ő gondolt"
     },
     "imperfektKonjunktiv": {
       "de": "er dächte",
-      "lv": "Azt gondolná"
+      "lv": "ő gondolna"
     },
     "partizipVergangenheit": {
       "de": "gedacht",
-      "lv": "Szándékolt"
+      "lv": "gondolt"
     }
   },
   {
     "infinitiv": {
       "de": "dingen",
-      "lv": "Felvenni / megállapodni"
+      "lv": "fogadni / megegyezni"
     },
     "praesens": {
       "de": "er dingt",
-      "lv": "Felveszi"
+      "lv": "ő fogad / megegyezik"
     },
     "imperfektIndikativ": {
       "de": "dingte",
-      "lv": "Bérelt"
+      "lv": "ő fogadott / megegyezett"
     },
     "imperfektKonjunktiv": {
       "de": "dingte",
-      "lv": "Bérelt"
+      "lv": "ő fogadna / megegyezne"
     },
     "partizipVergangenheit": {
       "de": "gedungen",
-      "lv": "Bérelt"
+      "lv": "fogadott / megegyezett"
     }
   },
   {
     "infinitiv": {
       "de": "dreschen",
-      "lv": "Kultusz"
+      "lv": "csépelni"
     },
     "praesens": {
       "de": "er drischt",
-      "lv": "Csépel"
+      "lv": "ő csépel"
     },
     "imperfektIndikativ": {
       "de": "er drasch / er drosch",
-      "lv": "Csépelt"
+      "lv": "ő csépelt"
     },
     "imperfektKonjunktiv": {
       "de": "er dräsche / er drösche",
-      "lv": "Imádná"
+      "lv": "ő csépelne"
     },
     "partizipVergangenheit": {
       "de": "gedroschen",
-      "lv": "Kultusz"
+      "lv": "csépelt"
     }
   },
   {
     "infinitiv": {
       "de": "dringen",
-      "lv": "Betör"
+      "lv": "behatolni"
     },
     "praesens": {
       "de": "er dringt",
-      "lv": "Betör"
+      "lv": "ő behatol"
     },
     "imperfektIndikativ": {
       "de": "er drang",
-      "lv": "Betört"
+      "lv": "ő behatolt"
     },
     "imperfektKonjunktiv": {
       "de": "er dränge",
-      "lv": "Betörne"
+      "lv": "ő behatolna"
     },
     "partizipVergangenheit": {
       "de": "gedrungen (er ist)",
-      "lv": "Betört"
+      "lv": "behatolt"
     }
   },
   {
     "infinitiv": {
       "de": "dünken",
-      "lv": "Úgy tűnik"
+      "lv": "tűnni"
     },
     "praesens": {
       "de": "es dünkt",
-      "lv": "Úgy tűnik"
+      "lv": "tűnik"
     },
     "imperfektIndikativ": {
       "de": "deuchte",
-      "lv": "Úgy tűnt"
+      "lv": "tűnt"
     },
     "imperfektKonjunktiv": {
       "de": "deuchte",
-      "lv": "Úgy tűnt"
+      "lv": "tűnne"
     },
     "partizipVergangenheit": {
       "de": "gedünkt",
-      "lv": "Úgy tűnt"
+      "lv": "tűnt"
     }
   },
   {
     "infinitiv": {
       "de": "dürfen",
-      "lv": "Hogy megengedjék"
+      "lv": "engedélyt kapni"
     },
     "praesens": {
       "de": "er darf",
-      "lv": "Tudja"
+      "lv": "ő engedélyt kap"
     },
     "imperfektIndikativ": {
       "de": "durfte",
-      "lv": "Engedélyezték"
+      "lv": "ő engedélyt kapott"
     },
     "imperfektKonjunktiv": {
       "de": "durfte",
-      "lv": "Engedélyezték"
+      "lv": "ő engedélyt kapna"
     },
     "partizipVergangenheit": {
       "de": "gedurft",
-      "lv": "Megengedett"
+      "lv": "engedélyt kapott"
     }
   },
   {
     "infinitiv": {
       "de": "empfehlen",
-      "lv": "Ajánlani"
+      "lv": "ajánlani"
     },
     "praesens": {
       "de": "er empfiehlt",
-      "lv": "– javasolja"
+      "lv": "ő ajánl"
     },
     "imperfektIndikativ": {
       "de": "er empfahl",
-      "lv": "– javasolta"
+      "lv": "ő ajánlott"
     },
     "imperfektKonjunktiv": {
       "de": "er empfähle / er empföhle",
-      "lv": "Ő ajánlaná"
+      "lv": "ő ajánlana"
     },
     "partizipVergangenheit": {
       "de": "empfohlen",
-      "lv": "Ajánlott"
+      "lv": "ajánlott"
     }
   },
   {
     "infinitiv": {
       "de": "empfinden",
-      "lv": "Érezni"
+      "lv": "érezni"
     },
     "praesens": {
       "de": "er empfindet",
-      "lv": "Úgy érzi"
+      "lv": "ő érez"
     },
     "imperfektIndikativ": {
       "de": "er empfand",
-      "lv": "Úgy érezte"
+      "lv": "ő érzett"
     },
     "imperfektKonjunktiv": {
       "de": "er empfände",
-      "lv": "Úgy érezné"
+      "lv": "ő érezne"
     },
     "partizipVergangenheit": {
       "de": "empfunden",
-      "lv": "Filc"
+      "lv": "érzett"
     }
   },
   {
     "infinitiv": {
       "de": "erlöschen",
-      "lv": "Elhalványul"
+      "lv": "kialudni"
     },
     "praesens": {
       "de": "er erlischt",
-      "lv": "Kimegy"
+      "lv": "kialszik"
     },
     "imperfektIndikativ": {
       "de": "er erlosch",
-      "lv": "Kiment"
+      "lv": "kialudt"
     },
     "imperfektKonjunktiv": {
       "de": "er erlösche",
-      "lv": "Elhalványulna"
+      "lv": "kialudna"
     },
     "partizipVergangenheit": {
       "de": "erloschen (er ist)",
-      "lv": "Kialudt"
+      "lv": "kialudt"
     }
   },
   {
     "infinitiv": {
       "de": "erschrecken",
-      "lv": "Összezavarodni"
+      "lv": "megijedni"
     },
     "praesens": {
       "de": "er erschrickt",
-      "lv": "Megijed"
+      "lv": "ő megijed"
     },
     "imperfektIndikativ": {
       "de": "er erschrak",
-      "lv": "Megijedt"
+      "lv": "ő megijedt"
     },
     "imperfektKonjunktiv": {
       "de": "er erschräke",
-      "lv": "Kiborulna"
+      "lv": "ő megijedne"
     },
     "partizipVergangenheit": {
       "de": "erschrocken (er ist)",
-      "lv": "Megrémült"
+      "lv": "megijedt"
     }
   },
   {
     "infinitiv": {
       "de": "essen",
-      "lv": "Enni"
+      "lv": "enni"
     },
     "praesens": {
       "de": "er isst",
-      "lv": "Eszik"
+      "lv": "ő eszik"
     },
     "imperfektIndikativ": {
       "de": "er ass",
-      "lv": "Evett"
+      "lv": "ő evett"
     },
     "imperfektKonjunktiv": {
       "de": "er äße",
-      "lv": "Enne"
+      "lv": "ő enne"
     },
     "partizipVergangenheit": {
       "de": "gegessen",
-      "lv": "Evett / evett"
+      "lv": "evett"
     }
   },
   {
     "infinitiv": {
       "de": "fahren",
-      "lv": "Hajtás"
+      "lv": "utazni"
     },
     "praesens": {
       "de": "er fährt",
-      "lv": "Ő vezet"
+      "lv": "ő utazik"
     },
     "imperfektIndikativ": {
       "de": "er fuhr",
-      "lv": "Ő vezetett"
+      "lv": "ő utazott"
     },
     "imperfektKonjunktiv": {
       "de": "er führe",
-      "lv": "Ő vezetne"
+      "lv": "ő utazna"
     },
     "partizipVergangenheit": {
       "de": "gefahren (er ist)",
-      "lv": "Vezetett / balra"
+      "lv": "utazott"
     }
   },
   {
     "infinitiv": {
       "de": "fallen",
-      "lv": "Leesni"
+      "lv": "esni"
     },
     "praesens": {
       "de": "er fällt",
-      "lv": "Leesik"
+      "lv": "ő esik"
     },
     "imperfektIndikativ": {
       "de": "er fiel",
-      "lv": "Elesett"
+      "lv": "ő esett"
     },
     "imperfektKonjunktiv": {
       "de": "er fiele",
-      "lv": "Elesne"
+      "lv": "ő esne"
     },
     "partizipVergangenheit": {
       "de": "gefallen (er ist)",
-      "lv": "Leesett"
+      "lv": "esett"
     }
   },
   {
     "infinitiv": {
       "de": "fangen",
-      "lv": "Elkapni"
+      "lv": "fogni"
     },
     "praesens": {
       "de": "er fängt",
-      "lv": "Elkapja"
+      "lv": "ő fog"
     },
     "imperfektIndikativ": {
       "de": "er fing",
-      "lv": "Elkapta"
+      "lv": "ő fogott"
     },
     "imperfektKonjunktiv": {
       "de": "er finge",
-      "lv": "Elkapná"
+      "lv": "ő fogna"
     },
     "partizipVergangenheit": {
       "de": "gefangen",
-      "lv": "Elkapott / elkapott"
+      "lv": "fogott"
     }
   },
   {
     "infinitiv": {
       "de": "finden",
-      "lv": "Megtalálni"
+      "lv": "találni"
     },
     "praesens": {
       "de": "er findet",
-      "lv": "Ő találja meg"
+      "lv": "ő talál"
     },
     "imperfektIndikativ": {
       "de": "er fand",
-      "lv": "Megtalálta"
+      "lv": "ő talált"
     },
     "imperfektKonjunktiv": {
       "de": "er fände",
-      "lv": "Találna"
+      "lv": "ő találna"
     },
     "partizipVergangenheit": {
       "de": "gefunden",
-      "lv": "Talált"
+      "lv": "talált"
     }
   },
   {
     "infinitiv": {
       "de": "fliegen",
-      "lv": "Engedd el"
+      "lv": "repülni"
     },
     "praesens": {
       "de": "er fliegt",
-      "lv": "Ő repül"
+      "lv": "ő repül"
     },
     "imperfektIndikativ": {
       "de": "er flog",
-      "lv": "Repült"
+      "lv": "ő repült"
     },
     "imperfektKonjunktiv": {
       "de": "er flöge",
-      "lv": "Repülne"
+      "lv": "ő repülne"
     },
     "partizipVergangenheit": {
       "de": "geflogen (er ist)",
-      "lv": "Repült"
+      "lv": "repült"
     }
   },
   {
     "infinitiv": {
       "de": "fliehen",
-      "lv": "Menekülni"
+      "lv": "menekülni"
     },
     "praesens": {
       "de": "er flieht",
-      "lv": "Elszalad"
+      "lv": "ő menekül"
     },
     "imperfektIndikativ": {
       "de": "er floh",
-      "lv": "Elszaladt"
+      "lv": "ő menekült"
     },
     "imperfektKonjunktiv": {
       "de": "er flöhe",
-      "lv": "Elszaladna"
+      "lv": "ő menekülne"
     },
     "partizipVergangenheit": {
       "de": "geflohen (er ist)",
-      "lv": "Elszaladt"
+      "lv": "menekült"
     }
   },
   {
     "infinitiv": {
       "de": "fließen",
-      "lv": "Folyni"
+      "lv": "folyni"
     },
     "praesens": {
       "de": "er fließt",
-      "lv": "Ő fut"
+      "lv": "folyik"
     },
     "imperfektIndikativ": {
       "de": "er floss",
-      "lv": "Futott"
+      "lv": "folyt"
     },
     "imperfektKonjunktiv": {
       "de": "er flösse",
-      "lv": "Futna"
+      "lv": "folyna"
     },
     "partizipVergangenheit": {
       "de": "geflossen (er ist)",
-      "lv": "Átment"
+      "lv": "folyt"
     }
   },
   {
     "infinitiv": {
       "de": "fressen",
-      "lv": "Holnap egyél"
+      "lv": "enni / falni"
     },
     "praesens": {
       "de": "er frisst",
-      "lv": "Eszik / lenyeli"
+      "lv": "ő eszik / fal"
     },
     "imperfektIndikativ": {
       "de": "er frass",
-      "lv": "Evett / nyelt"
+      "lv": "ő evett / falt"
     },
     "imperfektKonjunktiv": {
       "de": "er fräße",
-      "lv": "Enne/reggelizne"
+      "lv": "ő enne / falna"
     },
     "partizipVergangenheit": {
       "de": "gefressen",
-      "lv": "Evett / reggel"
+      "lv": "evett / falt"
     }
   },
   {
     "infinitiv": {
       "de": "frieren",
-      "lv": "Hideg"
+      "lv": "fázni"
     },
     "praesens": {
       "de": "er friert",
-      "lv": "Megfagy"
+      "lv": "ő fázik"
     },
     "imperfektIndikativ": {
       "de": "er fror",
-      "lv": "Ő sziget"
+      "lv": "ő fázott"
     },
     "imperfektKonjunktiv": {
       "de": "er fröre",
-      "lv": "Megdermedt"
+      "lv": "ő fázna"
     },
     "partizipVergangenheit": {
       "de": "gefroren",
-      "lv": "Sziget"
+      "lv": "fázott"
     }
   },
   {
     "infinitiv": {
       "de": "geben",
-      "lv": "Adni"
+      "lv": "adni"
     },
     "praesens": {
       "de": "er gibt",
-      "lv": "Ő ad"
+      "lv": "ő ad"
     },
     "imperfektIndikativ": {
       "de": "er gab",
-      "lv": "Adott"
+      "lv": "ő adott"
     },
     "imperfektKonjunktiv": {
       "de": "er gäbe",
-      "lv": "Ő adna"
+      "lv": "ő adna"
     },
     "partizipVergangenheit": {
       "de": "gegeben",
-      "lv": "Adott"
+      "lv": "adott"
     }
   },
   {
     "infinitiv": {
       "de": "gedeihen",
-      "lv": "Sikerül"
+      "lv": "fejlődni"
     },
     "praesens": {
       "de": "er gedeiht",
-      "lv": "Sikerül neki"
+      "lv": "ő fejlődik"
     },
     "imperfektIndikativ": {
       "de": "er gedieh",
-      "lv": "Sikerült neki"
+      "lv": "ő fejlődött"
     },
     "imperfektKonjunktiv": {
       "de": "er gediehe",
-      "lv": "Sikerülne neki"
+      "lv": "ő fejlődne"
     },
     "partizipVergangenheit": {
       "de": "gediehen (er ist)",
-      "lv": "Sikerült"
+      "lv": "fejlődött"
     }
   },
   {
     "infinitiv": {
       "de": "gehen",
-      "lv": "Megy"
+      "lv": "menni"
     },
     "praesens": {
       "de": "er geht",
-      "lv": "Ő megy"
+      "lv": "ő megy"
     },
     "imperfektIndikativ": {
       "de": "er ging",
-      "lv": "Sétált"
+      "lv": "ő ment"
     },
     "imperfektKonjunktiv": {
       "de": "er ginge",
-      "lv": "Menne"
+      "lv": "ő menne"
     },
     "partizipVergangenheit": {
       "de": "gegangen (er ist)",
-      "lv": "Ment"
+      "lv": "ment"
     }
   },
   {
     "infinitiv": {
       "de": "gewinnen",
-      "lv": "Megszerezni"
+      "lv": "nyerni"
     },
     "praesens": {
       "de": "er gewinnt",
-      "lv": "Megkapja"
+      "lv": "ő nyer"
     },
     "imperfektIndikativ": {
       "de": "er gewann",
-      "lv": "Megkapta"
+      "lv": "ő nyert"
     },
     "imperfektKonjunktiv": {
       "de": "er gewönne / er gewänne",
-      "lv": "Megkapná"
+      "lv": "ő nyerne"
     },
     "partizipVergangenheit": {
       "de": "gewonnen",
-      "lv": "Kapott"
+      "lv": "nyert"
     }
   },
   {
     "infinitiv": {
       "de": "haben",
-      "lv": "Lenni / tartozni"
+      "lv": "lenni"
     },
     "praesens": {
       "de": "er hat",
-      "lv": "Van neki"
+      "lv": "neki van"
     },
     "imperfektIndikativ": {
       "de": "hatte",
-      "lv": "Volt"
+      "lv": "neki volt"
     },
     "imperfektKonjunktiv": {
       "de": "hatte",
-      "lv": "Volt"
+      "lv": "neki lenne"
     },
     "partizipVergangenheit": {
       "de": "gehabt",
-      "lv": "Volt"
+      "lv": "volt"
     }
   },
   {
     "infinitiv": {
       "de": "halten",
-      "lv": "Tart"
+      "lv": "tartani"
     },
     "praesens": {
       "de": "er hält",
-      "lv": "Ő ott"
+      "lv": "ő tart"
     },
     "imperfektIndikativ": {
       "de": "er hielt",
-      "lv": "Tartotta"
+      "lv": "ő tartott"
     },
     "imperfektKonjunktiv": {
       "de": "er hielte",
-      "lv": "Tartaná"
+      "lv": "ő tartana"
     },
     "partizipVergangenheit": {
       "de": "gehalten",
-      "lv": "Tartott"
+      "lv": "tartott"
     }
   },
   {
     "infinitiv": {
       "de": "heißen",
-      "lv": "Felhívni"
+      "lv": "hívni"
     },
     "praesens": {
       "de": "er heißt",
-      "lv": "Hív / hívják"
+      "lv": "ő hív"
     },
     "imperfektIndikativ": {
       "de": "er hieß",
-      "lv": "Hívta / hívták"
+      "lv": "ő hívott"
     },
     "imperfektKonjunktiv": {
       "de": "er hieße",
-      "lv": "Hívná / hívná"
+      "lv": "ő hívna"
     },
     "partizipVergangenheit": {
       "de": "geheißen",
-      "lv": "Hívott"
+      "lv": "hívott"
     }
   },
   {
     "infinitiv": {
       "de": "helfen",
-      "lv": "Hogy segítsenek"
+      "lv": "segíteni"
     },
     "praesens": {
       "de": "er hilft",
-      "lv": "Ő segít"
+      "lv": "ő segít"
     },
     "imperfektIndikativ": {
       "de": "er half",
-      "lv": "Ő segített"
+      "lv": "ő segített"
     },
     "imperfektKonjunktiv": {
       "de": "er hülfe / er hälfe",
-      "lv": "Ő segítene"
+      "lv": "ő segítene"
     },
     "partizipVergangenheit": {
       "de": "geholfen",
-      "lv": "Segített"
+      "lv": "segített"
     }
   },
   {
     "infinitiv": {
       "de": "kommen",
-      "lv": "Hogy jöjjön"
+      "lv": "jönni"
     },
     "praesens": {
       "de": "er kommt",
-      "lv": "Ő jön"
+      "lv": "ő jön"
     },
     "imperfektIndikativ": {
       "de": "er kam",
-      "lv": "Ő jött"
+      "lv": "ő jött"
     },
     "imperfektKonjunktiv": {
       "de": "er käme",
-      "lv": "Jönne"
+      "lv": "ő jönne"
     },
     "partizipVergangenheit": {
       "de": "gekommen (er ist)",
-      "lv": "Megjött"
+      "lv": "jött"
     }
   },
   {
     "infinitiv": {
       "de": "können",
-      "lv": "Képes legyen"
+      "lv": "tudni"
     },
     "praesens": {
       "de": "er kann",
-      "lv": "Tudja"
+      "lv": "ő tud"
     },
     "imperfektIndikativ": {
       "de": "konnte",
-      "lv": "Tudott"
+      "lv": "ő tudott"
     },
     "imperfektKonjunktiv": {
       "de": "konnte",
-      "lv": "Tudott"
+      "lv": "ő tudna"
     },
     "partizipVergangenheit": {
       "de": "gekonnt",
-      "lv": "Tudott"
+      "lv": "tudott"
     }
   },
   {
     "infinitiv": {
       "de": "kriechen",
-      "lv": "Esik az eső"
+      "lv": "kúszni"
     },
     "praesens": {
       "de": "er kriecht",
-      "lv": "Meghajol"
+      "lv": "ő kúszik"
     },
     "imperfektIndikativ": {
       "de": "er kroch",
-      "lv": "Esett az eső"
+      "lv": "ő kúszott"
     },
     "imperfektKonjunktiv": {
       "de": "er kröche",
-      "lv": "Esik az eső"
+      "lv": "ő kúszna"
     },
     "partizipVergangenheit": {
       "de": "gekrochen (er ist)",
-      "lv": "Elhunyt"
+      "lv": "kúszott"
     }
   },
   {
     "infinitiv": {
       "de": "laden",
-      "lv": "Betölteni, meghívni"
+      "lv": "rakni / hívni"
     },
     "praesens": {
       "de": "er lädt",
-      "lv": "Felhalmoz / meghív"
+      "lv": "ő rak / hív"
     },
     "imperfektIndikativ": {
       "de": "er lud",
-      "lv": "Betöltötte / meghívta"
+      "lv": "ő rakott / hívott"
     },
     "imperfektKonjunktiv": {
       "de": "er lüde",
-      "lv": "Betöltené / meghívná"
+      "lv": "ő rakna / hívna"
     },
     "partizipVergangenheit": {
       "de": "geladen",
-      "lv": "Betöltve / meghívva"
+      "lv": "rakott / hívott"
     }
   },
   {
     "infinitiv": {
       "de": "lassen",
-      "lv": "Rakni, engedni"
+      "lv": "utasítani / engedni"
     },
     "praesens": {
       "de": "er lässt",
-      "lv": "Tesz / enged"
+      "lv": "ő utasít / enged"
     },
     "imperfektIndikativ": {
       "de": "er ließ",
-      "lv": "Parancsolta / megengedte"
+      "lv": "ő utasított / engedett"
     },
     "imperfektKonjunktiv": {
       "de": "er ließe",
-      "lv": "Tenné / engedné"
+      "lv": "ő utasítana / engedne"
     },
     "partizipVergangenheit": {
       "de": "gelassen",
-      "lv": "Tegye / engedélyezett"
+      "lv": "utasított / engedett"
     }
   },
   {
     "infinitiv": {
       "de": "laufen",
-      "lv": "Futni"
+      "lv": "futni"
     },
     "praesens": {
       "de": "er läuft",
-      "lv": "Ő fut"
+      "lv": "ő fut"
     },
     "imperfektIndikativ": {
       "de": "er lief",
-      "lv": "Futott"
+      "lv": "ő futott"
     },
     "imperfektKonjunktiv": {
       "de": "er liefe",
-      "lv": "Futna"
+      "lv": "ő futna"
     },
     "partizipVergangenheit": {
       "de": "gelaufen (er ist)",
-      "lv": "Futott"
+      "lv": "futott"
     }
   },
   {
     "infinitiv": {
       "de": "leiden",
-      "lv": "Szenvedni"
+      "lv": "szenvedni"
     },
     "praesens": {
       "de": "er leidet",
-      "lv": "Szenved"
+      "lv": "ő szenved"
     },
     "imperfektIndikativ": {
       "de": "er litt",
-      "lv": "Szenvedett"
+      "lv": "ő szenvedett"
     },
     "imperfektKonjunktiv": {
       "de": "er litte",
-      "lv": "Szenvedne"
+      "lv": "ő szenvedne"
     },
     "partizipVergangenheit": {
       "de": "gelitten",
-      "lv": "Szenvedett"
+      "lv": "szenvedett"
     }
   },
   {
     "infinitiv": {
       "de": "leihen",
-      "lv": "Kölcsön/kölcsön"
+      "lv": "kölcsönözni"
     },
     "praesens": {
       "de": "er leiht",
-      "lv": "Kölcsönad / kölcsönad"
+      "lv": "ő kölcsönöz"
     },
     "imperfektIndikativ": {
       "de": "er lieh",
-      "lv": "Kölcsönadott / kölcsönvett"
+      "lv": "ő kölcsönzött"
     },
     "imperfektKonjunktiv": {
       "de": "er liehe",
-      "lv": "Kölcsönadna / kölcsönadna"
+      "lv": "ő kölcsönözne"
     },
     "partizipVergangenheit": {
       "de": "geliehen",
-      "lv": "Kölcsönzött / kölcsönvett"
+      "lv": "kölcsönzött"
     }
   },
   {
     "infinitiv": {
       "de": "lesen",
-      "lv": "Olvasni"
+      "lv": "olvasni"
     },
     "praesens": {
       "de": "er liest",
-      "lv": "Ő olvas"
+      "lv": "ő olvas"
     },
     "imperfektIndikativ": {
       "de": "er las",
-      "lv": "Olvasott"
+      "lv": "ő olvasott"
     },
     "imperfektKonjunktiv": {
       "de": "er läse",
-      "lv": "Olvasna"
+      "lv": "ő olvasna"
     },
     "partizipVergangenheit": {
       "de": "gelesen",
-      "lv": "Olvas"
+      "lv": "olvasott"
     }
   },
   {
     "infinitiv": {
       "de": "liegen",
-      "lv": "Aludni"
+      "lv": "feküdni"
     },
     "praesens": {
       "de": "er liegt",
-      "lv": "Ő alszik"
+      "lv": "ő fekszik"
     },
     "imperfektIndikativ": {
       "de": "er lag",
-      "lv": "Aludt"
+      "lv": "ő feküdt"
     },
     "imperfektKonjunktiv": {
       "de": "er läge",
-      "lv": "Aludna"
+      "lv": "ő feküdne"
     },
     "partizipVergangenheit": {
       "de": "gelegen",
-      "lv": "Aludt"
+      "lv": "feküdt"
     }
   },
   {
     "infinitiv": {
       "de": "lügen",
-      "lv": "Hazudni"
+      "lv": "hazudni"
     },
     "praesens": {
       "de": "er lügt",
-      "lv": "Hazudik"
+      "lv": "ő hazudik"
     },
     "imperfektIndikativ": {
       "de": "er log",
-      "lv": "Hazudott"
+      "lv": "ő hazudott"
     },
     "imperfektKonjunktiv": {
       "de": "er löge",
-      "lv": "Hazudna"
+      "lv": "ő hazudna"
     },
     "partizipVergangenheit": {
       "de": "gelogen",
-      "lv": "Hazudott"
+      "lv": "hazudott"
     }
   },
   {
     "infinitiv": {
       "de": "mahlen",
-      "lv": "Föld"
+      "lv": "őrölni"
     },
     "praesens": {
       "de": "er mahlt",
-      "lv": "Őröl"
+      "lv": "ő őröl"
     },
     "imperfektIndikativ": {
       "de": "er mahlte",
-      "lv": "Ő él"
+      "lv": "ő őrölt"
     },
     "imperfektKonjunktiv": {
       "de": "er malte",
-      "lv": "Őröl"
+      "lv": "ő őrölne"
     },
     "partizipVergangenheit": {
       "de": "gemahlen",
-      "lv": "Föld"
+      "lv": "őrölt"
     }
   },
   {
     "infinitiv": {
       "de": "meiden",
-      "lv": "Elkerül"
+      "lv": "kerülni"
     },
     "praesens": {
       "de": "er meidet",
-      "lv": "Kerüli"
+      "lv": "ő kerül"
     },
     "imperfektIndikativ": {
       "de": "er mied",
-      "lv": "Kerülte"
+      "lv": "ő került"
     },
     "imperfektKonjunktiv": {
       "de": "er miede",
-      "lv": "Elkerülné"
+      "lv": "ő kerülne"
     },
     "partizipVergangenheit": {
       "de": "gemieden",
-      "lv": "Elkerülve"
+      "lv": "került"
     }
   },
   {
     "infinitiv": {
       "de": "melken",
-      "lv": "Fejni"
+      "lv": "fejni"
     },
     "praesens": {
       "de": "er milkt / er melkt",
-      "lv": "Söpör"
+      "lv": "ő fej"
     },
     "imperfektIndikativ": {
       "de": "er molk / er melkte",
-      "lv": "Söpört"
+      "lv": "ő fejt"
     },
     "imperfektKonjunktiv": {
       "de": "er mölke / er melkte",
-      "lv": "Megfejne"
+      "lv": "ő fejne"
     },
     "partizipVergangenheit": {
       "de": "gemolken / gemelkt",
-      "lv": "Fejt"
+      "lv": "fejt"
     }
   },
   {
     "infinitiv": {
       "de": "messen",
-      "lv": "Mérni"
+      "lv": "mérni"
     },
     "praesens": {
       "de": "er misst",
-      "lv": "Méri"
+      "lv": "ő mér"
     },
     "imperfektIndikativ": {
       "de": "er mass",
-      "lv": "– mérte végig"
+      "lv": "ő mért"
     },
     "imperfektKonjunktiv": {
       "de": "er mäße",
-      "lv": "Megmérné"
+      "lv": "ő mérne"
     },
     "partizipVergangenheit": {
       "de": "gemessen",
-      "lv": "Mért"
+      "lv": "mért"
     }
   },
   {
     "infinitiv": {
       "de": "misslingen",
-      "lv": "Megbukni"
+      "lv": "nem sikerülni"
     },
     "praesens": {
       "de": "es misslingt",
-      "lv": "Nem sikerül"
+      "lv": "nem sikerül"
     },
     "imperfektIndikativ": {
       "de": "misslang",
-      "lv": "Sikertelen"
+      "lv": "nem sikerült"
     },
     "imperfektKonjunktiv": {
       "de": "misslang",
-      "lv": "Sikertelen"
+      "lv": "nem sikerülne"
     },
     "partizipVergangenheit": {
       "de": "misslungen",
-      "lv": "Sikertelen"
+      "lv": "nem sikerült"
     }
   },
   {
     "infinitiv": {
       "de": "mögen",
-      "lv": "Kedvelni"
+      "lv": "tetszeni"
     },
     "praesens": {
       "de": "er mag",
-      "lv": "Tetszik neki"
+      "lv": "neki tetszik"
     },
     "imperfektIndikativ": {
       "de": "mochte",
-      "lv": "Tetszett"
+      "lv": "neki tetszett"
     },
     "imperfektKonjunktiv": {
       "de": "mochte",
-      "lv": "Tetszett"
+      "lv": "neki tetszene"
     },
     "partizipVergangenheit": {
       "de": "gemocht",
-      "lv": "Tetszett"
+      "lv": "tetszett"
     }
   },
   {
     "infinitiv": {
       "de": "müssen",
-      "lv": "Hogy szüksége van"
+      "lv": "kelleni"
     },
     "praesens": {
       "de": "er muss",
-      "lv": "Kell neki"
+      "lv": "neki kell"
     },
     "imperfektIndikativ": {
       "de": "musste",
-      "lv": "Kellett volna"
+      "lv": "neki kellett"
     },
     "imperfektKonjunktiv": {
       "de": "musste",
-      "lv": "Kellett volna"
+      "lv": "neki kellene"
     },
     "partizipVergangenheit": {
       "de": "gemusst",
-      "lv": "Szükséges"
+      "lv": "kellett"
     }
   },
   {
     "infinitiv": {
       "de": "nehmen",
-      "lv": "Venni"
+      "lv": "venni"
     },
     "praesens": {
       "de": "er nimmt",
-      "lv": "Veszi"
+      "lv": "ő vesz"
     },
     "imperfektIndikativ": {
       "de": "er nahm",
-      "lv": "Elvette"
+      "lv": "ő vett"
     },
     "imperfektKonjunktiv": {
       "de": "er nähme",
-      "lv": "Venné"
+      "lv": "ő venne"
     },
     "partizipVergangenheit": {
       "de": "genommen",
-      "lv": "Vett"
+      "lv": "vett"
     }
   },
   {
     "infinitiv": {
       "de": "nennen",
-      "lv": "Megnevezni"
+      "lv": "nevezni"
     },
     "praesens": {
       "de": "er nennt",
-      "lv": "Nevezte meg"
+      "lv": "ő nevez"
     },
     "imperfektIndikativ": {
       "de": "er nannte",
-      "lv": "Hívott"
+      "lv": "ő nevezett"
     },
     "imperfektKonjunktiv": {
       "de": "er nennte",
-      "lv": "Megnevezné"
+      "lv": "ő nevezne"
     },
     "partizipVergangenheit": {
       "de": "genannt",
-      "lv": "Nevű"
+      "lv": "nevezett"
     }
   },
   {
     "infinitiv": {
       "de": "pfeifen",
-      "lv": "Fütyülni"
+      "lv": "fütyülni"
     },
     "praesens": {
       "de": "er pfeift",
-      "lv": "Fütyül"
+      "lv": "ő fütyül"
     },
     "imperfektIndikativ": {
       "de": "er pfiff",
-      "lv": "Füttyentett"
+      "lv": "ő fütyült"
     },
     "imperfektKonjunktiv": {
       "de": "er pfiffe",
-      "lv": "Fütyülne"
+      "lv": "ő fütyülne"
     },
     "partizipVergangenheit": {
       "de": "gepfiffen",
-      "lv": "Fütyült"
+      "lv": "fütyült"
     }
   },
   {
     "infinitiv": {
       "de": "pflegen",
-      "lv": "Fenntartani"
+      "lv": "gondozni"
     },
     "praesens": {
       "de": "er pflegt",
-      "lv": "Törődik vele"
+      "lv": "ő gondoz"
     },
     "imperfektIndikativ": {
       "de": "pflegte / pflog",
-      "lv": "Készlet"
+      "lv": "ő gondozott"
     },
     "imperfektKonjunktiv": {
       "de": "pflegte / pflog",
-      "lv": "Készlet"
+      "lv": "ő gondozna"
     },
     "partizipVergangenheit": {
       "de": "gepflegt / gepflogen",
-      "lv": "Ápolt"
+      "lv": "gondozott"
     }
   },
   {
     "infinitiv": {
       "de": "preisen",
-      "lv": "Dicséret"
+      "lv": "dicsérni"
     },
     "praesens": {
       "de": "er preist",
-      "lv": "Dicséri"
+      "lv": "ő dicsér"
     },
     "imperfektIndikativ": {
       "de": "er pries",
-      "lv": "– dicsérte meg"
+      "lv": "ő dicsért"
     },
     "imperfektKonjunktiv": {
       "de": "er priese",
-      "lv": "Megdicsérné"
+      "lv": "ő dicsérne"
     },
     "partizipVergangenheit": {
       "de": "gepriesen",
-      "lv": "Dicsérte"
+      "lv": "dicsért"
     }
   },
   {
     "infinitiv": {
       "de": "quellen",
-      "lv": "Felpuffad"
+      "lv": "duzzadni"
     },
     "praesens": {
       "de": "er quillt",
-      "lv": "Meghízik"
+      "lv": "duzzad"
     },
     "imperfektIndikativ": {
       "de": "er quoll",
-      "lv": "Érlelődött"
+      "lv": "duzzadt"
     },
     "imperfektKonjunktiv": {
       "de": "er quölle",
-      "lv": "Ő kövér"
+      "lv": "duzzadna"
     },
     "partizipVergangenheit": {
       "de": "gequollen (er ist)",
-      "lv": "Duzzadt"
+      "lv": "duzzadt"
     }
   },
   {
     "infinitiv": {
       "de": "raten",
-      "lv": "Javasol / említ"
+      "lv": "tanácsolni / találgatni"
     },
     "praesens": {
       "de": "er rät",
-      "lv": "Ajánlja / min"
+      "lv": "ő tanácsol / találgat"
     },
     "imperfektIndikativ": {
       "de": "er riet",
-      "lv": "Javasolta / javasolta"
+      "lv": "ő tanácsolt / találgatott"
     },
     "imperfektKonjunktiv": {
       "de": "er riete",
-      "lv": "Javasolna / megemlítené"
+      "lv": "ő tanácsolna / találgatna"
     },
     "partizipVergangenheit": {
       "de": "geraten",
-      "lv": "Javasolt/említett"
+      "lv": "tanácsolt / találgatott"
     }
   },
   {
     "infinitiv": {
       "de": "reiben",
-      "lv": "Dörzsölni"
+      "lv": "dörzsölni"
     },
     "praesens": {
       "de": "er reibt",
-      "lv": "Dörzsöli"
+      "lv": "ő dörzsöl"
     },
     "imperfektIndikativ": {
       "de": "er rieb",
-      "lv": "Dörzsöli"
+      "lv": "ő dörzsölt"
     },
     "imperfektKonjunktiv": {
       "de": "er riebe",
-      "lv": "Dörzsölné"
+      "lv": "ő dörzsölne"
     },
     "partizipVergangenheit": {
       "de": "gerieben",
-      "lv": "Dörzsölte"
+      "lv": "dörzsölt"
     }
   },
   {
     "infinitiv": {
       "de": "reißen",
-      "lv": "Húzni"
+      "lv": "tépni"
     },
     "praesens": {
       "de": "er reißt",
-      "lv": "– csattan fel"
+      "lv": "ő tép"
     },
     "imperfektIndikativ": {
       "de": "er riss",
-      "lv": "– csattant fel"
+      "lv": "ő tépett"
     },
     "imperfektKonjunktiv": {
       "de": "er risse",
-      "lv": "– csattant fel"
+      "lv": "ő tépne"
     },
     "partizipVergangenheit": {
       "de": "gerissen",
-      "lv": "Szakadt"
+      "lv": "tépett"
     }
   },
   {
     "infinitiv": {
       "de": "reiten",
-      "lv": "Lovagolni"
+      "lv": "lovagolni"
     },
     "praesens": {
       "de": "er reitet",
-      "lv": "Lovagol"
+      "lv": "ő lovagol"
     },
     "imperfektIndikativ": {
       "de": "er ritt",
-      "lv": "Lovagolt"
+      "lv": "ő lovagolt"
     },
     "imperfektKonjunktiv": {
       "de": "er ritte",
-      "lv": "Lovagolna"
+      "lv": "ő lovagolna"
     },
     "partizipVergangenheit": {
       "de": "geritten (er ist)",
-      "lv": "Lovagolt"
+      "lv": "lovagolt"
     }
   },
   {
     "infinitiv": {
       "de": "rennen",
-      "lv": "Futni"
+      "lv": "rohanni"
     },
     "praesens": {
       "de": "er rennt",
-      "lv": "Ő fut"
+      "lv": "ő rohan"
     },
     "imperfektIndikativ": {
       "de": "er rannte",
-      "lv": "Futott"
+      "lv": "ő rohant"
     },
     "imperfektKonjunktiv": {
       "de": "er rennte",
-      "lv": "Futna"
+      "lv": "ő rohanna"
     },
     "partizipVergangenheit": {
       "de": "gerannt",
-      "lv": "Futott"
+      "lv": "rohant"
     }
   },
   {
     "infinitiv": {
       "de": "riechen",
-      "lv": "Ost"
+      "lv": "szagolni"
     },
     "praesens": {
       "de": "er riecht",
-      "lv": "Megszagolja"
+      "lv": "ő szagol"
     },
     "imperfektIndikativ": {
       "de": "er roch",
-      "lv": "Énekel"
+      "lv": "ő szagolt"
     },
     "imperfektKonjunktiv": {
       "de": "er röche",
-      "lv": "Ő port"
+      "lv": "ő szagolna"
     },
     "partizipVergangenheit": {
       "de": "gerochen",
-      "lv": "Kikötő"
+      "lv": "szagolt"
     }
   },
   {
     "infinitiv": {
       "de": "ringen",
-      "lv": "Megtörni"
+      "lv": "birkózni"
     },
     "praesens": {
       "de": "er ringt",
-      "lv": "Megtöri"
+      "lv": "ő birkózik"
     },
     "imperfektIndikativ": {
       "de": "er rang",
-      "lv": "Összetört"
+      "lv": "ő birkózott"
     },
     "imperfektKonjunktiv": {
       "de": "er ränge",
-      "lv": "Megtörne"
+      "lv": "ő birkózna"
     },
     "partizipVergangenheit": {
       "de": "gerungen",
-      "lv": "Várjon"
+      "lv": "birkózott"
     }
   },
   {
     "infinitiv": {
       "de": "rinnen",
-      "lv": "Folyni"
+      "lv": "folyni"
     },
     "praesens": {
       "de": "er rinnt",
-      "lv": "Ő fut"
+      "lv": "folyik"
     },
     "imperfektIndikativ": {
       "de": "er rann",
-      "lv": "Futott"
+      "lv": "folyt"
     },
     "imperfektKonjunktiv": {
       "de": "er ränne / er rönne",
-      "lv": "Futna"
+      "lv": "folyna"
     },
     "partizipVergangenheit": {
       "de": "geronnen (er ist)",
-      "lv": "Elfolyt / alvadt"
+      "lv": "folyt"
     }
   },
   {
     "infinitiv": {
       "de": "rufen",
-      "lv": "Felhívni"
+      "lv": "hívni"
     },
     "praesens": {
       "de": "er ruft",
-      "lv": "Hívja"
+      "lv": "ő hív"
     },
     "imperfektIndikativ": {
       "de": "er rief",
-      "lv": "Hívott"
+      "lv": "ő hívott"
     },
     "imperfektKonjunktiv": {
       "de": "er riefe",
-      "lv": "Hívna"
+      "lv": "ő hívna"
     },
     "partizipVergangenheit": {
       "de": "gerufen",
-      "lv": "Hívott"
+      "lv": "hívott"
     }
   },
   {
     "infinitiv": {
       "de": "salzen",
-      "lv": "Sózni"
+      "lv": "sózni"
     },
     "praesens": {
       "de": "er salzt",
-      "lv": "Megsózta"
+      "lv": "ő sóz"
     },
     "imperfektIndikativ": {
       "de": "er salzte",
-      "lv": "Megsózta"
+      "lv": "ő sózott"
     },
     "imperfektKonjunktiv": {
       "de": "er salzte",
-      "lv": "Megsózná"
+      "lv": "ő sózna"
     },
     "partizipVergangenheit": {
       "de": "gesalzen",
-      "lv": "Sózott"
+      "lv": "sózott"
     }
   },
   {
     "infinitiv": {
       "de": "saufen",
-      "lv": "Szárítani / inni"
+      "lv": "inni"
     },
     "praesens": {
       "de": "er säuft",
-      "lv": "Iszik / iszik"
+      "lv": "ő iszik"
     },
     "imperfektIndikativ": {
       "de": "er soff",
-      "lv": "Ivott / ivott"
+      "lv": "ő ivott"
     },
     "imperfektKonjunktiv": {
       "de": "er söffe",
-      "lv": "Inna / inna"
+      "lv": "ő inna"
     },
     "partizipVergangenheit": {
       "de": "gesoffen",
-      "lv": "Részeg"
+      "lv": "ivott"
     }
   },
   {
     "infinitiv": {
       "de": "saugen",
-      "lv": "Szív"
+      "lv": "szívni"
     },
     "praesens": {
       "de": "er saugt",
-      "lv": "Ő szívja"
+      "lv": "ő szív"
     },
     "imperfektIndikativ": {
       "de": "er sog",
-      "lv": "Megszívta"
+      "lv": "ő szívott"
     },
     "imperfektKonjunktiv": {
       "de": "er söge",
-      "lv": "Megszívná"
+      "lv": "ő szívna"
     },
     "partizipVergangenheit": {
       "de": "gesogen",
-      "lv": "Szívott"
+      "lv": "szívott"
     }
   },
   {
     "infinitiv": {
       "de": "schaffen",
-      "lv": "Létrehozni"
+      "lv": "teremteni"
     },
     "praesens": {
       "de": "er schafft",
-      "lv": "Ő alkot"
+      "lv": "ő teremt"
     },
     "imperfektIndikativ": {
       "de": "er schuf",
-      "lv": "Teremtett"
+      "lv": "ő teremtett"
     },
     "imperfektKonjunktiv": {
       "de": "er schüfe",
-      "lv": "Ő teremtene"
+      "lv": "ő teremtene"
     },
     "partizipVergangenheit": {
       "de": "geschaffen",
-      "lv": "Létre"
+      "lv": "teremtett"
     }
   },
   {
     "infinitiv": {
       "de": "schallen",
-      "lv": "Hogy megszólaljon"
+      "lv": "hangzani"
     },
     "praesens": {
       "de": "es schallt",
-      "lv": "Úgy hangzik"
+      "lv": "hangzik"
     },
     "imperfektIndikativ": {
       "de": "schallte / scholl",
-      "lv": "Hangzott el"
+      "lv": "hangzott"
     },
     "imperfektKonjunktiv": {
       "de": "schallte / scholl",
-      "lv": "Hangzott el"
+      "lv": "hangzana"
     },
     "partizipVergangenheit": {
       "de": "geschallt",
-      "lv": "Hangzott el"
+      "lv": "hangzott"
     }
   },
   {
     "infinitiv": {
       "de": "scheiden",
-      "lv": "Válás / szakítás"
+      "lv": "elválasztani / elválni"
     },
     "praesens": {
       "de": "er scheidet",
-      "lv": "Váló / válófélben van"
+      "lv": "ő elválaszt / elválik"
     },
     "imperfektIndikativ": {
       "de": "er schied",
-      "lv": "Elvált / elvált"
+      "lv": "ő elválasztott / elvált"
     },
     "imperfektKonjunktiv": {
       "de": "er schiede",
-      "lv": "Elválna / válna"
+      "lv": "ő elválasztana / elválna"
     },
     "partizipVergangenheit": {
       "de": "geschieden (er hat / er ist)",
-      "lv": "Elvált / elvált"
+      "lv": "elválasztott / elvált"
     }
   },
   {
     "infinitiv": {
       "de": "scheinen",
-      "lv": "Ragyog / jelenik meg"
+      "lv": "ragyogni / tűnni"
     },
     "praesens": {
       "de": "er scheint",
-      "lv": "Ragyog / látszik"
+      "lv": "ő ragyog / tűnik"
     },
     "imperfektIndikativ": {
       "de": "er schien",
-      "lv": "Ragyogott / látszott"
+      "lv": "ő ragyogott / tűnt"
     },
     "imperfektKonjunktiv": {
       "de": "er schiene",
-      "lv": "Ragyogna / látszana"
+      "lv": "ő ragyogna / tűnne"
     },
     "partizipVergangenheit": {
       "de": "geschienen",
-      "lv": "Ragyogott / látszott"
+      "lv": "ragyogott / tűnt"
     }
   },
   {
     "infinitiv": {
       "de": "schelten",
-      "lv": "Bart"
+      "lv": "szidni"
     },
     "praesens": {
       "de": "er schilt",
-      "lv": "– szidja"
+      "lv": "ő szid"
     },
     "imperfektIndikativ": {
       "de": "er schalt",
-      "lv": "Letiltotta"
+      "lv": "ő szidott"
     },
     "imperfektKonjunktiv": {
       "de": "er schölte / er schälte",
-      "lv": "Borotválkozik"
+      "lv": "ő szidna"
     },
     "partizipVergangenheit": {
       "de": "gescholten",
-      "lv": "Szakáll"
+      "lv": "szidott"
     }
   },
   {
     "infinitiv": {
       "de": "scheren",
-      "lv": "Vágni"
+      "lv": "nyírni"
     },
     "praesens": {
       "de": "er schert",
-      "lv": "Vágja"
+      "lv": "ő nyír"
     },
     "imperfektIndikativ": {
       "de": "schor / scherte",
-      "lv": "Olló"
+      "lv": "ő nyírt"
     },
     "imperfektKonjunktiv": {
       "de": "schor / scherte",
-      "lv": "Olló"
+      "lv": "ő nyírna"
     },
     "partizipVergangenheit": {
       "de": "geschoren / geschert",
-      "lv": "Vágva"
+      "lv": "nyírt"
     }
   },
   {
     "infinitiv": {
       "de": "schieben",
-      "lv": "Tolni"
+      "lv": "tolni"
     },
     "praesens": {
       "de": "er schiebt",
-      "lv": "Löki"
+      "lv": "ő tol"
     },
     "imperfektIndikativ": {
       "de": "er schob",
-      "lv": "Meglökte"
+      "lv": "ő tolt"
     },
     "imperfektKonjunktiv": {
       "de": "er schöbe",
-      "lv": "Nyomná"
+      "lv": "ő tolna"
     },
     "partizipVergangenheit": {
       "de": "geschoben",
-      "lv": "Lökött"
+      "lv": "tolt"
     }
   },
   {
     "infinitiv": {
       "de": "schießen",
-      "lv": "Lőni"
+      "lv": "lőni"
     },
     "praesens": {
       "de": "er schießt",
-      "lv": "Ő lő"
+      "lv": "ő lő"
     },
     "imperfektIndikativ": {
       "de": "er schoss",
-      "lv": "Lőtt"
+      "lv": "ő lőtt"
     },
     "imperfektKonjunktiv": {
       "de": "er schösse",
-      "lv": "Lőne"
+      "lv": "ő lőne"
     },
     "partizipVergangenheit": {
       "de": "geschossen",
-      "lv": "Lövés"
+      "lv": "lőtt"
     }
   },
   {
     "infinitiv": {
       "de": "schinden",
-      "lv": "Kín"
+      "lv": "kínozni"
     },
     "praesens": {
       "de": "er schindet",
-      "lv": "Gyötrődik"
+      "lv": "ő kínoz"
     },
     "imperfektIndikativ": {
       "de": "schindete",
-      "lv": "Meggyötört"
+      "lv": "ő kínozott"
     },
     "imperfektKonjunktiv": {
       "de": "schindete",
-      "lv": "Meggyötört"
+      "lv": "ő kínozna"
     },
     "partizipVergangenheit": {
       "de": "geschunden",
-      "lv": "Meggyötört"
+      "lv": "kínozott"
     }
   },
   {
     "infinitiv": {
       "de": "schlafen",
-      "lv": "Aludni"
+      "lv": "aludni"
     },
     "praesens": {
       "de": "er schläft",
-      "lv": "Ő alszik"
+      "lv": "ő alszik"
     },
     "imperfektIndikativ": {
       "de": "er schlief",
-      "lv": "Aludt"
+      "lv": "ő aludt"
     },
     "imperfektKonjunktiv": {
       "de": "er schliefe",
-      "lv": "Aludna"
+      "lv": "ő aludna"
     },
     "partizipVergangenheit": {
       "de": "geschlafen",
-      "lv": "Aludt"
+      "lv": "aludt"
     }
   },
   {
     "infinitiv": {
       "de": "schlagen",
-      "lv": "Találat"
+      "lv": "ütni"
     },
     "praesens": {
       "de": "er schlägt",
-      "lv": "Üti"
+      "lv": "ő üt"
     },
     "imperfektIndikativ": {
       "de": "er schlug",
-      "lv": "Megütötte"
+      "lv": "ő ütött"
     },
     "imperfektKonjunktiv": {
       "de": "er schlüge",
-      "lv": "Megütné"
+      "lv": "ő ütne"
     },
     "partizipVergangenheit": {
       "de": "geschlagen",
-      "lv": "Megverték"
+      "lv": "ütött"
     }
   },
   {
     "infinitiv": {
       "de": "schleichen",
-      "lv": "Esik az eső"
+      "lv": "osonni"
     },
     "praesens": {
       "de": "er schleicht",
-      "lv": "Meghajol"
+      "lv": "ő oson"
     },
     "imperfektIndikativ": {
       "de": "er schlich",
-      "lv": "Esett az eső"
+      "lv": "ő osont"
     },
     "imperfektKonjunktiv": {
       "de": "er schliche",
-      "lv": "Esik az eső"
+      "lv": "ő osonna"
     },
     "partizipVergangenheit": {
       "de": "geschlichen (er ist)",
-      "lv": "Elhunyt"
+      "lv": "osont"
     }
   },
   {
     "infinitiv": {
       "de": "schleifen",
-      "lv": "Őrölni"
+      "lv": "csiszolni"
     },
     "praesens": {
       "de": "er schleift",
-      "lv": "Őröl"
+      "lv": "ő csiszol"
     },
     "imperfektIndikativ": {
       "de": "er schliff",
-      "lv": "Darált"
+      "lv": "ő csiszolt"
     },
     "imperfektKonjunktiv": {
       "de": "er schliffe",
-      "lv": "Őrölné"
+      "lv": "ő csiszolna"
     },
     "partizipVergangenheit": {
       "de": "geschliffen",
-      "lv": "Csiszolt"
+      "lv": "csiszolt"
     }
   },
   {
     "infinitiv": {
       "de": "schließen",
-      "lv": "Bezárni"
+      "lv": "zárni"
     },
     "praesens": {
       "de": "er schließt",
-      "lv": "Bezárja"
+      "lv": "ő zár"
     },
     "imperfektIndikativ": {
       "de": "er schloss",
-      "lv": "– zárta be"
+      "lv": "ő zárt"
     },
     "imperfektKonjunktiv": {
       "de": "er schlösse",
-      "lv": "Bezárná"
+      "lv": "ő zárna"
     },
     "partizipVergangenheit": {
       "de": "geschlossen",
-      "lv": "Zárt"
+      "lv": "zárt"
     }
   },
   {
     "infinitiv": {
       "de": "schlingen",
-      "lv": "Holnap"
+      "lv": "nyelni"
     },
     "praesens": {
       "de": "er schlingt",
-      "lv": "Nyel egyet"
+      "lv": "ő nyel"
     },
     "imperfektIndikativ": {
       "de": "er schlang",
-      "lv": "Nyelt egyet"
+      "lv": "ő nyelt"
     },
     "imperfektKonjunktiv": {
       "de": "er schlänge",
-      "lv": "Ő reggel"
+      "lv": "ő nyelne"
     },
     "partizipVergangenheit": {
       "de": "geschlungen",
-      "lv": "A reggel"
+      "lv": "nyelt"
     }
   },
   {
     "infinitiv": {
       "de": "schmeißen",
-      "lv": "Dobás"
+      "lv": "dobni"
     },
     "praesens": {
       "de": "er schmeißt",
-      "lv": "Bedobja"
+      "lv": "ő dob"
     },
     "imperfektIndikativ": {
       "de": "er schmiss",
-      "lv": "– dobta"
+      "lv": "ő dobott"
     },
     "imperfektKonjunktiv": {
       "de": "er schmisse",
-      "lv": "– dobta"
+      "lv": "ő dobna"
     },
     "partizipVergangenheit": {
       "de": "geschmissen",
-      "lv": "Dobott"
+      "lv": "dobott"
     }
   },
   {
     "infinitiv": {
       "de": "schmelzen",
-      "lv": "Mozgó"
+      "lv": "olvadni"
     },
     "praesens": {
       "de": "er schmilzt",
-      "lv": "Elolvad"
+      "lv": "olvad"
     },
     "imperfektIndikativ": {
       "de": "er schmolz",
-      "lv": "– nyögte fel"
+      "lv": "olvadt"
     },
     "imperfektKonjunktiv": {
       "de": "er schmölze",
-      "lv": "Mozgott"
+      "lv": "olvadna"
     },
     "partizipVergangenheit": {
       "de": "geschmolzen (er ist)",
-      "lv": "Olvasztott"
+      "lv": "olvadt"
     }
   },
   {
     "infinitiv": {
       "de": "schnauben",
-      "lv": "Sziszegni"
+      "lv": "horkantani"
     },
     "praesens": {
       "de": "er schnaubt",
-      "lv": "– horkant fel"
+      "lv": "ő horkant"
     },
     "imperfektIndikativ": {
       "de": "schnaubte / schnob",
-      "lv": "Felhorkantott"
+      "lv": "ő horkantott"
     },
     "imperfektKonjunktiv": {
       "de": "schnaubte / schnob",
-      "lv": "Felhorkantott"
+      "lv": "ő horkantana"
     },
     "partizipVergangenheit": {
       "de": "geschnaubt / geschnoben",
-      "lv": "Horkant"
+      "lv": "horkantott"
     }
   },
   {
     "infinitiv": {
       "de": "schneiden",
-      "lv": "Vágni"
+      "lv": "vágni"
     },
     "praesens": {
       "de": "er schneidet",
-      "lv": "Pörög"
+      "lv": "ő vág"
     },
     "imperfektIndikativ": {
       "de": "er schnitt",
-      "lv": "Vágott"
+      "lv": "ő vágott"
     },
     "imperfektKonjunktiv": {
       "de": "er schnitte",
-      "lv": "Vágna"
+      "lv": "ő vágna"
     },
     "partizipVergangenheit": {
       "de": "geschnitten",
-      "lv": "Vágott"
+      "lv": "vágott"
     }
   },
   {
     "infinitiv": {
       "de": "schreiben",
-      "lv": "Írni"
+      "lv": "írni"
     },
     "praesens": {
       "de": "er schreibt",
-      "lv": "– írja"
+      "lv": "ő ír"
     },
     "imperfektIndikativ": {
       "de": "er schrieb",
-      "lv": "– írta"
+      "lv": "ő írt"
     },
     "imperfektKonjunktiv": {
       "de": "er schriebe",
-      "lv": "Írna"
+      "lv": "ő írna"
     },
     "partizipVergangenheit": {
       "de": "geschrieben",
-      "lv": "Írott"
+      "lv": "írt"
     }
   },
   {
     "infinitiv": {
       "de": "schreien",
-      "lv": "Kiabálni"
+      "lv": "kiabálni"
     },
     "praesens": {
       "de": "er schreit",
-      "lv": "– kiáltja"
+      "lv": "ő kiabál"
     },
     "imperfektIndikativ": {
       "de": "er schrie",
-      "lv": "– kiáltotta"
+      "lv": "ő kiabált"
     },
     "imperfektKonjunktiv": {
       "de": "er schriee",
-      "lv": "Kiabálna"
+      "lv": "ő kiabálna"
     },
     "partizipVergangenheit": {
       "de": "geschrien",
-      "lv": "– kiáltotta"
+      "lv": "kiabált"
     }
   },
   {
     "infinitiv": {
       "de": "schreiten",
-      "lv": "Gyaloglás"
+      "lv": "lépkedni"
     },
     "praesens": {
       "de": "er schreitet",
-      "lv": "Sétál"
+      "lv": "ő lépked"
     },
     "imperfektIndikativ": {
       "de": "er schritt",
-      "lv": "Sétált"
+      "lv": "ő lépkedett"
     },
     "imperfektKonjunktiv": {
       "de": "er schritte",
-      "lv": "Járna"
+      "lv": "ő lépkedne"
     },
     "partizipVergangenheit": {
       "de": "geschritten (er ist)",
-      "lv": "Sétált"
+      "lv": "lépkedett"
     }
   },
   {
     "infinitiv": {
       "de": "schweigen",
-      "lv": "Maradj csendben"
+      "lv": "hallgatni"
     },
     "praesens": {
       "de": "er schweigt",
-      "lv": "Hallgat"
+      "lv": "ő hallgat"
     },
     "imperfektIndikativ": {
       "de": "er schwieg",
-      "lv": "Elhallgatott"
+      "lv": "ő hallgatott"
     },
     "imperfektKonjunktiv": {
       "de": "er schwiege",
-      "lv": "Elhallgatna"
+      "lv": "ő hallgatna"
     },
     "partizipVergangenheit": {
       "de": "geschwiegen",
-      "lv": "Hangtompítós"
+      "lv": "hallgatott"
     }
   },
   {
     "infinitiv": {
       "de": "schwellen",
-      "lv": "Pamp"
+      "lv": "dagadni"
     },
     "praesens": {
       "de": "er schwillt",
-      "lv": "Duzzog"
+      "lv": "dagad"
     },
     "imperfektIndikativ": {
       "de": "er schwoll",
-      "lv": "Ő pampa"
+      "lv": "dagadt"
     },
     "imperfektKonjunktiv": {
       "de": "er schwölle",
-      "lv": "Pumpálna"
+      "lv": "dagadna"
     },
     "partizipVergangenheit": {
       "de": "geschwollen (er ist)",
-      "lv": "Szivattyú"
+      "lv": "dagadt"
     }
   },
   {
     "infinitiv": {
       "de": "schwimmen",
-      "lv": "Úszni"
+      "lv": "úszni"
     },
     "praesens": {
       "de": "er schwimmt",
-      "lv": "Ő úszik"
+      "lv": "ő úszik"
     },
     "imperfektIndikativ": {
       "de": "er schwamm",
-      "lv": "Úszott"
+      "lv": "ő úszott"
     },
     "imperfektKonjunktiv": {
       "de": "er schwömme / er schwämme",
-      "lv": "Úszna"
+      "lv": "ő úszna"
     },
     "partizipVergangenheit": {
       "de": "geschwommen (er ist)",
-      "lv": "Úszott"
+      "lv": "úszott"
     }
   },
   {
     "infinitiv": {
       "de": "schwinden",
-      "lv": "Eltűnik"
+      "lv": "eltűnni"
     },
     "praesens": {
       "de": "er schwindet",
-      "lv": "Ő eltűnik"
+      "lv": "eltűnik"
     },
     "imperfektIndikativ": {
       "de": "er schwand",
-      "lv": "Eltűnt"
+      "lv": "eltűnt"
     },
     "imperfektKonjunktiv": {
       "de": "er schwände",
-      "lv": "Eltűnne"
+      "lv": "eltűnne"
     },
     "partizipVergangenheit": {
       "de": "geschwunden (er ist)",
-      "lv": "Elveszett"
+      "lv": "eltűnt"
     }
   },
   {
     "infinitiv": {
       "de": "schwingen",
-      "lv": "Hullám"
+      "lv": "lengetni"
     },
     "praesens": {
       "de": "er schwingt",
-      "lv": "Integet"
+      "lv": "ő lenget"
     },
     "imperfektIndikativ": {
       "de": "er schwang",
-      "lv": "Legyintett"
+      "lv": "ő lengetett"
     },
     "imperfektKonjunktiv": {
       "de": "er schwänge",
-      "lv": "Integetne"
+      "lv": "ő lengetne"
     },
     "partizipVergangenheit": {
       "de": "geschwungen",
-      "lv": "Hullámos"
+      "lv": "lengetett"
     }
   },
   {
     "infinitiv": {
       "de": "schwören",
-      "lv": "Esküdni"
+      "lv": "esküdni"
     },
     "praesens": {
       "de": "er schwört",
-      "lv": "Esküszik"
+      "lv": "ő esküszik"
     },
     "imperfektIndikativ": {
       "de": "er schwur / er schwor",
-      "lv": "Megesküdött"
+      "lv": "ő esküdött"
     },
     "imperfektKonjunktiv": {
       "de": "er schwöre",
-      "lv": "Megesküdne"
+      "lv": "ő esküdne"
     },
     "partizipVergangenheit": {
       "de": "geschworen",
-      "lv": "Hites"
+      "lv": "esküdött"
     }
   },
   {
     "infinitiv": {
       "de": "sehen",
-      "lv": "Látni"
+      "lv": "látni"
     },
     "praesens": {
       "de": "er sieht",
-      "lv": "Látja"
+      "lv": "ő lát"
     },
     "imperfektIndikativ": {
       "de": "er sah",
-      "lv": "Látta"
+      "lv": "ő látott"
     },
     "imperfektKonjunktiv": {
       "de": "er sähe",
-      "lv": "Látná"
+      "lv": "ő látna"
     },
     "partizipVergangenheit": {
       "de": "gesehen",
-      "lv": "Látott"
+      "lv": "látott"
     }
   },
   {
     "infinitiv": {
       "de": "sein",
-      "lv": "Lenni"
+      "lv": "lenni"
     },
     "praesens": {
       "de": "er ist",
-      "lv": "Ő az"
+      "lv": "ő van"
     },
     "imperfektIndikativ": {
       "de": "war",
-      "lv": "Volt"
+      "lv": "ő volt"
     },
     "imperfektKonjunktiv": {
       "de": "war",
-      "lv": "Volt"
+      "lv": "ő lenne"
     },
     "partizipVergangenheit": {
       "de": "gewesen",
-      "lv": "Volt"
+      "lv": "volt"
     }
   },
   {
     "infinitiv": {
       "de": "senden",
-      "lv": "Küldeni"
+      "lv": "küldeni"
     },
     "praesens": {
       "de": "er sendet",
-      "lv": "Ő küldi"
+      "lv": "ő küld"
     },
     "imperfektIndikativ": {
       "de": "er sandte / er sendete",
-      "lv": "Elküldte"
+      "lv": "ő küldött"
     },
     "imperfektKonjunktiv": {
       "de": "er sendete",
-      "lv": "Küldene"
+      "lv": "ő küldene"
     },
     "partizipVergangenheit": {
       "de": "gesandt / gesendet",
-      "lv": "Küldött"
+      "lv": "küldött"
     }
   },
   {
     "infinitiv": {
       "de": "sieden",
-      "lv": "Felforralni"
+      "lv": "főzni"
     },
     "praesens": {
       "de": "er siedet",
-      "lv": "Ő főz"
+      "lv": "ő főz"
     },
     "imperfektIndikativ": {
       "de": "sott / siedete",
-      "lv": "Főtt"
+      "lv": "ő főzött"
     },
     "imperfektKonjunktiv": {
       "de": "sott / siedete",
-      "lv": "Főtt"
+      "lv": "ő főzne"
     },
     "partizipVergangenheit": {
       "de": "gesotten / gesiedet",
-      "lv": "Főtt"
+      "lv": "főzött"
     }
   },
   {
     "infinitiv": {
       "de": "singen",
-      "lv": "Énekelni"
+      "lv": "énekelni"
     },
     "praesens": {
       "de": "er singt",
-      "lv": "Énekel"
+      "lv": "ő énekel"
     },
     "imperfektIndikativ": {
       "de": "er sang",
-      "lv": "Énekelt"
+      "lv": "ő énekelt"
     },
     "imperfektKonjunktiv": {
       "de": "er sänge",
-      "lv": "Énekelne"
+      "lv": "ő énekelne"
     },
     "partizipVergangenheit": {
       "de": "gesungen",
-      "lv": "Énekelte"
+      "lv": "énekelt"
     }
   },
   {
     "infinitiv": {
       "de": "sinken",
-      "lv": "Elsüllyedni"
+      "lv": "süllyedni"
     },
     "praesens": {
       "de": "er sinkt",
-      "lv": "Ő süllyed"
+      "lv": "ő süllyed"
     },
     "imperfektIndikativ": {
       "de": "er sank",
-      "lv": "Sminkelte"
+      "lv": "ő süllyedt"
     },
     "imperfektKonjunktiv": {
       "de": "er sänke",
-      "lv": "Elsüllyedne"
+      "lv": "ő süllyedne"
     },
     "partizipVergangenheit": {
       "de": "gesunken (er ist)",
-      "lv": "Sminkeljük"
+      "lv": "süllyedt"
     }
   },
   {
     "infinitiv": {
       "de": "sinnen",
-      "lv": "Rácsodálkozni"
+      "lv": "töprengeni"
     },
     "praesens": {
       "de": "er sinnt",
-      "lv": "Csodálkozik"
+      "lv": "ő töpreng"
     },
     "imperfektIndikativ": {
       "de": "er sann",
-      "lv": "– tűnődött"
+      "lv": "ő töprengett"
     },
     "imperfektKonjunktiv": {
       "de": "er sönne / er sänne",
-      "lv": "Csodálkozna"
+      "lv": "ő töprengene"
     },
     "partizipVergangenheit": {
       "de": "gesonnen",
-      "lv": "Gondolkodó"
+      "lv": "töprengett"
     }
   },
   {
     "infinitiv": {
       "de": "sitzen",
-      "lv": "Ülni"
+      "lv": "ülni"
     },
     "praesens": {
       "de": "er sitzt",
-      "lv": "Ő ül"
+      "lv": "ő ül"
     },
     "imperfektIndikativ": {
       "de": "er sass",
-      "lv": "Ült"
+      "lv": "ő ült"
     },
     "imperfektKonjunktiv": {
       "de": "er säße",
-      "lv": "Ülne"
+      "lv": "ő ülne"
     },
     "partizipVergangenheit": {
       "de": "gesessen",
-      "lv": "Leült"
+      "lv": "ült"
     }
   },
   {
     "infinitiv": {
       "de": "sollen",
-      "lv": "Kell / köteles"
+      "lv": "kelleni"
     },
     "praesens": {
       "de": "er soll",
-      "lv": "Kell neki"
+      "lv": "neki kell"
     },
     "imperfektIndikativ": {
       "de": "sollte",
-      "lv": "Kellett volna"
+      "lv": "neki kellett"
     },
     "imperfektKonjunktiv": {
       "de": "sollte",
-      "lv": "Kellett volna"
+      "lv": "neki kellene"
     },
     "partizipVergangenheit": {
       "de": "gesollt",
-      "lv": "Szükséges"
+      "lv": "kellett"
     }
   },
   {
     "infinitiv": {
       "de": "speien",
-      "lv": "Köpni"
+      "lv": "köpni"
     },
     "praesens": {
       "de": "er speit",
-      "lv": "Kiköpi"
+      "lv": "ő köp"
     },
     "imperfektIndikativ": {
       "de": "er spie",
-      "lv": "Kiköpte"
+      "lv": "ő köpött"
     },
     "imperfektKonjunktiv": {
       "de": "er spie",
-      "lv": "Kiköpné"
+      "lv": "ő köpne"
     },
     "partizipVergangenheit": {
       "de": "gespien",
-      "lv": "Kiköpött"
+      "lv": "köpött"
     }
   },
   {
     "infinitiv": {
       "de": "spinnen",
-      "lv": "Spin"
+      "lv": "fonni"
     },
     "praesens": {
       "de": "er spinnt",
-      "lv": "Csavarja"
+      "lv": "ő fon"
     },
     "imperfektIndikativ": {
       "de": "er spann",
-      "lv": "Megpördült"
+      "lv": "ő font"
     },
     "imperfektKonjunktiv": {
       "de": "er spönne / er spänne",
-      "lv": "Pörögne"
+      "lv": "ő fonna"
     },
     "partizipVergangenheit": {
       "de": "gesponnen",
-      "lv": "Fonott"
+      "lv": "font"
     }
   },
   {
     "infinitiv": {
       "de": "spleißen",
-      "lv": "Csatlakozni"
+      "lv": "összekötni"
     },
     "praesens": {
       "de": "er spleißt",
-      "lv": "Ő kapcsol"
+      "lv": "ő összeköt"
     },
     "imperfektIndikativ": {
       "de": "spliss",
-      "lv": "Csatlakoztatva"
+      "lv": "ő összekötött"
     },
     "imperfektKonjunktiv": {
       "de": "spliss",
-      "lv": "Csatlakoztatva"
+      "lv": "ő összekötne"
     },
     "partizipVergangenheit": {
       "de": "gesplissen",
-      "lv": "Csatlakoztatva"
+      "lv": "összekötött"
     }
   },
   {
     "infinitiv": {
       "de": "sprechen",
-      "lv": "Beszélni"
+      "lv": "beszélni"
     },
     "praesens": {
       "de": "er spricht",
-      "lv": "Ő beszél"
+      "lv": "ő beszél"
     },
     "imperfektIndikativ": {
       "de": "er sprach",
-      "lv": "Megszólalt"
+      "lv": "ő beszélt"
     },
     "imperfektKonjunktiv": {
       "de": "er spräche",
-      "lv": "Beszélne"
+      "lv": "ő beszélne"
     },
     "partizipVergangenheit": {
       "de": "gesprochen",
-      "lv": "Beszélt"
+      "lv": "beszélt"
     }
   },
   {
     "infinitiv": {
       "de": "sprießen",
-      "lv": "Gyarapodni"
+      "lv": "sarjadni"
     },
     "praesens": {
       "de": "er sprießt",
-      "lv": "Gyarapodik"
+      "lv": "sarjad"
     },
     "imperfektIndikativ": {
       "de": "er spross",
-      "lv": "Gyarapodott"
+      "lv": "sarjadt"
     },
     "imperfektKonjunktiv": {
       "de": "er sprösse",
-      "lv": "Ő polc"
+      "lv": "sarjadna"
     },
     "partizipVergangenheit": {
       "de": "gesprossen (er ist)",
-      "lv": "A vállát"
+      "lv": "sarjadt"
     }
   },
   {
     "infinitiv": {
       "de": "springen",
-      "lv": "Ugrani"
+      "lv": "ugrani"
     },
     "praesens": {
       "de": "er springt",
-      "lv": "Ugrik"
+      "lv": "ő ugrik"
     },
     "imperfektIndikativ": {
       "de": "er sprang",
-      "lv": "Ugrott"
+      "lv": "ő ugrott"
     },
     "imperfektKonjunktiv": {
       "de": "er spränge",
-      "lv": "Ugrálna"
+      "lv": "ő ugrana"
     },
     "partizipVergangenheit": {
       "de": "gesprungen (er ist)",
-      "lv": "Lencse"
+      "lv": "ugrott"
     }
   },
   {
     "infinitiv": {
       "de": "stechen",
-      "lv": "Szúr"
+      "lv": "szúrni"
     },
     "praesens": {
       "de": "er sticht",
-      "lv": "Ő szúr"
+      "lv": "ő szúr"
     },
     "imperfektIndikativ": {
       "de": "er stach",
-      "lv": "Ököllel ütött"
+      "lv": "ő szúrt"
     },
     "imperfektKonjunktiv": {
       "de": "er stäche",
-      "lv": "Szúrna"
+      "lv": "ő szúrna"
     },
     "partizipVergangenheit": {
       "de": "gestochen",
-      "lv": "Leszúrta"
+      "lv": "szúrt"
     }
   },
   {
     "infinitiv": {
       "de": "stecken",
-      "lv": "Ragaszkodni / beragadni"
+      "lv": "dugni / tűzni"
     },
     "praesens": {
       "de": "er steckt",
-      "lv": "Löki"
+      "lv": "ő dug / tűz"
     },
     "imperfektIndikativ": {
       "de": "stak / steckte",
-      "lv": "Töltött"
+      "lv": "ő dugott / tűzött"
     },
     "imperfektKonjunktiv": {
       "de": "stak / steckte",
-      "lv": "Töltött"
+      "lv": "ő dugna / tűzne"
     },
     "partizipVergangenheit": {
       "de": "gesteckt",
-      "lv": "Töltött"
+      "lv": "dugott / tűzött"
     }
   },
   {
     "infinitiv": {
       "de": "stehen",
-      "lv": "Állni"
+      "lv": "állni"
     },
     "praesens": {
       "de": "er steht",
-      "lv": "Ő áll"
+      "lv": "ő áll"
     },
     "imperfektIndikativ": {
       "de": "er stand",
-      "lv": "Felállt"
+      "lv": "ő állt"
     },
     "imperfektKonjunktiv": {
       "de": "er stände / er stünde",
-      "lv": "Állna"
+      "lv": "ő állna"
     },
     "partizipVergangenheit": {
       "de": "gestanden",
-      "lv": "Álló"
+      "lv": "állt"
     }
   },
   {
     "infinitiv": {
       "de": "stehlen",
-      "lv": "Lopni"
+      "lv": "lopni"
     },
     "praesens": {
       "de": "er stiehlt",
-      "lv": "Ő lop"
+      "lv": "ő lop"
     },
     "imperfektIndikativ": {
       "de": "er stahl",
-      "lv": "Ő lopott"
+      "lv": "ő lopott"
     },
     "imperfektKonjunktiv": {
       "de": "er stöhle / er stähle",
-      "lv": "Lopna"
+      "lv": "ő lopna"
     },
     "partizipVergangenheit": {
       "de": "gestohlen",
-      "lv": "Lopott"
+      "lv": "lopott"
     }
   },
   {
     "infinitiv": {
       "de": "steigen",
-      "lv": "Mászni"
+      "lv": "mászni"
     },
     "praesens": {
       "de": "er steigt",
-      "lv": "Felmászik"
+      "lv": "ő mászik"
     },
     "imperfektIndikativ": {
       "de": "er stieg",
-      "lv": "Felmászott"
+      "lv": "ő mászott"
     },
     "imperfektKonjunktiv": {
       "de": "er stiege",
-      "lv": "Mászna"
+      "lv": "ő mászna"
     },
     "partizipVergangenheit": {
       "de": "gestiegen (er ist)",
-      "lv": "Felmászott"
+      "lv": "mászott"
     }
   },
   {
     "infinitiv": {
       "de": "sterben",
-      "lv": "Meghalni"
+      "lv": "meghalni"
     },
     "praesens": {
       "de": "er stirbt",
-      "lv": "Haldoklik"
+      "lv": "ő meghal"
     },
     "imperfektIndikativ": {
       "de": "er starb",
-      "lv": "Meghalt"
+      "lv": "ő meghalt"
     },
     "imperfektKonjunktiv": {
       "de": "er stürbe",
-      "lv": "Meghalna"
+      "lv": "ő meghalna"
     },
     "partizipVergangenheit": {
       "de": "gestorben (er ist)",
-      "lv": "Halott"
+      "lv": "meghalt"
     }
   },
   {
     "infinitiv": {
       "de": "stinken",
-      "lv": "Szagolni"
+      "lv": "bűzleni"
     },
     "praesens": {
       "de": "es stinkt",
-      "lv": "Bűzlik"
+      "lv": "bűzlik"
     },
     "imperfektIndikativ": {
       "de": "stank",
-      "lv": "Szagolt"
+      "lv": "bűzlött"
     },
     "imperfektKonjunktiv": {
       "de": "stank",
-      "lv": "Szagolt"
+      "lv": "bűzlene"
     },
     "partizipVergangenheit": {
       "de": "gestunken",
-      "lv": "Büdös"
+      "lv": "bűzlött"
     }
   },
   {
     "infinitiv": {
       "de": "stoßen",
-      "lv": "Nyomja"
+      "lv": "lökni"
     },
     "praesens": {
       "de": "er stößt",
-      "lv": "Löki"
+      "lv": "ő lök"
     },
     "imperfektIndikativ": {
       "de": "er stieß",
-      "lv": "Meglökte"
+      "lv": "ő lökött"
     },
     "imperfektKonjunktiv": {
       "de": "er stieße",
-      "lv": "Nyomult"
+      "lv": "ő lökne"
     },
     "partizipVergangenheit": {
       "de": "gestoßen",
-      "lv": "Lökött"
+      "lv": "lökött"
     }
   },
   {
     "infinitiv": {
       "de": "streichen",
-      "lv": "Festék / csík"
+      "lv": "festeni / áthúzni"
     },
     "praesens": {
       "de": "er streicht",
-      "lv": "Fest / csíkoz"
+      "lv": "ő fest / áthúz"
     },
     "imperfektIndikativ": {
       "de": "er strich",
-      "lv": "Festett / csíkozott"
+      "lv": "ő festett / áthúzott"
     },
     "imperfektKonjunktiv": {
       "de": "er striche",
-      "lv": "Festene / vetkőzne"
+      "lv": "ő festene / áthúzna"
     },
     "partizipVergangenheit": {
       "de": "gestrichen",
-      "lv": "Festett / csíkos"
+      "lv": "festett / áthúzott"
     }
   },
   {
     "infinitiv": {
       "de": "streiten",
-      "lv": "Harcolni"
+      "lv": "vitatkozni"
     },
     "praesens": {
       "de": "er streitet",
-      "lv": "Harcol"
+      "lv": "ő vitatkozik"
     },
     "imperfektIndikativ": {
       "de": "er stritt",
-      "lv": "Küzdött"
+      "lv": "ő vitatkozott"
     },
     "imperfektKonjunktiv": {
       "de": "er stritte",
-      "lv": "Harcolna"
+      "lv": "ő vitatkozna"
     },
     "partizipVergangenheit": {
       "de": "gestritten",
-      "lv": "Harcolt"
+      "lv": "vitatkozott"
     }
   },
   {
     "infinitiv": {
       "de": "tragen",
-      "lv": "Visz"
+      "lv": "vinni"
     },
     "praesens": {
       "de": "er trägt",
-      "lv": "Ő viszi"
+      "lv": "ő visz"
     },
     "imperfektIndikativ": {
       "de": "er trug",
-      "lv": "Vitte"
+      "lv": "ő vitt"
     },
     "imperfektKonjunktiv": {
       "de": "er trüge",
-      "lv": "Vinné"
+      "lv": "ő vinne"
     },
     "partizipVergangenheit": {
       "de": "getragen",
-      "lv": "Hordták"
+      "lv": "vitt"
     }
   },
   {
     "infinitiv": {
       "de": "treffen",
-      "lv": "Találkozni"
+      "lv": "találkozni"
     },
     "praesens": {
       "de": "er trifft",
-      "lv": "Találkozik"
+      "lv": "ő találkozik"
     },
     "imperfektIndikativ": {
       "de": "er traf",
-      "lv": "Találkozott"
+      "lv": "ő találkozott"
     },
     "imperfektKonjunktiv": {
       "de": "er träfe",
-      "lv": "Találkozna"
+      "lv": "ő találkozna"
     },
     "partizipVergangenheit": {
       "de": "getroffen",
-      "lv": "Találkozott"
+      "lv": "találkozott"
     }
   },
   {
     "infinitiv": {
       "de": "treiben",
-      "lv": "Üldözés"
+      "lv": "hajtani"
     },
     "praesens": {
       "de": "er treibt",
-      "lv": "Ő vezet"
+      "lv": "ő hajt"
     },
     "imperfektIndikativ": {
       "de": "er trieb",
-      "lv": "Ő vezetett"
+      "lv": "ő hajtott"
     },
     "imperfektKonjunktiv": {
       "de": "er triebe",
-      "lv": "Ő vezetne"
+      "lv": "ő hajtana"
     },
     "partizipVergangenheit": {
       "de": "getrieben",
-      "lv": "Üldözött"
+      "lv": "hajtott"
     }
   },
   {
     "infinitiv": {
       "de": "treten",
-      "lv": "Belép / megy"
+      "lv": "lépni / menni"
     },
     "praesens": {
       "de": "er tritt",
-      "lv": "Belép / megy"
+      "lv": "ő lép / megy"
     },
     "imperfektIndikativ": {
       "de": "er trat",
-      "lv": "Állt / járt"
+      "lv": "ő lépett / ment"
     },
     "imperfektKonjunktiv": {
       "de": "er träte",
-      "lv": "Állna / menne"
+      "lv": "ő lépne / menne"
     },
     "partizipVergangenheit": {
       "de": "getreten (er ist)",
-      "lv": "Állt / járt"
+      "lv": "lépett / ment"
     }
   },
   {
     "infinitiv": {
       "de": "trinken",
-      "lv": "Inni"
+      "lv": "inni"
     },
     "praesens": {
       "de": "er trinkt",
-      "lv": "Iszik"
+      "lv": "ő iszik"
     },
     "imperfektIndikativ": {
       "de": "er trank",
-      "lv": "Ivott"
+      "lv": "ő ivott"
     },
     "imperfektKonjunktiv": {
       "de": "er tränke",
-      "lv": "Inna"
+      "lv": "ő inna"
     },
     "partizipVergangenheit": {
       "de": "getrunken",
-      "lv": "Részeg"
+      "lv": "ivott"
     }
   },
   {
     "infinitiv": {
       "de": "trügen",
-      "lv": "Megcsalni"
+      "lv": "csalni"
     },
     "praesens": {
       "de": "er trögt",
-      "lv": "Megcsal"
+      "lv": "ő csal"
     },
     "imperfektIndikativ": {
       "de": "er trog",
-      "lv": "Megcsalt"
+      "lv": "ő csalt"
     },
     "imperfektKonjunktiv": {
       "de": "er tröge",
-      "lv": "Megcsalna"
+      "lv": "ő csalna"
     },
     "partizipVergangenheit": {
       "de": "getrogen",
-      "lv": "Becsapott"
+      "lv": "csalt"
     }
   },
   {
     "infinitiv": {
       "de": "tun",
-      "lv": "Tenni"
+      "lv": "csinálni"
     },
     "praesens": {
       "de": "er tut",
-      "lv": "Ő igen"
+      "lv": "ő csinál"
     },
     "imperfektIndikativ": {
       "de": "er tat",
-      "lv": "Megtette"
+      "lv": "ő csinált"
     },
     "imperfektKonjunktiv": {
       "de": "er täte",
-      "lv": "Megtenné"
+      "lv": "ő csinálna"
     },
     "partizipVergangenheit": {
       "de": "getan",
-      "lv": "Kész"
+      "lv": "csinált"
     }
   },
   {
     "infinitiv": {
       "de": "verderben",
-      "lv": "Kárt tenni"
+      "lv": "rontani"
     },
     "praesens": {
       "de": "er verdirbt",
-      "lv": "Elpusztítja"
+      "lv": "ő ront"
     },
     "imperfektIndikativ": {
       "de": "er verdarb",
-      "lv": "Megsérült"
+      "lv": "ő rontott"
     },
     "imperfektKonjunktiv": {
       "de": "er verdürbe",
-      "lv": "Kárt tenne"
+      "lv": "ő rontana"
     },
     "partizipVergangenheit": {
       "de": "verdorben",
-      "lv": "Sérült"
+      "lv": "rontott"
     }
   },
   {
     "infinitiv": {
       "de": "verdrießen",
-      "lv": "Bosszúságot okozni"
+      "lv": "bosszantani"
     },
     "praesens": {
       "de": "er verdrießt",
-      "lv": "Bosszúságot okoz"
+      "lv": "ő bosszant"
     },
     "imperfektIndikativ": {
       "de": "er verdross",
-      "lv": "Bosszúságot keltett"
+      "lv": "ő bosszantott"
     },
     "imperfektKonjunktiv": {
       "de": "er verdrösse",
-      "lv": "Bosszúságot okozna"
+      "lv": "ő bosszantana"
     },
     "partizipVergangenheit": {
       "de": "verdrossen",
-      "lv": "Felborít"
+      "lv": "bosszantott"
     }
   },
   {
     "infinitiv": {
       "de": "vergessen",
-      "lv": "Felejtsd el"
+      "lv": "felejteni"
     },
     "praesens": {
       "de": "er vergisst",
-      "lv": "Elfelejti"
+      "lv": "ő felejt"
     },
     "imperfektIndikativ": {
       "de": "er vergass",
-      "lv": "Elfelejtette"
+      "lv": "ő felejtett"
     },
     "imperfektKonjunktiv": {
       "de": "er vergäße",
-      "lv": "Elfelejtené"
+      "lv": "ő felejtene"
     },
     "partizipVergangenheit": {
       "de": "vergessen",
-      "lv": "Elfelejtett"
+      "lv": "felejtett"
     }
   },
   {
     "infinitiv": {
       "de": "verlieren",
-      "lv": "Veszíteni"
+      "lv": "veszíteni"
     },
     "praesens": {
       "de": "er verliert",
-      "lv": "Veszít"
+      "lv": "ő veszít"
     },
     "imperfektIndikativ": {
       "de": "er verlor",
-      "lv": "Elvesztette"
+      "lv": "ő veszített"
     },
     "imperfektKonjunktiv": {
       "de": "er verlöre",
-      "lv": "Veszítene"
+      "lv": "ő veszítene"
     },
     "partizipVergangenheit": {
       "de": "verloren",
-      "lv": "Elveszett"
+      "lv": "veszített"
     }
   },
   {
     "infinitiv": {
       "de": "wachsen",
-      "lv": "Növekedni"
+      "lv": "nőni"
     },
     "praesens": {
       "de": "er wächst",
-      "lv": "Növekszik"
+      "lv": "ő nő"
     },
     "imperfektIndikativ": {
       "de": "er wuchs",
-      "lv": "Nőtt fel"
+      "lv": "ő nőtt"
     },
     "imperfektKonjunktiv": {
       "de": "er wüchse",
-      "lv": "Nőne"
+      "lv": "ő nőne"
     },
     "partizipVergangenheit": {
       "de": "gewachsen (er ist)",
-      "lv": "Nőtt fel"
+      "lv": "nőtt"
     }
   },
   {
     "infinitiv": {
       "de": "waschen",
-      "lv": "Mosni"
+      "lv": "mosni"
     },
     "praesens": {
       "de": "er wäscht",
-      "lv": "Ő mos"
+      "lv": "ő mos"
     },
     "imperfektIndikativ": {
       "de": "er wusch",
-      "lv": "Megmosakodott"
+      "lv": "ő mosott"
     },
     "imperfektKonjunktiv": {
       "de": "er wüsche",
-      "lv": "Ő mosna"
+      "lv": "ő mosna"
     },
     "partizipVergangenheit": {
       "de": "gewaschen",
-      "lv": "Mosott"
+      "lv": "mosott"
     }
   },
   {
     "infinitiv": {
       "de": "weben",
-      "lv": "Szövés"
+      "lv": "szőni"
     },
     "praesens": {
       "de": "er webt",
-      "lv": "Ő sző"
+      "lv": "ő sző"
     },
     "imperfektIndikativ": {
       "de": "wob",
-      "lv": "Szövet"
+      "lv": "ő szőtt"
     },
     "imperfektKonjunktiv": {
       "de": "wob",
-      "lv": "Szövet"
+      "lv": "ő szőne"
     },
     "partizipVergangenheit": {
       "de": "gewoben",
-      "lv": "Szőtt"
+      "lv": "szőtt"
     }
   },
   {
     "infinitiv": {
       "de": "weichen",
-      "lv": "Visszavonni"
+      "lv": "hátrálni"
     },
     "praesens": {
       "de": "er weicht",
-      "lv": "Meghátrál"
+      "lv": "ő hátrál"
     },
     "imperfektIndikativ": {
       "de": "er wich",
-      "lv": "Hátrébb lépett"
+      "lv": "ő hátrált"
     },
     "imperfektKonjunktiv": {
       "de": "er wiche",
-      "lv": "Meghátrálna"
+      "lv": "ő hátrálna"
     },
     "partizipVergangenheit": {
       "de": "gewichen (er ist)",
-      "lv": "Hátrálni"
+      "lv": "hátrált"
     }
   },
   {
     "infinitiv": {
       "de": "weisen",
-      "lv": "Megmutat"
+      "lv": "mutatni"
     },
     "praesens": {
       "de": "er weist",
-      "lv": "Megmutatja"
+      "lv": "ő mutat"
     },
     "imperfektIndikativ": {
       "de": "er wies",
-      "lv": "Megmutatta"
+      "lv": "ő mutatott"
     },
     "imperfektKonjunktiv": {
       "de": "er wiese",
-      "lv": "Megmutatná"
+      "lv": "ő mutatna"
     },
     "partizipVergangenheit": {
       "de": "gewiesen",
-      "lv": "Látható"
+      "lv": "mutatott"
     }
   },
   {
     "infinitiv": {
       "de": "wenden",
-      "lv": "Módosítani / kivágni"
+      "lv": "forgatni / fordítani"
     },
     "praesens": {
       "de": "er wendet",
-      "lv": "Kanyarodik/fordul"
+      "lv": "ő forgat / fordít"
     },
     "imperfektIndikativ": {
       "de": "er wandte / es wendete",
-      "lv": "Csavart / megfordult"
+      "lv": "ő forgatott / fordított"
     },
     "imperfektKonjunktiv": {
       "de": "er wendete",
-      "lv": "Módosítaná/fordítaná"
+      "lv": "ő forgatna / fordítana"
     },
     "partizipVergangenheit": {
       "de": "gewandt / gewendet",
-      "lv": "Módosítva / megfordítva"
+      "lv": "forgatott / fordított"
     }
   },
   {
     "infinitiv": {
       "de": "werben",
-      "lv": "Javaslatot tenni"
+      "lv": "udvarolni"
     },
     "praesens": {
       "de": "er wirbt",
-      "lv": "– javasolja"
+      "lv": "ő udvarol"
     },
     "imperfektIndikativ": {
       "de": "er warb",
-      "lv": "– javasolta"
+      "lv": "ő udvarolt"
     },
     "imperfektKonjunktiv": {
       "de": "er würbe",
-      "lv": "Javasolná"
+      "lv": "ő udvarolna"
     },
     "partizipVergangenheit": {
       "de": "geworben",
-      "lv": "Javasolta"
+      "lv": "udvarolt"
     }
   },
   {
     "infinitiv": {
       "de": "werden",
-      "lv": "Válni"
+      "lv": "lenni"
     },
     "praesens": {
       "de": "er wird",
-      "lv": "Ő lesz"
+      "lv": "ő lesz"
     },
     "imperfektIndikativ": {
       "de": "wurde",
-      "lv": "Lett"
+      "lv": "ő lett"
     },
     "imperfektKonjunktiv": {
       "de": "wurde",
-      "lv": "Lett"
+      "lv": "ő lenne"
     },
     "partizipVergangenheit": {
       "de": "geworden",
-      "lv": "Lett"
+      "lv": "lett"
     }
   },
   {
     "infinitiv": {
       "de": "werfen",
-      "lv": "Dobás"
+      "lv": "dobni"
     },
     "praesens": {
       "de": "er wirft",
-      "lv": "Bedobja"
+      "lv": "ő dob"
     },
     "imperfektIndikativ": {
       "de": "er warf",
-      "lv": "– dobta"
+      "lv": "ő dobott"
     },
     "imperfektKonjunktiv": {
       "de": "er würfe",
-      "lv": "– dobta"
+      "lv": "ő dobna"
     },
     "partizipVergangenheit": {
       "de": "geworfen",
-      "lv": "Dobott"
+      "lv": "dobott"
     }
   },
   {
     "infinitiv": {
       "de": "wiegen",
-      "lv": "Lemérni"
+      "lv": "mérni"
     },
     "praesens": {
       "de": "er wiegt",
-      "lv": "Ő mér"
+      "lv": "ő mér"
     },
     "imperfektIndikativ": {
       "de": "er wog",
-      "lv": "Lemérte"
+      "lv": "ő mért"
     },
     "imperfektKonjunktiv": {
       "de": "er wöge",
-      "lv": "Ő mérne"
+      "lv": "ő mérne"
     },
     "partizipVergangenheit": {
       "de": "gewogen",
-      "lv": "Súlyozott"
+      "lv": "mért"
     }
   },
   {
     "infinitiv": {
       "de": "winden",
-      "lv": "Fonat"
+      "lv": "fonni"
     },
     "praesens": {
       "de": "er windet",
-      "lv": "Ő pin"
+      "lv": "ő fon"
     },
     "imperfektIndikativ": {
       "de": "er wand",
-      "lv": "Befonja"
+      "lv": "ő font"
     },
     "imperfektKonjunktiv": {
       "de": "er wände",
-      "lv": "Fonná"
+      "lv": "ő fonna"
     },
     "partizipVergangenheit": {
       "de": "gewunden",
-      "lv": "Fonott"
+      "lv": "font"
     }
   },
   {
     "infinitiv": {
       "de": "wissen",
-      "lv": "Tudni"
+      "lv": "tudni"
     },
     "praesens": {
       "de": "er weiß",
-      "lv": "Ő tudja"
+      "lv": "ő tud"
     },
     "imperfektIndikativ": {
       "de": "er wusste",
-      "lv": "Tudta"
+      "lv": "ő tudott"
     },
     "imperfektKonjunktiv": {
       "de": "er wüsste",
-      "lv": "Ő tudná"
+      "lv": "ő tudna"
     },
     "partizipVergangenheit": {
       "de": "gewusst",
-      "lv": "Ismert"
+      "lv": "tudott"
     }
   },
   {
     "infinitiv": {
       "de": "wollen",
-      "lv": "Akarni"
+      "lv": "akarni"
     },
     "praesens": {
       "de": "er will",
-      "lv": "Azt akarja"
+      "lv": "ő akar"
     },
     "imperfektIndikativ": {
       "de": "wollte",
-      "lv": "Akarta"
+      "lv": "ő akart"
     },
     "imperfektKonjunktiv": {
       "de": "wollte",
-      "lv": "Akarta"
+      "lv": "ő akarna"
     },
     "partizipVergangenheit": {
       "de": "gewollt",
-      "lv": "Akarta"
+      "lv": "akart"
     }
   },
   {
     "infinitiv": {
       "de": "wringen",
-      "lv": "Kivágni / kinyomni"
+      "lv": "facsarni"
     },
     "praesens": {
       "de": "er wringt",
-      "lv": "– vágja ki"
+      "lv": "ő facsar"
     },
     "imperfektIndikativ": {
       "de": "wrang",
-      "lv": "Kivágni"
+      "lv": "ő facsart"
     },
     "imperfektKonjunktiv": {
       "de": "wrang",
-      "lv": "Kivágni"
+      "lv": "ő facsarna"
     },
     "partizipVergangenheit": {
       "de": "gewrungen",
-      "lv": "Kivágni"
+      "lv": "facsart"
     }
   },
   {
     "infinitiv": {
       "de": "zeihen",
-      "lv": "Hibáztatni"
+      "lv": "vádolni"
     },
     "praesens": {
       "de": "er zeiht",
-      "lv": "Ő hibáztatja"
+      "lv": "ő vádol"
     },
     "imperfektIndikativ": {
       "de": "zieh",
-      "lv": "Hibáztatták"
+      "lv": "ő vádolt"
     },
     "imperfektKonjunktiv": {
       "de": "zieh",
-      "lv": "Hibáztatták"
+      "lv": "ő vádolna"
     },
     "partizipVergangenheit": {
       "de": "geziehen",
-      "lv": "Hibáztatták"
+      "lv": "vádolt"
     }
   },
   {
     "infinitiv": {
       "de": "ziehen",
-      "lv": "Húzni"
+      "lv": "húzni"
     },
     "praesens": {
       "de": "er zieht",
-      "lv": "Húzza"
+      "lv": "ő húz"
     },
     "imperfektIndikativ": {
       "de": "er zog",
-      "lv": "Húzta"
+      "lv": "ő húzott"
     },
     "imperfektKonjunktiv": {
       "de": "er zöge",
-      "lv": "Húzná"
+      "lv": "ő húzna"
     },
     "partizipVergangenheit": {
       "de": "gezogen",
-      "lv": "Vonszolta"
+      "lv": "húzott"
     }
   },
   {
     "infinitiv": {
       "de": "zwingen",
-      "lv": "Kényszeríteni"
+      "lv": "kényszeríteni"
     },
     "praesens": {
       "de": "er zwingt",
-      "lv": "Kényszeríti"
+      "lv": "ő kényszerít"
     },
     "imperfektIndikativ": {
       "de": "er zwang",
-      "lv": "Kényszerítette"
+      "lv": "ő kényszerített"
     },
     "imperfektKonjunktiv": {
       "de": "er zwänge",
-      "lv": "Kényszerítené"
+      "lv": "ő kényszerítene"
     },
     "partizipVergangenheit": {
       "de": "gezwungen",
-      "lv": "Kényszerű"
+      "lv": "kényszerített"
     }
   },
   {
     "infinitiv": {
       "de": "empfangen",
-      "lv": "Fogadni"
+      "lv": "kapni"
     },
     "praesens": {
       "de": "er empfängt",
-      "lv": "Megkapja"
+      "lv": "ő kap"
     },
     "imperfektIndikativ": {
       "de": "er empfing",
-      "lv": "Megkapta"
+      "lv": "ő kapott"
     },
     "imperfektKonjunktiv": {
       "de": "er empfinge",
-      "lv": "Megkapná"
+      "lv": "ő kapna"
     },
     "partizipVergangenheit": {
       "de": "empfangen",
-      "lv": "Kapott"
+      "lv": "kapott"
     }
   },
   {
     "infinitiv": {
       "de": "erwägen",
-      "lv": "Mérlegelni"
+      "lv": "mérlegelni"
     },
     "praesens": {
       "de": "er erwägt",
-      "lv": "Úgy véli"
+      "lv": "ő mérlegel"
     },
     "imperfektIndikativ": {
       "de": "er erwog",
-      "lv": "– fontolgatta"
+      "lv": "ő mérlegelt"
     },
     "imperfektKonjunktiv": {
       "de": "er erwöge",
-      "lv": "Megfontolná"
+      "lv": "ő mérlegelne"
     },
     "partizipVergangenheit": {
       "de": "erwogen",
-      "lv": "Figyelembe vett"
+      "lv": "mérlegelt"
     }
   },
   {
     "infinitiv": {
       "de": "fechten",
-      "lv": "Harcolni"
+      "lv": "harcolni"
     },
     "praesens": {
       "de": "er ficht",
-      "lv": "Harcol"
+      "lv": "ő harcol"
     },
     "imperfektIndikativ": {
       "de": "er focht",
-      "lv": "Küzdött"
+      "lv": "ő harcolt"
     },
     "imperfektKonjunktiv": {
       "de": "er föchte",
-      "lv": "Harcolna"
+      "lv": "ő harcolna"
     },
     "partizipVergangenheit": {
       "de": "gefochten",
-      "lv": "Harcolt"
+      "lv": "harcolt"
     }
   },
   {
     "infinitiv": {
       "de": "flechten",
-      "lv": "Fonat"
+      "lv": "fonni"
     },
     "praesens": {
       "de": "er flicht",
-      "lv": "Ő pin"
+      "lv": "ő fon"
     },
     "imperfektIndikativ": {
       "de": "er flocht",
-      "lv": "Befonja"
+      "lv": "ő font"
     },
     "imperfektKonjunktiv": {
       "de": "er flöchte",
-      "lv": "Fonná"
+      "lv": "ő fonna"
     },
     "partizipVergangenheit": {
       "de": "geflochten",
-      "lv": "Fonott"
+      "lv": "font"
     }
   },
   {
     "infinitiv": {
       "de": "hangen",
-      "lv": "Felakasztani"
+      "lv": "lógni"
     },
     "praesens": {
       "de": "er hängt",
-      "lv": "Lóg"
+      "lv": "ő lóg"
     },
     "imperfektIndikativ": {
       "de": "er hing",
-      "lv": "Lógott"
+      "lv": "ő lógott"
     },
     "imperfektKonjunktiv": {
       "de": "er hinge",
-      "lv": "Felakasztotta magát"
+      "lv": "ő lógna"
     },
     "partizipVergangenheit": {
       "de": "gehangen",
-      "lv": "Tarts ki"
+      "lv": "lógott"
     }
   },
   {
     "infinitiv": {
       "de": "spalten",
-      "lv": "Szétválni"
+      "lv": "hasítani"
     },
     "praesens": {
       "de": "er spaltet",
-      "lv": "Szétválik"
+      "lv": "ő hasít"
     },
     "imperfektIndikativ": {
       "de": "er spaltete",
-      "lv": "Szétvált"
+      "lv": "ő hasított"
     },
     "imperfektKonjunktiv": {
       "de": "er spaltete",
-      "lv": "Szakadna"
+      "lv": "ő hasítana"
     },
     "partizipVergangenheit": {
       "de": "gespalten",
-      "lv": "Hasított"
+      "lv": "hasított"
     }
   },
   {
     "infinitiv": {
       "de": "verzeihen",
-      "lv": "Megbocsátani"
+      "lv": "megbocsátani"
     },
     "praesens": {
       "de": "er verzeiht",
-      "lv": "Megbocsát"
+      "lv": "ő megbocsát"
     },
     "imperfektIndikativ": {
       "de": "er verzieh",
-      "lv": "Megbocsátott"
+      "lv": "ő megbocsátott"
     },
     "imperfektKonjunktiv": {
       "de": "er verziehe",
-      "lv": "Megbocsátana"
+      "lv": "ő megbocsátana"
     },
     "partizipVergangenheit": {
       "de": "verziehen",
-      "lv": "Megbocsátott"
+      "lv": "megbocsátott"
     }
   }
 ];
