@@ -2,4137 +2,4137 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "backen",
-      "lv": "A coace"
+      "lv": "a coace"
     },
     "praesens": {
       "de": "er bäckt",
-      "lv": "El coace"
+      "lv": "el coace"
     },
     "imperfektIndikativ": {
       "de": "er buk",
-      "lv": "El cocea"
+      "lv": "el coapse"
     },
     "imperfektKonjunktiv": {
       "de": "er büke",
-      "lv": "El ar coace"
+      "lv": "el ar coace"
     },
     "partizipVergangenheit": {
       "de": "gebacken",
-      "lv": "Prăjit / copt"
+      "lv": "copt"
     }
   },
   {
     "infinitiv": {
       "de": "befehlen",
-      "lv": "A comanda"
+      "lv": "a ordona"
     },
     "praesens": {
       "de": "er befiehlt",
-      "lv": "Porunceşte el"
+      "lv": "el ordonă"
     },
     "imperfektIndikativ": {
       "de": "er befahl",
-      "lv": "Porunci el"
+      "lv": "el ordonă"
     },
     "imperfektKonjunktiv": {
       "de": "er beföhle",
-      "lv": "El ar porunci"
+      "lv": "el ar ordona"
     },
     "partizipVergangenheit": {
       "de": "befohlen",
-      "lv": "A poruncit"
+      "lv": "ordonat"
     }
   },
   {
     "infinitiv": {
       "de": "beginnen",
-      "lv": "Pentru a începe"
+      "lv": "a începe"
     },
     "praesens": {
       "de": "er beginnt",
-      "lv": "Începe el"
+      "lv": "el începe"
     },
     "imperfektIndikativ": {
       "de": "er begann",
-      "lv": "Începu el"
+      "lv": "el începu"
     },
     "imperfektKonjunktiv": {
       "de": "er begönne / er begänne",
-      "lv": "Avea să înceapă"
+      "lv": "el ar începe"
     },
     "partizipVergangenheit": {
       "de": "begonnen",
-      "lv": "A început"
+      "lv": "început"
     }
   },
   {
     "infinitiv": {
       "de": "beißen",
-      "lv": "Mușcă"
+      "lv": "a mușca"
     },
     "praesens": {
       "de": "er beißt",
-      "lv": "El mușcă"
+      "lv": "el mușcă"
     },
     "imperfektIndikativ": {
       "de": "er biss",
-      "lv": "A codificat el"
+      "lv": "el mușcă"
     },
     "imperfektKonjunktiv": {
       "de": "er bisse",
-      "lv": "El mușcă"
+      "lv": "el ar mușca"
     },
     "partizipVergangenheit": {
       "de": "gebissen",
-      "lv": "Muscat / muscat"
+      "lv": "mușcat"
     }
   },
   {
     "infinitiv": {
       "de": "bergen",
-      "lv": "Ascunde"
+      "lv": "a salva / a ascunde"
     },
     "praesens": {
       "de": "er birgt",
-      "lv": "El se ascunde"
+      "lv": "el salvează / ascunde"
     },
     "imperfektIndikativ": {
       "de": "er barg",
-      "lv": "S-a ascuns"
+      "lv": "el salvă / ascunse"
     },
     "imperfektKonjunktiv": {
       "de": "er bürge / er bärge",
-      "lv": "S-ar ascunde"
+      "lv": "el ar salva / ar ascunde"
     },
     "partizipVergangenheit": {
       "de": "geborgen",
-      "lv": "Ascuns/salvat"
+      "lv": "salvat / ascuns"
     }
   },
   {
     "infinitiv": {
       "de": "bersten",
-      "lv": "Izbucnind"
+      "lv": "a crăpa"
     },
     "praesens": {
       "de": "er birst",
-      "lv": "El izbucnește"
+      "lv": "crapă"
     },
     "imperfektIndikativ": {
       "de": "er barst / er borst",
-      "lv": "Izbucni el"
+      "lv": "crăpă"
     },
     "imperfektKonjunktiv": {
       "de": "er bärste / er börste",
-      "lv": "El izbucnește"
+      "lv": "ar crăpa"
     },
     "partizipVergangenheit": {
       "de": "geborsten (er ist)",
-      "lv": "Spart"
+      "lv": "crăpat"
     }
   },
   {
     "infinitiv": {
       "de": "bewegen",
-      "lv": "A încuraja"
+      "lv": "a îndemna"
     },
     "praesens": {
       "de": "er bewegt",
-      "lv": "Îndeamnă el"
+      "lv": "el îndeamnă"
     },
     "imperfektIndikativ": {
       "de": "er bewog",
-      "lv": "A îndemnat el"
+      "lv": "el îndemnă"
     },
     "imperfektKonjunktiv": {
       "de": "er bewöge",
-      "lv": "El ar încuraja"
+      "lv": "el ar îndemna"
     },
     "partizipVergangenheit": {
       "de": "bewogen",
-      "lv": "Încurajat"
+      "lv": "îndemnat"
     }
   },
   {
     "infinitiv": {
       "de": "biegen",
-      "lv": "Îndoi"
+      "lv": "a îndoi"
     },
     "praesens": {
       "de": "er biegt",
-      "lv": "Se înclină"
+      "lv": "el îndoaie"
     },
     "imperfektIndikativ": {
       "de": "er bog",
-      "lv": "S-a îndoit"
+      "lv": "el îndoi"
     },
     "imperfektKonjunktiv": {
       "de": "er böge",
-      "lv": "S-ar apleca"
+      "lv": "el ar îndoi"
     },
     "partizipVergangenheit": {
       "de": "gebogen",
-      "lv": "Îndoit"
+      "lv": "îndoit"
     }
   },
   {
     "infinitiv": {
       "de": "bieten",
-      "lv": "A promite"
+      "lv": "a oferi"
     },
     "praesens": {
       "de": "er bietet",
-      "lv": "El promite"
+      "lv": "el oferă"
     },
     "imperfektIndikativ": {
       "de": "er bot",
-      "lv": "A promis el"
+      "lv": "el oferi"
     },
     "imperfektKonjunktiv": {
       "de": "er böte",
-      "lv": "Ar promite"
+      "lv": "el ar oferi"
     },
     "partizipVergangenheit": {
       "de": "geboten",
-      "lv": "Promis/oferit"
+      "lv": "oferit"
     }
   },
   {
     "infinitiv": {
       "de": "binden",
-      "lv": "Sită"
+      "lv": "a lega"
     },
     "praesens": {
       "de": "er bindet",
-      "lv": "El fân"
+      "lv": "el leagă"
     },
     "imperfektIndikativ": {
       "de": "er band",
-      "lv": "A semănat"
+      "lv": "el legă"
     },
     "imperfektKonjunktiv": {
       "de": "er bände",
-      "lv": "A cernut"
+      "lv": "el ar lega"
     },
     "partizipVergangenheit": {
       "de": "gebunden",
-      "lv": "Sită"
+      "lv": "legat"
     }
   },
   {
     "infinitiv": {
       "de": "bitten",
-      "lv": "A intreba"
+      "lv": "a ruga"
     },
     "praesens": {
       "de": "er bittet",
-      "lv": "El implora"
+      "lv": "el roagă"
     },
     "imperfektIndikativ": {
       "de": "er bat",
-      "lv": "Întrebă el"
+      "lv": "el rugă"
     },
     "imperfektKonjunktiv": {
       "de": "er bäte",
-      "lv": "S-ar ruga"
+      "lv": "el ar ruga"
     },
     "partizipVergangenheit": {
       "de": "gebeten",
-      "lv": "Solicitat"
+      "lv": "rugat"
     }
   },
   {
     "infinitiv": {
       "de": "blasen",
-      "lv": "A sufla"
+      "lv": "a sufla"
     },
     "praesens": {
       "de": "er bläst",
-      "lv": "Suflă el"
+      "lv": "el suflă"
     },
     "imperfektIndikativ": {
       "de": "er blies",
-      "lv": "A suflat"
+      "lv": "el suflă"
     },
     "imperfektKonjunktiv": {
       "de": "er bliese",
-      "lv": "Ar sufla"
+      "lv": "el ar sufla"
     },
     "partizipVergangenheit": {
       "de": "geblasen",
-      "lv": "Suflat"
+      "lv": "suflat"
     }
   },
   {
     "infinitiv": {
       "de": "gären",
-      "lv": "Să fermenteze"
+      "lv": "a fermenta"
     },
     "praesens": {
       "de": "es gärt",
-      "lv": "Fermentează"
+      "lv": "fermentează"
     },
     "imperfektIndikativ": {
       "de": "es gor / es gärte",
-      "lv": "Fermentează"
+      "lv": "fermentă"
     },
     "imperfektKonjunktiv": {
       "de": "es göre / es gärte",
-      "lv": "Ar fi amar"
+      "lv": "ar fermenta"
     },
     "partizipVergangenheit": {
       "de": "gegoren / gegärt",
-      "lv": "Secară"
+      "lv": "fermentat"
     }
   },
   {
     "infinitiv": {
       "de": "gebären",
-      "lv": "A naste"
+      "lv": "a naște"
     },
     "praesens": {
       "de": "sie gebiert",
-      "lv": "În pântecele ei"
+      "lv": "ea naște"
     },
     "imperfektIndikativ": {
       "de": "sie gebar",
-      "lv": "Ea a născut"
+      "lv": "ea născu"
     },
     "imperfektKonjunktiv": {
       "de": "sie gebäre",
-      "lv": "Ea avea să nască"
+      "lv": "ea ar naște"
     },
     "partizipVergangenheit": {
       "de": "geboren",
-      "lv": "Născut / s-a născut"
+      "lv": "născut"
     }
   },
   {
     "infinitiv": {
       "de": "gelingen",
-      "lv": "Reuşi"
+      "lv": "a reuși"
     },
     "praesens": {
       "de": "es gelingt",
-      "lv": "Reuseste"
+      "lv": "reușește"
     },
     "imperfektIndikativ": {
       "de": "es gelang",
-      "lv": "A funcționat"
+      "lv": "reuși"
     },
     "imperfektKonjunktiv": {
       "de": "es gelänge",
-      "lv": "Ar merge"
+      "lv": "ar reuși"
     },
     "partizipVergangenheit": {
       "de": "gelungen (es ist)",
-      "lv": "A reusit"
+      "lv": "reușit"
     }
   },
   {
     "infinitiv": {
       "de": "gelten",
-      "lv": "Veni la îndemână"
+      "lv": "a servi / a fi valabil"
     },
     "praesens": {
       "de": "er gilt",
-      "lv": "El se potriveste / este valabil"
+      "lv": "el servește / este valabil"
     },
     "imperfektIndikativ": {
       "de": "er galt",
-      "lv": "El se potrivea / era apt"
+      "lv": "el servi / fu valabil"
     },
     "imperfektKonjunktiv": {
       "de": "er gölte / es gälte",
-      "lv": "El s-ar potrivi / s-ar potrivi"
+      "lv": "el ar servi / ar fi valabil"
     },
     "partizipVergangenheit": {
       "de": "gegolten",
-      "lv": "Aplicat / a fost valabil"
+      "lv": "servit / fost valabil"
     }
   },
   {
     "infinitiv": {
       "de": "genesen",
-      "lv": "Facand bine"
+      "lv": "a se însănătoși"
     },
     "praesens": {
       "de": "er genest",
-      "lv": "Se face bine"
+      "lv": "el se însănătoșește"
     },
     "imperfektIndikativ": {
       "de": "er genas",
-      "lv": "S-a făcut bine"
+      "lv": "el se însănătoși"
     },
     "imperfektKonjunktiv": {
       "de": "er genäse",
-      "lv": "S-ar face bine"
+      "lv": "el s-ar însănătoși"
     },
     "partizipVergangenheit": {
       "de": "genesen (er ist)",
-      "lv": "Să vă faceţi bine"
+      "lv": "însănătoșit"
     }
   },
   {
     "infinitiv": {
       "de": "genießen",
-      "lv": "A se bucura"
+      "lv": "a savura"
     },
     "praesens": {
       "de": "er genießt",
-      "lv": "El se bucură"
+      "lv": "el savurează"
     },
     "imperfektIndikativ": {
       "de": "er genoss",
-      "lv": "S-a bucurat"
+      "lv": "el savură"
     },
     "imperfektKonjunktiv": {
       "de": "er genösse",
-      "lv": "El s-ar bucura"
+      "lv": "el ar savura"
     },
     "partizipVergangenheit": {
       "de": "genossen",
-      "lv": "Savurat"
+      "lv": "savurat"
     }
   },
   {
     "infinitiv": {
       "de": "geschehen",
-      "lv": "Întâmpla"
+      "lv": "a se întâmpla"
     },
     "praesens": {
       "de": "es geschieht",
-      "lv": "Se întâmplă"
+      "lv": "se întâmplă"
     },
     "imperfektIndikativ": {
       "de": "es geschah",
-      "lv": "Sa întâmplat"
+      "lv": "se întâmplă"
     },
     "imperfektKonjunktiv": {
       "de": "es geschähe",
-      "lv": "S-ar întâmpla"
+      "lv": "s-ar întâmpla"
     },
     "partizipVergangenheit": {
       "de": "geschehen (es ist)",
-      "lv": "Sa întâmplat"
+      "lv": "întâmplat"
     }
   },
   {
     "infinitiv": {
       "de": "gießen",
-      "lv": "Locotenentul"
+      "lv": "a turna"
     },
     "praesens": {
       "de": "er gießt",
-      "lv": "El toarnă"
+      "lv": "el toarnă"
     },
     "imperfektIndikativ": {
       "de": "er goss",
-      "lv": "A turnat el"
+      "lv": "el turnă"
     },
     "imperfektKonjunktiv": {
       "de": "er gösse",
-      "lv": "El plouă"
+      "lv": "el ar turna"
     },
     "partizipVergangenheit": {
       "de": "gegossen",
-      "lv": "Lucru"
+      "lv": "turnat"
     }
   },
   {
     "infinitiv": {
       "de": "gleichen",
-      "lv": "A semăna"
+      "lv": "a semăna"
     },
     "praesens": {
       "de": "er gleicht",
-      "lv": "El seamănă"
+      "lv": "el seamănă"
     },
     "imperfektIndikativ": {
       "de": "er glich",
-      "lv": "A emulat el"
+      "lv": "el semănă"
     },
     "imperfektKonjunktiv": {
       "de": "er gliche",
-      "lv": "El ar imita"
+      "lv": "el ar semăna"
     },
     "partizipVergangenheit": {
       "de": "geglichen",
-      "lv": "Semăna"
+      "lv": "semănat"
     }
   },
   {
     "infinitiv": {
       "de": "gleiten",
-      "lv": "A aluneca"
+      "lv": "a aluneca"
     },
     "praesens": {
       "de": "er gleitet",
-      "lv": "El alunecă"
+      "lv": "el alunecă"
     },
     "imperfektIndikativ": {
       "de": "er glitt",
-      "lv": "Aluneca"
+      "lv": "el alunecă"
     },
     "imperfektKonjunktiv": {
       "de": "er glitte",
-      "lv": "Ar aluneca"
+      "lv": "el ar aluneca"
     },
     "partizipVergangenheit": {
       "de": "geglitten (er ist)",
-      "lv": "A alunecat"
+      "lv": "alunecat"
     }
   },
   {
     "infinitiv": {
       "de": "glimmen",
-      "lv": "Strălucitoare"
+      "lv": "a mocni"
     },
     "praesens": {
       "de": "er glimmt",
-      "lv": "El strălucește"
+      "lv": "mocnește"
     },
     "imperfektIndikativ": {
       "de": "er glimmte / glomm",
-      "lv": "A strălucit"
+      "lv": "mocni"
     },
     "imperfektKonjunktiv": {
       "de": "er glimmte",
-      "lv": "El ar străluci"
+      "lv": "ar mocni"
     },
     "partizipVergangenheit": {
       "de": "geglimmt / geglommen",
-      "lv": "Strălucitoare"
+      "lv": "mocnit"
     }
   },
   {
     "infinitiv": {
       "de": "graben",
-      "lv": "A sapa"
+      "lv": "a săpa"
     },
     "praesens": {
       "de": "er gräbt",
-      "lv": "El sapă"
+      "lv": "el sapă"
     },
     "imperfektIndikativ": {
       "de": "er grub",
-      "lv": "A săpat"
+      "lv": "el săpă"
     },
     "imperfektKonjunktiv": {
       "de": "er grübe",
-      "lv": "El ar sapa"
+      "lv": "el ar săpa"
     },
     "partizipVergangenheit": {
       "de": "gegraben",
-      "lv": "Sapa"
+      "lv": "săpat"
     }
   },
   {
     "infinitiv": {
       "de": "greifen",
-      "lv": "A prinde"
+      "lv": "a apuca"
     },
     "praesens": {
       "de": "er greift",
-      "lv": "El prinde"
+      "lv": "el apucă"
     },
     "imperfektIndikativ": {
       "de": "er griff",
-      "lv": "A prins"
+      "lv": "el apucă"
     },
     "imperfektKonjunktiv": {
       "de": "er griffe",
-      "lv": "Ar prinde"
+      "lv": "el ar apuca"
     },
     "partizipVergangenheit": {
       "de": "gegriffen",
-      "lv": "Prins / apucat"
+      "lv": "apucat"
     }
   },
   {
     "infinitiv": {
       "de": "hauen",
-      "lv": "A tăia"
+      "lv": "a doborî"
     },
     "praesens": {
       "de": "er haut",
-      "lv": "A ales el"
+      "lv": "el doboară"
     },
     "imperfektIndikativ": {
       "de": "er hieb",
-      "lv": "Se răsti el"
+      "lv": "el doborî"
     },
     "imperfektKonjunktiv": {
       "de": "er hiebe",
-      "lv": "El ar sculpta"
+      "lv": "el ar doborî"
     },
     "partizipVergangenheit": {
       "de": "gehauen",
-      "lv": "Sculptate"
+      "lv": "doborât"
     }
   },
   {
     "infinitiv": {
       "de": "heben",
-      "lv": "A ridica"
+      "lv": "a ridica"
     },
     "praesens": {
       "de": "er hebt",
-      "lv": "El ridică"
+      "lv": "el ridică"
     },
     "imperfektIndikativ": {
       "de": "er hob",
-      "lv": "El a adus"
+      "lv": "el ridică"
     },
     "imperfektKonjunktiv": {
       "de": "er höbe",
-      "lv": "El ar construi"
+      "lv": "el ar ridica"
     },
     "partizipVergangenheit": {
       "de": "gehoben",
-      "lv": "Construit"
+      "lv": "ridicat"
     }
   },
   {
     "infinitiv": {
       "de": "kennen",
-      "lv": "A cunoaște / a cunoaște"
+      "lv": "a cunoaște / a ști"
     },
     "praesens": {
       "de": "er kennt",
-      "lv": "El stie"
+      "lv": "el cunoaște / știe"
     },
     "imperfektIndikativ": {
       "de": "kannte",
-      "lv": "Știa"
+      "lv": "el cunoscu / știu"
     },
     "imperfektKonjunktiv": {
       "de": "kannte",
-      "lv": "Știa"
+      "lv": "el ar cunoaște / ar ști"
     },
     "partizipVergangenheit": {
       "de": "gekannt",
-      "lv": "Cunoştinţă"
+      "lv": "cunoscut / știut"
     }
   },
   {
     "infinitiv": {
       "de": "klingen",
-      "lv": "A suna"
+      "lv": "a suna"
     },
     "praesens": {
       "de": "er klingt",
-      "lv": "El sună"
+      "lv": "sună"
     },
     "imperfektIndikativ": {
       "de": "er klang",
-      "lv": "A sunat el"
+      "lv": "sună"
     },
     "imperfektKonjunktiv": {
       "de": "er klänge",
-      "lv": "El ar suna"
+      "lv": "ar suna"
     },
     "partizipVergangenheit": {
       "de": "geklungen",
-      "lv": "A sunat"
+      "lv": "sunat"
     }
   },
   {
     "infinitiv": {
       "de": "kneifen",
-      "lv": "Ciupit"
+      "lv": "a ciupi"
     },
     "praesens": {
       "de": "er kneift",
-      "lv": "Glumește el"
+      "lv": "el ciupește"
     },
     "imperfektIndikativ": {
       "de": "er kniff",
-      "lv": "Ciupi el"
+      "lv": "el ciupi"
     },
     "imperfektKonjunktiv": {
       "de": "er kniffe",
-      "lv": "Ar ciupi"
+      "lv": "el ar ciupi"
     },
     "partizipVergangenheit": {
       "de": "gekniffen",
-      "lv": "Ciupit"
+      "lv": "ciupit"
     }
   },
   {
     "infinitiv": {
       "de": "bleiben",
-      "lv": "Şedere"
+      "lv": "a rămâne"
     },
     "praesens": {
       "de": "er bleibt",
-      "lv": "El rămâne"
+      "lv": "el rămâne"
     },
     "imperfektIndikativ": {
       "de": "er blieb",
-      "lv": "A ramas"
+      "lv": "el rămase"
     },
     "imperfektKonjunktiv": {
       "de": "er bliebe",
-      "lv": "El ar rămâne"
+      "lv": "el ar rămâne"
     },
     "partizipVergangenheit": {
       "de": "geblieben (er ist)",
-      "lv": "Stânga"
+      "lv": "rămas"
     }
   },
   {
     "infinitiv": {
       "de": "bleichen",
-      "lv": "Albi"
+      "lv": "a se decolora"
     },
     "praesens": {
       "de": "er bleicht",
-      "lv": "El albește"
+      "lv": "se decolorează"
     },
     "imperfektIndikativ": {
       "de": "blich",
-      "lv": "Albit"
+      "lv": "se decoloră"
     },
     "imperfektKonjunktiv": {
       "de": "blich",
-      "lv": "Albit"
+      "lv": "s-ar decolora"
     },
     "partizipVergangenheit": {
       "de": "geblichen",
-      "lv": "Albit"
+      "lv": "decolorat"
     }
   },
   {
     "infinitiv": {
       "de": "braten",
-      "lv": "A coace"
+      "lv": "a prăji"
     },
     "praesens": {
       "de": "er brät",
-      "lv": "El coace"
+      "lv": "el prăjește"
     },
     "imperfektIndikativ": {
       "de": "er briet",
-      "lv": "El cocea"
+      "lv": "el prăji"
     },
     "imperfektKonjunktiv": {
       "de": "er briete",
-      "lv": "El ar coace"
+      "lv": "el ar prăji"
     },
     "partizipVergangenheit": {
       "de": "gebraten",
-      "lv": "Prăjit / copt"
+      "lv": "prăjit"
     }
   },
   {
     "infinitiv": {
       "de": "brechen",
-      "lv": "A rupe"
+      "lv": "a rupe"
     },
     "praesens": {
       "de": "er bricht",
-      "lv": "El se rupe"
+      "lv": "el rupe"
     },
     "imperfektIndikativ": {
       "de": "er brach",
-      "lv": "S-a rupt"
+      "lv": "el rupse"
     },
     "imperfektKonjunktiv": {
       "de": "er bräche",
-      "lv": "S-ar rupe"
+      "lv": "el ar rupe"
     },
     "partizipVergangenheit": {
       "de": "gebrochen",
-      "lv": "Spart / spart"
+      "lv": "rupt"
     }
   },
   {
     "infinitiv": {
       "de": "brennen",
-      "lv": "A arde"
+      "lv": "a arde"
     },
     "praesens": {
       "de": "er brennt",
-      "lv": "E în flăcări"
+      "lv": "arde"
     },
     "imperfektIndikativ": {
       "de": "brannte",
-      "lv": "Ardea"
+      "lv": "arse"
     },
     "imperfektKonjunktiv": {
       "de": "brannte",
-      "lv": "Ardea"
+      "lv": "ar arde"
     },
     "partizipVergangenheit": {
       "de": "gebrannt",
-      "lv": "Ars"
+      "lv": "ars"
     }
   },
   {
     "infinitiv": {
       "de": "bringen",
-      "lv": "Transporta"
+      "lv": "a aduce"
     },
     "praesens": {
       "de": "er bringt",
-      "lv": "El poartă"
+      "lv": "el aduce"
     },
     "imperfektIndikativ": {
       "de": "er brachte",
-      "lv": "A purtat"
+      "lv": "el aduse"
     },
     "imperfektKonjunktiv": {
       "de": "er brächte",
-      "lv": "El ar duce"
+      "lv": "el ar aduce"
     },
     "partizipVergangenheit": {
       "de": "gebracht",
-      "lv": "Adus / adus"
+      "lv": "adus"
     }
   },
   {
     "infinitiv": {
       "de": "denken",
-      "lv": "A gândi"
+      "lv": "a gândi"
     },
     "praesens": {
       "de": "er denkt",
-      "lv": "Crede el"
+      "lv": "el gândește"
     },
     "imperfektIndikativ": {
       "de": "er dachte",
-      "lv": "Se gândi el"
+      "lv": "el gândi"
     },
     "imperfektKonjunktiv": {
       "de": "er dächte",
-      "lv": "S-ar gândi el"
+      "lv": "el ar gândi"
     },
     "partizipVergangenheit": {
       "de": "gedacht",
-      "lv": "Destinat"
+      "lv": "gândit"
     }
   },
   {
     "infinitiv": {
       "de": "dingen",
-      "lv": "A angaja / a fi de acord"
+      "lv": "a angaja / a se învoi"
     },
     "praesens": {
       "de": "er dingt",
-      "lv": "El angajează"
+      "lv": "el angajează / se învoiește"
     },
     "imperfektIndikativ": {
       "de": "dingte",
-      "lv": "Angajat"
+      "lv": "el angajă / se învoi"
     },
     "imperfektKonjunktiv": {
       "de": "dingte",
-      "lv": "Angajat"
+      "lv": "el ar angaja / s-ar învoi"
     },
     "partizipVergangenheit": {
       "de": "gedungen",
-      "lv": "Angajat"
+      "lv": "angajat / învoit"
     }
   },
   {
     "infinitiv": {
       "de": "dreschen",
-      "lv": "Cult"
+      "lv": "a treiera"
     },
     "praesens": {
       "de": "er drischt",
-      "lv": "El bate"
+      "lv": "el treieră"
     },
     "imperfektIndikativ": {
       "de": "er drasch / er drosch",
-      "lv": "El treiera"
+      "lv": "el treieră"
     },
     "imperfektKonjunktiv": {
       "de": "er dräsche / er drösche",
-      "lv": "El s-ar închina"
+      "lv": "el ar treiera"
     },
     "partizipVergangenheit": {
       "de": "gedroschen",
-      "lv": "Cult"
+      "lv": "treierat"
     }
   },
   {
     "infinitiv": {
       "de": "dringen",
-      "lv": "Sparge în"
+      "lv": "a pătrunde"
     },
     "praesens": {
       "de": "er dringt",
-      "lv": "El se sparge"
+      "lv": "el pătrunde"
     },
     "imperfektIndikativ": {
       "de": "er drang",
-      "lv": "El a intrat"
+      "lv": "el pătrunse"
     },
     "imperfektKonjunktiv": {
       "de": "er dränge",
-      "lv": "Avea să pătrundă"
+      "lv": "el ar pătrunde"
     },
     "partizipVergangenheit": {
       "de": "gedrungen (er ist)",
-      "lv": "A spart"
+      "lv": "pătruns"
     }
   },
   {
     "infinitiv": {
       "de": "dünken",
-      "lv": "Se pare"
+      "lv": "a părea"
     },
     "praesens": {
       "de": "es dünkt",
-      "lv": "Se pare"
+      "lv": "pare"
     },
     "imperfektIndikativ": {
       "de": "deuchte",
-      "lv": "Părea"
+      "lv": "păru"
     },
     "imperfektKonjunktiv": {
       "de": "deuchte",
-      "lv": "Părea"
+      "lv": "ar părea"
     },
     "partizipVergangenheit": {
       "de": "gedünkt",
-      "lv": "Părea"
+      "lv": "părut"
     }
   },
   {
     "infinitiv": {
       "de": "dürfen",
-      "lv": "A fi permis"
+      "lv": "a avea voie"
     },
     "praesens": {
       "de": "er darf",
-      "lv": "El poate"
+      "lv": "el are voie"
     },
     "imperfektIndikativ": {
       "de": "durfte",
-      "lv": "A fost permis"
+      "lv": "el avu voie"
     },
     "imperfektKonjunktiv": {
       "de": "durfte",
-      "lv": "A fost permis"
+      "lv": "el ar avea voie"
     },
     "partizipVergangenheit": {
       "de": "gedurft",
-      "lv": "Permis"
+      "lv": "avut voie"
     }
   },
   {
     "infinitiv": {
       "de": "empfehlen",
-      "lv": "Recomanda"
+      "lv": "a recomanda"
     },
     "praesens": {
       "de": "er empfiehlt",
-      "lv": "Sugerează el"
+      "lv": "el recomandă"
     },
     "imperfektIndikativ": {
       "de": "er empfahl",
-      "lv": "A sugerat el"
+      "lv": "el recomandă"
     },
     "imperfektKonjunktiv": {
       "de": "er empfähle / er empföhle",
-      "lv": "El ar recomanda"
+      "lv": "el ar recomanda"
     },
     "partizipVergangenheit": {
       "de": "empfohlen",
-      "lv": "Recomandat"
+      "lv": "recomandat"
     }
   },
   {
     "infinitiv": {
       "de": "empfinden",
-      "lv": "A simți"
+      "lv": "a simți"
     },
     "praesens": {
       "de": "er empfindet",
-      "lv": "El simte"
+      "lv": "el simte"
     },
     "imperfektIndikativ": {
       "de": "er empfand",
-      "lv": "A simțit"
+      "lv": "el simți"
     },
     "imperfektKonjunktiv": {
       "de": "er empfände",
-      "lv": "Ar simți"
+      "lv": "el ar simți"
     },
     "partizipVergangenheit": {
       "de": "empfunden",
-      "lv": "Pâslă"
+      "lv": "simțit"
     }
   },
   {
     "infinitiv": {
       "de": "erlöschen",
-      "lv": "Se estompează"
+      "lv": "a se stinge"
     },
     "praesens": {
       "de": "er erlischt",
-      "lv": "El iese"
+      "lv": "se stinge"
     },
     "imperfektIndikativ": {
       "de": "er erlosch",
-      "lv": "A ieșit"
+      "lv": "se stinse"
     },
     "imperfektKonjunktiv": {
       "de": "er erlösche",
-      "lv": "Avea să dispară"
+      "lv": "s-ar stinge"
     },
     "partizipVergangenheit": {
       "de": "erloschen (er ist)",
-      "lv": "Stins"
+      "lv": "stins"
     }
   },
   {
     "infinitiv": {
       "de": "erschrecken",
-      "lv": "Deruta"
+      "lv": "a se speria"
     },
     "praesens": {
       "de": "er erschrickt",
-      "lv": "Se sperie"
+      "lv": "el se sperie"
     },
     "imperfektIndikativ": {
       "de": "er erschrak",
-      "lv": "S-a speriat"
+      "lv": "el se sperie"
     },
     "imperfektKonjunktiv": {
       "de": "er erschräke",
-      "lv": "S-ar speria"
+      "lv": "el s-ar speria"
     },
     "partizipVergangenheit": {
       "de": "erschrocken (er ist)",
-      "lv": "Speriat"
+      "lv": "speriat"
     }
   },
   {
     "infinitiv": {
       "de": "essen",
-      "lv": "Să mănânce"
+      "lv": "a mânca"
     },
     "praesens": {
       "de": "er isst",
-      "lv": "El mănâncă"
+      "lv": "el mănâncă"
     },
     "imperfektIndikativ": {
       "de": "er ass",
-      "lv": "El mânca"
+      "lv": "el mâncă"
     },
     "imperfektKonjunktiv": {
       "de": "er äße",
-      "lv": "Ar mânca"
+      "lv": "el ar mânca"
     },
     "partizipVergangenheit": {
       "de": "gegessen",
-      "lv": "Mâncat / mâncat"
+      "lv": "mâncat"
     }
   },
   {
     "infinitiv": {
       "de": "fahren",
-      "lv": "Conduce"
+      "lv": "a conduce"
     },
     "praesens": {
       "de": "er fährt",
-      "lv": "El conduce"
+      "lv": "el conduce"
     },
     "imperfektIndikativ": {
       "de": "er fuhr",
-      "lv": "El conducea"
+      "lv": "el conduse"
     },
     "imperfektKonjunktiv": {
       "de": "er führe",
-      "lv": "El ar conduce"
+      "lv": "el ar conduce"
     },
     "partizipVergangenheit": {
       "de": "gefahren (er ist)",
-      "lv": "Condus/la stânga"
+      "lv": "condus"
     }
   },
   {
     "infinitiv": {
       "de": "fallen",
-      "lv": "A cădea"
+      "lv": "a cădea"
     },
     "praesens": {
       "de": "er fällt",
-      "lv": "El cade"
+      "lv": "el cade"
     },
     "imperfektIndikativ": {
       "de": "er fiel",
-      "lv": "A căzut"
+      "lv": "el căzu"
     },
     "imperfektKonjunktiv": {
       "de": "er fiele",
-      "lv": "Ar cădea"
+      "lv": "el ar cădea"
     },
     "partizipVergangenheit": {
       "de": "gefallen (er ist)",
-      "lv": "A căzut"
+      "lv": "căzut"
     }
   },
   {
     "infinitiv": {
       "de": "fangen",
-      "lv": "A prinde"
+      "lv": "a prinde"
     },
     "praesens": {
       "de": "er fängt",
-      "lv": "El prinde"
+      "lv": "el prinde"
     },
     "imperfektIndikativ": {
       "de": "er fing",
-      "lv": "A prins"
+      "lv": "el prinse"
     },
     "imperfektKonjunktiv": {
       "de": "er finge",
-      "lv": "Ar prinde"
+      "lv": "el ar prinde"
     },
     "partizipVergangenheit": {
       "de": "gefangen",
-      "lv": "Prins / prins"
+      "lv": "prins"
     }
   },
   {
     "infinitiv": {
       "de": "finden",
-      "lv": "A găsi"
+      "lv": "a găsi"
     },
     "praesens": {
       "de": "er findet",
-      "lv": "El gaseste"
+      "lv": "el găsește"
     },
     "imperfektIndikativ": {
       "de": "er fand",
-      "lv": "A găsit"
+      "lv": "el găsi"
     },
     "imperfektKonjunktiv": {
       "de": "er fände",
-      "lv": "Avea să găsească"
+      "lv": "el ar găsi"
     },
     "partizipVergangenheit": {
       "de": "gefunden",
-      "lv": "Găsit"
+      "lv": "găsit"
     }
   },
   {
     "infinitiv": {
       "de": "fliegen",
-      "lv": "Dă drumul"
+      "lv": "a zbura"
     },
     "praesens": {
       "de": "er fliegt",
-      "lv": "El zboară"
+      "lv": "el zboară"
     },
     "imperfektIndikativ": {
       "de": "er flog",
-      "lv": "A zburat"
+      "lv": "el zbură"
     },
     "imperfektKonjunktiv": {
       "de": "er flöge",
-      "lv": "Ar zbura"
+      "lv": "el ar zbura"
     },
     "partizipVergangenheit": {
       "de": "geflogen (er ist)",
-      "lv": "A zburat"
+      "lv": "zburat"
     }
   },
   {
     "infinitiv": {
       "de": "fliehen",
-      "lv": "Fugi"
+      "lv": "a fugi"
     },
     "praesens": {
       "de": "er flieht",
-      "lv": "El fuge"
+      "lv": "el fuge"
     },
     "imperfektIndikativ": {
       "de": "er floh",
-      "lv": "A fugit"
+      "lv": "el fugi"
     },
     "imperfektKonjunktiv": {
       "de": "er flöhe",
-      "lv": "Ar fugi"
+      "lv": "el ar fugi"
     },
     "partizipVergangenheit": {
       "de": "geflohen (er ist)",
-      "lv": "A fugit"
+      "lv": "fugit"
     }
   },
   {
     "infinitiv": {
       "de": "fließen",
-      "lv": "A curge"
+      "lv": "a curge"
     },
     "praesens": {
       "de": "er fließt",
-      "lv": "El aleargă"
+      "lv": "curge"
     },
     "imperfektIndikativ": {
       "de": "er floss",
-      "lv": "A alergat"
+      "lv": "curse"
     },
     "imperfektKonjunktiv": {
       "de": "er flösse",
-      "lv": "Ar alerga"
+      "lv": "ar curge"
     },
     "partizipVergangenheit": {
       "de": "geflossen (er ist)",
-      "lv": "A trecut"
+      "lv": "curs"
     }
   },
   {
     "infinitiv": {
       "de": "fressen",
-      "lv": "Mananca maine"
+      "lv": "a mânca / a devora"
     },
     "praesens": {
       "de": "er frisst",
-      "lv": "El mănâncă/înghite"
+      "lv": "el mănâncă / devorează"
     },
     "imperfektIndikativ": {
       "de": "er frass",
-      "lv": "A mâncat/a înghițit"
+      "lv": "el mâncă / devoră"
     },
     "imperfektKonjunktiv": {
       "de": "er fräße",
-      "lv": "El ar mânca / micul dejun"
+      "lv": "el ar mânca / ar devora"
     },
     "partizipVergangenheit": {
       "de": "gefressen",
-      "lv": "Mâncat / dimineața"
+      "lv": "mâncat / devorat"
     }
   },
   {
     "infinitiv": {
       "de": "frieren",
-      "lv": "Rece"
+      "lv": "a îngheța"
     },
     "praesens": {
       "de": "er friert",
-      "lv": "El îngheață"
+      "lv": "el îngheață"
     },
     "imperfektIndikativ": {
       "de": "er fror",
-      "lv": "El insula"
+      "lv": "el îngheță"
     },
     "imperfektKonjunktiv": {
       "de": "er fröre",
-      "lv": "Îngheța"
+      "lv": "el ar îngheța"
     },
     "partizipVergangenheit": {
       "de": "gefroren",
-      "lv": "Insulă"
+      "lv": "înghețat"
     }
   },
   {
     "infinitiv": {
       "de": "geben",
-      "lv": "A da"
+      "lv": "a da"
     },
     "praesens": {
       "de": "er gibt",
-      "lv": "El dă"
+      "lv": "el dă"
     },
     "imperfektIndikativ": {
       "de": "er gab",
-      "lv": "A dat"
+      "lv": "el dădu"
     },
     "imperfektKonjunktiv": {
       "de": "er gäbe",
-      "lv": "El ar da"
+      "lv": "el ar da"
     },
     "partizipVergangenheit": {
       "de": "gegeben",
-      "lv": "Dat"
+      "lv": "dat"
     }
   },
   {
     "infinitiv": {
       "de": "gedeihen",
-      "lv": "Reuşi"
+      "lv": "a prospera"
     },
     "praesens": {
       "de": "er gedeiht",
-      "lv": "El reușește"
+      "lv": "el prosperă"
     },
     "imperfektIndikativ": {
       "de": "er gedieh",
-      "lv": "A reusit"
+      "lv": "el prosperă"
     },
     "imperfektKonjunktiv": {
       "de": "er gediehe",
-      "lv": "Ar reuși"
+      "lv": "el ar prospera"
     },
     "partizipVergangenheit": {
       "de": "gediehen (er ist)",
-      "lv": "A reusit"
+      "lv": "prosperat"
     }
   },
   {
     "infinitiv": {
       "de": "gehen",
-      "lv": "Merge"
+      "lv": "a merge"
     },
     "praesens": {
       "de": "er geht",
-      "lv": "El merge"
+      "lv": "el merge"
     },
     "imperfektIndikativ": {
       "de": "er ging",
-      "lv": "A mers"
+      "lv": "el merse"
     },
     "imperfektKonjunktiv": {
       "de": "er ginge",
-      "lv": "El ar merge"
+      "lv": "el ar merge"
     },
     "partizipVergangenheit": {
       "de": "gegangen (er ist)",
-      "lv": "A mers"
+      "lv": "mers"
     }
   },
   {
     "infinitiv": {
       "de": "gewinnen",
-      "lv": "A obtine"
+      "lv": "a obține"
     },
     "praesens": {
       "de": "er gewinnt",
-      "lv": "El primeste"
+      "lv": "el obține"
     },
     "imperfektIndikativ": {
       "de": "er gewann",
-      "lv": "El a primit"
+      "lv": "el obținu"
     },
     "imperfektKonjunktiv": {
       "de": "er gewönne / er gewänne",
-      "lv": "El ar primi"
+      "lv": "el ar obține"
     },
     "partizipVergangenheit": {
       "de": "gewonnen",
-      "lv": "Obtinut"
+      "lv": "obținut"
     }
   },
   {
     "infinitiv": {
       "de": "haben",
-      "lv": "A fi / a aparține"
+      "lv": "a avea"
     },
     "praesens": {
       "de": "er hat",
-      "lv": "El are"
+      "lv": "el are"
     },
     "imperfektIndikativ": {
       "de": "hatte",
-      "lv": "A fost"
+      "lv": "el avu"
     },
     "imperfektKonjunktiv": {
       "de": "hatte",
-      "lv": "A fost"
+      "lv": "el ar avea"
     },
     "partizipVergangenheit": {
       "de": "gehabt",
-      "lv": "Fost"
+      "lv": "avut"
     }
   },
   {
     "infinitiv": {
       "de": "halten",
-      "lv": "Tine"
+      "lv": "a ține"
     },
     "praesens": {
       "de": "er hält",
-      "lv": "El acolo"
+      "lv": "el ține"
     },
     "imperfektIndikativ": {
       "de": "er hielt",
-      "lv": "El ținea"
+      "lv": "el ținu"
     },
     "imperfektKonjunktiv": {
       "de": "er hielte",
-      "lv": "El ar ține"
+      "lv": "el ar ține"
     },
     "partizipVergangenheit": {
       "de": "gehalten",
-      "lv": "Ținută"
+      "lv": "ținut"
     }
   },
   {
     "infinitiv": {
       "de": "heißen",
-      "lv": "A suna"
+      "lv": "a chema / a se numi"
     },
     "praesens": {
       "de": "er heißt",
-      "lv": "El cheamă / el este chemat"
+      "lv": "el cheamă / se numește"
     },
     "imperfektIndikativ": {
       "de": "er hieß",
-      "lv": "A sunat / a fost chemat"
+      "lv": "el chemă / se numi"
     },
     "imperfektKonjunktiv": {
       "de": "er hieße",
-      "lv": "El ar suna / ar fi chemat"
+      "lv": "el ar chema / s-ar numi"
     },
     "partizipVergangenheit": {
       "de": "geheißen",
-      "lv": "Numit"
+      "lv": "chemat / numit"
     }
   },
   {
     "infinitiv": {
       "de": "helfen",
-      "lv": "Pentru a ajuta"
+      "lv": "a ajuta"
     },
     "praesens": {
       "de": "er hilft",
-      "lv": "El ajută"
+      "lv": "el ajută"
     },
     "imperfektIndikativ": {
       "de": "er half",
-      "lv": "A ajutat"
+      "lv": "el ajută"
     },
     "imperfektKonjunktiv": {
       "de": "er hülfe / er hälfe",
-      "lv": "El ar ajuta"
+      "lv": "el ar ajuta"
     },
     "partizipVergangenheit": {
       "de": "geholfen",
-      "lv": "Ajutat"
+      "lv": "ajutat"
     }
   },
   {
     "infinitiv": {
       "de": "kommen",
-      "lv": "Să vină"
+      "lv": "a veni"
     },
     "praesens": {
       "de": "er kommt",
-      "lv": "El vine"
+      "lv": "el vine"
     },
     "imperfektIndikativ": {
       "de": "er kam",
-      "lv": "A venit"
+      "lv": "el veni"
     },
     "imperfektKonjunktiv": {
       "de": "er käme",
-      "lv": "El ar veni"
+      "lv": "el ar veni"
     },
     "partizipVergangenheit": {
       "de": "gekommen (er ist)",
-      "lv": "A venit"
+      "lv": "venit"
     }
   },
   {
     "infinitiv": {
       "de": "können",
-      "lv": "A putea"
+      "lv": "a putea"
     },
     "praesens": {
       "de": "er kann",
-      "lv": "El poate"
+      "lv": "el poate"
     },
     "imperfektIndikativ": {
       "de": "konnte",
-      "lv": "Putea"
+      "lv": "el putu"
     },
     "imperfektKonjunktiv": {
       "de": "konnte",
-      "lv": "Putea"
+      "lv": "el ar putea"
     },
     "partizipVergangenheit": {
       "de": "gekonnt",
-      "lv": "Putea"
+      "lv": "putut"
     }
   },
   {
     "infinitiv": {
       "de": "kriechen",
-      "lv": "Plouă"
+      "lv": "a se târî"
     },
     "praesens": {
       "de": "er kriecht",
-      "lv": "El se apleacă"
+      "lv": "el se târăște"
     },
     "imperfektIndikativ": {
       "de": "er kroch",
-      "lv": "A plouat"
+      "lv": "el se târî"
     },
     "imperfektKonjunktiv": {
       "de": "er kröche",
-      "lv": "El ploua"
+      "lv": "el s-ar târî"
     },
     "partizipVergangenheit": {
       "de": "gekrochen (er ist)",
-      "lv": "A decedat"
+      "lv": "târât"
     }
   },
   {
     "infinitiv": {
       "de": "laden",
-      "lv": "A încărca, a invita"
+      "lv": "a încărca / a invita"
     },
     "praesens": {
       "de": "er lädt",
-      "lv": "El îngrămădește / invită"
+      "lv": "el încarcă / invită"
     },
     "imperfektIndikativ": {
       "de": "er lud",
-      "lv": "A încărcat/a invitat"
+      "lv": "el încărcă / invită"
     },
     "imperfektKonjunktiv": {
       "de": "er lüde",
-      "lv": "El ar încărca / invita"
+      "lv": "el ar încărca / ar invita"
     },
     "partizipVergangenheit": {
       "de": "geladen",
-      "lv": "Încărcat/invitat"
+      "lv": "încărcat / invitat"
     }
   },
   {
     "infinitiv": {
       "de": "lassen",
-      "lv": "A pune, a lăsa"
+      "lv": "a face / a lăsa"
     },
     "praesens": {
       "de": "er lässt",
-      "lv": "El pune / lasa"
+      "lv": "el face / lasă"
     },
     "imperfektIndikativ": {
       "de": "er ließ",
-      "lv": "A ordonat/a permis"
+      "lv": "el făcu / lăsă"
     },
     "imperfektKonjunktiv": {
       "de": "er ließe",
-      "lv": "El ar pune/lasa"
+      "lv": "el ar face / ar lăsa"
     },
     "partizipVergangenheit": {
       "de": "gelassen",
-      "lv": "Pus/permis"
+      "lv": "făcut / lăsat"
     }
   },
   {
     "infinitiv": {
       "de": "laufen",
-      "lv": "A alerga"
+      "lv": "a alerga"
     },
     "praesens": {
       "de": "er läuft",
-      "lv": "El aleargă"
+      "lv": "el aleargă"
     },
     "imperfektIndikativ": {
       "de": "er lief",
-      "lv": "A alergat"
+      "lv": "el alergă"
     },
     "imperfektKonjunktiv": {
       "de": "er liefe",
-      "lv": "Ar alerga"
+      "lv": "el ar alerga"
     },
     "partizipVergangenheit": {
       "de": "gelaufen (er ist)",
-      "lv": "A alergat"
+      "lv": "alergat"
     }
   },
   {
     "infinitiv": {
       "de": "leiden",
-      "lv": "A suferi"
+      "lv": "a suferi"
     },
     "praesens": {
       "de": "er leidet",
-      "lv": "El suferă"
+      "lv": "el suferă"
     },
     "imperfektIndikativ": {
       "de": "er litt",
-      "lv": "A suferit"
+      "lv": "el suferi"
     },
     "imperfektKonjunktiv": {
       "de": "er litte",
-      "lv": "Ar suferi"
+      "lv": "el ar suferi"
     },
     "partizipVergangenheit": {
       "de": "gelitten",
-      "lv": "Suferit"
+      "lv": "suferit"
     }
   },
   {
     "infinitiv": {
       "de": "leihen",
-      "lv": "Împrumuta / împrumuta"
+      "lv": "a da cu împrumut / a lua cu împrumut"
     },
     "praesens": {
       "de": "er leiht",
-      "lv": "El împrumută / împrumută"
+      "lv": "el dă cu împrumut / ia cu împrumut"
     },
     "imperfektIndikativ": {
       "de": "er lieh",
-      "lv": "A împrumutat/a împrumutat"
+      "lv": "el dădu cu împrumut / luă cu împrumut"
     },
     "imperfektKonjunktiv": {
       "de": "er liehe",
-      "lv": "Ar împrumuta/ar împrumuta"
+      "lv": "el ar da cu împrumut / ar lua cu împrumut"
     },
     "partizipVergangenheit": {
       "de": "geliehen",
-      "lv": "Împrumutat / împrumutat"
+      "lv": "dat cu împrumut / luat cu împrumut"
     }
   },
   {
     "infinitiv": {
       "de": "lesen",
-      "lv": "A citi"
+      "lv": "a citi"
     },
     "praesens": {
       "de": "er liest",
-      "lv": "El citește"
+      "lv": "el citește"
     },
     "imperfektIndikativ": {
       "de": "er las",
-      "lv": "Citea"
+      "lv": "el citi"
     },
     "imperfektKonjunktiv": {
       "de": "er läse",
-      "lv": "Ar citi"
+      "lv": "el ar citi"
     },
     "partizipVergangenheit": {
       "de": "gelesen",
-      "lv": "Citire"
+      "lv": "citit"
     }
   },
   {
     "infinitiv": {
       "de": "liegen",
-      "lv": "A dormi"
+      "lv": "a sta întins"
     },
     "praesens": {
       "de": "er liegt",
-      "lv": "El doarme"
+      "lv": "el stă întins"
     },
     "imperfektIndikativ": {
       "de": "er lag",
-      "lv": "El dormea"
+      "lv": "el stătu întins"
     },
     "imperfektKonjunktiv": {
       "de": "er läge",
-      "lv": "Ar dormi"
+      "lv": "el ar sta întins"
     },
     "partizipVergangenheit": {
       "de": "gelegen",
-      "lv": "A dormit"
+      "lv": "stat întins"
     }
   },
   {
     "infinitiv": {
       "de": "lügen",
-      "lv": "A minti"
+      "lv": "a minți"
     },
     "praesens": {
       "de": "er lügt",
-      "lv": "El minte"
+      "lv": "el minte"
     },
     "imperfektIndikativ": {
       "de": "er log",
-      "lv": "A mințit"
+      "lv": "el minți"
     },
     "imperfektKonjunktiv": {
       "de": "er löge",
-      "lv": "Ar minți"
+      "lv": "el ar minți"
     },
     "partizipVergangenheit": {
       "de": "gelogen",
-      "lv": "Mințit"
+      "lv": "mințit"
     }
   },
   {
     "infinitiv": {
       "de": "mahlen",
-      "lv": "Sol"
+      "lv": "a măcina"
     },
     "praesens": {
       "de": "er mahlt",
-      "lv": "El macină"
+      "lv": "el macină"
     },
     "imperfektIndikativ": {
       "de": "er mahlte",
-      "lv": "El marginea"
+      "lv": "el măcină"
     },
     "imperfektKonjunktiv": {
       "de": "er malte",
-      "lv": "El macină"
+      "lv": "el ar măcina"
     },
     "partizipVergangenheit": {
       "de": "gemahlen",
-      "lv": "Sol"
+      "lv": "măcinat"
     }
   },
   {
     "infinitiv": {
       "de": "meiden",
-      "lv": "Evita"
+      "lv": "a evita"
     },
     "praesens": {
       "de": "er meidet",
-      "lv": "El evită"
+      "lv": "el evită"
     },
     "imperfektIndikativ": {
       "de": "er mied",
-      "lv": "A evitat"
+      "lv": "el evită"
     },
     "imperfektKonjunktiv": {
       "de": "er miede",
-      "lv": "El ar evita"
+      "lv": "el ar evita"
     },
     "partizipVergangenheit": {
       "de": "gemieden",
-      "lv": "Evitat"
+      "lv": "evitat"
     }
   },
   {
     "infinitiv": {
       "de": "melken",
-      "lv": "A mulge"
+      "lv": "a mulge"
     },
     "praesens": {
       "de": "er milkt / er melkt",
-      "lv": "Mătură el"
+      "lv": "el mulge"
     },
     "imperfektIndikativ": {
       "de": "er molk / er melkte",
-      "lv": "A măturat"
+      "lv": "el mulse"
     },
     "imperfektKonjunktiv": {
       "de": "er mölke / er melkte",
-      "lv": "El ar mulge"
+      "lv": "el ar mulge"
     },
     "partizipVergangenheit": {
       "de": "gemolken / gemelkt",
-      "lv": "Muls"
+      "lv": "muls"
     }
   },
   {
     "infinitiv": {
       "de": "messen",
-      "lv": "A măsura"
+      "lv": "a măsura"
     },
     "praesens": {
       "de": "er misst",
-      "lv": "El masoara"
+      "lv": "el măsoară"
     },
     "imperfektIndikativ": {
       "de": "er mass",
-      "lv": "A măsurat"
+      "lv": "el măsură"
     },
     "imperfektKonjunktiv": {
       "de": "er mäße",
-      "lv": "El ar măsura"
+      "lv": "el ar măsura"
     },
     "partizipVergangenheit": {
       "de": "gemessen",
-      "lv": "Măsurat"
+      "lv": "măsurat"
     }
   },
   {
     "infinitiv": {
       "de": "misslingen",
-      "lv": "A eșua"
+      "lv": "a eșua"
     },
     "praesens": {
       "de": "es misslingt",
-      "lv": "Eșuează"
+      "lv": "eșuează"
     },
     "imperfektIndikativ": {
       "de": "misslang",
-      "lv": "A eșuat"
+      "lv": "eșuă"
     },
     "imperfektKonjunktiv": {
       "de": "misslang",
-      "lv": "A eșuat"
+      "lv": "ar eșua"
     },
     "partizipVergangenheit": {
       "de": "misslungen",
-      "lv": "A eșuat"
+      "lv": "eșuat"
     }
   },
   {
     "infinitiv": {
       "de": "mögen",
-      "lv": "Să placă"
+      "lv": "a plăcea"
     },
     "praesens": {
       "de": "er mag",
-      "lv": "Ii place"
+      "lv": "îi place"
     },
     "imperfektIndikativ": {
       "de": "mochte",
-      "lv": "I-a placut"
+      "lv": "îi plăcu"
     },
     "imperfektKonjunktiv": {
       "de": "mochte",
-      "lv": "I-a placut"
+      "lv": "i-ar plăcea"
     },
     "partizipVergangenheit": {
       "de": "gemocht",
-      "lv": "Placut"
+      "lv": "plăcut"
     }
   },
   {
     "infinitiv": {
       "de": "müssen",
-      "lv": "A avea nevoie"
+      "lv": "a trebui"
     },
     "praesens": {
       "de": "er muss",
-      "lv": "Are nevoie"
+      "lv": "el trebuie"
     },
     "imperfektIndikativ": {
       "de": "musste",
-      "lv": "Ar trebui să aibă"
+      "lv": "el trebui"
     },
     "imperfektKonjunktiv": {
       "de": "musste",
-      "lv": "Ar trebui să aibă"
+      "lv": "el ar trebui"
     },
     "partizipVergangenheit": {
       "de": "gemusst",
-      "lv": "Necesare"
+      "lv": "trebuit"
     }
   },
   {
     "infinitiv": {
       "de": "nehmen",
-      "lv": "A lua"
+      "lv": "a lua"
     },
     "praesens": {
       "de": "er nimmt",
-      "lv": "El ia"
+      "lv": "el ia"
     },
     "imperfektIndikativ": {
       "de": "er nahm",
-      "lv": "A luat"
+      "lv": "el luă"
     },
     "imperfektKonjunktiv": {
       "de": "er nähme",
-      "lv": "Ar lua"
+      "lv": "el ar lua"
     },
     "partizipVergangenheit": {
       "de": "genommen",
-      "lv": "Luate"
+      "lv": "luat"
     }
   },
   {
     "infinitiv": {
       "de": "nennen",
-      "lv": "A numi"
+      "lv": "a numi"
     },
     "praesens": {
       "de": "er nennt",
-      "lv": "A numit el"
+      "lv": "el numește"
     },
     "imperfektIndikativ": {
       "de": "er nannte",
-      "lv": "A sunat el"
+      "lv": "el numi"
     },
     "imperfektKonjunktiv": {
       "de": "er nennte",
-      "lv": "El ar numi"
+      "lv": "el ar numi"
     },
     "partizipVergangenheit": {
       "de": "genannt",
-      "lv": "Numit"
+      "lv": "numit"
     }
   },
   {
     "infinitiv": {
       "de": "pfeifen",
-      "lv": "A fluiera"
+      "lv": "a fluiera"
     },
     "praesens": {
       "de": "er pfeift",
-      "lv": "Fluieră el"
+      "lv": "el fluieră"
     },
     "imperfektIndikativ": {
       "de": "er pfiff",
-      "lv": "Fluiera el"
+      "lv": "el fluieră"
     },
     "imperfektKonjunktiv": {
       "de": "er pfiffe",
-      "lv": "El ar fluiera"
+      "lv": "el ar fluiera"
     },
     "partizipVergangenheit": {
       "de": "gepfiffen",
-      "lv": "Fluierat"
+      "lv": "fluierat"
     }
   },
   {
     "infinitiv": {
       "de": "pflegen",
-      "lv": "Menţine"
+      "lv": "a îngriji"
     },
     "praesens": {
       "de": "er pflegt",
-      "lv": "Îi pasă"
+      "lv": "el îngrijește"
     },
     "imperfektIndikativ": {
       "de": "pflegte / pflog",
-      "lv": "Set"
+      "lv": "el îngriji"
     },
     "imperfektKonjunktiv": {
       "de": "pflegte / pflog",
-      "lv": "Set"
+      "lv": "el ar îngriji"
     },
     "partizipVergangenheit": {
       "de": "gepflegt / gepflogen",
-      "lv": "Îngrijit"
+      "lv": "îngrijit"
     }
   },
   {
     "infinitiv": {
       "de": "preisen",
-      "lv": "Laudă"
+      "lv": "a lăuda"
     },
     "praesens": {
       "de": "er preist",
-      "lv": "El laudă"
+      "lv": "el laudă"
     },
     "imperfektIndikativ": {
       "de": "er pries",
-      "lv": "A lăudat el"
+      "lv": "el lăudă"
     },
     "imperfektKonjunktiv": {
       "de": "er priese",
-      "lv": "Ar lăuda"
+      "lv": "el ar lăuda"
     },
     "partizipVergangenheit": {
       "de": "gepriesen",
-      "lv": "Lăudat"
+      "lv": "lăudat"
     }
   },
   {
     "infinitiv": {
       "de": "quellen",
-      "lv": "Înfoia"
+      "lv": "a se umfla"
     },
     "praesens": {
       "de": "er quillt",
-      "lv": "Se ingrasa"
+      "lv": "se umflă"
     },
     "imperfektIndikativ": {
       "de": "er quoll",
-      "lv": "S-a maturizat"
+      "lv": "se umflă"
     },
     "imperfektKonjunktiv": {
       "de": "er quölle",
-      "lv": "El gras"
+      "lv": "s-ar umfla"
     },
     "partizipVergangenheit": {
       "de": "gequollen (er ist)",
-      "lv": "Umflat"
+      "lv": "umflat"
     }
   },
   {
     "infinitiv": {
       "de": "raten",
-      "lv": "Sugerează/menționează"
+      "lv": "a sfătui / a ghici"
     },
     "praesens": {
       "de": "er rät",
-      "lv": "El recomanda / min"
+      "lv": "el sfătuiește / ghicește"
     },
     "imperfektIndikativ": {
       "de": "er riet",
-      "lv": "A sugerat/a sugerat"
+      "lv": "el sfătui / ghici"
     },
     "imperfektKonjunktiv": {
       "de": "er riete",
-      "lv": "El ar sugera/menționa"
+      "lv": "el ar sfătui / ar ghici"
     },
     "partizipVergangenheit": {
       "de": "geraten",
-      "lv": "Sugerat/menționat"
+      "lv": "sfătuit / ghicit"
     }
   },
   {
     "infinitiv": {
       "de": "reiben",
-      "lv": "A freca"
+      "lv": "a freca"
     },
     "praesens": {
       "de": "er reibt",
-      "lv": "El se freacă"
+      "lv": "el freacă"
     },
     "imperfektIndikativ": {
       "de": "er rieb",
-      "lv": "El se freacă"
+      "lv": "el frecă"
     },
     "imperfektKonjunktiv": {
       "de": "er riebe",
-      "lv": "El ar freca"
+      "lv": "el ar freca"
     },
     "partizipVergangenheit": {
       "de": "gerieben",
-      "lv": "Frecat"
+      "lv": "frecat"
     }
   },
   {
     "infinitiv": {
       "de": "reißen",
-      "lv": "Trage"
+      "lv": "a smulge"
     },
     "praesens": {
       "de": "er reißt",
-      "lv": "Se repezi el"
+      "lv": "el smulge"
     },
     "imperfektIndikativ": {
       "de": "er riss",
-      "lv": "Se răsti el"
+      "lv": "el smulse"
     },
     "imperfektKonjunktiv": {
       "de": "er risse",
-      "lv": "Se răsti el"
+      "lv": "el ar smulge"
     },
     "partizipVergangenheit": {
       "de": "gerissen",
-      "lv": "Rupt"
+      "lv": "smuls"
     }
   },
   {
     "infinitiv": {
       "de": "reiten",
-      "lv": "Să călărească"
+      "lv": "a călări"
     },
     "praesens": {
       "de": "er reitet",
-      "lv": "El calare"
+      "lv": "el călărește"
     },
     "imperfektIndikativ": {
       "de": "er ritt",
-      "lv": "A călărit"
+      "lv": "el călări"
     },
     "imperfektKonjunktiv": {
       "de": "er ritte",
-      "lv": "Avea să călărească"
+      "lv": "el ar călări"
     },
     "partizipVergangenheit": {
       "de": "geritten (er ist)",
-      "lv": "Călare"
+      "lv": "călărit"
     }
   },
   {
     "infinitiv": {
       "de": "rennen",
-      "lv": "A alerga"
+      "lv": "a alerga"
     },
     "praesens": {
       "de": "er rennt",
-      "lv": "El aleargă"
+      "lv": "el aleargă"
     },
     "imperfektIndikativ": {
       "de": "er rannte",
-      "lv": "A alergat"
+      "lv": "el alergă"
     },
     "imperfektKonjunktiv": {
       "de": "er rennte",
-      "lv": "Ar alerga"
+      "lv": "el ar alerga"
     },
     "partizipVergangenheit": {
       "de": "gerannt",
-      "lv": "A alergat"
+      "lv": "alergat"
     }
   },
   {
     "infinitiv": {
       "de": "riechen",
-      "lv": "Ost"
+      "lv": "a mirosi"
     },
     "praesens": {
       "de": "er riecht",
-      "lv": "El miroase"
+      "lv": "el miroase"
     },
     "imperfektIndikativ": {
       "de": "er roch",
-      "lv": "El cântă"
+      "lv": "el mirosi"
     },
     "imperfektKonjunktiv": {
       "de": "er röche",
-      "lv": "El port"
+      "lv": "el ar mirosi"
     },
     "partizipVergangenheit": {
       "de": "gerochen",
-      "lv": "Port"
+      "lv": "mirosit"
     }
   },
   {
     "infinitiv": {
       "de": "ringen",
-      "lv": "A rupe"
+      "lv": "a se lupta"
     },
     "praesens": {
       "de": "er ringt",
-      "lv": "El se rupe"
+      "lv": "el se luptă"
     },
     "imperfektIndikativ": {
       "de": "er rang",
-      "lv": "S-a stricat"
+      "lv": "el se luptă"
     },
     "imperfektKonjunktiv": {
       "de": "er ränge",
-      "lv": "S-ar rupe"
+      "lv": "el s-ar lupta"
     },
     "partizipVergangenheit": {
       "de": "gerungen",
-      "lv": "Așteaptă"
+      "lv": "luptat"
     }
   },
   {
     "infinitiv": {
       "de": "rinnen",
-      "lv": "A curge"
+      "lv": "a se scurge"
     },
     "praesens": {
       "de": "er rinnt",
-      "lv": "El aleargă"
+      "lv": "se scurge"
     },
     "imperfektIndikativ": {
       "de": "er rann",
-      "lv": "A alergat"
+      "lv": "se scurse"
     },
     "imperfektKonjunktiv": {
       "de": "er ränne / er rönne",
-      "lv": "Ar alerga"
+      "lv": "s-ar scurge"
     },
     "partizipVergangenheit": {
       "de": "geronnen (er ist)",
-      "lv": "Curgeat / coagulat"
+      "lv": "scurs"
     }
   },
   {
     "infinitiv": {
       "de": "rufen",
-      "lv": "A suna"
+      "lv": "a chema"
     },
     "praesens": {
       "de": "er ruft",
-      "lv": "Sună el"
+      "lv": "el cheamă"
     },
     "imperfektIndikativ": {
       "de": "er rief",
-      "lv": "A sunat el"
+      "lv": "el chemă"
     },
     "imperfektKonjunktiv": {
       "de": "er riefe",
-      "lv": "Ar suna el"
+      "lv": "el ar chema"
     },
     "partizipVergangenheit": {
       "de": "gerufen",
-      "lv": "Numit"
+      "lv": "chemat"
     }
   },
   {
     "infinitiv": {
       "de": "salzen",
-      "lv": "La sare"
+      "lv": "a săra"
     },
     "praesens": {
       "de": "er salzt",
-      "lv": "A sărat"
+      "lv": "el sărează"
     },
     "imperfektIndikativ": {
       "de": "er salzte",
-      "lv": "A sărat"
+      "lv": "el sără"
     },
     "imperfektKonjunktiv": {
       "de": "er salzte",
-      "lv": "El ar sare"
+      "lv": "el ar săra"
     },
     "partizipVergangenheit": {
       "de": "gesalzen",
-      "lv": "Sărat"
+      "lv": "sărat"
     }
   },
   {
     "infinitiv": {
       "de": "saufen",
-      "lv": "Uscat / bea"
+      "lv": "a se îmbăta / a bea"
     },
     "praesens": {
       "de": "er säuft",
-      "lv": "El bea / bea"
+      "lv": "el se îmbată / bea"
     },
     "imperfektIndikativ": {
       "de": "er soff",
-      "lv": "A băut / a băut"
+      "lv": "el se îmbătă / bău"
     },
     "imperfektKonjunktiv": {
       "de": "er söffe",
-      "lv": "Ar bea / bea"
+      "lv": "el s-ar îmbăta / ar bea"
     },
     "partizipVergangenheit": {
       "de": "gesoffen",
-      "lv": "Beat"
+      "lv": "îmbătat / băut"
     }
   },
   {
     "infinitiv": {
       "de": "saugen",
-      "lv": "Suge"
+      "lv": "a suge"
     },
     "praesens": {
       "de": "er saugt",
-      "lv": "El naiba"
+      "lv": "el suge"
     },
     "imperfektIndikativ": {
       "de": "er sog",
-      "lv": "A supt"
+      "lv": "el supse"
     },
     "imperfektKonjunktiv": {
       "de": "er söge",
-      "lv": "Ar suge"
+      "lv": "el ar suge"
     },
     "partizipVergangenheit": {
       "de": "gesogen",
-      "lv": "Supt"
+      "lv": "supt"
     }
   },
   {
     "infinitiv": {
       "de": "schaffen",
-      "lv": "A crea"
+      "lv": "a crea"
     },
     "praesens": {
       "de": "er schafft",
-      "lv": "El creează"
+      "lv": "el creează"
     },
     "imperfektIndikativ": {
       "de": "er schuf",
-      "lv": "El a creat"
+      "lv": "el creă"
     },
     "imperfektKonjunktiv": {
       "de": "er schüfe",
-      "lv": "El ar crea"
+      "lv": "el ar crea"
     },
     "partizipVergangenheit": {
       "de": "geschaffen",
-      "lv": "Creat"
+      "lv": "creat"
     }
   },
   {
     "infinitiv": {
       "de": "schallen",
-      "lv": "A suna"
+      "lv": "a răsuna"
     },
     "praesens": {
       "de": "es schallt",
-      "lv": "Suna"
+      "lv": "răsună"
     },
     "imperfektIndikativ": {
       "de": "schallte / scholl",
-      "lv": "A sunat"
+      "lv": "răsună"
     },
     "imperfektKonjunktiv": {
       "de": "schallte / scholl",
-      "lv": "A sunat"
+      "lv": "ar răsuna"
     },
     "partizipVergangenheit": {
       "de": "geschallt",
-      "lv": "A sunat"
+      "lv": "răsunat"
     }
   },
   {
     "infinitiv": {
       "de": "scheiden",
-      "lv": "Divorț / despărțire"
+      "lv": "a despărți / a se despărți"
     },
     "praesens": {
       "de": "er scheidet",
-      "lv": "El divorțează / divorțează"
+      "lv": "el desparte / se desparte"
     },
     "imperfektIndikativ": {
       "de": "er schied",
-      "lv": "A divorțat / a divorțat"
+      "lv": "el despărți / se despărți"
     },
     "imperfektKonjunktiv": {
       "de": "er schiede",
-      "lv": "El ar divorţa / divorţa"
+      "lv": "el ar despărți / s-ar despărți"
     },
     "partizipVergangenheit": {
       "de": "geschieden (er hat / er ist)",
-      "lv": "Despărțiți/divorțați"
+      "lv": "despărțit / despărțit"
     }
   },
   {
     "infinitiv": {
       "de": "scheinen",
-      "lv": "Strălucește / pare"
+      "lv": "a străluci / a părea"
     },
     "praesens": {
       "de": "er scheint",
-      "lv": "El strălucește / pare"
+      "lv": "el strălucește / pare"
     },
     "imperfektIndikativ": {
       "de": "er schien",
-      "lv": "A strălucit / părea"
+      "lv": "el străluci / păru"
     },
     "imperfektKonjunktiv": {
       "de": "er schiene",
-      "lv": "El ar străluci / părea"
+      "lv": "el ar străluci / ar părea"
     },
     "partizipVergangenheit": {
       "de": "geschienen",
-      "lv": "A strălucit / părea"
+      "lv": "strălucit / părut"
     }
   },
   {
     "infinitiv": {
       "de": "schelten",
-      "lv": "Bart"
+      "lv": "a certa"
     },
     "praesens": {
       "de": "er schilt",
-      "lv": "Certa el"
+      "lv": "el ceartă"
     },
     "imperfektIndikativ": {
       "de": "er schalt",
-      "lv": "A interzis el"
+      "lv": "el certă"
     },
     "imperfektKonjunktiv": {
       "de": "er schölte / er schälte",
-      "lv": "Se rade"
+      "lv": "el ar certa"
     },
     "partizipVergangenheit": {
       "de": "gescholten",
-      "lv": "Barbă"
+      "lv": "certat"
     }
   },
   {
     "infinitiv": {
       "de": "scheren",
-      "lv": "A tăia"
+      "lv": "a tunde"
     },
     "praesens": {
       "de": "er schert",
-      "lv": "El taie"
+      "lv": "el tunde"
     },
     "imperfektIndikativ": {
       "de": "schor / scherte",
-      "lv": "Foarfece"
+      "lv": "el tunse"
     },
     "imperfektKonjunktiv": {
       "de": "schor / scherte",
-      "lv": "Foarfece"
+      "lv": "el ar tunde"
     },
     "partizipVergangenheit": {
       "de": "geschoren / geschert",
-      "lv": "Decupat"
+      "lv": "tuns"
     }
   },
   {
     "infinitiv": {
       "de": "schieben",
-      "lv": "A împinge"
+      "lv": "a împinge"
     },
     "praesens": {
       "de": "er schiebt",
-      "lv": "El împinge"
+      "lv": "el împinge"
     },
     "imperfektIndikativ": {
       "de": "er schob",
-      "lv": "A împins el"
+      "lv": "el împinse"
     },
     "imperfektKonjunktiv": {
       "de": "er schöbe",
-      "lv": "El ar împinge"
+      "lv": "el ar împinge"
     },
     "partizipVergangenheit": {
       "de": "geschoben",
-      "lv": "Împins"
+      "lv": "împins"
     }
   },
   {
     "infinitiv": {
       "de": "schießen",
-      "lv": "A trage"
+      "lv": "a trage cu arma"
     },
     "praesens": {
       "de": "er schießt",
-      "lv": "El trage"
+      "lv": "el trage cu arma"
     },
     "imperfektIndikativ": {
       "de": "er schoss",
-      "lv": "El a tras"
+      "lv": "el trase cu arma"
     },
     "imperfektKonjunktiv": {
       "de": "er schösse",
-      "lv": "Ar trage"
+      "lv": "el ar trage cu arma"
     },
     "partizipVergangenheit": {
       "de": "geschossen",
-      "lv": "Shot"
+      "lv": "tras cu arma"
     }
   },
   {
     "infinitiv": {
       "de": "schinden",
-      "lv": "Chin"
+      "lv": "a chinui"
     },
     "praesens": {
       "de": "er schindet",
-      "lv": "Se chinuie"
+      "lv": "el chinuie"
     },
     "imperfektIndikativ": {
       "de": "schindete",
-      "lv": "Chinuit"
+      "lv": "el chinui"
     },
     "imperfektKonjunktiv": {
       "de": "schindete",
-      "lv": "Chinuit"
+      "lv": "el ar chinui"
     },
     "partizipVergangenheit": {
       "de": "geschunden",
-      "lv": "Chinuit"
+      "lv": "chinuit"
     }
   },
   {
     "infinitiv": {
       "de": "schlafen",
-      "lv": "A dormi"
+      "lv": "a dormi"
     },
     "praesens": {
       "de": "er schläft",
-      "lv": "El doarme"
+      "lv": "el doarme"
     },
     "imperfektIndikativ": {
       "de": "er schlief",
-      "lv": "El dormea"
+      "lv": "el dormi"
     },
     "imperfektKonjunktiv": {
       "de": "er schliefe",
-      "lv": "Ar dormi"
+      "lv": "el ar dormi"
     },
     "partizipVergangenheit": {
       "de": "geschlafen",
-      "lv": "A dormit"
+      "lv": "dormit"
     }
   },
   {
     "infinitiv": {
       "de": "schlagen",
-      "lv": "Lovit"
+      "lv": "a lovi"
     },
     "praesens": {
       "de": "er schlägt",
-      "lv": "El loveste"
+      "lv": "el lovește"
     },
     "imperfektIndikativ": {
       "de": "er schlug",
-      "lv": "A lovit"
+      "lv": "el lovi"
     },
     "imperfektKonjunktiv": {
       "de": "er schlüge",
-      "lv": "Ar lovi"
+      "lv": "el ar lovi"
     },
     "partizipVergangenheit": {
       "de": "geschlagen",
-      "lv": "Bătut"
+      "lv": "lovit"
     }
   },
   {
     "infinitiv": {
       "de": "schleichen",
-      "lv": "Plouă"
+      "lv": "a se furișa"
     },
     "praesens": {
       "de": "er schleicht",
-      "lv": "El se apleacă"
+      "lv": "el se furișează"
     },
     "imperfektIndikativ": {
       "de": "er schlich",
-      "lv": "A plouat"
+      "lv": "el se furișă"
     },
     "imperfektKonjunktiv": {
       "de": "er schliche",
-      "lv": "El ploua"
+      "lv": "el s-ar furișa"
     },
     "partizipVergangenheit": {
       "de": "geschlichen (er ist)",
-      "lv": "A decedat"
+      "lv": "furișat"
     }
   },
   {
     "infinitiv": {
       "de": "schleifen",
-      "lv": "A macina"
+      "lv": "a șlefui"
     },
     "praesens": {
       "de": "er schleift",
-      "lv": "El macină"
+      "lv": "el șlefuiește"
     },
     "imperfektIndikativ": {
       "de": "er schliff",
-      "lv": "Macina el"
+      "lv": "el șlefui"
     },
     "imperfektKonjunktiv": {
       "de": "er schliffe",
-      "lv": "El ar macina"
+      "lv": "el ar șlefui"
     },
     "partizipVergangenheit": {
       "de": "geschliffen",
-      "lv": "Lustruit"
+      "lv": "șlefuit"
     }
   },
   {
     "infinitiv": {
       "de": "schließen",
-      "lv": "A inchide"
+      "lv": "a închide"
     },
     "praesens": {
       "de": "er schließt",
-      "lv": "El inchide"
+      "lv": "el închide"
     },
     "imperfektIndikativ": {
       "de": "er schloss",
-      "lv": "A închis"
+      "lv": "el închise"
     },
     "imperfektKonjunktiv": {
       "de": "er schlösse",
-      "lv": "Ar închide"
+      "lv": "el ar închide"
     },
     "partizipVergangenheit": {
       "de": "geschlossen",
-      "lv": "Închis"
+      "lv": "închis"
     }
   },
   {
     "infinitiv": {
       "de": "schlingen",
-      "lv": "Mâine"
+      "lv": "a înghiți"
     },
     "praesens": {
       "de": "er schlingt",
-      "lv": "El înghite"
+      "lv": "el înghite"
     },
     "imperfektIndikativ": {
       "de": "er schlang",
-      "lv": "A înghițit"
+      "lv": "el înghiți"
     },
     "imperfektKonjunktiv": {
       "de": "er schlänge",
-      "lv": "El dimineata"
+      "lv": "el ar înghiți"
     },
     "partizipVergangenheit": {
       "de": "geschlungen",
-      "lv": "Dimineata"
+      "lv": "înghițit"
     }
   },
   {
     "infinitiv": {
       "de": "schmeißen",
-      "lv": "Arunca"
+      "lv": "a azvârli"
     },
     "praesens": {
       "de": "er schmeißt",
-      "lv": "El aruncă"
+      "lv": "el azvârle"
     },
     "imperfektIndikativ": {
       "de": "er schmiss",
-      "lv": "A aruncat"
+      "lv": "el azvârli"
     },
     "imperfektKonjunktiv": {
       "de": "er schmisse",
-      "lv": "A aruncat"
+      "lv": "el ar azvârli"
     },
     "partizipVergangenheit": {
       "de": "geschmissen",
-      "lv": "Aruncat"
+      "lv": "azvârlit"
     }
   },
   {
     "infinitiv": {
       "de": "schmelzen",
-      "lv": "În mișcare"
+      "lv": "a se topi"
     },
     "praesens": {
       "de": "er schmilzt",
-      "lv": "El se topește"
+      "lv": "se topește"
     },
     "imperfektIndikativ": {
       "de": "er schmolz",
-      "lv": "Gemu el"
+      "lv": "se topi"
     },
     "imperfektKonjunktiv": {
       "de": "er schmölze",
-      "lv": "Se mişca"
+      "lv": "s-ar topi"
     },
     "partizipVergangenheit": {
       "de": "geschmolzen (er ist)",
-      "lv": "Topit"
+      "lv": "topit"
     }
   },
   {
     "infinitiv": {
       "de": "schnauben",
-      "lv": "La şuierat"
+      "lv": "a pufni"
     },
     "praesens": {
       "de": "er schnaubt",
-      "lv": "El pufnește"
+      "lv": "el pufnește"
     },
     "imperfektIndikativ": {
       "de": "schnaubte / schnob",
-      "lv": "Pufni"
+      "lv": "el pufni"
     },
     "imperfektKonjunktiv": {
       "de": "schnaubte / schnob",
-      "lv": "Pufni"
+      "lv": "el ar pufni"
     },
     "partizipVergangenheit": {
       "de": "geschnaubt / geschnoben",
-      "lv": "Pufni"
+      "lv": "pufnit"
     }
   },
   {
     "infinitiv": {
       "de": "schneiden",
-      "lv": "A tăia"
+      "lv": "a tăia"
     },
     "praesens": {
       "de": "er schneidet",
-      "lv": "El se învârte"
+      "lv": "el taie"
     },
     "imperfektIndikativ": {
       "de": "er schnitt",
-      "lv": "El tăia"
+      "lv": "el tăie"
     },
     "imperfektKonjunktiv": {
       "de": "er schnitte",
-      "lv": "Ar tăia"
+      "lv": "el ar tăia"
     },
     "partizipVergangenheit": {
       "de": "geschnitten",
-      "lv": "Tăiat"
+      "lv": "tăiat"
     }
   },
   {
     "infinitiv": {
       "de": "schreiben",
-      "lv": "A scrie"
+      "lv": "a scrie"
     },
     "praesens": {
       "de": "er schreibt",
-      "lv": "Scrie el"
+      "lv": "el scrie"
     },
     "imperfektIndikativ": {
       "de": "er schrieb",
-      "lv": "A scris el"
+      "lv": "el scrise"
     },
     "imperfektKonjunktiv": {
       "de": "er schriebe",
-      "lv": "El ar scrie"
+      "lv": "el ar scrie"
     },
     "partizipVergangenheit": {
       "de": "geschrieben",
-      "lv": "Scris"
+      "lv": "scris"
     }
   },
   {
     "infinitiv": {
       "de": "schreien",
-      "lv": "A striga"
+      "lv": "a striga"
     },
     "praesens": {
       "de": "er schreit",
-      "lv": "Strigă el"
+      "lv": "el strigă"
     },
     "imperfektIndikativ": {
       "de": "er schrie",
-      "lv": "A strigat el"
+      "lv": "el strigă"
     },
     "imperfektKonjunktiv": {
       "de": "er schriee",
-      "lv": "Ar striga el"
+      "lv": "el ar striga"
     },
     "partizipVergangenheit": {
       "de": "geschrien",
-      "lv": "Strigă"
+      "lv": "strigat"
     }
   },
   {
     "infinitiv": {
       "de": "schreiten",
-      "lv": "Mers pe jos"
+      "lv": "a păși"
     },
     "praesens": {
       "de": "er schreitet",
-      "lv": "El merge"
+      "lv": "el pășește"
     },
     "imperfektIndikativ": {
       "de": "er schritt",
-      "lv": "El mergea"
+      "lv": "el păși"
     },
     "imperfektKonjunktiv": {
       "de": "er schritte",
-      "lv": "Ar merge"
+      "lv": "el ar păși"
     },
     "partizipVergangenheit": {
       "de": "geschritten (er ist)",
-      "lv": "Mers"
+      "lv": "pășit"
     }
   },
   {
     "infinitiv": {
       "de": "schweigen",
-      "lv": "Taci"
+      "lv": "a tăcea"
     },
     "praesens": {
       "de": "er schweigt",
-      "lv": "El tace"
+      "lv": "el tace"
     },
     "imperfektIndikativ": {
       "de": "er schwieg",
-      "lv": "Tăcea"
+      "lv": "el tăcu"
     },
     "imperfektKonjunktiv": {
       "de": "er schwiege",
-      "lv": "Ar fi tăcut"
+      "lv": "el ar tăcea"
     },
     "partizipVergangenheit": {
       "de": "geschwiegen",
-      "lv": "Redus la tăcere"
+      "lv": "tăcut"
     }
   },
   {
     "infinitiv": {
       "de": "schwellen",
-      "lv": "Pamp"
+      "lv": "a se umfla"
     },
     "praesens": {
       "de": "er schwillt",
-      "lv": "Se ciufulie"
+      "lv": "se umflă"
     },
     "imperfektIndikativ": {
       "de": "er schwoll",
-      "lv": "El pampas"
+      "lv": "se umflă"
     },
     "imperfektKonjunktiv": {
       "de": "er schwölle",
-      "lv": "Ar pompa"
+      "lv": "s-ar umfla"
     },
     "partizipVergangenheit": {
       "de": "geschwollen (er ist)",
-      "lv": "Pompa"
+      "lv": "umflat"
     }
   },
   {
     "infinitiv": {
       "de": "schwimmen",
-      "lv": "A înota"
+      "lv": "a înota"
     },
     "praesens": {
       "de": "er schwimmt",
-      "lv": "El înoată"
+      "lv": "el înoată"
     },
     "imperfektIndikativ": {
       "de": "er schwamm",
-      "lv": "El înota"
+      "lv": "el înotă"
     },
     "imperfektKonjunktiv": {
       "de": "er schwömme / er schwämme",
-      "lv": "Ar înota"
+      "lv": "el ar înota"
     },
     "partizipVergangenheit": {
       "de": "geschwommen (er ist)",
-      "lv": "Înotat"
+      "lv": "înotat"
     }
   },
   {
     "infinitiv": {
       "de": "schwinden",
-      "lv": "Dispărea"
+      "lv": "a dispărea"
     },
     "praesens": {
       "de": "er schwindet",
-      "lv": "El dispare"
+      "lv": "dispare"
     },
     "imperfektIndikativ": {
       "de": "er schwand",
-      "lv": "El a dispărut"
+      "lv": "dispăru"
     },
     "imperfektKonjunktiv": {
       "de": "er schwände",
-      "lv": "El ar dispărea"
+      "lv": "ar dispărea"
     },
     "partizipVergangenheit": {
       "de": "geschwunden (er ist)",
-      "lv": "Pierdut"
+      "lv": "dispărut"
     }
   },
   {
     "infinitiv": {
       "de": "schwingen",
-      "lv": "Val"
+      "lv": "a flutura"
     },
     "praesens": {
       "de": "er schwingt",
-      "lv": "El face cu mâna"
+      "lv": "el flutură"
     },
     "imperfektIndikativ": {
       "de": "er schwang",
-      "lv": "Făcu cu mâna"
+      "lv": "el flutură"
     },
     "imperfektKonjunktiv": {
       "de": "er schwänge",
-      "lv": "Ar face cu mâna"
+      "lv": "el ar flutura"
     },
     "partizipVergangenheit": {
       "de": "geschwungen",
-      "lv": "Ondulat"
+      "lv": "fluturat"
     }
   },
   {
     "infinitiv": {
       "de": "schwören",
-      "lv": "A jura"
+      "lv": "a jura"
     },
     "praesens": {
       "de": "er schwört",
-      "lv": "Înjură el"
+      "lv": "el jură"
     },
     "imperfektIndikativ": {
       "de": "er schwur / er schwor",
-      "lv": "A înjurat"
+      "lv": "el jură"
     },
     "imperfektKonjunktiv": {
       "de": "er schwöre",
-      "lv": "Ar jura"
+      "lv": "el ar jura"
     },
     "partizipVergangenheit": {
       "de": "geschworen",
-      "lv": "Jurat"
+      "lv": "jurat"
     }
   },
   {
     "infinitiv": {
       "de": "sehen",
-      "lv": "Pentru a vedea"
+      "lv": "a vedea"
     },
     "praesens": {
       "de": "er sieht",
-      "lv": "El vede"
+      "lv": "el vede"
     },
     "imperfektIndikativ": {
       "de": "er sah",
-      "lv": "A văzut"
+      "lv": "el văzu"
     },
     "imperfektKonjunktiv": {
       "de": "er sähe",
-      "lv": "Ar vedea"
+      "lv": "el ar vedea"
     },
     "partizipVergangenheit": {
       "de": "gesehen",
-      "lv": "Văzut"
+      "lv": "văzut"
     }
   },
   {
     "infinitiv": {
       "de": "sein",
-      "lv": "A fi"
+      "lv": "a fi"
     },
     "praesens": {
       "de": "er ist",
-      "lv": "El este"
+      "lv": "el este"
     },
     "imperfektIndikativ": {
       "de": "war",
-      "lv": "A fost"
+      "lv": "el fu"
     },
     "imperfektKonjunktiv": {
       "de": "war",
-      "lv": "A fost"
+      "lv": "el ar fi"
     },
     "partizipVergangenheit": {
       "de": "gewesen",
-      "lv": "Fost"
+      "lv": "fost"
     }
   },
   {
     "infinitiv": {
       "de": "senden",
-      "lv": "A trimite"
+      "lv": "a trimite"
     },
     "praesens": {
       "de": "er sendet",
-      "lv": "El trimite"
+      "lv": "el trimite"
     },
     "imperfektIndikativ": {
       "de": "er sandte / er sendete",
-      "lv": "A trimis"
+      "lv": "el trimise"
     },
     "imperfektKonjunktiv": {
       "de": "er sendete",
-      "lv": "Ar trimite"
+      "lv": "el ar trimite"
     },
     "partizipVergangenheit": {
       "de": "gesandt / gesendet",
-      "lv": "Trimis"
+      "lv": "trimis"
     }
   },
   {
     "infinitiv": {
       "de": "sieden",
-      "lv": "A fierbe"
+      "lv": "a fierbe"
     },
     "praesens": {
       "de": "er siedet",
-      "lv": "El gătește"
+      "lv": "el fierbe"
     },
     "imperfektIndikativ": {
       "de": "sott / siedete",
-      "lv": "Fierte"
+      "lv": "el fierse"
     },
     "imperfektKonjunktiv": {
       "de": "sott / siedete",
-      "lv": "Fierte"
+      "lv": "el ar fierbe"
     },
     "partizipVergangenheit": {
       "de": "gesotten / gesiedet",
-      "lv": "Fiert"
+      "lv": "fiert"
     }
   },
   {
     "infinitiv": {
       "de": "singen",
-      "lv": "A cânta"
+      "lv": "a cânta"
     },
     "praesens": {
       "de": "er singt",
-      "lv": "El cântă"
+      "lv": "el cântă"
     },
     "imperfektIndikativ": {
       "de": "er sang",
-      "lv": "A cântat"
+      "lv": "el cântă"
     },
     "imperfektKonjunktiv": {
       "de": "er sänge",
-      "lv": "El ar cânta"
+      "lv": "el ar cânta"
     },
     "partizipVergangenheit": {
       "de": "gesungen",
-      "lv": "Cântat"
+      "lv": "cântat"
     }
   },
   {
     "infinitiv": {
       "de": "sinken",
-      "lv": "A se scufunda"
+      "lv": "a se scufunda"
     },
     "praesens": {
       "de": "er sinkt",
-      "lv": "El se scufundă"
+      "lv": "el se scufundă"
     },
     "imperfektIndikativ": {
       "de": "er sank",
-      "lv": "El se inventa"
+      "lv": "el se scufundă"
     },
     "imperfektKonjunktiv": {
       "de": "er sänke",
-      "lv": "S-ar scufunda"
+      "lv": "el s-ar scufunda"
     },
     "partizipVergangenheit": {
       "de": "gesunken (er ist)",
-      "lv": "Inventa"
+      "lv": "scufundat"
     }
   },
   {
     "infinitiv": {
       "de": "sinnen",
-      "lv": "A se mira"
+      "lv": "a reflecta"
     },
     "praesens": {
       "de": "er sinnt",
-      "lv": "Se întreabă el"
+      "lv": "el reflectează"
     },
     "imperfektIndikativ": {
       "de": "er sann",
-      "lv": "Se întrebă el"
+      "lv": "el reflectă"
     },
     "imperfektKonjunktiv": {
       "de": "er sönne / er sänne",
-      "lv": "S-ar întreba el"
+      "lv": "el ar reflecta"
     },
     "partizipVergangenheit": {
       "de": "gesonnen",
-      "lv": "Minte"
+      "lv": "reflectat"
     }
   },
   {
     "infinitiv": {
       "de": "sitzen",
-      "lv": "A sta"
+      "lv": "a ședea"
     },
     "praesens": {
       "de": "er sitzt",
-      "lv": "El stă"
+      "lv": "el șade"
     },
     "imperfektIndikativ": {
       "de": "er sass",
-      "lv": "El stătea"
+      "lv": "el șezu"
     },
     "imperfektKonjunktiv": {
       "de": "er säße",
-      "lv": "El ar sta"
+      "lv": "el ar ședea"
     },
     "partizipVergangenheit": {
       "de": "gesessen",
-      "lv": "S-a asezat"
+      "lv": "șezut"
     }
   },
   {
     "infinitiv": {
       "de": "sollen",
-      "lv": "Nevoie / fi obligat"
+      "lv": "a trebui"
     },
     "praesens": {
       "de": "er soll",
-      "lv": "Are nevoie"
+      "lv": "el trebuie"
     },
     "imperfektIndikativ": {
       "de": "sollte",
-      "lv": "Ar trebui să aibă"
+      "lv": "el trebui"
     },
     "imperfektKonjunktiv": {
       "de": "sollte",
-      "lv": "Ar trebui să aibă"
+      "lv": "el ar trebui"
     },
     "partizipVergangenheit": {
       "de": "gesollt",
-      "lv": "Necesare"
+      "lv": "trebuit"
     }
   },
   {
     "infinitiv": {
       "de": "speien",
-      "lv": "A scuipa"
+      "lv": "a scuipa"
     },
     "praesens": {
       "de": "er speit",
-      "lv": "Scuipă el"
+      "lv": "el scuipă"
     },
     "imperfektIndikativ": {
       "de": "er spie",
-      "lv": "A scuipat"
+      "lv": "el scuipă"
     },
     "imperfektKonjunktiv": {
       "de": "er spie",
-      "lv": "Ar scuipa"
+      "lv": "el ar scuipa"
     },
     "partizipVergangenheit": {
       "de": "gespien",
-      "lv": "Scuipat afară"
+      "lv": "scuipat"
     }
   },
   {
     "infinitiv": {
       "de": "spinnen",
-      "lv": "Rotire"
+      "lv": "a toarce"
     },
     "praesens": {
       "de": "er spinnt",
-      "lv": "El se rasuceste"
+      "lv": "el toarce"
     },
     "imperfektIndikativ": {
       "de": "er spann",
-      "lv": "S-a învârtit"
+      "lv": "el toarse"
     },
     "imperfektKonjunktiv": {
       "de": "er spönne / er spänne",
-      "lv": "S-ar învârti"
+      "lv": "el ar toarce"
     },
     "partizipVergangenheit": {
       "de": "gesponnen",
-      "lv": "Filat"
+      "lv": "tors"
     }
   },
   {
     "infinitiv": {
       "de": "spleißen",
-      "lv": "Să se conecteze"
+      "lv": "a îmbina"
     },
     "praesens": {
       "de": "er spleißt",
-      "lv": "El conectează"
+      "lv": "el îmbină"
     },
     "imperfektIndikativ": {
       "de": "spliss",
-      "lv": "Conectat"
+      "lv": "el îmbină"
     },
     "imperfektKonjunktiv": {
       "de": "spliss",
-      "lv": "Conectat"
+      "lv": "el ar îmbina"
     },
     "partizipVergangenheit": {
       "de": "gesplissen",
-      "lv": "Conectat"
+      "lv": "îmbinat"
     }
   },
   {
     "infinitiv": {
       "de": "sprechen",
-      "lv": "A vorbi"
+      "lv": "a vorbi"
     },
     "praesens": {
       "de": "er spricht",
-      "lv": "El vorbeste"
+      "lv": "el vorbește"
     },
     "imperfektIndikativ": {
       "de": "er sprach",
-      "lv": "A vorbit"
+      "lv": "el vorbi"
     },
     "imperfektKonjunktiv": {
       "de": "er spräche",
-      "lv": "El ar vorbi"
+      "lv": "el ar vorbi"
     },
     "partizipVergangenheit": {
       "de": "gesprochen",
-      "lv": "Vorbit"
+      "lv": "vorbit"
     }
   },
   {
     "infinitiv": {
       "de": "sprießen",
-      "lv": "Prospera"
+      "lv": "a încolți"
     },
     "praesens": {
       "de": "er sprießt",
-      "lv": "El prosperă"
+      "lv": "încolțește"
     },
     "imperfektIndikativ": {
       "de": "er spross",
-      "lv": "A prosperat"
+      "lv": "încolți"
     },
     "imperfektKonjunktiv": {
       "de": "er sprösse",
-      "lv": "El raftul"
+      "lv": "ar încolți"
     },
     "partizipVergangenheit": {
       "de": "gesprossen (er ist)",
-      "lv": "Umărul"
+      "lv": "încolțit"
     }
   },
   {
     "infinitiv": {
       "de": "springen",
-      "lv": "A sari"
+      "lv": "a sări"
     },
     "praesens": {
       "de": "er springt",
-      "lv": "El sare"
+      "lv": "el sare"
     },
     "imperfektIndikativ": {
       "de": "er sprang",
-      "lv": "A sărit"
+      "lv": "el sări"
     },
     "imperfektKonjunktiv": {
       "de": "er spränge",
-      "lv": "Ar sări"
+      "lv": "el ar sări"
     },
     "partizipVergangenheit": {
       "de": "gesprungen (er ist)",
-      "lv": "Obiectiv"
+      "lv": "sărit"
     }
   },
   {
     "infinitiv": {
       "de": "stechen",
-      "lv": "Înjunghia"
+      "lv": "a înțepa"
     },
     "praesens": {
       "de": "er sticht",
-      "lv": "El înjunghie"
+      "lv": "el înțeapă"
     },
     "imperfektIndikativ": {
       "de": "er stach",
-      "lv": "A dat cu pumnul"
+      "lv": "el înțepă"
     },
     "imperfektKonjunktiv": {
       "de": "er stäche",
-      "lv": "Ar înjunghia"
+      "lv": "el ar înțepa"
     },
     "partizipVergangenheit": {
       "de": "gestochen",
-      "lv": "Înjunghiat"
+      "lv": "înțepat"
     }
   },
   {
     "infinitiv": {
       "de": "stecken",
-      "lv": "A lipi / a lipi înăuntru"
+      "lv": "a băga / a înfige"
     },
     "praesens": {
       "de": "er steckt",
-      "lv": "El împinge"
+      "lv": "el bagă / înfige"
     },
     "imperfektIndikativ": {
       "de": "stak / steckte",
-      "lv": "Umplute"
+      "lv": "el băgă / înfipse"
     },
     "imperfektKonjunktiv": {
       "de": "stak / steckte",
-      "lv": "Umplute"
+      "lv": "el ar băga / ar înfige"
     },
     "partizipVergangenheit": {
       "de": "gesteckt",
-      "lv": "Umplute"
+      "lv": "băgat / înfipt"
     }
   },
   {
     "infinitiv": {
       "de": "stehen",
-      "lv": "A sta în picioare"
+      "lv": "a sta în picioare"
     },
     "praesens": {
       "de": "er steht",
-      "lv": "El stă în picioare"
+      "lv": "el stă în picioare"
     },
     "imperfektIndikativ": {
       "de": "er stand",
-      "lv": "Stătea în picioare"
+      "lv": "el stătu în picioare"
     },
     "imperfektKonjunktiv": {
       "de": "er stände / er stünde",
-      "lv": "El ar sta în picioare"
+      "lv": "el ar sta în picioare"
     },
     "partizipVergangenheit": {
       "de": "gestanden",
-      "lv": "Permanent"
+      "lv": "stat în picioare"
     }
   },
   {
     "infinitiv": {
       "de": "stehlen",
-      "lv": "A fura"
+      "lv": "a fura"
     },
     "praesens": {
       "de": "er stiehlt",
-      "lv": "El fură"
+      "lv": "el fură"
     },
     "imperfektIndikativ": {
       "de": "er stahl",
-      "lv": "A furat"
+      "lv": "el fură"
     },
     "imperfektKonjunktiv": {
       "de": "er stöhle / er stähle",
-      "lv": "Ar fura"
+      "lv": "el ar fura"
     },
     "partizipVergangenheit": {
       "de": "gestohlen",
-      "lv": "Furat"
+      "lv": "furat"
     }
   },
   {
     "infinitiv": {
       "de": "steigen",
-      "lv": "A urca"
+      "lv": "a urca"
     },
     "praesens": {
       "de": "er steigt",
-      "lv": "El urcă"
+      "lv": "el urcă"
     },
     "imperfektIndikativ": {
       "de": "er stieg",
-      "lv": "A urcat"
+      "lv": "el urcă"
     },
     "imperfektKonjunktiv": {
       "de": "er stiege",
-      "lv": "El ar urca"
+      "lv": "el ar urca"
     },
     "partizipVergangenheit": {
       "de": "gestiegen (er ist)",
-      "lv": "Urcat"
+      "lv": "urcat"
     }
   },
   {
     "infinitiv": {
       "de": "sterben",
-      "lv": "A muri"
+      "lv": "a muri"
     },
     "praesens": {
       "de": "er stirbt",
-      "lv": "El este pe moarte"
+      "lv": "el moare"
     },
     "imperfektIndikativ": {
       "de": "er starb",
-      "lv": "A murit"
+      "lv": "el muri"
     },
     "imperfektKonjunktiv": {
       "de": "er stürbe",
-      "lv": "El ar muri"
+      "lv": "el ar muri"
     },
     "partizipVergangenheit": {
       "de": "gestorben (er ist)",
-      "lv": "Mort"
+      "lv": "murit"
     }
   },
   {
     "infinitiv": {
       "de": "stinken",
-      "lv": "A mirosi"
+      "lv": "a puți"
     },
     "praesens": {
       "de": "es stinkt",
-      "lv": "Miroase"
+      "lv": "pute"
     },
     "imperfektIndikativ": {
       "de": "stank",
-      "lv": "Mirosit"
+      "lv": "puți"
     },
     "imperfektKonjunktiv": {
       "de": "stank",
-      "lv": "Mirosit"
+      "lv": "ar puți"
     },
     "partizipVergangenheit": {
       "de": "gestunken",
-      "lv": "Mirositoare"
+      "lv": "puțit"
     }
   },
   {
     "infinitiv": {
       "de": "stoßen",
-      "lv": "Apăsaţi"
+      "lv": "a îmbrânci"
     },
     "praesens": {
       "de": "er stößt",
-      "lv": "El împinge"
+      "lv": "el îmbrâncește"
     },
     "imperfektIndikativ": {
       "de": "er stieß",
-      "lv": "A împins el"
+      "lv": "el îmbrânci"
     },
     "imperfektKonjunktiv": {
       "de": "er stieße",
-      "lv": "El împingea"
+      "lv": "el ar îmbrânci"
     },
     "partizipVergangenheit": {
       "de": "gestoßen",
-      "lv": "Împins"
+      "lv": "îmbrâncit"
     }
   },
   {
     "infinitiv": {
       "de": "streichen",
-      "lv": "Vopsea / bandă"
+      "lv": "a vopsi / a bara"
     },
     "praesens": {
       "de": "er streicht",
-      "lv": "El pictează / dungi"
+      "lv": "el vopsește / barează"
     },
     "imperfektIndikativ": {
       "de": "er strich",
-      "lv": "A pictat / dungi"
+      "lv": "el vopsi / bară"
     },
     "imperfektKonjunktiv": {
       "de": "er striche",
-      "lv": "El ar picta / depuia"
+      "lv": "el ar vopsi / ar bara"
     },
     "partizipVergangenheit": {
       "de": "gestrichen",
-      "lv": "Pictat / dungi"
+      "lv": "vopsit / barat"
     }
   },
   {
     "infinitiv": {
       "de": "streiten",
-      "lv": "A lupta"
+      "lv": "a se certa"
     },
     "praesens": {
       "de": "er streitet",
-      "lv": "El se lupta"
+      "lv": "el se ceartă"
     },
     "imperfektIndikativ": {
       "de": "er stritt",
-      "lv": "S-a zbătut"
+      "lv": "el se certă"
     },
     "imperfektKonjunktiv": {
       "de": "er stritte",
-      "lv": "El ar lupta"
+      "lv": "el s-ar certa"
     },
     "partizipVergangenheit": {
       "de": "gestritten",
-      "lv": "Luptat"
+      "lv": "certat"
     }
   },
   {
     "infinitiv": {
       "de": "tragen",
-      "lv": "Transporta"
+      "lv": "a duce"
     },
     "praesens": {
       "de": "er trägt",
-      "lv": "El poartă"
+      "lv": "el duce"
     },
     "imperfektIndikativ": {
       "de": "er trug",
-      "lv": "A purtat"
+      "lv": "el duse"
     },
     "imperfektKonjunktiv": {
       "de": "er trüge",
-      "lv": "El ar duce"
+      "lv": "el ar duce"
     },
     "partizipVergangenheit": {
       "de": "getragen",
-      "lv": "Purtat"
+      "lv": "dus"
     }
   },
   {
     "infinitiv": {
       "de": "treffen",
-      "lv": "A întâlni"
+      "lv": "a întâlni"
     },
     "praesens": {
       "de": "er trifft",
-      "lv": "El intalneste"
+      "lv": "el întâlnește"
     },
     "imperfektIndikativ": {
       "de": "er traf",
-      "lv": "A întâlnit"
+      "lv": "el întâlni"
     },
     "imperfektKonjunktiv": {
       "de": "er träfe",
-      "lv": "El ar întâlni"
+      "lv": "el ar întâlni"
     },
     "partizipVergangenheit": {
       "de": "getroffen",
-      "lv": "Întâlnit"
+      "lv": "întâlnit"
     }
   },
   {
     "infinitiv": {
       "de": "treiben",
-      "lv": "Goana"
+      "lv": "a mâna"
     },
     "praesens": {
       "de": "er treibt",
-      "lv": "El conduce"
+      "lv": "el mână"
     },
     "imperfektIndikativ": {
       "de": "er trieb",
-      "lv": "A condus"
+      "lv": "el mână"
     },
     "imperfektKonjunktiv": {
       "de": "er triebe",
-      "lv": "El ar conduce"
+      "lv": "el ar mâna"
     },
     "partizipVergangenheit": {
       "de": "getrieben",
-      "lv": "Urmărit"
+      "lv": "mânat"
     }
   },
   {
     "infinitiv": {
       "de": "treten",
-      "lv": "Intra/du-te"
+      "lv": "a păși / a merge"
     },
     "praesens": {
       "de": "er tritt",
-      "lv": "El intră / pleacă"
+      "lv": "el pășește / merge"
     },
     "imperfektIndikativ": {
       "de": "er trat",
-      "lv": "A stat/a mers"
+      "lv": "el păși / merse"
     },
     "imperfektKonjunktiv": {
       "de": "er träte",
-      "lv": "El ar sta / ar merge"
+      "lv": "el ar păși / ar merge"
     },
     "partizipVergangenheit": {
       "de": "getreten (er ist)",
-      "lv": "A stat / a mers"
+      "lv": "pășit / mers"
     }
   },
   {
     "infinitiv": {
       "de": "trinken",
-      "lv": "A bea"
+      "lv": "a bea"
     },
     "praesens": {
       "de": "er trinkt",
-      "lv": "El bea"
+      "lv": "el bea"
     },
     "imperfektIndikativ": {
       "de": "er trank",
-      "lv": "El bea"
+      "lv": "el bău"
     },
     "imperfektKonjunktiv": {
       "de": "er tränke",
-      "lv": "Ar bea"
+      "lv": "el ar bea"
     },
     "partizipVergangenheit": {
       "de": "getrunken",
-      "lv": "Beat"
+      "lv": "băut"
     }
   },
   {
     "infinitiv": {
       "de": "trügen",
-      "lv": "A înșela"
+      "lv": "a înșela"
     },
     "praesens": {
       "de": "er trögt",
-      "lv": "El inseala"
+      "lv": "el înșală"
     },
     "imperfektIndikativ": {
       "de": "er trog",
-      "lv": "A înșelat"
+      "lv": "el înșelă"
     },
     "imperfektKonjunktiv": {
       "de": "er tröge",
-      "lv": "Ar înșela"
+      "lv": "el ar înșela"
     },
     "partizipVergangenheit": {
       "de": "getrogen",
-      "lv": "Înșelat"
+      "lv": "înșelat"
     }
   },
   {
     "infinitiv": {
       "de": "tun",
-      "lv": "A face"
+      "lv": "a face"
     },
     "praesens": {
       "de": "er tut",
-      "lv": "El face"
+      "lv": "el face"
     },
     "imperfektIndikativ": {
       "de": "er tat",
-      "lv": "A făcut-o"
+      "lv": "el făcu"
     },
     "imperfektKonjunktiv": {
       "de": "er täte",
-      "lv": "El ar face"
+      "lv": "el ar face"
     },
     "partizipVergangenheit": {
       "de": "getan",
-      "lv": "Făcut"
+      "lv": "făcut"
     }
   },
   {
     "infinitiv": {
       "de": "verderben",
-      "lv": "A deteriora"
+      "lv": "a strica"
     },
     "praesens": {
       "de": "er verdirbt",
-      "lv": "El distruge"
+      "lv": "el strică"
     },
     "imperfektIndikativ": {
       "de": "er verdarb",
-      "lv": "A deteriorat"
+      "lv": "el strică"
     },
     "imperfektKonjunktiv": {
       "de": "er verdürbe",
-      "lv": "El ar strica"
+      "lv": "el ar strica"
     },
     "partizipVergangenheit": {
       "de": "verdorben",
-      "lv": "Deteriorat"
+      "lv": "stricat"
     }
   },
   {
     "infinitiv": {
       "de": "verdrießen",
-      "lv": "A provoca supărare"
+      "lv": "a supăra"
     },
     "praesens": {
       "de": "er verdrießt",
-      "lv": "El provoacă supărare"
+      "lv": "el supără"
     },
     "imperfektIndikativ": {
       "de": "er verdross",
-      "lv": "A provocat supărare"
+      "lv": "el supără"
     },
     "imperfektKonjunktiv": {
       "de": "er verdrösse",
-      "lv": "Ar provoca supărare"
+      "lv": "el ar supăra"
     },
     "partizipVergangenheit": {
       "de": "verdrossen",
-      "lv": "Supărat"
+      "lv": "supărat"
     }
   },
   {
     "infinitiv": {
       "de": "vergessen",
-      "lv": "Uita"
+      "lv": "a uita"
     },
     "praesens": {
       "de": "er vergisst",
-      "lv": "El uită"
+      "lv": "el uită"
     },
     "imperfektIndikativ": {
       "de": "er vergass",
-      "lv": "A uitat"
+      "lv": "el uită"
     },
     "imperfektKonjunktiv": {
       "de": "er vergäße",
-      "lv": "Ar uita"
+      "lv": "el ar uita"
     },
     "partizipVergangenheit": {
       "de": "vergessen",
-      "lv": "Uitat"
+      "lv": "uitat"
     }
   },
   {
     "infinitiv": {
       "de": "verlieren",
-      "lv": "A pierde"
+      "lv": "a pierde"
     },
     "praesens": {
       "de": "er verliert",
-      "lv": "El pierde"
+      "lv": "el pierde"
     },
     "imperfektIndikativ": {
       "de": "er verlor",
-      "lv": "A pierdut"
+      "lv": "el pierdu"
     },
     "imperfektKonjunktiv": {
       "de": "er verlöre",
-      "lv": "El ar pierde"
+      "lv": "el ar pierde"
     },
     "partizipVergangenheit": {
       "de": "verloren",
-      "lv": "Pierdut"
+      "lv": "pierdut"
     }
   },
   {
     "infinitiv": {
       "de": "wachsen",
-      "lv": "Să crească"
+      "lv": "a crește"
     },
     "praesens": {
       "de": "er wächst",
-      "lv": "El creste"
+      "lv": "el crește"
     },
     "imperfektIndikativ": {
       "de": "er wuchs",
-      "lv": "El creștea"
+      "lv": "el crescu"
     },
     "imperfektKonjunktiv": {
       "de": "er wüchse",
-      "lv": "Avea să crească"
+      "lv": "el ar crește"
     },
     "partizipVergangenheit": {
       "de": "gewachsen (er ist)",
-      "lv": "A crescut"
+      "lv": "crescut"
     }
   },
   {
     "infinitiv": {
       "de": "waschen",
-      "lv": "A se spala"
+      "lv": "a spăla"
     },
     "praesens": {
       "de": "er wäscht",
-      "lv": "El spală"
+      "lv": "el spală"
     },
     "imperfektIndikativ": {
       "de": "er wusch",
-      "lv": "S-a spălat"
+      "lv": "el spălă"
     },
     "imperfektKonjunktiv": {
       "de": "er wüsche",
-      "lv": "El s-ar spăla"
+      "lv": "el ar spăla"
     },
     "partizipVergangenheit": {
       "de": "gewaschen",
-      "lv": "Spălat"
+      "lv": "spălat"
     }
   },
   {
     "infinitiv": {
       "de": "weben",
-      "lv": "Ţese"
+      "lv": "a țese"
     },
     "praesens": {
       "de": "er webt",
-      "lv": "El țese"
+      "lv": "el țese"
     },
     "imperfektIndikativ": {
       "de": "wob",
-      "lv": "Tesut"
+      "lv": "el țesu"
     },
     "imperfektKonjunktiv": {
       "de": "wob",
-      "lv": "Tesut"
+      "lv": "el ar țese"
     },
     "partizipVergangenheit": {
       "de": "gewoben",
-      "lv": "Țesute"
+      "lv": "țesut"
     }
   },
   {
     "infinitiv": {
       "de": "weichen",
-      "lv": "A se retrage"
+      "lv": "a se retrage"
     },
     "praesens": {
       "de": "er weicht",
-      "lv": "Se dă înapoi"
+      "lv": "el se retrage"
     },
     "imperfektIndikativ": {
       "de": "er wich",
-      "lv": "S-a dat înapoi"
+      "lv": "el se retrase"
     },
     "imperfektKonjunktiv": {
       "de": "er wiche",
-      "lv": "S-ar da înapoi"
+      "lv": "el s-ar retrage"
     },
     "partizipVergangenheit": {
       "de": "gewichen (er ist)",
-      "lv": "Da înapoi"
+      "lv": "retras"
     }
   },
   {
     "infinitiv": {
       "de": "weisen",
-      "lv": "Spectacol"
+      "lv": "a arăta"
     },
     "praesens": {
       "de": "er weist",
-      "lv": "Arată el"
+      "lv": "el arată"
     },
     "imperfektIndikativ": {
       "de": "er wies",
-      "lv": "A arătat el"
+      "lv": "el arătă"
     },
     "imperfektKonjunktiv": {
       "de": "er wiese",
-      "lv": "El ar arăta"
+      "lv": "el ar arăta"
     },
     "partizipVergangenheit": {
       "de": "gewiesen",
-      "lv": "Arătat"
+      "lv": "arătat"
     }
   },
   {
     "infinitiv": {
       "de": "wenden",
-      "lv": "Modifica/decupează"
+      "lv": "a învârti / a întoarce"
     },
     "praesens": {
       "de": "er wendet",
-      "lv": "El se răsucește / se întoarce"
+      "lv": "el învârte / întoarce"
     },
     "imperfektIndikativ": {
       "de": "er wandte / es wendete",
-      "lv": "S-a răsucit / s-a întors"
+      "lv": "el învârti / întoarse"
     },
     "imperfektKonjunktiv": {
       "de": "er wendete",
-      "lv": "El ar modifica / invers"
+      "lv": "el ar învârti / ar întoarce"
     },
     "partizipVergangenheit": {
       "de": "gewandt / gewendet",
-      "lv": "Modificat/inversat"
+      "lv": "învârtit / întors"
     }
   },
   {
     "infinitiv": {
       "de": "werben",
-      "lv": "A propune"
+      "lv": "a cere în căsătorie"
     },
     "praesens": {
       "de": "er wirbt",
-      "lv": "Propune el"
+      "lv": "el cere în căsătorie"
     },
     "imperfektIndikativ": {
       "de": "er warb",
-      "lv": "A propus el"
+      "lv": "el ceru în căsătorie"
     },
     "imperfektKonjunktiv": {
       "de": "er würbe",
-      "lv": "El ar propune"
+      "lv": "el ar cere în căsătorie"
     },
     "partizipVergangenheit": {
       "de": "geworben",
-      "lv": "Propus să"
+      "lv": "cerut în căsătorie"
     }
   },
   {
     "infinitiv": {
       "de": "werden",
-      "lv": "A deveni"
+      "lv": "a deveni"
     },
     "praesens": {
       "de": "er wird",
-      "lv": "El devine"
+      "lv": "el devine"
     },
     "imperfektIndikativ": {
       "de": "wurde",
-      "lv": "Devenit"
+      "lv": "el deveni"
     },
     "imperfektKonjunktiv": {
       "de": "wurde",
-      "lv": "Devenit"
+      "lv": "el ar deveni"
     },
     "partizipVergangenheit": {
       "de": "geworden",
-      "lv": "A devenit"
+      "lv": "devenit"
     }
   },
   {
     "infinitiv": {
       "de": "werfen",
-      "lv": "Arunca"
+      "lv": "a arunca"
     },
     "praesens": {
       "de": "er wirft",
-      "lv": "El aruncă"
+      "lv": "el aruncă"
     },
     "imperfektIndikativ": {
       "de": "er warf",
-      "lv": "A aruncat"
+      "lv": "el aruncă"
     },
     "imperfektKonjunktiv": {
       "de": "er würfe",
-      "lv": "A aruncat"
+      "lv": "el ar arunca"
     },
     "partizipVergangenheit": {
       "de": "geworfen",
-      "lv": "Aruncat"
+      "lv": "aruncat"
     }
   },
   {
     "infinitiv": {
       "de": "wiegen",
-      "lv": "A cantari"
+      "lv": "a cântări"
     },
     "praesens": {
       "de": "er wiegt",
-      "lv": "El cantareste"
+      "lv": "el cântărește"
     },
     "imperfektIndikativ": {
       "de": "er wog",
-      "lv": "A cântărit"
+      "lv": "el cântări"
     },
     "imperfektKonjunktiv": {
       "de": "er wöge",
-      "lv": "El ar cântări"
+      "lv": "el ar cântări"
     },
     "partizipVergangenheit": {
       "de": "gewogen",
-      "lv": "Ponderat"
+      "lv": "cântărit"
     }
   },
   {
     "infinitiv": {
       "de": "winden",
-      "lv": "Împletitură"
+      "lv": "a împleti"
     },
     "praesens": {
       "de": "er windet",
-      "lv": "El pin"
+      "lv": "el împletește"
     },
     "imperfektIndikativ": {
       "de": "er wand",
-      "lv": "El împletește"
+      "lv": "el împleti"
     },
     "imperfektKonjunktiv": {
       "de": "er wände",
-      "lv": "El ar împleti"
+      "lv": "el ar împleti"
     },
     "partizipVergangenheit": {
       "de": "gewunden",
-      "lv": "Împletit"
+      "lv": "împletit"
     }
   },
   {
     "infinitiv": {
       "de": "wissen",
-      "lv": "A sti"
+      "lv": "a ști"
     },
     "praesens": {
       "de": "er weiß",
-      "lv": "El stie"
+      "lv": "el știe"
     },
     "imperfektIndikativ": {
       "de": "er wusste",
-      "lv": "El știa"
+      "lv": "el știu"
     },
     "imperfektKonjunktiv": {
       "de": "er wüsste",
-      "lv": "El ar ști"
+      "lv": "el ar ști"
     },
     "partizipVergangenheit": {
       "de": "gewusst",
-      "lv": "Cunoscut"
+      "lv": "știut"
     }
   },
   {
     "infinitiv": {
       "de": "wollen",
-      "lv": "Vreau să"
+      "lv": "a vrea"
     },
     "praesens": {
       "de": "er will",
-      "lv": "El vrea"
+      "lv": "el vrea"
     },
     "imperfektIndikativ": {
       "de": "wollte",
-      "lv": "Voia"
+      "lv": "el vru"
     },
     "imperfektKonjunktiv": {
       "de": "wollte",
-      "lv": "Voia"
+      "lv": "el ar vrea"
     },
     "partizipVergangenheit": {
       "de": "gewollt",
-      "lv": "Voia"
+      "lv": "vrut"
     }
   },
   {
     "infinitiv": {
       "de": "wringen",
-      "lv": "Decupat / stoarce"
+      "lv": "a stoarce / a presa"
     },
     "praesens": {
       "de": "er wringt",
-      "lv": "Decupează el"
+      "lv": "el stoarce / presează"
     },
     "imperfektIndikativ": {
       "de": "wrang",
-      "lv": "Elimina"
+      "lv": "el stoarse / presă"
     },
     "imperfektKonjunktiv": {
       "de": "wrang",
-      "lv": "Elimina"
+      "lv": "el ar stoarce / ar presa"
     },
     "partizipVergangenheit": {
       "de": "gewrungen",
-      "lv": "Elimina"
+      "lv": "stors / presat"
     }
   },
   {
     "infinitiv": {
       "de": "zeihen",
-      "lv": "De vina"
+      "lv": "a acuza"
     },
     "praesens": {
       "de": "er zeiht",
-      "lv": "El da vina"
+      "lv": "el acuză"
     },
     "imperfektIndikativ": {
       "de": "zieh",
-      "lv": "Blamat"
+      "lv": "el acuză"
     },
     "imperfektKonjunktiv": {
       "de": "zieh",
-      "lv": "Blamat"
+      "lv": "el ar acuza"
     },
     "partizipVergangenheit": {
       "de": "geziehen",
-      "lv": "Blamat"
+      "lv": "acuzat"
     }
   },
   {
     "infinitiv": {
       "de": "ziehen",
-      "lv": "A trage"
+      "lv": "a trage"
     },
     "praesens": {
       "de": "er zieht",
-      "lv": "El trage"
+      "lv": "el trage"
     },
     "imperfektIndikativ": {
       "de": "er zog",
-      "lv": "A tras"
+      "lv": "el trase"
     },
     "imperfektKonjunktiv": {
       "de": "er zöge",
-      "lv": "El ar târî"
+      "lv": "el ar trage"
     },
     "partizipVergangenheit": {
       "de": "gezogen",
-      "lv": "Târât"
+      "lv": "tras"
     }
   },
   {
     "infinitiv": {
       "de": "zwingen",
-      "lv": "A forţa"
+      "lv": "a obliga"
     },
     "praesens": {
       "de": "er zwingt",
-      "lv": "El forțează"
+      "lv": "el obligă"
     },
     "imperfektIndikativ": {
       "de": "er zwang",
-      "lv": "A forțat"
+      "lv": "el obligă"
     },
     "imperfektKonjunktiv": {
       "de": "er zwänge",
-      "lv": "El ar forţa"
+      "lv": "el ar obliga"
     },
     "partizipVergangenheit": {
       "de": "gezwungen",
-      "lv": "Forţat"
+      "lv": "obligat"
     }
   },
   {
     "infinitiv": {
       "de": "empfangen",
-      "lv": "A primi"
+      "lv": "a primi"
     },
     "praesens": {
       "de": "er empfängt",
-      "lv": "El primeste"
+      "lv": "el primește"
     },
     "imperfektIndikativ": {
       "de": "er empfing",
-      "lv": "El a primit"
+      "lv": "el primi"
     },
     "imperfektKonjunktiv": {
       "de": "er empfinge",
-      "lv": "El ar primi"
+      "lv": "el ar primi"
     },
     "partizipVergangenheit": {
       "de": "empfangen",
-      "lv": "Primit"
+      "lv": "primit"
     }
   },
   {
     "infinitiv": {
       "de": "erwägen",
-      "lv": "A lua în considerare"
+      "lv": "a chibzui"
     },
     "praesens": {
       "de": "er erwägt",
-      "lv": "Consideră el"
+      "lv": "el chibzuiește"
     },
     "imperfektIndikativ": {
       "de": "er erwog",
-      "lv": "Se gândi el"
+      "lv": "el chibzui"
     },
     "imperfektKonjunktiv": {
       "de": "er erwöge",
-      "lv": "El ar lua în considerare"
+      "lv": "el ar chibzui"
     },
     "partizipVergangenheit": {
       "de": "erwogen",
-      "lv": "Considerată"
+      "lv": "chibzuit"
     }
   },
   {
     "infinitiv": {
       "de": "fechten",
-      "lv": "A lupta"
+      "lv": "a lupta"
     },
     "praesens": {
       "de": "er ficht",
-      "lv": "El se lupta"
+      "lv": "el luptă"
     },
     "imperfektIndikativ": {
       "de": "er focht",
-      "lv": "S-a zbătut"
+      "lv": "el luptă"
     },
     "imperfektKonjunktiv": {
       "de": "er föchte",
-      "lv": "El ar lupta"
+      "lv": "el ar lupta"
     },
     "partizipVergangenheit": {
       "de": "gefochten",
-      "lv": "Luptat"
+      "lv": "luptat"
     }
   },
   {
     "infinitiv": {
       "de": "flechten",
-      "lv": "Împletitură"
+      "lv": "a împleti"
     },
     "praesens": {
       "de": "er flicht",
-      "lv": "El pin"
+      "lv": "el împletește"
     },
     "imperfektIndikativ": {
       "de": "er flocht",
-      "lv": "El împletește"
+      "lv": "el împleti"
     },
     "imperfektKonjunktiv": {
       "de": "er flöchte",
-      "lv": "El ar împleti"
+      "lv": "el ar împleti"
     },
     "partizipVergangenheit": {
       "de": "geflochten",
-      "lv": "Împletit"
+      "lv": "împletit"
     }
   },
   {
     "infinitiv": {
       "de": "hangen",
-      "lv": "A atârna"
+      "lv": "a atârna"
     },
     "praesens": {
       "de": "er hängt",
-      "lv": "El atârnă"
+      "lv": "el atârnă"
     },
     "imperfektIndikativ": {
       "de": "er hing",
-      "lv": "A atârnat"
+      "lv": "el atârnă"
     },
     "imperfektKonjunktiv": {
       "de": "er hinge",
-      "lv": "S-ar spânzura"
+      "lv": "el ar atârna"
     },
     "partizipVergangenheit": {
       "de": "gehangen",
-      "lv": "Rezistă"
+      "lv": "atârnat"
     }
   },
   {
     "infinitiv": {
       "de": "spalten",
-      "lv": "A despica"
+      "lv": "a despica"
     },
     "praesens": {
       "de": "er spaltet",
-      "lv": "El se desparte"
+      "lv": "el despică"
     },
     "imperfektIndikativ": {
       "de": "er spaltete",
-      "lv": "S-a despărțit"
+      "lv": "el despică"
     },
     "imperfektKonjunktiv": {
       "de": "er spaltete",
-      "lv": "El s-ar despărţi"
+      "lv": "el ar despica"
     },
     "partizipVergangenheit": {
       "de": "gespalten",
-      "lv": "Despică"
+      "lv": "despicat"
     }
   },
   {
     "infinitiv": {
       "de": "verzeihen",
-      "lv": "A ierta"
+      "lv": "a ierta"
     },
     "praesens": {
       "de": "er verzeiht",
-      "lv": "El iartă"
+      "lv": "el iartă"
     },
     "imperfektIndikativ": {
       "de": "er verzieh",
-      "lv": "A iertat"
+      "lv": "el iertă"
     },
     "imperfektKonjunktiv": {
       "de": "er verziehe",
-      "lv": "El ar ierta"
+      "lv": "el ar ierta"
     },
     "partizipVergangenheit": {
       "de": "verziehen",
-      "lv": "Iertat"
+      "lv": "iertat"
     }
   }
 ];
