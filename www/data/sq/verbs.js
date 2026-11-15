@@ -2,4137 +2,4137 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "backen",
-      "lv": "5, janë 5."
+      "lv": "pjek"
     },
     "praesens": {
       "de": "er bäckt",
-      "lv": "On piecze"
+      "lv": "ai pjek"
     },
     "imperfektIndikativ": {
       "de": "er buk",
-      "lv": "On piecze"
+      "lv": "ai poqi"
     },
     "imperfektKonjunktiv": {
       "de": "er büke",
-      "lv": "Piecze"
+      "lv": "ai do të piqte"
     },
     "partizipVergangenheit": {
       "de": "gebacken",
-      "lv": "Kızartılmış/fırınlanmış"
+      "lv": "pjekur"
     }
   },
   {
     "infinitiv": {
       "de": "befehlen",
-      "lv": "Sipariş vermek"
+      "lv": "urdhëroj"
     },
     "praesens": {
       "de": "er befiehlt",
-      "lv": "On rozkazuje"
+      "lv": "ai urdhëron"
     },
     "imperfektIndikativ": {
       "de": "er befahl",
-      "lv": "– o emretti"
+      "lv": "ai urdhëroi"
     },
     "imperfektKonjunktiv": {
       "de": "er beföhle",
-      "lv": "Sipariş vermek"
+      "lv": "ai do të urdhëronte"
     },
     "partizipVergangenheit": {
       "de": "befohlen",
-      "lv": "Rozkazał"
+      "lv": "urdhëruar"
     }
   },
   {
     "infinitiv": {
       "de": "beginnen",
-      "lv": "Fillo!"
+      "lv": "filloj"
     },
     "praesens": {
       "de": "er beginnt",
-      "lv": "Zaczyna"
+      "lv": "ai fillon"
     },
     "imperfektIndikativ": {
       "de": "er begann",
-      "lv": "O başladı"
+      "lv": "ai filloi"
     },
     "imperfektKonjunktiv": {
       "de": "er begönne / er begänne",
-      "lv": "O başlayacaktı"
+      "lv": "ai do të fillonte"
     },
     "partizipVergangenheit": {
       "de": "begonnen",
-      "lv": "O başladı"
+      "lv": "filluar"
     }
   },
   {
     "infinitiv": {
       "de": "beißen",
-      "lv": "Ugryzienie"
+      "lv": "kafshoj"
     },
     "praesens": {
       "de": "er beißt",
-      "lv": "Gryzie"
+      "lv": "ai kafshon"
     },
     "imperfektIndikativ": {
       "de": "er biss",
-      "lv": "Kodował"
+      "lv": "ai kafshoi"
     },
     "imperfektKonjunktiv": {
       "de": "er bisse",
-      "lv": "Gryzie"
+      "lv": "ai do të kafshonte"
     },
     "partizipVergangenheit": {
       "de": "gebissen",
-      "lv": "Ugryziony / ugryziony"
+      "lv": "kafshuar"
     }
   },
   {
     "infinitiv": {
       "de": "bergen",
-      "lv": "Saklamak"
+      "lv": "shpëtoj / fsheh"
     },
     "praesens": {
       "de": "er birgt",
-      "lv": "O saklanıyor"
+      "lv": "ai shpëton / fsheh"
     },
     "imperfektIndikativ": {
       "de": "er barg",
-      "lv": "Saklandı"
+      "lv": "ai shpëtoi / fshehu"
     },
     "imperfektKonjunktiv": {
       "de": "er bürge / er bärge",
-      "lv": "Gizlemek"
+      "lv": "ai do të shpëtonte / do të fshihte"
     },
     "partizipVergangenheit": {
       "de": "geborgen",
-      "lv": "Ukryty/zapisany"
+      "lv": "shpëtuar / fshehur"
     }
   },
   {
     "infinitiv": {
       "de": "bersten",
-      "lv": "Çatlama"
+      "lv": "plas"
     },
     "praesens": {
       "de": "er birst",
-      "lv": "Kırılıyor"
+      "lv": "plas"
     },
     "imperfektIndikativ": {
       "de": "er barst / er borst",
-      "lv": "Patladı"
+      "lv": "plasi"
     },
     "imperfektKonjunktiv": {
       "de": "er bärste / er börste",
-      "lv": "Kırılıyor"
+      "lv": "do të plaste"
     },
     "partizipVergangenheit": {
       "de": "geborsten (er ist)",
-      "lv": "Frakturë"
+      "lv": "plasur"
     }
   },
   {
     "infinitiv": {
       "de": "bewegen",
-      "lv": "Cesaretlendirmek"
+      "lv": "nxit"
     },
     "praesens": {
       "de": "er bewegt",
-      "lv": "– podpowiada"
+      "lv": "ai nxit"
     },
     "imperfektIndikativ": {
       "de": "er bewog",
-      "lv": "O ısrar etti"
+      "lv": "ai nxiti"
     },
     "imperfektKonjunktiv": {
       "de": "er bewöge",
-      "lv": "Teşvik ederdi"
+      "lv": "ai do të nxiste"
     },
     "partizipVergangenheit": {
       "de": "bewogen",
-      "lv": "Teşvik etti"
+      "lv": "nxitur"
     }
   },
   {
     "infinitiv": {
       "de": "biegen",
-      "lv": "Eğil"
+      "lv": "përkul"
     },
     "praesens": {
       "de": "er biegt",
-      "lv": "O eğilir"
+      "lv": "ai përkul"
     },
     "imperfektIndikativ": {
       "de": "er bog",
-      "lv": "Gerildi"
+      "lv": "ai përkuli"
     },
     "imperfektKonjunktiv": {
       "de": "er böge",
-      "lv": "Bükülecekti"
+      "lv": "ai do të përkulte"
     },
     "partizipVergangenheit": {
       "de": "gebogen",
-      "lv": "Bükülmüş"
+      "lv": "përkulur"
     }
   },
   {
     "infinitiv": {
       "de": "bieten",
-      "lv": "Söz"
+      "lv": "ofroj"
     },
     "praesens": {
       "de": "er bietet",
-      "lv": "Obiecuje"
+      "lv": "ai ofron"
     },
     "imperfektIndikativ": {
       "de": "er bot",
-      "lv": "Söz verdi"
+      "lv": "ai ofroi"
     },
     "imperfektKonjunktiv": {
       "de": "er böte",
-      "lv": "Söz verdi"
+      "lv": "ai do të ofronte"
     },
     "partizipVergangenheit": {
       "de": "geboten",
-      "lv": "Söz verdi/teklif etti"
+      "lv": "ofruar"
     }
   },
   {
     "infinitiv": {
       "de": "binden",
-      "lv": "Elek"
+      "lv": "lidh"
     },
     "praesens": {
       "de": "er bindet",
-      "lv": "On siano"
+      "lv": "ai lidh"
     },
     "imperfektIndikativ": {
       "de": "er band",
-      "lv": "O ekti"
+      "lv": "ai lidhi"
     },
     "imperfektKonjunktiv": {
       "de": "er bände",
-      "lv": "O eledi"
+      "lv": "ai do të lidhte"
     },
     "partizipVergangenheit": {
       "de": "gebunden",
-      "lv": "Elek"
+      "lv": "lidhur"
     }
   },
   {
     "infinitiv": {
       "de": "bitten",
-      "lv": "Dashuria"
+      "lv": "lutem"
     },
     "praesens": {
       "de": "er bittet",
-      "lv": "Sahte"
+      "lv": "ai lutet"
     },
     "imperfektIndikativ": {
       "de": "er bat",
-      "lv": "O sordu"
+      "lv": "ai u lut"
     },
     "imperfektKonjunktiv": {
       "de": "er bäte",
-      "lv": "Dua edecek"
+      "lv": "ai do të lutej"
     },
     "partizipVergangenheit": {
       "de": "gebeten",
-      "lv": "Wymagany"
+      "lv": "lutur"
     }
   },
   {
     "infinitiv": {
       "de": "blasen",
-      "lv": "Üflemek"
+      "lv": "fryj"
     },
     "praesens": {
       "de": "er bläst",
-      "lv": "On dmucha"
+      "lv": "ai fryn"
     },
     "imperfektIndikativ": {
       "de": "er blies",
-      "lv": "O patladı"
+      "lv": "ai fryu"
     },
     "imperfektKonjunktiv": {
       "de": "er bliese",
-      "lv": "Üflemek"
+      "lv": "ai do të frynte"
     },
     "partizipVergangenheit": {
       "de": "geblasen",
-      "lv": "Şişkin"
+      "lv": "fryrë"
     }
   },
   {
     "infinitiv": {
       "de": "gären",
-      "lv": "Fermantasyon"
+      "lv": "fermentohet"
     },
     "praesens": {
       "de": "es gärt",
-      "lv": "Fermentuje"
+      "lv": "fermentohet"
     },
     "imperfektIndikativ": {
       "de": "es gor / es gärte",
-      "lv": "Fermentuje"
+      "lv": "u fermentua"
     },
     "imperfektKonjunktiv": {
       "de": "es göre / es gärte",
-      "lv": "Acı olurdu"
+      "lv": "do të fermentohej"
     },
     "partizipVergangenheit": {
       "de": "gegoren / gegärt",
-      "lv": "Żyto"
+      "lv": "fermentuar"
     }
   },
   {
     "infinitiv": {
       "de": "gebären",
-      "lv": "Doğum yap"
+      "lv": "lind"
     },
     "praesens": {
       "de": "sie gebiert",
-      "lv": "Onun rahminde"
+      "lv": "ajo lind"
     },
     "imperfektIndikativ": {
       "de": "sie gebar",
-      "lv": "O doğurdu"
+      "lv": "ajo lindi"
     },
     "imperfektKonjunktiv": {
       "de": "sie gebäre",
-      "lv": "Doğum yapacaktı"
+      "lv": "ajo do të lindte"
     },
     "partizipVergangenheit": {
       "de": "geboren",
-      "lv": "Doğdum / doğdum"
+      "lv": "lindur"
     }
   },
   {
     "infinitiv": {
       "de": "gelingen",
-      "lv": "Başarılı ol"
+      "lv": "dal mbarë"
     },
     "praesens": {
       "de": "es gelingt",
-      "lv": "İşe yarıyor"
+      "lv": "del mbarë"
     },
     "imperfektIndikativ": {
       "de": "es gelang",
-      "lv": "İşe yaradı"
+      "lv": "doli mbarë"
     },
     "imperfektKonjunktiv": {
       "de": "es gelänge",
-      "lv": "Bu işe yarar"
+      "lv": "do të dilte mbarë"
     },
     "partizipVergangenheit": {
       "de": "gelungen (es ist)",
-      "lv": "İşe yaradı"
+      "lv": "dalë mbarë"
     }
   },
   {
     "infinitiv": {
       "de": "gelten",
-      "lv": "Kullanışlı ol"
+      "lv": "vlej / jam në fuqi"
     },
     "praesens": {
       "de": "er gilt",
-      "lv": "O uyuyor/önemli"
+      "lv": "ai vlen / është në fuqi"
     },
     "imperfektIndikativ": {
       "de": "er galt",
-      "lv": "O uygundu/uygundu"
+      "lv": "ai vlejti / qe në fuqi"
     },
     "imperfektKonjunktiv": {
       "de": "er gölte / es gälte",
-      "lv": "Uygun olurdu / sığardı"
+      "lv": "ai do të vlente / do të ishte në fuqi"
     },
     "partizipVergangenheit": {
       "de": "gegolten",
-      "lv": "Uygulandı/geçerliydi"
+      "lv": "vlejtur / qenë në fuqi"
     }
   },
   {
     "infinitiv": {
       "de": "genesen",
-      "lv": "İyileşmek"
+      "lv": "shërohem"
     },
     "praesens": {
       "de": "er genest",
-      "lv": "Sağlığı iyiye gidiyor"
+      "lv": "ai shërohet"
     },
     "imperfektIndikativ": {
       "de": "er genas",
-      "lv": "İyileşti"
+      "lv": "ai u shërua"
     },
     "imperfektKonjunktiv": {
       "de": "er genäse",
-      "lv": "Wyzdrowieje"
+      "lv": "ai do të shërohej"
     },
     "partizipVergangenheit": {
       "de": "genesen (er ist)",
-      "lv": "İyileşmek"
+      "lv": "shëruar"
     }
   },
   {
     "infinitiv": {
       "de": "genießen",
-      "lv": "Eğlence"
+      "lv": "shijoj"
     },
     "praesens": {
       "de": "er genießt",
-      "lv": "O mutlu"
+      "lv": "ai shijon"
     },
     "imperfektIndikativ": {
       "de": "er genoss",
-      "lv": "O mutluydu"
+      "lv": "ai shijoi"
     },
     "imperfektKonjunktiv": {
       "de": "er genösse",
-      "lv": "Mutlu olurdu"
+      "lv": "ai do të shijonte"
     },
     "partizipVergangenheit": {
       "de": "genossen",
-      "lv": "O mutluydu"
+      "lv": "shijuar"
     }
   },
   {
     "infinitiv": {
       "de": "geschehen",
-      "lv": "Duke u bërë"
+      "lv": "ndodh"
     },
     "praesens": {
       "de": "es geschieht",
-      "lv": "Olur"
+      "lv": "ndodh"
     },
     "imperfektIndikativ": {
       "de": "es geschah",
-      "lv": "Oldu"
+      "lv": "ndodhi"
     },
     "imperfektKonjunktiv": {
       "de": "es geschähe",
-      "lv": "Bu olur"
+      "lv": "do të ndodhte"
     },
     "partizipVergangenheit": {
       "de": "geschehen (es ist)",
-      "lv": "Oldu"
+      "lv": "ndodhur"
     }
   },
   {
     "infinitiv": {
       "de": "gießen",
-      "lv": "Porucznik"
+      "lv": "derdh"
     },
     "praesens": {
       "de": "er gießt",
-      "lv": "Nalewa"
+      "lv": "ai derdh"
     },
     "imperfektIndikativ": {
       "de": "er goss",
-      "lv": "Onu döktü"
+      "lv": "ai derdhi"
     },
     "imperfektKonjunktiv": {
       "de": "er gösse",
-      "lv": "On pada"
+      "lv": "ai do të derdhte"
     },
     "partizipVergangenheit": {
       "de": "gegossen",
-      "lv": "E pra,"
+      "lv": "derdhur"
     }
   },
   {
     "infinitiv": {
       "de": "gleichen",
-      "lv": "Hatırlat"
+      "lv": "i ngjaj"
     },
     "praesens": {
       "de": "er gleicht",
-      "lv": "On przypomina"
+      "lv": "ai i ngjan"
     },
     "imperfektIndikativ": {
       "de": "er glich",
-      "lv": "Taklit etti"
+      "lv": "ai i ngjau"
     },
     "imperfektKonjunktiv": {
       "de": "er gliche",
-      "lv": "Taklit ederdi"
+      "lv": "ai do t'i ngjante"
     },
     "partizipVergangenheit": {
       "de": "geglichen",
-      "lv": "Hatırlattı"
+      "lv": "ngjarë"
     }
   },
   {
     "infinitiv": {
       "de": "gleiten",
-      "lv": "Slayt"
+      "lv": "rrëshqas"
     },
     "praesens": {
       "de": "er gleitet",
-      "lv": "O kayıyor"
+      "lv": "ai rrëshqet"
     },
     "imperfektIndikativ": {
       "de": "er glitt",
-      "lv": "O kayıyordu"
+      "lv": "ai rrëshqiti"
     },
     "imperfektKonjunktiv": {
       "de": "er glitte",
-      "lv": "Kayacaktı"
+      "lv": "ai do të rrëshqiste"
     },
     "partizipVergangenheit": {
       "de": "geglitten (er ist)",
-      "lv": "Kaydı"
+      "lv": "rrëshqitur"
     }
   },
   {
     "infinitiv": {
       "de": "glimmen",
-      "lv": "Rozjarzony"
+      "lv": "digjem pa flakë"
     },
     "praesens": {
       "de": "er glimmt",
-      "lv": "O parlıyor"
+      "lv": "digjet pa flakë"
     },
     "imperfektIndikativ": {
       "de": "er glimmte / glomm",
-      "lv": "O parlıyordu"
+      "lv": "u dogj pa flakë"
     },
     "imperfektKonjunktiv": {
       "de": "er glimmte",
-      "lv": "Parlamak"
+      "lv": "do të digjej pa flakë"
     },
     "partizipVergangenheit": {
       "de": "geglimmt / geglommen",
-      "lv": "Rozjarzony"
+      "lv": "djegur pa flakë"
     }
   },
   {
     "infinitiv": {
       "de": "graben",
-      "lv": "Kazmak"
+      "lv": "gërmoj"
     },
     "praesens": {
       "de": "er gräbt",
-      "lv": "On kopie"
+      "lv": "ai gërmon"
     },
     "imperfektIndikativ": {
       "de": "er grub",
-      "lv": "O tekmeledi"
+      "lv": "ai gërmoi"
     },
     "imperfektKonjunktiv": {
       "de": "er grübe",
-      "lv": "Kazırdı"
+      "lv": "ai do të gërmonte"
     },
     "partizipVergangenheit": {
       "de": "gegraben",
-      "lv": "Kazmak"
+      "lv": "gërmuar"
     }
   },
   {
     "infinitiv": {
       "de": "greifen",
-      "lv": "Yakalamak için"
+      "lv": "kap"
     },
     "praesens": {
       "de": "er greift",
-      "lv": "Łapie"
+      "lv": "ai kap"
     },
     "imperfektIndikativ": {
       "de": "er griff",
-      "lv": "Onu yakaladı"
+      "lv": "ai kapi"
     },
     "imperfektKonjunktiv": {
       "de": "er griffe",
-      "lv": "Onu yakalardı"
+      "lv": "ai do të kapte"
     },
     "partizipVergangenheit": {
       "de": "gegriffen",
-      "lv": "Yakalandı / yakalandı"
+      "lv": "kapur"
     }
   },
   {
     "infinitiv": {
       "de": "hauen",
-      "lv": "Kesmek"
+      "lv": "pres"
     },
     "praesens": {
       "de": "er haut",
-      "lv": "O seçti"
+      "lv": "ai pret"
     },
     "imperfektIndikativ": {
       "de": "er hieb",
-      "lv": "– homurdandı"
+      "lv": "ai preu"
     },
     "imperfektKonjunktiv": {
       "de": "er hiebe",
-      "lv": "Oymak"
+      "lv": "ai do të priste"
     },
     "partizipVergangenheit": {
       "de": "gehauen",
-      "lv": "Oyulmuş"
+      "lv": "prerë"
     }
   },
   {
     "infinitiv": {
       "de": "heben",
-      "lv": "Artırmak"
+      "lv": "ngre"
     },
     "praesens": {
       "de": "er hebt",
-      "lv": "On podnosi"
+      "lv": "ai ngre"
     },
     "imperfektIndikativ": {
       "de": "er hob",
-      "lv": "Getirilmiş"
+      "lv": "ai ngriti"
     },
     "imperfektKonjunktiv": {
       "de": "er höbe",
-      "lv": "O inşa ederdi"
+      "lv": "ai do të ngrinte"
     },
     "partizipVergangenheit": {
       "de": "gehoben",
-      "lv": "Wybudowany"
+      "lv": "ngritur"
     }
   },
   {
     "infinitiv": {
       "de": "kennen",
-      "lv": "Bilmek / bilmek"
+      "lv": "njoh / di"
     },
     "praesens": {
       "de": "er kennt",
-      "lv": "On wie"
+      "lv": "ai njeh / di"
     },
     "imperfektIndikativ": {
       "de": "kannte",
-      "lv": "Wiedział"
+      "lv": "ai njohu / diti"
     },
     "imperfektKonjunktiv": {
       "de": "kannte",
-      "lv": "Wiedział"
+      "lv": "ai do të njihte / do të dinte"
     },
     "partizipVergangenheit": {
       "de": "gekannt",
-      "lv": "Tanıdık"
+      "lv": "njohur / ditur"
     }
   },
   {
     "infinitiv": {
       "de": "klingen",
-      "lv": "Nga _hurma."
+      "lv": "tingëllon"
     },
     "praesens": {
       "de": "er klingt",
-      "lv": "Brzmi"
+      "lv": "tingëllon"
     },
     "imperfektIndikativ": {
       "de": "er klang",
-      "lv": "– ses geldi"
+      "lv": "tingëlloi"
     },
     "imperfektKonjunktiv": {
       "de": "er klänge",
-      "lv": "– zabrzmi"
+      "lv": "do të tingëllonte"
     },
     "partizipVergangenheit": {
       "de": "geklungen",
-      "lv": "Kulağa geliyordu"
+      "lv": "tingëlluar"
     }
   },
   {
     "infinitiv": {
       "de": "kneifen",
-      "lv": "Szczypta"
+      "lv": "pickoj"
     },
     "praesens": {
       "de": "er kneift",
-      "lv": "Şaka yapmak"
+      "lv": "ai pickon"
     },
     "imperfektIndikativ": {
       "de": "er kniff",
-      "lv": "O çimdikledi"
+      "lv": "ai pickoi"
     },
     "imperfektKonjunktiv": {
       "de": "er kniffe",
-      "lv": "O çimdiklerdi"
+      "lv": "ai do të pickonte"
     },
     "partizipVergangenheit": {
       "de": "gekniffen",
-      "lv": "Sıkışmış"
+      "lv": "pickuar"
     }
   },
   {
     "infinitiv": {
       "de": "bleiben",
-      "lv": "Qëndro"
+      "lv": "qëndroj"
     },
     "praesens": {
       "de": "er bleibt",
-      "lv": "On zostaje"
+      "lv": "ai qëndron"
     },
     "imperfektIndikativ": {
       "de": "er blieb",
-      "lv": "O kaldı"
+      "lv": "ai qëndroi"
     },
     "imperfektKonjunktiv": {
       "de": "er bliebe",
-      "lv": "O kalacaktı"
+      "lv": "ai do të qëndronte"
     },
     "partizipVergangenheit": {
       "de": "geblieben (er ist)",
-      "lv": "Lewy"
+      "lv": "qëndruar"
     }
   },
   {
     "infinitiv": {
       "de": "bleichen",
-      "lv": "Beyazlatmak"
+      "lv": "zbehem"
     },
     "praesens": {
       "de": "er bleicht",
-      "lv": "On wybiela"
+      "lv": "zbehet"
     },
     "imperfektIndikativ": {
       "de": "blich",
-      "lv": "Bielone"
+      "lv": "u zbeh"
     },
     "imperfektKonjunktiv": {
       "de": "blich",
-      "lv": "Bielone"
+      "lv": "do të zbehej"
     },
     "partizipVergangenheit": {
       "de": "geblichen",
-      "lv": "Bielone"
+      "lv": "zbehur"
     }
   },
   {
     "infinitiv": {
       "de": "braten",
-      "lv": "5, janë 5."
+      "lv": "skuq"
     },
     "praesens": {
       "de": "er brät",
-      "lv": "On piecze"
+      "lv": "ai skuq"
     },
     "imperfektIndikativ": {
       "de": "er briet",
-      "lv": "On piecze"
+      "lv": "ai skuqi"
     },
     "imperfektKonjunktiv": {
       "de": "er briete",
-      "lv": "Piecze"
+      "lv": "ai do të skuqte"
     },
     "partizipVergangenheit": {
       "de": "gebraten",
-      "lv": "Kızartılmış/fırınlanmış"
+      "lv": "skuqur"
     }
   },
   {
     "infinitiv": {
       "de": "brechen",
-      "lv": "Mola"
+      "lv": "thyej"
     },
     "praesens": {
       "de": "er bricht",
-      "lv": "Kırılıyor"
+      "lv": "ai thyen"
     },
     "imperfektIndikativ": {
       "de": "er brach",
-      "lv": "Kırıldı"
+      "lv": "ai theu"
     },
     "imperfektKonjunktiv": {
       "de": "er bräche",
-      "lv": "Kırılırdı"
+      "lv": "ai do të thyente"
     },
     "partizipVergangenheit": {
       "de": "gebrochen",
-      "lv": "Zepsuty/zepsuty"
+      "lv": "thyer"
     }
   },
   {
     "infinitiv": {
       "de": "brennen",
-      "lv": "Për të djegur."
+      "lv": "digjem"
     },
     "praesens": {
       "de": "er brennt",
-      "lv": "O yanıyor"
+      "lv": "digjet"
     },
     "imperfektIndikativ": {
       "de": "brannte",
-      "lv": "Yanma"
+      "lv": "u dogj"
     },
     "imperfektKonjunktiv": {
       "de": "brannte",
-      "lv": "Yanma"
+      "lv": "do të digjej"
     },
     "partizipVergangenheit": {
       "de": "gebrannt",
-      "lv": "Spalony"
+      "lv": "djegur"
     }
   },
   {
     "infinitiv": {
       "de": "bringen",
-      "lv": "Giymek"
+      "lv": "sjell"
     },
     "praesens": {
       "de": "er bringt",
-      "lv": "On niesie"
+      "lv": "ai sjell"
     },
     "imperfektIndikativ": {
       "de": "er brachte",
-      "lv": "Taşıyordu"
+      "lv": "ai solli"
     },
     "imperfektKonjunktiv": {
       "de": "er brächte",
-      "lv": "O taşıyacak"
+      "lv": "ai do të sillte"
     },
     "partizipVergangenheit": {
       "de": "gebracht",
-      "lv": "O getirdi / getirdi"
+      "lv": "sjellë"
     }
   },
   {
     "infinitiv": {
       "de": "denken",
-      "lv": "Të menduarit"
+      "lv": "mendoj"
     },
     "praesens": {
       "de": "er denkt",
-      "lv": "Düşünüyor"
+      "lv": "ai mendon"
     },
     "imperfektIndikativ": {
       "de": "er dachte",
-      "lv": "Düşündü"
+      "lv": "ai mendoi"
     },
     "imperfektKonjunktiv": {
       "de": "er dächte",
-      "lv": "Şöyle düşünürdü:"
+      "lv": "ai do të mendonte"
     },
     "partizipVergangenheit": {
       "de": "gedacht",
-      "lv": "Przeznaczony"
+      "lv": "menduar"
     }
   },
   {
     "infinitiv": {
       "de": "dingen",
-      "lv": "İşe al/kabul et"
+      "lv": "pajtoj / pajtohem"
     },
     "praesens": {
       "de": "er dingt",
-      "lv": "On zatrudnia"
+      "lv": "ai pajton / pajtohet"
     },
     "imperfektIndikativ": {
       "de": "dingte",
-      "lv": "Zatrudniony"
+      "lv": "ai pajtoi / u pajtua"
     },
     "imperfektKonjunktiv": {
       "de": "dingte",
-      "lv": "Zatrudniony"
+      "lv": "ai do të pajtonte / do të pajtohej"
     },
     "partizipVergangenheit": {
       "de": "gedungen",
-      "lv": "Zatrudniony"
+      "lv": "pajtuar / pajtuar"
     }
   },
   {
     "infinitiv": {
       "de": "dreschen",
-      "lv": "Kult"
+      "lv": "shij"
     },
     "praesens": {
       "de": "er drischt",
-      "lv": "O harmanlıyor"
+      "lv": "ai shin"
     },
     "imperfektIndikativ": {
       "de": "er drasch / er drosch",
-      "lv": "O sallanıyordu"
+      "lv": "ai shiu"
     },
     "imperfektKonjunktiv": {
       "de": "er dräsche / er drösche",
-      "lv": "İbadet edecek"
+      "lv": "ai do të shinte"
     },
     "partizipVergangenheit": {
       "de": "gedroschen",
-      "lv": "Kult"
+      "lv": "shirë"
     }
   },
   {
     "infinitiv": {
       "de": "dringen",
-      "lv": "Sözünü kesmek"
+      "lv": "depërtoj"
     },
     "praesens": {
       "de": "er dringt",
-      "lv": "O içeri giriyor"
+      "lv": "ai depërton"
     },
     "imperfektIndikativ": {
       "de": "er drang",
-      "lv": "O içeri girdi"
+      "lv": "ai depërtoi"
     },
     "imperfektKonjunktiv": {
       "de": "er dränge",
-      "lv": "İçeri zorla girerdim"
+      "lv": "ai do të depërtonte"
     },
     "partizipVergangenheit": {
       "de": "gedrungen (er ist)",
-      "lv": "O içeri girdi"
+      "lv": "depërtuar"
     }
   },
   {
     "infinitiv": {
       "de": "dünken",
-      "lv": "Görünüşe göre"
+      "lv": "dukem"
     },
     "praesens": {
       "de": "es dünkt",
-      "lv": "Görünüşe göre"
+      "lv": "duket"
     },
     "imperfektIndikativ": {
       "de": "deuchte",
-      "lv": "Öyle görünüyordu"
+      "lv": "u duk"
     },
     "imperfektKonjunktiv": {
       "de": "deuchte",
-      "lv": "Öyle görünüyordu"
+      "lv": "do të dukej"
     },
     "partizipVergangenheit": {
       "de": "gedünkt",
-      "lv": "Öyle görünüyordu"
+      "lv": "dukur"
     }
   },
   {
     "infinitiv": {
       "de": "dürfen",
-      "lv": "E lejueshme"
+      "lv": "kam leje"
     },
     "praesens": {
       "de": "er darf",
-      "lv": "Yapabilir"
+      "lv": "ai ka leje"
     },
     "imperfektIndikativ": {
       "de": "durfte",
-      "lv": "İzin verildi"
+      "lv": "ai pati leje"
     },
     "imperfektKonjunktiv": {
       "de": "durfte",
-      "lv": "İzin verildi"
+      "lv": "ai do të kishte leje"
     },
     "partizipVergangenheit": {
       "de": "gedurft",
-      "lv": "Dozwolony"
+      "lv": "pasur leje"
     }
   },
   {
     "infinitiv": {
       "de": "empfehlen",
-      "lv": "Tavsiye etmek"
+      "lv": "rekomandoj"
     },
     "praesens": {
       "de": "er empfiehlt",
-      "lv": "Sugeruje"
+      "lv": "ai rekomandon"
     },
     "imperfektIndikativ": {
       "de": "er empfahl",
-      "lv": "Öneren"
+      "lv": "ai rekomandoi"
     },
     "imperfektKonjunktiv": {
       "de": "er empfähle / er empföhle",
-      "lv": "Tavsiye ederim"
+      "lv": "ai do të rekomandonte"
     },
     "partizipVergangenheit": {
       "de": "empfohlen",
-      "lv": "Zalecony"
+      "lv": "rekomanduar"
     }
   },
   {
     "infinitiv": {
       "de": "empfinden",
-      "lv": "Czuć"
+      "lv": "ndiej"
     },
     "praesens": {
       "de": "er empfindet",
-      "lv": "Czuje"
+      "lv": "ai ndien"
     },
     "imperfektIndikativ": {
       "de": "er empfand",
-      "lv": "Hissetti"
+      "lv": "ai ndjeu"
     },
     "imperfektKonjunktiv": {
       "de": "er empfände",
-      "lv": "O hissederdi"
+      "lv": "ai do të ndiente"
     },
     "partizipVergangenheit": {
       "de": "empfunden",
-      "lv": "Filc"
+      "lv": "ndier"
     }
   },
   {
     "infinitiv": {
       "de": "erlöschen",
-      "lv": "Zanika"
+      "lv": "shuhem"
     },
     "praesens": {
       "de": "er erlischt",
-      "lv": "On wychodzi"
+      "lv": "shuhet"
     },
     "imperfektIndikativ": {
       "de": "er erlosch",
-      "lv": "O gitti"
+      "lv": "u shua"
     },
     "imperfektKonjunktiv": {
       "de": "er erlösche",
-      "lv": "Zniknie"
+      "lv": "do të shuhej"
     },
     "partizipVergangenheit": {
       "de": "erloschen (er ist)",
-      "lv": "Dışarı çıktı"
+      "lv": "shuar"
     }
   },
   {
     "infinitiv": {
       "de": "erschrecken",
-      "lv": "Kafan karışsın"
+      "lv": "trembem"
     },
     "praesens": {
       "de": "er erschrickt",
-      "lv": "O korkuyor"
+      "lv": "ai trembet"
     },
     "imperfektIndikativ": {
       "de": "er erschrak",
-      "lv": "Korktu"
+      "lv": "ai u tremb"
     },
     "imperfektKonjunktiv": {
       "de": "er erschräke",
-      "lv": "Çok korkacaktı"
+      "lv": "ai do të trembej"
     },
     "partizipVergangenheit": {
       "de": "erschrocken (er ist)",
-      "lv": "Korkmuş"
+      "lv": "trembur"
     }
   },
   {
     "infinitiv": {
       "de": "essen",
-      "lv": "Ngrënë? Ngrë... ngrënë?"
+      "lv": "ha"
     },
     "praesens": {
       "de": "er isst",
-      "lv": "On je"
+      "lv": "ai ha"
     },
     "imperfektIndikativ": {
       "de": "er ass",
-      "lv": "O yedi"
+      "lv": "ai hëngri"
     },
     "imperfektKonjunktiv": {
       "de": "er äße",
-      "lv": "Yemek yerdi"
+      "lv": "ai do të hante"
     },
     "partizipVergangenheit": {
       "de": "gegessen",
-      "lv": "Zjedzony / zjedzony"
+      "lv": "ngrënë"
     }
   },
   {
     "infinitiv": {
       "de": "fahren",
-      "lv": "Liderlik etmek"
+      "lv": "udhëtoj"
     },
     "praesens": {
       "de": "er fährt",
-      "lv": "O sürüyor"
+      "lv": "ai udhëton"
     },
     "imperfektIndikativ": {
       "de": "er fuhr",
-      "lv": "O sürüyordu"
+      "lv": "ai udhëtoi"
     },
     "imperfektKonjunktiv": {
       "de": "er führe",
-      "lv": "O sürerdi"
+      "lv": "ai do të udhëtonte"
     },
     "partizipVergangenheit": {
       "de": "gefahren (er ist)",
-      "lv": "Sola gittim"
+      "lv": "udhëtuar"
     }
   },
   {
     "infinitiv": {
       "de": "fallen",
-      "lv": "Düşmek"
+      "lv": "bie"
     },
     "praesens": {
       "de": "er fällt",
-      "lv": "On upada"
+      "lv": "ai bie"
     },
     "imperfektIndikativ": {
       "de": "er fiel",
-      "lv": "Düştü"
+      "lv": "ai ra"
     },
     "imperfektKonjunktiv": {
       "de": "er fiele",
-      "lv": "Düşerdi"
+      "lv": "ai do të binte"
     },
     "partizipVergangenheit": {
       "de": "gefallen (er ist)",
-      "lv": "Cut"
+      "lv": "rënë"
     }
   },
   {
     "infinitiv": {
       "de": "fangen",
-      "lv": "Yakalamak için"
+      "lv": "kap"
     },
     "praesens": {
       "de": "er fängt",
-      "lv": "Łapie"
+      "lv": "ai kap"
     },
     "imperfektIndikativ": {
       "de": "er fing",
-      "lv": "Onu yakaladı"
+      "lv": "ai kapi"
     },
     "imperfektKonjunktiv": {
       "de": "er finge",
-      "lv": "Onu yakalardı"
+      "lv": "ai do të kapte"
     },
     "partizipVergangenheit": {
       "de": "gefangen",
-      "lv": "Yakalandı / yakalandı"
+      "lv": "kapur"
     }
   },
   {
     "infinitiv": {
       "de": "finden",
-      "lv": "Bulmak için"
+      "lv": "gjej"
     },
     "praesens": {
       "de": "er findet",
-      "lv": "Znajduje"
+      "lv": "ai gjen"
     },
     "imperfektIndikativ": {
       "de": "er fand",
-      "lv": "Bulundu"
+      "lv": "ai gjeti"
     },
     "imperfektKonjunktiv": {
       "de": "er fände",
-      "lv": "Onu bulacaktı"
+      "lv": "ai do të gjente"
     },
     "partizipVergangenheit": {
       "de": "gefunden",
-      "lv": "Znaleziony"
+      "lv": "gjetur"
     }
   },
   {
     "infinitiv": {
       "de": "fliegen",
-      "lv": "Yayınla"
+      "lv": "fluturoj"
     },
     "praesens": {
       "de": "er fliegt",
-      "lv": "On leci"
+      "lv": "ai fluturon"
     },
     "imperfektIndikativ": {
       "de": "er flog",
-      "lv": "Uçtu"
+      "lv": "ai fluturoi"
     },
     "imperfektKonjunktiv": {
       "de": "er flöge",
-      "lv": "Uçardı"
+      "lv": "ai do të fluturonte"
     },
     "partizipVergangenheit": {
       "de": "geflogen (er ist)",
-      "lv": "Uçtu"
+      "lv": "fluturuar"
     }
   },
   {
     "infinitiv": {
       "de": "fliehen",
-      "lv": "Kaçış"
+      "lv": "arratisem"
     },
     "praesens": {
       "de": "er flieht",
-      "lv": "Ucieka"
+      "lv": "ai arratiset"
     },
     "imperfektIndikativ": {
       "de": "er floh",
-      "lv": "O kaçtı"
+      "lv": "ai u arratis"
     },
     "imperfektKonjunktiv": {
       "de": "er flöhe",
-      "lv": "Kaçacaktı"
+      "lv": "ai do të arratisej"
     },
     "partizipVergangenheit": {
       "de": "geflohen (er ist)",
-      "lv": "O kaçtı"
+      "lv": "arratisur"
     }
   },
   {
     "infinitiv": {
       "de": "fließen",
-      "lv": "Akış"
+      "lv": "rrjedh"
     },
     "praesens": {
       "de": "er fließt",
-      "lv": "On biegnie"
+      "lv": "rrjedh"
     },
     "imperfektIndikativ": {
       "de": "er floss",
-      "lv": "Koştu"
+      "lv": "rrodhi"
     },
     "imperfektKonjunktiv": {
       "de": "er flösse",
-      "lv": "Koşardı"
+      "lv": "do të rridhte"
     },
     "partizipVergangenheit": {
       "de": "geflossen (er ist)",
-      "lv": "Geçti"
+      "lv": "rrjedhur"
     }
   },
   {
     "infinitiv": {
       "de": "fressen",
-      "lv": "Yarın ye"
+      "lv": "ha / gllabëroj"
     },
     "praesens": {
       "de": "er frisst",
-      "lv": "Yiyor/yutuyor"
+      "lv": "ai ha / gllabëron"
     },
     "imperfektIndikativ": {
       "de": "er frass",
-      "lv": "Yedi/yuttu"
+      "lv": "ai hëngri / gllabëroi"
     },
     "imperfektKonjunktiv": {
       "de": "er fräße",
-      "lv": "Yemek/kahvaltı"
+      "lv": "ai do të hante / do të gllabëronte"
     },
     "partizipVergangenheit": {
       "de": "gefressen",
-      "lv": "Zjedzone/rano"
+      "lv": "ngrënë / gllabëruar"
     }
   },
   {
     "infinitiv": {
       "de": "frieren",
-      "lv": "Ftohët."
+      "lv": "kam ftohtë"
     },
     "praesens": {
       "de": "er friert",
-      "lv": "On marznie"
+      "lv": "ai ka ftohtë"
     },
     "imperfektIndikativ": {
       "de": "er fror",
-      "lv": "On wyspa"
+      "lv": "ai pati ftohtë"
     },
     "imperfektKonjunktiv": {
       "de": "er fröre",
-      "lv": "O üşüdü"
+      "lv": "ai do të kishte ftohtë"
     },
     "partizipVergangenheit": {
       "de": "gefroren",
-      "lv": "Wyspa"
+      "lv": "pasur ftohtë"
     }
   },
   {
     "infinitiv": {
       "de": "geben",
-      "lv": "Jep"
+      "lv": "jap"
     },
     "praesens": {
       "de": "er gibt",
-      "lv": "On daje"
+      "lv": "ai jep"
     },
     "imperfektIndikativ": {
       "de": "er gab",
-      "lv": "Verildi"
+      "lv": "ai dha"
     },
     "imperfektKonjunktiv": {
       "de": "er gäbe",
-      "lv": "Verirdi"
+      "lv": "ai do të jepte"
     },
     "partizipVergangenheit": {
       "de": "gegeben",
-      "lv": "Dany"
+      "lv": "dhënë"
     }
   },
   {
     "infinitiv": {
       "de": "gedeihen",
-      "lv": "Başarılı ol"
+      "lv": "rritem mirë"
     },
     "praesens": {
       "de": "er gedeiht",
-      "lv": "Başarılı oldu"
+      "lv": "ai rritet mirë"
     },
     "imperfektIndikativ": {
       "de": "er gedieh",
-      "lv": "O başardı"
+      "lv": "ai u rrit mirë"
     },
     "imperfektKonjunktiv": {
       "de": "er gediehe",
-      "lv": "Bunun gerçekleşmesi için"
+      "lv": "ai do të rritej mirë"
     },
     "partizipVergangenheit": {
       "de": "gediehen (er ist)",
-      "lv": "İşe yaradı"
+      "lv": "rritur mirë"
     }
   },
   {
     "infinitiv": {
       "de": "gehen",
-      "lv": "Të largohesh?"
+      "lv": "shkoj"
     },
     "praesens": {
       "de": "er geht",
-      "lv": "On idzie"
+      "lv": "ai shkon"
     },
     "imperfektIndikativ": {
       "de": "er ging",
-      "lv": "O yürüdü"
+      "lv": "ai shkoi"
     },
     "imperfektKonjunktiv": {
       "de": "er ginge",
-      "lv": "Gidebilirdi"
+      "lv": "ai do të shkonte"
     },
     "partizipVergangenheit": {
       "de": "gegangen (er ist)",
-      "lv": "O içeri girdi"
+      "lv": "shkuar"
     }
   },
   {
     "infinitiv": {
       "de": "gewinnen",
-      "lv": "Almak"
+      "lv": "fitoj"
     },
     "praesens": {
       "de": "er gewinnt",
-      "lv": "Dostaje"
+      "lv": "ai fiton"
     },
     "imperfektIndikativ": {
       "de": "er gewann",
-      "lv": "Aldı"
+      "lv": "ai fitoi"
     },
     "imperfektKonjunktiv": {
       "de": "er gewönne / er gewänne",
-      "lv": "Alırdı"
+      "lv": "ai do të fitonte"
     },
     "partizipVergangenheit": {
       "de": "gewonnen",
-      "lv": "Uzyskany"
+      "lv": "fituar"
     }
   },
   {
     "infinitiv": {
       "de": "haben",
-      "lv": "Być/należeć"
+      "lv": "kam"
     },
     "praesens": {
       "de": "er hat",
-      "lv": "On ma"
+      "lv": "ai ka"
     },
     "imperfektIndikativ": {
       "de": "hatte",
-      "lv": "Asaj."
+      "lv": "ai pati"
     },
     "imperfektKonjunktiv": {
       "de": "hatte",
-      "lv": "Asaj."
+      "lv": "ai do të kishte"
     },
     "partizipVergangenheit": {
       "de": "gehabt",
-      "lv": "O kaldı"
+      "lv": "pasur"
     }
   },
   {
     "infinitiv": {
       "de": "halten",
-      "lv": "Tutmak"
+      "lv": "mbaj"
     },
     "praesens": {
       "de": "er hält",
-      "lv": "On tam"
+      "lv": "ai mban"
     },
     "imperfektIndikativ": {
       "de": "er hielt",
-      "lv": "O tuttu"
+      "lv": "ai mbajti"
     },
     "imperfektKonjunktiv": {
       "de": "er hielte",
-      "lv": "Tutmak"
+      "lv": "ai do të mbante"
     },
     "partizipVergangenheit": {
       "de": "gehalten",
-      "lv": "Trzymany"
+      "lv": "mbajtur"
     }
   },
   {
     "infinitiv": {
       "de": "heißen",
-      "lv": "Kërko"
+      "lv": "quaj / quhem"
     },
     "praesens": {
       "de": "er heißt",
-      "lv": "On dzwoni / jest wzywany"
+      "lv": "ai quan / quhet"
     },
     "imperfektIndikativ": {
       "de": "er hieß",
-      "lv": "Çağrıldı"
+      "lv": "ai quajti / u quajt"
     },
     "imperfektKonjunktiv": {
       "de": "er hieße",
-      "lv": "O arayacak / çağrılacaktı"
+      "lv": "ai do të quante / do të quhej"
     },
     "partizipVergangenheit": {
       "de": "geheißen",
-      "lv": "Zwany"
+      "lv": "quajtur / quajtur"
     }
   },
   {
     "infinitiv": {
       "de": "helfen",
-      "lv": "Më ndihmo."
+      "lv": "ndihmoj"
     },
     "praesens": {
       "de": "er hilft",
-      "lv": "On pomaga"
+      "lv": "ai ndihmon"
     },
     "imperfektIndikativ": {
       "de": "er half",
-      "lv": "O yardım etti"
+      "lv": "ai ndihmoi"
     },
     "imperfektKonjunktiv": {
       "de": "er hülfe / er hälfe",
-      "lv": "Yardım ederdi"
+      "lv": "ai do të ndihmonte"
     },
     "partizipVergangenheit": {
       "de": "geholfen",
-      "lv": "Yardım edildi"
+      "lv": "ndihmuar"
     }
   },
   {
     "infinitiv": {
       "de": "kommen",
-      "lv": "Po vjen"
+      "lv": "vij"
     },
     "praesens": {
       "de": "er kommt",
-      "lv": "On nadchodzi"
+      "lv": "ai vjen"
     },
     "imperfektIndikativ": {
       "de": "er kam",
-      "lv": "O geldi"
+      "lv": "ai erdhi"
     },
     "imperfektKonjunktiv": {
       "de": "er käme",
-      "lv": "Przyjdzie"
+      "lv": "ai do të vinte"
     },
     "partizipVergangenheit": {
       "de": "gekommen (er ist)",
-      "lv": "Geldi"
+      "lv": "ardhur"
     }
   },
   {
     "infinitiv": {
       "de": "können",
-      "lv": "Për të qenë në gjendje të"
+      "lv": "mund"
     },
     "praesens": {
       "de": "er kann",
-      "lv": "Yapabilir"
+      "lv": "ai mund"
     },
     "imperfektIndikativ": {
       "de": "konnte",
-      "lv": "Yapabilirdi"
+      "lv": "ai mundi"
     },
     "imperfektKonjunktiv": {
       "de": "konnte",
-      "lv": "Yapabilirdi"
+      "lv": "ai do të mundte"
     },
     "partizipVergangenheit": {
       "de": "gekonnt",
-      "lv": "Yapabilirdi"
+      "lv": "mundur"
     }
   },
   {
     "infinitiv": {
       "de": "kriechen",
-      "lv": "Po bie shi!"
+      "lv": "zvarritem"
     },
     "praesens": {
       "de": "er kriecht",
-      "lv": "O eğilir"
+      "lv": "ai zvarritet"
     },
     "imperfektIndikativ": {
       "de": "er kroch",
-      "lv": "Yağmur yağıyordu"
+      "lv": "ai u zvarrit"
     },
     "imperfektKonjunktiv": {
       "de": "er kröche",
-      "lv": "On pada"
+      "lv": "ai do të zvarritej"
     },
     "partizipVergangenheit": {
       "de": "gekrochen (er ist)",
-      "lv": "Ai vdiq."
+      "lv": "zvarritur"
     }
   },
   {
     "infinitiv": {
       "de": "laden",
-      "lv": "Yükle, davet et"
+      "lv": "ngarkoj / ftoj"
     },
     "praesens": {
       "de": "er lädt",
-      "lv": "On gromadzi / zaprasza"
+      "lv": "ai ngarkon / fton"
     },
     "imperfektIndikativ": {
       "de": "er lud",
-      "lv": "Yüklendi/davet edildi"
+      "lv": "ai ngarkoi / ftoi"
     },
     "imperfektKonjunktiv": {
       "de": "er lüde",
-      "lv": "Yüklendi/Davet Edildi"
+      "lv": "ai do të ngarkonte / do të ftonte"
     },
     "partizipVergangenheit": {
       "de": "geladen",
-      "lv": "Yüklendi/davet edildi"
+      "lv": "ngarkuar / ftuar"
     }
   },
   {
     "infinitiv": {
       "de": "lassen",
-      "lv": "Koy, bırak"
+      "lv": "bëj / lë"
     },
     "praesens": {
       "de": "er lässt",
-      "lv": "On stawia / pozwala"
+      "lv": "ai bën / lë"
     },
     "imperfektIndikativ": {
       "de": "er ließ",
-      "lv": "Sipariş Edildi /İzin Verildi"
+      "lv": "ai bëri / la"
     },
     "imperfektKonjunktiv": {
       "de": "er ließe",
-      "lv": "Koyar/ izin verir"
+      "lv": "ai do të bënte / do të linte"
     },
     "partizipVergangenheit": {
       "de": "gelassen",
-      "lv": "Koy/izin ver"
+      "lv": "bërë / lënë"
     }
   },
   {
     "infinitiv": {
       "de": "laufen",
-      "lv": "Koşmak için"
+      "lv": "vrapoj"
     },
     "praesens": {
       "de": "er läuft",
-      "lv": "On biega"
+      "lv": "ai vrapon"
     },
     "imperfektIndikativ": {
       "de": "er lief",
-      "lv": "Koştu"
+      "lv": "ai vrapoi"
     },
     "imperfektKonjunktiv": {
       "de": "er liefe",
-      "lv": "Koşardı"
+      "lv": "ai do të vraponte"
     },
     "partizipVergangenheit": {
       "de": "gelaufen (er ist)",
-      "lv": "Koştu"
+      "lv": "vrapuar"
     }
   },
   {
     "infinitiv": {
       "de": "leiden",
-      "lv": "Acı çekmek"
+      "lv": "vuaj"
     },
     "praesens": {
       "de": "er leidet",
-      "lv": "On cierpi"
+      "lv": "ai vuan"
     },
     "imperfektIndikativ": {
       "de": "er litt",
-      "lv": "Acı çekti"
+      "lv": "ai vuajti"
     },
     "imperfektKonjunktiv": {
       "de": "er litte",
-      "lv": "Acı çekerdi"
+      "lv": "ai do të vuante"
     },
     "partizipVergangenheit": {
       "de": "gelitten",
-      "lv": "Acı çekti"
+      "lv": "vuajtur"
     }
   },
   {
     "infinitiv": {
       "de": "leihen",
-      "lv": "Borç alma/ödünç verme"
+      "lv": "jap hua / marr hua"
     },
     "praesens": {
       "de": "er leiht",
-      "lv": "Ödünç alma/ödünç alma"
+      "lv": "ai jep hua / merr hua"
     },
     "imperfektIndikativ": {
       "de": "er lieh",
-      "lv": "Ödünç aldı / ödünç aldı"
+      "lv": "ai dha hua / mori hua"
     },
     "imperfektKonjunktiv": {
       "de": "er liehe",
-      "lv": "Borç verirdi/ödünç verirdi"
+      "lv": "ai do të jepte hua / do të merrte hua"
     },
     "partizipVergangenheit": {
       "de": "geliehen",
-      "lv": "Ödünç alan"
+      "lv": "dhënë hua / marrë hua"
     }
   },
   {
     "infinitiv": {
       "de": "lesen",
-      "lv": "Të lexosh?"
+      "lv": "lexoj"
     },
     "praesens": {
       "de": "er liest",
-      "lv": "On czyta"
+      "lv": "ai lexon"
     },
     "imperfektIndikativ": {
       "de": "er las",
-      "lv": "Oku"
+      "lv": "ai lexoi"
     },
     "imperfektKonjunktiv": {
       "de": "er läse",
-      "lv": "Onu okuyacaktı"
+      "lv": "ai do të lexonte"
     },
     "partizipVergangenheit": {
       "de": "gelesen",
-      "lv": "Të lexosh?"
+      "lv": "lexuar"
     }
   },
   {
     "infinitiv": {
       "de": "liegen",
-      "lv": "-Une?"
+      "lv": "rri shtrirë"
     },
     "praesens": {
       "de": "er liegt",
-      "lv": "O uyuyor"
+      "lv": "ai rri shtrirë"
     },
     "imperfektIndikativ": {
       "de": "er lag",
-      "lv": "O uyuyordu"
+      "lv": "ai ndenji shtrirë"
     },
     "imperfektKonjunktiv": {
       "de": "er läge",
-      "lv": "Uyurdu"
+      "lv": "ai do të rrinte shtrirë"
     },
     "partizipVergangenheit": {
       "de": "gelegen",
-      "lv": "O uyuyordu"
+      "lv": "ndenjur shtrirë"
     }
   },
   {
     "infinitiv": {
       "de": "lügen",
-      "lv": "Yalan söylemek"
+      "lv": "gënjej"
     },
     "praesens": {
       "de": "er lügt",
-      "lv": "Yalan söylüyor"
+      "lv": "ai gënjen"
     },
     "imperfektIndikativ": {
       "de": "er log",
-      "lv": "Yalan söyledi"
+      "lv": "ai gënjeu"
     },
     "imperfektKonjunktiv": {
       "de": "er löge",
-      "lv": "Skłamałby"
+      "lv": "ai do të gënjente"
     },
     "partizipVergangenheit": {
       "de": "gelogen",
-      "lv": "Yalan söyledi"
+      "lv": "gënjyer"
     }
   },
   {
     "infinitiv": {
       "de": "mahlen",
-      "lv": "Çfarë kati?"
+      "lv": "bluaj"
     },
     "praesens": {
       "de": "er mahlt",
-      "lv": "On miele"
+      "lv": "ai bluan"
     },
     "imperfektIndikativ": {
       "de": "er mahlte",
-      "lv": "Kenarda"
+      "lv": "ai bloi"
     },
     "imperfektKonjunktiv": {
       "de": "er malte",
-      "lv": "On miele"
+      "lv": "ai do të bluante"
     },
     "partizipVergangenheit": {
       "de": "gemahlen",
-      "lv": "Çfarë kati?"
+      "lv": "bluar"
     }
   },
   {
     "infinitiv": {
       "de": "meiden",
-      "lv": "Kaçınmak için"
+      "lv": "shmang"
     },
     "praesens": {
       "de": "er meidet",
-      "lv": "Unika"
+      "lv": "ai shmang"
     },
     "imperfektIndikativ": {
       "de": "er mied",
-      "lv": "Kaçındı"
+      "lv": "ai shmangu"
     },
     "imperfektKonjunktiv": {
       "de": "er miede",
-      "lv": "Kaçınırdı"
+      "lv": "ai do të shmangte"
     },
     "partizipVergangenheit": {
       "de": "gemieden",
-      "lv": "Kaçının"
+      "lv": "shmangur"
     }
   },
   {
     "infinitiv": {
       "de": "melken",
-      "lv": "Do mleka"
+      "lv": "mjel"
     },
     "praesens": {
       "de": "er milkt / er melkt",
-      "lv": "Zamiata"
+      "lv": "ai mjel"
     },
     "imperfektIndikativ": {
       "de": "er molk / er melkte",
-      "lv": "Süpürüyordu"
+      "lv": "ai moli"
     },
     "imperfektKonjunktiv": {
       "de": "er mölke / er melkte",
-      "lv": "Sağdı"
+      "lv": "ai do të milte"
     },
     "partizipVergangenheit": {
       "de": "gemolken / gemelkt",
-      "lv": "Dojone"
+      "lv": "mjelë"
     }
   },
   {
     "infinitiv": {
       "de": "messen",
-      "lv": "Zmierzyć"
+      "lv": "mat"
     },
     "praesens": {
       "de": "er misst",
-      "lv": "On mierzy"
+      "lv": "ai mat"
     },
     "imperfektIndikativ": {
       "de": "er mass",
-      "lv": "Zmierzył"
+      "lv": "ai mati"
     },
     "imperfektKonjunktiv": {
       "de": "er mäße",
-      "lv": "Ölçmek için"
+      "lv": "ai do të maste"
     },
     "partizipVergangenheit": {
       "de": "gemessen",
-      "lv": "Wymierzony"
+      "lv": "matur"
     }
   },
   {
     "infinitiv": {
       "de": "misslingen",
-      "lv": "\"Gabime."
+      "lv": "dështoj"
     },
     "praesens": {
       "de": "es misslingt",
-      "lv": "To zawodzi"
+      "lv": "dështon"
     },
     "imperfektIndikativ": {
       "de": "misslang",
-      "lv": "Przegrany"
+      "lv": "dështoi"
     },
     "imperfektKonjunktiv": {
       "de": "misslang",
-      "lv": "Przegrany"
+      "lv": "do të dështonte"
     },
     "partizipVergangenheit": {
       "de": "misslungen",
-      "lv": "Przegrany"
+      "lv": "dështuar"
     }
   },
   {
     "infinitiv": {
       "de": "mögen",
-      "lv": "Më pëlqen"
+      "lv": "pëlqej"
     },
     "praesens": {
       "de": "er mag",
-      "lv": "On lubi"
+      "lv": "ai pëlqen"
     },
     "imperfektIndikativ": {
       "de": "mochte",
-      "lv": "Beğendim"
+      "lv": "ai pëlqeu"
     },
     "imperfektKonjunktiv": {
       "de": "mochte",
-      "lv": "Beğendim"
+      "lv": "ai do të pëlqente"
     },
     "partizipVergangenheit": {
       "de": "gemocht",
-      "lv": "Beğendim"
+      "lv": "pëlqyer"
     }
   },
   {
     "infinitiv": {
       "de": "müssen",
-      "lv": "Kërko"
+      "lv": "duhet"
     },
     "praesens": {
       "de": "er muss",
-      "lv": "Potrzebuje"
+      "lv": "duhet"
     },
     "imperfektIndikativ": {
       "de": "musste",
-      "lv": "Yapmalıydı"
+      "lv": "u desh"
     },
     "imperfektKonjunktiv": {
       "de": "musste",
-      "lv": "Yapmalıydı"
+      "lv": "do të duhej"
     },
     "partizipVergangenheit": {
       "de": "gemusst",
-      "lv": "Wymagany"
+      "lv": "dashur"
     }
   },
   {
     "infinitiv": {
       "de": "nehmen",
-      "lv": "-Blyej."
+      "lv": "marr"
     },
     "praesens": {
       "de": "er nimmt",
-      "lv": "Bierze"
+      "lv": "ai merr"
     },
     "imperfektIndikativ": {
       "de": "er nahm",
-      "lv": "O aldı"
+      "lv": "ai mori"
     },
     "imperfektKonjunktiv": {
       "de": "er nähme",
-      "lv": "Alırdı"
+      "lv": "ai do të merrte"
     },
     "partizipVergangenheit": {
       "de": "genommen",
-      "lv": "Dolu"
+      "lv": "marrë"
     }
   },
   {
     "infinitiv": {
       "de": "nennen",
-      "lv": "Është..."
+      "lv": "emërtoj"
     },
     "praesens": {
       "de": "er nennt",
-      "lv": "O aradı"
+      "lv": "ai emërton"
     },
     "imperfektIndikativ": {
       "de": "er nannte",
-      "lv": "O aradı"
+      "lv": "ai emërtoi"
     },
     "imperfektKonjunktiv": {
       "de": "er nennte",
-      "lv": "Değiştireceğim"
+      "lv": "ai do të emërtonte"
     },
     "partizipVergangenheit": {
       "de": "genannt",
-      "lv": "Nazwany"
+      "lv": "emërtuar"
     }
   },
   {
     "infinitiv": {
       "de": "pfeifen",
-      "lv": "Düdük"
+      "lv": "fishkëllej"
     },
     "praesens": {
       "de": "er pfeift",
-      "lv": "O ıslık çalar"
+      "lv": "ai fishkëllen"
     },
     "imperfektIndikativ": {
       "de": "er pfiff",
-      "lv": "Diye ıslık çaldı"
+      "lv": "ai fishkëlleu"
     },
     "imperfektKonjunktiv": {
       "de": "er pfiffe",
-      "lv": "Islık çalardı"
+      "lv": "ai do të fishkëllente"
     },
     "partizipVergangenheit": {
       "de": "gepfiffen",
-      "lv": "Islık çaldı"
+      "lv": "fishkëllyer"
     }
   },
   {
     "infinitiv": {
       "de": "pflegen",
-      "lv": "Sürdürmek"
+      "lv": "kujdesem"
     },
     "praesens": {
       "de": "er pflegt",
-      "lv": "O umursuyor"
+      "lv": "ai kujdeset"
     },
     "imperfektIndikativ": {
       "de": "pflegte / pflog",
-      "lv": "Set"
+      "lv": "ai u kujdes"
     },
     "imperfektKonjunktiv": {
       "de": "pflegte / pflog",
-      "lv": "Set"
+      "lv": "ai do të kujdesej"
     },
     "partizipVergangenheit": {
       "de": "gepflegt / gepflogen",
-      "lv": "Zadbane"
+      "lv": "kujdesur"
     }
   },
   {
     "infinitiv": {
       "de": "preisen",
-      "lv": "Öv"
+      "lv": "lavdëroj"
     },
     "praesens": {
       "de": "er preist",
-      "lv": "– chwali"
+      "lv": "ai lavdëron"
     },
     "imperfektIndikativ": {
       "de": "er pries",
-      "lv": "– övdü"
+      "lv": "ai lavdëroi"
     },
     "imperfektKonjunktiv": {
       "de": "er priese",
-      "lv": "Onaylayacaktı"
+      "lv": "ai do të lavdëronte"
     },
     "partizipVergangenheit": {
       "de": "gepriesen",
-      "lv": "Chwalony"
+      "lv": "lavdëruar"
     }
   },
   {
     "infinitiv": {
       "de": "quellen",
-      "lv": "Şişme"
+      "lv": "fryhem"
     },
     "praesens": {
       "de": "er quillt",
-      "lv": "On przybiera na wadze"
+      "lv": "fryhet"
     },
     "imperfektIndikativ": {
       "de": "er quoll",
-      "lv": "Vadesi dolmuş"
+      "lv": "u fry"
     },
     "imperfektKonjunktiv": {
       "de": "er quölle",
-      "lv": "On gruby"
+      "lv": "do të fryhej"
     },
     "partizipVergangenheit": {
       "de": "gequollen (er ist)",
-      "lv": "Şişmiş"
+      "lv": "fryrë"
     }
   },
   {
     "infinitiv": {
       "de": "raten",
-      "lv": "Öner/bahset"
+      "lv": "këshilloj / gjej"
     },
     "praesens": {
       "de": "er rät",
-      "lv": "Poleca /min"
+      "lv": "ai këshillon / gjen"
     },
     "imperfektIndikativ": {
       "de": "er riet",
-      "lv": "O önerdi/önerdi"
+      "lv": "ai këshilloi / gjeti"
     },
     "imperfektKonjunktiv": {
       "de": "er riete",
-      "lv": "Önerirdim/bahsederdim"
+      "lv": "ai do të këshillonte / do të gjente"
     },
     "partizipVergangenheit": {
       "de": "geraten",
-      "lv": "Zasugerowane/wspomniane"
+      "lv": "këshilluar / gjetur"
     }
   },
   {
     "infinitiv": {
       "de": "reiben",
-      "lv": "Ovmak"
+      "lv": "fërkoj"
     },
     "praesens": {
       "de": "er reibt",
-      "lv": "On pociera"
+      "lv": "ai fërkon"
     },
     "imperfektIndikativ": {
       "de": "er rieb",
-      "lv": "On pociera"
+      "lv": "ai fërkoi"
     },
     "imperfektKonjunktiv": {
       "de": "er riebe",
-      "lv": "Ovalardı"
+      "lv": "ai do të fërkonte"
     },
     "partizipVergangenheit": {
       "de": "gerieben",
-      "lv": "Pocierany"
+      "lv": "fërkuar"
     }
   },
   {
     "infinitiv": {
       "de": "reißen",
-      "lv": "Çekmek"
+      "lv": "gris"
     },
     "praesens": {
       "de": "er reißt",
-      "lv": "– warczy"
+      "lv": "ai gris"
     },
     "imperfektIndikativ": {
       "de": "er riss",
-      "lv": "– homurdandı"
+      "lv": "ai grisi"
     },
     "imperfektKonjunktiv": {
       "de": "er risse",
-      "lv": "– homurdandı"
+      "lv": "ai do të griste"
     },
     "partizipVergangenheit": {
       "de": "gerissen",
-      "lv": "Rozdarty"
+      "lv": "grisur"
     }
   },
   {
     "infinitiv": {
       "de": "reiten",
-      "lv": "Sürmek"
+      "lv": "kalëroj"
     },
     "praesens": {
       "de": "er reitet",
-      "lv": "O sürüyor"
+      "lv": "ai kalëron"
     },
     "imperfektIndikativ": {
       "de": "er ritt",
-      "lv": "O sürüyordu"
+      "lv": "ai kalëroi"
     },
     "imperfektKonjunktiv": {
       "de": "er ritte",
-      "lv": "O sürerdi"
+      "lv": "ai do të kalëronte"
     },
     "partizipVergangenheit": {
       "de": "geritten (er ist)",
-      "lv": "O sürüyordu"
+      "lv": "kalëruar"
     }
   },
   {
     "infinitiv": {
       "de": "rennen",
-      "lv": "Koşmak için"
+      "lv": "vrapoj"
     },
     "praesens": {
       "de": "er rennt",
-      "lv": "On biega"
+      "lv": "ai vrapon"
     },
     "imperfektIndikativ": {
       "de": "er rannte",
-      "lv": "Koştu"
+      "lv": "ai vrapoi"
     },
     "imperfektKonjunktiv": {
       "de": "er rennte",
-      "lv": "Koşardı"
+      "lv": "ai do të vraponte"
     },
     "partizipVergangenheit": {
       "de": "gerannt",
-      "lv": "Koştu"
+      "lv": "vrapuar"
     }
   },
   {
     "infinitiv": {
       "de": "riechen",
-      "lv": "Ost"
+      "lv": "nuhat"
     },
     "praesens": {
       "de": "er riecht",
-      "lv": "On pachnie"
+      "lv": "ai nuhat"
     },
     "imperfektIndikativ": {
       "de": "er roch",
-      "lv": "Şarkı söylüyor"
+      "lv": "ai nuhati"
     },
     "imperfektKonjunktiv": {
       "de": "er röche",
-      "lv": "On portuje"
+      "lv": "ai do të nuhaste"
     },
     "partizipVergangenheit": {
       "de": "gerochen",
-      "lv": "Porta"
+      "lv": "nuhatur"
     }
   },
   {
     "infinitiv": {
       "de": "ringen",
-      "lv": "Mola"
+      "lv": "përleshem"
     },
     "praesens": {
       "de": "er ringt",
-      "lv": "Kırılıyor"
+      "lv": "ai përleshet"
     },
     "imperfektIndikativ": {
       "de": "er rang",
-      "lv": "O bozuldu"
+      "lv": "ai u përlesh"
     },
     "imperfektKonjunktiv": {
       "de": "er ränge",
-      "lv": "Kırılırdı"
+      "lv": "ai do të përleshej"
     },
     "partizipVergangenheit": {
       "de": "gerungen",
-      "lv": "Prit"
+      "lv": "përleshur"
     }
   },
   {
     "infinitiv": {
       "de": "rinnen",
-      "lv": "Akış"
+      "lv": "rrjedh"
     },
     "praesens": {
       "de": "er rinnt",
-      "lv": "On biegnie"
+      "lv": "rrjedh"
     },
     "imperfektIndikativ": {
       "de": "er rann",
-      "lv": "Koştu"
+      "lv": "rrodhi"
     },
     "imperfektKonjunktiv": {
       "de": "er ränne / er rönne",
-      "lv": "Koşardı"
+      "lv": "do të rridhte"
     },
     "partizipVergangenheit": {
       "de": "geronnen (er ist)",
-      "lv": "Aktı/pıhtılaştı"
+      "lv": "rrjedhur"
     }
   },
   {
     "infinitiv": {
       "de": "rufen",
-      "lv": "Kërko"
+      "lv": "thërres"
     },
     "praesens": {
       "de": "er ruft",
-      "lv": "On dzwoni"
+      "lv": "ai thërret"
     },
     "imperfektIndikativ": {
       "de": "er rief",
-      "lv": "O aradı"
+      "lv": "ai thirri"
     },
     "imperfektKonjunktiv": {
       "de": "er riefe",
-      "lv": "O arardı"
+      "lv": "ai do të thërriste"
     },
     "partizipVergangenheit": {
       "de": "gerufen",
-      "lv": "Zwany"
+      "lv": "thirrur"
     }
   },
   {
     "infinitiv": {
       "de": "salzen",
-      "lv": "Tuza"
+      "lv": "krip"
     },
     "praesens": {
       "de": "er salzt",
-      "lv": "Tuzlayan"
+      "lv": "ai krip"
     },
     "imperfektIndikativ": {
       "de": "er salzte",
-      "lv": "Tuzlayan"
+      "lv": "ai kripi"
     },
     "imperfektKonjunktiv": {
       "de": "er salzte",
-      "lv": "Tuz atacaktı"
+      "lv": "ai do të kripte"
     },
     "partizipVergangenheit": {
       "de": "gesalzen",
-      "lv": "Posolony"
+      "lv": "kripur"
     }
   },
   {
     "infinitiv": {
       "de": "saufen",
-      "lv": "Kuru/içecek"
+      "lv": "dehem / pi"
     },
     "praesens": {
       "de": "er säuft",
-      "lv": "On pije/pije"
+      "lv": "ai dehet / pi"
     },
     "imperfektIndikativ": {
       "de": "er soff",
-      "lv": "O içti / içti"
+      "lv": "ai u deh / piu"
     },
     "imperfektKonjunktiv": {
       "de": "er söffe",
-      "lv": "Testereyle kesmek olurdu"
+      "lv": "ai do të dehej / do të pinte"
     },
     "partizipVergangenheit": {
       "de": "gesoffen",
-      "lv": "Pijany"
+      "lv": "dehur / pirë"
     }
   },
   {
     "infinitiv": {
       "de": "saugen",
-      "lv": "Emmek"
+      "lv": "thith"
     },
     "praesens": {
       "de": "er saugt",
-      "lv": "On jest do bani"
+      "lv": "ai thith"
     },
     "imperfektIndikativ": {
       "de": "er sog",
-      "lv": "O emdi"
+      "lv": "ai thithi"
     },
     "imperfektKonjunktiv": {
       "de": "er söge",
-      "lv": "Emmek"
+      "lv": "ai do të thithte"
     },
     "partizipVergangenheit": {
       "de": "gesogen",
-      "lv": "Ssane"
+      "lv": "thithur"
     }
   },
   {
     "infinitiv": {
       "de": "schaffen",
-      "lv": "Oluştur"
+      "lv": "krijoj"
     },
     "praesens": {
       "de": "er schafft",
-      "lv": "On tworzy"
+      "lv": "ai krijon"
     },
     "imperfektIndikativ": {
       "de": "er schuf",
-      "lv": "Oluşturan"
+      "lv": "ai krijoi"
     },
     "imperfektKonjunktiv": {
       "de": "er schüfe",
-      "lv": "O yaratırdı"
+      "lv": "ai do të krijonte"
     },
     "partizipVergangenheit": {
       "de": "geschaffen",
-      "lv": "Stworzony"
+      "lv": "krijuar"
     }
   },
   {
     "infinitiv": {
       "de": "schallen",
-      "lv": "Nga _hurma."
+      "lv": "kumbon"
     },
     "praesens": {
       "de": "es schallt",
-      "lv": "To brzmi"
+      "lv": "kumbon"
     },
     "imperfektIndikativ": {
       "de": "schallte / scholl",
-      "lv": "Kulağa geliyordu"
+      "lv": "kumboi"
     },
     "imperfektKonjunktiv": {
       "de": "schallte / scholl",
-      "lv": "Kulağa geliyordu"
+      "lv": "do të kumbonte"
     },
     "partizipVergangenheit": {
       "de": "geschallt",
-      "lv": "Kulağa geliyordu"
+      "lv": "kumbuar"
     }
   },
   {
     "infinitiv": {
       "de": "scheiden",
-      "lv": "Boşanma/ayrılık"
+      "lv": "ndaj / ndahem"
     },
     "praesens": {
       "de": "er scheidet",
-      "lv": "Boşanıyor/boşanıyor"
+      "lv": "ai ndan / ndahet"
     },
     "imperfektIndikativ": {
       "de": "er schied",
-      "lv": "Rozwiódł się / rozwiódł się"
+      "lv": "ai ndau / u nda"
     },
     "imperfektKonjunktiv": {
       "de": "er schiede",
-      "lv": "Boşanacaktı"
+      "lv": "ai do të ndante / do të ndahej"
     },
     "partizipVergangenheit": {
       "de": "geschieden (er hat / er ist)",
-      "lv": "W separacji/rozwiedziony"
+      "lv": "ndarë / ndarë"
     }
   },
   {
     "infinitiv": {
       "de": "scheinen",
-      "lv": "Parlamak/görünmek"
+      "lv": "shkëlqej / dukem"
     },
     "praesens": {
       "de": "er scheint",
-      "lv": "O parlıyor/görünüyor"
+      "lv": "ai shkëlqen / duket"
     },
     "imperfektIndikativ": {
       "de": "er schien",
-      "lv": "Parlıyordu/görünüyordu"
+      "lv": "ai shkëlqeu / u duk"
     },
     "imperfektKonjunktiv": {
       "de": "er schiene",
-      "lv": "Parlayacak/görünecekti"
+      "lv": "ai do të shkëlqente / do të dukej"
     },
     "partizipVergangenheit": {
       "de": "geschienen",
-      "lv": "Parladı/görünüyordu"
+      "lv": "shkëlqyer / dukur"
     }
   },
   {
     "infinitiv": {
       "de": "schelten",
-      "lv": "Bart"
+      "lv": "qortoj"
     },
     "praesens": {
       "de": "er schilt",
-      "lv": "– karci"
+      "lv": "ai qorton"
     },
     "imperfektIndikativ": {
       "de": "er schalt",
-      "lv": "Bunu yasakladı"
+      "lv": "ai qortoi"
     },
     "imperfektKonjunktiv": {
       "de": "er schölte / er schälte",
-      "lv": "Tıraş"
+      "lv": "ai do të qortonte"
     },
     "partizipVergangenheit": {
       "de": "gescholten",
-      "lv": "Sakal"
+      "lv": "qortuar"
     }
   },
   {
     "infinitiv": {
       "de": "scheren",
-      "lv": "Kesmek"
+      "lv": "qeth"
     },
     "praesens": {
       "de": "er schert",
-      "lv": "On tnie"
+      "lv": "ai qeth"
     },
     "imperfektIndikativ": {
       "de": "schor / scherte",
-      "lv": "Makas"
+      "lv": "ai qethi"
     },
     "imperfektKonjunktiv": {
       "de": "schor / scherte",
-      "lv": "Makas"
+      "lv": "ai do të qethte"
     },
     "partizipVergangenheit": {
       "de": "geschoren / geschert",
-      "lv": "Kırpılmış"
+      "lv": "qethur"
     }
   },
   {
     "infinitiv": {
       "de": "schieben",
-      "lv": "İtmek"
+      "lv": "shtyj"
     },
     "praesens": {
       "de": "er schiebt",
-      "lv": "On popycha"
+      "lv": "ai shtyn"
     },
     "imperfektIndikativ": {
       "de": "er schob",
-      "lv": "O itti"
+      "lv": "ai shtyu"
     },
     "imperfektKonjunktiv": {
       "de": "er schöbe",
-      "lv": "İterdi"
+      "lv": "ai do të shtynte"
     },
     "partizipVergangenheit": {
       "de": "geschoben",
-      "lv": "İtildi"
+      "lv": "shtyrë"
     }
   },
   {
     "infinitiv": {
       "de": "schießen",
-      "lv": "Film çekmek"
+      "lv": "qëlloj"
     },
     "praesens": {
       "de": "er schießt",
-      "lv": "On strzela"
+      "lv": "ai qëllon"
     },
     "imperfektIndikativ": {
       "de": "er schoss",
-      "lv": "Gjuajtje madhështore!"
+      "lv": "ai qëlloi"
     },
     "imperfektKonjunktiv": {
       "de": "er schösse",
-      "lv": "Ateş ederdi"
+      "lv": "ai do të qëllonte"
     },
     "partizipVergangenheit": {
       "de": "geschossen",
-      "lv": "Gjuajtje madhështore!"
+      "lv": "qëlluar"
     }
   },
   {
     "infinitiv": {
       "de": "schinden",
-      "lv": "Eziyet"
+      "lv": "mundoj"
     },
     "praesens": {
       "de": "er schindet",
-      "lv": "O işkence ediyor"
+      "lv": "ai mundon"
     },
     "imperfektIndikativ": {
       "de": "schindete",
-      "lv": "Eziyet edilmiş"
+      "lv": "ai mundoi"
     },
     "imperfektKonjunktiv": {
       "de": "schindete",
-      "lv": "Eziyet edilmiş"
+      "lv": "ai do të mundonte"
     },
     "partizipVergangenheit": {
       "de": "geschunden",
-      "lv": "Eziyet edilmiş"
+      "lv": "munduar"
     }
   },
   {
     "infinitiv": {
       "de": "schlafen",
-      "lv": "-Une?"
+      "lv": "fle"
     },
     "praesens": {
       "de": "er schläft",
-      "lv": "O uyuyor"
+      "lv": "ai fle"
     },
     "imperfektIndikativ": {
       "de": "er schlief",
-      "lv": "O uyuyordu"
+      "lv": "ai fjeti"
     },
     "imperfektKonjunktiv": {
       "de": "er schliefe",
-      "lv": "Uyurdu"
+      "lv": "ai do të flinte"
     },
     "partizipVergangenheit": {
       "de": "geschlafen",
-      "lv": "O uyuyordu"
+      "lv": "fjetur"
     }
   },
   {
     "infinitiv": {
       "de": "schlagen",
-      "lv": "Grev"
+      "lv": "godit"
     },
     "praesens": {
       "de": "er schlägt",
-      "lv": "Uderza"
+      "lv": "ai godet"
     },
     "imperfektIndikativ": {
       "de": "er schlug",
-      "lv": "O vurdu"
+      "lv": "ai goditi"
     },
     "imperfektKonjunktiv": {
       "de": "er schlüge",
-      "lv": "Vurmak"
+      "lv": "ai do të godiste"
     },
     "partizipVergangenheit": {
       "de": "geschlagen",
-      "lv": "Bity"
+      "lv": "goditur"
     }
   },
   {
     "infinitiv": {
       "de": "schleichen",
-      "lv": "Po bie shi!"
+      "lv": "përvidhem"
     },
     "praesens": {
       "de": "er schleicht",
-      "lv": "O eğilir"
+      "lv": "ai përvidhet"
     },
     "imperfektIndikativ": {
       "de": "er schlich",
-      "lv": "Yağmur yağıyordu"
+      "lv": "ai u përvodh"
     },
     "imperfektKonjunktiv": {
       "de": "er schliche",
-      "lv": "On pada"
+      "lv": "ai do të përvidhej"
     },
     "partizipVergangenheit": {
       "de": "geschlichen (er ist)",
-      "lv": "Ai vdiq."
+      "lv": "përvjedhur"
     }
   },
   {
     "infinitiv": {
       "de": "schleifen",
-      "lv": "Öğütmek"
+      "lv": "lëmoj"
     },
     "praesens": {
       "de": "er schleift",
-      "lv": "On miele"
+      "lv": "ai lëmon"
     },
     "imperfektIndikativ": {
       "de": "er schliff",
-      "lv": "Onu toprakladı"
+      "lv": "ai lëmoi"
     },
     "imperfektKonjunktiv": {
       "de": "er schliffe",
-      "lv": "Ezilir"
+      "lv": "ai do të lëmonte"
     },
     "partizipVergangenheit": {
       "de": "geschliffen",
-      "lv": "Parlak"
+      "lv": "lëmuar"
     }
   },
   {
     "infinitiv": {
       "de": "schließen",
-      "lv": "Kapalı"
+      "lv": "mbyll"
     },
     "praesens": {
       "de": "er schließt",
-      "lv": "Zamyka"
+      "lv": "ai mbyll"
     },
     "imperfektIndikativ": {
       "de": "er schloss",
-      "lv": "O kapattı"
+      "lv": "ai mbylli"
     },
     "imperfektKonjunktiv": {
       "de": "er schlösse",
-      "lv": "Onu kapatacaktı"
+      "lv": "ai do të mbyllte"
     },
     "partizipVergangenheit": {
       "de": "geschlossen",
-      "lv": "Kapalı"
+      "lv": "mbyllur"
     }
   },
   {
     "infinitiv": {
       "de": "schlingen",
-      "lv": "Neser."
+      "lv": "përpij"
     },
     "praesens": {
       "de": "er schlingt",
-      "lv": "Yutkunur"
+      "lv": "ai përpin"
     },
     "imperfektIndikativ": {
       "de": "er schlang",
-      "lv": "Yuttu"
+      "lv": "ai përpiu"
     },
     "imperfektKonjunktiv": {
       "de": "er schlänge",
-      "lv": "On rano"
+      "lv": "ai do të përpinte"
     },
     "partizipVergangenheit": {
       "de": "geschlungen",
-      "lv": "Fije mëndafshi?"
+      "lv": "përpirë"
     }
   },
   {
     "infinitiv": {
       "de": "schmeißen",
-      "lv": "Çıkış yapmak"
+      "lv": "hedh"
     },
     "praesens": {
       "de": "er schmeißt",
-      "lv": "Rzuca"
+      "lv": "ai hedh"
     },
     "imperfektIndikativ": {
       "de": "er schmiss",
-      "lv": "Dumped"
+      "lv": "ai hodhi"
     },
     "imperfektKonjunktiv": {
       "de": "er schmisse",
-      "lv": "Dumped"
+      "lv": "ai do të hidhte"
     },
     "partizipVergangenheit": {
       "de": "geschmissen",
-      "lv": "Rzucony"
+      "lv": "hedhur"
     }
   },
   {
     "infinitiv": {
       "de": "schmelzen",
-      "lv": "Hareketli"
+      "lv": "shkrihem"
     },
     "praesens": {
       "de": "er schmilzt",
-      "lv": "Boğuluyor"
+      "lv": "shkrihet"
     },
     "imperfektIndikativ": {
       "de": "er schmolz",
-      "lv": "O inledi"
+      "lv": "u shkri"
     },
     "imperfektKonjunktiv": {
       "de": "er schmölze",
-      "lv": "Hareket ediyordu"
+      "lv": "do të shkrihej"
     },
     "partizipVergangenheit": {
       "de": "geschmolzen (er ist)",
-      "lv": "Stopiony"
+      "lv": "shkrirë"
     }
   },
   {
     "infinitiv": {
       "de": "schnauben",
-      "lv": "Syczeć"
+      "lv": "shfryj"
     },
     "praesens": {
       "de": "er schnaubt",
-      "lv": "Prycha"
+      "lv": "ai shfryn"
     },
     "imperfektIndikativ": {
       "de": "schnaubte / schnob",
-      "lv": "Homurdandı"
+      "lv": "ai shfryu"
     },
     "imperfektKonjunktiv": {
       "de": "schnaubte / schnob",
-      "lv": "Homurdandı"
+      "lv": "ai do të shfrynte"
     },
     "partizipVergangenheit": {
       "de": "geschnaubt / geschnoben",
-      "lv": "Homurdanma"
+      "lv": "shfryrë"
     }
   },
   {
     "infinitiv": {
       "de": "schneiden",
-      "lv": "Kesmek"
+      "lv": "pres"
     },
     "praesens": {
       "de": "er schneidet",
-      "lv": "Dönüyor"
+      "lv": "ai pret"
     },
     "imperfektIndikativ": {
       "de": "er schnitt",
-      "lv": "O kesti"
+      "lv": "ai preu"
     },
     "imperfektKonjunktiv": {
       "de": "er schnitte",
-      "lv": "Tnie"
+      "lv": "ai do të priste"
     },
     "partizipVergangenheit": {
       "de": "geschnitten",
-      "lv": "Kesme"
+      "lv": "prerë"
     }
   },
   {
     "infinitiv": {
       "de": "schreiben",
-      "lv": "Yazmak"
+      "lv": "shkruaj"
     },
     "praesens": {
       "de": "er schreibt",
-      "lv": "Pisze"
+      "lv": "ai shkruan"
     },
     "imperfektIndikativ": {
       "de": "er schrieb",
-      "lv": "O yazdı"
+      "lv": "ai shkroi"
     },
     "imperfektKonjunktiv": {
       "de": "er schriebe",
-      "lv": "O yazardı"
+      "lv": "ai do të shkruante"
     },
     "partizipVergangenheit": {
       "de": "geschrieben",
-      "lv": "Pisemny"
+      "lv": "shkruar"
     }
   },
   {
     "infinitiv": {
       "de": "schreien",
-      "lv": "Bağırmak"
+      "lv": "bërtas"
     },
     "praesens": {
       "de": "er schreit",
-      "lv": "– krzyczy"
+      "lv": "ai bërtet"
     },
     "imperfektIndikativ": {
       "de": "er schrie",
-      "lv": "– diye bağırdı"
+      "lv": "ai bërtiti"
     },
     "imperfektKonjunktiv": {
       "de": "er schriee",
-      "lv": "Diye bağırırdı"
+      "lv": "ai do të bërtiste"
     },
     "partizipVergangenheit": {
       "de": "geschrien",
-      "lv": "O bağırdı"
+      "lv": "bërtitur"
     }
   },
   {
     "infinitiv": {
       "de": "schreiten",
-      "lv": "Pieszy"
+      "lv": "marshoj"
     },
     "praesens": {
       "de": "er schreitet",
-      "lv": "On idzie"
+      "lv": "ai marshon"
     },
     "imperfektIndikativ": {
       "de": "er schritt",
-      "lv": "O yürüdü"
+      "lv": "ai marshoi"
     },
     "imperfektKonjunktiv": {
       "de": "er schritte",
-      "lv": "Gidebilirdi"
+      "lv": "ai do të marshonte"
     },
     "partizipVergangenheit": {
       "de": "geschritten (er ist)",
-      "lv": "O yürüdü"
+      "lv": "marshuar"
     }
   },
   {
     "infinitiv": {
       "de": "schweigen",
-      "lv": "Sessiz ol"
+      "lv": "hesht"
     },
     "praesens": {
       "de": "er schweigt",
-      "lv": "On milczy"
+      "lv": "ai hesht"
     },
     "imperfektIndikativ": {
       "de": "er schwieg",
-      "lv": "O sessizdi"
+      "lv": "ai heshti"
     },
     "imperfektKonjunktiv": {
       "de": "er schwiege",
-      "lv": "Sessiz kalacaktı"
+      "lv": "ai do të heshtte"
     },
     "partizipVergangenheit": {
       "de": "geschwiegen",
-      "lv": "Uciszony"
+      "lv": "heshtur"
     }
   },
   {
     "infinitiv": {
       "de": "schwellen",
-      "lv": "Pompa"
+      "lv": "ënjtem"
     },
     "praesens": {
       "de": "er schwillt",
-      "lv": "– nefesi kesilir"
+      "lv": "ënjtet"
     },
     "imperfektIndikativ": {
       "de": "er schwoll",
-      "lv": "On pampas"
+      "lv": "u ënjt"
     },
     "imperfektKonjunktiv": {
       "de": "er schwölle",
-      "lv": "O pompalardı"
+      "lv": "do të ënjtej"
     },
     "partizipVergangenheit": {
       "de": "geschwollen (er ist)",
-      "lv": "Pompa"
+      "lv": "ënjtur"
     }
   },
   {
     "infinitiv": {
       "de": "schwimmen",
-      "lv": "Not"
+      "lv": "notoj"
     },
     "praesens": {
       "de": "er schwimmt",
-      "lv": "O yüzüyor"
+      "lv": "ai noton"
     },
     "imperfektIndikativ": {
       "de": "er schwamm",
-      "lv": "O yüzdü"
+      "lv": "ai notoi"
     },
     "imperfektKonjunktiv": {
       "de": "er schwömme / er schwämme",
-      "lv": "O yüzerdi"
+      "lv": "ai do të notonte"
     },
     "partizipVergangenheit": {
       "de": "geschwommen (er ist)",
-      "lv": "O yüzdü"
+      "lv": "notuar"
     }
   },
   {
     "infinitiv": {
       "de": "schwinden",
-      "lv": "Yok olmak"
+      "lv": "zhdukem"
     },
     "praesens": {
       "de": "er schwindet",
-      "lv": "On znika"
+      "lv": "zhduket"
     },
     "imperfektIndikativ": {
       "de": "er schwand",
-      "lv": "Ortadan kayboldu"
+      "lv": "u zhduk"
     },
     "imperfektKonjunktiv": {
       "de": "er schwände",
-      "lv": "Ortadan kaybolur"
+      "lv": "do të zhdukej"
     },
     "partizipVergangenheit": {
       "de": "geschwunden (er ist)",
-      "lv": "Kayıp"
+      "lv": "zhdukur"
     }
   },
   {
     "infinitiv": {
       "de": "schwingen",
-      "lv": "Fala"
+      "lv": "tund"
     },
     "praesens": {
       "de": "er schwingt",
-      "lv": "Macha"
+      "lv": "ai tund"
     },
     "imperfektIndikativ": {
       "de": "er schwang",
-      "lv": "El salladı"
+      "lv": "ai tundi"
     },
     "imperfektKonjunktiv": {
       "de": "er schwänge",
-      "lv": "El sallardı"
+      "lv": "ai do të tundte"
     },
     "partizipVergangenheit": {
       "de": "geschwungen",
-      "lv": "Zaondulowany"
+      "lv": "tundur"
     }
   },
   {
     "infinitiv": {
       "de": "schwören",
-      "lv": "Küfür"
+      "lv": "betohem"
     },
     "praesens": {
       "de": "er schwört",
-      "lv": "Yemin"
+      "lv": "ai betohet"
     },
     "imperfektIndikativ": {
       "de": "er schwur / er schwor",
-      "lv": "Przysiągł"
+      "lv": "ai u betua"
     },
     "imperfektKonjunktiv": {
       "de": "er schwöre",
-      "lv": "Yemin ederdi"
+      "lv": "ai do të betohej"
     },
     "partizipVergangenheit": {
       "de": "geschworen",
-      "lv": "Yeminli"
+      "lv": "betuar"
     }
   },
   {
     "infinitiv": {
       "de": "sehen",
-      "lv": "Görmek"
+      "lv": "shoh"
     },
     "praesens": {
       "de": "er sieht",
-      "lv": "Widzi"
+      "lv": "ai sheh"
     },
     "imperfektIndikativ": {
       "de": "er sah",
-      "lv": "O gördü"
+      "lv": "ai pa"
     },
     "imperfektKonjunktiv": {
       "de": "er sähe",
-      "lv": "O görürdü"
+      "lv": "ai do të shihte"
     },
     "partizipVergangenheit": {
       "de": "gesehen",
-      "lv": "Widziany"
+      "lv": "parë"
     }
   },
   {
     "infinitiv": {
       "de": "sein",
-      "lv": "Të jesh"
+      "lv": "jam"
     },
     "praesens": {
       "de": "er ist",
-      "lv": "On jest"
+      "lv": "ai është"
     },
     "imperfektIndikativ": {
       "de": "war",
-      "lv": "Asaj."
+      "lv": "ai qe"
     },
     "imperfektKonjunktiv": {
       "de": "war",
-      "lv": "Asaj."
+      "lv": "ai do të ishte"
     },
     "partizipVergangenheit": {
       "de": "gewesen",
-      "lv": "O kaldı"
+      "lv": "qenë"
     }
   },
   {
     "infinitiv": {
       "de": "senden",
-      "lv": "Göndermek"
+      "lv": "dërgoj"
     },
     "praesens": {
       "de": "er sendet",
-      "lv": "O gönderir"
+      "lv": "ai dërgon"
     },
     "imperfektIndikativ": {
       "de": "er sandte / er sendete",
-      "lv": "Gönderilmiş"
+      "lv": "ai dërgoi"
     },
     "imperfektKonjunktiv": {
       "de": "er sendete",
-      "lv": "Onu gönderecekti"
+      "lv": "ai do të dërgonte"
     },
     "partizipVergangenheit": {
       "de": "gesandt / gesendet",
-      "lv": "Gönderilmiş"
+      "lv": "dërguar"
     }
   },
   {
     "infinitiv": {
       "de": "sieden",
-      "lv": "Guzhinieri."
+      "lv": "ziej"
     },
     "praesens": {
       "de": "er siedet",
-      "lv": "On gotuje"
+      "lv": "ai zien"
     },
     "imperfektIndikativ": {
       "de": "sott / siedete",
-      "lv": "Gotowany"
+      "lv": "ai zjeu"
     },
     "imperfektKonjunktiv": {
       "de": "sott / siedete",
-      "lv": "Gotowany"
+      "lv": "ai do të ziente"
     },
     "partizipVergangenheit": {
       "de": "gesotten / gesiedet",
-      "lv": "Gotowany"
+      "lv": "zier"
     }
   },
   {
     "infinitiv": {
       "de": "singen",
-      "lv": "Këndim"
+      "lv": "këndoj"
     },
     "praesens": {
       "de": "er singt",
-      "lv": "Şarkı söylüyor"
+      "lv": "ai këndon"
     },
     "imperfektIndikativ": {
       "de": "er sang",
-      "lv": "Şarkı söyledi"
+      "lv": "ai këndoi"
     },
     "imperfektKonjunktiv": {
       "de": "er sänge",
-      "lv": "Şarkı söylerdi"
+      "lv": "ai do të këndonte"
     },
     "partizipVergangenheit": {
       "de": "gesungen",
-      "lv": "Şarkı söylendi"
+      "lv": "kënduar"
     }
   },
   {
     "infinitiv": {
       "de": "sinken",
-      "lv": "Atmak"
+      "lv": "fundosem"
     },
     "praesens": {
       "de": "er sinkt",
-      "lv": "On tonie"
+      "lv": "ai fundoset"
     },
     "imperfektIndikativ": {
       "de": "er sank",
-      "lv": "Yerleşiyordu"
+      "lv": "ai u fundos"
     },
     "imperfektKonjunktiv": {
       "de": "er sänke",
-      "lv": "Batardı"
+      "lv": "ai do të fundosej"
     },
     "partizipVergangenheit": {
       "de": "gesunken (er ist)",
-      "lv": "Makyaj yapmak"
+      "lv": "fundosur"
     }
   },
   {
     "infinitiv": {
       "de": "sinnen",
-      "lv": "Yansıt"
+      "lv": "mendohem"
     },
     "praesens": {
       "de": "er sinnt",
-      "lv": "– merak ediyor"
+      "lv": "ai mendohet"
     },
     "imperfektIndikativ": {
       "de": "er sann",
-      "lv": "– merak etti"
+      "lv": "ai u mendua"
     },
     "imperfektKonjunktiv": {
       "de": "er sönne / er sänne",
-      "lv": "Merak ederdi"
+      "lv": "ai do të mendohej"
     },
     "partizipVergangenheit": {
       "de": "gesonnen",
-      "lv": "Myślący"
+      "lv": "menduar"
     }
   },
   {
     "infinitiv": {
       "de": "sitzen",
-      "lv": "Ulja"
+      "lv": "rri ulur"
     },
     "praesens": {
       "de": "er sitzt",
-      "lv": "On siedzi"
+      "lv": "ai rri ulur"
     },
     "imperfektIndikativ": {
       "de": "er sass",
-      "lv": "O oturuyordu"
+      "lv": "ai ndenji ulur"
     },
     "imperfektKonjunktiv": {
       "de": "er säße",
-      "lv": "O oturuyor olurdu"
+      "lv": "ai do të rrinte ulur"
     },
     "partizipVergangenheit": {
       "de": "gesessen",
-      "lv": "O oturdu"
+      "lv": "ndenjur ulur"
     }
   },
   {
     "infinitiv": {
       "de": "sollen",
-      "lv": "İhtiyacım var / mecbur kalacağım"
+      "lv": "duhet"
     },
     "praesens": {
       "de": "er soll",
-      "lv": "Potrzebuje"
+      "lv": "duhet"
     },
     "imperfektIndikativ": {
       "de": "sollte",
-      "lv": "Yapmalıydı"
+      "lv": "u desh"
     },
     "imperfektKonjunktiv": {
       "de": "sollte",
-      "lv": "Yapmalıydı"
+      "lv": "do të duhej"
     },
     "partizipVergangenheit": {
       "de": "gesollt",
-      "lv": "Wymagany"
+      "lv": "dashur"
     }
   },
   {
     "infinitiv": {
       "de": "speien",
-      "lv": "Tükürmek"
+      "lv": "pështyj"
     },
     "praesens": {
       "de": "er speit",
-      "lv": "On pluje"
+      "lv": "ai pështyn"
     },
     "imperfektIndikativ": {
       "de": "er spie",
-      "lv": "Tükürdü"
+      "lv": "ai pështyu"
     },
     "imperfektKonjunktiv": {
       "de": "er spie",
-      "lv": "Tükürürdü"
+      "lv": "ai do të pështynte"
     },
     "partizipVergangenheit": {
       "de": "gespien",
-      "lv": "Tükürdü"
+      "lv": "pështyrë"
     }
   },
   {
     "infinitiv": {
       "de": "spinnen",
-      "lv": "Etrafta takıl"
+      "lv": "tjerr"
     },
     "praesens": {
       "de": "er spinnt",
-      "lv": "On się przekręca"
+      "lv": "ai tjerr"
     },
     "imperfektIndikativ": {
       "de": "er spann",
-      "lv": "Arkasını döndü"
+      "lv": "ai tori"
     },
     "imperfektKonjunktiv": {
       "de": "er spönne / er spänne",
-      "lv": "O etrafta takılırdı"
+      "lv": "ai do të tirrte"
     },
     "partizipVergangenheit": {
       "de": "gesponnen",
-      "lv": "Uprzedzony"
+      "lv": "tjerrë"
     }
   },
   {
     "infinitiv": {
       "de": "spleißen",
-      "lv": "Birleştirmek"
+      "lv": "bashkoj"
     },
     "praesens": {
       "de": "er spleißt",
-      "lv": "O bağlanır"
+      "lv": "ai bashkon"
     },
     "imperfektIndikativ": {
       "de": "spliss",
-      "lv": "Bağlı"
+      "lv": "ai bashkoi"
     },
     "imperfektKonjunktiv": {
       "de": "spliss",
-      "lv": "Bağlı"
+      "lv": "ai do të bashkonte"
     },
     "partizipVergangenheit": {
       "de": "gesplissen",
-      "lv": "Bağlı"
+      "lv": "bashkuar"
     }
   },
   {
     "infinitiv": {
       "de": "sprechen",
-      "lv": "Thuaj diçka."
+      "lv": "flas"
     },
     "praesens": {
       "de": "er spricht",
-      "lv": "-Por është në telefon dhe..."
+      "lv": "ai flet"
     },
     "imperfektIndikativ": {
       "de": "er sprach",
-      "lv": "O konuştu"
+      "lv": "ai foli"
     },
     "imperfektKonjunktiv": {
       "de": "er spräche",
-      "lv": "Konuşmak"
+      "lv": "ai do të fliste"
     },
     "partizipVergangenheit": {
       "de": "gesprochen",
-      "lv": "Konuşulan"
+      "lv": "folur"
     }
   },
   {
     "infinitiv": {
       "de": "sprießen",
-      "lv": "Başarılı"
+      "lv": "mbin"
     },
     "praesens": {
       "de": "er sprießt",
-      "lv": "O gelişiyor"
+      "lv": "mbin"
     },
     "imperfektIndikativ": {
       "de": "er spross",
-      "lv": "Zenginleşti"
+      "lv": "mbiu"
     },
     "imperfektKonjunktiv": {
       "de": "er sprösse",
-      "lv": "O raf"
+      "lv": "do të mbinte"
     },
     "partizipVergangenheit": {
       "de": "gesprossen (er ist)",
-      "lv": "Arm"
+      "lv": "mbirë"
     }
   },
   {
     "infinitiv": {
       "de": "springen",
-      "lv": "Zıplamak"
+      "lv": "kërcej"
     },
     "praesens": {
       "de": "er springt",
-      "lv": "On skacze"
+      "lv": "ai kërcen"
     },
     "imperfektIndikativ": {
       "de": "er sprang",
-      "lv": "O atladı"
+      "lv": "ai kërceu"
     },
     "imperfektKonjunktiv": {
       "de": "er spränge",
-      "lv": "O atlardı"
+      "lv": "ai do të kërcente"
     },
     "partizipVergangenheit": {
       "de": "gesprungen (er ist)",
-      "lv": "Obiektyw"
+      "lv": "kërcyer"
     }
   },
   {
     "infinitiv": {
       "de": "stechen",
-      "lv": "Bıçaklama"
+      "lv": "shpoj"
     },
     "praesens": {
       "de": "er sticht",
-      "lv": "Bıçaklıyor"
+      "lv": "ai shpon"
     },
     "imperfektIndikativ": {
       "de": "er stach",
-      "lv": "O vurdu"
+      "lv": "ai shpoi"
     },
     "imperfektKonjunktiv": {
       "de": "er stäche",
-      "lv": "Bıçaklamak"
+      "lv": "ai do të shponte"
     },
     "partizipVergangenheit": {
       "de": "gestochen",
-      "lv": "Bıçaklandı"
+      "lv": "shpuar"
     }
   },
   {
     "infinitiv": {
       "de": "stecken",
-      "lv": "Yapıştır/yapıştır"
+      "lv": "fut / ngul"
     },
     "praesens": {
       "de": "er steckt",
-      "lv": "On popycha"
+      "lv": "ai fut / ngul"
     },
     "imperfektIndikativ": {
       "de": "stak / steckte",
-      "lv": "Nadziewany"
+      "lv": "ai futi / nguli"
     },
     "imperfektKonjunktiv": {
       "de": "stak / steckte",
-      "lv": "Nadziewany"
+      "lv": "ai do të fuste / do të ngulte"
     },
     "partizipVergangenheit": {
       "de": "gesteckt",
-      "lv": "Nadziewany"
+      "lv": "futur / ngulur"
     }
   },
   {
     "infinitiv": {
       "de": "stehen",
-      "lv": "Të jesh"
+      "lv": "qëndroj në këmbë"
     },
     "praesens": {
       "de": "er steht",
-      "lv": "On stoi"
+      "lv": "ai qëndron në këmbë"
     },
     "imperfektIndikativ": {
       "de": "er stand",
-      "lv": "Çelik"
+      "lv": "ai qëndroi në këmbë"
     },
     "imperfektKonjunktiv": {
       "de": "er stände / er stünde",
-      "lv": "O dururdu"
+      "lv": "ai do të qëndronte në këmbë"
     },
     "partizipVergangenheit": {
       "de": "gestanden",
-      "lv": "Ayakta"
+      "lv": "qëndruar në këmbë"
     }
   },
   {
     "infinitiv": {
       "de": "stehlen",
-      "lv": "Çal"
+      "lv": "vjedh"
     },
     "praesens": {
       "de": "er stiehlt",
-      "lv": "On kradnie"
+      "lv": "ai vjedh"
     },
     "imperfektIndikativ": {
       "de": "er stahl",
-      "lv": "Onu çaldı"
+      "lv": "ai vodhi"
     },
     "imperfektKonjunktiv": {
       "de": "er stöhle / er stähle",
-      "lv": "Hırsızlık yapardı"
+      "lv": "ai do të vidhte"
     },
     "partizipVergangenheit": {
       "de": "gestohlen",
-      "lv": "Skradziony"
+      "lv": "vjedhur"
     }
   },
   {
     "infinitiv": {
       "de": "steigen",
-      "lv": "Tırmanmak"
+      "lv": "ngjitem"
     },
     "praesens": {
       "de": "er steigt",
-      "lv": "Tırmanıyor"
+      "lv": "ai ngjitet"
     },
     "imperfektIndikativ": {
       "de": "er stieg",
-      "lv": "Yukarı tırmandı"
+      "lv": "ai u ngjit"
     },
     "imperfektKonjunktiv": {
       "de": "er stiege",
-      "lv": "Tırmanacaktı"
+      "lv": "ai do të ngjitej"
     },
     "partizipVergangenheit": {
       "de": "gestiegen (er ist)",
-      "lv": "Yukarı tırmandı"
+      "lv": "ngjitur"
     }
   },
   {
     "infinitiv": {
       "de": "sterben",
-      "lv": "Öl"
+      "lv": "vdes"
     },
     "praesens": {
       "de": "er stirbt",
-      "lv": "On umiera"
+      "lv": "ai vdes"
     },
     "imperfektIndikativ": {
       "de": "er starb",
-      "lv": "Umarł"
+      "lv": "ai vdiq"
     },
     "imperfektKonjunktiv": {
       "de": "er stürbe",
-      "lv": "Ölecekti"
+      "lv": "ai do të vdiste"
     },
     "partizipVergangenheit": {
       "de": "gestorben (er ist)",
-      "lv": "Lsak O'Dej po e mbivlerëson fuqinë e tij."
+      "lv": "vdekur"
     }
   },
   {
     "infinitiv": {
       "de": "stinken",
-      "lv": "Koku"
+      "lv": "qelbem"
     },
     "praesens": {
       "de": "es stinkt",
-      "lv": "Kokuyor"
+      "lv": "qelbet"
     },
     "imperfektIndikativ": {
       "de": "stank",
-      "lv": "Koktu"
+      "lv": "u qelb"
     },
     "imperfektKonjunktiv": {
       "de": "stank",
-      "lv": "Koktu"
+      "lv": "do të qelbej"
     },
     "partizipVergangenheit": {
       "de": "gestunken",
-      "lv": "Śmierdzący"
+      "lv": "qelbur"
     }
   },
   {
     "infinitiv": {
       "de": "stoßen",
-      "lv": "Basmak"
+      "lv": "shtyj"
     },
     "praesens": {
       "de": "er stößt",
-      "lv": "On popycha"
+      "lv": "ai shtyn"
     },
     "imperfektIndikativ": {
       "de": "er stieß",
-      "lv": "O itti"
+      "lv": "ai shtyu"
     },
     "imperfektKonjunktiv": {
       "de": "er stieße",
-      "lv": "O bastı"
+      "lv": "ai do të shtynte"
     },
     "partizipVergangenheit": {
       "de": "gestoßen",
-      "lv": "İtildi"
+      "lv": "shtyrë"
     }
   },
   {
     "infinitiv": {
       "de": "streichen",
-      "lv": "Farba/pasek"
+      "lv": "lyej / fshij"
     },
     "praesens": {
       "de": "er streicht",
-      "lv": "Maluje / paski"
+      "lv": "ai lyen / fshin"
     },
     "imperfektIndikativ": {
       "de": "er strich",
-      "lv": "Çizgiler çizdi"
+      "lv": "ai leu / fshiu"
     },
     "imperfektKonjunktiv": {
       "de": "er striche",
-      "lv": "Resim yapıyordu/parçalıyordu"
+      "lv": "ai do të lyente / do të fshinte"
     },
     "partizipVergangenheit": {
       "de": "gestrichen",
-      "lv": "Malowane / w paski"
+      "lv": "lyer / fshirë"
     }
   },
   {
     "infinitiv": {
       "de": "streiten",
-      "lv": "Kavga"
+      "lv": "grindem"
     },
     "praesens": {
       "de": "er streitet",
-      "lv": "On walczy"
+      "lv": "ai grindet"
     },
     "imperfektIndikativ": {
       "de": "er stritt",
-      "lv": "Savaştı"
+      "lv": "ai u grind"
     },
     "imperfektKonjunktiv": {
       "de": "er stritte",
-      "lv": "Dövüşecekti"
+      "lv": "ai do të grindej"
     },
     "partizipVergangenheit": {
       "de": "gestritten",
-      "lv": "Savaştı"
+      "lv": "grindur"
     }
   },
   {
     "infinitiv": {
       "de": "tragen",
-      "lv": "Giymek"
+      "lv": "mbart"
     },
     "praesens": {
       "de": "er trägt",
-      "lv": "On niesie"
+      "lv": "ai mbart"
     },
     "imperfektIndikativ": {
       "de": "er trug",
-      "lv": "Taşıyordu"
+      "lv": "ai mbarti"
     },
     "imperfektKonjunktiv": {
       "de": "er trüge",
-      "lv": "O taşıyacak"
+      "lv": "ai do të mbartte"
     },
     "partizipVergangenheit": {
       "de": "getragen",
-      "lv": "Przewieziony"
+      "lv": "mbartur"
     }
   },
   {
     "infinitiv": {
       "de": "treffen",
-      "lv": "Tanışmak"
+      "lv": "takoj"
     },
     "praesens": {
       "de": "er trifft",
-      "lv": "Spotyka"
+      "lv": "ai takon"
     },
     "imperfektIndikativ": {
       "de": "er traf",
-      "lv": "O tanıştı"
+      "lv": "ai takoi"
     },
     "imperfektKonjunktiv": {
       "de": "er träfe",
-      "lv": "Buluşacaktı"
+      "lv": "ai do të takonte"
     },
     "partizipVergangenheit": {
       "de": "getroffen",
-      "lv": "Napotkane"
+      "lv": "takuar"
     }
   },
   {
     "infinitiv": {
       "de": "treiben",
-      "lv": "Takip etmek"
+      "lv": "ngas"
     },
     "praesens": {
       "de": "er treibt",
-      "lv": "O sürüyor"
+      "lv": "ai nget"
     },
     "imperfektIndikativ": {
       "de": "er trieb",
-      "lv": "O sürüyordu"
+      "lv": "ai ngau"
     },
     "imperfektKonjunktiv": {
       "de": "er triebe",
-      "lv": "O sürerdi"
+      "lv": "ai do të ngiste"
     },
     "partizipVergangenheit": {
       "de": "getrieben",
-      "lv": "Goniony"
+      "lv": "ngarë"
     }
   },
   {
     "infinitiv": {
       "de": "treten",
-      "lv": "İçeri gel / git"
+      "lv": "bëj një hap / shkoj"
     },
     "praesens": {
       "de": "er tritt",
-      "lv": "On wchodzi/idzie"
+      "lv": "ai bën një hap / shkon"
     },
     "imperfektIndikativ": {
       "de": "er trat",
-      "lv": "Ayaktaydı / yürüyordu"
+      "lv": "ai bëri një hap / shkoi"
     },
     "imperfektKonjunktiv": {
       "de": "er träte",
-      "lv": "Ayağa kalkar/giderdim"
+      "lv": "ai do të bënte një hap / do të shkonte"
     },
     "partizipVergangenheit": {
       "de": "getreten (er ist)",
-      "lv": "Ayaktaydı / yürüyordu"
+      "lv": "bërë një hap / shkuar"
     }
   },
   {
     "infinitiv": {
       "de": "trinken",
-      "lv": "Pije"
+      "lv": "pi"
     },
     "praesens": {
       "de": "er trinkt",
-      "lv": "On pije"
+      "lv": "ai pi"
     },
     "imperfektIndikativ": {
       "de": "er trank",
-      "lv": "O içti"
+      "lv": "ai piu"
     },
     "imperfektKonjunktiv": {
       "de": "er tränke",
-      "lv": "O içerdi"
+      "lv": "ai do të pinte"
     },
     "partizipVergangenheit": {
       "de": "getrunken",
-      "lv": "Pijany"
+      "lv": "pirë"
     }
   },
   {
     "infinitiv": {
       "de": "trügen",
-      "lv": "Aldatmak"
+      "lv": "mashtroj"
     },
     "praesens": {
       "de": "er trögt",
-      "lv": "On oszukuje"
+      "lv": "ai mashtron"
     },
     "imperfektIndikativ": {
       "de": "er trog",
-      "lv": "Hile yaptı"
+      "lv": "ai mashtroi"
     },
     "imperfektKonjunktiv": {
       "de": "er tröge",
-      "lv": "Hile yapardı"
+      "lv": "ai do të mashtronte"
     },
     "partizipVergangenheit": {
       "de": "getrogen",
-      "lv": "Oszukany"
+      "lv": "mashtruar"
     }
   },
   {
     "infinitiv": {
       "de": "tun",
-      "lv": "Yapmak"
+      "lv": "bëj"
     },
     "praesens": {
       "de": "er tut",
-      "lv": "On to robi"
+      "lv": "ai bën"
     },
     "imperfektIndikativ": {
       "de": "er tat",
-      "lv": "O yaptı"
+      "lv": "ai bëri"
     },
     "imperfektKonjunktiv": {
       "de": "er täte",
-      "lv": "O bunu yapardı"
+      "lv": "ai do të bënte"
     },
     "partizipVergangenheit": {
       "de": "getan",
-      "lv": "Zrobione"
+      "lv": "bërë"
     }
   },
   {
     "infinitiv": {
       "de": "verderben",
-      "lv": "Zarar"
+      "lv": "prish"
     },
     "praesens": {
       "de": "er verdirbt",
-      "lv": "On niszczy"
+      "lv": "ai prish"
     },
     "imperfektIndikativ": {
       "de": "er verdarb",
-      "lv": "Hasarlı"
+      "lv": "ai prishi"
     },
     "imperfektKonjunktiv": {
       "de": "er verdürbe",
-      "lv": "Zarar vermek"
+      "lv": "ai do të prishte"
     },
     "partizipVergangenheit": {
       "de": "verdorben",
-      "lv": "Uszkodzony"
+      "lv": "prishur"
     }
   },
   {
     "infinitiv": {
       "de": "verdrießen",
-      "lv": "Tahrişe neden olur"
+      "lv": "mërzit"
     },
     "praesens": {
       "de": "er verdrießt",
-      "lv": "Tahrişe neden olur"
+      "lv": "ai mërzit"
     },
     "imperfektIndikativ": {
       "de": "er verdross",
-      "lv": "Tahrişe neden oldu"
+      "lv": "ai mërziti"
     },
     "imperfektKonjunktiv": {
       "de": "er verdrösse",
-      "lv": "Tahrişe neden olur"
+      "lv": "ai do të mërziste"
     },
     "partizipVergangenheit": {
       "de": "verdrossen",
-      "lv": "Zdenerwowany"
+      "lv": "mërzitur"
     }
   },
   {
     "infinitiv": {
       "de": "vergessen",
-      "lv": "Unutmak"
+      "lv": "harroj"
     },
     "praesens": {
       "de": "er vergisst",
-      "lv": "Zapomina"
+      "lv": "ai harron"
     },
     "imperfektIndikativ": {
       "de": "er vergass",
-      "lv": "Unuttu"
+      "lv": "ai harroi"
     },
     "imperfektKonjunktiv": {
       "de": "er vergäße",
-      "lv": "Unuturdu"
+      "lv": "ai do të harronte"
     },
     "partizipVergangenheit": {
       "de": "vergessen",
-      "lv": "Zapomniany"
+      "lv": "harruar"
     }
   },
   {
     "infinitiv": {
       "de": "verlieren",
-      "lv": "Humbje"
+      "lv": "humb"
     },
     "praesens": {
       "de": "er verliert",
-      "lv": "On przegrywa"
+      "lv": "ai humb"
     },
     "imperfektIndikativ": {
       "de": "er verlor",
-      "lv": "O kaybetti"
+      "lv": "ai humbi"
     },
     "imperfektKonjunktiv": {
       "de": "er verlöre",
-      "lv": "Kaybederdi"
+      "lv": "ai do të humbte"
     },
     "partizipVergangenheit": {
       "de": "verloren",
-      "lv": "Kayıp"
+      "lv": "humbur"
     }
   },
   {
     "infinitiv": {
       "de": "wachsen",
-      "lv": "Büyümek"
+      "lv": "rritem"
     },
     "praesens": {
       "de": "er wächst",
-      "lv": "O büyüyor"
+      "lv": "ai rritet"
     },
     "imperfektIndikativ": {
       "de": "er wuchs",
-      "lv": "O büyüdü"
+      "lv": "ai u rrit"
     },
     "imperfektKonjunktiv": {
       "de": "er wüchse",
-      "lv": "Büyürdü"
+      "lv": "ai do të rritej"
     },
     "partizipVergangenheit": {
       "de": "gewachsen (er ist)",
-      "lv": "O büyüdü"
+      "lv": "rritur"
     }
   },
   {
     "infinitiv": {
       "de": "waschen",
-      "lv": "Larje"
+      "lv": "laj"
     },
     "praesens": {
       "de": "er wäscht",
-      "lv": "Myje"
+      "lv": "ai lan"
     },
     "imperfektIndikativ": {
       "de": "er wusch",
-      "lv": "Kendini yıkadı"
+      "lv": "ai lau"
     },
     "imperfektKonjunktiv": {
       "de": "er wüsche",
-      "lv": "Kendini yıkamak"
+      "lv": "ai do të lante"
     },
     "partizipVergangenheit": {
       "de": "gewaschen",
-      "lv": "Umyty"
+      "lv": "larë"
     }
   },
   {
     "infinitiv": {
       "de": "weben",
-      "lv": "Splot"
+      "lv": "end"
     },
     "praesens": {
       "de": "er webt",
-      "lv": "On tka"
+      "lv": "ai end"
     },
     "imperfektIndikativ": {
       "de": "wob",
-      "lv": "Tkanka"
+      "lv": "ai endi"
     },
     "imperfektKonjunktiv": {
       "de": "wob",
-      "lv": "Tkanka"
+      "lv": "ai do të endte"
     },
     "partizipVergangenheit": {
       "de": "gewoben",
-      "lv": "Tkane"
+      "lv": "endur"
     }
   },
   {
     "infinitiv": {
       "de": "weichen",
-      "lv": "Geri çekilmek"
+      "lv": "tërhiqem"
     },
     "praesens": {
       "de": "er weicht",
-      "lv": "On się wycofuje"
+      "lv": "ai tërhiqet"
     },
     "imperfektIndikativ": {
       "de": "er wich",
-      "lv": "Geri adım attı"
+      "lv": "ai u tërhoq"
     },
     "imperfektKonjunktiv": {
       "de": "er wiche",
-      "lv": "Geri adım atacaktı"
+      "lv": "ai do të tërhiqej"
     },
     "partizipVergangenheit": {
       "de": "gewichen (er ist)",
-      "lv": "Geri adım atın"
+      "lv": "tërhequr"
     }
   },
   {
     "infinitiv": {
       "de": "weisen",
-      "lv": "Göstermek"
+      "lv": "tregoj"
     },
     "praesens": {
       "de": "er weist",
-      "lv": "On pokazuje"
+      "lv": "ai tregon"
     },
     "imperfektIndikativ": {
       "de": "er wies",
-      "lv": "O gösterdi"
+      "lv": "ai tregoi"
     },
     "imperfektKonjunktiv": {
       "de": "er wiese",
-      "lv": "O gösterirdi"
+      "lv": "ai do të tregonte"
     },
     "partizipVergangenheit": {
       "de": "gewiesen",
-      "lv": "Pokazano"
+      "lv": "treguar"
     }
   },
   {
     "infinitiv": {
       "de": "wenden",
-      "lv": "Değiştir/kırp"
+      "lv": "rrotulloj / kthej"
     },
     "praesens": {
       "de": "er wendet",
-      "lv": "Etrafında dönüyor"
+      "lv": "ai rrotullon / kthen"
     },
     "imperfektIndikativ": {
       "de": "er wandte / es wendete",
-      "lv": "Döndü / döndü"
+      "lv": "ai rrotulloi / ktheu"
     },
     "imperfektKonjunktiv": {
       "de": "er wendete",
-      "lv": "O değiştirirdi/tersine çevirirdi"
+      "lv": "ai do të rrotullonte / do të kthente"
     },
     "partizipVergangenheit": {
       "de": "gewandt / gewendet",
-      "lv": "Değiştirildi/geri alındı"
+      "lv": "rrotulluar / kthyer"
     }
   },
   {
     "infinitiv": {
       "de": "werben",
-      "lv": "Teklif et"
+      "lv": "kërkoj për grua"
     },
     "praesens": {
       "de": "er wirbt",
-      "lv": "Proponuje"
+      "lv": "ai kërkon për grua"
     },
     "imperfektIndikativ": {
       "de": "er warb",
-      "lv": "Teklif etti"
+      "lv": "ai kërkoi për grua"
     },
     "imperfektKonjunktiv": {
       "de": "er würbe",
-      "lv": "O önerecekti"
+      "lv": "ai do të kërkonte për grua"
     },
     "partizipVergangenheit": {
       "de": "geworben",
-      "lv": "Teklif etti"
+      "lv": "kërkuar për grua"
     }
   },
   {
     "infinitiv": {
       "de": "werden",
-      "lv": "Duke u bërë"
+      "lv": "bëhem"
     },
     "praesens": {
       "de": "er wird",
-      "lv": "O olur"
+      "lv": "ai bëhet"
     },
     "imperfektIndikativ": {
       "de": "wurde",
-      "lv": "O oldu"
+      "lv": "ai u bë"
     },
     "imperfektKonjunktiv": {
       "de": "wurde",
-      "lv": "O oldu"
+      "lv": "ai do të bëhej"
     },
     "partizipVergangenheit": {
       "de": "geworden",
-      "lv": "Oldu"
+      "lv": "bërë"
     }
   },
   {
     "infinitiv": {
       "de": "werfen",
-      "lv": "Çıkış yapmak"
+      "lv": "hedh"
     },
     "praesens": {
       "de": "er wirft",
-      "lv": "Rzuca"
+      "lv": "ai hedh"
     },
     "imperfektIndikativ": {
       "de": "er warf",
-      "lv": "Dumped"
+      "lv": "ai hodhi"
     },
     "imperfektKonjunktiv": {
       "de": "er würfe",
-      "lv": "Dumped"
+      "lv": "ai do të hidhte"
     },
     "partizipVergangenheit": {
       "de": "geworfen",
-      "lv": "Rzucony"
+      "lv": "hedhur"
     }
   },
   {
     "infinitiv": {
       "de": "wiegen",
-      "lv": "Tartmak"
+      "lv": "peshoj"
     },
     "praesens": {
       "de": "er wiegt",
-      "lv": "Ağırlığı"
+      "lv": "ai peshon"
     },
     "imperfektIndikativ": {
       "de": "er wog",
-      "lv": "Ağırdı"
+      "lv": "ai peshoi"
     },
     "imperfektKonjunktiv": {
       "de": "er wöge",
-      "lv": "Ağırlığı olurdu"
+      "lv": "ai do të peshonte"
     },
     "partizipVergangenheit": {
       "de": "gewogen",
-      "lv": "Ağırlıklı"
+      "lv": "peshuar"
     }
   },
   {
     "infinitiv": {
       "de": "winden",
-      "lv": "Örgü"
+      "lv": "thur"
     },
     "praesens": {
       "de": "er windet",
-      "lv": "On przypina"
+      "lv": "ai thur"
     },
     "imperfektIndikativ": {
       "de": "er wand",
-      "lv": "On zaplata warkocze"
+      "lv": "ai thuri"
     },
     "imperfektKonjunktiv": {
       "de": "er wände",
-      "lv": "Örgü örerdi"
+      "lv": "ai do të thurte"
     },
     "partizipVergangenheit": {
       "de": "gewunden",
-      "lv": "Spleciony"
+      "lv": "thurur"
     }
   },
   {
     "infinitiv": {
       "de": "wissen",
-      "lv": "Dije"
+      "lv": "di"
     },
     "praesens": {
       "de": "er weiß",
-      "lv": "On wie"
+      "lv": "ai di"
     },
     "imperfektIndikativ": {
       "de": "er wusste",
-      "lv": "Wiedział"
+      "lv": "ai diti"
     },
     "imperfektKonjunktiv": {
       "de": "er wüsste",
-      "lv": "O bilirdi"
+      "lv": "ai do të dinte"
     },
     "partizipVergangenheit": {
       "de": "gewusst",
-      "lv": "Znany"
+      "lv": "ditur"
     }
   },
   {
     "infinitiv": {
       "de": "wollen",
-      "lv": "Dua"
+      "lv": "dua"
     },
     "praesens": {
       "de": "er will",
-      "lv": "On chce"
+      "lv": "ai do"
     },
     "imperfektIndikativ": {
       "de": "wollte",
-      "lv": "Istedim"
+      "lv": "ai deshi"
     },
     "imperfektKonjunktiv": {
       "de": "wollte",
-      "lv": "Istedim"
+      "lv": "ai do të donte"
     },
     "partizipVergangenheit": {
       "de": "gewollt",
-      "lv": "Istedim"
+      "lv": "dashur"
     }
   },
   {
     "infinitiv": {
       "de": "wringen",
-      "lv": "Kes/sık"
+      "lv": "shtrydh / shtyp"
     },
     "praesens": {
       "de": "er wringt",
-      "lv": "On wycina"
+      "lv": "ai shtrydh / shtyp"
     },
     "imperfektIndikativ": {
       "de": "wrang",
-      "lv": "Cut"
+      "lv": "ai shtrydhi / shtypi"
     },
     "imperfektKonjunktiv": {
       "de": "wrang",
-      "lv": "Cut"
+      "lv": "ai do të shtrydhte / do të shtypte"
     },
     "partizipVergangenheit": {
       "de": "gewrungen",
-      "lv": "Cut"
+      "lv": "shtrydhur / shtypur"
     }
   },
   {
     "infinitiv": {
       "de": "zeihen",
-      "lv": "Suçlamak"
+      "lv": "fajësoj"
     },
     "praesens": {
       "de": "er zeiht",
-      "lv": "On obwinia"
+      "lv": "ai fajëson"
     },
     "imperfektIndikativ": {
       "de": "zieh",
-      "lv": "Obwiniony"
+      "lv": "ai fajësoi"
     },
     "imperfektKonjunktiv": {
       "de": "zieh",
-      "lv": "Obwiniony"
+      "lv": "ai do të fajësonte"
     },
     "partizipVergangenheit": {
       "de": "geziehen",
-      "lv": "Obwiniony"
+      "lv": "fajësuar"
     }
   },
   {
     "infinitiv": {
       "de": "ziehen",
-      "lv": "Çekmek"
+      "lv": "tërheq"
     },
     "praesens": {
       "de": "er zieht",
-      "lv": "O çeker"
+      "lv": "ai tërheq"
     },
     "imperfektIndikativ": {
       "de": "er zog",
-      "lv": "O çekti"
+      "lv": "ai tërhoqi"
     },
     "imperfektKonjunktiv": {
       "de": "er zöge",
-      "lv": "O çekerdi"
+      "lv": "ai do të tërhiqte"
     },
     "partizipVergangenheit": {
       "de": "gezogen",
-      "lv": "Sürüklendi"
+      "lv": "tërhequr"
     }
   },
   {
     "infinitiv": {
       "de": "zwingen",
-      "lv": "Güç"
+      "lv": "detyroj"
     },
     "praesens": {
       "de": "er zwingt",
-      "lv": "On zmusza"
+      "lv": "ai detyron"
     },
     "imperfektIndikativ": {
       "de": "er zwang",
-      "lv": "Zorlanmış"
+      "lv": "ai detyroi"
     },
     "imperfektKonjunktiv": {
       "de": "er zwänge",
-      "lv": "Zorlamak"
+      "lv": "ai do të detyronte"
     },
     "partizipVergangenheit": {
       "de": "gezwungen",
-      "lv": "Wymuszony"
+      "lv": "detyruar"
     }
   },
   {
     "infinitiv": {
       "de": "empfangen",
-      "lv": "Për të marrë"
+      "lv": "marr"
     },
     "praesens": {
       "de": "er empfängt",
-      "lv": "Otrzymuje"
+      "lv": "ai merr"
     },
     "imperfektIndikativ": {
       "de": "er empfing",
-      "lv": "Kabul edilmiş"
+      "lv": "ai mori"
     },
     "imperfektKonjunktiv": {
       "de": "er empfinge",
-      "lv": "Alacağı"
+      "lv": "ai do të merrte"
     },
     "partizipVergangenheit": {
       "de": "empfangen",
-      "lv": "Otrzymane"
+      "lv": "marrë"
     }
   },
   {
     "infinitiv": {
       "de": "erwägen",
-      "lv": "Dikkate almak"
+      "lv": "shqyrtoj"
     },
     "praesens": {
       "de": "er erwägt",
-      "lv": "Düşünüyor"
+      "lv": "ai shqyrton"
     },
     "imperfektIndikativ": {
       "de": "er erwog",
-      "lv": "Bunu düşündü"
+      "lv": "ai shqyrtoi"
     },
     "imperfektKonjunktiv": {
       "de": "er erwöge",
-      "lv": "Bunu düşünecekti"
+      "lv": "ai do të shqyrtonte"
     },
     "partizipVergangenheit": {
       "de": "erwogen",
-      "lv": "Olarak kabul edilir"
+      "lv": "shqyrtuar"
     }
   },
   {
     "infinitiv": {
       "de": "fechten",
-      "lv": "Kavga"
+      "lv": "luftoj"
     },
     "praesens": {
       "de": "er ficht",
-      "lv": "On walczy"
+      "lv": "ai lufton"
     },
     "imperfektIndikativ": {
       "de": "er focht",
-      "lv": "Savaştı"
+      "lv": "ai luftoi"
     },
     "imperfektKonjunktiv": {
       "de": "er föchte",
-      "lv": "Dövüşecekti"
+      "lv": "ai do të luftonte"
     },
     "partizipVergangenheit": {
       "de": "gefochten",
-      "lv": "Savaştı"
+      "lv": "luftuar"
     }
   },
   {
     "infinitiv": {
       "de": "flechten",
-      "lv": "Örgü"
+      "lv": "gërshetoj"
     },
     "praesens": {
       "de": "er flicht",
-      "lv": "On przypina"
+      "lv": "ai gërsheton"
     },
     "imperfektIndikativ": {
       "de": "er flocht",
-      "lv": "On zaplata warkocze"
+      "lv": "ai gërshetoi"
     },
     "imperfektKonjunktiv": {
       "de": "er flöchte",
-      "lv": "Örgü örerdi"
+      "lv": "ai do të gërshetonte"
     },
     "partizipVergangenheit": {
       "de": "geflochten",
-      "lv": "Spleciony"
+      "lv": "gërshetuar"
     }
   },
   {
     "infinitiv": {
       "de": "hangen",
-      "lv": "Asmak"
+      "lv": "varem"
     },
     "praesens": {
       "de": "er hängt",
-      "lv": "Wisi"
+      "lv": "ai varet"
     },
     "imperfektIndikativ": {
       "de": "er hing",
-      "lv": "Kendini astı"
+      "lv": "ai u var"
     },
     "imperfektKonjunktiv": {
       "de": "er hinge",
-      "lv": "Kendini asacaktı"
+      "lv": "ai do të varej"
     },
     "partizipVergangenheit": {
       "de": "gehangen",
-      "lv": "Dayanıklı"
+      "lv": "varur"
     }
   },
   {
     "infinitiv": {
       "de": "spalten",
-      "lv": "Bölmek"
+      "lv": "çaj"
     },
     "praesens": {
       "de": "er spaltet",
-      "lv": "On dzieli"
+      "lv": "ai çan"
     },
     "imperfektIndikativ": {
       "de": "er spaltete",
-      "lv": "O ayrıldı"
+      "lv": "ai çau"
     },
     "imperfektKonjunktiv": {
       "de": "er spaltete",
-      "lv": "Paylaşmak"
+      "lv": "ai do të çante"
     },
     "partizipVergangenheit": {
       "de": "gespalten",
-      "lv": "Bölüm"
+      "lv": "çarë"
     }
   },
   {
     "infinitiv": {
       "de": "verzeihen",
-      "lv": "Affetmek"
+      "lv": "fal"
     },
     "praesens": {
       "de": "er verzeiht",
-      "lv": "On przebacza"
+      "lv": "ai fal"
     },
     "imperfektIndikativ": {
       "de": "er verzieh",
-      "lv": "Affedildi"
+      "lv": "ai fali"
     },
     "imperfektKonjunktiv": {
       "de": "er verziehe",
-      "lv": "Ai do të kishte falur"
+      "lv": "ai do të falte"
     },
     "partizipVergangenheit": {
       "de": "verziehen",
-      "lv": "Wybaczony"
+      "lv": "falur"
     }
   }
 ];
