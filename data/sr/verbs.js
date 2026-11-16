@@ -2,4137 +2,4137 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "backen",
-      "lv": "Печете"
+      "lv": "peći"
     },
     "praesens": {
       "de": "er bäckt",
-      "lv": "Он печет"
+      "lv": "on peče"
     },
     "imperfektIndikativ": {
       "de": "er buk",
-      "lv": "Он пек"
+      "lv": "on je pekao"
     },
     "imperfektKonjunktiv": {
       "de": "er büke",
-      "lv": "Он бы испек"
+      "lv": "on bi pekao"
     },
     "partizipVergangenheit": {
       "de": "gebacken",
-      "lv": "Жареный/запеченный"
+      "lv": "pečen"
     }
   },
   {
     "infinitiv": {
       "de": "befehlen",
-      "lv": "Команда"
+      "lv": "narediti"
     },
     "praesens": {
       "de": "er befiehlt",
-      "lv": "Он командует"
+      "lv": "on naredi"
     },
     "imperfektIndikativ": {
       "de": "er befahl",
-      "lv": "Он приказал"
+      "lv": "on je naredio"
     },
     "imperfektKonjunktiv": {
       "de": "er beföhle",
-      "lv": "Он будет командовать"
+      "lv": "on bi naredio"
     },
     "partizipVergangenheit": {
       "de": "befohlen",
-      "lv": "Командовал"
+      "lv": "naređen"
     }
   },
   {
     "infinitiv": {
       "de": "beginnen",
-      "lv": "Започнете"
+      "lv": "počinjati"
     },
     "praesens": {
       "de": "er beginnt",
-      "lv": "Он начинает"
+      "lv": "on počinje"
     },
     "imperfektIndikativ": {
       "de": "er begann",
-      "lv": "Он начал"
+      "lv": "on je počinjao"
     },
     "imperfektKonjunktiv": {
       "de": "er begönne / er begänne",
-      "lv": "Он бы начал"
+      "lv": "on bi počinjao"
     },
     "partizipVergangenheit": {
       "de": "begonnen",
-      "lv": "Началось"
+      "lv": "počet"
     }
   },
   {
     "infinitiv": {
       "de": "beißen",
-      "lv": "Кусать"
+      "lv": "gristi"
     },
     "praesens": {
       "de": "er beißt",
-      "lv": "Он кусает"
+      "lv": "on grize"
     },
     "imperfektIndikativ": {
       "de": "er biss",
-      "lv": "Он закодировал"
+      "lv": "on je grizao"
     },
     "imperfektKonjunktiv": {
       "de": "er bisse",
-      "lv": "Он кусает"
+      "lv": "on bi grizao"
     },
     "partizipVergangenheit": {
       "de": "gebissen",
-      "lv": "Укушенный / укушенный"
+      "lv": "ugrizen"
     }
   },
   {
     "infinitiv": {
       "de": "bergen",
-      "lv": "Скрий се"
+      "lv": "spasti / sakriti"
     },
     "praesens": {
       "de": "er birgt",
-      "lv": "Он прячет"
+      "lv": "on spase / sakrije"
     },
     "imperfektIndikativ": {
       "de": "er barg",
-      "lv": "Он спрятался"
+      "lv": "on je spasao / sakrio"
     },
     "imperfektKonjunktiv": {
       "de": "er bürge / er bärge",
-      "lv": "Тој би се сокрил"
+      "lv": "on bi spasao / sakrio"
     },
     "partizipVergangenheit": {
       "de": "geborgen",
-      "lv": "Скрыт/сохранен"
+      "lv": "spasen / sakriven"
     }
   },
   {
     "infinitiv": {
       "de": "bersten",
-      "lv": "Je bil raztrgan"
+      "lv": "pući"
     },
     "praesens": {
       "de": "er birst",
-      "lv": "Он лопается"
+      "lv": "on pukne"
     },
     "imperfektIndikativ": {
       "de": "er barst / er borst",
-      "lv": "Он взорвался"
+      "lv": "on je pukao"
     },
     "imperfektKonjunktiv": {
       "de": "er bärste / er börste",
-      "lv": "Он лопается"
+      "lv": "on bi pukao"
     },
     "partizipVergangenheit": {
       "de": "geborsten (er ist)",
-      "lv": "Скршени"
+      "lv": "pukao"
     }
   },
   {
     "infinitiv": {
       "de": "bewegen",
-      "lv": "Насърчавайте"
+      "lv": "podstaći"
     },
     "praesens": {
       "de": "er bewegt",
-      "lv": "Namiguje"
+      "lv": "on podstakne"
     },
     "imperfektIndikativ": {
       "de": "er bewog",
-      "lv": "Он призвал"
+      "lv": "on je podstakao"
     },
     "imperfektKonjunktiv": {
       "de": "er bewöge",
-      "lv": "Он бы поощрял"
+      "lv": "on bi podstakao"
     },
     "partizipVergangenheit": {
       "de": "bewogen",
-      "lv": "Поощряется"
+      "lv": "podstaknut"
     }
   },
   {
     "infinitiv": {
       "de": "biegen",
-      "lv": "Огъване"
+      "lv": "saviti"
     },
     "praesens": {
       "de": "er biegt",
-      "lv": "Он кланяется"
+      "lv": "on savije"
     },
     "imperfektIndikativ": {
       "de": "er bog",
-      "lv": "Он согнулся"
+      "lv": "on je savio"
     },
     "imperfektKonjunktiv": {
       "de": "er böge",
-      "lv": "Он бы согнулся"
+      "lv": "on bi savio"
     },
     "partizipVergangenheit": {
       "de": "gebogen",
-      "lv": "Согнутый"
+      "lv": "savijen"
     }
   },
   {
     "infinitiv": {
       "de": "bieten",
-      "lv": "Обещать"
+      "lv": "nuditi"
     },
     "praesens": {
       "de": "er bietet",
-      "lv": "Он обещает"
+      "lv": "on nudi"
     },
     "imperfektIndikativ": {
       "de": "er bot",
-      "lv": "Тој вети"
+      "lv": "on je nudio"
     },
     "imperfektKonjunktiv": {
       "de": "er böte",
-      "lv": "Он бы пообещал"
+      "lv": "on bi nudio"
     },
     "partizipVergangenheit": {
       "de": "geboten",
-      "lv": "Обещал/предлагал"
+      "lv": "nuđen"
     }
   },
   {
     "infinitiv": {
       "de": "binden",
-      "lv": "Сито"
+      "lv": "vezati"
     },
     "praesens": {
       "de": "er bindet",
-      "lv": "Тој сено"
+      "lv": "on veže"
     },
     "imperfektIndikativ": {
       "de": "er band",
-      "lv": "Он посеял"
+      "lv": "on je vezao"
     },
     "imperfektKonjunktiv": {
       "de": "er bände",
-      "lv": "Он просеял"
+      "lv": "on bi vezao"
     },
     "partizipVergangenheit": {
       "de": "gebunden",
-      "lv": "Сито"
+      "lv": "vezan"
     }
   },
   {
     "infinitiv": {
       "de": "bitten",
-      "lv": "Zovi"
+      "lv": "moliti"
     },
     "praesens": {
       "de": "er bittet",
-      "lv": "Он умоляет"
+      "lv": "on moli"
     },
     "imperfektIndikativ": {
       "de": "er bat",
-      "lv": "Он спросил"
+      "lv": "on je molio"
     },
     "imperfektKonjunktiv": {
       "de": "er bäte",
-      "lv": "Он будет молиться"
+      "lv": "on bi molio"
     },
     "partizipVergangenheit": {
       "de": "gebeten",
-      "lv": "Просил"
+      "lv": "moljen"
     }
   },
   {
     "infinitiv": {
       "de": "blasen",
-      "lv": "Јас дувам"
+      "lv": "duvati"
     },
     "praesens": {
       "de": "er bläst",
-      "lv": "Он дует"
+      "lv": "on duva"
     },
     "imperfektIndikativ": {
       "de": "er blies",
-      "lv": "Он дул"
+      "lv": "on je duvao"
     },
     "imperfektKonjunktiv": {
       "de": "er bliese",
-      "lv": "Он бы взорвал"
+      "lv": "on bi duvao"
     },
     "partizipVergangenheit": {
       "de": "geblasen",
-      "lv": "Експлодираше"
+      "lv": "duvan"
     }
   },
   {
     "infinitiv": {
       "de": "gären",
-      "lv": "Скитам се"
+      "lv": "vreti"
     },
     "praesens": {
       "de": "es gärt",
-      "lv": "Оно бродит"
+      "lv": "ono vri"
     },
     "imperfektIndikativ": {
       "de": "es gor / es gärte",
-      "lv": "Оно бродит"
+      "lv": "ono je vrelo"
     },
     "imperfektKonjunktiv": {
       "de": "es göre / es gärte",
-      "lv": "Было бы горько"
+      "lv": "ono bi vrelo"
     },
     "partizipVergangenheit": {
       "de": "gegoren / gegärt",
-      "lv": "Ръж"
+      "lv": "vreo"
     }
   },
   {
     "infinitiv": {
       "de": "gebären",
-      "lv": "Раждам"
+      "lv": "roditi"
     },
     "praesens": {
       "de": "sie gebiert",
-      "lv": "В ее утробе"
+      "lv": "ona rodi"
     },
     "imperfektIndikativ": {
       "de": "sie gebar",
-      "lv": "Она родила"
+      "lv": "ona je rodila"
     },
     "imperfektKonjunktiv": {
       "de": "sie gebäre",
-      "lv": "Она бы родила"
+      "lv": "ona bi rodila"
     },
     "partizipVergangenheit": {
       "de": "geboren",
-      "lv": "Родился / родился"
+      "lv": "rođen"
     }
   },
   {
     "infinitiv": {
       "de": "gelingen",
-      "lv": "Ja sam sretan"
+      "lv": "uspeti"
     },
     "praesens": {
       "de": "es gelingt",
-      "lv": "Это удается"
+      "lv": "ono uspe"
     },
     "imperfektIndikativ": {
       "de": "es gelang",
-      "lv": "Это сработало"
+      "lv": "ono je uspelo"
     },
     "imperfektKonjunktiv": {
       "de": "es gelänge",
-      "lv": "Это сработает"
+      "lv": "ono bi uspelo"
     },
     "partizipVergangenheit": {
       "de": "gelungen (es ist)",
-      "lv": "Тоа функционираше"
+      "lv": "uspeo"
     }
   },
   {
     "infinitiv": {
       "de": "gelten",
-      "lv": "Пригодится"
+      "lv": "važiti / biti na snazi"
     },
     "praesens": {
       "de": "er gilt",
-      "lv": "Он подходит / действителен"
+      "lv": "on važi / je na snazi"
     },
     "imperfektIndikativ": {
       "de": "er galt",
-      "lv": "Он подходил / был в форме"
+      "lv": "on je važio / bio na snazi"
     },
     "imperfektKonjunktiv": {
       "de": "er gölte / es gälte",
-      "lv": "Он подойдет / оно подойдет"
+      "lv": "on bi važio / bio na snazi"
     },
     "partizipVergangenheit": {
       "de": "gegolten",
-      "lv": "Применён/был действителен"
+      "lv": "važio / bio na snazi"
     }
   },
   {
     "infinitiv": {
       "de": "genesen",
-      "lv": "Выздоравливать"
+      "lv": "ozdraviti"
     },
     "praesens": {
       "de": "er genest",
-      "lv": "Popravlja"
+      "lv": "on ozdravi"
     },
     "imperfektIndikativ": {
       "de": "er genas",
-      "lv": "Он поправился"
+      "lv": "on je ozdravio"
     },
     "imperfektKonjunktiv": {
       "de": "er genäse",
-      "lv": "Он выздоровеет"
+      "lv": "on bi ozdravio"
     },
     "partizipVergangenheit": {
       "de": "genesen (er ist)",
-      "lv": "Поправляйся"
+      "lv": "ozdravio"
     }
   },
   {
     "infinitiv": {
       "de": "genießen",
-      "lv": "Насладете се"
+      "lv": "uživati"
     },
     "praesens": {
       "de": "er genießt",
-      "lv": "Ему нравится"
+      "lv": "on uživa"
     },
     "imperfektIndikativ": {
       "de": "er genoss",
-      "lv": "Ему понравилось"
+      "lv": "on je uživao"
     },
     "imperfektKonjunktiv": {
       "de": "er genösse",
-      "lv": "Ему бы понравилось"
+      "lv": "on bi uživao"
     },
     "partizipVergangenheit": {
       "de": "genossen",
-      "lv": "Наслаждался"
+      "lv": "uživao"
     }
   },
   {
     "infinitiv": {
       "de": "geschehen",
-      "lv": "Случи се"
+      "lv": "desiti se"
     },
     "praesens": {
       "de": "es geschieht",
-      "lv": "Такое случается"
+      "lv": "ono se desi"
     },
     "imperfektIndikativ": {
       "de": "es geschah",
-      "lv": "Это случилось"
+      "lv": "ono se desilo"
     },
     "imperfektKonjunktiv": {
       "de": "es geschähe",
-      "lv": "Это произойдет"
+      "lv": "ono bi se desilo"
     },
     "partizipVergangenheit": {
       "de": "geschehen (es ist)",
-      "lv": "Случилось"
+      "lv": "desio se"
     }
   },
   {
     "infinitiv": {
       "de": "gießen",
-      "lv": "Лейтенант"
+      "lv": "sipati"
     },
     "praesens": {
       "de": "er gießt",
-      "lv": "Он наливает"
+      "lv": "on sipa"
     },
     "imperfektIndikativ": {
       "de": "er goss",
-      "lv": "Он налил"
+      "lv": "on je sipao"
     },
     "imperfektKonjunktiv": {
       "de": "er gösse",
-      "lv": "Он идет дождь"
+      "lv": "on bi sipao"
     },
     "partizipVergangenheit": {
       "de": "gegossen",
-      "lv": "Нешто"
+      "lv": "sipan"
     }
   },
   {
     "infinitiv": {
       "de": "gleichen",
-      "lv": "Бъдете като"
+      "lv": "ličiti"
     },
     "praesens": {
       "de": "er gleicht",
-      "lv": "Он похож"
+      "lv": "on liči"
     },
     "imperfektIndikativ": {
       "de": "er glich",
-      "lv": "Он подражал"
+      "lv": "on je ličio"
     },
     "imperfektKonjunktiv": {
       "de": "er gliche",
-      "lv": "Он будет подражать"
+      "lv": "on bi ličio"
     },
     "partizipVergangenheit": {
       "de": "geglichen",
-      "lv": "Напоминал"
+      "lv": "ličio"
     }
   },
   {
     "infinitiv": {
       "de": "gleiten",
-      "lv": "Слајд"
+      "lv": "kliziti"
     },
     "praesens": {
       "de": "er gleitet",
-      "lv": "Он скользит"
+      "lv": "on klizi"
     },
     "imperfektIndikativ": {
       "de": "er glitt",
-      "lv": "Он скользил"
+      "lv": "on je klizio"
     },
     "imperfektKonjunktiv": {
       "de": "er glitte",
-      "lv": "Он будет скользить"
+      "lv": "on bi klizio"
     },
     "partizipVergangenheit": {
       "de": "geglitten (er ist)",
-      "lv": "Поскользнулся"
+      "lv": "klizio"
     }
   },
   {
     "infinitiv": {
       "de": "glimmen",
-      "lv": "Светящийся"
+      "lv": "tinjati"
     },
     "praesens": {
       "de": "er glimmt",
-      "lv": "Он светится"
+      "lv": "on tinja"
     },
     "imperfektIndikativ": {
       "de": "er glimmte / glomm",
-      "lv": "Он светился"
+      "lv": "on je tinjao"
     },
     "imperfektKonjunktiv": {
       "de": "er glimmte",
-      "lv": "Он будет светиться"
+      "lv": "on bi tinjao"
     },
     "partizipVergangenheit": {
       "de": "geglimmt / geglommen",
-      "lv": "Светящийся"
+      "lv": "tinjao"
     }
   },
   {
     "infinitiv": {
       "de": "graben",
-      "lv": "Копајте"
+      "lv": "kopati"
     },
     "praesens": {
       "de": "er gräbt",
-      "lv": "Он копает"
+      "lv": "on kopa"
     },
     "imperfektIndikativ": {
       "de": "er grub",
-      "lv": "Он выкопал"
+      "lv": "on je kopao"
     },
     "imperfektKonjunktiv": {
       "de": "er grübe",
-      "lv": "Он будет копать"
+      "lv": "on bi kopao"
     },
     "partizipVergangenheit": {
       "de": "gegraben",
-      "lv": "Копајте"
+      "lv": "kopan"
     }
   },
   {
     "infinitiv": {
       "de": "greifen",
-      "lv": "Улов"
+      "lv": "zgrabiti"
     },
     "praesens": {
       "de": "er greift",
-      "lv": "Он ловит"
+      "lv": "on zgrabi"
     },
     "imperfektIndikativ": {
       "de": "er griff",
-      "lv": "Тој фати"
+      "lv": "on je zgrabio"
     },
     "imperfektKonjunktiv": {
       "de": "er griffe",
-      "lv": "Он бы поймал"
+      "lv": "on bi zgrabio"
     },
     "partizipVergangenheit": {
       "de": "gegriffen",
-      "lv": "Поймал / схватил"
+      "lv": "zgrabljen"
     }
   },
   {
     "infinitiv": {
       "de": "hauen",
-      "lv": "Исечете"
+      "lv": "seći"
     },
     "praesens": {
       "de": "er haut",
-      "lv": "Он выбрал"
+      "lv": "on seče"
     },
     "imperfektIndikativ": {
       "de": "er hieb",
-      "lv": "Он огрызнулся"
+      "lv": "on je sekao"
     },
     "imperfektKonjunktiv": {
       "de": "er hiebe",
-      "lv": "Ќе пресечеше"
+      "lv": "on bi sekao"
     },
     "partizipVergangenheit": {
       "de": "gehauen",
-      "lv": "Резной"
+      "lv": "sečen"
     }
   },
   {
     "infinitiv": {
       "de": "heben",
-      "lv": "Javi se"
+      "lv": "podići"
     },
     "praesens": {
       "de": "er hebt",
-      "lv": "Тој подига"
+      "lv": "on podigne"
     },
     "imperfektIndikativ": {
       "de": "er hob",
-      "lv": "Он принес"
+      "lv": "on je podigao"
     },
     "imperfektKonjunktiv": {
       "de": "er höbe",
-      "lv": "Он бы построил"
+      "lv": "on bi podigao"
     },
     "partizipVergangenheit": {
       "de": "gehoben",
-      "lv": "Построен"
+      "lv": "podignut"
     }
   },
   {
     "infinitiv": {
       "de": "kennen",
-      "lv": "Знать / знать"
+      "lv": "poznavati / znati"
     },
     "praesens": {
       "de": "er kennt",
-      "lv": "Он знает"
+      "lv": "on poznaje / zna"
     },
     "imperfektIndikativ": {
       "de": "kannte",
-      "lv": "Знал"
+      "lv": "on je poznavao / znao"
     },
     "imperfektKonjunktiv": {
       "de": "kannte",
-      "lv": "Знал"
+      "lv": "on bi poznavao / znao"
     },
     "partizipVergangenheit": {
       "de": "gekannt",
-      "lv": "Запознанство"
+      "lv": "poznat / znan"
     }
   },
   {
     "infinitiv": {
       "de": "klingen",
-      "lv": "Звук"
+      "lv": "zvučati"
     },
     "praesens": {
       "de": "er klingt",
-      "lv": "Он звучит"
+      "lv": "on zvuči"
     },
     "imperfektIndikativ": {
       "de": "er klang",
-      "lv": "Он звучал"
+      "lv": "on je zvučao"
     },
     "imperfektKonjunktiv": {
       "de": "er klänge",
-      "lv": "Он будет звучать"
+      "lv": "on bi zvučao"
     },
     "partizipVergangenheit": {
       "de": "geklungen",
-      "lv": "Звучало"
+      "lv": "zvučao"
     }
   },
   {
     "infinitiv": {
       "de": "kneifen",
-      "lv": "Клип"
+      "lv": "štipati"
     },
     "praesens": {
       "de": "er kneift",
-      "lv": "Он шутит"
+      "lv": "on štipa"
     },
     "imperfektIndikativ": {
       "de": "er kniff",
-      "lv": "Он ущипнул"
+      "lv": "on je štipao"
     },
     "imperfektKonjunktiv": {
       "de": "er kniffe",
-      "lv": "Он бы ущипнул"
+      "lv": "on bi štipao"
     },
     "partizipVergangenheit": {
       "de": "gekniffen",
-      "lv": "Защемлен"
+      "lv": "uštinut"
     }
   },
   {
     "infinitiv": {
       "de": "bleiben",
-      "lv": "Остани"
+      "lv": "ostati"
     },
     "praesens": {
       "de": "er bleibt",
-      "lv": "Он остается"
+      "lv": "on ostane"
     },
     "imperfektIndikativ": {
       "de": "er blieb",
-      "lv": "Он остался"
+      "lv": "on je ostao"
     },
     "imperfektKonjunktiv": {
       "de": "er bliebe",
-      "lv": "Он останется"
+      "lv": "on bi ostao"
     },
     "partizipVergangenheit": {
       "de": "geblieben (er ist)",
-      "lv": "Левый"
+      "lv": "ostao"
     }
   },
   {
     "infinitiv": {
       "de": "bleichen",
-      "lv": "Отбеливать"
+      "lv": "izbledeti"
     },
     "praesens": {
       "de": "er bleicht",
-      "lv": "Он отбеливает"
+      "lv": "on izbledi"
     },
     "imperfektIndikativ": {
       "de": "blich",
-      "lv": "Отбеленный"
+      "lv": "on je izbledeo"
     },
     "imperfektKonjunktiv": {
       "de": "blich",
-      "lv": "Отбеленный"
+      "lv": "on bi izbledeo"
     },
     "partizipVergangenheit": {
       "de": "geblichen",
-      "lv": "Отбеленный"
+      "lv": "izbledeo"
     }
   },
   {
     "infinitiv": {
       "de": "braten",
-      "lv": "Печете"
+      "lv": "pržiti"
     },
     "praesens": {
       "de": "er brät",
-      "lv": "Он печет"
+      "lv": "on prži"
     },
     "imperfektIndikativ": {
       "de": "er briet",
-      "lv": "Он пек"
+      "lv": "on je pržio"
     },
     "imperfektKonjunktiv": {
       "de": "er briete",
-      "lv": "Он бы испек"
+      "lv": "on bi pržio"
     },
     "partizipVergangenheit": {
       "de": "gebraten",
-      "lv": "Жареный/запеченный"
+      "lv": "pržen"
     }
   },
   {
     "infinitiv": {
       "de": "brechen",
-      "lv": "Почивка"
+      "lv": "slomiti"
     },
     "praesens": {
       "de": "er bricht",
-      "lv": "Он ломается"
+      "lv": "on slomi"
     },
     "imperfektIndikativ": {
       "de": "er brach",
-      "lv": "Он сломался"
+      "lv": "on je slomio"
     },
     "imperfektKonjunktiv": {
       "de": "er bräche",
-      "lv": "Он бы сломался"
+      "lv": "on bi slomio"
     },
     "partizipVergangenheit": {
       "de": "gebrochen",
-      "lv": "Сломанный / сломанный"
+      "lv": "slomljen"
     }
   },
   {
     "infinitiv": {
       "de": "brennen",
-      "lv": "Изгори"
+      "lv": "goreti"
     },
     "praesens": {
       "de": "er brennt",
-      "lv": "Он в огне"
+      "lv": "on gori"
     },
     "imperfektIndikativ": {
       "de": "brannte",
-      "lv": "Горел"
+      "lv": "on je goreo"
     },
     "imperfektKonjunktiv": {
       "de": "brannte",
-      "lv": "Горел"
+      "lv": "on bi goreo"
     },
     "partizipVergangenheit": {
       "de": "gebrannt",
-      "lv": "Сожженный"
+      "lv": "goreo"
     }
   },
   {
     "infinitiv": {
       "de": "bringen",
-      "lv": "Носете"
+      "lv": "doneti"
     },
     "praesens": {
       "de": "er bringt",
-      "lv": "Он несет"
+      "lv": "on donese"
     },
     "imperfektIndikativ": {
       "de": "er brachte",
-      "lv": "Nadlegoval je"
+      "lv": "on je doneo"
     },
     "imperfektKonjunktiv": {
       "de": "er brächte",
-      "lv": "Он будет нести"
+      "lv": "on bi doneo"
     },
     "partizipVergangenheit": {
       "de": "gebracht",
-      "lv": "Принес / принес"
+      "lv": "donet"
     }
   },
   {
     "infinitiv": {
       "de": "denken",
-      "lv": "Hajde momci. Razmisli o tome."
+      "lv": "misliti"
     },
     "praesens": {
       "de": "er denkt",
-      "lv": "Он думает"
+      "lv": "on misli"
     },
     "imperfektIndikativ": {
       "de": "er dachte",
-      "lv": "Он думал"
+      "lv": "on je mislio"
     },
     "imperfektKonjunktiv": {
       "de": "er dächte",
-      "lv": "Он подумает"
+      "lv": "on bi mislio"
     },
     "partizipVergangenheit": {
       "de": "gedacht",
-      "lv": "Намеревался"
+      "lv": "mišljen"
     }
   },
   {
     "infinitiv": {
       "de": "dingen",
-      "lv": "Нанимать/согласовывать"
+      "lv": "unajmiti / dogovoriti se"
     },
     "praesens": {
       "de": "er dingt",
-      "lv": "Он нанимает"
+      "lv": "on unajmi / se dogovori"
     },
     "imperfektIndikativ": {
       "de": "dingte",
-      "lv": "Наемный"
+      "lv": "on je unajmio / se dogovorio"
     },
     "imperfektKonjunktiv": {
       "de": "dingte",
-      "lv": "Наемный"
+      "lv": "on bi unajmio / se dogovorio"
     },
     "partizipVergangenheit": {
       "de": "gedungen",
-      "lv": "Наемный"
+      "lv": "unajmljen / dogovorio se"
     }
   },
   {
     "infinitiv": {
       "de": "dreschen",
-      "lv": "Култ"
+      "lv": "vršiti"
     },
     "praesens": {
       "de": "er drischt",
-      "lv": "Тој меле"
+      "lv": "on vrši"
     },
     "imperfektIndikativ": {
       "de": "er drasch / er drosch",
-      "lv": "Он молотил"
+      "lv": "on je vršio"
     },
     "imperfektKonjunktiv": {
       "de": "er dräsche / er drösche",
-      "lv": "Priklanja se"
+      "lv": "on bi vršio"
     },
     "partizipVergangenheit": {
       "de": "gedroschen",
-      "lv": "Култ"
+      "lv": "vršen"
     }
   },
   {
     "infinitiv": {
       "de": "dringen",
-      "lv": "Разбийте се"
+      "lv": "prodirati"
     },
     "praesens": {
       "de": "er dringt",
-      "lv": "Он врывается"
+      "lv": "on prodire"
     },
     "imperfektIndikativ": {
       "de": "er drang",
-      "lv": "Он ворвался"
+      "lv": "on je prodirao"
     },
     "imperfektKonjunktiv": {
       "de": "er dränge",
-      "lv": "Он бы вломился"
+      "lv": "on bi prodirao"
     },
     "partizipVergangenheit": {
       "de": "gedrungen (er ist)",
-      "lv": "Побрзаа во"
+      "lv": "prodirao"
     }
   },
   {
     "infinitiv": {
       "de": "dünken",
-      "lv": "Изглежда"
+      "lv": "činiti se"
     },
     "praesens": {
       "de": "es dünkt",
-      "lv": "Изглежда"
+      "lv": "ono se čini"
     },
     "imperfektIndikativ": {
       "de": "deuchte",
-      "lv": "Казалось"
+      "lv": "ono se činilo"
     },
     "imperfektKonjunktiv": {
       "de": "deuchte",
-      "lv": "Казалось"
+      "lv": "ono bi se činilo"
     },
     "partizipVergangenheit": {
       "de": "gedünkt",
-      "lv": "Казалось"
+      "lv": "činio se"
     }
   },
   {
     "infinitiv": {
       "de": "dürfen",
-      "lv": "Ќе биде дозволено"
+      "lv": "smeti"
     },
     "praesens": {
       "de": "er darf",
-      "lv": "Он может"
+      "lv": "on sme"
     },
     "imperfektIndikativ": {
       "de": "durfte",
-      "lv": "Было разрешено"
+      "lv": "on je smeo"
     },
     "imperfektKonjunktiv": {
       "de": "durfte",
-      "lv": "Было разрешено"
+      "lv": "on bi smeo"
     },
     "partizipVergangenheit": {
       "de": "gedurft",
-      "lv": "Допустимый"
+      "lv": "smeo"
     }
   },
   {
     "infinitiv": {
       "de": "empfehlen",
-      "lv": "Препорачај"
+      "lv": "preporučiti"
     },
     "praesens": {
       "de": "er empfiehlt",
-      "lv": "Он предлагает"
+      "lv": "on preporuči"
     },
     "imperfektIndikativ": {
       "de": "er empfahl",
-      "lv": "Он предложил"
+      "lv": "on je preporučio"
     },
     "imperfektKonjunktiv": {
       "de": "er empfähle / er empföhle",
-      "lv": "Он бы порекомендовал"
+      "lv": "on bi preporučio"
     },
     "partizipVergangenheit": {
       "de": "empfohlen",
-      "lv": "Рекомендуется"
+      "lv": "preporučen"
     }
   },
   {
     "infinitiv": {
       "de": "empfinden",
-      "lv": "Почувствайте"
+      "lv": "osećati"
     },
     "praesens": {
       "de": "er empfindet",
-      "lv": "Он чувствует"
+      "lv": "on oseća"
     },
     "imperfektIndikativ": {
       "de": "er empfand",
-      "lv": "Он чувствовал"
+      "lv": "on je osećao"
     },
     "imperfektKonjunktiv": {
       "de": "er empfände",
-      "lv": "Он бы почувствовал"
+      "lv": "on bi osećao"
     },
     "partizipVergangenheit": {
       "de": "empfunden",
-      "lv": "Чувствовал себя"
+      "lv": "osećan"
     }
   },
   {
     "infinitiv": {
       "de": "erlöschen",
-      "lv": "Исчезает"
+      "lv": "ugasiti se"
     },
     "praesens": {
       "de": "er erlischt",
-      "lv": "Он выходит"
+      "lv": "on se ugasi"
     },
     "imperfektIndikativ": {
       "de": "er erlosch",
-      "lv": "Он вышел"
+      "lv": "on se ugasio"
     },
     "imperfektKonjunktiv": {
       "de": "er erlösche",
-      "lv": "Тој ќе исчезне"
+      "lv": "on bi se ugasio"
     },
     "partizipVergangenheit": {
       "de": "erloschen (er ist)",
-      "lv": "Потухший"
+      "lv": "ugasio se"
     }
   },
   {
     "infinitiv": {
       "de": "erschrecken",
-      "lv": "Объркайте се"
+      "lv": "uplašiti se"
     },
     "praesens": {
       "de": "er erschrickt",
-      "lv": "Он пугается"
+      "lv": "on se uplaši"
     },
     "imperfektIndikativ": {
       "de": "er erschrak",
-      "lv": "Он испугался"
+      "lv": "on se uplašio"
     },
     "imperfektKonjunktiv": {
       "de": "er erschräke",
-      "lv": "Он бы сошел с ума"
+      "lv": "on bi se uplašio"
     },
     "partizipVergangenheit": {
       "de": "erschrocken (er ist)",
-      "lv": "Уплашен"
+      "lv": "uplašio se"
     }
   },
   {
     "infinitiv": {
       "de": "essen",
-      "lv": "Яжте"
+      "lv": "jesti"
     },
     "praesens": {
       "de": "er isst",
-      "lv": "Он ест"
+      "lv": "on jede"
     },
     "imperfektIndikativ": {
       "de": "er ass",
-      "lv": "Он ел"
+      "lv": "on je jeo"
     },
     "imperfektKonjunktiv": {
       "de": "er äße",
-      "lv": "Он бы съел"
+      "lv": "on bi jeo"
     },
     "partizipVergangenheit": {
       "de": "gegessen",
-      "lv": "Съел / съел"
+      "lv": "jeden"
     }
   },
   {
     "infinitiv": {
       "de": "fahren",
-      "lv": "Возам автомобил"
+      "lv": "voziti"
     },
     "praesens": {
       "de": "er fährt",
-      "lv": "Он водит"
+      "lv": "on vozi"
     },
     "imperfektIndikativ": {
       "de": "er fuhr",
-      "lv": "Он ехал"
+      "lv": "on je vozio"
     },
     "imperfektKonjunktiv": {
       "de": "er führe",
-      "lv": "Тој ќе ја вози колата"
+      "lv": "on bi vozio"
     },
     "partizipVergangenheit": {
       "de": "gefahren (er ist)",
-      "lv": "Поехал/уехал"
+      "lv": "vozio"
     }
   },
   {
     "infinitiv": {
       "de": "fallen",
-      "lv": "Паѓање"
+      "lv": "pasti"
     },
     "praesens": {
       "de": "er fällt",
-      "lv": "Он падает"
+      "lv": "on padne"
     },
     "imperfektIndikativ": {
       "de": "er fiel",
-      "lv": "Он упал"
+      "lv": "on je pao"
     },
     "imperfektKonjunktiv": {
       "de": "er fiele",
-      "lv": "Он упадет"
+      "lv": "on bi pao"
     },
     "partizipVergangenheit": {
       "de": "gefallen (er ist)",
-      "lv": "Падна"
+      "lv": "pao"
     }
   },
   {
     "infinitiv": {
       "de": "fangen",
-      "lv": "Улов"
+      "lv": "hvatati"
     },
     "praesens": {
       "de": "er fängt",
-      "lv": "Он ловит"
+      "lv": "on hvata"
     },
     "imperfektIndikativ": {
       "de": "er fing",
-      "lv": "Тој фати"
+      "lv": "on je hvatao"
     },
     "imperfektKonjunktiv": {
       "de": "er finge",
-      "lv": "Он бы поймал"
+      "lv": "on bi hvatao"
     },
     "partizipVergangenheit": {
       "de": "gefangen",
-      "lv": "Пойман / пойман"
+      "lv": "hvatan"
     }
   },
   {
     "infinitiv": {
       "de": "finden",
-      "lv": "Намерете"
+      "lv": "naći"
     },
     "praesens": {
       "de": "er findet",
-      "lv": "Он находит"
+      "lv": "on nađe"
     },
     "imperfektIndikativ": {
       "de": "er fand",
-      "lv": "Тој најде"
+      "lv": "on je našao"
     },
     "imperfektKonjunktiv": {
       "de": "er fände",
-      "lv": "Он найдет"
+      "lv": "on bi našao"
     },
     "partizipVergangenheit": {
       "de": "gefunden",
-      "lv": "Пронајден"
+      "lv": "nađen"
     }
   },
   {
     "infinitiv": {
       "de": "fliegen",
-      "lv": "Пушти"
+      "lv": "leteti"
     },
     "praesens": {
       "de": "er fliegt",
-      "lv": "Он летает"
+      "lv": "on leti"
     },
     "imperfektIndikativ": {
       "de": "er flog",
-      "lv": "Na letaku"
+      "lv": "on je leteo"
     },
     "imperfektKonjunktiv": {
       "de": "er flöge",
-      "lv": "Он бы летал"
+      "lv": "on bi leteo"
     },
     "partizipVergangenheit": {
       "de": "geflogen (er ist)",
-      "lv": "Пролетел"
+      "lv": "leteo"
     }
   },
   {
     "infinitiv": {
       "de": "fliehen",
-      "lv": "Бягайте"
+      "lv": "bežati"
     },
     "praesens": {
       "de": "er flieht",
-      "lv": "Он убегает"
+      "lv": "on beži"
     },
     "imperfektIndikativ": {
       "de": "er floh",
-      "lv": "Он убежал"
+      "lv": "on je bežao"
     },
     "imperfektKonjunktiv": {
       "de": "er flöhe",
-      "lv": "Он бы убежал"
+      "lv": "on bi bežao"
     },
     "partizipVergangenheit": {
       "de": "geflohen (er ist)",
-      "lv": "Убежал"
+      "lv": "bežao"
     }
   },
   {
     "infinitiv": {
       "de": "fließen",
-      "lv": "Поток"
+      "lv": "teći"
     },
     "praesens": {
       "de": "er fließt",
-      "lv": "Он бежит"
+      "lv": "on teče"
     },
     "imperfektIndikativ": {
       "de": "er floss",
-      "lv": "Он побежал"
+      "lv": "on je tekao"
     },
     "imperfektKonjunktiv": {
       "de": "er flösse",
-      "lv": "Он побежит"
+      "lv": "on bi tekao"
     },
     "partizipVergangenheit": {
       "de": "geflossen (er ist)",
-      "lv": "Прошедший"
+      "lv": "tekao"
     }
   },
   {
     "infinitiv": {
       "de": "fressen",
-      "lv": "Esté d 'avtra"
+      "lv": "jesti / žderati"
     },
     "praesens": {
       "de": "er frisst",
-      "lv": "Он ест/глотает"
+      "lv": "on jede / ždere"
     },
     "imperfektIndikativ": {
       "de": "er frass",
-      "lv": "Он съел/проглотил"
+      "lv": "on je jeo / žderao"
     },
     "imperfektKonjunktiv": {
       "de": "er fräße",
-      "lv": "Он ел/завтракал"
+      "lv": "on bi jeo / žderao"
     },
     "partizipVergangenheit": {
       "de": "gefressen",
-      "lv": "Съел/утро"
+      "lv": "jeden / žderan"
     }
   },
   {
     "infinitiv": {
       "de": "frieren",
-      "lv": "Hladno."
+      "lv": "smrzavati se"
     },
     "praesens": {
       "de": "er friert",
-      "lv": "Он замерзает"
+      "lv": "on se smrzava"
     },
     "imperfektIndikativ": {
       "de": "er fror",
-      "lv": "Он остров"
+      "lv": "on se smrzavao"
     },
     "imperfektKonjunktiv": {
       "de": "er fröre",
-      "lv": "Он замерз"
+      "lv": "on bi se smrzavao"
     },
     "partizipVergangenheit": {
       "de": "gefroren",
-      "lv": "Остров"
+      "lv": "smrzavao se"
     }
   },
   {
     "infinitiv": {
       "de": "geben",
-      "lv": "Дайте"
+      "lv": "davati"
     },
     "praesens": {
       "de": "er gibt",
-      "lv": "Он дает"
+      "lv": "on daje"
     },
     "imperfektIndikativ": {
       "de": "er gab",
-      "lv": "Он дал"
+      "lv": "on je davao"
     },
     "imperfektKonjunktiv": {
       "de": "er gäbe",
-      "lv": "Он бы дал"
+      "lv": "on bi davao"
     },
     "partizipVergangenheit": {
       "de": "gegeben",
-      "lv": "Данный"
+      "lv": "davan"
     }
   },
   {
     "infinitiv": {
       "de": "gedeihen",
-      "lv": "Ja sam sretan"
+      "lv": "napredovati"
     },
     "praesens": {
       "de": "er gedeiht",
-      "lv": "Ему это удается"
+      "lv": "on napreduje"
     },
     "imperfektIndikativ": {
       "de": "er gedieh",
-      "lv": "Ему удалось"
+      "lv": "on je napredovao"
     },
     "imperfektKonjunktiv": {
       "de": "er gediehe",
-      "lv": "Он добьется успеха"
+      "lv": "on bi napredovao"
     },
     "partizipVergangenheit": {
       "de": "gediehen (er ist)",
-      "lv": "Тоа функционираше"
+      "lv": "napredovao"
     }
   },
   {
     "infinitiv": {
       "de": "gehen",
-      "lv": "Vʺrvi"
+      "lv": "ići"
     },
     "praesens": {
       "de": "er geht",
-      "lv": "Он идет"
+      "lv": "on ide"
     },
     "imperfektIndikativ": {
       "de": "er ging",
-      "lv": "Он шел"
+      "lv": "on je išao"
     },
     "imperfektKonjunktiv": {
       "de": "er ginge",
-      "lv": "Он бы пошел"
+      "lv": "on bi išao"
     },
     "partizipVergangenheit": {
       "de": "gegangen (er ist)",
-      "lv": "Шел"
+      "lv": "išao"
     }
   },
   {
     "infinitiv": {
       "de": "gewinnen",
-      "lv": "Чтобы получить"
+      "lv": "osvojiti"
     },
     "praesens": {
       "de": "er gewinnt",
-      "lv": "Он получает"
+      "lv": "on osvoji"
     },
     "imperfektIndikativ": {
       "de": "er gewann",
-      "lv": "Он получил"
+      "lv": "on je osvojio"
     },
     "imperfektKonjunktiv": {
       "de": "er gewönne / er gewänne",
-      "lv": "Он получит"
+      "lv": "on bi osvojio"
     },
     "partizipVergangenheit": {
       "de": "gewonnen",
-      "lv": "Полученный"
+      "lv": "osvojen"
     }
   },
   {
     "infinitiv": {
       "de": "haben",
-      "lv": "Да се ​​биде / да припаѓа"
+      "lv": "imati"
     },
     "praesens": {
       "de": "er hat",
-      "lv": "Тој го има"
+      "lv": "on ima"
     },
     "imperfektIndikativ": {
       "de": "hatte",
-      "lv": "Тој беше"
+      "lv": "on je imao"
     },
     "imperfektKonjunktiv": {
       "de": "hatte",
-      "lv": "Тој беше"
+      "lv": "on bi imao"
     },
     "partizipVergangenheit": {
       "de": "gehabt",
-      "lv": "Тој беше"
+      "lv": "imao"
     }
   },
   {
     "infinitiv": {
       "de": "halten",
-      "lv": "Задръжте"
+      "lv": "držati"
     },
     "praesens": {
       "de": "er hält",
-      "lv": "Он там"
+      "lv": "on drži"
     },
     "imperfektIndikativ": {
       "de": "er hielt",
-      "lv": "Он держал"
+      "lv": "on je držao"
     },
     "imperfektKonjunktiv": {
       "de": "er hielte",
-      "lv": "Он будет держать"
+      "lv": "on bi držao"
     },
     "partizipVergangenheit": {
       "de": "gehalten",
-      "lv": "Держал"
+      "lv": "držan"
     }
   },
   {
     "infinitiv": {
       "de": "heißen",
-      "lv": "Јавете ми се"
+      "lv": "zvati / zvati se"
     },
     "praesens": {
       "de": "er heißt",
-      "lv": "Он звонит / ему звонят"
+      "lv": "on zove / se zove"
     },
     "imperfektIndikativ": {
       "de": "er hieß",
-      "lv": "Он позвонил / ему позвонили"
+      "lv": "on je zvao / se zvao"
     },
     "imperfektKonjunktiv": {
       "de": "er hieße",
-      "lv": "Он позвонит / ему позвонят"
+      "lv": "on bi zvao / se zvao"
     },
     "partizipVergangenheit": {
       "de": "geheißen",
-      "lv": "Называется"
+      "lv": "zvan / zvao se"
     }
   },
   {
     "infinitiv": {
       "de": "helfen",
-      "lv": "Upomoć"
+      "lv": "pomagati"
     },
     "praesens": {
       "de": "er hilft",
-      "lv": "Он помогает"
+      "lv": "on pomaže"
     },
     "imperfektIndikativ": {
       "de": "er half",
-      "lv": "Он помог"
+      "lv": "on je pomagao"
     },
     "imperfektKonjunktiv": {
       "de": "er hülfe / er hälfe",
-      "lv": "Он бы помог"
+      "lv": "on bi pomagao"
     },
     "partizipVergangenheit": {
       "de": "geholfen",
-      "lv": "Помог"
+      "lv": "pomagao"
     }
   },
   {
     "infinitiv": {
       "de": "kommen",
-      "lv": "Ела"
+      "lv": "dolaziti"
     },
     "praesens": {
       "de": "er kommt",
-      "lv": "Он идет"
+      "lv": "on dolazi"
     },
     "imperfektIndikativ": {
       "de": "er kam",
-      "lv": "Он пришел"
+      "lv": "on je dolazio"
     },
     "imperfektKonjunktiv": {
       "de": "er käme",
-      "lv": "Он придет"
+      "lv": "on bi dolazio"
     },
     "partizipVergangenheit": {
       "de": "gekommen (er ist)",
-      "lv": "Пришел"
+      "lv": "dolazio"
     }
   },
   {
     "infinitiv": {
       "de": "können",
-      "lv": "Бидете во можност да"
+      "lv": "moći"
     },
     "praesens": {
       "de": "er kann",
-      "lv": "Он может"
+      "lv": "on može"
     },
     "imperfektIndikativ": {
       "de": "konnte",
-      "lv": "Мог"
+      "lv": "on je mogao"
     },
     "imperfektKonjunktiv": {
       "de": "konnte",
-      "lv": "Мог"
+      "lv": "on bi mogao"
     },
     "partizipVergangenheit": {
       "de": "gekonnt",
-      "lv": "Мог"
+      "lv": "mogao"
     }
   },
   {
     "infinitiv": {
       "de": "kriechen",
-      "lv": "Врне дожд"
+      "lv": "puziti"
     },
     "praesens": {
       "de": "er kriecht",
-      "lv": "Nagne se noter"
+      "lv": "on puzi"
     },
     "imperfektIndikativ": {
       "de": "er kroch",
-      "lv": "Он шел дождь"
+      "lv": "on je puzio"
     },
     "imperfektKonjunktiv": {
       "de": "er kröche",
-      "lv": "Он идет дождь"
+      "lv": "on bi puzio"
     },
     "partizipVergangenheit": {
       "de": "gekrochen (er ist)",
-      "lv": "Скончался"
+      "lv": "puzio"
     }
   },
   {
     "infinitiv": {
       "de": "laden",
-      "lv": "Загрузить, пригласить"
+      "lv": "tovariti / pozivati"
     },
     "praesens": {
       "de": "er lädt",
-      "lv": "Он наваливает/приглашает"
+      "lv": "on tovari / poziva"
     },
     "imperfektIndikativ": {
       "de": "er lud",
-      "lv": "Он загрузил/пригласил"
+      "lv": "on je tovario / pozivao"
     },
     "imperfektKonjunktiv": {
       "de": "er lüde",
-      "lv": "Он бы загрузил/пригласил"
+      "lv": "on bi tovario / pozivao"
     },
     "partizipVergangenheit": {
       "de": "geladen",
-      "lv": "Загружен/приглашен"
+      "lv": "tovaren / pozivan"
     }
   },
   {
     "infinitiv": {
       "de": "lassen",
-      "lv": "Положить, позволить"
+      "lv": "narediti / pustiti"
     },
     "praesens": {
       "de": "er lässt",
-      "lv": "Он ставит/позволяет"
+      "lv": "on naredi / pusti"
     },
     "imperfektIndikativ": {
       "de": "er ließ",
-      "lv": "Он приказал/разрешил"
+      "lv": "on je naredio / pustio"
     },
     "imperfektKonjunktiv": {
       "de": "er ließe",
-      "lv": "Opravil/-a je / dovolil"
+      "lv": "on bi naredio / pustio"
     },
     "partizipVergangenheit": {
       "de": "gelassen",
-      "lv": "Поставить/разрешить"
+      "lv": "naređen / pušten"
     }
   },
   {
     "infinitiv": {
       "de": "laufen",
-      "lv": "Бягай"
+      "lv": "trčati"
     },
     "praesens": {
       "de": "er läuft",
-      "lv": "Он бежит"
+      "lv": "on trči"
     },
     "imperfektIndikativ": {
       "de": "er lief",
-      "lv": "Он побежал"
+      "lv": "on je trčao"
     },
     "imperfektKonjunktiv": {
       "de": "er liefe",
-      "lv": "Он побежит"
+      "lv": "on bi trčao"
     },
     "partizipVergangenheit": {
       "de": "gelaufen (er ist)",
-      "lv": "Побежал"
+      "lv": "trčao"
     }
   },
   {
     "infinitiv": {
       "de": "leiden",
-      "lv": "Страдам"
+      "lv": "patiti"
     },
     "praesens": {
       "de": "er leidet",
-      "lv": "Он страдает"
+      "lv": "on pati"
     },
     "imperfektIndikativ": {
       "de": "er litt",
-      "lv": "Он страдал"
+      "lv": "on je patio"
     },
     "imperfektKonjunktiv": {
       "de": "er litte",
-      "lv": "Он будет страдать"
+      "lv": "on bi patio"
     },
     "partizipVergangenheit": {
       "de": "gelitten",
-      "lv": "Пострадал"
+      "lv": "patio"
     }
   },
   {
     "infinitiv": {
       "de": "leihen",
-      "lv": "Zajam/Pozajmica"
+      "lv": "pozajmiti / uzajmiti"
     },
     "praesens": {
       "de": "er leiht",
-      "lv": "Он одалживает / берет взаймы"
+      "lv": "on pozajmi / uzajmi"
     },
     "imperfektIndikativ": {
       "de": "er lieh",
-      "lv": "Он одолжил / взял взаймы"
+      "lv": "on je pozajmio / uzajmio"
     },
     "imperfektKonjunktiv": {
       "de": "er liehe",
-      "lv": "Он одолжил/одолжил бы"
+      "lv": "on bi pozajmio / uzajmio"
     },
     "partizipVergangenheit": {
       "de": "geliehen",
-      "lv": "Позајмен/позајмен"
+      "lv": "pozajmljen / uzajmljen"
     }
   },
   {
     "infinitiv": {
       "de": "lesen",
-      "lv": "Прочетете"
+      "lv": "čitati"
     },
     "praesens": {
       "de": "er liest",
-      "lv": "Он читает"
+      "lv": "on čita"
     },
     "imperfektIndikativ": {
       "de": "er las",
-      "lv": "Он читал"
+      "lv": "on je čitao"
     },
     "imperfektKonjunktiv": {
       "de": "er läse",
-      "lv": "Тој ќе чита"
+      "lv": "on bi čitao"
     },
     "partizipVergangenheit": {
       "de": "gelesen",
-      "lv": "Прочетете"
+      "lv": "čitan"
     }
   },
   {
     "infinitiv": {
       "de": "liegen",
-      "lv": "Сън"
+      "lv": "ležati"
     },
     "praesens": {
       "de": "er liegt",
-      "lv": "Он спит"
+      "lv": "on leži"
     },
     "imperfektIndikativ": {
       "de": "er lag",
-      "lv": "Он спал"
+      "lv": "on je ležao"
     },
     "imperfektKonjunktiv": {
       "de": "er läge",
-      "lv": "Он будет спать"
+      "lv": "on bi ležao"
     },
     "partizipVergangenheit": {
       "de": "gelegen",
-      "lv": "Спал"
+      "lv": "ležao"
     }
   },
   {
     "infinitiv": {
       "de": "lügen",
-      "lv": "Лъжа"
+      "lv": "lagati"
     },
     "praesens": {
       "de": "er lügt",
-      "lv": "Он лжет"
+      "lv": "on laže"
     },
     "imperfektIndikativ": {
       "de": "er log",
-      "lv": "Тој излажа"
+      "lv": "on je lagao"
     },
     "imperfektKonjunktiv": {
       "de": "er löge",
-      "lv": "Он бы солгал"
+      "lv": "on bi lagao"
     },
     "partizipVergangenheit": {
       "de": "gelogen",
-      "lv": "Солгал"
+      "lv": "lagao"
     }
   },
   {
     "infinitiv": {
       "de": "mahlen",
-      "lv": "Zemlja"
+      "lv": "mleti"
     },
     "praesens": {
       "de": "er mahlt",
-      "lv": "Он шлифует"
+      "lv": "on melje"
     },
     "imperfektIndikativ": {
       "de": "er mahlte",
-      "lv": "Он край"
+      "lv": "on je mleo"
     },
     "imperfektKonjunktiv": {
       "de": "er malte",
-      "lv": "Он шлифует"
+      "lv": "on bi mleo"
     },
     "partizipVergangenheit": {
       "de": "gemahlen",
-      "lv": "Zemlja"
+      "lv": "mleven"
     }
   },
   {
     "infinitiv": {
       "de": "meiden",
-      "lv": "Избягвайте"
+      "lv": "izbegavati"
     },
     "praesens": {
       "de": "er meidet",
-      "lv": "Он избегает"
+      "lv": "on izbegava"
     },
     "imperfektIndikativ": {
       "de": "er mied",
-      "lv": "Он избегал"
+      "lv": "on je izbegavao"
     },
     "imperfektKonjunktiv": {
       "de": "er miede",
-      "lv": "Он бы избегал"
+      "lv": "on bi izbegavao"
     },
     "partizipVergangenheit": {
       "de": "gemieden",
-      "lv": "Избегал"
+      "lv": "izbegavan"
     }
   },
   {
     "infinitiv": {
       "de": "melken",
-      "lv": "Мляко"
+      "lv": "musti"
     },
     "praesens": {
       "de": "er milkt / er melkt",
-      "lv": "Он подметает"
+      "lv": "on muze"
     },
     "imperfektIndikativ": {
       "de": "er molk / er melkte",
-      "lv": "Он подметал"
+      "lv": "on je muzao"
     },
     "imperfektKonjunktiv": {
       "de": "er mölke / er melkte",
-      "lv": "Он будет доить"
+      "lv": "on bi muzao"
     },
     "partizipVergangenheit": {
       "de": "gemolken / gemelkt",
-      "lv": "Доил"
+      "lv": "muzen"
     }
   },
   {
     "infinitiv": {
       "de": "messen",
-      "lv": "Измерете"
+      "lv": "meriti"
     },
     "praesens": {
       "de": "er misst",
-      "lv": "Он измеряет"
+      "lv": "on meri"
     },
     "imperfektIndikativ": {
       "de": "er mass",
-      "lv": "Izmeril je"
+      "lv": "on je merio"
     },
     "imperfektKonjunktiv": {
       "de": "er mäße",
-      "lv": "Он бы измерил"
+      "lv": "on bi merio"
     },
     "partizipVergangenheit": {
       "de": "gemessen",
-      "lv": "Измеренный"
+      "lv": "meren"
     }
   },
   {
     "infinitiv": {
       "de": "misslingen",
-      "lv": "Провалят се"
+      "lv": "propasti"
     },
     "praesens": {
       "de": "es misslingt",
-      "lv": "Это терпит неудачу"
+      "lv": "ono propadne"
     },
     "imperfektIndikativ": {
       "de": "misslang",
-      "lv": "Неуспешный"
+      "lv": "ono je propalo"
     },
     "imperfektKonjunktiv": {
       "de": "misslang",
-      "lv": "Неуспешный"
+      "lv": "ono bi propalo"
     },
     "partizipVergangenheit": {
       "de": "misslungen",
-      "lv": "Неуспешный"
+      "lv": "propao"
     }
   },
   {
     "infinitiv": {
       "de": "mögen",
-      "lv": "Sviđa mi se"
+      "lv": "voleti"
     },
     "praesens": {
       "de": "er mag",
-      "lv": "Ему нравится"
+      "lv": "on voli"
     },
     "imperfektIndikativ": {
       "de": "mochte",
-      "lv": "Понравилось"
+      "lv": "on je voleo"
     },
     "imperfektKonjunktiv": {
       "de": "mochte",
-      "lv": "Понравилось"
+      "lv": "on bi voleo"
     },
     "partizipVergangenheit": {
       "de": "gemocht",
-      "lv": "Понравилось"
+      "lv": "voljen"
     }
   },
   {
     "infinitiv": {
       "de": "müssen",
-      "lv": "Потреба"
+      "lv": "morati"
     },
     "praesens": {
       "de": "er muss",
-      "lv": "Ему нужен"
+      "lv": "on mora"
     },
     "imperfektIndikativ": {
       "de": "musste",
-      "lv": "Должен был иметь"
+      "lv": "on je morao"
     },
     "imperfektKonjunktiv": {
       "de": "musste",
-      "lv": "Должен был иметь"
+      "lv": "on bi morao"
     },
     "partizipVergangenheit": {
       "de": "gemusst",
-      "lv": "Нужный"
+      "lv": "morao"
     }
   },
   {
     "infinitiv": {
       "de": "nehmen",
-      "lv": "-Res?"
+      "lv": "uzimati"
     },
     "praesens": {
       "de": "er nimmt",
-      "lv": "Na baretki"
+      "lv": "on uzima"
     },
     "imperfektIndikativ": {
       "de": "er nahm",
-      "lv": "Он взял"
+      "lv": "on je uzimao"
     },
     "imperfektKonjunktiv": {
       "de": "er nähme",
-      "lv": "Он бы взял"
+      "lv": "on bi uzimao"
     },
     "partizipVergangenheit": {
       "de": "genommen",
-      "lv": "Взятый"
+      "lv": "uziman"
     }
   },
   {
     "infinitiv": {
       "de": "nennen",
-      "lv": "Ime"
+      "lv": "nazvati"
     },
     "praesens": {
       "de": "er nennt",
-      "lv": "Он назвал"
+      "lv": "on nazove"
     },
     "imperfektIndikativ": {
       "de": "er nannte",
-      "lv": "Он позвонил"
+      "lv": "on je nazvao"
     },
     "imperfektKonjunktiv": {
       "de": "er nennte",
-      "lv": "Он бы назвал"
+      "lv": "on bi nazvao"
     },
     "partizipVergangenheit": {
       "de": "genannt",
-      "lv": "Названный"
+      "lv": "nazvan"
     }
   },
   {
     "infinitiv": {
       "de": "pfeifen",
-      "lv": "Свистеть"
+      "lv": "zviždati"
     },
     "praesens": {
       "de": "er pfeift",
-      "lv": "Он свистит"
+      "lv": "on zviždi"
     },
     "imperfektIndikativ": {
       "de": "er pfiff",
-      "lv": "Он свистнул"
+      "lv": "on je zviždao"
     },
     "imperfektKonjunktiv": {
       "de": "er pfiffe",
-      "lv": "Он свистнул бы"
+      "lv": "on bi zviždao"
     },
     "partizipVergangenheit": {
       "de": "gepfiffen",
-      "lv": "Свистнул"
+      "lv": "zviždao"
     }
   },
   {
     "infinitiv": {
       "de": "pflegen",
-      "lv": "Поддръжка"
+      "lv": "negovati"
     },
     "praesens": {
       "de": "er pflegt",
-      "lv": "Он заботится"
+      "lv": "on neguje"
     },
     "imperfektIndikativ": {
       "de": "pflegte / pflog",
-      "lv": "Набор"
+      "lv": "on je negovao"
     },
     "imperfektKonjunktiv": {
       "de": "pflegte / pflog",
-      "lv": "Набор"
+      "lv": "on bi negovao"
     },
     "partizipVergangenheit": {
       "de": "gepflegt / gepflogen",
-      "lv": "Ухоженный"
+      "lv": "negovan"
     }
   },
   {
     "infinitiv": {
       "de": "preisen",
-      "lv": "Хвала"
+      "lv": "hvaliti"
     },
     "praesens": {
       "de": "er preist",
-      "lv": "Он хвалит"
+      "lv": "on hvali"
     },
     "imperfektIndikativ": {
       "de": "er pries",
-      "lv": "Он похвалил"
+      "lv": "on je hvalio"
     },
     "imperfektKonjunktiv": {
       "de": "er priese",
-      "lv": "Он бы похвалил"
+      "lv": "on bi hvalio"
     },
     "partizipVergangenheit": {
       "de": "gepriesen",
-      "lv": "Хвалил"
+      "lv": "hvaljen"
     }
   },
   {
     "infinitiv": {
       "de": "quellen",
-      "lv": "Пухнуть"
+      "lv": "bubriti"
     },
     "praesens": {
       "de": "er quillt",
-      "lv": "Он толстеет"
+      "lv": "on bubri"
     },
     "imperfektIndikativ": {
       "de": "er quoll",
-      "lv": "Тој порасна"
+      "lv": "on je bubrio"
     },
     "imperfektKonjunktiv": {
       "de": "er quölle",
-      "lv": "Он толстый"
+      "lv": "on bi bubrio"
     },
     "partizipVergangenheit": {
       "de": "gequollen (er ist)",
-      "lv": "Вздутый"
+      "lv": "bubrio"
     }
   },
   {
     "infinitiv": {
       "de": "raten",
-      "lv": "Предложить / упомянуть"
+      "lv": "savetovati / pogađati"
     },
     "praesens": {
       "de": "er rät",
-      "lv": "Тој препорачува / мин"
+      "lv": "on savetuje / pogađa"
     },
     "imperfektIndikativ": {
       "de": "er riet",
-      "lv": "Он предложил/предложил"
+      "lv": "on je savetovao / pogađao"
     },
     "imperfektKonjunktiv": {
       "de": "er riete",
-      "lv": "Тој би предложил / спомнал"
+      "lv": "on bi savetovao / pogađao"
     },
     "partizipVergangenheit": {
       "de": "geraten",
-      "lv": "Предложил/упомянул"
+      "lv": "savetovan / pogađan"
     }
   },
   {
     "infinitiv": {
       "de": "reiben",
-      "lv": "Разтрийте"
+      "lv": "trljati"
     },
     "praesens": {
       "de": "er reibt",
-      "lv": "Он трет"
+      "lv": "on trlja"
     },
     "imperfektIndikativ": {
       "de": "er rieb",
-      "lv": "Он трет"
+      "lv": "on je trljao"
     },
     "imperfektKonjunktiv": {
       "de": "er riebe",
-      "lv": "Он будет тереть"
+      "lv": "on bi trljao"
     },
     "partizipVergangenheit": {
       "de": "gerieben",
-      "lv": "Потертый"
+      "lv": "trljan"
     }
   },
   {
     "infinitiv": {
       "de": "reißen",
-      "lv": "Издърпайте"
+      "lv": "kidati"
     },
     "praesens": {
       "de": "er reißt",
-      "lv": "Он щелкает"
+      "lv": "on kida"
     },
     "imperfektIndikativ": {
       "de": "er riss",
-      "lv": "Он огрызнулся"
+      "lv": "on je kidao"
     },
     "imperfektKonjunktiv": {
       "de": "er risse",
-      "lv": "Он огрызнулся"
+      "lv": "on bi kidao"
     },
     "partizipVergangenheit": {
       "de": "gerissen",
-      "lv": "Neurejeno"
+      "lv": "kidan"
     }
   },
   {
     "infinitiv": {
       "de": "reiten",
-      "lv": "Карай"
+      "lv": "jahati"
     },
     "praesens": {
       "de": "er reitet",
-      "lv": "Он едет"
+      "lv": "on jaše"
     },
     "imperfektIndikativ": {
       "de": "er ritt",
-      "lv": "Он ехал"
+      "lv": "on je jahao"
     },
     "imperfektKonjunktiv": {
       "de": "er ritte",
-      "lv": "Он будет кататься"
+      "lv": "on bi jahao"
     },
     "partizipVergangenheit": {
       "de": "geritten (er ist)",
-      "lv": "Ехал"
+      "lv": "jahao"
     }
   },
   {
     "infinitiv": {
       "de": "rennen",
-      "lv": "Бягай"
+      "lv": "trčati"
     },
     "praesens": {
       "de": "er rennt",
-      "lv": "Он бежит"
+      "lv": "on trči"
     },
     "imperfektIndikativ": {
       "de": "er rannte",
-      "lv": "Он побежал"
+      "lv": "on je trčao"
     },
     "imperfektKonjunktiv": {
       "de": "er rennte",
-      "lv": "Он побежит"
+      "lv": "on bi trčao"
     },
     "partizipVergangenheit": {
       "de": "gerannt",
-      "lv": "Побежал"
+      "lv": "trčao"
     }
   },
   {
     "infinitiv": {
       "de": "riechen",
-      "lv": "Ост"
+      "lv": "mirisati"
     },
     "praesens": {
       "de": "er riecht",
-      "lv": "Он пахнет"
+      "lv": "on miriše"
     },
     "imperfektIndikativ": {
       "de": "er roch",
-      "lv": "Он поет"
+      "lv": "on je mirisao"
     },
     "imperfektKonjunktiv": {
       "de": "er röche",
-      "lv": "Он портирует"
+      "lv": "on bi mirisao"
     },
     "partizipVergangenheit": {
       "de": "gerochen",
-      "lv": "Порт"
+      "lv": "mirisao"
     }
   },
   {
     "infinitiv": {
       "de": "ringen",
-      "lv": "Почивка"
+      "lv": "rvati se"
     },
     "praesens": {
       "de": "er ringt",
-      "lv": "Он ломается"
+      "lv": "on se rve"
     },
     "imperfektIndikativ": {
       "de": "er rang",
-      "lv": "Он сломался"
+      "lv": "on se rvao"
     },
     "imperfektKonjunktiv": {
       "de": "er ränge",
-      "lv": "Он бы сломался"
+      "lv": "on bi se rvao"
     },
     "partizipVergangenheit": {
       "de": "gerungen",
-      "lv": "- Čekaj."
+      "lv": "rvao se"
     }
   },
   {
     "infinitiv": {
       "de": "rinnen",
-      "lv": "Поток"
+      "lv": "teći"
     },
     "praesens": {
       "de": "er rinnt",
-      "lv": "Он бежит"
+      "lv": "on teče"
     },
     "imperfektIndikativ": {
       "de": "er rann",
-      "lv": "Он побежал"
+      "lv": "on je tekao"
     },
     "imperfektKonjunktiv": {
       "de": "er ränne / er rönne",
-      "lv": "Он побежит"
+      "lv": "on bi tekao"
     },
     "partizipVergangenheit": {
       "de": "geronnen (er ist)",
-      "lv": "Потекло/свернулось"
+      "lv": "tekao"
     }
   },
   {
     "infinitiv": {
       "de": "rufen",
-      "lv": "Јавете ми се"
+      "lv": "zvati"
     },
     "praesens": {
       "de": "er ruft",
-      "lv": "Он звонит"
+      "lv": "on zove"
     },
     "imperfektIndikativ": {
       "de": "er rief",
-      "lv": "Он позвонил"
+      "lv": "on je zvao"
     },
     "imperfektKonjunktiv": {
       "de": "er riefe",
-      "lv": "Он позвонит"
+      "lv": "on bi zvao"
     },
     "partizipVergangenheit": {
       "de": "gerufen",
-      "lv": "Называется"
+      "lv": "zvan"
     }
   },
   {
     "infinitiv": {
       "de": "salzen",
-      "lv": "Сол"
+      "lv": "soliti"
     },
     "praesens": {
       "de": "er salzt",
-      "lv": "Он посолил"
+      "lv": "on soli"
     },
     "imperfektIndikativ": {
       "de": "er salzte",
-      "lv": "Он посолил"
+      "lv": "on je solio"
     },
     "imperfektKonjunktiv": {
       "de": "er salzte",
-      "lv": "Он бы посолил"
+      "lv": "on bi solio"
     },
     "partizipVergangenheit": {
       "de": "gesalzen",
-      "lv": "Соленый"
+      "lv": "soljen"
     }
   },
   {
     "infinitiv": {
       "de": "saufen",
-      "lv": "Сушить/пить"
+      "lv": "lokati / piti"
     },
     "praesens": {
       "de": "er säuft",
-      "lv": "Он пьет/пьет"
+      "lv": "on loče / pije"
     },
     "imperfektIndikativ": {
       "de": "er soff",
-      "lv": "Он пил / пил"
+      "lv": "on je lokao / pio"
     },
     "imperfektKonjunktiv": {
       "de": "er söffe",
-      "lv": "Он бы выпил / выпил"
+      "lv": "on bi lokao / pio"
     },
     "partizipVergangenheit": {
       "de": "gesoffen",
-      "lv": "Пиян"
+      "lv": "lokan / pijen"
     }
   },
   {
     "infinitiv": {
       "de": "saugen",
-      "lv": "Цицај"
+      "lv": "sisati"
     },
     "praesens": {
       "de": "er saugt",
-      "lv": "Он отстой"
+      "lv": "on siše"
     },
     "imperfektIndikativ": {
       "de": "er sog",
-      "lv": "Он отстой"
+      "lv": "on je sisao"
     },
     "imperfektKonjunktiv": {
       "de": "er söge",
-      "lv": "Он будет отстой"
+      "lv": "on bi sisao"
     },
     "partizipVergangenheit": {
       "de": "gesogen",
-      "lv": "Ostanki"
+      "lv": "isisan"
     }
   },
   {
     "infinitiv": {
       "de": "schaffen",
-      "lv": "Създавайте"
+      "lv": "stvoriti"
     },
     "praesens": {
       "de": "er schafft",
-      "lv": "Тој создава"
+      "lv": "on stvori"
     },
     "imperfektIndikativ": {
       "de": "er schuf",
-      "lv": "Он создал"
+      "lv": "on je stvorio"
     },
     "imperfektKonjunktiv": {
       "de": "er schüfe",
-      "lv": "Тој би создал"
+      "lv": "on bi stvorio"
     },
     "partizipVergangenheit": {
       "de": "geschaffen",
-      "lv": "Созданный"
+      "lv": "stvoren"
     }
   },
   {
     "infinitiv": {
       "de": "schallen",
-      "lv": "Звук"
+      "lv": "odjekivati"
     },
     "praesens": {
       "de": "es schallt",
-      "lv": "Это звучит"
+      "lv": "ono odjekuje"
     },
     "imperfektIndikativ": {
       "de": "schallte / scholl",
-      "lv": "Звучало"
+      "lv": "ono je odjekivalo"
     },
     "imperfektKonjunktiv": {
       "de": "schallte / scholl",
-      "lv": "Звучало"
+      "lv": "ono bi odjekivalo"
     },
     "partizipVergangenheit": {
       "de": "geschallt",
-      "lv": "Звучало"
+      "lv": "odjekivao"
     }
   },
   {
     "infinitiv": {
       "de": "scheiden",
-      "lv": "Развод/расставание"
+      "lv": "razdvojiti / razvesti se"
     },
     "praesens": {
       "de": "er scheidet",
-      "lv": "Он разводится / разводится"
+      "lv": "on razdvoji / se razvede"
     },
     "imperfektIndikativ": {
       "de": "er schied",
-      "lv": "Он развелся / развелся"
+      "lv": "on je razdvojio / se razveo"
     },
     "imperfektKonjunktiv": {
       "de": "er schiede",
-      "lv": "Он бы развелся/развёлся"
+      "lv": "on bi razdvojio / se razveo"
     },
     "partizipVergangenheit": {
       "de": "geschieden (er hat / er ist)",
-      "lv": "Расстались/разведены"
+      "lv": "razdvojen / razveo se"
     }
   },
   {
     "infinitiv": {
       "de": "scheinen",
-      "lv": "Блясък/поява"
+      "lv": "sijati / činiti se"
     },
     "praesens": {
       "de": "er scheint",
-      "lv": "Он сияет/кажется"
+      "lv": "on sija / se čini"
     },
     "imperfektIndikativ": {
       "de": "er schien",
-      "lv": "Он сиял/казался"
+      "lv": "on je sijao / se činio"
     },
     "imperfektKonjunktiv": {
       "de": "er schiene",
-      "lv": "Он будет сиять / казаться"
+      "lv": "on bi sijao / se činio"
     },
     "partizipVergangenheit": {
       "de": "geschienen",
-      "lv": "Светился/казался"
+      "lv": "sijao / činio se"
     }
   },
   {
     "infinitiv": {
       "de": "schelten",
-      "lv": "Барт"
+      "lv": "grditi"
     },
     "praesens": {
       "de": "er schilt",
-      "lv": "Он ругает"
+      "lv": "on grdi"
     },
     "imperfektIndikativ": {
       "de": "er schalt",
-      "lv": "Он запретил"
+      "lv": "on je grdio"
     },
     "imperfektKonjunktiv": {
       "de": "er schölte / er schälte",
-      "lv": "Он бреется"
+      "lv": "on bi grdio"
     },
     "partizipVergangenheit": {
       "de": "gescholten",
-      "lv": "Брада"
+      "lv": "grđen"
     }
   },
   {
     "infinitiv": {
       "de": "scheren",
-      "lv": "Исечете"
+      "lv": "strići"
     },
     "praesens": {
       "de": "er schert",
-      "lv": "Он режет"
+      "lv": "on striže"
     },
     "imperfektIndikativ": {
       "de": "schor / scherte",
-      "lv": "Ножици"
+      "lv": "on je strigao"
     },
     "imperfektKonjunktiv": {
       "de": "schor / scherte",
-      "lv": "Ножици"
+      "lv": "on bi strigao"
     },
     "partizipVergangenheit": {
       "de": "geschoren / geschert",
-      "lv": "Обрезанный"
+      "lv": "strižen"
     }
   },
   {
     "infinitiv": {
       "de": "schieben",
-      "lv": "Бутане"
+      "lv": "gurati"
     },
     "praesens": {
       "de": "er schiebt",
-      "lv": "Он толкает"
+      "lv": "on gura"
     },
     "imperfektIndikativ": {
       "de": "er schob",
-      "lv": "Он толкнул"
+      "lv": "on je gurao"
     },
     "imperfektKonjunktiv": {
       "de": "er schöbe",
-      "lv": "Он бы подтолкнул"
+      "lv": "on bi gurao"
     },
     "partizipVergangenheit": {
       "de": "geschoben",
-      "lv": "Толкнул"
+      "lv": "guran"
     }
   },
   {
     "infinitiv": {
       "de": "schießen",
-      "lv": "Огън"
+      "lv": "pucati"
     },
     "praesens": {
       "de": "er schießt",
-      "lv": "Он стреляет"
+      "lv": "on puca"
     },
     "imperfektIndikativ": {
       "de": "er schoss",
-      "lv": "Тој пукал"
+      "lv": "on je pucao"
     },
     "imperfektKonjunktiv": {
       "de": "er schösse",
-      "lv": "Он бы выстрелил"
+      "lv": "on bi pucao"
     },
     "partizipVergangenheit": {
       "de": "geschossen",
-      "lv": "Застрелян"
+      "lv": "pucao"
     }
   },
   {
     "infinitiv": {
       "de": "schinden",
-      "lv": "Изтезание"
+      "lv": "mučiti"
     },
     "praesens": {
       "de": "er schindet",
-      "lv": "On je baraba."
+      "lv": "on muči"
     },
     "imperfektIndikativ": {
       "de": "schindete",
-      "lv": "Изтощен"
+      "lv": "on je mučio"
     },
     "imperfektKonjunktiv": {
       "de": "schindete",
-      "lv": "Изтощен"
+      "lv": "on bi mučio"
     },
     "partizipVergangenheit": {
       "de": "geschunden",
-      "lv": "Изтощен"
+      "lv": "mučen"
     }
   },
   {
     "infinitiv": {
       "de": "schlafen",
-      "lv": "Сън"
+      "lv": "spavati"
     },
     "praesens": {
       "de": "er schläft",
-      "lv": "Он спит"
+      "lv": "on spava"
     },
     "imperfektIndikativ": {
       "de": "er schlief",
-      "lv": "Он спал"
+      "lv": "on je spavao"
     },
     "imperfektKonjunktiv": {
       "de": "er schliefe",
-      "lv": "Он будет спать"
+      "lv": "on bi spavao"
     },
     "partizipVergangenheit": {
       "de": "geschlafen",
-      "lv": "Спал"
+      "lv": "spavao"
     }
   },
   {
     "infinitiv": {
       "de": "schlagen",
-      "lv": "Хит"
+      "lv": "udariti"
     },
     "praesens": {
       "de": "er schlägt",
-      "lv": "Он бьет"
+      "lv": "on udari"
     },
     "imperfektIndikativ": {
       "de": "er schlug",
-      "lv": "Он ударил"
+      "lv": "on je udario"
     },
     "imperfektKonjunktiv": {
       "de": "er schlüge",
-      "lv": "Он бы ударил"
+      "lv": "on bi udario"
     },
     "partizipVergangenheit": {
       "de": "geschlagen",
-      "lv": "Избитый"
+      "lv": "udaren"
     }
   },
   {
     "infinitiv": {
       "de": "schleichen",
-      "lv": "Врне дожд"
+      "lv": "šunjati se"
     },
     "praesens": {
       "de": "er schleicht",
-      "lv": "Nagne se noter"
+      "lv": "on se šunja"
     },
     "imperfektIndikativ": {
       "de": "er schlich",
-      "lv": "Он шел дождь"
+      "lv": "on se šunjao"
     },
     "imperfektKonjunktiv": {
       "de": "er schliche",
-      "lv": "Он идет дождь"
+      "lv": "on bi se šunjao"
     },
     "partizipVergangenheit": {
       "de": "geschlichen (er ist)",
-      "lv": "Скончался"
+      "lv": "šunjao se"
     }
   },
   {
     "infinitiv": {
       "de": "schleifen",
-      "lv": "Смелете"
+      "lv": "brusiti"
     },
     "praesens": {
       "de": "er schleift",
-      "lv": "Он шлифует"
+      "lv": "on brusi"
     },
     "imperfektIndikativ": {
       "de": "er schliff",
-      "lv": "Он измельчал"
+      "lv": "on je brusio"
     },
     "imperfektKonjunktiv": {
       "de": "er schliffe",
-      "lv": "Он будет измельчать"
+      "lv": "on bi brusio"
     },
     "partizipVergangenheit": {
       "de": "geschliffen",
-      "lv": "Полированный"
+      "lv": "brušen"
     }
   },
   {
     "infinitiv": {
       "de": "schließen",
-      "lv": "Zapri"
+      "lv": "zatvoriti"
     },
     "praesens": {
       "de": "er schließt",
-      "lv": "Он закрывает"
+      "lv": "on zatvori"
     },
     "imperfektIndikativ": {
       "de": "er schloss",
-      "lv": "Он закрылся"
+      "lv": "on je zatvorio"
     },
     "imperfektKonjunktiv": {
       "de": "er schlösse",
-      "lv": "Он бы закрылся"
+      "lv": "on bi zatvorio"
     },
     "partizipVergangenheit": {
       "de": "geschlossen",
-      "lv": "Затворено"
+      "lv": "zatvoren"
     }
   },
   {
     "infinitiv": {
       "de": "schlingen",
-      "lv": "Утре"
+      "lv": "gutati"
     },
     "praesens": {
       "de": "er schlingt",
-      "lv": "Он глотает"
+      "lv": "on guta"
     },
     "imperfektIndikativ": {
       "de": "er schlang",
-      "lv": "Тој проголта"
+      "lv": "on je gutao"
     },
     "imperfektKonjunktiv": {
       "de": "er schlänge",
-      "lv": "Он утром"
+      "lv": "on bi gutao"
     },
     "partizipVergangenheit": {
       "de": "geschlungen",
-      "lv": "-Takoj zjutraj."
+      "lv": "progutan"
     }
   },
   {
     "infinitiv": {
       "de": "schmeißen",
-      "lv": "Хвърли"
+      "lv": "bacati"
     },
     "praesens": {
       "de": "er schmeißt",
-      "lv": "Он бросает"
+      "lv": "on baca"
     },
     "imperfektIndikativ": {
       "de": "er schmiss",
-      "lv": "Он бросил"
+      "lv": "on je bacao"
     },
     "imperfektKonjunktiv": {
       "de": "er schmisse",
-      "lv": "Он бросил"
+      "lv": "on bi bacao"
     },
     "partizipVergangenheit": {
       "de": "geschmissen",
-      "lv": "Брошенный"
+      "lv": "bacan"
     }
   },
   {
     "infinitiv": {
       "de": "schmelzen",
-      "lv": "Premakni"
+      "lv": "topiti se"
     },
     "praesens": {
       "de": "er schmilzt",
-      "lv": "Он тает"
+      "lv": "on se topi"
     },
     "imperfektIndikativ": {
       "de": "er schmolz",
-      "lv": "Он застонал"
+      "lv": "on se topio"
     },
     "imperfektKonjunktiv": {
       "de": "er schmölze",
-      "lv": "Он двигался"
+      "lv": "on bi se topio"
     },
     "partizipVergangenheit": {
       "de": "geschmolzen (er ist)",
-      "lv": "Растопен"
+      "lv": "topio se"
     }
   },
   {
     "infinitiv": {
       "de": "schnauben",
-      "lv": "Шепнете"
+      "lv": "frktati"
     },
     "praesens": {
       "de": "er schnaubt",
-      "lv": "Он фыркает"
+      "lv": "on frkće"
     },
     "imperfektIndikativ": {
       "de": "schnaubte / schnob",
-      "lv": "Фыркнул"
+      "lv": "on je frktao"
     },
     "imperfektKonjunktiv": {
       "de": "schnaubte / schnob",
-      "lv": "Фыркнул"
+      "lv": "on bi frktao"
     },
     "partizipVergangenheit": {
       "de": "geschnaubt / geschnoben",
-      "lv": "Фыркать"
+      "lv": "frktao"
     }
   },
   {
     "infinitiv": {
       "de": "schneiden",
-      "lv": "Исечете"
+      "lv": "rezati"
     },
     "praesens": {
       "de": "er schneidet",
-      "lv": "Он вращается"
+      "lv": "on reže"
     },
     "imperfektIndikativ": {
       "de": "er schnitt",
-      "lv": "Он резал"
+      "lv": "on je rezao"
     },
     "imperfektKonjunktiv": {
       "de": "er schnitte",
-      "lv": "Он бы порезал"
+      "lv": "on bi rezao"
     },
     "partizipVergangenheit": {
       "de": "geschnitten",
-      "lv": "Исечете"
+      "lv": "rezan"
     }
   },
   {
     "infinitiv": {
       "de": "schreiben",
-      "lv": "Vi pišete"
+      "lv": "pisati"
     },
     "praesens": {
       "de": "er schreibt",
-      "lv": "Он пишет"
+      "lv": "on piše"
     },
     "imperfektIndikativ": {
       "de": "er schrieb",
-      "lv": "Он написал"
+      "lv": "on je pisao"
     },
     "imperfektKonjunktiv": {
       "de": "er schriebe",
-      "lv": "Он бы написал"
+      "lv": "on bi pisao"
     },
     "partizipVergangenheit": {
       "de": "geschrieben",
-      "lv": "Написано"
+      "lv": "pisan"
     }
   },
   {
     "infinitiv": {
       "de": "schreien",
-      "lv": "Крещи"
+      "lv": "vikati"
     },
     "praesens": {
       "de": "er schreit",
-      "lv": "Он кричит"
+      "lv": "on viče"
     },
     "imperfektIndikativ": {
       "de": "er schrie",
-      "lv": "Тој извика"
+      "lv": "on je vikao"
     },
     "imperfektKonjunktiv": {
       "de": "er schriee",
-      "lv": "Он кричал бы"
+      "lv": "on bi vikao"
     },
     "partizipVergangenheit": {
       "de": "geschrien",
-      "lv": "Кричал"
+      "lv": "vikao"
     }
   },
   {
     "infinitiv": {
       "de": "schreiten",
-      "lv": "Ходьба"
+      "lv": "koračati"
     },
     "praesens": {
       "de": "er schreitet",
-      "lv": "Он идет"
+      "lv": "on korača"
     },
     "imperfektIndikativ": {
       "de": "er schritt",
-      "lv": "Он шел"
+      "lv": "on je koračao"
     },
     "imperfektKonjunktiv": {
       "de": "er schritte",
-      "lv": "Он будет ходить"
+      "lv": "on bi koračao"
     },
     "partizipVergangenheit": {
       "de": "geschritten (er ist)",
-      "lv": "Шел"
+      "lv": "koračao"
     }
   },
   {
     "infinitiv": {
       "de": "schweigen",
-      "lv": "Бъдете тихи"
+      "lv": "ćutati"
     },
     "praesens": {
       "de": "er schweigt",
-      "lv": "Он молчит"
+      "lv": "on ćuti"
     },
     "imperfektIndikativ": {
       "de": "er schwieg",
-      "lv": "Он молчал"
+      "lv": "on je ćutao"
     },
     "imperfektKonjunktiv": {
       "de": "er schwiege",
-      "lv": "Molčal je"
+      "lv": "on bi ćutao"
     },
     "partizipVergangenheit": {
       "de": "geschwiegen",
-      "lv": "Заставил замолчать"
+      "lv": "ćutao"
     }
   },
   {
     "infinitiv": {
       "de": "schwellen",
-      "lv": "Помпа"
+      "lv": "oticati"
     },
     "praesens": {
       "de": "er schwillt",
-      "lv": "Он дуется"
+      "lv": "on otiče"
     },
     "imperfektIndikativ": {
       "de": "er schwoll",
-      "lv": "Он пампас"
+      "lv": "on je oticao"
     },
     "imperfektKonjunktiv": {
       "de": "er schwölle",
-      "lv": "Он бы накачал"
+      "lv": "on bi oticao"
     },
     "partizipVergangenheit": {
       "de": "geschwollen (er ist)",
-      "lv": "Помпа"
+      "lv": "oticao"
     }
   },
   {
     "infinitiv": {
       "de": "schwimmen",
-      "lv": "Пливање"
+      "lv": "plivati"
     },
     "praesens": {
       "de": "er schwimmt",
-      "lv": "Он плавает"
+      "lv": "on pliva"
     },
     "imperfektIndikativ": {
       "de": "er schwamm",
-      "lv": "Он плавал"
+      "lv": "on je plivao"
     },
     "imperfektKonjunktiv": {
       "de": "er schwömme / er schwämme",
-      "lv": "Он бы плавал"
+      "lv": "on bi plivao"
     },
     "partizipVergangenheit": {
       "de": "geschwommen (er ist)",
-      "lv": "Тој пливаше"
+      "lv": "plivao"
     }
   },
   {
     "infinitiv": {
       "de": "schwinden",
-      "lv": "Пропадать"
+      "lv": "nestajati"
     },
     "praesens": {
       "de": "er schwindet",
-      "lv": "Izginja"
+      "lv": "on nestaje"
     },
     "imperfektIndikativ": {
       "de": "er schwand",
-      "lv": "Тој исчезна"
+      "lv": "on je nestajao"
     },
     "imperfektKonjunktiv": {
       "de": "er schwände",
-      "lv": "Тој ќе исчезне"
+      "lv": "on bi nestajao"
     },
     "partizipVergangenheit": {
       "de": "geschwunden (er ist)",
-      "lv": "Потерянный"
+      "lv": "nestajao"
     }
   },
   {
     "infinitiv": {
       "de": "schwingen",
-      "lv": "Volna"
+      "lv": "mahati"
     },
     "praesens": {
       "de": "er schwingt",
-      "lv": "Он машет рукой"
+      "lv": "on maše"
     },
     "imperfektIndikativ": {
       "de": "er schwang",
-      "lv": "Он помахал рукой"
+      "lv": "on je mahao"
     },
     "imperfektKonjunktiv": {
       "de": "er schwänge",
-      "lv": "Он помахал бы"
+      "lv": "on bi mahao"
     },
     "partizipVergangenheit": {
       "de": "geschwungen",
-      "lv": "Помахал рукой"
+      "lv": "mahao"
     }
   },
   {
     "infinitiv": {
       "de": "schwören",
-      "lv": "Заклевам се"
+      "lv": "kleti se"
     },
     "praesens": {
       "de": "er schwört",
-      "lv": "Он ругается"
+      "lv": "on se kune"
     },
     "imperfektIndikativ": {
       "de": "er schwur / er schwor",
-      "lv": "Он поклялся"
+      "lv": "on se kleo"
     },
     "imperfektKonjunktiv": {
       "de": "er schwöre",
-      "lv": "Он бы поклялся"
+      "lv": "on bi se kleo"
     },
     "partizipVergangenheit": {
       "de": "geschworen",
-      "lv": "Присягнул"
+      "lv": "kleo se"
     }
   },
   {
     "infinitiv": {
       "de": "sehen",
-      "lv": "Poglejmo"
+      "lv": "videti"
     },
     "praesens": {
       "de": "er sieht",
-      "lv": "Он видит"
+      "lv": "on vidi"
     },
     "imperfektIndikativ": {
       "de": "er sah",
-      "lv": "Он увидел"
+      "lv": "on je video"
     },
     "imperfektKonjunktiv": {
       "de": "er sähe",
-      "lv": "Он увидит"
+      "lv": "on bi video"
     },
     "partizipVergangenheit": {
       "de": "gesehen",
-      "lv": "Видими"
+      "lv": "viđen"
     }
   },
   {
     "infinitiv": {
       "de": "sein",
-      "lv": "Бъди"
+      "lv": "biti"
     },
     "praesens": {
       "de": "er ist",
-      "lv": "Тој"
+      "lv": "on je"
     },
     "imperfektIndikativ": {
       "de": "war",
-      "lv": "Тој беше"
+      "lv": "on je bio"
     },
     "imperfektKonjunktiv": {
       "de": "war",
-      "lv": "Тој беше"
+      "lv": "on bi bio"
     },
     "partizipVergangenheit": {
       "de": "gewesen",
-      "lv": "Тој беше"
+      "lv": "bio"
     }
   },
   {
     "infinitiv": {
       "de": "senden",
-      "lv": "Изпратете"
+      "lv": "slati"
     },
     "praesens": {
       "de": "er sendet",
-      "lv": "Он посылает"
+      "lv": "on šalje"
     },
     "imperfektIndikativ": {
       "de": "er sandte / er sendete",
-      "lv": "Он отправил"
+      "lv": "on je slao"
     },
     "imperfektKonjunktiv": {
       "de": "er sendete",
-      "lv": "Он бы послал"
+      "lv": "on bi slao"
     },
     "partizipVergangenheit": {
       "de": "gesandt / gesendet",
-      "lv": "Отправил"
+      "lv": "poslat"
     }
   },
   {
     "infinitiv": {
       "de": "sieden",
-      "lv": "Се вари"
+      "lv": "kuvati"
     },
     "praesens": {
       "de": "er siedet",
-      "lv": "Он готовит"
+      "lv": "on kuva"
     },
     "imperfektIndikativ": {
       "de": "sott / siedete",
-      "lv": "Приготовленный"
+      "lv": "on je kuvao"
     },
     "imperfektKonjunktiv": {
       "de": "sott / siedete",
-      "lv": "Приготовленный"
+      "lv": "on bi kuvao"
     },
     "partizipVergangenheit": {
       "de": "gesotten / gesiedet",
-      "lv": "Вареный"
+      "lv": "kuvan"
     }
   },
   {
     "infinitiv": {
       "de": "singen",
-      "lv": "Пейте"
+      "lv": "pevati"
     },
     "praesens": {
       "de": "er singt",
-      "lv": "Он поет"
+      "lv": "on peva"
     },
     "imperfektIndikativ": {
       "de": "er sang",
-      "lv": "Он пел"
+      "lv": "on je pevao"
     },
     "imperfektKonjunktiv": {
       "de": "er sänge",
-      "lv": "Он будет петь"
+      "lv": "on bi pevao"
     },
     "partizipVergangenheit": {
       "de": "gesungen",
-      "lv": "Поется"
+      "lv": "pevan"
     }
   },
   {
     "infinitiv": {
       "de": "sinken",
-      "lv": "Удави се"
+      "lv": "tonuti"
     },
     "praesens": {
       "de": "er sinkt",
-      "lv": "Он тонет"
+      "lv": "on tone"
     },
     "imperfektIndikativ": {
       "de": "er sank",
-      "lv": "Тој измислил"
+      "lv": "on je tonuo"
     },
     "imperfektKonjunktiv": {
       "de": "er sänke",
-      "lv": "Он бы утонул"
+      "lv": "on bi tonuo"
     },
     "partizipVergangenheit": {
       "de": "gesunken (er ist)",
-      "lv": "Sestavi"
+      "lv": "tonuo"
     }
   },
   {
     "infinitiv": {
       "de": "sinnen",
-      "lv": "Бъдете изненадани"
+      "lv": "razmišljati"
     },
     "praesens": {
       "de": "er sinnt",
-      "lv": "Он задается вопросом"
+      "lv": "on razmišlja"
     },
     "imperfektIndikativ": {
       "de": "er sann",
-      "lv": "Тој постави прашање"
+      "lv": "on je razmišljao"
     },
     "imperfektKonjunktiv": {
       "de": "er sönne / er sänne",
-      "lv": "Он будет задаваться вопросом"
+      "lv": "on bi razmišljao"
     },
     "partizipVergangenheit": {
       "de": "gesonnen",
-      "lv": "Единомышленник"
+      "lv": "razmišljao"
     }
   },
   {
     "infinitiv": {
       "de": "sitzen",
-      "lv": "Sedi"
+      "lv": "sedeti"
     },
     "praesens": {
       "de": "er sitzt",
-      "lv": "Он сидит"
+      "lv": "on sedi"
     },
     "imperfektIndikativ": {
       "de": "er sass",
-      "lv": "Он сидел"
+      "lv": "on je sedeo"
     },
     "imperfektKonjunktiv": {
       "de": "er säße",
-      "lv": "Он будет сидеть"
+      "lv": "on bi sedeo"
     },
     "partizipVergangenheit": {
       "de": "gesessen",
-      "lv": "Сел"
+      "lv": "sedeo"
     }
   },
   {
     "infinitiv": {
       "de": "sollen",
-      "lv": "Potrebno /Бытьobrazannым"
+      "lv": "trebati / morati"
     },
     "praesens": {
       "de": "er soll",
-      "lv": "Ему нужен"
+      "lv": "on treba / mora"
     },
     "imperfektIndikativ": {
       "de": "sollte",
-      "lv": "Должен был иметь"
+      "lv": "on je trebao / morao"
     },
     "imperfektKonjunktiv": {
       "de": "sollte",
-      "lv": "Должен был иметь"
+      "lv": "on bi trebao / morao"
     },
     "partizipVergangenheit": {
       "de": "gesollt",
-      "lv": "Нужный"
+      "lv": "trebao / morao"
     }
   },
   {
     "infinitiv": {
       "de": "speien",
-      "lv": "Плюнка"
+      "lv": "pljuvati"
     },
     "praesens": {
       "de": "er speit",
-      "lv": "Он плюет"
+      "lv": "on pljuje"
     },
     "imperfektIndikativ": {
       "de": "er spie",
-      "lv": "Он плюнул"
+      "lv": "on je pljuvao"
     },
     "imperfektKonjunktiv": {
       "de": "er spie",
-      "lv": "Он бы плюнул"
+      "lv": "on bi pljuvao"
     },
     "partizipVergangenheit": {
       "de": "gespien",
-      "lv": "Выплюнул"
+      "lv": "popljuvan"
     }
   },
   {
     "infinitiv": {
       "de": "spinnen",
-      "lv": "Завъртете"
+      "lv": "presti"
     },
     "praesens": {
       "de": "er spinnt",
-      "lv": "Он крутит"
+      "lv": "on prede"
     },
     "imperfektIndikativ": {
       "de": "er spann",
-      "lv": "Он крутился"
+      "lv": "on je preo"
     },
     "imperfektKonjunktiv": {
       "de": "er spönne / er spänne",
-      "lv": "Он будет вращаться"
+      "lv": "on bi preo"
     },
     "partizipVergangenheit": {
       "de": "gesponnen",
-      "lv": "Вращался"
+      "lv": "preden"
     }
   },
   {
     "infinitiv": {
       "de": "spleißen",
-      "lv": "Свържете се"
+      "lv": "spajati"
     },
     "praesens": {
       "de": "er spleißt",
-      "lv": "Он соединяет"
+      "lv": "on spaja"
     },
     "imperfektIndikativ": {
       "de": "spliss",
-      "lv": "Свързан"
+      "lv": "on je spajao"
     },
     "imperfektKonjunktiv": {
       "de": "spliss",
-      "lv": "Свързан"
+      "lv": "on bi spajao"
     },
     "partizipVergangenheit": {
       "de": "gesplissen",
-      "lv": "Свързан"
+      "lv": "spajan"
     }
   },
   {
     "infinitiv": {
       "de": "sprechen",
-      "lv": "Govor"
+      "lv": "govoriti"
     },
     "praesens": {
       "de": "er spricht",
-      "lv": "Он говорит"
+      "lv": "on govori"
     },
     "imperfektIndikativ": {
       "de": "er sprach",
-      "lv": "Он говорил"
+      "lv": "on je govorio"
     },
     "imperfektKonjunktiv": {
       "de": "er spräche",
-      "lv": "Он будет говорить"
+      "lv": "on bi govorio"
     },
     "partizipVergangenheit": {
       "de": "gesprochen",
-      "lv": "Разговорный"
+      "lv": "govoren"
     }
   },
   {
     "infinitiv": {
       "de": "sprießen",
-      "lv": "Процветать"
+      "lv": "nicati"
     },
     "praesens": {
       "de": "er sprießt",
-      "lv": "Он процветает"
+      "lv": "on niče"
     },
     "imperfektIndikativ": {
       "de": "er spross",
-      "lv": "Он процветал"
+      "lv": "on je nicao"
     },
     "imperfektKonjunktiv": {
       "de": "er sprösse",
-      "lv": "Он полка"
+      "lv": "on bi nicao"
     },
     "partizipVergangenheit": {
       "de": "gesprossen (er ist)",
-      "lv": "Рамо"
+      "lv": "nicao"
     }
   },
   {
     "infinitiv": {
       "de": "springen",
-      "lv": "Jump"
+      "lv": "skakati"
     },
     "praesens": {
       "de": "er springt",
-      "lv": "Он прыгает"
+      "lv": "on skače"
     },
     "imperfektIndikativ": {
       "de": "er sprang",
-      "lv": "Он прыгнул"
+      "lv": "on je skakao"
     },
     "imperfektKonjunktiv": {
       "de": "er spränge",
-      "lv": "Он бы прыгнул"
+      "lv": "on bi skakao"
     },
     "partizipVergangenheit": {
       "de": "gesprungen (er ist)",
-      "lv": "Обектив"
+      "lv": "skakao"
     }
   },
   {
     "infinitiv": {
       "de": "stechen",
-      "lv": "Стачка"
+      "lv": "bosti"
     },
     "praesens": {
       "de": "er sticht",
-      "lv": "Он наносит удар"
+      "lv": "on bode"
     },
     "imperfektIndikativ": {
       "de": "er stach",
-      "lv": "Он ударил"
+      "lv": "on je bo"
     },
     "imperfektKonjunktiv": {
       "de": "er stäche",
-      "lv": "Он бы ударил"
+      "lv": "on bi bo"
     },
     "partizipVergangenheit": {
       "de": "gestochen",
-      "lv": "Зарезан"
+      "lv": "boden"
     }
   },
   {
     "infinitiv": {
       "de": "stecken",
-      "lv": "Втыкать / втыкать"
+      "lv": "trpati / utaknuti"
     },
     "praesens": {
       "de": "er steckt",
-      "lv": "Он толкает"
+      "lv": "on trpa / utakne"
     },
     "imperfektIndikativ": {
       "de": "stak / steckte",
-      "lv": "Пълнена"
+      "lv": "on je trpao / utaknuo"
     },
     "imperfektKonjunktiv": {
       "de": "stak / steckte",
-      "lv": "Пълнена"
+      "lv": "on bi trpao / utaknuo"
     },
     "partizipVergangenheit": {
       "de": "gesteckt",
-      "lv": "Пълнена"
+      "lv": "trpan / utaknut"
     }
   },
   {
     "infinitiv": {
       "de": "stehen",
-      "lv": "Стойка"
+      "lv": "stajati"
     },
     "praesens": {
       "de": "er steht",
-      "lv": "Тој стои"
+      "lv": "on stoji"
     },
     "imperfektIndikativ": {
       "de": "er stand",
-      "lv": "Тој застана"
+      "lv": "on je stajao"
     },
     "imperfektKonjunktiv": {
       "de": "er stände / er stünde",
-      "lv": "Он будет стоять"
+      "lv": "on bi stajao"
     },
     "partizipVergangenheit": {
       "de": "gestanden",
-      "lv": "Стоя"
+      "lv": "stajao"
     }
   },
   {
     "infinitiv": {
       "de": "stehlen",
-      "lv": "Крадат"
+      "lv": "krasti"
     },
     "praesens": {
       "de": "er stiehlt",
-      "lv": "Он ворует"
+      "lv": "on krade"
     },
     "imperfektIndikativ": {
       "de": "er stahl",
-      "lv": "Ukradel je"
+      "lv": "on je krao"
     },
     "imperfektKonjunktiv": {
       "de": "er stöhle / er stähle",
-      "lv": "Он бы украл"
+      "lv": "on bi krao"
     },
     "partizipVergangenheit": {
       "de": "gestohlen",
-      "lv": "Украденный"
+      "lv": "kraden"
     }
   },
   {
     "infinitiv": {
       "de": "steigen",
-      "lv": "Издигам се"
+      "lv": "penjati se"
     },
     "praesens": {
       "de": "er steigt",
-      "lv": "Он лезет"
+      "lv": "on se penje"
     },
     "imperfektIndikativ": {
       "de": "er stieg",
-      "lv": "Он поднялся"
+      "lv": "on se penjao"
     },
     "imperfektKonjunktiv": {
       "de": "er stiege",
-      "lv": "Он бы поднялся"
+      "lv": "on bi se penjao"
     },
     "partizipVergangenheit": {
       "de": "gestiegen (er ist)",
-      "lv": "Поднялся"
+      "lv": "penjao se"
     }
   },
   {
     "infinitiv": {
       "de": "sterben",
-      "lv": "Umri."
+      "lv": "umreti"
     },
     "praesens": {
       "de": "er stirbt",
-      "lv": "Он умирает"
+      "lv": "on umre"
     },
     "imperfektIndikativ": {
       "de": "er starb",
-      "lv": "Он умер"
+      "lv": "on je umro"
     },
     "imperfektKonjunktiv": {
       "de": "er stürbe",
-      "lv": "Он умрет"
+      "lv": "on bi umro"
     },
     "partizipVergangenheit": {
       "de": "gestorben (er ist)",
-      "lv": "Мъртъв"
+      "lv": "umro"
     }
   },
   {
     "infinitiv": {
       "de": "stinken",
-      "lv": "Миризма"
+      "lv": "smrdeti"
     },
     "praesens": {
       "de": "es stinkt",
-      "lv": "Смърди"
+      "lv": "ono smrdi"
     },
     "imperfektIndikativ": {
       "de": "stank",
-      "lv": "Пахло"
+      "lv": "ono je smrdelo"
     },
     "imperfektKonjunktiv": {
       "de": "stank",
-      "lv": "Пахло"
+      "lv": "ono bi smrdelo"
     },
     "partizipVergangenheit": {
       "de": "gestunken",
-      "lv": "Вонючий"
+      "lv": "smrdeo"
     }
   },
   {
     "infinitiv": {
       "de": "stoßen",
-      "lv": "Бутане"
+      "lv": "gurnuti"
     },
     "praesens": {
       "de": "er stößt",
-      "lv": "Он толкает"
+      "lv": "on gurne"
     },
     "imperfektIndikativ": {
       "de": "er stieß",
-      "lv": "Он толкнул"
+      "lv": "on je gurnuo"
     },
     "imperfektKonjunktiv": {
       "de": "er stieße",
-      "lv": "Он толкал"
+      "lv": "on bi gurnuo"
     },
     "partizipVergangenheit": {
       "de": "gestoßen",
-      "lv": "Толкнул"
+      "lv": "gurnut"
     }
   },
   {
     "infinitiv": {
       "de": "streichen",
-      "lv": "Краска/полоска"
+      "lv": "bojiti / precrtati"
     },
     "praesens": {
       "de": "er streicht",
-      "lv": "Он рисует/полоски"
+      "lv": "on boji / precrta"
     },
     "imperfektIndikativ": {
       "de": "er strich",
-      "lv": "Он нарисовал/полосатый"
+      "lv": "on je bojio / precrtao"
     },
     "imperfektKonjunktiv": {
       "de": "er striche",
-      "lv": "Он бы покрасил / раздевал"
+      "lv": "on bi bojio / precrtao"
     },
     "partizipVergangenheit": {
       "de": "gestrichen",
-      "lv": "Окрашенный/полосатый"
+      "lv": "bojen / precrtan"
     }
   },
   {
     "infinitiv": {
       "de": "streiten",
-      "lv": "Бой"
+      "lv": "svađati se"
     },
     "praesens": {
       "de": "er streitet",
-      "lv": "Он борется"
+      "lv": "on se svađa"
     },
     "imperfektIndikativ": {
       "de": "er stritt",
-      "lv": "Он боролся"
+      "lv": "on se svađao"
     },
     "imperfektKonjunktiv": {
       "de": "er stritte",
-      "lv": "Он будет драться"
+      "lv": "on bi se svađao"
     },
     "partizipVergangenheit": {
       "de": "gestritten",
-      "lv": "Дрался"
+      "lv": "svađao se"
     }
   },
   {
     "infinitiv": {
       "de": "tragen",
-      "lv": "Носете"
+      "lv": "nositi"
     },
     "praesens": {
       "de": "er trägt",
-      "lv": "Он несет"
+      "lv": "on nosi"
     },
     "imperfektIndikativ": {
       "de": "er trug",
-      "lv": "Nadlegoval je"
+      "lv": "on je nosio"
     },
     "imperfektKonjunktiv": {
       "de": "er trüge",
-      "lv": "Он будет нести"
+      "lv": "on bi nosio"
     },
     "partizipVergangenheit": {
       "de": "getragen",
-      "lv": "Понесени"
+      "lv": "nošen"
     }
   },
   {
     "infinitiv": {
       "de": "treffen",
-      "lv": "Столкнуться"
+      "lv": "sresti"
     },
     "praesens": {
       "de": "er trifft",
-      "lv": "Он встречает"
+      "lv": "on sretne"
     },
     "imperfektIndikativ": {
       "de": "er traf",
-      "lv": "Он столкнулся"
+      "lv": "on je sreo"
     },
     "imperfektKonjunktiv": {
       "de": "er träfe",
-      "lv": "Тој се судри"
+      "lv": "on bi sreo"
     },
     "partizipVergangenheit": {
       "de": "getroffen",
-      "lv": "Столкнулся"
+      "lv": "sreo"
     }
   },
   {
     "infinitiv": {
       "de": "treiben",
-      "lv": "Гнаться"
+      "lv": "terati"
     },
     "praesens": {
       "de": "er treibt",
-      "lv": "Он водит"
+      "lv": "on tera"
     },
     "imperfektIndikativ": {
       "de": "er trieb",
-      "lv": "Он ехал"
+      "lv": "on je terao"
     },
     "imperfektKonjunktiv": {
       "de": "er triebe",
-      "lv": "Тој ќе ја вози колата"
+      "lv": "on bi terao"
     },
     "partizipVergangenheit": {
       "de": "getrieben",
-      "lv": "Преследовали"
+      "lv": "teran"
     }
   },
   {
     "infinitiv": {
       "de": "treten",
-      "lv": "Пријавете се"
+      "lv": "stupiti / ići"
     },
     "praesens": {
       "de": "er tritt",
-      "lv": "Он входит/уходит"
+      "lv": "on stupi / ide"
     },
     "imperfektIndikativ": {
       "de": "er trat",
-      "lv": "Он стоял/шел"
+      "lv": "on je stupio / išao"
     },
     "imperfektKonjunktiv": {
       "de": "er träte",
-      "lv": "Он бы встал/пошёл"
+      "lv": "on bi stupio / išao"
     },
     "partizipVergangenheit": {
       "de": "getreten (er ist)",
-      "lv": "Стоял/шел"
+      "lv": "stupio / išao"
     }
   },
   {
     "infinitiv": {
       "de": "trinken",
-      "lv": "Пийте"
+      "lv": "piti"
     },
     "praesens": {
       "de": "er trinkt",
-      "lv": "Он пьет"
+      "lv": "on pije"
     },
     "imperfektIndikativ": {
       "de": "er trank",
-      "lv": "Он пил"
+      "lv": "on je pio"
     },
     "imperfektKonjunktiv": {
       "de": "er tränke",
-      "lv": "Он бы пил"
+      "lv": "on bi pio"
     },
     "partizipVergangenheit": {
       "de": "getrunken",
-      "lv": "Пиян"
+      "lv": "pijen"
     }
   },
   {
     "infinitiv": {
       "de": "trügen",
-      "lv": "Мамят"
+      "lv": "varati"
     },
     "praesens": {
       "de": "er trögt",
-      "lv": "Он обманывает"
+      "lv": "on vara"
     },
     "imperfektIndikativ": {
       "de": "er trog",
-      "lv": "Он обманул"
+      "lv": "on je varao"
     },
     "imperfektKonjunktiv": {
       "de": "er tröge",
-      "lv": "Он бы обманул"
+      "lv": "on bi varao"
     },
     "partizipVergangenheit": {
       "de": "getrogen",
-      "lv": "Обманул"
+      "lv": "varan"
     }
   },
   {
     "infinitiv": {
       "de": "tun",
-      "lv": "Saj si."
+      "lv": "činiti"
     },
     "praesens": {
       "de": "er tut",
-      "lv": "Он делает"
+      "lv": "on čini"
     },
     "imperfektIndikativ": {
       "de": "er tat",
-      "lv": "Он сделал"
+      "lv": "on je činio"
     },
     "imperfektKonjunktiv": {
       "de": "er täte",
-      "lv": "Он бы сделал"
+      "lv": "on bi činio"
     },
     "partizipVergangenheit": {
       "de": "getan",
-      "lv": "Готово"
+      "lv": "činjen"
     }
   },
   {
     "infinitiv": {
       "de": "verderben",
-      "lv": "Щети"
+      "lv": "pokvariti"
     },
     "praesens": {
       "de": "er verdirbt",
-      "lv": "Он уничтожает"
+      "lv": "on pokvari"
     },
     "imperfektIndikativ": {
       "de": "er verdarb",
-      "lv": "Он повредил"
+      "lv": "on je pokvario"
     },
     "imperfektKonjunktiv": {
       "de": "er verdürbe",
-      "lv": "Poškodoval se je"
+      "lv": "on bi pokvario"
     },
     "partizipVergangenheit": {
       "de": "verdorben",
-      "lv": "Оштетени"
+      "lv": "pokvaren"
     }
   },
   {
     "infinitiv": {
       "de": "verdrießen",
-      "lv": "Вызвать раздражение"
+      "lv": "ozlovoljiti"
     },
     "praesens": {
       "de": "er verdrießt",
-      "lv": "Он вызывает раздражение"
+      "lv": "on ozlovolji"
     },
     "imperfektIndikativ": {
       "de": "er verdross",
-      "lv": "Он вызвал раздражение"
+      "lv": "on je ozlovoljio"
     },
     "imperfektKonjunktiv": {
       "de": "er verdrösse",
-      "lv": "Он вызовет раздражение"
+      "lv": "on bi ozlovoljio"
     },
     "partizipVergangenheit": {
       "de": "verdrossen",
-      "lv": "Расстройство"
+      "lv": "ozlovoljen"
     }
   },
   {
     "infinitiv": {
       "de": "vergessen",
-      "lv": "Заборави го"
+      "lv": "zaboraviti"
     },
     "praesens": {
       "de": "er vergisst",
-      "lv": "Он забывает"
+      "lv": "on zaboravi"
     },
     "imperfektIndikativ": {
       "de": "er vergass",
-      "lv": "Он забыл"
+      "lv": "on je zaboravio"
     },
     "imperfektKonjunktiv": {
       "de": "er vergäße",
-      "lv": "Он бы забыл"
+      "lv": "on bi zaboravio"
     },
     "partizipVergangenheit": {
       "de": "vergessen",
-      "lv": "Забытый"
+      "lv": "zaboravljen"
     }
   },
   {
     "infinitiv": {
       "de": "verlieren",
-      "lv": "-Izguba. Moj sin in moj mož."
+      "lv": "izgubiti"
     },
     "praesens": {
       "de": "er verliert",
-      "lv": "Он проигрывает"
+      "lv": "on izgubi"
     },
     "imperfektIndikativ": {
       "de": "er verlor",
-      "lv": "Он проиграл"
+      "lv": "on je izgubio"
     },
     "imperfektKonjunktiv": {
       "de": "er verlöre",
-      "lv": "Он проиграет"
+      "lv": "on bi izgubio"
     },
     "partizipVergangenheit": {
       "de": "verloren",
-      "lv": "Потерянный"
+      "lv": "izgubljen"
     }
   },
   {
     "infinitiv": {
       "de": "wachsen",
-      "lv": "Растат"
+      "lv": "rasti"
     },
     "praesens": {
       "de": "er wächst",
-      "lv": "Он растет"
+      "lv": "on raste"
     },
     "imperfektIndikativ": {
       "de": "er wuchs",
-      "lv": "Он рос"
+      "lv": "on je rastao"
     },
     "imperfektKonjunktiv": {
       "de": "er wüchse",
-      "lv": "Он вырастет"
+      "lv": "on bi rastao"
     },
     "partizipVergangenheit": {
       "de": "gewachsen (er ist)",
-      "lv": "Вырос"
+      "lv": "rastao"
     }
   },
   {
     "infinitiv": {
       "de": "waschen",
-      "lv": "Operi se"
+      "lv": "prati"
     },
     "praesens": {
       "de": "er wäscht",
-      "lv": "Он моет"
+      "lv": "on pere"
     },
     "imperfektIndikativ": {
       "de": "er wusch",
-      "lv": "Он мыл"
+      "lv": "on je prao"
     },
     "imperfektKonjunktiv": {
       "de": "er wüsche",
-      "lv": "Он будет мыть"
+      "lv": "on bi prao"
     },
     "partizipVergangenheit": {
       "de": "gewaschen",
-      "lv": "Промытый"
+      "lv": "pran"
     }
   },
   {
     "infinitiv": {
       "de": "weben",
-      "lv": "Ткать"
+      "lv": "tkati"
     },
     "praesens": {
       "de": "er webt",
-      "lv": "Он плетет"
+      "lv": "on tka"
     },
     "imperfektIndikativ": {
       "de": "wob",
-      "lv": "Салфетка"
+      "lv": "on je tkao"
     },
     "imperfektKonjunktiv": {
       "de": "wob",
-      "lv": "Салфетка"
+      "lv": "on bi tkao"
     },
     "partizipVergangenheit": {
       "de": "gewoben",
-      "lv": "Сотканный"
+      "lv": "tkan"
     }
   },
   {
     "infinitiv": {
       "de": "weichen",
-      "lv": "Оттегляне"
+      "lv": "uzmaknuti"
     },
     "praesens": {
       "de": "er weicht",
-      "lv": "Он отступает"
+      "lv": "on uzmakne"
     },
     "imperfektIndikativ": {
       "de": "er wich",
-      "lv": "Тој се повлече"
+      "lv": "on je uzmaknuo"
     },
     "imperfektKonjunktiv": {
       "de": "er wiche",
-      "lv": "Он бы отступил"
+      "lv": "on bi uzmaknuo"
     },
     "partizipVergangenheit": {
       "de": "gewichen (er ist)",
-      "lv": "Отступить"
+      "lv": "uzmaknuo"
     }
   },
   {
     "infinitiv": {
       "de": "weisen",
-      "lv": "Покажи"
+      "lv": "pokazati"
     },
     "praesens": {
       "de": "er weist",
-      "lv": "Он показывает"
+      "lv": "on pokaže"
     },
     "imperfektIndikativ": {
       "de": "er wies",
-      "lv": "Он показал"
+      "lv": "on je pokazao"
     },
     "imperfektKonjunktiv": {
       "de": "er wiese",
-      "lv": "Он бы показал"
+      "lv": "on bi pokazao"
     },
     "partizipVergangenheit": {
       "de": "gewiesen",
-      "lv": "Прикажани"
+      "lv": "pokazan"
     }
   },
   {
     "infinitiv": {
       "de": "wenden",
-      "lv": "Изменить/обрезать"
+      "lv": "okretati / preokrenuti"
     },
     "praesens": {
       "de": "er wendet",
-      "lv": "Он крутит/поворачивает"
+      "lv": "on okreće / preokrene"
     },
     "imperfektIndikativ": {
       "de": "er wandte / es wendete",
-      "lv": "Он крутил/перевернул"
+      "lv": "on je okretao / preokrenuo"
     },
     "imperfektKonjunktiv": {
       "de": "er wendete",
-      "lv": "Он бы исправил/отменил"
+      "lv": "on bi okretao / preokrenuo"
     },
     "partizipVergangenheit": {
       "de": "gewandt / gewendet",
-      "lv": "Изменено/отменено"
+      "lv": "okrenut / preokrenut"
     }
   },
   {
     "infinitiv": {
       "de": "werben",
-      "lv": "Оферта"
+      "lv": "prositi"
     },
     "praesens": {
       "de": "er wirbt",
-      "lv": "Он предлагает"
+      "lv": "on prosi"
     },
     "imperfektIndikativ": {
       "de": "er warb",
-      "lv": "Он предложил"
+      "lv": "on je prosio"
     },
     "imperfektKonjunktiv": {
       "de": "er würbe",
-      "lv": "Он бы предложил"
+      "lv": "on bi prosio"
     },
     "partizipVergangenheit": {
       "de": "geworben",
-      "lv": "Предложил"
+      "lv": "prošen"
     }
   },
   {
     "infinitiv": {
       "de": "werden",
-      "lv": "Станете"
+      "lv": "postati"
     },
     "praesens": {
       "de": "er wird",
-      "lv": "Он становится"
+      "lv": "on postane"
     },
     "imperfektIndikativ": {
       "de": "wurde",
-      "lv": "Стал"
+      "lv": "on je postao"
     },
     "imperfektKonjunktiv": {
       "de": "wurde",
-      "lv": "Стал"
+      "lv": "on bi postao"
     },
     "partizipVergangenheit": {
       "de": "geworden",
-      "lv": "Стал"
+      "lv": "postao"
     }
   },
   {
     "infinitiv": {
       "de": "werfen",
-      "lv": "Хвърли"
+      "lv": "bacati"
     },
     "praesens": {
       "de": "er wirft",
-      "lv": "Он бросает"
+      "lv": "on baca"
     },
     "imperfektIndikativ": {
       "de": "er warf",
-      "lv": "Он бросил"
+      "lv": "on je bacao"
     },
     "imperfektKonjunktiv": {
       "de": "er würfe",
-      "lv": "Он бросил"
+      "lv": "on bi bacao"
     },
     "partizipVergangenheit": {
       "de": "geworfen",
-      "lv": "Брошенный"
+      "lv": "bacan"
     }
   },
   {
     "infinitiv": {
       "de": "wiegen",
-      "lv": "Измерете"
+      "lv": "vagati"
     },
     "praesens": {
       "de": "er wiegt",
-      "lv": "Он весит"
+      "lv": "on vaga"
     },
     "imperfektIndikativ": {
       "de": "er wog",
-      "lv": "Он весил"
+      "lv": "on je vagao"
     },
     "imperfektKonjunktiv": {
       "de": "er wöge",
-      "lv": "Он будет весить"
+      "lv": "on bi vagao"
     },
     "partizipVergangenheit": {
       "de": "gewogen",
-      "lv": "Povišano"
+      "lv": "vagan"
     }
   },
   {
     "infinitiv": {
       "de": "winden",
-      "lv": "Ятаган"
+      "lv": "viti"
     },
     "praesens": {
       "de": "er windet",
-      "lv": "Се шегува"
+      "lv": "on vije"
     },
     "imperfektIndikativ": {
       "de": "er wand",
-      "lv": "Он заплетает косы"
+      "lv": "on je vio"
     },
     "imperfektKonjunktiv": {
       "de": "er wände",
-      "lv": "Он бы заплел косу"
+      "lv": "on bi vio"
     },
     "partizipVergangenheit": {
       "de": "gewunden",
-      "lv": "Плетеный"
+      "lv": "vijen"
     }
   },
   {
     "infinitiv": {
       "de": "wissen",
-      "lv": "Знам"
+      "lv": "znati"
     },
     "praesens": {
       "de": "er weiß",
-      "lv": "Он знает"
+      "lv": "on zna"
     },
     "imperfektIndikativ": {
       "de": "er wusste",
-      "lv": "Он знал"
+      "lv": "on je znao"
     },
     "imperfektKonjunktiv": {
       "de": "er wüsste",
-      "lv": "Он бы знал"
+      "lv": "on bi znao"
     },
     "partizipVergangenheit": {
       "de": "gewusst",
-      "lv": "Известен"
+      "lv": "znan"
     }
   },
   {
     "infinitiv": {
       "de": "wollen",
-      "lv": "Искам"
+      "lv": "hteti"
     },
     "praesens": {
       "de": "er will",
-      "lv": "Тој сака"
+      "lv": "on hoće"
     },
     "imperfektIndikativ": {
       "de": "wollte",
-      "lv": "Хотел"
+      "lv": "on je hteo"
     },
     "imperfektKonjunktiv": {
       "de": "wollte",
-      "lv": "Хотел"
+      "lv": "on bi hteo"
     },
     "partizipVergangenheit": {
       "de": "gewollt",
-      "lv": "Хотел"
+      "lv": "hteo"
     }
   },
   {
     "infinitiv": {
       "de": "wringen",
-      "lv": "Вырезать/выжать"
+      "lv": "iscediti / istisnuti"
     },
     "praesens": {
       "de": "er wringt",
-      "lv": "Он вырезает"
+      "lv": "on iscedi / istisne"
     },
     "imperfektIndikativ": {
       "de": "wrang",
-      "lv": "Вырезать"
+      "lv": "on je iscedio / istisnuo"
     },
     "imperfektKonjunktiv": {
       "de": "wrang",
-      "lv": "Вырезать"
+      "lv": "on bi iscedio / istisnuo"
     },
     "partizipVergangenheit": {
       "de": "gewrungen",
-      "lv": "Вырезать"
+      "lv": "isceđen / istisnut"
     }
   },
   {
     "infinitiv": {
       "de": "zeihen",
-      "lv": "Винить"
+      "lv": "okriviti"
     },
     "praesens": {
       "de": "er zeiht",
-      "lv": "Тој обвини"
+      "lv": "on okrivi"
     },
     "imperfektIndikativ": {
       "de": "zieh",
-      "lv": "Обвиняемый"
+      "lv": "on je okrivio"
     },
     "imperfektKonjunktiv": {
       "de": "zieh",
-      "lv": "Обвиняемый"
+      "lv": "on bi okrivio"
     },
     "partizipVergangenheit": {
       "de": "geziehen",
-      "lv": "Обвиняемый"
+      "lv": "okrivljen"
     }
   },
   {
     "infinitiv": {
       "de": "ziehen",
-      "lv": "Издърпайте"
+      "lv": "vući"
     },
     "praesens": {
       "de": "er zieht",
-      "lv": "Na Tinette"
+      "lv": "on vuče"
     },
     "imperfektIndikativ": {
       "de": "er zog",
-      "lv": "Он потянул"
+      "lv": "on je vukao"
     },
     "imperfektKonjunktiv": {
       "de": "er zöge",
-      "lv": "Он бы потащил"
+      "lv": "on bi vukao"
     },
     "partizipVergangenheit": {
       "de": "gezogen",
-      "lv": "Тащили"
+      "lv": "vučen"
     }
   },
   {
     "infinitiv": {
       "de": "zwingen",
-      "lv": "Заставить"
+      "lv": "primorati"
     },
     "praesens": {
       "de": "er zwingt",
-      "lv": "Он заставляет"
+      "lv": "on primora"
     },
     "imperfektIndikativ": {
       "de": "er zwang",
-      "lv": "Он заставил"
+      "lv": "on je primorao"
     },
     "imperfektKonjunktiv": {
       "de": "er zwänge",
-      "lv": "Он бы заставил"
+      "lv": "on bi primorao"
     },
     "partizipVergangenheit": {
       "de": "gezwungen",
-      "lv": "Принужденный"
+      "lv": "primoran"
     }
   },
   {
     "infinitiv": {
       "de": "empfangen",
-      "lv": "Добијте го"
+      "lv": "primiti"
     },
     "praesens": {
       "de": "er empfängt",
-      "lv": "Он получает"
+      "lv": "on primi"
     },
     "imperfektIndikativ": {
       "de": "er empfing",
-      "lv": "Он получил"
+      "lv": "on je primio"
     },
     "imperfektKonjunktiv": {
       "de": "er empfinge",
-      "lv": "Он получит"
+      "lv": "on bi primio"
     },
     "partizipVergangenheit": {
       "de": "empfangen",
-      "lv": "Полученный"
+      "lv": "primljen"
     }
   },
   {
     "infinitiv": {
       "de": "erwägen",
-      "lv": "Помислете"
+      "lv": "razmotriti"
     },
     "praesens": {
       "de": "er erwägt",
-      "lv": "Он считает"
+      "lv": "on razmotri"
     },
     "imperfektIndikativ": {
       "de": "er erwog",
-      "lv": "Он считал"
+      "lv": "on je razmotrio"
     },
     "imperfektKonjunktiv": {
       "de": "er erwöge",
-      "lv": "Он бы рассмотрел"
+      "lv": "on bi razmotrio"
     },
     "partizipVergangenheit": {
       "de": "erwogen",
-      "lv": "Замислен"
+      "lv": "razmotren"
     }
   },
   {
     "infinitiv": {
       "de": "fechten",
-      "lv": "Бой"
+      "lv": "boriti se"
     },
     "praesens": {
       "de": "er ficht",
-      "lv": "Он борется"
+      "lv": "on se bori"
     },
     "imperfektIndikativ": {
       "de": "er focht",
-      "lv": "Он боролся"
+      "lv": "on se borio"
     },
     "imperfektKonjunktiv": {
       "de": "er föchte",
-      "lv": "Он будет драться"
+      "lv": "on bi se borio"
     },
     "partizipVergangenheit": {
       "de": "gefochten",
-      "lv": "Дрался"
+      "lv": "borio se"
     }
   },
   {
     "infinitiv": {
       "de": "flechten",
-      "lv": "Ятаган"
+      "lv": "plesti"
     },
     "praesens": {
       "de": "er flicht",
-      "lv": "Се шегува"
+      "lv": "on plete"
     },
     "imperfektIndikativ": {
       "de": "er flocht",
-      "lv": "Он заплетает косы"
+      "lv": "on je pleo"
     },
     "imperfektKonjunktiv": {
       "de": "er flöchte",
-      "lv": "Он бы заплел косу"
+      "lv": "on bi pleo"
     },
     "partizipVergangenheit": {
       "de": "geflochten",
-      "lv": "Плетеный"
+      "lv": "pleten"
     }
   },
   {
     "infinitiv": {
       "de": "hangen",
-      "lv": "Повесить"
+      "lv": "visiti"
     },
     "praesens": {
       "de": "er hängt",
-      "lv": "Он висит"
+      "lv": "on visi"
     },
     "imperfektIndikativ": {
       "de": "er hing",
-      "lv": "Он повесил"
+      "lv": "on je visio"
     },
     "imperfektKonjunktiv": {
       "de": "er hinge",
-      "lv": "Он бы повесился"
+      "lv": "on bi visio"
     },
     "partizipVergangenheit": {
       "de": "gehangen",
-      "lv": "Подожди"
+      "lv": "visio"
     }
   },
   {
     "infinitiv": {
       "de": "spalten",
-      "lv": "Разделување"
+      "lv": "cepati"
     },
     "praesens": {
       "de": "er spaltet",
-      "lv": "Он разделяется"
+      "lv": "on cepa"
     },
     "imperfektIndikativ": {
       "de": "er spaltete",
-      "lv": "Он раскололся"
+      "lv": "on je cepao"
     },
     "imperfektKonjunktiv": {
       "de": "er spaltete",
-      "lv": "Он бы раскололся"
+      "lv": "on bi cepao"
     },
     "partizipVergangenheit": {
       "de": "gespalten",
-      "lv": "Razdeli"
+      "lv": "cepan"
     }
   },
   {
     "infinitiv": {
       "de": "verzeihen",
-      "lv": "Прости"
+      "lv": "oprostiti"
     },
     "praesens": {
       "de": "er verzeiht",
-      "lv": "Он прощает"
+      "lv": "on oprosti"
     },
     "imperfektIndikativ": {
       "de": "er verzieh",
-      "lv": "Он простил"
+      "lv": "on je oprostio"
     },
     "imperfektKonjunktiv": {
       "de": "er verziehe",
-      "lv": "Он бы простил"
+      "lv": "on bi oprostio"
     },
     "partizipVergangenheit": {
       "de": "verziehen",
-      "lv": "Прощен"
+      "lv": "oprošten"
     }
   }
 ];
