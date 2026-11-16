@@ -2,4137 +2,4137 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "backen",
-      "lv": "cept"
+      "lv": "peči"
     },
     "praesens": {
       "de": "er bäckt",
-      "lv": "viņš cep"
+      "lv": "on peče"
     },
     "imperfektIndikativ": {
       "de": "er buk",
-      "lv": "viņš cepa"
+      "lv": "on je pekel"
     },
     "imperfektKonjunktiv": {
       "de": "er büke",
-      "lv": "viņš ceptu"
+      "lv": "on bi pekel"
     },
     "partizipVergangenheit": {
       "de": "gebacken",
-      "lv": "cepts / izcepts"
+      "lv": "pečen"
     }
   },
   {
     "infinitiv": {
       "de": "befehlen",
-      "lv": "pavēlēt"
+      "lv": "ukazovati"
     },
     "praesens": {
       "de": "er befiehlt",
-      "lv": "viņš pavēl"
+      "lv": "on ukazuje"
     },
     "imperfektIndikativ": {
       "de": "er befahl",
-      "lv": "viņš pavēlēja"
+      "lv": "on je ukazoval"
     },
     "imperfektKonjunktiv": {
       "de": "er beföhle",
-      "lv": "viņš pavēlētu"
+      "lv": "on bi ukazoval"
     },
     "partizipVergangenheit": {
       "de": "befohlen",
-      "lv": "pavēlēts"
+      "lv": "ukazoval"
     }
   },
   {
     "infinitiv": {
       "de": "beginnen",
-      "lv": "sākt"
+      "lv": "začenjati"
     },
     "praesens": {
       "de": "er beginnt",
-      "lv": "viņš sāk"
+      "lv": "on začenja"
     },
     "imperfektIndikativ": {
       "de": "er begann",
-      "lv": "viņš sāka"
+      "lv": "on je začenjal"
     },
     "imperfektKonjunktiv": {
       "de": "er begönne / er begänne",
-      "lv": "viņš sāktu"
+      "lv": "on bi začenjal"
     },
     "partizipVergangenheit": {
       "de": "begonnen",
-      "lv": "sākts"
+      "lv": "začenjan"
     }
   },
   {
     "infinitiv": {
       "de": "beißen",
-      "lv": "kost"
+      "lv": "gristi"
     },
     "praesens": {
       "de": "er beißt",
-      "lv": "viņš kož"
+      "lv": "on grize"
     },
     "imperfektIndikativ": {
       "de": "er biss",
-      "lv": "viņš koda"
+      "lv": "on je grizel"
     },
     "imperfektKonjunktiv": {
       "de": "er bisse",
-      "lv": "viņš kostu"
+      "lv": "on bi grizel"
     },
     "partizipVergangenheit": {
       "de": "gebissen",
-      "lv": "kosts / sakosts"
+      "lv": "grizen"
     }
   },
   {
     "infinitiv": {
       "de": "bergen",
-      "lv": "slēpt"
+      "lv": "reševati / skrivati"
     },
     "praesens": {
       "de": "er birgt",
-      "lv": "viņš slēpj"
+      "lv": "on rešuje / skriva"
     },
     "imperfektIndikativ": {
       "de": "er barg",
-      "lv": "viņš slēpa"
+      "lv": "on je reševal / skrival"
     },
     "imperfektKonjunktiv": {
       "de": "er bürge / er bärge",
-      "lv": "viņš slēptu"
+      "lv": "on bi reševal / skrival"
     },
     "partizipVergangenheit": {
       "de": "geborgen",
-      "lv": "paslēpts / paglābts"
+      "lv": "reševan / skrivan"
     }
   },
   {
     "infinitiv": {
       "de": "bersten",
-      "lv": "plīst"
+      "lv": "pokati"
     },
     "praesens": {
       "de": "er birst",
-      "lv": "viņš plīst"
+      "lv": "to poka"
     },
     "imperfektIndikativ": {
       "de": "er barst / er borst",
-      "lv": "viņš plīsa"
+      "lv": "to je pokalo"
     },
     "imperfektKonjunktiv": {
       "de": "er bärste / er börste",
-      "lv": "viņš plīstu"
+      "lv": "to bi pokalo"
     },
     "partizipVergangenheit": {
       "de": "geborsten (er ist)",
-      "lv": "saplīsis"
+      "lv": "pokal"
     }
   },
   {
     "infinitiv": {
       "de": "bewegen",
-      "lv": "pamudināt"
+      "lv": "spodbujati"
     },
     "praesens": {
       "de": "er bewegt",
-      "lv": "viņš pamudina"
+      "lv": "on spodbuja"
     },
     "imperfektIndikativ": {
       "de": "er bewog",
-      "lv": "viņš pamudināja"
+      "lv": "on je spodbujal"
     },
     "imperfektKonjunktiv": {
       "de": "er bewöge",
-      "lv": "viņš pamudinātu"
+      "lv": "on bi spodbujal"
     },
     "partizipVergangenheit": {
       "de": "bewogen",
-      "lv": "pamudināts"
+      "lv": "spodbujan"
     }
   },
   {
     "infinitiv": {
       "de": "biegen",
-      "lv": "locīt"
+      "lv": "upogibati"
     },
     "praesens": {
       "de": "er biegt",
-      "lv": "viņš loka"
+      "lv": "on upogiba"
     },
     "imperfektIndikativ": {
       "de": "er bog",
-      "lv": "viņš locīja"
+      "lv": "on je upogibal"
     },
     "imperfektKonjunktiv": {
       "de": "er böge",
-      "lv": "viņš locītu"
+      "lv": "on bi upogibal"
     },
     "partizipVergangenheit": {
       "de": "gebogen",
-      "lv": "locīts"
+      "lv": "upogiban"
     }
   },
   {
     "infinitiv": {
       "de": "bieten",
-      "lv": "solīt"
+      "lv": "ponujati"
     },
     "praesens": {
       "de": "er bietet",
-      "lv": "viņš sola"
+      "lv": "on ponuja"
     },
     "imperfektIndikativ": {
       "de": "er bot",
-      "lv": "viņš solīja"
+      "lv": "on je ponujal"
     },
     "imperfektKonjunktiv": {
       "de": "er böte",
-      "lv": "viņš solītu"
+      "lv": "on bi ponujal"
     },
     "partizipVergangenheit": {
       "de": "geboten",
-      "lv": "solīts / piedāvāts"
+      "lv": "ponujan"
     }
   },
   {
     "infinitiv": {
       "de": "binden",
-      "lv": "siet"
+      "lv": "vezati"
     },
     "praesens": {
       "de": "er bindet",
-      "lv": "viņš sien"
+      "lv": "on veže"
     },
     "imperfektIndikativ": {
       "de": "er band",
-      "lv": "viņš sēja"
+      "lv": "on je vezal"
     },
     "imperfektKonjunktiv": {
       "de": "er bände",
-      "lv": "viņš sietu"
+      "lv": "on bi vezal"
     },
     "partizipVergangenheit": {
       "de": "gebunden",
-      "lv": "siets"
+      "lv": "vezan"
     }
   },
   {
     "infinitiv": {
       "de": "bitten",
-      "lv": "lūgt"
+      "lv": "prositi"
     },
     "praesens": {
       "de": "er bittet",
-      "lv": "viņš lūdz"
+      "lv": "on prosi"
     },
     "imperfektIndikativ": {
       "de": "er bat",
-      "lv": "viņš lūdza"
+      "lv": "on je prosil"
     },
     "imperfektKonjunktiv": {
       "de": "er bäte",
-      "lv": "viņš lūgtu"
+      "lv": "on bi prosil"
     },
     "partizipVergangenheit": {
       "de": "gebeten",
-      "lv": "lūgts"
+      "lv": "prošen"
     }
   },
   {
     "infinitiv": {
       "de": "blasen",
-      "lv": "pūst"
+      "lv": "pihati"
     },
     "praesens": {
       "de": "er bläst",
-      "lv": "viņš pūš"
+      "lv": "on piha"
     },
     "imperfektIndikativ": {
       "de": "er blies",
-      "lv": "viņš pūta"
+      "lv": "on je pihal"
     },
     "imperfektKonjunktiv": {
       "de": "er bliese",
-      "lv": "viņš pūstu"
+      "lv": "on bi pihal"
     },
     "partizipVergangenheit": {
       "de": "geblasen",
-      "lv": "pūsts"
+      "lv": "pihan"
     }
   },
   {
     "infinitiv": {
       "de": "gären",
-      "lv": "rūgt"
+      "lv": "vreti"
     },
     "praesens": {
       "de": "es gärt",
-      "lv": "tas rūgst"
+      "lv": "to vre"
     },
     "imperfektIndikativ": {
       "de": "es gor / es gärte",
-      "lv": "tas rūga"
+      "lv": "to je vrelo"
     },
     "imperfektKonjunktiv": {
       "de": "es göre / es gärte",
-      "lv": "tas rūgtu"
+      "lv": "to bi vrelo"
     },
     "partizipVergangenheit": {
       "de": "gegoren / gegärt",
-      "lv": "rūdzis"
+      "lv": "vrel"
     }
   },
   {
     "infinitiv": {
       "de": "gebären",
-      "lv": "dzemdēt"
+      "lv": "roditi"
     },
     "praesens": {
       "de": "sie gebiert",
-      "lv": "viņa dzemdē"
+      "lv": "ona rodi"
     },
     "imperfektIndikativ": {
       "de": "sie gebar",
-      "lv": "viņa dzemdēja"
+      "lv": "ona je rodila"
     },
     "imperfektKonjunktiv": {
       "de": "sie gebäre",
-      "lv": "viņa dzemdētu"
+      "lv": "ona bi rodila"
     },
     "partizipVergangenheit": {
       "de": "geboren",
-      "lv": "dzemdēts / piedzimis"
+      "lv": "rojen"
     }
   },
   {
     "infinitiv": {
       "de": "gelingen",
-      "lv": "izdoties"
+      "lv": "uspevati"
     },
     "praesens": {
       "de": "es gelingt",
-      "lv": "tas izdodas"
+      "lv": "to uspeva"
     },
     "imperfektIndikativ": {
       "de": "es gelang",
-      "lv": "tas izdevās"
+      "lv": "to je uspevalo"
     },
     "imperfektKonjunktiv": {
       "de": "es gelänge",
-      "lv": "tas izdotos"
+      "lv": "to bi uspevalo"
     },
     "partizipVergangenheit": {
       "de": "gelungen (es ist)",
-      "lv": "izdevies"
+      "lv": "uspeval"
     }
   },
   {
     "infinitiv": {
       "de": "gelten",
-      "lv": "noderēt"
+      "lv": "ustrezati / veljati"
     },
     "praesens": {
       "de": "er gilt",
-      "lv": "viņš der / ir spēkā"
+      "lv": "on ustreza / velja"
     },
     "imperfektIndikativ": {
       "de": "er galt",
-      "lv": "viņš derēja / bija spēkā"
+      "lv": "on je ustrezal / veljal"
     },
     "imperfektKonjunktiv": {
       "de": "er gölte / es gälte",
-      "lv": "viņš derētu / tas būtu spēkā"
+      "lv": "on bi ustrezal / veljal"
     },
     "partizipVergangenheit": {
       "de": "gegolten",
-      "lv": "derējis / bijis spēkā"
+      "lv": "ustrezal / veljal"
     }
   },
   {
     "infinitiv": {
       "de": "genesen",
-      "lv": "izveseļoties"
+      "lv": "okrevati"
     },
     "praesens": {
       "de": "er genest",
-      "lv": "viņš izveseļojas"
+      "lv": "on okreva"
     },
     "imperfektIndikativ": {
       "de": "er genas",
-      "lv": "viņš izveseļojās"
+      "lv": "on je okreval"
     },
     "imperfektKonjunktiv": {
       "de": "er genäse",
-      "lv": "viņš izveseļotos"
+      "lv": "on bi okreval"
     },
     "partizipVergangenheit": {
       "de": "genesen (er ist)",
-      "lv": "izveseļojies"
+      "lv": "okreval"
     }
   },
   {
     "infinitiv": {
       "de": "genießen",
-      "lv": "baudīt"
+      "lv": "uživati"
     },
     "praesens": {
       "de": "er genießt",
-      "lv": "viņš bauda"
+      "lv": "on uživa"
     },
     "imperfektIndikativ": {
       "de": "er genoss",
-      "lv": "viņš baudīja"
+      "lv": "on je užival"
     },
     "imperfektKonjunktiv": {
       "de": "er genösse",
-      "lv": "viņš baudītu"
+      "lv": "on bi užival"
     },
     "partizipVergangenheit": {
       "de": "genossen",
-      "lv": "baudīts"
+      "lv": "uživan"
     }
   },
   {
     "infinitiv": {
       "de": "geschehen",
-      "lv": "notikt"
+      "lv": "goditi se"
     },
     "praesens": {
       "de": "es geschieht",
-      "lv": "tas notiek"
+      "lv": "to se godi"
     },
     "imperfektIndikativ": {
       "de": "es geschah",
-      "lv": "tas notika"
+      "lv": "to se je godilo"
     },
     "imperfektKonjunktiv": {
       "de": "es geschähe",
-      "lv": "tas notiktu"
+      "lv": "to bi se godilo"
     },
     "partizipVergangenheit": {
       "de": "geschehen (es ist)",
-      "lv": "noticis"
+      "lv": "godil se"
     }
   },
   {
     "infinitiv": {
       "de": "gießen",
-      "lv": "liet"
+      "lv": "zlivati"
     },
     "praesens": {
       "de": "er gießt",
-      "lv": "viņš lej"
+      "lv": "on zliva"
     },
     "imperfektIndikativ": {
       "de": "er goss",
-      "lv": "viņš lēja"
+      "lv": "on je zlival"
     },
     "imperfektKonjunktiv": {
       "de": "er gösse",
-      "lv": "viņš lietu"
+      "lv": "on bi zlival"
     },
     "partizipVergangenheit": {
       "de": "gegossen",
-      "lv": "liets"
+      "lv": "zlivan"
     }
   },
   {
     "infinitiv": {
       "de": "gleichen",
-      "lv": "līdzināties"
+      "lv": "biti podoben"
     },
     "praesens": {
       "de": "er gleicht",
-      "lv": "viņš līdzinās"
+      "lv": "on je podoben"
     },
     "imperfektIndikativ": {
       "de": "er glich",
-      "lv": "viņš līdzinājās"
+      "lv": "on je bil podoben"
     },
     "imperfektKonjunktiv": {
       "de": "er gliche",
-      "lv": "viņš līdzinātos"
+      "lv": "on bi bil podoben"
     },
     "partizipVergangenheit": {
       "de": "geglichen",
-      "lv": "līdzinājies"
+      "lv": "bil podoben"
     }
   },
   {
     "infinitiv": {
       "de": "gleiten",
-      "lv": "slīdēt"
+      "lv": "drseti"
     },
     "praesens": {
       "de": "er gleitet",
-      "lv": "viņš slīd"
+      "lv": "on drsi"
     },
     "imperfektIndikativ": {
       "de": "er glitt",
-      "lv": "viņš slīdēja"
+      "lv": "on je drsel"
     },
     "imperfektKonjunktiv": {
       "de": "er glitte",
-      "lv": "viņš slīdētu"
+      "lv": "on bi drsel"
     },
     "partizipVergangenheit": {
       "de": "geglitten (er ist)",
-      "lv": "slīdējis"
+      "lv": "drsel"
     }
   },
   {
     "infinitiv": {
       "de": "glimmen",
-      "lv": "kvēlot"
+      "lv": "tleti"
     },
     "praesens": {
       "de": "er glimmt",
-      "lv": "viņš kvēlo"
+      "lv": "to tli"
     },
     "imperfektIndikativ": {
       "de": "er glimmte / glomm",
-      "lv": "viņš kvēloja"
+      "lv": "to je tlelo"
     },
     "imperfektKonjunktiv": {
       "de": "er glimmte",
-      "lv": "viņš kvēlotu"
+      "lv": "to bi tlelo"
     },
     "partizipVergangenheit": {
       "de": "geglimmt / geglommen",
-      "lv": "kvēlojis"
+      "lv": "tlel"
     }
   },
   {
     "infinitiv": {
       "de": "graben",
-      "lv": "rakt"
+      "lv": "kopati"
     },
     "praesens": {
       "de": "er gräbt",
-      "lv": "viņš rok"
+      "lv": "on koplje"
     },
     "imperfektIndikativ": {
       "de": "er grub",
-      "lv": "viņš raka"
+      "lv": "on je kopal"
     },
     "imperfektKonjunktiv": {
       "de": "er grübe",
-      "lv": "viņš raktu"
+      "lv": "on bi kopal"
     },
     "partizipVergangenheit": {
       "de": "gegraben",
-      "lv": "rakts"
+      "lv": "kopan"
     }
   },
   {
     "infinitiv": {
       "de": "greifen",
-      "lv": "ķert"
+      "lv": "prijemati"
     },
     "praesens": {
       "de": "er greift",
-      "lv": "viņš ķer"
+      "lv": "on prijema"
     },
     "imperfektIndikativ": {
       "de": "er griff",
-      "lv": "viņš ķēra"
+      "lv": "on je prijemal"
     },
     "imperfektKonjunktiv": {
       "de": "er griffe",
-      "lv": "viņš ķertu"
+      "lv": "on bi prijemal"
     },
     "partizipVergangenheit": {
       "de": "gegriffen",
-      "lv": "ķerts / satverts"
+      "lv": "prijeman"
     }
   },
   {
     "infinitiv": {
       "de": "hauen",
-      "lv": "cirst"
+      "lv": "sekati"
     },
     "praesens": {
       "de": "er haut",
-      "lv": "viņš cērt"
+      "lv": "on seka"
     },
     "imperfektIndikativ": {
       "de": "er hieb",
-      "lv": "viņš cirta"
+      "lv": "on je sekal"
     },
     "imperfektKonjunktiv": {
       "de": "er hiebe",
-      "lv": "viņš cirstu"
+      "lv": "on bi sekal"
     },
     "partizipVergangenheit": {
       "de": "gehauen",
-      "lv": "cirsts"
+      "lv": "sekan"
     }
   },
   {
     "infinitiv": {
       "de": "heben",
-      "lv": "celt"
+      "lv": "dvigati"
     },
     "praesens": {
       "de": "er hebt",
-      "lv": "viņš ceļ"
+      "lv": "on dviga"
     },
     "imperfektIndikativ": {
       "de": "er hob",
-      "lv": "viņš cēla"
+      "lv": "on je dvigal"
     },
     "imperfektKonjunktiv": {
       "de": "er höbe",
-      "lv": "viņš celtu"
+      "lv": "on bi dvigal"
     },
     "partizipVergangenheit": {
       "de": "gehoben",
-      "lv": "celts"
+      "lv": "dvigan"
     }
   },
   {
     "infinitiv": {
       "de": "kennen",
-      "lv": "pazīt / zināt"
+      "lv": "poznati / vedeti"
     },
     "praesens": {
       "de": "er kennt",
-      "lv": "viņš pazīst"
+      "lv": "on pozna / ve"
     },
     "imperfektIndikativ": {
       "de": "kannte",
-      "lv": "pazina"
+      "lv": "on je poznal / vedel"
     },
     "imperfektKonjunktiv": {
       "de": "kannte",
-      "lv": "pazina"
+      "lv": "on bi poznal / vedel"
     },
     "partizipVergangenheit": {
       "de": "gekannt",
-      "lv": "pazinis"
+      "lv": "poznan / vedel"
     }
   },
   {
     "infinitiv": {
       "de": "klingen",
-      "lv": "skanēt"
+      "lv": "zveneti"
     },
     "praesens": {
       "de": "er klingt",
-      "lv": "viņš skan"
+      "lv": "to zveni"
     },
     "imperfektIndikativ": {
       "de": "er klang",
-      "lv": "viņš skanēja"
+      "lv": "to je zvenelo"
     },
     "imperfektKonjunktiv": {
       "de": "er klänge",
-      "lv": "viņš skanētu"
+      "lv": "to bi zvenelo"
     },
     "partizipVergangenheit": {
       "de": "geklungen",
-      "lv": "skanējis"
+      "lv": "zvenel"
     }
   },
   {
     "infinitiv": {
       "de": "kneifen",
-      "lv": "kniebt"
+      "lv": "ščipati"
     },
     "praesens": {
       "de": "er kneift",
-      "lv": "viņš kniebj"
+      "lv": "on ščipa"
     },
     "imperfektIndikativ": {
       "de": "er kniff",
-      "lv": "viņš knieba"
+      "lv": "on je ščipal"
     },
     "imperfektKonjunktiv": {
       "de": "er kniffe",
-      "lv": "viņš kniebtu"
+      "lv": "on bi ščipal"
     },
     "partizipVergangenheit": {
       "de": "gekniffen",
-      "lv": "kniebts"
+      "lv": "ščipan"
     }
   },
   {
     "infinitiv": {
       "de": "bleiben",
-      "lv": "palikt"
+      "lv": "ostajati"
     },
     "praesens": {
       "de": "er bleibt",
-      "lv": "viņš paliek"
+      "lv": "on ostaja"
     },
     "imperfektIndikativ": {
       "de": "er blieb",
-      "lv": "viņš palika"
+      "lv": "on je ostajal"
     },
     "imperfektKonjunktiv": {
       "de": "er bliebe",
-      "lv": "viņš paliktu"
+      "lv": "on bi ostajal"
     },
     "partizipVergangenheit": {
       "de": "geblieben (er ist)",
-      "lv": "palicis"
+      "lv": "ostajal"
     }
   },
   {
     "infinitiv": {
       "de": "bleichen",
-      "lv": "balināt"
+      "lv": "bledeti"
     },
     "praesens": {
       "de": "er bleicht",
-      "lv": "viņš balina"
+      "lv": "to bledi"
     },
     "imperfektIndikativ": {
       "de": "blich",
-      "lv": "balināja"
+      "lv": "to je bledelo"
     },
     "imperfektKonjunktiv": {
       "de": "blich",
-      "lv": "balināja"
+      "lv": "to bi bledelo"
     },
     "partizipVergangenheit": {
       "de": "geblichen",
-      "lv": "balināts"
+      "lv": "bledel"
     }
   },
   {
     "infinitiv": {
       "de": "braten",
-      "lv": "cept"
+      "lv": "pražiti"
     },
     "praesens": {
       "de": "er brät",
-      "lv": "viņš cep"
+      "lv": "on praži"
     },
     "imperfektIndikativ": {
       "de": "er briet",
-      "lv": "viņš cepa"
+      "lv": "on je pražil"
     },
     "imperfektKonjunktiv": {
       "de": "er briete",
-      "lv": "viņš ceptu"
+      "lv": "on bi pražil"
     },
     "partizipVergangenheit": {
       "de": "gebraten",
-      "lv": "cepts / izcepts"
+      "lv": "pražen"
     }
   },
   {
     "infinitiv": {
       "de": "brechen",
-      "lv": "lauzt"
+      "lv": "lomiti"
     },
     "praesens": {
       "de": "er bricht",
-      "lv": "viņš lauž"
+      "lv": "on lomi"
     },
     "imperfektIndikativ": {
       "de": "er brach",
-      "lv": "viņš lauza"
+      "lv": "on je lomil"
     },
     "imperfektKonjunktiv": {
       "de": "er bräche",
-      "lv": "viņš lauztu"
+      "lv": "on bi lomil"
     },
     "partizipVergangenheit": {
       "de": "gebrochen",
-      "lv": "lauzts / salauzts"
+      "lv": "lomljen"
     }
   },
   {
     "infinitiv": {
       "de": "brennen",
-      "lv": "degt"
+      "lv": "goreti"
     },
     "praesens": {
       "de": "er brennt",
-      "lv": "viņš deg"
+      "lv": "to gori"
     },
     "imperfektIndikativ": {
       "de": "brannte",
-      "lv": "dega"
+      "lv": "to je gorelo"
     },
     "imperfektKonjunktiv": {
       "de": "brannte",
-      "lv": "dega"
+      "lv": "to bi gorelo"
     },
     "partizipVergangenheit": {
       "de": "gebrannt",
-      "lv": "dedzis"
+      "lv": "gorel"
     }
   },
   {
     "infinitiv": {
       "de": "bringen",
-      "lv": "nest"
+      "lv": "prinašati"
     },
     "praesens": {
       "de": "er bringt",
-      "lv": "viņš nes"
+      "lv": "on prinaša"
     },
     "imperfektIndikativ": {
       "de": "er brachte",
-      "lv": "viņš nesa"
+      "lv": "on je prinašal"
     },
     "imperfektKonjunktiv": {
       "de": "er brächte",
-      "lv": "viņš nestu"
+      "lv": "on bi prinašal"
     },
     "partizipVergangenheit": {
       "de": "gebracht",
-      "lv": "nests / atnests"
+      "lv": "prinašan"
     }
   },
   {
     "infinitiv": {
       "de": "denken",
-      "lv": "domāt"
+      "lv": "misliti"
     },
     "praesens": {
       "de": "er denkt",
-      "lv": "viņš domā"
+      "lv": "on misli"
     },
     "imperfektIndikativ": {
       "de": "er dachte",
-      "lv": "viņš domāja"
+      "lv": "on je mislil"
     },
     "imperfektKonjunktiv": {
       "de": "er dächte",
-      "lv": "viņš domātu"
+      "lv": "on bi mislil"
     },
     "partizipVergangenheit": {
       "de": "gedacht",
-      "lv": "domāts"
+      "lv": "mišljen"
     }
   },
   {
     "infinitiv": {
       "de": "dingen",
-      "lv": "nolīgt / vienoties"
+      "lv": "najemati / dogovarjati se"
     },
     "praesens": {
       "de": "er dingt",
-      "lv": "viņš nolīgst"
+      "lv": "on najema / se dogovarja"
     },
     "imperfektIndikativ": {
       "de": "dingte",
-      "lv": "nolīga"
+      "lv": "on je najemal / se dogovarjal"
     },
     "imperfektKonjunktiv": {
       "de": "dingte",
-      "lv": "nolīga"
+      "lv": "on bi najemal / se dogovarjal"
     },
     "partizipVergangenheit": {
       "de": "gedungen",
-      "lv": "nolīgts"
+      "lv": "najeman / dogovarjal se"
     }
   },
   {
     "infinitiv": {
       "de": "dreschen",
-      "lv": "kult"
+      "lv": "mlatiti"
     },
     "praesens": {
       "de": "er drischt",
-      "lv": "viņš kuļ"
+      "lv": "on mlati"
     },
     "imperfektIndikativ": {
       "de": "er drasch / er drosch",
-      "lv": "viņš kūla"
+      "lv": "on je mlatil"
     },
     "imperfektKonjunktiv": {
       "de": "er dräsche / er drösche",
-      "lv": "viņš kultu"
+      "lv": "on bi mlatil"
     },
     "partizipVergangenheit": {
       "de": "gedroschen",
-      "lv": "kults"
+      "lv": "mlačen"
     }
   },
   {
     "infinitiv": {
       "de": "dringen",
-      "lv": "ielauzties"
+      "lv": "vdirati"
     },
     "praesens": {
       "de": "er dringt",
-      "lv": "viņš ielaužas"
+      "lv": "on vdira"
     },
     "imperfektIndikativ": {
       "de": "er drang",
-      "lv": "viņš ielauzās"
+      "lv": "on je vdiral"
     },
     "imperfektKonjunktiv": {
       "de": "er dränge",
-      "lv": "viņš ielauztos"
+      "lv": "on bi vdiral"
     },
     "partizipVergangenheit": {
       "de": "gedrungen (er ist)",
-      "lv": "ielauzies"
+      "lv": "vdiral"
     }
   },
   {
     "infinitiv": {
       "de": "dünken",
-      "lv": "šķist"
+      "lv": "zdeti se"
     },
     "praesens": {
       "de": "es dünkt",
-      "lv": "tas šķiet"
+      "lv": "to se zdi"
     },
     "imperfektIndikativ": {
       "de": "deuchte",
-      "lv": "šķita"
+      "lv": "to se je zdelo"
     },
     "imperfektKonjunktiv": {
       "de": "deuchte",
-      "lv": "šķita"
+      "lv": "to bi se zdelo"
     },
     "partizipVergangenheit": {
       "de": "gedünkt",
-      "lv": "šķitis"
+      "lv": "zdel se"
     }
   },
   {
     "infinitiv": {
       "de": "dürfen",
-      "lv": "drīkstēt"
+      "lv": "smeti"
     },
     "praesens": {
       "de": "er darf",
-      "lv": "viņš drīkst"
+      "lv": "on sme"
     },
     "imperfektIndikativ": {
       "de": "durfte",
-      "lv": "drīkstēja"
+      "lv": "on je smel"
     },
     "imperfektKonjunktiv": {
       "de": "durfte",
-      "lv": "drīkstēja"
+      "lv": "on bi smel"
     },
     "partizipVergangenheit": {
       "de": "gedurft",
-      "lv": "drīkstējis"
+      "lv": "smel"
     }
   },
   {
     "infinitiv": {
       "de": "empfehlen",
-      "lv": "ieteikt"
+      "lv": "priporočati"
     },
     "praesens": {
       "de": "er empfiehlt",
-      "lv": "viņš iesaka"
+      "lv": "on priporoča"
     },
     "imperfektIndikativ": {
       "de": "er empfahl",
-      "lv": "viņš ieteica"
+      "lv": "on je priporočal"
     },
     "imperfektKonjunktiv": {
       "de": "er empfähle / er empföhle",
-      "lv": "viņš ieteiktu"
+      "lv": "on bi priporočal"
     },
     "partizipVergangenheit": {
       "de": "empfohlen",
-      "lv": "ieteikts"
+      "lv": "priporočan"
     }
   },
   {
     "infinitiv": {
       "de": "empfinden",
-      "lv": "sajust"
+      "lv": "čutiti"
     },
     "praesens": {
       "de": "er empfindet",
-      "lv": "viņš sajūt"
+      "lv": "on čuti"
     },
     "imperfektIndikativ": {
       "de": "er empfand",
-      "lv": "viņš sajuta"
+      "lv": "on je čutil"
     },
     "imperfektKonjunktiv": {
       "de": "er empfände",
-      "lv": "viņš sajustu"
+      "lv": "on bi čutil"
     },
     "partizipVergangenheit": {
       "de": "empfunden",
-      "lv": "sajusts"
+      "lv": "čuten"
     }
   },
   {
     "infinitiv": {
       "de": "erlöschen",
-      "lv": "izdzist"
+      "lv": "ugašati"
     },
     "praesens": {
       "de": "er erlischt",
-      "lv": "viņš izdziest"
+      "lv": "to ugaša"
     },
     "imperfektIndikativ": {
       "de": "er erlosch",
-      "lv": "viņš izdzisa"
+      "lv": "to je ugašalo"
     },
     "imperfektKonjunktiv": {
       "de": "er erlösche",
-      "lv": "viņš izdzistu"
+      "lv": "to bi ugašalo"
     },
     "partizipVergangenheit": {
       "de": "erloschen (er ist)",
-      "lv": "izdzisis"
+      "lv": "ugašal"
     }
   },
   {
     "infinitiv": {
       "de": "erschrecken",
-      "lv": "sabīties"
+      "lv": "plašiti se"
     },
     "praesens": {
       "de": "er erschrickt",
-      "lv": "viņš sabīstas"
+      "lv": "on se plaši"
     },
     "imperfektIndikativ": {
       "de": "er erschrak",
-      "lv": "viņš sabijās"
+      "lv": "on se je plašil"
     },
     "imperfektKonjunktiv": {
       "de": "er erschräke",
-      "lv": "viņš sabītos"
+      "lv": "on bi se plašil"
     },
     "partizipVergangenheit": {
       "de": "erschrocken (er ist)",
-      "lv": "sabijies"
+      "lv": "plašil se"
     }
   },
   {
     "infinitiv": {
       "de": "essen",
-      "lv": "ēst"
+      "lv": "jesti"
     },
     "praesens": {
       "de": "er isst",
-      "lv": "viņš ēd"
+      "lv": "on je"
     },
     "imperfektIndikativ": {
       "de": "er ass",
-      "lv": "viņš ēda"
+      "lv": "on je jedel"
     },
     "imperfektKonjunktiv": {
       "de": "er äße",
-      "lv": "viņš ēstu"
+      "lv": "on bi jedel"
     },
     "partizipVergangenheit": {
       "de": "gegessen",
-      "lv": "ēsts / apēsts"
+      "lv": "jedel"
     }
   },
   {
     "infinitiv": {
       "de": "fahren",
-      "lv": "braukt"
+      "lv": "voziti"
     },
     "praesens": {
       "de": "er fährt",
-      "lv": "viņš brauc"
+      "lv": "on vozi"
     },
     "imperfektIndikativ": {
       "de": "er fuhr",
-      "lv": "viņš brauca"
+      "lv": "on je vozil"
     },
     "imperfektKonjunktiv": {
       "de": "er führe",
-      "lv": "viņš brauktu"
+      "lv": "on bi vozil"
     },
     "partizipVergangenheit": {
       "de": "gefahren (er ist)",
-      "lv": "braucis / aizbraucis"
+      "lv": "vozil"
     }
   },
   {
     "infinitiv": {
       "de": "fallen",
-      "lv": "krist"
+      "lv": "padati"
     },
     "praesens": {
       "de": "er fällt",
-      "lv": "viņš krīt"
+      "lv": "on pada"
     },
     "imperfektIndikativ": {
       "de": "er fiel",
-      "lv": "viņš krita"
+      "lv": "on je padal"
     },
     "imperfektKonjunktiv": {
       "de": "er fiele",
-      "lv": "viņš kristu"
+      "lv": "on bi padal"
     },
     "partizipVergangenheit": {
       "de": "gefallen (er ist)",
-      "lv": "kritis"
+      "lv": "padal"
     }
   },
   {
     "infinitiv": {
       "de": "fangen",
-      "lv": "ķert"
+      "lv": "loviti"
     },
     "praesens": {
       "de": "er fängt",
-      "lv": "viņš ķer"
+      "lv": "on lovi"
     },
     "imperfektIndikativ": {
       "de": "er fing",
-      "lv": "viņš ķēra"
+      "lv": "on je lovil"
     },
     "imperfektKonjunktiv": {
       "de": "er finge",
-      "lv": "viņš ķertu"
+      "lv": "on bi lovil"
     },
     "partizipVergangenheit": {
       "de": "gefangen",
-      "lv": "ķerts / noķerts"
+      "lv": "lovljen"
     }
   },
   {
     "infinitiv": {
       "de": "finden",
-      "lv": "atrast"
+      "lv": "najdevati"
     },
     "praesens": {
       "de": "er findet",
-      "lv": "viņš atrod"
+      "lv": "on najdeva"
     },
     "imperfektIndikativ": {
       "de": "er fand",
-      "lv": "viņš atrada"
+      "lv": "on je najdeval"
     },
     "imperfektKonjunktiv": {
       "de": "er fände",
-      "lv": "viņš atrastu"
+      "lv": "on bi najdeval"
     },
     "partizipVergangenheit": {
       "de": "gefunden",
-      "lv": "atrasts"
+      "lv": "najdevan"
     }
   },
   {
     "infinitiv": {
       "de": "fliegen",
-      "lv": "laisties"
+      "lv": "leteti"
     },
     "praesens": {
       "de": "er fliegt",
-      "lv": "viņš lido"
+      "lv": "on leti"
     },
     "imperfektIndikativ": {
       "de": "er flog",
-      "lv": "viņš lidoja"
+      "lv": "on je letel"
     },
     "imperfektKonjunktiv": {
       "de": "er flöge",
-      "lv": "viņš lidotu"
+      "lv": "on bi letel"
     },
     "partizipVergangenheit": {
       "de": "geflogen (er ist)",
-      "lv": "lidojis"
+      "lv": "letel"
     }
   },
   {
     "infinitiv": {
       "de": "fliehen",
-      "lv": "bēgt"
+      "lv": "bežati"
     },
     "praesens": {
       "de": "er flieht",
-      "lv": "viņš bēg"
+      "lv": "on beži"
     },
     "imperfektIndikativ": {
       "de": "er floh",
-      "lv": "viņš bēga"
+      "lv": "on je bežal"
     },
     "imperfektKonjunktiv": {
       "de": "er flöhe",
-      "lv": "viņš bēgtu"
+      "lv": "on bi bežal"
     },
     "partizipVergangenheit": {
       "de": "geflohen (er ist)",
-      "lv": "aizbēdzis"
+      "lv": "bežal"
     }
   },
   {
     "infinitiv": {
       "de": "fließen",
-      "lv": "tecēt"
+      "lv": "teči"
     },
     "praesens": {
       "de": "er fließt",
-      "lv": "viņš tek"
+      "lv": "to teče"
     },
     "imperfektIndikativ": {
       "de": "er floss",
-      "lv": "viņš tecēja"
+      "lv": "to je teklo"
     },
     "imperfektKonjunktiv": {
       "de": "er flösse",
-      "lv": "viņš tecētu"
+      "lv": "to bi teklo"
     },
     "partizipVergangenheit": {
       "de": "geflossen (er ist)",
-      "lv": "tecējis"
+      "lv": "tekel"
     }
   },
   {
     "infinitiv": {
       "de": "fressen",
-      "lv": "ēst, rīt"
+      "lv": "jesti / žreti"
     },
     "praesens": {
       "de": "er frisst",
-      "lv": "viņš ēd / rij"
+      "lv": "on je / žre"
     },
     "imperfektIndikativ": {
       "de": "er frass",
-      "lv": "viņš ēda / rija"
+      "lv": "on je jedel / žrl"
     },
     "imperfektKonjunktiv": {
       "de": "er fräße",
-      "lv": "viņš ēstu / rītu"
+      "lv": "on bi jedel / žrl"
     },
     "partizipVergangenheit": {
       "de": "gefressen",
-      "lv": "apēsts / rīts"
+      "lv": "jedel / žrt"
     }
   },
   {
     "infinitiv": {
       "de": "frieren",
-      "lv": "salt"
+      "lv": "prezebati"
     },
     "praesens": {
       "de": "er friert",
-      "lv": "viņš salst"
+      "lv": "on prezeba"
     },
     "imperfektIndikativ": {
       "de": "er fror",
-      "lv": "viņš sala"
+      "lv": "on je prezebal"
     },
     "imperfektKonjunktiv": {
       "de": "er fröre",
-      "lv": "viņš saltu"
+      "lv": "on bi prezebal"
     },
     "partizipVergangenheit": {
       "de": "gefroren",
-      "lv": "salis"
+      "lv": "prezebal"
     }
   },
   {
     "infinitiv": {
       "de": "geben",
-      "lv": "dot"
+      "lv": "dajati"
     },
     "praesens": {
       "de": "er gibt",
-      "lv": "viņš dod"
+      "lv": "on daje"
     },
     "imperfektIndikativ": {
       "de": "er gab",
-      "lv": "viņš deva"
+      "lv": "on je dajal"
     },
     "imperfektKonjunktiv": {
       "de": "er gäbe",
-      "lv": "viņš dotu"
+      "lv": "on bi dajal"
     },
     "partizipVergangenheit": {
       "de": "gegeben",
-      "lv": "dots"
+      "lv": "dajan"
     }
   },
   {
     "infinitiv": {
       "de": "gedeihen",
-      "lv": "izdoties"
+      "lv": "uspevati"
     },
     "praesens": {
       "de": "er gedeiht",
-      "lv": "viņam izdodas"
+      "lv": "on uspeva"
     },
     "imperfektIndikativ": {
       "de": "er gedieh",
-      "lv": "viņam izdevās"
+      "lv": "on je uspeval"
     },
     "imperfektKonjunktiv": {
       "de": "er gediehe",
-      "lv": "viņam izdotos"
+      "lv": "on bi uspeval"
     },
     "partizipVergangenheit": {
       "de": "gediehen (er ist)",
-      "lv": "izdevies"
+      "lv": "uspeval"
     }
   },
   {
     "infinitiv": {
       "de": "gehen",
-      "lv": "iet"
+      "lv": "iti"
     },
     "praesens": {
       "de": "er geht",
-      "lv": "viņš iet"
+      "lv": "on gre"
     },
     "imperfektIndikativ": {
       "de": "er ging",
-      "lv": "viņš gāja"
+      "lv": "on je šel"
     },
     "imperfektKonjunktiv": {
       "de": "er ginge",
-      "lv": "viņš ietu"
+      "lv": "on bi šel"
     },
     "partizipVergangenheit": {
       "de": "gegangen (er ist)",
-      "lv": "gājis"
+      "lv": "šel"
     }
   },
   {
     "infinitiv": {
       "de": "gewinnen",
-      "lv": "iegūt"
+      "lv": "pridobivati"
     },
     "praesens": {
       "de": "er gewinnt",
-      "lv": "viņš iegūst"
+      "lv": "on pridobiva"
     },
     "imperfektIndikativ": {
       "de": "er gewann",
-      "lv": "viņš ieguva"
+      "lv": "on je pridobival"
     },
     "imperfektKonjunktiv": {
       "de": "er gewönne / er gewänne",
-      "lv": "viņš iegūtu"
+      "lv": "on bi pridobival"
     },
     "partizipVergangenheit": {
       "de": "gewonnen",
-      "lv": "iegūts"
+      "lv": "pridobivan"
     }
   },
   {
     "infinitiv": {
       "de": "haben",
-      "lv": "būt / piederēt"
+      "lv": "imeti"
     },
     "praesens": {
       "de": "er hat",
-      "lv": "viņam ir"
+      "lv": "on ima"
     },
     "imperfektIndikativ": {
       "de": "hatte",
-      "lv": "bija"
+      "lv": "on je imel"
     },
     "imperfektKonjunktiv": {
       "de": "hatte",
-      "lv": "bija"
+      "lv": "on bi imel"
     },
     "partizipVergangenheit": {
       "de": "gehabt",
-      "lv": "bijis"
+      "lv": "imel"
     }
   },
   {
     "infinitiv": {
       "de": "halten",
-      "lv": "turēt"
+      "lv": "držati"
     },
     "praesens": {
       "de": "er hält",
-      "lv": "viņš tur"
+      "lv": "on drži"
     },
     "imperfektIndikativ": {
       "de": "er hielt",
-      "lv": "viņš turēja"
+      "lv": "on je držal"
     },
     "imperfektKonjunktiv": {
       "de": "er hielte",
-      "lv": "viņš turētu"
+      "lv": "on bi držal"
     },
     "partizipVergangenheit": {
       "de": "gehalten",
-      "lv": "turēts"
+      "lv": "držan"
     }
   },
   {
     "infinitiv": {
       "de": "heißen",
-      "lv": "saukt"
+      "lv": "klicati / imenovati se"
     },
     "praesens": {
       "de": "er heißt",
-      "lv": "viņš sauc / viņu sauc"
+      "lv": "on kliče / se imenuje"
     },
     "imperfektIndikativ": {
       "de": "er hieß",
-      "lv": "viņš sauca / viņu sauca"
+      "lv": "on je klical / se imenoval"
     },
     "imperfektKonjunktiv": {
       "de": "er hieße",
-      "lv": "viņš sauktu / viņu sauktu"
+      "lv": "on bi klical / se imenoval"
     },
     "partizipVergangenheit": {
       "de": "geheißen",
-      "lv": "saukts"
+      "lv": "klican / imenoval se"
     }
   },
   {
     "infinitiv": {
       "de": "helfen",
-      "lv": "palīdzēt"
+      "lv": "pomagati"
     },
     "praesens": {
       "de": "er hilft",
-      "lv": "viņš palīdz"
+      "lv": "on pomaga"
     },
     "imperfektIndikativ": {
       "de": "er half",
-      "lv": "viņš palīdzēja"
+      "lv": "on je pomagal"
     },
     "imperfektKonjunktiv": {
       "de": "er hülfe / er hälfe",
-      "lv": "viņš palīdzētu"
+      "lv": "on bi pomagal"
     },
     "partizipVergangenheit": {
       "de": "geholfen",
-      "lv": "palīdzēts"
+      "lv": "pomagal"
     }
   },
   {
     "infinitiv": {
       "de": "kommen",
-      "lv": "nākt"
+      "lv": "prihajati"
     },
     "praesens": {
       "de": "er kommt",
-      "lv": "viņš nāk"
+      "lv": "on prihaja"
     },
     "imperfektIndikativ": {
       "de": "er kam",
-      "lv": "viņš nāca"
+      "lv": "on je prihajal"
     },
     "imperfektKonjunktiv": {
       "de": "er käme",
-      "lv": "viņš nāktu"
+      "lv": "on bi prihajal"
     },
     "partizipVergangenheit": {
       "de": "gekommen (er ist)",
-      "lv": "atnācis"
+      "lv": "prihajal"
     }
   },
   {
     "infinitiv": {
       "de": "können",
-      "lv": "varēt"
+      "lv": "moči"
     },
     "praesens": {
       "de": "er kann",
-      "lv": "viņš var"
+      "lv": "on more"
     },
     "imperfektIndikativ": {
       "de": "konnte",
-      "lv": "varēja"
+      "lv": "on je mogel"
     },
     "imperfektKonjunktiv": {
       "de": "konnte",
-      "lv": "varēja"
+      "lv": "on bi mogel"
     },
     "partizipVergangenheit": {
       "de": "gekonnt",
-      "lv": "varējis"
+      "lv": "mogel"
     }
   },
   {
     "infinitiv": {
       "de": "kriechen",
-      "lv": "līst"
+      "lv": "lesti"
     },
     "praesens": {
       "de": "er kriecht",
-      "lv": "viņš lien"
+      "lv": "on leze"
     },
     "imperfektIndikativ": {
       "de": "er kroch",
-      "lv": "viņš līda"
+      "lv": "on je lezel"
     },
     "imperfektKonjunktiv": {
       "de": "er kröche",
-      "lv": "viņš līstu"
+      "lv": "on bi lezel"
     },
     "partizipVergangenheit": {
       "de": "gekrochen (er ist)",
-      "lv": "līdis"
+      "lv": "lezel"
     }
   },
   {
     "infinitiv": {
       "de": "laden",
-      "lv": "kraut, ielūgt"
+      "lv": "nalagati / vabiti"
     },
     "praesens": {
       "de": "er lädt",
-      "lv": "viņš krauj / ielūdz"
+      "lv": "on nalaga / vabi"
     },
     "imperfektIndikativ": {
       "de": "er lud",
-      "lv": "viņš krāva / ielūdza"
+      "lv": "on je nalagal / vabil"
     },
     "imperfektKonjunktiv": {
       "de": "er lüde",
-      "lv": "viņš krautu / ielūgtu"
+      "lv": "on bi nalagal / vabil"
     },
     "partizipVergangenheit": {
       "de": "geladen",
-      "lv": "krauts / ielūgts"
+      "lv": "nalagan / vabljen"
     }
   },
   {
     "infinitiv": {
       "de": "lassen",
-      "lv": "likt, ļaut"
+      "lv": "ukazovati / puščati"
     },
     "praesens": {
       "de": "er lässt",
-      "lv": "viņš liek / ļauj"
+      "lv": "on ukazuje / pušča"
     },
     "imperfektIndikativ": {
       "de": "er ließ",
-      "lv": "viņš lika / ļāva"
+      "lv": "on je ukazoval / puščal"
     },
     "imperfektKonjunktiv": {
       "de": "er ließe",
-      "lv": "viņš liktu / ļautu"
+      "lv": "on bi ukazoval / puščal"
     },
     "partizipVergangenheit": {
       "de": "gelassen",
-      "lv": "likts / ļauts"
+      "lv": "ukazoval / puščan"
     }
   },
   {
     "infinitiv": {
       "de": "laufen",
-      "lv": "skriet"
+      "lv": "teči"
     },
     "praesens": {
       "de": "er läuft",
-      "lv": "viņš skrien"
+      "lv": "on teče"
     },
     "imperfektIndikativ": {
       "de": "er lief",
-      "lv": "viņš skrēja"
+      "lv": "on je tekel"
     },
     "imperfektKonjunktiv": {
       "de": "er liefe",
-      "lv": "viņš skrietu"
+      "lv": "on bi tekel"
     },
     "partizipVergangenheit": {
       "de": "gelaufen (er ist)",
-      "lv": "skrējis"
+      "lv": "tekel"
     }
   },
   {
     "infinitiv": {
       "de": "leiden",
-      "lv": "ciest"
+      "lv": "trpeti"
     },
     "praesens": {
       "de": "er leidet",
-      "lv": "viņš cieš"
+      "lv": "on trpi"
     },
     "imperfektIndikativ": {
       "de": "er litt",
-      "lv": "viņš cieta"
+      "lv": "on je trpel"
     },
     "imperfektKonjunktiv": {
       "de": "er litte",
-      "lv": "viņš ciestu"
+      "lv": "on bi trpel"
     },
     "partizipVergangenheit": {
       "de": "gelitten",
-      "lv": "ciests"
+      "lv": "trpel"
     }
   },
   {
     "infinitiv": {
       "de": "leihen",
-      "lv": "aizdot / aizņemties"
+      "lv": "posojati / izposojati si"
     },
     "praesens": {
       "de": "er leiht",
-      "lv": "viņš aizdod / aizņemas"
+      "lv": "on posoja / si izposoja"
     },
     "imperfektIndikativ": {
       "de": "er lieh",
-      "lv": "viņš aizdeva / aizņēmās"
+      "lv": "on je posojal / si izposojal"
     },
     "imperfektKonjunktiv": {
       "de": "er liehe",
-      "lv": "viņš aizdotu / aizņemtos"
+      "lv": "on bi posojal / si izposojal"
     },
     "partizipVergangenheit": {
       "de": "geliehen",
-      "lv": "aizdots / aizņemts"
+      "lv": "posojan / izposojal si"
     }
   },
   {
     "infinitiv": {
       "de": "lesen",
-      "lv": "lasīt"
+      "lv": "brati"
     },
     "praesens": {
       "de": "er liest",
-      "lv": "viņš lasa"
+      "lv": "on bere"
     },
     "imperfektIndikativ": {
       "de": "er las",
-      "lv": "viņš lasīja"
+      "lv": "on je bral"
     },
     "imperfektKonjunktiv": {
       "de": "er läse",
-      "lv": "viņš lasītu"
+      "lv": "on bi bral"
     },
     "partizipVergangenheit": {
       "de": "gelesen",
-      "lv": "lasīts"
+      "lv": "bran"
     }
   },
   {
     "infinitiv": {
       "de": "liegen",
-      "lv": "gulēt"
+      "lv": "ležati"
     },
     "praesens": {
       "de": "er liegt",
-      "lv": "viņš guļ"
+      "lv": "on leži"
     },
     "imperfektIndikativ": {
       "de": "er lag",
-      "lv": "viņš gulēja"
+      "lv": "on je ležal"
     },
     "imperfektKonjunktiv": {
       "de": "er läge",
-      "lv": "viņš gulētu"
+      "lv": "on bi ležal"
     },
     "partizipVergangenheit": {
       "de": "gelegen",
-      "lv": "gulēts"
+      "lv": "ležal"
     }
   },
   {
     "infinitiv": {
       "de": "lügen",
-      "lv": "melot"
+      "lv": "lagati"
     },
     "praesens": {
       "de": "er lügt",
-      "lv": "viņš melo"
+      "lv": "on laže"
     },
     "imperfektIndikativ": {
       "de": "er log",
-      "lv": "viņš meloja"
+      "lv": "on je lagal"
     },
     "imperfektKonjunktiv": {
       "de": "er löge",
-      "lv": "viņš melotu"
+      "lv": "on bi lagal"
     },
     "partizipVergangenheit": {
       "de": "gelogen",
-      "lv": "melots"
+      "lv": "lagal"
     }
   },
   {
     "infinitiv": {
       "de": "mahlen",
-      "lv": "malt"
+      "lv": "mleti"
     },
     "praesens": {
       "de": "er mahlt",
-      "lv": "viņš maļ"
+      "lv": "on melje"
     },
     "imperfektIndikativ": {
       "de": "er mahlte",
-      "lv": "viņš mala"
+      "lv": "on je mlel"
     },
     "imperfektKonjunktiv": {
       "de": "er malte",
-      "lv": "viņš maltu"
+      "lv": "on bi mlel"
     },
     "partizipVergangenheit": {
       "de": "gemahlen",
-      "lv": "malts"
+      "lv": "mlet"
     }
   },
   {
     "infinitiv": {
       "de": "meiden",
-      "lv": "izvairīties"
+      "lv": "izogibati se"
     },
     "praesens": {
       "de": "er meidet",
-      "lv": "viņš izvairās"
+      "lv": "on se izogiba"
     },
     "imperfektIndikativ": {
       "de": "er mied",
-      "lv": "viņš izvairījās"
+      "lv": "on se je izogibal"
     },
     "imperfektKonjunktiv": {
       "de": "er miede",
-      "lv": "viņš izvairītos"
+      "lv": "on bi se izogibal"
     },
     "partizipVergangenheit": {
       "de": "gemieden",
-      "lv": "izvairīts"
+      "lv": "izogibal se"
     }
   },
   {
     "infinitiv": {
       "de": "melken",
-      "lv": "slaukt"
+      "lv": "molsti"
     },
     "praesens": {
       "de": "er milkt / er melkt",
-      "lv": "viņš slauc"
+      "lv": "on molze"
     },
     "imperfektIndikativ": {
       "de": "er molk / er melkte",
-      "lv": "viņš slauca"
+      "lv": "on je molzel"
     },
     "imperfektKonjunktiv": {
       "de": "er mölke / er melkte",
-      "lv": "viņš slauktu"
+      "lv": "on bi molzel"
     },
     "partizipVergangenheit": {
       "de": "gemolken / gemelkt",
-      "lv": "slaukts"
+      "lv": "molzen"
     }
   },
   {
     "infinitiv": {
       "de": "messen",
-      "lv": "mērīt"
+      "lv": "meriti"
     },
     "praesens": {
       "de": "er misst",
-      "lv": "viņš mēra"
+      "lv": "on meri"
     },
     "imperfektIndikativ": {
       "de": "er mass",
-      "lv": "viņš mērīja"
+      "lv": "on je meril"
     },
     "imperfektKonjunktiv": {
       "de": "er mäße",
-      "lv": "viņš mērītu"
+      "lv": "on bi meril"
     },
     "partizipVergangenheit": {
       "de": "gemessen",
-      "lv": "mērīts"
+      "lv": "merjen"
     }
   },
   {
     "infinitiv": {
       "de": "misslingen",
-      "lv": "neizdoties"
+      "lv": "spodletavati"
     },
     "praesens": {
       "de": "es misslingt",
-      "lv": "tas neizdodas"
+      "lv": "to spodletava"
     },
     "imperfektIndikativ": {
       "de": "misslang",
-      "lv": "neizdevās"
+      "lv": "to je spodletavalo"
     },
     "imperfektKonjunktiv": {
       "de": "misslang",
-      "lv": "neizdevās"
+      "lv": "to bi spodletavalo"
     },
     "partizipVergangenheit": {
       "de": "misslungen",
-      "lv": "neizdevies"
+      "lv": "spodletaval"
     }
   },
   {
     "infinitiv": {
       "de": "mögen",
-      "lv": "patikt"
+      "lv": "marati"
     },
     "praesens": {
       "de": "er mag",
-      "lv": "viņam patīk"
+      "lv": "on mara"
     },
     "imperfektIndikativ": {
       "de": "mochte",
-      "lv": "patika"
+      "lv": "on je maral"
     },
     "imperfektKonjunktiv": {
       "de": "mochte",
-      "lv": "patika"
+      "lv": "on bi maral"
     },
     "partizipVergangenheit": {
       "de": "gemocht",
-      "lv": "paticis"
+      "lv": "maral"
     }
   },
   {
     "infinitiv": {
       "de": "müssen",
-      "lv": "vajadzēt"
+      "lv": "morati"
     },
     "praesens": {
       "de": "er muss",
-      "lv": "viņam vajag"
+      "lv": "on mora"
     },
     "imperfektIndikativ": {
       "de": "musste",
-      "lv": "vajadzēja"
+      "lv": "on je moral"
     },
     "imperfektKonjunktiv": {
       "de": "musste",
-      "lv": "vajadzēja"
+      "lv": "on bi moral"
     },
     "partizipVergangenheit": {
       "de": "gemusst",
-      "lv": "vajadzējis"
+      "lv": "moral"
     }
   },
   {
     "infinitiv": {
       "de": "nehmen",
-      "lv": "ņemt"
+      "lv": "jemati"
     },
     "praesens": {
       "de": "er nimmt",
-      "lv": "viņš ņem"
+      "lv": "on jemlje"
     },
     "imperfektIndikativ": {
       "de": "er nahm",
-      "lv": "viņš ņēma"
+      "lv": "on je jemal"
     },
     "imperfektKonjunktiv": {
       "de": "er nähme",
-      "lv": "viņš ņemtu"
+      "lv": "on bi jemal"
     },
     "partizipVergangenheit": {
       "de": "genommen",
-      "lv": "ņemts"
+      "lv": "jeman"
     }
   },
   {
     "infinitiv": {
       "de": "nennen",
-      "lv": "nosaukt"
+      "lv": "imenovati"
     },
     "praesens": {
       "de": "er nennt",
-      "lv": "viņš nosauc"
+      "lv": "on imenuje"
     },
     "imperfektIndikativ": {
       "de": "er nannte",
-      "lv": "viņš nosauca"
+      "lv": "on je imenoval"
     },
     "imperfektKonjunktiv": {
       "de": "er nennte",
-      "lv": "viņš nosauktu"
+      "lv": "on bi imenoval"
     },
     "partizipVergangenheit": {
       "de": "genannt",
-      "lv": "nosaukts"
+      "lv": "imenovan"
     }
   },
   {
     "infinitiv": {
       "de": "pfeifen",
-      "lv": "svilpot"
+      "lv": "žvižgati"
     },
     "praesens": {
       "de": "er pfeift",
-      "lv": "viņš svilpo"
+      "lv": "on žvižga"
     },
     "imperfektIndikativ": {
       "de": "er pfiff",
-      "lv": "viņš svilpa"
+      "lv": "on je žvižgal"
     },
     "imperfektKonjunktiv": {
       "de": "er pfiffe",
-      "lv": "viņš svilpotu"
+      "lv": "on bi žvižgal"
     },
     "partizipVergangenheit": {
       "de": "gepfiffen",
-      "lv": "svilpots"
+      "lv": "žvižgal"
     }
   },
   {
     "infinitiv": {
       "de": "pflegen",
-      "lv": "kopt"
+      "lv": "negovati"
     },
     "praesens": {
       "de": "er pflegt",
-      "lv": "viņš kopj"
+      "lv": "on neguje"
     },
     "imperfektIndikativ": {
       "de": "pflegte / pflog",
-      "lv": "kopa"
+      "lv": "on je negoval"
     },
     "imperfektKonjunktiv": {
       "de": "pflegte / pflog",
-      "lv": "kopa"
+      "lv": "on bi negoval"
     },
     "partizipVergangenheit": {
       "de": "gepflegt / gepflogen",
-      "lv": "kopts"
+      "lv": "negovan"
     }
   },
   {
     "infinitiv": {
       "de": "preisen",
-      "lv": "slavēt"
+      "lv": "hvaliti"
     },
     "praesens": {
       "de": "er preist",
-      "lv": "viņš slavē"
+      "lv": "on hvali"
     },
     "imperfektIndikativ": {
       "de": "er pries",
-      "lv": "viņš slavēja"
+      "lv": "on je hvalil"
     },
     "imperfektKonjunktiv": {
       "de": "er priese",
-      "lv": "viņš slavētu"
+      "lv": "on bi hvalil"
     },
     "partizipVergangenheit": {
       "de": "gepriesen",
-      "lv": "slavēts"
+      "lv": "hvaljen"
     }
   },
   {
     "infinitiv": {
       "de": "quellen",
-      "lv": "briest"
+      "lv": "nabrekati"
     },
     "praesens": {
       "de": "er quillt",
-      "lv": "viņš briest"
+      "lv": "to nabreka"
     },
     "imperfektIndikativ": {
       "de": "er quoll",
-      "lv": "viņš brieda"
+      "lv": "to je nabrekalo"
     },
     "imperfektKonjunktiv": {
       "de": "er quölle",
-      "lv": "viņš briestu"
+      "lv": "to bi nabrekalo"
     },
     "partizipVergangenheit": {
       "de": "gequollen (er ist)",
-      "lv": "uzbriedis"
+      "lv": "nabrekal"
     }
   },
   {
     "infinitiv": {
       "de": "raten",
-      "lv": "ieteikt / minēt"
+      "lv": "svetovati / ugibati"
     },
     "praesens": {
       "de": "er rät",
-      "lv": "viņš iesaka / min"
+      "lv": "on svetuje / ugiba"
     },
     "imperfektIndikativ": {
       "de": "er riet",
-      "lv": "viņš ieteica / minēja"
+      "lv": "on je svetoval / ugibal"
     },
     "imperfektKonjunktiv": {
       "de": "er riete",
-      "lv": "viņš ieteiktu / minētu"
+      "lv": "on bi svetoval / ugibal"
     },
     "partizipVergangenheit": {
       "de": "geraten",
-      "lv": "ieteikts / minēts"
+      "lv": "svetovan / ugiban"
     }
   },
   {
     "infinitiv": {
       "de": "reiben",
-      "lv": "berzt"
+      "lv": "drgniti"
     },
     "praesens": {
       "de": "er reibt",
-      "lv": "viņš berž"
+      "lv": "on drgne"
     },
     "imperfektIndikativ": {
       "de": "er rieb",
-      "lv": "viņš berza"
+      "lv": "on je drgnil"
     },
     "imperfektKonjunktiv": {
       "de": "er riebe",
-      "lv": "viņš berztu"
+      "lv": "on bi drgnil"
     },
     "partizipVergangenheit": {
       "de": "gerieben",
-      "lv": "berzts"
+      "lv": "drgnjen"
     }
   },
   {
     "infinitiv": {
       "de": "reißen",
-      "lv": "raut"
+      "lv": "trgati"
     },
     "praesens": {
       "de": "er reißt",
-      "lv": "viņš rauj"
+      "lv": "on trga"
     },
     "imperfektIndikativ": {
       "de": "er riss",
-      "lv": "viņš rāva"
+      "lv": "on je trgal"
     },
     "imperfektKonjunktiv": {
       "de": "er risse",
-      "lv": "viņš rautu"
+      "lv": "on bi trgal"
     },
     "partizipVergangenheit": {
       "de": "gerissen",
-      "lv": "rauts"
+      "lv": "trgan"
     }
   },
   {
     "infinitiv": {
       "de": "reiten",
-      "lv": "jāt"
+      "lv": "jahati"
     },
     "praesens": {
       "de": "er reitet",
-      "lv": "viņš jāj"
+      "lv": "on jaha"
     },
     "imperfektIndikativ": {
       "de": "er ritt",
-      "lv": "viņš jāja"
+      "lv": "on je jahal"
     },
     "imperfektKonjunktiv": {
       "de": "er ritte",
-      "lv": "viņš jātu"
+      "lv": "on bi jahal"
     },
     "partizipVergangenheit": {
       "de": "geritten (er ist)",
-      "lv": "jājis"
+      "lv": "jahal"
     }
   },
   {
     "infinitiv": {
       "de": "rennen",
-      "lv": "skriet"
+      "lv": "dirjati"
     },
     "praesens": {
       "de": "er rennt",
-      "lv": "viņš skrien"
+      "lv": "on dirja"
     },
     "imperfektIndikativ": {
       "de": "er rannte",
-      "lv": "viņš skrēja"
+      "lv": "on je dirjal"
     },
     "imperfektKonjunktiv": {
       "de": "er rennte",
-      "lv": "viņš skrietu"
+      "lv": "on bi dirjal"
     },
     "partizipVergangenheit": {
       "de": "gerannt",
-      "lv": "skrējis"
+      "lv": "dirjal"
     }
   },
   {
     "infinitiv": {
       "de": "riechen",
-      "lv": "ost"
+      "lv": "vohati"
     },
     "praesens": {
       "de": "er riecht",
-      "lv": "viņš ož"
+      "lv": "on voha"
     },
     "imperfektIndikativ": {
       "de": "er roch",
-      "lv": "viņš oda"
+      "lv": "on je vohal"
     },
     "imperfektKonjunktiv": {
       "de": "er röche",
-      "lv": "viņš ostu"
+      "lv": "on bi vohal"
     },
     "partizipVergangenheit": {
       "de": "gerochen",
-      "lv": "osts"
+      "lv": "vohal"
     }
   },
   {
     "infinitiv": {
       "de": "ringen",
-      "lv": "lauzties"
+      "lv": "boriti se"
     },
     "praesens": {
       "de": "er ringt",
-      "lv": "viņš laužas"
+      "lv": "on se bori"
     },
     "imperfektIndikativ": {
       "de": "er rang",
-      "lv": "viņš lauzās"
+      "lv": "on se je boril"
     },
     "imperfektKonjunktiv": {
       "de": "er ränge",
-      "lv": "viņš lauztos"
+      "lv": "on bi se boril"
     },
     "partizipVergangenheit": {
       "de": "gerungen",
-      "lv": "laucies"
+      "lv": "boril se"
     }
   },
   {
     "infinitiv": {
       "de": "rinnen",
-      "lv": "tecēt"
+      "lv": "teči"
     },
     "praesens": {
       "de": "er rinnt",
-      "lv": "viņš tek"
+      "lv": "to teče"
     },
     "imperfektIndikativ": {
       "de": "er rann",
-      "lv": "viņš tecēja"
+      "lv": "to je teklo"
     },
     "imperfektKonjunktiv": {
       "de": "er ränne / er rönne",
-      "lv": "viņš tecētu"
+      "lv": "to bi teklo"
     },
     "partizipVergangenheit": {
       "de": "geronnen (er ist)",
-      "lv": "tecējis / sarecējis"
+      "lv": "tekel"
     }
   },
   {
     "infinitiv": {
       "de": "rufen",
-      "lv": "saukt"
+      "lv": "klicati"
     },
     "praesens": {
       "de": "er ruft",
-      "lv": "viņš sauc"
+      "lv": "on kliče"
     },
     "imperfektIndikativ": {
       "de": "er rief",
-      "lv": "viņš sauca"
+      "lv": "on je klical"
     },
     "imperfektKonjunktiv": {
       "de": "er riefe",
-      "lv": "viņš sauktu"
+      "lv": "on bi klical"
     },
     "partizipVergangenheit": {
       "de": "gerufen",
-      "lv": "saukts"
+      "lv": "klican"
     }
   },
   {
     "infinitiv": {
       "de": "salzen",
-      "lv": "sālīt"
+      "lv": "soliti"
     },
     "praesens": {
       "de": "er salzt",
-      "lv": "viņš sāla"
+      "lv": "on soli"
     },
     "imperfektIndikativ": {
       "de": "er salzte",
-      "lv": "viņš sālīja"
+      "lv": "on je solil"
     },
     "imperfektKonjunktiv": {
       "de": "er salzte",
-      "lv": "viņš sālītu"
+      "lv": "on bi solil"
     },
     "partizipVergangenheit": {
       "de": "gesalzen",
-      "lv": "sālīts"
+      "lv": "soljen"
     }
   },
   {
     "infinitiv": {
       "de": "saufen",
-      "lv": "žūpot / dzert"
+      "lv": "popivati / piti"
     },
     "praesens": {
       "de": "er säuft",
-      "lv": "viņš žūpo / dzer"
+      "lv": "on popiva / pije"
     },
     "imperfektIndikativ": {
       "de": "er soff",
-      "lv": "viņš žūpoja / dzēra"
+      "lv": "on je popival / pil"
     },
     "imperfektKonjunktiv": {
       "de": "er söffe",
-      "lv": "viņš žūpotu / dzertu"
+      "lv": "on bi popival / pil"
     },
     "partizipVergangenheit": {
       "de": "gesoffen",
-      "lv": "dzerts"
+      "lv": "popival / pit"
     }
   },
   {
     "infinitiv": {
       "de": "saugen",
-      "lv": "sūkt"
+      "lv": "sesati"
     },
     "praesens": {
       "de": "er saugt",
-      "lv": "viņš sūc"
+      "lv": "on sesa"
     },
     "imperfektIndikativ": {
       "de": "er sog",
-      "lv": "viņš sūca"
+      "lv": "on je sesal"
     },
     "imperfektKonjunktiv": {
       "de": "er söge",
-      "lv": "viņš sūktu"
+      "lv": "on bi sesal"
     },
     "partizipVergangenheit": {
       "de": "gesogen",
-      "lv": "sūkts"
+      "lv": "sesan"
     }
   },
   {
     "infinitiv": {
       "de": "schaffen",
-      "lv": "radīt"
+      "lv": "ustvarjati"
     },
     "praesens": {
       "de": "er schafft",
-      "lv": "viņš rada"
+      "lv": "on ustvarja"
     },
     "imperfektIndikativ": {
       "de": "er schuf",
-      "lv": "viņš radīja"
+      "lv": "on je ustvarjal"
     },
     "imperfektKonjunktiv": {
       "de": "er schüfe",
-      "lv": "viņš radītu"
+      "lv": "on bi ustvarjal"
     },
     "partizipVergangenheit": {
       "de": "geschaffen",
-      "lv": "radīts"
+      "lv": "ustvarjan"
     }
   },
   {
     "infinitiv": {
       "de": "schallen",
-      "lv": "skanēt"
+      "lv": "doneti"
     },
     "praesens": {
       "de": "es schallt",
-      "lv": "tas skan"
+      "lv": "to doni"
     },
     "imperfektIndikativ": {
       "de": "schallte / scholl",
-      "lv": "skanēja"
+      "lv": "to je donelo"
     },
     "imperfektKonjunktiv": {
       "de": "schallte / scholl",
-      "lv": "skanēja"
+      "lv": "to bi donelo"
     },
     "partizipVergangenheit": {
       "de": "geschallt",
-      "lv": "skanējis"
+      "lv": "donel"
     }
   },
   {
     "infinitiv": {
       "de": "scheiden",
-      "lv": "šķirt / šķirties"
+      "lv": "ločiti / ločiti se"
     },
     "praesens": {
       "de": "er scheidet",
-      "lv": "viņš šķir / šķiras"
+      "lv": "on loči / se loči"
     },
     "imperfektIndikativ": {
       "de": "er schied",
-      "lv": "viņš šķīra / šķīrās"
+      "lv": "on je ločil / se ločil"
     },
     "imperfektKonjunktiv": {
       "de": "er schiede",
-      "lv": "viņš šķirtu / šķirtos"
+      "lv": "on bi ločil / se ločil"
     },
     "partizipVergangenheit": {
       "de": "geschieden (er hat / er ist)",
-      "lv": "šķirts / šķīries"
+      "lv": "ločen / ločil se"
     }
   },
   {
     "infinitiv": {
       "de": "scheinen",
-      "lv": "spīdēt / likties"
+      "lv": "sijati / zdeti se"
     },
     "praesens": {
       "de": "er scheint",
-      "lv": "viņš spīd / šķiet"
+      "lv": "on sije / se zdi"
     },
     "imperfektIndikativ": {
       "de": "er schien",
-      "lv": "viņš spīdēja / šķita"
+      "lv": "on je sijal / se zdel"
     },
     "imperfektKonjunktiv": {
       "de": "er schiene",
-      "lv": "viņš spīdētu / šķistu"
+      "lv": "on bi sijal / se zdel"
     },
     "partizipVergangenheit": {
       "de": "geschienen",
-      "lv": "spīdējis / šķitis"
+      "lv": "sijal / zdel se"
     }
   },
   {
     "infinitiv": {
       "de": "schelten",
-      "lv": "bārt"
+      "lv": "oštevati"
     },
     "praesens": {
       "de": "er schilt",
-      "lv": "viņš bar"
+      "lv": "on ošteva"
     },
     "imperfektIndikativ": {
       "de": "er schalt",
-      "lv": "viņš bāra"
+      "lv": "on je ošteval"
     },
     "imperfektKonjunktiv": {
       "de": "er schölte / er schälte",
-      "lv": "viņš bārtu"
+      "lv": "on bi ošteval"
     },
     "partizipVergangenheit": {
       "de": "gescholten",
-      "lv": "bārts"
+      "lv": "oštevan"
     }
   },
   {
     "infinitiv": {
       "de": "scheren",
-      "lv": "cirpt"
+      "lv": "striči"
     },
     "praesens": {
       "de": "er schert",
-      "lv": "viņš cirpj"
+      "lv": "on striže"
     },
     "imperfektIndikativ": {
       "de": "schor / scherte",
-      "lv": "cirpa"
+      "lv": "on je strigel"
     },
     "imperfektKonjunktiv": {
       "de": "schor / scherte",
-      "lv": "cirpa"
+      "lv": "on bi strigel"
     },
     "partizipVergangenheit": {
       "de": "geschoren / geschert",
-      "lv": "apcirpts"
+      "lv": "strižen"
     }
   },
   {
     "infinitiv": {
       "de": "schieben",
-      "lv": "stumt"
+      "lv": "potiskati"
     },
     "praesens": {
       "de": "er schiebt",
-      "lv": "viņš stumj"
+      "lv": "on potiska"
     },
     "imperfektIndikativ": {
       "de": "er schob",
-      "lv": "viņš stūma"
+      "lv": "on je potiskal"
     },
     "imperfektKonjunktiv": {
       "de": "er schöbe",
-      "lv": "viņš stumtu"
+      "lv": "on bi potiskal"
     },
     "partizipVergangenheit": {
       "de": "geschoben",
-      "lv": "stumts"
+      "lv": "potiskan"
     }
   },
   {
     "infinitiv": {
       "de": "schießen",
-      "lv": "šaut"
+      "lv": "streljati"
     },
     "praesens": {
       "de": "er schießt",
-      "lv": "viņš šauj"
+      "lv": "on strelja"
     },
     "imperfektIndikativ": {
       "de": "er schoss",
-      "lv": "viņš šāva"
+      "lv": "on je streljal"
     },
     "imperfektKonjunktiv": {
       "de": "er schösse",
-      "lv": "viņš šautu"
+      "lv": "on bi streljal"
     },
     "partizipVergangenheit": {
       "de": "geschossen",
-      "lv": "šauts"
+      "lv": "streljan"
     }
   },
   {
     "infinitiv": {
       "de": "schinden",
-      "lv": "mocīt"
+      "lv": "mučiti"
     },
     "praesens": {
       "de": "er schindet",
-      "lv": "viņš moka"
+      "lv": "on muči"
     },
     "imperfektIndikativ": {
       "de": "schindete",
-      "lv": "mocīja"
+      "lv": "on je mučil"
     },
     "imperfektKonjunktiv": {
       "de": "schindete",
-      "lv": "mocīja"
+      "lv": "on bi mučil"
     },
     "partizipVergangenheit": {
       "de": "geschunden",
-      "lv": "mocīts"
+      "lv": "mučen"
     }
   },
   {
     "infinitiv": {
       "de": "schlafen",
-      "lv": "gulēt"
+      "lv": "spati"
     },
     "praesens": {
       "de": "er schläft",
-      "lv": "viņš guļ"
+      "lv": "on spi"
     },
     "imperfektIndikativ": {
       "de": "er schlief",
-      "lv": "viņš gulēja"
+      "lv": "on je spal"
     },
     "imperfektKonjunktiv": {
       "de": "er schliefe",
-      "lv": "viņš gulētu"
+      "lv": "on bi spal"
     },
     "partizipVergangenheit": {
       "de": "geschlafen",
-      "lv": "gulēts"
+      "lv": "spal"
     }
   },
   {
     "infinitiv": {
       "de": "schlagen",
-      "lv": "sist"
+      "lv": "tepsti"
     },
     "praesens": {
       "de": "er schlägt",
-      "lv": "viņš sit"
+      "lv": "on tepe"
     },
     "imperfektIndikativ": {
       "de": "er schlug",
-      "lv": "viņš sita"
+      "lv": "on je tepel"
     },
     "imperfektKonjunktiv": {
       "de": "er schlüge",
-      "lv": "viņš sistu"
+      "lv": "on bi tepel"
     },
     "partizipVergangenheit": {
       "de": "geschlagen",
-      "lv": "sists"
+      "lv": "tepen"
     }
   },
   {
     "infinitiv": {
       "de": "schleichen",
-      "lv": "līst"
+      "lv": "plaziti se"
     },
     "praesens": {
       "de": "er schleicht",
-      "lv": "viņš lien"
+      "lv": "on se plazi"
     },
     "imperfektIndikativ": {
       "de": "er schlich",
-      "lv": "viņš līda"
+      "lv": "on se je plazil"
     },
     "imperfektKonjunktiv": {
       "de": "er schliche",
-      "lv": "viņš līstu"
+      "lv": "on bi se plazil"
     },
     "partizipVergangenheit": {
       "de": "geschlichen (er ist)",
-      "lv": "līdis"
+      "lv": "plazil se"
     }
   },
   {
     "infinitiv": {
       "de": "schleifen",
-      "lv": "slīpēt"
+      "lv": "brusiti"
     },
     "praesens": {
       "de": "er schleift",
-      "lv": "viņš slīpē"
+      "lv": "on brusi"
     },
     "imperfektIndikativ": {
       "de": "er schliff",
-      "lv": "viņš slīpēja"
+      "lv": "on je brusil"
     },
     "imperfektKonjunktiv": {
       "de": "er schliffe",
-      "lv": "viņš slīpētu"
+      "lv": "on bi brusil"
     },
     "partizipVergangenheit": {
       "de": "geschliffen",
-      "lv": "slīpēts"
+      "lv": "brušen"
     }
   },
   {
     "infinitiv": {
       "de": "schließen",
-      "lv": "slēgt"
+      "lv": "zapirati"
     },
     "praesens": {
       "de": "er schließt",
-      "lv": "viņš slēdz"
+      "lv": "on zapira"
     },
     "imperfektIndikativ": {
       "de": "er schloss",
-      "lv": "viņš slēdza"
+      "lv": "on je zapiral"
     },
     "imperfektKonjunktiv": {
       "de": "er schlösse",
-      "lv": "viņš slēgtu"
+      "lv": "on bi zapiral"
     },
     "partizipVergangenheit": {
       "de": "geschlossen",
-      "lv": "slēgts"
+      "lv": "zapiran"
     }
   },
   {
     "infinitiv": {
       "de": "schlingen",
-      "lv": "rīt"
+      "lv": "požirati"
     },
     "praesens": {
       "de": "er schlingt",
-      "lv": "viņš rij"
+      "lv": "on požira"
     },
     "imperfektIndikativ": {
       "de": "er schlang",
-      "lv": "viņš rija"
+      "lv": "on je požiral"
     },
     "imperfektKonjunktiv": {
       "de": "er schlänge",
-      "lv": "viņš rītu"
+      "lv": "on bi požiral"
     },
     "partizipVergangenheit": {
       "de": "geschlungen",
-      "lv": "rīts"
+      "lv": "požiran"
     }
   },
   {
     "infinitiv": {
       "de": "schmeißen",
-      "lv": "mest"
+      "lv": "metati"
     },
     "praesens": {
       "de": "er schmeißt",
-      "lv": "viņš met"
+      "lv": "on meče"
     },
     "imperfektIndikativ": {
       "de": "er schmiss",
-      "lv": "viņš meta"
+      "lv": "on je metal"
     },
     "imperfektKonjunktiv": {
       "de": "er schmisse",
-      "lv": "viņš mestu"
+      "lv": "on bi metal"
     },
     "partizipVergangenheit": {
       "de": "geschmissen",
-      "lv": "mests"
+      "lv": "metan"
     }
   },
   {
     "infinitiv": {
       "de": "schmelzen",
-      "lv": "kust"
+      "lv": "topiti se"
     },
     "praesens": {
       "de": "er schmilzt",
-      "lv": "viņš kūst"
+      "lv": "to se topi"
     },
     "imperfektIndikativ": {
       "de": "er schmolz",
-      "lv": "viņš kusa"
+      "lv": "to se je topilo"
     },
     "imperfektKonjunktiv": {
       "de": "er schmölze",
-      "lv": "viņš kustu"
+      "lv": "to bi se topilo"
     },
     "partizipVergangenheit": {
       "de": "geschmolzen (er ist)",
-      "lv": "kusis"
+      "lv": "topil se"
     }
   },
   {
     "infinitiv": {
       "de": "schnauben",
-      "lv": "šņākt"
+      "lv": "prhati"
     },
     "praesens": {
       "de": "er schnaubt",
-      "lv": "viņš šņāc"
+      "lv": "on prha"
     },
     "imperfektIndikativ": {
       "de": "schnaubte / schnob",
-      "lv": "šņāca"
+      "lv": "on je prhal"
     },
     "imperfektKonjunktiv": {
       "de": "schnaubte / schnob",
-      "lv": "šņāca"
+      "lv": "on bi prhal"
     },
     "partizipVergangenheit": {
       "de": "geschnaubt / geschnoben",
-      "lv": "nošņācies"
+      "lv": "prhal"
     }
   },
   {
     "infinitiv": {
       "de": "schneiden",
-      "lv": "griezt"
+      "lv": "rezati"
     },
     "praesens": {
       "de": "er schneidet",
-      "lv": "viņš griež"
+      "lv": "on reže"
     },
     "imperfektIndikativ": {
       "de": "er schnitt",
-      "lv": "viņš grieza"
+      "lv": "on je rezal"
     },
     "imperfektKonjunktiv": {
       "de": "er schnitte",
-      "lv": "viņš grieztu"
+      "lv": "on bi rezal"
     },
     "partizipVergangenheit": {
       "de": "geschnitten",
-      "lv": "griezts"
+      "lv": "rezan"
     }
   },
   {
     "infinitiv": {
       "de": "schreiben",
-      "lv": "rakstīt"
+      "lv": "pisati"
     },
     "praesens": {
       "de": "er schreibt",
-      "lv": "viņš raksta"
+      "lv": "on piše"
     },
     "imperfektIndikativ": {
       "de": "er schrieb",
-      "lv": "viņš rakstīja"
+      "lv": "on je pisal"
     },
     "imperfektKonjunktiv": {
       "de": "er schriebe",
-      "lv": "viņš rakstītu"
+      "lv": "on bi pisal"
     },
     "partizipVergangenheit": {
       "de": "geschrieben",
-      "lv": "rakstīts"
+      "lv": "pisan"
     }
   },
   {
     "infinitiv": {
       "de": "schreien",
-      "lv": "kliegt"
+      "lv": "kričati"
     },
     "praesens": {
       "de": "er schreit",
-      "lv": "viņš kliedz"
+      "lv": "on kriči"
     },
     "imperfektIndikativ": {
       "de": "er schrie",
-      "lv": "viņš kliedza"
+      "lv": "on je kričal"
     },
     "imperfektKonjunktiv": {
       "de": "er schriee",
-      "lv": "viņš kliegtu"
+      "lv": "on bi kričal"
     },
     "partizipVergangenheit": {
       "de": "geschrien",
-      "lv": "kliegts"
+      "lv": "kričal"
     }
   },
   {
     "infinitiv": {
       "de": "schreiten",
-      "lv": "soļot"
+      "lv": "korakati"
     },
     "praesens": {
       "de": "er schreitet",
-      "lv": "viņš soļo"
+      "lv": "on koraka"
     },
     "imperfektIndikativ": {
       "de": "er schritt",
-      "lv": "viņš soļoja"
+      "lv": "on je korakal"
     },
     "imperfektKonjunktiv": {
       "de": "er schritte",
-      "lv": "viņš soļotu"
+      "lv": "on bi korakal"
     },
     "partizipVergangenheit": {
       "de": "geschritten (er ist)",
-      "lv": "soļojis"
+      "lv": "korakal"
     }
   },
   {
     "infinitiv": {
       "de": "schweigen",
-      "lv": "klusēt"
+      "lv": "molčati"
     },
     "praesens": {
       "de": "er schweigt",
-      "lv": "viņš klusē"
+      "lv": "on molči"
     },
     "imperfektIndikativ": {
       "de": "er schwieg",
-      "lv": "viņš klusēja"
+      "lv": "on je molčal"
     },
     "imperfektKonjunktiv": {
       "de": "er schwiege",
-      "lv": "viņš klusētu"
+      "lv": "on bi molčal"
     },
     "partizipVergangenheit": {
       "de": "geschwiegen",
-      "lv": "klusēts"
+      "lv": "molčal"
     }
   },
   {
     "infinitiv": {
       "de": "schwellen",
-      "lv": "pampt"
+      "lv": "otekati"
     },
     "praesens": {
       "de": "er schwillt",
-      "lv": "viņš pampst"
+      "lv": "to oteka"
     },
     "imperfektIndikativ": {
       "de": "er schwoll",
-      "lv": "viņš pampa"
+      "lv": "to je otekalo"
     },
     "imperfektKonjunktiv": {
       "de": "er schwölle",
-      "lv": "viņš pamptu"
+      "lv": "to bi otekalo"
     },
     "partizipVergangenheit": {
       "de": "geschwollen (er ist)",
-      "lv": "pampis"
+      "lv": "otekal"
     }
   },
   {
     "infinitiv": {
       "de": "schwimmen",
-      "lv": "peldēt"
+      "lv": "plavati"
     },
     "praesens": {
       "de": "er schwimmt",
-      "lv": "viņš peld"
+      "lv": "on plava"
     },
     "imperfektIndikativ": {
       "de": "er schwamm",
-      "lv": "viņš peldēja"
+      "lv": "on je plaval"
     },
     "imperfektKonjunktiv": {
       "de": "er schwömme / er schwämme",
-      "lv": "viņš peldētu"
+      "lv": "on bi plaval"
     },
     "partizipVergangenheit": {
       "de": "geschwommen (er ist)",
-      "lv": "peldējis"
+      "lv": "plaval"
     }
   },
   {
     "infinitiv": {
       "de": "schwinden",
-      "lv": "zust"
+      "lv": "izginjati"
     },
     "praesens": {
       "de": "er schwindet",
-      "lv": "viņš zūd"
+      "lv": "to izginja"
     },
     "imperfektIndikativ": {
       "de": "er schwand",
-      "lv": "viņš zuda"
+      "lv": "to je izginjalo"
     },
     "imperfektKonjunktiv": {
       "de": "er schwände",
-      "lv": "viņš zustu"
+      "lv": "to bi izginjalo"
     },
     "partizipVergangenheit": {
       "de": "geschwunden (er ist)",
-      "lv": "zudis"
+      "lv": "izginjal"
     }
   },
   {
     "infinitiv": {
       "de": "schwingen",
-      "lv": "vicināt"
+      "lv": "vihteti"
     },
     "praesens": {
       "de": "er schwingt",
-      "lv": "viņš vicina"
+      "lv": "on vihti"
     },
     "imperfektIndikativ": {
       "de": "er schwang",
-      "lv": "viņš vicināja"
+      "lv": "on je vihtel"
     },
     "imperfektKonjunktiv": {
       "de": "er schwänge",
-      "lv": "viņš vicinātu"
+      "lv": "on bi vihtel"
     },
     "partizipVergangenheit": {
       "de": "geschwungen",
-      "lv": "vicināts"
+      "lv": "vihten"
     }
   },
   {
     "infinitiv": {
       "de": "schwören",
-      "lv": "zvērēt"
+      "lv": "prisegati"
     },
     "praesens": {
       "de": "er schwört",
-      "lv": "viņš zvēr"
+      "lv": "on prisega"
     },
     "imperfektIndikativ": {
       "de": "er schwur / er schwor",
-      "lv": "viņš zvērēja"
+      "lv": "on je prisegal"
     },
     "imperfektKonjunktiv": {
       "de": "er schwöre",
-      "lv": "viņš zvērētu"
+      "lv": "on bi prisegal"
     },
     "partizipVergangenheit": {
       "de": "geschworen",
-      "lv": "zvērēts"
+      "lv": "prisegan"
     }
   },
   {
     "infinitiv": {
       "de": "sehen",
-      "lv": "redzēt"
+      "lv": "videti"
     },
     "praesens": {
       "de": "er sieht",
-      "lv": "viņš redz"
+      "lv": "on vidi"
     },
     "imperfektIndikativ": {
       "de": "er sah",
-      "lv": "viņš redzēja"
+      "lv": "on je videl"
     },
     "imperfektKonjunktiv": {
       "de": "er sähe",
-      "lv": "viņš redzētu"
+      "lv": "on bi videl"
     },
     "partizipVergangenheit": {
       "de": "gesehen",
-      "lv": "redzēts"
+      "lv": "viden"
     }
   },
   {
     "infinitiv": {
       "de": "sein",
-      "lv": "būt"
+      "lv": "biti"
     },
     "praesens": {
       "de": "er ist",
-      "lv": "viņš ir"
+      "lv": "on je"
     },
     "imperfektIndikativ": {
       "de": "war",
-      "lv": "bija"
+      "lv": "on je bil"
     },
     "imperfektKonjunktiv": {
       "de": "war",
-      "lv": "bija"
+      "lv": "on bi bil"
     },
     "partizipVergangenheit": {
       "de": "gewesen",
-      "lv": "bijis"
+      "lv": "bil"
     }
   },
   {
     "infinitiv": {
       "de": "senden",
-      "lv": "sūtīt"
+      "lv": "pošiljati"
     },
     "praesens": {
       "de": "er sendet",
-      "lv": "viņš sūta"
+      "lv": "on pošilja"
     },
     "imperfektIndikativ": {
       "de": "er sandte / er sendete",
-      "lv": "viņš sūtīja"
+      "lv": "on je pošiljal"
     },
     "imperfektKonjunktiv": {
       "de": "er sendete",
-      "lv": "viņš sūtītu"
+      "lv": "on bi pošiljal"
     },
     "partizipVergangenheit": {
       "de": "gesandt / gesendet",
-      "lv": "sūtīts"
+      "lv": "pošiljan"
     }
   },
   {
     "infinitiv": {
       "de": "sieden",
-      "lv": "vārīt"
+      "lv": "kuhati"
     },
     "praesens": {
       "de": "er siedet",
-      "lv": "viņš vāra"
+      "lv": "on kuha"
     },
     "imperfektIndikativ": {
       "de": "sott / siedete",
-      "lv": "vārīja"
+      "lv": "on je kuhal"
     },
     "imperfektKonjunktiv": {
       "de": "sott / siedete",
-      "lv": "vārīja"
+      "lv": "on bi kuhal"
     },
     "partizipVergangenheit": {
       "de": "gesotten / gesiedet",
-      "lv": "vārīts"
+      "lv": "kuhan"
     }
   },
   {
     "infinitiv": {
       "de": "singen",
-      "lv": "dziedāt"
+      "lv": "peti"
     },
     "praesens": {
       "de": "er singt",
-      "lv": "viņš dzied"
+      "lv": "on poje"
     },
     "imperfektIndikativ": {
       "de": "er sang",
-      "lv": "viņš dziedāja"
+      "lv": "on je pel"
     },
     "imperfektKonjunktiv": {
       "de": "er sänge",
-      "lv": "viņš dziedātu"
+      "lv": "on bi pel"
     },
     "partizipVergangenheit": {
       "de": "gesungen",
-      "lv": "dziedāts"
+      "lv": "pet"
     }
   },
   {
     "infinitiv": {
       "de": "sinken",
-      "lv": "grimt"
+      "lv": "toniti"
     },
     "praesens": {
       "de": "er sinkt",
-      "lv": "viņš grimst"
+      "lv": "on tone"
     },
     "imperfektIndikativ": {
       "de": "er sank",
-      "lv": "viņš grima"
+      "lv": "on je tonil"
     },
     "imperfektKonjunktiv": {
       "de": "er sänke",
-      "lv": "viņš grimtu"
+      "lv": "on bi tonil"
     },
     "partizipVergangenheit": {
       "de": "gesunken (er ist)",
-      "lv": "grimis"
+      "lv": "tonil"
     }
   },
   {
     "infinitiv": {
       "de": "sinnen",
-      "lv": "prātot"
+      "lv": "razmišljati"
     },
     "praesens": {
       "de": "er sinnt",
-      "lv": "viņš prāto"
+      "lv": "on razmišlja"
     },
     "imperfektIndikativ": {
       "de": "er sann",
-      "lv": "viņš prātoja"
+      "lv": "on je razmišljal"
     },
     "imperfektKonjunktiv": {
       "de": "er sönne / er sänne",
-      "lv": "viņš prātotu"
+      "lv": "on bi razmišljal"
     },
     "partizipVergangenheit": {
       "de": "gesonnen",
-      "lv": "prātots"
+      "lv": "razmišljal"
     }
   },
   {
     "infinitiv": {
       "de": "sitzen",
-      "lv": "sēdēt"
+      "lv": "sedeti"
     },
     "praesens": {
       "de": "er sitzt",
-      "lv": "viņš sēž"
+      "lv": "on sedi"
     },
     "imperfektIndikativ": {
       "de": "er sass",
-      "lv": "viņš sēdēja"
+      "lv": "on je sedel"
     },
     "imperfektKonjunktiv": {
       "de": "er säße",
-      "lv": "viņš sēdētu"
+      "lv": "on bi sedel"
     },
     "partizipVergangenheit": {
       "de": "gesessen",
-      "lv": "sēdēts"
+      "lv": "sedel"
     }
   },
   {
     "infinitiv": {
       "de": "sollen",
-      "lv": "vajadzēt / būt pienākumam"
+      "lv": "morati / biti dolžan"
     },
     "praesens": {
       "de": "er soll",
-      "lv": "viņam vajag"
+      "lv": "on mora / je dolžan"
     },
     "imperfektIndikativ": {
       "de": "sollte",
-      "lv": "vajadzēja"
+      "lv": "on je moral / bil dolžan"
     },
     "imperfektKonjunktiv": {
       "de": "sollte",
-      "lv": "vajadzēja"
+      "lv": "on bi moral / bil dolžan"
     },
     "partizipVergangenheit": {
       "de": "gesollt",
-      "lv": "vajadzējis"
+      "lv": "moral / bil dolžan"
     }
   },
   {
     "infinitiv": {
       "de": "speien",
-      "lv": "spļaut"
+      "lv": "pljuvati"
     },
     "praesens": {
       "de": "er speit",
-      "lv": "viņš spļauj"
+      "lv": "on pljuje"
     },
     "imperfektIndikativ": {
       "de": "er spie",
-      "lv": "viņš spļāva"
+      "lv": "on je pljuval"
     },
     "imperfektKonjunktiv": {
       "de": "er spie",
-      "lv": "viņš spļautu"
+      "lv": "on bi pljuval"
     },
     "partizipVergangenheit": {
       "de": "gespien",
-      "lv": "spļauts"
+      "lv": "pljuvan"
     }
   },
   {
     "infinitiv": {
       "de": "spinnen",
-      "lv": "vērpt"
+      "lv": "presti"
     },
     "praesens": {
       "de": "er spinnt",
-      "lv": "viņš vērpj"
+      "lv": "on prede"
     },
     "imperfektIndikativ": {
       "de": "er spann",
-      "lv": "viņš vērpa"
+      "lv": "on je predel"
     },
     "imperfektKonjunktiv": {
       "de": "er spönne / er spänne",
-      "lv": "viņš vērptu"
+      "lv": "on bi predel"
     },
     "partizipVergangenheit": {
       "de": "gesponnen",
-      "lv": "vērpts"
+      "lv": "preden"
     }
   },
   {
     "infinitiv": {
       "de": "spleißen",
-      "lv": "savienot"
+      "lv": "spajati"
     },
     "praesens": {
       "de": "er spleißt",
-      "lv": "viņš savieno"
+      "lv": "on spaja"
     },
     "imperfektIndikativ": {
       "de": "spliss",
-      "lv": "savienoja"
+      "lv": "on je spajal"
     },
     "imperfektKonjunktiv": {
       "de": "spliss",
-      "lv": "savienoja"
+      "lv": "on bi spajal"
     },
     "partizipVergangenheit": {
       "de": "gesplissen",
-      "lv": "savienots"
+      "lv": "spajan"
     }
   },
   {
     "infinitiv": {
       "de": "sprechen",
-      "lv": "runāt"
+      "lv": "govoriti"
     },
     "praesens": {
       "de": "er spricht",
-      "lv": "viņš runā"
+      "lv": "on govori"
     },
     "imperfektIndikativ": {
       "de": "er sprach",
-      "lv": "viņš runāja"
+      "lv": "on je govoril"
     },
     "imperfektKonjunktiv": {
       "de": "er spräche",
-      "lv": "viņš runātu"
+      "lv": "on bi govoril"
     },
     "partizipVergangenheit": {
       "de": "gesprochen",
-      "lv": "runāts"
+      "lv": "govorjen"
     }
   },
   {
     "infinitiv": {
       "de": "sprießen",
-      "lv": "plaukt"
+      "lv": "kliti"
     },
     "praesens": {
       "de": "er sprießt",
-      "lv": "viņš plaukst"
+      "lv": "to klije"
     },
     "imperfektIndikativ": {
       "de": "er spross",
-      "lv": "viņš plauka"
+      "lv": "to je klilo"
     },
     "imperfektKonjunktiv": {
       "de": "er sprösse",
-      "lv": "viņš plauktu"
+      "lv": "to bi klilo"
     },
     "partizipVergangenheit": {
       "de": "gesprossen (er ist)",
-      "lv": "plaucis"
+      "lv": "klil"
     }
   },
   {
     "infinitiv": {
       "de": "springen",
-      "lv": "lēkt"
+      "lv": "skakati"
     },
     "praesens": {
       "de": "er springt",
-      "lv": "viņš lec"
+      "lv": "on skače"
     },
     "imperfektIndikativ": {
       "de": "er sprang",
-      "lv": "viņš lēca"
+      "lv": "on je skakal"
     },
     "imperfektKonjunktiv": {
       "de": "er spränge",
-      "lv": "viņš lēktu"
+      "lv": "on bi skakal"
     },
     "partizipVergangenheit": {
       "de": "gesprungen (er ist)",
-      "lv": "lēcis"
+      "lv": "skakal"
     }
   },
   {
     "infinitiv": {
       "de": "stechen",
-      "lv": "durt"
+      "lv": "bosti"
     },
     "praesens": {
       "de": "er sticht",
-      "lv": "viņš dur"
+      "lv": "on bode"
     },
     "imperfektIndikativ": {
       "de": "er stach",
-      "lv": "viņš dūra"
+      "lv": "on je bodel"
     },
     "imperfektKonjunktiv": {
       "de": "er stäche",
-      "lv": "viņš durtu"
+      "lv": "on bi bodel"
     },
     "partizipVergangenheit": {
       "de": "gestochen",
-      "lv": "durts"
+      "lv": "boden"
     }
   },
   {
     "infinitiv": {
       "de": "stecken",
-      "lv": "bāzt / iespraust"
+      "lv": "tlačiti / vtikati"
     },
     "praesens": {
       "de": "er steckt",
-      "lv": "viņš bāž"
+      "lv": "on tlači / vtika"
     },
     "imperfektIndikativ": {
       "de": "stak / steckte",
-      "lv": "iebāza"
+      "lv": "on je tlačil / vtikal"
     },
     "imperfektKonjunktiv": {
       "de": "stak / steckte",
-      "lv": "iebāza"
+      "lv": "on bi tlačil / vtikal"
     },
     "partizipVergangenheit": {
       "de": "gesteckt",
-      "lv": "iebāzts"
+      "lv": "tlačen / vtikan"
     }
   },
   {
     "infinitiv": {
       "de": "stehen",
-      "lv": "stāvēt"
+      "lv": "stati"
     },
     "praesens": {
       "de": "er steht",
-      "lv": "viņš stāv"
+      "lv": "on stoji"
     },
     "imperfektIndikativ": {
       "de": "er stand",
-      "lv": "viņš stāvēja"
+      "lv": "on je stal"
     },
     "imperfektKonjunktiv": {
       "de": "er stände / er stünde",
-      "lv": "viņš stāvētu"
+      "lv": "on bi stal"
     },
     "partizipVergangenheit": {
       "de": "gestanden",
-      "lv": "stāvēts"
+      "lv": "stal"
     }
   },
   {
     "infinitiv": {
       "de": "stehlen",
-      "lv": "zagt"
+      "lv": "krasti"
     },
     "praesens": {
       "de": "er stiehlt",
-      "lv": "viņš zog"
+      "lv": "on krade"
     },
     "imperfektIndikativ": {
       "de": "er stahl",
-      "lv": "viņš zaga"
+      "lv": "on je kradel"
     },
     "imperfektKonjunktiv": {
       "de": "er stöhle / er stähle",
-      "lv": "viņš zagtu"
+      "lv": "on bi kradel"
     },
     "partizipVergangenheit": {
       "de": "gestohlen",
-      "lv": "zagts"
+      "lv": "kraden"
     }
   },
   {
     "infinitiv": {
       "de": "steigen",
-      "lv": "kāpt"
+      "lv": "vzpenjati se"
     },
     "praesens": {
       "de": "er steigt",
-      "lv": "viņš kāpj"
+      "lv": "on se vzpenja"
     },
     "imperfektIndikativ": {
       "de": "er stieg",
-      "lv": "viņš kāpa"
+      "lv": "on se je vzpenjal"
     },
     "imperfektKonjunktiv": {
       "de": "er stiege",
-      "lv": "viņš kāptu"
+      "lv": "on bi se vzpenjal"
     },
     "partizipVergangenheit": {
       "de": "gestiegen (er ist)",
-      "lv": "kāpis"
+      "lv": "vzpenjal se"
     }
   },
   {
     "infinitiv": {
       "de": "sterben",
-      "lv": "mirt"
+      "lv": "umirati"
     },
     "praesens": {
       "de": "er stirbt",
-      "lv": "viņš mirst"
+      "lv": "on umira"
     },
     "imperfektIndikativ": {
       "de": "er starb",
-      "lv": "viņš mira"
+      "lv": "on je umiral"
     },
     "imperfektKonjunktiv": {
       "de": "er stürbe",
-      "lv": "viņš mirtu"
+      "lv": "on bi umiral"
     },
     "partizipVergangenheit": {
       "de": "gestorben (er ist)",
-      "lv": "miris"
+      "lv": "umiral"
     }
   },
   {
     "infinitiv": {
       "de": "stinken",
-      "lv": "smirdēt"
+      "lv": "smrdeti"
     },
     "praesens": {
       "de": "es stinkt",
-      "lv": "tas smird"
+      "lv": "to smrdi"
     },
     "imperfektIndikativ": {
       "de": "stank",
-      "lv": "smirdēja"
+      "lv": "to je smrdelo"
     },
     "imperfektKonjunktiv": {
       "de": "stank",
-      "lv": "smirdēja"
+      "lv": "to bi smrdelo"
     },
     "partizipVergangenheit": {
       "de": "gestunken",
-      "lv": "smirdējis"
+      "lv": "smrdel"
     }
   },
   {
     "infinitiv": {
       "de": "stoßen",
-      "lv": "grūst"
+      "lv": "porivati"
     },
     "praesens": {
       "de": "er stößt",
-      "lv": "viņš grūž"
+      "lv": "on poriva"
     },
     "imperfektIndikativ": {
       "de": "er stieß",
-      "lv": "viņš grūda"
+      "lv": "on je porival"
     },
     "imperfektKonjunktiv": {
       "de": "er stieße",
-      "lv": "viņš grūstu"
+      "lv": "on bi porival"
     },
     "partizipVergangenheit": {
       "de": "gestoßen",
-      "lv": "grūsts"
+      "lv": "porivan"
     }
   },
   {
     "infinitiv": {
       "de": "streichen",
-      "lv": "krāsot / strīpot"
+      "lv": "pleskati / črtati"
     },
     "praesens": {
       "de": "er streicht",
-      "lv": "viņš krāso / strīpo"
+      "lv": "on pleska / črta"
     },
     "imperfektIndikativ": {
       "de": "er strich",
-      "lv": "viņš krāsoja / strīpoja"
+      "lv": "on je pleskal / črtal"
     },
     "imperfektKonjunktiv": {
       "de": "er striche",
-      "lv": "viņš krāsotu / strīpotu"
+      "lv": "on bi pleskal / črtal"
     },
     "partizipVergangenheit": {
       "de": "gestrichen",
-      "lv": "krāsots / strīpots"
+      "lv": "pleskan / črtan"
     }
   },
   {
     "infinitiv": {
       "de": "streiten",
-      "lv": "cīnīties"
+      "lv": "prepirati se"
     },
     "praesens": {
       "de": "er streitet",
-      "lv": "viņš cīnās"
+      "lv": "on se prepira"
     },
     "imperfektIndikativ": {
       "de": "er stritt",
-      "lv": "viņš cīnījās"
+      "lv": "on se je prepiral"
     },
     "imperfektKonjunktiv": {
       "de": "er stritte",
-      "lv": "viņš cīnītos"
+      "lv": "on bi se prepiral"
     },
     "partizipVergangenheit": {
       "de": "gestritten",
-      "lv": "cīnījies"
+      "lv": "prepiral se"
     }
   },
   {
     "infinitiv": {
       "de": "tragen",
-      "lv": "nest"
+      "lv": "nesti"
     },
     "praesens": {
       "de": "er trägt",
-      "lv": "viņš nes"
+      "lv": "on nese"
     },
     "imperfektIndikativ": {
       "de": "er trug",
-      "lv": "viņš nesa"
+      "lv": "on je nesel"
     },
     "imperfektKonjunktiv": {
       "de": "er trüge",
-      "lv": "viņš nestu"
+      "lv": "on bi nesel"
     },
     "partizipVergangenheit": {
       "de": "getragen",
-      "lv": "nests"
+      "lv": "nesen"
     }
   },
   {
     "infinitiv": {
       "de": "treffen",
-      "lv": "sastapt"
+      "lv": "srečevati"
     },
     "praesens": {
       "de": "er trifft",
-      "lv": "viņš sastop"
+      "lv": "on srečuje"
     },
     "imperfektIndikativ": {
       "de": "er traf",
-      "lv": "viņš sastapa"
+      "lv": "on je srečeval"
     },
     "imperfektKonjunktiv": {
       "de": "er träfe",
-      "lv": "viņš sastaptu"
+      "lv": "on bi srečeval"
     },
     "partizipVergangenheit": {
       "de": "getroffen",
-      "lv": "sastapts"
+      "lv": "srečevan"
     }
   },
   {
     "infinitiv": {
       "de": "treiben",
-      "lv": "dzīt"
+      "lv": "gnati"
     },
     "praesens": {
       "de": "er treibt",
-      "lv": "viņš dzen"
+      "lv": "on žene"
     },
     "imperfektIndikativ": {
       "de": "er trieb",
-      "lv": "viņš dzina"
+      "lv": "on je gnal"
     },
     "imperfektKonjunktiv": {
       "de": "er triebe",
-      "lv": "viņš dzītu"
+      "lv": "on bi gnal"
     },
     "partizipVergangenheit": {
       "de": "getrieben",
-      "lv": "dzīts"
+      "lv": "gnan"
     }
   },
   {
     "infinitiv": {
       "de": "treten",
-      "lv": "stāties / iet"
+      "lv": "stopati / iti"
     },
     "praesens": {
       "de": "er tritt",
-      "lv": "viņš stājas / iet"
+      "lv": "on stopa / gre"
     },
     "imperfektIndikativ": {
       "de": "er trat",
-      "lv": "viņš stājās / gāja"
+      "lv": "on je stopal / šel"
     },
     "imperfektKonjunktiv": {
       "de": "er träte",
-      "lv": "viņš stātos / ietu"
+      "lv": "on bi stopal / šel"
     },
     "partizipVergangenheit": {
       "de": "getreten (er ist)",
-      "lv": "stājies / gājis"
+      "lv": "stopal / šel"
     }
   },
   {
     "infinitiv": {
       "de": "trinken",
-      "lv": "dzert"
+      "lv": "piti"
     },
     "praesens": {
       "de": "er trinkt",
-      "lv": "viņš dzer"
+      "lv": "on pije"
     },
     "imperfektIndikativ": {
       "de": "er trank",
-      "lv": "viņš dzēra"
+      "lv": "on je pil"
     },
     "imperfektKonjunktiv": {
       "de": "er tränke",
-      "lv": "viņš dzertu"
+      "lv": "on bi pil"
     },
     "partizipVergangenheit": {
       "de": "getrunken",
-      "lv": "dzerts"
+      "lv": "pit"
     }
   },
   {
     "infinitiv": {
       "de": "trügen",
-      "lv": "krāpt"
+      "lv": "varati"
     },
     "praesens": {
       "de": "er trögt",
-      "lv": "viņš krāpj"
+      "lv": "on vara"
     },
     "imperfektIndikativ": {
       "de": "er trog",
-      "lv": "viņš krāpa"
+      "lv": "on je varal"
     },
     "imperfektKonjunktiv": {
       "de": "er tröge",
-      "lv": "viņš krāptu"
+      "lv": "on bi varal"
     },
     "partizipVergangenheit": {
       "de": "getrogen",
-      "lv": "krāpts"
+      "lv": "varan"
     }
   },
   {
     "infinitiv": {
       "de": "tun",
-      "lv": "darīt"
+      "lv": "delati"
     },
     "praesens": {
       "de": "er tut",
-      "lv": "viņš dara"
+      "lv": "on dela"
     },
     "imperfektIndikativ": {
       "de": "er tat",
-      "lv": "viņš darīja"
+      "lv": "on je delal"
     },
     "imperfektKonjunktiv": {
       "de": "er täte",
-      "lv": "viņš darītu"
+      "lv": "on bi delal"
     },
     "partizipVergangenheit": {
       "de": "getan",
-      "lv": "darīts"
+      "lv": "delan"
     }
   },
   {
     "infinitiv": {
       "de": "verderben",
-      "lv": "bojāt"
+      "lv": "kvariti"
     },
     "praesens": {
       "de": "er verdirbt",
-      "lv": "viņš bojā"
+      "lv": "on kvari"
     },
     "imperfektIndikativ": {
       "de": "er verdarb",
-      "lv": "viņš bojāja"
+      "lv": "on je kvaril"
     },
     "imperfektKonjunktiv": {
       "de": "er verdürbe",
-      "lv": "viņš bojātu"
+      "lv": "on bi kvaril"
     },
     "partizipVergangenheit": {
       "de": "verdorben",
-      "lv": "bojāts"
+      "lv": "kvarjen"
     }
   },
   {
     "infinitiv": {
       "de": "verdrießen",
-      "lv": "sacelt īgnumu"
+      "lv": "jeziti"
     },
     "praesens": {
       "de": "er verdrießt",
-      "lv": "viņš izraisa īgnumu"
+      "lv": "on jezi"
     },
     "imperfektIndikativ": {
       "de": "er verdross",
-      "lv": "viņš izraisīja īgnumu"
+      "lv": "on je jezil"
     },
     "imperfektKonjunktiv": {
       "de": "er verdrösse",
-      "lv": "viņš izraisītu īgnumu"
+      "lv": "on bi jezil"
     },
     "partizipVergangenheit": {
       "de": "verdrossen",
-      "lv": "sarūgtināts"
+      "lv": "jezen"
     }
   },
   {
     "infinitiv": {
       "de": "vergessen",
-      "lv": "aizmirst"
+      "lv": "pozabljati"
     },
     "praesens": {
       "de": "er vergisst",
-      "lv": "viņš aizmirst"
+      "lv": "on pozablja"
     },
     "imperfektIndikativ": {
       "de": "er vergass",
-      "lv": "viņš aizmirsa"
+      "lv": "on je pozabljal"
     },
     "imperfektKonjunktiv": {
       "de": "er vergäße",
-      "lv": "viņš aizmirstu"
+      "lv": "on bi pozabljal"
     },
     "partizipVergangenheit": {
       "de": "vergessen",
-      "lv": "aizmirsts"
+      "lv": "pozabljan"
     }
   },
   {
     "infinitiv": {
       "de": "verlieren",
-      "lv": "pazaudēt"
+      "lv": "izgubljati"
     },
     "praesens": {
       "de": "er verliert",
-      "lv": "viņš pazaudē"
+      "lv": "on izgublja"
     },
     "imperfektIndikativ": {
       "de": "er verlor",
-      "lv": "viņš pazaudēja"
+      "lv": "on je izgubljal"
     },
     "imperfektKonjunktiv": {
       "de": "er verlöre",
-      "lv": "viņš pazaudētu"
+      "lv": "on bi izgubljal"
     },
     "partizipVergangenheit": {
       "de": "verloren",
-      "lv": "pazaudēts"
+      "lv": "izgubljan"
     }
   },
   {
     "infinitiv": {
       "de": "wachsen",
-      "lv": "augt"
+      "lv": "rasti"
     },
     "praesens": {
       "de": "er wächst",
-      "lv": "viņš aug"
+      "lv": "on raste"
     },
     "imperfektIndikativ": {
       "de": "er wuchs",
-      "lv": "viņš auga"
+      "lv": "on je rastel"
     },
     "imperfektKonjunktiv": {
       "de": "er wüchse",
-      "lv": "viņš augtu"
+      "lv": "on bi rastel"
     },
     "partizipVergangenheit": {
       "de": "gewachsen (er ist)",
-      "lv": "audzis"
+      "lv": "rastel"
     }
   },
   {
     "infinitiv": {
       "de": "waschen",
-      "lv": "mazgāt"
+      "lv": "prati"
     },
     "praesens": {
       "de": "er wäscht",
-      "lv": "viņš mazgā"
+      "lv": "on pere"
     },
     "imperfektIndikativ": {
       "de": "er wusch",
-      "lv": "viņš mazgāja"
+      "lv": "on je pral"
     },
     "imperfektKonjunktiv": {
       "de": "er wüsche",
-      "lv": "viņš mazgātu"
+      "lv": "on bi pral"
     },
     "partizipVergangenheit": {
       "de": "gewaschen",
-      "lv": "mazgāts"
+      "lv": "pran"
     }
   },
   {
     "infinitiv": {
       "de": "weben",
-      "lv": "aust"
+      "lv": "tkati"
     },
     "praesens": {
       "de": "er webt",
-      "lv": "viņš auž"
+      "lv": "on tke"
     },
     "imperfektIndikativ": {
       "de": "wob",
-      "lv": "auda"
+      "lv": "on je tkal"
     },
     "imperfektKonjunktiv": {
       "de": "wob",
-      "lv": "auda"
+      "lv": "on bi tkal"
     },
     "partizipVergangenheit": {
       "de": "gewoben",
-      "lv": "izausts"
+      "lv": "tkan"
     }
   },
   {
     "infinitiv": {
       "de": "weichen",
-      "lv": "atkāpties"
+      "lv": "umikati se"
     },
     "praesens": {
       "de": "er weicht",
-      "lv": "viņš atkāpjas"
+      "lv": "on se umika"
     },
     "imperfektIndikativ": {
       "de": "er wich",
-      "lv": "viņš atkāpās"
+      "lv": "on se je umikal"
     },
     "imperfektKonjunktiv": {
       "de": "er wiche",
-      "lv": "viņš atkāptos"
+      "lv": "on bi se umikal"
     },
     "partizipVergangenheit": {
       "de": "gewichen (er ist)",
-      "lv": "atkāpies"
+      "lv": "umikal se"
     }
   },
   {
     "infinitiv": {
       "de": "weisen",
-      "lv": "rādīt"
+      "lv": "kazati"
     },
     "praesens": {
       "de": "er weist",
-      "lv": "viņš rāda"
+      "lv": "on kaže"
     },
     "imperfektIndikativ": {
       "de": "er wies",
-      "lv": "viņš rādīja"
+      "lv": "on je kazal"
     },
     "imperfektKonjunktiv": {
       "de": "er wiese",
-      "lv": "viņš rādītu"
+      "lv": "on bi kazal"
     },
     "partizipVergangenheit": {
       "de": "gewiesen",
-      "lv": "rādīts"
+      "lv": "kazan"
     }
   },
   {
     "infinitiv": {
       "de": "wenden",
-      "lv": "grozīt / apgriezt"
+      "lv": "vrteti / obračati"
     },
     "praesens": {
       "de": "er wendet",
-      "lv": "viņš groza / apgriež"
+      "lv": "on vrti / obrača"
     },
     "imperfektIndikativ": {
       "de": "er wandte / es wendete",
-      "lv": "viņš grozīja / apgrieza"
+      "lv": "on je vrtel / obračal"
     },
     "imperfektKonjunktiv": {
       "de": "er wendete",
-      "lv": "viņš grozītu / apgrieztu"
+      "lv": "on bi vrtel / obračal"
     },
     "partizipVergangenheit": {
       "de": "gewandt / gewendet",
-      "lv": "grozīts / apgriezts"
+      "lv": "vrten / obračan"
     }
   },
   {
     "infinitiv": {
       "de": "werben",
-      "lv": "bildināt"
+      "lv": "snubiti"
     },
     "praesens": {
       "de": "er wirbt",
-      "lv": "viņš bildina"
+      "lv": "on snubi"
     },
     "imperfektIndikativ": {
       "de": "er warb",
-      "lv": "viņš bildināja"
+      "lv": "on je snubil"
     },
     "imperfektKonjunktiv": {
       "de": "er würbe",
-      "lv": "viņš bildinātu"
+      "lv": "on bi snubil"
     },
     "partizipVergangenheit": {
       "de": "geworben",
-      "lv": "bildināts"
+      "lv": "snubljen"
     }
   },
   {
     "infinitiv": {
       "de": "werden",
-      "lv": "kļūt"
+      "lv": "postajati"
     },
     "praesens": {
       "de": "er wird",
-      "lv": "viņš kļūst"
+      "lv": "on postaja"
     },
     "imperfektIndikativ": {
       "de": "wurde",
-      "lv": "kļuva"
+      "lv": "on je postajal"
     },
     "imperfektKonjunktiv": {
       "de": "wurde",
-      "lv": "kļuva"
+      "lv": "on bi postajal"
     },
     "partizipVergangenheit": {
       "de": "geworden",
-      "lv": "kļuvis"
+      "lv": "postajal"
     }
   },
   {
     "infinitiv": {
       "de": "werfen",
-      "lv": "mest"
+      "lv": "metati"
     },
     "praesens": {
       "de": "er wirft",
-      "lv": "viņš met"
+      "lv": "on meče"
     },
     "imperfektIndikativ": {
       "de": "er warf",
-      "lv": "viņš meta"
+      "lv": "on je metal"
     },
     "imperfektKonjunktiv": {
       "de": "er würfe",
-      "lv": "viņš mestu"
+      "lv": "on bi metal"
     },
     "partizipVergangenheit": {
       "de": "geworfen",
-      "lv": "mests"
+      "lv": "metan"
     }
   },
   {
     "infinitiv": {
       "de": "wiegen",
-      "lv": "svērt"
+      "lv": "tehtati"
     },
     "praesens": {
       "de": "er wiegt",
-      "lv": "viņš sver"
+      "lv": "on tehta"
     },
     "imperfektIndikativ": {
       "de": "er wog",
-      "lv": "viņš svēra"
+      "lv": "on je tehtal"
     },
     "imperfektKonjunktiv": {
       "de": "er wöge",
-      "lv": "viņš svērtu"
+      "lv": "on bi tehtal"
     },
     "partizipVergangenheit": {
       "de": "gewogen",
-      "lv": "svērts"
+      "lv": "tehtan"
     }
   },
   {
     "infinitiv": {
       "de": "winden",
-      "lv": "pīt"
+      "lv": "viti"
     },
     "praesens": {
       "de": "er windet",
-      "lv": "viņš pin"
+      "lv": "on vije"
     },
     "imperfektIndikativ": {
       "de": "er wand",
-      "lv": "viņš pina"
+      "lv": "on je vil"
     },
     "imperfektKonjunktiv": {
       "de": "er wände",
-      "lv": "viņš pītu"
+      "lv": "on bi vil"
     },
     "partizipVergangenheit": {
       "de": "gewunden",
-      "lv": "pīts"
+      "lv": "vit"
     }
   },
   {
     "infinitiv": {
       "de": "wissen",
-      "lv": "zināt"
+      "lv": "vedeti"
     },
     "praesens": {
       "de": "er weiß",
-      "lv": "viņš zina"
+      "lv": "on ve"
     },
     "imperfektIndikativ": {
       "de": "er wusste",
-      "lv": "viņš zināja"
+      "lv": "on je vedel"
     },
     "imperfektKonjunktiv": {
       "de": "er wüsste",
-      "lv": "viņš zinātu"
+      "lv": "on bi vedel"
     },
     "partizipVergangenheit": {
       "de": "gewusst",
-      "lv": "zināts"
+      "lv": "vedel"
     }
   },
   {
     "infinitiv": {
       "de": "wollen",
-      "lv": "gribēt"
+      "lv": "hoteti"
     },
     "praesens": {
       "de": "er will",
-      "lv": "viņš grib"
+      "lv": "on hoče"
     },
     "imperfektIndikativ": {
       "de": "wollte",
-      "lv": "gribēja"
+      "lv": "on je hotel"
     },
     "imperfektKonjunktiv": {
       "de": "wollte",
-      "lv": "gribēja"
+      "lv": "on bi hotel"
     },
     "partizipVergangenheit": {
       "de": "gewollt",
-      "lv": "gribējis"
+      "lv": "hotel"
     }
   },
   {
     "infinitiv": {
       "de": "wringen",
-      "lv": "izgriezt / izspiest"
+      "lv": "ožemati / iztiskati"
     },
     "praesens": {
       "de": "er wringt",
-      "lv": "viņš izgriež"
+      "lv": "on ožema / iztiska"
     },
     "imperfektIndikativ": {
       "de": "wrang",
-      "lv": "izgrieza"
+      "lv": "on je ožemal / iztiskal"
     },
     "imperfektKonjunktiv": {
       "de": "wrang",
-      "lv": "izgrieza"
+      "lv": "on bi ožemal / iztiskal"
     },
     "partizipVergangenheit": {
       "de": "gewrungen",
-      "lv": "izgriezts"
+      "lv": "ožeman / iztiskan"
     }
   },
   {
     "infinitiv": {
       "de": "zeihen",
-      "lv": "vainot"
+      "lv": "dolžiti"
     },
     "praesens": {
       "de": "er zeiht",
-      "lv": "viņš vaino"
+      "lv": "on dolži"
     },
     "imperfektIndikativ": {
       "de": "zieh",
-      "lv": "vainoja"
+      "lv": "on je dolžil"
     },
     "imperfektKonjunktiv": {
       "de": "zieh",
-      "lv": "vainoja"
+      "lv": "on bi dolžil"
     },
     "partizipVergangenheit": {
       "de": "geziehen",
-      "lv": "vainojis"
+      "lv": "dolžen"
     }
   },
   {
     "infinitiv": {
       "de": "ziehen",
-      "lv": "vilkt"
+      "lv": "vleči"
     },
     "praesens": {
       "de": "er zieht",
-      "lv": "viņš velk"
+      "lv": "on vleče"
     },
     "imperfektIndikativ": {
       "de": "er zog",
-      "lv": "viņš vilka"
+      "lv": "on je vlekel"
     },
     "imperfektKonjunktiv": {
       "de": "er zöge",
-      "lv": "viņš vilktu"
+      "lv": "on bi vlekel"
     },
     "partizipVergangenheit": {
       "de": "gezogen",
-      "lv": "vilkts"
+      "lv": "vlečen"
     }
   },
   {
     "infinitiv": {
       "de": "zwingen",
-      "lv": "piespiest"
+      "lv": "siliti"
     },
     "praesens": {
       "de": "er zwingt",
-      "lv": "viņš piespiež"
+      "lv": "on sili"
     },
     "imperfektIndikativ": {
       "de": "er zwang",
-      "lv": "viņš piespieda"
+      "lv": "on je silil"
     },
     "imperfektKonjunktiv": {
       "de": "er zwänge",
-      "lv": "viņš piespiestu"
+      "lv": "on bi silil"
     },
     "partizipVergangenheit": {
       "de": "gezwungen",
-      "lv": "piespiests"
+      "lv": "siljen"
     }
   },
   {
     "infinitiv": {
       "de": "empfangen",
-      "lv": "saņemt"
+      "lv": "sprejemati"
     },
     "praesens": {
       "de": "er empfängt",
-      "lv": "viņš saņem"
+      "lv": "on sprejema"
     },
     "imperfektIndikativ": {
       "de": "er empfing",
-      "lv": "viņš saņēma"
+      "lv": "on je sprejemal"
     },
     "imperfektKonjunktiv": {
       "de": "er empfinge",
-      "lv": "viņš saņemtu"
+      "lv": "on bi sprejemal"
     },
     "partizipVergangenheit": {
       "de": "empfangen",
-      "lv": "saņemts"
+      "lv": "sprejeman"
     }
   },
   {
     "infinitiv": {
       "de": "erwägen",
-      "lv": "apsvērt"
+      "lv": "pretehtavati"
     },
     "praesens": {
       "de": "er erwägt",
-      "lv": "viņš apsver"
+      "lv": "on pretehtava"
     },
     "imperfektIndikativ": {
       "de": "er erwog",
-      "lv": "viņš apsvēra"
+      "lv": "on je pretehtaval"
     },
     "imperfektKonjunktiv": {
       "de": "er erwöge",
-      "lv": "viņš apsvērtu"
+      "lv": "on bi pretehtaval"
     },
     "partizipVergangenheit": {
       "de": "erwogen",
-      "lv": "apsvērts"
+      "lv": "pretehtavan"
     }
   },
   {
     "infinitiv": {
       "de": "fechten",
-      "lv": "cīnīties"
+      "lv": "boriti se"
     },
     "praesens": {
       "de": "er ficht",
-      "lv": "viņš cīnās"
+      "lv": "on se bori"
     },
     "imperfektIndikativ": {
       "de": "er focht",
-      "lv": "viņš cīnījās"
+      "lv": "on se je boril"
     },
     "imperfektKonjunktiv": {
       "de": "er föchte",
-      "lv": "viņš cīnītos"
+      "lv": "on bi se boril"
     },
     "partizipVergangenheit": {
       "de": "gefochten",
-      "lv": "cīnījies"
+      "lv": "boril se"
     }
   },
   {
     "infinitiv": {
       "de": "flechten",
-      "lv": "pīt"
+      "lv": "plesti"
     },
     "praesens": {
       "de": "er flicht",
-      "lv": "viņš pin"
+      "lv": "on plete"
     },
     "imperfektIndikativ": {
       "de": "er flocht",
-      "lv": "viņš pina"
+      "lv": "on je pletel"
     },
     "imperfektKonjunktiv": {
       "de": "er flöchte",
-      "lv": "viņš pītu"
+      "lv": "on bi pletel"
     },
     "partizipVergangenheit": {
       "de": "geflochten",
-      "lv": "pīts"
+      "lv": "pleten"
     }
   },
   {
     "infinitiv": {
       "de": "hangen",
-      "lv": "karāties"
+      "lv": "viseti"
     },
     "praesens": {
       "de": "er hängt",
-      "lv": "viņš karājas"
+      "lv": "on visi"
     },
     "imperfektIndikativ": {
       "de": "er hing",
-      "lv": "viņš karājās"
+      "lv": "on je visel"
     },
     "imperfektKonjunktiv": {
       "de": "er hinge",
-      "lv": "viņš karātos"
+      "lv": "on bi visel"
     },
     "partizipVergangenheit": {
       "de": "gehangen",
-      "lv": "karājies"
+      "lv": "visel"
     }
   },
   {
     "infinitiv": {
       "de": "spalten",
-      "lv": "skaldīt"
+      "lv": "cepiti"
     },
     "praesens": {
       "de": "er spaltet",
-      "lv": "viņš skalda"
+      "lv": "on cepi"
     },
     "imperfektIndikativ": {
       "de": "er spaltete",
-      "lv": "viņš skaldīja"
+      "lv": "on je cepil"
     },
     "imperfektKonjunktiv": {
       "de": "er spaltete",
-      "lv": "viņš skaldītu"
+      "lv": "on bi cepil"
     },
     "partizipVergangenheit": {
       "de": "gespalten",
-      "lv": "skaldīts"
+      "lv": "cepljen"
     }
   },
   {
     "infinitiv": {
       "de": "verzeihen",
-      "lv": "piedot"
+      "lv": "odpuščati"
     },
     "praesens": {
       "de": "er verzeiht",
-      "lv": "viņš piedod"
+      "lv": "on odpušča"
     },
     "imperfektIndikativ": {
       "de": "er verzieh",
-      "lv": "viņš piedeva"
+      "lv": "on je odpuščal"
     },
     "imperfektKonjunktiv": {
       "de": "er verziehe",
-      "lv": "viņš piedotu"
+      "lv": "on bi odpuščal"
     },
     "partizipVergangenheit": {
       "de": "verziehen",
-      "lv": "piedots"
+      "lv": "odpuščan"
     }
   }
 ];
