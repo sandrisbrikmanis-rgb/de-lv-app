@@ -2,4137 +2,4137 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "backen",
-      "lv": "Να μαγειρέψουν"
+      "lv": "ψήνω"
     },
     "praesens": {
       "de": "er bäckt",
-      "lv": "Μαγειρεύει"
+      "lv": "αυτός ψήνει"
     },
     "imperfektIndikativ": {
       "de": "er buk",
-      "lv": "Μαγείρευε"
+      "lv": "αυτός έψησε"
     },
     "imperfektKonjunktiv": {
       "de": "er büke",
-      "lv": "Θα μαγείρευε"
+      "lv": "αυτός θα έψηνε"
     },
     "partizipVergangenheit": {
       "de": "gebacken",
-      "lv": "Ψητό"
+      "lv": "ψημένος"
     }
   },
   {
     "infinitiv": {
       "de": "befehlen",
-      "lv": "Να διατάξει"
+      "lv": "διατάζω"
     },
     "praesens": {
       "de": "er befiehlt",
-      "lv": "Διατάζει"
+      "lv": "αυτός διατάζει"
     },
     "imperfektIndikativ": {
       "de": "er befahl",
-      "lv": "Διέταξε"
+      "lv": "αυτός διέταξε"
     },
     "imperfektKonjunktiv": {
       "de": "er beföhle",
-      "lv": "Μπορούσε να διαχειριστεί"
+      "lv": "αυτός θα διέταζε"
     },
     "partizipVergangenheit": {
       "de": "befohlen",
-      "lv": "Διέταξε"
+      "lv": "έχει διατάξει"
     }
   },
   {
     "infinitiv": {
       "de": "beginnen",
-      "lv": "Για να ξεκινήσετε"
+      "lv": "αρχίζω"
     },
     "praesens": {
       "de": "er beginnt",
-      "lv": "Ξεκινάει"
+      "lv": "αυτός αρχίζει"
     },
     "imperfektIndikativ": {
       "de": "er begann",
-      "lv": "Άρχισε"
+      "lv": "αυτός άρχισε"
     },
     "imperfektKonjunktiv": {
       "de": "er begönne / er begänne",
-      "lv": "Θα ξεκινούσε"
+      "lv": "αυτός θα άρχιζε"
     },
     "partizipVergangenheit": {
       "de": "begonnen",
-      "lv": "Ξεκίνησε"
+      "lv": "έχει αρχίσει"
     }
   },
   {
     "infinitiv": {
       "de": "beißen",
-      "lv": "Να δαγκώσει"
+      "lv": "δαγκώνω"
     },
     "praesens": {
       "de": "er beißt",
-      "lv": "Δαγκώνει"
+      "lv": "αυτός δαγκώνει"
     },
     "imperfektIndikativ": {
       "de": "er biss",
-      "lv": "Δάγκωσε"
+      "lv": "αυτός δάγκωσε"
     },
     "imperfektKonjunktiv": {
       "de": "er bisse",
-      "lv": "Θα δάγκωνε"
+      "lv": "αυτός θα δάγκωνε"
     },
     "partizipVergangenheit": {
       "de": "gebissen",
-      "lv": "Δαγκωμένος / μη δαγκωμένος"
+      "lv": "δαγκωμένος"
     }
   },
   {
     "infinitiv": {
       "de": "bergen",
-      "lv": "Απόκρυψη / αποθήκευση"
+      "lv": "σώζω / κρύβω"
     },
     "praesens": {
       "de": "er birgt",
-      "lv": "Κρύβεται"
+      "lv": "αυτός σώζει / κρύβει"
     },
     "imperfektIndikativ": {
       "de": "er barg",
-      "lv": "Κρύφτηκε"
+      "lv": "αυτός έσωσε / έκρυψε"
     },
     "imperfektKonjunktiv": {
       "de": "er bürge / er bärge",
-      "lv": "Θα κρυβόταν"
+      "lv": "αυτός θα έσωζε / θα έκρυβε"
     },
     "partizipVergangenheit": {
       "de": "geborgen",
-      "lv": "Κρυφό / αποθηκευμένο"
+      "lv": "σωσμένος / κρυμμένος"
     }
   },
   {
     "infinitiv": {
       "de": "bersten",
-      "lv": "Να εκραγεί"
+      "lv": "σκάω"
     },
     "praesens": {
       "de": "er birst",
-      "lv": "Εκρήγνυται"
+      "lv": "αυτός σκάει"
     },
     "imperfektIndikativ": {
       "de": "er barst / er borst",
-      "lv": "Ξέσπασε"
+      "lv": "αυτός έσκασε"
     },
     "imperfektKonjunktiv": {
       "de": "er bärste / er börste",
-      "lv": "Θα έσκαγε"
+      "lv": "αυτός θα έσκαγε"
     },
     "partizipVergangenheit": {
       "de": "geborsten (er ist)",
-      "lv": "Εξερράγη"
+      "lv": "σκασμένος"
     }
   },
   {
     "infinitiv": {
       "de": "bewegen",
-      "lv": "Να οδηγείτε"
+      "lv": "παρακινώ"
     },
     "praesens": {
       "de": "er bewegt",
-      "lv": "Προτρέπει"
+      "lv": "αυτός παρακινεί"
     },
     "imperfektIndikativ": {
       "de": "er bewog",
-      "lv": "Προέτρεψε"
+      "lv": "αυτός παρακίνησε"
     },
     "imperfektKonjunktiv": {
       "de": "er bewöge",
-      "lv": "Θα οδηγούσε"
+      "lv": "αυτός θα παρακινούσε"
     },
     "partizipVergangenheit": {
       "de": "bewogen",
-      "lv": "Οδηγείται από"
+      "lv": "έχει παρακινήσει"
     }
   },
   {
     "infinitiv": {
       "de": "biegen",
-      "lv": "Να λυγίσει"
+      "lv": "λυγίζω"
     },
     "praesens": {
       "de": "er biegt",
-      "lv": "Λυγίζει"
+      "lv": "αυτός λυγίζει"
     },
     "imperfektIndikativ": {
       "de": "er bog",
-      "lv": "Λύγισε"
+      "lv": "αυτός λύγισε"
     },
     "imperfektKonjunktiv": {
       "de": "er böge",
-      "lv": "Θα λύγιζε"
+      "lv": "αυτός θα λύγιζε"
     },
     "partizipVergangenheit": {
       "de": "gebogen",
-      "lv": "Κλίση"
+      "lv": "λυγισμένος"
     }
   },
   {
     "infinitiv": {
       "de": "bieten",
-      "lv": "Να προσφέρει"
+      "lv": "προσφέρω"
     },
     "praesens": {
       "de": "er bietet",
-      "lv": "Προσφέρει"
+      "lv": "αυτός προσφέρει"
     },
     "imperfektIndikativ": {
       "de": "er bot",
-      "lv": "Προσέφερε"
+      "lv": "αυτός πρόσφερε"
     },
     "imperfektKonjunktiv": {
       "de": "er böte",
-      "lv": "Θα πρόσφερε"
+      "lv": "αυτός θα πρόσφερε"
     },
     "partizipVergangenheit": {
       "de": "geboten",
-      "lv": "Προτεινόμενος / προτεινόμενος"
+      "lv": "προσφερμένος"
     }
   },
   {
     "infinitiv": {
       "de": "binden",
-      "lv": "Δένω"
+      "lv": "δένω"
     },
     "praesens": {
       "de": "er bindet",
-      "lv": "Δεσμεύει"
+      "lv": "αυτός δένει"
     },
     "imperfektIndikativ": {
       "de": "er band",
-      "lv": "Έδεσε"
+      "lv": "αυτός έδεσε"
     },
     "imperfektKonjunktiv": {
       "de": "er bände",
-      "lv": "Θα έδενε"
+      "lv": "αυτός θα έδενε"
     },
     "partizipVergangenheit": {
       "de": "gebunden",
-      "lv": "Συγγενεύων"
+      "lv": "δεμένος"
     }
   },
   {
     "infinitiv": {
       "de": "bitten",
-      "lv": "Να ρωτήσω"
+      "lv": "παρακαλώ"
     },
     "praesens": {
       "de": "er bittet",
-      "lv": "Παρακαλεί"
+      "lv": "αυτός παρακαλεί"
     },
     "imperfektIndikativ": {
       "de": "er bat",
-      "lv": "Ρώτησε"
+      "lv": "αυτός παρακάλεσε"
     },
     "imperfektKonjunktiv": {
       "de": "er bäte",
-      "lv": "Θα παρακαλούσε"
+      "lv": "αυτός θα παρακαλούσε"
     },
     "partizipVergangenheit": {
       "de": "gebeten",
-      "lv": "Ζήτησε"
+      "lv": "έχει παρακαλέσει"
     }
   },
   {
     "infinitiv": {
       "de": "blasen",
-      "lv": "Να φυσήξει"
+      "lv": "φυσάω"
     },
     "praesens": {
       "de": "er bläst",
-      "lv": "Φυσάει"
+      "lv": "αυτός φυσάει"
     },
     "imperfektIndikativ": {
       "de": "er blies",
-      "lv": "Φύσηξε"
+      "lv": "αυτός φύσηξε"
     },
     "imperfektKonjunktiv": {
       "de": "er bliese",
-      "lv": "Θα φυσούσε"
+      "lv": "αυτός θα φυσούσε"
     },
     "partizipVergangenheit": {
       "de": "geblasen",
-      "lv": "Ανοιγμένος"
+      "lv": "έχει φυσήξει"
     }
   },
   {
     "infinitiv": {
       "de": "gären",
-      "lv": "Να ζυμώσει"
+      "lv": "βράζω"
     },
     "praesens": {
       "de": "es gärt",
-      "lv": "Ζυμώνει"
+      "lv": "αυτό βράζει"
     },
     "imperfektIndikativ": {
       "de": "es gor / es gärte",
-      "lv": "Έβρασε"
+      "lv": "αυτό έβρασε"
     },
     "imperfektKonjunktiv": {
       "de": "es göre / es gärte",
-      "lv": "Θα ζυμωνόταν"
+      "lv": "αυτό θα έβραζε"
     },
     "partizipVergangenheit": {
       "de": "gegoren / gegärt",
-      "lv": "Ζυμωμένο"
+      "lv": "έχει βράσει"
     }
   },
   {
     "infinitiv": {
       "de": "gebären",
-      "lv": "Να γεννήσει"
+      "lv": "γεννώ"
     },
     "praesens": {
       "de": "sie gebiert",
-      "lv": "Γεννάει"
+      "lv": "αυτή γεννά"
     },
     "imperfektIndikativ": {
       "de": "sie gebar",
-      "lv": "Γέννησε"
+      "lv": "αυτή γέννησε"
     },
     "imperfektKonjunktiv": {
       "de": "sie gebäre",
-      "lv": "Θα γεννούσε"
+      "lv": "αυτή θα γεννούσε"
     },
     "partizipVergangenheit": {
       "de": "geboren",
-      "lv": "Γεννημένος / γεννημένος"
+      "lv": "γεννημένος"
     }
   },
   {
     "infinitiv": {
       "de": "gelingen",
-      "lv": "Να πετύχει"
+      "lv": "πετυχαίνω"
     },
     "praesens": {
       "de": "es gelingt",
-      "lv": "Θα πετύχει"
+      "lv": "αυτό πετυχαίνει"
     },
     "imperfektIndikativ": {
       "de": "es gelang",
-      "lv": "Πέτυχε"
+      "lv": "αυτό πέτυχε"
     },
     "imperfektKonjunktiv": {
       "de": "es gelänge",
-      "lv": "Θα λειτουργούσε"
+      "lv": "αυτό θα πετύχαινε"
     },
     "partizipVergangenheit": {
       "de": "gelungen (es ist)",
-      "lv": "Πέτυχε"
+      "lv": "πετυχημένος"
     }
   },
   {
     "infinitiv": {
       "de": "gelten",
-      "lv": "Εφαρμόζω"
+      "lv": "χρησιμεύω / ισχύω"
     },
     "praesens": {
       "de": "er gilt",
-      "lv": "Είναι έγκυρος"
+      "lv": "αυτός χρησιμεύει / ισχύει"
     },
     "imperfektIndikativ": {
       "de": "er galt",
-      "lv": "Ήταν έγκυρος"
+      "lv": "αυτός χρησίμευσε / ίσχυσε"
     },
     "imperfektKonjunktiv": {
       "de": "er gölte / es gälte",
-      "lv": "Θα εφάρμοζε / θα ίσχυε"
+      "lv": "αυτός θα χρησίμευε / θα ίσχυε"
     },
     "partizipVergangenheit": {
       "de": "gegolten",
-      "lv": "Εφαρμοσμένος"
+      "lv": "έχει χρησιμεύσει / έχει ισχύσει"
     }
   },
   {
     "infinitiv": {
       "de": "genesen",
-      "lv": "Να θεραπεύσει"
+      "lv": "αναρρώνω"
     },
     "praesens": {
       "de": "er genest",
-      "lv": "Γίνεται καλύτερος"
+      "lv": "αυτός αναρρώνει"
     },
     "imperfektIndikativ": {
       "de": "er genas",
-      "lv": "Συνήλθε"
+      "lv": "αυτός ανάρρωσε"
     },
     "imperfektKonjunktiv": {
       "de": "er genäse",
-      "lv": "Θα γινόταν καλύτερος"
+      "lv": "αυτός θα ανάρρωνε"
     },
     "partizipVergangenheit": {
       "de": "genesen (er ist)",
-      "lv": "Βελτιωμένη"
+      "lv": "έχει αναρρώσει"
     }
   },
   {
     "infinitiv": {
       "de": "genießen",
-      "lv": "Για να απολαύσετε"
+      "lv": "απολαμβάνω"
     },
     "praesens": {
       "de": "er genießt",
-      "lv": "Απολαμβάνει"
+      "lv": "αυτός απολαμβάνει"
     },
     "imperfektIndikativ": {
       "de": "er genoss",
-      "lv": "Απολάμβανε"
+      "lv": "αυτός απόλαυσε"
     },
     "imperfektKonjunktiv": {
       "de": "er genösse",
-      "lv": "Θα απολάμβανε"
+      "lv": "αυτός θα απολάμβανε"
     },
     "partizipVergangenheit": {
       "de": "genossen",
-      "lv": "Απόλαυσε"
+      "lv": "έχει απολαύσει"
     }
   },
   {
     "infinitiv": {
       "de": "geschehen",
-      "lv": "Συμβαίνω"
+      "lv": "συμβαίνει"
     },
     "praesens": {
       "de": "es geschieht",
-      "lv": "Συμβαίνει"
+      "lv": "αυτό συμβαίνει"
     },
     "imperfektIndikativ": {
       "de": "es geschah",
-      "lv": "Συνέβη"
+      "lv": "αυτό συνέβη"
     },
     "imperfektKonjunktiv": {
       "de": "es geschähe",
-      "lv": "Θα συνέβαινε"
+      "lv": "αυτό θα συνέβαινε"
     },
     "partizipVergangenheit": {
       "de": "geschehen (es ist)",
-      "lv": "Συνέβη"
+      "lv": "έχει συμβεί"
     }
   },
   {
     "infinitiv": {
       "de": "gießen",
-      "lv": "Να χύνει"
+      "lv": "χύνω"
     },
     "praesens": {
       "de": "er gießt",
-      "lv": "Χύνει"
+      "lv": "αυτός χύνει"
     },
     "imperfektIndikativ": {
       "de": "er goss",
-      "lv": "Έχυσε"
+      "lv": "αυτός έχυσε"
     },
     "imperfektKonjunktiv": {
       "de": "er gösse",
-      "lv": "Θα έριχνε"
+      "lv": "αυτός θα έχυνε"
     },
     "partizipVergangenheit": {
       "de": "gegossen",
-      "lv": "Εκμαγείο"
+      "lv": "χυμένος"
     }
   },
   {
     "infinitiv": {
       "de": "gleichen",
-      "lv": "Μοιάζω"
+      "lv": "μοιάζω"
     },
     "praesens": {
       "de": "er gleicht",
-      "lv": "Μοιάζει"
+      "lv": "αυτός μοιάζει"
     },
     "imperfektIndikativ": {
       "de": "er glich",
-      "lv": "Έμοιαζε"
+      "lv": "αυτός έμοιασε"
     },
     "imperfektKonjunktiv": {
       "de": "er gliche",
-      "lv": "Θα έμοιαζε"
+      "lv": "αυτός θα έμοιαζε"
     },
     "partizipVergangenheit": {
       "de": "geglichen",
-      "lv": "Έμοιαζε"
+      "lv": "έχει μοιάσει"
     }
   },
   {
     "infinitiv": {
       "de": "gleiten",
-      "lv": "Να γλιστρήσει"
+      "lv": "γλιστρώ"
     },
     "praesens": {
       "de": "er gleitet",
-      "lv": "Γλιστράει"
+      "lv": "αυτός γλιστρά"
     },
     "imperfektIndikativ": {
       "de": "er glitt",
-      "lv": "Γλίστρησε"
+      "lv": "αυτός γλίστρησε"
     },
     "imperfektKonjunktiv": {
       "de": "er glitte",
-      "lv": "Θα γλιστρούσε"
+      "lv": "αυτός θα γλιστρούσε"
     },
     "partizipVergangenheit": {
       "de": "geglitten (er ist)",
-      "lv": "Γλίστρησε"
+      "lv": "έχει γλιστρήσει"
     }
   },
   {
     "infinitiv": {
       "de": "glimmen",
-      "lv": "Να λάμπει"
+      "lv": "κορώνω"
     },
     "praesens": {
       "de": "er glimmt",
-      "lv": "Αυτή λάμπει"
+      "lv": "αυτός κορώνει"
     },
     "imperfektIndikativ": {
       "de": "er glimmte / glomm",
-      "lv": "Έλαμπε εκείνη"
+      "lv": "αυτός κόρωσε"
     },
     "imperfektKonjunktiv": {
       "de": "er glimmte",
-      "lv": "Θα έλαμπε"
+      "lv": "αυτός θα κόρωνε"
     },
     "partizipVergangenheit": {
       "de": "geglimmt / geglommen",
-      "lv": "Λαμπερός"
+      "lv": "κορωμένος"
     }
   },
   {
     "infinitiv": {
       "de": "graben",
-      "lv": "Να σκάψει"
+      "lv": "σκάβω"
     },
     "praesens": {
       "de": "er gräbt",
-      "lv": "Σκάβει"
+      "lv": "αυτός σκάβει"
     },
     "imperfektIndikativ": {
       "de": "er grub",
-      "lv": "Έσκαψε"
+      "lv": "αυτός έσκαψε"
     },
     "imperfektKonjunktiv": {
       "de": "er grübe",
-      "lv": "Θα έσκαβε"
+      "lv": "αυτός θα έσκαβε"
     },
     "partizipVergangenheit": {
       "de": "gegraben",
-      "lv": "Έσκαψε"
+      "lv": "σκαμμένος"
     }
   },
   {
     "infinitiv": {
       "de": "greifen",
-      "lv": "Αραπάζω"
+      "lv": "αρπάζω"
     },
     "praesens": {
       "de": "er greift",
-      "lv": "Αρπάζει"
+      "lv": "αυτός αρπάζει"
     },
     "imperfektIndikativ": {
       "de": "er griff",
-      "lv": "Άρπαξε"
+      "lv": "αυτός άρπαξε"
     },
     "imperfektKonjunktiv": {
       "de": "er griffe",
-      "lv": "Θα άρπαζε"
+      "lv": "αυτός θα άρπαζε"
     },
     "partizipVergangenheit": {
       "de": "gegriffen",
-      "lv": "Άρπαξε / άρπαξε"
+      "lv": "έχει αρπάξει"
     }
   },
   {
     "infinitiv": {
       "de": "hauen",
-      "lv": "Να χαράξει"
+      "lv": "πελεκώ"
     },
     "praesens": {
       "de": "er haut",
-      "lv": "Κόβει"
+      "lv": "αυτός πελεκά"
     },
     "imperfektIndikativ": {
       "de": "er hieb",
-      "lv": "Έκοψε"
+      "lv": "αυτός πελέκησε"
     },
     "imperfektKonjunktiv": {
       "de": "er hiebe",
-      "lv": "Θα έκοβε"
+      "lv": "αυτός θα πελεκούσε"
     },
     "partizipVergangenheit": {
       "de": "gehauen",
-      "lv": "Σκαλισμένα"
+      "lv": "πελεκημένος"
     }
   },
   {
     "infinitiv": {
       "de": "heben",
-      "lv": "Αύξηση"
+      "lv": "σηκώνω"
     },
     "praesens": {
       "de": "er hebt",
-      "lv": "Σηκώνει"
+      "lv": "αυτός σηκώνει"
     },
     "imperfektIndikativ": {
       "de": "er hob",
-      "lv": "Σήκωσε"
+      "lv": "αυτός σήκωσε"
     },
     "imperfektKonjunktiv": {
       "de": "er höbe",
-      "lv": "Θα σήκωνε"
+      "lv": "αυτός θα σήκωνε"
     },
     "partizipVergangenheit": {
       "de": "gehoben",
-      "lv": "Ανυψώθηκε"
+      "lv": "σηκωμένος"
     }
   },
   {
     "infinitiv": {
       "de": "kennen",
-      "lv": "Νιώθω / γνωρίζω"
+      "lv": "γνωρίζω"
     },
     "praesens": {
       "de": "er kennt",
-      "lv": "Αισθάνεται"
+      "lv": "αυτός γνωρίζει"
     },
     "imperfektIndikativ": {
       "de": "kannte",
-      "lv": "Ένιωθε"
+      "lv": "αυτός γνώρισε"
     },
     "imperfektKonjunktiv": {
       "de": "kannte",
-      "lv": "Ένιωθε"
+      "lv": "αυτός θα γνώριζε"
     },
     "partizipVergangenheit": {
       "de": "gekannt",
-      "lv": "Τσόχα"
+      "lv": "έχει γνωρίσει"
     }
   },
   {
     "infinitiv": {
       "de": "klingen",
-      "lv": "Να ακούγεται"
+      "lv": "ηχώ"
     },
     "praesens": {
       "de": "er klingt",
-      "lv": "Ακούγεται"
+      "lv": "αυτός ηχεί"
     },
     "imperfektIndikativ": {
       "de": "er klang",
-      "lv": "Ακούστηκε"
+      "lv": "αυτός ήχησε"
     },
     "imperfektKonjunktiv": {
       "de": "er klänge",
-      "lv": "Θα ακουγόταν"
+      "lv": "αυτός θα ηχούσε"
     },
     "partizipVergangenheit": {
       "de": "geklungen",
-      "lv": "Ακούστηκε"
+      "lv": "έχει ηχήσει"
     }
   },
   {
     "infinitiv": {
       "de": "kneifen",
-      "lv": "Να τσιμπήσει"
+      "lv": "τσιμπώ"
     },
     "praesens": {
       "de": "er kneift",
-      "lv": "Τσιμπάει"
+      "lv": "αυτός τσιμπά"
     },
     "imperfektIndikativ": {
       "de": "er kniff",
-      "lv": "Τσίμπησε"
+      "lv": "αυτός τσίμπησε"
     },
     "imperfektKonjunktiv": {
       "de": "er kniffe",
-      "lv": "Θα τσιμπούσε"
+      "lv": "αυτός θα τσιμπούσε"
     },
     "partizipVergangenheit": {
       "de": "gekniffen",
-      "lv": "Τροποποιημένο"
+      "lv": "τσιμπημένος"
     }
   },
   {
     "infinitiv": {
       "de": "bleiben",
-      "lv": "Να μείνεις"
+      "lv": "μένω"
     },
     "praesens": {
       "de": "er bleibt",
-      "lv": "Μένει"
+      "lv": "αυτός μένει"
     },
     "imperfektIndikativ": {
       "de": "er blieb",
-      "lv": "Έμεινε"
+      "lv": "αυτός έμεινε"
     },
     "imperfektKonjunktiv": {
       "de": "er bliebe",
-      "lv": "Θα έμενε"
+      "lv": "αυτός θα έμενε"
     },
     "partizipVergangenheit": {
       "de": "geblieben (er ist)",
-      "lv": "Αριστερά"
+      "lv": "έχει μείνει"
     }
   },
   {
     "infinitiv": {
       "de": "bleichen",
-      "lv": "Να χλωρίνη"
+      "lv": "ξεθωριάζω"
     },
     "praesens": {
       "de": "er bleicht",
-      "lv": "Λευκαίνει"
+      "lv": "αυτός ξεθωριάζει"
     },
     "imperfektIndikativ": {
       "de": "blich",
-      "lv": "Άσπρισε"
+      "lv": "αυτός ξεθώριασε"
     },
     "imperfektKonjunktiv": {
       "de": "blich",
-      "lv": "Άσπρισε"
+      "lv": "αυτός θα ξεθώριαζε"
     },
     "partizipVergangenheit": {
       "de": "geblichen",
-      "lv": "Ξεθωριασμένος"
+      "lv": "ξεθωριασμένος"
     }
   },
   {
     "infinitiv": {
       "de": "braten",
-      "lv": "Να μαγειρέψουν"
+      "lv": "τηγανίζω"
     },
     "praesens": {
       "de": "er brät",
-      "lv": "Μαγειρεύει"
+      "lv": "αυτός τηγανίζει"
     },
     "imperfektIndikativ": {
       "de": "er briet",
-      "lv": "Μαγείρευε"
+      "lv": "αυτός τηγάνισε"
     },
     "imperfektKonjunktiv": {
       "de": "er briete",
-      "lv": "Θα μαγείρευε"
+      "lv": "αυτός θα τηγάνιζε"
     },
     "partizipVergangenheit": {
       "de": "gebraten",
-      "lv": "Ψητό"
+      "lv": "τηγανισμένος"
     }
   },
   {
     "infinitiv": {
       "de": "brechen",
-      "lv": "Να σπάσει"
+      "lv": "σπάζω"
     },
     "praesens": {
       "de": "er bricht",
-      "lv": "Σπάει"
+      "lv": "αυτός σπάζει"
     },
     "imperfektIndikativ": {
       "de": "er brach",
-      "lv": "Έσπασε"
+      "lv": "αυτός έσπασε"
     },
     "imperfektKonjunktiv": {
       "de": "er bräche",
-      "lv": "Θα έσπαγε"
+      "lv": "αυτός θα έσπαζε"
     },
     "partizipVergangenheit": {
       "de": "gebrochen",
-      "lv": "Σπασμένο / σπασμένο σπασμένο"
+      "lv": "σπασμένος"
     }
   },
   {
     "infinitiv": {
       "de": "brennen",
-      "lv": "Να καεί"
+      "lv": "καίγομαι"
     },
     "praesens": {
       "de": "er brennt",
-      "lv": "Φλέγεται"
+      "lv": "αυτός καίγεται"
     },
     "imperfektIndikativ": {
       "de": "brannte",
-      "lv": "Φλεγόταν"
+      "lv": "αυτός κάηκε"
     },
     "imperfektKonjunktiv": {
       "de": "brannte",
-      "lv": "Φλεγόταν"
+      "lv": "αυτός θα καιγόταν"
     },
     "partizipVergangenheit": {
       "de": "gebrannt",
-      "lv": "Κάηκε"
+      "lv": "καμένος"
     }
   },
   {
     "infinitiv": {
       "de": "bringen",
-      "lv": "Να φέρει"
+      "lv": "φέρνω"
     },
     "praesens": {
       "de": "er bringt",
-      "lv": "Φέρνει"
+      "lv": "αυτός φέρνει"
     },
     "imperfektIndikativ": {
       "de": "er brachte",
-      "lv": "Έφερε"
+      "lv": "αυτός έφερε"
     },
     "imperfektKonjunktiv": {
       "de": "er brächte",
-      "lv": "Θα έφερνε"
+      "lv": "αυτός θα έφερνε"
     },
     "partizipVergangenheit": {
       "de": "gebracht",
-      "lv": "Έφερε / παραδόθηκε"
+      "lv": "φερμένος"
     }
   },
   {
     "infinitiv": {
       "de": "denken",
-      "lv": "Να σκεφτεί"
+      "lv": "σκέφτομαι"
     },
     "praesens": {
       "de": "er denkt",
-      "lv": "Σκέφτεται"
+      "lv": "αυτός σκέφτεται"
     },
     "imperfektIndikativ": {
       "de": "er dachte",
-      "lv": "Σκέφτηκε"
+      "lv": "αυτός σκέφτηκε"
     },
     "imperfektKonjunktiv": {
       "de": "er dächte",
-      "lv": "Θα σκεφτόταν"
+      "lv": "αυτός θα σκεφτόταν"
     },
     "partizipVergangenheit": {
       "de": "gedacht",
-      "lv": "Προορίζονται"
+      "lv": "έχει σκεφτεί"
     }
   },
   {
     "infinitiv": {
       "de": "dingen",
-      "lv": "Προσλαμβάνω / κανονίζω"
+      "lv": "προσλαμβάνω / συμφωνώ"
     },
     "praesens": {
       "de": "er dingt",
-      "lv": "Προσλαμβάνει"
+      "lv": "αυτός προσλαμβάνει / συμφωνεί"
     },
     "imperfektIndikativ": {
       "de": "dingte",
-      "lv": "Προσέλαβε"
+      "lv": "αυτός προσέλαβε / συμφώνησε"
     },
     "imperfektKonjunktiv": {
       "de": "dingte",
-      "lv": "Προσέλαβε"
+      "lv": "αυτός θα προσλάμβανε / θα συμφωνούσε"
     },
     "partizipVergangenheit": {
       "de": "gedungen",
-      "lv": "Μισθωτός"
+      "lv": "έχει προσλάβει / έχει συμφωνήσει"
     }
   },
   {
     "infinitiv": {
       "de": "dreschen",
-      "lv": "Να νικήσει"
+      "lv": "αλωνίζω"
     },
     "praesens": {
       "de": "er drischt",
-      "lv": "Χτυπάει"
+      "lv": "αυτός αλωνίζει"
     },
     "imperfektIndikativ": {
       "de": "er drasch / er drosch",
-      "lv": "Χτύπησε"
+      "lv": "αυτός αλώνισε"
     },
     "imperfektKonjunktiv": {
       "de": "er dräsche / er drösche",
-      "lv": "Θα χτυπούσε"
+      "lv": "αυτός θα αλώνιζε"
     },
     "partizipVergangenheit": {
       "de": "gedroschen",
-      "lv": "Χτυπημένος"
+      "lv": "αλωνισμένος"
     }
   },
   {
     "infinitiv": {
       "de": "dringen",
-      "lv": "Να διεισδύσει"
+      "lv": "διεισδύω"
     },
     "praesens": {
       "de": "er dringt",
-      "lv": "Διεισδύει"
+      "lv": "αυτός διεισδύει"
     },
     "imperfektIndikativ": {
       "de": "er drang",
-      "lv": "Επέμεινε"
+      "lv": "αυτός διείσδυσε"
     },
     "imperfektKonjunktiv": {
       "de": "er dränge",
-      "lv": "Θα διείσδυε"
+      "lv": "αυτός θα διείσδυε"
     },
     "partizipVergangenheit": {
       "de": "gedrungen (er ist)",
-      "lv": "Διείσδυσε"
+      "lv": "έχει διεισδύσει"
     }
   },
   {
     "infinitiv": {
       "de": "dünken",
-      "lv": "Φαίνομαι"
+      "lv": "φαίνομαι"
     },
     "praesens": {
       "de": "es dünkt",
-      "lv": "Φαίνεται"
+      "lv": "αυτό φαίνεται"
     },
     "imperfektIndikativ": {
       "de": "deuchte",
-      "lv": "Φαινόταν"
+      "lv": "αυτό φάνηκε"
     },
     "imperfektKonjunktiv": {
       "de": "deuchte",
-      "lv": "Φαινόταν"
+      "lv": "αυτό θα φαινόταν"
     },
     "partizipVergangenheit": {
       "de": "gedünkt",
-      "lv": "Φαινόταν"
+      "lv": "έχει φανεί"
     }
   },
   {
     "infinitiv": {
       "de": "dürfen",
-      "lv": "Να επιτρέπεται"
+      "lv": "μπορώ"
     },
     "praesens": {
       "de": "er darf",
-      "lv": "Μπορεί"
+      "lv": "αυτός μπορεί"
     },
     "imperfektIndikativ": {
       "de": "durfte",
-      "lv": "Του επετράπη"
+      "lv": "αυτός μπόρεσε"
     },
     "imperfektKonjunktiv": {
       "de": "durfte",
-      "lv": "Του επετράπη"
+      "lv": "αυτός θα μπορούσε"
     },
     "partizipVergangenheit": {
       "de": "gedurft",
-      "lv": "Θα έπρεπε να έχει"
+      "lv": "έχει μπορέσει"
     }
   },
   {
     "infinitiv": {
       "de": "empfehlen",
-      "lv": "Συνιστώ"
+      "lv": "συνιστώ"
     },
     "praesens": {
       "de": "er empfiehlt",
-      "lv": "Προτείνει"
+      "lv": "αυτός συνιστά"
     },
     "imperfektIndikativ": {
       "de": "er empfahl",
-      "lv": "Πρότεινε"
+      "lv": "αυτός συνέστησε"
     },
     "imperfektKonjunktiv": {
       "de": "er empfähle / er empföhle",
-      "lv": "Θα συνιστούσε"
+      "lv": "αυτός θα συνιστούσε"
     },
     "partizipVergangenheit": {
       "de": "empfohlen",
-      "lv": "Συνιστάται"
+      "lv": "συστημένος"
     }
   },
   {
     "infinitiv": {
       "de": "empfinden",
-      "lv": "Να νιώθεις"
+      "lv": "αισθάνομαι"
     },
     "praesens": {
       "de": "er empfindet",
-      "lv": "Αισθάνεται"
+      "lv": "αυτός αισθάνεται"
     },
     "imperfektIndikativ": {
       "de": "er empfand",
-      "lv": "Ένιωθε"
+      "lv": "αυτός αισθάνθηκε"
     },
     "imperfektKonjunktiv": {
       "de": "er empfände",
-      "lv": "Θα ήξερε"
+      "lv": "αυτός θα αισθανόταν"
     },
     "partizipVergangenheit": {
       "de": "empfunden",
-      "lv": "Γνωστός"
+      "lv": "έχει αισθανθεί"
     }
   },
   {
     "infinitiv": {
       "de": "erlöschen",
-      "lv": "Να σβήσει"
+      "lv": "σβήνω"
     },
     "praesens": {
       "de": "er erlischt",
-      "lv": "Σβήνει"
+      "lv": "αυτός σβήνει"
     },
     "imperfektIndikativ": {
       "de": "er erlosch",
-      "lv": "Βγήκε έξω"
+      "lv": "αυτός έσβησε"
     },
     "imperfektKonjunktiv": {
       "de": "er erlösche",
-      "lv": "Θα εξαφανιζόταν"
+      "lv": "αυτός θα έσβηνε"
     },
     "partizipVergangenheit": {
       "de": "erloschen (er ist)",
-      "lv": "Σβηστός"
+      "lv": "σβησμένος"
     }
   },
   {
     "infinitiv": {
       "de": "erschrecken",
-      "lv": "Τρομάξτε"
+      "lv": "τρομάζω"
     },
     "praesens": {
       "de": "er erschrickt",
-      "lv": "Φοβάται"
+      "lv": "αυτός τρομάζει"
     },
     "imperfektIndikativ": {
       "de": "er erschrak",
-      "lv": "Τρόμαξε"
+      "lv": "αυτός τρόμαξε"
     },
     "imperfektKonjunktiv": {
       "de": "er erschräke",
-      "lv": "Θα φοβόταν"
+      "lv": "αυτός θα τρόμαζε"
     },
     "partizipVergangenheit": {
       "de": "erschrocken (er ist)",
-      "lv": "Έντρομος"
+      "lv": "τρομαγμένος"
     }
   },
   {
     "infinitiv": {
       "de": "essen",
-      "lv": "Να φάει"
+      "lv": "τρώω"
     },
     "praesens": {
       "de": "er isst",
-      "lv": "Τρώει"
+      "lv": "αυτός τρώει"
     },
     "imperfektIndikativ": {
       "de": "er ass",
-      "lv": "Έφαγε"
+      "lv": "αυτός έφαγε"
     },
     "imperfektKonjunktiv": {
       "de": "er äße",
-      "lv": "Θα έτρωγε"
+      "lv": "αυτός θα έτρωγε"
     },
     "partizipVergangenheit": {
       "de": "gegessen",
-      "lv": "Φαγωμένος / δεν τρώγεται"
+      "lv": "φαγωμένος"
     }
   },
   {
     "infinitiv": {
       "de": "fahren",
-      "lv": "Να οδηγείτε"
+      "lv": "οδηγώ"
     },
     "praesens": {
       "de": "er fährt",
-      "lv": "Οδηγεί"
+      "lv": "αυτός οδηγεί"
     },
     "imperfektIndikativ": {
       "de": "er fuhr",
-      "lv": "Οδηγούσε"
+      "lv": "αυτός οδήγησε"
     },
     "imperfektKonjunktiv": {
       "de": "er führe",
-      "lv": "Θα οδηγούσε"
+      "lv": "αυτός θα οδηγούσε"
     },
     "partizipVergangenheit": {
       "de": "gefahren (er ist)",
-      "lv": "Έδιωξε / έδιωξε"
+      "lv": "έχει οδηγήσει"
     }
   },
   {
     "infinitiv": {
       "de": "fallen",
-      "lv": "Να πέσει"
+      "lv": "πέφτω"
     },
     "praesens": {
       "de": "er fällt",
-      "lv": "Πέφτει"
+      "lv": "αυτός πέφτει"
     },
     "imperfektIndikativ": {
       "de": "er fiel",
-      "lv": "Έπεσε"
+      "lv": "αυτός έπεσε"
     },
     "imperfektKonjunktiv": {
       "de": "er fiele",
-      "lv": "Θα έπεφτε"
+      "lv": "αυτός θα έπεφτε"
     },
     "partizipVergangenheit": {
       "de": "gefallen (er ist)",
-      "lv": "Πεσμένος"
+      "lv": "πεσμένος"
     }
   },
   {
     "infinitiv": {
       "de": "fangen",
-      "lv": "Να πιάσει"
+      "lv": "πιάνω"
     },
     "praesens": {
       "de": "er fängt",
-      "lv": "Προσπαθεί"
+      "lv": "αυτός πιάνει"
     },
     "imperfektIndikativ": {
       "de": "er fing",
-      "lv": "Προσπάθησε"
+      "lv": "αυτός έπιασε"
     },
     "imperfektKonjunktiv": {
       "de": "er finge",
-      "lv": "Θα προσπαθούσε"
+      "lv": "αυτός θα έπιανε"
     },
     "partizipVergangenheit": {
       "de": "gefangen",
-      "lv": "Έπιασε / έπιασε"
+      "lv": "πιασμένος"
     }
   },
   {
     "infinitiv": {
       "de": "finden",
-      "lv": "Να βρεις"
+      "lv": "βρίσκω"
     },
     "praesens": {
       "de": "er findet",
-      "lv": "Βρίσκει"
+      "lv": "αυτός βρίσκει"
     },
     "imperfektIndikativ": {
       "de": "er fand",
-      "lv": "Βρήκε"
+      "lv": "αυτός βρήκε"
     },
     "imperfektKonjunktiv": {
       "de": "er fände",
-      "lv": "Θα έβρισκε"
+      "lv": "αυτός θα έβρισκε"
     },
     "partizipVergangenheit": {
       "de": "gefunden",
-      "lv": "Θεμελιώ"
+      "lv": "έχει βρει"
     }
   },
   {
     "infinitiv": {
       "de": "fliegen",
-      "lv": "Να πετάξει"
+      "lv": "πετώ"
     },
     "praesens": {
       "de": "er fliegt",
-      "lv": "Πετάει"
+      "lv": "αυτός πετά"
     },
     "imperfektIndikativ": {
       "de": "er flog",
-      "lv": "Πέταξε"
+      "lv": "αυτός πέταξε"
     },
     "imperfektKonjunktiv": {
       "de": "er flöge",
-      "lv": "Θα πετούσε"
+      "lv": "αυτός θα πετούσε"
     },
     "partizipVergangenheit": {
       "de": "geflogen (er ist)",
-      "lv": "Έχουν πετάξει"
+      "lv": "έχει πετάξει"
     }
   },
   {
     "infinitiv": {
       "de": "fliehen",
-      "lv": "Να ξεφύγουν"
+      "lv": "δραπετεύω"
     },
     "praesens": {
       "de": "er flieht",
-      "lv": "Τρέχει μακριά"
+      "lv": "αυτός δραπετεύει"
     },
     "imperfektIndikativ": {
       "de": "er floh",
-      "lv": "Έφυγε τρέχοντας"
+      "lv": "αυτός δραπέτευσε"
     },
     "imperfektKonjunktiv": {
       "de": "er flöhe",
-      "lv": "Θα έτρεχε μακριά"
+      "lv": "αυτός θα δραπέτευε"
     },
     "partizipVergangenheit": {
       "de": "geflohen (er ist)",
-      "lv": "Δραπέτευσε"
+      "lv": "έχει δραπετεύσει"
     }
   },
   {
     "infinitiv": {
       "de": "fließen",
-      "lv": "Να ρέει"
+      "lv": "ρέω"
     },
     "praesens": {
       "de": "er fließt",
-      "lv": "Ρέει"
+      "lv": "αυτός ρέει"
     },
     "imperfektIndikativ": {
       "de": "er floss",
-      "lv": "Έρεε"
+      "lv": "αυτός έρευσε"
     },
     "imperfektKonjunktiv": {
       "de": "er flösse",
-      "lv": "Θα έρεε"
+      "lv": "αυτός θα έρεε"
     },
     "partizipVergangenheit": {
       "de": "geflossen (er ist)",
-      "lv": "Κυλούσε"
+      "lv": "έχει ρεύσει"
     }
   },
   {
     "infinitiv": {
       "de": "fressen",
-      "lv": "Τρώω / καταβροχθίζω"
+      "lv": "τρώω / καταβροχθίζω"
     },
     "praesens": {
       "de": "er frisst",
-      "lv": "Τρώει / τρώει"
+      "lv": "αυτός τρώει / καταβροχθίζει"
     },
     "imperfektIndikativ": {
       "de": "er frass",
-      "lv": "Έφαγε / καταβρόχθισε"
+      "lv": "αυτός έφαγε / καταβρόχθισε"
     },
     "imperfektKonjunktiv": {
       "de": "er fräße",
-      "lv": "Θα έτρωγε / θα καταβρόχθιζε"
+      "lv": "αυτός θα έτρωγε / θα καταβρόχθιζε"
     },
     "partizipVergangenheit": {
       "de": "gefressen",
-      "lv": "Φαγωμένος / καταβροχθισμένος"
+      "lv": "φαγωμένος / καταβροχθισμένος"
     }
   },
   {
     "infinitiv": {
       "de": "frieren",
-      "lv": "Να κρυώσει"
+      "lv": "κρυώνω"
     },
     "praesens": {
       "de": "er friert",
-      "lv": "Είναι κρύος"
+      "lv": "αυτός κρυώνει"
     },
     "imperfektIndikativ": {
       "de": "er fror",
-      "lv": "Ήταν κρύος"
+      "lv": "αυτός κρύωσε"
     },
     "imperfektKonjunktiv": {
       "de": "er fröre",
-      "lv": "Θα κρυωνόταν"
+      "lv": "αυτός θα κρύωνε"
     },
     "partizipVergangenheit": {
       "de": "gefroren",
-      "lv": "Παγωμένος"
+      "lv": "έχει κρυώσει"
     }
   },
   {
     "infinitiv": {
       "de": "geben",
-      "lv": "Να δώσει"
+      "lv": "δίνω"
     },
     "praesens": {
       "de": "er gibt",
-      "lv": "Δίνει"
+      "lv": "αυτός δίνει"
     },
     "imperfektIndikativ": {
       "de": "er gab",
-      "lv": "Έδωσε"
+      "lv": "αυτός έδωσε"
     },
     "imperfektKonjunktiv": {
       "de": "er gäbe",
-      "lv": "Θα έδινε"
+      "lv": "αυτός θα έδινε"
     },
     "partizipVergangenheit": {
       "de": "gegeben",
-      "lv": "Δεδομένος"
+      "lv": "δοσμένος"
     }
   },
   {
     "infinitiv": {
       "de": "gedeihen",
-      "lv": "Να πετύχει"
+      "lv": "ευδοκιμώ"
     },
     "praesens": {
       "de": "er gedeiht",
-      "lv": "Τα καταφέρνει"
+      "lv": "αυτός ευδοκιμεί"
     },
     "imperfektIndikativ": {
       "de": "er gedieh",
-      "lv": "Τα κατάφερε"
+      "lv": "αυτός ευδοκίμησε"
     },
     "imperfektKonjunktiv": {
       "de": "er gediehe",
-      "lv": "Θα τα κατάφερνε"
+      "lv": "αυτός θα ευδοκιμούσε"
     },
     "partizipVergangenheit": {
       "de": "gediehen (er ist)",
-      "lv": "Πέτυχε"
+      "lv": "έχει ευδοκιμήσει"
     }
   },
   {
     "infinitiv": {
       "de": "gehen",
-      "lv": "Φύγε"
+      "lv": "πηγαίνω"
     },
     "praesens": {
       "de": "er geht",
-      "lv": "Πάει"
+      "lv": "αυτός πηγαίνει"
     },
     "imperfektIndikativ": {
       "de": "er ging",
-      "lv": "Πήγε"
+      "lv": "αυτός πήγε"
     },
     "imperfektKonjunktiv": {
       "de": "er ginge",
-      "lv": "Θα πήγαινε"
+      "lv": "αυτός θα πήγαινε"
     },
     "partizipVergangenheit": {
       "de": "gegangen (er ist)",
-      "lv": "Χαμένος"
+      "lv": "έχει πάει"
     }
   },
   {
     "infinitiv": {
       "de": "gewinnen",
-      "lv": "Να κερδίσει"
+      "lv": "κερδίζω"
     },
     "praesens": {
       "de": "er gewinnt",
-      "lv": "Κερδίζει"
+      "lv": "αυτός κερδίζει"
     },
     "imperfektIndikativ": {
       "de": "er gewann",
-      "lv": "Κέρδισε"
+      "lv": "αυτός κέρδισε"
     },
     "imperfektKonjunktiv": {
       "de": "er gewönne / er gewänne",
-      "lv": "Θα κέρδιζε"
+      "lv": "αυτός θα κέρδιζε"
     },
     "partizipVergangenheit": {
       "de": "gewonnen",
-      "lv": "Νικημένος"
+      "lv": "κερδισμένος"
     }
   },
   {
     "infinitiv": {
       "de": "haben",
-      "lv": "Να είσαι / να έχεις"
+      "lv": "έχω"
     },
     "praesens": {
       "de": "er hat",
-      "lv": "Έχει"
+      "lv": "αυτός έχει"
     },
     "imperfektIndikativ": {
       "de": "hatte",
-      "lv": "Είχε"
+      "lv": "αυτός είχε"
     },
     "imperfektKonjunktiv": {
       "de": "hatte",
-      "lv": "Είχε"
+      "lv": "αυτός θα είχε"
     },
     "partizipVergangenheit": {
       "de": "gehabt",
-      "lv": "Ήταν"
+      "lv": "έχοντας"
     }
   },
   {
     "infinitiv": {
       "de": "halten",
-      "lv": "Να κρατήσει"
+      "lv": "κρατώ"
     },
     "praesens": {
       "de": "er hält",
-      "lv": "Κρατάει"
+      "lv": "αυτός κρατά"
     },
     "imperfektIndikativ": {
       "de": "er hielt",
-      "lv": "Κράτησε"
+      "lv": "αυτός κράτησε"
     },
     "imperfektKonjunktiv": {
       "de": "er hielte",
-      "lv": "Θα κρατούσε"
+      "lv": "αυτός θα κρατούσε"
     },
     "partizipVergangenheit": {
       "de": "gehalten",
-      "lv": "Διατηρήθηκε"
+      "lv": "κρατημένος"
     }
   },
   {
     "infinitiv": {
       "de": "heißen",
-      "lv": "Για να ονομάσουμε"
+      "lv": "αποκαλώ / ονομάζομαι"
     },
     "praesens": {
       "de": "er heißt",
-      "lv": "Καλεί / καλείται"
+      "lv": "αυτός αποκαλεί / ονομάζεται"
     },
     "imperfektIndikativ": {
       "de": "er hieß",
-      "lv": "Ονόμασε / ονομάστηκε"
+      "lv": "αυτός αποκάλεσε / ονομάστηκε"
     },
     "imperfektKonjunktiv": {
       "de": "er hieße",
-      "lv": "Θα ονομαζόταν / θα ονομαζόταν"
+      "lv": "αυτός θα αποκαλούσε / θα ονομαζόταν"
     },
     "partizipVergangenheit": {
       "de": "geheißen",
-      "lv": "Αναφέρεται"
+      "lv": "έχει αποκαλέσει / έχει ονομαστεί"
     }
   },
   {
     "infinitiv": {
       "de": "helfen",
-      "lv": "Να βοηθήσει"
+      "lv": "βοηθώ"
     },
     "praesens": {
       "de": "er hilft",
-      "lv": "Βοηθάει"
+      "lv": "αυτός βοηθά"
     },
     "imperfektIndikativ": {
       "de": "er half",
-      "lv": "Βοήθησε"
+      "lv": "αυτός βοήθησε"
     },
     "imperfektKonjunktiv": {
       "de": "er hülfe / er hälfe",
-      "lv": "Θα βοηθούσε"
+      "lv": "αυτός θα βοηθούσε"
     },
     "partizipVergangenheit": {
       "de": "geholfen",
-      "lv": "Βοήθησε"
+      "lv": "έχει βοηθήσει"
     }
   },
   {
     "infinitiv": {
       "de": "kommen",
-      "lv": "Να έρθει"
+      "lv": "έρχομαι"
     },
     "praesens": {
       "de": "er kommt",
-      "lv": "Θα έρθει"
+      "lv": "αυτός έρχεται"
     },
     "imperfektIndikativ": {
       "de": "er kam",
-      "lv": "Ήρθε"
+      "lv": "αυτός ήρθε"
     },
     "imperfektKonjunktiv": {
       "de": "er käme",
-      "lv": "Θα ερχόταν"
+      "lv": "αυτός θα ερχόταν"
     },
     "partizipVergangenheit": {
       "de": "gekommen (er ist)",
-      "lv": "Ήρθε"
+      "lv": "έχει έρθει"
     }
   },
   {
     "infinitiv": {
       "de": "können",
-      "lv": "Να μπορώ να / να μπορώ να"
+      "lv": "μπορώ"
     },
     "praesens": {
       "de": "er kann",
-      "lv": "Μπορεί / μπορεί"
+      "lv": "αυτός μπορεί"
     },
     "imperfektIndikativ": {
       "de": "konnte",
-      "lv": "Μπορούσε / μπορούσε"
+      "lv": "αυτός μπόρεσε"
     },
     "imperfektKonjunktiv": {
       "de": "konnte",
-      "lv": "Μπορούσε / μπορούσε"
+      "lv": "αυτός θα μπορούσε"
     },
     "partizipVergangenheit": {
       "de": "gekonnt",
-      "lv": "Μπόρεσαν"
+      "lv": "έχει μπορέσει"
     }
   },
   {
     "infinitiv": {
       "de": "kriechen",
-      "lv": "Να σέρνεται"
+      "lv": "σέρνομαι"
     },
     "praesens": {
       "de": "er kriecht",
-      "lv": "Σέρνεται"
+      "lv": "αυτός σέρνεται"
     },
     "imperfektIndikativ": {
       "de": "er kroch",
-      "lv": "Σύρθηκε"
+      "lv": "αυτός σύρθηκε"
     },
     "imperfektKonjunktiv": {
       "de": "er kröche",
-      "lv": "Θα σερνόταν"
+      "lv": "αυτός θα σερνόταν"
     },
     "partizipVergangenheit": {
       "de": "gekrochen (er ist)",
-      "lv": "Σύρθηκε"
+      "lv": "έχει συρθεί"
     }
   },
   {
     "infinitiv": {
       "de": "laden",
-      "lv": "Φόρτωση / κλήση"
+      "lv": "φορτώνω / καλώ"
     },
     "praesens": {
       "de": "er lädt",
-      "lv": "Φορτώνει / καλεί"
+      "lv": "αυτός φορτώνει / καλεί"
     },
     "imperfektIndikativ": {
       "de": "er lud",
-      "lv": "Φόρτωσε / κάλεσε"
+      "lv": "αυτός φόρτωσε / κάλεσε"
     },
     "imperfektKonjunktiv": {
       "de": "er lüde",
-      "lv": "Θα φόρτωνε / θα καλούσε"
+      "lv": "αυτός θα φόρτωνε / θα καλούσε"
     },
     "partizipVergangenheit": {
       "de": "geladen",
-      "lv": "Φορτωμένο / καλούμενο"
+      "lv": "φορτωμένος / καλεσμένος"
     }
   },
   {
     "infinitiv": {
       "de": "lassen",
-      "lv": "Βάζω / αφήνω"
+      "lv": "βάζω / αφήνω"
     },
     "praesens": {
       "de": "er lässt",
-      "lv": "Βάζει / αφήνει"
+      "lv": "αυτός βάζει / αφήνει"
     },
     "imperfektIndikativ": {
       "de": "er ließ",
-      "lv": "Έβαλε / άφησε"
+      "lv": "αυτός έβαλε / άφησε"
     },
     "imperfektKonjunktiv": {
       "de": "er ließe",
-      "lv": "Θα έβαζε / άφηνε"
+      "lv": "αυτός θα έβαζε / θα άφηνε"
     },
     "partizipVergangenheit": {
       "de": "gelassen",
-      "lv": "Βάζω / πυροβολώ"
+      "lv": "έχει βάλει / έχει αφήσει"
     }
   },
   {
     "infinitiv": {
       "de": "laufen",
-      "lv": "Να τρέξει"
+      "lv": "τρέχω"
     },
     "praesens": {
       "de": "er läuft",
-      "lv": "Τρέχει"
+      "lv": "αυτός τρέχει"
     },
     "imperfektIndikativ": {
       "de": "er lief",
-      "lv": "Έτρεξε"
+      "lv": "αυτός έτρεξε"
     },
     "imperfektKonjunktiv": {
       "de": "er liefe",
-      "lv": "Θα έτρεχε"
+      "lv": "αυτός θα έτρεχε"
     },
     "partizipVergangenheit": {
       "de": "gelaufen (er ist)",
-      "lv": "Έτρεξε"
+      "lv": "έχει τρέξει"
     }
   },
   {
     "infinitiv": {
       "de": "leiden",
-      "lv": "Να υποφέρουν"
+      "lv": "υποφέρω"
     },
     "praesens": {
       "de": "er leidet",
-      "lv": "Υποφέρει"
+      "lv": "αυτός υποφέρει"
     },
     "imperfektIndikativ": {
       "de": "er litt",
-      "lv": "Υπέφερε"
+      "lv": "αυτός υπέφερε"
     },
     "imperfektKonjunktiv": {
       "de": "er litte",
-      "lv": "Θα υπέφερε"
+      "lv": "αυτός θα υπέφερε"
     },
     "partizipVergangenheit": {
       "de": "gelitten",
-      "lv": "Υπέφερε"
+      "lv": "έχει υποφέρει"
     }
   },
   {
     "infinitiv": {
       "de": "leihen",
-      "lv": "Να δανειστεί"
+      "lv": "δανείζω / δανείζομαι"
     },
     "praesens": {
       "de": "er leiht",
-      "lv": "Δανείζεται"
+      "lv": "αυτός δανείζει / δανείζεται"
     },
     "imperfektIndikativ": {
       "de": "er lieh",
-      "lv": "Δανείστηκε"
+      "lv": "αυτός δάνεισε / δανείστηκε"
     },
     "imperfektKonjunktiv": {
       "de": "er liehe",
-      "lv": "Θα δανειζόταν"
+      "lv": "αυτός θα δάνειζε / θα δανειζόταν"
     },
     "partizipVergangenheit": {
       "de": "geliehen",
-      "lv": "Δανεισμένος"
+      "lv": "δανεισμένος / έχει δανειστεί"
     }
   },
   {
     "infinitiv": {
       "de": "lesen",
-      "lv": "Για να διαβάσετε"
+      "lv": "διαβάζω"
     },
     "praesens": {
       "de": "er liest",
-      "lv": "Διαβάζει"
+      "lv": "αυτός διαβάζει"
     },
     "imperfektIndikativ": {
       "de": "er las",
-      "lv": "Διάβασε"
+      "lv": "αυτός διάβασε"
     },
     "imperfektKonjunktiv": {
       "de": "er läse",
-      "lv": "Θα μετρούσε"
+      "lv": "αυτός θα διάβαζε"
     },
     "partizipVergangenheit": {
       "de": "gelesen",
-      "lv": "Ανάγνωση"
+      "lv": "έχει διαβάσει"
     }
   },
   {
     "infinitiv": {
       "de": "liegen",
-      "lv": "Ψέμα / είμαι"
+      "lv": "ξαπλώνω"
     },
     "praesens": {
       "de": "er liegt",
-      "lv": "Είναι ξαπλωμένος"
+      "lv": "αυτός ξαπλώνει"
     },
     "imperfektIndikativ": {
       "de": "er lag",
-      "lv": "Ήταν ξαπλωμένος"
+      "lv": "αυτός ξάπλωσε"
     },
     "imperfektKonjunktiv": {
       "de": "er läge",
-      "lv": "Θα ξάπλωσε"
+      "lv": "αυτός θα ξάπλωνε"
     },
     "partizipVergangenheit": {
       "de": "gelegen",
-      "lv": "Ξαπλομένος"
+      "lv": "ξαπλωμένος"
     }
   },
   {
     "infinitiv": {
       "de": "lügen",
-      "lv": "Να πει ψέματα"
+      "lv": "λέω ψέματα"
     },
     "praesens": {
       "de": "er lügt",
-      "lv": "Λέει ψέματα"
+      "lv": "αυτός λέει ψέματα"
     },
     "imperfektIndikativ": {
       "de": "er log",
-      "lv": "Είπε ψέματα"
+      "lv": "αυτός είπε ψέματα"
     },
     "imperfektKonjunktiv": {
       "de": "er löge",
-      "lv": "Θα έλεγε ψέματα"
+      "lv": "αυτός θα έλεγε ψέματα"
     },
     "partizipVergangenheit": {
       "de": "gelogen",
-      "lv": "Είπε ψέματα"
+      "lv": "έχει πει ψέματα"
     }
   },
   {
     "infinitiv": {
       "de": "mahlen",
-      "lv": "Να αλέσει"
+      "lv": "αλέθω"
     },
     "praesens": {
       "de": "er mahlt",
-      "lv": "Αλέθει"
+      "lv": "αυτός αλέθει"
     },
     "imperfektIndikativ": {
       "de": "er mahlte",
-      "lv": "Άλεσε"
+      "lv": "αυτός άλεσε"
     },
     "imperfektKonjunktiv": {
       "de": "er malte",
-      "lv": "Θα άλεζε"
+      "lv": "αυτός θα άλεθε"
     },
     "partizipVergangenheit": {
       "de": "gemahlen",
-      "lv": "Έδαφος"
+      "lv": "αλεσμένος"
     }
   },
   {
     "infinitiv": {
       "de": "meiden",
-      "lv": "Για αποφυγή"
+      "lv": "αποφεύγω"
     },
     "praesens": {
       "de": "er meidet",
-      "lv": "Αποφεύγει"
+      "lv": "αυτός αποφεύγει"
     },
     "imperfektIndikativ": {
       "de": "er mied",
-      "lv": "Απέφυγε"
+      "lv": "αυτός απέφυγε"
     },
     "imperfektKonjunktiv": {
       "de": "er miede",
-      "lv": "Θα απέφευγε"
+      "lv": "αυτός θα απέφευγε"
     },
     "partizipVergangenheit": {
       "de": "gemieden",
-      "lv": "Αποφεύγεται"
+      "lv": "έχει αποφύγει"
     }
   },
   {
     "infinitiv": {
       "de": "melken",
-      "lv": "Στο γάλα"
+      "lv": "αρμέγω"
     },
     "praesens": {
       "de": "er milkt / er melkt",
-      "lv": "Αρμέγει"
+      "lv": "αυτός αρμέγει"
     },
     "imperfektIndikativ": {
       "de": "er molk / er melkte",
-      "lv": "Άρμεγε"
+      "lv": "αυτός άρμεξε"
     },
     "imperfektKonjunktiv": {
       "de": "er mölke / er melkte",
-      "lv": "Θα άρμεγε"
+      "lv": "αυτός θα άρμεγε"
     },
     "partizipVergangenheit": {
       "de": "gemolken / gemelkt",
-      "lv": "Αρμέγονται"
+      "lv": "αρμεγμένος"
     }
   },
   {
     "infinitiv": {
       "de": "messen",
-      "lv": "Να μετρήσει"
+      "lv": "μετρώ"
     },
     "praesens": {
       "de": "er misst",
-      "lv": "Μετράει"
+      "lv": "αυτός μετρά"
     },
     "imperfektIndikativ": {
       "de": "er mass",
-      "lv": "Μέτρησε"
+      "lv": "αυτός μέτρησε"
     },
     "imperfektKonjunktiv": {
       "de": "er mäße",
-      "lv": "Θα μετρούσε"
+      "lv": "αυτός θα μετρούσε"
     },
     "partizipVergangenheit": {
       "de": "gemessen",
-      "lv": "Μετρημένος"
+      "lv": "μετρημένος"
     }
   },
   {
     "infinitiv": {
       "de": "misslingen",
-      "lv": "Να αποτύχει"
+      "lv": "αποτυχαίνω"
     },
     "praesens": {
       "de": "es misslingt",
-      "lv": "Αποτυγχάνει"
+      "lv": "αυτό αποτυχαίνει"
     },
     "imperfektIndikativ": {
       "de": "misslang",
-      "lv": "Απέτυχε"
+      "lv": "αυτό απέτυχε"
     },
     "imperfektKonjunktiv": {
       "de": "misslang",
-      "lv": "Απέτυχε"
+      "lv": "αυτό θα αποτύχαινε"
     },
     "partizipVergangenheit": {
       "de": "misslungen",
-      "lv": "Αποτυχημένος"
+      "lv": "αποτυχημένος"
     }
   },
   {
     "infinitiv": {
       "de": "mögen",
-      "lv": "Να αρέσει"
+      "lv": "συμπαθώ"
     },
     "praesens": {
       "de": "er mag",
-      "lv": "Του αρέσει"
+      "lv": "αυτός συμπαθεί"
     },
     "imperfektIndikativ": {
       "de": "mochte",
-      "lv": "Του άρεσε"
+      "lv": "αυτός συμπάθησε"
     },
     "imperfektKonjunktiv": {
       "de": "mochte",
-      "lv": "Του άρεσε"
+      "lv": "αυτός θα συμπαθούσε"
     },
     "partizipVergangenheit": {
       "de": "gemocht",
-      "lv": "Άρεσε"
+      "lv": "έχει συμπαθήσει"
     }
   },
   {
     "infinitiv": {
       "de": "müssen",
-      "lv": "Να κρατήσει"
+      "lv": "πρέπει"
     },
     "praesens": {
       "de": "er muss",
-      "lv": "Πρέπει"
+      "lv": "πρέπει"
     },
     "imperfektIndikativ": {
       "de": "musste",
-      "lv": "Έπρεπε"
+      "lv": "έπρεπε"
     },
     "imperfektKonjunktiv": {
       "de": "musste",
-      "lv": "Έπρεπε"
+      "lv": "θα έπρεπε"
     },
     "partizipVergangenheit": {
       "de": "gemusst",
-      "lv": "Έπρεπε να"
+      "lv": "έχει χρειαστεί"
     }
   },
   {
     "infinitiv": {
       "de": "nehmen",
-      "lv": "Να πάρει"
+      "lv": "παίρνω"
     },
     "praesens": {
       "de": "er nimmt",
-      "lv": "Παίρνει"
+      "lv": "αυτός παίρνει"
     },
     "imperfektIndikativ": {
       "de": "er nahm",
-      "lv": "Πήρε"
+      "lv": "αυτός πήρε"
     },
     "imperfektKonjunktiv": {
       "de": "er nähme",
-      "lv": "Θα έπαιρνε"
+      "lv": "αυτός θα έπαιρνε"
     },
     "partizipVergangenheit": {
       "de": "genommen",
-      "lv": "Λαμβάνονται"
+      "lv": "παρμένος"
     }
   },
   {
     "infinitiv": {
       "de": "nennen",
-      "lv": "Για να ονομάσουμε"
+      "lv": "ονομάζω"
     },
     "praesens": {
       "de": "er nennt",
-      "lv": "Ονομάζει"
+      "lv": "αυτός ονομάζει"
     },
     "imperfektIndikativ": {
       "de": "er nannte",
-      "lv": "Κατονόμασε"
+      "lv": "αυτός ονόμασε"
     },
     "imperfektKonjunktiv": {
       "de": "er nennte",
-      "lv": "Θα κατονομαζόταν"
+      "lv": "αυτός θα ονόμαζε"
     },
     "partizipVergangenheit": {
       "de": "genannt",
-      "lv": "Αναφέρεται"
+      "lv": "ονομασμένος"
     }
   },
   {
     "infinitiv": {
       "de": "pfeifen",
-      "lv": "Να σφυρίξει"
+      "lv": "σφυρίζω"
     },
     "praesens": {
       "de": "er pfeift",
-      "lv": "Σφυρίζει"
+      "lv": "αυτός σφυρίζει"
     },
     "imperfektIndikativ": {
       "de": "er pfiff",
-      "lv": "Σφύριξε"
+      "lv": "αυτός σφύριξε"
     },
     "imperfektKonjunktiv": {
       "de": "er pfiffe",
-      "lv": "Θα σφύριζε"
+      "lv": "αυτός θα σφύριζε"
     },
     "partizipVergangenheit": {
       "de": "gepfiffen",
-      "lv": "Σφύριξε"
+      "lv": "έχει σφυρίξει"
     }
   },
   {
     "infinitiv": {
       "de": "pflegen",
-      "lv": "Να φροντίζει"
+      "lv": "φροντίζω"
     },
     "praesens": {
       "de": "er pflegt",
-      "lv": "Φροντίζει"
+      "lv": "αυτός φροντίζει"
     },
     "imperfektIndikativ": {
       "de": "pflegte / pflog",
-      "lv": "Νοιαζόταν"
+      "lv": "αυτός φρόντισε"
     },
     "imperfektKonjunktiv": {
       "de": "pflegte / pflog",
-      "lv": "Νοιαζόταν"
+      "lv": "αυτός θα φρόντιζε"
     },
     "partizipVergangenheit": {
       "de": "gepflegt / gepflogen",
-      "lv": "Φροντισμένος"
+      "lv": "φροντισμένος"
     }
   },
   {
     "infinitiv": {
       "de": "preisen",
-      "lv": "Να επαινέσω"
+      "lv": "επαινώ"
     },
     "praesens": {
       "de": "er preist",
-      "lv": "Επαινεί"
+      "lv": "αυτός επαινεί"
     },
     "imperfektIndikativ": {
       "de": "er pries",
-      "lv": "Επαίνεσε"
+      "lv": "αυτός επαίνεσε"
     },
     "imperfektKonjunktiv": {
       "de": "er priese",
-      "lv": "Θα ενέκρινε"
+      "lv": "αυτός θα επαινούσε"
     },
     "partizipVergangenheit": {
       "de": "gepriesen",
-      "lv": "Επαίνετο"
+      "lv": "έχει επαινέσει"
     }
   },
   {
     "infinitiv": {
       "de": "quellen",
-      "lv": "Πρήζω"
+      "lv": "φουσκώνω"
     },
     "praesens": {
       "de": "er quillt",
-      "lv": "Πρήζεται"
+      "lv": "αυτός φουσκώνει"
     },
     "imperfektIndikativ": {
       "de": "er quoll",
-      "lv": "Φούσκωσε"
+      "lv": "αυτός φούσκωσε"
     },
     "imperfektKonjunktiv": {
       "de": "er quölle",
-      "lv": "Θα πρήζονταν"
+      "lv": "αυτός θα φούσκωνε"
     },
     "partizipVergangenheit": {
       "de": "gequollen (er ist)",
-      "lv": "Πρησμένος"
+      "lv": "φουσκωμένος"
     }
   },
   {
     "infinitiv": {
       "de": "raten",
-      "lv": "Προτείνω / μαντέψω"
+      "lv": "συμβουλεύω / μαντεύω"
     },
     "praesens": {
       "de": "er rät",
-      "lv": "Προτείνει / σκέφτεται"
+      "lv": "αυτός συμβουλεύει / μαντεύει"
     },
     "imperfektIndikativ": {
       "de": "er riet",
-      "lv": "Πρότεινε / σκέφτηκε"
+      "lv": "αυτός συμβούλεψε / μάντεψε"
     },
     "imperfektKonjunktiv": {
       "de": "er riete",
-      "lv": "Θα πρότεινε / σκεφτόταν"
+      "lv": "αυτός θα συμβούλευε / θα μάντευε"
     },
     "partizipVergangenheit": {
       "de": "geraten",
-      "lv": "Συνιστάται / περιλαμβάνεται"
+      "lv": "έχει συμβουλέψει / έχει μαντέψει"
     }
   },
   {
     "infinitiv": {
       "de": "reiben",
-      "lv": "Να τρίβετε"
+      "lv": "τρίβω"
     },
     "praesens": {
       "de": "er reibt",
-      "lv": "Τρίβει"
+      "lv": "αυτός τρίβει"
     },
     "imperfektIndikativ": {
       "de": "er rieb",
-      "lv": "Έτριψε"
+      "lv": "αυτός έτριψε"
     },
     "imperfektKonjunktiv": {
       "de": "er riebe",
-      "lv": "Θα έτριβε"
+      "lv": "αυτός θα έτριβε"
     },
     "partizipVergangenheit": {
       "de": "gerieben",
-      "lv": "Τρίβονται"
+      "lv": "τριμμένος"
     }
   },
   {
     "infinitiv": {
       "de": "reißen",
-      "lv": "Να σκίσει"
+      "lv": "σκίζω"
     },
     "praesens": {
       "de": "er reißt",
-      "lv": "Δακρύζει"
+      "lv": "αυτός σκίζει"
     },
     "imperfektIndikativ": {
       "de": "er riss",
-      "lv": "Έσκισε"
+      "lv": "αυτός έσκισε"
     },
     "imperfektKonjunktiv": {
       "de": "er risse",
-      "lv": "Θα έσκιζε"
+      "lv": "αυτός θα έσκιζε"
     },
     "partizipVergangenheit": {
       "de": "gerissen",
-      "lv": "Σχισμένο"
+      "lv": "σκισμένος"
     }
   },
   {
     "infinitiv": {
       "de": "reiten",
-      "lv": "Καβαλήστε ένα άλογο"
+      "lv": "ιππεύω"
     },
     "praesens": {
       "de": "er reitet",
-      "lv": "Ιππεύει"
+      "lv": "αυτός ιππεύει"
     },
     "imperfektIndikativ": {
       "de": "er ritt",
-      "lv": "Καβαλούσε"
+      "lv": "αυτός ίππευσε"
     },
     "imperfektKonjunktiv": {
       "de": "er ritte",
-      "lv": "Θα καβαλούσε"
+      "lv": "αυτός θα ίππευε"
     },
     "partizipVergangenheit": {
       "de": "geritten (er ist)",
-      "lv": "Καβάλησε"
+      "lv": "έχει ιππεύσει"
     }
   },
   {
     "infinitiv": {
       "de": "rennen",
-      "lv": "Να τρέξει"
+      "lv": "τρέχω"
     },
     "praesens": {
       "de": "er rennt",
-      "lv": "Τρέχει"
+      "lv": "αυτός τρέχει"
     },
     "imperfektIndikativ": {
       "de": "er rannte",
-      "lv": "Έτρεξε"
+      "lv": "αυτός έτρεξε"
     },
     "imperfektKonjunktiv": {
       "de": "er rennte",
-      "lv": "Θα έτρεχε"
+      "lv": "αυτός θα έτρεχε"
     },
     "partizipVergangenheit": {
       "de": "gerannt",
-      "lv": "Έτρεξε"
+      "lv": "έχει τρέξει"
     }
   },
   {
     "infinitiv": {
       "de": "riechen",
-      "lv": "Μυρωδιά / μυρωδιά"
+      "lv": "μυρίζω"
     },
     "praesens": {
       "de": "er riecht",
-      "lv": "Μυρίζει"
+      "lv": "αυτός μυρίζει"
     },
     "imperfektIndikativ": {
       "de": "er roch",
-      "lv": "Μύρισε"
+      "lv": "αυτός μύρισε"
     },
     "imperfektKonjunktiv": {
       "de": "er röche",
-      "lv": "Θα μύριζε"
+      "lv": "αυτός θα μύριζε"
     },
     "partizipVergangenheit": {
       "de": "gerochen",
-      "lv": "Μύρισε"
+      "lv": "έχει μυρίσει"
     }
   },
   {
     "infinitiv": {
       "de": "ringen",
-      "lv": "Διάλειμμα / αγώνας"
+      "lv": "παλεύω"
     },
     "praesens": {
       "de": "er ringt",
-      "lv": "Παλεύει"
+      "lv": "αυτός παλεύει"
     },
     "imperfektIndikativ": {
       "de": "er rang",
-      "lv": "Πάλεψε"
+      "lv": "αυτός πάλεψε"
     },
     "imperfektKonjunktiv": {
       "de": "er ränge",
-      "lv": "Θα πάλευε"
+      "lv": "αυτός θα πάλευε"
     },
     "partizipVergangenheit": {
       "de": "gerungen",
-      "lv": "Πάλεψε"
+      "lv": "έχει παλέψει"
     }
   },
   {
     "infinitiv": {
       "de": "rinnen",
-      "lv": "Να ρέει"
+      "lv": "κυλώ"
     },
     "praesens": {
       "de": "er rinnt",
-      "lv": "Ρέει"
+      "lv": "αυτός κυλά"
     },
     "imperfektIndikativ": {
       "de": "er rann",
-      "lv": "Έρεε"
+      "lv": "αυτός κύλησε"
     },
     "imperfektKonjunktiv": {
       "de": "er ränne / er rönne",
-      "lv": "Θα έρεε"
+      "lv": "αυτός θα κυλούσε"
     },
     "partizipVergangenheit": {
       "de": "geronnen (er ist)",
-      "lv": "Κυλούσε / κατέρρευσε"
+      "lv": "έχει κυλήσει"
     }
   },
   {
     "infinitiv": {
       "de": "rufen",
-      "lv": "Να φωνάζει"
+      "lv": "καλώ"
     },
     "praesens": {
       "de": "er ruft",
-      "lv": "Φωνάζει"
+      "lv": "αυτός καλεί"
     },
     "imperfektIndikativ": {
       "de": "er rief",
-      "lv": "Φώναξε"
+      "lv": "αυτός κάλεσε"
     },
     "imperfektKonjunktiv": {
       "de": "er riefe",
-      "lv": "Θα φώναζε"
+      "lv": "αυτός θα καλούσε"
     },
     "partizipVergangenheit": {
       "de": "gerufen",
-      "lv": "Φώναξε"
+      "lv": "καλεσμένος"
     }
   },
   {
     "infinitiv": {
       "de": "salzen",
-      "lv": "Στο αλάτι"
+      "lv": "αλατίζω"
     },
     "praesens": {
       "de": "er salzt",
-      "lv": "Αλατίζει"
+      "lv": "αυτός αλατίζει"
     },
     "imperfektIndikativ": {
       "de": "er salzte",
-      "lv": "Αλάτισε"
+      "lv": "αυτός αλάτισε"
     },
     "imperfektKonjunktiv": {
       "de": "er salzte",
-      "lv": "Θα αλάτιζε"
+      "lv": "αυτός θα αλάτιζε"
     },
     "partizipVergangenheit": {
       "de": "gesalzen",
-      "lv": "Αλατισμένος"
+      "lv": "αλατισμένος"
     }
   },
   {
     "infinitiv": {
       "de": "saufen",
-      "lv": "Ποτό / φαγοπότι"
+      "lv": "μεθοκοπώ / πίνω"
     },
     "praesens": {
       "de": "er säuft",
-      "lv": "Πίνει / πίνει"
+      "lv": "αυτός μεθοκοπά / πίνει"
     },
     "imperfektIndikativ": {
       "de": "er soff",
-      "lv": "Έπινε / έπινε"
+      "lv": "αυτός μεθοκόπησε / ήπιε"
     },
     "imperfektKonjunktiv": {
       "de": "er söffe",
-      "lv": "Θα έτρεχε / θα έτρεχε"
+      "lv": "αυτός θα μεθοκοπούσε / θα έπινε"
     },
     "partizipVergangenheit": {
       "de": "gesoffen",
-      "lv": "Μεθυσμένος"
+      "lv": "έχει μεθοκοπήσει / έχει πιει"
     }
   },
   {
     "infinitiv": {
       "de": "saugen",
-      "lv": "Να ρουφήξει"
+      "lv": "ρουφώ"
     },
     "praesens": {
       "de": "er saugt",
-      "lv": "Είναι χάλια"
+      "lv": "αυτός ρουφά"
     },
     "imperfektIndikativ": {
       "de": "er sog",
-      "lv": "Αναρωτήθηκε"
+      "lv": "αυτός ρούφηξε"
     },
     "imperfektKonjunktiv": {
       "de": "er söge",
-      "lv": "Αναρωτιέται"
+      "lv": "αυτός θα ρουφούσε"
     },
     "partizipVergangenheit": {
       "de": "gesogen",
-      "lv": "Πιπιλισμένος"
+      "lv": "έχει ρουφήξει"
     }
   },
   {
     "infinitiv": {
       "de": "schaffen",
-      "lv": "Να δημιουργήσει"
+      "lv": "δημιουργώ"
     },
     "praesens": {
       "de": "er schafft",
-      "lv": "Δημιουργεί"
+      "lv": "αυτός δημιουργεί"
     },
     "imperfektIndikativ": {
       "de": "er schuf",
-      "lv": "Χτύπησε"
+      "lv": "αυτός δημιούργησε"
     },
     "imperfektKonjunktiv": {
       "de": "er schüfe",
-      "lv": "Θα δημιουργούσε"
+      "lv": "αυτός θα δημιουργούσε"
     },
     "partizipVergangenheit": {
       "de": "geschaffen",
-      "lv": "Δημιουργήθηκε"
+      "lv": "δημιουργημένος"
     }
   },
   {
     "infinitiv": {
       "de": "schallen",
-      "lv": "Να ακούγεται"
+      "lv": "αντηχώ"
     },
     "praesens": {
       "de": "es schallt",
-      "lv": "Ακούγεται"
+      "lv": "αυτό αντηχεί"
     },
     "imperfektIndikativ": {
       "de": "schallte / scholl",
-      "lv": "Ακουγόταν"
+      "lv": "αυτό αντήχησε"
     },
     "imperfektKonjunktiv": {
       "de": "schallte / scholl",
-      "lv": "Ακουγόταν"
+      "lv": "αυτό θα αντηχούσε"
     },
     "partizipVergangenheit": {
       "de": "geschallt",
-      "lv": "Ακούστηκε"
+      "lv": "έχει αντηχήσει"
     }
   },
   {
     "infinitiv": {
       "de": "scheiden",
-      "lv": "Διαζύγιο / άδεια"
+      "lv": "χωρίζω"
     },
     "praesens": {
       "de": "er scheidet",
-      "lv": "Χωρίζει / φεύγει"
+      "lv": "αυτός χωρίζει"
     },
     "imperfektIndikativ": {
       "de": "er schied",
-      "lv": "Χώρισε / έφυγε"
+      "lv": "αυτός χώρισε"
     },
     "imperfektKonjunktiv": {
       "de": "er schiede",
-      "lv": "Θα χώριζε / θα έφευγε"
+      "lv": "αυτός θα χώριζε"
     },
     "partizipVergangenheit": {
       "de": "geschieden (er hat / er ist)",
-      "lv": "Διαζευγμένος / έφυγε"
+      "lv": "χωρισμένος"
     }
   },
   {
     "infinitiv": {
       "de": "scheinen",
-      "lv": "Να εμφανιστεί"
+      "lv": "λάμπω / φαίνομαι"
     },
     "praesens": {
       "de": "er scheint",
-      "lv": "Κοιτάζει"
+      "lv": "αυτός λάμπει / φαίνεται"
     },
     "imperfektIndikativ": {
       "de": "er schien",
-      "lv": "Φαινόταν"
+      "lv": "αυτός έλαμψε / φάνηκε"
     },
     "imperfektKonjunktiv": {
       "de": "er schiene",
-      "lv": "Θα εμφανιζόταν"
+      "lv": "αυτός θα έλαμπε / θα φαινόταν"
     },
     "partizipVergangenheit": {
       "de": "geschienen",
-      "lv": "Εμφανίστηκε"
+      "lv": "έχει λάμψει / έχει φανεί"
     }
   },
   {
     "infinitiv": {
       "de": "schelten",
-      "lv": "Να βρίζει"
+      "lv": "μαλώνω"
     },
     "praesens": {
       "de": "er schilt",
-      "lv": "Βρίζει"
+      "lv": "αυτός μαλώνει"
     },
     "imperfektIndikativ": {
       "de": "er schalt",
-      "lv": "Καταράστηκε"
+      "lv": "αυτός μάλωσε"
     },
     "imperfektKonjunktiv": {
       "de": "er schölte / er schälte",
-      "lv": "Θα έβριζε"
+      "lv": "αυτός θα μάλωνε"
     },
     "partizipVergangenheit": {
       "de": "gescholten",
-      "lv": "Επίπληξε"
+      "lv": "έχει μαλώσει"
     }
   },
   {
     "infinitiv": {
       "de": "scheren",
-      "lv": "Να κλαδέψουν"
+      "lv": "κουρεύω"
     },
     "praesens": {
       "de": "er schert",
-      "lv": "Κλαδεύει"
+      "lv": "αυτός κουρεύει"
     },
     "imperfektIndikativ": {
       "de": "schor / scherte",
-      "lv": "Κούρεψε"
+      "lv": "αυτός κούρεψε"
     },
     "imperfektKonjunktiv": {
       "de": "schor / scherte",
-      "lv": "Κούρεψε"
+      "lv": "αυτός θα κούρευε"
     },
     "partizipVergangenheit": {
       "de": "geschoren / geschert",
-      "lv": "Κλαδεύονται"
+      "lv": "κουρεμένος"
     }
   },
   {
     "infinitiv": {
       "de": "schieben",
-      "lv": "Να σπρώχνει"
+      "lv": "σπρώχνω"
     },
     "praesens": {
       "de": "er schiebt",
-      "lv": "Σπρώχνει"
+      "lv": "αυτός σπρώχνει"
     },
     "imperfektIndikativ": {
       "de": "er schob",
-      "lv": "Έσπρωξε"
+      "lv": "αυτός έσπρωξε"
     },
     "imperfektKonjunktiv": {
       "de": "er schöbe",
-      "lv": "Θα έσπρωχνε"
+      "lv": "αυτός θα έσπρωχνε"
     },
     "partizipVergangenheit": {
       "de": "geschoben",
-      "lv": "Έσπρωξε"
+      "lv": "σπρωγμένος"
     }
   },
   {
     "infinitiv": {
       "de": "schießen",
-      "lv": "Να πυροβολήσει"
+      "lv": "πυροβολώ"
     },
     "praesens": {
       "de": "er schießt",
-      "lv": "Σουτάρει"
+      "lv": "αυτός πυροβολεί"
     },
     "imperfektIndikativ": {
       "de": "er schoss",
-      "lv": "Πυροβόλησε"
+      "lv": "αυτός πυροβόλησε"
     },
     "imperfektKonjunktiv": {
       "de": "er schösse",
-      "lv": "Θα πυροβολούσε"
+      "lv": "αυτός θα πυροβολούσε"
     },
     "partizipVergangenheit": {
       "de": "geschossen",
-      "lv": "Βολή"
+      "lv": "πυροβολημένος"
     }
   },
   {
     "infinitiv": {
       "de": "schinden",
-      "lv": "Να βασανίζουν"
+      "lv": "βασανίζω"
     },
     "praesens": {
       "de": "er schindet",
-      "lv": "Βασανίζει"
+      "lv": "αυτός βασανίζει"
     },
     "imperfektIndikativ": {
       "de": "schindete",
-      "lv": "Ήταν σε αγωνία"
+      "lv": "αυτός βασάνισε"
     },
     "imperfektKonjunktiv": {
       "de": "schindete",
-      "lv": "Ήταν σε αγωνία"
+      "lv": "αυτός θα βασάνιζε"
     },
     "partizipVergangenheit": {
       "de": "geschunden",
-      "lv": "Βασανίστηκε"
+      "lv": "βασανισμένος"
     }
   },
   {
     "infinitiv": {
       "de": "schlafen",
-      "lv": "Να κοιμηθώ"
+      "lv": "κοιμάμαι"
     },
     "praesens": {
       "de": "er schläft",
-      "lv": "Κοιμάται"
+      "lv": "αυτός κοιμάται"
     },
     "imperfektIndikativ": {
       "de": "er schlief",
-      "lv": "Κοιμήθηκε"
+      "lv": "αυτός κοιμήθηκε"
     },
     "imperfektKonjunktiv": {
       "de": "er schliefe",
-      "lv": "Θα κοιμόταν"
+      "lv": "αυτός θα κοιμόταν"
     },
     "partizipVergangenheit": {
       "de": "geschlafen",
-      "lv": "Κοιμήθηκε"
+      "lv": "κοιμισμένος"
     }
   },
   {
     "infinitiv": {
       "de": "schlagen",
-      "lv": "Να χτυπήσει"
+      "lv": "χτυπώ"
     },
     "praesens": {
       "de": "er schlägt",
-      "lv": "Χτυπάει"
+      "lv": "αυτός χτυπά"
     },
     "imperfektIndikativ": {
       "de": "er schlug",
-      "lv": "Χτύπησε"
+      "lv": "αυτός χτύπησε"
     },
     "imperfektKonjunktiv": {
       "de": "er schlüge",
-      "lv": "Θα χτυπούσε"
+      "lv": "αυτός θα χτυπούσε"
     },
     "partizipVergangenheit": {
       "de": "geschlagen",
-      "lv": "Χτυπημένος"
+      "lv": "χτυπημένος"
     }
   },
   {
     "infinitiv": {
       "de": "schleichen",
-      "lv": "Να κρυφά"
+      "lv": "γλιστρώ"
     },
     "praesens": {
       "de": "er schleicht",
-      "lv": "Κρυφά"
+      "lv": "αυτός γλιστρά"
     },
     "imperfektIndikativ": {
       "de": "er schlich",
-      "lv": "Κρυφά"
+      "lv": "αυτός γλίστρησε"
     },
     "imperfektKonjunktiv": {
       "de": "er schliche",
-      "lv": "Θα κρυφά"
+      "lv": "αυτός θα γλιστρούσε"
     },
     "partizipVergangenheit": {
       "de": "geschlichen (er ist)",
-      "lv": "Κρυφά"
+      "lv": "έχει γλιστρήσει"
     }
   },
   {
     "infinitiv": {
       "de": "schleifen",
-      "lv": "Να αλέσει"
+      "lv": "λειαίνω"
     },
     "praesens": {
       "de": "er schleift",
-      "lv": "Αλέθει"
+      "lv": "αυτός λειαίνει"
     },
     "imperfektIndikativ": {
       "de": "er schliff",
-      "lv": "Γυάλισε"
+      "lv": "αυτός λείανε"
     },
     "imperfektKonjunktiv": {
       "de": "er schliffe",
-      "lv": "Θα άλεζε"
+      "lv": "αυτός θα λείαινε"
     },
     "partizipVergangenheit": {
       "de": "geschliffen",
-      "lv": "Άμεμπτος"
+      "lv": "λειασμένος"
     }
   },
   {
     "infinitiv": {
       "de": "schließen",
-      "lv": "Να κλείσει"
+      "lv": "κλείνω"
     },
     "praesens": {
       "de": "er schließt",
-      "lv": "Κλείνει"
+      "lv": "αυτός κλείνει"
     },
     "imperfektIndikativ": {
       "de": "er schloss",
-      "lv": "Έκλεισε"
+      "lv": "αυτός έκλεισε"
     },
     "imperfektKonjunktiv": {
       "de": "er schlösse",
-      "lv": "Θα έκλεινε"
+      "lv": "αυτός θα έκλεινε"
     },
     "partizipVergangenheit": {
       "de": "geschlossen",
-      "lv": "Κλειστό"
+      "lv": "κλεισμένος"
     }
   },
   {
     "infinitiv": {
       "de": "schlingen",
-      "lv": "Να καταπιεί"
+      "lv": "καταπίνω"
     },
     "praesens": {
       "de": "er schlingt",
-      "lv": "Κλαίει"
+      "lv": "αυτός καταπίνει"
     },
     "imperfektIndikativ": {
       "de": "er schlang",
-      "lv": "Κούρσαρε"
+      "lv": "αυτός κατάπιε"
     },
     "imperfektKonjunktiv": {
       "de": "er schlänge",
-      "lv": "Θα έκλαιγε"
+      "lv": "αυτός θα κατάπινε"
     },
     "partizipVergangenheit": {
       "de": "geschlungen",
-      "lv": "Συνθλίβονται"
+      "lv": "έχει καταπιεί"
     }
   },
   {
     "infinitiv": {
       "de": "schmeißen",
-      "lv": "Να ρίξει"
+      "lv": "πετώ"
     },
     "praesens": {
       "de": "er schmeißt",
-      "lv": "Ρίχνει"
+      "lv": "αυτός πετά"
     },
     "imperfektIndikativ": {
       "de": "er schmiss",
-      "lv": "Πέταξε"
+      "lv": "αυτός πέταξε"
     },
     "imperfektKonjunktiv": {
       "de": "er schmisse",
-      "lv": "Θα έριχνε"
+      "lv": "αυτός θα πετούσε"
     },
     "partizipVergangenheit": {
       "de": "geschmissen",
-      "lv": "Πεταμένο"
+      "lv": "πεταμένος"
     }
   },
   {
     "infinitiv": {
       "de": "schmelzen",
-      "lv": "Να λιώσει"
+      "lv": "λιώνω"
     },
     "praesens": {
       "de": "er schmilzt",
-      "lv": "Λιώνει"
+      "lv": "αυτός λιώνει"
     },
     "imperfektIndikativ": {
       "de": "er schmolz",
-      "lv": "Έλιωσε"
+      "lv": "αυτός έλιωσε"
     },
     "imperfektKonjunktiv": {
       "de": "er schmölze",
-      "lv": "Θα έλιωνε"
+      "lv": "αυτός θα έλιωνε"
     },
     "partizipVergangenheit": {
       "de": "geschmolzen (er ist)",
-      "lv": "Λειωμένο"
+      "lv": "λιωμένος"
     }
   },
   {
     "infinitiv": {
       "de": "schnauben",
-      "lv": "Σφίξιμο"
+      "lv": "ρουθουνίζω"
     },
     "praesens": {
       "de": "er schnaubt",
-      "lv": "Σφίγγει"
+      "lv": "αυτός ρουθουνίζει"
     },
     "imperfektIndikativ": {
       "de": "schnaubte / schnob",
-      "lv": "Έσπασε"
+      "lv": "αυτός ρουθούνισε"
     },
     "imperfektKonjunktiv": {
       "de": "schnaubte / schnob",
-      "lv": "Έσπασε"
+      "lv": "αυτός θα ρουθούνιζε"
     },
     "partizipVergangenheit": {
       "de": "geschnaubt / geschnoben",
-      "lv": "Στριμωγμένος"
+      "lv": "έχει ρουθουνίσει"
     }
   },
   {
     "infinitiv": {
       "de": "schneiden",
-      "lv": "Να κόψει"
+      "lv": "κόβω"
     },
     "praesens": {
       "de": "er schneidet",
-      "lv": "Κόβει"
+      "lv": "αυτός κόβει"
     },
     "imperfektIndikativ": {
       "de": "er schnitt",
-      "lv": "Έκοψε"
+      "lv": "αυτός έκοψε"
     },
     "imperfektKonjunktiv": {
       "de": "er schnitte",
-      "lv": "Θα έκοβε"
+      "lv": "αυτός θα έκοβε"
     },
     "partizipVergangenheit": {
       "de": "geschnitten",
-      "lv": "Τομή"
+      "lv": "κομμένος"
     }
   },
   {
     "infinitiv": {
       "de": "schreiben",
-      "lv": "Να γράψω"
+      "lv": "γράφω"
     },
     "praesens": {
       "de": "er schreibt",
-      "lv": "Γράφει"
+      "lv": "αυτός γράφει"
     },
     "imperfektIndikativ": {
       "de": "er schrieb",
-      "lv": "Έγραψε"
+      "lv": "αυτός έγραψε"
     },
     "imperfektKonjunktiv": {
       "de": "er schriebe",
-      "lv": "Θα έγραφε"
+      "lv": "αυτός θα έγραφε"
     },
     "partizipVergangenheit": {
       "de": "geschrieben",
-      "lv": "Γραπτός"
+      "lv": "γραμμένος"
     }
   },
   {
     "infinitiv": {
       "de": "schreien",
-      "lv": "Να φωνάζει"
+      "lv": "φωνάζω"
     },
     "praesens": {
       "de": "er schreit",
-      "lv": "Φωνάζει"
+      "lv": "αυτός φωνάζει"
     },
     "imperfektIndikativ": {
       "de": "er schrie",
-      "lv": "Ούρλιαξε"
+      "lv": "αυτός φώναξε"
     },
     "imperfektKonjunktiv": {
       "de": "er schriee",
-      "lv": "Θα ούρλιαζε"
+      "lv": "αυτός θα φώναζε"
     },
     "partizipVergangenheit": {
       "de": "geschrien",
-      "lv": "Φώναξε"
+      "lv": "έχει φωνάξει"
     }
   },
   {
     "infinitiv": {
       "de": "schreiten",
-      "lv": "Να πατήσει"
+      "lv": "βηματίζω"
     },
     "praesens": {
       "de": "er schreitet",
-      "lv": "Περπατάει"
+      "lv": "αυτός βηματίζει"
     },
     "imperfektIndikativ": {
       "de": "er schritt",
-      "lv": "Βηματίστηκε"
+      "lv": "αυτός βημάτισε"
     },
     "imperfektKonjunktiv": {
       "de": "er schritte",
-      "lv": "Θα πατούσε"
+      "lv": "αυτός θα βημάτιζε"
     },
     "partizipVergangenheit": {
       "de": "geschritten (er ist)",
-      "lv": "Με ρυθμό"
+      "lv": "έχει βηματίσει"
     }
   },
   {
     "infinitiv": {
       "de": "schweigen",
-      "lv": "Να σιωπήσει"
+      "lv": "σωπαίνω"
     },
     "praesens": {
       "de": "er schweigt",
-      "lv": "Είναι σιωπηλός"
+      "lv": "αυτός σωπαίνει"
     },
     "imperfektIndikativ": {
       "de": "er schwieg",
-      "lv": "Ήταν σιωπηλή"
+      "lv": "αυτός σώπασε"
     },
     "imperfektKonjunktiv": {
       "de": "er schwiege",
-      "lv": "Θα ήταν σιωπηλός"
+      "lv": "αυτός θα σώπαινε"
     },
     "partizipVergangenheit": {
       "de": "geschwiegen",
-      "lv": "Φίμωσε"
+      "lv": "έχει σωπάσει"
     }
   },
   {
     "infinitiv": {
       "de": "schwellen",
-      "lv": "Πρήζω"
+      "lv": "πρήζομαι"
     },
     "praesens": {
       "de": "er schwillt",
-      "lv": "Πρήζεται"
+      "lv": "αυτός πρήζεται"
     },
     "imperfektIndikativ": {
       "de": "er schwoll",
-      "lv": "Φούσκωσε"
+      "lv": "αυτός πρήστηκε"
     },
     "imperfektKonjunktiv": {
       "de": "er schwölle",
-      "lv": "Θα πρήζονταν"
+      "lv": "αυτός θα πρηζόταν"
     },
     "partizipVergangenheit": {
       "de": "geschwollen (er ist)",
-      "lv": "Πρησμένος"
+      "lv": "πρησμένος"
     }
   },
   {
     "infinitiv": {
       "de": "schwimmen",
-      "lv": "Να κολυμπήσετε"
+      "lv": "κολυμπώ"
     },
     "praesens": {
       "de": "er schwimmt",
-      "lv": "Κολυμπάει"
+      "lv": "αυτός κολυμπά"
     },
     "imperfektIndikativ": {
       "de": "er schwamm",
-      "lv": "Κολυμπούσε"
+      "lv": "αυτός κολύμπησε"
     },
     "imperfektKonjunktiv": {
       "de": "er schwömme / er schwämme",
-      "lv": "Θα κολυμπούσε"
+      "lv": "αυτός θα κολυμπούσε"
     },
     "partizipVergangenheit": {
       "de": "geschwommen (er ist)",
-      "lv": "Κολύμπησε"
+      "lv": "έχει κολυμπήσει"
     }
   },
   {
     "infinitiv": {
       "de": "schwinden",
-      "lv": "Να εξαφανιστεί"
+      "lv": "εξαφανίζομαι"
     },
     "praesens": {
       "de": "er schwindet",
-      "lv": "Εξαφανίζεται"
+      "lv": "αυτός εξαφανίζεται"
     },
     "imperfektIndikativ": {
       "de": "er schwand",
-      "lv": "Εξαφανίστηκε"
+      "lv": "αυτός εξαφανίστηκε"
     },
     "imperfektKonjunktiv": {
       "de": "er schwände",
-      "lv": "Θα εξαφανιζόταν"
+      "lv": "αυτός θα εξαφανιζόταν"
     },
     "partizipVergangenheit": {
       "de": "geschwunden (er ist)",
-      "lv": "Χαμένος"
+      "lv": "εξαφανισμένος"
     }
   },
   {
     "infinitiv": {
       "de": "schwingen",
-      "lv": "Τόξο"
+      "lv": "ανεμίζω"
     },
     "praesens": {
       "de": "er schwingt",
-      "lv": "Υποκλίνεται"
+      "lv": "αυτός ανεμίζει"
     },
     "imperfektIndikativ": {
       "de": "er schwang",
-      "lv": "Κούνησε το χέρι"
+      "lv": "αυτός ανέμισε"
     },
     "imperfektKonjunktiv": {
       "de": "er schwänge",
-      "lv": "Θα προσκυνούσε"
+      "lv": "αυτός θα ανέμιζε"
     },
     "partizipVergangenheit": {
       "de": "geschwungen",
-      "lv": "Σκυφτός"
+      "lv": "έχει ανεμίσει"
     }
   },
   {
     "infinitiv": {
       "de": "schwören",
-      "lv": "Να ορκιστεί"
+      "lv": "ορκίζομαι"
     },
     "praesens": {
       "de": "er schwört",
-      "lv": "Βρίζει"
+      "lv": "αυτός ορκίζεται"
     },
     "imperfektIndikativ": {
       "de": "er schwur / er schwor",
-      "lv": "Ορκίστηκε"
+      "lv": "αυτός ορκίστηκε"
     },
     "imperfektKonjunktiv": {
       "de": "er schwöre",
-      "lv": "Θα έβριζε"
+      "lv": "αυτός θα ορκιζόταν"
     },
     "partizipVergangenheit": {
       "de": "geschworen",
-      "lv": "Ορκισμένος"
+      "lv": "ορκισμένος"
     }
   },
   {
     "infinitiv": {
       "de": "sehen",
-      "lv": "Να δεις"
+      "lv": "βλέπω"
     },
     "praesens": {
       "de": "er sieht",
-      "lv": "Βλέπει"
+      "lv": "αυτός βλέπει"
     },
     "imperfektIndikativ": {
       "de": "er sah",
-      "lv": "Είδε"
+      "lv": "αυτός είδε"
     },
     "imperfektKonjunktiv": {
       "de": "er sähe",
-      "lv": "Θα έβλεπε"
+      "lv": "αυτός θα έβλεπε"
     },
     "partizipVergangenheit": {
       "de": "gesehen",
-      "lv": "Δει"
+      "lv": "ιδωμένος"
     }
   },
   {
     "infinitiv": {
       "de": "sein",
-      "lv": "Να είναι"
+      "lv": "είμαι"
     },
     "praesens": {
       "de": "er ist",
-      "lv": "Αυτός είναι"
+      "lv": "αυτός είναι"
     },
     "imperfektIndikativ": {
       "de": "war",
-      "lv": "Ήταν"
+      "lv": "αυτός ήταν"
     },
     "imperfektKonjunktiv": {
       "de": "war",
-      "lv": "Ήταν"
+      "lv": "αυτός θα ήταν"
     },
     "partizipVergangenheit": {
       "de": "gewesen",
-      "lv": "Ήταν"
+      "lv": "έχει υπάρξει"
     }
   },
   {
     "infinitiv": {
       "de": "senden",
-      "lv": "Στέλνω"
+      "lv": "στέλνω"
     },
     "praesens": {
       "de": "er sendet",
-      "lv": "Στέλνει"
+      "lv": "αυτός στέλνει"
     },
     "imperfektIndikativ": {
       "de": "er sandte / er sendete",
-      "lv": "Έστειλε"
+      "lv": "αυτός έστειλε"
     },
     "imperfektKonjunktiv": {
       "de": "er sendete",
-      "lv": "Θα έστελνε"
+      "lv": "αυτός θα έστελνε"
     },
     "partizipVergangenheit": {
       "de": "gesandt / gesendet",
-      "lv": "Έστειλε"
+      "lv": "σταλμένος"
     }
   },
   {
     "infinitiv": {
       "de": "sieden",
-      "lv": "Να βράσει"
+      "lv": "βράζω"
     },
     "praesens": {
       "de": "er siedet",
-      "lv": "Μαγειρεύει"
+      "lv": "αυτός βράζει"
     },
     "imperfektIndikativ": {
       "de": "sott / siedete",
-      "lv": "Μαγείρευε"
+      "lv": "αυτός έβρασε"
     },
     "imperfektKonjunktiv": {
       "de": "sott / siedete",
-      "lv": "Μαγείρευε"
+      "lv": "αυτός θα έβραζε"
     },
     "partizipVergangenheit": {
       "de": "gesotten / gesiedet",
-      "lv": "Μαγείρευτος"
+      "lv": "βρασμένος"
     }
   },
   {
     "infinitiv": {
       "de": "singen",
-      "lv": "Να τραγουδήσει"
+      "lv": "τραγουδώ"
     },
     "praesens": {
       "de": "er singt",
-      "lv": "Τραγουδάει"
+      "lv": "αυτός τραγουδά"
     },
     "imperfektIndikativ": {
       "de": "er sang",
-      "lv": "Τραγούδησε"
+      "lv": "αυτός τραγούδησε"
     },
     "imperfektKonjunktiv": {
       "de": "er sänge",
-      "lv": "Θα τραγουδούσε"
+      "lv": "αυτός θα τραγουδούσε"
     },
     "partizipVergangenheit": {
       "de": "gesungen",
-      "lv": "Τραγουδήθηκε"
+      "lv": "τραγουδισμένος"
     }
   },
   {
     "infinitiv": {
       "de": "sinken",
-      "lv": "Να βυθιστεί"
+      "lv": "βουλιάζω"
     },
     "praesens": {
       "de": "er sinkt",
-      "lv": "Βουλιάζει"
+      "lv": "αυτός βουλιάζει"
     },
     "imperfektIndikativ": {
       "de": "er sank",
-      "lv": "Βυθίστηκε"
+      "lv": "αυτός βούλιαξε"
     },
     "imperfektKonjunktiv": {
       "de": "er sänke",
-      "lv": "Θα βυθιζόταν"
+      "lv": "αυτός θα βούλιαζε"
     },
     "partizipVergangenheit": {
       "de": "gesunken (er ist)",
-      "lv": "Βυθισμένος"
+      "lv": "βουλιαγμένος"
     }
   },
   {
     "infinitiv": {
       "de": "sinnen",
-      "lv": "Να συλλογιστεί"
+      "lv": "συλλογίζομαι"
     },
     "praesens": {
       "de": "er sinnt",
-      "lv": "Συλλογίζεται"
+      "lv": "αυτός συλλογίζεται"
     },
     "imperfektIndikativ": {
       "de": "er sann",
-      "lv": "Συλλογίστηκε"
+      "lv": "αυτός συλλογίστηκε"
     },
     "imperfektKonjunktiv": {
       "de": "er sönne / er sänne",
-      "lv": "Θα συλλογιζόταν"
+      "lv": "αυτός θα συλλογιζόταν"
     },
     "partizipVergangenheit": {
       "de": "gesonnen",
-      "lv": "Συλλογίστηκε"
+      "lv": "συλλογισμένος"
     }
   },
   {
     "infinitiv": {
       "de": "sitzen",
-      "lv": "Να καθίσει"
+      "lv": "κάθομαι"
     },
     "praesens": {
       "de": "er sitzt",
-      "lv": "Κάθεται"
+      "lv": "αυτός κάθεται"
     },
     "imperfektIndikativ": {
       "de": "er sass",
-      "lv": "Κάθισε"
+      "lv": "αυτός κάθισε"
     },
     "imperfektKonjunktiv": {
       "de": "er säße",
-      "lv": "Θα καθόταν"
+      "lv": "αυτός θα καθόταν"
     },
     "partizipVergangenheit": {
       "de": "gesessen",
-      "lv": "Σπαρμένος"
+      "lv": "καθισμένος"
     }
   },
   {
     "infinitiv": {
       "de": "sollen",
-      "lv": "Κρατώ / υποχρεώνομαι"
+      "lv": "οφείλω"
     },
     "praesens": {
       "de": "er soll",
-      "lv": "Πρέπει"
+      "lv": "αυτός οφείλει"
     },
     "imperfektIndikativ": {
       "de": "sollte",
-      "lv": "Έπρεπε"
+      "lv": "αυτός όφειλε"
     },
     "imperfektKonjunktiv": {
       "de": "sollte",
-      "lv": "Έπρεπε"
+      "lv": "αυτός θα όφειλε"
     },
     "partizipVergangenheit": {
       "de": "gesollt",
-      "lv": "Έπρεπε να"
+      "lv": "υποχρεωμένος"
     }
   },
   {
     "infinitiv": {
       "de": "speien",
-      "lv": "Να φτύνω"
+      "lv": "φτύνω"
     },
     "praesens": {
       "de": "er speit",
-      "lv": "Φτύνει"
+      "lv": "αυτός φτύνει"
     },
     "imperfektIndikativ": {
       "de": "er spie",
-      "lv": "Έφτυσε"
+      "lv": "αυτός έφτυσε"
     },
     "imperfektKonjunktiv": {
       "de": "er spie",
-      "lv": "Θα έφτυνε"
+      "lv": "αυτός θα έφτυνε"
     },
     "partizipVergangenheit": {
       "de": "gespien",
-      "lv": "Έφτυσε"
+      "lv": "φτυσμένος"
     }
   },
   {
     "infinitiv": {
       "de": "spinnen",
-      "lv": "Να γυρίζει"
+      "lv": "γνέθω"
     },
     "praesens": {
       "de": "er spinnt",
-      "lv": "Γυρίζει"
+      "lv": "αυτός γνέθει"
     },
     "imperfektIndikativ": {
       "de": "er spann",
-      "lv": "Αυτή στριφογύρισε"
+      "lv": "αυτός έγνεσε"
     },
     "imperfektKonjunktiv": {
       "de": "er spönne / er spänne",
-      "lv": "Θα γύριζε"
+      "lv": "αυτός θα έγνεθε"
     },
     "partizipVergangenheit": {
       "de": "gesponnen",
-      "lv": "Κλωσμένος"
+      "lv": "έχει γνέσει"
     }
   },
   {
     "infinitiv": {
       "de": "spleißen",
-      "lv": "Να συνδεθεί"
+      "lv": "ενώνω"
     },
     "praesens": {
       "de": "er spleißt",
-      "lv": "Συνδέει"
+      "lv": "αυτός ενώνει"
     },
     "imperfektIndikativ": {
       "de": "spliss",
-      "lv": "Συνδέθηκε"
+      "lv": "αυτός ένωσε"
     },
     "imperfektKonjunktiv": {
       "de": "spliss",
-      "lv": "Συνδέθηκε"
+      "lv": "αυτός θα ένωνε"
     },
     "partizipVergangenheit": {
       "de": "gesplissen",
-      "lv": "Συνδεδεμένος"
+      "lv": "ενωμένος"
     }
   },
   {
     "infinitiv": {
       "de": "sprechen",
-      "lv": "Να μιλήσει"
+      "lv": "μιλώ"
     },
     "praesens": {
       "de": "er spricht",
-      "lv": "Μιλάει"
+      "lv": "αυτός μιλά"
     },
     "imperfektIndikativ": {
       "de": "er sprach",
-      "lv": "Μίλησε"
+      "lv": "αυτός μίλησε"
     },
     "imperfektKonjunktiv": {
       "de": "er spräche",
-      "lv": "Θα μιλούσε"
+      "lv": "αυτός θα μιλούσε"
     },
     "partizipVergangenheit": {
       "de": "gesprochen",
-      "lv": "Ομιλούμενος"
+      "lv": "έχει μιλήσει"
     }
   },
   {
     "infinitiv": {
       "de": "sprießen",
-      "lv": "Βλασταίνουν / βλασταίνουν"
+      "lv": "φυτρώνω"
     },
     "praesens": {
       "de": "er sprießt",
-      "lv": "Φυτρώνει"
+      "lv": "αυτός φυτρώνει"
     },
     "imperfektIndikativ": {
       "de": "er spross",
-      "lv": "Φύτρωσε"
+      "lv": "αυτός φύτρωσε"
     },
     "imperfektKonjunktiv": {
       "de": "er sprösse",
-      "lv": "Θα φύτρωνε"
+      "lv": "αυτός θα φύτρωνε"
     },
     "partizipVergangenheit": {
       "de": "gesprossen (er ist)",
-      "lv": "Φύτρωσε"
+      "lv": "φυτρωμένος"
     }
   },
   {
     "infinitiv": {
       "de": "springen",
-      "lv": "Να πηδήξει"
+      "lv": "πηδάω"
     },
     "praesens": {
       "de": "er springt",
-      "lv": "Πηδά"
+      "lv": "αυτός πηδάει"
     },
     "imperfektIndikativ": {
       "de": "er sprang",
-      "lv": "Πήδηξε"
+      "lv": "αυτός πήδηξε"
     },
     "imperfektKonjunktiv": {
       "de": "er spränge",
-      "lv": "Θα πηδούσε"
+      "lv": "αυτός θα πηδούσε"
     },
     "partizipVergangenheit": {
       "de": "gesprungen (er ist)",
-      "lv": "Πήδηξε"
+      "lv": "έχει πηδήξει"
     }
   },
   {
     "infinitiv": {
       "de": "stechen",
-      "lv": "Να τρυπήσει"
+      "lv": "τρυπώ"
     },
     "praesens": {
       "de": "er sticht",
-      "lv": "Μαχαιρώνει"
+      "lv": "αυτός τρυπά"
     },
     "imperfektIndikativ": {
       "de": "er stach",
-      "lv": "Τρύπωσε"
+      "lv": "αυτός τρύπησε"
     },
     "imperfektKonjunktiv": {
       "de": "er stäche",
-      "lv": "Θα μαχαιρώνει"
+      "lv": "αυτός θα τρυπούσε"
     },
     "partizipVergangenheit": {
       "de": "gestochen",
-      "lv": "Διάτρητος"
+      "lv": "τρυπημένος"
     }
   },
   {
     "infinitiv": {
       "de": "stecken",
-      "lv": "Να κολλήσει / να τρυπήσει"
+      "lv": "χώνω / μπήγω"
     },
     "praesens": {
       "de": "er steckt",
-      "lv": "Τρυπάει"
+      "lv": "αυτός χώνει / μπήγει"
     },
     "imperfektIndikativ": {
       "de": "stak / steckte",
-      "lv": "Τρύπωσε"
+      "lv": "αυτός έχωσε / έμπηξε"
     },
     "imperfektKonjunktiv": {
       "de": "stak / steckte",
-      "lv": "Τρύπωσε"
+      "lv": "αυτός θα έχωνε / θα έμπηγε"
     },
     "partizipVergangenheit": {
       "de": "gesteckt",
-      "lv": "Τρύπωσε"
+      "lv": "χωμένος / μπηγμένος"
     }
   },
   {
     "infinitiv": {
       "de": "stehen",
-      "lv": "Να σταθείς"
+      "lv": "στέκομαι"
     },
     "praesens": {
       "de": "er steht",
-      "lv": "Στέκεται"
+      "lv": "αυτός στέκεται"
     },
     "imperfektIndikativ": {
       "de": "er stand",
-      "lv": "Στάθηκε"
+      "lv": "αυτός στάθηκε"
     },
     "imperfektKonjunktiv": {
       "de": "er stände / er stünde",
-      "lv": "Θα στεκόταν"
+      "lv": "αυτός θα στεκόταν"
     },
     "partizipVergangenheit": {
       "de": "gestanden",
-      "lv": "Σταμάτησε"
+      "lv": "έχει σταθεί"
     }
   },
   {
     "infinitiv": {
       "de": "stehlen",
-      "lv": "Να κλέψει"
+      "lv": "κλέβω"
     },
     "praesens": {
       "de": "er stiehlt",
-      "lv": "Κλέβει"
+      "lv": "αυτός κλέβει"
     },
     "imperfektIndikativ": {
       "de": "er stahl",
-      "lv": "Έκλεψε"
+      "lv": "αυτός έκλεψε"
     },
     "imperfektKonjunktiv": {
       "de": "er stöhle / er stähle",
-      "lv": "Θα έκλεβε"
+      "lv": "αυτός θα έκλεβε"
     },
     "partizipVergangenheit": {
       "de": "gestohlen",
-      "lv": "Κλεμμένο"
+      "lv": "κλεμμένος"
     }
   },
   {
     "infinitiv": {
       "de": "steigen",
-      "lv": "Να σκαρφαλώσει"
+      "lv": "ανεβαίνω"
     },
     "praesens": {
       "de": "er steigt",
-      "lv": "Ανεβαίνει"
+      "lv": "αυτός ανεβαίνει"
     },
     "imperfektIndikativ": {
       "de": "er stieg",
-      "lv": "Ανέβηκε"
+      "lv": "αυτός ανέβηκε"
     },
     "imperfektKonjunktiv": {
       "de": "er stiege",
-      "lv": "Θα ανέβαινε"
+      "lv": "αυτός θα ανέβαινε"
     },
     "partizipVergangenheit": {
       "de": "gestiegen (er ist)",
-      "lv": "Σκαρφάλωσε"
+      "lv": "έχει ανέβει"
     }
   },
   {
     "infinitiv": {
       "de": "sterben",
-      "lv": "Να πεθάνει"
+      "lv": "πεθαίνω"
     },
     "praesens": {
       "de": "er stirbt",
-      "lv": "Πεθαίνει"
+      "lv": "αυτός πεθαίνει"
     },
     "imperfektIndikativ": {
       "de": "er starb",
-      "lv": "Πέθανε"
+      "lv": "αυτός πέθανε"
     },
     "imperfektKonjunktiv": {
       "de": "er stürbe",
-      "lv": "Θα πέθαινε"
+      "lv": "αυτός θα πέθαινε"
     },
     "partizipVergangenheit": {
       "de": "gestorben (er ist)",
-      "lv": "Νεκρός"
+      "lv": "πεθαμένος"
     }
   },
   {
     "infinitiv": {
       "de": "stinken",
-      "lv": "Βρώμα"
+      "lv": "βρομάω"
     },
     "praesens": {
       "de": "es stinkt",
-      "lv": "Βρωμάει"
+      "lv": "αυτό βρομάει"
     },
     "imperfektIndikativ": {
       "de": "stank",
-      "lv": "Βρωμούσε"
+      "lv": "αυτό βρόμησε"
     },
     "imperfektKonjunktiv": {
       "de": "stank",
-      "lv": "Βρωμούσε"
+      "lv": "αυτό θα βρομούσε"
     },
     "partizipVergangenheit": {
       "de": "gestunken",
-      "lv": "Βρωμερός"
+      "lv": "έχει βρομήσει"
     }
   },
   {
     "infinitiv": {
       "de": "stoßen",
-      "lv": "Να σπρώχνει"
+      "lv": "σκουντώ"
     },
     "praesens": {
       "de": "er stößt",
-      "lv": "Σπρώχνει"
+      "lv": "αυτός σκουντά"
     },
     "imperfektIndikativ": {
       "de": "er stieß",
-      "lv": "Έσπρωξε"
+      "lv": "αυτός σκούντηξε"
     },
     "imperfektKonjunktiv": {
       "de": "er stieße",
-      "lv": "Θα έσπρωχνε"
+      "lv": "αυτός θα σκουντούσε"
     },
     "partizipVergangenheit": {
       "de": "gestoßen",
-      "lv": "Έσπρωξε"
+      "lv": "έχει σκουντήξει"
     }
   },
   {
     "infinitiv": {
       "de": "streichen",
-      "lv": "Να ζωγραφίζει"
+      "lv": "βάφω / διαγράφω"
     },
     "praesens": {
       "de": "er streicht",
-      "lv": "Ζωγραφίζει"
+      "lv": "αυτός βάφει / διαγράφει"
     },
     "imperfektIndikativ": {
       "de": "er strich",
-      "lv": "Ζωγράφιζε"
+      "lv": "αυτός έβαψε / διέγραψε"
     },
     "imperfektKonjunktiv": {
       "de": "er striche",
-      "lv": "Θα ζωγράφιζε"
+      "lv": "αυτός θα έβαφε / θα διέγραφε"
     },
     "partizipVergangenheit": {
       "de": "gestrichen",
-      "lv": "Έγχρωμος"
+      "lv": "βαμμένος / διαγραμμένος"
     }
   },
   {
     "infinitiv": {
       "de": "streiten",
-      "lv": "Να μαλώνουν"
+      "lv": "καβγαδίζω"
     },
     "praesens": {
       "de": "er streitet",
-      "lv": "Υποστηρίζει"
+      "lv": "αυτός καβγαδίζει"
     },
     "imperfektIndikativ": {
       "de": "er stritt",
-      "lv": "Υποστήριζε"
+      "lv": "αυτός καβγάδισε"
     },
     "imperfektKonjunktiv": {
       "de": "er stritte",
-      "lv": "Θα επιχειρηματολογούσε"
+      "lv": "αυτός θα καβγάδιζε"
     },
     "partizipVergangenheit": {
       "de": "gestritten",
-      "lv": "Υποστήριξε"
+      "lv": "έχει καβγαδίσει"
     }
   },
   {
     "infinitiv": {
       "de": "tragen",
-      "lv": "Να φορέσει"
+      "lv": "κουβαλώ"
     },
     "praesens": {
       "de": "er trägt",
-      "lv": "Φοράει"
+      "lv": "αυτός κουβαλά"
     },
     "imperfektIndikativ": {
       "de": "er trug",
-      "lv": "Φορούσε"
+      "lv": "αυτός κουβάλησε"
     },
     "imperfektKonjunktiv": {
       "de": "er trüge",
-      "lv": "Θα φορούσε"
+      "lv": "αυτός θα κουβαλούσε"
     },
     "partizipVergangenheit": {
       "de": "getragen",
-      "lv": "Φέρεται"
+      "lv": "κουβαλημένος"
     }
   },
   {
     "infinitiv": {
       "de": "treffen",
-      "lv": "Να συναντηθούμε"
+      "lv": "συναντώ"
     },
     "praesens": {
       "de": "er trifft",
-      "lv": "Συναντά"
+      "lv": "αυτός συναντά"
     },
     "imperfektIndikativ": {
       "de": "er traf",
-      "lv": "Συνάντησε"
+      "lv": "αυτός συνάντησε"
     },
     "imperfektKonjunktiv": {
       "de": "er träfe",
-      "lv": "Θα συναντούσε"
+      "lv": "αυτός θα συναντούσε"
     },
     "partizipVergangenheit": {
       "de": "getroffen",
-      "lv": "Συναντήθηκε"
+      "lv": "έχει συναντήσει"
     }
   },
   {
     "infinitiv": {
       "de": "treiben",
-      "lv": "Οδηγώ"
+      "lv": "διώχνω"
     },
     "praesens": {
       "de": "er treibt",
-      "lv": "Αυτός οδηγεί"
+      "lv": "αυτός διώχνει"
     },
     "imperfektIndikativ": {
       "de": "er trieb",
-      "lv": "Οδήγησε"
+      "lv": "αυτός έδιωξε"
     },
     "imperfektKonjunktiv": {
       "de": "er triebe",
-      "lv": "Θα έκανε"
+      "lv": "αυτός θα έδιωχνε"
     },
     "partizipVergangenheit": {
       "de": "getrieben",
-      "lv": "Οδηγείται"
+      "lv": "διωγμένος"
     }
   },
   {
     "infinitiv": {
       "de": "treten",
-      "lv": "Να μπω / να πάω"
+      "lv": "πατώ / προχωρώ"
     },
     "praesens": {
       "de": "er tritt",
-      "lv": "Πατάει / πάει"
+      "lv": "αυτός πατά / προχωρά"
     },
     "imperfektIndikativ": {
       "de": "er trat",
-      "lv": "Πάτησε / πήγε"
+      "lv": "αυτός πάτησε / προχώρησε"
     },
     "imperfektKonjunktiv": {
       "de": "er träte",
-      "lv": "Θα πατούσε / θα πήγαινε"
+      "lv": "αυτός θα πατούσε / θα προχωρούσε"
     },
     "partizipVergangenheit": {
       "de": "getreten (er ist)",
-      "lv": "Μπήκε / έφυγε"
+      "lv": "έχει πατήσει / έχει προχωρήσει"
     }
   },
   {
     "infinitiv": {
       "de": "trinken",
-      "lv": "Να πιει"
+      "lv": "πίνω"
     },
     "praesens": {
       "de": "er trinkt",
-      "lv": "Πίνει"
+      "lv": "αυτός πίνει"
     },
     "imperfektIndikativ": {
       "de": "er trank",
-      "lv": "Ήπιε"
+      "lv": "αυτός ήπιε"
     },
     "imperfektKonjunktiv": {
       "de": "er tränke",
-      "lv": "Έτρεξε"
+      "lv": "αυτός θα έπινε"
     },
     "partizipVergangenheit": {
       "de": "getrunken",
-      "lv": "Μεθυσμένος"
+      "lv": "έχει πιει"
     }
   },
   {
     "infinitiv": {
       "de": "trügen",
-      "lv": "Απάτη"
+      "lv": "εξαπατώ"
     },
     "praesens": {
       "de": "er trögt",
-      "lv": "Απατάει"
+      "lv": "αυτός εξαπατά"
     },
     "imperfektIndikativ": {
       "de": "er trog",
-      "lv": "Απάτησε"
+      "lv": "αυτός εξαπάτησε"
     },
     "imperfektKonjunktiv": {
       "de": "er tröge",
-      "lv": "Θα απατούσε"
+      "lv": "αυτός θα εξαπατούσε"
     },
     "partizipVergangenheit": {
       "de": "getrogen",
-      "lv": "Εξαπατημένοι"
+      "lv": "εξαπατημένος"
     }
   },
   {
     "infinitiv": {
       "de": "tun",
-      "lv": "Να κάνουμε"
+      "lv": "κάνω"
     },
     "praesens": {
       "de": "er tut",
-      "lv": "Κάνει"
+      "lv": "αυτός κάνει"
     },
     "imperfektIndikativ": {
       "de": "er tat",
-      "lv": "Το έκανε"
+      "lv": "αυτός έκανε"
     },
     "imperfektKonjunktiv": {
       "de": "er täte",
-      "lv": "Θα έκανε"
+      "lv": "αυτός θα έκανε"
     },
     "partizipVergangenheit": {
       "de": "getan",
-      "lv": "Γινώμενος"
+      "lv": "έχει κάνει"
     }
   },
   {
     "infinitiv": {
       "de": "verderben",
-      "lv": "Να χαλάσει"
+      "lv": "χαλώ"
     },
     "praesens": {
       "de": "er verdirbt",
-      "lv": "Χαλάει"
+      "lv": "αυτός χαλά"
     },
     "imperfektIndikativ": {
       "de": "er verdarb",
-      "lv": "Έσπασε"
+      "lv": "αυτός χάλασε"
     },
     "imperfektKonjunktiv": {
       "de": "er verdürbe",
-      "lv": "Θα χαλούσε"
+      "lv": "αυτός θα χαλούσε"
     },
     "partizipVergangenheit": {
       "de": "verdorben",
-      "lv": "Διεφθαρμένη"
+      "lv": "χαλασμένος"
     }
   },
   {
     "infinitiv": {
       "de": "verdrießen",
-      "lv": "Να αναστατώσει"
+      "lv": "ενοχλώ"
     },
     "praesens": {
       "de": "er verdrießt",
-      "lv": "Προκαλεί δυσαρέσκεια"
+      "lv": "αυτός ενοχλεί"
     },
     "imperfektIndikativ": {
       "de": "er verdross",
-      "lv": "Προκάλεσε οργή"
+      "lv": "αυτός ενόχλησε"
     },
     "imperfektKonjunktiv": {
       "de": "er verdrösse",
-      "lv": "Θα προκαλούσε δυσαρέσκεια"
+      "lv": "αυτός θα ενοχλούσε"
     },
     "partizipVergangenheit": {
       "de": "verdrossen",
-      "lv": "Προσβεβλημένος"
+      "lv": "ενοχλημένος"
     }
   },
   {
     "infinitiv": {
       "de": "vergessen",
-      "lv": "Να ξεχάσω"
+      "lv": "ξεχνώ"
     },
     "praesens": {
       "de": "er vergisst",
-      "lv": "Ξεχνάει"
+      "lv": "αυτός ξεχνά"
     },
     "imperfektIndikativ": {
       "de": "er vergass",
-      "lv": "Ξέχασε"
+      "lv": "αυτός ξέχασε"
     },
     "imperfektKonjunktiv": {
       "de": "er vergäße",
-      "lv": "Θα ξεχνούσε"
+      "lv": "αυτός θα ξεχνούσε"
     },
     "partizipVergangenheit": {
       "de": "vergessen",
-      "lv": "Ξεχασμένος"
+      "lv": "ξεχασμένος"
     }
   },
   {
     "infinitiv": {
       "de": "verlieren",
-      "lv": "Να χάσει"
+      "lv": "χάνω"
     },
     "praesens": {
       "de": "er verliert",
-      "lv": "Χάνει"
+      "lv": "αυτός χάνει"
     },
     "imperfektIndikativ": {
       "de": "er verlor",
-      "lv": "Έχασε"
+      "lv": "αυτός έχασε"
     },
     "imperfektKonjunktiv": {
       "de": "er verlöre",
-      "lv": "Θα έχανε"
+      "lv": "αυτός θα έχανε"
     },
     "partizipVergangenheit": {
       "de": "verloren",
-      "lv": "Χαμένος"
+      "lv": "χαμένος"
     }
   },
   {
     "infinitiv": {
       "de": "wachsen",
-      "lv": "Να μεγαλώσει"
+      "lv": "μεγαλώνω"
     },
     "praesens": {
       "de": "er wächst",
-      "lv": "Μεγαλώνει"
+      "lv": "αυτός μεγαλώνει"
     },
     "imperfektIndikativ": {
       "de": "er wuchs",
-      "lv": "Μεγάλωσε"
+      "lv": "αυτός μεγάλωσε"
     },
     "imperfektKonjunktiv": {
       "de": "er wüchse",
-      "lv": "Θα μεγάλωνε"
+      "lv": "αυτός θα μεγάλωνε"
     },
     "partizipVergangenheit": {
       "de": "gewachsen (er ist)",
-      "lv": "Ενήλικος"
+      "lv": "έχει μεγαλώσει"
     }
   },
   {
     "infinitiv": {
       "de": "waschen",
-      "lv": "Να πλύνετε"
+      "lv": "πλένω"
     },
     "praesens": {
       "de": "er wäscht",
-      "lv": "Αυτή πλένεται"
+      "lv": "αυτός πλένει"
     },
     "imperfektIndikativ": {
       "de": "er wusch",
-      "lv": "Έπλενε"
+      "lv": "αυτός έπλυνε"
     },
     "imperfektKonjunktiv": {
       "de": "er wüsche",
-      "lv": "Θα έπλενε"
+      "lv": "αυτός θα έπλενε"
     },
     "partizipVergangenheit": {
       "de": "gewaschen",
-      "lv": "Πλυμένο"
+      "lv": "πλυμένος"
     }
   },
   {
     "infinitiv": {
       "de": "weben",
-      "lv": "Πλέκω"
+      "lv": "υφαίνω"
     },
     "praesens": {
       "de": "er webt",
-      "lv": "Πλέκει"
+      "lv": "αυτός υφαίνει"
     },
     "imperfektIndikativ": {
       "de": "wob",
-      "lv": "Έπλεκε"
+      "lv": "αυτός ύφανε"
     },
     "imperfektKonjunktiv": {
       "de": "wob",
-      "lv": "Έπλεκε"
+      "lv": "αυτός θα ύφαινε"
     },
     "partizipVergangenheit": {
       "de": "gewoben",
-      "lv": "Υφαντός"
+      "lv": "υφασμένος"
     }
   },
   {
     "infinitiv": {
       "de": "weichen",
-      "lv": "Υποχώρηση"
+      "lv": "υποχωρώ"
     },
     "praesens": {
       "de": "er weicht",
-      "lv": "Υποχωρεί"
+      "lv": "αυτός υποχωρεί"
     },
     "imperfektIndikativ": {
       "de": "er wich",
-      "lv": "Υποχώρησε"
+      "lv": "αυτός υποχώρησε"
     },
     "imperfektKonjunktiv": {
       "de": "er wiche",
-      "lv": "Θα έκανε πίσω"
+      "lv": "αυτός θα υποχωρούσε"
     },
     "partizipVergangenheit": {
       "de": "gewichen (er ist)",
-      "lv": "Υποχώρησε"
+      "lv": "έχει υποχωρήσει"
     }
   },
   {
     "infinitiv": {
       "de": "weisen",
-      "lv": "Να δείξει"
+      "lv": "δείχνω"
     },
     "praesens": {
       "de": "er weist",
-      "lv": "Δείχνει"
+      "lv": "αυτός δείχνει"
     },
     "imperfektIndikativ": {
       "de": "er wies",
-      "lv": "Έδειξε"
+      "lv": "αυτός έδειξε"
     },
     "imperfektKonjunktiv": {
       "de": "er wiese",
-      "lv": "Θα έδειχνε"
+      "lv": "αυτός θα έδειχνε"
     },
     "partizipVergangenheit": {
       "de": "gewiesen",
-      "lv": "Φαίνεται"
+      "lv": "έχει δείξει"
     }
   },
   {
     "infinitiv": {
       "de": "wenden",
-      "lv": "Να στρίψει"
+      "lv": "γυρίζω / αναποδογυρίζω"
     },
     "praesens": {
       "de": "er wendet",
-      "lv": "Γυρίζει"
+      "lv": "αυτός γυρίζει / αναποδογυρίζει"
     },
     "imperfektIndikativ": {
       "de": "er wandte / es wendete",
-      "lv": "Γύρισε"
+      "lv": "αυτός γύρισε / αναποδογύρισε"
     },
     "imperfektKonjunktiv": {
       "de": "er wendete",
-      "lv": "Θα γύριζε"
+      "lv": "αυτός θα γύριζε / θα αναποδογύριζε"
     },
     "partizipVergangenheit": {
       "de": "gewandt / gewendet",
-      "lv": "Περιστράφηκε"
+      "lv": "γυρισμένος / αναποδογυρισμένος"
     }
   },
   {
     "infinitiv": {
       "de": "werben",
-      "lv": "Να προτείνει"
+      "lv": "κάνω πρόταση γάμου"
     },
     "praesens": {
       "de": "er wirbt",
-      "lv": "Φλερτάρει"
+      "lv": "αυτός κάνει πρόταση γάμου"
     },
     "imperfektIndikativ": {
       "de": "er warb",
-      "lv": "Πρότεινε"
+      "lv": "αυτός έκανε πρόταση γάμου"
     },
     "imperfektKonjunktiv": {
       "de": "er würbe",
-      "lv": "Θα πρότεινε"
+      "lv": "αυτός θα έκανε πρόταση γάμου"
     },
     "partizipVergangenheit": {
       "de": "geworben",
-      "lv": "Φλερτ"
+      "lv": "έχει κάνει πρόταση γάμου"
     }
   },
   {
     "infinitiv": {
       "de": "werden",
-      "lv": "Να πάρει"
+      "lv": "γίνομαι"
     },
     "praesens": {
       "de": "er wird",
-      "lv": "Μπορεί"
+      "lv": "αυτός γίνεται"
     },
     "imperfektIndikativ": {
       "de": "wurde",
-      "lv": "Πήρε"
+      "lv": "αυτός έγινε"
     },
     "imperfektKonjunktiv": {
       "de": "wurde",
-      "lv": "Πήρε"
+      "lv": "αυτός θα γινόταν"
     },
     "partizipVergangenheit": {
       "de": "geworden",
-      "lv": "Έλαβε"
+      "lv": "έχει γίνει"
     }
   },
   {
     "infinitiv": {
       "de": "werfen",
-      "lv": "Να ρίξει"
+      "lv": "ρίχνω"
     },
     "praesens": {
       "de": "er wirft",
-      "lv": "Ρίχνει"
+      "lv": "αυτός ρίχνει"
     },
     "imperfektIndikativ": {
       "de": "er warf",
-      "lv": "Πέταξε"
+      "lv": "αυτός έριξε"
     },
     "imperfektKonjunktiv": {
       "de": "er würfe",
-      "lv": "Θα έριχνε"
+      "lv": "αυτός θα έριχνε"
     },
     "partizipVergangenheit": {
       "de": "geworfen",
-      "lv": "Πεταμένο"
+      "lv": "ριγμένος"
     }
   },
   {
     "infinitiv": {
       "de": "wiegen",
-      "lv": "Να εξετάσει"
+      "lv": "ζυγίζω"
     },
     "praesens": {
       "de": "er wiegt",
-      "lv": "Ζυγίζει"
+      "lv": "αυτός ζυγίζει"
     },
     "imperfektIndikativ": {
       "de": "er wog",
-      "lv": "Ζύγιζε"
+      "lv": "αυτός ζύγισε"
     },
     "imperfektKonjunktiv": {
       "de": "er wöge",
-      "lv": "Θα ζύγιζε"
+      "lv": "αυτός θα ζύγιζε"
     },
     "partizipVergangenheit": {
       "de": "gewogen",
-      "lv": "Σταθμισμένη"
+      "lv": "ζυγισμένος"
     }
   },
   {
     "infinitiv": {
       "de": "winden",
-      "lv": "Να υφαίνει"
+      "lv": "πλέκω"
     },
     "praesens": {
       "de": "er windet",
-      "lv": "Αυτή πλεξούδες"
+      "lv": "αυτός πλέκει"
     },
     "imperfektIndikativ": {
       "de": "er wand",
-      "lv": "Έπλεξε εκείνη"
+      "lv": "αυτός έπλεξε"
     },
     "imperfektKonjunktiv": {
       "de": "er wände",
-      "lv": "Θα έπλεκε"
+      "lv": "αυτός θα έπλεκε"
     },
     "partizipVergangenheit": {
       "de": "gewunden",
-      "lv": "Πλεγμένο"
+      "lv": "πλεγμένος"
     }
   },
   {
     "infinitiv": {
       "de": "wissen",
-      "lv": "Να ξέρεις"
+      "lv": "ξέρω"
     },
     "praesens": {
       "de": "er weiß",
-      "lv": "Ξέρει"
+      "lv": "αυτός ξέρει"
     },
     "imperfektIndikativ": {
       "de": "er wusste",
-      "lv": "Ήξερε"
+      "lv": "αυτός ήξερε"
     },
     "imperfektKonjunktiv": {
       "de": "er wüsste",
-      "lv": "Θα ήξερε"
+      "lv": "αυτός θα ήξερε"
     },
     "partizipVergangenheit": {
       "de": "gewusst",
-      "lv": "Βέβαιος"
+      "lv": "έχει γνωρίσει"
     }
   },
   {
     "infinitiv": {
       "de": "wollen",
-      "lv": "Θέλουν να"
+      "lv": "θέλω"
     },
     "praesens": {
       "de": "er will",
-      "lv": "Θέλει να"
+      "lv": "αυτός θέλει"
     },
     "imperfektIndikativ": {
       "de": "wollte",
-      "lv": "Ήθελε"
+      "lv": "αυτός θέλησε"
     },
     "imperfektKonjunktiv": {
       "de": "wollte",
-      "lv": "Ήθελε"
+      "lv": "αυτός θα ήθελε"
     },
     "partizipVergangenheit": {
       "de": "gewollt",
-      "lv": "Καταζητούμενος"
+      "lv": "έχει θελήσει"
     }
   },
   {
     "infinitiv": {
       "de": "wringen",
-      "lv": "Στρίβω / στύβω"
+      "lv": "στύβω"
     },
     "praesens": {
       "de": "er wringt",
-      "lv": "Στρίβει"
+      "lv": "αυτός στύβει"
     },
     "imperfektIndikativ": {
       "de": "wrang",
-      "lv": "Έστριψε"
+      "lv": "αυτός έστυψε"
     },
     "imperfektKonjunktiv": {
       "de": "wrang",
-      "lv": "Έστριψε"
+      "lv": "αυτός θα έστυβε"
     },
     "partizipVergangenheit": {
       "de": "gewrungen",
-      "lv": "Στριμμένα"
+      "lv": "στυμμένος"
     }
   },
   {
     "infinitiv": {
       "de": "zeihen",
-      "lv": "Να κατηγορήσει"
+      "lv": "κατηγορώ"
     },
     "praesens": {
       "de": "er zeiht",
-      "lv": "Κατηγορεί"
+      "lv": "αυτός κατηγορεί"
     },
     "imperfektIndikativ": {
       "de": "zieh",
-      "lv": "Κατηγόρησε"
+      "lv": "αυτός κατηγόρησε"
     },
     "imperfektKonjunktiv": {
       "de": "zieh",
-      "lv": "Κατηγόρησε"
+      "lv": "αυτός θα κατηγορούσε"
     },
     "partizipVergangenheit": {
       "de": "geziehen",
-      "lv": "Κατηγορούμενος"
+      "lv": "έχει κατηγορήσει"
     }
   },
   {
     "infinitiv": {
       "de": "ziehen",
-      "lv": "Να τραβήξει"
+      "lv": "τραβώ"
     },
     "praesens": {
       "de": "er zieht",
-      "lv": "Τραβάει"
+      "lv": "αυτός τραβά"
     },
     "imperfektIndikativ": {
       "de": "er zog",
-      "lv": "Τράβηξε"
+      "lv": "αυτός τράβηξε"
     },
     "imperfektKonjunktiv": {
       "de": "er zöge",
-      "lv": "Θα τραβούσε"
+      "lv": "αυτός θα τραβούσε"
     },
     "partizipVergangenheit": {
       "de": "gezogen",
-      "lv": "Τραβηγμένο"
+      "lv": "τραβηγμένος"
     }
   },
   {
     "infinitiv": {
       "de": "zwingen",
-      "lv": "Να αναγκάσει"
+      "lv": "αναγκάζω"
     },
     "praesens": {
       "de": "er zwingt",
-      "lv": "Αναγκάζει"
+      "lv": "αυτός αναγκάζει"
     },
     "imperfektIndikativ": {
       "de": "er zwang",
-      "lv": "Ανάγκασε"
+      "lv": "αυτός ανάγκασε"
     },
     "imperfektKonjunktiv": {
       "de": "er zwänge",
-      "lv": "Θα ανάγκαζε"
+      "lv": "αυτός θα ανάγκαζε"
     },
     "partizipVergangenheit": {
       "de": "gezwungen",
-      "lv": "Αναγκαστικά"
+      "lv": "αναγκασμένος"
     }
   },
   {
     "infinitiv": {
       "de": "empfangen",
-      "lv": "Να δεχτεί"
+      "lv": "λαμβάνω"
     },
     "praesens": {
       "de": "er empfängt",
-      "lv": "Δέχεται"
+      "lv": "αυτός λαμβάνει"
     },
     "imperfektIndikativ": {
       "de": "er empfing",
-      "lv": "Δέχτηκε"
+      "lv": "αυτός έλαβε"
     },
     "imperfektKonjunktiv": {
       "de": "er empfinge",
-      "lv": "Θα δεχόταν"
+      "lv": "αυτός θα λάμβανε"
     },
     "partizipVergangenheit": {
       "de": "empfangen",
-      "lv": "Δεκτός"
+      "lv": "έχει λάβει"
     }
   },
   {
     "infinitiv": {
       "de": "erwägen",
-      "lv": "Να εξετάσει"
+      "lv": "σταθμίζω"
     },
     "praesens": {
       "de": "er erwägt",
-      "lv": "Ζυγίζει"
+      "lv": "αυτός σταθμίζει"
     },
     "imperfektIndikativ": {
       "de": "er erwog",
-      "lv": "Ζύγιζε"
+      "lv": "αυτός στάθμισε"
     },
     "imperfektKonjunktiv": {
       "de": "er erwöge",
-      "lv": "Θα ζύγιζε"
+      "lv": "αυτός θα στάθμιζε"
     },
     "partizipVergangenheit": {
       "de": "erwogen",
-      "lv": "Σταθμισμένη"
+      "lv": "σταθμισμένος"
     }
   },
   {
     "infinitiv": {
       "de": "fechten",
-      "lv": "Περιφράσσω / πολεμώ"
+      "lv": "πολεμώ"
     },
     "praesens": {
       "de": "er ficht",
-      "lv": "Παλεύει"
+      "lv": "αυτός πολεμά"
     },
     "imperfektIndikativ": {
       "de": "er focht",
-      "lv": "Πολέμησε"
+      "lv": "αυτός πολέμησε"
     },
     "imperfektKonjunktiv": {
       "de": "er föchte",
-      "lv": "Θα πολεμούσε"
+      "lv": "αυτός θα πολεμούσε"
     },
     "partizipVergangenheit": {
       "de": "gefochten",
-      "lv": "Πολέμησε"
+      "lv": "έχει πολεμήσει"
     }
   },
   {
     "infinitiv": {
       "de": "flechten",
-      "lv": "Να υφαίνει"
+      "lv": "πλέκω"
     },
     "praesens": {
       "de": "er flicht",
-      "lv": "Αυτή πλεξούδες"
+      "lv": "αυτός πλέκει"
     },
     "imperfektIndikativ": {
       "de": "er flocht",
-      "lv": "Έπλεξε εκείνη"
+      "lv": "αυτός έπλεξε"
     },
     "imperfektKonjunktiv": {
       "de": "er flöchte",
-      "lv": "Θα έπλεκε"
+      "lv": "αυτός θα έπλεκε"
     },
     "partizipVergangenheit": {
       "de": "geflochten",
-      "lv": "Πλεγμένο"
+      "lv": "πλεγμένος"
     }
   },
   {
     "infinitiv": {
       "de": "hangen",
-      "lv": "Να κρεμάσει"
+      "lv": "κρέμομαι"
     },
     "praesens": {
       "de": "er hängt",
-      "lv": "Κρέμεται"
+      "lv": "αυτός κρέμεται"
     },
     "imperfektIndikativ": {
       "de": "er hing",
-      "lv": "Κρεμάστηκε"
+      "lv": "αυτός κρεμόταν"
     },
     "imperfektKonjunktiv": {
       "de": "er hinge",
-      "lv": "Θα κρεμόταν"
+      "lv": "αυτός θα κρεμόταν"
     },
     "partizipVergangenheit": {
       "de": "gehangen",
-      "lv": "Έκλεισε το τηλέφωνο"
+      "lv": "κρεμασμένος"
     }
   },
   {
     "infinitiv": {
       "de": "spalten",
-      "lv": "Να σπάσει"
+      "lv": "σκίζω"
     },
     "praesens": {
       "de": "er spaltet",
-      "lv": "Σπάει"
+      "lv": "αυτός σκίζει"
     },
     "imperfektIndikativ": {
       "de": "er spaltete",
-      "lv": "Έσπασε"
+      "lv": "αυτός έσκισε"
     },
     "imperfektKonjunktiv": {
       "de": "er spaltete",
-      "lv": "Έσπασε"
+      "lv": "αυτός θα έσκιζε"
     },
     "partizipVergangenheit": {
       "de": "gespalten",
-      "lv": "Σπασμένος"
+      "lv": "σκισμένος"
     }
   },
   {
     "infinitiv": {
       "de": "verzeihen",
-      "lv": "Να συγχωρήσει"
+      "lv": "συγχωρώ"
     },
     "praesens": {
       "de": "er verzeiht",
-      "lv": "Συγχωρεί"
+      "lv": "αυτός συγχωρεί"
     },
     "imperfektIndikativ": {
       "de": "er verzieh",
-      "lv": "Συγχώρεσε"
+      "lv": "αυτός συγχώρησε"
     },
     "imperfektKonjunktiv": {
       "de": "er verziehe",
-      "lv": "Θα συγχωρούσε"
+      "lv": "αυτός θα συγχωρούσε"
     },
     "partizipVergangenheit": {
       "de": "verziehen",
-      "lv": "Συγχωρεμένος"
+      "lv": "συγχωρημένος"
     }
   }
 ];
