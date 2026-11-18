@@ -1,0 +1,302 @@
+{
+  "g2/a1/sk|a1-was|a1.card.a1-was.study.tip[0]|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Slovo was sa samo nemení – v nemčine je vždy was; po slovensky znamená „čo“.",
+    "owner_note": "Pri nemeckom slove „was“ odstraňujem český a lotyšský text a uvádzam prirodzené slovenské vysvetlenie významu „čo“."
+  },
+  "g2/a1/sk|a1-was|a1.card.a1-was.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Čo • Čo",
+    "owner_note": "Nemecké „was“ znamená po slovensky „čo“; nesprávne „Kto“ preto nahrádzam a zachovávam obe prekladové pozície."
+  },
+  "g2/a1/sk|a1-wenn|a1.card.a1-wenn.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Ak • Keď",
+    "owner_note": "Nemecké „wenn“ sa podľa kontextu prekladá ako „ak“ alebo „keď“, nie ako otázkové príslovkové „kedy“."
+  },
+  "g2/a1/sk|a1-wenn|a1.card.a1-wenn.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Ak • Keď",
+    "owner_note": "Pri nemeckom slove „wenn“ opravujem druhý význam z „kedy“ na spojku „keď“, ktorá vyjadruje časový význam."
+  },
+  "g2/a1/sk|a1-wer|a1.card.a1-wer.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "Nemecké „wer“ znamená „kto“ a obe uvedené slovenské položky správne zachytávajú tento význam v rôznych zdrojových podobách."
+  },
+  "g2/a1/sk|a1-wer|a1.card.a1-wer.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "Pri nemeckom slove „wer“ je slovenský preklad „kto“ správny; zopakovanie je odôvodnené tým, že obe zdrojové podoby majú v slovenčine rovnaký ekvivalent."
+  },
+  "g2/a1/sk|a1-werden|a1.card.a1-werden.study.important[1]|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "Nemecké „werden“ vo vete „Ich werde müde“ správne vyjadruje začínajúci stav „začínam byť unavený“, na rozdiel od „Ich bin müde“ = „som unavený“."
+  },
+  "g2/a1/sk|a1-wie|a1.card.a1-wie.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "Nemecké „wie“ má v uvedených významoch správne slovenské ekvivalenty „ako“ a „koľko“."
+  },
+  "g2/a1/sk|a1-wie|a1.card.a1-wie.study.explanation[3]|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Wie viel(e) znamená koľko • Wie alt znamená koľko má rokov • Wie lange znamená ako dlho.",
+    "owner_note": "Pri spojení „wie alt“ upravujem neúplné „koľko rokov“ na prirodzené slovenské „koľko má rokov“; ostatné vysvetlenia slova „wie“ sú správne."
+  },
+  "g2/a1/sk|a1-wie|a1.card.a1-wie.study.important[0]|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Wie viel(e) = koľko • Wie alt = koľko má rokov • Wie lange = ako dlho.",
+    "owner_note": "Nemecké spojenie „wie alt“ prekladám prirodzene ako „koľko má rokov“, aby bol význam otázky o veku gramaticky úplný."
+  },
+  "g2/a1/sk|a1-wie|a1.card.a1-wie.study.tip[0]|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Wie samo osebe = ako (spôsob) • Wie + prídavné meno (viel/alt/lange) = ako veľmi (miera).",
+    "owner_note": "Pri nemeckom slove „wie“ treba odstrániť slovenský prepis „Vie“ a vyjadriť význam otázky na spôsob aj mieru."
+  },
+  "g2/a1/sk|a1-wie|a1.card.a1-wie.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Ako • Ako veľmi",
+    "owner_note": "Nemecké „wie“ znamená „ako“ a pred prídavným menom vyjadruje mieru „ako veľmi“, nie „koľko“."
+  },
+  "g2/a1/sk|a1-zu|a1.card.a1-zu.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "K • Pri",
+    "owner_note": "Nemecké „zu“ sa v uvedených základných významoch prekladá ako „k“ alebo „pri“, nie ako „do“ či „hodiny“."
+  },
+  "g2/a1/sk|a1-zu|a1.card.a1-zu.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "K • Pri",
+    "owner_note": "Pri nemeckom slove „zu“ sú slovenské ekvivalenty „k“ a „pri“; súčasné „Hodiny“ je významovo nesprávne."
+  },
+  "g2/a1/sk|a1-zum|a1.card.a1-zum.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "K • Pri",
+    "owner_note": "Nemecké „zum“ je stiahnutý tvar „zu dem“ a zachováva význam „k“ alebo „pri“, nie „do“ a „hodiny“."
+  },
+  "g2/a1/sk|a1-zum|a1.card.a1-zum.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "K • Pri",
+    "owner_note": "Slovo „zum“ v nemčine vyjadruje smerovanie alebo vzťah „k/pri“; „Hodiny“ nie je jeho slovenský význam."
+  },
+  "g2/a1/sk|ab|idx:17|lv; study.translation; study.examples; study.comparison|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Od\",\"study\":{\"translation\":\"Od\",\"examples\":[{\"de\":\"ab heute\",\"lv\":\"Od dneška\",\"level\":\"A1\"},{\"de\":\"ab Montag\",\"lv\":\"Od pondelka\"},{\"de\":\"ab 8 Uhr\",\"lv\":\"Od 8. hodiny\"},{\"de\":\"ab Bahnhof\",\"lv\":\"Od stanice\"}],\"comparison\":[{\"word\":\"ab\",\"meaning\":\"Počnúc bodom alebo časom\",\"example\":\"ab Montag – Od pondelka\"},{\"word\":\"von\",\"meaning\":\"Od niekoho alebo niečoho • Pôvod\",\"example\":\"von mir – Odo mňa\"},{\"word\":\"aus\",\"meaning\":\"Zvnútra • Von\",\"example\":\"aus dem Haus – Z domu\"}]}}",
+    "owner_note": "Pri nemeckom slove „ab“ treba nahradiť lotyšské zvyšky slovenskými tvarmi „od“ a opraviť príklady aj porovnanie pôvodu a smeru zvnútra."
+  },
+  "g2/a1/sk|aber|idx:21|study.translation; study.examples; study.comparison; study.important|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study\":{\"translation\":\"Ale\",\"examples\":[{\"de\":\"Ich möchte mitkommen, aber ich habe keine Zeit.\",\"lv\":\"Chcem ísť s vami, ale nemám čas.\"},{\"de\":\"Das Essen war lecker, aber zu teuer.\",\"lv\":\"Jedlo bolo chutné, ale príliš drahé.\"},{\"de\":\"Er hat recht, aber ich sehe das anders.\",\"lv\":\"Má pravdu, ale ja to vidím inak.\"}],\"comparison\":[{\"word\":\"aber\",\"meaning\":\"Kontrast • Námietka • Avšak\",\"example\":\"Ich komme, aber später. – Prídem, ale neskôr.\"},{\"word\":\"sondern\",\"meaning\":\"Nie • Ale\",\"example\":\"Ich wollte keinen Tee, sondern Kaffee. – Nechcel som čaj, ale kávu.\"},{\"word\":\"jedoch\",\"meaning\":\"Avšak\",\"example\":\"Es ist kalt, jedoch sonnig. – Je chladno, ale slnečno.\"}],\"important\":[\"Aber vyjadruje kontrast alebo námietku.\",\"Keď ide o konštrukciu „nie..., ale...“, v nemčine sa zvyčajne používa slovo sondern.\"]}}",
+    "owner_note": "Nemecké „aber“ znamená slovenské „ale“; v študijnom obsahu treba odstrániť lotyšský text a prirodzene vysvetliť kontrast oproti „sondern“."
+  },
+  "g2/a1/sk|also|idx:26|lv; study.translation; study.examples; study.comparison; study.important|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Takže\",\"study\":{\"translation\":\"Takže\",\"examples\":[{\"de\":\"Es regnet, also bleibe ich zu Hause.\",\"lv\":\"Prší, takže zostanem doma.\"},{\"de\":\"Du bist krank, also gehst du nicht zur Arbeit.\",\"lv\":\"Si chorý, takže nejdeš do práce.\"},{\"de\":\"Ich habe viel gelernt, also verstehe ich es jetzt.\",\"lv\":\"Veľa som sa učil, takže tomu teraz rozumiem.\"}],\"comparison\":[{\"word\":\"also\",\"meaning\":\"Takže • Preto\",\"example\":\"Es regnet, also bleibe ich zu Hause. – Prší, takže zostanem doma.\"},{\"word\":\"auch\",\"meaning\":\"Tiež\",\"example\":\"Ich komme auch. – Prídem tiež.\"},{\"word\":\"deshalb\",\"meaning\":\"Preto\",\"example\":\"Es regnet, deshalb bleibe ich zu Hause. – Prší, preto zostanem doma.\"}],\"important\":[\"Slovo also uvádza záver alebo dôsledok toho, čo bolo povedané predtým.\",\"Nemecké deshalb znamená „preto“ a vyjadruje dôvodový záver.\"]}}",
+    "owner_note": "Nemecké „also“ znamená „takže“, nie „v súvislosti s“; všetky lotyšské zvyšky a nesprávny význam „deshalb“ treba nahradiť slovenčinou."
+  },
+  "g2/a1/sk|an|idx:12|lv; study.translation; study.examples; study.important|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Pri • Na\",\"study\":{\"translation\":\"Pri • Na\",\"examples\":[{\"de\":\"an der Wand\",\"lv\":\"Na stene\"},{\"de\":\"am Fenster\",\"lv\":\"Pri okne\"},{\"de\":\"am Meer\",\"lv\":\"Pri mori\"}],\"important\":[\"An sa používa pri stene, okne, mori alebo inom okraji či povrchu.\",\"Auf sa zvyčajne používa na vodorovnom povrchu.\"]}}",
+    "owner_note": "Nemecké „an“ sa v daných príkladoch prekladá ako „na“ alebo „pri“; súčasné „Od • Do • Aktuálne“ a ďalšie nesúvisiace výrazy sú nesprávne."
+  },
+  "g2/a1/sk|Appetit|idx:689|study|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study\":{\"id\":\"a1-appetit\",\"layout\":\"standardStudy\",\"translation\":\"chuť do jedla\",\"explanation\":[\"Der Appetit znamená chuť jesť alebo chuť do jedla.\",\"Používa sa na pomenovanie pocitu, keď chceme jesť.\",\"Toto slovo sa bežne používa v jednotnom čísle.\",\"Der Appetit je mužského rodu: der Appetit.\",\"Bežné želanie pred jedlom je: Guten Appetit!\"],\"examples\":[{\"de\":\"Guten Appetit!\",\"lv\":\"Dobrú chuť!\"},{\"de\":\"Guten Appetit!\",\"lv\":\"Prajem dobrú chuť!\"},{\"de\":\"Ich habe keinen Appetit.\",\"lv\":\"Nemám chuť do jedla.\"}],\"tip\":[\"Der Appetit = chuť do jedla\",\"Der Appetit sa používa, keď hovoríme o chuti jesť.\"],\"important\":[\"Der Appetit sa zvyčajne používa v jednotnom čísle.\",\"Správne: der Appetit.\",\"Správne: Ich habe Appetit.\",\"Význam: chuť do jedla.\"]}}",
+    "owner_note": "Pri nemeckom slove „Appetit“ boli opravené cudzojazyčné zvyšky, nesprávne tvary a neprirodzené vysvetlenia; význam je „chuť do jedla“."
+  },
+  "g2/a1/sk|auch|idx:48|lv; study.explanation; study.examples; study.tip; study.important|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"tiež\",\"study\":{\"explanation\":[\"Auch najčastejšie znamená „tiež“ alebo „aj“.\",\"Používa sa, keď k predchádzajúcej informácii niečo pridávame.\",\"V slovenčine sa podľa kontextu prekladá ako „tiež“ alebo „aj“.\",\"Auch je bežné neutrálne slovo.\"],\"examples\":[{\"de\":\"Ich komme auch.\",\"lv\":\"Prídem tiež.\"},{\"de\":\"Sie arbeitet auch hier.\",\"lv\":\"Aj ona tu pracuje.\"},{\"de\":\"Ich wünsche Ihnen auch einen schönen Tag.\",\"lv\":\"Aj vám želám pekný deň.\"}],\"tip\":[\"Auch = tiež alebo aj.\",\"Použi auch, keď chceš pridať ďalšiu osobu, činnosť alebo vlastnosť.\"],\"important\":[\"Ich wünsche Ihnen auch einen schönen Tag. je správny slovosled.\",\"Auch znamená „tiež“ alebo „aj“.\",\"Nesprávne: Ich auch wünsche Ihnen einen schönen Tag.\"]}}",
+    "owner_note": "Pri nemeckom slove „auch“ boli opravené zamenené príklady a chybné prepisy „Ou/ouch“; slovenský význam je „tiež/aj“."
+  },
+  "g2/a1/sk|auf|idx:49|lv; study.translation; study.examples; study.comparison; study.important|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"na\",\"study\":{\"translation\":\"na\",\"explanation\":\"Auf sa používa najmä pri polohe na povrchu alebo pri smere na povrch či miesto.\",\"examples\":[{\"de\":\"Ich stelle das Buch auf den Tisch.\",\"lv\":\"Položím knihu na stôl.\"},{\"de\":\"Wir fahren auf den Berg.\",\"lv\":\"Ideme na horu.\"},{\"de\":\"Die Katze springt auf das Sofa.\",\"lv\":\"Mačka vyskočí na pohovku.\"}],\"comparison\":[{\"word\":\"auf\",\"meaning\":\"na povrchu alebo smerom na povrch\",\"example\":\"Ich stelle das Glas auf den Tisch. – Položím pohár na stôl.\"},{\"word\":\"an\",\"meaning\":\"pri zvislom povrchu alebo na ňom\",\"example\":\"Ich hänge das Bild an die Wand. – Zavesím obraz na stenu.\"},{\"word\":\"in\",\"meaning\":\"vo vnútri\",\"example\":\"Ich lege das Buch in die Tasche. – Vložím knihu do tašky.\"}],\"tip\":{\"text\":\"Na povrchu alebo smerom na povrch → auf.\"},\"important\":[\"Auf neznamená „dole“ ani iba „zapnuté“.\",\"Pri vodorovnom povrchu často znamená „na“.\",\"Pri zvislom povrchu sa často používa an.\"]}}",
+    "owner_note": "Pri nemeckej predložke „auf“ bol opravený nesprávny preklad „dole“ a poškodené upozornenie; význam je najmä „na“."
+  },
+  "g2/a1/sk|aufs|idx:60|lv; study.explanation; study.examples; study.comparison; study.tip; study.important|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"na\",\"study\":{\"explanation\":[\"Aufs je skrátený tvar predložky auf a člena das.\",\"Plná forma je auf das.\",\"Používa sa pri smere na konkrétne miesto alebo povrch a odpovedá na otázku Kam?\",\"Často sa používa pri pohybe, napríklad pri lezení, sadaní alebo odkladaní vecí.\",\"V bežnej reči sa auf das často skracuje na aufs.\"],\"examples\":[{\"de\":\"Ich gehe aufs Dach.\",\"lv\":\"Idem na strechu.\"},{\"de\":\"Sie setzt sich aufs Sofa.\",\"lv\":\"Sadne si na pohovku.\"},{\"de\":\"Wir fahren aufs Land.\",\"lv\":\"Ideme na vidiek.\"},{\"de\":\"Stell die Tasche aufs Bett.\",\"lv\":\"Polož tašku na posteľ.\"},{\"de\":\"Er springt aufs Pferd.\",\"lv\":\"Vyskočí na koňa.\"},{\"de\":\"Leg das Buch aufs Regal.\",\"lv\":\"Polož knihu na policu.\"},{\"de\":\"Komm schnell aufs Boot!\",\"lv\":\"Poď rýchlo na loď!\"},{\"de\":\"Wir gehen aufs Fest.\",\"lv\":\"Ideme na oslavu.\"}],\"comparison\":[{\"word\":\"aufs\",\"meaning\":\"auf das; smer na konkrétne miesto alebo povrch\",\"example\":\"aufs Dach – na strechu\"},{\"word\":\"auf\",\"meaning\":\"na povrch alebo smerom hore\",\"example\":\"auf den Tisch – na stôl\"},{\"word\":\"an\",\"meaning\":\"na zvislý povrch\",\"example\":\"an die Wand – na stenu\"},{\"word\":\"ins\",\"meaning\":\"do vnútra\",\"example\":\"ins Zimmer – do izby\"},{\"word\":\"zum\",\"meaning\":\"k niekomu alebo niečomu\",\"example\":\"zum Arzt – k lekárovi\"}],\"tip\":[\"auf + das → aufs.\",\"Aufs sa používa pri smere na konkrétne miesto alebo povrch.\"],\"important\":[\"Aufs = auf das.\",\"Pri smere odpovedá na otázku Kam?\", \"Nezamieňaj aufs s ins, ktoré znamená „do vnútra“. \"]}}",
+    "owner_note": "Pri nemeckom tvare „aufs“ boli opravené nesprávne otázky, pády a významy; ide o skrátenie „auf das“ s významom smeru „na“."
+  },
+  "g2/a1/sk|aus|idx:57|lv; study.translation; study.examples; study.comparison; study.important|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"z\",\"study\":{\"translation\":\"z\",\"explanation\":\"Aus sa používa, keď niečo vychádza zvnútra, pochádza z určitého miesta alebo vyjadruje pôvod.\",\"examples\":[{\"de\":\"Ich komme aus Deutschland.\",\"lv\":\"Som z Nemecka.\"},{\"de\":\"Er geht aus dem Haus.\",\"lv\":\"Vychádza z domu.\"},{\"de\":\"Ich nehme das Buch aus der Tasche.\",\"lv\":\"Vyberám knihu z tašky.\"}],\"comparison\":[{\"word\":\"aus\",\"meaning\":\"z vnútra alebo z miesta pôvodu\",\"example\":\"aus dem Haus – z domu\"},{\"word\":\"von\",\"meaning\":\"od osoby alebo z povrchu\",\"example\":\"von meinem Freund – od môjho priateľa\"},{\"word\":\"ab\",\"meaning\":\"od určitého času alebo bodu\",\"example\":\"ab Montag – od pondelka\"}],\"tip\":{\"text\":\"Z vnútra alebo z miesta pôvodu → aus.\"},\"important\":[\"Aus často vyjadruje pohyb zvnútra alebo pôvod.\",\"Pri východiskovom čase sa často používa ab.\"]}}",
+    "owner_note": "Pri nemeckej predložke „aus“ bol opravený význam „s/vonku“ a chybný slovenský text; základný význam je „z“."
+  },
+  "g2/a1/sk|baden|idx:68|lv, study.translation, study.explanation, study.examples, study.comparison, study.important|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"kúpať sa\",\"study\":{\"translation\":\"kúpať sa\",\"explanation\":[\"Baden znamená kúpať sa alebo tráviť čas vo vode.\",\"Používa sa pri relaxe vo vode, v jazere, mori alebo bazéne.\",\"Baden môže znamenať aj kúpanie.\",\"Keď je dôraz na športový pohyb vo vode, častejšie sa používa schwimmen.\"],\"examples\":[{\"de\":\"Ich gehe baden.\",\"lv\":\"Idem sa kúpať.\"},{\"de\":\"Wir gehen im See baden.\",\"lv\":\"Ideme sa kúpať v jazere.\"},{\"de\":\"Er schwimmt sehr gut.\",\"lv\":\"Veľmi dobre pláva.\"},{\"de\":\"Ich schwimme jeden Montag.\",\"lv\":\"Každý pondelok plávam.\"}],\"comparison\":[{\"word\":\"baden\",\"meaning\":\"kúpať sa alebo byť vo vode\",\"example\":\"Ich gehe baden. – Idem sa kúpať.\"},{\"word\":\"schwimmen\",\"meaning\":\"plávať; plávanie ako šport\",\"example\":\"Er schwimmt sehr gut. – Veľmi dobre pláva.\"},{\"word\":\"duschen\",\"meaning\":\"sprchovať sa\",\"example\":\"Ich dusche am Morgen. – Ráno sa sprchujem.\"},{\"word\":\"schwimmen gehen\",\"meaning\":\"ísť plávať\",\"example\":\"Ich gehe heute schwimmen. – Dnes idem plávať.\"}],\"tip\":{\"text\":\"Relax vo vode alebo kúpanie → baden; športové plávanie → schwimmen.\"},\"important\":[\"Baden a schwimmen nie sú úplné synonymá.\",\"Baden sa týka najmä kúpania alebo trávenia času vo vode, zatiaľ čo schwimmen označuje plávanie.\"]}}",
+    "owner_note": "Pri nemeckom slovese „baden“ bol odstránený nesprávny preklad „na plávanie“ a cudzojazyčné zvyšky; správny základný význam je „kúpať sa“."
+  },
+  "g2/a1/sk|bei|idx:78|lv, study.translation|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"pri\",\"study\":{\"translation\":\"pri\"}}",
+    "owner_note": "Pri nemeckej predložke „bei“ bol opravený chybný preklad „zapnuté“; v danom význame znamená „pri/u“ osoby, miesta alebo organizácie."
+  },
+  "g2/a1/sk|Besuch|idx:87|lv, study.translation, study.explanation, study.examples, study.comparison, study.important|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"návšteva\",\"study\":{\"translation\":\"návšteva\",\"explanation\":[\"Der Besuch znamená návštevu alebo návštevu lekára či inej inštitúcie.\",\"Môže označovať návštevu miesta, udalosti alebo osoby.\",\"Pri návšteve lekára môže znamenať aj vizitu.\",\"Množné číslo je die Besuche.\"],\"examples\":[{\"de\":\"Der Besuch im Museum war interessant.\",\"lv\":\"Návšteva múzea bola zaujímavá.\"},{\"de\":\"Danke für deinen Besuch.\",\"lv\":\"Ďakujem za tvoju návštevu.\"},{\"de\":\"Der Arzt macht einen Besuch.\",\"lv\":\"Lekár vykonáva návštevu.\"}],\"comparison\":[{\"word\":\"der Besuch\",\"meaning\":\"návšteva alebo vizita\",\"example\":\"Danke für deinen Besuch. – Ďakujem za tvoju návštevu.\"},{\"word\":\"der Besucher\",\"meaning\":\"návštevník\",\"example\":\"Der Besucher wartet draußen. – Návštevník čaká vonku.\"},{\"word\":\"besuchen\",\"meaning\":\"navštíviť\",\"example\":\"Ich besuche meine Großeltern. – Navštívim svojich starých rodičov.\"}],\"tip\":{\"text\":\"Besuch je návšteva alebo vizita; Besucher je človek, ktorý niekam prišiel.\"},\"important\":[\"Der Besuch môže znamenať návštevu aj vizitu.\",\"Množné číslo: die Besuche.\"]}}",
+    "owner_note": "Pri nemeckom podstatnom mene „Besuch“ boli lotyšské vety nahradené slovenčinou a opravené významy „návšteva“ a „vizita“."
+  },
+  "g2/a1/sk|besuchen|idx:89|lv, study.translation, study.explanation, study.examples, study.comparison, study.important|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"navštíviť\",\"study\":{\"translation\":\"navštíviť\",\"explanation\":[\"Besuchen sa používa pri návšteve miesta, udalosti alebo osoby.\",\"Miesto, udalosť alebo kurz sa zvyčajne navštevuje.\",\"Pri osobe je prirodzené povedať navštíviť.\",\"V nemčine sa besuchen používa bez predložky s akuzatívom.\"],\"examples\":[{\"de\":\"Ich besuche das Museum.\",\"lv\":\"Navštívim múzeum.\"},{\"de\":\"Wir besuchen einen Deutschkurs.\",\"lv\":\"Navštevujeme kurz nemčiny.\"},{\"de\":\"Ich besuche meine Großeltern.\",\"lv\":\"Navštívim svojich starých rodičov.\"}],\"comparison\":[{\"word\":\"besuchen\",\"meaning\":\"navštíviť miesto, udalosť alebo osobu\",\"example\":\"Ich besuche meine Großeltern. – Navštívim svojich starých rodičov.\"},{\"word\":\"treffen\",\"meaning\":\"stretnúť\",\"example\":\"Ich treffe meinen Freund. – Stretnem svojho priateľa.\"},{\"word\":\"zu jemandem gehen\",\"meaning\":\"ísť k niekomu\",\"example\":\"Ich gehe zu meinem Freund. – Idem ku kamarátovi.\"}],\"tip\":{\"text\":\"Besuchen znamená navštíviť; používa sa bez predložky.\"},\"important\":[\"Besuchen sa používa bez predložky: Ich besuche meine Freundin.\",\"Preklad je najčastejšie „navštíviť“ alebo „navštevovať“ podľa kontextu.\"]}}",
+    "owner_note": "Pri nemeckom slovese „besuchen“ boli lotyšské tipy a zvýraznenia nahradené slovenčinou; správny význam je „navštíviť“."
+  },
+  "g2/a1/sk|bis|idx:91|lv, study.translation, study.explanation, study.examples, study.comparison, study.important|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"do\",\"study\":{\"translation\":\"do\",\"explanation\":\"Bis označuje hranicu v čase alebo na určitom mieste.\",\"examples\":[{\"de\":\"Ich warte bis zu deiner Ankunft.\",\"lv\":\"Čakám do tvojho príchodu.\"},{\"de\":\"Bleib hier, bis ich zurückkomme.\",\"lv\":\"Zostaň tu, kým sa nevrátim.\"},{\"de\":\"Ich lerne Deutsch bis zum Abend.\",\"lv\":\"Učím sa nemčinu do večera.\"},{\"de\":\"Bis jetzt habe ich nichts verstanden.\",\"lv\":\"Doteraz som ničomu nerozumel.\"}],\"comparison\":[{\"word\":\"bis\",\"meaning\":\"do určitého času alebo bodu\",\"example\":\"Ich bleibe bis morgen. – Zostanem do zajtra.\"},{\"word\":\"bis zu\",\"meaning\":\"až do určitého času alebo miesta\",\"example\":\"bis zum Bahnhof – až na stanicu\"},{\"word\":\"bis jetzt\",\"meaning\":\"doteraz\",\"example\":\"Bis jetzt habe ich nichts verstanden. – Doteraz som ničomu nerozumel.\"},{\"word\":\"bis dass\",\"meaning\":\"kým\",\"example\":\"Warte, bis dass ich komme. – Počkaj, kým prídem.\"}],\"tip\":{\"text\":\"Hranica času alebo stavu → bis; vo vedľajšej vete často bis dass alebo jednoduché bis.\"},\"important\":[\"Bis znamená „do“ alebo vo vedľajšej vete „kým“.\",\"Bis jetzt znamená „doteraz“.\",\"Bis zu znamená „až do“. \"]}}",
+    "owner_note": "Pri nemeckom slove „bis“ boli odstránené francúzske a lotyšské zvyšky a opravené zámenné významy; správne ide o „do/až do“ alebo „kým“ podľa kontextu."
+  },
+  "g2/a1/sk|bitte|idx:93|lv/study|LANGUAGE_MIX|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"prosím\",\"study\":\"prosím\"}",
+    "owner_note": "Pri nemeckom slove „bitte“ treba uviesť slovenskú zdvorilostnú časticu „prosím“, nie ponechať prázdny alebo neslovenský obsah."
+  },
+  "g2/a1/sk|Bitte|idx:94|lv/study|LANGUAGE_MIX|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"prosba\",\"study\":\"prosba\"}",
+    "owner_note": "Nemecké podstatné meno „Bitte“ znamená po slovensky „prosba“; veľké začiatočné písmeno označuje podstatné meno."
+  },
+  "g2/a1/sk|bleiben|idx:101|lv/study|LANGUAGE_MIX|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"zostať\",\"study\":\"zostať\"}",
+    "owner_note": "Sloveso „bleiben“ sa v slovenčine prekladá infinitívom „zostať“, nie prázdnym alebo neslovenským výrazom."
+  },
+  "g2/a1/sk|bringen|idx:111|lv/study|LANGUAGE_MIX|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"priniesť\",\"study\":\"priniesť\"}",
+    "owner_note": "Nemecké sloveso „bringen“ má slovenský infinitív „priniesť“, ktorý treba doplniť do oboch cieľových polí."
+  },
+  "g2/a1/sk|Cousine|idx:125|lv|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "sesternica",
+    "owner_note": "Slovo „Cousine“ označuje ženskú príbuznú, preto je správny slovenský preklad „sesternica“, nie „bratranec“."
+  },
+  "g2/a1/sk|da|idx:126|lv/study|LANGUAGE_MIX|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"tam\",\"study\":\"tam\"}",
+    "owner_note": "Nemecké príslovkové zámeno „da“ znamená po slovensky „tam“, preto treba doplniť tento slovenský preklad."
+  },
+  "g2/a1/sk|das|idx:129|lv, study.translation, study.examples|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Určitý člen stredného rodu\",\"study\":{\"id\":\"a1-das\",\"layout\":\"standardStudy\",\"translation\":\"Určitý člen stredného rodu\",\"explanation\":\"Používa sa pri podstatných menách stredného rodu. V niektorých vetách môže „to“ fungovať aj ako zámeno alebo vzťažné zámeno.\",\"examples\":[{\"de\":\"Das ist mein Auto.\",\"lv\":\"Toto je moje auto.\"},{\"de\":\"Das ist gut.\",\"lv\":\"To je dobré.\"},{\"de\":\"Das Buch, das ich lese, ist interessant.\",\"lv\":\"Kniha, ktorú čítam, je zaujímavá.\"}],\"comparison\":[{\"word\":\"das\",\"meaning\":\"to (člen alebo zámeno)\",\"example\":\"Das ist mein Auto. – Toto je moje auto.\"},{\"word\":\"dies\",\"meaning\":\"toto\",\"example\":\"Dies ist mein Auto. – Toto je moje auto.\"},{\"word\":\"welches\",\"meaning\":\"ktorý • ktoré • ktorú\",\"example\":\"Das ist das Buch, welches ich lese. – Toto je kniha, ktorú čítam.\"}],\"tip\":{\"text\":\"Pamätaj: stredný rod → das • Pozor na dass.\"},\"sectionAccents\":{\"examples\":[{\"blue\":[\"Das\"]},{\"blue\":[\"Das\"]},{\"de\":{\"blue\":[\"Das\"],\"yellow\":[\"das\"]}}],\"comparison\":[{\"word\":{\"green\":[\"das\"]},\"example\":{\"blue\":[\"Das\"]}},{\"word\":{\"green\":[\"dies\"]},\"example\":{\"green\":[\"Dies\"]}},{\"word\":{\"green\":[\"welches\"]},\"example\":{\"blue\":[\"Das\"],\"yellow\":[\"welches\"]}}],\"tip\":{\"left\":{\"blue\":[\"das\"],\"purple\":[\"stredný rod\"],\"red\":[\"dass\"]}},\"important\":[{\"blue\":[\"das\"]},{\"blue\":[\"das\"],\"red\":[\"dass\"]}]},\"important\":[\"Na úrovni A1 sa das spočiatku študuje ako určitý člen stredného rodu.\",\"Das nie je to isté ako dass – das môže byť člen alebo zámeno, dass znamená „že“. \"]}}",
+    "owner_note": "Pri nemeckom člene „das“ boli cieľové texty miešané s lotyštinou a význam „dass“ bol nesprávne uvedený ako „to“; oprava používa prirodzenú slovenčinu a správne rozlišuje člen, zámeno a spojku."
+  },
+  "g2/a1/sk|dass|idx:130|lv, study.translation, study.comparison|MEANING_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"že\",\"study\":{\"id\":\"a1-dass\",\"layout\":\"standardStudy\",\"translation\":\"že\",\"explanation\":\"Uvádza vedľajšiu vetu, ktorá vyjadruje skutočnosť, myšlienku alebo tvrdenie.\",\"examples\":[{\"de\":\"Ich weiß, dass du müde bist.\",\"lv\":\"Viem, že si unavený.\"},{\"de\":\"Er sagt, dass er kommt.\",\"lv\":\"Hovorí, že príde.\"},{\"de\":\"Ich glaube, dass das stimmt.\",\"lv\":\"Myslím, že je to pravda.\"}],\"comparison\":[{\"word\":\"dass\",\"meaning\":\"že\",\"example\":\"Ich weiß, dass er kommt. – Viem, že príde.\"},{\"word\":\"weil\",\"meaning\":\"pretože\",\"example\":\"Ich bleibe zu Hause, weil es regnet. – Ostávam doma, lebo prší.\"},{\"word\":\"damit\",\"meaning\":\"aby\",\"example\":\"Ich lerne Deutsch, damit ich in Deutschland arbeiten kann. – Učím sa nemčinu, aby som mohol pracovať v Nemecku.\"},{\"word\":\"ob\",\"meaning\":\"či\",\"example\":\"Ich weiß nicht, ob er kommt. – Neviem, či príde.\"}],\"tip\":{\"text\":\"Pamätaj: že → dass.\"},\"sectionAccents\":{\"examples\":[{\"de\":{\"blue\":[\"dass\"]},\"lv\":{}},{\"de\":{\"blue\":[\"dass\"]},\"lv\":{}},{\"de\":{\"blue\":[\"dass\"]},\"lv\":{}}],\"comparison\":[{\"word\":{\"green\":[\"dass\"]},\"example\":{\"blue\":[\"dass\"]}},{\"word\":{\"green\":[\"weil\"]},\"example\":{\"green\":[\"weil\"]}},{\"word\":{\"green\":[\"damit\"]},\"example\":{\"yellow\":[\"damit\"]}},{\"word\":{\"green\":[\"ob\"]},\"example\":{\"red\":[\"ob\"]}}],\"tip\":{\"left\":{\"blue\":[\"dass\"],\"purple\":[\"že\"]}},\"important\":[{\"blue\":[\"dass\"]},{\"red\":[\"das\"]}]},\"important\":[\"Dass znamená „že“ a uvádza vedľajšiu vetu.\",\"Nezamieňať s das, čo môže byť určitý člen alebo zámeno „to“. \"]}}",
+    "owner_note": "Spojka „dass“ znamená „že“, nie „toto“; oprava zároveň uvádza správne slovenské významy porovnávacích spojok „weil“, „damit“ a „ob“."
+  },
+  "g2/a1/sk|dein|idx:132|lv|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "tvoj",
+    "owner_note": "Privlastňovacie zámeno „dein“ znamená neformálne „tvoj“, nie zdvorilostné alebo množné „Váš“."
+  },
+  "g2/a1/sk|denken|idx:133|lv|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "myslieť",
+    "owner_note": "Nemecké sloveso „denken“ treba preložiť slovenským infinitívom „myslieť“; „Premýšľajte“ je nesprávny rozkazovací spôsob."
+  },
+  "g2/a1/sk|der|idx:134|lv, study.translation, study.examples, study.important|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "Pri nemeckom slove „der“ sú všetky uvedené hodnoty prirodzené slovenské preklady a vysvetlenia; „určitý člen mužského rodu“ je správne pomenovanie."
+  },
+  "g2/a1/sk|Dezember|idx:136|lv|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "december",
+    "owner_note": "Nemecké „Dezember“ je slovenský názov mesiaca „december“, nie genitívny tvar „decembra“."
+  },
+  "g2/a1/sk|die|idx:137|study.examples[1].lv, study.examples[2].lv, lv|MEANING_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Určitý člen ženského rodu\",\"study\":{\"examples\":[{\"lv\":\"Tá žena je tu.\"},{\"lv\":\"Električka prichádza.\"},{\"lv\":\"Učiteľka hovorí.\"}]}}",
+    "owner_note": "Nemecké „die“ označuje určitý člen ženského rodu; preto treba doplniť slovenský význam a prirodzené slovenské preklady príkladov."
+  },
+  "g2/a1/sk|dieser|idx:139|study.examples[0].lv, study.examples[1].lv, lv|MEANING_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"tento\",\"study\":{\"examples\":[{\"lv\":\"Tento muž je tu.\"},{\"lv\":\"Tento autobus prichádza.\"}]}}",
+    "owner_note": "Nemecké „dieser“ znamená slovenské „tento“; príslušné ukazovacie zámeno treba zachovať aj v prekladoch príkladov."
+  },
+  "g2/a1/sk|dreihundert|idx:144|lv|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "tristo",
+    "owner_note": "Nemecké číslovkové slovo „dreihundert“ sa po slovensky prekladá ako „tristo“, nie ako „tri stovky“ v tomto slovníkovom hesle."
+  },
+  "g2/a1/sk|dritte|idx:148|lv|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "tretí",
+    "owner_note": "Nemecké „dritte“ je radová číslovka „tretí“; „po tretie“ je príslovkové vyjadrenie a má inú funkciu."
+  },
+  "g2/a1/sk|du|idx:149|lv|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "ty",
+    "owner_note": "Nemecké osobné zámeno „du“ sa po slovensky prekladá ako „ty“, nie ako druhá osoba množného čísla „vy“."
+  },
+  "g2/a1/sk|Ecke|idx:152|lv|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "roh",
+    "owner_note": "Nemecké podstatné meno „Ecke“ znamená „roh“; slovenské prídavné meno „rohový“ nie je správnym prekladom hesla."
+  },
+  "g2/a1/sk|Ei|idx:153|lv|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "vajce",
+    "owner_note": "Nemecké jednotné číslo „Ei“ sa po slovensky prekladá ako „vajce“, nie množným číslom „vajcia“."
+  },
+  "g2/a1/sk|ein|idx:154|lv, study|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Neurčitý člen • jeden\",\"study\":{\"translation\":\"Neurčitý člen • jeden\",\"explanation\":[\"Hlavná myšlienka: ein je neurčitý člen.\",\"ein je neurčitý člen pre podstatné mená mužského a stredného rodu v nominatíve.\",\"ein sa používa v mužskom rode: ein Mann.\",\"ein sa používa v strednom rode: ein Buch.\",\"V ženskom rode sa používa: eine.\",\"V akuzatíve v mužskom rode sa používa: einen.\"],\"tip\":{\"text\":\"Pamätajte: neurčitý člen alebo jeden → ein.\"},\"important\":[\"Ein nie je určitý člen.\",\"Ak je vec už konkrétne známa, často je potrebný der, die alebo das.\",\"eine — ženský rod.\",\"einen — akuzatív.\"],\"comparison\":[{\"word\":\"ein Mann\",\"meaning\":\"mužský rod\",\"example\":\"Ein Mann wartet draußen.\"},{\"word\":\"eine Frau\",\"meaning\":\"ženský rod\",\"example\":\"eine Frau\"},{\"word\":\"ein Buch\",\"meaning\":\"stredný rod\",\"example\":\"Ich habe ein Buch.\"},{\"word\":\"einen Mann\",\"meaning\":\"akuzatív\",\"example\":\"einen Mann\"}]}}",
+    "owner_note": "Nemecké „ein“ je neurčitý člen alebo číslovka „jeden“, nie „niekto“; zároveň sa v slovenčine používa gramatický termín „člen“, nie nesprávne „článok“."
+  }
+}
