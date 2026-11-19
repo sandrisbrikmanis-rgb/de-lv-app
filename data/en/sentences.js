@@ -1,27 +1,27 @@
 const SENTENCE_ENTRIES = [
   {
     "de": "Hüte dich davor!",
-    "lv": "Beware of it!",
+    "lv": "Watch out for that!",
     "level": "Sätze"
   },
   {
     "de": "Wenn nichts dazwischenkommt.",
-    "lv": "If nothing interferes. • If everything goes according to plan.",
+    "lv": "If nothing comes up. • If all goes to plan.",
     "level": "Sätze"
   },
   {
     "de": "Das kann ich mir denken!",
-    "lv": "I can imagine that!",
+    "lv": "I can well imagine!",
     "level": "Sätze"
   },
   {
     "de": "Ist er denn krank?",
-    "lv": "Is he sick then?",
+    "lv": "Is he ill, then?",
     "level": "Sätze"
   },
   {
     "de": "Was denn?",
-    "lv": "What then?",
+    "lv": "What is it?",
     "level": "Sätze"
   },
   {
@@ -36,22 +36,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Alles deutet auf Regen.",
-    "lv": "Everything points to rain.",
+    "lv": "It looks like rain.",
     "level": "Sätze"
   },
   {
     "de": "Damit ist mir wenig gedient.",
-    "lv": "That is of little use to me.",
+    "lv": "That's not much use to me.",
     "level": "Sätze"
   },
   {
     "de": "Er ist dienstlich verhindert.",
-    "lv": "He can't come because of work.",
+    "lv": "He can't make it because of work commitments.",
     "level": "Sätze"
   },
   {
     "de": "Sprechen Sie doch!",
-    "lv": "Go on, speak!",
+    "lv": "Do say something!",
     "level": "Sätze"
   },
   {
@@ -71,27 +71,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Die Zeit drängt.",
-    "lv": "Time is running out.",
+    "lv": "Time's running out.",
     "level": "Sätze"
   },
   {
     "de": "Ihn drücken Sorgen.",
-    "lv": "He is overwhelmed by worry.",
+    "lv": "He's weighed down by worries.",
     "level": "Sätze"
   },
   {
     "de": "Hast du das Buch durchgearbeitet?",
-    "lv": "Have you gone through the book carefully?",
+    "lv": "Have you worked through the book?",
     "level": "Sätze"
   },
   {
     "de": "Kein Durchgang!",
-    "lv": "No through passage! • Exit closed!",
+    "lv": "No thoroughfare!",
     "level": "Sätze"
   },
   {
     "de": "Darf ich Sie bitten?",
-    "lv": "May I ask you?",
+    "lv": "May I have this dance? • Would you come this way, please?",
     "level": "Sätze"
   },
   {
@@ -111,7 +111,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Was wollen Sie eigentlich?",
-    "lv": "What do you really want?",
+    "lv": "What is it you actually want?",
     "level": "Sätze"
   },
   {
@@ -131,12 +131,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Du bildest dir nur ein, krank zu sein.",
-    "lv": "You're only imagining that you're ill.",
+    "lv": "You're only imagining you're ill.",
     "level": "Sätze"
   },
   {
     "de": "Was fällt dir ein?",
-    "lv": "What comes to your mind?",
+    "lv": "What do you think you're doing? • What comes to mind?",
     "level": "Sätze"
   },
   {
@@ -146,7 +146,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Steigen Sie bitte ein!",
-    "lv": "Please get in!",
+    "lv": "Please get in! • Please get on!",
     "level": "Sätze"
   },
   {
@@ -156,12 +156,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Einzelnes hat mir dort gefallen.",
-    "lv": "I liked some things there.",
+    "lv": "I liked a few things there.",
     "level": "Sätze"
   },
   {
     "de": "Es empfiehlt sich.",
-    "lv": "It is recommended.",
+    "lv": "It's advisable.",
     "level": "Sätze"
   },
   {
@@ -171,7 +171,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Entschuldigen Sie bitte!",
-    "lv": "Excuse me!",
+    "lv": "Excuse me, please!",
     "level": "Sätze"
   },
   {
@@ -186,22 +186,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wer fehlt heute?",
-    "lv": "Who hasn't come today?",
+    "lv": "Who's absent today?",
     "level": "Sätze"
   },
   {
     "de": "Was fehlt dir?",
-    "lv": "What's wrong with you?",
+    "lv": "What's the matter?",
     "level": "Sätze"
   },
   {
     "de": "Wie heißen Sie?",
-    "lv": "What is your name?",
+    "lv": "What's your name?",
     "level": "Sätze"
   },
   {
     "de": "Was soll das heißen?",
-    "lv": "What does that mean?",
+    "lv": "What's that supposed to mean?",
     "level": "Sätze"
   },
   {
@@ -211,12 +211,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Heraus mit der Sprache!",
-    "lv": "Out with it! • Tell me!",
+    "lv": "Out with it!",
     "level": "Sätze"
   },
   {
     "de": "im Herbst",
-    "lv": "In autumn",
+    "lv": "in autumn",
     "level": "Sätze"
   },
   {
@@ -226,17 +226,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "von heute an",
-    "lv": "Starting today",
+    "lv": "from today onwards",
     "level": "Sätze"
   },
   {
     "de": "heute früh",
-    "lv": "This morning",
+    "lv": "this morning",
     "level": "Sätze"
   },
   {
     "de": "heute Nacht",
-    "lv": "Tonight",
+    "lv": "tonight • last night",
     "level": "Sätze"
   },
   {
@@ -256,7 +256,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wir treffen uns am Bahnhof.",
-    "lv": "We meet at the train station.",
+    "lv": "We're meeting at the station.",
     "level": "Sätze"
   },
   {
@@ -271,17 +271,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Man sollte mehrere Perspektiven berücksichtigen.",
-    "lv": "Several perspectives should be considered.",
+    "lv": "Several points of view should be taken into account.",
     "level": "Sätze"
   },
   {
     "de": "Könnten Sie das näher erläutern?",
-    "lv": "Could you explain this in more detail?",
+    "lv": "Could you explain that in more detail?",
     "level": "Sätze"
   },
   {
     "de": "Was mich anbelangt,...",
-    "lv": "As for me...",
+    "lv": "As far as I'm concerned,...",
     "level": "Sätze"
   },
   {
@@ -291,7 +291,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich bin zwanzig Jahre alt.",
-    "lv": "I am twenty years old.",
+    "lv": "I'm twenty years old.",
     "level": "Sätze"
   },
   {
@@ -306,37 +306,37 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Anders geht es nicht.",
-    "lv": "There is no other way.",
+    "lv": "There's no other way.",
     "level": "Sätze"
   },
   {
     "de": "Rufen Sie mich an.",
-    "lv": "Call me.",
+    "lv": "Give me a call.",
     "level": "Sätze"
   },
   {
     "de": "Bitte stellen Sie das Radio ab.",
-    "lv": "Please turn off the radio.",
+    "lv": "Please turn the radio off.",
     "level": "Sätze"
   },
   {
     "de": "Achte bitte auf den Verkehr.",
-    "lv": "Please pay attention to traffic.",
+    "lv": "Please watch out for the traffic.",
     "level": "Sätze"
   },
   {
     "de": "Darauf musst du achten.",
-    "lv": "You must pay attention to that.",
+    "lv": "You have to pay attention to that.",
     "level": "Sätze"
   },
   {
     "de": "Heute mache ich es anders.",
-    "lv": "Today I will do it differently.",
+    "lv": "I'm doing it differently today.",
     "level": "Sätze"
   },
   {
     "de": "Wir warten auf den Bus.",
-    "lv": "We are waiting for the bus.",
+    "lv": "We're waiting for the bus.",
     "level": "Sätze"
   },
   {
@@ -346,12 +346,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich habe die Ausbildung absolviert.",
-    "lv": "I finished my training. • I finished my education.",
+    "lv": "I've completed my training. • I've finished my education.",
     "level": "Sätze"
   },
   {
     "de": "Ich warte den Regen ab.",
-    "lv": "I'll wait for the rain to stop.",
+    "lv": "I'm waiting for the rain to stop.",
     "level": "Sätze"
   },
   {
@@ -361,42 +361,42 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich bin allergisch gegen Katzen.",
-    "lv": "I am allergic to cats.",
+    "lv": "I'm allergic to cats.",
     "level": "Sätze"
   },
   {
     "de": "Andererseits verstehe ich ihn.",
-    "lv": "On the other hand, I understand him.",
+    "lv": "On the other hand, I can understand him.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe die Situation analysiert.",
-    "lv": "I analysed the situation.",
+    "lv": "I've analysed the situation.",
     "level": "Sätze"
   },
   {
     "de": "Sie hat meinen Vorschlag akzeptiert.",
-    "lv": "She accepted my proposal.",
+    "lv": "She accepted my suggestion.",
     "level": "Sätze"
   },
   {
     "de": "Ich möchte das genauer analysieren.",
-    "lv": "I want to analyse it more precisely.",
+    "lv": "I'd like to analyse this in more detail.",
     "level": "Sätze"
   },
   {
     "de": "Ich möchte den Vertrag ändern.",
-    "lv": "I want to change the contract.",
+    "lv": "I'd like to amend the contract.",
     "level": "Sätze"
   },
   {
     "de": "Er ändert ständig seine Meinung.",
-    "lv": "He constantly changes his opinion.",
+    "lv": "He keeps changing his mind.",
     "level": "Sätze"
   },
   {
     "de": "Ähnliche Probleme hatten wir schon früher.",
-    "lv": "We had similar problems before.",
+    "lv": "We've had similar problems before.",
     "level": "Sätze"
   },
   {
@@ -406,7 +406,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Hör auf zu jammern.",
-    "lv": "Stop complaining.",
+    "lv": "Stop moaning.",
     "level": "Sätze"
   },
   {
@@ -431,27 +431,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich habe einen Unfall gehabt.",
-    "lv": "I was in an accident.",
+    "lv": "I've had an accident.",
     "level": "Sätze"
   },
   {
     "de": "Wir laufen zum Bahnhof.",
-    "lv": "We go to the station.",
+    "lv": "We're walking to the station.",
     "level": "Sätze"
   },
   {
     "de": "Bitte schalte den Fernseher an.",
-    "lv": "Please turn on the TV.",
+    "lv": "Please turn the TV on.",
     "level": "Sätze"
   },
   {
     "de": "Mein Computer ist abgestürzt.",
-    "lv": "My computer has crashed.",
+    "lv": "My computer's crashed.",
     "level": "Sätze"
   },
   {
     "de": "Am Wochenende gehe ich angeln.",
-    "lv": "I will go fishing at the weekend.",
+    "lv": "I'm going fishing at the weekend.",
     "level": "Sätze"
   },
   {
@@ -461,12 +461,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Kannst du mich später anrufen?",
-    "lv": "Can you call me later?",
+    "lv": "Can you ring me later?",
     "level": "Sätze"
   },
   {
     "de": "Bitte nimm meinen Vorschlag an.",
-    "lv": "Please accept my proposal.",
+    "lv": "Please accept my suggestion.",
     "level": "Sätze"
   },
   {
@@ -481,17 +481,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich habe Angst vor Spinnen.",
-    "lv": "I am afraid of spiders.",
+    "lv": "I'm afraid of spiders.",
     "level": "Sätze"
   },
   {
     "de": "Keine Angst, alles wird gut.",
-    "lv": "Don't be afraid, everything will be fine.",
+    "lv": "Don't worry, everything's going to be fine.",
     "level": "Sätze"
   },
   {
     "de": "Anklang finden.",
-    "lv": "Resonate. • Meet with approval.",
+    "lv": "To meet with approval. • To strike a chord.",
     "level": "Sätze"
   },
   {
@@ -506,17 +506,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Nehmen wir an, dass...",
-    "lv": "Suppose that...",
+    "lv": "Let's suppose that...",
     "level": "Sätze"
   },
   {
     "de": "Was hast du da angerichtet?",
-    "lv": "What have you done there?",
+    "lv": "What on earth have you done?",
     "level": "Sätze"
   },
   {
     "de": "Bis ans Ende.",
-    "lv": "Until the end.",
+    "lv": "Right to the end.",
     "level": "Sätze"
   },
   {
@@ -526,7 +526,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Meiner Ansicht nach...",
-    "lv": "In my opinion...",
+    "lv": "In my view...",
     "level": "Sätze"
   },
   {
@@ -536,7 +536,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "An die Arbeit gehen.",
-    "lv": "To get to work.",
+    "lv": "To get down to work.",
     "level": "Sätze"
   },
   {
@@ -556,12 +556,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Auf jeden Fall.",
-    "lv": "In any case.",
+    "lv": "In any case. • Definitely.",
     "level": "Sätze"
   },
   {
     "de": "Auf einmal war alles still.",
-    "lv": "Suddenly everything became quiet.",
+    "lv": "Suddenly everything went quiet.",
     "level": "Sätze"
   },
   {
@@ -571,42 +571,42 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Er hat den Kredit aufgenommen.",
-    "lv": "He took out a loan.",
+    "lv": "He took out the loan.",
     "level": "Sätze"
   },
   {
     "de": "Wir müssen heute aufräumen.",
-    "lv": "We have to tidy up the room today.",
+    "lv": "We have to tidy up today.",
     "level": "Sätze"
   },
   {
     "de": "Ich höre jetzt auf.",
-    "lv": "I will stop now.",
+    "lv": "I'll stop now.",
     "level": "Sätze"
   },
   {
     "de": "Er ist schon auf.",
-    "lv": "He is already up.",
+    "lv": "He's already up.",
     "level": "Sätze"
   },
   {
     "de": "Wir müssen das Treffen verschieben.",
-    "lv": "We have to reschedule the meeting.",
+    "lv": "We have to postpone the meeting.",
     "level": "Sätze"
   },
   {
     "de": "Sie hat mich aufgeregt.",
-    "lv": "She irritated me.",
+    "lv": "She got me worked up.",
     "level": "Sätze"
   },
   {
     "de": "Auf einmal.",
-    "lv": "Suddenly.",
+    "lv": "All of a sudden.",
     "level": "Sätze"
   },
   {
     "de": "Auf der Stelle.",
-    "lv": "Immediately.",
+    "lv": "On the spot.",
     "level": "Sätze"
   },
   {
@@ -626,17 +626,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Er ist auf.",
-    "lv": "He is up.",
+    "lv": "He's up.",
     "level": "Sätze"
   },
   {
     "de": "Alle Kräfte aufwenden.",
-    "lv": "To use all one's strength.",
+    "lv": "To exert all one's strength.",
     "level": "Sätze"
   },
   {
     "de": "Viel Mühe aufwenden.",
-    "lv": "To make a great effort.",
+    "lv": "To go to a lot of trouble.",
     "level": "Sätze"
   },
   {
@@ -646,12 +646,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Unter vier Augen.",
-    "lv": "In private. • Between the two of us.",
+    "lv": "In private.",
     "level": "Sätze"
   },
   {
     "de": "Aus Mangel an Zeit.",
-    "lv": "Due to lack of time.",
+    "lv": "For lack of time.",
     "level": "Sätze"
   },
   {
@@ -666,12 +666,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Auf Äußerlichkeiten Wert legen.",
-    "lv": "To attach importance to outward appearance.",
+    "lv": "To set great store by appearances.",
     "level": "Sätze"
   },
   {
     "de": "Im äußersten Fall.",
-    "lv": "In the worst case.",
+    "lv": "If the worst comes to the worst.",
     "level": "Sätze"
   },
   {
@@ -681,12 +681,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Aussicht auf die See.",
-    "lv": "Sea view.",
+    "lv": "A view of the sea.",
     "level": "Sätze"
   },
   {
     "de": "Er hat gute Aussichten.",
-    "lv": "He has a good chance.",
+    "lv": "He has good prospects.",
     "level": "Sätze"
   },
   {
@@ -696,27 +696,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Sein Beileid aussprechen.",
-    "lv": "Express condolences.",
+    "lv": "To offer one's condolences.",
     "level": "Sätze"
   },
   {
     "de": "Wann wurden die Meisterschaftskämpfe ausgetragen?",
-    "lv": "When were the championship matches held?",
+    "lv": "When were the championships held?",
     "level": "Sätze"
   },
   {
     "de": "Welchen Beruf üben Sie aus?",
-    "lv": "What is your profession?",
+    "lv": "What do you do for a living?",
     "level": "Sätze"
   },
   {
     "de": "Einfluss ausüben.",
-    "lv": "To influence.",
+    "lv": "To exert influence.",
     "level": "Sätze"
   },
   {
     "de": "Auswärts essen.",
-    "lv": "Eat out.",
+    "lv": "To eat out.",
     "level": "Sätze"
   },
   {
@@ -726,7 +726,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Mit der Bahn.",
-    "lv": "By rail.",
+    "lv": "By train.",
     "level": "Sätze"
   },
   {
@@ -736,37 +736,37 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Mir ist Angst und bange.",
-    "lv": "I am very afraid.",
+    "lv": "I'm scared stiff.",
     "level": "Sätze"
   },
   {
     "de": "Auf die lange Bank schieben.",
-    "lv": "Procrastinate. • Drag it out. • Postpone indefinitely.",
+    "lv": "To put something off.",
     "level": "Sätze"
   },
   {
     "de": "Bar zahlen.",
-    "lv": "Pay in cash.",
+    "lv": "To pay in cash.",
     "level": "Sätze"
   },
   {
     "de": "Erz bauen.",
-    "lv": "Get ore.",
+    "lv": "To mine ore.",
     "level": "Sätze"
   },
   {
     "de": "Mist bauen.",
-    "lv": "Mess up. • Make a fool of yourself",
+    "lv": "To mess things up.",
     "level": "Sätze"
   },
   {
     "de": "Ich bin beauftragt.",
-    "lv": "I have been assigned a job.",
+    "lv": "I've been given the task.",
     "level": "Sätze"
   },
   {
     "de": "Nach Bedarf.",
-    "lv": "As needed.",
+    "lv": "As required.",
     "level": "Sätze"
   },
   {
@@ -781,42 +781,42 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Unter der Bedingung, dass...",
-    "lv": "Provided that...",
+    "lv": "On condition that...",
     "level": "Sätze"
   },
   {
     "de": "Sie sieht bedrückt aus.",
-    "lv": "She looks depressed.",
+    "lv": "She looks downcast.",
     "level": "Sätze"
   },
   {
     "de": "Hinweise befolgen.",
-    "lv": "Follow the instructions.",
+    "lv": "To follow the instructions.",
     "level": "Sätze"
   },
   {
     "de": "Befehle befolgen.",
-    "lv": "Follow orders.",
+    "lv": "To obey orders.",
     "level": "Sätze"
   },
   {
     "de": "Mit der Post befördern.",
-    "lv": "Send by mail.",
+    "lv": "To send by post.",
     "level": "Sätze"
   },
   {
     "de": "Ich bin begierig zu wissen.",
-    "lv": "I really want to know.",
+    "lv": "I'm eager to know.",
     "level": "Sätze"
   },
   {
     "de": "Zu Beginn.",
-    "lv": "In the beginning.",
+    "lv": "At the beginning.",
     "level": "Sätze"
   },
   {
     "de": "Am Beginn.",
-    "lv": "In the beginning.",
+    "lv": "At the beginning.",
     "level": "Sätze"
   },
   {
@@ -836,27 +836,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Er ist schwer von Begriff.",
-    "lv": "He is slow to understand. • He is slow-witted.",
+    "lv": "He's slow on the uptake.",
     "level": "Sätze"
   },
   {
     "de": "Im Gedächtnis behalten.",
-    "lv": "Remember. • Keep in mind",
+    "lv": "To remember.",
     "level": "Sätze"
   },
   {
     "de": "Bei Tisch.",
-    "lv": "At the table.",
+    "lv": "At table.",
     "level": "Sätze"
   },
   {
     "de": "Bei Sinnen sein.",
-    "lv": "To be sane.",
+    "lv": "To be in one's right mind.",
     "level": "Sätze"
   },
   {
     "de": "Bei Tage.",
-    "lv": "During the day.",
+    "lv": "By day.",
     "level": "Sätze"
   },
   {
@@ -866,27 +866,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Alle beide.",
-    "lv": "Both.",
+    "lv": "Both of them.",
     "level": "Sätze"
   },
   {
     "de": "Stürmischer Beifall brach los.",
-    "lv": "There was thunderous applause.",
+    "lv": "Thunderous applause broke out.",
     "level": "Sätze"
   },
   {
     "de": "Beifall finden.",
-    "lv": "Meet with approval.",
+    "lv": "To meet with approval.",
     "level": "Sätze"
   },
   {
     "de": "Beileid aussprechen.",
-    "lv": "Express condolences.",
+    "lv": "To express one's condolences.",
     "level": "Sätze"
   },
   {
     "de": "Auf eigenen Beinen stehen.",
-    "lv": "To be financially independent.",
+    "lv": "To stand on one's own two feet.",
     "level": "Sätze"
   },
   {
@@ -896,27 +896,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Beistand leisten.",
-    "lv": "To help. • Provide assistance",
+    "lv": "To lend support.",
     "level": "Sätze"
   },
   {
     "de": "Beitrag leisten.",
-    "lv": "Make a contribution.",
+    "lv": "To make a contribution.",
     "level": "Sätze"
   },
   {
     "de": "Jemandes Bekanntschaft machen.",
-    "lv": "Get to know someone.",
+    "lv": "To make someone's acquaintance.",
     "level": "Sätze"
   },
   {
     "de": "Bekanntschaft anknüpfen.",
-    "lv": "Get to know each other. • Establish contact",
+    "lv": "To strike up an acquaintance.",
     "level": "Sätze"
   },
   {
     "de": "Belegte Brötchen.",
-    "lv": "Topped bread rolls.",
+    "lv": "Filled rolls.",
     "level": "Sätze"
   },
   {
@@ -941,27 +941,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bereit sein.",
-    "lv": "Be ready. • Be willing",
+    "lv": "To be ready. • To be willing.",
     "level": "Sätze"
   },
   {
     "de": "Unfallopfer bergen.",
-    "lv": "Rescue victims in the event of an accident.",
+    "lv": "To rescue accident victims.",
     "level": "Sätze"
   },
   {
     "de": "Bericht erstatten.",
-    "lv": "Report. • Provide a report • Give an account",
+    "lv": "To give a report.",
     "level": "Sätze"
   },
   {
     "de": "Alle Plätze sind besetzt.",
-    "lv": "All seats are taken.",
+    "lv": "All the seats are taken.",
     "level": "Sätze"
   },
   {
     "de": "Neue Besen kehren gut.",
-    "lv": "New brooms sweep clean.",
+    "lv": "A new broom sweeps clean.",
     "level": "Sätze"
   },
   {
@@ -971,17 +971,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Er besitzt viel Mut.",
-    "lv": "He has great courage.",
+    "lv": "He has a lot of courage.",
     "level": "Sätze"
   },
   {
     "de": "Desto besser.",
-    "lv": "All the better.",
+    "lv": "So much the better.",
     "level": "Sätze"
   },
   {
     "de": "Gute Besserung!",
-    "lv": "Get well! • Get well!",
+    "lv": "Get well soon!",
     "level": "Sätze"
   },
   {
@@ -991,12 +991,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Am besten.",
-    "lv": "Ideally.",
+    "lv": "Best of all.",
     "level": "Sätze"
   },
   {
     "de": "Es besteht Zweifel.",
-    "lv": "There are doubts.",
+    "lv": "There is some doubt.",
     "level": "Sätze"
   },
   {
@@ -1006,42 +1006,42 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Grüße bestellen.",
-    "lv": "Say hello.",
+    "lv": "To pass on someone's regards.",
     "level": "Sätze"
   },
   {
     "de": "Ganz bestimmt.",
-    "lv": "Definitely. • Certainly.",
+    "lv": "Definitely.",
     "level": "Sätze"
   },
   {
     "de": "Zu Besuch kommen.",
-    "lv": "Come visit.",
+    "lv": "To come for a visit.",
     "level": "Sätze"
   },
   {
     "de": "Zu Besuch sein.",
-    "lv": "To be visiting. • To be a guest.",
+    "lv": "To be visiting.",
     "level": "Sätze"
   },
   {
     "de": "Oft Konzerte besuchen.",
-    "lv": "Often go to concerts.",
+    "lv": "To go to concerts often.",
     "level": "Sätze"
   },
   {
     "de": "Welche Schule hat er besucht?",
-    "lv": "What school did he go to?",
+    "lv": "Which school did he go to?",
     "level": "Sätze"
   },
   {
     "de": "In Betracht ziehen.",
-    "lv": "Take into account. • Consider",
+    "lv": "To take into consideration.",
     "level": "Sätze"
   },
   {
     "de": "Außer Betracht lassen.",
-    "lv": "Disregard. • Do not consider",
+    "lv": "To leave out of consideration.",
     "level": "Sätze"
   },
   {
@@ -1056,17 +1056,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Alles bezahlen.",
-    "lv": "Pay everything.",
+    "lv": "To pay for everything.",
     "level": "Sätze"
   },
   {
     "de": "Bezüglich auf etwas.",
-    "lv": "Regarding something.",
+    "lv": "With regard to something.",
     "level": "Sätze"
   },
   {
     "de": "Bitte schön.",
-    "lv": "Please.",
+    "lv": "You're welcome. • Here you are.",
     "level": "Sätze"
   },
   {
@@ -1076,27 +1076,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bitte sehr.",
-    "lv": "Please.",
+    "lv": "You're very welcome. • There you are.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe eine Bitte an Sie.",
-    "lv": "I have a request for you.",
+    "lv": "I have a favour to ask of you.",
     "level": "Sätze"
   },
   {
     "de": "Trompete blasen.",
-    "lv": "Blow the trumpet.",
+    "lv": "To play the trumpet.",
     "level": "Sätze"
   },
   {
     "de": "In einem Buch blättern.",
-    "lv": "Leaf through a book.",
+    "lv": "To leaf through a book.",
     "level": "Sätze"
   },
   {
     "de": "Mit bloßen Füßen.",
-    "lv": "Barefoot.",
+    "lv": "With bare feet.",
     "level": "Sätze"
   },
   {
@@ -1106,42 +1106,42 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Danke für die Blumen!",
-    "lv": "Thanks for the flowers!",
+    "lv": "Thanks for the compliment!",
     "level": "Sätze"
   },
   {
     "de": "Alles in Butter.",
-    "lv": "Everything is fine.",
+    "lv": "Everything's hunky-dory.",
     "level": "Sätze"
   },
   {
     "de": "Bitte checken.",
-    "lv": "Please check. • Please verify.",
+    "lv": "Please check.",
     "level": "Sätze"
   },
   {
     "de": "Da ist er!",
-    "lv": "Here he is!",
+    "lv": "There he is!",
     "level": "Sätze"
   },
   {
     "de": "Alles spricht dafür.",
-    "lv": "Everything speaks in favour of it.",
+    "lv": "Everything points to it.",
     "level": "Sätze"
   },
   {
     "de": "Ich kann nichts dafür.",
-    "lv": "I can't help it.",
+    "lv": "It's not my fault.",
     "level": "Sätze"
   },
   {
     "de": "Ich bin dagegen.",
-    "lv": "I am against it.",
+    "lv": "I'm against it.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe nichts dagegen.",
-    "lv": "I have no objection to that.",
+    "lv": "I have no objection.",
     "level": "Sätze"
   },
   {
@@ -1151,17 +1151,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Mit der Dame ziehen.",
-    "lv": "Move the queen.",
+    "lv": "To move the queen.",
     "level": "Sätze"
   },
   {
     "de": "Es dämmert.",
-    "lv": "It's getting dark. • Dawn breaks.",
+    "lv": "It's getting dark. • It's getting light.",
     "level": "Sätze"
   },
   {
     "de": "Danke schön!",
-    "lv": "Thank you! • Thank you!",
+    "lv": "Thank you very much!",
     "level": "Sätze"
   },
   {
@@ -1171,7 +1171,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Darauf kannst du dich verlassen.",
-    "lv": "You can count on that.",
+    "lv": "You can count on it.",
     "level": "Sätze"
   },
   {
@@ -1186,7 +1186,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Für wen halten Sie mich?",
-    "lv": "What do you think I am?",
+    "lv": "Who do you take me for?",
     "level": "Sätze"
   },
   {
@@ -1201,17 +1201,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "zu Hause",
-    "lv": "At home",
+    "lv": "at home",
     "level": "Sätze"
   },
   {
     "de": "nach Hause gehen",
-    "lv": "Go home",
+    "lv": "to go home",
     "level": "Sätze"
   },
   {
     "de": "von Haus aus",
-    "lv": "By nature. • Originally.",
+    "lv": "originally • by nature",
     "level": "Sätze"
   },
   {
@@ -1221,87 +1221,87 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Seien Sie so gut!",
-    "lv": "Be so kind! • Please!",
+    "lv": "If you'd be so kind!",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie die Güte!",
-    "lv": "Be so kind!",
+    "lv": "If you would be so good!",
     "level": "Sätze"
   },
   {
     "de": "Was hast du?",
-    "lv": "What's wrong with you? • What happened?",
+    "lv": "What's the matter?",
     "level": "Sätze"
   },
   {
     "de": "Gestatten Sie bitte!",
-    "lv": "Allow me, please!",
+    "lv": "Excuse me, please! • Allow me, please!",
     "level": "Sätze"
   },
   {
     "de": "Ist es gestattet zu rauchen?",
-    "lv": "Can I smoke?",
+    "lv": "Is smoking allowed?",
     "level": "Sätze"
   },
   {
     "de": "Ich muss gestehen, dass...",
-    "lv": "I have to admit that...",
+    "lv": "I must admit that...",
     "level": "Sätze"
   },
   {
     "de": "gestern früh",
-    "lv": "Early yesterday morning",
+    "lv": "yesterday morning",
     "level": "Sätze"
   },
   {
     "de": "gestern Abend",
-    "lv": "Yesterday evening",
+    "lv": "yesterday evening",
     "level": "Sätze"
   },
   {
     "de": "Es ist mir gleichgültig, ob...",
-    "lv": "I don't care if...",
+    "lv": "It's all the same to me whether...",
     "level": "Sätze"
   },
   {
     "de": "Was ist geschehen?",
-    "lv": "What happened?",
+    "lv": "What's happened?",
     "level": "Sätze"
   },
   {
     "de": "Mach keine Geschichten!",
-    "lv": "Don't make a fuss! • Don't make a scene!",
+    "lv": "Don't make a fuss! • Don't do anything silly!",
     "level": "Sätze"
   },
   {
     "de": "Geschweige denn...",
-    "lv": "Not to mention... • Let alone...",
+    "lv": "Let alone...",
     "level": "Sätze"
   },
   {
     "de": "Gehen Sie geradeaus!",
-    "lv": "Go straight ahead!",
+    "lv": "Go straight on!",
     "level": "Sätze"
   },
   {
     "de": "Wie geht es Ihnen?",
-    "lv": "How are you? • How are you?",
+    "lv": "How are you?",
     "level": "Sätze"
   },
   {
     "de": "Frag ihn gelegentlich, ob...",
-    "lv": "Ask him occasionally whether...",
+    "lv": "Ask him when you get the chance whether...",
     "level": "Sätze"
   },
   {
     "de": "morgen früh",
-    "lv": "Tomorrow morning",
+    "lv": "tomorrow morning",
     "level": "Sätze"
   },
   {
     "de": "im Frühling",
-    "lv": "In the spring",
+    "lv": "in spring",
     "level": "Sätze"
   },
   {
@@ -1316,12 +1316,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Fahre fort!",
-    "lv": "Keep it up!",
+    "lv": "Carry on!",
     "level": "Sätze"
   },
   {
     "de": "Er ist kein Freund von...",
-    "lv": "He doesn't like...",
+    "lv": "He's not a fan of...",
     "level": "Sätze"
   },
   {
@@ -1331,17 +1331,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Gedenkst du meiner?",
-    "lv": "Do you remember me? • Have you thought about me?",
+    "lv": "Do you remember me? • Do you think of me?",
     "level": "Sätze"
   },
   {
     "de": "im Winter",
-    "lv": "In winter",
+    "lv": "in winter",
     "level": "Sätze"
   },
   {
     "de": "Welcher Jahrgang sind Sie?",
-    "lv": "What year were you born?",
+    "lv": "Which year were you born in?",
     "level": "Sätze"
   },
   {
@@ -1351,12 +1351,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "je mehr, desto besser",
-    "lv": "The more, the better",
+    "lv": "the more, the better",
     "level": "Sätze"
   },
   {
     "de": "bis jetzt",
-    "lv": "Until now",
+    "lv": "until now",
     "level": "Sätze"
   },
   {
@@ -1371,22 +1371,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Könnte ich Frau N. sprechen?",
-    "lv": "Could I speak to Mrs. N.?",
+    "lv": "Could I speak to Mrs N.?",
     "level": "Sätze"
   },
   {
     "de": "Was kostet das?",
-    "lv": "How much does it cost?",
+    "lv": "How much is that?",
     "level": "Sätze"
   },
   {
     "de": "Wie lange dauert die Vorstellung?",
-    "lv": "How long will the performance last?",
+    "lv": "How long does the performance last?",
     "level": "Sätze"
   },
   {
     "de": "Lass das!",
-    "lv": "Stop it! • Drop it!",
+    "lv": "Stop it! • Leave it!",
     "level": "Sätze"
   },
   {
@@ -1396,7 +1396,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Lassen Sie mich Ihnen helfen!",
-    "lv": "Let me help you!",
+    "lv": "Allow me to help you!",
     "level": "Sätze"
   },
   {
@@ -1406,7 +1406,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Na, wie läufts?",
-    "lv": "How's it going?",
+    "lv": "So, how's it going?",
     "level": "Sätze"
   },
   {
@@ -1416,27 +1416,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Leben Sie wohl!",
-    "lv": "Farewell! • Goodbye!",
+    "lv": "Farewell!",
     "level": "Sätze"
   },
   {
     "de": "Was ist los?",
-    "lv": "What happened?",
+    "lv": "What's the matter? • What's going on?",
     "level": "Sätze"
   },
   {
     "de": "Der Job ist anstrengend.",
-    "lv": "The work is exhausting.",
+    "lv": "The job is exhausting.",
     "level": "Sätze"
   },
   {
     "de": "Das war ein anstrengender Tag.",
-    "lv": "It was a tiring day.",
+    "lv": "That was a tiring day.",
     "level": "Sätze"
   },
   {
     "de": "Deutsch lernen kann anstrengend sein.",
-    "lv": "Learning German can be exhausting.",
+    "lv": "Learning German can be hard work.",
     "level": "Sätze"
   },
   {
@@ -1446,7 +1446,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Der Verkäufer verlangt zu viel Geld.",
-    "lv": "The seller is asking for too much money.",
+    "lv": "The seller is asking too much money.",
     "level": "Sätze"
   },
   {
@@ -1461,7 +1461,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich habe gar kein Geld.",
-    "lv": "I have no money at all.",
+    "lv": "I've got no money at all.",
     "level": "Sätze"
   },
   {
@@ -1481,7 +1481,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Halt die Luft an!",
-    "lv": "Hold your breath!",
+    "lv": "Pipe down! • Come off it!",
     "level": "Sätze"
   },
   {
@@ -1496,37 +1496,37 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Was meinen Sie damit?",
-    "lv": "What do you mean by that? • What do you mean?",
+    "lv": "What do you mean by that?",
     "level": "Sätze"
   },
   {
     "de": "Wir gehen mit Ihnen.",
-    "lv": "We go with you.",
+    "lv": "We're going with you.",
     "level": "Sätze"
   },
   {
     "de": "Ich fahre mit der Eisenbahn.",
-    "lv": "I travel by train.",
+    "lv": "I'm travelling by train.",
     "level": "Sätze"
   },
   {
     "de": "am Mittwoch",
-    "lv": "On Wednesday",
+    "lv": "on Wednesday",
     "level": "Sätze"
   },
   {
     "de": "Es mag sein.",
-    "lv": "Maybe.",
+    "lv": "That may be so.",
     "level": "Sätze"
   },
   {
     "de": "Ich mag das nicht.",
-    "lv": "I don't like it.",
+    "lv": "I don't like that.",
     "level": "Sätze"
   },
   {
     "de": "am Montag",
-    "lv": "On Monday",
+    "lv": "on Monday",
     "level": "Sätze"
   },
   {
@@ -1536,7 +1536,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "am Morgen",
-    "lv": "In the morning",
+    "lv": "in the morning",
     "level": "Sätze"
   },
   {
@@ -1551,57 +1551,57 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Letzte Neuheit!",
-    "lv": "The latest novelty!",
+    "lv": "The latest thing!",
     "level": "Sätze"
   },
   {
     "de": "Nicht wahr?",
-    "lv": "Right?",
+    "lv": "Isn't that right?",
     "level": "Sätze"
   },
   {
     "de": "Nicht doch!",
-    "lv": "Oh, no! • Don't!",
+    "lv": "Oh no! • Don't!",
     "level": "Sätze"
   },
   {
     "de": "Nun endlich!",
-    "lv": "Well, finally!",
+    "lv": "At last!",
     "level": "Sätze"
   },
   {
     "de": "Wozu nützt das?",
-    "lv": "What is it good for?",
+    "lv": "What good is that?",
     "level": "Sätze"
   },
   {
     "de": "Wozu nützt das alles?",
-    "lv": "What is all this for?",
+    "lv": "What's the point of all this?",
     "level": "Sätze"
   },
   {
     "de": "Parken verboten!",
-    "lv": "Parking is prohibited!",
+    "lv": "Parking prohibited!",
     "level": "Sätze"
   },
   {
     "de": "Nicht parken!",
-    "lv": "No parking!",
+    "lv": "Do not park!",
     "level": "Sätze"
   },
   {
     "de": "Er hat Recht.",
-    "lv": "He is right.",
+    "lv": "He's right.",
     "level": "Sätze"
   },
   {
     "de": "Wovon ist die Rede?",
-    "lv": "What is it about?",
+    "lv": "What's it about?",
     "level": "Sätze"
   },
   {
     "de": "Davon kann keine Rede sein.",
-    "lv": "That is out of the question.",
+    "lv": "That's out of the question.",
     "level": "Sätze"
   },
   {
@@ -1611,7 +1611,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Mir reißt die Geduld.",
-    "lv": "I'm running out of patience.",
+    "lv": "I'm losing my patience.",
     "level": "Sätze"
   },
   {
@@ -1626,12 +1626,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bitte schön!",
-    "lv": "Please!",
+    "lv": "Here you are! • You're welcome!",
     "level": "Sätze"
   },
   {
     "de": "Was bin ich schuldig?",
-    "lv": "How much do I owe? • How much do I have to pay?",
+    "lv": "How much do I owe you?",
     "level": "Sätze"
   },
   {
@@ -1661,12 +1661,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "im Sommer",
-    "lv": "In the summer",
+    "lv": "in summer",
     "level": "Sätze"
   },
   {
     "de": "Nicht nur..., sondern auch...",
-    "lv": "Not only... but also...",
+    "lv": "Not only..., but also...",
     "level": "Sätze"
   },
   {
@@ -1676,12 +1676,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Spaß beiseite!",
-    "lv": "Joking aside! • All jokes aside!",
+    "lv": "Joking aside!",
     "level": "Sätze"
   },
   {
     "de": "Wie spät ist es?",
-    "lv": "What time is it?",
+    "lv": "What's the time?",
     "level": "Sätze"
   },
   {
@@ -1701,12 +1701,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wie steht’s?",
-    "lv": "How are you?",
+    "lv": "How are things?",
     "level": "Sätze"
   },
   {
     "de": "Dieser Hut steht ihr gut.",
-    "lv": "This hat suits her well.",
+    "lv": "This hat suits her.",
     "level": "Sätze"
   },
   {
@@ -1716,12 +1716,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wo treffen wir uns?",
-    "lv": "Where will we meet?",
+    "lv": "Where shall we meet?",
     "level": "Sätze"
   },
   {
     "de": "Treten Sie näher!",
-    "lv": "Come closer!",
+    "lv": "Please come closer!",
     "level": "Sätze"
   },
   {
@@ -1731,12 +1731,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich habe viel zu tun.",
-    "lv": "I have a lot to do.",
+    "lv": "I've got a lot to do.",
     "level": "Sätze"
   },
   {
     "de": "Nicht übel!",
-    "lv": "Not bad! • Pretty good!",
+    "lv": "Not bad!",
     "level": "Sätze"
   },
   {
@@ -1746,12 +1746,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Er ist davon überzeugt.",
-    "lv": "He is sure of it.",
+    "lv": "He's convinced of it.",
     "level": "Sätze"
   },
   {
     "de": "So ist es üblich.",
-    "lv": "That's customary.",
+    "lv": "That's the custom.",
     "level": "Sätze"
   },
   {
@@ -1771,22 +1771,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "umso mehr",
-    "lv": "All the more",
+    "lv": "all the more",
     "level": "Sätze"
   },
   {
     "de": "Rechts um!",
-    "lv": "Turn right!",
+    "lv": "Right turn!",
     "level": "Sätze"
   },
   {
     "de": "Und ob!",
-    "lv": "You bet!",
+    "lv": "I should say so!",
     "level": "Sätze"
   },
   {
     "de": "und zwar",
-    "lv": "Namely",
+    "lv": "namely",
     "level": "Sätze"
   },
   {
@@ -1796,32 +1796,32 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Er saß unter den Zuschauern.",
-    "lv": "He sat among the audience.",
+    "lv": "He was sitting in the audience.",
     "level": "Sätze"
   },
   {
     "de": "Keine Ursache!",
-    "lv": "You're welcome!",
+    "lv": "Not at all!",
     "level": "Sätze"
   },
   {
     "de": "Es geschah, wie verabredet.",
-    "lv": "It happened as agreed.",
+    "lv": "It happened as arranged.",
     "level": "Sätze"
   },
   {
     "de": "Rauchen verboten!",
-    "lv": "Smoking is prohibited!",
+    "lv": "No smoking!",
     "level": "Sätze"
   },
   {
     "de": "Falsch verbunden!",
-    "lv": "You've got the wrong number!",
+    "lv": "Wrong number!",
     "level": "Sätze"
   },
   {
     "de": "Eintritt verboten!",
-    "lv": "Entry is prohibited!",
+    "lv": "No entry!",
     "level": "Sätze"
   },
   {
@@ -1831,7 +1831,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Er versteht nichts davon.",
-    "lv": "He doesn't understand anything about it.",
+    "lv": "He knows nothing about it.",
     "level": "Sätze"
   },
   {
@@ -1856,7 +1856,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Vom Hörensagen.",
-    "lv": "By hearsay.",
+    "lv": "From hearsay.",
     "level": "Sätze"
   },
   {
@@ -1871,12 +1871,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Er ist Berliner von Geburt.",
-    "lv": "He is a Berliner by birth.",
+    "lv": "He's a Berliner by birth.",
     "level": "Sätze"
   },
   {
     "de": "Er steht vor dem Fenster.",
-    "lv": "He is standing by the window.",
+    "lv": "He's standing in front of the window.",
     "level": "Sätze"
   },
   {
@@ -1886,7 +1886,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Vor vierzehn Tagen.",
-    "lv": "Two weeks ago.",
+    "lv": "A fortnight ago.",
     "level": "Sätze"
   },
   {
@@ -1896,7 +1896,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Vor allem.",
-    "lv": "Above all. • Especially.",
+    "lv": "Above all.",
     "level": "Sätze"
   },
   {
@@ -1906,17 +1906,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Unter der Voraussetzung, dass...",
-    "lv": "Assuming that...",
+    "lv": "On condition that...",
     "level": "Sätze"
   },
   {
     "de": "Unter dem Vorbehalt.",
-    "lv": "Subject to a condition.",
+    "lv": "With that reservation.",
     "level": "Sätze"
   },
   {
     "de": "Vorhanden sein.",
-    "lv": "To exist. • To be present. • To be available.",
+    "lv": "To exist. • To be available.",
     "level": "Sätze"
   },
   {
@@ -1931,12 +1931,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Sie kommt mir bekannt vor.",
-    "lv": "She looks familiar to me.",
+    "lv": "She seems familiar.",
     "level": "Sätze"
   },
   {
     "de": "Er hat Vorliebe für Literatur.",
-    "lv": "He likes literature very much.",
+    "lv": "He's particularly fond of literature.",
     "level": "Sätze"
   },
   {
@@ -1946,12 +1946,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Von vorn.",
-    "lv": "From the front.",
+    "lv": "From the front. • From the beginning.",
     "level": "Sätze"
   },
   {
     "de": "Nach vorn.",
-    "lv": "Forward.",
+    "lv": "Forwards.",
     "level": "Sätze"
   },
   {
@@ -1961,7 +1961,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Im Vorteil sein.",
-    "lv": "Be in a better position.",
+    "lv": "To be at an advantage.",
     "level": "Sätze"
   },
   {
@@ -1976,12 +1976,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Auf Wache sein.",
-    "lv": "To stand guard.",
+    "lv": "To be on guard duty.",
     "level": "Sätze"
   },
   {
     "de": "Während eines Jahres.",
-    "lv": "Over the course of a year.",
+    "lv": "In the course of a year.",
     "level": "Sätze"
   },
   {
@@ -1996,12 +1996,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Hier haben die Wände Ohren.",
-    "lv": "Here the walls have ears.",
+    "lv": "The walls have ears here.",
     "level": "Sätze"
   },
   {
     "de": "Bis wann?",
-    "lv": "Until when?",
+    "lv": "Until when? • By when?",
     "level": "Sätze"
   },
   {
@@ -2031,7 +2031,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Auf diesem Wege.",
-    "lv": "In this way. • By these means",
+    "lv": "In this way. • By this means.",
     "level": "Sätze"
   },
   {
@@ -2041,12 +2041,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Unserer Freundschaft wegen.",
-    "lv": "Because of our friendship.",
+    "lv": "For the sake of our friendship.",
     "level": "Sätze"
   },
   {
     "de": "Von Rechts wegen.",
-    "lv": "By rights.",
+    "lv": "By rights. • By law.",
     "level": "Sätze"
   },
   {
@@ -2086,7 +2086,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Weiter nichts.",
-    "lv": "Nothing more.",
+    "lv": "Nothing else.",
     "level": "Sätze"
   },
   {
@@ -2096,7 +2096,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Alle Welt.",
-    "lv": "The whole world. • Everyone",
+    "lv": "The whole world. • Everybody.",
     "level": "Sätze"
   },
   {
@@ -2111,22 +2111,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wenn auch.",
-    "lv": "Although.",
+    "lv": "Even though. • Even if.",
     "level": "Sätze"
   },
   {
     "de": "Wer da?",
-    "lv": "Who's there?",
+    "lv": "Who goes there? • Who's there?",
     "level": "Sätze"
   },
   {
     "de": "Gesammelte Werke von Schiller.",
-    "lv": "Schiller's collected writings.",
+    "lv": "Schiller's collected works.",
     "level": "Sätze"
   },
   {
     "de": "Ausgewählte Werke.",
-    "lv": "A selection of works.",
+    "lv": "Selected works.",
     "level": "Sätze"
   },
   {
@@ -2136,7 +2136,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Es ist zwei Euro wert.",
-    "lv": "It costs two euros.",
+    "lv": "It's worth two euros.",
     "level": "Sätze"
   },
   {
@@ -2151,7 +2151,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "In Wettbewerb treten.",
-    "lv": "To enter a competition.",
+    "lv": "To enter into competition.",
     "level": "Sätze"
   },
   {
@@ -2161,12 +2161,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Was gilt die Wette?",
-    "lv": "What are we betting?",
+    "lv": "What shall we bet?",
     "level": "Sätze"
   },
   {
     "de": "Wie wird das Wetter?",
-    "lv": "What will the weather be like?",
+    "lv": "What's the weather going to be like?",
     "level": "Sätze"
   },
   {
@@ -2181,7 +2181,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Widerspruch erheben.",
-    "lv": "To protest. • Raise objections",
+    "lv": "To raise an objection.",
     "level": "Sätze"
   },
   {
@@ -2196,7 +2196,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Auf Wiederhören!",
-    "lv": "Goodbye!",
+    "lv": "Speak to you soon!",
     "level": "Sätze"
   },
   {
@@ -2216,7 +2216,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Du musst ziehen.",
-    "lv": "It's your turn.",
+    "lv": "It's your move.",
     "level": "Sätze"
   },
   {
@@ -2231,22 +2231,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Zipfel einer Wurst.",
-    "lv": "Sausage tip.",
+    "lv": "The end of a sausage.",
     "level": "Sätze"
   },
   {
     "de": "Zu ihm gehen.",
-    "lv": "Go to him.",
+    "lv": "To go to him.",
     "level": "Sätze"
   },
   {
     "de": "Zur Schule gehen.",
-    "lv": "Go to school.",
+    "lv": "To go to school.",
     "level": "Sätze"
   },
   {
     "de": "Zu Hause bleiben.",
-    "lv": "Stay at home.",
+    "lv": "To stay at home.",
     "level": "Sätze"
   },
   {
@@ -2256,7 +2256,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Zum Glück.",
-    "lv": "Fortunately.",
+    "lv": "Luckily.",
     "level": "Sätze"
   },
   {
@@ -2276,7 +2276,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Zu Rad.",
-    "lv": "By bicycle.",
+    "lv": "By bike.",
     "level": "Sätze"
   },
   {
@@ -2286,7 +2286,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich habe noch viel zu tun.",
-    "lv": "I still have a lot to do.",
+    "lv": "I've still got a lot to do.",
     "level": "Sätze"
   },
   {
@@ -2301,22 +2301,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Mit den Achseln zucken.",
-    "lv": "Shrug.",
+    "lv": "To shrug one's shoulders.",
     "level": "Sätze"
   },
   {
     "de": "In einem Zug trinken.",
-    "lv": "Drink in one gulp.",
+    "lv": "To drink in one go.",
     "level": "Sätze"
   },
   {
     "de": "Zugrunde gehen.",
-    "lv": "Perish.",
+    "lv": "To perish.",
     "level": "Sätze"
   },
   {
     "de": "Zugrunde legen.",
-    "lv": "Use as a basis. • Take as a basis.",
+    "lv": "To take as a basis.",
     "level": "Sätze"
   },
   {
@@ -2331,7 +2331,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Er hat zugenommen.",
-    "lv": "He gained weight.",
+    "lv": "He's put on weight.",
     "level": "Sätze"
   },
   {
@@ -2341,37 +2341,37 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Zusammenhängen mit etwas.",
-    "lv": "To be associated with something.",
+    "lv": "To be connected with something.",
     "level": "Sätze"
   },
   {
     "de": "Die Tür ist zu.",
-    "lv": "The door is closed.",
+    "lv": "The door's shut.",
     "level": "Sätze"
   },
   {
     "de": "Das hätte ich ihm nicht zugetraut.",
-    "lv": "I wouldn't have expected that from him.",
+    "lv": "I wouldn't have thought him capable of that.",
     "level": "Sätze"
   },
   {
     "de": "Freier Zutritt.",
-    "lv": "Free entry.",
+    "lv": "Free admission.",
     "level": "Sätze"
   },
   {
     "de": "Zutritt verboten!",
-    "lv": "Entry is prohibited!",
+    "lv": "No entry!",
     "level": "Sätze"
   },
   {
     "de": "Das ist zu viel!",
-    "lv": "It's too much!",
+    "lv": "That's too much!",
     "level": "Sätze"
   },
   {
     "de": "Zuwider werden.",
-    "lv": "Become repulsive. • Become distasteful.",
+    "lv": "To become repugnant.",
     "level": "Sätze"
   },
   {
@@ -2381,12 +2381,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Es steht außer Zweifel.",
-    "lv": "There is no doubt.",
+    "lv": "It's beyond doubt.",
     "level": "Sätze"
   },
   {
     "de": "Ohne Zweifel.",
-    "lv": "Without doubt.",
+    "lv": "Without a doubt.",
     "level": "Sätze"
   },
   {
@@ -2411,17 +2411,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Es freut mich, Sie kennenzulernen.",
-    "lv": "I am glad to meet you.",
+    "lv": "It's a pleasure to meet you.",
     "level": "Sätze"
   },
   {
     "de": "Wären Sie bitte so nett?",
-    "lv": "Would you please be so kind?",
+    "lv": "Would you be so kind?",
     "level": "Sätze"
   },
   {
     "de": "Ich bin Ihnen sehr dankbar.",
-    "lv": "I am very grateful to you.",
+    "lv": "I'm very grateful to you.",
     "level": "Sätze"
   },
   {
@@ -2431,47 +2431,47 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ben, komm bitte an die Tafel!",
-    "lv": "Ben, please come to the board!",
+    "lv": "Ben, please come up to the board!",
     "level": "Sätze"
   },
   {
     "de": "Schlagt bitte die Lehrbücher auf!",
-    "lv": "Open the textbooks, please!",
+    "lv": "Open your textbooks, please!",
     "level": "Sätze"
   },
   {
     "de": "Geht bitte in die Sporthalle!",
-    "lv": "Please go to the gym!",
+    "lv": "Please go to the sports hall!",
     "level": "Sätze"
   },
   {
     "de": "Schläfst du noch?",
-    "lv": "Are you still sleeping?",
+    "lv": "Are you still asleep?",
     "level": "Sätze"
   },
   {
     "de": "Schlafen Sie noch?",
-    "lv": "Are you still sleeping?",
+    "lv": "Are you still asleep?",
     "level": "Sätze"
   },
   {
     "de": "Er ist fest eingeschlafen.",
-    "lv": "He is fast asleep.",
+    "lv": "He's fallen fast asleep.",
     "level": "Sätze"
   },
   {
     "de": "Wecke ihn bitte auf, es ist schon spät!",
-    "lv": "Please wake him up, it's already late!",
+    "lv": "Please wake him up, it's late already!",
     "level": "Sätze"
   },
   {
     "de": "Es tut mir sehr leid!",
-    "lv": "I'm so sorry!",
+    "lv": "I'm terribly sorry!",
     "level": "Sätze"
   },
   {
     "de": "Vielen Dank!",
-    "lv": "Thank you very much!",
+    "lv": "Many thanks!",
     "level": "Sätze"
   },
   {
@@ -2486,22 +2486,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Emma, schau bitte nicht aus dem Fenster!",
-    "lv": "Emma, please don't look out the window!",
+    "lv": "Emma, please don't look out of the window!",
     "level": "Sätze"
   },
   {
     "de": "Jonas, bring bitte die Hefte!",
-    "lv": "Jonas, please bring the notebooks!",
+    "lv": "Jonas, please bring the exercise books!",
     "level": "Sätze"
   },
   {
     "de": "Geh bitte zurück an deinen Platz!",
-    "lv": "Please go back to your place!",
+    "lv": "Please go back to your seat!",
     "level": "Sätze"
   },
   {
     "de": "Es ist halb acht.",
-    "lv": "It is half past seven.",
+    "lv": "It's half past seven.",
     "level": "Sätze"
   },
   {
@@ -2511,12 +2511,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich stehe gleich auf.",
-    "lv": "I'll get up right away.",
+    "lv": "I'll get up in a minute.",
     "level": "Sätze"
   },
   {
     "de": "Steh auf, Hanna, es klingelt!",
-    "lv": "Get up, Hannah, the bell is ringing!",
+    "lv": "Get up, Hanna, the alarm's going off! • Get up, Hanna, someone's at the door!",
     "level": "Sätze"
   },
   {
@@ -2526,17 +2526,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Vergiss nicht, das Zimmer zu lüften!",
-    "lv": "Do not forget to air the room!",
+    "lv": "Don't forget to air the room!",
     "level": "Sätze"
   },
   {
     "de": "Wo ist das Handtuch?",
-    "lv": "Where is the towel?",
+    "lv": "Where's the towel?",
     "level": "Sätze"
   },
   {
     "de": "Ich möchte mir die Zähne putzen.",
-    "lv": "I want to brush my teeth.",
+    "lv": "I'd like to brush my teeth.",
     "level": "Sätze"
   },
   {
@@ -2546,7 +2546,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich möchte mich anziehen.",
-    "lv": "I want to get dressed.",
+    "lv": "I'd like to get dressed.",
     "level": "Sätze"
   },
   {
@@ -2556,7 +2556,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Kleide dich wärmer an, draußen ist es kühl.",
-    "lv": "Dress warmly, it's cold outside.",
+    "lv": "Dress more warmly, it's chilly outside.",
     "level": "Sätze"
   },
   {
@@ -2576,12 +2576,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Was für ein Chaos hier!",
-    "lv": "What a mess it is here!",
+    "lv": "What a mess in here!",
     "level": "Sätze"
   },
   {
     "de": "Darf ich beim Aufräumen helfen?",
-    "lv": "May I help tidy up?",
+    "lv": "May I help you tidy up?",
     "level": "Sätze"
   },
   {
@@ -2591,12 +2591,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Gewöhnlich trinke ich morgens eine Tasse Kaffee.",
-    "lv": "I usually drink a cup of coffee in the morning.",
+    "lv": "I usually have a cup of coffee in the morning.",
     "level": "Sätze"
   },
   {
     "de": "Am liebsten trinke ich schwarzen Kaffee.",
-    "lv": "I prefer black coffee.",
+    "lv": "I like black coffee best.",
     "level": "Sätze"
   },
   {
@@ -2616,22 +2616,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Gib mir bitte ein Brötchen mit Käse.",
-    "lv": "Give me a bread roll with cheese, please.",
+    "lv": "Give me a cheese roll, please.",
     "level": "Sätze"
   },
   {
     "de": "Ich muss jetzt los!",
-    "lv": "I have to go now!",
+    "lv": "I've got to go now!",
     "level": "Sätze"
   },
   {
     "de": "Vergiss dein Frühstück nicht!",
-    "lv": "Don't forget breakfast!",
+    "lv": "Don't forget your breakfast!",
     "level": "Sätze"
   },
   {
     "de": "Klara, deck bitte den Tisch!",
-    "lv": "Clara, please set the table!",
+    "lv": "Klara, please lay the table!",
     "level": "Sätze"
   },
   {
@@ -2641,7 +2641,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wann esst ihr zu Mittag?",
-    "lv": "When do you eat lunch?",
+    "lv": "When do you have lunch?",
     "level": "Sätze"
   },
   {
@@ -2661,12 +2661,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ehrlich gesagt ist sie etwas zu salzig.",
-    "lv": "Frankly, it's a tad too salty.",
+    "lv": "To be honest, it's a bit too salty.",
     "level": "Sätze"
   },
   {
     "de": "Darf ich dir ein Stück Brot geben?",
-    "lv": "May I give you a slice of bread?",
+    "lv": "May I offer you a piece of bread?",
     "level": "Sätze"
   },
   {
@@ -2676,7 +2676,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Das Fleisch schmeckt ausgezeichnet.",
-    "lv": "The meat tastes great.",
+    "lv": "The meat tastes excellent.",
     "level": "Sätze"
   },
   {
@@ -2686,17 +2686,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Heute haben wir Besuch.",
-    "lv": "Today we have visitors.",
+    "lv": "We've got visitors today.",
     "level": "Sätze"
   },
   {
     "de": "Bist du heute Abend frei?",
-    "lv": "Are you free tonight?",
+    "lv": "Are you free this evening?",
     "level": "Sätze"
   },
   {
     "de": "Komm doch heute zum Mittagessen vorbei!",
-    "lv": "Come visit for lunch today!",
+    "lv": "Do come round for lunch today!",
     "level": "Sätze"
   },
   {
@@ -2706,37 +2706,37 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bitte, bedien dich!",
-    "lv": "Please eat as much as you want!",
+    "lv": "Please, help yourself!",
     "level": "Sätze"
   },
   {
     "de": "Stört dich das Rauchen?",
-    "lv": "Does smoking bother you?",
+    "lv": "Does the smoking bother you?",
     "level": "Sätze"
   },
   {
     "de": "Danke für die nette Aufnahme!",
-    "lv": "Thank you for the warm welcome!",
+    "lv": "Thank you for the kind welcome!",
     "level": "Sätze"
   },
   {
     "de": "Wann gehst du ins Bett?",
-    "lv": "When do you go to sleep?",
+    "lv": "When do you go to bed?",
     "level": "Sätze"
   },
   {
     "de": "Wenn ich von der Arbeit komme, bin ich immer müde.",
-    "lv": "I'm always tired when I come home from work.",
+    "lv": "When I get home from work, I'm always tired.",
     "level": "Sätze"
   },
   {
     "de": "Es ist Zeit, ins Bett zu gehen.",
-    "lv": "It's time to go to sleep.",
+    "lv": "It's time to go to bed.",
     "level": "Sätze"
   },
   {
     "de": "Es ist schönes Wetter.",
-    "lv": "The weather is nice.",
+    "lv": "The weather's lovely.",
     "level": "Sätze"
   },
   {
@@ -2746,12 +2746,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Sieh mal, es wird gleich regnen.",
-    "lv": "Look, it's going to rain soon.",
+    "lv": "Look, it's going to rain any minute.",
     "level": "Sätze"
   },
   {
     "de": "Nimm den Regenschirm mit!",
-    "lv": "Take an umbrella with you!",
+    "lv": "Take the umbrella with you!",
     "level": "Sätze"
   },
   {
@@ -2761,47 +2761,47 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich bin schon ganz nass.",
-    "lv": "I'm already completely wet.",
+    "lv": "I'm already soaking wet.",
     "level": "Sätze"
   },
   {
     "de": "Glaubst du, dass es den ganzen Tag regnen wird?",
-    "lv": "Do you think it's going to rain all day?",
+    "lv": "Do you think it'll rain all day?",
     "level": "Sätze"
   },
   {
     "de": "Es hört auf zu regnen.",
-    "lv": "The rain is stopping.",
+    "lv": "The rain's stopping.",
     "level": "Sätze"
   },
   {
     "de": "Die Sonne scheint wieder.",
-    "lv": "The sun is shining again.",
+    "lv": "The sun's shining again.",
     "level": "Sätze"
   },
   {
     "de": "Es ist sehr warm.",
-    "lv": "It is very warm.",
+    "lv": "It's very warm.",
     "level": "Sätze"
   },
   {
     "de": "Es sieht nach Regen aus.",
-    "lv": "It looks like it's going to rain.",
+    "lv": "It looks like rain.",
     "level": "Sätze"
   },
   {
     "de": "Wir bekommen gleich ein Gewitter.",
-    "lv": "There's a thunderstorm coming.",
+    "lv": "There's going to be a thunderstorm any minute.",
     "level": "Sätze"
   },
   {
     "de": "Das Gewitter zieht vorüber.",
-    "lv": "The storm is passing.",
+    "lv": "The thunderstorm is passing over.",
     "level": "Sätze"
   },
   {
     "de": "Die Wolken verziehen sich.",
-    "lv": "The clouds are dispersing.",
+    "lv": "The clouds are clearing.",
     "level": "Sätze"
   },
   {
@@ -2811,17 +2811,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Der Winter ist da, es hat geschneit.",
-    "lv": "Winter is here. It has snowed.",
+    "lv": "Winter's here, it's been snowing.",
     "level": "Sätze"
   },
   {
     "de": "Es schneit.",
-    "lv": "It is snowing.",
+    "lv": "It's snowing.",
     "level": "Sätze"
   },
   {
     "de": "Wie schön ist es im Wald im Winter!",
-    "lv": "How beautiful it is in the forest in winter!",
+    "lv": "How lovely it is in the woods in winter!",
     "level": "Sätze"
   },
   {
@@ -2831,22 +2831,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Draußen ist Glatteis, pass auf!",
-    "lv": "There's black ice outside, be careful!",
+    "lv": "There's black ice outside, watch out!",
     "level": "Sätze"
   },
   {
     "de": "Wollen wir auf die Eisbahn gehen?",
-    "lv": "Shall we go ice skating?",
+    "lv": "Shall we go to the ice rink?",
     "level": "Sätze"
   },
   {
     "de": "Zieh die Jacke an, du kannst dich erkälten.",
-    "lv": "Put on a jacket, you might catch a cold.",
+    "lv": "Put your jacket on, you could catch a cold.",
     "level": "Sätze"
   },
   {
     "de": "Es ist halb sieben.",
-    "lv": "It is half past six.",
+    "lv": "It's half past six.",
     "level": "Sätze"
   },
   {
@@ -2856,12 +2856,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Weck mich morgen früh um sieben Uhr!",
-    "lv": "Wake me up at seven o'clock tomorrow!",
+    "lv": "Wake me at seven o'clock tomorrow morning!",
     "level": "Sätze"
   },
   {
     "de": "Was ist heute für ein Datum?",
-    "lv": "What is the date today?",
+    "lv": "What's the date today?",
     "level": "Sätze"
   },
   {
@@ -2871,12 +2871,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Was machst du gewöhnlich am Abend?",
-    "lv": "What do you usually do in the evenings?",
+    "lv": "What do you usually do in the evening?",
     "level": "Sätze"
   },
   {
     "de": "Es ist schon lange her, dass wir uns gesehen haben.",
-    "lv": "We have not met for a long time.",
+    "lv": "It's been a long time since we last saw each other.",
     "level": "Sätze"
   },
   {
@@ -2886,7 +2886,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Entschuldige, ich möchte etwas mit dir besprechen.",
-    "lv": "Excuse me, I want to discuss something with you.",
+    "lv": "Sorry, there's something I'd like to discuss with you.",
     "level": "Sätze"
   },
   {
@@ -2896,27 +2896,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Hast du Lust, mit mir in den Park zu gehen?",
-    "lv": "Do you want to go to the park with me?",
+    "lv": "Do you fancy going to the park with me?",
     "level": "Sätze"
   },
   {
     "de": "Ich komme, um dich zum Spaziergang abzuholen.",
-    "lv": "I've come to pick you up for a walk.",
+    "lv": "I've come to take you out for a walk.",
     "level": "Sätze"
   },
   {
     "de": "Geh bitte etwas langsamer, ich kann dir nicht folgen!",
-    "lv": "Go a little slower, I can't keep up with you!",
+    "lv": "Please walk a bit more slowly, I can't keep up with you!",
     "level": "Sätze"
   },
   {
     "de": "Ich bin zum ersten Mal in dieser Gegend.",
-    "lv": "I'm in this area for the first time.",
+    "lv": "This is my first time in this area.",
     "level": "Sätze"
   },
   {
     "de": "Ruhen wir uns ein wenig aus.",
-    "lv": "Let's rest a little.",
+    "lv": "Let's have a little rest.",
     "level": "Sätze"
   },
   {
@@ -2926,32 +2926,32 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ehrlich gesagt bin ich ziemlich müde.",
-    "lv": "Frankly, I'm pretty tired.",
+    "lv": "To be honest, I'm rather tired.",
     "level": "Sätze"
   },
   {
     "de": "Entschuldige, wo ist die nächste U-Bahn-Station?",
-    "lv": "Excuse me, where is the nearest metro station?",
+    "lv": "Excuse me, where's the nearest underground station?",
     "level": "Sätze"
   },
   {
     "de": "Welcher ist der kürzeste Weg?",
-    "lv": "Which is the shortest route?",
+    "lv": "Which is the shortest way?",
     "level": "Sätze"
   },
   {
     "de": "Geh hier die zweite Straße links und dann immer geradeaus.",
-    "lv": "Here, take the second street to the left and go straight ahead.",
+    "lv": "Take the second street on the left here and then keep going straight on.",
     "level": "Sätze"
   },
   {
     "de": "Wie komme ich am schnellsten zum Bahnhof?",
-    "lv": "What is the quickest way to get to the station?",
+    "lv": "What's the quickest way to the station?",
     "level": "Sätze"
   },
   {
     "de": "Ich habe vor, morgen zu verreisen.",
-    "lv": "I intend to leave tomorrow.",
+    "lv": "I'm planning to go away tomorrow.",
     "level": "Sätze"
   },
   {
@@ -2961,17 +2961,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Reist du geschäftlich oder privat?",
-    "lv": "Are you travelling for work or leisure?",
+    "lv": "Are you travelling on business or for pleasure?",
     "level": "Sätze"
   },
   {
     "de": "Finn fährt bis Berlin mit, dann geht er ans Meer.",
-    "lv": "Finn is travelling as far as Berlin, then he'll go to the seaside.",
+    "lv": "Finn's coming with us as far as Berlin, then he's going to the seaside.",
     "level": "Sätze"
   },
   {
     "de": "Wann fährt das Schiff ab?",
-    "lv": "When does the ship leave?",
+    "lv": "When does the ship sail?",
     "level": "Sätze"
   },
   {
@@ -2991,7 +2991,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Es ist Zeit, den Koffer zu packen.",
-    "lv": "It's time to pack your suitcase.",
+    "lv": "It's time to pack the suitcase.",
     "level": "Sätze"
   },
   {
@@ -3001,12 +3001,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Hol mir bitte ein Taxi, ich verpasse sonst den Zug!",
-    "lv": "Call a taxi, please, otherwise I'll miss the train!",
+    "lv": "Get me a taxi, please, or I'll miss the train!",
     "level": "Sätze"
   },
   {
     "de": "Fahr bitte zum Bahnhof!",
-    "lv": "Please take me to the station!",
+    "lv": "Take me to the station, please!",
     "level": "Sätze"
   },
   {
@@ -3016,12 +3016,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ist der Schalter schon offen?",
-    "lv": "Is the ticket counter open yet?",
+    "lv": "Is the ticket office open yet?",
     "level": "Sätze"
   },
   {
     "de": "Eine Fahrkarte nach Köln, bitte.",
-    "lv": "One ticket to Cologne, please.",
+    "lv": "A ticket to Cologne, please.",
     "level": "Sätze"
   },
   {
@@ -3031,42 +3031,42 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Der Zug fährt gleich ab.",
-    "lv": "The train is leaving soon.",
+    "lv": "The train's about to leave.",
     "level": "Sätze"
   },
   {
     "de": "Muss ich in Koblenz umsteigen?",
-    "lv": "Do I have to change trains in Koblenz?",
+    "lv": "Do I have to change in Koblenz?",
     "level": "Sätze"
   },
   {
     "de": "Ja, dort musst du umsteigen.",
-    "lv": "Yes, you have to change trains there.",
+    "lv": "Yes, you have to change there.",
     "level": "Sätze"
   },
   {
     "de": "Ist dieser Platz frei?",
-    "lv": "Is this place available?",
+    "lv": "Is this seat free?",
     "level": "Sätze"
   },
   {
     "de": "Nein, hier sitzt niemand.",
-    "lv": "No, no one is sitting here.",
+    "lv": "No, nobody's sitting here.",
     "level": "Sätze"
   },
   {
     "de": "Wo ist der Bahnsteigkartenautomat?",
-    "lv": "Where is the platform ticket machine?",
+    "lv": "Where's the platform ticket machine?",
     "level": "Sätze"
   },
   {
     "de": "Stell mein Handgepäck ins Gepäcknetz.",
-    "lv": "Put my carry-on in the luggage net.",
+    "lv": "Put my hand luggage in the luggage rack.",
     "level": "Sätze"
   },
   {
     "de": "Kann ich das Fenster aufmachen?",
-    "lv": "May I open the window?",
+    "lv": "Can I open the window?",
     "level": "Sätze"
   },
   {
@@ -3076,22 +3076,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Welche ist die nächste Station?",
-    "lv": "What's the next stop?",
+    "lv": "What's the next station?",
     "level": "Sätze"
   },
   {
     "de": "Wie lange hält der Zug?",
-    "lv": "How long does the train stop here?",
+    "lv": "How long does the train stop for?",
     "level": "Sätze"
   },
   {
     "de": "Wo muss ich umsteigen?",
-    "lv": "Where do I have to change trains?",
+    "lv": "Where do I have to change?",
     "level": "Sätze"
   },
   {
     "de": "Der Zug hat Verspätung.",
-    "lv": "The train is late.",
+    "lv": "The train's delayed.",
     "level": "Sätze"
   },
   {
@@ -3101,17 +3101,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wir fahren jetzt über die Grenze.",
-    "lv": "Now we are driving across the border.",
+    "lv": "We're crossing the border now.",
     "level": "Sätze"
   },
   {
     "de": "Hast du etwas zu verzollen?",
-    "lv": "Do you have anything to declare?",
+    "lv": "Have you got anything to declare?",
     "level": "Sätze"
   },
   {
     "de": "Wir sind in Berlin angekommen.",
-    "lv": "We have arrived in Berlin.",
+    "lv": "We've arrived in Berlin.",
     "level": "Sätze"
   },
   {
@@ -3136,7 +3136,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Morgen reise ich ab. Weck mich um sieben Uhr!",
-    "lv": "I'm leaving tomorrow. Wake me up at seven!",
+    "lv": "I'm leaving tomorrow. Wake me at seven o'clock!",
     "level": "Sätze"
   },
   {
@@ -3146,12 +3146,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wo ist die Stadtbibliothek?",
-    "lv": "Where is the city library?",
+    "lv": "Where's the city library?",
     "level": "Sätze"
   },
   {
     "de": "Wann hat das Museum geöffnet?",
-    "lv": "When is the museum open?",
+    "lv": "When's the museum open?",
     "level": "Sätze"
   },
   {
@@ -3161,22 +3161,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Fahren wir mit dem Bus oder der U-Bahn?",
-    "lv": "Are we going by bus or subway?",
+    "lv": "Are we going by bus or by underground?",
     "level": "Sätze"
   },
   {
     "de": "Wo ist die nächste Bushaltestelle?",
-    "lv": "Where is the nearest bus stop?",
+    "lv": "Where's the nearest bus stop?",
     "level": "Sätze"
   },
   {
     "de": "Ich habe großen Hunger.",
-    "lv": "I am very hungry.",
+    "lv": "I'm really hungry.",
     "level": "Sätze"
   },
   {
     "de": "Gehen wir zusammen essen?",
-    "lv": "Shall we go eat together?",
+    "lv": "Shall we go out for a meal together?",
     "level": "Sätze"
   },
   {
@@ -3191,7 +3191,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Das schmeckt ausgezeichnet!",
-    "lv": "It tastes great!",
+    "lv": "This tastes excellent!",
     "level": "Sätze"
   },
   {
@@ -3201,12 +3201,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich gehe ins Café einen Kaffee trinken.",
-    "lv": "I'm going to the café to have a coffee.",
+    "lv": "I'm going to the café for a coffee.",
     "level": "Sätze"
   },
   {
     "de": "Willst du mitkommen?",
-    "lv": "Want to come along?",
+    "lv": "Do you want to come along?",
     "level": "Sätze"
   },
   {
@@ -3216,42 +3216,42 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bitte schneller, ich habe es eilig!",
-    "lv": "Faster, please. I'm in a hurry!",
+    "lv": "Faster, please, I'm in a hurry!",
     "level": "Sätze"
   },
   {
     "de": "Lass deinen Kaffee nicht kalt werden!",
-    "lv": "Don't let the coffee get cold!",
+    "lv": "Don't let your coffee go cold!",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie etwas Erfrischendes?",
-    "lv": "Do you have something refreshing?",
+    "lv": "Have you got anything refreshing?",
     "level": "Sätze"
   },
   {
     "de": "Eine Portion Eis, bitte!",
-    "lv": "A serving of ice cream, please!",
+    "lv": "An ice cream, please!",
     "level": "Sätze"
   },
   {
     "de": "Heute Morgen habe ich einen Brief bekommen.",
-    "lv": "I received a letter this morning.",
+    "lv": "I got a letter this morning.",
     "level": "Sätze"
   },
   {
     "de": "Ich muss ihm gleich schreiben.",
-    "lv": "I must write to him now.",
+    "lv": "I must write to him straight away.",
     "level": "Sätze"
   },
   {
     "de": "Wo ist der nächste Briefkasten?",
-    "lv": "Where is the nearest mailbox?",
+    "lv": "Where's the nearest postbox?",
     "level": "Sätze"
   },
   {
     "de": "Wo ist die Post?",
-    "lv": "Where is the post office?",
+    "lv": "Where's the post office?",
     "level": "Sätze"
   },
   {
@@ -3261,7 +3261,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Werfen Sie bitte diesen Brief in den Briefkasten.",
-    "lv": "Please drop this letter in the mailbox!",
+    "lv": "Please put this letter in the postbox.",
     "level": "Sätze"
   },
   {
@@ -3276,7 +3276,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Muss ich lange warten?",
-    "lv": "Do I have to wait long?",
+    "lv": "Will I have to wait long?",
     "level": "Sätze"
   },
   {
@@ -3291,7 +3291,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wann beginnt die Vorstellung?",
-    "lv": "When does the show start?",
+    "lv": "When does the performance start?",
     "level": "Sätze"
   },
   {
@@ -3311,12 +3311,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wir lassen die Jacken in der Garderobe.",
-    "lv": "Let's leave the jackets in the cloakroom.",
+    "lv": "We'll leave our jackets in the cloakroom.",
     "level": "Sätze"
   },
   {
     "de": "Bitte schnell, der Vorhang geht gleich auf!",
-    "lv": "Quickly, please! The curtain is about to go up!",
+    "lv": "Quickly, please, the curtain's about to go up!",
     "level": "Sätze"
   },
   {
@@ -3326,22 +3326,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Darf ich dich zum Tanz bitten?",
-    "lv": "May I ask you to dance?",
+    "lv": "May I have this dance?",
     "level": "Sätze"
   },
   {
     "de": "Wann ist eure Hochzeit?",
-    "lv": "When is your wedding?",
+    "lv": "When's your wedding?",
     "level": "Sätze"
   },
   {
     "de": "Ich suche eine Wohnung.",
-    "lv": "I am looking for an apartment.",
+    "lv": "I'm looking for a flat.",
     "level": "Sätze"
   },
   {
     "de": "Ist in diesem Haus eine Wohnung frei?",
-    "lv": "Is there an apartment available in this house?",
+    "lv": "Is there a flat available in this building?",
     "level": "Sätze"
   },
   {
@@ -3351,27 +3351,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Die Wohnung hat drei Zimmer und eine Küche.",
-    "lv": "The apartment has three rooms and a kitchen.",
+    "lv": "The flat has three rooms and a kitchen.",
     "level": "Sätze"
   },
   {
     "de": "Heute ziehen wir um.",
-    "lv": "We are moving today.",
+    "lv": "We're moving house today.",
     "level": "Sätze"
   },
   {
     "de": "Mia, pack die Sachen bitte in Kisten!",
-    "lv": "Mia, put things in boxes, please!",
+    "lv": "Mia, please pack the things into boxes!",
     "level": "Sätze"
   },
   {
     "de": "Hast du alles eingepackt?",
-    "lv": "Is everything packed already?",
+    "lv": "Have you packed everything?",
     "level": "Sätze"
   },
   {
     "de": "Ich stehe mit meinem Freund in Kontakt.",
-    "lv": "I am in contact with my friend.",
+    "lv": "I'm in touch with my friend.",
     "level": "Sätze"
   },
   {
@@ -3396,12 +3396,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wie viele Zimmer habt ihr?",
-    "lv": "How many rooms do you have?",
+    "lv": "How many rooms have you got?",
     "level": "Sätze"
   },
   {
     "de": "Im Sommer fahre ich ans Meer.",
-    "lv": "I will go to the seaside in the summer.",
+    "lv": "In the summer I'm going to the seaside.",
     "level": "Sätze"
   },
   {
@@ -3411,17 +3411,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Schwimm nicht zu weit hinaus!",
-    "lv": "Don't swim too far!",
+    "lv": "Don't swim out too far!",
     "level": "Sätze"
   },
   {
     "de": "Badest du jeden Tag?",
-    "lv": "Do you swim every day?",
+    "lv": "Do you go swimming every day?",
     "level": "Sätze"
   },
   {
     "de": "Bei schönem Wetter gehe ich angeln.",
-    "lv": "If the weather is good, I go fishing.",
+    "lv": "When the weather's nice, I go fishing.",
     "level": "Sätze"
   },
   {
@@ -3431,17 +3431,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Er hat sich aber recht verändert.",
-    "lv": "However, he has changed quite a bit.",
+    "lv": "He really has changed quite a lot.",
     "level": "Sätze"
   },
   {
     "de": "Wie ist er als Mensch?",
-    "lv": "What is he like as a person?",
+    "lv": "What's he like as a person?",
     "level": "Sätze"
   },
   {
     "de": "Er ist immer nett und freundlich.",
-    "lv": "He is always nice and kind.",
+    "lv": "He's always nice and friendly.",
     "level": "Sätze"
   },
   {
@@ -3451,72 +3451,72 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich habe starke Kopfschmerzen.",
-    "lv": "I have a severe headache.",
+    "lv": "I've got a bad headache.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe mich erkältet.",
-    "lv": "I have a cold.",
+    "lv": "I've caught a cold.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe Schnupfen.",
-    "lv": "I have a runny nose.",
+    "lv": "I've got a runny nose.",
     "level": "Sätze"
   },
   {
     "de": "Mir ist schwindlig.",
-    "lv": "I'm dizzy.",
+    "lv": "I feel dizzy.",
     "level": "Sätze"
   },
   {
     "de": "Ich muss zum Arzt gehen.",
-    "lv": "I have to go to the doctor.",
+    "lv": "I need to go to the doctor's.",
     "level": "Sätze"
   },
   {
     "de": "Leg dich ins Bett!",
-    "lv": "Lie down in bed!",
+    "lv": "Go and lie down in bed!",
     "level": "Sätze"
   },
   {
     "de": "Hast du Fieber?",
-    "lv": "Do you have a fever?",
+    "lv": "Have you got a temperature?",
     "level": "Sätze"
   },
   {
     "de": "Gestern hatte ich erhöhte Temperatur.",
-    "lv": "I had a high temperature yesterday.",
+    "lv": "I had a slight temperature yesterday.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe Zahnschmerzen.",
-    "lv": "I have a toothache.",
+    "lv": "I've got toothache.",
     "level": "Sätze"
   },
   {
     "de": "Ich muss zum Zahnarzt gehen.",
-    "lv": "I have to go to the dentist.",
+    "lv": "I need to go to the dentist's.",
     "level": "Sätze"
   },
   {
     "de": "Weißt du, dass Finn krank ist?",
-    "lv": "Do you know that Finn is sick?",
+    "lv": "Did you know that Finn's ill?",
     "level": "Sätze"
   },
   {
     "de": "Laut Arzt wird er bald wieder gesund.",
-    "lv": "According to the doctor, he will be well again soon.",
+    "lv": "According to the doctor, he'll soon be well again.",
     "level": "Sätze"
   },
   {
     "de": "Ich will meine Wohnung neu möblieren.",
-    "lv": "I want to refurnish the apartment.",
+    "lv": "I want to refurnish my flat.",
     "level": "Sätze"
   },
   {
     "de": "Kann ich das auf Raten kaufen?",
-    "lv": "Can I buy it in installments?",
+    "lv": "Can I buy it in instalments?",
     "level": "Sätze"
   },
   {
@@ -3526,12 +3526,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Noah hat in zwei Wochen schwimmen gelernt.",
-    "lv": "Noah learned to swim in two weeks.",
+    "lv": "Noah learnt to swim in two weeks.",
     "level": "Sätze"
   },
   {
     "de": "Sei mit dem Essen noch vorsichtig.",
-    "lv": "Be careful with food.",
+    "lv": "Be careful with what you eat for a while yet.",
     "level": "Sätze"
   },
   {
@@ -3556,52 +3556,52 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich nehme seit einem Jahr Deutschstunden.",
-    "lv": "I have been taking German lessons for a year.",
+    "lv": "I've been having German lessons for a year.",
     "level": "Sätze"
   },
   {
     "de": "Ich suche immer Gelegenheit, Deutsch zu sprechen.",
-    "lv": "I am always looking for an opportunity to speak German.",
+    "lv": "I'm always looking for chances to speak German.",
     "level": "Sätze"
   },
   {
     "de": "Ist das Buch noch vorrätig?",
-    "lv": "Is this book still in stock?",
+    "lv": "Is the book still in stock?",
     "level": "Sätze"
   },
   {
     "de": "Das Buch ist leider ausverkauft.",
-    "lv": "Unfortunately, the book is sold out.",
+    "lv": "I'm afraid the book is sold out.",
     "level": "Sätze"
   },
   {
     "de": "Wann erscheint die neue Auflage?",
-    "lv": "When will the new edition come out?",
+    "lv": "When's the new edition coming out?",
     "level": "Sätze"
   },
   {
     "de": "Womit kann ich Ihnen helfen?",
-    "lv": "How can I help?",
+    "lv": "How can I help you?",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie ganz frische Eier?",
-    "lv": "Do you have fresh eggs?",
+    "lv": "Have you got really fresh eggs?",
     "level": "Sätze"
   },
   {
     "de": "Was kosten die?",
-    "lv": "How much do they cost?",
+    "lv": "How much are they?",
     "level": "Sätze"
   },
   {
     "de": "Das ist zu teuer.",
-    "lv": "It's too expensive.",
+    "lv": "That's too expensive.",
     "level": "Sätze"
   },
   {
     "de": "Können Sie mir ein halbes Kilo abwiegen?",
-    "lv": "Can you weigh out half a kilo for me?",
+    "lv": "Could you weigh out half a kilo for me?",
     "level": "Sätze"
   },
   {
@@ -3611,32 +3611,32 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wie viel kostet das Kilo?",
-    "lv": "How much does a kilogram cost?",
+    "lv": "How much is it a kilo?",
     "level": "Sätze"
   },
   {
     "de": "Wiegen Sie mir bitte zwei Kilo ab.",
-    "lv": "Please weigh out two kilograms for me.",
+    "lv": "Please weigh out two kilos for me.",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie auch Karotten?",
-    "lv": "Do you have carrots too?",
+    "lv": "Have you got carrots as well?",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie gutes Rindfleisch?",
-    "lv": "Do you have good beef?",
+    "lv": "Have you got any good beef?",
     "level": "Sätze"
   },
   {
     "de": "Geben Sie mir zwei Kilo Hackfleisch.",
-    "lv": "Give two kilograms of minced meat.",
+    "lv": "Please give me two kilos of mince.",
     "level": "Sätze"
   },
   {
     "de": "Ein Laib Brot, bitte, aber nicht zu knusprig.",
-    "lv": "One loaf of bread, please, but not too crusty.",
+    "lv": "A loaf of bread, please, but not too crusty.",
     "level": "Sätze"
   },
   {
@@ -3646,42 +3646,42 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Was für Obst haben Sie heute?",
-    "lv": "What fruit do you have today?",
+    "lv": "What fruit have you got today?",
     "level": "Sätze"
   },
   {
     "de": "Was kosten die Äpfel?",
-    "lv": "How much do apples cost?",
+    "lv": "How much are the apples?",
     "level": "Sätze"
   },
   {
     "de": "Dann nehme ich zwei Kilo Äpfel.",
-    "lv": "Then I will take two kilograms of apples.",
+    "lv": "Then I'll take two kilos of apples.",
     "level": "Sätze"
   },
   {
     "de": "Die Birnen sind sehr teuer.",
-    "lv": "Pears are very expensive.",
+    "lv": "The pears are very expensive.",
     "level": "Sätze"
   },
   {
     "de": "Können Sie mir alles nach Hause liefern?",
-    "lv": "Can you deliver everything to my home?",
+    "lv": "Could you deliver everything to my home?",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie Reis?",
-    "lv": "Do you have rice?",
+    "lv": "Have you got any rice?",
     "level": "Sätze"
   },
   {
     "de": "Geben Sie mir bitte ein Kilo Reis.",
-    "lv": "Give me a kilogram of rice, please.",
+    "lv": "Please give me a kilo of rice.",
     "level": "Sätze"
   },
   {
     "de": "Danke, diesmal nicht.",
-    "lv": "Thanks, not this time.",
+    "lv": "Thanks, but not this time.",
     "level": "Sätze"
   },
   {
@@ -3691,22 +3691,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Können Sie die Möbel in meine Wohnung liefern?",
-    "lv": "Can you deliver the furniture to my apartment?",
+    "lv": "Could you deliver the furniture to my flat?",
     "level": "Sätze"
   },
   {
     "de": "Bitte an der Kasse zahlen.",
-    "lv": "Please pay at the checkout.",
+    "lv": "Please pay at the till.",
     "level": "Sätze"
   },
   {
     "de": "Bitte, machen Sie die Rechnung.",
-    "lv": "Please issue an invoice.",
+    "lv": "Please make out the bill.",
     "level": "Sätze"
   },
   {
     "de": "Was kostet das Meter?",
-    "lv": "How much does a metre cost?",
+    "lv": "How much is it a metre?",
     "level": "Sätze"
   },
   {
@@ -3716,12 +3716,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Schneiden Sie mir bitte drei Meter ab.",
-    "lv": "Please cut off three meters for me.",
+    "lv": "Please cut off three metres for me.",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie auch andere Muster?",
-    "lv": "Do you have other samples?",
+    "lv": "Have you got any other patterns? • Have you got any other samples?",
     "level": "Sätze"
   },
   {
@@ -3731,7 +3731,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Geben Sie mir eine hellere.",
-    "lv": "Give me a lighter one.",
+    "lv": "Please give me a lighter one.",
     "level": "Sätze"
   },
   {
@@ -3746,12 +3746,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Die sind mir etwas zu eng.",
-    "lv": "They are a little too tight for me.",
+    "lv": "They're a bit too tight for me.",
     "level": "Sätze"
   },
   {
     "de": "So, nun passen sie gut.",
-    "lv": "So, now they fit well.",
+    "lv": "There, now they fit well.",
     "level": "Sätze"
   },
   {
@@ -3761,7 +3761,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich will einen Anzug bestellen.",
-    "lv": "I want to order a suit.",
+    "lv": "I want to have a suit made.",
     "level": "Sätze"
   },
   {
@@ -3781,7 +3781,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bitte reinigen und bügeln Sie ihn!",
-    "lv": "Please clean and iron it!",
+    "lv": "Please clean and press it!",
     "level": "Sätze"
   },
   {
@@ -3796,17 +3796,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Können Sie die Schuhe heute reparieren?",
-    "lv": "Can you fix the shoes today?",
+    "lv": "Could you repair the shoes today?",
     "level": "Sätze"
   },
   {
     "de": "Wann kann ich die Schuhe abholen?",
-    "lv": "When can I pick up the shoes?",
+    "lv": "When can I collect the shoes?",
     "level": "Sätze"
   },
   {
     "de": "Meine Armbanduhr funktioniert nicht.",
-    "lv": "My wristwatch is not working.",
+    "lv": "My watch isn't working.",
     "level": "Sätze"
   },
   {
@@ -3816,22 +3816,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bist du kurzsichtig oder weitsichtig?",
-    "lv": "Are you nearsighted or farsighted?",
+    "lv": "Are you short-sighted or long-sighted?",
     "level": "Sätze"
   },
   {
     "de": "Ich möchte eine Brille kaufen.",
-    "lv": "I want to buy glasses.",
+    "lv": "I'd like to buy a pair of glasses.",
     "level": "Sätze"
   },
   {
     "de": "Können Sie meine Brille reparieren?",
-    "lv": "Can you fix my glasses?",
+    "lv": "Could you repair my glasses?",
     "level": "Sätze"
   },
   {
     "de": "Das dauert nur eine Viertelstunde.",
-    "lv": "It will only take fifteen minutes.",
+    "lv": "It'll only take a quarter of an hour.",
     "level": "Sätze"
   },
   {
@@ -3841,12 +3841,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich brauche zwei Fotos für meinen Pass.",
-    "lv": "I need two passport photos.",
+    "lv": "I need two photos for my passport.",
     "level": "Sätze"
   },
   {
     "de": "Bitte packen Sie es ein und schicken Sie es mir nach Hause.",
-    "lv": "Please pack it and send it to my home.",
+    "lv": "Please wrap it up and send it to my home.",
     "level": "Sätze"
   },
   {
@@ -3856,7 +3856,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bitte, fotografieren Sie mich.",
-    "lv": "Please take a picture of me.",
+    "lv": "Please take a photo of me.",
     "level": "Sätze"
   },
   {
@@ -3866,7 +3866,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wann kann ich das Probebild sehen?",
-    "lv": "When can I see a sample?",
+    "lv": "When can I see the proof?",
     "level": "Sätze"
   },
   {
@@ -3876,17 +3876,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Die Aufnahme ist gelungen.",
-    "lv": "The photo turned out well.",
+    "lv": "The shot has come out well.",
     "level": "Sätze"
   },
   {
     "de": "Die Fotos sind gut geworden.",
-    "lv": "The photos turned out well.",
+    "lv": "The photos have turned out well.",
     "level": "Sätze"
   },
   {
     "de": "Können Sie das Foto auch vergrößern?",
-    "lv": "Can you also enlarge the photo?",
+    "lv": "Can you enlarge the photo as well?",
     "level": "Sätze"
   },
   {
@@ -3896,17 +3896,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ist das echtes Gold?",
-    "lv": "Is it real gold?",
+    "lv": "Is that real gold?",
     "level": "Sätze"
   },
   {
     "de": "Zeigen Sie mir bitte Trauringe.",
-    "lv": "Show me the wedding rings, please.",
+    "lv": "Please show me some wedding rings.",
     "level": "Sätze"
   },
   {
     "de": "Der Ring ist mir etwas zu weit.",
-    "lv": "The ring is a little too loose for me.",
+    "lv": "The ring's a bit too loose for me.",
     "level": "Sätze"
   },
   {
@@ -3921,7 +3921,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Zeigen Sie mir schöne Geschenkideen.",
-    "lv": "Show me some beautiful gift ideas.",
+    "lv": "Please show me some nice gift ideas.",
     "level": "Sätze"
   },
   {
@@ -3931,42 +3931,42 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Diese Brosche ist wirklich schön.",
-    "lv": "This brooch is very beautiful.",
+    "lv": "This brooch is really lovely.",
     "level": "Sätze"
   },
   {
     "de": "Der Stein ist ein Saphir.",
-    "lv": "This stone is a sapphire.",
+    "lv": "The stone is a sapphire.",
     "level": "Sätze"
   },
   {
     "de": "Das ist kein echter Stein, das ist Glas.",
-    "lv": "This isn't a real stone. It's glass.",
+    "lv": "That's not a real stone, it's glass.",
     "level": "Sätze"
   },
   {
     "de": "Dieses Armband kann ich Ihnen besonders empfehlen.",
-    "lv": "I can especially recommend this bracelet.",
+    "lv": "I can particularly recommend this bracelet.",
     "level": "Sätze"
   },
   {
     "de": "Es ist besonders schön gearbeitet.",
-    "lv": "It is particularly finely crafted.",
+    "lv": "It's exceptionally well made.",
     "level": "Sätze"
   },
   {
     "de": "Der Preis ist nicht hoch.",
-    "lv": "The price is not high.",
+    "lv": "The price isn't high.",
     "level": "Sätze"
   },
   {
     "de": "Bekomme ich die Schachtel gratis?",
-    "lv": "Do I get the box for free?",
+    "lv": "Do I get the box free of charge?",
     "level": "Sätze"
   },
   {
     "de": "Alle Schmuckstücke sind gestempelt.",
-    "lv": "All jewellery is stamped.",
+    "lv": "All the jewellery is hallmarked.",
     "level": "Sätze"
   },
   {
@@ -3976,7 +3976,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Natürlich, jederzeit.",
-    "lv": "Anytime, of course.",
+    "lv": "Of course, any time.",
     "level": "Sätze"
   }
 ];
