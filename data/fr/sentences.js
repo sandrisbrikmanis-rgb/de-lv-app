@@ -1,32 +1,32 @@
 const SENTENCE_ENTRIES = [
   {
     "de": "Hüte dich davor!",
-    "lv": "Méfiez-vous-en !",
+    "lv": "Méfie-t'en !",
     "level": "Sätze"
   },
   {
     "de": "Wenn nichts dazwischenkommt.",
-    "lv": "Si rien ne gêne. • Si tout se passe comme prévu.",
+    "lv": "Sauf imprévu. • Si tout se passe comme prévu.",
     "level": "Sätze"
   },
   {
     "de": "Das kann ich mir denken!",
-    "lv": "Je sais que!",
+    "lv": "Je m'en doute bien !",
     "level": "Sätze"
   },
   {
     "de": "Ist er denn krank?",
-    "lv": "Il est malade alors ?",
+    "lv": "Il est donc malade ?",
     "level": "Sätze"
   },
   {
     "de": "Was denn?",
-    "lv": "Et alors ?",
+    "lv": "Quoi donc ?",
     "level": "Sätze"
   },
   {
     "de": "Desto mehr.",
-    "lv": "Le plus.",
+    "lv": "D'autant plus.",
     "level": "Sätze"
   },
   {
@@ -36,37 +36,37 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Alles deutet auf Regen.",
-    "lv": "Tout indique le cas.",
+    "lv": "Tout annonce la pluie.",
     "level": "Sätze"
   },
   {
     "de": "Damit ist mir wenig gedient.",
-    "lv": "Cela n'a pas beaucoup de sens pour moi.",
+    "lv": "Cela ne m'avance guère.",
     "level": "Sätze"
   },
   {
     "de": "Er ist dienstlich verhindert.",
-    "lv": "Il ne peut pas venir à cause du travail.",
+    "lv": "Il est retenu pour raisons professionnelles.",
     "level": "Sätze"
   },
   {
     "de": "Sprechen Sie doch!",
-    "lv": "Parlez!",
+    "lv": "Parlez donc !",
     "level": "Sätze"
   },
   {
     "de": "Es donnert.",
-    "lv": "Le tonnerre gronde.",
+    "lv": "Il tonne.",
     "level": "Sätze"
   },
   {
     "de": "Doppelt so groß.",
-    "lv": "Deux fois plus gros.",
+    "lv": "Deux fois plus grand.",
     "level": "Sätze"
   },
   {
     "de": "Von dort.",
-    "lv": "A partir de là.",
+    "lv": "De là-bas.",
     "level": "Sätze"
   },
   {
@@ -76,22 +76,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ihn drücken Sorgen.",
-    "lv": "Il est submergé par l'inquiétude.",
+    "lv": "Les soucis l'accablent.",
     "level": "Sätze"
   },
   {
     "de": "Hast du das Buch durchgearbeitet?",
-    "lv": "Avez-vous parcouru attentivement le livre ?",
+    "lv": "As-tu étudié le livre à fond ?",
     "level": "Sätze"
   },
   {
     "de": "Kein Durchgang!",
-    "lv": "Ne passez pas à travers ! • Sortie fermée !",
+    "lv": "Passage interdit !",
     "level": "Sätze"
   },
   {
     "de": "Darf ich Sie bitten?",
-    "lv": "Puis-je vous demander",
+    "lv": "M'accordez-vous cette danse ? • Voulez-vous bien me suivre ?",
     "level": "Sätze"
   },
   {
@@ -106,22 +106,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Es ist ganz egal.",
-    "lv": "Cela n'a pas d'importance du tout.",
+    "lv": "Cela n'a aucune importance.",
     "level": "Sätze"
   },
   {
     "de": "Was wollen Sie eigentlich?",
-    "lv": "Que veux-tu vraiment ?",
+    "lv": "Que voulez-vous au juste ?",
     "level": "Sätze"
   },
   {
     "de": "Eilt es mit dieser Sache?",
-    "lv": "Cette affaire est-elle urgente ?",
+    "lv": "Cette affaire est-elle urgente ?",
     "level": "Sätze"
   },
   {
     "de": "Eilt sehr!",
-    "lv": "Très urgent !",
+    "lv": "Très urgent !",
     "level": "Sätze"
   },
   {
@@ -131,32 +131,32 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Du bildest dir nur ein, krank zu sein.",
-    "lv": "Vous imaginez simplement que vous êtes malade.",
+    "lv": "Tu t'imagines simplement que tu es malade.",
     "level": "Sätze"
   },
   {
     "de": "Was fällt dir ein?",
-    "lv": "Qu'est-ce qui vous vient à l'esprit ?",
+    "lv": "Qu'est-ce qui te prend ? • Qu'est-ce qui te vient à l'esprit ?",
     "level": "Sätze"
   },
   {
     "de": "Es war einmal.",
-    "lv": "Une fois il y en avait.",
+    "lv": "Il était une fois.",
     "level": "Sätze"
   },
   {
     "de": "Steigen Sie bitte ein!",
-    "lv": "S'il vous plaît, entrez !",
+    "lv": "Montez, s'il vous plaît !",
     "level": "Sätze"
   },
   {
     "de": "Treten Sie ein!",
-    "lv": "S'il vous plaît, entrez !",
+    "lv": "Entrez !",
     "level": "Sätze"
   },
   {
     "de": "Einzelnes hat mir dort gefallen.",
-    "lv": "J'ai aimé certaines choses là-bas.",
+    "lv": "Certaines choses m'y ont plu.",
     "level": "Sätze"
   },
   {
@@ -171,7 +171,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Entschuldigen Sie bitte!",
-    "lv": "Excusez-moi, s'il vous plaît!",
+    "lv": "Excusez-moi, s'il vous plaît !",
     "level": "Sätze"
   },
   {
@@ -181,77 +181,77 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wer war der Erste?",
-    "lv": "Qui était le premier ?",
+    "lv": "Qui était le premier ?",
     "level": "Sätze"
   },
   {
     "de": "Wer fehlt heute?",
-    "lv": "Qui n'est pas venu aujourd'hui ?",
+    "lv": "Qui est absent aujourd'hui ?",
     "level": "Sätze"
   },
   {
     "de": "Was fehlt dir?",
-    "lv": "Qu'est-ce qui ne va pas?",
+    "lv": "Qu'est-ce que tu as ?",
     "level": "Sätze"
   },
   {
     "de": "Wie heißen Sie?",
-    "lv": "Quel est ton nom?",
+    "lv": "Comment vous appelez-vous ?",
     "level": "Sätze"
   },
   {
     "de": "Was soll das heißen?",
-    "lv": "Qu'est-ce que cela signifie?",
+    "lv": "Qu'est-ce que cela veut dire ?",
     "level": "Sätze"
   },
   {
     "de": "Bitte treten Sie näher heran!",
-    "lv": "S'il vous plaît, rapprochez-vous !",
+    "lv": "Approchez-vous, s'il vous plaît !",
     "level": "Sätze"
   },
   {
     "de": "Heraus mit der Sprache!",
-    "lv": "Parler! • Des histoires !",
+    "lv": "Allez, parle !",
     "level": "Sätze"
   },
   {
     "de": "im Herbst",
-    "lv": "En automne",
+    "lv": "en automne",
     "level": "Sätze"
   },
   {
     "de": "Meine Herrschaften!",
-    "lv": "Mesdames et Messieurs!",
+    "lv": "Mesdames et Messieurs !",
     "level": "Sätze"
   },
   {
     "de": "von heute an",
-    "lv": "À partir d'aujourd'hui",
+    "lv": "à partir d'aujourd'hui",
     "level": "Sätze"
   },
   {
     "de": "heute früh",
-    "lv": "Ce matin",
+    "lv": "ce matin",
     "level": "Sätze"
   },
   {
     "de": "heute Nacht",
-    "lv": "La nuit dernière",
+    "lv": "cette nuit",
     "level": "Sätze"
   },
   {
     "de": "Zu Hilfe!",
-    "lv": "Aide!",
+    "lv": "Au secours !",
     "level": "Sätze"
   },
   {
     "de": "Ich lerne jeden Tag Deutsch.",
-    "lv": "J'étudie l'allemand tous les jours.",
+    "lv": "J'apprends l'allemand tous les jours.",
     "level": "Sätze"
   },
   {
     "de": "Kannst du das bitte wiederholen?",
-    "lv": "Pouvez-vous répéter cela s'il vous plaît ?",
+    "lv": "Peux-tu répéter, s'il te plaît ?",
     "level": "Sätze"
   },
   {
@@ -261,7 +261,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich stimme dir teilweise zu.",
-    "lv": "Je suis en partie d'accord avec vous.",
+    "lv": "Je suis en partie d'accord avec toi.",
     "level": "Sätze"
   },
   {
@@ -271,22 +271,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Man sollte mehrere Perspektiven berücksichtigen.",
-    "lv": "Plusieurs perspectives doivent être envisagées.",
+    "lv": "Il faudrait prendre en compte plusieurs points de vue.",
     "level": "Sätze"
   },
   {
     "de": "Könnten Sie das näher erläutern?",
-    "lv": "Pourriez-vous expliquer cela plus en détail ?",
+    "lv": "Pourriez-vous expliquer cela plus en détail ?",
     "level": "Sätze"
   },
   {
     "de": "Was mich anbelangt,...",
-    "lv": "Quant à moi...",
+    "lv": "En ce qui me concerne,...",
     "level": "Sätze"
   },
   {
     "de": "Wie alt sind Sie?",
-    "lv": "Quel âge as-tu?",
+    "lv": "Quel âge avez-vous ?",
     "level": "Sätze"
   },
   {
@@ -296,7 +296,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Von heute an.",
-    "lv": "A partir d'aujourd'hui.",
+    "lv": "À partir d'aujourd'hui.",
     "level": "Sätze"
   },
   {
@@ -316,22 +316,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bitte stellen Sie das Radio ab.",
-    "lv": "Veuillez éteindre la radio.",
+    "lv": "Éteignez la radio, s'il vous plaît.",
     "level": "Sätze"
   },
   {
     "de": "Achte bitte auf den Verkehr.",
-    "lv": "Veuillez faire attention au trafic.",
+    "lv": "Fais attention à la circulation, s'il te plaît.",
     "level": "Sätze"
   },
   {
     "de": "Darauf musst du achten.",
-    "lv": "Vous devriez y prêter attention.",
+    "lv": "Tu dois faire attention à cela.",
     "level": "Sätze"
   },
   {
     "de": "Heute mache ich es anders.",
-    "lv": "Aujourd'hui, je vais procéder différemment.",
+    "lv": "Aujourd'hui, je fais autrement.",
     "level": "Sätze"
   },
   {
@@ -351,12 +351,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich warte den Regen ab.",
-    "lv": "J'attendrai que la pluie s'arrête.",
+    "lv": "J'attends que la pluie cesse.",
     "level": "Sätze"
   },
   {
     "de": "Er arbeitet in der Verkaufsabteilung.",
-    "lv": "Il travaille au département des ventes.",
+    "lv": "Il travaille au service des ventes.",
     "level": "Sätze"
   },
   {
@@ -381,37 +381,37 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich möchte das genauer analysieren.",
-    "lv": "Je veux l'analyser plus précisément.",
+    "lv": "Je voudrais analyser cela plus en détail.",
     "level": "Sätze"
   },
   {
     "de": "Ich möchte den Vertrag ändern.",
-    "lv": "Je veux modifier le contrat.",
+    "lv": "Je voudrais modifier le contrat.",
     "level": "Sätze"
   },
   {
     "de": "Er ändert ständig seine Meinung.",
-    "lv": "Il change constamment d'avis.",
+    "lv": "Il change sans cesse d'avis.",
     "level": "Sätze"
   },
   {
     "de": "Ähnliche Probleme hatten wir schon früher.",
-    "lv": "Nous avons déjà eu des problèmes similaires.",
+    "lv": "Nous avons déjà eu des problèmes similaires auparavant.",
     "level": "Sätze"
   },
   {
     "de": "Keine Ahnung!",
-    "lv": "Aucune idée !",
+    "lv": "Aucune idée !",
     "level": "Sätze"
   },
   {
     "de": "Hör auf zu jammern.",
-    "lv": "Arrêtez de vous plaindre.",
+    "lv": "Arrête de te plaindre.",
     "level": "Sätze"
   },
   {
     "de": "Dieses Kleid ist akademisch gekleidet.",
-    "lv": "Cette robe est élégamment conservatrice.",
+    "lv": "Cette robe est d'une élégance classique.",
     "level": "Sätze"
   },
   {
@@ -421,12 +421,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Kannst du das Gerät anklicken?",
-    "lv": "Pouvez-vous cliquer sur l'appareil ?",
+    "lv": "Peux-tu cliquer sur l'appareil ?",
     "level": "Sätze"
   },
   {
     "de": "Bitte öffne die Datei und klicke darauf.",
-    "lv": "Veuillez ouvrir le fichier et cliquer dessus.",
+    "lv": "Ouvre le fichier et clique dessus, s'il te plaît.",
     "level": "Sätze"
   },
   {
@@ -436,42 +436,42 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wir laufen zum Bahnhof.",
-    "lv": "Nous allons à la gare.",
+    "lv": "Nous allons à la gare à pied.",
     "level": "Sätze"
   },
   {
     "de": "Bitte schalte den Fernseher an.",
-    "lv": "Veuillez allumer la télévision.",
+    "lv": "Allume la télévision, s'il te plaît.",
     "level": "Sätze"
   },
   {
     "de": "Mein Computer ist abgestürzt.",
-    "lv": "Mon ordinateur est tombé en panne.",
+    "lv": "Mon ordinateur s'est bloqué.",
     "level": "Sätze"
   },
   {
     "de": "Am Wochenende gehe ich angeln.",
-    "lv": "J'irai pêcher le week-end.",
+    "lv": "Le week-end, je vais à la pêche.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe den Anruf verpasst.",
-    "lv": "J'ai raté l'appel.",
+    "lv": "J'ai manqué l'appel.",
     "level": "Sätze"
   },
   {
     "de": "Kannst du mich später anrufen?",
-    "lv": "Peux-tu m'appeler plus tard",
+    "lv": "Peux-tu m'appeler plus tard ?",
     "level": "Sätze"
   },
   {
     "de": "Bitte nimm meinen Vorschlag an.",
-    "lv": "Veuillez accepter ma proposition.",
+    "lv": "Accepte ma proposition, s'il te plaît.",
     "level": "Sätze"
   },
   {
     "de": "Ich nehme dein Angebot an.",
-    "lv": "J'accepte votre offre.",
+    "lv": "J'accepte ton offre.",
     "level": "Sätze"
   },
   {
@@ -486,22 +486,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Keine Angst, alles wird gut.",
-    "lv": "N'ayez pas peur, tout ira bien.",
+    "lv": "Pas d'inquiétude, tout ira bien.",
     "level": "Sätze"
   },
   {
     "de": "Anklang finden.",
-    "lv": "Trouvez un écho. • Trouver de la réactivité",
+    "lv": "Être bien accueilli. • Trouver un écho.",
     "level": "Sätze"
   },
   {
     "de": "Es kommt darauf an.",
-    "lv": "Cela dépend de cela.",
+    "lv": "Cela dépend.",
     "level": "Sätze"
   },
   {
     "de": "Aus diesem Anlass.",
-    "lv": "À cause de cette fois. • À cet égard",
+    "lv": "À cette occasion.",
     "level": "Sätze"
   },
   {
@@ -511,17 +511,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Was hast du da angerichtet?",
-    "lv": "Qu'as-tu fait là",
+    "lv": "Qu'est-ce que tu as fait là ?",
     "level": "Sätze"
   },
   {
     "de": "Bis ans Ende.",
-    "lv": "Jusqu'à la fin.",
+    "lv": "Jusqu'au bout.",
     "level": "Sätze"
   },
   {
     "de": "Du glaubst mir anscheinend nicht.",
-    "lv": "Vous n'avez pas l'air de me croire.",
+    "lv": "Tu n'as pas l'air de me croire.",
     "level": "Sätze"
   },
   {
@@ -531,12 +531,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Stell dich nicht so an!",
-    "lv": "Ne faites pas semblant !",
+    "lv": "Ne fais pas tant d'histoires !",
     "level": "Sätze"
   },
   {
     "de": "An die Arbeit gehen.",
-    "lv": "Mettez-vous au travail.",
+    "lv": "Se mettre au travail.",
     "level": "Sätze"
   },
   {
@@ -546,47 +546,47 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Guten Appetit!",
-    "lv": "Bon appétit !",
+    "lv": "Bon appétit !",
     "level": "Sätze"
   },
   {
     "de": "In einem Atemzug.",
-    "lv": "D'un seul souffle.",
+    "lv": "D'une seule traite.",
     "level": "Sätze"
   },
   {
     "de": "Auf jeden Fall.",
-    "lv": "Dans chaque cas.",
+    "lv": "En tout cas. • Sans aucun doute.",
     "level": "Sätze"
   },
   {
     "de": "Auf einmal war alles still.",
-    "lv": "Soudain, tout devint calme.",
+    "lv": "Tout à coup, tout est devenu silencieux.",
     "level": "Sätze"
   },
   {
     "de": "Bitte mach die Tür auf!",
-    "lv": "S'il vous plaît, ouvrez la porte !",
+    "lv": "Ouvre la porte, s'il te plaît !",
     "level": "Sätze"
   },
   {
     "de": "Er hat den Kredit aufgenommen.",
-    "lv": "Il a contracté un emprunt.",
+    "lv": "Il a contracté le prêt.",
     "level": "Sätze"
   },
   {
     "de": "Wir müssen heute aufräumen.",
-    "lv": "Nous devons ranger la pièce aujourd'hui.",
+    "lv": "Nous devons ranger aujourd'hui.",
     "level": "Sätze"
   },
   {
     "de": "Ich höre jetzt auf.",
-    "lv": "Je vais arrêter maintenant.",
+    "lv": "J'arrête maintenant.",
     "level": "Sätze"
   },
   {
     "de": "Er ist schon auf.",
-    "lv": "Il est déjà debout.",
+    "lv": "Il est déjà levé.",
     "level": "Sätze"
   },
   {
@@ -601,57 +601,57 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Auf einmal.",
-    "lv": "Soudainement.",
+    "lv": "Tout à coup.",
     "level": "Sätze"
   },
   {
     "de": "Auf der Stelle.",
-    "lv": "Immédiatement.",
+    "lv": "Sur-le-champ.",
     "level": "Sätze"
   },
   {
     "de": "Für den Schaden aufkommen.",
-    "lv": "Couvrez les dommages.",
+    "lv": "Prendre en charge les dégâts.",
     "level": "Sätze"
   },
   {
     "de": "Bitte die Tür auf!",
-    "lv": "Ouvrez la porte, s'il vous plaît !",
+    "lv": "Ouvrez la porte, s'il vous plaît !",
     "level": "Sätze"
   },
   {
     "de": "Aufrecht sitzen.",
-    "lv": "Se redresser.",
+    "lv": "Être assis bien droit.",
     "level": "Sätze"
   },
   {
     "de": "Er ist auf.",
-    "lv": "Il s'est levé.",
+    "lv": "Il est levé.",
     "level": "Sätze"
   },
   {
     "de": "Alle Kräfte aufwenden.",
-    "lv": "Consacrez toutes vos forces.",
+    "lv": "Déployer toutes ses forces.",
     "level": "Sätze"
   },
   {
     "de": "Viel Mühe aufwenden.",
-    "lv": "Essayez très fort.",
+    "lv": "Se donner beaucoup de mal.",
     "level": "Sätze"
   },
   {
     "de": "Geh mir aus den Augen!",
-    "lv": "Ne me regarde plus !",
+    "lv": "Disparais de ma vue !",
     "level": "Sätze"
   },
   {
     "de": "Unter vier Augen.",
-    "lv": "En deux. • Tranquillement",
+    "lv": "En tête à tête.",
     "level": "Sätze"
   },
   {
     "de": "Aus Mangel an Zeit.",
-    "lv": "Par manque de temps.",
+    "lv": "Faute de temps.",
     "level": "Sätze"
   },
   {
@@ -661,12 +661,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Alle außer dir.",
-    "lv": "Tout le monde sauf vous.",
+    "lv": "Tout le monde sauf toi.",
     "level": "Sätze"
   },
   {
     "de": "Auf Äußerlichkeiten Wert legen.",
-    "lv": "Accordez de l’importance à l’apparence.",
+    "lv": "Attacher de l'importance aux apparences.",
     "level": "Sätze"
   },
   {
@@ -681,7 +681,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Aussicht auf die See.",
-    "lv": "Vue mer.",
+    "lv": "Vue sur la mer.",
     "level": "Sätze"
   },
   {
@@ -691,32 +691,32 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wie wird dieses Wort ausgesprochen?",
-    "lv": "Comment ce mot est-il prononcé ?",
+    "lv": "Comment se prononce ce mot ?",
     "level": "Sätze"
   },
   {
     "de": "Sein Beileid aussprechen.",
-    "lv": "Exprimez vos condoléances.",
+    "lv": "Présenter ses condoléances.",
     "level": "Sätze"
   },
   {
     "de": "Wann wurden die Meisterschaftskämpfe ausgetragen?",
-    "lv": "C'était quand le championnat ?",
+    "lv": "Quand le championnat s'est-il disputé ?",
     "level": "Sätze"
   },
   {
     "de": "Welchen Beruf üben Sie aus?",
-    "lv": "Quel est ton métier ?",
+    "lv": "Quelle profession exercez-vous ?",
     "level": "Sätze"
   },
   {
     "de": "Einfluss ausüben.",
-    "lv": "Pour influencer.",
+    "lv": "Exercer une influence.",
     "level": "Sätze"
   },
   {
     "de": "Auswärts essen.",
-    "lv": "Mangez dehors.",
+    "lv": "Manger à l'extérieur.",
     "level": "Sätze"
   },
   {
@@ -726,42 +726,42 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Mit der Bahn.",
-    "lv": "Par chemin de fer.",
+    "lv": "En train.",
     "level": "Sätze"
   },
   {
     "de": "Möglichst bald.",
-    "lv": "Dès que possible.",
+    "lv": "Le plus tôt possible.",
     "level": "Sätze"
   },
   {
     "de": "Mir ist Angst und bange.",
-    "lv": "J'ai très peur.",
+    "lv": "J'ai une peur bleue.",
     "level": "Sätze"
   },
   {
     "de": "Auf die lange Bank schieben.",
-    "lv": "Tergiverser. • Faire glisser jusqu'à la longueur • Reporter indéfiniment",
+    "lv": "Remettre à plus tard. • Faire traîner les choses.",
     "level": "Sätze"
   },
   {
     "de": "Bar zahlen.",
-    "lv": "Payez en espèces.",
+    "lv": "Payer en espèces.",
     "level": "Sätze"
   },
   {
     "de": "Erz bauen.",
-    "lv": "Obtenez du minerai.",
+    "lv": "Extraire du minerai.",
     "level": "Sätze"
   },
   {
     "de": "Mist bauen.",
-    "lv": "Tirer. • Faites-vous ridiculiser",
+    "lv": "Faire des bêtises.",
     "level": "Sätze"
   },
   {
     "de": "Ich bin beauftragt.",
-    "lv": "On m'a assigné un travail.",
+    "lv": "On m'en a chargé.",
     "level": "Sätze"
   },
   {
@@ -771,12 +771,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich bedauere ihn.",
-    "lv": "Je suis désolé pour lui.",
+    "lv": "Je le plains.",
     "level": "Sätze"
   },
   {
     "de": "Was bedeutet dieses Wort?",
-    "lv": "Que signifie ce mot ?",
+    "lv": "Que signifie ce mot ?",
     "level": "Sätze"
   },
   {
@@ -786,27 +786,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Sie sieht bedrückt aus.",
-    "lv": "Elle a l'air déprimée.",
+    "lv": "Elle a l'air abattue.",
     "level": "Sätze"
   },
   {
     "de": "Hinweise befolgen.",
-    "lv": "Suivez les instructions.",
+    "lv": "Suivre les indications.",
     "level": "Sätze"
   },
   {
     "de": "Befehle befolgen.",
-    "lv": "Suivez les ordres.",
+    "lv": "Obéir aux ordres.",
     "level": "Sätze"
   },
   {
     "de": "Mit der Post befördern.",
-    "lv": "Envoyer par courrier.",
+    "lv": "Envoyer par la poste.",
     "level": "Sätze"
   },
   {
     "de": "Ich bin begierig zu wissen.",
-    "lv": "Je veux vraiment savoir.",
+    "lv": "Je suis impatient de savoir.",
     "level": "Sätze"
   },
   {
@@ -821,7 +821,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bei Beginn.",
-    "lv": "Départ",
+    "lv": "Dès le début.",
     "level": "Sätze"
   },
   {
@@ -831,62 +831,62 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Mit seiner Begleitung.",
-    "lv": "Avec accompagnement.",
+    "lv": "Avec son accompagnateur.",
     "level": "Sätze"
   },
   {
     "de": "Er ist schwer von Begriff.",
-    "lv": "Il est lent à percevoir. • Il réfléchit lentement",
+    "lv": "Il est lent à comprendre.",
     "level": "Sätze"
   },
   {
     "de": "Im Gedächtnis behalten.",
-    "lv": "Souviens-toi. • Gardez en mémoire",
+    "lv": "Garder en mémoire.",
     "level": "Sätze"
   },
   {
     "de": "Bei Tisch.",
-    "lv": "A table.",
+    "lv": "À table.",
     "level": "Sätze"
   },
   {
     "de": "Bei Sinnen sein.",
-    "lv": "Être sain d’esprit.",
+    "lv": "Avoir toute sa tête.",
     "level": "Sätze"
   },
   {
     "de": "Bei Tage.",
-    "lv": "Pendant la journée.",
+    "lv": "De jour.",
     "level": "Sätze"
   },
   {
     "de": "Bei weitem nicht so.",
-    "lv": "Pas du tout.",
+    "lv": "Loin de là.",
     "level": "Sätze"
   },
   {
     "de": "Alle beide.",
-    "lv": "Les deux deux.",
+    "lv": "Tous les deux.",
     "level": "Sätze"
   },
   {
     "de": "Stürmischer Beifall brach los.",
-    "lv": "Il y a eu un tonnerre d'applaudissements.",
+    "lv": "Un tonnerre d'applaudissements a éclaté.",
     "level": "Sätze"
   },
   {
     "de": "Beifall finden.",
-    "lv": "Obtenez le consentement.",
+    "lv": "Recevoir un accueil favorable.",
     "level": "Sätze"
   },
   {
     "de": "Beileid aussprechen.",
-    "lv": "Exprimez vos condoléances.",
+    "lv": "Exprimer ses condoléances.",
     "level": "Sätze"
   },
   {
     "de": "Auf eigenen Beinen stehen.",
-    "lv": "Être financièrement indépendant.",
+    "lv": "Voler de ses propres ailes.",
     "level": "Sätze"
   },
   {
@@ -896,42 +896,42 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Beistand leisten.",
-    "lv": "Pour aider. • Fournir de l'aide",
+    "lv": "Prêter assistance.",
     "level": "Sätze"
   },
   {
     "de": "Beitrag leisten.",
-    "lv": "Investissez votre part.",
+    "lv": "Apporter sa contribution.",
     "level": "Sätze"
   },
   {
     "de": "Jemandes Bekanntschaft machen.",
-    "lv": "Apprenez à connaître quelqu'un.",
+    "lv": "Faire la connaissance de quelqu'un.",
     "level": "Sätze"
   },
   {
     "de": "Bekanntschaft anknüpfen.",
-    "lv": "Apprenez à vous connaître. • Établir le contact",
+    "lv": "Lier connaissance.",
     "level": "Sätze"
   },
   {
     "de": "Belegte Brötchen.",
-    "lv": "Sandwichs avec garnitures.",
+    "lv": "Petits pains garnis.",
     "level": "Sätze"
   },
   {
     "de": "Nach Ihrem Belieben.",
-    "lv": "Comme vous le souhaitez.",
+    "lv": "Comme vous voudrez.",
     "level": "Sätze"
   },
   {
     "de": "Zu jeder beliebigen Zeit.",
-    "lv": "À tout moment.",
+    "lv": "À n'importe quel moment.",
     "level": "Sätze"
   },
   {
     "de": "Schweigen beobachten.",
-    "lv": "Observer le silence.",
+    "lv": "Garder le silence.",
     "level": "Sätze"
   },
   {
@@ -941,17 +941,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bereit sein.",
-    "lv": "Soyez prêt. • Soyez en paix",
+    "lv": "Être prêt. • Être disposé.",
     "level": "Sätze"
   },
   {
     "de": "Unfallopfer bergen.",
-    "lv": "Secourir les victimes en cas d'accident.",
+    "lv": "Secourir les victimes d'un accident.",
     "level": "Sätze"
   },
   {
     "de": "Bericht erstatten.",
-    "lv": "Rapport. • Fournir un rapport • Fournir un aperçu",
+    "lv": "Faire un rapport.",
     "level": "Sätze"
   },
   {
@@ -961,7 +961,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Neue Besen kehren gut.",
-    "lv": "Un nouveau balai balaie bien.",
+    "lv": "Tout nouveau, tout beau.",
     "level": "Sätze"
   },
   {
@@ -971,27 +971,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Er besitzt viel Mut.",
-    "lv": "Il a un grand courage.",
+    "lv": "Il a beaucoup de courage.",
     "level": "Sätze"
   },
   {
     "de": "Desto besser.",
-    "lv": "Le mieux.",
+    "lv": "Tant mieux.",
     "level": "Sätze"
   },
   {
     "de": "Gute Besserung!",
-    "lv": "Guéris! • Guéris!",
+    "lv": "Bon rétablissement !",
     "level": "Sätze"
   },
   {
     "de": "Beim besten Willen.",
-    "lv": "Tout ce que vous voulez.",
+    "lv": "Avec la meilleure volonté du monde.",
     "level": "Sätze"
   },
   {
     "de": "Am besten.",
-    "lv": "Le meilleur.",
+    "lv": "Le mieux.",
     "level": "Sätze"
   },
   {
@@ -1001,62 +1001,62 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Seine Aufgabe besteht darin...",
-    "lv": "Sa tâche est...",
+    "lv": "Sa tâche consiste à...",
     "level": "Sätze"
   },
   {
     "de": "Grüße bestellen.",
-    "lv": "Dites bonjour.",
+    "lv": "Transmettre ses amitiés.",
     "level": "Sätze"
   },
   {
     "de": "Ganz bestimmt.",
-    "lv": "Certainement. • Complètement sûr",
+    "lv": "Sans aucun doute.",
     "level": "Sätze"
   },
   {
     "de": "Zu Besuch kommen.",
-    "lv": "Venez visiter.",
+    "lv": "Venir en visite.",
     "level": "Sätze"
   },
   {
     "de": "Zu Besuch sein.",
-    "lv": "A visiter. • A visiter",
+    "lv": "Être en visite.",
     "level": "Sätze"
   },
   {
     "de": "Oft Konzerte besuchen.",
-    "lv": "Je vais souvent à des concerts.",
+    "lv": "Aller souvent au concert.",
     "level": "Sätze"
   },
   {
     "de": "Welche Schule hat er besucht?",
-    "lv": "Dans quelle école est-il allé ?",
+    "lv": "Dans quelle école est-il allé ?",
     "level": "Sätze"
   },
   {
     "de": "In Betracht ziehen.",
-    "lv": "Prendre en considération. • Considérer",
+    "lv": "Prendre en considération. • Envisager.",
     "level": "Sätze"
   },
   {
     "de": "Außer Betracht lassen.",
-    "lv": "Mépris. • Ne considérez pas",
+    "lv": "Ne pas prendre en considération.",
     "level": "Sätze"
   },
   {
     "de": "Er betreibt ein Hotel.",
-    "lv": "Il dirige un hôtel.",
+    "lv": "Il tient un hôtel.",
     "level": "Sätze"
   },
   {
     "de": "Alle beiden.",
-    "lv": "Les deux deux.",
+    "lv": "Tous les deux.",
     "level": "Sätze"
   },
   {
     "de": "Alles bezahlen.",
-    "lv": "Payez tout.",
+    "lv": "Tout payer.",
     "level": "Sätze"
   },
   {
@@ -1066,32 +1066,32 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bitte schön.",
-    "lv": "S'il te plaît",
+    "lv": "De rien. • Voilà.",
     "level": "Sätze"
   },
   {
     "de": "Wie bitte?",
-    "lv": "Comment s'il vous plaît",
+    "lv": "Pardon ?",
     "level": "Sätze"
   },
   {
     "de": "Bitte sehr.",
-    "lv": "S'il te plaît",
+    "lv": "Il n'y a pas de quoi. • Voici.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe eine Bitte an Sie.",
-    "lv": "J'ai une demande pour vous.",
+    "lv": "J'ai un service à vous demander.",
     "level": "Sätze"
   },
   {
     "de": "Trompete blasen.",
-    "lv": "Sonnez de la trompette.",
+    "lv": "Jouer de la trompette.",
     "level": "Sätze"
   },
   {
     "de": "In einem Buch blättern.",
-    "lv": "Triez le livre.",
+    "lv": "Feuilleter un livre.",
     "level": "Sätze"
   },
   {
@@ -1101,37 +1101,37 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Mit bloßem Auge.",
-    "lv": "A l'œil nu.",
+    "lv": "À l'œil nu.",
     "level": "Sätze"
   },
   {
     "de": "Danke für die Blumen!",
-    "lv": "Merci pour les fleurs!",
+    "lv": "Merci du compliment !",
     "level": "Sätze"
   },
   {
     "de": "Alles in Butter.",
-    "lv": "Tout va bien.",
+    "lv": "Tout va comme sur des roulettes.",
     "level": "Sätze"
   },
   {
     "de": "Bitte checken.",
-    "lv": "Vérifier. • Vérifier",
+    "lv": "Prière de vérifier.",
     "level": "Sätze"
   },
   {
     "de": "Da ist er!",
-    "lv": "Le voilà !",
+    "lv": "Le voilà !",
     "level": "Sätze"
   },
   {
     "de": "Alles spricht dafür.",
-    "lv": "Tout parle bien.",
+    "lv": "Tout porte à le croire.",
     "level": "Sätze"
   },
   {
     "de": "Ich kann nichts dafür.",
-    "lv": "Là, je ne peux rien faire.",
+    "lv": "Ce n'est pas ma faute.",
     "level": "Sätze"
   },
   {
@@ -1141,27 +1141,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich habe nichts dagegen.",
-    "lv": "Je n’ai aucune objection à cela.",
+    "lv": "Je n'y vois pas d'inconvénient.",
     "level": "Sätze"
   },
   {
     "de": "Von daheim.",
-    "lv": "De chez moi.",
+    "lv": "De la maison.",
     "level": "Sätze"
   },
   {
     "de": "Mit der Dame ziehen.",
-    "lv": "Faites un geste de dame.",
+    "lv": "Déplacer la dame.",
     "level": "Sätze"
   },
   {
     "de": "Es dämmert.",
-    "lv": "Il fait noir. • L'aube se lève.",
+    "lv": "Le jour tombe. • Le jour se lève.",
     "level": "Sätze"
   },
   {
     "de": "Danke schön!",
-    "lv": "Merci! • Merci!",
+    "lv": "Merci beaucoup !",
     "level": "Sätze"
   },
   {
@@ -1171,7 +1171,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Darauf kannst du dich verlassen.",
-    "lv": "Vous pouvez compter sur cela.",
+    "lv": "Tu peux compter là-dessus.",
     "level": "Sätze"
   },
   {
@@ -1186,127 +1186,127 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Für wen halten Sie mich?",
-    "lv": "Que penses-tu que je suis ?",
+    "lv": "Pour qui me prenez-vous ?",
     "level": "Sätze"
   },
   {
     "de": "Hände weg!",
-    "lv": "Ne touchez pas!",
+    "lv": "Bas les pattes !",
     "level": "Sätze"
   },
   {
     "de": "Lass den Kopf nicht hängen!",
-    "lv": "Ne baissez pas la tête !",
+    "lv": "Ne te laisse pas abattre !",
     "level": "Sätze"
   },
   {
     "de": "zu Hause",
-    "lv": "À la maison",
+    "lv": "à la maison",
     "level": "Sätze"
   },
   {
     "de": "nach Hause gehen",
-    "lv": "Rentre chez toi",
+    "lv": "rentrer à la maison",
     "level": "Sätze"
   },
   {
     "de": "von Haus aus",
-    "lv": "Depuis l'enfance • Dès le début",
+    "lv": "d'origine • par nature",
     "level": "Sätze"
   },
   {
     "de": "Meinen herzlichsten Glückwunsch!",
-    "lv": "Félicitations!",
+    "lv": "Toutes mes félicitations !",
     "level": "Sätze"
   },
   {
     "de": "Seien Sie so gut!",
-    "lv": "Soyez si gentil ! • Soyez si bon !",
+    "lv": "Soyez gentil !",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie die Güte!",
-    "lv": "Soyez si gentil !",
+    "lv": "Ayez la bonté !",
     "level": "Sätze"
   },
   {
     "de": "Was hast du?",
-    "lv": "Qu'est-ce qui ne va pas? • Ce qui s'est passé?",
+    "lv": "Qu'est-ce que tu as ?",
     "level": "Sätze"
   },
   {
     "de": "Gestatten Sie bitte!",
-    "lv": "Permettez-moi, s'il vous plaît !",
+    "lv": "Permettez-moi, s'il vous plaît !",
     "level": "Sätze"
   },
   {
     "de": "Ist es gestattet zu rauchen?",
-    "lv": "Puis-je fumer ?",
+    "lv": "Est-il permis de fumer ?",
     "level": "Sätze"
   },
   {
     "de": "Ich muss gestehen, dass...",
-    "lv": "Je dois l'admettre...",
+    "lv": "Je dois avouer que...",
     "level": "Sätze"
   },
   {
     "de": "gestern früh",
-    "lv": "Tôt hier matin",
+    "lv": "hier matin",
     "level": "Sätze"
   },
   {
     "de": "gestern Abend",
-    "lv": "La nuit dernière",
+    "lv": "hier soir",
     "level": "Sätze"
   },
   {
     "de": "Es ist mir gleichgültig, ob...",
-    "lv": "Je m'en fiche si...",
+    "lv": "Peu m'importe que...",
     "level": "Sätze"
   },
   {
     "de": "Was ist geschehen?",
-    "lv": "Ce qui s'est passé?",
+    "lv": "Que s'est-il passé ?",
     "level": "Sätze"
   },
   {
     "de": "Mach keine Geschichten!",
-    "lv": "Ne faites pas de bêtises ! • Ne faites pas de blagues !",
+    "lv": "Ne fais pas d'histoires ! • Ne fais pas de bêtises !",
     "level": "Sätze"
   },
   {
     "de": "Geschweige denn...",
-    "lv": "Sans parler de ça. • Où d'autre",
+    "lv": "Et encore moins...",
     "level": "Sätze"
   },
   {
     "de": "Gehen Sie geradeaus!",
-    "lv": "Allez tout droit !",
+    "lv": "Allez tout droit !",
     "level": "Sätze"
   },
   {
     "de": "Wie geht es Ihnen?",
-    "lv": "Comment vas-tu • Comment vas-tu ?",
+    "lv": "Comment allez-vous ?",
     "level": "Sätze"
   },
   {
     "de": "Frag ihn gelegentlich, ob...",
-    "lv": "Demandez-lui s'il sort si...",
+    "lv": "Demande-lui à l'occasion si...",
     "level": "Sätze"
   },
   {
     "de": "morgen früh",
-    "lv": "Demain matin",
+    "lv": "demain matin",
     "level": "Sätze"
   },
   {
     "de": "im Frühling",
-    "lv": "Au printemps",
+    "lv": "au printemps",
     "level": "Sätze"
   },
   {
     "de": "Was gibt’s Neues?",
-    "lv": "Quoi de neuf?",
+    "lv": "Quoi de neuf ?",
     "level": "Sätze"
   },
   {
@@ -1316,12 +1316,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Fahre fort!",
-    "lv": "Continuez comme ça!",
+    "lv": "Continue !",
     "level": "Sätze"
   },
   {
     "de": "Er ist kein Freund von...",
-    "lv": "Il n'aime pas...",
+    "lv": "Il n'est pas amateur de...",
     "level": "Sätze"
   },
   {
@@ -1331,112 +1331,112 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Gedenkst du meiner?",
-    "lv": "Te souviens-tu de moi • As-tu pensé à moi ?",
+    "lv": "Te souviens-tu de moi ? • Penses-tu à moi ?",
     "level": "Sätze"
   },
   {
     "de": "im Winter",
-    "lv": "En hiver",
+    "lv": "en hiver",
     "level": "Sätze"
   },
   {
     "de": "Welcher Jahrgang sind Sie?",
-    "lv": "En quelle année es-tu né ?",
+    "lv": "En quelle année êtes-vous né ?",
     "level": "Sätze"
   },
   {
     "de": "Es jammert mich zu sehen...",
-    "lv": "C'est triste à voir...",
+    "lv": "Cela me fait de la peine de voir...",
     "level": "Sätze"
   },
   {
     "de": "je mehr, desto besser",
-    "lv": "Plus il y en a, mieux c'est",
+    "lv": "plus il y en a, mieux c'est",
     "level": "Sätze"
   },
   {
     "de": "bis jetzt",
-    "lv": "Jusqu'à maintenant",
+    "lv": "jusqu'à présent",
     "level": "Sätze"
   },
   {
     "de": "Wie komme ich zum Bahnhof?",
-    "lv": "Comment se rendre à la gare ?",
+    "lv": "Comment puis-je aller à la gare ?",
     "level": "Sätze"
   },
   {
     "de": "Komm her!",
-    "lv": "Venez ici!",
+    "lv": "Viens ici !",
     "level": "Sätze"
   },
   {
     "de": "Könnte ich Frau N. sprechen?",
-    "lv": "Puis-je parler à Mme N. ?",
+    "lv": "Pourrais-je parler à madame N. ?",
     "level": "Sätze"
   },
   {
     "de": "Was kostet das?",
-    "lv": "Combien ça coûte?",
+    "lv": "Combien cela coûte-t-il ?",
     "level": "Sätze"
   },
   {
     "de": "Wie lange dauert die Vorstellung?",
-    "lv": "Combien de temps durera la représentation ?",
+    "lv": "Combien de temps dure la représentation ?",
     "level": "Sätze"
   },
   {
     "de": "Lass das!",
-    "lv": "Arrêtez ça ! • Lâchez-le !",
+    "lv": "Arrête ! • Laisse ça !",
     "level": "Sätze"
   },
   {
     "de": "Lass mich in Ruhe!",
-    "lv": "Laisse-moi tranquille!",
+    "lv": "Laisse-moi tranquille !",
     "level": "Sätze"
   },
   {
     "de": "Lassen Sie mich Ihnen helfen!",
-    "lv": "Laissez-moi vous aider !",
+    "lv": "Permettez-moi de vous aider !",
     "level": "Sätze"
   },
   {
     "de": "Lasst uns gehen!",
-    "lv": "Allons-y!",
+    "lv": "Allons-y !",
     "level": "Sätze"
   },
   {
     "de": "Na, wie läufts?",
-    "lv": "Comment vas-tu",
+    "lv": "Alors, comment ça se passe ?",
     "level": "Sätze"
   },
   {
     "de": "Es lebe!",
-    "lv": "Vive la vie !",
+    "lv": "Vive !",
     "level": "Sätze"
   },
   {
     "de": "Leben Sie wohl!",
-    "lv": "Vivez en bonne santé ! • Au revoir!",
+    "lv": "Adieu !",
     "level": "Sätze"
   },
   {
     "de": "Was ist los?",
-    "lv": "Ce qui s'est passé?",
+    "lv": "Qu'est-ce qui se passe ?",
     "level": "Sätze"
   },
   {
     "de": "Der Job ist anstrengend.",
-    "lv": "Le travail est épuisant.",
+    "lv": "Ce travail est épuisant.",
     "level": "Sätze"
   },
   {
     "de": "Das war ein anstrengender Tag.",
-    "lv": "Ce fut une journée bien remplie.",
+    "lv": "Cette journée a été épuisante.",
     "level": "Sätze"
   },
   {
     "de": "Deutsch lernen kann anstrengend sein.",
-    "lv": "Apprendre l’allemand peut être épuisant.",
+    "lv": "Apprendre l'allemand peut être fatigant.",
     "level": "Sätze"
   },
   {
@@ -1456,12 +1456,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Das ist gar nicht so schwer.",
-    "lv": "Ce n'est pas si difficile du tout.",
+    "lv": "Ce n'est vraiment pas si difficile.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe gar kein Geld.",
-    "lv": "Je n'ai pas d'argent du tout.",
+    "lv": "Je n'ai pas du tout d'argent.",
     "level": "Sätze"
   },
   {
@@ -1471,7 +1471,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Der Hund ist los.",
-    "lv": "Le chien a été relâché.",
+    "lv": "Le chien est en liberté.",
     "level": "Sätze"
   },
   {
@@ -1481,27 +1481,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Halt die Luft an!",
-    "lv": "Retenez votre souffle !",
+    "lv": "Tais-toi donc ! • N'exagère pas !",
     "level": "Sätze"
   },
   {
     "de": "Was machst du?",
-    "lv": "Que fais-tu",
+    "lv": "Qu'est-ce que tu fais ?",
     "level": "Sätze"
   },
   {
     "de": "Sag mal!",
-    "lv": "Dis oui !",
+    "lv": "Dis donc !",
     "level": "Sätze"
   },
   {
     "de": "Was meinen Sie damit?",
-    "lv": "Que veux-tu dire par là ? • Qu'en penses-tu?",
+    "lv": "Que voulez-vous dire par là ?",
     "level": "Sätze"
   },
   {
     "de": "Wir gehen mit Ihnen.",
-    "lv": "Nous partons avec vous.",
+    "lv": "Nous venons avec vous.",
     "level": "Sätze"
   },
   {
@@ -1511,12 +1511,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "am Mittwoch",
-    "lv": "Mercredi",
+    "lv": "mercredi",
     "level": "Sätze"
   },
   {
     "de": "Es mag sein.",
-    "lv": "Peut être.",
+    "lv": "C'est possible.",
     "level": "Sätze"
   },
   {
@@ -1526,67 +1526,67 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "am Montag",
-    "lv": "Le lundi",
+    "lv": "lundi",
     "level": "Sätze"
   },
   {
     "de": "Guten Morgen!",
-    "lv": "Bonjour!",
+    "lv": "Bonjour !",
     "level": "Sätze"
   },
   {
     "de": "am Morgen",
-    "lv": "Le matin",
+    "lv": "le matin",
     "level": "Sätze"
   },
   {
     "de": "Gute Nacht!",
-    "lv": "Bonne nuit!",
+    "lv": "Bonne nuit !",
     "level": "Sätze"
   },
   {
     "de": "Nehmen Sie Platz!",
-    "lv": "Asseyez-vous!",
+    "lv": "Prenez place !",
     "level": "Sätze"
   },
   {
     "de": "Letzte Neuheit!",
-    "lv": "Les dernières nouvelles !",
+    "lv": "Dernière nouveauté !",
     "level": "Sätze"
   },
   {
     "de": "Nicht wahr?",
-    "lv": "Droite?",
+    "lv": "N'est-ce pas ?",
     "level": "Sätze"
   },
   {
     "de": "Nicht doch!",
-    "lv": "Non, bien sûr ! • Ne le faites pas!",
+    "lv": "Mais non ! • Surtout pas !",
     "level": "Sätze"
   },
   {
     "de": "Nun endlich!",
-    "lv": "Eh bien, enfin !",
+    "lv": "Enfin !",
     "level": "Sätze"
   },
   {
     "de": "Wozu nützt das?",
-    "lv": "A quoi ça sert ?",
+    "lv": "À quoi cela sert-il ?",
     "level": "Sätze"
   },
   {
     "de": "Wozu nützt das alles?",
-    "lv": "A quoi ça sert tout ça ?",
+    "lv": "À quoi bon tout cela ?",
     "level": "Sätze"
   },
   {
     "de": "Parken verboten!",
-    "lv": "Le stationnement est interdit !",
+    "lv": "Stationnement interdit !",
     "level": "Sätze"
   },
   {
     "de": "Nicht parken!",
-    "lv": "Le stationnement est interdit !",
+    "lv": "Ne pas stationner !",
     "level": "Sätze"
   },
   {
@@ -1596,102 +1596,102 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wovon ist die Rede?",
-    "lv": "De quoi s’agit-il ?",
+    "lv": "De quoi s'agit-il ?",
     "level": "Sätze"
   },
   {
     "de": "Davon kann keine Rede sein.",
-    "lv": "C'est hors de question.",
+    "lv": "Il n'en est pas question.",
     "level": "Sätze"
   },
   {
     "de": "Glückliche Reise!",
-    "lv": "Bon voyage !",
+    "lv": "Bon voyage !",
     "level": "Sätze"
   },
   {
     "de": "Mir reißt die Geduld.",
-    "lv": "Je suis à court de patience.",
+    "lv": "Je suis à bout de patience.",
     "level": "Sätze"
   },
   {
     "de": "Man sagt, dass...",
-    "lv": "Ils disent que...",
+    "lv": "On dit que...",
     "level": "Sätze"
   },
   {
     "de": "Schon gut!",
-    "lv": "C'est déjà bon !",
+    "lv": "C'est bon !",
     "level": "Sätze"
   },
   {
     "de": "Bitte schön!",
-    "lv": "S'il te plaît!",
+    "lv": "Voilà ! • De rien !",
     "level": "Sätze"
   },
   {
     "de": "Was bin ich schuldig?",
-    "lv": "Combien dois-je? • Combien dois-je payer ?",
+    "lv": "Combien vous dois-je ?",
     "level": "Sätze"
   },
   {
     "de": "Vor dem Gebrauch schütteln!",
-    "lv": "Agiter avant utilisation !",
+    "lv": "Agiter avant emploi !",
     "level": "Sätze"
   },
   {
     "de": "Sehen Sie mal!",
-    "lv": "Jetez un oeil !",
+    "lv": "Regardez !",
     "level": "Sätze"
   },
   {
     "de": "Wie sehr auch...",
-    "lv": "Combien...",
+    "lv": "Si fort que...",
     "level": "Sätze"
   },
   {
     "de": "Seit wann?",
-    "lv": "Depuis quand?",
+    "lv": "Depuis quand ?",
     "level": "Sätze"
   },
   {
     "de": "Was soll ich tun?",
-    "lv": "Que dois-je faire?",
+    "lv": "Que dois-je faire ?",
     "level": "Sätze"
   },
   {
     "de": "im Sommer",
-    "lv": "En été",
+    "lv": "en été",
     "level": "Sätze"
   },
   {
     "de": "Nicht nur..., sondern auch...",
-    "lv": "Non seulement... mais aussi...",
+    "lv": "Non seulement..., mais aussi...",
     "level": "Sätze"
   },
   {
     "de": "Sonst noch etwas?",
-    "lv": "Autre chose?",
+    "lv": "Autre chose ?",
     "level": "Sätze"
   },
   {
     "de": "Spaß beiseite!",
-    "lv": "Pas de blague ! • Des blagues à la limite !",
+    "lv": "Trêve de plaisanteries !",
     "level": "Sätze"
   },
   {
     "de": "Wie spät ist es?",
-    "lv": "Quelle heure est-il",
+    "lv": "Quelle heure est-il ?",
     "level": "Sätze"
   },
   {
     "de": "Durchfahrt gesperrt!",
-    "lv": "Il est interdit de traverser !",
+    "lv": "Route barrée !",
     "level": "Sätze"
   },
   {
     "de": "Sprechen Sie deutsch?",
-    "lv": "Parlez-vous allemand ?",
+    "lv": "Parlez-vous allemand ?",
     "level": "Sätze"
   },
   {
@@ -1701,7 +1701,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wie steht’s?",
-    "lv": "Comment vas-tu",
+    "lv": "Comment ça va ?",
     "level": "Sätze"
   },
   {
@@ -1711,17 +1711,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Guten Tag!",
-    "lv": "Bonjour!",
+    "lv": "Bonjour !",
     "level": "Sätze"
   },
   {
     "de": "Wo treffen wir uns?",
-    "lv": "Où allons-nous nous retrouver ?",
+    "lv": "Où nous retrouvons-nous ?",
     "level": "Sätze"
   },
   {
     "de": "Treten Sie näher!",
-    "lv": "Se rapprocher!",
+    "lv": "Approchez-vous !",
     "level": "Sätze"
   },
   {
@@ -1736,72 +1736,72 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Nicht übel!",
-    "lv": "Très bien! • Il n'y a pas d'objection",
+    "lv": "Pas mal !",
     "level": "Sätze"
   },
   {
     "de": "Er wohnt über mir.",
-    "lv": "Il habite au-dessus de moi.",
+    "lv": "Il habite au-dessus de chez moi.",
     "level": "Sätze"
   },
   {
     "de": "Er ist davon überzeugt.",
-    "lv": "Il en est sûr.",
+    "lv": "Il en est convaincu.",
     "level": "Sätze"
   },
   {
     "de": "So ist es üblich.",
-    "lv": "C'est accepté.",
+    "lv": "C'est l'usage.",
     "level": "Sätze"
   },
   {
     "de": "Deine Uhr geht nach.",
-    "lv": "Votre montre est derrière.",
+    "lv": "Ta montre retarde.",
     "level": "Sätze"
   },
   {
     "de": "Wie viel Uhr ist es?",
-    "lv": "Quelle heure est-il?",
+    "lv": "Quelle heure est-il ?",
     "level": "Sätze"
   },
   {
     "de": "Um acht Uhr früh.",
-    "lv": "A huit heures du matin.",
+    "lv": "À huit heures du matin.",
     "level": "Sätze"
   },
   {
     "de": "umso mehr",
-    "lv": "Plus",
+    "lv": "d'autant plus",
     "level": "Sätze"
   },
   {
     "de": "Rechts um!",
-    "lv": "Tournez à droite!",
+    "lv": "À droite, droite !",
     "level": "Sätze"
   },
   {
     "de": "Und ob!",
-    "lv": "Et quoi d'autre !",
+    "lv": "Et comment !",
     "level": "Sätze"
   },
   {
     "de": "und zwar",
-    "lv": "À savoir",
+    "lv": "à savoir",
     "level": "Sätze"
   },
   {
     "de": "Auf Unkosten von...",
-    "lv": "Au détriment de...",
+    "lv": "Aux dépens de...",
     "level": "Sätze"
   },
   {
     "de": "Er saß unter den Zuschauern.",
-    "lv": "Il s'est assis parmi le public.",
+    "lv": "Il était assis parmi les spectateurs.",
     "level": "Sätze"
   },
   {
     "de": "Keine Ursache!",
-    "lv": "Rien pour rien !",
+    "lv": "Il n'y a pas de quoi !",
     "level": "Sätze"
   },
   {
@@ -1811,32 +1811,32 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Rauchen verboten!",
-    "lv": "Il est interdit de fumer !",
+    "lv": "Défense de fumer !",
     "level": "Sätze"
   },
   {
     "de": "Falsch verbunden!",
-    "lv": "Mauvaise connexion !",
+    "lv": "Vous vous êtes trompé de numéro !",
     "level": "Sätze"
   },
   {
     "de": "Eintritt verboten!",
-    "lv": "L'entrée est interdite !",
+    "lv": "Entrée interdite !",
     "level": "Sätze"
   },
   {
     "de": "Verstehen Sie mich?",
-    "lv": "Est-ce que tu me comprends?",
+    "lv": "Me comprenez-vous ?",
     "level": "Sätze"
   },
   {
     "de": "Er versteht nichts davon.",
-    "lv": "Il n'y comprend rien.",
+    "lv": "Il n'y connaît rien.",
     "level": "Sätze"
   },
   {
     "de": "Seine Ansicht vertreten.",
-    "lv": "Défendez votre opinion.",
+    "lv": "Défendre son point de vue.",
     "level": "Sätze"
   },
   {
@@ -1856,7 +1856,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Vom Hörensagen.",
-    "lv": "Après avoir entendu.",
+    "lv": "Par ouï-dire.",
     "level": "Sätze"
   },
   {
@@ -1866,7 +1866,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Von Beruf.",
-    "lv": "Par métier.",
+    "lv": "De profession.",
     "level": "Sätze"
   },
   {
@@ -1876,7 +1876,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Er steht vor dem Fenster.",
-    "lv": "Il se tient près de la fenêtre.",
+    "lv": "Il se tient devant la fenêtre.",
     "level": "Sätze"
   },
   {
@@ -1886,37 +1886,37 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Vor vierzehn Tagen.",
-    "lv": "Il y a deux semaines.",
+    "lv": "Il y a quinze jours.",
     "level": "Sätze"
   },
   {
     "de": "Vor Freude.",
-    "lv": "Pour le plaisir.",
+    "lv": "De joie.",
     "level": "Sätze"
   },
   {
     "de": "Vor allem.",
-    "lv": "Tout d'abord. • Tout d'abord",
+    "lv": "Avant tout.",
     "level": "Sätze"
   },
   {
     "de": "Im Voraus.",
-    "lv": "Précédemment.",
+    "lv": "D'avance.",
     "level": "Sätze"
   },
   {
     "de": "Unter der Voraussetzung, dass...",
-    "lv": "En supposant que...",
+    "lv": "À condition que...",
     "level": "Sätze"
   },
   {
     "de": "Unter dem Vorbehalt.",
-    "lv": "Sous condition.",
+    "lv": "Sous cette réserve.",
     "level": "Sätze"
   },
   {
     "de": "Vorhanden sein.",
-    "lv": "Être. • Soyez présent • Soyez disponible",
+    "lv": "Exister. • Être disponible.",
     "level": "Sätze"
   },
   {
@@ -1926,42 +1926,42 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Vorkehrungen treffen.",
-    "lv": "Prenez des mesures de protection.",
+    "lv": "Prendre des précautions.",
     "level": "Sätze"
   },
   {
     "de": "Sie kommt mir bekannt vor.",
-    "lv": "Elle me semble familière.",
+    "lv": "Elle me dit quelque chose.",
     "level": "Sätze"
   },
   {
     "de": "Er hat Vorliebe für Literatur.",
-    "lv": "Il aime beaucoup la littérature.",
+    "lv": "Il a une prédilection pour la littérature.",
     "level": "Sätze"
   },
   {
     "de": "Heute Vormittag.",
-    "lv": "Ce matin. • Aujourd'hui dans la matinée",
+    "lv": "Ce matin.",
     "level": "Sätze"
   },
   {
     "de": "Von vorn.",
-    "lv": "De face.",
+    "lv": "De face. • Depuis le début.",
     "level": "Sätze"
   },
   {
     "de": "Nach vorn.",
-    "lv": "Avant.",
+    "lv": "En avant.",
     "level": "Sätze"
   },
   {
     "de": "Von vornherein.",
-    "lv": "Au tout début.",
+    "lv": "D'emblée.",
     "level": "Sätze"
   },
   {
     "de": "Im Vorteil sein.",
-    "lv": "Soyez dans une meilleure position.",
+    "lv": "Avoir l'avantage.",
     "level": "Sätze"
   },
   {
@@ -1971,17 +1971,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wach werden.",
-    "lv": "Réveillez-vous.",
+    "lv": "Se réveiller.",
     "level": "Sätze"
   },
   {
     "de": "Auf Wache sein.",
-    "lv": "Montez la garde.",
+    "lv": "Être de garde.",
     "level": "Sätze"
   },
   {
     "de": "Während eines Jahres.",
-    "lv": "Au cours de l'année.",
+    "lv": "Pendant un an.",
     "level": "Sätze"
   },
   {
@@ -1991,17 +1991,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Gegen eine Wand reden.",
-    "lv": "Parlez en vain.",
+    "lv": "Parler à un mur.",
     "level": "Sätze"
   },
   {
     "de": "Hier haben die Wände Ohren.",
-    "lv": "Ici les murs ont des oreilles.",
+    "lv": "Ici, les murs ont des oreilles.",
     "level": "Sätze"
   },
   {
     "de": "Bis wann?",
-    "lv": "Jusqu'à quand ?",
+    "lv": "Jusqu'à quand ?",
     "level": "Sätze"
   },
   {
@@ -2011,17 +2011,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Auf eine Nachricht warten.",
-    "lv": "Attendez le message.",
+    "lv": "Attendre un message.",
     "level": "Sätze"
   },
   {
     "de": "Was wollen Sie?",
-    "lv": "Que veux-tu?",
+    "lv": "Que voulez-vous ?",
     "level": "Sätze"
   },
   {
     "de": "Was für ein...?",
-    "lv": "OMS...? • Et...?",
+    "lv": "Quel genre de... ?",
     "level": "Sätze"
   },
   {
@@ -2031,22 +2031,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Auf diesem Wege.",
-    "lv": "De cette façon. • Pour ces fonds",
+    "lv": "De cette manière. • Par ce moyen.",
     "level": "Sätze"
   },
   {
     "de": "Auf friedlichem Wege.",
-    "lv": "Sur le chemin de la paix.",
+    "lv": "Par des moyens pacifiques.",
     "level": "Sätze"
   },
   {
     "de": "Unserer Freundschaft wegen.",
-    "lv": "À cause de notre amitié.",
+    "lv": "Par égard pour notre amitié.",
     "level": "Sätze"
   },
   {
     "de": "Von Rechts wegen.",
-    "lv": "Par la justice.",
+    "lv": "En toute justice. • Selon la loi.",
     "level": "Sätze"
   },
   {
@@ -2056,22 +2056,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Zu Weihnachten.",
-    "lv": "A Noël.",
+    "lv": "À Noël.",
     "level": "Sätze"
   },
   {
     "de": "Auf welche Weise?",
-    "lv": "De quelle manière ?",
+    "lv": "De quelle manière ?",
     "level": "Sätze"
   },
   {
     "de": "Art und Weise.",
-    "lv": "Taper.",
+    "lv": "Manière.",
     "level": "Sätze"
   },
   {
     "de": "Ohne weiteres.",
-    "lv": "Immédiatement. • Immédiatement",
+    "lv": "Sans plus attendre. • Sans difficulté.",
     "level": "Sätze"
   },
   {
@@ -2091,12 +2091,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "An welchem Tag?",
-    "lv": "Quel jour ?",
+    "lv": "Quel jour ?",
     "level": "Sätze"
   },
   {
     "de": "Alle Welt.",
-    "lv": "Le monde entier. • Tout le monde",
+    "lv": "Le monde entier. • Tout le monde.",
     "level": "Sätze"
   },
   {
@@ -2111,37 +2111,37 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wenn auch.",
-    "lv": "Bien que.",
+    "lv": "Même si.",
     "level": "Sätze"
   },
   {
     "de": "Wer da?",
-    "lv": "Qu'y a-t-il ?",
+    "lv": "Qui vive ? • Qui est là ?",
     "level": "Sätze"
   },
   {
     "de": "Gesammelte Werke von Schiller.",
-    "lv": "Les écrits rassemblés de Schiller.",
+    "lv": "Œuvres complètes de Schiller.",
     "level": "Sätze"
   },
   {
     "de": "Ausgewählte Werke.",
-    "lv": "Une sélection d'œuvres.",
+    "lv": "Œuvres choisies.",
     "level": "Sätze"
   },
   {
     "de": "Er ist wert, dass...",
-    "lv": "Il mérite de...",
+    "lv": "Il mérite que...",
     "level": "Sätze"
   },
   {
     "de": "Es ist zwei Euro wert.",
-    "lv": "Cela coûte deux euros.",
+    "lv": "Cela vaut deux euros.",
     "level": "Sätze"
   },
   {
     "de": "Nach Westen.",
-    "lv": "À l'ouest.",
+    "lv": "Vers l'ouest.",
     "level": "Sätze"
   },
   {
@@ -2151,27 +2151,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "In Wettbewerb treten.",
-    "lv": "Participez au concours.",
+    "lv": "Entrer en compétition.",
     "level": "Sätze"
   },
   {
     "de": "Um die Wette laufen.",
-    "lv": "Faites la course.",
+    "lv": "Faire la course.",
     "level": "Sätze"
   },
   {
     "de": "Was gilt die Wette?",
-    "lv": "Pour quoi négocions-nous ?",
+    "lv": "Qu'est-ce qu'on parie ?",
     "level": "Sätze"
   },
   {
     "de": "Wie wird das Wetter?",
-    "lv": "Quel temps fera-t-il ?",
+    "lv": "Quel temps va-t-il faire ?",
     "level": "Sätze"
   },
   {
     "de": "Wettkampf im Turnen.",
-    "lv": "Compétitions de gymnastique.",
+    "lv": "Compétition de gymnastique.",
     "level": "Sätze"
   },
   {
@@ -2181,27 +2181,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Widerspruch erheben.",
-    "lv": "Pour protester. • Soulever des objections",
+    "lv": "Protester. • Soulever une objection.",
     "level": "Sätze"
   },
   {
     "de": "Wie alt ist er?",
-    "lv": "Quel âge a-t-il?",
+    "lv": "Quel âge a-t-il ?",
     "level": "Sätze"
   },
   {
     "de": "Wie lange?",
-    "lv": "Combien de temps",
+    "lv": "Combien de temps ?",
     "level": "Sätze"
   },
   {
     "de": "Auf Wiederhören!",
-    "lv": "Au revoir!",
+    "lv": "Au revoir !",
     "level": "Sätze"
   },
   {
     "de": "Auf Wiedersehen!",
-    "lv": "Au revoir!",
+    "lv": "Au revoir !",
     "level": "Sätze"
   },
   {
@@ -2211,17 +2211,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Herzlich willkommen!",
-    "lv": "Salutations chaleureuses!",
+    "lv": "Bienvenue !",
     "level": "Sätze"
   },
   {
     "de": "Du musst ziehen.",
-    "lv": "Vous avez un mouvement.",
+    "lv": "C'est à toi de jouer.",
     "level": "Sätze"
   },
   {
     "de": "Es zieht.",
-    "lv": "Tirer",
+    "lv": "Il y a un courant d'air.",
     "level": "Sätze"
   },
   {
@@ -2231,27 +2231,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Zipfel einer Wurst.",
-    "lv": "Pointe de saucisse.",
+    "lv": "Bout de saucisse.",
     "level": "Sätze"
   },
   {
     "de": "Zu ihm gehen.",
-    "lv": "Allez vers lui.",
+    "lv": "Aller le voir.",
     "level": "Sätze"
   },
   {
     "de": "Zur Schule gehen.",
-    "lv": "Allez à l'école.",
+    "lv": "Aller à l'école.",
     "level": "Sätze"
   },
   {
     "de": "Zu Hause bleiben.",
-    "lv": "Restez à la maison.",
+    "lv": "Rester à la maison.",
     "level": "Sätze"
   },
   {
     "de": "Von Tag zu Tag.",
-    "lv": "Au quotidien.",
+    "lv": "De jour en jour.",
     "level": "Sätze"
   },
   {
@@ -2261,22 +2261,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wasser zum Trinken.",
-    "lv": "Eau à boire.",
+    "lv": "De l'eau à boire.",
     "level": "Sätze"
   },
   {
     "de": "Zu Fuß.",
-    "lv": "Pour les jambes.",
+    "lv": "À pied.",
     "level": "Sätze"
   },
   {
     "de": "Zu Pferde.",
-    "lv": "Oui.",
+    "lv": "À cheval.",
     "level": "Sätze"
   },
   {
     "de": "Zu Rad.",
-    "lv": "À bicyclette.",
+    "lv": "À vélo.",
     "level": "Sätze"
   },
   {
@@ -2296,7 +2296,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Zu groß.",
-    "lv": "Trop gros.",
+    "lv": "Trop grand.",
     "level": "Sätze"
   },
   {
@@ -2316,7 +2316,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Zugrunde legen.",
-    "lv": "Mis sur la base. • Prendre comme base.",
+    "lv": "Prendre pour base.",
     "level": "Sätze"
   },
   {
@@ -2326,22 +2326,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Machen Sie bitte die Tür zu!",
-    "lv": "S'il vous plaît, fermez la porte !",
+    "lv": "Fermez la porte, s'il vous plaît !",
     "level": "Sätze"
   },
   {
     "de": "Er hat zugenommen.",
-    "lv": "Il a pris du poids.",
+    "lv": "Il a grossi.",
     "level": "Sätze"
   },
   {
     "de": "Die Tage nehmen zu.",
-    "lv": "Les jours rallongent.",
+    "lv": "Les jours s'allongent.",
     "level": "Sätze"
   },
   {
     "de": "Zusammenhängen mit etwas.",
-    "lv": "Être associé à quelque chose.",
+    "lv": "Être lié à quelque chose.",
     "level": "Sätze"
   },
   {
@@ -2351,27 +2351,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Das hätte ich ihm nicht zugetraut.",
-    "lv": "Je ne m'attendais pas à ça de sa part.",
+    "lv": "Je ne l'en aurais pas cru capable.",
     "level": "Sätze"
   },
   {
     "de": "Freier Zutritt.",
-    "lv": "Entrée gratuite.",
+    "lv": "Entrée libre.",
     "level": "Sätze"
   },
   {
     "de": "Zutritt verboten!",
-    "lv": "L'entrée est interdite !",
+    "lv": "Entrée interdite !",
     "level": "Sätze"
   },
   {
     "de": "Das ist zu viel!",
-    "lv": "C'est trop !",
+    "lv": "C'en est trop !",
     "level": "Sätze"
   },
   {
     "de": "Zuwider werden.",
-    "lv": "Devenez dégoûtant. • Tomber malade",
+    "lv": "Devenir répugnant. • Finir par dégoûter.",
     "level": "Sätze"
   },
   {
@@ -2381,12 +2381,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Es steht außer Zweifel.",
-    "lv": "Il n’y a aucun doute.",
+    "lv": "Cela ne fait aucun doute.",
     "level": "Sätze"
   },
   {
     "de": "Ohne Zweifel.",
-    "lv": "Sans hésitation.",
+    "lv": "Sans aucun doute.",
     "level": "Sätze"
   },
   {
@@ -2396,27 +2396,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Frohes neues Jahr!",
-    "lv": "Bonne année!",
+    "lv": "Bonne année !",
     "level": "Sätze"
   },
   {
     "de": "Herzlichen Glückwunsch zum Geburtstag!",
-    "lv": "Joyeux anniversaire!",
+    "lv": "Joyeux anniversaire !",
     "level": "Sätze"
   },
   {
     "de": "Gute Reise!",
-    "lv": "Bon voyage !",
+    "lv": "Bon voyage !",
     "level": "Sätze"
   },
   {
     "de": "Es freut mich, Sie kennenzulernen.",
-    "lv": "Je suis heureux de vous rencontrer.",
+    "lv": "Enchanté de faire votre connaissance.",
     "level": "Sätze"
   },
   {
     "de": "Wären Sie bitte so nett?",
-    "lv": "Pourriez-vous s'il vous plaît être si gentil ?",
+    "lv": "Seriez-vous assez aimable ?",
     "level": "Sätze"
   },
   {
@@ -2426,77 +2426,77 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Setzt euch bitte hin!",
-    "lv": "Asseyez-vous, s'il vous plaît !",
+    "lv": "Asseyez-vous, s'il vous plaît !",
     "level": "Sätze"
   },
   {
     "de": "Ben, komm bitte an die Tafel!",
-    "lv": "Ben, s'il te plaît, viens au tableau !",
+    "lv": "Ben, viens au tableau, s'il te plaît !",
     "level": "Sätze"
   },
   {
     "de": "Schlagt bitte die Lehrbücher auf!",
-    "lv": "Ouvrez les manuels, s'il vous plaît !",
+    "lv": "Ouvrez vos manuels, s'il vous plaît !",
     "level": "Sätze"
   },
   {
     "de": "Geht bitte in die Sporthalle!",
-    "lv": "S'il vous plaît, allez à la salle de sport !",
+    "lv": "Allez au gymnase, s'il vous plaît !",
     "level": "Sätze"
   },
   {
     "de": "Schläfst du noch?",
-    "lv": "Est-ce que tu dors encore",
+    "lv": "Tu dors encore ?",
     "level": "Sätze"
   },
   {
     "de": "Schlafen Sie noch?",
-    "lv": "Est-ce que tu dors toujours ?",
+    "lv": "Dormez-vous encore ?",
     "level": "Sätze"
   },
   {
     "de": "Er ist fest eingeschlafen.",
-    "lv": "Il dort profondément.",
+    "lv": "Il s'est profondément endormi.",
     "level": "Sätze"
   },
   {
     "de": "Wecke ihn bitte auf, es ist schon spät!",
-    "lv": "S'il vous plaît, réveillez-le, il est déjà tard !",
+    "lv": "Réveille-le, s'il te plaît, il est déjà tard !",
     "level": "Sätze"
   },
   {
     "de": "Es tut mir sehr leid!",
-    "lv": "Je suis vraiment désolé !",
+    "lv": "Je suis vraiment désolé !",
     "level": "Sätze"
   },
   {
     "de": "Vielen Dank!",
-    "lv": "Merci beaucoup!",
+    "lv": "Merci beaucoup !",
     "level": "Sätze"
   },
   {
     "de": "Finn, fang bitte an!",
-    "lv": "Finn, commence, s'il te plaît !",
+    "lv": "Finn, commence, s'il te plaît !",
     "level": "Sätze"
   },
   {
     "de": "Lest bitte mit!",
-    "lv": "Continuez à lire, s'il vous plaît !",
+    "lv": "Suivez la lecture, s'il vous plaît !",
     "level": "Sätze"
   },
   {
     "de": "Emma, schau bitte nicht aus dem Fenster!",
-    "lv": "Emma, ​​​​s'il te plaît, ne regarde pas par la fenêtre !",
+    "lv": "Emma, ne regarde pas par la fenêtre, s'il te plaît !",
     "level": "Sätze"
   },
   {
     "de": "Jonas, bring bitte die Hefte!",
-    "lv": "Jonas, s'il te plaît, apporte les cahiers !",
+    "lv": "Jonas, apporte les cahiers, s'il te plaît !",
     "level": "Sätze"
   },
   {
     "de": "Geh bitte zurück an deinen Platz!",
-    "lv": "Retourne chez toi !",
+    "lv": "Retourne à ta place, s'il te plaît !",
     "level": "Sätze"
   },
   {
@@ -2506,62 +2506,62 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wann wachst du gewöhnlich auf?",
-    "lv": "Quand vous réveillez-vous habituellement ?",
+    "lv": "À quelle heure te réveilles-tu d'habitude ?",
     "level": "Sätze"
   },
   {
     "de": "Ich stehe gleich auf.",
-    "lv": "Je vais me lever tout de suite.",
+    "lv": "Je me lève tout de suite.",
     "level": "Sätze"
   },
   {
     "de": "Steh auf, Hanna, es klingelt!",
-    "lv": "Lève-toi, Hannah, la cloche sonne !",
+    "lv": "Lève-toi, Hanna, le réveil sonne ! • Lève-toi, Hanna, on sonne à la porte !",
     "level": "Sätze"
   },
   {
     "de": "Lass mich noch fünf Minuten schlafen!",
-    "lv": "Laisse-moi dormir encore cinq minutes !",
+    "lv": "Laisse-moi dormir encore cinq minutes !",
     "level": "Sätze"
   },
   {
     "de": "Vergiss nicht, das Zimmer zu lüften!",
-    "lv": "N'oubliez pas d'aérer la pièce !",
+    "lv": "N'oublie pas d'aérer la chambre !",
     "level": "Sätze"
   },
   {
     "de": "Wo ist das Handtuch?",
-    "lv": "Où est la serviette",
+    "lv": "Où est la serviette ?",
     "level": "Sätze"
   },
   {
     "de": "Ich möchte mir die Zähne putzen.",
-    "lv": "Je veux me brosser les dents.",
+    "lv": "Je voudrais me brosser les dents.",
     "level": "Sätze"
   },
   {
     "de": "Mit was putzt du dir die Zähne?",
-    "lv": "Avec quoi se brosser les dents ?",
+    "lv": "Avec quoi te brosses-tu les dents ?",
     "level": "Sätze"
   },
   {
     "de": "Ich möchte mich anziehen.",
-    "lv": "Je veux m'habiller.",
+    "lv": "Je voudrais m'habiller.",
     "level": "Sätze"
   },
   {
     "de": "Zieh dich bitte schnell an!",
-    "lv": "Habillez-vous vite, s'il vous plaît !",
+    "lv": "Habille-toi vite, s'il te plaît !",
     "level": "Sätze"
   },
   {
     "de": "Kleide dich wärmer an, draußen ist es kühl.",
-    "lv": "Habillez-vous chaudement, il fait froid dehors.",
+    "lv": "Couvre-toi davantage, il fait frais dehors.",
     "level": "Sätze"
   },
   {
     "de": "Guten Morgen, wie geht es dir?",
-    "lv": "Bonjour, comment vas-tu ?",
+    "lv": "Bonjour, comment vas-tu ?",
     "level": "Sätze"
   },
   {
@@ -2571,37 +2571,37 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Was gibt es Neues?",
-    "lv": "Quoi de neuf?",
+    "lv": "Quoi de neuf ?",
     "level": "Sätze"
   },
   {
     "de": "Was für ein Chaos hier!",
-    "lv": "Quel gâchis c'est ici !",
+    "lv": "Quel désordre ici !",
     "level": "Sätze"
   },
   {
     "de": "Darf ich beim Aufräumen helfen?",
-    "lv": "Puis-je aider à ranger ?",
+    "lv": "Puis-je aider à ranger ?",
     "level": "Sätze"
   },
   {
     "de": "Was trinkst du morgens, Kaffee oder Tee?",
-    "lv": "Que buvez-vous le matin, du café ou du thé ?",
+    "lv": "Que bois-tu le matin, du café ou du thé ?",
     "level": "Sätze"
   },
   {
     "de": "Gewöhnlich trinke ich morgens eine Tasse Kaffee.",
-    "lv": "Je bois habituellement une tasse de café le matin.",
+    "lv": "D'habitude, je bois une tasse de café le matin.",
     "level": "Sätze"
   },
   {
     "de": "Am liebsten trinke ich schwarzen Kaffee.",
-    "lv": "Je bois mieux le café noir.",
+    "lv": "Je préfère le café noir.",
     "level": "Sätze"
   },
   {
     "de": "Guten Morgen, hast du gut geschlafen?",
-    "lv": "Bonjour, as-tu bien dormi ?",
+    "lv": "Bonjour, as-tu bien dormi ?",
     "level": "Sätze"
   },
   {
@@ -2611,92 +2611,92 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Willst du Kaffee oder Milch?",
-    "lv": "Voulez-vous du café ou du lait?",
+    "lv": "Veux-tu du café ou du lait ?",
     "level": "Sätze"
   },
   {
     "de": "Gib mir bitte ein Brötchen mit Käse.",
-    "lv": "Donnez-moi un petit pain au fromage, s'il vous plaît.",
+    "lv": "Donne-moi un petit pain au fromage, s'il te plaît.",
     "level": "Sätze"
   },
   {
     "de": "Ich muss jetzt los!",
-    "lv": "Je dois partir maintenant!",
+    "lv": "Je dois partir maintenant !",
     "level": "Sätze"
   },
   {
     "de": "Vergiss dein Frühstück nicht!",
-    "lv": "N'oubliez pas le petit-déjeuner !",
+    "lv": "N'oublie pas ton petit déjeuner !",
     "level": "Sätze"
   },
   {
     "de": "Klara, deck bitte den Tisch!",
-    "lv": "Clara, s'il te plaît, mets la table !",
+    "lv": "Klara, mets la table, s'il te plaît !",
     "level": "Sätze"
   },
   {
     "de": "Vergiss die Servietten nicht!",
-    "lv": "N'oubliez pas les serviettes !",
+    "lv": "N'oublie pas les serviettes !",
     "level": "Sätze"
   },
   {
     "de": "Wann esst ihr zu Mittag?",
-    "lv": "Quand déjeunes-tu",
+    "lv": "À quelle heure déjeunez-vous ?",
     "level": "Sätze"
   },
   {
     "de": "Es ist Zeit zu essen.",
-    "lv": "Il est temps de manger.",
+    "lv": "C'est l'heure de manger.",
     "level": "Sätze"
   },
   {
     "de": "Was gibt es heute zu Mittag?",
-    "lv": "Qu'est-ce qu'il y a pour le déjeuner aujourd'hui ?",
+    "lv": "Qu'est-ce qu'il y a pour le déjeuner aujourd'hui ?",
     "level": "Sätze"
   },
   {
     "de": "Wie schmeckt dir die Suppe?",
-    "lv": "Comment aimez-vous la soupe ?",
+    "lv": "Comment trouves-tu la soupe ?",
     "level": "Sätze"
   },
   {
     "de": "Ehrlich gesagt ist sie etwas zu salzig.",
-    "lv": "Franchement, c'est un peu trop salé.",
+    "lv": "À vrai dire, elle est un peu trop salée.",
     "level": "Sätze"
   },
   {
     "de": "Darf ich dir ein Stück Brot geben?",
-    "lv": "Puis-je vous donner une tranche de pain ?",
+    "lv": "Puis-je te donner un morceau de pain ?",
     "level": "Sätze"
   },
   {
     "de": "Danke, ich habe schon.",
-    "lv": "Merci, je l'ai déjà fait.",
+    "lv": "Merci, j'en ai déjà.",
     "level": "Sätze"
   },
   {
     "de": "Das Fleisch schmeckt ausgezeichnet.",
-    "lv": "La viande a bon goût.",
+    "lv": "La viande est excellente.",
     "level": "Sätze"
   },
   {
     "de": "Danke, ich bin schon satt.",
-    "lv": "Merci, je suis déjà rassasié.",
+    "lv": "Merci, je n'ai plus faim.",
     "level": "Sätze"
   },
   {
     "de": "Heute haben wir Besuch.",
-    "lv": "Aujourd'hui, nous avons des visiteurs.",
+    "lv": "Aujourd'hui, nous avons de la visite.",
     "level": "Sätze"
   },
   {
     "de": "Bist du heute Abend frei?",
-    "lv": "Es-tu libre ce soir",
+    "lv": "Es-tu libre ce soir ?",
     "level": "Sätze"
   },
   {
     "de": "Komm doch heute zum Mittagessen vorbei!",
-    "lv": "Venez déjeuner aujourd'hui !",
+    "lv": "Passe donc déjeuner aujourd'hui !",
     "level": "Sätze"
   },
   {
@@ -2706,52 +2706,52 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bitte, bedien dich!",
-    "lv": "S'il vous plaît, mangez autant que vous le souhaitez !",
+    "lv": "Je t'en prie, sers-toi !",
     "level": "Sätze"
   },
   {
     "de": "Stört dich das Rauchen?",
-    "lv": "Est-ce que fumer vous dérange ?",
+    "lv": "Est-ce que ça te dérange que je fume ?",
     "level": "Sätze"
   },
   {
     "de": "Danke für die nette Aufnahme!",
-    "lv": "Merci pour l'accueil chaleureux !",
+    "lv": "Merci pour l'aimable accueil !",
     "level": "Sätze"
   },
   {
     "de": "Wann gehst du ins Bett?",
-    "lv": "Quand vas-tu dormir",
+    "lv": "À quelle heure vas-tu te coucher ?",
     "level": "Sätze"
   },
   {
     "de": "Wenn ich von der Arbeit komme, bin ich immer müde.",
-    "lv": "Je suis toujours fatigué quand je rentre du travail.",
+    "lv": "Quand je rentre du travail, je suis toujours fatigué.",
     "level": "Sätze"
   },
   {
     "de": "Es ist Zeit, ins Bett zu gehen.",
-    "lv": "Il est temps d'aller dormir.",
+    "lv": "Il est temps d'aller se coucher.",
     "level": "Sätze"
   },
   {
     "de": "Es ist schönes Wetter.",
-    "lv": "C'est un bon moment.",
+    "lv": "Il fait beau.",
     "level": "Sätze"
   },
   {
     "de": "Willst du mit mir spazieren gehen?",
-    "lv": "Veux-tu marcher avec moi ?",
+    "lv": "Veux-tu aller te promener avec moi ?",
     "level": "Sätze"
   },
   {
     "de": "Sieh mal, es wird gleich regnen.",
-    "lv": "Écoute, il va bientôt pleuvoir.",
+    "lv": "Regarde, il va bientôt pleuvoir.",
     "level": "Sätze"
   },
   {
     "de": "Nimm den Regenschirm mit!",
-    "lv": "Emportez un parapluie avec vous !",
+    "lv": "Prends le parapluie !",
     "level": "Sätze"
   },
   {
@@ -2761,22 +2761,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich bin schon ganz nass.",
-    "lv": "Je suis déjà complètement mouillé.",
+    "lv": "Je suis déjà tout mouillé.",
     "level": "Sätze"
   },
   {
     "de": "Glaubst du, dass es den ganzen Tag regnen wird?",
-    "lv": "Vous pensez qu'il va pleuvoir toute la journée ?",
+    "lv": "Crois-tu qu'il va pleuvoir toute la journée ?",
     "level": "Sätze"
   },
   {
     "de": "Es hört auf zu regnen.",
-    "lv": "La pluie s'arrête.",
+    "lv": "Il cesse de pleuvoir.",
     "level": "Sätze"
   },
   {
     "de": "Die Sonne scheint wieder.",
-    "lv": "Le soleil brille à nouveau.",
+    "lv": "Le soleil brille de nouveau.",
     "level": "Sätze"
   },
   {
@@ -2791,27 +2791,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wir bekommen gleich ein Gewitter.",
-    "lv": "Nous sommes sur le point d'avoir une tempête.",
+    "lv": "Il va y avoir un orage d'un instant à l'autre.",
     "level": "Sätze"
   },
   {
     "de": "Das Gewitter zieht vorüber.",
-    "lv": "La tempête est passée.",
+    "lv": "L'orage passe.",
     "level": "Sätze"
   },
   {
     "de": "Die Wolken verziehen sich.",
-    "lv": "Les nuages ​​se dispersent.",
+    "lv": "Les nuages se dissipent.",
     "level": "Sätze"
   },
   {
     "de": "Siehst du den Regenbogen?",
-    "lv": "Vous voyez l'arc-en-ciel ?",
+    "lv": "Tu vois l'arc-en-ciel ?",
     "level": "Sätze"
   },
   {
     "de": "Der Winter ist da, es hat geschneit.",
-    "lv": "L'hiver est là, il a neigé la nuit.",
+    "lv": "L'hiver est là, il a neigé.",
     "level": "Sätze"
   },
   {
@@ -2821,7 +2821,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wie schön ist es im Wald im Winter!",
-    "lv": "Comme c'est beau en forêt en hiver !",
+    "lv": "Comme la forêt est belle en hiver !",
     "level": "Sätze"
   },
   {
@@ -2831,87 +2831,87 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Draußen ist Glatteis, pass auf!",
-    "lv": "C'est glissant dehors, soyez prudent !",
+    "lv": "Il y a du verglas dehors, fais attention !",
     "level": "Sätze"
   },
   {
     "de": "Wollen wir auf die Eisbahn gehen?",
-    "lv": "On va faire du patin à glace ?",
+    "lv": "Si on allait à la patinoire ?",
     "level": "Sätze"
   },
   {
     "de": "Zieh die Jacke an, du kannst dich erkälten.",
-    "lv": "Mettez une veste, vous pourriez attraper froid.",
+    "lv": "Mets ta veste, tu pourrais prendre froid.",
     "level": "Sätze"
   },
   {
     "de": "Es ist halb sieben.",
-    "lv": "Il est sept heures et demie.",
+    "lv": "Il est six heures et demie.",
     "level": "Sätze"
   },
   {
     "de": "Meine Uhr geht fünf Minuten vor.",
-    "lv": "Ma montre avance cinq minutes.",
+    "lv": "Ma montre avance de cinq minutes.",
     "level": "Sätze"
   },
   {
     "de": "Weck mich morgen früh um sieben Uhr!",
-    "lv": "Réveille-moi à sept heures demain !",
+    "lv": "Réveille-moi demain matin à sept heures !",
     "level": "Sätze"
   },
   {
     "de": "Was ist heute für ein Datum?",
-    "lv": "Quelle est la date aujourd'hui ?",
+    "lv": "Quelle est la date aujourd'hui ?",
     "level": "Sätze"
   },
   {
     "de": "Heute ist der elfte Juli.",
-    "lv": "Aujourd'hui, c'est le onze juillet.",
+    "lv": "Aujourd'hui, nous sommes le onze juillet.",
     "level": "Sätze"
   },
   {
     "de": "Was machst du gewöhnlich am Abend?",
-    "lv": "Que fais-tu habituellement le soir ?",
+    "lv": "Que fais-tu d'habitude le soir ?",
     "level": "Sätze"
   },
   {
     "de": "Es ist schon lange her, dass wir uns gesehen haben.",
-    "lv": "Nous ne nous sommes pas rencontrés depuis longtemps.",
+    "lv": "Il y a longtemps que nous ne nous sommes pas vus.",
     "level": "Sätze"
   },
   {
     "de": "Wie geht es dir?",
-    "lv": "Comment vas-tu",
+    "lv": "Comment vas-tu ?",
     "level": "Sätze"
   },
   {
     "de": "Entschuldige, ich möchte etwas mit dir besprechen.",
-    "lv": "Excusez-moi, je veux discuter de quelque chose avec vous.",
+    "lv": "Excuse-moi, je voudrais discuter de quelque chose avec toi.",
     "level": "Sätze"
   },
   {
     "de": "Gehen wir spazieren!",
-    "lv": "Allons faire une promenade !",
+    "lv": "Allons nous promener !",
     "level": "Sätze"
   },
   {
     "de": "Hast du Lust, mit mir in den Park zu gehen?",
-    "lv": "Veux-tu aller au parc avec moi ?",
+    "lv": "As-tu envie d'aller au parc avec moi ?",
     "level": "Sätze"
   },
   {
     "de": "Ich komme, um dich zum Spaziergang abzuholen.",
-    "lv": "Je suis venu te promener.",
+    "lv": "Je viens te chercher pour faire une promenade.",
     "level": "Sätze"
   },
   {
     "de": "Geh bitte etwas langsamer, ich kann dir nicht folgen!",
-    "lv": "Allez un peu plus lentement, je n'arrive pas à vous suivre !",
+    "lv": "Marche un peu moins vite, s'il te plaît, je n'arrive pas à te suivre !",
     "level": "Sätze"
   },
   {
     "de": "Ich bin zum ersten Mal in dieser Gegend.",
-    "lv": "Je suis ici pour la première fois.",
+    "lv": "C'est la première fois que je viens dans ce quartier.",
     "level": "Sätze"
   },
   {
@@ -2921,92 +2921,92 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Jetzt können wir zurückgehen.",
-    "lv": "Maintenant, nous pouvons y retourner.",
+    "lv": "Maintenant, nous pouvons rentrer.",
     "level": "Sätze"
   },
   {
     "de": "Ehrlich gesagt bin ich ziemlich müde.",
-    "lv": "Franchement, je suis assez fatigué.",
+    "lv": "À vrai dire, je suis assez fatigué.",
     "level": "Sätze"
   },
   {
     "de": "Entschuldige, wo ist die nächste U-Bahn-Station?",
-    "lv": "Excusez-moi, où est la station de métro la plus proche ?",
+    "lv": "Excuse-moi, où est la station de métro la plus proche ?",
     "level": "Sätze"
   },
   {
     "de": "Welcher ist der kürzeste Weg?",
-    "lv": "Quel est le chemin le plus court ?",
+    "lv": "Quel est le chemin le plus court ?",
     "level": "Sätze"
   },
   {
     "de": "Geh hier die zweite Straße links und dann immer geradeaus.",
-    "lv": "Ici, prenez la deuxième rue à gauche et continuez tout droit.",
+    "lv": "Prends la deuxième rue à gauche, puis continue tout droit.",
     "level": "Sätze"
   },
   {
     "de": "Wie komme ich am schnellsten zum Bahnhof?",
-    "lv": "Comment arriver plus rapidement à la gare ?",
+    "lv": "Quel est le chemin le plus rapide pour aller à la gare ?",
     "level": "Sätze"
   },
   {
     "de": "Ich habe vor, morgen zu verreisen.",
-    "lv": "J'ai l'intention de partir demain.",
+    "lv": "J'ai l'intention de partir en voyage demain.",
     "level": "Sätze"
   },
   {
     "de": "Wohin willst du fahren?",
-    "lv": "Où veux-tu aller ?",
+    "lv": "Où veux-tu aller ?",
     "level": "Sätze"
   },
   {
     "de": "Reist du geschäftlich oder privat?",
-    "lv": "Vous voyagez pour le travail ou les loisirs ?",
+    "lv": "Tu voyages pour affaires ou pour le plaisir ?",
     "level": "Sätze"
   },
   {
     "de": "Finn fährt bis Berlin mit, dann geht er ans Meer.",
-    "lv": "Finn se rend à Berlin en voiture, puis il ira à la mer.",
+    "lv": "Finn vient avec nous jusqu'à Berlin, puis il part à la mer.",
     "level": "Sätze"
   },
   {
     "de": "Wann fährt das Schiff ab?",
-    "lv": "Quand le bateau part-il ?",
+    "lv": "Quand le bateau part-il ?",
     "level": "Sätze"
   },
   {
     "de": "In einer halben Stunde.",
-    "lv": "Après une demi-heure.",
+    "lv": "Dans une demi-heure.",
     "level": "Sätze"
   },
   {
     "de": "Kann ich noch eine Kabine bekommen?",
-    "lv": "Puis-je quand même avoir une cabine ?",
+    "lv": "Puis-je encore avoir une cabine ?",
     "level": "Sätze"
   },
   {
     "de": "Vergiss deinen Pass nicht!",
-    "lv": "N'oubliez pas votre passeport !",
+    "lv": "N'oublie pas ton passeport !",
     "level": "Sätze"
   },
   {
     "de": "Es ist Zeit, den Koffer zu packen.",
-    "lv": "Il est temps de faire votre valise.",
+    "lv": "Il est temps de faire la valise.",
     "level": "Sätze"
   },
   {
     "de": "Der Zug fährt um halb sieben ab.",
-    "lv": "Le train part à sept heures et demie.",
+    "lv": "Le train part à six heures et demie.",
     "level": "Sätze"
   },
   {
     "de": "Hol mir bitte ein Taxi, ich verpasse sonst den Zug!",
-    "lv": "Appelez un taxi, s'il vous plaît, sinon je vais rater le train !",
+    "lv": "Appelle-moi un taxi, s'il te plaît, sinon je vais rater le train !",
     "level": "Sätze"
   },
   {
     "de": "Fahr bitte zum Bahnhof!",
-    "lv": "S'il vous plaît, emmenez-moi à la gare !",
+    "lv": "Emmène-moi à la gare, s'il te plaît !",
     "level": "Sätze"
   },
   {
@@ -3016,7 +3016,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ist der Schalter schon offen?",
-    "lv": "La billetterie est-elle déjà ouverte ?",
+    "lv": "Le guichet est-il déjà ouvert ?",
     "level": "Sätze"
   },
   {
@@ -3026,27 +3026,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wann fährt der Zug ab?",
-    "lv": "Quand part le train ?",
+    "lv": "Quand le train part-il ?",
     "level": "Sätze"
   },
   {
     "de": "Der Zug fährt gleich ab.",
-    "lv": "Le train part bientôt.",
+    "lv": "Le train va partir.",
     "level": "Sätze"
   },
   {
     "de": "Muss ich in Koblenz umsteigen?",
-    "lv": "Dois-je changer de siège à Coblence ?",
+    "lv": "Dois-je changer à Coblence ?",
     "level": "Sätze"
   },
   {
     "de": "Ja, dort musst du umsteigen.",
-    "lv": "Oui, vous devez y changer de siège.",
+    "lv": "Oui, tu dois changer là-bas.",
     "level": "Sätze"
   },
   {
     "de": "Ist dieser Platz frei?",
-    "lv": "Cet endroit est-il disponible ?",
+    "lv": "Cette place est-elle libre ?",
     "level": "Sätze"
   },
   {
@@ -3056,57 +3056,57 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wo ist der Bahnsteigkartenautomat?",
-    "lv": "Où se trouve le distributeur de billets du quai ?",
+    "lv": "Où est le distributeur de billets de quai ?",
     "level": "Sätze"
   },
   {
     "de": "Stell mein Handgepäck ins Gepäcknetz.",
-    "lv": "Mettez mon bagage à main dans la grille.",
+    "lv": "Mets mon bagage à main dans le filet à bagages.",
     "level": "Sätze"
   },
   {
     "de": "Kann ich das Fenster aufmachen?",
-    "lv": "Puis-je ouvrir la fenêtre?",
+    "lv": "Puis-je ouvrir la fenêtre ?",
     "level": "Sätze"
   },
   {
     "de": "Es zieht, schließ bitte das Fenster!",
-    "lv": "Passez, s'il vous plaît, fermez la fenêtre !",
+    "lv": "Il y a un courant d'air, ferme la fenêtre, s'il te plaît !",
     "level": "Sätze"
   },
   {
     "de": "Welche ist die nächste Station?",
-    "lv": "Quel est le prochain arrêt ?",
+    "lv": "Quelle est la prochaine gare ?",
     "level": "Sätze"
   },
   {
     "de": "Wie lange hält der Zug?",
-    "lv": "Combien de temps le train reste-t-il ?",
+    "lv": "Combien de temps le train s'arrête-t-il ?",
     "level": "Sätze"
   },
   {
     "de": "Wo muss ich umsteigen?",
-    "lv": "Où dois-je transférer ?",
+    "lv": "Où dois-je changer ?",
     "level": "Sätze"
   },
   {
     "de": "Der Zug hat Verspätung.",
-    "lv": "Le train est en retard.",
+    "lv": "Le train a du retard.",
     "level": "Sätze"
   },
   {
     "de": "Dieser Wagen ist für Nichtraucher.",
-    "lv": "Cette voiture est non-fumeur.",
+    "lv": "Cette voiture est réservée aux non-fumeurs.",
     "level": "Sätze"
   },
   {
     "de": "Wir fahren jetzt über die Grenze.",
-    "lv": "Nous traversons maintenant la frontière.",
+    "lv": "Nous passons la frontière maintenant.",
     "level": "Sätze"
   },
   {
     "de": "Hast du etwas zu verzollen?",
-    "lv": "Avez-vous quelque chose à clarifier ?",
+    "lv": "Tu as quelque chose à déclarer ?",
     "level": "Sätze"
   },
   {
@@ -3116,12 +3116,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Kannst du mir ein gutes Hotel empfehlen?",
-    "lv": "Pouvez-vous recommander un bon hôtel ?",
+    "lv": "Peux-tu me recommander un bon hôtel ?",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie freie Zimmer?",
-    "lv": "Avez-vous des chambres disponibles ?",
+    "lv": "Avez-vous des chambres libres ?",
     "level": "Sätze"
   },
   {
@@ -3131,42 +3131,42 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Was kostet das Zimmer pro Nacht?",
-    "lv": "Combien coûte la chambre par nuit ?",
+    "lv": "Combien coûte la chambre par nuit ?",
     "level": "Sätze"
   },
   {
     "de": "Morgen reise ich ab. Weck mich um sieben Uhr!",
-    "lv": "Je pars demain. Réveille-moi à sept heures !",
+    "lv": "Je pars demain. Réveille-moi à sept heures !",
     "level": "Sätze"
   },
   {
     "de": "Die Rechnung, bitte!",
-    "lv": "L'addition, s'il vous plaît!",
+    "lv": "L'addition, s'il vous plaît !",
     "level": "Sätze"
   },
   {
     "de": "Wo ist die Stadtbibliothek?",
-    "lv": "Où est la bibliothèque municipale ?",
+    "lv": "Où est la bibliothèque municipale ?",
     "level": "Sätze"
   },
   {
     "de": "Wann hat das Museum geöffnet?",
-    "lv": "Quand le musée est-il ouvert ?",
+    "lv": "Quand le musée est-il ouvert ?",
     "level": "Sätze"
   },
   {
     "de": "Wollen wir ins Museum gehen?",
-    "lv": "On va au musée ?",
+    "lv": "Et si nous allions au musée ?",
     "level": "Sätze"
   },
   {
     "de": "Fahren wir mit dem Bus oder der U-Bahn?",
-    "lv": "Allons-nous en bus ou en métro ?",
+    "lv": "Nous y allons en bus ou en métro ?",
     "level": "Sätze"
   },
   {
     "de": "Wo ist die nächste Bushaltestelle?",
-    "lv": "Où se trouve l’arrêt de bus le plus proche ?",
+    "lv": "Où est l'arrêt de bus le plus proche ?",
     "level": "Sätze"
   },
   {
@@ -3176,147 +3176,147 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Gehen wir zusammen essen?",
-    "lv": "On va manger ensemble ?",
+    "lv": "On va manger ensemble ?",
     "level": "Sätze"
   },
   {
     "de": "Kellner, die Speisekarte, bitte!",
-    "lv": "Serveurs, menu, s'il vous plaît !",
+    "lv": "Monsieur, la carte, s'il vous plaît !",
     "level": "Sätze"
   },
   {
     "de": "Ist der Fisch frisch?",
-    "lv": "Est-ce que le poisson est frais?",
+    "lv": "Le poisson est-il frais ?",
     "level": "Sätze"
   },
   {
     "de": "Das schmeckt ausgezeichnet!",
-    "lv": "C'est délicieux !",
+    "lv": "C'est excellent !",
     "level": "Sätze"
   },
   {
     "de": "Kellner, zahlen bitte!",
-    "lv": "Serveurs, payez s'il vous plaît !",
+    "lv": "Monsieur, l'addition, s'il vous plaît !",
     "level": "Sätze"
   },
   {
     "de": "Ich gehe ins Café einen Kaffee trinken.",
-    "lv": "J'irai dans un café pour boire du café.",
+    "lv": "Je vais au café prendre un café.",
     "level": "Sätze"
   },
   {
     "de": "Willst du mitkommen?",
-    "lv": "Voulez-vous venir?",
+    "lv": "Tu veux venir avec moi ?",
     "level": "Sätze"
   },
   {
     "de": "Eine Tasse Kaffee mit Milch, bitte!",
-    "lv": "Une tasse de café au lait, s'il vous plaît !",
+    "lv": "Une tasse de café au lait, s'il vous plaît !",
     "level": "Sätze"
   },
   {
     "de": "Bitte schneller, ich habe es eilig!",
-    "lv": "Plus vite s'il vous plaît, je dois me dépêcher !",
+    "lv": "Plus vite, s'il vous plaît, je suis pressé !",
     "level": "Sätze"
   },
   {
     "de": "Lass deinen Kaffee nicht kalt werden!",
-    "lv": "Ne laissez pas le café refroidir !",
+    "lv": "Ne laisse pas refroidir ton café !",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie etwas Erfrischendes?",
-    "lv": "Avez-vous quelque chose de rafraîchissant ?",
+    "lv": "Avez-vous quelque chose de rafraîchissant ?",
     "level": "Sätze"
   },
   {
     "de": "Eine Portion Eis, bitte!",
-    "lv": "Une portion de glace, s'il vous plaît !",
+    "lv": "Une glace, s'il vous plaît !",
     "level": "Sätze"
   },
   {
     "de": "Heute Morgen habe ich einen Brief bekommen.",
-    "lv": "J'ai reçu une lettre ce matin.",
+    "lv": "Ce matin, j'ai reçu une lettre.",
     "level": "Sätze"
   },
   {
     "de": "Ich muss ihm gleich schreiben.",
-    "lv": "Je dois lui écrire maintenant.",
+    "lv": "Je dois lui écrire tout de suite.",
     "level": "Sätze"
   },
   {
     "de": "Wo ist der nächste Briefkasten?",
-    "lv": "Où se trouve la boîte aux lettres la plus proche ?",
+    "lv": "Où est la boîte aux lettres la plus proche ?",
     "level": "Sätze"
   },
   {
     "de": "Wo ist die Post?",
-    "lv": "Où est la poste ?",
+    "lv": "Où est la poste ?",
     "level": "Sätze"
   },
   {
     "de": "Erinnere mich morgen daran zu schreiben!",
-    "lv": "Rappelle-moi de signer demain !",
+    "lv": "Rappelle-moi demain d'écrire !",
     "level": "Sätze"
   },
   {
     "de": "Werfen Sie bitte diesen Brief in den Briefkasten.",
-    "lv": "Merci de déposer cette lettre dans la boîte aux lettres !",
+    "lv": "Mettez cette lettre dans la boîte aux lettres, s'il vous plaît.",
     "level": "Sätze"
   },
   {
     "de": "Hallo, hier spricht Emma.",
-    "lv": "Bonjour, c'est Emma.",
+    "lv": "Allô, ici Emma.",
     "level": "Sätze"
   },
   {
     "de": "Kann ich dich später anrufen?",
-    "lv": "Puis-je t'appeler plus tard",
+    "lv": "Je peux t'appeler plus tard ?",
     "level": "Sätze"
   },
   {
     "de": "Muss ich lange warten?",
-    "lv": "Dois-je attendre longtemps ?",
+    "lv": "Est-ce que je dois attendre longtemps ?",
     "level": "Sätze"
   },
   {
     "de": "Bitte schneiden Sie mir die Haare.",
-    "lv": "S'il vous plaît, coupez-moi les cheveux.",
+    "lv": "Coupez-moi les cheveux, s'il vous plaît.",
     "level": "Sätze"
   },
   {
     "de": "Hinten bitte nicht zu kurz.",
-    "lv": "À l'arrière, s'il vous plaît, pas trop court.",
+    "lv": "Pas trop court derrière, s'il vous plaît.",
     "level": "Sätze"
   },
   {
     "de": "Wann beginnt die Vorstellung?",
-    "lv": "Quand commence le spectacle ?",
+    "lv": "Quand commence le spectacle ?",
     "level": "Sätze"
   },
   {
     "de": "Es fängt um halb acht an.",
-    "lv": "Cela commence à huit heures et demie.",
+    "lv": "Il commence à sept heures et demie.",
     "level": "Sätze"
   },
   {
     "de": "Alle Plätze sind ausverkauft.",
-    "lv": "Tous les billets sont épuisés.",
+    "lv": "Toutes les places sont vendues.",
     "level": "Sätze"
   },
   {
     "de": "Drei Karten, bitte!",
-    "lv": "Trois billets, s'il vous plaît !",
+    "lv": "Trois billets, s'il vous plaît !",
     "level": "Sätze"
   },
   {
     "de": "Wir lassen die Jacken in der Garderobe.",
-    "lv": "Laissons les vestes dans l'armoire.",
+    "lv": "Nous laissons les vestes au vestiaire.",
     "level": "Sätze"
   },
   {
     "de": "Bitte schnell, der Vorhang geht gleich auf!",
-    "lv": "Plus vite s'il vous plaît, le rideau est sur le point de s'ouvrir !",
+    "lv": "Vite, s'il vous plaît, le rideau va se lever !",
     "level": "Sätze"
   },
   {
@@ -3326,127 +3326,127 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Darf ich dich zum Tanz bitten?",
-    "lv": "Puis-je vous demander de danser ?",
+    "lv": "Puis-je t'inviter à danser ?",
     "level": "Sätze"
   },
   {
     "de": "Wann ist eure Hochzeit?",
-    "lv": "C'est quand ton mariage ?",
+    "lv": "Quand a lieu votre mariage ?",
     "level": "Sätze"
   },
   {
     "de": "Ich suche eine Wohnung.",
-    "lv": "Je recherche un appartement.",
+    "lv": "Je cherche un appartement.",
     "level": "Sätze"
   },
   {
     "de": "Ist in diesem Haus eine Wohnung frei?",
-    "lv": "Y a-t-il un appartement disponible dans cette maison ?",
+    "lv": "Y a-t-il un appartement libre dans cet immeuble ?",
     "level": "Sätze"
   },
   {
     "de": "Wie viel kostet die Miete?",
-    "lv": "Quel est le loyer ?",
+    "lv": "Combien coûte le loyer ?",
     "level": "Sätze"
   },
   {
     "de": "Die Wohnung hat drei Zimmer und eine Küche.",
-    "lv": "L'appartement dispose de trois chambres et d'une cuisine.",
+    "lv": "L'appartement a trois pièces et une cuisine.",
     "level": "Sätze"
   },
   {
     "de": "Heute ziehen wir um.",
-    "lv": "Nous déménageons aujourd'hui.",
+    "lv": "Aujourd'hui, nous déménageons.",
     "level": "Sätze"
   },
   {
     "de": "Mia, pack die Sachen bitte in Kisten!",
-    "lv": "Mia, mets les choses dans des boîtes, s'il te plaît !",
+    "lv": "Mia, mets les affaires dans des cartons, s'il te plaît !",
     "level": "Sätze"
   },
   {
     "de": "Hast du alles eingepackt?",
-    "lv": "Est-ce que tout est déjà en boîte ?",
+    "lv": "Tu as tout emballé ?",
     "level": "Sätze"
   },
   {
     "de": "Ich stehe mit meinem Freund in Kontakt.",
-    "lv": "Je suis en correspondance avec mon ami.",
+    "lv": "Je suis en contact avec mon ami.",
     "level": "Sätze"
   },
   {
     "de": "Gehen wir ins Theater?",
-    "lv": "Allons-nous au théâtre ?",
+    "lv": "On va au théâtre ?",
     "level": "Sätze"
   },
   {
     "de": "Ist alles eingeladen?",
-    "lv": "Est-ce que tout est chargé ?",
+    "lv": "Est-ce que tout est chargé ?",
     "level": "Sätze"
   },
   {
     "de": "Welch schöne Aussicht!",
-    "lv": "Quelle belle vue !",
+    "lv": "Quelle belle vue !",
     "level": "Sätze"
   },
   {
     "de": "Nun können wir alles wieder aufräumen.",
-    "lv": "Maintenant, nous pouvons tout remettre en place.",
+    "lv": "Maintenant, nous pouvons tout remettre en ordre.",
     "level": "Sätze"
   },
   {
     "de": "Wie viele Zimmer habt ihr?",
-    "lv": "Combien de chambres avez-vous ?",
+    "lv": "Combien de pièces avez-vous ?",
     "level": "Sätze"
   },
   {
     "de": "Im Sommer fahre ich ans Meer.",
-    "lv": "J'irai à la mer en été.",
+    "lv": "En été, je vais à la mer.",
     "level": "Sätze"
   },
   {
     "de": "Kannst du schwimmen?",
-    "lv": "Savez-vous nager",
+    "lv": "Tu sais nager ?",
     "level": "Sätze"
   },
   {
     "de": "Schwimm nicht zu weit hinaus!",
-    "lv": "Ne nagez pas trop loin !",
+    "lv": "Ne nage pas trop loin !",
     "level": "Sätze"
   },
   {
     "de": "Badest du jeden Tag?",
-    "lv": "Est-ce que vous nagez tous les jours ?",
+    "lv": "Tu te baignes tous les jours ?",
     "level": "Sätze"
   },
   {
     "de": "Bei schönem Wetter gehe ich angeln.",
-    "lv": "S'il fait beau, je vais à la pêche.",
+    "lv": "Quand il fait beau, je vais à la pêche.",
     "level": "Sätze"
   },
   {
     "de": "Wie sieht er aus?",
-    "lv": "A quoi ressemble-t-il ?",
+    "lv": "À quoi ressemble-t-il ?",
     "level": "Sätze"
   },
   {
     "de": "Er hat sich aber recht verändert.",
-    "lv": "Cependant, il a pas mal changé.",
+    "lv": "Il a quand même bien changé.",
     "level": "Sätze"
   },
   {
     "de": "Wie ist er als Mensch?",
-    "lv": "Comment est-il en tant que personne ?",
+    "lv": "Quel genre de personne est-il ?",
     "level": "Sätze"
   },
   {
     "de": "Er ist immer nett und freundlich.",
-    "lv": "Il est toujours gentil et gentil.",
+    "lv": "Il est toujours gentil et aimable.",
     "level": "Sätze"
   },
   {
     "de": "Ich fühle mich nicht wohl.",
-    "lv": "Je me sens mal.",
+    "lv": "Je ne me sens pas bien.",
     "level": "Sätze"
   },
   {
@@ -3456,17 +3456,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich habe mich erkältet.",
-    "lv": "J'ai un rhume.",
+    "lv": "Je me suis enrhumé.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe Schnupfen.",
-    "lv": "J'ai le nez qui coule.",
+    "lv": "J'ai un rhume.",
     "level": "Sätze"
   },
   {
     "de": "Mir ist schwindlig.",
-    "lv": "J'ai le vertige.",
+    "lv": "J'ai la tête qui tourne.",
     "level": "Sätze"
   },
   {
@@ -3476,17 +3476,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Leg dich ins Bett!",
-    "lv": "Allongez-vous au lit !",
+    "lv": "Mets-toi au lit !",
     "level": "Sätze"
   },
   {
     "de": "Hast du Fieber?",
-    "lv": "Avez-vous de la fièvre ?",
+    "lv": "Tu as de la fièvre ?",
     "level": "Sätze"
   },
   {
     "de": "Gestern hatte ich erhöhte Temperatur.",
-    "lv": "J'ai eu une forte température hier.",
+    "lv": "Hier, j'avais un peu de fièvre.",
     "level": "Sätze"
   },
   {
@@ -3501,27 +3501,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Weißt du, dass Finn krank ist?",
-    "lv": "Savez-vous que Finn est malade ?",
+    "lv": "Sais-tu que Finn est malade ?",
     "level": "Sätze"
   },
   {
     "de": "Laut Arzt wird er bald wieder gesund.",
-    "lv": "Selon le médecin, il se rétablira bientôt.",
+    "lv": "D'après le médecin, il sera bientôt rétabli.",
     "level": "Sätze"
   },
   {
     "de": "Ich will meine Wohnung neu möblieren.",
-    "lv": "Je veux réaménager l'appartement.",
+    "lv": "Je veux remeubler mon appartement.",
     "level": "Sätze"
   },
   {
     "de": "Kann ich das auf Raten kaufen?",
-    "lv": "Puis-je acheter en plusieurs fois ?",
+    "lv": "Puis-je l'acheter en plusieurs fois ?",
     "level": "Sätze"
   },
   {
     "de": "Bleib im Bett, bis es dir besser geht!",
-    "lv": "Restez au lit jusqu'à ce que vous vous sentiez mieux !",
+    "lv": "Reste au lit jusqu'à ce que tu ailles mieux !",
     "level": "Sätze"
   },
   {
@@ -3531,12 +3531,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Sei mit dem Essen noch vorsichtig.",
-    "lv": "Soyez prudent avec la nourriture.",
+    "lv": "Fais encore attention à ce que tu manges.",
     "level": "Sätze"
   },
   {
     "de": "Sprichst du Deutsch?",
-    "lv": "Parlez-vous allemand",
+    "lv": "Tu parles allemand ?",
     "level": "Sätze"
   },
   {
@@ -3546,12 +3546,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Du sprichst ziemlich fließend.",
-    "lv": "Vous parlez assez couramment.",
+    "lv": "Tu parles assez couramment.",
     "level": "Sätze"
   },
   {
     "de": "Wo hast du Deutsch gelernt?",
-    "lv": "Où as-tu appris l’allemand ?",
+    "lv": "Où as-tu appris l'allemand ?",
     "level": "Sätze"
   },
   {
@@ -3561,37 +3561,37 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich suche immer Gelegenheit, Deutsch zu sprechen.",
-    "lv": "Toujours à la recherche d'une opportunité de parler allemand.",
+    "lv": "Je cherche toujours l'occasion de parler allemand.",
     "level": "Sätze"
   },
   {
     "de": "Ist das Buch noch vorrätig?",
-    "lv": "Ce livre est-il toujours disponible ?",
+    "lv": "Le livre est-il encore en stock ?",
     "level": "Sätze"
   },
   {
     "de": "Das Buch ist leider ausverkauft.",
-    "lv": "Malheureusement, le livre est épuisé.",
+    "lv": "Le livre est malheureusement épuisé.",
     "level": "Sätze"
   },
   {
     "de": "Wann erscheint die neue Auflage?",
-    "lv": "Quand sortira la nouvelle édition ?",
+    "lv": "Quand la nouvelle édition paraîtra-t-elle ?",
     "level": "Sätze"
   },
   {
     "de": "Womit kann ich Ihnen helfen?",
-    "lv": "Comment puis-je aider ?",
+    "lv": "En quoi puis-je vous aider ?",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie ganz frische Eier?",
-    "lv": "Avez-vous des œufs frais ?",
+    "lv": "Avez-vous des œufs bien frais ?",
     "level": "Sätze"
   },
   {
     "de": "Was kosten die?",
-    "lv": "Combien coûtent-ils ?",
+    "lv": "Combien coûtent-ils ?",
     "level": "Sätze"
   },
   {
@@ -3601,62 +3601,62 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Können Sie mir ein halbes Kilo abwiegen?",
-    "lv": "Pouvez-vous peser un demi-kilo ?",
+    "lv": "Pouvez-vous me peser un demi-kilo ?",
     "level": "Sätze"
   },
   {
     "de": "Wie viel muss ich zahlen?",
-    "lv": "Combien dois-je payer ?",
+    "lv": "Combien dois-je payer ?",
     "level": "Sätze"
   },
   {
     "de": "Wie viel kostet das Kilo?",
-    "lv": "Combien coûte un kilo ?",
+    "lv": "Combien coûte le kilo ?",
     "level": "Sätze"
   },
   {
     "de": "Wiegen Sie mir bitte zwei Kilo ab.",
-    "lv": "Veuillez peser deux kilogrammes.",
+    "lv": "Pesez-moi deux kilos, s'il vous plaît.",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie auch Karotten?",
-    "lv": "As-tu aussi des carottes ?",
+    "lv": "Avez-vous aussi des carottes ?",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie gutes Rindfleisch?",
-    "lv": "Avez-vous du bon bœuf ?",
+    "lv": "Avez-vous du bon bœuf ?",
     "level": "Sätze"
   },
   {
     "de": "Geben Sie mir zwei Kilo Hackfleisch.",
-    "lv": "Donnez deux kilos de viande hachée.",
+    "lv": "Donnez-moi deux kilos de viande hachée.",
     "level": "Sätze"
   },
   {
     "de": "Ein Laib Brot, bitte, aber nicht zu knusprig.",
-    "lv": "Une miche de pain, s'il vous plaît, mais pas trop dur.",
+    "lv": "Une miche de pain, s'il vous plaît, mais pas trop croustillante.",
     "level": "Sätze"
   },
   {
     "de": "Das Brot ist frisch gebacken.",
-    "lv": "Le pain est fraîchement cuit.",
+    "lv": "Le pain sort tout juste du four.",
     "level": "Sätze"
   },
   {
     "de": "Was für Obst haben Sie heute?",
-    "lv": "Quel fruit as-tu aujourd'hui ?",
+    "lv": "Quels fruits avez-vous aujourd'hui ?",
     "level": "Sätze"
   },
   {
     "de": "Was kosten die Äpfel?",
-    "lv": "Combien coûtent les pommes ?",
+    "lv": "Combien coûtent les pommes ?",
     "level": "Sätze"
   },
   {
     "de": "Dann nehme ich zwei Kilo Äpfel.",
-    "lv": "Ensuite, je prendrai deux kilos de pommes.",
+    "lv": "Alors je prends deux kilos de pommes.",
     "level": "Sätze"
   },
   {
@@ -3666,12 +3666,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Können Sie mir alles nach Hause liefern?",
-    "lv": "Pouvez-vous tout livrer à votre domicile ?",
+    "lv": "Pouvez-vous tout me livrer à domicile ?",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie Reis?",
-    "lv": "As-tu du riz ?",
+    "lv": "Avez-vous du riz ?",
     "level": "Sätze"
   },
   {
@@ -3686,62 +3686,62 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wie viel kostet dieser Teppich?",
-    "lv": "Combien coûte ce tapis ?",
+    "lv": "Combien coûte ce tapis ?",
     "level": "Sätze"
   },
   {
     "de": "Können Sie die Möbel in meine Wohnung liefern?",
-    "lv": "Pouvez-vous livrer des meubles à l'appartement ?",
+    "lv": "Pouvez-vous me livrer les meubles dans mon appartement ?",
     "level": "Sätze"
   },
   {
     "de": "Bitte an der Kasse zahlen.",
-    "lv": "Veuillez payer à la caisse.",
+    "lv": "Prière de payer à la caisse.",
     "level": "Sätze"
   },
   {
     "de": "Bitte, machen Sie die Rechnung.",
-    "lv": "Veuillez émettre une facture.",
+    "lv": "Faites-moi la facture, s'il vous plaît.",
     "level": "Sätze"
   },
   {
     "de": "Was kostet das Meter?",
-    "lv": "Combien coûte le mètre ?",
+    "lv": "Combien coûte le mètre ?",
     "level": "Sätze"
   },
   {
     "de": "Dieser Stoff gefällt mir.",
-    "lv": "J'adore ce tissu.",
+    "lv": "Ce tissu me plaît.",
     "level": "Sätze"
   },
   {
     "de": "Schneiden Sie mir bitte drei Meter ab.",
-    "lv": "Coupez-moi trois mètres, s'il vous plaît.",
+    "lv": "Coupez-m'en trois mètres, s'il vous plaît.",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie auch andere Muster?",
-    "lv": "Avez-vous d'autres échantillons ?",
+    "lv": "Avez-vous aussi d'autres motifs ? • Avez-vous aussi d'autres échantillons ?",
     "level": "Sätze"
   },
   {
     "de": "Diese Farbe gefällt mir nicht.",
-    "lv": "Je n'aime pas cette couleur.",
+    "lv": "Cette couleur ne me plaît pas.",
     "level": "Sätze"
   },
   {
     "de": "Geben Sie mir eine hellere.",
-    "lv": "Donnez plus de luminosité.",
+    "lv": "Donnez-m'en une plus claire.",
     "level": "Sätze"
   },
   {
     "de": "Was kosten diese Socken?",
-    "lv": "Combien coûtent ces chaussettes ?",
+    "lv": "Combien coûtent ces chaussettes ?",
     "level": "Sätze"
   },
   {
     "de": "Welche Handschuhe wünschen Sie?",
-    "lv": "Quel genre de gants voulez-vous ?",
+    "lv": "Quels gants désirez-vous ?",
     "level": "Sätze"
   },
   {
@@ -3751,12 +3751,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "So, nun passen sie gut.",
-    "lv": "Donc, ça marche bien maintenant.",
+    "lv": "Voilà, maintenant ils vont bien.",
     "level": "Sätze"
   },
   {
     "de": "Kannst du mir einen guten Schneider empfehlen?",
-    "lv": "Pouvez-vous me recommander un bon tailleur ?",
+    "lv": "Peux-tu me recommander un bon tailleur ?",
     "level": "Sätze"
   },
   {
@@ -3766,12 +3766,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wann wird er fertig sein?",
-    "lv": "Quand sera-t-il prêt ?",
+    "lv": "Quand sera-t-il prêt ?",
     "level": "Sätze"
   },
   {
     "de": "Der Anzug sitzt gut.",
-    "lv": "Le costume va bien.",
+    "lv": "Le costume tombe bien.",
     "level": "Sätze"
   },
   {
@@ -3781,57 +3781,57 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bitte reinigen und bügeln Sie ihn!",
-    "lv": "Veuillez le nettoyer et le repasser !",
+    "lv": "Nettoyez-le et repassez-le, s'il vous plaît !",
     "level": "Sätze"
   },
   {
     "de": "Wann wird das Kleid fertig sein?",
-    "lv": "Quand la robe sera-t-elle prête ?",
+    "lv": "Quand la robe sera-t-elle prête ?",
     "level": "Sätze"
   },
   {
     "de": "Die Schuhe sind zu eng.",
-    "lv": "Les chaussures sont trop serrées.",
+    "lv": "Les chaussures sont trop étroites.",
     "level": "Sätze"
   },
   {
     "de": "Können Sie die Schuhe heute reparieren?",
-    "lv": "Pouvez-vous réparer vos chaussures aujourd'hui ?",
+    "lv": "Pouvez-vous réparer les chaussures aujourd'hui ?",
     "level": "Sätze"
   },
   {
     "de": "Wann kann ich die Schuhe abholen?",
-    "lv": "Quand puis-je apporter les chaussures ?",
+    "lv": "Quand puis-je venir chercher les chaussures ?",
     "level": "Sätze"
   },
   {
     "de": "Meine Armbanduhr funktioniert nicht.",
-    "lv": "Ma montre-bracelet ne fonctionne pas.",
+    "lv": "Ma montre ne marche pas.",
     "level": "Sätze"
   },
   {
     "de": "Sie geht fünf Minuten vor.",
-    "lv": "Il est cinq minutes plus tôt.",
+    "lv": "Elle avance de cinq minutes.",
     "level": "Sätze"
   },
   {
     "de": "Bist du kurzsichtig oder weitsichtig?",
-    "lv": "Etes-vous myope ou hypermétrope ?",
+    "lv": "Es-tu myope ou hypermétrope ?",
     "level": "Sätze"
   },
   {
     "de": "Ich möchte eine Brille kaufen.",
-    "lv": "Je veux acheter des lunettes.",
+    "lv": "Je voudrais acheter des lunettes.",
     "level": "Sätze"
   },
   {
     "de": "Können Sie meine Brille reparieren?",
-    "lv": "Pouvez-vous réparer mes lunettes ?",
+    "lv": "Pouvez-vous réparer mes lunettes ?",
     "level": "Sätze"
   },
   {
     "de": "Das dauert nur eine Viertelstunde.",
-    "lv": "Cela ne prendra que quinze minutes.",
+    "lv": "Cela ne prendra qu'un quart d'heure.",
     "level": "Sätze"
   },
   {
@@ -3841,12 +3841,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich brauche zwei Fotos für meinen Pass.",
-    "lv": "J'ai besoin de deux photos d'identité.",
+    "lv": "J'ai besoin de deux photos pour mon passeport.",
     "level": "Sätze"
   },
   {
     "de": "Bitte packen Sie es ein und schicken Sie es mir nach Hause.",
-    "lv": "Veuillez emballer et renvoyer chez vous.",
+    "lv": "Veuillez l'emballer et me l'envoyer à domicile.",
     "level": "Sätze"
   },
   {
@@ -3856,52 +3856,52 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bitte, fotografieren Sie mich.",
-    "lv": "S'il vous plaît, prenez une photo de moi.",
+    "lv": "Prenez-moi en photo, s'il vous plaît.",
     "level": "Sätze"
   },
   {
     "de": "Setzen Sie sich, schauen Sie gerade in die Kamera und bewegen Sie sich nicht!",
-    "lv": "Asseyez-vous, regardez droit dans la caméra et ne bougez pas !",
+    "lv": "Asseyez-vous, regardez droit dans l'objectif et ne bougez pas !",
     "level": "Sätze"
   },
   {
     "de": "Wann kann ich das Probebild sehen?",
-    "lv": "Quand puis-je voir un échantillon ?",
+    "lv": "Quand puis-je voir l'épreuve ?",
     "level": "Sätze"
   },
   {
     "de": "Wann sind die Fotos fertig?",
-    "lv": "Quand les photos seront-elles prêtes?",
+    "lv": "Quand les photos seront-elles prêtes ?",
     "level": "Sätze"
   },
   {
     "de": "Die Aufnahme ist gelungen.",
-    "lv": "La photo a été réussie.",
+    "lv": "La photo est réussie.",
     "level": "Sätze"
   },
   {
     "de": "Die Fotos sind gut geworden.",
-    "lv": "Les photos se sont bien déroulées.",
+    "lv": "Les photos sont bien réussies.",
     "level": "Sätze"
   },
   {
     "de": "Können Sie das Foto auch vergrößern?",
-    "lv": "Pouvez-vous également agrandir la photo ?",
+    "lv": "Pouvez-vous aussi agrandir la photo ?",
     "level": "Sätze"
   },
   {
     "de": "Sind diese Steine echt?",
-    "lv": "Ces pierres sont-elles réelles ?",
+    "lv": "Ces pierres sont-elles véritables ?",
     "level": "Sätze"
   },
   {
     "de": "Ist das echtes Gold?",
-    "lv": "Est-ce du vrai or ?",
+    "lv": "Est-ce de l'or véritable ?",
     "level": "Sätze"
   },
   {
     "de": "Zeigen Sie mir bitte Trauringe.",
-    "lv": "Montre-moi les alliances, s'il te plaît.",
+    "lv": "Montrez-moi des alliances, s'il vous plaît.",
     "level": "Sätze"
   },
   {
@@ -3911,47 +3911,47 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich kann ihn enger machen.",
-    "lv": "Je peux le affiner.",
+    "lv": "Je peux la rétrécir.",
     "level": "Sätze"
   },
   {
     "de": "Dieser Ring passt mir.",
-    "lv": "Cette bague me convient.",
+    "lv": "Cette bague me va.",
     "level": "Sätze"
   },
   {
     "de": "Zeigen Sie mir schöne Geschenkideen.",
-    "lv": "Présentez de belles idées de cadeaux.",
+    "lv": "Montrez-moi de jolies idées de cadeaux.",
     "level": "Sätze"
   },
   {
     "de": "Wie gefallen dir diese Ohrringe?",
-    "lv": "Comment aimez-vous ces boucles d’oreilles ?",
+    "lv": "Comment trouves-tu ces boucles d'oreilles ?",
     "level": "Sätze"
   },
   {
     "de": "Diese Brosche ist wirklich schön.",
-    "lv": "Cette broche est très belle.",
+    "lv": "Cette broche est vraiment belle.",
     "level": "Sätze"
   },
   {
     "de": "Der Stein ist ein Saphir.",
-    "lv": "Cette pierre est un saphir.",
+    "lv": "La pierre est un saphir.",
     "level": "Sätze"
   },
   {
     "de": "Das ist kein echter Stein, das ist Glas.",
-    "lv": "Ce n'est pas de la vraie pierre, c'est du verre.",
+    "lv": "Ce n'est pas une vraie pierre, c'est du verre.",
     "level": "Sätze"
   },
   {
     "de": "Dieses Armband kann ich Ihnen besonders empfehlen.",
-    "lv": "Je peux particulièrement recommander ce bracelet.",
+    "lv": "Je peux tout particulièrement vous recommander ce bracelet.",
     "level": "Sätze"
   },
   {
     "de": "Es ist besonders schön gearbeitet.",
-    "lv": "Il est extrêmement finement travaillé.",
+    "lv": "Il est particulièrement bien travaillé.",
     "level": "Sätze"
   },
   {
@@ -3961,22 +3961,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bekomme ich die Schachtel gratis?",
-    "lv": "Ai-je reçu la boîte gratuitement ?",
+    "lv": "Est-ce que la boîte m'est offerte ?",
     "level": "Sätze"
   },
   {
     "de": "Alle Schmuckstücke sind gestempelt.",
-    "lv": "Tous les bijoux sont estampillés.",
+    "lv": "Tous les bijoux sont poinçonnés.",
     "level": "Sätze"
   },
   {
     "de": "Falls es meiner Frau nicht gefällt, kann ich es umtauschen?",
-    "lv": "Si ma femme ne l’aime pas, puis-je l’échanger ?",
+    "lv": "Si cela ne plaît pas à ma femme, puis-je l'échanger ?",
     "level": "Sätze"
   },
   {
     "de": "Natürlich, jederzeit.",
-    "lv": "À tout moment, bien sûr.",
+    "lv": "Bien sûr, à tout moment.",
     "level": "Sätze"
   }
 ];
