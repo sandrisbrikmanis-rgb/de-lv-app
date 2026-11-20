@@ -6,12 +6,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wenn nichts dazwischenkommt.",
-    "lv": "Kui miski ei sega.",
+    "lv": "Kui midagi vahele ei tule. • Kui kõik läheb plaanipäraselt.",
     "level": "Sätze"
   },
   {
     "de": "Das kann ich mir denken!",
-    "lv": "Seda ma juba tean!",
+    "lv": "Seda võin ma ette kujutada!",
     "level": "Sätze"
   },
   {
@@ -36,7 +36,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Alles deutet auf Regen.",
-    "lv": "Kõik viitab vihmale.",
+    "lv": "Kõik viitab sellele, et tuleb vihma.",
     "level": "Sätze"
   },
   {
@@ -51,7 +51,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Sprechen Sie doch!",
-    "lv": "Rääkige juba!",
+    "lv": "Rääkige ometi!",
     "level": "Sätze"
   },
   {
@@ -71,7 +71,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Die Zeit drängt.",
-    "lv": "Aeg surub tagant.",
+    "lv": "Aeg on kitsas.",
     "level": "Sätze"
   },
   {
@@ -86,7 +86,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Kein Durchgang!",
-    "lv": "Läbipääs suletud!",
+    "lv": "Läbipääs keelatud!",
     "level": "Sätze"
   },
   {
@@ -116,7 +116,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Eilt es mit dieser Sache?",
-    "lv": "Kas see asi on kiireloomuline?",
+    "lv": "Kas selle asjaga on kiire?",
     "level": "Sätze"
   },
   {
@@ -136,7 +136,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Was fällt dir ein?",
-    "lv": "Kuidas sa julged?",
+    "lv": "Kuidas sa julged? • Mis sulle pähe tuleb?",
     "level": "Sätze"
   },
   {
@@ -146,7 +146,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Steigen Sie bitte ein!",
-    "lv": "Palun astuge peale!",
+    "lv": "Palun astuge peale! • Palun istuge sisse!",
     "level": "Sätze"
   },
   {
@@ -201,7 +201,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Was soll das heißen?",
-    "lv": "Mida see tähendab?",
+    "lv": "Mida see peaks tähendama?",
     "level": "Sätze"
   },
   {
@@ -211,7 +211,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Heraus mit der Sprache!",
-    "lv": "Räägi ära!",
+    "lv": "Räägi välja!",
     "level": "Sätze"
   },
   {
@@ -346,7 +346,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich habe die Ausbildung absolviert.",
-    "lv": "Ma läbisin väljaõppe.",
+    "lv": "Ma läbisin väljaõppe. • Ma omandasin hariduse.",
     "level": "Sätze"
   },
   {
@@ -366,7 +366,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Andererseits verstehe ich ihn.",
-    "lv": "Teisest küljest ma saan temast aru.",
+    "lv": "Teisest küljest saan ma temast aru.",
     "level": "Sätze"
   },
   {
@@ -376,7 +376,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Sie hat meinen Vorschlag akzeptiert.",
-    "lv": "Ta võttis vastu minu ettepaneku.",
+    "lv": "Ta võttis minu ettepaneku vastu.",
     "level": "Sätze"
   },
   {
@@ -436,7 +436,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wir laufen zum Bahnhof.",
-    "lv": "Me läheme jaama.",
+    "lv": "Me läheme jalgsi jaama.",
     "level": "Sätze"
   },
   {
@@ -491,12 +491,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Anklang finden.",
-    "lv": "Leida vastukaja.",
+    "lv": "Leida heakskiitu. • Leida vastukaja.",
     "level": "Sätze"
   },
   {
     "de": "Es kommt darauf an.",
-    "lv": "See sõltub sellest.",
+    "lv": "See oleneb asjaoludest.",
     "level": "Sätze"
   },
   {
@@ -576,7 +576,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wir müssen heute aufräumen.",
-    "lv": "Meil tuleb täna ruum korda teha.",
+    "lv": "Meil tuleb täna koristada.",
     "level": "Sätze"
   },
   {
@@ -616,7 +616,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bitte die Tür auf!",
-    "lv": "Ava palun uks!",
+    "lv": "Palun uks lahti!",
     "level": "Sätze"
   },
   {
@@ -631,22 +631,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Alle Kräfte aufwenden.",
-    "lv": "Rakendada kõiki jõude.",
+    "lv": "Rakendada kõik jõud.",
     "level": "Sätze"
   },
   {
     "de": "Viel Mühe aufwenden.",
-    "lv": "Palju vaeva nägema.",
+    "lv": "Palju vaeva näha.",
     "level": "Sätze"
   },
   {
     "de": "Geh mir aus den Augen!",
-    "lv": "Kao mu silmist!",
+    "lv": "Kao mu silme eest!",
     "level": "Sätze"
   },
   {
     "de": "Unter vier Augen.",
-    "lv": "Kahekesi.",
+    "lv": "Nelja silma all.",
     "level": "Sätze"
   },
   {
@@ -711,7 +711,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Einfluss ausüben.",
-    "lv": "Mõjutada.",
+    "lv": "Mõju avaldada.",
     "level": "Sätze"
   },
   {
@@ -731,12 +731,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Möglichst bald.",
-    "lv": "Nii pea kui võimalik.",
+    "lv": "Niipea kui võimalik.",
     "level": "Sätze"
   },
   {
     "de": "Mir ist Angst und bange.",
-    "lv": "Ma kardan väga.",
+    "lv": "Mul on hirm nahas.",
     "level": "Sätze"
   },
   {
@@ -826,7 +826,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "In Begleitung.",
-    "lv": "Seltsis.",
+    "lv": "Saatja seltsis.",
     "level": "Sätze"
   },
   {
@@ -841,7 +841,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Im Gedächtnis behalten.",
-    "lv": "Meelde jätta.",
+    "lv": "Meeles pidada.",
     "level": "Sätze"
   },
   {
@@ -871,7 +871,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Stürmischer Beifall brach los.",
-    "lv": "Kõlas tormiline aplaus.",
+    "lv": "Puhkes tormiline aplaus.",
     "level": "Sätze"
   },
   {
@@ -886,7 +886,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Auf eigenen Beinen stehen.",
-    "lv": "Olla rahaliselt iseseisev.",
+    "lv": "Seista oma jalgadel.",
     "level": "Sätze"
   },
   {
@@ -911,7 +911,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bekanntschaft anknüpfen.",
-    "lv": "Tuttavaks saada.",
+    "lv": "Sõlmida tutvus.",
     "level": "Sätze"
   },
   {
@@ -961,7 +961,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Neue Besen kehren gut.",
-    "lv": "Uued luuad pühivad hästi.",
+    "lv": "Uus luud pühib hästi.",
     "level": "Sätze"
   },
   {
@@ -981,7 +981,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Gute Besserung!",
-    "lv": "Paranege!",
+    "lv": "Head paranemist!",
     "level": "Sätze"
   },
   {
@@ -1001,7 +1001,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Seine Aufgabe besteht darin...",
-    "lv": "Tema ülesanne seisneb...",
+    "lv": "Tema ülesanne seisneb selles...",
     "level": "Sätze"
   },
   {
@@ -1041,12 +1041,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Außer Betracht lassen.",
-    "lv": "Mitte arvesse võtta.",
+    "lv": "Arvestamata jätta.",
     "level": "Sätze"
   },
   {
     "de": "Er betreibt ein Hotel.",
-    "lv": "Ta juhib hotelli.",
+    "lv": "Ta peab hotelli.",
     "level": "Sätze"
   },
   {
@@ -1056,7 +1056,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Alles bezahlen.",
-    "lv": "Maksta kõik ära.",
+    "lv": "Kõige eest maksta.",
     "level": "Sätze"
   },
   {
@@ -1116,7 +1116,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bitte checken.",
-    "lv": "Kontrollida.",
+    "lv": "Palun kontrollida.",
     "level": "Sätze"
   },
   {
@@ -1131,7 +1131,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich kann nichts dafür.",
-    "lv": "Ma ei saa selle vastu midagi teha.",
+    "lv": "See pole minu süü.",
     "level": "Sätze"
   },
   {
@@ -1156,12 +1156,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Es dämmert.",
-    "lv": "Hakkab hämarduma.",
+    "lv": "Hämardub. • Koidab.",
     "level": "Sätze"
   },
   {
     "de": "Danke schön!",
-    "lv": "Aitäh!",
+    "lv": "Suur aitäh!",
     "level": "Sätze"
   },
   {
@@ -1171,7 +1171,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Darauf kannst du dich verlassen.",
-    "lv": "Selle peale võid sa kindel olla.",
+    "lv": "Selles võid sa kindel olla.",
     "level": "Sätze"
   },
   {
@@ -1206,12 +1206,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "nach Hause gehen",
-    "lv": "koju minema",
+    "lv": "koju minna",
     "level": "Sätze"
   },
   {
     "de": "von Haus aus",
-    "lv": "loomu poolest",
+    "lv": "algselt • loomu poolest",
     "level": "Sätze"
   },
   {
@@ -1221,7 +1221,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Seien Sie so gut!",
-    "lv": "Olge nii lahke!",
+    "lv": "Olge nii hea!",
     "level": "Sätze"
   },
   {
@@ -1251,7 +1251,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "gestern früh",
-    "lv": "eile vara hommikul",
+    "lv": "eile hommikul",
     "level": "Sätze"
   },
   {
@@ -1271,12 +1271,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Mach keine Geschichten!",
-    "lv": "Ära aja jama!",
+    "lv": "Ära tee kära! • Ära tee rumalusi!",
     "level": "Sätze"
   },
   {
     "de": "Geschweige denn...",
-    "lv": "Rääkimata sellest.",
+    "lv": "Rääkimata...",
     "level": "Sätze"
   },
   {
@@ -1291,7 +1291,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Frag ihn gelegentlich, ob...",
-    "lv": "Küsi temalt aeg-ajalt, kas...",
+    "lv": "Küsi temalt võimaluse korral, kas...",
     "level": "Sätze"
   },
   {
@@ -1311,7 +1311,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Aus diesem Brief folgt, dass...",
-    "lv": "Sellest kirjast selgub, et...",
+    "lv": "Sellest kirjast järeldub, et...",
     "level": "Sätze"
   },
   {
@@ -1331,7 +1331,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Gedenkst du meiner?",
-    "lv": "Kas sa mind mäletad?",
+    "lv": "Kas sa mind mäletad? • Kas sa mõtled minu peale?",
     "level": "Sätze"
   },
   {
@@ -1356,12 +1356,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "bis jetzt",
-    "lv": "praeguse hetkeni",
+    "lv": "siiani",
     "level": "Sätze"
   },
   {
     "de": "Wie komme ich zum Bahnhof?",
-    "lv": "Kuidas jaama jõuab?",
+    "lv": "Kuidas ma jaama saan?",
     "level": "Sätze"
   },
   {
@@ -1406,7 +1406,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Na, wie läufts?",
-    "lv": "Kuidas läheb?",
+    "lv": "Noh, kuidas läheb?",
     "level": "Sätze"
   },
   {
@@ -1416,7 +1416,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Leben Sie wohl!",
-    "lv": "Elage õnnelikult!",
+    "lv": "Jääge hüvasti!",
     "level": "Sätze"
   },
   {
@@ -1451,7 +1451,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Das Gesetz verlangt es so.",
-    "lv": "Seadus nõuab seda nii.",
+    "lv": "Nii nõuab seadus.",
     "level": "Sätze"
   },
   {
@@ -1481,7 +1481,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Halt die Luft an!",
-    "lv": "Hoia hinge kinni!",
+    "lv": "Jää nüüd vait! • Ära liialda!",
     "level": "Sätze"
   },
   {
@@ -1546,22 +1546,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Nehmen Sie Platz!",
-    "lv": "Istuge!",
+    "lv": "Võtke istet!",
     "level": "Sätze"
   },
   {
     "de": "Letzte Neuheit!",
-    "lv": "Viimane uudis!",
+    "lv": "Viimane uudisasi!",
     "level": "Sätze"
   },
   {
     "de": "Nicht wahr?",
-    "lv": "Kas pole?",
+    "lv": "Kas pole nii?",
     "level": "Sätze"
   },
   {
     "de": "Nicht doch!",
-    "lv": "Ei ometi!",
+    "lv": "Ei ometi! • Ära tee!",
     "level": "Sätze"
   },
   {
@@ -1586,7 +1586,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Nicht parken!",
-    "lv": "Parkimine keelatud!",
+    "lv": "Mitte parkida!",
     "level": "Sätze"
   },
   {
@@ -1676,7 +1676,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Spaß beiseite!",
-    "lv": "Ilma naljata!",
+    "lv": "Nali naljaks!",
     "level": "Sätze"
   },
   {
@@ -1736,7 +1736,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Nicht übel!",
-    "lv": "Üsna hea!",
+    "lv": "Pole paha!",
     "level": "Sätze"
   },
   {
@@ -1756,7 +1756,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Deine Uhr geht nach.",
-    "lv": "Sinu kell jääb maha.",
+    "lv": "Su kell jääb taha.",
     "level": "Sätze"
   },
   {
@@ -1776,7 +1776,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Rechts um!",
-    "lv": "Pöörduge paremale!",
+    "lv": "Parem pool!",
     "level": "Sätze"
   },
   {
@@ -1791,7 +1791,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Auf Unkosten von...",
-    "lv": "... arvel.",
+    "lv": "Kellegi kulul...",
     "level": "Sätze"
   },
   {
@@ -1816,7 +1816,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Falsch verbunden!",
-    "lv": "Vale ühendus!",
+    "lv": "Vale number!",
     "level": "Sätze"
   },
   {
@@ -1896,12 +1896,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Vor allem.",
-    "lv": "Esiteks.",
+    "lv": "Eelkõige.",
     "level": "Sätze"
   },
   {
     "de": "Im Voraus.",
-    "lv": "Ette.",
+    "lv": "Eelnevalt.",
     "level": "Sätze"
   },
   {
@@ -1911,7 +1911,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Unter dem Vorbehalt.",
-    "lv": "Tingimusel.",
+    "lv": "Selle tingimusega.",
     "level": "Sätze"
   },
   {
@@ -1926,7 +1926,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Vorkehrungen treffen.",
-    "lv": "Tarvitusele võtta ettevaatusabinõud.",
+    "lv": "Võtta tarvitusele ettevaatusabinõud.",
     "level": "Sätze"
   },
   {
@@ -1941,17 +1941,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Heute Vormittag.",
-    "lv": "Täna hommikul.",
+    "lv": "Täna ennelõunal.",
     "level": "Sätze"
   },
   {
     "de": "Von vorn.",
-    "lv": "Eest.",
+    "lv": "Eest. • Otsast peale.",
     "level": "Sätze"
   },
   {
     "de": "Nach vorn.",
-    "lv": "Edasi.",
+    "lv": "Ettepoole.",
     "level": "Sätze"
   },
   {
@@ -2001,7 +2001,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bis wann?",
-    "lv": "Kuni millise ajani?",
+    "lv": "Mis ajani? • Mis ajaks?",
     "level": "Sätze"
   },
   {
@@ -2051,7 +2051,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Weh tun.",
-    "lv": "Valutada.",
+    "lv": "Valutada. • Haiget teha.",
     "level": "Sätze"
   },
   {
@@ -2071,7 +2071,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ohne weiteres.",
-    "lv": "Ilma pikemata.",
+    "lv": "Ilma pikemata. • Ilma raskusteta.",
     "level": "Sätze"
   },
   {
@@ -2086,7 +2086,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Weiter nichts.",
-    "lv": "Rohkem midagi pole.",
+    "lv": "Ei midagi muud.",
     "level": "Sätze"
   },
   {
@@ -2096,7 +2096,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Alle Welt.",
-    "lv": "Kogu maailm.",
+    "lv": "Kogu maailm. • Kõik.",
     "level": "Sätze"
   },
   {
@@ -2111,7 +2111,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wenn auch.",
-    "lv": "Kuigi.",
+    "lv": "Kuigi. • Isegi kui.",
     "level": "Sätze"
   },
   {
@@ -2126,17 +2126,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ausgewählte Werke.",
-    "lv": "Valik teoseid.",
+    "lv": "Valitud teosed.",
     "level": "Sätze"
   },
   {
     "de": "Er ist wert, dass...",
-    "lv": "Ta on ära teeninud, et...",
+    "lv": "Ta väärib, et...",
     "level": "Sätze"
   },
   {
     "de": "Es ist zwei Euro wert.",
-    "lv": "See maksab kaks eurot.",
+    "lv": "See on kaks eurot väärt.",
     "level": "Sätze"
   },
   {
@@ -2156,12 +2156,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Um die Wette laufen.",
-    "lv": "Võidu jooksma.",
+    "lv": "Võidu joosta.",
     "level": "Sätze"
   },
   {
     "de": "Was gilt die Wette?",
-    "lv": "Mis on kihlveo panuseks?",
+    "lv": "Mille peale kihla veame?",
     "level": "Sätze"
   },
   {
@@ -2171,7 +2171,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wettkampf im Turnen.",
-    "lv": "Võistlused võimlemises.",
+    "lv": "Võimlemisvõistlus.",
     "level": "Sätze"
   },
   {
@@ -2181,7 +2181,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Widerspruch erheben.",
-    "lv": "Protesteerida.",
+    "lv": "Protesteerida. • Esitada vastuväiteid.",
     "level": "Sätze"
   },
   {
@@ -2211,7 +2211,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Herzlich willkommen!",
-    "lv": "Tere tulemast!",
+    "lv": "Südamlikult tere tulemast!",
     "level": "Sätze"
   },
   {
@@ -2221,7 +2221,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Es zieht.",
-    "lv": "Tõmbab tuult.",
+    "lv": "Tõmbab.",
     "level": "Sätze"
   },
   {
@@ -2251,7 +2251,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Von Tag zu Tag.",
-    "lv": "Päevast päeva.",
+    "lv": "Päev-päevalt.",
     "level": "Sätze"
   },
   {
@@ -2411,7 +2411,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Es freut mich, Sie kennenzulernen.",
-    "lv": "Rõõm on teiega tuttavaks saada.",
+    "lv": "Mul on hea meel teiega tuttavaks saada.",
     "level": "Sätze"
   },
   {
@@ -2456,7 +2456,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Er ist fest eingeschlafen.",
-    "lv": "Ta on sügavalt magama jäänud.",
+    "lv": "Ta on sügavasse unne vajunud.",
     "level": "Sätze"
   },
   {
@@ -2481,7 +2481,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Lest bitte mit!",
-    "lv": "Lugege kaasa, palun!",
+    "lv": "Lugege palun kaasa!",
     "level": "Sätze"
   },
   {
@@ -2496,7 +2496,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Geh bitte zurück an deinen Platz!",
-    "lv": "Mine tagasi oma kohale!",
+    "lv": "Mine palun tagasi oma kohale!",
     "level": "Sätze"
   },
   {
@@ -2521,7 +2521,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Lass mich noch fünf Minuten schlafen!",
-    "lv": "Luba mul veel viis minutit magada!",
+    "lv": "Lase mul veel viis minutit magada!",
     "level": "Sätze"
   },
   {
@@ -2546,7 +2546,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich möchte mich anziehen.",
-    "lv": "Tahan riidesse panna.",
+    "lv": "Tahan end riidesse panna.",
     "level": "Sätze"
   },
   {
@@ -2576,12 +2576,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Was für ein Chaos hier!",
-    "lv": "Küll siin on segadus!",
+    "lv": "Küll on siin segadus!",
     "level": "Sätze"
   },
   {
     "de": "Darf ich beim Aufräumen helfen?",
-    "lv": "Kas ma tohin koristada aidata?",
+    "lv": "Kas ma tohin koristamisel aidata?",
     "level": "Sätze"
   },
   {
@@ -2616,7 +2616,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Gib mir bitte ein Brötchen mit Käse.",
-    "lv": "Anna mulle palun juustusai.",
+    "lv": "Anna mulle palun juustuga saiake.",
     "level": "Sätze"
   },
   {
@@ -2771,7 +2771,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Es hört auf zu regnen.",
-    "lv": "Vihm lakkab sadamast.",
+    "lv": "Vihm jääb järele.",
     "level": "Sätze"
   },
   {
@@ -2781,7 +2781,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Es ist sehr warm.",
-    "lv": "On väga palav.",
+    "lv": "On väga soe.",
     "level": "Sätze"
   },
   {
@@ -2791,12 +2791,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wir bekommen gleich ein Gewitter.",
-    "lv": "Varsti tuleb äikesetorm.",
+    "lv": "Kohe tuleb äike.",
     "level": "Sätze"
   },
   {
     "de": "Das Gewitter zieht vorüber.",
-    "lv": "Äikesetorm läheb üle.",
+    "lv": "Äike läheb mööda.",
     "level": "Sätze"
   },
   {
@@ -2811,7 +2811,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Der Winter ist da, es hat geschneit.",
-    "lv": "Talv on käes, on lund sadanud.",
+    "lv": "Talv on käes, lund on sadanud.",
     "level": "Sätze"
   },
   {
@@ -2851,12 +2851,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Meine Uhr geht fünf Minuten vor.",
-    "lv": "Minu kell käib viis minutit ees.",
+    "lv": "Minu kell on viis minutit ees.",
     "level": "Sätze"
   },
   {
     "de": "Weck mich morgen früh um sieben Uhr!",
-    "lv": "Ärata mind homme kell seitse!",
+    "lv": "Ärata mind homme hommikul kell seitse!",
     "level": "Sätze"
   },
   {
@@ -2901,12 +2901,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich komme, um dich zum Spaziergang abzuholen.",
-    "lv": "Tulen sulle jalutama järele.",
+    "lv": "Tulen sulle järele, et koos jalutama minna.",
     "level": "Sätze"
   },
   {
     "de": "Geh bitte etwas langsamer, ich kann dir nicht folgen!",
-    "lv": "Mine pisut aeglasemalt, ma ei jõua sulle järele!",
+    "lv": "Kõnni palun pisut aeglasemalt, ma ei jõua sulle järele!",
     "level": "Sätze"
   },
   {
@@ -2941,7 +2941,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Geh hier die zweite Straße links und dann immer geradeaus.",
-    "lv": "Pööra siin teisel tänaval vasakule ja mine otse edasi.",
+    "lv": "Pööra siin teisest tänavast vasakule ja siis mine kogu aeg otse.",
     "level": "Sätze"
   },
   {
@@ -2966,7 +2966,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Finn fährt bis Berlin mit, dann geht er ans Meer.",
-    "lv": "Finn sõidab Berliinini, siis läheb mere äärde.",
+    "lv": "Finn sõidab Berliinini kaasa, siis läheb mere äärde.",
     "level": "Sätze"
   },
   {
@@ -2976,7 +2976,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "In einer halben Stunde.",
-    "lv": "Pool tunni pärast.",
+    "lv": "Poole tunni pärast.",
     "level": "Sätze"
   },
   {
@@ -2996,7 +2996,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Der Zug fährt um halb sieben ab.",
-    "lv": "Rong väljub pool seitse.",
+    "lv": "Rong väljub kell pool seitse.",
     "level": "Sätze"
   },
   {
@@ -3071,7 +3071,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Es zieht, schließ bitte das Fenster!",
-    "lv": "Tõmbab tuult, sulge palun aken!",
+    "lv": "Siin tõmbab, sulge palun aken!",
     "level": "Sätze"
   },
   {
@@ -3116,7 +3116,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Kannst du mir ein gutes Hotel empfehlen?",
-    "lv": "Kas sa saad head hotelli soovitada?",
+    "lv": "Kas sa saad mulle head hotelli soovitada?",
     "level": "Sätze"
   },
   {
@@ -3151,7 +3151,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wann hat das Museum geöffnet?",
-    "lv": "Millal muuseum on avatud?",
+    "lv": "Millal on muuseum avatud?",
     "level": "Sätze"
   },
   {
@@ -3261,7 +3261,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Werfen Sie bitte diesen Brief in den Briefkasten.",
-    "lv": "Palun pange see kiri postkasti!",
+    "lv": "Palun pange see kiri postkasti.",
     "level": "Sätze"
   },
   {
@@ -3366,7 +3366,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Hast du alles eingepackt?",
-    "lv": "Kas oled kõik juba sisse pakkinud?",
+    "lv": "Kas sa oled kõik ära pakkinud?",
     "level": "Sätze"
   },
   {
@@ -3431,7 +3431,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Er hat sich aber recht verändert.",
-    "lv": "Ta on aga üsna palju muutunud.",
+    "lv": "Ta on ikka päris palju muutunud.",
     "level": "Sätze"
   },
   {
@@ -3446,7 +3446,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich fühle mich nicht wohl.",
-    "lv": "Tunnen end halvasti.",
+    "lv": "Ma ei tunne end hästi.",
     "level": "Sätze"
   },
   {
@@ -3491,7 +3491,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich habe Zahnschmerzen.",
-    "lv": "Mul valutavad hambad.",
+    "lv": "Mul on hambavalu.",
     "level": "Sätze"
   },
   {
@@ -3511,12 +3511,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich will meine Wohnung neu möblieren.",
-    "lv": "Tahan oma korterit uuesti sisustada.",
+    "lv": "Tahan oma korteri uuesti sisustada.",
     "level": "Sätze"
   },
   {
     "de": "Kann ich das auf Raten kaufen?",
-    "lv": "Kas ma saan järelmaksuga osta?",
+    "lv": "Kas ma saan seda järelmaksuga osta?",
     "level": "Sätze"
   },
   {
@@ -3581,12 +3581,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Womit kann ich Ihnen helfen?",
-    "lv": "Millega saan aidata?",
+    "lv": "Millega saan teid aidata?",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie ganz frische Eier?",
-    "lv": "Kas teil on värskeid mune?",
+    "lv": "Kas teil on päris värskeid mune?",
     "level": "Sätze"
   },
   {
@@ -3601,7 +3601,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Können Sie mir ein halbes Kilo abwiegen?",
-    "lv": "Kas te saate poole kilo maha kaaluda?",
+    "lv": "Kas te saate mulle pool kilo kaaluda?",
     "level": "Sätze"
   },
   {
@@ -3666,7 +3666,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Können Sie mir alles nach Hause liefern?",
-    "lv": "Kas te saate kõik koju tuua?",
+    "lv": "Kas te saate mulle kõik koju toimetada?",
     "level": "Sätze"
   },
   {
@@ -3696,12 +3696,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bitte an der Kasse zahlen.",
-    "lv": "Palun makske kassas.",
+    "lv": "Palun maksta kassas.",
     "level": "Sätze"
   },
   {
     "de": "Bitte, machen Sie die Rechnung.",
-    "lv": "Kirjutage palun arve.",
+    "lv": "Palun kirjutage arve välja.",
     "level": "Sätze"
   },
   {
@@ -3711,7 +3711,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Dieser Stoff gefällt mir.",
-    "lv": "Mulle meeldib see riie.",
+    "lv": "Mulle meeldib see kangas.",
     "level": "Sätze"
   },
   {
@@ -3721,7 +3721,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Haben Sie auch andere Muster?",
-    "lv": "Kas teil on ka teisi mustreid?",
+    "lv": "Kas teil on ka teisi mustreid? • Kas teil on ka teisi näidiseid?",
     "level": "Sätze"
   },
   {
@@ -3756,7 +3756,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Kannst du mir einen guten Schneider empfehlen?",
-    "lv": "Kas sa saad head rätsepat soovitada?",
+    "lv": "Kas sa oskad mulle head rätsepat soovitada?",
     "level": "Sätze"
   },
   {
@@ -3766,12 +3766,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wann wird er fertig sein?",
-    "lv": "Millal ta valmis saab?",
+    "lv": "Millal see valmis saab?",
     "level": "Sätze"
   },
   {
     "de": "Der Anzug sitzt gut.",
-    "lv": "Ülikond sobib hästi.",
+    "lv": "Ülikond istub hästi.",
     "level": "Sätze"
   },
   {
@@ -3811,17 +3811,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Sie geht fünf Minuten vor.",
-    "lv": "See käib viis minutit ees.",
+    "lv": "See on viis minutit ees.",
     "level": "Sätze"
   },
   {
     "de": "Bist du kurzsichtig oder weitsichtig?",
-    "lv": "Kas sa oled lühinägelik või kaugelenägelik?",
+    "lv": "Kas sa oled lühinägelik või kaugnägelik?",
     "level": "Sätze"
   },
   {
     "de": "Ich möchte eine Brille kaufen.",
-    "lv": "Tahan prille osta.",
+    "lv": "Tahaksin prille osta.",
     "level": "Sätze"
   },
   {
@@ -3831,7 +3831,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Das dauert nur eine Viertelstunde.",
-    "lv": "See kestab ainult veerand tundi.",
+    "lv": "See võtab ainult veerand tundi aega.",
     "level": "Sätze"
   },
   {
@@ -3856,7 +3856,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bitte, fotografieren Sie mich.",
-    "lv": "Palun tehke minust foto.",
+    "lv": "Palun pildistage mind.",
     "level": "Sätze"
   },
   {
@@ -3881,12 +3881,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Die Fotos sind gut geworden.",
-    "lv": "Fotod õnnestusid hästi.",
+    "lv": "Fotod tulid hästi välja.",
     "level": "Sätze"
   },
   {
     "de": "Können Sie das Foto auch vergrößern?",
-    "lv": "Kas te saate ka fotot suurendada?",
+    "lv": "Kas te saate fotot ka suurendada?",
     "level": "Sätze"
   },
   {
@@ -3901,7 +3901,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Zeigen Sie mir bitte Trauringe.",
-    "lv": "Näidake palun abielusõrmuseid.",
+    "lv": "Näidake mulle palun laulatussõrmuseid.",
     "level": "Sätze"
   },
   {
@@ -3911,7 +3911,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich kann ihn enger machen.",
-    "lv": "Ma saan seda kitsamaks teha.",
+    "lv": "Ma saan selle kitsamaks teha.",
     "level": "Sätze"
   },
   {
@@ -3921,7 +3921,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Zeigen Sie mir schöne Geschenkideen.",
-    "lv": "Näidake ilusaid kingiideid.",
+    "lv": "Näidake mulle ilusaid kingiideid.",
     "level": "Sätze"
   },
   {
@@ -3931,7 +3931,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Diese Brosche ist wirklich schön.",
-    "lv": "See sõlg on väga ilus.",
+    "lv": "See sõlg on tõesti ilus.",
     "level": "Sätze"
   },
   {
@@ -3946,7 +3946,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Dieses Armband kann ich Ihnen besonders empfehlen.",
-    "lv": "Seda käevõru võin eriti soovitada.",
+    "lv": "Seda käevõru võin teile eriti soovitada.",
     "level": "Sätze"
   },
   {
@@ -3966,12 +3966,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Alle Schmuckstücke sind gestempelt.",
-    "lv": "Kõik ehted on templiga.",
+    "lv": "Kõik ehted on proovimärgisega.",
     "level": "Sätze"
   },
   {
     "de": "Falls es meiner Frau nicht gefällt, kann ich es umtauschen?",
-    "lv": "Kui mu naisele ei meeldi, kas ma saan vahetada?",
+    "lv": "Kui see mu naisele ei meeldi, kas ma saan selle ümber vahetada?",
     "level": "Sätze"
   },
   {
