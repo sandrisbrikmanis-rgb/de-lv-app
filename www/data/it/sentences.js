@@ -1,1322 +1,1322 @@
 const SENTENCE_ENTRIES = [
   {
     "de": "Hüte dich davor!",
-    "lv": "Sargies no tā!",
+    "lv": "Guardatene!",
     "level": "Sätze"
   },
   {
     "de": "Wenn nichts dazwischenkommt.",
-    "lv": "Ja nekas netraucē. • Ja viss noritēs pēc plāna.",
+    "lv": "Se non succede niente. • Se tutto va secondo i piani.",
     "level": "Sätze"
   },
   {
     "de": "Das kann ich mir denken!",
-    "lv": "To es gan zinu!",
+    "lv": "Me lo immagino!",
     "level": "Sätze"
   },
   {
     "de": "Ist er denn krank?",
-    "lv": "Vai tad viņš ir slims?",
+    "lv": "Ma è malato?",
     "level": "Sätze"
   },
   {
     "de": "Was denn?",
-    "lv": "Ko tad?",
+    "lv": "Che c'è?",
     "level": "Sätze"
   },
   {
     "de": "Desto mehr.",
-    "lv": "Jo vairāk.",
+    "lv": "Tanto più.",
     "level": "Sätze"
   },
   {
     "de": "Je mehr, desto besser.",
-    "lv": "Jo vairāk, jo labāk.",
+    "lv": "Più ce n'è, meglio è.",
     "level": "Sätze"
   },
   {
     "de": "Alles deutet auf Regen.",
-    "lv": "Viss liecina par lietu.",
+    "lv": "Tutto fa pensare che pioverà.",
     "level": "Sätze"
   },
   {
     "de": "Damit ist mir wenig gedient.",
-    "lv": "No tā man ir maza jēga.",
+    "lv": "Questo mi serve a poco.",
     "level": "Sätze"
   },
   {
     "de": "Er ist dienstlich verhindert.",
-    "lv": "Viņš nevar ierasties darba dēļ.",
+    "lv": "È trattenuto da impegni di lavoro.",
     "level": "Sätze"
   },
   {
     "de": "Sprechen Sie doch!",
-    "lv": "Runājiet jel!",
+    "lv": "Avanti, parli!",
     "level": "Sätze"
   },
   {
     "de": "Es donnert.",
-    "lv": "Pērkons rūc.",
+    "lv": "Tuona.",
     "level": "Sätze"
   },
   {
     "de": "Doppelt so groß.",
-    "lv": "Divtik liels.",
+    "lv": "Grande il doppio.",
     "level": "Sätze"
   },
   {
     "de": "Von dort.",
-    "lv": "No turienes.",
+    "lv": "Da lì.",
     "level": "Sätze"
   },
   {
     "de": "Die Zeit drängt.",
-    "lv": "Laiks steidz.",
+    "lv": "Il tempo stringe.",
     "level": "Sätze"
   },
   {
     "de": "Ihn drücken Sorgen.",
-    "lv": "Viņu nomāc rūpes.",
+    "lv": "Lo opprimono le preoccupazioni.",
     "level": "Sätze"
   },
   {
     "de": "Hast du das Buch durchgearbeitet?",
-    "lv": "Vai tu esi rūpīgi izgājis cauri grāmatai?",
+    "lv": "Hai studiato a fondo il libro?",
     "level": "Sätze"
   },
   {
     "de": "Kein Durchgang!",
-    "lv": "Cauri neiet! • Izeja aizvērta!",
+    "lv": "Passaggio vietato!",
     "level": "Sätze"
   },
   {
     "de": "Darf ich Sie bitten?",
-    "lv": "Vai es drīkstu jūs lūgt?",
+    "lv": "Posso invitarla a ballare? • Vuole seguirmi, per favore?",
     "level": "Sätze"
   },
   {
     "de": "Ich bin durstig.",
-    "lv": "Man slāpst.",
+    "lv": "Ho sete.",
     "level": "Sätze"
   },
   {
     "de": "Eben das meine ich.",
-    "lv": "Dat is precies wat ik bedoel.",
+    "lv": "È proprio quello che intendo.",
     "level": "Sätze"
   },
   {
     "de": "Es ist ganz egal.",
-    "lv": "Tas ir pilnīgi vienalga.",
+    "lv": "Non importa affatto.",
     "level": "Sätze"
   },
   {
     "de": "Was wollen Sie eigentlich?",
-    "lv": "Ko jūs īsti gribat?",
+    "lv": "Ma che cosa vuole?",
     "level": "Sätze"
   },
   {
     "de": "Eilt es mit dieser Sache?",
-    "lv": "Vai šī lieta steidzama?",
+    "lv": "È urgente questa faccenda?",
     "level": "Sätze"
   },
   {
     "de": "Eilt sehr!",
-    "lv": "Ļoti steidzami!",
+    "lv": "Urgentissimo!",
     "level": "Sätze"
   },
   {
     "de": "Ich habe es eilig.",
-    "lv": "Es steidzos.",
+    "lv": "Ho fretta.",
     "level": "Sätze"
   },
   {
     "de": "Du bildest dir nur ein, krank zu sein.",
-    "lv": "Tu tikai iedomājies, ka esi slims.",
+    "lv": "Ti immagini soltanto di essere malato.",
     "level": "Sätze"
   },
   {
     "de": "Was fällt dir ein?",
-    "lv": "Kas tev nāk prātā?",
+    "lv": "Come ti permetti? • Che cosa ti viene in mente?",
     "level": "Sätze"
   },
   {
     "de": "Es war einmal.",
-    "lv": "Reiz bija.",
+    "lv": "C'era una volta.",
     "level": "Sätze"
   },
   {
     "de": "Steigen Sie bitte ein!",
-    "lv": "Lūdzu, iekāpiet!",
+    "lv": "Salga, per favore!",
     "level": "Sätze"
   },
   {
     "de": "Treten Sie ein!",
-    "lv": "Lūdzu, nāciet iekšā!",
+    "lv": "Entri!",
     "level": "Sätze"
   },
   {
     "de": "Einzelnes hat mir dort gefallen.",
-    "lv": "Dažas lietas man tur patika.",
+    "lv": "Alcune cose lì mi sono piaciute.",
     "level": "Sätze"
   },
   {
     "de": "Es empfiehlt sich.",
-    "lv": "Ir ieteicams.",
+    "lv": "È consigliabile.",
     "level": "Sätze"
   },
   {
     "de": "Diese Flasche enthält Essig.",
-    "lv": "Šai pudelē ir etiķis.",
+    "lv": "Questa bottiglia contiene aceto.",
     "level": "Sätze"
   },
   {
     "de": "Entschuldigen Sie bitte!",
-    "lv": "Atvainojiet, lūdzu!",
+    "lv": "Mi scusi, per favore!",
     "level": "Sätze"
   },
   {
     "de": "Entweder... oder...",
-    "lv": "Vai nu... vai...",
+    "lv": "O... o...",
     "level": "Sätze"
   },
   {
     "de": "Wer war der Erste?",
-    "lv": "Kurš bija pirmais?",
+    "lv": "Chi è stato il primo?",
     "level": "Sätze"
   },
   {
     "de": "Wer fehlt heute?",
-    "lv": "Kas šodien nav ieradies?",
+    "lv": "Chi manca oggi?",
     "level": "Sätze"
   },
   {
     "de": "Was fehlt dir?",
-    "lv": "Kas tev kait?",
+    "lv": "Che cos'hai?",
     "level": "Sätze"
   },
   {
     "de": "Wie heißen Sie?",
-    "lv": "Kā jūs sauc?",
+    "lv": "Come si chiama?",
     "level": "Sätze"
   },
   {
     "de": "Was soll das heißen?",
-    "lv": "Cosa significa?",
+    "lv": "Che cosa vorrebbe dire?",
     "level": "Sätze"
   },
   {
     "de": "Bitte treten Sie näher heran!",
-    "lv": "Lūdzu, nāciet tuvāk!",
+    "lv": "Si avvicini, per favore!",
     "level": "Sätze"
   },
   {
     "de": "Heraus mit der Sprache!",
-    "lv": "Runā! • Stāsti!",
+    "lv": "Sputa il rospo!",
     "level": "Sätze"
   },
   {
     "de": "im Herbst",
-    "lv": "Rudenī",
+    "lv": "in autunno",
     "level": "Sätze"
   },
   {
     "de": "Meine Herrschaften!",
-    "lv": "Kungi un dāmas!",
+    "lv": "Signore e signori!",
     "level": "Sätze"
   },
   {
     "de": "von heute an",
-    "lv": "Vanaf vandaag",
+    "lv": "da oggi in poi",
     "level": "Sätze"
   },
   {
     "de": "heute früh",
-    "lv": "Šorīt",
+    "lv": "stamattina",
     "level": "Sätze"
   },
   {
     "de": "heute Nacht",
-    "lv": "Šonakt",
+    "lv": "stanotte",
     "level": "Sätze"
   },
   {
     "de": "Zu Hilfe!",
-    "lv": "Palīgā!",
+    "lv": "Aiuto!",
     "level": "Sätze"
   },
   {
     "de": "Ich lerne jeden Tag Deutsch.",
-    "lv": "Es katru dienu mācos vācu valodu.",
+    "lv": "Studio tedesco ogni giorno.",
     "level": "Sätze"
   },
   {
     "de": "Kannst du das bitte wiederholen?",
-    "lv": "Vai vari, lūdzu, to atkārtot?",
+    "lv": "Puoi ripeterlo, per favore?",
     "level": "Sätze"
   },
   {
     "de": "Wir treffen uns am Bahnhof.",
-    "lv": "Mēs tiekamies dzelzceļa stacijā.",
+    "lv": "Ci vediamo alla stazione.",
     "level": "Sätze"
   },
   {
     "de": "Ich stimme dir teilweise zu.",
-    "lv": "Es tev daļēji piekrītu.",
+    "lv": "Sono in parte d'accordo con te.",
     "level": "Sätze"
   },
   {
     "de": "Diese Entscheidung hat weitreichende Folgen.",
-    "lv": "Šim lēmumam ir tālejošas sekas.",
+    "lv": "Questa decisione ha conseguenze di vasta portata.",
     "level": "Sätze"
   },
   {
     "de": "Man sollte mehrere Perspektiven berücksichtigen.",
-    "lv": "Vajadzētu ņemt vērā vairākas perspektīvas.",
+    "lv": "Bisognerebbe considerare diversi punti di vista.",
     "level": "Sätze"
   },
   {
     "de": "Könnten Sie das näher erläutern?",
-    "lv": "Vai jūs varētu to paskaidrot sīkāk?",
+    "lv": "Potrebbe spiegarlo più nel dettaglio?",
     "level": "Sätze"
   },
   {
     "de": "Was mich anbelangt,...",
-    "lv": "Kas attiecas uz mani,...",
+    "lv": "Per quanto mi riguarda,...",
     "level": "Sätze"
   },
   {
     "de": "Wie alt sind Sie?",
-    "lv": "Cik jums gadu?",
+    "lv": "Quanti anni ha?",
     "level": "Sätze"
   },
   {
     "de": "Ich bin zwanzig Jahre alt.",
-    "lv": "Man ir divdesmit gadu.",
+    "lv": "Ho vent'anni.",
     "level": "Sätze"
   },
   {
     "de": "Von heute an.",
-    "lv": "No šodienas.",
+    "lv": "Da oggi in poi.",
     "level": "Sätze"
   },
   {
     "de": "Von jetzt an.",
-    "lv": "No šī brīža.",
+    "lv": "D'ora in poi.",
     "level": "Sätze"
   },
   {
     "de": "Anders geht es nicht.",
-    "lv": "Citādi nevar.",
+    "lv": "Non c'è altro modo.",
     "level": "Sätze"
   },
   {
     "de": "Rufen Sie mich an.",
-    "lv": "Piezvaniet man.",
+    "lv": "Mi chiami.",
     "level": "Sätze"
   },
   {
     "de": "Bitte stellen Sie das Radio ab.",
-    "lv": "Lūdzu, izslēdziet radio.",
+    "lv": "Per favore, spenga la radio.",
     "level": "Sätze"
   },
   {
     "de": "Achte bitte auf den Verkehr.",
-    "lv": "Lūdzu, pievērs uzmanību satiksmei.",
+    "lv": "Fa' attenzione al traffico, per favore.",
     "level": "Sätze"
   },
   {
     "de": "Darauf musst du achten.",
-    "lv": "Tam tev jāpievērš uzmanība.",
+    "lv": "A questo devi fare attenzione.",
     "level": "Sätze"
   },
   {
     "de": "Heute mache ich es anders.",
-    "lv": "Šodien es to darīšu citādi.",
+    "lv": "Oggi lo faccio in un altro modo.",
     "level": "Sätze"
   },
   {
     "de": "Wir warten auf den Bus.",
-    "lv": "Mēs gaidām autobusu.",
+    "lv": "Aspettiamo l'autobus.",
     "level": "Sätze"
   },
   {
     "de": "Er wohnt allein.",
-    "lv": "Viņš dzīvo viens.",
+    "lv": "Vive da solo.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe die Ausbildung absolviert.",
-    "lv": "Es pabeidzu apmācību. • Es pabeidzu izglītību.",
+    "lv": "Ho completato la formazione. • Ho finito gli studi.",
     "level": "Sätze"
   },
   {
     "de": "Ich warte den Regen ab.",
-    "lv": "Es nogaidīšu, kamēr lietus pārtiks.",
+    "lv": "Aspetto che smetta di piovere.",
     "level": "Sätze"
   },
   {
     "de": "Er arbeitet in der Verkaufsabteilung.",
-    "lv": "Hij werkt op de verkoopafdeling.",
+    "lv": "Lavora nell'ufficio vendite.",
     "level": "Sätze"
   },
   {
     "de": "Ich bin allergisch gegen Katzen.",
-    "lv": "Man ir alerģija pret kaķiem.",
+    "lv": "Sono allergico ai gatti.",
     "level": "Sätze"
   },
   {
     "de": "Andererseits verstehe ich ihn.",
-    "lv": "No otras puses, es viņu saprotu.",
+    "lv": "D'altra parte, lo capisco.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe die Situation analysiert.",
-    "lv": "Es izanalizēju situāciju.",
+    "lv": "Ho analizzato la situazione.",
     "level": "Sätze"
   },
   {
     "de": "Sie hat meinen Vorschlag akzeptiert.",
-    "lv": "Viņa pieņēma manu priekšlikumu.",
+    "lv": "Ha accettato la mia proposta.",
     "level": "Sätze"
   },
   {
     "de": "Ich möchte das genauer analysieren.",
-    "lv": "Es vēlos to analizēt precīzāk.",
+    "lv": "Vorrei analizzarlo più nel dettaglio.",
     "level": "Sätze"
   },
   {
     "de": "Ich möchte den Vertrag ändern.",
-    "lv": "Es vēlos mainīt līgumu.",
+    "lv": "Vorrei modificare il contratto.",
     "level": "Sätze"
   },
   {
     "de": "Er ändert ständig seine Meinung.",
-    "lv": "Viņš pastāvīgi maina savu viedokli.",
+    "lv": "Cambia continuamente idea.",
     "level": "Sätze"
   },
   {
     "de": "Ähnliche Probleme hatten wir schon früher.",
-    "lv": "Līdzīgas problēmas mums jau bija agrāk.",
+    "lv": "Abbiamo già avuto problemi simili in passato.",
     "level": "Sätze"
   },
   {
     "de": "Keine Ahnung!",
-    "lv": "Nav ne jausmas!",
+    "lv": "Non ne ho idea!",
     "level": "Sätze"
   },
   {
     "de": "Hör auf zu jammern.",
-    "lv": "Beidz žēloties.",
+    "lv": "Smettila di lamentarti.",
     "level": "Sätze"
   },
   {
     "de": "Dieses Kleid ist akademisch gekleidet.",
-    "lv": "Šī kleita ir stilīgi konservatīva.",
+    "lv": "Questo vestito ha uno stile elegante e sobrio.",
     "level": "Sätze"
   },
   {
     "de": "Ich höre gerne Akkordeonmusik.",
-    "lv": "Man patīk klausīties akordeona mūziku.",
+    "lv": "Mi piace ascoltare la musica per fisarmonica.",
     "level": "Sätze"
   },
   {
     "de": "Kannst du das Gerät anklicken?",
-    "lv": "Vai vari uzklikšķināt uz ierīces?",
+    "lv": "Puoi cliccare sul dispositivo?",
     "level": "Sätze"
   },
   {
     "de": "Bitte öffne die Datei und klicke darauf.",
-    "lv": "Lūdzu, atver failu un uzklikšķini uz tā.",
+    "lv": "Per favore, apri il file e cliccaci sopra.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe einen Unfall gehabt.",
-    "lv": "Es cietu negadījumā.",
+    "lv": "Ho avuto un incidente.",
     "level": "Sätze"
   },
   {
     "de": "Wir laufen zum Bahnhof.",
-    "lv": "Mēs ejam uz staciju.",
+    "lv": "Andiamo alla stazione a piedi.",
     "level": "Sätze"
   },
   {
     "de": "Bitte schalte den Fernseher an.",
-    "lv": "Lūdzu, ieslēdz televizoru.",
+    "lv": "Per favore, accendi il televisore.",
     "level": "Sätze"
   },
   {
     "de": "Mein Computer ist abgestürzt.",
-    "lv": "Mans dators ir avarējis.",
+    "lv": "Il mio computer si è bloccato.",
     "level": "Sätze"
   },
   {
     "de": "Am Wochenende gehe ich angeln.",
-    "lv": "Nedēļas nogalē es iešu makšķerēt.",
+    "lv": "Il fine settimana vado a pescare.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe den Anruf verpasst.",
-    "lv": "Es nokavēju zvanu.",
+    "lv": "Ho perso la chiamata.",
     "level": "Sätze"
   },
   {
     "de": "Kannst du mich später anrufen?",
-    "lv": "Vai vari man piezvanīt vēlāk?",
+    "lv": "Puoi chiamarmi più tardi?",
     "level": "Sätze"
   },
   {
     "de": "Bitte nimm meinen Vorschlag an.",
-    "lv": "Lūdzu, pieņem manu priekšlikumu.",
+    "lv": "Per favore, accetta la mia proposta.",
     "level": "Sätze"
   },
   {
     "de": "Ich nehme dein Angebot an.",
-    "lv": "Es pieņemu tavu piedāvājumu.",
+    "lv": "Accetto la tua offerta.",
     "level": "Sätze"
   },
   {
     "de": "Er nahm die Einladung an.",
-    "lv": "Viņš pieņēma uzaicinājumu.",
+    "lv": "Ha accettato l'invito.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe Angst vor Spinnen.",
-    "lv": "Man ir bail no zirnekļiem.",
+    "lv": "Ho paura dei ragni.",
     "level": "Sätze"
   },
   {
     "de": "Keine Angst, alles wird gut.",
-    "lv": "Nebaidies, viss būs labi.",
+    "lv": "Non avere paura, andrà tutto bene.",
     "level": "Sätze"
   },
   {
     "de": "Anklang finden.",
-    "lv": "Rast atbalsi. • Atrast atsaucību",
+    "lv": "Riscuotere successo. • Trovare consenso.",
     "level": "Sätze"
   },
   {
     "de": "Es kommt darauf an.",
-    "lv": "Tas ir atkarīgs no tā.",
+    "lv": "Dipende.",
     "level": "Sätze"
   },
   {
     "de": "Aus diesem Anlass.",
-    "lv": "Vanwege deze tijd. • In dit opzicht",
+    "lv": "In questa occasione.",
     "level": "Sätze"
   },
   {
     "de": "Nehmen wir an, dass...",
-    "lv": "Pieņemsim, ka...",
+    "lv": "Supponiamo che...",
     "level": "Sätze"
   },
   {
     "de": "Was hast du da angerichtet?",
-    "lv": "Ko tu tur esi izdarījis?",
+    "lv": "Che cosa hai combinato?",
     "level": "Sätze"
   },
   {
     "de": "Bis ans Ende.",
-    "lv": "Līdz galam.",
+    "lv": "Fino alla fine.",
     "level": "Sätze"
   },
   {
     "de": "Du glaubst mir anscheinend nicht.",
-    "lv": "Šķiet, ka tu man netici.",
+    "lv": "A quanto pare non mi credi.",
     "level": "Sätze"
   },
   {
     "de": "Meiner Ansicht nach...",
-    "lv": "Pēc manām domām...",
+    "lv": "Secondo me...",
     "level": "Sätze"
   },
   {
     "de": "Stell dich nicht so an!",
-    "lv": "Neizliecies!",
+    "lv": "Non fare tante storie!",
     "level": "Sätze"
   },
   {
     "de": "An die Arbeit gehen.",
-    "lv": "Ķerties pie darba.",
+    "lv": "Mettersi al lavoro.",
     "level": "Sätze"
   },
   {
     "de": "Außer Atem sein.",
-    "lv": "Būt bez elpas.",
+    "lv": "Essere senza fiato.",
     "level": "Sätze"
   },
   {
     "de": "Guten Appetit!",
-    "lv": "Labu appetito!",
+    "lv": "Buon appetito!",
     "level": "Sätze"
   },
   {
     "de": "In einem Atemzug.",
-    "lv": "Vienā elpas vilcienā.",
+    "lv": "Tutto d'un fiato.",
     "level": "Sätze"
   },
   {
     "de": "Auf jeden Fall.",
-    "lv": "Katrā gadījumā.",
+    "lv": "In ogni caso. • Senz'altro.",
     "level": "Sätze"
   },
   {
     "de": "Auf einmal war alles still.",
-    "lv": "Pēkšņi viss kļuva kluss.",
+    "lv": "All'improvviso si è fatto silenzio.",
     "level": "Sätze"
   },
   {
     "de": "Bitte mach die Tür auf!",
-    "lv": "Atver, lūdzu, durvis!",
+    "lv": "Apri la porta, per favore!",
     "level": "Sätze"
   },
   {
     "de": "Er hat den Kredit aufgenommen.",
-    "lv": "Viņš ņēma kredītu.",
+    "lv": "Ha preso un prestito.",
     "level": "Sätze"
   },
   {
     "de": "Wir müssen heute aufräumen.",
-    "lv": "Mums šodien jāsakārto telpa.",
+    "lv": "Oggi dobbiamo mettere in ordine.",
     "level": "Sätze"
   },
   {
     "de": "Ich höre jetzt auf.",
-    "lv": "Es tagad beigšu.",
+    "lv": "Adesso smetto.",
     "level": "Sätze"
   },
   {
     "de": "Er ist schon auf.",
-    "lv": "Viņš jau ir piecēlies.",
+    "lv": "È già in piedi.",
     "level": "Sätze"
   },
   {
     "de": "Wir müssen das Treffen verschieben.",
-    "lv": "Mums jāpārceļ tikšanās.",
+    "lv": "Dobbiamo rinviare l'incontro.",
     "level": "Sätze"
   },
   {
     "de": "Sie hat mich aufgeregt.",
-    "lv": "Viņa mani aizkaitināja.",
+    "lv": "Mi ha fatto innervosire.",
     "level": "Sätze"
   },
   {
     "de": "Auf einmal.",
-    "lv": "Plotseling.",
+    "lv": "All'improvviso.",
     "level": "Sätze"
   },
   {
     "de": "Auf der Stelle.",
-    "lv": "Nekavējoties.",
+    "lv": "Su due piedi.",
     "level": "Sätze"
   },
   {
     "de": "Für den Schaden aufkommen.",
-    "lv": "Segt nodarītos zaudējumus.",
+    "lv": "Risarcire i danni.",
     "level": "Sätze"
   },
   {
     "de": "Bitte die Tür auf!",
-    "lv": "Atveriet, lūdzu, durvis!",
+    "lv": "Apri la porta, per favore!",
     "level": "Sätze"
   },
   {
     "de": "Aufrecht sitzen.",
-    "lv": "Sēdēt taisni.",
+    "lv": "Stare seduti dritti.",
     "level": "Sätze"
   },
   {
     "de": "Er ist auf.",
-    "lv": "Viņš ir piecēlies.",
+    "lv": "È in piedi.",
     "level": "Sätze"
   },
   {
     "de": "Alle Kräfte aufwenden.",
-    "lv": "Zet al je kracht in.",
+    "lv": "Impiegare tutte le proprie forze.",
     "level": "Sätze"
   },
   {
     "de": "Viel Mühe aufwenden.",
-    "lv": "Ļoti pūlēties.",
+    "lv": "Impegnarsi molto.",
     "level": "Sätze"
   },
   {
     "de": "Geh mir aus den Augen!",
-    "lv": "Nerādies man vairs acīs!",
+    "lv": "Togliti dalla mia vista!",
     "level": "Sätze"
   },
   {
     "de": "Unter vier Augen.",
-    "lv": "Divatā. • Klusi",
+    "lv": "A quattr'occhi.",
     "level": "Sätze"
   },
   {
     "de": "Aus Mangel an Zeit.",
-    "lv": "Laika trūkuma dēļ.",
+    "lv": "Per mancanza di tempo.",
     "level": "Sätze"
   },
   {
     "de": "Aus diesem Grunde.",
-    "lv": "Šā iemesla dēļ.",
+    "lv": "Per questo motivo.",
     "level": "Sätze"
   },
   {
     "de": "Alle außer dir.",
-    "lv": "Visi, izņemot tevi.",
+    "lv": "Tutti tranne te.",
     "level": "Sätze"
   },
   {
     "de": "Auf Äußerlichkeiten Wert legen.",
-    "lv": "Piešķirt nozīmi ārienei.",
+    "lv": "Dare importanza alle apparenze.",
     "level": "Sätze"
   },
   {
     "de": "Im äußersten Fall.",
-    "lv": "Visļaunākajā gadījumā.",
+    "lv": "Nel peggiore dei casi.",
     "level": "Sätze"
   },
   {
     "de": "Äußerst wichtig.",
-    "lv": "Ārkārtīgi svarīgs.",
+    "lv": "Estremamente importante.",
     "level": "Sätze"
   },
   {
     "de": "Aussicht auf die See.",
-    "lv": "Skats uz jūru.",
+    "lv": "Vista sul mare.",
     "level": "Sätze"
   },
   {
     "de": "Er hat gute Aussichten.",
-    "lv": "Viņam ir labas izredzes.",
+    "lv": "Ha buone possibilità.",
     "level": "Sätze"
   },
   {
     "de": "Wie wird dieses Wort ausgesprochen?",
-    "lv": "Kā šo vārdu izrunā?",
+    "lv": "Come si pronuncia questa parola?",
     "level": "Sätze"
   },
   {
     "de": "Sein Beileid aussprechen.",
-    "lv": "Izteikt līdzjūtību.",
+    "lv": "Fare le condoglianze.",
     "level": "Sätze"
   },
   {
     "de": "Wann wurden die Meisterschaftskämpfe ausgetragen?",
-    "lv": "Kad notika čempionāts?",
+    "lv": "Quando si è disputato il campionato?",
     "level": "Sätze"
   },
   {
     "de": "Welchen Beruf üben Sie aus?",
-    "lv": "Kāda jums ir profesija?",
+    "lv": "Che professione esercita?",
     "level": "Sätze"
   },
   {
     "de": "Einfluss ausüben.",
-    "lv": "Ietekmēt.",
+    "lv": "Esercitare un'influenza.",
     "level": "Sätze"
   },
   {
     "de": "Auswärts essen.",
-    "lv": "Ēst ārpus mājas.",
+    "lv": "Mangiare fuori.",
     "level": "Sätze"
   },
   {
     "de": "Per Bahn.",
-    "lv": "Pa dzelzceļu.",
+    "lv": "Per ferrovia.",
     "level": "Sätze"
   },
   {
     "de": "Mit der Bahn.",
-    "lv": "Pa dzelzceļu.",
+    "lv": "In treno.",
     "level": "Sätze"
   },
   {
     "de": "Möglichst bald.",
-    "lv": "Pēc iespējas drīzāk.",
+    "lv": "Il prima possibile.",
     "level": "Sätze"
   },
   {
     "de": "Mir ist Angst und bange.",
-    "lv": "Man ir ļoti bail.",
+    "lv": "Ho una paura terribile.",
     "level": "Sätze"
   },
   {
     "de": "Auf die lange Bank schieben.",
-    "lv": "Novilcināt. • Vilkt garumā • Atlikt uz nenoteiktu laiku",
+    "lv": "Rimandare alle calende greche. • Tirare per le lunghe.",
     "level": "Sätze"
   },
   {
     "de": "Bar zahlen.",
-    "lv": "Maksāt skaidrā naudā.",
+    "lv": "Pagare in contanti.",
     "level": "Sätze"
   },
   {
     "de": "Erz bauen.",
-    "lv": "Iegūt rūdu.",
+    "lv": "Estrarre minerali.",
     "level": "Sätze"
   },
   {
     "de": "Mist bauen.",
-    "lv": "Schieten. • Maak jezelf belachelijk",
+    "lv": "Combinare un guaio.",
     "level": "Sätze"
   },
   {
     "de": "Ich bin beauftragt.",
-    "lv": "Man ir uzdots darbs.",
+    "lv": "Sono stato incaricato.",
     "level": "Sätze"
   },
   {
     "de": "Nach Bedarf.",
-    "lv": "Pēc vajadzības.",
+    "lv": "All'occorrenza.",
     "level": "Sätze"
   },
   {
     "de": "Ich bedauere ihn.",
-    "lv": "Man viņa žēl.",
+    "lv": "Mi dispiace per lui.",
     "level": "Sätze"
   },
   {
     "de": "Was bedeutet dieses Wort?",
-    "lv": "Ko nozīmē šis vārds?",
+    "lv": "Che cosa significa questa parola?",
     "level": "Sätze"
   },
   {
     "de": "Unter der Bedingung, dass...",
-    "lv": "Ar noteikumu, ka...",
+    "lv": "A condizione che...",
     "level": "Sätze"
   },
   {
     "de": "Sie sieht bedrückt aus.",
-    "lv": "Viņa izskatās nomākta.",
+    "lv": "Ha l'aria abbattuta.",
     "level": "Sätze"
   },
   {
     "de": "Hinweise befolgen.",
-    "lv": "Sekot norādījumiem.",
+    "lv": "Seguire le indicazioni.",
     "level": "Sätze"
   },
   {
     "de": "Befehle befolgen.",
-    "lv": "Pildīt pavēles.",
+    "lv": "Eseguire gli ordini.",
     "level": "Sätze"
   },
   {
     "de": "Mit der Post befördern.",
-    "lv": "Aizsūtīt pa pastu.",
+    "lv": "Spedire per posta.",
     "level": "Sätze"
   },
   {
     "de": "Ich bin begierig zu wissen.",
-    "lv": "Man ļoti gribas zināt.",
+    "lv": "Sono impaziente di saperlo.",
     "level": "Sätze"
   },
   {
     "de": "Zu Beginn.",
-    "lv": "Sākumā.",
+    "lv": "All'inizio.",
     "level": "Sätze"
   },
   {
     "de": "Am Beginn.",
-    "lv": "Sākumā.",
+    "lv": "Al principio.",
     "level": "Sätze"
   },
   {
     "de": "Bei Beginn.",
-    "lv": "Sākot.",
+    "lv": "Al momento dell'inizio.",
     "level": "Sätze"
   },
   {
     "de": "In Begleitung.",
-    "lv": "Pavadībā.",
+    "lv": "In compagnia.",
     "level": "Sätze"
   },
   {
     "de": "Mit seiner Begleitung.",
-    "lv": "Ar pavadību.",
+    "lv": "Con il suo accompagnatore.",
     "level": "Sätze"
   },
   {
     "de": "Er ist schwer von Begriff.",
-    "lv": "Viņš lēni uztver. • Viņam ir gausa domāšana",
+    "lv": "È duro di comprendonio.",
     "level": "Sätze"
   },
   {
     "de": "Im Gedächtnis behalten.",
-    "lv": "Atcerēties. • Paturēt atmiņā",
+    "lv": "Tenere a mente.",
     "level": "Sätze"
   },
   {
     "de": "Bei Tisch.",
-    "lv": "Pie galda.",
+    "lv": "A tavola.",
     "level": "Sätze"
   },
   {
     "de": "Bei Sinnen sein.",
-    "lv": "Būt pie pilna prāta.",
+    "lv": "Essere in sé.",
     "level": "Sätze"
   },
   {
     "de": "Bei Tage.",
-    "lv": "Dienas laikā.",
+    "lv": "Di giorno.",
     "level": "Sätze"
   },
   {
     "de": "Bei weitem nicht so.",
-    "lv": "Nepavisam ne.",
+    "lv": "Neanche lontanamente così.",
     "level": "Sätze"
   },
   {
     "de": "Alle beide.",
-    "lv": "Abi divi.",
+    "lv": "Tutti e due.",
     "level": "Sätze"
   },
   {
     "de": "Stürmischer Beifall brach los.",
-    "lv": "Er klonk een daverend applaus.",
+    "lv": "È scoppiato un applauso scrosciante.",
     "level": "Sätze"
   },
   {
     "de": "Beifall finden.",
-    "lv": "Gūt piekrišanu.",
+    "lv": "Riscuotere consensi.",
     "level": "Sätze"
   },
   {
     "de": "Beileid aussprechen.",
-    "lv": "Izteikt līdzjūtību.",
+    "lv": "Esprimere le proprie condoglianze.",
     "level": "Sätze"
   },
   {
     "de": "Auf eigenen Beinen stehen.",
-    "lv": "Būt finansiāli patstāvīgam.",
+    "lv": "Camminare con le proprie gambe.",
     "level": "Sätze"
   },
   {
     "de": "Zum Beispiel.",
-    "lv": "Piemēram.",
+    "lv": "Per esempio.",
     "level": "Sätze"
   },
   {
     "de": "Beistand leisten.",
-    "lv": "Palīdzēt. • Sniegt palīdzību",
+    "lv": "Prestare assistenza.",
     "level": "Sätze"
   },
   {
     "de": "Beitrag leisten.",
-    "lv": "Ieguldīt savu daļu.",
+    "lv": "Dare un contributo.",
     "level": "Sätze"
   },
   {
     "de": "Jemandes Bekanntschaft machen.",
-    "lv": "Iepazīties ar kādu.",
+    "lv": "Fare la conoscenza di qualcuno.",
     "level": "Sätze"
   },
   {
     "de": "Bekanntschaft anknüpfen.",
-    "lv": "Iepazīties. • Nodibināt kontaktu",
+    "lv": "Fare conoscenza.",
     "level": "Sätze"
   },
   {
     "de": "Belegte Brötchen.",
-    "lv": "Sviestmaizes ar uzlikumiem.",
+    "lv": "Panini imbottiti.",
     "level": "Sätze"
   },
   {
     "de": "Nach Ihrem Belieben.",
-    "lv": "Kā jūs vēlaties.",
+    "lv": "Come preferisce.",
     "level": "Sätze"
   },
   {
     "de": "Zu jeder beliebigen Zeit.",
-    "lv": "Jebkurā laikā.",
+    "lv": "In qualsiasi momento.",
     "level": "Sätze"
   },
   {
     "de": "Schweigen beobachten.",
-    "lv": "Ievērot klusumu.",
+    "lv": "Osservare il silenzio.",
     "level": "Sätze"
   },
   {
     "de": "Zur Bequemlichkeit.",
-    "lv": "Ērtības labad.",
+    "lv": "Per comodità.",
     "level": "Sätze"
   },
   {
     "de": "Bereit sein.",
-    "lv": "Būt gatavam. • Būt ar mieru",
+    "lv": "Essere pronti. • Essere disposti.",
     "level": "Sätze"
   },
   {
     "de": "Unfallopfer bergen.",
-    "lv": "Glābt nelaimes gadījumā cietušos.",
+    "lv": "Soccorrere le vittime di un incidente.",
     "level": "Sätze"
   },
   {
     "de": "Bericht erstatten.",
-    "lv": "Ziņot. • Sniegt ziņojumu • Sniegt pārskatu",
+    "lv": "Fare rapporto.",
     "level": "Sätze"
   },
   {
     "de": "Alle Plätze sind besetzt.",
-    "lv": "Alle stoelen zijn bezet.",
+    "lv": "Tutti i posti sono occupati.",
     "level": "Sätze"
   },
   {
     "de": "Neue Besen kehren gut.",
-    "lv": "Jauna slota labi slauka.",
+    "lv": "Scopa nuova spazza bene.",
     "level": "Sätze"
   },
   {
     "de": "Er besitzt ein Haus.",
-    "lv": "Viņam pieder māja.",
+    "lv": "Possiede una casa.",
     "level": "Sätze"
   },
   {
     "de": "Er besitzt viel Mut.",
-    "lv": "Viņam ir liela drosme.",
+    "lv": "Ha molto coraggio.",
     "level": "Sätze"
   },
   {
     "de": "Desto besser.",
-    "lv": "Jo labāk.",
+    "lv": "Tanto meglio.",
     "level": "Sätze"
   },
   {
     "de": "Gute Besserung!",
-    "lv": "Veseļojieties! • Atveseļojies!",
+    "lv": "Pronta guarigione!",
     "level": "Sätze"
   },
   {
     "de": "Beim besten Willen.",
-    "lv": "Lai kā arī gribētu.",
+    "lv": "Con tutta la buona volontà.",
     "level": "Sätze"
   },
   {
     "de": "Am besten.",
-    "lv": "Vislabāk.",
+    "lv": "La cosa migliore.",
     "level": "Sätze"
   },
   {
     "de": "Es besteht Zweifel.",
-    "lv": "Ir šaubas.",
+    "lv": "Ci sono dei dubbi.",
     "level": "Sätze"
   },
   {
     "de": "Seine Aufgabe besteht darin...",
-    "lv": "Viņa uzdevums ir...",
+    "lv": "Il suo compito consiste nel...",
     "level": "Sätze"
   },
   {
     "de": "Grüße bestellen.",
-    "lv": "Pasveicināt.",
+    "lv": "Portare i saluti.",
     "level": "Sätze"
   },
   {
     "de": "Ganz bestimmt.",
-    "lv": "Noteikti. • Pavisam droši",
+    "lv": "Sicuramente.",
     "level": "Sätze"
   },
   {
     "de": "Zu Besuch kommen.",
-    "lv": "Nākt ciemos.",
+    "lv": "Venire in visita.",
     "level": "Sätze"
   },
   {
     "de": "Zu Besuch sein.",
-    "lv": "Būt ciemos. • Ciemoties",
+    "lv": "Essere in visita.",
     "level": "Sätze"
   },
   {
     "de": "Oft Konzerte besuchen.",
-    "lv": "Bieži iet uz koncertiem.",
+    "lv": "Andare spesso ai concerti.",
     "level": "Sätze"
   },
   {
     "de": "Welche Schule hat er besucht?",
-    "lv": "Kurā skolā viņš mācījās?",
+    "lv": "Che scuola ha frequentato?",
     "level": "Sätze"
   },
   {
     "de": "In Betracht ziehen.",
-    "lv": "Ņemt vērā. • Apsvērt",
+    "lv": "Tenere conto. • Prendere in considerazione.",
     "level": "Sätze"
   },
   {
     "de": "Außer Betracht lassen.",
-    "lv": "Neņemt vērā. • Neapsvērt",
+    "lv": "Non prendere in considerazione.",
     "level": "Sätze"
   },
   {
     "de": "Er betreibt ein Hotel.",
-    "lv": "Viņš vada viesnīcu.",
+    "lv": "Gestisce un albergo.",
     "level": "Sätze"
   },
   {
     "de": "Alle beiden.",
-    "lv": "Abi divi.",
+    "lv": "Tutti e due.",
     "level": "Sätze"
   },
   {
     "de": "Alles bezahlen.",
-    "lv": "Samaksāt visu.",
+    "lv": "Pagare tutto.",
     "level": "Sätze"
   },
   {
     "de": "Bezüglich auf etwas.",
-    "lv": "Attiecībā uz kaut ko.",
+    "lv": "Riguardo a qualcosa.",
     "level": "Sätze"
   },
   {
     "de": "Bitte schön.",
-    "lv": "Per favore",
+    "lv": "Prego. • Ecco.",
     "level": "Sätze"
   },
   {
     "de": "Wie bitte?",
-    "lv": "Kā, lūdzu?",
+    "lv": "Come, prego?",
     "level": "Sätze"
   },
   {
     "de": "Bitte sehr.",
-    "lv": "Per favore",
+    "lv": "Non c'è di che. • Ecco qua.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe eine Bitte an Sie.",
-    "lv": "Man ir lūgums jums.",
+    "lv": "Ho un favore da chiederle.",
     "level": "Sätze"
   },
   {
     "de": "Trompete blasen.",
-    "lv": "Pūst trompeti.",
+    "lv": "Suonare la tromba.",
     "level": "Sätze"
   },
   {
     "de": "In einem Buch blättern.",
-    "lv": "Šķirstīt grāmatu.",
+    "lv": "Sfogliare un libro.",
     "level": "Sätze"
   },
   {
     "de": "Mit bloßen Füßen.",
-    "lv": "Kailām kājām.",
+    "lv": "A piedi nudi.",
     "level": "Sätze"
   },
   {
     "de": "Mit bloßem Auge.",
-    "lv": "Ar neapbruņotu aci.",
+    "lv": "A occhio nudo.",
     "level": "Sätze"
   },
   {
     "de": "Danke für die Blumen!",
-    "lv": "Paldies par ziediem!",
+    "lv": "Grazie del complimento!",
     "level": "Sätze"
   },
   {
     "de": "Alles in Butter.",
-    "lv": "Viss kārtībā.",
+    "lv": "Tutto liscio come l'olio.",
     "level": "Sätze"
   },
   {
     "de": "Bitte checken.",
-    "lv": "Pārbaudīt. • Izkontrolēt",
+    "lv": "Si prega di controllare.",
     "level": "Sätze"
   },
   {
     "de": "Da ist er!",
-    "lv": "Te viņš ir!",
+    "lv": "Eccolo!",
     "level": "Sätze"
   },
   {
     "de": "Alles spricht dafür.",
-    "lv": "Viss runā par labu.",
+    "lv": "Tutto fa pensare che sia così.",
     "level": "Sätze"
   },
   {
     "de": "Ich kann nichts dafür.",
-    "lv": "Es tur neko nevaru darīt.",
+    "lv": "Non è colpa mia.",
     "level": "Sätze"
   },
   {
     "de": "Ich bin dagegen.",
-    "lv": "È pronto a farlo.",
+    "lv": "Sono contrario.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe nichts dagegen.",
-    "lv": "Man pret to nav iebildumu.",
+    "lv": "Non ho niente in contrario.",
     "level": "Sätze"
   },
   {
     "de": "Von daheim.",
-    "lv": "No mājām.",
+    "lv": "Da casa.",
     "level": "Sätze"
   },
   {
     "de": "Mit der Dame ziehen.",
-    "lv": "Maak een damebeweging.",
+    "lv": "Muovere la regina.",
     "level": "Sätze"
   },
   {
     "de": "Es dämmert.",
-    "lv": "Krēslojas. • Aust rītausma.",
+    "lv": "Imbrunisce. • Albeggia.",
     "level": "Sätze"
   },
   {
     "de": "Danke schön!",
-    "lv": "Paldies! • Pateicos!",
+    "lv": "Grazie mille!",
     "level": "Sätze"
   },
   {
     "de": "Dann und wann.",
-    "lv": "Šad un tad.",
+    "lv": "Di tanto in tanto.",
     "level": "Sätze"
   },
   {
     "de": "Darauf kannst du dich verlassen.",
-    "lv": "Uz to tu vari paļauties.",
+    "lv": "Ci puoi contare.",
     "level": "Sätze"
   },
   {
     "de": "Daraus wird nichts.",
-    "lv": "No tā nekas neiznāks.",
+    "lv": "Non se ne farà niente.",
     "level": "Sätze"
   },
   {
     "de": "So dass...",
-    "lv": "Tā ka...",
+    "lv": "Così che...",
     "level": "Sätze"
   },
   {
     "de": "Für wen halten Sie mich?",
-    "lv": "Par ko jūs mani uzskatāt?",
+    "lv": "Per chi mi prende?",
     "level": "Sätze"
   },
   {
     "de": "Hände weg!",
-    "lv": "Rokas nost!",
+    "lv": "Giù le mani!",
     "level": "Sätze"
   },
   {
     "de": "Lass den Kopf nicht hängen!",
-    "lv": "Nenolaid galvu!",
+    "lv": "Non abbatterti!",
     "level": "Sätze"
   },
   {
     "de": "zu Hause",
-    "lv": "-Belle!",
+    "lv": "a casa",
     "level": "Sätze"
   },
   {
     "de": "nach Hause gehen",
-    "lv": "Iet uz mājām",
+    "lv": "andare a casa",
     "level": "Sätze"
   },
   {
     "de": "von Haus aus",
-    "lv": "Kopš bērnības • No pašiem sākumiem",
+    "lv": "di origine • per natura",
     "level": "Sätze"
   },
   {
     "de": "Meinen herzlichsten Glückwunsch!",
-    "lv": "Sirsnīgi apsveicu!",
+    "lv": "Le mie più vive congratulazioni!",
     "level": "Sätze"
   },
   {
     "de": "Seien Sie so gut!",
-    "lv": "Esiet tik laipns! • Esiet tik labs!",
+    "lv": "Sia così gentile!",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie die Güte!",
-    "lv": "Esiet tik laipns!",
+    "lv": "Abbia la bontà!",
     "level": "Sätze"
   },
   {
     "de": "Was hast du?",
-    "lv": "Kas tev kait? • Kas noticis?",
+    "lv": "Che cos'hai?",
     "level": "Sätze"
   },
   {
     "de": "Gestatten Sie bitte!",
-    "lv": "Atļaujiet, lūdzu!",
+    "lv": "Mi permetta, per favore!",
     "level": "Sätze"
   },
   {
     "de": "Ist es gestattet zu rauchen?",
-    "lv": "Vai drīkst smēķēt?",
+    "lv": "È permesso fumare?",
     "level": "Sätze"
   },
   {
     "de": "Ich muss gestehen, dass...",
-    "lv": "Man jāatzīst, ka...",
+    "lv": "Devo ammettere che...",
     "level": "Sätze"
   },
   {
     "de": "gestern früh",
-    "lv": "Vakar agri no rīta",
+    "lv": "ieri mattina",
     "level": "Sätze"
   },
   {
     "de": "gestern Abend",
-    "lv": "Vakar vakarā",
+    "lv": "ieri sera",
     "level": "Sätze"
   },
   {
     "de": "Es ist mir gleichgültig, ob...",
-    "lv": "Man ir vienalga, vai...",
+    "lv": "Mi è indifferente se...",
     "level": "Sätze"
   },
   {
     "de": "Was ist geschehen?",
-    "lv": "Kas noticis?",
+    "lv": "Che cos'è successo?",
     "level": "Sätze"
   },
   {
     "de": "Mach keine Geschichten!",
-    "lv": "Netaisi muļķības! • Netaisi jokus!",
+    "lv": "Non fare storie! • Non fare sciocchezze!",
     "level": "Sätze"
   },
   {
     "de": "Geschweige denn...",
-    "lv": "Nemaz nerunājot par to. • Kur nu vēl",
+    "lv": "Per non parlare di... • Tanto meno...",
     "level": "Sätze"
   },
   {
     "de": "Gehen Sie geradeaus!",
-    "lv": "Ejiet taisni uz priekšu!",
+    "lv": "Vada sempre dritto!",
     "level": "Sätze"
   },
   {
     "de": "Wie geht es Ihnen?",
-    "lv": "Kā jums iet? • Kā klājas?",
+    "lv": "Come sta?",
     "level": "Sätze"
   },
   {
     "de": "Frag ihn gelegentlich, ob...",
-    "lv": "Pajautā viņam, ja iznāk, vai...",
+    "lv": "Chiedigli, quando ne hai l'occasione, se...",
     "level": "Sätze"
   },
   {
     "de": "morgen früh",
-    "lv": "Rīt no rīta",
+    "lv": "domani mattina",
     "level": "Sätze"
   },
   {
     "de": "im Frühling",
-    "lv": "Pavasarī",
+    "lv": "in primavera",
     "level": "Sätze"
   },
   {
     "de": "Was gibt’s Neues?",
-    "lv": "Kas giovani?",
+    "lv": "Che c'è di nuovo?",
     "level": "Sätze"
   },
   {
     "de": "Aus diesem Brief folgt, dass...",
-    "lv": "No šīs vēstules izriet, ka...",
+    "lv": "Da questa lettera risulta che...",
     "level": "Sätze"
   },
   {
     "de": "Fahre fort!",
-    "lv": "Turpini tāpat tālāk!",
+    "lv": "Continua!",
     "level": "Sätze"
   },
   {
@@ -1326,2657 +1326,2657 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Es erwies sich, dass...",
-    "lv": "Izrādījās, ka...",
+    "lv": "È risultato che...",
     "level": "Sätze"
   },
   {
     "de": "Gedenkst du meiner?",
-    "lv": "Vai tu mani atceries? • Vai tu par mani iedomājies?",
+    "lv": "Ti ricordi di me? • Pensi a me?",
     "level": "Sätze"
   },
   {
     "de": "im Winter",
-    "lv": "Ziemā",
+    "lv": "in inverno",
     "level": "Sätze"
   },
   {
     "de": "Welcher Jahrgang sind Sie?",
-    "lv": "Kādā gadā jūs esat dzimis?",
+    "lv": "In che anno è nato?",
     "level": "Sätze"
   },
   {
     "de": "Es jammert mich zu sehen...",
-    "lv": "Žēl skatīties...",
+    "lv": "Mi fa pena vedere...",
     "level": "Sätze"
   },
   {
     "de": "je mehr, desto besser",
-    "lv": "Jo vairāk, jo labāk",
+    "lv": "più ce n'è, meglio è",
     "level": "Sätze"
   },
   {
     "de": "bis jetzt",
-    "lv": "Līdz šim brīdim",
+    "lv": "finora",
     "level": "Sätze"
   },
   {
     "de": "Wie komme ich zum Bahnhof?",
-    "lv": "Kā nokļūt līdz stacijai?",
+    "lv": "Come faccio ad arrivare alla stazione?",
     "level": "Sätze"
   },
   {
     "de": "Komm her!",
-    "lv": "Nāc šurp!",
+    "lv": "Vieni qui!",
     "level": "Sätze"
   },
   {
     "de": "Könnte ich Frau N. sprechen?",
-    "lv": "Vai es varētu runāt ar N. kundzi?",
+    "lv": "Potrei parlare con la signora N.?",
     "level": "Sätze"
   },
   {
     "de": "Was kostet das?",
-    "lv": "Cik ta maksa?",
+    "lv": "Quanto costa?",
     "level": "Sätze"
   },
   {
     "de": "Wie lange dauert die Vorstellung?",
-    "lv": "Cik ilgi ilgs priekšnesums?",
+    "lv": "Quanto dura lo spettacolo?",
     "level": "Sätze"
   },
   {
     "de": "Lass das!",
-    "lv": "Izbeidz! • Atmet to!",
+    "lv": "Smettila! • Lascia stare!",
     "level": "Sätze"
   },
   {
     "de": "Lass mich in Ruhe!",
-    "lv": "Liec mani mierā!",
+    "lv": "Lasciami in pace!",
     "level": "Sätze"
   },
   {
     "de": "Lassen Sie mich Ihnen helfen!",
-    "lv": "Atļaujiet man jums palīdzēt!",
+    "lv": "Mi permetta di aiutarla!",
     "level": "Sätze"
   },
   {
     "de": "Lasst uns gehen!",
-    "lv": "Iesim!",
+    "lv": "Andiamo!",
     "level": "Sätze"
   },
   {
     "de": "Na, wie läufts?",
-    "lv": "Kā klājas?",
+    "lv": "Allora, come va?",
     "level": "Sätze"
   },
   {
     "de": "Es lebe!",
-    "lv": "Lai dzīvo!",
+    "lv": "Viva!",
     "level": "Sätze"
   },
   {
     "de": "Leben Sie wohl!",
-    "lv": "Dzīvojiet sveiki! • Ardievu!",
+    "lv": "Stia bene! • Addio!",
     "level": "Sätze"
   },
   {
     "de": "Was ist los?",
-    "lv": "Kas noticis?",
+    "lv": "Che succede?",
     "level": "Sätze"
   },
   {
     "de": "Der Job ist anstrengend.",
-    "lv": "Darbs ir nogurdinošs.",
+    "lv": "Il lavoro è faticoso.",
     "level": "Sätze"
   },
   {
     "de": "Das war ein anstrengender Tag.",
-    "lv": "Tā bija saspringta diena.",
+    "lv": "È stata una giornata faticosa.",
     "level": "Sätze"
   },
   {
     "de": "Deutsch lernen kann anstrengend sein.",
-    "lv": "Vācu valodas mācīšanās var mais nogurdinoša.",
+    "lv": "Imparare il tedesco può essere faticoso.",
     "level": "Sätze"
   },
   {
     "de": "Er verlangt eine Erklärung.",
-    "lv": "Viņš pieprasa paskaidrojumu.",
+    "lv": "Pretende una spiegazione.",
     "level": "Sätze"
   },
   {
     "de": "Der Verkäufer verlangt zu viel Geld.",
-    "lv": "Pārdevējs prasa par daudz naudas.",
+    "lv": "Il venditore chiede troppi soldi.",
     "level": "Sätze"
   },
   {
     "de": "Das Gesetz verlangt es so.",
-    "lv": "Likums à tā peerasa.",
+    "lv": "La legge lo esige.",
     "level": "Sätze"
   },
   {
     "de": "Das ist gar nicht so schwer.",
-    "lv": "Tas nemaz nav tik grūti.",
+    "lv": "Non è poi così difficile.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe gar kein Geld.",
-    "lv": "Man pavisam nav naudas.",
+    "lv": "Non ho neanche un soldo.",
     "level": "Sätze"
   },
   {
     "de": "Er hat gar nichts gesagt.",
-    "lv": "Viņš pavisam neko nepateica.",
+    "lv": "Non ha detto proprio niente.",
     "level": "Sätze"
   },
   {
     "de": "Der Hund ist los.",
-    "lv": "De hond is vrijgelaten.",
+    "lv": "Il cane è sciolto.",
     "level": "Sätze"
   },
   {
     "de": "Hier ist viel los.",
-    "lv": "Šeit daudz kas notiek.",
+    "lv": "Qui c'è molto movimento.",
     "level": "Sätze"
   },
   {
     "de": "Halt die Luft an!",
-    "lv": "Tur elpu!",
+    "lv": "Stai zitto! • Non esagerare!",
     "level": "Sätze"
   },
   {
     "de": "Was machst du?",
-    "lv": "Come fai a dari?",
+    "lv": "Che cosa fai?",
     "level": "Sätze"
   },
   {
     "de": "Sag mal!",
-    "lv": "Saki jel!",
+    "lv": "Dimmi un po'!",
     "level": "Sätze"
   },
   {
     "de": "Was meinen Sie damit?",
-    "lv": "Ko jūs ar to domājat? • Kā jūs to domājat?",
+    "lv": "Che cosa intende con questo?",
     "level": "Sätze"
   },
   {
     "de": "Wir gehen mit Ihnen.",
-    "lv": "Mēs ejam ar jums.",
+    "lv": "Veniamo con lei.",
     "level": "Sätze"
   },
   {
     "de": "Ich fahre mit der Eisenbahn.",
-    "lv": "È braucu ar vilcienu.",
+    "lv": "Viaggio in treno.",
     "level": "Sätze"
   },
   {
     "de": "am Mittwoch",
-    "lv": "Trešdien",
+    "lv": "mercoledì",
     "level": "Sätze"
   },
   {
     "de": "Es mag sein.",
-    "lv": "Varbūt.",
+    "lv": "Può darsi.",
     "level": "Sätze"
   },
   {
     "de": "Ich mag das nicht.",
-    "lv": "Man tas nepatīk.",
+    "lv": "Non mi piace.",
     "level": "Sätze"
   },
   {
     "de": "am Montag",
-    "lv": "Pirmdien",
+    "lv": "lunedì",
     "level": "Sätze"
   },
   {
     "de": "Guten Morgen!",
-    "lv": "Labrit",
+    "lv": "Buongiorno!",
     "level": "Sätze"
   },
   {
     "de": "am Morgen",
-    "lv": "No, Rita.",
+    "lv": "di mattina",
     "level": "Sätze"
   },
   {
     "de": "Gute Nacht!",
-    "lv": "Ar labu nakti!",
+    "lv": "Buonanotte!",
     "level": "Sätze"
   },
   {
     "de": "Nehmen Sie Platz!",
-    "lv": "Sēdieties!",
+    "lv": "Si accomodi!",
     "level": "Sätze"
   },
   {
     "de": "Letzte Neuheit!",
-    "lv": "Pēdējais jaunums!",
+    "lv": "Ultima novità!",
     "level": "Sätze"
   },
   {
     "de": "Nicht wahr?",
-    "lv": "Vai ne?",
+    "lv": "Non è vero?",
     "level": "Sätze"
   },
   {
     "de": "Nicht doch!",
-    "lv": "Nē taču! • Nevajag!",
+    "lv": "Ma no! • Per carità!",
     "level": "Sätze"
   },
   {
     "de": "Nun endlich!",
-    "lv": "Nu beidzot!",
+    "lv": "Finalmente!",
     "level": "Sätze"
   },
   {
     "de": "Wozu nützt das?",
-    "lv": "Waar is het goed voor?",
+    "lv": "A che cosa serve?",
     "level": "Sätze"
   },
   {
     "de": "Wozu nützt das alles?",
-    "lv": "Kam tas viss?",
+    "lv": "A che serve tutto questo?",
     "level": "Sätze"
   },
   {
     "de": "Parken verboten!",
-    "lv": "Stāvēšana aizliegta!",
+    "lv": "Divieto di sosta!",
     "level": "Sätze"
   },
   {
     "de": "Nicht parken!",
-    "lv": "Stāvēšana aizliegta!",
+    "lv": "Non parcheggiare!",
     "level": "Sätze"
   },
   {
     "de": "Er hat Recht.",
-    "lv": "Viņam ir taisnība.",
+    "lv": "Ha ragione.",
     "level": "Sätze"
   },
   {
     "de": "Wovon ist die Rede?",
-    "lv": "Par ko ir runa?",
+    "lv": "Di che cosa si parla?",
     "level": "Sätze"
   },
   {
     "de": "Davon kann keine Rede sein.",
-    "lv": "Par to nevar būt ne runas.",
+    "lv": "Non se ne parla nemmeno.",
     "level": "Sätze"
   },
   {
     "de": "Glückliche Reise!",
-    "lv": "Laimīgu ceļu!",
+    "lv": "Buon viaggio!",
     "level": "Sätze"
   },
   {
     "de": "Mir reißt die Geduld.",
-    "lv": "Man beidzas pacietība.",
+    "lv": "Sto perdendo la pazienza.",
     "level": "Sätze"
   },
   {
     "de": "Man sagt, dass...",
-    "lv": "Saka, ka...",
+    "lv": "Si dice che...",
     "level": "Sätze"
   },
   {
     "de": "Schon gut!",
-    "lv": "Ir jau labi!",
+    "lv": "Va bene!",
     "level": "Sätze"
   },
   {
     "de": "Bitte schön!",
-    "lv": "Allora?",
+    "lv": "Ecco qua! • Prego!",
     "level": "Sätze"
   },
   {
     "de": "Was bin ich schuldig?",
-    "lv": "Cik es esmu parādā? • Cik man jāmaksā?",
+    "lv": "Quanto devo?",
     "level": "Sätze"
   },
   {
     "de": "Vor dem Gebrauch schütteln!",
-    "lv": "Pirms lietošanas sakratīt!",
+    "lv": "Agitare prima dell'uso!",
     "level": "Sätze"
   },
   {
     "de": "Sehen Sie mal!",
-    "lv": "Paraugieties!",
+    "lv": "Guardi un po'!",
     "level": "Sätze"
   },
   {
     "de": "Wie sehr auch...",
-    "lv": "Cik ļoti arī...",
+    "lv": "Per quanto...",
     "level": "Sätze"
   },
   {
     "de": "Seit wann?",
-    "lv": "Kopš kura laika?",
+    "lv": "Da quando?",
     "level": "Sätze"
   },
   {
     "de": "Was soll ich tun?",
-    "lv": "Ko lai es daru?",
+    "lv": "Che cosa devo fare?",
     "level": "Sätze"
   },
   {
     "de": "im Sommer",
-    "lv": "Vasarā",
+    "lv": "in estate",
     "level": "Sätze"
   },
   {
     "de": "Nicht nur..., sondern auch...",
-    "lv": "Ne vien..., bet arī...",
+    "lv": "Non solo..., ma anche...",
     "level": "Sätze"
   },
   {
     "de": "Sonst noch etwas?",
-    "lv": "Vēl kaut kas?",
+    "lv": "Qualcos'altro?",
     "level": "Sätze"
   },
   {
     "de": "Spaß beiseite!",
-    "lv": "Bez jokiem! • Jokus pie malas!",
+    "lv": "Scherzi a parte!",
     "level": "Sätze"
   },
   {
     "de": "Wie spät ist es?",
-    "lv": "Cik ir pulkstenis?",
+    "lv": "Che ore sono?",
     "level": "Sätze"
   },
   {
     "de": "Durchfahrt gesperrt!",
-    "lv": "Cauri braukt aizliegts!",
+    "lv": "Divieto di transito!",
     "level": "Sätze"
   },
   {
     "de": "Sprechen Sie deutsch?",
-    "lv": "Vai jūs runājat vāciski?",
+    "lv": "Parla tedesco?",
     "level": "Sätze"
   },
   {
     "de": "Statt zu...",
-    "lv": "Tā vietā, lai...",
+    "lv": "Invece di...",
     "level": "Sätze"
   },
   {
     "de": "Wie steht’s?",
-    "lv": "Kā klājas?",
+    "lv": "Come va?",
     "level": "Sätze"
   },
   {
     "de": "Dieser Hut steht ihr gut.",
-    "lv": "Šī cepure viņai labi piestāv.",
+    "lv": "Questo cappello le sta bene.",
     "level": "Sätze"
   },
   {
     "de": "Guten Tag!",
-    "lv": "Labdien!",
+    "lv": "Buongiorno!",
     "level": "Sätze"
   },
   {
     "de": "Wo treffen wir uns?",
-    "lv": "Kur mēs satiksimies?",
+    "lv": "Dove ci vediamo?",
     "level": "Sätze"
   },
   {
     "de": "Treten Sie näher!",
-    "lv": "Nāciet tuvāk!",
+    "lv": "Si avvicini!",
     "level": "Sätze"
   },
   {
     "de": "Ehrlichkeit ist eine Tugend.",
-    "lv": "Godīgums ir tikums.",
+    "lv": "L'onestà è una virtù.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe viel zu tun.",
-    "lv": "Ik heb veel te doen.",
+    "lv": "Ho molto da fare.",
     "level": "Sätze"
   },
   {
     "de": "Nicht übel!",
-    "lv": "Itin labi! • Nav ko iebilst",
+    "lv": "Niente male!",
     "level": "Sätze"
   },
   {
     "de": "Er wohnt über mir.",
-    "lv": "Viņš dzīvo virs manis.",
+    "lv": "Abita sopra di me.",
     "level": "Sätze"
   },
   {
     "de": "Er ist davon überzeugt.",
-    "lv": "Viņš par to ir pārliecināts.",
+    "lv": "Ne è convinto.",
     "level": "Sätze"
   },
   {
     "de": "So ist es üblich.",
-    "lv": "Tā ir pieņemts.",
+    "lv": "Si usa così.",
     "level": "Sätze"
   },
   {
     "de": "Deine Uhr geht nach.",
-    "lv": "Tavs pulkstenis atpaliek.",
+    "lv": "Il tuo orologio va indietro.",
     "level": "Sätze"
   },
   {
     "de": "Wie viel Uhr ist es?",
-    "lv": "Cik pulkstenis ir?",
+    "lv": "Che ora è?",
     "level": "Sätze"
   },
   {
     "de": "Um acht Uhr früh.",
-    "lv": "Pulksten astoņos no rīta.",
+    "lv": "Alle otto di mattina.",
     "level": "Sätze"
   },
   {
     "de": "umso mehr",
-    "lv": "Jo vairāk",
+    "lv": "tanto più",
     "level": "Sätze"
   },
   {
     "de": "Rechts um!",
-    "lv": "Apgriezties pa labi!",
+    "lv": "Fianco destro!",
     "level": "Sätze"
   },
   {
     "de": "Und ob!",
-    "lv": "Un kā vēl!",
+    "lv": "Eccome!",
     "level": "Sätze"
   },
   {
     "de": "und zwar",
-    "lv": "Proti",
+    "lv": "e precisamente",
     "level": "Sätze"
   },
   {
     "de": "Auf Unkosten von...",
-    "lv": "Uz... rēķina.",
+    "lv": "A spese di...",
     "level": "Sätze"
   },
   {
     "de": "Er saß unter den Zuschauern.",
-    "lv": "Viņš sēdēja starp skatītājiem.",
+    "lv": "Era seduto tra gli spettatori.",
     "level": "Sätze"
   },
   {
     "de": "Keine Ursache!",
-    "lv": "Nav par ko!",
+    "lv": "Non c'è di che!",
     "level": "Sätze"
   },
   {
     "de": "Es geschah, wie verabredet.",
-    "lv": "Notika, kā bija norunāts.",
+    "lv": "È andato tutto come convenuto.",
     "level": "Sätze"
   },
   {
     "de": "Rauchen verboten!",
-    "lv": "Smēķēt aizliegts!",
+    "lv": "Vietato fumare!",
     "level": "Sätze"
   },
   {
     "de": "Falsch verbunden!",
-    "lv": "Nepareizi savienots!",
+    "lv": "Numero sbagliato!",
     "level": "Sätze"
   },
   {
     "de": "Eintritt verboten!",
-    "lv": "Ieeja aizliegta!",
+    "lv": "Vietato l'ingresso!",
     "level": "Sätze"
   },
   {
     "de": "Verstehen Sie mich?",
-    "lv": "Vai jūs mani saprotat?",
+    "lv": "Mi capisce?",
     "level": "Sätze"
   },
   {
     "de": "Er versteht nichts davon.",
-    "lv": "Viņš no tā neko nesaprot.",
+    "lv": "Non ne capisce niente.",
     "level": "Sätze"
   },
   {
     "de": "Seine Ansicht vertreten.",
-    "lv": "Aizstāvēt savu viedokli.",
+    "lv": "Difendere la propria opinione.",
     "level": "Sätze"
   },
   {
     "de": "Streit verursachen.",
-    "lv": "Izraisīt strīdu.",
+    "lv": "Provocare una lite.",
     "level": "Sätze"
   },
   {
     "de": "Viel besser.",
-    "lv": "Daudz labāk.",
+    "lv": "Molto meglio.",
     "level": "Sätze"
   },
   {
     "de": "Zu viel.",
-    "lv": "Pārāk daudz.",
+    "lv": "Troppo.",
     "level": "Sätze"
   },
   {
     "de": "Vom Hörensagen.",
-    "lv": "Pēc dzirdēta.",
+    "lv": "Per sentito dire.",
     "level": "Sätze"
   },
   {
     "de": "Von Zeit zu Zeit.",
-    "lv": "Laiku pa laikam.",
+    "lv": "Di tanto in tanto.",
     "level": "Sätze"
   },
   {
     "de": "Von Beruf.",
-    "lv": "Pēc profesijas.",
+    "lv": "Di professione.",
     "level": "Sätze"
   },
   {
     "de": "Er ist Berliner von Geburt.",
-    "lv": "Viņš ir dzimis berlīnietis.",
+    "lv": "È berlinese di nascita.",
     "level": "Sätze"
   },
   {
     "de": "Er steht vor dem Fenster.",
-    "lv": "Viņš stāv pie loga.",
+    "lv": "Sta davanti alla finestra.",
     "level": "Sätze"
   },
   {
     "de": "Vor Sonnenaufgang.",
-    "lv": "Pirms saules lēkta.",
+    "lv": "Prima dell'alba.",
     "level": "Sätze"
   },
   {
     "de": "Vor vierzehn Tagen.",
-    "lv": "Pirms divām nedēļām.",
+    "lv": "Due settimane fa.",
     "level": "Sätze"
   },
   {
     "de": "Vor Freude.",
-    "lv": "Aiz prieka.",
+    "lv": "Dalla gioia.",
     "level": "Sätze"
   },
   {
     "de": "Vor allem.",
-    "lv": "Pirmkārt. • Vispirms",
+    "lv": "Soprattutto.",
     "level": "Sätze"
   },
   {
     "de": "Im Voraus.",
-    "lv": "Iepriekš.",
+    "lv": "In anticipo.",
     "level": "Sätze"
   },
   {
     "de": "Unter der Voraussetzung, dass...",
-    "lv": "Pieņemot, ka...",
+    "lv": "A condizione che...",
     "level": "Sätze"
   },
   {
     "de": "Unter dem Vorbehalt.",
-    "lv": "Ar nosacījumu.",
+    "lv": "Con questa riserva.",
     "level": "Sätze"
   },
   {
     "de": "Vorhanden sein.",
-    "lv": "Būt. • Būt klāt • Būt pieejams",
+    "lv": "Esistere. • Essere disponibile.",
     "level": "Sätze"
   },
   {
     "de": "In der vorigen Woche.",
-    "lv": "Pagājušajā nedēļā.",
+    "lv": "La settimana scorsa.",
     "level": "Sätze"
   },
   {
     "de": "Vorkehrungen treffen.",
-    "lv": "Veikt pasākumus aizsardzībai.",
+    "lv": "Prendere precauzioni.",
     "level": "Sätze"
   },
   {
     "de": "Sie kommt mir bekannt vor.",
-    "lv": "Viņa man šķiet pazīstama.",
+    "lv": "Mi sembra di conoscerla.",
     "level": "Sätze"
   },
   {
     "de": "Er hat Vorliebe für Literatur.",
-    "lv": "Viņam ļoti patīk literatūra.",
+    "lv": "Ha una predilezione per la letteratura.",
     "level": "Sätze"
   },
   {
     "de": "Heute Vormittag.",
-    "lv": "Šorīt. • Šodien priekšpusdienā",
+    "lv": "Stamattina.",
     "level": "Sätze"
   },
   {
     "de": "Von vorn.",
-    "lv": "No priekšas.",
+    "lv": "Di fronte. • Da capo.",
     "level": "Sätze"
   },
   {
     "de": "Nach vorn.",
-    "lv": "Uz priekšu.",
+    "lv": "In avanti.",
     "level": "Sätze"
   },
   {
     "de": "Von vornherein.",
-    "lv": "Helemaal aan het begin.",
+    "lv": "Fin dall'inizio.",
     "level": "Sätze"
   },
   {
     "de": "Im Vorteil sein.",
-    "lv": "Atrasties izdevīgākā stāvoklī.",
+    "lv": "Essere in vantaggio.",
     "level": "Sätze"
   },
   {
     "de": "Wach sein.",
-    "lv": "Būt nomodā.",
+    "lv": "Essere sveglio.",
     "level": "Sätze"
   },
   {
     "de": "Wach werden.",
-    "lv": "Pamosties.",
+    "lv": "Svegliarsi.",
     "level": "Sätze"
   },
   {
     "de": "Auf Wache sein.",
-    "lv": "Stāvēt sardzē.",
+    "lv": "Essere di guardia.",
     "level": "Sätze"
   },
   {
     "de": "Während eines Jahres.",
-    "lv": "Gada laikā.",
+    "lv": "Nel corso di un anno.",
     "level": "Sätze"
   },
   {
     "de": "Während des Krieges.",
-    "lv": "Kara laikā.",
+    "lv": "Durante la guerra.",
     "level": "Sätze"
   },
   {
     "de": "Gegen eine Wand reden.",
-    "lv": "Runāt veltīgi.",
+    "lv": "Parlare al muro.",
     "level": "Sätze"
   },
   {
     "de": "Hier haben die Wände Ohren.",
-    "lv": "Šeit sienām ir ausis.",
+    "lv": "Qui anche i muri hanno orecchie.",
     "level": "Sätze"
   },
   {
     "de": "Bis wann?",
-    "lv": "Līdz kuram laikam?",
+    "lv": "Fino a quando?",
     "level": "Sätze"
   },
   {
     "de": "Es ist warm.",
-    "lv": "Ir silts.",
+    "lv": "Fa caldo.",
     "level": "Sätze"
   },
   {
     "de": "Auf eine Nachricht warten.",
-    "lv": "Gaidīt ziņu.",
+    "lv": "Aspettare un messaggio.",
     "level": "Sätze"
   },
   {
     "de": "Was wollen Sie?",
-    "lv": "Ko jūs vēlaties?",
+    "lv": "Che cosa vuole?",
     "level": "Sätze"
   },
   {
     "de": "Was für ein...?",
-    "lv": "Kāds...? • Kas par...?",
+    "lv": "Che tipo di...?",
     "level": "Sätze"
   },
   {
     "de": "Auf halbem Wege.",
-    "lv": "Pusceļā.",
+    "lv": "A metà strada.",
     "level": "Sätze"
   },
   {
     "de": "Auf diesem Wege.",
-    "lv": "Tādā ceļā. • Tādiem līdzekļiem",
+    "lv": "In questo modo. • Con questi mezzi.",
     "level": "Sätze"
   },
   {
     "de": "Auf friedlichem Wege.",
-    "lv": "Miera ceļā.",
+    "lv": "Per via pacifica.",
     "level": "Sätze"
   },
   {
     "de": "Unserer Freundschaft wegen.",
-    "lv": "Mūsu draudzības dēļ.",
+    "lv": "Per la nostra amicizia.",
     "level": "Sätze"
   },
   {
     "de": "Von Rechts wegen.",
-    "lv": "Pēc taisnības.",
+    "lv": "Di diritto. • A rigor di legge.",
     "level": "Sätze"
   },
   {
     "de": "Weh tun.",
-    "lv": "Sāpēt.",
+    "lv": "Fare male.",
     "level": "Sätze"
   },
   {
     "de": "Zu Weihnachten.",
-    "lv": "Ziemassvētkos.",
+    "lv": "A Natale.",
     "level": "Sätze"
   },
   {
     "de": "Auf welche Weise?",
-    "lv": "Kādā veidā?",
+    "lv": "In che modo?",
     "level": "Sätze"
   },
   {
     "de": "Art und Weise.",
-    "lv": "Veids.",
+    "lv": "Modo e maniera.",
     "level": "Sätze"
   },
   {
     "de": "Ohne weiteres.",
-    "lv": "Tūlīt. • Nekavējoties",
+    "lv": "Senza indugio. • Senza difficoltà.",
     "level": "Sätze"
   },
   {
     "de": "Bis auf weiteres.",
-    "lv": "Līdz turpmākam.",
+    "lv": "Fino a nuovo avviso.",
     "level": "Sätze"
   },
   {
     "de": "Und so weiter.",
-    "lv": "Un tā tālāk.",
+    "lv": "E così via.",
     "level": "Sätze"
   },
   {
     "de": "Weiter nichts.",
-    "lv": "Vairāk nekas.",
+    "lv": "Nient'altro.",
     "level": "Sätze"
   },
   {
     "de": "An welchem Tag?",
-    "lv": "Op welke dag?",
+    "lv": "In che giorno?",
     "level": "Sätze"
   },
   {
     "de": "Alle Welt.",
-    "lv": "Visa pasaule. • Visi",
+    "lv": "Tutto il mondo. • Tutti.",
     "level": "Sätze"
   },
   {
     "de": "In wenigen Tagen.",
-    "lv": "Dažās dienās.",
+    "lv": "Tra pochi giorni.",
     "level": "Sätze"
   },
   {
     "de": "Zu wenig.",
-    "lv": "Par maz.",
+    "lv": "Troppo poco.",
     "level": "Sätze"
   },
   {
     "de": "Wenn auch.",
-    "lv": "Kaut arī.",
+    "lv": "Anche se.",
     "level": "Sätze"
   },
   {
     "de": "Wer da?",
-    "lv": "Kas tur?",
+    "lv": "Chi va là? • Chi è là?",
     "level": "Sätze"
   },
   {
     "de": "Gesammelte Werke von Schiller.",
-    "lv": "Šillera kopotie raksti.",
+    "lv": "Opere complete di Schiller.",
     "level": "Sätze"
   },
   {
     "de": "Ausgewählte Werke.",
-    "lv": "Darbu izlase.",
+    "lv": "Opere scelte.",
     "level": "Sätze"
   },
   {
     "de": "Er ist wert, dass...",
-    "lv": "Viņš ir pelnījis, lai...",
+    "lv": "Merita che...",
     "level": "Sätze"
   },
   {
     "de": "Es ist zwei Euro wert.",
-    "lv": "Tas maksā divus eiro.",
+    "lv": "Vale due euro.",
     "level": "Sätze"
   },
   {
     "de": "Nach Westen.",
-    "lv": "Uz rietumiem.",
+    "lv": "Verso ovest.",
     "level": "Sätze"
   },
   {
     "de": "Von Westen.",
-    "lv": "No rietumiem.",
+    "lv": "Da ovest.",
     "level": "Sätze"
   },
   {
     "de": "In Wettbewerb treten.",
-    "lv": "Iesaistīties sacensībā.",
+    "lv": "Entrare in competizione.",
     "level": "Sätze"
   },
   {
     "de": "Um die Wette laufen.",
-    "lv": "Skrieties sacensībā.",
+    "lv": "Fare a gara a chi corre più veloce.",
     "level": "Sätze"
   },
   {
     "de": "Was gilt die Wette?",
-    "lv": "Par ko deramies?",
+    "lv": "Che cosa scommettiamo?",
     "level": "Sätze"
   },
   {
     "de": "Wie wird das Wetter?",
-    "lv": "Kāds būs laiks?",
+    "lv": "Che tempo farà?",
     "level": "Sätze"
   },
   {
     "de": "Wettkampf im Turnen.",
-    "lv": "Sacensības vingrošanā.",
+    "lv": "Gara di ginnastica.",
     "level": "Sätze"
   },
   {
     "de": "Wider meinen Willen.",
-    "lv": "Pret manu gribu.",
+    "lv": "Contro la mia volontà.",
     "level": "Sätze"
   },
   {
     "de": "Widerspruch erheben.",
-    "lv": "Protestēt. • Celt iebildumus",
+    "lv": "Sollevare un'obiezione.",
     "level": "Sätze"
   },
   {
     "de": "Wie alt ist er?",
-    "lv": "Cik viņam gadu?",
+    "lv": "Quanti anni ha?",
     "level": "Sätze"
   },
   {
     "de": "Wie lange?",
-    "lv": "Hoe lang",
+    "lv": "Per quanto tempo?",
     "level": "Sätze"
   },
   {
     "de": "Auf Wiederhören!",
-    "lv": "Uz sadzirdēšanos!",
+    "lv": "A risentirci!",
     "level": "Sätze"
   },
   {
     "de": "Auf Wiedersehen!",
-    "lv": "Uz redzēšanos!",
+    "lv": "Arrivederci!",
     "level": "Sätze"
   },
   {
     "de": "Wilde Tiere.",
-    "lv": "Savvaļas dzīvnieki.",
+    "lv": "Animali selvatici.",
     "level": "Sätze"
   },
   {
     "de": "Herzlich willkommen!",
-    "lv": "Sirsnīgi sveicināti!",
+    "lv": "Un caloroso benvenuto!",
     "level": "Sätze"
   },
   {
     "de": "Du musst ziehen.",
-    "lv": "Je hebt een zet.",
+    "lv": "Tocca a te muovere.",
     "level": "Sätze"
   },
   {
     "de": "Es zieht.",
-    "lv": "Velk.",
+    "lv": "C'è corrente.",
     "level": "Sätze"
   },
   {
     "de": "Ziemlich kalt.",
-    "lv": "Diezgan auksts.",
+    "lv": "Piuttosto freddo.",
     "level": "Sätze"
   },
   {
     "de": "Zipfel einer Wurst.",
-    "lv": "Desas galiņš.",
+    "lv": "Punta di una salsiccia.",
     "level": "Sätze"
   },
   {
     "de": "Zu ihm gehen.",
-    "lv": "Iet pie viņa.",
+    "lv": "Andare da lui.",
     "level": "Sätze"
   },
   {
     "de": "Zur Schule gehen.",
-    "lv": "Iet uz skolu.",
+    "lv": "Andare a scuola.",
     "level": "Sätze"
   },
   {
     "de": "Zu Hause bleiben.",
-    "lv": "Palikt mājās.",
+    "lv": "Restare a casa.",
     "level": "Sätze"
   },
   {
     "de": "Von Tag zu Tag.",
-    "lv": "Diendienā.",
+    "lv": "Di giorno in giorno.",
     "level": "Sätze"
   },
   {
     "de": "Zum Glück.",
-    "lv": "Par laimi.",
+    "lv": "Per fortuna.",
     "level": "Sätze"
   },
   {
     "de": "Wasser zum Trinken.",
-    "lv": "Ūdens dzeršanai.",
+    "lv": "Acqua da bere.",
     "level": "Sätze"
   },
   {
     "de": "Zu Fuß.",
-    "lv": "Kājām.",
+    "lv": "A piedi.",
     "level": "Sätze"
   },
   {
     "de": "Zu Pferde.",
-    "lv": "Jāšus.",
+    "lv": "A cavallo.",
     "level": "Sätze"
   },
   {
     "de": "Zu Rad.",
-    "lv": "Ar velosipēdu.",
+    "lv": "In bicicletta.",
     "level": "Sätze"
   },
   {
     "de": "Es hörte auf zu regnen.",
-    "lv": "Beidza līt.",
+    "lv": "Ha smesso di piovere.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe noch viel zu tun.",
-    "lv": "Man vēl daudz darāms.",
+    "lv": "Ho ancora molto da fare.",
     "level": "Sätze"
   },
   {
     "de": "Zu früh.",
-    "lv": "Te vroeg.",
+    "lv": "Troppo presto.",
     "level": "Sätze"
   },
   {
     "de": "Zu groß.",
-    "lv": "Pārāk liels.",
+    "lv": "Troppo grande.",
     "level": "Sätze"
   },
   {
     "de": "Mit den Achseln zucken.",
-    "lv": "Paraustīt plecus.",
+    "lv": "Scrollare le spalle.",
     "level": "Sätze"
   },
   {
     "de": "In einem Zug trinken.",
-    "lv": "Izdzert ar vienu malku.",
+    "lv": "Bere tutto d'un fiato.",
     "level": "Sätze"
   },
   {
     "de": "Zugrunde gehen.",
-    "lv": "Iet bojā.",
+    "lv": "Perire.",
     "level": "Sätze"
   },
   {
     "de": "Zugrunde legen.",
-    "lv": "Likt pamatā. • Ņemt par pamatu.",
+    "lv": "Prendere come base.",
     "level": "Sätze"
   },
   {
     "de": "Zum ersten Mal.",
-    "lv": "Pirmoreiz.",
+    "lv": "Per la prima volta.",
     "level": "Sätze"
   },
   {
     "de": "Machen Sie bitte die Tür zu!",
-    "lv": "Aizveriet, lūdzu, durvis!",
+    "lv": "Chiuda la porta, per favore!",
     "level": "Sätze"
   },
   {
     "de": "Er hat zugenommen.",
-    "lv": "Viņš pieņēmies svarā.",
+    "lv": "È ingrassato.",
     "level": "Sätze"
   },
   {
     "de": "Die Tage nehmen zu.",
-    "lv": "Dienas kļūst garākas.",
+    "lv": "Le giornate si allungano.",
     "level": "Sätze"
   },
   {
     "de": "Zusammenhängen mit etwas.",
-    "lv": "Būt saistītam ar kaut ko.",
+    "lv": "Essere collegato a qualcosa.",
     "level": "Sätze"
   },
   {
     "de": "Die Tür ist zu.",
-    "lv": "Durvis ir aizvērtas.",
+    "lv": "La porta è chiusa.",
     "level": "Sätze"
   },
   {
     "de": "Das hätte ich ihm nicht zugetraut.",
-    "lv": "To es nebūtu no viņa gaidījis.",
+    "lv": "Non me lo sarei aspettato da lui.",
     "level": "Sätze"
   },
   {
     "de": "Freier Zutritt.",
-    "lv": "Brīva ieeja.",
+    "lv": "Ingresso libero.",
     "level": "Sätze"
   },
   {
     "de": "Zutritt verboten!",
-    "lv": "Ieeja aizliegta!",
+    "lv": "Vietato l'ingresso!",
     "level": "Sätze"
   },
   {
     "de": "Das ist zu viel!",
-    "lv": "Tas ir par daudz!",
+    "lv": "Questo è troppo!",
     "level": "Sätze"
   },
   {
     "de": "Zuwider werden.",
-    "lv": "Kļūt pretīgam. • Apriebties",
+    "lv": "Diventare ripugnante. • Venire a noia.",
     "level": "Sätze"
   },
   {
     "de": "Und zwar.",
-    "lv": "Proti.",
+    "lv": "Cioè.",
     "level": "Sätze"
   },
   {
     "de": "Es steht außer Zweifel.",
-    "lv": "Nav nekādu šaubu.",
+    "lv": "È fuori di dubbio.",
     "level": "Sätze"
   },
   {
     "de": "Ohne Zweifel.",
-    "lv": "Bez šaubīšanās.",
+    "lv": "Senza dubbio.",
     "level": "Sätze"
   },
   {
     "de": "Zum Zweiten.",
-    "lv": "Otrkārt.",
+    "lv": "In secondo luogo.",
     "level": "Sätze"
   },
   {
     "de": "Frohes neues Jahr!",
-    "lv": "Laimīgu Jauno gadu!",
+    "lv": "Buon anno!",
     "level": "Sätze"
   },
   {
     "de": "Herzlichen Glückwunsch zum Geburtstag!",
-    "lv": "Daudz laimes dzimšanas dienā!",
+    "lv": "Tanti auguri di buon compleanno!",
     "level": "Sätze"
   },
   {
     "de": "Gute Reise!",
-    "lv": "Laimīgu ceļu!",
+    "lv": "Buon viaggio!",
     "level": "Sätze"
   },
   {
     "de": "Es freut mich, Sie kennenzulernen.",
-    "lv": "Priecājos ar Jums iepazīties.",
+    "lv": "Mi fa piacere conoscerla.",
     "level": "Sätze"
   },
   {
     "de": "Wären Sie bitte so nett?",
-    "lv": "Vai Jūs, lūdzu, būtu tik laipns?",
+    "lv": "Sarebbe così gentile?",
     "level": "Sätze"
   },
   {
     "de": "Ich bin Ihnen sehr dankbar.",
-    "lv": "Esmu Jums ļoti pateicīgs.",
+    "lv": "Le sono molto grato.",
     "level": "Sätze"
   },
   {
     "de": "Setzt euch bitte hin!",
-    "lv": "Sēdieties, lūdzu!",
+    "lv": "Sedetevi, per favore!",
     "level": "Sätze"
   },
   {
     "de": "Ben, komm bitte an die Tafel!",
-    "lv": "Ben, nāc, lūdzu, pie tāfeles!",
+    "lv": "Ben, vieni alla lavagna, per favore!",
     "level": "Sätze"
   },
   {
     "de": "Schlagt bitte die Lehrbücher auf!",
-    "lv": "Atveriet, lūdzu, mācību grāmatas!",
+    "lv": "Aprite i libri di testo, per favore!",
     "level": "Sätze"
   },
   {
     "de": "Geht bitte in die Sporthalle!",
-    "lv": "Noejiet, lūdzu, uz sporta zāli!",
+    "lv": "Andate in palestra, per favore!",
     "level": "Sätze"
   },
   {
     "de": "Schläfst du noch?",
-    "lv": "Vai tu vēl guļi?",
+    "lv": "Dormi ancora?",
     "level": "Sätze"
   },
   {
     "de": "Schlafen Sie noch?",
-    "lv": "Vai Jūs vēl guļat?",
+    "lv": "Dorme ancora?",
     "level": "Sätze"
   },
   {
     "de": "Er ist fest eingeschlafen.",
-    "lv": "Hij slaapt snel.",
+    "lv": "Si è addormentato profondamente.",
     "level": "Sätze"
   },
   {
     "de": "Wecke ihn bitte auf, es ist schon spät!",
-    "lv": "Lūdzu, pamodini viņu, jau ir vēls!",
+    "lv": "Sveglialo, per favore, è già tardi!",
     "level": "Sätze"
   },
   {
     "de": "Es tut mir sehr leid!",
-    "lv": "Man ļoti žēl!",
+    "lv": "Mi dispiace molto!",
     "level": "Sätze"
   },
   {
     "de": "Vielen Dank!",
-    "lv": "Liels, des paldies !",
+    "lv": "Molte grazie!",
     "level": "Sätze"
   },
   {
     "de": "Finn, fang bitte an!",
-    "lv": "Finn, sāc, lūdzu!",
+    "lv": "Finn, comincia, per favore!",
     "level": "Sätze"
   },
   {
     "de": "Lest bitte mit!",
-    "lv": "Lasiet līdz, lūdzu!",
+    "lv": "Seguite la lettura, per favore!",
     "level": "Sätze"
   },
   {
     "de": "Emma, schau bitte nicht aus dem Fenster!",
-    "lv": "Emma, lūdzu, neskaties pa logu!",
+    "lv": "Emma, non guardare fuori dalla finestra, per favore!",
     "level": "Sätze"
   },
   {
     "de": "Jonas, bring bitte die Hefte!",
-    "lv": "Jonas, atnes, lūdzu, burtnīcas!",
+    "lv": "Jonas, porta i quaderni, per favore!",
     "level": "Sätze"
   },
   {
     "de": "Geh bitte zurück an deinen Platz!",
-    "lv": "Ej atpakaļ uz savu vietu!",
+    "lv": "Torna al tuo posto, per favore!",
     "level": "Sätze"
   },
   {
     "de": "Es ist halb acht.",
-    "lv": "Pulkstenis ir pus astoņi.",
+    "lv": "Sono le sette e mezza.",
     "level": "Sätze"
   },
   {
     "de": "Wann wachst du gewöhnlich auf?",
-    "lv": "Wanneer wordt u meestal wakker?",
+    "lv": "Quando ti svegli di solito?",
     "level": "Sätze"
   },
   {
     "de": "Ich stehe gleich auf.",
-    "lv": "Es tūlīt celšos.",
+    "lv": "Mi alzo subito.",
     "level": "Sätze"
   },
   {
     "de": "Steh auf, Hanna, es klingelt!",
-    "lv": "Celies, Hanna, zvana!",
+    "lv": "Alzati, Hanna, suona la sveglia! • Alzati, Hanna, suonano alla porta!",
     "level": "Sätze"
   },
   {
     "de": "Lass mich noch fünf Minuten schlafen!",
-    "lv": "Ļauj man vēl piecas minūtes pagulēt!",
+    "lv": "Lasciami dormire ancora cinque minuti!",
     "level": "Sätze"
   },
   {
     "de": "Vergiss nicht, das Zimmer zu lüften!",
-    "lv": "Neaizmirsti istabu izvēdināt!",
+    "lv": "Non dimenticare di arieggiare la stanza!",
     "level": "Sätze"
   },
   {
     "de": "Wo ist das Handtuch?",
-    "lv": "Kur ir dvielis?",
+    "lv": "Dov'è l'asciugamano?",
     "level": "Sätze"
   },
   {
     "de": "Ich möchte mir die Zähne putzen.",
-    "lv": "Gribu notīrīt zobus.",
+    "lv": "Vorrei lavarmi i denti.",
     "level": "Sätze"
   },
   {
     "de": "Mit was putzt du dir die Zähne?",
-    "lv": "Ar ko tu tīri zobus ?",
+    "lv": "Con che cosa ti lavi i denti?",
     "level": "Sätze"
   },
   {
     "de": "Ich möchte mich anziehen.",
-    "lv": "Gribu apģērbties.",
+    "lv": "Vorrei vestirmi.",
     "level": "Sätze"
   },
   {
     "de": "Zieh dich bitte schnell an!",
-    "lv": "Ģērbies ātri, lūdzu!",
+    "lv": "Vestiti in fretta, per favore!",
     "level": "Sätze"
   },
   {
     "de": "Kleide dich wärmer an, draußen ist es kühl.",
-    "lv": "Ģērbies siltāk, ārā ir vēss.",
+    "lv": "Copriti di più, fuori fa fresco.",
     "level": "Sätze"
   },
   {
     "de": "Guten Morgen, wie geht es dir?",
-    "lv": "Labrīt, kā tev klājas?",
+    "lv": "Buongiorno, come stai?",
     "level": "Sätze"
   },
   {
     "de": "Mir geht es gut, danke.",
-    "lv": "Man klājas labi, paldies.",
+    "lv": "Sto bene, grazie.",
     "level": "Sätze"
   },
   {
     "de": "Was gibt es Neues?",
-    "lv": "Kas giovani?",
+    "lv": "Che c'è di nuovo?",
     "level": "Sätze"
   },
   {
     "de": "Was für ein Chaos hier!",
-    "lv": "Cik šeit ir nekārtība!",
+    "lv": "Che disordine qui!",
     "level": "Sätze"
   },
   {
     "de": "Darf ich beim Aufräumen helfen?",
-    "lv": "Vai drīkstu palīdzēt sakārtot?",
+    "lv": "Posso aiutare a mettere in ordine?",
     "level": "Sätze"
   },
   {
     "de": "Was trinkst du morgens, Kaffee oder Tee?",
-    "lv": "Ko tu no rīta dzer, kafiju vai tēju?",
+    "lv": "Che cosa bevi la mattina, caffè o tè?",
     "level": "Sätze"
   },
   {
     "de": "Gewöhnlich trinke ich morgens eine Tasse Kaffee.",
-    "lv": "Parasti no rīta izdzeru tasi kafijas.",
+    "lv": "Di solito la mattina bevo una tazza di caffè.",
     "level": "Sätze"
   },
   {
     "de": "Am liebsten trinke ich schwarzen Kaffee.",
-    "lv": "Vislabāk dzeru melno kafiju.",
+    "lv": "Preferisco il caffè nero.",
     "level": "Sätze"
   },
   {
     "de": "Guten Morgen, hast du gut geschlafen?",
-    "lv": "Labrīt, vai labi gulēji?",
+    "lv": "Buongiorno, hai dormito bene?",
     "level": "Sätze"
   },
   {
     "de": "Ich bin noch sehr müde.",
-    "lv": "Es joprojām esmu ļoti noguris.",
+    "lv": "Sono ancora molto stanco.",
     "level": "Sätze"
   },
   {
     "de": "Willst du Kaffee oder Milch?",
-    "lv": "Gribi kafiju vai pienu?",
+    "lv": "Vuoi del caffè o del latte?",
     "level": "Sätze"
   },
   {
     "de": "Gib mir bitte ein Brötchen mit Käse.",
-    "lv": "Dod man, lūdzu, bulciņu ar sieru.",
+    "lv": "Dammi un panino al formaggio, per favore.",
     "level": "Sätze"
   },
   {
     "de": "Ich muss jetzt los!",
-    "lv": "Man tagad jāiet!",
+    "lv": "Adesso devo andare!",
     "level": "Sätze"
   },
   {
     "de": "Vergiss dein Frühstück nicht!",
-    "lv": "Neaizmirsti brokastis!",
+    "lv": "Non dimenticare la colazione!",
     "level": "Sätze"
   },
   {
     "de": "Klara, deck bitte den Tisch!",
-    "lv": "Klara, lūdzu, klāj galdu!",
+    "lv": "Klara, apparecchia la tavola, per favore!",
     "level": "Sätze"
   },
   {
     "de": "Vergiss die Servietten nicht!",
-    "lv": "Vergeet de servetten niet!",
+    "lv": "Non dimenticare i tovaglioli!",
     "level": "Sätze"
   },
   {
     "de": "Wann esst ihr zu Mittag?",
-    "lv": "Kad jūs ēdat pusdienās?",
+    "lv": "Quando pranzate?",
     "level": "Sätze"
   },
   {
     "de": "Es ist Zeit zu essen.",
-    "lv": "Ir laiks ēst.",
+    "lv": "È ora di mangiare.",
     "level": "Sätze"
   },
   {
     "de": "Was gibt es heute zu Mittag?",
-    "lv": "Kas šodien ir pusdienās?",
+    "lv": "Che cosa c'è per pranzo oggi?",
     "level": "Sätze"
   },
   {
     "de": "Wie schmeckt dir die Suppe?",
-    "lv": "Kā tev garšo zupa?",
+    "lv": "Come trovi la zuppa?",
     "level": "Sätze"
   },
   {
     "de": "Ehrlich gesagt ist sie etwas zu salzig.",
-    "lv": "Atklāti sakot, tā ir drusciņ pārāk sāļa.",
+    "lv": "Sinceramente, è un po' troppo salata.",
     "level": "Sätze"
   },
   {
     "de": "Darf ich dir ein Stück Brot geben?",
-    "lv": "Vai drīkstu iedot tev šķēli maizes?",
+    "lv": "Posso darti un pezzo di pane?",
     "level": "Sätze"
   },
   {
     "de": "Danke, ich habe schon.",
-    "lv": "Bedankt, dat heb ik al gedaan.",
+    "lv": "Grazie, ce l'ho già.",
     "level": "Sätze"
   },
   {
     "de": "Das Fleisch schmeckt ausgezeichnet.",
-    "lv": "Gaļa garšo lieliski.",
+    "lv": "La carne è squisita.",
     "level": "Sätze"
   },
   {
     "de": "Danke, ich bin schon satt.",
-    "lv": "Paldies, es jau esmu paēdis.",
+    "lv": "Grazie, sono già sazio.",
     "level": "Sätze"
   },
   {
     "de": "Heute haben wir Besuch.",
-    "lv": "Šodien mums ir ciemiņi.",
+    "lv": "Oggi abbiamo ospiti.",
     "level": "Sätze"
   },
   {
     "de": "Bist du heute Abend frei?",
-    "lv": "Vai tev šovakar ir brīvs?",
+    "lv": "Sei libero stasera?",
     "level": "Sätze"
   },
   {
     "de": "Komm doch heute zum Mittagessen vorbei!",
-    "lv": "Nāc šodien pusdienās ciemos!",
+    "lv": "Dai, vieni a pranzo da noi oggi!",
     "level": "Sätze"
   },
   {
     "de": "Setzen wir uns an den Tisch.",
-    "lv": "Apsēdosimies pie galda.",
+    "lv": "Mettiamoci a tavola.",
     "level": "Sätze"
   },
   {
     "de": "Bitte, bedien dich!",
-    "lv": "Lūdzu, ēd, cik gribi!",
+    "lv": "Prego, serviti!",
     "level": "Sätze"
   },
   {
     "de": "Stört dich das Rauchen?",
-    "lv": "Vai tevi traucē smēķēšana?",
+    "lv": "Ti dà fastidio se fumo?",
     "level": "Sätze"
   },
   {
     "de": "Danke für die nette Aufnahme!",
-    "lv": "Paldies par laipno uzņemšanu!",
+    "lv": "Grazie per la gentile accoglienza!",
     "level": "Sätze"
   },
   {
     "de": "Wann gehst du ins Bett?",
-    "lv": "Kad tu ej gulēt?",
+    "lv": "Quando vai a letto?",
     "level": "Sätze"
   },
   {
     "de": "Wenn ich von der Arbeit komme, bin ich immer müde.",
-    "lv": "Kad atnāku no darba, vienmēr esmu noguris.",
+    "lv": "Quando torno dal lavoro, sono sempre stanco.",
     "level": "Sätze"
   },
   {
     "de": "Es ist Zeit, ins Bett zu gehen.",
-    "lv": "Ir laiks iet gulēt.",
+    "lv": "È ora di andare a letto.",
     "level": "Sätze"
   },
   {
     "de": "Es ist schönes Wetter.",
-    "lv": "Ir jauks laiks.",
+    "lv": "Fa bel tempo.",
     "level": "Sätze"
   },
   {
     "de": "Willst du mit mir spazieren gehen?",
-    "lv": "Gribi ar mani pastaigāties?",
+    "lv": "Vuoi fare una passeggiata con me?",
     "level": "Sätze"
   },
   {
     "de": "Sieh mal, es wird gleich regnen.",
-    "lv": "Skaties, drīz līs.",
+    "lv": "Guarda, sta per piovere.",
     "level": "Sätze"
   },
   {
     "de": "Nimm den Regenschirm mit!",
-    "lv": "Paņem līdzi lietussargu!",
+    "lv": "Prendi l'ombrello!",
     "level": "Sätze"
   },
   {
     "de": "Es regnet.",
-    "lv": "Līst lietus.",
+    "lv": "Piove.",
     "level": "Sätze"
   },
   {
     "de": "Ich bin schon ganz nass.",
-    "lv": "Ik ben al helemaal nat.",
+    "lv": "Sono già tutto bagnato.",
     "level": "Sätze"
   },
   {
     "de": "Glaubst du, dass es den ganzen Tag regnen wird?",
-    "lv": "Domā, ka līs visu dienu?",
+    "lv": "Credi che pioverà tutto il giorno?",
     "level": "Sätze"
   },
   {
     "de": "Es hört auf zu regnen.",
-    "lv": "Lietus beidz līt.",
+    "lv": "Smette di piovere.",
     "level": "Sätze"
   },
   {
     "de": "Die Sonne scheint wieder.",
-    "lv": "Saule atkal spīd.",
+    "lv": "Il sole splende di nuovo.",
     "level": "Sätze"
   },
   {
     "de": "Es ist sehr warm.",
-    "lv": "Ir ļoti karsti.",
+    "lv": "Fa molto caldo.",
     "level": "Sätze"
   },
   {
     "de": "Es sieht nach Regen aus.",
-    "lv": "Izskatās, ka līs.",
+    "lv": "Sembra che voglia piovere.",
     "level": "Sätze"
   },
   {
     "de": "Wir bekommen gleich ein Gewitter.",
-    "lv": "Mēs drīz dabūsim negaisu.",
+    "lv": "Tra poco arriva un temporale.",
     "level": "Sätze"
   },
   {
     "de": "Das Gewitter zieht vorüber.",
-    "lv": "Negaiss ir garām pagājis.",
+    "lv": "Il temporale sta passando.",
     "level": "Sätze"
   },
   {
     "de": "Die Wolken verziehen sich.",
-    "lv": "Mākoņi izklīst.",
+    "lv": "Le nuvole si stanno diradando.",
     "level": "Sätze"
   },
   {
     "de": "Siehst du den Regenbogen?",
-    "lv": "Redzi varavīksni?",
+    "lv": "Vedi l'arcobaleno?",
     "level": "Sätze"
   },
   {
     "de": "Der Winter ist da, es hat geschneit.",
-    "lv": "Ziema ir klāt, naktī sniga.",
+    "lv": "L'inverno è arrivato, ha nevicato.",
     "level": "Sätze"
   },
   {
     "de": "Es schneit.",
-    "lv": "Sneg.",
+    "lv": "Nevica.",
     "level": "Sätze"
   },
   {
     "de": "Wie schön ist es im Wald im Winter!",
-    "lv": "Cik skaisti ir mežā ziemā!",
+    "lv": "Com'è bello il bosco d'inverno!",
     "level": "Sätze"
   },
   {
     "de": "Mir ist kalt, ich friere.",
-    "lv": "Man ir auksti, man salst.",
+    "lv": "Ho freddo, sto gelando.",
     "level": "Sätze"
   },
   {
     "de": "Draußen ist Glatteis, pass auf!",
-    "lv": "Ārā ir slideni, uzmanies!",
+    "lv": "Fuori le strade sono ghiacciate, fai attenzione!",
     "level": "Sätze"
   },
   {
     "de": "Wollen wir auf die Eisbahn gehen?",
-    "lv": "Aiziesim slidot?",
+    "lv": "Andiamo a pattinare sul ghiaccio?",
     "level": "Sätze"
   },
   {
     "de": "Zieh die Jacke an, du kannst dich erkälten.",
-    "lv": "Uzvelc jaku, var saaukstēties.",
+    "lv": "Mettiti la giacca, potresti raffreddarti.",
     "level": "Sätze"
   },
   {
     "de": "Es ist halb sieben.",
-    "lv": "Pulkstenis ir pus septiņi.",
+    "lv": "Sono le sei e mezza.",
     "level": "Sätze"
   },
   {
     "de": "Meine Uhr geht fünf Minuten vor.",
-    "lv": "Mans pulkstenis steidzas par piecām minūtēm.",
+    "lv": "Il mio orologio va avanti di cinque minuti.",
     "level": "Sätze"
   },
   {
     "de": "Weck mich morgen früh um sieben Uhr!",
-    "lv": "Pamodini mani rīt pulksten septiņos!",
+    "lv": "Svegliami domani mattina alle sette!",
     "level": "Sätze"
   },
   {
     "de": "Was ist heute für ein Datum?",
-    "lv": "Kāds šodien ir datums?",
+    "lv": "Quanti ne abbiamo oggi?",
     "level": "Sätze"
   },
   {
     "de": "Heute ist der elfte Juli.",
-    "lv": "Šodien ir vienpadsmitais jūlijs.",
+    "lv": "Oggi è l'undici luglio.",
     "level": "Sätze"
   },
   {
     "de": "Was machst du gewöhnlich am Abend?",
-    "lv": "Ko tu parasti dari vakaros?",
+    "lv": "Che cosa fai di solito la sera?",
     "level": "Sätze"
   },
   {
     "de": "Es ist schon lange her, dass wir uns gesehen haben.",
-    "lv": "Jau sen neesam satikušies.",
+    "lv": "È da tanto tempo che non ci vediamo.",
     "level": "Sätze"
   },
   {
     "de": "Wie geht es dir?",
-    "lv": "Hoe is het",
+    "lv": "Come stai?",
     "level": "Sätze"
   },
   {
     "de": "Entschuldige, ich möchte etwas mit dir besprechen.",
-    "lv": "Piedod, gribu ar tevi kaut ko pārrunāt.",
+    "lv": "Scusa, vorrei parlare di una cosa con te.",
     "level": "Sätze"
   },
   {
     "de": "Gehen wir spazieren!",
-    "lv": "Iesim pastaigā!",
+    "lv": "Andiamo a fare una passeggiata!",
     "level": "Sätze"
   },
   {
     "de": "Hast du Lust, mit mir in den Park zu gehen?",
-    "lv": "Gribi ar mani aiziet uz parku?",
+    "lv": "Hai voglia di venire al parco con me?",
     "level": "Sätze"
   },
   {
     "de": "Ich komme, um dich zum Spaziergang abzuholen.",
-    "lv": "Es atnācu tevi ņemt līdz pastaigā.",
+    "lv": "Vengo a prenderti per fare una passeggiata.",
     "level": "Sätze"
   },
   {
     "de": "Geh bitte etwas langsamer, ich kann dir nicht folgen!",
-    "lv": "Ej mazliet lēnāk, es nevaru tev tikt līdzi!",
+    "lv": "Cammina un po' più piano, per favore, non riesco a starti dietro!",
     "level": "Sätze"
   },
   {
     "de": "Ich bin zum ersten Mal in dieser Gegend.",
-    "lv": "Esmu šeit pirmo reizi.",
+    "lv": "È la prima volta che sono da queste parti.",
     "level": "Sätze"
   },
   {
     "de": "Ruhen wir uns ein wenig aus.",
-    "lv": "Nedaudz atpūtīsimies.",
+    "lv": "Riposiamoci un po'.",
     "level": "Sätze"
   },
   {
     "de": "Jetzt können wir zurückgehen.",
-    "lv": "Tagad varam doties atpakaļ.",
+    "lv": "Adesso possiamo tornare indietro.",
     "level": "Sätze"
   },
   {
     "de": "Ehrlich gesagt bin ich ziemlich müde.",
-    "lv": "Atklāti sakot, esmu diezgan noguris.",
+    "lv": "Sinceramente, sono piuttosto stanco.",
     "level": "Sätze"
   },
   {
     "de": "Entschuldige, wo ist die nächste U-Bahn-Station?",
-    "lv": "Piedod, kur ir tuvākā metro stacija?",
+    "lv": "Scusa, dov'è la stazione della metropolitana più vicina?",
     "level": "Sätze"
   },
   {
     "de": "Welcher ist der kürzeste Weg?",
-    "lv": "Kurš ir īsākais ceļš?",
+    "lv": "Qual è la strada più breve?",
     "level": "Sätze"
   },
   {
     "de": "Geh hier die zweite Straße links und dann immer geradeaus.",
-    "lv": "Šeit nogriezies otrajā ielā pa kreisi un ej taisni uz priekšu.",
+    "lv": "Qui prendi la seconda strada a sinistra e poi vai sempre dritto.",
     "level": "Sätze"
   },
   {
     "de": "Wie komme ich am schnellsten zum Bahnhof?",
-    "lv": "Kā ātrāk nokļūt uz staciju?",
+    "lv": "Qual è il modo più veloce per arrivare alla stazione?",
     "level": "Sätze"
   },
   {
     "de": "Ich habe vor, morgen zu verreisen.",
-    "lv": "Esmu nodomājis rīt aizbraukt.",
+    "lv": "Ho intenzione di partire domani.",
     "level": "Sätze"
   },
   {
     "de": "Wohin willst du fahren?",
-    "lv": "Kur tu gribi braukt?",
+    "lv": "Dove vuoi andare?",
     "level": "Sätze"
   },
   {
     "de": "Reist du geschäftlich oder privat?",
-    "lv": "Tu brauc darba dēļ vai atpūtai?",
+    "lv": "Viaggi per lavoro o per piacere?",
     "level": "Sätze"
   },
   {
     "de": "Finn fährt bis Berlin mit, dann geht er ans Meer.",
-    "lv": "Finn brauc līdz Berlīnei, tad dosies pie jūras.",
+    "lv": "Finn viene con noi fino a Berlino, poi va al mare.",
     "level": "Sätze"
   },
   {
     "de": "Wann fährt das Schiff ab?",
-    "lv": "Kad kuģis atiet?",
+    "lv": "Quando parte la nave?",
     "level": "Sätze"
   },
   {
     "de": "In einer halben Stunde.",
-    "lv": "Pēc pusstundas.",
+    "lv": "Tra mezz'ora.",
     "level": "Sätze"
   },
   {
     "de": "Kann ich noch eine Kabine bekommen?",
-    "lv": "Vai vēl varu dabūt kajīti?",
+    "lv": "Posso avere ancora una cabina?",
     "level": "Sätze"
   },
   {
     "de": "Vergiss deinen Pass nicht!",
-    "lv": "Neaizmirsti pasi!",
+    "lv": "Non dimenticare il passaporto!",
     "level": "Sätze"
   },
   {
     "de": "Es ist Zeit, den Koffer zu packen.",
-    "lv": "Ir laiks sakravāt čemodānu.",
+    "lv": "È ora di fare la valigia.",
     "level": "Sätze"
   },
   {
     "de": "Der Zug fährt um halb sieben ab.",
-    "lv": "Vilciens atiet pus septiņos.",
+    "lv": "Il treno parte alle sei e mezza.",
     "level": "Sätze"
   },
   {
     "de": "Hol mir bitte ein Taxi, ich verpasse sonst den Zug!",
-    "lv": "Pasauc, lūdzu, taksometru, citādi nokavēšu vilcienu!",
+    "lv": "Chiamami un taxi, per favore, altrimenti perdo il treno!",
     "level": "Sätze"
   },
   {
     "de": "Fahr bitte zum Bahnhof!",
-    "lv": "Aizved, lūdzu, uz staciju!",
+    "lv": "Portami alla stazione, per favore!",
     "level": "Sätze"
   },
   {
     "de": "Ich muss mich beeilen.",
-    "lv": "Man jāsteidzas.",
+    "lv": "Devo sbrigarmi.",
     "level": "Sätze"
   },
   {
     "de": "Ist der Schalter schon offen?",
-    "lv": "Vai kase jau ir atvērta?",
+    "lv": "La biglietteria è già aperta?",
     "level": "Sätze"
   },
   {
     "de": "Eine Fahrkarte nach Köln, bitte.",
-    "lv": "Vienu biļeti līdz Ķelnei, lūdzu.",
+    "lv": "Un biglietto per Colonia, per favore.",
     "level": "Sätze"
   },
   {
     "de": "Wann fährt der Zug ab?",
-    "lv": "Kad vilciens atiet?",
+    "lv": "Quando parte il treno?",
     "level": "Sätze"
   },
   {
     "de": "Der Zug fährt gleich ab.",
-    "lv": "Vilciens drīz atiet.",
+    "lv": "Il treno sta per partire.",
     "level": "Sätze"
   },
   {
     "de": "Muss ich in Koblenz umsteigen?",
-    "lv": "Vai man Koblenzē jāpārsēžas?",
+    "lv": "Devo cambiare a Coblenza?",
     "level": "Sätze"
   },
   {
     "de": "Ja, dort musst du umsteigen.",
-    "lv": "Jā, tur tev jāpārsēžas.",
+    "lv": "Sì, lì devi cambiare.",
     "level": "Sätze"
   },
   {
     "de": "Ist dieser Platz frei?",
-    "lv": "Vai šī vieta ir brīva?",
+    "lv": "È libero questo posto?",
     "level": "Sätze"
   },
   {
     "de": "Nein, hier sitzt niemand.",
-    "lv": "Nē, šeit neviens nesēž.",
+    "lv": "No, qui non siede nessuno.",
     "level": "Sätze"
   },
   {
     "de": "Wo ist der Bahnsteigkartenautomat?",
-    "lv": "Kur ir automāts platformas biļetēm?",
+    "lv": "Dov'è il distributore automatico dei biglietti di accesso ai binari?",
     "level": "Sätze"
   },
   {
     "de": "Stell mein Handgepäck ins Gepäcknetz.",
-    "lv": "Zet mijn handbagage in het raster.",
+    "lv": "Metti il mio bagaglio a mano sul portabagagli.",
     "level": "Sätze"
   },
   {
     "de": "Kann ich das Fenster aufmachen?",
-    "lv": "Vai drīkstu atvērt logu?",
+    "lv": "Posso aprire il finestrino?",
     "level": "Sätze"
   },
   {
     "de": "Es zieht, schließ bitte das Fenster!",
-    "lv": "Velk cauri, aizver, lūdzu, logu!",
+    "lv": "C'è corrente, chiudi il finestrino, per favore!",
     "level": "Sätze"
   },
   {
     "de": "Welche ist die nächste Station?",
-    "lv": "Kāda ir nākamā pietura?",
+    "lv": "Qual è la prossima stazione?",
     "level": "Sätze"
   },
   {
     "de": "Wie lange hält der Zug?",
-    "lv": "Cik ilgi vilciens stāv?",
+    "lv": "Quanto si ferma il treno?",
     "level": "Sätze"
   },
   {
     "de": "Wo muss ich umsteigen?",
-    "lv": "Kur man jāpārsēžas?",
+    "lv": "Dove devo cambiare?",
     "level": "Sätze"
   },
   {
     "de": "Der Zug hat Verspätung.",
-    "lv": "Vilciens kavējas.",
+    "lv": "Il treno è in ritardo.",
     "level": "Sätze"
   },
   {
     "de": "Dieser Wagen ist für Nichtraucher.",
-    "lv": "Šis vagons ir nesmēķētājiem.",
+    "lv": "Questa carrozza è per non fumatori.",
     "level": "Sätze"
   },
   {
     "de": "Wir fahren jetzt über die Grenze.",
-    "lv": "Tagad braucam pāri robežai.",
+    "lv": "Ora stiamo passando il confine.",
     "level": "Sätze"
   },
   {
     "de": "Hast du etwas zu verzollen?",
-    "lv": "Vai tev ir kas jāmuito?",
+    "lv": "Hai qualcosa da dichiarare?",
     "level": "Sätze"
   },
   {
     "de": "Wir sind in Berlin angekommen.",
-    "lv": "Esam pienākuši Berlīnē.",
+    "lv": "Siamo arrivati a Berlino.",
     "level": "Sätze"
   },
   {
     "de": "Kannst du mir ein gutes Hotel empfehlen?",
-    "lv": "Vai vari ieteikt labu viesnīcu?",
+    "lv": "Mi puoi consigliare un buon albergo?",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie freie Zimmer?",
-    "lv": "Vai jums ir brīvas istabas?",
+    "lv": "Ha camere libere?",
     "level": "Sätze"
   },
   {
     "de": "Ein Zimmer mit zwei Betten, bitte.",
-    "lv": "Istabu ar divām gultām, lūdzu.",
+    "lv": "Una camera con due letti, per favore.",
     "level": "Sätze"
   },
   {
     "de": "Was kostet das Zimmer pro Nacht?",
-    "lv": "Cik maksā istaba par nakti?",
+    "lv": "Quanto costa la camera a notte?",
     "level": "Sätze"
   },
   {
     "de": "Morgen reise ich ab. Weck mich um sieben Uhr!",
-    "lv": "Rīt braucu prom. Pamodini mani pulksten septiņos!",
+    "lv": "Domani parto. Svegliami alle sette!",
     "level": "Sätze"
   },
   {
     "de": "Die Rechnung, bitte!",
-    "lv": "Rēķinu, lūdzu!",
+    "lv": "Il conto, per favore!",
     "level": "Sätze"
   },
   {
     "de": "Wo ist die Stadtbibliothek?",
-    "lv": "Kur ir pilsētas bibliotēka?",
+    "lv": "Dov'è la biblioteca comunale?",
     "level": "Sätze"
   },
   {
     "de": "Wann hat das Museum geöffnet?",
-    "lv": "Kad muzejs ir atvērts ?",
+    "lv": "Quando è aperto il museo?",
     "level": "Sätze"
   },
   {
     "de": "Wollen wir ins Museum gehen?",
-    "lv": "Iesim muzejā?",
+    "lv": "Andiamo al museo?",
     "level": "Sätze"
   },
   {
     "de": "Fahren wir mit dem Bus oder der U-Bahn?",
-    "lv": "Braucam ar autobusu vai metro?",
+    "lv": "Andiamo in autobus o in metropolitana?",
     "level": "Sätze"
   },
   {
     "de": "Wo ist die nächste Bushaltestelle?",
-    "lv": "Kur ir tuvākā autobusa pietura?",
+    "lv": "Dov'è la fermata dell'autobus più vicina?",
     "level": "Sätze"
   },
   {
     "de": "Ich habe großen Hunger.",
-    "lv": "Man ir liels izsalkums.",
+    "lv": "Ho molta fame.",
     "level": "Sätze"
   },
   {
     "de": "Gehen wir zusammen essen?",
-    "lv": "Ejam kopā paēst?",
+    "lv": "Andiamo a mangiare insieme?",
     "level": "Sätze"
   },
   {
     "de": "Kellner, die Speisekarte, bitte!",
-    "lv": "Viesmīli, ēdienkarti, lūdzu!",
+    "lv": "Cameriere, il menu, per favore!",
     "level": "Sätze"
   },
   {
     "de": "Ist der Fisch frisch?",
-    "lv": "Vai zivs ir svaiga?",
+    "lv": "Il pesce è fresco?",
     "level": "Sätze"
   },
   {
     "de": "Das schmeckt ausgezeichnet!",
-    "lv": "Garšo lieliski!",
+    "lv": "È squisito!",
     "level": "Sätze"
   },
   {
     "de": "Kellner, zahlen bitte!",
-    "lv": "Viesmīli, lūdzu, maksāt!",
+    "lv": "Cameriere, il conto, per favore!",
     "level": "Sätze"
   },
   {
     "de": "Ich gehe ins Café einen Kaffee trinken.",
-    "lv": "Iešu kafejnīcā izdzert kafiju.",
+    "lv": "Vado al bar a prendere un caffè.",
     "level": "Sätze"
   },
   {
     "de": "Willst du mitkommen?",
-    "lv": "Gribi nākt līdz?",
+    "lv": "Vuoi venire anche tu?",
     "level": "Sätze"
   },
   {
     "de": "Eine Tasse Kaffee mit Milch, bitte!",
-    "lv": "Tasi kafijas ar pienu, lūdzu!",
+    "lv": "Una tazza di caffellatte, per favore!",
     "level": "Sätze"
   },
   {
     "de": "Bitte schneller, ich habe es eilig!",
-    "lv": "Ātrāk, lūdzu, man jāsteidzas!",
+    "lv": "Più veloce, per favore, ho fretta!",
     "level": "Sätze"
   },
   {
     "de": "Lass deinen Kaffee nicht kalt werden!",
-    "lv": "Neļauj kafijai atdzist!",
+    "lv": "Non far raffreddare il caffè!",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie etwas Erfrischendes?",
-    "lv": "Vai jums ir kas atsvaidzinošs?",
+    "lv": "Ha qualcosa di rinfrescante?",
     "level": "Sätze"
   },
   {
     "de": "Eine Portion Eis, bitte!",
-    "lv": "Porciju saldējuma, lūdzu!",
+    "lv": "Un gelato, per favore!",
     "level": "Sätze"
   },
   {
     "de": "Heute Morgen habe ich einen Brief bekommen.",
-    "lv": "Šorīt saņēmu vēstuli.",
+    "lv": "Stamattina ho ricevuto una lettera.",
     "level": "Sätze"
   },
   {
     "de": "Ich muss ihm gleich schreiben.",
-    "lv": "Man viņam tūlīt jāraksta.",
+    "lv": "Devo scrivergli subito.",
     "level": "Sätze"
   },
   {
     "de": "Wo ist der nächste Briefkasten?",
-    "lv": "Kur ir tuvākā pastkaste?",
+    "lv": "Dov'è la cassetta delle lettere più vicina?",
     "level": "Sätze"
   },
   {
     "de": "Wo ist die Post?",
-    "lv": "Kur ir pasta nodaļa?",
+    "lv": "Dov'è l'ufficio postale?",
     "level": "Sätze"
   },
   {
     "de": "Erinnere mich morgen daran zu schreiben!",
-    "lv": "Atgādini man rīt parakstīt!",
+    "lv": "Ricordami domani di scrivere!",
     "level": "Sätze"
   },
   {
     "de": "Werfen Sie bitte diesen Brief in den Briefkasten.",
-    "lv": "Lūdzu, iemet šo vēstuli pastkastē!",
+    "lv": "Per favore, imbuchi questa lettera.",
     "level": "Sätze"
   },
   {
     "de": "Hallo, hier spricht Emma.",
-    "lv": "Sveiki, runā Emma.",
+    "lv": "Pronto, sono Emma.",
     "level": "Sätze"
   },
   {
     "de": "Kann ich dich später anrufen?",
-    "lv": "Vai drīkstu tev vēlāk piezvanīt?",
+    "lv": "Posso chiamarti più tardi?",
     "level": "Sätze"
   },
   {
     "de": "Muss ich lange warten?",
-    "lv": "Vai man ilgi jāgaida?",
+    "lv": "Devo aspettare molto?",
     "level": "Sätze"
   },
   {
     "de": "Bitte schneiden Sie mir die Haare.",
-    "lv": "Knip alsjeblieft mijn haar.",
+    "lv": "Mi tagli i capelli, per favore.",
     "level": "Sätze"
   },
   {
     "de": "Hinten bitte nicht zu kurz.",
-    "lv": "Aizmugurē, lūdzu, ne pārāk īsi.",
+    "lv": "Dietro non troppo corti, per favore.",
     "level": "Sätze"
   },
   {
     "de": "Wann beginnt die Vorstellung?",
-    "lv": "Kad sākas izrāde?",
+    "lv": "Quando comincia lo spettacolo?",
     "level": "Sätze"
   },
   {
     "de": "Es fängt um halb acht an.",
-    "lv": "Sākas pus astoņos.",
+    "lv": "Comincia alle sette e mezza.",
     "level": "Sätze"
   },
   {
     "de": "Alle Plätze sind ausverkauft.",
-    "lv": "Visas biļetes ir izpārdotas.",
+    "lv": "Tutti i posti sono esauriti.",
     "level": "Sätze"
   },
   {
     "de": "Drei Karten, bitte!",
-    "lv": "Trīs biļetes, lūdzu!",
+    "lv": "Tre biglietti, per favore!",
     "level": "Sätze"
   },
   {
     "de": "Wir lassen die Jacken in der Garderobe.",
-    "lv": "Atstāsim jakas garderobē.",
+    "lv": "Lasciamo le giacche al guardaroba.",
     "level": "Sätze"
   },
   {
     "de": "Bitte schnell, der Vorhang geht gleich auf!",
-    "lv": "Ātrāk, lūdzu, priekškars tūlīt atvērsies!",
+    "lv": "Presto, per favore, il sipario sta per alzarsi!",
     "level": "Sätze"
   },
   {
     "de": "Der Vorhang fällt.",
-    "lv": "Priekškars krīt.",
+    "lv": "Cala il sipario.",
     "level": "Sätze"
   },
   {
     "de": "Darf ich dich zum Tanz bitten?",
-    "lv": "Vai drīkstu uzaicināt dejot?",
+    "lv": "Posso invitarti a ballare?",
     "level": "Sätze"
   },
   {
     "de": "Wann ist eure Hochzeit?",
-    "lv": "Kad būs jūsu kāzas?",
+    "lv": "Quando è il vostro matrimonio?",
     "level": "Sätze"
   },
   {
     "de": "Ich suche eine Wohnung.",
-    "lv": "Meklēju dzīvokli.",
+    "lv": "Cerco un appartamento.",
     "level": "Sätze"
   },
   {
     "de": "Ist in diesem Haus eine Wohnung frei?",
-    "lv": "Vai šajā mājā ir brīvs dzīvoklis?",
+    "lv": "C'è un appartamento libero in questo palazzo?",
     "level": "Sätze"
   },
   {
     "de": "Wie viel kostet die Miete?",
-    "lv": "Cik maksā īre?",
+    "lv": "Quanto costa l'affitto?",
     "level": "Sätze"
   },
   {
     "de": "Die Wohnung hat drei Zimmer und eine Küche.",
-    "lv": "Dzīvoklim ir trīs istabas un virtuve.",
+    "lv": "L'appartamento ha tre stanze e una cucina.",
     "level": "Sätze"
   },
   {
     "de": "Heute ziehen wir um.",
-    "lv": "Šodien pārceļamies.",
+    "lv": "Oggi traslochiamo.",
     "level": "Sätze"
   },
   {
     "de": "Mia, pack die Sachen bitte in Kisten!",
-    "lv": "Mia, saliec, lūdzu, mantas kastēs!",
+    "lv": "Mia, metti le cose negli scatoloni, per favore!",
     "level": "Sätze"
   },
   {
     "de": "Hast du alles eingepackt?",
-    "lv": "Vai viss jau ir salikts kastēs?",
+    "lv": "Hai impacchettato tutto?",
     "level": "Sätze"
   },
   {
     "de": "Ich stehe mit meinem Freund in Kontakt.",
-    "lv": "Esmu sarakstē ar savu draugu.",
+    "lv": "Sono in contatto con il mio amico.",
     "level": "Sätze"
   },
   {
     "de": "Gehen wir ins Theater?",
-    "lv": "Iesim teātrī?",
+    "lv": "Andiamo a teatro?",
     "level": "Sätze"
   },
   {
     "de": "Ist alles eingeladen?",
-    "lv": "Vai viss ir iekrauts?",
+    "lv": "È stato caricato tutto?",
     "level": "Sätze"
   },
   {
     "de": "Welch schöne Aussicht!",
-    "lv": "Cik skaists skats!",
+    "lv": "Che bella vista!",
     "level": "Sätze"
   },
   {
     "de": "Nun können wir alles wieder aufräumen.",
-    "lv": "Tagad varam visu atkal sakārtot.",
+    "lv": "Adesso possiamo rimettere tutto in ordine.",
     "level": "Sätze"
   },
   {
     "de": "Wie viele Zimmer habt ihr?",
-    "lv": "Cik jums istabu?",
+    "lv": "Quante stanze avete?",
     "level": "Sätze"
   },
   {
     "de": "Im Sommer fahre ich ans Meer.",
-    "lv": "Vasarā braukšu pie jūras.",
+    "lv": "D'estate vado al mare.",
     "level": "Sätze"
   },
   {
     "de": "Kannst du schwimmen?",
-    "lv": "Vai tu proti peldēt?",
+    "lv": "Sai nuotare?",
     "level": "Sätze"
   },
   {
     "de": "Schwimm nicht zu weit hinaus!",
-    "lv": "Nepeldi pārāk tālu!",
+    "lv": "Non andare troppo al largo!",
     "level": "Sätze"
   },
   {
     "de": "Badest du jeden Tag?",
-    "lv": "Vai tu peldies katru dienu?",
+    "lv": "Fai il bagno tutti i giorni?",
     "level": "Sätze"
   },
   {
     "de": "Bei schönem Wetter gehe ich angeln.",
-    "lv": "Ja laiks labs, eju makšķerēt.",
+    "lv": "Quando fa bel tempo vado a pescare.",
     "level": "Sätze"
   },
   {
     "de": "Wie sieht er aus?",
-    "lv": "Kā viņš izskatās?",
+    "lv": "Che aspetto ha?",
     "level": "Sätze"
   },
   {
     "de": "Er hat sich aber recht verändert.",
-    "lv": "Viņš tomēr diezgan mainījies.",
+    "lv": "È cambiato davvero parecchio.",
     "level": "Sätze"
   },
   {
     "de": "Wie ist er als Mensch?",
-    "lv": "Kāds viņš ir kā cilvēks?",
+    "lv": "Che tipo di persona è?",
     "level": "Sätze"
   },
   {
     "de": "Er ist immer nett und freundlich.",
-    "lv": "Viņš vienmēr ir jauks un laipns.",
+    "lv": "È sempre gentile e cordiale.",
     "level": "Sätze"
   },
   {
     "de": "Ich fühle mich nicht wohl.",
-    "lv": "Ik voel me slecht.",
+    "lv": "Non mi sento bene.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe starke Kopfschmerzen.",
-    "lv": "Man ir stipras galvas sāpes.",
+    "lv": "Ho un forte mal di testa.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe mich erkältet.",
-    "lv": "Esmu saaukstējies.",
+    "lv": "Mi sono raffreddato.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe Schnupfen.",
-    "lv": "Man ir iesnas.",
+    "lv": "Ho il raffreddore.",
     "level": "Sätze"
   },
   {
     "de": "Mir ist schwindlig.",
-    "lv": "Man ir reibonis.",
+    "lv": "Mi gira la testa.",
     "level": "Sätze"
   },
   {
     "de": "Ich muss zum Arzt gehen.",
-    "lv": "Man jāiet pie ārsta.",
+    "lv": "Devo andare dal medico.",
     "level": "Sätze"
   },
   {
     "de": "Leg dich ins Bett!",
-    "lv": "Noliecies gultā!",
+    "lv": "Mettiti a letto!",
     "level": "Sätze"
   },
   {
     "de": "Hast du Fieber?",
-    "lv": "Vai tev ir drudzis?",
+    "lv": "Hai la febbre?",
     "level": "Sätze"
   },
   {
     "de": "Gestern hatte ich erhöhte Temperatur.",
-    "lv": "Vakar man bija paaugstināta temperatūra.",
+    "lv": "Ieri avevo qualche linea di febbre.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe Zahnschmerzen.",
-    "lv": "Man sāp zobs.",
+    "lv": "Ho mal di denti.",
     "level": "Sätze"
   },
   {
     "de": "Ich muss zum Zahnarzt gehen.",
-    "lv": "Man jāiet pie zobarsta.",
+    "lv": "Devo andare dal dentista.",
     "level": "Sätze"
   },
   {
     "de": "Weißt du, dass Finn krank ist?",
-    "lv": "Vai zini, ka Finn ir slims?",
+    "lv": "Sai che Finn è malato?",
     "level": "Sätze"
   },
   {
     "de": "Laut Arzt wird er bald wieder gesund.",
-    "lv": "Pēc ārsta domām, viņš drīz atkal būs vesels.",
+    "lv": "Secondo il medico, presto guarirà.",
     "level": "Sätze"
   },
   {
     "de": "Ich will meine Wohnung neu möblieren.",
-    "lv": "Gribu no jauna mēbelēt dzīvokli.",
+    "lv": "Voglio arredare di nuovo il mio appartamento.",
     "level": "Sätze"
   },
   {
     "de": "Kann ich das auf Raten kaufen?",
-    "lv": "Vai varu nopirkt nomaksā?",
+    "lv": "Posso comprarlo a rate?",
     "level": "Sätze"
   },
   {
     "de": "Bleib im Bett, bis es dir besser geht!",
-    "lv": "Paliec gultā, kamēr jūties labāk!",
+    "lv": "Resta a letto finché non ti senti meglio!",
     "level": "Sätze"
   },
   {
     "de": "Noah hat in zwei Wochen schwimmen gelernt.",
-    "lv": "Noah divās nedēļās iemācījās peldēt.",
+    "lv": "Noah ha imparato a nuotare in due settimane.",
     "level": "Sätze"
   },
   {
     "de": "Sei mit dem Essen noch vorsichtig.",
-    "lv": "Esi ar ēdienu vēl uzmanīgs.",
+    "lv": "Fai ancora attenzione a quello che mangi.",
     "level": "Sätze"
   },
   {
     "de": "Sprichst du Deutsch?",
-    "lv": "Spreek je Duits?",
+    "lv": "Parli tedesco?",
     "level": "Sätze"
   },
   {
     "de": "Ja, ein bisschen.",
-    "lv": "Jā, drusku.",
+    "lv": "Sì, un po'.",
     "level": "Sätze"
   },
   {
     "de": "Du sprichst ziemlich fließend.",
-    "lv": "Tu runā diezgan tekoši.",
+    "lv": "Parli abbastanza fluentemente.",
     "level": "Sätze"
   },
   {
     "de": "Wo hast du Deutsch gelernt?",
-    "lv": "Kur tu mācījies vācu?",
+    "lv": "Dove hai imparato il tedesco?",
     "level": "Sätze"
   },
   {
     "de": "Ich nehme seit einem Jahr Deutschstunden.",
-    "lv": "Jau gadu ņemu vācu stundas.",
+    "lv": "Prendo lezioni di tedesco da un anno.",
     "level": "Sätze"
   },
   {
     "de": "Ich suche immer Gelegenheit, Deutsch zu sprechen.",
-    "lv": "Vienmēr meklēju iespēju runāt vāciski.",
+    "lv": "Cerco sempre l'occasione di parlare tedesco.",
     "level": "Sätze"
   },
   {
     "de": "Ist das Buch noch vorrätig?",
-    "lv": "Vai šī grāmata vēl ir pieejama?",
+    "lv": "Il libro è ancora disponibile?",
     "level": "Sätze"
   },
   {
     "de": "Das Buch ist leider ausverkauft.",
-    "lv": "Diemžēl grāmata ir izpārdota.",
+    "lv": "Purtroppo il libro è esaurito.",
     "level": "Sätze"
   },
   {
     "de": "Wann erscheint die neue Auflage?",
-    "lv": "Kad iznāks jaunais izdevums ?",
+    "lv": "Quando esce la nuova edizione?",
     "level": "Sätze"
   },
   {
     "de": "Womit kann ich Ihnen helfen?",
-    "lv": "Ar ko varu palīdzēt?",
+    "lv": "Come posso aiutarla?",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie ganz frische Eier?",
-    "lv": "Vai jums ir svaigas olas?",
+    "lv": "Ha delle uova freschissime?",
     "level": "Sätze"
   },
   {
     "de": "Was kosten die?",
-    "lv": "Cik tās maksā?",
+    "lv": "Quanto costano?",
     "level": "Sätze"
   },
   {
     "de": "Das ist zu teuer.",
-    "lv": "Tas ir par dārgu.",
+    "lv": "È troppo caro.",
     "level": "Sätze"
   },
   {
     "de": "Können Sie mir ein halbes Kilo abwiegen?",
-    "lv": "Vai varat nosvērt pus kilo?",
+    "lv": "Può pesarmi mezzo chilo?",
     "level": "Sätze"
   },
   {
     "de": "Wie viel muss ich zahlen?",
-    "lv": "Cik man jāmaksā?",
+    "lv": "Quanto devo pagare?",
     "level": "Sätze"
   },
   {
     "de": "Wie viel kostet das Kilo?",
-    "lv": "Cik maksā kilograms?",
+    "lv": "Quanto costa al chilo?",
     "level": "Sätze"
   },
   {
     "de": "Wiegen Sie mir bitte zwei Kilo ab.",
-    "lv": "Nosveriet, lūdzu, divus kilogramus.",
+    "lv": "Mi pesi due chili, per favore.",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie auch Karotten?",
-    "lv": "Vai jums ir arī burkāni?",
+    "lv": "Ha anche delle carote?",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie gutes Rindfleisch?",
-    "lv": "Vai jums ir laba liellopa gaļa?",
+    "lv": "Ha della buona carne di manzo?",
     "level": "Sätze"
   },
   {
     "de": "Geben Sie mir zwei Kilo Hackfleisch.",
-    "lv": "Dodiet divus kilogramus maltās gaļas.",
+    "lv": "Mi dia due chili di carne macinata.",
     "level": "Sätze"
   },
   {
     "de": "Ein Laib Brot, bitte, aber nicht zu knusprig.",
-    "lv": "Vienu maizes kukuli, lūdzu, bet ne pārāk cietu.",
+    "lv": "Una pagnotta, per favore, ma non troppo croccante.",
     "level": "Sätze"
   },
   {
     "de": "Das Brot ist frisch gebacken.",
-    "lv": "Maize ir svaigi cepta.",
+    "lv": "Il pane è appena sfornato.",
     "level": "Sätze"
   },
   {
     "de": "Was für Obst haben Sie heute?",
-    "lv": "Kādi augļi jums šodien ir?",
+    "lv": "Che frutta ha oggi?",
     "level": "Sätze"
   },
   {
     "de": "Was kosten die Äpfel?",
-    "lv": "Cik maksā āboli?",
+    "lv": "Quanto costano le mele?",
     "level": "Sätze"
   },
   {
     "de": "Dann nehme ich zwei Kilo Äpfel.",
-    "lv": "Dan neem ik twee kilo appels.",
+    "lv": "Allora prendo due chili di mele.",
     "level": "Sätze"
   },
   {
     "de": "Die Birnen sind sehr teuer.",
-    "lv": "Bumbieri ir ļoti dārgi.",
+    "lv": "Le pere sono molto care.",
     "level": "Sätze"
   },
   {
     "de": "Können Sie mir alles nach Hause liefern?",
-    "lv": "Vai varat visu piegādāt uz mājām?",
+    "lv": "Può consegnarmi tutto a domicilio?",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie Reis?",
-    "lv": "Vai jums ir rīsi?",
+    "lv": "Ha del riso?",
     "level": "Sätze"
   },
   {
     "de": "Geben Sie mir bitte ein Kilo Reis.",
-    "lv": "Geef me een kilo rijst, alsjeblieft.",
+    "lv": "Mi dia un chilo di riso, per favore.",
     "level": "Sätze"
   },
   {
     "de": "Danke, diesmal nicht.",
-    "lv": "Paldies, šoreiz nē.",
+    "lv": "Grazie, questa volta no.",
     "level": "Sätze"
   },
   {
     "de": "Wie viel kostet dieser Teppich?",
-    "lv": "Cik maksā šis paklājs?",
+    "lv": "Quanto costa questo tappeto?",
     "level": "Sätze"
   },
   {
     "de": "Können Sie die Möbel in meine Wohnung liefern?",
-    "lv": "Vai varat piegādāt mēbeles uz dzīvokli?",
+    "lv": "Può consegnarmi i mobili a casa?",
     "level": "Sätze"
   },
   {
     "de": "Bitte an der Kasse zahlen.",
-    "lv": "Lūdzu, maksājiet pie kases.",
+    "lv": "Si prega di pagare alla cassa.",
     "level": "Sätze"
   },
   {
     "de": "Bitte, machen Sie die Rechnung.",
-    "lv": "Izrakstiet rēķinu, lūdzu.",
+    "lv": "Per favore, mi faccia il conto.",
     "level": "Sätze"
   },
   {
     "de": "Was kostet das Meter?",
-    "lv": "Cik maksā metrs?",
+    "lv": "Quanto costa al metro?",
     "level": "Sätze"
   },
   {
     "de": "Dieser Stoff gefällt mir.",
-    "lv": "Man patīk šis audums.",
+    "lv": "Questa stoffa mi piace.",
     "level": "Sätze"
   },
   {
     "de": "Schneiden Sie mir bitte drei Meter ab.",
-    "lv": "Nogrieziet, lūdzu, trīs metrus.",
+    "lv": "Me ne tagli tre metri, per favore.",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie auch andere Muster?",
-    "lv": "Vai jums ir arī citi paraugi?",
+    "lv": "Ha anche altre fantasie? • Ha anche altri campioni?",
     "level": "Sätze"
   },
   {
     "de": "Diese Farbe gefällt mir nicht.",
-    "lv": "Man nepatīk šī krāsa.",
+    "lv": "Questo colore non mi piace.",
     "level": "Sätze"
   },
   {
     "de": "Geben Sie mir eine hellere.",
-    "lv": "Dodiet gaišāku.",
+    "lv": "Me ne dia uno più chiaro.",
     "level": "Sätze"
   },
   {
     "de": "Was kosten diese Socken?",
-    "lv": "Cik maksā šīs zeķes?",
+    "lv": "Quanto costano questi calzini?",
     "level": "Sätze"
   },
   {
     "de": "Welche Handschuhe wünschen Sie?",
-    "lv": "Kādus cimdus vēlaties?",
+    "lv": "Quali guanti desidera?",
     "level": "Sätze"
   },
   {
     "de": "Die sind mir etwas zu eng.",
-    "lv": "Tie man ir drusku par šauri.",
+    "lv": "Mi stanno un po' stretti.",
     "level": "Sätze"
   },
   {
     "de": "So, nun passen sie gut.",
-    "lv": "Tā, tagad der labi.",
+    "lv": "Ecco, ora vanno bene.",
     "level": "Sätze"
   },
   {
     "de": "Kannst du mir einen guten Schneider empfehlen?",
-    "lv": "Vai vari ieteikt labu drēbnieku?",
+    "lv": "Mi puoi consigliare un buon sarto?",
     "level": "Sätze"
   },
   {
     "de": "Ich will einen Anzug bestellen.",
-    "lv": "Gribu pasūtīt uzvalku.",
+    "lv": "Voglio ordinare un abito.",
     "level": "Sätze"
   },
   {
     "de": "Wann wird er fertig sein?",
-    "lv": "Kad būs gatavs?",
+    "lv": "Quando sarà pronto?",
     "level": "Sätze"
   },
   {
     "de": "Der Anzug sitzt gut.",
-    "lv": "Uzvalks der labi.",
+    "lv": "L'abito cade bene.",
     "level": "Sätze"
   },
   {
     "de": "Die Hose ist zu lang.",
-    "lv": "Bikses ir par garām.",
+    "lv": "I pantaloni sono troppo lunghi.",
     "level": "Sätze"
   },
   {
     "de": "Bitte reinigen und bügeln Sie ihn!",
-    "lv": "Lūdzu, iztīriet un izgludinat to!",
+    "lv": "Per favore, lo pulisca e lo stiri!",
     "level": "Sätze"
   },
   {
     "de": "Wann wird das Kleid fertig sein?",
-    "lv": "Kad kleita būs gatava?",
+    "lv": "Quando sarà pronto il vestito?",
     "level": "Sätze"
   },
   {
     "de": "Die Schuhe sind zu eng.",
-    "lv": "Kurpes ir par šauras.",
+    "lv": "Le scarpe sono troppo strette.",
     "level": "Sätze"
   },
   {
     "de": "Können Sie die Schuhe heute reparieren?",
-    "lv": "Vai varat šodien salabot kurpes?",
+    "lv": "Può riparare le scarpe oggi?",
     "level": "Sätze"
   },
   {
     "de": "Wann kann ich die Schuhe abholen?",
-    "lv": "Kad varu atnest kurpes?",
+    "lv": "Quando posso ritirare le scarpe?",
     "level": "Sätze"
   },
   {
     "de": "Meine Armbanduhr funktioniert nicht.",
-    "lv": "Mana rokas pulkstenis nedarbojas.",
+    "lv": "Il mio orologio da polso non funziona.",
     "level": "Sätze"
   },
   {
     "de": "Sie geht fünf Minuten vor.",
-    "lv": "Tas steidzas par piecām minūtēm.",
+    "lv": "Va avanti di cinque minuti.",
     "level": "Sätze"
   },
   {
     "de": "Bist du kurzsichtig oder weitsichtig?",
-    "lv": "Vai esi tuvredzīgs vai tālredzīgs?",
+    "lv": "Sei miope o ipermetrope?",
     "level": "Sätze"
   },
   {
     "de": "Ich möchte eine Brille kaufen.",
-    "lv": "Gribu nopirkt brilles.",
+    "lv": "Vorrei comprare un paio di occhiali.",
     "level": "Sätze"
   },
   {
     "de": "Können Sie meine Brille reparieren?",
-    "lv": "Vai varat salabot manas brilles?",
+    "lv": "Può riparare i miei occhiali?",
     "level": "Sätze"
   },
   {
     "de": "Das dauert nur eine Viertelstunde.",
-    "lv": "Tas ilgs tikai piecpadsmit minūtes.",
+    "lv": "Ci vuole solo un quarto d'ora.",
     "level": "Sätze"
   },
   {
     "de": "Der Preis ist mir zu hoch.",
-    "lv": "Cena man par augstu.",
+    "lv": "Il prezzo è troppo alto per me.",
     "level": "Sätze"
   },
   {
     "de": "Ich brauche zwei Fotos für meinen Pass.",
-    "lv": "Man vajag divas fotogrāfijas pasē.",
+    "lv": "Mi servono due foto per il passaporto.",
     "level": "Sätze"
   },
   {
     "de": "Bitte packen Sie es ein und schicken Sie es mir nach Hause.",
-    "lv": "Lūdzu, iesaiņojiet un nosūtiet uz mājām.",
+    "lv": "Per favore, lo incarti e me lo mandi a casa.",
     "level": "Sätze"
   },
   {
     "de": "Wir haben feste Preise.",
-    "lv": "Mums ir fiksētas cenas.",
+    "lv": "Abbiamo prezzi fissi.",
     "level": "Sätze"
   },
   {
     "de": "Bitte, fotografieren Sie mich.",
-    "lv": "Lūdzu, nofotografējiet mani.",
+    "lv": "Per favore, mi faccia una foto.",
     "level": "Sätze"
   },
   {
     "de": "Setzen Sie sich, schauen Sie gerade in die Kamera und bewegen Sie sich nicht!",
-    "lv": "Apsēdieties, skatieties taisni kamerā un nekustieties!",
+    "lv": "Si sieda, guardi dritto nell'obiettivo e non si muova!",
     "level": "Sätze"
   },
   {
     "de": "Wann kann ich das Probebild sehen?",
-    "lv": "Kad varu redzēt paraugu?",
+    "lv": "Quando posso vedere il provino?",
     "level": "Sätze"
   },
   {
     "de": "Wann sind die Fotos fertig?",
-    "lv": "Kad fotogrāfijas būs gatavas?",
+    "lv": "Quando saranno pronte le foto?",
     "level": "Sätze"
   },
   {
     "de": "Die Aufnahme ist gelungen.",
-    "lv": "Foto izdevās.",
+    "lv": "Lo scatto è venuto bene.",
     "level": "Sätze"
   },
   {
     "de": "Die Fotos sind gut geworden.",
-    "lv": "Fotogrāfijas labi izdevušās.",
+    "lv": "Le foto sono venute bene.",
     "level": "Sätze"
   },
   {
     "de": "Können Sie das Foto auch vergrößern?",
-    "lv": "Vai varat arī palielināt fotogrāfiju?",
+    "lv": "Può anche ingrandire la foto?",
     "level": "Sätze"
   },
   {
     "de": "Sind diese Steine echt?",
-    "lv": "Vai šie akmeņi ir īsti?",
+    "lv": "Queste pietre sono vere?",
     "level": "Sätze"
   },
   {
     "de": "Ist das echtes Gold?",
-    "lv": "Vai tas ir īsts zelts?",
+    "lv": "È oro vero?",
     "level": "Sätze"
   },
   {
     "de": "Zeigen Sie mir bitte Trauringe.",
-    "lv": "Parādiet, lūdzu, laulības gredzenus.",
+    "lv": "Mi mostri delle fedi nuziali, per favore.",
     "level": "Sätze"
   },
   {
     "de": "Der Ring ist mir etwas zu weit.",
-    "lv": "Gredzens man ir drusku par lielu.",
+    "lv": "L'anello mi sta un po' largo.",
     "level": "Sätze"
   },
   {
     "de": "Ich kann ihn enger machen.",
-    "lv": "Es to varu sašaurināt.",
+    "lv": "Posso stringerlo.",
     "level": "Sätze"
   },
   {
     "de": "Dieser Ring passt mir.",
-    "lv": "Šis gredzens man der.",
+    "lv": "Questo anello mi sta bene.",
     "level": "Sätze"
   },
   {
     "de": "Zeigen Sie mir schöne Geschenkideen.",
-    "lv": "Parādiet skaistas dāvanu idejas.",
+    "lv": "Mi mostri qualche bella idea regalo.",
     "level": "Sätze"
   },
   {
     "de": "Wie gefallen dir diese Ohrringe?",
-    "lv": "Hoe vinden jullie deze oorbellen?",
+    "lv": "Che te ne pare di questi orecchini?",
     "level": "Sätze"
   },
   {
     "de": "Diese Brosche ist wirklich schön.",
-    "lv": "Šī sakta ir ļoti skaista.",
+    "lv": "Questa spilla è davvero bella.",
     "level": "Sätze"
   },
   {
     "de": "Der Stein ist ein Saphir.",
-    "lv": "Šis akmens ir safīrs.",
+    "lv": "La pietra è uno zaffiro.",
     "level": "Sätze"
   },
   {
     "de": "Das ist kein echter Stein, das ist Glas.",
-    "lv": "Šis nav īsts akmens, tas ir stikls.",
+    "lv": "Questa non è una pietra vera, è vetro.",
     "level": "Sätze"
   },
   {
     "de": "Dieses Armband kann ich Ihnen besonders empfehlen.",
-    "lv": "Šo aproci īpaši varu ieteikt.",
+    "lv": "Posso consigliarle in particolare questo braccialetto.",
     "level": "Sätze"
   },
   {
     "de": "Es ist besonders schön gearbeitet.",
-    "lv": "Tā ir īpaši smalki izstrādāta.",
+    "lv": "È lavorato particolarmente bene.",
     "level": "Sätze"
   },
   {
     "de": "Der Preis ist nicht hoch.",
-    "lv": "Cena nav augsta.",
+    "lv": "Il prezzo non è alto.",
     "level": "Sätze"
   },
   {
     "de": "Bekomme ich die Schachtel gratis?",
-    "lv": "Vai kastīti dabūju bez maksas?",
+    "lv": "La scatola è in omaggio?",
     "level": "Sätze"
   },
   {
     "de": "Alle Schmuckstücke sind gestempelt.",
-    "lv": "Visas rotaslietas ir ar zīmogu.",
+    "lv": "Tutti i gioielli sono punzonati.",
     "level": "Sätze"
   },
   {
     "de": "Falls es meiner Frau nicht gefällt, kann ich es umtauschen?",
-    "lv": "Ja manai sievai nepatiks, vai varu apmainīt?",
+    "lv": "Se a mia moglie non piace, posso cambiarlo?",
     "level": "Sätze"
   },
   {
     "de": "Natürlich, jederzeit.",
-    "lv": "Protams, jebkurā laikā.",
+    "lv": "Certo, in qualsiasi momento.",
     "level": "Sätze"
   }
 ];
