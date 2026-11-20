@@ -6,17 +6,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wenn nichts dazwischenkommt.",
-    "lv": "Si nada se interpone. • Si todo sale según lo planeado.",
+    "lv": "Si no surge nada. • Si todo sale según lo previsto.",
     "level": "Sätze"
   },
   {
     "de": "Das kann ich mir denken!",
-    "lv": "¡Eso me lo puedo imaginar!",
+    "lv": "¡Ya me lo imagino!",
     "level": "Sätze"
   },
   {
     "de": "Ist er denn krank?",
-    "lv": "¿Está enfermo entonces?",
+    "lv": "¿Es que está enfermo?",
     "level": "Sätze"
   },
   {
@@ -26,7 +26,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Desto mehr.",
-    "lv": "Cuanto más.",
+    "lv": "Tanto más.",
     "level": "Sätze"
   },
   {
@@ -51,7 +51,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Sprechen Sie doch!",
-    "lv": "¡Hable!",
+    "lv": "¡Hable de una vez!",
     "level": "Sätze"
   },
   {
@@ -71,27 +71,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Die Zeit drängt.",
-    "lv": "El tiempo se acaba.",
+    "lv": "El tiempo apremia.",
     "level": "Sätze"
   },
   {
     "de": "Ihn drücken Sorgen.",
-    "lv": "Está abrumado por la preocupación.",
+    "lv": "Le agobian las preocupaciones.",
     "level": "Sätze"
   },
   {
     "de": "Hast du das Buch durchgearbeitet?",
-    "lv": "¿Has leído el libro detenidamente?",
+    "lv": "¿Has estudiado a fondo el libro?",
     "level": "Sätze"
   },
   {
     "de": "Kein Durchgang!",
-    "lv": "¡No pasar! • ¡Paso cerrado!",
+    "lv": "¡Prohibido el paso!",
     "level": "Sätze"
   },
   {
     "de": "Darf ich Sie bitten?",
-    "lv": "¿Puedo pedirle algo?",
+    "lv": "¿Me concede este baile? • ¿Me acompaña, por favor?",
     "level": "Sätze"
   },
   {
@@ -116,7 +116,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Eilt es mit dieser Sache?",
-    "lv": "¿Es este asunto urgente?",
+    "lv": "¿Corre prisa este asunto?",
     "level": "Sätze"
   },
   {
@@ -136,7 +136,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Was fällt dir ein?",
-    "lv": "¿Cómo te atreves?",
+    "lv": "¿Cómo te atreves? • ¿Qué se te ocurre?",
     "level": "Sätze"
   },
   {
@@ -181,12 +181,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wer war der Erste?",
-    "lv": "¿Quién fue primero?",
+    "lv": "¿Quién fue el primero?",
     "level": "Sätze"
   },
   {
     "de": "Wer fehlt heute?",
-    "lv": "¿Quién no ha venido hoy?",
+    "lv": "¿Quién falta hoy?",
     "level": "Sätze"
   },
   {
@@ -211,7 +211,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Heraus mit der Sprache!",
-    "lv": "¡Habla! • ¡Cuenta!",
+    "lv": "¡Desembucha!",
     "level": "Sätze"
   },
   {
@@ -236,12 +236,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "heute Nacht",
-    "lv": "esta noche",
+    "lv": "esta noche • anoche",
     "level": "Sätze"
   },
   {
     "de": "Zu Hilfe!",
-    "lv": "¡Ayuda!",
+    "lv": "¡Socorro!",
     "level": "Sätze"
   },
   {
@@ -256,7 +256,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wir treffen uns am Bahnhof.",
-    "lv": "Nos encontramos en la estación de tren.",
+    "lv": "Quedamos en la estación.",
     "level": "Sätze"
   },
   {
@@ -281,7 +281,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Was mich anbelangt,...",
-    "lv": "En cuanto a mí...",
+    "lv": "Por lo que a mí respecta,...",
     "level": "Sätze"
   },
   {
@@ -346,7 +346,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich habe die Ausbildung absolviert.",
-    "lv": "Terminé mi formación.",
+    "lv": "He terminado mi formación. • He terminado mis estudios.",
     "level": "Sätze"
   },
   {
@@ -371,22 +371,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich habe die Situation analysiert.",
-    "lv": "Analicé la situación.",
+    "lv": "He analizado la situación.",
     "level": "Sätze"
   },
   {
     "de": "Sie hat meinen Vorschlag akzeptiert.",
-    "lv": "Ella aceptó mi propuesta.",
+    "lv": "Ha aceptado mi propuesta.",
     "level": "Sätze"
   },
   {
     "de": "Ich möchte das genauer analysieren.",
-    "lv": "Quiero analizarlo con mayor precisión.",
+    "lv": "Me gustaría analizarlo con más detalle.",
     "level": "Sätze"
   },
   {
     "de": "Ich möchte den Vertrag ändern.",
-    "lv": "Quiero cambiar el contrato.",
+    "lv": "Me gustaría modificar el contrato.",
     "level": "Sätze"
   },
   {
@@ -396,7 +396,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ähnliche Probleme hatten wir schon früher.",
-    "lv": "Tuvimos problemas similares antes.",
+    "lv": "Ya hemos tenido problemas parecidos antes.",
     "level": "Sätze"
   },
   {
@@ -411,7 +411,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Dieses Kleid ist akademisch gekleidet.",
-    "lv": "Este vestido es elegantemente conservador.",
+    "lv": "Este vestido es de un estilo elegante y conservador.",
     "level": "Sätze"
   },
   {
@@ -426,12 +426,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bitte öffne die Datei und klicke darauf.",
-    "lv": "Abra el archivo y haga clic en él.",
+    "lv": "Por favor, abre el archivo y haz clic en él.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe einen Unfall gehabt.",
-    "lv": "Tuve un accidente.",
+    "lv": "He tenido un accidente.",
     "level": "Sätze"
   },
   {
@@ -441,12 +441,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bitte schalte den Fernseher an.",
-    "lv": "Por favor enciende la televisión.",
+    "lv": "Por favor, enciende la televisión.",
     "level": "Sätze"
   },
   {
     "de": "Mein Computer ist abgestürzt.",
-    "lv": "Mi computadora ha fallado.",
+    "lv": "Mi ordenador se ha colgado.",
     "level": "Sätze"
   },
   {
@@ -456,7 +456,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich habe den Anruf verpasst.",
-    "lv": "Perdí una llamada.",
+    "lv": "He perdido la llamada.",
     "level": "Sätze"
   },
   {
@@ -466,7 +466,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bitte nimm meinen Vorschlag an.",
-    "lv": "Por favor, acepte mi propuesta.",
+    "lv": "Por favor, acepta mi propuesta.",
     "level": "Sätze"
   },
   {
@@ -486,7 +486,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Keine Angst, alles wird gut.",
-    "lv": "No tengas miedo, todo estará bien.",
+    "lv": "No tengas miedo, todo saldrá bien.",
     "level": "Sätze"
   },
   {
@@ -511,7 +511,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Was hast du da angerichtet?",
-    "lv": "¿Qué has hecho?",
+    "lv": "¿Qué lío has armado ahí?",
     "level": "Sätze"
   },
   {
@@ -531,7 +531,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Stell dich nicht so an!",
-    "lv": "¡No armes tanto drama!",
+    "lv": "¡No hagas tanto teatro!",
     "level": "Sätze"
   },
   {
@@ -556,7 +556,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Auf jeden Fall.",
-    "lv": "En cualquier caso.",
+    "lv": "En cualquier caso. • Sin duda.",
     "level": "Sätze"
   },
   {
@@ -571,7 +571,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Er hat den Kredit aufgenommen.",
-    "lv": "Pidió un préstamo.",
+    "lv": "Ha contratado el préstamo.",
     "level": "Sätze"
   },
   {
@@ -586,12 +586,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Er ist schon auf.",
-    "lv": "Él ya está levantado.",
+    "lv": "Ya está levantado.",
     "level": "Sätze"
   },
   {
     "de": "Wir müssen das Treffen verschieben.",
-    "lv": "Tenemos que reprogramar la reunión.",
+    "lv": "Tenemos que aplazar la reunión.",
     "level": "Sätze"
   },
   {
@@ -606,12 +606,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Auf der Stelle.",
-    "lv": "Inmediatamente.",
+    "lv": "En el acto.",
     "level": "Sätze"
   },
   {
     "de": "Für den Schaden aufkommen.",
-    "lv": "Pagar por los daños.",
+    "lv": "Hacerse cargo de los daños.",
     "level": "Sätze"
   },
   {
@@ -621,7 +621,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Aufrecht sitzen.",
-    "lv": "Sentarse erguido.",
+    "lv": "Sentarse derecho.",
     "level": "Sätze"
   },
   {
@@ -696,12 +696,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Sein Beileid aussprechen.",
-    "lv": "Expresar condolencias.",
+    "lv": "Dar el pésame.",
     "level": "Sätze"
   },
   {
     "de": "Wann wurden die Meisterschaftskämpfe ausgetragen?",
-    "lv": "¿Cuándo se disputaron los combates del campeonato?",
+    "lv": "¿Cuándo se disputó el campeonato?",
     "level": "Sätze"
   },
   {
@@ -726,7 +726,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Mit der Bahn.",
-    "lv": "Por ferrocarril.",
+    "lv": "En tren.",
     "level": "Sätze"
   },
   {
@@ -741,7 +741,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Auf die lange Bank schieben.",
-    "lv": "Aplazar. • Arrastrar hasta el final • Posponer indefinidamente",
+    "lv": "Aplazar. • Dar largas.",
     "level": "Sätze"
   },
   {
@@ -761,7 +761,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich bin beauftragt.",
-    "lv": "Me han asignado un trabajo.",
+    "lv": "Me lo han encargado.",
     "level": "Sätze"
   },
   {
@@ -781,22 +781,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Unter der Bedingung, dass...",
-    "lv": "Siempre que...",
+    "lv": "A condición de que...",
     "level": "Sätze"
   },
   {
     "de": "Sie sieht bedrückt aus.",
-    "lv": "Parece deprimida.",
+    "lv": "Parece abatida.",
     "level": "Sätze"
   },
   {
     "de": "Hinweise befolgen.",
-    "lv": "Sigue las instrucciones.",
+    "lv": "Seguir las indicaciones.",
     "level": "Sätze"
   },
   {
     "de": "Befehle befolgen.",
-    "lv": "Sigue órdenes.",
+    "lv": "Obedecer órdenes.",
     "level": "Sätze"
   },
   {
@@ -806,7 +806,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich bin begierig zu wissen.",
-    "lv": "Realmente quiero saberlo.",
+    "lv": "Tengo muchas ganas de saberlo.",
     "level": "Sätze"
   },
   {
@@ -826,7 +826,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "In Begleitung.",
-    "lv": "Acompañado.",
+    "lv": "En compañía.",
     "level": "Sätze"
   },
   {
@@ -836,12 +836,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Er ist schwer von Begriff.",
-    "lv": "Es lento para entender.",
+    "lv": "Es duro de mollera.",
     "level": "Sätze"
   },
   {
     "de": "Im Gedächtnis behalten.",
-    "lv": "Recordar. • Mantener en la memoria",
+    "lv": "Guardar en la memoria.",
     "level": "Sätze"
   },
   {
@@ -851,17 +851,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bei Sinnen sein.",
-    "lv": "Estar cuerdo.",
+    "lv": "Estar en sus cabales.",
     "level": "Sätze"
   },
   {
     "de": "Bei Tage.",
-    "lv": "Durante el día.",
+    "lv": "De día.",
     "level": "Sätze"
   },
   {
     "de": "Bei weitem nicht so.",
-    "lv": "Ni mucho menos así.",
+    "lv": "Ni mucho menos.",
     "level": "Sätze"
   },
   {
@@ -871,22 +871,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Stürmischer Beifall brach los.",
-    "lv": "Hubo un estruendoso aplauso.",
+    "lv": "Estalló un aplauso atronador.",
     "level": "Sätze"
   },
   {
     "de": "Beifall finden.",
-    "lv": "Obtener aprobación.",
+    "lv": "Tener buena acogida.",
     "level": "Sätze"
   },
   {
     "de": "Beileid aussprechen.",
-    "lv": "Expresar condolencias.",
+    "lv": "Expresar sus condolencias.",
     "level": "Sätze"
   },
   {
     "de": "Auf eigenen Beinen stehen.",
-    "lv": "Ser financieramente independiente.",
+    "lv": "Valerse por sí mismo.",
     "level": "Sätze"
   },
   {
@@ -896,27 +896,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Beistand leisten.",
-    "lv": "Para ayudar. • Proporcionar asistencia",
+    "lv": "Prestar ayuda.",
     "level": "Sätze"
   },
   {
     "de": "Beitrag leisten.",
-    "lv": "Hacer una contribución.",
+    "lv": "Hacer una aportación.",
     "level": "Sätze"
   },
   {
     "de": "Jemandes Bekanntschaft machen.",
-    "lv": "Entablar relación con alguien.",
+    "lv": "Conocer a alguien.",
     "level": "Sätze"
   },
   {
     "de": "Bekanntschaft anknüpfen.",
-    "lv": "Conózcanse unos a otros. • Establecer contacto",
+    "lv": "Entablar una relación. • Establecer contacto.",
     "level": "Sätze"
   },
   {
     "de": "Belegte Brötchen.",
-    "lv": "Bocadillos rellenos.",
+    "lv": "Panecillos rellenos.",
     "level": "Sätze"
   },
   {
@@ -936,12 +936,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Zur Bequemlichkeit.",
-    "lv": "Por conveniencia.",
+    "lv": "Por comodidad.",
     "level": "Sätze"
   },
   {
     "de": "Bereit sein.",
-    "lv": "Estar preparado.",
+    "lv": "Estar preparado. • Estar dispuesto.",
     "level": "Sätze"
   },
   {
@@ -971,7 +971,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Er besitzt viel Mut.",
-    "lv": "Tiene un gran coraje.",
+    "lv": "Tiene mucho valor.",
     "level": "Sätze"
   },
   {
@@ -1001,17 +1001,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Seine Aufgabe besteht darin...",
-    "lv": "Su tarea es...",
+    "lv": "Su tarea consiste en...",
     "level": "Sätze"
   },
   {
     "de": "Grüße bestellen.",
-    "lv": "Enviar saludos.",
+    "lv": "Dar recuerdos.",
     "level": "Sätze"
   },
   {
     "de": "Ganz bestimmt.",
-    "lv": "Sin duda. • Definitivamente.",
+    "lv": "Sin duda.",
     "level": "Sätze"
   },
   {
@@ -1036,7 +1036,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "In Betracht ziehen.",
-    "lv": "Tener en cuenta. • Considerar",
+    "lv": "Tener en cuenta. • Considerar.",
     "level": "Sätze"
   },
   {
@@ -1066,7 +1066,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bitte schön.",
-    "lv": "Por favor",
+    "lv": "De nada. • Aquí tiene.",
     "level": "Sätze"
   },
   {
@@ -1076,17 +1076,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bitte sehr.",
-    "lv": "De nada.",
+    "lv": "No hay de qué. • Aquí tiene.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe eine Bitte an Sie.",
-    "lv": "Tengo una petición para usted.",
+    "lv": "Tengo que pedirle un favor.",
     "level": "Sätze"
   },
   {
     "de": "Trompete blasen.",
-    "lv": "Toca la trompeta.",
+    "lv": "Tocar la trompeta.",
     "level": "Sätze"
   },
   {
@@ -1096,7 +1096,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Mit bloßen Füßen.",
-    "lv": "Pies descalzos.",
+    "lv": "Con los pies descalzos.",
     "level": "Sätze"
   },
   {
@@ -1106,22 +1106,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Danke für die Blumen!",
-    "lv": "¡Gracias por las flores!",
+    "lv": "¡Gracias por el cumplido!",
     "level": "Sätze"
   },
   {
     "de": "Alles in Butter.",
-    "lv": "Todo está bien.",
+    "lv": "Todo va sobre ruedas.",
     "level": "Sätze"
   },
   {
     "de": "Bitte checken.",
-    "lv": "Controlar. • Controlar",
+    "lv": "Por favor, comprobar.",
     "level": "Sätze"
   },
   {
     "de": "Da ist er!",
-    "lv": "¡Aquí está!",
+    "lv": "¡Ahí está!",
     "level": "Sätze"
   },
   {
@@ -1131,7 +1131,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich kann nichts dafür.",
-    "lv": "No puedo evitarlo.",
+    "lv": "No es culpa mía.",
     "level": "Sätze"
   },
   {
@@ -1141,7 +1141,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich habe nichts dagegen.",
-    "lv": "No tengo ninguna objeción a eso.",
+    "lv": "No tengo nada en contra.",
     "level": "Sätze"
   },
   {
@@ -1151,7 +1151,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Mit der Dame ziehen.",
-    "lv": "Mover con la dama.",
+    "lv": "Mover la dama.",
     "level": "Sätze"
   },
   {
@@ -1161,7 +1161,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Danke schön!",
-    "lv": "¡Gracias! • ¡Gracias!",
+    "lv": "¡Muchas gracias!",
     "level": "Sätze"
   },
   {
@@ -1191,7 +1191,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Hände weg!",
-    "lv": "¡Las manos fuera!",
+    "lv": "¡Fuera las manos!",
     "level": "Sätze"
   },
   {
@@ -1211,22 +1211,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "von Haus aus",
-    "lv": "por naturaleza • de nacimiento",
+    "lv": "de origen • por naturaleza",
     "level": "Sätze"
   },
   {
     "de": "Meinen herzlichsten Glückwunsch!",
-    "lv": "¡Mis más sinceras felicitaciones!",
+    "lv": "¡Mi más cordial enhorabuena!",
     "level": "Sätze"
   },
   {
     "de": "Seien Sie so gut!",
-    "lv": "¡Haga el favor! • ¡Haz el favor!",
+    "lv": "¡Haga el favor!",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie die Güte!",
-    "lv": "¡Sea tan amable!",
+    "lv": "¡Tenga la bondad!",
     "level": "Sätze"
   },
   {
@@ -1241,7 +1241,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ist es gestattet zu rauchen?",
-    "lv": "¿Puedo fumar?",
+    "lv": "¿Se puede fumar?",
     "level": "Sätze"
   },
   {
@@ -1251,7 +1251,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "gestern früh",
-    "lv": "ayer temprano",
+    "lv": "ayer por la mañana",
     "level": "Sätze"
   },
   {
@@ -1266,12 +1266,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Was ist geschehen?",
-    "lv": "¿Qué pasó?",
+    "lv": "¿Qué ha pasado?",
     "level": "Sätze"
   },
   {
     "de": "Mach keine Geschichten!",
-    "lv": "¡No armes líos!",
+    "lv": "¡No armes jaleo! • ¡No hagas tonterías!",
     "level": "Sätze"
   },
   {
@@ -1281,7 +1281,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Gehen Sie geradeaus!",
-    "lv": "¡Sigue recto!",
+    "lv": "¡Siga recto!",
     "level": "Sätze"
   },
   {
@@ -1291,7 +1291,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Frag ihn gelegentlich, ob...",
-    "lv": "Pregúntale de vez en cuando si...",
+    "lv": "Pregúntale cuando tengas ocasión si...",
     "level": "Sätze"
   },
   {
@@ -1301,7 +1301,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "im Frühling",
-    "lv": "en la primavera",
+    "lv": "en primavera",
     "level": "Sätze"
   },
   {
@@ -1316,12 +1316,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Fahre fort!",
-    "lv": "¡Avanza!",
+    "lv": "¡Continúa!",
     "level": "Sätze"
   },
   {
     "de": "Er ist kein Freund von...",
-    "lv": "A él no le gusta...",
+    "lv": "No es amigo de...",
     "level": "Sätze"
   },
   {
@@ -1331,7 +1331,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Gedenkst du meiner?",
-    "lv": "¿Te acuerdas de mí? ¿Has pensado en mí?",
+    "lv": "¿Te acuerdas de mí? • ¿Piensas en mí?",
     "level": "Sätze"
   },
   {
@@ -1381,7 +1381,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wie lange dauert die Vorstellung?",
-    "lv": "¿Cuánto durará la actuación?",
+    "lv": "¿Cuánto dura la función?",
     "level": "Sätze"
   },
   {
@@ -1406,7 +1406,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Na, wie läufts?",
-    "lv": "¿Qué tal?",
+    "lv": "Bueno, ¿qué tal va?",
     "level": "Sätze"
   },
   {
@@ -1456,17 +1456,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Das ist gar nicht so schwer.",
-    "lv": "No es tan difícil en absoluto.",
+    "lv": "No es tan difícil, ni mucho menos.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe gar kein Geld.",
-    "lv": "No tengo dinero en absoluto.",
+    "lv": "No tengo nada de dinero.",
     "level": "Sätze"
   },
   {
     "de": "Er hat gar nichts gesagt.",
-    "lv": "No dijo nada en absoluto.",
+    "lv": "No ha dicho nada de nada.",
     "level": "Sätze"
   },
   {
@@ -1476,12 +1476,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Hier ist viel los.",
-    "lv": "Están sucediendo muchas cosas aquí.",
+    "lv": "Aquí pasan muchas cosas.",
     "level": "Sätze"
   },
   {
     "de": "Halt die Luft an!",
-    "lv": "¡Contén la respiración!",
+    "lv": "¡Cállate ya! • ¡No exageres!",
     "level": "Sätze"
   },
   {
@@ -1511,12 +1511,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "am Mittwoch",
-    "lv": "El miércoles",
+    "lv": "el miércoles",
     "level": "Sätze"
   },
   {
     "de": "Es mag sein.",
-    "lv": "Tal vez.",
+    "lv": "Puede ser.",
     "level": "Sätze"
   },
   {
@@ -1531,7 +1531,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Guten Morgen!",
-    "lv": "¡Buen día!",
+    "lv": "¡Buenos días!",
     "level": "Sätze"
   },
   {
@@ -1561,12 +1561,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Nicht doch!",
-    "lv": "¡No, qué va!",
+    "lv": "¡Qué va! • ¡No, por favor!",
     "level": "Sätze"
   },
   {
     "de": "Nun endlich!",
-    "lv": "Bueno, ¡por fin!",
+    "lv": "¡Por fin!",
     "level": "Sätze"
   },
   {
@@ -1581,12 +1581,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Parken verboten!",
-    "lv": "¡Está prohibido aparcar!",
+    "lv": "¡Prohibido aparcar!",
     "level": "Sätze"
   },
   {
     "de": "Nicht parken!",
-    "lv": "¡Está prohibido aparcar!",
+    "lv": "¡No aparcar!",
     "level": "Sätze"
   },
   {
@@ -1601,7 +1601,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Davon kann keine Rede sein.",
-    "lv": "De eso no se puede hablar.",
+    "lv": "De eso, ni hablar.",
     "level": "Sätze"
   },
   {
@@ -1626,7 +1626,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bitte schön!",
-    "lv": "¡De nada!",
+    "lv": "¡Aquí tiene! • ¡De nada!",
     "level": "Sätze"
   },
   {
@@ -1641,7 +1641,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Sehen Sie mal!",
-    "lv": "¡Eche un vistazo!",
+    "lv": "¡Mire!",
     "level": "Sätze"
   },
   {
@@ -1661,12 +1661,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "im Sommer",
-    "lv": "en el verano",
+    "lv": "en verano",
     "level": "Sätze"
   },
   {
     "de": "Nicht nur..., sondern auch...",
-    "lv": "No sólo... sino también...",
+    "lv": "No solo..., sino también...",
     "level": "Sätze"
   },
   {
@@ -1686,7 +1686,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Durchfahrt gesperrt!",
-    "lv": "¡Está prohibido circular!",
+    "lv": "¡Cerrado al tráfico!",
     "level": "Sätze"
   },
   {
@@ -1711,12 +1711,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Guten Tag!",
-    "lv": "¡Hola!",
+    "lv": "¡Buenos días! • ¡Buenas tardes!",
     "level": "Sätze"
   },
   {
     "de": "Wo treffen wir uns?",
-    "lv": "¿Dónde nos encontraremos?",
+    "lv": "¿Dónde quedamos?",
     "level": "Sätze"
   },
   {
@@ -1741,12 +1741,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Er wohnt über mir.",
-    "lv": "Él vive encima de mí.",
+    "lv": "Vive encima de mí.",
     "level": "Sätze"
   },
   {
     "de": "Er ist davon überzeugt.",
-    "lv": "Está seguro de ello.",
+    "lv": "Está convencido de ello.",
     "level": "Sätze"
   },
   {
@@ -1756,7 +1756,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Deine Uhr geht nach.",
-    "lv": "Tu reloj está atrasado.",
+    "lv": "Tu reloj atrasa.",
     "level": "Sätze"
   },
   {
@@ -1776,7 +1776,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Rechts um!",
-    "lv": "¡Gire a la derecha!",
+    "lv": "¡Derecha, ar!",
     "level": "Sätze"
   },
   {
@@ -1811,7 +1811,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Rauchen verboten!",
-    "lv": "¡Está prohibido fumar!",
+    "lv": "¡Prohibido fumar!",
     "level": "Sätze"
   },
   {
@@ -1821,7 +1821,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Eintritt verboten!",
-    "lv": "¡La entrada está prohibida!",
+    "lv": "¡Prohibida la entrada!",
     "level": "Sätze"
   },
   {
@@ -1831,7 +1831,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Er versteht nichts davon.",
-    "lv": "Él no entiende nada al respecto.",
+    "lv": "No entiende nada de eso.",
     "level": "Sätze"
   },
   {
@@ -1886,7 +1886,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Vor vierzehn Tagen.",
-    "lv": "Hace catorce días.",
+    "lv": "Hace dos semanas.",
     "level": "Sätze"
   },
   {
@@ -1906,7 +1906,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Unter der Voraussetzung, dass...",
-    "lv": "Suponiendo que...",
+    "lv": "A condición de que...",
     "level": "Sätze"
   },
   {
@@ -1916,7 +1916,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Vorhanden sein.",
-    "lv": "Existir. • Estar presente. • Estar disponible.",
+    "lv": "Existir. • Estar disponible.",
     "level": "Sätze"
   },
   {
@@ -1941,27 +1941,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Heute Vormittag.",
-    "lv": "Esta mañana. • Hoy por la mañana",
+    "lv": "Esta mañana.",
     "level": "Sätze"
   },
   {
     "de": "Von vorn.",
-    "lv": "Desde el frente.",
+    "lv": "Desde delante. • Desde el principio.",
     "level": "Sätze"
   },
   {
     "de": "Nach vorn.",
-    "lv": "Adelante.",
+    "lv": "Hacia adelante.",
     "level": "Sätze"
   },
   {
     "de": "Von vornherein.",
-    "lv": "De antemano.",
+    "lv": "Desde el primer momento.",
     "level": "Sätze"
   },
   {
     "de": "Im Vorteil sein.",
-    "lv": "Estar en una mejor posición.",
+    "lv": "Estar en ventaja.",
     "level": "Sätze"
   },
   {
@@ -1971,7 +1971,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wach werden.",
-    "lv": "Despertar.",
+    "lv": "Despertarse.",
     "level": "Sätze"
   },
   {
@@ -1991,12 +1991,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Gegen eine Wand reden.",
-    "lv": "Hablarle a una pared.",
+    "lv": "Predicar en el desierto.",
     "level": "Sätze"
   },
   {
     "de": "Hier haben die Wände Ohren.",
-    "lv": "Aquí las paredes tienen oídos.",
+    "lv": "Aquí las paredes oyen.",
     "level": "Sätze"
   },
   {
@@ -2016,12 +2016,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Was wollen Sie?",
-    "lv": "¿Qué desea?",
+    "lv": "¿Qué quiere usted?",
     "level": "Sätze"
   },
   {
     "de": "Was für ein...?",
-    "lv": "¿Qué clase de...? • ¿Qué tipo de...?",
+    "lv": "¿Qué clase de...?",
     "level": "Sätze"
   },
   {
@@ -2051,7 +2051,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Weh tun.",
-    "lv": "Hacer daño.",
+    "lv": "Doler. • Hacer daño.",
     "level": "Sätze"
   },
   {
@@ -2081,7 +2081,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Und so weiter.",
-    "lv": "Etcétera.",
+    "lv": "Y así sucesivamente.",
     "level": "Sätze"
   },
   {
@@ -2091,22 +2091,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "An welchem Tag?",
-    "lv": "¿En qué día?",
+    "lv": "¿Qué día?",
     "level": "Sätze"
   },
   {
     "de": "Alle Welt.",
-    "lv": "El mundo entero. • Todos",
+    "lv": "Todo el mundo.",
     "level": "Sätze"
   },
   {
     "de": "In wenigen Tagen.",
-    "lv": "En pocos días.",
+    "lv": "Dentro de unos días.",
     "level": "Sätze"
   },
   {
     "de": "Zu wenig.",
-    "lv": "Muy poco.",
+    "lv": "Demasiado poco.",
     "level": "Sätze"
   },
   {
@@ -2116,27 +2116,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wer da?",
-    "lv": "¿Quién está ahí?",
+    "lv": "¿Quién vive? • ¿Quién está ahí?",
     "level": "Sätze"
   },
   {
     "de": "Gesammelte Werke von Schiller.",
-    "lv": "Los escritos completos de Schiller.",
+    "lv": "Obras completas de Schiller.",
     "level": "Sätze"
   },
   {
     "de": "Ausgewählte Werke.",
-    "lv": "Una selección de obras.",
+    "lv": "Obras escogidas.",
     "level": "Sätze"
   },
   {
     "de": "Er ist wert, dass...",
-    "lv": "Él merece...",
+    "lv": "Merece que...",
     "level": "Sätze"
   },
   {
     "de": "Es ist zwei Euro wert.",
-    "lv": "Cuesta dos euros.",
+    "lv": "Vale dos euros.",
     "level": "Sätze"
   },
   {
@@ -2156,12 +2156,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Um die Wette laufen.",
-    "lv": "Correr una carrera.",
+    "lv": "Echar una carrera.",
     "level": "Sätze"
   },
   {
     "de": "Was gilt die Wette?",
-    "lv": "¿Qué se apuesta?",
+    "lv": "¿Qué nos apostamos?",
     "level": "Sätze"
   },
   {
@@ -2181,12 +2181,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Widerspruch erheben.",
-    "lv": "Para protestar. • Plantear objeciones",
+    "lv": "Protestar. • Plantear objeciones.",
     "level": "Sätze"
   },
   {
     "de": "Wie alt ist er?",
-    "lv": "¿Cuántos años tiene él?",
+    "lv": "¿Cuántos años tiene?",
     "level": "Sätze"
   },
   {
@@ -2196,7 +2196,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Auf Wiederhören!",
-    "lv": "¡Adiós!",
+    "lv": "¡Hasta pronto!",
     "level": "Sätze"
   },
   {
@@ -2216,7 +2216,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Du musst ziehen.",
-    "lv": "Tienes que tirar.",
+    "lv": "Te toca mover.",
     "level": "Sätze"
   },
   {
@@ -2236,7 +2236,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Zu ihm gehen.",
-    "lv": "Ir con él.",
+    "lv": "Ir a verlo.",
     "level": "Sätze"
   },
   {
@@ -2316,7 +2316,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Zugrunde legen.",
-    "lv": "Poner sobre la base. • Tomar como base.",
+    "lv": "Tomar como base.",
     "level": "Sätze"
   },
   {
@@ -2331,7 +2331,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Er hat zugenommen.",
-    "lv": "Ganó peso.",
+    "lv": "Ha engordado.",
     "level": "Sätze"
   },
   {
@@ -2341,7 +2341,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Zusammenhängen mit etwas.",
-    "lv": "Estar asociado con algo.",
+    "lv": "Estar relacionado con algo.",
     "level": "Sätze"
   },
   {
@@ -2351,17 +2351,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Das hätte ich ihm nicht zugetraut.",
-    "lv": "No hubiera esperado eso de él.",
+    "lv": "No lo habría creído capaz de algo así.",
     "level": "Sätze"
   },
   {
     "de": "Freier Zutritt.",
-    "lv": "Entrada gratuita.",
+    "lv": "Entrada libre.",
     "level": "Sätze"
   },
   {
     "de": "Zutritt verboten!",
-    "lv": "¡La entrada está prohibida!",
+    "lv": "¡Prohibida la entrada!",
     "level": "Sätze"
   },
   {
@@ -2381,7 +2381,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Es steht außer Zweifel.",
-    "lv": "No hay duda.",
+    "lv": "Está fuera de toda duda.",
     "level": "Sätze"
   },
   {
@@ -2411,7 +2411,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Es freut mich, Sie kennenzulernen.",
-    "lv": "Me alegro de conocerle.",
+    "lv": "Es un placer conocerlo.",
     "level": "Sätze"
   },
   {
@@ -2431,7 +2431,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ben, komm bitte an die Tafel!",
-    "lv": "¡Ben, por favor ven al tablero!",
+    "lv": "Ben, ¡ven a la pizarra, por favor!",
     "level": "Sätze"
   },
   {
@@ -2441,7 +2441,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Geht bitte in die Sporthalle!",
-    "lv": "¡Id al polideportivo, por favor!",
+    "lv": "¡Id al gimnasio, por favor!",
     "level": "Sätze"
   },
   {
@@ -2456,7 +2456,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Er ist fest eingeschlafen.",
-    "lv": "Está profundamente dormido.",
+    "lv": "Se ha quedado profundamente dormido.",
     "level": "Sätze"
   },
   {
@@ -2476,22 +2476,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Finn, fang bitte an!",
-    "lv": "¡Finn, empieza, por favor!",
+    "lv": "Finn, ¡empieza, por favor!",
     "level": "Sätze"
   },
   {
     "de": "Lest bitte mit!",
-    "lv": "¡Leed, por favor!",
+    "lv": "¡Seguid la lectura, por favor!",
     "level": "Sätze"
   },
   {
     "de": "Emma, schau bitte nicht aus dem Fenster!",
-    "lv": "Emma, ¡por favor, no mires por la ventana!",
+    "lv": "Emma, ¡no mires por la ventana, por favor!",
     "level": "Sätze"
   },
   {
     "de": "Jonas, bring bitte die Hefte!",
-    "lv": "¡Jonas, por favor trae los cuadernos!",
+    "lv": "Jonas, ¡trae los cuadernos, por favor!",
     "level": "Sätze"
   },
   {
@@ -2511,12 +2511,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich stehe gleich auf.",
-    "lv": "Me levantaré enseguida.",
+    "lv": "Me levanto enseguida.",
     "level": "Sätze"
   },
   {
     "de": "Steh auf, Hanna, es klingelt!",
-    "lv": "¡Levántate, Hannah, que suena el timbre!",
+    "lv": "¡Levántate, Hanna, que suena el despertador! • ¡Levántate, Hanna, que llaman a la puerta!",
     "level": "Sätze"
   },
   {
@@ -2556,7 +2556,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Kleide dich wärmer an, draußen ist es kühl.",
-    "lv": "¡Abrígate más, que afuera hace fresco!",
+    "lv": "Abrígate más, que fuera hace fresco.",
     "level": "Sätze"
   },
   {
@@ -2596,12 +2596,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Am liebsten trinke ich schwarzen Kaffee.",
-    "lv": "Prefiero tomar café negro.",
+    "lv": "Prefiero el café solo.",
     "level": "Sätze"
   },
   {
     "de": "Guten Morgen, hast du gut geschlafen?",
-    "lv": "Buenos días, ¿dormiste bien?",
+    "lv": "Buenos días, ¿has dormido bien?",
     "level": "Sätze"
   },
   {
@@ -2631,7 +2631,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Klara, deck bitte den Tisch!",
-    "lv": "¡Clara, por favor, pon la mesa!",
+    "lv": "Klara, ¡pon la mesa, por favor!",
     "level": "Sätze"
   },
   {
@@ -2641,7 +2641,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wann esst ihr zu Mittag?",
-    "lv": "¿Cuándo almorzáis?",
+    "lv": "¿Cuándo coméis?",
     "level": "Sätze"
   },
   {
@@ -2651,17 +2651,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Was gibt es heute zu Mittag?",
-    "lv": "¿Qué hay para almorzar hoy?",
+    "lv": "¿Qué hay de comer hoy?",
     "level": "Sätze"
   },
   {
     "de": "Wie schmeckt dir die Suppe?",
-    "lv": "¿Cómo te gusta la sopa?",
+    "lv": "¿Qué te parece la sopa?",
     "level": "Sätze"
   },
   {
     "de": "Ehrlich gesagt ist sie etwas zu salzig.",
-    "lv": "Francamente, está un poco demasiado salada.",
+    "lv": "Sinceramente, está un poco salada de más.",
     "level": "Sätze"
   },
   {
@@ -2671,12 +2671,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Danke, ich habe schon.",
-    "lv": "Gracias, ya he comido.",
+    "lv": "Gracias, ya tengo.",
     "level": "Sätze"
   },
   {
     "de": "Das Fleisch schmeckt ausgezeichnet.",
-    "lv": "La carne sabe muy bien.",
+    "lv": "La carne está exquisita.",
     "level": "Sätze"
   },
   {
@@ -2696,7 +2696,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Komm doch heute zum Mittagessen vorbei!",
-    "lv": "¡Ven a almorzar hoy!",
+    "lv": "¡Pásate hoy a comer!",
     "level": "Sätze"
   },
   {
@@ -2711,12 +2711,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Stört dich das Rauchen?",
-    "lv": "¿Te molesta fumar?",
+    "lv": "¿Te molesta que fume?",
     "level": "Sätze"
   },
   {
     "de": "Danke für die nette Aufnahme!",
-    "lv": "¡Gracias por la cálida bienvenida!",
+    "lv": "¡Gracias por la amable acogida!",
     "level": "Sätze"
   },
   {
@@ -2741,17 +2741,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Willst du mit mir spazieren gehen?",
-    "lv": "¿Quieres caminar conmigo?",
+    "lv": "¿Quieres dar un paseo conmigo?",
     "level": "Sätze"
   },
   {
     "de": "Sieh mal, es wird gleich regnen.",
-    "lv": "Mira, pronto lloverá.",
+    "lv": "Mira, va a llover enseguida.",
     "level": "Sätze"
   },
   {
     "de": "Nimm den Regenschirm mit!",
-    "lv": "¡Lleva un paraguas contigo!",
+    "lv": "¡Llévate el paraguas!",
     "level": "Sätze"
   },
   {
@@ -2791,7 +2791,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wir bekommen gleich ein Gewitter.",
-    "lv": "Estamos a punto de tener una tormenta.",
+    "lv": "Enseguida va a haber tormenta.",
     "level": "Sätze"
   },
   {
@@ -2831,7 +2831,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Draußen ist Glatteis, pass auf!",
-    "lv": "Hay placas de hielo afuera, ¡cuidado!",
+    "lv": "Fuera hay placas de hielo, ¡ten cuidado!",
     "level": "Sätze"
   },
   {
@@ -2841,7 +2841,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Zieh die Jacke an, du kannst dich erkälten.",
-    "lv": "Ponte una chaqueta, podrías resfriarte.",
+    "lv": "Ponte la chaqueta, podrías resfriarte.",
     "level": "Sätze"
   },
   {
@@ -2851,7 +2851,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Meine Uhr geht fünf Minuten vor.",
-    "lv": "Mi reloj está adelantado cinco minutos.",
+    "lv": "Mi reloj adelanta cinco minutos.",
     "level": "Sätze"
   },
   {
@@ -2861,7 +2861,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Was ist heute für ein Datum?",
-    "lv": "¿Cuál es la fecha de hoy?",
+    "lv": "¿Qué fecha es hoy?",
     "level": "Sätze"
   },
   {
@@ -2891,12 +2891,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Gehen wir spazieren!",
-    "lv": "¡Vamos a caminar!",
+    "lv": "¡Vamos a dar un paseo!",
     "level": "Sätze"
   },
   {
     "de": "Hast du Lust, mit mir in den Park zu gehen?",
-    "lv": "¿Quieres ir al parque conmigo?",
+    "lv": "¿Te apetece ir al parque conmigo?",
     "level": "Sätze"
   },
   {
@@ -2906,12 +2906,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Geh bitte etwas langsamer, ich kann dir nicht folgen!",
-    "lv": "¡Ve un poco más lento, no puedo seguirte!",
+    "lv": "¡Ve un poco más despacio, por favor, no puedo seguirte!",
     "level": "Sätze"
   },
   {
     "de": "Ich bin zum ersten Mal in dieser Gegend.",
-    "lv": "Estoy en esta zona por primera vez.",
+    "lv": "Es la primera vez que estoy en esta zona.",
     "level": "Sätze"
   },
   {
@@ -2921,7 +2921,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Jetzt können wir zurückgehen.",
-    "lv": "Ahora podemos regresar.",
+    "lv": "Ahora podemos volver.",
     "level": "Sätze"
   },
   {
@@ -2941,7 +2941,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Geh hier die zweite Straße links und dann immer geradeaus.",
-    "lv": "Aquí toma la segunda calle a la izquierda y sigue recto.",
+    "lv": "Aquí toma la segunda calle a la izquierda y luego sigue todo recto.",
     "level": "Sätze"
   },
   {
@@ -2951,7 +2951,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich habe vor, morgen zu verreisen.",
-    "lv": "Tengo la intención de irme mañana.",
+    "lv": "Tengo pensado irme de viaje mañana.",
     "level": "Sätze"
   },
   {
@@ -2966,7 +2966,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Finn fährt bis Berlin mit, dann geht er ans Meer.",
-    "lv": "Finn irá hasta Berlín y luego irá al mar.",
+    "lv": "Finn viene con nosotros hasta Berlín y luego se va al mar.",
     "level": "Sätze"
   },
   {
@@ -3001,12 +3001,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Hol mir bitte ein Taxi, ich verpasse sonst den Zug!",
-    "lv": "¡Pídeme un taxi, por favor, si no perderé el tren!",
+    "lv": "¡Pídeme un taxi, por favor, o perderé el tren!",
     "level": "Sätze"
   },
   {
     "de": "Fahr bitte zum Bahnhof!",
-    "lv": "¡Por favor llévame a la estación!",
+    "lv": "¡Llévame a la estación, por favor!",
     "level": "Sätze"
   },
   {
@@ -3031,7 +3031,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Der Zug fährt gleich ab.",
-    "lv": "El tren sale pronto.",
+    "lv": "El tren está a punto de salir.",
     "level": "Sätze"
   },
   {
@@ -3056,12 +3056,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wo ist der Bahnsteigkartenautomat?",
-    "lv": "¿Dónde está la máquina expendedora de billetes del andén?",
+    "lv": "¿Dónde está la máquina expendedora de billetes de andén?",
     "level": "Sätze"
   },
   {
     "de": "Stell mein Handgepäck ins Gepäcknetz.",
-    "lv": "Pon mi equipaje de mano en la red portaequipajes.",
+    "lv": "Pon mi equipaje de mano en el portaequipajes.",
     "level": "Sätze"
   },
   {
@@ -3071,7 +3071,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Es zieht, schließ bitte das Fenster!",
-    "lv": "¡Hay corriente, cierra la ventana, por favor!",
+    "lv": "Hay corriente, ¡cierra la ventana, por favor!",
     "level": "Sätze"
   },
   {
@@ -3081,7 +3081,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wie lange hält der Zug?",
-    "lv": "¿Cuánto tiempo permanece detenido el tren?",
+    "lv": "¿Cuánto tiempo está parado el tren?",
     "level": "Sätze"
   },
   {
@@ -3091,7 +3091,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Der Zug hat Verspätung.",
-    "lv": "El tren llega tarde.",
+    "lv": "El tren lleva retraso.",
     "level": "Sätze"
   },
   {
@@ -3116,7 +3116,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Kannst du mir ein gutes Hotel empfehlen?",
-    "lv": "¿Puedes recomendar un buen hotel?",
+    "lv": "¿Puedes recomendarme un buen hotel?",
     "level": "Sätze"
   },
   {
@@ -3181,7 +3181,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Kellner, die Speisekarte, bitte!",
-    "lv": "¡Camarero, la carta, por favor!",
+    "lv": "Camarero, ¡la carta, por favor!",
     "level": "Sätze"
   },
   {
@@ -3191,17 +3191,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Das schmeckt ausgezeichnet!",
-    "lv": "¡Sabe muy bien!",
+    "lv": "¡Esto sabe de maravilla!",
     "level": "Sätze"
   },
   {
     "de": "Kellner, zahlen bitte!",
-    "lv": "¡Camarero, la cuenta, por favor!",
+    "lv": "Camarero, ¡la cuenta, por favor!",
     "level": "Sätze"
   },
   {
     "de": "Ich gehe ins Café einen Kaffee trinken.",
-    "lv": "Voy a una cafetería a tomar café.",
+    "lv": "Voy a la cafetería a tomar un café.",
     "level": "Sätze"
   },
   {
@@ -3231,12 +3231,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Eine Portion Eis, bitte!",
-    "lv": "¡Una ración de helado, por favor!",
+    "lv": "¡Un helado, por favor!",
     "level": "Sätze"
   },
   {
     "de": "Heute Morgen habe ich einen Brief bekommen.",
-    "lv": "Recibí una carta esta mañana.",
+    "lv": "Esta mañana he recibido una carta.",
     "level": "Sätze"
   },
   {
@@ -3256,12 +3256,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Erinnere mich morgen daran zu schreiben!",
-    "lv": "¡Recuérdame escribir mañana!",
+    "lv": "¡Recuérdame mañana que escriba!",
     "level": "Sätze"
   },
   {
     "de": "Werfen Sie bitte diesen Brief in den Briefkasten.",
-    "lv": "¡Por favor, deje esta carta en el buzón!",
+    "lv": "Por favor, eche esta carta al buzón.",
     "level": "Sätze"
   },
   {
@@ -3291,7 +3291,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wann beginnt die Vorstellung?",
-    "lv": "¿Cuándo empieza el espectáculo?",
+    "lv": "¿Cuándo empieza la función?",
     "level": "Sätze"
   },
   {
@@ -3316,7 +3316,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bitte schnell, der Vorhang geht gleich auf!",
-    "lv": "¡Más rápido, por favor, que el telón está a punto de abrirse!",
+    "lv": "¡Deprisa, por favor, que el telón está a punto de levantarse!",
     "level": "Sätze"
   },
   {
@@ -3336,22 +3336,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich suche eine Wohnung.",
-    "lv": "Estoy buscando un apartamento.",
+    "lv": "Estoy buscando piso.",
     "level": "Sätze"
   },
   {
     "de": "Ist in diesem Haus eine Wohnung frei?",
-    "lv": "¿Hay algún apartamento disponible en esta casa?",
+    "lv": "¿Hay algún piso libre en este edificio?",
     "level": "Sätze"
   },
   {
     "de": "Wie viel kostet die Miete?",
-    "lv": "¿A cuánto asciende el alquiler?",
+    "lv": "¿Cuánto cuesta el alquiler?",
     "level": "Sätze"
   },
   {
     "de": "Die Wohnung hat drei Zimmer und eine Küche.",
-    "lv": "El apartamento tiene tres habitaciones y una cocina.",
+    "lv": "El piso tiene tres habitaciones y una cocina.",
     "level": "Sätze"
   },
   {
@@ -3361,12 +3361,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Mia, pack die Sachen bitte in Kisten!",
-    "lv": "¡Mía, pon las cosas en cajas, por favor!",
+    "lv": "Mia, ¡mete las cosas en cajas, por favor!",
     "level": "Sätze"
   },
   {
     "de": "Hast du alles eingepackt?",
-    "lv": "¿Has empaquetado todo ya?",
+    "lv": "¿Lo has empaquetado todo?",
     "level": "Sätze"
   },
   {
@@ -3401,7 +3401,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Im Sommer fahre ich ans Meer.",
-    "lv": "Iré al mar en verano.",
+    "lv": "En verano iré a la playa.",
     "level": "Sätze"
   },
   {
@@ -3431,7 +3431,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Er hat sich aber recht verändert.",
-    "lv": "Sin embargo, ha cambiado bastante.",
+    "lv": "Pues sí que ha cambiado bastante.",
     "level": "Sätze"
   },
   {
@@ -3441,12 +3441,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Er ist immer nett und freundlich.",
-    "lv": "Él siempre es agradable y amable.",
+    "lv": "Siempre es agradable y simpático.",
     "level": "Sätze"
   },
   {
     "de": "Ich fühle mich nicht wohl.",
-    "lv": "Me siento mal.",
+    "lv": "No me encuentro bien.",
     "level": "Sätze"
   },
   {
@@ -3456,7 +3456,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich habe mich erkältet.",
-    "lv": "Tengo un resfrío.",
+    "lv": "Me he resfriado.",
     "level": "Sätze"
   },
   {
@@ -3476,7 +3476,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Leg dich ins Bett!",
-    "lv": "¡Acuéstate en la cama!",
+    "lv": "¡Métete en la cama!",
     "level": "Sätze"
   },
   {
@@ -3486,12 +3486,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Gestern hatte ich erhöhte Temperatur.",
-    "lv": "Ayer tuve temperatura alta.",
+    "lv": "Ayer tuve unas décimas de fiebre.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe Zahnschmerzen.",
-    "lv": "Tengo dolor de muela.",
+    "lv": "Tengo dolor de muelas.",
     "level": "Sätze"
   },
   {
@@ -3511,17 +3511,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich will meine Wohnung neu möblieren.",
-    "lv": "Quiero amueblar de nuevo mi apartamento.",
+    "lv": "Quiero amueblar de nuevo mi piso.",
     "level": "Sätze"
   },
   {
     "de": "Kann ich das auf Raten kaufen?",
-    "lv": "¿Puedo comprar a plazos?",
+    "lv": "¿Puedo comprarlo a plazos?",
     "level": "Sätze"
   },
   {
     "de": "Bleib im Bett, bis es dir besser geht!",
-    "lv": "¡Quédate en cama hasta que te sientas mejor!",
+    "lv": "¡Quédate en la cama hasta que te encuentres mejor!",
     "level": "Sätze"
   },
   {
@@ -3566,12 +3566,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ist das Buch noch vorrätig?",
-    "lv": "¿Este libro todavía está disponible?",
+    "lv": "¿Todavía tienen el libro en existencias?",
     "level": "Sätze"
   },
   {
     "de": "Das Buch ist leider ausverkauft.",
-    "lv": "Lamentablemente el libro está agotado.",
+    "lv": "Lamentablemente, el libro está agotado.",
     "level": "Sätze"
   },
   {
@@ -3616,7 +3616,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wiegen Sie mir bitte zwei Kilo ab.",
-    "lv": "Por favor, pésame dos kilos.",
+    "lv": "Péseme dos kilos, por favor.",
     "level": "Sätze"
   },
   {
@@ -3626,7 +3626,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Haben Sie gutes Rindfleisch?",
-    "lv": "¿Tiene buena carne de res?",
+    "lv": "¿Tiene buena carne de vacuno?",
     "level": "Sätze"
   },
   {
@@ -3656,7 +3656,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Dann nehme ich zwei Kilo Äpfel.",
-    "lv": "Luego tomaré dos kilogramos de manzanas.",
+    "lv": "Entonces me llevo dos kilos de manzanas.",
     "level": "Sätze"
   },
   {
@@ -3666,7 +3666,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Können Sie mir alles nach Hause liefern?",
-    "lv": "¿Puede entregármelo todo a casa?",
+    "lv": "¿Puede llevármelo todo a casa?",
     "level": "Sätze"
   },
   {
@@ -3691,7 +3691,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Können Sie die Möbel in meine Wohnung liefern?",
-    "lv": "¿Pueden entregar los muebles en mi apartamento?",
+    "lv": "¿Pueden llevarme los muebles a mi piso?",
     "level": "Sätze"
   },
   {
@@ -3701,7 +3701,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bitte, machen Sie die Rechnung.",
-    "lv": "Por favor emita una factura.",
+    "lv": "Por favor, hágame la factura.",
     "level": "Sätze"
   },
   {
@@ -3721,7 +3721,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Haben Sie auch andere Muster?",
-    "lv": "¿Tiene también otros estampados?",
+    "lv": "¿Tiene también otros estampados? • ¿Tiene también otras muestras?",
     "level": "Sätze"
   },
   {
@@ -3731,7 +3731,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Geben Sie mir eine hellere.",
-    "lv": "Deme una más clara.",
+    "lv": "Deme uno más claro.",
     "level": "Sätze"
   },
   {
@@ -3746,12 +3746,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Die sind mir etwas zu eng.",
-    "lv": "Me quedan un poco ajustados.",
+    "lv": "Me quedan un poco estrechos.",
     "level": "Sätze"
   },
   {
     "de": "So, nun passen sie gut.",
-    "lv": "Entonces, ahora quedan bien.",
+    "lv": "Bueno, ahora sí que quedan bien.",
     "level": "Sätze"
   },
   {
@@ -3781,7 +3781,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bitte reinigen und bügeln Sie ihn!",
-    "lv": "¡Límpielo y plánchelo!",
+    "lv": "¡Por favor, límpielo y plánchelo!",
     "level": "Sätze"
   },
   {
@@ -3791,7 +3791,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Die Schuhe sind zu eng.",
-    "lv": "Los zapatos están demasiado apretados.",
+    "lv": "Los zapatos son demasiado estrechos.",
     "level": "Sätze"
   },
   {
@@ -3811,7 +3811,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Sie geht fünf Minuten vor.",
-    "lv": "Se adelanta cinco minutos.",
+    "lv": "Adelanta cinco minutos.",
     "level": "Sätze"
   },
   {
@@ -3821,7 +3821,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich möchte eine Brille kaufen.",
-    "lv": "Quiero comprar gafas.",
+    "lv": "Me gustaría comprar unas gafas.",
     "level": "Sätze"
   },
   {
@@ -3841,7 +3841,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich brauche zwei Fotos für meinen Pass.",
-    "lv": "Necesito dos fotografías de pasaporte.",
+    "lv": "Necesito dos fotos para mi pasaporte.",
     "level": "Sätze"
   },
   {
@@ -3856,7 +3856,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bitte, fotografieren Sie mich.",
-    "lv": "Por favor, tómeme una foto.",
+    "lv": "Por favor, hágame una foto.",
     "level": "Sätze"
   },
   {
@@ -3876,12 +3876,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Die Aufnahme ist gelungen.",
-    "lv": "La foto fue un éxito.",
+    "lv": "La foto ha salido muy bien.",
     "level": "Sätze"
   },
   {
     "de": "Die Fotos sind gut geworden.",
-    "lv": "Las fotos salieron bien.",
+    "lv": "Las fotos han salido bien.",
     "level": "Sätze"
   },
   {
@@ -3891,17 +3891,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Sind diese Steine echt?",
-    "lv": "¿Son reales estas piedras?",
+    "lv": "¿Son auténticas estas piedras?",
     "level": "Sätze"
   },
   {
     "de": "Ist das echtes Gold?",
-    "lv": "¿Es oro real?",
+    "lv": "¿Es oro auténtico?",
     "level": "Sätze"
   },
   {
     "de": "Zeigen Sie mir bitte Trauringe.",
-    "lv": "Muéstreme los anillos de boda, por favor.",
+    "lv": "Enséñeme unas alianzas, por favor.",
     "level": "Sätze"
   },
   {
@@ -3911,7 +3911,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich kann ihn enger machen.",
-    "lv": "Puedo ajustarlo.",
+    "lv": "Puedo estrecharlo.",
     "level": "Sätze"
   },
   {
@@ -3921,7 +3921,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Zeigen Sie mir schöne Geschenkideen.",
-    "lv": "Muestre hermosas ideas para regalos.",
+    "lv": "Enséñeme algunas ideas bonitas para regalar.",
     "level": "Sätze"
   },
   {
@@ -3936,12 +3936,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Der Stein ist ein Saphir.",
-    "lv": "Esta piedra es un zafiro.",
+    "lv": "La piedra es un zafiro.",
     "level": "Sätze"
   },
   {
     "de": "Das ist kein echter Stein, das ist Glas.",
-    "lv": "Esto no es piedra real, es vidrio.",
+    "lv": "Esta no es una piedra auténtica, es vidrio.",
     "level": "Sätze"
   },
   {
@@ -3966,7 +3966,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Alle Schmuckstücke sind gestempelt.",
-    "lv": "Todas las joyas están estampadas.",
+    "lv": "Todas las joyas llevan contraste.",
     "level": "Sätze"
   },
   {
@@ -3976,7 +3976,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Natürlich, jederzeit.",
-    "lv": "En cualquier momento, por supuesto.",
+    "lv": "Por supuesto, en cualquier momento.",
     "level": "Sätze"
   }
 ];
