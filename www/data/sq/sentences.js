@@ -1,777 +1,777 @@
 const SENTENCE_ENTRIES = [
   {
     "de": "Hüte dich davor!",
-    "lv": "Buna dikkat edin!",
+    "lv": "Ruhu nga kjo!",
     "level": "Sätze"
   },
   {
     "de": "Wenn nichts dazwischenkommt.",
-    "lv": "Eğer hiçbir şey seni rahatsız etmiyorsa. • Her şey planlandığı gibi giderse.",
+    "lv": "Nëse nuk ndodh asgjë e papritur. • Nëse gjithçka shkon sipas planit.",
     "level": "Sätze"
   },
   {
     "de": "Das kann ich mir denken!",
-    "lv": "Wiem to!",
+    "lv": "E marr me mend!",
     "level": "Sätze"
   },
   {
     "de": "Ist er denn krank?",
-    "lv": "Czy jest wtedy chory?",
+    "lv": "Mos është i sëmurë?",
     "level": "Sätze"
   },
   {
     "de": "Was denn?",
-    "lv": "Co wtedy?",
+    "lv": "Po çfarë?",
     "level": "Sätze"
   },
   {
     "de": "Desto mehr.",
-    "lv": "Tym bardziej.",
+    "lv": "Aq më tepër.",
     "level": "Sätze"
   },
   {
     "de": "Je mehr, desto besser.",
-    "lv": "Ne kadar çok olursa o kadar iyi.",
+    "lv": "Sa më shumë, aq më mirë.",
     "level": "Sätze"
   },
   {
     "de": "Alles deutet auf Regen.",
-    "lv": "Her şey davaya işaret ediyor.",
+    "lv": "Gjithçka tregon se do të bjerë shi.",
     "level": "Sätze"
   },
   {
     "de": "Damit ist mir wenig gedient.",
-    "lv": "Dla mnie to nie ma większego sensu.",
+    "lv": "Kjo nuk më hyn shumë në punë.",
     "level": "Sätze"
   },
   {
     "de": "Er ist dienstlich verhindert.",
-    "lv": "İş nedeniyle gelemiyor.",
+    "lv": "Ai nuk mund të vijë për shkak të detyrave të punës.",
     "level": "Sätze"
   },
   {
     "de": "Sprechen Sie doch!",
-    "lv": "Konuşun!",
+    "lv": "Flisni, pra!",
     "level": "Sätze"
   },
   {
     "de": "Es donnert.",
-    "lv": "Ryczy grzmot.",
+    "lv": "Bubullin.",
     "level": "Sätze"
   },
   {
     "de": "Doppelt so groß.",
-    "lv": "Dwa razy większy.",
+    "lv": "Dy herë më i madh.",
     "level": "Sätze"
   },
   {
     "de": "Von dort.",
-    "lv": "Oradan.",
+    "lv": "Që andej.",
     "level": "Sätze"
   },
   {
     "de": "Die Zeit drängt.",
-    "lv": "Czas ucieka.",
+    "lv": "Koha nuk pret.",
     "level": "Sätze"
   },
   {
     "de": "Ihn drücken Sorgen.",
-    "lv": "Kaygıdan bunalıyor.",
+    "lv": "Atë e rëndojnë hallet.",
     "level": "Sätze"
   },
   {
     "de": "Hast du das Buch durchgearbeitet?",
-    "lv": "Kitabı iyice incelediniz mi?",
+    "lv": "E ke studiuar librin me themel?",
     "level": "Sätze"
   },
   {
     "de": "Kein Durchgang!",
-    "lv": "Geçmeyin! • Çıkış kapalı!",
+    "lv": "Ndalohet kalimi!",
     "level": "Sätze"
   },
   {
     "de": "Darf ich Sie bitten?",
-    "lv": "Sana sorabilir miyim?",
+    "lv": "Mund t'ju ftoj për një valle? • A vini me mua, ju lutem?",
     "level": "Sätze"
   },
   {
     "de": "Ich bin durstig.",
-    "lv": "Jestem spragniony.",
+    "lv": "Kam etje.",
     "level": "Sätze"
   },
   {
     "de": "Eben das meine ich.",
-    "lv": "Demek istediğim bu.",
+    "lv": "Pikërisht këtë dua të them.",
     "level": "Sätze"
   },
   {
     "de": "Es ist ganz egal.",
-    "lv": "Hiç önemli değil.",
+    "lv": "Nuk ka fare rëndësi.",
     "level": "Sätze"
   },
   {
     "de": "Was wollen Sie eigentlich?",
-    "lv": "Çfarë do me të vërtetë?",
+    "lv": "Çfarë doni në të vërtetë?",
     "level": "Sätze"
   },
   {
     "de": "Eilt es mit dieser Sache?",
-    "lv": "Czy ta sprawa jest pilna?",
+    "lv": "Ka ngut kjo punë?",
     "level": "Sätze"
   },
   {
     "de": "Eilt sehr!",
-    "lv": "Bardzo pilne!",
+    "lv": "Shumë urgjente!",
     "level": "Sätze"
   },
   {
     "de": "Ich habe es eilig.",
-    "lv": "Acelem var.",
+    "lv": "Kam ngut.",
     "level": "Sätze"
   },
   {
     "de": "Du bildest dir nur ein, krank zu sein.",
-    "lv": "Sadece hasta olduğunuzu hayal edin.",
+    "lv": "Vetëm të duket se je i sëmurë.",
     "level": "Sätze"
   },
   {
     "de": "Was fällt dir ein?",
-    "lv": "Aklınıza ne geliyor?",
+    "lv": "Si guxon? • Çfarë të shkon ndër mend?",
     "level": "Sätze"
   },
   {
     "de": "Es war einmal.",
-    "lv": "Eskiden öyleydi.",
+    "lv": "Na ishte një herë.",
     "level": "Sätze"
   },
   {
     "de": "Steigen Sie bitte ein!",
-    "lv": "Girin!",
+    "lv": "Hipni, ju lutem!",
     "level": "Sätze"
   },
   {
     "de": "Treten Sie ein!",
-    "lv": "Girin!",
+    "lv": "Urdhëroni brenda!",
     "level": "Sätze"
   },
   {
     "de": "Einzelnes hat mir dort gefallen.",
-    "lv": "Orada birkaç şeyi beğendim.",
+    "lv": "Disa gjëra atje më pëlqyen.",
     "level": "Sätze"
   },
   {
     "de": "Es empfiehlt sich.",
-    "lv": "Jest to zalecane.",
+    "lv": "Këshillohet.",
     "level": "Sätze"
   },
   {
     "de": "Diese Flasche enthält Essig.",
-    "lv": "Ta butelka zawiera ocet.",
+    "lv": "Kjo shishe përmban uthull.",
     "level": "Sätze"
   },
   {
     "de": "Entschuldigen Sie bitte!",
-    "lv": "Özür dilerim, lütfen!",
+    "lv": "Më falni, ju lutem!",
     "level": "Sätze"
   },
   {
     "de": "Entweder... oder...",
-    "lv": "Albo... albo...",
+    "lv": "Ose..., ose...",
     "level": "Sätze"
   },
   {
     "de": "Wer war der Erste?",
-    "lv": "İlk kim oldu?",
+    "lv": "Kush ishte i pari?",
     "level": "Sätze"
   },
   {
     "de": "Wer fehlt heute?",
-    "lv": "Kto dzisiaj nie przyszedł?",
+    "lv": "Kush mungon sot?",
     "level": "Sätze"
   },
   {
     "de": "Was fehlt dir?",
-    "lv": "Senin derdin ne?",
+    "lv": "Çfarë ke?",
     "level": "Sätze"
   },
   {
     "de": "Wie heißen Sie?",
-    "lv": "-Emri juaj?",
+    "lv": "Si quheni?",
     "level": "Sätze"
   },
   {
     "de": "Was soll das heißen?",
-    "lv": "Co to oznacza?",
+    "lv": "Çfarë do të thotë kjo?",
     "level": "Sätze"
   },
   {
     "de": "Bitte treten Sie näher heran!",
-    "lv": "Lütfen yaklaşın!",
+    "lv": "Afrohuni, ju lutem!",
     "level": "Sätze"
   },
   {
     "de": "Heraus mit der Sprache!",
-    "lv": "Konuşmak için! • Hikayeler!",
+    "lv": "Fol hapur! • Trego!",
     "level": "Sätze"
   },
   {
     "de": "im Herbst",
-    "lv": "Sonbaharda",
+    "lv": "në vjeshtë",
     "level": "Sätze"
   },
   {
     "de": "Meine Herrschaften!",
-    "lv": "Panie i panowie!",
+    "lv": "Zonja dhe zotërinj!",
     "level": "Sätze"
   },
   {
     "de": "von heute an",
-    "lv": "Bugün başlıyor",
+    "lv": "nga sot e tutje",
     "level": "Sätze"
   },
   {
     "de": "heute früh",
-    "lv": "Bu sabah",
+    "lv": "sot në mëngjes",
     "level": "Sätze"
   },
   {
     "de": "heute Nacht",
-    "lv": "Dün gece",
+    "lv": "sonte • mbrëmë",
     "level": "Sätze"
   },
   {
     "de": "Zu Hilfe!",
-    "lv": "Pomoc!",
+    "lv": "Ndihmë!",
     "level": "Sätze"
   },
   {
     "de": "Ich lerne jeden Tag Deutsch.",
-    "lv": "Her gün Almanca öğreniyorum.",
+    "lv": "Mësoj gjermanisht çdo ditë.",
     "level": "Sätze"
   },
   {
     "de": "Kannst du das bitte wiederholen?",
-    "lv": "Bunu tekrarlayabilir misin?",
+    "lv": "Mund ta përsëritësh, të lutem?",
     "level": "Sätze"
   },
   {
     "de": "Wir treffen uns am Bahnhof.",
-    "lv": "Spotykamy się na stacji kolejowej.",
+    "lv": "Takohemi te stacioni i trenit.",
     "level": "Sätze"
   },
   {
     "de": "Ich stimme dir teilweise zu.",
-    "lv": "Sana kısmen katılıyorum.",
+    "lv": "Pjesërisht pajtohem me ty.",
     "level": "Sätze"
   },
   {
     "de": "Diese Entscheidung hat weitreichende Folgen.",
-    "lv": "Bu kararın geniş kapsamlı sonuçları var.",
+    "lv": "Ky vendim ka pasoja të gjera.",
     "level": "Sätze"
   },
   {
     "de": "Man sollte mehrere Perspektiven berücksichtigen.",
-    "lv": "Należy rozważyć kilka perspektyw.",
+    "lv": "Duhet të merren parasysh disa këndvështrime.",
     "level": "Sätze"
   },
   {
     "de": "Könnten Sie das näher erläutern?",
-    "lv": "Bunu daha detaylı açıklayabilir misiniz?",
+    "lv": "A mund ta shpjegoni më hollësisht?",
     "level": "Sätze"
   },
   {
     "de": "Was mich anbelangt,...",
-    "lv": "Bana gelince...",
+    "lv": "Sa për mua,...",
     "level": "Sätze"
   },
   {
     "de": "Wie alt sind Sie?",
-    "lv": "Ile masz lat?",
+    "lv": "Sa vjeç jeni?",
     "level": "Sätze"
   },
   {
     "de": "Ich bin zwanzig Jahre alt.",
-    "lv": "Yirmi yaşındayım.",
+    "lv": "Jam njëzet vjeç.",
     "level": "Sätze"
   },
   {
     "de": "Von heute an.",
-    "lv": "Od dzisiaj.",
+    "lv": "Që nga sot.",
     "level": "Sätze"
   },
   {
     "de": "Von jetzt an.",
-    "lv": "Odtąd.",
+    "lv": "Që tani e tutje.",
     "level": "Sätze"
   },
   {
     "de": "Anders geht es nicht.",
-    "lv": "Nie ma innego sposobu.",
+    "lv": "Ndryshe nuk bëhet.",
     "level": "Sätze"
   },
   {
     "de": "Rufen Sie mich an.",
-    "lv": "Ara beni.",
+    "lv": "Më telefononi.",
     "level": "Sätze"
   },
   {
     "de": "Bitte stellen Sie das Radio ab.",
-    "lv": "Lütfen radyoyu kapatın.",
+    "lv": "Ju lutem, fikeni radion.",
     "level": "Sätze"
   },
   {
     "de": "Achte bitte auf den Verkehr.",
-    "lv": "Lütfen trafiğe dikkat edelim.",
+    "lv": "Ki kujdes në trafik, të lutem.",
     "level": "Sätze"
   },
   {
     "de": "Darauf musst du achten.",
-    "lv": "Buna dikkat etmelisiniz.",
+    "lv": "Për këtë duhet të kesh kujdes.",
     "level": "Sätze"
   },
   {
     "de": "Heute mache ich es anders.",
-    "lv": "Dziś zrobię to inaczej.",
+    "lv": "Sot do ta bëj ndryshe.",
     "level": "Sätze"
   },
   {
     "de": "Wir warten auf den Bus.",
-    "lv": "Czekamy na autobus.",
+    "lv": "Po presim autobusin.",
     "level": "Sätze"
   },
   {
     "de": "Er wohnt allein.",
-    "lv": "Mieszka sam.",
+    "lv": "Ai jeton vetëm.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe die Ausbildung absolviert.",
-    "lv": "Eğitimimi tamamladım. • Eğitimimi tamamladım.",
+    "lv": "Kam përfunduar formimin profesional. • Kam mbaruar shkollimin.",
     "level": "Sätze"
   },
   {
     "de": "Ich warte den Regen ab.",
-    "lv": "Yağmur durana kadar bekleyeceğim.",
+    "lv": "Pres sa të pushojë shiu.",
     "level": "Sätze"
   },
   {
     "de": "Er arbeitet in der Verkaufsabteilung.",
-    "lv": "Satış departmanında çalışıyor.",
+    "lv": "Ai punon në sektorin e shitjeve.",
     "level": "Sätze"
   },
   {
     "de": "Ich bin allergisch gegen Katzen.",
-    "lv": "Kedilere alerjim var.",
+    "lv": "Jam alergjik ndaj maceve.",
     "level": "Sätze"
   },
   {
     "de": "Andererseits verstehe ich ihn.",
-    "lv": "Z drugiej strony rozumiem go.",
+    "lv": "Nga ana tjetër, e kuptoj.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe die Situation analysiert.",
-    "lv": "Durumu analiz ettim.",
+    "lv": "E kam analizuar situatën.",
     "level": "Sätze"
   },
   {
     "de": "Sie hat meinen Vorschlag akzeptiert.",
-    "lv": "Teklifimi kabul etti.",
+    "lv": "Ajo e pranoi propozimin tim.",
     "level": "Sätze"
   },
   {
     "de": "Ich möchte das genauer analysieren.",
-    "lv": "Bunu daha detaylı analiz etmek istiyorum.",
+    "lv": "Do të doja ta analizoja këtë më hollësisht.",
     "level": "Sätze"
   },
   {
     "de": "Ich möchte den Vertrag ändern.",
-    "lv": "Sözleşmeyi değiştirmek istiyorum.",
+    "lv": "Do të doja ta ndryshoja kontratën.",
     "level": "Sätze"
   },
   {
     "de": "Er ändert ständig seine Meinung.",
-    "lv": "Fikrini değiştirmeye devam ediyor.",
+    "lv": "Ai ndërron vazhdimisht mendim.",
     "level": "Sätze"
   },
   {
     "de": "Ähnliche Probleme hatten wir schon früher.",
-    "lv": "Daha önce de benzer sorunlar yaşadık.",
+    "lv": "Probleme të ngjashme kemi pasur edhe më parë.",
     "level": "Sätze"
   },
   {
     "de": "Keine Ahnung!",
-    "lv": "Hiçbir fikrim yok!",
+    "lv": "S'e kam idenë!",
     "level": "Sätze"
   },
   {
     "de": "Hör auf zu jammern.",
-    "lv": "Şikayet etmeyi bırak.",
+    "lv": "Mos u anko më.",
     "level": "Sätze"
   },
   {
     "de": "Dieses Kleid ist akademisch gekleidet.",
-    "lv": "Ta sukienka jest stylowo konserwatywna.",
+    "lv": "Ky fustan ka një stil elegant e të përmbajtur.",
     "level": "Sätze"
   },
   {
     "de": "Ich höre gerne Akkordeonmusik.",
-    "lv": "Akordeon müziği dinlemeyi seviyorum.",
+    "lv": "Më pëlqen të dëgjoj muzikë me fizarmonikë.",
     "level": "Sätze"
   },
   {
     "de": "Kannst du das Gerät anklicken?",
-    "lv": "Cihaza tıklayabilir misiniz?",
+    "lv": "Mund të klikosh mbi pajisjen?",
     "level": "Sätze"
   },
   {
     "de": "Bitte öffne die Datei und klicke darauf.",
-    "lv": "Lütfen dosyayı açın ve üzerine tıklayın.",
+    "lv": "Të lutem, hape skedarin dhe kliko mbi të.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe einen Unfall gehabt.",
-    "lv": "Bir kaza geçirdim.",
+    "lv": "Kam pësuar një aksident.",
     "level": "Sätze"
   },
   {
     "de": "Wir laufen zum Bahnhof.",
-    "lv": "İstasyona gidiyoruz.",
+    "lv": "Po shkojmë në këmbë te stacioni.",
     "level": "Sätze"
   },
   {
     "de": "Bitte schalte den Fernseher an.",
-    "lv": "Lütfen televizyonu açın.",
+    "lv": "Të lutem, ndize televizorin.",
     "level": "Sätze"
   },
   {
     "de": "Mein Computer ist abgestürzt.",
-    "lv": "Bilgisayarım çöktü.",
+    "lv": "Kompjuteri më është bllokuar.",
     "level": "Sätze"
   },
   {
     "de": "Am Wochenende gehe ich angeln.",
-    "lv": "Bu hafta sonu balığa gideceğim.",
+    "lv": "Në fundjavë shkoj për peshk.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe den Anruf verpasst.",
-    "lv": "Aramayı kaçırdım.",
+    "lv": "Më shpëtoi telefonata.",
     "level": "Sätze"
   },
   {
     "de": "Kannst du mich später anrufen?",
-    "lv": "Beni daha sonra arayabilir misin?",
+    "lv": "Mund të më telefonosh më vonë?",
     "level": "Sätze"
   },
   {
     "de": "Bitte nimm meinen Vorschlag an.",
-    "lv": "Lütfen teklifimi kabul edin.",
+    "lv": "Të lutem, pranoje propozimin tim.",
     "level": "Sätze"
   },
   {
     "de": "Ich nehme dein Angebot an.",
-    "lv": "Przyjmuję twoją ofertę.",
+    "lv": "E pranoj ofertën tënde.",
     "level": "Sätze"
   },
   {
     "de": "Er nahm die Einladung an.",
-    "lv": "Daveti kabul etti.",
+    "lv": "Ai e pranoi ftesën.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe Angst vor Spinnen.",
-    "lv": "Örümceklerden korkuyorum.",
+    "lv": "Kam frikë nga merimangat.",
     "level": "Sätze"
   },
   {
     "de": "Keine Angst, alles wird gut.",
-    "lv": "Korkmayın, her şey yoluna girecek.",
+    "lv": "Mos ki frikë, gjithçka do të shkojë mirë.",
     "level": "Sätze"
   },
   {
     "de": "Anklang finden.",
-    "lv": "Yankıyı bulun. • Duyarlılığı bulun",
+    "lv": "Të gjesh pëlqim. • Të gjesh jehonë.",
     "level": "Sätze"
   },
   {
     "de": "Es kommt darauf an.",
-    "lv": "Duruma göre değişir.",
+    "lv": "Varet.",
     "level": "Sätze"
   },
   {
     "de": "Aus diesem Anlass.",
-    "lv": "Z powodu tego czasu. • W tym zakresie",
+    "lv": "Me këtë rast.",
     "level": "Sätze"
   },
   {
     "de": "Nehmen wir an, dass...",
-    "lv": "Diyelim ki...",
+    "lv": "Le të supozojmë se...",
     "level": "Sätze"
   },
   {
     "de": "Was hast du da angerichtet?",
-    "lv": "Orada ne yaptın?",
+    "lv": "Çfarë rrëmuje ke bërë aty?",
     "level": "Sätze"
   },
   {
     "de": "Bis ans Ende.",
-    "lv": "Sonuna kadar.",
+    "lv": "Deri në fund.",
     "level": "Sätze"
   },
   {
     "de": "Du glaubst mir anscheinend nicht.",
-    "lv": "Görünüşe göre bana inanmıyorsun.",
+    "lv": "Me sa duket, nuk më beson.",
     "level": "Sätze"
   },
   {
     "de": "Meiner Ansicht nach...",
-    "lv": "Moim zdaniem...",
+    "lv": "Për mendimin tim...",
     "level": "Sätze"
   },
   {
     "de": "Stell dich nicht so an!",
-    "lv": "Nie udawaj!",
+    "lv": "Mos bëj kaq naze!",
     "level": "Sätze"
   },
   {
     "de": "An die Arbeit gehen.",
-    "lv": "İşe koyulun.",
+    "lv": "T'i hysh punës.",
     "level": "Sätze"
   },
   {
     "de": "Außer Atem sein.",
-    "lv": "Nefes nefese.",
+    "lv": "Të jesh pa frymë.",
     "level": "Sätze"
   },
   {
     "de": "Guten Appetit!",
-    "lv": "Oreks i mirë!",
+    "lv": "Ju bëftë mirë!",
     "level": "Sätze"
   },
   {
     "de": "In einem Atemzug.",
-    "lv": "Jednym tchem.",
+    "lv": "Me një frymë.",
     "level": "Sätze"
   },
   {
     "de": "Auf jeden Fall.",
-    "lv": "Her halükârda.",
+    "lv": "Në çdo rast. • Patjetër.",
     "level": "Sätze"
   },
   {
     "de": "Auf einmal war alles still.",
-    "lv": "Nagle wszystko ucichło.",
+    "lv": "Papritur gjithçka heshti.",
     "level": "Sätze"
   },
   {
     "de": "Bitte mach die Tür auf!",
-    "lv": "Lütfen kapıyı açın!",
+    "lv": "Hape derën, të lutem!",
     "level": "Sätze"
   },
   {
     "de": "Er hat den Kredit aufgenommen.",
-    "lv": "Kredi çekti.",
+    "lv": "Ai mori kredinë.",
     "level": "Sätze"
   },
   {
     "de": "Wir müssen heute aufräumen.",
-    "lv": "Bugün odayı temizlememiz gerekiyor.",
+    "lv": "Sot duhet të vëmë rregull.",
     "level": "Sätze"
   },
   {
     "de": "Ich höre jetzt auf.",
-    "lv": "Şimdi duracağım.",
+    "lv": "Tani po ndaloj.",
     "level": "Sätze"
   },
   {
     "de": "Er ist schon auf.",
-    "lv": "O zaten kalktı.",
+    "lv": "Ai është ngritur tashmë.",
     "level": "Sätze"
   },
   {
     "de": "Wir müssen das Treffen verschieben.",
-    "lv": "Yeniden planlamamız gerekiyor.",
+    "lv": "Duhet ta shtyjmë takimin.",
     "level": "Sätze"
   },
   {
     "de": "Sie hat mich aufgeregt.",
-    "lv": "Zdenerwowała mnie.",
+    "lv": "Ajo më nervozoi.",
     "level": "Sätze"
   },
   {
     "de": "Auf einmal.",
-    "lv": "Nagle.",
+    "lv": "Befas.",
     "level": "Sätze"
   },
   {
     "de": "Auf der Stelle.",
-    "lv": "Natychmiast.",
+    "lv": "Aty për aty.",
     "level": "Sätze"
   },
   {
     "de": "Für den Schaden aufkommen.",
-    "lv": "Pokryj szkody.",
+    "lv": "Të paguash dëmin.",
     "level": "Sätze"
   },
   {
     "de": "Bitte die Tür auf!",
-    "lv": "Kapıyı açın lütfen!",
+    "lv": "Hapeni derën, ju lutem!",
     "level": "Sätze"
   },
   {
     "de": "Aufrecht sitzen.",
-    "lv": "Usiądź prosto.",
+    "lv": "Të rrish drejt.",
     "level": "Sätze"
   },
   {
     "de": "Er ist auf.",
-    "lv": "Ayağa kalktı.",
+    "lv": "Ai është ngritur.",
     "level": "Sätze"
   },
   {
     "de": "Alle Kräfte aufwenden.",
-    "lv": "Tüm gücünüzü feda edin.",
+    "lv": "Të japësh të gjitha forcat.",
     "level": "Sätze"
   },
   {
     "de": "Viel Mühe aufwenden.",
-    "lv": "Çok dene.",
+    "lv": "Të mundohesh shumë.",
     "level": "Sätze"
   },
   {
     "de": "Geh mir aus den Augen!",
-    "lv": "Nie patrz już na mnie!",
+    "lv": "Zhduku nga sytë e mi!",
     "level": "Sätze"
   },
   {
     "de": "Unter vier Augen.",
-    "lv": "W dwóch. • Cicho",
+    "lv": "Kokë më kokë.",
     "level": "Sätze"
   },
   {
     "de": "Aus Mangel an Zeit.",
-    "lv": "Z powodu braku czasu.",
+    "lv": "Për mungesë kohe.",
     "level": "Sätze"
   },
   {
     "de": "Aus diesem Grunde.",
-    "lv": "Z tego powodu.",
+    "lv": "Për këtë arsye.",
     "level": "Sätze"
   },
   {
     "de": "Alle außer dir.",
-    "lv": "Sen hariç herkes.",
+    "lv": "Të gjithë përveç teje.",
     "level": "Sätze"
   },
   {
     "de": "Auf Äußerlichkeiten Wert legen.",
-    "lv": "Görünüme dikkat edin.",
+    "lv": "T'i japësh rëndësi pamjes së jashtme.",
     "level": "Sätze"
   },
   {
     "de": "Im äußersten Fall.",
-    "lv": "W najgorszym przypadku.",
+    "lv": "Në rastin më të keq.",
     "level": "Sätze"
   },
   {
     "de": "Äußerst wichtig.",
-    "lv": "Son derece önemli.",
+    "lv": "Jashtëzakonisht i rëndësishëm.",
     "level": "Sätze"
   },
   {
     "de": "Aussicht auf die See.",
-    "lv": "Widok na morze.",
+    "lv": "Pamje nga deti.",
     "level": "Sätze"
   },
   {
     "de": "Er hat gute Aussichten.",
-    "lv": "İyi bir şansı var.",
+    "lv": "Ai ka shanse të mira.",
     "level": "Sätze"
   },
   {
     "de": "Wie wird dieses Wort ausgesprochen?",
-    "lv": "Bu kelimeyi nasıl telaffuz edersiniz?",
+    "lv": "Si shqiptohet kjo fjalë?",
     "level": "Sätze"
   },
   {
     "de": "Sein Beileid aussprechen.",
-    "lv": "Başsağlığı dileklerinizi iletin.",
+    "lv": "Të shprehësh ngushëllimet e tua.",
     "level": "Sätze"
   },
   {
     "de": "Wann wurden die Meisterschaftskämpfe ausgetragen?",
-    "lv": "Şampiyona ne zamandı?",
+    "lv": "Kur u zhvilluan kampionatet?",
     "level": "Sätze"
   },
   {
     "de": "Welchen Beruf üben Sie aus?",
-    "lv": "Mesleğiniz nedir?",
+    "lv": "Çfarë profesioni ushtroni?",
     "level": "Sätze"
   },
   {
     "de": "Einfluss ausüben.",
-    "lv": "Etkilemek.",
+    "lv": "Të ushtrosh ndikim.",
     "level": "Sätze"
   },
   {
     "de": "Auswärts essen.",
-    "lv": "Zjedz poza domem.",
+    "lv": "Të hash jashtë.",
     "level": "Sätze"
   },
   {
     "de": "Per Bahn.",
-    "lv": "Demiryolu ile.",
+    "lv": "Me hekurudhë.",
     "level": "Sätze"
   },
   {
     "de": "Mit der Bahn.",
-    "lv": "Demiryolu ile.",
+    "lv": "Me tren.",
     "level": "Sätze"
   },
   {
     "de": "Möglichst bald.",
-    "lv": "Jak najszybciej.",
+    "lv": "Sa më parë.",
     "level": "Sätze"
   },
   {
     "de": "Mir ist Angst und bange.",
-    "lv": "Bardzo się boję.",
+    "lv": "Kam një frikë të tmerrshme.",
     "level": "Sätze"
   },
   {
     "de": "Auf die lange Bank schieben.",
-    "lv": "Ertele. • Uzunluğa sürükleyin • Süresiz olarak erteleyin",
+    "lv": "Ta shtysh për më vonë. • Ta zvarrisësh.",
     "level": "Sätze"
   },
   {
     "de": "Bar zahlen.",
-    "lv": "Nakit ödeme yapın.",
+    "lv": "Të paguash me para në dorë.",
     "level": "Sätze"
   },
   {
     "de": "Erz bauen.",
-    "lv": "Cevheri alın.",
+    "lv": "Të nxjerrësh xeheror.",
     "level": "Sätze"
   },
   {
     "de": "Mist bauen.",
-    "lv": "Film çekmek. • Kendini aptal durumuna düşürme",
+    "lv": "Të bësh marrëzira.",
     "level": "Sätze"
   },
   {
     "de": "Ich bin beauftragt.",
-    "lv": "Bana bir görev verildi.",
+    "lv": "Më kanë ngarkuar me këtë detyrë.",
     "level": "Sätze"
   },
   {
     "de": "Nach Bedarf.",
-    "lv": "W razie potrzeby.",
+    "lv": "Sipas nevojës.",
     "level": "Sätze"
   },
   {
     "de": "Ich bedauere ihn.",
-    "lv": "Żal mi go.",
+    "lv": "Më vjen keq për të.",
     "level": "Sätze"
   },
   {
@@ -781,3202 +781,3202 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Unter der Bedingung, dass...",
-    "lv": "Şartıyla...",
+    "lv": "Me kusht që...",
     "level": "Sätze"
   },
   {
     "de": "Sie sieht bedrückt aus.",
-    "lv": "Depresyonda görünüyor.",
+    "lv": "Ajo duket e brengosur.",
     "level": "Sätze"
   },
   {
     "de": "Hinweise befolgen.",
-    "lv": "Talimatları izleyin.",
+    "lv": "Të ndjekësh udhëzimet.",
     "level": "Sätze"
   },
   {
     "de": "Befehle befolgen.",
-    "lv": "Wykonuj polecenia.",
+    "lv": "Të zbatosh urdhrat.",
     "level": "Sätze"
   },
   {
     "de": "Mit der Post befördern.",
-    "lv": "Postayla gönder.",
+    "lv": "Të dërgosh me postë.",
     "level": "Sätze"
   },
   {
     "de": "Ich bin begierig zu wissen.",
-    "lv": "Naprawdę chcę wiedzieć.",
+    "lv": "Mezi pres ta di.",
     "level": "Sätze"
   },
   {
     "de": "Zu Beginn.",
-    "lv": "Başlangıçta.",
+    "lv": "Në fillim.",
     "level": "Sätze"
   },
   {
     "de": "Am Beginn.",
-    "lv": "Başlangıçta.",
+    "lv": "Fillimisht.",
     "level": "Sätze"
   },
   {
     "de": "Bei Beginn.",
-    "lv": "Startowy",
+    "lv": "Me të filluar.",
     "level": "Sätze"
   },
   {
     "de": "In Begleitung.",
-    "lv": "Towarzyszy.",
+    "lv": "Me shoqërues.",
     "level": "Sätze"
   },
   {
     "de": "Mit seiner Begleitung.",
-    "lv": "Z akompaniamentem.",
+    "lv": "Me shoqëruesin e tij.",
     "level": "Sätze"
   },
   {
     "de": "Er ist schwer von Begriff.",
-    "lv": "Algılamada yavaştır. • Yavaş düşünüyor",
+    "lv": "Ai e kap me vështirësi. • Ai mendon ngadalë.",
     "level": "Sätze"
   },
   {
     "de": "Im Gedächtnis behalten.",
-    "lv": "Hatırlamak. • Aklınızda bulundurun",
+    "lv": "Ta mbash mend. • Ta ruash në kujtesë.",
     "level": "Sätze"
   },
   {
     "de": "Bei Tisch.",
-    "lv": "Przy stole.",
+    "lv": "Në tryezë.",
     "level": "Sätze"
   },
   {
     "de": "Bei Sinnen sein.",
-    "lv": "Makul ol.",
+    "lv": "Të jesh në vete.",
     "level": "Sätze"
   },
   {
     "de": "Bei Tage.",
-    "lv": "Gün boyunca.",
+    "lv": "Gjatë ditës.",
     "level": "Sätze"
   },
   {
     "de": "Bei weitem nicht so.",
-    "lv": "Hiç de bile.",
+    "lv": "As për së afërmi kaq.",
     "level": "Sätze"
   },
   {
     "de": "Alle beide.",
-    "lv": "Obydwa dwa.",
+    "lv": "Që të dy.",
     "level": "Sätze"
   },
   {
     "de": "Stürmischer Beifall brach los.",
-    "lv": "Şiddetli alkışlar vardı.",
+    "lv": "Shpërthyen duartrokitje të stuhishme.",
     "level": "Sätze"
   },
   {
     "de": "Beifall finden.",
-    "lv": "Uzyskaj zgodę.",
+    "lv": "Të gjesh miratim.",
     "level": "Sätze"
   },
   {
     "de": "Beileid aussprechen.",
-    "lv": "Başsağlığı dileklerinizi iletin.",
+    "lv": "Të shprehësh ngushëllime.",
     "level": "Sätze"
   },
   {
     "de": "Auf eigenen Beinen stehen.",
-    "lv": "Mali açıdan bağımsız olun.",
+    "lv": "Të qëndrosh mbi këmbët e tua.",
     "level": "Sätze"
   },
   {
     "de": "Zum Beispiel.",
-    "lv": "Örneğin.",
+    "lv": "Për shembull.",
     "level": "Sätze"
   },
   {
     "de": "Beistand leisten.",
-    "lv": "Yardım etmek için. • Yardım sağlayın",
+    "lv": "Të ndihmosh. • Të japësh ndihmë.",
     "level": "Sätze"
   },
   {
     "de": "Beitrag leisten.",
-    "lv": "Payınıza yatırım yapın.",
+    "lv": "Të japësh kontributin tënd.",
     "level": "Sätze"
   },
   {
     "de": "Jemandes Bekanntschaft machen.",
-    "lv": "Birisiyle tanışın.",
+    "lv": "Të njihesh me dikë.",
     "level": "Sätze"
   },
   {
     "de": "Bekanntschaft anknüpfen.",
-    "lv": "Poznajcie się. • Nawiąż kontakt",
+    "lv": "Të lidhësh njohje. • Të krijosh një kontakt.",
     "level": "Sätze"
   },
   {
     "de": "Belegte Brötchen.",
-    "lv": "Kanapki z dodatkami.",
+    "lv": "Simite të mbushura.",
     "level": "Sätze"
   },
   {
     "de": "Nach Ihrem Belieben.",
-    "lv": "Jak chcesz.",
+    "lv": "Sipas dëshirës suaj.",
     "level": "Sätze"
   },
   {
     "de": "Zu jeder beliebigen Zeit.",
-    "lv": "Kiedykolwiek.",
+    "lv": "Në çdo kohë.",
     "level": "Sätze"
   },
   {
     "de": "Schweigen beobachten.",
-    "lv": "Sessiz kalmak için.",
+    "lv": "Të ruash heshtjen.",
     "level": "Sätze"
   },
   {
     "de": "Zur Bequemlichkeit.",
-    "lv": "Dla wygody.",
+    "lv": "Për lehtësi.",
     "level": "Sätze"
   },
   {
     "de": "Bereit sein.",
-    "lv": "Hazır olun. • Sakin olun",
+    "lv": "Të jesh gati. • Të jesh i gatshëm.",
     "level": "Sätze"
   },
   {
     "de": "Unfallopfer bergen.",
-    "lv": "Ratuj ofiary w razie wypadku.",
+    "lv": "Të shpëtosh viktimat e aksidentit.",
     "level": "Sätze"
   },
   {
     "de": "Bericht erstatten.",
-    "lv": "Rapor. • Bir rapor sunun • Bir genel bakış sunun",
+    "lv": "Të raportosh. • Të japësh raport.",
     "level": "Sätze"
   },
   {
     "de": "Alle Plätze sind besetzt.",
-    "lv": "Tüm koltuklar dolu.",
+    "lv": "Të gjitha vendet janë të zëna.",
     "level": "Sätze"
   },
   {
     "de": "Neue Besen kehren gut.",
-    "lv": "Yeni süpürge iyi süpürüyor.",
+    "lv": "Fshesa e re fshin mirë.",
     "level": "Sätze"
   },
   {
     "de": "Er besitzt ein Haus.",
-    "lv": "Evin sahibi.",
+    "lv": "Ai zotëron një shtëpi.",
     "level": "Sätze"
   },
   {
     "de": "Er besitzt viel Mut.",
-    "lv": "Büyük bir cesareti var.",
+    "lv": "Ai ka shumë guxim.",
     "level": "Sätze"
   },
   {
     "de": "Desto besser.",
-    "lv": "Im lepiej.",
+    "lv": "Aq më mirë.",
     "level": "Sätze"
   },
   {
     "de": "Gute Besserung!",
-    "lv": "İyileşmek! • İyileşmek!",
+    "lv": "Shërim të shpejtë!",
     "level": "Sätze"
   },
   {
     "de": "Beim besten Willen.",
-    "lv": "Cokolwiek chcesz.",
+    "lv": "Me gjithë vullnetin e mirë.",
     "level": "Sätze"
   },
   {
     "de": "Am besten.",
-    "lv": "Najlepsze.",
+    "lv": "Më së miri.",
     "level": "Sätze"
   },
   {
     "de": "Es besteht Zweifel.",
-    "lv": "Şüpheler var.",
+    "lv": "Ka dyshime.",
     "level": "Sätze"
   },
   {
     "de": "Seine Aufgabe besteht darin...",
-    "lv": "Jego zadaniem jest...",
+    "lv": "Detyra e tij qëndron në...",
     "level": "Sätze"
   },
   {
     "de": "Grüße bestellen.",
-    "lv": "Merhaba de.",
+    "lv": "Të përcjellësh të fala.",
     "level": "Sätze"
   },
   {
     "de": "Ganz bestimmt.",
-    "lv": "Kesinlikle. • Tamamen güvenli",
+    "lv": "Patjetër. • Pa asnjë dyshim.",
     "level": "Sätze"
   },
   {
     "de": "Zu Besuch kommen.",
-    "lv": "Ziyarete gelin.",
+    "lv": "Të vish për vizitë.",
     "level": "Sätze"
   },
   {
     "de": "Zu Besuch sein.",
-    "lv": "Ziyaret etmek. • Ziyaret etmek",
+    "lv": "Të jesh për vizitë. • Të jesh mik te dikush.",
     "level": "Sätze"
   },
   {
     "de": "Oft Konzerte besuchen.",
-    "lv": "Sık sık konserlere giderler.",
+    "lv": "Të shkosh shpesh në koncerte.",
     "level": "Sätze"
   },
   {
     "de": "Welche Schule hat er besucht?",
-    "lv": "Hangi okula gitti?",
+    "lv": "Në cilën shkollë ka mësuar?",
     "level": "Sätze"
   },
   {
     "de": "In Betracht ziehen.",
-    "lv": "Dikkate alın. • Göz önünde bulundurulması",
+    "lv": "Të marrësh parasysh. • Të shqyrtosh.",
     "level": "Sätze"
   },
   {
     "de": "Außer Betracht lassen.",
-    "lv": "Dikkate almayın. • Tereddüt etmeyin",
+    "lv": "Të mos marrësh parasysh.",
     "level": "Sätze"
   },
   {
     "de": "Er betreibt ein Hotel.",
-    "lv": "Prowadzi hotel.",
+    "lv": "Ai drejton një hotel.",
     "level": "Sätze"
   },
   {
     "de": "Alle beiden.",
-    "lv": "Obydwa dwa.",
+    "lv": "Të dy.",
     "level": "Sätze"
   },
   {
     "de": "Alles bezahlen.",
-    "lv": "Her şeyi öde.",
+    "lv": "Të paguash gjithçka.",
     "level": "Sätze"
   },
   {
     "de": "Bezüglich auf etwas.",
-    "lv": "Eğer bir şeye gelirse.",
+    "lv": "Në lidhje me diçka.",
     "level": "Sätze"
   },
   {
     "de": "Bitte schön.",
-    "lv": ".:. Ju lutem ...",
+    "lv": "S'ka përse. • Urdhëro.",
     "level": "Sätze"
   },
   {
     "de": "Wie bitte?",
-    "lv": "Lütfen",
+    "lv": "Si?",
     "level": "Sätze"
   },
   {
     "de": "Bitte sehr.",
-    "lv": ".:. Ju lutem ...",
+    "lv": "S'ka fare përse. • Urdhëroni.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe eine Bitte an Sie.",
-    "lv": "Senden bir isteğim var.",
+    "lv": "Kam një lutje për ju.",
     "level": "Sätze"
   },
   {
     "de": "Trompete blasen.",
-    "lv": "Trompet çal.",
+    "lv": "T'i biesh trumbetës.",
     "level": "Sätze"
   },
   {
     "de": "In einem Buch blättern.",
-    "lv": "Kitabı sırala.",
+    "lv": "Të shfletosh një libër.",
     "level": "Sätze"
   },
   {
     "de": "Mit bloßen Füßen.",
-    "lv": "Bose stopy.",
+    "lv": "Me këmbë të zbathura.",
     "level": "Sätze"
   },
   {
     "de": "Mit bloßem Auge.",
-    "lv": "Çıplak gözle.",
+    "lv": "Me sy të lirë.",
     "level": "Sätze"
   },
   {
     "de": "Danke für die Blumen!",
-    "lv": "Çiçekler için teşekkür ederim!",
+    "lv": "Faleminderit për komplimentin!",
     "level": "Sätze"
   },
   {
     "de": "Alles in Butter.",
-    "lv": "Gjithcka eshte ne rregull.",
+    "lv": "Gjithçka shkon vaj.",
     "level": "Sätze"
   },
   {
     "de": "Bitte checken.",
-    "lv": "Kontrol etmek. • Kontrol etmek",
+    "lv": "Ju lutemi të kontrolloni.",
     "level": "Sätze"
   },
   {
     "de": "Da ist er!",
-    "lv": "Oto on!",
+    "lv": "Ja ku është!",
     "level": "Sätze"
   },
   {
     "de": "Alles spricht dafür.",
-    "lv": "Her şey iyi diyor.",
+    "lv": "Gjithçka tregon se është kështu.",
     "level": "Sätze"
   },
   {
     "de": "Ich kann nichts dafür.",
-    "lv": "Orada hiçbir şey yapamam.",
+    "lv": "Nuk është faji im.",
     "level": "Sätze"
   },
   {
     "de": "Ich bin dagegen.",
-    "lv": "Jestem temu przeciwny.",
+    "lv": "Jam kundër.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe nichts dagegen.",
-    "lv": "Nie mam co do tego żadnych zastrzeżeń.",
+    "lv": "Nuk kam asgjë kundër.",
     "level": "Sätze"
   },
   {
     "de": "Von daheim.",
-    "lv": "Z domu.",
+    "lv": "Nga shtëpia.",
     "level": "Sätze"
   },
   {
     "de": "Mit der Dame ziehen.",
-    "lv": "Wykonaj damski ruch.",
+    "lv": "Të lëvizësh mbretëreshën.",
     "level": "Sätze"
   },
   {
     "de": "Es dämmert.",
-    "lv": "Hava kararıyor. • Şafak söküyor.",
+    "lv": "Po bie muzgu. • Po agon.",
     "level": "Sätze"
   },
   {
     "de": "Danke schön!",
-    "lv": "Teşekkür ederim! • Teşekkür ederim!",
+    "lv": "Faleminderit shumë!",
     "level": "Sätze"
   },
   {
     "de": "Dann und wann.",
-    "lv": "Od czasu do czasu.",
+    "lv": "Herë pas here.",
     "level": "Sätze"
   },
   {
     "de": "Darauf kannst du dich verlassen.",
-    "lv": "Buna güvenebilirsin.",
+    "lv": "Mund të mbështetesh në këtë.",
     "level": "Sätze"
   },
   {
     "de": "Daraus wird nichts.",
-    "lv": "Bundan hiçbir şey çıkmayacak.",
+    "lv": "Nga kjo nuk do të dalë asgjë.",
     "level": "Sätze"
   },
   {
     "de": "So dass...",
-    "lv": "Aby...",
+    "lv": "Kështu që...",
     "level": "Sätze"
   },
   {
     "de": "Für wen halten Sie mich?",
-    "lv": "Jak myślisz, czym jestem?",
+    "lv": "Për kë më merrni?",
     "level": "Sätze"
   },
   {
     "de": "Hände weg!",
-    "lv": "Ellerinizi çekin!",
+    "lv": "Hiqi duart!",
     "level": "Sätze"
   },
   {
     "de": "Lass den Kopf nicht hängen!",
-    "lv": "Başını aşağıda tut!",
+    "lv": "Mos e ul kokën!",
     "level": "Sätze"
   },
   {
     "de": "zu Hause",
-    "lv": "-Ne shtepi.",
+    "lv": "në shtëpi",
     "level": "Sätze"
   },
   {
     "de": "nach Hause gehen",
-    "lv": "Eve git",
+    "lv": "të shkosh në shtëpi",
     "level": "Sätze"
   },
   {
     "de": "von Haus aus",
-    "lv": "Çocukluktan itibaren • En başından beri",
+    "lv": "nga prejardhja • prej natyre",
     "level": "Sätze"
   },
   {
     "de": "Meinen herzlichsten Glückwunsch!",
-    "lv": "Gratulacje!",
+    "lv": "Urimet e mia më të përzemërta!",
     "level": "Sätze"
   },
   {
     "de": "Seien Sie so gut!",
-    "lv": "Çok nazik ol! • Çok iyi ol!",
+    "lv": "Jini kaq i mirë!",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie die Güte!",
-    "lv": "Çok nazik ol!",
+    "lv": "Kini mirësinë!",
     "level": "Sätze"
   },
   {
     "de": "Was hast du?",
-    "lv": "Senin derdin ne? • Ne oldu?",
+    "lv": "Çfarë ke?",
     "level": "Sätze"
   },
   {
     "de": "Gestatten Sie bitte!",
-    "lv": "İzin ver lütfen!",
+    "lv": "Më lejoni, ju lutem!",
     "level": "Sätze"
   },
   {
     "de": "Ist es gestattet zu rauchen?",
-    "lv": "Sigara içebilir miyim?",
+    "lv": "A lejohet të pihet duhan?",
     "level": "Sätze"
   },
   {
     "de": "Ich muss gestehen, dass...",
-    "lv": "Şunu itiraf etmeliyim ki...",
+    "lv": "Duhet të pranoj se...",
     "level": "Sätze"
   },
   {
     "de": "gestern früh",
-    "lv": "Wczoraj rano",
+    "lv": "dje në mëngjes",
     "level": "Sätze"
   },
   {
     "de": "gestern Abend",
-    "lv": "Dün gece",
+    "lv": "dje në mbrëmje",
     "level": "Sätze"
   },
   {
     "de": "Es ist mir gleichgültig, ob...",
-    "lv": "Nie obchodzi mnie, czy...",
+    "lv": "Për mua është njësoj nëse...",
     "level": "Sätze"
   },
   {
     "de": "Was ist geschehen?",
-    "lv": "!",
+    "lv": "Çfarë ka ndodhur?",
     "level": "Sätze"
   },
   {
     "de": "Mach keine Geschichten!",
-    "lv": "Aptal olma! • Şaka yapmayın!",
+    "lv": "Mos bëj naze! • Mos bëj marrëzira!",
     "level": "Sätze"
   },
   {
     "de": "Geschweige denn...",
-    "lv": "Bahsetmiyorum bile. • Başka yerde",
+    "lv": "Lëre më...",
     "level": "Sätze"
   },
   {
     "de": "Gehen Sie geradeaus!",
-    "lv": "Shkoni drejt!",
+    "lv": "Shkoni drejt përpara!",
     "level": "Sätze"
   },
   {
     "de": "Wie geht es Ihnen?",
-    "lv": "Nasılsın • Nasılsın?",
+    "lv": "Si jeni?",
     "level": "Sätze"
   },
   {
     "de": "Frag ihn gelegentlich, ob...",
-    "lv": "Gidip gitmeyeceğini sor ona...",
+    "lv": "Pyete kur të kesh rast nëse...",
     "level": "Sätze"
   },
   {
     "de": "morgen früh",
-    "lv": "Jutro rano",
+    "lv": "nesër në mëngjes",
     "level": "Sätze"
   },
   {
     "de": "im Frühling",
-    "lv": "Na wiosnę",
+    "lv": "në pranverë",
     "level": "Sätze"
   },
   {
     "de": "Was gibt’s Neues?",
-    "lv": "Co nowego?",
+    "lv": "Ç'ka të re?",
     "level": "Sätze"
   },
   {
     "de": "Aus diesem Brief folgt, dass...",
-    "lv": "Bu mektup şunu gösteriyor...",
+    "lv": "Nga kjo letër del se...",
     "level": "Sätze"
   },
   {
     "de": "Fahre fort!",
-    "lv": "Tak trzymaj!",
+    "lv": "Vazhdo!",
     "level": "Sätze"
   },
   {
     "de": "Er ist kein Freund von...",
-    "lv": "On nie lubi...",
+    "lv": "Nuk është i dhënë pas...",
     "level": "Sätze"
   },
   {
     "de": "Es erwies sich, dass...",
-    "lv": "Şu ortaya çıktı ki...",
+    "lv": "Doli se...",
     "level": "Sätze"
   },
   {
     "de": "Gedenkst du meiner?",
-    "lv": "Beni hatırlıyor musun? • Beni düşündün mü?",
+    "lv": "Më kujton? • Më mendon ndonjëherë?",
     "level": "Sätze"
   },
   {
     "de": "im Winter",
-    "lv": "Kış",
+    "lv": "në dimër",
     "level": "Sätze"
   },
   {
     "de": "Welcher Jahrgang sind Sie?",
-    "lv": "Hangi yıl doğdun?",
+    "lv": "Në cilin vit keni lindur?",
     "level": "Sätze"
   },
   {
     "de": "Es jammert mich zu sehen...",
-    "lv": "İzlemesi üzücü...",
+    "lv": "Më vjen keq të shoh...",
     "level": "Sätze"
   },
   {
     "de": "je mehr, desto besser",
-    "lv": "Ne kadar çok olursa o kadar iyi",
+    "lv": "sa më shumë, aq më mirë",
     "level": "Sätze"
   },
   {
     "de": "bis jetzt",
-    "lv": "Şimdiye kadar",
+    "lv": "deri tani",
     "level": "Sätze"
   },
   {
     "de": "Wie komme ich zum Bahnhof?",
-    "lv": "İstasyona nasıl gidilir?",
+    "lv": "Si të shkoj në stacionin e trenit?",
     "level": "Sätze"
   },
   {
     "de": "Komm her!",
-    "lv": "Bruce!",
+    "lv": "Eja këtu!",
     "level": "Sätze"
   },
   {
     "de": "Könnte ich Frau N. sprechen?",
-    "lv": "Bayan N'yle konuşabilir miyim?",
+    "lv": "A mund të flas me zonjën N.?",
     "level": "Sätze"
   },
   {
     "de": "Was kostet das?",
-    "lv": "Ile to kosztuje?",
+    "lv": "Sa kushton kjo?",
     "level": "Sätze"
   },
   {
     "de": "Wie lange dauert die Vorstellung?",
-    "lv": "Performans ne kadar sürecek?",
+    "lv": "Sa zgjat shfaqja?",
     "level": "Sätze"
   },
   {
     "de": "Lass das!",
-    "lv": "Durmak! • Bırak onu!",
+    "lv": "Mjaft! • Lëre!",
     "level": "Sätze"
   },
   {
     "de": "Lass mich in Ruhe!",
-    "lv": "Me ler vetem!",
+    "lv": "Më lër të qetë!",
     "level": "Sätze"
   },
   {
     "de": "Lassen Sie mich Ihnen helfen!",
-    "lv": "Sana yardım etmeme izin ver!",
+    "lv": "Më lejoni t'ju ndihmoj!",
     "level": "Sätze"
   },
   {
     "de": "Lasst uns gehen!",
-    "lv": "Hadi gidelim!",
+    "lv": "Le të shkojmë!",
     "level": "Sätze"
   },
   {
     "de": "Na, wie läufts?",
-    "lv": "Si jeni",
+    "lv": "Hë, si po shkon?",
     "level": "Sätze"
   },
   {
     "de": "Es lebe!",
-    "lv": "Yaşasın!",
+    "lv": "Rroftë!",
     "level": "Sätze"
   },
   {
     "de": "Leben Sie wohl!",
-    "lv": "Żyj zdrowo! • Do widzenia!",
+    "lv": "Qofshi mirë! • Lamtumirë!",
     "level": "Sätze"
   },
   {
     "de": "Was ist los?",
-    "lv": "!",
+    "lv": "Ç'është puna?",
     "level": "Sätze"
   },
   {
     "de": "Der Job ist anstrengend.",
-    "lv": "İş çok yorucu.",
+    "lv": "Puna është e lodhshme.",
     "level": "Sätze"
   },
   {
     "de": "Das war ein anstrengender Tag.",
-    "lv": "Yoğun bir gündü.",
+    "lv": "Ishte një ditë e lodhshme.",
     "level": "Sätze"
   },
   {
     "de": "Deutsch lernen kann anstrengend sein.",
-    "lv": "Mësimi i gjermanishtes mund të jetë rraskapitës.",
+    "lv": "Të mësosh gjermanisht mund të jetë e lodhshme.",
     "level": "Sätze"
   },
   {
     "de": "Er verlangt eine Erklärung.",
-    "lv": "Bir açıklama talep ediyor.",
+    "lv": "Ai kërkon një shpjegim.",
     "level": "Sätze"
   },
   {
     "de": "Der Verkäufer verlangt zu viel Geld.",
-    "lv": "Satıcı çok fazla para istiyor.",
+    "lv": "Shitësi kërkon më shumë para se ç'duhet.",
     "level": "Sätze"
   },
   {
     "de": "Das Gesetz verlangt es so.",
-    "lv": "Kanun bunu gerektiriyor.",
+    "lv": "Kështu e kërkon ligji.",
     "level": "Sätze"
   },
   {
     "de": "Das ist gar nicht so schwer.",
-    "lv": "To wcale nie jest takie trudne.",
+    "lv": "Nuk është fare aq e vështirë.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe gar kein Geld.",
-    "lv": "Hiç param yok.",
+    "lv": "Nuk kam fare para.",
     "level": "Sätze"
   },
   {
     "de": "Er hat gar nichts gesagt.",
-    "lv": "Hiçbir şey söylemedi.",
+    "lv": "Ai nuk tha asgjë fare.",
     "level": "Sätze"
   },
   {
     "de": "Der Hund ist los.",
-    "lv": "Köpek serbest bırakıldı.",
+    "lv": "Qeni është i zgjidhur.",
     "level": "Sätze"
   },
   {
     "de": "Hier ist viel los.",
-    "lv": "Burada çok şey oluyor.",
+    "lv": "Këtu ndodhin shumë gjëra.",
     "level": "Sätze"
   },
   {
     "de": "Halt die Luft an!",
-    "lv": "Wstrzymaj oddech!",
+    "lv": "Pusho! • Mos e tepro!",
     "level": "Sätze"
   },
   {
     "de": "Was machst du?",
-    "lv": "Çfarë do të thuash?",
+    "lv": "Çfarë po bën?",
     "level": "Sätze"
   },
   {
     "de": "Sag mal!",
-    "lv": "Powiedz tak!",
+    "lv": "Më thuaj!",
     "level": "Sätze"
   },
   {
     "de": "Was meinen Sie damit?",
-    "lv": "Bununla ne demek istiyorsun? • Bu konuda ne düşünüyorsunuz?",
+    "lv": "Çfarë doni të thoni me këtë?",
     "level": "Sätze"
   },
   {
     "de": "Wir gehen mit Ihnen.",
-    "lv": "Seninle gidiyoruz.",
+    "lv": "Vijmë me ju.",
     "level": "Sätze"
   },
   {
     "de": "Ich fahre mit der Eisenbahn.",
-    "lv": "Trenle seyahat ediyorum.",
+    "lv": "Udhëtoj me tren.",
     "level": "Sätze"
   },
   {
     "de": "am Mittwoch",
-    "lv": "Çarşamba günü",
+    "lv": "të mërkurën",
     "level": "Sätze"
   },
   {
     "de": "Es mag sein.",
-    "lv": "Belki.",
+    "lv": "Mund të jetë.",
     "level": "Sätze"
   },
   {
     "de": "Ich mag das nicht.",
-    "lv": "Bundan hoşlanmıyorum.",
+    "lv": "Kjo nuk më pëlqen.",
     "level": "Sätze"
   },
   {
     "de": "am Montag",
-    "lv": "Pazartesi gününde",
+    "lv": "të hënën",
     "level": "Sätze"
   },
   {
     "de": "Guten Morgen!",
-    "lv": "Mirëmëngjes.",
+    "lv": "Mirëmëngjesi!",
     "level": "Sätze"
   },
   {
     "de": "am Morgen",
-    "lv": "Fije mëndafshi?",
+    "lv": "në mëngjes",
     "level": "Sätze"
   },
   {
     "de": "Gute Nacht!",
-    "lv": "Dobranoc!",
+    "lv": "Natën e mirë!",
     "level": "Sätze"
   },
   {
     "de": "Nehmen Sie Platz!",
-    "lv": "Oturmak!",
+    "lv": "Uluni!",
     "level": "Sätze"
   },
   {
     "de": "Letzte Neuheit!",
-    "lv": "En son haberler!",
+    "lv": "Risia e fundit!",
     "level": "Sätze"
   },
   {
     "de": "Nicht wahr?",
-    "lv": "Normal?",
+    "lv": "Apo jo?",
     "level": "Sätze"
   },
   {
     "de": "Nicht doch!",
-    "lv": "Hayır, elbette! • HAYIR!",
+    "lv": "Jo, jo! • Mos!",
     "level": "Sätze"
   },
   {
     "de": "Nun endlich!",
-    "lv": "No wreszcie!",
+    "lv": "Më në fund!",
     "level": "Sätze"
   },
   {
     "de": "Wozu nützt das?",
-    "lv": "Do czego to jest dobre?",
+    "lv": "Për çfarë shërben kjo?",
     "level": "Sätze"
   },
   {
     "de": "Wozu nützt das alles?",
-    "lv": "Po co to wszystko?",
+    "lv": "Ç'dobi kanë të gjitha këto?",
     "level": "Sätze"
   },
   {
     "de": "Parken verboten!",
-    "lv": "Parkowanie jest zabronione!",
+    "lv": "Ndalohet parkimi!",
     "level": "Sätze"
   },
   {
     "de": "Nicht parken!",
-    "lv": "Parkowanie jest zabronione!",
+    "lv": "Mos parkoni!",
     "level": "Sätze"
   },
   {
     "de": "Er hat Recht.",
-    "lv": "O haklı.",
+    "lv": "Ka të drejtë.",
     "level": "Sätze"
   },
   {
     "de": "Wovon ist die Rede?",
-    "lv": "O co chodzi?",
+    "lv": "Për çfarë bëhet fjalë?",
     "level": "Sätze"
   },
   {
     "de": "Davon kann keine Rede sein.",
-    "lv": "Bu bir seçenek değil.",
+    "lv": "Për këtë as që bëhet fjalë.",
     "level": "Sätze"
   },
   {
     "de": "Glückliche Reise!",
-    "lv": "Szczęśliwej podróży!",
+    "lv": "Udhë të mbarë!",
     "level": "Sätze"
   },
   {
     "de": "Mir reißt die Geduld.",
-    "lv": "Sabrım tükeniyor.",
+    "lv": "Po më mbaron durimi.",
     "level": "Sätze"
   },
   {
     "de": "Man sagt, dass...",
-    "lv": "Öyle diyorlar...",
+    "lv": "Thonë se...",
     "level": "Sätze"
   },
   {
     "de": "Schon gut!",
-    "lv": "Artık sorun yok!",
+    "lv": "Mirë, mirë!",
     "level": "Sätze"
   },
   {
     "de": "Bitte schön!",
-    "lv": ".:. Ju lutem ...",
+    "lv": "Urdhëroni! • Ju lutem!",
     "level": "Sätze"
   },
   {
     "de": "Was bin ich schuldig?",
-    "lv": "Borcum ne kadar? • Ne kadar ödemem gerekiyor?",
+    "lv": "Sa ju detyrohem? • Sa duhet të paguaj?",
     "level": "Sätze"
   },
   {
     "de": "Vor dem Gebrauch schütteln!",
-    "lv": "Wstrząsnąć przed użyciem!",
+    "lv": "Të tundet para përdorimit!",
     "level": "Sätze"
   },
   {
     "de": "Sehen Sie mal!",
-    "lv": "Bakmak!",
+    "lv": "Shikoni pak!",
     "level": "Sätze"
   },
   {
     "de": "Wie sehr auch...",
-    "lv": "Ile...",
+    "lv": "Sado...",
     "level": "Sätze"
   },
   {
     "de": "Seit wann?",
-    "lv": "O zamandan beri?",
+    "lv": "Që kur?",
     "level": "Sätze"
   },
   {
     "de": "Was soll ich tun?",
-    "lv": "Cduhet te bej?",
+    "lv": "Çfarë të bëj?",
     "level": "Sätze"
   },
   {
     "de": "im Sommer",
-    "lv": "Latem",
+    "lv": "në verë",
     "level": "Sätze"
   },
   {
     "de": "Nicht nur..., sondern auch...",
-    "lv": "Sadece... aynı zamanda...",
+    "lv": "Jo vetëm..., por edhe...",
     "level": "Sätze"
   },
   {
     "de": "Sonst noch etwas?",
-    "lv": "Başka bir şey?",
+    "lv": "Diçka tjetër?",
     "level": "Sätze"
   },
   {
     "de": "Spaß beiseite!",
-    "lv": "Şaka değil! • Sınırda şakalar!",
+    "lv": "Lëmë shakatë!",
     "level": "Sätze"
   },
   {
     "de": "Wie spät ist es?",
-    "lv": "Saat kaç",
+    "lv": "Sa është ora?",
     "level": "Sätze"
   },
   {
     "de": "Durchfahrt gesperrt!",
-    "lv": "Geçmek yok!",
+    "lv": "Ndalohet kalimi!",
     "level": "Sätze"
   },
   {
     "de": "Sprechen Sie deutsch?",
-    "lv": "Almanca biliyor musun?",
+    "lv": "Flisni gjermanisht?",
     "level": "Sätze"
   },
   {
     "de": "Statt zu...",
-    "lv": "Zamiast...",
+    "lv": "Në vend që të...",
     "level": "Sätze"
   },
   {
     "de": "Wie steht’s?",
-    "lv": "Si jeni",
+    "lv": "Si janë punët?",
     "level": "Sätze"
   },
   {
     "de": "Dieser Hut steht ihr gut.",
-    "lv": "Ten kapelusz bardzo jej pasuje.",
+    "lv": "Kjo kapelë i rri mirë.",
     "level": "Sätze"
   },
   {
     "de": "Guten Tag!",
-    "lv": "MERHABA!",
+    "lv": "Mirëdita!",
     "level": "Sätze"
   },
   {
     "de": "Wo treffen wir uns?",
-    "lv": "Nerede buluşacağız?",
+    "lv": "Ku takohemi?",
     "level": "Sätze"
   },
   {
     "de": "Treten Sie näher!",
-    "lv": "Yaklaş!",
+    "lv": "Afrohuni!",
     "level": "Sätze"
   },
   {
     "de": "Ehrlichkeit ist eine Tugend.",
-    "lv": "Dürüstlük bir erdemdir.",
+    "lv": "Ndershmëria është virtyt.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe viel zu tun.",
-    "lv": "Yapacak çok şeyim var.",
+    "lv": "Kam shumë punë.",
     "level": "Sätze"
   },
   {
     "de": "Nicht übel!",
-    "lv": "Bardzo dobry! • Nie ma sprzeciwu",
+    "lv": "Jo keq!",
     "level": "Sätze"
   },
   {
     "de": "Er wohnt über mir.",
-    "lv": "O benim üstümde yaşıyor.",
+    "lv": "Banon sipër meje.",
     "level": "Sätze"
   },
   {
     "de": "Er ist davon überzeugt.",
-    "lv": "Jest tego pewien.",
+    "lv": "Është i bindur për këtë.",
     "level": "Sätze"
   },
   {
     "de": "So ist es üblich.",
-    "lv": "Jest to akceptowane.",
+    "lv": "Kështu është zakoni.",
     "level": "Sätze"
   },
   {
     "de": "Deine Uhr geht nach.",
-    "lv": "Saatiniz gecikti.",
+    "lv": "Ora jote mbetet prapa.",
     "level": "Sätze"
   },
   {
     "de": "Wie viel Uhr ist es?",
-    "lv": "Saat kaç?",
+    "lv": "Ç'orë është?",
     "level": "Sätze"
   },
   {
     "de": "Um acht Uhr früh.",
-    "lv": "Sabah sekizde.",
+    "lv": "Në orën tetë të mëngjesit.",
     "level": "Sätze"
   },
   {
     "de": "umso mehr",
-    "lv": "Tym bardziej",
+    "lv": "aq më tepër",
     "level": "Sätze"
   },
   {
     "de": "Rechts um!",
-    "lv": "Sağa dönün!",
+    "lv": "Djathtas!",
     "level": "Sätze"
   },
   {
     "de": "Und ob!",
-    "lv": "I co jeszcze!",
+    "lv": "Si jo!",
     "level": "Sätze"
   },
   {
     "de": "und zwar",
-    "lv": "Mianowicie",
+    "lv": "domethënë",
     "level": "Sätze"
   },
   {
     "de": "Auf Unkosten von...",
-    "lv": "Kosztem...",
+    "lv": "Me shpenzimet e... • Në kurriz të...",
     "level": "Sätze"
   },
   {
     "de": "Er saß unter den Zuschauern.",
-    "lv": "Seyircilerin arasına oturdu.",
+    "lv": "Ishte ulur mes spektatorëve.",
     "level": "Sätze"
   },
   {
     "de": "Keine Ursache!",
-    "lv": "Nic za nic!",
+    "lv": "S'ka përse!",
     "level": "Sätze"
   },
   {
     "de": "Es geschah, wie verabredet.",
-    "lv": "Anlaştığımız gibi oldu.",
+    "lv": "Ndodhi siç ishte rënë dakord.",
     "level": "Sätze"
   },
   {
     "de": "Rauchen verboten!",
-    "lv": "Palenie jest zabronione!",
+    "lv": "Ndalohet duhani!",
     "level": "Sätze"
   },
   {
     "de": "Falsch verbunden!",
-    "lv": "Błędne połączenie!",
+    "lv": "Numër i gabuar!",
     "level": "Sätze"
   },
   {
     "de": "Eintritt verboten!",
-    "lv": "Girilmez!",
+    "lv": "Ndalohet hyrja!",
     "level": "Sätze"
   },
   {
     "de": "Verstehen Sie mich?",
-    "lv": "Czy mnie rozumiesz?",
+    "lv": "Më kuptoni?",
     "level": "Sätze"
   },
   {
     "de": "Er versteht nichts davon.",
-    "lv": "Nic z tego nie rozumie.",
+    "lv": "Nuk merr vesh asgjë nga kjo.",
     "level": "Sätze"
   },
   {
     "de": "Seine Ansicht vertreten.",
-    "lv": "Fikrinizi savunun.",
+    "lv": "Të mbrosh mendimin tënd.",
     "level": "Sätze"
   },
   {
     "de": "Streit verursachen.",
-    "lv": "Bir tartışma başlatın.",
+    "lv": "Të shkaktosh grindje.",
     "level": "Sätze"
   },
   {
     "de": "Viel besser.",
-    "lv": "Znacznie lepiej.",
+    "lv": "Shumë më mirë.",
     "level": "Sätze"
   },
   {
     "de": "Zu viel.",
-    "lv": "Çok fazla.",
+    "lv": "Tepër.",
     "level": "Sätze"
   },
   {
     "de": "Vom Hörensagen.",
-    "lv": "Duruşmadan sonra.",
+    "lv": "Nga sa kam dëgjuar.",
     "level": "Sätze"
   },
   {
     "de": "Von Zeit zu Zeit.",
-    "lv": "Niekiedy.",
+    "lv": "Herë pas here.",
     "level": "Sätze"
   },
   {
     "de": "Von Beruf.",
-    "lv": "Z zawodu.",
+    "lv": "Me profesion.",
     "level": "Sätze"
   },
   {
     "de": "Er ist Berliner von Geburt.",
-    "lv": "Kendisi doğuştan Berlinlidir.",
+    "lv": "Ka lindur në Berlin.",
     "level": "Sätze"
   },
   {
     "de": "Er steht vor dem Fenster.",
-    "lv": "Stoi przy oknie.",
+    "lv": "Qëndron para dritares.",
     "level": "Sätze"
   },
   {
     "de": "Vor Sonnenaufgang.",
-    "lv": "Przed wschodem słońca.",
+    "lv": "Para lindjes së diellit.",
     "level": "Sätze"
   },
   {
     "de": "Vor vierzehn Tagen.",
-    "lv": "Dwa tygodnie temu.",
+    "lv": "Para dy javësh.",
     "level": "Sätze"
   },
   {
     "de": "Vor Freude.",
-    "lv": "Dla zabawy.",
+    "lv": "Nga gëzimi.",
     "level": "Sätze"
   },
   {
     "de": "Vor allem.",
-    "lv": "Przede wszystkim. • Przede wszystkim",
+    "lv": "Mbi të gjitha. • Para së gjithash.",
     "level": "Sätze"
   },
   {
     "de": "Im Voraus.",
-    "lv": "Poprzednio.",
+    "lv": "Paraprakisht.",
     "level": "Sätze"
   },
   {
     "de": "Unter der Voraussetzung, dass...",
-    "lv": "Öyle varsayarsak...",
+    "lv": "Me kusht që...",
     "level": "Sätze"
   },
   {
     "de": "Unter dem Vorbehalt.",
-    "lv": "Warunkowo.",
+    "lv": "Me rezervë.",
     "level": "Sätze"
   },
   {
     "de": "Vorhanden sein.",
-    "lv": "Olmak. • Mevcut olun • Mevcut olun",
+    "lv": "Të jesh në dispozicion. • Të ekzistosh.",
     "level": "Sätze"
   },
   {
     "de": "In der vorigen Woche.",
-    "lv": "Ostatni tydzień.",
+    "lv": "Javën e kaluar.",
     "level": "Sätze"
   },
   {
     "de": "Vorkehrungen treffen.",
-    "lv": "Koruyucu önlem alın.",
+    "lv": "Të marrësh masa paraprake.",
     "level": "Sätze"
   },
   {
     "de": "Sie kommt mir bekannt vor.",
-    "lv": "Bana tanıdık geliyor.",
+    "lv": "Më duket e njohur.",
     "level": "Sätze"
   },
   {
     "de": "Er hat Vorliebe für Literatur.",
-    "lv": "Edebiyatı çok seviyor.",
+    "lv": "Ka një dashuri të veçantë për letërsinë.",
     "level": "Sätze"
   },
   {
     "de": "Heute Vormittag.",
-    "lv": "Bu sabah. • Bu sabah",
+    "lv": "Sot në mëngjes. • Sot paradite.",
     "level": "Sätze"
   },
   {
     "de": "Von vorn.",
-    "lv": "Od przodu.",
+    "lv": "Nga përpara. • Nga fillimi.",
     "level": "Sätze"
   },
   {
     "de": "Nach vorn.",
-    "lv": "Do przodu.",
+    "lv": "Përpara.",
     "level": "Sätze"
   },
   {
     "de": "Von vornherein.",
-    "lv": "En başında.",
+    "lv": "Që në fillim.",
     "level": "Sätze"
   },
   {
     "de": "Im Vorteil sein.",
-    "lv": "Daha iyi bir durumda olun.",
+    "lv": "Të jesh në avantazh.",
     "level": "Sätze"
   },
   {
     "de": "Wach sein.",
-    "lv": "Bilinçli olun.",
+    "lv": "Të jesh zgjuar.",
     "level": "Sätze"
   },
   {
     "de": "Wach werden.",
-    "lv": "Uyanmak.",
+    "lv": "Të zgjohesh.",
     "level": "Sätze"
   },
   {
     "de": "Auf Wache sein.",
-    "lv": "Stań na straży.",
+    "lv": "Të bësh roje.",
     "level": "Sätze"
   },
   {
     "de": "Während eines Jahres.",
-    "lv": "Bir yıl içinde.",
+    "lv": "Gjatë një viti.",
     "level": "Sätze"
   },
   {
     "de": "Während des Krieges.",
-    "lv": "Podczas wojny.",
+    "lv": "Gjatë luftës.",
     "level": "Sätze"
   },
   {
     "de": "Gegen eine Wand reden.",
-    "lv": "Boşuna konuş.",
+    "lv": "T'i flasësh murit.",
     "level": "Sätze"
   },
   {
     "de": "Hier haben die Wände Ohren.",
-    "lv": "Burada duvarların kulakları var.",
+    "lv": "Këtu edhe muret kanë veshë.",
     "level": "Sätze"
   },
   {
     "de": "Bis wann?",
-    "lv": "Do kiedy?",
+    "lv": "Deri kur?",
     "level": "Sätze"
   },
   {
     "de": "Es ist warm.",
-    "lv": "Bu sıcak.",
+    "lv": "Bën ngrohtë.",
     "level": "Sätze"
   },
   {
     "de": "Auf eine Nachricht warten.",
-    "lv": "Mesajı bekleyin.",
+    "lv": "Të presësh një mesazh.",
     "level": "Sätze"
   },
   {
     "de": "Was wollen Sie?",
-    "lv": "Czego chcesz?",
+    "lv": "Çfarë dëshironi?",
     "level": "Sätze"
   },
   {
     "de": "Was für ein...?",
-    "lv": "Kto...? • A co z...?",
+    "lv": "Ç'lloj...? • Çfarë...?",
     "level": "Sätze"
   },
   {
     "de": "Auf halbem Wege.",
-    "lv": "Yarım.",
+    "lv": "Në gjysmë të rrugës.",
     "level": "Sätze"
   },
   {
     "de": "Auf diesem Wege.",
-    "lv": "Bu taraftan. • Bu tür fonlar için",
+    "lv": "Në këtë mënyrë. • Me këto mjete.",
     "level": "Sätze"
   },
   {
     "de": "Auf friedlichem Wege.",
-    "lv": "Barış yolunda.",
+    "lv": "Në rrugë paqësore.",
     "level": "Sätze"
   },
   {
     "de": "Unserer Freundschaft wegen.",
-    "lv": "Dostluğumuzdan dolayı.",
+    "lv": "Për hir të miqësisë sonë.",
     "level": "Sätze"
   },
   {
     "de": "Von Rechts wegen.",
-    "lv": "Adalet yoluyla.",
+    "lv": "Sipas ligjit. • Me të drejtë.",
     "level": "Sätze"
   },
   {
     "de": "Weh tun.",
-    "lv": "Acıtmak.",
+    "lv": "Të ndiesh dhembje.",
     "level": "Sätze"
   },
   {
     "de": "Zu Weihnachten.",
-    "lv": "Noel için.",
+    "lv": "Për Krishtlindje.",
     "level": "Sätze"
   },
   {
     "de": "Auf welche Weise?",
-    "lv": "Nasıl?",
+    "lv": "Në ç'mënyrë?",
     "level": "Sätze"
   },
   {
     "de": "Art und Weise.",
-    "lv": "Typ.",
+    "lv": "Mënyra.",
     "level": "Sätze"
   },
   {
     "de": "Ohne weiteres.",
-    "lv": "Natychmiast. • Natychmiast",
+    "lv": "Pa vonesë. • Pa vështirësi.",
     "level": "Sätze"
   },
   {
     "de": "Bis auf weiteres.",
-    "lv": "Bir sonraki duyuruya kadar.",
+    "lv": "Deri në njoftim të mëtejshëm.",
     "level": "Sätze"
   },
   {
     "de": "Und so weiter.",
-    "lv": "I tak dalej.",
+    "lv": "E kështu me radhë.",
     "level": "Sätze"
   },
   {
     "de": "Weiter nichts.",
-    "lv": "Nic więcej.",
+    "lv": "Asgjë tjetër.",
     "level": "Sätze"
   },
   {
     "de": "An welchem Tag?",
-    "lv": "Hangi gün?",
+    "lv": "Në cilën ditë?",
     "level": "Sätze"
   },
   {
     "de": "Alle Welt.",
-    "lv": "Bütün dünya. • Tüm",
+    "lv": "Gjithë bota. • Të gjithë.",
     "level": "Sätze"
   },
   {
     "de": "In wenigen Tagen.",
-    "lv": "Za kilka dni.",
+    "lv": "Pas pak ditësh.",
     "level": "Sätze"
   },
   {
     "de": "Zu wenig.",
-    "lv": "Çok az.",
+    "lv": "Tepër pak.",
     "level": "Sätze"
   },
   {
     "de": "Wenn auch.",
-    "lv": "Yine de.",
+    "lv": "Edhe pse.",
     "level": "Sätze"
   },
   {
     "de": "Wer da?",
-    "lv": "Co tam jest?",
+    "lv": "Kush është aty?",
     "level": "Sätze"
   },
   {
     "de": "Gesammelte Werke von Schiller.",
-    "lv": "Pisma zebrane Schillera.",
+    "lv": "Veprat e përmbledhura të Shilerit.",
     "level": "Sätze"
   },
   {
     "de": "Ausgewählte Werke.",
-    "lv": "Eser seçimi.",
+    "lv": "Vepra të zgjedhura.",
     "level": "Sätze"
   },
   {
     "de": "Er ist wert, dass...",
-    "lv": "Hak ediyor...",
+    "lv": "Ai e meriton që...",
     "level": "Sätze"
   },
   {
     "de": "Es ist zwei Euro wert.",
-    "lv": "Kosztuje dwa euro.",
+    "lv": "Vlen dy euro.",
     "level": "Sätze"
   },
   {
     "de": "Nach Westen.",
-    "lv": "Batı.",
+    "lv": "Drejt perëndimit.",
     "level": "Sätze"
   },
   {
     "de": "Von Westen.",
-    "lv": "Od zachodu.",
+    "lv": "Nga perëndimi.",
     "level": "Sätze"
   },
   {
     "de": "In Wettbewerb treten.",
-    "lv": "Yarışmaya katılın.",
+    "lv": "Të hysh në garë.",
     "level": "Sätze"
   },
   {
     "de": "Um die Wette laufen.",
-    "lv": "Yarışı başlat.",
+    "lv": "Të bësh garë në vrapim.",
     "level": "Sätze"
   },
   {
     "de": "Was gilt die Wette?",
-    "lv": "Ne hakkında pazarlık yapıyoruz?",
+    "lv": "Për çfarë vëmë bast?",
     "level": "Sätze"
   },
   {
     "de": "Wie wird das Wetter?",
-    "lv": "Hava nasıl olacak?",
+    "lv": "Si do të jetë koha?",
     "level": "Sätze"
   },
   {
     "de": "Wettkampf im Turnen.",
-    "lv": "Zawody w gimnastyce.",
+    "lv": "Garë gjimnastike.",
     "level": "Sätze"
   },
   {
     "de": "Wider meinen Willen.",
-    "lv": "Wbrew mojej woli.",
+    "lv": "Kundër vullnetit tim.",
     "level": "Sätze"
   },
   {
     "de": "Widerspruch erheben.",
-    "lv": "Protesto etmek. • İtirazda bulunun",
+    "lv": "Të protestosh. • Të ngresh kundërshtime.",
     "level": "Sätze"
   },
   {
     "de": "Wie alt ist er?",
-    "lv": "Ile on ma lat?",
+    "lv": "Sa vjeç është?",
     "level": "Sätze"
   },
   {
     "de": "Wie lange?",
-    "lv": "Ne kadardır",
+    "lv": "Sa kohë?",
     "level": "Sätze"
   },
   {
     "de": "Auf Wiederhören!",
-    "lv": "Do widzenia!",
+    "lv": "Mirë u dëgjofshim!",
     "level": "Sätze"
   },
   {
     "de": "Auf Wiedersehen!",
-    "lv": "Do widzenia!",
+    "lv": "Mirupafshim!",
     "level": "Sätze"
   },
   {
     "de": "Wilde Tiere.",
-    "lv": "Vahşi hayvanlar.",
+    "lv": "Kafshë të egra.",
     "level": "Sätze"
   },
   {
     "de": "Herzlich willkommen!",
-    "lv": "Serdecznie pozdrawiam!",
+    "lv": "Mirë se vini!",
     "level": "Sätze"
   },
   {
     "de": "Du musst ziehen.",
-    "lv": "Masz ruch.",
+    "lv": "Është radha jote.",
     "level": "Sätze"
   },
   {
     "de": "Es zieht.",
-    "lv": "Çekmek",
+    "lv": "Ka rrymë ajri.",
     "level": "Sätze"
   },
   {
     "de": "Ziemlich kalt.",
-    "lv": "Całkiem zimno.",
+    "lv": "Mjaft ftohtë.",
     "level": "Sätze"
   },
   {
     "de": "Zipfel einer Wurst.",
-    "lv": "Sosis ipucu.",
+    "lv": "Bishti i një suxhuku.",
     "level": "Sätze"
   },
   {
     "de": "Zu ihm gehen.",
-    "lv": "Ona git.",
+    "lv": "Të shkosh tek ai.",
     "level": "Sätze"
   },
   {
     "de": "Zur Schule gehen.",
-    "lv": "Katılmak.",
+    "lv": "Të shkosh në shkollë.",
     "level": "Sätze"
   },
   {
     "de": "Zu Hause bleiben.",
-    "lv": "Evde kalın.",
+    "lv": "Të rrish në shtëpi.",
     "level": "Sätze"
   },
   {
     "de": "Von Tag zu Tag.",
-    "lv": "Her gün.",
+    "lv": "Nga dita në ditë.",
     "level": "Sätze"
   },
   {
     "de": "Zum Glück.",
-    "lv": "Neyse ki.",
+    "lv": "Për fat.",
     "level": "Sätze"
   },
   {
     "de": "Wasser zum Trinken.",
-    "lv": "Woda do picia.",
+    "lv": "Ujë për të pirë.",
     "level": "Sätze"
   },
   {
     "de": "Zu Fuß.",
-    "lv": "Na nogi.",
+    "lv": "Më këmbë.",
     "level": "Sätze"
   },
   {
     "de": "Zu Pferde.",
-    "lv": "Tak.",
+    "lv": "Me kalë.",
     "level": "Sätze"
   },
   {
     "de": "Zu Rad.",
-    "lv": "Rowerem.",
+    "lv": "Me biçikletë.",
     "level": "Sätze"
   },
   {
     "de": "Es hörte auf zu regnen.",
-    "lv": "Yağmur durdu.",
+    "lv": "Pushoi shiu.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe noch viel zu tun.",
-    "lv": "Nadal mam wiele do zrobienia.",
+    "lv": "Kam ende shumë për të bërë.",
     "level": "Sätze"
   },
   {
     "de": "Zu früh.",
-    "lv": "Çok erken.",
+    "lv": "Tepër herët.",
     "level": "Sätze"
   },
   {
     "de": "Zu groß.",
-    "lv": "Çok büyük.",
+    "lv": "Tepër i madh.",
     "level": "Sätze"
   },
   {
     "de": "Mit den Achseln zucken.",
-    "lv": "Wzruszać ramionami.",
+    "lv": "Të ngresh supet.",
     "level": "Sätze"
   },
   {
     "de": "In einem Zug trinken.",
-    "lv": "Wypij jednym haustem.",
+    "lv": "Të pish me një frymë.",
     "level": "Sätze"
   },
   {
     "de": "Zugrunde gehen.",
-    "lv": "Öl.",
+    "lv": "Të shkatërrohesh.",
     "level": "Sätze"
   },
   {
     "de": "Zugrunde legen.",
-    "lv": "Połóż na podstawie. • Weź jako podstawę.",
+    "lv": "Të vësh në themel. • Të marrësh si bazë.",
     "level": "Sätze"
   },
   {
     "de": "Zum ersten Mal.",
-    "lv": "Po raz pierwszy.",
+    "lv": "Për herë të parë.",
     "level": "Sätze"
   },
   {
     "de": "Machen Sie bitte die Tür zu!",
-    "lv": "Lütfen kapıyı kapatın!",
+    "lv": "Ju lutem, mbylleni derën!",
     "level": "Sätze"
   },
   {
     "de": "Er hat zugenommen.",
-    "lv": "Kilo aldı.",
+    "lv": "Është shëndoshur.",
     "level": "Sätze"
   },
   {
     "de": "Die Tage nehmen zu.",
-    "lv": "Günler uzuyor.",
+    "lv": "Ditët po zgjaten.",
     "level": "Sätze"
   },
   {
     "de": "Zusammenhängen mit etwas.",
-    "lv": "Bir şeyle ilişkilendirilmek.",
+    "lv": "Të kesh lidhje me diçka.",
     "level": "Sätze"
   },
   {
     "de": "Die Tür ist zu.",
-    "lv": "Kapı kapalı.",
+    "lv": "Dera është e mbyllur.",
     "level": "Sätze"
   },
   {
     "de": "Das hätte ich ihm nicht zugetraut.",
-    "lv": "Ondan bunu beklemezdim.",
+    "lv": "Nuk do ta kisha pritur këtë prej tij.",
     "level": "Sätze"
   },
   {
     "de": "Freier Zutritt.",
-    "lv": "Ücretsiz giriş.",
+    "lv": "Hyrje e lirë.",
     "level": "Sätze"
   },
   {
     "de": "Zutritt verboten!",
-    "lv": "Girilmez!",
+    "lv": "Ndalohet hyrja!",
     "level": "Sätze"
   },
   {
     "de": "Das ist zu viel!",
-    "lv": "Bu çok fazla!",
+    "lv": "Kjo është tepër!",
     "level": "Sätze"
   },
   {
     "de": "Zuwider werden.",
-    "lv": "İğrenç ol. • Hastalanmak",
+    "lv": "Të bëhet i neveritshëm. • T'i bëhet i bezdisshëm dikujt.",
     "level": "Sätze"
   },
   {
     "de": "Und zwar.",
-    "lv": "Mianowicie.",
+    "lv": "Domethënë.",
     "level": "Sätze"
   },
   {
     "de": "Es steht außer Zweifel.",
-    "lv": "Nie ma wątpliwości.",
+    "lv": "Është jashtë çdo dyshimi.",
     "level": "Sätze"
   },
   {
     "de": "Ohne Zweifel.",
-    "lv": "Çıplak yüzle.",
+    "lv": "Pa dyshim.",
     "level": "Sätze"
   },
   {
     "de": "Zum Zweiten.",
-    "lv": "Po drugie.",
+    "lv": "Së dyti.",
     "level": "Sätze"
   },
   {
     "de": "Frohes neues Jahr!",
-    "lv": "Mutlu yıllar!",
+    "lv": "Gëzuar Vitin e Ri!",
     "level": "Sätze"
   },
   {
     "de": "Herzlichen Glückwunsch zum Geburtstag!",
-    "lv": "Wszystkiego najlepszego z okazji urodzin!",
+    "lv": "Gëzuar ditëlindjen!",
     "level": "Sätze"
   },
   {
     "de": "Gute Reise!",
-    "lv": "Szczęśliwej podróży!",
+    "lv": "Rrugë të mbarë!",
     "level": "Sätze"
   },
   {
     "de": "Es freut mich, Sie kennenzulernen.",
-    "lv": "Seninle tanıştığıma sevindim.",
+    "lv": "Më vjen mirë që ju njoh.",
     "level": "Sätze"
   },
   {
     "de": "Wären Sie bitte so nett?",
-    "lv": "Bu kadar nazik olur muydun?",
+    "lv": "A do të ishit kaq i sjellshëm, ju lutem?",
     "level": "Sätze"
   },
   {
     "de": "Ich bin Ihnen sehr dankbar.",
-    "lv": "Size çok minnettarım.",
+    "lv": "Ju jam shumë mirënjohës.",
     "level": "Sätze"
   },
   {
     "de": "Setzt euch bitte hin!",
-    "lv": "Lütfen oturun!",
+    "lv": "Uluni, ju lutem!",
     "level": "Sätze"
   },
   {
     "de": "Ben, komm bitte an die Tafel!",
-    "lv": "Ben, lütfen tahtaya gel!",
+    "lv": "Ben, dil në dërrasë, të lutem!",
     "level": "Sätze"
   },
   {
     "de": "Schlagt bitte die Lehrbücher auf!",
-    "lv": "Ders kitaplarınızı açın lütfen!",
+    "lv": "Hapni tekstet, ju lutem!",
     "level": "Sätze"
   },
   {
     "de": "Geht bitte in die Sporthalle!",
-    "lv": "Proszę, idź na siłownię!",
+    "lv": "Shkoni në sallën e sportit, ju lutem!",
     "level": "Sätze"
   },
   {
     "de": "Schläfst du noch?",
-    "lv": "Hala uyuyor musun?",
+    "lv": "Po fle ende?",
     "level": "Sätze"
   },
   {
     "de": "Schlafen Sie noch?",
-    "lv": "Hala uyuyor musun?",
+    "lv": "Po flini ende?",
     "level": "Sätze"
   },
   {
     "de": "Er ist fest eingeschlafen.",
-    "lv": "Çabuk uyuyor.",
+    "lv": "Ka rënë në gjumë të thellë.",
     "level": "Sätze"
   },
   {
     "de": "Wecke ihn bitte auf, es ist schon spät!",
-    "lv": "Lütfen onu uyandırın, çoktan geç oldu!",
+    "lv": "Zgjoje, të lutem, është bërë vonë!",
     "level": "Sätze"
   },
   {
     "de": "Es tut mir sehr leid!",
-    "lv": "Bardzo mi przykro!",
+    "lv": "Më vjen shumë keq!",
     "level": "Sätze"
   },
   {
     "de": "Vielen Dank!",
-    "lv": "Çok teşekkür ederim!",
+    "lv": "Faleminderit shumë!",
     "level": "Sätze"
   },
   {
     "de": "Finn, fang bitte an!",
-    "lv": "Finn, başla lütfen!",
+    "lv": "Fin, fillo, të lutem!",
     "level": "Sätze"
   },
   {
     "de": "Lest bitte mit!",
-    "lv": "Czytaj dalej, proszę!",
+    "lv": "Ndiqni leximin, ju lutem!",
     "level": "Sätze"
   },
   {
     "de": "Emma, schau bitte nicht aus dem Fenster!",
-    "lv": "Emma, ​​lütfen pencereden dışarı bakma!",
+    "lv": "Ema, mos shiko nga dritarja, të lutem!",
     "level": "Sätze"
   },
   {
     "de": "Jonas, bring bitte die Hefte!",
-    "lv": "Jonas, lütfen defterlerini getir!",
+    "lv": "Jonas, sill fletoret, të lutem!",
     "level": "Sätze"
   },
   {
     "de": "Geh bitte zurück an deinen Platz!",
-    "lv": "Wracaj na swoje miejsce!",
+    "lv": "Kthehu në vendin tënd, të lutem!",
     "level": "Sätze"
   },
   {
     "de": "Es ist halb acht.",
-    "lv": "Saat yedi buçuk.",
+    "lv": "Është ora shtatë e gjysmë.",
     "level": "Sätze"
   },
   {
     "de": "Wann wachst du gewöhnlich auf?",
-    "lv": "Genelde ne zaman uyanırsın?",
+    "lv": "Kur zgjohesh zakonisht?",
     "level": "Sätze"
   },
   {
     "de": "Ich stehe gleich auf.",
-    "lv": "Yakında kalkacağım.",
+    "lv": "Ngrihem menjëherë.",
     "level": "Sätze"
   },
   {
     "de": "Steh auf, Hanna, es klingelt!",
-    "lv": "Wstawaj, Hannah, dzwoni dzwonek!",
+    "lv": "Ngrihu, Hana, bie zilja e orës! • Ngrihu, Hana, dikush i bie ziles së derës!",
     "level": "Sätze"
   },
   {
     "de": "Lass mich noch fünf Minuten schlafen!",
-    "lv": "Beş dakika daha uyuyayım!",
+    "lv": "Lërmë të fle edhe pesë minuta!",
     "level": "Sätze"
   },
   {
     "de": "Vergiss nicht, das Zimmer zu lüften!",
-    "lv": "Nie zapomnij o wietrzeniu pomieszczenia!",
+    "lv": "Mos harro ta ajrosësh dhomën!",
     "level": "Sätze"
   },
   {
     "de": "Wo ist das Handtuch?",
-    "lv": "Gdzie jest ręcznik",
+    "lv": "Ku është peshqiri?",
     "level": "Sätze"
   },
   {
     "de": "Ich möchte mir die Zähne putzen.",
-    "lv": "Dişlerimi fırçalamak istiyorum.",
+    "lv": "Dua të laj dhëmbët.",
     "level": "Sätze"
   },
   {
     "de": "Mit was putzt du dir die Zähne?",
-    "lv": "Dişlerinizi nasıl fırçalarsınız?",
+    "lv": "Me çfarë i lan dhëmbët?",
     "level": "Sätze"
   },
   {
     "de": "Ich möchte mich anziehen.",
-    "lv": "Giyinmek istiyorum.",
+    "lv": "Dua të vishem.",
     "level": "Sätze"
   },
   {
     "de": "Zieh dich bitte schnell an!",
-    "lv": "Çabuk giyin lütfen!",
+    "lv": "Vishu shpejt, të lutem!",
     "level": "Sätze"
   },
   {
     "de": "Kleide dich wärmer an, draußen ist es kühl.",
-    "lv": "Sıkı giyinin, dışarısı soğuk.",
+    "lv": "Vishu më trashë, jashtë bën freskët.",
     "level": "Sätze"
   },
   {
     "de": "Guten Morgen, wie geht es dir?",
-    "lv": "Günaydın, nasılsın?",
+    "lv": "Mirëmëngjesi, si je?",
     "level": "Sätze"
   },
   {
     "de": "Mir geht es gut, danke.",
-    "lv": "İyiyim teşekkürler.",
+    "lv": "Jam mirë, faleminderit.",
     "level": "Sätze"
   },
   {
     "de": "Was gibt es Neues?",
-    "lv": "Co nowego?",
+    "lv": "Çfarë ka të re?",
     "level": "Sätze"
   },
   {
     "de": "Was für ein Chaos hier!",
-    "lv": "Bu ne büyük bir karmaşa!",
+    "lv": "Sa rrëmujë këtu!",
     "level": "Sätze"
   },
   {
     "de": "Darf ich beim Aufräumen helfen?",
-    "lv": "Temizlik konusunda yardımcı olabilir miyim?",
+    "lv": "Mund të ndihmoj në rregullim?",
     "level": "Sätze"
   },
   {
     "de": "Was trinkst du morgens, Kaffee oder Tee?",
-    "lv": "Sabahları ne içersiniz, kahve mi çay mı?",
+    "lv": "Çfarë pi në mëngjes, kafe apo çaj?",
     "level": "Sätze"
   },
   {
     "de": "Gewöhnlich trinke ich morgens eine Tasse Kaffee.",
-    "lv": "Sabahları genellikle bir fincan kahve içerim.",
+    "lv": "Zakonisht në mëngjes pi një filxhan kafe.",
     "level": "Sätze"
   },
   {
     "de": "Am liebsten trinke ich schwarzen Kaffee.",
-    "lv": "Siyah kahveyi tercih ederim.",
+    "lv": "Më së shumti më pëlqen të pi kafe të zezë.",
     "level": "Sätze"
   },
   {
     "de": "Guten Morgen, hast du gut geschlafen?",
-    "lv": "Günaydın, iyi uyudun mu?",
+    "lv": "Mirëmëngjesi, a fjete mirë?",
     "level": "Sätze"
   },
   {
     "de": "Ich bin noch sehr müde.",
-    "lv": "Hala çok yorgunum.",
+    "lv": "Jam ende shumë i lodhur.",
     "level": "Sätze"
   },
   {
     "de": "Willst du Kaffee oder Milch?",
-    "lv": "Kahve mi süt mü istersin?",
+    "lv": "Do kafe apo qumësht?",
     "level": "Sätze"
   },
   {
     "de": "Gib mir bitte ein Brötchen mit Käse.",
-    "lv": "Lütfen bana bir peynirli rulo ver.",
+    "lv": "Më jep, të lutem, një simite me djathë.",
     "level": "Sätze"
   },
   {
     "de": "Ich muss jetzt los!",
-    "lv": "Şimdi gitmek zorundayım!",
+    "lv": "Tani duhet të iki!",
     "level": "Sätze"
   },
   {
     "de": "Vergiss dein Frühstück nicht!",
-    "lv": "Kahvaltıyı unutmayın!",
+    "lv": "Mos e harro mëngjesin!",
     "level": "Sätze"
   },
   {
     "de": "Klara, deck bitte den Tisch!",
-    "lv": "Clara, lütfen masayı hazırla!",
+    "lv": "Klara, shtro tryezën, të lutem!",
     "level": "Sätze"
   },
   {
     "de": "Vergiss die Servietten nicht!",
-    "lv": "Nie zapomnij o serwetkach!",
+    "lv": "Mos i harro pecetat!",
     "level": "Sätze"
   },
   {
     "de": "Wann esst ihr zu Mittag?",
-    "lv": "Kiedy jesz lunch",
+    "lv": "Kur hani drekë?",
     "level": "Sätze"
   },
   {
     "de": "Es ist Zeit zu essen.",
-    "lv": "Yemek zamanı.",
+    "lv": "Është koha për të ngrënë.",
     "level": "Sätze"
   },
   {
     "de": "Was gibt es heute zu Mittag?",
-    "lv": "Drekë e përbashkët?",
+    "lv": "Çfarë ka për drekë sot?",
     "level": "Sätze"
   },
   {
     "de": "Wie schmeckt dir die Suppe?",
-    "lv": "Çorbayı nasıl seversin?",
+    "lv": "Si të duket supa?",
     "level": "Sätze"
   },
   {
     "de": "Ehrlich gesagt ist sie etwas zu salzig.",
-    "lv": "Doğrusunu söylemek gerekirse biraz fazla tuzlu.",
+    "lv": "Për të thënë të drejtën, është pak tepër e kripur.",
     "level": "Sätze"
   },
   {
     "de": "Darf ich dir ein Stück Brot geben?",
-    "lv": "Sana bir dilim ekmek vereyim mi?",
+    "lv": "A mund të të jap një copë bukë?",
     "level": "Sätze"
   },
   {
     "de": "Danke, ich habe schon.",
-    "lv": "Teşekkür ederim, zaten yaptım.",
+    "lv": "Faleminderit, kam marrë tashmë.",
     "level": "Sätze"
   },
   {
     "de": "Das Fleisch schmeckt ausgezeichnet.",
-    "lv": "Etin tadı çok lezzetli.",
+    "lv": "Mishi ka shije të shkëlqyer.",
     "level": "Sätze"
   },
   {
     "de": "Danke, ich bin schon satt.",
-    "lv": "Teşekkür ederim, zaten doluyum.",
+    "lv": "Faleminderit, tashmë jam ngopur.",
     "level": "Sätze"
   },
   {
     "de": "Heute haben wir Besuch.",
-    "lv": "Bugün misafirlerimiz var.",
+    "lv": "Sot kemi mysafirë.",
     "level": "Sätze"
   },
   {
     "de": "Bist du heute Abend frei?",
-    "lv": "Bu gece boş musun?",
+    "lv": "Je i lirë sonte?",
     "level": "Sätze"
   },
   {
     "de": "Komm doch heute zum Mittagessen vorbei!",
-    "lv": "Bugün öğle yemeğine gel!",
+    "lv": "Eja sot te ne për drekë!",
     "level": "Sätze"
   },
   {
     "de": "Setzen wir uns an den Tisch.",
-    "lv": "Hadi masaya oturalım.",
+    "lv": "Le të ulemi në tryezë.",
     "level": "Sätze"
   },
   {
     "de": "Bitte, bedien dich!",
-    "lv": "Lütfen istediğiniz kadar yiyin!",
+    "lv": "Urdhëro, shërbehu!",
     "level": "Sätze"
   },
   {
     "de": "Stört dich das Rauchen?",
-    "lv": "Czy palenie Ci przeszkadza?",
+    "lv": "Të shqetëson pirja e duhanit?",
     "level": "Sätze"
   },
   {
     "de": "Danke für die nette Aufnahme!",
-    "lv": "Sıcak karşılamanız için teşekkür ederiz!",
+    "lv": "Faleminderit për pritjen e përzemërt!",
     "level": "Sätze"
   },
   {
     "de": "Wann gehst du ins Bett?",
-    "lv": "Uyumaya gittiğinde",
+    "lv": "Kur shkon të flesh?",
     "level": "Sätze"
   },
   {
     "de": "Wenn ich von der Arbeit komme, bin ich immer müde.",
-    "lv": "İşten eve geldiğimde hep yorgun oluyorum.",
+    "lv": "Kur kthehem nga puna, jam gjithmonë i lodhur.",
     "level": "Sätze"
   },
   {
     "de": "Es ist Zeit, ins Bett zu gehen.",
-    "lv": "Uyuma zamanı.",
+    "lv": "Është koha për të fjetur.",
     "level": "Sätze"
   },
   {
     "de": "Es ist schönes Wetter.",
-    "lv": "To miły czas.",
+    "lv": "Është mot i bukur.",
     "level": "Sätze"
   },
   {
     "de": "Willst du mit mir spazieren gehen?",
-    "lv": "Benimle gelmek ister misin?",
+    "lv": "Dëshiron të dalësh për shëtitje me mua?",
     "level": "Sätze"
   },
   {
     "de": "Sieh mal, es wird gleich regnen.",
-    "lv": "Bak, yakında yağmur yağacak.",
+    "lv": "Shiko, tani do të bjerë shi.",
     "level": "Sätze"
   },
   {
     "de": "Nimm den Regenschirm mit!",
-    "lv": "Yanınıza bir şemsiye alın!",
+    "lv": "Merr çadrën me vete!",
     "level": "Sätze"
   },
   {
     "de": "Es regnet.",
-    "lv": "Pada deszcz.",
+    "lv": "Bie shi.",
     "level": "Sätze"
   },
   {
     "de": "Ich bin schon ganz nass.",
-    "lv": "Artık tamamen ıslağım.",
+    "lv": "Tashmë jam bërë qull.",
     "level": "Sätze"
   },
   {
     "de": "Glaubst du, dass es den ganzen Tag regnen wird?",
-    "lv": "Bütün gün yağmur yağacağını mı düşünüyorsun?",
+    "lv": "Mendon se do të bjerë shi gjithë ditën?",
     "level": "Sätze"
   },
   {
     "de": "Es hört auf zu regnen.",
-    "lv": "Yağmur duruyor.",
+    "lv": "Shiu po pushon.",
     "level": "Sätze"
   },
   {
     "de": "Die Sonne scheint wieder.",
-    "lv": "Güneş yeniden parlıyor.",
+    "lv": "Dielli ndriçon përsëri.",
     "level": "Sätze"
   },
   {
     "de": "Es ist sehr warm.",
-    "lv": "Çok sıcak.",
+    "lv": "Bën shumë ngrohtë.",
     "level": "Sätze"
   },
   {
     "de": "Es sieht nach Regen aus.",
-    "lv": "Yağmur yağacak gibi görünüyor.",
+    "lv": "Duket sikur do të bjerë shi.",
     "level": "Sätze"
   },
   {
     "de": "Wir bekommen gleich ein Gewitter.",
-    "lv": "Bir fırtına kopmak üzere.",
+    "lv": "Tani do të fillojë një shtrëngatë.",
     "level": "Sätze"
   },
   {
     "de": "Das Gewitter zieht vorüber.",
-    "lv": "Fırtına geçti.",
+    "lv": "Shtrëngata po kalon.",
     "level": "Sätze"
   },
   {
     "de": "Die Wolken verziehen sich.",
-    "lv": "Bulutlar dağılıyor.",
+    "lv": "Retë po shpërndahen.",
     "level": "Sätze"
   },
   {
     "de": "Siehst du den Regenbogen?",
-    "lv": "Gökkuşağını görüyor musun?",
+    "lv": "E sheh ylberin?",
     "level": "Sätze"
   },
   {
     "de": "Der Winter ist da, es hat geschneit.",
-    "lv": "Kış geldi ve geceleri kar yağdı.",
+    "lv": "Erdhi dimri, ka rënë borë.",
     "level": "Sätze"
   },
   {
     "de": "Es schneit.",
-    "lv": "Kar yağıyor.",
+    "lv": "Bie borë.",
     "level": "Sätze"
   },
   {
     "de": "Wie schön ist es im Wald im Winter!",
-    "lv": "Kışın ormanda ne kadar güzel!",
+    "lv": "Sa bukur është në pyll në dimër!",
     "level": "Sätze"
   },
   {
     "de": "Mir ist kalt, ich friere.",
-    "lv": "Üşüyorum, donuyorum.",
+    "lv": "Kam ftohtë, po mërdhij.",
     "level": "Sätze"
   },
   {
     "de": "Draußen ist Glatteis, pass auf!",
-    "lv": "Na zewnątrz jest ślisko, uważajcie!",
+    "lv": "Jashtë ka akull, ki kujdes!",
     "level": "Sätze"
   },
   {
     "de": "Wollen wir auf die Eisbahn gehen?",
-    "lv": "Belki buz patenine gitmeliyiz?",
+    "lv": "Shkojmë në pistën e patinazhit?",
     "level": "Sätze"
   },
   {
     "de": "Zieh die Jacke an, du kannst dich erkälten.",
-    "lv": "Bir ceket giy çünkü üşütebilirsin.",
+    "lv": "Vish xhaketën, se mund të ftohesh.",
     "level": "Sätze"
   },
   {
     "de": "Es ist halb sieben.",
-    "lv": "Saat yedi buçuk.",
+    "lv": "Është ora gjashtë e gjysmë.",
     "level": "Sätze"
   },
   {
     "de": "Meine Uhr geht fünf Minuten vor.",
-    "lv": "Saatim beş dakika ileri.",
+    "lv": "Ora ime shkon pesë minuta përpara.",
     "level": "Sätze"
   },
   {
     "de": "Weck mich morgen früh um sieben Uhr!",
-    "lv": "Yarın beni yedide uyandır!",
+    "lv": "Më zgjo nesër në mëngjes në orën shtatë!",
     "level": "Sätze"
   },
   {
     "de": "Was ist heute für ein Datum?",
-    "lv": "Jaka jest dzisiaj data?",
+    "lv": "Çfarë date kemi sot?",
     "level": "Sätze"
   },
   {
     "de": "Heute ist der elfte Juli.",
-    "lv": "Bugün onbir Temmuz.",
+    "lv": "Sot është njëmbëdhjetë korrik.",
     "level": "Sätze"
   },
   {
     "de": "Was machst du gewöhnlich am Abend?",
-    "lv": "Co zwykle robisz wieczorami?",
+    "lv": "Çfarë bën zakonisht në mbrëmje?",
     "level": "Sätze"
   },
   {
     "de": "Es ist schon lange her, dass wir uns gesehen haben.",
-    "lv": "Uzun zamandır görüşemedik.",
+    "lv": "Ka shumë kohë që nuk jemi parë.",
     "level": "Sätze"
   },
   {
     "de": "Wie geht es dir?",
-    "lv": "Si jeni",
+    "lv": "Si je?",
     "level": "Sätze"
   },
   {
     "de": "Entschuldige, ich möchte etwas mit dir besprechen.",
-    "lv": "Özür dilerim, seninle bir konu hakkında konuşmak istiyorum.",
+    "lv": "Më fal, dua të flas për diçka me ty.",
     "level": "Sätze"
   },
   {
     "de": "Gehen wir spazieren!",
-    "lv": "Hadi yürüyüşe çıkalım!",
+    "lv": "Le të dalim për shëtitje!",
     "level": "Sätze"
   },
   {
     "de": "Hast du Lust, mit mir in den Park zu gehen?",
-    "lv": "Benimle parka gitmek ister misin?",
+    "lv": "Ke dëshirë të vish me mua në park?",
     "level": "Sätze"
   },
   {
     "de": "Ich komme, um dich zum Spaziergang abzuholen.",
-    "lv": "Seni yürüyüşe çıkarmaya geldim.",
+    "lv": "Vij të të marr për shëtitje.",
     "level": "Sätze"
   },
   {
     "de": "Geh bitte etwas langsamer, ich kann dir nicht folgen!",
-    "lv": "Biraz daha yavaş sür, sana yetişemiyorum!",
+    "lv": "Ec pak më ngadalë, të lutem, nuk të arrij dot!",
     "level": "Sätze"
   },
   {
     "de": "Ich bin zum ersten Mal in dieser Gegend.",
-    "lv": "Jestem tu po raz pierwszy.",
+    "lv": "Jam për herë të parë në këtë zonë.",
     "level": "Sätze"
   },
   {
     "de": "Ruhen wir uns ein wenig aus.",
-    "lv": "Biraz dinlenelim.",
+    "lv": "Le të pushojmë pak.",
     "level": "Sätze"
   },
   {
     "de": "Jetzt können wir zurückgehen.",
-    "lv": "Teraz możemy wrócić.",
+    "lv": "Tani mund të kthehemi.",
     "level": "Sätze"
   },
   {
     "de": "Ehrlich gesagt bin ich ziemlich müde.",
-    "lv": "Doğrusunu söylemek gerekirse oldukça yoruldum.",
+    "lv": "Për të thënë të drejtën, jam mjaft i lodhur.",
     "level": "Sätze"
   },
   {
     "de": "Entschuldige, wo ist die nächste U-Bahn-Station?",
-    "lv": "Affedersiniz, en yakın metro istasyonu nerede?",
+    "lv": "Më fal, ku është stacioni më i afërt i metrosë?",
     "level": "Sätze"
   },
   {
     "de": "Welcher ist der kürzeste Weg?",
-    "lv": "En kısa yol hangisidir?",
+    "lv": "Cila është rruga më e shkurtër?",
     "level": "Sätze"
   },
   {
     "de": "Geh hier die zweite Straße links und dann immer geradeaus.",
-    "lv": "Burada soldan ikinci sokağa girin ve düz ilerleyin.",
+    "lv": "Këtu merr rrugën e dytë majtas dhe pastaj vazhdo gjithmonë drejt.",
     "level": "Sätze"
   },
   {
     "de": "Wie komme ich am schnellsten zum Bahnhof?",
-    "lv": "İstasyona daha hızlı nasıl gidilir?",
+    "lv": "Si mund të arrij sa më shpejt në stacionin e trenit?",
     "level": "Sätze"
   },
   {
     "de": "Ich habe vor, morgen zu verreisen.",
-    "lv": "Yarın ayrılmayı planlıyorum.",
+    "lv": "Kam në plan të udhëtoj nesër.",
     "level": "Sätze"
   },
   {
     "de": "Wohin willst du fahren?",
-    "lv": "Nereye gitmek istiyorsun?",
+    "lv": "Ku do të shkosh?",
     "level": "Sätze"
   },
   {
     "de": "Reist du geschäftlich oder privat?",
-    "lv": "İş için mi yoksa zevk için mi seyahat ediyorsunuz?",
+    "lv": "Udhëton për punë apo për arsye personale?",
     "level": "Sätze"
   },
   {
     "de": "Finn fährt bis Berlin mit, dann geht er ans Meer.",
-    "lv": "Finn jedzie do Berlina, potem pojedzie nad morze.",
+    "lv": "Fini udhëton me ne deri në Berlin, pastaj shkon në det.",
     "level": "Sätze"
   },
   {
     "de": "Wann fährt das Schiff ab?",
-    "lv": "Gemi ne zaman kalkıyor?",
+    "lv": "Kur niset anija?",
     "level": "Sätze"
   },
   {
     "de": "In einer halben Stunde.",
-    "lv": "Yarım saat sonra.",
+    "lv": "Pas gjysmë ore.",
     "level": "Sätze"
   },
   {
     "de": "Kann ich noch eine Kabine bekommen?",
-    "lv": "Yine de bir kabin alabilir miyim?",
+    "lv": "A mund të marr ende një kabinë?",
     "level": "Sätze"
   },
   {
     "de": "Vergiss deinen Pass nicht!",
-    "lv": "Nie zapomnij paszportu!",
+    "lv": "Mos e harro pasaportën!",
     "level": "Sätze"
   },
   {
     "de": "Es ist Zeit, den Koffer zu packen.",
-    "lv": "Bavulunuzu hazırlamanın zamanı geldi.",
+    "lv": "Është koha për të bërë valixhen.",
     "level": "Sätze"
   },
   {
     "de": "Der Zug fährt um halb sieben ab.",
-    "lv": "Tren altı buçukta kalkıyor.",
+    "lv": "Treni niset në gjashtë e gjysmë.",
     "level": "Sätze"
   },
   {
     "de": "Hol mir bitte ein Taxi, ich verpasse sonst den Zug!",
-    "lv": "Lütfen bir taksi çağırın, yoksa treni kaçıracağım!",
+    "lv": "Më thirr një taksi, të lutem, përndryshe do ta humbas trenin!",
     "level": "Sätze"
   },
   {
     "de": "Fahr bitte zum Bahnhof!",
-    "lv": "Të lutem më ço në stacion!",
+    "lv": "Më ço në stacion, të lutem!",
     "level": "Sätze"
   },
   {
     "de": "Ich muss mich beeilen.",
-    "lv": "Acele etmeliyim.",
+    "lv": "Duhet të nxitoj.",
     "level": "Sätze"
   },
   {
     "de": "Ist der Schalter schon offen?",
-    "lv": "Yazar kasa zaten açık mı?",
+    "lv": "A është hapur tashmë sporteli?",
     "level": "Sätze"
   },
   {
     "de": "Eine Fahrkarte nach Köln, bitte.",
-    "lv": "Köln'e bir bilet istiyorum.",
+    "lv": "Një biletë për në Këln, ju lutem.",
     "level": "Sätze"
   },
   {
     "de": "Wann fährt der Zug ab?",
-    "lv": "Tren ne zaman kalkıyor?",
+    "lv": "Kur niset treni?",
     "level": "Sätze"
   },
   {
     "de": "Der Zug fährt gleich ab.",
-    "lv": "Tren yakında kalkıyor.",
+    "lv": "Treni po niset.",
     "level": "Sätze"
   },
   {
     "de": "Muss ich in Koblenz umsteigen?",
-    "lv": "Czy muszę zmieniać miejsce w Koblencji?",
+    "lv": "A duhet të ndërroj tren në Koblenc?",
     "level": "Sätze"
   },
   {
     "de": "Ja, dort musst du umsteigen.",
-    "lv": "Evet, oradaki yeri değiştirmeniz gerekiyor.",
+    "lv": "Po, atje duhet të ndërrosh tren.",
     "level": "Sätze"
   },
   {
     "de": "Ist dieser Platz frei?",
-    "lv": "Burası müsait mi?",
+    "lv": "A është i lirë ky vend?",
     "level": "Sätze"
   },
   {
     "de": "Nein, hier sitzt niemand.",
-    "lv": "Nie, nikt tu nie siedzi.",
+    "lv": "Jo, këtu nuk rri askush.",
     "level": "Sätze"
   },
   {
     "de": "Wo ist der Bahnsteigkartenautomat?",
-    "lv": "Gdzie jest automat biletowy na peronie?",
+    "lv": "Ku është automati i biletave të peronit?",
     "level": "Sätze"
   },
   {
     "de": "Stell mein Handgepäck ins Gepäcknetz.",
-    "lv": "El bagajımı ağa koy.",
+    "lv": "Vendose bagazhin tim të dorës në raftin e bagazheve.",
     "level": "Sätze"
   },
   {
     "de": "Kann ich das Fenster aufmachen?",
-    "lv": "Camı açabilir miyim?",
+    "lv": "A mund ta hap dritaren?",
     "level": "Sätze"
   },
   {
     "de": "Es zieht, schließ bitte das Fenster!",
-    "lv": "Lütfen içeri girin, lütfen pencereyi kapatın!",
+    "lv": "Ka rrymë ajri, mbylle dritaren, të lutem!",
     "level": "Sätze"
   },
   {
     "de": "Welche ist die nächste Station?",
-    "lv": "Bir sonraki durak neresi?",
+    "lv": "Cili është stacioni tjetër?",
     "level": "Sätze"
   },
   {
     "de": "Wie lange hält der Zug?",
-    "lv": "Tren ne zamandır bekliyor?",
+    "lv": "Sa kohë ndalon treni?",
     "level": "Sätze"
   },
   {
     "de": "Wo muss ich umsteigen?",
-    "lv": "Nereye taşınmalıyım?",
+    "lv": "Ku duhet të ndërroj tren?",
     "level": "Sätze"
   },
   {
     "de": "Der Zug hat Verspätung.",
-    "lv": "Tren gecikti.",
+    "lv": "Treni ka vonesë.",
     "level": "Sätze"
   },
   {
     "de": "Dieser Wagen ist für Nichtraucher.",
-    "lv": "Bu vagonda sigara içmek yasaktır.",
+    "lv": "Ky vagon është për ata që nuk pinë duhan.",
     "level": "Sätze"
   },
   {
     "de": "Wir fahren jetzt über die Grenze.",
-    "lv": "Teraz jedziemy przez granicę.",
+    "lv": "Tani po kalojmë kufirin.",
     "level": "Sätze"
   },
   {
     "de": "Hast du etwas zu verzollen?",
-    "lv": "Temizleyecek bir şeyin var mı?",
+    "lv": "A ke diçka për të deklaruar në doganë?",
     "level": "Sätze"
   },
   {
     "de": "Wir sind in Berlin angekommen.",
-    "lv": "Berlin'e ulaştık.",
+    "lv": "Kemi arritur në Berlin.",
     "level": "Sätze"
   },
   {
     "de": "Kannst du mir ein gutes Hotel empfehlen?",
-    "lv": "İyi bir otel tavsiye edebilir misiniz?",
+    "lv": "A mund të më rekomandosh një hotel të mirë?",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie freie Zimmer?",
-    "lv": "Czy masz wolne pokoje?",
+    "lv": "A keni dhoma të lira?",
     "level": "Sätze"
   },
   {
     "de": "Ein Zimmer mit zwei Betten, bitte.",
-    "lv": "İki yataklı bir oda istiyorum lütfen.",
+    "lv": "Një dhomë me dy shtretër, ju lutem.",
     "level": "Sätze"
   },
   {
     "de": "Was kostet das Zimmer pro Nacht?",
-    "lv": "Odanın gecelik fiyatı ne kadar?",
+    "lv": "Sa kushton dhoma për një natë?",
     "level": "Sätze"
   },
   {
     "de": "Morgen reise ich ab. Weck mich um sieben Uhr!",
-    "lv": "Wyjeżdżam jutro. Obudź mnie o siódmej!",
+    "lv": "Nesër nisem. Më zgjo në orën shtatë!",
     "level": "Sätze"
   },
   {
     "de": "Die Rechnung, bitte!",
-    "lv": "Hesap lütfen!",
+    "lv": "Llogarinë, ju lutem!",
     "level": "Sätze"
   },
   {
     "de": "Wo ist die Stadtbibliothek?",
-    "lv": "Gdzie jest biblioteka miejska?",
+    "lv": "Ku është biblioteka e qytetit?",
     "level": "Sätze"
   },
   {
     "de": "Wann hat das Museum geöffnet?",
-    "lv": "Kiedy muzeum jest otwarte?",
+    "lv": "Kur është i hapur muzeu?",
     "level": "Sätze"
   },
   {
     "de": "Wollen wir ins Museum gehen?",
-    "lv": "Müzeye gidelim mi?",
+    "lv": "Të shkojmë në muze?",
     "level": "Sätze"
   },
   {
     "de": "Fahren wir mit dem Bus oder der U-Bahn?",
-    "lv": "Jedziemy autobusem czy metrem?",
+    "lv": "A shkojmë me autobus apo me metro?",
     "level": "Sätze"
   },
   {
     "de": "Wo ist die nächste Bushaltestelle?",
-    "lv": "En yakın otobüs durağı nerede?",
+    "lv": "Ku është stacioni më i afërt i autobusit?",
     "level": "Sätze"
   },
   {
     "de": "Ich habe großen Hunger.",
-    "lv": "Çok açım.",
+    "lv": "Kam shumë uri.",
     "level": "Sätze"
   },
   {
     "de": "Gehen wir zusammen essen?",
-    "lv": "Birlikte yemek yemeye gidelim mi?",
+    "lv": "A shkojmë të hamë bashkë?",
     "level": "Sätze"
   },
   {
     "de": "Kellner, die Speisekarte, bitte!",
-    "lv": "Garsonlar, menü lütfen!",
+    "lv": "Kamerier, listën e gjellëve, ju lutem!",
     "level": "Sätze"
   },
   {
     "de": "Ist der Fisch frisch?",
-    "lv": "Balık taze mi?",
+    "lv": "A është i freskët peshku?",
     "level": "Sätze"
   },
   {
     "de": "Das schmeckt ausgezeichnet!",
-    "lv": "Smakuje wspaniale!",
+    "lv": "Kjo ka shije të shkëlqyer!",
     "level": "Sätze"
   },
   {
     "de": "Kellner, zahlen bitte!",
-    "lv": "Garsonlar, lütfen ödeyin!",
+    "lv": "Kamerier, dua të paguaj, ju lutem!",
     "level": "Sätze"
   },
   {
     "de": "Ich gehe ins Café einen Kaffee trinken.",
-    "lv": "Pójdę do kawiarni napić się kawy.",
+    "lv": "Po shkoj në kafene të pi një kafe.",
     "level": "Sätze"
   },
   {
     "de": "Willst du mitkommen?",
-    "lv": "Gelmek ister misin?",
+    "lv": "Do të vish me mua?",
     "level": "Sätze"
   },
   {
     "de": "Eine Tasse Kaffee mit Milch, bitte!",
-    "lv": "Bir fincan sütlü kahve istiyorum!",
+    "lv": "Një filxhan kafe me qumësht, ju lutem!",
     "level": "Sätze"
   },
   {
     "de": "Bitte schneller, ich habe es eilig!",
-    "lv": "Acele edin lütfen, acele etmeliyim!",
+    "lv": "Më shpejt, ju lutem, se jam me nxitim!",
     "level": "Sätze"
   },
   {
     "de": "Lass deinen Kaffee nicht kalt werden!",
-    "lv": "Kahveniz soğumasın!",
+    "lv": "Mos e lër kafen të ftohet!",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie etwas Erfrischendes?",
-    "lv": "Masz coś orzeźwiającego?",
+    "lv": "A keni diçka freskuese?",
     "level": "Sätze"
   },
   {
     "de": "Eine Portion Eis, bitte!",
-    "lv": "Dondurma yardımı istiyorum!",
+    "lv": "Një porcion akullore, ju lutem!",
     "level": "Sätze"
   },
   {
     "de": "Heute Morgen habe ich einen Brief bekommen.",
-    "lv": "Bu sabah bir mektup aldım.",
+    "lv": "Sot në mëngjes mora një letër.",
     "level": "Sätze"
   },
   {
     "de": "Ich muss ihm gleich schreiben.",
-    "lv": "Şimdi ona yazmalıyım.",
+    "lv": "Duhet t'i shkruaj menjëherë.",
     "level": "Sätze"
   },
   {
     "de": "Wo ist der nächste Briefkasten?",
-    "lv": "En yakın posta kutusu nerede?",
+    "lv": "Ku është kutia postare më e afërt?",
     "level": "Sätze"
   },
   {
     "de": "Wo ist die Post?",
-    "lv": "Gdzie jest poczta?",
+    "lv": "Ku është posta?",
     "level": "Sätze"
   },
   {
     "de": "Erinnere mich morgen daran zu schreiben!",
-    "lv": "Yarın imzalamayı bana hatırlat!",
+    "lv": "Më kujto nesër të shkruaj!",
     "level": "Sätze"
   },
   {
     "de": "Werfen Sie bitte diesen Brief in den Briefkasten.",
-    "lv": "Lütfen bu mektubu posta kutunuza koyun!",
+    "lv": "Ju lutem, hidheni këtë letër në kutinë postare.",
     "level": "Sätze"
   },
   {
     "de": "Hallo, hier spricht Emma.",
-    "lv": "Merhaba, bu Emma.",
+    "lv": "Alo, jam Ema.",
     "level": "Sätze"
   },
   {
     "de": "Kann ich dich später anrufen?",
-    "lv": "Të të marr më vonë në telefon?",
+    "lv": "A mund të të telefonoj më vonë?",
     "level": "Sätze"
   },
   {
     "de": "Muss ich lange warten?",
-    "lv": "Uzun süre beklemem gerekiyor mu?",
+    "lv": "A duhet të pres gjatë?",
     "level": "Sätze"
   },
   {
     "de": "Bitte schneiden Sie mir die Haare.",
-    "lv": "Lütfen saçımı kesin.",
+    "lv": "Ju lutem, m'i prisni flokët.",
     "level": "Sätze"
   },
   {
     "de": "Hinten bitte nicht zu kurz.",
-    "lv": "Arkada lütfen çok kısa olmasın.",
+    "lv": "Prapa, ju lutem, jo shumë shkurt.",
     "level": "Sätze"
   },
   {
     "de": "Wann beginnt die Vorstellung?",
-    "lv": "Gösteri ne zaman başlıyor?",
+    "lv": "Kur fillon shfaqja?",
     "level": "Sätze"
   },
   {
     "de": "Es fängt um halb acht an.",
-    "lv": "Zaczyna się o wpół do siódmej.",
+    "lv": "Fillon në shtatë e gjysmë.",
     "level": "Sätze"
   },
   {
     "de": "Alle Plätze sind ausverkauft.",
-    "lv": "Tüm biletler tükendi.",
+    "lv": "Të gjitha vendet janë shitur.",
     "level": "Sätze"
   },
   {
     "de": "Drei Karten, bitte!",
-    "lv": "Üç bilet lütfen!",
+    "lv": "Tri bileta, ju lutem!",
     "level": "Sätze"
   },
   {
     "de": "Wir lassen die Jacken in der Garderobe.",
-    "lv": "Zostawmy kurtki w szafie.",
+    "lv": "Xhaketat i lëmë në gardërobë.",
     "level": "Sätze"
   },
   {
     "de": "Bitte schnell, der Vorhang geht gleich auf!",
-    "lv": "Acele edin lütfen, perde açılmak üzere!",
+    "lv": "Shpejt, ju lutem, perdja po ngrihet!",
     "level": "Sätze"
   },
   {
     "de": "Der Vorhang fällt.",
-    "lv": "Kurtyna opada.",
+    "lv": "Perdja bie.",
     "level": "Sätze"
   },
   {
     "de": "Darf ich dich zum Tanz bitten?",
-    "lv": "Senden dans etmeni isteyebilir miyim?",
+    "lv": "A mund të të ftoj për një valle?",
     "level": "Sätze"
   },
   {
     "de": "Wann ist eure Hochzeit?",
-    "lv": "Düğünün ne zaman?",
+    "lv": "Kur është dasma juaj?",
     "level": "Sätze"
   },
   {
     "de": "Ich suche eine Wohnung.",
-    "lv": "Szukam mieszkania.",
+    "lv": "Po kërkoj një apartament.",
     "level": "Sätze"
   },
   {
     "de": "Ist in diesem Haus eine Wohnung frei?",
-    "lv": "Czy w tym domu jest wolne mieszkanie?",
+    "lv": "A ka ndonjë apartament të lirë në këtë pallat?",
     "level": "Sätze"
   },
   {
     "de": "Wie viel kostet die Miete?",
-    "lv": "Ile wynosi czynsz?",
+    "lv": "Sa është qiraja?",
     "level": "Sätze"
   },
   {
     "de": "Die Wohnung hat drei Zimmer und eine Küche.",
-    "lv": "Mieszkanie ma trzy pokoje i kuchnię.",
+    "lv": "Apartamenti ka tri dhoma dhe një kuzhinë.",
     "level": "Sätze"
   },
   {
     "de": "Heute ziehen wir um.",
-    "lv": "Bugün taşınıyoruz.",
+    "lv": "Sot shpërngulemi.",
     "level": "Sätze"
   },
   {
     "de": "Mia, pack die Sachen bitte in Kisten!",
-    "lv": "Mia, proszę, spakuj rzeczy do pudełek!",
+    "lv": "Mia, futi gjërat në kuti, të lutem!",
     "level": "Sätze"
   },
   {
     "de": "Hast du alles eingepackt?",
-    "lv": "Her şey zaten paketlenmiş mi?",
+    "lv": "I ke paketuar të gjitha?",
     "level": "Sätze"
   },
   {
     "de": "Ich stehe mit meinem Freund in Kontakt.",
-    "lv": "Bir arkadaşımla yazışıyorum.",
+    "lv": "Jam në kontakt me mikun tim.",
     "level": "Sätze"
   },
   {
     "de": "Gehen wir ins Theater?",
-    "lv": "Tiyatroya gidelim mi?",
+    "lv": "A shkojmë në teatër?",
     "level": "Sätze"
   },
   {
     "de": "Ist alles eingeladen?",
-    "lv": "Her şey yüklendi mi?",
+    "lv": "A është ngarkuar gjithçka?",
     "level": "Sätze"
   },
   {
     "de": "Welch schöne Aussicht!",
-    "lv": "Ne güzel bir manzara!",
+    "lv": "Çfarë pamje e bukur!",
     "level": "Sätze"
   },
   {
     "de": "Nun können wir alles wieder aufräumen.",
-    "lv": "Artık her şeyi bir araya getirebiliriz.",
+    "lv": "Tani mund t'i rregullojmë përsëri të gjitha.",
     "level": "Sätze"
   },
   {
     "de": "Wie viele Zimmer habt ihr?",
-    "lv": "Ile masz pokoi?",
+    "lv": "Sa dhoma keni?",
     "level": "Sätze"
   },
   {
     "de": "Im Sommer fahre ich ans Meer.",
-    "lv": "Yazın deniz kenarına gideceğim.",
+    "lv": "Në verë do të shkoj në det.",
     "level": "Sätze"
   },
   {
     "de": "Kannst du schwimmen?",
-    "lv": "Czy umie Pan pływać",
+    "lv": "A di të notosh?",
     "level": "Sätze"
   },
   {
     "de": "Schwimm nicht zu weit hinaus!",
-    "lv": "Çok uzağa yüzmeyin!",
+    "lv": "Mos noto shumë larg!",
     "level": "Sätze"
   },
   {
     "de": "Badest du jeden Tag?",
-    "lv": "Her gün yüzüyor musun?",
+    "lv": "A lahesh në det çdo ditë?",
     "level": "Sätze"
   },
   {
     "de": "Bei schönem Wetter gehe ich angeln.",
-    "lv": "Hava güzel olursa balık tutmaya giderim.",
+    "lv": "Kur bën kohë e mirë, shkoj për peshk.",
     "level": "Sätze"
   },
   {
     "de": "Wie sieht er aus?",
-    "lv": "Neye benziyor?",
+    "lv": "Si duket?",
     "level": "Sätze"
   },
   {
     "de": "Er hat sich aber recht verändert.",
-    "lv": "Ancak oldukça değişti.",
+    "lv": "Ka ndryshuar vërtet mjaft.",
     "level": "Sätze"
   },
   {
     "de": "Wie ist er als Mensch?",
-    "lv": "Jaki jest jako osoba?",
+    "lv": "Si është ai si njeri?",
     "level": "Sätze"
   },
   {
     "de": "Er ist immer nett und freundlich.",
-    "lv": "O her zaman nazik ve hoştur.",
+    "lv": "Është gjithmonë i këndshëm dhe i sjellshëm.",
     "level": "Sätze"
   },
   {
     "de": "Ich fühle mich nicht wohl.",
-    "lv": "Kendimi kötü hissediyorum.",
+    "lv": "Nuk ndihem mirë.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe starke Kopfschmerzen.",
-    "lv": "Başım çok kötü ağrıyor.",
+    "lv": "Kam dhimbje të forta koke.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe mich erkältet.",
-    "lv": "Soğuk algınlığım var.",
+    "lv": "Jam ftohur.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe Schnupfen.",
-    "lv": "Mam katar.",
+    "lv": "Kam rrufë.",
     "level": "Sätze"
   },
   {
     "de": "Mir ist schwindlig.",
-    "lv": "Başım dönüyor.",
+    "lv": "Më merren mendtë.",
     "level": "Sätze"
   },
   {
     "de": "Ich muss zum Arzt gehen.",
-    "lv": "Doktora gitmeliyim.",
+    "lv": "Duhet të shkoj te mjeku.",
     "level": "Sätze"
   },
   {
     "de": "Leg dich ins Bett!",
-    "lv": "Yatmak!",
+    "lv": "Shtrihu në shtrat!",
     "level": "Sätze"
   },
   {
     "de": "Hast du Fieber?",
-    "lv": "Ateşin mi var?",
+    "lv": "A ke temperaturë?",
     "level": "Sätze"
   },
   {
     "de": "Gestern hatte ich erhöhte Temperatur.",
-    "lv": "Dün ateşim yüksekti.",
+    "lv": "Dje kisha pak temperaturë.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe Zahnschmerzen.",
-    "lv": "Diş ağrım var.",
+    "lv": "Më dhemb dhëmbi.",
     "level": "Sätze"
   },
   {
     "de": "Ich muss zum Zahnarzt gehen.",
-    "lv": "Dişçiye gitmem gerekiyor.",
+    "lv": "Duhet të shkoj te dentisti.",
     "level": "Sätze"
   },
   {
     "de": "Weißt du, dass Finn krank ist?",
-    "lv": "Finn'in hasta olduğunu biliyor muydun?",
+    "lv": "A e di që Fini është i sëmurë?",
     "level": "Sätze"
   },
   {
     "de": "Laut Arzt wird er bald wieder gesund.",
-    "lv": "Doktorun söylediğine göre yakında iyileşecek.",
+    "lv": "Sipas mjekut, ai do të shërohet së shpejti.",
     "level": "Sätze"
   },
   {
     "de": "Ich will meine Wohnung neu möblieren.",
-    "lv": "Dairemi yenilemek istiyorum.",
+    "lv": "Dua ta mobiloj nga e para banesën time.",
     "level": "Sätze"
   },
   {
     "de": "Kann ich das auf Raten kaufen?",
-    "lv": "Taksitle satın alabilir miyim?",
+    "lv": "A mund ta blej këtë me këste?",
     "level": "Sätze"
   },
   {
     "de": "Bleib im Bett, bis es dir besser geht!",
-    "lv": "Kendinizi daha iyi hissedene kadar yatakta kalın!",
+    "lv": "Rri në shtrat derisa të ndihesh më mirë!",
     "level": "Sätze"
   },
   {
     "de": "Noah hat in zwei Wochen schwimmen gelernt.",
-    "lv": "Noah yüzmeyi iki haftada öğrendi.",
+    "lv": "Noa mësoi të notonte për dy javë.",
     "level": "Sätze"
   },
   {
     "de": "Sei mit dem Essen noch vorsichtig.",
-    "lv": "Yiyeceklere dikkat edin.",
+    "lv": "Ki ende kujdes me ushqimin.",
     "level": "Sätze"
   },
   {
     "de": "Sprichst du Deutsch?",
-    "lv": "Almanca biliyor musun?",
+    "lv": "Flet gjermanisht?",
     "level": "Sätze"
   },
   {
     "de": "Ja, ein bisschen.",
-    "lv": "Evet, biraz.",
+    "lv": "Po, pak.",
     "level": "Sätze"
   },
   {
     "de": "Du sprichst ziemlich fließend.",
-    "lv": "Gayet akıcı konuşuyorsun.",
+    "lv": "Flet mjaft rrjedhshëm.",
     "level": "Sätze"
   },
   {
     "de": "Wo hast du Deutsch gelernt?",
-    "lv": "Almancayı nerede öğrendin?",
+    "lv": "Ku e mësove gjermanishten?",
     "level": "Sätze"
   },
   {
     "de": "Ich nehme seit einem Jahr Deutschstunden.",
-    "lv": "Bir yıldır Almanca dersi alıyorum.",
+    "lv": "Prej një viti marr mësime gjermanishteje.",
     "level": "Sätze"
   },
   {
     "de": "Ich suche immer Gelegenheit, Deutsch zu sprechen.",
-    "lv": "Zawsze szukam okazji do rozmowy po niemiecku.",
+    "lv": "Gjithmonë kërkoj rast për të folur gjermanisht.",
     "level": "Sätze"
   },
   {
     "de": "Ist das Buch noch vorrätig?",
-    "lv": "Bu kitap hâlâ mevcut mu?",
+    "lv": "A gjendet ende libri?",
     "level": "Sätze"
   },
   {
     "de": "Das Buch ist leider ausverkauft.",
-    "lv": "Ne yazık ki kitap tükendi.",
+    "lv": "Për fat të keq, libri është shitur krejt.",
     "level": "Sätze"
   },
   {
     "de": "Wann erscheint die neue Auflage?",
-    "lv": "Yeni baskı ne zaman çıkacak?",
+    "lv": "Kur del botimi i ri?",
     "level": "Sätze"
   },
   {
     "de": "Womit kann ich Ihnen helfen?",
-    "lv": "Nasıl yardımcı olabilirim?",
+    "lv": "Me çfarë mund t'ju ndihmoj?",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie ganz frische Eier?",
-    "lv": "Taze yumurtanız var mı?",
+    "lv": "A keni vezë shumë të freskëta?",
     "level": "Sätze"
   },
   {
     "de": "Was kosten die?",
-    "lv": "Maliyetleri ne kadar?",
+    "lv": "Sa kushtojnë?",
     "level": "Sätze"
   },
   {
     "de": "Das ist zu teuer.",
-    "lv": "Çok pahalı.",
+    "lv": "Është tepër shtrenjtë.",
     "level": "Sätze"
   },
   {
     "de": "Können Sie mir ein halbes Kilo abwiegen?",
-    "lv": "Yarım kilo alabilir misin?",
+    "lv": "A mund të më peshoni gjysmë kilogrami?",
     "level": "Sätze"
   },
   {
     "de": "Wie viel muss ich zahlen?",
-    "lv": "Ne kadar ödemem gerekiyor?",
+    "lv": "Sa duhet të paguaj?",
     "level": "Sätze"
   },
   {
     "de": "Wie viel kostet das Kilo?",
-    "lv": "Ile kosztuje kilogram?",
+    "lv": "Sa kushton kilogrami?",
     "level": "Sätze"
   },
   {
     "de": "Wiegen Sie mir bitte zwei Kilo ab.",
-    "lv": "Lütfen iki kilogram tartın.",
+    "lv": "Më peshoni, ju lutem, dy kilogramë.",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie auch Karotten?",
-    "lv": "Havuç da var mı?",
+    "lv": "A keni edhe karota?",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie gutes Rindfleisch?",
-    "lv": "İyi sığır eti var mı?",
+    "lv": "A keni mish viçi të mirë?",
     "level": "Sätze"
   },
   {
     "de": "Geben Sie mir zwei Kilo Hackfleisch.",
-    "lv": "İki kilo kıyma verin.",
+    "lv": "Më jepni dy kilogramë mish të grirë.",
     "level": "Sätze"
   },
   {
     "de": "Ein Laib Brot, bitte, aber nicht zu knusprig.",
-    "lv": "Bir somun ekmek istiyorum ama çok sert değil.",
+    "lv": "Një bukë, ju lutem, por jo me kore shumë të fortë.",
     "level": "Sätze"
   },
   {
     "de": "Das Brot ist frisch gebacken.",
-    "lv": "Ekmek taze pişmiştir.",
+    "lv": "Buka sapo është pjekur.",
     "level": "Sätze"
   },
   {
     "de": "Was für Obst haben Sie heute?",
-    "lv": "Jakie owoce masz dzisiaj?",
+    "lv": "Çfarë frutash keni sot?",
     "level": "Sätze"
   },
   {
     "de": "Was kosten die Äpfel?",
-    "lv": "Elmanın fiyatı ne kadar?",
+    "lv": "Sa kushtojnë mollët?",
     "level": "Sätze"
   },
   {
     "de": "Dann nehme ich zwei Kilo Äpfel.",
-    "lv": "Sonra iki kilo elma alacağım.",
+    "lv": "Atëherë po marr dy kilogramë mollë.",
     "level": "Sätze"
   },
   {
     "de": "Die Birnen sind sehr teuer.",
-    "lv": "Armut çok pahalıdır.",
+    "lv": "Dardhat janë shumë të shtrenjta.",
     "level": "Sätze"
   },
   {
     "de": "Können Sie mir alles nach Hause liefern?",
-    "lv": "Her şeyi evinize teslim edebilir misiniz?",
+    "lv": "A mund të m'i dërgoni të gjitha në shtëpi?",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie Reis?",
-    "lv": "Pirinç var mı?",
+    "lv": "A keni oriz?",
     "level": "Sätze"
   },
   {
     "de": "Geben Sie mir bitte ein Kilo Reis.",
-    "lv": "Lütfen bana bir kilo pirinç ver.",
+    "lv": "Më jepni, ju lutem, një kilogram oriz.",
     "level": "Sätze"
   },
   {
     "de": "Danke, diesmal nicht.",
-    "lv": "Teşekkür ederim, bu sefer değil.",
+    "lv": "Faleminderit, këtë herë jo.",
     "level": "Sätze"
   },
   {
     "de": "Wie viel kostet dieser Teppich?",
-    "lv": "Ile kosztuje ten dywan?",
+    "lv": "Sa kushton ky qilim?",
     "level": "Sätze"
   },
   {
     "de": "Können Sie die Möbel in meine Wohnung liefern?",
-    "lv": "Daireye mobilya teslim etmek mümkün mü?",
+    "lv": "A mund t'i dërgoni mobiliet në banesën time?",
     "level": "Sätze"
   },
   {
     "de": "Bitte an der Kasse zahlen.",
-    "lv": "Lütfen ödeme sırasında ödeme yapın.",
+    "lv": "Ju lutem, paguani në arkë.",
     "level": "Sätze"
   },
   {
     "de": "Bitte, machen Sie die Rechnung.",
-    "lv": "Lütfen fatura düzenleyin.",
+    "lv": "Ju lutem, ma bëni faturën.",
     "level": "Sätze"
   },
   {
     "de": "Was kostet das Meter?",
-    "lv": "Ile kosztuje metr?",
+    "lv": "Sa kushton metri?",
     "level": "Sätze"
   },
   {
     "de": "Dieser Stoff gefällt mir.",
-    "lv": "Uwielbiam tę tkaninę.",
+    "lv": "Ky stof më pëlqen.",
     "level": "Sätze"
   },
   {
     "de": "Schneiden Sie mir bitte drei Meter ab.",
-    "lv": "Lütfen üç metreyi kesin.",
+    "lv": "Më prisni, ju lutem, tre metra.",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie auch andere Muster?",
-    "lv": "Başka örnekleriniz var mı?",
+    "lv": "A keni edhe modele të tjera? • A keni edhe mostra të tjera?",
     "level": "Sätze"
   },
   {
     "de": "Diese Farbe gefällt mir nicht.",
-    "lv": "Bu rengi sevmiyorum.",
+    "lv": "Kjo ngjyrë nuk më pëlqen.",
     "level": "Sätze"
   },
   {
     "de": "Geben Sie mir eine hellere.",
-    "lv": "Daha parlak hale getirin.",
+    "lv": "Më jepni një më të çelët.",
     "level": "Sätze"
   },
   {
     "de": "Was kosten diese Socken?",
-    "lv": "Bu çorapların fiyatı ne kadar?",
+    "lv": "Sa kushtojnë këto çorape?",
     "level": "Sätze"
   },
   {
     "de": "Welche Handschuhe wünschen Sie?",
-    "lv": "Ne tür eldiven istiyorsun?",
+    "lv": "Çfarë dorezash dëshironi?",
     "level": "Sätze"
   },
   {
     "de": "Die sind mir etwas zu eng.",
-    "lv": "Benim için biraz fazla sıkılar.",
+    "lv": "Më rrinë pak si tepër të ngushta.",
     "level": "Sätze"
   },
   {
     "de": "So, nun passen sie gut.",
-    "lv": "Yani şimdi iyi çalışıyor.",
+    "lv": "Ja, tani rrinë mirë.",
     "level": "Sätze"
   },
   {
     "de": "Kannst du mir einen guten Schneider empfehlen?",
-    "lv": "İyi bir terzi önerebilir misiniz?",
+    "lv": "A mund të më rekomandosh një rrobaqepës të mirë?",
     "level": "Sätze"
   },
   {
     "de": "Ich will einen Anzug bestellen.",
-    "lv": "Takım elbise sipariş etmek istiyorum.",
+    "lv": "Dua të porosis një kostum.",
     "level": "Sätze"
   },
   {
     "de": "Wann wird er fertig sein?",
-    "lv": "Ne zaman hazır olacak?",
+    "lv": "Kur do të jetë gati?",
     "level": "Sätze"
   },
   {
     "de": "Der Anzug sitzt gut.",
-    "lv": "Garnitur pasuje dobrze.",
+    "lv": "Kostumi rri mirë.",
     "level": "Sätze"
   },
   {
     "de": "Die Hose ist zu lang.",
-    "lv": "Pantolon çok uzun.",
+    "lv": "Pantallonat janë tepër të gjata.",
     "level": "Sätze"
   },
   {
     "de": "Bitte reinigen und bügeln Sie ihn!",
-    "lv": "Lütfen temizleyin ve ütüleyin!",
+    "lv": "Ju lutem, ma pastroni dhe ma hekurosni!",
     "level": "Sätze"
   },
   {
     "de": "Wann wird das Kleid fertig sein?",
-    "lv": "Elbise ne zaman hazır olacak?",
+    "lv": "Kur do të jetë gati fustani?",
     "level": "Sätze"
   },
   {
     "de": "Die Schuhe sind zu eng.",
-    "lv": "Ayakkabılar çok dar.",
+    "lv": "Këpucët janë tepër të ngushta.",
     "level": "Sätze"
   },
   {
     "de": "Können Sie die Schuhe heute reparieren?",
-    "lv": "Bugün ayakkabılarını tamir edebilir misin?",
+    "lv": "A mund t'i rregulloni këpucët sot?",
     "level": "Sätze"
   },
   {
     "de": "Wann kann ich die Schuhe abholen?",
-    "lv": "Ayakkabılarımı ne zaman getirebilirim?",
+    "lv": "Kur mund t'i marr këpucët?",
     "level": "Sätze"
   },
   {
     "de": "Meine Armbanduhr funktioniert nicht.",
-    "lv": "Saatim çalışmıyor.",
+    "lv": "Ora ime e dorës nuk punon.",
     "level": "Sätze"
   },
   {
     "de": "Sie geht fünf Minuten vor.",
-    "lv": "Beş dakika erken.",
+    "lv": "Shkon pesë minuta përpara.",
     "level": "Sätze"
   },
   {
     "de": "Bist du kurzsichtig oder weitsichtig?",
-    "lv": "Kısa görüşlü müsünüz yoksa uzak görüşlü müsünüz?",
+    "lv": "Je dritëshkurtër apo dritëgjatë?",
     "level": "Sätze"
   },
   {
     "de": "Ich möchte eine Brille kaufen.",
-    "lv": "Gözlük satın almak istiyorum.",
+    "lv": "Do të doja të blija një palë syze.",
     "level": "Sätze"
   },
   {
     "de": "Können Sie meine Brille reparieren?",
-    "lv": "Czy możesz naprawić moje okulary?",
+    "lv": "A mund t'i rregulloni syzet e mia?",
     "level": "Sätze"
   },
   {
     "de": "Das dauert nur eine Viertelstunde.",
-    "lv": "Sadece on beş dakika sürecektir.",
+    "lv": "Kjo zgjat vetëm një çerek ore.",
     "level": "Sätze"
   },
   {
     "de": "Der Preis ist mir zu hoch.",
-    "lv": "Cena jest dla mnie za wysoka.",
+    "lv": "Çmimi është tepër i lartë për mua.",
     "level": "Sätze"
   },
   {
     "de": "Ich brauche zwei Fotos für meinen Pass.",
-    "lv": "İki adet vesikalık fotoğrafa ihtiyacım var.",
+    "lv": "Më duhen dy fotografi për pasaportën.",
     "level": "Sätze"
   },
   {
     "de": "Bitte packen Sie es ein und schicken Sie es mir nach Hause.",
-    "lv": "Lütfen paketleyip evinize gönderin.",
+    "lv": "Ju lutem, mbështilleni dhe ma dërgoni në shtëpi.",
     "level": "Sätze"
   },
   {
     "de": "Wir haben feste Preise.",
-    "lv": "Sabit fiyatlarımız var.",
+    "lv": "Kemi çmime fikse.",
     "level": "Sätze"
   },
   {
     "de": "Bitte, fotografieren Sie mich.",
-    "lv": "Lütfen bir fotoğrafımı çek.",
+    "lv": "Ju lutem, më bëni një fotografi.",
     "level": "Sätze"
   },
   {
     "de": "Setzen Sie sich, schauen Sie gerade in die Kamera und bewegen Sie sich nicht!",
-    "lv": "Oturun, doğrudan kameraya bakın ve hareket etmeyin!",
+    "lv": "Uluni, shikoni drejt në aparat dhe mos lëvizni!",
     "level": "Sätze"
   },
   {
     "de": "Wann kann ich das Probebild sehen?",
-    "lv": "Bir örneği ne zaman görebilirim?",
+    "lv": "Kur mund ta shoh fotografinë e provës?",
     "level": "Sätze"
   },
   {
     "de": "Wann sind die Fotos fertig?",
-    "lv": "Fotoğraflar ne zaman hazır olacak?",
+    "lv": "Kur do të jenë gati fotografitë?",
     "level": "Sätze"
   },
   {
     "de": "Die Aufnahme ist gelungen.",
-    "lv": "Fotoğraf başarılıydı.",
+    "lv": "Fotografia doli mirë.",
     "level": "Sätze"
   },
   {
     "de": "Die Fotos sind gut geworden.",
-    "lv": "Fotoğraflar iyi çıktı.",
+    "lv": "Fotografitë kanë dalë mirë.",
     "level": "Sätze"
   },
   {
     "de": "Können Sie das Foto auch vergrößern?",
-    "lv": "Fotoğrafı da büyütebilir misiniz?",
+    "lv": "A mund ta zmadhoni edhe fotografinë?",
     "level": "Sätze"
   },
   {
     "de": "Sind diese Steine echt?",
-    "lv": "Bu taşlar gerçek mi?",
+    "lv": "A janë të vërtetë këta gurë?",
     "level": "Sätze"
   },
   {
     "de": "Ist das echtes Gold?",
-    "lv": "Bu gerçek altın mı?",
+    "lv": "A është ar i vërtetë?",
     "level": "Sätze"
   },
   {
     "de": "Zeigen Sie mir bitte Trauringe.",
-    "lv": "Bana evlilik yüzüklerini göster lütfen.",
+    "lv": "Më tregoni, ju lutem, unaza martese.",
     "level": "Sätze"
   },
   {
     "de": "Der Ring ist mir etwas zu weit.",
-    "lv": "Pierścionek jest dla mnie trochę za duży.",
+    "lv": "Unaza më rri pak e gjerë.",
     "level": "Sätze"
   },
   {
     "de": "Ich kann ihn enger machen.",
-    "lv": "Bunu daraltabilirim.",
+    "lv": "Mund ta ngushtoj.",
     "level": "Sätze"
   },
   {
     "de": "Dieser Ring passt mir.",
-    "lv": "Bu yüzük bana yakışıyor.",
+    "lv": "Kjo unazë më rri mirë.",
     "level": "Sätze"
   },
   {
     "de": "Zeigen Sie mir schöne Geschenkideen.",
-    "lv": "Güzel hediye fikirleri sunun.",
+    "lv": "Më tregoni ide të bukura për dhurata.",
     "level": "Sätze"
   },
   {
     "de": "Wie gefallen dir diese Ohrringe?",
-    "lv": "Bu küpeleri beğendin mi?",
+    "lv": "Si të pëlqejnë këta vathë?",
     "level": "Sätze"
   },
   {
     "de": "Diese Brosche ist wirklich schön.",
-    "lv": "Bu broş çok güzel.",
+    "lv": "Kjo karficë është vërtet e bukur.",
     "level": "Sätze"
   },
   {
     "de": "Der Stein ist ein Saphir.",
-    "lv": "Bu taş safirdir.",
+    "lv": "Guri është safir.",
     "level": "Sätze"
   },
   {
     "de": "Das ist kein echter Stein, das ist Glas.",
-    "lv": "Gerçek taş değil, cam.",
+    "lv": "Ky nuk është gur i vërtetë, është xham.",
     "level": "Sätze"
   },
   {
     "de": "Dieses Armband kann ich Ihnen besonders empfehlen.",
-    "lv": "Bu bilekliği özellikle tavsiye ediyorum.",
+    "lv": "Këtë byzylyk mund t'jua rekomandoj veçanërisht.",
     "level": "Sätze"
   },
   {
     "de": "Es ist besonders schön gearbeitet.",
-    "lv": "Jest niezwykle precyzyjnie wykonany.",
+    "lv": "Është punuar veçanërisht bukur.",
     "level": "Sätze"
   },
   {
     "de": "Der Preis ist nicht hoch.",
-    "lv": "Cena nie jest wysoka.",
+    "lv": "Çmimi nuk është i lartë.",
     "level": "Sätze"
   },
   {
     "de": "Bekomme ich die Schachtel gratis?",
-    "lv": "Ücretsiz bir kutu aldım mı?",
+    "lv": "A e marr kutinë falas?",
     "level": "Sätze"
   },
   {
     "de": "Alle Schmuckstücke sind gestempelt.",
-    "lv": "Tüm mücevherler damgalanmıştır.",
+    "lv": "Të gjitha stolitë janë të vulosura.",
     "level": "Sätze"
   },
   {
     "de": "Falls es meiner Frau nicht gefällt, kann ich es umtauschen?",
-    "lv": "Eşim beğenmezse değiştirebilir miyim?",
+    "lv": "Nëse gruas sime nuk i pëlqen, a mund ta ndërroj?",
     "level": "Sätze"
   },
   {
     "de": "Natürlich, jederzeit.",
-    "lv": "Tabii ki asla.",
+    "lv": "Sigurisht, në çdo kohë.",
     "level": "Sätze"
   }
 ];
