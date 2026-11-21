@@ -1,27 +1,27 @@
 const SENTENCE_ENTRIES = [
   {
     "de": "Hüte dich davor!",
-    "lv": "Atenție la asta!",
+    "lv": "Ferește-te de asta!",
     "level": "Sätze"
   },
   {
     "de": "Wenn nichts dazwischenkommt.",
-    "lv": "Dacă nimic nu interferează. • Dacă totul decurge conform planului.",
+    "lv": "Dacă nu intervine nimic. • Dacă totul merge conform planului.",
     "level": "Sätze"
   },
   {
     "de": "Das kann ich mir denken!",
-    "lv": "Știu că!",
+    "lv": "Îmi pot închipui!",
     "level": "Sätze"
   },
   {
     "de": "Ist er denn krank?",
-    "lv": "E bolnav atunci?",
+    "lv": "Dar e bolnav?",
     "level": "Sätze"
   },
   {
     "de": "Was denn?",
-    "lv": "Atunci ce?",
+    "lv": "Ce e?",
     "level": "Sätze"
   },
   {
@@ -31,32 +31,32 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Je mehr, desto besser.",
-    "lv": "Cu cât mai multe, cu atât mai bine.",
+    "lv": "Cu cât mai mult, cu atât mai bine.",
     "level": "Sätze"
   },
   {
     "de": "Alles deutet auf Regen.",
-    "lv": "Totul indică cazul.",
+    "lv": "Totul arată că va ploua.",
     "level": "Sätze"
   },
   {
     "de": "Damit ist mir wenig gedient.",
-    "lv": "Nu are sens pentru mine.",
+    "lv": "Asta nu prea mă ajută.",
     "level": "Sätze"
   },
   {
     "de": "Er ist dienstlich verhindert.",
-    "lv": "Nu poate veni din cauza muncii.",
+    "lv": "Nu poate veni din motive de serviciu.",
     "level": "Sätze"
   },
   {
     "de": "Sprechen Sie doch!",
-    "lv": "Vorbește!",
+    "lv": "Vorbiți odată!",
     "level": "Sätze"
   },
   {
     "de": "Es donnert.",
-    "lv": "Tunetul bubuie.",
+    "lv": "Tună.",
     "level": "Sätze"
   },
   {
@@ -71,27 +71,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Die Zeit drängt.",
-    "lv": "Timpul se scurge.",
+    "lv": "Timpul presează.",
     "level": "Sätze"
   },
   {
     "de": "Ihn drücken Sorgen.",
-    "lv": "El este copleșit de îngrijorare.",
+    "lv": "Îl apasă grijile.",
     "level": "Sätze"
   },
   {
     "de": "Hast du das Buch durchgearbeitet?",
-    "lv": "Ai parcurs cartea cu atentie?",
+    "lv": "Ai studiat temeinic cartea?",
     "level": "Sätze"
   },
   {
     "de": "Kein Durchgang!",
-    "lv": "Nu trece prin! • Ieșire închisă!",
+    "lv": "Trecerea interzisă!",
     "level": "Sätze"
   },
   {
     "de": "Darf ich Sie bitten?",
-    "lv": "Pot sa te intreb",
+    "lv": "Îmi acordați acest dans? • Mă urmați, vă rog?",
     "level": "Sätze"
   },
   {
@@ -111,12 +111,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Was wollen Sie eigentlich?",
-    "lv": "Ce vrei cu adevărat?",
+    "lv": "Ce vreți de fapt?",
     "level": "Sätze"
   },
   {
     "de": "Eilt es mit dieser Sache?",
-    "lv": "Este acest lucru urgent?",
+    "lv": "Este urgentă această chestiune?",
     "level": "Sätze"
   },
   {
@@ -131,52 +131,52 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Du bildest dir nur ein, krank zu sein.",
-    "lv": "Îți imaginezi doar că ești bolnav.",
+    "lv": "Doar îți închipui că ești bolnav.",
     "level": "Sätze"
   },
   {
     "de": "Was fällt dir ein?",
-    "lv": "Ce îți vine în minte?",
+    "lv": "Cum îți permiți? • Ce-ți vine în minte?",
     "level": "Sätze"
   },
   {
     "de": "Es war einmal.",
-    "lv": "Odată a fost.",
+    "lv": "A fost odată.",
     "level": "Sätze"
   },
   {
     "de": "Steigen Sie bitte ein!",
-    "lv": "Vă rugăm să intrați!",
+    "lv": "Urcați, vă rog!",
     "level": "Sätze"
   },
   {
     "de": "Treten Sie ein!",
-    "lv": "Te rog intra!",
+    "lv": "Intrați!",
     "level": "Sätze"
   },
   {
     "de": "Einzelnes hat mir dort gefallen.",
-    "lv": "Mi-au plăcut unele lucruri acolo.",
+    "lv": "Unele lucruri mi-au plăcut acolo.",
     "level": "Sätze"
   },
   {
     "de": "Es empfiehlt sich.",
-    "lv": "Este recomandat.",
+    "lv": "Se recomandă.",
     "level": "Sätze"
   },
   {
     "de": "Diese Flasche enthält Essig.",
-    "lv": "Această sticlă conține oțet.",
+    "lv": "Sticla aceasta conține oțet.",
     "level": "Sätze"
   },
   {
     "de": "Entschuldigen Sie bitte!",
-    "lv": "Scuză-mă, te rog!",
+    "lv": "Scuzați-mă, vă rog!",
     "level": "Sätze"
   },
   {
     "de": "Entweder... oder...",
-    "lv": "Ori... ori...",
+    "lv": "Ori..., ori...",
     "level": "Sätze"
   },
   {
@@ -186,37 +186,37 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wer fehlt heute?",
-    "lv": "Cine nu a venit azi?",
+    "lv": "Cine lipsește azi?",
     "level": "Sätze"
   },
   {
     "de": "Was fehlt dir?",
-    "lv": "Ce e în neregulă cu tine?",
+    "lv": "Ce ai?",
     "level": "Sätze"
   },
   {
     "de": "Wie heißen Sie?",
-    "lv": "Cum te numești?",
+    "lv": "Cum vă numiți?",
     "level": "Sätze"
   },
   {
     "de": "Was soll das heißen?",
-    "lv": "Ce înseamnă asta?",
+    "lv": "Ce vrea să însemne asta?",
     "level": "Sätze"
   },
   {
     "de": "Bitte treten Sie näher heran!",
-    "lv": "Vă rog să veniți mai aproape!",
+    "lv": "Apropiați-vă, vă rog!",
     "level": "Sätze"
   },
   {
     "de": "Heraus mit der Sprache!",
-    "lv": "Vorbi! • Povești!",
+    "lv": "Spune odată!",
     "level": "Sätze"
   },
   {
     "de": "im Herbst",
-    "lv": "Toamna",
+    "lv": "toamna",
     "level": "Sätze"
   },
   {
@@ -226,17 +226,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "von heute an",
-    "lv": "Începând de astăzi",
+    "lv": "începând de azi",
     "level": "Sätze"
   },
   {
     "de": "heute früh",
-    "lv": "În această dimineață",
+    "lv": "azi-dimineață",
     "level": "Sätze"
   },
   {
     "de": "heute Nacht",
-    "lv": "Aseară",
+    "lv": "la noapte • azi-noapte",
     "level": "Sätze"
   },
   {
@@ -246,12 +246,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich lerne jeden Tag Deutsch.",
-    "lv": "Studiez germana in fiecare zi.",
+    "lv": "Învăț germana în fiecare zi.",
     "level": "Sätze"
   },
   {
     "de": "Kannst du das bitte wiederholen?",
-    "lv": "Poti repeta asta te rog?",
+    "lv": "Poți să repeți, te rog?",
     "level": "Sätze"
   },
   {
@@ -276,17 +276,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Könnten Sie das näher erläutern?",
-    "lv": "Ai putea explica asta mai detaliat?",
+    "lv": "Ați putea să explicați asta mai în detaliu?",
     "level": "Sätze"
   },
   {
     "de": "Was mich anbelangt,...",
-    "lv": "Cât despre mine...",
+    "lv": "În ceea ce mă privește,...",
     "level": "Sätze"
   },
   {
     "de": "Wie alt sind Sie?",
-    "lv": "Câți ani ai?",
+    "lv": "Câți ani aveți?",
     "level": "Sätze"
   },
   {
@@ -296,42 +296,42 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Von heute an.",
-    "lv": "De azi.",
+    "lv": "De azi înainte.",
     "level": "Sätze"
   },
   {
     "de": "Von jetzt an.",
-    "lv": "De acum.",
+    "lv": "De acum înainte.",
     "level": "Sätze"
   },
   {
     "de": "Anders geht es nicht.",
-    "lv": "Nu există altă cale.",
+    "lv": "Altfel nu se poate.",
     "level": "Sätze"
   },
   {
     "de": "Rufen Sie mich an.",
-    "lv": "Sună-mă.",
+    "lv": "Sunați-mă.",
     "level": "Sätze"
   },
   {
     "de": "Bitte stellen Sie das Radio ab.",
-    "lv": "Vă rugăm să opriți radioul.",
+    "lv": "Vă rog, opriți radioul.",
     "level": "Sätze"
   },
   {
     "de": "Achte bitte auf den Verkehr.",
-    "lv": "Vă rugăm să fiți atenți la trafic.",
+    "lv": "Fii atent la trafic, te rog.",
     "level": "Sätze"
   },
   {
     "de": "Darauf musst du achten.",
-    "lv": "Ar trebui să fii atent la asta.",
+    "lv": "La asta trebuie să fii atent.",
     "level": "Sätze"
   },
   {
     "de": "Heute mache ich es anders.",
-    "lv": "Astăzi o voi face altfel.",
+    "lv": "Azi o fac altfel.",
     "level": "Sätze"
   },
   {
@@ -341,17 +341,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Er wohnt allein.",
-    "lv": "El trăiește singur.",
+    "lv": "Locuiește singur.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe die Ausbildung absolviert.",
-    "lv": "Mi-am terminat antrenamentul. • Mi-am terminat studiile.",
+    "lv": "Mi-am terminat formarea profesională. • Mi-am terminat studiile.",
     "level": "Sätze"
   },
   {
     "de": "Ich warte den Regen ab.",
-    "lv": "Voi aștepta să înceteze ploaia.",
+    "lv": "Aștept să treacă ploaia.",
     "level": "Sätze"
   },
   {
@@ -376,47 +376,47 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Sie hat meinen Vorschlag akzeptiert.",
-    "lv": "Ea a acceptat propunerea mea.",
+    "lv": "Mi-a acceptat propunerea.",
     "level": "Sätze"
   },
   {
     "de": "Ich möchte das genauer analysieren.",
-    "lv": "Vreau să o analizez mai precis.",
+    "lv": "Aș vrea să analizez asta mai în detaliu.",
     "level": "Sätze"
   },
   {
     "de": "Ich möchte den Vertrag ändern.",
-    "lv": "Vreau sa schimb contractul.",
+    "lv": "Aș vrea să modific contractul.",
     "level": "Sätze"
   },
   {
     "de": "Er ändert ständig seine Meinung.",
-    "lv": "Își schimbă constant părerea.",
+    "lv": "Își schimbă mereu părerea.",
     "level": "Sätze"
   },
   {
     "de": "Ähnliche Probleme hatten wir schon früher.",
-    "lv": "Am avut probleme similare înainte.",
+    "lv": "Am mai avut probleme asemănătoare.",
     "level": "Sätze"
   },
   {
     "de": "Keine Ahnung!",
-    "lv": "Nici idee!",
+    "lv": "Habar n-am!",
     "level": "Sätze"
   },
   {
     "de": "Hör auf zu jammern.",
-    "lv": "Nu te mai plânge.",
+    "lv": "Nu te mai văita.",
     "level": "Sätze"
   },
   {
     "de": "Dieses Kleid ist akademisch gekleidet.",
-    "lv": "Această rochie este conservatoare elegant.",
+    "lv": "Această rochie are un stil elegant și sobru.",
     "level": "Sätze"
   },
   {
     "de": "Ich höre gerne Akkordeonmusik.",
-    "lv": "Îmi place să ascult muzică la acordeon.",
+    "lv": "Îmi place să ascult muzică de acordeon.",
     "level": "Sätze"
   },
   {
@@ -426,7 +426,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bitte öffne die Datei und klicke darauf.",
-    "lv": "Deschideți fișierul și faceți clic pe el.",
+    "lv": "Te rog, deschide fișierul și dă clic pe el.",
     "level": "Sätze"
   },
   {
@@ -436,42 +436,42 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wir laufen zum Bahnhof.",
-    "lv": "Mergem la gară.",
+    "lv": "Mergem pe jos la gară.",
     "level": "Sätze"
   },
   {
     "de": "Bitte schalte den Fernseher an.",
-    "lv": "Vă rugăm să porniți televizorul.",
+    "lv": "Te rog, pornește televizorul.",
     "level": "Sätze"
   },
   {
     "de": "Mein Computer ist abgestürzt.",
-    "lv": "Computerul meu s-a prăbușit.",
+    "lv": "Mi s-a blocat calculatorul.",
     "level": "Sätze"
   },
   {
     "de": "Am Wochenende gehe ich angeln.",
-    "lv": "Voi merge la pescuit în weekend.",
+    "lv": "În weekend merg la pescuit.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe den Anruf verpasst.",
-    "lv": "Am ratat apelul.",
+    "lv": "Am pierdut apelul.",
     "level": "Sätze"
   },
   {
     "de": "Kannst du mich später anrufen?",
-    "lv": "Ma poti suna mai tarziu",
+    "lv": "Poți să mă suni mai târziu?",
     "level": "Sätze"
   },
   {
     "de": "Bitte nimm meinen Vorschlag an.",
-    "lv": "Vă rog să acceptați propunerea mea.",
+    "lv": "Te rog, acceptă-mi propunerea.",
     "level": "Sätze"
   },
   {
     "de": "Ich nehme dein Angebot an.",
-    "lv": "Accept oferta ta.",
+    "lv": "Îți accept oferta.",
     "level": "Sätze"
   },
   {
@@ -486,22 +486,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Keine Angst, alles wird gut.",
-    "lv": "Nu-ți fie teamă, totul va fi bine.",
+    "lv": "Nu-ți fie frică, totul va fi bine.",
     "level": "Sätze"
   },
   {
     "de": "Anklang finden.",
-    "lv": "Găsiți un ecou. • Găsiți capacitatea de răspuns",
+    "lv": "A se bucura de apreciere. • A găsi ecou.",
     "level": "Sätze"
   },
   {
     "de": "Es kommt darauf an.",
-    "lv": "Depinde de asta.",
+    "lv": "Depinde.",
     "level": "Sätze"
   },
   {
     "de": "Aus diesem Anlass.",
-    "lv": "Din cauza acestui timp. • În acest sens",
+    "lv": "Cu această ocazie.",
     "level": "Sätze"
   },
   {
@@ -511,7 +511,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Was hast du da angerichtet?",
-    "lv": "Ce ai facut acolo",
+    "lv": "Ce ai mai făcut acolo?",
     "level": "Sätze"
   },
   {
@@ -526,127 +526,127 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Meiner Ansicht nach...",
-    "lv": "În opinia mea...",
+    "lv": "După părerea mea...",
     "level": "Sätze"
   },
   {
     "de": "Stell dich nicht so an!",
-    "lv": "Nu te preface!",
+    "lv": "Nu mai face atâta caz!",
     "level": "Sätze"
   },
   {
     "de": "An die Arbeit gehen.",
-    "lv": "Se apuca de lucru.",
+    "lv": "A se apuca de lucru.",
     "level": "Sätze"
   },
   {
     "de": "Außer Atem sein.",
-    "lv": "A fi fără suflare.",
+    "lv": "A fi cu sufletul la gură.",
     "level": "Sätze"
   },
   {
     "de": "Guten Appetit!",
-    "lv": "Pofta buna!",
+    "lv": "Poftă bună!",
     "level": "Sätze"
   },
   {
     "de": "In einem Atemzug.",
-    "lv": "Într-o singură respirație.",
+    "lv": "Dintr-o suflare.",
     "level": "Sätze"
   },
   {
     "de": "Auf jeden Fall.",
-    "lv": "În fiecare caz.",
+    "lv": "În orice caz. • Cu siguranță.",
     "level": "Sätze"
   },
   {
     "de": "Auf einmal war alles still.",
-    "lv": "Deodată totul a devenit liniștit.",
+    "lv": "Deodată s-a făcut liniște.",
     "level": "Sätze"
   },
   {
     "de": "Bitte mach die Tür auf!",
-    "lv": "Vă rog să deschideți ușa!",
+    "lv": "Te rog, deschide ușa!",
     "level": "Sätze"
   },
   {
     "de": "Er hat den Kredit aufgenommen.",
-    "lv": "A luat un împrumut.",
+    "lv": "A luat creditul.",
     "level": "Sätze"
   },
   {
     "de": "Wir müssen heute aufräumen.",
-    "lv": "Trebuie să facem ordine în cameră azi.",
+    "lv": "Astăzi trebuie să facem ordine.",
     "level": "Sätze"
   },
   {
     "de": "Ich höre jetzt auf.",
-    "lv": "Mă voi opri acum.",
+    "lv": "Acum mă opresc.",
     "level": "Sätze"
   },
   {
     "de": "Er ist schon auf.",
-    "lv": "El este deja treaz.",
+    "lv": "S-a sculat deja.",
     "level": "Sätze"
   },
   {
     "de": "Wir müssen das Treffen verschieben.",
-    "lv": "Trebuie să reprogramam întâlnirea.",
+    "lv": "Trebuie să amânăm întâlnirea.",
     "level": "Sätze"
   },
   {
     "de": "Sie hat mich aufgeregt.",
-    "lv": "M-a iritat.",
+    "lv": "M-a enervat.",
     "level": "Sätze"
   },
   {
     "de": "Auf einmal.",
-    "lv": "Brusc.",
+    "lv": "Deodată.",
     "level": "Sätze"
   },
   {
     "de": "Auf der Stelle.",
-    "lv": "Imediat.",
+    "lv": "Pe loc.",
     "level": "Sätze"
   },
   {
     "de": "Für den Schaden aufkommen.",
-    "lv": "Acoperiți daunele.",
+    "lv": "A acoperi paguba.",
     "level": "Sätze"
   },
   {
     "de": "Bitte die Tür auf!",
-    "lv": "Deschide usa, te rog!",
+    "lv": "Deschideți ușa, vă rog!",
     "level": "Sätze"
   },
   {
     "de": "Aufrecht sitzen.",
-    "lv": "Stai drept.",
+    "lv": "A sta drept.",
     "level": "Sätze"
   },
   {
     "de": "Er ist auf.",
-    "lv": "S-a ridicat în picioare.",
+    "lv": "S-a sculat.",
     "level": "Sätze"
   },
   {
     "de": "Alle Kräfte aufwenden.",
-    "lv": "Dedică-ți toată puterea.",
+    "lv": "A-și mobiliza toate forțele.",
     "level": "Sätze"
   },
   {
     "de": "Viel Mühe aufwenden.",
-    "lv": "Încercați foarte mult.",
+    "lv": "A depune mult efort.",
     "level": "Sätze"
   },
   {
     "de": "Geh mir aus den Augen!",
-    "lv": "Nu te mai uita la mine!",
+    "lv": "Piei din ochii mei!",
     "level": "Sätze"
   },
   {
     "de": "Unter vier Augen.",
-    "lv": "In doi. • În liniște",
+    "lv": "Între patru ochi.",
     "level": "Sätze"
   },
   {
@@ -661,12 +661,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Alle außer dir.",
-    "lv": "Toți, în afară de tine.",
+    "lv": "Toți în afară de tine.",
     "level": "Sätze"
   },
   {
     "de": "Auf Äußerlichkeiten Wert legen.",
-    "lv": "Acordați importanță aspectului.",
+    "lv": "A pune preț pe aparențe.",
     "level": "Sätze"
   },
   {
@@ -686,7 +686,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Er hat gute Aussichten.",
-    "lv": "Are o șansă bună.",
+    "lv": "Are șanse bune.",
     "level": "Sätze"
   },
   {
@@ -696,27 +696,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Sein Beileid aussprechen.",
-    "lv": "Exprimați condoleanțe.",
+    "lv": "A-și prezenta condoleanțele.",
     "level": "Sätze"
   },
   {
     "de": "Wann wurden die Meisterschaftskämpfe ausgetragen?",
-    "lv": "Cand a fost campionatul?",
+    "lv": "Când s-au desfășurat campionatele?",
     "level": "Sätze"
   },
   {
     "de": "Welchen Beruf üben Sie aus?",
-    "lv": "Care este profesia ta?",
+    "lv": "Ce profesie aveți?",
     "level": "Sätze"
   },
   {
     "de": "Einfluss ausüben.",
-    "lv": "A influența.",
+    "lv": "A exercita influență.",
     "level": "Sätze"
   },
   {
     "de": "Auswärts essen.",
-    "lv": "Mănâncă afară.",
+    "lv": "A mânca în oraș.",
     "level": "Sätze"
   },
   {
@@ -726,52 +726,52 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Mit der Bahn.",
-    "lv": "Pe calea ferată.",
+    "lv": "Cu trenul.",
     "level": "Sätze"
   },
   {
     "de": "Möglichst bald.",
-    "lv": "Cât mai repede posibil.",
+    "lv": "Cât mai curând.",
     "level": "Sätze"
   },
   {
     "de": "Mir ist Angst und bange.",
-    "lv": "Imi este foarte frica.",
+    "lv": "Mi-e tare frică.",
     "level": "Sätze"
   },
   {
     "de": "Auf die lange Bank schieben.",
-    "lv": "Amâna. • Trageți până la lungime • Amânați pe termen nelimitat",
+    "lv": "A amâna la nesfârșit. • A tărăgăna lucrurile.",
     "level": "Sätze"
   },
   {
     "de": "Bar zahlen.",
-    "lv": "Plătiți în numerar.",
+    "lv": "A plăti în numerar.",
     "level": "Sätze"
   },
   {
     "de": "Erz bauen.",
-    "lv": "Ia minereu.",
+    "lv": "A extrage minereu.",
     "level": "Sätze"
   },
   {
     "de": "Mist bauen.",
-    "lv": "Trage. • Fă-te prost",
+    "lv": "A face prostii.",
     "level": "Sätze"
   },
   {
     "de": "Ich bin beauftragt.",
-    "lv": "Mi s-a atribuit un loc de muncă.",
+    "lv": "Am fost însărcinat.",
     "level": "Sätze"
   },
   {
     "de": "Nach Bedarf.",
-    "lv": "La nevoie.",
+    "lv": "După nevoie.",
     "level": "Sätze"
   },
   {
     "de": "Ich bedauere ihn.",
-    "lv": "Imi pare rau pentru el.",
+    "lv": "Mi-e milă de el.",
     "level": "Sätze"
   },
   {
@@ -786,27 +786,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Sie sieht bedrückt aus.",
-    "lv": "Ea pare deprimată.",
+    "lv": "Pare abătută.",
     "level": "Sätze"
   },
   {
     "de": "Hinweise befolgen.",
-    "lv": "Urmați instrucțiunile.",
+    "lv": "A urma indicațiile.",
     "level": "Sätze"
   },
   {
     "de": "Befehle befolgen.",
-    "lv": "Urmați comenzile.",
+    "lv": "A executa ordinele.",
     "level": "Sätze"
   },
   {
     "de": "Mit der Post befördern.",
-    "lv": "Trimite prin posta.",
+    "lv": "A trimite prin poștă.",
     "level": "Sätze"
   },
   {
     "de": "Ich bin begierig zu wissen.",
-    "lv": "Chiar vreau să știu.",
+    "lv": "Sunt nerăbdător să aflu.",
     "level": "Sätze"
   },
   {
@@ -821,7 +821,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bei Beginn.",
-    "lv": "Pornire",
+    "lv": "La începere.",
     "level": "Sätze"
   },
   {
@@ -831,27 +831,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Mit seiner Begleitung.",
-    "lv": "Cu acompaniament.",
+    "lv": "Cu însoțitorul său.",
     "level": "Sätze"
   },
   {
     "de": "Er ist schwer von Begriff.",
-    "lv": "El este lent în a percepe. • Are gândire lentă",
+    "lv": "E greu de cap. • Pricepe greu.",
     "level": "Sätze"
   },
   {
     "de": "Im Gedächtnis behalten.",
-    "lv": "Ține minte. • Păstrați în memorie",
+    "lv": "A ține minte. • A păstra în memorie.",
     "level": "Sätze"
   },
   {
     "de": "Bei Tisch.",
-    "lv": "La masa.",
+    "lv": "La masă.",
     "level": "Sätze"
   },
   {
     "de": "Bei Sinnen sein.",
-    "lv": "Să fie sănătos la minte.",
+    "lv": "A fi în toate mințile.",
     "level": "Sätze"
   },
   {
@@ -861,32 +861,32 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bei weitem nicht so.",
-    "lv": "Deloc.",
+    "lv": "Nici pe departe așa.",
     "level": "Sätze"
   },
   {
     "de": "Alle beide.",
-    "lv": "Amândoi doi.",
+    "lv": "Amândoi.",
     "level": "Sätze"
   },
   {
     "de": "Stürmischer Beifall brach los.",
-    "lv": "Au fost aplauze zgomotoase.",
+    "lv": "Au izbucnit aplauze furtunoase.",
     "level": "Sätze"
   },
   {
     "de": "Beifall finden.",
-    "lv": "Obține consimțământul.",
+    "lv": "A fi bine primit.",
     "level": "Sätze"
   },
   {
     "de": "Beileid aussprechen.",
-    "lv": "Exprimați condoleanțe.",
+    "lv": "A exprima condoleanțe.",
     "level": "Sätze"
   },
   {
     "de": "Auf eigenen Beinen stehen.",
-    "lv": "Pentru a fi independent financiar.",
+    "lv": "A sta pe propriile picioare.",
     "level": "Sätze"
   },
   {
@@ -896,32 +896,32 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Beistand leisten.",
-    "lv": "Pentru a ajuta. • Oferiți asistență",
+    "lv": "A da ajutor. • A acorda sprijin.",
     "level": "Sätze"
   },
   {
     "de": "Beitrag leisten.",
-    "lv": "Investește partea ta.",
+    "lv": "A-și aduce contribuția.",
     "level": "Sätze"
   },
   {
     "de": "Jemandes Bekanntschaft machen.",
-    "lv": "Faceți cunoștință cu cineva.",
+    "lv": "A face cunoștință cu cineva.",
     "level": "Sätze"
   },
   {
     "de": "Bekanntschaft anknüpfen.",
-    "lv": "Faceți cunoștință. • Stabiliți contactul",
+    "lv": "A lega cunoștință. • A stabili un contact.",
     "level": "Sätze"
   },
   {
     "de": "Belegte Brötchen.",
-    "lv": "Sandvișuri cu toppinguri.",
+    "lv": "Sendvișuri.",
     "level": "Sätze"
   },
   {
     "de": "Nach Ihrem Belieben.",
-    "lv": "Cum doriți.",
+    "lv": "După bunul dumneavoastră plac.",
     "level": "Sätze"
   },
   {
@@ -931,7 +931,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Schweigen beobachten.",
-    "lv": "Pentru a păstra tăcerea.",
+    "lv": "A păstra tăcerea.",
     "level": "Sätze"
   },
   {
@@ -941,17 +941,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bereit sein.",
-    "lv": "Fii gata. • Fii în pace",
+    "lv": "A fi gata. • A fi dispus.",
     "level": "Sätze"
   },
   {
     "de": "Unfallopfer bergen.",
-    "lv": "Salvați victimele în caz de accident.",
+    "lv": "A salva victimele unui accident.",
     "level": "Sätze"
   },
   {
     "de": "Bericht erstatten.",
-    "lv": "Raport. • Oferiți un raport • Oferiți o prezentare generală",
+    "lv": "A raporta. • A face un raport.",
     "level": "Sätze"
   },
   {
@@ -961,17 +961,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Neue Besen kehren gut.",
-    "lv": "O mătură nouă mătură bine.",
+    "lv": "Mătura nouă mătură bine.",
     "level": "Sätze"
   },
   {
     "de": "Er besitzt ein Haus.",
-    "lv": "El deține o casă.",
+    "lv": "Deține o casă.",
     "level": "Sätze"
   },
   {
     "de": "Er besitzt viel Mut.",
-    "lv": "Are mare curaj.",
+    "lv": "Are mult curaj.",
     "level": "Sätze"
   },
   {
@@ -981,17 +981,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Gute Besserung!",
-    "lv": "Să vă faceţi bine! • Să vă faceţi bine!",
+    "lv": "Însănătoșire grabnică!",
     "level": "Sätze"
   },
   {
     "de": "Beim besten Willen.",
-    "lv": "Ce vrei tu.",
+    "lv": "Cu toată bunăvoința.",
     "level": "Sätze"
   },
   {
     "de": "Am besten.",
-    "lv": "Cel mai bun.",
+    "lv": "Cel mai bine.",
     "level": "Sätze"
   },
   {
@@ -1001,102 +1001,102 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Seine Aufgabe besteht darin...",
-    "lv": "Sarcina lui este...",
+    "lv": "Sarcina lui constă în...",
     "level": "Sätze"
   },
   {
     "de": "Grüße bestellen.",
-    "lv": "Salută.",
+    "lv": "A transmite salutări.",
     "level": "Sätze"
   },
   {
     "de": "Ganz bestimmt.",
-    "lv": "Cu siguranta. • Complet sigur",
+    "lv": "Cu siguranță.",
     "level": "Sätze"
   },
   {
     "de": "Zu Besuch kommen.",
-    "lv": "Vino în vizită.",
+    "lv": "A veni în vizită.",
     "level": "Sätze"
   },
   {
     "de": "Zu Besuch sein.",
-    "lv": "De vizitat. • A vizita",
+    "lv": "A fi în vizită.",
     "level": "Sätze"
   },
   {
     "de": "Oft Konzerte besuchen.",
-    "lv": "Mergi adesea la concerte.",
+    "lv": "A merge des la concerte.",
     "level": "Sätze"
   },
   {
     "de": "Welche Schule hat er besucht?",
-    "lv": "La ce scoala a mers?",
+    "lv": "La ce școală a învățat?",
     "level": "Sätze"
   },
   {
     "de": "In Betracht ziehen.",
-    "lv": "Luați în considerare. • Luați în considerare",
+    "lv": "A lua în considerare. • A avea în vedere.",
     "level": "Sätze"
   },
   {
     "de": "Außer Betracht lassen.",
-    "lv": "Ignoră. • Nu luați în considerare",
+    "lv": "A nu lua în considerare.",
     "level": "Sätze"
   },
   {
     "de": "Er betreibt ein Hotel.",
-    "lv": "El conduce un hotel.",
+    "lv": "Administrează un hotel.",
     "level": "Sätze"
   },
   {
     "de": "Alle beiden.",
-    "lv": "Amândoi doi.",
+    "lv": "Amândoi.",
     "level": "Sätze"
   },
   {
     "de": "Alles bezahlen.",
-    "lv": "Plătește totul.",
+    "lv": "A plăti tot.",
     "level": "Sätze"
   },
   {
     "de": "Bezüglich auf etwas.",
-    "lv": "Legat de ceva.",
+    "lv": "Referitor la ceva.",
     "level": "Sätze"
   },
   {
     "de": "Bitte schön.",
-    "lv": "Vă rog",
+    "lv": "Cu plăcere. • Poftim.",
     "level": "Sätze"
   },
   {
     "de": "Wie bitte?",
-    "lv": "Cum te rog",
+    "lv": "Poftim?",
     "level": "Sätze"
   },
   {
     "de": "Bitte sehr.",
-    "lv": "Vă rog",
+    "lv": "Pentru puțin. • Poftiți.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe eine Bitte an Sie.",
-    "lv": "Am o cerere pentru tine.",
+    "lv": "Am o rugăminte la dumneavoastră.",
     "level": "Sätze"
   },
   {
     "de": "Trompete blasen.",
-    "lv": "Sună din trompetă.",
+    "lv": "A cânta la trompetă.",
     "level": "Sätze"
   },
   {
     "de": "In einem Buch blättern.",
-    "lv": "Sortați cartea.",
+    "lv": "A răsfoi o carte.",
     "level": "Sätze"
   },
   {
     "de": "Mit bloßen Füßen.",
-    "lv": "Picioarele goale.",
+    "lv": "Cu picioarele goale.",
     "level": "Sätze"
   },
   {
@@ -1106,17 +1106,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Danke für die Blumen!",
-    "lv": "Multumesc pentru flori!",
+    "lv": "Mulțumesc pentru compliment!",
     "level": "Sätze"
   },
   {
     "de": "Alles in Butter.",
-    "lv": "Totul este bine.",
+    "lv": "Totul merge strună.",
     "level": "Sätze"
   },
   {
     "de": "Bitte checken.",
-    "lv": "Verifica. • Verificați",
+    "lv": "Vă rugăm să verificați.",
     "level": "Sätze"
   },
   {
@@ -1126,22 +1126,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Alles spricht dafür.",
-    "lv": "Totul vorbește bine.",
+    "lv": "Totul pledează pentru asta.",
     "level": "Sätze"
   },
   {
     "de": "Ich kann nichts dafür.",
-    "lv": "Nu pot face nimic acolo.",
+    "lv": "Nu e vina mea.",
     "level": "Sätze"
   },
   {
     "de": "Ich bin dagegen.",
-    "lv": "Sunt împotriva ei.",
+    "lv": "Sunt împotrivă.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe nichts dagegen.",
-    "lv": "Nu am nicio obiecție la asta.",
+    "lv": "N-am nimic împotrivă.",
     "level": "Sätze"
   },
   {
@@ -1151,17 +1151,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Mit der Dame ziehen.",
-    "lv": "Fă o mișcare de doamnă.",
+    "lv": "A muta dama.",
     "level": "Sätze"
   },
   {
     "de": "Es dämmert.",
-    "lv": "Se întunecă. • Se stinge zorile.",
+    "lv": "Se înserează. • Se luminează de ziuă.",
     "level": "Sätze"
   },
   {
     "de": "Danke schön!",
-    "lv": "Multumesc! • Mulțumesc!",
+    "lv": "Mulțumesc frumos!",
     "level": "Sätze"
   },
   {
@@ -1171,12 +1171,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Darauf kannst du dich verlassen.",
-    "lv": "Poți conta pe asta.",
+    "lv": "Te poți baza pe asta.",
     "level": "Sätze"
   },
   {
     "de": "Daraus wird nichts.",
-    "lv": "Nu va ieși nimic din asta.",
+    "lv": "Din asta nu iese nimic.",
     "level": "Sätze"
   },
   {
@@ -1186,82 +1186,82 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Für wen halten Sie mich?",
-    "lv": "Ce crezi că sunt?",
+    "lv": "Drept cine mă luați?",
     "level": "Sätze"
   },
   {
     "de": "Hände weg!",
-    "lv": "Mâinile jos!",
+    "lv": "Jos mâinile!",
     "level": "Sätze"
   },
   {
     "de": "Lass den Kopf nicht hängen!",
-    "lv": "Nu coborî capul!",
+    "lv": "Nu te descuraja!",
     "level": "Sätze"
   },
   {
     "de": "zu Hause",
-    "lv": "Acasă",
+    "lv": "acasă",
     "level": "Sätze"
   },
   {
     "de": "nach Hause gehen",
-    "lv": "Du-te acasă",
+    "lv": "a merge acasă",
     "level": "Sätze"
   },
   {
     "de": "von Haus aus",
-    "lv": "Încă din copilărie • De la bun început",
+    "lv": "de origine • din fire",
     "level": "Sätze"
   },
   {
     "de": "Meinen herzlichsten Glückwunsch!",
-    "lv": "Felicitări!",
+    "lv": "Cele mai călduroase felicitări!",
     "level": "Sätze"
   },
   {
     "de": "Seien Sie so gut!",
-    "lv": "Fii atât de amabil! • Fii atât de bun!",
+    "lv": "Fiți atât de bun!",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie die Güte!",
-    "lv": "Fii atât de amabil!",
+    "lv": "Aveți bunătatea!",
     "level": "Sätze"
   },
   {
     "de": "Was hast du?",
-    "lv": "Ce e în neregulă cu tine? • Ce s-a întâmplat?",
+    "lv": "Ce ai?",
     "level": "Sätze"
   },
   {
     "de": "Gestatten Sie bitte!",
-    "lv": "Dă-mi voie, te rog!",
+    "lv": "Permiteți, vă rog!",
     "level": "Sätze"
   },
   {
     "de": "Ist es gestattet zu rauchen?",
-    "lv": "Pot să fumez?",
+    "lv": "Este permis fumatul?",
     "level": "Sätze"
   },
   {
     "de": "Ich muss gestehen, dass...",
-    "lv": "Trebuie sa recunosc ca...",
+    "lv": "Trebuie să recunosc că...",
     "level": "Sätze"
   },
   {
     "de": "gestern früh",
-    "lv": "Ieri dimineață devreme",
+    "lv": "ieri-dimineață",
     "level": "Sätze"
   },
   {
     "de": "gestern Abend",
-    "lv": "Aseară",
+    "lv": "ieri-seară",
     "level": "Sätze"
   },
   {
     "de": "Es ist mir gleichgültig, ob...",
-    "lv": "Nu-mi pasă dacă...",
+    "lv": "Mi-e indiferent dacă...",
     "level": "Sätze"
   },
   {
@@ -1271,12 +1271,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Mach keine Geschichten!",
-    "lv": "Nu face prostii! • Nu face glume!",
+    "lv": "Nu face mofturi! • Nu face prostii!",
     "level": "Sätze"
   },
   {
     "de": "Geschweige denn...",
-    "lv": "Ca să nu mai vorbim de asta. • Unde altundeva",
+    "lv": "Ca să nu mai vorbim de... • Darămite...",
     "level": "Sätze"
   },
   {
@@ -1286,27 +1286,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wie geht es Ihnen?",
-    "lv": "Ce mai faci • Ce mai faci?",
+    "lv": "Ce mai faceți?",
     "level": "Sätze"
   },
   {
     "de": "Frag ihn gelegentlich, ob...",
-    "lv": "Întreabă-l dacă iese dacă...",
+    "lv": "Întreabă-l, când ai ocazia, dacă...",
     "level": "Sätze"
   },
   {
     "de": "morgen früh",
-    "lv": "Maine dimineata",
+    "lv": "mâine-dimineață",
     "level": "Sätze"
   },
   {
     "de": "im Frühling",
-    "lv": "În primăvară",
+    "lv": "primăvara",
     "level": "Sätze"
   },
   {
     "de": "Was gibt’s Neues?",
-    "lv": "Ce este nou?",
+    "lv": "Ce mai e nou?",
     "level": "Sätze"
   },
   {
@@ -1316,12 +1316,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Fahre fort!",
-    "lv": "Ține-o așa!",
+    "lv": "Continuă!",
     "level": "Sätze"
   },
   {
     "de": "Er ist kein Freund von...",
-    "lv": "Lui nu-i place...",
+    "lv": "Nu e un amator de...",
     "level": "Sätze"
   },
   {
@@ -1331,42 +1331,42 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Gedenkst du meiner?",
-    "lv": "Îți amintești de mine • Te-ai gândit la mine?",
+    "lv": "Îți amintești de mine? • Te gândești la mine?",
     "level": "Sätze"
   },
   {
     "de": "im Winter",
-    "lv": "Iarna",
+    "lv": "iarna",
     "level": "Sätze"
   },
   {
     "de": "Welcher Jahrgang sind Sie?",
-    "lv": "În ce an te-ai născut?",
+    "lv": "În ce an v-ați născut?",
     "level": "Sätze"
   },
   {
     "de": "Es jammert mich zu sehen...",
-    "lv": "Trist de vizionat...",
+    "lv": "Mi-e milă să văd...",
     "level": "Sätze"
   },
   {
     "de": "je mehr, desto besser",
-    "lv": "Cu cât mai multe cu atât mai bine",
+    "lv": "cu cât mai mult, cu atât mai bine",
     "level": "Sätze"
   },
   {
     "de": "bis jetzt",
-    "lv": "Până acum",
+    "lv": "până acum",
     "level": "Sätze"
   },
   {
     "de": "Wie komme ich zum Bahnhof?",
-    "lv": "Cum să ajungi la gară?",
+    "lv": "Cum ajung la gară?",
     "level": "Sätze"
   },
   {
     "de": "Komm her!",
-    "lv": "Vino aici!",
+    "lv": "Vino încoace!",
     "level": "Sätze"
   },
   {
@@ -1376,17 +1376,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Was kostet das?",
-    "lv": "Cât costã?",
+    "lv": "Cât costă asta?",
     "level": "Sätze"
   },
   {
     "de": "Wie lange dauert die Vorstellung?",
-    "lv": "Cât va dura spectacolul?",
+    "lv": "Cât durează spectacolul?",
     "level": "Sätze"
   },
   {
     "de": "Lass das!",
-    "lv": "Opreste-te! • Aruncă-l!",
+    "lv": "Încetează! • Lasă asta!",
     "level": "Sätze"
   },
   {
@@ -1396,17 +1396,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Lassen Sie mich Ihnen helfen!",
-    "lv": "Lasă-mă să te ajut!",
+    "lv": "Permiteți-mi să vă ajut!",
     "level": "Sätze"
   },
   {
     "de": "Lasst uns gehen!",
-    "lv": "Să mergem!",
+    "lv": "Haideți să mergem!",
     "level": "Sätze"
   },
   {
     "de": "Na, wie läufts?",
-    "lv": "Ce mai faci",
+    "lv": "Ei, cum merge?",
     "level": "Sätze"
   },
   {
@@ -1416,22 +1416,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Leben Sie wohl!",
-    "lv": "Trăiește sănătos! • La revedere!",
+    "lv": "Rămâneți cu bine! • Adio!",
     "level": "Sätze"
   },
   {
     "de": "Was ist los?",
-    "lv": "Ce s-a întâmplat?",
+    "lv": "Ce se întâmplă?",
     "level": "Sätze"
   },
   {
     "de": "Der Job ist anstrengend.",
-    "lv": "Munca este epuizantă.",
+    "lv": "Slujba e obositoare.",
     "level": "Sätze"
   },
   {
     "de": "Das war ein anstrengender Tag.",
-    "lv": "A fost o zi plină.",
+    "lv": "A fost o zi obositoare.",
     "level": "Sätze"
   },
   {
@@ -1441,7 +1441,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Er verlangt eine Erklärung.",
-    "lv": "El cere o explicație.",
+    "lv": "Cere o explicație.",
     "level": "Sätze"
   },
   {
@@ -1451,92 +1451,92 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Das Gesetz verlangt es so.",
-    "lv": "Legea o cere.",
+    "lv": "Așa cere legea.",
     "level": "Sätze"
   },
   {
     "de": "Das ist gar nicht so schwer.",
-    "lv": "Nu este deloc atât de greu.",
+    "lv": "Nu e deloc atât de greu.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe gar kein Geld.",
-    "lv": "Nu am bani deloc.",
+    "lv": "N-am deloc bani.",
     "level": "Sätze"
   },
   {
     "de": "Er hat gar nichts gesagt.",
-    "lv": "Nu a spus absolut nimic.",
+    "lv": "N-a spus absolut nimic.",
     "level": "Sätze"
   },
   {
     "de": "Der Hund ist los.",
-    "lv": "Câinele a fost eliberat.",
+    "lv": "Câinele e liber.",
     "level": "Sätze"
   },
   {
     "de": "Hier ist viel los.",
-    "lv": "Se întâmplă multe aici.",
+    "lv": "Aici se întâmplă multe.",
     "level": "Sätze"
   },
   {
     "de": "Halt die Luft an!",
-    "lv": "Ține-ți respirația!",
+    "lv": "Taci odată! • Nu exagera!",
     "level": "Sätze"
   },
   {
     "de": "Was machst du?",
-    "lv": "Ce faci",
+    "lv": "Ce faci?",
     "level": "Sätze"
   },
   {
     "de": "Sag mal!",
-    "lv": "Spune da!",
+    "lv": "Ia spune!",
     "level": "Sätze"
   },
   {
     "de": "Was meinen Sie damit?",
-    "lv": "Ce vrei să spui cu asta? • Ce crezi?",
+    "lv": "Ce vreți să spuneți cu asta?",
     "level": "Sätze"
   },
   {
     "de": "Wir gehen mit Ihnen.",
-    "lv": "Mergem cu tine.",
+    "lv": "Mergem cu dumneavoastră.",
     "level": "Sätze"
   },
   {
     "de": "Ich fahre mit der Eisenbahn.",
-    "lv": "Călătoresc cu trenul.",
+    "lv": "Merg cu trenul.",
     "level": "Sätze"
   },
   {
     "de": "am Mittwoch",
-    "lv": "Miercuri",
+    "lv": "miercuri",
     "level": "Sätze"
   },
   {
     "de": "Es mag sein.",
-    "lv": "Pot fi.",
+    "lv": "Se poate.",
     "level": "Sätze"
   },
   {
     "de": "Ich mag das nicht.",
-    "lv": "Nu-mi place.",
+    "lv": "Nu-mi place asta.",
     "level": "Sätze"
   },
   {
     "de": "am Montag",
-    "lv": "Pe luni",
+    "lv": "luni",
     "level": "Sätze"
   },
   {
     "de": "Guten Morgen!",
-    "lv": "Bună dimineaţa!",
+    "lv": "Bună dimineața!",
     "level": "Sätze"
   },
   {
     "de": "am Morgen",
-    "lv": "Dimineaţa",
+    "lv": "dimineața",
     "level": "Sätze"
   },
   {
@@ -1546,47 +1546,47 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Nehmen Sie Platz!",
-    "lv": "Aşezaţi-vă!",
+    "lv": "Luați loc!",
     "level": "Sätze"
   },
   {
     "de": "Letzte Neuheit!",
-    "lv": "Cele mai recente știri!",
+    "lv": "Ultima noutate!",
     "level": "Sätze"
   },
   {
     "de": "Nicht wahr?",
-    "lv": "Corect?",
+    "lv": "Nu-i așa?",
     "level": "Sätze"
   },
   {
     "de": "Nicht doch!",
-    "lv": "Nu, desigur! • Nu!",
+    "lv": "Ba nu! • Nu, nu face asta!",
     "level": "Sätze"
   },
   {
     "de": "Nun endlich!",
-    "lv": "Ei bine, în sfârșit!",
+    "lv": "În sfârșit!",
     "level": "Sätze"
   },
   {
     "de": "Wozu nützt das?",
-    "lv": "La ce este bun?",
+    "lv": "La ce folosește asta?",
     "level": "Sätze"
   },
   {
     "de": "Wozu nützt das alles?",
-    "lv": "Pentru ce sunt toate acestea?",
+    "lv": "La ce folosesc toate astea?",
     "level": "Sätze"
   },
   {
     "de": "Parken verboten!",
-    "lv": "Parcarea este interzisa!",
+    "lv": "Parcarea interzisă!",
     "level": "Sätze"
   },
   {
     "de": "Nicht parken!",
-    "lv": "Parcarea este interzisa!",
+    "lv": "Nu parcați!",
     "level": "Sätze"
   },
   {
@@ -1601,52 +1601,52 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Davon kann keine Rede sein.",
-    "lv": "Asta este exclus.",
+    "lv": "Nici nu poate fi vorba despre asta.",
     "level": "Sätze"
   },
   {
     "de": "Glückliche Reise!",
-    "lv": "Călătorie fericită!",
+    "lv": "Drum bun!",
     "level": "Sätze"
   },
   {
     "de": "Mir reißt die Geduld.",
-    "lv": "Mi-a rămas fără răbdare.",
+    "lv": "Îmi pierd răbdarea.",
     "level": "Sätze"
   },
   {
     "de": "Man sagt, dass...",
-    "lv": "Ei spun că...",
+    "lv": "Se spune că...",
     "level": "Sätze"
   },
   {
     "de": "Schon gut!",
-    "lv": "Deja e bine!",
+    "lv": "E în regulă!",
     "level": "Sätze"
   },
   {
     "de": "Bitte schön!",
-    "lv": "Vă rog!",
+    "lv": "Poftim! • Cu plăcere!",
     "level": "Sätze"
   },
   {
     "de": "Was bin ich schuldig?",
-    "lv": "Cât datorez? • Cât trebuie să plătesc?",
+    "lv": "Cât vă datorez? • Cât am de plătit?",
     "level": "Sätze"
   },
   {
     "de": "Vor dem Gebrauch schütteln!",
-    "lv": "Agitați înainte de utilizare!",
+    "lv": "A se agita înainte de folosire!",
     "level": "Sätze"
   },
   {
     "de": "Sehen Sie mal!",
-    "lv": "Aruncă o privire!",
+    "lv": "Uitați-vă!",
     "level": "Sätze"
   },
   {
     "de": "Wie sehr auch...",
-    "lv": "Cât costă...",
+    "lv": "Oricât de mult...",
     "level": "Sätze"
   },
   {
@@ -1656,17 +1656,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Was soll ich tun?",
-    "lv": "Ce ar trebuii să fac?",
+    "lv": "Ce să fac?",
     "level": "Sätze"
   },
   {
     "de": "im Sommer",
-    "lv": "Vara",
+    "lv": "vara",
     "level": "Sätze"
   },
   {
     "de": "Nicht nur..., sondern auch...",
-    "lv": "Nu numai... ci si...",
+    "lv": "Nu numai..., ci și...",
     "level": "Sätze"
   },
   {
@@ -1676,172 +1676,172 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Spaß beiseite!",
-    "lv": "Fără glumă! • Glume pe margine!",
+    "lv": "Lăsând gluma la o parte!",
     "level": "Sätze"
   },
   {
     "de": "Wie spät ist es?",
-    "lv": "Cât este ceasul",
+    "lv": "Cât e ceasul?",
     "level": "Sätze"
   },
   {
     "de": "Durchfahrt gesperrt!",
-    "lv": "Este interzisă circulația cu mașina!",
+    "lv": "Circulația interzisă!",
     "level": "Sätze"
   },
   {
     "de": "Sprechen Sie deutsch?",
-    "lv": "Vorbesti germana?",
+    "lv": "Vorbiți germană?",
     "level": "Sätze"
   },
   {
     "de": "Statt zu...",
-    "lv": "În loc de...",
+    "lv": "În loc să...",
     "level": "Sätze"
   },
   {
     "de": "Wie steht’s?",
-    "lv": "Ce mai faci",
+    "lv": "Cum stau lucrurile?",
     "level": "Sätze"
   },
   {
     "de": "Dieser Hut steht ihr gut.",
-    "lv": "Această pălărie i se potrivește bine.",
+    "lv": "Pălăria aceasta îi stă bine.",
     "level": "Sätze"
   },
   {
     "de": "Guten Tag!",
-    "lv": "Buna ziua!",
+    "lv": "Bună ziua!",
     "level": "Sätze"
   },
   {
     "de": "Wo treffen wir uns?",
-    "lv": "Unde ne vom întâlni?",
+    "lv": "Unde ne întâlnim?",
     "level": "Sätze"
   },
   {
     "de": "Treten Sie näher!",
-    "lv": "Vino mai aproape!",
+    "lv": "Apropiați-vă!",
     "level": "Sätze"
   },
   {
     "de": "Ehrlichkeit ist eine Tugend.",
-    "lv": "Onestitatea este o virtute.",
+    "lv": "Cinstea este o virtute.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe viel zu tun.",
-    "lv": "Am multe de făcut.",
+    "lv": "Am mult de lucru.",
     "level": "Sätze"
   },
   {
     "de": "Nicht übel!",
-    "lv": "Foarte bun! • Nu există nicio obiecție",
+    "lv": "Nu e rău!",
     "level": "Sätze"
   },
   {
     "de": "Er wohnt über mir.",
-    "lv": "El trăiește deasupra mea.",
+    "lv": "Locuiește deasupra mea.",
     "level": "Sätze"
   },
   {
     "de": "Er ist davon überzeugt.",
-    "lv": "El este sigur de asta.",
+    "lv": "Este convins de asta.",
     "level": "Sätze"
   },
   {
     "de": "So ist es üblich.",
-    "lv": "Este acceptat.",
+    "lv": "Așa se obișnuiește.",
     "level": "Sätze"
   },
   {
     "de": "Deine Uhr geht nach.",
-    "lv": "Ceasul tău este în urmă.",
+    "lv": "Ceasul tău rămâne în urmă.",
     "level": "Sätze"
   },
   {
     "de": "Wie viel Uhr ist es?",
-    "lv": "Cât este ceasul?",
+    "lv": "Ce oră este?",
     "level": "Sätze"
   },
   {
     "de": "Um acht Uhr früh.",
-    "lv": "La ora opt dimineata.",
+    "lv": "La ora opt dimineața.",
     "level": "Sätze"
   },
   {
     "de": "umso mehr",
-    "lv": "Cu atât mai mult",
+    "lv": "cu atât mai mult",
     "level": "Sätze"
   },
   {
     "de": "Rechts um!",
-    "lv": "Obligatoriu Dreapta!",
+    "lv": "La dreapta!",
     "level": "Sätze"
   },
   {
     "de": "Und ob!",
-    "lv": "Și ce altceva!",
+    "lv": "Și încă cum!",
     "level": "Sätze"
   },
   {
     "de": "und zwar",
-    "lv": "Anume",
+    "lv": "și anume",
     "level": "Sätze"
   },
   {
     "de": "Auf Unkosten von...",
-    "lv": "În detrimentul...",
+    "lv": "Pe cheltuiala... • În detrimentul...",
     "level": "Sätze"
   },
   {
     "de": "Er saß unter den Zuschauern.",
-    "lv": "S-a așezat printre public.",
+    "lv": "Stătea printre spectatori.",
     "level": "Sätze"
   },
   {
     "de": "Keine Ursache!",
-    "lv": "Nimic pentru nimic!",
+    "lv": "Pentru puțin!",
     "level": "Sätze"
   },
   {
     "de": "Es geschah, wie verabredet.",
-    "lv": "S-a întâmplat așa cum sa convenit.",
+    "lv": "S-a întâmplat așa cum fusese stabilit.",
     "level": "Sätze"
   },
   {
     "de": "Rauchen verboten!",
-    "lv": "Fumatul este interzis!",
+    "lv": "Fumatul interzis!",
     "level": "Sätze"
   },
   {
     "de": "Falsch verbunden!",
-    "lv": "Conexiune greșită!",
+    "lv": "Ați greșit numărul!",
     "level": "Sätze"
   },
   {
     "de": "Eintritt verboten!",
-    "lv": "Intrarea este interzisa!",
+    "lv": "Intrarea interzisă!",
     "level": "Sätze"
   },
   {
     "de": "Verstehen Sie mich?",
-    "lv": "Mă înțelegi?",
+    "lv": "Mă înțelegeți?",
     "level": "Sätze"
   },
   {
     "de": "Er versteht nichts davon.",
-    "lv": "El nu înțelege nimic despre asta.",
+    "lv": "Nu se pricepe deloc la asta.",
     "level": "Sätze"
   },
   {
     "de": "Seine Ansicht vertreten.",
-    "lv": "Apără-ți părerea.",
+    "lv": "A-și susține punctul de vedere.",
     "level": "Sätze"
   },
   {
     "de": "Streit verursachen.",
-    "lv": "Cauza o cearta.",
+    "lv": "A provoca o ceartă.",
     "level": "Sätze"
   },
   {
@@ -1856,7 +1856,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Vom Hörensagen.",
-    "lv": "După audiere.",
+    "lv": "Din auzite.",
     "level": "Sätze"
   },
   {
@@ -1871,12 +1871,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Er ist Berliner von Geburt.",
-    "lv": "Este berlinez prin naștere.",
+    "lv": "Este berlinez de baștină.",
     "level": "Sätze"
   },
   {
     "de": "Er steht vor dem Fenster.",
-    "lv": "El stă lângă fereastră.",
+    "lv": "Stă în fața ferestrei.",
     "level": "Sätze"
   },
   {
@@ -1891,32 +1891,32 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Vor Freude.",
-    "lv": "Pentru distracție.",
+    "lv": "De bucurie.",
     "level": "Sätze"
   },
   {
     "de": "Vor allem.",
-    "lv": "În primul rând. • În primul rând",
+    "lv": "Mai ales.",
     "level": "Sätze"
   },
   {
     "de": "Im Voraus.",
-    "lv": "Anterior.",
+    "lv": "Dinainte.",
     "level": "Sätze"
   },
   {
     "de": "Unter der Voraussetzung, dass...",
-    "lv": "Presupunând că...",
+    "lv": "Cu condiția ca...",
     "level": "Sätze"
   },
   {
     "de": "Unter dem Vorbehalt.",
-    "lv": "Condițional.",
+    "lv": "Cu această rezervă.",
     "level": "Sätze"
   },
   {
     "de": "Vorhanden sein.",
-    "lv": "A fi. • Fii prezent • Fii disponibil",
+    "lv": "A exista. • A fi disponibil.",
     "level": "Sätze"
   },
   {
@@ -1926,42 +1926,42 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Vorkehrungen treffen.",
-    "lv": "Luați măsuri de protecție.",
+    "lv": "A lua măsuri de precauție.",
     "level": "Sätze"
   },
   {
     "de": "Sie kommt mir bekannt vor.",
-    "lv": "Îmi pare cunoscută.",
+    "lv": "Mi se pare cunoscută.",
     "level": "Sätze"
   },
   {
     "de": "Er hat Vorliebe für Literatur.",
-    "lv": "Îi place foarte mult literatura.",
+    "lv": "Are o predilecție pentru literatură.",
     "level": "Sätze"
   },
   {
     "de": "Heute Vormittag.",
-    "lv": "În această dimineață. • Astăzi dimineața",
+    "lv": "Azi-dimineață. • Astăzi înainte de prânz.",
     "level": "Sätze"
   },
   {
     "de": "Von vorn.",
-    "lv": "Din faţă.",
+    "lv": "Din față. • De la început.",
     "level": "Sätze"
   },
   {
     "de": "Nach vorn.",
-    "lv": "Redirecţiona.",
+    "lv": "Înainte.",
     "level": "Sätze"
   },
   {
     "de": "Von vornherein.",
-    "lv": "La început.",
+    "lv": "De la bun început.",
     "level": "Sätze"
   },
   {
     "de": "Im Vorteil sein.",
-    "lv": "Fii într-o poziție mai bună.",
+    "lv": "A fi în avantaj.",
     "level": "Sätze"
   },
   {
@@ -1971,17 +1971,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wach werden.",
-    "lv": "Trezeşte-te.",
+    "lv": "A se trezi.",
     "level": "Sätze"
   },
   {
     "de": "Auf Wache sein.",
-    "lv": "Stai de pază.",
+    "lv": "A fi de gardă.",
     "level": "Sätze"
   },
   {
     "de": "Während eines Jahres.",
-    "lv": "Pe parcursul anului.",
+    "lv": "În decursul unui an.",
     "level": "Sätze"
   },
   {
@@ -1991,12 +1991,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Gegen eine Wand reden.",
-    "lv": "Vorbește degeaba.",
+    "lv": "A vorbi la pereți.",
     "level": "Sätze"
   },
   {
     "de": "Hier haben die Wände Ohren.",
-    "lv": "Aici pereții au urechi.",
+    "lv": "Aici și pereții au urechi.",
     "level": "Sätze"
   },
   {
@@ -2006,22 +2006,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Es ist warm.",
-    "lv": "E cald.",
+    "lv": "Este cald.",
     "level": "Sätze"
   },
   {
     "de": "Auf eine Nachricht warten.",
-    "lv": "Așteptați mesajul.",
+    "lv": "A aștepta un mesaj.",
     "level": "Sätze"
   },
   {
     "de": "Was wollen Sie?",
-    "lv": "Ce vrei?",
+    "lv": "Ce doriți?",
     "level": "Sätze"
   },
   {
     "de": "Was für ein...?",
-    "lv": "OMS...? • Dar...?",
+    "lv": "Ce fel de...?",
     "level": "Sätze"
   },
   {
@@ -2031,27 +2031,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Auf diesem Wege.",
-    "lv": "Așa. • Pentru astfel de fonduri",
+    "lv": "Pe această cale. • Prin aceste mijloace.",
     "level": "Sätze"
   },
   {
     "de": "Auf friedlichem Wege.",
-    "lv": "Pe calea păcii.",
+    "lv": "Pe cale pașnică.",
     "level": "Sätze"
   },
   {
     "de": "Unserer Freundschaft wegen.",
-    "lv": "Din cauza prieteniei noastre.",
+    "lv": "De dragul prieteniei noastre.",
     "level": "Sätze"
   },
   {
     "de": "Von Rechts wegen.",
-    "lv": "Prin dreptate.",
+    "lv": "De drept. • Potrivit legii.",
     "level": "Sätze"
   },
   {
     "de": "Weh tun.",
-    "lv": "A răni.",
+    "lv": "A durea.",
     "level": "Sätze"
   },
   {
@@ -2061,22 +2061,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Auf welche Weise?",
-    "lv": "În ce fel?",
+    "lv": "În ce mod?",
     "level": "Sätze"
   },
   {
     "de": "Art und Weise.",
-    "lv": "Tip.",
+    "lv": "Mod.",
     "level": "Sätze"
   },
   {
     "de": "Ohne weiteres.",
-    "lv": "Imediat. • Imediat",
+    "lv": "Fără întârziere. • Fără nicio dificultate.",
     "level": "Sätze"
   },
   {
     "de": "Bis auf weiteres.",
-    "lv": "Până la o nouă notificare.",
+    "lv": "Până la noi dispoziții.",
     "level": "Sätze"
   },
   {
@@ -2086,57 +2086,57 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Weiter nichts.",
-    "lv": "Nimic mai mult.",
+    "lv": "Nimic altceva.",
     "level": "Sätze"
   },
   {
     "de": "An welchem Tag?",
-    "lv": "In ce zi?",
+    "lv": "În ce zi?",
     "level": "Sätze"
   },
   {
     "de": "Alle Welt.",
-    "lv": "Întreaga lume. • Toată lumea",
+    "lv": "Lumea întreagă. • Toată lumea.",
     "level": "Sätze"
   },
   {
     "de": "In wenigen Tagen.",
-    "lv": "În câteva zile.",
+    "lv": "Peste câteva zile.",
     "level": "Sätze"
   },
   {
     "de": "Zu wenig.",
-    "lv": "Prea puţin.",
+    "lv": "Prea puțin.",
     "level": "Sätze"
   },
   {
     "de": "Wenn auch.",
-    "lv": "Deşi.",
+    "lv": "Chiar dacă.",
     "level": "Sätze"
   },
   {
     "de": "Wer da?",
-    "lv": "Ce este acolo?",
+    "lv": "Cine e acolo?",
     "level": "Sätze"
   },
   {
     "de": "Gesammelte Werke von Schiller.",
-    "lv": "Scrierile adunate ale lui Schiller.",
+    "lv": "Operele complete ale lui Schiller.",
     "level": "Sätze"
   },
   {
     "de": "Ausgewählte Werke.",
-    "lv": "O selecție de lucrări.",
+    "lv": "Opere alese.",
     "level": "Sätze"
   },
   {
     "de": "Er ist wert, dass...",
-    "lv": "Merită să...",
+    "lv": "Merită ca...",
     "level": "Sätze"
   },
   {
     "de": "Es ist zwei Euro wert.",
-    "lv": "Costă doi euro.",
+    "lv": "Valorează doi euro.",
     "level": "Sätze"
   },
   {
@@ -2151,17 +2151,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "In Wettbewerb treten.",
-    "lv": "Intră în competiție.",
+    "lv": "A intra în competiție.",
     "level": "Sätze"
   },
   {
     "de": "Um die Wette laufen.",
-    "lv": "Aleargă cursa.",
+    "lv": "A se întrece la alergare.",
     "level": "Sätze"
   },
   {
     "de": "Was gilt die Wette?",
-    "lv": "Pentru ce ne târguim?",
+    "lv": "Pe ce pariem?",
     "level": "Sätze"
   },
   {
@@ -2171,7 +2171,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wettkampf im Turnen.",
-    "lv": "Competiții în gimnastică.",
+    "lv": "Concurs de gimnastică.",
     "level": "Sätze"
   },
   {
@@ -2181,22 +2181,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Widerspruch erheben.",
-    "lv": "Să protesteze. • Ridicați obiecții",
+    "lv": "A protesta. • A ridica obiecții.",
     "level": "Sätze"
   },
   {
     "de": "Wie alt ist er?",
-    "lv": "Ce vârstă are?",
+    "lv": "Câți ani are?",
     "level": "Sätze"
   },
   {
     "de": "Wie lange?",
-    "lv": "Cât timp",
+    "lv": "Cât timp?",
     "level": "Sätze"
   },
   {
     "de": "Auf Wiederhören!",
-    "lv": "La revedere!",
+    "lv": "Să auzim de bine!",
     "level": "Sätze"
   },
   {
@@ -2211,17 +2211,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Herzlich willkommen!",
-    "lv": "Salutări calde!",
+    "lv": "Bine ați venit!",
     "level": "Sätze"
   },
   {
     "de": "Du musst ziehen.",
-    "lv": "Ai o mișcare.",
+    "lv": "E rândul tău să muți.",
     "level": "Sätze"
   },
   {
     "de": "Es zieht.",
-    "lv": "Trage",
+    "lv": "E curent.",
     "level": "Sätze"
   },
   {
@@ -2231,27 +2231,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Zipfel einer Wurst.",
-    "lv": "Sfat cârnați.",
+    "lv": "Capătul unui cârnat.",
     "level": "Sätze"
   },
   {
     "de": "Zu ihm gehen.",
-    "lv": "Du-te la el.",
+    "lv": "A merge la el.",
     "level": "Sätze"
   },
   {
     "de": "Zur Schule gehen.",
-    "lv": "Du-te la școală.",
+    "lv": "A merge la școală.",
     "level": "Sätze"
   },
   {
     "de": "Zu Hause bleiben.",
-    "lv": "Stai acasă.",
+    "lv": "A rămâne acasă.",
     "level": "Sätze"
   },
   {
     "de": "Von Tag zu Tag.",
-    "lv": "În fiecare zi.",
+    "lv": "Din zi în zi.",
     "level": "Sätze"
   },
   {
@@ -2261,17 +2261,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wasser zum Trinken.",
-    "lv": "Apa de baut.",
+    "lv": "Apă de băut.",
     "level": "Sätze"
   },
   {
     "de": "Zu Fuß.",
-    "lv": "Pentru picioare.",
+    "lv": "Pe jos.",
     "level": "Sätze"
   },
   {
     "de": "Zu Pferde.",
-    "lv": "Da.",
+    "lv": "Călare.",
     "level": "Sätze"
   },
   {
@@ -2301,22 +2301,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Mit den Achseln zucken.",
-    "lv": "Ridică din umeri.",
+    "lv": "A ridica din umeri.",
     "level": "Sätze"
   },
   {
     "de": "In einem Zug trinken.",
-    "lv": "Bea dintr-o înghițitură.",
+    "lv": "A bea dintr-o înghițitură.",
     "level": "Sätze"
   },
   {
     "de": "Zugrunde gehen.",
-    "lv": "Pieri.",
+    "lv": "A pieri.",
     "level": "Sätze"
   },
   {
     "de": "Zugrunde legen.",
-    "lv": "Pune pe bază. • Luați ca bază.",
+    "lv": "A pune la bază. • A lua drept bază.",
     "level": "Sätze"
   },
   {
@@ -2326,7 +2326,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Machen Sie bitte die Tür zu!",
-    "lv": "Vă rugăm să închideți ușa!",
+    "lv": "Închideți ușa, vă rog!",
     "level": "Sätze"
   },
   {
@@ -2336,57 +2336,57 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Die Tage nehmen zu.",
-    "lv": "Zilele devin mai lungi.",
+    "lv": "Zilele se lungesc.",
     "level": "Sätze"
   },
   {
     "de": "Zusammenhängen mit etwas.",
-    "lv": "A fi asociat cu ceva.",
+    "lv": "A avea legătură cu ceva.",
     "level": "Sätze"
   },
   {
     "de": "Die Tür ist zu.",
-    "lv": "Ușa este închisă.",
+    "lv": "Ușa e închisă.",
     "level": "Sätze"
   },
   {
     "de": "Das hätte ich ihm nicht zugetraut.",
-    "lv": "Nu m-aș fi așteptat la asta de la el.",
+    "lv": "Nu m-aș fi așteptat la asta din partea lui.",
     "level": "Sätze"
   },
   {
     "de": "Freier Zutritt.",
-    "lv": "Intrarea liberă.",
+    "lv": "Intrare liberă.",
     "level": "Sätze"
   },
   {
     "de": "Zutritt verboten!",
-    "lv": "Intrarea este interzisa!",
+    "lv": "Accesul interzis!",
     "level": "Sätze"
   },
   {
     "de": "Das ist zu viel!",
-    "lv": "E prea mult!",
+    "lv": "Asta e prea mult!",
     "level": "Sätze"
   },
   {
     "de": "Zuwider werden.",
-    "lv": "Deveniți dezgustător. • Să se îmbolnăvească",
+    "lv": "A deveni respingător. • A-i deveni nesuferit cuiva.",
     "level": "Sätze"
   },
   {
     "de": "Und zwar.",
-    "lv": "Anume.",
+    "lv": "Și anume.",
     "level": "Sätze"
   },
   {
     "de": "Es steht außer Zweifel.",
-    "lv": "Nu există nicio îndoială.",
+    "lv": "Nu încape nicio îndoială.",
     "level": "Sätze"
   },
   {
     "de": "Ohne Zweifel.",
-    "lv": "Fără ezitare.",
+    "lv": "Fără îndoială.",
     "level": "Sätze"
   },
   {
@@ -2396,7 +2396,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Frohes neues Jahr!",
-    "lv": "An nou fericit!",
+    "lv": "Un An Nou fericit!",
     "level": "Sätze"
   },
   {
@@ -2406,17 +2406,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Gute Reise!",
-    "lv": "Călătorie fericită!",
+    "lv": "Drum bun!",
     "level": "Sätze"
   },
   {
     "de": "Es freut mich, Sie kennenzulernen.",
-    "lv": "Mă bucur să te cunosc.",
+    "lv": "Mă bucur să vă cunosc.",
     "level": "Sätze"
   },
   {
     "de": "Wären Sie bitte so nett?",
-    "lv": "Te rog să fii atât de amabil?",
+    "lv": "Ați fi atât de amabil, vă rog?",
     "level": "Sätze"
   },
   {
@@ -2426,22 +2426,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Setzt euch bitte hin!",
-    "lv": "Stai jos, te rog!",
+    "lv": "Așezați-vă, vă rog!",
     "level": "Sätze"
   },
   {
     "de": "Ben, komm bitte an die Tafel!",
-    "lv": "Ben, te rog vino la bord!",
+    "lv": "Ben, vino la tablă, te rog!",
     "level": "Sätze"
   },
   {
     "de": "Schlagt bitte die Lehrbücher auf!",
-    "lv": "Deschide manualele, te rog!",
+    "lv": "Deschideți manualele, vă rog!",
     "level": "Sätze"
   },
   {
     "de": "Geht bitte in die Sporthalle!",
-    "lv": "Vă rugăm să mergeți la sală!",
+    "lv": "Mergeți în sala de sport, vă rog!",
     "level": "Sätze"
   },
   {
@@ -2451,27 +2451,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Schlafen Sie noch?",
-    "lv": "Mai dormi?",
+    "lv": "Mai dormiți?",
     "level": "Sätze"
   },
   {
     "de": "Er ist fest eingeschlafen.",
-    "lv": "El doarme adânc.",
+    "lv": "A adormit adânc.",
     "level": "Sätze"
   },
   {
     "de": "Wecke ihn bitte auf, es ist schon spät!",
-    "lv": "Te rog trezește-l, e deja târziu!",
+    "lv": "Trezește-l, te rog, e deja târziu!",
     "level": "Sätze"
   },
   {
     "de": "Es tut mir sehr leid!",
-    "lv": "Îmi pare atât de rău!",
+    "lv": "Îmi pare foarte rău!",
     "level": "Sätze"
   },
   {
     "de": "Vielen Dank!",
-    "lv": "Mulțumesc foarte mult!",
+    "lv": "Mulțumesc mult!",
     "level": "Sätze"
   },
   {
@@ -2481,27 +2481,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Lest bitte mit!",
-    "lv": "Citiți mai departe, vă rog!",
+    "lv": "Urmăriți textul, vă rog!",
     "level": "Sätze"
   },
   {
     "de": "Emma, schau bitte nicht aus dem Fenster!",
-    "lv": "Emma, ​​te rog nu te uita pe fereastră!",
+    "lv": "Emma, nu te uita pe fereastră, te rog!",
     "level": "Sätze"
   },
   {
     "de": "Jonas, bring bitte die Hefte!",
-    "lv": "Jonas, te rog să aduci caietele!",
+    "lv": "Jonas, adu caietele, te rog!",
     "level": "Sätze"
   },
   {
     "de": "Geh bitte zurück an deinen Platz!",
-    "lv": "Întoarce-te la tine!",
+    "lv": "Întoarce-te la locul tău, te rog!",
     "level": "Sätze"
   },
   {
     "de": "Es ist halb acht.",
-    "lv": "Este șapte și jumătate.",
+    "lv": "Este ora șapte și jumătate.",
     "level": "Sätze"
   },
   {
@@ -2511,42 +2511,42 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich stehe gleich auf.",
-    "lv": "Mă trezesc chiar acum.",
+    "lv": "Mă scol imediat.",
     "level": "Sätze"
   },
   {
     "de": "Steh auf, Hanna, es klingelt!",
-    "lv": "Ridică-te, Hannah, sună clopoțelul!",
+    "lv": "Scoală-te, Hanna, sună deșteptătorul! • Scoală-te, Hanna, sună cineva la ușă!",
     "level": "Sätze"
   },
   {
     "de": "Lass mich noch fünf Minuten schlafen!",
-    "lv": "Lasă-mă să dorm încă cinci minute!",
+    "lv": "Lasă-mă să mai dorm cinci minute!",
     "level": "Sätze"
   },
   {
     "de": "Vergiss nicht, das Zimmer zu lüften!",
-    "lv": "Nu uitați să aerisiți camera!",
+    "lv": "Nu uita să aerisești camera!",
     "level": "Sätze"
   },
   {
     "de": "Wo ist das Handtuch?",
-    "lv": "Unde este prosopul",
+    "lv": "Unde e prosopul?",
     "level": "Sätze"
   },
   {
     "de": "Ich möchte mir die Zähne putzen.",
-    "lv": "Vreau să mă spăl pe dinți.",
+    "lv": "Aș vrea să mă spăl pe dinți.",
     "level": "Sätze"
   },
   {
     "de": "Mit was putzt du dir die Zähne?",
-    "lv": "Cu ce ​​te speli pe dinti?",
+    "lv": "Cu ce te speli pe dinți?",
     "level": "Sätze"
   },
   {
     "de": "Ich möchte mich anziehen.",
-    "lv": "Vreau sa ma imbrac.",
+    "lv": "Aș vrea să mă îmbrac.",
     "level": "Sätze"
   },
   {
@@ -2556,12 +2556,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Kleide dich wärmer an, draußen ist es kühl.",
-    "lv": "Îmbrăcați-vă călduros, afară e frig.",
+    "lv": "Îmbracă-te mai gros, afară e răcoare.",
     "level": "Sätze"
   },
   {
     "de": "Guten Morgen, wie geht es dir?",
-    "lv": "Bună dimineața, ce mai faci?",
+    "lv": "Bună dimineața, ce faci?",
     "level": "Sätze"
   },
   {
@@ -2571,17 +2571,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Was gibt es Neues?",
-    "lv": "Ce este nou?",
+    "lv": "Ce mai e nou?",
     "level": "Sätze"
   },
   {
     "de": "Was für ein Chaos hier!",
-    "lv": "Ce mizerie este aici!",
+    "lv": "Ce haos e aici!",
     "level": "Sätze"
   },
   {
     "de": "Darf ich beim Aufräumen helfen?",
-    "lv": "Pot să ajut la ordine?",
+    "lv": "Pot să ajut la făcut ordine?",
     "level": "Sätze"
   },
   {
@@ -2591,12 +2591,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Gewöhnlich trinke ich morgens eine Tasse Kaffee.",
-    "lv": "De obicei beau o ceașcă de cafea dimineața.",
+    "lv": "De obicei beau dimineața o ceașcă de cafea.",
     "level": "Sätze"
   },
   {
     "de": "Am liebsten trinke ich schwarzen Kaffee.",
-    "lv": "Cel mai bine beau cafea neagră.",
+    "lv": "Cel mai mult îmi place cafeaua neagră.",
     "level": "Sätze"
   },
   {
@@ -2616,87 +2616,87 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Gib mir bitte ein Brötchen mit Käse.",
-    "lv": "Dă-mi o chiflă cu brânză, te rog.",
+    "lv": "Dă-mi, te rog, o chiflă cu brânză.",
     "level": "Sätze"
   },
   {
     "de": "Ich muss jetzt los!",
-    "lv": "Trebuie să plec acum!",
+    "lv": "Acum trebuie să plec!",
     "level": "Sätze"
   },
   {
     "de": "Vergiss dein Frühstück nicht!",
-    "lv": "Nu uita de micul dejun!",
+    "lv": "Nu-ți uita micul dejun!",
     "level": "Sätze"
   },
   {
     "de": "Klara, deck bitte den Tisch!",
-    "lv": "Clara, te rog pune masa!",
+    "lv": "Klara, pune masa, te rog!",
     "level": "Sätze"
   },
   {
     "de": "Vergiss die Servietten nicht!",
-    "lv": "Nu uitați de șervețele!",
+    "lv": "Nu uita șervețelele!",
     "level": "Sätze"
   },
   {
     "de": "Wann esst ihr zu Mittag?",
-    "lv": "Când mănânci prânzul",
+    "lv": "Când luați prânzul?",
     "level": "Sätze"
   },
   {
     "de": "Es ist Zeit zu essen.",
-    "lv": "E timpul să mănânci.",
+    "lv": "E timpul să mâncăm.",
     "level": "Sätze"
   },
   {
     "de": "Was gibt es heute zu Mittag?",
-    "lv": "Ce e pentru prânz azi?",
+    "lv": "Ce avem astăzi la prânz?",
     "level": "Sätze"
   },
   {
     "de": "Wie schmeckt dir die Suppe?",
-    "lv": "Cum iti place supa?",
+    "lv": "Cum ți se pare supa?",
     "level": "Sätze"
   },
   {
     "de": "Ehrlich gesagt ist sie etwas zu salzig.",
-    "lv": "Sincer, este puțin prea sărat.",
+    "lv": "Sincer să fiu, e puțin prea sărată.",
     "level": "Sätze"
   },
   {
     "de": "Darf ich dir ein Stück Brot geben?",
-    "lv": "Pot să-ți dau o felie de pâine?",
+    "lv": "Pot să-ți dau o bucată de pâine?",
     "level": "Sätze"
   },
   {
     "de": "Danke, ich habe schon.",
-    "lv": "Multumesc, am deja.",
+    "lv": "Mulțumesc, am deja.",
     "level": "Sätze"
   },
   {
     "de": "Das Fleisch schmeckt ausgezeichnet.",
-    "lv": "Carnea are un gust grozav.",
+    "lv": "Carnea are un gust excelent.",
     "level": "Sätze"
   },
   {
     "de": "Danke, ich bin schon satt.",
-    "lv": "Mulțumesc, sunt deja plin.",
+    "lv": "Mulțumesc, sunt deja sătul.",
     "level": "Sätze"
   },
   {
     "de": "Heute haben wir Besuch.",
-    "lv": "Astăzi avem vizitatori.",
+    "lv": "Astăzi avem musafiri.",
     "level": "Sätze"
   },
   {
     "de": "Bist du heute Abend frei?",
-    "lv": "Esti liber in seara asta?",
+    "lv": "Ești liber diseară?",
     "level": "Sätze"
   },
   {
     "de": "Komm doch heute zum Mittagessen vorbei!",
-    "lv": "Vino azi la prânz!",
+    "lv": "Hai, treci azi pe la noi la prânz!",
     "level": "Sätze"
   },
   {
@@ -2706,7 +2706,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bitte, bedien dich!",
-    "lv": "Vă rugăm să mâncați cât doriți!",
+    "lv": "Te rog, servește-te!",
     "level": "Sätze"
   },
   {
@@ -2716,42 +2716,42 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Danke für die nette Aufnahme!",
-    "lv": "Vă mulțumim pentru primirea călduroasă!",
+    "lv": "Mulțumesc pentru primirea călduroasă!",
     "level": "Sätze"
   },
   {
     "de": "Wann gehst du ins Bett?",
-    "lv": "Cand te culci",
+    "lv": "Când te culci?",
     "level": "Sätze"
   },
   {
     "de": "Wenn ich von der Arbeit komme, bin ich immer müde.",
-    "lv": "Sunt mereu obosită când vin acasă de la serviciu.",
+    "lv": "Când vin de la serviciu, sunt mereu obosit.",
     "level": "Sätze"
   },
   {
     "de": "Es ist Zeit, ins Bett zu gehen.",
-    "lv": "E timpul să mergi la culcare.",
+    "lv": "E timpul să ne culcăm.",
     "level": "Sätze"
   },
   {
     "de": "Es ist schönes Wetter.",
-    "lv": "Este un timp frumos.",
+    "lv": "E vreme frumoasă.",
     "level": "Sätze"
   },
   {
     "de": "Willst du mit mir spazieren gehen?",
-    "lv": "Vrei să mergi cu mine?",
+    "lv": "Vrei să mergi cu mine la plimbare?",
     "level": "Sätze"
   },
   {
     "de": "Sieh mal, es wird gleich regnen.",
-    "lv": "Uite, va ploua în curând.",
+    "lv": "Uite, o să plouă imediat.",
     "level": "Sätze"
   },
   {
     "de": "Nimm den Regenschirm mit!",
-    "lv": "Ia o umbrelă cu tine!",
+    "lv": "Ia umbrela cu tine!",
     "level": "Sätze"
   },
   {
@@ -2761,7 +2761,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich bin schon ganz nass.",
-    "lv": "Sunt deja complet ud.",
+    "lv": "Sunt deja ud leoarcă.",
     "level": "Sätze"
   },
   {
@@ -2771,7 +2771,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Es hört auf zu regnen.",
-    "lv": "Ploaia se oprește.",
+    "lv": "Se oprește ploaia.",
     "level": "Sätze"
   },
   {
@@ -2781,22 +2781,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Es ist sehr warm.",
-    "lv": "Este foarte cald.",
+    "lv": "E foarte cald.",
     "level": "Sätze"
   },
   {
     "de": "Es sieht nach Regen aus.",
-    "lv": "Se pare că o să plouă.",
+    "lv": "Parcă vrea să plouă.",
     "level": "Sätze"
   },
   {
     "de": "Wir bekommen gleich ein Gewitter.",
-    "lv": "Suntem pe cale să facem o furtună.",
+    "lv": "Imediat se pornește furtuna.",
     "level": "Sätze"
   },
   {
     "de": "Das Gewitter zieht vorüber.",
-    "lv": "Furtuna a trecut.",
+    "lv": "Furtuna trece.",
     "level": "Sätze"
   },
   {
@@ -2811,7 +2811,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Der Winter ist da, es hat geschneit.",
-    "lv": "Iarna a venit, a nins noaptea.",
+    "lv": "A venit iarna, a nins.",
     "level": "Sätze"
   },
   {
@@ -2821,7 +2821,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wie schön ist es im Wald im Winter!",
-    "lv": "Ce frumos este în pădure iarna!",
+    "lv": "Ce frumos e iarna în pădure!",
     "level": "Sätze"
   },
   {
@@ -2831,42 +2831,42 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Draußen ist Glatteis, pass auf!",
-    "lv": "Afară e alunecos, fii atent!",
+    "lv": "Afară e polei, ai grijă!",
     "level": "Sätze"
   },
   {
     "de": "Wollen wir auf die Eisbahn gehen?",
-    "lv": "Mergem la patinaj?",
+    "lv": "Mergem la patinoar?",
     "level": "Sätze"
   },
   {
     "de": "Zieh die Jacke an, du kannst dich erkälten.",
-    "lv": "Pune-ți o jachetă, s-ar putea să răcești.",
+    "lv": "Pune-ți geaca, poți să răcești.",
     "level": "Sätze"
   },
   {
     "de": "Es ist halb sieben.",
-    "lv": "Este șapte și jumătate.",
+    "lv": "Este ora șase și jumătate.",
     "level": "Sätze"
   },
   {
     "de": "Meine Uhr geht fünf Minuten vor.",
-    "lv": "Ceasul meu este rapid cinci minute.",
+    "lv": "Ceasul meu o ia înainte cu cinci minute.",
     "level": "Sätze"
   },
   {
     "de": "Weck mich morgen früh um sieben Uhr!",
-    "lv": "Trezește-mă mâine la șapte!",
+    "lv": "Trezește-mă mâine dimineață la ora șapte!",
     "level": "Sätze"
   },
   {
     "de": "Was ist heute für ein Datum?",
-    "lv": "Care este data azi?",
+    "lv": "Ce dată e azi?",
     "level": "Sätze"
   },
   {
     "de": "Heute ist der elfte Juli.",
-    "lv": "Astăzi este 11 iulie.",
+    "lv": "Astăzi e unsprezece iulie.",
     "level": "Sätze"
   },
   {
@@ -2876,42 +2876,42 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Es ist schon lange her, dass wir uns gesehen haben.",
-    "lv": "Nu ne-am întâlnit de mult.",
+    "lv": "A trecut mult timp de când nu ne-am mai văzut.",
     "level": "Sätze"
   },
   {
     "de": "Wie geht es dir?",
-    "lv": "Ce mai faci",
+    "lv": "Ce mai faci?",
     "level": "Sätze"
   },
   {
     "de": "Entschuldige, ich möchte etwas mit dir besprechen.",
-    "lv": "Scuză-mă, vreau să discut ceva cu tine.",
+    "lv": "Scuză-mă, aș vrea să discut ceva cu tine.",
     "level": "Sätze"
   },
   {
     "de": "Gehen wir spazieren!",
-    "lv": "Să mergem la o plimbare!",
+    "lv": "Să mergem la plimbare!",
     "level": "Sätze"
   },
   {
     "de": "Hast du Lust, mit mir in den Park zu gehen?",
-    "lv": "Vrei să mergi cu mine în parc?",
+    "lv": "Ai chef să mergi cu mine în parc?",
     "level": "Sätze"
   },
   {
     "de": "Ich komme, um dich zum Spaziergang abzuholen.",
-    "lv": "Am venit să te iau la plimbare.",
+    "lv": "Vin să te iau la plimbare.",
     "level": "Sätze"
   },
   {
     "de": "Geh bitte etwas langsamer, ich kann dir nicht folgen!",
-    "lv": "Du-te puțin mai încet, nu pot să țin pasul cu tine!",
+    "lv": "Mergi puțin mai încet, te rog, nu pot să țin pasul cu tine!",
     "level": "Sätze"
   },
   {
     "de": "Ich bin zum ersten Mal in dieser Gegend.",
-    "lv": "Sunt aici pentru prima dată.",
+    "lv": "Sunt pentru prima oară în zona aceasta.",
     "level": "Sätze"
   },
   {
@@ -2926,32 +2926,32 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ehrlich gesagt bin ich ziemlich müde.",
-    "lv": "Sincer, sunt destul de obosit.",
+    "lv": "Sincer să fiu, sunt destul de obosit.",
     "level": "Sätze"
   },
   {
     "de": "Entschuldige, wo ist die nächste U-Bahn-Station?",
-    "lv": "Scuzați-mă, unde este cea mai apropiată stație de metrou?",
+    "lv": "Scuză-mă, unde e cea mai apropiată stație de metrou?",
     "level": "Sätze"
   },
   {
     "de": "Welcher ist der kürzeste Weg?",
-    "lv": "Care este drumul cel mai scurt?",
+    "lv": "Care e drumul cel mai scurt?",
     "level": "Sätze"
   },
   {
     "de": "Geh hier die zweite Straße links und dann immer geradeaus.",
-    "lv": "Aici, luați a doua stradă la stânga și mergeți drept înainte.",
+    "lv": "Ia-o aici pe a doua stradă la stânga și apoi mergi tot înainte.",
     "level": "Sätze"
   },
   {
     "de": "Wie komme ich am schnellsten zum Bahnhof?",
-    "lv": "Cum să ajungi mai repede la gară?",
+    "lv": "Cum ajung cel mai repede la gară?",
     "level": "Sätze"
   },
   {
     "de": "Ich habe vor, morgen zu verreisen.",
-    "lv": "Intenționez să plec mâine.",
+    "lv": "Am de gând să plec mâine în călătorie.",
     "level": "Sätze"
   },
   {
@@ -2961,52 +2961,52 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Reist du geschäftlich oder privat?",
-    "lv": "Călătorești pentru muncă sau pentru odihnă?",
+    "lv": "Călătorești în interes de serviciu sau în interes personal?",
     "level": "Sätze"
   },
   {
     "de": "Finn fährt bis Berlin mit, dann geht er ans Meer.",
-    "lv": "Finn conduce la Berlin, apoi va merge la mare.",
+    "lv": "Finn merge cu noi până la Berlin, apoi pleacă la mare.",
     "level": "Sätze"
   },
   {
     "de": "Wann fährt das Schiff ab?",
-    "lv": "Când pleacă nava?",
+    "lv": "Când pleacă vaporul?",
     "level": "Sätze"
   },
   {
     "de": "In einer halben Stunde.",
-    "lv": "După o jumătate de oră.",
+    "lv": "Peste o jumătate de oră.",
     "level": "Sätze"
   },
   {
     "de": "Kann ich noch eine Kabine bekommen?",
-    "lv": "Mai pot lua o cabină?",
+    "lv": "Mai pot primi o cabină?",
     "level": "Sätze"
   },
   {
     "de": "Vergiss deinen Pass nicht!",
-    "lv": "Nu uitați pașaportul!",
+    "lv": "Nu-ți uita pașaportul!",
     "level": "Sätze"
   },
   {
     "de": "Es ist Zeit, den Koffer zu packen.",
-    "lv": "E timpul să-ți faci valiza.",
+    "lv": "E timpul să facem bagajul.",
     "level": "Sätze"
   },
   {
     "de": "Der Zug fährt um halb sieben ab.",
-    "lv": "Trenul pleacă la șapte și jumătate.",
+    "lv": "Trenul pleacă la șase și jumătate.",
     "level": "Sätze"
   },
   {
     "de": "Hol mir bitte ein Taxi, ich verpasse sonst den Zug!",
-    "lv": "Sună un taxi, te rog, altfel pierd trenul!",
+    "lv": "Cheamă-mi un taxi, te rog, altfel pierd trenul!",
     "level": "Sätze"
   },
   {
     "de": "Fahr bitte zum Bahnhof!",
-    "lv": "Va rog sa ma duceti la statie!",
+    "lv": "Du-mă la gară, te rog!",
     "level": "Sätze"
   },
   {
@@ -3016,12 +3016,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ist der Schalter schon offen?",
-    "lv": "Biroul de bilete este încă deschis?",
+    "lv": "Ghișeul este deja deschis?",
     "level": "Sätze"
   },
   {
     "de": "Eine Fahrkarte nach Köln, bitte.",
-    "lv": "Un bilet la Köln, vă rog.",
+    "lv": "Un bilet pentru Köln, vă rog.",
     "level": "Sätze"
   },
   {
@@ -3031,37 +3031,37 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Der Zug fährt gleich ab.",
-    "lv": "Trenul pleacă în curând.",
+    "lv": "Trenul pleacă imediat.",
     "level": "Sätze"
   },
   {
     "de": "Muss ich in Koblenz umsteigen?",
-    "lv": "Trebuie să schimb locurile în Koblenz?",
+    "lv": "Trebuie să schimb trenul la Koblenz?",
     "level": "Sätze"
   },
   {
     "de": "Ja, dort musst du umsteigen.",
-    "lv": "Da, trebuie să schimbi locurile acolo.",
+    "lv": "Da, acolo trebuie să schimbi trenul.",
     "level": "Sätze"
   },
   {
     "de": "Ist dieser Platz frei?",
-    "lv": "Este disponibil acest loc?",
+    "lv": "Locul acesta este liber?",
     "level": "Sätze"
   },
   {
     "de": "Nein, hier sitzt niemand.",
-    "lv": "Nu, nimeni nu stă aici.",
+    "lv": "Nu, aici nu stă nimeni.",
     "level": "Sätze"
   },
   {
     "de": "Wo ist der Bahnsteigkartenautomat?",
-    "lv": "Unde este automatul de bilete pe platformă?",
+    "lv": "Unde este automatul de bilete de peron?",
     "level": "Sätze"
   },
   {
     "de": "Stell mein Handgepäck ins Gepäcknetz.",
-    "lv": "Pune-mi bagajele de mână în grilă.",
+    "lv": "Pune-mi bagajul de mână în plasa pentru bagaje.",
     "level": "Sätze"
   },
   {
@@ -3071,42 +3071,42 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Es zieht, schließ bitte das Fenster!",
-    "lv": "Trageți, vă rugăm să închideți fereastra!",
+    "lv": "E curent, închide fereastra, te rog!",
     "level": "Sätze"
   },
   {
     "de": "Welche ist die nächste Station?",
-    "lv": "Care este următoarea oprire?",
+    "lv": "Care este stația următoare?",
     "level": "Sätze"
   },
   {
     "de": "Wie lange hält der Zug?",
-    "lv": "Cât timp stă trenul?",
+    "lv": "Cât timp stă trenul în stație?",
     "level": "Sätze"
   },
   {
     "de": "Wo muss ich umsteigen?",
-    "lv": "Unde ar trebui sa ma transfer?",
+    "lv": "Unde trebuie să schimb trenul?",
     "level": "Sätze"
   },
   {
     "de": "Der Zug hat Verspätung.",
-    "lv": "Trenul întârzie.",
+    "lv": "Trenul are întârziere.",
     "level": "Sätze"
   },
   {
     "de": "Dieser Wagen ist für Nichtraucher.",
-    "lv": "Acest vagon este de nefumători.",
+    "lv": "Acest vagon este pentru nefumători.",
     "level": "Sätze"
   },
   {
     "de": "Wir fahren jetzt über die Grenze.",
-    "lv": "Acum trecem cu mașina de frontieră.",
+    "lv": "Acum trecem granița.",
     "level": "Sätze"
   },
   {
     "de": "Hast du etwas zu verzollen?",
-    "lv": "Ai ceva de clarificat?",
+    "lv": "Ai ceva de declarat?",
     "level": "Sätze"
   },
   {
@@ -3116,12 +3116,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Kannst du mir ein gutes Hotel empfehlen?",
-    "lv": "Imi puteti recomanda un hotel bun?",
+    "lv": "Poți să-mi recomanzi un hotel bun?",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie freie Zimmer?",
-    "lv": "Aveți camere disponibile?",
+    "lv": "Aveți camere libere?",
     "level": "Sätze"
   },
   {
@@ -3136,17 +3136,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Morgen reise ich ab. Weck mich um sieben Uhr!",
-    "lv": "Eu plec maine. Trezește-mă la șapte!",
+    "lv": "Mâine plec. Trezește-mă la ora șapte!",
     "level": "Sätze"
   },
   {
     "de": "Die Rechnung, bitte!",
-    "lv": "Nota, vă rog!",
+    "lv": "Nota de plată, vă rog!",
     "level": "Sätze"
   },
   {
     "de": "Wo ist die Stadtbibliothek?",
-    "lv": "Unde este biblioteca orașului?",
+    "lv": "Unde este biblioteca municipală?",
     "level": "Sätze"
   },
   {
@@ -3181,52 +3181,52 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Kellner, die Speisekarte, bitte!",
-    "lv": "Ospatari, meniu, va rog!",
+    "lv": "Ospătar, meniul, vă rog!",
     "level": "Sätze"
   },
   {
     "de": "Ist der Fisch frisch?",
-    "lv": "Este proaspăt peștele?",
+    "lv": "Peștele este proaspăt?",
     "level": "Sätze"
   },
   {
     "de": "Das schmeckt ausgezeichnet!",
-    "lv": "Are gust grozav!",
+    "lv": "Are un gust excelent!",
     "level": "Sätze"
   },
   {
     "de": "Kellner, zahlen bitte!",
-    "lv": "Ospatari, va rog sa platiti!",
+    "lv": "Ospătar, nota, vă rog!",
     "level": "Sätze"
   },
   {
     "de": "Ich gehe ins Café einen Kaffee trinken.",
-    "lv": "Voi merge la o cafenea să beau cafea.",
+    "lv": "Mă duc la cafenea să beau o cafea.",
     "level": "Sätze"
   },
   {
     "de": "Willst du mitkommen?",
-    "lv": "Vrei să vii?",
+    "lv": "Vrei să vii cu mine?",
     "level": "Sätze"
   },
   {
     "de": "Eine Tasse Kaffee mit Milch, bitte!",
-    "lv": "O ceașcă de cafea cu lapte, te rog!",
+    "lv": "O ceașcă de cafea cu lapte, vă rog!",
     "level": "Sätze"
   },
   {
     "de": "Bitte schneller, ich habe es eilig!",
-    "lv": "Mai repede te rog, trebuie să mă grăbesc!",
+    "lv": "Mai repede, vă rog, mă grăbesc!",
     "level": "Sätze"
   },
   {
     "de": "Lass deinen Kaffee nicht kalt werden!",
-    "lv": "Nu lăsa cafeaua să se răcească!",
+    "lv": "Nu-ți lăsa cafeaua să se răcească!",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie etwas Erfrischendes?",
-    "lv": "Ai ceva răcoritor?",
+    "lv": "Aveți ceva răcoritor?",
     "level": "Sätze"
   },
   {
@@ -3236,12 +3236,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Heute Morgen habe ich einen Brief bekommen.",
-    "lv": "Am primit o scrisoare azi dimineață.",
+    "lv": "Azi-dimineață am primit o scrisoare.",
     "level": "Sätze"
   },
   {
     "de": "Ich muss ihm gleich schreiben.",
-    "lv": "Trebuie să-i scriu acum.",
+    "lv": "Trebuie să-i scriu imediat.",
     "level": "Sätze"
   },
   {
@@ -3251,27 +3251,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wo ist die Post?",
-    "lv": "Unde este oficiul poștal?",
+    "lv": "Unde este poșta?",
     "level": "Sätze"
   },
   {
     "de": "Erinnere mich morgen daran zu schreiben!",
-    "lv": "Amintește-mi să semnez mâine!",
+    "lv": "Amintește-mi mâine să scriu!",
     "level": "Sätze"
   },
   {
     "de": "Werfen Sie bitte diesen Brief in den Briefkasten.",
-    "lv": "Vă rugăm să trimiteți această scrisoare în cutia poștală!",
+    "lv": "Puneți, vă rog, această scrisoare în cutia poștală.",
     "level": "Sätze"
   },
   {
     "de": "Hallo, hier spricht Emma.",
-    "lv": "Bună, aceasta este Emma.",
+    "lv": "Alo, sunt Emma.",
     "level": "Sätze"
   },
   {
     "de": "Kann ich dich später anrufen?",
-    "lv": "Pot sa te sun mai tarziu",
+    "lv": "Pot să te sun mai târziu?",
     "level": "Sätze"
   },
   {
@@ -3281,12 +3281,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bitte schneiden Sie mir die Haare.",
-    "lv": "Te rog tunde-mi parul.",
+    "lv": "Vă rog să mă tundeți.",
     "level": "Sätze"
   },
   {
     "de": "Hinten bitte nicht zu kurz.",
-    "lv": "În spate, te rog, nu prea scurt.",
+    "lv": "La spate, vă rog, nu prea scurt.",
     "level": "Sätze"
   },
   {
@@ -3301,62 +3301,62 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Alle Plätze sind ausverkauft.",
-    "lv": "Toate biletele sunt epuizate.",
+    "lv": "S-au vândut toate locurile.",
     "level": "Sätze"
   },
   {
     "de": "Drei Karten, bitte!",
-    "lv": "Trei bilete, te rog!",
+    "lv": "Trei bilete, vă rog!",
     "level": "Sätze"
   },
   {
     "de": "Wir lassen die Jacken in der Garderobe.",
-    "lv": "Să lăsăm jachetele în garderobă.",
+    "lv": "Ne lăsăm jachetele la garderobă.",
     "level": "Sätze"
   },
   {
     "de": "Bitte schnell, der Vorhang geht gleich auf!",
-    "lv": "Mai repede te rog, cortina este pe cale să se deschidă!",
+    "lv": "Repede, vă rog, cortina se ridică imediat!",
     "level": "Sätze"
   },
   {
     "de": "Der Vorhang fällt.",
-    "lv": "Cortina cade.",
+    "lv": "Cade cortina.",
     "level": "Sätze"
   },
   {
     "de": "Darf ich dich zum Tanz bitten?",
-    "lv": "Pot să te rog să dansezi?",
+    "lv": "Pot să te invit la dans?",
     "level": "Sätze"
   },
   {
     "de": "Wann ist eure Hochzeit?",
-    "lv": "Când este nunta ta?",
+    "lv": "Când este nunta voastră?",
     "level": "Sätze"
   },
   {
     "de": "Ich suche eine Wohnung.",
-    "lv": "Caut apartament.",
+    "lv": "Caut un apartament.",
     "level": "Sätze"
   },
   {
     "de": "Ist in diesem Haus eine Wohnung frei?",
-    "lv": "Există un apartament disponibil în această casă?",
+    "lv": "Este vreun apartament liber în clădirea aceasta?",
     "level": "Sätze"
   },
   {
     "de": "Wie viel kostet die Miete?",
-    "lv": "Cât este chiria?",
+    "lv": "Cât costă chiria?",
     "level": "Sätze"
   },
   {
     "de": "Die Wohnung hat drei Zimmer und eine Küche.",
-    "lv": "Apartamentul are trei camere si o bucatarie.",
+    "lv": "Apartamentul are trei camere și o bucătărie.",
     "level": "Sätze"
   },
   {
     "de": "Heute ziehen wir um.",
-    "lv": "Azi ne mutam.",
+    "lv": "Azi ne mutăm.",
     "level": "Sätze"
   },
   {
@@ -3366,12 +3366,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Hast du alles eingepackt?",
-    "lv": "Este totul deja în cutie?",
+    "lv": "Ai împachetat tot?",
     "level": "Sätze"
   },
   {
     "de": "Ich stehe mit meinem Freund in Kontakt.",
-    "lv": "Sunt în corespondență cu prietenul meu.",
+    "lv": "Țin legătura cu prietenul meu.",
     "level": "Sätze"
   },
   {
@@ -3381,92 +3381,92 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ist alles eingeladen?",
-    "lv": "Este totul încărcat?",
+    "lv": "S-a încărcat tot?",
     "level": "Sätze"
   },
   {
     "de": "Welch schöne Aussicht!",
-    "lv": "Ce priveliste frumoasa!",
+    "lv": "Ce priveliște frumoasă!",
     "level": "Sätze"
   },
   {
     "de": "Nun können wir alles wieder aufräumen.",
-    "lv": "Acum putem pune totul la loc.",
+    "lv": "Acum putem pune din nou totul în ordine.",
     "level": "Sätze"
   },
   {
     "de": "Wie viele Zimmer habt ihr?",
-    "lv": "Câte camere ai?",
+    "lv": "Câte camere aveți?",
     "level": "Sätze"
   },
   {
     "de": "Im Sommer fahre ich ans Meer.",
-    "lv": "Voi merge la mare vara.",
+    "lv": "Vara merg la mare.",
     "level": "Sätze"
   },
   {
     "de": "Kannst du schwimmen?",
-    "lv": "Poți înota",
+    "lv": "Știi să înoți?",
     "level": "Sätze"
   },
   {
     "de": "Schwimm nicht zu weit hinaus!",
-    "lv": "Nu înota prea departe!",
+    "lv": "Nu înota prea departe în larg!",
     "level": "Sätze"
   },
   {
     "de": "Badest du jeden Tag?",
-    "lv": "Înoți în fiecare zi?",
+    "lv": "Faci baie în fiecare zi?",
     "level": "Sätze"
   },
   {
     "de": "Bei schönem Wetter gehe ich angeln.",
-    "lv": "Dacă vremea este bună, merg la pescuit.",
+    "lv": "Pe vreme frumoasă merg la pescuit.",
     "level": "Sätze"
   },
   {
     "de": "Wie sieht er aus?",
-    "lv": "Cum arată el?",
+    "lv": "Cum arată?",
     "level": "Sätze"
   },
   {
     "de": "Er hat sich aber recht verändert.",
-    "lv": "Cu toate acestea, el s-a schimbat destul de mult.",
+    "lv": "Chiar s-a schimbat mult.",
     "level": "Sätze"
   },
   {
     "de": "Wie ist er als Mensch?",
-    "lv": "Cum este el ca persoană?",
+    "lv": "Ce fel de om este?",
     "level": "Sätze"
   },
   {
     "de": "Er ist immer nett und freundlich.",
-    "lv": "El este întotdeauna drăguț și amabil.",
+    "lv": "Este mereu drăguț și prietenos.",
     "level": "Sätze"
   },
   {
     "de": "Ich fühle mich nicht wohl.",
-    "lv": "Mă simt prost.",
+    "lv": "Nu mă simt bine.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe starke Kopfschmerzen.",
-    "lv": "Am o durere puternică de cap.",
+    "lv": "Mă doare tare capul.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe mich erkältet.",
-    "lv": "Am o răceală.",
+    "lv": "Am răcit.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe Schnupfen.",
-    "lv": "Îmi curge nasul.",
+    "lv": "Am guturai.",
     "level": "Sätze"
   },
   {
     "de": "Mir ist schwindlig.",
-    "lv": "Sunt amețit.",
+    "lv": "Mi se învârte capul.",
     "level": "Sätze"
   },
   {
@@ -3476,7 +3476,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Leg dich ins Bett!",
-    "lv": "Întinde-te în pat!",
+    "lv": "Bagă-te în pat!",
     "level": "Sätze"
   },
   {
@@ -3486,7 +3486,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Gestern hatte ich erhöhte Temperatur.",
-    "lv": "Am avut o temperatură ridicată ieri.",
+    "lv": "Ieri am avut temperatură.",
     "level": "Sätze"
   },
   {
@@ -3506,22 +3506,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Laut Arzt wird er bald wieder gesund.",
-    "lv": "Potrivit medicului, va fi din nou bine în curând.",
+    "lv": "Potrivit medicului, se va face bine în curând.",
     "level": "Sätze"
   },
   {
     "de": "Ich will meine Wohnung neu möblieren.",
-    "lv": "Vreau sa renovez apartamentul.",
+    "lv": "Vreau să-mi mobilez din nou apartamentul.",
     "level": "Sätze"
   },
   {
     "de": "Kann ich das auf Raten kaufen?",
-    "lv": "Pot cumpara in rate?",
+    "lv": "Pot să cumpăr asta în rate?",
     "level": "Sätze"
   },
   {
     "de": "Bleib im Bett, bis es dir besser geht!",
-    "lv": "Stai în pat până te simți mai bine!",
+    "lv": "Rămâi în pat până te simți mai bine!",
     "level": "Sätze"
   },
   {
@@ -3531,42 +3531,42 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Sei mit dem Essen noch vorsichtig.",
-    "lv": "Aveți grijă la mâncare.",
+    "lv": "Deocamdată, mai ai grijă cu mâncarea.",
     "level": "Sätze"
   },
   {
     "de": "Sprichst du Deutsch?",
-    "lv": "Vorbesti germana?",
+    "lv": "Vorbești germană?",
     "level": "Sätze"
   },
   {
     "de": "Ja, ein bisschen.",
-    "lv": "Da, putin.",
+    "lv": "Da, puțin.",
     "level": "Sätze"
   },
   {
     "de": "Du sprichst ziemlich fließend.",
-    "lv": "Vorbesti destul de fluent.",
+    "lv": "Vorbești destul de fluent.",
     "level": "Sätze"
   },
   {
     "de": "Wo hast du Deutsch gelernt?",
-    "lv": "Unde ai invatat germana?",
+    "lv": "Unde ai învățat germana?",
     "level": "Sätze"
   },
   {
     "de": "Ich nehme seit einem Jahr Deutschstunden.",
-    "lv": "De un an iau lecții de germană.",
+    "lv": "Iau lecții de germană de un an.",
     "level": "Sätze"
   },
   {
     "de": "Ich suche immer Gelegenheit, Deutsch zu sprechen.",
-    "lv": "Caut mereu o oportunitate de a vorbi germana.",
+    "lv": "Caut mereu ocazia să vorbesc germană.",
     "level": "Sätze"
   },
   {
     "de": "Ist das Buch noch vorrätig?",
-    "lv": "Mai este această carte disponibilă?",
+    "lv": "Cartea mai este în stoc?",
     "level": "Sätze"
   },
   {
@@ -3576,17 +3576,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wann erscheint die neue Auflage?",
-    "lv": "Când va apărea noua ediție?",
+    "lv": "Când apare noua ediție?",
     "level": "Sätze"
   },
   {
     "de": "Womit kann ich Ihnen helfen?",
-    "lv": "Cum pot ajuta?",
+    "lv": "Cu ce vă pot ajuta?",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie ganz frische Eier?",
-    "lv": "Ai ouă proaspete?",
+    "lv": "Aveți ouă foarte proaspete?",
     "level": "Sätze"
   },
   {
@@ -3601,7 +3601,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Können Sie mir ein halbes Kilo abwiegen?",
-    "lv": "Poți cântări jumătate de kilogram?",
+    "lv": "Îmi puteți cântări jumătate de kilogram?",
     "level": "Sätze"
   },
   {
@@ -3611,12 +3611,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wie viel kostet das Kilo?",
-    "lv": "Cât costă un kilogram?",
+    "lv": "Cât costă kilogramul?",
     "level": "Sätze"
   },
   {
     "de": "Wiegen Sie mir bitte zwei Kilo ab.",
-    "lv": "Vă rog să cântăriți două kilograme.",
+    "lv": "Cântăriți-mi, vă rog, două kilograme.",
     "level": "Sätze"
   },
   {
@@ -3626,17 +3626,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Haben Sie gutes Rindfleisch?",
-    "lv": "Ai carne de vită bună?",
+    "lv": "Aveți carne de vită bună?",
     "level": "Sätze"
   },
   {
     "de": "Geben Sie mir zwei Kilo Hackfleisch.",
-    "lv": "Dați două kilograme de carne tocată.",
+    "lv": "Dați-mi două kilograme de carne tocată.",
     "level": "Sätze"
   },
   {
     "de": "Ein Laib Brot, bitte, aber nicht zu knusprig.",
-    "lv": "O pâine, vă rog, dar nu prea tare.",
+    "lv": "O pâine, vă rog, dar nu prea crocantă.",
     "level": "Sätze"
   },
   {
@@ -3646,7 +3646,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Was für Obst haben Sie heute?",
-    "lv": "Ce fructe ai azi?",
+    "lv": "Ce fructe aveți astăzi?",
     "level": "Sätze"
   },
   {
@@ -3656,7 +3656,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Dann nehme ich zwei Kilo Äpfel.",
-    "lv": "Apoi voi lua două kilograme de mere.",
+    "lv": "Atunci iau două kilograme de mere.",
     "level": "Sätze"
   },
   {
@@ -3666,97 +3666,97 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Können Sie mir alles nach Hause liefern?",
-    "lv": "Poți livra totul la tine acasă?",
+    "lv": "Îmi puteți livra totul acasă?",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie Reis?",
-    "lv": "Ai orez?",
+    "lv": "Aveți orez?",
     "level": "Sätze"
   },
   {
     "de": "Geben Sie mir bitte ein Kilo Reis.",
-    "lv": "Dă-mi un kilogram de orez, te rog.",
+    "lv": "Dați-mi, vă rog, un kilogram de orez.",
     "level": "Sätze"
   },
   {
     "de": "Danke, diesmal nicht.",
-    "lv": "Mulțumesc, nu de data asta.",
+    "lv": "Mulțumesc, de data asta nu.",
     "level": "Sätze"
   },
   {
     "de": "Wie viel kostet dieser Teppich?",
-    "lv": "Cât costă acest covor?",
+    "lv": "Cât costă covorul acesta?",
     "level": "Sätze"
   },
   {
     "de": "Können Sie die Möbel in meine Wohnung liefern?",
-    "lv": "Puteți livra mobilă în apartament?",
+    "lv": "Îmi puteți livra mobila în apartament?",
     "level": "Sätze"
   },
   {
     "de": "Bitte an der Kasse zahlen.",
-    "lv": "Vă rugăm să plătiți la casierie.",
+    "lv": "Vă rugăm să plătiți la casă.",
     "level": "Sätze"
   },
   {
     "de": "Bitte, machen Sie die Rechnung.",
-    "lv": "Vă rugăm să emiteți o factură.",
+    "lv": "Vă rog, faceți-mi factura.",
     "level": "Sätze"
   },
   {
     "de": "Was kostet das Meter?",
-    "lv": "Cât costă un contor?",
+    "lv": "Cât costă metrul?",
     "level": "Sätze"
   },
   {
     "de": "Dieser Stoff gefällt mir.",
-    "lv": "Îmi place această țesătură.",
+    "lv": "Stofa aceasta îmi place.",
     "level": "Sätze"
   },
   {
     "de": "Schneiden Sie mir bitte drei Meter ab.",
-    "lv": "Vă rugăm să tăiați trei metri.",
+    "lv": "Tăiați-mi, vă rog, trei metri.",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie auch andere Muster?",
-    "lv": "Ai alte mostre?",
+    "lv": "Aveți și alte modele? • Aveți și alte mostre?",
     "level": "Sätze"
   },
   {
     "de": "Diese Farbe gefällt mir nicht.",
-    "lv": "Nu-mi place culoarea asta.",
+    "lv": "Culoarea aceasta nu-mi place.",
     "level": "Sätze"
   },
   {
     "de": "Geben Sie mir eine hellere.",
-    "lv": "Oferă mai luminos.",
+    "lv": "Dați-mi una mai deschisă.",
     "level": "Sätze"
   },
   {
     "de": "Was kosten diese Socken?",
-    "lv": "Cât costă aceste șosete?",
+    "lv": "Cât costă șosetele acestea?",
     "level": "Sätze"
   },
   {
     "de": "Welche Handschuhe wünschen Sie?",
-    "lv": "Ce fel de manusi vrei?",
+    "lv": "Ce mănuși doriți?",
     "level": "Sätze"
   },
   {
     "de": "Die sind mir etwas zu eng.",
-    "lv": "Sunt puțin prea strânși pentru mine.",
+    "lv": "Îmi sunt cam strâmte.",
     "level": "Sätze"
   },
   {
     "de": "So, nun passen sie gut.",
-    "lv": "Deci, funcționează bine acum.",
+    "lv": "Așa, acum se potrivesc bine.",
     "level": "Sätze"
   },
   {
     "de": "Kannst du mir einen guten Schneider empfehlen?",
-    "lv": "Imi puteti recomanda un croitor bun?",
+    "lv": "Poți să-mi recomanzi un croitor bun?",
     "level": "Sätze"
   },
   {
@@ -3771,7 +3771,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Der Anzug sitzt gut.",
-    "lv": "Costumul se potrivește bine.",
+    "lv": "Costumul stă bine.",
     "level": "Sätze"
   },
   {
@@ -3781,7 +3781,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bitte reinigen und bügeln Sie ihn!",
-    "lv": "Vă rugăm să o curățați și să o călcați!",
+    "lv": "Vă rog, curățați-l și călcați-l!",
     "level": "Sätze"
   },
   {
@@ -3796,12 +3796,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Können Sie die Schuhe heute reparieren?",
-    "lv": "Îți poți repara pantofii azi?",
+    "lv": "Puteți repara pantofii astăzi?",
     "level": "Sätze"
   },
   {
     "de": "Wann kann ich die Schuhe abholen?",
-    "lv": "Când pot aduce pantofii?",
+    "lv": "Când pot să ridic pantofii?",
     "level": "Sätze"
   },
   {
@@ -3811,87 +3811,87 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Sie geht fünf Minuten vor.",
-    "lv": "E cinci minute mai devreme.",
+    "lv": "O ia înainte cu cinci minute.",
     "level": "Sätze"
   },
   {
     "de": "Bist du kurzsichtig oder weitsichtig?",
-    "lv": "Esti miop sau hipermetrope?",
+    "lv": "Ești miop sau hipermetrop?",
     "level": "Sätze"
   },
   {
     "de": "Ich möchte eine Brille kaufen.",
-    "lv": "Vreau să cumpăr ochelari.",
+    "lv": "Aș vrea să cumpăr o pereche de ochelari.",
     "level": "Sätze"
   },
   {
     "de": "Können Sie meine Brille reparieren?",
-    "lv": "Îmi poți repara ochelarii?",
+    "lv": "Îmi puteți repara ochelarii?",
     "level": "Sätze"
   },
   {
     "de": "Das dauert nur eine Viertelstunde.",
-    "lv": "Va dura doar cincisprezece minute.",
+    "lv": "Durează doar un sfert de oră.",
     "level": "Sätze"
   },
   {
     "de": "Der Preis ist mir zu hoch.",
-    "lv": "Pretul este prea mare pentru mine.",
+    "lv": "Prețul este prea mare pentru mine.",
     "level": "Sätze"
   },
   {
     "de": "Ich brauche zwei Fotos für meinen Pass.",
-    "lv": "Am nevoie de două fotografii de pașaport.",
+    "lv": "Am nevoie de două fotografii pentru pașaport.",
     "level": "Sätze"
   },
   {
     "de": "Bitte packen Sie es ein und schicken Sie es mir nach Hause.",
-    "lv": "Vă rugăm să împachetați și să trimiteți acasă.",
+    "lv": "Vă rog, împachetați-l și trimiteți-mi-l acasă.",
     "level": "Sätze"
   },
   {
     "de": "Wir haben feste Preise.",
-    "lv": "Avem preturi fixe.",
+    "lv": "Avem prețuri fixe.",
     "level": "Sätze"
   },
   {
     "de": "Bitte, fotografieren Sie mich.",
-    "lv": "Te rog fă-mi o poză.",
+    "lv": "Vă rog, fotografiați-mă.",
     "level": "Sätze"
   },
   {
     "de": "Setzen Sie sich, schauen Sie gerade in die Kamera und bewegen Sie sich nicht!",
-    "lv": "Așează-te, privește direct în cameră și nu te mișca!",
+    "lv": "Așezați-vă, priviți drept în obiectiv și nu vă mișcați!",
     "level": "Sätze"
   },
   {
     "de": "Wann kann ich das Probebild sehen?",
-    "lv": "Când pot vedea o mostră?",
+    "lv": "Când pot vedea fotografia de probă?",
     "level": "Sätze"
   },
   {
     "de": "Wann sind die Fotos fertig?",
-    "lv": "Când vor fi gata fotografiile?",
+    "lv": "Când sunt gata fotografiile?",
     "level": "Sätze"
   },
   {
     "de": "Die Aufnahme ist gelungen.",
-    "lv": "Fotografia a avut succes.",
+    "lv": "Fotografia este reușită.",
     "level": "Sätze"
   },
   {
     "de": "Die Fotos sind gut geworden.",
-    "lv": "Fotografiile au iesit bine.",
+    "lv": "Fotografiile au ieșit bine.",
     "level": "Sätze"
   },
   {
     "de": "Können Sie das Foto auch vergrößern?",
-    "lv": "Poti sa mariti si fotografia?",
+    "lv": "Puteți mări și fotografia?",
     "level": "Sätze"
   },
   {
     "de": "Sind diese Steine echt?",
-    "lv": "Sunt aceste pietre reale?",
+    "lv": "Pietrele acestea sunt veritabile?",
     "level": "Sätze"
   },
   {
@@ -3901,82 +3901,82 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Zeigen Sie mir bitte Trauringe.",
-    "lv": "Arată-mi verighetele, te rog.",
+    "lv": "Arătați-mi, vă rog, niște verighete.",
     "level": "Sätze"
   },
   {
     "de": "Der Ring ist mir etwas zu weit.",
-    "lv": "Inelul este puțin prea mare pentru mine.",
+    "lv": "Inelul îmi este cam larg.",
     "level": "Sätze"
   },
   {
     "de": "Ich kann ihn enger machen.",
-    "lv": "O pot restrânge.",
+    "lv": "Îl pot strâmta.",
     "level": "Sätze"
   },
   {
     "de": "Dieser Ring passt mir.",
-    "lv": "Acest inel mi se potrivește.",
+    "lv": "Inelul acesta mi se potrivește.",
     "level": "Sätze"
   },
   {
     "de": "Zeigen Sie mir schöne Geschenkideen.",
-    "lv": "Prezentați idei frumoase de cadouri.",
+    "lv": "Arătați-mi niște idei frumoase de cadouri.",
     "level": "Sätze"
   },
   {
     "de": "Wie gefallen dir diese Ohrringe?",
-    "lv": "Cum vă plac acești cercei?",
+    "lv": "Cum ți se par cerceii aceștia?",
     "level": "Sätze"
   },
   {
     "de": "Diese Brosche ist wirklich schön.",
-    "lv": "Această broșă este foarte frumoasă.",
+    "lv": "Broșa aceasta este într-adevăr frumoasă.",
     "level": "Sätze"
   },
   {
     "de": "Der Stein ist ein Saphir.",
-    "lv": "Această piatră este un safir.",
+    "lv": "Piatra este un safir.",
     "level": "Sätze"
   },
   {
     "de": "Das ist kein echter Stein, das ist Glas.",
-    "lv": "Aceasta nu este piatră adevărată, este sticlă.",
+    "lv": "Aceasta nu este o piatră adevărată, este sticlă.",
     "level": "Sätze"
   },
   {
     "de": "Dieses Armband kann ich Ihnen besonders empfehlen.",
-    "lv": "Pot recomanda in special aceasta bratara.",
+    "lv": "Vă pot recomanda în mod deosebit brățara aceasta.",
     "level": "Sätze"
   },
   {
     "de": "Es ist besonders schön gearbeitet.",
-    "lv": "Este extrem de fin lucrat.",
+    "lv": "Este deosebit de frumos lucrată.",
     "level": "Sätze"
   },
   {
     "de": "Der Preis ist nicht hoch.",
-    "lv": "Pretul nu este mare.",
+    "lv": "Prețul nu este mare.",
     "level": "Sätze"
   },
   {
     "de": "Bekomme ich die Schachtel gratis?",
-    "lv": "Am primit cutia gratis?",
+    "lv": "Primesc cutia gratuit?",
     "level": "Sätze"
   },
   {
     "de": "Alle Schmuckstücke sind gestempelt.",
-    "lv": "Toate bijuteriile sunt ștampilate.",
+    "lv": "Toate bijuteriile sunt marcate.",
     "level": "Sätze"
   },
   {
     "de": "Falls es meiner Frau nicht gefällt, kann ich es umtauschen?",
-    "lv": "Dacă soției mele nu îi place, pot să-l schimb?",
+    "lv": "Dacă nu-i place soției mele, îl pot schimba?",
     "level": "Sätze"
   },
   {
     "de": "Natürlich, jederzeit.",
-    "lv": "Oricând, desigur.",
+    "lv": "Desigur, oricând.",
     "level": "Sätze"
   }
 ];
