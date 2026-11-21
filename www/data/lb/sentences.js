@@ -1,3982 +1,3982 @@
 const SENTENCE_ENTRIES = [
   {
     "de": "Hüte dich davor!",
-    "lv": "Sargies no tā!",
+    "lv": "Pass dorop op!",
     "level": "Sätze"
   },
   {
     "de": "Wenn nichts dazwischenkommt.",
-    "lv": "Ja nekas netraucē. • Ja viss noritēs pēc plāna.",
+    "lv": "Wann näischt dertëschentkënnt. • Wann alles no Plang geet.",
     "level": "Sätze"
   },
   {
     "de": "Das kann ich mir denken!",
-    "lv": "To es gan zinu!",
+    "lv": "Dat kann ech mer denken!",
     "level": "Sätze"
   },
   {
     "de": "Ist er denn krank?",
-    "lv": "Vai tad viņš ir slims?",
+    "lv": "Ass hien da krank?",
     "level": "Sätze"
   },
   {
     "de": "Was denn?",
-    "lv": "Ko tad?",
+    "lv": "Wat dann?",
     "level": "Sätze"
   },
   {
     "de": "Desto mehr.",
-    "lv": "Jo vairāk.",
+    "lv": "Desto méi.",
     "level": "Sätze"
   },
   {
     "de": "Je mehr, desto besser.",
-    "lv": "Jo vairāk, jo labāk.",
+    "lv": "Wat méi, wat besser.",
     "level": "Sätze"
   },
   {
     "de": "Alles deutet auf Regen.",
-    "lv": "Viss liecina par lietu.",
+    "lv": "Et gesäit no Reen aus.",
     "level": "Sätze"
   },
   {
     "de": "Damit ist mir wenig gedient.",
-    "lv": "No tā man ir maza jēga.",
+    "lv": "Domat ass mir wéineg gehollef.",
     "level": "Sätze"
   },
   {
     "de": "Er ist dienstlich verhindert.",
-    "lv": "Viņš nevar ierasties darba dēļ.",
+    "lv": "Hien ass wéinst senger Aarbecht verhënnert.",
     "level": "Sätze"
   },
   {
     "de": "Sprechen Sie doch!",
-    "lv": "Runājiet jel!",
+    "lv": "Schwätzt dach!",
     "level": "Sätze"
   },
   {
     "de": "Es donnert.",
-    "lv": "Pērkons rūc.",
+    "lv": "Et donnert.",
     "level": "Sätze"
   },
   {
     "de": "Doppelt so groß.",
-    "lv": "Divtik liels.",
+    "lv": "Duebel sou grouss.",
     "level": "Sätze"
   },
   {
     "de": "Von dort.",
-    "lv": "No turienes.",
+    "lv": "Vun do.",
     "level": "Sätze"
   },
   {
     "de": "Die Zeit drängt.",
-    "lv": "Laiks steidz.",
+    "lv": "D'Zäit drängt.",
     "level": "Sätze"
   },
   {
     "de": "Ihn drücken Sorgen.",
-    "lv": "Viņu nomāc rūpes.",
+    "lv": "Suerge bedrécken hien.",
     "level": "Sätze"
   },
   {
     "de": "Hast du das Buch durchgearbeitet?",
-    "lv": "Vai tu esi rūpīgi izgājis cauri grāmatai?",
+    "lv": "Hues du d'Buch duerchgeschafft?",
     "level": "Sätze"
   },
   {
     "de": "Kein Durchgang!",
-    "lv": "Cauri neiet! • Izeja aizvērta!",
+    "lv": "Keen Duerchgank!",
     "level": "Sätze"
   },
   {
     "de": "Darf ich Sie bitten?",
-    "lv": "Vai es drīkstu jūs lūgt?",
+    "lv": "Däerf ech Iech bieden?",
     "level": "Sätze"
   },
   {
     "de": "Ich bin durstig.",
-    "lv": "Man slāpst.",
+    "lv": "Ech hunn Duuscht.",
     "level": "Sätze"
   },
   {
     "de": "Eben das meine ich.",
-    "lv": "Dat is precies wat ik bedoel.",
+    "lv": "Genee dat mengen ech.",
     "level": "Sätze"
   },
   {
     "de": "Es ist ganz egal.",
-    "lv": "Tas ir pilnīgi vienalga.",
+    "lv": "Et ass ganz egal.",
     "level": "Sätze"
   },
   {
     "de": "Was wollen Sie eigentlich?",
-    "lv": "Ko jūs īsti gribat?",
+    "lv": "Wat wëllt Dir eigentlech?",
     "level": "Sätze"
   },
   {
     "de": "Eilt es mit dieser Sache?",
-    "lv": "Vai šī lieta steidzama?",
+    "lv": "Presséiert et mat dëser Saach?",
     "level": "Sätze"
   },
   {
     "de": "Eilt sehr!",
-    "lv": "Ļoti steidzami!",
+    "lv": "Ganz dréngend!",
     "level": "Sätze"
   },
   {
     "de": "Ich habe es eilig.",
-    "lv": "Es steidzos.",
+    "lv": "Ech hunn et presséiert.",
     "level": "Sätze"
   },
   {
     "de": "Du bildest dir nur ein, krank zu sein.",
-    "lv": "Tu tikai iedomājies, ka esi slims.",
+    "lv": "Du mengs nëmmen, du wiers krank.",
     "level": "Sätze"
   },
   {
     "de": "Was fällt dir ein?",
-    "lv": "Kas tev nāk prātā?",
+    "lv": "Wat fält dir an?",
     "level": "Sätze"
   },
   {
     "de": "Es war einmal.",
-    "lv": "Reiz bija.",
+    "lv": "Et war eemol.",
     "level": "Sätze"
   },
   {
     "de": "Steigen Sie bitte ein!",
-    "lv": "Lūdzu, iekāpiet!",
+    "lv": "Klammt wannechgelift an!",
     "level": "Sätze"
   },
   {
     "de": "Treten Sie ein!",
-    "lv": "Lūdzu, nāciet iekšā!",
+    "lv": "Kommt eran!",
     "level": "Sätze"
   },
   {
     "de": "Einzelnes hat mir dort gefallen.",
-    "lv": "Dažas lietas man tur patika.",
+    "lv": "Verschiddenes huet mir do gefall.",
     "level": "Sätze"
   },
   {
     "de": "Es empfiehlt sich.",
-    "lv": "Ir ieteicams.",
+    "lv": "Et ass ze recommandéieren.",
     "level": "Sätze"
   },
   {
     "de": "Diese Flasche enthält Essig.",
-    "lv": "Šai pudelē ir etiķis.",
+    "lv": "Dës Fläsch enthält Esseg.",
     "level": "Sätze"
   },
   {
     "de": "Entschuldigen Sie bitte!",
-    "lv": "Atvainojiet, lūdzu!",
+    "lv": "Entschëllegt wannechgelift!",
     "level": "Sätze"
   },
   {
     "de": "Entweder... oder...",
-    "lv": "Vai nu... vai...",
+    "lv": "Entweeder... oder...",
     "level": "Sätze"
   },
   {
     "de": "Wer war der Erste?",
-    "lv": "Kurš bija pirmais?",
+    "lv": "Wie war deen Éischten?",
     "level": "Sätze"
   },
   {
     "de": "Wer fehlt heute?",
-    "lv": "Kas šodien nav ieradies?",
+    "lv": "Wie feelt haut?",
     "level": "Sätze"
   },
   {
     "de": "Was fehlt dir?",
-    "lv": "Kas tev kait?",
+    "lv": "Wat feelt dir?",
     "level": "Sätze"
   },
   {
     "de": "Wie heißen Sie?",
-    "lv": "Kā jūs sauc?",
+    "lv": "Wéi heescht Dir?",
     "level": "Sätze"
   },
   {
     "de": "Was soll das heißen?",
-    "lv": "Wat heescht dat dann elo?",
+    "lv": "Wat soll dat heeschen?",
     "level": "Sätze"
   },
   {
     "de": "Bitte treten Sie näher heran!",
-    "lv": "Lūdzu, nāciet tuvāk!",
+    "lv": "Kommt wannechgelift méi no!",
     "level": "Sätze"
   },
   {
     "de": "Heraus mit der Sprache!",
-    "lv": "Runā! • Stāsti!",
+    "lv": "Eraus mat der Sprooch!",
     "level": "Sätze"
   },
   {
     "de": "im Herbst",
-    "lv": "Rudenī",
+    "lv": "am Hierscht",
     "level": "Sätze"
   },
   {
     "de": "Meine Herrschaften!",
-    "lv": "Kungi un dāmas!",
+    "lv": "Meng Dammen an Hären!",
     "level": "Sätze"
   },
   {
     "de": "von heute an",
-    "lv": "Vanaf vandaag",
+    "lv": "vun haut un",
     "level": "Sätze"
   },
   {
     "de": "heute früh",
-    "lv": "Šorīt",
+    "lv": "haut de Moien",
     "level": "Sätze"
   },
   {
     "de": "heute Nacht",
-    "lv": "Šonakt",
+    "lv": "haut an der Nuecht",
     "level": "Sätze"
   },
   {
     "de": "Zu Hilfe!",
-    "lv": "Palīgā!",
+    "lv": "Hëllef!",
     "level": "Sätze"
   },
   {
     "de": "Ich lerne jeden Tag Deutsch.",
-    "lv": "Es katru dienu mācos vācu valodu.",
+    "lv": "Ech léieren all Dag Däitsch.",
     "level": "Sätze"
   },
   {
     "de": "Kannst du das bitte wiederholen?",
-    "lv": "Vai vari, lūdzu, to atkārtot?",
+    "lv": "Kanns du dat wannechgelift widderhuelen?",
     "level": "Sätze"
   },
   {
     "de": "Wir treffen uns am Bahnhof.",
-    "lv": "Mēs tiekamies dzelzceṇa stacijā.",
+    "lv": "Mir treffen eis op der Gare.",
     "level": "Sätze"
   },
   {
     "de": "Ich stimme dir teilweise zu.",
-    "lv": "Es tev daļēji piekrītu.",
+    "lv": "Ech sinn deelweis mat dir d'accord.",
     "level": "Sätze"
   },
   {
     "de": "Diese Entscheidung hat weitreichende Folgen.",
-    "lv": "Šim lēmumam ir tālejošas sekas.",
+    "lv": "Dës Decisioun huet wäitreechend Konsequenzen.",
     "level": "Sätze"
   },
   {
     "de": "Man sollte mehrere Perspektiven berücksichtigen.",
-    "lv": "Vajadzētu ņemt vērā vairākas perspektīvas.",
+    "lv": "Et sollt ee verschidde Perspektiven a Betruecht zéien.",
     "level": "Sätze"
   },
   {
     "de": "Könnten Sie das näher erläutern?",
-    "lv": "Vai jūs varētu to paskaidrot sīkāk?",
+    "lv": "Kéint Dir dat méi genee erklären?",
     "level": "Sätze"
   },
   {
     "de": "Was mich anbelangt,...",
-    "lv": "Kas attiecas uz mani,...",
+    "lv": "Wat mech ubelaangt,...",
     "level": "Sätze"
   },
   {
     "de": "Wie alt sind Sie?",
-    "lv": "Cik jums gadu?",
+    "lv": "Wéi al sidd Dir?",
     "level": "Sätze"
   },
   {
     "de": "Ich bin zwanzig Jahre alt.",
-    "lv": "Man ir divdesmit gadu.",
+    "lv": "Ech sinn zwanzeg Joer al.",
     "level": "Sätze"
   },
   {
     "de": "Von heute an.",
-    "lv": "No šodienas.",
+    "lv": "Vun haut un.",
     "level": "Sätze"
   },
   {
     "de": "Von jetzt an.",
-    "lv": "No šī brīža.",
+    "lv": "Vun elo un.",
     "level": "Sätze"
   },
   {
     "de": "Anders geht es nicht.",
-    "lv": "Citādi nevar.",
+    "lv": "Anescht geet et net.",
     "level": "Sätze"
   },
   {
     "de": "Rufen Sie mich an.",
-    "lv": "Piezvaniet man.",
+    "lv": "Rufft mech un.",
     "level": "Sätze"
   },
   {
     "de": "Bitte stellen Sie das Radio ab.",
-    "lv": "Lūdzu, izslēdziet radio.",
+    "lv": "Maacht wannechgelift de Radio aus.",
     "level": "Sätze"
   },
   {
     "de": "Achte bitte auf den Verkehr.",
-    "lv": "Lūdzu, pievērs uzmanību satiksmei.",
+    "lv": "Pass wannechgelift op de Verkéier op.",
     "level": "Sätze"
   },
   {
     "de": "Darauf musst du achten.",
-    "lv": "Tam tev jāpievērš uzmanība.",
+    "lv": "Dorop muss du oppassen.",
     "level": "Sätze"
   },
   {
     "de": "Heute mache ich es anders.",
-    "lv": "Šodien es to darīšu citādi.",
+    "lv": "Haut maachen ech et anescht.",
     "level": "Sätze"
   },
   {
     "de": "Wir warten auf den Bus.",
-    "lv": "Mēs gaidām autobusu.",
+    "lv": "Mir waarden op de Bus.",
     "level": "Sätze"
   },
   {
     "de": "Er wohnt allein.",
-    "lv": "Viņš dzīvo viens.",
+    "lv": "Hie wunnt eleng.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe die Ausbildung absolviert.",
-    "lv": "Es pabeidzu apmācību. • Es pabeidzu izglītību.",
+    "lv": "Ech hunn d'Ausbildung ofgeschloss.",
     "level": "Sätze"
   },
   {
     "de": "Ich warte den Regen ab.",
-    "lv": "Es nogaidīšu, kamēr lietus pārtiks.",
+    "lv": "Ech waarden, bis de Reen ophält.",
     "level": "Sätze"
   },
   {
     "de": "Er arbeitet in der Verkaufsabteilung.",
-    "lv": "Hij werkt op de verkoopafdeling.",
+    "lv": "Hie schafft am Verkaf.",
     "level": "Sätze"
   },
   {
     "de": "Ich bin allergisch gegen Katzen.",
-    "lv": "Man ir alerģija pret kaķiem.",
+    "lv": "Ech sinn allergesch op Kazen.",
     "level": "Sätze"
   },
   {
     "de": "Andererseits verstehe ich ihn.",
-    "lv": "No otras puses, es viņu saprotu.",
+    "lv": "Anerersäits verstinn ech hien.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe die Situation analysiert.",
-    "lv": "Es izanalizēju situāciju.",
+    "lv": "Ech hunn d'Situatioun analyséiert.",
     "level": "Sätze"
   },
   {
     "de": "Sie hat meinen Vorschlag akzeptiert.",
-    "lv": "Viņa pieņēma manu priekšlikumu.",
+    "lv": "Si huet mäi Virschlag akzeptéiert.",
     "level": "Sätze"
   },
   {
     "de": "Ich möchte das genauer analysieren.",
-    "lv": "Es vēlos to analizēt precīzāk.",
+    "lv": "Ech wéilt dat méi genee analyséieren.",
     "level": "Sätze"
   },
   {
     "de": "Ich möchte den Vertrag ändern.",
-    "lv": "Es vēlos mainīt līgumu.",
+    "lv": "Ech wéilt de Kontrakt änneren.",
     "level": "Sätze"
   },
   {
     "de": "Er ändert ständig seine Meinung.",
-    "lv": "Viņš pastāvīgi maina savu viedokli.",
+    "lv": "Hien ännert stänneg seng Meenung.",
     "level": "Sätze"
   },
   {
     "de": "Ähnliche Probleme hatten wir schon früher.",
-    "lv": "Līdzīgas problēmas mums jau bija agrāk.",
+    "lv": "Änlech Problemer hate mir scho fréier.",
     "level": "Sätze"
   },
   {
     "de": "Keine Ahnung!",
-    "lv": "Nav ne jausmas!",
+    "lv": "Keng Iddi!",
     "level": "Sätze"
   },
   {
     "de": "Hör auf zu jammern.",
-    "lv": "Beidz žēloties.",
+    "lv": "Hal op ze jéimeren.",
     "level": "Sätze"
   },
   {
     "de": "Dieses Kleid ist akademisch gekleidet.",
-    "lv": "Šī kleita ir stilīgi konservatīva.",
+    "lv": "Dëst Kleed ass elegant a klassesch.",
     "level": "Sätze"
   },
   {
     "de": "Ich höre gerne Akkordeonmusik.",
-    "lv": "Man patīk klausīties akordeona mūziku.",
+    "lv": "Ech lauschtere gär Musek mam Akkordeon.",
     "level": "Sätze"
   },
   {
     "de": "Kannst du das Gerät anklicken?",
-    "lv": "Vai vari uzklikšķināt uz ierīces?",
+    "lv": "Kanns du den Apparat uklicken?",
     "level": "Sätze"
   },
   {
     "de": "Bitte öffne die Datei und klicke darauf.",
-    "lv": "Lūdzu, atver failu un uzklikšķini uz tā.",
+    "lv": "Maach wannechgelift de Fichier op a klick drop.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe einen Unfall gehabt.",
-    "lv": "Es cietu negadījumā.",
+    "lv": "Ech hunn en Accident gehat.",
     "level": "Sätze"
   },
   {
     "de": "Wir laufen zum Bahnhof.",
-    "lv": "Mēs ejam uz staciju.",
+    "lv": "Mir ginn zu Fouss op d'Gare.",
     "level": "Sätze"
   },
   {
     "de": "Bitte schalte den Fernseher an.",
-    "lv": "Lūdzu, ieslēdz televizoru.",
+    "lv": "Maach wannechgelift d'Tëlee un.",
     "level": "Sätze"
   },
   {
     "de": "Mein Computer ist abgestürzt.",
-    "lv": "Mans dators ir avarējis.",
+    "lv": "Mäi Computer ass ofgestierzt.",
     "level": "Sätze"
   },
   {
     "de": "Am Wochenende gehe ich angeln.",
-    "lv": "Nedēļas nogalē es iešu makšķerēt.",
+    "lv": "Um Weekend ginn ech fëschen.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe den Anruf verpasst.",
-    "lv": "Es nokavēju zvanu.",
+    "lv": "Ech hunn den Uruff verpasst.",
     "level": "Sätze"
   },
   {
     "de": "Kannst du mich später anrufen?",
-    "lv": "Vai vari man piezvanīt vēlāk?",
+    "lv": "Kanns du mech méi spéit uruffen?",
     "level": "Sätze"
   },
   {
     "de": "Bitte nimm meinen Vorschlag an.",
-    "lv": "Lūdzu, pieņem manu priekšlikumu.",
+    "lv": "Huel wannechgelift mäi Virschlag un.",
     "level": "Sätze"
   },
   {
     "de": "Ich nehme dein Angebot an.",
-    "lv": "Es pieņemu tavu piedāvājumu.",
+    "lv": "Ech huelen deng Offer un.",
     "level": "Sätze"
   },
   {
     "de": "Er nahm die Einladung an.",
-    "lv": "Viņš pieņēma uzaicinājumu.",
+    "lv": "Hien huet d'Invitatioun ugeholl.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe Angst vor Spinnen.",
-    "lv": "Man ir bail no zirnekļiem.",
+    "lv": "Ech hunn Angscht viru Spannen.",
     "level": "Sätze"
   },
   {
     "de": "Keine Angst, alles wird gut.",
-    "lv": "Bäinumm Bedeitung vun Fichier.",
+    "lv": "Keng Angscht, alles gëtt gutt.",
     "level": "Sätze"
   },
   {
     "de": "Anklang finden.",
-    "lv": "Rast atbalsi. • Atrast atsaucību",
+    "lv": "Uklang fannen.",
     "level": "Sätze"
   },
   {
     "de": "Es kommt darauf an.",
-    "lv": "Tas ir atkarīgs no tā.",
+    "lv": "Et kënnt drop un.",
     "level": "Sätze"
   },
   {
     "de": "Aus diesem Anlass.",
-    "lv": "Vanwege deze tijd. • In dit opzicht",
+    "lv": "Aus dësem Ulass.",
     "level": "Sätze"
   },
   {
     "de": "Nehmen wir an, dass...",
-    "lv": "Pieņemsim, ka...",
+    "lv": "Huele mer un, datt...",
     "level": "Sätze"
   },
   {
     "de": "Was hast du da angerichtet?",
-    "lv": "Ko tu tur esi izdarījis?",
+    "lv": "Wat hues du do ugeriicht?",
     "level": "Sätze"
   },
   {
     "de": "Bis ans Ende.",
-    "lv": "Līdz galam.",
+    "lv": "Bis un d'Enn.",
     "level": "Sätze"
   },
   {
     "de": "Du glaubst mir anscheinend nicht.",
-    "lv": "Šķiet, ka tu man netici.",
+    "lv": "Du gleefs mer schéngs net.",
     "level": "Sätze"
   },
   {
     "de": "Meiner Ansicht nach...",
-    "lv": "Pēc manām domām...",
+    "lv": "Menger Meenung no...",
     "level": "Sätze"
   },
   {
     "de": "Stell dich nicht so an!",
-    "lv": "Neizliecies!",
+    "lv": "Maach net esou en Theater!",
     "level": "Sätze"
   },
   {
     "de": "An die Arbeit gehen.",
-    "lv": "Ķerties pie darba.",
+    "lv": "Un d'Aarbecht goen.",
     "level": "Sätze"
   },
   {
     "de": "Außer Atem sein.",
-    "lv": "Būt bez elpas.",
+    "lv": "Ausser Otem sinn.",
     "level": "Sätze"
   },
   {
     "de": "Guten Appetit!",
-    "lv": "Labu apetīti!",
+    "lv": "Gudden Appetit!",
     "level": "Sätze"
   },
   {
     "de": "In einem Atemzug.",
-    "lv": "Vienā elpas vilcienā.",
+    "lv": "An engem Otemzuch.",
     "level": "Sätze"
   },
   {
     "de": "Auf jeden Fall.",
-    "lv": "Katrā gadījumā.",
+    "lv": "Op alle Fall.",
     "level": "Sätze"
   },
   {
     "de": "Auf einmal war alles still.",
-    "lv": "Pēkšņi viss kļuva kluss.",
+    "lv": "Op eemol war et ganz roueg.",
     "level": "Sätze"
   },
   {
     "de": "Bitte mach die Tür auf!",
-    "lv": "Atver, lūdzu, durvis!",
+    "lv": "Maach wannechgelift d'Dier op!",
     "level": "Sätze"
   },
   {
     "de": "Er hat den Kredit aufgenommen.",
-    "lv": "Viņš ņēma kredītu.",
+    "lv": "Hien huet de Kredit opgeholl.",
     "level": "Sätze"
   },
   {
     "de": "Wir müssen heute aufräumen.",
-    "lv": "Mums šodien jāsakārto telpa.",
+    "lv": "Mir mussen haut opraumen.",
     "level": "Sätze"
   },
   {
     "de": "Ich höre jetzt auf.",
-    "lv": "Es tagad beigšu.",
+    "lv": "Ech halen elo op.",
     "level": "Sätze"
   },
   {
     "de": "Er ist schon auf.",
-    "lv": "Viņš jau ir piecēlies.",
+    "lv": "Hien ass schonn op.",
     "level": "Sätze"
   },
   {
     "de": "Wir müssen das Treffen verschieben.",
-    "lv": "Mums jāpārceļ tikšanās.",
+    "lv": "Mir mussen d'Reunioun verréckelen.",
     "level": "Sätze"
   },
   {
     "de": "Sie hat mich aufgeregt.",
-    "lv": "Viņa mani aizkaitināja.",
+    "lv": "Si huet mech opgereegt.",
     "level": "Sätze"
   },
   {
     "de": "Auf einmal.",
-    "lv": "Plotseling.",
+    "lv": "Op eemol.",
     "level": "Sätze"
   },
   {
     "de": "Auf der Stelle.",
-    "lv": "Nekavējoties.",
+    "lv": "Op der Plaz.",
     "level": "Sätze"
   },
   {
     "de": "Für den Schaden aufkommen.",
-    "lv": "Segt nodarītos zaudējumus.",
+    "lv": "Fir de Schued opkommen.",
     "level": "Sätze"
   },
   {
     "de": "Bitte die Tür auf!",
-    "lv": "Atveriet, lūdzu, durvis!",
+    "lv": "D'Dier op, wannechgelift!",
     "level": "Sätze"
   },
   {
     "de": "Aufrecht sitzen.",
-    "lv": "Sēdēt taisni.",
+    "lv": "Riicht sëtzen.",
     "level": "Sätze"
   },
   {
     "de": "Er ist auf.",
-    "lv": "Viņš ir piecēlies.",
+    "lv": "Hien ass op.",
     "level": "Sätze"
   },
   {
     "de": "Alle Kräfte aufwenden.",
-    "lv": "Zet al je kracht in.",
+    "lv": "All Kräften asetzen.",
     "level": "Sätze"
   },
   {
     "de": "Viel Mühe aufwenden.",
-    "lv": "Ļoti pūlēties.",
+    "lv": "Sech vill Méi ginn.",
     "level": "Sätze"
   },
   {
     "de": "Geh mir aus den Augen!",
-    "lv": "Nerādies man vairs acīs!",
+    "lv": "Géi mer aus den Aen!",
     "level": "Sätze"
   },
   {
     "de": "Unter vier Augen.",
-    "lv": "Divatā. • Klusi",
+    "lv": "Ënner véier Aen.",
     "level": "Sätze"
   },
   {
     "de": "Aus Mangel an Zeit.",
-    "lv": "Laika trūkuma dēļ.",
+    "lv": "Aus Mangel un Zäit.",
     "level": "Sätze"
   },
   {
     "de": "Aus diesem Grunde.",
-    "lv": "Šā iemesla dēļ.",
+    "lv": "Aus dësem Grond.",
     "level": "Sätze"
   },
   {
     "de": "Alle außer dir.",
-    "lv": "Visi, izņemot tevi.",
+    "lv": "All ausser dir.",
     "level": "Sätze"
   },
   {
     "de": "Auf Äußerlichkeiten Wert legen.",
-    "lv": "Piešķirt nozīmi ārienei.",
+    "lv": "Op d'Ausgesinn Wäert leeën.",
     "level": "Sätze"
   },
   {
     "de": "Im äußersten Fall.",
-    "lv": "Visļaunākajā gadījumā.",
+    "lv": "Am äusserste Fall.",
     "level": "Sätze"
   },
   {
     "de": "Äußerst wichtig.",
-    "lv": "Ārkārtīgi svarīgs.",
+    "lv": "Äusserst wichteg.",
     "level": "Sätze"
   },
   {
     "de": "Aussicht auf die See.",
-    "lv": "Skats uz jūru.",
+    "lv": "Aussiicht op d'Mier.",
     "level": "Sätze"
   },
   {
     "de": "Er hat gute Aussichten.",
-    "lv": "Viņam ir labas izredzes.",
+    "lv": "Hien huet gutt Aussiichten.",
     "level": "Sätze"
   },
   {
     "de": "Wie wird dieses Wort ausgesprochen?",
-    "lv": "Kā šo vārdu izrunā?",
+    "lv": "Wéi gëtt dëst Wuert ausgeschwat?",
     "level": "Sätze"
   },
   {
     "de": "Sein Beileid aussprechen.",
-    "lv": "Izteikt līdzjūtību.",
+    "lv": "Säi Bäileed ausdrécken.",
     "level": "Sätze"
   },
   {
     "de": "Wann wurden die Meisterschaftskämpfe ausgetragen?",
-    "lv": "Kad notika čempionāts?",
+    "lv": "Wéini goufen d'Meeschterschaften ausgedroen?",
     "level": "Sätze"
   },
   {
     "de": "Welchen Beruf üben Sie aus?",
-    "lv": "Kāda jums ir profesija?",
+    "lv": "Wat fir e Beruff üübt Dir aus?",
     "level": "Sätze"
   },
   {
     "de": "Einfluss ausüben.",
-    "lv": "Ietekmēt.",
+    "lv": "Afloss ausüben.",
     "level": "Sätze"
   },
   {
     "de": "Auswärts essen.",
-    "lv": "Ēst ārpus mājas.",
+    "lv": "Auswäerts iessen.",
     "level": "Sätze"
   },
   {
     "de": "Per Bahn.",
-    "lv": "Pa dzelzceļu.",
+    "lv": "Per Bunn.",
     "level": "Sätze"
   },
   {
     "de": "Mit der Bahn.",
-    "lv": "Pa dzelzceļu.",
+    "lv": "Mam Zuch.",
     "level": "Sätze"
   },
   {
     "de": "Möglichst bald.",
-    "lv": "Pēc iespējas drīzāk.",
+    "lv": "Esou séier wéi méiglech.",
     "level": "Sätze"
   },
   {
     "de": "Mir ist Angst und bange.",
-    "lv": "Man ir ļoti bail.",
+    "lv": "Mir ass Angscht a baang.",
     "level": "Sätze"
   },
   {
     "de": "Auf die lange Bank schieben.",
-    "lv": "Novilcināt. • Vilkt garumā • Atlikt uz nenoteiktu laiku",
+    "lv": "Op méi spéit verréckelen.",
     "level": "Sätze"
   },
   {
     "de": "Bar zahlen.",
-    "lv": "Maksāt skaidrā naudā.",
+    "lv": "Boer bezuelen.",
     "level": "Sätze"
   },
   {
     "de": "Erz bauen.",
-    "lv": "Iegūt rūdu.",
+    "lv": "Äerz ofbauen.",
     "level": "Sätze"
   },
   {
     "de": "Mist bauen.",
-    "lv": "Schieten. • Maak jezelf belachelijk",
+    "lv": "Dommheete maachen.",
     "level": "Sätze"
   },
   {
     "de": "Ich bin beauftragt.",
-    "lv": "Man ir uzdots darbs.",
+    "lv": "Ech si beoptraagt.",
     "level": "Sätze"
   },
   {
     "de": "Nach Bedarf.",
-    "lv": "Pēc vajadzības.",
+    "lv": "No Bedarf.",
     "level": "Sätze"
   },
   {
     "de": "Ich bedauere ihn.",
-    "lv": "Man viņa žēl.",
+    "lv": "Ech bedaueren hien.",
     "level": "Sätze"
   },
   {
     "de": "Was bedeutet dieses Wort?",
-    "lv": "Ko nozīmē šis vārds?",
+    "lv": "Wat bedeit dëst Wuert?",
     "level": "Sätze"
   },
   {
     "de": "Unter der Bedingung, dass...",
-    "lv": "Ar noteikumu, ka...",
+    "lv": "Ënner der Konditioun, datt...",
     "level": "Sätze"
   },
   {
     "de": "Sie sieht bedrückt aus.",
-    "lv": "Viņa izskatās nomākta.",
+    "lv": "Si gesäit bedréckt aus.",
     "level": "Sätze"
   },
   {
     "de": "Hinweise befolgen.",
-    "lv": "Sekot norādījumiem.",
+    "lv": "Hiweiser befollegen.",
     "level": "Sätze"
   },
   {
     "de": "Befehle befolgen.",
-    "lv": "Pildīt pavēles.",
+    "lv": "Befeeler befollegen.",
     "level": "Sätze"
   },
   {
     "de": "Mit der Post befördern.",
-    "lv": "Aizsūtīt pa pastu.",
+    "lv": "Mat der Post verschécken.",
     "level": "Sätze"
   },
   {
     "de": "Ich bin begierig zu wissen.",
-    "lv": "Man ļoti gribas zināt.",
+    "lv": "Ech si gespaant ze wëssen.",
     "level": "Sätze"
   },
   {
     "de": "Zu Beginn.",
-    "lv": "Sākumā.",
+    "lv": "Zu Ufank.",
     "level": "Sätze"
   },
   {
     "de": "Am Beginn.",
-    "lv": "Sākumā.",
+    "lv": "Am Ufank.",
     "level": "Sätze"
   },
   {
     "de": "Bei Beginn.",
-    "lv": "Sākot.",
+    "lv": "Beim Ufank.",
     "level": "Sätze"
   },
   {
     "de": "In Begleitung.",
-    "lv": "Pavadībā.",
+    "lv": "A Begleedung.",
     "level": "Sätze"
   },
   {
     "de": "Mit seiner Begleitung.",
-    "lv": "Ar pavadību.",
+    "lv": "Mat senger Begleedung.",
     "level": "Sätze"
   },
   {
     "de": "Er ist schwer von Begriff.",
-    "lv": "Viņš lēni uztver. • Viņam ir gausa domāšana",
+    "lv": "Hien ass schwéier vu Begrëff.",
     "level": "Sätze"
   },
   {
     "de": "Im Gedächtnis behalten.",
-    "lv": "Atcerēties. • Paturēt atmiņā",
+    "lv": "Am Gediechtnes behalen.",
     "level": "Sätze"
   },
   {
     "de": "Bei Tisch.",
-    "lv": "Pie galda.",
+    "lv": "Um Dësch.",
     "level": "Sätze"
   },
   {
     "de": "Bei Sinnen sein.",
-    "lv": "Būt pie pilna prāta.",
+    "lv": "Bei Trouscht sinn.",
     "level": "Sätze"
   },
   {
     "de": "Bei Tage.",
-    "lv": "Dienas laikā.",
+    "lv": "Bei Dag.",
     "level": "Sätze"
   },
   {
     "de": "Bei weitem nicht so.",
-    "lv": "Nepavisam ne.",
+    "lv": "Bei Wäitem net esou.",
     "level": "Sätze"
   },
   {
     "de": "Alle beide.",
-    "lv": "Abi divi.",
+    "lv": "Alle béid.",
     "level": "Sätze"
   },
   {
     "de": "Stürmischer Beifall brach los.",
-    "lv": "Er klonk een daverend applaus.",
+    "lv": "Stiermeschen Applaus ass lassgaangen.",
     "level": "Sätze"
   },
   {
     "de": "Beifall finden.",
-    "lv": "Gūt piekrišanu.",
+    "lv": "Zoustëmmung fannen.",
     "level": "Sätze"
   },
   {
     "de": "Beileid aussprechen.",
-    "lv": "Izteikt līdzjūtību.",
+    "lv": "Bäileed ausdrécken.",
     "level": "Sätze"
   },
   {
     "de": "Auf eigenen Beinen stehen.",
-    "lv": "Būt finansiāli patstāvīgam.",
+    "lv": "Op eegene Bee stoen.",
     "level": "Sätze"
   },
   {
     "de": "Zum Beispiel.",
-    "lv": "Piemēram.",
+    "lv": "Zum Beispill.",
     "level": "Sätze"
   },
   {
     "de": "Beistand leisten.",
-    "lv": "Palīdzēt. • Sniegt palīdzību",
+    "lv": "Bäistand leeschten.",
     "level": "Sätze"
   },
   {
     "de": "Beitrag leisten.",
-    "lv": "Ieguldīt savu daļu.",
+    "lv": "Bäitrag leeschten.",
     "level": "Sätze"
   },
   {
     "de": "Jemandes Bekanntschaft machen.",
-    "lv": "Iepazīties ar kādu.",
+    "lv": "D'Bekanntschaft vun engem maachen.",
     "level": "Sätze"
   },
   {
     "de": "Bekanntschaft anknüpfen.",
-    "lv": "Iepazīties. • Nodibināt kontaktu",
+    "lv": "Bekanntschaft maachen.",
     "level": "Sätze"
   },
   {
     "de": "Belegte Brötchen.",
-    "lv": "Sviestmaizes ar uzlikumiem.",
+    "lv": "Geschmiert Bréidercher.",
     "level": "Sätze"
   },
   {
     "de": "Nach Ihrem Belieben.",
-    "lv": "Kā jūs vēlaties.",
+    "lv": "Ganz wéi Dir wëllt.",
     "level": "Sätze"
   },
   {
     "de": "Zu jeder beliebigen Zeit.",
-    "lv": "Jebkurā laikā.",
+    "lv": "Zu all Moment.",
     "level": "Sätze"
   },
   {
     "de": "Schweigen beobachten.",
-    "lv": "Ievērot klusumu.",
+    "lv": "Stëll bleiwen.",
     "level": "Sätze"
   },
   {
     "de": "Zur Bequemlichkeit.",
-    "lv": "Ērtības labad.",
+    "lv": "Fir d'Bequeemlechkeet.",
     "level": "Sätze"
   },
   {
     "de": "Bereit sein.",
-    "lv": "Būt gatavam. • Būt ar mieru",
+    "lv": "Bereet sinn.",
     "level": "Sätze"
   },
   {
     "de": "Unfallopfer bergen.",
-    "lv": "Glābt nelaimes gadījumā cietušos.",
+    "lv": "Affer vun engem Accident biergen.",
     "level": "Sätze"
   },
   {
     "de": "Bericht erstatten.",
-    "lv": "Ziņot. • Sniegt ziņojumu • Sniegt pārskatu",
+    "lv": "Bericht maachen.",
     "level": "Sätze"
   },
   {
     "de": "Alle Plätze sind besetzt.",
-    "lv": "Alle stoelen zijn bezet.",
+    "lv": "All Plaze si besat.",
     "level": "Sätze"
   },
   {
     "de": "Neue Besen kehren gut.",
-    "lv": "Jauna slota labi slauka.",
+    "lv": "Nei Bieseme kiere gutt.",
     "level": "Sätze"
   },
   {
     "de": "Er besitzt ein Haus.",
-    "lv": "Viņam pieder māja.",
+    "lv": "Hie besëtzt en Haus.",
     "level": "Sätze"
   },
   {
     "de": "Er besitzt viel Mut.",
-    "lv": "Viņam ir liela drosme.",
+    "lv": "Hien huet vill Courage.",
     "level": "Sätze"
   },
   {
     "de": "Desto besser.",
-    "lv": "Jo labāk.",
+    "lv": "Ëmsou besser.",
     "level": "Sätze"
   },
   {
     "de": "Gute Besserung!",
-    "lv": "Veseļojieties! • Atveseļojies!",
+    "lv": "Gutt Besserung!",
     "level": "Sätze"
   },
   {
     "de": "Beim besten Willen.",
-    "lv": "Lai kā arī gribētu.",
+    "lv": "Mam beschte Wëllen.",
     "level": "Sätze"
   },
   {
     "de": "Am besten.",
-    "lv": "Vislabāk.",
+    "lv": "Am beschten.",
     "level": "Sätze"
   },
   {
     "de": "Es besteht Zweifel.",
-    "lv": "Ir šaubas.",
+    "lv": "Et besteet Zweiwel.",
     "level": "Sätze"
   },
   {
     "de": "Seine Aufgabe besteht darin...",
-    "lv": "Viņa uzdevums ir...",
+    "lv": "Seng Aufgab besteet doran...",
     "level": "Sätze"
   },
   {
     "de": "Grüße bestellen.",
-    "lv": "Pasveicināt.",
+    "lv": "Gréiss ausriichten.",
     "level": "Sätze"
   },
   {
     "de": "Ganz bestimmt.",
-    "lv": "Noteikti. • Pavisam droši",
+    "lv": "Ganz bestëmmt.",
     "level": "Sätze"
   },
   {
     "de": "Zu Besuch kommen.",
-    "lv": "Nākt ciemos.",
+    "lv": "Op Besuch kommen.",
     "level": "Sätze"
   },
   {
     "de": "Zu Besuch sein.",
-    "lv": "Būt ciemos. • Ciemoties",
+    "lv": "Op Besuch sinn.",
     "level": "Sätze"
   },
   {
     "de": "Oft Konzerte besuchen.",
-    "lv": "Bieži iet uz koncertiem.",
+    "lv": "Dacks op Concerte goen.",
     "level": "Sätze"
   },
   {
     "de": "Welche Schule hat er besucht?",
-    "lv": "Kurā skolā viņš mācījās?",
+    "lv": "Wéi eng Schoul huet hie besicht?",
     "level": "Sätze"
   },
   {
     "de": "In Betracht ziehen.",
-    "lv": "Ņemt vērā. • Apsvērt",
+    "lv": "A Betruecht zéien.",
     "level": "Sätze"
   },
   {
     "de": "Außer Betracht lassen.",
-    "lv": "Neņemt vērā. • Neapsvērt",
+    "lv": "Ausser Betruecht loossen.",
     "level": "Sätze"
   },
   {
     "de": "Er betreibt ein Hotel.",
-    "lv": "Viņš vada viesnīcu.",
+    "lv": "Hie bedreift en Hotel.",
     "level": "Sätze"
   },
   {
     "de": "Alle beiden.",
-    "lv": "Abi divi.",
+    "lv": "Alle béid.",
     "level": "Sätze"
   },
   {
     "de": "Alles bezahlen.",
-    "lv": "Samaksāt visu.",
+    "lv": "Alles bezuelen.",
     "level": "Sätze"
   },
   {
     "de": "Bezüglich auf etwas.",
-    "lv": "Attiecībā uz kaut ko.",
+    "lv": "Wat eppes ugeet.",
     "level": "Sätze"
   },
   {
     "de": "Bitte schön.",
-    "lv": "Please mam",
+    "lv": "Gär geschitt. • Wannechgelift.",
     "level": "Sätze"
   },
   {
     "de": "Wie bitte?",
-    "lv": "Kā, lūdzu?",
+    "lv": "Wéi gelift?",
     "level": "Sätze"
   },
   {
     "de": "Bitte sehr.",
-    "lv": "Please mam",
+    "lv": "Gär geschitt. • Hei, wannechgelift.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe eine Bitte an Sie.",
-    "lv": "Man ir lūgums jums.",
+    "lv": "Ech wéilt Iech ëm e Gefale bieden.",
     "level": "Sätze"
   },
   {
     "de": "Trompete blasen.",
-    "lv": "Pūst trompeti.",
+    "lv": "Trompett blosen.",
     "level": "Sätze"
   },
   {
     "de": "In einem Buch blättern.",
-    "lv": "Šķirstīt grāmatu.",
+    "lv": "An engem Buch bliederen.",
     "level": "Sätze"
   },
   {
     "de": "Mit bloßen Füßen.",
-    "lv": "Kailām kājām.",
+    "lv": "Mat blousse Féiss.",
     "level": "Sätze"
   },
   {
     "de": "Mit bloßem Auge.",
-    "lv": "Ar neapbruņotu aci.",
+    "lv": "Mat bloussem A.",
     "level": "Sätze"
   },
   {
     "de": "Danke für die Blumen!",
-    "lv": "Paldies par ziediem!",
+    "lv": "Merci fir d'Blummen!",
     "level": "Sätze"
   },
   {
     "de": "Alles in Butter.",
-    "lv": "Viss kārtībā.",
+    "lv": "Alles a Botter.",
     "level": "Sätze"
   },
   {
     "de": "Bitte checken.",
-    "lv": "Pārbaudīt. • Izkontrolēt",
+    "lv": "Wannechgelift kontrolléieren.",
     "level": "Sätze"
   },
   {
     "de": "Da ist er!",
-    "lv": "Te viņš ir!",
+    "lv": "Do ass hien!",
     "level": "Sätze"
   },
   {
     "de": "Alles spricht dafür.",
-    "lv": "Viss runā par labu.",
+    "lv": "Alles schwätzt dofir.",
     "level": "Sätze"
   },
   {
     "de": "Ich kann nichts dafür.",
-    "lv": "Es tur neko nevaru darīt.",
+    "lv": "Ech kann näischt dofir.",
     "level": "Sätze"
   },
   {
     "de": "Ich bin dagegen.",
-    "lv": "Es esmu pret to.",
+    "lv": "Ech sinn dogéint.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe nichts dagegen.",
-    "lv": "Man pret to nav iebildumu.",
+    "lv": "Ech hunn näischt dogéint.",
     "level": "Sätze"
   },
   {
     "de": "Von daheim.",
-    "lv": "No mājām.",
+    "lv": "Vun doheem.",
     "level": "Sätze"
   },
   {
     "de": "Mit der Dame ziehen.",
-    "lv": "Maak een damebeweging.",
+    "lv": "Mat der Damm zéien.",
     "level": "Sätze"
   },
   {
     "de": "Es dämmert.",
-    "lv": "Krēslojas. • Aust rītausma.",
+    "lv": "Et gëtt däischter. • Et gëtt hell.",
     "level": "Sätze"
   },
   {
     "de": "Danke schön!",
-    "lv": "Paldies! • Pateicos!",
+    "lv": "Villmools merci!",
     "level": "Sätze"
   },
   {
     "de": "Dann und wann.",
-    "lv": "Šad un tad.",
+    "lv": "Vun Zäit zu Zäit.",
     "level": "Sätze"
   },
   {
     "de": "Darauf kannst du dich verlassen.",
-    "lv": "Uz to tu vari paļauties.",
+    "lv": "Do kanns de dech drop verloossen.",
     "level": "Sätze"
   },
   {
     "de": "Daraus wird nichts.",
-    "lv": "No tā nekas neiznāks.",
+    "lv": "Doraus gëtt näischt.",
     "level": "Sätze"
   },
   {
     "de": "So dass...",
-    "lv": "Tā ka...",
+    "lv": "Sou datt...",
     "level": "Sätze"
   },
   {
     "de": "Für wen halten Sie mich?",
-    "lv": "Par ko jūs mani uzskatāt?",
+    "lv": "Fir wie haalt Dir mech?",
     "level": "Sätze"
   },
   {
     "de": "Hände weg!",
-    "lv": "Rokas nost!",
+    "lv": "Hänn ewech!",
     "level": "Sätze"
   },
   {
     "de": "Lass den Kopf nicht hängen!",
-    "lv": "Nenolaid galvu!",
+    "lv": "Looss de Kapp net hänken!",
     "level": "Sätze"
   },
   {
     "de": "zu Hause",
-    "lv": "Mājās",
+    "lv": "doheem",
     "level": "Sätze"
   },
   {
     "de": "nach Hause gehen",
-    "lv": "Iet uz mājām",
+    "lv": "heemgoen",
     "level": "Sätze"
   },
   {
     "de": "von Haus aus",
-    "lv": "Kopš bērnības • No pašiem sākumiem",
+    "lv": "ursprénglech • vun Natur aus",
     "level": "Sätze"
   },
   {
     "de": "Meinen herzlichsten Glückwunsch!",
-    "lv": "Sirsnīgi apsveicu!",
+    "lv": "Mäin häerzlechste Gléckwonsch!",
     "level": "Sätze"
   },
   {
     "de": "Seien Sie so gut!",
-    "lv": "Esiet tik laipns! • Esiet tik labs!",
+    "lv": "Sidd esou gutt!",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie die Güte!",
-    "lv": "Esiet tik laipns!",
+    "lv": "Sidd esou frëndlech!",
     "level": "Sätze"
   },
   {
     "de": "Was hast du?",
-    "lv": "Kas tev kait? • Kas noticis?",
+    "lv": "Wat hues de?",
     "level": "Sätze"
   },
   {
     "de": "Gestatten Sie bitte!",
-    "lv": "Atļaujiet, lūdzu!",
+    "lv": "Erlaabt, wannechgelift!",
     "level": "Sätze"
   },
   {
     "de": "Ist es gestattet zu rauchen?",
-    "lv": "Vai drīkst smēķēt?",
+    "lv": "Ass et erlaabt ze fëmmen?",
     "level": "Sätze"
   },
   {
     "de": "Ich muss gestehen, dass...",
-    "lv": "Man jāatzīst, ka...",
+    "lv": "Ech muss zouginn, datt...",
     "level": "Sätze"
   },
   {
     "de": "gestern früh",
-    "lv": "Vakar agri no rīta",
+    "lv": "gëschter de Moien",
     "level": "Sätze"
   },
   {
     "de": "gestern Abend",
-    "lv": "Vakar vakarā",
+    "lv": "gëschter den Owend",
     "level": "Sätze"
   },
   {
     "de": "Es ist mir gleichgültig, ob...",
-    "lv": "Mann ir vienalga, vai...",
+    "lv": "Et ass mir egal, ob...",
     "level": "Sätze"
   },
   {
     "de": "Was ist geschehen?",
-    "lv": "Kas noticis?",
+    "lv": "Wat ass geschitt?",
     "level": "Sätze"
   },
   {
     "de": "Mach keine Geschichten!",
-    "lv": "Netaisi muļķības! • Netaisi jokus!",
+    "lv": "Maach keng Geschichten! • Maach keng Dommheeten!",
     "level": "Sätze"
   },
   {
     "de": "Geschweige denn...",
-    "lv": "Nemaz nerunājot par to. • Kur nu vēl",
+    "lv": "Nach vill manner...",
     "level": "Sätze"
   },
   {
     "de": "Gehen Sie geradeaus!",
-    "lv": "Ejiet taisni uz priekšu!",
+    "lv": "Gitt riichtaus!",
     "level": "Sätze"
   },
   {
     "de": "Wie geht es Ihnen?",
-    "lv": "Kā jums iet? • Kā klājas?",
+    "lv": "Wéi geet et Iech?",
     "level": "Sätze"
   },
   {
     "de": "Frag ihn gelegentlich, ob...",
-    "lv": "Pajautā viņam, ja iznāk, vai...",
+    "lv": "Fro hien emol bei Geleeënheet, ob...",
     "level": "Sätze"
   },
   {
     "de": "morgen früh",
-    "lv": "Rīt no rīta",
+    "lv": "muer de Moien",
     "level": "Sätze"
   },
   {
     "de": "im Frühling",
-    "lv": "Pavasarī",
+    "lv": "am Fréijoer",
     "level": "Sätze"
   },
   {
     "de": "Was gibt’s Neues?",
-    "lv": "Kas jauns?",
+    "lv": "Wat gëtt et Neies?",
     "level": "Sätze"
   },
   {
     "de": "Aus diesem Brief folgt, dass...",
-    "lv": "No šīs vēstules izriet, ka...",
+    "lv": "Aus dësem Bréif geet ervir, datt...",
     "level": "Sätze"
   },
   {
     "de": "Fahre fort!",
-    "lv": "Turpini tāpat tālāk!",
+    "lv": "Maach weider!",
     "level": "Sätze"
   },
   {
     "de": "Er ist kein Freund von...",
-    "lv": "Hien ass kee Frënd vu...",
+    "lv": "Hien ass kee Frënd vun...",
     "level": "Sätze"
   },
   {
     "de": "Es erwies sich, dass...",
-    "lv": "Izrādījās, ka...",
+    "lv": "Et huet sech erausgestallt, datt...",
     "level": "Sätze"
   },
   {
     "de": "Gedenkst du meiner?",
-    "lv": "Vai tu mani atceries? • Vai tu par mani iedomājies?",
+    "lv": "Erënners de dech u mech? • Denks de u mech?",
     "level": "Sätze"
   },
   {
     "de": "im Winter",
-    "lv": "Ziemā",
+    "lv": "am Wanter",
     "level": "Sätze"
   },
   {
     "de": "Welcher Jahrgang sind Sie?",
-    "lv": "Kādā gadā jūs esat dzimis?",
+    "lv": "Wéi ee Joergang sidd Dir?",
     "level": "Sätze"
   },
   {
     "de": "Es jammert mich zu sehen...",
-    "lv": "Žēl skatīties...",
+    "lv": "Et deet mir wéi, ze gesinn...",
     "level": "Sätze"
   },
   {
     "de": "je mehr, desto besser",
-    "lv": "Jo vairāk, jo labāk",
+    "lv": "wat méi, wat besser",
     "level": "Sätze"
   },
   {
     "de": "bis jetzt",
-    "lv": "Līdz šim brīdim",
+    "lv": "bis elo",
     "level": "Sätze"
   },
   {
     "de": "Wie komme ich zum Bahnhof?",
-    "lv": "Kā nokļūt līdz stacijai?",
+    "lv": "Wéi kommen ech op d'Gare?",
     "level": "Sätze"
   },
   {
     "de": "Komm her!",
-    "lv": "Nāc šurp!",
+    "lv": "Komm hier!",
     "level": "Sätze"
   },
   {
     "de": "Könnte ich Frau N. sprechen?",
-    "lv": "Vai es varētu runāt ar N. kundzi?",
+    "lv": "Kéint ech mat der Madamm N. schwätzen?",
     "level": "Sätze"
   },
   {
     "de": "Was kostet das?",
-    "lv": "Cik tas maxā?",
+    "lv": "Wat kascht dat?",
     "level": "Sätze"
   },
   {
     "de": "Wie lange dauert die Vorstellung?",
-    "lv": "Cik ilgi ilgs priekšnesums?",
+    "lv": "Wéi laang dauert d'Virstellung?",
     "level": "Sätze"
   },
   {
     "de": "Lass das!",
-    "lv": "Izbeidz! • Atmet to!",
+    "lv": "Looss dat!",
     "level": "Sätze"
   },
   {
     "de": "Lass mich in Ruhe!",
-    "lv": "Liec mani mierā!",
+    "lv": "Looss mech a Rou!",
     "level": "Sätze"
   },
   {
     "de": "Lassen Sie mich Ihnen helfen!",
-    "lv": "Atļaujiet man jums palīdzēt!",
+    "lv": "Loosst mech Iech hëllefen!",
     "level": "Sätze"
   },
   {
     "de": "Lasst uns gehen!",
-    "lv": "Iesim!",
+    "lv": "Loosst eis goen!",
     "level": "Sätze"
   },
   {
     "de": "Na, wie läufts?",
-    "lv": "Kā klājas?",
+    "lv": "Bon, wéi leeft et?",
     "level": "Sätze"
   },
   {
     "de": "Es lebe!",
-    "lv": "Lai dzīvo!",
+    "lv": "Et soll liewen!",
     "level": "Sätze"
   },
   {
     "de": "Leben Sie wohl!",
-    "lv": "Dzīvojiet sveiki! • Ardievu!",
+    "lv": "Maacht et gutt!",
     "level": "Sätze"
   },
   {
     "de": "Was ist los?",
-    "lv": "Kas noticis?",
+    "lv": "Wat ass lass?",
     "level": "Sätze"
   },
   {
     "de": "Der Job ist anstrengend.",
-    "lv": "Darbs ir nogurdinošs.",
+    "lv": "De Job ass ustrengend.",
     "level": "Sätze"
   },
   {
     "de": "Das war ein anstrengender Tag.",
-    "lv": "Tā bija saspringta diena.",
+    "lv": "Dat war en ustrengenden Dag.",
     "level": "Sätze"
   },
   {
     "de": "Deutsch lernen kann anstrengend sein.",
-    "lv": "Vācu valodas mācīšanās var būt nogurdinoša.",
+    "lv": "Däitsch léiere kann ustrengend sinn.",
     "level": "Sätze"
   },
   {
     "de": "Er verlangt eine Erklärung.",
-    "lv": "Et ass e Päiperlek, deen aus der Päischtvakanz entsteet.",
+    "lv": "Hie verlaangt eng Erklärung.",
     "level": "Sätze"
   },
   {
     "de": "Der Verkäufer verlangt zu viel Geld.",
-    "lv": "Pārdevējs prasa par daudz naudas.",
+    "lv": "De Verkeefer verlaangt ze vill Geld.",
     "level": "Sätze"
   },
   {
     "de": "Das Gesetz verlangt es so.",
-    "lv": "Likums to tā pieprasa.",
+    "lv": "D'Gesetz verlaangt et esou.",
     "level": "Sätze"
   },
   {
     "de": "Das ist gar nicht so schwer.",
-    "lv": "Tas nemaz nav tik grūti.",
+    "lv": "Dat ass guer net sou schwéier.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe gar kein Geld.",
-    "lv": "Man pavisam nav naudas.",
+    "lv": "Ech hu guer keng Suen.",
     "level": "Sätze"
   },
   {
     "de": "Er hat gar nichts gesagt.",
-    "lv": "D'Viraussetzung ass, datt de Pavisam neko nepateica.",
+    "lv": "Hien huet guer näischt gesot.",
     "level": "Sätze"
   },
   {
     "de": "Der Hund ist los.",
-    "lv": "De hond is vrijgelaten.",
+    "lv": "Den Hond ass lass.",
     "level": "Sätze"
   },
   {
     "de": "Hier ist viel los.",
-    "lv": "Šeit daudz kas notiek.",
+    "lv": "Hei ass vill lass.",
     "level": "Sätze"
   },
   {
     "de": "Halt die Luft an!",
-    "lv": "Tur elpu!",
+    "lv": "Sief roueg! • Iwwerdreif net!",
     "level": "Sätze"
   },
   {
     "de": "Was machst du?",
-    "lv": "KO DU DARI?",
+    "lv": "Wat méchs de?",
     "level": "Sätze"
   },
   {
     "de": "Sag mal!",
-    "lv": "Saki jel!",
+    "lv": "So emol!",
     "level": "Sätze"
   },
   {
     "de": "Was meinen Sie damit?",
-    "lv": "Ko jūs ar to domājat? • Kā jūs to domājat?",
+    "lv": "Wat mengt Dir domat?",
     "level": "Sätze"
   },
   {
     "de": "Wir gehen mit Ihnen.",
-    "lv": "Mēs ejam ar jums.",
+    "lv": "Mir gi mat Iech.",
     "level": "Sätze"
   },
   {
     "de": "Ich fahre mit der Eisenbahn.",
-    "lv": "Es braucu ar vilcienu.",
+    "lv": "Ech fuere mam Zuch.",
     "level": "Sätze"
   },
   {
     "de": "am Mittwoch",
-    "lv": "Trešdien",
+    "lv": "um Mëttwoch",
     "level": "Sätze"
   },
   {
     "de": "Es mag sein.",
-    "lv": "Varbūt.",
+    "lv": "Et ka sinn.",
     "level": "Sätze"
   },
   {
     "de": "Ich mag das nicht.",
-    "lv": "Man tas nepatīk.",
+    "lv": "Ech hunn dat net gär.",
     "level": "Sätze"
   },
   {
     "de": "am Montag",
-    "lv": "Pirmdien",
+    "lv": "um Méindeg",
     "level": "Sätze"
   },
   {
     "de": "Guten Morgen!",
-    "lv": "Labrīt!",
+    "lv": "Gudde Moien!",
     "level": "Sätze"
   },
   {
     "de": "am Morgen",
-    "lv": "No rīta",
+    "lv": "moies",
     "level": "Sätze"
   },
   {
     "de": "Gute Nacht!",
-    "lv": "Ar labu nakti!",
+    "lv": "Gutt Nuecht!",
     "level": "Sätze"
   },
   {
     "de": "Nehmen Sie Platz!",
-    "lv": "Sēdieties!",
+    "lv": "Huelt Plaz!",
     "level": "Sätze"
   },
   {
     "de": "Letzte Neuheit!",
-    "lv": "Pēdējais jaunums!",
+    "lv": "Lescht Neiegkeet!",
     "level": "Sätze"
   },
   {
     "de": "Nicht wahr?",
-    "lv": "Vai ne?",
+    "lv": "Net wouer?",
     "level": "Sätze"
   },
   {
     "de": "Nicht doch!",
-    "lv": "Nē taču! • Nevajag!",
+    "lv": "Mee neen! • Looss dat!",
     "level": "Sätze"
   },
   {
     "de": "Nun endlich!",
-    "lv": "Nu beidzot!",
+    "lv": "Elo endlech!",
     "level": "Sätze"
   },
   {
     "de": "Wozu nützt das?",
-    "lv": "Waar is het goed voor?",
+    "lv": "Wouzou notzt dat?",
     "level": "Sätze"
   },
   {
     "de": "Wozu nützt das alles?",
-    "lv": "Kam tas viss?",
+    "lv": "Wouzou notzt all dat?",
     "level": "Sätze"
   },
   {
     "de": "Parken verboten!",
-    "lv": "Stāvēšana aizliegta!",
+    "lv": "Parke verbueden!",
     "level": "Sätze"
   },
   {
     "de": "Nicht parken!",
-    "lv": "Stāvēšana aizliegta!",
+    "lv": "Net parken!",
     "level": "Sätze"
   },
   {
     "de": "Er hat Recht.",
-    "lv": "Viņam ir taisnība.",
+    "lv": "Hien huet Recht.",
     "level": "Sätze"
   },
   {
     "de": "Wovon ist die Rede?",
-    "lv": "Par ko ir runa?",
+    "lv": "Vu wat ass d'Ried?",
     "level": "Sätze"
   },
   {
     "de": "Davon kann keine Rede sein.",
-    "lv": "Par to nevar būt ne runas.",
+    "lv": "Dovu ka keng Ried sinn.",
     "level": "Sätze"
   },
   {
     "de": "Glückliche Reise!",
-    "lv": "Laimīgu ceļu!",
+    "lv": "Gutt Rees!",
     "level": "Sätze"
   },
   {
     "de": "Mir reißt die Geduld.",
-    "lv": "Man beidzas pacietība.",
+    "lv": "Ech verléieren d'Gedold.",
     "level": "Sätze"
   },
   {
     "de": "Man sagt, dass...",
-    "lv": "Saka, ka...",
+    "lv": "Et heescht, datt...",
     "level": "Sätze"
   },
   {
     "de": "Schon gut!",
-    "lv": "Ir jau labi!",
+    "lv": "Scho gutt!",
     "level": "Sätze"
   },
   {
     "de": "Bitte schön!",
-    "lv": "Please mam!",
+    "lv": "Wannechgelift! • Gär geschitt!",
     "level": "Sätze"
   },
   {
     "de": "Was bin ich schuldig?",
-    "lv": "Cik es esmu parādā? • Cik man jāmaksā?",
+    "lv": "Wat sinn ech schëlleg?",
     "level": "Sätze"
   },
   {
     "de": "Vor dem Gebrauch schütteln!",
-    "lv": "Pirms lietošanas sakratīt!",
+    "lv": "Virum Gebrauch schëddelen!",
     "level": "Sätze"
   },
   {
     "de": "Sehen Sie mal!",
-    "lv": "Paraugieties!",
+    "lv": "Kuckt emol!",
     "level": "Sätze"
   },
   {
     "de": "Wie sehr auch...",
-    "lv": "Cik ļoti arī...",
+    "lv": "Egal wéi vill...",
     "level": "Sätze"
   },
   {
     "de": "Seit wann?",
-    "lv": "Kopš kura laika?",
+    "lv": "Zënter wéini?",
     "level": "Sätze"
   },
   {
     "de": "Was soll ich tun?",
-    "lv": "Ko lai es daru?",
+    "lv": "Wat soll ech maachen?",
     "level": "Sätze"
   },
   {
     "de": "im Sommer",
-    "lv": "Vasarā",
+    "lv": "am Summer",
     "level": "Sätze"
   },
   {
     "de": "Nicht nur..., sondern auch...",
-    "lv": "Ne vien..., bet arī...",
+    "lv": "Net nëmmen..., mee och...",
     "level": "Sätze"
   },
   {
     "de": "Sonst noch etwas?",
-    "lv": "Vēl kaut kas?",
+    "lv": "Soss nach eppes?",
     "level": "Sätze"
   },
   {
     "de": "Spaß beiseite!",
-    "lv": "Bez jokiem! • Jokus pie malas!",
+    "lv": "Ouni Spaass!",
     "level": "Sätze"
   },
   {
     "de": "Wie spät ist es?",
-    "lv": "Cik ir pulkstenis?",
+    "lv": "Wéi spéit ass et?",
     "level": "Sätze"
   },
   {
     "de": "Durchfahrt gesperrt!",
-    "lv": "Cauri braukt aizliegts!",
+    "lv": "Duerchfaart gespaart!",
     "level": "Sätze"
   },
   {
     "de": "Sprechen Sie deutsch?",
-    "lv": "Vai jūs runājat vāciski?",
+    "lv": "Schwätzt Dir Däitsch?",
     "level": "Sätze"
   },
   {
     "de": "Statt zu...",
-    "lv": "Tā vietā, lai...",
+    "lv": "Amplaz ze...",
     "level": "Sätze"
   },
   {
     "de": "Wie steht’s?",
-    "lv": "Kā klājas?",
+    "lv": "Wéi geet et?",
     "level": "Sätze"
   },
   {
     "de": "Dieser Hut steht ihr gut.",
-    "lv": "Šī cepure viņai labi piestāv.",
+    "lv": "Dësen Hutt steet hir gutt.",
     "level": "Sätze"
   },
   {
     "de": "Guten Tag!",
-    "lv": "Labdien!",
+    "lv": "Gudden Dag!",
     "level": "Sätze"
   },
   {
     "de": "Wo treffen wir uns?",
-    "lv": "Kur mēs satiksimies?",
+    "lv": "Wou treffe mir eis?",
     "level": "Sätze"
   },
   {
     "de": "Treten Sie näher!",
-    "lv": "Nāciet tuvāk!",
+    "lv": "Kommt méi no!",
     "level": "Sätze"
   },
   {
     "de": "Ehrlichkeit ist eine Tugend.",
-    "lv": "Godīgums ir tikums.",
+    "lv": "Éierlechkeet ass eng Dugend.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe viel zu tun.",
-    "lv": "Ik heb veel te doen.",
+    "lv": "Ech hu vill ze dinn.",
     "level": "Sätze"
   },
   {
     "de": "Nicht übel!",
-    "lv": "Itin labi! • Nav ko iebilst",
+    "lv": "Net schlecht!",
     "level": "Sätze"
   },
   {
     "de": "Er wohnt über mir.",
-    "lv": "Viņš dzīvo virs manis.",
+    "lv": "Hie wunnt iwwer mir.",
     "level": "Sätze"
   },
   {
     "de": "Er ist davon überzeugt.",
-    "lv": "Viņš par to ir pārliecināts.",
+    "lv": "Hien ass dovun iwwerzeegt.",
     "level": "Sätze"
   },
   {
     "de": "So ist es üblich.",
-    "lv": "Tā ir pieņemts.",
+    "lv": "Esou ass et üblech.",
     "level": "Sätze"
   },
   {
     "de": "Deine Uhr geht nach.",
-    "lv": "Tavs pulkstenis atpaliek.",
+    "lv": "Deng Auer geet no.",
     "level": "Sätze"
   },
   {
     "de": "Wie viel Uhr ist es?",
-    "lv": "Cik pulkstenis ir?",
+    "lv": "Wéi vill Auer ass et?",
     "level": "Sätze"
   },
   {
     "de": "Um acht Uhr früh.",
-    "lv": "Pulksten astoņos no rīta.",
+    "lv": "Um aacht Auer moies.",
     "level": "Sätze"
   },
   {
     "de": "umso mehr",
-    "lv": "Jo vairāk",
+    "lv": "ëmsou méi",
     "level": "Sätze"
   },
   {
     "de": "Rechts um!",
-    "lv": "Apgriezties pa labi!",
+    "lv": "Riets ëm!",
     "level": "Sätze"
   },
   {
     "de": "Und ob!",
-    "lv": "Un kā vēl!",
+    "lv": "Ma sécher!",
     "level": "Sätze"
   },
   {
     "de": "und zwar",
-    "lv": "CAA -",
+    "lv": "an zwar",
     "level": "Sätze"
   },
   {
     "de": "Auf Unkosten von...",
-    "lv": "Uz... rēķina.",
+    "lv": "Op Käschte vun...",
     "level": "Sätze"
   },
   {
     "de": "Er saß unter den Zuschauern.",
-    "lv": "Viņš sēdēja starp skatītājiem.",
+    "lv": "Hie souz ënnert de Spectateuren.",
     "level": "Sätze"
   },
   {
     "de": "Keine Ursache!",
-    "lv": "Nav par ko!",
+    "lv": "Keng Ursaach!",
     "level": "Sätze"
   },
   {
     "de": "Es geschah, wie verabredet.",
-    "lv": "Notika, kā bija norunāts.",
+    "lv": "Et ass geschitt, wéi ofgemaach.",
     "level": "Sätze"
   },
   {
     "de": "Rauchen verboten!",
-    "lv": "Smēķēt aizliegts!",
+    "lv": "Fëmme verbueden!",
     "level": "Sätze"
   },
   {
     "de": "Falsch verbunden!",
-    "lv": "Nepareizi savienots!",
+    "lv": "Falsch verbonnen!",
     "level": "Sätze"
   },
   {
     "de": "Eintritt verboten!",
-    "lv": "Ieeja aizliegta!",
+    "lv": "Agank verbueden!",
     "level": "Sätze"
   },
   {
     "de": "Verstehen Sie mich?",
-    "lv": "Vai jūs mani saprotat?",
+    "lv": "Verstitt Dir mech?",
     "level": "Sätze"
   },
   {
     "de": "Er versteht nichts davon.",
-    "lv": "Viņš no tā neko nesaprot.",
+    "lv": "Hie versteet näischt dovun.",
     "level": "Sätze"
   },
   {
     "de": "Seine Ansicht vertreten.",
-    "lv": "Aizstāvēt savu viedokli.",
+    "lv": "Seng Meenung vertrieden.",
     "level": "Sätze"
   },
   {
     "de": "Streit verursachen.",
-    "lv": "Dat ass dat „wir\"., Hier waren wir nie! '",
+    "lv": "Sträit verursaachen.",
     "level": "Sätze"
   },
   {
     "de": "Viel besser.",
-    "lv": "Daudz labāk.",
+    "lv": "Vill besser.",
     "level": "Sätze"
   },
   {
     "de": "Zu viel.",
-    "lv": "Pārāk daudz.",
+    "lv": "Ze vill.",
     "level": "Sätze"
   },
   {
     "de": "Vom Hörensagen.",
-    "lv": "Pēc dzirdēta.",
+    "lv": "Vum Héieresoen.",
     "level": "Sätze"
   },
   {
     "de": "Von Zeit zu Zeit.",
-    "lv": "Laiku pa laikam.",
+    "lv": "Vun Zäit zu Zäit.",
     "level": "Sätze"
   },
   {
     "de": "Von Beruf.",
-    "lv": "Pēc profesijas.",
+    "lv": "Vu Beruff.",
     "level": "Sätze"
   },
   {
     "de": "Er ist Berliner von Geburt.",
-    "lv": "Viņš ir dzimis berlīnietis.",
+    "lv": "Hien ass Berliner vu Gebuert.",
     "level": "Sätze"
   },
   {
     "de": "Er steht vor dem Fenster.",
-    "lv": "Viņš stāv pie loga.",
+    "lv": "Hie steet virun der Fënster.",
     "level": "Sätze"
   },
   {
     "de": "Vor Sonnenaufgang.",
-    "lv": "Pirms saules lēkta.",
+    "lv": "Virum Sonnenopgank.",
     "level": "Sätze"
   },
   {
     "de": "Vor vierzehn Tagen.",
-    "lv": "Pirms divām nedēļām.",
+    "lv": "Viru véierzéng Deeg.",
     "level": "Sätze"
   },
   {
     "de": "Vor Freude.",
-    "lv": "Aiz prieka.",
+    "lv": "Vu Freed.",
     "level": "Sätze"
   },
   {
     "de": "Vor allem.",
-    "lv": "Pirmkārt. • Vispirms",
+    "lv": "Virun allem.",
     "level": "Sätze"
   },
   {
     "de": "Im Voraus.",
-    "lv": "Iepriekš.",
+    "lv": "Am Viraus.",
     "level": "Sätze"
   },
   {
     "de": "Unter der Voraussetzung, dass...",
-    "lv": "Pieņemot, ka...",
+    "lv": "Ënnert der Viraussetzung, datt...",
     "level": "Sätze"
   },
   {
     "de": "Unter dem Vorbehalt.",
-    "lv": "Ar nosacījumu.",
+    "lv": "Ënnert dem Virbehalt.",
     "level": "Sätze"
   },
   {
     "de": "Vorhanden sein.",
-    "lv": "Būt. • Būt klāt • Būt pieejams",
+    "lv": "Do sinn. • Disponibel sinn.",
     "level": "Sätze"
   },
   {
     "de": "In der vorigen Woche.",
-    "lv": "Pagājušajā nedēļā.",
+    "lv": "An der leschter Woch.",
     "level": "Sätze"
   },
   {
     "de": "Vorkehrungen treffen.",
-    "lv": "Veikt pasākumus aizsardzībai.",
+    "lv": "Virsiichtsmoossnamen huelen.",
     "level": "Sätze"
   },
   {
     "de": "Sie kommt mir bekannt vor.",
-    "lv": "Viņa man šķiet pazīstama.",
+    "lv": "Si kënnt mir bekannt vir.",
     "level": "Sätze"
   },
   {
     "de": "Er hat Vorliebe für Literatur.",
-    "lv": "Viņam ļoti patīk literatūra.",
+    "lv": "Hien huet eng Virléift fir Literatur.",
     "level": "Sätze"
   },
   {
     "de": "Heute Vormittag.",
-    "lv": "Šorīt. • Šodien priekšpusdienā",
+    "lv": "Haut virmëttes.",
     "level": "Sätze"
   },
   {
     "de": "Von vorn.",
-    "lv": "No priekšas.",
+    "lv": "Vu vir.",
     "level": "Sätze"
   },
   {
     "de": "Nach vorn.",
-    "lv": "Uz priekšu.",
+    "lv": "No vir.",
     "level": "Sätze"
   },
   {
     "de": "Von vornherein.",
-    "lv": "Helemaal aan het begin.",
+    "lv": "Vun Ufank un.",
     "level": "Sätze"
   },
   {
     "de": "Im Vorteil sein.",
-    "lv": "Atrasties izdevīgākā stāvoklī.",
+    "lv": "Am Virdeel sinn.",
     "level": "Sätze"
   },
   {
     "de": "Wach sein.",
-    "lv": "Būt nomodā.",
+    "lv": "Waakreg sinn.",
     "level": "Sätze"
   },
   {
     "de": "Wach werden.",
-    "lv": "Pamosties.",
+    "lv": "Waakreg ginn.",
     "level": "Sätze"
   },
   {
     "de": "Auf Wache sein.",
-    "lv": "Stāvēt sardzē.",
+    "lv": "Wuecht halen.",
     "level": "Sätze"
   },
   {
     "de": "Während eines Jahres.",
-    "lv": "Gada laikā.",
+    "lv": "Wärend engem Joer.",
     "level": "Sätze"
   },
   {
     "de": "Während des Krieges.",
-    "lv": "Kara laikā.",
+    "lv": "Wärend dem Krich.",
     "level": "Sätze"
   },
   {
     "de": "Gegen eine Wand reden.",
-    "lv": "Runāt veltīgi.",
+    "lv": "Géint eng Mauer schwätzen.",
     "level": "Sätze"
   },
   {
     "de": "Hier haben die Wände Ohren.",
-    "lv": "Šeit sienām ir ausis.",
+    "lv": "Hei hunn d'Maueren Oueren.",
     "level": "Sätze"
   },
   {
     "de": "Bis wann?",
-    "lv": "Līdz kuram laikam?",
+    "lv": "Bis wéini?",
     "level": "Sätze"
   },
   {
     "de": "Es ist warm.",
-    "lv": "Ir silts.",
+    "lv": "Et ass waarm.",
     "level": "Sätze"
   },
   {
     "de": "Auf eine Nachricht warten.",
-    "lv": "Gaidīt ziņu.",
+    "lv": "Op eng Noriicht waarden.",
     "level": "Sätze"
   },
   {
     "de": "Was wollen Sie?",
-    "lv": "Ko jūs vēlaties?",
+    "lv": "Wat wëllt Dir?",
     "level": "Sätze"
   },
   {
     "de": "Was für ein...?",
-    "lv": "Kāds...? • Kas par...?",
+    "lv": "Wat fir en...?",
     "level": "Sätze"
   },
   {
     "de": "Auf halbem Wege.",
-    "lv": "Pusceļā.",
+    "lv": "Um hallwe Wee.",
     "level": "Sätze"
   },
   {
     "de": "Auf diesem Wege.",
-    "lv": "Произношение на просмотреть онлайн",
+    "lv": "Op dësem Wee. • Op dës Aart a Weis.",
     "level": "Sätze"
   },
   {
     "de": "Auf friedlichem Wege.",
-    "lv": "Miera ceļā.",
+    "lv": "Op friddleche Wee.",
     "level": "Sätze"
   },
   {
     "de": "Unserer Freundschaft wegen.",
-    "lv": "Mūsu draudzības dēļ.",
+    "lv": "Wéinst eiser Frëndschaft.",
     "level": "Sätze"
   },
   {
     "de": "Von Rechts wegen.",
-    "lv": "Pēc taisnības.",
+    "lv": "Laut Gesetz. • Mat Recht.",
     "level": "Sätze"
   },
   {
     "de": "Weh tun.",
-    "lv": "Sāpēt.",
+    "lv": "Wéidoen.",
     "level": "Sätze"
   },
   {
     "de": "Zu Weihnachten.",
-    "lv": "Ziemassvētkos.",
+    "lv": "Op Chrëschtdag.",
     "level": "Sätze"
   },
   {
     "de": "Auf welche Weise?",
-    "lv": "Kādā veidā?",
+    "lv": "Op wéi eng Aart a Weis?",
     "level": "Sätze"
   },
   {
     "de": "Art und Weise.",
-    "lv": "Veids.",
+    "lv": "Aart a Weis.",
     "level": "Sätze"
   },
   {
     "de": "Ohne weiteres.",
-    "lv": "Tūlīt. • Nekavējoties",
+    "lv": "Ouni Weideres.",
     "level": "Sätze"
   },
   {
     "de": "Bis auf weiteres.",
-    "lv": "Līdz turpmākam.",
+    "lv": "Bis op Weideres.",
     "level": "Sätze"
   },
   {
     "de": "Und so weiter.",
-    "lv": "Un tā tālāk.",
+    "lv": "A sou weider.",
     "level": "Sätze"
   },
   {
     "de": "Weiter nichts.",
-    "lv": "Vairāk nekas.",
+    "lv": "Soss näischt.",
     "level": "Sätze"
   },
   {
     "de": "An welchem Tag?",
-    "lv": "Op welke dag?",
+    "lv": "U wéi engem Dag?",
     "level": "Sätze"
   },
   {
     "de": "Alle Welt.",
-    "lv": "Visa pasaule. • Visi",
+    "lv": "D'ganz Welt. • Jiddereen.",
     "level": "Sätze"
   },
   {
     "de": "In wenigen Tagen.",
-    "lv": "Dažās dienās.",
+    "lv": "An e puer Deeg.",
     "level": "Sätze"
   },
   {
     "de": "Zu wenig.",
-    "lv": "Par maz.",
+    "lv": "Ze wéineg.",
     "level": "Sätze"
   },
   {
     "de": "Wenn auch.",
-    "lv": "Kaut arī.",
+    "lv": "Wann och.",
     "level": "Sätze"
   },
   {
     "de": "Wer da?",
-    "lv": "Kas tur?",
+    "lv": "Wien do? • Wien ass do?",
     "level": "Sätze"
   },
   {
     "de": "Gesammelte Werke von Schiller.",
-    "lv": "Šillera kopotie raksti.",
+    "lv": "Gesammelt Wierker vum Schiller.",
     "level": "Sätze"
   },
   {
     "de": "Ausgewählte Werke.",
-    "lv": "Darbu izlase.",
+    "lv": "Ausgewielt Wierker.",
     "level": "Sätze"
   },
   {
     "de": "Er ist wert, dass...",
-    "lv": "Viņš ir pelnījis, lai...",
+    "lv": "Hien ass et wäert, datt...",
     "level": "Sätze"
   },
   {
     "de": "Es ist zwei Euro wert.",
-    "lv": "Tas maksā divus eiro.",
+    "lv": "Et ass zwee Euro wäert.",
     "level": "Sätze"
   },
   {
     "de": "Nach Westen.",
-    "lv": "Uz rietumiem.",
+    "lv": "A Richtung Westen.",
     "level": "Sätze"
   },
   {
     "de": "Von Westen.",
-    "lv": "No rietumiem.",
+    "lv": "Vum Westen.",
     "level": "Sätze"
   },
   {
     "de": "In Wettbewerb treten.",
-    "lv": "Iesaistīties sacensībā.",
+    "lv": "A Konkurrenz trieden.",
     "level": "Sätze"
   },
   {
     "de": "Um die Wette laufen.",
-    "lv": "Skrieties sacensībā.",
+    "lv": "Ëm d'Wett lafen.",
     "level": "Sätze"
   },
   {
     "de": "Was gilt die Wette?",
-    "lv": "Par ko deramies?",
+    "lv": "Wat wette mer?",
     "level": "Sätze"
   },
   {
     "de": "Wie wird das Wetter?",
-    "lv": "Kāds būs laiks?",
+    "lv": "Wéi gëtt d'Wieder?",
     "level": "Sätze"
   },
   {
     "de": "Wettkampf im Turnen.",
-    "lv": "Sacensības vingrošanā.",
+    "lv": "Concours am Turnen.",
     "level": "Sätze"
   },
   {
     "de": "Wider meinen Willen.",
-    "lv": "Pret manu gribu.",
+    "lv": "Géint mäi Wëllen.",
     "level": "Sätze"
   },
   {
     "de": "Widerspruch erheben.",
-    "lv": "Protestēt. • Celt iebildumus",
+    "lv": "Protest aleeën. • Widdersproch aleeën.",
     "level": "Sätze"
   },
   {
     "de": "Wie alt ist er?",
-    "lv": "Cik viņam gadu?",
+    "lv": "Wéi al ass hien?",
     "level": "Sätze"
   },
   {
     "de": "Wie lange?",
-    "lv": "Hoe lang",
+    "lv": "Wéi laang?",
     "level": "Sätze"
   },
   {
     "de": "Auf Wiederhören!",
-    "lv": "Uz sadzirdēšanos!",
+    "lv": "Äddi, bis geschwënn!",
     "level": "Sätze"
   },
   {
     "de": "Auf Wiedersehen!",
-    "lv": "Uz redzēšanos!",
+    "lv": "Äddi!",
     "level": "Sätze"
   },
   {
     "de": "Wilde Tiere.",
-    "lv": "Savvaļas dzīvnieki.",
+    "lv": "Wëll Déieren.",
     "level": "Sätze"
   },
   {
     "de": "Herzlich willkommen!",
-    "lv": "Sirsnīgi sveicināti!",
+    "lv": "Häerzlech wëllkomm!",
     "level": "Sätze"
   },
   {
     "de": "Du musst ziehen.",
-    "lv": "Je hebt een zet.",
+    "lv": "Du muss zéien.",
     "level": "Sätze"
   },
   {
     "de": "Es zieht.",
-    "lv": "Velk.",
+    "lv": "Et zitt.",
     "level": "Sätze"
   },
   {
     "de": "Ziemlich kalt.",
-    "lv": "Diezgan auksts.",
+    "lv": "Zimmlech kal.",
     "level": "Sätze"
   },
   {
     "de": "Zipfel einer Wurst.",
-    "lv": "Desas galiņš.",
+    "lv": "Enn vun enger Wurscht.",
     "level": "Sätze"
   },
   {
     "de": "Zu ihm gehen.",
-    "lv": "Iet pie viņa.",
+    "lv": "Bei hie goen.",
     "level": "Sätze"
   },
   {
     "de": "Zur Schule gehen.",
-    "lv": "Iet uz skolu.",
+    "lv": "An d'Schoul goen.",
     "level": "Sätze"
   },
   {
     "de": "Zu Hause bleiben.",
-    "lv": "Palikt mājās.",
+    "lv": "Doheem bleiwen.",
     "level": "Sätze"
   },
   {
     "de": "Von Tag zu Tag.",
-    "lv": "Diendienā.",
+    "lv": "Vun Dag zu Dag.",
     "level": "Sätze"
   },
   {
     "de": "Zum Glück.",
-    "lv": "Par laimi.",
+    "lv": "Zum Gléck.",
     "level": "Sätze"
   },
   {
     "de": "Wasser zum Trinken.",
-    "lv": "Ūdens dzeršanai.",
+    "lv": "Waasser fir ze drénken.",
     "level": "Sätze"
   },
   {
     "de": "Zu Fuß.",
-    "lv": "Kājām.",
+    "lv": "Zu Fouss.",
     "level": "Sätze"
   },
   {
     "de": "Zu Pferde.",
-    "lv": "Jāšus.",
+    "lv": "Op engem Päerd.",
     "level": "Sätze"
   },
   {
     "de": "Zu Rad.",
-    "lv": "Ar velosipēdu.",
+    "lv": "Mam Vëlo.",
     "level": "Sätze"
   },
   {
     "de": "Es hörte auf zu regnen.",
-    "lv": "Beidza līt.",
+    "lv": "Et huet opgehalen ze reenen.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe noch viel zu tun.",
-    "lv": "Man vēl daudz darāms.",
+    "lv": "Ech hunn nach vill ze dinn.",
     "level": "Sätze"
   },
   {
     "de": "Zu früh.",
-    "lv": "Te vroeg.",
+    "lv": "Ze fréi.",
     "level": "Sätze"
   },
   {
     "de": "Zu groß.",
-    "lv": "Pārāk liels.",
+    "lv": "Ze grouss.",
     "level": "Sätze"
   },
   {
     "de": "Mit den Achseln zucken.",
-    "lv": "Paraustīt plecus.",
+    "lv": "D'Schëlleren hiewen.",
     "level": "Sätze"
   },
   {
     "de": "In einem Zug trinken.",
-    "lv": "Izdzert ar vienu malku.",
+    "lv": "An enger Schlupp drénken.",
     "level": "Sätze"
   },
   {
     "de": "Zugrunde gehen.",
-    "lv": "Iet bojā.",
+    "lv": "Zugronn goen.",
     "level": "Sätze"
   },
   {
     "de": "Zugrunde legen.",
-    "lv": "Likt pamatā. • Ņemt par pamatu.",
+    "lv": "Als Basis huelen.",
     "level": "Sätze"
   },
   {
     "de": "Zum ersten Mal.",
-    "lv": "Pirmoreiz.",
+    "lv": "Fir déi éischte Kéier.",
     "level": "Sätze"
   },
   {
     "de": "Machen Sie bitte die Tür zu!",
-    "lv": "Aizveriet, lūdzu, durvis!",
+    "lv": "Maacht wannechgelift d'Dier zou!",
     "level": "Sätze"
   },
   {
     "de": "Er hat zugenommen.",
-    "lv": "Viņš pieņēmies svarā.",
+    "lv": "Hien huet zougeholl.",
     "level": "Sätze"
   },
   {
     "de": "Die Tage nehmen zu.",
-    "lv": "Dienas kļūst garākas.",
+    "lv": "D'Deeg huelen zou.",
     "level": "Sätze"
   },
   {
     "de": "Zusammenhängen mit etwas.",
-    "lv": "Būt saistītam ar kaut ko.",
+    "lv": "Mat eppes zesummenhänken.",
     "level": "Sätze"
   },
   {
     "de": "Die Tür ist zu.",
-    "lv": "Durvis ir aizvērtas.",
+    "lv": "D'Dier ass zou.",
     "level": "Sätze"
   },
   {
     "de": "Das hätte ich ihm nicht zugetraut.",
-    "lv": "To es nebūtu no viņa gaidījis.",
+    "lv": "Dat hätt ech him net zougetraut.",
     "level": "Sätze"
   },
   {
     "de": "Freier Zutritt.",
-    "lv": "Brīva ieeja.",
+    "lv": "Fräien Entrée.",
     "level": "Sätze"
   },
   {
     "de": "Zutritt verboten!",
-    "lv": "Ieeja aizliegta!",
+    "lv": "Zougang verbueden!",
     "level": "Sätze"
   },
   {
     "de": "Das ist zu viel!",
-    "lv": "Tas ir par daudz!",
+    "lv": "Dat ass ze vill!",
     "level": "Sätze"
   },
   {
     "de": "Zuwider werden.",
-    "lv": "Kļūt pretīgam. • Apriebties",
+    "lv": "Ufänken ze eekelen.",
     "level": "Sätze"
   },
   {
     "de": "Und zwar.",
-    "lv": "Proti.",
+    "lv": "An zwar.",
     "level": "Sätze"
   },
   {
     "de": "Es steht außer Zweifel.",
-    "lv": "Nav nekādu šaubu.",
+    "lv": "Et gëtt keen Zweiwel.",
     "level": "Sätze"
   },
   {
     "de": "Ohne Zweifel.",
-    "lv": "Bez šaubīšanās.",
+    "lv": "Ouni Zweiwel.",
     "level": "Sätze"
   },
   {
     "de": "Zum Zweiten.",
-    "lv": "Otrkārt.",
+    "lv": "Zweetens.",
     "level": "Sätze"
   },
   {
     "de": "Frohes neues Jahr!",
-    "lv": "Laimīgu Jauno gadu!",
+    "lv": "E schéint neit Joer!",
     "level": "Sätze"
   },
   {
     "de": "Herzlichen Glückwunsch zum Geburtstag!",
-    "lv": "Daudz laimes dzimšanas dienā!",
+    "lv": "Häerzleche Gléckwonsch zum Gebuertsdag!",
     "level": "Sätze"
   },
   {
     "de": "Gute Reise!",
-    "lv": "Laimīgu ceļu!",
+    "lv": "Gutt Rees!",
     "level": "Sätze"
   },
   {
     "de": "Es freut mich, Sie kennenzulernen.",
-    "lv": "Priecājos ar Jums iepazīties.",
+    "lv": "Et freet mech, Iech kennenzeléieren.",
     "level": "Sätze"
   },
   {
     "de": "Wären Sie bitte so nett?",
-    "lv": "Vai Jūs, lūdzu, būtu tik laipns?",
+    "lv": "Wiert Dir wannechgelift sou léif?",
     "level": "Sätze"
   },
   {
     "de": "Ich bin Ihnen sehr dankbar.",
-    "lv": "Esmu Jums ļoti pateicīgs.",
+    "lv": "Ech sinn Iech ganz dankbar.",
     "level": "Sätze"
   },
   {
     "de": "Setzt euch bitte hin!",
-    "lv": "Sēdieties, lūdzu!",
+    "lv": "Setzt iech wannechgelift!",
     "level": "Sätze"
   },
   {
     "de": "Ben, komm bitte an die Tafel!",
-    "lv": "Ben, nāc, lūdzu, pie tāfeles!",
+    "lv": "Ben, komm wannechgelift un d'Tafel!",
     "level": "Sätze"
   },
   {
     "de": "Schlagt bitte die Lehrbücher auf!",
-    "lv": "Atveriet, lūdzu, mācību grāmatas!",
+    "lv": "Maacht wannechgelift d'Léierbicher op!",
     "level": "Sätze"
   },
   {
     "de": "Geht bitte in die Sporthalle!",
-    "lv": "Noejiet, lūdzu, uz sporta zāli!",
+    "lv": "Gitt wannechgelift an d'Sportshal!",
     "level": "Sätze"
   },
   {
     "de": "Schläfst du noch?",
-    "lv": "Vai tu vēl guļi?",
+    "lv": "Schléifs du nach?",
     "level": "Sätze"
   },
   {
     "de": "Schlafen Sie noch?",
-    "lv": "Vai Jūs vēl guļat?",
+    "lv": "Schlooft Dir nach?",
     "level": "Sätze"
   },
   {
     "de": "Er ist fest eingeschlafen.",
-    "lv": "Hij slaapt snel.",
+    "lv": "Hien ass fest ageschlof.",
     "level": "Sätze"
   },
   {
     "de": "Wecke ihn bitte auf, es ist schon spät!",
-    "lv": "Lūdzu, pamodini viņu, jau ir vēls!",
+    "lv": "Erwäch hie wannechgelift, et ass scho spéit!",
     "level": "Sätze"
   },
   {
     "de": "Es tut mir sehr leid!",
-    "lv": "Man ļoti žēl!",
+    "lv": "Et deet mer ganz leed!",
     "level": "Sätze"
   },
   {
     "de": "Vielen Dank!",
-    "lv": "Liels paldies!",
+    "lv": "Villmools merci!",
     "level": "Sätze"
   },
   {
     "de": "Finn, fang bitte an!",
-    "lv": "Finn, sāc, lūdzu!",
+    "lv": "Finn, fänk wannechgelift un!",
     "level": "Sätze"
   },
   {
     "de": "Lest bitte mit!",
-    "lv": "Lasiet līdz, lūdzu!",
+    "lv": "Liest wannechgelift mat!",
     "level": "Sätze"
   },
   {
     "de": "Emma, schau bitte nicht aus dem Fenster!",
-    "lv": "Emma, lūdzu, neskaties pa logu!",
+    "lv": "Emma, kuck wannechgelift net aus der Fënster!",
     "level": "Sätze"
   },
   {
     "de": "Jonas, bring bitte die Hefte!",
-    "lv": "Jonas, atnes, lūdzu, burtnīcas!",
+    "lv": "Jonas, bréng wannechgelift d'Hefter!",
     "level": "Sätze"
   },
   {
     "de": "Geh bitte zurück an deinen Platz!",
-    "lv": "Ej atpakaļ uz savu vietu!",
+    "lv": "Géi wannechgelift zréck op deng Plaz!",
     "level": "Sätze"
   },
   {
     "de": "Es ist halb acht.",
-    "lv": "Pulkstenis ir pus astoņi.",
+    "lv": "Et ass hallwer aacht.",
     "level": "Sätze"
   },
   {
     "de": "Wann wachst du gewöhnlich auf?",
-    "lv": "Wanneer wordt u meestal wakker?",
+    "lv": "Wéini erwächs du normalerweis?",
     "level": "Sätze"
   },
   {
     "de": "Ich stehe gleich auf.",
-    "lv": "Es tūlīt celšos.",
+    "lv": "Ech stinn direkt op.",
     "level": "Sätze"
   },
   {
     "de": "Steh auf, Hanna, es klingelt!",
-    "lv": "Celies, Hanna, zvana!",
+    "lv": "Stéi op, Hanna, et schellt!",
     "level": "Sätze"
   },
   {
     "de": "Lass mich noch fünf Minuten schlafen!",
-    "lv": "Ļauj man vēl piecas minūtes pagulēt!",
+    "lv": "Looss mech nach fënnef Minutte schlofen!",
     "level": "Sätze"
   },
   {
     "de": "Vergiss nicht, das Zimmer zu lüften!",
-    "lv": "Neaizmirsti istabu izvēdināt!",
+    "lv": "Vergiess net, d'Zëmmer ze lëften!",
     "level": "Sätze"
   },
   {
     "de": "Wo ist das Handtuch?",
-    "lv": "Kur ir dvielis?",
+    "lv": "Wou ass d'Handduch?",
     "level": "Sätze"
   },
   {
     "de": "Ich möchte mir die Zähne putzen.",
-    "lv": "Gribu notīrīt zobus.",
+    "lv": "Ech wéilt mer d'Zänn botzen.",
     "level": "Sätze"
   },
   {
     "de": "Mit was putzt du dir die Zähne?",
-    "lv": "Ar ko tu tīri zobus?",
+    "lv": "Mat wat botz du der d'Zänn?",
     "level": "Sätze"
   },
   {
     "de": "Ich möchte mich anziehen.",
-    "lv": "Gribu apģērbties.",
+    "lv": "Ech wéilt mech undoen.",
     "level": "Sätze"
   },
   {
     "de": "Zieh dich bitte schnell an!",
-    "lv": "Ģērbies ātri, lūdzu!",
+    "lv": "Maach dech wannechgelift séier un!",
     "level": "Sätze"
   },
   {
     "de": "Kleide dich wärmer an, draußen ist es kühl.",
-    "lv": "Ģērbies siltāk, ārā ir vēss.",
+    "lv": "Maach dech méi waarm un, dobaussen ass et frësch.",
     "level": "Sätze"
   },
   {
     "de": "Guten Morgen, wie geht es dir?",
-    "lv": "Labrīt, kā tev klājas?",
+    "lv": "Gudde Moien, wéi geet et dir?",
     "level": "Sätze"
   },
   {
     "de": "Mir geht es gut, danke.",
-    "lv": "Man klājas labi, paldies.",
+    "lv": "Mir geet et gutt, merci.",
     "level": "Sätze"
   },
   {
     "de": "Was gibt es Neues?",
-    "lv": "Kas jauns?",
+    "lv": "Wat gëtt et Neies?",
     "level": "Sätze"
   },
   {
     "de": "Was für ein Chaos hier!",
-    "lv": "Cik šeit ir nekārtība!",
+    "lv": "Wat fir e Chaos hei!",
     "level": "Sätze"
   },
   {
     "de": "Darf ich beim Aufräumen helfen?",
-    "lv": "Vai drīkstu palīdzēt sakārtot?",
+    "lv": "Däerf ech beim Opraumen hëllefen?",
     "level": "Sätze"
   },
   {
     "de": "Was trinkst du morgens, Kaffee oder Tee?",
-    "lv": "Ko tu no rīta dzer, kafiju vai tēju?",
+    "lv": "Wat drénks du moies, Kaffi oder Téi?",
     "level": "Sätze"
   },
   {
     "de": "Gewöhnlich trinke ich morgens eine Tasse Kaffee.",
-    "lv": "Parasti no rīta izdzeru tasi kafijas.",
+    "lv": "Normalerweis drénken ech moies eng Taass Kaffi.",
     "level": "Sätze"
   },
   {
     "de": "Am liebsten trinke ich schwarzen Kaffee.",
-    "lv": "Vislabāk dzeru melno kafiju.",
+    "lv": "Am léifsten drénken ech schwaarze Kaffi.",
     "level": "Sätze"
   },
   {
     "de": "Guten Morgen, hast du gut geschlafen?",
-    "lv": "Labrīt, vai labi gulēji?",
+    "lv": "Gudde Moien, hues du gutt geschlof?",
     "level": "Sätze"
   },
   {
     "de": "Ich bin noch sehr müde.",
-    "lv": "Es joprojām esmu ļoti noguris.",
+    "lv": "Ech sinn nach ganz midd.",
     "level": "Sätze"
   },
   {
     "de": "Willst du Kaffee oder Milch?",
-    "lv": "Gribi kafiju vai pienu?",
+    "lv": "Wëlls du Kaffi oder Mëllech?",
     "level": "Sätze"
   },
   {
     "de": "Gib mir bitte ein Brötchen mit Käse.",
-    "lv": "Dod man, lūdzu, bulciņu ar sieru.",
+    "lv": "Gëff mer wannechgelift e Bréitche mat Kéis.",
     "level": "Sätze"
   },
   {
     "de": "Ich muss jetzt los!",
-    "lv": "Man tagad jāiet!",
+    "lv": "Ech muss elo lass!",
     "level": "Sätze"
   },
   {
     "de": "Vergiss dein Frühstück nicht!",
-    "lv": "Neaizmirsti brokastis!",
+    "lv": "Vergiess däi Moiesiessen net!",
     "level": "Sätze"
   },
   {
     "de": "Klara, deck bitte den Tisch!",
-    "lv": "Klara, lūdzu, klāj galdu!",
+    "lv": "Klara, deck wannechgelift den Dësch!",
     "level": "Sätze"
   },
   {
     "de": "Vergiss die Servietten nicht!",
-    "lv": "Vergeet de servetten niet!",
+    "lv": "Vergiess d'Zerwéiten net!",
     "level": "Sätze"
   },
   {
     "de": "Wann esst ihr zu Mittag?",
-    "lv": "Kad jūs ēdat pusdienās?",
+    "lv": "Wéini iesst dir zu Mëtteg?",
     "level": "Sätze"
   },
   {
     "de": "Es ist Zeit zu essen.",
-    "lv": "Ir laiks ēst.",
+    "lv": "Et ass Zäit fir z'iessen.",
     "level": "Sätze"
   },
   {
     "de": "Was gibt es heute zu Mittag?",
-    "lv": "Kas šodien ir pusdienās?",
+    "lv": "Wat gëtt et haut zu Mëtteg?",
     "level": "Sätze"
   },
   {
     "de": "Wie schmeckt dir die Suppe?",
-    "lv": "Kā tev garšo zupa?",
+    "lv": "Wéi schmaacht dir d'Zopp?",
     "level": "Sätze"
   },
   {
     "de": "Ehrlich gesagt ist sie etwas zu salzig.",
-    "lv": "Atklāti sakot, tā ir drusciņ pārāk sāļa.",
+    "lv": "Éierlech gesot ass se e bëssen ze salzeg.",
     "level": "Sätze"
   },
   {
     "de": "Darf ich dir ein Stück Brot geben?",
-    "lv": "Vai drīkstu iedot tev šķēli maizes?",
+    "lv": "Däerf ech dir e Stéck Brout ginn?",
     "level": "Sätze"
   },
   {
     "de": "Danke, ich habe schon.",
-    "lv": "Bedankt, dat heb ik al gedaan.",
+    "lv": "Merci, ech hu schonn.",
     "level": "Sätze"
   },
   {
     "de": "Das Fleisch schmeckt ausgezeichnet.",
-    "lv": "Gaļa garšo lieliski.",
+    "lv": "D'Fleesch schmaacht ausgezeechent.",
     "level": "Sätze"
   },
   {
     "de": "Danke, ich bin schon satt.",
-    "lv": "Paldies, es jau esmu paēdis.",
+    "lv": "Merci, ech si scho sat.",
     "level": "Sätze"
   },
   {
     "de": "Heute haben wir Besuch.",
-    "lv": "Šodien mums ir ciemiņi.",
+    "lv": "Haut hu mir Besuch.",
     "level": "Sätze"
   },
   {
     "de": "Bist du heute Abend frei?",
-    "lv": "Vai tev šovakar ir brīvs?",
+    "lv": "Bass du haut den Owend fräi?",
     "level": "Sätze"
   },
   {
     "de": "Komm doch heute zum Mittagessen vorbei!",
-    "lv": "Nāc šodien pusdienās ciemos!",
+    "lv": "Komm dach haut laanscht op d'Mëttegiessen!",
     "level": "Sätze"
   },
   {
     "de": "Setzen wir uns an den Tisch.",
-    "lv": "Apsēdosimies pie galda.",
+    "lv": "Loosse mer eis un den Dësch setzen.",
     "level": "Sätze"
   },
   {
     "de": "Bitte, bedien dich!",
-    "lv": "Lūdzu, ēd, cik gribi!",
+    "lv": "Wannechgelift, gräif zou!",
     "level": "Sätze"
   },
   {
     "de": "Stört dich das Rauchen?",
-    "lv": "Vai tevi traucē smēķēšana?",
+    "lv": "Stéiert dech d'Fëmmen?",
     "level": "Sätze"
   },
   {
     "de": "Danke für die nette Aufnahme!",
-    "lv": "Paldies par laipno uzņemšanu!",
+    "lv": "Merci fir de frëndlechen Empfang!",
     "level": "Sätze"
   },
   {
     "de": "Wann gehst du ins Bett?",
-    "lv": "Kad tu ej gulēt?",
+    "lv": "Wéini gees du an d'Bett?",
     "level": "Sätze"
   },
   {
     "de": "Wenn ich von der Arbeit komme, bin ich immer müde.",
-    "lv": "Kad atnāku no darba, vienmēr esmu noguris.",
+    "lv": "Wann ech vun der Aarbecht kommen, sinn ech ëmmer midd.",
     "level": "Sätze"
   },
   {
     "de": "Es ist Zeit, ins Bett zu gehen.",
-    "lv": "Ir laiks iet gulēt.",
+    "lv": "Et ass Zäit, fir an d'Bett ze goen.",
     "level": "Sätze"
   },
   {
     "de": "Es ist schönes Wetter.",
-    "lv": "Ir jauks laiks.",
+    "lv": "Et ass schéint Wieder.",
     "level": "Sätze"
   },
   {
     "de": "Willst du mit mir spazieren gehen?",
-    "lv": "Gribi ar mani pastaigāties?",
+    "lv": "Wëlls du mat mir spadséiere goen?",
     "level": "Sätze"
   },
   {
     "de": "Sieh mal, es wird gleich regnen.",
-    "lv": "Skaties, drīz līs.",
+    "lv": "Kuck emol, et reent gläich.",
     "level": "Sätze"
   },
   {
     "de": "Nimm den Regenschirm mit!",
-    "lv": "Paņem līdzi lietussargu!",
+    "lv": "Huel de Prabbeli mat!",
     "level": "Sätze"
   },
   {
     "de": "Es regnet.",
-    "lv": "Līst lietus.",
+    "lv": "Et reent.",
     "level": "Sätze"
   },
   {
     "de": "Ich bin schon ganz nass.",
-    "lv": "Ik ben al helemaal nat.",
+    "lv": "Ech si scho ganz naass.",
     "level": "Sätze"
   },
   {
     "de": "Glaubst du, dass es den ganzen Tag regnen wird?",
-    "lv": "Domā, ka līs visu dienu?",
+    "lv": "Mengs du, datt et de ganzen Dag reent?",
     "level": "Sätze"
   },
   {
     "de": "Es hört auf zu regnen.",
-    "lv": "Lietus beidz līt.",
+    "lv": "Et hält op ze reenen.",
     "level": "Sätze"
   },
   {
     "de": "Die Sonne scheint wieder.",
-    "lv": "Saule atkal spīd.",
+    "lv": "D'Sonn schéngt erëm.",
     "level": "Sätze"
   },
   {
     "de": "Es ist sehr warm.",
-    "lv": "Ir ļoti karsti.",
+    "lv": "Et ass ganz waarm.",
     "level": "Sätze"
   },
   {
     "de": "Es sieht nach Regen aus.",
-    "lv": "Izskatās, ka līs.",
+    "lv": "Et gesäit no Reen aus.",
     "level": "Sätze"
   },
   {
     "de": "Wir bekommen gleich ein Gewitter.",
-    "lv": "Mēs drīz dabūsim negaisu.",
+    "lv": "Mir kréie gläich en Donnerwieder.",
     "level": "Sätze"
   },
   {
     "de": "Das Gewitter zieht vorüber.",
-    "lv": "Negaiss ir garām pagājis.",
+    "lv": "D'Donnerwieder zitt laanscht.",
     "level": "Sätze"
   },
   {
     "de": "Die Wolken verziehen sich.",
-    "lv": "Mākoņi izklīst.",
+    "lv": "D'Wolleke verzéien sech.",
     "level": "Sätze"
   },
   {
     "de": "Siehst du den Regenbogen?",
-    "lv": "Redzi varavīksni?",
+    "lv": "Gesäis du de Reebou?",
     "level": "Sätze"
   },
   {
     "de": "Der Winter ist da, es hat geschneit.",
-    "lv": "Ziema ir klāt, naktī sniga.",
+    "lv": "De Wanter ass do, et huet geschneit.",
     "level": "Sätze"
   },
   {
     "de": "Es schneit.",
-    "lv": "Snieg.",
+    "lv": "Et schneit.",
     "level": "Sätze"
   },
   {
     "de": "Wie schön ist es im Wald im Winter!",
-    "lv": "Cik skaisti ir mežā ziemā!",
+    "lv": "Wéi schéin ass et am Wanter am Bësch!",
     "level": "Sätze"
   },
   {
     "de": "Mir ist kalt, ich friere.",
-    "lv": "Man ir auksti, man salst.",
+    "lv": "Mir ass kal, ech fréieren.",
     "level": "Sätze"
   },
   {
     "de": "Draußen ist Glatteis, pass auf!",
-    "lv": "Ārā ir slideni, uzmanies!",
+    "lv": "Dobaussen ass Glatäis, pass op!",
     "level": "Sätze"
   },
   {
     "de": "Wollen wir auf die Eisbahn gehen?",
-    "lv": "Aiziesim slidot?",
+    "lv": "Wëlle mer op d'Äispist goen?",
     "level": "Sätze"
   },
   {
     "de": "Zieh die Jacke an, du kannst dich erkälten.",
-    "lv": "Uzvelc jaku, var saaukstēties.",
+    "lv": "Do d'Jackett un, du kanns dech erkalen.",
     "level": "Sätze"
   },
   {
     "de": "Es ist halb sieben.",
-    "lv": "Pulkstenis ir pus septiņi.",
+    "lv": "Et ass hallwer siwen.",
     "level": "Sätze"
   },
   {
     "de": "Meine Uhr geht fünf Minuten vor.",
-    "lv": "Mans pulkstenis steidzas par piecām minūtēm.",
+    "lv": "Meng Auer geet fënnef Minutte vir.",
     "level": "Sätze"
   },
   {
     "de": "Weck mich morgen früh um sieben Uhr!",
-    "lv": "Pamodini mani rīt pulksten septiņos!",
+    "lv": "Erwäch mech muer de Moien um siwen Auer!",
     "level": "Sätze"
   },
   {
     "de": "Was ist heute für ein Datum?",
-    "lv": "Kāds šodien ir datums?",
+    "lv": "Wat fir en Datum ass haut?",
     "level": "Sätze"
   },
   {
     "de": "Heute ist der elfte Juli.",
-    "lv": "Šodien ir vienpadsmitais jūlijs.",
+    "lv": "Haut ass den eelefte Juli.",
     "level": "Sätze"
   },
   {
     "de": "Was machst du gewöhnlich am Abend?",
-    "lv": "Ko tu parasti dari vakaros?",
+    "lv": "Wat méchs du normalerweis owes?",
     "level": "Sätze"
   },
   {
     "de": "Es ist schon lange her, dass wir uns gesehen haben.",
-    "lv": "Jau sen neesam satikušies.",
+    "lv": "Et ass scho laang hier, datt mir eis gesinn hunn.",
     "level": "Sätze"
   },
   {
     "de": "Wie geht es dir?",
-    "lv": "Hoe is het",
+    "lv": "Wéi geet et dir?",
     "level": "Sätze"
   },
   {
     "de": "Entschuldige, ich möchte etwas mit dir besprechen.",
-    "lv": "Piedod, gribu ar tevi kaut ko pārrunāt.",
+    "lv": "Entschëlleg, ech wéilt eppes mat dir beschwätzen.",
     "level": "Sätze"
   },
   {
     "de": "Gehen wir spazieren!",
-    "lv": "Iesim pastaigā!",
+    "lv": "Gi mer spadséieren!",
     "level": "Sätze"
   },
   {
     "de": "Hast du Lust, mit mir in den Park zu gehen?",
-    "lv": "Gribi ar mani aiziet uz parku?",
+    "lv": "Hues du Loscht, mat mir an de Park ze goen?",
     "level": "Sätze"
   },
   {
     "de": "Ich komme, um dich zum Spaziergang abzuholen.",
-    "lv": "Es atnācu tevi ņemt līdz pastaigā.",
+    "lv": "Ech kommen, fir dech fir e Spadséiergank ofzehuelen.",
     "level": "Sätze"
   },
   {
     "de": "Geh bitte etwas langsamer, ich kann dir nicht folgen!",
-    "lv": "Ej mazliet lēnāk, es nevaru tev tikt līdzi!",
+    "lv": "Géi wannechgelift e bësse méi lues, ech kann dir net nokommen!",
     "level": "Sätze"
   },
   {
     "de": "Ich bin zum ersten Mal in dieser Gegend.",
-    "lv": "Esmu šeit pirmo reizi.",
+    "lv": "Ech si fir d'éischt an dëser Géigend.",
     "level": "Sätze"
   },
   {
     "de": "Ruhen wir uns ein wenig aus.",
-    "lv": "Nedaudz atpūtīsimies.",
+    "lv": "Loosse mer eis e bësse raschten.",
     "level": "Sätze"
   },
   {
     "de": "Jetzt können wir zurückgehen.",
-    "lv": "Tagad varam doties atpakaļ.",
+    "lv": "Elo kënne mir zréckgoen.",
     "level": "Sätze"
   },
   {
     "de": "Ehrlich gesagt bin ich ziemlich müde.",
-    "lv": "Atklāti sakot, esmu diezgan noguris.",
+    "lv": "Éierlech gesot sinn ech zimmlech midd.",
     "level": "Sätze"
   },
   {
     "de": "Entschuldige, wo ist die nächste U-Bahn-Station?",
-    "lv": "Piedod, kur ir tuvākā metro stacija?",
+    "lv": "Entschëlleg, wou ass déi nächst Metrosstatioun?",
     "level": "Sätze"
   },
   {
     "de": "Welcher ist der kürzeste Weg?",
-    "lv": "Kurš ir īsākais ceļš?",
+    "lv": "Wéi ee Wee ass de kierzten?",
     "level": "Sätze"
   },
   {
     "de": "Geh hier die zweite Straße links und dann immer geradeaus.",
-    "lv": "Šeit nogriezies otrajā ielā pa kreisi un ej taisni uz priekšu.",
+    "lv": "Géi hei déi zweet Strooss lénks an dann ëmmer riichtaus.",
     "level": "Sätze"
   },
   {
     "de": "Wie komme ich am schnellsten zum Bahnhof?",
-    "lv": "Kā ātrāk nokļūt uz staciju?",
+    "lv": "Wéi kommen ech am séiersten op d'Gare?",
     "level": "Sätze"
   },
   {
     "de": "Ich habe vor, morgen zu verreisen.",
-    "lv": "Esmu nodomājis rīt aizbraukt.",
+    "lv": "Ech hu vir, muer ze verreesen.",
     "level": "Sätze"
   },
   {
     "de": "Wohin willst du fahren?",
-    "lv": "Kur tu gribi braukt?",
+    "lv": "Wouhi wëlls du fueren?",
     "level": "Sätze"
   },
   {
     "de": "Reist du geschäftlich oder privat?",
-    "lv": "Tu brauc darba dēļ vai atpūtai?",
+    "lv": "Rees du geschäftlech oder privat?",
     "level": "Sätze"
   },
   {
     "de": "Finn fährt bis Berlin mit, dann geht er ans Meer.",
-    "lv": "Finn brauc līdz Berlīnei, tad dosies pie jūras.",
+    "lv": "De Finn fiert bis Berlin mat, da geet hien un d'Mier.",
     "level": "Sätze"
   },
   {
     "de": "Wann fährt das Schiff ab?",
-    "lv": "Kad kuģis atiet?",
+    "lv": "Wéini fiert d'Schëff of?",
     "level": "Sätze"
   },
   {
     "de": "In einer halben Stunde.",
-    "lv": "Pēc pusstundas.",
+    "lv": "An enger hallwer Stonn.",
     "level": "Sätze"
   },
   {
     "de": "Kann ich noch eine Kabine bekommen?",
-    "lv": "Vai vēl varu dabūt kajīti?",
+    "lv": "Kann ech nach eng Kabinn kréien?",
     "level": "Sätze"
   },
   {
     "de": "Vergiss deinen Pass nicht!",
-    "lv": "Neaizmirsti pasi!",
+    "lv": "Vergiess däi Pass net!",
     "level": "Sätze"
   },
   {
     "de": "Es ist Zeit, den Koffer zu packen.",
-    "lv": "Ir laiks sakravāt čemodānu.",
+    "lv": "Et ass Zäit, de Koffer ze paken.",
     "level": "Sätze"
   },
   {
     "de": "Der Zug fährt um halb sieben ab.",
-    "lv": "Vilciens atiet pus septiņos.",
+    "lv": "Den Zuch fiert um hallwer siwen of.",
     "level": "Sätze"
   },
   {
     "de": "Hol mir bitte ein Taxi, ich verpasse sonst den Zug!",
-    "lv": "Pasauc, lūdzu, taksometru, citādi nokavēšu vilcienu!",
+    "lv": "Ruff mer wannechgelift en Taxi, soss verpassen ech den Zuch!",
     "level": "Sätze"
   },
   {
     "de": "Fahr bitte zum Bahnhof!",
-    "lv": "Aizved, lūdzu, uz staciju!",
+    "lv": "Fuer wannechgelift op d'Gare!",
     "level": "Sätze"
   },
   {
     "de": "Ich muss mich beeilen.",
-    "lv": "Man jāsteidzas.",
+    "lv": "Ech muss mech presséieren.",
     "level": "Sätze"
   },
   {
     "de": "Ist der Schalter schon offen?",
-    "lv": "Vai kase jau ir atvērta?",
+    "lv": "Ass de Guichet schonn op?",
     "level": "Sätze"
   },
   {
     "de": "Eine Fahrkarte nach Köln, bitte.",
-    "lv": "Vienu biļeti līdz Ķelnei, lūdzu.",
+    "lv": "E Billjee op Köln, wannechgelift.",
     "level": "Sätze"
   },
   {
     "de": "Wann fährt der Zug ab?",
-    "lv": "Kad vilciens atiet?",
+    "lv": "Wéini fiert den Zuch fort?",
     "level": "Sätze"
   },
   {
     "de": "Der Zug fährt gleich ab.",
-    "lv": "Vilciens drīz atiet.",
+    "lv": "Den Zuch fiert gläich fort.",
     "level": "Sätze"
   },
   {
     "de": "Muss ich in Koblenz umsteigen?",
-    "lv": "Vai man Koblenzē jāpārsēžas?",
+    "lv": "Muss ech zu Koblenz ëmsteigen?",
     "level": "Sätze"
   },
   {
     "de": "Ja, dort musst du umsteigen.",
-    "lv": "Jā, tur tev jāpārsēžas.",
+    "lv": "Jo, do muss du ëmsteigen.",
     "level": "Sätze"
   },
   {
     "de": "Ist dieser Platz frei?",
-    "lv": "Vai šī vieta ir brīva?",
+    "lv": "Ass dës Plaz fräi?",
     "level": "Sätze"
   },
   {
     "de": "Nein, hier sitzt niemand.",
-    "lv": "Nē, šeit neviens nesēž.",
+    "lv": "Nee, hei sëtzt keen.",
     "level": "Sätze"
   },
   {
     "de": "Wo ist der Bahnsteigkartenautomat?",
-    "lv": "Kur ir automāts platformas biļetēm?",
+    "lv": "Wou ass den Automat fir Quai-Billjeeën?",
     "level": "Sätze"
   },
   {
     "de": "Stell mein Handgepäck ins Gepäcknetz.",
-    "lv": "Zet mijn handbagage in het raster.",
+    "lv": "Stell mäin Handgepäck an d'Netz.",
     "level": "Sätze"
   },
   {
     "de": "Kann ich das Fenster aufmachen?",
-    "lv": "Vai drīkstu atvērt logu?",
+    "lv": "Kann ech d'Fënster opmaachen?",
     "level": "Sätze"
   },
   {
     "de": "Es zieht, schließ bitte das Fenster!",
-    "lv": "Velk cauri, aizver, lūdzu, logu!",
+    "lv": "Et zitt, maach wannechgelift d'Fënster zou!",
     "level": "Sätze"
   },
   {
     "de": "Welche ist die nächste Station?",
-    "lv": "Kāda ir nākamā pietura?",
+    "lv": "Wéi eng ass déi nächst Statioun?",
     "level": "Sätze"
   },
   {
     "de": "Wie lange hält der Zug?",
-    "lv": "Cik ilgi vilciens stāv?",
+    "lv": "Wéi laang hält den Zuch?",
     "level": "Sätze"
   },
   {
     "de": "Wo muss ich umsteigen?",
-    "lv": "Kur man jāpārsēžas?",
+    "lv": "Wou muss ech ëmsteigen?",
     "level": "Sätze"
   },
   {
     "de": "Der Zug hat Verspätung.",
-    "lv": "Vilciens kavējas.",
+    "lv": "Den Zuch huet Verspéidung.",
     "level": "Sätze"
   },
   {
     "de": "Dieser Wagen ist für Nichtraucher.",
-    "lv": "Šis vagons ir nesmēķētājiem.",
+    "lv": "Dëse Waggon ass fir Leit, déi net fëmmen.",
     "level": "Sätze"
   },
   {
     "de": "Wir fahren jetzt über die Grenze.",
-    "lv": "Tagad braucam pāri robežai.",
+    "lv": "Mir fueren elo iwwer d'Grenz.",
     "level": "Sätze"
   },
   {
     "de": "Hast du etwas zu verzollen?",
-    "lv": "Vai tev ir kas jāmuito?",
+    "lv": "Hues du eppes ze verzollen?",
     "level": "Sätze"
   },
   {
     "de": "Wir sind in Berlin angekommen.",
-    "lv": "Esam pienākuši Berlīnē.",
+    "lv": "Mir sinn zu Berlin ukomm.",
     "level": "Sätze"
   },
   {
     "de": "Kannst du mir ein gutes Hotel empfehlen?",
-    "lv": "Vai vari ieteikt labu viesnīcu?",
+    "lv": "Kanns du mer e gudden Hotel recommandéieren?",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie freie Zimmer?",
-    "lv": "Vai jums ir brīvas istabas?",
+    "lv": "Hutt Dir fräi Zëmmer?",
     "level": "Sätze"
   },
   {
     "de": "Ein Zimmer mit zwei Betten, bitte.",
-    "lv": "Istabu ar divām gultām, lūdzu.",
+    "lv": "En Zëmmer mat zwee Better, wannechgelift.",
     "level": "Sätze"
   },
   {
     "de": "Was kostet das Zimmer pro Nacht?",
-    "lv": "Cik maksā istaba par nakti?",
+    "lv": "Wat kascht d'Zëmmer pro Nuecht?",
     "level": "Sätze"
   },
   {
     "de": "Morgen reise ich ab. Weck mich um sieben Uhr!",
-    "lv": "Rīt braucu prom. Pamodini mani pulksten septiņos!",
+    "lv": "Muer fueren ech fort. Erwäch mech um siwen Auer!",
     "level": "Sätze"
   },
   {
     "de": "Die Rechnung, bitte!",
-    "lv": "Rēķinu, lūdzu!",
+    "lv": "D'Rechnung, wannechgelift!",
     "level": "Sätze"
   },
   {
     "de": "Wo ist die Stadtbibliothek?",
-    "lv": "Kur ir pilsētas bibliotēka?",
+    "lv": "Wou ass d'Stadbibliothéik?",
     "level": "Sätze"
   },
   {
     "de": "Wann hat das Museum geöffnet?",
-    "lv": "Kad muzejs ir atvērts?",
+    "lv": "Wéini ass de Musée op?",
     "level": "Sätze"
   },
   {
     "de": "Wollen wir ins Museum gehen?",
-    "lv": "Iesim muzejā?",
+    "lv": "Solle mer an de Musée goen?",
     "level": "Sätze"
   },
   {
     "de": "Fahren wir mit dem Bus oder der U-Bahn?",
-    "lv": "Braucam ar autobusu vai metro?",
+    "lv": "Fuere mer mam Bus oder mat der Metro?",
     "level": "Sätze"
   },
   {
     "de": "Wo ist die nächste Bushaltestelle?",
-    "lv": "Kur ir tuvākā autobusa pietura?",
+    "lv": "Wou ass déi nächst Bushaltestell?",
     "level": "Sätze"
   },
   {
     "de": "Ich habe großen Hunger.",
-    "lv": "Man ir liels izsalkums.",
+    "lv": "Ech hu groussen Honger.",
     "level": "Sätze"
   },
   {
     "de": "Gehen wir zusammen essen?",
-    "lv": "Ejam kopā paēst?",
+    "lv": "Gi mer zesummen iessen?",
     "level": "Sätze"
   },
   {
     "de": "Kellner, die Speisekarte, bitte!",
-    "lv": "Viesmīli, ēdienkarti, lūdzu!",
+    "lv": "Serveur, de Menu, wannechgelift!",
     "level": "Sätze"
   },
   {
     "de": "Ist der Fisch frisch?",
-    "lv": "Vai zivs ir svaiga?",
+    "lv": "Ass de Fësch frësch?",
     "level": "Sätze"
   },
   {
     "de": "Das schmeckt ausgezeichnet!",
-    "lv": "Garšo lieliski!",
+    "lv": "Dat schmaacht ausgezeechent!",
     "level": "Sätze"
   },
   {
     "de": "Kellner, zahlen bitte!",
-    "lv": "Viesmīli, lūdzu, maksāt!",
+    "lv": "Serveur, bezuelen, wannechgelift!",
     "level": "Sätze"
   },
   {
     "de": "Ich gehe ins Café einen Kaffee trinken.",
-    "lv": "Iešu kafejnīcā izdzert kafiju.",
+    "lv": "Ech ginn an de Café e Kaffi drénken.",
     "level": "Sätze"
   },
   {
     "de": "Willst du mitkommen?",
-    "lv": "Gribi nākt līdz?",
+    "lv": "Wëlls du matkommen?",
     "level": "Sätze"
   },
   {
     "de": "Eine Tasse Kaffee mit Milch, bitte!",
-    "lv": "Tasi kafijas ar pienu, lūdzu!",
+    "lv": "Eng Taass Kaffi mat Mëllech, wannechgelift!",
     "level": "Sätze"
   },
   {
     "de": "Bitte schneller, ich habe es eilig!",
-    "lv": "Ātrāk, lūdzu, man jāsteidzas!",
+    "lv": "Méi séier, wannechgelift, ech si presséiert!",
     "level": "Sätze"
   },
   {
     "de": "Lass deinen Kaffee nicht kalt werden!",
-    "lv": "Neļauj kafijai atdzist!",
+    "lv": "Looss däi Kaffi net kal ginn!",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie etwas Erfrischendes?",
-    "lv": "Vai jums ir kas atsvaidzinošs?",
+    "lv": "Hutt Dir eppes Erfrëschendes?",
     "level": "Sätze"
   },
   {
     "de": "Eine Portion Eis, bitte!",
-    "lv": "Porciju saldējuma, lūdzu!",
+    "lv": "Eng Portioun Glace, wannechgelift!",
     "level": "Sätze"
   },
   {
     "de": "Heute Morgen habe ich einen Brief bekommen.",
-    "lv": "Šorīt saņēmu vēstuli.",
+    "lv": "Haut de Moien hunn ech e Bréif kritt.",
     "level": "Sätze"
   },
   {
     "de": "Ich muss ihm gleich schreiben.",
-    "lv": "Man viņam tūlīt jāraksta.",
+    "lv": "Ech muss him gläich schreiwen.",
     "level": "Sätze"
   },
   {
     "de": "Wo ist der nächste Briefkasten?",
-    "lv": "Kur ir tuvākā pastkaste?",
+    "lv": "Wou ass déi nächst Bréifkëscht?",
     "level": "Sätze"
   },
   {
     "de": "Wo ist die Post?",
-    "lv": "Kur ir pasta nodaļa?",
+    "lv": "Wou ass d'Post?",
     "level": "Sätze"
   },
   {
     "de": "Erinnere mich morgen daran zu schreiben!",
-    "lv": "Atgādini man rīt parakstīt!",
+    "lv": "Erënner mech muer drun, ze schreiwen!",
     "level": "Sätze"
   },
   {
     "de": "Werfen Sie bitte diesen Brief in den Briefkasten.",
-    "lv": "Lūdzu, iemet šo vēstuli pastkastē!",
+    "lv": "Geheit wannechgelift dëse Bréif an d'Bréifkëscht.",
     "level": "Sätze"
   },
   {
     "de": "Hallo, hier spricht Emma.",
-    "lv": "Sveiki, runā Emma.",
+    "lv": "Hallo, hei schwätzt d'Emma.",
     "level": "Sätze"
   },
   {
     "de": "Kann ich dich später anrufen?",
-    "lv": "Vai drīkstu tev vēlāk piezvanīt?",
+    "lv": "Kann ech dech méi spéit uruffen?",
     "level": "Sätze"
   },
   {
     "de": "Muss ich lange warten?",
-    "lv": "Vai man ilgi jāgaida?",
+    "lv": "Muss ech laang waarden?",
     "level": "Sätze"
   },
   {
     "de": "Bitte schneiden Sie mir die Haare.",
-    "lv": "Knip alsjeblieft mijn haar.",
+    "lv": "Schneit mer wannechgelift d'Hoer.",
     "level": "Sätze"
   },
   {
     "de": "Hinten bitte nicht zu kurz.",
-    "lv": "Aizmugurē, lūdzu, ne pārāk īsi.",
+    "lv": "Hannen net ze kuerz, wannechgelift.",
     "level": "Sätze"
   },
   {
     "de": "Wann beginnt die Vorstellung?",
-    "lv": "Kad sākas izrāde?",
+    "lv": "Wéini fänkt d'Virstellung un?",
     "level": "Sätze"
   },
   {
     "de": "Es fängt um halb acht an.",
-    "lv": "Sākas pus astoņos.",
+    "lv": "Et fänkt um hallwer aacht un.",
     "level": "Sätze"
   },
   {
     "de": "Alle Plätze sind ausverkauft.",
-    "lv": "Visas biļetes ir izpārdotas.",
+    "lv": "All Plaze sinn ausverkaaft.",
     "level": "Sätze"
   },
   {
     "de": "Drei Karten, bitte!",
-    "lv": "Trīs biļetes, lūdzu!",
+    "lv": "Dräi Kaarten, wannechgelift!",
     "level": "Sätze"
   },
   {
     "de": "Wir lassen die Jacken in der Garderobe.",
-    "lv": "Atstāsim jakas garderobē.",
+    "lv": "Mir loossen d'Jacketten an der Garderob.",
     "level": "Sätze"
   },
   {
     "de": "Bitte schnell, der Vorhang geht gleich auf!",
-    "lv": "Ātrāk, lūdzu, priekškars tūlīt atvērsies!",
+    "lv": "Séier, wannechgelift, de Riddo geet gläich op!",
     "level": "Sätze"
   },
   {
     "de": "Der Vorhang fällt.",
-    "lv": "Priekškars krīt.",
+    "lv": "De Riddo fält.",
     "level": "Sätze"
   },
   {
     "de": "Darf ich dich zum Tanz bitten?",
-    "lv": "Vai drīkstu uzaicināt dejot?",
+    "lv": "Däerf ech dech zum Danz froen?",
     "level": "Sätze"
   },
   {
     "de": "Wann ist eure Hochzeit?",
-    "lv": "Kad būs jūsu kāzas?",
+    "lv": "Wéini ass är Hochzäit?",
     "level": "Sätze"
   },
   {
     "de": "Ich suche eine Wohnung.",
-    "lv": "Meklēju dzīvokli.",
+    "lv": "Ech sichen eng Wunneng.",
     "level": "Sätze"
   },
   {
     "de": "Ist in diesem Haus eine Wohnung frei?",
-    "lv": "Vai šajā mājā ir brīvs dzīvoklis?",
+    "lv": "Ass an dësem Haus eng Wunneng fräi?",
     "level": "Sätze"
   },
   {
     "de": "Wie viel kostet die Miete?",
-    "lv": "Cik maksā īre?",
+    "lv": "Wéi vill kascht de Loyer?",
     "level": "Sätze"
   },
   {
     "de": "Die Wohnung hat drei Zimmer und eine Küche.",
-    "lv": "Dzīvoklim ir trīs istabas un virtuve.",
+    "lv": "D'Wunneng huet dräi Zëmmer an eng Kichen.",
     "level": "Sätze"
   },
   {
     "de": "Heute ziehen wir um.",
-    "lv": "Šodien pārceļamies.",
+    "lv": "Haut plënnere mer.",
     "level": "Sätze"
   },
   {
     "de": "Mia, pack die Sachen bitte in Kisten!",
-    "lv": "Mia, saliec, lūdzu, mantas kastēs!",
+    "lv": "Mia, pak d'Saache wannechgelift a Këschten!",
     "level": "Sätze"
   },
   {
     "de": "Hast du alles eingepackt?",
-    "lv": "Vai viss jau ir salikts kastēs?",
+    "lv": "Hues du alles agepaakt?",
     "level": "Sätze"
   },
   {
     "de": "Ich stehe mit meinem Freund in Kontakt.",
-    "lv": "Esmu sarakstē ar savu draugu.",
+    "lv": "Ech stinn a Kontakt mat mengem Frënd.",
     "level": "Sätze"
   },
   {
     "de": "Gehen wir ins Theater?",
-    "lv": "Iesim teātrī?",
+    "lv": "Gi mer an den Theater?",
     "level": "Sätze"
   },
   {
     "de": "Ist alles eingeladen?",
-    "lv": "Vai viss ir iekrauts?",
+    "lv": "Ass alles agelueden?",
     "level": "Sätze"
   },
   {
     "de": "Welch schöne Aussicht!",
-    "lv": "Cik skaists skats!",
+    "lv": "Wat eng schéin Aussiicht!",
     "level": "Sätze"
   },
   {
     "de": "Nun können wir alles wieder aufräumen.",
-    "lv": "Tagad varam visu atkal sakārtot.",
+    "lv": "Elo kënne mer alles nees opraumen.",
     "level": "Sätze"
   },
   {
     "de": "Wie viele Zimmer habt ihr?",
-    "lv": "Cik jums istabu?",
+    "lv": "Wéi vill Zëmmer hutt dir?",
     "level": "Sätze"
   },
   {
     "de": "Im Sommer fahre ich ans Meer.",
-    "lv": "Vasarā braukšu pie jūras.",
+    "lv": "Am Summer fueren ech un d'Mier.",
     "level": "Sätze"
   },
   {
     "de": "Kannst du schwimmen?",
-    "lv": "Vai tu proti peldēt?",
+    "lv": "Kanns du schwammen?",
     "level": "Sätze"
   },
   {
     "de": "Schwimm nicht zu weit hinaus!",
-    "lv": "Nepeldi pārāk tālu!",
+    "lv": "Schwamm net ze wäit eraus!",
     "level": "Sätze"
   },
   {
     "de": "Badest du jeden Tag?",
-    "lv": "Vai tu peldies katru dienu?",
+    "lv": "Gees du all Dag schwammen?",
     "level": "Sätze"
   },
   {
     "de": "Bei schönem Wetter gehe ich angeln.",
-    "lv": "Jo, Spaweck-Laboen, eju maxheret.",
+    "lv": "Bei schéinem Wieder ginn ech fëschen.",
     "level": "Sätze"
   },
   {
     "de": "Wie sieht er aus?",
-    "lv": "Kā viņš izskatās?",
+    "lv": "Wéi gesäit hien aus?",
     "level": "Sätze"
   },
   {
     "de": "Er hat sich aber recht verändert.",
-    "lv": "Viņš tomēr diezgan mainījies.",
+    "lv": "Hien huet sech awer ganz schéi verännert.",
     "level": "Sätze"
   },
   {
     "de": "Wie ist er als Mensch?",
-    "lv": "Kāds viņš ir kā cilvēks?",
+    "lv": "Wéi ass hien als Mënsch?",
     "level": "Sätze"
   },
   {
     "de": "Er ist immer nett und freundlich.",
-    "lv": "Viņš vienmēr ir jauks un laipns.",
+    "lv": "Hien ass ëmmer léif a frëndlech.",
     "level": "Sätze"
   },
   {
     "de": "Ich fühle mich nicht wohl.",
-    "lv": "Ik voel me slecht.",
+    "lv": "Ech fille mech net wuel.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe starke Kopfschmerzen.",
-    "lv": "Man ir stipras galvas sāpes.",
+    "lv": "Ech hu staarke Kappwéi.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe mich erkältet.",
-    "lv": "Esmu saaukstējies.",
+    "lv": "Ech hu mech erkaalt.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe Schnupfen.",
-    "lv": "Man ir iesnas.",
+    "lv": "Ech hunn de Schnapp.",
     "level": "Sätze"
   },
   {
     "de": "Mir ist schwindlig.",
-    "lv": "Man ir reibonis.",
+    "lv": "Mir ass schwindeleg.",
     "level": "Sätze"
   },
   {
     "de": "Ich muss zum Arzt gehen.",
-    "lv": "Man jāiet pie ārsta.",
+    "lv": "Ech muss bei den Dokter goen.",
     "level": "Sätze"
   },
   {
     "de": "Leg dich ins Bett!",
-    "lv": "Noliecies gultā!",
+    "lv": "Lee dech an d'Bett!",
     "level": "Sätze"
   },
   {
     "de": "Hast du Fieber?",
-    "lv": "Vai tev ir drudzis?",
+    "lv": "Hues du Féiwer?",
     "level": "Sätze"
   },
   {
     "de": "Gestern hatte ich erhöhte Temperatur.",
-    "lv": "Vakar man bija paaugstināta temperatūra.",
+    "lv": "Gëschter hat ech erhéicht Temperatur.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe Zahnschmerzen.",
-    "lv": "Man sāp zobs.",
+    "lv": "Ech hunn Zännwéi.",
     "level": "Sätze"
   },
   {
     "de": "Ich muss zum Zahnarzt gehen.",
-    "lv": "Man jāiet pie zobarsta.",
+    "lv": "Ech muss bei den Zänndokter goen.",
     "level": "Sätze"
   },
   {
     "de": "Weißt du, dass Finn krank ist?",
-    "lv": "Vai zini, ka Finn ir slims?",
+    "lv": "Weess du, datt de Finn krank ass?",
     "level": "Sätze"
   },
   {
     "de": "Laut Arzt wird er bald wieder gesund.",
-    "lv": "Pēc ārsta domām, viņš drīz atkal būs vesels.",
+    "lv": "Laut Dokter gëtt hie geschwënn erëm gesond.",
     "level": "Sätze"
   },
   {
     "de": "Ich will meine Wohnung neu möblieren.",
-    "lv": "Gribu no jauna mēbelēt dzīvokli.",
+    "lv": "Ech wëll meng Wunneng nei miwweléieren.",
     "level": "Sätze"
   },
   {
     "de": "Kann ich das auf Raten kaufen?",
-    "lv": "Vai varu nopirkt nomaksā?",
+    "lv": "Kann ech dat an Tranchë bezuelen?",
     "level": "Sätze"
   },
   {
     "de": "Bleib im Bett, bis es dir besser geht!",
-    "lv": "Paliec gultā, kamēr jūties labāk!",
+    "lv": "Bleif am Bett, bis et dir besser geet!",
     "level": "Sätze"
   },
   {
     "de": "Noah hat in zwei Wochen schwimmen gelernt.",
-    "lv": "Noah divās nedēļās iemācījās peldēt.",
+    "lv": "Den Noah huet an zwou Woche schwamme geléiert.",
     "level": "Sätze"
   },
   {
     "de": "Sei mit dem Essen noch vorsichtig.",
-    "lv": "Esi ar ēdienu vēl uzmanīgs.",
+    "lv": "Sief mam Iessen nach virsiichteg.",
     "level": "Sätze"
   },
   {
     "de": "Sprichst du Deutsch?",
-    "lv": "Spreek je Duits?",
+    "lv": "Schwätz du Däitsch?",
     "level": "Sätze"
   },
   {
     "de": "Ja, ein bisschen.",
-    "lv": "Jā, drusku.",
+    "lv": "Jo, e bëssen.",
     "level": "Sätze"
   },
   {
     "de": "Du sprichst ziemlich fließend.",
-    "lv": "Tu runā diezgan tekoši.",
+    "lv": "Du schwätz zimmlech fléissend.",
     "level": "Sätze"
   },
   {
     "de": "Wo hast du Deutsch gelernt?",
-    "lv": "Kur tu mācījies vācu?",
+    "lv": "Wou hues du Däitsch geléiert?",
     "level": "Sätze"
   },
   {
     "de": "Ich nehme seit einem Jahr Deutschstunden.",
-    "lv": "Jau gadu ņemu vācu stundas.",
+    "lv": "Ech huelen zënter engem Joer Däitschcoursen.",
     "level": "Sätze"
   },
   {
     "de": "Ich suche immer Gelegenheit, Deutsch zu sprechen.",
-    "lv": "Vienmēr meklēju iespēju runāt vāciski.",
+    "lv": "Ech sichen ëmmer eng Geleeënheet, Däitsch ze schwätzen.",
     "level": "Sätze"
   },
   {
     "de": "Ist das Buch noch vorrätig?",
-    "lv": "Vai šī grāmata vēl ir pieejama?",
+    "lv": "Ass d'Buch nach um Lager?",
     "level": "Sätze"
   },
   {
     "de": "Das Buch ist leider ausverkauft.",
-    "lv": "Diemžēl grāmata ir izpārdota.",
+    "lv": "D'Buch ass leider ausverkaaft.",
     "level": "Sätze"
   },
   {
     "de": "Wann erscheint die neue Auflage?",
-    "lv": "Kad iznāks jaunais izdevums?",
+    "lv": "Wéini erschéngt déi nei Oplag?",
     "level": "Sätze"
   },
   {
     "de": "Womit kann ich Ihnen helfen?",
-    "lv": "Ar ko varu palīdzēt?",
+    "lv": "Wéi kann ech Iech hëllefen?",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie ganz frische Eier?",
-    "lv": "Vai jums ir svaigas olas?",
+    "lv": "Hutt Dir ganz frësch Eeër?",
     "level": "Sätze"
   },
   {
     "de": "Was kosten die?",
-    "lv": "Cik tās maksā?",
+    "lv": "Wat kaschten déi?",
     "level": "Sätze"
   },
   {
     "de": "Das ist zu teuer.",
-    "lv": "Tas ir par dārgu.",
+    "lv": "Dat ass ze deier.",
     "level": "Sätze"
   },
   {
     "de": "Können Sie mir ein halbes Kilo abwiegen?",
-    "lv": "Vai varat nosvērt pus kilo?",
+    "lv": "Kënnt Dir mir en hallwe Kilo ofweien?",
     "level": "Sätze"
   },
   {
     "de": "Wie viel muss ich zahlen?",
-    "lv": "Cik man jāmaksā?",
+    "lv": "Wéi vill muss ech bezuelen?",
     "level": "Sätze"
   },
   {
     "de": "Wie viel kostet das Kilo?",
-    "lv": "Cik maksā kilograms?",
+    "lv": "Wéi vill kascht de Kilo?",
     "level": "Sätze"
   },
   {
     "de": "Wiegen Sie mir bitte zwei Kilo ab.",
-    "lv": "Nosveriet, lūdzu, divus kilogramus.",
+    "lv": "Weit mir wannechgelift zwee Kilo of.",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie auch Karotten?",
-    "lv": "Vai jums ir arī burkāni?",
+    "lv": "Hutt Dir och Muerten?",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie gutes Rindfleisch?",
-    "lv": "Vai jums ir laba liellopa gaļa?",
+    "lv": "Hutt Dir gutt Rëndfleesch?",
     "level": "Sätze"
   },
   {
     "de": "Geben Sie mir zwei Kilo Hackfleisch.",
-    "lv": "Dodiet divus kilogramus maltās gaļas.",
+    "lv": "Gitt mir zwee Kilo Gehacktes.",
     "level": "Sätze"
   },
   {
     "de": "Ein Laib Brot, bitte, aber nicht zu knusprig.",
-    "lv": "Vienu maizes kukuli, lūdzu, bet ne pārāk cietu.",
+    "lv": "E Brout, wannechgelift, awer net ze knuspereg.",
     "level": "Sätze"
   },
   {
     "de": "Das Brot ist frisch gebacken.",
-    "lv": "Maize ir svaigi cepta.",
+    "lv": "D'Brout ass frësch gebak.",
     "level": "Sätze"
   },
   {
     "de": "Was für Obst haben Sie heute?",
-    "lv": "Kādi augļi jums šodien ir?",
+    "lv": "Wat fir Uebst hutt Dir haut?",
     "level": "Sätze"
   },
   {
     "de": "Was kosten die Äpfel?",
-    "lv": "Cik maksā āboli?",
+    "lv": "Wat kaschten d'Äppel?",
     "level": "Sätze"
   },
   {
     "de": "Dann nehme ich zwei Kilo Äpfel.",
-    "lv": "Dan neem ik twee kilo appels.",
+    "lv": "Da huelen ech zwee Kilo Äppel.",
     "level": "Sätze"
   },
   {
     "de": "Die Birnen sind sehr teuer.",
-    "lv": "Bumbieri ir ļoti dārgi.",
+    "lv": "D'Biere si ganz deier.",
     "level": "Sätze"
   },
   {
     "de": "Können Sie mir alles nach Hause liefern?",
-    "lv": "Vai varat visu piegādāt uz mājām?",
+    "lv": "Kënnt Dir mir alles heem liwweren?",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie Reis?",
-    "lv": "Vai jums ir rīsi?",
+    "lv": "Hutt Dir Räis?",
     "level": "Sätze"
   },
   {
     "de": "Geben Sie mir bitte ein Kilo Reis.",
-    "lv": "Geef me een kilo rijst, alsjeblieft.",
+    "lv": "Gitt mir wannechgelift e Kilo Räis.",
     "level": "Sätze"
   },
   {
     "de": "Danke, diesmal nicht.",
-    "lv": "Paldies, šoreiz nē.",
+    "lv": "Merci, dës Kéier net.",
     "level": "Sätze"
   },
   {
     "de": "Wie viel kostet dieser Teppich?",
-    "lv": "Cik maksā šis paklājs?",
+    "lv": "Wéi vill kascht dësen Teppech?",
     "level": "Sätze"
   },
   {
     "de": "Können Sie die Möbel in meine Wohnung liefern?",
-    "lv": "Vai varat piegādāt mēbeles uz dzīvokli?",
+    "lv": "Kënnt Dir d'Miwwelen a meng Wunneng liwweren?",
     "level": "Sätze"
   },
   {
     "de": "Bitte an der Kasse zahlen.",
-    "lv": "Lūdzu, maksājiet pie kases.",
+    "lv": "Wannechgelift un der Keess bezuelen.",
     "level": "Sätze"
   },
   {
     "de": "Bitte, machen Sie die Rechnung.",
-    "lv": "Izrakstiet rēķinu, lūdzu.",
+    "lv": "Wannechgelift, maacht d'Rechnung.",
     "level": "Sätze"
   },
   {
     "de": "Was kostet das Meter?",
-    "lv": "Cik maksā metrs?",
+    "lv": "Wat kascht de Meter?",
     "level": "Sätze"
   },
   {
     "de": "Dieser Stoff gefällt mir.",
-    "lv": "Man patīk šis audums.",
+    "lv": "Dëse Stoff gefält mir.",
     "level": "Sätze"
   },
   {
     "de": "Schneiden Sie mir bitte drei Meter ab.",
-    "lv": "Nogrieziet, lūdzu, trīs metrus.",
+    "lv": "Schneit mir wannechgelift dräi Meter of.",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie auch andere Muster?",
-    "lv": "Vai jums ir arī citi paraugi?",
+    "lv": "Hutt Dir och aner Muster?",
     "level": "Sätze"
   },
   {
     "de": "Diese Farbe gefällt mir nicht.",
-    "lv": "Man nepatīk šī krāsa.",
+    "lv": "Dës Faarf gefält mir net.",
     "level": "Sätze"
   },
   {
     "de": "Geben Sie mir eine hellere.",
-    "lv": "Dodiet gaišāku.",
+    "lv": "Gitt mir eng méi hell.",
     "level": "Sätze"
   },
   {
     "de": "Was kosten diese Socken?",
-    "lv": "Cik maksā šīs zeķes?",
+    "lv": "Wat kaschten dës Strëmp?",
     "level": "Sätze"
   },
   {
     "de": "Welche Handschuhe wünschen Sie?",
-    "lv": "Kādus cimdus vēlaties?",
+    "lv": "Wéi eng Händsche wënscht Dir?",
     "level": "Sätze"
   },
   {
     "de": "Die sind mir etwas zu eng.",
-    "lv": "Tie man ir drusku par šauri.",
+    "lv": "Déi si mir e bëssen ze enk.",
     "level": "Sätze"
   },
   {
     "de": "So, nun passen sie gut.",
-    "lv": "Tā, tagad der labi.",
+    "lv": "Sou, elo passen se gutt.",
     "level": "Sätze"
   },
   {
     "de": "Kannst du mir einen guten Schneider empfehlen?",
-    "lv": "Vai vari ieteikt labu drēbnieku?",
+    "lv": "Kanns du mir e gudde Schneider recommandéieren?",
     "level": "Sätze"
   },
   {
     "de": "Ich will einen Anzug bestellen.",
-    "lv": "Gribu pasūtīt uzvalku.",
+    "lv": "Ech wëll e Kostüm bestellen.",
     "level": "Sätze"
   },
   {
     "de": "Wann wird er fertig sein?",
-    "lv": "Kad būs gatavs?",
+    "lv": "Wéini ass hie fäerdeg?",
     "level": "Sätze"
   },
   {
     "de": "Der Anzug sitzt gut.",
-    "lv": "Uzvalks der labi.",
+    "lv": "De Kostüm sëtzt gutt.",
     "level": "Sätze"
   },
   {
     "de": "Die Hose ist zu lang.",
-    "lv": "Bikses ir par garām.",
+    "lv": "D'Box ass ze laang.",
     "level": "Sätze"
   },
   {
     "de": "Bitte reinigen und bügeln Sie ihn!",
-    "lv": "Lūdzu, iztīriet un izgludinat to!",
+    "lv": "Botzt a streckt hien, wannechgelift!",
     "level": "Sätze"
   },
   {
     "de": "Wann wird das Kleid fertig sein?",
-    "lv": "Kad kleita būs gatava?",
+    "lv": "Wéini ass d'Kleed fäerdeg?",
     "level": "Sätze"
   },
   {
     "de": "Die Schuhe sind zu eng.",
-    "lv": "Kurpes ir par šauras.",
+    "lv": "D'Schong sinn ze enk.",
     "level": "Sätze"
   },
   {
     "de": "Können Sie die Schuhe heute reparieren?",
-    "lv": "Vai varat šodien salabot kurpes?",
+    "lv": "Kënnt Dir d'Schong haut reparéieren?",
     "level": "Sätze"
   },
   {
     "de": "Wann kann ich die Schuhe abholen?",
-    "lv": "Kad varu atnest kurpes?",
+    "lv": "Wéini kann ech d'Schong ofhuelen?",
     "level": "Sätze"
   },
   {
     "de": "Meine Armbanduhr funktioniert nicht.",
-    "lv": "Mana rokas pulkstenis nedarbojas.",
+    "lv": "Meng Aarmbandauer geet net.",
     "level": "Sätze"
   },
   {
     "de": "Sie geht fünf Minuten vor.",
-    "lv": "Tas steidzas par piecām minūtēm.",
+    "lv": "Si geet fënnef Minutte vir.",
     "level": "Sätze"
   },
   {
     "de": "Bist du kurzsichtig oder weitsichtig?",
-    "lv": "Vai esi tuvredzīgs vai tālredzīgs?",
+    "lv": "Bass du kuerzsiichteg oder wäitsiichteg?",
     "level": "Sätze"
   },
   {
     "de": "Ich möchte eine Brille kaufen.",
-    "lv": "Gribu nopirkt brilles.",
+    "lv": "Ech wéilt gär e Brëll kafen.",
     "level": "Sätze"
   },
   {
     "de": "Können Sie meine Brille reparieren?",
-    "lv": "Vai varat salabot manas brilles?",
+    "lv": "Kënnt Dir mäi Brëll reparéieren?",
     "level": "Sätze"
   },
   {
     "de": "Das dauert nur eine Viertelstunde.",
-    "lv": "Tas ilgs tikai piecpadsmit minūtes.",
+    "lv": "Dat dauert nëmmen eng Véierelstonn.",
     "level": "Sätze"
   },
   {
     "de": "Der Preis ist mir zu hoch.",
-    "lv": "Cena man par augstu.",
+    "lv": "De Präis ass mir ze héich.",
     "level": "Sätze"
   },
   {
     "de": "Ich brauche zwei Fotos für meinen Pass.",
-    "lv": "Man vajag divas fotogrāfijas pasē.",
+    "lv": "Ech brauch zwou Fotoe fir mäi Pass.",
     "level": "Sätze"
   },
   {
     "de": "Bitte packen Sie es ein und schicken Sie es mir nach Hause.",
-    "lv": "Lūdzu, iesaiņojiet un nosūtiet uz mājām.",
+    "lv": "Paakt et wannechgelift an a schéckt mir et heem.",
     "level": "Sätze"
   },
   {
     "de": "Wir haben feste Preise.",
-    "lv": "Mums ir fiksētas cenas.",
+    "lv": "Mir hu fest Präisser.",
     "level": "Sätze"
   },
   {
     "de": "Bitte, fotografieren Sie mich.",
-    "lv": "Lūdzu, nofotografējiet mani.",
+    "lv": "Wannechgelift, fotograféiert mech.",
     "level": "Sätze"
   },
   {
     "de": "Setzen Sie sich, schauen Sie gerade in die Kamera und bewegen Sie sich nicht!",
-    "lv": "Apsēdieties, skatieties taisni kamerā un nekustieties!",
+    "lv": "Setzt Iech, kuckt riicht an d'Kamera a beweegt Iech net!",
     "level": "Sätze"
   },
   {
     "de": "Wann kann ich das Probebild sehen?",
-    "lv": "Kad varu redzēt paraugu?",
+    "lv": "Wéini kann ech e Muster vun der Foto gesinn?",
     "level": "Sätze"
   },
   {
     "de": "Wann sind die Fotos fertig?",
-    "lv": "Kad fotogrāfijas būs gatavas?",
+    "lv": "Wéini sinn d'Fotoe fäerdeg?",
     "level": "Sätze"
   },
   {
     "de": "Die Aufnahme ist gelungen.",
-    "lv": "Foto izdevās.",
+    "lv": "D'Opnam ass gelongen.",
     "level": "Sätze"
   },
   {
     "de": "Die Fotos sind gut geworden.",
-    "lv": "Fotogrāfijas labi izdevušās.",
+    "lv": "D'Fotoe si gutt ginn.",
     "level": "Sätze"
   },
   {
     "de": "Können Sie das Foto auch vergrößern?",
-    "lv": "Vai varat arī palielināt fotogrāfiju?",
+    "lv": "Kënnt Dir d'Foto och vergréisseren?",
     "level": "Sätze"
   },
   {
     "de": "Sind diese Steine echt?",
-    "lv": "Vai šie akmeņi ir īsti?",
+    "lv": "Sinn dës Steng echt?",
     "level": "Sätze"
   },
   {
     "de": "Ist das echtes Gold?",
-    "lv": "Vai tas ir īsts zelts?",
+    "lv": "Ass dat echt Gold?",
     "level": "Sätze"
   },
   {
     "de": "Zeigen Sie mir bitte Trauringe.",
-    "lv": "Parādiet, lūdzu, laulības gredzenus.",
+    "lv": "Weist mir wannechgelift Brautréng.",
     "level": "Sätze"
   },
   {
     "de": "Der Ring ist mir etwas zu weit.",
-    "lv": "Gredzens man ir drusku par lielu.",
+    "lv": "De Rank ass mir e bëssen ze wäit.",
     "level": "Sätze"
   },
   {
     "de": "Ich kann ihn enger machen.",
-    "lv": "Es to varu sašaurināt.",
+    "lv": "Ech kann hie méi enk maachen.",
     "level": "Sätze"
   },
   {
     "de": "Dieser Ring passt mir.",
-    "lv": "Šis gredzens man der.",
+    "lv": "Dëse Rank passt mir.",
     "level": "Sätze"
   },
   {
     "de": "Zeigen Sie mir schöne Geschenkideen.",
-    "lv": "Parādiet skaistas dāvanu idejas.",
+    "lv": "Weist mir schéin Iddie fir Kaddoen.",
     "level": "Sätze"
   },
   {
     "de": "Wie gefallen dir diese Ohrringe?",
-    "lv": "Hoe vinden jullie deze oorbellen?",
+    "lv": "Wéi gefalen dir dës Ouerréng?",
     "level": "Sätze"
   },
   {
     "de": "Diese Brosche ist wirklich schön.",
-    "lv": "Šī sakta ir ļoti skaista.",
+    "lv": "Dës Brosch ass wierklech schéin.",
     "level": "Sätze"
   },
   {
     "de": "Der Stein ist ein Saphir.",
-    "lv": "Šis akmens ir safīrs.",
+    "lv": "De Steen ass e Saphir.",
     "level": "Sätze"
   },
   {
     "de": "Das ist kein echter Stein, das ist Glas.",
-    "lv": "Šis nav īsts akmens, tas ir stikls.",
+    "lv": "Dat ass keen echte Steen, dat ass Glas.",
     "level": "Sätze"
   },
   {
     "de": "Dieses Armband kann ich Ihnen besonders empfehlen.",
-    "lv": "Šo aproci īpaši varu ieteikt.",
+    "lv": "Dëst Aarmband kann ech Iech besonnesch recommandéieren.",
     "level": "Sätze"
   },
   {
     "de": "Es ist besonders schön gearbeitet.",
-    "lv": "Tā ir īpaši smalki izstrādāta.",
+    "lv": "Et ass besonnesch schéi gemaach.",
     "level": "Sätze"
   },
   {
     "de": "Der Preis ist nicht hoch.",
-    "lv": "Cena nav augsta.",
+    "lv": "De Präis ass net héich.",
     "level": "Sätze"
   },
   {
     "de": "Bekomme ich die Schachtel gratis?",
-    "lv": "Vai kastīti dabūju bez maksas?",
+    "lv": "Kréien ech d'Këscht gratis?",
     "level": "Sätze"
   },
   {
     "de": "Alle Schmuckstücke sind gestempelt.",
-    "lv": "Visas rotaslietas ir ar zīmogu.",
+    "lv": "All d'Bijoue si gestempelt.",
     "level": "Sätze"
   },
   {
     "de": "Falls es meiner Frau nicht gefällt, kann ich es umtauschen?",
-    "lv": "Ja manai sievai nepatiks, vai varu apmainīt?",
+    "lv": "Falls et menger Fra net gefält, kann ech et ëmtauschen?",
     "level": "Sätze"
   },
   {
     "de": "Natürlich, jederzeit.",
-    "lv": "Protams, jebkurā laikā.",
+    "lv": "Natierlech, jidderzäit.",
     "level": "Sätze"
   }
 ];
