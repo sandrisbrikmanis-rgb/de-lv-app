@@ -1,32 +1,32 @@
 const SENTENCE_ENTRIES = [
   {
     "de": "Hüte dich davor!",
-    "lv": "Buna dikkat edin!",
+    "lv": "Ondan sakın!",
     "level": "Sätze"
   },
   {
     "de": "Wenn nichts dazwischenkommt.",
-    "lv": "Eğer hiçbir şey seni rahatsız etmiyorsa. • Her şey planlandığı gibi giderse.",
+    "lv": "Bir aksilik olmazsa. • Her şey planlandığı gibi giderse.",
     "level": "Sätze"
   },
   {
     "de": "Das kann ich mir denken!",
-    "lv": "Wiem to!",
+    "lv": "Bunu tahmin edebiliyorum!",
     "level": "Sätze"
   },
   {
     "de": "Ist er denn krank?",
-    "lv": "Czy jest wtedy chory?",
+    "lv": "Yoksa hasta mı?",
     "level": "Sätze"
   },
   {
     "de": "Was denn?",
-    "lv": "Co wtedy?",
+    "lv": "Ne var?",
     "level": "Sätze"
   },
   {
     "de": "Desto mehr.",
-    "lv": "Tym bardziej.",
+    "lv": "Daha da çok.",
     "level": "Sätze"
   },
   {
@@ -36,182 +36,182 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Alles deutet auf Regen.",
-    "lv": "Her şey davaya işaret ediyor.",
+    "lv": "Her şey yağmur yağacağını gösteriyor.",
     "level": "Sätze"
   },
   {
     "de": "Damit ist mir wenig gedient.",
-    "lv": "Dla mnie to nie ma większego sensu.",
+    "lv": "Bunun bana pek faydası yok.",
     "level": "Sätze"
   },
   {
     "de": "Er ist dienstlich verhindert.",
-    "lv": "İş nedeniyle gelemiyor.",
+    "lv": "İşi nedeniyle gelemiyor.",
     "level": "Sätze"
   },
   {
     "de": "Sprechen Sie doch!",
-    "lv": "Konuşun!",
+    "lv": "Konuşsanıza!",
     "level": "Sätze"
   },
   {
     "de": "Es donnert.",
-    "lv": "Ryczy grzmot.",
+    "lv": "Gök gürlüyor.",
     "level": "Sätze"
   },
   {
     "de": "Doppelt so groß.",
-    "lv": "Dwa razy większy.",
+    "lv": "İki kat büyük.",
     "level": "Sätze"
   },
   {
     "de": "Von dort.",
-    "lv": "oradan.",
+    "lv": "Oradan.",
     "level": "Sätze"
   },
   {
     "de": "Die Zeit drängt.",
-    "lv": "Czas ucieka.",
+    "lv": "Vakit daralıyor.",
     "level": "Sätze"
   },
   {
     "de": "Ihn drücken Sorgen.",
-    "lv": "Kaygıdan bunalıyor.",
+    "lv": "Onu dertler bunaltıyor.",
     "level": "Sätze"
   },
   {
     "de": "Hast du das Buch durchgearbeitet?",
-    "lv": "Kitabı iyice incelediniz mi?",
+    "lv": "Kitabı baştan sona çalıştın mı?",
     "level": "Sätze"
   },
   {
     "de": "Kein Durchgang!",
-    "lv": "Geçmeyin! • Çıkış kapalı!",
+    "lv": "Geçiş yoktur!",
     "level": "Sätze"
   },
   {
     "de": "Darf ich Sie bitten?",
-    "lv": "Sana sorabilir miyim?",
+    "lv": "Bu dansı bana lütfeder misiniz? • Bu taraftan buyurur musunuz?",
     "level": "Sätze"
   },
   {
     "de": "Ich bin durstig.",
-    "lv": "Jestem spragniony.",
+    "lv": "Susadım.",
     "level": "Sätze"
   },
   {
     "de": "Eben das meine ich.",
-    "lv": "Demek istediğim bu.",
+    "lv": "Tam da bunu kastediyorum.",
     "level": "Sätze"
   },
   {
     "de": "Es ist ganz egal.",
-    "lv": "Hiç önemli değil.",
+    "lv": "Hiç fark etmez.",
     "level": "Sätze"
   },
   {
     "de": "Was wollen Sie eigentlich?",
-    "lv": "Gerçekten ne istiyorsun?",
+    "lv": "Aslında ne istiyorsunuz?",
     "level": "Sätze"
   },
   {
     "de": "Eilt es mit dieser Sache?",
-    "lv": "Czy ta sprawa jest pilna?",
+    "lv": "Bu iş acil mi?",
     "level": "Sätze"
   },
   {
     "de": "Eilt sehr!",
-    "lv": "Bardzo pilne!",
+    "lv": "Çok acil!",
     "level": "Sätze"
   },
   {
     "de": "Ich habe es eilig.",
-    "lv": "acelem var.",
+    "lv": "Acelem var.",
     "level": "Sätze"
   },
   {
     "de": "Du bildest dir nur ein, krank zu sein.",
-    "lv": "Sadece hasta olduğunuzu hayal edin.",
+    "lv": "Sadece hasta olduğunu sanıyorsun.",
     "level": "Sätze"
   },
   {
     "de": "Was fällt dir ein?",
-    "lv": "Aklınıza ne geliyor?",
+    "lv": "Bu ne cüret? • Aklına ne geliyor?",
     "level": "Sätze"
   },
   {
     "de": "Es war einmal.",
-    "lv": "Eskiden öyleydi.",
+    "lv": "Bir varmış, bir yokmuş.",
     "level": "Sätze"
   },
   {
     "de": "Steigen Sie bitte ein!",
-    "lv": "Girin!",
+    "lv": "Lütfen binin!",
     "level": "Sätze"
   },
   {
     "de": "Treten Sie ein!",
-    "lv": "Girin!",
+    "lv": "Buyurun, girin!",
     "level": "Sätze"
   },
   {
     "de": "Einzelnes hat mir dort gefallen.",
-    "lv": "Orada birkaç şeyi beğendim.",
+    "lv": "Orada bazı şeyleri beğendim.",
     "level": "Sätze"
   },
   {
     "de": "Es empfiehlt sich.",
-    "lv": "Jest to zalecane.",
+    "lv": "Tavsiye edilir.",
     "level": "Sätze"
   },
   {
     "de": "Diese Flasche enthält Essig.",
-    "lv": "Ta butelka zawiera ocet.",
+    "lv": "Bu şişede sirke var.",
     "level": "Sätze"
   },
   {
     "de": "Entschuldigen Sie bitte!",
-    "lv": "Özür dilerim, lütfen!",
+    "lv": "Affedersiniz!",
     "level": "Sätze"
   },
   {
     "de": "Entweder... oder...",
-    "lv": "Albo... albo...",
+    "lv": "Ya... ya da...",
     "level": "Sätze"
   },
   {
     "de": "Wer war der Erste?",
-    "lv": "İlk kim oldu?",
+    "lv": "Birinci kimdi?",
     "level": "Sätze"
   },
   {
     "de": "Wer fehlt heute?",
-    "lv": "Kto dzisiaj nie przyszedł?",
+    "lv": "Bugün kim yok?",
     "level": "Sätze"
   },
   {
     "de": "Was fehlt dir?",
-    "lv": "Senin derdin ne?",
+    "lv": "Neyin var?",
     "level": "Sätze"
   },
   {
     "de": "Wie heißen Sie?",
-    "lv": "Adınız ne?",
+    "lv": "Adınız nedir?",
     "level": "Sätze"
   },
   {
     "de": "Was soll das heißen?",
-    "lv": "Co to oznacza?",
+    "lv": "Bu ne demek oluyor?",
     "level": "Sätze"
   },
   {
     "de": "Bitte treten Sie näher heran!",
-    "lv": "Lütfen yaklaşın!",
+    "lv": "Lütfen daha yakına gelin!",
     "level": "Sätze"
   },
   {
     "de": "Heraus mit der Sprache!",
-    "lv": "Konuşmak için! • Hikayeler!",
+    "lv": "Çıkar ağzındaki baklayı!",
     "level": "Sätze"
   },
   {
@@ -221,27 +221,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Meine Herrschaften!",
-    "lv": "Panie i panowie!",
+    "lv": "Bayanlar baylar!",
     "level": "Sätze"
   },
   {
     "de": "von heute an",
-    "lv": "Bugün başlıyor",
+    "lv": "bugünden itibaren",
     "level": "Sätze"
   },
   {
     "de": "heute früh",
-    "lv": "Bu sabah",
+    "lv": "bu sabah",
     "level": "Sätze"
   },
   {
     "de": "heute Nacht",
-    "lv": "Dün gece",
+    "lv": "bu gece • dün gece",
     "level": "Sätze"
   },
   {
     "de": "Zu Hilfe!",
-    "lv": "Pomoc!",
+    "lv": "İmdat!",
     "level": "Sätze"
   },
   {
@@ -251,12 +251,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Kannst du das bitte wiederholen?",
-    "lv": "Bunu tekrarlayabilir misin?",
+    "lv": "Lütfen bunu tekrarlar mısın?",
     "level": "Sätze"
   },
   {
     "de": "Wir treffen uns am Bahnhof.",
-    "lv": "Spotykamy się na stacji kolejowej.",
+    "lv": "Garda buluşuyoruz.",
     "level": "Sätze"
   },
   {
@@ -271,22 +271,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Man sollte mehrere Perspektiven berücksichtigen.",
-    "lv": "Należy rozważyć kilka perspektyw.",
+    "lv": "Birden fazla bakış açısı göz önünde bulundurulmalı.",
     "level": "Sätze"
   },
   {
     "de": "Könnten Sie das näher erläutern?",
-    "lv": "Bunu daha detaylı açıklayabilir misiniz?",
+    "lv": "Bunu daha ayrıntılı açıklayabilir misiniz?",
     "level": "Sätze"
   },
   {
     "de": "Was mich anbelangt,...",
-    "lv": "Bana gelince...",
+    "lv": "Bana gelince,...",
     "level": "Sätze"
   },
   {
     "de": "Wie alt sind Sie?",
-    "lv": "Ile masz lat?",
+    "lv": "Kaç yaşındasınız?",
     "level": "Sätze"
   },
   {
@@ -296,22 +296,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Von heute an.",
-    "lv": "Od dzisiaj.",
+    "lv": "Bugünden itibaren.",
     "level": "Sätze"
   },
   {
     "de": "Von jetzt an.",
-    "lv": "Odtąd.",
+    "lv": "Şu andan itibaren.",
     "level": "Sätze"
   },
   {
     "de": "Anders geht es nicht.",
-    "lv": "Nie ma innego sposobu.",
+    "lv": "Başka türlü olmuyor.",
     "level": "Sätze"
   },
   {
     "de": "Rufen Sie mich an.",
-    "lv": "Ara beni.",
+    "lv": "Beni arayın.",
     "level": "Sätze"
   },
   {
@@ -321,42 +321,42 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Achte bitte auf den Verkehr.",
-    "lv": "Lütfen trafiğe dikkat edelim.",
+    "lv": "Lütfen trafiğe dikkat et.",
     "level": "Sätze"
   },
   {
     "de": "Darauf musst du achten.",
-    "lv": "Buna dikkat etmelisiniz.",
+    "lv": "Buna dikkat etmelisin.",
     "level": "Sätze"
   },
   {
     "de": "Heute mache ich es anders.",
-    "lv": "Dziś zrobię to inaczej.",
+    "lv": "Bugün bunu farklı yapıyorum.",
     "level": "Sätze"
   },
   {
     "de": "Wir warten auf den Bus.",
-    "lv": "Czekamy na autobus.",
+    "lv": "Otobüsü bekliyoruz.",
     "level": "Sätze"
   },
   {
     "de": "Er wohnt allein.",
-    "lv": "Mieszka sam.",
+    "lv": "Yalnız yaşıyor.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe die Ausbildung absolviert.",
-    "lv": "Eğitimimi tamamladım. • Eğitimimi tamamladım.",
+    "lv": "Mesleki eğitimimi tamamladım. • Öğrenimimi tamamladım.",
     "level": "Sätze"
   },
   {
     "de": "Ich warte den Regen ab.",
-    "lv": "Yağmur durana kadar bekleyeceğim.",
+    "lv": "Yağmurun dinmesini bekliyorum.",
     "level": "Sätze"
   },
   {
     "de": "Er arbeitet in der Verkaufsabteilung.",
-    "lv": "Satış departmanında çalışıyor.",
+    "lv": "Satış bölümünde çalışıyor.",
     "level": "Sätze"
   },
   {
@@ -366,7 +366,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Andererseits verstehe ich ihn.",
-    "lv": "Z drugiej strony rozumiem go.",
+    "lv": "Öte yandan onu anlıyorum.",
     "level": "Sätze"
   },
   {
@@ -376,12 +376,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Sie hat meinen Vorschlag akzeptiert.",
-    "lv": "Teklifimi kabul etti.",
+    "lv": "Önerimi kabul etti.",
     "level": "Sätze"
   },
   {
     "de": "Ich möchte das genauer analysieren.",
-    "lv": "Bunu daha detaylı analiz etmek istiyorum.",
+    "lv": "Bunu daha ayrıntılı analiz etmek istiyorum.",
     "level": "Sätze"
   },
   {
@@ -391,12 +391,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Er ändert ständig seine Meinung.",
-    "lv": "Fikrini değiştirmeye devam ediyor.",
+    "lv": "Sürekli fikir değiştiriyor.",
     "level": "Sätze"
   },
   {
     "de": "Ähnliche Probleme hatten wir schon früher.",
-    "lv": "Daha önce de benzer sorunlar yaşadık.",
+    "lv": "Benzer sorunları daha önce de yaşamıştık.",
     "level": "Sätze"
   },
   {
@@ -406,27 +406,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Hör auf zu jammern.",
-    "lv": "Şikayet etmeyi bırak.",
+    "lv": "Sızlanmayı bırak.",
     "level": "Sätze"
   },
   {
     "de": "Dieses Kleid ist akademisch gekleidet.",
-    "lv": "Ta sukienka jest stylowo konserwatywna.",
+    "lv": "Bu elbise şık ve klasik.",
     "level": "Sätze"
   },
   {
     "de": "Ich höre gerne Akkordeonmusik.",
-    "lv": "Akordeon müziği dinlemeyi seviyorum.",
+    "lv": "Akordiyon müziği dinlemeyi severim.",
     "level": "Sätze"
   },
   {
     "de": "Kannst du das Gerät anklicken?",
-    "lv": "Cihaza tıklayabilir misiniz?",
+    "lv": "Cihaza tıklayabilir misin?",
     "level": "Sätze"
   },
   {
     "de": "Bitte öffne die Datei und klicke darauf.",
-    "lv": "Lütfen dosyayı açın ve üzerine tıklayın.",
+    "lv": "Lütfen dosyayı aç ve üzerine tıkla.",
     "level": "Sätze"
   },
   {
@@ -436,12 +436,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wir laufen zum Bahnhof.",
-    "lv": "İstasyona gidiyoruz.",
+    "lv": "Gara yürüyoruz.",
     "level": "Sätze"
   },
   {
     "de": "Bitte schalte den Fernseher an.",
-    "lv": "Lütfen televizyonu açın.",
+    "lv": "Lütfen televizyonu aç.",
     "level": "Sätze"
   },
   {
@@ -451,7 +451,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Am Wochenende gehe ich angeln.",
-    "lv": "Bu hafta sonu balığa gideceğim.",
+    "lv": "Hafta sonu balık tutmaya gidiyorum.",
     "level": "Sätze"
   },
   {
@@ -466,12 +466,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bitte nimm meinen Vorschlag an.",
-    "lv": "Lütfen teklifimi kabul edin.",
+    "lv": "Lütfen önerimi kabul et.",
     "level": "Sätze"
   },
   {
     "de": "Ich nehme dein Angebot an.",
-    "lv": "Przyjmuję twoją ofertę.",
+    "lv": "Teklifini kabul ediyorum.",
     "level": "Sätze"
   },
   {
@@ -481,27 +481,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich habe Angst vor Spinnen.",
-    "lv": "Örümceklerden korkuyorum.",
+    "lv": "Örümceklerden korkarım.",
     "level": "Sätze"
   },
   {
     "de": "Keine Angst, alles wird gut.",
-    "lv": "Korkmayın, her şey yoluna girecek.",
+    "lv": "Korkma, her şey yoluna girecek.",
     "level": "Sätze"
   },
   {
     "de": "Anklang finden.",
-    "lv": "Yankıyı bulun. • Duyarlılığı bulun",
+    "lv": "Beğeni kazanmak. • Yankı uyandırmak.",
     "level": "Sätze"
   },
   {
     "de": "Es kommt darauf an.",
-    "lv": "Duruma göre değişir.",
+    "lv": "Duruma bağlı.",
     "level": "Sätze"
   },
   {
     "de": "Aus diesem Anlass.",
-    "lv": "Z powodu tego czasu. • W tym zakresie",
+    "lv": "Bu vesileyle.",
     "level": "Sätze"
   },
   {
@@ -511,7 +511,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Was hast du da angerichtet?",
-    "lv": "Orada ne yaptın?",
+    "lv": "Sen orada ne yaptın böyle?",
     "level": "Sätze"
   },
   {
@@ -521,142 +521,142 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Du glaubst mir anscheinend nicht.",
-    "lv": "Görünüşe göre bana inanmıyorsun.",
+    "lv": "Bana inanmıyor gibisin.",
     "level": "Sätze"
   },
   {
     "de": "Meiner Ansicht nach...",
-    "lv": "Moim zdaniem...",
+    "lv": "Bana göre...",
     "level": "Sätze"
   },
   {
     "de": "Stell dich nicht so an!",
-    "lv": "Nie udawaj!",
+    "lv": "Bu kadar abartma!",
     "level": "Sätze"
   },
   {
     "de": "An die Arbeit gehen.",
-    "lv": "İşe koyulun.",
+    "lv": "İşe koyulmak.",
     "level": "Sätze"
   },
   {
     "de": "Außer Atem sein.",
-    "lv": "Nefes nefese.",
+    "lv": "Nefes nefese olmak.",
     "level": "Sätze"
   },
   {
     "de": "Guten Appetit!",
-    "lv": "İyi iştah!",
+    "lv": "Afiyet olsun!",
     "level": "Sätze"
   },
   {
     "de": "In einem Atemzug.",
-    "lv": "Jednym tchem.",
+    "lv": "Bir solukta.",
     "level": "Sätze"
   },
   {
     "de": "Auf jeden Fall.",
-    "lv": "Her halükârda.",
+    "lv": "Her durumda. • Mutlaka.",
     "level": "Sätze"
   },
   {
     "de": "Auf einmal war alles still.",
-    "lv": "Nagle wszystko ucichło.",
+    "lv": "Birden her şey sessizleşti.",
     "level": "Sätze"
   },
   {
     "de": "Bitte mach die Tür auf!",
-    "lv": "Lütfen kapıyı açın!",
+    "lv": "Lütfen kapıyı aç!",
     "level": "Sätze"
   },
   {
     "de": "Er hat den Kredit aufgenommen.",
-    "lv": "Kredi çekti.",
+    "lv": "Krediyi aldı.",
     "level": "Sätze"
   },
   {
     "de": "Wir müssen heute aufräumen.",
-    "lv": "Bugün odayı temizlememiz gerekiyor.",
+    "lv": "Bugün ortalığı toplamalıyız.",
     "level": "Sätze"
   },
   {
     "de": "Ich höre jetzt auf.",
-    "lv": "Şimdi duracağım.",
+    "lv": "Şimdi bırakıyorum.",
     "level": "Sätze"
   },
   {
     "de": "Er ist schon auf.",
-    "lv": "O zaten kalktı.",
+    "lv": "Çoktan kalktı.",
     "level": "Sätze"
   },
   {
     "de": "Wir müssen das Treffen verschieben.",
-    "lv": "Yeniden planlamamız gerekiyor.",
+    "lv": "Toplantıyı ertelememiz gerekiyor.",
     "level": "Sätze"
   },
   {
     "de": "Sie hat mich aufgeregt.",
-    "lv": "Zdenerwowała mnie.",
+    "lv": "Beni sinirlendirdi.",
     "level": "Sätze"
   },
   {
     "de": "Auf einmal.",
-    "lv": "Nagle.",
+    "lv": "Birdenbire.",
     "level": "Sätze"
   },
   {
     "de": "Auf der Stelle.",
-    "lv": "Natychmiast.",
+    "lv": "Derhâl.",
     "level": "Sätze"
   },
   {
     "de": "Für den Schaden aufkommen.",
-    "lv": "Pokryj szkody.",
+    "lv": "Zararı karşılamak.",
     "level": "Sätze"
   },
   {
     "de": "Bitte die Tür auf!",
-    "lv": "Kapıyı açın lütfen!",
+    "lv": "Lütfen kapıyı açın!",
     "level": "Sätze"
   },
   {
     "de": "Aufrecht sitzen.",
-    "lv": "Usiądź prosto.",
+    "lv": "Dik oturmak.",
     "level": "Sätze"
   },
   {
     "de": "Er ist auf.",
-    "lv": "Ayağa kalktı.",
+    "lv": "Kalktı.",
     "level": "Sätze"
   },
   {
     "de": "Alle Kräfte aufwenden.",
-    "lv": "Tüm gücünüzü feda edin.",
+    "lv": "Bütün gücünü harcamak.",
     "level": "Sätze"
   },
   {
     "de": "Viel Mühe aufwenden.",
-    "lv": "Çok dene.",
+    "lv": "Çok emek vermek.",
     "level": "Sätze"
   },
   {
     "de": "Geh mir aus den Augen!",
-    "lv": "Nie patrz już na mnie!",
+    "lv": "Gözümün önünden çekil!",
     "level": "Sätze"
   },
   {
     "de": "Unter vier Augen.",
-    "lv": "W dwóch. • Cicho",
+    "lv": "Baş başa.",
     "level": "Sätze"
   },
   {
     "de": "Aus Mangel an Zeit.",
-    "lv": "Z powodu braku czasu.",
+    "lv": "Zaman darlığından.",
     "level": "Sätze"
   },
   {
     "de": "Aus diesem Grunde.",
-    "lv": "Z tego powodu.",
+    "lv": "Bu nedenle.",
     "level": "Sätze"
   },
   {
@@ -666,12 +666,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Auf Äußerlichkeiten Wert legen.",
-    "lv": "Görünüme dikkat edin.",
+    "lv": "Dış görünüşe önem vermek.",
     "level": "Sätze"
   },
   {
     "de": "Im äußersten Fall.",
-    "lv": "W najgorszym przypadku.",
+    "lv": "En kötü ihtimalle.",
     "level": "Sätze"
   },
   {
@@ -681,97 +681,97 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Aussicht auf die See.",
-    "lv": "Widok na morze.",
+    "lv": "Deniz manzarası.",
     "level": "Sätze"
   },
   {
     "de": "Er hat gute Aussichten.",
-    "lv": "İyi bir şansı var.",
+    "lv": "Şansı yüksek.",
     "level": "Sätze"
   },
   {
     "de": "Wie wird dieses Wort ausgesprochen?",
-    "lv": "Bu kelimeyi nasıl telaffuz edersiniz?",
+    "lv": "Bu kelime nasıl telaffuz edilir?",
     "level": "Sätze"
   },
   {
     "de": "Sein Beileid aussprechen.",
-    "lv": "Başsağlığı dileklerinizi iletin.",
+    "lv": "Başsağlığı dilemek.",
     "level": "Sätze"
   },
   {
     "de": "Wann wurden die Meisterschaftskämpfe ausgetragen?",
-    "lv": "Şampiyona ne zamandı?",
+    "lv": "Şampiyonalar ne zaman düzenlendi?",
     "level": "Sätze"
   },
   {
     "de": "Welchen Beruf üben Sie aus?",
-    "lv": "Mesleğiniz nedir?",
+    "lv": "Ne iş yapıyorsunuz?",
     "level": "Sätze"
   },
   {
     "de": "Einfluss ausüben.",
-    "lv": "Etkilemek.",
+    "lv": "Etkide bulunmak.",
     "level": "Sätze"
   },
   {
     "de": "Auswärts essen.",
-    "lv": "Zjedz poza domem.",
+    "lv": "Dışarıda yemek yemek.",
     "level": "Sätze"
   },
   {
     "de": "Per Bahn.",
-    "lv": "Demiryolu ile.",
+    "lv": "Demir yoluyla.",
     "level": "Sätze"
   },
   {
     "de": "Mit der Bahn.",
-    "lv": "Demiryolu ile.",
+    "lv": "Trenle.",
     "level": "Sätze"
   },
   {
     "de": "Möglichst bald.",
-    "lv": "Jak najszybciej.",
+    "lv": "En kısa zamanda.",
     "level": "Sätze"
   },
   {
     "de": "Mir ist Angst und bange.",
-    "lv": "Bardzo się boję.",
+    "lv": "Ödüm kopuyor.",
     "level": "Sätze"
   },
   {
     "de": "Auf die lange Bank schieben.",
-    "lv": "Ertele. • Uzunluğa sürükleyin • Süresiz olarak erteleyin",
+    "lv": "Ağırdan almak.",
     "level": "Sätze"
   },
   {
     "de": "Bar zahlen.",
-    "lv": "Nakit ödeme yapın.",
+    "lv": "Nakit ödemek.",
     "level": "Sätze"
   },
   {
     "de": "Erz bauen.",
-    "lv": "Cevheri alın.",
+    "lv": "Cevher çıkarmak.",
     "level": "Sätze"
   },
   {
     "de": "Mist bauen.",
-    "lv": "Film çekmek. • Kendini aptal durumuna düşürme",
+    "lv": "İşi yüzüne gözüne bulaştırmak.",
     "level": "Sätze"
   },
   {
     "de": "Ich bin beauftragt.",
-    "lv": "Bana bir görev verildi.",
+    "lv": "Görevlendirildim.",
     "level": "Sätze"
   },
   {
     "de": "Nach Bedarf.",
-    "lv": "W razie potrzeby.",
+    "lv": "İhtiyaca göre.",
     "level": "Sätze"
   },
   {
     "de": "Ich bedauere ihn.",
-    "lv": "Żal mi go.",
+    "lv": "Ona acıyorum.",
     "level": "Sätze"
   },
   {
@@ -781,32 +781,32 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Unter der Bedingung, dass...",
-    "lv": "Şartıyla...",
+    "lv": "Şu şartla ki...",
     "level": "Sätze"
   },
   {
     "de": "Sie sieht bedrückt aus.",
-    "lv": "Depresyonda görünüyor.",
+    "lv": "Morali bozuk görünüyor.",
     "level": "Sätze"
   },
   {
     "de": "Hinweise befolgen.",
-    "lv": "Talimatları izleyin.",
+    "lv": "Talimatlara uymak.",
     "level": "Sätze"
   },
   {
     "de": "Befehle befolgen.",
-    "lv": "Wykonuj polecenia.",
+    "lv": "Emirleri yerine getirmek.",
     "level": "Sätze"
   },
   {
     "de": "Mit der Post befördern.",
-    "lv": "Postayla gönder.",
+    "lv": "Postayla göndermek.",
     "level": "Sätze"
   },
   {
     "de": "Ich bin begierig zu wissen.",
-    "lv": "Naprawdę chcę wiedzieć.",
+    "lv": "Öğrenmek için sabırsızlanıyorum.",
     "level": "Sätze"
   },
   {
@@ -816,77 +816,77 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Am Beginn.",
-    "lv": "Başlangıçta.",
+    "lv": "Başta.",
     "level": "Sätze"
   },
   {
     "de": "Bei Beginn.",
-    "lv": "Startowy",
+    "lv": "Başlarken.",
     "level": "Sätze"
   },
   {
     "de": "In Begleitung.",
-    "lv": "Towarzyszy.",
+    "lv": "Birinin eşliğinde.",
     "level": "Sätze"
   },
   {
     "de": "Mit seiner Begleitung.",
-    "lv": "Z akompaniamentem.",
+    "lv": "Eşlikçisiyle.",
     "level": "Sätze"
   },
   {
     "de": "Er ist schwer von Begriff.",
-    "lv": "Algılamada yavaştır. • Yavaş düşünüyor",
+    "lv": "Geç anlar.",
     "level": "Sätze"
   },
   {
     "de": "Im Gedächtnis behalten.",
-    "lv": "Hatırlamak. • Aklınızda bulundurun",
+    "lv": "Akılda tutmak.",
     "level": "Sätze"
   },
   {
     "de": "Bei Tisch.",
-    "lv": "Przy stole.",
+    "lv": "Sofrada.",
     "level": "Sätze"
   },
   {
     "de": "Bei Sinnen sein.",
-    "lv": "Makul ol.",
+    "lv": "Aklı başında olmak.",
     "level": "Sätze"
   },
   {
     "de": "Bei Tage.",
-    "lv": "Gün boyunca.",
+    "lv": "Gündüz.",
     "level": "Sätze"
   },
   {
     "de": "Bei weitem nicht so.",
-    "lv": "Hiç de bile.",
+    "lv": "Hiç de o kadar değil.",
     "level": "Sätze"
   },
   {
     "de": "Alle beide.",
-    "lv": "Obydwa dwa.",
+    "lv": "İkisi de.",
     "level": "Sätze"
   },
   {
     "de": "Stürmischer Beifall brach los.",
-    "lv": "Şiddetli alkışlar vardı.",
+    "lv": "Bir alkış tufanı koptu.",
     "level": "Sätze"
   },
   {
     "de": "Beifall finden.",
-    "lv": "Uzyskaj zgodę.",
+    "lv": "Beğeni toplamak.",
     "level": "Sätze"
   },
   {
     "de": "Beileid aussprechen.",
-    "lv": "Başsağlığı dileklerinizi iletin.",
+    "lv": "Taziyelerini sunmak.",
     "level": "Sätze"
   },
   {
     "de": "Auf eigenen Beinen stehen.",
-    "lv": "Mali açıdan bağımsız olun.",
+    "lv": "Kendi ayakları üzerinde durmak.",
     "level": "Sätze"
   },
   {
@@ -896,207 +896,207 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Beistand leisten.",
-    "lv": "Yardım etmek için. • Yardım sağlayın",
+    "lv": "Yardımda bulunmak.",
     "level": "Sätze"
   },
   {
     "de": "Beitrag leisten.",
-    "lv": "Payınıza yatırım yapın.",
+    "lv": "Katkıda bulunmak.",
     "level": "Sätze"
   },
   {
     "de": "Jemandes Bekanntschaft machen.",
-    "lv": "Birisiyle tanışın.",
+    "lv": "Biriyle tanışmak.",
     "level": "Sätze"
   },
   {
     "de": "Bekanntschaft anknüpfen.",
-    "lv": "Poznajcie się. • Nawiąż kontakt",
+    "lv": "Tanışıklık kurmak.",
     "level": "Sätze"
   },
   {
     "de": "Belegte Brötchen.",
-    "lv": "Kanapki z dodatkami.",
+    "lv": "Sandviçler.",
     "level": "Sätze"
   },
   {
     "de": "Nach Ihrem Belieben.",
-    "lv": "Jak chcesz.",
+    "lv": "Nasıl isterseniz.",
     "level": "Sätze"
   },
   {
     "de": "Zu jeder beliebigen Zeit.",
-    "lv": "Kiedykolwiek.",
+    "lv": "Herhangi bir zamanda.",
     "level": "Sätze"
   },
   {
     "de": "Schweigen beobachten.",
-    "lv": "Sessiz kalmak için.",
+    "lv": "Sessizliği korumak.",
     "level": "Sätze"
   },
   {
     "de": "Zur Bequemlichkeit.",
-    "lv": "Dla wygody.",
+    "lv": "Kolaylık olsun diye.",
     "level": "Sätze"
   },
   {
     "de": "Bereit sein.",
-    "lv": "Hazır olun. • Sakin olun",
+    "lv": "Hazır olmak. • Razı olmak.",
     "level": "Sätze"
   },
   {
     "de": "Unfallopfer bergen.",
-    "lv": "Ratuj ofiary w razie wypadku.",
+    "lv": "Kaza kurbanlarını kurtarmak.",
     "level": "Sätze"
   },
   {
     "de": "Bericht erstatten.",
-    "lv": "Rapor. • Bir rapor sunun • Bir genel bakış sunun",
+    "lv": "Rapor vermek.",
     "level": "Sätze"
   },
   {
     "de": "Alle Plätze sind besetzt.",
-    "lv": "Tüm koltuklar dolu.",
+    "lv": "Bütün yerler dolu.",
     "level": "Sätze"
   },
   {
     "de": "Neue Besen kehren gut.",
-    "lv": "Yeni süpürge iyi süpürüyor.",
+    "lv": "Yeni süpürge iyi süpürür.",
     "level": "Sätze"
   },
   {
     "de": "Er besitzt ein Haus.",
-    "lv": "Evin sahibi.",
+    "lv": "Bir evi var.",
     "level": "Sätze"
   },
   {
     "de": "Er besitzt viel Mut.",
-    "lv": "Büyük bir cesareti var.",
+    "lv": "Çok cesur.",
     "level": "Sätze"
   },
   {
     "de": "Desto besser.",
-    "lv": "Im lepiej.",
+    "lv": "Daha da iyi.",
     "level": "Sätze"
   },
   {
     "de": "Gute Besserung!",
-    "lv": "İyileşmek! • İyileşmek!",
+    "lv": "Geçmiş olsun!",
     "level": "Sätze"
   },
   {
     "de": "Beim besten Willen.",
-    "lv": "Cokolwiek chcesz.",
+    "lv": "Ne kadar istesem de.",
     "level": "Sätze"
   },
   {
     "de": "Am besten.",
-    "lv": "Najlepsze.",
+    "lv": "En iyisi.",
     "level": "Sätze"
   },
   {
     "de": "Es besteht Zweifel.",
-    "lv": "Şüpheler var.",
+    "lv": "Şüphe var.",
     "level": "Sätze"
   },
   {
     "de": "Seine Aufgabe besteht darin...",
-    "lv": "Jego zadaniem jest...",
+    "lv": "Onun görevi şudur...",
     "level": "Sätze"
   },
   {
     "de": "Grüße bestellen.",
-    "lv": "Merhaba de.",
+    "lv": "Selam söylemek.",
     "level": "Sätze"
   },
   {
     "de": "Ganz bestimmt.",
-    "lv": "Kesinlikle. • Tamamen güvenli",
+    "lv": "Kesinlikle.",
     "level": "Sätze"
   },
   {
     "de": "Zu Besuch kommen.",
-    "lv": "Ziyarete gelin.",
+    "lv": "Ziyarete gelmek.",
     "level": "Sätze"
   },
   {
     "de": "Zu Besuch sein.",
-    "lv": "Ziyaret etmek. • Ziyaret etmek",
+    "lv": "Misafirlikte olmak.",
     "level": "Sätze"
   },
   {
     "de": "Oft Konzerte besuchen.",
-    "lv": "Sık sık konserlere giderler.",
+    "lv": "Sık sık konsere gitmek.",
     "level": "Sätze"
   },
   {
     "de": "Welche Schule hat er besucht?",
-    "lv": "Hangi okula gitti?",
+    "lv": "Hangi okulda okudu?",
     "level": "Sätze"
   },
   {
     "de": "In Betracht ziehen.",
-    "lv": "Dikkate alın. • Göz önünde bulundurulması",
+    "lv": "Göz önünde bulundurmak.",
     "level": "Sätze"
   },
   {
     "de": "Außer Betracht lassen.",
-    "lv": "Dikkate almayın. • Tereddüt etmeyin",
+    "lv": "Hesaba katmamak.",
     "level": "Sätze"
   },
   {
     "de": "Er betreibt ein Hotel.",
-    "lv": "Prowadzi hotel.",
+    "lv": "Bir otel işletiyor.",
     "level": "Sätze"
   },
   {
     "de": "Alle beiden.",
-    "lv": "Obydwa dwa.",
+    "lv": "İkisi de.",
     "level": "Sätze"
   },
   {
     "de": "Alles bezahlen.",
-    "lv": "Her şeyi öde.",
+    "lv": "Her şeyi ödemek.",
     "level": "Sätze"
   },
   {
     "de": "Bezüglich auf etwas.",
-    "lv": "Eğer bir şeye gelirse.",
+    "lv": "Bir şeyle ilgili olarak.",
     "level": "Sätze"
   },
   {
     "de": "Bitte schön.",
-    "lv": "Lütfen",
+    "lv": "Rica ederim. • Buyurun.",
     "level": "Sätze"
   },
   {
     "de": "Wie bitte?",
-    "lv": "lütfen",
+    "lv": "Efendim?",
     "level": "Sätze"
   },
   {
     "de": "Bitte sehr.",
-    "lv": "Lütfen",
+    "lv": "Bir şey değil. • Buyurun.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe eine Bitte an Sie.",
-    "lv": "Senden bir isteğim var.",
+    "lv": "Sizden bir ricam var.",
     "level": "Sätze"
   },
   {
     "de": "Trompete blasen.",
-    "lv": "Trompet çal.",
+    "lv": "Trompet çalmak.",
     "level": "Sätze"
   },
   {
     "de": "In einem Buch blättern.",
-    "lv": "Kitabı sırala.",
+    "lv": "Bir kitabı karıştırmak.",
     "level": "Sätze"
   },
   {
     "de": "Mit bloßen Füßen.",
-    "lv": "Bose stopy.",
+    "lv": "Yalın ayak.",
     "level": "Sätze"
   },
   {
@@ -1106,67 +1106,67 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Danke für die Blumen!",
-    "lv": "Çiçekler için teşekkür ederim!",
+    "lv": "İltifat için teşekkürler!",
     "level": "Sätze"
   },
   {
     "de": "Alles in Butter.",
-    "lv": "Her şey yolunda mı?",
+    "lv": "Her şey yolunda.",
     "level": "Sätze"
   },
   {
     "de": "Bitte checken.",
-    "lv": "Kontrol etmek. • Kontrol etmek",
+    "lv": "Lütfen kontrol ediniz.",
     "level": "Sätze"
   },
   {
     "de": "Da ist er!",
-    "lv": "Oto on!",
+    "lv": "İşte orada!",
     "level": "Sätze"
   },
   {
     "de": "Alles spricht dafür.",
-    "lv": "Her şey iyi diyor.",
+    "lv": "Her şey bunu gösteriyor.",
     "level": "Sätze"
   },
   {
     "de": "Ich kann nichts dafür.",
-    "lv": "Orada hiçbir şey yapamam.",
+    "lv": "Benim suçum değil.",
     "level": "Sätze"
   },
   {
     "de": "Ich bin dagegen.",
-    "lv": "Jestem temu przeciwny.",
+    "lv": "Buna karşıyım.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe nichts dagegen.",
-    "lv": "Nie mam co do tego żadnych zastrzeżeń.",
+    "lv": "Bir itirazım yok.",
     "level": "Sätze"
   },
   {
     "de": "Von daheim.",
-    "lv": "Z domu.",
+    "lv": "Evden.",
     "level": "Sätze"
   },
   {
     "de": "Mit der Dame ziehen.",
-    "lv": "Wykonaj damski ruch.",
+    "lv": "Vezirle hamle yapmak.",
     "level": "Sätze"
   },
   {
     "de": "Es dämmert.",
-    "lv": "Hava kararıyor. • Şafak söküyor.",
+    "lv": "Hava kararıyor. • Gün ağarıyor.",
     "level": "Sätze"
   },
   {
     "de": "Danke schön!",
-    "lv": "Teşekkür ederim! • Teşekkür ederim!",
+    "lv": "Çok teşekkür ederim!",
     "level": "Sätze"
   },
   {
     "de": "Dann und wann.",
-    "lv": "Od czasu do czasu.",
+    "lv": "Ara sıra.",
     "level": "Sätze"
   },
   {
@@ -1176,92 +1176,92 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Daraus wird nichts.",
-    "lv": "Bundan hiçbir şey çıkmayacak.",
+    "lv": "Bundan bir şey çıkmaz.",
     "level": "Sätze"
   },
   {
     "de": "So dass...",
-    "lv": "Aby...",
+    "lv": "Öyle ki...",
     "level": "Sätze"
   },
   {
     "de": "Für wen halten Sie mich?",
-    "lv": "Jak myślisz, czym jestem?",
+    "lv": "Beni kim sanıyorsunuz?",
     "level": "Sätze"
   },
   {
     "de": "Hände weg!",
-    "lv": "Ellerinizi çekin!",
+    "lv": "Elini çek!",
     "level": "Sätze"
   },
   {
     "de": "Lass den Kopf nicht hängen!",
-    "lv": "Başını aşağıda tut!",
+    "lv": "Moralini bozma!",
     "level": "Sätze"
   },
   {
     "de": "zu Hause",
-    "lv": "Evde",
+    "lv": "evde",
     "level": "Sätze"
   },
   {
     "de": "nach Hause gehen",
-    "lv": "Eve git",
+    "lv": "eve gitmek",
     "level": "Sätze"
   },
   {
     "de": "von Haus aus",
-    "lv": "Çocukluktan itibaren • En başından beri",
+    "lv": "aslen • doğuştan",
     "level": "Sätze"
   },
   {
     "de": "Meinen herzlichsten Glückwunsch!",
-    "lv": "Gratulacje!",
+    "lv": "En içten tebriklerimi sunarım!",
     "level": "Sätze"
   },
   {
     "de": "Seien Sie so gut!",
-    "lv": "Çok nazik ol! • Çok iyi ol!",
+    "lv": "Zahmet olmazsa!",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie die Güte!",
-    "lv": "Çok nazik ol!",
+    "lv": "Lütfedin!",
     "level": "Sätze"
   },
   {
     "de": "Was hast du?",
-    "lv": "Senin derdin ne? • Ne oldu?",
+    "lv": "Neyin var?",
     "level": "Sätze"
   },
   {
     "de": "Gestatten Sie bitte!",
-    "lv": "İzin ver lütfen!",
+    "lv": "İzin verin lütfen!",
     "level": "Sätze"
   },
   {
     "de": "Ist es gestattet zu rauchen?",
-    "lv": "Sigara içebilir miyim?",
+    "lv": "Sigara içmeye izin var mı?",
     "level": "Sätze"
   },
   {
     "de": "Ich muss gestehen, dass...",
-    "lv": "Şunu itiraf etmeliyim ki...",
+    "lv": "İtiraf etmeliyim ki...",
     "level": "Sätze"
   },
   {
     "de": "gestern früh",
-    "lv": "Wczoraj rano",
+    "lv": "dün sabah",
     "level": "Sätze"
   },
   {
     "de": "gestern Abend",
-    "lv": "Dün gece",
+    "lv": "dün akşam",
     "level": "Sätze"
   },
   {
     "de": "Es ist mir gleichgültig, ob...",
-    "lv": "Nie obchodzi mnie, czy...",
+    "lv": "Benim için fark etmez, ister...",
     "level": "Sätze"
   },
   {
@@ -1271,97 +1271,97 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Mach keine Geschichten!",
-    "lv": "Aptal olma! • Şaka yapmayın!",
+    "lv": "Saçmalık yapma!",
     "level": "Sätze"
   },
   {
     "de": "Geschweige denn...",
-    "lv": "Bahsetmiyorum bile. • Başka yerde",
+    "lv": "... şöyle dursun...",
     "level": "Sätze"
   },
   {
     "de": "Gehen Sie geradeaus!",
-    "lv": "Düz git!",
+    "lv": "Dosdoğru gidin!",
     "level": "Sätze"
   },
   {
     "de": "Wie geht es Ihnen?",
-    "lv": "Nasılsın • Nasılsın?",
+    "lv": "Nasılsınız?",
     "level": "Sätze"
   },
   {
     "de": "Frag ihn gelegentlich, ob...",
-    "lv": "Gidip gitmeyeceğini sor ona...",
+    "lv": "Fırsat bulursan ona bir sor, acaba...",
     "level": "Sätze"
   },
   {
     "de": "morgen früh",
-    "lv": "Jutro rano",
+    "lv": "yarın sabah",
     "level": "Sätze"
   },
   {
     "de": "im Frühling",
-    "lv": "Na wiosnę",
+    "lv": "ilkbaharda",
     "level": "Sätze"
   },
   {
     "de": "Was gibt’s Neues?",
-    "lv": "Co nowego?",
+    "lv": "Ne var ne yok?",
     "level": "Sätze"
   },
   {
     "de": "Aus diesem Brief folgt, dass...",
-    "lv": "Bu mektup şunu gösteriyor...",
+    "lv": "Bu mektuptan anlaşılıyor ki...",
     "level": "Sätze"
   },
   {
     "de": "Fahre fort!",
-    "lv": "Tak trzymaj!",
+    "lv": "Devam et!",
     "level": "Sätze"
   },
   {
     "de": "Er ist kein Freund von...",
-    "lv": "On nie lubi...",
+    "lv": "...-i pek sevmez...",
     "level": "Sätze"
   },
   {
     "de": "Es erwies sich, dass...",
-    "lv": "Şu ortaya çıktı ki...",
+    "lv": "Ortaya çıktı ki...",
     "level": "Sätze"
   },
   {
     "de": "Gedenkst du meiner?",
-    "lv": "Beni hatırlıyor musun? • Beni düşündün mü?",
+    "lv": "Beni hatırlıyor musun? • Beni düşünüyor musun?",
     "level": "Sätze"
   },
   {
     "de": "im Winter",
-    "lv": "Kış",
+    "lv": "kışın",
     "level": "Sätze"
   },
   {
     "de": "Welcher Jahrgang sind Sie?",
-    "lv": "Hangi yıl doğdun?",
+    "lv": "Kaç doğumlusunuz?",
     "level": "Sätze"
   },
   {
     "de": "Es jammert mich zu sehen...",
-    "lv": "İzlemesi üzücü...",
+    "lv": "Görünce içim acıyor...",
     "level": "Sätze"
   },
   {
     "de": "je mehr, desto besser",
-    "lv": "Ne kadar çok olursa o kadar iyi",
+    "lv": "ne kadar çok, o kadar iyi",
     "level": "Sätze"
   },
   {
     "de": "bis jetzt",
-    "lv": "Şimdiye kadar",
+    "lv": "şimdiye kadar",
     "level": "Sätze"
   },
   {
     "de": "Wie komme ich zum Bahnhof?",
-    "lv": "İstasyona nasıl gidilir?",
+    "lv": "İstasyona nasıl giderim?",
     "level": "Sätze"
   },
   {
@@ -1371,42 +1371,42 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Könnte ich Frau N. sprechen?",
-    "lv": "Bayan N'yle konuşabilir miyim?",
+    "lv": "Bayan N. ile görüşebilir miyim?",
     "level": "Sätze"
   },
   {
     "de": "Was kostet das?",
-    "lv": "Ile to kosztuje?",
+    "lv": "Bu ne kadar?",
     "level": "Sätze"
   },
   {
     "de": "Wie lange dauert die Vorstellung?",
-    "lv": "Performans ne kadar sürecek?",
+    "lv": "Gösteri ne kadar sürüyor?",
     "level": "Sätze"
   },
   {
     "de": "Lass das!",
-    "lv": "Durmak! • Bırak onu!",
+    "lv": "Yapma! • Bırak şunu!",
     "level": "Sätze"
   },
   {
     "de": "Lass mich in Ruhe!",
-    "lv": "Beni yalnız bırakın!",
+    "lv": "Beni rahat bırak!",
     "level": "Sätze"
   },
   {
     "de": "Lassen Sie mich Ihnen helfen!",
-    "lv": "Sana yardım etmeme izin ver!",
+    "lv": "İzin verin, size yardım edeyim!",
     "level": "Sätze"
   },
   {
     "de": "Lasst uns gehen!",
-    "lv": "Hadi gidelim!",
+    "lv": "Gidelim!",
     "level": "Sätze"
   },
   {
     "de": "Na, wie läufts?",
-    "lv": "Nasılsın",
+    "lv": "E, işler nasıl?",
     "level": "Sätze"
   },
   {
@@ -1416,22 +1416,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Leben Sie wohl!",
-    "lv": "Żyj zdrowo! • Do widzenia!",
+    "lv": "Hoşça kalın!",
     "level": "Sätze"
   },
   {
     "de": "Was ist los?",
-    "lv": "Ne oldu?",
+    "lv": "Ne oluyor?",
     "level": "Sätze"
   },
   {
     "de": "Der Job ist anstrengend.",
-    "lv": "İş çok yorucu.",
+    "lv": "Bu iş yorucu.",
     "level": "Sätze"
   },
   {
     "de": "Das war ein anstrengender Tag.",
-    "lv": "Yoğun bir gündü.",
+    "lv": "Yorucu bir gündü.",
     "level": "Sätze"
   },
   {
@@ -1441,7 +1441,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Er verlangt eine Erklärung.",
-    "lv": "Bir açıklama talep ediyor.",
+    "lv": "Bir açıklama istiyor.",
     "level": "Sätze"
   },
   {
@@ -1451,12 +1451,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Das Gesetz verlangt es so.",
-    "lv": "Kanun bunu gerektiriyor.",
+    "lv": "Kanun bunu böyle gerektiriyor.",
     "level": "Sätze"
   },
   {
     "de": "Das ist gar nicht so schwer.",
-    "lv": "To wcale nie jest takie trudne.",
+    "lv": "Bu hiç de o kadar zor değil.",
     "level": "Sätze"
   },
   {
@@ -1471,52 +1471,52 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Der Hund ist los.",
-    "lv": "Köpek serbest bırakıldı.",
+    "lv": "Köpek bağlı değil.",
     "level": "Sätze"
   },
   {
     "de": "Hier ist viel los.",
-    "lv": "Burada çok şey oluyor.",
+    "lv": "Burası çok hareketli.",
     "level": "Sätze"
   },
   {
     "de": "Halt die Luft an!",
-    "lv": "Wstrzymaj oddech!",
+    "lv": "Kes sesini! • Abartma!",
     "level": "Sätze"
   },
   {
     "de": "Was machst du?",
-    "lv": "Ne yapıyorsun",
+    "lv": "Ne yapıyorsun?",
     "level": "Sätze"
   },
   {
     "de": "Sag mal!",
-    "lv": "Powiedz tak!",
+    "lv": "Söylesene!",
     "level": "Sätze"
   },
   {
     "de": "Was meinen Sie damit?",
-    "lv": "Bununla ne demek istiyorsun? • Bu konuda ne düşünüyorsunuz?",
+    "lv": "Bununla ne demek istiyorsunuz?",
     "level": "Sätze"
   },
   {
     "de": "Wir gehen mit Ihnen.",
-    "lv": "Seninle gidiyoruz.",
+    "lv": "Sizinle geliyoruz.",
     "level": "Sätze"
   },
   {
     "de": "Ich fahre mit der Eisenbahn.",
-    "lv": "Trenle seyahat ediyorum.",
+    "lv": "Trenle gidiyorum.",
     "level": "Sätze"
   },
   {
     "de": "am Mittwoch",
-    "lv": "Çarşamba günü",
+    "lv": "çarşamba günü",
     "level": "Sätze"
   },
   {
     "de": "Es mag sein.",
-    "lv": "Belki.",
+    "lv": "Olabilir.",
     "level": "Sätze"
   },
   {
@@ -1526,7 +1526,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "am Montag",
-    "lv": "Pazartesi gününde",
+    "lv": "pazartesi günü",
     "level": "Sätze"
   },
   {
@@ -1536,77 +1536,77 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "am Morgen",
-    "lv": "Sabah",
+    "lv": "sabahleyin",
     "level": "Sätze"
   },
   {
     "de": "Gute Nacht!",
-    "lv": "Dobranoc!",
+    "lv": "İyi geceler!",
     "level": "Sätze"
   },
   {
     "de": "Nehmen Sie Platz!",
-    "lv": "Oturmak!",
+    "lv": "Buyurun, oturun!",
     "level": "Sätze"
   },
   {
     "de": "Letzte Neuheit!",
-    "lv": "En son haberler!",
+    "lv": "En son yenilik!",
     "level": "Sätze"
   },
   {
     "de": "Nicht wahr?",
-    "lv": "Normal?",
+    "lv": "Değil mi?",
     "level": "Sätze"
   },
   {
     "de": "Nicht doch!",
-    "lv": "Hayır, elbette! • HAYIR!",
+    "lv": "Yok canım! • Yapma!",
     "level": "Sätze"
   },
   {
     "de": "Nun endlich!",
-    "lv": "No wreszcie!",
+    "lv": "Nihayet!",
     "level": "Sätze"
   },
   {
     "de": "Wozu nützt das?",
-    "lv": "Do czego to jest dobre?",
+    "lv": "Bu ne işe yarar?",
     "level": "Sätze"
   },
   {
     "de": "Wozu nützt das alles?",
-    "lv": "Po co to wszystko?",
+    "lv": "Bütün bunların ne faydası var?",
     "level": "Sätze"
   },
   {
     "de": "Parken verboten!",
-    "lv": "Parkowanie jest zabronione!",
+    "lv": "Park yapmak yasaktır!",
     "level": "Sätze"
   },
   {
     "de": "Nicht parken!",
-    "lv": "Parkowanie jest zabronione!",
+    "lv": "Park yapmayınız!",
     "level": "Sätze"
   },
   {
     "de": "Er hat Recht.",
-    "lv": "O haklı.",
+    "lv": "Haklı.",
     "level": "Sätze"
   },
   {
     "de": "Wovon ist die Rede?",
-    "lv": "O co chodzi?",
+    "lv": "Söz konusu olan ne?",
     "level": "Sätze"
   },
   {
     "de": "Davon kann keine Rede sein.",
-    "lv": "Bu bir seçenek değil.",
+    "lv": "Bu söz konusu bile olamaz.",
     "level": "Sätze"
   },
   {
     "de": "Glückliche Reise!",
-    "lv": "Szczęśliwej podróży!",
+    "lv": "İyi yolculuklar!",
     "level": "Sätze"
   },
   {
@@ -1616,42 +1616,42 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Man sagt, dass...",
-    "lv": "Öyle diyorlar...",
+    "lv": "Derler ki...",
     "level": "Sätze"
   },
   {
     "de": "Schon gut!",
-    "lv": "Artık sorun yok!",
+    "lv": "Tamam, tamam!",
     "level": "Sätze"
   },
   {
     "de": "Bitte schön!",
-    "lv": "Lütfen",
+    "lv": "Buyurun! • Rica ederim!",
     "level": "Sätze"
   },
   {
     "de": "Was bin ich schuldig?",
-    "lv": "Borcum ne kadar? • Ne kadar ödemem gerekiyor?",
+    "lv": "Borcum ne kadar?",
     "level": "Sätze"
   },
   {
     "de": "Vor dem Gebrauch schütteln!",
-    "lv": "Wstrząsnąć przed użyciem!",
+    "lv": "Kullanmadan önce çalkalayınız!",
     "level": "Sätze"
   },
   {
     "de": "Sehen Sie mal!",
-    "lv": "Bakmak!",
+    "lv": "Bir bakın!",
     "level": "Sätze"
   },
   {
     "de": "Wie sehr auch...",
-    "lv": "Ile...",
+    "lv": "Her ne kadar...",
     "level": "Sätze"
   },
   {
     "de": "Seit wann?",
-    "lv": "O zamandan beri?",
+    "lv": "Ne zamandan beri?",
     "level": "Sätze"
   },
   {
@@ -1661,12 +1661,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "im Sommer",
-    "lv": "Latem",
+    "lv": "yazın",
     "level": "Sätze"
   },
   {
     "de": "Nicht nur..., sondern auch...",
-    "lv": "Sadece... aynı zamanda...",
+    "lv": "Yalnızca... değil, aynı zamanda... da...",
     "level": "Sätze"
   },
   {
@@ -1676,52 +1676,52 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Spaß beiseite!",
-    "lv": "Şaka değil! • Sınırda şakalar!",
+    "lv": "Şaka bir yana!",
     "level": "Sätze"
   },
   {
     "de": "Wie spät ist es?",
-    "lv": "Saat kaç",
+    "lv": "Saat kaç oldu?",
     "level": "Sätze"
   },
   {
     "de": "Durchfahrt gesperrt!",
-    "lv": "Geçmek yok!",
+    "lv": "Araç geçişine kapalıdır!",
     "level": "Sätze"
   },
   {
     "de": "Sprechen Sie deutsch?",
-    "lv": "Almanca biliyor musun?",
+    "lv": "Almanca biliyor musunuz?",
     "level": "Sätze"
   },
   {
     "de": "Statt zu...",
-    "lv": "Zamiast...",
+    "lv": "...-mak yerine...",
     "level": "Sätze"
   },
   {
     "de": "Wie steht’s?",
-    "lv": "Nasılsın",
+    "lv": "Ne var ne yok?",
     "level": "Sätze"
   },
   {
     "de": "Dieser Hut steht ihr gut.",
-    "lv": "Ten kapelusz bardzo jej pasuje.",
+    "lv": "Bu şapka ona yakışıyor.",
     "level": "Sätze"
   },
   {
     "de": "Guten Tag!",
-    "lv": "MERHABA!",
+    "lv": "İyi günler!",
     "level": "Sätze"
   },
   {
     "de": "Wo treffen wir uns?",
-    "lv": "Nerede buluşacağız?",
+    "lv": "Nerede buluşalım?",
     "level": "Sätze"
   },
   {
     "de": "Treten Sie näher!",
-    "lv": "Yaklaş!",
+    "lv": "Daha yakına gelin!",
     "level": "Sätze"
   },
   {
@@ -1731,32 +1731,32 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich habe viel zu tun.",
-    "lv": "Yapacak çok şeyim var.",
+    "lv": "Çok işim var.",
     "level": "Sätze"
   },
   {
     "de": "Nicht übel!",
-    "lv": "Bardzo dobry! • Nie ma sprzeciwu",
+    "lv": "Fena değil!",
     "level": "Sätze"
   },
   {
     "de": "Er wohnt über mir.",
-    "lv": "O benim üstümde yaşıyor.",
+    "lv": "Üst katımda oturuyor.",
     "level": "Sätze"
   },
   {
     "de": "Er ist davon überzeugt.",
-    "lv": "Jest tego pewien.",
+    "lv": "Bundan emin.",
     "level": "Sätze"
   },
   {
     "de": "So ist es üblich.",
-    "lv": "Jest to akceptowane.",
+    "lv": "Âdet böyledir.",
     "level": "Sätze"
   },
   {
     "de": "Deine Uhr geht nach.",
-    "lv": "Saatiniz gecikti.",
+    "lv": "Saatin geri kalıyor.",
     "level": "Sätze"
   },
   {
@@ -1766,87 +1766,87 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Um acht Uhr früh.",
-    "lv": "Sabah sekizde.",
+    "lv": "Sabah saat sekizde.",
     "level": "Sätze"
   },
   {
     "de": "umso mehr",
-    "lv": "Tym bardziej",
+    "lv": "daha da çok",
     "level": "Sätze"
   },
   {
     "de": "Rechts um!",
-    "lv": "Sağa dönün!",
+    "lv": "Sağa dön!",
     "level": "Sätze"
   },
   {
     "de": "Und ob!",
-    "lv": "I co jeszcze!",
+    "lv": "Hem de nasıl!",
     "level": "Sätze"
   },
   {
     "de": "und zwar",
-    "lv": "Mianowicie",
+    "lv": "şöyle ki",
     "level": "Sätze"
   },
   {
     "de": "Auf Unkosten von...",
-    "lv": "Kosztem...",
+    "lv": "...-in hesabına...",
     "level": "Sätze"
   },
   {
     "de": "Er saß unter den Zuschauern.",
-    "lv": "Seyircilerin arasına oturdu.",
+    "lv": "Seyirciler arasında oturuyordu.",
     "level": "Sätze"
   },
   {
     "de": "Keine Ursache!",
-    "lv": "Nic za nic!",
+    "lv": "Bir şey değil!",
     "level": "Sätze"
   },
   {
     "de": "Es geschah, wie verabredet.",
-    "lv": "Anlaştığımız gibi oldu.",
+    "lv": "Kararlaştırıldığı gibi oldu.",
     "level": "Sätze"
   },
   {
     "de": "Rauchen verboten!",
-    "lv": "Palenie jest zabronione!",
+    "lv": "Sigara içmek yasaktır!",
     "level": "Sätze"
   },
   {
     "de": "Falsch verbunden!",
-    "lv": "Błędne połączenie!",
+    "lv": "Yanlış numara!",
     "level": "Sätze"
   },
   {
     "de": "Eintritt verboten!",
-    "lv": "Girilmez!",
+    "lv": "Giriş yasaktır!",
     "level": "Sätze"
   },
   {
     "de": "Verstehen Sie mich?",
-    "lv": "Czy mnie rozumiesz?",
+    "lv": "Beni anlıyor musunuz?",
     "level": "Sätze"
   },
   {
     "de": "Er versteht nichts davon.",
-    "lv": "Nic z tego nie rozumie.",
+    "lv": "Bu işten hiçbir şey anlamaz.",
     "level": "Sätze"
   },
   {
     "de": "Seine Ansicht vertreten.",
-    "lv": "Fikrinizi savunun.",
+    "lv": "Kendi görüşünü savunmak.",
     "level": "Sätze"
   },
   {
     "de": "Streit verursachen.",
-    "lv": "Bir tartışma başlatın.",
+    "lv": "Tartışmaya yol açmak.",
     "level": "Sätze"
   },
   {
     "de": "Viel besser.",
-    "lv": "Znacznie lepiej.",
+    "lv": "Çok daha iyi.",
     "level": "Sätze"
   },
   {
@@ -1856,77 +1856,77 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Vom Hörensagen.",
-    "lv": "Duruşmadan sonra.",
+    "lv": "Kulaktan dolma.",
     "level": "Sätze"
   },
   {
     "de": "Von Zeit zu Zeit.",
-    "lv": "Niekiedy.",
+    "lv": "Zaman zaman.",
     "level": "Sätze"
   },
   {
     "de": "Von Beruf.",
-    "lv": "Z zawodu.",
+    "lv": "Meslek olarak.",
     "level": "Sätze"
   },
   {
     "de": "Er ist Berliner von Geburt.",
-    "lv": "Kendisi doğuştan Berlinlidir.",
+    "lv": "Berlin doğumlu.",
     "level": "Sätze"
   },
   {
     "de": "Er steht vor dem Fenster.",
-    "lv": "Stoi przy oknie.",
+    "lv": "Pencerenin önünde duruyor.",
     "level": "Sätze"
   },
   {
     "de": "Vor Sonnenaufgang.",
-    "lv": "Przed wschodem słońca.",
+    "lv": "Güneş doğmadan önce.",
     "level": "Sätze"
   },
   {
     "de": "Vor vierzehn Tagen.",
-    "lv": "Dwa tygodnie temu.",
+    "lv": "İki hafta önce.",
     "level": "Sätze"
   },
   {
     "de": "Vor Freude.",
-    "lv": "Dla zabawy.",
+    "lv": "Sevinçten.",
     "level": "Sätze"
   },
   {
     "de": "Vor allem.",
-    "lv": "Przede wszystkim. • Przede wszystkim",
+    "lv": "Her şeyden önce.",
     "level": "Sätze"
   },
   {
     "de": "Im Voraus.",
-    "lv": "Poprzednio.",
+    "lv": "Önceden.",
     "level": "Sätze"
   },
   {
     "de": "Unter der Voraussetzung, dass...",
-    "lv": "Öyle varsayarsak...",
+    "lv": "Şu şartla ki...",
     "level": "Sätze"
   },
   {
     "de": "Unter dem Vorbehalt.",
-    "lv": "Warunkowo.",
+    "lv": "Bu çekinceyle.",
     "level": "Sätze"
   },
   {
     "de": "Vorhanden sein.",
-    "lv": "Olmak. • Mevcut olun • Mevcut olun",
+    "lv": "Mevcut olmak. • Var olmak.",
     "level": "Sätze"
   },
   {
     "de": "In der vorigen Woche.",
-    "lv": "Ostatni tydzień.",
+    "lv": "Geçen hafta.",
     "level": "Sätze"
   },
   {
     "de": "Vorkehrungen treffen.",
-    "lv": "Koruyucu önlem alın.",
+    "lv": "Önlem almak.",
     "level": "Sätze"
   },
   {
@@ -1936,37 +1936,37 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Er hat Vorliebe für Literatur.",
-    "lv": "Edebiyatı çok seviyor.",
+    "lv": "Edebiyata düşkün.",
     "level": "Sätze"
   },
   {
     "de": "Heute Vormittag.",
-    "lv": "Bu sabah. • Bu sabah",
+    "lv": "Bu sabah. • Bugün öğleden önce.",
     "level": "Sätze"
   },
   {
     "de": "Von vorn.",
-    "lv": "Od przodu.",
+    "lv": "Önden. • Baştan.",
     "level": "Sätze"
   },
   {
     "de": "Nach vorn.",
-    "lv": "Do przodu.",
+    "lv": "İleriye.",
     "level": "Sätze"
   },
   {
     "de": "Von vornherein.",
-    "lv": "En başında.",
+    "lv": "En başından.",
     "level": "Sätze"
   },
   {
     "de": "Im Vorteil sein.",
-    "lv": "Daha iyi bir durumda olun.",
+    "lv": "Avantajlı durumda olmak.",
     "level": "Sätze"
   },
   {
     "de": "Wach sein.",
-    "lv": "Bilinçli olun.",
+    "lv": "Uyanık olmak.",
     "level": "Sätze"
   },
   {
@@ -1976,117 +1976,117 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Auf Wache sein.",
-    "lv": "Stań na straży.",
+    "lv": "Nöbet tutmak.",
     "level": "Sätze"
   },
   {
     "de": "Während eines Jahres.",
-    "lv": "Bir yıl içinde.",
+    "lv": "Bir yıl boyunca.",
     "level": "Sätze"
   },
   {
     "de": "Während des Krieges.",
-    "lv": "Podczas wojny.",
+    "lv": "Savaş sırasında.",
     "level": "Sätze"
   },
   {
     "de": "Gegen eine Wand reden.",
-    "lv": "Boşuna konuş.",
+    "lv": "Boşuna nefes tüketmek.",
     "level": "Sätze"
   },
   {
     "de": "Hier haben die Wände Ohren.",
-    "lv": "Burada duvarların kulakları var.",
+    "lv": "Yerin kulağı var.",
     "level": "Sätze"
   },
   {
     "de": "Bis wann?",
-    "lv": "Do kiedy?",
+    "lv": "Ne zamana kadar?",
     "level": "Sätze"
   },
   {
     "de": "Es ist warm.",
-    "lv": "Bu sıcak.",
+    "lv": "Hava sıcak.",
     "level": "Sätze"
   },
   {
     "de": "Auf eine Nachricht warten.",
-    "lv": "Mesajı bekleyin.",
+    "lv": "Bir haber beklemek.",
     "level": "Sätze"
   },
   {
     "de": "Was wollen Sie?",
-    "lv": "Czego chcesz?",
+    "lv": "Ne istiyorsunuz?",
     "level": "Sätze"
   },
   {
     "de": "Was für ein...?",
-    "lv": "Kto...? • A co z...?",
+    "lv": "Ne tür bir...?",
     "level": "Sätze"
   },
   {
     "de": "Auf halbem Wege.",
-    "lv": "Yarım.",
+    "lv": "Yarı yolda.",
     "level": "Sätze"
   },
   {
     "de": "Auf diesem Wege.",
-    "lv": "Bu taraftan. • Bu tür fonlar için",
+    "lv": "Bu şekilde. • Bu yolla.",
     "level": "Sätze"
   },
   {
     "de": "Auf friedlichem Wege.",
-    "lv": "Barış yolunda.",
+    "lv": "Barışçıl yollarla.",
     "level": "Sätze"
   },
   {
     "de": "Unserer Freundschaft wegen.",
-    "lv": "Dostluğumuzdan dolayı.",
+    "lv": "Dostluğumuz hatırına.",
     "level": "Sätze"
   },
   {
     "de": "Von Rechts wegen.",
-    "lv": "Adalet yoluyla.",
+    "lv": "Kanunen. • Hakkaniyete göre.",
     "level": "Sätze"
   },
   {
     "de": "Weh tun.",
-    "lv": "Acıtmak.",
+    "lv": "Acımak.",
     "level": "Sätze"
   },
   {
     "de": "Zu Weihnachten.",
-    "lv": "Noel için.",
+    "lv": "Noel'de.",
     "level": "Sätze"
   },
   {
     "de": "Auf welche Weise?",
-    "lv": "Nasıl?",
+    "lv": "Ne şekilde?",
     "level": "Sätze"
   },
   {
     "de": "Art und Weise.",
-    "lv": "Typ.",
+    "lv": "Yöntem.",
     "level": "Sätze"
   },
   {
     "de": "Ohne weiteres.",
-    "lv": "Natychmiast. • Natychmiast",
+    "lv": "Hiç beklemeden. • Hiç zorlanmadan.",
     "level": "Sätze"
   },
   {
     "de": "Bis auf weiteres.",
-    "lv": "Bir sonraki duyuruya kadar.",
+    "lv": "İkinci bir duyuruya kadar.",
     "level": "Sätze"
   },
   {
     "de": "Und so weiter.",
-    "lv": "I tak dalej.",
+    "lv": "Vesaire.",
     "level": "Sätze"
   },
   {
     "de": "Weiter nichts.",
-    "lv": "Nic więcej.",
+    "lv": "Başka bir şey yok.",
     "level": "Sätze"
   },
   {
@@ -2096,12 +2096,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Alle Welt.",
-    "lv": "Bütün dünya. • Tüm",
+    "lv": "Bütün dünya. • Herkes.",
     "level": "Sätze"
   },
   {
     "de": "In wenigen Tagen.",
-    "lv": "Za kilka dni.",
+    "lv": "Birkaç gün içinde.",
     "level": "Sätze"
   },
   {
@@ -2111,57 +2111,57 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wenn auch.",
-    "lv": "Yine de.",
+    "lv": "Her ne kadar.",
     "level": "Sätze"
   },
   {
     "de": "Wer da?",
-    "lv": "Co tam jest?",
+    "lv": "Kim o?",
     "level": "Sätze"
   },
   {
     "de": "Gesammelte Werke von Schiller.",
-    "lv": "Pisma zebrane Schillera.",
+    "lv": "Schiller'in toplu eserleri.",
     "level": "Sätze"
   },
   {
     "de": "Ausgewählte Werke.",
-    "lv": "Eser seçimi.",
+    "lv": "Seçme eserler.",
     "level": "Sätze"
   },
   {
     "de": "Er ist wert, dass...",
-    "lv": "Hak ediyor...",
+    "lv": "Şunu hak ediyor:...",
     "level": "Sätze"
   },
   {
     "de": "Es ist zwei Euro wert.",
-    "lv": "Kosztuje dwa euro.",
+    "lv": "İki avro değerinde.",
     "level": "Sätze"
   },
   {
     "de": "Nach Westen.",
-    "lv": "Batı.",
+    "lv": "Batıya.",
     "level": "Sätze"
   },
   {
     "de": "Von Westen.",
-    "lv": "Od zachodu.",
+    "lv": "Batıdan.",
     "level": "Sätze"
   },
   {
     "de": "In Wettbewerb treten.",
-    "lv": "Yarışmaya katılın.",
+    "lv": "Rekabete girmek.",
     "level": "Sätze"
   },
   {
     "de": "Um die Wette laufen.",
-    "lv": "Yarışı başlat.",
+    "lv": "Koşu yarışı yapmak.",
     "level": "Sätze"
   },
   {
     "de": "Was gilt die Wette?",
-    "lv": "Ne hakkında pazarlık yapıyoruz?",
+    "lv": "Neyine iddiaya girelim?",
     "level": "Sätze"
   },
   {
@@ -2171,37 +2171,37 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wettkampf im Turnen.",
-    "lv": "Zawody w gimnastyce.",
+    "lv": "Jimnastik yarışması.",
     "level": "Sätze"
   },
   {
     "de": "Wider meinen Willen.",
-    "lv": "Wbrew mojej woli.",
+    "lv": "İsteğim dışında.",
     "level": "Sätze"
   },
   {
     "de": "Widerspruch erheben.",
-    "lv": "Protesto etmek. • İtirazda bulunun",
+    "lv": "Protesto etmek. • İtiraz etmek.",
     "level": "Sätze"
   },
   {
     "de": "Wie alt ist er?",
-    "lv": "Ile on ma lat?",
+    "lv": "Kaç yaşında?",
     "level": "Sätze"
   },
   {
     "de": "Wie lange?",
-    "lv": "Ne kadardır",
+    "lv": "Ne kadar süre?",
     "level": "Sätze"
   },
   {
     "de": "Auf Wiederhören!",
-    "lv": "Do widzenia!",
+    "lv": "Görüşmek üzere!",
     "level": "Sätze"
   },
   {
     "de": "Auf Wiedersehen!",
-    "lv": "Do widzenia!",
+    "lv": "Hoşça kalın!",
     "level": "Sätze"
   },
   {
@@ -2211,47 +2211,47 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Herzlich willkommen!",
-    "lv": "Serdecznie pozdrawiam!",
+    "lv": "Hoş geldiniz!",
     "level": "Sätze"
   },
   {
     "de": "Du musst ziehen.",
-    "lv": "Masz ruch.",
+    "lv": "Hamle sırası sende.",
     "level": "Sätze"
   },
   {
     "de": "Es zieht.",
-    "lv": "Çekmek",
+    "lv": "Cereyan var.",
     "level": "Sätze"
   },
   {
     "de": "Ziemlich kalt.",
-    "lv": "Całkiem zimno.",
+    "lv": "Oldukça soğuk.",
     "level": "Sätze"
   },
   {
     "de": "Zipfel einer Wurst.",
-    "lv": "Sosis ipucu.",
+    "lv": "Sucuğun ucu.",
     "level": "Sätze"
   },
   {
     "de": "Zu ihm gehen.",
-    "lv": "Ona git.",
+    "lv": "Onun yanına gitmek.",
     "level": "Sätze"
   },
   {
     "de": "Zur Schule gehen.",
-    "lv": "Katılmak.",
+    "lv": "Okula gitmek.",
     "level": "Sätze"
   },
   {
     "de": "Zu Hause bleiben.",
-    "lv": "Evde kalın.",
+    "lv": "Evde kalmak.",
     "level": "Sätze"
   },
   {
     "de": "Von Tag zu Tag.",
-    "lv": "Her gün.",
+    "lv": "Günden güne.",
     "level": "Sätze"
   },
   {
@@ -2261,32 +2261,32 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wasser zum Trinken.",
-    "lv": "Woda do picia.",
+    "lv": "İçme suyu.",
     "level": "Sätze"
   },
   {
     "de": "Zu Fuß.",
-    "lv": "Na nogi.",
+    "lv": "Yürüyerek.",
     "level": "Sätze"
   },
   {
     "de": "Zu Pferde.",
-    "lv": "Tak.",
+    "lv": "At sırtında.",
     "level": "Sätze"
   },
   {
     "de": "Zu Rad.",
-    "lv": "Rowerem.",
+    "lv": "Bisikletle.",
     "level": "Sätze"
   },
   {
     "de": "Es hörte auf zu regnen.",
-    "lv": "Yağmur durdu.",
+    "lv": "Yağmur dindi.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe noch viel zu tun.",
-    "lv": "Nadal mam wiele do zrobienia.",
+    "lv": "Daha yapacak çok işim var.",
     "level": "Sätze"
   },
   {
@@ -2301,27 +2301,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Mit den Achseln zucken.",
-    "lv": "Wzruszać ramionami.",
+    "lv": "Omuz silkmek.",
     "level": "Sätze"
   },
   {
     "de": "In einem Zug trinken.",
-    "lv": "Wypij jednym haustem.",
+    "lv": "Bir dikişte içmek.",
     "level": "Sätze"
   },
   {
     "de": "Zugrunde gehen.",
-    "lv": "Öl.",
+    "lv": "Mahvolmak.",
     "level": "Sätze"
   },
   {
     "de": "Zugrunde legen.",
-    "lv": "Połóż na podstawie. • Weź jako podstawę.",
+    "lv": "Temel almak. • Esas almak.",
     "level": "Sätze"
   },
   {
     "de": "Zum ersten Mal.",
-    "lv": "Po raz pierwszy.",
+    "lv": "İlk kez.",
     "level": "Sätze"
   },
   {
@@ -2341,7 +2341,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Zusammenhängen mit etwas.",
-    "lv": "Bir şeyle ilişkilendirilmek.",
+    "lv": "Bir şeyle bağlantılı olmak.",
     "level": "Sätze"
   },
   {
@@ -2351,17 +2351,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Das hätte ich ihm nicht zugetraut.",
-    "lv": "Ondan bunu beklemezdim.",
+    "lv": "Bunu ondan beklemezdim.",
     "level": "Sätze"
   },
   {
     "de": "Freier Zutritt.",
-    "lv": "Ücretsiz giriş.",
+    "lv": "Giriş serbest.",
     "level": "Sätze"
   },
   {
     "de": "Zutritt verboten!",
-    "lv": "Girilmez!",
+    "lv": "Girmek yasaktır!",
     "level": "Sätze"
   },
   {
@@ -2371,52 +2371,52 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Zuwider werden.",
-    "lv": "İğrenç ol. • Hastalanmak",
+    "lv": "Tiksinti vermek. • Usanç vermek.",
     "level": "Sätze"
   },
   {
     "de": "Und zwar.",
-    "lv": "Mianowicie.",
+    "lv": "Şöyle ki.",
     "level": "Sätze"
   },
   {
     "de": "Es steht außer Zweifel.",
-    "lv": "Nie ma wątpliwości.",
+    "lv": "Hiç şüphe yok.",
     "level": "Sätze"
   },
   {
     "de": "Ohne Zweifel.",
-    "lv": "Çıplak yüzle.",
+    "lv": "Şüphesiz.",
     "level": "Sätze"
   },
   {
     "de": "Zum Zweiten.",
-    "lv": "Po drugie.",
+    "lv": "İkincisi.",
     "level": "Sätze"
   },
   {
     "de": "Frohes neues Jahr!",
-    "lv": "Mutlu yıllar!",
+    "lv": "Yeni yılınız kutlu olsun!",
     "level": "Sätze"
   },
   {
     "de": "Herzlichen Glückwunsch zum Geburtstag!",
-    "lv": "Wszystkiego najlepszego z okazji urodzin!",
+    "lv": "Doğum günün kutlu olsun!",
     "level": "Sätze"
   },
   {
     "de": "Gute Reise!",
-    "lv": "Szczęśliwej podróży!",
+    "lv": "İyi yolculuklar!",
     "level": "Sätze"
   },
   {
     "de": "Es freut mich, Sie kennenzulernen.",
-    "lv": "Seninle tanıştığıma sevindim.",
+    "lv": "Sizinle tanıştığıma memnun oldum.",
     "level": "Sätze"
   },
   {
     "de": "Wären Sie bitte so nett?",
-    "lv": "Bu kadar nazik olur muydun?",
+    "lv": "Lütfen bana bir iyilik yapar mısınız?",
     "level": "Sätze"
   },
   {
@@ -2436,67 +2436,67 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Schlagt bitte die Lehrbücher auf!",
-    "lv": "Ders kitaplarınızı açın lütfen!",
+    "lv": "Lütfen ders kitaplarınızı açın!",
     "level": "Sätze"
   },
   {
     "de": "Geht bitte in die Sporthalle!",
-    "lv": "Proszę, idź na siłownię!",
+    "lv": "Lütfen spor salonuna gidin!",
     "level": "Sätze"
   },
   {
     "de": "Schläfst du noch?",
-    "lv": "Hala uyuyor musun?",
+    "lv": "Hâlâ uyuyor musun?",
     "level": "Sätze"
   },
   {
     "de": "Schlafen Sie noch?",
-    "lv": "Hala uyuyor musun?",
+    "lv": "Hâlâ uyuyor musunuz?",
     "level": "Sätze"
   },
   {
     "de": "Er ist fest eingeschlafen.",
-    "lv": "Çabuk uyuyor.",
+    "lv": "Derin bir uykuya daldı.",
     "level": "Sätze"
   },
   {
     "de": "Wecke ihn bitte auf, es ist schon spät!",
-    "lv": "Lütfen onu uyandırın, çoktan geç oldu!",
+    "lv": "Lütfen onu uyandır, artık geç oldu!",
     "level": "Sätze"
   },
   {
     "de": "Es tut mir sehr leid!",
-    "lv": "Bardzo mi przykro!",
+    "lv": "Çok üzgünüm!",
     "level": "Sätze"
   },
   {
     "de": "Vielen Dank!",
-    "lv": "Çok teşekkür ederim!",
+    "lv": "Çok teşekkürler!",
     "level": "Sätze"
   },
   {
     "de": "Finn, fang bitte an!",
-    "lv": "Finn, başla lütfen!",
+    "lv": "Finn, lütfen başla!",
     "level": "Sätze"
   },
   {
     "de": "Lest bitte mit!",
-    "lv": "Czytaj dalej, proszę!",
+    "lv": "Lütfen okunanı metinden takip edin!",
     "level": "Sätze"
   },
   {
     "de": "Emma, schau bitte nicht aus dem Fenster!",
-    "lv": "Emma, ​​lütfen pencereden dışarı bakma!",
+    "lv": "Emma, lütfen pencereden dışarı bakma!",
     "level": "Sätze"
   },
   {
     "de": "Jonas, bring bitte die Hefte!",
-    "lv": "Jonas, lütfen defterlerini getir!",
+    "lv": "Jonas, lütfen defterleri getir!",
     "level": "Sätze"
   },
   {
     "de": "Geh bitte zurück an deinen Platz!",
-    "lv": "Wracaj na swoje miejsce!",
+    "lv": "Lütfen yerine geri dön!",
     "level": "Sätze"
   },
   {
@@ -2506,32 +2506,32 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wann wachst du gewöhnlich auf?",
-    "lv": "Genelde ne zaman uyanırsın?",
+    "lv": "Genellikle ne zaman uyanırsın?",
     "level": "Sätze"
   },
   {
     "de": "Ich stehe gleich auf.",
-    "lv": "Yakında kalkacağım.",
+    "lv": "Hemen kalkıyorum.",
     "level": "Sätze"
   },
   {
     "de": "Steh auf, Hanna, es klingelt!",
-    "lv": "Wstawaj, Hannah, dzwoni dzwonek!",
+    "lv": "Kalk, Hanna, saat çalıyor! • Kalk, Hanna, kapı çalıyor!",
     "level": "Sätze"
   },
   {
     "de": "Lass mich noch fünf Minuten schlafen!",
-    "lv": "Beş dakika daha uyuyayım!",
+    "lv": "Beş dakika daha uyumama izin ver!",
     "level": "Sätze"
   },
   {
     "de": "Vergiss nicht, das Zimmer zu lüften!",
-    "lv": "Nie zapomnij o wietrzeniu pomieszczenia!",
+    "lv": "Odayı havalandırmayı unutma!",
     "level": "Sätze"
   },
   {
     "de": "Wo ist das Handtuch?",
-    "lv": "Gdzie jest ręcznik",
+    "lv": "Havlu nerede?",
     "level": "Sätze"
   },
   {
@@ -2541,7 +2541,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Mit was putzt du dir die Zähne?",
-    "lv": "Dişlerinizi nasıl fırçalarsınız?",
+    "lv": "Dişlerini neyle fırçalıyorsun?",
     "level": "Sätze"
   },
   {
@@ -2551,12 +2551,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Zieh dich bitte schnell an!",
-    "lv": "Çabuk giyin lütfen!",
+    "lv": "Lütfen çabuk giyin!",
     "level": "Sätze"
   },
   {
     "de": "Kleide dich wärmer an, draußen ist es kühl.",
-    "lv": "Sıkı giyinin, dışarısı soğuk.",
+    "lv": "Daha kalın giyin, dışarısı serin.",
     "level": "Sätze"
   },
   {
@@ -2566,37 +2566,37 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Mir geht es gut, danke.",
-    "lv": "İyiyim teşekkürler.",
+    "lv": "İyiyim, teşekkürler.",
     "level": "Sätze"
   },
   {
     "de": "Was gibt es Neues?",
-    "lv": "Co nowego?",
+    "lv": "Ne var ne yok?",
     "level": "Sätze"
   },
   {
     "de": "Was für ein Chaos hier!",
-    "lv": "Bu ne büyük bir karmaşa!",
+    "lv": "Burası ne kadar dağınık!",
     "level": "Sätze"
   },
   {
     "de": "Darf ich beim Aufräumen helfen?",
-    "lv": "Temizlik konusunda yardımcı olabilir miyim?",
+    "lv": "Ortalığı toplamana yardım edebilir miyim?",
     "level": "Sätze"
   },
   {
     "de": "Was trinkst du morgens, Kaffee oder Tee?",
-    "lv": "Sabahları ne içersiniz, kahve mi çay mı?",
+    "lv": "Sabahları ne içersin, kahve mi çay mı?",
     "level": "Sätze"
   },
   {
     "de": "Gewöhnlich trinke ich morgens eine Tasse Kaffee.",
-    "lv": "Sabahları genellikle bir fincan kahve içerim.",
+    "lv": "Genellikle sabahları bir fincan kahve içerim.",
     "level": "Sätze"
   },
   {
     "de": "Am liebsten trinke ich schwarzen Kaffee.",
-    "lv": "Siyah kahveyi tercih ederim.",
+    "lv": "En çok sütsüz kahve içmeyi severim.",
     "level": "Sätze"
   },
   {
@@ -2606,172 +2606,172 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich bin noch sehr müde.",
-    "lv": "Hala çok yorgunum.",
+    "lv": "Hâlâ çok yorgunum.",
     "level": "Sätze"
   },
   {
     "de": "Willst du Kaffee oder Milch?",
-    "lv": "Kahve mi süt mü istersin?",
+    "lv": "Kahve mi istiyorsun, süt mü?",
     "level": "Sätze"
   },
   {
     "de": "Gib mir bitte ein Brötchen mit Käse.",
-    "lv": "Lütfen bana bir peynirli rulo ver.",
+    "lv": "Lütfen bana peynirli bir sandviç ver.",
     "level": "Sätze"
   },
   {
     "de": "Ich muss jetzt los!",
-    "lv": "Şimdi gitmek zorundayım!",
+    "lv": "Şimdi gitmem lazım!",
     "level": "Sätze"
   },
   {
     "de": "Vergiss dein Frühstück nicht!",
-    "lv": "Kahvaltıyı unutmayın!",
+    "lv": "Kahvaltını unutma!",
     "level": "Sätze"
   },
   {
     "de": "Klara, deck bitte den Tisch!",
-    "lv": "Clara, lütfen masayı hazırla!",
+    "lv": "Klara, lütfen sofrayı kur!",
     "level": "Sätze"
   },
   {
     "de": "Vergiss die Servietten nicht!",
-    "lv": "Nie zapomnij o serwetkach!",
+    "lv": "Peçeteleri unutma!",
     "level": "Sätze"
   },
   {
     "de": "Wann esst ihr zu Mittag?",
-    "lv": "Kiedy jesz lunch",
+    "lv": "Öğle yemeğini ne zaman yersiniz?",
     "level": "Sätze"
   },
   {
     "de": "Es ist Zeit zu essen.",
-    "lv": "Yemek zamanı.",
+    "lv": "Yemek vakti.",
     "level": "Sätze"
   },
   {
     "de": "Was gibt es heute zu Mittag?",
-    "lv": "Co dzisiaj na lunch?",
+    "lv": "Bugün öğle yemeğinde ne var?",
     "level": "Sätze"
   },
   {
     "de": "Wie schmeckt dir die Suppe?",
-    "lv": "Çorbayı nasıl seversin?",
+    "lv": "Çorbayı nasıl buldun?",
     "level": "Sätze"
   },
   {
     "de": "Ehrlich gesagt ist sie etwas zu salzig.",
-    "lv": "Doğrusunu söylemek gerekirse biraz fazla tuzlu.",
+    "lv": "Açıkçası biraz fazla tuzlu.",
     "level": "Sätze"
   },
   {
     "de": "Darf ich dir ein Stück Brot geben?",
-    "lv": "Sana bir dilim ekmek vereyim mi?",
+    "lv": "Sana bir dilim ekmek verebilir miyim?",
     "level": "Sätze"
   },
   {
     "de": "Danke, ich habe schon.",
-    "lv": "Teşekkür ederim, zaten yaptım.",
+    "lv": "Teşekkürler, bende zaten var.",
     "level": "Sätze"
   },
   {
     "de": "Das Fleisch schmeckt ausgezeichnet.",
-    "lv": "Etin tadı çok lezzetli.",
+    "lv": "Etin tadı mükemmel.",
     "level": "Sätze"
   },
   {
     "de": "Danke, ich bin schon satt.",
-    "lv": "Teşekkür ederim, zaten doluyum.",
+    "lv": "Teşekkürler, ben doydum.",
     "level": "Sätze"
   },
   {
     "de": "Heute haben wir Besuch.",
-    "lv": "Bugün misafirlerimiz var.",
+    "lv": "Bugün misafirimiz var.",
     "level": "Sätze"
   },
   {
     "de": "Bist du heute Abend frei?",
-    "lv": "Bu gece boş musun?",
+    "lv": "Bu akşam boş musun?",
     "level": "Sätze"
   },
   {
     "de": "Komm doch heute zum Mittagessen vorbei!",
-    "lv": "Bugün öğle yemeğine gel!",
+    "lv": "Bugün öğle yemeğine bize gelsene!",
     "level": "Sätze"
   },
   {
     "de": "Setzen wir uns an den Tisch.",
-    "lv": "Hadi masaya oturalım.",
+    "lv": "Sofraya oturalım.",
     "level": "Sätze"
   },
   {
     "de": "Bitte, bedien dich!",
-    "lv": "Lütfen istediğiniz kadar yiyin!",
+    "lv": "Buyur, kendin al!",
     "level": "Sätze"
   },
   {
     "de": "Stört dich das Rauchen?",
-    "lv": "Czy palenie Ci przeszkadza?",
+    "lv": "Sigara içilmesi seni rahatsız ediyor mu?",
     "level": "Sätze"
   },
   {
     "de": "Danke für die nette Aufnahme!",
-    "lv": "Sıcak karşılamanız için teşekkür ederiz!",
+    "lv": "Sıcak karşılama için teşekkürler!",
     "level": "Sätze"
   },
   {
     "de": "Wann gehst du ins Bett?",
-    "lv": "Uyumaya gittiğinde",
+    "lv": "Ne zaman yatarsın?",
     "level": "Sätze"
   },
   {
     "de": "Wenn ich von der Arbeit komme, bin ich immer müde.",
-    "lv": "İşten eve geldiğimde hep yorgun oluyorum.",
+    "lv": "İşten geldiğimde hep yorgun oluyorum.",
     "level": "Sätze"
   },
   {
     "de": "Es ist Zeit, ins Bett zu gehen.",
-    "lv": "Uyuma zamanı.",
+    "lv": "Yatma vakti.",
     "level": "Sätze"
   },
   {
     "de": "Es ist schönes Wetter.",
-    "lv": "To miły czas.",
+    "lv": "Hava güzel.",
     "level": "Sätze"
   },
   {
     "de": "Willst du mit mir spazieren gehen?",
-    "lv": "Benimle gelmek ister misin?",
+    "lv": "Benimle yürüyüşe çıkmak ister misin?",
     "level": "Sätze"
   },
   {
     "de": "Sieh mal, es wird gleich regnen.",
-    "lv": "Bak, yakında yağmur yağacak.",
+    "lv": "Bak, birazdan yağmur yağacak.",
     "level": "Sätze"
   },
   {
     "de": "Nimm den Regenschirm mit!",
-    "lv": "Yanınıza bir şemsiye alın!",
+    "lv": "Şemsiyeyi yanına al!",
     "level": "Sätze"
   },
   {
     "de": "Es regnet.",
-    "lv": "Pada deszcz.",
+    "lv": "Yağmur yağıyor.",
     "level": "Sätze"
   },
   {
     "de": "Ich bin schon ganz nass.",
-    "lv": "Artık tamamen ıslağım.",
+    "lv": "Şimdiden sırılsıklam oldum.",
     "level": "Sätze"
   },
   {
     "de": "Glaubst du, dass es den ganzen Tag regnen wird?",
-    "lv": "Bütün gün yağmur yağacağını mı düşünüyorsun?",
+    "lv": "Sence bütün gün yağmur yağacak mı?",
     "level": "Sätze"
   },
   {
     "de": "Es hört auf zu regnen.",
-    "lv": "Yağmur duruyor.",
+    "lv": "Yağmur diniyor.",
     "level": "Sätze"
   },
   {
@@ -2781,22 +2781,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Es ist sehr warm.",
-    "lv": "Çok sıcak.",
+    "lv": "Hava çok sıcak.",
     "level": "Sätze"
   },
   {
     "de": "Es sieht nach Regen aus.",
-    "lv": "Yağmur yağacak gibi görünüyor.",
+    "lv": "Yağmur yağacağa benziyor.",
     "level": "Sätze"
   },
   {
     "de": "Wir bekommen gleich ein Gewitter.",
-    "lv": "Bir fırtına kopmak üzere.",
+    "lv": "Birazdan fırtına kopacak.",
     "level": "Sätze"
   },
   {
     "de": "Das Gewitter zieht vorüber.",
-    "lv": "Fırtına geçti.",
+    "lv": "Fırtına geçiyor.",
     "level": "Sätze"
   },
   {
@@ -2811,7 +2811,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Der Winter ist da, es hat geschneit.",
-    "lv": "Kış geldi ve geceleri kar yağdı.",
+    "lv": "Kış geldi, kar yağdı.",
     "level": "Sätze"
   },
   {
@@ -2821,7 +2821,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wie schön ist es im Wald im Winter!",
-    "lv": "Kışın ormanda ne kadar güzel!",
+    "lv": "Kışın orman ne kadar güzel!",
     "level": "Sätze"
   },
   {
@@ -2831,72 +2831,72 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Draußen ist Glatteis, pass auf!",
-    "lv": "Na zewnątrz jest ślisko, uważajcie!",
+    "lv": "Dışarıda yerler buz tutmuş, dikkat et!",
     "level": "Sätze"
   },
   {
     "de": "Wollen wir auf die Eisbahn gehen?",
-    "lv": "Belki buz patenine gitmeliyiz?",
+    "lv": "Buz pateni pistine gidelim mi?",
     "level": "Sätze"
   },
   {
     "de": "Zieh die Jacke an, du kannst dich erkälten.",
-    "lv": "Bir ceket giy çünkü üşütebilirsin.",
+    "lv": "Ceketini giy, üşütebilirsin.",
     "level": "Sätze"
   },
   {
     "de": "Es ist halb sieben.",
-    "lv": "Saat yedi buçuk.",
+    "lv": "Saat altı buçuk.",
     "level": "Sätze"
   },
   {
     "de": "Meine Uhr geht fünf Minuten vor.",
-    "lv": "Saatim beş dakika ileri.",
+    "lv": "Saatim beş dakika ileri gidiyor.",
     "level": "Sätze"
   },
   {
     "de": "Weck mich morgen früh um sieben Uhr!",
-    "lv": "Yarın beni yedide uyandır!",
+    "lv": "Yarın sabah beni saat yedide uyandır!",
     "level": "Sätze"
   },
   {
     "de": "Was ist heute für ein Datum?",
-    "lv": "Jaka jest dzisiaj data?",
+    "lv": "Bugün ayın kaçı?",
     "level": "Sätze"
   },
   {
     "de": "Heute ist der elfte Juli.",
-    "lv": "Bugün onbir Temmuz.",
+    "lv": "Bugün 11 Temmuz.",
     "level": "Sätze"
   },
   {
     "de": "Was machst du gewöhnlich am Abend?",
-    "lv": "Co zwykle robisz wieczorami?",
+    "lv": "Akşamları genellikle ne yaparsın?",
     "level": "Sätze"
   },
   {
     "de": "Es ist schon lange her, dass wir uns gesehen haben.",
-    "lv": "Uzun zamandır görüşemedik.",
+    "lv": "Görüşmeyeli uzun zaman oldu.",
     "level": "Sätze"
   },
   {
     "de": "Wie geht es dir?",
-    "lv": "Nasılsın",
+    "lv": "Nasılsın?",
     "level": "Sätze"
   },
   {
     "de": "Entschuldige, ich möchte etwas mit dir besprechen.",
-    "lv": "Özür dilerim, seninle bir konu hakkında konuşmak istiyorum.",
+    "lv": "Affedersin, seninle bir şey konuşmak istiyorum.",
     "level": "Sätze"
   },
   {
     "de": "Gehen wir spazieren!",
-    "lv": "Hadi yürüyüşe çıkalım!",
+    "lv": "Yürüyüşe çıkalım!",
     "level": "Sätze"
   },
   {
     "de": "Hast du Lust, mit mir in den Park zu gehen?",
-    "lv": "Benimle parka gitmek ister misin?",
+    "lv": "Canın benimle parka gitmek istiyor mu?",
     "level": "Sätze"
   },
   {
@@ -2906,12 +2906,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Geh bitte etwas langsamer, ich kann dir nicht folgen!",
-    "lv": "Biraz daha yavaş sür, sana yetişemiyorum!",
+    "lv": "Lütfen biraz daha yavaş yürü, sana yetişemiyorum!",
     "level": "Sätze"
   },
   {
     "de": "Ich bin zum ersten Mal in dieser Gegend.",
-    "lv": "Jestem tu po raz pierwszy.",
+    "lv": "Bu bölgeye ilk kez geliyorum.",
     "level": "Sätze"
   },
   {
@@ -2921,37 +2921,37 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Jetzt können wir zurückgehen.",
-    "lv": "Teraz możemy wrócić.",
+    "lv": "Şimdi geri dönebiliriz.",
     "level": "Sätze"
   },
   {
     "de": "Ehrlich gesagt bin ich ziemlich müde.",
-    "lv": "Doğrusunu söylemek gerekirse oldukça yoruldum.",
+    "lv": "Açıkçası oldukça yorgunum.",
     "level": "Sätze"
   },
   {
     "de": "Entschuldige, wo ist die nächste U-Bahn-Station?",
-    "lv": "Affedersiniz, en yakın metro istasyonu nerede?",
+    "lv": "Affedersin, en yakın metro istasyonu nerede?",
     "level": "Sätze"
   },
   {
     "de": "Welcher ist der kürzeste Weg?",
-    "lv": "En kısa yol hangisidir?",
+    "lv": "En kısa yol hangisi?",
     "level": "Sätze"
   },
   {
     "de": "Geh hier die zweite Straße links und dann immer geradeaus.",
-    "lv": "Burada soldan ikinci sokağa girin ve düz ilerleyin.",
+    "lv": "Buradan ikinci sokaktan sola dön, sonra hep dümdüz git.",
     "level": "Sätze"
   },
   {
     "de": "Wie komme ich am schnellsten zum Bahnhof?",
-    "lv": "İstasyona daha hızlı nasıl gidilir?",
+    "lv": "Tren istasyonuna en çabuk nasıl giderim?",
     "level": "Sätze"
   },
   {
     "de": "Ich habe vor, morgen zu verreisen.",
-    "lv": "Yarın ayrılmayı planlıyorum.",
+    "lv": "Yarın yolculuğa çıkmayı planlıyorum.",
     "level": "Sätze"
   },
   {
@@ -2961,12 +2961,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Reist du geschäftlich oder privat?",
-    "lv": "İş için mi yoksa zevk için mi seyahat ediyorsunuz?",
+    "lv": "İş için mi seyahat ediyorsun, yoksa özel olarak mı?",
     "level": "Sätze"
   },
   {
     "de": "Finn fährt bis Berlin mit, dann geht er ans Meer.",
-    "lv": "Finn jedzie do Berlina, potem pojedzie nad morze.",
+    "lv": "Finn Berlin'e kadar bizimle geliyor, sonra da deniz kenarına gidecek.",
     "level": "Sätze"
   },
   {
@@ -2981,17 +2981,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Kann ich noch eine Kabine bekommen?",
-    "lv": "Yine de bir kabin alabilir miyim?",
+    "lv": "Hâlâ bir kamara alabilir miyim?",
     "level": "Sätze"
   },
   {
     "de": "Vergiss deinen Pass nicht!",
-    "lv": "Nie zapomnij paszportu!",
+    "lv": "Pasaportunu unutma!",
     "level": "Sätze"
   },
   {
     "de": "Es ist Zeit, den Koffer zu packen.",
-    "lv": "Bavulunuzu hazırlamanın zamanı geldi.",
+    "lv": "Bavulu hazırlama vakti.",
     "level": "Sätze"
   },
   {
@@ -3001,12 +3001,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Hol mir bitte ein Taxi, ich verpasse sonst den Zug!",
-    "lv": "Lütfen bir taksi çağırın, yoksa treni kaçıracağım!",
+    "lv": "Lütfen bana bir taksi çağır, yoksa treni kaçıracağım!",
     "level": "Sätze"
   },
   {
     "de": "Fahr bitte zum Bahnhof!",
-    "lv": "Lütfen beni istasyona götürün!",
+    "lv": "Lütfen beni istasyona götür!",
     "level": "Sätze"
   },
   {
@@ -3016,12 +3016,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ist der Schalter schon offen?",
-    "lv": "Yazar kasa zaten açık mı?",
+    "lv": "Gişe açıldı mı?",
     "level": "Sätze"
   },
   {
     "de": "Eine Fahrkarte nach Köln, bitte.",
-    "lv": "Köln'e bir bilet istiyorum.",
+    "lv": "Köln'e bir bilet, lütfen.",
     "level": "Sätze"
   },
   {
@@ -3031,102 +3031,102 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Der Zug fährt gleich ab.",
-    "lv": "Tren yakında kalkıyor.",
+    "lv": "Tren kalkmak üzere.",
     "level": "Sätze"
   },
   {
     "de": "Muss ich in Koblenz umsteigen?",
-    "lv": "Czy muszę zmieniać miejsce w Koblencji?",
+    "lv": "Koblenz'de aktarma yapmam gerekiyor mu?",
     "level": "Sätze"
   },
   {
     "de": "Ja, dort musst du umsteigen.",
-    "lv": "Evet, oradaki yeri değiştirmeniz gerekiyor.",
+    "lv": "Evet, orada aktarma yapmalısın.",
     "level": "Sätze"
   },
   {
     "de": "Ist dieser Platz frei?",
-    "lv": "Burası müsait mi?",
+    "lv": "Bu yer boş mu?",
     "level": "Sätze"
   },
   {
     "de": "Nein, hier sitzt niemand.",
-    "lv": "Nie, nikt tu nie siedzi.",
+    "lv": "Hayır, burada kimse oturmuyor.",
     "level": "Sätze"
   },
   {
     "de": "Wo ist der Bahnsteigkartenautomat?",
-    "lv": "Gdzie jest automat biletowy na peronie?",
+    "lv": "Peron bileti otomatı nerede?",
     "level": "Sätze"
   },
   {
     "de": "Stell mein Handgepäck ins Gepäcknetz.",
-    "lv": "El bagajımı ağa koy.",
+    "lv": "El bagajımı bagaj rafına koy.",
     "level": "Sätze"
   },
   {
     "de": "Kann ich das Fenster aufmachen?",
-    "lv": "Camı açabilir miyim?",
+    "lv": "Pencereyi açabilir miyim?",
     "level": "Sätze"
   },
   {
     "de": "Es zieht, schließ bitte das Fenster!",
-    "lv": "Lütfen içeri girin, lütfen pencereyi kapatın!",
+    "lv": "Cereyan var, lütfen pencereyi kapat!",
     "level": "Sätze"
   },
   {
     "de": "Welche ist die nächste Station?",
-    "lv": "Bir sonraki durak neresi?",
+    "lv": "Bir sonraki istasyon hangisi?",
     "level": "Sätze"
   },
   {
     "de": "Wie lange hält der Zug?",
-    "lv": "Tren ne zamandır bekliyor?",
+    "lv": "Tren ne kadar duruyor?",
     "level": "Sätze"
   },
   {
     "de": "Wo muss ich umsteigen?",
-    "lv": "Nereye taşınmalıyım?",
+    "lv": "Nerede aktarma yapmalıyım?",
     "level": "Sätze"
   },
   {
     "de": "Der Zug hat Verspätung.",
-    "lv": "Tren gecikti.",
+    "lv": "Tren rötarlı.",
     "level": "Sätze"
   },
   {
     "de": "Dieser Wagen ist für Nichtraucher.",
-    "lv": "Bu vagonda sigara içmek yasaktır.",
+    "lv": "Bu vagon sigara içmeyenler için.",
     "level": "Sätze"
   },
   {
     "de": "Wir fahren jetzt über die Grenze.",
-    "lv": "Teraz jedziemy przez granicę.",
+    "lv": "Şimdi sınırı geçiyoruz.",
     "level": "Sätze"
   },
   {
     "de": "Hast du etwas zu verzollen?",
-    "lv": "Temizleyecek bir şeyin var mı?",
+    "lv": "Gümrüğe tabi bir şeyin var mı?",
     "level": "Sätze"
   },
   {
     "de": "Wir sind in Berlin angekommen.",
-    "lv": "Berlin'e ulaştık.",
+    "lv": "Berlin'e vardık.",
     "level": "Sätze"
   },
   {
     "de": "Kannst du mir ein gutes Hotel empfehlen?",
-    "lv": "İyi bir otel tavsiye edebilir misiniz?",
+    "lv": "Bana iyi bir otel önerebilir misin?",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie freie Zimmer?",
-    "lv": "Czy masz wolne pokoje?",
+    "lv": "Boş odanız var mı?",
     "level": "Sätze"
   },
   {
     "de": "Ein Zimmer mit zwei Betten, bitte.",
-    "lv": "İki yataklı bir oda istiyorum lütfen.",
+    "lv": "İki yataklı bir oda, lütfen.",
     "level": "Sätze"
   },
   {
@@ -3136,22 +3136,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Morgen reise ich ab. Weck mich um sieben Uhr!",
-    "lv": "Wyjeżdżam jutro. Obudź mnie o siódmej!",
+    "lv": "Yarın ayrılıyorum. Beni saat yedide uyandır!",
     "level": "Sätze"
   },
   {
     "de": "Die Rechnung, bitte!",
-    "lv": "Hesap lütfen!",
+    "lv": "Hesap, lütfen!",
     "level": "Sätze"
   },
   {
     "de": "Wo ist die Stadtbibliothek?",
-    "lv": "Gdzie jest biblioteka miejska?",
+    "lv": "Şehir kütüphanesi nerede?",
     "level": "Sätze"
   },
   {
     "de": "Wann hat das Museum geöffnet?",
-    "lv": "Kiedy muzeum jest otwarte?",
+    "lv": "Müze ne zaman açık?",
     "level": "Sätze"
   },
   {
@@ -3161,7 +3161,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Fahren wir mit dem Bus oder der U-Bahn?",
-    "lv": "Jedziemy autobusem czy metrem?",
+    "lv": "Otobüsle mi gidiyoruz, metroyla mı?",
     "level": "Sätze"
   },
   {
@@ -3176,12 +3176,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Gehen wir zusammen essen?",
-    "lv": "Birlikte yemek yemeye gidelim mi?",
+    "lv": "Birlikte yemeğe gidelim mi?",
     "level": "Sätze"
   },
   {
     "de": "Kellner, die Speisekarte, bitte!",
-    "lv": "Garsonlar, menü lütfen!",
+    "lv": "Garson, menü lütfen!",
     "level": "Sätze"
   },
   {
@@ -3191,47 +3191,47 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Das schmeckt ausgezeichnet!",
-    "lv": "Smakuje wspaniale!",
+    "lv": "Bunun tadı harika!",
     "level": "Sätze"
   },
   {
     "de": "Kellner, zahlen bitte!",
-    "lv": "Garsonlar, lütfen ödeyin!",
+    "lv": "Garson, hesap lütfen!",
     "level": "Sätze"
   },
   {
     "de": "Ich gehe ins Café einen Kaffee trinken.",
-    "lv": "Pójdę do kawiarni napić się kawy.",
+    "lv": "Kafeye kahve içmeye gidiyorum.",
     "level": "Sätze"
   },
   {
     "de": "Willst du mitkommen?",
-    "lv": "Gelmek ister misin?",
+    "lv": "Sen de gelmek ister misin?",
     "level": "Sätze"
   },
   {
     "de": "Eine Tasse Kaffee mit Milch, bitte!",
-    "lv": "Bir fincan sütlü kahve istiyorum!",
+    "lv": "Bir fincan sütlü kahve, lütfen!",
     "level": "Sätze"
   },
   {
     "de": "Bitte schneller, ich habe es eilig!",
-    "lv": "Acele edin lütfen, acele etmeliyim!",
+    "lv": "Lütfen daha hızlı, acelem var!",
     "level": "Sätze"
   },
   {
     "de": "Lass deinen Kaffee nicht kalt werden!",
-    "lv": "Kahveniz soğumasın!",
+    "lv": "Kahveni soğutma!",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie etwas Erfrischendes?",
-    "lv": "Masz coś orzeźwiającego?",
+    "lv": "Serinletici bir şeyiniz var mı?",
     "level": "Sätze"
   },
   {
     "de": "Eine Portion Eis, bitte!",
-    "lv": "Dondurma yardımı istiyorum!",
+    "lv": "Bir porsiyon dondurma, lütfen!",
     "level": "Sätze"
   },
   {
@@ -3241,7 +3241,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich muss ihm gleich schreiben.",
-    "lv": "Şimdi ona yazmalıyım.",
+    "lv": "Ona hemen yazmalıyım.",
     "level": "Sätze"
   },
   {
@@ -3251,22 +3251,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wo ist die Post?",
-    "lv": "Gdzie jest poczta?",
+    "lv": "Postane nerede?",
     "level": "Sätze"
   },
   {
     "de": "Erinnere mich morgen daran zu schreiben!",
-    "lv": "Yarın imzalamayı bana hatırlat!",
+    "lv": "Yarın bana yazmayı hatırlat!",
     "level": "Sätze"
   },
   {
     "de": "Werfen Sie bitte diesen Brief in den Briefkasten.",
-    "lv": "Lütfen bu mektubu posta kutunuza koyun!",
+    "lv": "Lütfen bu mektubu posta kutusuna atın.",
     "level": "Sätze"
   },
   {
     "de": "Hallo, hier spricht Emma.",
-    "lv": "Merhaba, bu Emma.",
+    "lv": "Alo, ben Emma.",
     "level": "Sätze"
   },
   {
@@ -3276,7 +3276,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Muss ich lange warten?",
-    "lv": "Uzun süre beklemem gerekiyor mu?",
+    "lv": "Çok bekleyecek miyim?",
     "level": "Sätze"
   },
   {
@@ -3286,7 +3286,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Hinten bitte nicht zu kurz.",
-    "lv": "Arkada lütfen çok kısa olmasın.",
+    "lv": "Arkası lütfen çok kısa olmasın.",
     "level": "Sätze"
   },
   {
@@ -3296,62 +3296,62 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Es fängt um halb acht an.",
-    "lv": "Zaczyna się o wpół do siódmej.",
+    "lv": "Yedi buçukta başlıyor.",
     "level": "Sätze"
   },
   {
     "de": "Alle Plätze sind ausverkauft.",
-    "lv": "Tüm biletler tükendi.",
+    "lv": "Bütün biletler tükendi.",
     "level": "Sätze"
   },
   {
     "de": "Drei Karten, bitte!",
-    "lv": "Üç bilet lütfen!",
+    "lv": "Üç bilet, lütfen!",
     "level": "Sätze"
   },
   {
     "de": "Wir lassen die Jacken in der Garderobe.",
-    "lv": "Zostawmy kurtki w szafie.",
+    "lv": "Ceketlerimizi vestiyere bırakıyoruz.",
     "level": "Sätze"
   },
   {
     "de": "Bitte schnell, der Vorhang geht gleich auf!",
-    "lv": "Acele edin lütfen, perde açılmak üzere!",
+    "lv": "Lütfen çabuk, perde açılmak üzere!",
     "level": "Sätze"
   },
   {
     "de": "Der Vorhang fällt.",
-    "lv": "Kurtyna opada.",
+    "lv": "Perde iniyor.",
     "level": "Sätze"
   },
   {
     "de": "Darf ich dich zum Tanz bitten?",
-    "lv": "Senden dans etmeni isteyebilir miyim?",
+    "lv": "Benimle dans eder misin?",
     "level": "Sätze"
   },
   {
     "de": "Wann ist eure Hochzeit?",
-    "lv": "Düğünün ne zaman?",
+    "lv": "Düğününüz ne zaman?",
     "level": "Sätze"
   },
   {
     "de": "Ich suche eine Wohnung.",
-    "lv": "Szukam mieszkania.",
+    "lv": "Bir daire arıyorum.",
     "level": "Sätze"
   },
   {
     "de": "Ist in diesem Haus eine Wohnung frei?",
-    "lv": "Czy w tym domu jest wolne mieszkanie?",
+    "lv": "Bu binada boş daire var mı?",
     "level": "Sätze"
   },
   {
     "de": "Wie viel kostet die Miete?",
-    "lv": "Ile wynosi czynsz?",
+    "lv": "Kira ne kadar?",
     "level": "Sätze"
   },
   {
     "de": "Die Wohnung hat drei Zimmer und eine Küche.",
-    "lv": "Mieszkanie ma trzy pokoje i kuchnię.",
+    "lv": "Dairede üç oda ve bir mutfak var.",
     "level": "Sätze"
   },
   {
@@ -3361,17 +3361,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Mia, pack die Sachen bitte in Kisten!",
-    "lv": "Mia, proszę, spakuj rzeczy do pudełek!",
+    "lv": "Mia, lütfen eşyaları kutulara koy!",
     "level": "Sätze"
   },
   {
     "de": "Hast du alles eingepackt?",
-    "lv": "Her şey zaten paketlenmiş mi?",
+    "lv": "Her şeyi paketledin mi?",
     "level": "Sätze"
   },
   {
     "de": "Ich stehe mit meinem Freund in Kontakt.",
-    "lv": "Bir arkadaşımla yazışıyorum.",
+    "lv": "Arkadaşımla iletişim hâlindeyim.",
     "level": "Sätze"
   },
   {
@@ -3391,77 +3391,77 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Nun können wir alles wieder aufräumen.",
-    "lv": "Artık her şeyi bir araya getirebiliriz.",
+    "lv": "Artık her şeyi yeniden toparlayabiliriz.",
     "level": "Sätze"
   },
   {
     "de": "Wie viele Zimmer habt ihr?",
-    "lv": "Ile masz pokoi?",
+    "lv": "Kaç odanız var?",
     "level": "Sätze"
   },
   {
     "de": "Im Sommer fahre ich ans Meer.",
-    "lv": "Yazın deniz kenarına gideceğim.",
+    "lv": "Yazın denize gidiyorum.",
     "level": "Sätze"
   },
   {
     "de": "Kannst du schwimmen?",
-    "lv": "Czy umie Pan pływać",
+    "lv": "Yüzme biliyor musun?",
     "level": "Sätze"
   },
   {
     "de": "Schwimm nicht zu weit hinaus!",
-    "lv": "Çok uzağa yüzmeyin!",
+    "lv": "Fazla açıklara yüzme!",
     "level": "Sätze"
   },
   {
     "de": "Badest du jeden Tag?",
-    "lv": "Her gün yüzüyor musun?",
+    "lv": "Her gün denize giriyor musun?",
     "level": "Sätze"
   },
   {
     "de": "Bei schönem Wetter gehe ich angeln.",
-    "lv": "Hava güzel olursa balık tutmaya giderim.",
+    "lv": "Hava güzel olduğunda balığa çıkarım.",
     "level": "Sätze"
   },
   {
     "de": "Wie sieht er aus?",
-    "lv": "Neye benziyor?",
+    "lv": "Görünüşü nasıl?",
     "level": "Sätze"
   },
   {
     "de": "Er hat sich aber recht verändert.",
-    "lv": "Ancak oldukça değişti.",
+    "lv": "Gerçekten de epey değişmiş.",
     "level": "Sätze"
   },
   {
     "de": "Wie ist er als Mensch?",
-    "lv": "Jaki jest jako osoba?",
+    "lv": "İnsan olarak nasıl biri?",
     "level": "Sätze"
   },
   {
     "de": "Er ist immer nett und freundlich.",
-    "lv": "O her zaman nazik ve hoştur.",
+    "lv": "Her zaman nazik ve cana yakındır.",
     "level": "Sätze"
   },
   {
     "de": "Ich fühle mich nicht wohl.",
-    "lv": "Kendimi kötü hissediyorum.",
+    "lv": "Kendimi iyi hissetmiyorum.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe starke Kopfschmerzen.",
-    "lv": "Başım çok kötü ağrıyor.",
+    "lv": "Başım çok ağrıyor.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe mich erkältet.",
-    "lv": "Soğuk algınlığım var.",
+    "lv": "Üşüttüm.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe Schnupfen.",
-    "lv": "Mam katar.",
+    "lv": "Nezleyim.",
     "level": "Sätze"
   },
   {
@@ -3476,67 +3476,67 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Leg dich ins Bett!",
-    "lv": "Yatmak!",
+    "lv": "Yatağına uzan!",
     "level": "Sätze"
   },
   {
     "de": "Hast du Fieber?",
-    "lv": "Ateşin mi var?",
+    "lv": "Ateşin var mı?",
     "level": "Sätze"
   },
   {
     "de": "Gestern hatte ich erhöhte Temperatur.",
-    "lv": "Dün ateşim yüksekti.",
+    "lv": "Dün biraz ateşim vardı.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe Zahnschmerzen.",
-    "lv": "Diş ağrım var.",
+    "lv": "Dişim ağrıyor.",
     "level": "Sätze"
   },
   {
     "de": "Ich muss zum Zahnarzt gehen.",
-    "lv": "Dişçiye gitmem gerekiyor.",
+    "lv": "Dişçiye gitmem lazım.",
     "level": "Sätze"
   },
   {
     "de": "Weißt du, dass Finn krank ist?",
-    "lv": "Finn'in hasta olduğunu biliyor muydun?",
+    "lv": "Finn'in hasta olduğunu biliyor musun?",
     "level": "Sätze"
   },
   {
     "de": "Laut Arzt wird er bald wieder gesund.",
-    "lv": "Doktorun söylediğine göre yakında iyileşecek.",
+    "lv": "Doktora göre yakında iyileşecek.",
     "level": "Sätze"
   },
   {
     "de": "Ich will meine Wohnung neu möblieren.",
-    "lv": "Dairemi yenilemek istiyorum.",
+    "lv": "Evimi yeniden döşemek istiyorum.",
     "level": "Sätze"
   },
   {
     "de": "Kann ich das auf Raten kaufen?",
-    "lv": "Taksitle satın alabilir miyim?",
+    "lv": "Bunu taksitle alabilir miyim?",
     "level": "Sätze"
   },
   {
     "de": "Bleib im Bett, bis es dir besser geht!",
-    "lv": "Kendinizi daha iyi hissedene kadar yatakta kalın!",
+    "lv": "Kendini daha iyi hissedene kadar yatakta kal!",
     "level": "Sätze"
   },
   {
     "de": "Noah hat in zwei Wochen schwimmen gelernt.",
-    "lv": "Noah yüzmeyi iki haftada öğrendi.",
+    "lv": "Noah iki haftada yüzmeyi öğrendi.",
     "level": "Sätze"
   },
   {
     "de": "Sei mit dem Essen noch vorsichtig.",
-    "lv": "Yiyeceklere dikkat edin.",
+    "lv": "Yemek konusunda bir süre daha dikkatli ol.",
     "level": "Sätze"
   },
   {
     "de": "Sprichst du Deutsch?",
-    "lv": "Almanca biliyor musun?",
+    "lv": "Almanca konuşuyor musun?",
     "level": "Sätze"
   },
   {
@@ -3546,7 +3546,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Du sprichst ziemlich fließend.",
-    "lv": "Gayet akıcı konuşuyorsun.",
+    "lv": "Oldukça akıcı konuşuyorsun.",
     "level": "Sätze"
   },
   {
@@ -3561,17 +3561,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich suche immer Gelegenheit, Deutsch zu sprechen.",
-    "lv": "Zawsze szukam okazji do rozmowy po niemiecku.",
+    "lv": "Her zaman Almanca konuşma fırsatı arıyorum.",
     "level": "Sätze"
   },
   {
     "de": "Ist das Buch noch vorrätig?",
-    "lv": "Bu kitap hâlâ mevcut mu?",
+    "lv": "Kitap hâlâ stokta var mı?",
     "level": "Sätze"
   },
   {
     "de": "Das Buch ist leider ausverkauft.",
-    "lv": "Ne yazık ki kitap tükendi.",
+    "lv": "Kitap maalesef tükendi.",
     "level": "Sätze"
   },
   {
@@ -3581,27 +3581,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Womit kann ich Ihnen helfen?",
-    "lv": "Nasıl yardımcı olabilirim?",
+    "lv": "Size nasıl yardımcı olabilirim?",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie ganz frische Eier?",
-    "lv": "Taze yumurtanız var mı?",
+    "lv": "Taptaze yumurtanız var mı?",
     "level": "Sätze"
   },
   {
     "de": "Was kosten die?",
-    "lv": "Maliyetleri ne kadar?",
+    "lv": "Bunlar ne kadar?",
     "level": "Sätze"
   },
   {
     "de": "Das ist zu teuer.",
-    "lv": "Çok pahalı.",
+    "lv": "Bu fazla pahalı.",
     "level": "Sätze"
   },
   {
     "de": "Können Sie mir ein halbes Kilo abwiegen?",
-    "lv": "Yarım kilo alabilir misin?",
+    "lv": "Bana yarım kilo tartar mısınız?",
     "level": "Sätze"
   },
   {
@@ -3611,157 +3611,157 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wie viel kostet das Kilo?",
-    "lv": "Ile kosztuje kilogram?",
+    "lv": "Kilosu ne kadar?",
     "level": "Sätze"
   },
   {
     "de": "Wiegen Sie mir bitte zwei Kilo ab.",
-    "lv": "Lütfen iki kilogram tartın.",
+    "lv": "Lütfen bana iki kilo tartın.",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie auch Karotten?",
-    "lv": "Havuç da var mı?",
+    "lv": "Havucunuz da var mı?",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie gutes Rindfleisch?",
-    "lv": "İyi sığır eti var mı?",
+    "lv": "İyi sığır etiniz var mı?",
     "level": "Sätze"
   },
   {
     "de": "Geben Sie mir zwei Kilo Hackfleisch.",
-    "lv": "İki kilo kıyma verin.",
+    "lv": "Bana iki kilo kıyma verin.",
     "level": "Sätze"
   },
   {
     "de": "Ein Laib Brot, bitte, aber nicht zu knusprig.",
-    "lv": "Bir somun ekmek istiyorum ama çok sert değil.",
+    "lv": "Bir somun ekmek lütfen, ama fazla gevrek olmasın.",
     "level": "Sätze"
   },
   {
     "de": "Das Brot ist frisch gebacken.",
-    "lv": "Ekmek taze pişmiştir.",
+    "lv": "Ekmek fırından yeni çıktı.",
     "level": "Sätze"
   },
   {
     "de": "Was für Obst haben Sie heute?",
-    "lv": "Jakie owoce masz dzisiaj?",
+    "lv": "Bugün ne tür meyveleriniz var?",
     "level": "Sätze"
   },
   {
     "de": "Was kosten die Äpfel?",
-    "lv": "Elmanın fiyatı ne kadar?",
+    "lv": "Elmalar ne kadar?",
     "level": "Sätze"
   },
   {
     "de": "Dann nehme ich zwei Kilo Äpfel.",
-    "lv": "Sonra iki kilo elma alacağım.",
+    "lv": "O zaman iki kilo elma alayım.",
     "level": "Sätze"
   },
   {
     "de": "Die Birnen sind sehr teuer.",
-    "lv": "Armut çok pahalıdır.",
+    "lv": "Armutlar çok pahalı.",
     "level": "Sätze"
   },
   {
     "de": "Können Sie mir alles nach Hause liefern?",
-    "lv": "Her şeyi evinize teslim edebilir misiniz?",
+    "lv": "Her şeyi eve teslim edebilir misiniz?",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie Reis?",
-    "lv": "Pirinç var mı?",
+    "lv": "Pirinciniz var mı?",
     "level": "Sätze"
   },
   {
     "de": "Geben Sie mir bitte ein Kilo Reis.",
-    "lv": "Lütfen bana bir kilo pirinç ver.",
+    "lv": "Lütfen bana bir kilo pirinç verin.",
     "level": "Sätze"
   },
   {
     "de": "Danke, diesmal nicht.",
-    "lv": "Teşekkür ederim, bu sefer değil.",
+    "lv": "Teşekkürler, bu sefer değil.",
     "level": "Sätze"
   },
   {
     "de": "Wie viel kostet dieser Teppich?",
-    "lv": "Ile kosztuje ten dywan?",
+    "lv": "Bu halı ne kadar?",
     "level": "Sätze"
   },
   {
     "de": "Können Sie die Möbel in meine Wohnung liefern?",
-    "lv": "Daireye mobilya teslim etmek mümkün mü?",
+    "lv": "Mobilyaları evime teslim edebilir misiniz?",
     "level": "Sätze"
   },
   {
     "de": "Bitte an der Kasse zahlen.",
-    "lv": "Lütfen ödeme sırasında ödeme yapın.",
+    "lv": "Lütfen kasada ödeyiniz.",
     "level": "Sätze"
   },
   {
     "de": "Bitte, machen Sie die Rechnung.",
-    "lv": "Lütfen fatura düzenleyin.",
+    "lv": "Lütfen faturayı kesin.",
     "level": "Sätze"
   },
   {
     "de": "Was kostet das Meter?",
-    "lv": "Ile kosztuje metr?",
+    "lv": "Metresi ne kadar?",
     "level": "Sätze"
   },
   {
     "de": "Dieser Stoff gefällt mir.",
-    "lv": "Uwielbiam tę tkaninę.",
+    "lv": "Bu kumaşı beğendim.",
     "level": "Sätze"
   },
   {
     "de": "Schneiden Sie mir bitte drei Meter ab.",
-    "lv": "Lütfen üç metreyi kesin.",
+    "lv": "Lütfen bana üç metre kesin.",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie auch andere Muster?",
-    "lv": "Başka örnekleriniz var mı?",
+    "lv": "Başka desenleriniz de var mı? • Başka numuneleriniz de var mı?",
     "level": "Sätze"
   },
   {
     "de": "Diese Farbe gefällt mir nicht.",
-    "lv": "Bu rengi sevmiyorum.",
+    "lv": "Bu rengi beğenmiyorum.",
     "level": "Sätze"
   },
   {
     "de": "Geben Sie mir eine hellere.",
-    "lv": "Daha parlak hale getirin.",
+    "lv": "Bana daha açık bir renk verin.",
     "level": "Sätze"
   },
   {
     "de": "Was kosten diese Socken?",
-    "lv": "Bu çorapların fiyatı ne kadar?",
+    "lv": "Bu çoraplar ne kadar?",
     "level": "Sätze"
   },
   {
     "de": "Welche Handschuhe wünschen Sie?",
-    "lv": "Ne tür eldiven istiyorsun?",
+    "lv": "Hangi eldivenleri istersiniz?",
     "level": "Sätze"
   },
   {
     "de": "Die sind mir etwas zu eng.",
-    "lv": "Benim için biraz fazla sıkılar.",
+    "lv": "Bunlar bana biraz dar.",
     "level": "Sätze"
   },
   {
     "de": "So, nun passen sie gut.",
-    "lv": "Yani şimdi iyi çalışıyor.",
+    "lv": "Tamam, şimdi tam oldu.",
     "level": "Sätze"
   },
   {
     "de": "Kannst du mir einen guten Schneider empfehlen?",
-    "lv": "İyi bir terzi önerebilir misiniz?",
+    "lv": "Bana iyi bir terzi önerebilir misin?",
     "level": "Sätze"
   },
   {
     "de": "Ich will einen Anzug bestellen.",
-    "lv": "Takım elbise sipariş etmek istiyorum.",
+    "lv": "Bir takım elbise diktirmek istiyorum.",
     "level": "Sätze"
   },
   {
@@ -3771,17 +3771,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Der Anzug sitzt gut.",
-    "lv": "Garnitur pasuje dobrze.",
+    "lv": "Takım elbise iyi oturuyor.",
     "level": "Sätze"
   },
   {
     "de": "Die Hose ist zu lang.",
-    "lv": "Pantolon çok uzun.",
+    "lv": "Pantolon fazla uzun.",
     "level": "Sätze"
   },
   {
     "de": "Bitte reinigen und bügeln Sie ihn!",
-    "lv": "Lütfen temizleyin ve ütüleyin!",
+    "lv": "Lütfen temizleyip ütüleyin!",
     "level": "Sätze"
   },
   {
@@ -3791,102 +3791,102 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Die Schuhe sind zu eng.",
-    "lv": "Ayakkabılar çok dar.",
+    "lv": "Ayakkabılar fazla dar.",
     "level": "Sätze"
   },
   {
     "de": "Können Sie die Schuhe heute reparieren?",
-    "lv": "Bugün ayakkabılarını tamir edebilir misin?",
+    "lv": "Ayakkabıları bugün tamir edebilir misiniz?",
     "level": "Sätze"
   },
   {
     "de": "Wann kann ich die Schuhe abholen?",
-    "lv": "Ayakkabılarımı ne zaman getirebilirim?",
+    "lv": "Ayakkabıları ne zaman alabilirim?",
     "level": "Sätze"
   },
   {
     "de": "Meine Armbanduhr funktioniert nicht.",
-    "lv": "Saatim çalışmıyor.",
+    "lv": "Kol saatim çalışmıyor.",
     "level": "Sätze"
   },
   {
     "de": "Sie geht fünf Minuten vor.",
-    "lv": "Beş dakika erken.",
+    "lv": "Beş dakika ileri gidiyor.",
     "level": "Sätze"
   },
   {
     "de": "Bist du kurzsichtig oder weitsichtig?",
-    "lv": "Kısa görüşlü müsünüz yoksa uzak görüşlü müsünüz?",
+    "lv": "Miyop musun yoksa hipermetrop musun?",
     "level": "Sätze"
   },
   {
     "de": "Ich möchte eine Brille kaufen.",
-    "lv": "Gözlük satın almak istiyorum.",
+    "lv": "Bir gözlük almak istiyorum.",
     "level": "Sätze"
   },
   {
     "de": "Können Sie meine Brille reparieren?",
-    "lv": "Czy możesz naprawić moje okulary?",
+    "lv": "Gözlüğümü tamir edebilir misiniz?",
     "level": "Sätze"
   },
   {
     "de": "Das dauert nur eine Viertelstunde.",
-    "lv": "Sadece on beş dakika sürecektir.",
+    "lv": "Sadece çeyrek saat sürer.",
     "level": "Sätze"
   },
   {
     "de": "Der Preis ist mir zu hoch.",
-    "lv": "Cena jest dla mnie za wysoka.",
+    "lv": "Fiyat benim için fazla yüksek.",
     "level": "Sätze"
   },
   {
     "de": "Ich brauche zwei Fotos für meinen Pass.",
-    "lv": "İki adet vesikalık fotoğrafa ihtiyacım var.",
+    "lv": "Pasaportum için iki fotoğrafa ihtiyacım var.",
     "level": "Sätze"
   },
   {
     "de": "Bitte packen Sie es ein und schicken Sie es mir nach Hause.",
-    "lv": "Lütfen paketleyip evinize gönderin.",
+    "lv": "Lütfen paketleyip evime gönderin.",
     "level": "Sätze"
   },
   {
     "de": "Wir haben feste Preise.",
-    "lv": "Sabit fiyatlarımız var.",
+    "lv": "Fiyatlarımız sabittir.",
     "level": "Sätze"
   },
   {
     "de": "Bitte, fotografieren Sie mich.",
-    "lv": "Lütfen bir fotoğrafımı çek.",
+    "lv": "Lütfen fotoğrafımı çekin.",
     "level": "Sätze"
   },
   {
     "de": "Setzen Sie sich, schauen Sie gerade in die Kamera und bewegen Sie sich nicht!",
-    "lv": "Oturun, doğrudan kameraya bakın ve hareket etmeyin!",
+    "lv": "Oturun, doğruca kameraya bakın ve kıpırdamayın!",
     "level": "Sätze"
   },
   {
     "de": "Wann kann ich das Probebild sehen?",
-    "lv": "Bir örneği ne zaman görebilirim?",
+    "lv": "Prova baskıyı ne zaman görebilirim?",
     "level": "Sätze"
   },
   {
     "de": "Wann sind die Fotos fertig?",
-    "lv": "Fotoğraflar ne zaman hazır olacak?",
+    "lv": "Fotoğraflar ne zaman hazır olur?",
     "level": "Sätze"
   },
   {
     "de": "Die Aufnahme ist gelungen.",
-    "lv": "Fotoğraf başarılıydı.",
+    "lv": "Çekim başarılı oldu.",
     "level": "Sätze"
   },
   {
     "de": "Die Fotos sind gut geworden.",
-    "lv": "Fotoğraflar iyi çıktı.",
+    "lv": "Fotoğraflar iyi çıkmış.",
     "level": "Sätze"
   },
   {
     "de": "Können Sie das Foto auch vergrößern?",
-    "lv": "Fotoğrafı da büyütebilir misiniz?",
+    "lv": "Fotoğrafı ayrıca büyütebilir misiniz?",
     "level": "Sätze"
   },
   {
@@ -3901,72 +3901,72 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Zeigen Sie mir bitte Trauringe.",
-    "lv": "Bana evlilik yüzüklerini göster lütfen.",
+    "lv": "Lütfen bana birkaç alyans gösterin.",
     "level": "Sätze"
   },
   {
     "de": "Der Ring ist mir etwas zu weit.",
-    "lv": "Pierścionek jest dla mnie trochę za duży.",
+    "lv": "Yüzük bana biraz bol.",
     "level": "Sätze"
   },
   {
     "de": "Ich kann ihn enger machen.",
-    "lv": "Bunu daraltabilirim.",
+    "lv": "Onu daraltabilirim.",
     "level": "Sätze"
   },
   {
     "de": "Dieser Ring passt mir.",
-    "lv": "Bu yüzük bana yakışıyor.",
+    "lv": "Bu yüzük parmağıma tam oldu.",
     "level": "Sätze"
   },
   {
     "de": "Zeigen Sie mir schöne Geschenkideen.",
-    "lv": "Güzel hediye fikirleri sunun.",
+    "lv": "Bana hediyelik güzel şeyler gösterin.",
     "level": "Sätze"
   },
   {
     "de": "Wie gefallen dir diese Ohrringe?",
-    "lv": "Bu küpeleri beğendin mi?",
+    "lv": "Bu küpeleri nasıl buldun?",
     "level": "Sätze"
   },
   {
     "de": "Diese Brosche ist wirklich schön.",
-    "lv": "Bu broş çok güzel.",
+    "lv": "Bu broş gerçekten çok güzel.",
     "level": "Sätze"
   },
   {
     "de": "Der Stein ist ein Saphir.",
-    "lv": "Bu taş safirdir.",
+    "lv": "Bu taş safir.",
     "level": "Sätze"
   },
   {
     "de": "Das ist kein echter Stein, das ist Glas.",
-    "lv": "Gerçek taş değil, cam.",
+    "lv": "Bu gerçek taş değil, cam.",
     "level": "Sätze"
   },
   {
     "de": "Dieses Armband kann ich Ihnen besonders empfehlen.",
-    "lv": "Bu bilekliği özellikle tavsiye ediyorum.",
+    "lv": "Bu bileziği size özellikle tavsiye edebilirim.",
     "level": "Sätze"
   },
   {
     "de": "Es ist besonders schön gearbeitet.",
-    "lv": "Jest niezwykle precyzyjnie wykonany.",
+    "lv": "İşçiliği özellikle güzel.",
     "level": "Sätze"
   },
   {
     "de": "Der Preis ist nicht hoch.",
-    "lv": "Cena nie jest wysoka.",
+    "lv": "Fiyat yüksek değil.",
     "level": "Sätze"
   },
   {
     "de": "Bekomme ich die Schachtel gratis?",
-    "lv": "Ücretsiz bir kutu aldım mı?",
+    "lv": "Kutu ücretsiz mi?",
     "level": "Sätze"
   },
   {
     "de": "Alle Schmuckstücke sind gestempelt.",
-    "lv": "Tüm mücevherler damgalanmıştır.",
+    "lv": "Bütün mücevherler damgalıdır.",
     "level": "Sätze"
   },
   {
@@ -3976,7 +3976,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Natürlich, jederzeit.",
-    "lv": "Tabii ki asla.",
+    "lv": "Elbette, istediğiniz zaman.",
     "level": "Sätze"
   }
 ];
