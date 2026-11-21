@@ -1,72 +1,72 @@
 const SENTENCE_ENTRIES = [
   {
     "de": "Hüte dich davor!",
-    "lv": "Pazite se!",
+    "lv": "Varuj se tega!",
     "level": "Sätze"
   },
   {
     "de": "Wenn nichts dazwischenkommt.",
-    "lv": "Če nič ne moti. • Če gre vse po načrtih.",
+    "lv": "Če se nič ne zaplete. • Če bo vse po načrtu.",
     "level": "Sätze"
   },
   {
     "de": "Das kann ich mir denken!",
-    "lv": "Vem to!",
+    "lv": "To si lahko mislim!",
     "level": "Sätze"
   },
   {
     "de": "Ist er denn krank?",
-    "lv": "Je potem bolan?",
+    "lv": "Je mar bolan?",
     "level": "Sätze"
   },
   {
     "de": "Was denn?",
-    "lv": "Kaj potem?",
+    "lv": "Kaj pa?",
     "level": "Sätze"
   },
   {
     "de": "Desto mehr.",
-    "lv": "Čim več.",
+    "lv": "Toliko več.",
     "level": "Sätze"
   },
   {
     "de": "Je mehr, desto besser.",
-    "lv": "Več kot je, bolje je.",
+    "lv": "Čim več, tem bolje.",
     "level": "Sätze"
   },
   {
     "de": "Alles deutet auf Regen.",
-    "lv": "Vse kaže na primer.",
+    "lv": "Vse kaže na dež.",
     "level": "Sätze"
   },
   {
     "de": "Damit ist mir wenig gedient.",
-    "lv": "Zame je malo smiselno.",
+    "lv": "To mi ne pomaga kaj dosti.",
     "level": "Sätze"
   },
   {
     "de": "Er ist dienstlich verhindert.",
-    "lv": "Ne more priti zaradi službe.",
+    "lv": "Zaradi službenih obveznosti ne more priti.",
     "level": "Sätze"
   },
   {
     "de": "Sprechen Sie doch!",
-    "lv": "Spregovori!",
+    "lv": "Pa govorite!",
     "level": "Sätze"
   },
   {
     "de": "Es donnert.",
-    "lv": "Grom tuli.",
+    "lv": "Grmi.",
     "level": "Sätze"
   },
   {
     "de": "Doppelt so groß.",
-    "lv": "Divtik liels.",
+    "lv": "Dvakrat večji.",
     "level": "Sätze"
   },
   {
     "de": "Von dort.",
-    "lv": "No turienes.",
+    "lv": "Od tam.",
     "level": "Sätze"
   },
   {
@@ -76,22 +76,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ihn drücken Sorgen.",
-    "lv": "Prevzame ga skrb.",
+    "lv": "Tarejo ga skrbi.",
     "level": "Sätze"
   },
   {
     "de": "Hast du das Buch durchgearbeitet?",
-    "lv": "Ste skrbno prelistali knjigo?",
+    "lv": "Si knjigo temeljito predelal?",
     "level": "Sätze"
   },
   {
     "de": "Kein Durchgang!",
-    "lv": "Ne pojdi skozi! • Izhod zaprt!",
+    "lv": "Prehod prepovedan!",
     "level": "Sätze"
   },
   {
     "de": "Darf ich Sie bitten?",
-    "lv": "Te lahko vprašam",
+    "lv": "Smem vas prositi?",
     "level": "Sätze"
   },
   {
@@ -101,22 +101,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Eben das meine ich.",
-    "lv": "Točno to mislim.",
+    "lv": "Prav to mislim.",
     "level": "Sätze"
   },
   {
     "de": "Es ist ganz egal.",
-    "lv": "To sploh ni pomembno.",
+    "lv": "Popolnoma vseeno je.",
     "level": "Sätze"
   },
   {
     "de": "Was wollen Sie eigentlich?",
-    "lv": "Kaj si pravzaprav želiš?",
+    "lv": "Kaj pravzaprav hočete?",
     "level": "Sätze"
   },
   {
     "de": "Eilt es mit dieser Sache?",
-    "lv": "Je ta zadeva nujna?",
+    "lv": "Se s to zadevo mudi?",
     "level": "Sätze"
   },
   {
@@ -126,17 +126,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich habe es eilig.",
-    "lv": "Se mi mudi.",
+    "lv": "Mudi se mi.",
     "level": "Sätze"
   },
   {
     "de": "Du bildest dir nur ein, krank zu sein.",
-    "lv": "Samo predstavljate si, da ste bolni.",
+    "lv": "Samo si domišljaš, da si bolan.",
     "level": "Sätze"
   },
   {
     "de": "Was fällt dir ein?",
-    "lv": "Kaj vam pride na misel?",
+    "lv": "Kako si drzneš? • Kaj ti pride na misel?",
     "level": "Sätze"
   },
   {
@@ -146,12 +146,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Steigen Sie bitte ein!",
-    "lv": "Prosim vstopite!",
+    "lv": "Vstopite, prosim!",
     "level": "Sätze"
   },
   {
     "de": "Treten Sie ein!",
-    "lv": "Prosim vstopite!",
+    "lv": "Izvolite, vstopite!",
     "level": "Sätze"
   },
   {
@@ -166,7 +166,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Diese Flasche enthält Essig.",
-    "lv": "Ta steklenica vsebuje kis.",
+    "lv": "V tej steklenici je kis.",
     "level": "Sätze"
   },
   {
@@ -176,7 +176,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Entweder... oder...",
-    "lv": "Ali ... ali ...",
+    "lv": "Bodisi... bodisi...",
     "level": "Sätze"
   },
   {
@@ -186,37 +186,37 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wer fehlt heute?",
-    "lv": "Kdo še ni prišel danes?",
+    "lv": "Kdo danes manjka?",
     "level": "Sätze"
   },
   {
     "de": "Was fehlt dir?",
-    "lv": "Kaj je narobe s teboj?",
+    "lv": "Kaj ti je?",
     "level": "Sätze"
   },
   {
     "de": "Wie heißen Sie?",
-    "lv": "Kako ti je ime",
+    "lv": "Kako vam je ime?",
     "level": "Sätze"
   },
   {
     "de": "Was soll das heißen?",
-    "lv": "Ko tas nozīmē?",
+    "lv": "Kaj naj bi to pomenilo?",
     "level": "Sätze"
   },
   {
     "de": "Bitte treten Sie näher heran!",
-    "lv": "Prosim pridi bližje!",
+    "lv": "Prosim, stopite bliže!",
     "level": "Sätze"
   },
   {
     "de": "Heraus mit der Sprache!",
-    "lv": "Govori! • Zgodbe!",
+    "lv": "Na dan z besedo!",
     "level": "Sätze"
   },
   {
     "de": "im Herbst",
-    "lv": "rudenī",
+    "lv": "jeseni",
     "level": "Sätze"
   },
   {
@@ -226,32 +226,32 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "von heute an",
-    "lv": "sākot ar šodienu",
+    "lv": "od danes naprej",
     "level": "Sätze"
   },
   {
     "de": "heute früh",
-    "lv": "šorīt",
+    "lv": "danes zjutraj",
     "level": "Sätze"
   },
   {
     "de": "heute Nacht",
-    "lv": "šonakt",
+    "lv": "nocoj",
     "level": "Sätze"
   },
   {
     "de": "Zu Hilfe!",
-    "lv": "Pomoč!",
+    "lv": "Na pomoč!",
     "level": "Sätze"
   },
   {
     "de": "Ich lerne jeden Tag Deutsch.",
-    "lv": "Nemščino se učim vsak dan.",
+    "lv": "Vsak dan se učim nemščine.",
     "level": "Sätze"
   },
   {
     "de": "Kannst du das bitte wiederholen?",
-    "lv": "Lahko to ponovite prosim?",
+    "lv": "Lahko to, prosim, ponoviš?",
     "level": "Sätze"
   },
   {
@@ -261,7 +261,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich stimme dir teilweise zu.",
-    "lv": "Delno se strinjam s teboj.",
+    "lv": "Deloma se strinjam s teboj.",
     "level": "Sätze"
   },
   {
@@ -271,32 +271,32 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Man sollte mehrere Perspektiven berücksichtigen.",
-    "lv": "Upoštevati je treba več perspektiv.",
+    "lv": "Upoštevati bi bilo treba več vidikov.",
     "level": "Sätze"
   },
   {
     "de": "Könnten Sie das näher erläutern?",
-    "lv": "Ali lahko to podrobneje pojasnite?",
+    "lv": "Bi lahko to podrobneje pojasnili?",
     "level": "Sätze"
   },
   {
     "de": "Was mich anbelangt,...",
-    "lv": "Kar se mene tiče ...",
+    "lv": "Kar se mene tiče,...",
     "level": "Sätze"
   },
   {
     "de": "Wie alt sind Sie?",
-    "lv": "Koliko si stara",
+    "lv": "Koliko ste stari?",
     "level": "Sätze"
   },
   {
     "de": "Ich bin zwanzig Jahre alt.",
-    "lv": "Stara sem dvajset let.",
+    "lv": "Star sem dvajset let.",
     "level": "Sätze"
   },
   {
     "de": "Von heute an.",
-    "lv": "Od danes.",
+    "lv": "Od danes naprej.",
     "level": "Sätze"
   },
   {
@@ -306,32 +306,32 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Anders geht es nicht.",
-    "lv": "Ni druge poti.",
+    "lv": "Drugače ne gre.",
     "level": "Sätze"
   },
   {
     "de": "Rufen Sie mich an.",
-    "lv": "Pokliči me",
+    "lv": "Pokličite me.",
     "level": "Sätze"
   },
   {
     "de": "Bitte stellen Sie das Radio ab.",
-    "lv": "Prosim izklopite radio.",
+    "lv": "Prosim, izklopite radio.",
     "level": "Sätze"
   },
   {
     "de": "Achte bitte auf den Verkehr.",
-    "lv": "Prosimo, bodite pozorni na promet.",
+    "lv": "Pazi, prosim, na promet.",
     "level": "Sätze"
   },
   {
     "de": "Darauf musst du achten.",
-    "lv": "Na to morate biti pozorni.",
+    "lv": "Na to moraš paziti.",
     "level": "Sätze"
   },
   {
     "de": "Heute mache ich es anders.",
-    "lv": "Danes bom naredil drugače.",
+    "lv": "Danes bom to naredil drugače.",
     "level": "Sätze"
   },
   {
@@ -346,32 +346,32 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich habe die Ausbildung absolviert.",
-    "lv": "Končal sem usposabljanje. • Zaključil sem izobraževanje.",
+    "lv": "Zaključil sem usposabljanje. • Končal sem šolanje.",
     "level": "Sätze"
   },
   {
     "de": "Ich warte den Regen ab.",
-    "lv": "Bom počakala, da preneha deževati.",
+    "lv": "Počakal bom, da dež poneha.",
     "level": "Sätze"
   },
   {
     "de": "Er arbeitet in der Verkaufsabteilung.",
-    "lv": "Dela v oddelku prodaje.",
+    "lv": "Dela v prodajnem oddelku.",
     "level": "Sätze"
   },
   {
     "de": "Ich bin allergisch gegen Katzen.",
-    "lv": "Sem alergičen na mačke.",
+    "lv": "Alergičen sem na mačke.",
     "level": "Sätze"
   },
   {
     "de": "Andererseits verstehe ich ihn.",
-    "lv": "Po drugi strani pa ga razumem.",
+    "lv": "Po drugi strani ga razumem.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe die Situation analysiert.",
-    "lv": "Es izanalizēju situāciju.",
+    "lv": "Analiziral sem položaj.",
     "level": "Sätze"
   },
   {
@@ -381,12 +381,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich möchte das genauer analysieren.",
-    "lv": "Želim ga natančneje analizirati.",
+    "lv": "Rad bi to natančneje analiziral.",
     "level": "Sätze"
   },
   {
     "de": "Ich möchte den Vertrag ändern.",
-    "lv": "Želim spremeniti pogodbo.",
+    "lv": "Rad bi spremenil pogodbo.",
     "level": "Sätze"
   },
   {
@@ -406,77 +406,77 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Hör auf zu jammern.",
-    "lv": "Nehajte se pritoževati.",
+    "lv": "Nehaj tarnati.",
     "level": "Sätze"
   },
   {
     "de": "Dieses Kleid ist akademisch gekleidet.",
-    "lv": "Šī kleita ir stilīgi konservatīva.",
+    "lv": "Ta obleka je klasično elegantna.",
     "level": "Sätze"
   },
   {
     "de": "Ich höre gerne Akkordeonmusik.",
-    "lv": "Rad poslušam harmoniko.",
+    "lv": "Rad poslušam glasbo za harmoniko.",
     "level": "Sätze"
   },
   {
     "de": "Kannst du das Gerät anklicken?",
-    "lv": "Ali lahko kliknete na napravo?",
+    "lv": "Lahko klikneš na napravo?",
     "level": "Sätze"
   },
   {
     "de": "Bitte öffne die Datei und klicke darauf.",
-    "lv": "Odprite datoteko in kliknite nanjo.",
+    "lv": "Prosim, odpri datoteko in klikni nanjo.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe einen Unfall gehabt.",
-    "lv": "Bil sem v nesreči.",
+    "lv": "Imel sem nesrečo.",
     "level": "Sätze"
   },
   {
     "de": "Wir laufen zum Bahnhof.",
-    "lv": "Gremo na postajo.",
+    "lv": "Peš gremo na železniško postajo.",
     "level": "Sätze"
   },
   {
     "de": "Bitte schalte den Fernseher an.",
-    "lv": "Prosim prižgi TV.",
+    "lv": "Prosim, prižgi televizor.",
     "level": "Sätze"
   },
   {
     "de": "Mein Computer ist abgestürzt.",
-    "lv": "Moj računalnik se je sesul.",
+    "lv": "Računalnik mi je odpovedal.",
     "level": "Sätze"
   },
   {
     "de": "Am Wochenende gehe ich angeln.",
-    "lv": "Konec tedna bom šel na ribolov.",
+    "lv": "Ob koncu tedna grem lovit ribe.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe den Anruf verpasst.",
-    "lv": "Zgrešil sem klic.",
+    "lv": "Zamudil sem klic.",
     "level": "Sätze"
   },
   {
     "de": "Kannst du mich später anrufen?",
-    "lv": "Me lahko pokličeš kasneje",
+    "lv": "Me lahko pokličeš pozneje?",
     "level": "Sätze"
   },
   {
     "de": "Bitte nimm meinen Vorschlag an.",
-    "lv": "Prosim, sprejmite moj predlog.",
+    "lv": "Prosim, sprejmi moj predlog.",
     "level": "Sätze"
   },
   {
     "de": "Ich nehme dein Angebot an.",
-    "lv": "Sprejemam vašo ponudbo.",
+    "lv": "Sprejmem tvojo ponudbo.",
     "level": "Sätze"
   },
   {
     "de": "Er nahm die Einladung an.",
-    "lv": "Povabilo je sprejel.",
+    "lv": "Sprejel je povabilo.",
     "level": "Sätze"
   },
   {
@@ -486,57 +486,57 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Keine Angst, alles wird gut.",
-    "lv": "Ne boj se, vse bo v redu.",
+    "lv": "Ne boj se, vse bo dobro.",
     "level": "Sätze"
   },
   {
     "de": "Anklang finden.",
-    "lv": "Poiščite odmev. • Poiščite odzivnost",
+    "lv": "Naleteti na odobravanje. • Najti odmev.",
     "level": "Sätze"
   },
   {
     "de": "Es kommt darauf an.",
-    "lv": "Tas ir atkarīgs no tā.",
+    "lv": "Odvisno je.",
     "level": "Sätze"
   },
   {
     "de": "Aus diesem Anlass.",
-    "lv": "Šīs reizes dēļ. • Šajā sakarā",
+    "lv": "Ob tej priložnosti.",
     "level": "Sätze"
   },
   {
     "de": "Nehmen wir an, dass...",
-    "lv": "Recimo, da ...",
+    "lv": "Predpostavimo, da...",
     "level": "Sätze"
   },
   {
     "de": "Was hast du da angerichtet?",
-    "lv": "Kaj si naredil tam",
+    "lv": "Kaj si pa zakrivil?",
     "level": "Sätze"
   },
   {
     "de": "Bis ans Ende.",
-    "lv": "Vse do konca.",
+    "lv": "Do konca.",
     "level": "Sätze"
   },
   {
     "de": "Du glaubst mir anscheinend nicht.",
-    "lv": "Zdi se, da mi ne verjameš.",
+    "lv": "Očitno mi ne verjameš.",
     "level": "Sätze"
   },
   {
     "de": "Meiner Ansicht nach...",
-    "lv": "Po mojem...",
+    "lv": "Po mojem mnenju...",
     "level": "Sätze"
   },
   {
     "de": "Stell dich nicht so an!",
-    "lv": "Ne pretvarjaj se!",
+    "lv": "Ne pretiravaj!",
     "level": "Sätze"
   },
   {
     "de": "An die Arbeit gehen.",
-    "lv": "Loti se dela.",
+    "lv": "Lotiti se dela.",
     "level": "Sätze"
   },
   {
@@ -546,37 +546,37 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Guten Appetit!",
-    "lv": "Labu apetīti!",
+    "lv": "Dober tek!",
     "level": "Sätze"
   },
   {
     "de": "In einem Atemzug.",
-    "lv": "V enem dihu.",
+    "lv": "V eni sapi.",
     "level": "Sätze"
   },
   {
     "de": "Auf jeden Fall.",
-    "lv": "V vsakem primeru.",
+    "lv": "Vsekakor.",
     "level": "Sätze"
   },
   {
     "de": "Auf einmal war alles still.",
-    "lv": "Nenadoma je vse utihnilo.",
+    "lv": "Naenkrat je bilo vse tiho.",
     "level": "Sätze"
   },
   {
     "de": "Bitte mach die Tür auf!",
-    "lv": "Prosim odprite vrata!",
+    "lv": "Odpri, prosim, vrata!",
     "level": "Sätze"
   },
   {
     "de": "Er hat den Kredit aufgenommen.",
-    "lv": "Vzel je posojilo.",
+    "lv": "Vzel je kredit.",
     "level": "Sätze"
   },
   {
     "de": "Wir müssen heute aufräumen.",
-    "lv": "Danes moramo pospraviti sobo.",
+    "lv": "Danes moramo pospraviti.",
     "level": "Sätze"
   },
   {
@@ -586,7 +586,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Er ist schon auf.",
-    "lv": "On je že pokonci.",
+    "lv": "Že je pokonci.",
     "level": "Sätze"
   },
   {
@@ -596,12 +596,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Sie hat mich aufgeregt.",
-    "lv": "Razdražila me je.",
+    "lv": "Razjezila me je.",
     "level": "Sätze"
   },
   {
     "de": "Auf einmal.",
-    "lv": "Nenadoma.",
+    "lv": "Naenkrat.",
     "level": "Sätze"
   },
   {
@@ -611,42 +611,42 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Für den Schaden aufkommen.",
-    "lv": "Pokrij škodo.",
+    "lv": "Povrniti škodo.",
     "level": "Sätze"
   },
   {
     "de": "Bitte die Tür auf!",
-    "lv": "Odprite vrata, prosim!",
+    "lv": "Odprite, prosim, vrata!",
     "level": "Sätze"
   },
   {
     "de": "Aufrecht sitzen.",
-    "lv": "Sedite naravnost.",
+    "lv": "Sedeti vzravnano.",
     "level": "Sätze"
   },
   {
     "de": "Er ist auf.",
-    "lv": "Vstal je.",
+    "lv": "Pokonci je.",
     "level": "Sätze"
   },
   {
     "de": "Alle Kräfte aufwenden.",
-    "lv": "Posvetite vse svoje moči.",
+    "lv": "Napeti vse sile.",
     "level": "Sätze"
   },
   {
     "de": "Viel Mühe aufwenden.",
-    "lv": "Ļoti pūlēties.",
+    "lv": "Vložiti veliko truda.",
     "level": "Sätze"
   },
   {
     "de": "Geh mir aus den Augen!",
-    "lv": "Ne glej me več!",
+    "lv": "Izgini mi izpred oči!",
     "level": "Sätze"
   },
   {
     "de": "Unter vier Augen.",
-    "lv": "V dveh. • Tiho",
+    "lv": "Na štiri oči.",
     "level": "Sätze"
   },
   {
@@ -666,47 +666,47 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Auf Äußerlichkeiten Wert legen.",
-    "lv": "Dajte pomen videzu.",
+    "lv": "Dajati veliko na zunanji videz.",
     "level": "Sätze"
   },
   {
     "de": "Im äußersten Fall.",
-    "lv": "V najslabšem primeru.",
+    "lv": "V skrajnem primeru.",
     "level": "Sätze"
   },
   {
     "de": "Äußerst wichtig.",
-    "lv": "Izredno pomembno.",
+    "lv": "Izjemno pomembno.",
     "level": "Sätze"
   },
   {
     "de": "Aussicht auf die See.",
-    "lv": "Pogled na morje.",
+    "lv": "Razgled na morje.",
     "level": "Sätze"
   },
   {
     "de": "Er hat gute Aussichten.",
-    "lv": "Ima dobre možnosti.",
+    "lv": "Ima dobre obete.",
     "level": "Sätze"
   },
   {
     "de": "Wie wird dieses Wort ausgesprochen?",
-    "lv": "Kako se ta beseda izgovarja?",
+    "lv": "Kako se izgovarja ta beseda?",
     "level": "Sätze"
   },
   {
     "de": "Sein Beileid aussprechen.",
-    "lv": "Izrazi sožalje.",
+    "lv": "Izreči sožalje.",
     "level": "Sätze"
   },
   {
     "de": "Wann wurden die Meisterschaftskämpfe ausgetragen?",
-    "lv": "Kdaj je bilo prvenstvo?",
+    "lv": "Kdaj je potekalo prvenstvo?",
     "level": "Sätze"
   },
   {
     "de": "Welchen Beruf üben Sie aus?",
-    "lv": "Kaj si po poklicu",
+    "lv": "Kaj ste po poklicu?",
     "level": "Sätze"
   },
   {
@@ -716,17 +716,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Auswärts essen.",
-    "lv": "Jejte zunaj.",
+    "lv": "Jesti zunaj doma.",
     "level": "Sätze"
   },
   {
     "de": "Per Bahn.",
-    "lv": "Pa dzelzceļu.",
+    "lv": "Po železnici.",
     "level": "Sätze"
   },
   {
     "de": "Mit der Bahn.",
-    "lv": "Pa dzelzceļu.",
+    "lv": "Z vlakom.",
     "level": "Sätze"
   },
   {
@@ -741,27 +741,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Auf die lange Bank schieben.",
-    "lv": "Odlašajte. • Povleci na dolžino • Odloži za nedoločen čas",
+    "lv": "Odlašati.",
     "level": "Sätze"
   },
   {
     "de": "Bar zahlen.",
-    "lv": "Plačajte v gotovini.",
+    "lv": "Plačati z gotovino.",
     "level": "Sätze"
   },
   {
     "de": "Erz bauen.",
-    "lv": "Pridobite rudo.",
+    "lv": "Kopati rudo.",
     "level": "Sätze"
   },
   {
     "de": "Mist bauen.",
-    "lv": "Streljaj. • Delajte se norca iz sebe",
+    "lv": "Narediti neumnost.",
     "level": "Sätze"
   },
   {
     "de": "Ich bin beauftragt.",
-    "lv": "Dodelili so mi službo.",
+    "lv": "Zadolžen sem.",
     "level": "Sätze"
   },
   {
@@ -781,37 +781,37 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Unter der Bedingung, dass...",
-    "lv": "Pod pogojem, da ...",
+    "lv": "Pod pogojem, da...",
     "level": "Sätze"
   },
   {
     "de": "Sie sieht bedrückt aus.",
-    "lv": "Videti je depresivno.",
+    "lv": "Videti je potrta.",
     "level": "Sätze"
   },
   {
     "de": "Hinweise befolgen.",
-    "lv": "Sledite navodilom.",
+    "lv": "Upoštevati navodila.",
     "level": "Sätze"
   },
   {
     "de": "Befehle befolgen.",
-    "lv": "Sledite ukazom.",
+    "lv": "Izvrševati ukaze.",
     "level": "Sätze"
   },
   {
     "de": "Mit der Post befördern.",
-    "lv": "Pošlji po pošti.",
+    "lv": "Poslati po pošti.",
     "level": "Sätze"
   },
   {
     "de": "Ich bin begierig zu wissen.",
-    "lv": "Res bi rad vedel.",
+    "lv": "Zelo me zanima.",
     "level": "Sätze"
   },
   {
     "de": "Zu Beginn.",
-    "lv": "Na začetku.",
+    "lv": "V začetku.",
     "level": "Sätze"
   },
   {
@@ -821,32 +821,32 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bei Beginn.",
-    "lv": "Začetek",
+    "lv": "Ob začetku.",
     "level": "Sätze"
   },
   {
     "de": "In Begleitung.",
-    "lv": "Pavadībā.",
+    "lv": "V spremstvu.",
     "level": "Sätze"
   },
   {
     "de": "Mit seiner Begleitung.",
-    "lv": "S spremljavo.",
+    "lv": "S svojim spremljevalcem.",
     "level": "Sätze"
   },
   {
     "de": "Er ist schwer von Begriff.",
-    "lv": "Počasen dojema. • Ima počasno razmišljanje",
+    "lv": "Počasi dojema.",
     "level": "Sätze"
   },
   {
     "de": "Im Gedächtnis behalten.",
-    "lv": "Ne pozabite. • Shrani v spomin",
+    "lv": "Ohraniti v spominu.",
     "level": "Sätze"
   },
   {
     "de": "Bei Tisch.",
-    "lv": "Za mizo.",
+    "lv": "Pri mizi.",
     "level": "Sätze"
   },
   {
@@ -856,37 +856,37 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bei Tage.",
-    "lv": "Čez dan.",
+    "lv": "Podnevi.",
     "level": "Sätze"
   },
   {
     "de": "Bei weitem nicht so.",
-    "lv": "Sploh ne.",
+    "lv": "Še zdaleč ne tako.",
     "level": "Sätze"
   },
   {
     "de": "Alle beide.",
-    "lv": "Oba dva.",
+    "lv": "Oba.",
     "level": "Sätze"
   },
   {
     "de": "Stürmischer Beifall brach los.",
-    "lv": "Sledil je bučen aplavz.",
+    "lv": "Izbruhnil je viharen aplavz.",
     "level": "Sätze"
   },
   {
     "de": "Beifall finden.",
-    "lv": "Pridobite soglasje.",
+    "lv": "Naleteti na odobravanje.",
     "level": "Sätze"
   },
   {
     "de": "Beileid aussprechen.",
-    "lv": "Izrazi sožalje.",
+    "lv": "Izraziti sožalje.",
     "level": "Sätze"
   },
   {
     "de": "Auf eigenen Beinen stehen.",
-    "lv": "Biti finančno neodvisen.",
+    "lv": "Stati na lastnih nogah.",
     "level": "Sätze"
   },
   {
@@ -896,67 +896,67 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Beistand leisten.",
-    "lv": "Za pomoč. • Zagotovite pomoč",
+    "lv": "Nuditi pomoč.",
     "level": "Sätze"
   },
   {
     "de": "Beitrag leisten.",
-    "lv": "Investirajte svoj delež.",
+    "lv": "Prispevati svoj delež.",
     "level": "Sätze"
   },
   {
     "de": "Jemandes Bekanntschaft machen.",
-    "lv": "Spoznajte nekoga.",
+    "lv": "Seznaniti se s kom.",
     "level": "Sätze"
   },
   {
     "de": "Bekanntschaft anknüpfen.",
-    "lv": "Iepazīties. • Nodibināt kontaktu",
+    "lv": "Navezati poznanstvo.",
     "level": "Sätze"
   },
   {
     "de": "Belegte Brötchen.",
-    "lv": "Sendviči z dodatki.",
+    "lv": "Obložene žemlje.",
     "level": "Sätze"
   },
   {
     "de": "Nach Ihrem Belieben.",
-    "lv": "Kakor želite.",
+    "lv": "Po vaši želji.",
     "level": "Sätze"
   },
   {
     "de": "Zu jeder beliebigen Zeit.",
-    "lv": "Kadarkoli.",
+    "lv": "Kadar koli.",
     "level": "Sätze"
   },
   {
     "de": "Schweigen beobachten.",
-    "lv": "Upoštevati tišino.",
+    "lv": "Ohranjati molk.",
     "level": "Sätze"
   },
   {
     "de": "Zur Bequemlichkeit.",
-    "lv": "Za udobje.",
+    "lv": "Zaradi udobja.",
     "level": "Sätze"
   },
   {
     "de": "Bereit sein.",
-    "lv": "Bodite pripravljeni. • Bodite v miru",
+    "lv": "Biti pripravljen.",
     "level": "Sätze"
   },
   {
     "de": "Unfallopfer bergen.",
-    "lv": "Reševanje ponesrečencev v primeru nesreče.",
+    "lv": "Reševati ponesrečence.",
     "level": "Sätze"
   },
   {
     "de": "Bericht erstatten.",
-    "lv": "Poročilo. • Zagotovite poročilo • Zagotovite pregled",
+    "lv": "Podati poročilo.",
     "level": "Sätze"
   },
   {
     "de": "Alle Plätze sind besetzt.",
-    "lv": "Vsi sedeži so zasedeni.",
+    "lv": "Vsa mesta so zasedena.",
     "level": "Sätze"
   },
   {
@@ -971,77 +971,77 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Er besitzt viel Mut.",
-    "lv": "Ima velik pogum.",
+    "lv": "Ima veliko poguma.",
     "level": "Sätze"
   },
   {
     "de": "Desto besser.",
-    "lv": "Tem bolje.",
+    "lv": "Toliko bolje.",
     "level": "Sätze"
   },
   {
     "de": "Gute Besserung!",
-    "lv": "Ozdravi! • Ozdravite!",
+    "lv": "Hitro okrevanje!",
     "level": "Sätze"
   },
   {
     "de": "Beim besten Willen.",
-    "lv": "Kar hočeš.",
+    "lv": "Kljub najboljši volji.",
     "level": "Sätze"
   },
   {
     "de": "Am besten.",
-    "lv": "Najboljši.",
+    "lv": "Najbolje.",
     "level": "Sätze"
   },
   {
     "de": "Es besteht Zweifel.",
-    "lv": "Obstajajo dvomi.",
+    "lv": "Obstaja dvom.",
     "level": "Sätze"
   },
   {
     "de": "Seine Aufgabe besteht darin...",
-    "lv": "Njegova naloga je...",
+    "lv": "Njegova naloga je v tem, da...",
     "level": "Sätze"
   },
   {
     "de": "Grüße bestellen.",
-    "lv": "Pozdravi",
+    "lv": "Prenesti pozdrave.",
     "level": "Sätze"
   },
   {
     "de": "Ganz bestimmt.",
-    "lv": "Vsekakor. • Popolnoma varen",
+    "lv": "Čisto zagotovo. • Prav gotovo.",
     "level": "Sätze"
   },
   {
     "de": "Zu Besuch kommen.",
-    "lv": "Pridite na obisk.",
+    "lv": "Priti na obisk.",
     "level": "Sätze"
   },
   {
     "de": "Zu Besuch sein.",
-    "lv": "Na obisk. • Na obisk",
+    "lv": "Biti na obisku. • Biti v gosteh.",
     "level": "Sätze"
   },
   {
     "de": "Oft Konzerte besuchen.",
-    "lv": "Pogosto hodi na koncerte.",
+    "lv": "Pogosto hoditi na koncerte.",
     "level": "Sätze"
   },
   {
     "de": "Welche Schule hat er besucht?",
-    "lv": "Na katero šolo je hodil?",
+    "lv": "Katero šolo je obiskoval?",
     "level": "Sätze"
   },
   {
     "de": "In Betracht ziehen.",
-    "lv": "Upoštevati. • Razmislite",
+    "lv": "Vzeti v poštev. • Pretehtati.",
     "level": "Sätze"
   },
   {
     "de": "Außer Betracht lassen.",
-    "lv": "Neupoštevanje. • Ne upoštevajte",
+    "lv": "Ne upoštevati.",
     "level": "Sätze"
   },
   {
@@ -1051,52 +1051,52 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Alle beiden.",
-    "lv": "Oba dva.",
+    "lv": "Oba.",
     "level": "Sätze"
   },
   {
     "de": "Alles bezahlen.",
-    "lv": "Samaksāt visu.",
+    "lv": "Plačati vse.",
     "level": "Sätze"
   },
   {
     "de": "Bezüglich auf etwas.",
-    "lv": "Glede nečesa.",
+    "lv": "V zvezi z nečim.",
     "level": "Sätze"
   },
   {
     "de": "Bitte schön.",
-    "lv": "Prosim",
+    "lv": "Prosim. • Izvolite.",
     "level": "Sätze"
   },
   {
     "de": "Wie bitte?",
-    "lv": "Kako prosim",
+    "lv": "Kako, prosim?",
     "level": "Sätze"
   },
   {
     "de": "Bitte sehr.",
-    "lv": "Prosim",
+    "lv": "Ni za kaj. • Kar izvolite.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe eine Bitte an Sie.",
-    "lv": "Imam prošnjo za vas.",
+    "lv": "Imam prošnjo do vas.",
     "level": "Sätze"
   },
   {
     "de": "Trompete blasen.",
-    "lv": "Zatrobi na trobento.",
+    "lv": "Igrati trobento.",
     "level": "Sätze"
   },
   {
     "de": "In einem Buch blättern.",
-    "lv": "Šķirstīt grāmatu.",
+    "lv": "Listati po knjigi.",
     "level": "Sätze"
   },
   {
     "de": "Mit bloßen Füßen.",
-    "lv": "Bose noge.",
+    "lv": "Z bosimi nogami.",
     "level": "Sätze"
   },
   {
@@ -1106,42 +1106,42 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Danke für die Blumen!",
-    "lv": "Hvala za rože!",
+    "lv": "Hvala za kompliment!",
     "level": "Sätze"
   },
   {
     "de": "Alles in Butter.",
-    "lv": "Vse je v redu.",
+    "lv": "Vse v najlepšem redu.",
     "level": "Sätze"
   },
   {
     "de": "Bitte checken.",
-    "lv": "Preverite. • Preverite",
+    "lv": "Preveriti, prosim.",
     "level": "Sätze"
   },
   {
     "de": "Da ist er!",
-    "lv": "Tukaj je!",
+    "lv": "Tu je!",
     "level": "Sätze"
   },
   {
     "de": "Alles spricht dafür.",
-    "lv": "Vse dobro govori.",
+    "lv": "Vse kaže na to.",
     "level": "Sätze"
   },
   {
     "de": "Ich kann nichts dafür.",
-    "lv": "Tam ne morem narediti ničesar.",
+    "lv": "Nisem jaz kriv.",
     "level": "Sätze"
   },
   {
     "de": "Ich bin dagegen.",
-    "lv": "Es esmu pret to.",
+    "lv": "Sem proti temu.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe nichts dagegen.",
-    "lv": "Man pret to nav iebildumu.",
+    "lv": "Nimam nič proti.",
     "level": "Sätze"
   },
   {
@@ -1151,22 +1151,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Mit der Dame ziehen.",
-    "lv": "Naredite damsko potezo.",
+    "lv": "Narediti potezo z damo.",
     "level": "Sätze"
   },
   {
     "de": "Es dämmert.",
-    "lv": "Mrači se. • Zora se začne.",
+    "lv": "Mrači se. • Dani se.",
     "level": "Sätze"
   },
   {
     "de": "Danke schön!",
-    "lv": "Hvala! • Hvala!",
+    "lv": "Hvala lepa! • Najlepša hvala!",
     "level": "Sätze"
   },
   {
     "de": "Dann und wann.",
-    "lv": "Tu in tam.",
+    "lv": "Kdaj pa kdaj.",
     "level": "Sätze"
   },
   {
@@ -1176,62 +1176,62 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Daraus wird nichts.",
-    "lv": "Nič ne bo iz tega.",
+    "lv": "Iz tega ne bo nič.",
     "level": "Sätze"
   },
   {
     "de": "So dass...",
-    "lv": "Tā ka...",
+    "lv": "Tako da...",
     "level": "Sätze"
   },
   {
     "de": "Für wen halten Sie mich?",
-    "lv": "Kaj misliš, da sem?",
+    "lv": "Za koga me imate?",
     "level": "Sätze"
   },
   {
     "de": "Hände weg!",
-    "lv": "Roke stran!",
+    "lv": "Roke proč!",
     "level": "Sätze"
   },
   {
     "de": "Lass den Kopf nicht hängen!",
-    "lv": "Ne spuščaj glave!",
+    "lv": "Ne povešaj glave!",
     "level": "Sätze"
   },
   {
     "de": "zu Hause",
-    "lv": "mājās",
+    "lv": "doma",
     "level": "Sätze"
   },
   {
     "de": "nach Hause gehen",
-    "lv": "iet uz mājām",
+    "lv": "iti domov",
     "level": "Sätze"
   },
   {
     "de": "von Haus aus",
-    "lv": "kopš bērnības • no pašiem sākumiem",
+    "lv": "po poreklu • po naravi",
     "level": "Sätze"
   },
   {
     "de": "Meinen herzlichsten Glückwunsch!",
-    "lv": "Čestitke!",
+    "lv": "Najprisrčnejše čestitke!",
     "level": "Sätze"
   },
   {
     "de": "Seien Sie so gut!",
-    "lv": "Bodi tako prijazen! • Bodi tako dober!",
+    "lv": "Bodite tako prijazni! • Bodite tako dobri!",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie die Güte!",
-    "lv": "Bodi tako prijazen!",
+    "lv": "Bodite tako ljubeznivi!",
     "level": "Sätze"
   },
   {
     "de": "Was hast du?",
-    "lv": "Kaj je narobe s teboj? • Kaj se je zgodilo?",
+    "lv": "Kaj ti je? • Kaj se ti je zgodilo?",
     "level": "Sätze"
   },
   {
@@ -1241,27 +1241,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ist es gestattet zu rauchen?",
-    "lv": "Vai drīkst smēķēt?",
+    "lv": "Ali je dovoljeno kaditi?",
     "level": "Sätze"
   },
   {
     "de": "Ich muss gestehen, dass...",
-    "lv": "Moram priznati, da ...",
+    "lv": "Moram priznati, da...",
     "level": "Sätze"
   },
   {
     "de": "gestern früh",
-    "lv": "vakar agri no rīta",
+    "lv": "včeraj zjutraj",
     "level": "Sätze"
   },
   {
     "de": "gestern Abend",
-    "lv": "vakar vakarā",
+    "lv": "včeraj zvečer",
     "level": "Sätze"
   },
   {
     "de": "Es ist mir gleichgültig, ob...",
-    "lv": "Briga me, če ...",
+    "lv": "Vseeno mi je, ali...",
     "level": "Sätze"
   },
   {
@@ -1271,57 +1271,57 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Mach keine Geschichten!",
-    "lv": "Ne delaj neumnosti! • Ne šalite se!",
+    "lv": "Ne delaj neumnosti!",
     "level": "Sätze"
   },
   {
     "de": "Geschweige denn...",
-    "lv": "Nemaz nerunājot par to. • Kur nu vēl",
+    "lv": "Kaj šele... • Da ne omenjam...",
     "level": "Sätze"
   },
   {
     "de": "Gehen Sie geradeaus!",
-    "lv": "Pojdi naravnost naprej!",
+    "lv": "Pojdite naravnost!",
     "level": "Sätze"
   },
   {
     "de": "Wie geht es Ihnen?",
-    "lv": "Kako si • Kako si?",
+    "lv": "Kako ste? • Kako se imate?",
     "level": "Sätze"
   },
   {
     "de": "Frag ihn gelegentlich, ob...",
-    "lv": "Vprašaj ga, če pride ven, če ...",
+    "lv": "Ob priložnosti ga vprašaj, ali...",
     "level": "Sätze"
   },
   {
     "de": "morgen früh",
-    "lv": "rīt no rīta",
+    "lv": "jutri zjutraj",
     "level": "Sätze"
   },
   {
     "de": "im Frühling",
-    "lv": "pavasarī",
+    "lv": "spomladi",
     "level": "Sätze"
   },
   {
     "de": "Was gibt’s Neues?",
-    "lv": "Kaj je novega",
+    "lv": "Kaj je novega?",
     "level": "Sätze"
   },
   {
     "de": "Aus diesem Brief folgt, dass...",
-    "lv": "Iz tega pisma je razvidno, da ...",
+    "lv": "Iz tega pisma izhaja, da...",
     "level": "Sätze"
   },
   {
     "de": "Fahre fort!",
-    "lv": "Kar tako naprej!",
+    "lv": "Nadaljuj!",
     "level": "Sätze"
   },
   {
     "de": "Er ist kein Freund von...",
-    "lv": "Ne mara ...",
+    "lv": "Ni ljubitelj...",
     "level": "Sätze"
   },
   {
@@ -1331,37 +1331,37 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Gedenkst du meiner?",
-    "lv": "Se me spomniš • Si razmišljal name?",
+    "lv": "Se me spominjaš? • Misliš name?",
     "level": "Sätze"
   },
   {
     "de": "im Winter",
-    "lv": "ziemā",
+    "lv": "pozimi",
     "level": "Sätze"
   },
   {
     "de": "Welcher Jahrgang sind Sie?",
-    "lv": "Katerega leta si rojen?",
+    "lv": "Katerega leta ste rojeni?",
     "level": "Sätze"
   },
   {
     "de": "Es jammert mich zu sehen...",
-    "lv": "Žalostno gledati ...",
+    "lv": "Hudo mi je gledati...",
     "level": "Sätze"
   },
   {
     "de": "je mehr, desto besser",
-    "lv": "jo vairāk, jo labāk",
+    "lv": "čim več, tem bolje",
     "level": "Sätze"
   },
   {
     "de": "bis jetzt",
-    "lv": "līdz šim brīdim",
+    "lv": "doslej",
     "level": "Sätze"
   },
   {
     "de": "Wie komme ich zum Bahnhof?",
-    "lv": "Kako priti do postaje?",
+    "lv": "Kako pridem do železniške postaje?",
     "level": "Sätze"
   },
   {
@@ -1371,22 +1371,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Könnte ich Frau N. sprechen?",
-    "lv": "Ali lahko govorim z gospo N.?",
+    "lv": "Bi lahko govoril z gospo N.?",
     "level": "Sätze"
   },
   {
     "de": "Was kostet das?",
-    "lv": "Koliko stane?",
+    "lv": "Koliko to stane?",
     "level": "Sätze"
   },
   {
     "de": "Wie lange dauert die Vorstellung?",
-    "lv": "Kako dolgo bo trajal nastop?",
+    "lv": "Koliko časa traja predstava?",
     "level": "Sätze"
   },
   {
     "de": "Lass das!",
-    "lv": "Nehaj! • Spusti!",
+    "lv": "Nehaj! • Pusti to!",
     "level": "Sätze"
   },
   {
@@ -1396,17 +1396,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Lassen Sie mich Ihnen helfen!",
-    "lv": "Naj ti pomagam!",
+    "lv": "Dovolite, da vam pomagam!",
     "level": "Sätze"
   },
   {
     "de": "Lasst uns gehen!",
-    "lv": "Gremo!",
+    "lv": "Pojdimo!",
     "level": "Sätze"
   },
   {
     "de": "Na, wie läufts?",
-    "lv": "Kako si",
+    "lv": "No, kako gre?",
     "level": "Sätze"
   },
   {
@@ -1416,27 +1416,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Leben Sie wohl!",
-    "lv": "Dzīvojiet sveiki! • Ardievu!",
+    "lv": "Ostanite zdravi! • Zbogom!",
     "level": "Sätze"
   },
   {
     "de": "Was ist los?",
-    "lv": "Kaj se je zgodilo?",
+    "lv": "Kaj je narobe? • Kaj se dogaja?",
     "level": "Sätze"
   },
   {
     "de": "Der Job ist anstrengend.",
-    "lv": "Darbs ir nogurdinošs.",
+    "lv": "Služba je naporna.",
     "level": "Sätze"
   },
   {
     "de": "Das war ein anstrengender Tag.",
-    "lv": "Bil je naporen dan.",
+    "lv": "To je bil naporen dan.",
     "level": "Sätze"
   },
   {
     "de": "Deutsch lernen kann anstrengend sein.",
-    "lv": "Vācu valodas mācīšanās var būt nogurdinoša.",
+    "lv": "Učenje nemščine je lahko naporno.",
     "level": "Sätze"
   },
   {
@@ -1451,92 +1451,92 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Das Gesetz verlangt es so.",
-    "lv": "Zakon to zahteva.",
+    "lv": "Tako zahteva zakon.",
     "level": "Sätze"
   },
   {
     "de": "Das ist gar nicht so schwer.",
-    "lv": "Sploh ni tako težko.",
+    "lv": "To sploh ni tako težko.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe gar kein Geld.",
-    "lv": "Man pavisam nav naudas.",
+    "lv": "Sploh nimam denarja.",
     "level": "Sätze"
   },
   {
     "de": "Er hat gar nichts gesagt.",
-    "lv": "Sploh ni rekel ničesar.",
+    "lv": "Sploh ni ničesar rekel.",
     "level": "Sätze"
   },
   {
     "de": "Der Hund ist los.",
-    "lv": "Pes je izpuščen.",
+    "lv": "Pes je spuščen.",
     "level": "Sätze"
   },
   {
     "de": "Hier ist viel los.",
-    "lv": "Tukaj se marsikaj dogaja.",
+    "lv": "Tu se veliko dogaja.",
     "level": "Sätze"
   },
   {
     "de": "Halt die Luft an!",
-    "lv": "Zadrži dih!",
+    "lv": "Utihni! • Ne pretiravaj!",
     "level": "Sätze"
   },
   {
     "de": "Was machst du?",
-    "lv": "Kaj počneš",
+    "lv": "Kaj delaš?",
     "level": "Sätze"
   },
   {
     "de": "Sag mal!",
-    "lv": "Reci da!",
+    "lv": "Povej no!",
     "level": "Sätze"
   },
   {
     "de": "Was meinen Sie damit?",
-    "lv": "Kaj misliš s tem? • Kaj misliš?",
+    "lv": "Kaj mislite s tem? • Kako to mislite?",
     "level": "Sätze"
   },
   {
     "de": "Wir gehen mit Ihnen.",
-    "lv": "Gremo s teboj.",
+    "lv": "Gremo z vami.",
     "level": "Sätze"
   },
   {
     "de": "Ich fahre mit der Eisenbahn.",
-    "lv": "Es braucu ar vilcienu.",
+    "lv": "Peljem se z vlakom.",
     "level": "Sätze"
   },
   {
     "de": "am Mittwoch",
-    "lv": "trešdien",
+    "lv": "v sredo",
     "level": "Sätze"
   },
   {
     "de": "Es mag sein.",
-    "lv": "Mogoče.",
+    "lv": "Mogoče je tako.",
     "level": "Sätze"
   },
   {
     "de": "Ich mag das nicht.",
-    "lv": "Ni mi všeč.",
+    "lv": "To mi ni všeč.",
     "level": "Sätze"
   },
   {
     "de": "am Montag",
-    "lv": "pirmdien",
+    "lv": "v ponedeljek",
     "level": "Sätze"
   },
   {
     "de": "Guten Morgen!",
-    "lv": "Labrīt!",
+    "lv": "Dobro jutro!",
     "level": "Sätze"
   },
   {
     "de": "am Morgen",
-    "lv": "no rīta",
+    "lv": "zjutraj",
     "level": "Sätze"
   },
   {
@@ -1546,22 +1546,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Nehmen Sie Platz!",
-    "lv": "Usedi se!",
+    "lv": "Izvolite sesti!",
     "level": "Sätze"
   },
   {
     "de": "Letzte Neuheit!",
-    "lv": "Zadnje novice!",
+    "lv": "Zadnja novost!",
     "level": "Sätze"
   },
   {
     "de": "Nicht wahr?",
-    "lv": "Prav?",
+    "lv": "Kajne?",
     "level": "Sätze"
   },
   {
     "de": "Nicht doch!",
-    "lv": "Ne, seveda! • Ne!",
+    "lv": "Ah, kje pa! • Nikar!",
     "level": "Sätze"
   },
   {
@@ -1571,22 +1571,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wozu nützt das?",
-    "lv": "Za kaj je dobro?",
+    "lv": "Čemu to koristi?",
     "level": "Sätze"
   },
   {
     "de": "Wozu nützt das alles?",
-    "lv": "Čemu je vse to namenjeno?",
+    "lv": "Čemu vse to koristi?",
     "level": "Sätze"
   },
   {
     "de": "Parken verboten!",
-    "lv": "Parkiranje je prepovedano!",
+    "lv": "Parkiranje prepovedano!",
     "level": "Sätze"
   },
   {
     "de": "Nicht parken!",
-    "lv": "Parkiranje je prepovedano!",
+    "lv": "Ne parkirati!",
     "level": "Sätze"
   },
   {
@@ -1596,12 +1596,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wovon ist die Rede?",
-    "lv": "O čem gre",
+    "lv": "O čem je govor?",
     "level": "Sätze"
   },
   {
     "de": "Davon kann keine Rede sein.",
-    "lv": "Par to nevar būt ne runas.",
+    "lv": "O tem ne more biti niti govora.",
     "level": "Sätze"
   },
   {
@@ -1616,37 +1616,37 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Man sagt, dass...",
-    "lv": "Pravijo, da ...",
+    "lv": "Pravijo, da...",
     "level": "Sätze"
   },
   {
     "de": "Schon gut!",
-    "lv": "Je že dobro!",
+    "lv": "Že dobro!",
     "level": "Sätze"
   },
   {
     "de": "Bitte schön!",
-    "lv": "Lūdzu!",
+    "lv": "Izvolite! • Prosim!",
     "level": "Sätze"
   },
   {
     "de": "Was bin ich schuldig?",
-    "lv": "Koliko sem dolžan? • Koliko moram plačati?",
+    "lv": "Koliko sem dolžan?",
     "level": "Sätze"
   },
   {
     "de": "Vor dem Gebrauch schütteln!",
-    "lv": "Pred uporabo pretresite!",
+    "lv": "Pred uporabo pretresti!",
     "level": "Sätze"
   },
   {
     "de": "Sehen Sie mal!",
-    "lv": "Oglejte si!",
+    "lv": "Le poglejte!",
     "level": "Sätze"
   },
   {
     "de": "Wie sehr auch...",
-    "lv": "Koliko ...",
+    "lv": "Naj še tako...",
     "level": "Sätze"
   },
   {
@@ -1656,17 +1656,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Was soll ich tun?",
-    "lv": "Ko lai es daru?",
+    "lv": "Kaj naj storim?",
     "level": "Sätze"
   },
   {
     "de": "im Sommer",
-    "lv": "vasarā",
+    "lv": "poleti",
     "level": "Sätze"
   },
   {
     "de": "Nicht nur..., sondern auch...",
-    "lv": "Ne samo... ampak tudi...",
+    "lv": "Ne samo..., ampak tudi...",
     "level": "Sätze"
   },
   {
@@ -1676,17 +1676,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Spaß beiseite!",
-    "lv": "Brez heca! • Šale na robu!",
+    "lv": "Šalo na stran!",
     "level": "Sätze"
   },
   {
     "de": "Wie spät ist es?",
-    "lv": "Koliko je ura",
+    "lv": "Koliko je ura?",
     "level": "Sätze"
   },
   {
     "de": "Durchfahrt gesperrt!",
-    "lv": "Vožnja skozi je prepovedana!",
+    "lv": "Zaprto za promet!",
     "level": "Sätze"
   },
   {
@@ -1696,37 +1696,37 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Statt zu...",
-    "lv": "Namesto...",
+    "lv": "Namesto da...",
     "level": "Sätze"
   },
   {
     "de": "Wie steht’s?",
-    "lv": "Kako si",
+    "lv": "Kako gre?",
     "level": "Sätze"
   },
   {
     "de": "Dieser Hut steht ihr gut.",
-    "lv": "Ta klobuk ji dobro pristaja.",
+    "lv": "Ta klobuk ji lepo pristaja.",
     "level": "Sätze"
   },
   {
     "de": "Guten Tag!",
-    "lv": "Pozdravljena",
+    "lv": "Dober dan!",
     "level": "Sätze"
   },
   {
     "de": "Wo treffen wir uns?",
-    "lv": "Kje se dobimo?",
+    "lv": "Kje se bomo srečali?",
     "level": "Sätze"
   },
   {
     "de": "Treten Sie näher!",
-    "lv": "Pridi bliže!",
+    "lv": "Stopite bliže!",
     "level": "Sätze"
   },
   {
     "de": "Ehrlichkeit ist eine Tugend.",
-    "lv": "Iskrenost je vrlina.",
+    "lv": "Poštenost je vrlina.",
     "level": "Sätze"
   },
   {
@@ -1736,32 +1736,32 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Nicht übel!",
-    "lv": "Zelo dobro! • Ni ugovora",
+    "lv": "Ni slabo!",
     "level": "Sätze"
   },
   {
     "de": "Er wohnt über mir.",
-    "lv": "Živi nad menoj.",
+    "lv": "Stanuje nad mano.",
     "level": "Sätze"
   },
   {
     "de": "Er ist davon überzeugt.",
-    "lv": "Prepričan je o tem.",
+    "lv": "O tem je prepričan.",
     "level": "Sätze"
   },
   {
     "de": "So ist es üblich.",
-    "lv": "Sprejeto je.",
+    "lv": "Tako je navada.",
     "level": "Sätze"
   },
   {
     "de": "Deine Uhr geht nach.",
-    "lv": "Vaša ura je zadaj.",
+    "lv": "Tvoja ura zaostaja.",
     "level": "Sätze"
   },
   {
     "de": "Wie viel Uhr ist es?",
-    "lv": "Cik pulkstenis ir?",
+    "lv": "Koliko je ura?",
     "level": "Sätze"
   },
   {
@@ -1771,52 +1771,52 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "umso mehr",
-    "lv": "jo vairāk",
+    "lv": "tem bolj",
     "level": "Sätze"
   },
   {
     "de": "Rechts um!",
-    "lv": "Zavijte desno!",
+    "lv": "Na desno!",
     "level": "Sätze"
   },
   {
     "de": "Und ob!",
-    "lv": "In še kaj!",
+    "lv": "Še kako!",
     "level": "Sätze"
   },
   {
     "de": "und zwar",
-    "lv": "proti",
+    "lv": "in sicer",
     "level": "Sätze"
   },
   {
     "de": "Auf Unkosten von...",
-    "lv": "Na račun...",
+    "lv": "Na stroške... • Na račun...",
     "level": "Sätze"
   },
   {
     "de": "Er saß unter den Zuschauern.",
-    "lv": "Sedel je med publiko.",
+    "lv": "Sedel je med gledalci.",
     "level": "Sätze"
   },
   {
     "de": "Keine Ursache!",
-    "lv": "Nič za nič!",
+    "lv": "Ni za kaj!",
     "level": "Sätze"
   },
   {
     "de": "Es geschah, wie verabredet.",
-    "lv": "Zgodilo se je po dogovoru.",
+    "lv": "Zgodilo se je, kot je bilo dogovorjeno.",
     "level": "Sätze"
   },
   {
     "de": "Rauchen verboten!",
-    "lv": "Kajenje je prepovedano!",
+    "lv": "Kajenje prepovedano!",
     "level": "Sätze"
   },
   {
     "de": "Falsch verbunden!",
-    "lv": "Nepareizi savienots!",
+    "lv": "Napačna številka!",
     "level": "Sätze"
   },
   {
@@ -1826,22 +1826,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Verstehen Sie mich?",
-    "lv": "Me razumeš",
+    "lv": "Ali me razumete?",
     "level": "Sätze"
   },
   {
     "de": "Er versteht nichts davon.",
-    "lv": "Ničesar ne razume o tem.",
+    "lv": "Na to se nič ne spozna.",
     "level": "Sätze"
   },
   {
     "de": "Seine Ansicht vertreten.",
-    "lv": "Zagovarjaj svoje mnenje.",
+    "lv": "Zagovarjati svoje stališče.",
     "level": "Sätze"
   },
   {
     "de": "Streit verursachen.",
-    "lv": "Povzroči prepir.",
+    "lv": "Povzročiti prepir.",
     "level": "Sätze"
   },
   {
@@ -1856,7 +1856,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Vom Hörensagen.",
-    "lv": "Po zaslišanju.",
+    "lv": "Po pripovedovanju.",
     "level": "Sätze"
   },
   {
@@ -1876,7 +1876,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Er steht vor dem Fenster.",
-    "lv": "Stoji ob oknu.",
+    "lv": "Stoji pred oknom.",
     "level": "Sätze"
   },
   {
@@ -1891,32 +1891,32 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Vor Freude.",
-    "lv": "Za zabavo.",
+    "lv": "Od veselja.",
     "level": "Sätze"
   },
   {
     "de": "Vor allem.",
-    "lv": "Najprej. • Najprej",
+    "lv": "Predvsem.",
     "level": "Sätze"
   },
   {
     "de": "Im Voraus.",
-    "lv": "Prej.",
+    "lv": "Vnaprej.",
     "level": "Sätze"
   },
   {
     "de": "Unter der Voraussetzung, dass...",
-    "lv": "Ob predpostavki, da ...",
+    "lv": "Pod pogojem, da...",
     "level": "Sätze"
   },
   {
     "de": "Unter dem Vorbehalt.",
-    "lv": "Pogojno.",
+    "lv": "S tem pridržkom.",
     "level": "Sätze"
   },
   {
     "de": "Vorhanden sein.",
-    "lv": "Biti. • Bodite prisotni • Bodite dosegljivi",
+    "lv": "Obstajati. • Biti na voljo.",
     "level": "Sätze"
   },
   {
@@ -1926,7 +1926,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Vorkehrungen treffen.",
-    "lv": "Sprejmite ukrepe za zaščito.",
+    "lv": "Sprejeti previdnostne ukrepe.",
     "level": "Sätze"
   },
   {
@@ -1936,17 +1936,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Er hat Vorliebe für Literatur.",
-    "lv": "Zelo rad ima literaturo.",
+    "lv": "Posebno rad ima književnost.",
     "level": "Sätze"
   },
   {
     "de": "Heute Vormittag.",
-    "lv": "Šorīt. • Šodien priekšpusdienā",
+    "lv": "Danes dopoldne.",
     "level": "Sätze"
   },
   {
     "de": "Von vorn.",
-    "lv": "Od spredaj.",
+    "lv": "Od spredaj. • Od začetka.",
     "level": "Sätze"
   },
   {
@@ -1956,12 +1956,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Von vornherein.",
-    "lv": "Na samem začetku.",
+    "lv": "Od vsega začetka.",
     "level": "Sätze"
   },
   {
     "de": "Im Vorteil sein.",
-    "lv": "Bodite v boljšem položaju.",
+    "lv": "Biti v prednosti.",
     "level": "Sätze"
   },
   {
@@ -1971,17 +1971,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wach werden.",
-    "lv": "Zbudi se.",
+    "lv": "Zbuditi se.",
     "level": "Sätze"
   },
   {
     "de": "Auf Wache sein.",
-    "lv": "Stoj na straži.",
+    "lv": "Biti na straži.",
     "level": "Sätze"
   },
   {
     "de": "Während eines Jahres.",
-    "lv": "Med letom.",
+    "lv": "V enem letu.",
     "level": "Sätze"
   },
   {
@@ -1991,12 +1991,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Gegen eine Wand reden.",
-    "lv": "Govoriti zaman.",
+    "lv": "Govoriti gluhim ušesom.",
     "level": "Sätze"
   },
   {
     "de": "Hier haben die Wände Ohren.",
-    "lv": "Tu imajo stene ušesa.",
+    "lv": "Tukaj imajo tudi stene ušesa.",
     "level": "Sätze"
   },
   {
@@ -2011,17 +2011,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Auf eine Nachricht warten.",
-    "lv": "Gaidīt ziņu.",
+    "lv": "Čakati na sporočilo.",
     "level": "Sätze"
   },
   {
     "de": "Was wollen Sie?",
-    "lv": "Kaj hočeš",
+    "lv": "Kaj želite?",
     "level": "Sätze"
   },
   {
     "de": "Was für ein...?",
-    "lv": "WHO...? • Kaj pa ...?",
+    "lv": "Kakšen...?",
     "level": "Sätze"
   },
   {
@@ -2031,47 +2031,47 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Auf diesem Wege.",
-    "lv": "Na ta način. • Za takšna sredstva",
+    "lv": "Po tej poti. • Na ta način.",
     "level": "Sätze"
   },
   {
     "de": "Auf friedlichem Wege.",
-    "lv": "Na poti miru.",
+    "lv": "Po mirni poti.",
     "level": "Sätze"
   },
   {
     "de": "Unserer Freundschaft wegen.",
-    "lv": "Zaradi najinega prijateljstva.",
+    "lv": "Zaradi našega prijateljstva.",
     "level": "Sätze"
   },
   {
     "de": "Von Rechts wegen.",
-    "lv": "Po pravici.",
+    "lv": "Po zakonu. • Po pravici.",
     "level": "Sätze"
   },
   {
     "de": "Weh tun.",
-    "lv": "Poškodovati.",
+    "lv": "Boleti.",
     "level": "Sätze"
   },
   {
     "de": "Zu Weihnachten.",
-    "lv": "Ob božiču.",
+    "lv": "Za božič.",
     "level": "Sätze"
   },
   {
     "de": "Auf welche Weise?",
-    "lv": "Kādā veidā?",
+    "lv": "Na kakšen način?",
     "level": "Sätze"
   },
   {
     "de": "Art und Weise.",
-    "lv": "Vrsta.",
+    "lv": "Način.",
     "level": "Sätze"
   },
   {
     "de": "Ohne weiteres.",
-    "lv": "Takoj. • Takoj",
+    "lv": "Brez oklevanja. • Brez težav.",
     "level": "Sätze"
   },
   {
@@ -2081,7 +2081,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Und so weiter.",
-    "lv": "In tako dalje.",
+    "lv": "In tako naprej.",
     "level": "Sätze"
   },
   {
@@ -2096,17 +2096,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Alle Welt.",
-    "lv": "Ves svet. • Vsi",
+    "lv": "Ves svet. • Vsi.",
     "level": "Sätze"
   },
   {
     "de": "In wenigen Tagen.",
-    "lv": "V nekaj dneh.",
+    "lv": "Čez nekaj dni.",
     "level": "Sätze"
   },
   {
     "de": "Zu wenig.",
-    "lv": "Par maz.",
+    "lv": "Premalo.",
     "level": "Sätze"
   },
   {
@@ -2116,27 +2116,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wer da?",
-    "lv": "Kaj je tam?",
+    "lv": "Kdo je tam?",
     "level": "Sätze"
   },
   {
     "de": "Gesammelte Werke von Schiller.",
-    "lv": "Schillerjevi zbrani spisi.",
+    "lv": "Schillerjeva zbrana dela.",
     "level": "Sätze"
   },
   {
     "de": "Ausgewählte Werke.",
-    "lv": "Izbor del.",
+    "lv": "Izbrana dela.",
     "level": "Sätze"
   },
   {
     "de": "Er ist wert, dass...",
-    "lv": "Viņš ir pelnījis, lai...",
+    "lv": "Zasluži si, da...",
     "level": "Sätze"
   },
   {
     "de": "Es ist zwei Euro wert.",
-    "lv": "Stane dva evra.",
+    "lv": "Vredno je dva evra.",
     "level": "Sätze"
   },
   {
@@ -2151,17 +2151,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "In Wettbewerb treten.",
-    "lv": "Sodelujte v tekmovanju.",
+    "lv": "Vključiti se v tekmovanje.",
     "level": "Sätze"
   },
   {
     "de": "Um die Wette laufen.",
-    "lv": "Teči na dirki.",
+    "lv": "Tekmovati v teku.",
     "level": "Sätze"
   },
   {
     "de": "Was gilt die Wette?",
-    "lv": "Za kaj se barantamo?",
+    "lv": "Za kaj stavimo?",
     "level": "Sätze"
   },
   {
@@ -2171,7 +2171,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wettkampf im Turnen.",
-    "lv": "Tekmovanja v gimnastiki.",
+    "lv": "Tekmovanje v gimnastiki.",
     "level": "Sätze"
   },
   {
@@ -2181,27 +2181,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Widerspruch erheben.",
-    "lv": "Protestirati. • Ugovarjajte",
+    "lv": "Protestirati. • Vložiti ugovor.",
     "level": "Sätze"
   },
   {
     "de": "Wie alt ist er?",
-    "lv": "Koliko je star",
+    "lv": "Koliko je star?",
     "level": "Sätze"
   },
   {
     "de": "Wie lange?",
-    "lv": "Kako dolgo",
+    "lv": "Kako dolgo?",
     "level": "Sätze"
   },
   {
     "de": "Auf Wiederhören!",
-    "lv": "Adijo!",
+    "lv": "Na slišanje!",
     "level": "Sätze"
   },
   {
     "de": "Auf Wiedersehen!",
-    "lv": "Adijo!",
+    "lv": "Na svidenje!",
     "level": "Sätze"
   },
   {
@@ -2211,47 +2211,47 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Herzlich willkommen!",
-    "lv": "Lep pozdrav!",
+    "lv": "Prisrčno dobrodošli!",
     "level": "Sätze"
   },
   {
     "de": "Du musst ziehen.",
-    "lv": "Tev gājiens.",
+    "lv": "Na potezi si.",
     "level": "Sätze"
   },
   {
     "de": "Es zieht.",
-    "lv": "Potegni",
+    "lv": "Vleče.",
     "level": "Sätze"
   },
   {
     "de": "Ziemlich kalt.",
-    "lv": "Precej hladno.",
+    "lv": "Precej mrzlo.",
     "level": "Sätze"
   },
   {
     "de": "Zipfel einer Wurst.",
-    "lv": "Konica klobase.",
+    "lv": "Konček klobase.",
     "level": "Sätze"
   },
   {
     "de": "Zu ihm gehen.",
-    "lv": "Pojdi k njemu.",
+    "lv": "Iti k njemu.",
     "level": "Sätze"
   },
   {
     "de": "Zur Schule gehen.",
-    "lv": "Pojdi v šolo.",
+    "lv": "Hoditi v šolo.",
     "level": "Sätze"
   },
   {
     "de": "Zu Hause bleiben.",
-    "lv": "Palikt mājās.",
+    "lv": "Ostati doma.",
     "level": "Sätze"
   },
   {
     "de": "Von Tag zu Tag.",
-    "lv": "Vsak dan.",
+    "lv": "Iz dneva v dan.",
     "level": "Sätze"
   },
   {
@@ -2266,12 +2266,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Zu Fuß.",
-    "lv": "Za noge.",
+    "lv": "Peš.",
     "level": "Sätze"
   },
   {
     "de": "Zu Pferde.",
-    "lv": "Ja",
+    "lv": "Na konju.",
     "level": "Sätze"
   },
   {
@@ -2301,22 +2301,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Mit den Achseln zucken.",
-    "lv": "Skomigni z rameni.",
+    "lv": "Skomigniti z rameni.",
     "level": "Sätze"
   },
   {
     "de": "In einem Zug trinken.",
-    "lv": "Pijte v enem požirku.",
+    "lv": "Izpiti na dušek.",
     "level": "Sätze"
   },
   {
     "de": "Zugrunde gehen.",
-    "lv": "Poginite.",
+    "lv": "Propasti.",
     "level": "Sätze"
   },
   {
     "de": "Zugrunde legen.",
-    "lv": "Postavite na osnovo. • Vzemite kot osnovo.",
+    "lv": "Postaviti za osnovo. • Vzeti za podlago.",
     "level": "Sätze"
   },
   {
@@ -2326,7 +2326,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Machen Sie bitte die Tür zu!",
-    "lv": "Prosim zaprite vrata!",
+    "lv": "Zaprite, prosim, vrata!",
     "level": "Sätze"
   },
   {
@@ -2336,12 +2336,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Die Tage nehmen zu.",
-    "lv": "Dnevi postajajo daljši.",
+    "lv": "Dnevi se daljšajo.",
     "level": "Sätze"
   },
   {
     "de": "Zusammenhängen mit etwas.",
-    "lv": "Biti povezan z nečim.",
+    "lv": "Biti povezan s čim.",
     "level": "Sätze"
   },
   {
@@ -2356,7 +2356,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Freier Zutritt.",
-    "lv": "Vstop prost.",
+    "lv": "Prost vstop.",
     "level": "Sätze"
   },
   {
@@ -2366,32 +2366,32 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Das ist zu viel!",
-    "lv": "Preveč je!",
+    "lv": "To je preveč!",
     "level": "Sätze"
   },
   {
     "de": "Zuwider werden.",
-    "lv": "Postanite odvratni. • Zbolite",
+    "lv": "Postati zoprn. • Priskutiti se.",
     "level": "Sätze"
   },
   {
     "de": "Und zwar.",
-    "lv": "Proti.",
+    "lv": "In sicer.",
     "level": "Sätze"
   },
   {
     "de": "Es steht außer Zweifel.",
-    "lv": "Nobenega dvoma ni.",
+    "lv": "O tem ni dvoma.",
     "level": "Sätze"
   },
   {
     "de": "Ohne Zweifel.",
-    "lv": "Brez oklevanja.",
+    "lv": "Brez dvoma.",
     "level": "Sätze"
   },
   {
     "de": "Zum Zweiten.",
-    "lv": "Otrkārt.",
+    "lv": "Drugič.",
     "level": "Sätze"
   },
   {
@@ -2401,7 +2401,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Herzlichen Glückwunsch zum Geburtstag!",
-    "lv": "Srečen rojstni dan!",
+    "lv": "Vse najboljše za rojstni dan!",
     "level": "Sätze"
   },
   {
@@ -2411,17 +2411,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Es freut mich, Sie kennenzulernen.",
-    "lv": "Vesel sem, da sem te spoznal.",
+    "lv": "Veseli me, da sem vas spoznal.",
     "level": "Sätze"
   },
   {
     "de": "Wären Sie bitte so nett?",
-    "lv": "Bi bili prosim tako prijazni?",
+    "lv": "Bi bili, prosim, tako prijazni?",
     "level": "Sätze"
   },
   {
     "de": "Ich bin Ihnen sehr dankbar.",
-    "lv": "Zelo sem ti hvaležen.",
+    "lv": "Zelo sem vam hvaležen.",
     "level": "Sätze"
   },
   {
@@ -2431,37 +2431,37 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ben, komm bitte an die Tafel!",
-    "lv": "Ben, prosim pridi k tabli!",
+    "lv": "Ben, pridi, prosim, k tabli!",
     "level": "Sätze"
   },
   {
     "de": "Schlagt bitte die Lehrbücher auf!",
-    "lv": "Odprite učbenike, prosim!",
+    "lv": "Odprite, prosim, učbenike!",
     "level": "Sätze"
   },
   {
     "de": "Geht bitte in die Sporthalle!",
-    "lv": "Prosim, pojdi v telovadnico!",
+    "lv": "Pojdite, prosim, v telovadnico!",
     "level": "Sätze"
   },
   {
     "de": "Schläfst du noch?",
-    "lv": "Še spiš",
-    "level": "Sätze"
-  },
-  {
-    "de": "Schlafen Sie noch?",
     "lv": "Še spiš?",
     "level": "Sätze"
   },
   {
+    "de": "Schlafen Sie noch?",
+    "lv": "Še spite?",
+    "level": "Sätze"
+  },
+  {
     "de": "Er ist fest eingeschlafen.",
-    "lv": "Trdno spi.",
+    "lv": "Trdno je zaspal.",
     "level": "Sätze"
   },
   {
     "de": "Wecke ihn bitte auf, es ist schon spät!",
-    "lv": "Prosim, zbudite ga, pozno je že!",
+    "lv": "Zbudi ga, prosim, že je pozno!",
     "level": "Sätze"
   },
   {
@@ -2476,37 +2476,37 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Finn, fang bitte an!",
-    "lv": "Finn, začni prosim!",
+    "lv": "Finn, začni, prosim!",
     "level": "Sätze"
   },
   {
     "de": "Lest bitte mit!",
-    "lv": "Preberite, prosim!",
+    "lv": "Berite, prosim, z nami!",
     "level": "Sätze"
   },
   {
     "de": "Emma, schau bitte nicht aus dem Fenster!",
-    "lv": "Emma, lūdzu, neskaties pa logu!",
+    "lv": "Emma, prosim, ne glej skozi okno!",
     "level": "Sätze"
   },
   {
     "de": "Jonas, bring bitte die Hefte!",
-    "lv": "Jonas, prosim prinesi zvezke!",
+    "lv": "Jonas, prinesi, prosim, zvezke!",
     "level": "Sätze"
   },
   {
     "de": "Geh bitte zurück an deinen Platz!",
-    "lv": "Vrni se na svoje mesto!",
+    "lv": "Vrni se, prosim, na svoje mesto!",
     "level": "Sätze"
   },
   {
     "de": "Es ist halb acht.",
-    "lv": "Ura je pol sedmih.",
+    "lv": "Ura je pol osmih.",
     "level": "Sätze"
   },
   {
     "de": "Wann wachst du gewöhnlich auf?",
-    "lv": "Kdaj se ponavadi zbudiš?",
+    "lv": "Kdaj se običajno zbudiš?",
     "level": "Sätze"
   },
   {
@@ -2516,7 +2516,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Steh auf, Hanna, es klingelt!",
-    "lv": "Celies, Hanna, zvana!",
+    "lv": "Vstani, Hanna, zvoni!",
     "level": "Sätze"
   },
   {
@@ -2526,37 +2526,37 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Vergiss nicht, das Zimmer zu lüften!",
-    "lv": "Ne pozabite prezračiti prostora!",
+    "lv": "Ne pozabi prezračiti sobe!",
     "level": "Sätze"
   },
   {
     "de": "Wo ist das Handtuch?",
-    "lv": "Kje je brisača",
+    "lv": "Kje je brisača?",
     "level": "Sätze"
   },
   {
     "de": "Ich möchte mir die Zähne putzen.",
-    "lv": "Želim si umiti zobe.",
+    "lv": "Rad bi si umil zobe.",
     "level": "Sätze"
   },
   {
     "de": "Mit was putzt du dir die Zähne?",
-    "lv": "S čim si umivate zobe?",
+    "lv": "S čim si umivaš zobe?",
     "level": "Sätze"
   },
   {
     "de": "Ich möchte mich anziehen.",
-    "lv": "Želim se obleči.",
+    "lv": "Rad bi se oblekel.",
     "level": "Sätze"
   },
   {
     "de": "Zieh dich bitte schnell an!",
-    "lv": "Hitro se oblecite, prosim!",
+    "lv": "Hitro se obleci, prosim!",
     "level": "Sätze"
   },
   {
     "de": "Kleide dich wärmer an, draußen ist es kühl.",
-    "lv": "Toplo se oblecite, zunaj je hladno.",
+    "lv": "Obleci se topleje, zunaj je hladno.",
     "level": "Sätze"
   },
   {
@@ -2566,57 +2566,57 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Mir geht es gut, danke.",
-    "lv": "V redu sem, hvala.",
+    "lv": "Dobro sem, hvala.",
     "level": "Sätze"
   },
   {
     "de": "Was gibt es Neues?",
-    "lv": "Kaj je novega",
+    "lv": "Kaj je novega?",
     "level": "Sätze"
   },
   {
     "de": "Was für ein Chaos hier!",
-    "lv": "Kakšen nered je tukaj!",
+    "lv": "Kakšen nered tukaj!",
     "level": "Sätze"
   },
   {
     "de": "Darf ich beim Aufräumen helfen?",
-    "lv": "Lahko pomagam pospraviti?",
+    "lv": "Ali ti smem pomagati pri pospravljanju?",
     "level": "Sätze"
   },
   {
     "de": "Was trinkst du morgens, Kaffee oder Tee?",
-    "lv": "Kaj pijete zjutraj, kavo ali čaj?",
+    "lv": "Kaj piješ zjutraj, kavo ali čaj?",
     "level": "Sätze"
   },
   {
     "de": "Gewöhnlich trinke ich morgens eine Tasse Kaffee.",
-    "lv": "Zjutraj običajno spijem skodelico kave.",
+    "lv": "Običajno zjutraj spijem skodelico kave.",
     "level": "Sätze"
   },
   {
     "de": "Am liebsten trinke ich schwarzen Kaffee.",
-    "lv": "Vislabāk dzeru melno kafiju.",
+    "lv": "Najraje pijem črno kavo.",
     "level": "Sätze"
   },
   {
     "de": "Guten Morgen, hast du gut geschlafen?",
-    "lv": "Dobro jutro, ste dobro spali?",
+    "lv": "Dobro jutro, ali si dobro spal?",
     "level": "Sätze"
   },
   {
     "de": "Ich bin noch sehr müde.",
-    "lv": "Še vedno sem zelo utrujena.",
+    "lv": "Še vedno sem zelo utrujen.",
     "level": "Sätze"
   },
   {
     "de": "Willst du Kaffee oder Milch?",
-    "lv": "Želite kavo ali mleko?",
+    "lv": "Hočeš kavo ali mleko?",
     "level": "Sätze"
   },
   {
     "de": "Gib mir bitte ein Brötchen mit Käse.",
-    "lv": "Daj mi žemljico s sirom, prosim.",
+    "lv": "Daj mi, prosim, žemljico s sirom.",
     "level": "Sätze"
   },
   {
@@ -2626,152 +2626,152 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Vergiss dein Frühstück nicht!",
-    "lv": "Ne pozabite na zajtrk!",
+    "lv": "Ne pozabi zajtrka!",
     "level": "Sätze"
   },
   {
     "de": "Klara, deck bitte den Tisch!",
-    "lv": "Clara, prosim postavi mizo!",
+    "lv": "Klara, prosim, pogrni mizo!",
     "level": "Sätze"
   },
   {
     "de": "Vergiss die Servietten nicht!",
-    "lv": "Ne pozabite na prtičke!",
+    "lv": "Ne pozabi prtičkov!",
     "level": "Sätze"
   },
   {
     "de": "Wann esst ihr zu Mittag?",
-    "lv": "Kdaj ješ kosilo",
+    "lv": "Kdaj imate kosilo?",
     "level": "Sätze"
   },
   {
     "de": "Es ist Zeit zu essen.",
-    "lv": "Čas je za jesti.",
+    "lv": "Čas je, da jemo.",
     "level": "Sätze"
   },
   {
     "de": "Was gibt es heute zu Mittag?",
-    "lv": "Kaj bo danes za kosilo?",
+    "lv": "Kaj je danes za kosilo?",
     "level": "Sätze"
   },
   {
     "de": "Wie schmeckt dir die Suppe?",
-    "lv": "Kako vam je všeč juha?",
+    "lv": "Kako ti tekne juha?",
     "level": "Sätze"
   },
   {
     "de": "Ehrlich gesagt ist sie etwas zu salzig.",
-    "lv": "Odkrito povedano, je malo preveč slan.",
+    "lv": "Iskreno rečeno, malo je preslana.",
     "level": "Sätze"
   },
   {
     "de": "Darf ich dir ein Stück Brot geben?",
-    "lv": "Vam lahko dam kos kruha?",
+    "lv": "Ali ti smem dati kos kruha?",
     "level": "Sätze"
   },
   {
     "de": "Danke, ich habe schon.",
-    "lv": "Hvala, sem že.",
+    "lv": "Hvala, že imam.",
     "level": "Sätze"
   },
   {
     "de": "Das Fleisch schmeckt ausgezeichnet.",
-    "lv": "Meso je odličnega okusa.",
+    "lv": "Meso je odlično.",
     "level": "Sätze"
   },
   {
     "de": "Danke, ich bin schon satt.",
-    "lv": "Hvala, sem že sit.",
+    "lv": "Hvala, že sem sit.",
     "level": "Sätze"
   },
   {
     "de": "Heute haben wir Besuch.",
-    "lv": "Danes imamo obiskovalce.",
+    "lv": "Danes imamo obisk.",
     "level": "Sätze"
   },
   {
     "de": "Bist du heute Abend frei?",
-    "lv": "Si prost nocoj",
+    "lv": "Ali si danes zvečer prost?",
     "level": "Sätze"
   },
   {
     "de": "Komm doch heute zum Mittagessen vorbei!",
-    "lv": "Pridite danes na obisk na kosilo!",
+    "lv": "Kar pridi danes na kosilo!",
     "level": "Sätze"
   },
   {
     "de": "Setzen wir uns an den Tisch.",
-    "lv": "Apsēdosimies pie galda.",
+    "lv": "Sedimo za mizo.",
     "level": "Sätze"
   },
   {
     "de": "Bitte, bedien dich!",
-    "lv": "Prosim, jejte, kolikor želite!",
+    "lv": "Izvoli, postrezi si!",
     "level": "Sätze"
   },
   {
     "de": "Stört dich das Rauchen?",
-    "lv": "Vas kajenje moti?",
+    "lv": "Ali te moti kajenje?",
     "level": "Sätze"
   },
   {
     "de": "Danke für die nette Aufnahme!",
-    "lv": "Hvala za topel sprejem!",
+    "lv": "Hvala za prijazen sprejem!",
     "level": "Sätze"
   },
   {
     "de": "Wann gehst du ins Bett?",
-    "lv": "Kdaj greš spat",
+    "lv": "Kdaj greš spat?",
     "level": "Sätze"
   },
   {
     "de": "Wenn ich von der Arbeit komme, bin ich immer müde.",
-    "lv": "Vedno sem utrujena, ko pridem iz službe.",
+    "lv": "Ko pridem iz službe, sem vedno utrujen.",
     "level": "Sätze"
   },
   {
     "de": "Es ist Zeit, ins Bett zu gehen.",
-    "lv": "Čas je za spanje.",
+    "lv": "Čas je, da gremo spat.",
     "level": "Sätze"
   },
   {
     "de": "Es ist schönes Wetter.",
-    "lv": "Lep čas je.",
+    "lv": "Lepo vreme je.",
     "level": "Sätze"
   },
   {
     "de": "Willst du mit mir spazieren gehen?",
-    "lv": "Ali hočeš hoditi z mano?",
+    "lv": "Hočeš iti z mano na sprehod?",
     "level": "Sätze"
   },
   {
     "de": "Sieh mal, es wird gleich regnen.",
-    "lv": "Glej, kmalu bo dež.",
+    "lv": "Poglej, vsak hip bo začelo deževati.",
     "level": "Sätze"
   },
   {
     "de": "Nimm den Regenschirm mit!",
-    "lv": "S seboj vzemite dežnik!",
+    "lv": "Vzemi dežnik s seboj!",
     "level": "Sätze"
   },
   {
     "de": "Es regnet.",
-    "lv": "Dežuje",
+    "lv": "Dežuje.",
     "level": "Sätze"
   },
   {
     "de": "Ich bin schon ganz nass.",
-    "lv": "Esmu jau pilnīgi slapjš.",
+    "lv": "Ves sem že moker.",
     "level": "Sätze"
   },
   {
     "de": "Glaubst du, dass es den ganzen Tag regnen wird?",
-    "lv": "Mislite, da bo ves dan deževalo?",
+    "lv": "Ali misliš, da bo deževalo ves dan?",
     "level": "Sätze"
   },
   {
     "de": "Es hört auf zu regnen.",
-    "lv": "Dež poneha.",
+    "lv": "Neha deževati.",
     "level": "Sätze"
   },
   {
@@ -2781,37 +2781,37 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Es ist sehr warm.",
-    "lv": "Zelo je vroče.",
+    "lv": "Zelo toplo je.",
     "level": "Sätze"
   },
   {
     "de": "Es sieht nach Regen aus.",
-    "lv": "Kaže, da bo deževalo.",
+    "lv": "Videti je, da bo deževalo.",
     "level": "Sätze"
   },
   {
     "de": "Wir bekommen gleich ein Gewitter.",
-    "lv": "Kmalu bo nevihta.",
+    "lv": "Vsak hip bo nevihta.",
     "level": "Sätze"
   },
   {
     "de": "Das Gewitter zieht vorüber.",
-    "lv": "Nevihta je minila.",
+    "lv": "Nevihta mineva.",
     "level": "Sätze"
   },
   {
     "de": "Die Wolken verziehen sich.",
-    "lv": "Oblaki se razkropijo.",
+    "lv": "Oblaki se razhajajo.",
     "level": "Sätze"
   },
   {
     "de": "Siehst du den Regenbogen?",
-    "lv": "Vidiš mavrico?",
+    "lv": "Ali vidiš mavrico?",
     "level": "Sätze"
   },
   {
     "de": "Der Winter ist da, es hat geschneit.",
-    "lv": "Zima je tu, ponoči je snežilo.",
+    "lv": "Zima je tu, zapadel je sneg.",
     "level": "Sätze"
   },
   {
@@ -2826,22 +2826,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Mir ist kalt, ich friere.",
-    "lv": "Hladno me je, zmrzujem.",
+    "lv": "Mraz mi je, zebe me.",
     "level": "Sätze"
   },
   {
     "de": "Draußen ist Glatteis, pass auf!",
-    "lv": "Zunaj je spolzko, previdno!",
+    "lv": "Zunaj je poledica, pazi!",
     "level": "Sätze"
   },
   {
     "de": "Wollen wir auf die Eisbahn gehen?",
-    "lv": "Gremo drsat?",
+    "lv": "Gremo na drsališče?",
     "level": "Sätze"
   },
   {
     "de": "Zieh die Jacke an, du kannst dich erkälten.",
-    "lv": "Oblecite jakno, lahko se prehladite.",
+    "lv": "Obleci jakno, lahko se prehladiš.",
     "level": "Sätze"
   },
   {
@@ -2851,17 +2851,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Meine Uhr geht fünf Minuten vor.",
-    "lv": "Moja ura hitri pet minut.",
+    "lv": "Moja ura prehiteva za pet minut.",
     "level": "Sätze"
   },
   {
     "de": "Weck mich morgen früh um sieben Uhr!",
-    "lv": "Zbudi me jutri ob sedmih!",
+    "lv": "Zbudi me jutri zjutraj ob sedmih!",
     "level": "Sätze"
   },
   {
     "de": "Was ist heute für ein Datum?",
-    "lv": "Kāds šodien ir datums?",
+    "lv": "Katerega smo danes?",
     "level": "Sätze"
   },
   {
@@ -2871,22 +2871,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Was machst du gewöhnlich am Abend?",
-    "lv": "Kaj običajno počnete zvečer?",
+    "lv": "Kaj običajno počneš zvečer?",
     "level": "Sätze"
   },
   {
     "de": "Es ist schon lange her, dass wir uns gesehen haben.",
-    "lv": "Že dolgo se nisva srečala.",
+    "lv": "Že dolgo se nismo videli.",
     "level": "Sätze"
   },
   {
     "de": "Wie geht es dir?",
-    "lv": "Kako si",
+    "lv": "Kako se imaš?",
     "level": "Sätze"
   },
   {
     "de": "Entschuldige, ich möchte etwas mit dir besprechen.",
-    "lv": "Oprostite, želim se o nečem pogovoriti s tabo.",
+    "lv": "Oprosti, rad bi se s tabo o nečem pogovoril.",
     "level": "Sätze"
   },
   {
@@ -2896,42 +2896,42 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Hast du Lust, mit mir in den Park zu gehen?",
-    "lv": "Bi šel z mano v park?",
+    "lv": "Ali imaš voljo iti z mano v park?",
     "level": "Sätze"
   },
   {
     "de": "Ich komme, um dich zum Spaziergang abzuholen.",
-    "lv": "Prišel sem te peljati na sprehod.",
+    "lv": "Prihajam, da te odpeljem na sprehod.",
     "level": "Sätze"
   },
   {
     "de": "Geh bitte etwas langsamer, ich kann dir nicht folgen!",
-    "lv": "Pojdi malo počasneje, ne dohajam te!",
+    "lv": "Hodi, prosim, malo počasneje, ne morem ti slediti!",
     "level": "Sätze"
   },
   {
     "de": "Ich bin zum ersten Mal in dieser Gegend.",
-    "lv": "Prvič sem tukaj.",
+    "lv": "Prvič sem v teh krajih.",
     "level": "Sätze"
   },
   {
     "de": "Ruhen wir uns ein wenig aus.",
-    "lv": "Počivajmo malo.",
+    "lv": "Malo se odpočijmo.",
     "level": "Sätze"
   },
   {
     "de": "Jetzt können wir zurückgehen.",
-    "lv": "Zdaj se lahko vrnemo.",
+    "lv": "Zdaj lahko gremo nazaj.",
     "level": "Sätze"
   },
   {
     "de": "Ehrlich gesagt bin ich ziemlich müde.",
-    "lv": "Odkrito povedano sem kar utrujen.",
+    "lv": "Iskreno rečeno, precej sem utrujen.",
     "level": "Sätze"
   },
   {
     "de": "Entschuldige, wo ist die nächste U-Bahn-Station?",
-    "lv": "Oprostite, kje je najbližja podzemna postaja?",
+    "lv": "Oprosti, kje je najbližja postaja podzemne železnice?",
     "level": "Sätze"
   },
   {
@@ -2941,72 +2941,72 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Geh hier die zweite Straße links und dann immer geradeaus.",
-    "lv": "Tu zavijte v drugo ulico levo in pojdite naravnost.",
+    "lv": "Tukaj zavij v drugo ulico na levo in potem pojdi ves čas naravnost.",
     "level": "Sätze"
   },
   {
     "de": "Wie komme ich am schnellsten zum Bahnhof?",
-    "lv": "Kako hitreje priti do postaje?",
+    "lv": "Kako najhitreje pridem do železniške postaje?",
     "level": "Sätze"
   },
   {
     "de": "Ich habe vor, morgen zu verreisen.",
-    "lv": "Jutri nameravam oditi.",
+    "lv": "Jutri nameravam odpotovati.",
     "level": "Sätze"
   },
   {
     "de": "Wohin willst du fahren?",
-    "lv": "Kam želiš iti?",
+    "lv": "Kam hočeš potovati?",
     "level": "Sätze"
   },
   {
     "de": "Reist du geschäftlich oder privat?",
-    "lv": "Ali potujete zaradi službe ali v prostem času?",
+    "lv": "Potuješ službeno ali zasebno?",
     "level": "Sätze"
   },
   {
     "de": "Finn fährt bis Berlin mit, dann geht er ans Meer.",
-    "lv": "Finn brauc līdz Berlīnei, tad dosies pie jūras.",
+    "lv": "Finn se pelje z nami do Berlina, potem pa gre na morje.",
     "level": "Sätze"
   },
   {
     "de": "Wann fährt das Schiff ab?",
-    "lv": "Kdaj ladja odpluje?",
+    "lv": "Kdaj odpluje ladja?",
     "level": "Sätze"
   },
   {
     "de": "In einer halben Stunde.",
-    "lv": "Po pol ure.",
+    "lv": "Čez pol ure.",
     "level": "Sätze"
   },
   {
     "de": "Kann ich noch eine Kabine bekommen?",
-    "lv": "Lahko še vedno dobim kabino?",
+    "lv": "Ali lahko še dobim kabino?",
     "level": "Sätze"
   },
   {
     "de": "Vergiss deinen Pass nicht!",
-    "lv": "Ne pozabite potnega lista!",
+    "lv": "Ne pozabi potnega lista!",
     "level": "Sätze"
   },
   {
     "de": "Es ist Zeit, den Koffer zu packen.",
-    "lv": "Čas je, da spakirate kovček.",
+    "lv": "Čas je, da zložimo stvari v kovček.",
     "level": "Sätze"
   },
   {
     "de": "Der Zug fährt um halb sieben ab.",
-    "lv": "Vilciens atiet pus septiņos.",
+    "lv": "Vlak odpelje ob pol sedmih.",
     "level": "Sätze"
   },
   {
     "de": "Hol mir bitte ein Taxi, ich verpasse sonst den Zug!",
-    "lv": "Pokličite taksi, prosim, sicer bom zamudil vlak!",
+    "lv": "Pokliči mi, prosim, taksi, sicer bom zamudil vlak!",
     "level": "Sätze"
   },
   {
     "de": "Fahr bitte zum Bahnhof!",
-    "lv": "Prosim, pelji me na postajo!",
+    "lv": "Pelji, prosim, na železniško postajo!",
     "level": "Sätze"
   },
   {
@@ -3021,7 +3021,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Eine Fahrkarte nach Köln, bitte.",
-    "lv": "Eno vozovnico za Köln, prosim.",
+    "lv": "Eno vozovnico do Kölna, prosim.",
     "level": "Sätze"
   },
   {
@@ -3031,47 +3031,47 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Der Zug fährt gleich ab.",
-    "lv": "Vlak bo kmalu odpeljal.",
+    "lv": "Vlak bo takoj odpeljal.",
     "level": "Sätze"
   },
   {
     "de": "Muss ich in Koblenz umsteigen?",
-    "lv": "Vai man Koblenzē jāpārsēžas?",
+    "lv": "Ali moram prestopiti v Koblenzu?",
     "level": "Sätze"
   },
   {
     "de": "Ja, dort musst du umsteigen.",
-    "lv": "Da, tam morate zamenjati sedež.",
+    "lv": "Da, tam moraš prestopiti.",
     "level": "Sätze"
   },
   {
     "de": "Ist dieser Platz frei?",
-    "lv": "Je to mesto na voljo?",
+    "lv": "Je ta sedež prost?",
     "level": "Sätze"
   },
   {
     "de": "Nein, hier sitzt niemand.",
-    "lv": "Ne, nihče ne sedi tukaj.",
+    "lv": "Ne, tukaj ne sedi nihče.",
     "level": "Sätze"
   },
   {
     "de": "Wo ist der Bahnsteigkartenautomat?",
-    "lv": "Kje je avtomat za vstopnice na peronu?",
+    "lv": "Kje je avtomat za peronske karte?",
     "level": "Sätze"
   },
   {
     "de": "Stell mein Handgepäck ins Gepäcknetz.",
-    "lv": "Daj mojo ročno prtljago v mrežo.",
+    "lv": "Postavi mojo ročno prtljago na polico za prtljago.",
     "level": "Sätze"
   },
   {
     "de": "Kann ich das Fenster aufmachen?",
-    "lv": "Lahko odprem okno?",
+    "lv": "Ali lahko odprem okno?",
     "level": "Sätze"
   },
   {
     "de": "Es zieht, schließ bitte das Fenster!",
-    "lv": "Povlecite skozi, prosim zaprite okno!",
+    "lv": "Vleče, zapri, prosim, okno!",
     "level": "Sätze"
   },
   {
@@ -3081,32 +3081,32 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wie lange hält der Zug?",
-    "lv": "Koliko časa vlak stoji?",
+    "lv": "Koliko časa stoji vlak?",
     "level": "Sätze"
   },
   {
     "de": "Wo muss ich umsteigen?",
-    "lv": "Kam naj prenesem?",
+    "lv": "Kje moram prestopiti?",
     "level": "Sätze"
   },
   {
     "de": "Der Zug hat Verspätung.",
-    "lv": "Vlak zamuja.",
+    "lv": "Vlak ima zamudo.",
     "level": "Sätze"
   },
   {
     "de": "Dieser Wagen ist für Nichtraucher.",
-    "lv": "Ta vagon je nekadilski.",
+    "lv": "Ta vagon je za nekadilce.",
     "level": "Sätze"
   },
   {
     "de": "Wir fahren jetzt über die Grenze.",
-    "lv": "Zdaj se vozimo čez mejo.",
+    "lv": "Zdaj prečkamo mejo.",
     "level": "Sätze"
   },
   {
     "de": "Hast du etwas zu verzollen?",
-    "lv": "Imate kaj razčistiti?",
+    "lv": "Imaš kaj za ocarinjenje?",
     "level": "Sätze"
   },
   {
@@ -3116,12 +3116,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Kannst du mir ein gutes Hotel empfehlen?",
-    "lv": "Ali lahko priporočite dober hotel?",
+    "lv": "Mi lahko priporočiš dober hotel?",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie freie Zimmer?",
-    "lv": "Vai jums ir brīvas istabas?",
+    "lv": "Ali imate proste sobe?",
     "level": "Sätze"
   },
   {
@@ -3136,12 +3136,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Morgen reise ich ab. Weck mich um sieben Uhr!",
-    "lv": "Jutri grem. Zbudi me ob sedmih!",
+    "lv": "Jutri odpotujem. Zbudi me ob sedmih!",
     "level": "Sätze"
   },
   {
     "de": "Die Rechnung, bitte!",
-    "lv": "Bill, prosim!",
+    "lv": "Račun, prosim!",
     "level": "Sätze"
   },
   {
@@ -3156,17 +3156,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wollen wir ins Museum gehen?",
-    "lv": "Gremo v muzej?",
+    "lv": "Bi šli v muzej?",
     "level": "Sätze"
   },
   {
     "de": "Fahren wir mit dem Bus oder der U-Bahn?",
-    "lv": "Gremo z avtobusom ali podzemno?",
+    "lv": "Se peljemo z avtobusom ali s podzemno železnico?",
     "level": "Sätze"
   },
   {
     "de": "Wo ist die nächste Bushaltestelle?",
-    "lv": "Kje je najbližja avtobusna postaja?",
+    "lv": "Kje je najbližje avtobusno postajališče?",
     "level": "Sätze"
   },
   {
@@ -3176,37 +3176,37 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Gehen wir zusammen essen?",
-    "lv": "Greva skupaj jest?",
+    "lv": "Gremo skupaj jest?",
     "level": "Sätze"
   },
   {
     "de": "Kellner, die Speisekarte, bitte!",
-    "lv": "Natakarji, meni prosim!",
+    "lv": "Natakar, jedilni list, prosim!",
     "level": "Sätze"
   },
   {
     "de": "Ist der Fisch frisch?",
-    "lv": "Je riba sveža?",
+    "lv": "Ali je riba sveža?",
     "level": "Sätze"
   },
   {
     "de": "Das schmeckt ausgezeichnet!",
-    "lv": "Odličnega okusa je!",
+    "lv": "To je odlično!",
     "level": "Sätze"
   },
   {
     "de": "Kellner, zahlen bitte!",
-    "lv": "Natakarji, prosim plačajte!",
+    "lv": "Natakar, plačali bi, prosim!",
     "level": "Sätze"
   },
   {
     "de": "Ich gehe ins Café einen Kaffee trinken.",
-    "lv": "Grem v kavarno spit kavo.",
+    "lv": "Grem v kavarno pit kavo.",
     "level": "Sätze"
   },
   {
     "de": "Willst du mitkommen?",
-    "lv": "Bi šel zraven?",
+    "lv": "Greš z mano?",
     "level": "Sätze"
   },
   {
@@ -3216,12 +3216,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bitte schneller, ich habe es eilig!",
-    "lv": "Hitreje prosim, moram pohiteti!",
+    "lv": "Hitreje, prosim, mudi se mi!",
     "level": "Sätze"
   },
   {
     "de": "Lass deinen Kaffee nicht kalt werden!",
-    "lv": "Naj se kava ne ohladi!",
+    "lv": "Ne pusti, da se ti kava ohladi!",
     "level": "Sätze"
   },
   {
@@ -3231,47 +3231,47 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Eine Portion Eis, bitte!",
-    "lv": "Porcijo sladoleda, prosim!",
+    "lv": "Eno porcijo sladoleda, prosim!",
     "level": "Sätze"
   },
   {
     "de": "Heute Morgen habe ich einen Brief bekommen.",
-    "lv": "Zjutraj sem prejela pismo.",
+    "lv": "Danes zjutraj sem dobil pismo.",
     "level": "Sätze"
   },
   {
     "de": "Ich muss ihm gleich schreiben.",
-    "lv": "Zdaj mu moram pisati.",
+    "lv": "Takoj mu moram pisati.",
     "level": "Sätze"
   },
   {
     "de": "Wo ist der nächste Briefkasten?",
-    "lv": "Kje je najbližji nabiralnik?",
+    "lv": "Kje je najbližji poštni nabiralnik?",
     "level": "Sätze"
   },
   {
     "de": "Wo ist die Post?",
-    "lv": "Kur ir pasta nodaļa?",
+    "lv": "Kje je pošta?",
     "level": "Sätze"
   },
   {
     "de": "Erinnere mich morgen daran zu schreiben!",
-    "lv": "Opomni me na podpis jutri!",
+    "lv": "Jutri me spomni, da moram pisati!",
     "level": "Sätze"
   },
   {
     "de": "Werfen Sie bitte diesen Brief in den Briefkasten.",
-    "lv": "Prosim, vrzite to pismo v nabiralnik!",
+    "lv": "Vrzite, prosim, to pismo v poštni nabiralnik.",
     "level": "Sätze"
   },
   {
     "de": "Hallo, hier spricht Emma.",
-    "lv": "Pozdravljeni, tukaj Emma.",
+    "lv": "Halo, tukaj Emma.",
     "level": "Sätze"
   },
   {
     "de": "Kann ich dich später anrufen?",
-    "lv": "Te lahko pokličem kasneje",
+    "lv": "Ali te lahko pokličem pozneje?",
     "level": "Sätze"
   },
   {
@@ -3281,12 +3281,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bitte schneiden Sie mir die Haare.",
-    "lv": "Prosim, postriži me.",
+    "lv": "Prosim, postrizite me.",
     "level": "Sätze"
   },
   {
     "de": "Hinten bitte nicht zu kurz.",
-    "lv": "Zadaj, prosim, ne prekratek.",
+    "lv": "Zadaj, prosim, ne prekratko.",
     "level": "Sätze"
   },
   {
@@ -3296,12 +3296,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Es fängt um halb acht an.",
-    "lv": "Začne se ob pol sedmih.",
+    "lv": "Začne se ob pol osmih.",
     "level": "Sätze"
   },
   {
     "de": "Alle Plätze sind ausverkauft.",
-    "lv": "Vse vstopnice so razprodane.",
+    "lv": "Vsi sedeži so razprodani.",
     "level": "Sätze"
   },
   {
@@ -3311,27 +3311,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wir lassen die Jacken in der Garderobe.",
-    "lv": "Pustimo jakne v omari.",
+    "lv": "Jakne bomo pustili v garderobi.",
     "level": "Sätze"
   },
   {
     "de": "Bitte schnell, der Vorhang geht gleich auf!",
-    "lv": "Hitreje prosim, zavesa se bo odprla!",
+    "lv": "Hitro, prosim, zavesa se bo vsak hip dvignila!",
     "level": "Sätze"
   },
   {
     "de": "Der Vorhang fällt.",
-    "lv": "Zastor pade.",
+    "lv": "Zavesa pade.",
     "level": "Sätze"
   },
   {
     "de": "Darf ich dich zum Tanz bitten?",
-    "lv": "Te lahko prosim za ples?",
+    "lv": "Ali te smem povabiti na ples?",
     "level": "Sätze"
   },
   {
     "de": "Wann ist eure Hochzeit?",
-    "lv": "Kad būs jūsu kāzas?",
+    "lv": "Kdaj je vajina poroka?",
     "level": "Sätze"
   },
   {
@@ -3346,7 +3346,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wie viel kostet die Miete?",
-    "lv": "Koliko je najemnina?",
+    "lv": "Koliko znaša najemnina?",
     "level": "Sätze"
   },
   {
@@ -3361,17 +3361,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Mia, pack die Sachen bitte in Kisten!",
-    "lv": "Mia, daj stvari v škatle, prosim!",
+    "lv": "Mia, zloži, prosim, stvari v škatle!",
     "level": "Sätze"
   },
   {
     "de": "Hast du alles eingepackt?",
-    "lv": "Je že vse zapakirano?",
+    "lv": "Si vse zapakiral?",
     "level": "Sätze"
   },
   {
     "de": "Ich stehe mit meinem Freund in Kontakt.",
-    "lv": "Dopisujem si s prijateljem.",
+    "lv": "S prijateljem sem v stiku.",
     "level": "Sätze"
   },
   {
@@ -3391,7 +3391,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Nun können wir alles wieder aufräumen.",
-    "lv": "Zdaj lahko vse sestavimo nazaj.",
+    "lv": "Zdaj lahko spet vse pospravimo.",
     "level": "Sätze"
   },
   {
@@ -3401,77 +3401,77 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Im Sommer fahre ich ans Meer.",
-    "lv": "Vasarā braukšu pie jūras.",
+    "lv": "Poleti grem na morje.",
     "level": "Sätze"
   },
   {
     "de": "Kannst du schwimmen?",
-    "lv": "Znaš plavati",
+    "lv": "Ali znaš plavati?",
     "level": "Sätze"
   },
   {
     "de": "Schwimm nicht zu weit hinaus!",
-    "lv": "Ne plavajte predaleč!",
+    "lv": "Ne plavaj predaleč!",
     "level": "Sätze"
   },
   {
     "de": "Badest du jeden Tag?",
-    "lv": "Ali plavate vsak dan?",
+    "lv": "Ali se kopaš vsak dan?",
     "level": "Sätze"
   },
   {
     "de": "Bei schönem Wetter gehe ich angeln.",
-    "lv": "Če je lepo vreme grem na ribolov.",
+    "lv": "Ob lepem vremenu grem lovit ribe.",
     "level": "Sätze"
   },
   {
     "de": "Wie sieht er aus?",
-    "lv": "Kako izgleda?",
+    "lv": "Kako je videti?",
     "level": "Sätze"
   },
   {
     "de": "Er hat sich aber recht verändert.",
-    "lv": "Viņš tomēr diezgan mainījies.",
+    "lv": "Pa se je kar precej spremenil.",
     "level": "Sätze"
   },
   {
     "de": "Wie ist er als Mensch?",
-    "lv": "Kakšen je kot oseba?",
+    "lv": "Kakšen je kot človek?",
     "level": "Sätze"
   },
   {
     "de": "Er ist immer nett und freundlich.",
-    "lv": "Vedno je prijazen in prijazen.",
+    "lv": "Vedno je prijeten in prijazen.",
     "level": "Sätze"
   },
   {
     "de": "Ich fühle mich nicht wohl.",
-    "lv": "Slabo se počutim.",
+    "lv": "Ne počutim se dobro.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe starke Kopfschmerzen.",
-    "lv": "Imam hud glavobol.",
+    "lv": "Močno me boli glava.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe mich erkältet.",
-    "lv": "Prehlajen sem.",
+    "lv": "Prehladil sem se.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe Schnupfen.",
-    "lv": "Imam izcedek iz nosu.",
+    "lv": "Imam nahod.",
     "level": "Sätze"
   },
   {
     "de": "Mir ist schwindlig.",
-    "lv": "Vrti se mi",
+    "lv": "V glavi se mi vrti.",
     "level": "Sätze"
   },
   {
     "de": "Ich muss zum Arzt gehen.",
-    "lv": "Man jāiet pie ārsta.",
+    "lv": "Moram k zdravniku.",
     "level": "Sätze"
   },
   {
@@ -3481,17 +3481,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Hast du Fieber?",
-    "lv": "Imate vročino?",
+    "lv": "Ali imaš vročino?",
     "level": "Sätze"
   },
   {
     "de": "Gestern hatte ich erhöhte Temperatur.",
-    "lv": "Včeraj sem imela visoko temperaturo.",
+    "lv": "Včeraj sem imel povišano temperaturo.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe Zahnschmerzen.",
-    "lv": "Boli me zob.",
+    "lv": "Zob me boli.",
     "level": "Sätze"
   },
   {
@@ -3506,37 +3506,37 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Laut Arzt wird er bald wieder gesund.",
-    "lv": "Po besedah ​​zdravnika bo kmalu spet zdrav.",
+    "lv": "Po zdravnikovih besedah bo kmalu spet zdrav.",
     "level": "Sätze"
   },
   {
     "de": "Ich will meine Wohnung neu möblieren.",
-    "lv": "Želim prenoviti stanovanje.",
+    "lv": "Stanovanje hočem na novo opremiti.",
     "level": "Sätze"
   },
   {
     "de": "Kann ich das auf Raten kaufen?",
-    "lv": "Ali lahko kupim na obroke?",
+    "lv": "Ali lahko to kupim na obroke?",
     "level": "Sätze"
   },
   {
     "de": "Bleib im Bett, bis es dir besser geht!",
-    "lv": "Ostanite v postelji, dokler se ne počutite bolje!",
+    "lv": "Ostani v postelji, dokler ti ne bo bolje!",
     "level": "Sätze"
   },
   {
     "de": "Noah hat in zwei Wochen schwimmen gelernt.",
-    "lv": "Noah se je naučil plavati v dveh tednih.",
+    "lv": "Noah se je v dveh tednih naučil plavati.",
     "level": "Sätze"
   },
   {
     "de": "Sei mit dem Essen noch vorsichtig.",
-    "lv": "Esi ar ēdienu vēl uzmanīgs.",
+    "lv": "Pri hrani bodi še previden.",
     "level": "Sätze"
   },
   {
     "de": "Sprichst du Deutsch?",
-    "lv": "Govoriš nemško",
+    "lv": "Ali govoriš nemško?",
     "level": "Sätze"
   },
   {
@@ -3546,27 +3546,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Du sprichst ziemlich fließend.",
-    "lv": "Govorite precej tekoče.",
+    "lv": "Govoriš kar tekoče.",
     "level": "Sätze"
   },
   {
     "de": "Wo hast du Deutsch gelernt?",
-    "lv": "Kje ste se učili nemščine?",
+    "lv": "Kje si se učil nemščine?",
     "level": "Sätze"
   },
   {
     "de": "Ich nehme seit einem Jahr Deutschstunden.",
-    "lv": "Že eno leto hodim na pouk nemščine.",
+    "lv": "Že leto dni hodim na ure nemščine.",
     "level": "Sätze"
   },
   {
     "de": "Ich suche immer Gelegenheit, Deutsch zu sprechen.",
-    "lv": "Vedno iščem priložnost, da govorim nemško.",
+    "lv": "Vedno iščem priložnost, da bi govoril nemško.",
     "level": "Sätze"
   },
   {
     "de": "Ist das Buch noch vorrätig?",
-    "lv": "Je ta knjiga še na voljo?",
+    "lv": "Ali je knjiga še na zalogi?",
     "level": "Sätze"
   },
   {
@@ -3576,17 +3576,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wann erscheint die neue Auflage?",
-    "lv": "Kdaj bo izšla nova izdaja?",
+    "lv": "Kdaj izide nova izdaja?",
     "level": "Sätze"
   },
   {
     "de": "Womit kann ich Ihnen helfen?",
-    "lv": "Kako lahko pomagam?",
+    "lv": "S čim vam lahko pomagam?",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie ganz frische Eier?",
-    "lv": "Imate sveža jajca?",
+    "lv": "Ali imate čisto sveža jajca?",
     "level": "Sätze"
   },
   {
@@ -3596,12 +3596,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Das ist zu teuer.",
-    "lv": "Predrago je.",
+    "lv": "To je predrago.",
     "level": "Sätze"
   },
   {
     "de": "Können Sie mir ein halbes Kilo abwiegen?",
-    "lv": "Ali lahko tehtate pol kilograma?",
+    "lv": "Ali mi lahko odtehtate pol kilograma?",
     "level": "Sätze"
   },
   {
@@ -3616,27 +3616,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wiegen Sie mir bitte zwei Kilo ab.",
-    "lv": "Prosim, tehtajte dva kilograma.",
+    "lv": "Odtehtajte mi, prosim, dva kilograma.",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie auch Karotten?",
-    "lv": "Imate tudi vi korenje?",
+    "lv": "Ali imate tudi korenje?",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie gutes Rindfleisch?",
-    "lv": "Imate dobro govedino?",
+    "lv": "Ali imate dobro govedino?",
     "level": "Sätze"
   },
   {
     "de": "Geben Sie mir zwei Kilo Hackfleisch.",
-    "lv": "Dajte dva kilograma mletega mesa.",
+    "lv": "Dajte mi dva kilograma mletega mesa.",
     "level": "Sätze"
   },
   {
     "de": "Ein Laib Brot, bitte, aber nicht zu knusprig.",
-    "lv": "En kruh, prosim, vendar ne pretrd.",
+    "lv": "Hlebec kruha, prosim, vendar ne preveč hrustljavega.",
     "level": "Sätze"
   },
   {
@@ -3666,17 +3666,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Können Sie mir alles nach Hause liefern?",
-    "lv": "Lahko vse dostaviš na dom?",
+    "lv": "Ali mi lahko vse dostavite domov?",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie Reis?",
-    "lv": "Vai jums ir rīsi?",
+    "lv": "Ali imate riž?",
     "level": "Sätze"
   },
   {
     "de": "Geben Sie mir bitte ein Kilo Reis.",
-    "lv": "Daj mi kilogram riža, prosim.",
+    "lv": "Dajte mi, prosim, kilogram riža.",
     "level": "Sätze"
   },
   {
@@ -3691,37 +3691,37 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Können Sie die Möbel in meine Wohnung liefern?",
-    "lv": "Ali lahko dostavite pohištvo v stanovanje?",
+    "lv": "Ali mi lahko pohištvo dostavite v stanovanje?",
     "level": "Sätze"
   },
   {
     "de": "Bitte an der Kasse zahlen.",
-    "lv": "Plačajte na blagajni.",
+    "lv": "Plačati na blagajni, prosim.",
     "level": "Sätze"
   },
   {
     "de": "Bitte, machen Sie die Rechnung.",
-    "lv": "Prosim za izdajo računa.",
+    "lv": "Prosim, izstavite mi račun.",
     "level": "Sätze"
   },
   {
     "de": "Was kostet das Meter?",
-    "lv": "Koliko stane merilnik?",
+    "lv": "Koliko stane meter?",
     "level": "Sätze"
   },
   {
     "de": "Dieser Stoff gefällt mir.",
-    "lv": "Všeč mi je ta tkanina.",
+    "lv": "To blago mi je všeč.",
     "level": "Sätze"
   },
   {
     "de": "Schneiden Sie mir bitte drei Meter ab.",
-    "lv": "Prosim, odrežite tri metre.",
+    "lv": "Odrežite mi, prosim, tri metre.",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie auch andere Muster?",
-    "lv": "Ali imate druge vzorce?",
+    "lv": "Ali imate tudi druge vzorce?",
     "level": "Sätze"
   },
   {
@@ -3731,7 +3731,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Geben Sie mir eine hellere.",
-    "lv": "Daj svetlejše.",
+    "lv": "Dajte mi svetlejšo.",
     "level": "Sätze"
   },
   {
@@ -3746,27 +3746,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Die sind mir etwas zu eng.",
-    "lv": "Malo so mi pretesni.",
+    "lv": "Te so mi malo pretesne.",
     "level": "Sätze"
   },
   {
     "de": "So, nun passen sie gut.",
-    "lv": "Tā, tagad der labi.",
+    "lv": "Tako, zdaj se dobro prilegajo.",
     "level": "Sätze"
   },
   {
     "de": "Kannst du mir einen guten Schneider empfehlen?",
-    "lv": "Lahko priporočite dobrega krojača?",
+    "lv": "Ali mi lahko priporočiš dobrega krojača?",
     "level": "Sätze"
   },
   {
     "de": "Ich will einen Anzug bestellen.",
-    "lv": "Želim naročiti obleko.",
+    "lv": "Hočem naročiti obleko.",
     "level": "Sätze"
   },
   {
     "de": "Wann wird er fertig sein?",
-    "lv": "Kdaj bo nared?",
+    "lv": "Kdaj bo gotova?",
     "level": "Sätze"
   },
   {
@@ -3781,12 +3781,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bitte reinigen und bügeln Sie ihn!",
-    "lv": "Prosim, očistite in zlikajte!",
+    "lv": "Prosim, očistite in zlikajte jo!",
     "level": "Sätze"
   },
   {
     "de": "Wann wird das Kleid fertig sein?",
-    "lv": "Kdaj bo obleka pripravljena?",
+    "lv": "Kdaj bo obleka gotova?",
     "level": "Sätze"
   },
   {
@@ -3796,42 +3796,42 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Können Sie die Schuhe heute reparieren?",
-    "lv": "Lahko danes popraviš svoje čevlje?",
+    "lv": "Ali lahko čevlje popravite danes?",
     "level": "Sätze"
   },
   {
     "de": "Wann kann ich die Schuhe abholen?",
-    "lv": "Kdaj lahko prinesem čevlje?",
+    "lv": "Kdaj lahko prevzamem čevlje?",
     "level": "Sätze"
   },
   {
     "de": "Meine Armbanduhr funktioniert nicht.",
-    "lv": "Moja ročna ura ne deluje.",
+    "lv": "Moja zapestna ura ne deluje.",
     "level": "Sätze"
   },
   {
     "de": "Sie geht fünf Minuten vor.",
-    "lv": "Pet minut je prezgodaj.",
+    "lv": "Prehiteva pet minut.",
     "level": "Sätze"
   },
   {
     "de": "Bist du kurzsichtig oder weitsichtig?",
-    "lv": "Ste kratkovidni ali daljnovidni?",
+    "lv": "Ali si kratkoviden ali daljnoviden?",
     "level": "Sätze"
   },
   {
     "de": "Ich möchte eine Brille kaufen.",
-    "lv": "Želim si kupiti očala.",
+    "lv": "Rad bi kupil očala.",
     "level": "Sätze"
   },
   {
     "de": "Können Sie meine Brille reparieren?",
-    "lv": "Mi lahko popraviš očala?",
+    "lv": "Ali lahko popravite moja očala?",
     "level": "Sätze"
   },
   {
     "de": "Das dauert nur eine Viertelstunde.",
-    "lv": "Tas ilgs tikai piecpadsmit minūtes.",
+    "lv": "To traja samo četrt ure.",
     "level": "Sätze"
   },
   {
@@ -3846,7 +3846,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bitte packen Sie es ein und schicken Sie es mir nach Hause.",
-    "lv": "Zapakirajte in pošljite domov.",
+    "lv": "Prosim, zavijte to in mi pošljite domov.",
     "level": "Sätze"
   },
   {
@@ -3856,37 +3856,37 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bitte, fotografieren Sie mich.",
-    "lv": "Prosim, slikaj me.",
+    "lv": "Prosim, fotografirajte me.",
     "level": "Sätze"
   },
   {
     "de": "Setzen Sie sich, schauen Sie gerade in die Kamera und bewegen Sie sich nicht!",
-    "lv": "Usedi se, glej naravnost v kamero in se ne premikaj!",
+    "lv": "Sedite, glejte naravnost v kamero in se ne premikajte!",
     "level": "Sätze"
   },
   {
     "de": "Wann kann ich das Probebild sehen?",
-    "lv": "Kdaj lahko vidim vzorec?",
+    "lv": "Kdaj lahko vidim poskusno fotografijo?",
     "level": "Sätze"
   },
   {
     "de": "Wann sind die Fotos fertig?",
-    "lv": "Kdaj bodo fotografije pripravljene?",
+    "lv": "Kdaj bodo fotografije gotove?",
     "level": "Sätze"
   },
   {
     "de": "Die Aufnahme ist gelungen.",
-    "lv": "Fotografija je uspela.",
+    "lv": "Posnetek je uspel.",
     "level": "Sätze"
   },
   {
     "de": "Die Fotos sind gut geworden.",
-    "lv": "Fotografije so dobro izpadle.",
+    "lv": "Fotografije so dobro uspele.",
     "level": "Sätze"
   },
   {
     "de": "Können Sie das Foto auch vergrößern?",
-    "lv": "Lahko sliko tudi povečaš?",
+    "lv": "Ali lahko fotografijo tudi povečate?",
     "level": "Sätze"
   },
   {
@@ -3896,17 +3896,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ist das echtes Gold?",
-    "lv": "Je pravo zlato?",
+    "lv": "Ali je to pravo zlato?",
     "level": "Sätze"
   },
   {
     "de": "Zeigen Sie mir bitte Trauringe.",
-    "lv": "Prosim, pokaži mi poročne prstane.",
+    "lv": "Pokažite mi, prosim, poročne prstane.",
     "level": "Sätze"
   },
   {
     "de": "Der Ring ist mir etwas zu weit.",
-    "lv": "Prstan mi je malo prevelik.",
+    "lv": "Prstan mi je malo preširok.",
     "level": "Sätze"
   },
   {
@@ -3916,27 +3916,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Dieser Ring passt mir.",
-    "lv": "Ta prstan mi ustreza.",
+    "lv": "Ta prstan mi je prav.",
     "level": "Sätze"
   },
   {
     "de": "Zeigen Sie mir schöne Geschenkideen.",
-    "lv": "Predstavite čudovite ideje za darila.",
+    "lv": "Pokažite mi lepe ideje za darila.",
     "level": "Sätze"
   },
   {
     "de": "Wie gefallen dir diese Ohrringe?",
-    "lv": "Kako so vam všeč ti uhani?",
+    "lv": "Kako so ti všeč ti uhani?",
     "level": "Sätze"
   },
   {
     "de": "Diese Brosche ist wirklich schön.",
-    "lv": "Ta broška je zelo lepa.",
+    "lv": "Ta broška je res lepa.",
     "level": "Sätze"
   },
   {
     "de": "Der Stein ist ein Saphir.",
-    "lv": "Ta kamen je safir.",
+    "lv": "Kamen je safir.",
     "level": "Sätze"
   },
   {
@@ -3946,12 +3946,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Dieses Armband kann ich Ihnen besonders empfehlen.",
-    "lv": "To zapestnico lahko še posebej priporočam.",
+    "lv": "To zapestnico vam lahko še posebej priporočim.",
     "level": "Sätze"
   },
   {
     "de": "Es ist besonders schön gearbeitet.",
-    "lv": "Je izjemno fino izdelana.",
+    "lv": "Posebej lepo je izdelana.",
     "level": "Sätze"
   },
   {
@@ -3961,7 +3961,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bekomme ich die Schachtel gratis?",
-    "lv": "Sem dobil škatlo zastonj?",
+    "lv": "Ali dobim škatlico brezplačno?",
     "level": "Sätze"
   },
   {
@@ -3971,12 +3971,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Falls es meiner Frau nicht gefällt, kann ich es umtauschen?",
-    "lv": "Če moji ženi ni všeč, ga lahko zamenjam?",
+    "lv": "Če moji ženi ne bo všeč, ali ga lahko zamenjam?",
     "level": "Sätze"
   },
   {
     "de": "Natürlich, jederzeit.",
-    "lv": "Kadarkoli, seveda.",
+    "lv": "Seveda, kadar koli.",
     "level": "Sätze"
   }
 ];
