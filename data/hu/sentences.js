@@ -6,27 +6,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wenn nichts dazwischenkommt.",
-    "lv": "Ha semmi nem zavarja. • Ha minden a tervek szerint alakul.",
+    "lv": "Ha semmi sem jön közbe. • Ha minden a terv szerint alakul.",
     "level": "Sätze"
   },
   {
     "de": "Das kann ich mir denken!",
-    "lv": "Ezt tudom!",
+    "lv": "El tudom képzelni!",
     "level": "Sätze"
   },
   {
     "de": "Ist er denn krank?",
-    "lv": "Akkor ő beteg?",
+    "lv": "Csak nem beteg?",
     "level": "Sätze"
   },
   {
     "de": "Was denn?",
-    "lv": "Mi van akkor?",
+    "lv": "Mi az?",
     "level": "Sätze"
   },
   {
     "de": "Desto mehr.",
-    "lv": "Minél több.",
+    "lv": "Annál inkább.",
     "level": "Sätze"
   },
   {
@@ -36,27 +36,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Alles deutet auf Regen.",
-    "lv": "Minden az esetre mutat.",
+    "lv": "Minden jel esőre mutat.",
     "level": "Sätze"
   },
   {
     "de": "Damit ist mir wenig gedient.",
-    "lv": "Számomra nem sok értelme van.",
+    "lv": "Ezzel nem sokra megyek.",
     "level": "Sätze"
   },
   {
     "de": "Er ist dienstlich verhindert.",
-    "lv": "Munka miatt nem tud jönni.",
+    "lv": "Munkája miatt nem tud eljönni.",
     "level": "Sätze"
   },
   {
     "de": "Sprechen Sie doch!",
-    "lv": "Beszélj!",
+    "lv": "Beszéljen már!",
     "level": "Sätze"
   },
   {
     "de": "Es donnert.",
-    "lv": "Mennydörgés üvölt.",
+    "lv": "Dörög az ég.",
     "level": "Sätze"
   },
   {
@@ -71,27 +71,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Die Zeit drängt.",
-    "lv": "Az idő fogy.",
+    "lv": "Sürget az idő.",
     "level": "Sätze"
   },
   {
     "de": "Ihn drücken Sorgen.",
-    "lv": "Eluralkodik rajta az aggodalom.",
+    "lv": "Gondok nyomasztják.",
     "level": "Sätze"
   },
   {
     "de": "Hast du das Buch durchgearbeitet?",
-    "lv": "Gondosan átnézted a könyvet?",
+    "lv": "Áttanulmányoztad a könyvet?",
     "level": "Sätze"
   },
   {
     "de": "Kein Durchgang!",
-    "lv": "Ne menj át! • Kijárat zárva!",
+    "lv": "Tilos az átjárás!",
     "level": "Sätze"
   },
   {
     "de": "Darf ich Sie bitten?",
-    "lv": "Megkérdezhetem",
+    "lv": "Felkérhetem egy táncra? • Erre fáradna, kérem?",
     "level": "Sätze"
   },
   {
@@ -106,12 +106,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Es ist ganz egal.",
-    "lv": "Egyáltalán nem számít.",
+    "lv": "Teljesen mindegy.",
     "level": "Sätze"
   },
   {
     "de": "Was wollen Sie eigentlich?",
-    "lv": "Mit akarsz valójában?",
+    "lv": "Tulajdonképpen mit akar?",
     "level": "Sätze"
   },
   {
@@ -131,47 +131,47 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Du bildest dir nur ein, krank zu sein.",
-    "lv": "Csak azt képzeled, hogy beteg vagy.",
+    "lv": "Csak beképzeled magadnak, hogy beteg vagy.",
     "level": "Sätze"
   },
   {
     "de": "Was fällt dir ein?",
-    "lv": "Mi jut eszedbe?",
+    "lv": "Mit képzelsz? • Mi jut eszedbe?",
     "level": "Sätze"
   },
   {
     "de": "Es war einmal.",
-    "lv": "Egyszer volt.",
+    "lv": "Egyszer volt, hol nem volt.",
     "level": "Sätze"
   },
   {
     "de": "Steigen Sie bitte ein!",
-    "lv": "Kérem, lépjen be!",
+    "lv": "Szálljon be, kérem!",
     "level": "Sätze"
   },
   {
     "de": "Treten Sie ein!",
-    "lv": "Kérlek gyere be!",
+    "lv": "Fáradjon be!",
     "level": "Sätze"
   },
   {
     "de": "Einzelnes hat mir dort gefallen.",
-    "lv": "Tetszett néhány dolog ott.",
+    "lv": "Egy-két dolog tetszett ott.",
     "level": "Sätze"
   },
   {
     "de": "Es empfiehlt sich.",
-    "lv": "Ajánlott.",
+    "lv": "Ajánlatos.",
     "level": "Sätze"
   },
   {
     "de": "Diese Flasche enthält Essig.",
-    "lv": "Ez a palack ecetet tartalmaz.",
+    "lv": "Ebben az üvegben ecet van.",
     "level": "Sätze"
   },
   {
     "de": "Entschuldigen Sie bitte!",
-    "lv": "Elnézést kérek!",
+    "lv": "Bocsásson meg, kérem!",
     "level": "Sätze"
   },
   {
@@ -186,37 +186,37 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wer fehlt heute?",
-    "lv": "Ki nem jött ma?",
+    "lv": "Ki hiányzik ma?",
     "level": "Sätze"
   },
   {
     "de": "Was fehlt dir?",
-    "lv": "Mi van veled?",
+    "lv": "Mi bajod?",
     "level": "Sätze"
   },
   {
     "de": "Wie heißen Sie?",
-    "lv": "Mi a neved?",
+    "lv": "Hogy hívják?",
     "level": "Sätze"
   },
   {
     "de": "Was soll das heißen?",
-    "lv": "Ez mit jelent?",
+    "lv": "Ez mit akar jelenteni?",
     "level": "Sätze"
   },
   {
     "de": "Bitte treten Sie näher heran!",
-    "lv": "Kérlek gyere közelebb!",
+    "lv": "Kérem, jöjjön közelebb!",
     "level": "Sätze"
   },
   {
     "de": "Heraus mit der Sprache!",
-    "lv": "Beszélgetés! • Történetek!",
+    "lv": "Ki vele!",
     "level": "Sätze"
   },
   {
     "de": "im Herbst",
-    "lv": "Ősszel",
+    "lv": "ősszel",
     "level": "Sätze"
   },
   {
@@ -226,17 +226,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "von heute an",
-    "lv": "Mától kezdve",
+    "lv": "mától kezdve",
     "level": "Sätze"
   },
   {
     "de": "heute früh",
-    "lv": "Ma reggel",
+    "lv": "ma reggel",
     "level": "Sätze"
   },
   {
     "de": "heute Nacht",
-    "lv": "Tegnap este",
+    "lv": "ma éjjel",
     "level": "Sätze"
   },
   {
@@ -246,17 +246,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich lerne jeden Tag Deutsch.",
-    "lv": "Minden nap tanulok németül.",
+    "lv": "Mindennap tanulok németül.",
     "level": "Sätze"
   },
   {
     "de": "Kannst du das bitte wiederholen?",
-    "lv": "Meg tudná ismételni kérem?",
+    "lv": "Megismételnéd, kérlek?",
     "level": "Sätze"
   },
   {
     "de": "Wir treffen uns am Bahnhof.",
-    "lv": "Találkozunk a vasútállomáson.",
+    "lv": "Az állomáson találkozunk.",
     "level": "Sätze"
   },
   {
@@ -271,27 +271,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Man sollte mehrere Perspektiven berücksichtigen.",
-    "lv": "Több szempontot is figyelembe kell venni.",
+    "lv": "Több szempontot is figyelembe kellene venni.",
     "level": "Sätze"
   },
   {
     "de": "Könnten Sie das näher erläutern?",
-    "lv": "Kifejtenéd ezt részletesebben?",
+    "lv": "Kifejtené ezt részletesebben?",
     "level": "Sätze"
   },
   {
     "de": "Was mich anbelangt,...",
-    "lv": "Ami engem illet...",
+    "lv": "Ami engem illet,...",
     "level": "Sätze"
   },
   {
     "de": "Wie alt sind Sie?",
-    "lv": "Hány éves vagy?",
+    "lv": "Hány éves?",
     "level": "Sätze"
   },
   {
     "de": "Ich bin zwanzig Jahre alt.",
-    "lv": "Húsz éves vagyok.",
+    "lv": "Húszéves vagyok.",
     "level": "Sätze"
   },
   {
@@ -301,37 +301,37 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Von jetzt an.",
-    "lv": "Ezentúl.",
+    "lv": "Mostantól.",
     "level": "Sätze"
   },
   {
     "de": "Anders geht es nicht.",
-    "lv": "Nincs más út.",
+    "lv": "Másképp nem megy.",
     "level": "Sätze"
   },
   {
     "de": "Rufen Sie mich an.",
-    "lv": "Hívj fel.",
+    "lv": "Hívjon fel.",
     "level": "Sätze"
   },
   {
     "de": "Bitte stellen Sie das Radio ab.",
-    "lv": "Kérjük, kapcsolja ki a rádiót.",
+    "lv": "Kérem, kapcsolja ki a rádiót.",
     "level": "Sätze"
   },
   {
     "de": "Achte bitte auf den Verkehr.",
-    "lv": "Kérjük, figyeljen a forgalomra.",
+    "lv": "Kérlek, figyelj a forgalomra.",
     "level": "Sätze"
   },
   {
     "de": "Darauf musst du achten.",
-    "lv": "Erre oda kell figyelni.",
+    "lv": "Erre figyelned kell.",
     "level": "Sätze"
   },
   {
     "de": "Heute mache ich es anders.",
-    "lv": "Ma másképp fogom csinálni.",
+    "lv": "Ma másképp csinálom.",
     "level": "Sätze"
   },
   {
@@ -341,17 +341,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Er wohnt allein.",
-    "lv": "Egyedül él.",
+    "lv": "Egyedül lakik.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe die Ausbildung absolviert.",
-    "lv": "Befejeztem a képzést. • Befejeztem tanulmányaimat.",
+    "lv": "Elvégeztem a képzést. • Befejeztem a tanulmányaimat.",
     "level": "Sätze"
   },
   {
     "de": "Ich warte den Regen ab.",
-    "lv": "Megvárom, míg eláll az eső.",
+    "lv": "Megvárom, amíg eláll az eső.",
     "level": "Sätze"
   },
   {
@@ -376,27 +376,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Sie hat meinen Vorschlag akzeptiert.",
-    "lv": "Elfogadta az ajánlatomat.",
+    "lv": "Elfogadta a javaslatomat.",
     "level": "Sätze"
   },
   {
     "de": "Ich möchte das genauer analysieren.",
-    "lv": "Pontosabban szeretném elemezni.",
+    "lv": "Ezt szeretném részletesebben elemezni.",
     "level": "Sätze"
   },
   {
     "de": "Ich möchte den Vertrag ändern.",
-    "lv": "Meg akarom változtatni a szerződést.",
+    "lv": "Szeretném módosítani a szerződést.",
     "level": "Sätze"
   },
   {
     "de": "Er ändert ständig seine Meinung.",
-    "lv": "Állandóan megváltoztatja a véleményét.",
+    "lv": "Folyton változtatja a véleményét.",
     "level": "Sätze"
   },
   {
     "de": "Ähnliche Probleme hatten wir schon früher.",
-    "lv": "Korábban is voltak hasonló problémáink.",
+    "lv": "Hasonló problémáink már korábban is voltak.",
     "level": "Sätze"
   },
   {
@@ -406,7 +406,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Hör auf zu jammern.",
-    "lv": "Hagyd abba a panaszkodást.",
+    "lv": "Hagyd abba a siránkozást.",
     "level": "Sätze"
   },
   {
@@ -416,7 +416,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich höre gerne Akkordeonmusik.",
-    "lv": "Szeretek harmonika zenét hallgatni.",
+    "lv": "Szeretek harmonikazenét hallgatni.",
     "level": "Sätze"
   },
   {
@@ -426,27 +426,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bitte öffne die Datei und klicke darauf.",
-    "lv": "Nyissa meg a fájlt, és kattintson rá.",
+    "lv": "Kérlek, nyisd meg a fájlt, és kattints rá.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe einen Unfall gehabt.",
-    "lv": "Balesetben voltam.",
+    "lv": "Balesetem volt.",
     "level": "Sätze"
   },
   {
     "de": "Wir laufen zum Bahnhof.",
-    "lv": "Az állomásra megyünk.",
+    "lv": "Gyalog megyünk az állomásra.",
     "level": "Sätze"
   },
   {
     "de": "Bitte schalte den Fernseher an.",
-    "lv": "Kérjük, kapcsolja be a TV-t.",
+    "lv": "Kérlek, kapcsold be a tévét.",
     "level": "Sätze"
   },
   {
     "de": "Mein Computer ist abgestürzt.",
-    "lv": "A számítógépem összeomlott.",
+    "lv": "Összeomlott a számítógépem.",
     "level": "Sätze"
   },
   {
@@ -461,17 +461,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Kannst du mich später anrufen?",
-    "lv": "Fel tudsz hívni később",
+    "lv": "Fel tudsz hívni később?",
     "level": "Sätze"
   },
   {
     "de": "Bitte nimm meinen Vorschlag an.",
-    "lv": "Kérem, fogadja el javaslatomat.",
+    "lv": "Kérlek, fogadd el a javaslatomat.",
     "level": "Sätze"
   },
   {
     "de": "Ich nehme dein Angebot an.",
-    "lv": "Elfogadom az ajánlatát.",
+    "lv": "Elfogadom az ajánlatodat.",
     "level": "Sätze"
   },
   {
@@ -491,7 +491,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Anklang finden.",
-    "lv": "Keressen visszhangot. • Találja meg a válaszkészséget",
+    "lv": "Tetszést aratni. • Visszhangra találni.",
     "level": "Sätze"
   },
   {
@@ -501,7 +501,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Aus diesem Anlass.",
-    "lv": "Ez idő miatt. • Ebben a tekintetben",
+    "lv": "Ebből az alkalomból. • Emiatt.",
     "level": "Sätze"
   },
   {
@@ -511,7 +511,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Was hast du da angerichtet?",
-    "lv": "Mit csináltál ott",
+    "lv": "Mit műveltél itt?",
     "level": "Sätze"
   },
   {
@@ -531,17 +531,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Stell dich nicht so an!",
-    "lv": "Ne színlelj!",
+    "lv": "Ne csinálj ekkora felhajtást!",
     "level": "Sätze"
   },
   {
     "de": "An die Arbeit gehen.",
-    "lv": "Menj dolgozni.",
+    "lv": "Munkához látni.",
     "level": "Sätze"
   },
   {
     "de": "Außer Atem sein.",
-    "lv": "Kifulladni.",
+    "lv": "Kifulladva lenni.",
     "level": "Sätze"
   },
   {
@@ -551,32 +551,32 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "In einem Atemzug.",
-    "lv": "Egy lélegzettel.",
+    "lv": "Egy lélegzetre.",
     "level": "Sätze"
   },
   {
     "de": "Auf jeden Fall.",
-    "lv": "Minden esetben.",
+    "lv": "Mindenesetre. • Mindenképpen.",
     "level": "Sätze"
   },
   {
     "de": "Auf einmal war alles still.",
-    "lv": "Hirtelen minden elcsendesedett.",
+    "lv": "Egyszer csak minden elcsendesedett.",
     "level": "Sätze"
   },
   {
     "de": "Bitte mach die Tür auf!",
-    "lv": "Kérem, nyissa ki az ajtót!",
+    "lv": "Nyisd ki az ajtót, kérlek!",
     "level": "Sätze"
   },
   {
     "de": "Er hat den Kredit aufgenommen.",
-    "lv": "Kölcsönt vett fel.",
+    "lv": "Felvette a hitelt.",
     "level": "Sätze"
   },
   {
     "de": "Wir müssen heute aufräumen.",
-    "lv": "Ma rendet kell tennünk a szobában.",
+    "lv": "Ma ki kell takarítanunk.",
     "level": "Sätze"
   },
   {
@@ -591,17 +591,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wir müssen das Treffen verschieben.",
-    "lv": "Újra kell ütemeznünk a találkozót.",
+    "lv": "El kell halasztanunk a találkozót.",
     "level": "Sätze"
   },
   {
     "de": "Sie hat mich aufgeregt.",
-    "lv": "Irritált engem.",
+    "lv": "Felidegesített.",
     "level": "Sätze"
   },
   {
     "de": "Auf einmal.",
-    "lv": "Hirtelen.",
+    "lv": "Egyszer csak.",
     "level": "Sätze"
   },
   {
@@ -611,42 +611,42 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Für den Schaden aufkommen.",
-    "lv": "Fedje le a károkat.",
+    "lv": "Megtéríteni a kárt.",
     "level": "Sätze"
   },
   {
     "de": "Bitte die Tür auf!",
-    "lv": "Nyisd ki az ajtót, kérlek!",
+    "lv": "Nyissa ki az ajtót, kérem!",
     "level": "Sätze"
   },
   {
     "de": "Aufrecht sitzen.",
-    "lv": "Ülj egyenesen.",
+    "lv": "Egyenesen ülni.",
     "level": "Sätze"
   },
   {
     "de": "Er ist auf.",
-    "lv": "Felállt.",
+    "lv": "Fent van.",
     "level": "Sätze"
   },
   {
     "de": "Alle Kräfte aufwenden.",
-    "lv": "Minden erődet fordítsd.",
+    "lv": "Minden erejét latba vetni.",
     "level": "Sätze"
   },
   {
     "de": "Viel Mühe aufwenden.",
-    "lv": "Próbáld meg nagyon.",
+    "lv": "Sokat fáradozni.",
     "level": "Sätze"
   },
   {
     "de": "Geh mir aus den Augen!",
-    "lv": "Ne nézz rám többé!",
+    "lv": "Tűnj el a szemem elől!",
     "level": "Sätze"
   },
   {
     "de": "Unter vier Augen.",
-    "lv": "Kettőben. • Csendesen",
+    "lv": "Négyszemközt.",
     "level": "Sätze"
   },
   {
@@ -656,17 +656,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Aus diesem Grunde.",
-    "lv": "Emiatt.",
+    "lv": "Ebből az okból.",
     "level": "Sätze"
   },
   {
     "de": "Alle außer dir.",
-    "lv": "Mindenki, kivéve téged.",
+    "lv": "Mindenki rajtad kívül.",
     "level": "Sätze"
   },
   {
     "de": "Auf Äußerlichkeiten Wert legen.",
-    "lv": "Adj jelentőséget a megjelenésnek.",
+    "lv": "Nagy súlyt helyezni a külsőségekre.",
     "level": "Sätze"
   },
   {
@@ -681,42 +681,42 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Aussicht auf die See.",
-    "lv": "Tengerre néző.",
+    "lv": "Kilátás a tengerre.",
     "level": "Sätze"
   },
   {
     "de": "Er hat gute Aussichten.",
-    "lv": "Jó esélye van.",
+    "lv": "Jók az esélyei.",
     "level": "Sätze"
   },
   {
     "de": "Wie wird dieses Wort ausgesprochen?",
-    "lv": "Hogyan ejtik ezt a szót?",
+    "lv": "Hogyan ejtik ki ezt a szót?",
     "level": "Sätze"
   },
   {
     "de": "Sein Beileid aussprechen.",
-    "lv": "Fejezze ki részvétét.",
+    "lv": "Részvétét nyilvánítani.",
     "level": "Sätze"
   },
   {
     "de": "Wann wurden die Meisterschaftskämpfe ausgetragen?",
-    "lv": "Mikor volt a bajnokság?",
+    "lv": "Mikor rendezték a bajnokságot?",
     "level": "Sätze"
   },
   {
     "de": "Welchen Beruf üben Sie aus?",
-    "lv": "Mi a szakmád?",
+    "lv": "Mi a foglalkozása?",
     "level": "Sätze"
   },
   {
     "de": "Einfluss ausüben.",
-    "lv": "Befolyásolni.",
+    "lv": "Befolyást gyakorolni.",
     "level": "Sätze"
   },
   {
     "de": "Auswärts essen.",
-    "lv": "Egyél kint.",
+    "lv": "Házon kívül étkezni.",
     "level": "Sätze"
   },
   {
@@ -726,42 +726,42 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Mit der Bahn.",
-    "lv": "Vasúton.",
+    "lv": "Vonattal.",
     "level": "Sätze"
   },
   {
     "de": "Möglichst bald.",
-    "lv": "Amint lehet.",
+    "lv": "Minél előbb.",
     "level": "Sätze"
   },
   {
     "de": "Mir ist Angst und bange.",
-    "lv": "Nagyon félek.",
+    "lv": "Rettenetesen félek.",
     "level": "Sätze"
   },
   {
     "de": "Auf die lange Bank schieben.",
-    "lv": "Késlekedik. • Húzza hosszúra • Elhalasztja határozatlan ideig",
+    "lv": "Halogatni.",
     "level": "Sätze"
   },
   {
     "de": "Bar zahlen.",
-    "lv": "Fizessen készpénzben.",
+    "lv": "Készpénzzel fizetni.",
     "level": "Sätze"
   },
   {
     "de": "Erz bauen.",
-    "lv": "Szerezz ércet.",
+    "lv": "Ércet bányászni.",
     "level": "Sätze"
   },
   {
     "de": "Mist bauen.",
-    "lv": "Lő. • Tedd hülyét magadból",
+    "lv": "Butaságot csinálni.",
     "level": "Sätze"
   },
   {
     "de": "Ich bin beauftragt.",
-    "lv": "Feladatot kaptam.",
+    "lv": "Megbízást kaptam.",
     "level": "Sätze"
   },
   {
@@ -781,22 +781,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Unter der Bedingung, dass...",
-    "lv": "Feltéve, hogy...",
+    "lv": "Azzal a feltétellel, hogy...",
     "level": "Sätze"
   },
   {
     "de": "Sie sieht bedrückt aus.",
-    "lv": "Depressziósnak tűnik.",
+    "lv": "Levertnek látszik.",
     "level": "Sätze"
   },
   {
     "de": "Hinweise befolgen.",
-    "lv": "Kövesse az utasításokat.",
+    "lv": "Követni az utasításokat.",
     "level": "Sätze"
   },
   {
     "de": "Befehle befolgen.",
-    "lv": "Kövesse a parancsokat.",
+    "lv": "Teljesíteni a parancsokat.",
     "level": "Sätze"
   },
   {
@@ -806,12 +806,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich bin begierig zu wissen.",
-    "lv": "Nagyon szeretném tudni.",
+    "lv": "Nagyon kíváncsi vagyok.",
     "level": "Sätze"
   },
   {
     "de": "Zu Beginn.",
-    "lv": "Az elején.",
+    "lv": "Kezdetben.",
     "level": "Sätze"
   },
   {
@@ -821,27 +821,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bei Beginn.",
-    "lv": "Indulás",
+    "lv": "Kezdéskor.",
     "level": "Sätze"
   },
   {
     "de": "In Begleitung.",
-    "lv": "Kíséret.",
+    "lv": "Kíséretben.",
     "level": "Sätze"
   },
   {
     "de": "Mit seiner Begleitung.",
-    "lv": "Kísérettel.",
+    "lv": "A kísérőjével.",
     "level": "Sätze"
   },
   {
     "de": "Er ist schwer von Begriff.",
-    "lv": "Lassan érzékeli. • Lassú a gondolkodása",
+    "lv": "Nehéz felfogású.",
     "level": "Sätze"
   },
   {
     "de": "Im Gedächtnis behalten.",
-    "lv": "Emlékezz. • Őrizze meg a memóriában",
+    "lv": "Emlékezetben tartani.",
     "level": "Sätze"
   },
   {
@@ -851,42 +851,42 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bei Sinnen sein.",
-    "lv": "Hogy józan legyek.",
+    "lv": "Észnél lenni.",
     "level": "Sätze"
   },
   {
     "de": "Bei Tage.",
-    "lv": "Napközben.",
+    "lv": "Nappal.",
     "level": "Sätze"
   },
   {
     "de": "Bei weitem nicht so.",
-    "lv": "Egyáltalán nem.",
+    "lv": "Közel sem annyira.",
     "level": "Sätze"
   },
   {
     "de": "Alle beide.",
-    "lv": "Mindkettőt.",
+    "lv": "Mindketten.",
     "level": "Sätze"
   },
   {
     "de": "Stürmischer Beifall brach los.",
-    "lv": "Mennydörgő taps hallatszott.",
+    "lv": "Viharos taps tört ki.",
     "level": "Sätze"
   },
   {
     "de": "Beifall finden.",
-    "lv": "Szerezzen beleegyezést.",
+    "lv": "Tetszést aratni.",
     "level": "Sätze"
   },
   {
     "de": "Beileid aussprechen.",
-    "lv": "Fejezze ki részvétét.",
+    "lv": "Részvétet nyilvánítani.",
     "level": "Sätze"
   },
   {
     "de": "Auf eigenen Beinen stehen.",
-    "lv": "Hogy anyagilag független legyek.",
+    "lv": "A saját lábán állni.",
     "level": "Sätze"
   },
   {
@@ -896,32 +896,32 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Beistand leisten.",
-    "lv": "Segíteni. • Segítségnyújtás",
+    "lv": "Segítséget nyújtani.",
     "level": "Sätze"
   },
   {
     "de": "Beitrag leisten.",
-    "lv": "Fektesse be a részesedését.",
+    "lv": "Hozzájárulni.",
     "level": "Sätze"
   },
   {
     "de": "Jemandes Bekanntschaft machen.",
-    "lv": "Ismerj meg valakit.",
+    "lv": "Megismerkedni valakivel.",
     "level": "Sätze"
   },
   {
     "de": "Bekanntschaft anknüpfen.",
-    "lv": "Ismerjék meg egymást. • Kapcsolatfelvétel",
+    "lv": "Ismeretséget kötni.",
     "level": "Sätze"
   },
   {
     "de": "Belegte Brötchen.",
-    "lv": "Szendvicsek öntetekkel.",
+    "lv": "Szendvicsek.",
     "level": "Sätze"
   },
   {
     "de": "Nach Ihrem Belieben.",
-    "lv": "Ahogy akarod.",
+    "lv": "Tetszése szerint.",
     "level": "Sätze"
   },
   {
@@ -931,7 +931,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Schweigen beobachten.",
-    "lv": "Figyelni a csendet.",
+    "lv": "Csendet tartani.",
     "level": "Sätze"
   },
   {
@@ -941,17 +941,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bereit sein.",
-    "lv": "Készen áll. • Legyen békében",
+    "lv": "Készen állni. • Hajlandónak lenni.",
     "level": "Sätze"
   },
   {
     "de": "Unfallopfer bergen.",
-    "lv": "Az áldozatok mentése baleset esetén.",
+    "lv": "Kimenteni a baleset áldozatait.",
     "level": "Sätze"
   },
   {
     "de": "Bericht erstatten.",
-    "lv": "Jelentés. • Készítsen jelentést • Adjon áttekintést",
+    "lv": "Jelentést tenni.",
     "level": "Sätze"
   },
   {
@@ -961,7 +961,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Neue Besen kehren gut.",
-    "lv": "Egy új seprű jól seper.",
+    "lv": "Új seprű jól seper.",
     "level": "Sätze"
   },
   {
@@ -971,62 +971,62 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Er besitzt viel Mut.",
-    "lv": "Nagy a bátorsága.",
+    "lv": "Nagyon bátor.",
     "level": "Sätze"
   },
   {
     "de": "Desto besser.",
-    "lv": "Minél jobb.",
+    "lv": "Annál jobb.",
     "level": "Sätze"
   },
   {
     "de": "Gute Besserung!",
-    "lv": "Meggyógyul! • Gyógyulj meg!",
+    "lv": "Jobbulást!",
     "level": "Sätze"
   },
   {
     "de": "Beim besten Willen.",
-    "lv": "Amit csak akarsz.",
+    "lv": "A legjobb akarattal sem.",
     "level": "Sätze"
   },
   {
     "de": "Am besten.",
-    "lv": "Legjobb.",
+    "lv": "Legjobban.",
     "level": "Sätze"
   },
   {
     "de": "Es besteht Zweifel.",
-    "lv": "Vannak kétségek.",
+    "lv": "Kétség áll fenn.",
     "level": "Sätze"
   },
   {
     "de": "Seine Aufgabe besteht darin...",
-    "lv": "Az ő feladata...",
+    "lv": "A feladata abban áll, hogy...",
     "level": "Sätze"
   },
   {
     "de": "Grüße bestellen.",
-    "lv": "Köszönj.",
+    "lv": "Átadni valakinek az üdvözletét.",
     "level": "Sätze"
   },
   {
     "de": "Ganz bestimmt.",
-    "lv": "Határozottan. • Teljesen biztonságos",
+    "lv": "Egészen biztosan.",
     "level": "Sätze"
   },
   {
     "de": "Zu Besuch kommen.",
-    "lv": "Látogass el.",
+    "lv": "Látogatóba jönni.",
     "level": "Sätze"
   },
   {
     "de": "Zu Besuch sein.",
-    "lv": "Meglátogatni. • Meglátogatni",
+    "lv": "Látogatóban lenni.",
     "level": "Sätze"
   },
   {
     "de": "Oft Konzerte besuchen.",
-    "lv": "Gyakran jár koncertekre.",
+    "lv": "Gyakran járni koncertekre.",
     "level": "Sätze"
   },
   {
@@ -1036,27 +1036,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "In Betracht ziehen.",
-    "lv": "Vegye figyelembe. • Fontolja meg",
+    "lv": "Figyelembe venni. • Fontolóra venni.",
     "level": "Sätze"
   },
   {
     "de": "Außer Betracht lassen.",
-    "lv": "Figyelmen kívül hagyás. • Ne vegye figyelembe",
+    "lv": "Figyelmen kívül hagyni.",
     "level": "Sätze"
   },
   {
     "de": "Er betreibt ein Hotel.",
-    "lv": "Szállodát üzemeltet.",
+    "lv": "Szállodát vezet.",
     "level": "Sätze"
   },
   {
     "de": "Alle beiden.",
-    "lv": "Mindkettőt.",
+    "lv": "Mind a kettő.",
     "level": "Sätze"
   },
   {
     "de": "Alles bezahlen.",
-    "lv": "Fizessen meg mindent.",
+    "lv": "Mindent kifizetni.",
     "level": "Sätze"
   },
   {
@@ -1066,32 +1066,32 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bitte schön.",
-    "lv": "Kérem",
+    "lv": "Szívesen. • Tessék.",
     "level": "Sätze"
   },
   {
     "de": "Wie bitte?",
-    "lv": "Hogyan kérem",
+    "lv": "Tessék?",
     "level": "Sätze"
   },
   {
     "de": "Bitte sehr.",
-    "lv": "Kérem",
+    "lv": "Nagyon szívesen. • Tessék.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe eine Bitte an Sie.",
-    "lv": "Egy kérésem van feléd.",
+    "lv": "Egy kérésem volna önhöz.",
     "level": "Sätze"
   },
   {
     "de": "Trompete blasen.",
-    "lv": "Fújd meg a trombitát.",
+    "lv": "Trombitálni.",
     "level": "Sätze"
   },
   {
     "de": "In einem Buch blättern.",
-    "lv": "Válogassa a könyvet.",
+    "lv": "Könyvet lapozgatni.",
     "level": "Sätze"
   },
   {
@@ -1106,32 +1106,32 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Danke für die Blumen!",
-    "lv": "Köszönöm a virágokat!",
+    "lv": "Köszönöm a bókot!",
     "level": "Sätze"
   },
   {
     "de": "Alles in Butter.",
-    "lv": "Minden rendben van.",
+    "lv": "Minden a legnagyobb rendben.",
     "level": "Sätze"
   },
   {
     "de": "Bitte checken.",
-    "lv": "Ellenőrzés. • Ellenőrizze",
+    "lv": "Kérem ellenőrizni.",
     "level": "Sätze"
   },
   {
     "de": "Da ist er!",
-    "lv": "Itt van!",
+    "lv": "Ott van!",
     "level": "Sätze"
   },
   {
     "de": "Alles spricht dafür.",
-    "lv": "Minden jól beszél.",
+    "lv": "Minden emellett szól.",
     "level": "Sätze"
   },
   {
     "de": "Ich kann nichts dafür.",
-    "lv": "Nem tudok ott semmit csinálni.",
+    "lv": "Nem tehetek róla.",
     "level": "Sätze"
   },
   {
@@ -1141,7 +1141,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich habe nichts dagegen.",
-    "lv": "Ez ellen nincs kifogásom.",
+    "lv": "Nincs ellene kifogásom.",
     "level": "Sätze"
   },
   {
@@ -1151,22 +1151,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Mit der Dame ziehen.",
-    "lv": "Csinálj egy női mozdulatot.",
+    "lv": "A vezérrel lépni.",
     "level": "Sätze"
   },
   {
     "de": "Es dämmert.",
-    "lv": "Sötétedik. • Virrad a hajnal.",
+    "lv": "Alkonyodik. • Hajnalodik.",
     "level": "Sätze"
   },
   {
     "de": "Danke schön!",
-    "lv": "Köszönöm! • Köszönöm!",
+    "lv": "Köszönöm szépen!",
     "level": "Sätze"
   },
   {
     "de": "Dann und wann.",
-    "lv": "Most és akkor.",
+    "lv": "Néha-néha.",
     "level": "Sätze"
   },
   {
@@ -1176,17 +1176,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Daraus wird nichts.",
-    "lv": "Nem lesz belőle semmi.",
+    "lv": "Ebből nem lesz semmi.",
     "level": "Sätze"
   },
   {
     "de": "So dass...",
-    "lv": "Szóval, hogy...",
+    "lv": "Úgyhogy...",
     "level": "Sätze"
   },
   {
     "de": "Für wen halten Sie mich?",
-    "lv": "Mit gondolsz, mi vagyok?",
+    "lv": "Kinek néz engem?",
     "level": "Sätze"
   },
   {
@@ -1196,42 +1196,42 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Lass den Kopf nicht hängen!",
-    "lv": "Ne hajtsd le a fejed!",
+    "lv": "Ne lógasd az orrodat!",
     "level": "Sätze"
   },
   {
     "de": "zu Hause",
-    "lv": "Otthon",
+    "lv": "otthon",
     "level": "Sätze"
   },
   {
     "de": "nach Hause gehen",
-    "lv": "Menj haza",
+    "lv": "hazamenni",
     "level": "Sätze"
   },
   {
     "de": "von Haus aus",
-    "lv": "Gyermekkora óta • A kezdetektől fogva",
+    "lv": "eredetileg • természeténél fogva",
     "level": "Sätze"
   },
   {
     "de": "Meinen herzlichsten Glückwunsch!",
-    "lv": "Gratulálok!",
+    "lv": "Szívből gratulálok!",
     "level": "Sätze"
   },
   {
     "de": "Seien Sie so gut!",
-    "lv": "Légy olyan kedves! • Légy olyan jó!",
+    "lv": "Legyen olyan szíves!",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie die Güte!",
-    "lv": "Légy olyan kedves!",
+    "lv": "Legyen olyan kedves!",
     "level": "Sätze"
   },
   {
     "de": "Was hast du?",
-    "lv": "Mi van veled? • Mi történt?",
+    "lv": "Mi bajod?",
     "level": "Sätze"
   },
   {
@@ -1241,7 +1241,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ist es gestattet zu rauchen?",
-    "lv": "Dohányozhatok?",
+    "lv": "Szabad dohányozni?",
     "level": "Sätze"
   },
   {
@@ -1251,17 +1251,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "gestern früh",
-    "lv": "Tegnap kora reggel",
+    "lv": "tegnap reggel",
     "level": "Sätze"
   },
   {
     "de": "gestern Abend",
-    "lv": "Tegnap este",
+    "lv": "tegnap este",
     "level": "Sätze"
   },
   {
     "de": "Es ist mir gleichgültig, ob...",
-    "lv": "Nem érdekel, ha...",
+    "lv": "Nekem mindegy, hogy...",
     "level": "Sätze"
   },
   {
@@ -1271,37 +1271,37 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Mach keine Geschichten!",
-    "lv": "Ne csinálj hülyeségeket! • Ne viccelj!",
+    "lv": "Ne csinálj felhajtást! • Ne csinálj butaságot!",
     "level": "Sätze"
   },
   {
     "de": "Geschweige denn...",
-    "lv": "Arról nem is beszélve. • Hol máshol",
+    "lv": "Nemhogy...",
     "level": "Sätze"
   },
   {
     "de": "Gehen Sie geradeaus!",
-    "lv": "Menj egyenesen előre!",
+    "lv": "Menjen egyenesen előre!",
     "level": "Sätze"
   },
   {
     "de": "Wie geht es Ihnen?",
-    "lv": "Hogy vagy • Hogy vagy?",
+    "lv": "Hogy van?",
     "level": "Sätze"
   },
   {
     "de": "Frag ihn gelegentlich, ob...",
-    "lv": "Kérdezd meg, hogy kijön-e, ha...",
+    "lv": "Ha alkalmad lesz, kérdezd meg tőle, hogy...",
     "level": "Sätze"
   },
   {
     "de": "morgen früh",
-    "lv": "Holnap reggel",
+    "lv": "holnap reggel",
     "level": "Sätze"
   },
   {
     "de": "im Frühling",
-    "lv": "Tavasszal",
+    "lv": "tavasszal",
     "level": "Sätze"
   },
   {
@@ -1311,17 +1311,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Aus diesem Brief folgt, dass...",
-    "lv": "Ebből a levélből kiderül, hogy...",
+    "lv": "Ebből a levélből az következik, hogy...",
     "level": "Sätze"
   },
   {
     "de": "Fahre fort!",
-    "lv": "Csak így tovább!",
+    "lv": "Folytasd!",
     "level": "Sätze"
   },
   {
     "de": "Er ist kein Freund von...",
-    "lv": "Nem szereti...",
+    "lv": "Nem nagy barátja...",
     "level": "Sätze"
   },
   {
@@ -1331,37 +1331,37 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Gedenkst du meiner?",
-    "lv": "Emlékszel rám • Gondoltál már rám?",
+    "lv": "Emlékszel rám? • Gondolsz rám?",
     "level": "Sätze"
   },
   {
     "de": "im Winter",
-    "lv": "Télen",
+    "lv": "télen",
     "level": "Sätze"
   },
   {
     "de": "Welcher Jahrgang sind Sie?",
-    "lv": "Melyik évben születtél?",
+    "lv": "Melyik évben született?",
     "level": "Sätze"
   },
   {
     "de": "Es jammert mich zu sehen...",
-    "lv": "Szomorú nézni...",
+    "lv": "Fáj látni...",
     "level": "Sätze"
   },
   {
     "de": "je mehr, desto besser",
-    "lv": "Minél több, annál jobb",
+    "lv": "minél több, annál jobb",
     "level": "Sätze"
   },
   {
     "de": "bis jetzt",
-    "lv": "Egészen mostanáig",
+    "lv": "eddig",
     "level": "Sätze"
   },
   {
     "de": "Wie komme ich zum Bahnhof?",
-    "lv": "Hogyan lehet eljutni az állomásra?",
+    "lv": "Hogyan jutok el a pályaudvarra?",
     "level": "Sätze"
   },
   {
@@ -1371,12 +1371,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Könnte ich Frau N. sprechen?",
-    "lv": "Beszélhetnék Mrs. N.-vel?",
+    "lv": "Beszélhetnék N. asszonnyal?",
     "level": "Sätze"
   },
   {
     "de": "Was kostet das?",
-    "lv": "Mennyibe kerül?",
+    "lv": "Mennyibe kerül ez?",
     "level": "Sätze"
   },
   {
@@ -1386,17 +1386,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Lass das!",
-    "lv": "Hagyd abba! • Dobd el!",
+    "lv": "Hagyd abba! • Hagyd békén!",
     "level": "Sätze"
   },
   {
     "de": "Lass mich in Ruhe!",
-    "lv": "Hagyjon békén!",
+    "lv": "Hagyj békén!",
     "level": "Sätze"
   },
   {
     "de": "Lassen Sie mich Ihnen helfen!",
-    "lv": "Hadd segítsek!",
+    "lv": "Hadd segítsek önnek!",
     "level": "Sätze"
   },
   {
@@ -1406,7 +1406,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Na, wie läufts?",
-    "lv": "Hogy vagy",
+    "lv": "Na, hogy megy?",
     "level": "Sätze"
   },
   {
@@ -1416,27 +1416,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Leben Sie wohl!",
-    "lv": "Élj egészségesen! • Viszlát!",
+    "lv": "Isten vele!",
     "level": "Sätze"
   },
   {
     "de": "Was ist los?",
-    "lv": "Mi történt?",
+    "lv": "Mi a baj? • Mi folyik itt?",
     "level": "Sätze"
   },
   {
     "de": "Der Job ist anstrengend.",
-    "lv": "A munka kimerítő.",
+    "lv": "Fárasztó a munka.",
     "level": "Sätze"
   },
   {
     "de": "Das war ein anstrengender Tag.",
-    "lv": "Mozgalmas nap volt.",
+    "lv": "Fárasztó nap volt.",
     "level": "Sätze"
   },
   {
     "de": "Deutsch lernen kann anstrengend sein.",
-    "lv": "A német nyelvtanulás kimerítő lehet.",
+    "lv": "A német nyelv tanulása fárasztó lehet.",
     "level": "Sätze"
   },
   {
@@ -1451,12 +1451,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Das Gesetz verlangt es so.",
-    "lv": "A törvény megköveteli.",
+    "lv": "A törvény így írja elő.",
     "level": "Sätze"
   },
   {
     "de": "Das ist gar nicht so schwer.",
-    "lv": "Egyáltalán nem olyan nehéz.",
+    "lv": "Ez egyáltalán nem olyan nehéz.",
     "level": "Sätze"
   },
   {
@@ -1466,42 +1466,42 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Er hat gar nichts gesagt.",
-    "lv": "Egyáltalán nem mondott semmit.",
+    "lv": "Egyáltalán semmit sem mondott.",
     "level": "Sätze"
   },
   {
     "de": "Der Hund ist los.",
-    "lv": "A kutyát elengedték.",
+    "lv": "Elszabadult a kutya.",
     "level": "Sätze"
   },
   {
     "de": "Hier ist viel los.",
-    "lv": "Sok minden történik itt.",
+    "lv": "Itt sok minden történik.",
     "level": "Sätze"
   },
   {
     "de": "Halt die Luft an!",
-    "lv": "Tartsa vissza a lélegzetét!",
+    "lv": "Hallgass már! • Ne túlozz!",
     "level": "Sätze"
   },
   {
     "de": "Was machst du?",
-    "lv": "Mit csinálsz",
+    "lv": "Mit csinálsz?",
     "level": "Sätze"
   },
   {
     "de": "Sag mal!",
-    "lv": "Mondj igent!",
+    "lv": "Mondd csak!",
     "level": "Sätze"
   },
   {
     "de": "Was meinen Sie damit?",
-    "lv": "Hogy érted ezt? • Mit gondolsz?",
+    "lv": "Hogy érti ezt? • Mire gondol ezzel?",
     "level": "Sätze"
   },
   {
     "de": "Wir gehen mit Ihnen.",
-    "lv": "Veled megyünk.",
+    "lv": "Önnel megyünk.",
     "level": "Sätze"
   },
   {
@@ -1511,22 +1511,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "am Mittwoch",
-    "lv": "Szerdán",
+    "lv": "szerdán",
     "level": "Sätze"
   },
   {
     "de": "Es mag sein.",
-    "lv": "Talán.",
+    "lv": "Meglehet.",
     "level": "Sätze"
   },
   {
     "de": "Ich mag das nicht.",
-    "lv": "Nem szeretem.",
+    "lv": "Ezt nem szeretem.",
     "level": "Sätze"
   },
   {
     "de": "am Montag",
-    "lv": "Hétfőn",
+    "lv": "hétfőn",
     "level": "Sätze"
   },
   {
@@ -1536,7 +1536,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "am Morgen",
-    "lv": "Reggel",
+    "lv": "reggel",
     "level": "Sätze"
   },
   {
@@ -1546,22 +1546,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Nehmen Sie Platz!",
-    "lv": "Leül!",
+    "lv": "Foglaljon helyet!",
     "level": "Sätze"
   },
   {
     "de": "Letzte Neuheit!",
-    "lv": "A legfrissebb hírek!",
+    "lv": "Legfrissebb újdonság!",
     "level": "Sätze"
   },
   {
     "de": "Nicht wahr?",
-    "lv": "Jobbra?",
+    "lv": "Ugye?",
     "level": "Sätze"
   },
   {
     "de": "Nicht doch!",
-    "lv": "Nem, persze! • Ne!",
+    "lv": "Dehogy! • Ne!",
     "level": "Sätze"
   },
   {
@@ -1571,17 +1571,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wozu nützt das?",
-    "lv": "Mire jó?",
+    "lv": "Mire jó ez?",
     "level": "Sätze"
   },
   {
     "de": "Wozu nützt das alles?",
-    "lv": "Minek ez az egész?",
+    "lv": "Mi értelme ennek az egésznek?",
     "level": "Sätze"
   },
   {
     "de": "Parken verboten!",
-    "lv": "Parkolni tilos!",
+    "lv": "Tilos a parkolás!",
     "level": "Sätze"
   },
   {
@@ -1601,17 +1601,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Davon kann keine Rede sein.",
-    "lv": "Ez nem jöhet szóba.",
+    "lv": "Szó sem lehet róla.",
     "level": "Sätze"
   },
   {
     "de": "Glückliche Reise!",
-    "lv": "Boldog utazást!",
+    "lv": "Jó utat!",
     "level": "Sätze"
   },
   {
     "de": "Mir reißt die Geduld.",
-    "lv": "Kifogy a türelmem.",
+    "lv": "Kezd elfogyni a türelmem.",
     "level": "Sätze"
   },
   {
@@ -1621,32 +1621,32 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Schon gut!",
-    "lv": "Az már jó!",
+    "lv": "Jól van!",
     "level": "Sätze"
   },
   {
     "de": "Bitte schön!",
-    "lv": "Kérem!",
+    "lv": "Tessék! • Szívesen!",
     "level": "Sätze"
   },
   {
     "de": "Was bin ich schuldig?",
-    "lv": "Mennyivel tartozom? • Mennyit kell fizetnem?",
+    "lv": "Mennyivel tartozom?",
     "level": "Sätze"
   },
   {
     "de": "Vor dem Gebrauch schütteln!",
-    "lv": "Használat előtt rázza fel!",
+    "lv": "Használat előtt felrázandó!",
     "level": "Sätze"
   },
   {
     "de": "Sehen Sie mal!",
-    "lv": "Nézzétek meg!",
+    "lv": "Nézze csak!",
     "level": "Sätze"
   },
   {
     "de": "Wie sehr auch...",
-    "lv": "Mennyi...",
+    "lv": "Bármennyire is...",
     "level": "Sätze"
   },
   {
@@ -1661,72 +1661,72 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "im Sommer",
-    "lv": "Nyáron",
+    "lv": "nyáron",
     "level": "Sätze"
   },
   {
     "de": "Nicht nur..., sondern auch...",
-    "lv": "Nem csak... hanem...",
+    "lv": "Nemcsak..., hanem... is...",
     "level": "Sätze"
   },
   {
     "de": "Sonst noch etwas?",
-    "lv": "Még valami?",
+    "lv": "Még valamit?",
     "level": "Sätze"
   },
   {
     "de": "Spaß beiseite!",
-    "lv": "Nem vicc! • Viccek a szélén!",
+    "lv": "Viccet félretéve!",
     "level": "Sätze"
   },
   {
     "de": "Wie spät ist es?",
-    "lv": "Mennyi az idő",
+    "lv": "Mennyi az idő?",
     "level": "Sätze"
   },
   {
     "de": "Durchfahrt gesperrt!",
-    "lv": "Áthajtani tilos!",
+    "lv": "Az átmenő forgalom elől elzárva!",
     "level": "Sätze"
   },
   {
     "de": "Sprechen Sie deutsch?",
-    "lv": "Beszélsz németül?",
+    "lv": "Beszél németül?",
     "level": "Sätze"
   },
   {
     "de": "Statt zu...",
-    "lv": "Helyett...",
+    "lv": "Ahelyett, hogy...",
     "level": "Sätze"
   },
   {
     "de": "Wie steht’s?",
-    "lv": "Hogy vagy",
+    "lv": "Hogy állnak a dolgok?",
     "level": "Sätze"
   },
   {
     "de": "Dieser Hut steht ihr gut.",
-    "lv": "Ez a sapka jól áll neki.",
+    "lv": "Jól áll neki ez a kalap.",
     "level": "Sätze"
   },
   {
     "de": "Guten Tag!",
-    "lv": "Helló!",
+    "lv": "Jó napot!",
     "level": "Sätze"
   },
   {
     "de": "Wo treffen wir uns?",
-    "lv": "Hol fogunk találkozni?",
+    "lv": "Hol találkozunk?",
     "level": "Sätze"
   },
   {
     "de": "Treten Sie näher!",
-    "lv": "Gyere közelebb!",
+    "lv": "Jöjjön közelebb!",
     "level": "Sätze"
   },
   {
     "de": "Ehrlichkeit ist eine Tugend.",
-    "lv": "Az őszinteség erény.",
+    "lv": "A becsületesség erény.",
     "level": "Sätze"
   },
   {
@@ -1736,112 +1736,112 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Nicht übel!",
-    "lv": "Nagyon jó! • Nincs kifogás",
+    "lv": "Nem rossz!",
     "level": "Sätze"
   },
   {
     "de": "Er wohnt über mir.",
-    "lv": "Fölöttem él.",
+    "lv": "Fölöttem lakik.",
     "level": "Sätze"
   },
   {
     "de": "Er ist davon überzeugt.",
-    "lv": "Ő biztos benne.",
+    "lv": "Meg van győződve róla.",
     "level": "Sätze"
   },
   {
     "de": "So ist es üblich.",
-    "lv": "Elfogadják.",
+    "lv": "Így szokás.",
     "level": "Sätze"
   },
   {
     "de": "Deine Uhr geht nach.",
-    "lv": "Hátul van az órád.",
+    "lv": "Késik az órád.",
     "level": "Sätze"
   },
   {
     "de": "Wie viel Uhr ist es?",
-    "lv": "Mennyi az idő?",
+    "lv": "Hány óra van?",
     "level": "Sätze"
   },
   {
     "de": "Um acht Uhr früh.",
-    "lv": "Reggel nyolckor.",
+    "lv": "Reggel nyolc órakor.",
     "level": "Sätze"
   },
   {
     "de": "umso mehr",
-    "lv": "Annál több",
+    "lv": "annál inkább",
     "level": "Sätze"
   },
   {
     "de": "Rechts um!",
-    "lv": "Fordulj jobbra!",
+    "lv": "Jobbra át!",
     "level": "Sätze"
   },
   {
     "de": "Und ob!",
-    "lv": "És még mit!",
+    "lv": "De még mennyire!",
     "level": "Sätze"
   },
   {
     "de": "und zwar",
-    "lv": "Ugyanis",
+    "lv": "mégpedig",
     "level": "Sätze"
   },
   {
     "de": "Auf Unkosten von...",
-    "lv": "Ennek rovására...",
+    "lv": "Valaki rovására...",
     "level": "Sätze"
   },
   {
     "de": "Er saß unter den Zuschauern.",
-    "lv": "Leült a közönség közé.",
+    "lv": "A nézők között ült.",
     "level": "Sätze"
   },
   {
     "de": "Keine Ursache!",
-    "lv": "Semmit a semmiért!",
+    "lv": "Nincs mit!",
     "level": "Sätze"
   },
   {
     "de": "Es geschah, wie verabredet.",
-    "lv": "Megbeszéltek szerint történt.",
+    "lv": "A megbeszéltek szerint történt.",
     "level": "Sätze"
   },
   {
     "de": "Rauchen verboten!",
-    "lv": "Dohányozni tilos!",
+    "lv": "Tilos a dohányzás!",
     "level": "Sätze"
   },
   {
     "de": "Falsch verbunden!",
-    "lv": "Hibás kapcsolat!",
+    "lv": "Téves kapcsolás!",
     "level": "Sätze"
   },
   {
     "de": "Eintritt verboten!",
-    "lv": "A belépés tilos!",
+    "lv": "Belépni tilos!",
     "level": "Sätze"
   },
   {
     "de": "Verstehen Sie mich?",
-    "lv": "Értesz engem?",
+    "lv": "Ért engem?",
     "level": "Sätze"
   },
   {
     "de": "Er versteht nichts davon.",
-    "lv": "Nem ért belőle semmit.",
+    "lv": "Semmit sem ért hozzá.",
     "level": "Sätze"
   },
   {
     "de": "Seine Ansicht vertreten.",
-    "lv": "Védd meg a véleményedet.",
+    "lv": "Kiállni a véleménye mellett.",
     "level": "Sätze"
   },
   {
     "de": "Streit verursachen.",
-    "lv": "Hozz vitát.",
+    "lv": "Vitát okozni.",
     "level": "Sätze"
   },
   {
@@ -1856,7 +1856,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Vom Hörensagen.",
-    "lv": "Hallás után.",
+    "lv": "Hallomásból.",
     "level": "Sätze"
   },
   {
@@ -1866,17 +1866,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Von Beruf.",
-    "lv": "Szakma szerint.",
+    "lv": "Foglalkozására nézve.",
     "level": "Sätze"
   },
   {
     "de": "Er ist Berliner von Geburt.",
-    "lv": "Születése szerint berlini.",
+    "lv": "Született berlini.",
     "level": "Sätze"
   },
   {
     "de": "Er steht vor dem Fenster.",
-    "lv": "Az ablaknál áll.",
+    "lv": "Az ablak előtt áll.",
     "level": "Sätze"
   },
   {
@@ -1891,57 +1891,57 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Vor Freude.",
-    "lv": "A szórakozás kedvéért.",
+    "lv": "Örömében.",
     "level": "Sätze"
   },
   {
     "de": "Vor allem.",
-    "lv": "Először is. • Először is",
+    "lv": "Mindenekelőtt.",
     "level": "Sätze"
   },
   {
     "de": "Im Voraus.",
-    "lv": "Korábban.",
+    "lv": "Előre.",
     "level": "Sätze"
   },
   {
     "de": "Unter der Voraussetzung, dass...",
-    "lv": "Feltéve, hogy...",
+    "lv": "Azzal a feltétellel, hogy...",
     "level": "Sätze"
   },
   {
     "de": "Unter dem Vorbehalt.",
-    "lv": "Feltételesen.",
+    "lv": "Azzal a fenntartással.",
     "level": "Sätze"
   },
   {
     "de": "Vorhanden sein.",
-    "lv": "Lenni. • Legyen jelen • Legyen elérhető",
+    "lv": "Rendelkezésre állni. • Létezni.",
     "level": "Sätze"
   },
   {
     "de": "In der vorigen Woche.",
-    "lv": "Múlt héten.",
+    "lv": "A múlt héten.",
     "level": "Sätze"
   },
   {
     "de": "Vorkehrungen treffen.",
-    "lv": "Tegyen intézkedéseket a védelem érdekében.",
+    "lv": "Óvintézkedéseket tenni.",
     "level": "Sätze"
   },
   {
     "de": "Sie kommt mir bekannt vor.",
-    "lv": "Ismerősnek tűnik számomra.",
+    "lv": "Ismerősnek tűnik.",
     "level": "Sätze"
   },
   {
     "de": "Er hat Vorliebe für Literatur.",
-    "lv": "Nagyon szereti az irodalmat.",
+    "lv": "Különösen kedveli az irodalmat.",
     "level": "Sätze"
   },
   {
     "de": "Heute Vormittag.",
-    "lv": "Ma reggel. • Ma reggel",
+    "lv": "Ma délelőtt.",
     "level": "Sätze"
   },
   {
@@ -1956,12 +1956,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Von vornherein.",
-    "lv": "A legelején.",
+    "lv": "Kezdettől fogva.",
     "level": "Sätze"
   },
   {
     "de": "Im Vorteil sein.",
-    "lv": "Legyen jobb helyzetben.",
+    "lv": "Előnyben lenni.",
     "level": "Sätze"
   },
   {
@@ -1971,17 +1971,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wach werden.",
-    "lv": "Felébred.",
+    "lv": "Felébredni.",
     "level": "Sätze"
   },
   {
     "de": "Auf Wache sein.",
-    "lv": "Állj őrt.",
+    "lv": "Őrt állni.",
     "level": "Sätze"
   },
   {
     "de": "Während eines Jahres.",
-    "lv": "Az év folyamán.",
+    "lv": "Egy év folyamán.",
     "level": "Sätze"
   },
   {
@@ -1991,17 +1991,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Gegen eine Wand reden.",
-    "lv": "Hiába beszélj.",
+    "lv": "A falnak beszélni.",
     "level": "Sätze"
   },
   {
     "de": "Hier haben die Wände Ohren.",
-    "lv": "Itt a falaknak fülük van.",
+    "lv": "Itt a falnak is füle van.",
     "level": "Sätze"
   },
   {
     "de": "Bis wann?",
-    "lv": "Meddig?",
+    "lv": "Meddig? • Mikorra?",
     "level": "Sätze"
   },
   {
@@ -2011,17 +2011,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Auf eine Nachricht warten.",
-    "lv": "Várja meg az üzenetet.",
+    "lv": "Üzenetre várni.",
     "level": "Sätze"
   },
   {
     "de": "Was wollen Sie?",
-    "lv": "Mit akarsz?",
+    "lv": "Mit akar?",
     "level": "Sätze"
   },
   {
     "de": "Was für ein...?",
-    "lv": "WHO...? • Mi a helyzet...?",
+    "lv": "Milyen...? • Miféle...?",
     "level": "Sätze"
   },
   {
@@ -2031,22 +2031,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Auf diesem Wege.",
-    "lv": "Így. • Az ilyen alapokra",
+    "lv": "Ilyen módon. • Ezen az úton.",
     "level": "Sätze"
   },
   {
     "de": "Auf friedlichem Wege.",
-    "lv": "A béke útján.",
+    "lv": "Békés úton.",
     "level": "Sätze"
   },
   {
     "de": "Unserer Freundschaft wegen.",
-    "lv": "A barátságunk miatt.",
+    "lv": "A barátságunk kedvéért.",
     "level": "Sätze"
   },
   {
     "de": "Von Rechts wegen.",
-    "lv": "Az igazságszolgáltatás által.",
+    "lv": "Törvény szerint. • Igazság szerint.",
     "level": "Sätze"
   },
   {
@@ -2066,12 +2066,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Art und Weise.",
-    "lv": "Írja be.",
+    "lv": "Mód.",
     "level": "Sätze"
   },
   {
     "de": "Ohne weiteres.",
-    "lv": "Azonnal. • Azonnal",
+    "lv": "Minden további nélkül. • Nehézség nélkül.",
     "level": "Sätze"
   },
   {
@@ -2086,7 +2086,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Weiter nichts.",
-    "lv": "Semmi több.",
+    "lv": "Semmi más.",
     "level": "Sätze"
   },
   {
@@ -2096,12 +2096,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Alle Welt.",
-    "lv": "Az egész világ. • Mindenki",
+    "lv": "Az egész világ. • Mindenki.",
     "level": "Sätze"
   },
   {
     "de": "In wenigen Tagen.",
-    "lv": "Néhány napon belül.",
+    "lv": "Néhány nap múlva.",
     "level": "Sätze"
   },
   {
@@ -2116,17 +2116,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wer da?",
-    "lv": "Mi van ott?",
+    "lv": "Ki van ott?",
     "level": "Sätze"
   },
   {
     "de": "Gesammelte Werke von Schiller.",
-    "lv": "Schiller összegyűjtött írásai.",
+    "lv": "Schiller összegyűjtött művei.",
     "level": "Sätze"
   },
   {
     "de": "Ausgewählte Werke.",
-    "lv": "Válogatás művekből.",
+    "lv": "Válogatott művek.",
     "level": "Sätze"
   },
   {
@@ -2136,7 +2136,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Es ist zwei Euro wert.",
-    "lv": "Két euróba kerül.",
+    "lv": "Két eurót ér.",
     "level": "Sätze"
   },
   {
@@ -2151,27 +2151,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "In Wettbewerb treten.",
-    "lv": "Lépj be a versenybe.",
+    "lv": "Versenybe szállni.",
     "level": "Sätze"
   },
   {
     "de": "Um die Wette laufen.",
-    "lv": "Futtassa a versenyt.",
+    "lv": "Versenyt futni.",
     "level": "Sätze"
   },
   {
     "de": "Was gilt die Wette?",
-    "lv": "Mire alkudunk?",
+    "lv": "Mibe fogadunk?",
     "level": "Sätze"
   },
   {
     "de": "Wie wird das Wetter?",
-    "lv": "Milyen lesz az időjárás?",
+    "lv": "Milyen idő lesz?",
     "level": "Sätze"
   },
   {
     "de": "Wettkampf im Turnen.",
-    "lv": "Tornaversenyek.",
+    "lv": "Tornaverseny.",
     "level": "Sätze"
   },
   {
@@ -2181,7 +2181,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Widerspruch erheben.",
-    "lv": "Tiltakozni. • Tegyen fel ellenvetéseket",
+    "lv": "Tiltakozni. • Kifogást emelni.",
     "level": "Sätze"
   },
   {
@@ -2191,37 +2191,37 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wie lange?",
-    "lv": "Meddig",
+    "lv": "Mennyi ideig?",
     "level": "Sätze"
   },
   {
     "de": "Auf Wiederhören!",
-    "lv": "Búcsú!",
+    "lv": "Viszonthallásra!",
     "level": "Sätze"
   },
   {
     "de": "Auf Wiedersehen!",
-    "lv": "Búcsú!",
+    "lv": "Viszontlátásra!",
     "level": "Sätze"
   },
   {
     "de": "Wilde Tiere.",
-    "lv": "Vadon élő állatok.",
+    "lv": "Vadállatok.",
     "level": "Sätze"
   },
   {
     "de": "Herzlich willkommen!",
-    "lv": "Meleg üdvözlettel!",
+    "lv": "Szívélyesen üdvözöljük!",
     "level": "Sätze"
   },
   {
     "de": "Du musst ziehen.",
-    "lv": "Van egy lépésed.",
+    "lv": "Te lépsz.",
     "level": "Sätze"
   },
   {
     "de": "Es zieht.",
-    "lv": "Húzni",
+    "lv": "Huzat van.",
     "level": "Sätze"
   },
   {
@@ -2231,27 +2231,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Zipfel einer Wurst.",
-    "lv": "Kolbász tipp.",
+    "lv": "A kolbász vége.",
     "level": "Sätze"
   },
   {
     "de": "Zu ihm gehen.",
-    "lv": "Menj el hozzá.",
+    "lv": "Elmenni hozzá.",
     "level": "Sätze"
   },
   {
     "de": "Zur Schule gehen.",
-    "lv": "Menj iskolába.",
+    "lv": "Iskolába menni. • Iskolába járni.",
     "level": "Sätze"
   },
   {
     "de": "Zu Hause bleiben.",
-    "lv": "Otthon marad.",
+    "lv": "Otthon maradni.",
     "level": "Sätze"
   },
   {
     "de": "Von Tag zu Tag.",
-    "lv": "Napi szinten.",
+    "lv": "Napról napra.",
     "level": "Sätze"
   },
   {
@@ -2266,12 +2266,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Zu Fuß.",
-    "lv": "Lábaknak.",
+    "lv": "Gyalog.",
     "level": "Sätze"
   },
   {
     "de": "Zu Pferde.",
-    "lv": "Igen.",
+    "lv": "Lóháton.",
     "level": "Sätze"
   },
   {
@@ -2301,67 +2301,67 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Mit den Achseln zucken.",
-    "lv": "Vállat von.",
+    "lv": "Vállat vonni.",
     "level": "Sätze"
   },
   {
     "de": "In einem Zug trinken.",
-    "lv": "Igyál egy kortyban.",
+    "lv": "Egy hajtásra kiinni.",
     "level": "Sätze"
   },
   {
     "de": "Zugrunde gehen.",
-    "lv": "Elpusztul.",
+    "lv": "Elpusztulni.",
     "level": "Sätze"
   },
   {
     "de": "Zugrunde legen.",
-    "lv": "Tedd az alapra. • Vegyük alapul.",
+    "lv": "Alapul venni.",
     "level": "Sätze"
   },
   {
     "de": "Zum ersten Mal.",
-    "lv": "Most először.",
+    "lv": "Először.",
     "level": "Sätze"
   },
   {
     "de": "Machen Sie bitte die Tür zu!",
-    "lv": "Kérem csukja be az ajtót!",
+    "lv": "Csukja be az ajtót, kérem!",
     "level": "Sätze"
   },
   {
     "de": "Er hat zugenommen.",
-    "lv": "Hízott.",
+    "lv": "Meghízott.",
     "level": "Sätze"
   },
   {
     "de": "Die Tage nehmen zu.",
-    "lv": "A nappalok egyre hosszabbak.",
+    "lv": "A napok hosszabbodnak.",
     "level": "Sätze"
   },
   {
     "de": "Zusammenhängen mit etwas.",
-    "lv": "Társulni valamihez.",
+    "lv": "Összefüggni valamivel.",
     "level": "Sätze"
   },
   {
     "de": "Die Tür ist zu.",
-    "lv": "Az ajtó zárva van.",
+    "lv": "Az ajtó csukva van.",
     "level": "Sätze"
   },
   {
     "de": "Das hätte ich ihm nicht zugetraut.",
-    "lv": "Ezt nem vártam volna tőle.",
+    "lv": "Ezt nem gondoltam volna róla.",
     "level": "Sätze"
   },
   {
     "de": "Freier Zutritt.",
-    "lv": "Ingyenes belépés.",
+    "lv": "Szabad belépés.",
     "level": "Sätze"
   },
   {
     "de": "Zutritt verboten!",
-    "lv": "A belépés tilos!",
+    "lv": "Belépni tilos!",
     "level": "Sätze"
   },
   {
@@ -2371,22 +2371,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Zuwider werden.",
-    "lv": "Undorítóvá válni. • Legyen beteg",
+    "lv": "Visszataszítóvá válni. • Megunni.",
     "level": "Sätze"
   },
   {
     "de": "Und zwar.",
-    "lv": "Ugyanis.",
+    "lv": "Mégpedig.",
     "level": "Sätze"
   },
   {
     "de": "Es steht außer Zweifel.",
-    "lv": "Semmi kétség.",
+    "lv": "Nem fér hozzá kétség.",
     "level": "Sätze"
   },
   {
     "de": "Ohne Zweifel.",
-    "lv": "Habozás nélkül.",
+    "lv": "Kétségkívül.",
     "level": "Sätze"
   },
   {
@@ -2396,7 +2396,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Frohes neues Jahr!",
-    "lv": "Boldog Új Évet!",
+    "lv": "Boldog új évet!",
     "level": "Sätze"
   },
   {
@@ -2406,62 +2406,62 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Gute Reise!",
-    "lv": "Boldog utazást!",
+    "lv": "Jó utat!",
     "level": "Sätze"
   },
   {
     "de": "Es freut mich, Sie kennenzulernen.",
-    "lv": "Örülök, hogy találkoztunk.",
+    "lv": "Örülök, hogy megismerhetem.",
     "level": "Sätze"
   },
   {
     "de": "Wären Sie bitte so nett?",
-    "lv": "Lennél olyan kedves?",
+    "lv": "Lenne olyan kedves?",
     "level": "Sätze"
   },
   {
     "de": "Ich bin Ihnen sehr dankbar.",
-    "lv": "Nagyon hálás vagyok neked.",
+    "lv": "Nagyon hálás vagyok önnek.",
     "level": "Sätze"
   },
   {
     "de": "Setzt euch bitte hin!",
-    "lv": "Ülj le, kérlek!",
+    "lv": "Üljetek le, kérlek!",
     "level": "Sätze"
   },
   {
     "de": "Ben, komm bitte an die Tafel!",
-    "lv": "Ben, kérlek gyere a táblához!",
+    "lv": "Ben, gyere a táblához, kérlek!",
     "level": "Sätze"
   },
   {
     "de": "Schlagt bitte die Lehrbücher auf!",
-    "lv": "Nyisd ki a tankönyveket, kérlek!",
+    "lv": "Nyissátok ki a tankönyveket, kérlek!",
     "level": "Sätze"
   },
   {
     "de": "Geht bitte in die Sporthalle!",
-    "lv": "Kérlek menj az edzőterembe!",
+    "lv": "Menjetek a tornaterembe, kérlek!",
     "level": "Sätze"
   },
   {
     "de": "Schläfst du noch?",
-    "lv": "Alszol még",
+    "lv": "Alszol még?",
     "level": "Sätze"
   },
   {
     "de": "Schlafen Sie noch?",
-    "lv": "Még mindig alszol?",
+    "lv": "Alszik még?",
     "level": "Sätze"
   },
   {
     "de": "Er ist fest eingeschlafen.",
-    "lv": "Mélyen alszik.",
+    "lv": "Mélyen elaludt.",
     "level": "Sätze"
   },
   {
     "de": "Wecke ihn bitte auf, es ist schon spät!",
-    "lv": "Kérem, ébressze fel, már késő van!",
+    "lv": "Ébreszd fel, kérlek, már késő van!",
     "level": "Sätze"
   },
   {
@@ -2476,27 +2476,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Finn, fang bitte an!",
-    "lv": "Finn, kezdd, kérlek!",
+    "lv": "Finn, kezdd el, kérlek!",
     "level": "Sätze"
   },
   {
     "de": "Lest bitte mit!",
-    "lv": "Olvass tovább, kérlek!",
+    "lv": "Kövessétek a szöveget, kérlek!",
     "level": "Sätze"
   },
   {
     "de": "Emma, schau bitte nicht aus dem Fenster!",
-    "lv": "Emma, ​​kérlek, ne nézz ki az ablakon!",
+    "lv": "Emma, kérlek, ne nézz ki az ablakon!",
     "level": "Sätze"
   },
   {
     "de": "Jonas, bring bitte die Hefte!",
-    "lv": "Jónás, kérlek, hozd a füzeteket!",
+    "lv": "Jonas, hozd ide a füzeteket, kérlek!",
     "level": "Sätze"
   },
   {
     "de": "Geh bitte zurück an deinen Platz!",
-    "lv": "Menj vissza a helyedre!",
+    "lv": "Menj vissza a helyedre, kérlek!",
     "level": "Sätze"
   },
   {
@@ -2516,7 +2516,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Steh auf, Hanna, es klingelt!",
-    "lv": "Kelj fel, Hannah, szól a csengő!",
+    "lv": "Kelj fel, Hanna, szól az óra! • Kelj fel, Hanna, csengetnek!",
     "level": "Sätze"
   },
   {
@@ -2526,17 +2526,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Vergiss nicht, das Zimmer zu lüften!",
-    "lv": "Ne felejtse el szellőztetni a helyiséget!",
+    "lv": "Ne felejtsd el kiszellőztetni a szobát!",
     "level": "Sätze"
   },
   {
     "de": "Wo ist das Handtuch?",
-    "lv": "Hol van a törölköző",
+    "lv": "Hol van a törölköző?",
     "level": "Sätze"
   },
   {
     "de": "Ich möchte mir die Zähne putzen.",
-    "lv": "Fogat akarok mosni.",
+    "lv": "Szeretnék fogat mosni.",
     "level": "Sätze"
   },
   {
@@ -2546,7 +2546,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich möchte mich anziehen.",
-    "lv": "Fel akarok öltözni.",
+    "lv": "Szeretnék felöltözni.",
     "level": "Sätze"
   },
   {
@@ -2556,7 +2556,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Kleide dich wärmer an, draußen ist es kühl.",
-    "lv": "Öltözz melegen, hideg van kint.",
+    "lv": "Öltözz fel melegebben, kint hűvös van.",
     "level": "Sätze"
   },
   {
@@ -2586,17 +2586,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Was trinkst du morgens, Kaffee oder Tee?",
-    "lv": "Mit iszol reggel, kávét vagy teát?",
+    "lv": "Mit iszol reggelente, kávét vagy teát?",
     "level": "Sätze"
   },
   {
     "de": "Gewöhnlich trinke ich morgens eine Tasse Kaffee.",
-    "lv": "Általában reggel iszom egy csésze kávét.",
+    "lv": "Reggelente általában egy csésze kávét iszom.",
     "level": "Sätze"
   },
   {
     "de": "Am liebsten trinke ich schwarzen Kaffee.",
-    "lv": "A legjobban fekete kávét iszom.",
+    "lv": "Legszívesebben feketekávét iszom.",
     "level": "Sätze"
   },
   {
@@ -2626,12 +2626,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Vergiss dein Frühstück nicht!",
-    "lv": "Ne felejtsd el a reggelit!",
+    "lv": "Ne felejtsd el a reggelidet!",
     "level": "Sätze"
   },
   {
     "de": "Klara, deck bitte den Tisch!",
-    "lv": "Clara, kérlek, teríts asztalt!",
+    "lv": "Klara, kérlek, terítsd meg az asztalt!",
     "level": "Sätze"
   },
   {
@@ -2641,17 +2641,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wann esst ihr zu Mittag?",
-    "lv": "Mikor ebédelsz",
+    "lv": "Mikor ebédeltek?",
     "level": "Sätze"
   },
   {
     "de": "Es ist Zeit zu essen.",
-    "lv": "Itt az ideje enni.",
+    "lv": "Ideje enni.",
     "level": "Sätze"
   },
   {
     "de": "Was gibt es heute zu Mittag?",
-    "lv": "Mi van ma ebédre?",
+    "lv": "Mi lesz ma ebédre?",
     "level": "Sätze"
   },
   {
@@ -2671,12 +2671,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Danke, ich habe schon.",
-    "lv": "Köszönöm, már megvan.",
+    "lv": "Köszönöm, nekem már van.",
     "level": "Sätze"
   },
   {
     "de": "Das Fleisch schmeckt ausgezeichnet.",
-    "lv": "A hús remek ízű.",
+    "lv": "A hús kitűnő ízű.",
     "level": "Sätze"
   },
   {
@@ -2686,17 +2686,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Heute haben wir Besuch.",
-    "lv": "Ma látogatóink vannak.",
+    "lv": "Ma vendégeink vannak.",
     "level": "Sätze"
   },
   {
     "de": "Bist du heute Abend frei?",
-    "lv": "Szabad vagy ma este",
+    "lv": "Ráérsz ma este?",
     "level": "Sätze"
   },
   {
     "de": "Komm doch heute zum Mittagessen vorbei!",
-    "lv": "Gyere el ma ebédelni!",
+    "lv": "Gyere át ma hozzánk ebédre!",
     "level": "Sätze"
   },
   {
@@ -2706,7 +2706,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bitte, bedien dich!",
-    "lv": "Kérlek egyél annyit, amennyit akarsz!",
+    "lv": "Tessék, vegyél bátran!",
     "level": "Sätze"
   },
   {
@@ -2716,22 +2716,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Danke für die nette Aufnahme!",
-    "lv": "Köszönöm a szívélyes fogadtatást!",
+    "lv": "Köszönöm a kedves fogadtatást!",
     "level": "Sätze"
   },
   {
     "de": "Wann gehst du ins Bett?",
-    "lv": "Mikor mész aludni",
+    "lv": "Mikor fekszel le?",
     "level": "Sätze"
   },
   {
     "de": "Wenn ich von der Arbeit komme, bin ich immer müde.",
-    "lv": "Mindig fáradt vagyok, amikor hazajövök a munkából.",
+    "lv": "Amikor hazaérek a munkából, mindig fáradt vagyok.",
     "level": "Sätze"
   },
   {
     "de": "Es ist Zeit, ins Bett zu gehen.",
-    "lv": "Ideje aludni.",
+    "lv": "Ideje lefeküdni.",
     "level": "Sätze"
   },
   {
@@ -2746,12 +2746,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Sieh mal, es wird gleich regnen.",
-    "lv": "Nézd, hamarosan esik az eső.",
+    "lv": "Nézd, mindjárt esni fog.",
     "level": "Sätze"
   },
   {
     "de": "Nimm den Regenschirm mit!",
-    "lv": "Vigyél magaddal esernyőt!",
+    "lv": "Vidd magaddal az esernyőt!",
     "level": "Sätze"
   },
   {
@@ -2771,12 +2771,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Es hört auf zu regnen.",
-    "lv": "Az eső eláll.",
+    "lv": "Eláll az eső.",
     "level": "Sätze"
   },
   {
     "de": "Die Sonne scheint wieder.",
-    "lv": "Ismét süt a nap.",
+    "lv": "Újra süt a nap.",
     "level": "Sätze"
   },
   {
@@ -2791,17 +2791,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wir bekommen gleich ein Gewitter.",
-    "lv": "Mindjárt vihar lesz nálunk.",
+    "lv": "Mindjárt kitör a zivatar.",
     "level": "Sätze"
   },
   {
     "de": "Das Gewitter zieht vorüber.",
-    "lv": "A vihar elmúlt.",
+    "lv": "A zivatar elvonul.",
     "level": "Sätze"
   },
   {
     "de": "Die Wolken verziehen sich.",
-    "lv": "A felhők szétoszlanak.",
+    "lv": "Oszlanak a felhők.",
     "level": "Sätze"
   },
   {
@@ -2811,12 +2811,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Der Winter ist da, es hat geschneit.",
-    "lv": "Itt a tél, éjszaka esett a hó.",
+    "lv": "Itt a tél, leesett a hó.",
     "level": "Sätze"
   },
   {
     "de": "Es schneit.",
-    "lv": "Havazik.",
+    "lv": "Esik a hó.",
     "level": "Sätze"
   },
   {
@@ -2826,42 +2826,42 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Mir ist kalt, ich friere.",
-    "lv": "Fázok, megfagyok.",
+    "lv": "Fázom, didergek.",
     "level": "Sätze"
   },
   {
     "de": "Draußen ist Glatteis, pass auf!",
-    "lv": "Kint csúszós, vigyázzatok!",
+    "lv": "Kint jeges az út, vigyázz!",
     "level": "Sätze"
   },
   {
     "de": "Wollen wir auf die Eisbahn gehen?",
-    "lv": "Menjünk korcsolyázni?",
+    "lv": "Elmenjünk a korcsolyapályára?",
     "level": "Sätze"
   },
   {
     "de": "Zieh die Jacke an, du kannst dich erkälten.",
-    "lv": "Vegyél fel kabátot, megfázhatsz.",
+    "lv": "Vedd fel a kabátot, megfázhatsz.",
     "level": "Sätze"
   },
   {
     "de": "Es ist halb sieben.",
-    "lv": "Fél nyolc van.",
+    "lv": "Fél hét van.",
     "level": "Sätze"
   },
   {
     "de": "Meine Uhr geht fünf Minuten vor.",
-    "lv": "Az órám öt perc gyors.",
+    "lv": "Az órám öt percet siet.",
     "level": "Sätze"
   },
   {
     "de": "Weck mich morgen früh um sieben Uhr!",
-    "lv": "Ébress fel holnap hétkor!",
+    "lv": "Ébressz fel holnap reggel hét órakor!",
     "level": "Sätze"
   },
   {
     "de": "Was ist heute für ein Datum?",
-    "lv": "Mi a mai dátum?",
+    "lv": "Hányadika van ma?",
     "level": "Sätze"
   },
   {
@@ -2876,17 +2876,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Es ist schon lange her, dass wir uns gesehen haben.",
-    "lv": "Régóta nem találkoztunk.",
+    "lv": "Már rég láttuk egymást.",
     "level": "Sätze"
   },
   {
     "de": "Wie geht es dir?",
-    "lv": "Hogy vagy",
+    "lv": "Hogy vagy?",
     "level": "Sätze"
   },
   {
     "de": "Entschuldige, ich möchte etwas mit dir besprechen.",
-    "lv": "Elnézést, szeretnék valamit megbeszélni veled.",
+    "lv": "Ne haragudj, szeretnék megbeszélni veled valamit.",
     "level": "Sätze"
   },
   {
@@ -2896,22 +2896,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Hast du Lust, mit mir in den Park zu gehen?",
-    "lv": "Akarsz velem menni a parkba?",
+    "lv": "Van kedved eljönni velem a parkba?",
     "level": "Sätze"
   },
   {
     "de": "Ich komme, um dich zum Spaziergang abzuholen.",
-    "lv": "Azért jöttem, hogy elvigyem sétálni.",
+    "lv": "Azért jövök, hogy elvigyelek sétálni.",
     "level": "Sätze"
   },
   {
     "de": "Geh bitte etwas langsamer, ich kann dir nicht folgen!",
-    "lv": "Menj egy kicsit lassabban, nem tudok lépést tartani veled!",
+    "lv": "Kérlek, menj egy kicsit lassabban, nem tudok lépést tartani veled!",
     "level": "Sätze"
   },
   {
     "de": "Ich bin zum ersten Mal in dieser Gegend.",
-    "lv": "Most vagyok itt először.",
+    "lv": "Most járok először ezen a környéken.",
     "level": "Sätze"
   },
   {
@@ -2921,17 +2921,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Jetzt können wir zurückgehen.",
-    "lv": "Most már mehetünk vissza.",
+    "lv": "Most már visszamehetünk.",
     "level": "Sätze"
   },
   {
     "de": "Ehrlich gesagt bin ich ziemlich müde.",
-    "lv": "Őszintén szólva, elég fáradt vagyok.",
+    "lv": "Őszintén szólva elég fáradt vagyok.",
     "level": "Sätze"
   },
   {
     "de": "Entschuldige, wo ist die nächste U-Bahn-Station?",
-    "lv": "Elnézést, hol van a legközelebbi metrómegálló?",
+    "lv": "Ne haragudj, hol van a legközelebbi metróállomás?",
     "level": "Sätze"
   },
   {
@@ -2941,32 +2941,32 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Geh hier die zweite Straße links und dann immer geradeaus.",
-    "lv": "Itt forduljon balra a második utcán, és menjen tovább egyenesen.",
+    "lv": "Itt a második utcán fordulj be balra, aztán menj mindig egyenesen.",
     "level": "Sätze"
   },
   {
     "de": "Wie komme ich am schnellsten zum Bahnhof?",
-    "lv": "Hogyan lehet gyorsabban eljutni az állomásra?",
+    "lv": "Hogyan jutok el a leggyorsabban a pályaudvarra?",
     "level": "Sätze"
   },
   {
     "de": "Ich habe vor, morgen zu verreisen.",
-    "lv": "Holnap szándékozom elmenni.",
+    "lv": "Azt tervezem, hogy holnap elutazom.",
     "level": "Sätze"
   },
   {
     "de": "Wohin willst du fahren?",
-    "lv": "Hova akarsz menni?",
+    "lv": "Hová akarsz utazni?",
     "level": "Sätze"
   },
   {
     "de": "Reist du geschäftlich oder privat?",
-    "lv": "Munka vagy szabadidő miatt utazik?",
+    "lv": "Üzleti ügyben utazol vagy magánügyben?",
     "level": "Sätze"
   },
   {
     "de": "Finn fährt bis Berlin mit, dann geht er ans Meer.",
-    "lv": "Finn Berlinbe autózik, aztán a tengerhez megy.",
+    "lv": "Finn Berlinig jön velünk, aztán továbbmegy a tengerhez.",
     "level": "Sätze"
   },
   {
@@ -2986,27 +2986,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Vergiss deinen Pass nicht!",
-    "lv": "Ne felejtse el az útlevelét!",
+    "lv": "Ne felejtsd el az útleveledet!",
     "level": "Sätze"
   },
   {
     "de": "Es ist Zeit, den Koffer zu packen.",
-    "lv": "Ideje bepakolni a bőröndöt.",
+    "lv": "Ideje bepakolni a bőröndbe.",
     "level": "Sätze"
   },
   {
     "de": "Der Zug fährt um halb sieben ab.",
-    "lv": "A vonat fél nyolckor indul.",
+    "lv": "A vonat fél hétkor indul.",
     "level": "Sätze"
   },
   {
     "de": "Hol mir bitte ein Taxi, ich verpasse sonst den Zug!",
-    "lv": "Kérem, hívjon taxit, különben lekésem a vonatot!",
+    "lv": "Hívj nekem egy taxit, kérlek, különben lekésem a vonatot!",
     "level": "Sätze"
   },
   {
     "de": "Fahr bitte zum Bahnhof!",
-    "lv": "Kérem, vigyen el az állomásra!",
+    "lv": "Vigyél a pályaudvarra, kérlek!",
     "level": "Sätze"
   },
   {
@@ -3021,7 +3021,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Eine Fahrkarte nach Köln, bitte.",
-    "lv": "Egy jegy Kölnbe, kérem.",
+    "lv": "Egy jegyet kérek Kölnbe.",
     "level": "Sätze"
   },
   {
@@ -3031,37 +3031,37 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Der Zug fährt gleich ab.",
-    "lv": "Hamarosan indul a vonat.",
+    "lv": "A vonat mindjárt indul.",
     "level": "Sätze"
   },
   {
     "de": "Muss ich in Koblenz umsteigen?",
-    "lv": "Kell-e helyet cserélnem Koblenzben?",
+    "lv": "Koblenzben át kell szállnom?",
     "level": "Sätze"
   },
   {
     "de": "Ja, dort musst du umsteigen.",
-    "lv": "Igen, ott kell helyet cserélni.",
+    "lv": "Igen, ott át kell szállnod.",
     "level": "Sätze"
   },
   {
     "de": "Ist dieser Platz frei?",
-    "lv": "Ez a hely elérhető?",
+    "lv": "Szabad ez a hely?",
     "level": "Sätze"
   },
   {
     "de": "Nein, hier sitzt niemand.",
-    "lv": "Nem, nem ül itt senki.",
+    "lv": "Nem, itt nem ül senki.",
     "level": "Sätze"
   },
   {
     "de": "Wo ist der Bahnsteigkartenautomat?",
-    "lv": "Hol van a peron jegykiadó automata?",
+    "lv": "Hol van a peronjegy-automata?",
     "level": "Sätze"
   },
   {
     "de": "Stell mein Handgepäck ins Gepäcknetz.",
-    "lv": "Tedd be a kézipoggyászomat a rácsba.",
+    "lv": "Tedd fel a kézipoggyászomat a csomagtartóra.",
     "level": "Sätze"
   },
   {
@@ -3071,12 +3071,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Es zieht, schließ bitte das Fenster!",
-    "lv": "Húzz át, kérlek csukd be az ablakot!",
+    "lv": "Huzat van, csukd be, kérlek, az ablakot!",
     "level": "Sätze"
   },
   {
     "de": "Welche ist die nächste Station?",
-    "lv": "Mi a következő megálló?",
+    "lv": "Melyik a következő állomás?",
     "level": "Sätze"
   },
   {
@@ -3086,12 +3086,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wo muss ich umsteigen?",
-    "lv": "Hova kell áthelyeznem?",
+    "lv": "Hol kell átszállnom?",
     "level": "Sätze"
   },
   {
     "de": "Der Zug hat Verspätung.",
-    "lv": "A vonat késik.",
+    "lv": "Késik a vonat.",
     "level": "Sätze"
   },
   {
@@ -3101,12 +3101,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wir fahren jetzt über die Grenze.",
-    "lv": "Most átmegyünk a határon.",
+    "lv": "Most megyünk át a határon.",
     "level": "Sätze"
   },
   {
     "de": "Hast du etwas zu verzollen?",
-    "lv": "Van valami tisztáznivalója?",
+    "lv": "Van valami elvámolnivalód?",
     "level": "Sätze"
   },
   {
@@ -3116,32 +3116,32 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Kannst du mir ein gutes Hotel empfehlen?",
-    "lv": "Tudtok ajánlani egy jó szállodát?",
+    "lv": "Tudsz ajánlani egy jó szállodát?",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie freie Zimmer?",
-    "lv": "Van szabad szobád?",
+    "lv": "Van szabad szobájuk?",
     "level": "Sätze"
   },
   {
     "de": "Ein Zimmer mit zwei Betten, bitte.",
-    "lv": "Egy szoba két ággyal, kérem.",
+    "lv": "Egy kétágyas szobát kérek.",
     "level": "Sätze"
   },
   {
     "de": "Was kostet das Zimmer pro Nacht?",
-    "lv": "Mennyibe kerül a szoba éjszakánként?",
+    "lv": "Mennyibe kerül a szoba egy éjszakára?",
     "level": "Sätze"
   },
   {
     "de": "Morgen reise ich ab. Weck mich um sieben Uhr!",
-    "lv": "Holnap indulok. Ébressz fel hétkor!",
+    "lv": "Holnap elutazom. Ébressz fel hét órakor!",
     "level": "Sätze"
   },
   {
     "de": "Die Rechnung, bitte!",
-    "lv": "Bill, kérlek!",
+    "lv": "A számlát, kérem!",
     "level": "Sätze"
   },
   {
@@ -3156,7 +3156,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wollen wir ins Museum gehen?",
-    "lv": "Menjünk a múzeumba?",
+    "lv": "Elmenjünk a múzeumba?",
     "level": "Sätze"
   },
   {
@@ -3176,12 +3176,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Gehen wir zusammen essen?",
-    "lv": "Menjünk együtt enni?",
+    "lv": "Elmegyünk együtt enni?",
     "level": "Sätze"
   },
   {
     "de": "Kellner, die Speisekarte, bitte!",
-    "lv": "Pincérek, menü, kérem!",
+    "lv": "Pincér, az étlapot, kérem!",
     "level": "Sätze"
   },
   {
@@ -3191,42 +3191,42 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Das schmeckt ausgezeichnet!",
-    "lv": "Nagyon ízlik!",
+    "lv": "Kitűnő az íze!",
     "level": "Sätze"
   },
   {
     "de": "Kellner, zahlen bitte!",
-    "lv": "Pincérek, fizessenek!",
+    "lv": "Pincér, fizetni szeretnék!",
     "level": "Sätze"
   },
   {
     "de": "Ich gehe ins Café einen Kaffee trinken.",
-    "lv": "Elmegyek egy kávézóba kávézni.",
+    "lv": "Elmegyek a kávézóba kávézni.",
     "level": "Sätze"
   },
   {
     "de": "Willst du mitkommen?",
-    "lv": "Akarsz jönni?",
+    "lv": "Akarsz velem jönni?",
     "level": "Sätze"
   },
   {
     "de": "Eine Tasse Kaffee mit Milch, bitte!",
-    "lv": "Egy csésze kávét tejjel, kérlek!",
+    "lv": "Egy csésze kávét kérek tejjel!",
     "level": "Sätze"
   },
   {
     "de": "Bitte schneller, ich habe es eilig!",
-    "lv": "Gyorsabban kérem, sietnem kell!",
+    "lv": "Gyorsabban, kérem, sietek!",
     "level": "Sätze"
   },
   {
     "de": "Lass deinen Kaffee nicht kalt werden!",
-    "lv": "Ne hagyja kihűlni a kávét!",
+    "lv": "Ne hagyd kihűlni a kávédat!",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie etwas Erfrischendes?",
-    "lv": "Van valami frissítőd?",
+    "lv": "Van valami frissítőjük?",
     "level": "Sätze"
   },
   {
@@ -3241,12 +3241,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich muss ihm gleich schreiben.",
-    "lv": "Most írnom kell neki.",
+    "lv": "Azonnal írnom kell neki.",
     "level": "Sätze"
   },
   {
     "de": "Wo ist der nächste Briefkasten?",
-    "lv": "Hol van a legközelebbi postafiók?",
+    "lv": "Hol van a legközelebbi postaláda?",
     "level": "Sätze"
   },
   {
@@ -3256,37 +3256,37 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Erinnere mich morgen daran zu schreiben!",
-    "lv": "Emlékeztess, hogy holnap aláírjam!",
+    "lv": "Holnap emlékeztess rá, hogy írjak!",
     "level": "Sätze"
   },
   {
     "de": "Werfen Sie bitte diesen Brief in den Briefkasten.",
-    "lv": "Kérjük, dobja be ezt a levelet a postafiókba!",
+    "lv": "Kérem, dobja be ezt a levelet a postaládába.",
     "level": "Sätze"
   },
   {
     "de": "Hallo, hier spricht Emma.",
-    "lv": "Helló, ő Emma.",
+    "lv": "Halló, itt Emma beszél.",
     "level": "Sätze"
   },
   {
     "de": "Kann ich dich später anrufen?",
-    "lv": "Hívhatlak később",
+    "lv": "Felhívhatlak később?",
     "level": "Sätze"
   },
   {
     "de": "Muss ich lange warten?",
-    "lv": "Sokat kell várnom?",
+    "lv": "Sokáig kell várnom?",
     "level": "Sätze"
   },
   {
     "de": "Bitte schneiden Sie mir die Haare.",
-    "lv": "Kérlek vágd le a hajam.",
+    "lv": "Kérem, vágja le a hajamat.",
     "level": "Sätze"
   },
   {
     "de": "Hinten bitte nicht zu kurz.",
-    "lv": "Hátul, kérem, ne túl rövid.",
+    "lv": "Hátul ne túl rövidre, kérem.",
     "level": "Sätze"
   },
   {
@@ -3296,7 +3296,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Es fängt um halb acht an.",
-    "lv": "Fél kilenckor kezdődik.",
+    "lv": "Fél nyolckor kezdődik.",
     "level": "Sätze"
   },
   {
@@ -3311,27 +3311,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wir lassen die Jacken in der Garderobe.",
-    "lv": "Hagyjuk a kabátokat a gardróbban.",
+    "lv": "A kabátunkat a ruhatárban hagyjuk.",
     "level": "Sätze"
   },
   {
     "de": "Bitte schnell, der Vorhang geht gleich auf!",
-    "lv": "Gyorsabban kérem, hamarosan nyílik a függöny!",
+    "lv": "Gyorsan, kérlek, mindjárt felmegy a függöny!",
     "level": "Sätze"
   },
   {
     "de": "Der Vorhang fällt.",
-    "lv": "A függöny leesik.",
+    "lv": "Legördül a függöny.",
     "level": "Sätze"
   },
   {
     "de": "Darf ich dich zum Tanz bitten?",
-    "lv": "Megkérhetlek táncolni?",
+    "lv": "Felkérhetlek egy táncra?",
     "level": "Sätze"
   },
   {
     "de": "Wann ist eure Hochzeit?",
-    "lv": "Mikor lesz az esküvőd?",
+    "lv": "Mikor lesz az esküvőtök?",
     "level": "Sätze"
   },
   {
@@ -3341,17 +3341,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ist in diesem Haus eine Wohnung frei?",
-    "lv": "Van szabad lakás ebben a házban?",
+    "lv": "Van ebben a házban szabad lakás?",
     "level": "Sätze"
   },
   {
     "de": "Wie viel kostet die Miete?",
-    "lv": "Mennyi a bérleti díj?",
+    "lv": "Mennyi a lakbér?",
     "level": "Sätze"
   },
   {
     "de": "Die Wohnung hat drei Zimmer und eine Küche.",
-    "lv": "A lakásban három szoba és egy konyha található.",
+    "lv": "A lakásban három szoba és egy konyha van.",
     "level": "Sätze"
   },
   {
@@ -3361,67 +3361,67 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Mia, pack die Sachen bitte in Kisten!",
-    "lv": "Mia, rakd dobozokba a dolgokat, kérlek!",
+    "lv": "Mia, kérlek, rakd dobozokba a holmikat!",
     "level": "Sätze"
   },
   {
     "de": "Hast du alles eingepackt?",
-    "lv": "Már minden be van dobozolva?",
+    "lv": "Mindent becsomagoltál?",
     "level": "Sätze"
   },
   {
     "de": "Ich stehe mit meinem Freund in Kontakt.",
-    "lv": "Levelezésben vagyok a barátommal.",
+    "lv": "Tartom a kapcsolatot a barátommal.",
     "level": "Sätze"
   },
   {
     "de": "Gehen wir ins Theater?",
-    "lv": "Menjünk színházba?",
+    "lv": "Elmegyünk a színházba?",
     "level": "Sätze"
   },
   {
     "de": "Ist alles eingeladen?",
-    "lv": "Minden fel van töltve?",
+    "lv": "Minden be van rakva?",
     "level": "Sätze"
   },
   {
     "de": "Welch schöne Aussicht!",
-    "lv": "Milyen gyönyörű kilátás!",
+    "lv": "Milyen szép kilátás!",
     "level": "Sätze"
   },
   {
     "de": "Nun können wir alles wieder aufräumen.",
-    "lv": "Most mindent újra összerakhatunk.",
+    "lv": "Most mindent újra rendbe tehetünk.",
     "level": "Sätze"
   },
   {
     "de": "Wie viele Zimmer habt ihr?",
-    "lv": "Hány szobád van?",
+    "lv": "Hány szobátok van?",
     "level": "Sätze"
   },
   {
     "de": "Im Sommer fahre ich ans Meer.",
-    "lv": "Nyáron elmegyek a tengerhez.",
+    "lv": "Nyáron a tengerhez utazom.",
     "level": "Sätze"
   },
   {
     "de": "Kannst du schwimmen?",
-    "lv": "Tud úszni",
+    "lv": "Tudsz úszni?",
     "level": "Sätze"
   },
   {
     "de": "Schwimm nicht zu weit hinaus!",
-    "lv": "Ne ússzon túl messzire!",
+    "lv": "Ne ússz ki túl messzire!",
     "level": "Sätze"
   },
   {
     "de": "Badest du jeden Tag?",
-    "lv": "Minden nap úszol?",
+    "lv": "Mindennap fürdesz?",
     "level": "Sätze"
   },
   {
     "de": "Bei schönem Wetter gehe ich angeln.",
-    "lv": "Ha jó az idő, horgászni megyek.",
+    "lv": "Szép időben horgászni megyek.",
     "level": "Sätze"
   },
   {
@@ -3431,7 +3431,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Er hat sich aber recht verändert.",
-    "lv": "Azonban eléggé megváltozott.",
+    "lv": "Bizony elég sokat változott.",
     "level": "Sätze"
   },
   {
@@ -3441,7 +3441,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Er ist immer nett und freundlich.",
-    "lv": "Mindig kedves és kedves.",
+    "lv": "Mindig kedves és barátságos.",
     "level": "Sätze"
   },
   {
@@ -3456,7 +3456,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich habe mich erkältet.",
-    "lv": "Influenzás vagyok.",
+    "lv": "Megfáztam.",
     "level": "Sätze"
   },
   {
@@ -3471,22 +3471,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich muss zum Arzt gehen.",
-    "lv": "El kell mennem az orvoshoz.",
+    "lv": "Orvoshoz kell mennem.",
     "level": "Sätze"
   },
   {
     "de": "Leg dich ins Bett!",
-    "lv": "Feküdj az ágyba!",
+    "lv": "Feküdj ágyba!",
     "level": "Sätze"
   },
   {
     "de": "Hast du Fieber?",
-    "lv": "Lázad van?",
+    "lv": "Lázas vagy?",
     "level": "Sätze"
   },
   {
     "de": "Gestern hatte ich erhöhte Temperatur.",
-    "lv": "Tegnap magas hőmérsékletem volt.",
+    "lv": "Tegnap hőemelkedésem volt.",
     "level": "Sätze"
   },
   {
@@ -3506,37 +3506,37 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Laut Arzt wird er bald wieder gesund.",
-    "lv": "Az orvos szerint hamarosan újra rendbe jön.",
+    "lv": "Az orvos szerint hamarosan meggyógyul.",
     "level": "Sätze"
   },
   {
     "de": "Ich will meine Wohnung neu möblieren.",
-    "lv": "Szeretném felújítani a lakást.",
+    "lv": "Új bútorokkal akarom berendezni a lakásomat.",
     "level": "Sätze"
   },
   {
     "de": "Kann ich das auf Raten kaufen?",
-    "lv": "Lehet részletre vásárolni?",
+    "lv": "Megvehetem részletre?",
     "level": "Sätze"
   },
   {
     "de": "Bleib im Bett, bis es dir besser geht!",
-    "lv": "Maradj ágyban, amíg jobban nem érzi magát!",
+    "lv": "Maradj ágyban, amíg jobban nem érzed magad!",
     "level": "Sätze"
   },
   {
     "de": "Noah hat in zwei Wochen schwimmen gelernt.",
-    "lv": "Noé két hét alatt megtanult úszni.",
+    "lv": "Noah két hét alatt megtanult úszni.",
     "level": "Sätze"
   },
   {
     "de": "Sei mit dem Essen noch vorsichtig.",
-    "lv": "Legyen óvatos az étellel.",
+    "lv": "Az evéssel még légy óvatos.",
     "level": "Sätze"
   },
   {
     "de": "Sprichst du Deutsch?",
-    "lv": "Beszélsz németül",
+    "lv": "Beszélsz németül?",
     "level": "Sätze"
   },
   {
@@ -3556,22 +3556,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich nehme seit einem Jahr Deutschstunden.",
-    "lv": "Egy éve járok német leckére.",
+    "lv": "Egy éve járok németórára.",
     "level": "Sätze"
   },
   {
     "de": "Ich suche immer Gelegenheit, Deutsch zu sprechen.",
-    "lv": "Mindig keresi a lehetőséget, hogy németül beszéljen.",
+    "lv": "Mindig keresem az alkalmat, hogy németül beszélhessek.",
     "level": "Sätze"
   },
   {
     "de": "Ist das Buch noch vorrätig?",
-    "lv": "Elérhető még ez a könyv?",
+    "lv": "Van még raktáron a könyv?",
     "level": "Sätze"
   },
   {
     "de": "Das Buch ist leider ausverkauft.",
-    "lv": "Sajnos a könyv elkelt.",
+    "lv": "Sajnos a könyv elfogyott.",
     "level": "Sätze"
   },
   {
@@ -3581,12 +3581,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Womit kann ich Ihnen helfen?",
-    "lv": "Hogyan segíthetek?",
+    "lv": "Miben segíthetek?",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie ganz frische Eier?",
-    "lv": "Van friss tojásod?",
+    "lv": "Van egészen friss tojása?",
     "level": "Sätze"
   },
   {
@@ -3596,12 +3596,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Das ist zu teuer.",
-    "lv": "Túl drága.",
+    "lv": "Ez túl drága.",
     "level": "Sätze"
   },
   {
     "de": "Können Sie mir ein halbes Kilo abwiegen?",
-    "lv": "Tudsz fél kilót nyomni?",
+    "lv": "Le tudna mérni nekem fél kilót?",
     "level": "Sätze"
   },
   {
@@ -3611,32 +3611,32 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wie viel kostet das Kilo?",
-    "lv": "Mennyibe kerül egy kilogramm?",
+    "lv": "Mennyibe kerül egy kiló?",
     "level": "Sätze"
   },
   {
     "de": "Wiegen Sie mir bitte zwei Kilo ab.",
-    "lv": "Kérem, mérjen két kilogrammot.",
+    "lv": "Kérem, mérjen le nekem két kilót.",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie auch Karotten?",
-    "lv": "Neked is van sárgarépa?",
+    "lv": "Van sárgarépája is?",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie gutes Rindfleisch?",
-    "lv": "Van jó marhahúsod?",
+    "lv": "Van jó marhahúsa?",
     "level": "Sätze"
   },
   {
     "de": "Geben Sie mir zwei Kilo Hackfleisch.",
-    "lv": "Adj két kilogramm darált húst.",
+    "lv": "Adjon két kiló darált húst.",
     "level": "Sätze"
   },
   {
     "de": "Ein Laib Brot, bitte, aber nicht zu knusprig.",
-    "lv": "Egy vekni kenyeret kérek, de ne túl kemény.",
+    "lv": "Egy vekni kenyeret kérek, de ne túl ropogósat.",
     "level": "Sätze"
   },
   {
@@ -3646,7 +3646,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Was für Obst haben Sie heute?",
-    "lv": "Milyen gyümölcsöt eszel ma?",
+    "lv": "Milyen gyümölcse van ma?",
     "level": "Sätze"
   },
   {
@@ -3656,7 +3656,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Dann nehme ich zwei Kilo Äpfel.",
-    "lv": "Akkor veszek két kilogramm almát.",
+    "lv": "Akkor viszek két kiló almát.",
     "level": "Sätze"
   },
   {
@@ -3671,12 +3671,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Haben Sie Reis?",
-    "lv": "Van rizsed?",
+    "lv": "Van rizse?",
     "level": "Sätze"
   },
   {
     "de": "Geben Sie mir bitte ein Kilo Reis.",
-    "lv": "Adj egy kilogramm rizst, kérlek.",
+    "lv": "Kérem, adjon egy kiló rizst.",
     "level": "Sätze"
   },
   {
@@ -3691,47 +3691,47 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Können Sie die Möbel in meine Wohnung liefern?",
-    "lv": "Tudsz bútort szállítani a lakásba?",
+    "lv": "El tudja szállítani a bútort a lakásomba?",
     "level": "Sätze"
   },
   {
     "de": "Bitte an der Kasse zahlen.",
-    "lv": "Kérjük, fizessen a pénztárban.",
+    "lv": "Kérjük, a pénztárnál fizessen.",
     "level": "Sätze"
   },
   {
     "de": "Bitte, machen Sie die Rechnung.",
-    "lv": "Kérjük, állítson ki számlát.",
+    "lv": "Kérem, készítse el a számlát.",
     "level": "Sätze"
   },
   {
     "de": "Was kostet das Meter?",
-    "lv": "Mennyibe kerül egy mérő?",
+    "lv": "Mennyibe kerül egy méter?",
     "level": "Sätze"
   },
   {
     "de": "Dieser Stoff gefällt mir.",
-    "lv": "Imádom ezt a szövetet.",
+    "lv": "Tetszik ez az anyag.",
     "level": "Sätze"
   },
   {
     "de": "Schneiden Sie mir bitte drei Meter ab.",
-    "lv": "Kérem vágjon három métert.",
+    "lv": "Kérem, vágjon le nekem három métert.",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie auch andere Muster?",
-    "lv": "Vannak más mintáid?",
+    "lv": "Van más mintája is?",
     "level": "Sätze"
   },
   {
     "de": "Diese Farbe gefällt mir nicht.",
-    "lv": "Nem szeretem ezt a színt.",
+    "lv": "Ez a szín nem tetszik.",
     "level": "Sätze"
   },
   {
     "de": "Geben Sie mir eine hellere.",
-    "lv": "Adj fényesebbet.",
+    "lv": "Adjon egy világosabbat.",
     "level": "Sätze"
   },
   {
@@ -3741,27 +3741,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Welche Handschuhe wünschen Sie?",
-    "lv": "Milyen kesztyűt szeretnél?",
+    "lv": "Milyen kesztyűt szeretne?",
     "level": "Sätze"
   },
   {
     "de": "Die sind mir etwas zu eng.",
-    "lv": "Nekem kicsit túl szűkek.",
+    "lv": "Ezek egy kicsit szűkek nekem.",
     "level": "Sätze"
   },
   {
     "de": "So, nun passen sie gut.",
-    "lv": "Szóval most jól működik.",
+    "lv": "Na, most már pont jók.",
     "level": "Sätze"
   },
   {
     "de": "Kannst du mir einen guten Schneider empfehlen?",
-    "lv": "Tudtok ajánlani egy jó szabót?",
+    "lv": "Tudsz ajánlani egy jó szabót?",
     "level": "Sätze"
   },
   {
     "de": "Ich will einen Anzug bestellen.",
-    "lv": "Öltönyt szeretnék rendelni.",
+    "lv": "Öltönyt szeretnék csináltatni.",
     "level": "Sätze"
   },
   {
@@ -3781,7 +3781,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bitte reinigen und bügeln Sie ihn!",
-    "lv": "Kérjük, tisztítsa meg és vasalja ki!",
+    "lv": "Kérem, tisztítsa ki és vasalja ki!",
     "level": "Sätze"
   },
   {
@@ -3796,12 +3796,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Können Sie die Schuhe heute reparieren?",
-    "lv": "Meg tudod javítani a cipődet ma?",
+    "lv": "Ma meg tudja javítani a cipőt?",
     "level": "Sätze"
   },
   {
     "de": "Wann kann ich die Schuhe abholen?",
-    "lv": "Mikor vihetem a cipőt?",
+    "lv": "Mikor vihetem el a cipőt?",
     "level": "Sätze"
   },
   {
@@ -3811,12 +3811,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Sie geht fünf Minuten vor.",
-    "lv": "Öt perccel korábban van.",
+    "lv": "Öt percet siet.",
     "level": "Sätze"
   },
   {
     "de": "Bist du kurzsichtig oder weitsichtig?",
-    "lv": "Rövidlátó vagy távollátó?",
+    "lv": "Rövidlátó vagy, vagy távollátó?",
     "level": "Sätze"
   },
   {
@@ -3826,27 +3826,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Können Sie meine Brille reparieren?",
-    "lv": "Meg tudod javítani a szemüvegemet?",
+    "lv": "Meg tudná javítani a szemüvegemet?",
     "level": "Sätze"
   },
   {
     "de": "Das dauert nur eine Viertelstunde.",
-    "lv": "Mindössze tizenöt percig tart.",
+    "lv": "Csak negyed óráig tart.",
     "level": "Sätze"
   },
   {
     "de": "Der Preis ist mir zu hoch.",
-    "lv": "Az ár túl magas nekem.",
+    "lv": "Az ár nekem túl magas.",
     "level": "Sätze"
   },
   {
     "de": "Ich brauche zwei Fotos für meinen Pass.",
-    "lv": "Két igazolványképre van szükségem.",
+    "lv": "Két fénykép kell az útlevelembe.",
     "level": "Sätze"
   },
   {
     "de": "Bitte packen Sie es ein und schicken Sie es mir nach Hause.",
-    "lv": "Kérem csomagolja be és küldje haza.",
+    "lv": "Kérem, csomagolja be és küldje el nekem haza.",
     "level": "Sätze"
   },
   {
@@ -3856,37 +3856,37 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bitte, fotografieren Sie mich.",
-    "lv": "Kérlek, készíts rólam képet.",
+    "lv": "Kérem, fényképezzen le.",
     "level": "Sätze"
   },
   {
     "de": "Setzen Sie sich, schauen Sie gerade in die Kamera und bewegen Sie sich nicht!",
-    "lv": "Ülj le, nézz egyenesen a kamerába, és ne mozdulj!",
+    "lv": "Üljön le, nézzen egyenesen a kamerába, és ne mozduljon!",
     "level": "Sätze"
   },
   {
     "de": "Wann kann ich das Probebild sehen?",
-    "lv": "Mikor láthatok mintát?",
+    "lv": "Mikor láthatom a próbanyomatot?",
     "level": "Sätze"
   },
   {
     "de": "Wann sind die Fotos fertig?",
-    "lv": "Mikorra lesznek készen a képek?",
+    "lv": "Mikor lesznek kész a fotók?",
     "level": "Sätze"
   },
   {
     "de": "Die Aufnahme ist gelungen.",
-    "lv": "A fotó sikeres volt.",
+    "lv": "A felvétel sikerült.",
     "level": "Sätze"
   },
   {
     "de": "Die Fotos sind gut geworden.",
-    "lv": "Jól sikerültek a fotók.",
+    "lv": "A fotók jól sikerültek.",
     "level": "Sätze"
   },
   {
     "de": "Können Sie das Foto auch vergrößern?",
-    "lv": "A fotót is fel tudod nagyítani?",
+    "lv": "Fel is tudja nagyítani a fotót?",
     "level": "Sätze"
   },
   {
@@ -3896,62 +3896,62 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ist das echtes Gold?",
-    "lv": "Valódi arany?",
+    "lv": "Ez valódi arany?",
     "level": "Sätze"
   },
   {
     "de": "Zeigen Sie mir bitte Trauringe.",
-    "lv": "Kérem, mutassa meg a jegygyűrűt.",
+    "lv": "Kérem, mutasson nekem jegygyűrűket.",
     "level": "Sätze"
   },
   {
     "de": "Der Ring ist mir etwas zu weit.",
-    "lv": "Nekem kicsit túl nagy a gyűrű.",
+    "lv": "A gyűrű nekem egy kicsit bő.",
     "level": "Sätze"
   },
   {
     "de": "Ich kann ihn enger machen.",
-    "lv": "Szűkíthetem.",
+    "lv": "Meg tudom szűkíteni.",
     "level": "Sätze"
   },
   {
     "de": "Dieser Ring passt mir.",
-    "lv": "Nekem bejön ez a gyűrű.",
+    "lv": "Ez a gyűrű jó rám.",
     "level": "Sätze"
   },
   {
     "de": "Zeigen Sie mir schöne Geschenkideen.",
-    "lv": "Mutasson gyönyörű ajándékötleteket.",
+    "lv": "Mutasson nekem szép ajándékötleteket.",
     "level": "Sätze"
   },
   {
     "de": "Wie gefallen dir diese Ohrringe?",
-    "lv": "Nektek hogy tetszenek ezek a fülbevalók?",
+    "lv": "Hogy tetszenek neked ezek a fülbevalók?",
     "level": "Sätze"
   },
   {
     "de": "Diese Brosche ist wirklich schön.",
-    "lv": "Nagyon szép ez a bross.",
+    "lv": "Ez a bross igazán szép.",
     "level": "Sätze"
   },
   {
     "de": "Der Stein ist ein Saphir.",
-    "lv": "Ez a kő zafír.",
+    "lv": "A kő zafír.",
     "level": "Sätze"
   },
   {
     "de": "Das ist kein echter Stein, das ist Glas.",
-    "lv": "Ez nem igazi kő, hanem üveg.",
+    "lv": "Ez nem valódi kő, hanem üveg.",
     "level": "Sätze"
   },
   {
     "de": "Dieses Armband kann ich Ihnen besonders empfehlen.",
-    "lv": "Ezt a karkötőt kifejezetten tudom ajánlani.",
+    "lv": "Ezt a karkötőt különösen tudom ajánlani önnek.",
     "level": "Sätze"
   },
   {
     "de": "Es ist besonders schön gearbeitet.",
-    "lv": "Rendkívül finoman kidolgozott.",
+    "lv": "Különösen szép a kidolgozása.",
     "level": "Sätze"
   },
   {
@@ -3961,12 +3961,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bekomme ich die Schachtel gratis?",
-    "lv": "Ingyen kaptam a dobozt?",
+    "lv": "A dobozt ingyen kapom?",
     "level": "Sätze"
   },
   {
     "de": "Alle Schmuckstücke sind gestempelt.",
-    "lv": "Minden ékszer pecsétes.",
+    "lv": "Minden ékszer fémjelzett.",
     "level": "Sätze"
   },
   {
@@ -3976,7 +3976,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Natürlich, jederzeit.",
-    "lv": "Természetesen bármikor.",
+    "lv": "Természetesen, bármikor.",
     "level": "Sätze"
   }
 ];
