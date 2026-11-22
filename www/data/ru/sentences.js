@@ -1,27 +1,27 @@
 const SENTENCE_ENTRIES = [
   {
     "de": "Hüte dich davor!",
-    "lv": "Остерегайтесь этого!",
+    "lv": "Берегись этого!",
     "level": "Sätze"
   },
   {
     "de": "Wenn nichts dazwischenkommt.",
-    "lv": "Если ничего не мешает. • Если все пойдет по плану.",
+    "lv": "Если ничего не помешает. • Если всё пойдёт по плану.",
     "level": "Sätze"
   },
   {
     "de": "Das kann ich mir denken!",
-    "lv": "Я знаю это!",
+    "lv": "Могу себе представить!",
     "level": "Sätze"
   },
   {
     "de": "Ist er denn krank?",
-    "lv": "Он тогда болен?",
+    "lv": "Разве он болен?",
     "level": "Sätze"
   },
   {
     "de": "Was denn?",
-    "lv": "Что тогда?",
+    "lv": "А что такое?",
     "level": "Sätze"
   },
   {
@@ -36,32 +36,32 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Alles deutet auf Regen.",
-    "lv": "Все указывает на дело.",
+    "lv": "Всё говорит о том, что пойдёт дождь.",
     "level": "Sätze"
   },
   {
     "de": "Damit ist mir wenig gedient.",
-    "lv": "Для меня это не имеет особого смысла.",
+    "lv": "Мне от этого мало пользы.",
     "level": "Sätze"
   },
   {
     "de": "Er ist dienstlich verhindert.",
-    "lv": "Он не может прийти из-за работы.",
+    "lv": "Он не может прийти по служебным причинам.",
     "level": "Sätze"
   },
   {
     "de": "Sprechen Sie doch!",
-    "lv": "Говори!",
+    "lv": "Говорите же!",
     "level": "Sätze"
   },
   {
     "de": "Es donnert.",
-    "lv": "Гром гремит.",
+    "lv": "Гремит гром.",
     "level": "Sätze"
   },
   {
     "de": "Doppelt so groß.",
-    "lv": "В два раза больше.",
+    "lv": "Вдвое больше.",
     "level": "Sätze"
   },
   {
@@ -71,27 +71,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Die Zeit drängt.",
-    "lv": "Время истекает.",
+    "lv": "Время не ждёт.",
     "level": "Sätze"
   },
   {
     "de": "Ihn drücken Sorgen.",
-    "lv": "Его охватывает беспокойство.",
+    "lv": "Его одолевают заботы.",
     "level": "Sätze"
   },
   {
     "de": "Hast du das Buch durchgearbeitet?",
-    "lv": "Вы внимательно прочитали книгу?",
+    "lv": "Ты проработал эту книгу?",
     "level": "Sätze"
   },
   {
     "de": "Kein Durchgang!",
-    "lv": "Не проходите! • Выход закрыт!",
+    "lv": "Прохода нет!",
     "level": "Sätze"
   },
   {
     "de": "Darf ich Sie bitten?",
-    "lv": "Могу я спросить тебя",
+    "lv": "Разрешите вас пригласить?",
     "level": "Sätze"
   },
   {
@@ -101,17 +101,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Eben das meine ich.",
-    "lv": "Это именно то, что я имею в виду.",
+    "lv": "Именно это я и имею в виду.",
     "level": "Sätze"
   },
   {
     "de": "Es ist ganz egal.",
-    "lv": "Это вообще не имеет значения.",
+    "lv": "Это совершенно неважно.",
     "level": "Sätze"
   },
   {
     "de": "Was wollen Sie eigentlich?",
-    "lv": "Чего ты действительно хочешь?",
+    "lv": "Чего же вы, собственно, хотите?",
     "level": "Sätze"
   },
   {
@@ -131,42 +131,42 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Du bildest dir nur ein, krank zu sein.",
-    "lv": "Вы просто представляете, что вы больны.",
+    "lv": "Тебе только кажется, что ты болен.",
     "level": "Sätze"
   },
   {
     "de": "Was fällt dir ein?",
-    "lv": "Что вам приходит на ум?",
+    "lv": "Что ты себе позволяешь? • Что тебе приходит в голову?",
     "level": "Sätze"
   },
   {
     "de": "Es war einmal.",
-    "lv": "Когда-то было.",
+    "lv": "Жили-были.",
     "level": "Sätze"
   },
   {
     "de": "Steigen Sie bitte ein!",
-    "lv": "Пожалуйста, заходите!",
+    "lv": "Садитесь, пожалуйста!",
     "level": "Sätze"
   },
   {
     "de": "Treten Sie ein!",
-    "lv": "Пожалуйста, заходите!",
+    "lv": "Входите!",
     "level": "Sätze"
   },
   {
     "de": "Einzelnes hat mir dort gefallen.",
-    "lv": "Мне там понравились некоторые вещи.",
+    "lv": "Кое-что мне там понравилось.",
     "level": "Sätze"
   },
   {
     "de": "Es empfiehlt sich.",
-    "lv": "Рекомендуется.",
+    "lv": "Это рекомендуется.",
     "level": "Sätze"
   },
   {
     "de": "Diese Flasche enthält Essig.",
-    "lv": "Эта бутылка содержит уксус.",
+    "lv": "В этой бутылке уксус.",
     "level": "Sätze"
   },
   {
@@ -186,12 +186,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wer fehlt heute?",
-    "lv": "Кто сегодня не пришел?",
+    "lv": "Кого сегодня нет?",
     "level": "Sätze"
   },
   {
     "de": "Was fehlt dir?",
-    "lv": "Что с тобой не так?",
+    "lv": "Что с тобой?",
     "level": "Sätze"
   },
   {
@@ -206,17 +206,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bitte treten Sie näher heran!",
-    "lv": "Пожалуйста, подойди ближе!",
+    "lv": "Подойдите, пожалуйста, поближе!",
     "level": "Sätze"
   },
   {
     "de": "Heraus mit der Sprache!",
-    "lv": "Разговаривать! • Истории!",
+    "lv": "Ну, говори же!",
     "level": "Sätze"
   },
   {
     "de": "im Herbst",
-    "lv": "Осенью",
+    "lv": "осенью",
     "level": "Sätze"
   },
   {
@@ -226,67 +226,67 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "von heute an",
-    "lv": "Начиная с сегодняшнего дня",
+    "lv": "с сегодняшнего дня",
     "level": "Sätze"
   },
   {
     "de": "heute früh",
-    "lv": "Сегодня утром",
+    "lv": "сегодня утром",
     "level": "Sätze"
   },
   {
     "de": "heute Nacht",
-    "lv": "Вчера вечером",
+    "lv": "сегодня ночью",
     "level": "Sätze"
   },
   {
     "de": "Zu Hilfe!",
-    "lv": "Помощь!",
+    "lv": "На помощь!",
     "level": "Sätze"
   },
   {
     "de": "Ich lerne jeden Tag Deutsch.",
-    "lv": "Я изучаю немецкий каждый день.",
+    "lv": "Я каждый день учу немецкий.",
     "level": "Sätze"
   },
   {
     "de": "Kannst du das bitte wiederholen?",
-    "lv": "Можете ли вы повторить это, пожалуйста?",
+    "lv": "Ты можешь, пожалуйста, это повторить?",
     "level": "Sätze"
   },
   {
     "de": "Wir treffen uns am Bahnhof.",
-    "lv": "Встречаемся на вокзале.",
+    "lv": "Мы встречаемся на вокзале.",
     "level": "Sätze"
   },
   {
     "de": "Ich stimme dir teilweise zu.",
-    "lv": "Частично я с вами согласен.",
+    "lv": "Я частично с тобой согласен.",
     "level": "Sätze"
   },
   {
     "de": "Diese Entscheidung hat weitreichende Folgen.",
-    "lv": "Это решение имеет далеко идущие последствия.",
+    "lv": "Это решение имеет далекоидущие последствия.",
     "level": "Sätze"
   },
   {
     "de": "Man sollte mehrere Perspektiven berücksichtigen.",
-    "lv": "Следует рассмотреть несколько точек зрения.",
+    "lv": "Следует учитывать несколько точек зрения.",
     "level": "Sätze"
   },
   {
     "de": "Könnten Sie das näher erläutern?",
-    "lv": "Не могли бы вы объяснить это более подробно?",
+    "lv": "Не могли бы вы объяснить это подробнее?",
     "level": "Sätze"
   },
   {
     "de": "Was mich anbelangt,...",
-    "lv": "Что касается меня...",
+    "lv": "Что касается меня,...",
     "level": "Sätze"
   },
   {
     "de": "Wie alt sind Sie?",
-    "lv": "Сколько тебе лет?",
+    "lv": "Сколько вам лет?",
     "level": "Sätze"
   },
   {
@@ -301,12 +301,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Von jetzt an.",
-    "lv": "Впредь.",
+    "lv": "С этого момента.",
     "level": "Sätze"
   },
   {
     "de": "Anders geht es nicht.",
-    "lv": "Другого пути нет.",
+    "lv": "Иначе нельзя.",
     "level": "Sätze"
   },
   {
@@ -316,42 +316,42 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bitte stellen Sie das Radio ab.",
-    "lv": "Пожалуйста, выключите радио.",
+    "lv": "Выключите, пожалуйста, радио.",
     "level": "Sätze"
   },
   {
     "de": "Achte bitte auf den Verkehr.",
-    "lv": "Пожалуйста, обратите внимание на трафик.",
+    "lv": "Следи, пожалуйста, за движением.",
     "level": "Sätze"
   },
   {
     "de": "Darauf musst du achten.",
-    "lv": "Вам следует обратить на это внимание.",
+    "lv": "На это ты должен обращать внимание.",
     "level": "Sätze"
   },
   {
     "de": "Heute mache ich es anders.",
-    "lv": "Сегодня я сделаю это по-другому.",
+    "lv": "Сегодня я сделаю это иначе.",
     "level": "Sätze"
   },
   {
     "de": "Wir warten auf den Bus.",
-    "lv": "Мы ждем автобус.",
+    "lv": "Мы ждём автобус.",
     "level": "Sätze"
   },
   {
     "de": "Er wohnt allein.",
-    "lv": "Он живет один.",
+    "lv": "Он живёт один.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe die Ausbildung absolviert.",
-    "lv": "Я закончил обучение. • Я закончил образование.",
+    "lv": "Я прошёл обучение. • Я получил образование.",
     "level": "Sätze"
   },
   {
     "de": "Ich warte den Regen ab.",
-    "lv": "Я подожду, пока дождь прекратится.",
+    "lv": "Я пережду дождь.",
     "level": "Sätze"
   },
   {
@@ -376,57 +376,57 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Sie hat meinen Vorschlag akzeptiert.",
-    "lv": "Она приняла мое предложение.",
+    "lv": "Она приняла моё предложение.",
     "level": "Sätze"
   },
   {
     "de": "Ich möchte das genauer analysieren.",
-    "lv": "Я хочу проанализировать это более точно.",
+    "lv": "Я хотел бы проанализировать это подробнее.",
     "level": "Sätze"
   },
   {
     "de": "Ich möchte den Vertrag ändern.",
-    "lv": "Я хочу изменить договор.",
+    "lv": "Я хотел бы изменить договор.",
     "level": "Sätze"
   },
   {
     "de": "Er ändert ständig seine Meinung.",
-    "lv": "Он постоянно меняет свое мнение.",
+    "lv": "Он постоянно меняет своё мнение.",
     "level": "Sätze"
   },
   {
     "de": "Ähnliche Probleme hatten wir schon früher.",
-    "lv": "У нас раньше были подобные проблемы.",
+    "lv": "Похожие проблемы у нас уже были раньше.",
     "level": "Sätze"
   },
   {
     "de": "Keine Ahnung!",
-    "lv": "Без понятия!",
+    "lv": "Понятия не имею!",
     "level": "Sätze"
   },
   {
     "de": "Hör auf zu jammern.",
-    "lv": "Перестаньте жаловаться.",
+    "lv": "Перестань жаловаться.",
     "level": "Sätze"
   },
   {
     "de": "Dieses Kleid ist akademisch gekleidet.",
-    "lv": "Это платье стильно-консервативное.",
+    "lv": "Это платье элегантно и консервативно.",
     "level": "Sätze"
   },
   {
     "de": "Ich höre gerne Akkordeonmusik.",
-    "lv": "Мне нравится слушать музыку на аккордеоне.",
+    "lv": "Я люблю слушать музыку для аккордеона.",
     "level": "Sätze"
   },
   {
     "de": "Kannst du das Gerät anklicken?",
-    "lv": "Можете ли вы нажать на устройство?",
+    "lv": "Ты можешь щёлкнуть по устройству?",
     "level": "Sätze"
   },
   {
     "de": "Bitte öffne die Datei und klicke darauf.",
-    "lv": "Пожалуйста, откройте файл и нажмите на него.",
+    "lv": "Открой, пожалуйста, файл и щёлкни по нему.",
     "level": "Sätze"
   },
   {
@@ -436,22 +436,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wir laufen zum Bahnhof.",
-    "lv": "Идем на станцию.",
+    "lv": "Мы идём на вокзал.",
     "level": "Sätze"
   },
   {
     "de": "Bitte schalte den Fernseher an.",
-    "lv": "Пожалуйста, включите телевизор.",
+    "lv": "Включи, пожалуйста, телевизор.",
     "level": "Sätze"
   },
   {
     "de": "Mein Computer ist abgestürzt.",
-    "lv": "Мой компьютер сломался.",
+    "lv": "Мой компьютер дал сбой.",
     "level": "Sätze"
   },
   {
     "de": "Am Wochenende gehe ich angeln.",
-    "lv": "Я пойду на рыбалку на выходных.",
+    "lv": "В выходные я пойду ловить рыбу.",
     "level": "Sätze"
   },
   {
@@ -461,17 +461,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Kannst du mich später anrufen?",
-    "lv": "Можешь позвонить мне позже",
+    "lv": "Ты можешь позвонить мне позже?",
     "level": "Sätze"
   },
   {
     "de": "Bitte nimm meinen Vorschlag an.",
-    "lv": "Пожалуйста, примите мое предложение.",
+    "lv": "Пожалуйста, прими моё предложение.",
     "level": "Sätze"
   },
   {
     "de": "Ich nehme dein Angebot an.",
-    "lv": "Я принимаю ваше предложение.",
+    "lv": "Я принимаю твоё предложение.",
     "level": "Sätze"
   },
   {
@@ -486,22 +486,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Keine Angst, alles wird gut.",
-    "lv": "Не бойтесь, все будет хорошо.",
+    "lv": "Не бойся, всё будет хорошо.",
     "level": "Sätze"
   },
   {
     "de": "Anklang finden.",
-    "lv": "Найдите эхо. • Найдите отзывчивость",
+    "lv": "Находить отклик. • Встречать одобрение.",
     "level": "Sätze"
   },
   {
     "de": "Es kommt darauf an.",
-    "lv": "Это зависит от этого.",
+    "lv": "Это зависит от обстоятельств.",
     "level": "Sätze"
   },
   {
     "de": "Aus diesem Anlass.",
-    "lv": "Из-за этого времени. • В этом отношении",
+    "lv": "По этому поводу.",
     "level": "Sätze"
   },
   {
@@ -511,32 +511,32 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Was hast du da angerichtet?",
-    "lv": "Что ты там сделал",
+    "lv": "Что ты там наделал?",
     "level": "Sätze"
   },
   {
     "de": "Bis ans Ende.",
-    "lv": "До конца.",
+    "lv": "До самого конца.",
     "level": "Sätze"
   },
   {
     "de": "Du glaubst mir anscheinend nicht.",
-    "lv": "Кажется, ты мне не веришь.",
+    "lv": "Ты мне, видимо, не веришь.",
     "level": "Sätze"
   },
   {
     "de": "Meiner Ansicht nach...",
-    "lv": "По моему мнению...",
+    "lv": "На мой взгляд...",
     "level": "Sätze"
   },
   {
     "de": "Stell dich nicht so an!",
-    "lv": "Не притворяйся!",
+    "lv": "Не устраивай сцен!",
     "level": "Sätze"
   },
   {
     "de": "An die Arbeit gehen.",
-    "lv": "Приступайте к работе.",
+    "lv": "Приниматься за работу.",
     "level": "Sätze"
   },
   {
@@ -556,17 +556,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Auf jeden Fall.",
-    "lv": "В каждом случае.",
+    "lv": "В любом случае.",
     "level": "Sätze"
   },
   {
     "de": "Auf einmal war alles still.",
-    "lv": "Внезапно все стало тихо.",
+    "lv": "Вдруг всё стихло.",
     "level": "Sätze"
   },
   {
     "de": "Bitte mach die Tür auf!",
-    "lv": "Пожалуйста, откройте дверь!",
+    "lv": "Открой, пожалуйста, дверь!",
     "level": "Sätze"
   },
   {
@@ -576,12 +576,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wir müssen heute aufräumen.",
-    "lv": "Сегодня нам нужно привести в порядок комнату.",
+    "lv": "Нам сегодня нужно навести порядок.",
     "level": "Sätze"
   },
   {
     "de": "Ich höre jetzt auf.",
-    "lv": "Я остановлюсь сейчас.",
+    "lv": "Сейчас я закончу.",
     "level": "Sätze"
   },
   {
@@ -591,17 +591,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wir müssen das Treffen verschieben.",
-    "lv": "Нам придется перенести встречу.",
+    "lv": "Нам нужно перенести встречу.",
     "level": "Sätze"
   },
   {
     "de": "Sie hat mich aufgeregt.",
-    "lv": "Она меня раздражала.",
+    "lv": "Она меня рассердила.",
     "level": "Sätze"
   },
   {
     "de": "Auf einmal.",
-    "lv": "Внезапно.",
+    "lv": "Вдруг.",
     "level": "Sätze"
   },
   {
@@ -611,17 +611,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Für den Schaden aufkommen.",
-    "lv": "Покрыть ущерб.",
+    "lv": "Возмещать ущерб.",
     "level": "Sätze"
   },
   {
     "de": "Bitte die Tür auf!",
-    "lv": "Откройте дверь, пожалуйста!",
+    "lv": "Откройте, пожалуйста, дверь!",
     "level": "Sätze"
   },
   {
     "de": "Aufrecht sitzen.",
-    "lv": "Сядьте прямо.",
+    "lv": "Сидеть прямо.",
     "level": "Sätze"
   },
   {
@@ -631,27 +631,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Alle Kräfte aufwenden.",
-    "lv": "Посвятите все свои силы.",
+    "lv": "Прилагать все силы.",
     "level": "Sätze"
   },
   {
     "de": "Viel Mühe aufwenden.",
-    "lv": "Очень постарайтесь.",
+    "lv": "Прилагать много усилий.",
     "level": "Sätze"
   },
   {
     "de": "Geh mir aus den Augen!",
-    "lv": "Не смотри на меня больше!",
+    "lv": "Уйди с глаз моих!",
     "level": "Sätze"
   },
   {
     "de": "Unter vier Augen.",
-    "lv": "Через два. • Тихо",
+    "lv": "С глазу на глаз.",
     "level": "Sätze"
   },
   {
     "de": "Aus Mangel an Zeit.",
-    "lv": "Из-за нехватки времени.",
+    "lv": "За недостатком времени.",
     "level": "Sätze"
   },
   {
@@ -666,17 +666,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Auf Äußerlichkeiten Wert legen.",
-    "lv": "Придавайте большое значение внешнему виду.",
+    "lv": "Придавать значение внешнему виду.",
     "level": "Sätze"
   },
   {
     "de": "Im äußersten Fall.",
-    "lv": "В худшем случае.",
+    "lv": "В крайнем случае.",
     "level": "Sätze"
   },
   {
     "de": "Äußerst wichtig.",
-    "lv": "Чрезвычайно важно.",
+    "lv": "Чрезвычайно важный.",
     "level": "Sätze"
   },
   {
@@ -686,7 +686,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Er hat gute Aussichten.",
-    "lv": "У него хорошие шансы.",
+    "lv": "У него хорошие перспективы.",
     "level": "Sätze"
   },
   {
@@ -696,27 +696,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Sein Beileid aussprechen.",
-    "lv": "Выразить соболезнования.",
+    "lv": "Выражать свои соболезнования.",
     "level": "Sätze"
   },
   {
     "de": "Wann wurden die Meisterschaftskämpfe ausgetragen?",
-    "lv": "Когда был чемпионат?",
+    "lv": "Когда проходил чемпионат?",
     "level": "Sätze"
   },
   {
     "de": "Welchen Beruf üben Sie aus?",
-    "lv": "Какова ваша профессия?",
+    "lv": "Какая у вас профессия?",
     "level": "Sätze"
   },
   {
     "de": "Einfluss ausüben.",
-    "lv": "Чтобы повлиять.",
+    "lv": "Оказывать влияние.",
     "level": "Sätze"
   },
   {
     "de": "Auswärts essen.",
-    "lv": "Поешьте вне дома.",
+    "lv": "Питаться вне дома.",
     "level": "Sätze"
   },
   {
@@ -726,7 +726,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Mit der Bahn.",
-    "lv": "По железной дороге.",
+    "lv": "На поезде.",
     "level": "Sätze"
   },
   {
@@ -736,32 +736,32 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Mir ist Angst und bange.",
-    "lv": "Я очень боюсь.",
+    "lv": "Мне очень страшно.",
     "level": "Sätze"
   },
   {
     "de": "Auf die lange Bank schieben.",
-    "lv": "Откладывать. • Перетащите на нужное расстояние. • Отложите на неопределенный срок.",
+    "lv": "Откладывать в долгий ящик.",
     "level": "Sätze"
   },
   {
     "de": "Bar zahlen.",
-    "lv": "Оплата наличными.",
+    "lv": "Платить наличными.",
     "level": "Sätze"
   },
   {
     "de": "Erz bauen.",
-    "lv": "Получите руду.",
+    "lv": "Добывать руду.",
     "level": "Sätze"
   },
   {
     "de": "Mist bauen.",
-    "lv": "Стрелять. • Выставить себя дураком",
+    "lv": "Наломать дров.",
     "level": "Sätze"
   },
   {
     "de": "Ich bin beauftragt.",
-    "lv": "Мне поручили работу.",
+    "lv": "Мне поручено.",
     "level": "Sätze"
   },
   {
@@ -791,57 +791,57 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Hinweise befolgen.",
-    "lv": "Следуйте инструкциям.",
+    "lv": "Следовать указаниям.",
     "level": "Sätze"
   },
   {
     "de": "Befehle befolgen.",
-    "lv": "Выполняйте приказы.",
+    "lv": "Выполнять приказы.",
     "level": "Sätze"
   },
   {
     "de": "Mit der Post befördern.",
-    "lv": "Отправьте по почте.",
+    "lv": "Отправлять по почте.",
     "level": "Sätze"
   },
   {
     "de": "Ich bin begierig zu wissen.",
-    "lv": "Я действительно хочу знать.",
+    "lv": "Мне очень хочется узнать.",
     "level": "Sätze"
   },
   {
     "de": "Zu Beginn.",
-    "lv": "В начале.",
+    "lv": "Вначале.",
     "level": "Sätze"
   },
   {
     "de": "Am Beginn.",
-    "lv": "В начале.",
+    "lv": "Вначале.",
     "level": "Sätze"
   },
   {
     "de": "Bei Beginn.",
-    "lv": "Начало",
+    "lv": "В начале.",
     "level": "Sätze"
   },
   {
     "de": "In Begleitung.",
-    "lv": "Сопровождается.",
+    "lv": "В сопровождении.",
     "level": "Sätze"
   },
   {
     "de": "Mit seiner Begleitung.",
-    "lv": "С сопровождением.",
+    "lv": "Со своим спутником.",
     "level": "Sätze"
   },
   {
     "de": "Er ist schwer von Begriff.",
-    "lv": "Он медленно воспринимает. • У него медленное мышление",
+    "lv": "Он медленно соображает.",
     "level": "Sätze"
   },
   {
     "de": "Im Gedächtnis behalten.",
-    "lv": "Помнить. • Храните в памяти",
+    "lv": "Сохранять в памяти.",
     "level": "Sätze"
   },
   {
@@ -856,17 +856,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bei Tage.",
-    "lv": "В течение дня.",
+    "lv": "Днём.",
     "level": "Sätze"
   },
   {
     "de": "Bei weitem nicht so.",
-    "lv": "Нисколько.",
+    "lv": "Далеко не так.",
     "level": "Sätze"
   },
   {
     "de": "Alle beide.",
-    "lv": "Оба два.",
+    "lv": "Оба.",
     "level": "Sätze"
   },
   {
@@ -876,17 +876,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Beifall finden.",
-    "lv": "Получите согласие.",
+    "lv": "Встречать одобрение.",
     "level": "Sätze"
   },
   {
     "de": "Beileid aussprechen.",
-    "lv": "Выразить соболезнования.",
+    "lv": "Выражать соболезнование.",
     "level": "Sätze"
   },
   {
     "de": "Auf eigenen Beinen stehen.",
-    "lv": "Быть финансово независимым.",
+    "lv": "Стоять на собственных ногах.",
     "level": "Sätze"
   },
   {
@@ -896,32 +896,32 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Beistand leisten.",
-    "lv": "Чтобы помочь. • Оказать помощь",
+    "lv": "Оказывать помощь.",
     "level": "Sätze"
   },
   {
     "de": "Beitrag leisten.",
-    "lv": "Инвестируйте свою долю.",
+    "lv": "Вносить свой вклад.",
     "level": "Sätze"
   },
   {
     "de": "Jemandes Bekanntschaft machen.",
-    "lv": "Познакомьтесь с кем-нибудь.",
+    "lv": "Знакомиться с кем-либо.",
     "level": "Sätze"
   },
   {
     "de": "Bekanntschaft anknüpfen.",
-    "lv": "Познакомьтесь друг с другом. • Установить контакт",
+    "lv": "Завязывать знакомство.",
     "level": "Sätze"
   },
   {
     "de": "Belegte Brötchen.",
-    "lv": "Сэндвичи с начинкой.",
+    "lv": "Бутерброды на булочках.",
     "level": "Sätze"
   },
   {
     "de": "Nach Ihrem Belieben.",
-    "lv": "Как хочешь.",
+    "lv": "На ваше усмотрение.",
     "level": "Sätze"
   },
   {
@@ -931,7 +931,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Schweigen beobachten.",
-    "lv": "Соблюдать тишину.",
+    "lv": "Хранить молчание.",
     "level": "Sätze"
   },
   {
@@ -941,17 +941,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bereit sein.",
-    "lv": "Будьте готовы. • Будьте спокойны",
+    "lv": "Быть готовым. • Быть согласным.",
     "level": "Sätze"
   },
   {
     "de": "Unfallopfer bergen.",
-    "lv": "Спасение пострадавших в случае аварии.",
+    "lv": "Спасать пострадавших при несчастном случае.",
     "level": "Sätze"
   },
   {
     "de": "Bericht erstatten.",
-    "lv": "Отчет. • Предоставить отчет. • Предоставить обзор.",
+    "lv": "Докладывать.",
     "level": "Sätze"
   },
   {
@@ -961,12 +961,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Neue Besen kehren gut.",
-    "lv": "Новая метла хорошо метет.",
+    "lv": "Новая метла чисто метёт.",
     "level": "Sätze"
   },
   {
     "de": "Er besitzt ein Haus.",
-    "lv": "У него есть дом.",
+    "lv": "Он владеет домом.",
     "level": "Sätze"
   },
   {
@@ -981,17 +981,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Gute Besserung!",
-    "lv": "Поправляйся! • Поправляйся!",
+    "lv": "Скорейшего выздоровления!",
     "level": "Sätze"
   },
   {
     "de": "Beim besten Willen.",
-    "lv": "Что вы хотите.",
+    "lv": "При всём желании.",
     "level": "Sätze"
   },
   {
     "de": "Am besten.",
-    "lv": "Лучшее.",
+    "lv": "Лучше всего.",
     "level": "Sätze"
   },
   {
@@ -1001,32 +1001,32 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Seine Aufgabe besteht darin...",
-    "lv": "Его задача...",
+    "lv": "Его задача состоит в том, чтобы...",
     "level": "Sätze"
   },
   {
     "de": "Grüße bestellen.",
-    "lv": "Скажи привет.",
+    "lv": "Передавать привет.",
     "level": "Sätze"
   },
   {
     "de": "Ganz bestimmt.",
-    "lv": "Определенно. • Полностью безопасно",
+    "lv": "Обязательно. • Совершенно точно.",
     "level": "Sätze"
   },
   {
     "de": "Zu Besuch kommen.",
-    "lv": "Приходите в гости.",
+    "lv": "Приходить в гости.",
     "level": "Sätze"
   },
   {
     "de": "Zu Besuch sein.",
-    "lv": "Посетить. • Посетить",
+    "lv": "Быть в гостях. • Гостить.",
     "level": "Sätze"
   },
   {
     "de": "Oft Konzerte besuchen.",
-    "lv": "Часто хожу на концерты.",
+    "lv": "Часто ходить на концерты.",
     "level": "Sätze"
   },
   {
@@ -1036,47 +1036,47 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "In Betracht ziehen.",
-    "lv": "Примите во внимание. • Учитывать",
+    "lv": "Принимать во внимание. • Рассматривать как вариант.",
     "level": "Sätze"
   },
   {
     "de": "Außer Betracht lassen.",
-    "lv": "Игнорировать. • Не считайте",
+    "lv": "Не принимать во внимание.",
     "level": "Sätze"
   },
   {
     "de": "Er betreibt ein Hotel.",
-    "lv": "Он управляет отелем.",
+    "lv": "Он управляет гостиницей.",
     "level": "Sätze"
   },
   {
     "de": "Alle beiden.",
-    "lv": "Оба два.",
+    "lv": "Оба.",
     "level": "Sätze"
   },
   {
     "de": "Alles bezahlen.",
-    "lv": "Платите все.",
+    "lv": "Заплатить за всё.",
     "level": "Sätze"
   },
   {
     "de": "Bezüglich auf etwas.",
-    "lv": "Касательно чего-то.",
+    "lv": "Относительно чего-либо.",
     "level": "Sätze"
   },
   {
     "de": "Bitte schön.",
-    "lv": "Пожалуйста",
+    "lv": "Пожалуйста.",
     "level": "Sätze"
   },
   {
     "de": "Wie bitte?",
-    "lv": "Как, пожалуйста",
+    "lv": "Простите?",
     "level": "Sätze"
   },
   {
     "de": "Bitte sehr.",
-    "lv": "Пожалуйста",
+    "lv": "Пожалуйста.",
     "level": "Sätze"
   },
   {
@@ -1086,37 +1086,37 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Trompete blasen.",
-    "lv": "Протрубите в трубу.",
+    "lv": "Играть на трубе.",
     "level": "Sätze"
   },
   {
     "de": "In einem Buch blättern.",
-    "lv": "Отсортируйте книгу.",
+    "lv": "Листать книгу.",
     "level": "Sätze"
   },
   {
     "de": "Mit bloßen Füßen.",
-    "lv": "Босые ноги.",
+    "lv": "Босиком.",
     "level": "Sätze"
   },
   {
     "de": "Mit bloßem Auge.",
-    "lv": "Невооруженным глазом.",
+    "lv": "Невооружённым глазом.",
     "level": "Sätze"
   },
   {
     "de": "Danke für die Blumen!",
-    "lv": "Спасибо за цветы!",
+    "lv": "Спасибо за комплимент!",
     "level": "Sätze"
   },
   {
     "de": "Alles in Butter.",
-    "lv": "Всё хорошо.",
+    "lv": "Всё в порядке.",
     "level": "Sätze"
   },
   {
     "de": "Bitte checken.",
-    "lv": "Проверять. • Проверять",
+    "lv": "Просьба проверить.",
     "level": "Sätze"
   },
   {
@@ -1126,22 +1126,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Alles spricht dafür.",
-    "lv": "Все говорит хорошо.",
+    "lv": "Всё говорит в пользу этого.",
     "level": "Sätze"
   },
   {
     "de": "Ich kann nichts dafür.",
-    "lv": "Я ничего не могу там сделать.",
+    "lv": "Я не виноват.",
     "level": "Sätze"
   },
   {
     "de": "Ich bin dagegen.",
-    "lv": "Я против этого.",
+    "lv": "Я против.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe nichts dagegen.",
-    "lv": "Я не возражаю против этого.",
+    "lv": "Я ничего не имею против.",
     "level": "Sätze"
   },
   {
@@ -1151,17 +1151,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Mit der Dame ziehen.",
-    "lv": "Сделайте женственный ход.",
+    "lv": "Ходить ферзём.",
     "level": "Sätze"
   },
   {
     "de": "Es dämmert.",
-    "lv": "Темнеет. • Рассвет.",
+    "lv": "Смеркается. • Светает.",
     "level": "Sätze"
   },
   {
     "de": "Danke schön!",
-    "lv": "Спасибо! • Спасибо!",
+    "lv": "Большое спасибо!",
     "level": "Sätze"
   },
   {
@@ -1171,12 +1171,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Darauf kannst du dich verlassen.",
-    "lv": "Вы можете на это рассчитывать.",
+    "lv": "На это ты можешь положиться.",
     "level": "Sätze"
   },
   {
     "de": "Daraus wird nichts.",
-    "lv": "Ничего из этого не выйдет.",
+    "lv": "Из этого ничего не выйдет.",
     "level": "Sätze"
   },
   {
@@ -1186,7 +1186,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Für wen halten Sie mich?",
-    "lv": "Как ты думаешь, кто я?",
+    "lv": "За кого вы меня принимаете?",
     "level": "Sätze"
   },
   {
@@ -1196,72 +1196,72 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Lass den Kopf nicht hängen!",
-    "lv": "Не опускайте голову!",
+    "lv": "Не вешай нос!",
     "level": "Sätze"
   },
   {
     "de": "zu Hause",
-    "lv": "Дома",
+    "lv": "дома",
     "level": "Sätze"
   },
   {
     "de": "nach Hause gehen",
-    "lv": "Иди домой",
+    "lv": "идти домой",
     "level": "Sätze"
   },
   {
     "de": "von Haus aus",
-    "lv": "С детства • С самого начала",
+    "lv": "по происхождению • от природы",
     "level": "Sätze"
   },
   {
     "de": "Meinen herzlichsten Glückwunsch!",
-    "lv": "Поздравляем!",
+    "lv": "Сердечно поздравляю!",
     "level": "Sätze"
   },
   {
     "de": "Seien Sie so gut!",
-    "lv": "Будьте так любезны! • Будь такой хорошей!",
+    "lv": "Будьте так добры!",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie die Güte!",
-    "lv": "Будьте так любезны!",
+    "lv": "Будьте любезны!",
     "level": "Sätze"
   },
   {
     "de": "Was hast du?",
-    "lv": "Что с тобой не так? • Что случилось?",
+    "lv": "Что с тобой?",
     "level": "Sätze"
   },
   {
     "de": "Gestatten Sie bitte!",
-    "lv": "Разрешите мне, пожалуйста!",
+    "lv": "Позвольте, пожалуйста!",
     "level": "Sätze"
   },
   {
     "de": "Ist es gestattet zu rauchen?",
-    "lv": "Могу ли я курить?",
+    "lv": "Можно курить?",
     "level": "Sätze"
   },
   {
     "de": "Ich muss gestehen, dass...",
-    "lv": "Я должен признать это...",
+    "lv": "Должен признаться, что...",
     "level": "Sätze"
   },
   {
     "de": "gestern früh",
-    "lv": "Вчера рано утром",
+    "lv": "вчера утром",
     "level": "Sätze"
   },
   {
     "de": "gestern Abend",
-    "lv": "Вчера вечером",
+    "lv": "вчера вечером",
     "level": "Sätze"
   },
   {
     "de": "Es ist mir gleichgültig, ob...",
-    "lv": "Мне все равно, если...",
+    "lv": "Мне всё равно, будет ли...",
     "level": "Sätze"
   },
   {
@@ -1271,12 +1271,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Mach keine Geschichten!",
-    "lv": "Не делайте глупостей! • Не шутите!",
+    "lv": "Не делай глупостей!",
     "level": "Sätze"
   },
   {
     "de": "Geschweige denn...",
-    "lv": "Не говоря уже об этом. • Где еще",
+    "lv": "Не говоря уже о...",
     "level": "Sätze"
   },
   {
@@ -1286,22 +1286,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wie geht es Ihnen?",
-    "lv": "Как дела • Как дела?",
+    "lv": "Как у вас дела?",
     "level": "Sätze"
   },
   {
     "de": "Frag ihn gelegentlich, ob...",
-    "lv": "Спроси его, выйдет ли он, если...",
+    "lv": "Спроси его при случае, знает ли он...",
     "level": "Sätze"
   },
   {
     "de": "morgen früh",
-    "lv": "Завтра утром",
+    "lv": "завтра утром",
     "level": "Sätze"
   },
   {
     "de": "im Frühling",
-    "lv": "Весной",
+    "lv": "весной",
     "level": "Sätze"
   },
   {
@@ -1316,12 +1316,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Fahre fort!",
-    "lv": "Так держать!",
+    "lv": "Продолжай!",
     "level": "Sätze"
   },
   {
     "de": "Er ist kein Freund von...",
-    "lv": "Ему не нравится...",
+    "lv": "Он не любитель...",
     "level": "Sätze"
   },
   {
@@ -1331,47 +1331,47 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Gedenkst du meiner?",
-    "lv": "Ты меня помнишь • Ты думал обо мне?",
+    "lv": "Ты меня помнишь? • Ты думаешь обо мне?",
     "level": "Sätze"
   },
   {
     "de": "im Winter",
-    "lv": "Зимой",
+    "lv": "зимой",
     "level": "Sätze"
   },
   {
     "de": "Welcher Jahrgang sind Sie?",
-    "lv": "В каком году ты родился?",
+    "lv": "Какого вы года рождения?",
     "level": "Sätze"
   },
   {
     "de": "Es jammert mich zu sehen...",
-    "lv": "Грустно смотреть...",
+    "lv": "Мне больно видеть...",
     "level": "Sätze"
   },
   {
     "de": "je mehr, desto besser",
-    "lv": "Чем больше, тем лучше",
+    "lv": "чем больше, тем лучше",
     "level": "Sätze"
   },
   {
     "de": "bis jetzt",
-    "lv": "До настоящего времени",
+    "lv": "до сих пор",
     "level": "Sätze"
   },
   {
     "de": "Wie komme ich zum Bahnhof?",
-    "lv": "Как добраться до вокзала?",
+    "lv": "Как мне пройти к вокзалу?",
     "level": "Sätze"
   },
   {
     "de": "Komm her!",
-    "lv": "Идите сюда!",
+    "lv": "Иди сюда!",
     "level": "Sätze"
   },
   {
     "de": "Könnte ich Frau N. sprechen?",
-    "lv": "Могу ли я поговорить с миссис Н.?",
+    "lv": "Мог бы я поговорить с госпожой Н.?",
     "level": "Sätze"
   },
   {
@@ -1381,12 +1381,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wie lange dauert die Vorstellung?",
-    "lv": "Как долго продлится спектакль?",
+    "lv": "Сколько длится спектакль?",
     "level": "Sätze"
   },
   {
     "de": "Lass das!",
-    "lv": "Прекрати! • Брось это!",
+    "lv": "Перестань! • Оставь это!",
     "level": "Sätze"
   },
   {
@@ -1396,17 +1396,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Lassen Sie mich Ihnen helfen!",
-    "lv": "Позвольте мне помочь вам!",
+    "lv": "Позвольте мне вам помочь!",
     "level": "Sätze"
   },
   {
     "de": "Lasst uns gehen!",
-    "lv": "Пойдем!",
+    "lv": "Пойдёмте!",
     "level": "Sätze"
   },
   {
     "de": "Na, wie läufts?",
-    "lv": "Как вы",
+    "lv": "Ну, как дела?",
     "level": "Sätze"
   },
   {
@@ -1416,27 +1416,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Leben Sie wohl!",
-    "lv": "Живите здорово! • До свидания!",
+    "lv": "Прощайте!",
     "level": "Sätze"
   },
   {
     "de": "Was ist los?",
-    "lv": "Что случилось?",
+    "lv": "В чём дело?",
     "level": "Sätze"
   },
   {
     "de": "Der Job ist anstrengend.",
-    "lv": "Работа утомляет.",
+    "lv": "Работа утомительная.",
     "level": "Sätze"
   },
   {
     "de": "Das war ein anstrengender Tag.",
-    "lv": "Это был напряженный день.",
+    "lv": "Это был тяжёлый день.",
     "level": "Sätze"
   },
   {
     "de": "Deutsch lernen kann anstrengend sein.",
-    "lv": "Изучение немецкого языка может быть утомительным.",
+    "lv": "Учить немецкий язык бывает утомительно.",
     "level": "Sätze"
   },
   {
@@ -1446,22 +1446,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Der Verkäufer verlangt zu viel Geld.",
-    "lv": "Продавец просит слишком большую сумму.",
+    "lv": "Продавец просит слишком много денег.",
     "level": "Sätze"
   },
   {
     "de": "Das Gesetz verlangt es so.",
-    "lv": "Закон требует этого.",
+    "lv": "Так требует закон.",
     "level": "Sätze"
   },
   {
     "de": "Das ist gar nicht so schwer.",
-    "lv": "Это совсем не так уж и сложно.",
+    "lv": "Это совсем не так трудно.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe gar kein Geld.",
-    "lv": "У меня вообще нет денег.",
+    "lv": "У меня совсем нет денег.",
     "level": "Sätze"
   },
   {
@@ -1471,47 +1471,47 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Der Hund ist los.",
-    "lv": "Собаку отпустили.",
+    "lv": "Собака сорвалась с привязи.",
     "level": "Sätze"
   },
   {
     "de": "Hier ist viel los.",
-    "lv": "Здесь многое происходит.",
+    "lv": "Здесь кипит жизнь.",
     "level": "Sätze"
   },
   {
     "de": "Halt die Luft an!",
-    "lv": "Задержите дыхание!",
+    "lv": "Замолчи! • Не преувеличивай!",
     "level": "Sätze"
   },
   {
     "de": "Was machst du?",
-    "lv": "Что ты делаешь",
+    "lv": "Что ты делаешь?",
     "level": "Sätze"
   },
   {
     "de": "Sag mal!",
-    "lv": "Скажи да!",
+    "lv": "Скажи-ка!",
     "level": "Sätze"
   },
   {
     "de": "Was meinen Sie damit?",
-    "lv": "Что ты имеешь в виду? • Что вы думаете?",
+    "lv": "Что вы имеете в виду?",
     "level": "Sätze"
   },
   {
     "de": "Wir gehen mit Ihnen.",
-    "lv": "Мы идем с тобой.",
+    "lv": "Мы пойдём с вами.",
     "level": "Sätze"
   },
   {
     "de": "Ich fahre mit der Eisenbahn.",
-    "lv": "Я путешествую на поезде.",
+    "lv": "Я еду поездом.",
     "level": "Sätze"
   },
   {
     "de": "am Mittwoch",
-    "lv": "В среду",
+    "lv": "в среду",
     "level": "Sätze"
   },
   {
@@ -1526,7 +1526,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "am Montag",
-    "lv": "В понедельник",
+    "lv": "в понедельник",
     "level": "Sätze"
   },
   {
@@ -1536,7 +1536,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "am Morgen",
-    "lv": "Утром",
+    "lv": "утром",
     "level": "Sätze"
   },
   {
@@ -1546,22 +1546,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Nehmen Sie Platz!",
-    "lv": "Садиться!",
+    "lv": "Садитесь!",
     "level": "Sätze"
   },
   {
     "de": "Letzte Neuheit!",
-    "lv": "Последние новости!",
+    "lv": "Последняя новинка!",
     "level": "Sätze"
   },
   {
     "de": "Nicht wahr?",
-    "lv": "Верно?",
+    "lv": "Не правда ли?",
     "level": "Sätze"
   },
   {
     "de": "Nicht doch!",
-    "lv": "Нет, конечно! • Не!",
+    "lv": "Да нет же! • Не надо!",
     "level": "Sätze"
   },
   {
@@ -1571,22 +1571,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wozu nützt das?",
-    "lv": "Чем это полезно?",
+    "lv": "Для чего это нужно?",
     "level": "Sätze"
   },
   {
     "de": "Wozu nützt das alles?",
-    "lv": "Для чего все это?",
+    "lv": "К чему всё это?",
     "level": "Sätze"
   },
   {
     "de": "Parken verboten!",
-    "lv": "Парковка запрещена!",
+    "lv": "Стоянка запрещена!",
     "level": "Sätze"
   },
   {
     "de": "Nicht parken!",
-    "lv": "Парковка запрещена!",
+    "lv": "Стоянка запрещена!",
     "level": "Sätze"
   },
   {
@@ -1596,17 +1596,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wovon ist die Rede?",
-    "lv": "О чем идет речь?",
+    "lv": "О чём идёт речь?",
     "level": "Sätze"
   },
   {
     "de": "Davon kann keine Rede sein.",
-    "lv": "Это исключено.",
+    "lv": "Об этом не может быть и речи.",
     "level": "Sätze"
   },
   {
     "de": "Glückliche Reise!",
-    "lv": "Счастливого путешествия!",
+    "lv": "Счастливого пути!",
     "level": "Sätze"
   },
   {
@@ -1616,12 +1616,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Man sagt, dass...",
-    "lv": "Они говорят, что...",
+    "lv": "Говорят, что...",
     "level": "Sätze"
   },
   {
     "de": "Schon gut!",
-    "lv": "Это уже хорошо!",
+    "lv": "Всё в порядке!",
     "level": "Sätze"
   },
   {
@@ -1631,62 +1631,62 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Was bin ich schuldig?",
-    "lv": "Сколько я должен? • Сколько я должен заплатить?",
+    "lv": "Сколько я вам должен?",
     "level": "Sätze"
   },
   {
     "de": "Vor dem Gebrauch schütteln!",
-    "lv": "Перед использованием взболтайте!",
+    "lv": "Перед употреблением взбалтывать!",
     "level": "Sätze"
   },
   {
     "de": "Sehen Sie mal!",
-    "lv": "Взгляните!",
+    "lv": "Посмотрите-ка!",
     "level": "Sätze"
   },
   {
     "de": "Wie sehr auch...",
-    "lv": "Сколько...",
+    "lv": "Как бы сильно ни...",
     "level": "Sätze"
   },
   {
     "de": "Seit wann?",
-    "lv": "С каких это пор?",
+    "lv": "С каких пор?",
     "level": "Sätze"
   },
   {
     "de": "Was soll ich tun?",
-    "lv": "Что я должен делать?",
+    "lv": "Что мне делать?",
     "level": "Sätze"
   },
   {
     "de": "im Sommer",
-    "lv": "Летом",
+    "lv": "летом",
     "level": "Sätze"
   },
   {
     "de": "Nicht nur..., sondern auch...",
-    "lv": "Не только... но и...",
+    "lv": "Не только..., но и...",
     "level": "Sätze"
   },
   {
     "de": "Sonst noch etwas?",
-    "lv": "Что-нибудь еще?",
+    "lv": "Что-нибудь ещё?",
     "level": "Sätze"
   },
   {
     "de": "Spaß beiseite!",
-    "lv": "Без шуток! • Шутки на грани!",
+    "lv": "Шутки в сторону!",
     "level": "Sätze"
   },
   {
     "de": "Wie spät ist es?",
-    "lv": "Который сейчас час",
+    "lv": "Который час?",
     "level": "Sätze"
   },
   {
     "de": "Durchfahrt gesperrt!",
-    "lv": "Проезд запрещен!",
+    "lv": "Проезд закрыт!",
     "level": "Sätze"
   },
   {
@@ -1696,22 +1696,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Statt zu...",
-    "lv": "Вместо...",
+    "lv": "Вместо того чтобы...",
     "level": "Sätze"
   },
   {
     "de": "Wie steht’s?",
-    "lv": "Как вы",
+    "lv": "Как дела?",
     "level": "Sätze"
   },
   {
     "de": "Dieser Hut steht ihr gut.",
-    "lv": "Эта шляпа ей очень идет.",
+    "lv": "Эта шляпа ей идёт.",
     "level": "Sätze"
   },
   {
     "de": "Guten Tag!",
-    "lv": "Привет!",
+    "lv": "Добрый день!",
     "level": "Sätze"
   },
   {
@@ -1721,37 +1721,37 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Treten Sie näher!",
-    "lv": "Подойди ближе!",
+    "lv": "Подойдите поближе!",
     "level": "Sätze"
   },
   {
     "de": "Ehrlichkeit ist eine Tugend.",
-    "lv": "Честность – это добродетель.",
+    "lv": "Честность — это добродетель.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe viel zu tun.",
-    "lv": "Мне нужно многое сделать.",
+    "lv": "У меня много дел.",
     "level": "Sätze"
   },
   {
     "de": "Nicht übel!",
-    "lv": "Очень хороший! • Нет возражений",
+    "lv": "Неплохо!",
     "level": "Sätze"
   },
   {
     "de": "Er wohnt über mir.",
-    "lv": "Он живет надо мной.",
+    "lv": "Он живёт надо мной.",
     "level": "Sätze"
   },
   {
     "de": "Er ist davon überzeugt.",
-    "lv": "Он в этом уверен.",
+    "lv": "Он в этом убеждён.",
     "level": "Sätze"
   },
   {
     "de": "So ist es üblich.",
-    "lv": "Это принято.",
+    "lv": "Так принято.",
     "level": "Sätze"
   },
   {
@@ -1761,7 +1761,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wie viel Uhr ist es?",
-    "lv": "Который сейчас час?",
+    "lv": "Сколько времени?",
     "level": "Sätze"
   },
   {
@@ -1771,27 +1771,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "umso mehr",
-    "lv": "Тем больше",
+    "lv": "тем более",
     "level": "Sätze"
   },
   {
     "de": "Rechts um!",
-    "lv": "Поверните направо!",
+    "lv": "Напра-во!",
     "level": "Sätze"
   },
   {
     "de": "Und ob!",
-    "lv": "И что еще!",
+    "lv": "Ещё бы!",
     "level": "Sätze"
   },
   {
     "de": "und zwar",
-    "lv": "А именно",
+    "lv": "а именно",
     "level": "Sätze"
   },
   {
     "de": "Auf Unkosten von...",
-    "lv": "За счет...",
+    "lv": "За счёт...",
     "level": "Sätze"
   },
   {
@@ -1801,47 +1801,47 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Keine Ursache!",
-    "lv": "Ничего просто так!",
+    "lv": "Не за что!",
     "level": "Sätze"
   },
   {
     "de": "Es geschah, wie verabredet.",
-    "lv": "Все произошло так, как было согласовано.",
+    "lv": "Всё произошло, как было условлено.",
     "level": "Sätze"
   },
   {
     "de": "Rauchen verboten!",
-    "lv": "Курение запрещено!",
+    "lv": "Курить запрещено!",
     "level": "Sätze"
   },
   {
     "de": "Falsch verbunden!",
-    "lv": "Неправильное подключение!",
+    "lv": "Вы ошиблись номером!",
     "level": "Sätze"
   },
   {
     "de": "Eintritt verboten!",
-    "lv": "Вход запрещен!",
+    "lv": "Вход запрещён!",
     "level": "Sätze"
   },
   {
     "de": "Verstehen Sie mich?",
-    "lv": "Вы понимаете меня?",
+    "lv": "Вы меня понимаете?",
     "level": "Sätze"
   },
   {
     "de": "Er versteht nichts davon.",
-    "lv": "Он ничего в этом не понимает.",
+    "lv": "Он в этом ничего не понимает.",
     "level": "Sätze"
   },
   {
     "de": "Seine Ansicht vertreten.",
-    "lv": "Защитите свое мнение.",
+    "lv": "Отстаивать свою точку зрения.",
     "level": "Sätze"
   },
   {
     "de": "Streit verursachen.",
-    "lv": "Вызвать спор.",
+    "lv": "Вызывать ссору.",
     "level": "Sätze"
   },
   {
@@ -1851,12 +1851,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Zu viel.",
-    "lv": "Слишком.",
+    "lv": "Слишком много.",
     "level": "Sätze"
   },
   {
     "de": "Vom Hörensagen.",
-    "lv": "После прослушивания.",
+    "lv": "Понаслышке.",
     "level": "Sätze"
   },
   {
@@ -1871,17 +1871,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Er ist Berliner von Geburt.",
-    "lv": "Он берлинец по происхождению.",
+    "lv": "Он берлинец по рождению.",
     "level": "Sätze"
   },
   {
     "de": "Er steht vor dem Fenster.",
-    "lv": "Он стоит у окна.",
+    "lv": "Он стоит перед окном.",
     "level": "Sätze"
   },
   {
     "de": "Vor Sonnenaufgang.",
-    "lv": "Перед восходом солнца.",
+    "lv": "До восхода солнца.",
     "level": "Sätze"
   },
   {
@@ -1891,32 +1891,32 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Vor Freude.",
-    "lv": "Для развлечения.",
+    "lv": "От радости.",
     "level": "Sätze"
   },
   {
     "de": "Vor allem.",
-    "lv": "Прежде всего. • Прежде всего",
+    "lv": "Прежде всего.",
     "level": "Sätze"
   },
   {
     "de": "Im Voraus.",
-    "lv": "Ранее.",
+    "lv": "Заранее.",
     "level": "Sätze"
   },
   {
     "de": "Unter der Voraussetzung, dass...",
-    "lv": "Предполагая, что...",
+    "lv": "При условии, что...",
     "level": "Sätze"
   },
   {
     "de": "Unter dem Vorbehalt.",
-    "lv": "Условно.",
+    "lv": "С этой оговоркой.",
     "level": "Sätze"
   },
   {
     "de": "Vorhanden sein.",
-    "lv": "Быть. • Присутствовать • Быть доступным",
+    "lv": "Иметься в наличии. • Существовать.",
     "level": "Sätze"
   },
   {
@@ -1926,7 +1926,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Vorkehrungen treffen.",
-    "lv": "Примите меры защиты.",
+    "lv": "Принимать меры предосторожности.",
     "level": "Sätze"
   },
   {
@@ -1936,47 +1936,47 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Er hat Vorliebe für Literatur.",
-    "lv": "Он очень любит литературу.",
+    "lv": "Он особенно любит литературу.",
     "level": "Sätze"
   },
   {
     "de": "Heute Vormittag.",
-    "lv": "Сегодня утром. • Сегодня утром",
+    "lv": "Сегодня утром. • Сегодня до обеда.",
     "level": "Sätze"
   },
   {
     "de": "Von vorn.",
-    "lv": "С фронта.",
+    "lv": "Спереди. • Сначала.",
     "level": "Sätze"
   },
   {
     "de": "Nach vorn.",
-    "lv": "Вперед.",
+    "lv": "Вперёд.",
     "level": "Sätze"
   },
   {
     "de": "Von vornherein.",
-    "lv": "В самом начале.",
+    "lv": "С самого начала.",
     "level": "Sätze"
   },
   {
     "de": "Im Vorteil sein.",
-    "lv": "Будьте в лучшем положении.",
+    "lv": "Быть в выгодном положении.",
     "level": "Sätze"
   },
   {
     "de": "Wach sein.",
-    "lv": "Чтобы бодрствовать.",
+    "lv": "Бодрствовать.",
     "level": "Sätze"
   },
   {
     "de": "Wach werden.",
-    "lv": "Проснуться.",
+    "lv": "Просыпаться.",
     "level": "Sätze"
   },
   {
     "de": "Auf Wache sein.",
-    "lv": "Стой на страже.",
+    "lv": "Стоять на посту.",
     "level": "Sätze"
   },
   {
@@ -1991,17 +1991,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Gegen eine Wand reden.",
-    "lv": "Разговоры напрасны.",
+    "lv": "Говорить впустую.",
     "level": "Sätze"
   },
   {
     "de": "Hier haben die Wände Ohren.",
-    "lv": "Здесь у стен есть уши.",
+    "lv": "И у стен есть уши.",
     "level": "Sätze"
   },
   {
     "de": "Bis wann?",
-    "lv": "До каких пор?",
+    "lv": "До какого времени?",
     "level": "Sätze"
   },
   {
@@ -2011,47 +2011,47 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Auf eine Nachricht warten.",
-    "lv": "Подождите сообщения.",
+    "lv": "Ждать сообщения.",
     "level": "Sätze"
   },
   {
     "de": "Was wollen Sie?",
-    "lv": "Что ты хочешь?",
+    "lv": "Чего вы хотите?",
     "level": "Sätze"
   },
   {
     "de": "Was für ein...?",
-    "lv": "ВОЗ...? • А как насчет...?",
+    "lv": "Какой...? • Что за...?",
     "level": "Sätze"
   },
   {
     "de": "Auf halbem Wege.",
-    "lv": "Наполовину.",
+    "lv": "На полпути.",
     "level": "Sätze"
   },
   {
     "de": "Auf diesem Wege.",
-    "lv": "Таким образом. • Для таких фондов",
+    "lv": "Таким путём. • Таким способом.",
     "level": "Sätze"
   },
   {
     "de": "Auf friedlichem Wege.",
-    "lv": "На пути мира.",
+    "lv": "Мирным путём.",
     "level": "Sätze"
   },
   {
     "de": "Unserer Freundschaft wegen.",
-    "lv": "Из-за нашей дружбы.",
+    "lv": "Ради нашей дружбы.",
     "level": "Sätze"
   },
   {
     "de": "Von Rechts wegen.",
-    "lv": "По справедливости.",
+    "lv": "По закону. • По справедливости.",
     "level": "Sätze"
   },
   {
     "de": "Weh tun.",
-    "lv": "Чтобы причинить боль.",
+    "lv": "Болеть. • Причинять боль.",
     "level": "Sätze"
   },
   {
@@ -2066,17 +2066,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Art und Weise.",
-    "lv": "Тип.",
+    "lv": "Способ.",
     "level": "Sätze"
   },
   {
     "de": "Ohne weiteres.",
-    "lv": "Немедленно. • Немедленно",
+    "lv": "Без промедления. • Без труда.",
     "level": "Sätze"
   },
   {
     "de": "Bis auf weiteres.",
-    "lv": "До дальнейшего уведомления.",
+    "lv": "До особого распоряжения.",
     "level": "Sätze"
   },
   {
@@ -2086,7 +2086,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Weiter nichts.",
-    "lv": "Ничего больше.",
+    "lv": "Больше ничего.",
     "level": "Sätze"
   },
   {
@@ -2096,7 +2096,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Alle Welt.",
-    "lv": "Весь мир. • Каждый",
+    "lv": "Весь мир. • Все.",
     "level": "Sätze"
   },
   {
@@ -2111,12 +2111,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wenn auch.",
-    "lv": "Хотя.",
+    "lv": "Хотя и.",
     "level": "Sätze"
   },
   {
     "de": "Wer da?",
-    "lv": "Что там?",
+    "lv": "Кто там?",
     "level": "Sätze"
   },
   {
@@ -2126,12 +2126,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ausgewählte Werke.",
-    "lv": "Подборка работ.",
+    "lv": "Избранные произведения.",
     "level": "Sätze"
   },
   {
     "de": "Er ist wert, dass...",
-    "lv": "Он заслуживает того, чтобы...",
+    "lv": "Он достоин того, чтобы...",
     "level": "Sätze"
   },
   {
@@ -2151,17 +2151,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "In Wettbewerb treten.",
-    "lv": "Примите участие в соревновании.",
+    "lv": "Вступать в соревнование.",
     "level": "Sätze"
   },
   {
     "de": "Um die Wette laufen.",
-    "lv": "Управляйте гонкой.",
+    "lv": "Состязаться в беге.",
     "level": "Sätze"
   },
   {
     "de": "Was gilt die Wette?",
-    "lv": "О чем мы торгуемся?",
+    "lv": "На что спорим?",
     "level": "Sätze"
   },
   {
@@ -2181,7 +2181,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Widerspruch erheben.",
-    "lv": "Протестовать. • Выдвигать возражения",
+    "lv": "Протестовать. • Выдвигать возражения.",
     "level": "Sätze"
   },
   {
@@ -2191,7 +2191,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wie lange?",
-    "lv": "Сколько",
+    "lv": "Как долго?",
     "level": "Sätze"
   },
   {
@@ -2211,17 +2211,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Herzlich willkommen!",
-    "lv": "Горячий привет!",
+    "lv": "Добро пожаловать!",
     "level": "Sätze"
   },
   {
     "de": "Du musst ziehen.",
-    "lv": "У вас есть ход.",
+    "lv": "Твой ход.",
     "level": "Sätze"
   },
   {
     "de": "Es zieht.",
-    "lv": "Тянуть",
+    "lv": "Сквозит.",
     "level": "Sätze"
   },
   {
@@ -2231,12 +2231,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Zipfel einer Wurst.",
-    "lv": "Наконечник колбасы.",
+    "lv": "Кончик колбасы.",
     "level": "Sätze"
   },
   {
     "de": "Zu ihm gehen.",
-    "lv": "Иди к нему.",
+    "lv": "Идти к нему.",
     "level": "Sätze"
   },
   {
@@ -2246,12 +2246,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Zu Hause bleiben.",
-    "lv": "Оставайтесь дома.",
+    "lv": "Оставаться дома.",
     "level": "Sätze"
   },
   {
     "de": "Von Tag zu Tag.",
-    "lv": "Ежедневно.",
+    "lv": "С каждым днём.",
     "level": "Sätze"
   },
   {
@@ -2266,12 +2266,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Zu Fuß.",
-    "lv": "Для ног.",
+    "lv": "Пешком.",
     "level": "Sätze"
   },
   {
     "de": "Zu Pferde.",
-    "lv": "Да.",
+    "lv": "Верхом.",
     "level": "Sätze"
   },
   {
@@ -2281,12 +2281,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Es hörte auf zu regnen.",
-    "lv": "Дождь прекратился.",
+    "lv": "Дождь перестал.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe noch viel zu tun.",
-    "lv": "Мне еще многое предстоит сделать.",
+    "lv": "У меня ещё много дел.",
     "level": "Sätze"
   },
   {
@@ -2301,7 +2301,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Mit den Achseln zucken.",
-    "lv": "Пожимаю плечами.",
+    "lv": "Пожимать плечами.",
     "level": "Sätze"
   },
   {
@@ -2311,27 +2311,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Zugrunde gehen.",
-    "lv": "Погибнуть.",
+    "lv": "Погибать.",
     "level": "Sätze"
   },
   {
     "de": "Zugrunde legen.",
-    "lv": "Ставим на основу. • Взять за основу.",
+    "lv": "Класть в основу. • Брать за основу.",
     "level": "Sätze"
   },
   {
     "de": "Zum ersten Mal.",
-    "lv": "Впервые.",
+    "lv": "В первый раз.",
     "level": "Sätze"
   },
   {
     "de": "Machen Sie bitte die Tür zu!",
-    "lv": "Пожалуйста, закройте дверь!",
+    "lv": "Закройте, пожалуйста, дверь!",
     "level": "Sätze"
   },
   {
     "de": "Er hat zugenommen.",
-    "lv": "Он набрал вес.",
+    "lv": "Он прибавил в весе.",
     "level": "Sätze"
   },
   {
@@ -2351,27 +2351,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Das hätte ich ihm nicht zugetraut.",
-    "lv": "Я бы не ожидал от него такого.",
+    "lv": "Я бы от него такого не ожидал.",
     "level": "Sätze"
   },
   {
     "de": "Freier Zutritt.",
-    "lv": "Бесплатный вход.",
+    "lv": "Свободный вход.",
     "level": "Sätze"
   },
   {
     "de": "Zutritt verboten!",
-    "lv": "Вход запрещен!",
+    "lv": "Вход запрещён!",
     "level": "Sätze"
   },
   {
     "de": "Das ist zu viel!",
-    "lv": "Это слишком!",
+    "lv": "Это уже слишком!",
     "level": "Sätze"
   },
   {
     "de": "Zuwider werden.",
-    "lv": "Стать отвратительным. • Заболеть",
+    "lv": "Становиться противным. • Надоедать.",
     "level": "Sätze"
   },
   {
@@ -2381,12 +2381,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Es steht außer Zweifel.",
-    "lv": "Нет сомнений.",
+    "lv": "Это не подлежит сомнению.",
     "level": "Sätze"
   },
   {
     "de": "Ohne Zweifel.",
-    "lv": "Без колебаний.",
+    "lv": "Без сомнения.",
     "level": "Sätze"
   },
   {
@@ -2396,32 +2396,32 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Frohes neues Jahr!",
-    "lv": "С Новым Годом!",
+    "lv": "С Новым годом!",
     "level": "Sätze"
   },
   {
     "de": "Herzlichen Glückwunsch zum Geburtstag!",
-    "lv": "С днем ​​рождения!",
+    "lv": "Поздравляю с днём рождения!",
     "level": "Sätze"
   },
   {
     "de": "Gute Reise!",
-    "lv": "Счастливого путешествия!",
+    "lv": "Счастливого пути!",
     "level": "Sätze"
   },
   {
     "de": "Es freut mich, Sie kennenzulernen.",
-    "lv": "Я рад познакомиться с вами.",
+    "lv": "Рад с вами познакомиться.",
     "level": "Sätze"
   },
   {
     "de": "Wären Sie bitte so nett?",
-    "lv": "Не могли бы вы быть так любезны?",
+    "lv": "Не будете ли вы так любезны?",
     "level": "Sätze"
   },
   {
     "de": "Ich bin Ihnen sehr dankbar.",
-    "lv": "Я очень благодарен вам.",
+    "lv": "Я вам очень благодарен.",
     "level": "Sätze"
   },
   {
@@ -2431,37 +2431,37 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ben, komm bitte an die Tafel!",
-    "lv": "Бен, пожалуйста, подойди к доске!",
+    "lv": "Бен, иди, пожалуйста, к доске!",
     "level": "Sätze"
   },
   {
     "de": "Schlagt bitte die Lehrbücher auf!",
-    "lv": "Откройте учебники, пожалуйста!",
+    "lv": "Откройте, пожалуйста, учебники!",
     "level": "Sätze"
   },
   {
     "de": "Geht bitte in die Sporthalle!",
-    "lv": "Пожалуйста, идите в спортзал!",
+    "lv": "Идите, пожалуйста, в спортзал!",
     "level": "Sätze"
   },
   {
     "de": "Schläfst du noch?",
-    "lv": "Ты все еще спишь?",
+    "lv": "Ты ещё спишь?",
     "level": "Sätze"
   },
   {
     "de": "Schlafen Sie noch?",
-    "lv": "Ты все еще спишь?",
+    "lv": "Вы ещё спите?",
     "level": "Sätze"
   },
   {
     "de": "Er ist fest eingeschlafen.",
-    "lv": "Он крепко спит.",
+    "lv": "Он крепко заснул.",
     "level": "Sätze"
   },
   {
     "de": "Wecke ihn bitte auf, es ist schon spät!",
-    "lv": "Пожалуйста, разбудите его, уже поздно!",
+    "lv": "Разбуди его, пожалуйста, уже поздно!",
     "level": "Sätze"
   },
   {
@@ -2476,12 +2476,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Finn, fang bitte an!",
-    "lv": "Финн, начни, пожалуйста!",
+    "lv": "Финн, начинай, пожалуйста!",
     "level": "Sätze"
   },
   {
     "de": "Lest bitte mit!",
-    "lv": "Читайте дальше, пожалуйста!",
+    "lv": "Читайте, пожалуйста, вместе со мной!",
     "level": "Sätze"
   },
   {
@@ -2496,7 +2496,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Geh bitte zurück an deinen Platz!",
-    "lv": "Возвращайся на свое место!",
+    "lv": "Вернись, пожалуйста, на своё место!",
     "level": "Sätze"
   },
   {
@@ -2516,22 +2516,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Steh auf, Hanna, es klingelt!",
-    "lv": "Вставай, Ханна, звонит звонок!",
+    "lv": "Вставай, Ханна, будильник звенит! • Вставай, Ханна, звонят в дверь!",
     "level": "Sätze"
   },
   {
     "de": "Lass mich noch fünf Minuten schlafen!",
-    "lv": "Дайте мне поспать еще пять минут!",
+    "lv": "Дай мне поспать ещё пять минут!",
     "level": "Sätze"
   },
   {
     "de": "Vergiss nicht, das Zimmer zu lüften!",
-    "lv": "Не забывайте проветривать помещение!",
+    "lv": "Не забудь проветрить комнату!",
     "level": "Sätze"
   },
   {
     "de": "Wo ist das Handtuch?",
-    "lv": "Где полотенце",
+    "lv": "Где полотенце?",
     "level": "Sätze"
   },
   {
@@ -2541,7 +2541,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Mit was putzt du dir die Zähne?",
-    "lv": "Чем вы чистите зубы?",
+    "lv": "Чем ты чистишь зубы?",
     "level": "Sätze"
   },
   {
@@ -2551,22 +2551,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Zieh dich bitte schnell an!",
-    "lv": "Одевайтесь быстрее, пожалуйста!",
+    "lv": "Одевайся, пожалуйста, быстрее!",
     "level": "Sätze"
   },
   {
     "de": "Kleide dich wärmer an, draußen ist es kühl.",
-    "lv": "Одевайтесь теплее, на улице холодно.",
+    "lv": "Оденься потеплее, на улице прохладно.",
     "level": "Sätze"
   },
   {
     "de": "Guten Morgen, wie geht es dir?",
-    "lv": "Доброе утро, как дела?",
+    "lv": "Доброе утро, как у тебя дела?",
     "level": "Sätze"
   },
   {
     "de": "Mir geht es gut, danke.",
-    "lv": "Я хорошо, спасибо.",
+    "lv": "У меня всё хорошо, спасибо.",
     "level": "Sätze"
   },
   {
@@ -2576,27 +2576,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Was für ein Chaos hier!",
-    "lv": "Какой здесь бардак!",
+    "lv": "Какой здесь беспорядок!",
     "level": "Sätze"
   },
   {
     "de": "Darf ich beim Aufräumen helfen?",
-    "lv": "Могу ли я помочь с уборкой?",
+    "lv": "Можно помочь с уборкой?",
     "level": "Sätze"
   },
   {
     "de": "Was trinkst du morgens, Kaffee oder Tee?",
-    "lv": "Что вы пьете утром, кофе или чай?",
+    "lv": "Что ты пьёшь по утрам, кофе или чай?",
     "level": "Sätze"
   },
   {
     "de": "Gewöhnlich trinke ich morgens eine Tasse Kaffee.",
-    "lv": "Я обычно выпиваю чашку кофе утром.",
+    "lv": "Обычно по утрам я выпиваю чашку кофе.",
     "level": "Sätze"
   },
   {
     "de": "Am liebsten trinke ich schwarzen Kaffee.",
-    "lv": "Я лучше всего пью черный кофе.",
+    "lv": "Больше всего я люблю чёрный кофе.",
     "level": "Sätze"
   },
   {
@@ -2606,7 +2606,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich bin noch sehr müde.",
-    "lv": "Я все еще очень устал.",
+    "lv": "Я всё ещё очень устал.",
     "level": "Sätze"
   },
   {
@@ -2616,37 +2616,37 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Gib mir bitte ein Brötchen mit Käse.",
-    "lv": "Дайте мне сырную булочку, пожалуйста.",
+    "lv": "Дай мне, пожалуйста, булочку с сыром.",
     "level": "Sätze"
   },
   {
     "de": "Ich muss jetzt los!",
-    "lv": "Сейчас я должен идти!",
+    "lv": "Мне пора идти!",
     "level": "Sätze"
   },
   {
     "de": "Vergiss dein Frühstück nicht!",
-    "lv": "Не забудьте завтрак!",
+    "lv": "Не забудь завтрак!",
     "level": "Sätze"
   },
   {
     "de": "Klara, deck bitte den Tisch!",
-    "lv": "Клара, пожалуйста, накрой на стол!",
+    "lv": "Клара, накрой, пожалуйста, на стол!",
     "level": "Sätze"
   },
   {
     "de": "Vergiss die Servietten nicht!",
-    "lv": "Не забудьте салфетки!",
+    "lv": "Не забудь салфетки!",
     "level": "Sätze"
   },
   {
     "de": "Wann esst ihr zu Mittag?",
-    "lv": "Когда ты обедаешь",
+    "lv": "Когда вы обедаете?",
     "level": "Sätze"
   },
   {
     "de": "Es ist Zeit zu essen.",
-    "lv": "Пришло время поесть.",
+    "lv": "Пора есть.",
     "level": "Sätze"
   },
   {
@@ -2656,17 +2656,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wie schmeckt dir die Suppe?",
-    "lv": "Как вам суп?",
+    "lv": "Как тебе суп?",
     "level": "Sätze"
   },
   {
     "de": "Ehrlich gesagt ist sie etwas zu salzig.",
-    "lv": "Честно говоря, оно слишком соленое.",
+    "lv": "Честно говоря, он немного пересолен.",
     "level": "Sätze"
   },
   {
     "de": "Darf ich dir ein Stück Brot geben?",
-    "lv": "Могу я дать вам кусок хлеба?",
+    "lv": "Можно предложить тебе кусок хлеба?",
     "level": "Sätze"
   },
   {
@@ -2676,7 +2676,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Das Fleisch schmeckt ausgezeichnet.",
-    "lv": "Мясо имеет прекрасный вкус.",
+    "lv": "Мясо превосходное.",
     "level": "Sätze"
   },
   {
@@ -2691,12 +2691,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bist du heute Abend frei?",
-    "lv": "Ты свободен сегодня вечером?",
+    "lv": "Ты сегодня вечером свободен?",
     "level": "Sätze"
   },
   {
     "de": "Komm doch heute zum Mittagessen vorbei!",
-    "lv": "Приходите сегодня на обед!",
+    "lv": "Обязательно заходи сегодня к нам на обед!",
     "level": "Sätze"
   },
   {
@@ -2706,67 +2706,67 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bitte, bedien dich!",
-    "lv": "Пожалуйста, ешьте столько, сколько хотите!",
+    "lv": "Пожалуйста, угощайся!",
     "level": "Sätze"
   },
   {
     "de": "Stört dich das Rauchen?",
-    "lv": "Вас беспокоит курение?",
+    "lv": "Тебе мешает курение?",
     "level": "Sätze"
   },
   {
     "de": "Danke für die nette Aufnahme!",
-    "lv": "Спасибо за теплый прием!",
+    "lv": "Спасибо за радушный приём!",
     "level": "Sätze"
   },
   {
     "de": "Wann gehst du ins Bett?",
-    "lv": "Когда ты идешь спать",
+    "lv": "Когда ты ложишься спать?",
     "level": "Sätze"
   },
   {
     "de": "Wenn ich von der Arbeit komme, bin ich immer müde.",
-    "lv": "Я всегда уставший, когда прихожу с работы.",
+    "lv": "Когда я прихожу с работы, я всегда чувствую себя усталым.",
     "level": "Sätze"
   },
   {
     "de": "Es ist Zeit, ins Bett zu gehen.",
-    "lv": "Пора идти спать.",
+    "lv": "Пора ложиться спать.",
     "level": "Sätze"
   },
   {
     "de": "Es ist schönes Wetter.",
-    "lv": "Это хорошее время.",
+    "lv": "Прекрасная погода.",
     "level": "Sätze"
   },
   {
     "de": "Willst du mit mir spazieren gehen?",
-    "lv": "Хочешь прогуляться со мной?",
+    "lv": "Хочешь пойти со мной погулять?",
     "level": "Sätze"
   },
   {
     "de": "Sieh mal, es wird gleich regnen.",
-    "lv": "Смотри, скоро пойдет дождь.",
+    "lv": "Смотри, сейчас пойдёт дождь.",
     "level": "Sätze"
   },
   {
     "de": "Nimm den Regenschirm mit!",
-    "lv": "Возьмите с собой зонтик!",
+    "lv": "Возьми с собой зонт!",
     "level": "Sätze"
   },
   {
     "de": "Es regnet.",
-    "lv": "Идет дождь.",
+    "lv": "Идёт дождь.",
     "level": "Sätze"
   },
   {
     "de": "Ich bin schon ganz nass.",
-    "lv": "Я уже совсем мокрый.",
+    "lv": "Я уже весь промок.",
     "level": "Sätze"
   },
   {
     "de": "Glaubst du, dass es den ganzen Tag regnen wird?",
-    "lv": "Думаешь, весь день будет идти дождь?",
+    "lv": "Ты думаешь, что дождь будет идти весь день?",
     "level": "Sätze"
   },
   {
@@ -2776,47 +2776,47 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Die Sonne scheint wieder.",
-    "lv": "Солнце светит снова.",
+    "lv": "Снова светит солнце.",
     "level": "Sätze"
   },
   {
     "de": "Es ist sehr warm.",
-    "lv": "Очень жарко.",
+    "lv": "Очень тепло.",
     "level": "Sätze"
   },
   {
     "de": "Es sieht nach Regen aus.",
-    "lv": "Похоже, собирается пойти дождь.",
+    "lv": "Похоже, будет дождь.",
     "level": "Sätze"
   },
   {
     "de": "Wir bekommen gleich ein Gewitter.",
-    "lv": "Нас ждет гроза.",
+    "lv": "Сейчас начнётся гроза.",
     "level": "Sätze"
   },
   {
     "de": "Das Gewitter zieht vorüber.",
-    "lv": "Гроза прошла.",
+    "lv": "Гроза проходит.",
     "level": "Sätze"
   },
   {
     "de": "Die Wolken verziehen sich.",
-    "lv": "Облака расходятся.",
+    "lv": "Тучи расходятся.",
     "level": "Sätze"
   },
   {
     "de": "Siehst du den Regenbogen?",
-    "lv": "Видите радугу?",
+    "lv": "Ты видишь радугу?",
     "level": "Sätze"
   },
   {
     "de": "Der Winter ist da, es hat geschneit.",
-    "lv": "Зима пришла, ночью пошел снег.",
+    "lv": "Пришла зима, выпал снег.",
     "level": "Sätze"
   },
   {
     "de": "Es schneit.",
-    "lv": "Идет снег.",
+    "lv": "Идёт снег.",
     "level": "Sätze"
   },
   {
@@ -2826,27 +2826,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Mir ist kalt, ich friere.",
-    "lv": "Мне холодно, я замерзаю.",
+    "lv": "Мне холодно, я мёрзну.",
     "level": "Sätze"
   },
   {
     "de": "Draußen ist Glatteis, pass auf!",
-    "lv": "На улице скользко, будьте осторожны!",
+    "lv": "На улице гололёд, будь осторожен!",
     "level": "Sätze"
   },
   {
     "de": "Wollen wir auf die Eisbahn gehen?",
-    "lv": "Пойдем кататься на коньках?",
+    "lv": "Пойдём на каток?",
     "level": "Sätze"
   },
   {
     "de": "Zieh die Jacke an, du kannst dich erkälten.",
-    "lv": "Надень куртку, можешь простудиться.",
+    "lv": "Надень куртку, ты можешь простудиться.",
     "level": "Sätze"
   },
   {
     "de": "Es ist halb sieben.",
-    "lv": "Сейчас половина восьмого.",
+    "lv": "Сейчас половина седьмого.",
     "level": "Sätze"
   },
   {
@@ -2856,12 +2856,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Weck mich morgen früh um sieben Uhr!",
-    "lv": "Разбуди меня завтра в семь часов!",
+    "lv": "Разбуди меня завтра утром в семь часов!",
     "level": "Sätze"
   },
   {
     "de": "Was ist heute für ein Datum?",
-    "lv": "Какая сегодня дата?",
+    "lv": "Какое сегодня число?",
     "level": "Sätze"
   },
   {
@@ -2876,102 +2876,102 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Es ist schon lange her, dass wir uns gesehen haben.",
-    "lv": "Мы давно не встречались.",
+    "lv": "Мы уже давно не виделись.",
     "level": "Sätze"
   },
   {
     "de": "Wie geht es dir?",
-    "lv": "Как вы",
+    "lv": "Как у тебя дела?",
     "level": "Sätze"
   },
   {
     "de": "Entschuldige, ich möchte etwas mit dir besprechen.",
-    "lv": "Извините, я хочу с вами кое-что обсудить.",
+    "lv": "Извини, я хотел бы кое-что с тобой обсудить.",
     "level": "Sätze"
   },
   {
     "de": "Gehen wir spazieren!",
-    "lv": "Пойдем гулять!",
+    "lv": "Пойдём гулять!",
     "level": "Sätze"
   },
   {
     "de": "Hast du Lust, mit mir in den Park zu gehen?",
-    "lv": "Хочешь пойти со мной в парк?",
+    "lv": "Не хочешь сходить со мной в парк?",
     "level": "Sätze"
   },
   {
     "de": "Ich komme, um dich zum Spaziergang abzuholen.",
-    "lv": "Я пришел, чтобы отвезти тебя на прогулку.",
+    "lv": "Я пришёл, чтобы позвать тебя на прогулку.",
     "level": "Sätze"
   },
   {
     "de": "Geh bitte etwas langsamer, ich kann dir nicht folgen!",
-    "lv": "Иди немного медленнее, я не успеваю за тобой!",
+    "lv": "Иди, пожалуйста, немного медленнее, я за тобой не успеваю!",
     "level": "Sätze"
   },
   {
     "de": "Ich bin zum ersten Mal in dieser Gegend.",
-    "lv": "Я здесь впервые.",
+    "lv": "Я впервые в этих местах.",
     "level": "Sätze"
   },
   {
     "de": "Ruhen wir uns ein wenig aus.",
-    "lv": "Давайте немного отдохнем.",
+    "lv": "Давай немного отдохнём.",
     "level": "Sätze"
   },
   {
     "de": "Jetzt können wir zurückgehen.",
-    "lv": "Теперь мы можем вернуться назад.",
+    "lv": "Теперь мы можем идти обратно.",
     "level": "Sätze"
   },
   {
     "de": "Ehrlich gesagt bin ich ziemlich müde.",
-    "lv": "Честно говоря, я очень устал.",
+    "lv": "Честно говоря, я довольно сильно устал.",
     "level": "Sätze"
   },
   {
     "de": "Entschuldige, wo ist die nächste U-Bahn-Station?",
-    "lv": "Простите, где ближайшая станция метро?",
+    "lv": "Извини, где ближайшая станция метро?",
     "level": "Sätze"
   },
   {
     "de": "Welcher ist der kürzeste Weg?",
-    "lv": "Какой путь самый короткий?",
+    "lv": "Какая дорога самая короткая?",
     "level": "Sätze"
   },
   {
     "de": "Geh hier die zweite Straße links und dann immer geradeaus.",
-    "lv": "Здесь поверните на вторую улицу налево и идите прямо.",
+    "lv": "Здесь сверни на вторую улицу налево, а потом иди всё время прямо.",
     "level": "Sätze"
   },
   {
     "de": "Wie komme ich am schnellsten zum Bahnhof?",
-    "lv": "Как быстрее добраться до вокзала?",
+    "lv": "Как мне быстрее всего добраться до вокзала?",
     "level": "Sätze"
   },
   {
     "de": "Ich habe vor, morgen zu verreisen.",
-    "lv": "Я намерен уехать завтра.",
+    "lv": "Я собираюсь завтра уехать.",
     "level": "Sätze"
   },
   {
     "de": "Wohin willst du fahren?",
-    "lv": "Куда вы хотите пойти?",
+    "lv": "Куда ты хочешь поехать?",
     "level": "Sätze"
   },
   {
     "de": "Reist du geschäftlich oder privat?",
-    "lv": "Вы путешествуете по работе или на отдых?",
+    "lv": "Ты едешь в командировку или по личным делам?",
     "level": "Sätze"
   },
   {
     "de": "Finn fährt bis Berlin mit, dann geht er ans Meer.",
-    "lv": "Финн едет в Берлин, потом поедет на море.",
+    "lv": "Финн поедет с нами до Берлина, а потом отправится на море.",
     "level": "Sätze"
   },
   {
     "de": "Wann fährt das Schiff ab?",
-    "lv": "Когда корабль отправляется?",
+    "lv": "Когда отплывает корабль?",
     "level": "Sätze"
   },
   {
@@ -2981,37 +2981,37 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Kann ich noch eine Kabine bekommen?",
-    "lv": "Могу ли я еще получить каюту?",
+    "lv": "Могу ли я ещё получить каюту?",
     "level": "Sätze"
   },
   {
     "de": "Vergiss deinen Pass nicht!",
-    "lv": "Не забудьте паспорт!",
+    "lv": "Не забудь паспорт!",
     "level": "Sätze"
   },
   {
     "de": "Es ist Zeit, den Koffer zu packen.",
-    "lv": "Пришло время собирать чемодан.",
+    "lv": "Пора собирать чемодан.",
     "level": "Sätze"
   },
   {
     "de": "Der Zug fährt um halb sieben ab.",
-    "lv": "Поезд отправляется в половине восьмого.",
+    "lv": "Поезд отправляется в половине седьмого.",
     "level": "Sätze"
   },
   {
     "de": "Hol mir bitte ein Taxi, ich verpasse sonst den Zug!",
-    "lv": "Вызовите такси, пожалуйста, а то я опоздаю на поезд!",
+    "lv": "Вызови мне, пожалуйста, такси, а то я опоздаю на поезд!",
     "level": "Sätze"
   },
   {
     "de": "Fahr bitte zum Bahnhof!",
-    "lv": "Пожалуйста, отвезите меня на станцию!",
+    "lv": "Отвези меня, пожалуйста, на вокзал!",
     "level": "Sätze"
   },
   {
     "de": "Ich muss mich beeilen.",
-    "lv": "Мне нужно спешить.",
+    "lv": "Мне нужно торопиться.",
     "level": "Sätze"
   },
   {
@@ -3031,22 +3031,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Der Zug fährt gleich ab.",
-    "lv": "Поезд скоро отправляется.",
+    "lv": "Поезд вот-вот отправится.",
     "level": "Sätze"
   },
   {
     "de": "Muss ich in Koblenz umsteigen?",
-    "lv": "Нужно ли мне пересаживаться в Кобленце?",
+    "lv": "Мне нужно делать пересадку в Кобленце?",
     "level": "Sätze"
   },
   {
     "de": "Ja, dort musst du umsteigen.",
-    "lv": "Да, вам придется пересесть там.",
+    "lv": "Да, там тебе нужно сделать пересадку.",
     "level": "Sätze"
   },
   {
     "de": "Ist dieser Platz frei?",
-    "lv": "Это место доступно?",
+    "lv": "Это место свободно?",
     "level": "Sätze"
   },
   {
@@ -3056,12 +3056,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wo ist der Bahnsteigkartenautomat?",
-    "lv": "Где находится билетный автомат на платформе?",
+    "lv": "Где автомат по продаже перронных билетов?",
     "level": "Sätze"
   },
   {
     "de": "Stell mein Handgepäck ins Gepäcknetz.",
-    "lv": "Положи мою ручную кладь в сетку.",
+    "lv": "Положи мою ручную кладь на багажную полку.",
     "level": "Sätze"
   },
   {
@@ -3071,22 +3071,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Es zieht, schließ bitte das Fenster!",
-    "lv": "Выходите, пожалуйста, закройте окно!",
+    "lv": "Сквозит, закрой, пожалуйста, окно!",
     "level": "Sätze"
   },
   {
     "de": "Welche ist die nächste Station?",
-    "lv": "Какая следующая остановка?",
+    "lv": "Какая следующая станция?",
     "level": "Sätze"
   },
   {
     "de": "Wie lange hält der Zug?",
-    "lv": "Сколько стоит поезд?",
+    "lv": "Сколько времени стоит поезд?",
     "level": "Sätze"
   },
   {
     "de": "Wo muss ich umsteigen?",
-    "lv": "Куда мне следует перевестись?",
+    "lv": "Где мне нужно делать пересадку?",
     "level": "Sätze"
   },
   {
@@ -3096,37 +3096,37 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Dieser Wagen ist für Nichtraucher.",
-    "lv": "В этом вагоне курение запрещено.",
+    "lv": "Этот вагон для некурящих.",
     "level": "Sätze"
   },
   {
     "de": "Wir fahren jetzt über die Grenze.",
-    "lv": "Сейчас мы едем через границу.",
+    "lv": "Сейчас мы пересекаем границу.",
     "level": "Sätze"
   },
   {
     "de": "Hast du etwas zu verzollen?",
-    "lv": "У вас есть что очистить?",
+    "lv": "Тебе есть что декларировать?",
     "level": "Sätze"
   },
   {
     "de": "Wir sind in Berlin angekommen.",
-    "lv": "Мы прибыли в Берлин.",
+    "lv": "Мы приехали в Берлин.",
     "level": "Sätze"
   },
   {
     "de": "Kannst du mir ein gutes Hotel empfehlen?",
-    "lv": "Можете ли вы порекомендовать хороший отель?",
+    "lv": "Ты можешь посоветовать мне хорошую гостиницу?",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie freie Zimmer?",
-    "lv": "Есть ли у вас свободные номера?",
+    "lv": "У вас есть свободные номера?",
     "level": "Sätze"
   },
   {
     "de": "Ein Zimmer mit zwei Betten, bitte.",
-    "lv": "Пожалуйста, номер с двумя кроватями.",
+    "lv": "Номер с двумя кроватями, пожалуйста.",
     "level": "Sätze"
   },
   {
@@ -3136,37 +3136,37 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Morgen reise ich ab. Weck mich um sieben Uhr!",
-    "lv": "Я уезжаю завтра. Разбуди меня в семь!",
+    "lv": "Завтра я уезжаю. Разбуди меня в семь часов!",
     "level": "Sätze"
   },
   {
     "de": "Die Rechnung, bitte!",
-    "lv": "Счет, пожалуйста!",
+    "lv": "Счёт, пожалуйста!",
     "level": "Sätze"
   },
   {
     "de": "Wo ist die Stadtbibliothek?",
-    "lv": "Где находится городская библиотека?",
+    "lv": "Где городская библиотека?",
     "level": "Sätze"
   },
   {
     "de": "Wann hat das Museum geöffnet?",
-    "lv": "Когда музей открыт?",
+    "lv": "Когда открыт музей?",
     "level": "Sätze"
   },
   {
     "de": "Wollen wir ins Museum gehen?",
-    "lv": "Пойдем в музей?",
+    "lv": "Пойдём в музей?",
     "level": "Sätze"
   },
   {
     "de": "Fahren wir mit dem Bus oder der U-Bahn?",
-    "lv": "Мы поедем на автобусе или метро?",
+    "lv": "Мы поедем на автобусе или на метро?",
     "level": "Sätze"
   },
   {
     "de": "Wo ist die nächste Bushaltestelle?",
-    "lv": "Где находится ближайшая автобусная остановка?",
+    "lv": "Где ближайшая автобусная остановка?",
     "level": "Sätze"
   },
   {
@@ -3176,17 +3176,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Gehen wir zusammen essen?",
-    "lv": "Пойдем пообедаем вместе?",
+    "lv": "Пойдём вместе поесть?",
     "level": "Sätze"
   },
   {
     "de": "Kellner, die Speisekarte, bitte!",
-    "lv": "Официанты, меню, пожалуйста!",
+    "lv": "Официант, меню, пожалуйста!",
     "level": "Sätze"
   },
   {
     "de": "Ist der Fisch frisch?",
-    "lv": "Эта рыба свежая?",
+    "lv": "Рыба свежая?",
     "level": "Sätze"
   },
   {
@@ -3196,17 +3196,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Kellner, zahlen bitte!",
-    "lv": "Официанты, пожалуйста, заплатите!",
+    "lv": "Официант, счёт, пожалуйста!",
     "level": "Sätze"
   },
   {
     "de": "Ich gehe ins Café einen Kaffee trinken.",
-    "lv": "Я пойду в кафе выпить кофе.",
+    "lv": "Я иду в кафе выпить кофе.",
     "level": "Sätze"
   },
   {
     "de": "Willst du mitkommen?",
-    "lv": "Хотите пойти вместе?",
+    "lv": "Хочешь пойти со мной?",
     "level": "Sätze"
   },
   {
@@ -3216,12 +3216,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bitte schneller, ich habe es eilig!",
-    "lv": "Быстрее, пожалуйста, мне нужно торопиться!",
+    "lv": "Быстрее, пожалуйста, я тороплюсь!",
     "level": "Sätze"
   },
   {
     "de": "Lass deinen Kaffee nicht kalt werden!",
-    "lv": "Не позволяйте кофе остыть!",
+    "lv": "Не дай кофе остыть!",
     "level": "Sätze"
   },
   {
@@ -3241,7 +3241,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich muss ihm gleich schreiben.",
-    "lv": "Я должен написать ему сейчас.",
+    "lv": "Мне нужно сейчас же ему написать.",
     "level": "Sätze"
   },
   {
@@ -3256,32 +3256,32 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Erinnere mich morgen daran zu schreiben!",
-    "lv": "Напомни мне подписать завтра!",
+    "lv": "Напомни мне завтра написать!",
     "level": "Sätze"
   },
   {
     "de": "Werfen Sie bitte diesen Brief in den Briefkasten.",
-    "lv": "Пожалуйста, опустите это письмо в почтовый ящик!",
+    "lv": "Опустите, пожалуйста, это письмо в почтовый ящик.",
     "level": "Sätze"
   },
   {
     "de": "Hallo, hier spricht Emma.",
-    "lv": "Привет, это Эмма.",
+    "lv": "Алло, говорит Эмма.",
     "level": "Sätze"
   },
   {
     "de": "Kann ich dich später anrufen?",
-    "lv": "Могу я позвонить тебе позже",
+    "lv": "Можно мне позвонить тебе позже?",
     "level": "Sätze"
   },
   {
     "de": "Muss ich lange warten?",
-    "lv": "Мне придется долго ждать?",
+    "lv": "Мне придётся долго ждать?",
     "level": "Sätze"
   },
   {
     "de": "Bitte schneiden Sie mir die Haare.",
-    "lv": "Пожалуйста, подстригите мне волосы.",
+    "lv": "Подстригите меня, пожалуйста.",
     "level": "Sätze"
   },
   {
@@ -3291,12 +3291,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wann beginnt die Vorstellung?",
-    "lv": "Когда начинается шоу?",
+    "lv": "Когда начинается спектакль?",
     "level": "Sätze"
   },
   {
     "de": "Es fängt um halb acht an.",
-    "lv": "Начало в половине седьмого.",
+    "lv": "Он начинается в половине восьмого.",
     "level": "Sätze"
   },
   {
@@ -3311,27 +3311,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wir lassen die Jacken in der Garderobe.",
-    "lv": "Давай оставим куртки в гардеробе.",
+    "lv": "Мы оставим куртки в гардеробе.",
     "level": "Sätze"
   },
   {
     "de": "Bitte schnell, der Vorhang geht gleich auf!",
-    "lv": "Побыстрее, пожалуйста, занавес вот-вот откроется!",
+    "lv": "Быстрее, пожалуйста, занавес вот-вот поднимется!",
     "level": "Sätze"
   },
   {
     "de": "Der Vorhang fällt.",
-    "lv": "Занавес падает.",
+    "lv": "Занавес опускается.",
     "level": "Sätze"
   },
   {
     "de": "Darf ich dich zum Tanz bitten?",
-    "lv": "Могу я пригласить вас потанцевать?",
+    "lv": "Можно пригласить тебя на танец?",
     "level": "Sätze"
   },
   {
     "de": "Wann ist eure Hochzeit?",
-    "lv": "Когда у тебя свадьба?",
+    "lv": "Когда ваша свадьба?",
     "level": "Sätze"
   },
   {
@@ -3341,7 +3341,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ist in diesem Haus eine Wohnung frei?",
-    "lv": "Есть ли свободная квартира в этом доме?",
+    "lv": "В этом доме есть свободная квартира?",
     "level": "Sätze"
   },
   {
@@ -3356,32 +3356,32 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Heute ziehen wir um.",
-    "lv": "Мы переезжаем сегодня.",
+    "lv": "Сегодня мы переезжаем.",
     "level": "Sätze"
   },
   {
     "de": "Mia, pack die Sachen bitte in Kisten!",
-    "lv": "Миа, сложи вещи в коробки, пожалуйста!",
+    "lv": "Мия, сложи, пожалуйста, вещи в коробки!",
     "level": "Sätze"
   },
   {
     "de": "Hast du alles eingepackt?",
-    "lv": "Всё уже запаковано?",
+    "lv": "Ты всё упаковал?",
     "level": "Sätze"
   },
   {
     "de": "Ich stehe mit meinem Freund in Kontakt.",
-    "lv": "Я веду переписку со своим другом.",
+    "lv": "Я поддерживаю связь со своим другом.",
     "level": "Sätze"
   },
   {
     "de": "Gehen wir ins Theater?",
-    "lv": "Пойдем в театр?",
+    "lv": "Пойдём в театр?",
     "level": "Sätze"
   },
   {
     "de": "Ist alles eingeladen?",
-    "lv": "Все ли загружено?",
+    "lv": "Всё погружено?",
     "level": "Sätze"
   },
   {
@@ -3391,7 +3391,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Nun können wir alles wieder aufräumen.",
-    "lv": "Теперь мы можем собрать все обратно.",
+    "lv": "Теперь мы можем снова привести всё в порядок.",
     "level": "Sätze"
   },
   {
@@ -3406,22 +3406,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Kannst du schwimmen?",
-    "lv": "Вы умеете плавать",
+    "lv": "Ты умеешь плавать?",
     "level": "Sätze"
   },
   {
     "de": "Schwimm nicht zu weit hinaus!",
-    "lv": "Не заплывайте слишком далеко!",
+    "lv": "Не заплывай слишком далеко!",
     "level": "Sätze"
   },
   {
     "de": "Badest du jeden Tag?",
-    "lv": "Ты плаваешь каждый день?",
+    "lv": "Ты купаешься каждый день?",
     "level": "Sätze"
   },
   {
     "de": "Bei schönem Wetter gehe ich angeln.",
-    "lv": "Если погода хорошая, я иду на рыбалку.",
+    "lv": "В хорошую погоду я хожу ловить рыбу.",
     "level": "Sätze"
   },
   {
@@ -3431,17 +3431,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Er hat sich aber recht verändert.",
-    "lv": "Однако он довольно сильно изменился.",
+    "lv": "Он и правда сильно изменился.",
     "level": "Sätze"
   },
   {
     "de": "Wie ist er als Mensch?",
-    "lv": "Какой он как человек?",
+    "lv": "Какой он человек?",
     "level": "Sätze"
   },
   {
     "de": "Er ist immer nett und freundlich.",
-    "lv": "Он всегда милый и добрый.",
+    "lv": "Он всегда милый и приветливый.",
     "level": "Sätze"
   },
   {
@@ -3451,7 +3451,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich habe starke Kopfschmerzen.",
-    "lv": "У меня сильная головная боль.",
+    "lv": "У меня сильно болит голова.",
     "level": "Sätze"
   },
   {
@@ -3471,22 +3471,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich muss zum Arzt gehen.",
-    "lv": "Мне нужно пойти к врачу.",
+    "lv": "Мне нужно сходить к врачу.",
     "level": "Sätze"
   },
   {
     "de": "Leg dich ins Bett!",
-    "lv": "Ложись в кровать!",
+    "lv": "Ложись в постель!",
     "level": "Sätze"
   },
   {
     "de": "Hast du Fieber?",
-    "lv": "У вас жар?",
+    "lv": "У тебя температура?",
     "level": "Sätze"
   },
   {
     "de": "Gestern hatte ich erhöhte Temperatur.",
-    "lv": "Вчера у меня была высокая температура.",
+    "lv": "Вчера у меня была повышенная температура.",
     "level": "Sätze"
   },
   {
@@ -3496,7 +3496,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich muss zum Zahnarzt gehen.",
-    "lv": "Мне нужно пойти к дантисту.",
+    "lv": "Мне нужно сходить к зубному врачу.",
     "level": "Sätze"
   },
   {
@@ -3506,32 +3506,32 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Laut Arzt wird er bald wieder gesund.",
-    "lv": "По словам врача, скоро он поправится.",
+    "lv": "По словам врача, он скоро поправится.",
     "level": "Sätze"
   },
   {
     "de": "Ich will meine Wohnung neu möblieren.",
-    "lv": "Я хочу сделать ремонт в квартире.",
+    "lv": "Я хочу заново обставить свою квартиру.",
     "level": "Sätze"
   },
   {
     "de": "Kann ich das auf Raten kaufen?",
-    "lv": "Могу ли я купить в рассрочку?",
+    "lv": "Можно купить это в рассрочку?",
     "level": "Sätze"
   },
   {
     "de": "Bleib im Bett, bis es dir besser geht!",
-    "lv": "Оставайтесь в постели, пока не почувствуете себя лучше!",
+    "lv": "Лежи в постели, пока тебе не станет лучше!",
     "level": "Sätze"
   },
   {
     "de": "Noah hat in zwei Wochen schwimmen gelernt.",
-    "lv": "Ной научился плавать за две недели.",
+    "lv": "Ноа научился плавать за две недели.",
     "level": "Sätze"
   },
   {
     "de": "Sei mit dem Essen noch vorsichtig.",
-    "lv": "Будьте осторожны с едой.",
+    "lv": "С едой пока ещё будь осторожен.",
     "level": "Sätze"
   },
   {
@@ -3546,27 +3546,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Du sprichst ziemlich fließend.",
-    "lv": "Вы говорите довольно свободно.",
+    "lv": "Ты говоришь довольно бегло.",
     "level": "Sätze"
   },
   {
     "de": "Wo hast du Deutsch gelernt?",
-    "lv": "Где ты выучил немецкий?",
+    "lv": "Где ты учил немецкий?",
     "level": "Sätze"
   },
   {
     "de": "Ich nehme seit einem Jahr Deutschstunden.",
-    "lv": "Я беру уроки немецкого языка уже год.",
+    "lv": "Я уже год беру уроки немецкого языка.",
     "level": "Sätze"
   },
   {
     "de": "Ich suche immer Gelegenheit, Deutsch zu sprechen.",
-    "lv": "Всегда ищу возможность говорить по-немецки.",
+    "lv": "Я всегда ищу возможность поговорить по-немецки.",
     "level": "Sätze"
   },
   {
     "de": "Ist das Buch noch vorrätig?",
-    "lv": "Эта книга еще доступна?",
+    "lv": "Эта книга ещё есть в наличии?",
     "level": "Sätze"
   },
   {
@@ -3581,12 +3581,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Womit kann ich Ihnen helfen?",
-    "lv": "Как я могу помочь?",
+    "lv": "Чем я могу вам помочь?",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie ganz frische Eier?",
-    "lv": "У вас есть свежие яйца?",
+    "lv": "У вас есть совсем свежие яйца?",
     "level": "Sätze"
   },
   {
@@ -3601,7 +3601,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Können Sie mir ein halbes Kilo abwiegen?",
-    "lv": "Ты можешь весить полкило?",
+    "lv": "Не могли бы вы взвесить мне полкило?",
     "level": "Sätze"
   },
   {
@@ -3616,12 +3616,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wiegen Sie mir bitte zwei Kilo ab.",
-    "lv": "Пожалуйста, весите два килограмма.",
+    "lv": "Взвесьте мне, пожалуйста, два килограмма.",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie auch Karotten?",
-    "lv": "У тебя тоже есть морковь?",
+    "lv": "Морковь у вас тоже есть?",
     "level": "Sätze"
   },
   {
@@ -3631,22 +3631,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Geben Sie mir zwei Kilo Hackfleisch.",
-    "lv": "Дайте два килограмма фарша.",
+    "lv": "Дайте мне два килограмма фарша.",
     "level": "Sätze"
   },
   {
     "de": "Ein Laib Brot, bitte, aber nicht zu knusprig.",
-    "lv": "Одну буханку хлеба, пожалуйста, но не слишком твердую.",
+    "lv": "Буханку хлеба, пожалуйста, но не слишком хрустящую.",
     "level": "Sätze"
   },
   {
     "de": "Das Brot ist frisch gebacken.",
-    "lv": "Хлеб свежеиспеченный.",
+    "lv": "Хлеб свежеиспечённый.",
     "level": "Sätze"
   },
   {
     "de": "Was für Obst haben Sie heute?",
-    "lv": "Какие фрукты у тебя сегодня?",
+    "lv": "Какие фрукты у вас сегодня есть?",
     "level": "Sätze"
   },
   {
@@ -3666,7 +3666,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Können Sie mir alles nach Hause liefern?",
-    "lv": "Можете ли вы доставить все на дом?",
+    "lv": "Вы можете доставить мне всё на дом?",
     "level": "Sätze"
   },
   {
@@ -3681,27 +3681,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Danke, diesmal nicht.",
-    "lv": "Спасибо, не в этот раз.",
+    "lv": "Спасибо, на этот раз не нужно.",
     "level": "Sätze"
   },
   {
     "de": "Wie viel kostet dieser Teppich?",
-    "lv": "Сколько стоит этот коврик?",
+    "lv": "Сколько стоит этот ковёр?",
     "level": "Sätze"
   },
   {
     "de": "Können Sie die Möbel in meine Wohnung liefern?",
-    "lv": "Возможна ли доставка мебели в квартиру?",
+    "lv": "Вы можете доставить мебель ко мне в квартиру?",
     "level": "Sätze"
   },
   {
     "de": "Bitte an der Kasse zahlen.",
-    "lv": "Пожалуйста, оплатите в кассе.",
+    "lv": "Просьба оплачивать покупки на кассе.",
     "level": "Sätze"
   },
   {
     "de": "Bitte, machen Sie die Rechnung.",
-    "lv": "Пожалуйста, выставьте счет.",
+    "lv": "Выпишите, пожалуйста, счёт.",
     "level": "Sätze"
   },
   {
@@ -3711,17 +3711,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Dieser Stoff gefällt mir.",
-    "lv": "Я люблю эту ткань.",
+    "lv": "Мне нравится эта ткань.",
     "level": "Sätze"
   },
   {
     "de": "Schneiden Sie mir bitte drei Meter ab.",
-    "lv": "Пожалуйста, отрежьте три метра.",
+    "lv": "Отрежьте мне, пожалуйста, три метра.",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie auch andere Muster?",
-    "lv": "Есть ли у вас другие образцы?",
+    "lv": "У вас есть и другие образцы?",
     "level": "Sätze"
   },
   {
@@ -3731,7 +3731,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Geben Sie mir eine hellere.",
-    "lv": "Дайте ярче.",
+    "lv": "Дайте мне посветлее.",
     "level": "Sätze"
   },
   {
@@ -3741,22 +3741,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Welche Handschuhe wünschen Sie?",
-    "lv": "Какие перчатки ты хочешь?",
+    "lv": "Какие перчатки вы желаете?",
     "level": "Sätze"
   },
   {
     "de": "Die sind mir etwas zu eng.",
-    "lv": "Они мне немного тесноваты.",
+    "lv": "Они мне немного тесны.",
     "level": "Sätze"
   },
   {
     "de": "So, nun passen sie gut.",
-    "lv": "Итак, теперь все работает нормально.",
+    "lv": "Так, теперь они хорошо сидят.",
     "level": "Sätze"
   },
   {
     "de": "Kannst du mir einen guten Schneider empfehlen?",
-    "lv": "Можете ли вы порекомендовать хорошего портного?",
+    "lv": "Ты можешь посоветовать мне хорошего портного?",
     "level": "Sätze"
   },
   {
@@ -3771,37 +3771,37 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Der Anzug sitzt gut.",
-    "lv": "Костюм сидит хорошо.",
+    "lv": "Костюм хорошо сидит.",
     "level": "Sätze"
   },
   {
     "de": "Die Hose ist zu lang.",
-    "lv": "Штаны слишком длинные.",
+    "lv": "Брюки слишком длинные.",
     "level": "Sätze"
   },
   {
     "de": "Bitte reinigen und bügeln Sie ihn!",
-    "lv": "Пожалуйста, очистите и погладьте его!",
+    "lv": "Пожалуйста, почистите и погладьте его!",
     "level": "Sätze"
   },
   {
     "de": "Wann wird das Kleid fertig sein?",
-    "lv": "Когда платье будет готово?",
+    "lv": "Когда будет готово платье?",
     "level": "Sätze"
   },
   {
     "de": "Die Schuhe sind zu eng.",
-    "lv": "Обувь слишком тесная.",
+    "lv": "Туфли слишком тесные.",
     "level": "Sätze"
   },
   {
     "de": "Können Sie die Schuhe heute reparieren?",
-    "lv": "Ты можешь починить свою обувь сегодня?",
+    "lv": "Вы можете починить туфли сегодня?",
     "level": "Sätze"
   },
   {
     "de": "Wann kann ich die Schuhe abholen?",
-    "lv": "Когда я могу принести туфли?",
+    "lv": "Когда я могу забрать туфли?",
     "level": "Sätze"
   },
   {
@@ -3811,27 +3811,27 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Sie geht fünf Minuten vor.",
-    "lv": "Это на пять минут раньше.",
+    "lv": "Они спешат на пять минут.",
     "level": "Sätze"
   },
   {
     "de": "Bist du kurzsichtig oder weitsichtig?",
-    "lv": "Вы близорукий или дальнозоркий?",
+    "lv": "Ты близорукий или дальнозоркий?",
     "level": "Sätze"
   },
   {
     "de": "Ich möchte eine Brille kaufen.",
-    "lv": "Я хочу купить очки.",
+    "lv": "Я хотел бы купить очки.",
     "level": "Sätze"
   },
   {
     "de": "Können Sie meine Brille reparieren?",
-    "lv": "Ты можешь починить мои очки?",
+    "lv": "Вы можете починить мои очки?",
     "level": "Sätze"
   },
   {
     "de": "Das dauert nur eine Viertelstunde.",
-    "lv": "Это займет всего пятнадцать минут.",
+    "lv": "Это займёт всего четверть часа.",
     "level": "Sätze"
   },
   {
@@ -3846,12 +3846,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bitte packen Sie es ein und schicken Sie es mir nach Hause.",
-    "lv": "Пожалуйста, упакуйте и отправьте домой.",
+    "lv": "Пожалуйста, упакуйте это и пришлите мне домой.",
     "level": "Sätze"
   },
   {
     "de": "Wir haben feste Preise.",
-    "lv": "У нас фиксированные цены.",
+    "lv": "У нас твёрдые цены.",
     "level": "Sätze"
   },
   {
@@ -3861,12 +3861,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Setzen Sie sich, schauen Sie gerade in die Kamera und bewegen Sie sich nicht!",
-    "lv": "Сядьте, посмотрите прямо в камеру и не двигайтесь!",
+    "lv": "Садитесь, смотрите прямо в камеру и не двигайтесь!",
     "level": "Sätze"
   },
   {
     "de": "Wann kann ich das Probebild sehen?",
-    "lv": "Когда я смогу увидеть образец?",
+    "lv": "Когда я смогу посмотреть пробный снимок?",
     "level": "Sätze"
   },
   {
@@ -3876,17 +3876,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Die Aufnahme ist gelungen.",
-    "lv": "Фотография удалась.",
+    "lv": "Снимок удался.",
     "level": "Sätze"
   },
   {
     "de": "Die Fotos sind gut geworden.",
-    "lv": "Фотографии получились удачными.",
+    "lv": "Фотографии хорошо получились.",
     "level": "Sätze"
   },
   {
     "de": "Können Sie das Foto auch vergrößern?",
-    "lv": "А можно еще увеличить фото?",
+    "lv": "Вы можете также увеличить фотографию?",
     "level": "Sätze"
   },
   {
@@ -3901,37 +3901,37 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Zeigen Sie mir bitte Trauringe.",
-    "lv": "Покажите мне обручальные кольца, пожалуйста.",
+    "lv": "Покажите мне, пожалуйста, обручальные кольца.",
     "level": "Sätze"
   },
   {
     "de": "Der Ring ist mir etwas zu weit.",
-    "lv": "Кольцо мне великовато.",
+    "lv": "Кольцо мне немного велико.",
     "level": "Sätze"
   },
   {
     "de": "Ich kann ihn enger machen.",
-    "lv": "Я могу сузить это.",
+    "lv": "Я могу его уменьшить.",
     "level": "Sätze"
   },
   {
     "de": "Dieser Ring passt mir.",
-    "lv": "Это кольцо мне подходит.",
+    "lv": "Это кольцо мне впору.",
     "level": "Sätze"
   },
   {
     "de": "Zeigen Sie mir schöne Geschenkideen.",
-    "lv": "Продемонстрируйте красивые идеи подарков.",
+    "lv": "Покажите мне что-нибудь красивое для подарка.",
     "level": "Sätze"
   },
   {
     "de": "Wie gefallen dir diese Ohrringe?",
-    "lv": "Как вам эти серьги?",
+    "lv": "Как тебе эти серьги?",
     "level": "Sätze"
   },
   {
     "de": "Diese Brosche ist wirklich schön.",
-    "lv": "Эта брошь очень красивая.",
+    "lv": "Эта брошь действительно красивая.",
     "level": "Sätze"
   },
   {
@@ -3946,37 +3946,37 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Dieses Armband kann ich Ihnen besonders empfehlen.",
-    "lv": "Особенно могу порекомендовать этот браслет.",
+    "lv": "Этот браслет я могу вам особенно порекомендовать.",
     "level": "Sätze"
   },
   {
     "de": "Es ist besonders schön gearbeitet.",
-    "lv": "Он сделан чрезвычайно тонко.",
+    "lv": "Он выполнен особенно искусно.",
     "level": "Sätze"
   },
   {
     "de": "Der Preis ist nicht hoch.",
-    "lv": "Цена не высокая.",
+    "lv": "Цена невысокая.",
     "level": "Sätze"
   },
   {
     "de": "Bekomme ich die Schachtel gratis?",
-    "lv": "Я получил коробку бесплатно?",
+    "lv": "Коробку я получу бесплатно?",
     "level": "Sätze"
   },
   {
     "de": "Alle Schmuckstücke sind gestempelt.",
-    "lv": "Все украшения штампованы.",
+    "lv": "На всех украшениях стоит проба.",
     "level": "Sätze"
   },
   {
     "de": "Falls es meiner Frau nicht gefällt, kann ich es umtauschen?",
-    "lv": "Если жене не понравится, могу ли я его обменять?",
+    "lv": "Если моей жене не понравится, я смогу это обменять?",
     "level": "Sätze"
   },
   {
     "de": "Natürlich, jederzeit.",
-    "lv": "В любое время, конечно.",
+    "lv": "Конечно, в любое время.",
     "level": "Sätze"
   }
 ];
