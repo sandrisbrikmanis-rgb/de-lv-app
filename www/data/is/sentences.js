@@ -410,7 +410,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Dieses Kleid ist akademisch gekleidet.",
+    "de": "Dieses Kleid ist stilvoll und konservativ.",
     "lv": "Þessi kjóll er smekklega íhaldssamur.",
     "level": "Sätze"
   },
@@ -1060,7 +1060,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Bezüglich auf etwas.",
+    "de": "In Bezug auf etwas.",
     "lv": "Með tilliti til einhvers.",
     "level": "Sätze"
   },
@@ -1935,7 +1935,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Er hat Vorliebe für Literatur.",
+    "de": "Er hat eine Vorliebe für Literatur.",
     "lv": "Hann hefur dálæti á bókmenntum.",
     "level": "Sätze"
   },
@@ -3255,7 +3255,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Erinnere mich morgen daran zu schreiben!",
+    "de": "Erinnere mich morgen daran, zu schreiben!",
     "lv": "Minntu mig á það á morgun að skrifa!",
     "level": "Sätze"
   },

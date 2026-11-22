@@ -410,7 +410,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Dieses Kleid ist akademisch gekleidet.",
+    "de": "Dieses Kleid ist stilvoll und konservativ.",
     "lv": "Tyto šaty jsou stylově konzervativní.",
     "level": "Sätze"
   },
@@ -1060,7 +1060,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Bezüglich auf etwas.",
+    "de": "In Bezug auf etwas.",
     "lv": "Ohledně něčeho.",
     "level": "Sätze"
   },
@@ -1935,7 +1935,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Er hat Vorliebe für Literatur.",
+    "de": "Er hat eine Vorliebe für Literatur.",
     "lv": "Má zálibu v literatuře.",
     "level": "Sätze"
   },
@@ -3255,7 +3255,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Erinnere mich morgen daran zu schreiben!",
+    "de": "Erinnere mich morgen daran, zu schreiben!",
     "lv": "Zítra mi připomeň, abych napsal!",
     "level": "Sätze"
   },

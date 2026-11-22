@@ -410,7 +410,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Dieses Kleid ist akademisch gekleidet.",
+    "de": "Dieses Kleid ist stilvoll und konservativ.",
     "lv": "Šī kleita ir stilīgi konservatīva.",
     "level": "Sätze"
   },
@@ -1060,7 +1060,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Bezüglich auf etwas.",
+    "de": "In Bezug auf etwas.",
     "lv": "Attiecībā uz kaut ko.",
     "level": "Sätze"
   },
@@ -1786,7 +1786,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "und zwar",
-    "lv": "proti",
+    "lv": "un proti",
     "level": "Sätze"
   },
   {
@@ -1935,7 +1935,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Er hat Vorliebe für Literatur.",
+    "de": "Er hat eine Vorliebe für Literatur.",
     "lv": "Viņam ļoti patīk literatūra.",
     "level": "Sätze"
   },
@@ -2376,7 +2376,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Und zwar.",
-    "lv": "Proti.",
+    "lv": "Un proti.",
     "level": "Sätze"
   },
   {
@@ -3255,7 +3255,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Erinnere mich morgen daran zu schreiben!",
+    "de": "Erinnere mich morgen daran, zu schreiben!",
     "lv": "Atgādini man rīt uzrakstīt!",
     "level": "Sätze"
   },
@@ -3366,7 +3366,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Hast du alles eingepackt?",
-    "lv": "Vai esi visu salicis kastēs?",
+    "lv": "Vai esi visu sapakojis?",
     "level": "Sätze"
   },
   {

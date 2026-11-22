@@ -181,7 +181,7 @@ const DIALOGUE_ID_MAP = {
   "diag_180": { "de": "Ich muss ihm gleich schreiben.", "lv": "Man viņam tūlīt jāraksta." },
   "diag_181": { "de": "Wo ist der nächste Briefkasten?", "lv": "Kur ir tuvākā pastkaste?" },
   "diag_182": { "de": "Wo ist die Post?", "lv": "Kur ir pasta nodaļa?" },
-  "diag_183": { "de": "Erinnere mich morgen daran zu schreiben!", "lv": "Atgādini man rīt parakstīt!" },
+  "diag_183": { "de": "Erinnere mich morgen daran, zu schreiben!", "lv": "Atgādini man rīt parakstīt!" },
   "diag_184": { "de": "Werfen Sie bitte diesen Brief in den Briefkasten.", "lv": "Lūdzu, iemet šo vēstuli pastkastē!" },
   "diag_185": { "de": "Hallo, hier spricht Emma.", "lv": "Sveiki, runā Emma." },
   "diag_186": { "de": "Kann ich dich später anrufen?", "lv": "Vai drīkstu tev vēlāk piezvanīt?" },

@@ -728,7 +728,7 @@ const DIALOGUE_ID_MAP = {
     "lv": "Πού είναι το ταχυδρομείο • "
   },
   "diag_183": {
-    "de": "Erinnere mich morgen daran zu schreiben!",
+    "de": "Erinnere mich morgen daran, zu schreiben!",
     "lv": "Θύμισέ μου να γράψω αύριο!"
   },
   "diag_184": {

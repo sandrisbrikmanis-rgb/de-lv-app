@@ -728,7 +728,7 @@ const DIALOGUE_ID_MAP = {
     "lv": "Kus on postkontor?"
   },
   "diag_183": {
-    "de": "Erinnere mich morgen daran zu schreiben!",
+    "de": "Erinnere mich morgen daran, zu schreiben!",
     "lv": "Tuleta mulle homme meelde kirjutada!"
   },
   "diag_184": {
