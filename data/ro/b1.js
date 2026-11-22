@@ -39950,13 +39950,6 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "Krautwerk",
-    "de_article": "das",
-    "de_plural": "die Krautwerke",
-    "lv": "ierburi aromatice • zarzavat",
-    "level": "B1"
-  },
-  {
     "de": "Krawatte",
     "de_article": "die",
     "de_plural": "die Krawatten",

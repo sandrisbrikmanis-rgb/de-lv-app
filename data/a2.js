@@ -842,7 +842,7 @@ const A2_WORDS = [
   },
   {
     "de": "holen",
-    "lv": "aiziet pakaļ • atnest",
+    "lv": "atnest • aiziet pakaļ",
     "level": "A2",
     "study": {
       "id": "a2-holen",
@@ -2201,7 +2201,7 @@ const A2_WORDS = [
     "de": "Änderung",
     "de_article": "die",
     "de_plural": "die Änderungen",
-    "lv": "izmaiņas",
+    "lv": "izmaiņa • pārmaiņa",
     "level": "A2"
   },
   {
@@ -3371,7 +3371,7 @@ const A2_WORDS = [
   },
   {
     "de": "anstecken",
-    "lv": "piespraust",
+    "lv": "piespraust • aizdedzināt • inficēt",
     "level": "A2",
     "study": {
       "id": "a2-anstecken",
@@ -3545,7 +3545,7 @@ const A2_WORDS = [
   },
   {
     "de": "anstellen",
-    "lv": "ieslēgt",
+    "lv": "ieslēgt • pieņemt darbā",
     "level": "A2",
     "study": {
       "id": "a2-anstellen",
@@ -4473,7 +4473,7 @@ const A2_WORDS = [
   {
     "de": "Aschenputtel",
     "de_article": "das",
-    "lv": "pelnrušķīte",
+    "lv": "Pelnrušķīte",
     "level": "A2",
     "study": {
       "id": "a2-aschenputtel",
@@ -4733,7 +4733,7 @@ const A2_WORDS = [
   },
   {
     "de": "aufdrängen",
-    "lv": "uzspiesties",
+    "lv": "uzspiest",
     "level": "A2"
   },
   {
@@ -4772,12 +4772,12 @@ const A2_WORDS = [
   },
   {
     "de": "aufgeben",
-    "lv": "padoties",
+    "lv": "padoties • atteikties • nodot",
     "level": "A2"
   },
   {
     "de": "aufgehen",
-    "lv": "atvērties",
+    "lv": "atvērties • uzlēkt",
     "level": "A2"
   },
   {
@@ -6054,7 +6054,7 @@ const A2_WORDS = [
   },
   {
     "de": "auftragen",
-    "lv": "uzdot",
+    "lv": "uzdot • uzklāt • pasniegt",
     "level": "A2",
     "study": {
       "id": "a2-auftragen",
@@ -6416,7 +6416,7 @@ const A2_WORDS = [
   },
   {
     "de": "aufwenden",
-    "lv": "veltīt",
+    "lv": "izlietot • iztērēt",
     "level": "A2",
     "study": {
       "id": "a2-aufwenden",
@@ -6826,7 +6826,7 @@ const A2_WORDS = [
   },
   {
     "de": "ausbessern",
-    "lv": "izlabot",
+    "lv": "izlabot • salabot",
     "level": "A2"
   },
   {
@@ -7455,7 +7455,7 @@ const A2_WORDS = [
     "de": "Autobahn",
     "de_article": "die",
     "de_plural": "die Autobahnen",
-    "lv": "autoceļš",
+    "lv": "automaģistrāle",
     "level": "A2"
   },
   {
@@ -7502,7 +7502,7 @@ const A2_WORDS = [
     "de": "Autounfall",
     "de_article": "der",
     "de_plural": "die Autounfälle",
-    "lv": "satiksmes negadījums • avārija",
+    "lv": "autoavārija",
     "level": "A2"
   },
   {
@@ -7569,7 +7569,7 @@ const A2_WORDS = [
     "de": "Bahn",
     "de_article": "die",
     "de_plural": "die Bahnen",
-    "lv": "dzelzceļš",
+    "lv": "dzelzceļš • trase",
     "level": "A2",
     "study": {
       "id": "a2-bahn",
@@ -7800,7 +7800,7 @@ const A2_WORDS = [
     "de": "Band",
     "de_article": "das",
     "de_plural": "die Bänder",
-    "lv": "lente • saite",
+    "lv": "lente • aukla",
     "level": "A2",
     "study": {
       "id": "a2-band",
@@ -9869,7 +9869,7 @@ const A2_WORDS = [
   },
   {
     "de": "besitzen",
-    "lv": "piederēt",
+    "lv": "būt īpašniekam • piederēt kādam",
     "level": "A2"
   },
   {
@@ -11000,7 +11000,7 @@ const A2_WORDS = [
     "de": "Boden",
     "de_article": "der",
     "de_plural": "die Böden",
-    "lv": "grīda",
+    "lv": "grīda • zeme • augsne",
     "level": "A2",
     "study": {
       "id": "a2-boden",
@@ -12216,7 +12216,7 @@ const A2_WORDS = [
   },
   {
     "de": "dabei",
-    "lv": "klāt",
+    "lv": "klāt • turklāt",
     "level": "A2",
     "study": {
       "id": "a2-dabei",
@@ -17816,7 +17816,7 @@ const A2_WORDS = [
     "de": "Fach",
     "de_article": "das",
     "de_plural": "die Fächer",
-    "lv": "nodalījums",
+    "lv": "nodalījums • mācību priekšmets",
     "level": "A2",
     "study": {
       "id": "a2-fach",
@@ -19764,7 +19764,7 @@ const A2_WORDS = [
   },
   {
     "de": "gar",
-    "lv": "pavisam • visai (nolieguma teikumos)",
+    "lv": "pavisam (noliegumā) • gatavs",
     "level": "A2",
     "study": {
       "id": "a2-gar",
@@ -20852,7 +20852,7 @@ const A2_WORDS = [
     "de": "Gericht",
     "de_article": "das",
     "de_plural": "die Gerichte",
-    "lv": "ēdiens • maltīte",
+    "lv": "ēdiens • tiesa",
     "level": "A2"
   },
   {
@@ -21836,7 +21836,7 @@ const A2_WORDS = [
     "de": "Grundschule",
     "de_article": "die",
     "de_plural": "die Grundschulen",
-    "lv": "pamatskola",
+    "lv": "sākumskola",
     "level": "A2"
   },
   {
@@ -22474,7 +22474,7 @@ const A2_WORDS = [
     "de": "Heim",
     "de_article": "das",
     "de_plural": "die Heime",
-    "lv": "mājoklis",
+    "lv": "mājoklis • patversme",
     "level": "A2"
   },
   {
@@ -22508,7 +22508,7 @@ const A2_WORDS = [
     "de": "Herd",
     "de_article": "der",
     "de_plural": "die Herde",
-    "lv": "pavards",
+    "lv": "plīts • pavards",
     "level": "A2"
   },
   {
@@ -22992,7 +22992,7 @@ const A2_WORDS = [
   },
   {
     "de": "indem",
-    "lv": "darot",
+    "lv": "ar to, ka • kamēr",
     "level": "A2",
     "study": {
       "id": "a2-indem",
@@ -23788,7 +23788,7 @@ const A2_WORDS = [
     "de": "Kaffeemaschine",
     "de_article": "die",
     "de_plural": "die Kaffeemaschinen",
-    "lv": "kafijas automāts",
+    "lv": "kafijas aparāts",
     "level": "A2"
   },
   {
@@ -24131,7 +24131,7 @@ const A2_WORDS = [
     "de": "Käsekuchen",
     "de_article": "der",
     "de_plural": "die Käsekuchen",
-    "lv": "biezpienmaizīte",
+    "lv": "biezpiena kūka • siera kūka",
     "level": "A2"
   },
   {
@@ -25578,7 +25578,7 @@ const A2_WORDS = [
     "de": "Keyboard",
     "de_article": "das",
     "de_plural": "die Keyboards",
-    "lv": "tastatūra",
+    "lv": "sintezators • tastatūra",
     "level": "A2",
     "study": {
       "id": "a2-keyboard",
@@ -28885,7 +28885,7 @@ const A2_WORDS = [
     "de": "Kugel",
     "de_article": "die",
     "de_plural": "die Kugeln",
-    "lv": "lode",
+    "lv": "lode • bumba • sfēra",
     "level": "A2"
   },
   {
@@ -30769,7 +30769,7 @@ const A2_WORDS = [
     "de": "Lippenstift",
     "de_article": "der",
     "de_plural": "die Lippenstifte",
-    "lv": "lūpu zīmulis",
+    "lv": "lūpu krāsa",
     "level": "A2"
   },
   {
@@ -30802,7 +30802,7 @@ const A2_WORDS = [
     "de": "Lokal",
     "de_article": "das",
     "de_plural": "die Lokale",
-    "lv": "restorāns",
+    "lv": "restorāns • krogs • kafejnīca",
     "level": "A2"
   },
   {
@@ -31071,7 +31071,7 @@ const A2_WORDS = [
     "de": "Maler",
     "de_article": "der",
     "de_plural": "die Maler",
-    "lv": "gleznotājs",
+    "lv": "gleznotājs • krāsotājs",
     "level": "A2"
   },
   {
@@ -32627,7 +32627,7 @@ const A2_WORDS = [
     "de": "Neffe",
     "de_article": "der",
     "de_plural": "die Neffen",
-    "lv": "brāļadēls",
+    "lv": "brāļadēls • māsasdēls",
     "level": "A2"
   },
   {
@@ -32676,7 +32676,7 @@ const A2_WORDS = [
     "de": "Nichte",
     "de_article": "die",
     "de_plural": "die Nichten",
-    "lv": "brāļameita",
+    "lv": "brāļameita • māsasmeita",
     "level": "A2"
   },
   {
@@ -35514,7 +35514,7 @@ const A2_WORDS = [
   },
   {
     "de": "regelmäßig",
-    "lv": "regulāri",
+    "lv": "regulārs • regulāri",
     "level": "A2"
   },
   {
@@ -36008,7 +36008,7 @@ const A2_WORDS = [
     "de": "Rock",
     "de_article": "der",
     "de_plural": "die Röcke",
-    "lv": "svārki • žakete",
+    "lv": "svārki",
     "level": "A2"
   },
   {
@@ -36281,7 +36281,7 @@ const A2_WORDS = [
     "de": "Saison",
     "de_article": "die",
     "de_plural": "die Saisons",
-    "lv": "daž. noz. sezona",
+    "lv": "sezona",
     "level": "A2"
   },
   {
@@ -37250,7 +37250,7 @@ const A2_WORDS = [
     "de": "Schild",
     "de_article": "das",
     "de_plural": "die Schilder",
-    "lv": "izkārtne • plāksnīte • etiķete uz pudelēm • burtnīcām u. tml",
+    "lv": "izkārtne • plāksnīte • etiķete",
     "level": "A2"
   },
   {
@@ -37914,7 +37914,7 @@ const A2_WORDS = [
     "de": "Schuld",
     "de_article": "die",
     "de_plural": "die Schulden",
-    "lv": "vaina • parāds • atbildība",
+    "lv": "vaina",
     "level": "A2",
     "study": {
       "id": "a2-schuld",
@@ -38101,7 +38101,7 @@ const A2_WORDS = [
   },
   {
     "de": "schwanger",
-    "lv": "grūtniece",
+    "lv": "grūtniecības stāvoklī",
     "level": "A2"
   },
   {
@@ -38347,7 +38347,7 @@ const A2_WORDS = [
   },
   {
     "de": "selten",
-    "lv": "rets",
+    "lv": "rets • reti",
     "level": "A2"
   },
   {
@@ -39646,7 +39646,7 @@ const A2_WORDS = [
   },
   {
     "de": "spannend",
-    "lv": "satraucošs",
+    "lv": "aizraujošs",
     "level": "A2"
   },
   {
@@ -40951,7 +40951,7 @@ const A2_WORDS = [
     "de": "Strumpf",
     "de_article": "der",
     "de_plural": "die Strümpfe",
-    "lv": "zeķe",
+    "lv": "zeķe (garā)",
     "level": "A2"
   },
   {
@@ -41191,7 +41191,7 @@ const A2_WORDS = [
     "de": "Tanne",
     "de_article": "die",
     "de_plural": "die Tannen",
-    "lv": "egle",
+    "lv": "baltegle • egle",
     "level": "A2"
   },
   {
@@ -42037,7 +42037,7 @@ const A2_WORDS = [
   },
   {
     "de": "total",
-    "lv": "pilnīgi",
+    "lv": "pilnīgs • pilnīgi",
     "level": "A2"
   },
   {
@@ -46410,7 +46410,7 @@ const A2_WORDS = [
   },
   {
     "de": "willkommen",
-    "lv": "laipni gaidīts",
+    "lv": "laipni gaidīts • esi sveicināts",
     "level": "A2"
   },
   {

@@ -1127,7 +1127,7 @@ const A1_WORDS = [
   },
   {
     "de": "achten",
-    "lv": "ievērot",
+    "lv": "cienīt • ievērot",
     "level": "A1"
   },
   {
@@ -1383,7 +1383,7 @@ const A1_WORDS = [
   },
   {
     "de": "anhalten",
-    "lv": "apstāties",
+    "lv": "apturēt • apstāties",
     "level": "A1"
   },
   {
@@ -2380,7 +2380,7 @@ const A1_WORDS = [
     "de": "Bad",
     "de_article": "das",
     "de_plural": "die Bäder",
-    "lv": "vannas istaba",
+    "lv": "vanna • vannas istaba",
     "level": "A1"
   },
   {
@@ -2406,7 +2406,7 @@ const A1_WORDS = [
   },
   {
     "de": "baden",
-    "lv": "peldēties",
+    "lv": "mazgāties (vannā) • peldēties",
     "level": "A1",
     "study": {
       "id": "a1-baden",
@@ -5973,7 +5973,7 @@ const A1_WORDS = [
   },
   {
     "de": "ein",
-    "lv": "nenoteiktais artikuls",
+    "lv": "nenoteiktais artikuls • viens",
     "level": "A1",
     "study": {
       "id": "a1-ein",
@@ -6877,7 +6877,7 @@ const A1_WORDS = [
   },
   {
     "de": "etwas",
-    "lv": "kaut kas",
+    "lv": "kaut kas • mazliet",
     "level": "A1",
     "study": {
       "id": "a1-etwas",
@@ -7869,7 +7869,7 @@ const A1_WORDS = [
     "de": "Frau",
     "de_article": "die",
     "de_plural": "die Frauen",
-    "lv": "sieviete",
+    "lv": "sieviete • sieva",
     "level": "A1",
     "study": {
       "id": "a1-frau",
@@ -8168,7 +8168,7 @@ const A1_WORDS = [
   },
   {
     "de": "für",
-    "lv": "priekš",
+    "lv": "par • priekš",
     "level": "A1",
     "study": {
       "id": "a1-fuer",
@@ -8376,7 +8376,7 @@ const A1_WORDS = [
     "de": "Fuß",
     "de_article": "der",
     "de_plural": "die Füße",
-    "lv": "pēda",
+    "lv": "pēda • kāja",
     "level": "A1"
   },
   {
@@ -8583,7 +8583,7 @@ const A1_WORDS = [
   },
   {
     "de": "ganz",
-    "lv": "vesels",
+    "lv": "vesels • pilnīgi • diezgan",
     "level": "A1",
     "study": {
       "id": "a1-ganz-study",
@@ -9728,7 +9728,7 @@ const A1_WORDS = [
   },
   {
     "de": "gleich",
-    "lv": "tūlīt",
+    "lv": "tūlīt • vienāds",
     "level": "A1",
     "study": {
       "id": "a1-gleich",
@@ -10649,7 +10649,7 @@ const A1_WORDS = [
   },
   {
     "de": "haben",
-    "lv": "man ir",
+    "lv": "būt (izsaka piederību)",
     "level": "A1",
     "study": {
       "id": "a1-haben",
@@ -10875,7 +10875,7 @@ const A1_WORDS = [
   },
   {
     "de": "halten",
-    "lv": "turēt",
+    "lv": "turēt • noturēt • saturēt",
     "level": "A1",
     "study": {
       "id": "a1-halten",
@@ -11086,7 +11086,7 @@ const A1_WORDS = [
     "de": "Hand",
     "de_article": "die",
     "de_plural": "die Hände",
-    "lv": "plauksta",
+    "lv": "roka • plauksta",
     "level": "A1",
     "study": {
       "id": "a1-hand-study",
@@ -11350,7 +11350,7 @@ const A1_WORDS = [
   },
   {
     "de": "heißen",
-    "lv": "saukties",
+    "lv": "saukties • nozīmēt",
     "level": "A1",
     "study": {
       "id": "a1-heißen",
@@ -12240,7 +12240,7 @@ const A1_WORDS = [
   },
   {
     "de": "ihr",
-    "lv": "jūs • viņai",
+    "lv": "jūs",
     "level": "A1",
     "study": {
       "id": "a1-ihr",
@@ -14499,7 +14499,7 @@ const A1_WORDS = [
     "de": "Hut",
     "de_article": "der",
     "de_plural": "die Hüte",
-    "lv": "cepure",
+    "lv": "cepure (ar malām) • platmale",
     "level": "A1"
   },
   {
@@ -14615,7 +14615,7 @@ const A1_WORDS = [
     "de": "Kuchen",
     "de_article": "der",
     "de_plural": "die Kuchen",
-    "lv": "kūka",
+    "lv": "kūka • pīrāgs",
     "level": "A1"
   },
   {
@@ -17708,7 +17708,7 @@ const A1_WORDS = [
     "de": "Marmelade",
     "de_article": "die",
     "de_plural": "die Marmeladen",
-    "lv": "ievārījums",
+    "lv": "ievārījums • džems",
     "level": "A1"
   },
   {
@@ -18003,7 +18003,7 @@ const A1_WORDS = [
     "de": "Mittag",
     "de_article": "der",
     "de_plural": "die Mittage",
-    "lv": "pusdiena",
+    "lv": "pusdienlaiks",
     "level": "A1"
   },
   {
@@ -18022,7 +18022,7 @@ const A1_WORDS = [
   },
   {
     "de": "mögen",
-    "lv": "patikt",
+    "lv": "vēlēties • gribēt",
     "level": "A1",
     "study": {
       "id": "a1-mögen",
@@ -23646,7 +23646,7 @@ const A1_WORDS = [
   },
   {
     "de": "sie",
-    "lv": "viņi / viņas",
+    "lv": "viņa • viņi / viņas",
     "level": "A1",
     "study": {
       "id": "a1-sie-study",
