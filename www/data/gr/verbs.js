@@ -603,11 +603,11 @@ const VERB_ENTRIES = [
       "lv": "αυτός γνωρίζει"
     },
     "imperfektIndikativ": {
-      "de": "kannte",
+      "de": "er kannte",
       "lv": "αυτός γνώρισε"
     },
     "imperfektKonjunktiv": {
-      "de": "kannte",
+      "de": "er kennte",
       "lv": "αυτός θα γνώριζε"
     },
     "partizipVergangenheit": {
@@ -691,11 +691,11 @@ const VERB_ENTRIES = [
       "lv": "αυτός ξεθωριάζει"
     },
     "imperfektIndikativ": {
-      "de": "blich",
+      "de": "er bleichte / er blich",
       "lv": "αυτός ξεθώριασε"
     },
     "imperfektKonjunktiv": {
-      "de": "blich",
+      "de": "er bleichte / er bliche",
       "lv": "αυτός θα ξεθώριαζε"
     },
     "partizipVergangenheit": {
@@ -757,11 +757,11 @@ const VERB_ENTRIES = [
       "lv": "αυτός καίγεται"
     },
     "imperfektIndikativ": {
-      "de": "brannte",
+      "de": "er brannte",
       "lv": "αυτός κάηκε"
     },
     "imperfektKonjunktiv": {
-      "de": "brannte",
+      "de": "er brennte",
       "lv": "αυτός θα καιγόταν"
     },
     "partizipVergangenheit": {
@@ -823,11 +823,11 @@ const VERB_ENTRIES = [
       "lv": "αυτός προσλαμβάνει / συμφωνεί"
     },
     "imperfektIndikativ": {
-      "de": "dingte",
+      "de": "er dingte",
       "lv": "αυτός προσέλαβε / συμφώνησε"
     },
     "imperfektKonjunktiv": {
-      "de": "dingte",
+      "de": "er dingte",
       "lv": "αυτός θα προσλάμβανε / θα συμφωνούσε"
     },
     "partizipVergangenheit": {
@@ -889,11 +889,11 @@ const VERB_ENTRIES = [
       "lv": "αυτό φαίνεται"
     },
     "imperfektIndikativ": {
-      "de": "deuchte",
+      "de": "es dünkte / es deuchte",
       "lv": "αυτό φάνηκε"
     },
     "imperfektKonjunktiv": {
-      "de": "deuchte",
+      "de": "es dünkte / es deuchte",
       "lv": "αυτό θα φαινόταν"
     },
     "partizipVergangenheit": {
@@ -911,11 +911,11 @@ const VERB_ENTRIES = [
       "lv": "αυτός μπορεί"
     },
     "imperfektIndikativ": {
-      "de": "durfte",
+      "de": "er durfte",
       "lv": "αυτός μπόρεσε"
     },
     "imperfektKonjunktiv": {
-      "de": "durfte",
+      "de": "er dürfte",
       "lv": "αυτός θα μπορούσε"
     },
     "partizipVergangenheit": {
@@ -1021,7 +1021,7 @@ const VERB_ENTRIES = [
       "lv": "αυτός τρώει"
     },
     "imperfektIndikativ": {
-      "de": "er ass",
+      "de": "er aß",
       "lv": "αυτός έφαγε"
     },
     "imperfektKonjunktiv": {
@@ -1197,7 +1197,7 @@ const VERB_ENTRIES = [
       "lv": "αυτός τρώει / καταβροχθίζει"
     },
     "imperfektIndikativ": {
-      "de": "er frass",
+      "de": "er fraß",
       "lv": "αυτός έφαγε / καταβρόχθισε"
     },
     "imperfektKonjunktiv": {
@@ -1329,11 +1329,11 @@ const VERB_ENTRIES = [
       "lv": "αυτός έχει"
     },
     "imperfektIndikativ": {
-      "de": "hatte",
+      "de": "er hatte",
       "lv": "αυτός είχε"
     },
     "imperfektKonjunktiv": {
-      "de": "hatte",
+      "de": "er hätte",
       "lv": "αυτός θα είχε"
     },
     "partizipVergangenheit": {
@@ -1439,11 +1439,11 @@ const VERB_ENTRIES = [
       "lv": "αυτός μπορεί"
     },
     "imperfektIndikativ": {
-      "de": "konnte",
+      "de": "er konnte",
       "lv": "αυτός μπόρεσε"
     },
     "imperfektKonjunktiv": {
-      "de": "konnte",
+      "de": "er könnte",
       "lv": "αυτός θα μπορούσε"
     },
     "partizipVergangenheit": {
@@ -1725,7 +1725,7 @@ const VERB_ENTRIES = [
       "lv": "αυτός μετρά"
     },
     "imperfektIndikativ": {
-      "de": "er mass",
+      "de": "er maß",
       "lv": "αυτός μέτρησε"
     },
     "imperfektKonjunktiv": {
@@ -1747,11 +1747,11 @@ const VERB_ENTRIES = [
       "lv": "αυτό αποτυχαίνει"
     },
     "imperfektIndikativ": {
-      "de": "misslang",
+      "de": "es misslang",
       "lv": "αυτό απέτυχε"
     },
     "imperfektKonjunktiv": {
-      "de": "misslang",
+      "de": "es misslänge",
       "lv": "αυτό θα αποτύχαινε"
     },
     "partizipVergangenheit": {
@@ -1769,11 +1769,11 @@ const VERB_ENTRIES = [
       "lv": "αυτός συμπαθεί"
     },
     "imperfektIndikativ": {
-      "de": "mochte",
+      "de": "er mochte",
       "lv": "αυτός συμπάθησε"
     },
     "imperfektKonjunktiv": {
-      "de": "mochte",
+      "de": "er möchte",
       "lv": "αυτός θα συμπαθούσε"
     },
     "partizipVergangenheit": {
@@ -1791,11 +1791,11 @@ const VERB_ENTRIES = [
       "lv": "πρέπει"
     },
     "imperfektIndikativ": {
-      "de": "musste",
+      "de": "er musste",
       "lv": "έπρεπε"
     },
     "imperfektKonjunktiv": {
-      "de": "musste",
+      "de": "er müsste",
       "lv": "θα έπρεπε"
     },
     "partizipVergangenheit": {
@@ -1879,11 +1879,11 @@ const VERB_ENTRIES = [
       "lv": "αυτός φροντίζει"
     },
     "imperfektIndikativ": {
-      "de": "pflegte / pflog",
+      "de": "er pflegte / er pflog",
       "lv": "αυτός φρόντισε"
     },
     "imperfektKonjunktiv": {
-      "de": "pflegte / pflog",
+      "de": "er pflegte / er pflöge",
       "lv": "αυτός θα φρόντιζε"
     },
     "partizipVergangenheit": {
@@ -2231,11 +2231,11 @@ const VERB_ENTRIES = [
       "lv": "αυτό αντηχεί"
     },
     "imperfektIndikativ": {
-      "de": "schallte / scholl",
+      "de": "es schallte / es scholl",
       "lv": "αυτό αντήχησε"
     },
     "imperfektKonjunktiv": {
-      "de": "schallte / scholl",
+      "de": "es schallte / es schölle",
       "lv": "αυτό θα αντηχούσε"
     },
     "partizipVergangenheit": {
@@ -2319,11 +2319,11 @@ const VERB_ENTRIES = [
       "lv": "αυτός κουρεύει"
     },
     "imperfektIndikativ": {
-      "de": "schor / scherte",
+      "de": "er schor / er scherte",
       "lv": "αυτός κούρεψε"
     },
     "imperfektKonjunktiv": {
-      "de": "schor / scherte",
+      "de": "er schöre / er scherte",
       "lv": "αυτός θα κούρευε"
     },
     "partizipVergangenheit": {
@@ -2385,11 +2385,11 @@ const VERB_ENTRIES = [
       "lv": "αυτός βασανίζει"
     },
     "imperfektIndikativ": {
-      "de": "schindete",
+      "de": "er schindete",
       "lv": "αυτός βασάνισε"
     },
     "imperfektKonjunktiv": {
-      "de": "schindete",
+      "de": "er schindete",
       "lv": "αυτός θα βασάνιζε"
     },
     "partizipVergangenheit": {
@@ -2583,11 +2583,11 @@ const VERB_ENTRIES = [
       "lv": "αυτός ρουθουνίζει"
     },
     "imperfektIndikativ": {
-      "de": "schnaubte / schnob",
+      "de": "er schnaubte / er schnob",
       "lv": "αυτός ρουθούνισε"
     },
     "imperfektKonjunktiv": {
-      "de": "schnaubte / schnob",
+      "de": "er schnaubte / er schnöbe",
       "lv": "αυτός θα ρουθούνιζε"
     },
     "partizipVergangenheit": {
@@ -2847,11 +2847,11 @@ const VERB_ENTRIES = [
       "lv": "αυτός είναι"
     },
     "imperfektIndikativ": {
-      "de": "war",
+      "de": "er war",
       "lv": "αυτός ήταν"
     },
     "imperfektKonjunktiv": {
-      "de": "war",
+      "de": "er wäre",
       "lv": "αυτός θα ήταν"
     },
     "partizipVergangenheit": {
@@ -2891,11 +2891,11 @@ const VERB_ENTRIES = [
       "lv": "αυτός βράζει"
     },
     "imperfektIndikativ": {
-      "de": "sott / siedete",
+      "de": "er sott / er siedete",
       "lv": "αυτός έβρασε"
     },
     "imperfektKonjunktiv": {
-      "de": "sott / siedete",
+      "de": "er sötte / er siedete",
       "lv": "αυτός θα έβραζε"
     },
     "partizipVergangenheit": {
@@ -2979,7 +2979,7 @@ const VERB_ENTRIES = [
       "lv": "αυτός κάθεται"
     },
     "imperfektIndikativ": {
-      "de": "er sass",
+      "de": "er saß",
       "lv": "αυτός κάθισε"
     },
     "imperfektKonjunktiv": {
@@ -3001,11 +3001,11 @@ const VERB_ENTRIES = [
       "lv": "αυτός οφείλει"
     },
     "imperfektIndikativ": {
-      "de": "sollte",
+      "de": "er sollte",
       "lv": "αυτός όφειλε"
     },
     "imperfektKonjunktiv": {
-      "de": "sollte",
+      "de": "er sollte",
       "lv": "αυτός θα όφειλε"
     },
     "partizipVergangenheit": {
@@ -3067,11 +3067,11 @@ const VERB_ENTRIES = [
       "lv": "αυτός ενώνει"
     },
     "imperfektIndikativ": {
-      "de": "spliss",
+      "de": "er spliss",
       "lv": "αυτός ένωσε"
     },
     "imperfektKonjunktiv": {
-      "de": "spliss",
+      "de": "er splisse",
       "lv": "αυτός θα ένωνε"
     },
     "partizipVergangenheit": {
@@ -3177,11 +3177,11 @@ const VERB_ENTRIES = [
       "lv": "αυτός χώνει / μπήγει"
     },
     "imperfektIndikativ": {
-      "de": "stak / steckte",
+      "de": "er stak / er steckte",
       "lv": "αυτός έχωσε / έμπηξε"
     },
     "imperfektKonjunktiv": {
-      "de": "stak / steckte",
+      "de": "er stäke / er steckte",
       "lv": "αυτός θα έχωνε / θα έμπηγε"
     },
     "partizipVergangenheit": {
@@ -3287,11 +3287,11 @@ const VERB_ENTRIES = [
       "lv": "αυτό βρομάει"
     },
     "imperfektIndikativ": {
-      "de": "stank",
+      "de": "es stank",
       "lv": "αυτό βρόμησε"
     },
     "imperfektKonjunktiv": {
-      "de": "stank",
+      "de": "es stänke",
       "lv": "αυτό θα βρομούσε"
     },
     "partizipVergangenheit": {
@@ -3481,7 +3481,7 @@ const VERB_ENTRIES = [
       "lv": "εξαπατώ"
     },
     "praesens": {
-      "de": "er trögt",
+      "de": "er trügt",
       "lv": "αυτός εξαπατά"
     },
     "imperfektIndikativ": {
@@ -3573,7 +3573,7 @@ const VERB_ENTRIES = [
       "lv": "αυτός ξεχνά"
     },
     "imperfektIndikativ": {
-      "de": "er vergass",
+      "de": "er vergaß",
       "lv": "αυτός ξέχασε"
     },
     "imperfektKonjunktiv": {
@@ -3661,11 +3661,11 @@ const VERB_ENTRIES = [
       "lv": "αυτός υφαίνει"
     },
     "imperfektIndikativ": {
-      "de": "wob",
+      "de": "er wob / er webte",
       "lv": "αυτός ύφανε"
     },
     "imperfektKonjunktiv": {
-      "de": "wob",
+      "de": "er wöbe / er webte",
       "lv": "αυτός θα ύφαινε"
     },
     "partizipVergangenheit": {
@@ -3771,11 +3771,11 @@ const VERB_ENTRIES = [
       "lv": "αυτός γίνεται"
     },
     "imperfektIndikativ": {
-      "de": "wurde",
+      "de": "er wurde",
       "lv": "αυτός έγινε"
     },
     "imperfektKonjunktiv": {
-      "de": "wurde",
+      "de": "er würde",
       "lv": "αυτός θα γινόταν"
     },
     "partizipVergangenheit": {
@@ -3881,11 +3881,11 @@ const VERB_ENTRIES = [
       "lv": "αυτός θέλει"
     },
     "imperfektIndikativ": {
-      "de": "wollte",
+      "de": "er wollte",
       "lv": "αυτός θέλησε"
     },
     "imperfektKonjunktiv": {
-      "de": "wollte",
+      "de": "er wollte",
       "lv": "αυτός θα ήθελε"
     },
     "partizipVergangenheit": {
@@ -3903,11 +3903,11 @@ const VERB_ENTRIES = [
       "lv": "αυτός στύβει"
     },
     "imperfektIndikativ": {
-      "de": "wrang",
+      "de": "er wrang",
       "lv": "αυτός έστυψε"
     },
     "imperfektKonjunktiv": {
-      "de": "wrang",
+      "de": "er wränge",
       "lv": "αυτός θα έστυβε"
     },
     "partizipVergangenheit": {
@@ -3925,11 +3925,11 @@ const VERB_ENTRIES = [
       "lv": "αυτός κατηγορεί"
     },
     "imperfektIndikativ": {
-      "de": "zieh",
+      "de": "er zieh",
       "lv": "αυτός κατηγόρησε"
     },
     "imperfektKonjunktiv": {
-      "de": "zieh",
+      "de": "er ziehe",
       "lv": "αυτός θα κατηγορούσε"
     },
     "partizipVergangenheit": {

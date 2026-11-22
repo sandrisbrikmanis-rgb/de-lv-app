@@ -603,11 +603,11 @@ const VERB_ENTRIES = [
       "lv": "on pozná / vie"
     },
     "imperfektIndikativ": {
-      "de": "kannte",
+      "de": "er kannte",
       "lv": "on poznal / vedel"
     },
     "imperfektKonjunktiv": {
-      "de": "kannte",
+      "de": "er kennte",
       "lv": "on by poznal / vedel"
     },
     "partizipVergangenheit": {
@@ -691,11 +691,11 @@ const VERB_ENTRIES = [
       "lv": "to bledne"
     },
     "imperfektIndikativ": {
-      "de": "blich",
+      "de": "er bleichte / er blich",
       "lv": "to bledlo"
     },
     "imperfektKonjunktiv": {
-      "de": "blich",
+      "de": "er bleichte / er bliche",
       "lv": "to by bledlo"
     },
     "partizipVergangenheit": {
@@ -757,11 +757,11 @@ const VERB_ENTRIES = [
       "lv": "to horí"
     },
     "imperfektIndikativ": {
-      "de": "brannte",
+      "de": "er brannte",
       "lv": "to horelo"
     },
     "imperfektKonjunktiv": {
-      "de": "brannte",
+      "de": "er brennte",
       "lv": "to by horelo"
     },
     "partizipVergangenheit": {
@@ -823,11 +823,11 @@ const VERB_ENTRIES = [
       "lv": "on najíma / dohovára sa"
     },
     "imperfektIndikativ": {
-      "de": "dingte",
+      "de": "er dingte",
       "lv": "on najímal / dohováral sa"
     },
     "imperfektKonjunktiv": {
-      "de": "dingte",
+      "de": "er dingte",
       "lv": "on by najímal / dohováral sa"
     },
     "partizipVergangenheit": {
@@ -889,11 +889,11 @@ const VERB_ENTRIES = [
       "lv": "to sa zdá"
     },
     "imperfektIndikativ": {
-      "de": "deuchte",
+      "de": "es dünkte / es deuchte",
       "lv": "to sa zdalo"
     },
     "imperfektKonjunktiv": {
-      "de": "deuchte",
+      "de": "es dünkte / es deuchte",
       "lv": "to by sa zdalo"
     },
     "partizipVergangenheit": {
@@ -911,11 +911,11 @@ const VERB_ENTRIES = [
       "lv": "on smie"
     },
     "imperfektIndikativ": {
-      "de": "durfte",
+      "de": "er durfte",
       "lv": "on smel"
     },
     "imperfektKonjunktiv": {
-      "de": "durfte",
+      "de": "er dürfte",
       "lv": "on by smel"
     },
     "partizipVergangenheit": {
@@ -1021,7 +1021,7 @@ const VERB_ENTRIES = [
       "lv": "on je"
     },
     "imperfektIndikativ": {
-      "de": "er ass",
+      "de": "er aß",
       "lv": "on jedol"
     },
     "imperfektKonjunktiv": {
@@ -1197,7 +1197,7 @@ const VERB_ENTRIES = [
       "lv": "on je / žerie"
     },
     "imperfektIndikativ": {
-      "de": "er frass",
+      "de": "er fraß",
       "lv": "on jedol / žral"
     },
     "imperfektKonjunktiv": {
@@ -1329,11 +1329,11 @@ const VERB_ENTRIES = [
       "lv": "on má"
     },
     "imperfektIndikativ": {
-      "de": "hatte",
+      "de": "er hatte",
       "lv": "on mal"
     },
     "imperfektKonjunktiv": {
-      "de": "hatte",
+      "de": "er hätte",
       "lv": "on by mal"
     },
     "partizipVergangenheit": {
@@ -1439,11 +1439,11 @@ const VERB_ENTRIES = [
       "lv": "on môže"
     },
     "imperfektIndikativ": {
-      "de": "konnte",
+      "de": "er konnte",
       "lv": "on mohol"
     },
     "imperfektKonjunktiv": {
-      "de": "konnte",
+      "de": "er könnte",
       "lv": "on by mohol"
     },
     "partizipVergangenheit": {
@@ -1725,7 +1725,7 @@ const VERB_ENTRIES = [
       "lv": "on meria"
     },
     "imperfektIndikativ": {
-      "de": "er mass",
+      "de": "er maß",
       "lv": "on meral"
     },
     "imperfektKonjunktiv": {
@@ -1747,11 +1747,11 @@ const VERB_ENTRIES = [
       "lv": "to sa nedarí"
     },
     "imperfektIndikativ": {
-      "de": "misslang",
+      "de": "es misslang",
       "lv": "to sa nedarilo"
     },
     "imperfektKonjunktiv": {
-      "de": "misslang",
+      "de": "es misslänge",
       "lv": "to by sa nedarilo"
     },
     "partizipVergangenheit": {
@@ -1769,11 +1769,11 @@ const VERB_ENTRIES = [
       "lv": "on má rád"
     },
     "imperfektIndikativ": {
-      "de": "mochte",
+      "de": "er mochte",
       "lv": "on mal rád"
     },
     "imperfektKonjunktiv": {
-      "de": "mochte",
+      "de": "er möchte",
       "lv": "on by mal rád"
     },
     "partizipVergangenheit": {
@@ -1791,11 +1791,11 @@ const VERB_ENTRIES = [
       "lv": "on musí"
     },
     "imperfektIndikativ": {
-      "de": "musste",
+      "de": "er musste",
       "lv": "on musel"
     },
     "imperfektKonjunktiv": {
-      "de": "musste",
+      "de": "er müsste",
       "lv": "on by musel"
     },
     "partizipVergangenheit": {
@@ -1879,11 +1879,11 @@ const VERB_ENTRIES = [
       "lv": "on ošetruje"
     },
     "imperfektIndikativ": {
-      "de": "pflegte / pflog",
+      "de": "er pflegte / er pflog",
       "lv": "on ošetroval"
     },
     "imperfektKonjunktiv": {
-      "de": "pflegte / pflog",
+      "de": "er pflegte / er pflöge",
       "lv": "on by ošetroval"
     },
     "partizipVergangenheit": {
@@ -2231,11 +2231,11 @@ const VERB_ENTRIES = [
       "lv": "to znie"
     },
     "imperfektIndikativ": {
-      "de": "schallte / scholl",
+      "de": "es schallte / es scholl",
       "lv": "to znelo"
     },
     "imperfektKonjunktiv": {
-      "de": "schallte / scholl",
+      "de": "es schallte / es schölle",
       "lv": "to by znelo"
     },
     "partizipVergangenheit": {
@@ -2319,11 +2319,11 @@ const VERB_ENTRIES = [
       "lv": "on strihá"
     },
     "imperfektIndikativ": {
-      "de": "schor / scherte",
+      "de": "er schor / er scherte",
       "lv": "on strihal"
     },
     "imperfektKonjunktiv": {
-      "de": "schor / scherte",
+      "de": "er schöre / er scherte",
       "lv": "on by strihal"
     },
     "partizipVergangenheit": {
@@ -2385,11 +2385,11 @@ const VERB_ENTRIES = [
       "lv": "on trápi"
     },
     "imperfektIndikativ": {
-      "de": "schindete",
+      "de": "er schindete",
       "lv": "on trápil"
     },
     "imperfektKonjunktiv": {
-      "de": "schindete",
+      "de": "er schindete",
       "lv": "on by trápil"
     },
     "partizipVergangenheit": {
@@ -2583,11 +2583,11 @@ const VERB_ENTRIES = [
       "lv": "on fŕka"
     },
     "imperfektIndikativ": {
-      "de": "schnaubte / schnob",
+      "de": "er schnaubte / er schnob",
       "lv": "on fŕkal"
     },
     "imperfektKonjunktiv": {
-      "de": "schnaubte / schnob",
+      "de": "er schnaubte / er schnöbe",
       "lv": "on by fŕkal"
     },
     "partizipVergangenheit": {
@@ -2847,11 +2847,11 @@ const VERB_ENTRIES = [
       "lv": "on je"
     },
     "imperfektIndikativ": {
-      "de": "war",
+      "de": "er war",
       "lv": "on bol"
     },
     "imperfektKonjunktiv": {
-      "de": "war",
+      "de": "er wäre",
       "lv": "on by bol"
     },
     "partizipVergangenheit": {
@@ -2891,11 +2891,11 @@ const VERB_ENTRIES = [
       "lv": "on varí"
     },
     "imperfektIndikativ": {
-      "de": "sott / siedete",
+      "de": "er sott / er siedete",
       "lv": "on varil"
     },
     "imperfektKonjunktiv": {
-      "de": "sott / siedete",
+      "de": "er sötte / er siedete",
       "lv": "on by varil"
     },
     "partizipVergangenheit": {
@@ -2979,7 +2979,7 @@ const VERB_ENTRIES = [
       "lv": "on sedí"
     },
     "imperfektIndikativ": {
-      "de": "er sass",
+      "de": "er saß",
       "lv": "on sedel"
     },
     "imperfektKonjunktiv": {
@@ -3001,11 +3001,11 @@ const VERB_ENTRIES = [
       "lv": "on má"
     },
     "imperfektIndikativ": {
-      "de": "sollte",
+      "de": "er sollte",
       "lv": "on mal"
     },
     "imperfektKonjunktiv": {
-      "de": "sollte",
+      "de": "er sollte",
       "lv": "on by mal"
     },
     "partizipVergangenheit": {
@@ -3067,11 +3067,11 @@ const VERB_ENTRIES = [
       "lv": "on spája"
     },
     "imperfektIndikativ": {
-      "de": "spliss",
+      "de": "er spliss",
       "lv": "on spájal"
     },
     "imperfektKonjunktiv": {
-      "de": "spliss",
+      "de": "er splisse",
       "lv": "on by spájal"
     },
     "partizipVergangenheit": {
@@ -3177,11 +3177,11 @@ const VERB_ENTRIES = [
       "lv": "on strká / zapichuje"
     },
     "imperfektIndikativ": {
-      "de": "stak / steckte",
+      "de": "er stak / er steckte",
       "lv": "on strkal / zapichoval"
     },
     "imperfektKonjunktiv": {
-      "de": "stak / steckte",
+      "de": "er stäke / er steckte",
       "lv": "on by strkal / zapichoval"
     },
     "partizipVergangenheit": {
@@ -3287,11 +3287,11 @@ const VERB_ENTRIES = [
       "lv": "to smrdí"
     },
     "imperfektIndikativ": {
-      "de": "stank",
+      "de": "es stank",
       "lv": "to smrdelo"
     },
     "imperfektKonjunktiv": {
-      "de": "stank",
+      "de": "es stänke",
       "lv": "to by smrdelo"
     },
     "partizipVergangenheit": {
@@ -3481,7 +3481,7 @@ const VERB_ENTRIES = [
       "lv": "klamať"
     },
     "praesens": {
-      "de": "er trögt",
+      "de": "er trügt",
       "lv": "on klame"
     },
     "imperfektIndikativ": {
@@ -3573,7 +3573,7 @@ const VERB_ENTRIES = [
       "lv": "on zabúda"
     },
     "imperfektIndikativ": {
-      "de": "er vergass",
+      "de": "er vergaß",
       "lv": "on zabúdal"
     },
     "imperfektKonjunktiv": {
@@ -3661,11 +3661,11 @@ const VERB_ENTRIES = [
       "lv": "on tká"
     },
     "imperfektIndikativ": {
-      "de": "wob",
+      "de": "er wob / er webte",
       "lv": "on tkal"
     },
     "imperfektKonjunktiv": {
-      "de": "wob",
+      "de": "er wöbe / er webte",
       "lv": "on by tkal"
     },
     "partizipVergangenheit": {
@@ -3771,11 +3771,11 @@ const VERB_ENTRIES = [
       "lv": "on sa stáva"
     },
     "imperfektIndikativ": {
-      "de": "wurde",
+      "de": "er wurde",
       "lv": "on sa stával"
     },
     "imperfektKonjunktiv": {
-      "de": "wurde",
+      "de": "er würde",
       "lv": "on by sa stával"
     },
     "partizipVergangenheit": {
@@ -3881,11 +3881,11 @@ const VERB_ENTRIES = [
       "lv": "on chce"
     },
     "imperfektIndikativ": {
-      "de": "wollte",
+      "de": "er wollte",
       "lv": "on chcel"
     },
     "imperfektKonjunktiv": {
-      "de": "wollte",
+      "de": "er wollte",
       "lv": "on by chcel"
     },
     "partizipVergangenheit": {
@@ -3903,11 +3903,11 @@ const VERB_ENTRIES = [
       "lv": "on žmýka / vytláča"
     },
     "imperfektIndikativ": {
-      "de": "wrang",
+      "de": "er wrang",
       "lv": "on žmýkal / vytláčal"
     },
     "imperfektKonjunktiv": {
-      "de": "wrang",
+      "de": "er wränge",
       "lv": "on by žmýkal / vytláčal"
     },
     "partizipVergangenheit": {
@@ -3925,11 +3925,11 @@ const VERB_ENTRIES = [
       "lv": "on obviňuje"
     },
     "imperfektIndikativ": {
-      "de": "zieh",
+      "de": "er zieh",
       "lv": "on obviňoval"
     },
     "imperfektKonjunktiv": {
-      "de": "zieh",
+      "de": "er ziehe",
       "lv": "on by obviňoval"
     },
     "partizipVergangenheit": {

@@ -603,11 +603,11 @@ const VERB_ENTRIES = [
       "lv": "él conoce / sabe"
     },
     "imperfektIndikativ": {
-      "de": "kannte",
+      "de": "er kannte",
       "lv": "él conoció / supo"
     },
     "imperfektKonjunktiv": {
-      "de": "kannte",
+      "de": "er kennte",
       "lv": "él conocería / sabría"
     },
     "partizipVergangenheit": {
@@ -691,11 +691,11 @@ const VERB_ENTRIES = [
       "lv": "se decolora"
     },
     "imperfektIndikativ": {
-      "de": "blich",
+      "de": "er bleichte / er blich",
       "lv": "se decoloró"
     },
     "imperfektKonjunktiv": {
-      "de": "blich",
+      "de": "er bleichte / er bliche",
       "lv": "se decoloraría"
     },
     "partizipVergangenheit": {
@@ -757,11 +757,11 @@ const VERB_ENTRIES = [
       "lv": "arde"
     },
     "imperfektIndikativ": {
-      "de": "brannte",
+      "de": "er brannte",
       "lv": "ardió"
     },
     "imperfektKonjunktiv": {
-      "de": "brannte",
+      "de": "er brennte",
       "lv": "ardería"
     },
     "partizipVergangenheit": {
@@ -823,11 +823,11 @@ const VERB_ENTRIES = [
       "lv": "él contrata / acuerda"
     },
     "imperfektIndikativ": {
-      "de": "dingte",
+      "de": "er dingte",
       "lv": "él contrató / acordó"
     },
     "imperfektKonjunktiv": {
-      "de": "dingte",
+      "de": "er dingte",
       "lv": "él contrataría / acordaría"
     },
     "partizipVergangenheit": {
@@ -889,11 +889,11 @@ const VERB_ENTRIES = [
       "lv": "parece"
     },
     "imperfektIndikativ": {
-      "de": "deuchte",
+      "de": "es dünkte / es deuchte",
       "lv": "pareció"
     },
     "imperfektKonjunktiv": {
-      "de": "deuchte",
+      "de": "es dünkte / es deuchte",
       "lv": "parecería"
     },
     "partizipVergangenheit": {
@@ -911,11 +911,11 @@ const VERB_ENTRIES = [
       "lv": "él tiene permiso"
     },
     "imperfektIndikativ": {
-      "de": "durfte",
+      "de": "er durfte",
       "lv": "él tuvo permiso"
     },
     "imperfektKonjunktiv": {
-      "de": "durfte",
+      "de": "er dürfte",
       "lv": "él tendría permiso"
     },
     "partizipVergangenheit": {
@@ -1021,7 +1021,7 @@ const VERB_ENTRIES = [
       "lv": "él come"
     },
     "imperfektIndikativ": {
-      "de": "er ass",
+      "de": "er aß",
       "lv": "él comió"
     },
     "imperfektKonjunktiv": {
@@ -1197,7 +1197,7 @@ const VERB_ENTRIES = [
       "lv": "él come / devora"
     },
     "imperfektIndikativ": {
-      "de": "er frass",
+      "de": "er fraß",
       "lv": "él comió / devoró"
     },
     "imperfektKonjunktiv": {
@@ -1329,11 +1329,11 @@ const VERB_ENTRIES = [
       "lv": "él tiene"
     },
     "imperfektIndikativ": {
-      "de": "hatte",
+      "de": "er hatte",
       "lv": "él tuvo"
     },
     "imperfektKonjunktiv": {
-      "de": "hatte",
+      "de": "er hätte",
       "lv": "él tendría"
     },
     "partizipVergangenheit": {
@@ -1439,11 +1439,11 @@ const VERB_ENTRIES = [
       "lv": "él puede"
     },
     "imperfektIndikativ": {
-      "de": "konnte",
+      "de": "er konnte",
       "lv": "él pudo"
     },
     "imperfektKonjunktiv": {
-      "de": "konnte",
+      "de": "er könnte",
       "lv": "él podría"
     },
     "partizipVergangenheit": {
@@ -1725,7 +1725,7 @@ const VERB_ENTRIES = [
       "lv": "él mide"
     },
     "imperfektIndikativ": {
-      "de": "er mass",
+      "de": "er maß",
       "lv": "él midió"
     },
     "imperfektKonjunktiv": {
@@ -1747,11 +1747,11 @@ const VERB_ENTRIES = [
       "lv": "sale mal"
     },
     "imperfektIndikativ": {
-      "de": "misslang",
+      "de": "es misslang",
       "lv": "salió mal"
     },
     "imperfektKonjunktiv": {
-      "de": "misslang",
+      "de": "es misslänge",
       "lv": "saldría mal"
     },
     "partizipVergangenheit": {
@@ -1769,11 +1769,11 @@ const VERB_ENTRIES = [
       "lv": "le gusta"
     },
     "imperfektIndikativ": {
-      "de": "mochte",
+      "de": "er mochte",
       "lv": "le gustó"
     },
     "imperfektKonjunktiv": {
-      "de": "mochte",
+      "de": "er möchte",
       "lv": "le gustaría"
     },
     "partizipVergangenheit": {
@@ -1791,11 +1791,11 @@ const VERB_ENTRIES = [
       "lv": "él tiene que"
     },
     "imperfektIndikativ": {
-      "de": "musste",
+      "de": "er musste",
       "lv": "él tuvo que"
     },
     "imperfektKonjunktiv": {
-      "de": "musste",
+      "de": "er müsste",
       "lv": "él tendría que"
     },
     "partizipVergangenheit": {
@@ -1879,11 +1879,11 @@ const VERB_ENTRIES = [
       "lv": "él cuida"
     },
     "imperfektIndikativ": {
-      "de": "pflegte / pflog",
+      "de": "er pflegte / er pflog",
       "lv": "él cuidó"
     },
     "imperfektKonjunktiv": {
-      "de": "pflegte / pflog",
+      "de": "er pflegte / er pflöge",
       "lv": "él cuidaría"
     },
     "partizipVergangenheit": {
@@ -2231,11 +2231,11 @@ const VERB_ENTRIES = [
       "lv": "suena"
     },
     "imperfektIndikativ": {
-      "de": "schallte / scholl",
+      "de": "es schallte / es scholl",
       "lv": "sonó"
     },
     "imperfektKonjunktiv": {
-      "de": "schallte / scholl",
+      "de": "es schallte / es schölle",
       "lv": "sonaría"
     },
     "partizipVergangenheit": {
@@ -2319,11 +2319,11 @@ const VERB_ENTRIES = [
       "lv": "él esquila"
     },
     "imperfektIndikativ": {
-      "de": "schor / scherte",
+      "de": "er schor / er scherte",
       "lv": "él esquiló"
     },
     "imperfektKonjunktiv": {
-      "de": "schor / scherte",
+      "de": "er schöre / er scherte",
       "lv": "él esquilaría"
     },
     "partizipVergangenheit": {
@@ -2385,11 +2385,11 @@ const VERB_ENTRIES = [
       "lv": "él atormenta"
     },
     "imperfektIndikativ": {
-      "de": "schindete",
+      "de": "er schindete",
       "lv": "él atormentó"
     },
     "imperfektKonjunktiv": {
-      "de": "schindete",
+      "de": "er schindete",
       "lv": "él atormentaría"
     },
     "partizipVergangenheit": {
@@ -2583,11 +2583,11 @@ const VERB_ENTRIES = [
       "lv": "él resopla"
     },
     "imperfektIndikativ": {
-      "de": "schnaubte / schnob",
+      "de": "er schnaubte / er schnob",
       "lv": "él resopló"
     },
     "imperfektKonjunktiv": {
-      "de": "schnaubte / schnob",
+      "de": "er schnaubte / er schnöbe",
       "lv": "él resoplaría"
     },
     "partizipVergangenheit": {
@@ -2847,11 +2847,11 @@ const VERB_ENTRIES = [
       "lv": "él es"
     },
     "imperfektIndikativ": {
-      "de": "war",
+      "de": "er war",
       "lv": "él fue"
     },
     "imperfektKonjunktiv": {
-      "de": "war",
+      "de": "er wäre",
       "lv": "él sería"
     },
     "partizipVergangenheit": {
@@ -2891,11 +2891,11 @@ const VERB_ENTRIES = [
       "lv": "él hierve"
     },
     "imperfektIndikativ": {
-      "de": "sott / siedete",
+      "de": "er sott / er siedete",
       "lv": "él hirvió"
     },
     "imperfektKonjunktiv": {
-      "de": "sott / siedete",
+      "de": "er sötte / er siedete",
       "lv": "él herviría"
     },
     "partizipVergangenheit": {
@@ -2979,7 +2979,7 @@ const VERB_ENTRIES = [
       "lv": "él está sentado"
     },
     "imperfektIndikativ": {
-      "de": "er sass",
+      "de": "er saß",
       "lv": "él estuvo sentado"
     },
     "imperfektKonjunktiv": {
@@ -3001,11 +3001,11 @@ const VERB_ENTRIES = [
       "lv": "él debe"
     },
     "imperfektIndikativ": {
-      "de": "sollte",
+      "de": "er sollte",
       "lv": "él debió"
     },
     "imperfektKonjunktiv": {
-      "de": "sollte",
+      "de": "er sollte",
       "lv": "él debería"
     },
     "partizipVergangenheit": {
@@ -3067,11 +3067,11 @@ const VERB_ENTRIES = [
       "lv": "él une"
     },
     "imperfektIndikativ": {
-      "de": "spliss",
+      "de": "er spliss",
       "lv": "él unió"
     },
     "imperfektKonjunktiv": {
-      "de": "spliss",
+      "de": "er splisse",
       "lv": "él uniría"
     },
     "partizipVergangenheit": {
@@ -3177,11 +3177,11 @@ const VERB_ENTRIES = [
       "lv": "él mete / clava"
     },
     "imperfektIndikativ": {
-      "de": "stak / steckte",
+      "de": "er stak / er steckte",
       "lv": "él metió / clavó"
     },
     "imperfektKonjunktiv": {
-      "de": "stak / steckte",
+      "de": "er stäke / er steckte",
       "lv": "él metería / clavaría"
     },
     "partizipVergangenheit": {
@@ -3287,11 +3287,11 @@ const VERB_ENTRIES = [
       "lv": "apesta"
     },
     "imperfektIndikativ": {
-      "de": "stank",
+      "de": "es stank",
       "lv": "apestó"
     },
     "imperfektKonjunktiv": {
-      "de": "stank",
+      "de": "es stänke",
       "lv": "apestaría"
     },
     "partizipVergangenheit": {
@@ -3481,7 +3481,7 @@ const VERB_ENTRIES = [
       "lv": "engañar"
     },
     "praesens": {
-      "de": "er trögt",
+      "de": "er trügt",
       "lv": "él engaña"
     },
     "imperfektIndikativ": {
@@ -3573,7 +3573,7 @@ const VERB_ENTRIES = [
       "lv": "él olvida"
     },
     "imperfektIndikativ": {
-      "de": "er vergass",
+      "de": "er vergaß",
       "lv": "él olvidó"
     },
     "imperfektKonjunktiv": {
@@ -3661,11 +3661,11 @@ const VERB_ENTRIES = [
       "lv": "él teje"
     },
     "imperfektIndikativ": {
-      "de": "wob",
+      "de": "er wob / er webte",
       "lv": "él tejió"
     },
     "imperfektKonjunktiv": {
-      "de": "wob",
+      "de": "er wöbe / er webte",
       "lv": "él tejería"
     },
     "partizipVergangenheit": {
@@ -3771,11 +3771,11 @@ const VERB_ENTRIES = [
       "lv": "él se convierte en"
     },
     "imperfektIndikativ": {
-      "de": "wurde",
+      "de": "er wurde",
       "lv": "él se convirtió en"
     },
     "imperfektKonjunktiv": {
-      "de": "wurde",
+      "de": "er würde",
       "lv": "él se convertiría en"
     },
     "partizipVergangenheit": {
@@ -3881,11 +3881,11 @@ const VERB_ENTRIES = [
       "lv": "él quiere"
     },
     "imperfektIndikativ": {
-      "de": "wollte",
+      "de": "er wollte",
       "lv": "él quiso"
     },
     "imperfektKonjunktiv": {
-      "de": "wollte",
+      "de": "er wollte",
       "lv": "él querría"
     },
     "partizipVergangenheit": {
@@ -3903,11 +3903,11 @@ const VERB_ENTRIES = [
       "lv": "él escurre / exprime"
     },
     "imperfektIndikativ": {
-      "de": "wrang",
+      "de": "er wrang",
       "lv": "él escurrió / exprimió"
     },
     "imperfektKonjunktiv": {
-      "de": "wrang",
+      "de": "er wränge",
       "lv": "él escurriría / exprimiría"
     },
     "partizipVergangenheit": {
@@ -3925,11 +3925,11 @@ const VERB_ENTRIES = [
       "lv": "él acusa"
     },
     "imperfektIndikativ": {
-      "de": "zieh",
+      "de": "er zieh",
       "lv": "él acusó"
     },
     "imperfektKonjunktiv": {
-      "de": "zieh",
+      "de": "er ziehe",
       "lv": "él acusaría"
     },
     "partizipVergangenheit": {

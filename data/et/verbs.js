@@ -603,11 +603,11 @@ const VERB_ENTRIES = [
       "lv": "ta tunneb / teab"
     },
     "imperfektIndikativ": {
-      "de": "kannte",
+      "de": "er kannte",
       "lv": "ta tundis / teadis"
     },
     "imperfektKonjunktiv": {
-      "de": "kannte",
+      "de": "er kennte",
       "lv": "ta tunneks / teaks"
     },
     "partizipVergangenheit": {
@@ -691,11 +691,11 @@ const VERB_ENTRIES = [
       "lv": "see pleegib"
     },
     "imperfektIndikativ": {
-      "de": "blich",
+      "de": "er bleichte / er blich",
       "lv": "see pleekis"
     },
     "imperfektKonjunktiv": {
-      "de": "blich",
+      "de": "er bleichte / er bliche",
       "lv": "see pleegiks"
     },
     "partizipVergangenheit": {
@@ -757,11 +757,11 @@ const VERB_ENTRIES = [
       "lv": "see põleb"
     },
     "imperfektIndikativ": {
-      "de": "brannte",
+      "de": "er brannte",
       "lv": "see põles"
     },
     "imperfektKonjunktiv": {
-      "de": "brannte",
+      "de": "er brennte",
       "lv": "see põleks"
     },
     "partizipVergangenheit": {
@@ -823,11 +823,11 @@ const VERB_ENTRIES = [
       "lv": "ta palkab / lepib kokku"
     },
     "imperfektIndikativ": {
-      "de": "dingte",
+      "de": "er dingte",
       "lv": "ta palkas / leppis kokku"
     },
     "imperfektKonjunktiv": {
-      "de": "dingte",
+      "de": "er dingte",
       "lv": "ta palkaks / lepiks kokku"
     },
     "partizipVergangenheit": {
@@ -889,11 +889,11 @@ const VERB_ENTRIES = [
       "lv": "see tundub"
     },
     "imperfektIndikativ": {
-      "de": "deuchte",
+      "de": "es dünkte / es deuchte",
       "lv": "see tundus"
     },
     "imperfektKonjunktiv": {
-      "de": "deuchte",
+      "de": "es dünkte / es deuchte",
       "lv": "see tunduks"
     },
     "partizipVergangenheit": {
@@ -911,11 +911,11 @@ const VERB_ENTRIES = [
       "lv": "ta tohib"
     },
     "imperfektIndikativ": {
-      "de": "durfte",
+      "de": "er durfte",
       "lv": "ta tohtis"
     },
     "imperfektKonjunktiv": {
-      "de": "durfte",
+      "de": "er dürfte",
       "lv": "ta tohiks"
     },
     "partizipVergangenheit": {
@@ -1021,7 +1021,7 @@ const VERB_ENTRIES = [
       "lv": "ta sööb"
     },
     "imperfektIndikativ": {
-      "de": "er ass",
+      "de": "er aß",
       "lv": "ta sõi"
     },
     "imperfektKonjunktiv": {
@@ -1197,7 +1197,7 @@ const VERB_ENTRIES = [
       "lv": "ta sööb / õgib"
     },
     "imperfektIndikativ": {
-      "de": "er frass",
+      "de": "er fraß",
       "lv": "ta sõi / õgis"
     },
     "imperfektKonjunktiv": {
@@ -1329,11 +1329,11 @@ const VERB_ENTRIES = [
       "lv": "tal on"
     },
     "imperfektIndikativ": {
-      "de": "hatte",
+      "de": "er hatte",
       "lv": "tal oli"
     },
     "imperfektKonjunktiv": {
-      "de": "hatte",
+      "de": "er hätte",
       "lv": "tal oleks"
     },
     "partizipVergangenheit": {
@@ -1439,11 +1439,11 @@ const VERB_ENTRIES = [
       "lv": "ta suudab"
     },
     "imperfektIndikativ": {
-      "de": "konnte",
+      "de": "er konnte",
       "lv": "ta suutis"
     },
     "imperfektKonjunktiv": {
-      "de": "konnte",
+      "de": "er könnte",
       "lv": "ta suudaks"
     },
     "partizipVergangenheit": {
@@ -1725,7 +1725,7 @@ const VERB_ENTRIES = [
       "lv": "ta mõõdab"
     },
     "imperfektIndikativ": {
-      "de": "er mass",
+      "de": "er maß",
       "lv": "ta mõõtis"
     },
     "imperfektKonjunktiv": {
@@ -1747,11 +1747,11 @@ const VERB_ENTRIES = [
       "lv": "see ebaõnnestub"
     },
     "imperfektIndikativ": {
-      "de": "misslang",
+      "de": "es misslang",
       "lv": "see ebaõnnestus"
     },
     "imperfektKonjunktiv": {
-      "de": "misslang",
+      "de": "es misslänge",
       "lv": "see ebaõnnestuks"
     },
     "partizipVergangenheit": {
@@ -1769,11 +1769,11 @@ const VERB_ENTRIES = [
       "lv": "talle meeldib"
     },
     "imperfektIndikativ": {
-      "de": "mochte",
+      "de": "er mochte",
       "lv": "talle meeldis"
     },
     "imperfektKonjunktiv": {
-      "de": "mochte",
+      "de": "er möchte",
       "lv": "talle meeldiks"
     },
     "partizipVergangenheit": {
@@ -1791,11 +1791,11 @@ const VERB_ENTRIES = [
       "lv": "ta peab"
     },
     "imperfektIndikativ": {
-      "de": "musste",
+      "de": "er musste",
       "lv": "ta pidi"
     },
     "imperfektKonjunktiv": {
-      "de": "musste",
+      "de": "er müsste",
       "lv": "ta peaks"
     },
     "partizipVergangenheit": {
@@ -1879,11 +1879,11 @@ const VERB_ENTRIES = [
       "lv": "ta hooldab"
     },
     "imperfektIndikativ": {
-      "de": "pflegte / pflog",
+      "de": "er pflegte / er pflog",
       "lv": "ta hooldas"
     },
     "imperfektKonjunktiv": {
-      "de": "pflegte / pflog",
+      "de": "er pflegte / er pflöge",
       "lv": "ta hooldaks"
     },
     "partizipVergangenheit": {
@@ -2231,11 +2231,11 @@ const VERB_ENTRIES = [
       "lv": "see kajab"
     },
     "imperfektIndikativ": {
-      "de": "schallte / scholl",
+      "de": "es schallte / es scholl",
       "lv": "see kajas"
     },
     "imperfektKonjunktiv": {
-      "de": "schallte / scholl",
+      "de": "es schallte / es schölle",
       "lv": "see kajaks"
     },
     "partizipVergangenheit": {
@@ -2319,11 +2319,11 @@ const VERB_ENTRIES = [
       "lv": "ta pügab"
     },
     "imperfektIndikativ": {
-      "de": "schor / scherte",
+      "de": "er schor / er scherte",
       "lv": "ta pügas"
     },
     "imperfektKonjunktiv": {
-      "de": "schor / scherte",
+      "de": "er schöre / er scherte",
       "lv": "ta pügaks"
     },
     "partizipVergangenheit": {
@@ -2385,11 +2385,11 @@ const VERB_ENTRIES = [
       "lv": "ta piinab"
     },
     "imperfektIndikativ": {
-      "de": "schindete",
+      "de": "er schindete",
       "lv": "ta piinas"
     },
     "imperfektKonjunktiv": {
-      "de": "schindete",
+      "de": "er schindete",
       "lv": "ta piinaks"
     },
     "partizipVergangenheit": {
@@ -2583,11 +2583,11 @@ const VERB_ENTRIES = [
       "lv": "ta turtsub"
     },
     "imperfektIndikativ": {
-      "de": "schnaubte / schnob",
+      "de": "er schnaubte / er schnob",
       "lv": "ta turtsus"
     },
     "imperfektKonjunktiv": {
-      "de": "schnaubte / schnob",
+      "de": "er schnaubte / er schnöbe",
       "lv": "ta turtsuks"
     },
     "partizipVergangenheit": {
@@ -2847,11 +2847,11 @@ const VERB_ENTRIES = [
       "lv": "ta on"
     },
     "imperfektIndikativ": {
-      "de": "war",
+      "de": "er war",
       "lv": "ta oli"
     },
     "imperfektKonjunktiv": {
-      "de": "war",
+      "de": "er wäre",
       "lv": "ta oleks"
     },
     "partizipVergangenheit": {
@@ -2891,11 +2891,11 @@ const VERB_ENTRIES = [
       "lv": "ta keedab"
     },
     "imperfektIndikativ": {
-      "de": "sott / siedete",
+      "de": "er sott / er siedete",
       "lv": "ta keetis"
     },
     "imperfektKonjunktiv": {
-      "de": "sott / siedete",
+      "de": "er sötte / er siedete",
       "lv": "ta keedaks"
     },
     "partizipVergangenheit": {
@@ -2979,7 +2979,7 @@ const VERB_ENTRIES = [
       "lv": "ta istub"
     },
     "imperfektIndikativ": {
-      "de": "er sass",
+      "de": "er saß",
       "lv": "ta istus"
     },
     "imperfektKonjunktiv": {
@@ -3001,11 +3001,11 @@ const VERB_ENTRIES = [
       "lv": "ta peab"
     },
     "imperfektIndikativ": {
-      "de": "sollte",
+      "de": "er sollte",
       "lv": "ta pidi"
     },
     "imperfektKonjunktiv": {
-      "de": "sollte",
+      "de": "er sollte",
       "lv": "ta peaks"
     },
     "partizipVergangenheit": {
@@ -3067,11 +3067,11 @@ const VERB_ENTRIES = [
       "lv": "ta ühendab"
     },
     "imperfektIndikativ": {
-      "de": "spliss",
+      "de": "er spliss",
       "lv": "ta ühendas"
     },
     "imperfektKonjunktiv": {
-      "de": "spliss",
+      "de": "er splisse",
       "lv": "ta ühendaks"
     },
     "partizipVergangenheit": {
@@ -3177,11 +3177,11 @@ const VERB_ENTRIES = [
       "lv": "ta topib / pistab"
     },
     "imperfektIndikativ": {
-      "de": "stak / steckte",
+      "de": "er stak / er steckte",
       "lv": "ta toppis / pistis"
     },
     "imperfektKonjunktiv": {
-      "de": "stak / steckte",
+      "de": "er stäke / er steckte",
       "lv": "ta topiks / pistaks"
     },
     "partizipVergangenheit": {
@@ -3287,11 +3287,11 @@ const VERB_ENTRIES = [
       "lv": "see haiseb"
     },
     "imperfektIndikativ": {
-      "de": "stank",
+      "de": "es stank",
       "lv": "see haises"
     },
     "imperfektKonjunktiv": {
-      "de": "stank",
+      "de": "es stänke",
       "lv": "see haiseks"
     },
     "partizipVergangenheit": {
@@ -3481,7 +3481,7 @@ const VERB_ENTRIES = [
       "lv": "petma"
     },
     "praesens": {
-      "de": "er trögt",
+      "de": "er trügt",
       "lv": "ta petab"
     },
     "imperfektIndikativ": {
@@ -3573,7 +3573,7 @@ const VERB_ENTRIES = [
       "lv": "ta unustab"
     },
     "imperfektIndikativ": {
-      "de": "er vergass",
+      "de": "er vergaß",
       "lv": "ta unustas"
     },
     "imperfektKonjunktiv": {
@@ -3661,11 +3661,11 @@ const VERB_ENTRIES = [
       "lv": "ta koob"
     },
     "imperfektIndikativ": {
-      "de": "wob",
+      "de": "er wob / er webte",
       "lv": "ta kudus"
     },
     "imperfektKonjunktiv": {
-      "de": "wob",
+      "de": "er wöbe / er webte",
       "lv": "ta kooks"
     },
     "partizipVergangenheit": {
@@ -3771,11 +3771,11 @@ const VERB_ENTRIES = [
       "lv": "ta saab"
     },
     "imperfektIndikativ": {
-      "de": "wurde",
+      "de": "er wurde",
       "lv": "ta sai"
     },
     "imperfektKonjunktiv": {
-      "de": "wurde",
+      "de": "er würde",
       "lv": "ta saaks"
     },
     "partizipVergangenheit": {
@@ -3881,11 +3881,11 @@ const VERB_ENTRIES = [
       "lv": "ta tahab"
     },
     "imperfektIndikativ": {
-      "de": "wollte",
+      "de": "er wollte",
       "lv": "ta tahtis"
     },
     "imperfektKonjunktiv": {
-      "de": "wollte",
+      "de": "er wollte",
       "lv": "ta tahaks"
     },
     "partizipVergangenheit": {
@@ -3903,11 +3903,11 @@ const VERB_ENTRIES = [
       "lv": "ta väänab / pigistab"
     },
     "imperfektIndikativ": {
-      "de": "wrang",
+      "de": "er wrang",
       "lv": "ta väänas / pigistas"
     },
     "imperfektKonjunktiv": {
-      "de": "wrang",
+      "de": "er wränge",
       "lv": "ta väänaks / pigistaks"
     },
     "partizipVergangenheit": {
@@ -3925,11 +3925,11 @@ const VERB_ENTRIES = [
       "lv": "ta süüdistab"
     },
     "imperfektIndikativ": {
-      "de": "zieh",
+      "de": "er zieh",
       "lv": "ta süüdistas"
     },
     "imperfektKonjunktiv": {
-      "de": "zieh",
+      "de": "er ziehe",
       "lv": "ta süüdistaks"
     },
     "partizipVergangenheit": {

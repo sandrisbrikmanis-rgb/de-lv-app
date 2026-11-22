@@ -603,11 +603,11 @@ const VERB_ENTRIES = [
       "lv": "o tanır / bilir"
     },
     "imperfektIndikativ": {
-      "de": "kannte",
+      "de": "er kannte",
       "lv": "o tanıdı / bildi"
     },
     "imperfektKonjunktiv": {
-      "de": "kannte",
+      "de": "er kennte",
       "lv": "o tanırdı / bilirdi"
     },
     "partizipVergangenheit": {
@@ -691,11 +691,11 @@ const VERB_ENTRIES = [
       "lv": "o solar"
     },
     "imperfektIndikativ": {
-      "de": "blich",
+      "de": "er bleichte / er blich",
       "lv": "o soldu"
     },
     "imperfektKonjunktiv": {
-      "de": "blich",
+      "de": "er bleichte / er bliche",
       "lv": "o solardı"
     },
     "partizipVergangenheit": {
@@ -757,11 +757,11 @@ const VERB_ENTRIES = [
       "lv": "o yanar"
     },
     "imperfektIndikativ": {
-      "de": "brannte",
+      "de": "er brannte",
       "lv": "o yandı"
     },
     "imperfektKonjunktiv": {
-      "de": "brannte",
+      "de": "er brennte",
       "lv": "o yanardı"
     },
     "partizipVergangenheit": {
@@ -823,11 +823,11 @@ const VERB_ENTRIES = [
       "lv": "o işe alır / anlaşır"
     },
     "imperfektIndikativ": {
-      "de": "dingte",
+      "de": "er dingte",
       "lv": "o işe aldı / anlaştı"
     },
     "imperfektKonjunktiv": {
-      "de": "dingte",
+      "de": "er dingte",
       "lv": "o işe alırdı / anlaşırdı"
     },
     "partizipVergangenheit": {
@@ -889,11 +889,11 @@ const VERB_ENTRIES = [
       "lv": "o görünür"
     },
     "imperfektIndikativ": {
-      "de": "deuchte",
+      "de": "es dünkte / es deuchte",
       "lv": "o göründü"
     },
     "imperfektKonjunktiv": {
-      "de": "deuchte",
+      "de": "es dünkte / es deuchte",
       "lv": "o görünürdü"
     },
     "partizipVergangenheit": {
@@ -911,11 +911,11 @@ const VERB_ENTRIES = [
       "lv": "o izin alır"
     },
     "imperfektIndikativ": {
-      "de": "durfte",
+      "de": "er durfte",
       "lv": "o izin aldı"
     },
     "imperfektKonjunktiv": {
-      "de": "durfte",
+      "de": "er dürfte",
       "lv": "o izin alırdı"
     },
     "partizipVergangenheit": {
@@ -1021,7 +1021,7 @@ const VERB_ENTRIES = [
       "lv": "o yer"
     },
     "imperfektIndikativ": {
-      "de": "er ass",
+      "de": "er aß",
       "lv": "o yedi"
     },
     "imperfektKonjunktiv": {
@@ -1197,7 +1197,7 @@ const VERB_ENTRIES = [
       "lv": "o yer / yutar"
     },
     "imperfektIndikativ": {
-      "de": "er frass",
+      "de": "er fraß",
       "lv": "o yedi / yuttu"
     },
     "imperfektKonjunktiv": {
@@ -1329,11 +1329,11 @@ const VERB_ENTRIES = [
       "lv": "o sahip olur"
     },
     "imperfektIndikativ": {
-      "de": "hatte",
+      "de": "er hatte",
       "lv": "o sahip oldu"
     },
     "imperfektKonjunktiv": {
-      "de": "hatte",
+      "de": "er hätte",
       "lv": "o sahip olurdu"
     },
     "partizipVergangenheit": {
@@ -1439,11 +1439,11 @@ const VERB_ENTRIES = [
       "lv": "o yapabilir"
     },
     "imperfektIndikativ": {
-      "de": "konnte",
+      "de": "er konnte",
       "lv": "o yapabildi"
     },
     "imperfektKonjunktiv": {
-      "de": "konnte",
+      "de": "er könnte",
       "lv": "o yapabilirdi"
     },
     "partizipVergangenheit": {
@@ -1725,7 +1725,7 @@ const VERB_ENTRIES = [
       "lv": "o ölçer"
     },
     "imperfektIndikativ": {
-      "de": "er mass",
+      "de": "er maß",
       "lv": "o ölçtü"
     },
     "imperfektKonjunktiv": {
@@ -1747,11 +1747,11 @@ const VERB_ENTRIES = [
       "lv": "o başarısız olur"
     },
     "imperfektIndikativ": {
-      "de": "misslang",
+      "de": "es misslang",
       "lv": "o başarısız oldu"
     },
     "imperfektKonjunktiv": {
-      "de": "misslang",
+      "de": "es misslänge",
       "lv": "o başarısız olurdu"
     },
     "partizipVergangenheit": {
@@ -1769,11 +1769,11 @@ const VERB_ENTRIES = [
       "lv": "o hoşlanır"
     },
     "imperfektIndikativ": {
-      "de": "mochte",
+      "de": "er mochte",
       "lv": "o hoşlandı"
     },
     "imperfektKonjunktiv": {
-      "de": "mochte",
+      "de": "er möchte",
       "lv": "o hoşlanırdı"
     },
     "partizipVergangenheit": {
@@ -1791,11 +1791,11 @@ const VERB_ENTRIES = [
       "lv": "o zorunda kalır"
     },
     "imperfektIndikativ": {
-      "de": "musste",
+      "de": "er musste",
       "lv": "o zorunda kaldı"
     },
     "imperfektKonjunktiv": {
-      "de": "musste",
+      "de": "er müsste",
       "lv": "o zorunda kalırdı"
     },
     "partizipVergangenheit": {
@@ -1879,11 +1879,11 @@ const VERB_ENTRIES = [
       "lv": "o bakar"
     },
     "imperfektIndikativ": {
-      "de": "pflegte / pflog",
+      "de": "er pflegte / er pflog",
       "lv": "o baktı"
     },
     "imperfektKonjunktiv": {
-      "de": "pflegte / pflog",
+      "de": "er pflegte / er pflöge",
       "lv": "o bakardı"
     },
     "partizipVergangenheit": {
@@ -2231,11 +2231,11 @@ const VERB_ENTRIES = [
       "lv": "o yankılanır"
     },
     "imperfektIndikativ": {
-      "de": "schallte / scholl",
+      "de": "es schallte / es scholl",
       "lv": "o yankılandı"
     },
     "imperfektKonjunktiv": {
-      "de": "schallte / scholl",
+      "de": "es schallte / es schölle",
       "lv": "o yankılanırdı"
     },
     "partizipVergangenheit": {
@@ -2319,11 +2319,11 @@ const VERB_ENTRIES = [
       "lv": "o kırkar"
     },
     "imperfektIndikativ": {
-      "de": "schor / scherte",
+      "de": "er schor / er scherte",
       "lv": "o kırktı"
     },
     "imperfektKonjunktiv": {
-      "de": "schor / scherte",
+      "de": "er schöre / er scherte",
       "lv": "o kırkardı"
     },
     "partizipVergangenheit": {
@@ -2385,11 +2385,11 @@ const VERB_ENTRIES = [
       "lv": "o eziyet eder"
     },
     "imperfektIndikativ": {
-      "de": "schindete",
+      "de": "er schindete",
       "lv": "o eziyet etti"
     },
     "imperfektKonjunktiv": {
-      "de": "schindete",
+      "de": "er schindete",
       "lv": "o eziyet ederdi"
     },
     "partizipVergangenheit": {
@@ -2583,11 +2583,11 @@ const VERB_ENTRIES = [
       "lv": "o burnundan solur"
     },
     "imperfektIndikativ": {
-      "de": "schnaubte / schnob",
+      "de": "er schnaubte / er schnob",
       "lv": "o burnundan soludu"
     },
     "imperfektKonjunktiv": {
-      "de": "schnaubte / schnob",
+      "de": "er schnaubte / er schnöbe",
       "lv": "o burnundan solurdu"
     },
     "partizipVergangenheit": {
@@ -2847,11 +2847,11 @@ const VERB_ENTRIES = [
       "lv": "o olur"
     },
     "imperfektIndikativ": {
-      "de": "war",
+      "de": "er war",
       "lv": "o oldu"
     },
     "imperfektKonjunktiv": {
-      "de": "war",
+      "de": "er wäre",
       "lv": "o olurdu"
     },
     "partizipVergangenheit": {
@@ -2891,11 +2891,11 @@ const VERB_ENTRIES = [
       "lv": "o kaynatır"
     },
     "imperfektIndikativ": {
-      "de": "sott / siedete",
+      "de": "er sott / er siedete",
       "lv": "o kaynattı"
     },
     "imperfektKonjunktiv": {
-      "de": "sott / siedete",
+      "de": "er sötte / er siedete",
       "lv": "o kaynatırdı"
     },
     "partizipVergangenheit": {
@@ -2979,7 +2979,7 @@ const VERB_ENTRIES = [
       "lv": "o oturur"
     },
     "imperfektIndikativ": {
-      "de": "er sass",
+      "de": "er saß",
       "lv": "o oturdu"
     },
     "imperfektKonjunktiv": {
@@ -3001,11 +3001,11 @@ const VERB_ENTRIES = [
       "lv": "o yükümlü olur"
     },
     "imperfektIndikativ": {
-      "de": "sollte",
+      "de": "er sollte",
       "lv": "o yükümlü oldu"
     },
     "imperfektKonjunktiv": {
-      "de": "sollte",
+      "de": "er sollte",
       "lv": "o yükümlü olurdu"
     },
     "partizipVergangenheit": {
@@ -3067,11 +3067,11 @@ const VERB_ENTRIES = [
       "lv": "o birleştirir"
     },
     "imperfektIndikativ": {
-      "de": "spliss",
+      "de": "er spliss",
       "lv": "o birleştirdi"
     },
     "imperfektKonjunktiv": {
-      "de": "spliss",
+      "de": "er splisse",
       "lv": "o birleştirirdi"
     },
     "partizipVergangenheit": {
@@ -3177,11 +3177,11 @@ const VERB_ENTRIES = [
       "lv": "o sokar / takar"
     },
     "imperfektIndikativ": {
-      "de": "stak / steckte",
+      "de": "er stak / er steckte",
       "lv": "o soktu / taktı"
     },
     "imperfektKonjunktiv": {
-      "de": "stak / steckte",
+      "de": "er stäke / er steckte",
       "lv": "o sokardı / takardı"
     },
     "partizipVergangenheit": {
@@ -3287,11 +3287,11 @@ const VERB_ENTRIES = [
       "lv": "o kötü kokar"
     },
     "imperfektIndikativ": {
-      "de": "stank",
+      "de": "es stank",
       "lv": "o kötü koktu"
     },
     "imperfektKonjunktiv": {
-      "de": "stank",
+      "de": "es stänke",
       "lv": "o kötü kokardı"
     },
     "partizipVergangenheit": {
@@ -3481,7 +3481,7 @@ const VERB_ENTRIES = [
       "lv": "aldatmak"
     },
     "praesens": {
-      "de": "er trögt",
+      "de": "er trügt",
       "lv": "o aldatır"
     },
     "imperfektIndikativ": {
@@ -3573,7 +3573,7 @@ const VERB_ENTRIES = [
       "lv": "o unutur"
     },
     "imperfektIndikativ": {
-      "de": "er vergass",
+      "de": "er vergaß",
       "lv": "o unuttu"
     },
     "imperfektKonjunktiv": {
@@ -3661,11 +3661,11 @@ const VERB_ENTRIES = [
       "lv": "o dokur"
     },
     "imperfektIndikativ": {
-      "de": "wob",
+      "de": "er wob / er webte",
       "lv": "o dokudu"
     },
     "imperfektKonjunktiv": {
-      "de": "wob",
+      "de": "er wöbe / er webte",
       "lv": "o dokurdu"
     },
     "partizipVergangenheit": {
@@ -3771,11 +3771,11 @@ const VERB_ENTRIES = [
       "lv": "o olur"
     },
     "imperfektIndikativ": {
-      "de": "wurde",
+      "de": "er wurde",
       "lv": "o oldu"
     },
     "imperfektKonjunktiv": {
-      "de": "wurde",
+      "de": "er würde",
       "lv": "o olurdu"
     },
     "partizipVergangenheit": {
@@ -3881,11 +3881,11 @@ const VERB_ENTRIES = [
       "lv": "o ister"
     },
     "imperfektIndikativ": {
-      "de": "wollte",
+      "de": "er wollte",
       "lv": "o istedi"
     },
     "imperfektKonjunktiv": {
-      "de": "wollte",
+      "de": "er wollte",
       "lv": "o isterdi"
     },
     "partizipVergangenheit": {
@@ -3903,11 +3903,11 @@ const VERB_ENTRIES = [
       "lv": "o sıkar"
     },
     "imperfektIndikativ": {
-      "de": "wrang",
+      "de": "er wrang",
       "lv": "o sıktı"
     },
     "imperfektKonjunktiv": {
-      "de": "wrang",
+      "de": "er wränge",
       "lv": "o sıkardı"
     },
     "partizipVergangenheit": {
@@ -3925,11 +3925,11 @@ const VERB_ENTRIES = [
       "lv": "o suçlar"
     },
     "imperfektIndikativ": {
-      "de": "zieh",
+      "de": "er zieh",
       "lv": "o suçladı"
     },
     "imperfektKonjunktiv": {
-      "de": "zieh",
+      "de": "er ziehe",
       "lv": "o suçlardı"
     },
     "partizipVergangenheit": {
