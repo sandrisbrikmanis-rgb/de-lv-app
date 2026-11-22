@@ -15,12 +15,12 @@ const C1_WORDS = [
     "de": "Auswirkung",
     "de_article": "die",
     "de_plural": "die Auswirkungen",
-    "lv": "ietekme",
+    "lv": "sekas • iedarbība",
     "level": "C1"
   },
   {
     "de": "umstritten",
-    "lv": "pretrunīgs",
+    "lv": "apstrīdēts • strīdīgs",
     "level": "C1"
   },
   {
@@ -263,7 +263,7 @@ const C1_WORDS = [
     "de": "Bergwanderung",
     "de_article": "die",
     "de_plural": "die Bergwanderungen",
-    "lv": "kalnu tūrisms",
+    "lv": "pārgājiens kalnos",
     "level": "C1"
   },
   {
@@ -304,7 +304,7 @@ const C1_WORDS = [
     "de": "Autobahnbrücke",
     "de_article": "die",
     "de_plural": "die Autobahnbrücken",
-    "lv": "ceļa pārvads",
+    "lv": "autobāņa tilts",
     "level": "C1"
   },
   {
@@ -348,7 +348,7 @@ const C1_WORDS = [
   },
   {
     "de": "durchschnittlich",
-    "lv": "vidēji",
+    "lv": "vidējs • vidēji",
     "level": "C1"
   },
   {
@@ -609,7 +609,7 @@ const C1_WORDS = [
     "de": "Gepäckträger",
     "de_article": "der",
     "de_plural": "die Gepäckträger",
-    "lv": "bagāžnieks",
+    "lv": "bagāžas nesējs",
     "level": "C1"
   },
   {
@@ -1602,14 +1602,14 @@ const C1_WORDS = [
   {
     "de": "Schwiegereltern",
     "de_article": "die",
-    "lv": "vīra vecāki",
+    "lv": "vīra vai sievas vecāki",
     "level": "C1"
   },
   {
     "de": "Schwiegermutter",
     "de_article": "die",
     "de_plural": "die Schwiegermütter",
-    "lv": "vīramāte",
+    "lv": "vīramāte • sievasmāte",
     "level": "C1"
   },
   {
@@ -1623,7 +1623,7 @@ const C1_WORDS = [
     "de": "Schwiegervater",
     "de_article": "der",
     "de_plural": "die Schwiegerväter",
-    "lv": "vīratēvs",
+    "lv": "vīratēvs • sievastēvs",
     "level": "C1"
   },
   {
@@ -2371,7 +2371,7 @@ const C1_WORDS = [
   },
   {
     "de": "beanspruchen",
-    "lv": "prasīt • pretendēt • būt noslogotam",
+    "lv": "prasīt • pretendēt",
     "level": "C1"
   },
   {
@@ -2613,7 +2613,7 @@ const C1_WORDS = [
     "de": "Berufsberater",
     "de_article": "der",
     "de_plural": "die Berufsberater",
-    "lv": "darba konsultants",
+    "lv": "karjeras konsultants",
     "level": "C1"
   },
   {
@@ -2651,7 +2651,7 @@ const C1_WORDS = [
     "de": "Berufung",
     "de_article": "die",
     "de_plural": "die Berufungen",
-    "lv": "aicinājums • atsaukšanās",
+    "lv": "aicinājums • tieksme",
     "level": "C1",
     "study": {
       "id": "c1-berufung",
@@ -2893,7 +2893,7 @@ const C1_WORDS = [
     "de": "Betriebssystem",
     "de_article": "das",
     "de_plural": "die Betriebssysteme",
-    "lv": "datora instalācijas sistēma",
+    "lv": "operētājsistēma",
     "level": "C1"
   },
   {
@@ -2920,7 +2920,7 @@ const C1_WORDS = [
   },
   {
     "de": "bewerben, sich",
-    "lv": "pretendēt • kandidēt • censties • tiekties",
+    "lv": "pieteikties • pretendēt • kandidēt",
     "level": "C1"
   },
   {
@@ -3187,7 +3187,7 @@ const C1_WORDS = [
   },
   {
     "de": "sich einschmeicheln",
-    "lv": "pieglai­moties • pielabināties",
+    "lv": "pieglaimoties • pielabināties",
     "level": "C1"
   },
   {
@@ -3250,7 +3250,7 @@ const C1_WORDS = [
     "de": "Elementarregel",
     "de_article": "die",
     "de_plural": "die Elementarregeln",
-    "lv": "pamatlikums",
+    "lv": "pamatnoteikums",
     "level": "C1"
   },
   {
@@ -3706,7 +3706,7 @@ const C1_WORDS = [
   },
   {
     "de": "geistesschwach",
-    "lv": "garā vājš • plānprātīgs",
+    "lv": "plānprātīgs • garā vājš",
     "level": "C1"
   },
   {
@@ -4146,7 +4146,7 @@ const C1_WORDS = [
   },
   {
     "de": "haften",
-    "lv": "pielipt • būt pielipušam",
+    "lv": "galvot • atbildēt",
     "level": "C1"
   },
   {
@@ -4464,7 +4464,7 @@ const C1_WORDS = [
     "de": "Meineid",
     "de_article": "der",
     "de_plural": "die Meineide",
-    "lv": "apzināti nepatiesa liecība tiesā",
+    "lv": "nepatiesa liecība tiesā (apzināta)",
     "level": "C1"
   },
   {
@@ -4481,7 +4481,7 @@ const C1_WORDS = [
     "de": "Nachschlagewerk",
     "de_article": "das",
     "de_plural": "die Nachschlagewerke",
-    "lv": "uzziņu literatūra • vārdnīca • enciklopēdija",
+    "lv": "uzziņu izdevums",
     "level": "C1"
   },
   {
@@ -4602,7 +4602,7 @@ const C1_WORDS = [
     "de": "Rangierbahnhof",
     "de_article": "der",
     "de_plural": "die Rangierbahnhöfe",
-    "lv": "šķirotava dzelzceļa",
+    "lv": "dzelzceļa šķirotava",
     "level": "C1"
   },
   {
@@ -4625,7 +4625,7 @@ const C1_WORDS = [
   },
   {
     "de": "rechtswidrig",
-    "lv": "nelikumīgi",
+    "lv": "prettiesisks • nelikumīgs",
     "level": "C1"
   },
   {
@@ -4768,7 +4768,7 @@ const C1_WORDS = [
     "de": "Sinnestäuschung",
     "de_article": "die",
     "de_plural": "die Sinnestäuschungen",
-    "lv": "halucinācija",
+    "lv": "maņu mānīšanās • halucinācija",
     "level": "C1"
   },
   {
@@ -4847,7 +4847,7 @@ const C1_WORDS = [
   },
   {
     "de": "synchronisieren",
-    "lv": "dublēt filmu",
+    "lv": "sinhronizēt • dublēt filmu",
     "level": "C1"
   },
   {
@@ -4860,7 +4860,7 @@ const C1_WORDS = [
     "de": "Transfusion",
     "de_article": "die",
     "de_plural": "die Transfusionen",
-    "lv": "tieša asins pārliešana no viena cilvēka citam",
+    "lv": "asins pārliešana",
     "level": "C1"
   },
   {
@@ -4932,7 +4932,7 @@ const C1_WORDS = [
   },
   {
     "de": "verabschieden",
-    "lv": "atvadīties",
+    "lv": "pavadīt • pieņemt (likumu)",
     "level": "C1",
     "study": {
       "id": "c1-verabschieden",
@@ -5294,7 +5294,7 @@ const C1_WORDS = [
   },
   {
     "de": "vervollkommnen",
-    "lv": "papildināt • uzlabot",
+    "lv": "pilnveidot",
     "level": "C1"
   },
   {

@@ -441,7 +441,7 @@ const C2_WORDS = [
     "de": "Streichinstrument",
     "de_article": "das",
     "de_plural": "die Streichinstrumente",
-    "lv": "stīgu instruments",
+    "lv": "lociņinstruments",
     "level": "C2"
   },
   {
@@ -840,7 +840,7 @@ const C2_WORDS = [
     "de": "Bereitschaftsdienst",
     "de_article": "der",
     "de_plural": "die Bereitschaftsdienste",
-    "lv": "operatīvais dienests",
+    "lv": "dežūrdienests",
     "level": "C2"
   },
   {
@@ -1077,7 +1077,7 @@ const C2_WORDS = [
     "de": "Dorfgemeinschaft",
     "de_article": "die",
     "de_plural": "die Dorfgemeinschaften",
-    "lv": "ciema iedzīvotāji",
+    "lv": "ciema kopiena",
     "level": "C2"
   },
   {
@@ -1312,7 +1312,7 @@ const C2_WORDS = [
     "de": "Lebenserhaltungstrieb",
     "de_article": "der",
     "de_plural": "die Lebenserhaltungstriebe",
-    "lv": "dzīvības dziņa",
+    "lv": "pašsaglabāšanās instinkts",
     "level": "C2"
   },
   {
