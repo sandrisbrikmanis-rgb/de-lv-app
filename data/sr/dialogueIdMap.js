@@ -144,7 +144,7 @@ const DIALOGUE_ID_MAP = {
     "lv": "Сакам да и ги мијам забите."
   },
   "diag_037": {
-    "de": "Mit was putzt du dir die Zähne?",
+    "de": "Womit putzt du dir die Zähne?",
     "lv": "Со што ги чистите забите?"
   },
   "diag_038": {

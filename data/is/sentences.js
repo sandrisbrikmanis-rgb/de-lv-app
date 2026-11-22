@@ -175,7 +175,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Entweder... oder...",
+    "de": "Entweder ... oder ...",
     "lv": "Annaðhvort ... eða ...",
     "level": "Sätze"
   },
@@ -280,7 +280,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Was mich anbelangt,...",
+    "de": "Was mich anbelangt, ...",
     "lv": "Hvað mig varðar ...",
     "level": "Sätze"
   },
@@ -505,7 +505,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Nehmen wir an, dass...",
+    "de": "Nehmen wir an, dass ...",
     "lv": "Gefum okkur að ...",
     "level": "Sätze"
   },
@@ -525,7 +525,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Meiner Ansicht nach...",
+    "de": "Meiner Ansicht nach ...",
     "lv": "Að mínu mati ...",
     "level": "Sätze"
   },
@@ -780,7 +780,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Unter der Bedingung, dass...",
+    "de": "Unter der Bedingung, dass ...",
     "lv": "Með því skilyrði að ...",
     "level": "Sätze"
   },
@@ -1000,7 +1000,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Seine Aufgabe besteht darin...",
+    "de": "Seine Aufgabe besteht darin ...",
     "lv": "Verkefni hans felst í því að ...",
     "level": "Sätze"
   },
@@ -1180,7 +1180,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "So dass...",
+    "de": "So dass ...",
     "lv": "Þannig að ...",
     "level": "Sätze"
   },
@@ -1245,7 +1245,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Ich muss gestehen, dass...",
+    "de": "Ich muss gestehen, dass ...",
     "lv": "Ég verð að viðurkenna að ...",
     "level": "Sätze"
   },
@@ -1260,7 +1260,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Es ist mir gleichgültig, ob...",
+    "de": "Es ist mir gleichgültig, ob ...",
     "lv": "Mér er sama hvort ...",
     "level": "Sätze"
   },
@@ -1275,7 +1275,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Geschweige denn...",
+    "de": "Geschweige denn ...",
     "lv": "Hvað þá ...",
     "level": "Sätze"
   },
@@ -1290,7 +1290,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Frag ihn gelegentlich, ob...",
+    "de": "Frag ihn gelegentlich, ob ...",
     "lv": "Spurðu hann við tækifæri hvort ...",
     "level": "Sätze"
   },
@@ -1310,7 +1310,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Aus diesem Brief folgt, dass...",
+    "de": "Aus diesem Brief folgt, dass ...",
     "lv": "Af þessu bréfi má ráða að ...",
     "level": "Sätze"
   },
@@ -1320,12 +1320,12 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Er ist kein Freund von...",
+    "de": "Er ist kein Freund von ...",
     "lv": "Hann er ekki hrifinn af ...",
     "level": "Sätze"
   },
   {
-    "de": "Es erwies sich, dass...",
+    "de": "Es erwies sich, dass ...",
     "lv": "Í ljós kom að ...",
     "level": "Sätze"
   },
@@ -1345,7 +1345,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Es jammert mich zu sehen...",
+    "de": "Es jammert mich zu sehen ...",
     "lv": "Það tekur mig sárt að sjá ...",
     "level": "Sätze"
   },
@@ -1615,7 +1615,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Man sagt, dass...",
+    "de": "Man sagt, dass ...",
     "lv": "Sagt er að ...",
     "level": "Sätze"
   },
@@ -1645,7 +1645,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Wie sehr auch...",
+    "de": "Wie sehr auch ...",
     "lv": "Hversu mikið sem ...",
     "level": "Sätze"
   },
@@ -1665,7 +1665,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Nicht nur..., sondern auch...",
+    "de": "Nicht nur ..., sondern auch ...",
     "lv": "Ekki aðeins ... heldur einnig ...",
     "level": "Sätze"
   },
@@ -1695,7 +1695,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Statt zu...",
+    "de": "Statt zu ...",
     "lv": "Í stað þess að ...",
     "level": "Sätze"
   },
@@ -1790,7 +1790,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Auf Unkosten von...",
+    "de": "Auf Unkosten von ...",
     "lv": "Á kostnað ... • Til skaða fyrir ...",
     "level": "Sätze"
   },
@@ -1905,7 +1905,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Unter der Voraussetzung, dass...",
+    "de": "Unter der Voraussetzung, dass ...",
     "lv": "Með því skilyrði að ...",
     "level": "Sätze"
   },
@@ -2020,7 +2020,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Was für ein...?",
+    "de": "Was für ein ...?",
     "lv": "Hvers konar ...?",
     "level": "Sätze"
   },
@@ -2130,7 +2130,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Er ist wert, dass...",
+    "de": "Er ist wert, dass ...",
     "lv": "Hann á skilið að ...",
     "level": "Sätze"
   },
@@ -2540,7 +2540,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Mit was putzt du dir die Zähne?",
+    "de": "Womit putzt du dir die Zähne?",
     "lv": "Með hverju burstar þú tennurnar?",
     "level": "Sätze"
   },

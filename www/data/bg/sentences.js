@@ -175,7 +175,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Entweder... oder...",
+    "de": "Entweder ... oder ...",
     "lv": "Или... или...",
     "level": "Sätze"
   },
@@ -280,7 +280,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Was mich anbelangt,...",
+    "de": "Was mich anbelangt, ...",
     "lv": "Що се отнася до мен,...",
     "level": "Sätze"
   },
@@ -505,7 +505,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Nehmen wir an, dass...",
+    "de": "Nehmen wir an, dass ...",
     "lv": "Да предположим, че...",
     "level": "Sätze"
   },
@@ -525,7 +525,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Meiner Ansicht nach...",
+    "de": "Meiner Ansicht nach ...",
     "lv": "Според мен...",
     "level": "Sätze"
   },
@@ -780,7 +780,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Unter der Bedingung, dass...",
+    "de": "Unter der Bedingung, dass ...",
     "lv": "При условие че...",
     "level": "Sätze"
   },
@@ -1000,7 +1000,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Seine Aufgabe besteht darin...",
+    "de": "Seine Aufgabe besteht darin ...",
     "lv": "Задачата му се състои в това да...",
     "level": "Sätze"
   },
@@ -1180,7 +1180,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "So dass...",
+    "de": "So dass ...",
     "lv": "Така че...",
     "level": "Sätze"
   },
@@ -1245,7 +1245,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Ich muss gestehen, dass...",
+    "de": "Ich muss gestehen, dass ...",
     "lv": "Трябва да призная, че...",
     "level": "Sätze"
   },
@@ -1260,7 +1260,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Es ist mir gleichgültig, ob...",
+    "de": "Es ist mir gleichgültig, ob ...",
     "lv": "Безразлично ми е дали...",
     "level": "Sätze"
   },
@@ -1275,7 +1275,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Geschweige denn...",
+    "de": "Geschweige denn ...",
     "lv": "Да не говорим за... • Още по-малко...",
     "level": "Sätze"
   },
@@ -1290,7 +1290,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Frag ihn gelegentlich, ob...",
+    "de": "Frag ihn gelegentlich, ob ...",
     "lv": "Попитай го, когато имаш възможност, дали...",
     "level": "Sätze"
   },
@@ -1310,7 +1310,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Aus diesem Brief folgt, dass...",
+    "de": "Aus diesem Brief folgt, dass ...",
     "lv": "От това писмо следва, че...",
     "level": "Sätze"
   },
@@ -1320,12 +1320,12 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Er ist kein Freund von...",
+    "de": "Er ist kein Freund von ...",
     "lv": "Той не е любител на...",
     "level": "Sätze"
   },
   {
-    "de": "Es erwies sich, dass...",
+    "de": "Es erwies sich, dass ...",
     "lv": "Оказа се, че...",
     "level": "Sätze"
   },
@@ -1345,7 +1345,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Es jammert mich zu sehen...",
+    "de": "Es jammert mich zu sehen ...",
     "lv": "Жал ми е да гледам...",
     "level": "Sätze"
   },
@@ -1615,7 +1615,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Man sagt, dass...",
+    "de": "Man sagt, dass ...",
     "lv": "Казват, че...",
     "level": "Sätze"
   },
@@ -1645,7 +1645,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Wie sehr auch...",
+    "de": "Wie sehr auch ...",
     "lv": "Колкото и да...",
     "level": "Sätze"
   },
@@ -1665,7 +1665,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Nicht nur..., sondern auch...",
+    "de": "Nicht nur ..., sondern auch ...",
     "lv": "Не само..., но и...",
     "level": "Sätze"
   },
@@ -1695,7 +1695,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Statt zu...",
+    "de": "Statt zu ...",
     "lv": "Вместо да...",
     "level": "Sätze"
   },
@@ -1790,7 +1790,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Auf Unkosten von...",
+    "de": "Auf Unkosten von ...",
     "lv": "За сметка на...",
     "level": "Sätze"
   },
@@ -1905,7 +1905,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Unter der Voraussetzung, dass...",
+    "de": "Unter der Voraussetzung, dass ...",
     "lv": "При условие че...",
     "level": "Sätze"
   },
@@ -2020,7 +2020,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Was für ein...?",
+    "de": "Was für ein ...?",
     "lv": "Какъв...? • Що за...?",
     "level": "Sätze"
   },
@@ -2130,7 +2130,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Er ist wert, dass...",
+    "de": "Er ist wert, dass ...",
     "lv": "Заслужава да...",
     "level": "Sätze"
   },
@@ -2540,7 +2540,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Mit was putzt du dir die Zähne?",
+    "de": "Womit putzt du dir die Zähne?",
     "lv": "С какво си миеш зъбите?",
     "level": "Sätze"
   },

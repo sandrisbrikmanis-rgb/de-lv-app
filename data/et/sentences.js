@@ -175,7 +175,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Entweder... oder...",
+    "de": "Entweder ... oder ...",
     "lv": "Kas... või...",
     "level": "Sätze"
   },
@@ -280,7 +280,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Was mich anbelangt,...",
+    "de": "Was mich anbelangt, ...",
     "lv": "Mis minusse puutub,...",
     "level": "Sätze"
   },
@@ -505,7 +505,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Nehmen wir an, dass...",
+    "de": "Nehmen wir an, dass ...",
     "lv": "Oletame, et...",
     "level": "Sätze"
   },
@@ -525,7 +525,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Meiner Ansicht nach...",
+    "de": "Meiner Ansicht nach ...",
     "lv": "Minu arvates...",
     "level": "Sätze"
   },
@@ -780,7 +780,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Unter der Bedingung, dass...",
+    "de": "Unter der Bedingung, dass ...",
     "lv": "Tingimusel, et...",
     "level": "Sätze"
   },
@@ -1000,7 +1000,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Seine Aufgabe besteht darin...",
+    "de": "Seine Aufgabe besteht darin ...",
     "lv": "Tema ülesanne seisneb selles...",
     "level": "Sätze"
   },
@@ -1180,7 +1180,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "So dass...",
+    "de": "So dass ...",
     "lv": "Nii et...",
     "level": "Sätze"
   },
@@ -1245,7 +1245,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Ich muss gestehen, dass...",
+    "de": "Ich muss gestehen, dass ...",
     "lv": "Pean tunnistama, et...",
     "level": "Sätze"
   },
@@ -1260,7 +1260,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Es ist mir gleichgültig, ob...",
+    "de": "Es ist mir gleichgültig, ob ...",
     "lv": "Mulle on ükskõik, kas...",
     "level": "Sätze"
   },
@@ -1275,7 +1275,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Geschweige denn...",
+    "de": "Geschweige denn ...",
     "lv": "Rääkimata...",
     "level": "Sätze"
   },
@@ -1290,7 +1290,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Frag ihn gelegentlich, ob...",
+    "de": "Frag ihn gelegentlich, ob ...",
     "lv": "Küsi temalt võimaluse korral, kas...",
     "level": "Sätze"
   },
@@ -1310,7 +1310,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Aus diesem Brief folgt, dass...",
+    "de": "Aus diesem Brief folgt, dass ...",
     "lv": "Sellest kirjast järeldub, et...",
     "level": "Sätze"
   },
@@ -1320,12 +1320,12 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Er ist kein Freund von...",
+    "de": "Er ist kein Freund von ...",
     "lv": "Talle ei meeldi...",
     "level": "Sätze"
   },
   {
-    "de": "Es erwies sich, dass...",
+    "de": "Es erwies sich, dass ...",
     "lv": "Selgus, et...",
     "level": "Sätze"
   },
@@ -1345,7 +1345,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Es jammert mich zu sehen...",
+    "de": "Es jammert mich zu sehen ...",
     "lv": "Mul on valus näha...",
     "level": "Sätze"
   },
@@ -1615,7 +1615,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Man sagt, dass...",
+    "de": "Man sagt, dass ...",
     "lv": "Räägitakse, et...",
     "level": "Sätze"
   },
@@ -1645,7 +1645,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Wie sehr auch...",
+    "de": "Wie sehr auch ...",
     "lv": "Kui väga ka...",
     "level": "Sätze"
   },
@@ -1665,7 +1665,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Nicht nur..., sondern auch...",
+    "de": "Nicht nur ..., sondern auch ...",
     "lv": "Mitte ainult..., vaid ka...",
     "level": "Sätze"
   },
@@ -1695,7 +1695,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Statt zu...",
+    "de": "Statt zu ...",
     "lv": "Selle asemel, et...",
     "level": "Sätze"
   },
@@ -1790,7 +1790,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Auf Unkosten von...",
+    "de": "Auf Unkosten von ...",
     "lv": "Kellegi kulul...",
     "level": "Sätze"
   },
@@ -1905,7 +1905,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Unter der Voraussetzung, dass...",
+    "de": "Unter der Voraussetzung, dass ...",
     "lv": "Eeldusel, et...",
     "level": "Sätze"
   },
@@ -2020,7 +2020,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Was für ein...?",
+    "de": "Was für ein ...?",
     "lv": "Milline...?",
     "level": "Sätze"
   },
@@ -2130,7 +2130,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Er ist wert, dass...",
+    "de": "Er ist wert, dass ...",
     "lv": "Ta väärib, et...",
     "level": "Sätze"
   },
@@ -2540,7 +2540,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Mit was putzt du dir die Zähne?",
+    "de": "Womit putzt du dir die Zähne?",
     "lv": "Millega sa hambaid pesed?",
     "level": "Sätze"
   },

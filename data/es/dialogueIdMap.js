@@ -144,7 +144,7 @@ const DIALOGUE_ID_MAP = {
     "lv": "Gribu notīrīt zobus."
   },
   "diag_037": {
-    "de": "Mit was putzt du dir die Zähne?",
+    "de": "Womit putzt du dir die Zähne?",
     "lv": "Ar ko tu tīri zobus ?"
   },
   "diag_038": {

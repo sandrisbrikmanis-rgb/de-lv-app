@@ -175,7 +175,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Entweder... oder...",
+    "de": "Entweder ... oder ...",
     "lv": "Soit... soit...",
     "level": "Sätze"
   },
@@ -280,7 +280,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Was mich anbelangt,...",
+    "de": "Was mich anbelangt, ...",
     "lv": "En ce qui me concerne,...",
     "level": "Sätze"
   },
@@ -505,7 +505,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Nehmen wir an, dass...",
+    "de": "Nehmen wir an, dass ...",
     "lv": "Supposons que...",
     "level": "Sätze"
   },
@@ -525,7 +525,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Meiner Ansicht nach...",
+    "de": "Meiner Ansicht nach ...",
     "lv": "À mon avis...",
     "level": "Sätze"
   },
@@ -780,7 +780,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Unter der Bedingung, dass...",
+    "de": "Unter der Bedingung, dass ...",
     "lv": "À condition que...",
     "level": "Sätze"
   },
@@ -1000,7 +1000,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Seine Aufgabe besteht darin...",
+    "de": "Seine Aufgabe besteht darin ...",
     "lv": "Sa tâche consiste à...",
     "level": "Sätze"
   },
@@ -1180,7 +1180,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "So dass...",
+    "de": "So dass ...",
     "lv": "De sorte que...",
     "level": "Sätze"
   },
@@ -1245,7 +1245,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Ich muss gestehen, dass...",
+    "de": "Ich muss gestehen, dass ...",
     "lv": "Je dois avouer que...",
     "level": "Sätze"
   },
@@ -1260,7 +1260,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Es ist mir gleichgültig, ob...",
+    "de": "Es ist mir gleichgültig, ob ...",
     "lv": "Peu m'importe que...",
     "level": "Sätze"
   },
@@ -1275,7 +1275,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Geschweige denn...",
+    "de": "Geschweige denn ...",
     "lv": "Et encore moins...",
     "level": "Sätze"
   },
@@ -1290,7 +1290,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Frag ihn gelegentlich, ob...",
+    "de": "Frag ihn gelegentlich, ob ...",
     "lv": "Demande-lui à l'occasion si...",
     "level": "Sätze"
   },
@@ -1310,7 +1310,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Aus diesem Brief folgt, dass...",
+    "de": "Aus diesem Brief folgt, dass ...",
     "lv": "Il ressort de cette lettre que...",
     "level": "Sätze"
   },
@@ -1320,12 +1320,12 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Er ist kein Freund von...",
+    "de": "Er ist kein Freund von ...",
     "lv": "Il n'est pas amateur de...",
     "level": "Sätze"
   },
   {
-    "de": "Es erwies sich, dass...",
+    "de": "Es erwies sich, dass ...",
     "lv": "Il s'est avéré que...",
     "level": "Sätze"
   },
@@ -1345,7 +1345,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Es jammert mich zu sehen...",
+    "de": "Es jammert mich zu sehen ...",
     "lv": "Cela me fait de la peine de voir...",
     "level": "Sätze"
   },
@@ -1615,7 +1615,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Man sagt, dass...",
+    "de": "Man sagt, dass ...",
     "lv": "On dit que...",
     "level": "Sätze"
   },
@@ -1645,7 +1645,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Wie sehr auch...",
+    "de": "Wie sehr auch ...",
     "lv": "Si fort que...",
     "level": "Sätze"
   },
@@ -1665,7 +1665,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Nicht nur..., sondern auch...",
+    "de": "Nicht nur ..., sondern auch ...",
     "lv": "Non seulement..., mais aussi...",
     "level": "Sätze"
   },
@@ -1695,7 +1695,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Statt zu...",
+    "de": "Statt zu ...",
     "lv": "Au lieu de...",
     "level": "Sätze"
   },
@@ -1790,7 +1790,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Auf Unkosten von...",
+    "de": "Auf Unkosten von ...",
     "lv": "Aux dépens de...",
     "level": "Sätze"
   },
@@ -1905,7 +1905,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Unter der Voraussetzung, dass...",
+    "de": "Unter der Voraussetzung, dass ...",
     "lv": "À condition que...",
     "level": "Sätze"
   },
@@ -2020,7 +2020,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Was für ein...?",
+    "de": "Was für ein ...?",
     "lv": "Quel genre de... ?",
     "level": "Sätze"
   },
@@ -2130,7 +2130,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Er ist wert, dass...",
+    "de": "Er ist wert, dass ...",
     "lv": "Il mérite que...",
     "level": "Sätze"
   },
@@ -2540,7 +2540,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Mit was putzt du dir die Zähne?",
+    "de": "Womit putzt du dir die Zähne?",
     "lv": "Avec quoi te brosses-tu les dents ?",
     "level": "Sätze"
   },

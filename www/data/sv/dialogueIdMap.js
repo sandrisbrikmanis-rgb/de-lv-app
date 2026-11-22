@@ -144,7 +144,7 @@ const DIALOGUE_ID_MAP = {
     "lv": "Tahan hambaid pesta."
   },
   "diag_037": {
-    "de": "Mit was putzt du dir die Zähne?",
+    "de": "Womit putzt du dir die Zähne?",
     "lv": "Millega sa hambaid pesed?"
   },
   "diag_038": {
