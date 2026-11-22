@@ -2903,7 +2903,7 @@ const C1_WORDS = [
     "level": "C1"
   },
   {
-    "de": "bewähren, sich",
+    "de": "sich bewähren",
     "lv": "demostrar su eficacia • dar buenos resultados",
     "level": "C1"
   },
@@ -2915,7 +2915,7 @@ const C1_WORDS = [
     "level": "C1"
   },
   {
-    "de": "bewerben, sich",
+    "de": "sich bewerben",
     "lv": "presentar una candidatura • solicitar un puesto",
     "level": "C1"
   },

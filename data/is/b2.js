@@ -353,7 +353,7 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "anfreunden",
+    "de": "sich anfreunden",
     "lv": "vingast",
     "level": "B2"
   },
@@ -4626,7 +4626,7 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "bewähren",
+    "de": "sich bewähren",
     "lv": "reynast vel • sanna sig",
     "level": "B2"
   },
@@ -5941,7 +5941,7 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "deplaziert",
+    "de": "deplatziert",
     "lv": "óviðeigandi • á röngum stað",
     "level": "B2"
   },
@@ -13821,8 +13821,7 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "Geratewohl",
-    "de_article": "das",
+    "de": "aufs Geratewohl",
     "lv": "á hendingu",
     "level": "B2"
   },
@@ -18704,7 +18703,7 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "liebkosten",
+    "de": "liebkosen",
     "lv": "gæla við • strjúka",
     "level": "B2"
   },
@@ -19031,9 +19030,9 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "Matinée",
+    "de": "Matinee",
     "de_article": "die",
-    "de_plural": "die Matinéen",
+    "de_plural": "die Matineen",
     "lv": "dagsýning • morgunsýning",
     "level": "B2"
   },
@@ -21353,12 +21352,12 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "schärfsichtig",
+    "de": "scharfsichtig",
     "lv": "skarpskyggn • glöggur",
     "level": "B2"
   },
   {
-    "de": "schärfsinnig",
+    "de": "scharfsinnig",
     "lv": "skarpgáfaður • hugvitssamur",
     "level": "B2"
   },
@@ -23665,7 +23664,7 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "umhören, sich",
+    "de": "sich umhören",
     "lv": "spyrjast fyrir",
     "level": "B2"
   },

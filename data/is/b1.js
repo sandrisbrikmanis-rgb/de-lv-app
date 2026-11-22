@@ -24550,7 +24550,7 @@ const B1_WORDS = [
   },
   {
     "de": "Ersatzteil",
-    "de_article": "der",
+    "de_article": "das",
     "de_plural": "die Ersatzteile",
     "lv": "varahlutur",
     "level": "B1"
@@ -27708,7 +27708,7 @@ const B1_WORDS = [
   },
   {
     "de": "Gänsefüßchen",
-    "de_article": "die",
+    "de_article": "das",
     "de_plural": "die Gänsefüßchen",
     "lv": "gæsalappir",
     "level": "B1"
@@ -31857,7 +31857,7 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "halt machen",
+    "de": "haltmachen",
     "lv": "stansa • nema staðar",
     "level": "B1"
   },
@@ -42209,7 +42209,7 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "lahm legen",
+    "de": "lahmlegen",
     "lv": "lama",
     "level": "B1"
   },
@@ -50004,7 +50004,7 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "orientieren",
+    "de": "sich orientieren",
     "lv": "átta sig",
     "level": "B1",
     "study": {
@@ -59009,7 +59009,7 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "schwer fallen",
+    "de": "schwerfallen",
     "lv": "veitast erfitt • reynast erfitt",
     "level": "B1"
   },
@@ -63908,9 +63908,9 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "Strichkode",
+    "de": "Strichcode",
     "de_article": "der",
-    "de_plural": "die Strichkodes",
+    "de_plural": "die Strichcodes",
     "lv": "strikamerki",
     "level": "B1"
   },

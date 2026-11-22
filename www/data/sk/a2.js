@@ -1937,7 +1937,7 @@ const A2_WORDS = [
   },
   {
     "de": "Aerobic",
-    "de_article": "die",
+    "de_article": "das",
     "de_plural": null,
     "lv": "aerobik",
     "level": "A2"
@@ -25171,7 +25171,7 @@ const A2_WORDS = [
     }
   },
   {
-    "de": "kennen lernen",
+    "de": "kennenlernen",
     "lv": "spoznať • zoznámiť sa",
     "level": "A2"
   },
@@ -29411,7 +29411,7 @@ const A2_WORDS = [
   },
   {
     "de": "Lebensmittel",
-    "de_article": "die",
+    "de_article": "das",
     "de_plural": "die Lebensmittel",
     "lv": "potraviny",
     "level": "A2"
@@ -32595,7 +32595,7 @@ const A2_WORDS = [
   },
   {
     "de": "Nahrungsmittel",
-    "de_article": "die",
+    "de_article": "das",
     "de_plural": "die Nahrungsmittel",
     "lv": "potraviny",
     "level": "A2"
@@ -32953,7 +32953,7 @@ const A2_WORDS = [
     "level": "A2"
   },
   {
-    "de": "nu",
+    "de": "im Nu",
     "lv": "okamžite",
     "level": "A2"
   },

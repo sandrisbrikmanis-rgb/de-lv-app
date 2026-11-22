@@ -1946,7 +1946,7 @@ const A2_WORDS = [
   },
   {
     "de": "Aerobic",
-    "de_article": "die",
+    "de_article": "das",
     "de_plural": null,
     "lv": "aeroobika",
     "level": "A2"
@@ -25220,7 +25220,7 @@ const A2_WORDS = [
     }
   },
   {
-    "de": "kennen lernen",
+    "de": "kennenlernen",
     "lv": "tutvuma",
     "level": "A2"
   },
@@ -29456,7 +29456,7 @@ const A2_WORDS = [
   },
   {
     "de": "Lebensmittel",
-    "de_article": "die",
+    "de_article": "das",
     "de_plural": "die Lebensmittel",
     "lv": "toiduained • toidukaubad",
     "level": "A2"
@@ -32645,7 +32645,7 @@ const A2_WORDS = [
   },
   {
     "de": "Nahrungsmittel",
-    "de_article": "die",
+    "de_article": "das",
     "de_plural": "die Nahrungsmittel",
     "lv": "toiduained",
     "level": "A2"
@@ -33002,7 +33002,7 @@ const A2_WORDS = [
     "level": "A2"
   },
   {
-    "de": "nu",
+    "de": "im Nu",
     "lv": "hetk • silmapilk",
     "level": "A2"
   },

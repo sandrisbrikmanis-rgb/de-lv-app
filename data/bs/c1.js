@@ -2906,7 +2906,7 @@ const C1_WORDS = [
     "level": "C1"
   },
   {
-    "de": "bewähren, sich",
+    "de": "sich bewähren",
     "lv": "pokazati se dobrim • potvrditi se",
     "level": "C1"
   },
@@ -2918,7 +2918,7 @@ const C1_WORDS = [
     "level": "C1"
   },
   {
-    "de": "bewerben, sich",
+    "de": "sich bewerben",
     "lv": "prijaviti se • kandidovati se • konkurisati",
     "level": "C1"
   },

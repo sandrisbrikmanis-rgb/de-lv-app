@@ -2903,7 +2903,7 @@ const C1_WORDS = [
     "level": "C1"
   },
   {
-    "de": "bewähren, sich",
+    "de": "sich bewähren",
     "lv": "At vise sig egnet • At holde stik",
     "level": "C1"
   },
@@ -2915,7 +2915,7 @@ const C1_WORDS = [
     "level": "C1"
   },
   {
-    "de": "bewerben, sich",
+    "de": "sich bewerben",
     "lv": "At søge • At ansøge",
     "level": "C1"
   },

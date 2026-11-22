@@ -354,7 +354,7 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "anfreunden",
+    "de": "sich anfreunden",
     "lv": "Spřátelit se",
     "level": "B2"
   },
@@ -4620,7 +4620,7 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "bewähren",
+    "de": "sich bewähren",
     "lv": "Osvědčit se",
     "level": "B2"
   },
@@ -5933,7 +5933,7 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "deplaziert",
+    "de": "deplatziert",
     "lv": "Nevhodný • Nemístný • Nevčasný",
     "level": "B2"
   },
@@ -13825,8 +13825,7 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "Geratewohl",
-    "de_article": "das",
+    "de": "aufs Geratewohl",
     "lv": "Naslepo • Nazdařbůh",
     "level": "B2"
   },
@@ -18707,7 +18706,7 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "liebkosten",
+    "de": "liebkosen",
     "lv": "Hladit • Mazlit se",
     "level": "B2"
   },
@@ -19034,9 +19033,9 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "Matinée",
+    "de": "Matinee",
     "de_article": "die",
-    "de_plural": "die Matinéen",
+    "de_plural": "die Matineen",
     "lv": "Dopolední představení • Matiné",
     "level": "B2"
   },
@@ -21356,12 +21355,12 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "schärfsichtig",
+    "de": "scharfsichtig",
     "lv": "S ostrým pohledem • Pozorný",
     "level": "B2"
   },
   {
-    "de": "schärfsinnig",
+    "de": "scharfsinnig",
     "lv": "Bystrý • S bystrým rozumem • Důvtipný",
     "level": "B2"
   },
@@ -23664,7 +23663,7 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "umhören, sich",
+    "de": "sich umhören",
     "lv": "Poptat se",
     "level": "B2"
   },

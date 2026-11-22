@@ -353,7 +353,7 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "anfreunden",
+    "de": "sich anfreunden",
     "lv": "se lier d'amitié",
     "level": "B2"
   },
@@ -4626,7 +4626,7 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "bewähren",
+    "de": "sich bewähren",
     "lv": "faire ses preuves",
     "level": "B2"
   },
@@ -5941,7 +5941,7 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "deplaziert",
+    "de": "deplatziert",
     "lv": "déplacé • inapproprié • inopportun",
     "level": "B2"
   },
@@ -13821,8 +13821,7 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "Geratewohl",
-    "de_article": "das",
+    "de": "aufs Geratewohl",
     "lv": "hasard • au petit bonheur",
     "level": "B2"
   },
@@ -18704,7 +18703,7 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "liebkosten",
+    "de": "liebkosen",
     "lv": "caresser • câliner",
     "level": "B2"
   },
@@ -19031,9 +19030,9 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "Matinée",
+    "de": "Matinee",
     "de_article": "die",
-    "de_plural": "die Matinéen",
+    "de_plural": "die Matineen",
     "lv": "matinée",
     "level": "B2"
   },
@@ -21353,12 +21352,12 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "schärfsichtig",
+    "de": "scharfsichtig",
     "lv": "perspicace • à la vue perçante",
     "level": "B2"
   },
   {
-    "de": "schärfsinnig",
+    "de": "scharfsinnig",
     "lv": "perspicace • sagace • ingénieux",
     "level": "B2"
   },
@@ -23665,7 +23664,7 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "umhören, sich",
+    "de": "sich umhören",
     "lv": "se renseigner • demander autour de soi",
     "level": "B2"
   },

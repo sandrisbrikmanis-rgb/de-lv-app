@@ -1937,7 +1937,7 @@ const A2_WORDS = [
   },
   {
     "de": "Aerobic",
-    "de_article": "die",
+    "de_article": "das",
     "de_plural": null,
     "lv": "aerobik",
     "level": "A2"
@@ -25172,7 +25172,7 @@ const A2_WORDS = [
     }
   },
   {
-    "de": "kennen lernen",
+    "de": "kennenlernen",
     "lv": "tanışmak • tanımak",
     "level": "A2"
   },
@@ -29412,7 +29412,7 @@ const A2_WORDS = [
   },
   {
     "de": "Lebensmittel",
-    "de_article": "die",
+    "de_article": "das",
     "de_plural": "die Lebensmittel",
     "lv": "gıda maddeleri • yiyecek",
     "level": "A2"
@@ -32596,7 +32596,7 @@ const A2_WORDS = [
   },
   {
     "de": "Nahrungsmittel",
-    "de_article": "die",
+    "de_article": "das",
     "de_plural": "die Nahrungsmittel",
     "lv": "gıda maddeleri • besin maddeleri",
     "level": "A2"
@@ -32954,7 +32954,7 @@ const A2_WORDS = [
     "level": "A2"
   },
   {
-    "de": "nu",
+    "de": "im Nu",
     "lv": "bir anda • hemen",
     "level": "A2"
   },

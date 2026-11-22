@@ -2907,7 +2907,7 @@ const C1_WORDS = [
     "level": "C1"
   },
   {
-    "de": "bewähren, sich",
+    "de": "sich bewähren",
     "lv": "підтверджуватися • підтвердитися • виправдовувати себе • виправдати себе",
     "level": "C1"
   },
@@ -2919,7 +2919,7 @@ const C1_WORDS = [
     "level": "C1"
   },
   {
-    "de": "bewerben, sich",
+    "de": "sich bewerben",
     "lv": "претендувати • балотуватися • прагнути",
     "level": "C1"
   },

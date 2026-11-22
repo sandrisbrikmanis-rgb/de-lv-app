@@ -353,7 +353,7 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "anfreunden",
+    "de": "sich anfreunden",
     "lv": "hacerse amigo",
     "level": "B2"
   },
@@ -4635,7 +4635,7 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "bewähren",
+    "de": "sich bewähren",
     "lv": "demostrar su valía • resultar eficaz",
     "level": "B2"
   },
@@ -5950,7 +5950,7 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "deplaziert",
+    "de": "deplatziert",
     "lv": "inapropiado • fuera de lugar • fuera de tiempo",
     "level": "B2"
   },
@@ -13831,8 +13831,7 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "Geratewohl",
-    "de_article": "das",
+    "de": "aufs Geratewohl",
     "lv": "al azar",
     "level": "B2"
   },
@@ -18710,7 +18709,7 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "liebkosten",
+    "de": "liebkosen",
     "lv": "acariciar • mimar",
     "level": "B2"
   },
@@ -19037,9 +19036,9 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "Matinée",
+    "de": "Matinee",
     "de_article": "die",
-    "de_plural": "die Matinéen",
+    "de_plural": "die Matineen",
     "lv": "función matinal",
     "level": "B2"
   },
@@ -21359,12 +21358,12 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "schärfsichtig",
+    "de": "scharfsichtig",
     "lv": "de vista aguda • perspicaz",
     "level": "B2"
   },
   {
-    "de": "schärfsinnig",
+    "de": "scharfsinnig",
     "lv": "perspicaz • de mente aguda",
     "level": "B2"
   },
@@ -23669,7 +23668,7 @@ const B2_WORDS = [
     "level": "B2"
   },
   {
-    "de": "umhören, sich",
+    "de": "sich umhören",
     "lv": "informarse • preguntar por ahí",
     "level": "B2"
   },
